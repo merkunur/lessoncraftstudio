@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tegn og fargelegg arbeidsark selge 2026',
-    secondaryKeywords: ['tegn og fargelegg arbeidsark selge Etsy', 'tegn og fargelegg arbeidsark selge tips', 'tegn og fargelegg arbeidsark selge strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
-    titleTag: 'Tegn-og-fargelegg-arbeidsark: Selg på nett | LCS',
-    metaDescription: 'Tegn-og-fargelegg-arbeidsark: Selg på nett. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',
+    primaryKeyword: 'selge tegn-og-fargelegg oppgaver Etsy',
+    secondaryKeywords: ['tegn og fargelegg arbeidsark Etsy KDP', 'kreative oppgaver selge nett', 'tegneoppgaver barn selge'],
+    lsiKeywords: ['tegn og fargelegg arbeidsark Etsy', 'oppgaver kreativ selge', 'KDP tegnebok barn', 'kommersiell lisens arbeidsark', 'Etsy digital nedlasting', 'arbeidsark generator', 'LessonCraftStudio'],
+    titleTag: 'Selg tegn-og-fargelegg-oppgaver på Etsy',
+    metaDescription: 'Tegn-og-fargelegg-oppgaver kombinerer kreativitet og læring. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Tegn-og-fargelegg-arbeidsark: Selg på nett',
+    title: 'Selg tegn-og-fargelegg-oppgaver — kreativ læring som selger',
     tagline: 'Kreativ læring som selger seg selv',
     description: 'Denne guiden dekker alt du trenger for å bygge en lønnsom forretning med tegn og fargelegg arbeidsark selge. Fra produktoppbygging og prissetting til SEO-optimalisering og plattformvalg. Lær hvordan du bruker LessonCraftStudios generatorer til å lage profesjonelle produkter på minutter og selge dem på Etsy, Amazon KDP og Undervisningsbyen.no.',
   },

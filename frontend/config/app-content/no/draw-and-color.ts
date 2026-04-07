@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rutenetttegning generator',
-    secondaryKeywords: [
-      'rutenetttegning arbeidsark selg på Etsy',
-      'tegn og fargelegg generator til Amazon KDP',
-      'rutenettreproduksjon arbeidsark kommersiell lisens',
-      'utskriftsbare tegneovelser til Gumroad',
-    ],
-    lsiKeywords: [
-      'digitale rutenetttegning produkter nettbasert forretning',
-      'utskriftsbare celle-for-celle reproduksjon arbeidsark business',
-      'rutenetttegning generator kommersielt bruk',
-    ],
-    titleTag: 'Rutenetttegning Generator | Lag Rutenettkunst Arbeidsark',
-    metaDescription: 'Lag rutenetttegningsarbeidsark til salg på Etsy, KDP og Gumroad. Dobbelt rutenettsystem, justerbar ledetrådsprosent, symmetrimoduser. $49 engangsbetaling.',
+    primaryKeyword: 'tegneoppgave skrive ut',
+    secondaryKeywords: ['tegne og fargelegge oppgave', 'steg-for-steg tegning', 'kunstoppgave skrive ut', 'kreativt oppgaveark'],
+    lsiKeywords: ['tegne', 'fargelegge', 'kreativ', 'kunst', 'steg-for-steg'],
+    titleTag: 'Tegne og fargelegge oppgave å skrive ut | Kreativ generator',
+    metaDescription: 'Lag tegne- og fargeleggingsoppgaver med temabilder. 300 DPI PDF utskrivbare. Prøv gratis — kommersiell lisens.',
   },
 
   hero: {
-    title: 'Rutenetttegning Arbeidsark Generator for Rutenettbaserte Tegneovelser',
+    title: 'Tegne og fargelegge oppgave å skrive ut — Kreativ generator med temabilder',
     tagline: 'Dobbelt rutenettsystem — ovelsesrutenett og ledetrådsrutenett side om side — med justerbar ledetrådsprosent fra 10 % til 75 %, horisontale og vertikale symmetrimoduser og 100+ svart-hvite konturtemaer for tegning og fargelegging.',
     description:
       'Design profesjonelle rutenetttegningsarbeidsark der brukerne reproduserer et referansebilde ved å kopiere det celle-for-celle fra et ledetrådsrutenett til et tomt ovelsesrutenett. To rutenett vises per valgt bilde: et Ovelsesrutenett med tomme celler der brukerne tegner, og et Ledetrådsrutenett som viser en konfigurerbar prosent av referansebildet som visuelle ledetråder. Juster ledetrådsprosenten fra 10 % til 75 % for å kontrollere vanskelighetsgraden — faerre ledetråder betyr vanskeligere ovelser som krever skarpere observasjon. Konfigurer rutenettdimensjoner fra 3×3 (9 celler) til 10×10 (100 celler), med rader og kolonner justerbare uavhengig fra 3 til 10. Tre symmetrimoduser legger til en romlig resonnementsdimensjon: Tilfeldig plasserer ledetråder i spredte posisjoner, Horisontal speiler ledetråder venstre-til-hoyre, og Vertikal speiler ledetråder ovenfra-og-ned, hver med en del-å-vise-velger. Innhold hentes fra det innebygde svart-hvite konturtemabiblioteket med 100+ samlinger med mer enn 3 000 svart-hvite illustrasjoner spesifikt designet for tegning og fargelegging — ikke fargerike temaer, men rene konturer som brukerne reproduserer og deretter fargelegger. Dette er en rent visuell app: arbeidsarkene inneholder kun rutenettbilder uten tekst, noe som gjor dem universelt brukbare uansett språk. Ingen fasit nodvendig da ledetrådsrutenettet i seg selv fungerer som referanselosningen. Full Tilgang låser opp alle 100+ svart-hvite temaer og alle 11 brukergrensesnittspråk. Eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI i Letter-, A4- eller egendefinert format. Enten du selger rutenetttegningspakker på Etsy, setter sammen tegneferdighedsarbeidboker til Amazon KDP eller lager romlige resonnementsstasjoner til Gumroad — Rutenetttegning Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Valentinsdag utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme valentinsdag utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Hjerte- og kjærlighetstema produktkonsepter for selgere.',
-
-    primaryKeyword: 'valentinsdag utskriftsbare ideer',
+    titleTag: 'Valentinsdag-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Valentinsdag-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge valentinstema oppgaver.',
+    primaryKeyword: 'valentinsdag-oppgaver til salg',
     secondaryKeywords: [
-      'valentinstema arbeidsark til salg',
-      'valentinsdag utskriftsbar forretning',
-      'hjerteaktivitetsark for selgere',
-      'selg valentinsprintables på Etsy',
+      'valentinsdag arbeidsark selge Etsy',
+      'valentinstema aktivitetsbøker KDP',
+      'selge valentinsdag-oppgaver på nett',
+      'valentinsdag nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'hjerter og kjærlighet pedagogiske arbeidsark',
-      'valentinsdag aktivitetssider',
-      'februar sesongbaserte utskriftsbare produkter',
+      'valentinsdag nisje Etsy KDP',
+      'sesongbasert etterspørsel februar',
+      'valentinstema arbeidsark barneskole',
+      'pedagogiske valentinsdag-oppgaver til salg',
+      'valentinssesong produktlinje selgere',
     ],
   },
   hero: {
-    title: 'Valentinsdag utskriftsbare forretningsideer for selgere',
+    title: 'Valentinsdag-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Valentinsdag er en av de mest konsentrerte og intense sesongene for utskriftsbare selgere, med et komprimert men svært innbringende salgsvindu fra midten av januar til 14. februar. Hjerter, kjærlighet, vennskap, roser og søte dyr gir et umiddelbart gjenkjennelig visuelt vokabular som engasjerer barn og foreldre. Valentinsdagskort, klasseromsfester og vennaktiviteter skaper intens etterspørsel etter temabaserte arbeidsark og aktiviteter. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad representerer valentinsdag en dokumentert sesongmulighet med høy konvertering og sterk impulskjøpsatferd. Denne guiden gjennomgår produktideer, plattformstrategier og timingtilnærminger for å bygge en lønnsom valentinsdag utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Valentinsdag utskriftsbar-nisjen er blant de mest intense sesongnisjene med et komprimert salgsvindu som kompenseres av ekstremt høy konverteringsrate. Kjøpere har et klart behov med fast tidsfrist — 14. februar — noe som driver besluttsomme kjøp med minimal nøling. Foreldre som forbereder valentinsdagsaktiviteter for barn kjøper raskt og verdsetter bekvemmelighet fremfor prisjakt.

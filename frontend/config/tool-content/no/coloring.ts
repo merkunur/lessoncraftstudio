@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'fargeleggingsside generator lag sider',
+    primaryKeyword: 'fargeleggingsbilder lage gratis',
     secondaryKeywords: [
-      'fargeleggingsside generator for selgere',
-      'tilpassede fargeleggingsarbeidsark online',
-      'fargeleggingsside generator for hjemmeundervisning',
-      'utskriftsbare fargeleggingssider for barn online',
+      'fargeleggingsgenerator gratis',
+      'fargeleggingsbilder gratis skrive ut',
+      'egne fargeleggingsbilder gratis',
+      'tegninger til fargelegging gratis',
     ],
     lsiKeywords: [
-      'produktlinjens fargeleggingsside designer online',
-      'gråtone fargeleggingsarbeidsark til trykk',
-      'frihåndstegning fargeleggingsaktivitet generator',
+      'konturer',
+      'farger',
+      'tegning',
+      'utskrivbar',
+      'vannmerke',
+      'gratis',
+      'barn',
     ],
-    titleTag: 'Tilpasset Fargeleggingsside Generator — Lag Sider Online...',
-    metaDescription: 'Lag tilpassede fargeleggingssider for din produktlinje eller hjemme. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Fargeleggingsbilder lage gratis | Generator fargelegging online',
+    metaDescription: 'Lag fargeleggingsbilder gratis online fra 3 000+ temabilder. Høyoppløselige konturer, 300 DPI PDF. Ingen registrering.',
   },
 
   hero: {
-    title: 'Fargeleggingsside Generator',
+    title: 'Fargeleggingsbilder lage gratis — Generator for fargelegging online',
     tagline: 'Fritt arbeidsområde fargeleggingsside generator med frihåndstegning, gråtoneeksport, produktlinjehjelpere og 104 tematiske bildesamlinger for profesjonelle fargeleggingssider som selger globalt uten oversettelse',
     description: 'Design profesjonelle fargeleggingssider på et helt åpent arbeidsområde der du plasserer bilder nøyaktig der du vil — ingen rutenett, ingen maler, ingen bokser, ren kreativ frihet. Denne frie tilnærmingen er kjernedifferensiatoren: hver fargeleggingsside du lager er unik og umulig å gjenskape med malbaserte verktøy. Bla gjennom 104 tematiske bildesamlinger med mer enn 3 100 fargerike illustrasjoner, klikk for å legge til bilder, arranger deretter, endre størrelse, roter og lag elementer hvor som helst på arbeidsområdet. Frihåndstegningsverktøyet lar deg skissere originale illustrasjoner direkte ved siden av biblioteksbilder med justerbar penselfarge og størrelse (1–50 piksler), noe som generator hybridfargeleggingssider som blander kuratert kunstverk med dine egne tegninger. Ettklikks produktlinjehjelpere legger til et navnefelt («Navn: ____») og skriveøvelseslinjer (heltrukket, stiplet, heltrukket) — forvandler fargeleggingssider til produktlinjeklare aktivitetsark som selger på Gumroad. Bytt gråtoneeksport for å konvertere den fargerike komposisjonen din til blekkvarsome fargeleggingssider perfekte for KDP-innsider og masseutskrift. Legg til dekorative rammetemaer, tilpasset tekst med kontureffekter, og last opp egne PNG-, JPG- eller GIF-bilder. Dette er en helt visuell app — outputtet inneholder ingen tekst, noe som gjør fargeleggingssider universelt salgbare uten oversettelse. Ingen fasit eksisterer, da fargelegging er en kreativ aktivitet uten korrekt svar. Eksporter trykklare PDF-er og JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller egendefinerte størrelser. Den gratis prøveversjonen inneholder alle funksjoner med et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

@@ -19,7 +19,7 @@ const guidesKeywords: Record<string, string[]> = {
   nl: ['gidsen printables-business', 'Etsy verkopen gids', 'KDP publiceren gids', 'printables marketing', 'werkbladen verkopen online', 'Bol.com printables'],
   sv: ['guider utskriftsföretag', 'sälja arbetsblad', 'Etsy utskrifts tutorial', 'KDP publiceringsguide', 'skapa och sälja utskrifter', 'tips utskriftssäljare'],
   da: ['guider til at sælge opgaver til print', 'sælge printables Etsy', 'KDP aktivitetsbog guide', 'oprette og sælge arbejdsark', 'tips til printable-sælgere', 'Etsy SEO opgaver til print'],
-  no: ['veiledninger utskriftsvirksomhet', 'selge oppgaver', 'Etsy utskrift tutorial', 'KDP publiseringsguide', 'lage og selge utskrifter', 'tips utskriftsselger'],
+  no: ['veiledninger arbeidsark-virksomhet', 'selge arbeidsark Etsy', 'lage oppgaver å skrive ut', 'KDP aktivitetsbok guide', 'selge oppgaver på nett', 'tips arbeidsark-selgere'],
   fi: ['tulostettavien yritysoppaat', 'myydä tehtäviä', 'Etsy tulostettava opas', 'KDP julkaisuopas', 'luoda ja myydä tulostettavia', 'vinkkejä tulostettavien myyjälle'],
 };
 
@@ -209,17 +209,17 @@ const guidesContent: Record<string, {
     },
   },
   no: {
-    heroTitle: 'Veiledninger',
-    heroDescription: 'Steg-for-steg-veiledninger for å lage og selge utskrifter. Fra plattformguider til forretningsstrategier.',
-    metaTitle: 'Veiledninger | Lag og selg utskrifter | LessonCraftStudio',
-    metaDescription: '65 steg-for-steg-veiledninger for å lage og selge utskrifter. Plattformguider, produksjonsguider og forretningsstrategier for Etsy, KDP, TPT.',
-    ctaTitle: 'Begynn å lage i dag',
+    heroTitle: 'Veiledninger for arbeidsark-selgere',
+    heroDescription: 'Steg-for-steg-veiledninger for å lage og selge arbeidsark og oppgaver. Fra plattformguider til forretningsstrategier.',
+    metaTitle: '65 veiledninger: Lag og selg arbeidsark på Etsy & KDP',
+    metaDescription: 'Steg-for-steg-veiledninger om Etsy SEO, KDP-formatering, prisstrategier, nisjevalg og mer. Alt du trenger for å bygge en arbeidsark-virksomhet.',
+    ctaTitle: 'Begynn å lage arbeidsark i dag',
     ctaDescription: 'Prøv alle 33 generatorer gratis med vannmerke. Ingen registrering.',
     ctaButton: 'Prøv generatorene gratis',
     subcatDescriptions: {
-      platform: 'Slik oppretter og selger du på spesifikke plattformer',
-      product: 'Slik oppretter du spesifikke typer utskrifter',
-      business: 'Vekst og skalering av din utskriftsvirksomhet',
+      platform: 'Slik oppretter og selger du arbeidsark på spesifikke plattformer',
+      product: 'Slik lager du spesifikke typer arbeidsark og oppgaver',
+      business: 'Vekst og skalering av din arbeidsark-virksomhet',
     },
   },
   fi: {

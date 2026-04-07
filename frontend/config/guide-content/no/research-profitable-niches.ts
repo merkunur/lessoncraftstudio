@@ -2,14 +2,14 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'undersok lonnsome nisjer',
-    secondaryKeywords: ['nisjeundersokelse printables', 'finn lonnsomt nisjemarked', 'markedsundersokelse arbeidsark', 'ettersporselanalyse printable-nisjer'],
-    lsiKeywords: ['konkurranse nisjemarked analyse', 'sokevolum printable-nisjeforskning', 'nisjevalidering gjennom testing', 'markedsplassdata nisjeanalyse'],
-    titleTag: 'Undersok lonnsome nisjer — Guide',
-    metaDescription: 'Systematisk undersokelsesprosess for a finne lonnsome printable-nisjer. Markedsplassanalyse, ettersporselvalidering og konkurransevurdering.',
+    primaryKeyword: 'finne lønnsomme nisjer arbeidsark',
+    secondaryKeywords: ['nisjeforskning arbeidsark Etsy KDP', 'markedsundersøkelse arbeidsark-virksomhet', 'etterspørselsanalyse oppgaver nisjer'],
+    lsiKeywords: ['konkurranse nisjemarked analyse', 'søkevolum arbeidsark-nisjeforskning', 'nisjevalidering gjennom testing', 'Etsy arbeidsark nisjer', 'KDP aktivitetsbok nisje', 'kommersiell lisens oppgaver', 'ordleting arbeidsark nisje', 'lønnsomme arbeidsark-markeder'],
+    titleTag: 'Finn lønnsomme nisjer for arbeidsark | Nisjeforskning',
+    metaDescription: 'Slik finner du lønnsomme nisjer for arbeidsark. Forskningsmetoder for Etsy, KDP og andre plattformer.',
   },
   hero: {
-    title: 'Hvordan undersoke lonnsome nisjer for printables',
+    title: 'Finn lønnsomme nisjer for arbeidsark — forskningsmetoder for Etsy, KDP og andre plattformer',
     tagline: 'En systematisk guide til nisjeundersokelse — som dekker markedsplassanalyse, ettersporselvalidering, konkurransekartlegging og hurtig nisjetesting med arbeidsarkgeneratorer',
     description: 'Nisjeundersokelse er prosessen med a identifisere spesifikke markedssegmenter der ettersporsel overstiger tilbud. For printable-selgere betyr dette a finne kombinasjoner av produkttype, tema og målgruppe der kjopere aktivt soker men fa selgere leverer kvalitetsprodukter.',
   },

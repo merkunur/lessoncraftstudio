@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bygg postliste printable bedriften bedrift',
-    secondaryKeywords: ['e-postliste printable bedrift tips', 'e-postliste printable bedrift strategi', 'e-postliste printable bedrift 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Bygg e-postliste for printable-bedriften | LCS',
-    metaDescription: 'Etsy eier kunderelasjonen. Pinterest kan endre algoritmen. Men e-postlisten din er din. Denne guiden viser deg hvordan du bygger en e-postliste og bru',
+    primaryKeyword: 'e-postliste arbeidsark-butikk Etsy',
+    secondaryKeywords: ['bygg e-postliste selge oppgaver', 'e-post markedsføring arbeidsark', 'kundeliste arbeidsark-forretning'],
+    lsiKeywords: ['e-postliste arbeidsark Etsy', 'oppgaver markedsføring e-post', 'Etsy butikk kundeliste', 'kommersiell lisens arbeidsark', 'digital nedlasting e-post', 'arbeidsark selger strategi', 'LessonCraftStudio'],
+    titleTag: 'Bygg e-postliste for arbeidsark-butikken',
+    metaDescription: 'E-postlisten din er den eneste kanalen du eier. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Bygg e-postliste for printable-bedriften',
+    title: 'Bygg e-postliste for arbeidsark-butikken — din viktigste kanal',
     tagline: 'Din eneste direkte kommunikasjonskanal med kundene',
     description: 'Etsy eier kunderelasjonen. Pinterest kan endre algoritmen. Men e-postlisten din er din. Denne guiden viser deg hvordan du bygger en e-postliste og bruker den til å drive gjentatt salg.',
   },

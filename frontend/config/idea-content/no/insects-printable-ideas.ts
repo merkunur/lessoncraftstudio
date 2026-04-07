@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Insekt utskriftsbare ideer til salg — Nisjeguide',
-    metaDescription: 'Utforsk insekt utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Insekttema produktkonsepter, plattformtips og nisjestrategier for selgere.',
-
-    primaryKeyword: 'insekt utskriftsbare ideer',
+    titleTag: 'Insekt-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Insekt-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge insekttema oppgaver.',
+    primaryKeyword: 'insekt-oppgaver til salg',
     secondaryKeywords: [
-      'insekt arbeidsark til salg',
-      'insekttema utskriftsbar forretning',
-      'insekt aktivitetsark for selgere',
-      'selg insekt printables online',
+      'insekt arbeidsark selge Etsy',
+      'insekttema aktivitetsbøker KDP',
+      'selge insekt-oppgaver på nett',
+      'insekt nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'småkryp pedagogiske arbeidsark',
-      'sommerfugl og bie aktivitetssider',
-      'insektlivssyklus utskriftsbare produkter',
+      'insekt nisje Etsy KDP',
+      'insekttema arbeidsark barneskole',
+      'pedagogiske insekt-oppgaver til salg',
+      'natur-tema produktlinje selgere',
+      'sommerfugl og bie oppgaver',
     ],
   },
   hero: {
-    title: 'Insekt utskriftsbare forretningsideer for selgere',
+    title: 'Insekt-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Insekter fascinerer barn med sine utrolige former, farger og atferdsmønstre, og skaper en naturlig nisjemulighet for utskriftsbare selgere. Sommerfugler, bier, marihøner, maur, gresshopper, biller og edderkopper tilbyr en rik visuell palett for pedagogiske arbeidsark som kombinerer naturfagslæring med ferdighetsbygging. For selgere på Etsy, Amazon KDP og Gumroad kombinerer insektnisjen sterk sesongetterspørsel om våren og sommeren med helårsrelevans gjennom naturfagsenheter om livssykluser, habitater og klassifisering. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å hjelpe deg med å bygge en lønnsom insekt utskriftsbar produktlinje med våre arbeidsarkgeneratorverktøy.',
   },
   marketOverview: `Insekt utskriftsbar-nisjen tilbyr en unik kombinasjon av naturfaglig dybde og visuell appell som skaper sterke salgsmuligheter for pedagogiske produktselgere. Barn er naturlig nysgjerrige på insekter, og denne fascinasjonen driver etterspørsel etter utskriftsbare materialer som utforsker insektverdenen gjennom engasjerende aktiviteter. Foreldre søker insekttema arbeidsark som kanaliserer barnas naturlige interesse til strukturert læring, mens kjøpere trenger ressurser for naturfagsenheter om livssykluser, habitater, klassifisering og økosystemroller.

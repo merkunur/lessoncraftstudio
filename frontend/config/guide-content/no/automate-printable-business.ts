@@ -2,24 +2,15 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hvordan automatisere din printbare virksomhet',
-    secondaryKeywords: [
-      'automatiser printbar virksomhet guide',
-      'automatiseringsverktoy for printbar virksomhet',
-      'spar tid med a selge printables',
-      'effektivisere printbar produktoppretting',
-    ],
-    lsiKeywords: [
-      'automatisering av printbar virksomhet',
-      'optimalisering av arbeidsflyt for digitale produkter',
-      'effektiv printbar produksjon',
-    ],
-    titleTag: 'Automatisere din printbare virksomhet | LCS',
-    metaDescription: 'Hvordan automatisere din printbare virksomhet. Produksjonsarbeidsflyter, oppforingsverktoy og tidsbesparende strategier for effektive printable-selgere.',
+    primaryKeyword: 'automatisere arbeidsark-virksomhet',
+    secondaryKeywords: ['automatiser arbeidsark-virksomhet guide', 'effektivisere oppgave-produksjon Etsy', 'tidsbesparelse arbeidsark-selgere KDP'],
+    lsiKeywords: ['automatisering arbeidsark-virksomhet', 'optimalisering arbeidsflyt oppgaver', 'effektiv arbeidsark-produksjon', 'Etsy arbeidsark automatisering', 'KDP aktivitetsbok effektivisering', 'kommersiell lisens arbeidsark', 'batchproduksjon oppgaver', 'verktøy arbeidsark-selgere'],
+    titleTag: 'Automatiser arbeidsark-virksomheten | Effektiviseringsguide',
+    metaDescription: 'Slik automatiserer du din arbeidsark-virksomhet. Verktøy, arbeidsflyt og tidsbesparelse for selgere.',
   },
 
   hero: {
-    title: 'Hvordan automatisere din printbare virksomhet',
+    title: 'Automatiser arbeidsark-virksomheten — verktøy, arbeidsflyt og tidsbesparelse for selgere',
     tagline: 'En komplett guide til effektivisering av din printbare virksomhet — dekker hvordan du identifiserer automatiseringsmuligheter, bygger malsystemer, batchproduserer oppgaver, standardiserer oppforinger, organiserer filer systematisk, automatiserer filbehandling, lager produksjonsplaner og skalerer gjennom systematisk variasjon',
     description: 'Forskjellen mellom en printbar virksomhet som genererer tilbakevendende inntekter og en som foler seg som en fulltidsjobb er automatisering. Denne guiden dekker automatisering av hvert stadium i din printbare virksomhet: batchproduksjonsarbeidsflyter med generatorer, malsystemer for oppforinger for raskere opplastinger, planlagt markedsforing i sosiale medier og automatisert kundekommunikasjon. Du vil laere hvordan du reduserer tiden brukt per produkt fra timer til minutter mens du opprettholder kvaliteten som holder vurderingene dine hoye.',
   },

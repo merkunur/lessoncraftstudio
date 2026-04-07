@@ -2,14 +2,14 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Mat og matlaging utskriftbare ideer til salg — Nisjeguide',
-    metaDescription: 'Oppdag mat og matlaging utskriftbare ideer til salg på Etsy, Amazon KDP og Gumroad. Mattema produktkonsepter, plattformstrategier og nisjetips for selgere.',
-    primaryKeyword: 'mat og matlaging utskriftbare ideer',
-    secondaryKeywords: ['mat arbeidsark til salg', 'matlagingstema utskriftbar virksomhet', 'mat aktivitetsark for selgere', 'selg mat utskriftbare på Etsy'],
-    lsiKeywords: ['ernæringstema pedagogiske arbeidsark', 'kokekunst læringsaktiviteter', 'frukt og grønnsaker utskriftbare produkter'],
+    titleTag: 'Mat og matlaging oppgaver til salg | Nisjeideer',
+    metaDescription: 'Mat-og-matlaging oppgaver til salg på Etsy og KDP. Mattema arbeidsark med frukt, grønnsaker og oppskrifter — nisjeideer og plattformstrategier for selgere.',
+    primaryKeyword: 'mat-og-matlaging oppgaver til salg',
+    secondaryKeywords: ['selge mat-arbeidsark Etsy', 'matlaging-oppgaver KDP', 'mattema arbeidsark til salg', 'frukt og grønnsaker oppgaver for selgere'],
+    lsiKeywords: ['nisje mat-oppgaver', 'tema matlaging arbeidsark', 'sesong matoppgaver', 'Etsy mat arbeidsark', 'KDP matlaging aktivitetsbok', 'selge oppgaver digitalt', 'eviggrønn matnisje'],
   },
   hero: {
-    title: 'Mat og matlaging utskriftbare forretningsideer for selgere',
+    title: 'Mat og matlaging oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Mat og matlaging representerer en eksepsjonelt allsidig nisje for utskriftbare selgere fordi den kombinerer universell barneappell med sterk tverrfaglig pedagogisk verdi og helårs relevans. Temaet omfatter et enormt visuelt ordforråd inkludert frukt, grønnsaker, bakverk, kjøkkenutstyr, matlagingsprosesser, måltider, restauranter og ernæringskonsepter. Barn er naturlig fascinert av mat fordi de interagerer med den flere ganger daglig, noe som gjør matrelaterte arbeidsark iboende engasjerende. For utskriftbare selgere på Etsy, Amazon KDP og Gumroad kombinerer mat-nisjen eviggrønn etterspørsel med tverrfaglig pedagogisk verdi som resonerer med kjøpere, foreldre og hjemmeundervisere. Denne guiden gir spesifikke produktideer og plattformstrategier for å bygge en lønnsom mat utskriftbar produktlinje.',
   },
   marketOverview: `Mat og matlaging utskriftbar-nisjen inntar en unikt allsidig posisjon for utskriftbare selgere fordi den berører nesten hvert pedagogisk fag og aldersgruppe. Naturfagsforbindelser inkluderer ernæring, matgrupper, plantevekst, sesongbaserte avlinger og matlaging som kjemiske reaksjoner. Matematikkforbindelser oppstår gjennom målinger, oppskriftsberegninger, brøker gjennom matdeling og telling av ingredienser. Leseferdighetsforbindelser inkluderer matordforråd, oppskriftslesing, instruksjonsforståelse og beskrivende skriving om smaker og teksturer.

@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'preposisjoner arbeidsark generator',
-    secondaryKeywords: [
-      'utskriftsbare preposisjoner arbeidsark til Etsy-selgere',
-      'romlig språk arbeidsark generator til KDP-utgivere',
-      'preposisjoner aktiviteter selg på Gumroad',
-      'preposisjoner utskriftsbare kommersiell lisens',
-    ],
-    lsiKeywords: [
-      'digitale romlige ordforråd produkter nettbasert forretning',
-      'utskriftsbare preposisjoner arbeidsark business',
-      'kommersielt bruk språkarbeidsark generator',
-    ],
-    titleTag: 'Preposisjoner Arbeidsark Generator | Lag Utskriftsbare',
-    metaDescription: 'Lag preposisjoner arbeidsark til salg på Etsy, KDP og Gumroad. 8 romlige preposisjoner, utfyllingsøvelser og flervalg. $49 engangsbetaling.',
+    primaryKeyword: 'romforståelse oppgave skrive ut',
+    secondaryKeywords: ['preposisjoner øvelser', 'over under ved siden av oppgave', 'stedsbegreper oppgaveark', 'retningsbegreper 1. trinn'],
+    lsiKeywords: ['preposisjon', 'romforståelse', 'stedsbegrep', 'retning', 'over', 'under'],
+    titleTag: 'Romforståelse oppgave å skrive ut | Preposisjonsgenerator',
+    metaDescription: 'Lag oppgaver om romforståelse og preposisjoner med temabilder. Automatisk fasit, 11 språk. Prøv gratis.',
   },
 
   hero: {
-    title: 'Preposisjoner Arbeidsark Generator for Romlig Språk',
+    title: 'Romforståelse oppgave å skrive ut — Preposisjonsgenerator med temabilder',
     tagline: 'Åtte romlige preposisjoner møter bilde-og-form øvelser — bygg romlig ordforråd, setning for setning.',
     description:
       'Design profesjonelle preposisjoner arbeidsark som lærer romlige relasjoner gjennom praktiske bilde-og-form øvelser. Brukerne øver åtte kjernepreposisjoner — i, på, under, ved siden av, bak, mellom, over og foran — med to ulike øvelsesmoduser: Utfyllingsøvelser der brukerne skriver den manglende preposisjonen, og Flervalgsspørsmål der brukerne identifiserer bildet som matcher en romlig beskrivelse. Velg hvilke preposisjoner du vil inkludere via den innebygde sjekklisten, og konfigurer 1 til 8 øvelser per arbeidsark. Bla gjennom mer enn 3 100 nøye utvalgte illustrasjoner i 104 temaer til de plasserte gjenstandene, og velg blant 8 geometriske former (sirkel, kube, sylinder, hjerte, sekskant, kvadrat, stjerne, trekant) som romlige referansepunkter. Full Tilgang låser opp alle 11 støttede språk med grammatisk korrekte preposisjoner — tysk med kasussammentrekninger som «im» og «am», fransk med elisjonsregler for «l\'» før vokaler, spansk med kjønnsbestemte artikler — noe som multipliserer produktkatalogen din elleve ganger fra et enkelt arbeidsflyt. Hvert arbeidsark genererer automatisk en fasit, og du kan eksportere trykkeklare PDF-er og JPEG-er med mer enn 400 DPI i Letter-, A4-, Kvadrat- eller egendefinert format. Enten du selger tematiske preposisjonspakker på Etsy, setter sammen bøker om romlig ordforråd til Amazon KDP eller lager nivåinndelte språkstasjoner til Gumroad — Preposisjoner Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',

@@ -2,25 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag monsterarbeidsark for salg',
+    primaryKeyword: 'lag mønsteroppgaver å skrive ut steg for steg',
     secondaryKeywords: [
-      'lag monstergjenkjenningsarbeidsark for salg',
-      'lag monsterarbeidsark for Etsy',
-      'lag sekvensarbeidsark for KDP',
-      'monsterarbeidsark opprettelsesguide',
-      'selg monster-printables pa nett',
+      'lage mønsteroppgaver med temabilder for Etsy',
+      'selge mønstergjenkjenning arbeidsark på Amazon KDP',
+      'lag sekvensoppgaver for barn',
+      'mønsteroppgaver barneskole kommersiell lisens',
     ],
     lsiKeywords: [
-      'monsterprodukt oppretting',
-      'tidlig matte arbeidsark virksomhet',
-      'salgbare monsterprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'mønsteroppgaver med temabilder',
+      'mønstergjenkjenning å skrive ut',
     ],
-    titleTag: 'Lag monsterarbeidsark for salg pa nett | LCS',
-    metaDescription: 'Guide til a lage monstergjenkjenningsarbeidsark for salg. Sekvensaktiviteter, temaer og strategier for Etsy og KDP monsterarbeidsarkselgere.',
+    titleTag: 'Lag mønsteroppgaver å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag mønsteroppgaver å skrive ut med temabilder og ni mønstertyper. Konfigurerbar vanskelighetsgrad. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag monstergjenkjenningsarbeidsark for salg pa nett',
+    title: 'Lag mønsteroppgaver å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage tematiske, utskriftsklare monstergjenkjenningsarbeidsark du kan selge pa Etsy, Amazon KDP og Gumroad',
     description: 'Monstergjenkjenning er en grunnleggende kognitiv ferdighet som foreldre og pedagoger prioriterer — noe som gjor monsterarbeidsark til en palitelig selger pa Etsy og Amazon KDP aret rundt. Denne guiden dekker a lage profesjonelle monsterarbeidsark designet for salg: konfigurering av monsterkompleksitet for forskjellige aldersgrupper, valg av temaer som tiltrekker kjopere, og bygging av progressive vanskelighetssett som dekker forskole gjennom tidlig barneskole. Du vil laere hvordan du parer monstertog og monstergjenkjenningsformater for omfattende pakker som krever premiumpriser.',
   },

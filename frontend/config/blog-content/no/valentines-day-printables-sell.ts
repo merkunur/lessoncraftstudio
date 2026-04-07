@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'valentinsdag utskrifter selg hjertetema',
-    secondaryKeywords: ['valentinsdag printables selge Etsy', 'valentinsdag printables selge strategi', 'valentinsdag printables selge tips'],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Valentinsdag-utskrifter: Selg med hjertetema | LCS',
-    metaDescription: 'Valentinsdag er et stort marked internasjonalt, og det vokser også i Norge. Utskrivbare aktiviteter med hjertetema, kjærlighetsordsøk og valentinmatte',
+    primaryKeyword: 'valentinsdag arbeidsark selge Etsy hjertetema',
+    secondaryKeywords: ['valentinsdag oppgaver selge nettbutikk', 'hjerte-tema arbeidsark forretning', 'valentinsdag ordleting matte-oppgaver selge'],
+    lsiKeywords: ['sesongbaserte arbeidsark salg', 'valentinsdag oppgaver barn', 'hjerte arbeidsark kommersiell lisens'],
+    titleTag: 'Valentinsdag-arbeidsark: Selg hjertetema | LCS',
+    metaDescription: 'Selg valentinsdag-arbeidsark med hjertetema og ordleting på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Valentinsdag-utskrifter: Selg med hjertetema',
+    title: 'Valentinsdag-arbeidsark: Selg med hjertetema',
     tagline: 'Hjerter og kjærlighet — et globalt sesongmarked',
     description: 'Valentinsdag er et stort marked internasjonalt, og det vokser også i Norge. Utskrivbare aktiviteter med hjertetema, kjærlighetsordsøk og valentinmatteoppgaver selger godt i januar og februar.',
   },

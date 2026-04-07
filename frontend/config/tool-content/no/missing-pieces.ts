@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'manglende biter generator puslespillarbeidsark',
+    primaryKeyword: 'manglende brikker puslespill gratis',
     secondaryKeywords: [
-      'puslespillarbeidsark generator for selgere',
-      'lag manglende biter puslespill til salg',
-      'utskriftsbar puslespillgenerator kommersiell bruk',
-      'manglende biter puslespill generator for KDP og Etsy',
+      'hvilken brikke passer gratis',
+      'puslespill oppgaveark gratis',
+      'visuell logikk gratis',
+      'puslespillbrikker gratis',
     ],
     lsiKeywords: [
-      'smart brikkeekstraksjon fargevarians puslespill generator',
-      'seks former manglende biter arbeidsark generator med fasit',
-      'distraktor-brikker puslespillarbeidsark generator verktøy',
+      'brikke',
+      'puslespill',
+      'visuell',
+      'logikk',
+      'vannmerke',
+      'gratis',
+      'form',
     ],
-    titleTag: 'Manglende Biter Generator — Puslespillarbeidsark Generator',
-    metaDescription: 'Manglende biter generator: lag puslespillarbeidsark med 6 brikkeformer, konfigurerbar vanskelighetsgrad og smart ekstraksjon. Selg på Etsy & KDP.',
+    titleTag: 'Manglende brikker puslespill gratis | Generator visuell logikk',
+    metaDescription: 'Lag oppgaver med manglende brikker gratis online. Temabilder, automatisk fasit, 300 DPI PDF. Ingen registrering.',
   },
 
   hero: {
-    title: 'Manglende Biter Generator',
+    title: 'Manglende brikker puslespill gratis — Generator for visuell logikk online',
     tagline: 'Puslespillarbeidsark generator med 6 brikkeformer (firkant, sirkel, rektangel stående/liggende, ellipse stående/liggende), 1–5 manglende brikker med 2–6 løsningsalternativer inkludert distraktorer, smart brikkeekstraksjon med fargevariansdetektering og 250px minimumsavstand, automatisk genererte fasit med gulmarkerte nummeretiketter, dobbelt rammesystem i blågrønn og hot pink, og 104 tematiske bildesamlinger',
     description: 'Lag profesjonelle puslespillarbeidsark der et bilde har hull klippet ut, og brukerne identifiserer hvilket nummerert alternativ som fyller hvert hull. Den smarte brikkeekstraksjonsalgoritmen tester opptil 150 plasseringsforsøk for å finne brikker med tilstrekkelig fargevarians (minste lysstyrke-varians 15) med minst 250 pikslers avstand mellom brikker. Brikkestørrelse beregnes som 12% av bildets bredde med minimum 50 piksler. Velg blant 6 brikkeformer: firkant (standard) og sirkel for rene geometriske klipp, rektangel stående/liggende for avlange hull, ellipse stående/liggende for mykere kurvede klipp. Konfigurer vanskelighetsgraden med to uavhengige kontroller: 1–5 manglende brikker og 2–6 løsningsalternativer. Distraktor-brikker ekstraheres fra ikke-overlappende områder. Dobbeltarbeidsområde-systemet genererer samtidig arbeidsark og fasit — fasiten viser gulmarkerte nummeretiketter (rgba(255,255,0,0.7)) inne i hvert hull. En automatisk generert overskrift gjengir «Manglende biter» i turkis (#06B6D4) med rosafarge beskrivelse (#DB2777) og dobbelt rammesystem — blågrønn ytre (#14B8A6, 8px) og hot pink indre (#EC4899, 3px). Manglende Biter er IKKE språkfølsomt — rent visuelt, universelt salgbart uten oversettelse. Bla gjennom 104 tematiske samlinger med mer enn 3 100 illustrasjoner eller last opp egne bilder. Eksporter fire filer per økt med 300 DPI. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

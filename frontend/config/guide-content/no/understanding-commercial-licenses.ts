@@ -2,14 +2,14 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'forstaa kommersielle lisenser',
-    secondaryKeywords: ['kommersiell lisens printables', 'kommersiell bruk arbeidsark', 'lisensrettigheter digitale produkter', 'kommersielle rettigheter arbeidsark-verktoy'],
-    lsiKeywords: ['royaltyfri kommersiell lisens', 'salgrettigheter genererte arbeidsark', 'lisensvilkar printable-verktoy', 'personlig vs kommersiell bruk'],
-    titleTag: 'Forstå kommersielle lisenser — Guide',
-    metaDescription: 'Forstå kommersielle lisenser for arbeidsark-generatorer. Hva som er inkludert, hva du kan selge, plattformrettigheter og lisenssammenligninger.',
+    primaryKeyword: 'forstå kommersiell lisens arbeidsark',
+    secondaryKeywords: ['kommersiell lisens arbeidsark Etsy KDP', 'lisensrettigheter digitale oppgaver', 'kommersielle rettigheter arbeidsark-verktøy'],
+    lsiKeywords: ['royaltyfri kommersiell lisens', 'salgrettigheter genererte arbeidsark', 'lisensvilkår arbeidsark-verktøy', 'personlig vs kommersiell bruk', 'Etsy arbeidsark lisens', 'KDP aktivitetsbok rettigheter', 'kommersiell lisens oppgaver', 'ubegrenset arbeidsark-generering'],
+    titleTag: 'Forstå kommersiell lisens for arbeidsark | Guide',
+    metaDescription: 'Hva betyr kommersiell lisens for arbeidsark? Rettigheter, begrensninger og bruk forklart for selgere.',
   },
   hero: {
-    title: 'Forstå kommersielle lisenser for arbeidsark-verktoy',
+    title: 'Forstå kommersiell lisens for arbeidsark — rettigheter, begrensninger og bruk forklart',
     tagline: 'En komplett guide til kommersielle lisenser — som dekker hva lisensen inkluderer, hva du kan og ikke kan selge, plattformrettigheter, inkludert bildebibliotek og forskjellen mellom gratis provversjon med vannmerke og kommersiell lisens',
     description: 'En kommersiell lisens er det som gjor det mulig a gjore arbeidsark-generatorer om til en inntektskilde. Uten kommersiell lisens kan du lage arbeidsark for personlig bruk — med lisensen kan du selge genererte arbeidsark pa enhver plattform. Denne guiden forklarer noyaktig hva en kommersiell lisens inkluderer, hva den lar deg gjore, og hvordan den sammenlignes med konkurrerende alternativer.',
   },

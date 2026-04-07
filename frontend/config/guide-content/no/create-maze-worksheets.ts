@@ -2,24 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag labyrintarbeidsark for salg pa Etsy',
+    primaryKeyword: 'lag labyrinter å skrive ut steg for steg',
     secondaryKeywords: [
-      'lag bildestilabyrint for Etsy',
-      'lag labyrintaktivitetsboker for KDP',
-      'labyrintarbeidsark opprettelsesguide',
-      'selg labyrint-printables pa nett',
+      'lage labyrinter med temabilder for Etsy',
+      'selge labyrintoppgaver på Amazon KDP',
+      'lag bildesti-labyrinter for barn',
+      'labyrinter barneskole kommersiell lisens',
     ],
     lsiKeywords: [
-      'labyrintprodukt oppretting',
-      'stipuslespill virksomhet',
-      'salgbare labyrintprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'labyrinter med temabilder',
+      'labyrintoppgaver å skrive ut',
     ],
-    titleTag: 'Lag labyrintarbeidsark for salg pa Etsy | LCS',
-    metaDescription: 'Guide til a lage labyrintarbeidsark for salg pa Etsy. Bildesti-format, temaer og strategier for Etsy og KDP labyrintaktivitetsbokselgere.',
+    titleTag: 'Lag labyrinter å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag labyrinter å skrive ut med temabilder og tre spillmoduser. Konfigurerbar vanskelighetsgrad og fasit. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag labyrintarbeidsark for salg pa Etsy og KDP',
+    title: 'Lag labyrinter å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage tematiske labyrintarbeidsark pa tvers av tre distinkte spillmoduser — klare for salg pa Etsy, Amazon KDP og Gumroad',
     description: 'Labyrintaktivitetsboker er en bevist kategori pa Amazon KDP, og bildestilabyrintter legger til visuell appell som standard linjelabyrintter mangler — noe som far produktene dine til a skille seg ut i sokeresultater. Denne guiden dekker a lage profesjonelle labyrintarbeidsark designet for salg: a velge temaer som matcher sesongbasert ettersporsel, bygge vanskelighetsprogresjoner, og pakke labyrintter i tematiske pakker for Etsy og aktivitetsboker for KDP. Du vil laere hvordan tematiske bildedestinasjoner gjor labyrinttene dine mer engasjerende og salgbare enn generiske stipuslespill.',
   },

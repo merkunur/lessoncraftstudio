@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'arbeidsark design tips selg mer 2026',
+    primaryKeyword: 'arbeidsark design tips selg mer Etsy',
     secondaryKeywords: [
-      'steg steg gjennomføring',
-      'optimalisering finjustering',
-      'publisering markedsføring',
+      'designprinsipper arbeidsark øk salg',
+      'layout farger arbeidsark konvertering',
+      'visuelt attraktive arbeidsark Etsy',
     ],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
+    lsiKeywords: ['arbeidsark design forretning', 'arbeidsark layout optimalisering', 'Etsy konvertering design'],
     titleTag: 'Arbeidsark-designtips som øker salget | LCS',
-    metaDescription: 'Designet på arbeidsarkene dine påvirker salget direkte. Denne guiden dekker designprinsipper som gjør produktene. Selg pa Etsy & KDP med kommersiell lisens.',
+    metaDescription: 'Designprinsipper som øker salget av arbeidsark på Etsy: layout, farger og temabilder. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Arbeidsark-designtips som øker salget',
+    title: 'Designtips for arbeidsark som øker salget',
     tagline: 'Visuelt attraktive ark konverterer bedre',
     description: 'Designet på arbeidsarkene dine påvirker salget direkte. Denne guiden dekker designprinsipper som gjør produktene dine mer attraktive: fargevalg, layout, typografi og bruk av temabilder.',
   },

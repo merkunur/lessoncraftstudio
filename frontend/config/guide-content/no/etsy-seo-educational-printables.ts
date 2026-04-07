@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO for printbare arbeidsark',
+    primaryKeyword: 'Etsy SEO for arbeidsark',
     secondaryKeywords: [
-      'Etsy SEO for printbare arbeidsark 2026',
-      'Etsy SEO tips for pedagogiske printables',
-      'optimaliser Etsy-oppføringer for arbeidsarksalg',
-      'Etsy søkerangering for printable-selgere',
-      'Etsy tagger og titler for arbeidsark 2026',
+      'Etsy tagger titler arbeidsark optimalisering',
+      'Etsy søkeord oppgaver strategi',
+      'Etsy rangering arbeidsark selgere',
     ],
     lsiKeywords: [
-      'Etsy algoritme pedagogiske produkter',
-      'Etsy oppføringsoptimalisering printables',
-      'Etsy søkerangeringsfaktorer',
+      'Etsy SEO arbeidsark barneskole',
+      'Etsy oppføringsoptimalisering oppgaver',
+      'kommersiell lisens Etsy SEO',
+      'Etsy algoritme arbeidsark rangering',
+      'søkeord arbeidsark tagger beskrivelser',
+      'Etsy SEO matteoppgaver ordleting',
+      'sesongbasert søkeord arbeidsark',
+      'Etsy Stats konverteringsdata',
     ],
-    titleTag: 'Etsy SEO for printbare arbeidsark (2026) | LCS',
-    metaDescription: 'Mestre Etsy SEO for printbare arbeidsark i 2026. Tagger, titler, beskrivelser og rangeringsstrategier som driver organisk trafikk til.',
+    titleTag: 'Etsy SEO for arbeidsark | Optimaliseringsguide',
+    metaDescription: 'Slik optimaliserer du Etsy-oppføringene dine for arbeidsark. Søkeord, titler, tagger og beskrivelser.',
   },
 
   hero: {
-    title: 'Etsy SEO for printbare arbeidsark i 2026',
+    title: 'Etsy SEO for arbeidsark — optimaliseringsguide med søkeord, titler og tagger',
     tagline: 'En omfattende Etsy søkeoptimaliseringsguide for pedagogiske printable-selgere — dekker søkeordsforskningsmetodikk med Etsy autofullføring og konkurrentanalyse, titteloptimaliseringsformler som balanserer søkerangering med klikkfrekvens, strategisk bruk av alle 13 oppføringstagger for maksimal søkedekning, beskrivelsestruktur med SEO-optimaliserte første 160 tegn, Etsy søkealgoritmens rangeringsfaktorer spesifikke for digitale produkter, kategori- og attributtvalg, kategorispesifikke søkeordbanker for matte, leseferdighet, puslespill, fargelegging, matching og søk-og-finn arbeidsark, sesongbasert søkeordtiming for skolestart- og høytidstopper, og løpende optimalisering med Etsy Stats søketermsrapporter',
     description: 'Etsy SEO avgjør om de printbare arbeidsarkene dine blir funnet eller begravet — og algoritmen endres konstant. Denne guiden bryter ned de gjeldende rangeringsfaktorene for pedagogiske printables i 2026: hvordan skrive titler og tagger som matcher kjøpernes søkeintensjon, optimalisere beskrivelser for Etsys søkealgoritme, bruke oppføringsbilder som forbedrer klikkfrekvenser, og bygge butikkautoritet som akkumuleres over tid. Hvis oppføringene dine ikke får visninger, er det her du fikser det.',
   },

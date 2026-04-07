@@ -2,24 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag finn den ulike-puslespill for salg',
+    primaryKeyword: 'lag hvem-hører-ikke-hjemme oppgaver steg for steg',
     secondaryKeywords: [
-      'lag finn den ulike-arbeidsark for Etsy',
-      'lag finn den forskjellige-puslespill for KDP',
-      'finn den ulike opprettelsesguide for selgere',
-      'selg visuelle diskrimineringspuslespill pa nett',
+      'lage hvem-hører-ikke-hjemme oppgaver for Etsy',
+      'selge finn-den-ulike puslespill på Amazon KDP',
+      'lag visuell diskriminering oppgaver for barn',
+      'hvem-hører-ikke-hjemme oppgaver kommersiell lisens',
     ],
     lsiKeywords: [
-      'finn den ulike produktoppretting',
-      'visuelt puslespill virksomhet',
-      'salgbare diskrimineringsprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'hvem-hører-ikke-hjemme oppgaver med temabilder',
+      'finn-den-ulike å skrive ut',
     ],
-    titleTag: 'Lag finn den ulike-puslespill for salg pa nett | LCS',
-    metaDescription: 'Guide til a lage finn den ulike-puslespill for salg. To puslespillmoduser, temaer og strategier for Etsy og KDP visuelle puslespillaktivitetsbokselgere.',
+    titleTag: 'Lag hvem-hører-ikke-hjemme oppgaver | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag hvem-hører-ikke-hjemme oppgaver å skrive ut med temabilder og to moduser. Visuell diskriminering. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag finn den ulike-puslespill for salg pa nett',
+    title: 'Lag hvem-hører-ikke-hjemme oppgaver — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage visuelle diskrimineringsarbeidsark med doble genereringsmoduser, per-ovelses overstyringer, autogenererte fasiter med rode sirkelmarkorer, og rent visuelle puslespill du kan selge over hele verden pa Etsy, Amazon KDP og Gumroad',
     description: 'Finn den ulike-puslespill er universelt tiltalende — formatet forstas umiddelbart av losere i alle aldre, noe som gjor det til et allsidig produkt for Etsy-selgere og KDP-utgivere. Denne guiden dekker a lage profesjonelle finn-den-forskjellige-arbeidsark designet for salg: blanding av Identisk og Lignende moduser for vanskelighetsvariasjon, valg av temaer som maksimerer visuell effekt, og bygging av progressive puslespillsett fra lett til utfordrende. Du vil laere hvordan du pakker finn den ulike-puslespill i tematiske pakker og aktivitetsboker som konkurrerer i den visuelle puslespillnisjnen.',
   },

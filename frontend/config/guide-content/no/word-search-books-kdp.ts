@@ -2,24 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag ordsøkbøker for Amazon KDP',
+    primaryKeyword: 'ordleting-bøker KDP publisere',
     secondaryKeywords: [
-      'ordsøkbok publisering KDP guide',
-      'publiser ordsøk puslespillbøker Amazon',
-      'KDP ordsøkbok trinn for trinn',
-      'Amazon ordsøkbok virksomhet',
+      'ordleting-bok Amazon KDP guide',
+      'publisere ordleting puslespillbøker KDP',
+      'KDP ordleting-bok formatering',
     ],
     lsiKeywords: [
-      'KDP ordsøk nisje',
-      'Amazon ordpuslespill publisering',
-      'selvpubliser ordsøkbøker',
+      'ordleting-bøker barneskole KDP',
+      'Amazon KDP ordleting nisjestrategi',
+      'kommersiell lisens ordleting-bøker',
+      'temabilder ordleting 11 språk',
+      'vanskelighetsprogresjon ordleting-bok',
+      'selvpublisering ordleting Amazon',
+      'ordleting-bok prissetting KDP',
+      'Amazon søkeord ordleting puslespill',
     ],
-    titleTag: 'Lag ordsøkbøker for Amazon KDP | LCS',
-    metaDescription: 'Guide til å lage ordsøkbøker for Amazon KDP. Temavalg, vanskelighetsgradprogresjon, formatering og publiseringsstrategier for ordsøkforfattere.',
+    titleTag: 'Ordleting-bøker på KDP | Publiseringsguide',
+    metaDescription: 'Slik publiserer du ordleting-bøker på Amazon KDP. Temabilder, 11 språk, kommersiell lisens.',
   },
 
   hero: {
-    title: 'Lag ordsøkbøker for Amazon KDP',
+    title: 'Ordleting-bøker på KDP — publiseringsguide med temabilder og 11 språk',
     tagline: 'En fokusert guide til å lage og publisere ordsøkbøker på Amazon KDP — den mest populære puslespillbok-underkategorien på Amazon, dekker tematisk ordlistekuratering for sammenhengende engasjerende innhold, rutenettstørrelsesstrategi fra 12x12 lett gjennom 20x20 ekspert-formater, underkategorien for ordsøk med store bokstaver som krever premiumpriser og sterk kjøperlojalitet, voksen versus barn ordsøkmarkedsposisjonering, vokabularvalg som skiller profesjonelle ordsøkbøker fra amatørsamlinger, ordsøkspesifikk Amazon søkeordoptimalisering, og den bindbaserte seriestrategien som gjør en enkelt ordsøkbok om til en katalog som genererer forutsigbare månedlige inntekter',
     description: 'Ordsøkbøker er en av de høyeste volumkategoriene på KDP — kjøpere kjøper dem for bilturer, venterom, klasserom og rolige kvelder. Denne guiden viser deg hvordan du lager tematiske ordsøkbøker som skiller seg ut fra generiske konkurrenter: velge lønnsomme temaer, bygge vanskelighetsgradprogresjon, formatere sider for KDP-trykk, og markedsføre bøkene dine for Amazon-synlighet. Vår ordsøk-generator produserer profesjonelle puslespill med bildeledetråder på 11 språk, noe som gir deg et konkurransefortrinn de fleste utgivere ikke kan matche.',
   },

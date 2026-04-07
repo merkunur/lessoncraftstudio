@@ -2,25 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Etsy utskriftsbar forretning masterclass',
+    primaryKeyword: 'selge arbeidsark på Etsy guide',
     secondaryKeywords: [
-      'Etsy utskriftsbar forretning masterclass 2026',
-      'Etsy utskriftsbar forretning guide 2026',
-      'bygge Etsy utskriftsbar butikk masterclass',
-      'Etsy digitalt produkt forretning komplett guide',
-      'mestre Etsy utskriftsbar salg',
+      'Etsy arbeidsark-butikk starte',
+      'selge oppgaver Etsy Norge',
+      'Etsy printables norsk guide',
+      'arbeidsark Etsy SEO',
     ],
     lsiKeywords: [
-      'Etsy utskriftsbar masterclass',
-      'Etsy digitalt produktforretning',
-      'komplett Etsy salgsguide',
+      'Etsy',
+      'butikk',
+      'oppføring',
+      'SEO',
+      'søkeord',
+      'arbeidsark',
+      'oppgaver',
+      'Norge',
     ],
-    titleTag: 'Etsy Utskriftsbar Forretning Masterclass | LCS',
-    metaDescription: 'Etsy utskriftsbar forretning masterclass for 2026. Komplett guide til å bygge en lønnsom Etsy-butikk som selger pedagogiske utskriftsbare arbeidsark på nett.',
+    titleTag: 'Selge arbeidsark på Etsy | Norsk steg-for-steg guide',
+    metaDescription: 'Steg-for-steg guide til å selge arbeidsark på Etsy. Butikkoppsett, SEO, prissetting og markedsføring. 33 generatorer med kommersiell lisens.',
   },
 
   hero: {
-    title: 'Etsy Utskriftsbar Forretning Masterclass',
+    title: 'Selge arbeidsark på Etsy — Norsk steg-for-steg guide',
     tagline: 'Den plattformspesifikke guiden til å bygge en lønnsom utskriftsbar arbeidsarkbutikk på Etsy',
     description: 'Etsy er den beste plattformen for nye selgere av utskriftsbare produkter — innebygd kjøpertrafikk, pålitelig betalingsbehandling og en søkealgoritme som belønner kvalitetsoppføringer. Denne masterclassen dekker alt du trenger for å bygge en lønnsom Etsy utskriftsbar forretning: butikkoppsett og merkevarebygging, produktskapingsstrategi, SEO-optimaliserte oppføringer, prispsykologi, kundeservicesystemer og skalering fra ditt første salg til konsistente månedlige inntekter. Hver leksjon er spesifikk for pedagogiske utskriftsbare produkter og strategiene som fungerer på Etsy i 2026.',
   },

@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'alfabet arbeidsark bestselgere',
-    secondaryKeywords: ['alfabet arbeidsark bestselgere Etsy', 'alfabet arbeidsark bestselgere tips', 'alfabet arbeidsark bestselgere strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark bedrift', 'pedagogiske utskrifter salg', 'Etsy nedlasting'],
-    titleTag: 'Alfabet-arbeidsark: Bestselgere på Etsy | LCS',
-    metaDescription: 'Alfabet-arbeidsark: Bestselgere på Etsy. Komplett guide til produktoppbygging, prissetting og markedsføring for alfabet arbeidsark bestselgere i 2026.',
+    primaryKeyword: 'selge alfabet-arbeidsark Etsy',
+    secondaryKeywords: ['bokstavoppgaver bestselgere Etsy', 'alfabet oppgaver KDP bok', 'selge bokstavlæring arbeidsark'],
+    lsiKeywords: ['alfabet arbeidsark selge', 'bokstavoppgaver barn Etsy', 'oppgaver norsk alfabet', 'KDP aktivitetsbok bokstaver', 'kommersiell lisens arbeidsark', 'Etsy digital nedlasting', 'LessonCraftStudio generator'],
+    titleTag: 'Alfabet-arbeidsark: Bestselgere på Etsy',
+    metaDescription: 'Selg alfabet-arbeidsark som bestselgere på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, 11 språk, kommersiell lisens.',
   },
   hero: {
-    title: 'Alfabet-arbeidsark: Bestselgere på Etsy',
+    title: 'Alfabet-arbeidsark — slik blir de bestselgere på Etsy',
     tagline: 'Bokstavlæring er det største markedet for førskoleark',
     description: 'Alfabet-arbeidsark er konsekvent blant de mest solgte utskriftsproduktene på Etsy. Hvert barn må lære bokstavene, og foreldre søker aktivt etter engasjerende materialer. Det norske alfabetet med sine 29 bokstaver inkludert æ, ø og å gir deg en unik nisjefordel.',
   },

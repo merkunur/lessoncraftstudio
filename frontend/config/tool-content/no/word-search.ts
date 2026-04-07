@@ -2,24 +2,29 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ordsøk arbeidsark generator',
+    primaryKeyword: 'ordleting gratis på nett',
     secondaryKeywords: [
-      'ordsøk puslespill generator for selgere',
-      'lag ordrutenett arbeidsark til salg',
-      'utskriftsbare ordsøk arbeidsark kommersiell bruk',
-      'ordsøk generator for KDP',
+      'lage ordleting gratis',
+      'ordleting skrive ut gratis',
+      'ordsøk generator gratis',
+      'ordleting med bilder gratis',
     ],
     lsiKeywords: [
-      'skjulte ord rutenettspuslespill utskriftsbare for Etsy',
-      'lokaltilpasset ordsøk arbeidsark verktøy',
-      'flerspråklig ordsøk puslespill generator',
+      'rutenett',
+      'bokstaver',
+      'ordforråd',
+      'staving',
+      'vannmerke',
+      'gratis',
+      'online',
+      'barneskole',
     ],
-    titleTag: 'Ordsøk Arbeidsark Generator | LCS',
-    metaDescription: 'Generer ordsøk arbeidsark med justerbare rutenett fra 5×5 til 30×30, retningskontroller, lokaltilpassede. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Ordleting gratis på nett | Lag med temabilder',
+    metaDescription: 'Lag ordleting gratis online med 3 000+ temabilder. Egne ord, automatisk fasit, 300 DPI PDF. Ingen registrering. Vannmerket fjernes med lisens.',
   },
 
   hero: {
-    title: 'Ordsøk Arbeidsark Generator',
+    title: 'Ordleting gratis på nett — Lag ordleting med temabilder og fasit',
     tagline: 'Lag skjulte-ord rutenettspuslespill med justerbare størrelser, retningskontroller og lokaltilpassede fyllbokstaver på 11 språk',
     description: 'Design profesjonelle ordsøk arbeidsark der skjulte ord er innebygd i et rutenett av tilfeldige fyllbokstaver, og brukerne skanner rader, kolonner og diagonaler for å finne dem — det klassiske puslespillformatet som aldri går av moten. Dette verktøyet gir deg presis kontroll over vanskelighetsgraden gjennom to uavhengige akser: rutenettstørrelse (justerbar fra 5×5 til 30×30 med rader og kolonner stilt inn uavhengig) og ordretningsbrytere (diagonale ord til eller av, baklengs ord til eller av), som generator alt fra to til åtte mulige plasseringsretninger. Velg blant tre innholdskilder: Bildebibliotek henter fra mer enn 3 100 illustrasjoner i 104 tematiske samlinger, Manuelt Redigeringsmodus lar deg velge bilder og tilpasse visningsnavn, og Tilpasset Ordliste lar deg skrive opptil 8 ord direkte for tekstbaserte puslespill. Tre visningsmodi — Ord + Bilder, Kun Bilder og Kun Ord — styrer hva som vises som ledetråder ved siden av rutenettet. Den kjennetegnende funksjonen er lokaltilpasset alfabetfylling: når du bytter språk, endres rutenettets fyllbokstaver til å matche det gjeldende språkets tegnsett med vektede frekvensfordelinger. Norske rutenett inkluderer æ, ø, å ved naturlige frekvenser. Tyske rutenett inkluderer ä, ö, ü og ß. Franske rutenett inkluderer é, è, ç, à. Hvert språk får autentiske fylltegn, noe som gjør puslespillene språklig ekte snarere enn åpenbart engelskgenererte. En fargekodet fasit markerer hvert funnet ord i en av seks syklende farger — rosa, blå, grønn, gull, korall og lavendel — for øyeblikkelig visuell verifikasjon. Eksporter trykklare PDF-er og JPEG-bilder med 400+ DPI i Letter, A4 eller egendefinerte størrelser. Velg blant 7 skriftfamilier, legg til navn- og datofelter, bytt gråtone for blekkvarsom utskrift, og bruk hele Fabric.js arbeidsområdet til å flytte hvert element. Den gratis prøveversjonen inneholder et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

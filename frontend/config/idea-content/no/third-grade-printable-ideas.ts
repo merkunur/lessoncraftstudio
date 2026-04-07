@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Tredje klasse utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme tredje klasse utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Produktkonsepter og plattformtips for selgere.',
+    titleTag: '3. trinn oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: '3. trinn oppgaver til salg på Etsy og Amazon KDP. Arbeidsark med gangetabeller, divisjon og leseforståelse — nisjeideer og strategier for selgere.',
 
-    primaryKeyword: 'tredje klasse utskriftsbare ideer',
+    primaryKeyword: '3. trinn oppgaver til salg',
     secondaryKeywords: [
+      'selge 3. trinn arbeidsark Etsy',
+      '3. trinn oppgaver KDP',
       'tredje klasse arbeidsark til salg',
-      'tredje klasse utskriftsbar forretning',
-      'tredje klasse aktivitetsark for selgere',
-      'selg tredje klasse printables på Etsy',
+      '3. trinn gangetabell-oppgaver for selgere',
     ],
     lsiKeywords: [
-      'pedagogiske arbeidsark for åtteåringer',
-      'multiplikasjon og divisjon tredje klasse',
-      'leseforståelse tredje klasse aktiviteter',
+      'nisje 3. trinn oppgaver',
+      'trinn barneskole arbeidsark',
+      'Etsy 3. trinn arbeidsark',
+      'KDP tredje klasse aktivitetsbok',
+      'selge oppgaver digitalt',
+      'eviggrønn 3. trinn nisje',
+      'barneskole multiplikasjon og divisjon',
     ],
   },
   hero: {
-    title: 'Tredje klasse utskriftsbare forretningsideer for selgere',
+    title: '3. trinn oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Tredje klasse er et avgjørende overgangsår der barn beveger seg fra å lære grunnleggende ferdigheter til å anvende dem på stadig mer komplekse oppgaver. Multiplikasjon, divisjon, brøker, leseforståelse av lengre tekster og skriving av sammenhengende avsnitt er alle nøkkelferdigheter som krever omfattende øvelse. Foreldre og hjemmeundervisere søker aktivt etter materialer som hjelper barn å mestre disse avanserte ferdighetene, noe som skaper sterk etterspørsel etter gjennomtenkte tredje klasse utskriftsbare produkter. Denne guiden gjennomgår produktideer, plattformstrategier og positioneringsmetoder for å bygge en lønnsom tredje klasse utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Tredje klasse utskriftsbar-nisjen nyter stabil, eviggrønn etterspørsel fordi klassetrinnet representerer et kritisk springbrett i barns akademiske utvikling. I tredje klasse forventes barn å ha automatisert grunnleggende lese- og matteferdigheter og begynne å anvende dem i mer avanserte sammenhenger. Multiplikasjonstabellene, innledende divisjon, brøkforståelse, leseforståelse av fagtekster, og skriftlig uttrykk er alle ferdigheter som krever rikelig med øvelsesmateriale.

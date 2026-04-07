@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Camping utskriftbare ideer til salg — Nisjeguide',
-    metaDescription: 'Oppdag camping utskriftbare ideer til salg på Etsy, Amazon KDP og Gumroad. Utendørstema produktkonsepter, plattformstrategier og nisjetips for selgere.',
+    titleTag: 'Camping-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Camping-oppgaver til salg på Etsy og Amazon KDP. Utendørstema arbeidsark med bål, telt og natur — nisjeideer, plattformtips og strategier for selgere.',
 
-    primaryKeyword: 'camping utskriftbare ideer',
+    primaryKeyword: 'camping-oppgaver til salg',
     secondaryKeywords: [
-      'campingarbeidsark til salg',
-      'campingaktivitetsark for selgere',
-      'utendørstema utskriftbar virksomhet',
-      'selg campingutskriftbare på Etsy',
+      'selge camping-arbeidsark Etsy',
+      'utendørs-oppgaver KDP',
+      'campingtema arbeidsark til salg',
+      'natur og utendørs oppgaver for selgere',
     ],
     lsiKeywords: [
-      'utendørseventyr pedagogiske arbeidsark',
-      'naturtema aktivitetssider',
-      'sommerleir utskriftbare ressurser',
+      'nisje camping-oppgaver',
+      'tema utendørs arbeidsark',
+      'sesong campingoppgaver',
+      'Etsy camping arbeidsark',
+      'KDP utendørs aktivitetsbok',
+      'selge oppgaver digitalt',
+      'eviggrønn campingnisje',
     ],
   },
   hero: {
-    title: 'Camping utskriftbare forretningsideer for selgere',
+    title: 'Camping-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Camping representerer en av de sterkeste sesong-pluss-eviggrønne nisjene for utskriftbare entreprenører fordi den kombinerer kraftige vår- og sommeretterspørselstopper med ekte helårs utendørsutdanningsrelevans som holder salget i gang gjennom hvert kvartal. Den universelle barnefascinasjonen av bål, telt, vandringsventyr og naturutforskning skaper en emosjonell forbindelse som driver konsekvent foreldre- og kjøperatferd på tvers av flere kjøpersegmenter. Campingtemaet tilbyr ekstraordinær undertemas dybde inkludert telt, bål, marshmallow, lommelykt, kompass, ryggsekk, sovepose, vandring, sti, lanterne, s\'mores, kano, fiskestang, kikkert, furutre, fjell, innsjø, bjørn, hjort, ugle, stjerner, måne, fellflaske og vannflaske, noe som gir selgere et rikt visuelt ordforråd. For utskriftbare selgere på Etsy, Amazon KDP og Gumroad kombinerer campingnisjen sterke sesongtopper med helårs utendørsutdanningsetterspørsel. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringtilnærminger for å hjelpe deg med å bygge en lønnsom camping utskriftbar produktlinje med våre arbeidsarkgeneratorverktøy.',
   },
   marketOverview: `Camping utskriftbar-nisjen inntar en unikt fordelaktig posisjon for utskriftbare selgere fordi den leverer det beste fra begge verdener: kraftige sesongbaserte etterspørselstopper i vår- og sommermånedene når familier aktivt forbereder campingturer og utendørseventyr, kombinert med ekte helårs relevans gjennom utendørsutdanningspensum, naturfagsenheter og den vedvarende barnefascinasjonen av bål, telt og villmarkutforskning som fungerer uavhengig av den faktiske campingsesongens timing.

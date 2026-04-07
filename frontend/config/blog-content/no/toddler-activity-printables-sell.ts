@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'småbarns aktiviteter utskrifter selg',
+    primaryKeyword: 'småbarn arbeidsark selge Etsy 2-4 år',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'småbarns oppgaver selge nettbutikk',
+      'arbeidsark 2-4 år forretning Etsy',
+      'barnehage aktiviteter arbeidsark selge',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Småbarns aktiviteter-utskrifter: Selg | LCS',
-    metaDescription: 'Utskrivbare aktiviteter for småbarn (2–4 år) er det første produktet foreldre kjøper. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['småbarn oppgaver salg', 'enkle arbeidsark barn', 'barnehage arbeidsark kommersiell lisens'],
+    titleTag: 'Småbarn-arbeidsark: Lag og selg | LCS',
+    metaDescription: 'Lag og selg arbeidsark for småbarn (2-4 år) på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Småbarns aktiviteter-utskrifter: Selg',
+    title: 'Småbarn-arbeidsark: Lag og selg på nett',
     tagline: 'Aldersgruppen 2–4 år er det første inngangspunktet',
     description: 'Utskrivbare aktiviteter for småbarn (2–4 år) er det første produktet foreldre kjøper. Enkle koblingsoppgaver, store fargeleggingsbilder og bildejakt — disse produktene har stor etterspørsel og lav produksjonstid.',
   },

@@ -2,25 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag alfabetarbeidsark for salg',
+    primaryKeyword: 'lag alfabet-oppgaver å skrive ut',
     secondaryKeywords: [
-      'lag alfabetarbeidsark for salg pa Etsy',
-      'lag bokstavlaerings-printables for Etsy-butikk',
-      'lag bokstavlaerings-printables for KDP',
-      'alfabetarbeidsark opprettelsesguide',
-      'selg alfabet-printables pa nett',
+      'lage alfabet-oppgaver med temabilder for Etsy',
+      'selge bokstavlæringsoppgaver på Amazon KDP',
+      'lag alfabettog-arbeidsark for barn',
+      'alfabet-oppgaver kommersiell lisens',
     ],
     lsiKeywords: [
-      'alfabet produktoppretting',
-      'leseferdighetsarbeidsark virksomhet',
-      'salgbare bokstavlaeringstrodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'alfabet-oppgaver med temabilder',
+      'bokstavgjenkjenning å skrive ut',
     ],
-    titleTag: 'Lag alfabetarbeidsark for salg | LCS',
-    metaDescription: 'Guide til a lage alfabetarbeidsark for salg pa Etsy. Togvogn-format, temaer, sprak og strategier for leseferdighets-printable-selgere.',
+    titleTag: 'Lag alfabet-oppgaver å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag alfabet-oppgaver å skrive ut med togvogn-format og temabilder. 11 språk med korrekt bokstavmatching. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag alfabetarbeidsark for salg pa Etsy og KDP',
+    title: 'Lag alfabet-oppgaver å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage bokstavgjenkjenningsarbeidsark med 11 fargerike togvogner som barer bokstaver og matchende illustrasjoner, to opprettelsesmoduser (Automatisk oppretting for tilfeldig generering og Manuelt utvalg for laereplanstilpassede bokstavgrupper), konfigurerbart ledetradsantall fra 3 til 11 for innebygd vanskelighetsskalering, sprakfolsom bokstavmatching pa tvers av 11 innfodte alfabeter der det samme bildet pares med forskjellige bokstaver per sprak, og autogenererte fasiter du kan selge over hele verden pa Etsy, Amazon KDP og Gumroad',
     description: 'Alfabetarbeidsark er et av de mest etterspurte printbare produktene — foreldre, hjemmeundervisningsfamilier og laerere kjoper bokstavlaeringsmateriell aret rundt pa tvers av alle aldre fra smabarn til tidlig barneskole. Denne guiden dekker a lage profesjonelle alfabettog-arbeidsark designet for salg: bruk av tematiske bilder for visuelt engasjement, utnyttelse av 11-spraks stotte for internasjonal markedsutvidelse, og bygging av progressive leseferdighetspakker fra bokstavgjenkjenning gjennom ordformasjon. Du vil laere hvordan du parer alfabetarbeidsark med handskrift- og ordaktiviteter for omfattende leseferdighetspakker.',
   },

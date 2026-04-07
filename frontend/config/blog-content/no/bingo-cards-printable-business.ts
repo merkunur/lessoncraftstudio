@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bingokort utskrifter bedrift',
-    secondaryKeywords: ['bingokort utskrifter bedrift Etsy', 'bingokort utskrifter bedrift tips', 'bingokort utskrifter bedrift strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark bedrift', 'pedagogiske utskrifter salg', 'Etsy nedlasting'],
-    titleTag: 'Bingokort-utskrifter som forretning | LCS',
-    metaDescription: 'Bingokort-utskrifter som forretning. Komplett guide til produktoppbygging, prissetting og markedsføring for bingokort utskrifter bedrift i 2026.',
+    primaryKeyword: 'selge bingo-arbeidsark Etsy',
+    secondaryKeywords: ['bingokort oppgaver selge nett', 'pedagogisk bingo Etsy KDP', 'bingo arbeidsark forretning'],
+    lsiKeywords: ['bingo arbeidsark Etsy', 'bingokort oppgaver selge', 'KDP bingobok barn', 'kommersiell lisens arbeidsark', 'Etsy digital nedlasting bingo', 'pedagogisk bingo generator', 'LessonCraftStudio'],
+    titleTag: 'Selg bingo-arbeidsark: Komplett guide',
+    metaDescription: 'Bingo-arbeidsark selger til mange målgrupper. Lag bingokort med LessonCraftStudio — 33 generatorer, 11 språk, kommersiell lisens.',
   },
   hero: {
-    title: 'Bingokort-utskrifter som forretning',
+    title: 'Selg bingo-arbeidsark — allsidige oppgaver som treffer bredt',
     tagline: 'Pedagogisk bingo — underholdning som selger',
     description: 'Bingokort er et av de mest allsidige utskriftsproduktene du kan selge. De brukes i klasserom, på bursdagsfester, i barnehager og på eldresentre. Pedagogisk bingo med bilder og temaer har høyere opplevd verdi enn standard tallbingo.',
   },

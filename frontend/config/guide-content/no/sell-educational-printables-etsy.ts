@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'selg pedagogiske printables på Etsy',
+    primaryKeyword: 'selge arbeidsark på Etsy',
     secondaryKeywords: [
-      'selg pedagogiske printables på Etsy nybegynner',
-      'hvordan selge pedagogiske printables på Etsy',
-      'Etsy pedagogisk printable-butikk oppsett',
-      'nybegynnerguide til å selge arbeidsark på Etsy',
-      'pedagogisk printable virksomhet Etsy 2026',
+      'selge oppgaver på Etsy nybegynner',
+      'Etsy butikk arbeidsark oppsett',
+      'arbeidsark-virksomhet Etsy guide',
     ],
     lsiKeywords: [
-      'Etsy utdanning nisje nybegynnere',
-      'digitale pedagogiske produkter',
-      'arbeidsark virksomhet Etsy oppstart',
+      'selge arbeidsark barneskole Etsy',
+      'kommersiell lisens oppgaver Etsy',
+      'Amazon KDP arbeidsbok kryssover',
+      'Etsy SEO arbeidsark oppføring',
+      'LK20 oppgaver digitalt salg',
+      'prissetting arbeidsark Etsy strategi',
+      'markedsføring oppgaver selgere',
+      'nisjevalg pedagogiske produkter',
     ],
-    titleTag: 'Selg pedagogiske printables på Etsy (nybegynner) | LCS',
-    metaDescription: 'Nybegynnerguide til å selge pedagogiske printables på Etsy. Nisjevalg, produktskaping, oppføringsoptimalisering og førstealgstrategier for nye selgere.',
+    titleTag: 'Selge arbeidsark på Etsy | Komplett guide',
+    metaDescription: 'Komplett guide til å selge arbeidsark og oppgaver på Etsy. Butikkoppsett, SEO, prissetting og markedsføring.',
   },
 
   hero: {
-    title: 'Selg pedagogiske printables på Etsy — nybegynnerguide',
+    title: 'Selge arbeidsark på Etsy — komplett guide med butikkoppsett og markedsføring',
     tagline: 'En komplett plattformguide for å bygge en diversifisert Etsy-butikk som selger pedagogiske printables laget med 33 spesialiserte generatorer på tvers av 6 kategorier — dekker flerkategoristrategi, kategorispesifikk Etsy SEO-optimalisering med alle 13 tagger, krysskategori-pakkering og prissetting, oppføringsfotografering for forskjellige produkttyper, sesongbasert produktrotasjon på tvers av mattearbeidsark, leseferdighetaktiviteter, visuelle læringssider, matchingsøvelser, puslespill og søk-og-finn-spill, og skalering fra en enkelt kategori til en komplett pedagogisk printable-butikk',
     description: 'Pedagogiske printables er en av Etsys raskest voksende digitale produktkategorier — foreldre, hjemmeundervisningsfamilier og lærere bruker milliarder årlig på læringsmateriell. Denne nybegynnerguiden leder deg gjennom å velge din første nisje, lage profesjonelle arbeidsark med våre 33 generatorer, skrive oppføringer som Etsys algoritme belønner, og gjøre ditt første salg. Ingen designferdigheter eller undervisningsbakgrunn nødvendig — generatorene håndterer produktskapingen mens du fokuserer på å bygge en virksomhet.',
   },

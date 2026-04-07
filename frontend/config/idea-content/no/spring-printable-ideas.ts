@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Vår utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme vår utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Vårtema produktkonsepter med sterk mars-mai etterspørsel for selgere.',
-
-    primaryKeyword: 'vår utskriftsbare ideer',
+    titleTag: 'Våroppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Våroppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge vårtema oppgaver i mars-mai.',
+    primaryKeyword: 'våroppgaver til salg Etsy',
     secondaryKeywords: [
-      'vårtema arbeidsark til salg',
-      'vår utskriftsbar forretning',
-      'våraksivitetsark for selgere',
-      'selg vårprintables på Etsy',
+      'vår arbeidsark selge Etsy',
+      'vårtema aktivitetsbøker KDP',
+      'selge våroppgaver på nett',
+      'vår nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'blomster og sommerfugler pedagogiske arbeidsark',
-      'vårsesong aktivitetssider',
-      'påske og vår tema utskriftsbare produkter',
+      'vår nisje Etsy KDP',
+      'sesongbasert etterspørsel mars mai',
+      'vårtema arbeidsark barneskole',
+      'pedagogiske våroppgaver til salg',
+      'vårsesong produktlinje selgere',
     ],
   },
   hero: {
-    title: 'Vår utskriftsbare forretningsideer for selgere',
+    title: 'Våroppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Våren åpner et kraftig salgsvindu fra mars til mai ettersom foreldre og hjemmeundervisere søker friske sesongtemaer etter den lange vinteren. Blomster, sommerfugler, fugler, regnbuer, bier og hagearbeid gir et rikt visuelt vokabular som resonerer med barn og kjøpere. Vårtemaet overlapper med påske, Mors dag og avslutningen av skoleåret, noe som skaper flere salgsanledninger innen ett sesongvindu. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad representerer våren en pålitelig sesongmulighet med forutsigbar etterspørsel og kjøpere som aktivt søker etter nytt, friskt innhold. Denne guiden gjennomgår produktideer, plattformstrategier og timingmetoder for å bygge en lønnsom vår utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Vår utskriftsbar-nisjen inntar en unik sesongposisjon fordi den representerer fornyelse og friskhet etter vintermånedene. Kjøpere er aktivt klare for nye temaer i mars, og vårmotiver som blomster, sommerfugler, fugler, regnbuer og hagearbeid gir en visuelt attraktiv palett som appellerer til alle aldersgrupper. Vårtemaet er ikke-konfesjonelt og kulturelt nøytralt, noe som gjør det trygt for alle kjøpergrupper.

@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'alfabettog arbeidsark generator for barn',
+    primaryKeyword: 'alfabet oppgaver gratis på nett',
     secondaryKeywords: [
-      'alfabettog generator online',
-      'bokstavgjenkjenning arbeidsark for barn',
-      'utskriftsbart alfabettog til barnehagen',
-      'alfabet matching arbeidsark generator for selgere',
+      'ABC oppgaver generator gratis',
+      'bokstavgjenkjenning gratis',
+      'lær alfabetet gratis',
+      'bokstaver skrive ut gratis',
     ],
     lsiKeywords: [
-      'bokstav-bilde matching togarbeidsark for barn',
-      'flerspråklig alfabet aktivitet online',
-      'fargerikt alfabettog utskriftsbart til barnehagen',
+      'ABC',
+      'store bokstaver',
+      'små bokstaver',
+      'alfabetisk rekkefølge',
+      'vannmerke',
+      'gratis',
+      '1. trinn',
     ],
-    titleTag: 'Alfabettog Generator — Bokstavøvelse for Barn',
-    metaDescription: 'Lag alfabettog arbeidsark for bokstavgjenkjenning. 11 fargerike vogner, bokstav-bilde matching, 11 språk, 104 temaer. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Alfabet oppgaver gratis | ABC-øvelsesgenerator online',
+    metaDescription: 'Lag alfabet-oppgaver gratis online med temabilder for bokstavgjenkjenning. Automatisk fasit, 11 språk. Ingen registrering.',
   },
 
   hero: {
-    title: 'Alfabettog Arbeidsark Generator',
+    title: 'Alfabet oppgaver gratis — ABC-øvelsesgenerator online med temabilder',
     tagline: 'Lag fargerike bokstavtog-arbeidsark med bilde-til-bokstav matching på 11 språk',
     description: 'Bygg alfabet arbeidsark som ikke ligner vanlige bokstavsporingsark. Dette verktøyet arrangerer 11 livlige togvogner over siden, hver med en bokstav og en matchende illustrasjon. Spredte ledetrådbilder vises ved siden av toget — brukerne identifiserer hvilken bokstav hvert bilde begynner med, og matcher det med riktig vogn. Velg mellom Autoopprett-modus (verktøyet velger tilfeldig 11 bokstaver og tildeler matchende bilder) eller Manuelt Valg (håndplukk hver bokstav fra et komplett alfabetrutenett og tildel hvert bilde selv). Juster vanskelighetsgraden med ledetrådsantallet: 3 ledetråder for nybegynnere, 5–7 for mellomnivå og 9–11 for avanserte brukere som må matche nesten hver vogn. Den virkelige styrken er språkfølsomhet — velg blant 11 nasjonale alfabeter inkl. norsk (Æ/Ø/Å), tysk (Ä/Ö/Ü), spansk (Ñ) og flere. Det samme bildet kobles med forskjellige bokstaver på hvert språk: «hund» matcher H på norsk, men D på engelsk (Dog). Ett arbeidsarkdesign blir 11 unike produkter. Bla gjennom mer enn 3 100 bilder i 104 temaer, eller last opp egne til merkevaredesign. Velg blant 7 skriftfamilier og eksporter som trykklar PDF eller høyoppløst JPEG. Den gratis prøveversjonen inneholder et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

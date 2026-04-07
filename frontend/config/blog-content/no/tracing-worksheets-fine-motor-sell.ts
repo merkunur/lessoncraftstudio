@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sporingsark finmotorikk selge 2026',
-    secondaryKeywords: ['tracing arbeidsark Etsy', 'strektrening barn utskrift', 'finmotorikk arbeidsark forretning'],
-    lsiKeywords: ['sporingsøving barn', 'prikk-til-prikk utskrift', 'håndøye-koordinasjon ark'],
-    titleTag: 'Sporingsark for finmotorikk: Selg på nett | LCS',
-    metaDescription: 'Selg sporingsark for finmotorikk på Etsy. Enorm etterspørsel fra foreldre med småbarn. Produktstrategi og prissetting.',
+    primaryKeyword: 'sporingsoppgaver finmotorikk selge Etsy',
+    secondaryKeywords: ['strektrening arbeidsark forretning', 'finmotorikk oppgaver selge nettbutikk', 'sporingsark barn Etsy KDP'],
+    lsiKeywords: ['sporingsøving arbeidsark salg', 'prikk-til-prikk oppgaver', 'håndskrift forberedelse arbeidsark'],
+    titleTag: 'Sporingsoppgaver for finmotorikk: Selg | LCS',
+    metaDescription: 'Lag og selg sporingsoppgaver for finmotorikk på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Sporingsark for finmotorikk: Selg på nett',
+    title: 'Sporingsoppgaver for finmotorikk: Lag og selg',
     tagline: 'Første steg mot skriving — og et stort marked',
     description: 'Sporingsoppgaver (tracing) er det første steget mot håndskrift. Barn øver på å følge stiplede linjer, kurver og former. Foreldre og barnehager kjøper disse i store mengder fordi finmotorikk er en grunnleggende ferdighet. Markedet er enormt og etterspørselen er stabil hele året.',
   },

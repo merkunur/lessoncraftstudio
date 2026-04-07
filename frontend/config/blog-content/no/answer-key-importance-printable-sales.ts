@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fasit hemmeligheten bak høyere',
-    secondaryKeywords: ['fasit viktighet printable salg tips', 'fasit viktighet printable salg guide', 'fasit viktighet printable salg steg for steg'],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Fasit: Hemmeligheten bak høyere salg | LCS',
-    metaDescription: 'Fasit er hemmeligheten bak høyere salg: arbeidsark med fasit selger betydelig bedre. Foreldre verdsetter svarsjekk, og lærere krever det.',
+    primaryKeyword: 'fasit arbeidsark øker salg Etsy',
+    secondaryKeywords: ['arbeidsark med fasit selger bedre', 'fasit oppgaver Etsy KDP', 'selge arbeidsark med svar'],
+    lsiKeywords: ['fasit arbeidsark salg', 'oppgaver med svar Etsy', 'KDP aktivitetsbok fasit', 'kommersiell lisens arbeidsark', 'Etsy konvertering fasit', 'arbeidsark kvalitet', 'LessonCraftStudio generator'],
+    titleTag: 'Fasit i arbeidsark øker salget ditt',
+    metaDescription: 'Arbeidsark med fasit selger bedre. Lag oppgaver med svar med LessonCraftStudio — 33 generatorer, 11 språk, kommersiell lisens.',
   },
   hero: {
-    title: 'Fasit: Hemmeligheten bak høyere salg',
+    title: 'Fasit i arbeidsark — hemmeligheten bak høyere salg',
     tagline: 'Fasit koster deg ingenting men øker verdien enormt',
     description: 'Arbeidsark med fasit selger betydelig bedre enn uten. Foreldre verdsetter muligheten til å sjekke svar, og lærere krever det. Denne guiden forklarer hvorfor fasit er så viktig og hvordan du inkluderer den effektivt.',
   },

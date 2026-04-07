@@ -2,24 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag sudokubøker for Amazon KDP',
+    primaryKeyword: 'sudoku-bøker KDP publisere',
     secondaryKeywords: [
-      'publiser bildesudoku-bøker KDP',
-      'Amazon KDP sudokubok-guide',
-      'sudoku puslespillbok-oppretting for KDP',
-      'selvpubliser sudoku aktivitetsbøker',
+      'bildesudoku-bok Amazon KDP guide',
+      'publisere sudoku puslespillbøker KDP',
+      'KDP sudoku-bok formatering',
     ],
     lsiKeywords: [
-      'KDP sudoku-nisje',
-      'Amazon puslespillbok-publisering',
+      'sudoku-bøker barneskole KDP',
+      'Amazon KDP sudoku nisjestrategi',
       'bildesudoku for barn bøker',
+      'kommersiell lisens sudoku-bøker',
+      'vanskelighetsprogresjon sudoku-bok',
+      'selvpublisering sudoku Amazon',
+      'sudoku-bok prissetting KDP',
+      'justerbar vanskelighetsgrad sudoku',
     ],
-    titleTag: 'Lag sudokubøker for Amazon KDP | LCS',
-    metaDescription: 'Guide til å lage sudokubøker for Amazon KDP. Bildesudoku for barn, vanskelighetsgradprogresjon, formatering og publiseringsstrategier for puslespillforfattere.',
+    titleTag: 'Sudoku-bøker på KDP | Publiseringsguide',
+    metaDescription: 'Slik publiserer du sudoku-bøker på Amazon KDP. Med bilder eller tall, justerbar vanskelighetsgrad.',
   },
 
   hero: {
-    title: 'Lag sudokubøker for Amazon KDP',
+    title: 'Sudoku-bøker på KDP — publiseringsguide med bilder eller tall og justerbar vanskelighetsgrad',
     tagline: 'En fokusert guide til å lage og publisere sudoku-puslespillbøker på Amazon KDP — dekker det doble markedet for bildesudoku for små barn og tallsudoku for voksne, vanskelighetsgradprogresjonsstrategier som holder løsere engasjert gjennom lett til ekspert-seksjoner, sudokuspesifikk rutenettformatering for rent trykkresultat, sideoppsett og fasitnøkkelkonvensjoner unike for sudokubøker, seriebyggingstilnærmingen som utnytter sudokuløseres eksepsjonelt sterke gjenkjøpsatferd, og ekspansjonsveien fra en sudokukatalog til bredere puslespillbokpublisering',
     description: 'Sudokubøker er en flerårig bestselger på Amazon — men markedet for bildesudoku rettet mot yngre løsere er langt mindre overfylt enn standard 9x9 tallsudoku. Denne guiden viser deg hvordan du lager tematiske bildesudoku-bøker for Amazon KDP: planlegging av vanskelighetsgradprogresjon over tre nivåer, formatering av sider for KDP-trykkspesifikasjoner, og posisjonering av bøkene dine for Amazon-søkesynlighet. Vår bildesudoku-generator produserer 4x4 visuelle puslespill med tematiske bilder som appellerer til barns aktivitetsbokmarked — en nisje de fleste sudokutgivere fullstendig ignorerer.',
   },

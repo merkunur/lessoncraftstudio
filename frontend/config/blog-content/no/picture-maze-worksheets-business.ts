@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bildelabyrint arbeidsark bedrift 2026',
-    secondaryKeywords: ['bildelabyrint arbeidsark bedrift Etsy', 'bildelabyrint arbeidsark bedrift tips', 'bildelabyrint arbeidsark bedrift strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
-    titleTag: 'Bildelabyrint-arbeidsark som forretning | LCS',
-    metaDescription: 'Bildelabyrint-arbeidsark som forretning. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',
+    primaryKeyword: 'selg bildelabyrint arbeidsark forretning Etsy KDP',
+    secondaryKeywords: ['bildelabyrint oppgaver Etsy selgere', 'labyrint arbeidsark barn KDP bøker', 'lag bildelabyrint oppgaver kommersiell lisens'],
+    lsiKeywords: ['labyrint arbeidsark forretning', 'bildesti oppgaver barn selge', 'visuelt attraktive arbeidsark nisje'],
+    titleTag: 'Selg bildelabyrint-arbeidsark som forretning | LCS',
+    metaDescription: 'Bygg en forretning med bildelabyrint-arbeidsark for barn. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Bildelabyrint-arbeidsark som forretning',
+    title: 'Selg bildelabyrint-arbeidsark som forretning',
     tagline: 'Labyrinter med bilder — en visuelt attraktiv nisje',
     description: 'Denne guiden dekker alt du trenger for å bygge en lønnsom forretning med bildelabyrint arbeidsark bedrift. Fra produktoppbygging og prissetting til SEO-optimalisering og plattformvalg. Lær hvordan du bruker LessonCraftStudios generatorer til å lage profesjonelle produkter på minutter og selge dem på Etsy, Amazon KDP og Undervisningsbyen.no.',
   },

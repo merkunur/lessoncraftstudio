@@ -2,25 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag tellearbeidsark for salg',
+    primaryKeyword: 'lag telleoppgaver å skrive ut steg for steg',
     secondaryKeywords: [
-      'lag tellearbeidsark for salg pa Etsy',
-      'lag tellearbeidsark for Etsy-butikk',
-      'lag graferingsarbeidsark for KDP',
-      'tellearbeidsark opprettelsesguide',
-      'selg bildediagram-printables pa nett',
+      'lage telleoppgaver med temabilder for Etsy',
+      'selge tellearbeidsark på Amazon KDP',
+      'lag telle-og-diagram oppgaver for barn',
+      'telleoppgaver barneskole kommersiell lisens',
     ],
     lsiKeywords: [
-      'telleprodukt oppretting',
-      'dataferdighetsarbeidsark virksomhet',
-      'salgbare graferingsprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'telleoppgaver med temabilder',
+      'tellearbeidsark å skrive ut',
     ],
-    titleTag: 'Lag tellearbeidsark for salg | LCS',
-    metaDescription: 'Guide til a lage telle- og graferingsarbeidsark for salg. Bildediagrammer, dataferdigheter og strategier for Etsy og KDP tidlig matte-selgere.',
+    titleTag: 'Lag telleoppgaver å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag telleoppgaver å skrive ut med temabilder og bildediagrammer. Automatisk fasit og temavalg. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag tellearbeidsark for salg pa Etsy og KDP',
+    title: 'Lag telleoppgaver å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage bildediagram-arbeidsark med spredte bilderutenett, autogenererte fasiter og stolpediagrammer du kan selge pa Etsy, Amazon KDP og Gumroad',
     description: 'Telle- og graferingsarbeidsark utnytter den voksende ettersporsel etter STEM-fokuserte tidlig laerings-printables — og dataferdighetsnisjnen har langt mindre konkurranse enn grunnleggende matte pa Etsy. Denne guiden dekker a lage profesjonelle bildediagram-arbeidsark designet for salg: bruk av tematiske bildesamlinger for visuell appell, bygging av datarepresentasjonsaktiviteter som laerer telling og grafering samtidig, og pakking av arbeidsark i tematiske pakker for Etsy og arbeidshefter for KDP. Du vil laere hvordan denne underbehandlede nisjen tilbyr lav konkurranse med sterk ettersporsel.',
   },

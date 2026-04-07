@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'annonse optimaliser etsy annonser',
-    secondaryKeywords: ['Etsy annonse optimalisering arbeidsark tips', 'Etsy annonse optimalisering arbeidsark strategi', 'Etsy annonse optimalisering arbeidsark 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Optimaliser Etsy-annonser for arbeidsark | LCS',
-    metaDescription: 'Forskjellen mellom en annonse som selger og en som ikke gjør det ligger ofte i detaljer: tittelstruktur, tagvalg, bildekvalitet og prisplassering. Den',
+    primaryKeyword: 'optimaliser Etsy-annonser arbeidsark',
+    secondaryKeywords: ['Etsy annonseoptimalisering oppgaver', 'bedre titler tags Etsy arbeidsark', 'øk salg Etsy digitale nedlastinger'],
+    lsiKeywords: ['Etsy konverteringsrate bilder', 'annonsetittel søkeord struktur', 'arbeidsark mockup-bilder Etsy'],
+    titleTag: 'Optimaliser Etsy-annonser for arbeidsark-salg | LCS',
+    metaDescription: 'Titler, tags, bilder og pris avgjør om arbeidsarkene dine selger på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Optimaliser Etsy-annonser for arbeidsark',
+    title: 'Optimaliser Etsy-annonser for arbeidsark-salg',
     tagline: 'Små justeringer som gir store resultater',
     description: 'Forskjellen mellom en annonse som selger og en som ikke gjør det ligger ofte i detaljer: tittelstruktur, tagvalg, bildekvalitet og prisplassering. Denne guiden viser deg nøyaktig hvordan du optimaliserer arbeidsark-annonser for maksimalt salg.',
   },

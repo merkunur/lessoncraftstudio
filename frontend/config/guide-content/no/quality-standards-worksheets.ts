@@ -3,13 +3,13 @@ import type { GuideContent } from '../types';
 const content: GuideContent = {
   seo: {
     primaryKeyword: 'kvalitetsstandarder arbeidsark',
-    secondaryKeywords: ['kvalitetskrav printable-produkter', 'profesjonell arbeidsarkkvalitet', 'utskriftskvalitet arbeidsark', 'kvalitetskontroll printables'],
-    lsiKeywords: ['layout konsistens arbeidsark', 'typografi lesbarhet standarder', 'utskriftsoptimalisering 300 DPI', 'innholdsnoyaktighet fasiter', 'visuell kvalitetskontroll printables'],
-    titleTag: 'Kvalitetsstandarder for arbeidsark — Guide',
-    metaDescription: 'Etabler kvalitetsstandarder for printable-virksomheten din. Layout, typografi, utskriftskvalitet,. Selg pa Etsy & KDP med kommersiell lisens.',
+    secondaryKeywords: ['profesjonell arbeidsarkkvalitet Etsy', 'utskriftskvalitet oppgaver KDP', 'kvalitetskontroll arbeidsark-virksomhet'],
+    lsiKeywords: ['layout konsistens arbeidsark', 'typografi lesbarhet standarder', 'utskriftsoptimalisering 300 DPI', 'innholdsnøyaktighet fasiter', 'Etsy arbeidsark kvalitet', 'KDP aktivitetsbok formatering', 'kommersiell lisens arbeidsark', 'profesjonelt utseende oppgaver'],
+    titleTag: 'Kvalitetsstandarder for arbeidsark | Selgerguide',
+    metaDescription: 'Slik sikrer du høy kvalitet på arbeidsark. Oppløsning, design, fasit og profesjonelt utseende.',
   },
   hero: {
-    title: 'Kvalitetsstandarder for arbeidsark',
+    title: 'Kvalitetsstandarder for arbeidsark — oppløsning, design, fasit og profesjonelt utseende',
     tagline: 'En komplett guide til kvalitetsstandarder for printbare arbeidsark — som dekker layout, typografi, utskriftsoptimalisering, innholdsnoyaktighet, visuell konsistens og kvalitetskontroll-sjekkpunkter for profesjonelle produkter',
     description: 'Kvalitet er den viktigste differensieringsfaktoren i printable-markedet. Kjopere kan ojeblikkelig se forskjellen mellom et profesjonelt arbeidsark og et amatormessig produkt — og de betaler premium for kvalitet. Denne guiden etablerer de kvalitetsstandardene som skiller profesjonelle printable-selgere fra amatorer.',
   },

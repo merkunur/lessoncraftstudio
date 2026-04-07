@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bildesudoku generator',
-    secondaryKeywords: [
-      'utskriftsbar bildesudoku generator til Etsy-selgere',
-      'bildesudoku puslespill generator til KDP-utgivere',
-      'bildesudoku arbeidsark generator kommersiell lisens',
-      'selg sudoku puslespillarbeidsark på Gumroad',
-    ],
-    lsiKeywords: [
-      'digitale sudoku utskriftsbare produkter nettbasert forretning',
-      'kommersielt bruk bildepuslespill generator',
-      'utskriftsbar logikkpuslespill forretningsverktoy',
-    ],
-    titleTag: 'Bildesudoku Generator | Lag og Selg Arbeidsark',
-    metaDescription: 'Lag bildesudoku arbeidsark til salg på Etsy, KDP og Gumroad. 4×4 rutenett, tre vanskelighetsgrader, automatisk fasit, 104 temaer. $49 engangsbetaling.',
+    primaryKeyword: 'sudoku skrive ut',
+    secondaryKeywords: ['sudoku generator', 'sudoku barn skrive ut', 'sudoku med bilder', 'lage egen sudoku'],
+    lsiKeywords: ['logikk', 'tall', 'rutenett', 'vanskelighetsgrad', 'bilder'],
+    titleTag: 'Sudoku å skrive ut | Generator med bilder',
+    metaDescription: 'Lag sudoku med bilder eller tall, justerbar vanskelighetsgrad. Automatisk fasit, utskrivbare PDF-er. Prøv gratis — selg på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Bildesudoku Arbeidsark Generator for 4×4 Bildelogikkpuslespill',
+    title: 'Sudoku å skrive ut — Generator med bilder og justerbar vanskelighetsgrad',
     tagline: 'Visuelle 4×4 sudokupuslespill med bilder i stedet for tall — tre vanskelighetsgrader fra 4 til 8 tomme celler, automatisk genererte fasiter med komplette utfylte rutenett og temabasert bildevalg over 104 samlinger for puslespill som selger globalt uten oversettelse.',
     description:
       'Bygg profesjonelle 4×4 bildesudoku arbeidsark der brukerne fyller ut tomme celler med de korrekte bildene ved hjelp av rad-og-kolonne-logikk. Hvert puslespill bruker noyaktig 4 unike bilder som skal vises en gang i hver rad og en gang i hver kolonne — de samme reglene som klassisk sudoku, men med fargerike illustrasjoner i stedet for tall. Velg blant tre vanskelighetsgrader: Lett fjerner 4 celler, Middels fjerner 6 og Vanskelig fjerner 8 — halvparten av rutenettet. Velg bilder gjennom temabasert autovalg som tilfeldig velger 4 bilder fra enhver av 104 tematiske samlinger, eller velg manuelt noyaktig 4 bilder fra biblioteket, sok eller dine egne opplastinger. Det premiumdesignede rutenettet har alternerende 2×2-blokkfarger i lyseblått og lyserosa, flerlagede skygger og en indigoblå ytre ramme med avrundede hjorner. Hvert puslespill inkluderer en automatisk generert «Bildesudoku»-overskrift lokalisert på alle 11 språk og en dobbeltlerretsfasit som viser det komplette utfylte rutenettet med alle 16 celler utfylt. Fordi bildesudoku er helt visuelt — ingen ord vises på puslespillrutenettet — fungerer hvert arbeidsark identisk på alle 11 språk, noe som gjor produktene dine salgbare globalt uten noen modifikasjon. Full Tilgang låser opp alle 104 temaer med mer enn 3 100 illustrasjoner og alle 11 brukergrensesnittspråk. Legg til bakgrunnstemaer og rammetemaer med uavhengige opasitetskontroller, og eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI i Letter, A4 eller egendefinerte storrelser. Enten du selger tematiske sudokupakker på Etsy, setter sammen logikkarbeidboker til Amazon KDP eller lager resonnementsaktiviteter til Gumroad — denne generatoren leverer produksjonsklare puslespill på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

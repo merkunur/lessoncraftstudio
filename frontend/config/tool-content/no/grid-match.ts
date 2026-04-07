@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'rutenettspuslespill generator rutenett arbeidsark',
+    primaryKeyword: 'tegne på rutenett gratis',
     secondaryKeywords: [
-      'rutenettkobling arbeidsark generator for selgere',
-      'lag rutenettspuslespill til salg',
-      'utskriftsbar rutenettspuslespill generator kommersiell bruk',
-      'bildefliser kobling arbeidsark generator for KDP og Etsy',
+      'kopiere på rutenett gratis',
+      'pikselkunst gratis skrive ut',
+      'speiling på rutenett gratis',
+      'romforståelse oppgave gratis',
     ],
     lsiKeywords: [
-      'enkeltbilde rutenettspuslespill fliser koblingsverktøy',
-      'automatisk fasit nummerert sirkeloverlegg generator',
-      'konfigurerbar ledetrådscelle vanskelighetsgrad rutenettgenerator',
+      'rutenett',
+      'piksel',
+      'kopi',
+      'speiling',
+      'vannmerke',
+      'gratis',
+      'romforståelse',
     ],
-    titleTag: 'Rutenettspuslespill Generator — Rutenett Arbeidsark...',
-    metaDescription: 'Lag rutenettkobling arbeidsark med konfigurerbar rutenettstørrelse, justerbare ledetrådsceller,. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Tegne på rutenett gratis | Generator rutenetttegning online',
+    metaDescription: 'Lag tegne-på-rutenett oppgaver gratis online. Temabilder, automatisk fasit. Ingen registrering. Vannmerket fjernes med lisens.',
   },
 
   hero: {
-    title: 'Rutenettspuslespill Generator',
+    title: 'Tegne på rutenett gratis — Generator for rutenetttegning online',
     tagline: 'Enkeltbilde rutenettspuslespill generator med konfigurerbare rutenettstørrelser fra 2×2 til 4×4, justerbare ledetrådsceller for skalerbar vanskelighetsgrad, Fisher-Yates fliserandomisering, automatisk genererte fasit med nummererte sirkeloverlegg og 104 tematiske bildesamlinger',
     description: 'Lag profesjonelle rutenettkobling arbeidsark der et enkelt bilde deles opp i et rutenett av fliser, og brukerne matcher nummererte fliser tilbake til sine korrekte posisjoner — et romlig resonnementspuslespill bygget av ett bilde. Konfigurer rutenettet fra 2×2 opp til 4×4 (2–4 rader × 2–4 kolonner, standard 3×3) for å lage puslespill fra 4 til 16 fliser. Still inn 1–5 ledetrådsceller (standard 1) som forblir synlige som tips — færre ledetråder betyr vanskeligere puslespill, flere ledetråder generator tilgjengelige oppvarmninger. Appen blander skjulte fliser med Fisher-Yates-randomisering og viser dem i en nummerert palett. Dobbeltarbeidsområde-systemet genererer samtidig en arbeidsarkfane og en fasitfane — fasiten viser det komplette ubeskadigede bildet med nummererte sirkler overlagt på hver rutenettcelle (gul bakgrunn #ffffe0, svart kontur, Fredoka-skrifttype). Det responsive layoutet tilpasses automatisk: stående sider plasserer rutenettet øverst med paletten nedenfor; liggende sider posisjonerer rutenettet til venstre med paletten til høyre. Rutenettspuslespill er IKKE språkfølsomt — puslespilloutputtet er rent visuelt uten lokalisert ordinnhold, noe som gjør hvert arbeidsark universelt salgbart uten oversettelse. Bla gjennom 104 tematiske samlinger med mer enn 3 100 illustrasjoner eller last opp egne bilder. Bruk bakgrunns- og rammetemaer med uavhengige gjennomsiktighetsskyveknapper. Eksporter fire filer per økt: arbeidsark-JPEG, arbeidsark-PDF, fasit-JPEG og fasit-PDF — alle med 300 DPI. Den gratis prøveversjonen inneholder alle funksjoner med et vannmerke. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

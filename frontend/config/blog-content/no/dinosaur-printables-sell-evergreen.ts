@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'dinosaur utskrifter evergreen favoritt',
+    primaryKeyword: 'selge dinosaur-arbeidsark Etsy',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'dinosaur oppgaver Etsy KDP',
+      'dinosaur-tema arbeidsark selge',
+      'evergreen dinosaur oppgaver nett',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Dinosaur-utskrifter: En evergreen-favoritt | LCS',
-    metaDescription: 'Dinosaur-utskrifter er en evergreen-favoritt blant de mest stabile og ettertraktede temaene. Selg på Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['dinosaur arbeidsark Etsy', 'oppgaver dinosaur tema selge', 'KDP dinosaurbok barn', 'kommersiell lisens arbeidsark', 'evergreen nisje dinosaur', 'Etsy digital nedlasting', 'LessonCraftStudio generator'],
+    titleTag: 'Selg dinosaur-arbeidsark: Evergreen-nisje',
+    metaDescription: 'Dinosaur-oppgaver selger stabilt hele året. Lag arbeidsark med LessonCraftStudio — 33 generatorer, 11 språk, kommersiell lisens.',
   },
   hero: {
-    title: 'Dinosaur-utskrifter: En evergreen-favoritt',
+    title: 'Selg dinosaur-arbeidsark — en evergreen-nisje som aldri dør',
     tagline: 'Dinosaurer går aldri av moten — spesielt for gutter',
     description: 'Dinosaur-temaer er blant de mest stabile og ettertraktede for utskrivbare arbeidsark. Fra dinosaur-fargelegging til dinosaur-matteoppgaver og dinosaur-ordsøk — dette temaet selger konsistent hele året uten sesongavhengighet.',
   },

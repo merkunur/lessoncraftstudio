@@ -2,25 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'lag flerspråklige arbeidsark til salg',
+    primaryKeyword: 'flerspråklige arbeidsark lage og selge',
     secondaryKeywords: [
-      'lag flerspråklige arbeidsark til salg på Etsy',
-      'flerspråklig arbeidsarkskaping guide',
-      'lag arbeidsark på 11 språk',
-      'selg flerspråklige utskriftsbare på nett',
-      'flerspråklig arbeidsark-forretning',
+      'arbeidsark 11 språk generator',
+      'flerspråklige oppgaver Etsy',
+      'selge arbeidsark flere språk',
+      'internasjonale arbeidsark KDP',
     ],
     lsiKeywords: [
-      'flerspråklig arbeidsarkproduksjon',
-      'internasjonalt utskriftsbart marked',
-      'flerspråklig produktstrategi',
+      'flerspråklig',
+      '11 språk',
+      'norsk',
+      'tysk',
+      'fransk',
+      'spansk',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Lag Flerspråklige Arbeidsark til Salg | LCS',
-    metaDescription: 'Slik lager du arbeidsark på flere språk til salg på Etsy og Amazon KDP. 11-språks støtte, lokalspesifikt innhold og strategier for internasjonale markeder.',
+    titleTag: 'Flerspråklige arbeidsark | Lag oppgaver på 11 språk',
+    metaDescription: 'Lag arbeidsark på 11 språk og selg til et globalt marked. Norsk, tysk, fransk, spansk og mer. Kommersiell lisens inkludert.',
   },
 
   hero: {
-    title: 'Lag Flerspråklige Arbeidsark til Salg på Nett',
+    title: 'Flerspråklige arbeidsark — Lag oppgaver på 11 språk og selg globalt',
     tagline: 'Nå internasjonale kjøpere på Etsy og Amazon KDP med profesjonelt lokalisert arbeidsarkinnhold — ingen oversettelsesferdigheter kreves',
     description: 'De fleste selgere av utskriftsbare produkter konkurrerer kun på engelsk — men våre generatorer støtter 11 språk med lokalspesifikt innhold, noe som gir deg tilgang til tyske, franske, spanske og 8 flere markeder der konkurransen er en brøkdel av hva den er på engelsk. Denne guiden dekker å lage og selge flerspråklige arbeidsark: hvilke generatorer som produserer språkspesifikt innhold kontra universelle visuelle formater, hvordan du oppfører flerspråklige produkter på internasjonale Etsy-butikker og KDP-markedsplasser, og strategier for å multiplisere katalogen din uten å multiplisere arbeidsmengden din.',
   },

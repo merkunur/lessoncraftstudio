@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingokort generator',
-    secondaryKeywords: [
-      'utskriftsbar bingokort generator til Etsy-selgere',
-      'bildebingo arbeidsark generator til KDP-utgivere',
-      'bingokort generator kommersiell lisens',
-      'selg utskriftsbare bingokort på Gumroad',
-    ],
-    lsiKeywords: [
-      'digitale bingo utskriftsbare produkter nettbasert forretning',
-      'kommersielt bruk bingokort generator',
-      'utskriftsbar bildebingo forretningsverktoy',
-    ],
-    titleTag: 'Bingokort Generator | Lag og Selg Bingo Utskriftsbare',
-    metaDescription: 'Lag bildebingokort til salg på Etsy, KDP og Gumroad. Batch-generer unike kort, ZIP-eksport, oppropsliste, 104 temaer. $49 engangsbetaling.',
+    primaryKeyword: 'lage bingobrett',
+    secondaryKeywords: ['bingo generator', 'bingo med bilder skrive ut', 'egen bingo lage', 'bingospill skrive ut'],
+    lsiKeywords: ['bingobrett', 'bilder', 'spill', 'gruppe', 'fest'],
+    titleTag: 'Lage bingobrett | Generator bingo med bilder',
+    metaDescription: 'Lag bingobrett med 3 000+ temabilder. Unike brett per sett, utskrivbare PDF-er. Prøv gratis — kommersiell lisens.',
   },
 
   hero: {
-    title: 'Bildebingo Kort Generator for Utskriftsbare Bingoaktiviteter',
+    title: 'Lage bingobrett — Generator for bingo med temabilder',
     tagline: 'Generer 1–10 unike bingokort per batch med konfigurerbare rutenett fra 3×3 til 5×5 — bilde- eller ordutfylling for både kortceller og sirkulaere brikker, en dedikert oppropsliste for spillederen, ZIP batch-eksport av alle kort og 104 tematiske bildesamlinger.',
     description:
       'Bygg profesjonelle bildebingokort der spillere markerer matchende bilder eller ord på sine unike kortrutenett. Konfigurer rader fra 3 til 5 og kolonner fra 3 til 5 uavhengig, noe som generator rutenett fra 3×3 (9 celler) opp til 5×5 (25 celler) med standard 4×4 (16 celler). Velg bildeutfylling eller ordutfylling uavhengig for både kortceller og sirkulaere brikker — brikker har stiplede kanter og blandet Fisher-Yates-rekkefolge for autentisk bingospill. Generer 1–10 unike bingokort per batch, hvert med et annerledes tilfeldig bildeutvalg fra puljen. En dedikert oppropsliste på en separat fane viser et dynamisk ordrutenett for spillederen med kolonner beregnet basert på lengste ordlengde og ensartet skriftstorrelse. Håndplukk spesifikke bilder for tilpasset oppropsutvalg eller la appen velge fra temaet ditt. Bildebingo Kort Generatoren er språkavhengig: ordutfylling bruker lokaliserte bildenavn fra Bildebiblioteket, slik at å bytte språk endrer ordene på kort, brikker og oppropslisten. Det betyr at det samme bildetemaet kan generere unike bingokort på 11 forskjellige språk — hver språkversjon har lokaliserte ord, noe som gjor hver versjon til et separat produkt for et nytt marked. Full Tilgang låser opp alle 104 temaer med mer enn 3 100 illustrasjoner og alle 11 brukergrensesnittspråk for lokalisert ordinnhold. Legg til bakgrunnstemaer og rammetemaer med uavhengige opasitetskontroller, inkluder egendefinert tekst med syv skrifttypemuligheter, og eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller egendefinerte storrelser. Batch-eksporter alle genererte kort som individuelle JPEG-bilder i en enkelt ZIP-fil. Enten du selger bingokortpakker på Etsy, setter sammen bingoaktivitetsboker til Amazon KDP eller lager produktlinjebingosett til Gumroad — denne generatoren leverer produksjonsklare bingokort på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

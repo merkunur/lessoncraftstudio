@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kjæledyr utskriftsbare ideer til salg — Nisjeguide',
-    metaDescription: 'Utforsk kjæledyr utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Kjæledyrtema produktkonsepter, plattformtips og nisjestrategier for selgere.',
-
-    primaryKeyword: 'kjæledyr utskriftsbare ideer',
+    titleTag: 'Kjæledyr-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Kjæledyr-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge kjæledyrtema oppgaver.',
+    primaryKeyword: 'kjæledyr-oppgaver til salg',
     secondaryKeywords: [
-      'kjæledyr arbeidsark til salg',
-      'kjæledyrtema utskriftsbar forretning',
-      'kjæledyr aktivitetsark for selgere',
-      'selg kjæledyr printables online',
+      'kjæledyr arbeidsark selge Etsy',
+      'kjæledyrtema aktivitetsbøker KDP',
+      'selge kjæledyr-oppgaver på nett',
+      'kjæledyr nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'hund og katt pedagogiske arbeidsark',
-      'kjæledyromsorg aktivitetssider',
-      'dyreansvar utskriftsbare produkter',
+      'kjæledyr nisje Etsy KDP',
+      'kjæledyrtema arbeidsark barneskole',
+      'pedagogiske kjæledyr-oppgaver til salg',
+      'hund og katt tema produktlinje selgere',
+      'eviggrønt kjæledyrtema oppgaver',
     ],
   },
   hero: {
-    title: 'Kjæledyr utskriftsbare forretningsideer for selgere',
+    title: 'Kjæledyr-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Kjæledyr er blant de mest universelt elskede temaene for barn, og denne kjærligheten driver konsekvent etterspørsel etter utskriftsbare arbeidsark med hunder, katter, kaniner, hamstere, fisker og andre populære kjæledyr. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad tilbyr kjæledyrnisjen helårs etterspørsel uten sesongsvingninger, sterk visuell appell gjennom gjenkjennelige og sjarmerende dyremotiver, og tverrfaglig pedagogisk potensial gjennom dyreomsorgsansvarlighet og naturfagsforbindelser. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å bygge en lønnsom kjæledyr utskriftsbar produktlinje med våre arbeidsarkgeneratorverktøy.',
   },
   marketOverview: `Kjæledyr utskriftsbar-nisjen drar fordel av barns dype følelsesmessige tilknytning til kjæledyr, noe som gjør dette til et av de mest engasjerende temaene for pedagogiske materialer. De fleste barn enten har kjæledyr hjemme eller drømmer om å ha et, og denne personlige forbindelsen driver sterkere engasjement med kjæledyrtema arbeidsark sammenlignet med mer abstrakte temaer.

@@ -2,26 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'storrelsessammenligningsarbeidsark',
+    primaryKeyword: 'lag stor-og-liten oppgaver steg for steg',
     secondaryKeywords: [
-      'lag storrelsessammenligningsarbeidsark for salg',
-      'stor liten arbeidsark generator',
-      'printbare visuell storrelses arbeidsark',
-      'storrelsesdiskriminering arbeidsark for barn',
+      'lage stor-og-liten oppgaver med temabilder for Etsy',
+      'selge størrelsessammenligning arbeidsark på Amazon KDP',
+      'lag sorter-etter-størrelse oppgaver for barn',
+      'stor-og-liten oppgaver kommersiell lisens',
     ],
     lsiKeywords: [
-      'ring rundt den store ovelsesmodus',
-      'visuell storrelsesvurdering forskole',
-      'selg storrelsessammenligningsarbeidsark pa Etsy',
-      'Amazon KDP visuell persepsjon aktivitetsboker',
-      'kommersiell lisens storrelsessammenligningsverktoy',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'stor-og-liten oppgaver med temabilder',
+      'størrelsessammenligning å skrive ut',
     ],
-    titleTag: 'Storrelsessammenligningsarbeidsark — Guide',
-    metaDescription: 'Lag storrelsessammenligningsarbeidsark med tematiske bilder i forskjellige storrelser, fem oppgavetyper og automatisk fasit. Guide for Etsy, KDP og Gumroad.',
+    titleTag: 'Lag stor-og-liten oppgaver | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag stor-og-liten oppgaver å skrive ut med temabilder og fem oppgavetyper. Automatisk fasit. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Hvordan lage storrelsessammenligningsarbeidsark',
+    title: 'Lag stor-og-liten oppgaver — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage visuell storrelsesdiskriminering arbeidsark med tematiske bilder i forskjellige storrelser, fem oppgavetyper inkludert ring-rundt-den-store og sorter-etter-storrelse, konfigurerbar vanskelighetsgrad og utskriftsklare eksporter du kan selge globalt',
     description: 'Storrelsessammenligningsarbeidsark laerer barn a skille mellom stor og liten, a sammenligne relative storrelser og a sortere objekter etter storrelse. Dette er en grunnleggende visuell persepsjonsferdighet som forbereder barn for matteforstaelse, maling og romlig ræsonering. Storrelsessammenlignings-generatoren produserer profesjonelle arbeidsark med tematiske bilder vist i forskjellige storrelser, komplette med automatiske fasiter.',
   },

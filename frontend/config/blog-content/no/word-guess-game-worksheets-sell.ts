@@ -2,18 +2,18 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ordgjettespill arbeidsark selge 2026',
+    primaryKeyword: 'ordgjettespill arbeidsark selge Etsy',
     secondaryKeywords: [
-      'hva gjør ordgjettespill unike',
-      'produksjon lessoncraftstudios generator',
-      'prissetting salg',
+      'gjetteoppgaver ord arbeidsark forretning',
+      'ordlek arbeidsark selge nettbutikk',
+      'hangman-stil puslespill Etsy KDP',
     ],
-    lsiKeywords: ['hangman-stil puslespill', 'ordlek arbeidsark', 'språkspill utskrift'],
-    titleTag: 'Selg ordgjettespill-arbeidsark på nett | LCS',
-    metaDescription: 'Slik selger du ordgjettespill-arbeidsark på Etsy og KDP. Produksjonsstrategi, prissetting og markedsføringstips.',
+    lsiKeywords: ['ordgjetting oppgaver salg', 'ordlek puslespill arbeidsark', 'språkspill kommersiell lisens'],
+    titleTag: 'Ordgjettespill-arbeidsark: Lag og selg | LCS',
+    metaDescription: 'Lag og selg ordgjettespill-arbeidsark på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Selg ordgjettespill-arbeidsark på nett',
+    title: 'Ordgjettespill-arbeidsark: Lag og selg på nett',
     tagline: 'Gjett ordet — et konsept alle kjenner og elsker',
     description: 'Ordgjettespill er inspirert av den klassiske hengemann-leken, men i arbeidsark-format. Barnet får hint eller bilder og må gjette ordet. Denne typen puslespill er engasjerende, pedagogisk og enkel å produsere. Med riktig pakking og prissetting kan ordgjettespill bli en lønnsom del av produktlinjen din.',
   },

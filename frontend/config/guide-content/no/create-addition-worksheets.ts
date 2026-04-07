@@ -2,24 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hvordan lage addisjonsarbeidsark for salg',
+    primaryKeyword: 'lag plusstykker å skrive ut steg for steg',
     secondaryKeywords: [
-      'lag addisjonsarbeidsark for Etsy',
-      'lag addisjonsprintables for KDP',
-      'addisjonsarbeidsark opprettelsesguide',
-      'selg addisjonsarbeidsark pa nett trinn for trinn',
+      'lage plusstykker for Etsy med temabilder',
+      'selge addisjonsoppgaver på Amazon KDP',
+      'lag arbeidsark med plusstykker for salg',
+      'plusstykker barneskole kommersiell lisens',
     ],
     lsiKeywords: [
-      'addisjon printbar produktoppretting',
-      'mattearbeidsark virksomhetsguide',
-      'lag salgbare matteprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'plusstykker med temabilder',
+      'addisjonsoppgaver å skrive ut',
     ],
-    titleTag: 'Lage addisjonsarbeidsark for salg | LCS',
-    metaDescription: 'Trinn-for-trinn guide til a lage addisjonsarbeidsark for salg pa Etsy og KDP. Temavalg, vanskelighetsnivåer, pakkestrategier og oppforingstips.',
+    titleTag: 'Lag plusstykker å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag plusstykker å skrive ut med temabilder og automatisk fasit. Velg vanskelighetsgrad og tema. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Hvordan lage addisjonsarbeidsark for salg pa nett',
+    title: 'Lag plusstykker å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage tematiske, utskriftsklare addisjonsarbeidsark du kan selge pa Etsy, Amazon KDP og Gumroad',
     description: 'Addisjonsarbeidsark er en av de mest palitelige selgerne i markedet for matteprintables — foreldre soker etter dem aret rundt, og ettersporsel spenner fra forskole til andre klasse. Denne guiden tar deg gjennom a lage profesjonelle addisjonsarbeidsark designet for salg: a velge temaer som tiltrekker kjopere, sette vanskelighetsnivåer som dekker flere aldersgrupper, pakkestrategier som oker gjennomsnittlig ordrevedi, og oppforingsoptimalisering som konverterer besokende til kunder. Du vil laere hvordan du bruker addisjonsarbeidsark-generatoren til a produsere hele produktlinjer i en enkelt okt.',
   },

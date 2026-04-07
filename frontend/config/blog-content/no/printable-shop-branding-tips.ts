@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'merkevare merkeva merkevarebygging printable butikken',
+    primaryKeyword: 'merkevarebygging arbeidsark butikk Etsy gjenkjennelig',
     secondaryKeywords: [
-      'praktisk gjennomføring',
-      'optimalisering måling',
-      'vanlige feil unngå',
+      'merkevare digital produktbutikk Etsy tips',
+      'butikkprofil arbeidsark selgere branding',
+      'skil deg ut arbeidsark butikk merkevare',
     ],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Merkevarebygging for printable-butikken | LCS',
-    metaDescription: 'I et marked med tusenvis av selgere er merkevare det som gjør at kunder velger deg. Denne guiden viser deg hvordan du bygger en sammenhengende merkeva',
+    lsiKeywords: ['merkevare Etsy butikk arbeidsark', 'gjenkjennelig profil digital butikk', 'branding tips arbeidsark selgere'],
+    titleTag: 'Merkevarebygging for arbeidsark-butikken | LCS',
+    metaDescription: 'Bygg en gjenkjennelig merkevare for arbeidsark-butikken din. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Merkevarebygging for printable-butikken',
+    title: 'Merkevarebygging for arbeidsark-butikken',
     tagline: 'Skil deg ut med en gjenkjennelig merkevare',
     description: 'I et marked med tusenvis av selgere er merkevare det som gjør at kunder velger deg. Denne guiden viser deg hvordan du bygger en sammenhengende merkevare for din printable-butikk på Etsy.',
   },

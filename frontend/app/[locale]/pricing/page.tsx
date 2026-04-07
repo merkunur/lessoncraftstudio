@@ -745,9 +745,9 @@ const pricingContent: Record<string, {
     catalogSubtitle: 'Kob individuelle apps for $49 eller spar med en kategoripakke for $149.',
   },
   no: {
-    metaTitle: 'Priser - Profesjonelle utskriftsgeneratorer | LessonCraftStudio',
-    metaDescription: 'Prøv alle 33 generatorer gratis med vannmerke. Individuelle apper 49 $, pakker 149 $. Engangskjøp, kommersiell lisens inkludert.',
-    keywords: ['utskriftsgenerator priser', 'kommersiell lisens utskrifter', 'Etsy utskriftsverktøy pris', 'oppgave generator kjøp'],
+    metaTitle: 'Priser | Arbeidsark-generatorer fra $49 — Engangsbetaling',
+    metaDescription: 'Prøv alle 33 generatorer gratis med vannmerke. Enkelt-apper $49, kategoribundler fra $99. Engangsbetaling, kommersiell lisens, intet abonnement.',
+    keywords: ['arbeidsark generator priser', 'kommersiell lisens arbeidsark', 'oppgavegenerator kjøp', 'Etsy arbeidsark verktøy pris'],
     heroBadge: '33 generatorer | 6 pakker | Engangskjøp',
     heroTitle: 'Enkle priser. Ingen abonnement.',
     heroSubtitle: 'Prøv hver generator gratis med vannmerke. Når du er klar, lås opp rene eksporter med et engangskjøp.',
@@ -756,7 +756,7 @@ const pricingContent: Record<string, {
       price: '0 $',
       tagline: 'Prøv alle 33 generatorer med vannmerke',
       features: [
-        'Alle 33 utskriftsgeneratorer',
+        'Alle 33 arbeidsark-generatorer',
         'Full funksjonstilgang',
         'Vannmerke på nedlastinger',
         'Ingen registrering nødvendig',

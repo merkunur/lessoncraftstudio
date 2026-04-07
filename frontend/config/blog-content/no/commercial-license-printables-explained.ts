@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kommersiell lisens printables forklart',
-    secondaryKeywords: ['kommersiell lisens printables forklart tips', 'kommersiell lisens printables forklart strategi', 'kommersiell lisens printables forklart 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Kommersiell lisens for printables: Forklart | LCS',
-    metaDescription: 'Trenger du en kommersiell lisens for å selge arbeidsark? Hva dekker den? Denne guiden forklarer alt om lisenser for utskrivbare produkter på et enkelt',
+    primaryKeyword: 'kommersiell lisens arbeidsark forklart',
+    secondaryKeywords: ['lisens selge arbeidsark Etsy', 'kommersiell bruk oppgaver KDP', 'arbeidsark lisens hva dekker den'],
+    lsiKeywords: ['kommersiell lisens arbeidsark', 'oppgaver lisens Etsy', 'KDP lisens selge', 'arbeidsark rettigheter', 'Etsy selger lisens', 'selge oppgaver lovlig', 'LessonCraftStudio kommersiell lisens'],
+    titleTag: 'Kommersiell lisens for arbeidsark: Forklart',
+    metaDescription: 'Alt om kommersiell lisens for arbeidsark du selger. Lag oppgaver med LessonCraftStudio — 33 generatorer, kommersiell lisens inkludert.',
   },
   hero: {
-    title: 'Kommersiell lisens for printables: Forklart',
+    title: 'Kommersiell lisens for arbeidsark — alt du trenger å vite',
     tagline: 'Hva du trenger å vite før du selger',
     description: 'Trenger du en kommersiell lisens for å selge arbeidsark? Hva dekker den? Denne guiden forklarer alt om lisenser for utskrivbare produkter på et enkelt og forståelig språk.',
   },

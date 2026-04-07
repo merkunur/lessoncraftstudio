@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'subtraksjons arbeidsark generator',
+    primaryKeyword: 'minusstykker gratis på nett',
     secondaryKeywords: [
-      'subtraksjons arbeidsark generator til Etsy-selgere',
-      'lag subtraksjons arbeidsark til salg',
-      'utskriftsbare subtraksjons arbeidsark kommersielt bruk',
-      'bilde subtraksjons arbeidsark til KDP',
+      'minusoppgaver generator gratis',
+      'matteoppgaver subtraksjon gratis skrive ut',
+      'regneoppgaver minus online',
+      'minusstykker med fasit gratis',
     ],
     lsiKeywords: [
-      'visuelle subtraksjons utskriftsbare for selgere',
-      'overstrykning matematikk arbeidsark verktoy',
-      'fjerne-arbeidsark generator',
+      'barneskole',
+      '1. trinn',
+      '2. trinn',
+      'fasit',
+      'vannmerke',
+      'gratis',
+      'online',
     ],
-    titleTag: 'Subtraksjons Arbeidsark Generator | Matematikk Utskriftsbare',
-    metaDescription: 'Lag subtraksjons arbeidsark med overstrykning-visuelle på sekunder. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Minusstykker gratis på nett | Generator med bilder og fasit',
+    metaDescription: 'Lag minusstykker med temabilder gratis online. Automatisk fasit, 300 DPI PDF. Ingen registrering. Vannmerket fjernes med lisens.',
   },
 
   hero: {
-    title: 'Subtraksjons Arbeidsark Generator',
+    title: 'Minusstykker gratis på nett — Generator med temabilder og fasit',
     tagline: 'Lag visuelle overstrykning subtraksjons arbeidsark på under 60 sekunder',
     description: 'Gjor subtraksjon forståelig med overstrykning-visuelle som barn intuitivt forstår. Dette verktøyet genererer bildebaserte subtraksjons arbeidsark der brukerne stryker bilder over for å finne svaret — den mest naturlige måten å laere fjerne-matematikk på. Velg blant mer enn 100 bildetemaer, still inn subtrahendintervallet ditt, velg blant fire ovelsesmoduser inkl. det unike Overstryknings-formatet, og last ned trykkeklare PDF-er eller hoyopploste JPEG-bilder. Perfekt for Etsy-selgere som bygger nivåinndelte matematikkprodukter, kjopere som lager produktlinjepakker, og KDP-utgivere som setter sammen subtraksjons-arbeidboker. Den gratis proveversjonen inneholder et vannmerke på nedlastinger. Kjop en lisens for å fjerne vannmerket og selge kommersielt.',
   },

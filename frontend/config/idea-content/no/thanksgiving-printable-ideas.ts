@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Takkefest utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme takkefest utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad.',
-
-    primaryKeyword: 'takkefest utskriftsbare ideer',
+    titleTag: 'Høstoppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Høstoppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge høst- og innhøstingstema oppgaver.',
+    primaryKeyword: 'høstoppgaver til salg Etsy',
     secondaryKeywords: [
-      'takkefest arbeidsark til salg',
-      'høsttema utskriftsbar forretning',
-      'takkefest aktivitetsark for selgere',
-      'selg takkefest printables på Etsy',
+      'høst arbeidsark selge Etsy',
+      'innhøstingstema aktivitetsbøker KDP',
+      'selge høstoppgaver på nett',
+      'høst nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'høstfest pedagogiske arbeidsark',
-      'takknemlighet tema aktivitetssider',
-      'innhøstingsfest utskriftsbare produkter',
+      'høst nisje Etsy KDP',
+      'sesongbasert etterspørsel oktober november',
+      'høsttema arbeidsark barneskole',
+      'pedagogiske høstoppgaver til salg',
+      'innhøstingssesong produktlinje selgere',
     ],
   },
   hero: {
-    title: 'Takkefest utskriftsbare forretningsideer for selgere',
+    title: 'Høstoppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Takkefest og høstfest-temaer er blant de mest kommersielt verdifulle sesongnisjene for utskriftsbare selgere. Selv om Thanksgiving er en primært amerikansk tradisjon, resonerer temaene takknemlighet, innhøsting, høstfrukter og familiemåltider med kjøpere globalt. Kalkuner, gresskar, mais, epler, fargerike høstblader og innhøstingsscener gir et rikt visuelt vokabular som engasjerer barn. Det konsentrerte salgsvinduet fra oktober til november skaper intens etterspørsel, og selgere som er forberedt med et komplett produktutvalg fanger uforholdsmessig mye av dette sesongsalget. Denne guiden gjennomgår produktideer, plattformstrategier og timingmetoder for å bygge en lønnsom takkefest og høstfest utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Takkefest og innhøstingsfest utskriftsbar-nisjen inntar en spesielt lønnsom posisjon i den sesongbaserte salgskalenderen fordi den faller i et forholdsvis umettet vindu mellom halloween og jul. Mens mange selgere fokuserer intenst på halloween i oktober og jul i desember, får takkefest-perioden ofte mindre oppmerksomhet til tross for sterk kjøperinteresse. Dette gapet mellom konkurranse og etterspørsel skaper en ekte mulighet for selgere som investerer i kvalitetsprodukter.

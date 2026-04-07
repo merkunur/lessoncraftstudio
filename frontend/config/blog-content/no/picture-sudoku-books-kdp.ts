@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bildesudoku bøker KDP',
-    secondaryKeywords: ['bildesudoku bøker KDP Etsy', 'bildesudoku bøker KDP tips', 'bildesudoku bøker KDP strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark bedrift', 'pedagogiske utskrifter salg', 'Etsy nedlasting'],
-    titleTag: 'Bildesudoku-bøker på KDP | LCS',
-    metaDescription: 'Bildesudoku-bøker på KDP. Komplett guide til produktoppbygging, prissetting og markedsføring for bildesudoku bøker KDP i 2026.',
+    primaryKeyword: 'selg bildesudoku bøker KDP aktivitetsbøker barn',
+    secondaryKeywords: ['bildesudoku arbeidsark KDP selgere', 'sudoku med bilder barn Etsy butikk', 'lag bildesudoku oppgaver kommersiell lisens'],
+    lsiKeywords: ['sudoku arbeidsark forretning', 'bildesudoku KDP nisje barn', 'aktivitetsbøker barn Amazon'],
+    titleTag: 'Selg bildesudoku-bøker på KDP | LCS',
+    metaDescription: 'Bildesudoku for barn er en undervurdert KDP-nisje med lav konkurranse. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Bildesudoku-bøker på KDP',
+    title: 'Selg bildesudoku-bøker på KDP',
     tagline: 'Sudoku med bilder — en perfekt KDP-nisje for barn',
     description: 'Bildesudoku erstatter tall med bilder, noe som gjør sudoku tilgjengelig for barn fra 4 år. På Amazon KDP er dette en undervurdert nisje med lavt metningsnivå og god etterspørsel fra foreldre som søker pedagogiske aktivitetsbøker.',
   },

@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bruk temabilder selg arbeidsark 2026',
+    primaryKeyword: 'temabilder arbeidsark selge Etsy strategi',
     secondaryKeywords: [
-      'steg steg gjennomføring',
-      'optimalisering finjustering',
-      'publisering markedsføring',
+      'temabaserte arbeidsark øk salg',
+      'bilder i arbeidsark differensiering Etsy',
+      'bruk temabilder selg flere oppgaver',
     ],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Bruk temabilder for å selge flere arbeidsark | LCS',
-    metaDescription: 'Arbeidsark med temabaserte bilder (dyr, kjøretøy, romfart) selger 2–3 ganger bedre enn generiske versjoner. Denne guiden viser deg hvordan du bruker t',
+    lsiKeywords: ['arbeidsark bilder salg', 'temabaserte oppgaver forretning', 'visuelt distinkte arbeidsark'],
+    titleTag: 'Temabilder i arbeidsark: Selg 2-3x mer | LCS',
+    metaDescription: 'Arbeidsark med temabilder selger 2-3 ganger bedre enn generiske. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Bruk temabilder for å selge flere arbeidsark',
+    title: 'Bruk temabilder og selg 2-3x flere arbeidsark',
     tagline: 'Temaer differensierer og øker klikkfrekvensen',
     description: 'Arbeidsark med temabaserte bilder (dyr, kjøretøy, romfart) selger 2–3 ganger bedre enn generiske versjoner. Denne guiden viser deg hvordan du bruker temabilder strategisk for å maksimere salget.',
   },

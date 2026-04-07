@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pirat utskriftsbare ideer til salg — Nisjeguide',
-    metaDescription: 'Utforsk pirat utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Pirattema produktkonsepter, plattformtips og nisjestrategier for selgere.',
-
-    primaryKeyword: 'pirat utskriftsbare ideer',
+    titleTag: 'Sjørøver-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Sjørøver-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge pirattema oppgaver.',
+    primaryKeyword: 'sjørøver-oppgaver til salg',
     secondaryKeywords: [
-      'pirat arbeidsark til salg',
-      'pirattema utskriftsbar forretning',
-      'pirat aktivitetsark for selgere',
-      'selg pirat printables online',
+      'sjørøver arbeidsark selge Etsy',
+      'pirattema aktivitetsbøker KDP',
+      'selge sjørøver-oppgaver på nett',
+      'sjørøver nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'skattejakt pedagogiske arbeidsark',
-      'sjørøver eventyr aktivitetssider',
-      'pirattema festaktiviteter utskriftsbare',
+      'sjørøver nisje Etsy KDP',
+      'pirattema arbeidsark barneskole',
+      'pedagogiske sjørøver-oppgaver til salg',
+      'eventyr-tema produktlinje selgere',
+      'eviggrønt pirattema oppgaver',
     ],
   },
   hero: {
-    title: 'Pirat utskriftsbare forretningsideer for selgere',
+    title: 'Sjørøver-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Pirater fanger barns fantasi med eventyr, skattejakter, sjøreiser og mystiske øyer som skaper en av de mest engasjerende temaene for pedagogiske printables. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad kombinerer piratnisjen sterk visuell appell med bredden av aktivitetstyper fra matematikkøvelser med piratskatter til ordforrådsbygging med sjøfartsterminologi. Pirattemaet fungerer helårs med ekstra etterspørsel som festtema og sommerleiraktiviteter. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å bygge en lønnsom pirat utskriftsbar produktlinje med våre arbeidsarkgeneratorverktøy.',
   },
   marketOverview: `Pirat utskriftsbar-nisjen befinner seg i skjæringspunktet mellom eventyr, fantasi og pedagogisk innhold, og skaper en unik markedsmulighet for selgere. Barn elsker piratfantasier med skattekister, skattekart, piratskip, papegøyer, sjørøverflagg og øde øyer. Denne fascinasjonen driver etterspørsel etter utskriftsbare materialer som kanaliserer piratinteressen til strukturert læring gjennom engasjerende aktiviteter.

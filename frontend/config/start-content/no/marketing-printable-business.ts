@@ -2,25 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'markedsføre utskriftsbar forretning på nett',
+    primaryKeyword: 'markedsføre arbeidsark online',
     secondaryKeywords: [
-      'hvordan markedsføre utskriftsbar forretning på nett',
-      'markedsføringsguide utskriftsbar forretning',
-      'markedsføre arbeidsark på nett strategier',
-      'promotere utskriftsbare produkter guide',
-      'markedsføringsplan for selgere av utskriftsbare produkter',
+      'markedsføring arbeidsark Etsy',
+      'promotere oppgaver KDP',
+      'arbeidsark-virksomhet markedsføring',
+      'selge arbeidsark sosiale medier',
     ],
     lsiKeywords: [
-      'markedsføring utskriftsbar forretning',
-      'promotering digitale produkter',
-      'nettmarkedsføring selgere av utskriftsbare produkter',
+      'markedsføring',
+      'Pinterest',
+      'Instagram',
+      'SEO',
+      'Etsy',
+      'KDP',
+      'trafikk',
+      'salg',
     ],
-    titleTag: 'Markedsføre Utskriftsbar Forretning på Nett | LCS',
-    metaDescription: 'Hvordan markedsføre din utskriftsbare forretning på nett. SEO, sosiale medier, e-post, Pinterest og annonseringsstrategier for selgere av utskriftsbare.',
+    titleTag: 'Markedsføre arbeidsark online | Strategier for selgere',
+    metaDescription: 'Effektive markedsføringsstrategier for å selge arbeidsark online. Pinterest, Etsy SEO, sosiale medier og mer.',
   },
 
   hero: {
-    title: 'Slik Markedsfører du din Utskriftsbare Forretning på Nett',
+    title: 'Markedsføre arbeidsark online — Strategier for Etsy & KDP-selgere',
     tagline: 'Bevisste markedsføringsstrategier for selgere av utskriftsbare produkter — fra plattform-SEO og Pinterest til e-postmarkedsføring og sesongtiming, alle kanalene du trenger for å drive trafikk og salg',
     description: 'Å lage gode produkter er bare halve kampen — markedsføring avgjør om noen faktisk ser og kjøper dem. Denne guiden dekker alle markedsføringskanaler tilgjengelig for selgere av utskriftsbare produkter: markedsplass-SEO (Etsy, KDP), sosiale medier-strategier (Pinterest, Instagram, TikTok), e-postmarkedsføring for gjentakelseskjøp, innholdsmarkedsføring for organisk trafikk, og når betalt annonsering gir mening. Du lærer hvilke kanaler som gir best avkastning på hvert forretningsstadium og hvordan du bygger et markedsføringssystem som driver konsistent trafikk til oppføringene dine.',
   },

@@ -2,14 +2,14 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'flerspraklig printbar virksomhet',
-    secondaryKeywords: ['selg printables pa flere sprak', 'flerspraklig arbeidsark-virksomhet', 'internasjonalt printable-salg', 'sprakutvidelse printables'],
-    lsiKeywords: ['flerspraklig produktlinje strategi', 'ikke-engelske printable-markeder', 'sprakbasert omsetnings-multiplikasjon', 'internasjonale markedsplasser printables', 'tegnhondtering flerspraklige arbeidsark'],
-    titleTag: 'Flerspraklig printbar virksomhet — Guide',
-    metaDescription: 'Bygg en flerspraklig printable-virksomhet med 11 sprak. Markedsprioritering, produksjonsprosesser og plattformstrategier for internasjonalt salg.',
+    primaryKeyword: 'flerspråklig arbeidsark-virksomhet',
+    secondaryKeywords: ['selg arbeidsark på flere språk', 'flerspråklig oppgaver Etsy KDP', 'internasjonalt arbeidsark-salg'],
+    lsiKeywords: ['flerspråklig produktlinje strategi', 'ikke-engelske arbeidsark-markeder', 'språkbasert omsetnings-multiplikasjon', 'Etsy arbeidsark internasjonalt', 'KDP aktivitetsbok flere språk', 'kommersiell lisens arbeidsark', '11 språk arbeidsark-generering', 'globalt marked oppgaver'],
+    titleTag: 'Flerspråklig arbeidsark-virksomhet | Skaleringsguide',
+    metaDescription: 'Slik bygger du en flerspråklig arbeidsark-virksomhet. 11 språk, globalt marked, Etsy & KDP.',
   },
   hero: {
-    title: 'Bygg en flerspraklig printbar virksomhet',
+    title: 'Flerspråklig arbeidsark-virksomhet — 11 språk, globalt marked, Etsy & KDP',
     tagline: 'En komplett guide til a utvide printable-virksomheten din til flere sprak — som dekker markedsprioritering, produksjonsprosesser med 11-sprakstotte, plattformstrategier for internasjonale markeder og omsetnings-multiplikasjon gjennom sprakutvidelse',
     description: 'Flerspraklig utvidelse er den enkelt mest underutnyttede omsetnings-multiplikasjonsstrategien i printable-bransjen. De fleste selgere opererer utelukkende pa engelsk, noe som betyr at ikke-engelske markeder har dramatisk lavere konkurranse og langt mer uoppfylt ettersporsel. Denne guiden viser deg hvordan du bygger en flerspraklig virksomhet som nar 11 sprakmarkeder fra ett sett med innhold.',
   },

@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ordbilder ord arbeidsark forretning',
-    secondaryKeywords: ['ordbilder arbeidsark bedrift Etsy', 'ordbilder arbeidsark bedrift strategi', 'ordbilder arbeidsark bedrift tips'],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
+    primaryKeyword: 'ordbilder arbeidsark selge Etsy',
+    secondaryKeywords: ['ordbilder oppgaver forretning nettbutikk', 'sight words arbeidsark bedrift', 'høyfrekvente ord oppgaver selge'],
+    lsiKeywords: ['lesetrening arbeidsark salg', 'ordgjenkjenning oppgaver inntekt', 'ordbilder generator kommersiell lisens'],
     titleTag: 'Ordbilder-arbeidsark som forretning | LCS',
-    metaDescription: 'Ordbilder (sight words) er høyfrekvente ord som barn lærer å gjenkjenne umiddelbart. Selg pa Etsy & KDP med kommersiell lisens.',
+    metaDescription: 'Bygg en lønnsom forretning med ordbilder-arbeidsark for barn. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Ordbilder-arbeidsark som forretning',
+    title: 'Ordbilder-arbeidsark: Bygg en lønnsom forretning',
     tagline: 'Ordbilder er grunnlaget for leseflyt',
     description: 'Ordbilder (sight words) er høyfrekvente ord som barn lærer å gjenkjenne umiddelbart. Arbeidsark for ordbildetrening er en stabil nisje med jevn etterspørsel både på Etsy og Undervisningsbyen.no.',
   },

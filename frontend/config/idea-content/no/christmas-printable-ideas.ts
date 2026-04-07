@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Jul utskriftbare ideer til salg — Nisjeguide',
-    metaDescription: 'Oppdag jul utskriftbare ideer til salg på Etsy, Amazon KDP og Gumroad. Ferieproduktkonsepter, sesongstrategier og plattformtips for utskriftbare selgere.',
-
-    primaryKeyword: 'jul utskriftbare ideer',
+    titleTag: 'Juleoppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Juleoppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge juletema oppgaver.',
+    primaryKeyword: 'juleoppgaver til salg Etsy',
     secondaryKeywords: [
-      'julearbeidsark til salg',
-      'ferie utskriftbar forretningsideer',
-      'juleaktivitetsark for selgere',
-      'selg juleutskriftbare på Etsy',
+      'julearbeidsark selge Etsy',
+      'juletema aktivitetsbøker KDP',
+      'selge juleoppgaver på nett',
+      'jul nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'sesongbaserte ferie arbeidsarkpakker',
-      'vintertema pedagogiske aktiviteter',
-      'festlig produktlinje utskriftbare ressurser',
+      'jul nisje Etsy KDP',
+      'sesongbasert etterspørsel desember',
+      'juletema arbeidsark barneskole',
+      'pedagogiske juleoppgaver til salg',
+      'julesesong produktlinje selgere',
     ],
   },
   hero: {
-    title: 'Jul utskriftbare forretningsideer for selgere',
+    title: 'Juleoppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Jul representerer den enkeltstående mest kraftfulle sesongmuligheten på hele det utskriftbare markedet og genererer en etterspørselsbølge fra oktober til desember som overgår enhver annen ferie kombinert. Temaet omfatter et ekstraordinært utvalg av undertemaer inkludert julenisse, reinsdyr, snømenn, pepperkaker, sukkerstenger, kuler, nisser, julestrømper, kranser og krybbescener, noe som gir selgere praktisk talt ubegrenset produktvariasjon innenfor en sammenhengende nisje. Kjøpere planlegger ferietema produktpakker og desember aktiviteter, foreldre søker skjermfri underholdning under vinterferien, og gavekjøpere oppdager at aktivitetsbøker og arbeidsarkpakker er ideelle julegaver. For utskriftbare selgere på Etsy, Amazon KDP og Gumroad belønner julenisjen tidlig forberedelse med år-over-år akkumulerende avkastning etter hvert som oppføringer oppnår søkeautoritet og anmeldelser. Denne guiden gir spesifikke produktideer, plattformstrategier og timingtilnærminger for å hjelpe deg med å bygge en lønnsom jul utskriftbar produktlinje med våre arbeidsarkgeneratorverktøy.',
   },
   marketOverview: `Jul utskriftbar-nisjen er den ubestridte tungvekteren innen sesongbasert pedagogisk produktsalg, drevet av konvergerende etterspørsel fra kjøpere, foreldre, hjemmeundervisere og gavekjøpere i årets siste kvartal. Kjøpere begynner å planlegge desember pedagogiske aktiviteter så tidlig som september og søker etter ferietema arbeidsark som holder brukere engasjert i de spennende ukene før vinterferien. Foreldre leter etter juletema pedagogiske aktiviteter for å sysselsette barn under feriereiser, familiefester og den lange vinterferien der strukturert underholdning blir essensiell.

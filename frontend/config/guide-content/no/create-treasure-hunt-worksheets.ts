@@ -2,26 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skattejaktarbeidsark',
+    primaryKeyword: 'lag skattejakt å skrive ut steg for steg',
     secondaryKeywords: [
-      'lag skattejaktarbeidsark for salg',
-      'skattejakt stifinner arbeidsark generator',
-      'printbare retningsovelser for barn',
-      'koordinatrutenett aktiviteter for forskole',
+      'postløp-oppgaver barneskole å skrive ut',
+      'skattejakt arbeidsark med fasit PDF',
+      'retningsoppgaver koordinatrutenett barn',
     ],
     lsiKeywords: [
-      'stifinner koordinatrutenett retningsgivende ledetrader',
-      'romlig ræsonering kartlesingsovelser',
-      'selg skattejaktarbeidsark pa Etsy',
-      'Amazon KDP stifinner aktivitetsboker',
-      'kommersiell lisens skattejaktverktoy',
+      'skattejakt oppgaver barneskole trinn 1-4',
+      'romforståelse retningsøvelser Etsy',
+      'Amazon KDP stifinner-aktivitetsbøker',
+      'kommersiell lisens skattejaktverktøy',
+      'LK20 romlig orientering',
+      'temabilder postløp arbeidsark',
+      'selge skattejaktoppgaver digitalt',
+      'koordinatrutenett barnehage forskole',
     ],
-    titleTag: 'Skattejaktarbeidsark — Guide',
-    metaDescription: 'Lag skattejaktarbeidsark med 5x5 koordinatrutenett, retningsgivende ledetrader, tematiske landemerker og automatisk fasit. Guide for Etsy, KDP og Gumroad.',
+    titleTag: 'Lag skattejakt å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag skattejakt og postløpoppgaver å skrive ut. Temabilder inkludert. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Hvordan lage skattejaktarbeidsark',
+    title: 'Lag skattejakt å skrive ut — steg-for-steg guide med temabilder og postløpoppgaver',
     tagline: 'En trinn-for-trinn veiledning for a lage stifinner-arbeidsark med 5x5 koordinatrutenett, spredde tematiske bilder som landemerker, retningsgivende ledetrader i to moduser (grunnleggende og kardinal), og utskriftsklare eksporter du kan selge globalt',
     description: 'Skattejaktarbeidsark er en engasjerende stifinner-aktivitet der brukere folger retningsgivende ledetrader pa et koordinatrutenett for a finne en skjult skatt. Denne unike arbeidsarktypen kombinerer romlig ræsonering, retningsforstaelse og sekvensfolging i en tematisk innpakning som barn elsker. Generatoren lager profesjonelle skattejaktarbeidsark med tematiske landemerkebilder, to retningsmoduser og automatiske fasiter.',
   },

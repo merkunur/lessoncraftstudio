@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mer-mindre arbeidsark selge',
-    secondaryKeywords: ['mer-mindre arbeidsark selge Etsy', 'mer-mindre arbeidsark selge tips', 'mer-mindre arbeidsark selge strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark bedrift', 'pedagogiske utskrifter salg', 'Etsy nedlasting'],
-    titleTag: 'Mer-og-mindre-arbeidsark: Selg på nett | LCS',
-    metaDescription: 'Mer-og-mindre-arbeidsark: Selg på nett. Komplett guide til produktoppbygging, prissetting og markedsføring for mer-mindre arbeidsark selge i 2026.',
+    primaryKeyword: 'selg sammenligningsoppgaver mer og mindre arbeidsark',
+    secondaryKeywords: ['mer-mindre arbeidsark Etsy selgere', 'sammenligningsoppgaver barn selge nett', 'lag mengdeoppgaver kommersiell lisens'],
+    lsiKeywords: ['arbeidsark forretning matte', 'selg oppgaver digitalt Etsy', 'matteoppgaver barn nettbutikk'],
+    titleTag: 'Selg mer-og-mindre-arbeidsark på nett | LCS',
+    metaDescription: 'Selg sammenligningsoppgaver for barn med mengder og ulikhetstegn. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Mer-og-mindre-arbeidsark: Selg på nett',
+    title: 'Selg mer-og-mindre-arbeidsark på nett',
     tagline: 'Sammenligning av mengder — grunnleggende matte for småbarn',
     description: 'Mer-og-mindre-arbeidsark lærer barn å sammenligne mengder og forstå ulikhetstegn. De er en viktig del av matteundervisningen i barnehage og 1. trinn, og foreldre søker aktivt etter supplementært materiale.',
   },

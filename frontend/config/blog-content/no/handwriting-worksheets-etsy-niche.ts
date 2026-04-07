@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'håndskrift arbeidsark Etsy nisje 2026',
-    secondaryKeywords: ['skriveark Etsy selge', 'håndskriftøving utskrifter', 'bokstavskriving arbeidsark forretning'],
-    lsiKeywords: ['finmotorikk skriving', 'bokstavøving utskrift', 'skrivetrening barn'],
-    titleTag: 'Håndskrift-arbeidsark: Etsy-nisje 2026 | LCS',
-    metaDescription: 'Selg håndskrift-arbeidsark på Etsy. En stabil nisje med året-rundt-etterspørsel. Prissetting, produktstrategi og SEO-tips.',
+    primaryKeyword: 'selg håndskrift-arbeidsark Etsy',
+    secondaryKeywords: ['skriveark Etsy nisje evergreen', 'bokstavøving oppgaver selge', 'håndskriftøving barn forretning'],
+    lsiKeywords: ['sporing bokstaver arbeidsark', 'norsk alfabet skrivetrening', 'finmotorikk skriving salg'],
+    titleTag: 'Selg håndskrift-arbeidsark — stabil Etsy-nisje | LCS',
+    metaDescription: 'Håndskrift-arbeidsark er en stabil evergreen-nisje på Etsy med jevn etterspørsel. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Håndskrift-arbeidsark: En stabil Etsy-nisje',
+    title: 'Selg håndskrift-arbeidsark — stabil Etsy-nisje',
     tagline: 'Håndskriftøving selger så lenge barn lærer å skrive',
     description: 'Håndskrift-arbeidsark er en av de mest stabile nisjene på Etsy. Foreldre og lærere kjøper dem fra førskole til tredje trinn. I Norge brukes både trykkbokstaver og løkkeskrift, noe som gir deg to separate produktlinjer. Denne guiden viser deg hvordan du bygger en lønnsom skriveark-forretning.',
   },

@@ -2,24 +2,15 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'opphavsrett grunnleggende for printable-selgere',
-    secondaryKeywords: [
-      'opphavsrett for printbar virksomhetseiere',
-      'printable-selger opphavsrettsguide',
-      'beskytt dine printbare design juridisk',
-      'opphavsrettslov for digitale produktselgere',
-    ],
-    lsiKeywords: [
-      'printbar opphavsrettsbeskyttelse',
-      'immaterielle rettigheter printables',
-      'juridisk grunnlag for selgere',
-    ],
-    titleTag: 'Opphavsrett grunnleggende for printable-selgere | LCS',
-    metaDescription: 'Opphavsrett grunnleggende for printable-selgere. Beskytt designene dine, forsta rettighetene dine og unnga krenkelse i din printbare virksomhet.',
+    primaryKeyword: 'opphavsrett for arbeidsark-selgere',
+    secondaryKeywords: ['opphavsrett arbeidsark-virksomhet', 'beskytt arbeidsark-design juridisk', 'opphavsrettslov digitale arbeidsark'],
+    lsiKeywords: ['opphavsrettsbeskyttelse arbeidsark', 'immaterielle rettigheter oppgaver', 'juridisk grunnlag selgere', 'Etsy arbeidsark opphavsrett', 'KDP aktivitetsbok rettigheter', 'kommersiell lisens arbeidsark', 'krenkelse digitale produkter', 'lisens og beskyttelse arbeidsark'],
+    titleTag: 'Opphavsrett for arbeidsark-selgere | Juridisk guide',
+    metaDescription: 'Forstå opphavsrett og rettigheter for arbeidsark-selgere. Hva du kan selge, lisens og beskyttelse.',
   },
 
   hero: {
-    title: 'Opphavsrett grunnleggende for printable-selgere',
+    title: 'Opphavsrett for arbeidsark-selgere — hva du kan selge, lisens og beskyttelse',
     tagline: 'En komplett guide til a forsta opphavsrett som printbar virksomhetseier — dekker hva opphavsrett beskytter i arbeidsark, hva som er og ikke er opphavsrettsbeskyttet i pedagogiske produkter, beskyttelse av dine originale design, forstaelse av rimelig bruk, bruk av offentlig tilgjengelige ressurser, handtering av krenkelse, unngaelse av opphavsrettsfeil og integrering av opphavsrettsbevissthet i driften din',
     description: 'A forsta opphavsrett er essensielt for a beskytte arbeidet ditt og unnga juridiske problemer i din printbare virksomhet. Denne guiden dekker opphavsrettsgrunnlaget enhver printable-selger trenger: hvilken beskyttelse du automatisk har, hvordan du handterer potensiell krenkelse av designene dine, hva du kan og ikke kan gjore lovlig med kommersielle lisenser, og hvordan opphavsrett gjelder pa tvers av Etsy, KDP og andre plattformer. Du vil ga derfra med en klar forstaelse av dine rettigheter og ansvar som printbar generator og selger.',
   },

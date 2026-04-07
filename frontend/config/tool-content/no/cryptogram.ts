@@ -2,24 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kryptogram arbeidsark generator',
+    primaryKeyword: 'hemmelig melding gratis skrive ut',
     secondaryKeywords: [
-      'bildechiffer puslespill generator for selgere',
-      'lag kryptogram arbeidsark til salg',
-      'utskriftsbare kryptogram puslespill kommersiell bruk',
-      'kryptogram generator for KDP',
+      'kryptogram generator gratis',
+      'hemmelig kode gratis',
+      'dechiffrere melding gratis',
+      'kodespill gratis online',
     ],
     lsiKeywords: [
-      'bilde-til-bokstav chiffer utskriftsbare for Etsy',
-      'kodeknekking arbeidsark generator verktøy',
-      'flerspråklig bildekryptogram generator',
+      'kode',
+      'dechiffrere',
+      'tegn',
+      'alfabet',
+      'vannmerke',
+      'gratis',
     ],
-    titleTag: 'Kryptogram Arbeidsark Generator | Lag og Selg Puslespill',
-    metaDescription: 'Generer kryptogram arbeidsark med bildechiffer koding, vanskelighetsregler, autotildelingsmodus, fasit på 11 språk. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Hemmelige meldinger gratis | Kryptogramgenerator online',
+    metaDescription: 'Lag kryptogrammer og hemmelige meldinger gratis online. Temabilder, automatisk fasit. Ingen registrering.',
   },
 
   hero: {
-    title: 'Kryptogram Arbeidsark Generator',
+    title: 'Hemmelige meldinger gratis — Kryptogramgenerator online med temabilder',
     tagline: 'Lag bildechiffer puslespill der hvert bokstav mappes til et bilde, og brukerne avkoder hele hemmelige setninger gjennom mønstergjenkjenning',
     description: 'Design profesjonelle kryptogram arbeidsark bygget på en bildechiffermekanikk: hvert alfabetbokstav mappes til et unikt bilde, og din hemmelige setning gjengis som en sekvens av bilder som brukerne må avkode tilbake til lesbar tekst. I motsetning til ordsøk eller bokstavblandinger som arbeider med enkeltord, koder Kryptogram-generatoren hele setninger og fraser — brukerne knekker chifferet ved å dedusere hvilket bilde som representerer hvilken bokstav, med kontekstuelle ledetråder fra vanlige ord som «og», «den» og «er» for å fremskynde kodeknekking. Skyveknappen Bokstaver å Avsløre (0–10) er den primære vanskelighetskontroll: still den til null for en ren kodeknekningsutfordring uten startinformasjon, eller skyv den opp til ti for tung støtting der mange bokstav-til-bilde-tilknytninger er forhåndsavslørt som tips. Autotildeling henter tilfeldige bilder fra en av 104 tematiske samlinger (mer enn 3 100 illustrasjoner) for å fylle hele chifferet med ett klikk, mens Manuell Tildeling lar deg håndplukke spesifikke bilder til spesifikke bokstaver med en full visuell forhåndsvisning av alle tilknytninger. Last opp tilpassede bilder for komplett kreativ kontroll. Fasiten inkluderer en bokstavlegende som viser hvert alfabetbokstav koblet med sitt tildelte bilde i sortert rekkefølge — den definitive løsningsreferansen. Språkfølsomhet er innebygd: bytt språk, og både den hemmelige beskjedteksten og alfabetet endres. Norske kryptogrammer koder norske setninger med æ, ø, å i alfabetet; tyske kryptogrammer inkluderer ä, ö, ü, ß; franske kryptogrammer bruker é, è, ç, à. Hver språkversjon er et ekte annerledes chifferprodukt. Eksporter trykklare PDF-er og JPEG-bilder med 400+ DPI i Letter, A4 eller egendefinerte størrelser. Velg blant 5 skrifttyper, bytt gråtone for blekkvarsom utskrift, og bruk hele Fabric.js arbeidsområdet til å flytte hvert element. Den gratis prøveversjonen inneholder et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

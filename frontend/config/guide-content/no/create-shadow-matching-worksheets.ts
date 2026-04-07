@@ -2,26 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skyggematchingsarbeidsark',
+    primaryKeyword: 'lag skyggelek-oppgaver å skrive ut',
     secondaryKeywords: [
-      'lag skyggematchingsarbeidsark for salg',
-      'skyggematching generator kommersiell bruk',
-      'printbare visuell diskriminering arbeidsark',
-      'silhuettmatchingsaktiviteter for barn',
+      'lage skyggelek-oppgaver med temabilder for Etsy',
+      'selge skyggematching arbeidsark på Amazon KDP',
+      'lag silhuettmatching oppgaver for barn',
+      'skyggelek-oppgaver kommersiell lisens',
     ],
     lsiKeywords: [
-      'pikselniva svart silhuett automatisk generering',
-      'visuell persepsjon matchingsovelse forskole',
-      'selg skyggematchingsarbeidsark pa Etsy',
-      'Amazon KDP visuell diskriminering aktivitetsboker',
-      'kommersiell lisens skyggematchingsverktoy',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'skyggelek-oppgaver med temabilder',
+      'skyggematching å skrive ut',
     ],
-    titleTag: 'Skyggematchingsarbeidsark — Guide',
-    metaDescription: 'Lag skyggematchingsarbeidsark med automatisk genererte pikselniva silhuetter, tematiske bilder og fasit. Guide for salg pa Etsy, KDP og Gumroad.',
+    titleTag: 'Lag skyggelek-oppgaver å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag skyggelek-oppgaver å skrive ut med automatiske silhuetter og temabilder. Visuell diskriminering. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Hvordan lage skyggematchingsarbeidsark',
+    title: 'Lag skyggelek-oppgaver å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage visuell diskriminering arbeidsark med automatisk genererte svarte silhuetter, fargerike tematiske bilder, bokstav-til-nummer paringsformat og utskriftsklare eksporter du kan selge pa Etsy, Amazon KDP og Gumroad',
     description: 'Skyggematchingsarbeidsark er en populaer visuell persepsjonsaktivitet der brukere matcher fargerike bilder med sine tilsvarende svarte silhuetter. Denne unike ovelsestypen trener visuell diskrimineringsevne — evnen til a gjenkjenne former og konturer uten fargeinformasjon. Skyggematchings-generatoren lager automatisk pikselniva silhuetter fra kildebilder, noe som eliminerer manuelt designarbeid fullstendig. Denne guiden dekker hele opprettelsesprosessen fra temavalg til eksport av ferdigstilte produkter.',
   },

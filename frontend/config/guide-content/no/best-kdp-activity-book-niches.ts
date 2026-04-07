@@ -2,25 +2,15 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'beste KDP aktivitetsbok-nisjer',
-    secondaryKeywords: [
-      'beste KDP aktivitetsbok-nisjer 2026',
-      'lonnsomme KDP aktivitetsbok-nisjer',
-      'lav konkurranse KDP-nisjer 2026',
-      'bestselgende aktivitetsbok-kategorier Amazon',
-      'KDP nisjeforskning aktivitetsboker',
-    ],
-    lsiKeywords: [
-      'KDP nisjeanalyse',
-      'Amazon aktivitetsbok-marked',
-      'lonnsomme selvpubliserings-nisjer',
-    ],
-    titleTag: 'Beste KDP aktivitetsbok-nisjer (2026) | LCS',
-    metaDescription: 'Oppdag de beste KDP aktivitetsbok-nisjene i 2026. Lavkonkurranse, hoy-ettersporsel-kategorier med inntektspotensial og innholdsopprettelsesstrategier.',
+    primaryKeyword: 'beste KDP-nisjer aktivitetsbøker',
+    secondaryKeywords: ['lønnsomme KDP aktivitetsbok-nisjer', 'lav konkurranse KDP-nisjer arbeidsark', 'bestselgende aktivitetsbok-kategorier Amazon'],
+    lsiKeywords: ['KDP nisjeanalyse', 'Amazon aktivitetsbok-marked', 'lønnsomme selvpubliserings-nisjer', 'Etsy arbeidsark nisjer', 'kommersiell lisens oppgaver', 'matteoppgaver KDP nisje', 'ordleting aktivitetsbok', 'inntektspotensial KDP arbeidsark'],
+    titleTag: 'Beste KDP-nisjer for aktivitetsbøker | Nisjeguide',
+    metaDescription: 'Finn de mest lønnsomme nisjene for aktivitetsbøker på Amazon KDP. Analyse, konkurranse og inntektspotensial.',
   },
 
   hero: {
-    title: 'Beste KDP aktivitetsbok-nisjer i 2026',
+    title: 'Beste KDP-nisjer for aktivitetsbøker — analyse, konkurranse og inntektspotensial',
     tagline: 'En nisjeforskning-guide for Amazon KDP aktivitetsbok-utgivere — dekker ettersporsel-til-konkurranse-analyse for hver stor aktivitetsbok-kategori, publikumssegmenteringsstrategier som multipliserer nisjemuligheter, Amazon BSR og anmeldelsesdatatolkning for nisjevalidering, underbehandlede under-nisjer med sterk kjoperettersporsel og tynn konkurranse, sesongbasert versus eviggronne nisjer for katalogplanlegging, kryssategori-hybridnisjer som nar flere kjoperpooler, og multi-nisje portefoljestrategier som balanserer dybde med diversifisering',
     description: 'A velge riktig nisje er forskjellen mellom en KDP-bok som selger 5 eksemplarer og en som genererer konsekvent manedlig inntekt. Denne guiden analyserer de mest lonnsomme aktivitetsbok-nisjene pa Amazon KDP i 2026: hvilke kategorier har voksende ettersporsel, hvor konkurransen fortsatt er lav nok til a rangere, og hvordan du validerer en nisje for du investerer tid i innholdsoppretting. Du vil laere hvordan du bruker generatorene vare til raskt a teste nisjer ved a produsere eksempelsider og evaluere markedstilpasning.',
   },

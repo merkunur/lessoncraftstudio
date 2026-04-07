@@ -2,24 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag bildesudoku for barn for salg',
+    primaryKeyword: 'lag bilde-sudoku å skrive ut steg for steg',
     secondaryKeywords: [
-      'lag bildesudoku-puslespill for Etsy',
-      'lag visuelle sudokuboker for KDP',
-      'bildesudoku opprettelsesguide',
-      'selg bildesudoku-printables pa nett',
+      'lage bilde-sudoku med temabilder for Etsy',
+      'selge bildesudoku-puslespill på Amazon KDP',
+      'lag 4x4 sudoku for barn med bilder',
+      'bilde-sudoku barneskole kommersiell lisens',
     ],
     lsiKeywords: [
-      'bildesudoku produktoppretting',
-      'barnepuslespill virksomhet',
-      'salgbare visuelle sudokuprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'bilde-sudoku med temabilder',
+      'bildesudoku-oppgaver å skrive ut',
     ],
-    titleTag: 'Lag bildesudoku for barn for salg | LCS',
-    metaDescription: 'Guide til a lage bildesudoku-puslespill for barn for salg. Vanskelighetsnivåer, temaer og strategier for Etsy og KDP bildesudoku-bokselgere.',
+    titleTag: 'Lag bilde-sudoku å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag bilde-sudoku å skrive ut med temabilder og tre vanskelighetsgrader. 4x4 rutenett med fasit. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag bildesudoku for barn for salg pa nett',
+    title: 'Lag bilde-sudoku å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage bildebaserte 4x4 sudoku-puslespill du kan selge pa Etsy, Amazon KDP og Gumroad',
     description: 'Bildesudoku for barn fyller et gap som standard 9x9 tallsudoku ikke betjener — yngre losere trenger visuelle puslespill med mindre rutenett. Denne guiden viser deg hvordan du lager 4x4 bildesudoku-puslespill designet for salg: bygge tre-nivå vanskelighetsprogresjoner, velge temaer som tiltrekker foreldre, og formatere puslespillboker for Amazon KDP. Du vil laere hvordan det rent visuelle formatet gjor produktene dine salgbare over hele verden uten oversettelse, og hvordan du posisjonerer bildesudoku som en premium logikkaktivitet i barns printable-marked.',
   },

@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable papirstørrelse beste papirstørrelser produkter',
-    secondaryKeywords: ['beste papirstørrelser printable produkter tips', 'beste papirstørrelser printable produkter guide', 'beste papirstørrelser printable produkter steg for steg'],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Beste papirstørrelser for printable-produkter | LCS',
-    metaDescription: 'Papirstørrelse er en vanlig feilkilde for printable-selgere. A4 er standard i Norge og Europa, mens US Letter er standard i USA. Denne guiden viser de',
+    primaryKeyword: 'papirstørrelse arbeidsark A4 US Letter',
+    secondaryKeywords: ['A4 vs US Letter arbeidsark Etsy', 'papirformat oppgaver selge KDP', 'riktig papirstørrelse Etsy butikk'],
+    lsiKeywords: ['papirstørrelse arbeidsark', 'A4 US Letter oppgaver', 'Etsy format arbeidsark', 'KDP bokformat', 'kommersiell lisens', 'arbeidsark selge nett', 'LessonCraftStudio generator'],
+    titleTag: 'A4 eller US Letter? Papirstørrelse-guide',
+    metaDescription: 'Velg riktig papirstørrelse for arbeidsark du selger. Lag oppgaver med LessonCraftStudio — 33 generatorer, 11 språk, kommersiell lisens.',
   },
   hero: {
-    title: 'Beste papirstørrelser for printable-produkter',
+    title: 'A4 eller US Letter — beste papirstørrelse for arbeidsark',
     tagline: 'A4 for Europa, US Letter for Amerika — tilby begge',
     description: 'Papirstørrelse er en vanlig feilkilde for printable-selgere. A4 er standard i Norge og Europa, mens US Letter er standard i USA. Denne guiden viser deg hvordan du tilbyr begge formater uten dobbelt arbeid.',
   },

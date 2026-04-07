@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'advents juleutskrifter selg november advent jul',
+    primaryKeyword: 'advent jule-arbeidsark selge november',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'adventskalender oppgaver selge Etsy',
+      'juleoppgaver arbeidsark forretning',
+      'advent arbeidsark barn selge nettbutikk',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Advents- og juleutskrifter: Selg i november | LCS',
-    metaDescription: 'Norge har ingen Thanksgiving, men adventstiden (1.–24. desember) er en enorm mulighet. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['sesongbaserte arbeidsark salg', 'adventsaktiviteter oppgaver barn', 'jule-arbeidsark kommersiell lisens'],
+    titleTag: 'Advent- og juleoppgaver: Selg i november | LCS',
+    metaDescription: 'Selg advents- og juleoppgaver fra november — Norges største sesong for arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Advents- og juleutskrifter: Selg i november',
+    title: 'Advent- og juleoppgaver: Selg fra november',
     tagline: 'Adventstiden er Norges største sesong for utskrifter',
     description: 'Norge har ingen Thanksgiving, men adventstiden (1.–24. desember) er en enorm mulighet. Adventskalender-aktiviteter, juleverksted-oppgaver og adventspuslespill er svært etterspurt. Lanser i november for å fange tidlige kjøpere.',
   },

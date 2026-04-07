@@ -2,24 +2,15 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'labyrint arbeidsark generator',
-    secondaryKeywords: [
-      'labyrint arbeidsark generator for selgere',
-      'lag bildesti labyrint arbeidsark til salg',
-      'utskriftsbar labyrintpuslespill generator kommersiell bruk',
-      'labyrintaktivitet arbeidsark generator for KDP og Etsy',
-    ],
-    lsiKeywords: [
-      'tre spillmoduser bildesti klassisk labyrint velg vei',
-      'LPF longest path first algoritme veggbasert labyrint generator',
-      'automatisk fasit rosa sirkel løsningsvei labyrint generator',
-    ],
-    titleTag: 'Bildesti Generator — Labyrint Arbeidsark Generator —...',
-    metaDescription: 'Lag labyrintarbeidsark med Bildesti, Klassisk Labyrint og Velg den Riktige Veien-moduser, samlebilder og automatiske. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'labyrint gratis skrive ut',
+    secondaryKeywords: ['labyrint generator gratis', 'labyrint barn gratis', 'lage labyrint gratis', 'labyrint 1. trinn gratis'],
+    lsiKeywords: ['labyrint', 'vei', 'sti', 'løse', 'vannmerke', 'gratis', 'barn'],
+    titleTag: 'Labyrint gratis å skrive ut | Labyrintgenerator online',
+    metaDescription: 'Lag labyrinter gratis online med temabilder. Automatisk fasit, 300 DPI PDF. Ingen registrering.',
   },
 
   hero: {
-    title: 'Bildesti Labyrint Generator',
+    title: 'Labyrint gratis å skrive ut — Labyrintgenerator online med temabilder',
     tagline: 'Tremodusers labyrint arbeidsark generator med Bildesti (bilderutenett veifølging), Klassisk Labyrint (LPF veggbasert algoritme med samlebilder og blindveiblokkering) og Velg den Riktige Veien (treveis retningslabyrint), fem bilderoller, tilpassbar veggdesign og helt visuelle labyrinter som selger globalt uten oversettelse',
     description: 'Lag profesjonelle labyrint- og veiarbeidsark med tre distinkte spillmoduser. Bildesti generator bilderutenett der brukerne følger den riktige veien. Klassisk Labyrint genererer veggbaserte labyrinter med LPF-algoritmen, konfigurerbare rutenettstørrelser 15×15 til 20×20, 1–3 veier med blindveiblokkering, og tilpassbar veggfarge/tykkelse/gjennomsiktighet. Samlebilder spres gjennom korridorer. Velg den Riktige Veien presenterer treveislabyrinter med fire retningsalternativer. Fem bilderoller: Start, Mål, Vei, Distraktor og Dekorasjon. Hver modus genererer fasit med rosa sirkler langs løsningsveien. Velg Vei legger til «✓ KORREKT VEI». Klassisk Labyrint inkluderer samlingslegende. Helt visuelle labyrinter — universelt salgbare uten oversettelse. Bla gjennom 104 tematiske samlinger med mer enn 3 100 illustrasjoner. Eksporter fire filer per økt med 300 DPI. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne vannmerket.',
   },

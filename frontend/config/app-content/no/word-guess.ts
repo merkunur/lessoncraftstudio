@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gjett ordet generator',
-    secondaryKeywords: [
-      'gjett ordet arbeidsark selg på Etsy',
-      'ordgjetting arbeidsark generator til Amazon KDP',
-      'gjett ordet arbeidsark kommersiell lisens',
-      'utskriftsbare ordpuslespill til Gumroad',
-    ],
-    lsiKeywords: [
-      'digitale ordforråd produkter for gründere',
-      'utskriftsbare ordgjettingsaktiviteter nettbasert forretning',
-      'ordpuslespill generator kommersielt bruk',
-    ],
-    titleTag: 'Gjett Ordet Generator | Lag og Selg Ordpuslespill på Nett',
-    metaDescription: 'Lag gjett ordet-arbeidsark til salg på Etsy, KDP og Gumroad. Bildeledetråder, 4 vanskelighetsgrader, 3 innholdskilder, 11 språk. $49 engangsbetaling.',
+    primaryKeyword: 'hengemannen oppgave skrive ut',
+    secondaryKeywords: ['gjett ordet oppgaveark', 'hengemannen skrive ut', 'ordforråd gjettelek', 'ordgåte oppgave'],
+    lsiKeywords: ['gjette', 'ordforråd', 'bokstaver', 'ledetråder', 'gåte'],
+    titleTag: 'Hengemannen oppgave å skrive ut | Generator ordgåter',
+    metaDescription: 'Lag hengemannen-oppgaver med temaord og bilder. Automatisk fasit, utskrivbare PDF-er. Prøv gratis.',
   },
 
   hero: {
-    title: 'Gjett Ordet Arbeidsark Generator for Bildebaserte Ordforrådspuslespill',
+    title: 'Hengemannen oppgave å skrive ut — Generator for ordgåter med bilder',
     tagline: 'Hangman-stil møter bildeledetråder — fire vanskelighetsgrader forvandler hvert ord til et engasjerende puslespill.',
     description:
       'Design profesjonelle gjett ordet-arbeidsark der brukerne ser en bildeledetråd og gjetter det skjulte ordet ved å fylle ut tomme bokstavceller — et hangman-lignende puslespill som bygger staving, ordforråd og deduktiv tenkning samtidig. Velg mellom tre innholdskilder: det innebygde bildebiblioteket med mer enn 3 100 illustrasjoner i 104 temaer, Manuell Redigeringsmodus der du velger bilder og deretter tilpasser visningsnavnene, eller Egen Ordliste for tekstbaserte puslespill med valgfritt ordforråd. Fire vanskelighetsgrader styrer hvor mange bokstaver som vises som ledetråder — fra ingen ledetråder overhodet til lett modus som viser halvparten av bokstavene — og generator naturlig progresjon fra nybegynner til avansert. Plasser 1 til 10 puslespill per arbeidsark og bytt mellom store og små bokstaver i bokstavrutenettet. Full Tilgang låser opp alle 11 støttede språk, og fordi Gjett Ordet er språkavhengig, endres selve målordet etter språk — «dog» på engelsk blir «Hund» på tysk, «chien» på fransk og «hund» på norsk — noe som gjør hver språkversjon til et unikt, salgbart produkt. Hvert arbeidsark genererer en automatisk fasit, og du kan eksportere trykkeklare PDF-er og JPEG-bilder med mer enn 400 DPI i Letter-, A4-, Kvadrat- eller egendefinert format. Enten du selger tematiske ordforrådspakker på Etsy, setter sammen ordpuslespillbøker til Amazon KDP eller lager nivåinndelte lesestasjoner til Gumroad — Gjett Ordet Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',

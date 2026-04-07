@@ -2,14 +2,14 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tilbakevendende omsetning arbeidsark',
-    secondaryKeywords: ['arbeidsark virksomhetsinntekt', 'tjen penger pa a selge arbeidsark', 'printbar arbeidsark omsetning', 'lopende inntekt fra printables'],
-    lsiKeywords: ['omsetningsstrom digitalt produktinntekt evergreen-produkter salgsautomatisering', 'multiple omsetningskanaler royaltyinntekt digital nedlastingsinntekt', 'produktlivssyklus langtidsomsetning katalogmonetisering', 'skalerbar omsetningsmodell arbeidsark inntektsstrommer multi-platform omsetning'],
-    titleTag: 'Tilbakevendende omsetning arbeidsark — Inntektsguide',
-    metaDescription: 'Bygg tilbakevendende arbeidsark-omsetning gjennom evergreen-kataloger, multi-platform distribusjon, sprakutvidelse og katalog-sammensettingsstrategier.',
+    primaryKeyword: 'passiv inntekt med arbeidsark',
+    secondaryKeywords: ['arbeidsark virksomhetsinntekt automatisering', 'tjen penger selge arbeidsark Etsy KDP', 'løpende inntekt oppgaver digitale produkter'],
+    lsiKeywords: ['omsetningsstrøm digitalt produktinntekt', 'evergreen arbeidsark salg', 'Etsy arbeidsark passiv inntekt', 'KDP aktivitetsbok inntekt', 'kommersiell lisens arbeidsark', 'flerspråklig arbeidsark skalering', 'automatisering arbeidsark-virksomhet', 'oppgaver plattformvalg salg'],
+    titleTag: 'Passiv inntekt med arbeidsark | Inntektsguide',
+    metaDescription: 'Slik bygger du passiv inntekt med arbeidsark. Automatisering, skalering og plattformvalg for Etsy & KDP.',
   },
   hero: {
-    title: 'Lag tilbakevendende omsetning med arbeidsark',
+    title: 'Passiv inntekt med arbeidsark — automatisering, skalering og plattformvalg for Etsy & KDP',
     tagline: 'En komplett guide til a bygge baeredyktig arbeidsark-inntekt — som dekker hvorfor arbeidsark genererer lopende omsetning, bygging av evergreen-produktkataloger, diversifisering pa tvers av omsetningskanaler, utnyttelse av pakker for hoyere transaksjonsverdi, utvidelse til flere sprak og bygging av sammensatte katalogeffekter',
     description: 'Det mest kraftige aspektet av en arbeidsark-virksomhet er at hvert produkt du lager fortsetter a generere omsetning lenge etter at opprettelsesinnsatsen er fullfort. I motsetning til tjenester der du bytter timer mot kroner, kan en enkelt arbeidsarkpakke selge hundrevis eller tusenvis av ganger pa tvers av flere plattformer, sprak og ar uten a kreve ytterligere produksjonstid.',
   },

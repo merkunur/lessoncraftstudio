@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Regnefakta utskriftsbare ideer til salg — Nisjeguide',
-    metaDescription: 'Utforsk regnefakta utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Matematikkøvelses produktkonsepter, plattformtips og nisjestrategier for selgere.',
+    titleTag: 'Mattefakta-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Mattefakta-oppgaver til salg på Etsy og Amazon KDP. Addisjon, subtraksjon og gangetabell arbeidsark — nisjeideer og plattformstrategier for selgere.',
 
-    primaryKeyword: 'regnefakta utskriftsbare ideer',
+    primaryKeyword: 'mattefakta-oppgaver til salg',
     secondaryKeywords: [
-      'regnefakta arbeidsark til salg',
-      'matematikkøvelse utskriftsbar forretning',
-      'regnefakta aktivitetsark for selgere',
-      'selg matematikk printables online',
+      'selge mattefakta-arbeidsark Etsy',
+      'regnefakta-oppgaver KDP',
+      'matematikk arbeidsark til salg',
+      'gangetabell oppgaver for selgere',
     ],
     lsiKeywords: [
-      'addisjon og subtraksjon øvelsesark',
-      'multiplikasjonstabeller utskriftsbare produkter',
-      'matematisk flyt arbeidsark',
+      'nisje mattefakta-oppgaver',
+      'tema addisjon arbeidsark',
+      'Etsy regnefakta arbeidsark',
+      'KDP matematikk aktivitetsbok',
+      'selge oppgaver digitalt',
+      'eviggrønn mattenisje',
+      'barneskole matteøvelse',
     ],
   },
   hero: {
-    title: 'Regnefakta utskriftsbare forretningsideer for selgere',
+    title: 'Mattefakta-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Regnefakta øvelsesark representerer en av de mest stabile og eviggrønne nisjene for utskriftsbare selgere fordi matematisk flyt er en universell utdanningsprioritet som foreldre og kjøpere investerer i konsekvent gjennom hele skoleåret. Addisjon, subtraksjon, multiplikasjon og divisjon utgjør grunnlaget for all matematikkundervisning, og behovet for gjentatt øvelse driver vedvarende etterspørsel etter friske, engasjerende arbeidsark. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad tilbyr regnefakta-nisjen helårs etterspørsel med minimale sesongsvingninger, bred aldersgruppetildekning fra barnehage til fjerde klasse, og høy gjenkjøpsrate ettersom kjøpere trenger nye materialer etter hvert som elever progredierer. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å hjelpe deg med å bygge en lønnsom regnefakta utskriftsbar produktlinje.',
   },
   marketOverview: `Regnefakta utskriftsbar-nisjen er en av de mest pålitelige inntektskildene for pedagogiske produktselgere fordi etterspørselen er drevet av universelle utdanningsstandarder som krever matematisk flyt i de tidlige skoleårene. Hver elev fra barnehage til fjerde klasse trenger gjentatt øvelse med grunnleggende regnefakta, og denne uunngåelige utdanningsmilepælen skaper en uuttømmelig kjøperbase som fornyes årlig.

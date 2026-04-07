@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'reiseaktiviteter utskrifter selg reise aktiviteter',
+    primaryKeyword: 'reiseaktiviteter arbeidsark selge Etsy',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'biltur oppgaver barn selge nettbutikk',
+      'reise arbeidsark forretning Etsy KDP',
+      'ferieoppgaver barn selge på nett',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Reiseaktiviteter-utskrifter: Selg | LCS',
-    metaDescription: 'Foreldre med små barn trenger aktiviteter til bilreiser, flyreiser og ferieopphold. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['reise oppgaver barn salg', 'biltur arbeidsark nisje', 'ferie arbeidsark kommersiell lisens'],
+    titleTag: 'Reiseaktiviteter-arbeidsark: Lag og selg | LCS',
+    metaDescription: 'Lag og selg reiseaktiviteter og biltur-oppgaver for barn på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Reiseaktiviteter-utskrifter: Selg',
+    title: 'Reiseaktiviteter-arbeidsark: Lag og selg',
     tagline: 'Lange bilturer og flyreiser driver etterspørsel',
     description: 'Foreldre med små barn trenger aktiviteter til bilreiser, flyreiser og ferieopphold. Utskrivbare reiseaktiviteter er lette, billige og trenger ingen ladning. Perfekt for den digitale tidsalderen — og for printable-selgere.',
   },

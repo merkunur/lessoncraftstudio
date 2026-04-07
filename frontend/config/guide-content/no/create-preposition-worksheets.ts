@@ -2,27 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'preposisjonsarbeidsark',
+    primaryKeyword: 'lag romforståelse-oppgaver å skrive ut',
     secondaryKeywords: [
-      'lag preposisjonsarbeidsark for salg',
-      'preposisjonsarbeidsark generator kommersiell bruk',
-      'printbare romlige sprakarbeidsark for Etsy og KDP',
-      'sprakfolsomme preposisjonsarbeidsark med fasit',
+      'preposisjonsoppgaver barneskole PDF',
+      'romforståelse arbeidsark med fasit',
+      'posisjonsord øvelser å skrive ut',
     ],
     lsiKeywords: [
-      'to ovelsesmoduser utfyll-det-blanke flervalg preposisjons-maker',
-      'formbytte separat bildelag scenekombinasjoner generator',
-      'preposisjon avkrysningsrutenett syv posisjonsord malsrettet ovelses-generator',
-      'selg preposisjonsarbeidsark pa Etsy',
-      'Amazon KDP romlige sprak-aktivitetsboker',
-      'kommersiell lisens preposisjonsarbeidsark-verktoy',
+      'romforståelse oppgaver barneskole trinn 1-4',
+      'preposisjoner arbeidsark Etsy',
+      'Amazon KDP romlige språk-aktivitetsbøker',
+      'kommersiell lisens preposisjonsverktøy',
+      'LK20 romlig orientering og preposisjoner',
+      'temabilder 11 språk lokalisert',
+      'selge romforståelseoppgaver digitalt',
+      'formbytte scenekombinasjoner generator',
     ],
-    titleTag: 'Preposisjonsarbeidsark — Guide',
-    metaDescription: 'Lag preposisjonsarbeidsark med to ovelsesmoduser, formbytte for scenevariasjon, 7-preposisjon avkrysning, native. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Lag romforståelse-oppgaver | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag oppgaver om romforståelse og preposisjoner. Temabilder, 11 språk. Selg på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Hvordan lage preposisjonsarbeidsark',
+    title: 'Lag romforståelse-oppgaver — steg-for-steg guide med temabilder og 11 språk',
     tagline: 'En trinn-for-trinn veiledning for a lage romlige sprakarbeidsark med to ovelsesmoduser (Utfyll-det-blanke for aktiv gjenkalling og Flervalg for stillasbasert ovelse), formbytte som multipliserer scenekombinasjoner gjennom et separat bildelag, et preposisjon avkrysningsrutenett for a velge noyaktig hvilke posisjonsord som inkluderes, konfigurerbart 1 til 8 ovelser per side, sprakfolsomme preposisjonsord som oversettes til native ekvivalenter pa 11 sprak og automatisk generert fasit du kan selge globalt pa Etsy, Amazon KDP og Gumroad',
     description: 'Preposisjonsarbeidsark er en visuelt engasjerende romlig sprakaktivitet der brukere identifiserer det korrekte posisjonsordet ved a studere bildescener som viser objekter i romlige relasjoner. I motsetning til abstrakte grammatikkovelser som bygger pa tekst-kun utfyllingssatninger, gir det scenebaserte formatet brukere konkret visuell kontekst — en katt som sitter pa en boks, en ball under et bord, en fugl over et gjerde — som gjor det romlige konseptet ojeblikkelig forstaelig. Preposisjonsarbeidsark-makeren tilbyr to ovelsesmoduser som betjener forskjellige brukernivåer: Utfyll-det-blanke-modus presenterer en scene med en blank linje der brukere skriver den korrekte preposisjonen fra hukommelsen, som tester aktiv gjenkalling egnet for eldre brukere og mellomnivaer ESL-brukere. Flervalg-modus viser den samme scenen med valgbare alternativer, som gir stillasbasert ovelse for nybegynnere og yngre brukere, med en tilpassbar instruksjonslinje som selgere kan redigere for a matche produktstilen sin. Den fremtredende funksjonen er formbytte — et separat bildelag for sceneformer (boks, bord, hylle, kurv) som du kan bytte uavhengig fra hovedbildene. A kombinere 10 hovedbilder med 10 forskjellige former produserer 100 unike ovelsesscener, som multipliserer produktvariasjonen din uten a trenge ekstra kildebilder. Preposisjon avkrysningsrutenettet lar deg velge noyaktig hvilke av de 7 posisjonsordene som inkluderes: pa, under, over, ved siden av, mellom, inne i og utenfor. Velg alle for omfattende ovelse eller fokuser pa et subsett for malsrettede leksjoner som adresserer spesifikke romlige konsepter. Konfigurer 1 til 8 ovelser per side for a kontrollere arbeidsarktetthet. Den reelle konkurransefordelen er sprakfolsomme preposisjonsord: a bytte sprak oversetter ikke bare grensesnittet — hvert posisjonsord pa arbeidsarket oppdateres til sin native ekvivalent. Engelsk \"on\" blir tysk \"auf,\" fransk \"sur,\" spansk \"sobre\" og norsk \"pa.\" Dette betyr at ett arbeidsarkdesign produserer 11 ekte forskjellige sprakprodukter med autentisk lokaliserte posisjonsord. Denne guiden forer deg gjennom hele opprettelsesprosessen — fra a velge en ovelsesmodus og konfigurere preposisjonsrutenettet til a utnytte formbytte for visuell variasjon og eksportere produksjonsklare filer.',
   },

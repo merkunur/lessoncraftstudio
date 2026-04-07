@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'manglende biter puslespill generator',
-    secondaryKeywords: [
-      'utskriftsbar puslespill generator til Etsy-selgere',
-      'manglende biter arbeidsark generator til KDP-utgivere',
-      'visuelt puslespill generator kommersiell lisens Gumroad',
-      'selg manglende biter arbeidsark på Gumroad',
-    ],
-    lsiKeywords: [
-      'digitale puslespill utskriftsbare produkter nettbasert forretning',
-      'kommersielt bruk visuelt puslespill generator',
-      'utskriftsbar puslespillaktivitet forretningsverktoy',
-    ],
-    titleTag: 'Manglende Biter Generator | Lag Visuelle Puslespill',
-    metaDescription: 'Lag manglende biter-puslespill til salg på Etsy, KDP og Gumroad. $49 engangsbetaling.',
+    primaryKeyword: 'puslespill manglende brikker skrive ut',
+    secondaryKeywords: ['hvilken brikke passer oppgave', 'puslespill oppgaveark', 'visuell logikk oppgave', 'puslespillbrikker finne'],
+    lsiKeywords: ['brikke', 'puslespill', 'visuell', 'logikk', 'form'],
+    titleTag: 'Puslespill manglende brikker å skrive ut | Generator visuell logikk',
+    metaDescription: 'Lag oppgaver med manglende brikker med temabilder og automatisk fasit. 300 DPI PDF utskrivbare. Prøv gratis.',
   },
 
   hero: {
-    title: 'Manglende Biter Puslespill Generator for Puslespillignende Visuelle Puslespill',
+    title: 'Puslespill manglende brikker å skrive ut — Generator for visuell logikk',
     tagline: 'Generer puslespillignende puslespill der biter klippes ut fra bilder, og brukerne identifiserer det korrekte nummererte alternativet — med 6 brikkformer, 1–5 manglende biter, 2–6 losningsalternativer inkl. distraktorer, automatisk genererte fasiter og visuelt design som fungerer på alle språk.',
     description:
       'Bygg profesjonelle manglende biter-puslespill der et bilde har hull klippet ut, og brukerne identifiserer hvilket nummerert alternativ som fyller hvert hull. Den smarte brikkekstraksjonsalgoritmen finner visuelt distinkte områder med tilstrekkelig fargevarians, noe som sikrer at hvert puslespill er losbart og engasjerende. Velg blant 6 brikkformer — firkant, sirkel, rektangel stående, rektangel liggende, ellipse stående og ellipse liggende — og konfigurer vanskelighetsgraden med 1–5 manglende biter og 2–6 losningsalternativer som inkluderer distraktorbiter for å utfordre visuell diskrimineringsevne. Hvert puslespill inkluderer en automatisk generert fasit med gulmarkerte nummeretiketter plassert inne i hvert hull som viser det korrekte alternativet. Den automatisk genererte overskriften rendrer «Manglende Biter» i turkis (#06B6D4) med en roserosa beskrivelse (#DB2777) over et dobbelt rammesystem — blågronn ytre (#14B8A6, 8px) og varm rosa indre (#EC4899, 3px) — lokalisert på alle 11 stoettede språk. Manglende Biter er IKKE språkavhengig: puslespillene er rent visuelle uten lokalt avhengig innhold, så hvert puslespill fungerer identisk over hele verden. Samme puslespill kan selges globalt uten oversettelse. Full Tilgang låser opp alle 104 temaer med mer enn 3 100 illustrasjoner og alle 11 brukergrensesnittspråk. Legg til bakgrunnstemaer og rammetemaer med uavhengige opasitetskontroller, og eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller egendefinerte storrelser. Enten du selger visuelle puslespillpakker på Etsy, setter sammen puslespillarbeidboker til Amazon KDP eller lager kritisk tenkning-aktiviteter til Gumroad — denne generatoren leverer produksjonsklare puslespill på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

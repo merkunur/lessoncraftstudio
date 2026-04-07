@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skyggematching arbeidsark',
+    primaryKeyword: 'skyggelek oppgave gratis',
     secondaryKeywords: [
-      'skyggematching arbeidsark generator for selgere',
-      'lag silhuettmatching arbeidsark til salg',
-      'utskriftsbar skyggepuslespill generator kommersiell bruk',
-      'skyggematching arbeidsark generator for KDP og Etsy',
+      'skygger og figurer gratis',
+      'silhuetter matche gratis',
+      'skyggeparing gratis online',
+      'skyggelek gratis skrive ut',
     ],
     lsiKeywords: [
-      'dobbel modus silhuett og delt-bilde matchingsverktøy',
-      'pikselnivå skyggegenerering derangeringsalgoritme generator',
-      'automatisk fasit skyggepuslespill arbeidsark generator',
+      'skygge',
+      'silhuett',
+      'form',
+      'pare',
+      'vannmerke',
+      'gratis',
+      'matche',
     ],
-    titleTag: 'Skyggematching Generator — Arbeidsark Generator —...',
-    metaDescription: 'Lag skyggematching arbeidsark med pikselnivå silhuetter og Gjør Bildet Helt bildedeling, automatiske fasit, 104. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Skyggelek oppgave gratis | Generator silhuettmatching online',
+    metaDescription: 'Lag skyggelek-oppgaver gratis online med bilder og silhuetter. Automatisk fasit, 300 DPI PDF. Ingen registrering.',
   },
 
   hero: {
-    title: 'Skyggematching Generator',
+    title: 'Skyggelek oppgave gratis — Generator for silhuettmatching online',
     tagline: 'Dobbel modus skyggematching arbeidsark generator med pikselnivå silhuettoppretting, Gjør Bildet Helt delt-bilde halvdeler med horisontale og vertikale klipperetninger, Fisher-Yates-derangering som garanterer ingen trivielle matchinger, automatisk genererte fasit med bokstav-til-nummer etiketter og 104 tematiske bildesamlinger',
     description: 'Lag profesjonelle skyggematching arbeidsark med to distinkte øvelsesmoduser. Skyggematching-modus plasserer 4 fargede bilder merket A, B, C, D i øverste rad og 4 automatisk genererte svarte silhuetter merket 1, 2, 3, 4 i nederste rad — silhuettene opprettes gjennom bildebehandling på pikselnivå som konverterer hver piksel med alfa > 10 til rent svart, ekte pikselbehandling, ikke CSS-filtre. Gjør Bildet Helt-modus deler 4 bilder i halvdeler — velg horisontal (øvre/nedre) eller vertikal (venstre/høyre) klipperetning. Begge moduser bruker Fisher-Yates-derangering som garanterer at intet objekt vises i sin opprinnelige posisjon. Bytt vis/skjul etiketter for A/B/C/D og 1/2/3/4 identifikatorer — etiketter PÅ gir strukturert støtte, etiketter AV generator ren visuell matchingsutfordring. Dobbeltarbeidsområde-systemet genererer samtidig arbeidsark og fasit — fasiten viser hver korrekt bokstav-til-nummer-parring. Skyggematching er IKKE språkfølsom — rent visuelt output, universelt salgbart uten oversettelse. Bla gjennom 104 tematiske samlinger med mer enn 3 100 illustrasjoner eller last opp egne bilder. Eksporter fire filer per økt med 300 DPI. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne det og selge kommersielt.',
   },

@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'arbeidsark kvalitet kvantitet Etsy',
+    primaryKeyword: 'arbeidsark kvalitet vs kvantitet Etsy strategi',
     secondaryKeywords: [
-      'praktisk gjennomføring',
-      'optimalisering måling',
-      'vanlige feil unngå',
+      'mange annonser vs gode annonser Etsy',
+      'arbeidsark Etsy strategi balanse',
+      'kvalitet kvantitet arbeidsark forretning',
     ],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Kvalitet vs kvantitet på Etsy | LCS',
-    metaDescription: 'Bør du fokusere på å lage mange annonser raskt, eller færre annonser med høyere kvalitet? Svaret er ikke så enkelt. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['arbeidsark salg Etsy balanse', 'arbeidsark forretning strategi', 'Etsy annonser optimalisering'],
+    titleTag: 'Kvalitet vs kvantitet: Etsy-strategi | LCS',
+    metaDescription: 'Kvalitet eller kvantitet for arbeidsark på Etsy? Finn riktig balanse for din forretning. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Kvalitet vs kvantitet på Etsy',
+    title: 'Kvalitet vs kvantitet: Riktig Etsy-strategi',
     tagline: 'Hva betyr mest for langsiktig suksess?',
     description: 'Bør du fokusere på å lage mange annonser raskt, eller færre annonser med høyere kvalitet? Svaret er ikke så enkelt. Denne guiden gir deg en balansert strategi som maksimerer både mengde og kvalitet.',
   },

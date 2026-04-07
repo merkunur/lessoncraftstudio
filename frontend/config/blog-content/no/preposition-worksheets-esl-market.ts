@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'preposisjonsoppgaver norskkurs marked 2026',
-    secondaryKeywords: ['preposisjonsoppgaver norskkurs marked Etsy', 'preposisjonsoppgaver norskkurs marked tips', 'preposisjonsoppgaver norskkurs marked strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
-    titleTag: 'Preposisjonsoppgaver: Norskkurs-markedet | LCS',
-    metaDescription: 'Preposisjonsoppgaver: Norskkurs-markedet. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',
+    primaryKeyword: 'selg preposisjonsoppgaver språklæring arbeidsark',
+    secondaryKeywords: ['preposisjoner arbeidsark Etsy selgere', 'språkoppgaver norskkurs marked ESL', 'lag preposisjonsoppgaver kommersiell lisens'],
+    lsiKeywords: ['språklæring arbeidsark forretning', 'ESL oppgaver selge nett', 'preposisjoner bilder arbeidsark'],
+    titleTag: 'Selg preposisjonsoppgaver for språklæring | LCS',
+    metaDescription: 'Preposisjonsoppgaver med bilder treffer norskkurs- og ESL-markedet. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Preposisjonsoppgaver: Norskkurs-markedet',
+    title: 'Selg preposisjonsoppgaver for språklæring',
     tagline: 'Språklæring med bilder — et voksende globalt marked',
     description: 'Denne guiden dekker alt du trenger for å bygge en lønnsom forretning med preposisjonsoppgaver norskkurs marked. Fra produktoppbygging og prissetting til SEO-optimalisering og plattformvalg. Lær hvordan du bruker LessonCraftStudios generatorer til å lage profesjonelle produkter på minutter og selge dem på Etsy, Amazon KDP og Undervisningsbyen.no.',
   },

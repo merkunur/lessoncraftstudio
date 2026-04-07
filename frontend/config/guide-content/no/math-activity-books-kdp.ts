@@ -2,24 +2,15 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag matte aktivitetsbøker for Amazon KDP',
-    secondaryKeywords: [
-      'matte aktivitetsbok publisering KDP guide',
-      'publiser matte arbeidsarkbøker på Amazon KDP',
-      'KDP matte arbeidsbok trinn for trinn',
-      'Amazon KDP matte printable virksomhet',
-    ],
-    lsiKeywords: [
-      'KDP aktivitetsbok publisering',
-      'Amazon matte arbeidsbok nisje',
-      'selvpubliser mattearbeidsark',
-    ],
-    titleTag: 'Lag matte aktivitetsbøker for Amazon KDP | LCS',
-    metaDescription: 'Trinn-for-trinn guide til å lage matte aktivitetsbøker for Amazon KDP. Formatering, innholdsplanlegging og publiseringsstrategier for matte arbeidsbokselgere.',
+    primaryKeyword: 'matteoppgave-bøker KDP publisere',
+    secondaryKeywords: ['matte arbeidsbok Amazon KDP guide', 'publiser matteoppgaver KDP trinn for trinn', 'KDP mattebok kommersiell lisens'],
+    lsiKeywords: ['KDP aktivitetsbok publisering', 'Amazon matteoppgaver nisje', 'selvpubliser arbeidsark KDP', 'Etsy mattearbeidsark', 'kommersiell lisens arbeidsark', 'plusstykker minusstykker oppgaver', 'mattepuslespill KDP', 'print-on-demand mattebok'],
+    titleTag: 'Matteoppgave-bøker på KDP | Publiseringsguide',
+    metaDescription: 'Slik publiserer du matteoppgave-bøker på Amazon KDP. Plusstykker, minusstykker, mattepuslespill og mer.',
   },
 
   hero: {
-    title: 'Lag matte aktivitetsbøker for Amazon KDP',
+    title: 'Matteoppgave-bøker på KDP — komplett publiseringsguide for selgere',
     tagline: 'En komplett publiseringsguide for å lage og selge matte aktivitetsbøker på Amazon KDP — dekker manuskriptformatering med korrekte trimstørrelser og marginer, bokomlagsdesign med ryggbreddeberegninger, Amazon søkeordsfeltoptimalisering på tvers av alle 7 søkeordsplasser, gjennomblådingskategorivalg for maksimal oppdagbarhet, royalty prisstrategier ved både 35 prosent og 60 prosent nivåene, innholdsplanlegging med vanskelighetsgrad-progresjon over 40 til 80 interiørsider, fasitplassering, print-on-demand økonomi, prøveeksemplarbestilling, og bygging av en serie relaterte matte arbeidsbøker som krysspromoterer hverandre på Amazon',
     description: 'Matte aktivitetsbøker er blant de mest konsekvente bestselgerne på Amazon KDP — foreldre søker etter aldersspesifikke øvingsarbeidsbøker hele året, og formatet krever ingen løpende lagerbeholdning eller frakt. Denne guiden dekker alt fra innholdsplanlegging og vanskelighetsgrad-progresjon til KDP-formateringskrav og prissetting. Du vil lære hvordan du bruker våre 6 mattegeneratorer til å produsere 50-100 siders arbeidsbøker på en brøkdel av tiden manuell skaping tar, og hvordan du posisjonerer bøkene dine for maksimal synlighet i Amazon-søk.',
   },

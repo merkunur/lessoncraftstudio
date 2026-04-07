@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'barnehage arbeidsark marked 2026',
-    secondaryKeywords: ['barnehage arbeidsark marked Etsy', 'barnehage arbeidsark marked strategi', 'barnehage arbeidsark marked tips'],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Markedet for barnehage-arbeidsark | LCS',
-    metaDescription: 'Barnehage-arbeidsark er det største segmentet innen utskrivbare pedagogiske produkter. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'selg barnehage-arbeidsark på nett',
+    secondaryKeywords: ['barnehageoppgaver Etsy selge marked', 'førskole arbeidsark forretning', 'pedagogiske oppgaver barnehage salg'],
+    lsiKeywords: ['sporing telling bokstavgjenkjenning', 'klar for skolen oppgaver', 'barnehage lekbasert læring'],
+    titleTag: 'Selg barnehage-arbeidsark — størst etterspørsel | LCS',
+    metaDescription: 'Barnehage-arbeidsark er det største segmentet for pedagogiske oppgaver. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Markedet for barnehage-arbeidsark',
+    title: 'Selg barnehage-arbeidsark — størst etterspørsel',
     tagline: 'Det største segmentet for pedagogiske utskrifter',
     description: 'Barnehage-arbeidsark er det største segmentet innen utskrivbare pedagogiske produkter. Fra enkel sporing til bildetelling og bokstavgjenkjenning — dette markedet er enormt og vokser jevnt.',
   },

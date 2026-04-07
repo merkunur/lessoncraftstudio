@@ -2,24 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag bildediagram-arbeidsark for salg',
+    primaryKeyword: 'lag telle- og diagramoppgaver steg for steg',
     secondaryKeywords: [
-      'lag telletabell-arbeidsark for Etsy',
-      'lag datografering-printables for KDP',
-      'bildediagram opprettelsesguide',
-      'selg tellediagram-arbeidsark pa nett',
+      'lage bildediagram-oppgaver for Etsy med temabilder',
+      'selge telle-og-diagram arbeidsark på Amazon KDP',
+      'lag stolpediagram-oppgaver for barn',
+      'telle- og diagramoppgaver kommersiell lisens',
     ],
     lsiKeywords: [
-      'bildediagram produktoppretting',
-      'dataferdighetsarbeidsark virksomhet',
-      'salgbare graferingsprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'bildediagram med temabilder',
+      'telle- og diagramoppgaver å skrive ut',
     ],
-    titleTag: 'Lag bildediagram-arbeidsark for salg | LCS',
-    metaDescription: 'Guide til a lage bildediagram-arbeidsark for salg. Dataferdighetsaktiviteter, temaer og strategier for Etsy og KDP STEM printable-selgere.',
+    titleTag: 'Lag telle- og diagramoppgaver | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag telle- og diagramoppgaver å skrive ut med temabilder og stolpediagram. Automatisk fasit og temavalg. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag bildediagram-arbeidsark for salg pa nett',
+    title: 'Lag telle- og diagramoppgaver — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage bildediagram-arbeidsark der losere teller 20 spredte bilder over et 4x5 rutenett og registrerer tellinger pa et 6-kolonne x 5-rad stolpediagram, med et dobbelt-lerretsystem som autogenererer fasiter med gulmarkerte celler (#FFC857) samtidig, tilfeldig distribusjon som tilordner hver av 6 bildetyper 1-5 ganger for unike arbeidsark ved hver generering, tre bildevalgsmodi (automatisk tema, manuelt velg-6, temafri tilfeldig), lokaliserte «Bildediagram»-overskrifter pa 11 sprak, sprakulavhengig visuell telling som selger globalt uten oversettelse, 7 skrifttypefamilier inkludert Arial og Verdana, og 300 DPI-eksporter du kan selge over hele verden pa Etsy, Amazon KDP og Gumroad',
     description: 'Bildediagram-arbeidsark laerer datainnsamling og representasjon samtidig — en STEM-ferdighet som foreldre og pedagoger i okende grad prioriterer. Denne guiden dekker a lage profesjonelle telletabell-arbeidsark designet for salg: bruk av tematiske bildesamlinger for visuell appell, bygging av dataferdighetsaktiviteter som skiller seg ut fra grunnleggende tellearbeidsark, og pakking av graferings-arbeidshefter for Amazon KDP. Du vil laere hvordan denne underbehandlede nisjen tilbyr lav konkurranse og voksende ettersporsel ettersom STEM-utdanning blir en storre prioritet for printable-kjopere.',
   },

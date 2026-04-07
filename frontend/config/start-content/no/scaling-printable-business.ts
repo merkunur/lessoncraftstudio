@@ -2,25 +2,30 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'skalere til fulltids utskriftsbar forretning',
+    primaryKeyword: 'sesongkalender arbeidsark til salg',
     secondaryKeywords: [
-      'skalere fra sideprosjekt til fulltids utskriftsbar forretning',
-      'skaleringsguide utskriftsbar forretning',
-      'vokse arbeidsarkforretning til fulltid',
-      'skaleringsveikart utskriftsbar forretning',
-      'sideprosjekt til fulltids utskriftsbar inntekt',
+      'sesongbaserte arbeidsark plan',
+      'årskalender oppgaver Etsy',
+      'sesongoppgaver KDP',
+      'når selge arbeidsark',
     ],
     lsiKeywords: [
-      'skalering utskriftsbar forretning',
-      'fulltids inntekt digitale produkter',
-      'vokse utskriftsbar forretning',
+      'sesong',
+      'jul',
+      'påske',
+      'skolestart',
+      'sommer',
+      'vinter',
+      'Etsy',
+      'KDP',
+      'kalender',
     ],
-    titleTag: 'Skalere til Fulltids Utskriftsbar Forretning | LCS',
-    metaDescription: 'Slik skalerer du fra sideprosjekt til fulltids utskriftsbar forretning. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Sesongkalender arbeidsark | Planlegg salg hele året',
+    metaDescription: 'Planlegg arbeidsark-salg gjennom hele året. Sesongkalender for jul, påske, skolestart og mer. Tips for Etsy & KDP-selgere.',
   },
 
   hero: {
-    title: 'Skalere fra Sideprosjekt til Fulltids Utskriftsbar Forretning',
+    title: 'Sesongkalender for arbeidsark — Planlegg salg hele året',
     tagline: 'Strategisk vekstrammeverk for selgere av utskriftsbare produkter — fra katalogutvidelse og flerplattformdistribusjon til pakkestrategi og arbeidsflytoptimalisering, den operasjonelle veiledningen for å skalere utover et sideprosjekt',
     description: 'Spranget fra sideprosjekt til fulltids utskriftsbar forretning krever mer enn bare å lage flere produkter — det krever systemer, automatisering og strategisk ekspansjon. Denne guiden kartlegger skaleringsreisen: inntektsmilepæler som signaliserer beredskap for fulltid, automatiseringsstrategier som multipliserer produksjonen uten å multiplisere timene, flerplattformekspansjonstaktikker og mentalitetsskiftene som skiller sekssifrede selgere fra hobbyister. Du lærer de spesifikke handlingene på hvert vekststadium som bygger bærekraftig, skalerbar inntekt.',
   },

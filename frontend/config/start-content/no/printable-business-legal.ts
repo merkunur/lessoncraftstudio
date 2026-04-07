@@ -2,25 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'skatt og juridisk for utskriftsbar forretning',
+    primaryKeyword: 'juridisk guide arbeidsark-virksomhet',
     secondaryKeywords: [
-      'skatt og juridiske grunnlag utskriftsbar forretning',
-      'juridisk guide utskriftsbar forretning',
-      'skatt for selgere av utskriftsbare produkter',
-      'juridiske krav for salg av utskriftsbare produkter',
-      'skattegrunnlag utskriftsbar forretning',
+      'selge arbeidsark lovlig',
+      'opphavsrett arbeidsark',
+      'lisensvilkår oppgaver',
+      'arbeidsark virksomhet juridisk',
     ],
     lsiKeywords: [
-      'juridisk utskriftsbar forretning',
-      'skattekrav digitale produkter',
-      'juridiske grunnlag for selgere',
+      'opphavsrett',
+      'lisens',
+      'juridisk',
+      'lovlig',
+      'selge',
+      'Etsy',
+      'KDP',
+      'rettigheter',
     ],
-    titleTag: 'Skatt og Juridisk for Utskriftsbar Forretning | LCS',
-    metaDescription: 'Skatt og juridiske grunnlag for utskriftsbar forretning. Selskapsform, merverdiavgift, inntektsrapportering og overholdelse for selgere av utskriftsbare.',
+    titleTag: 'Juridisk guide arbeidsark-virksomhet | Rettigheter og lisens',
+    metaDescription: 'Juridisk veiledning for å selge arbeidsark online. Opphavsrett, lisensvilkår og rettigheter forklart for Etsy & KDP-selgere.',
   },
 
   hero: {
-    title: 'Skatt og Juridiske Grunnlag for Utskriftsbar Forretning',
+    title: 'Juridisk guide for arbeidsark-virksomhet — Rettigheter og lisens forklart',
     tagline: 'Essensiell skatte- og juridisk informasjon for selgere av utskriftsbare produkter — selskapsform, skatteforpliktelser for digitale varer, fradragsberettigede utgifter, immaterialrett, plattformoverholdelse og når du bør søke profesjonell hjelp',
     description: 'Å forstå de juridiske og skattemessige kravene for din utskriftsbare forretning beskytter deg mot kostbare feil — og det er enklere enn de fleste nye selgere forventer. Denne guiden dekker det essensielle: velge selskapsform, forstå skatteforpliktelser for digitale produkter, grunnleggende inntektsrapportering, plattformspesifikk skattehåndtering (Etsy krever inn merverdiavgift automatisk i de fleste jurisdiksjoner), og når du bør konsultere en fagperson. Du lærer det minste juridiske grunnlaget hver selger av utskriftsbare produkter trenger fra dag én.',
   },

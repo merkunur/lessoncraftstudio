@@ -2,14 +2,14 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sesongmarkedsforing printables guide printable virksomheten din',
-    secondaryKeywords: ['sesongbaserte arbeidsark salg', 'hoytidsmarkedsforing printables', 'sesongbasert produktplanlegging', 'sesongomsetning arbeidsark-virksomhet'],
-    lsiKeywords: ['sesongbasert ettersporselssyklus', 'hoytids arbeidsark tidsbestemt', 'skolestart markedsforingskampanje', 'sesongbasert produktrotasjon'],
-    titleTag: 'Sesongmarkedsforing for printables — Guide',
-    metaDescription: 'Utnytt sesongbasert ettersporsel for printable-virksomheten din. Tidsbestemmelse, produktplanlegging og markedsforing for hoytider, skolestart og arlige.',
+    primaryKeyword: 'sesongmarkedsføring arbeidsark',
+    secondaryKeywords: ['sesongbaserte arbeidsark salg Etsy', 'høytidsmarkedsføring oppgaver KDP', 'sesongbasert produktplanlegging arbeidsark'],
+    lsiKeywords: ['sesongbasert etterspørselssyklus', 'høytids arbeidsark tidsbestemt', 'skolestart markedsføringskampanje', 'Etsy arbeidsark sesong', 'KDP aktivitetsbok høytid', 'kommersiell lisens arbeidsark', 'jul påske skolestart oppgaver', 'sesongbasert produktrotasjon arbeidsark'],
+    titleTag: 'Sesongmarkedsføring for arbeidsark | Årsplan',
+    metaDescription: 'Planlegg sesongmarkedsføring for arbeidsark. Jul, påske, skolestart og mer. Tips for Etsy & KDP.',
   },
   hero: {
-    title: 'Sesongmarkedsforing for printable-virksomheten din',
+    title: 'Sesongmarkedsføring for arbeidsark — jul, påske, skolestart og mer for Etsy & KDP',
     tagline: 'En komplett guide til sesongbasert markedsforing — som dekker den arlige ettersporselssyklusen, tidsbestemt produktoppforing, hoytidsbaserte kampanjer og strategier for a bygge forutsigbare omsetningstopper gjennom aret',
     description: 'Sesongbasert markedsforing er en kraftig omsetningsdriver for printable-selgere fordi kjoperettersporsel folger forutsigbare arlige sykluser. Halloween-, jule-, skolestarts- og sommerovelsesprodukter genererer alle sterke salgstopper pa forutsigbare tidspunkter. Denne guiden viser deg hvordan du planlegger, lager og lanserer sesongbaserte produkter for maksimal omsetning.',
   },

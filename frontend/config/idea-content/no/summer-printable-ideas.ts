@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sommer utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme sommer utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Sommertema produktkonsepter og plattformtips for selgere.',
-
-    primaryKeyword: 'sommer utskriftsbare ideer',
+    titleTag: 'Sommeroppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Sommeroppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge sommertema oppgaver.',
+    primaryKeyword: 'sommeroppgaver til salg Etsy',
     secondaryKeywords: [
-      'sommertema arbeidsark til salg',
-      'sommer utskriftsbar forretning',
-      'sommeraktivitetsark for selgere',
-      'selg sommerprintables på Etsy',
+      'sommer arbeidsark selge Etsy',
+      'sommertema aktivitetsbøker KDP',
+      'selge sommeroppgaver på nett',
+      'sommer nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'strand og sol pedagogiske arbeidsark',
-      'sommerferie aktivitetssider',
-      'sesongbaserte sommer utskriftsbare produkter',
+      'sommer nisje Etsy KDP',
+      'sesongbasert etterspørsel juni august',
+      'sommertema arbeidsark barneskole',
+      'pedagogiske sommeroppgaver til salg',
+      'sommersesong produktlinje selgere',
     ],
   },
   hero: {
-    title: 'Sommer utskriftsbare forretningsideer for selgere',
+    title: 'Sommeroppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Sommeren er en av de sterkeste sesongene for utskriftsbare selgere fordi foreldre aktivt søker etter aktiviteter som holder barn engasjerte gjennom den lange sommerferien. Strand, sol, is, vannaktiviteter, camping og tropiske temaer gir et fargerikt og appellerende visuelt vokabular som barn elsker. Sommertemaet har bred appell på tvers av alle aldersgrupper og overlapper med skoleavslutning, ferieplanlegging og utendørsaktiviteter, noe som skaper mange naturlige salgsanledninger. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad representerer sommeren et dokumentert salgsvindu med forutsigbar etterspørsel fra mai til august. Denne guiden gjennomgår produktideer, plattformstrategier og timingtilnærminger for å bygge en lønnsom sommer utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Sommer utskriftsbar-nisjen nyter sterk etterspørsel drevet av et praktisk behov: foreldre trenger aktiviteter som holder barn opptatte og engasjerte gjennom en ferie som kan vare to til tre måneder. Dette er ikke kun en pedagogisk motivasjon — det handler like mye om underholdning, reiseaktiviteter og strukturert moro for lange dager hjemme, på hytta eller i ferien.

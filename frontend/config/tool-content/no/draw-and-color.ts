@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'tegne arbeidsark generator rutenetttegning generator tegn fargelegg',
+    primaryKeyword: 'tegneoppgave gratis på nett',
     secondaryKeywords: [
-      'rutenetttegning arbeidsark generator for selgere',
-      'lag tegn og fargelegg arbeidsark til salg',
-      'utskriftsbare rutenettreproduksjon arbeidsark kommersiell bruk',
-      'celle-for-celle tegne arbeidsark generator for KDP',
+      'tegne og fargelegge gratis',
+      'steg-for-steg tegning gratis',
+      'kunstoppgave gratis skrive ut',
+      'kreativt oppgaveark gratis',
     ],
     lsiKeywords: [
-      'dobbeltrutenett tegning utskriftsbare for Etsy',
-      'justerbar ledetrådsprosent arbeidsark verktøy',
-      'symmetri speilmodus tegne arbeidsark generator',
+      'tegne',
+      'fargelegge',
+      'kreativ',
+      'kunst',
+      'vannmerke',
+      'gratis',
+      'steg-for-steg',
     ],
-    titleTag: 'Tegne Arbeidsark Generator — Rutenetttegning Generator | LCS',
-    metaDescription: 'Generer rutenetttegning arbeidsark med dobbeltrutenett, justerbar ledetrådsprosent, tre symmetrimoduser og tematiske. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Tegne og fargelegge gratis | Kreativ generator online',
+    metaDescription: 'Lag tegne- og fargeleggingsoppgaver gratis online med temabilder. 300 DPI PDF. Ingen registrering. Vannmerket fjernes med lisens.',
   },
 
   hero: {
-    title: 'Tegn og Fargelegg Arbeidsark Generator',
+    title: 'Tegne og fargelegge gratis — Kreativ generator online med temabilder',
     tagline: 'Generer dobbeltrutenett tegnearbeidsark med justerbar ledetrådsprosent, tre symmetrimoduser og helt visuelt tekstfritt output som selger globalt uten oversettelse',
     description: 'Lag profesjonelle rutenetttegning arbeidsark der brukerne reproduserer et referansebilde ved å kopiere det celle-for-celle fra et ledetrådsrutenett til et tomt øvelsesrutenett. To rutenett vises per valgt bilde: et Øvelsesrutenett med tomme celler der brukerne tegner, og et Ledetrådsrutenett som viser en konfigurerbar prosentandel av referansebildet som visuelle tips. Juster ledetrådsprosenten fra 10% til 75% for å kontrollere vanskelighetsgraden — færre ledetråder betyr vanskeligere øvelser som krever skarpere observasjon. Konfigurer rutenettdimensjoner fra 3×3 (9 celler) til 10×10 (100 celler), med rader og kolonner justerbare uavhengig. Tre symmetrimoduser tilfører en romlig vurderingsdimensjon: Tilfeldig sprer ledetråder i vilkårlige posisjoner, Horisontal speiler ledetråder venstre-høyre, og Vertikal speiler ledetråder ovenfra-ned. Innhold hentes fra det innebygde svart-hvitt konturbiblioteket med 100+ samlinger med mer enn 3 000 svart-hvite illustrasjoner spesifikt designet for tegning og fargelegging — rene konturer som brukerne reproduserer og deretter fargelegger. Dette er en helt visuell app: arbeidsark inneholder kun rutenettbilder med null tekst, noe som gjør dem universelt salgbare uten oversettelse. Intet separat fasit eksisterer, da ledetrådsrutenettet selv fungerer som referanseløsningen. Eksporter trykklare PDF-er og JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller egendefinerte størrelser. Bytt gråtone for blekkvarsom utskrift. Den gratis prøveversjonen inneholder alle funksjoner med et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

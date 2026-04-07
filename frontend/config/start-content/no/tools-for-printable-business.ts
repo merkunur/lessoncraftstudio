@@ -2,25 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'essensielle verktøy for utskriftsbar forretning',
+    primaryKeyword: 'verktøy for arbeidsark-virksomhet',
     secondaryKeywords: [
-      'essensielle verktøy for selgere av utskriftsbare produkter',
-      'beste verktøy for utskriftsbare selgere',
-      'verktøyguide utskriftsbar forretning',
-      'programvare for skapere av utskriftsbare produkter',
-      'essensielle ressurser for arbeidsarkselgere',
+      'arbeidsark-generatorer for selgere',
+      'oppgaveverktøy Etsy KDP',
+      'beste verktøy oppgavevirksomhet',
+      'arbeidsark programvare',
     ],
     lsiKeywords: [
-      'verktøy utskriftsbar forretning',
-      'programvare for digitale produkter',
-      'selgerverktøy ressurser',
+      'verktøy',
+      'generator',
+      'programvare',
+      'PDF',
+      'design',
+      'Etsy',
+      'KDP',
+      'produksjon',
     ],
-    titleTag: 'Essensielle Verktøy for Utskriftsbar Forretning | LCS',
-    metaDescription: 'Essensielle verktøy for selgere av utskriftsbare produkter. Generatorer, designprogramvare, plattformer og ressurser enhver utskriftsbar selger trenger for.',
+    titleTag: 'Verktøy for arbeidsark-virksomhet | 33 generatorer',
+    metaDescription: 'De beste verktøyene for å lage og selge arbeidsark. 33 profesjonelle generatorer med kommersiell lisens for Etsy & KDP.',
   },
 
   hero: {
-    title: 'Essensielle Verktøy for din Utskriftsbare Forretning',
+    title: 'Verktøy for arbeidsark-virksomhet — 33 profesjonelle generatorer',
     tagline: 'Den komplette verktøyguiden for utskriftsbare entreprenører — fra innholdsskaping til plattformadministrasjon, hvert verktøy du trenger for å produsere, pakke og selge profesjonelle arbeidsark',
     description: 'De riktige verktøyene gjør forskjellen mellom å bruke timer på hvert produkt og å generere profesjonelt resultat på minutter. Denne guiden dekker alle essensielle verktøy for selgere av utskriftsbare produkter: våre 33 arbeidsarkgeneratorer for innholdsskaping, designverktøy for modellbilder og oppføringsbilder, plattformalternativer for salg, analyseverktøy for å spore ytelse og automatiseringsressurser for skalering. Du lærer hvilke verktøy som er uunnværlige fra dag én og hvilke du bør legge til etter hvert som forretningen din vokser.',
   },

@@ -2,14 +2,14 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'postmarkedsforing printables guide printable virksomheten din',
-    secondaryKeywords: ['e-postliste printable-selgere', 'nyhetsbrev for arbeidsark-virksomhet', 'lead magnets printables', 'e-postkampanjer digitale produkter'],
-    lsiKeywords: ['e-postautomatisering printable-salg', 'lead magnet arbeidsark', 'e-postsekvenser kjopere', 'sesongbaserte e-postkampanjer', 'konverteringsrate e-postmarkedsforing'],
-    titleTag: 'E-postmarkedsforing for printables — Guide',
-    metaDescription: 'Bygg e-postliste og automatiserte kampanjer for printable-virksomheten din. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'e-postmarkedsføring arbeidsark-virksomhet',
+    secondaryKeywords: ['e-postliste arbeidsark-selgere', 'nyhetsbrev for arbeidsark-virksomhet Etsy', 'lead magnets oppgaver digitale produkter'],
+    lsiKeywords: ['e-postautomatisering arbeidsark-salg', 'lead magnet arbeidsark', 'e-postsekvenser kjøpere', 'Etsy arbeidsark e-postliste', 'KDP aktivitetsbok markedsføring', 'kommersiell lisens arbeidsark', 'konverteringsrate e-postmarkedsføring', 'automatisering kampanjer oppgaver'],
+    titleTag: 'E-postmarkedsføring for arbeidsark-selgere | Guide',
+    metaDescription: 'Bygg en e-postliste for din arbeidsark-virksomhet. Automatisering, kampanjer og konvertering.',
   },
   hero: {
-    title: 'E-postmarkedsforing for printable-virksomheten din',
+    title: 'E-postmarkedsføring for arbeidsark-selgere — automatisering, kampanjer og konvertering',
     tagline: 'En komplett guide til a bygge og utnytte e-postliste for printable-salg — som dekker lead magnets, automatiserte sekvenser, sesongbaserte kampanjer og strategier for a konvertere abonnenter til gjentatte kjopere',
     description: 'E-postmarkedsforing gir deg en direkte kanal til kjoperne dine, uavhengig av markedsplassalgoritmer. Mens Etsy-sokrangering og Amazon-anbefalinger kan endres nar som helst, er e-postlisten din en eiendel du kontrollerer fullstendig. Denne guiden viser deg hvordan du bygger en e-postliste fra bunnen av, lager effektive lead magnets fra arbeidsarkene dine og setter opp automatiserte kampanjer som driver gjentatt salg.',
   },

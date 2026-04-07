@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mønstertog arbeidsark nisje',
-    secondaryKeywords: ['mønstertog arbeidsark nisje Etsy', 'mønstertog arbeidsark nisje tips', 'mønstertog arbeidsark nisje strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark bedrift', 'pedagogiske utskrifter salg', 'Etsy nedlasting'],
-    titleTag: 'Mønstertog-arbeidsark: En nisje med potensial | LCS',
-    metaDescription: 'Mønstertog-arbeidsark: En nisje med potensial. Komplett guide til produktoppbygging, prissetting og markedsføring for mønstertog arbeidsark nisje i 2026.',
+    primaryKeyword: 'selg mønstertog arbeidsark nisje lav konkurranse',
+    secondaryKeywords: ['mønstertog oppgaver Etsy selgere', 'mønster tog arbeidsark KDP bøker', 'lag mønstertog oppgaver kommersiell lisens'],
+    lsiKeywords: ['mønsteroppgaver arbeidsark forretning', 'tog-tema oppgaver barn selge', 'visuell mønsterlæring arbeidsark'],
+    titleTag: 'Selg mønstertog-arbeidsark: nisje med potensial | LCS',
+    metaDescription: 'Mønstertog-oppgaver kombinerer mønsterlæring med togtema og har lav konkurranse. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Mønstertog-arbeidsark: En nisje med potensial',
+    title: 'Selg mønstertog-arbeidsark: nisje med potensial',
     tagline: 'Tog + mønstre = et produkt barn elsker',
     description: 'Mønstertog kombinerer mønsterlæring med et visuelt togtema. Barnet fyller vogner med riktige former eller farger for å fullføre mønsteret. Det er et unikt konsept med lav konkurranse og høy engasjementsgrad.',
   },

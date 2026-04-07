@@ -2,25 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag fargeleggingssider for salg pa Etsy',
+    primaryKeyword: 'lag fargeleggingsbilder å skrive ut',
     secondaryKeywords: [
-      'lag fargeleggingssider for salg pa Etsy og KDP',
-      'lag fargeleggingssider for Etsy-butikk',
-      'lag fargeleggingsboker for Amazon KDP',
-      'fargeleggingsside opprettelsesguide for selgere',
-      'selg fargeleggings-printables pa nett',
+      'lage fargeleggingsbilder for Etsy med temabilder',
+      'selge fargeleggingsbøker på Amazon KDP',
+      'lag fargeleggingsoppgaver for barn',
+      'fargeleggingsbilder kommersiell lisens',
     ],
     lsiKeywords: [
-      'fargeleggingsprodukt oppretting',
-      'fargeleggingsbok virksomhet',
-      'salgbare fargeleggingssideprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'fargeleggingsbilder med temabilder',
+      'fargeleggingsoppgaver å skrive ut',
     ],
-    titleTag: 'Lag fargeleggingssider for salg pa Etsy og KDP | LCS',
-    metaDescription: 'Guide til a lage fargeleggingssider for salg pa Etsy og KDP. Temavalg, sesongtiming og strategier for fargeleggingsside- og fargeleggingsbokselgere.',
+    titleTag: 'Lag fargeleggingsbilder å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag fargeleggingsbilder å skrive ut med 3 100+ temabilder og gråtoneeksport. Friformlerret og temavalg. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag fargeleggingssider for salg pa Etsy og Amazon KDP',
+    title: 'Lag fargeleggingsbilder å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a designe egendefinerte fargeleggingssider med et friformlerret, 3 100+ tematiske bilder, frihandstegning og ett-klikks gratoneeksport',
     description: 'Fargeleggingssider dominerer Etsys printbare kategori og rangerer blant de bestselgende KDP-boknisjene — men suksess krever mer enn generiske design. Denne guiden viser deg hvordan du lager tematiske fargeleggingssider som tiltrekker spesifikke kjopersegmenter: a velge temaer med bevist ettersporsel, time sesongbaserte utgivelser for topptrafikk, og pakke fargeleggingsboker for Amazon KDP. Du vil laere hvordan du bruker fargeleggingsside-generatoren til a konvertere tematiske bilder til profesjonelle konturer uten noen tegneferdigheter, og hvordan du bygger en fargeleggingsproduktkatalog som genererer konsekvent inntekt.',
   },

@@ -1,18 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kdp etsy eller hva tjener',
-    secondaryKeywords: [
-      'praktisk gjennomføring',
-      'optimalisering måling',
-      'vanlige feil unngå',
-    ],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'KDP eller Etsy: Hva tjener mest? | LCS',
-    metaDescription: 'Både Amazon KDP og Etsy er lønnsomme plattformer for utskrivbare produkter, men de fungerer forskjellig. KDP gir passiv inntekt gjennom trykte bøker, ',
+    primaryKeyword: 'KDP vs Etsy arbeidsark hva tjener mest',
+    secondaryKeywords: ['Amazon KDP Etsy sammenligning inntekt', 'beste plattform selge oppgaver', 'KDP passiv inntekt vs Etsy digitale nedlastinger'],
+    lsiKeywords: ['trykt bok vs digital nedlasting', 'royalty sammenligning KDP Etsy', 'flerkanalstrategi arbeidsark'],
+    titleTag: 'KDP vs Etsy: Hva tjener mest for arbeidsark? | LCS',
+    metaDescription: 'KDP gir passiv bokinntekt, Etsy gir høyere fortjeneste per salg. Sammenlign begge plattformer. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'KDP eller Etsy: Hva tjener mest?',
+    title: 'KDP vs Etsy: Hva tjener mest for arbeidsark?',
     tagline: 'Sammenligning av to hovedplattformer for printable-selgere',
     description: 'Både Amazon KDP og Etsy er lønnsomme plattformer for utskrivbare produkter, men de fungerer forskjellig. KDP gir passiv inntekt gjennom trykte bøker, mens Etsy gir høyere fortjeneste per salg gjennom digitale nedlastinger. Denne guiden sammenligner begge.',
   },

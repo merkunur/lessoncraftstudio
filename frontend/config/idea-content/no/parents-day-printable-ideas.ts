@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Mors dag og fars dag utskriftsbare ideer til salg —...',
-    metaDescription: 'Utforsk mors dag og fars dag utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Familietema produktkonsepter, sesongstrategier og tips for selgere.',
+    titleTag: 'Mors- og farsdag oppgaver til salg | Nisjeideer',
+    metaDescription: 'Mors- og farsdag oppgaver til salg på Etsy og KDP. Familietema arbeidsark med gaver og kort — nisjeideer, sesongstrategier og tips for selgere.',
 
-    primaryKeyword: 'mors dag fars dag utskriftsbare ideer',
+    primaryKeyword: 'mors- og farsdag oppgaver til salg',
     secondaryKeywords: [
-      'mors dag arbeidsark til salg',
-      'fars dag utskriftsbar forretning',
-      'foreldredag aktivitetsark for selgere',
-      'selg familietema printables online',
+      'selge morsdag-arbeidsark Etsy',
+      'farsdag-oppgaver KDP',
+      'familietema arbeidsark til salg',
+      'foreldredag oppgaver for selgere',
     ],
     lsiKeywords: [
-      'familiefeiring pedagogiske arbeidsark',
-      'foreldre verdsetting aktivitetssider',
-      'gave-tema utskriftsbare produkter',
+      'nisje foreldredag-oppgaver',
+      'tema familie arbeidsark',
+      'sesong morsdag oppgaver',
+      'Etsy foreldredag arbeidsark',
+      'KDP familietema aktivitetsbok',
+      'selge oppgaver digitalt',
+      'sesong farsdag nisje',
     ],
   },
   hero: {
-    title: 'Mors dag og fars dag utskriftsbare forretningsideer for selgere',
+    title: 'Mors- og farsdag oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Mors dag og fars dag skaper to kraftige sesongmessige salgsvinduer som kombinerer følelsesmessig appell med pedagogisk verdi for utskriftsbare selgere. Barn elsker å lage personlige gaver og aktiviteter for foreldrene sine, og kjøpere, foreldre og barnepassere søker aktivt utskriftsbare materialer som hjelper barn med å uttrykke kjærlighet og takknemlighet gjennom kreative prosjekter. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad tilbyr foreldredagnisjen to distinkte årlige etterspørselstopper med forutsigbar timing som belønner forberedte selgere. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å bygge en lønnsom foreldredag utskriftsbar produktlinje med våre arbeidsarkgeneratorverktøy.',
   },
   marketOverview: `Mors dag og fars dag utskriftsbar-nisjen tilbyr to konsentrerte men svært lønnsomme salgsvinduer som vender forutsigbart tilbake hvert år. Mors dag i mai og fars dag i juni skaper sekvensielle etterspørselstopper som lar selgere utnytte lignende produktmaler på tvers av begge høytider. Kjøpere og foreldre søker utskriftsbare aktiviteter som barn kan bruke til å lage personlige gaver, kort og minner for foreldrene sine.

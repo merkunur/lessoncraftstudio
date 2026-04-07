@@ -2,14 +2,14 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kryssordbøker KDP nisje 2026',
-    secondaryKeywords: ['kryssord Amazon KDP publisere', 'bildekryssord bok KDP', 'puslespillbok kryssord nisje'],
-    lsiKeywords: ['KDP lavinnholds bok kryssord', 'selvpublisering kryssordbok', 'Amazon kryssord royalty'],
-    titleTag: 'Kryssordbøker på KDP: Nisjevalg 2026 | LCS',
-    metaDescription: 'Publiser kryssordbøker på Amazon KDP. Nisjevalg, formatering og markedsføring for bildekryssord og tematiske kryssord.',
+    primaryKeyword: 'selge kryssordbok Amazon KDP',
+    secondaryKeywords: ['kryssord arbeidsark KDP publisere', 'bildekryssord barn KDP bok', 'puslespillbok kryssord selge'],
+    lsiKeywords: ['kryssordbok KDP selge', 'arbeidsark kryssord Amazon', 'KDP puslespillbok barn', 'kommersiell lisens arbeidsark', 'bildekryssord generator', 'Etsy kryssord oppgaver', 'LessonCraftStudio'],
+    titleTag: 'Selg kryssordbøker på Amazon KDP',
+    metaDescription: 'Kryssordbøker er en stabil KDP-nisje. Lag kryssord med LessonCraftStudio — 33 generatorer, 11 språk, kommersiell lisens.',
   },
   hero: {
-    title: 'Kryssordbøker på KDP: En lønnsom nisje',
+    title: 'Selg kryssordbøker på Amazon KDP — stabil nisje',
     tagline: 'Bildekryssord for barn er en undervurdert KDP-mulighet',
     description: 'Kryssordbøker er en av de mest stabile kategoriene på Amazon. Mens voksenkryssord er høykonkurranse, er bildekryssord for barn en nisje med rom for nye utøvere. Denne guiden viser deg hvordan du lager, formaterer og publiserer kryssordbøker som selger på Amazon KDP.',
   },

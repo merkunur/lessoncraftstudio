@@ -2,24 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'Amazon KDP aktivitetsbok forretning guide',
+    primaryKeyword: 'Amazon KDP aktivitetsbok lage og selge',
     secondaryKeywords: [
-      'KDP aktivitetsbok forretning komplett guide',
-      'publisere aktivitetsbøker på Amazon KDP',
-      'KDP publisering forretning for nybegynnere',
-      'Amazon KDP arbeidsark bok guide',
+      'publisere aktivitetsbøker KDP',
+      'aktivitetsbok Amazon norsk',
+      'KDP oppgavebok guide',
+      'selge oppgavebøker Amazon',
     ],
     lsiKeywords: [
-      'KDP aktivitetsbok publisering',
-      'Amazon selvpublisering forretning',
-      'KDP arbeidsarkbok forretning',
+      'KDP',
+      'Amazon',
+      'aktivitetsbok',
+      'oppgavebok',
+      'publisere',
+      'barneskole',
+      'kommersiell lisens',
     ],
-    titleTag: 'Amazon KDP Aktivitetsbok Forretning Guide | LCS',
-    metaDescription: 'Komplett guide til å bygge en Amazon KDP aktivitetsbok-forretning. Publisering, formatering, nisjevalg og skaleringsstrategier for KDP-selgere i 2026.',
+    titleTag: 'Amazon KDP aktivitetsbok | Lag og selg oppgavebøker',
+    metaDescription: 'Komplett guide til å lage og selge aktivitetsbøker på Amazon KDP. 33 generatorer, kommersiell lisens inkludert. Steg-for-steg.',
   },
 
   hero: {
-    title: 'Amazon KDP Aktivitetsbok Forretning Guide',
+    title: 'Amazon KDP aktivitetsbok — Lag og selg oppgavebøker steg for steg',
     tagline: 'Publiser og selg profesjonelle aktivitetsbøker på Amazon med print-on-demand — null varelager, null forhåndskostnader',
     description: 'Amazon KDP gir skapere av utskriftsbare produkter tilgang til verdens største bokmarkedsplass med null forhåndskostnader — du publiserer, Amazon trykker og sender, og du samler inn royalties på hvert salg. Denne guiden dekker hvordan du bygger en lønnsom KDP aktivitetsbok-forretning: velge nisjer med bevist etterspørsel, formatere innhold for KDP-trykkspesifikasjoner, lage forsidedesign som tiltrekker klikk, og skalere fra din første bok til en komplett katalog. Våre generatorer produserer trykklare sider med nøyaktig den DPI og dimensjonene KDP krever.',
   },

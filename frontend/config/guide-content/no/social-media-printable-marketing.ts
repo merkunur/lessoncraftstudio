@@ -2,14 +2,14 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sosiale medier printable markedsforing',
-    secondaryKeywords: ['sosiale medier for printable-selgere', 'Instagram markedsforing arbeidsark', 'Facebook grupper printables', 'TikTok markedsforing pedagogisk innhold'],
-    lsiKeywords: ['innholdsstrategi sosiale medier printables', 'visuell markedsforing arbeidsark', 'fellesskapsbygging printable-selgere', 'organisk rekkevidde sosiale medier'],
-    titleTag: 'Sosiale medier markedsforing for printables — Guide',
-    metaDescription: 'Bruk sosiale medier til a drive salg for printable-virksomheten din. Instagram, Facebook, TikTok-strategier og innholdsplanlegging for arbeidsark-selgere.',
+    primaryKeyword: 'sosiale medier markedsføring arbeidsark',
+    secondaryKeywords: ['Instagram markedsføring arbeidsark-selgere', 'Facebook grupper oppgaver salg', 'TikTok markedsføring arbeidsark'],
+    lsiKeywords: ['innholdsstrategi sosiale medier arbeidsark', 'visuell markedsføring oppgaver', 'fellesskapsbygging arbeidsark-selgere', 'Etsy arbeidsark sosiale medier', 'KDP aktivitetsbok markedsføring', 'kommersiell lisens arbeidsark', 'organisk rekkevidde oppgaver', 'Pinterest arbeidsark strategi'],
+    titleTag: 'Sosiale medier for arbeidsark-selgere | Guide',
+    metaDescription: 'Slik bruker du sosiale medier for å selge arbeidsark. Instagram, Facebook, Pinterest og TikTok-strategier.',
   },
   hero: {
-    title: 'Sosiale medier markedsforing for printable-selgere',
+    title: 'Sosiale medier for arbeidsark-selgere — Instagram, Facebook, Pinterest og TikTok-strategier',
     tagline: 'En komplett guide til sosiale medier markedsforing — som dekker plattformvalg, innholdsstrategi, visuell presentasjon, fellesskapsbygging og konvertering fra sosiale medier-trafikk til markedsplassalg',
     description: 'Sosiale medier gir printable-selgere muligheten til a na potensielle kjopere utenfor markedsplassenes sokesystemer. Visuelt tiltrekkende arbeidsark og pedagogisk innhold presterer spesielt godt pa visuelle plattformer som Instagram og Pinterest. Denne guiden dekker de mest effektive sosiale medier-strategiene for printable-selgere.',
   },

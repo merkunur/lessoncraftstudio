@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Spesialundervisning utskriftsbare ideer til salg —...',
-    metaDescription: 'Oppdag lønnsomme spesialundervisning utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Tilpassede læringsproduktideer og plattformtips for selgere.',
+    titleTag: 'Spesialundervisning oppgaver til salg | Nisjeideer',
+    metaDescription: 'Spesialundervisning oppgaver til salg på Etsy og KDP. Tilpassede arbeidsark for ulike ferdighetsnivåer — nisjeideer, plattformtips og strategier for selgere.',
 
-    primaryKeyword: 'spesialundervisning utskriftsbare ideer',
+    primaryKeyword: 'spesialundervisning oppgaver til salg',
     secondaryKeywords: [
-      'tilpassede arbeidsark til salg',
-      'spesialundervisning utskriftsbar forretning',
-      'tilpassede læringsark for selgere',
-      'selg spesialundervisning printables på Etsy',
+      'selge spesialundervisning-arbeidsark Etsy',
+      'tilpassede oppgaver KDP',
+      'spesialundervisning arbeidsark til salg',
+      'tilpassede læringsoppgaver for selgere',
     ],
     lsiKeywords: [
-      'differensierte pedagogiske arbeidsark',
-      'visuell støtte læringsaktiviteter',
-      'forenklet innhold utskriftsbare produkter',
+      'nisje spesialundervisning-oppgaver',
+      'tema tilpassede arbeidsark',
+      'Etsy spesialundervisning arbeidsark',
+      'KDP tilpasset aktivitetsbok',
+      'selge oppgaver digitalt',
+      'eviggrønn spesialundervisningsnisje',
+      'barneskole tilpasset opplæring',
     ],
   },
   hero: {
-    title: 'Spesialundervisning utskriftsbare forretningsideer for selgere',
+    title: 'Spesialundervisning oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Spesialundervisning representerer en underutnyttet og svært lojal nisje for utskriftsbare selgere. Foreldre og hjemmeundervisere til barn med spesielle læringsbehov søker desperat etter materialer som er tydelige, visuelt tilgjengelige og tilpasset ulike ferdighetsnivåer. I motsetning til standard arbeidsark krever produkter for denne målgruppen gjennomtenkt design med store skrifttyper, god kontrast, forenklede instruksjoner og gradert vanskelighetsgrad. Selgere som investerer i å forstå dette markedets unike behov bygger ekstremt lojale kundeforhold med høye gjenkjøpsrater. Enten du selger på Etsy, Amazon KDP eller Gumroad, representerer spesialundervisning utskriftsbare produkter en dokumentert nisje med lav konkurranse og sterk kjøperlojalitet. Denne guiden gjennomgår produktideer, plattformstrategier og designprinsipper for å bygge en lønnsom spesialundervisning utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Spesialundervisning utskriftsbar-nisjen er en av de mest underutnyttede segmentene i det pedagogiske markedet, noe som skaper en betydelig mulighet for selgere som investerer tid i å forstå denne målgruppens behov. Foreldre til barn med lærevansker, autismespekterforstyrrelse, ADHD, dysleksi og andre utfordringer bruker betydelige beløp på pedagogisk materiale hvert år, men finner ofte at standard arbeidsark er for visuelt overvelende, for teksttunge, eller for raskt progresserende for barnas behov.

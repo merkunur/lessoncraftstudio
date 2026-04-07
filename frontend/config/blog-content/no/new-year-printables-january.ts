@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'nyttårs utskrifter selg januar nyttår',
+    primaryKeyword: 'selg nyttårs-arbeidsark januar vinterferie oppgaver',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'nyttår arbeidsark Etsy januar salg',
+      'vinterferie aktiviteter selge nett',
+      'sesongbaserte oppgaver nyttår kommersiell lisens',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Nyttårs-utskrifter: Selg i januar | LCS',
-    metaDescription: 'Januar er en stor mulighet for printable-selgere. Foreldre kjøper «nytt år, nye mål»-aktiviteter og øvingsmateriell. I Norge er vinterferie (uke 8–9) ',
+    lsiKeywords: ['sesongprodukter arbeidsark forretning', 'januar salgsmulighet oppgaver', 'norsk vinterferie arbeidsark'],
+    titleTag: 'Selg nyttårs-arbeidsark i januar | LCS',
+    metaDescription: 'Utnytt januar og vinterferie med nyttårs-arbeidsark som selger. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Nyttårs-utskrifter: Selg i januar',
+    title: 'Selg nyttårs-arbeidsark i januar',
     tagline: 'Nyttår + vinterferie = dobbel mulighet',
     description: 'Januar er en stor mulighet for printable-selgere. Foreldre kjøper «nytt år, nye mål»-aktiviteter og øvingsmateriell. I Norge er vinterferie (uke 8–9) en ekstra mulighet — foreldre søker etter ferieaktiviteter.',
   },

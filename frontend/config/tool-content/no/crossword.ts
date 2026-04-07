@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bildekryssord generator kryssordpuslespill',
+    primaryKeyword: 'kryssord generator gratis',
     secondaryKeywords: [
-      'kryssord med bilder online',
-      'lag bildekryssord arbeidsark',
-      'kryssordpuslespill generator med bildeledetråder',
-      'ordforråds kryssord generator for brukere',
+      'lage kryssord gratis',
+      'kryssord skrive ut gratis',
+      'kryssord med bilder gratis',
+      'kryssord online gratis',
     ],
     lsiKeywords: [
-      'bildekryssord puslespill med bildeledetråder for ordforrådsøvelse',
-      'flerspråklig kryssordgenerator med automatisk fasit',
-      'tilpasset ordliste kryssord med ledetråder generator',
+      'ledetråder',
+      'rutenett',
+      'vannrett',
+      'loddrett',
+      'vannmerke',
+      'gratis',
+      'fasit',
     ],
-    titleTag: 'Bildekryssord Generator — Kryssordpuslespill med...',
-    metaDescription: 'Bildekryssord generator for kryssordpuslespill med bildeledetråder på 15×15 rutenett. 4 inntastingsmetoder, automatisk fasit. Selg på Etsy & KDP.',
+    titleTag: 'Kryssord generator gratis | Lag med bilder online',
+    metaDescription: 'Lag kryssord gratis online med bildeledetråder. 104 temaer, automatisk fasit. Ingen registrering. Vannmerket fjernes med lisens.',
   },
 
   hero: {
-    title: 'Bildekryssord Generator',
+    title: 'Kryssord generator gratis — Lag kryssord med bilder og fasit online',
     tagline: 'Bildekryssordverktøy med bildeledetråder på fast 15×15 rutenett, fire inntastingsmetoder (rask temagenerering, manuell bildenavnredigering, tilpasset ordliste med ledetråder og last opp egne bilder), automatisk generert fasit med utfylt rutenett via dobbelt lerretssystem, språkavhengige puslespillord på 11 språk gjennom bildevokabular og en lokalisert blå overskrift (#5B9BD5) med Fredoka-tittel og Quicksand-beskrivelse over 104 tematiske bildesamlinger',
     description: 'Lag profesjonelle bildekryssord der fargerike bilder erstatter tradisjonelle tekstledetråder. Åtte bilder genererer åtte ord på et fast 15×15 rutenett — algoritmen henter ut ord fra bildenavn, fjerner mellomrom, konverterer til store bokstaver, blander, sorterer etter lengde (lengste først) og plasserer ord med optimal kryssing ved delte bokstaver. Nummererte ledetrådsposisjoner markerer begynnelsen av hvert ord, og bildeledetråder vises ved siden av rutenettet med matchende numre. Velg mellom fire inntastingsmetoder. Rask Temagenerering velger automatisk 8 tilfeldige bilder fra de 104 temasamlingene og genererer direkte. Manuell Bildenavnredigering lar deg klikke på individuelle bilder og gi dem nye navn før generering. Tilpasset Ordliste med Ledetråder bytter til tradisjonelle tekstkryssord med ORD: ledetråd-format. Last opp Egne Bilder lar deg legge til egne JPEG-, PNG-, GIF- eller WebP-filer. Bildekryssord Generatoren er språkavhengig: puslespillord kommer fra lokaliserte bildenavn via bildevokabularsystemet. Å bytte innholdsspråk endrer de faktiske kryssordene — et kattebilde genererer «CAT» på engelsk men «KATZE» på tysk, «CHAT» på fransk og «GATTO» på italiensk, noe som produserer helt forskjellige kryssordpuslespill fra de samme bildene. Det doble lerretssystemet genererer både en puslespill-fane og en fasit-fane — fasiten viser det utfylte rutenettet med alle korrekte svar synlige i cellene. Hvert puslespill inkluderer en automatisk generert lokalisert overskrift med blå bakgrunn (#5B9BD5). Bla gjennom 104 temasamlinger med 3 100+ illustrasjoner eller last opp egne bilder. Bruk bakgrunns- og rammetemaer med uavhengige gjennomsiktighetskontroller. Eksporter trykklare PDF-er og JPEG-er i 300 DPI i Letter, A4 eller egendefinerte størrelser. Bytt gråtone for blekkvarsom utskrift. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

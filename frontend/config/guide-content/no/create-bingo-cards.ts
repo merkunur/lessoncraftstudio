@@ -2,24 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag bingokort med bilder for salg',
+    primaryKeyword: 'lag bingobrett å skrive ut steg for steg',
     secondaryKeywords: [
-      'lag bildebingokort for Etsy',
-      'lag bingokortsett for KDP',
-      'bingokort opprettelsesguide for selgere',
-      'selg bingo-printables pa nett',
+      'lage bingobrett med temabilder for Etsy',
+      'selge bingokort på Amazon KDP',
+      'lag bingobrett for barn med bilder',
+      'bingobrett kommersiell lisens',
     ],
     lsiKeywords: [
-      'bingo produktoppretting',
-      'festspill printbar virksomhet',
-      'salgbare bingoprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'bingobrett med temabilder',
+      'bingokort å skrive ut',
     ],
-    titleTag: 'Lag bingokort med bilder for salg | LCS',
-    metaDescription: 'Guide til a lage bingokort med tematiske bilder for salg. Randomiserte kort, oppropskort og strategier for Etsy og KDP bingokortselgere.',
+    titleTag: 'Lag bingobrett å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag bingobrett å skrive ut med temabilder og oppropskort. Randomiserte kort og temavalg. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag bingokort med bilder for salg pa nett',
+    title: 'Lag bingobrett å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage tematiske, utskriftsklare bingokort med oppropskort du kan selge pa Etsy, Amazon KDP og Gumroad',
     description: 'Bingokort er blant de mest allsidige printbare produktene — de selger for fester, klasserom, hoytider og familiekveldsspill aret rundt. Denne guiden dekker a lage profesjonelle bildebingosett designet for salg: a velge temaer som matcher sesongbasert ettersporsel, generere unike randomiserte kort som sikrer at ingen to er like, og pakke komplette sett med oppropskort. Du vil laere hvordan du bruker bingokort-generatoren til a produsere tematiske sett for hver hoytid og anledning, og bygge en katalog som genererer gjentakende salg gjennom hele aret.',
   },

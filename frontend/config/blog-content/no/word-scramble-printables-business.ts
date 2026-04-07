@@ -2,14 +2,14 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bokstavblanding utskrifter forretning',
-    secondaryKeywords: ['anagram arbeidsark selge', 'bokstavblanding Etsy', 'ordpuslespill utskrifter bedrift'],
-    lsiKeywords: ['bokstav-mikser oppgaver', 'ordvirvlar utskrifter', 'språk puslespill salg'],
-    titleTag: 'Bokstavblanding-utskrifter som forretning | LCS',
-    metaDescription: 'Bygg en lønnsom forretning med bokstavblanding-utskrifter. Produksjon, prissetting og salgskanaler for ordpuslespill. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'bokstavblanding arbeidsark forretning Etsy',
+    secondaryKeywords: ['anagram oppgaver selge nettbutikk', 'bokstavblanding oppgaver Etsy KDP', 'ordpuslespill arbeidsark bedrift'],
+    lsiKeywords: ['bokstav-mikser oppgaver salg', 'ordvirvel arbeidsark inntekt', 'språk puslespill kommersiell lisens'],
+    titleTag: 'Bokstavblanding-arbeidsark som forretning | LCS',
+    metaDescription: 'Bygg en lønnsom forretning med bokstavblanding-arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Bokstavblanding-utskrifter som forretning',
+    title: 'Bokstavblanding-arbeidsark som forretning',
     tagline: 'Enkle ordpuslespill med overraskende høy etterspørsel',
     description: 'Bokstavblanding (word scramble) er et av de enkleste puslespillene å lage, men også et av de mest etterspurte. Barn elsker å «oppdage» det riktige ordet blant blandede bokstaver. For selgere betyr det lav produksjonstid og god fortjeneste. Denne guiden viser deg hvordan.',
   },

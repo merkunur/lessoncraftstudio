@@ -2,14 +2,14 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ordsøk utskrifter fortjeneste 2026',
-    secondaryKeywords: ['ordsøk Etsy selge', 'word search printable business', 'ordsøk-puslespill forretning'],
-    lsiKeywords: ['ordsøk-generator', 'utskrivbar ordsøk salg', 'ordletingsoppgaver inntekt'],
-    titleTag: 'Ordsøk-utskrifter: Tjen penger i 2026 | LCS',
-    metaDescription: 'Slik gjør du ordsøk-utskrifter til en lønnsom forretning. Nisjevalg, prissetting og Etsy-strategier for ordsøk-selgere.',
+    primaryKeyword: 'ordleting arbeidsark fortjeneste Etsy',
+    secondaryKeywords: ['ordleting oppgaver selge nettbutikk', 'ordleting puslespill forretning KDP', 'ordleting arbeidsark Etsy inntekt'],
+    lsiKeywords: ['ordleting-generator kommersiell lisens', 'ordleting arbeidsark salg', 'ordleting oppgaver alle aldre'],
+    titleTag: 'Ordleting-arbeidsark: Tjen penger | LCS',
+    metaDescription: 'Gjør ordleting-arbeidsark til en lønnsom forretning på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Ordsøk-utskrifter: Slik tjener du penger',
+    title: 'Ordleting-arbeidsark: Slik tjener du penger',
     tagline: 'En av de mest populære og tidløse utskriftskategoriene',
     description: 'Ordsøk er universelt elsket — av barn, voksne og eldre. Det gjør dem til et av de mest allsidige produktene du kan selge som utskrifter. Fra barnehage-ordsøk med bilder til avanserte kryssordsøk for voksne, markedet er enormt og etterspørselen er stabil hele året.',
   },

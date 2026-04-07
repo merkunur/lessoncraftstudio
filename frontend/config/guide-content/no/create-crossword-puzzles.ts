@@ -2,24 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hvordan lage kryssordpuslespill for salg',
+    primaryKeyword: 'lag kryssord å skrive ut steg for steg',
     secondaryKeywords: [
-      'lag bildekryssord for Etsy',
-      'lag kryssordpuslespillboker for KDP',
-      'kryssord opprettelsesguide for selgere',
-      'selg kryssord-printables pa nett',
+      'lage kryssord med bildeledetråder for Etsy',
+      'selge kryssordpuslespill på Amazon KDP',
+      'lag kryssord for barn med bilder',
+      'kryssord barneskole kommersiell lisens',
     ],
     lsiKeywords: [
-      'kryssord produktoppretting',
-      'puslespillsalg virksomhet',
-      'salgbare kryssordprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'kryssord med temabilder',
+      'bildekryssord å skrive ut',
     ],
-    titleTag: 'Lage kryssordpuslespill for salg | LCS',
-    metaDescription: 'Guide til a lage kryssordpuslespill for salg pa Etsy og KDP. Bildeledetrader, temavalg og strategier for kryssordpuslespillselgere.',
+    titleTag: 'Lag kryssord å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag kryssord å skrive ut med bildeledetråder og 11 språk. Temabaserte puslespill med fasit. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Hvordan lage kryssordpuslespill for salg pa nett',
+    title: 'Lag kryssord å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage tematiske kryssordpuslespill med bildeledetrader du kan selge pa Etsy, Amazon KDP og Gumroad',
     description: 'Bildekryssordpuslespill kombinerer det klassiske kryssordformatet med fargerike bildeledetrader — noe som generator et unikt produkt som skiller seg ut fra kun-tekst-konkurrenter pa Etsy og Amazon KDP. Denne guiden dekker a lage profesjonelle kryssordpuslespill designet for salg: a velge temaer som tiltrekker kjopere, konfigurere de fire inndatametodene for forskjellige produkttyper, og pakke puslespill i tematiske pakker og aktivitetsboker. Du vil laere hvordan 11-sprakfunksjonen generator genuint forskjellige kryssordord per sprak, noe som gir deg produkter for flere internasjonale markeder fra et enkelt verktoy.',
   },

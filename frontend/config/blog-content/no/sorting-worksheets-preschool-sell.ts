@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sorteringsoppgaver barnehage selge 2026',
-    secondaryKeywords: ['sorteringsoppgaver barnehage selge Etsy', 'sorteringsoppgaver barnehage selge tips', 'sorteringsoppgaver barnehage selge strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
-    titleTag: 'Sorteringsoppgaver for barnehage: Selg på nett | LCS',
-    metaDescription: 'Sorteringsoppgaver for barnehage: Selg på nett. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',
+    primaryKeyword: 'sorteringsoppgaver barnehage selge Etsy',
+    secondaryKeywords: ['bildesortering arbeidsark forretning', 'sortering oppgaver barn selge nettbutikk', 'barnehage arbeidsark Etsy strategi'],
+    lsiKeywords: ['sortering oppgaver salg', 'pedagogiske arbeidsark forretning', 'Etsy digital nedlasting barnehage'],
+    titleTag: 'Sorteringsoppgaver for barnehage: Selg | LCS',
+    metaDescription: 'Lag og selg sorteringsoppgaver for barnehage på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Sorteringsoppgaver for barnehage: Selg på nett',
+    title: 'Sorteringsoppgaver for barnehage: Lag og selg',
     tagline: 'Sortering er en grunnleggende ferdighet alle barn må lære',
     description: 'Denne guiden dekker alt du trenger for å bygge en lønnsom forretning med sorteringsoppgaver barnehage selge. Fra produktoppbygging og prissetting til SEO-optimalisering og plattformvalg. Lær hvordan du bruker LessonCraftStudios generatorer til å lage profesjonelle produkter på minutter og selge dem på Etsy, Amazon KDP og Undervisningsbyen.no.',
   },

@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'selg sesongkalender printable selgere',
-    secondaryKeywords: ['sesongkalender printable selgere tips', 'sesongkalender printable selgere strategi', 'sesongkalender printable selgere 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Sesongkalender for printable-selgere | LCS',
-    metaDescription: 'Å vite når kundene søker etter sesongprodukter er avgjørende for timing. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'sesongkalender arbeidsark selgere lanseringsplan',
+    secondaryKeywords: ['sesongprodukter arbeidsark timing Etsy', 'årskalender arbeidsark-selgere lansering', 'sesongbaserte oppgaver planlegging måned'],
+    lsiKeywords: ['sesongbasert arbeidsark forretning', 'lanseringsplan digitale produkter', 'årskalender arbeidsark selgere'],
+    titleTag: 'Sesongkalender for arbeidsark-selgere | LCS',
+    metaDescription: 'Planlegg arbeidsark-lanseringer måned for måned med denne sesongkalenderen. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Sesongkalender for printable-selgere',
+    title: 'Sesongkalender for arbeidsark-selgere',
     tagline: 'Planlegg produktlanseringer for hele året',
     description: 'Å vite når kundene søker etter sesongprodukter er avgjørende for timing. Denne kalenderguiden viser deg måned for måned når du bør lansere sesongbaserte utskrifter for det norske og internasjonale markedet.',
   },

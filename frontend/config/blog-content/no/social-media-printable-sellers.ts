@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sosiale medier printable selgere',
-    secondaryKeywords: ['sosiale medier printable selgere tips', 'sosiale medier printable selgere strategi', 'sosiale medier printable selgere 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Sosiale medier for printable-selgere | LCS',
-    metaDescription: 'Ikke alle sosiale medier er like effektive for printable-selgere. Pinterest er gull, Instagram er ok, Facebook er vanskelig, TikTok er ny. Denne guide',
+    primaryKeyword: 'sosiale medier arbeidsark selgere strategi',
+    secondaryKeywords: ['Pinterest markedsføring arbeidsark Etsy', 'sosiale medier for Etsy-selgere', 'Instagram TikTok arbeidsark forretning'],
+    lsiKeywords: ['arbeidsark salg sosiale kanaler', 'trafikk Etsy-butikk Pinterest', 'digital nedlasting markedsføring'],
+    titleTag: 'Sosiale medier for arbeidsark-selgere | LCS',
+    metaDescription: 'Hvilke sosiale medier fungerer best for arbeidsark-selgere? Pinterest, Instagram og TikTok sammenlignet. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Sosiale medier for printable-selgere',
+    title: 'Sosiale medier for arbeidsark-selgere',
     tagline: 'Hvilke kanaler fungerer — og hvilke er bortkastet tid',
     description: 'Ikke alle sosiale medier er like effektive for printable-selgere. Pinterest er gull, Instagram er ok, Facebook er vanskelig, TikTok er ny. Denne guiden hjelper deg å velge riktig og bruke tiden effektivt.',
   },

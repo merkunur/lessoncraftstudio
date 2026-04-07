@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy printable butikk første måned',
-    secondaryKeywords: ['Etsy printable butikk første måned tips', 'Etsy printable butikk første måned strategi', 'Etsy printable butikk første måned 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Din første måned som Etsy-selger | LCS',
-    metaDescription: 'Å starte en Etsy-butikk for utskrivbare produkter kan virke overveldende, men med riktig plan er det fullt mulig å få ditt første salg innen 30 dager.',
+    primaryKeyword: 'første måned Etsy arbeidsark-butikk',
+    secondaryKeywords: ['start Etsy-butikk oppgaver 30 dager', 'ny Etsy-selger arbeidsark plan', 'første salg Etsy digitale nedlastinger'],
+    lsiKeywords: ['Etsy butikkoppsett selger', 'uke-for-uke plan Etsy oppstart', 'arbeidsark-butikk lansering'],
+    titleTag: 'Din første måned som Etsy arbeidsark-selger | LCS',
+    metaDescription: 'Fra null til første salg på 30 dager med arbeidsark på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Din første måned som Etsy-selger',
+    title: 'Din første måned som Etsy arbeidsark-selger',
     tagline: 'Fra null til første salg på 30 dager',
     description: 'Å starte en Etsy-butikk for utskrivbare produkter kan virke overveldende, men med riktig plan er det fullt mulig å få ditt første salg innen 30 dager. Denne guiden gir deg en uke-for-uke-plan for å sette opp butikken, lage produkter, optimalisere annonser og få de første kundene.',
   },

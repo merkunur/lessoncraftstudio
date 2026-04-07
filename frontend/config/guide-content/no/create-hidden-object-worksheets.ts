@@ -2,24 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag finn-objekter-arbeidsark for salg',
+    primaryKeyword: 'lag finn-og-merk oppgaver steg for steg',
     secondaryKeywords: [
-      'lag finn og sok-arbeidsark for Etsy',
-      'lag finn-objekter-boker for KDP',
-      'finn-objekter arbeidsark opprettelsesguide',
-      'selg finn og sok-printables pa nett',
+      'lage finn-og-merk oppgaver med temabilder for Etsy',
+      'selge finn-objekter arbeidsark på Amazon KDP',
+      'lag finn-og-søk oppgaver for barn',
+      'finn-og-merk oppgaver kommersiell lisens',
     ],
     lsiKeywords: [
-      'finn og sok produktoppretting',
-      'finn-objekter virksomhet',
-      'salgbare visuelt sok-produkter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'finn-og-merk oppgaver med temabilder',
+      'finn-objekter å skrive ut',
     ],
-    titleTag: 'Lag finn-objekter-arbeidsark for salg | LCS',
-    metaDescription: 'Guide til a lage finn-objekter og finn og sok-arbeidsark for salg. To aktivitetsmoduser, temaer og strategier for Etsy og KDP finn og sok-bokselgere.',
+    titleTag: 'Lag finn-og-merk oppgaver | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag finn-og-merk oppgaver å skrive ut med temabilder og to aktivitetsmoduser. Visuell diskriminering. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag finn-objekter-arbeidsark for salg pa nett',
+    title: 'Lag finn-og-merk oppgaver — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage finn og sok og finn den ulike scene-arbeidsark du kan selge pa Etsy, Amazon KDP og Gumroad',
     description: 'Finn og sok og finn-objekter-arbeidsark er en voksende nisje — foreldre elsker dem for skjermfri underholdning, og formatet fungerer perfekt som Amazon KDP-aktivitetsboker. Denne guiden dekker a lage profesjonelle finn-objekter-arbeidsark designet for salg: bruk av null-overlapp-algoritmen for profesjonelle spredningsscener, valg av temaer som matcher trendende sokeord, og bygging av komplette finn og sok-boker for KDP. Du vil laere hvordan du blander Finn og sok og Finn den ulike-moduser for produktvariasjon og hvordan du posisjonerer arbeidsarkene dine for maksimal synlighet pa Etsy.',
   },

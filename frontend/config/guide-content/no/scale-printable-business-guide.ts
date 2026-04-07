@@ -2,14 +2,14 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skaler printbar virksomhet',
-    secondaryKeywords: ['voks printable-virksomhet', 'skalering arbeidsark-virksomhet', 'utvid printable-katalog', 'fra hobbyselger til fulltid printables'],
-    lsiKeywords: ['katalogutvidelse strategi', 'multi-plattform skalering', 'flerspraklig omsetnings-multiplikasjon', 'effektiv produksjon arbeidsark', 'automatisert produktoppretting'],
-    titleTag: 'Skaler printbar virksomhet — Guide',
-    metaDescription: 'Skaler printable-virksomheten din fra hobbyinntekt til fulltidssalg. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'skalere arbeidsark-virksomhet',
+    secondaryKeywords: ['voks arbeidsark-virksomhet Etsy KDP', 'skalering oppgaver-katalog flere plattformer', 'fra hobbyselger til fulltid arbeidsark'],
+    lsiKeywords: ['katalogutvidelse strategi arbeidsark', 'multi-plattform skalering oppgaver', 'flerspråklig omsetnings-multiplikasjon', 'Etsy arbeidsark skalering', 'KDP aktivitetsbok vekst', 'kommersiell lisens arbeidsark', 'effektiv produksjon oppgaver', 'automatisert arbeidsark-oppretting'],
+    titleTag: 'Skaler arbeidsark-virksomheten | Vekstguide',
+    metaDescription: 'Slik skalerer du din arbeidsark-virksomhet. Flere produkter, plattformer og inntektsstrømmer.',
   },
   hero: {
-    title: 'Hvordan skalere printbar virksomheten din',
+    title: 'Skaler arbeidsark-virksomheten — flere produkter, plattformer og inntektsstrømmer',
     tagline: 'En komplett guide til skalering av printable-virksomhet — som dekker systematisk katalogutvidelse, multi-plattform distribusjon, flerspraklig omsetnings-multiplikasjon, effektive produksjonsprosesser og den sammensatte katalogeffekten',
     description: 'Skalering av en printable-virksomhet handler ikke om a jobbe hardere — det handler om a jobbe smartere. Med riktig systemtilnaerming kan du multiplisere omsetningen uten a multiplisere arbeidstimene. Denne guiden viser deg det komplette rammeverket for a skalere fra hobbyinntekt til fulltidssalg.',
   },

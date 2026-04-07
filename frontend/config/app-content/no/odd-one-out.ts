@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'finn den ulike generator',
-    secondaryKeywords: [
-      'utskriftsbar finn den ulike puslespill generator til Etsy-selgere',
-      'finn den som ikke horer til arbeidsark generator til KDP',
-      'ulike bilde aktivitet generator kommersiell lisens',
-      'selg finn den ulike puslespill på Gumroad',
-    ],
-    lsiKeywords: [
-      'digitale finn den ulike utskriftsbare nettbasert forretning',
-      'kommersielt bruk visuell diskriminering arbeidsark generator',
-      'utskriftsbar finn den annerledes puslespill forretningsverktoy',
-    ],
-    titleTag: 'Finn den Ulike Generator | Lag og Selg Arbeidsark',
-    metaDescription: 'Lag finn den ulike arbeidsark til salg på Etsy, KDP og Gumroad. To puslespillmoduser, automatisk fasit med rode sirkler, 104 temaer. $49 engangsbetaling.',
+    primaryKeyword: 'hvem hører ikke hjemme oppgave skrive ut',
+    secondaryKeywords: ['finn inntrengeren oppgave', 'klassifisering oppgaveark', 'logisk tenkning oppgaver', 'hva passer ikke'],
+    lsiKeywords: ['logikk', 'klassifisere', 'kategorisere', 'intrenger', 'tenke'],
+    titleTag: 'Hvem hører ikke hjemme? oppgave å skrive ut | Logikkgenerator',
+    metaDescription: 'Lag «hvem hører ikke hjemme?»-oppgaver med temabilder for logisk tenkning. Automatisk fasit. Prøv gratis.',
   },
 
   hero: {
-    title: 'Finn den Ulike Arbeidsark Generator for Finn-den-Annerledes Puslespill',
+    title: 'Hvem hører ikke hjemme? oppgave å skrive ut — Logikkgenerator med bilder',
     tagline: 'To genereringsmoduser — Identisk og Lignende — med overstyring per ovelse, 5–10 konfigurerbare ovelser, automatisk genererte fasiter med rode sirkelmarkeringer og visuelle puslespill som fungerer på alle 11 språk uten oversettelse.',
     description:
       'Bygg profesjonelle finn-den-annerledes arbeidsark der brukerne identifiserer og ringer inn det ulike objektet i hver rad av fire bilder. Velg mellom to genereringsmoduser: Identisk modus plasserer tre kloner av det samme bildet ved siden av et annerledes bilde fra det samme temaet for finn-forskjellen-utfordringer, mens Lignende modus henter tre bilder fra Tema A og ett bilde fra Tema B for temaovergripende diskrimineringspuslespill. Overstyr modusen per ovelse for å blande vanskelighetsgrader innenfor et enkelt arbeidsark. Konfigurer 5 til 10 ovelser per side med standard satt til 6, og slå valgfrie navn- og datofelt og ovelsesnumre til for produktlinjeferdig formatering. Hvert arbeidsark genererer en ledsagende fasit på en separat lerretfane — fasiten tegner en rod sirkel rundt det ulike objektet i hver rad, slik at du aldri trenger å markere svar manuelt. Den automatisk genererte overskriften har en koralfarget ytre ramme, ravgul indre ramme og turkis bakgrunn med den lokaliserte tittelen «Finn den som ikke horer til» rendret i Fredoka og instruksjoner i Quicksand på alle 11 språk. Fordi puslespillene er helt visuelle — ingen ord vises på selve arbeidsarket — er de ikke språkavhengige og fungerer identisk i enhver lokal. Samme arbeidsark kan selges globalt uten oversettelse. Full Tilgang låser opp alle 104 temaer med mer enn 3 100 illustrasjoner og alle 11 brukergrensesnittspråk. Legg til bakgrunnstemaer og rammetemaer med uavhengige opasitetskontroller, og eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller egendefinerte storrelser. Enten du selger visuelle puslespillpakker på Etsy, setter sammen kritisk tenkning-arbeidboker til Amazon KDP eller lager produktlinjeaktiviteter til Gumroad — denne generatoren leverer produksjonsklare arbeidsark på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bildediagram generator',
+    primaryKeyword: 'telleoppgaver skrive ut',
     secondaryKeywords: [
-      'utskriftsbare bildediagram arbeidsark selg på Etsy',
-      'bildediagram generator til Amazon KDP-utgivere',
-      'selg bildediagram aktiviteter på Gumroad',
-      'datarepresentasjon arbeidsark generator kommersiell lisens',
+      'øvelser telle og diagram',
+      'oppgaver diagrammer barneskole',
+      'telle og streke oppgave',
+      'telleaktiviteter 1. trinn',
     ],
     lsiKeywords: [
-      'digitale piktogram utskriftsbare produkter nettbasert forretning',
-      'utskriftsbare diagramtelling arbeidsark forretningsverktoy',
-      'kommersielt bruk bildediagram generator med fasit',
+      'telle',
+      'stolpediagram',
+      'streker',
+      'data',
+      'sortere',
     ],
-    titleTag: 'Bildediagram Generator | Lag Diagramtelling Arbeidsark',
-    metaDescription: 'Lag bildediagram arbeidsark til salg på Etsy, KDP og Gumroad. Automatisk fasit med markeringer, 104 temaer, 6 bildetyper per ark. $49 engangsbetaling.',
+    titleTag: 'Telleoppgaver og diagrammer å skrive ut | Generator',
+    metaDescription: 'Lag telle- og diagramoppgaver med temabilder. Automatisk fasit, utskrivbare PDF-er. Prøv gratis.',
   },
 
   hero: {
-    title: 'Bildediagram Arbeidsark Generator for Utskriftsbare Diagramtelling Aktiviteter',
+    title: 'Telleoppgaver og diagrammer å skrive ut — Generator med temabilder',
     tagline: 'Dobbeltlerret piktogram-generator — generer spredte bilderutenett med 6 bildetyper, automatisk utfylte sojlediagram-fasiter, lokaliserte overskrifter på 11 språk og 104 tematiske bildesamlinger for datarepresentasjon arbeidsark.',
     description:
       'Forvandl visuell telling til en komplett dataferdighetsaktivitet med den eneste arbeidsark-generatoren som er bygget spesifikt for bildediagrammer. Hvert arbeidsark inneholder et spredt bilderutenett med 20 ikoner fra 6 forskjellige typer arrangert i et 4×5-layout — brukerne teller hvor mange av hver type det er, og fargelegger deretter de tilsvarende cellene i sojlediagrammet nedenfor. Appen genererer samtidig en fasit med gulmarkerte celler som viser de korrekte antallene, slik at selgere kan verifisere utfylte ark oyeblikkelig. Velg bilder automatisk ved å velge et tema fra dropdownmenyen Arbeidsarkets Bildekilde, eller velg manuelt noyaktig 6 bilder fra det gjennomsoekbare Bildebiblioteket med mer enn 3 100 illustrasjoner i 104 samlinger. Hvert arbeidsark inkluderer en automatisk generert overskrift med en lokalisert «Bildediagram»-tittel og telleinstruksjoner — overskriften tilpasses til alle 11 stoettede språk automatisk. Legg til navn- og datofelt med et enkelt avkrysningsfelt, anvend bakgrunns- og rammetemaer med uavhengige opasitetskontroller, og tilpass med tekstverktoy og frihånds lerredsredigering. Diagramtelling Generatoren er ikke språkavhengig — visuell telling bruker universelle tall og bilder, så arbeidsarkene fungerer identisk på ethvert språk. Det samme bildediagram arbeidsarket kan brukes globalt uten oversettelse — et enkelt skapelsesflyt betjener ethvert marked uten språkspesifikke varianter. Full Tilgang låser opp alle 104 temaer og alle 11 brukergrensesnittspråk. Eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI via 6x renderingsmultiplikator i Letter, A4, Kvadrat (1200×1200) eller egendefinerte storrelser. Last ned alle fire filer — arbeidsark-JPEG, arbeidsark-PDF, fasit-JPEG og fasit-PDF — i en enkelt okt. Kommersiell Pakke inkluderer 10 fargerike temaer; Full Tilgang låser opp alle 104 temaer for maksimal variasjon over bildediagram-pakker. Enten du selger bildediagram-pakker på Etsy, setter sammen dataferdighets-arbeidboker til Amazon KDP eller lager matematikkstasjonsaktiviteter til Gumroad — Diagramtelling Generatoren leverer produktlinjeferdige resultater på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

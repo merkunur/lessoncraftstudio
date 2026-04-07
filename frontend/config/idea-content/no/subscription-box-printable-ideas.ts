@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Abonnementsboks utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme abonnementsboks utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Gjentakende inntektsmodeller og plattformtips for selgere.',
+    titleTag: 'Abonnementsboks med arbeidsark | Forretningsideer',
+    metaDescription: 'Abonnementsboks med arbeidsark som forretningsideer. Bygg gjentakende inntekt med månedlige oppgavepakker — strategier for Etsy, KDP og direktesalg.',
 
-    primaryKeyword: 'abonnementsboks utskriftsbare ideer',
+    primaryKeyword: 'abonnementsboks arbeidsark ideer',
     secondaryKeywords: [
-      'utskriftsbar abonnement til salg',
-      'månedlig arbeidsark-boks forretning',
-      'gjentakende inntekt printables',
-      'selg abonnement printables på Etsy',
+      'selge abonnement arbeidsark Etsy',
+      'månedlige oppgaver KDP',
+      'abonnementsboks oppgaver til salg',
+      'gjentakende inntekt arbeidsark for selgere',
     ],
     lsiKeywords: [
-      'månedlige pedagogiske leveranser',
-      'abonnementsbasert utskriftsbar forretning',
-      'gjentakende digitale produkter',
+      'nisje abonnementsboks arbeidsark',
+      'tema månedlige oppgaver',
+      'Etsy abonnement arbeidsark',
+      'KDP gjentakende aktivitetsbok',
+      'selge oppgaver digitalt',
+      'abonnementsbasert oppgaveforretning',
+      'månedlig arbeidsark-leveranse',
     ],
   },
   hero: {
-    title: 'Abonnementsboks utskriftsbare forretningsideer for selgere',
+    title: 'Abonnementsboks med arbeidsark — forretningsideer for selgere',
     description: 'Abonnementsmodellen representerer den mest avanserte forretningsstrategien for utskriftsbare selgere fordi den transformerer enkeltsalg til forutsigbar, gjentakende inntekt. I stedet for å jage nye kunder for hvert salg, bygger abonnement en lojal kundebase som genererer stabil månedlig omsetning. Foreldre og hjemmeundervisere verdsetter bekvemmeligheten av automatisk leverte, alderstilpassede arbeidsark og aktiviteter som sparer dem tid og beslutningstrøtthet. For utskriftsbare selgere som har bygget et solid produktbibliotek, er abonnementsmodellen det naturlige neste steget for å skalere inntekten. Denne guiden gjennomgår abonnementsproduktkonsepter, plattformstrategier og prismodeller for å hjelpe deg med å bygge en gjentakende inntektsstrøm med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Abonnementsboks-markedet for utskriftsbare produkter er i rask vekst ettersom kjøpere i økende grad verdsetter bekvemmelighet og kuratert innhold over individuelle kjøp. Foreldre som har opplevd kvaliteten til en selgers produkter gjennom enkeltkjøp er naturlige kandidater for abonnement som leverer nytt innhold automatisk hver måned. Denne overgangen fra enkelthandel til abonnement øker kundens livstidsverdi dramatisk — en kunde som bruker ti dollar per måned genererer hundre og tjue dollar per år sammenlignet med en typisk enkeltkjøp på fem til femten dollar.

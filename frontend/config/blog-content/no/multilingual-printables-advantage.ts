@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable språk fordelen flerspråklige printables',
-    secondaryKeywords: ['flerspråklige printables fordel tips', 'flerspråklige printables fordel strategi', 'flerspråklige printables fordel 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Fordelen med flerspråklige printables | LCS',
-    metaDescription: 'De fleste printable-selgere selger bare på étt språk. Med 11 språk tilgjengelig i LessonCraftStudios generatorer kan du nå markeder som tyske, franske',
+    primaryKeyword: 'flerspråklige arbeidsark selge 11 språk fordel',
+    secondaryKeywords: ['selg arbeidsark flere språk Etsy', 'flerspråklig produktlinje digital butikk', 'lag oppgaver 11 språk kommersiell lisens'],
+    lsiKeywords: ['arbeidsark internasjonalt marked', 'selg digitale produkter globalt', 'flerspråklig innholdsstrategi'],
+    titleTag: 'Flerspråklige arbeidsark: 11 språk, 11 markeder | LCS',
+    metaDescription: 'Selg arbeidsark på 11 språk og nå markeder andre selgere ignorerer. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Fordelen med flerspråklige printables',
+    title: 'Flerspråklige arbeidsark: 11 språk, 11 markeder',
     tagline: '11 språk = 11 markeder fra én produktlinje',
     description: 'De fleste printable-selgere selger bare på étt språk. Med 11 språk tilgjengelig i LessonCraftStudios generatorer kan du nå markeder som tyske, franske og spanske kunder — med minimalt ekstraarbeid.',
   },

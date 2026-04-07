@@ -2,24 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag manglende biter-puslespill for salg',
+    primaryKeyword: 'lag manglende-brikker puslespill steg for steg',
     secondaryKeywords: [
-      'lag manglende biter-arbeidsark for Etsy',
-      'lag visuelle puslespill for KDP-boker',
-      'manglende biter opprettelsesguide',
-      'selg observasjonspuslespill pa nett',
+      'lage manglende-brikker oppgaver for Etsy',
+      'selge manglende-brikker puslespill på Amazon KDP',
+      'lag observasjonsoppgaver for barn',
+      'manglende-brikker puslespill kommersiell lisens',
     ],
     lsiKeywords: [
-      'manglende biter produktoppretting',
-      'visuelt puslespill virksomhet',
-      'salgbare observasjonsprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'manglende-brikker puslespill med temabilder',
+      'observasjonsoppgaver å skrive ut',
     ],
-    titleTag: 'Lag manglende biter-puslespill for salg | LCS',
-    metaDescription: 'Guide til a lage manglende biter-puslespill for salg. Visuelt observasjonsformat, temaer og strategier for Etsy og KDP aktivitetsbokselgere.',
+    titleTag: 'Lag manglende-brikker puslespill | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag manglende-brikker puslespill å skrive ut med temabilder og seks brikkeformer. Justerbar vanskelighetsgrad. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag manglende biter-puslespill for salg pa nett',
+    title: 'Lag manglende-brikker puslespill — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage puslespillarbeidsark med seks bitformer, smart bitutvinning med lysstyrkevariansedeteksjon, distraktorbiter for genuin utfordring, to uavhengige vanskelighetskontroller, autogenererte fasiter med gulmarkering, og rent visuelle puslespill du kan selge over hele verden pa Etsy, Amazon KDP og Gumroad',
     description: 'Manglende biter-puslespill tilbyr et unikt visuelt format som har langt mindre konkurranse enn standardarbeidsark pa Etsy — losere identifiserer hvilken bit som fullforer et bilde, og bygger observasjons- og romlige resonneringsferdigheter. Denne guiden dekker a lage profesjonelle manglende biter-arbeidsark designet for salg: konfigurering av rutenettstorrelser for forskjellige vanskelighetsnivåer, valg av temaer med sterk visuell detalj, og pakking av puslespill i tematiske pakker og KDP-aktivitetsboker. Du vil laere hvordan du posisjonerer dette distinktive formatet som et premiumprodukt i den visuelle puslespillnisjen.',
   },

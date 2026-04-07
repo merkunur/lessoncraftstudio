@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'effektiv lag arbeidsark partier',
+    primaryKeyword: 'batchproduksjon arbeidsark Etsy',
     secondaryKeywords: [
-      'steg steg gjennomføring',
-      'optimalisering finjustering',
-      'publisering markedsføring',
+      'lag mange oppgaver raskt selge',
+      'effektiv arbeidsark-produksjon KDP',
+      'skalere arbeidsark-butikk Etsy',
     ],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Lag arbeidsark i partier effektivt | LCS',
-    metaDescription: 'Effektiv batchproduksjon er nøkkelen til skalering. Denne guiden viser deg en arbeidsflyt for å generere store. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['batchproduksjon arbeidsark', 'oppgaver raskt Etsy', 'KDP aktivitetsbok skalere', 'kommersiell lisens arbeidsark', 'Etsy selger effektivitet', 'arbeidsark generator', 'LessonCraftStudio'],
+    titleTag: 'Batchproduksjon: Lag 50 arbeidsark raskt',
+    metaDescription: 'Lag arbeidsark i store partier effektivt. Lag oppgaver med LessonCraftStudio — 33 generatorer, 11 språk, kommersiell lisens.',
   },
   hero: {
-    title: 'Lag arbeidsark i partier effektivt',
+    title: 'Batchproduksjon — lag 50 arbeidsark på tiden det tar å lage 5',
     tagline: 'Produser 50 ark på tiden det tar å lage 5 manuelt',
     description: 'Effektiv batchproduksjon er nøkkelen til skalering. Denne guiden viser deg en arbeidsflyt for å generere store mengder arbeidsark raskt med LessonCraftStudios generatorer — fra planlegging til ferdig produkt.',
   },

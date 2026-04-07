@@ -2,26 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag ordsoek-puslespill',
+    primaryKeyword: 'lag ordleting å skrive ut steg for steg',
     secondaryKeywords: [
-      'ordsoek generator for salg',
-      'lag ordsoek med bilder',
-      'printbare ordsoek-puslespill for Etsy',
-      'ordsoek arbeidsark for KDP',
+      'lage ordleting med bildeledetråder for Etsy',
+      'selge ordletingpuslespill på Amazon KDP',
+      'lag ordleting for barn med temabilder',
+      'ordleting barneskole kommersiell lisens',
     ],
     lsiKeywords: [
-      'vokabularmodus bildebasert ordsoek',
-      'ordsoek pa 11 sprak flerspraklig',
-      'selg ordsoek-puslespill pa Etsy',
-      'Amazon KDP ordsoek-puslespillboker',
-      'kommersiell lisens ordsoek-verktoy',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'ordleting med vokabularmodus',
+      'ordletingoppgaver å skrive ut',
     ],
-    titleTag: 'Lag ordsoek-puslespill — Guide',
-    metaDescription: 'Lag ordsoek-puslespill med tematiske bildeledetrader, 11 sprak, konfigurerbar rutenettstorrelse og fargekodede fasiter. Guide for salg pa Etsy, KDP og Gumroad.',
+    titleTag: 'Lag ordleting å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag ordleting å skrive ut med bildeledetråder og 11 språk. Konfigurerbar rutenettstrørrelse og fasit. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Hvordan lage ordsoek-puslespill',
+    title: 'Lag ordleting å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage ordsoek-puslespill med tematiske bildeledetrader i Vokabularmodus, konfigurerbar rutenettstorrelse, ordplassering i alle retninger, stotte for 11 sprak med korrekt tegnhåndtering og fargekodede fasiter du kan selge globalt',
     description: 'Ordsoek-puslespill er blant de mest populaere og mest solgte printable-produktene pa enhver markedsplass. De appellerer til bade barn og voksne, fungerer pa tvers av aldersgrupper, og betjener bade pedagogiske og underholdningsmarkeder. Denne guiden dekker hele opprettelsesprosessen med ordsoek-generatoren — fra a velge tematiske bilder og konfigurere rutenettstorrelse til a utnytte 11-sprakstotte for flerspraklige produktlinjer.',
   },

@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'rutenett koblingspuslespill selge 2026',
-    secondaryKeywords: ['rutenett koblingspuslespill selge Etsy', 'rutenett koblingspuslespill selge tips', 'rutenett koblingspuslespill selge strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
-    titleTag: 'Rutenett-koblingspuslespill: Selg på nett | LCS',
-    metaDescription: 'Rutenett-koblingspuslespill: Selg på nett. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',
+    primaryKeyword: 'selg rutenett-koblingsoppgaver på nett',
+    secondaryKeywords: ['rutenett puslespill arbeidsark Etsy', 'visuell logikk-oppgaver selge', 'koblingsoppgaver rutenett forretning'],
+    lsiKeywords: ['logisk tenkning barn puslespill', 'rutenett-matching pedagogisk', 'mønstergjenkjenning oppgaver'],
+    titleTag: 'Selg rutenett-koblingsoppgaver på nett | LCS',
+    metaDescription: 'Rutenett-koblingsoppgaver er en lønnsom nisje med visuell logikk. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Rutenett-koblingspuslespill: Selg på nett',
+    title: 'Selg rutenett-koblingsoppgaver på nett',
     tagline: 'Visuell logikk-puslespill med lønnsom nisje',
     description: 'Denne guiden dekker alt du trenger for å bygge en lønnsom forretning med rutenett koblingspuslespill selge. Fra produktoppbygging og prissetting til SEO-optimalisering og plattformvalg. Lær hvordan du bruker LessonCraftStudios generatorer til å lage profesjonelle produkter på minutter og selge dem på Etsy, Amazon KDP og Undervisningsbyen.no.',
   },

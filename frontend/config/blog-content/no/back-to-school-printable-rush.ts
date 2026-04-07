@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skolestart printable rushet august rush',
+    primaryKeyword: 'skolestart arbeidsark selge august',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'skolestart oppgaver Etsy sesong',
+      'selge arbeidsark skolestart KDP',
+      'august sesong arbeidsark nett',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Skolestart: Printable-rushet i august | LCS',
-    metaDescription: 'Skolestart er den nest største sesongen for printable-selgere etter jul. I Norge starter skolen i midten av august, og foreldre begynner å søke etter ',
+    lsiKeywords: ['skolestart arbeidsark Etsy', 'oppgaver august sesong', 'KDP aktivitetsbok skolestart', 'kommersiell lisens arbeidsark', 'Etsy sesongprodukter', 'selge oppgaver nett', 'LessonCraftStudio generator'],
+    titleTag: 'Skolestart: Selg arbeidsark i augustrushet',
+    metaDescription: 'Skolestart er nest største sesong for arbeidsark-selgere. Lag oppgaver med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Skolestart: Printable-rushet i august',
+    title: 'Skolestart — slik selger du arbeidsark i augustrushet',
     tagline: 'Norsk skolestart i midten av august driver enorm etterspørsel',
     description: 'Skolestart er den nest største sesongen for printable-selgere etter jul. I Norge starter skolen i midten av august, og foreldre begynner å søke etter øvingsmateriell allerede i juli. Matteoppgaver, bokstavøving og førskoleaktiviteter topper søkelistene.',
   },

@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'koblings arbeidsark generator',
+    primaryKeyword: 'koble sammen oppgaver gratis',
     secondaryKeywords: [
-      'koblings arbeidsark generator for selgere',
-      'lag tegn-en-strek koblings arbeidsark til salg',
-      'utskriftsbar koblingsaktivitet generator kommersiell bruk',
-      'bildekobling arbeidsark generator for KDP og Etsy',
+      'trekke strek oppgave gratis',
+      'paroppgave gratis på nett',
+      'matche bilder gratis',
+      'koble sammen 1. trinn gratis',
     ],
     lsiKeywords: [
-      'firemodusers tegn-en-strek koblings arbeidsark verktøy',
-      'automatisk fasit koblingsaktivitet generator',
-      'begynnelsesbokstav bilde ord kobling generator',
+      'pare',
+      'strek',
+      'bilde',
+      'match',
+      'vannmerke',
+      'gratis',
+      'småskoletrinnet',
     ],
-    titleTag: 'Koblings Arbeidsark Generator — Tegn-en-Strek Generator',
-    metaDescription: 'Lag koblings arbeidsark med 4 moduser, automatisk fasit med forbindelseslinjer, konfigurerbare par, 11 språk, 104. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Koble sammen oppgaver gratis | Generator matchingslek online',
+    metaDescription: 'Lag koble-sammen-oppgaver gratis online med temabilder. Automatisk fasit, 300 DPI PDF. Ingen registrering.',
   },
 
   hero: {
-    title: 'Koblings Arbeidsark Generator',
+    title: 'Koble sammen oppgaver gratis — Generator for matchingslek online',
     tagline: 'Firemodusers tegn-en-strek koblings arbeidsark generator med Begynnelsesbokstav, Bilde+Ord, Blandet og Tilpasset Ord-moduser, automatisk genererte fasit med forbindelseslinjer, konfigurerbare parantall, lokalisert Finn Par-overskrift på 11 språk og 104 tematiske bildesamlinger',
     description: 'Lag profesjonelle tegn-en-strek koblings arbeidsark der brukerne forbinder par ved å tegne linjer mellom to kolonner — med fire distinkte koblingsmoduser i én enkelt generator. Begynnelsesbokstav-modus plasserer bilder til venstre og deres første bokstaver til høyre, med tre undermoduser: Tilfeldig Tema og Bilder, Tilfeldig fra Valgt Tema, og Velg Spesifikke Bilder. Bytt store eller små bokstaver. Bilde+Ord-modus viser merkede bildepar på begge sider for ordforrådsforsterkning. Bilde/Ord Blandet-modus bruker per-rad dropdown-velgere. Tilpasset Ord-modus parrer bilder med dine egne inntastede koblingstermer. Konfigurer 4, 5 eller 6 par per arbeidsark (standard 6). Bytt artikkelnummer (standard PÅ) og punktmarkeringer (standard PÅ) uavhengig. Hvert arbeidsark inkluderer en automatisk generert lokalisert «Finn Par!»-overskrift med gul pillebakgrunn (#FFD700), korallramme (#FF7F50, 8px strek), lokalisert tittel i Fredoka (700) og beskrivelse i Quicksand (500), automatisk oversatt til alle 11 støttede språk. Dobbeltarbeidsområde-systemet genererer samtidig en arbeidsarkfane og en fasitfane — fasiten tegner horisontale forbindelseslinjer (#555, strekbredde 2) mellom korrekte koblinger. Denne generatoren er språkfølsom: Begynnelsesbokstav og Bilde+Ord-moduser bruker lokaliserte bildenavn, slik at å bytte språk endrer ordene og begynnelsesbokstavene — det samme kattebilde viser K på norsk men C på engelsk (Cat) og K på tysk (Katze). Bla gjennom 104 tematiske samlinger med mer enn 3 100 illustrasjoner. Bruk bakgrunns- og rammetemaer med uavhengige gjennomsiktighetsskyveknapper. Legg til navn- og datofelter. Eksporter fire filer per økt: arbeidsark-JPEG, arbeidsark-PDF, fasit-JPEG og fasit-PDF — alle med 300 DPI. Velg Letter, A4, Kvadrat eller egendefinerte sidestørrelser med gråtonebryter. Den gratis prøveversjonen inneholder alle funksjoner med et vannmerke. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable mockup bilder selg mer',
-    secondaryKeywords: ['printable mockup bilder selg mer tips', 'printable mockup bilder selg mer strategi', 'printable mockup bilder selg mer 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Mockup-bilder som får deg til å selge mer | LCS',
-    metaDescription: 'Annonsebilder er den viktigste faktoren for klikkfrekvens på Etsy. Denne guiden viser deg hvordan du lager profesjonelle mockup-bilder som får produkt',
+    primaryKeyword: 'mockup-bilder arbeidsark Etsy klikkfrekvens selge mer',
+    secondaryKeywords: ['mockup bilder digitale produkter Etsy tips', 'annonsebilder arbeidsark høyere konvertering', 'profesjonelle mockups arbeidsark butikk'],
+    lsiKeywords: ['mockup bilder Etsy konvertering', 'annonsebilder digitale produkter', 'klikkfrekvens arbeidsark butikk'],
+    titleTag: 'Mockup-bilder som selger mer arbeidsark | LCS',
+    metaDescription: 'Profesjonelle mockup-bilder dobler klikkfrekvensen på Etsy-annonser. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Mockup-bilder som får deg til å selge mer',
+    title: 'Mockup-bilder som selger mer arbeidsark',
     tagline: 'Førsteinntrykket selger — og det er bildet',
     description: 'Annonsebilder er den viktigste faktoren for klikkfrekvens på Etsy. Denne guiden viser deg hvordan du lager profesjonelle mockup-bilder som får produktene dine til å se attraktive ut.',
   },

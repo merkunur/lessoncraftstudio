@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'romfart tema arbeidsark bedrift 2026',
+    primaryKeyword: 'romfart arbeidsark forretning Etsy',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'romfart tema oppgaver selge nettbutikk',
+      'planeter astronauter arbeidsark bedrift',
+      'romtema arbeidsark barn Etsy KDP',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Romfartstema-arbeidsark som forretning | LCS',
-    metaDescription: 'Romfart-temaer (planeter, romskip, astronauter) er blant de mest populære for arbeidsark etter dyr. Denne evergreen-nisjen har stabil etterspørsel og ',
+    lsiKeywords: ['romfart oppgaver barn salg', 'evergreen arbeidsark nisje', 'temabaserte oppgaver kommersiell lisens'],
+    titleTag: 'Romfart-arbeidsark som forretning | LCS',
+    metaDescription: 'Romfart-tema arbeidsark med planeter og astronauter selger hele året. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Romfartstema-arbeidsark som forretning',
+    title: 'Romfart-arbeidsark: Bygg en lønnsom forretning',
     tagline: 'Romfart fascinerer barn i alle aldersgrupper',
     description: 'Romfart-temaer (planeter, romskip, astronauter) er blant de mest populære for arbeidsark etter dyr. Denne evergreen-nisjen har stabil etterspørsel og kombineres godt med matte, ordsøk og puslespill.',
   },

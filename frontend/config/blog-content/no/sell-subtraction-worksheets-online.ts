@@ -2,22 +2,22 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'selge subtraksjonsoppgaver på nett 2026',
+    primaryKeyword: 'selge minusstykker arbeidsark på nett',
     secondaryKeywords: [
-      'subtraksjonsark Etsy butikk',
-      'matteoppgaver subtraksjon selge',
-      'utskrivbare subtraksjonsark forretning',
+      'minusstykker oppgaver Etsy butikk',
+      'matteoppgaver minus selge nettbutikk',
+      'lag og selg minusoppgaver forretning',
     ],
     lsiKeywords: [
-      'minus-oppgaver utskrifter',
-      'barneskole matte arbeidsark',
-      'digital nedlasting subtraksjon',
+      'minus-oppgaver arbeidsark salg',
+      'barneskole matte regneoppgaver',
+      'digital nedlasting minusstykker',
     ],
-    titleTag: 'Selg subtraksjonsoppgaver på nett 2026 | LCS',
-    metaDescription: 'Komplett guide til å selge subtraksjonsoppgaver på Etsy og andre plattformer. Prissetting, pakkestrategier og SEO-tips for norske selgere.',
+    titleTag: 'Selg minusstykker-oppgaver på nett | LCS',
+    metaDescription: 'Komplett guide til å selge minusstykker-oppgaver på Etsy og andre plattformer. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Selg subtraksjonsoppgaver på nett: Guide 2026',
+    title: 'Selg minusstykker-oppgaver på nett: Komplett guide',
     tagline: 'Subtraksjon er det naturlige neste steget etter addisjon',
     description: 'Subtraksjonsoppgaver er det perfekte tilleggsproduktet for alle som allerede selger addisjonsark. Foreldre som kjøper det ene kjøper nesten alltid det andre. Denne guiden dekker alt fra produktoppbygging og prissetting til Etsy-optimalisering for subtraksjonsoppgaver. Du lærer hvordan du lager profesjonelle arbeidsark på minutter og bygger en lønnsom produktlinje i mattekategorien.',
   },

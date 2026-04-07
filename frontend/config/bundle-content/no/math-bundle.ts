@@ -2,25 +2,29 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'matematikk arbeidsark pakke',
+    primaryKeyword: 'matteoppgaver pakke generator',
     secondaryKeywords: [
-      'matematikk utskriftspakke for selgere',
-      'matematikk arbeidsark generator pakke kommersiell bruk',
-      'utskriftsbare matematikkaktiviteter pakke for Etsy',
-      'matematikk arbeidsark verktøykasse for KDP-selgere',
+      'regneoppgaver generator pakke',
+      'plusstykker minusstykker pakke',
+      'matteoppgaver skrive ut pakke',
+      'mattegeneratorer samlepakke',
     ],
     lsiKeywords: [
-      'addisjon subtraksjon arbeidsark pakke',
-      'matematikkpuslespill utskriftsbar samling',
-      'kommersiell lisens matematikk arbeidsark',
-      'masseproduksjon matematikk arbeidsark verktøy',
+      'addisjon',
+      'subtraksjon',
+      'regnearter',
+      'barneskole',
+      '1. trinn',
+      'fasit',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Matematikk Arbeidsark Pakke — 6 Generatorer | Matematikk',
-    metaDescription: 'Få 6 matematikk arbeidsark-generatorer i én pakke. Addisjon, subtraksjon, kodepuslespill og algebra til salg på Etsy & KDP. $149 engangsbetaling.',
+    titleTag: 'Matteoppgaver pakke | 6 generatorer — Engangsbetaling',
+    metaDescription: 'Pakke med 6 matteoppgave-generatorer: plusstykker, minusstykker, kodeknekker og mer. Kommersiell lisens for Etsy & KDP. Engangsbetaling.',
   },
 
   hero: {
-    title: 'Matematikk Mestringspakke',
+    title: 'Matteoppgaver pakke — 6 generatorer for plusstykker, minusstykker og mer',
     tagline: 'Seks profesjonelle matematikk arbeidsark-generatorer i én rabattert pakke',
     description: 'Bygg en komplett utskriftsbar matematikkproduktlinje uten å bytte mellom separate verktøy. Matematikk Mestringspakken kombinerer seks spesialiserte arbeidsark-generatorer som dekker addisjon, subtraksjon, kryptaritmetiske kodepuslespill, større-enn og mindre-enn sammenligning, puslespillrutenett-matematikkpuslespill og visuelle algebra-bildeligninger. Hver generator produserer trykklare PDF- og høyoppløste JPEG-filer med automatiske fasit, konfigurerbar vanskelighetsgrad og tematiske bildebiblioteker. Fem av de seks appene er helt visuelle — arbeidsarkene de produserer fungerer på alle språk, fordi de bygger på bilder og tall snarere enn tekst. Den sjette, Kodeaddisjon, legger til en språkavhengig Avslør Ord-modus som støtter alle 11 grensesnittspråk. Velg blant over 100 tematiske bildesett eller last opp dine egne PNG- og JPEG-filer for merkevarespesifikke, nisjede produkter. Enten du selger på Etsy, Amazon KDP eller Gumroad gir denne pakken deg den variasjonen kjøpere forventer, og den hastigheten selgere trenger. Hver generator inkluderer en gratis prøveversjon med vannmerke, slik at du kan teste alle funksjoner før du kjøper en lisens.',
   },

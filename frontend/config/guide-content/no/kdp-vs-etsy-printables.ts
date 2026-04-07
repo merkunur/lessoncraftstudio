@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Amazon KDP vs Etsy',
+    primaryKeyword: 'KDP vs Etsy for arbeidsark',
     secondaryKeywords: [
-      'Amazon KDP vs Etsy for salg av utskriftsklare produkter',
-      'KDP vs Etsy sammenligning for utskriftsselgere',
-      'hvor selge utskriftsklare produkter KDP eller Etsy',
-      'Etsy vs Amazon KDP for arbeidsark',
-      'beste plattform for salg av utskriftsklare produkter 2026',
+      'Amazon KDP vs Etsy sammenligning arbeidsark',
+      'hvor selge arbeidsark KDP eller Etsy',
+      'beste plattform arbeidsark selgere',
     ],
     lsiKeywords: [
-      'plattformsammenligning utskriftsvirksomhet',
-      'KDP Etsy inntektssammenligning',
-      'multiplattform utskriftssalg',
+      'KDP vs Etsy arbeidsark barneskole',
+      'plattformsammenligning arbeidsark-virksomhet',
+      'KDP Etsy inntektssammenligning oppgaver',
+      'kommersiell lisens begge plattformer',
+      'multiplattform arbeidsark strategi',
+      'Etsy gebyrer vs KDP royalty',
+      'arbeidsark selgere fordeler ulemper',
+      'inntektspotensial KDP Etsy',
     ],
-    titleTag: 'Amazon KDP vs Etsy: Hvor selge utskriftsklare produkter',
-    metaDescription: 'KDP vs Etsy for salg av utskriftsklare produkter — ærlig sammenligning. Inntektsmodeller, trafikk, gebyrer og hvilken plattform som er best for din.',
+    titleTag: 'KDP vs Etsy for arbeidsark | Sammenligning',
+    metaDescription: 'Sammenligning: selge arbeidsark på KDP eller Etsy? Fordeler, ulemper, inntektspotensial og tips.',
   },
 
   hero: {
-    title: 'Amazon KDP vs Etsy: Hvor bør du selge utskriftsklare produkter?',
+    title: 'KDP vs Etsy for arbeidsark — sammenligning med fordeler, ulemper og inntektspotensial',
     tagline: 'En direkte sammenligning av de to dominerende plattformene for utskriftsselgere — dekker den grunnleggende forskjellen mellom digitale nedlastinger og print-on-demand, gebyrstrukturer og reelle fortjenestemarginer, trafikk- og oppdagbarhetsmekanikker, hvilke produkttyper hører hjemme på hvilken plattform, oppførings- og publiseringsarbeidsflyter, kjøperatferdsmønstre, multiplattformstrategien som maksimerer inntekter, og et beslutningsrammeverk for å velge hvor du skal starte basert på innholdstype, volum og forretningsmål',
     description: 'Bør du selge utskriftsklare produkter på Etsy, Amazon KDP, eller begge? Hver plattform har fundamentalt forskjellige inntektsmodeller, trafikkkilder og kjøperforventninger — og det riktige valget avhenger av produkttypen din og forretningsmålene dine. Denne guiden sammenligner begge plattformene side om side: gebyrer, royaltystrukturer, trafikkpotensial, SEO-forskjeller og hvilke produkttyper som presterer best på hver. Du vil sitte igjen med et tydelig rammeverk for å bestemme hvor du skal fokusere innsatsen din og hvordan du kan utnytte begge plattformene sammen.',
   },

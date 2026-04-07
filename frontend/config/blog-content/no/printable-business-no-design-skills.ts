@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'start printable bedrift',
+    primaryKeyword: 'start arbeidsark forretning uten designferdigheter',
     secondaryKeywords: [
-      'praktisk gjennomføring',
-      'optimalisering måling',
-      'vanlige feil unngå',
+      'lag arbeidsark uten design selge Etsy',
+      'arbeidsark generator ingen designerfaring',
+      'start digital produktforretning nybegynner',
     ],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Start printable-bedrift uten designkunnskaper | LCS',
-    metaDescription: 'Start din printable-bedrift uten designferdigheter. Med arbeidsark-generatorer lager du profesjonelle utskrivbare produkter. Selg på Etsy & KDP.',
+    lsiKeywords: ['arbeidsark forretning uten design', 'generator profesjonelle oppgaver', 'selg digitalt uten grafisk kompetanse'],
+    titleTag: 'Start arbeidsark-forretning uten designkunnskaper | LCS',
+    metaDescription: 'Du trenger ikke designferdigheter for å lage profesjonelle arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Start printable-bedrift uten designkunnskaper',
+    title: 'Start arbeidsark-forretning uten designkunnskaper',
     tagline: 'Du trenger ikke være designer for å lykkes',
     description: 'Med arbeidsark-generatorer trenger du ikke designferdigheter for å lage profesjonelle utskrivbare produkter. Denne guiden viser deg hvordan du går fra null designerfaring til en fungerende printable-forretning.',
   },

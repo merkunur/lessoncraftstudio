@@ -2,25 +2,15 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tjen penger med KDP aktivitetsbøker',
-    secondaryKeywords: [
-      'tjen penger med KDP aktivitetsbøker 2026',
-      'KDP aktivitetsbok inntektsguide 2026',
-      'tjen penger publisering aktivitetsbøker Amazon',
-      'lønnsom KDP aktivitetsbok virksomhet',
-      'Amazon KDP aktivitetsbok inntektsstrategier',
-    ],
-    lsiKeywords: [
-      'KDP gjentakende inntekt aktivitetsbøker',
-      'Amazon selvpublisering inntekter',
-      'aktivitetsbok forretningsmodell',
-    ],
-    titleTag: 'Tjen penger med KDP aktivitetsbøker (2026) | LCS',
-    metaDescription: 'Slik tjener du penger med KDP aktivitetsbøker i 2026. Inntektsstrategier, nisjevalg, prissetting og skaleringstaktikker for aktivitetsbokutgivere.',
+    primaryKeyword: 'tjene penger KDP aktivitetsbøker',
+    secondaryKeywords: ['KDP aktivitetsbok inntektsguide', 'lønnsom KDP arbeidsbok virksomhet', 'Amazon KDP inntektsstrategier arbeidsark'],
+    lsiKeywords: ['KDP gjentakende inntekt aktivitetsbøker', 'Amazon selvpublisering inntekter', 'aktivitetsbok forretningsmodell', 'Etsy arbeidsark salg', 'kommersiell lisens arbeidsark', 'nisjevalg KDP', 'matteoppgaver publisere', 'passiv inntekt arbeidsark'],
+    titleTag: 'Tjene penger med KDP aktivitetsbøker | Guide',
+    metaDescription: 'Slik tjener du penger med aktivitetsbøker på Amazon KDP. Nisjevalg, design og markedsføring.',
   },
 
   hero: {
-    title: 'Tjen penger med KDP aktivitetsbøker i 2026',
+    title: 'Tjene penger med KDP aktivitetsbøker — nisjevalg, design og markedsføring',
     tagline: 'En omfattende inntektsguide for Amazon KDP aktivitetsbokutgivere — dekker royaltymatematikk og prissettingsoptimalpunkter, katalogøkonomi som akkumulerer månedlig inntekt, sesongmessige publiseringsstrategier for ferieinntektstopper, Amazon søkeordoptimalisering for maksimalt salg, produksjonsskalering på tvers av flere aktivitetsboktyper, ytelsessporing for å doble ned på vinnere, og flerplattformekspansjon til Etsy og Gumroad for ytterligere inntektsstrømmer',
     description: 'Amazon KDP aktivitetsbøker genererer gjentakende inntekter med null lagerbeholdning, null frakt og global rekkevidde — men de fleste utgivere mislykkes fordi de velger mettede nisjer og generisk innhold. Denne guiden avslører hvilke aktivitetsboknisjer som faktisk er lønnsomme i 2026, hvordan du prissetter for maksimale royalties, og hvordan du skalerer fra din første bok til en full katalog. Du vil lære hvordan du bruker våre 33 generatorer til å produsere unikt innhold som konkurrenter ikke enkelt kan kopiere, noe som gir deg et bærekraftig konkurransefortrinn.',
   },

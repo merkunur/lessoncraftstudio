@@ -2,24 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bokstavblanding arbeidsark generator',
+    primaryKeyword: 'bokstaver i uorden gratis på nett',
     secondaryKeywords: [
-      'bokstavblanding arbeidsark generator for selgere',
-      'lag bokstavomstilling puslespill til salg',
-      'utskriftsbare bokstavblanding arbeidsark kommersiell bruk',
-      'bokstavblanding generator for KDP',
+      'anagram oppgaveark gratis',
+      'stav ordene riktig gratis',
+      'ordpuslespill gratis skrive ut',
+      'bokstavmiks gratis online',
     ],
     lsiKeywords: [
-      'blandede bokstavbrikker utskriftsbare for Etsy',
-      'bildebasert bokstavblanding arbeidsark verktøy',
-      'flerspråklig stavepuslespill generator',
+      'anagram',
+      'staving',
+      'ordforråd',
+      'puslespill',
+      'vannmerke',
+      'gratis',
     ],
-    titleTag: 'Bokstavblanding Arbeidsark Generator | LCS',
-    metaDescription: 'Generer bokstavblanding arbeidsark med blandede bokstavbrikker, bildeledetråder, vokal-fargekoding, 4. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Bokstaver i uorden gratis | Anagramgenerator online',
+    metaDescription: 'Lag oppgaver med bokstaver i uorden gratis online. Temabilder, automatisk fasit. Ingen registrering. Vannmerket fjernes med lisens.',
   },
 
   hero: {
-    title: 'Bokstavblanding Arbeidsark Generator',
+    title: 'Bokstaver i uorden gratis — Anagramgenerator online med temabilder',
     tagline: 'Lag blandede bokstavbrikker stavepuslespill med bildeledetråder, fargekoding og 4 vanskelighetsgrader på 11 språk',
     description: 'Forvandle ordforrådsøvelse til et praktisk stavepuslespill der brukerne løser oppgaven ved å omorganisere blandede bokstavbrikker. Dette verktøyet genererer bokstavblanding arbeidsark der en bildeledetråd kobles med et sett blandede brikker — brukerne studerer bildet, identifiserer hva det forestiller, og plasserer bokstavene i riktig rekkefølge. I motsetning til utfyllingsøvelser gir bokstavblanding brukerne ALLE bokstavene, men i feil rekkefølge, noe som gjør det til en bokstavomstilling som bygger stavenøyaktighet gjennom aktiv manipulasjon. Den kjennetegnende funksjonen er vokal-konsonant fargekoding: aktiver den for å vise vokaler i én farge og konsonanter i en annen, noe som tilfører en visuell fonikkdimensjon som hjelper brukerne identifisere bokstavtyper mens de løser puslespill. Fire vanskelighetsgrader styrer hvor mange bokstaver som er forhåndsplassert i riktig posisjon: Ingen Ledetråder blander hver bokstav for maksimal utfordring, Lett forhåndsplasserer halvparten for støttede nybegynnere, Normal plasserer en fjerdedel for balansert øvelse, og Vanskelig plasserer kun en sjettedel for selvsikre stavere. Velg mellom tre innholdskilder: Bildebibliotek henter fra mer enn 3 100 illustrasjoner i 104 tematiske samlinger, Manuelt Redigeringsmodus lar deg velge bilder og tilpasse visningsnavn, og Tilpasset Ordliste lar deg skrive opptil 8 ord direkte for tekstbaserte puslespill. Språkfølsomhet er innebygd: bytt fra norsk til et av de 11 støttede språkene, og det samme bildet produserer et annet målord med andre bokstaver og et helt annet blandet arrangement. Et hundebilde genererer «HUND» på norsk, «DOG» på engelsk, «CHIEN» på fransk, «PERRO» på spansk. Ett design blir 11 unike produkter. Still inn 1–10 puslespill per side, bytt mellom store eller små bokstaver, legg til øvelsesnummerering og velg blant 7 skriftfamilier. Eksporter som trykklar PDF eller høyoppløst JPEG med automatisk fasitgenerering. Den gratis prøveversjonen inneholder et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'oppdater gamle printable annonser øk salg 2026',
+    primaryKeyword: 'oppdater Etsy-annonser øk salg arbeidsark',
     secondaryKeywords: [
-      'steg steg gjennomføring',
-      'optimalisering finjustering',
-      'publisering markedsføring',
+      'forny gamle Etsy-annonser arbeidsark',
+      'optimaliser arbeidsark-annonser søkeord',
+      'øk salg gamle arbeidsark Etsy',
     ],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Oppdater gamle annonser: Boost salget | LCS',
-    metaDescription: 'Gamle Etsy-annonser kan få nytt liv med oppdaterte bilder, søkeord og beskrivelser. Denne guiden viser deg en systematisk prosess for å gjennomgå og f',
+    lsiKeywords: ['arbeidsark annonse-optimalisering', 'Etsy søkeord forbedring', 'forny arbeidsark annonser'],
+    titleTag: 'Oppdater gamle Etsy-annonser: Øk salget | LCS',
+    metaDescription: 'Gi gamle Etsy-annonser nytt liv med oppdaterte bilder og søkeord. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Oppdater gamle annonser: Boost salget',
+    title: 'Oppdater gamle Etsy-annonser: Øk salget',
     tagline: 'Gamle annonser med nye bilder og søkeord — nytt liv',
     description: 'Gamle Etsy-annonser kan få nytt liv med oppdaterte bilder, søkeord og beskrivelser. Denne guiden viser deg en systematisk prosess for å gjennomgå og forbedre eksisterende annonser for økt salg.',
   },

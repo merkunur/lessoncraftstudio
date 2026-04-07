@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'selg ordsøk-puslespill på Etsy',
+    primaryKeyword: 'selge ordleting på Etsy',
     secondaryKeywords: [
-      'selg ordsøk-puslespill på Etsy guide',
-      'hvordan selge ordsøk-puslespill på Etsy',
-      'Etsy ordsøk puslespill butikk tips',
-      'ordsøk pakkeprissetting for Etsy',
-      'list ordpuslespill på Etsy for fortjeneste',
+      'ordleting-arbeidsark Etsy butikk',
+      'selge ordpuslespill på Etsy guide',
+      'Etsy ordleting pakker prissetting',
     ],
     lsiKeywords: [
-      'Etsy ordpuslespill nisjestrategi',
-      'digitale ordsøk produkter',
-      'Etsy SEO for puslespillselgere',
+      'ordleting arbeidsark barneskole Etsy',
+      'kommersiell lisens ordleting 11 språk',
+      'temabilder ordleting-puslespill',
+      'Amazon KDP ordleting-bøker',
+      'Etsy SEO ordleting tagger',
+      'prissetting ordleting-pakker',
+      'selge ordpuslespill digitalt',
+      'LK20 leseferdighet ordleting',
     ],
-    titleTag: 'Selg ordsøk-puslespill på Etsy — Guide | LCS',
-    metaDescription: 'Komplett guide til å selge ordsøk-puslespill på Etsy. Oppføringsoptimalisering, tematiske pakker, prissetting og SEO-strategier for puslespillselgere.',
+    titleTag: 'Selge ordleting på Etsy | Guide for selgere',
+    metaDescription: 'Slik selger du ordleting og ordsøk-arbeidsark på Etsy. Temabilder, 11 språk, kommersiell lisens.',
   },
 
   hero: {
-    title: 'Slik selger du ordsøk-puslespill på Etsy',
+    title: 'Selge ordleting på Etsy — guide for selgere med temabilder og 11 språk',
     tagline: 'En komplett plattformguide for å bygge en lønnsom Etsy-butikk som selger ordsøk-puslespill og komplementære språkpuslespillformater — dekker Etsy-butikk oppsett, SEO-optimalisering med alle 13 tagger, oppføringstitler og beskrivelser som rangerer for puslespillkjøperes søkeord, produktfotografering som viser puslespillrutenett og fasit, prisstrategier for individuelle puslespill og tematiske pakker, sesongtiming for høytids- og læringstopper, katalogplanlegging på tvers av ordsøk, kryssord, ordblanding og kryptogram-formater, språkspesifikke produktmuligheter i flerspråklige markeder, og løpende butikkoptimalisering med Etsy Stats og søkeanalyse',
     description: 'Ordsøk-puslespill er blant de bestselgende printbare formatene på Etsy — kjøpere søker etter tematiske puslespillpakker, høytidssamlinger og undervisningspakker hele året. Denne guiden dekker alt fra å velge lønnsomme temaer og lage iøynefallende oppføringer til å optimalisere Etsy-SEO og prissette pakkene dine for maksimal fortjeneste. Du vil lære hvordan du bruker ordsøk-generatoren til å bygge en katalog med tematiske puslespillpakker som skiller seg ut i Etsy-søkeresultater og konverterer besøkende til kjøpere.',
   },

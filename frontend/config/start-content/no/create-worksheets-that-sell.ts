@@ -2,25 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'lag profesjonelle arbeidsark som selger',
+    primaryKeyword: 'lage arbeidsark som selger',
     secondaryKeywords: [
-      'hvordan lage arbeidsark som selger',
-      'lag profesjonelle arbeidsark guide',
-      'lage arbeidsark til salg på Etsy',
-      'arbeidsarkskaping for selgere',
-      'utskriftsbar arbeidsarkdesign tips',
+      'arbeidsark som selger Etsy',
+      'oppgaver som selger KDP',
+      'lage bestselgende arbeidsark',
+      'selge arbeidsark tips',
     ],
     lsiKeywords: [
-      'arbeidsark kvalitetsstandarder',
-      'profesjonell utskriftsbar produksjon',
-      'salgbart arbeidsarkdesign',
+      'bestselger',
+      'nisje',
+      'pris',
+      'design',
+      'kvalitet',
+      'Etsy',
+      'KDP',
+      'oppgaver',
     ],
-    titleTag: 'Lag Profesjonelle Arbeidsark som Selger | LCS',
-    metaDescription: 'Slik lager du arbeidsark som selger på Etsy, Amazon KDP og Gumroad. Kvalitetsstandarder, tematiske bilder, fasit, priser og oppføringsoptimalisering for selgere',
+    titleTag: 'Lag arbeidsark som selger | Tips for Etsy & KDP',
+    metaDescription: 'Lær å lage arbeidsark som faktisk selger. Nisjevalg, design, prissetting og markedsføring for Etsy og Amazon KDP.',
   },
 
   hero: {
-    title: 'Slik Lager du Profesjonelle Arbeidsark som Selger',
+    title: 'Lag arbeidsark som selger — Tips og strategier for Etsy & KDP',
     tagline: 'Produktskapingsstrategien som skiller arbeidsark kjøpere velger fra arbeidsark kjøpere scroller forbi',
     description: 'Forskjellen mellom arbeidsark som selger og arbeidsark som forblir usolgte er profesjonell kvalitet — marger, avstand, bildeklarhet, fasit og utskriftsoppløsning signaliserer alle verdi til kjøpere før de i det hele tatt leser beskrivelsen din. Denne guiden dekker den komplette arbeidsarkskapingsprosessen: velge formater med høyest inntektspotensial, bruke tematiske bilder for visuell appell, generere automatiske fasit, eksportere i trykkeklar DPI og optimalisere oppføringene dine for å konvertere tittere til kjøpere. Du lærer hvordan du bruker våre 33 generatorer til å produsere salgbare produkter på minutter.',
   },

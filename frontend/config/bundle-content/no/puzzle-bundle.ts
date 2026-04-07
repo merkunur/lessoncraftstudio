@@ -2,25 +2,29 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'puslespillarbeidsark pakke',
+    primaryKeyword: 'puslespill arbeidsark pakke',
     secondaryKeywords: [
-      'puslespillarbeidsark generator pakke for selgere',
-      'utskriftsbar logikkpuslespill verktøykasse kommersiell bruk',
-      'labyrint sudoku arbeidsark pakke for Etsy',
-      'puslespillaktivitet generatorer for KDP-selgere',
+      'logikkoppgaver pakke generator',
+      'sudoku labyrint pakke',
+      'puslespilloppgaver samlepakke',
+      'logikk og puslespill generatorer',
     ],
     lsiKeywords: [
-      'manglende biter sudoku labyrint arbeidsark pakke',
-      'finn den ulike logikk utskriftsbar samling',
-      'kommersiell lisens puslespillarbeidsark',
-      'masseproduksjon puslespillarbeidsark verktøy',
+      'sudoku',
+      'labyrint',
+      'manglende brikker',
+      'hvem hører ikke hjemme',
+      'logikk',
+      'barneskole',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Puslespillarbeidsark Pakke — 4 Logikk- og...',
-    metaDescription: 'Puslespillarbeidsark pakke med 4 generatorer: manglende biter, finn den ulike, bildesudoku og labyrinter. Selg på Etsy, KDP og Gumroad. $149 engangsbetaling.',
+    titleTag: 'Puslespill arbeidsark pakke | 4 generatorer — Engangsbetaling',
+    metaDescription: 'Pakke med 4 puslespillgeneratorer: sudoku, labyrint, manglende brikker og logikk. Kommersiell lisens for Etsy & KDP.',
   },
 
   hero: {
-    title: 'Puslespill & Logikk-pakke',
+    title: 'Puslespill arbeidsark pakke — 4 generatorer for logikk og puslespill',
     tagline: 'Fire helt visuelle puslespillgeneratorer — romlig resonnement, logisk deduksjon og problemløsning i hvert arbeidsark',
     description: 'Puslespill & Logikk-pakken er den eneste pakken der enhver enkelt app produserer helt visuelle arbeidsark. Ingen tekst, ingen språkavhengighet, ingen oversettelse nødvendig — hvert arbeidsark fungerer i alle land, alle språk, alle markeder. Denne pakken kombinerer fire spesialiserte puslespillgeneratorer som retter seg mot høyere kognitive ferdigheter: romlig resonnement med Manglende Biter rutenettspuslespill, visuell skjelning med Finn den Ulike-utfordringer, logisk deduksjon med 4x4 Bildesudoku og problemløsning med Bildesti-labyrinter. Alle fire generatorer produserer automatiske fasit — den eneste pakken med 100% fasitdekning over enhver app. Hver generator sender ut trykklare PDF- og høyoppløste JPEG-filer med konfigurerbare vanskelighetsinnstillinger og tematiske bildebiblioteker. Puslespill- og logikkarbeidsarkkategorien er et av de raskest voksende segmentene på Etsy og Amazon KDP. Velg blant over 100 tematiske bildesett eller last opp dine egne filer. Hver generator inkluderer en gratis prøveversjon med vannmerke.',
   },

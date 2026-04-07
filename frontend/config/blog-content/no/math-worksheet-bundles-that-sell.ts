@@ -2,22 +2,14 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mattepakker som selger Etsy 2026',
-    secondaryKeywords: [
-      'matteoppgave-pakke Etsy',
-      'bundle strategi matteark',
-      'arbeidsark pakker som selger',
-    ],
-    lsiKeywords: [
-      'matteoppgaver pakkepris',
-      'digital mattepakke',
-      'Etsy pakketilbud matte',
-    ],
-    titleTag: 'Mattepakker som selger på Etsy 2026 | LCS',
-    metaDescription: 'Slik lager du mattepakker som selger på Etsy. Pakkestrategi, innhold og prissetting for høyest mulig fortjeneste per salg.',
+    primaryKeyword: 'lag mattepakker som selger på Etsy',
+    secondaryKeywords: ['matteoppgave-pakke pakkestrategi Etsy', 'arbeidsark-pakker høyere fortjeneste', 'mattepakker prissetting optimalt innhold'],
+    lsiKeywords: ['gjennomsnittlig ordreverdi pakker', 'operasjonspakke klassepakke temapakke', 'pakkerabatt matteoppgaver'],
+    titleTag: 'Mattepakker som selger på Etsy | LCS',
+    metaDescription: 'Pakker tredobler fortjenesten per salg for matteoppgaver. Strategi, innhold og prissetting. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Mattepakker som selger på Etsy i 2026',
+    title: 'Lag mattepakker som selger på Etsy',
     tagline: 'Pakkestrategien som tredobler fortjenesten per salg',
     description: 'Enkeltark selger, men pakker tjener penger. De mest lønnsomme matteutskrift-selgerne på Etsy har oppdaget at kunder villig betaler 3–5 ganger mer for en godt sammensatt pakke enn for et enkeltark. Denne guiden viser deg nøyaktig hvordan du setter sammen, prissetter og markedsfører mattepakker som genererer jevn inntekt måned etter måned.',
   },

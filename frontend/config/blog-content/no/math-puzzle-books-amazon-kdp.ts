@@ -2,14 +2,14 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mattepuslespillbøker Amazon KDP 2026',
-    secondaryKeywords: ['mattebok KDP publisere', 'puslespillbok matte Amazon', 'aktivitetsbok matte KDP nisje'],
-    lsiKeywords: ['KDP royalty mattebøker', 'lavinnholds bok KDP', 'Amazon selvpublisering matte'],
-    titleTag: 'Mattepuslespillbøker på Amazon KDP 2026 | LCS',
-    metaDescription: 'Publiser mattepuslespillbøker på Amazon KDP. Formatering, nisjevalg og royalty-beregning for norske selgere i 2026.',
+    primaryKeyword: 'publiser mattepuslespillbøker Amazon KDP',
+    secondaryKeywords: ['mattebok KDP passiv inntekt', 'aktivitetsbok matte Amazon selge', 'puslespillbok KDP royalty nisje'],
+    lsiKeywords: ['lavinnholdsbok KDP formatering', 'bildesudoku kodeaddisjon bok', 'Amazon selvpublisering matteoppgaver'],
+    titleTag: 'Mattepuslespillbøker på Amazon KDP | LCS',
+    metaDescription: 'Publiser mattepuslespillbøker på KDP for passiv inntekt. Nisjevalg, formatering og royalty. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Mattepuslespillbøker på Amazon KDP i 2026',
+    title: 'Publiser mattepuslespillbøker på Amazon KDP',
     tagline: 'Publiser og tjen passiv inntekt med mattebøker',
     description: 'Amazon KDP er den største plattformen for selvpublisering i verden, og mattepuslespillbøker er en voksende nisje. Du trenger ingen forlag, intet lager og ingen forsendelse. Lag innholdet, last opp, og Amazon tar seg av resten. Denne guiden dekker alt fra nisjevalg og formatering til prissetting og markedsføring av mattepuslespillbøker.',
   },

@@ -2,24 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag tegnearbeidsark for salg pa nett',
+    primaryKeyword: 'lag tegneoppgaver å skrive ut steg for steg',
     secondaryKeywords: [
-      'lag tegnearbeidsark for Etsy',
-      'lag kunstaktivitets-printables for KDP',
-      'tegnearbeidsark opprettelsesguide',
-      'selg tegne-printables pa nett',
+      'lage tegneoppgaver med rutenett for Etsy',
+      'selge tegnearbeidsark på Amazon KDP',
+      'lag tegn-og-fargelegg oppgaver for barn',
+      'tegneoppgaver barneskole kommersiell lisens',
     ],
     lsiKeywords: [
-      'tegneprodukt oppretting',
-      'kunstaktivitets virksomhet',
-      'salgbare tegneprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'tegneoppgaver med rutenett',
+      'tegnearbeidsark å skrive ut',
     ],
-    titleTag: 'Lag tegnearbeidsark for salg pa nett | LCS',
-    metaDescription: 'Guide til a lage tegnearbeidsark for salg pa nett. Rutenett-tegning, sporingsaktiviteter og strategier for Etsy og KDP kunstaktivitetsselgere.',
+    titleTag: 'Lag tegneoppgaver å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag tegneoppgaver å skrive ut med rutenett-tegning og symmetrimoduser. Justerbar vanskelighetsgrad. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag tegnearbeidsark for salg pa nett',
+    title: 'Lag tegneoppgaver å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage rutenett-tegnearbeidsark med justerbar vanskelighetsgrad, symmetrimoduser og svart-hvitt kontur-temaer du kan selge pa Etsy, Amazon KDP og Gumroad',
     description: 'Tegne- og sporingsarbeidsark appellerer til foreldre som soker skjermfrie kreative aktiviteter — et voksende marked pa Etsy og Amazon KDP. Denne guiden dekker a lage profesjonelle tegnearbeidsark designet for salg: a kombinere rutenettbaserte tegneaktiviteter med linjesporingsovelser for varierte produktlinjer, velge temaer som matcher sesongbasert ettersporsel, og pakke kunstarbeidshefter for KDP. Du vil laere hvordan du bruker bade tegn-og-fargelegg- og tegnelinjegeneratorene for a bygge omfattende kunstaktivitetspakker som dekker finmotorikk gjennom kreativt uttrykk.',
   },

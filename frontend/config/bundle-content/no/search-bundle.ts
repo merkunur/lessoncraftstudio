@@ -2,24 +2,29 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'søk og finn pakke for selgere',
+    primaryKeyword: 'søk og finn oppgaver pakke',
     secondaryKeywords: [
-      'søk og finn arbeidsark pakke for selgere',
-      'søk utskriftsbar pakke for Etsy-selgere',
-      'finn arbeidsark generator pakke kommersiell bruk',
-      'alle søkegeneratorer i en pakke',
+      'finn og tell skattejakt pakke',
+      'kryssord finn gjenstandene pakke',
+      'søkoppgaver generator pakke',
+      'observasjonsoppgaver pakke',
     ],
     lsiKeywords: [
-      'søk utskriftsbar forretningspakke',
-      'komplett finn generator pakke',
-      'Jeg ser jeg ser selgerverktøy',
+      'kryssord',
+      'skattejakt',
+      'finn og tell',
+      'finn gjenstandene',
+      'postløp',
+      'barneskole',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Søk & Finn-pakke — 4 Oppdagelsesgeneratorer for Selgere',
-    metaDescription: 'Få alle 4 søk og finn-generatorer i én pakke. Jeg ser jeg ser, finn og tell, bildekryssord og skattejakt. $149 engangsbetaling.',
+    titleTag: 'Søk og finn oppgaver pakke | 4 generatorer — Engangsbetaling',
+    metaDescription: 'Pakke med 4 søk-og-finn generatorer: kryssord, skattejakt, finn og tell, finn gjenstandene. Kommersiell lisens for Etsy & KDP.',
   },
 
   hero: {
-    title: 'Søk & Finn-pakke — 4 Generatorer for Selgere',
+    title: 'Søk og finn oppgaver pakke — 4 generatorer for kryssord, skattejakt og mer',
     tagline: 'Fire oppdagelsesfokuserte generatorer — Jeg ser jeg ser-scener, skjulte objekter, kryssordpuslespill og skattejakter i hvert arbeidsark',
     description: 'Bygg en komplett søk og finn-produktlinje med alle 4 generatorer i én rabattert pakke — finn objekter (Jeg ser jeg ser), finn og tell, bildekryssord og skattejakt. Hvert verktøy leveres med full kommersiell lisens for Etsy, Amazon KDP eller hvilken som helst markedsplass. Jeg ser jeg ser- og søkeaktiviteter er blant de bestselgende utskriftsbare formatene, spesielt populære som KDP-aktivitetsbøker og Etsy-temapakker. Denne pakken dekker alle søk-og-finn-formater for en omfattende produktkatalog. Tre av fire apper produserer språkavhengige arbeidsark, noe som gjør dette til den mest språkrike pakken i samlingen. Hvert språk blir et unikt produkt med sin egen søketrafikk og praktisk talt null konkurranse i de fleste ikke-engelske markeder. Selgere med Full Tilgang kan multiplisere katalogene sine med 11 fra det samme innholdet. Hver generator inkluderer en gratis prøveversjon med vannmerke — ingen registrering, intet kredittkort.',
   },

@@ -2,25 +2,29 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'koblingsarbeidsark pakke',
+    primaryKeyword: 'koble sammen og sortere pakke',
     secondaryKeywords: [
-      'kobling sortering arbeidsark generator pakke for selgere',
-      'utskriftsbar koblingsaktivitet verktøykasse kommersiell bruk',
-      'bingokort generator pakke for Etsy',
-      'sorteringsarbeidsark generatorer for KDP-selgere',
+      'matchingsoppgaver pakke generator',
+      'bingo skyggelek rutenett pakke',
+      'koble sortere generatorer',
+      'matchingspakke arbeidsark',
     ],
     lsiKeywords: [
-      'kobling sortering bingo arbeidsark pakke',
-      'skyggematching rutenettkobling utskriftsbar samling',
-      'kommersiell lisens koblingsarbeidsark',
-      'masseproduksjon koblingsarbeidsark verktøy',
+      'koble sammen',
+      'sortere',
+      'bingo',
+      'skyggelek',
+      'rutenett',
+      'barneskole',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Koblingsarbeidsark Pakke — 5 Sorterings- og...',
-    metaDescription: 'Få 5 koblingsarbeidsark-generatorer i én pakke. Lag kobling, rutenettkobling, skyggematching, bingo og sorteringsarbeidsark til salg på Etsy. $49. $149 enga.',
+    titleTag: 'Koble sammen og sortere pakke | 5 generatorer — Engangsbetaling',
+    metaDescription: 'Pakke med 5 generatorer: koble sammen, skyggelek, bingo, rutenett og sortere. Kommersiell lisens for Etsy & KDP. Engangsbetaling.',
   },
 
   hero: {
-    title: 'Kobling & Sortering-pakke',
+    title: 'Koble sammen og sortere pakke — 5 generatorer for matchingsoppgaver',
     tagline: 'Fem koblings- og sorteringsgeneratorer — fra visuell parkobling til batch-bingokort-eksporter',
     description: 'Kobling & Sortering-pakken samler fem spesialiserte generatorer som dekker hele spektret av koblings-, parrings- og kategoriseringsaktiviteter. Dette er en hybridpakke — tre av de fem appene er språkavhengige og produserer arbeidsark med ordforråds etiketter på et av 11 støttede språk, mens to er helt visuelle og fungerer verden over uten oversettelse. Kobling tilbyr fire distinkte moduser inkludert bokstavkobling, bilde-navnparring og tilpasset innhold. Rutenettkobling skaper koordinatbaserte koblingspuslespill på strukturerte rutenett. Skyggematching genererer silhuettparringsarbeidsark. Bingo produserer batcheksporter av flere unike kort i én enkelt ZIP-nedlasting — den eneste appen over alle pakker med denne evnen, designet spesifikt for produktlinje- og gruppebruk. Bildesortering bygger tokategori-sorteringsarbeidsark. Fire av de fem generatorene produserer automatiske fasit. Bingo er unntaket — som en spillkortgenerator er det intet enkelt korrekt svar. Hver generator sender ut trykklare PDF- og høyoppløste JPEG-filer. Velg blant over 100 tematiske bildesett eller last opp dine egne filer. Hver generator inkluderer en gratis prøveversjon med vannmerke.',
   },

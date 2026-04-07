@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Skogdyr utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Utforsk skogdyr utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Skogstema produktkonsepter, plattformtips og nisjestrategier for selgere.',
-
-    primaryKeyword: 'skogdyr utskriftsbare ideer',
+    titleTag: 'Skogsdyr-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Skogsdyr-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge skogstema oppgaver.',
+    primaryKeyword: 'skogsdyr-oppgaver til salg',
     secondaryKeywords: [
-      'skogdyr arbeidsark til salg',
-      'skogstema utskriftsbar forretning',
-      'skogdyr aktivitetsark for selgere',
-      'selg skogdyr printables online',
+      'skogsdyr arbeidsark selge Etsy',
+      'skogstema aktivitetsbøker KDP',
+      'selge skogsdyr-oppgaver på nett',
+      'skogsdyr nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'skogvesen pedagogiske arbeidsark',
-      'naturhabitat aktiviteter for barn',
-      'dyretema utskriftsbare produkter',
+      'skogsdyr nisje Etsy KDP',
+      'skogstema arbeidsark barneskole',
+      'pedagogiske skogsdyr-oppgaver til salg',
+      'natur-tema produktlinje selgere',
+      'eviggrønt dyretema oppgaver',
     ],
   },
   hero: {
-    title: 'Skogdyr utskriftsbare forretningsideer for selgere',
+    title: 'Skogsdyr-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Skogdyr representerer et av de mest varig populære temaene innen barns pedagogiske produkter, og kombinerer den koselige skogestetikken som foreldre elsker med naturfaglige innholdsforbindelser som kjøpere trenger. Bjørner, hjort, rever, ugler, kaniner, ekorn, vaskebjørner og pinnsvin danner en elsket rollebesetning som barn møter i bildebøker, barnerominnredning og naturdokumentarer fra sine tidligste år. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad drar skogdyrnisjen fordel av helårsrelevans med sterke sesongtopper om høsten og vinteren når gruppeaktiviteter fokuserer på dvale, næringskjeder og habitattilpasning. Skogestetikken har blitt en dominerende trend innen barnerom- og gruppeinnredning, noe som driver etterspørsel etter matchende pedagogiske materialer som bærer den samme visuelle varmen. Denne guiden gir spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å hjelpe deg med å bygge en lønnsom skogdyr utskriftsbar produktlinje med våre arbeidsarkgeneratorverktøy.',
   },
   marketOverview: `Skogdyr utskriftsbar-nisjen befinner seg i skjæringspunktet mellom naturutdanning, sesongbasert innholdsplanlegging og den enormt populære skogbarneromestetikktrenden, noe som skaper etterspørsel fra flere kjøpersegmenter hele året. Foreldre som har dekorert barnerom og lekerom med skogstemaer søker aktivt etter matchende pedagogiske materialer med de samme bjørnene, revene, hjortene og uglene som pryder barnas vegger. Kjøpere som bygger naturfagsenheter om skoghabitater, dvale, næringskjeder og sesongmessige dyretilpasninger trenger utskriftsbare ressurser som er tilpasset innholdsstandarder samtidig som de holder det yngre publikummet engasjert.

@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bildesortering generator',
-    secondaryKeywords: [
-      'utskriftsbar sorteringsaktivitet generator til Etsy-selgere',
-      'tokategori sortering arbeidsark generator til KDP',
-      'bildeklassifisering arbeidsark generator kommersiell lisens',
-      'selg sorteringsarbeidsark på Gumroad',
-    ],
-    lsiKeywords: [
-      'digitale sorterings utskriftsbare produkter nettbasert forretning',
-      'kommersielt bruk klassifisering arbeidsark generator',
-      'utskriftsbar kategorisortering aktivitet forretningsverktoy',
-    ],
-    titleTag: 'Bildesortering Generator | Lag Sorteringsarbeidsark',
-    metaDescription: 'Lag bildesorteringsarbeidsark til salg på Etsy, KDP og Gumroad. Tokategorisortering, automatisk fasit, 104 temaer, 4–12 bilder. $49 engangsbetaling.',
+    primaryKeyword: 'sorteringsoppgave skrive ut',
+    secondaryKeywords: ['sortere og gruppere oppgave', 'kategorisere bilder', 'ordne og sortere oppgaveark', 'sorteringsaktivitet 1. trinn'],
+    lsiKeywords: ['sortere', 'gruppere', 'kategorisere', 'ordne', '1. trinn'],
+    titleTag: 'Sorteringsoppgave å skrive ut | Kategoriseringsgenerator',
+    metaDescription: 'Lag sorterings- og kategoriseringsoppgaver med temabilder. Automatisk fasit, utskrivbare PDF-er. Prøv gratis.',
   },
 
   hero: {
-    title: 'Bildesortering Arbeidsark Generator for Tokategori Sorteringsaktiviteter',
+    title: 'Sorteringsoppgave å skrive ut — Kategoriseringsgenerator med temabilder',
     tagline: 'Tokategorisortering i en kraftfull generator — temabasert eller manuelt bildevalg — med automatisk genererte fasiter, 4–12 konfigurerbare bilder, en lokalisert «Sorter bilder»-overskrift på 11 språk og 104 tematiske bildesamlinger.',
     description:
       'Bygg profesjonelle sorteringsarbeidsark der brukerne klassifiserer bilder i to kategorier ved å sortere utklippede bilder i den korrekte venstre eller hoyre gruppen. Velg temamodus for automatisk å fylle ut kategorier fra bildebiblioteket — velg et venstre tema og et hoyre tema, og appen henter 4–6 tilfeldige bilder per tema — eller bytt til manuell modus for å håndvelge individuelle bilder og tildele hver til en kategori. Hvert arbeidsark har to stiplede kategorirammer overst som sorteringsmål og et blandet utklippsrutenett nedenfor med blandede bilder klare til å klippes ut og sorteres. Dobbeltlerretssystemet genererer både en arbeidsarkfane og en fasitfane med 6x storre bilder organisert i kategorifelt, slik at du aldri trenger å lage fasit manuelt. Bildesortering Generatoren er språkavhengig: kategorietiketter bruker lokaliserte bildenavn, slik at å bytte språk endrer teksten på arbeidsarket. Det betyr at de samme bildetemaene kan generere unike sorteringsarbeidsark på 11 forskjellige språk — hver språkversjon har lokaliserte kategorietiketter, noe som gjor hver versjon til et separat produkt. En lokalisert «Sorter bilder»-overskrift med mintgronn bakgrunn og blågronn tittel rendres automatisk på alle 11 stoettede språk. Full Tilgang låser opp alle 104 temaer med mer enn 3 100 illustrasjoner og alle 11 brukergrensesnittspråk for lokaliserte kategorietiketter. Legg til bakgrunnstemaer og rammetemaer med uavhengige opasitetskontroller, inkluder navn- og datofelt for produktlinjeansvar, og eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI i Letter, A4, Kvadrat eller egendefinerte storrelser. Enten du selger sorteringsaktivitetspakker på Etsy, setter sammen klassifiseringsarbeidboker til Amazon KDP eller lager sorteringsstasjonsaktiviteter til Gumroad — denne generatoren leverer produksjonsklare arbeidsark på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

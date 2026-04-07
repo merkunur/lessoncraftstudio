@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable bedrift feil unngå',
-    secondaryKeywords: ['printable bedrift feil unngå tips', 'printable bedrift feil unngå strategi', 'printable bedrift feil unngå 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Printable-bedrift: 10 feil du må unngå | LCS',
-    metaDescription: 'De fleste printable-selgere gjør de samme feilene i starten. Denne guiden avslører de 10 vanligste feilene og viser deg hvordan du unngår dem.',
+    primaryKeyword: 'arbeidsark forretning feil unngå nybegynnere',
+    secondaryKeywords: ['vanlige feil arbeidsark selgere Etsy', 'unngå tabber digital produktforretning', 'nybegynnerfeil arbeidsark butikk tips'],
+    lsiKeywords: ['arbeidsark selger feil starten', 'Etsy selger vanlige tabber', 'digital produkt forretning tips'],
+    titleTag: 'Arbeidsark-forretning: 10 feil du må unngå | LCS',
+    metaDescription: 'Unngå de 10 vanligste feilene nye arbeidsark-selgere gjør. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Printable-bedrift: 10 feil du må unngå',
+    title: 'Arbeidsark-forretning: 10 feil du må unngå',
     tagline: 'Lær av andres tabber — spar måneder med frustrasjon',
     description: 'De fleste printable-selgere gjør de samme feilene i starten. Denne guiden avslører de 10 vanligste feilene og viser deg hvordan du unngår dem.',
   },

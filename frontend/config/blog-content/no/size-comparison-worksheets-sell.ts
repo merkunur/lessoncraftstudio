@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'størrelsessammenligning arbeidsark selge',
-    secondaryKeywords: ['størrelsessammenligning arbeidsark selge Etsy', 'størrelsessammenligning arbeidsark selge tips', 'størrelsessammenligning arbeidsark selge strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark bedrift', 'pedagogiske utskrifter salg', 'Etsy nedlasting'],
-    titleTag: 'Størrelsessammenligning-arbeidsark: Selg på nett | LCS',
-    metaDescription: 'Størrelsessammenligning-arbeidsark: Komplett guide til produktoppbygging, prissetting og markedsføring. Selg arbeidsark på nett i 2026.',
+    primaryKeyword: 'stor og liten oppgaver selge Etsy',
+    secondaryKeywords: ['størrelsessammenligning arbeidsark forretning', 'stor liten oppgaver barnehage selge', 'sammenligning arbeidsark Etsy nettbutikk'],
+    lsiKeywords: ['størrelse oppgaver barn salg', 'barnehage arbeidsark bedrift', 'Etsy nedlasting pedagogisk'],
+    titleTag: 'Stor og liten-oppgaver: Selg på nett | LCS',
+    metaDescription: 'Lag og selg stor-og-liten-oppgaver for barn på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Størrelsessammenligning-arbeidsark: Selg på nett',
+    title: 'Stor og liten-oppgaver: Selg på nett',
     tagline: 'Stor og liten — et grunnleggende konsept som selger',
     description: 'Størrelsessammenligning-oppgaver lærer barn å forstå konsepter som stor, liten, større og mindre. De er grunnleggende for matematisk forståelse og selger godt til foreldre med barn i barnehagealder.',
   },

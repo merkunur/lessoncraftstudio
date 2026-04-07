@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Havdyr utskriftsbare ideer til salg — Nisjeguide',
-    metaDescription: 'Utforsk havdyr utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Havtema produktkonsepter, plattformtips og nisjestrategier for selgere.',
-
-    primaryKeyword: 'havdyr utskriftsbare ideer',
+    titleTag: 'Havdyr-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Havdyr-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge havtema oppgaver.',
+    primaryKeyword: 'havdyr-oppgaver til salg',
     secondaryKeywords: [
-      'havdyr arbeidsark til salg',
-      'havtema utskriftsbar forretning',
-      'havdyr aktivitetsark for selgere',
-      'selg havdyr printables online',
+      'havdyr arbeidsark selge Etsy',
+      'havtema aktivitetsbøker KDP',
+      'selge havdyr-oppgaver på nett',
+      'havdyr nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'undervanns pedagogiske arbeidsark',
-      'marint liv aktivitetssider',
-      'havøkosystem utskriftsbare produkter',
+      'havdyr nisje Etsy KDP',
+      'marint tema arbeidsark',
+      'havdyr-tema arbeidsark barneskole',
+      'pedagogiske havdyr-oppgaver til salg',
+      'undervanns produktlinje selgere',
     ],
   },
   hero: {
-    title: 'Havdyr utskriftsbare forretningsideer for selgere',
+    title: 'Havdyr-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Havdyr fanger barns fantasi med eksotiske former, levende farger og fascinerende atferdsmønstre som skaper en naturlig etterspørsel etter pedagogiske materialer. Hvaler, delfiner, haier, blekkspruter, sjøhester, krabber, skilpadder og klovnefisk tilbyr en visuelt slående palett for utskriftsbare arbeidsark. For selgere på Etsy, Amazon KDP og Gumroad kombinerer havdyrnisjen helårs etterspørsel drevet av barns naturlige fascinasjon med sesongtopper om sommeren når strandferier og havtemaer er mest populære. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å hjelpe deg med å bygge en lønnsom havdyr utskriftsbar produktlinje med våre arbeidsarkgeneratorverktøy.',
   },
   marketOverview: `Havdyr utskriftsbar-nisjen tilbyr ekstraordinært sterke visuelle og pedagogiske muligheter for selgere. Havet rommer noen av de mest visuelt spektakulære skapningene på planeten, fra fargerike tropiske fisker til majestetiske hvaler, og barns fascinasjon for disse dyrene driver konsekvent etterspørsel etter utskriftsbare materialer gjennom hele året.

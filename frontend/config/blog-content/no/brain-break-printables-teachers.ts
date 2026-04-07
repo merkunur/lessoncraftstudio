@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hjernepause printables lærere 2026',
+    primaryKeyword: 'selge hjernepause-oppgaver Etsy',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'brain break arbeidsark selge',
+      'korte puslespill oppgaver KDP',
+      'hjernepause aktiviteter Etsy butikk',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Hjernepause-utskrifter for lærere | LCS',
-    metaDescription: 'Hjernepause (brain breaks) er korte aktiviteter lærere bruker mellom undervisningsøkter. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['hjernepause arbeidsark selge', 'oppgaver korte aktiviteter Etsy', 'KDP puslespillbok barn', 'kommersiell lisens arbeidsark', 'ordleting hurtig puslespill', 'Etsy selger oppgaver', 'LessonCraftStudio generator'],
+    titleTag: 'Selg hjernepause-oppgaver på Etsy',
+    metaDescription: 'Hjernepause-oppgaver selges i semesterpakker. Lag arbeidsark med LessonCraftStudio — 33 generatorer, 11 språk, kommersiell lisens.',
   },
   hero: {
-    title: 'Hjernepause-utskrifter for lærere',
+    title: 'Selg hjernepause-oppgaver — korte puslespill som selger i pakker',
     tagline: 'Korte puslespill som gir barna en mental pause',
     description: 'Hjernepause (brain breaks) er korte aktiviteter lærere bruker mellom undervisningsøkter. Utskrivbare puslespill, hurtig-ordsøk og matteknekker-oppgaver er perfekte for dette. Lærere kjøper disse i pakker for hele semesteret.',
   },

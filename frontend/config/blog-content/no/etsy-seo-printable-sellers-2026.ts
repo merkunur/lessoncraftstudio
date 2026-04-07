@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO printable selgere 2026',
-    secondaryKeywords: ['Etsy SEO printable selgere 2026 tips', 'Etsy SEO printable selgere 2026 strategi', 'Etsy SEO printable selgere 2026 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Etsy SEO for printable-selgere i 2026 | LCS',
-    metaDescription: 'Etsy-algoritmen endres stadig, men grunnprinsippene for SEO er de samme: riktige søkeord, gode bilder og høy konvertering. Denne guiden dekker de nyes',
+    primaryKeyword: 'Etsy SEO arbeidsark-selgere 2026',
+    secondaryKeywords: ['Etsy søkemotor optimalisering oppgaver', 'rangering Etsy digitale nedlastinger', 'Etsy algoritme arbeidsark synlighet'],
+    lsiKeywords: ['Etsy tittel tags rangering', 'søkeordoptimalisering digitale produkter', 'Etsy Star Seller pedagogisk'],
+    titleTag: 'Etsy SEO for arbeidsark-selgere i 2026 | LCS',
+    metaDescription: 'Oppdatert Etsy SEO-guide for arbeidsark-selgere: titler, tags, bilder og konvertering. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Etsy SEO for printable-selgere i 2026',
+    title: 'Etsy SEO for arbeidsark-selgere i 2026',
     tagline: 'Oppdaterte SEO-strategier som faktisk fungerer',
     description: 'Etsy-algoritmen endres stadig, men grunnprinsippene for SEO er de samme: riktige søkeord, gode bilder og høy konvertering. Denne guiden dekker de nyeste Etsy SEO-strategiene spesifikt for selgere av utskrivbare produkter i 2026.',
   },

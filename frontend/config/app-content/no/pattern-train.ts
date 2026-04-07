@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'monstertog generator',
-    secondaryKeywords: [
-      'monstersekvens arbeidsark selg på Etsy',
-      'monstertog arbeidsark generator til Amazon KDP',
-      'monstergjenkjenning arbeidsark kommersiell lisens',
-      'utskriftsbare monsterovelser til Gumroad',
-    ],
-    lsiKeywords: [
-      'digitale monsterovelse produkter nettbasert forretning',
-      'utskriftsbare visuelle monstersekvens arbeidsark business',
-      'monstertog generator kommersielt bruk',
-    ],
-    titleTag: 'Monstertog Generator | Lag Sekvensarbeidsark — Selgerguide',
-    metaDescription: 'Lag monstertog-arbeidsark til salg på Etsy, KDP og Gumroad. Fem monstertyper, 11 tematiske togvogner, justerbart antall ledetråder. $49 engangsbetaling.',
+    primaryKeyword: 'mønsteroppgaver skrive ut',
+    secondaryKeywords: ['logisk rekkefølge oppgaver', 'mønster fortsette øvelse', 'sekvens 1. trinn', 'mønsteroppgave småtrinnet'],
+    lsiKeywords: ['mønster', 'sekvens', 'logikk', 'AB', 'ABC', 'ABCD'],
+    titleTag: 'Mønsteroppgaver å skrive ut | Generator logiske rekkefølger',
+    metaDescription: 'Lag mønsteroppgaver med AB, ABC, ABCD sekvenser og temabilder. Automatisk fasit. Prøv gratis — selg på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Monstertog Arbeidsark Generator for Gjentatte Sekvensovelser',
+    title: 'Mønsteroppgaver å skrive ut — Generator for logiske rekkefølger med bilder',
     tagline: 'Fem monstertyper — AB, AAB, ABB, ABC, AABB — vist over 11 tematiske togvogner med justerbart antall ledetråder fra 4 til 10 for presis vanskelighetskontroll.',
     description:
       'Design profesjonelle monstergjenkjenningsarbeidsark der brukerne identifiserer og fullforer gjentatte sekvenser vist som bilder på et tematisk tog med 11 vogner. Fem distinkte monstertyper dekker hvert nivå av sekvenskompleksitet: AB alternerer to elementer, AAB grupperer to av ett etterfulgt av ett av et annet, ABB snur den grupperingen, ABC roterer tre forskjellige elementer, og AABB parer to av hvert for monsteret gjentas. Toglayouten arrangerer 11 vogner over tre rader (5 + 3 + 3), med hver vogn som holder et bilde fra det gjentatte monsteret. En vogn etterlates tom — brukerne identifiserer monsteret og bestemmer det manglende elementet. Juster antall ledetråder fra 4 til 10 for å kontrollere vanskelighetsgraden: å vise 10 ledetråder gjor monsteret åpenbart, mens kun 4 krever ekte monsterresonnement da de forste 3 vognene alltid vises. Innhold hentes fra det innebygde bildebiblioteket med mer enn 3 100 illustrasjoner i 104 temaer. En separat fasitfane viser alle 11 vogner fylt ut med den korrekte monstersekvensen for oyeblikkelig verifisering. Full Tilgang låser opp alle 104 temaer og alle 11 brukergrensesnittspråk. Eksporter trykkeklare PDF-er og JPEG-bilder med hoy DPI i Letter-, A4-, Kvadrat- eller egendefinert format. Hvert arbeidsark er helt visuelt med utelukkende bilder på togvognene og null tekst på resultatet, noe som gjor produktene universelt salgbare uten oversettelse. Enten du lager monstergjenkjenningspakker på Etsy, setter sammen tidlige laeringsarbeidboker til Amazon KDP eller bygger nivåinndelte matematikkstasjoner til Gumroad — Monstertog Arbeidsark Generatoren leverer unike togformatprodukter på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

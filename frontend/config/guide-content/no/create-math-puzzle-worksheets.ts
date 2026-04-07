@@ -2,25 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag mattepuslespill-arbeidsark for salg',
+    primaryKeyword: 'lag mattepuslespill å skrive ut steg for steg',
     secondaryKeywords: [
-      'lag mattepuslespill-arbeidsark for salg pa nett',
-      'lag mattepuslespill for Etsy-butikk',
-      'lag rutenett-mattepuslespill for KDP',
-      'mattepuslespill opprettelsesguide for selgere',
-      'selg mattepuslespill-printables pa nett',
+      'lage mattepuslespill med temabilder for Etsy',
+      'selge mattepuslespill på Amazon KDP',
+      'lag bilderekonstruksjon matteoppgaver for barn',
+      'mattepuslespill barneskole kommersiell lisens',
     ],
     lsiKeywords: [
-      'mattepuslespill produktoppretting',
-      'puslespillarbeidsark virksomhet',
-      'salgbare mattepuslespillprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'mattepuslespill med temabilder',
+      'matteoppgaver å skrive ut',
     ],
-    titleTag: 'Lag mattepuslespill-arbeidsark for salg | LCS',
-    metaDescription: 'Guide til a lage mattepuslespill-arbeidsark for salg pa nett. Rutenettstorrelser, operasjoner, temaer og strategier for Etsy og KDP mattepuslespillselgere.',
+    titleTag: 'Lag mattepuslespill å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag mattepuslespill å skrive ut med bilderekonstruksjon og temabilder. Konfigurerbar vanskelighetsgrad. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag mattepuslespill-arbeidsark for salg pa nett',
+    title: 'Lag mattepuslespill å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage bilderekonstruksjons-mattepuslespill der barn loser likninger for a sette sammen bilder igjen — klare for salg pa Etsy, Amazon KDP og Gumroad',
     description: 'Rutenettbaserte mattepuslespill presterer bedre enn standard ovelsesark pa Etsy fordi puslespill-avslooringsmekanikken holder losere engasjerte og gjor oppforingene dine visuelt distinktive. Denne guiden viser deg hvordan du lager mattepuslespill-arbeidsark designet for salg: konfigurering av rutenettstorrelser for forskjellige vanskelighetsnivåer, valg av operasjoner som matcher malaldergrupper, og pakking av puslespill i tematiske pakker og KDP-aktivitetsboker. Du vil laere hvordan du priser unike puslespillformater hoyere enn standardarbeidsark og posisjonerer produktene dine i den voksende mattepuslespillnisjnen.',
   },

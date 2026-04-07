@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mønsteroppgaver selge på nett',
-    secondaryKeywords: ['mønsteroppgaver selge på nett Etsy', 'mønsteroppgaver selge på nett tips', 'mønsteroppgaver selge på nett strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark bedrift', 'pedagogiske utskrifter salg', 'Etsy nedlasting'],
-    titleTag: 'Mønsteroppgaver: Selg på nett | LCS',
-    metaDescription: 'Mønsteroppgaver: Selg på nett. Komplett guide til produktoppbygging, prissetting og markedsføring for mønsteroppgaver selge på nett i 2026.',
+    primaryKeyword: 'selg mønsteroppgaver arbeidsark nettbutikk Etsy',
+    secondaryKeywords: ['mønsteroppgaver barn selge digitalt', 'mønstergjenkjenning arbeidsark KDP bøker', 'lag mønsteroppgaver kommersiell lisens'],
+    lsiKeywords: ['mønster arbeidsark forretning', 'logisk tenkning oppgaver selge', 'mønstergjenkjenning barn Etsy'],
+    titleTag: 'Selg mønsteroppgaver på nett | LCS',
+    metaDescription: 'Mønsteroppgaver for barn er ettertraktet hele året. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Mønsteroppgaver: Selg på nett',
+    title: 'Selg mønsteroppgaver på nett',
     tagline: 'Logisk tenkning gjennom mønstergjenkjenning',
     description: 'Mønsteroppgaver lærer barn å gjenkjenne og fortsette mønstre — en grunnleggende ferdighet i både matematikk og logisk tenkning. De er populære blant foreldre og lærere fordi de bygger kognitive evner på en visuell og morsom måte.',
   },

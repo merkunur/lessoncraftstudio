@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Undervannsliv utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme undervannsliv utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Havtema produktkonsepter og plattformtips for selgere.',
-
-    primaryKeyword: 'undervannsliv utskriftsbare ideer',
+    titleTag: 'Undervannstema-oppgaver til salg | Nisjeideer',
+    metaDescription: 'Undervannstema-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge havtema oppgaver.',
+    primaryKeyword: 'undervannstema-oppgaver til salg',
     secondaryKeywords: [
-      'havdyr arbeidsark til salg',
-      'undervannstema utskriftsbar forretning',
-      'sjøliv aktivitetsark for selgere',
-      'selg havprintables på Etsy',
+      'undervannstema arbeidsark selge Etsy',
+      'havtema aktivitetsbøker KDP',
+      'selge undervannstema-oppgaver på nett',
+      'undervannstema nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'hav og korallrev pedagogiske arbeidsark',
-      'sjødyr og fisk aktivitetssider',
-      'marin biologi utskriftsbare produkter',
+      'undervannstema nisje Etsy KDP',
+      'havtema arbeidsark barneskole',
+      'pedagogiske undervannstema-oppgaver til salg',
+      'sjødyr-tema produktlinje selgere',
+      'korallrev og hav oppgaver',
     ],
   },
   hero: {
-    title: 'Undervannsliv utskriftsbare forretningsideer for selgere',
+    title: 'Undervannstema-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Undervannslivet fascinerer barn med sine fargerike korallrev, mystiske dyphavsskapninger og lekne delfiner, noe som gjør det til en av de mest visuelt overbevisende og kommersielt sterke nisjene for utskriftsbare selgere. Fra fisk og sjøhester til blekkspruter og hvaler, gir undervannsverden et rikt visuelt vokabular som engasjerer barn i alle aldre. Temaet har eviggrønn appell med sesongtopper om sommeren, og det forbinder naturlig med naturfagsundervisning om marine økosystemer, dyretilpasning og havbeskyttelse. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad representerer undervannstemaet en nisje med sterk etterspørsel og rom for kreativ differensiering. Denne guiden gjennomgår produktideer, plattformstrategier og positioneringsmetoder for å bygge en lønnsom undervannsliv utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Undervannsliv utskriftsbar-nisjen inntar en unik posisjon på det pedagogiske markedet fordi den kombinerer visuell dramatikk med vitenskapelig rikdom. Havets dyr og økosystemer tilbyr et uendelig vokabular av fargerike, fascinerende skapninger som naturlig fenger barns oppmerksomhet. Korallrevfisk, delfiner, hvaler, sjøstjerner, blekkspruter og haier — hvert dyr har en distinkt visuell profil som gjør det ideelt for arbeidsark og aktiviteter.

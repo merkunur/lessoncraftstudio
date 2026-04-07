@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'fargeleggingsbilder generator',
-    secondaryKeywords: [
-      'fargeleggingsbilder arbeidsark selg på Etsy',
-      'fargeleggingsbilder generator til Amazon KDP',
-      'utskriftsbare fargeleggingsbilder kommersiell lisens',
-      'lag fargeleggingsbilder til Gumroad',
-    ],
-    lsiKeywords: [
-      'digitale fargeleggingsbilder produkter nettbasert forretning',
-      'utskriftsbare fargeleggingsbok forretningsverktoy',
-      'fargeleggingsbilder generator kommersielt bruk',
-    ],
-    titleTag: 'Fargeleggingsbilder Generator | Lag og Selg Utskriftsbare',
-    metaDescription: 'Lag tilpassede fargeleggingsbilder til salg på Etsy, KDP og Gumroad. Fritt lerret, 104 temaer, frihåndstegning, gråtoneeksport. $49 engangsbetaling.',
+    primaryKeyword: 'lage fargeleggingsbilder skrive ut',
+    secondaryKeywords: ['fargeleggingsgenerator', 'fargeleggingsbilder lage', 'egne fargeleggingsbilder', 'tegninger til fargelegging lage'],
+    lsiKeywords: ['konturer', 'farger', 'tegning', 'utskrivbar', 'barn'],
+    titleTag: 'Lage fargeleggingsbilder å skrive ut | Generator fargelegging',
+    metaDescription: 'Lag fargeleggingsbilder fra 3 000+ temabilder. Høyoppløselige konturer, utskrivbare PDF-er. Prøv gratis — selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Fargeleggingsbilder Generator for Tilpassede Utskriftsbare Fargeleggingsark',
+    title: 'Lage fargeleggingsbilder å skrive ut — Generator med 3 000+ temabilder',
     tagline: 'Fritt lerret som fargeleggingsdesigner — bla gjennom 104 tematiske bildesamlinger, legg til frihåndstegninger, inkluder produktlinjehjelpere som navnefelt og skriveovelseslinjer, og slå gråtoneeksport til for blekkbesparende fargeleggingsbilder.',
     description:
       'Design profesjonelle fargeleggingsbilder på et fritt lerret der du plasserer bilder noyaktig der du vil — ingen rutenett, ingen maler, ren kreativ frihet. Bla gjennom det innebygde bildebiblioteket med mer enn 3 100 fargerike illustrasjoner i 104 tematiske samlinger, klikk på ethvert bilde for å legge det til på lerretet ditt, og arranger, endre storrelse, roter og lagre elementer til siden ser perfekt ut. Frihåndstegningsverktøyet lar deg skissere egne illustrasjoner direkte på lerretet med justerbar penselfarge og -storrelse. Produktlinjehjelpere legger til et navnefelt og skriveovelseslinjer med et enkelt klikk — og forvandler fargeleggingsbilder til ferdige produktlinjeaktiviteter. Når du er klar, slår du gråtonemuligheten til for å konvertere din fargerike komposisjon til blekkbesparende fargeleggingsbilder, perfekte for utskrift. Legg til dekorative rammetemaer, egendefinert tekst med kontureffekter og last opp egne bilder ved siden av bibliotekets innhold. Fargeleggingsbilder-generatoren er ikke språkavhengig — resultatet er rent visuelt, så arbeidsarkene ser identiske ut på ethvert språk. Full Tilgang låser opp alle 104 temaer og alle 11 brukergrensesnittspråk. Eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI i Letter-, A4-, Kvadrat- eller egendefinert format. Enten du selger fargeleggingsbildepakker på Etsy, setter sammen fargeleggingsboker til Amazon KDP eller lager produktlinjefargeleggingsaktiviteter til Gumroad — Fargeleggingsbilder Generatoren leverer profesjonelle resultater på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

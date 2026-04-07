@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fysiske utskriftsbare produktideer til salg — Nisjeguide',
-    metaDescription: 'Utforsk fysiske utskriftsbare produktideer for Etsy, Amazon KDP og Gumroad. Produktkonsepter for trykte materialer, plattformtips og strategier for selgere.',
+    titleTag: 'Fysiske arbeidsark-produkter til salg | Ideer',
+    metaDescription: 'Fysiske arbeidsark-produkter til salg på Etsy og KDP. Trykte oppgavebøker og laminerte kort — forretningsideer, plattformtips og strategier for selgere.',
 
-    primaryKeyword: 'fysiske utskriftsbare produktideer',
+    primaryKeyword: 'fysiske arbeidsark-produkter til salg',
     secondaryKeywords: [
-      'trykte arbeidsark til salg',
-      'fysisk utskriftsbar forretning',
-      'trykt materiale for selgere',
-      'selg trykte pedagogiske produkter',
+      'selge trykte arbeidsark Etsy',
+      'fysiske oppgaver KDP',
+      'trykte arbeidsark-produkter til salg',
+      'fysiske oppgavebøker for selgere',
     ],
     lsiKeywords: [
-      'utskrift-på-forespørsel pedagogiske materialer',
-      'fysiske aktivitetsbøker produkter',
-      'trykte arbeidsark forretningsmodell',
+      'nisje fysiske arbeidsark',
+      'tema trykte oppgaver',
+      'Etsy trykte arbeidsark',
+      'KDP fysisk aktivitetsbok',
+      'selge oppgaver fysisk',
+      'utskrift-på-forespørsel arbeidsark',
+      'laminerte oppgavekort forretning',
     ],
   },
   hero: {
-    title: 'Fysiske utskriftsbare produktideer for selgere',
+    title: 'Fysiske arbeidsark-produkter til salg — forretningsideer for selgere',
     description: 'Fysiske utskriftsbare produkter representerer en kraftig utvidelsesmulighet for digitale printable-selgere som ønsker å nå kjøpere som foretrekker håndgripelige materialer. Mens digitale nedlastinger dominerer Etsy, foretrekker mange foreldre, kjøpere og organisasjoner trykte bøker, laminerte kort og ferdigpakkede aktivitetssett de kan ta i bruk umiddelbart uten egen utskrift. For selgere som allerede produserer digitale arbeidsark, representerer fysiske produkter en naturlig utvidelse som utnytter eksisterende innhold med minimalt tilleggsarbeid. Amazon KDP gjør det mulig å tilby trykte bøker uten lagerkostnader gjennom utskrift-på-forespørsel. Denne guiden dekker spesifikke produktideer, plattformstrategier og forretningsmodeller for å bygge en lønnsom fysisk utskriftsbar produktlinje.',
   },
   marketOverview: `Det fysiske utskriftsbare produktmarkedet representerer en betydelig og voksende del av det pedagogiske produktlandskapet. Til tross for den digitale transformasjonen foretrekker mange kjøpere fortsatt fysiske materialer de kan holde, skrive i og organisere i fysiske mapper og hyller. Denne preferansen er drevet av praktiske faktorer som manglende tilgang til utskriftsutstyr, tidsmangel for utskrift og laminering, og den oppfattede verdien av ferdigproduserte materialer.

@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy søkeord forskning printables 2026',
-    secondaryKeywords: ['Etsy søkeord forskning printables tips', 'Etsy søkeord forskning printables guide', 'Etsy søkeord forskning printables steg for steg'],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Søkeordsforskning for Etsy-printables | LCS',
-    metaDescription: 'Søkeordsforskning er grunnlaget for alt du gjør på Etsy. Uten riktige søkeord finner ingen produktene dine. Denne guiden viser deg gratis og betalte m',
+    primaryKeyword: 'Etsy søkeordsforskning arbeidsark selgere',
+    secondaryKeywords: ['finn søkeord Etsy oppgaver', 'søkeordanalyse digitale nedlastinger Etsy', 'arbeidsark søkeord lav konkurranse'],
+    lsiKeywords: ['Etsy tags optimalisering', 'longtail søkeord pedagogiske produkter', 'søkeordverktøy Etsy selgere'],
+    titleTag: 'Søkeordsforskning for Etsy arbeidsark-selgere | LCS',
+    metaDescription: 'Finn søkeordene kundene faktisk bruker for arbeidsark på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Søkeordsforskning for Etsy-printables',
+    title: 'Søkeordsforskning for Etsy arbeidsark-selgere',
     tagline: 'Finn søkeordene kundene dine faktisk bruker',
     description: 'Søkeordsforskning er grunnlaget for alt du gjør på Etsy. Uten riktige søkeord finner ingen produktene dine. Denne guiden viser deg gratis og betalte metoder for å finne høytrafikkerte søkeord med lav konkurranse.',
   },

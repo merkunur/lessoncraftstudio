@@ -2,24 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'hvor mye kan du tjene på å selge utskriftsbare produkter',
+    primaryKeyword: 'tjene penger på arbeidsark',
     secondaryKeywords: [
-      'inntektspotensial utskriftsbar forretning',
-      'selge utskriftsbare produkter inntektsguide',
-      'realistisk inntekt utskriftsbar forretning',
-      'hvor mye tjener selgere av utskriftsbare produkter',
+      'inntekt arbeidsark Etsy',
+      'passiv inntekt oppgaver',
+      'ekstrainntekt arbeidsark',
+      'tjene penger oppgaver KDP',
     ],
     lsiKeywords: [
-      'inntektsforventninger utskriftsbar forretning',
-      'inntektspotensial digitale produkter',
-      'inntekt selgere av utskriftsbare produkter',
+      'inntekt',
+      'ekstrainntekt',
+      'passiv inntekt',
+      'Etsy',
+      'KDP',
+      'arbeidsark',
+      'oppgaver',
     ],
-    titleTag: 'Hvor Mye Kan du Tjene på Utskriftsbare Produkter | LCS',
-    metaDescription: 'Hvor mye kan du tjene på å selge utskriftsbare produkter? Realistiske inntektsforventninger, inntektsmodeller og vekstmilepæler for eiere av utskriftsbar.',
+    titleTag: 'Tjene penger på arbeidsark | Inntektsguide for selgere',
+    metaDescription: 'Lær å tjene penger på arbeidsark. Inntektsmodeller, plattformer og strategier for Etsy, KDP og andre markedsplasser.',
   },
 
   hero: {
-    title: 'Hvor Mye Kan du Tjene på å Selge Utskriftsbare Produkter?',
+    title: 'Tjene penger på arbeidsark — Inntektsguide for Etsy & KDP-selgere',
     tagline: 'En ærlig gjennomgang av variablene som bestemmer inntekten til utskriftsbare forretninger — ingen hype, ingen fabrikkerte tall, bare faktorene du faktisk kontrollerer',
     description: 'Inntektspotensialet fra salg av utskriftsbare produkter spenner fra noen hundre kroner i måneden til sekssifrede beløp årlig — og forskjellen handler om nisjevalg, produktvolum og plattformstrategi. Denne guiden gir realistiske inntektsforventninger på hvert vekststadium: hva du kan forvente de første 3 månedene, milepælene som markerer reell trekkraft, og strategiene som skiller deltids-sidegründere fra fulltids utskriftsbar-entreprenører. Ingen hype, ingen falske løfter — bare datainformerte projeksjoner basert på faktisk markedsplassdynamikk.',
   },

@@ -72,10 +72,10 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Arbejdsark generator til Etsy & KDP'
   },
   no: {
-    title: 'Start en loennsom utskriftsvirksomhet | LessonCraftStudio',
-    description: 'Bygg en utskriftsvirksomhet paa Etsy, Amazon KDP eller TPT. 33 profesjonelle generatorer, 3 000+ bilder, 11 spraak. Gratis proeveversjon med vannmerke.',
-    keywords: 'utskriftsvirksomhet, selge utskrifter Etsy, KDP arbeidsark, ekstrainntekt utskrifter, ordsoek generator, profesjonelle utskrifter',
-    ogAlt: 'LessonCraftStudio - Start en loennsom utskriftsvirksomhet'
+    title: 'Arbeidsark generator | Lag og selg på Etsy & KDP',
+    description: '33 profesjonelle arbeidsark-generatorer med 3 000+ bilder og 11 språk. Utskrivbare PDF-er på minutter. Prøv gratis — kommersiell lisens for Etsy, KDP & mer.',
+    keywords: 'arbeidsark generator, lage arbeidsark skrive ut, oppgavegenerator, verktøy for å lage oppgaver, ordleting generator, kryssord generator, matteoppgaver generator, fargeleggingsbilder lage',
+    ogAlt: 'LessonCraftStudio — Arbeidsark generator for Etsy & KDP'
   },
   fi: {
     title: 'Aloita kannattava tulostettavien liiketoiminta | LessonCraftStudio',

@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'finn tell generator søkearbeidsark',
+    primaryKeyword: 'finn og tell oppgave gratis',
     secondaryKeywords: [
-      'finn og tell arbeidsark generator for selgere',
-      'lag søke- og tellearbeidsark til salg',
-      'utskriftsbar søkeaktivitet generator kommersiell bruk',
-      'skjulte objekter arbeidsark generator for KDP og Etsy',
+      'tell gjenstandene gratis',
+      'hvor mange er det? gratis',
+      'telleøvelse 1. trinn gratis',
+      'finn og tell barn gratis',
     ],
     lsiKeywords: [
-      'skjulte objekter bokstavsøk dobbel modus aktivitet generator',
-      'fire oppgavetyper ring rundt firkant kryss over tell miksbar arbeidsark',
-      'lokaltilpasset alfabet aksentuerte bokstaver søkegenerator',
+      'telle',
+      'finne',
+      'antall',
+      'mengde',
+      'vannmerke',
+      'gratis',
+      '1. trinn',
     ],
-    titleTag: 'Finn og Tell Generator — Søkearbeidsark Generator | Online',
-    metaDescription: 'Finn og tell generator: lag søkearbeidsark med Skjulte Objekter og Bokstavsøk, fire oppgavetyper, lokaltilpassede alfabeter. Selg på Etsy & KDP.',
+    titleTag: 'Finn og tell oppgave gratis | Generator telleøvelser online',
+    metaDescription: 'Lag finn-og-tell oppgaver gratis online. Barn leter etter og teller temabilder. Automatisk fasit. Ingen registrering.',
   },
 
   hero: {
-    title: 'Finn og Tell Generator',
+    title: 'Finn og tell oppgave gratis — Generator for telleøvelser online',
     tagline: 'Dobbel modus søkearbeidsark generator med Skjulte Objekter-modus (spredt bilderutenett med opptil 4 målobjekter) og Bokstavsøk-modus (lokaltilpasset alfabet med norske ÆØÅ), fire miksbare oppgavetyper (ring rundt, firkant, kryss over, tell), lokaliserte bildenavnetiketter på 11 språk og konfigurerbar rutenetttetthet 5×5 til 10×10',
     description: 'Lag profesjonelle søke- og tellearbeidsark med to aktivitetsmoduser. Skjulte Objekter sprer bilder i et konfigurerbart rutenett (5–10 rader × 5–10 kolonner, standard 6×6) med opptil 4 målobjekter med individuelle oppgavetyper — ring rundt, firkant, kryss over eller tell. Bokstavsøk viser et lokaltilpasset alfabet med norske A–Å inkludert Æ, Ø og Å (29 bokstaver) og genererer søkescener med bilder som begynner med den valgte bokstaven. Språkfølsom: bildenavnetiketter gjengis på det valgte språket via bildevokabularsystemet — «Katt» på norsk, «Cat» på engelsk, «Katze» på tysk. Dobbeltarbeidsområde-systemet genererer fasit med røde visuelle annoteringer: sirkler, firkanter, kryss og kvantitetsvisninger. En automatisk generert overskrift viser «Finn og tell» eller «Bokstavsøk» med blå ramme (#2196F3) lokalisert på alle 11 språk. Bla gjennom 104 tematiske samlinger med mer enn 3 100 illustrasjoner. Eksporter fire filer per økt med 300 DPI. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne vannmerket.',
   },

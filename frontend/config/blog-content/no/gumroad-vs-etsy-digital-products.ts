@@ -1,18 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Gumroad eller Etsy digitale produkter',
-    secondaryKeywords: [
-      'praktisk gjennomføring',
-      'optimalisering måling',
-      'vanlige feil unngå',
-    ],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Gumroad vs Etsy for digitale produkter | LCS',
-    metaDescription: 'Etsy gir deg trafikk men tar avgifter. Gumroad gir deg kontroll men krever egen markedsføring. Denne guiden hjelper deg å velge riktig plattform — ell',
+    primaryKeyword: 'Gumroad vs Etsy arbeidsark-selgere',
+    secondaryKeywords: ['sammenlign Gumroad Etsy oppgaver', 'beste plattform selge arbeidsark', 'Gumroad Etsy avgifter digitale nedlastinger'],
+    lsiKeywords: ['markedsplass vs egen butikk', 'plattformvalg pedagogiske produkter', 'selge arbeidsark flere plattformer'],
+    titleTag: 'Gumroad vs Etsy for arbeidsark-selgere | LCS',
+    metaDescription: 'Etsy gir trafikk, Gumroad gir kontroll. Velg riktig plattform for arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Gumroad vs Etsy for digitale produkter',
+    title: 'Gumroad vs Etsy for arbeidsark-selgere',
     tagline: 'Markedsplass vs egen butikk — fordeler og ulemper',
     description: 'Etsy gir deg trafikk men tar avgifter. Gumroad gir deg kontroll men krever egen markedsføring. Denne guiden hjelper deg å velge riktig plattform — eller bruke begge.',
   },

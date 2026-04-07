@@ -2,14 +2,14 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'arbeidsark pa flere sprak',
-    secondaryKeywords: ['flerspraklige arbeidsark', 'lag arbeidsark pa flere sprak', 'sprakstotte arbeidsark-generator', 'internasjonale arbeidsark for salg'],
-    lsiKeywords: ['diakritisk tegnhondtering arbeidsark', 'flerspraklig vokabular korrekt', '11 sprak arbeidsark-generering', 'lokaliserte arbeidsark markeder'],
-    titleTag: 'Arbeidsark pa flere sprak — Guide',
-    metaDescription: 'Lag profesjonelle arbeidsark pa 11 sprak med korrekt tegnhondtering og native vokabular. Produksjonsprosesser og markedsplassstrategier for flerspraklig salg.',
+    primaryKeyword: 'arbeidsark på flere språk lage',
+    secondaryKeywords: ['flerspråklige arbeidsark kommersiell lisens', 'lag oppgaver på flere språk', 'språkstøtte arbeidsark-generator 11 språk'],
+    lsiKeywords: ['diakritisk tegnhåndtering arbeidsark', 'flerspråklig vokabular korrekt', '11 språk arbeidsark-generering', 'Etsy arbeidsark flerspråklig', 'KDP aktivitetsbok flere språk', 'kommersiell lisens inkludert', 'lokaliserte arbeidsark markeder', 'oppgaver nordiske språk'],
+    titleTag: 'Lag arbeidsark på flere språk | Flerspråklig guide',
+    metaDescription: 'Slik lager du arbeidsark på flere språk. 11 språk tilgjengelig, kommersiell lisens inkludert.',
   },
   hero: {
-    title: 'Lag arbeidsark pa flere sprak',
+    title: 'Lag arbeidsark på flere språk — 11 språk tilgjengelig, kommersiell lisens inkludert',
     tagline: 'En teknisk guide til flerspraklig arbeidsark-produksjon — som dekker 11-sprakstotte, korrekt hondtering av diakritiske tegn, native vokabular-translasjon, sprakspesifikke formatkonvensjoner og effektive produksjonsprosesser for flerspraklige produktlinjer',
     description: 'Arbeidsarkgeneratorene stotter 11 sprak med korrekt tegnhondtering og native vokabular. Denne guiden dekker de tekniske aspektene ved flerspraklig arbeidsark-produksjon — hvordan sprakbytte fungerer, hva som oversettes automatisk, hva du trenger a hondtere manuelt, og hvordan du bygger effektive produksjonsprosesser for flerspraklige produktlinjer.',
   },

@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Barnehage utskriftsbare ideer til salg — Nisjeguide',
-    metaDescription: 'Utforsk barnehage utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Barnehagetema produktkonsepter, plattformtips og nisjestrategier for selgere.',
+    titleTag: 'Barnehage-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Barnehage-oppgaver til salg på Etsy og Amazon KDP. Alderstilpassede arbeidsark for femåringer — nisjeideer, plattformtips og strategier for selgere.',
 
-    primaryKeyword: 'barnehage utskriftsbare ideer',
+    primaryKeyword: 'barnehage-oppgaver til salg',
     secondaryKeywords: [
+      'selge barnehage-arbeidsark Etsy',
+      'barnehage-oppgaver KDP',
       'barnehage arbeidsark til salg',
-      'barnehage utskriftsbar forretning',
-      'barnehage aktivitetsark for selgere',
-      'selg barnehage printables online',
+      'femåring oppgaver for selgere',
     ],
     lsiKeywords: [
-      'femåring pedagogiske arbeidsark',
-      'barnehageklar aktivitetssider',
-      'tidlig læring utskriftsbare produkter',
+      'nisje barnehage-oppgaver',
+      'tema barnehage arbeidsark',
+      'Etsy barnehage arbeidsark',
+      'KDP barnehage aktivitetsbok',
+      'selge oppgaver digitalt',
+      'eviggrønn barnehagenisje',
+      'barneskole skoleklar',
     ],
   },
   hero: {
-    title: 'Barnehage utskriftsbare forretningsideer for selgere',
+    title: 'Barnehage-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Barnehagen representerer en av de mest aktive kjøperperiodene for pedagogiske printables fordi foreldre og kjøpere aktivt søker materialer som bygger grunnleggende ferdigheter i lesing, matematikk, skriving og sosialt samspill. Barnehagealdersgruppen fra fem til seks år skaper massiv etterspørsel etter strukturerte læringsaktiviteter som er engasjerende nok til å holde oppmerksomheten til energiske barn samtidig som de bygger akademiske grunnferdigheter. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad tilbyr barnehagenisjen helårs etterspørsel med sterke topper ved skolestart, konsekvent foreldre-etterspørsel gjennom hele skoleåret, og sommerøvelse-salg. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å hjelpe deg med å bygge en lønnsom barnehage utskriftsbar produktlinje med våre arbeidsarkgeneratorverktøy.',
   },
   marketOverview: `Barnehage utskriftsbar-nisjen representerer et av de største og mest stabile markedssegmentene for pedagogiske produktselgere. Hver ny generasjon barn som når barnehagealder skaper fornyet etterspørsel etter friske læringsmaterialer, noe som gjør denne nisjen til en evig fornybar inntektskilde. Foreldre med barnehageelever er spesielt aktive kjøpere fordi de erkjenner den kritiske betydningen av tidlig akademisk forberedelse og søker materiale som støtter barnas overgang til formell skolegang.

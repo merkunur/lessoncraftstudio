@@ -2,24 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP formateringsguide for arbeidsarkbøker',
+    primaryKeyword: 'KDP-formatering for arbeidsark',
     secondaryKeywords: [
-      'formater arbeidsark for Amazon KDP-trykk',
-      'KDP interiørformatering aktivitetsbøker',
-      'Amazon KDP arbeidsarkbok spesifikasjoner',
-      'KDP trimstørrelse og marginguide arbeidsark',
+      'Amazon KDP arbeidsarkbok formatering',
+      'KDP sidestørrelse marger arbeidsark',
+      'KDP filkrav oppgavebok publisering',
     ],
     lsiKeywords: [
-      'KDP formateringskrav',
-      'aktivitetsbok interiøroppsett',
-      'selvpublisering formateringsguide',
+      'KDP-formatering arbeidsark barneskole',
+      'Amazon KDP trimstørrelse marger',
+      'KDP oppløsning 300 DPI arbeidsbok',
+      'bleed-innstillinger KDP aktivitetsbok',
+      'selvpublisering KDP formateringsguide',
+      'KDP omslagsberegning ryggbredde',
+      'arbeidsark PDF-eksport KDP',
+      'KDP avvisning feilsøking',
     ],
-    titleTag: 'KDP formateringsguide for arbeidsarkbøker | LCS',
-    metaDescription: 'KDP formateringsguide for arbeidsarkbøker. Trimstørrelser, marginer, bleed-innstillinger og sideoppsett for publisering av profesjonelle aktivitetsbøker på.',
+    titleTag: 'KDP-formatering for arbeidsark | Teknisk guide',
+    metaDescription: 'Slik formaterer du arbeidsark for Amazon KDP. Sidestørrelse, marger, oppløsning og filkrav.',
   },
 
   hero: {
-    title: 'KDP formateringsguide for arbeidsarkbøker',
+    title: 'KDP-formatering for arbeidsark — teknisk guide med sidestørrelse, marger og filkrav',
     tagline: 'Den definitive tekniske referansen for formatering av arbeidsark- og aktivitetsbøker for Amazon KDP — dekker trimstørrelsesvalg for forskjellige aktivitetstyper, margin- og gutterberegninger for komfortabel skriveplass, bleed versus no-bleed konfigurasjon, trykkeklar PDF-eksport ved 300 DPI med innebygde skrifttyper, omslagsdimensjonsberegninger inkludert ryggbredde og strekkodesoner, komplett manuskriptmontering fra formateriale gjennom fasitseksjoner, og feilsøking av de vanligste KDP opplastingsavvisningene og formateringsfeilene',
     description: 'Å få KDP-formateringen feil betyr avviste manuskripter, uskarpe trykk og dårlige anmeldelser — å få det riktig betyr profesjonelle bøker som selger. Denne guiden dekker alle formateringsdetaljer for publisering av arbeidsark- og aktivitetsbøker på Amazon KDP: trimstørrelser, marginer, bleed-innstillinger, interiørsideoppsett og fileksportspesifikasjoner. Du vil lære hvordan du eksporterer arbeidsark fra generatorene våre med korrekt DPI og sidedimensjoner for KDP, og unngår de vanlige feilene som snubler førstegangspublisister.',
   },

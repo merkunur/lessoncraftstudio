@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'språk produkt selg globalt produktlinje',
+    primaryKeyword: 'selge arbeidsark 11 språk globalt',
     secondaryKeywords: [
-      'steg steg gjennomføring',
-      'optimalisering finjustering',
-      'publisering markedsføring',
+      'flerspråklige oppgaver Etsy',
+      'selge arbeidsark internasjonalt KDP',
+      'arbeidsark flere språk kommersiell lisens',
     ],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: '11 språk: Selg globalt med én produktlinje | LCS',
-    metaDescription: 'LessonCraftStudios generatorer støtter 11 språk. Det betyr at ett produkt kan bli 11 annonser på Etsy — en for hvert språk. Denne guiden viser deg hvo',
+    lsiKeywords: ['arbeidsark 11 språk', 'oppgaver globalt marked', 'Etsy flerspråklig butikk', 'KDP aktivitetsbok språk', 'kommersiell lisens arbeidsark', 'selge oppgaver nett', 'LessonCraftStudio generatorer'],
+    titleTag: 'Selg arbeidsark på 11 språk globalt',
+    metaDescription: 'Multipliser Etsy-inntekten med arbeidsark på 11 språk. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: '11 språk: Selg globalt med én produktlinje',
+    title: 'Selg arbeidsark på 11 språk — nå globale markeder',
     tagline: 'Multipliser inntekten med flerspråklige versjoner',
     description: 'LessonCraftStudios generatorer støtter 11 språk. Det betyr at ett produkt kan bli 11 annonser på Etsy — en for hvert språk. Denne guiden viser deg hvordan du utnytter flerspråklighet for å nå globale markeder med minimalt ekstraarbeid.',
   },

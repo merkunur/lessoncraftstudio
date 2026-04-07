@@ -187,8 +187,8 @@ const blogIndexMetadata: Record<string, { title: string; description: string }> 
     description: 'Praktiske guider, tips og strategier til at opbygge din printable-virksomhed på Etsy, Amazon KDP og mere.',
   },
   no: {
-    title: 'Blogg for printable-selgere | LessonCraftStudio',
-    description: 'Praktiske guider, tips og strategier for å bygge din printable-virksomhet på Etsy, Amazon KDP og mer.',
+    title: 'Blogg for arbeidsark-selgere | LessonCraftStudio',
+    description: 'Praktiske guider, tips og strategier for å selge arbeidsark og oppgaver på Etsy, Amazon KDP og mer. 33 generatorer, kommersiell lisens.',
   },
   fi: {
     title: 'Blogi tulosteiden myyjille | LessonCraftStudio',

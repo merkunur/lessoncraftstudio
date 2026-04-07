@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'formater arbeidsark Etsy annonse 2026',
-    secondaryKeywords: ['formater arbeidsark Etsy annonse tips', 'formater arbeidsark Etsy annonse guide', 'formater arbeidsark Etsy annonse steg for steg'],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Formater arbeidsark for Etsy-annonser | LCS',
-    metaDescription: 'Feil format er den vanligste årsaken til dårlige anmeldelser på Etsy. Denne guiden dekker alt om filformater, papirstørrelser og leveringsformat for u',
+    primaryKeyword: 'formater arbeidsark riktig Etsy-salg',
+    secondaryKeywords: ['filformat arbeidsark Etsy nedlasting', 'papirstørrelse A4 US Letter arbeidsark', 'leveringsformat digitale oppgaver Etsy'],
+    lsiKeywords: ['PDF-format arbeidsark salg', 'Etsy filopplasting sjekkliste', 'unngå dårlige anmeldelser format'],
+    titleTag: 'Riktig format for arbeidsark på Etsy | LCS',
+    metaDescription: 'Feil format gir dårlige anmeldelser. Lær riktig filformat, papirstørrelse og levering for arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Formater arbeidsark for Etsy-annonser',
+    title: 'Riktig format for arbeidsark på Etsy',
     tagline: 'Riktig format = flere salg og færre supporthenvendelser',
     description: 'Feil format er den vanligste årsaken til dårlige anmeldelser på Etsy. Denne guiden dekker alt om filformater, papirstørrelser og leveringsformat for utskrivbare arbeidsark. Følg denne sjekklisten for null supportproblemer.',
   },

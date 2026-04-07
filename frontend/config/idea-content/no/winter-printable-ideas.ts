@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Vinter utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme vinter utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad.',
-
-    primaryKeyword: 'vinter utskriftsbare ideer',
+    titleTag: 'Vinteroppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Vinteroppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge vintertema oppgaver.',
+    primaryKeyword: 'vinteroppgaver til salg Etsy',
     secondaryKeywords: [
-      'vinterarbeidsark til salg',
-      'vintertema utskriftsbar forretning',
-      'vinteraktivitetsark for selgere',
-      'selg vinterprintables på Etsy',
+      'vinter arbeidsark selge Etsy',
+      'vintertema aktivitetsbøker KDP',
+      'selge vinteroppgaver på nett',
+      'vinter nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'snø og is pedagogiske arbeidsark',
-      'kaldt vær aktivitetssider',
-      'sesongbaserte vintertema utskriftsbare produkter',
+      'vinter nisje Etsy KDP',
+      'sesongbasert etterspørsel november februar',
+      'vintertema arbeidsark barneskole',
+      'pedagogiske vinteroppgaver til salg',
+      'vintersesong produktlinje selgere',
     ],
   },
   hero: {
-    title: 'Vinter utskriftsbare forretningsideer for selgere',
+    title: 'Vinteroppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Vinteren åpner et bredt salgsvindu fra november til februar ettersom kjøpere søker etter sesongtemaer etter ferietiden, foreldre søker innendørs læringsaktiviteter under kalde måneder, og hjemmeundervisningsfamilier leter etter sesongvariasjon utover desembers ferieteravlhet. Vinternisjen tilbyr rik undertema-variasjon inkludert snøfnugg, snømenn, pingviner, votter, igloer, isbjørner, akebakker, varm kakao, istapper og frost, noe som gir selgere et visuelt distinkt vokabular som skiller seg fra julespesifikke produkter. Fritidsordninger trenger strukturerte innendørsaktiviteter når utendørs lek blir begrenset, noe som skaper stabil etterspørsel i de kaldeste månedene. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad representerer vinteren en ikke-konfesjonell sesong-nisje med forutsigbar årlig etterspørsel og koselige kaldt-vær-bilder som resonerer med kjøpere på tvers av ulike bakgrunner. Denne guiden dekker spesifikke produktideer, plattformstrategier og timingtilnærminger for å hjelpe deg med å bygge en lønnsom vinter utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Vinter utskriftsbar-nisjen inntar en unikt fordelaktig posisjon i den sesongbaserte salgskalenderen fordi den leverer vedvarende etterspørsel over et firemåneders vindu uten den intense konkurransen som klynger seg rundt spesifikke helligdager som jul eller valentinsdag. Kjøpere vender tilbake fra vinterferie i januar med behov for friske sesongtemaer som opprettholder engasjement under den lange strekningen før våren, og vinterbilder gir en naturlig, markedsvennlig mulighet som fungerer i ethvert læringsmiljø uavhengig av kulturelle eller religiøse hensyn. Foreldre som står overfor uker med kaldt vær og begrenset utendørs lek søker aktivt pedagogiske innendørsaktiviteter som holder barn lærende og underholdte, noe som gjør vinterarbeidsark til et praktisk kjøp snarere enn en sesong luksus.

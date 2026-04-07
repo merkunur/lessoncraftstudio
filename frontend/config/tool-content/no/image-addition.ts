@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'addisjons arbeidsark generator for selgere',
+    primaryKeyword: 'plusstykker gratis på nett',
     secondaryKeywords: [
-      'addisjons arbeidsark generator på nett',
-      'matematikk addisjons arbeidsark for barn',
-      'utskriftsbare addisjons ovingsark',
-      'bilde addisjons arbeidsark til barnehage',
+      'plussoppgaver generator gratis',
+      'matteoppgaver addisjon gratis skrive ut',
+      'regneoppgaver pluss online',
+      'plusstykker med bilder gratis',
     ],
     lsiKeywords: [
-      'visuelle matematikk arbeidsark på nett',
-      'bildebasert addisjons oving for barn',
-      'barnehage matematikk utskriftsbare for selgere',
+      'barneskole',
+      '1. trinn',
+      '2. trinn',
+      'fasit',
+      'vannmerke',
+      'gratis',
+      'online',
     ],
-    titleTag: 'Addisjons Arbeidsark Generator — Matematikkark til...',
-    metaDescription: 'Lag addisjons arbeidsark med tematiske bilder for produktlinjen din. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Plusstykker gratis på nett | Generator med bilder og fasit',
+    metaDescription: 'Lag plusstykker med temabilder gratis online. Automatisk fasit, 300 DPI PDF. Ingen registrering. Vannmerket fjernes med lisens.',
   },
 
   hero: {
-    title: 'Addisjons Arbeidsark Generator',
+    title: 'Plusstykker gratis på nett — Generator med temabilder og fasit',
     tagline: 'Lag vakre, bildebaserte addisjons arbeidsark på under 60 sekunder',
     description: 'Forvandl matematikkoving til et visuelt eventyr. Dette verktøyet lar deg lage tilpassede addisjons arbeidsark med tematiske bilder som barn virkelig har lyst til å jobbe med. Velg blant mer enn 100 bildetemaer, still inn vanskelighetsgraden din, velg sidelayouten din og last ned trykkeklare PDF-er eller hoyopploste JPEG-bilder. Perfekt for selgere som bygger nivåinndelte leksepakker, foreldre som supplerer produktlinjeundervisning, og Etsy-selgere som lager utskriftsbare matematikkprodukter. Den gratis proveversjonen inneholder et vannmerke på nedlastinger. Kjop en lisens for å fjerne vannmerket og selge kommersielt.',
   },

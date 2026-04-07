@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skattejakt utskrifter selge',
-    secondaryKeywords: ['skattejakt utskrifter selge Etsy', 'skattejakt utskrifter selge tips', 'skattejakt utskrifter selge strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark bedrift', 'pedagogiske utskrifter salg', 'Etsy nedlasting'],
-    titleTag: 'Skattejakt-utskrifter: Selg på nett | LCS',
-    metaDescription: 'Skattejakt-utskrifter: Selg på nett. Komplett guide til produktoppbygging, prissetting og markedsføring for skattejakt utskrifter selge i 2026.',
+    primaryKeyword: 'skattejakt arbeidsark selge Etsy',
+    secondaryKeywords: ['skattejakt oppgaver selge nettbutikk', 'eventyr arbeidsark forretning barn', 'skattejakt puslespill selge Etsy KDP'],
+    lsiKeywords: ['skattejakt oppgaver salg', 'eventyrbaserte arbeidsark bedrift', 'Etsy nedlasting pedagogisk'],
+    titleTag: 'Skattejakt-arbeidsark: Selg på nett | LCS',
+    metaDescription: 'Lag og selg skattejakt-arbeidsark for barn på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Skattejakt-utskrifter: Selg på nett',
+    title: 'Skattejakt-arbeidsark: Lag og selg på nett',
     tagline: 'Eventyrbaserte arbeidsark med høy engasjement',
     description: 'Skattejakt-arbeidsark kombinerer læring med eventyr. Barnet følger ledetråder, løser oppgaver og finner skatten. Disse produktene har høy opplevd verdi og kan prises høyere enn standard arbeidsark.',
   },

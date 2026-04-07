@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skaler printable bedriften automatisering',
-    secondaryKeywords: ['skaler printable bedrift automatisering tips', 'skaler printable bedrift automatisering strategi', 'skaler printable bedrift automatisering 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Skaler printable-bedriften med automatisering | LCS',
-    metaDescription: 'Når du har funnet en fungerende formel, er neste steg å skalere. Denne guiden viser deg hvordan du automatiserer produksjon, publisering og markedsfør',
+    primaryKeyword: 'skaler arbeidsark forretning automatisering effektivitet',
+    secondaryKeywords: ['automatiser arbeidsark produksjon skalering', 'skaler digital produktforretning smartere', 'arbeidsark forretning automatisering tips'],
+    lsiKeywords: ['skalering arbeidsark butikk', 'automatisering digital produktforretning', 'effektiv produksjon arbeidsark'],
+    titleTag: 'Skaler arbeidsark-forretningen med automatisering | LCS',
+    metaDescription: 'Automatiser produksjon og publisering for å skalere arbeidsark-forretningen. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Skaler printable-bedriften med automatisering',
+    title: 'Skaler arbeidsark-forretningen med automatisering',
     tagline: 'Jobb smartere, ikke hardere',
     description: 'Når du har funnet en fungerende formel, er neste steg å skalere. Denne guiden viser deg hvordan du automatiserer produksjon, publisering og markedsføring for å øke inntekten uten å øke arbeidstiden.',
   },

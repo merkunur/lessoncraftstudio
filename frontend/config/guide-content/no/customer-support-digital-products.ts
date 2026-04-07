@@ -2,27 +2,15 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kundestotte digitale produkter',
-    secondaryKeywords: [
-      'kundestotte for printable-selgere',
-      'handter kundehenvendelser digitale nedlastinger',
-      'reduser refusjoner printable-virksomhet',
-      'kundestotte-strategi Etsy-selgere',
-    ],
-    lsiKeywords: [
-      'forebyggende kundestotte produktbeskrivelser',
-      'selvbetjeningsstotte digitale nedlastinger',
-      'FAQ-seksjon produktoppforinger',
-      'anmeldelseshandtering markedsplasser',
-      'refusjonspolicy digitale produkter',
-      'skalerer kundestotte arbeidsark-virksomhet',
-    ],
-    titleTag: 'Kundestotte for digitale produkter — Guide',
-    metaDescription: 'Bygg effektiv kundestotte for digitale produkter i din printable-virksomhet. Forebyggende strategier, selvbetjening, FAQ-maler og refusjonshandtering.',
+    primaryKeyword: 'kundeservice digitale arbeidsark',
+    secondaryKeywords: ['kundeservice arbeidsark-selgere Etsy', 'håndter kundehenvendelser digitale oppgaver', 'reduser refusjoner arbeidsark-virksomhet'],
+    lsiKeywords: ['forebyggende kundeservice produktbeskrivelser', 'selvbetjeningsstøtte digitale arbeidsark', 'FAQ-seksjon arbeidsark-oppføringer', 'Etsy arbeidsark kundeservice', 'KDP aktivitetsbok support', 'kommersiell lisens arbeidsark', 'refusjonspolicy digitale oppgaver', 'automatisering kundeservice arbeidsark'],
+    titleTag: 'Kundeservice for digitale arbeidsark | Guide',
+    metaDescription: 'Slik gir du god kundeservice for digitale arbeidsark. FAQ, maler og automatisering.',
   },
 
   hero: {
-    title: 'Kundestotte for digitale produkter',
+    title: 'Kundeservice for digitale arbeidsark — FAQ, maler og automatisering',
     tagline: 'En komplett guide til a bygge effektiv kundestotte for printable-virksomheten din — som dekker forebyggende strategier som eliminerer vanlige sporsmal, selvbetjeningsressurser, FAQ-maler, refusjonshandtering og skalerbare stottesystemer',
     description: 'Den beste kundestoetten er den som aldri trengs. De mest vellykkede printable-selgerne investerer i forebyggende kundestotte — klare produktbeskrivelser, noyaktige forhandsvisningsbilder og omfattende bruksinstruksjoner som eliminerer de fleste sporsmal for de oppstar. Denne guiden viser deg hvordan du bygger et effektivt stottesystem som holder kundene fornoyde mens det skalerer med virksomheten din.',
   },

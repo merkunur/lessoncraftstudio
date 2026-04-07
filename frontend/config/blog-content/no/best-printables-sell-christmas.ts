@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'beste printables selge jul 2026',
-    secondaryKeywords: ['beste printables selge jul Etsy', 'beste printables selge jul strategi', 'beste printables selge jul tips'],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Beste utskrifter å selge til jul | LCS',
-    metaDescription: 'Juli til desember er gullperioden for printable-selgere. Julerelaterte utskrifter har enorm etterspørsel — matteoppgaver med juletema, jule-ordsøk, fa',
+    primaryKeyword: 'selge jule-arbeidsark Etsy',
+    secondaryKeywords: ['jule-oppgaver selge Etsy sesong', 'juleaktiviteter arbeidsark KDP', 'beste arbeidsark jul selgere'],
+    lsiKeywords: ['jule-arbeidsark Etsy', 'oppgaver juletema selge', 'KDP julebok aktiviteter', 'kommersiell lisens arbeidsark', 'Etsy julesesong', 'adventsoppgaver selge', 'LessonCraftStudio generator'],
+    titleTag: 'Selg jule-arbeidsark: Årets beste sesong',
+    metaDescription: 'Julesesongen gir enorm etterspørsel etter arbeidsark. Lag jule-oppgaver med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Beste utskrifter å selge til jul',
+    title: 'Selg jule-arbeidsark — årets største salgssesong',
     tagline: 'Julesesongen er den største inntektsperioden for printable-selgere',
     description: 'Juli til desember er gullperioden for printable-selgere. Julerelaterte utskrifter har enorm etterspørsel — matteoppgaver med juletema, jule-ordsøk, fargelegging av nisse og juleaktiviteter. I Norge er adventstiden spesielt viktig, med julekalender-aktiviteter og adventsoppgaver som unik mulighet for norske selgere.',
   },

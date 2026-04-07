@@ -2,22 +2,22 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'selge addisjonsoppgaver Etsy 2026',
+    primaryKeyword: 'selge plusstykker arbeidsark Etsy',
     secondaryKeywords: [
-      'matteoppgaver selge Etsy nettbutikk',
-      'addisjonsark forretning Norge',
-      'utskrivbare matteark Etsy butikk',
+      'plusstykker oppgaver selge nettbutikk',
+      'matteoppgaver Etsy forretning Norge',
+      'lag og selg regneoppgaver Etsy butikk',
     ],
     lsiKeywords: [
-      'matteutskrifter nettbedrift',
-      'prissetting arbeidsark',
-      'Etsy digital nedlasting matte',
+      'matteark nettbedrift kommersiell lisens',
+      'prissetting arbeidsark pakker',
+      'Etsy digital nedlasting plusstykker',
     ],
-    titleTag: 'Selg addisjonsoppgaver på Etsy: Guide | LCS',
-    metaDescription: 'Lær hvordan du selger addisjonsoppgaver på Etsy med fortjeneste. Prissetting, pakker og annonsestrategier som fungerer i 2026.',
+    titleTag: 'Selg plusstykker-oppgaver på Etsy: Guide | LCS',
+    metaDescription: 'Lag og selg plusstykker-oppgaver på Etsy med fortjeneste. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Selg addisjonsoppgaver på Etsy: Komplett guide',
+    title: 'Selg plusstykker-oppgaver på Etsy: Komplett guide',
     tagline: 'Gjør enkle matteoppgaver til en stabil inntektskilde',
     description: 'Addisjonsoppgaver er blant de mest søkte utskriftskategoriene på Etsy. Foreldre og hjemmeskolefamilier kjøper dem året rundt. Markedet er stort, men de fleste selgere gjør samme feil: for lave priser, enkeltark i stedet for pakker, og ignorering av sesongbaserte søkeord. Denne guiden viser deg nøyaktig hvordan du lager, prissetter og lister addisjonsoppgaver som selger jevnt — med en generator som lager profesjonelle resultater på minutter.',
   },

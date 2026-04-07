@@ -1,18 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skjulte gjenstander arbeidsark bedrift 2026',
-    secondaryKeywords: [
-      'produktoppbygging differensiering',
-      'prissetting pakkestrategier',
-      'etsy seo markedsføring',
-    ],
-    lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
-    titleTag: 'Skjulte gjenstander-arbeidsark som forretning | LCS',
-    metaDescription: 'Skjulte gjenstander-arbeidsark som forretning. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',
+    primaryKeyword: 'selg finn-objekter-oppgaver som forretning',
+    secondaryKeywords: ['finn gjenstander arbeidsark Etsy', 'skjulte objekter oppgaver selge', 'finn-objekter puslespill forretning'],
+    lsiKeywords: ['visuell søking barn oppgaver', 'observasjonsoppgaver pedagogisk', 'finn-og-finn arbeidsark salg'],
+    titleTag: 'Selg finn-objekter-oppgaver som forretning | LCS',
+    metaDescription: 'Finn-objekter-oppgaver er en engasjerende nisje for alle aldersgrupper. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Skjulte gjenstander-arbeidsark som forretning',
+    title: 'Selg finn-objekter-oppgaver som forretning',
     tagline: 'Finn-objektene-puslespill selger til alle aldersgrupper',
     description: 'Denne guiden dekker alt du trenger for å bygge en lønnsom forretning med skjulte gjenstander arbeidsark bedrift. Fra produktoppbygging og prissetting til SEO-optimalisering og plattformvalg. Lær hvordan du bruker LessonCraftStudios generatorer til å lage profesjonelle produkter på minutter og selge dem på Etsy, Amazon KDP og Undervisningsbyen.no.',
   },

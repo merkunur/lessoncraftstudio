@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'nisjer beste printable lav',
-    secondaryKeywords: ['beste printable nisjer lav konkurranse tips', 'beste printable nisjer lav konkurranse strategi', 'beste printable nisjer lav konkurranse 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Beste printable-nisjer med lav konkurranse | LCS',
-    metaDescription: 'Finn de beste printable-nisjene med lav konkurranse. Unngå overmettede nisjer og oppdag lønnsomme undersegmenter. Selg på Etsy & KDP med lisens.',
+    primaryKeyword: 'lav konkurranse arbeidsark-nisjer Etsy',
+    secondaryKeywords: ['lønnsomme oppgave-nisjer Etsy 2026', 'selge arbeidsark lav konkurranse KDP', 'nisjevalg arbeidsark selgere'],
+    lsiKeywords: ['arbeidsark nisje lav konkurranse', 'oppgaver Etsy undersegment', 'KDP nisje arbeidsark', 'kommersiell lisens', 'Etsy selger nisje', 'arbeidsark lønnsomme nisjer', 'LessonCraftStudio generator'],
+    titleTag: 'Arbeidsark-nisjer med lav konkurranse',
+    metaDescription: 'Finn lønnsomme arbeidsark-nisjer med lav konkurranse. Lag oppgaver med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Beste printable-nisjer med lav konkurranse',
+    title: 'Arbeidsark-nisjer med lav konkurranse — finn din gullfugl',
     tagline: 'Finn din lønnsomme nisje uten å konkurrere mot tusenvis',
     description: 'De fleste nybegynnere velger overmettetede nisjer som «coloring pages» eller «math worksheets». Denne guiden avslører undersegmenter med høy etterspørsel og lav konkurranse i 2026.',
   },

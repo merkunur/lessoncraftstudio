@@ -2,25 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag matchingarbeidsark for salg',
+    primaryKeyword: 'lag koble-sammen-oppgaver å skrive ut',
     secondaryKeywords: [
-      'lag matchingarbeidsark for forskole for salg',
-      'lag matchingaktiviteter for Etsy-butikk',
-      'lag matchingarbeidsark for KDP-boker',
-      'matchingarbeidsark opprettelsesguide',
-      'selg matching-printables pa nett',
+      'lage koble-sammen-oppgaver for Etsy med temabilder',
+      'selge matchingoppgaver på Amazon KDP',
+      'lag tegn-en-linje arbeidsark for barn',
+      'koble-sammen-oppgaver kommersiell lisens',
     ],
     lsiKeywords: [
-      'matchingprodukt oppretting',
-      'forskolearbeidsark virksomhet',
-      'salgbare matchingprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'koble-sammen-oppgaver med temabilder',
+      'matchingarbeidsark å skrive ut',
     ],
-    titleTag: 'Lag matchingarbeidsark for salg | LCS',
-    metaDescription: 'Guide til a lage matchingarbeidsark for forskole for salg. Fire matchingmoduser, temaer og strategier for Etsy og KDP matchingarbeidsarkselgere.',
+    titleTag: 'Lag koble-sammen-oppgaver | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag koble-sammen-oppgaver å skrive ut med temabilder og fire matchingmoduser. Automatisk fasit. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag matchingarbeidsark for salg pa Etsy og KDP',
+    title: 'Lag koble-sammen-oppgaver å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage tematiske tegn-en-linje matchingarbeidsark med automatiske fasiter du kan selge pa Etsy, Amazon KDP og Gumroad',
     description: 'Matchingarbeidsark er en grunnpilar i forskole- og barnehage printable-markedet — foreldre og laerere kjoper tegn-en-linje matchingaktiviteter for bokstavgjenkjenning, ordforradbygging og visuell diskrimineringsovelse. Denne guiden viser deg hvordan du lager profesjonelle matchingarbeidsark designet for salg: utnyttelse av fire matchingmoduser for produktvariasjon, valg av temaer som tiltrekker spesifikke kjopersegmenter, og bygging av vanskelighetsnivåer som dekker flere aldersgrupper. Du vil laere hvordan 11-sprakstotten generator distinkte produkter for internasjonale markeder.',
   },

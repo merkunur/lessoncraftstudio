@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'arbeidsark vanskelighetsgrader produktnivåer 2026',
+    primaryKeyword: 'arbeidsark vanskelighetsgrader produktnivåer Etsy',
     secondaryKeywords: [
-      'steg steg gjennomføring',
-      'optimalisering finjustering',
-      'publisering markedsføring',
+      'lett middels vanskelig arbeidsark strategi',
+      'produktnivåer arbeidsark Etsy forretning',
+      'vanskelighetsgrad arbeidsark pakkestrategi',
     ],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
+    lsiKeywords: ['arbeidsark nivåer produksjon', 'differensiert arbeidsark salg', 'Etsy pakkestrategi vanskelighetsgrad'],
     titleTag: 'Vanskelighetsgrader som produktnivåer | LCS',
-    metaDescription: 'Ved å dele arbeidsark i vanskelighetsgrader får du automatisk flere produkter fra samme base. Selg pa Etsy & KDP med kommersiell lisens.',
+    metaDescription: 'Del arbeidsark i vanskelighetsgrader og lag flere produkter fra samme base. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Vanskelighetsgrader som produktnivåer',
+    title: 'Vanskelighetsgrader: Tre produkter fra ett arbeidsark',
     tagline: 'En vanskelighetsgrad = ett produkt = én annonse',
     description: 'Ved å dele arbeidsark i vanskelighetsgrader får du automatisk flere produkter fra samme base. Lett, middels og vanskelig er tre separate produkter eller en premium-pakke. Denne guiden viser deg hvordan.',
   },

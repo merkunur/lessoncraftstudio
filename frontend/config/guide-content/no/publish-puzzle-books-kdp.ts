@@ -2,24 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'publiser puslespillbøker på Amazon KDP',
+    primaryKeyword: 'publisere puslespillbøker KDP',
     secondaryKeywords: [
-      'publiser puslespillbøker KDP trinn for trinn',
       'Amazon KDP puslespillbok guide',
-      'selvpubliser puslespill aktivitetsbøker KDP',
-      'KDP puslespillbok formatering og publisering',
+      'selvpublisere puslespillbøker KDP',
+      'KDP puslespillbok formatering publisering',
     ],
     lsiKeywords: [
-      'KDP puslespillbok nisje',
-      'Amazon puslespill publisering',
-      'selvpubliser aktivitetsbøker',
+      'puslespillbøker barneskole KDP',
+      'Amazon KDP sudoku ordleting labyrinter',
+      'kommersiell lisens puslespillbok',
+      'KDP puslespillbok nisjestrategi',
+      'vanskelighetsprogresjon puslespillbok',
+      'selvpublisering Amazon aktivitetsbøker',
+      'puslespillbok prissetting KDP',
+      'Amazon søkeordoptimalisering puslespill',
     ],
-    titleTag: 'Publiser puslespillbøker på Amazon KDP | LCS',
-    metaDescription: 'Komplett guide til å publisere puslespillbøker på Amazon KDP. Formatering, innholdsvariasjon, prissetting og markedsføringsstrategier for puslespillbokutgivere.',
+    titleTag: 'Publiser puslespillbøker på KDP | Guide',
+    metaDescription: 'Slik publiserer du puslespillbøker på Amazon KDP. Sudoku, labyrinter, ordleting og mer.',
   },
 
   hero: {
-    title: 'Slik publiserer du puslespillbøker på Amazon KDP',
+    title: 'Publiser puslespillbøker på KDP — guide med sudoku, ordleting og labyrinter',
     tagline: 'En komplett guide til å lage og publisere puslespillbøker på Amazon KDP — dekker ordsøk, kryssord, sudoku, mattepuslespill og visuelle puslespilltyper, hvordan strukturere enkeltype og varierte puslespillbøker, puslespillspesifikk formatering for trykk med tilstrekkelig rutenettavstand og løsningsseksjoner, det doble markedet for voksne og barns puslespillbøker, Amazon søkeordoptimalisering for puslespillsøk, vanskelighetsgradprogresjon over lett middels og vanskelig seksjoner, bygging av flerbinds puslespillbokserier, og katalogstrategier som utnytter Amazon krysspromotering for å øke salget på tvers av hele puslespillbok-porteføljen din',
     description: 'Puslespillbøker er en blomstrende kategori på Amazon KDP — fra ordsøk og sudoku til kryssord- og labyrintsamlinger, kjøper folk puslespillbøker for underholdning, læring og gaver hele året. Denne guiden tar deg gjennom hvert steg av publisering av puslespillbøker på KDP: innholdsplanlegging, sideformatering, omslagsdesign og lanseringsstrategier. Du vil lære hvordan du bruker våre puslespillgeneratorer til å fylle hele bøker med unike, profesjonelle puslespill og hvordan du posisjonerer titlene dine for Amazon søkesynlighet.',
   },

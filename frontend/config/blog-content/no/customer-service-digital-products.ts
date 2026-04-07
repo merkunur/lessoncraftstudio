@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kundeservice digitale produkter',
+    primaryKeyword: 'kundeservice arbeidsark Etsy butikk',
     secondaryKeywords: [
-      'praktisk gjennomføring',
-      'optimalisering måling',
-      'vanlige feil unngå',
+      'kundeservice digitale oppgaver selge',
+      'Etsy kundehenvendelser arbeidsark',
+      'unngå klager digitale produkter',
     ],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Kundeservice for digitale produkter | LCS',
-    metaDescription: 'Digitale produkter har unik kundeserviceutfordringer: kunder som ikke finner filen, printer som gir feil format, og. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['kundeservice arbeidsark Etsy', 'oppgaver digitalt salg', 'Etsy butikk kundestøtte', 'kommersiell lisens arbeidsark', 'digitale produkter service', 'arbeidsark selger tips', 'LessonCraftStudio'],
+    titleTag: 'Kundeservice for arbeidsark-selgere',
+    metaDescription: 'God kundeservice forhindrer klager og øker salg. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Kundeservice for digitale produkter',
+    title: 'Kundeservice for arbeidsark-selgere — forhindre problemer',
     tagline: 'Forhåndsforebygg problemer, automatiser svar',
     description: 'Digitale produkter har unik kundeserviceutfordringer: kunder som ikke finner filen, printer som gir feil format, og spørsmål om lisens. Denne guiden viser deg hvordan du håndterer alt effektivt.',
   },

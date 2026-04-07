@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'ordsoek generator',
-    secondaryKeywords: [
-      'ordsoek puslespill arbeidsark selg på Etsy',
-      'ordsoek generator til Amazon KDP-utgivere',
-      'ordsoek puslespill arbeidsark kommersiell lisens',
-      'utskriftsbare ordsoek puslespill til Gumroad',
-    ],
-    lsiKeywords: [
-      'digitale ordsoek puslespill produkter nettbasert forretning',
-      'utskriftsbare skjulte-ord rutenett arbeidsark business',
-      'ordsoek generator kommersielt bruk',
-    ],
-    titleTag: 'Ordsoek Generator | Lag og Selg Ordpuslespill',
-    metaDescription: 'Lag ordsoek-arbeidsark til salg på Etsy, KDP og Gumroad. Justerbart rutenett 5–30, retningskontroller, språkbevisste fyllbokstaver. $49 engangsbetaling.',
+    primaryKeyword: 'ordleting generator',
+    secondaryKeywords: ['lage ordleting', 'ordleting skrive ut', 'ordsøk generator', 'ordleting med bilder'],
+    lsiKeywords: ['rutenett', 'bokstaver', 'ordforråd', 'staving', 'tema', 'fasit', 'PDF', 'barneskole'],
+    titleTag: 'Ordleting generator | Lag med temabilder',
+    metaDescription: 'Lag ordleting med 3 000+ temabilder på 11 språk. Egne ord, automatisk fasit, 300 DPI PDF. Prøv gratis — kommersiell lisens.',
   },
 
   hero: {
-    title: 'Ordsøk Arbeidsark Generator for Skjulte-Ord Rutenett-Puslespill',
+    title: 'Ordleting generator — Lag ordleting med temabilder og fasit',
     tagline: 'Justerbare rutenett fra 5×5 til 30×30 med diagonal- og baklengs retningskontroller — bygg den perfekte vanskelighetsgraden til enhver målgruppe.',
     description:
       'Design profesjonelle ordsøk-arbeidsark der skjulte ord er innebygd i et rutenett av tilfeldige fyllbokstaver, og brukerne skanner rader, kolonner og diagonaler for å finne dem — det klassiske puslespillformatet som aldri går av moten. Velg mellom tre innholdskilder: det innebygde bildebiblioteket med mer enn 3 100 illustrasjoner i 104 temaer, Manuell Redigeringsmodus der du velger bilder og deretter tilpasser visningsnavnene, eller Egen Ordliste for tekstbaserte puslespill med opptil 8 egne ord. Juster rutenettet fra 5×5 for raske oppvarminger til 30×30 for ekte utfordringer, og slå diagonale ord samt baklengs ord til eller fra for å finjustere vanskeligheten over fire til åtte mulige plasseringsretninger. Tre visningsmoduser — ord pluss bilder, kun bilder eller kun ord — styrer hvordan ledetrådene vises ved siden av rutenettet. Full Tilgang låser opp alle 11 støttede språk, der både de skjulte ordene og rutenettets fyllbokstaver endres etter språk: norske rutenett inkluderer æ, ø, å ved naturlige frekvensvekter, tyske rutenett inkluderer ä, ö, ü, og hvert annet språk bruker sitt autentiske tegnsett. En fargekodet fasit markerer hvert funnet ord i en av seks roterende farger for øyeblikkelig visuell verifisering. Eksporter trykkeklare PDF-er og JPEG-bilder med mer enn 400 DPI i Letter-, A4- eller egendefinert format. Enten du selger tematiske puslespillpakker på Etsy, setter sammen ordsøkbøker til Amazon KDP eller lager nivåinndelte ordforrådsstasjoner til Gumroad — Ordsøk Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',

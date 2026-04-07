@@ -1,18 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'KDP aktivitetsbok formatering guide',
-    secondaryKeywords: [
-      'praktisk gjennomføring',
-      'optimalisering måling',
-      'vanlige feil unngå',
-    ],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'KDP aktivitetsbok: Formateringsguide | LCS',
-    metaDescription: 'Amazon KDP har strenge formateringskrav for trykte bøker. Får du dem feil, blir boken avvist. Denne guiden dekker alle tekniske krav for aktivitetsbøk',
+    primaryKeyword: 'KDP aktivitetsbok formatering arbeidsark',
+    secondaryKeywords: ['Amazon KDP formateringskrav oppgavebok', 'aktivitetsbok formatering marger størrelse', 'KDP bok avvist formatfeil løsning'],
+    lsiKeywords: ['KDP trykt bok spesifikasjoner', 'PDF formatering aktivitetsbok', 'omslag oppløsning KDP krav'],
+    titleTag: 'KDP aktivitetsbok-formatering: Komplett guide | LCS',
+    metaDescription: 'Unngå avvisning på Amazon KDP. Komplett formateringsguide for aktivitetsbøker med arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'KDP aktivitetsbok: Formateringsguide',
+    title: 'KDP aktivitetsbok-formatering: Komplett guide',
     tagline: 'Tekniske krav og beste praksis for KDP-publisering',
     description: 'Amazon KDP har strenge formateringskrav for trykte bøker. Får du dem feil, blir boken avvist. Denne guiden dekker alle tekniske krav for aktivitetsbøker: størrelse, marger, oppløsning, filformat og omslag.',
   },

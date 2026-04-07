@@ -1,18 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'finn og tell utskrifter fortjeneste 2026',
-    secondaryKeywords: [
-      'produktoppbygging differensiering',
-      'prissetting pakkestrategier',
-      'etsy seo markedsføring',
-    ],
-    lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
-    titleTag: 'Finn-og-tell-utskrifter for fortjeneste | LCS',
-    metaDescription: 'Finn-og-tell-utskrifter for fortjeneste. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',
+    primaryKeyword: 'selg finn-og-tell-oppgaver på nett',
+    secondaryKeywords: ['finn og tell arbeidsark Etsy forretning', 'telleoppgaver barn selge', 'finn-og-tell-ark prissetting pakker'],
+    lsiKeywords: ['visuell telling pedagogisk', 'bildetelling arbeidsark salg', 'temabaserte telleoppgaver'],
+    titleTag: 'Selg finn-og-tell-oppgaver for fortjeneste | LCS',
+    metaDescription: 'Finn-og-tell-oppgaver er en lønnsom nisje med jevn etterspørsel. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Finn-og-tell-utskrifter for fortjeneste',
+    title: 'Selg finn-og-tell-oppgaver for fortjeneste',
     tagline: 'Telling + visuell søking = et produkt barn elsker',
     description: 'Denne guiden dekker alt du trenger for å bygge en lønnsom forretning med finn og tell utskrifter fortjeneste. Fra produktoppbygging og prissetting til SEO-optimalisering og plattformvalg. Lær hvordan du bruker LessonCraftStudios generatorer til å lage profesjonelle produkter på minutter og selge dem på Etsy, Amazon KDP og Undervisningsbyen.no.',
   },

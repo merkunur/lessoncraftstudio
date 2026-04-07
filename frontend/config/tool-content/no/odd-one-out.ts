@@ -2,24 +2,15 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'finn den ulike arbeidsark',
-    secondaryKeywords: [
-      'finn den ulike arbeidsark generator for selgere',
-      'lag finn den annerledes puslespill til salg',
-      'utskriftsbar finn den ulike generator kommersiell bruk',
-      'finn den ulike puslespill generator for KDP og Etsy',
-    ],
-    lsiKeywords: [
-      'dobbel modus identisk lignende visuell skjelning generator',
-      'per-øvelse modusoverstyringsverktøy finn den ulike generator',
-      'automatisk fasit rød sirkel underlig objekt arbeidsark generator',
-    ],
-    titleTag: 'Finn den Ulike Generator — Arbeidsark Generator —...',
-    metaDescription: 'Lag finn den ulike arbeidsark med Identisk og Lignende modus, per-øvelse overstyringer, automatiske fasit med røde. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'hvem hører ikke hjemme gratis',
+    secondaryKeywords: ['finn inntrengeren gratis', 'klassifisering gratis online', 'logisk tenkning gratis', 'hva passer ikke gratis'],
+    lsiKeywords: ['logikk', 'klassifisere', 'kategorisere', 'intrenger', 'vannmerke', 'gratis', 'tenke'],
+    titleTag: 'Hvem hører ikke hjemme? gratis | Logikkgenerator online',
+    metaDescription: 'Lag «hvem hører ikke hjemme?»-oppgaver gratis online med temabilder. Automatisk fasit. Ingen registrering.',
   },
 
   hero: {
-    title: 'Finn den Ulike Generator',
+    title: 'Hvem hører ikke hjemme? gratis — Logikkgenerator online med bilder',
     tagline: 'Dobbel modus finn den ulike arbeidsark generator med Identisk modus (3 kloner + 1 annerledes) og Lignende modus (3 fra Tema A + 1 fra Tema B), per-øvelse modusoverstyringsverktøy, 5–10 konfigurerbare øvelser, automatisk genererte fasit med røde sirkelmarkeringer og 104 tematiske bildesamlinger',
     description: 'Lag profesjonelle finn den ulike arbeidsark der brukerne identifiserer og setter ring rundt bildet som ikke hører til i hver rad av fire bilder. To distinkte moduser: Identisk modus plasserer tre kloner ved siden av et annerledes bilde fra det samme temaet — brukerne finner den som ikke er dublett. Lignende modus henter tre bilder fra Tema A og ett fra Tema B — brukerne identifiserer den tematiske avvikeren. Per-øvelse modusoverstyringsverktøy med dropdown på hver rad — bland Identiske og Lignende øvelser på ett enkelt arbeidsark for progressiv vanskelighetsgrad. «Fjern Valg»-knapp nullstiller alle overstyringer. Konfigurer 5–10 øvelser (standard 6) med 4 bilder per øvelse — den ulikes posisjon blandes tilfeldig. Layoutet tilpasses automatisk med 2-kolonner for liggende sider og stående med 7+ øvelser. Totema-system for kryssende kategoriskjelningspuslespill. Dobbeltarbeidsområde-systemet genererer samtidig arbeidsark og fasit — fasiten tegner røde sirkelkonturer rundt det ulike objektet med dynamisk skalert strekbredde (max(imageSize × 0,04, 3px)). En stilisert overskrift med korall ytre ramme (#FF6B6B), ravgul indre ramme (#FFB84D) og turkis bakgrunn (#4ECDC4) viser «Finn den som ikke hører til» lokalisert på alle 11 språk. IKKE språkfølsomt — rent visuelt, universelt salgbart uten oversettelse. Bla gjennom 104 tematiske samlinger med mer enn 3 100 illustrasjoner. Eksporter fire filer per økt med 300 DPI. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

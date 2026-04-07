@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'lag arbeidsark-pakke 35 minutter 2026',
-    secondaryKeywords: ['lag arbeidsark-pakke 35 minutter tips', 'lag arbeidsark-pakke 35 minutter guide', 'lag arbeidsark-pakke 35 minutter steg for steg'],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Lag en arbeidsark-pakke på 35 minutter | LCS',
-    metaDescription: 'Denne steg-for-steg-guiden viser deg nøyaktig hvordan du lager en komplett arbeidsark-pakke på 35 minutter eller. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'lag arbeidsark-pakke 35 minutter',
+    secondaryKeywords: ['rask arbeidsark-pakke Etsy selge', 'oppgavepakke 35 min KDP', 'arbeidsark hurtigguide selge nett'],
+    lsiKeywords: ['arbeidsark-pakke raskt', 'oppgaver 35 minutter Etsy', 'KDP oppgavepakke bok', 'kommersiell lisens arbeidsark', 'Etsy produkt raskt', 'arbeidsark generator', 'LessonCraftStudio'],
+    titleTag: 'Lag arbeidsark-pakke på 35 minutter',
+    metaDescription: 'Lag komplett arbeidsark-pakke på 35 minutter. Lag oppgaver med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Lag en arbeidsark-pakke på 35 minutter',
+    title: 'Lag en arbeidsark-pakke på 35 minutter — steg for steg',
     tagline: 'Steg-for-steg fra ingenting til ferdig produkt',
     description: 'Denne steg-for-steg-guiden viser deg nøyaktig hvordan du lager en komplett arbeidsark-pakke på 35 minutter eller mindre. Fra valg av tema og vanskelighetsgrad til ferdig PDF med innholdsfortegnelse og fasit. Ingen designferdigheter nødvendig.',
   },

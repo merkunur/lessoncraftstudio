@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sommerlæring utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme sommerlæring utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Ferieaktiviteter og sommerpakkekonsepter for selgere.',
-
-    primaryKeyword: 'sommerlæring utskriftsbare ideer',
+    titleTag: 'Sommerlæring arbeidsark til salg | Nisjeideer',
+    metaDescription: 'Sommerlæring arbeidsark til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for selgere som vil selge ferieoppgaver.',
+    primaryKeyword: 'sommerlæring arbeidsark til salg',
     secondaryKeywords: [
-      'sommeraktivitetsark til salg',
-      'sommerlæring utskriftsbar forretning',
-      'feriearbeidsark for selgere',
-      'selg sommerprintables på Etsy',
+      'sommerlæring oppgaver selge Etsy',
+      'feriearbeidsark KDP aktivitetsbøker',
+      'selge sommerlæring-oppgaver på nett',
+      'sommerlæring nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'forebygg sommertilbakegang pedagogiske arbeidsark',
-      'ferielæring aktivitetssider',
-      'sommerøvelse utskriftsbare produkter',
+      'sommerlæring nisje Etsy KDP',
+      'ferieoppgaver forebygge sommertilbakegang',
+      'sommertema arbeidsark barneskole',
+      'pedagogiske ferieoppgaver til salg',
+      'sommerlæring produktlinje selgere',
     ],
   },
   hero: {
-    title: 'Sommerlæring utskriftsbare forretningsideer for selgere',
+    title: 'Sommerlæring arbeidsark til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Sommerlæring representerer et unikt og lukrativt markedssegment fordi foreldre aktivt søker å forebygge den såkalte «sommertilbakegangen» — tapet av akademiske ferdigheter som skjer når barn er borte fra strukturert læring i sommerferien. Dette skaper intens etterspørsel etter engasjerende, tematiske arbeidsark som holder barn skarpe uten å føles som tradisjonelt skolearbeid. Sommerlæringsproduktene er unike fordi de må balansere pedagogisk verdi med feriestemning — barn må ønske å gjøre aktivitetene, ikke føle seg tvunget. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad er sommerlæringsnisjen en dokumentert mulighet med høy etterspørsel fra mai til august. Denne guiden gjennomgår produktideer, plattformstrategier og positioneringsmetoder for å bygge en lønnsom sommerlæring utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Sommerlæring utskriftsbar-nisjen drar fordel av en veldokumentert bekymring blant foreldre: sommertilbakegangen. Forskning viser at barn kan tape opptil to måneders akademiske fremgang i matematikk og lesing under sommerferien uten noen form for strukturert øvelse. Denne bekymringen driver foreldre til å søke aktivt etter materialer som holder barnas ferdigheter skarpe, men som er engasjerende nok til at barna faktisk vil gjøre dem.

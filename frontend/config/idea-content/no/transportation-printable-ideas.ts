@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Transport utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme transport utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Kjøretøytema produktkonsepter og plattformtips for selgere.',
+    titleTag: 'Kjøretøy-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Kjøretøy-oppgaver til salg på Etsy og Amazon KDP. Transporttema arbeidsark for biler, tog og fly — nisjeideer, plattformtips og produktstrategier for selgere.',
 
-    primaryKeyword: 'transport utskriftsbare ideer',
+    primaryKeyword: 'kjøretøy-oppgaver til salg',
     secondaryKeywords: [
-      'kjøretøy arbeidsark til salg',
-      'transport utskriftsbar forretning',
-      'bil og tog aktivitetsark for selgere',
-      'selg transportprintables på Etsy',
+      'selge kjøretøy-arbeidsark Etsy',
+      'transport-oppgaver KDP',
+      'bil og tog arbeidsark til salg',
+      'kjøretøytema arbeidsark for selgere',
     ],
     lsiKeywords: [
-      'biler og lastebiler pedagogiske arbeidsark',
-      'fly og båter aktivitetssider',
-      'kjøretøytema utskriftsbare produkter',
+      'nisje kjøretøy-oppgaver',
+      'tema transport arbeidsark',
+      'sesong biloppgaver',
+      'Etsy kjøretøy arbeidsark',
+      'KDP transport aktivitetsbok',
+      'selge oppgaver digitalt',
+      'eviggrønn bilnisje',
     ],
   },
   hero: {
-    title: 'Transport utskriftsbare forretningsideer for selgere',
+    title: 'Kjøretøy-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Transport og kjøretøyer er et klassisk eviggrønt tema som fascinerer barn i alle aldre, noe som gjør det til en pålitelig nisje for utskriftsbare selgere. Biler, lastebiler, tog, fly, båter, helikoptere og utrykningskjøretøyer har en naturlig tiltrekningskraft som driver sterkt engasjement og kjøpsinteresse. Transporttemaet er spesielt populært blant gutter i førskole- og barnehagealder, men har bred appell på tvers av alle kjønn når det inkluderer varierte kjøretøytyper. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad representerer transporttemaet en dokumentert nisje med eviggrønn etterspørsel og rik produktvariasjon. Denne guiden gjennomgår produktideer, plattformstrategier og positioneringsmetoder for å bygge en lønnsom transport utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Transport utskriftsbar-nisjen nyter stabil, eviggrønn etterspørsel fordi barns fascinasjon for kjøretøyer er tidløs og ikke påvirkes av sesongsvingninger. Biler, lastebiler, tog, fly og båter fenger barn gjennom hele året, noe som gir konsekvent salg uten de toppene og bunnene som kjennetegner sesongbaserte temaer.

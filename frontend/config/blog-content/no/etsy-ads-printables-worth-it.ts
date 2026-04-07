@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsy ads verdt printables',
-    secondaryKeywords: ['Etsy annonser printables verdt det tips', 'Etsy annonser printables verdt det strategi', 'Etsy annonser printables verdt det 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Er Etsy Ads verdt det for printables? | LCS',
-    metaDescription: 'Etsy Ads kan være lønnsomt for printable-selgere, men ikke alltid. Denne guiden viser deg når det lønner seg, hvordan du setter budsjett, og hvordan d',
+    primaryKeyword: 'Etsy Ads lønnsomt arbeidsark selgere',
+    secondaryKeywords: ['Etsy annonsering arbeidsark budsjett', 'Etsy Ads avkastning digitale produkter', 'betalt annonsering Etsy oppgaver'],
+    lsiKeywords: ['Etsy annonsekostnad per salg', 'ROAS digitale nedlastinger', 'arbeidsark markedsføring betalt trafikk'],
+    titleTag: 'Er Etsy Ads lønnsomt for arbeidsark-selgere? | LCS',
+    metaDescription: 'Finn ut når Etsy Ads lønner seg for arbeidsark-selgere og når du bør spare pengene. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Er Etsy Ads verdt det for printables?',
+    title: 'Er Etsy Ads lønnsomt for arbeidsark-selgere?',
     tagline: 'Når du bør annonsere — og når du ikke bør',
     description: 'Etsy Ads kan være lønnsomt for printable-selgere, men ikke alltid. Denne guiden viser deg når det lønner seg, hvordan du setter budsjett, og hvordan du måler avkastningen.',
   },

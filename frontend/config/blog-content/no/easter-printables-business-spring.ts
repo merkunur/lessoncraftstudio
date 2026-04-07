@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'påske påskekrim utskrifter vårens salgssesong',
+    primaryKeyword: 'selge påske-arbeidsark Etsy',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'påske oppgaver selge sesong Etsy',
+      'påskeaktiviteter arbeidsark KDP',
+      'vår sesong arbeidsark selge nett',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Påske-utskrifter: Vårens salgssesong | LCS',
-    metaDescription: 'Påske er spesielt viktig i Norge. Nordmenn leser krim («påskekrim»), går på hytta og har fri i nesten to uker. For printable-selgere betyr dette enorm',
+    lsiKeywords: ['påske arbeidsark Etsy', 'oppgaver påsketema selge', 'KDP påskebok aktiviteter', 'kommersiell lisens arbeidsark', 'Etsy vårsesong', 'påskekrim oppgaver', 'LessonCraftStudio generator'],
+    titleTag: 'Selg påske-arbeidsark: Vårens storselger',
+    metaDescription: 'Påske gir enorm etterspørsel etter arbeidsark i Norge. Lag oppgaver med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Påske-utskrifter: Vårens salgssesong',
+    title: 'Selg påske-arbeidsark — vårens største salgssesong',
     tagline: 'Påske er Norges nest største høytid — og en gullgruve for selgere',
     description: 'Påske er spesielt viktig i Norge. Nordmenn leser krim («påskekrim»), går på hytta og har fri i nesten to uker. For printable-selgere betyr dette enorm etterspørsel etter påske-aktiviteter, påske-puslespill og ferierelaterte arbeidsark.',
   },

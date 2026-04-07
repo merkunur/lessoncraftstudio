@@ -2,24 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gjett ordet arbeidsark generator',
+    primaryKeyword: 'hengemannen oppgave gratis på nett',
     secondaryKeywords: [
-      'gjett ordet arbeidsark generator for selgere',
-      'lag stavningsgjetting arbeidsark til salg',
-      'utskriftsbare ordbyggende arbeidsark kommersiell bruk',
-      'gjett ordet generator for KDP',
+      'gjett ordet gratis online',
+      'hengemannen skrive ut gratis',
+      'ordforråd gjettelek gratis',
+      'ordgåte gratis',
     ],
     lsiKeywords: [
-      'visuelle stavnings utskriftsbare for Etsy',
-      'bildebasert ordbyggende arbeidsark verktøy',
-      'flerspråklig stavningsaktivitet generator',
+      'gjette',
+      'ordforråd',
+      'bokstaver',
+      'ledetråder',
+      'vannmerke',
+      'gratis',
     ],
-    titleTag: 'Gjett Ordet Arbeidsark Generator | Selg Utskriftsbare',
-    metaDescription: 'Generer gjett ordet arbeidsark med 4 vanskelighetsgrader, doble inntastingsmoduser, ekskluder bokstaver, 11 språk og. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Hengemannen oppgave gratis | Generator ordgåter online',
+    metaDescription: 'Lag hengemannen-oppgaver gratis online med temaord og bilder. Automatisk fasit. Ingen registrering.',
   },
 
   hero: {
-    title: 'Gjett Ordet Arbeidsark Generator',
+    title: 'Hengemannen oppgave gratis — Generator for ordgåter online med bilder',
     tagline: 'Lag bildebaserte stavningsarbeidsark med 4 ledetrådsnivåer på 11 språk',
     description: 'Forvandle ordforrådsøvelse til et visuelt puslespill som brukerne elsker å løse. Dette verktøyet genererer gjett ordet arbeidsark der en bildeledetråd kobles med et bokstavrutenett med hull — brukerne studerer bildet og fyller inn de manglende bokstavene for å stave ordet det representerer. Den fremtredende funksjonen er et 4-nivås progressivt ledetrådssystem: Ingen Ledetråder avslører null bokstaver for ren gjenkalling, Lett avslører halvparten av bokstavene for støttede nybegynnere, Normal avslører en fjerdedel for balansert utfordring, og Vanskelig avslører kun en sjettedel for selvsikre stavere. Velg mellom to inntastingsmoduser: Bildeledetråd henter ordforråd fra mer enn 3 100 bilder i 104 tematiske samlinger med automatisk bokstavrutenettgenerering, eller Tilpasset Ordliste lar deg skrive ord direkte for målrettet ordforrådsøvelse uten bilder. Ekskluder Bokstaver-funksjonen fjerner spesifikke bokstaver fra rutenett — ekskluder vokaler for fonikkfokuserte øvelser eller ekskluder vanlige bokstaver for en hardere utfordring. Språkfølsomhet er innebygd: bytt fra norsk til et av de 11 støttede språkene, og det samme bildet produserer en annerledes korrekt staving. Et hundebilde genererer «HUND» på norsk, «DOG» på engelsk, «CHIEN» på fransk, «PERRO» på spansk. Ett arbeidsarkdesign blir 11 unike språkprodukter med genuint forskjellige svar. Still inn store eller små bokstaver, slå øvelsesnummerering til, legg til egendefinerte tekstoverlegg, og velg blant 7 skriftfamilier. Eksporter som trykklar PDF eller høyoppløst JPEG med valgfri fasitgenerering. Den gratis prøveversjonen inneholder et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

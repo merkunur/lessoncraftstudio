@@ -2,25 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'starte utskriftsbar forretning',
+    primaryKeyword: 'starte arbeidsark-virksomhet komplett guide',
     secondaryKeywords: [
-      'hvordan starte utskriftsbar forretning 2026',
-      'starte utskriftsbar forretning fra bunnen av guide',
-      'utskriftsbar forretning for nybegynnere 2026',
-      'hvordan selge utskriftsbare produkter på nett steg for steg',
-      'lansere utskriftsbar forretning guide',
+      'selge arbeidsark online guide',
+      'oppgaver virksomhet fra start',
+      'arbeidsark forretning steg for steg',
+      'starte oppgavevirksomhet',
     ],
     lsiKeywords: [
-      'oppstartsguide utskriftsbar forretning',
-      'digitalt produktforretning 2026',
-      'selge utskriftsbare produkter fra bunnen av',
+      'virksomhet',
+      'Etsy',
+      'KDP',
+      'arbeidsark',
+      'oppgaver',
+      'ekstrainntekt',
+      'passiv inntekt',
     ],
-    titleTag: 'Starte Utskriftsbar Forretning (2026) | LCS',
-    metaDescription: 'Komplett guide til å starte en utskriftsbar forretning i 2026. Fra nisjevalg til første salg på Etsy, Amazon KDP eller din egen nettbutikk. Steg for steg.',
+    titleTag: 'Starte arbeidsark-virksomhet | Komplett guide fra A til Å',
+    metaDescription: 'Komplett guide til å starte en arbeidsark-virksomhet. Fra ide til første salg på Etsy eller KDP. 33 generatorer, kommersiell lisens.',
   },
 
   hero: {
-    title: 'Slik Starter du en Utskriftsbar Forretning i 2026',
+    title: 'Starte arbeidsark-virksomhet — Komplett guide fra A til Å',
     tagline: 'Fra null til første salg — alt du trenger å vite om å bygge en utskriftsbar arbeidsarkforretning',
     description: 'Å starte en utskriftsbar forretning er en av de mest tilgjengelige veiene til inntekt på nett — null varelager, null frakt, og kundene mottar filene sine umiddelbart. Denne omfattende guiden dekker hvert steg fra å velge din første nisje til å gjennomføre ditt første salg: markedsundersøkelser, produktskaping med våre 33 generatorer, plattformvalg (Etsy, KDP, Gumroad), oppføring og optimalisering, prisstrategier og skalering utover dine første produkter. Enten du ønsker en bijobb eller en fulltidsforretning, er dette veikartet som tar deg fra idé til inntekt.',
   },

@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'start en Etsy printable-butikk',
+    primaryKeyword: 'starte Etsy-butikk arbeidsark',
     secondaryKeywords: [
-      'hvordan starte en Etsy printable-butikk fra bunnen',
-      'start Etsy printable-butikk steg for steg',
-      'åpne Etsy digital nedlasting butikk guide',
-      'Etsy printable virksomhet for nybegynnere 2026',
-      'lanser Etsy arbeidsark-butikk fra null',
+      'Etsy butikk oppgaver steg for steg',
+      'åpne Etsy arbeidsark-butikk nybegynner',
+      'starte Etsy virksomhet oppgaver guide',
     ],
     lsiKeywords: [
-      'Etsy butikk oppsett printable-selgere',
-      'digital produkt virksomhet Etsy',
-      'første Etsy printable oppføring guide',
+      'starte Etsy-butikk barneskole arbeidsark',
+      'kommersiell lisens Etsy oppgaver',
+      'Etsy SEO første oppføring arbeidsark',
+      'prissetting arbeidsark ny butikk',
+      'LK20 oppgaver digitalt salg Etsy',
+      'Etsy gebyrer arbeidsark selgere',
+      'første salg Etsy oppgaver',
+      'nybegynner arbeidsark Etsy strategi',
     ],
-    titleTag: 'Start en Etsy printable-butikk fra bunnen | LCS',
-    metaDescription: 'Komplett nybegynnerguide til å starte en Etsy printable-butikk fra bunnen. Butikkoppsett, første oppføringer, SEO-grunnlag og prissetting for nye.',
+    titleTag: 'Start Etsy-butikk for arbeidsark | Norsk guide',
+    metaDescription: 'Steg-for-steg: start en Etsy-butikk for arbeidsark og oppgaver. Norsk guide med SEO-tips.',
   },
 
   hero: {
-    title: 'Start en Etsy printable-butikk fra bunnen',
+    title: 'Start Etsy-butikk for arbeidsark — norsk steg-for-steg guide med SEO-tips',
     tagline: 'En komplett oppstartsguide på butikknivå for å lansere en lønnsom Etsy printable-virksomhet med 33 arbeidsark- og aktivitetsgeneratorer på tvers av 6 produktkategorier — dekker Etsy selgerkonto-oppretting, butikkmerkebygging og retningslinjer for digitale nedlastinger, bygging av ditt første produktlager fra flere generatorkategorier, skriving av optimaliserte oppføringer med alle 13 tagger, forståelse av Etsy-gebyrer og bærekraftig prissetting, laging av oppføringsbilder for digitale produkter, lansering med nok oppføringer til å oppnå søketrekkraft, og gjennomføring av en 30-dagers vekstplan som bygger anmeldelser, utvider katalogen din og etablerer butikken din som en kategoriautoritet i printbare arbeidsark-markedsplassen',
     description: 'Å starte en printable-butikk på Etsy er en av forretningsmodellene med lavest kostnad og høyest margin tilgjengelig — ingen lagerbeholdning, ingen frakt, og kundene mottar filene sine umiddelbart. Denne guiden tar deg fra null til ditt første salg: oppsett av Etsy-kontoen din, valg av en lønnsom nisje, oppretting av ditt første produkt med våre generatorer, skriving av oppføringer som rangerer i Etsy-søk, og prissetting for fortjeneste fra dag én. Hvert steg inkluderer spesifikke handlinger du kan ta i dag for å få butikken din live og generere inntekt.',
   },

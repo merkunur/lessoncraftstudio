@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'linjesporing arbeidsark',
+    primaryKeyword: 'skrivemotorikk linjer gratis',
     secondaryKeywords: [
-      'linjesporing arbeidsark generator for selgere',
-      'lag tegne linjer arbeidsark til salg',
-      'utskriftsbare linjesporing arbeidsark kommersiell bruk',
-      'tegne linjer arbeidsark generator for KDP',
+      'prikkelinjer overskrive gratis',
+      'finmotorikk oppgaveark gratis',
+      'sporingsøvelser gratis online',
+      'linjer trekke oppgave gratis',
     ],
     lsiKeywords: [
-      'finmotoriske ferdigheter arbeidsark verktøy for Etsy',
-      'SVG linjemal arbeidsark generator',
-      'bildepar matching linjesporing utskriftsbare',
+      'finmotorikk',
+      'prikkelinje',
+      'sporing',
+      'overskrive',
+      'vannmerke',
+      'gratis',
+      '1. trinn',
     ],
-    titleTag: 'Linjesporing Arbeidsark Generator — Tegne Linjer Generator',
-    metaDescription: 'Lag linjesporing arbeidsark med åtte SVG-maler, mer enn 3 100 illustrasjoner i 104 temaer og autoutfylling av. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Skrivemotorikk linjer gratis | Generator overskrivingsøvelser',
+    metaDescription: 'Lag overskrivings- og skrivemotorikk-oppgaver gratis online. Temabilder, 300 DPI PDF. Ingen registrering.',
   },
 
   hero: {
-    title: 'Tegne Linjer Arbeidsark Generator',
+    title: 'Skrivemotorikk linjer gratis — Generator for overskrivingsøvelser online',
     tagline: 'Åtte SVG-linjemaler med bildeparmatching, autoutfylling fra 104 fargerike temaer og malstyrt sideorientering for profesjonelle linjesporing arbeidsark som selger globalt',
     description: 'Lag profesjonelle linjesporing arbeidsark der brukerne tegner langs guidede stier for å forbinde matchende bildepar. Åtte SVG-baserte maler dekker en komplett finmotorisk progresjon: en horisontal mal for rette venstre-til-høyre sporinger (enklest), en vertikal mal for ovenfra-og-ned streker, fire kurvemaler for flytende håndleddsbevegelser, og to diagonale maler for kryssende kroppskoordinering (vanskeligst). Hver mal plasserer 4 eller 5 matchede bildepar på motsatte sider av linjestien, noe som gir brukerne et visuelt mål ved hver ende. Malvalg driver automatisk sideorientering — kurver defaulter til liggende for sveiende buer, mens diagonal-, horisontal- og vertikalmaler bruker stående for fokusert øvelse. Autoutfylling fyller øyeblikkelig hver parplass med tilfeldige bilder fra ethvert valgt tema eller alle 104 temaer samtidig, noe som gjør batchoppretting rask. Innhold hentes fra mer enn 3 100 fargerike illustrasjoner i 104 tematiske samlinger — dyr, kjøretøy, mat, natur og dusinvis flere. Hvert arbeidsark er helt visuelt med null tekst i outputtet, noe som gjør produkter universelt salgbare uten oversettelse. Ingen fasit er nødvendig, da linjestien selv guider brukeren — en selvkontrollerende aktivitet av design. Eksporter trykklare PDF-er og JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller egendefinerte størrelser. Den gratis prøveversjonen inneholder alle funksjoner med et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

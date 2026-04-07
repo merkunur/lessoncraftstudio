@@ -2,24 +2,15 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mønstergjenkjenning arbeidsark',
-    secondaryKeywords: [
-      'mønster arbeidsark generator for selgere',
-      'lag mønsterfullføring arbeidsark til salg',
-      'utskriftsbare mønstersekvens arbeidsark kommersiell bruk',
-      'rutenettbasert mønster arbeidsark generator for KDP',
-    ],
-    lsiKeywords: [
-      'visuell mønstergjenkjenning utskriftsbare for Etsy',
-      'tekstfri mønsterfullføring arbeidsark verktøy',
-      'AB ABC ABCD mønstersekvens arbeidsark generator',
-    ],
-    titleTag: 'Mønstergjenkjenning Arbeidsark Generator | Lag og Selg',
-    metaDescription: 'Generer mønsterarbeidsark med ni typer, to spørsmålsmoduser, per-øvelse konfigurasjon, automatiske fasit og 104. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'logiske følger gratis på nett',
+    secondaryKeywords: ['fortsett rekkefølgen gratis', 'visuell logikk gratis', 'logisk tenkning gratis online', 'tallrekker gratis skrive ut'],
+    lsiKeywords: ['logikk', 'følge', 'rekkefølge', 'visuell', 'vannmerke', 'gratis', 'tenkning'],
+    titleTag: 'Logiske følger gratis | Generator visuell logikk online',
+    metaDescription: 'Lag øvelser i logiske følger gratis online med temabilder. Automatisk fasit, 300 DPI PDF. Ingen registrering.',
   },
 
   hero: {
-    title: 'Mønster Arbeidsark Generator',
+    title: 'Logiske følger gratis — Generator for visuell logikk online',
     tagline: 'Generer rutenettbaserte mønstergjenkjenning arbeidsark med ni mønstertyper, to spørsmålsmoduser, per-øvelse uavhengig konfigurasjon og helt visuelt tekstfritt output som selger globalt uten oversettelse',
     description: 'Lag profesjonelle mønsterfullføringsarbeidsark der brukerne identifiserer gjentakende sekvenser og fyller inn det manglende objektet eller velger riktig svar blant flervalgsalternativer. Ni distinkte mønstertyper dekker det bredeste utvalget av sekvenskompleksitet: AB alternerer to objekter, AAB og ABB introduserer asymmetriske grupperinger, ABC roterer tre forskjellige objekter, AABB parrer to av hvert, ABBC og AABC legger til trebilds asymmetriske mønstre, ABCC utvider med doblet slutt, og ABCD roterer fire forskjellige objekter for maksimal utfordring. To spørsmålsmoduser generator fundamentalt forskjellige øvelser: Tom Rute erstatter et objekt med et tomt felt for åpent resonnement, mens Velg blant Alternativer presenterer hullet pluss tre svaralternativer med ett korrekt og to distraktorer. Konfigurer 1–8 øvelser per side med hver øvelse uavhengig stilt inn for mønstertype, spørsmålsmodus og tema — én side kan blande en AB utfyllingsoppvarming med en ABCD flervalgsutfordring. Aktiver Tilfeldig Start for å begynne mønstre midt i syklusen og Tilfeldig Hull for å plassere det manglende objektet hvor som helst i sekvensen. Hvert arbeidsark er helt visuelt med kun bilder og null tekst i outputtet — ingen ord vises, noe som gjør produktene dine universelt salgbare uten oversettelse. Hent fra mer enn 3 100 illustrasjoner i 104 tematiske samlinger eller last opp egne bilder. En separat fasitfane viser alle hull utfylt med riktig mønsterobjekt. Eksporter trykklare PDF-er og JPEG-bilder med høy DPI i Letter, A4, Kvadrat (1200×1200) eller egendefinerte størrelser. Bytt gråtone for blekkvarsom utskrift. Den gratis prøveversjonen inneholder alle funksjoner med et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

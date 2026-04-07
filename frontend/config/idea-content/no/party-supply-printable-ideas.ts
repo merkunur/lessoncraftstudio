@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Festutstyr utskriftsbare ideer til salg — Nisjeguide',
-    metaDescription: 'Utforsk festutstyr utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Festtema produktkonsepter, plattformtips og nisjestrategier for selgere.',
+    titleTag: 'Festoppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Festoppgaver og aktiviteter til salg på Etsy og KDP. Bursdags- og festtema arbeidsark — nisjeideer, plattformtips og strategier for selgere.',
 
-    primaryKeyword: 'festutstyr utskriftsbare ideer',
+    primaryKeyword: 'festoppgaver og aktiviteter til salg',
     secondaryKeywords: [
-      'fest arbeidsark til salg',
-      'festtema utskriftsbar forretning',
-      'festaktivitetsark for selgere',
-      'selg fest printables online',
+      'selge fest-arbeidsark Etsy',
+      'bursdag-oppgaver KDP',
+      'festtema arbeidsark til salg',
+      'barnefest oppgaver for selgere',
     ],
     lsiKeywords: [
-      'bursdag feiring aktivitetssider',
-      'festspill og aktiviteter utskriftsbare',
-      'barnefest underholdning produkter',
+      'nisje festoppgaver',
+      'tema bursdag arbeidsark',
+      'sesong festaktiviteter',
+      'Etsy fest arbeidsark',
+      'KDP bursdag aktivitetsbok',
+      'selge oppgaver digitalt',
+      'eviggrønn festnisje',
     ],
   },
   hero: {
-    title: 'Festutstyr utskriftsbare forretningsideer for selgere',
+    title: 'Festoppgaver og aktiviteter til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Utskriftsbare festforsyninger representerer en unik nisjemulighet som krysser pedagogiske produkter med festarrangementsmarkedet. Foreldre og arrangører søker aktivt utskriftsbare spill, aktivitetsark og underholdningsmaterialer som holder barn engasjert under bursdagsfester, temafester, skolearrangementer og familiefeiringer. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad tilbyr festutstyrnisjen helårs etterspørsel med topper under ferieseasonger og en unik fordel: festplanleggere tar ofte raske kjøpsbeslutninger med lavere prissensitivitet fordi de løser et umiddelbart behov. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å bygge en lønnsom festutstyr utskriftsbar produktlinje.',
   },
   marketOverview: `Festutstyr utskriftsbar-nisjen befinner seg i krysningspunktet mellom pedagogiske produkter og arrangementsplanlegging, og skaper en distinkt markedsmulighet med kjøperatferd som skiller seg fra tradisjonelle pedagogiske printables. Festplanleggere — foreldre, kjøpere og arrangører — har et spesifikt, tidssensitivt behov for aktivitetsmaterialer som kan skrives ut og brukes umiddelbart. Denne urgensen driver høyere konverteringsrater og lavere prissensitivitet sammenlignet med akademiske kjøpere som har tid til å sammenligne alternativer.

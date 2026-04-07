@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Utskrift-på-forespørsel arbeidsark ideer til salg —...',
-    metaDescription: 'Utforsk utskrift-på-forespørsel arbeidsark ideer for Etsy, Amazon KDP og Gumroad. POD forretningsmodeller, plattformtips og strategier for selgere.',
+    titleTag: 'Print-on-demand arbeidsark | Forretningsideer',
+    metaDescription: 'Print-on-demand arbeidsark som forretningsideer. Selg oppgavebøker via KDP uten lagerkostnader — POD-strategier, plattformtips og ideer for selgere.',
 
-    primaryKeyword: 'utskrift-på-forespørsel arbeidsark ideer',
+    primaryKeyword: 'print-on-demand arbeidsark ideer',
     secondaryKeywords: [
-      'POD arbeidsark forretning',
-      'utskrift-på-forespørsel utskriftsbar forretning',
-      'KDP arbeidsark ideer for selgere',
-      'selg POD pedagogiske produkter',
+      'selge POD arbeidsark Etsy',
+      'print-on-demand oppgaver KDP',
+      'KDP arbeidsark-forretning til salg',
+      'POD oppgavebøker for selgere',
     ],
     lsiKeywords: [
-      'print on demand pedagogiske materialer',
-      'Amazon KDP arbeidsark forretningsmodell',
-      'lagerløs utskriftsbar forretning',
+      'nisje print-on-demand arbeidsark',
+      'tema POD oppgaver',
+      'Etsy POD arbeidsark',
+      'KDP print-on-demand aktivitetsbok',
+      'selge oppgaver digitalt',
+      'lagerløs arbeidsark-forretning',
+      'Amazon KDP oppgavebok',
     ],
   },
   hero: {
-    title: 'Utskrift-på-forespørsel arbeidsark forretningsideer for selgere',
+    title: 'Print-on-demand arbeidsark — forretningsideer for selgere',
     description: 'Utskrift-på-forespørsel-modellen (POD) har revolusjonert det pedagogiske produktmarkedet ved å gjøre det mulig for selgere å tilby fysiske bøker og arbeidshefter uten oppstartskostnader, lagerhåndtering eller forsendelseslogistikk. Amazon KDP, det ledende POD-plattformen for pedagogiske produkter, håndterer utskrift, lagring og forsendelse for hver enkelt bestilling, noe som betyr at selgere kun investerer tid i å lage innhold og mottar royalties for hvert salg. For utskriftsbare selgere som allerede produserer digitale arbeidsark representerer POD en naturlig utvidelsesmulighet som når nye kjøpersegmenter som foretrekker fysiske produkter. Denne guiden dekker spesifikke produktideer, POD-forretningsmodeller, plattformstrategier og optimaliseringsteknikker for å bygge en lønnsom POD arbeidsark forretning med våre generatorverktøy.',
   },
   marketOverview: `Utskrift-på-forespørsel-markedet for pedagogiske produkter har vokst eksplosivt de siste årene ettersom Amazon KDP har gjort fysisk bokpublisering tilgjengelig for individuelle selgere uten forlagstilknytning. Denne demokratiseringen av publisering har skapt et massivt marked for arbeidsark- og aktivitetsbøker der individuelle gründere konkurrerer på lik linje med etablerte forlag.

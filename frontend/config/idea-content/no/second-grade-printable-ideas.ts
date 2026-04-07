@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Andre klasse utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme andre klasse utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Produktkonsepter og plattformtips for selgere.',
+    titleTag: '2. trinn oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: '2. trinn oppgaver til salg på Etsy og Amazon KDP. Alderstilpassede arbeidsark med tosifret matte og leseforståelse — nisjeideer og strategier for selgere.',
 
-    primaryKeyword: 'andre klasse utskriftsbare ideer',
+    primaryKeyword: '2. trinn oppgaver til salg',
     secondaryKeywords: [
+      'selge 2. trinn arbeidsark Etsy',
+      '2. trinn oppgaver KDP',
       'andre klasse arbeidsark til salg',
-      'andre klasse utskriftsbar forretning',
-      'andre klasse aktivitetsark for selgere',
-      'selg andre klasse printables på Etsy',
+      '2. trinn matteoppgaver for selgere',
     ],
     lsiKeywords: [
-      'pedagogiske arbeidsark for syvåringer',
-      'matematikk og lesing andre klasse',
-      'alderstilpassede læringsaktiviteter',
+      'nisje 2. trinn oppgaver',
+      'trinn barneskole arbeidsark',
+      'Etsy 2. trinn arbeidsark',
+      'KDP andre klasse aktivitetsbok',
+      'selge oppgaver digitalt',
+      'eviggrønn 2. trinn nisje',
+      'barneskole lesing og matte',
     ],
   },
   hero: {
-    title: 'Andre klasse utskriftsbare forretningsideer for selgere',
+    title: '2. trinn oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Andre klasse representerer et kritisk kjøpersegment for utskriftsbare selgere fordi barn på dette nivået utvikler selvstendige lese-, skrive- og matematikkferdigheter som krever rikelig med øvelsesmateriale. Foreldre og hjemmeundervisere søker aktivt etter alderstilpassede arbeidsark som utfordrer uten å frustrere, noe som skaper sterk og vedvarende etterspørsel etter gjennomtenkte andre klasse utskriftsbare produkter. Fra tosifret addisjon og subtraksjon til leseforståelse og ordforrådsbygging, dekker dette klassetrinnet et bredt spekter av ferdigheter som oversettes til mange produktmuligheter. Denne guiden gjennomgår spesifikke produktideer, plattformstrategier og positioneringsmetoder for å hjelpe deg med å bygge en lønnsom andre klasse utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Andre klasse utskriftsbar-nisjen nyter stabil, eviggrønn etterspørsel fordi klassetrinnet representerer et avgjørende utviklingspunkt der barn overgangserer fra å lære å lese til å lese for å lære. Denne overgangen skaper intens etterspørsel etter øvelsesmaterialer som forsterker grunnleggende ferdigheter mens de gradvis introduserer mer komplekse konsepter. Foreldre som merker at barna deres trenger ekstra øvelse med tosifret matematikk, staving eller leseforståelse henvender seg til utskriftsbare arbeidsark som en fleksibel, rimelig løsning som supplerer det barna jobber med på skolen.

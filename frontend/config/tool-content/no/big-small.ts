@@ -2,24 +2,15 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'størrelsessammenligning arbeidsark generator for barn',
-    secondaryKeywords: [
-      'stor og liten arbeidsark for førskolen',
-      'størrelsessammenligning generator online',
-      'utskriftsbare størrelsessortering arbeidsark for barn',
-      'stor liten medium arbeidsark for barnehagen',
-    ],
-    lsiKeywords: [
-      'visuell størrelsesskjelning arbeidsark for barn',
-      'tekstfri størrelsessammenligning utskriftsbar',
-      'stor liten rekkefølge aktivitet for førskolen',
-    ],
-    titleTag: 'Størrelsessammenligning Arbeidsark Generator — For Barn...',
-    metaDescription: 'Lag størrelsessammenligning arbeidsark for førskolen og barnehagen. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'stor og liten oppgave gratis',
+    secondaryKeywords: ['sammenligne størrelse gratis', 'ordne etter størrelse gratis', 'større mindre oppgave gratis', 'størrelse 1. trinn gratis'],
+    lsiKeywords: ['størrelse', 'sammenligne', 'ordne', 'stor', 'liten', 'vannmerke', 'gratis'],
+    titleTag: 'Stor og liten oppgave gratis | Generator størrelsessammenligning',
+    metaDescription: 'Lag oppgaver om størrelsessammenligning gratis online. Temabilder, automatisk fasit. Ingen registrering.',
   },
 
   hero: {
-    title: 'Stor og Liten Arbeidsark Generator',
+    title: 'Stor og liten oppgave gratis — Generator for størrelsessammenligning online',
     tagline: 'Generer størrelsessammenligning arbeidsark med fem spørsmålstyper, to bildemoduser og helt visuelt tekstfritt output som selger globalt uten oversettelse',
     description: 'Lag profesjonelle størrelsessammenligning arbeidsark der brukerne identifiserer større, mindre og mellomstore bilder eller nummererer dem i størrelsesrekkefølge. Fem spørsmålstyper dekker enhver størrelsesskjelningsferdighet: Sett Ring rundt den Store, Sett Ring rundt den Lille, Sett Ring rundt den Mellomstore, Nummerer 1–2–3 Liten til Stor og Nummerer 1–2–3 Stor til Liten. To bildemoduser generator fundamentalt forskjellige øvelser fra det samme verktøyet: Identiske Bilder viser det samme bildet i forskjellige størrelser for ren størrelsesoppfattelse, mens Forskjellige Bilder viser distinkte objekter i forskjellige størrelser for relativ størrelsesvurdering. Still inn 1–10 øvelser per side med 2 eller 3 bilder per øvelse — to bilder for enkle større/mindre sammenligninger, tre bilder for å introdusere mellom-alternativet og muliggjøre rekkefølgeutfordringer. Hvert arbeidsark er helt visuelt med null tekst i outputtet. Ingen ord vises på den genererte siden — kun bilder og visuelle indikatorer. Dette gjør arbeidsarkene dine universelt brukbare uansett språk, lesenivå eller leseferdighetsstatus, og universelt salgbare uten oversettelse. Én produktannonse betjener hvert marked i verden. Hent fra mer enn 3 100 illustrasjoner i 104 tematiske samlinger eller last opp egne bilder. Den automatisk genererte fasiten markerer og sirkler korrekte svar for øyeblikkelig verifikasjon. Eksporter trykklare PDF-er og JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller egendefinerte størrelser. Bytt gråtone for blekkvarsom utskrift. Den gratis prøveversjonen inneholder alle funksjoner med et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

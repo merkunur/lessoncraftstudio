@@ -2,26 +2,15 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digitale vs fysiske printables',
-    secondaryKeywords: [
-      'digitale nedlastinger vs trykte arbeidsboker',
-      'printable forretningsmodell sammenligning',
-      'digital eller fysisk printable-virksomhet',
-      'hybrid selgerstrategi printables',
-    ],
-    lsiKeywords: [
-      'digital levering vs print-on-demand',
-      'marginer digitale produkter vs fysiske',
-      'Etsy digitale nedlastinger vs KDP fysiske boker',
-      'skaleringsforskjeller digitale og fysiske',
-      'hybrid printable-forretningsmodell',
-    ],
-    titleTag: 'Digitale vs fysiske printables — Guide',
-    metaDescription: 'Sammenlign digitale nedlastinger og fysiske trykte produkter for printable-virksomheten din. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'digitale vs fysiske arbeidsark selge',
+    secondaryKeywords: ['digitale nedlastinger vs trykte arbeidsbøker', 'arbeidsark forretningsmodell sammenligning', 'hybrid selgerstrategi arbeidsark Etsy KDP'],
+    lsiKeywords: ['digital levering vs print-on-demand', 'marginer digitale oppgaver vs fysiske', 'Etsy digitale arbeidsark vs KDP fysiske bøker', 'skaleringsforskjeller digitale og fysiske', 'kommersiell lisens arbeidsark', 'hybrid arbeidsark-forretningsmodell', 'oppgaver inntektspotensial', 'arbeidsark plattformvalg'],
+    titleTag: 'Digitale vs fysiske arbeidsark | Sammenligning',
+    metaDescription: 'Skal du selge digitale eller fysiske arbeidsark? Fordeler, ulemper og inntektspotensial sammenlignet.',
   },
 
   hero: {
-    title: 'Digitale vs fysiske printables — Hvilken modell passer deg?',
+    title: 'Digitale vs fysiske arbeidsark — fordeler, ulemper og inntektspotensial sammenlignet',
     tagline: 'En komplett sammenligning av digitale nedlastinger og fysiske trykte produkter — som dekker fortjenestemarginer, produksjonsarbeid, skaleringsegenskaper, plattformvalg og hybridstrategier for printable-selgere',
     description: 'Printable-selgere har to hovedmodeller: digitale nedlastinger (PDF-filer kjopere laster ned og skriver ut selv) og fysiske produkter (trykte arbeidsboker via print-on-demand-tjenester som Amazon KDP). Begge har distinkte fordeler, og mange vellykkede selgere bruker begge. Denne guiden hjelper deg a velge riktig modell basert pa dine mal, ressurser og markedsplassvalg.',
   },

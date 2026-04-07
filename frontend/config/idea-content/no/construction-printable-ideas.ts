@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Byggeplass utskriftbare ideer til salg — Nisjeguide',
-    metaDescription: 'Oppdag byggeplass utskriftbare ideer til salg på Etsy, Amazon KDP og Gumroad. Kjøretøy- og verktøytema produktkonsepter, plattformtips og strategier.',
-
-    primaryKeyword: 'byggeplass utskriftbare ideer',
+    titleTag: 'Anleggsmaskiner-oppgaver til salg | Nisjeideer',
+    metaDescription: 'Anleggsmaskiner-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge byggetema oppgaver.',
+    primaryKeyword: 'anleggsmaskiner-oppgaver til salg',
     secondaryKeywords: [
-      'byggetema arbeidsark til salg',
-      'byggeplass utskriftbar forretningsideer',
-      'byggeaktivitetsark for selgere',
-      'selg byggeplasstutskriftbare på nett',
+      'anleggsmaskiner arbeidsark selge Etsy',
+      'byggetema aktivitetsbøker KDP',
+      'selge anleggsmaskiner-oppgaver på nett',
+      'anleggsmaskiner nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'byggeplasstema arbeidsark',
-      'STEM byggeaktiviteter for barn',
-      'kjøretøy- og maskintema pedagogiske utskriftbare',
+      'anleggsmaskiner nisje Etsy KDP',
+      'byggetema arbeidsark barneskole',
+      'pedagogiske anleggsmaskiner-oppgaver til salg',
+      'kjøretøy-tema produktlinje selgere',
+      'STEM byggetema oppgaver',
     ],
   },
   hero: {
-    title: 'Byggeplass utskriftbare forretningsideer for selgere',
+    title: 'Anleggsmaskiner-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Byggeplass er et av de mest universelt fengslende temaene for små barn, noe som gjør det til en utmerket eviggrønn nisje for utskriftbare entreprenører som søker pålitelig helårsinntekt drevet av kraftige STEM-forbindelser og den magnetiske fascinasjonen som gravemaskiner, kraner og byggeplasser holder for barn i alle bakgrunner. Byggetemaet tilbyr ekstraordinær undertemas dybde inkludert gravemaskin, kran, bulldoser, lastebil, sementblander, vernehjelm, verktøy, hammer, skiftenøkkel, spiker, skruer, plantegning, byggeklosser, murstein, byggeplass, stillas, sikkerhetsvest, trafikkjegle, trykkluftbor og rivningskule. For utskriftbare selgere på Etsy, Amazon KDP og Gumroad kombinerer byggenisjen sterk helårs etterspørsel med universell barneappell. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringtilnærminger.',
   },
   marketOverview: `Byggeplass utskriftbar-nisjen inntar en unikt kraftfull posisjon for utskriftbare selgere fordi praktisk talt hvert lite barn har en direkte, instinktiv fascinasjon av byggekjøretøy, byggeplasser og den synlige transformasjonen av konstruksjoner som tar form i nabolaget og lokalsamfunnet deres. I motsetning til sesongtemaer som konsentrerer etterspørselen i smale kalendervinduer, drar byggenisjen fordel av ekte helårs relevans: byggeprosjekter kjører kontinuerlig uansett sesong, barn møter byggeutstyr under daglige rutiner, og byggelek med leketøykjøretøy og byggeklosser forblir en evig favorittaktivitet.

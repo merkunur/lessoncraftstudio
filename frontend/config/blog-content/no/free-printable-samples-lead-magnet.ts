@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'gratis prøver lead magnet',
-    secondaryKeywords: ['gratis prøver printable lead magnet tips', 'gratis prøver printable lead magnet guide', 'gratis prøver printable lead magnet steg for steg'],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Gratis prøver som lead magnet | LCS',
-    metaDescription: 'Gratis prøveark er den mest effektive markedsføringsstrategien for printable-selgere. Gi bort ett kvalitetsark på Pinterest eller sosiale medier, og f',
+    primaryKeyword: 'gratis prøveark lead magnet arbeidsark',
+    secondaryKeywords: ['prøveark markedsføring arbeidsark-selgere', 'lead magnet pedagogiske oppgaver', 'gi bort prøveark selg pakker'],
+    lsiKeywords: ['e-postliste arbeidsark salg', 'Pinterest prøveark trafikk', 'gratis smaksprøve konvertering'],
+    titleTag: 'Bruk gratis prøveark som lead magnet | LCS',
+    metaDescription: 'Gi bort ett prøveark og selg hele pakken. Den mest effektive strategien for arbeidsark-selgere. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Gratis prøver som lead magnet',
+    title: 'Bruk gratis prøveark som lead magnet',
     tagline: 'Gi bort étt ark, selg hele pakken',
     description: 'Gratis prøveark er den mest effektive markedsføringsstrategien for printable-selgere. Gi bort ett kvalitetsark på Pinterest eller sosiale medier, og fång e-postadresser og salg av hele pakken.',
   },

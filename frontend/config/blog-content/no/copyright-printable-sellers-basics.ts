@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'opphavsrett printable selgere grunnleggende',
-    secondaryKeywords: ['opphavsrett printable selgere grunnleggende tips', 'opphavsrett printable selgere grunnleggende strategi', 'opphavsrett printable selgere grunnleggende 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Opphavsrett for printable-selgere | LCS',
-    metaDescription: 'Opphavsrett er et viktig tema for printable-selgere. Du må både beskytte dine egne produkter og sikre at du ikke bryter andres rettigheter. Denne guid',
+    primaryKeyword: 'opphavsrett arbeidsark-selgere',
+    secondaryKeywords: ['opphavsrett selge oppgaver Etsy', 'rettigheter arbeidsark KDP', 'beskytte arbeidsark opphavsrett'],
+    lsiKeywords: ['opphavsrett arbeidsark selge', 'rettigheter oppgaver Etsy', 'KDP opphavsrett bok', 'kommersiell lisens arbeidsark', 'beskytte digitale produkter', 'arbeidsark juridisk', 'LessonCraftStudio lisens'],
+    titleTag: 'Opphavsrett for arbeidsark-selgere',
+    metaDescription: 'Beskytt arbeidsarkene dine og unngå brudd. Lag oppgaver med LessonCraftStudio — 33 generatorer, kommersiell lisens inkludert.',
   },
   hero: {
-    title: 'Opphavsrett for printable-selgere',
+    title: 'Opphavsrett for arbeidsark-selgere — det grunnleggende',
     tagline: 'Beskytt produktene dine — og unngå å bryte andres',
     description: 'Opphavsrett er et viktig tema for printable-selgere. Du må både beskytte dine egne produkter og sikre at du ikke bryter andres rettigheter. Denne guiden dekker det grunnleggende på et forståelig språk.',
   },

@@ -2,24 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mattepuslespill arbeidsark generator',
+    primaryKeyword: 'mattespill skrive ut',
     secondaryKeywords: [
-      'utskriftsbare mattepuslespill arbeidsark til Etsy-selgere',
-      'bildepuslespill arbeidsark generator til Amazon KDP',
-      'mattepuslespill arbeidsark selg på Gumroad',
-      'mattepuslespill utskriftsbare kommersiell lisens',
+      'mattepuslespill oppgaver',
+      'mattegåter skrive ut',
+      'morsomme matteoppgaver',
+      'lekne matteoppgaver',
     ],
     lsiKeywords: [
-      'digitale mattepuslespill produkter nettbasert forretning',
-      'utskriftsbare puslespillarbeidsark business',
-      'kommersielt bruk mattepuslespill generator',
+      'puslespill',
+      'bilder',
+      'matche',
+      'logikk',
+      'tenke',
     ],
-    titleTag: 'Mattepuslespill Generator | Lag og Selg Utskriftsbare',
-    metaDescription: 'Lag mattepuslespill arbeidsark til salg på Etsy, KDP og Gumroad. Bildepuslespill med addisjon og subtraksjon, justerbare rutenett. $49 engangsbetaling.',
+    titleTag: 'Mattespill å skrive ut | Generator mattepuslespill',
+    metaDescription: 'Lag mattepuslespill med bilder der barn løser stykker for å matche figurer. Fasit inkludert. Prøv gratis.',
   },
 
   hero: {
-    title: 'Mattepuslespill Arbeidsark Generator for Visuelle Matematikkutfordringer',
+    title: 'Mattespill å skrive ut — Generator for mattepuslespill med bilder',
     tagline: 'Kombiner matematikkøving med puslespillglede — hver brikke inneholder en matteoppgave, hver løsning avslører bildet.',
     description:
       'Lag engasjerende mattepuslespill arbeidsark der et bilde deles opp i et rutenett av brikker, hver med en addisjons- eller subtraksjonsoppgave. Brukerne løser oppgavene og kobler de nummererte svarene til de blandede puslespillbrikkene under rutenettet — slik forvandles rutinepreget regning til et visuelt mysterium. Konfigurer rutenettstørrelser fra 2×2 til 4×4 for å lage puslespill med 4 til 16 brikker, og velg addisjon, subtraksjon eller blandede operasjoner for å tilpasse til ethvert ferdighetsnivå. Bla gjennom mer enn 3 100 nøye utvalgte illustrasjoner i 104 temaer som bondegårdsdyr, rommet, dinosaurer og høytider for å gjøre hvert puslespill unikt. Hvert arbeidsark genererer en automatisk fasit med det løste rutenettet ved siden av det fullstendig sammensatte bildet. Eksporter trykkeklare PDF-er og JPEG-er med 400+ DPI i Letter-, A4- eller egendefinerte formater. Enten du selger tematiske puslespillpakker på Etsy, setter sammen progressive aktivitetsbøker til Amazon KDP, eller lager praktiske matematikkstasjoner til produktlinjen din — Mattepuslespill Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',

@@ -2,24 +2,15 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bildesortering generator sorterings arbeidsark generator',
-    secondaryKeywords: [
-      'sorterings arbeidsark generator for selgere',
-      'lag sorteringsarbeidsark til salg på Etsy',
-      'utskriftsbar sorteringsaktivitet generator kommersiell bruk',
-      'bildesortering arbeidsark generator for KDP og Etsy',
-    ],
-    lsiKeywords: [
-      'tokategori sorterings arbeidsark generator med fasit',
-      'temabasert manuell modus bildeklassifisering generator',
-      'blandet utklippsrutenett sorteringsaktivitet generator',
-    ],
-    titleTag: 'Bildesortering Generator — Sorterings Arbeidsark Generator',
-    metaDescription: 'Lag sorteringsarbeidsark med tokategori temamodus, blandede utklippsrutenett, automatiske fasit og 104 tematiske. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'sorteringsoppgave gratis på nett',
+    secondaryKeywords: ['sortere og gruppere gratis', 'kategorisere bilder gratis', 'ordne og sortere gratis online', 'sorteringsaktivitet gratis'],
+    lsiKeywords: ['sortere', 'gruppere', 'kategorisere', 'ordne', 'vannmerke', 'gratis', '1. trinn'],
+    titleTag: 'Sorteringsoppgave gratis | Kategoriseringsgenerator online',
+    metaDescription: 'Lag sorterings- og kategoriseringsoppgaver gratis online. Temabilder, automatisk fasit. Ingen registrering.',
   },
 
   hero: {
-    title: 'Bildesortering Generator',
+    title: 'Sorteringsoppgave gratis — Kategoriseringsgenerator online med temabilder',
     tagline: 'Tokategori sorterings arbeidsark generator med temabasert og manuelt bildevalg, blandede utklippsrutenett av 4–12 bilder, stiplede kategorirammer, automatisk genererte fasit med 6× større bilder i kategoribokser, lokalisert Sorter bilder-overskrift på 11 språk og 104 tematiske bildesamlinger',
     description: 'Lag profesjonelle sorteringsarbeidsark der brukerne klipper bilder ut fra et blandet rutenett og klassifiserer dem i to kategorier — venstre og høyre. Velg temamodus for å autofylle kategorier: velg et venstre tema og et høyre tema, appen henter 4–6 tilfeldige bilder per tema. Eller bytt til manuell modus for å håndvelge individuelle bilder og tildele hver til venstre eller høyre. Hvert arbeidsark har to side-om-side stiplede kategorirammer med #FAFAFA-fyll øverst og et blandet utklippsrutenett nedenfor med hvite celler, stiplede #666-kanter, 4px avrundede hjørner og 3–4 kolonner. Konfigurer 4–12 totale bilder med 2–10 per kategori. Dobbeltarbeidsområde-systemet genererer samtidig arbeidsark og fasit — fasiten viser bilder med 6× størrelse i kategoribokser med maks 2 kolonner, #FAFAFA-fyll, #444-strek og 12px kantradius. Bildesortering Generatoren er språkfølsom: kategorietiketter bruker lokaliserte bildenavn. En lokalisert overskrift gjengis med mintgrønn bakgrunn (#4DB6AC), blågrønn tittel (#00796B) i Fredoka Bold og oransje beskrivelse (#FF7043) i Quicksand. En blågrønn ytre ramme (#26A69A, 8px strek, 12px radius) rammer inn siden. Bla gjennom 104 tematiske samlinger med mer enn 3 100 illustrasjoner eller last opp egne bilder. Bruk bakgrunns- og rammetemaer med uavhengige gjennomsiktighetsskyveknapper. Legg til navn- og datofelter. Eksporter fire filer per økt med 300 DPI. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

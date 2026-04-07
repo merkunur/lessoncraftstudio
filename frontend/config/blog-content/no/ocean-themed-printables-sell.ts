@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'havtema utskrifter selg nett hav tema',
+    primaryKeyword: 'selg havtema arbeidsark havdyr oppgaver nettbutikk',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'havdyr arbeidsark Etsy selgere',
+      'marine tema oppgaver KDP bøker',
+      'lag havtema arbeidsark kommersiell lisens',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Havtema-utskrifter: Selg på nett | LCS',
-    metaDescription: 'Havtemaer (fisk, delfiner, hvaler, korallrev) er populære hele året med en topp om sommeren. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['temabaserte arbeidsark hav', 'havdyr oppgaver barn selge', 'sommeroppgaver arbeidsark forretning'],
+    titleTag: 'Selg havtema-arbeidsark på nett | LCS',
+    metaDescription: 'Havtema-arbeidsark med fisk, hvaler og korallrev selger hele året. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Havtema-utskrifter: Selg på nett',
+    title: 'Selg havtema-arbeidsark på nett',
     tagline: 'Havet fascinerer — og selger hele året',
     description: 'Havtemaer (fisk, delfiner, hvaler, korallrev) er populære hele året med en topp om sommeren. Havdyr-arbeidsark, hav-ordsøk og marine fargelegging appellerer til barn i alle aldre.',
   },

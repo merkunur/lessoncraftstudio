@@ -2,24 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'selg pedagogiske ressurser på Creative Fabrica',
+    primaryKeyword: 'selge arbeidsark på Creative Fabrica',
     secondaryKeywords: [
-      'Creative Fabrica selgerguide utskriftsprodukter',
-      'selg arbeidsark på Creative Fabrica',
-      'Creative Fabrica for pedagogiske utskriftsselgere',
-      'Creative Fabrica vs Etsy for utskriftsprodukter',
+      'Creative Fabrica oppgaver selgerguide',
+      'arbeidsark Creative Fabrica vs Etsy',
+      'selge oppgaver på CF plattform',
     ],
     lsiKeywords: [
-      'Creative Fabrica markedsplass',
-      'digital produktplattform sammenligning',
-      'alternative utskriftsmarkedsplasser',
+      'Creative Fabrica arbeidsark barneskole',
+      'kommersiell lisens oppgaver CF',
+      'Creative Fabrica markedsplass oppgaver',
+      'prissetting arbeidsark Creative Fabrica',
+      'Etsy vs Creative Fabrica sammenligning',
+      'selge digitale produkter CF',
+      'alternative markedsplasser arbeidsark',
+      'CF Learning pedagogiske ressurser',
     ],
-    titleTag: 'Selg pedagogiske ressurser på Creative Fabrica | LCS',
-    metaDescription: 'Guide til å selge pedagogiske ressurser på Creative Fabrica. Plattformoppsett, produktoppføring, prissetting og strategier for utskriftsselgere på CF.',
+    titleTag: 'Selge arbeidsark på Creative Fabrica | Guide',
+    metaDescription: 'Guide til å selge arbeidsark og oppgaver på Creative Fabrica. Oppsett, prissetting og markedsføring.',
   },
 
   hero: {
-    title: 'Selg pedagogiske ressurser på Creative Fabrica',
+    title: 'Selge arbeidsark på Creative Fabrica — guide med oppsett og markedsføring',
     tagline: 'En komplett guide til å selge utskriftsbare arbeidsark og pedagogiske ressurser på Creative Fabrica — dekker designerkontooppsett, produktoppretting for CF Learning-seksjonen, dobbel inntekt fra individuelle salg og abonnementsnedlastinger, søkeoptimalisering for en designsentrert markedsplass, å nå det unike håndverk-utdanning kryssingspublikumet, markedsføringsstrategier for å skille seg ut blant designere, og skalering av katalogen din på tvers av pedagogiske og kreative kategorier',
     description: 'Creative Fabrica er en underutnyttet markedsplass for pedagogiske utskriftsselgere — de fleste fokuserer utelukkende på Etsy og ignorerer plattformer med mindre konkurranse og ivrige kjøpere. Denne guiden viser deg hvordan du setter opp Creative Fabrica-selgerkontoen din, oppfører pedagogiske arbeidsark og aktivitetspakker, optimaliserer produktene dine for CFs søkealgoritme, og priser for plattformens unike kjøperforventninger. Å legge til Creative Fabrica i salgskanalene dine diversifiserer inntektene dine og når kjøpere som aldri søker på Etsy.',
   },

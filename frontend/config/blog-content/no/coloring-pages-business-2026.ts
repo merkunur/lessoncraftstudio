@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'fargeleggingssider bedrift 2026 2026',
+    primaryKeyword: 'selge fargelegging arbeidsark Etsy',
     secondaryKeywords: [
-      'produktoppbygging differensiering',
-      'prissetting pakkestrategier',
-      'etsy seo markedsføring',
+      'fargeleggingssider selge nett KDP',
+      'fargelegging oppgaver Etsy butikk',
+      'fargeleggingsbok Amazon KDP',
     ],
-    lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
-    titleTag: 'Fargeleggingssider som forretning i 2026 | LCS',
-    metaDescription: 'Fargeleggingssider som forretning i 2026. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',
+    lsiKeywords: ['fargelegging arbeidsark Etsy', 'oppgaver fargelegging selge', 'KDP fargeleggingsbok barn', 'kommersiell lisens arbeidsark', 'Etsy digital nedlasting', 'arbeidsark generator fargelegging', 'LessonCraftStudio'],
+    titleTag: 'Selg fargelegging-arbeidsark på Etsy',
+    metaDescription: 'Fargelegging er Etsys største arbeidsark-kategori. Lag oppgaver med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Fargeleggingssider som forretning i 2026',
+    title: 'Selg fargelegging-arbeidsark — Etsys største kategori',
     tagline: 'Den største utskriftskategorien på Etsy',
     description: 'Denne guiden dekker alt du trenger for å bygge en lønnsom forretning med fargeleggingssider bedrift 2026. Fra produktoppbygging og prissetting til SEO-optimalisering og plattformvalg. Lær hvordan du bruker LessonCraftStudios generatorer til å lage profesjonelle produkter på minutter og selge dem på Etsy, Amazon KDP og Undervisningsbyen.no.',
   },

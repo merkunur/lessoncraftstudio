@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skriveøvelser arbeidsark generator',
+    primaryKeyword: 'skrivemotorikk oppgaver gratis',
     secondaryKeywords: [
-      'skriveøvelser arbeidsark generator for selgere',
-      'lag bokstavsporing arbeidsark til salg',
-      'utskriftsbare skriveøvelser arbeidsark kommersiell bruk',
-      'skriveøvelser generator for KDP',
+      'skriveøvelser generator gratis',
+      'bokstavforming gratis skrive ut',
+      'skrivemotorikk 1. trinn gratis',
+      'overskriving bokstaver gratis',
     ],
     lsiKeywords: [
-      'strekrekkefølge pil skriveøvelser utskriftsbare for Etsy',
-      'toningsguide sporings bokstavøvelse arbeidsark verktøy',
-      'kursiv og trykkskrift skriveøvelses generator',
+      'bokstaver',
+      'overskrive',
+      'blyantgrep',
+      'finmotorikk',
+      'vannmerke',
+      'gratis',
+      '1. trinn',
     ],
-    titleTag: 'Skriveøvelser Arbeidsark Generator | Lag og Selg',
-    metaDescription: 'Generer skriveøvelser arbeidsark med tre øvelsesmoduser, fem skriftstiler, pilguided strekrekkefølge, toningsguider,. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Skrivemotorikk oppgaver gratis | Generator skriveøvelser online',
+    metaDescription: 'Lag skrivemotorikk-oppgaver gratis online. Egne ord, 11 språk, 300 DPI PDF. Ingen registrering. Vannmerket fjernes med lisens.',
   },
 
   hero: {
-    title: 'Skriveøvelser Arbeidsark Generator',
+    title: 'Skrivemotorikk oppgaver gratis — Generator for skriveøvelser online',
     tagline: 'Lag bokstavøvelsesark med tre progressive moduser, pilguided strekrekkefølge og tonende bokstavguider som bygger skriveferdighet fra full sporing til selvstendig skriving',
     description: 'Design profesjonelle skriveøvelser arbeidsark bygget på et tremodusprogressjonssystem: Sporingsmodus gir faste bokstavkonturer for nybegynnere å følge direkte, Tonende Sporing reduserer progressivt bokstavets gjennomsiktighet over raden, slik at brukerne overgår fra støttet sporing til selvstendig gjenkalling innen en enkelt rad, og Guidet Kopiering tilbyr en svak kontur for nesten selvstendig skriving med minimalt visuelt støtte. Fem skriftstiler gir deg full kontroll over bokstavpresentasjonen — Trykk Normal for standard blokkbokstaver, Trykk Normal Pil med nummererte retningspiler som viser presis strekrekkefølge-formasjon, Trykk Sporing for prikkede konturbokstaver designet for sporingsøvelser, Trykk Sporing Pil som kombinerer prikkede konturer med strekrekkefølgepiler, og Kursiv (Great Vibes) for flytende skriftøvelse. Den pilguidede strekrekkefølgen er den kjennetegnende funksjonen: nummererte retningspiler på hvert bokstav viser brukerne nøyaktig hvordan de former hvert strek i riktig sekvens, og forvandler en grunnleggende sporingsside til et instruksjonsverktøy. Hver rad på arbeidsarket er uavhengig konfigurerbar — egen øvelsesmodus, skriftstil, innholdskilde og store/små bokstaver-konfigurasjon — slik at en enkelt side kan blande Sporingsmodus for nye bokstaver, Tonende Sporing for øvde bokstaver og Guidet Kopiering for repetisjon. Innholdskilder inkluderer Bildebiblioteket med mer enn 3 100 illustrasjoner i 104 tematiske samlinger (Begynnelsesbokstav eller Fullt Filnavn-moduser), Tilpasset Tekst for ethvert ord eller setning, og Tom for blanke linjerte rader. Førskrivnings strekøvelser (loddrette linjer, vannrette linjer, sirkler, sikksakk-linjer) bygger finmotoriske grunnlag før bokstavformasjon. Eksporter trykklare PDF-er og JPEG-bilder med ~300 DPI via en 6× gjengivelsesmultiplikator i Letter, A4 eller egendefinerte størrelser. Velg blant 7 skrifttyper til tekstoverlegg, bytt gråtone for blekkvarsom utskrift, og bruk hele Fabric.js arbeidsområdet til å flytte hvert element. Den gratis prøveversjonen inneholder et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

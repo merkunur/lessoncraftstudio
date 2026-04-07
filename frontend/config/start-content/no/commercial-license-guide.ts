@@ -2,25 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'kommersiell lisens guide for selgere',
+    primaryKeyword: 'kommersiell lisens arbeidsark selge',
     secondaryKeywords: [
-      'kommersiell lisens guide utskriftsbar forretning',
-      'kommersiell lisens for utskriftsbare produkter',
-      'hva dekker kommersiell lisens for selgere',
-      'selgerettigheter for utskriftsbare produkter forklart',
-      'kommersiell brukslisens for Etsy-selgere',
+      'lisens selge arbeidsark Etsy',
+      'kommersiell bruk oppgaver',
+      'arbeidsark lisens forklart',
+      'selge oppgaver lovlig',
     ],
     lsiKeywords: [
-      'kommersiell lisens utskriftsbar',
-      'selgerettigheter digitale produkter',
-      'kommersiell bruk forklart',
+      'kommersiell lisens',
+      'opphavsrett',
+      'selge',
+      'Etsy',
+      'KDP',
+      'lovlig',
+      'rettigheter',
     ],
-    titleTag: 'Kommersiell Lisens Guide for Selgere | LCS',
-    metaDescription: 'Kommersiell lisens guide for selgere av utskriftsbare produkter. Hva den dekker, selgerettigheter og hvordan lisensiering fungerer for Etsy, KDP og direktesalg.',
+    titleTag: 'Kommersiell lisens for arbeidsark | Hva du kan selge',
+    metaDescription: 'Forstå den kommersielle lisensen for arbeidsark-generatorer. Hva du kan selge, hvor og hvordan. Etsy, KDP, Gumroad og mer.',
   },
 
   hero: {
-    title: 'Kommersiell Lisens Guide for Selgere av Utskriftsbare Produkter',
+    title: 'Kommersiell lisens for arbeidsark — Hva du kan selge og hvor',
     tagline: 'Alt du trenger å vite om kommersiell lisensiering for arbeidsarkgeneratorer — hva du kan selge, hvor du kan selge det, og hvilket nivå som passer din forretning',
     description: 'Å forstå din kommersielle lisens er essensielt før du selger utskriftsbare produkter — den definerer hva du kan selge, hvor du kan selge det, og hvilke begrensninger som gjelder. Denne guiden forklarer alt selgere av utskriftsbare produkter trenger å vite: hva vår kommersielle lisens dekker, forskjellen mellom personlig bruk og kommersielle bruksnivåer, hvordan lisensiering fungerer på tvers av Etsy, Amazon KDP og andre plattformer, og hvordan du kommuniserer lisensiering til kjøperne dine. Tydelig lisensiering bygger kjøpertillit og beskytter forretningen din.',
   },

@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'passiv inntekt printables sannhet',
+    primaryKeyword: 'passiv inntekt arbeidsark sannheten realistisk',
     secondaryKeywords: [
-      'praktisk gjennomføring',
-      'optimalisering måling',
-      'vanlige feil unngå',
+      'passiv inntekt digitale produkter realistisk',
+      'tjene penger arbeidsark Etsy ærlig',
+      'arbeidsark forretning inntektsforventning',
     ],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Passiv inntekt fra printables: Sannheten | LCS',
-    metaDescription: 'Utskrivbare produkter markedsføres ofte som «passiv inntekt». Men er det sant? Denne guiden gir deg et ærlig bilde av hva som kreves, hva som er passi',
+    lsiKeywords: ['digital nedlasting inntekt realistisk', 'arbeidsark selger hva forvente', 'Etsy passiv inntekt myte'],
+    titleTag: 'Passiv inntekt fra arbeidsark: Sannheten | LCS',
+    metaDescription: 'Er passiv inntekt fra arbeidsark realistisk? Et ærlig bilde av hva som kreves. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Passiv inntekt fra printables: Sannheten',
+    title: 'Passiv inntekt fra arbeidsark: Sannheten',
     tagline: 'Hva som er passivt — og hva som ikke er det',
     description: 'Utskrivbare produkter markedsføres ofte som «passiv inntekt». Men er det sant? Denne guiden gir deg et ærlig bilde av hva som kreves, hva som er passivt når det er satt opp, og hva som krever kontinuerlig arbeid.',
   },

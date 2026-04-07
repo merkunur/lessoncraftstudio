@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bondegårdsdyr utskrifter selg nett',
-    secondaryKeywords: ['bondegårdsdyr printables selge Etsy', 'bondegårdsdyr printables selge strategi', 'bondegårdsdyr printables selge tips'],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Bondegårdsdyr-utskrifter: Selg på nett | LCS',
-    metaDescription: 'Bondegårdsdyr er et av de mest tidløse temaene for pedagogiske utskrifter. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'selg bondegårdsdyr-arbeidsark på nett',
+    secondaryKeywords: ['bondegårdsdyr oppgaver Etsy selge', 'gårdsdyr tema arbeidsark forretning', 'dyrearbeidsark barn selge KDP'],
+    lsiKeywords: ['bondegård pedagogisk materiale', 'dyr-tema oppgaver barn', 'evergreen arbeidsark-nisje'],
+    titleTag: 'Selg bondegårdsdyr-arbeidsark på nett | LCS',
+    metaDescription: 'Bondegårdsdyr er et tidløst tema for arbeidsark som selger stabilt hele året. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Bondegårdsdyr-utskrifter: Selg på nett',
+    title: 'Selg bondegårdsdyr-arbeidsark på nett',
     tagline: 'Bondegården er et klassisk læringstema',
     description: 'Bondegårdsdyr er et av de mest tidløse temaene for pedagogiske utskrifter. Barn lærer dyrenavn, dyrelyder og dyrekategorier gjennom bondegårdstemaer. Denne nisjen selger stabilt hele året.',
   },

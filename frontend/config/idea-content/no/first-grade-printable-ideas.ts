@@ -2,14 +2,14 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Førsteklasse utskriftbare ideer til salg — Nisjeguide',
-    metaDescription: 'Oppdag førsteklasse utskriftbare ideer til salg på Etsy, Amazon KDP og Gumroad. Alderstilpassede produktkonsepter, plattformstrategier og nisjetips for selgere.',
-    primaryKeyword: 'førsteklasse utskriftbare ideer',
-    secondaryKeywords: ['1. klasse arbeidsark til salg', 'førsteklasse utskriftbar virksomhet', 'førsteklasse aktivitetsark for selgere', 'selg førsteklasse utskriftbare på Etsy'],
-    lsiKeywords: ['alderstilpassede pedagogiske arbeidsark', '1. klasse mattearbeidsark', 'førsteklasse leseferdighetsaktiviteter'],
+    titleTag: '1. trinn oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: '1. trinn oppgaver til salg på Etsy og Amazon KDP. Alderstilpassede arbeidsark for seksåringer med matte og lesing — nisjeideer og strategier for selgere.',
+    primaryKeyword: '1. trinn oppgaver til salg',
+    secondaryKeywords: ['selge 1. trinn arbeidsark Etsy', '1. trinn oppgaver KDP', 'førsteklasse arbeidsark til salg', '1. trinn matteoppgaver for selgere'],
+    lsiKeywords: ['nisje 1. trinn oppgaver', 'trinn barneskole arbeidsark', 'Etsy 1. trinn arbeidsark', 'KDP førsteklasse aktivitetsbok', 'selge oppgaver digitalt', 'eviggrønn 1. trinn nisje', 'barneskole lesing og matte'],
   },
   hero: {
-    title: 'Førsteklasse utskriftbare forretningsideer for selgere',
+    title: '1. trinn oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Førsteklasse representerer et av de mest etterspurte og lønnsomme aldersbaserte segmentene for utskriftbare selgere. Seks- og syvåringer går gjennom en kritisk overgangsperiode der de beveger seg fra grunnleggende gjenkjenning til selvstendig lesing, fra enkel telling til formelle addisjons- og subtraksjonsferdigheter, og fra guidet aktivitetsarbeid til mer selvstendig oppgaveløsning. Denne overgangsperioden skaper massiv etterspørsel etter arbeidsark som passer nøyaktig til 1. klassens ferdighetsnivå. For utskriftbare selgere på Etsy, Amazon KDP og Gumroad tilbyr førsteklasse-nisjen sterk helårs etterspørsel med klare pensumforbindelser som driver kjøpsbeslutninger.',
   },
   marketOverview: `Førsteklasse utskriftbar-nisjen er et av de mest konsekvent etterspurte aldersbaserte segmentene i det pedagogiske markedet. Foreldre av 1. klassere søker aktivt etter supplerende øvelsesmateriell for å støtte barnas overgang til formell skolelæring. Kjøpere trenger materialer tilpasset 1. klasse-standarder for differensiert instruksjon og ekstraøvelse. Hjemmeundervisere følger strukturerte pensumsplaner som krever alderstilpassede materialer.

@@ -2,14 +2,14 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'nisjevalg printables guide printable virksomheten din',
-    secondaryKeywords: ['velg nisjemarked printables', 'nisjeundersokelse printable-virksomhet', 'lonnsomt nisjemarked arbeidsark', 'nisjevalg strategi Etsy'],
-    lsiKeywords: ['nisjeettersporsel analyse', 'konkurranse nisjemarked', 'evergreen nisjer printables', 'sesongbaserte nisjer arbeidsark', 'nettoverdi nisjemarked'],
-    titleTag: 'Nisjevalg for printables — Guide',
-    metaDescription: 'Velg lonnsomt nisjemarked for printable-virksomheten din. Ettersporselanalyse, konkurransevurdering og nisjevalidering for Etsy, KDP og Gumroad.',
+    primaryKeyword: 'nisjevalg for arbeidsark-virksomhet',
+    secondaryKeywords: ['velg nisjemarked arbeidsark Etsy', 'nisjeundersøkelse arbeidsark-virksomhet', 'lønnsomt nisjemarked oppgaver KDP'],
+    lsiKeywords: ['nisjeetterspørsel analyse', 'konkurranse nisjemarked arbeidsark', 'evergreen nisjer oppgaver', 'sesongbaserte nisjer arbeidsark', 'Etsy arbeidsark nisjevalg', 'KDP aktivitetsbok nisje', 'kommersiell lisens arbeidsark', 'ordleting oppgaver nisje'],
+    titleTag: 'Nisjevalg for arbeidsark-virksomhet | Komplett guide',
+    metaDescription: 'Slik velger du den rette nisjen for din arbeidsark-virksomhet. Markedsanalyse, konkurranse og lønnsomhet.',
   },
   hero: {
-    title: 'Nisjevalg for printable-virksomheten din',
+    title: 'Nisjevalg for arbeidsark-virksomhet — markedsanalyse, konkurranse og lønnsomhet',
     tagline: 'En komplett guide til a velge lonnsomt nisjemarked — som dekker ettersporselanalyse, konkurransevurdering, nisjevalidering gjennom rask produkttesting, evergreen vs sesongbaserte nisjer og strategisk nisjeposisjonerig',
     description: 'Nisjevalg er den viktigste strategiske beslutningen i en printable-virksomhet. Riktig nisje betyr sterk ettersporsel og begrenset konkurranse. Feil nisje betyr kamp mot etablerte selgere om minimalt salgsvolum. Denne guiden gir deg et systematisk rammeverk for a identifisere, evaluere og validere lonnsome nisjer for printable-produkter.',
   },

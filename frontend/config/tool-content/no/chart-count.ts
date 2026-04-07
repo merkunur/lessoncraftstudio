@@ -2,24 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bildediagram arbeidsark generator for selgere',
+    primaryKeyword: 'telleoppgaver gratis på nett',
     secondaryKeywords: [
-      'piktogram arbeidsark generator online',
-      'diagramtelling arbeidsark for barn',
-      'utskriftsbare datadiagram arbeidsark for skolen',
-      'bildediagram aktivitet generator for selgere',
+      'telle og diagram gratis',
+      'diagrammer barneskole gratis',
+      'telleaktiviteter 1. trinn gratis',
+      'telle og streke gratis',
     ],
     lsiKeywords: [
-      'spredt bilderutenett tellearbeidsark',
-      'autofasit bildediagram generator',
-      'datarepresentasjon arbeidsark online',
+      'telle',
+      'stolpediagram',
+      'streker',
+      'data',
+      'vannmerke',
+      'gratis',
     ],
-    titleTag: 'Bildediagram Arbeidsark Generator — online | Online Verktøy',
-    metaDescription: 'Lag bildediagram arbeidsark for matematikk. Spredte 4×5 rutenett, 6 bildetyper, automatiske fasit, 11 språk, 104. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Telleoppgaver gratis på nett | Generator diagrammer',
+    metaDescription: 'Lag telle- og diagramoppgaver gratis online. Temabilder, automatisk fasit. Ingen registrering. Vannmerket fjernes med lisens.',
   },
 
   hero: {
-    title: 'Diagramtelling Arbeidsark Generator',
+    title: 'Telleoppgaver gratis på nett — Generator for diagrammer med temabilder',
     tagline: 'Bildediagram arbeidsark generator med spredte bilderutenett, automatisk genererte søylediagram-fasit, lokaliserte overskrifter på 11 språk og 104 tematiske bildesamlinger for datarepresentasjons arbeidsark som selger globalt',
     description: 'Lag profesjonelle bildediagram arbeidsark der brukerne teller spredte bilder og fyller ut et søylediagram nedenfor — underviser i datainnsamling og datarepresentasjon i én enkelt aktivitet. Hvert arbeidsark har et 4×5-rutenett med 20 ikoner fra 6 forskjellige bildetyper, hver type forekommer 1–5 ganger i en tilfeldig fordeling som gjør hver generering unik. Under rutenettet viser et søylediagram med 6 kolonner × 5 rader der brukerne registrerer telleresultatene sine. Appen genererer samtidig en fasit på en separat arbeidsområdefane med gulmarkerte (#FFC857) celler som viser de korrekte antallene. Velg bilder automatisk ved å velge et tema fra dropdownen — appen velger tilfeldig 6 bilder — eller bla gjennom Bildebiblioteket manuelt med mer enn 3 100 illustrasjoner i 104 tematiske samlinger og klikk nøyaktig 6 bilder. Hvert arbeidsark inkluderer en automatisk generert overskrift med en lokalisert «Bildediagram»-tittel som tilpasses til alle 11 støttede språk. Legg til navn- og datofelter med et enkelt avkrysningsfelt. Bruk både bakgrunnstemaer og rammetemaer med uavhengige gjennomsiktighetsskyveknapper (0–1, trinn 0,05). Diagramtelling Generatoren er ikke språkfølsom — visuell telling med universelle tall og bilder gjør arbeidsarkene identisk brukbare på alle språk. Last ned fire filer per økt: arbeidsark-JPEG, arbeidsark-PDF, fasit-JPEG og fasit-PDF — alle med 300 DPI. Eksporter i Letter, A4, Kvadrat (1200×1200) eller egendefinerte størrelser med gråtonebryter for blekkvarsom utskrift. Den gratis prøveversjonen inneholder alle funksjoner med et vannmerke. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

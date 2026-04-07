@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skjulte objekter arbeidsark',
+    primaryKeyword: 'finn og merk oppgave gratis',
     secondaryKeywords: [
-      'skjulte objekter arbeidsark generator for selgere',
-      'lag søkebilde skjulte objekter arbeidsark til salg',
-      'utskriftsbar skjulte objekter generator kommersiell bruk',
-      'skjulte objekter puslespill generator for KDP og Etsy',
+      'gjemte gjenstander gratis',
+      'søkebilde gratis skrive ut',
+      'observasjonslek gratis',
+      'finn og ring inn gratis',
     ],
     lsiKeywords: [
-      'søking finn den ulike dobbel modus aktivitet generator',
-      'null-overlapping scenegenerering adaptiv størrelse algoritme',
-      'automatisk fasit rød sirkel annotering skjulte objekter generator',
+      'observasjon',
+      'søke',
+      'finne',
+      'gjemte',
+      'vannmerke',
+      'gratis',
+      'bilde',
     ],
-    titleTag: 'Skjulte Objekter Generator — Skjulte Objekter Arbeidsark...',
-    metaDescription: 'Lag skjulte objekter arbeidsark med Søking og Finn den Ulike-moduser, null-overlapping scener, automatiske fasit og. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Finn og merk oppgave gratis | Generator observasjonsleker online',
+    metaDescription: 'Lag finn-og-merk oppgaver gratis online med temabilder. Automatisk fasit, 300 DPI PDF. Ingen registrering.',
   },
 
   hero: {
-    title: 'Skjulte Objekter Generator',
+    title: 'Finn og merk oppgave gratis — Generator for observasjonsleker online',
     tagline: 'Dobbel modus skjulte objekter arbeidsark generator med Søking-modus (null-overlapping spredte scener med 1–5 skjulte objekter blant 8–12 distraktorer og bunnlegende) og Finn den Ulike-modus (8–12 parrede bilder med 1–5 uparrede objekter gjengitt 50% større), adaptiv bildestørrelsesalgoritme og automatisk genererte fasit med røde sirkelannoteringer',
     description: 'Lag profesjonelle skjulte objekter-arbeidsark med to distinkte aktivitetsmoduser. Søking-modusen sprer 1–5 skjulte objekter blant 8–12 distraktorer med null-overlappingsalgoritme — findBestPosition() tester 50 posisjoner per bilde og reduserer adaptivt størrelsen. En legende i bunnen viser målobjektene. Finn den Ulike-modusen arrangerer 8–12 parrede bilder med 1–5 uparrede objekter gjengitt 50% større. Dobbeltarbeidsområde-systemet genererer fasit med røde sirkler 3–5px større enn objektene. IKKE språkfølsomt — rent visuelt uten lokaliserte bildenavn, universelt salgbart. Bla gjennom 104 tematiske samlinger med mer enn 3 100 illustrasjoner. Eksporter fire filer per økt med 300 DPI. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne vannmerket.',
   },

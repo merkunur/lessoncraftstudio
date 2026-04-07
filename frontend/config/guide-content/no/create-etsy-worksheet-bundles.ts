@@ -2,24 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hvordan lage arbeidsarkpakker for Etsy',
+    primaryKeyword: 'lage arbeidsark-pakker til Etsy',
     secondaryKeywords: [
-      'Etsy arbeidsarkpakke skapingsguide',
-      'pakk printbare arbeidsark for Etsy-salg',
-      'arbeidsarkpakke prisstrategi Etsy',
-      'lag tematiske arbeidsarkpakker for Etsy',
+      'arbeidsark bundle Etsy strategi',
+      'pakke oppgaver for salg Etsy',
+      'tematiske arbeidsark-pakker prissetting',
     ],
     lsiKeywords: [
-      'Etsy pakkestrategi printables',
-      'digital produkt pakkering',
-      'arbeidsarkpakke skaping',
+      'arbeidsark-pakker barneskole Etsy',
+      'Etsy pakkestrategi oppgaver',
+      'kommersiell lisens arbeidsark bundle',
+      'Amazon KDP arbeidsbok-samlinger',
+      'LK20 fagpakker arbeidsark',
+      'digital produkt pakketering',
+      'selge oppgavepakker på nett',
+      'prisnivåer arbeidsark Etsy',
     ],
-    titleTag: 'Lag arbeidsarkpakker for Etsy | LCS',
-    metaDescription: 'Guide til å lage arbeidsarkpakker som selger på Etsy. Temavalg, pakkestørrelse, prisnivåer og oppføringsoptimalisering for printable pakkeselgere.',
+    titleTag: 'Lag arbeidsark-pakker til Etsy | Guide for selgere',
+    metaDescription: 'Slik lager du arbeidsark-pakker som selger på Etsy. Strategi for bundles, prissetting og oppføringer.',
   },
 
   hero: {
-    title: 'Lag arbeidsarkpakker som selger på Etsy',
+    title: 'Lag arbeidsark-pakker til Etsy — guide for selgere med strategi og prissetting',
     tagline: 'En komplett guide til å lage, strukturere, liste og optimalisere arbeidsarkpakker for Etsy — dekker pakketypevalg på tvers av fag, klassetrinn, tema, sesong og formatkategorier, produktvalg for maksimal oppfattet verdi, filorganisering innenfor Etsys leveringsgrenser, pakkespesifikke forhåndsvisningsbilder og miniatyrbildedesign, oppføringstitler og tagger optimalisert for pakke-søkeord, verdi-stablende prisstrategier med ankerrabatter, og ytelsessporing for å identifisere dine bestytende pakkekombinasjoner',
     description: 'Pakker utkonkurrerer konsekvent individuelle arbeidsark på Etsy — kjøpere oppfatter mer verdi, den gjennomsnittlige ordreverdien din øker, og du rangerer for flere søkeord med en enkelt oppføring. Denne guiden viser deg hvordan du lager tematiske arbeidsarkpakker som maksimerer salget: velge temaer, bestemme optimale pakkestørrelser, strukturere prisnivåer, og skrive pakkeoppføringer som konverterer. Du vil lære hvilke pakkeformater som selger best og hvordan du bruker våre generatorer til å produsere komplette pakker i en enkelt sesjon.',
   },

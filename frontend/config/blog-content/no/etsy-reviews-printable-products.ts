@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy anmeldelser printable produkter',
-    secondaryKeywords: ['Etsy anmeldelser printable produkter tips', 'Etsy anmeldelser printable produkter strategi', 'Etsy anmeldelser printable produkter 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Få Etsy-anmeldelser for printable-produkter | LCS',
-    metaDescription: 'Anmeldelser øker både synlighet og konvertering på Etsy. For digitale nedlastinger er det vanskeligere å få anmeldelser enn for fysiske produkter. Den',
+    primaryKeyword: 'få Etsy-anmeldelser arbeidsark produkter',
+    secondaryKeywords: ['Etsy anmeldelser digitale nedlastinger strategi', 'øk antall anmeldelser Etsy oppgaver', 'kundeanmeldelser arbeidsark Etsy'],
+    lsiKeywords: ['sosialbevis digitale produkter', 'konverteringsrate Etsy anmeldelser', 'femstjerners anmeldelse arbeidsark'],
+    titleTag: 'Slik får du Etsy-anmeldelser for arbeidsark | LCS',
+    metaDescription: 'Anmeldelser øker synlighet og konvertering for arbeidsark på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Få Etsy-anmeldelser for printable-produkter',
+    title: 'Slik får du Etsy-anmeldelser for arbeidsark',
     tagline: 'Anmeldelser er valutaen på Etsy',
     description: 'Anmeldelser øker både synlighet og konvertering på Etsy. For digitale nedlastinger er det vanskeligere å få anmeldelser enn for fysiske produkter. Denne guiden gir deg strategier som faktisk fungerer.',
   },

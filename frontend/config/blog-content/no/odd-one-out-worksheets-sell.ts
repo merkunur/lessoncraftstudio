@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'finn den ulike arbeidsark selge',
-    secondaryKeywords: ['finn den ulike arbeidsark selge Etsy', 'finn den ulike arbeidsark selge tips', 'finn den ulike arbeidsark selge strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark bedrift', 'pedagogiske utskrifter salg', 'Etsy nedlasting'],
-    titleTag: 'Finn-den-ulike-arbeidsark: Selg på nett | LCS',
-    metaDescription: 'Finn-den-ulike-arbeidsark: Selg på nett. Komplett guide til produktoppbygging, prissetting og markedsføring for finn den ulike arbeidsark selge i 2026.',
+    primaryKeyword: 'selg finn-den-ulike oppgaver arbeidsark nettbutikk',
+    secondaryKeywords: ['finn den ulike arbeidsark Etsy selgere', 'odd one out oppgaver KDP bøker', 'lag finn-den-ulike oppgaver kommersiell lisens'],
+    lsiKeywords: ['logikkoppgaver arbeidsark forretning', 'finn den som ikke passer selge', 'visuell eliminering oppgaver barn'],
+    titleTag: 'Selg finn-den-ulike-arbeidsark på nett | LCS',
+    metaDescription: 'Finn-den-ulike-oppgaver er universelle og krever ingen leseferdigheter. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Finn-den-ulike-arbeidsark: Selg på nett',
+    title: 'Selg finn-den-ulike-arbeidsark på nett',
     tagline: 'Logisk tenkning gjennom visuell eliminering',
     description: 'Finn-den-ulike-oppgaver (odd one out) trener barns evne til å kategorisere og identifisere forskjeller. De er universelt forståelige, krever ingen leseferdigheter og passer for barn fra 3 år. En perfekt nisje for utskrivbare arbeidsark.',
   },

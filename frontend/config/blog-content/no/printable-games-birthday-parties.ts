@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bursdagsfester utskrivbare spill',
+    primaryKeyword: 'selg bursdagsspill arbeidsark barneselskap Etsy',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'bursdagsaktiviteter arbeidsark selge nett',
+      'bingo skattejakt tegneoppgaver barneselskap',
+      'lag bursdagspakker oppgaver kommersiell lisens',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Utskrivbare spill for bursdagsfester | LCS',
-    metaDescription: 'Utskrivbare spill for bursdagsfester: en stor mulighet for printable-selgere. Bingo, skattejakt, tegneoppgaver og puslespill med tema. Selg på Etsy.',
+    lsiKeywords: ['bursdagsfest arbeidsark forretning', 'barneselskap aktiviteter selge', 'temabasert bursdagspakke oppgaver'],
+    titleTag: 'Selg bursdagsspill og arbeidsark for fester | LCS',
+    metaDescription: 'Foreldre søker ferdigpakkede aktiviteter til barneselskaper som bingo og skattejakt. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Utskrivbare spill for bursdagsfester',
+    title: 'Selg bursdagsspill og arbeidsark for fester',
     tagline: 'Foreldre søker ferdigpakkede aktiviteter for barneselskaper',
     description: 'Bursdagsfester er en stor mulighet for printable-selgere. Foreldre søker etter ferdigpakkede aktiviteter: bingo, skattejakt, tegneoppgaver og puslespill med tema. Disse produktene har høy opplevd verdi og kan prises premium.',
   },

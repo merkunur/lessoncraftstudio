@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'lag sammenhengende printable merkevare 2026',
-    secondaryKeywords: ['lag sammenhengende printable merkevare tips', 'lag sammenhengende printable merkevare guide', 'lag sammenhengende printable merkevare steg for steg'],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Lag en sammenhengende printable-merkevare | LCS',
-    metaDescription: 'En sammenhengende merkevare gjør at kundene gjenkjenner produktene dine, stoler på kvaliteten og kommer tilbake. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'bygg merkevare arbeidsark Etsy',
+    secondaryKeywords: ['sammenhengende merkevare oppgaver Etsy', 'arbeidsark-butikk branding KDP', 'visuell merkevare selge oppgaver'],
+    lsiKeywords: ['merkevare arbeidsark Etsy', 'branding oppgaver butikk', 'KDP merkevare bok', 'kommersiell lisens arbeidsark', 'Etsy butikk gjenkjennelighet', 'arbeidsark konsistens', 'LessonCraftStudio generator'],
+    titleTag: 'Bygg merkevare for arbeidsark-butikken',
+    metaDescription: 'En sterk merkevare gir gjenkjennelighet og gjensalg. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Lag en sammenhengende printable-merkevare',
+    title: 'Bygg merkevare for arbeidsark-butikken din på Etsy',
     tagline: 'Konsistens bygger gjenkjennelighet og lojalitet',
     description: 'En sammenhengende merkevare gjør at kundene gjenkjenner produktene dine, stoler på kvaliteten og kommer tilbake. Denne guiden viser deg hvordan du bygger visuell konsistens på tvers av alle produktene dine.',
   },

@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Musikk utskriftsbare ideer til salg — Nisjeguide',
-    metaDescription: 'Utforsk musikk utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Musikktema produktkonsepter, plattformtips og nisjestrategier for selgere.',
+    titleTag: 'Musikk-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Musikk-oppgaver til salg på Etsy og Amazon KDP. Instrument- og notetema arbeidsark — nisjeideer, plattformtips og produktstrategier for selgere.',
 
-    primaryKeyword: 'musikk utskriftsbare ideer',
+    primaryKeyword: 'musikk-oppgaver til salg',
     secondaryKeywords: [
-      'musikk arbeidsark til salg',
-      'musikktema utskriftsbar forretning',
-      'musikk aktivitetsark for selgere',
-      'selg musikk printables online',
+      'selge musikk-arbeidsark Etsy',
+      'instrument-oppgaver KDP',
+      'musikktema arbeidsark til salg',
+      'noter og rytme oppgaver for selgere',
     ],
     lsiKeywords: [
-      'instrument pedagogiske arbeidsark',
-      'musikkteoretiske aktivitetssider',
-      'noter og rytme utskriftsbare produkter',
+      'nisje musikk-oppgaver',
+      'tema instrument arbeidsark',
+      'sesong musikkoppgaver',
+      'Etsy musikk arbeidsark',
+      'KDP musikk aktivitetsbok',
+      'selge oppgaver digitalt',
+      'eviggrønn musikknisje',
     ],
   },
   hero: {
-    title: 'Musikk utskriftsbare forretningsideer for selgere',
+    title: 'Musikk-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Musikk utskriftsbare produkter betjener et voksende marked av foreldre, musikklærere og kjøpere som søker engasjerende materialer for å introdusere barn til instrumenter, noter, rytme og musikkteori. Musikknisjen tilbyr en unik kombinasjon av visuell appell gjennom instrumentillustrasjoner og pedagogisk dybde gjennom musikkteori og lytteferdigheter. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad kombinerer musikknisjen helårs etterspørsel med sterke topper under skolens musikkprogrammer og ferieopptredener. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å hjelpe deg med å bygge en lønnsom musikk utskriftsbar produktlinje med våre arbeidsarkgeneratorverktøy.',
   },
   marketOverview: `Musikk utskriftsbar-nisjen er en spesialisert men lønnsom del av det pedagogiske produktmarkedet som betjener flere distinkte kjøpersegmenter. Musikkutdanning har fått fornyet oppmerksomhet ettersom forskning dokumenterer sammenhenger mellom musikktrening og kognitiv utvikling, noe som driver foreldre til å investere i musikkpedagogiske materialer for barn. Denne trenden skaper etterspørsel etter utskriftsbare arbeidsark som gjør musikkteorikonsepter tilgjengelige for barn gjennom visuelt engasjerende formater.

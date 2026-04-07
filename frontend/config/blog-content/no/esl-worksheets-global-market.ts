@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'norsk andrespråk globalt marked',
-    secondaryKeywords: ['norskkurs arbeidsark globalt marked Etsy', 'norskkurs arbeidsark globalt marked strategi', 'norskkurs arbeidsark globalt marked tips'],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Norsk som andrespråk: Et globalt marked | LCS',
-    metaDescription: 'Arbeidsark for norsk som andrespråk er en nisje med enorm vekst. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'selg norsk som andrespråk arbeidsark',
+    secondaryKeywords: ['norsk andrespråk oppgaver Etsy selge', 'norskkurs arbeidsark lav konkurranse', 'norskopplæring materiell selge på nett'],
+    lsiKeywords: ['arbeidsark norsk alfabet æøå', 'voksenopplæring norsk utskrift', 'norskkurs pedagogisk materiell'],
+    titleTag: 'Selg norsk som andrespråk-arbeidsark på nett | LCS',
+    metaDescription: 'Norsk som andrespråk er en nisje med enorm vekst og lav konkurranse. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Norsk som andrespråk: Et globalt marked',
+    title: 'Selg norsk som andrespråk-arbeidsark på nett',
     tagline: 'Norskopplæring er en unik nisje med lav konkurranse',
     description: 'Arbeidsark for norsk som andrespråk er en nisje med enorm vekst. Kommunale norskopplæringsprogrammer, private språkskoler og selvlærende bruker utskrivbare materialer. Med få konkurenter på Etsy og Undervisningsbyen.no er dette en gullgruve for norske selgere.',
   },

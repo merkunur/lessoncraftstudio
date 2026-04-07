@@ -2,25 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag handskriftsark for salg',
+    primaryKeyword: 'lag skrivemotorikk-oppgaver steg for steg',
     secondaryKeywords: [
-      'lag handskriftsovelsesark for salg',
-      'lag handskriftsarbeidsark for Etsy',
-      'lag sporingsarbeidsark for KDP-boker',
-      'handskriftsark opprettelsesguide',
-      'selg handskrifts-printables pa nett',
+      'lage skrivemotorikk-oppgaver for Etsy',
+      'selge handskriftsarbeidsark på Amazon KDP',
+      'lag sporingsoppgaver for barn',
+      'skrivemotorikk-oppgaver kommersiell lisens',
     ],
     lsiKeywords: [
-      'handskriftsprodukt oppretting',
-      'sporingsarbeidsark virksomhet',
-      'salgbare handskriftsprodukter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'skrivemotorikk-oppgaver med bokstavsporing',
+      'handskriftsarbeidsark å skrive ut',
     ],
-    titleTag: 'Lag handskriftsark for salg pa nett | LCS',
-    metaDescription: 'Guide til a lage handskriftsovelsesark for salg. Tre ovelsesmoduser, skriftstiler og strategier for Etsy og KDP handskriftsarbeidshefteselgere.',
+    titleTag: 'Lag skrivemotorikk-oppgaver | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag skrivemotorikk-oppgaver å skrive ut med tre øvelsesmoduser og strekpiler. Progressive nivåer. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag handskriftsovelsesark for salg pa nett',
+    title: 'Lag skrivemotorikk-oppgaver — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage profesjonelle handskriftsarbeidsark med progressive ovelsesmoduser, strekrekkefolge-piler og utskriftsklar eksport for Etsy, Amazon KDP og Gumroad',
     description: 'Handskriftsarbeidsark er eviggronne selgere — foreldre og hjemmeundervisningsfamilier kjoper ovelsesark aret rundt nar barn utvikler skriveferdigheter. Denne guiden dekker a lage profesjonelle handskriftsark designet for salg: utnyttelse av tre progressive ovelsesmoduser for vanskelighetsnivåer, valg av skriftstiler som matcher laerenlanstandarder, og bygging av tematiske arbeidshefter for Amazon KDP. Du vil laere hvordan du lager komplette handskriftsproduktlinjer fra bokstavsporing gjennom selvstendig skriving, alt fra en enkelt genereringsokt.',
   },

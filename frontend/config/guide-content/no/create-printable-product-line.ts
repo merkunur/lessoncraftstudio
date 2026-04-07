@@ -2,27 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag printbar produktlinje',
+    primaryKeyword: 'bygge arbeidsark-produktlinje',
     secondaryKeywords: [
-      'bygg printable produktlinje for Etsy',
-      'printable produktlinje strategi',
-      'systematisk printbar produktoppretting',
-      'konsistent arbeidsark merkevare',
+      'produktlinje arbeidsark Etsy strategi',
+      'arbeidsark merkevare og skalering',
+      'systematisk oppgaveproduksjon for salg',
     ],
     lsiKeywords: [
-      'produktlinje arkitektur printables',
-      'visuell konsistens arbeidsark merkevare',
-      'temabasert produktlinje utvidelse',
-      'selg printbar produktlinje pa Etsy',
+      'arbeidsark-produktlinje barneskole',
+      'nisjevalg arbeidsark Etsy',
       'Amazon KDP produktlinje strategi',
       'kommersiell lisens produktlinje',
+      'skalering arbeidsark-virksomhet',
+      'temabasert produktlinje utvidelse',
+      'visuell konsistens merkevare',
+      'markedsføring arbeidsark selgere',
     ],
-    titleTag: 'Lag en printbar produktlinje — Guide',
-    metaDescription: 'Lag en sammenhengende printbar produktlinje med konsistent formatering, temavariasjoner og strategisk produktarkitektur for Etsy, KDP og Gumroad.',
+    titleTag: 'Bygg en arbeidsark-produktlinje | Selgerguide',
+    metaDescription: 'Slik bygger du en profesjonell arbeidsark-produktlinje. Nisjevalg, skalering og markedsføring for Etsy & KDP.',
   },
 
   hero: {
-    title: 'Hvordan lage en printbar produktlinje',
+    title: 'Bygg en arbeidsark-produktlinje — selgerguide med nisjevalg og skalering',
     tagline: 'En komplett guide til a bygge en sammenhengende produktlinje av printbare arbeidsark — som dekker visuell konsistens, temabasert utvidelse, vanskelighetsgradering, formatalternering og strategisk produktarkitektur for maksimal markedsplasssynlighet',
     description: 'De mest vellykkede printable-selgerne selger ikke individuelle produkter — de selger produktlinjer. En produktlinje er en samling relaterte produkter som deler konsistent formatering, visuell identitet og merkevareelementer mens de varierer i tema, vanskelighetsgrad eller innhold. Denne guiden viser deg hvordan du bygger en profesjonell produktlinje fra bunnen av ved hjelp av arbeidsarkgeneratorer for a produsere konsistente, hoyvolum produktsamlinger som kjopere gjenkjenner, stoler pa og kjoper fra gjentatte ganger.',
   },

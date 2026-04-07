@@ -2,27 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag arbeidsarkpakker',
+    primaryKeyword: 'lage arbeidsark-pakker til salg',
     secondaryKeywords: [
-      'arbeidsarkpakker for Etsy',
-      'printable pakkestrategier for salg',
-      'lag hoyverdi arbeidsarksamlinger',
-      'arbeidsark pakketering og prissetting',
+      'arbeidsark-pakker prissetting strategi',
+      'oppgavepakker Etsy KDP Gumroad',
+      'tematiske arbeidsark-samlinger for selgere',
     ],
     lsiKeywords: [
-      'tematiske arbeidsarkpakker',
-      'klassetrinnspakker',
-      'formatpakker arbeidsark',
-      'selg arbeidsarkpakker pa Etsy',
-      'Amazon KDP arbeidsbok samlinger',
-      'kommersiell lisens arbeidsarkpakker',
+      'arbeidsark-pakker barneskole trinn',
+      'tematiske oppgavepakker Etsy',
+      'Amazon KDP arbeidsbok-samlinger',
+      'kommersiell lisens arbeidsark-pakker',
+      'klassetrinnspakker LK20',
+      'formatpakker arbeidsark selge',
+      'prissetting pakker Gumroad',
+      'progressiv vanskelighet oppgaver',
     ],
-    titleTag: 'Lag arbeidsarkpakker — Guide',
-    metaDescription: 'Lag hoyverdi arbeidsarkpakker med tematiske, klassetrinns- og formatpakker. Komplett guide for pakketering, prissetting og salg pa Etsy, KDP og Gumroad.',
+    titleTag: 'Lag arbeidsark-pakker til salg | Guide for selgere',
+    metaDescription: 'Slik lager du profesjonelle arbeidsark-pakker til salg. Strategi for Etsy, KDP og andre plattformer.',
   },
 
   hero: {
-    title: 'Hvordan lage arbeidsarkpakker som selger',
+    title: 'Lag arbeidsark-pakker til salg — guide for selgere med strategi for Etsy og KDP',
     tagline: 'En komplett guide til a lage hoyverdi arbeidsarkpakker — som dekker tematiske pakker, klassetrinnspakker, formatpakker, progressiv vanskelighetsstrukturering, flerspraklige samlinger og prissettingstrategier for Etsy, Amazon KDP og Gumroad',
     description: 'Arbeidsarkpakker er den mest effektive maten a oke omsetning per transaksjon i en printable-virksomhet. I stedet for a selge individuelle arbeidsark til $1,99-$3,99, lar pakker deg selge samlinger til $9,99-$29,99 — uten a lage nytt innhold. Denne guiden viser deg hvordan du strategisk bygger, strukturerer og prissetter arbeidsarkpakker som konverterer sporadiske kjopere til hoyverdi-kunder.',
   },

@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skyggekobling arbeidsark selge 2026',
-    secondaryKeywords: ['skyggekobling arbeidsark selge Etsy', 'skyggekobling arbeidsark selge tips', 'skyggekobling arbeidsark selge strategi'],
-    lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
-    titleTag: 'Skyggekobling-arbeidsark: Selg på nett | LCS',
-    metaDescription: 'Skyggekobling-arbeidsark: Selg på nett. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',
+    primaryKeyword: 'skyggematching oppgaver selge Etsy',
+    secondaryKeywords: ['skyggematching arbeidsark selge nettbutikk', 'silhuett-oppgaver forretning barn', 'skyggepuslespill arbeidsark selge tips'],
+    lsiKeywords: ['koble skygge oppgaver salg', 'pedagogiske arbeidsark forretning', 'Etsy digital nedlasting barnehage'],
+    titleTag: 'Skyggematching-oppgaver: Selg på nett | LCS',
+    metaDescription: 'Lag og selg skyggematching-oppgaver for barn på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Skyggekobling-arbeidsark: Selg på nett',
+    title: 'Skyggematching-oppgaver: Selg på nett',
     tagline: 'Silhuett-puslespill som småbarn elsker',
     description: 'Denne guiden dekker alt du trenger for å bygge en lønnsom forretning med skyggekobling arbeidsark selge. Fra produktoppbygging og prissetting til SEO-optimalisering og plattformvalg. Lær hvordan du bruker LessonCraftStudios generatorer til å lage profesjonelle produkter på minutter og selge dem på Etsy, Amazon KDP og Undervisningsbyen.no.',
   },

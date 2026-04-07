@@ -2,24 +2,15 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'preposisjoner arbeidsark generator',
-    secondaryKeywords: [
-      'preposisjoner arbeidsark generator for selgere',
-      'lag preposisjoner arbeidsark til salg',
-      'utskriftsbare romlige preposisjoner arbeidsark kommersiell bruk',
-      'preposisjoner generator for KDP',
-    ],
-    lsiKeywords: [
-      'romlige preposisjoner utskriftsbare for Etsy',
-      'stedsord arbeidsark verktøy',
-      'flerspråklig preposisjoner aktivitet generator',
-    ],
-    titleTag: 'Preposisjoner Arbeidsark Generator | Selg Utskriftsbare',
-    metaDescription: 'Generer preposisjoner arbeidsark med utfyllings- og flervalgsmodus, formerstatning, 104 temaer, 11 språk. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'romforståelse oppgave gratis',
+    secondaryKeywords: ['preposisjoner øvelser gratis', 'over under ved siden av gratis', 'stedsbegreper gratis online', 'retningsbegreper gratis'],
+    lsiKeywords: ['preposisjon', 'romforståelse', 'stedsbegrep', 'retning', 'vannmerke', 'gratis', 'over', 'under'],
+    titleTag: 'Romforståelse oppgave gratis | Preposisjonsgenerator online',
+    metaDescription: 'Lag oppgaver om romforståelse og preposisjoner gratis online. Temabilder, automatisk fasit, 11 språk. Ingen registrering.',
   },
 
   hero: {
-    title: 'Preposisjoner Arbeidsark Generator',
+    title: 'Romforståelse oppgave gratis — Preposisjonsgenerator online med temabilder',
     tagline: 'Lag romlige preposisjoner arbeidsark med to øvelsesmoduser på 11 språk',
     description: 'Lær bort stedsord gjennom bildebaserte øvelser som brukerne virkelig liker. Dette verktøyet genererer preposisjoner arbeidsark der brukerne identifiserer romlige relasjoner — på, under, over, ved siden av, mellom, inne i, utenfor — ved å studere bildescener og fylle inn eller velge riktig preposisjon. Velg mellom to øvelsesmoduser: Utfylling, der brukerne skriver riktig preposisjon selv, eller Flervalg, der de velger blant alternativer med en tilpassbar instruksjonsrad. Still inn 1–8 øvelser per arbeidsark og velg nøyaktig hvilke preposisjoner som skal inkluderes med avkrysningsrutenettet. Verktøyets fremtredende funksjon er Formerstatning — et separat bildelag som lar deg bytte sceneformer uavhengig, noe som generator langt flere visuelle kombinasjoner enn et enkelt bildesett kan tilby. Språkfølsomhet er innebygd: bytt fra norsk til et av de 11 støttede språkene, og hvert preposisjonsord oppdateres til sin nasjonale ekvivalent. Engelsk bruker «on, under, above, beside, between, inside, outside»; tysk bruker «auf, unter, über, neben, zwischen, drinnen, draußen». Ett arbeidsarkdesign blir 11 unike språkprodukter. Bla gjennom mer enn 3 100 bilder i 104 temaer, last opp din egen PNG eller JPEG for merkevaredesign, og velg blant flere maler og 7 skriftfamilier. Eksporter som trykklar PDF eller høyoppløst JPEG. Den gratis prøveversjonen inneholder et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mockup produktfotografering mockups printables',
-    secondaryKeywords: ['printable produktfotografering mockups tips', 'printable produktfotografering mockups guide', 'printable produktfotografering mockups steg for steg'],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Produktfotografering og mockups for printables | LCS',
-    metaDescription: 'Gode annonsebilder er den viktigste faktoren for klikk på Etsy. Denne guiden viser deg hvordan du lager profesjonelle mockup-bilder med gratis verktøy',
+    primaryKeyword: 'produktfotografering mockups arbeidsark Etsy guide',
+    secondaryKeywords: ['lag mockup bilder arbeidsark gratis verktøy', 'produktbilder digitale nedlastinger steg for steg', 'mockup maler arbeidsark Etsy selgere'],
+    lsiKeywords: ['mockup arbeidsark uten kamera', 'produktbilder gratis verktøy Etsy', 'annonsebilder digital butikk'],
+    titleTag: 'Produktfotografering og mockups for arbeidsark | LCS',
+    metaDescription: 'Lag profesjonelle mockup-bilder for arbeidsark uten kamera eller fotostudio. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Produktfotografering og mockups for printables',
+    title: 'Produktfotografering og mockups for arbeidsark',
     tagline: 'Profesjonelle bilder selger — og du trenger ikke kamera',
     description: 'Gode annonsebilder er den viktigste faktoren for klikk på Etsy. Denne guiden viser deg hvordan du lager profesjonelle mockup-bilder med gratis verktøy, uten kamera eller fotostudio.',
   },

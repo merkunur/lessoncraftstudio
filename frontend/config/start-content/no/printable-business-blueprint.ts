@@ -2,25 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'utskriftsbar forretningsplan',
+    primaryKeyword: 'arbeidsark-virksomhet plan',
     secondaryKeywords: [
-      'utskriftsbar forretningsplan fra ide til inntekt',
-      'utskriftsbar forretning veikart guide',
-      'ide til inntekt utskriftsbar plan',
-      'utskriftsbar forretning steg for steg plan',
-      'bygge utskriftsbar forretning fra bunnen av',
+      'forretningsplan arbeidsark',
+      'arbeidsark-virksomhet fra grunnen',
+      'oppgavevirksomhet steg for steg',
+      'selge arbeidsark plan',
     ],
     lsiKeywords: [
-      'utskriftsbar forretningsplanlegging',
-      'digitalt produkt veikart',
-      'utskriftsbar inntektsplan',
+      'forretningsplan',
+      'strategi',
+      'nisje',
+      'plattform',
+      'Etsy',
+      'KDP',
+      'inntekt',
     ],
-    titleTag: 'Utskriftsbar Forretningsplan: Idé til Inntekt | LCS',
-    metaDescription: 'Din utskriftsbare forretningsplan fra idé til inntekt. Steg-for-steg veikart som dekker nisjevalg, produktskaping, lansering og skaleringsstrategier for selgere',
+    titleTag: 'Arbeidsark-virksomhet plan | Din blåkopi til suksess',
+    metaDescription: 'Din blåkopi for å starte en lønnsom arbeidsark-virksomhet. Nisjevalg, plattformvalg, prissetting og skalering.',
   },
 
   hero: {
-    title: 'Utskriftsbar Forretningsplan: Fra Idé til Inntekt',
+    title: 'Arbeidsark-virksomhet plan — Din blåkopi til suksess',
     tagline: 'En strukturert plan som forvandler spredte forretningsideer for utskriftsbare produkter til en fokusert, inntektsgenererende produktlinje',
     description: 'Denne planen kartlegger den komplette reisen fra din første produktidé til konsistente inntekter fra utskriftsbare produkter — hvert beslutningspunkt, hver milepæl og hver fallgruve å unngå underveis. Du lærer hvordan du validerer en nisje før du investerer tid, lager produkter som møter markedets etterspørsel, lanserer på riktig plattform og skalerer utover dine første salg. I motsetning til generelle forretningsråd er hver strategi i denne planen spesifikk for utskriftsbare produkter og markedsplassene der de selger.',
   },

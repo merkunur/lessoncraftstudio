@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'koblingsoppgaver småbarn markedet 2026',
-    secondaryKeywords: ['matching arbeidsark selge', 'koblingsark barn Etsy', 'småbarn aktiviteter utskrift'],
-    lsiKeywords: ['parre-oppgaver utskrift', 'visuell kobling barn', 'toddler arbeidsark salg'],
-    titleTag: 'Koblingsoppgaver: Småbarnsmarkedet 2026 | LCS',
-    metaDescription: 'Selg koblingsoppgaver for småbarn på Etsy. Stor etterspørsel, lav konkurranse. Strategi for det norske markedet.',
+    primaryKeyword: 'selg koblingsoppgaver småbarn Etsy',
+    secondaryKeywords: ['matching arbeidsark småbarn forretning', 'koblingsark 2-6 år selge', 'parre-oppgaver barn Etsy nisje'],
+    lsiKeywords: ['visuell gjenkjenning småbarn', 'skyggekobling bilde-matching', 'første pedagogiske oppgave barn'],
+    titleTag: 'Selg koblingsoppgaver for småbarn på Etsy | LCS',
+    metaDescription: 'Koblingsoppgaver er det første arbeidsarket foreldre kjøper. Stor etterspørsel, lav konkurranse. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Koblingsoppgaver: Småbarnsmarkedet',
+    title: 'Selg koblingsoppgaver for småbarn på Etsy',
     tagline: 'Det første arbeidsarket foreldre kjøper til barnet sitt',
     description: 'Koblingsoppgaver er ofte det aller første pedagogiske utskriftsproduktet foreldre kjøper. Barn fra 2–3 år kan begynne med enkle bilde-til-bilde-koblinger. Det gjør dette til et av de tidligste inngangspunktene i kundens kjøpsreise — og en mulighet for livslang kundelojalitet.',
   },

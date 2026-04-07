@@ -2,24 +2,30 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag kryptogrampuslespill for salg',
+    primaryKeyword: 'lag kryptogrammer å skrive ut steg for steg',
     secondaryKeywords: [
-      'lag chifferpuslespill for Etsy',
-      'lag kryptogramboker for KDP',
-      'kryptogram opprettelsesguide for selgere',
-      'selg kodeknekker-printables pa nett',
+      'lage kryptogrammer med bildechiffer for Etsy',
+      'selge kryptogrampuslespill på Amazon KDP',
+      'lag kodeknekker-oppgaver for barn',
+      'kryptogrammer barneskole kommersiell lisens',
     ],
     lsiKeywords: [
-      'kryptogram produktoppretting',
-      'chifferpuslespill virksomhet',
-      'salgbare kodeknekker-produkter',
+      'barneskole',
+      '1. trinn',
+      'småskoletrinnet',
+      'LK20',
+      'kommersiell lisens',
+      'Etsy',
+      'KDP',
+      'kryptogrammer med temabilder',
+      'kodeknekker-oppgaver å skrive ut',
     ],
-    titleTag: 'Lag kryptogrampuslespill for salg pa nett | LCS',
-    metaDescription: 'Guide til a lage kryptogrampuslespill for salg. Bildechiffer-format, vanskelighetskontroll og strategier for Etsy og KDP chifferpuslespillselgere.',
+    titleTag: 'Lag kryptogrammer å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag kryptogrammer å skrive ut med bildechiffer og 11 språk. Justerbar vanskelighetsgrad og fasit. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lag kryptogrampuslespill for salg pa nett',
+    title: 'Lag kryptogrammer å skrive ut — med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage bilde-chifferpuslespill der hver alfabetbokstav mapper til et unikt bilde og losere dekoder hele hemmelige fraser gjennom monstergjenkjenning, med en Bokstaver a avsslore-glidebryter (0-10) som primaer vanskelighetskontroll, Automatisk tilordning for ett-klikks batchproduksjon og Manuell tilordning for handplukket presisjon, sprakbevisste alfabeter som legger til sprakspesifikke tegn som tyske ae/oe/ue/ss og franske e/e/c/a, Farge vs svart-hvitt-filter for dobbel produktoppretting, bokstavforklaring-fasiter, og 400+ DPI-eksporter du kan selge over hele verden pa Etsy, Amazon KDP og Gumroad',
     description: 'Kryptogrampuslespill har en av de lavest-konkurranse nisjene i det printbare puslespillmarkedet — og bildekryptogrammer med bildechiffer er enda mer distinktive. Denne guiden dekker a lage profesjonelle chifferpuslespill designet for salg: bruk av Bokstaver a avsslore-glidebryteren for vanskelighetsnivåer, valg av temaer som generator visuelt tiltalende chiffernokler, og pakking av puslespillboker for Amazon KDP. Du vil laere hvordan 11-sprakstotte med sprakspesifikke alfabeter generator genuint forskjellige chifferprodukter per marked, noe som gir deg en flerspraklig fordel ingen konkurrent kan matche.',
   },

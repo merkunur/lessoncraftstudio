@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Undervisningsbyen vs Etsy arbeidsark sammenligning',
+    primaryKeyword: 'Undervisningsbyen vs Etsy arbeidsark selge',
     secondaryKeywords: [
-      'praktisk gjennomføring',
-      'optimalisering måling',
-      'vanlige feil unngå',
+      'sammenlign plattformer arbeidsark salg',
+      'Etsy vs norske markedsplasser arbeidsark',
+      'beste plattform selge arbeidsark Norge',
     ],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Undervisningsbyen.no vs Etsy: Sammenligning | LCS',
-    metaDescription: 'Undervisningsbyen.no er Norges svar på Teachers Pay Teachers — en plattform der lærere kjøper pedagogisk materiale fra andre lærere. Etsy er det globa',
+    lsiKeywords: ['arbeidsark plattformvalg forretning', 'selge arbeidsark strategi', 'digital nedlasting inntekt Norge'],
+    titleTag: 'Undervisningsbyen vs Etsy: Hvor selge? | LCS',
+    metaDescription: 'Sammenlign Undervisningsbyen.no og Etsy for salg av arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Undervisningsbyen.no vs Etsy: Sammenligning',
+    title: 'Undervisningsbyen vs Etsy: Hvor bør du selge?',
     tagline: 'To plattformer, to strategier, én forretning',
     description: 'Undervisningsbyen.no er Norges svar på Teachers Pay Teachers — en plattform der lærere kjøper pedagogisk materiale fra andre lærere. Etsy er det globale markedet for digitale nedlastinger. Denne guiden sammenligner de to for norske arbeidsark-selgere.',
   },

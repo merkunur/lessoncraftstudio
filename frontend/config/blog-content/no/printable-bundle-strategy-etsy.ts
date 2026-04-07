@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable pakke strategi Etsy',
-    secondaryKeywords: ['printable pakke strategi Etsy tips', 'printable pakke strategi Etsy strategi', 'printable pakke strategi Etsy 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Pakkestrategi for Etsy-printables | LCS',
-    metaDescription: 'Pakkestrategien er den viktigste lønnsomhetsdriveren for Etsy-selgere. Denne guiden viser deg nøyaktig hvordan du setter sammen, prissetter og markeds',
+    primaryKeyword: 'pakkestrategi arbeidsark Etsy selgere lønnsomhet',
+    secondaryKeywords: ['arbeidsark pakker Etsy høyere fortjeneste', 'pakkeprising digitale produkter strategi', 'sett sammen arbeidsark pakker selge'],
+    lsiKeywords: ['pakkestrategi digital butikk', 'ordreverdi arbeidsark Etsy', 'pakkeprising lønnsomhet selgere'],
+    titleTag: 'Pakkestrategi for arbeidsark på Etsy | LCS',
+    metaDescription: 'Pakker tredobler gjennomsnittlig ordreverdi for arbeidsark-selgere. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Pakkestrategi for Etsy-printables',
+    title: 'Pakkestrategi for arbeidsark på Etsy',
     tagline: 'Pakker tredobler gjennomsnittlig ordreverdi',
     description: 'Pakkestrategien er den viktigste lønnsomhetsdriveren for Etsy-selgere. Denne guiden viser deg nøyaktig hvordan du setter sammen, prissetter og markedsfører pakker som maksimerer fortjenesten per salg.',
   },

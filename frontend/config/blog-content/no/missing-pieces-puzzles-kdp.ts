@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'manglende brikker puslespill KDP 2026',
+    primaryKeyword: 'selg manglende brikker oppgaver KDP aktivitetsbøker',
     secondaryKeywords: [
-      'produktoppbygging differensiering',
-      'prissetting pakkestrategier',
-      'etsy seo markedsføring',
+      'manglende brikker arbeidsark Etsy butikk',
+      'puslespill arbeidsark KDP selgere',
+      'lag manglende brikker oppgaver kommersiell lisens',
     ],
-    lsiKeywords: ['utskrivbare arbeidsark salg', 'pedagogiske utskrifter forretning', 'Etsy digital nedlasting'],
-    titleTag: 'Manglende brikker-puslespill på KDP | LCS',
-    metaDescription: 'Manglende brikker-puslespill på KDP. Produktstrategi, prissetting og markedsføringstips for Etsy og Undervisningsbyen.no i 2026.',
+    lsiKeywords: ['arbeidsark forretning nisje', 'KDP aktivitetsbøker barn', 'Etsy digitale nedlastinger selge'],
+    titleTag: 'Selg manglende brikker-oppgaver på KDP | LCS',
+    metaDescription: 'Bygg en lønnsom KDP-nisje med manglende brikker-oppgaver. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Manglende brikker-puslespill på KDP',
+    title: 'Selg manglende brikker-oppgaver på KDP',
     tagline: 'En unik KDP-nisje med lav konkurranse',
     description: 'Denne guiden dekker alt du trenger for å bygge en lønnsom forretning med manglende brikker puslespill KDP. Fra produktoppbygging og prissetting til SEO-optimalisering og plattformvalg. Lær hvordan du bruker LessonCraftStudios generatorer til å lage profesjonelle produkter på minutter og selge dem på Etsy, Amazon KDP og Undervisningsbyen.no.',
   },

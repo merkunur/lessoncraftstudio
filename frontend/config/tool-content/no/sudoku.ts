@@ -2,24 +2,15 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bildesudoku for barn',
-    secondaryKeywords: [
-      'bildesudoku generator for selgere',
-      'lag bildesudoku puslespill til salg',
-      'utskriftsbar bildesudoku generator kommersiell bruk',
-      'bildesudoku arbeidsark generator for KDP og Etsy',
-    ],
-    lsiKeywords: [
-      '4x4 rutenett bildelogikk puslespill generator',
-      'tre vanskelighetsnivåer lett medium vanskelig sudoku generator',
-      'automatisk fasit komplett utfylt rutenett sudoku generator',
-    ],
-    titleTag: 'Bildesudoku Generator — Bildesudoku for Barn Generator',
-    metaDescription: 'Lag bildesudoku for barn med 4×4 bilderutenett, tre vanskelighetsnivåer, automatiske fasit og 104 tematiske. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'sudoku gratis skrive ut',
+    secondaryKeywords: ['sudoku generator gratis', 'sudoku barn gratis', 'sudoku med bilder gratis', 'lage egen sudoku gratis'],
+    lsiKeywords: ['logikk', 'tall', 'rutenett', 'vanskelighetsgrad', 'vannmerke', 'gratis', 'bilder'],
+    titleTag: 'Sudoku gratis å skrive ut | Generator med bilder online',
+    metaDescription: 'Lag sudoku gratis online med bilder eller tall, justerbar vanskelighetsgrad. Automatisk fasit. Ingen registrering.',
   },
 
   hero: {
-    title: 'Bildesudoku Generator',
+    title: 'Sudoku gratis å skrive ut — Generator med bilder og justerbar vanskelighetsgrad',
     tagline: '4×4 bildebasert sudoku puslespill generator med tre vanskelighetsnivåer (Lett 4 tomme, Medium 6 tomme, Vanskelig 8 tomme), automatisk genererte fasit med komplette utfylte rutenett, temabasert og manuelt bildevalg over 104 samlinger med mer enn 3 100 illustrasjoner, premiumrutenettdesign med alternerende blokkfarger og flerlags skygger, og rent visuelle puslespill som selger globalt uten oversettelse',
     description: 'Lag profesjonelle bildesudoku for barn der brukerne fyller tomme celler med de riktige bildene ved hjelp av rad-og-kolonne-logikk på et 4×4 rutenett. Hvert puslespill bruker nøyaktig 4 unike bilder som må forekomme én gang i hver rad og én gang i hver kolonne — de samme reglene som klassisk sudoku, men med fargerike illustrasjoner i stedet for tall. Tre vanskelighetsnivåer: Lett fjerner 4 celler, Medium fjerner 6, Vanskelig fjerner 8 — halvparten av rutenettet. Velg bilder gjennom temabasert autovalg som tilfeldig velger 4 bilder fra 104 tematiske samlinger, eller manuelt valg. Premiumrutenettdesignet har alternerende 2×2-blokkfarger i lyseblå (#F8F9FC) og lyserosa (#FFF5F7), fete midtdelere (#7C8DB5, 3px), lettere indre linjer (#D1D9E6, 1,5px), indigoblå ytre ramme (#667EEA) med 18px avrundede hjørner, og tre flerlags skygger. Bilder vises med 65% av cellestørrelsen. Hvert puslespill genererer en stilisert «Bildesudoku»-overskrift med lilla bakgrunn (#5E35B1). Dobbeltarbeidsområde-systemet oppretter samtidig arbeidsark og fasit — fasiten viser det komplette utfylte 4×4-rutenettet med alle 16 celler. Da bildesudoku er helt visuelt — ingen ord på puslespillrutenettet — fungerer hvert arbeidsark identisk på alle språk, universelt salgbart. Eksporter PDF-er og JPEG-bilder med 300 DPI i Letter, A4 eller egendefinerte størrelser. Bytt gråtone. 50-trinns angre/gjenta. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne vannmerket.',
   },

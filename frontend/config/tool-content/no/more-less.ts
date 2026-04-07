@@ -2,24 +2,15 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'storre enn mindre enn arbeidsark',
-    secondaryKeywords: [
-      'storre enn mindre enn arbeidsark generator for selgere',
-      'lag sammenligningsarbeidsark til salg',
-      'utskriftsbare tallsammenligning arbeidsark kommersielt bruk',
-      'mer eller mindre matematikk arbeidsark generator til KDP',
-    ],
-    lsiKeywords: [
-      'visuelle sammenligning utskriftsbare til Etsy',
-      'kvantitetssammenligning arbeidsark verktoy',
-      'sjekk og kryss matematikk aktivitet generator',
-    ],
-    titleTag: 'Storre Enn Mindre Enn Arbeidsark | Selg på Nett',
-    metaDescription: 'Lag visuelle storre enn, mindre enn og lik med arbeidsark med bilder på sekunder. Tre moduser inkl. unikt Sjekk og Kryss. Selg på Etsy, KDP og Gumroad.',
+    primaryKeyword: 'større enn mindre enn gratis',
+    secondaryKeywords: ['sammenligne tall gratis', 'større enn mindre enn lik gratis', 'flere færre gratis online', 'sammenligne mengder gratis'],
+    lsiKeywords: ['sammenligne', 'tall', 'mengde', 'større', 'mindre', 'vannmerke', 'gratis', 'lik'],
+    titleTag: 'Større enn mindre enn gratis | Sammenligningsgenerator online',
+    metaDescription: 'Lag oppgaver om å sammenligne tall og mengder gratis online. Temabilder, automatisk fasit. Ingen registrering.',
   },
 
   hero: {
-    title: 'Storre Enn Mindre Enn Arbeidsark Generator',
+    title: 'Større enn mindre enn gratis — Sammenligningsgenerator online med bilder',
     tagline: 'Lag visuelle sammenligningsarbeidsark med tre ovelsesmoduser på under 60 sekunder',
     description: 'Undervis i storre enn, mindre enn og lik med gjennom bildebaserte sammenligningsarbeidsark som gjor abstrakte begreper konkrete. Dette verktøyet genererer tre distinkte ovelsestyper: Bilde mot Bilde (sammenlign to bildegrupper side om side), Bilde mot Tall (brobygning mellom visuell telling og skrevne tall), og den unike Sjekk og Kryss Grupper-modusen der brukerne sorterer en blandet boks med omroerte bilder i majoritets- og minoritetskategorier. Velg blant mer enn 100 bildetemaer, still inn tallintervallet ditt, velg mellom illustrerte eller vanlige sammenligningssymboler og last ned trykkeklare PDF-er eller hoyopploste JPEG-bilder. Fordi arbeidsarkene kun bruker bilder, tall og symboler, fungerer de identisk på alle 11 stoettede språk — lag en gang og selg til kjopere over hele verden. Den gratis proveversjonen inneholder et vannmerke på nedlastinger. Kjop en lisens for å fjerne vannmerket og selge kommersielt.',
   },

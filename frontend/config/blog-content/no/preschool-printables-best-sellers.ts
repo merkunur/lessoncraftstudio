@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'barnehage barn selg',
+    primaryKeyword: 'selg barnehage arbeidsark bestselgere Etsy KDP',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'barnehage oppgaver selge nett Etsy',
+      'barnehageaktiviteter arbeidsark KDP bøker',
+      'lag barnehage arbeidsark kommersiell lisens',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Barnehage-utskrifter: Bestselgerne | LCS',
-    metaDescription: 'I Norge går 97 % av alle barn i barnehage. Barnehager bruker utskrevne aktiviteter daglig. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['barnehageoppgaver forretning', 'småbarn arbeidsark selge', 'norske barnehager aktiviteter selgere'],
+    titleTag: 'Selg barnehage-arbeidsark: bestselgerne | LCS',
+    metaDescription: '97 % av norske barn går i barnehage — en stor mulighet for arbeidsark-selgere. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Barnehage-utskrifter: Bestselgerne',
+    title: 'Selg barnehage-arbeidsark: bestselgerne',
     tagline: 'Norske barnehager bruker mye utskrevne aktiviteter',
     description: 'I Norge går 97 % av alle barn i barnehage. Barnehager bruker utskrevne aktiviteter daglig. Foreldre søker også etter materialer for å forberede barna til skolestart. Denne guiden dekker de mest populære barnehage-utskriftene.',
   },

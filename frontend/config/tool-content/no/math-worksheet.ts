@@ -2,24 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generer algebra matematikk arbeidsark generator',
+    primaryKeyword: 'matteoppgaver generator gratis',
     secondaryKeywords: [
-      'matematikk arbeidsark generator for selgere',
-      'lag algebra puslespillarbeidsark til salg',
-      'utskriftsbare mattepuslespill arbeidsark kommersielt bruk',
-      'algebra bildepuslespill generator til KDP',
+      'lage matteoppgaver gratis',
+      'regneoppgaver gratis skrive ut',
+      'oppgavegenerator matematikk gratis',
+      'matteoppgaver online',
     ],
     lsiKeywords: [
-      'visuelle algebra utskriftsbare til Etsy',
-      'bildeligning arbeidsark verktoy',
-      'bildevariabel matematikkaktivitet generator',
+      'regnearter',
+      'hoderegning',
+      'grunnskole',
+      'fasit',
+      'vannmerke',
+      'gratis',
+      'PDF',
     ],
-    titleTag: 'Matematikk Arbeidsark Generator | Visuelle Algebrapuslespill',
-    metaDescription: 'Generer algebra bildepuslespill der bilder representerer variabler i koblede ligninger. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Matteoppgaver generator gratis | Lag regneoppgaver online',
+    metaDescription: 'Lag matteoppgaver gratis online med automatisk fasit. Ingen registrering. Vannmerket fjernes med lisens.',
   },
 
   hero: {
-    title: 'Matematikk Arbeidsark Generator',
+    title: 'Matteoppgaver generator gratis — Lag regneoppgaver online med fasit',
     tagline: 'Lag visuelle algebrapuslespill med bilder som variabler på under 60 sekunder',
     description: 'Gå utover vanlige regneovelser med algebra bildepuslespill som utfordrer brukerne til å tenke i ligningssystemer. Hvert arbeidsark presenterer et sett koblede ligninger der bilder erstatter ukjente variabler — brukerne må bestemme den numeriske verdien hvert bilde representerer. Fire vanskelighetsgrader skalerer fra to symboler med enkel addisjon til fire samtidige ukjente med blandede operasjoner. En innebygd algebraisk loser garanterer at hvert puslespill har noyaktig en korrekt losning — ingen tvetydighet, ingen gjetting. Velg Kun Addisjon for fokusert oving eller Addisjon og Subtraksjon for avansert problemlosning. Still inn tallintervallet, slå negative resultater til for eldre brukere, og kontroller puslespill per side fra 1 til 6 med automatisk layout. Velg bilder individuelt, last inn et helt temasett, eller last opp din egen PNG eller JPEG for merkevarebaserte puslespill. Fordi puslespillene kun bruker bilder og tall, fungerer de identisk på ethvert språk — selg den samme PDF-en globalt uten oversettelse. Last ned som trykkeklar PDF eller hoyopplost JPEG. Den gratis proveversjonen inneholder et vannmerke på nedlastinger. Kjop en lisens for å fjerne vannmerket og selge kommersielt.',
   },

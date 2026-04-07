@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'print on demand eller digital nedlasting',
+    primaryKeyword: 'print on demand vs digital nedlasting arbeidsark',
     secondaryKeywords: [
-      'praktisk gjennomføring',
-      'optimalisering måling',
-      'vanlige feil unngå',
+      'KDP vs Etsy arbeidsark forretningsmodell',
+      'digital nedlasting vs trykt bok lønnsomhet',
+      'arbeidsark selge KDP eller Etsy sammenligning',
     ],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Print-on-demand vs digital nedlasting | LCS',
-    metaDescription: 'Print-on-demand (KDP) og digitale nedlastinger (Etsy) er to forskjellige måter å selge utskrivbare produkter på. Denne guiden sammenligner lønnsomhet,',
+    lsiKeywords: ['forretningsmodell arbeidsark selgere', 'KDP digital nedlasting fordeler', 'arbeidsark salgskanal sammenligning'],
+    titleTag: 'Print-on-demand vs digital nedlasting arbeidsark | LCS',
+    metaDescription: 'Sammenlign KDP og Etsy som salgskanal for arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Print-on-demand vs digital nedlasting',
+    title: 'Print-on-demand vs digital nedlasting arbeidsark',
     tagline: 'To forretningsmodeller for printables',
     description: 'Print-on-demand (KDP) og digitale nedlastinger (Etsy) er to forskjellige måter å selge utskrivbare produkter på. Denne guiden sammenligner lønnsomhet, arbeidsinnsats og skalerbarhet.',
   },

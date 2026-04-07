@@ -2,24 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hvordan prissette printbare arbeidsark på Etsy',
+    primaryKeyword: 'prissette arbeidsark Etsy',
     secondaryKeywords: [
-      'Etsy printable prisstrategi guide',
-      'pris digitale nedlastinger på Etsy',
-      'arbeidsark prissetting for maksimal fortjeneste Etsy',
-      'hvor mye ta for printables på Etsy',
+      'prisstrategi oppgaver Etsy selgere',
+      'arbeidsark pakkeprissetting Etsy',
+      'pris digitale oppgaver Etsy guide',
     ],
     lsiKeywords: [
-      'Etsy prispsykologi printables',
-      'digital produkt prisstrategi',
-      'printable pakkeprissetting',
+      'prissette arbeidsark barneskole Etsy',
+      'kommersiell lisens prisguide',
+      'Etsy gebyrer arbeidsark fortjeneste',
+      'prispsykologi oppgaver selgere',
+      'pakkeprissetting arbeidsark strategi',
+      'konkurranseanalyse arbeidsark Etsy',
+      'internasjonal prissetting oppgaver',
+      'Etsy Stats konverteringsdata prissetting',
     ],
-    titleTag: 'Prissetter du printbare arbeidsark på Etsy | LCS',
-    metaDescription: 'Prisguide for printbare arbeidsark på Etsy. Individuell vs pakkeprissetting, konkurranseanalyse og fortjenestemaksimerende strategier for printable-selgere.',
+    titleTag: 'Prissett arbeidsark på Etsy | Prisguide for selgere',
+    metaDescription: 'Slik prissetter du arbeidsark og oppgaver på Etsy. Strategi for enkeltprodukter og pakker.',
   },
 
   hero: {
-    title: 'Slik prissetter du printbare arbeidsark på Etsy',
+    title: 'Prissett arbeidsark på Etsy — prisguide for selgere med strategi og pakkepriser',
     tagline: 'En komplett prisstrategiguide for Etsy printable arbeidsark-selgere — dekker konkurranseundersøkelse, Etsy-gebyrregnestykke og nettoinntektsberegninger, grunnpris-referansepunkter etter produkttype og sideantall, trenivå prisstrukturer som øker gjennomsnittlig ordreverdi, krysskategori og klassetrinn pakkeprissetting, strategisk bruk av Etsy-salg og kuponger, internasjonal prisjustering for globale kjøpere, og pristestingsmetodikk ved bruk av Etsy Stats konverteringsdata',
     description: 'Prissetting er den største enkeltfaktoren i printable-virksomheten din — pris for lavt og du etterlater penger på bordet, pris for høyt og kjøpere blar forbi. Denne guiden dekker alt fra konkurranseanalyse til pakkeprispsykologi, og gir deg et konkret rammeverk for å prissette individuelle arbeidsark, tematiske pakker og megapakker på Etsy. Du vil lære prispunktene som konverterer best i den pedagogiske printable-kategorien og hvordan du strukturerer trinnvis prissetting som maksimerer inntekt per kunde.',
   },

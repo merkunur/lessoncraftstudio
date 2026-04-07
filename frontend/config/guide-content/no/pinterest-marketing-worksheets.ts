@@ -2,14 +2,14 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pinterest markedsforing arbeidsark',
-    secondaryKeywords: ['pinterest for printable-selgere', 'pinterest pins arbeidsark', 'pinterest trafikk printables', 'pinterest strategi Etsy-selgere'],
-    lsiKeywords: ['pinterest sokeoptimalisering printables', 'pin-design arbeidsark', 'pinterest konvertering salg', 'visuell markedsforing printable-virksomhet'],
-    titleTag: 'Pinterest-markedsforing for arbeidsark — Guide',
-    metaDescription: 'Bruk Pinterest til a drive trafikk og salg for printable-virksomheten din. Pin-design, sokeoptimalisering og konverteringsstrategier for arbeidsark-selgere.',
+    primaryKeyword: 'Pinterest-markedsføring arbeidsark',
+    secondaryKeywords: ['Pinterest pins arbeidsark Etsy', 'Pinterest trafikk oppgaver-butikk', 'Pinterest strategi arbeidsark-selgere'],
+    lsiKeywords: ['Pinterest søkeoptimalisering arbeidsark', 'pin-design oppgaver', 'Pinterest konvertering salg', 'Etsy arbeidsark trafikk', 'KDP aktivitetsbok markedsføring', 'kommersiell lisens arbeidsark', 'visuell markedsføring oppgaver', 'tavler arbeidsark søkeord'],
+    titleTag: 'Pinterest-markedsføring for arbeidsark | Guide',
+    metaDescription: 'Slik markedsfører du arbeidsark på Pinterest. Pins, tavler, søkeord og trafikk til Etsy-butikken.',
   },
   hero: {
-    title: 'Pinterest-markedsforing for arbeidsark-selgere',
+    title: 'Pinterest-markedsføring for arbeidsark — pins, tavler, søkeord og trafikk til Etsy-butikken',
     tagline: 'En komplett guide til a bruke Pinterest som trafikkdriver for printable-virksomheten din — som dekker pin-design, sokeoptimalisering, innholdsstrategi og konvertering fra Pinterest-trafikk til markedsplassalg',
     description: 'Pinterest er en visuell sokemotor med over 450 millioner aktive brukere, og pedagogiske printables er blant de mest populaere innholdskategoriene. I motsetning til sosiale medier-plattformer der innhold forsvinner etter timer, lever Pinterest-pins i maneder og ar — noe som gjor Pinterest til en ideell langsiktig trafikkilde for printable-selgere.',
   },

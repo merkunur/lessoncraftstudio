@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vår utskrifter selg mars april',
+    primaryKeyword: 'vår arbeidsark selge mars april påske',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'påske arbeidsark selge Etsy',
+      'vår-tema oppgaver forretning mars',
+      '17. mai arbeidsark selge nettbutikk',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Vår-utskrifter: Selg i mars og april | LCS',
-    metaDescription: 'Våren er en travel sesong for printable-selgere. Påske er den største begivenheten, fulgt av 17. mai-forberedelser. Naturtemaer som blomster, fugler o',
+    lsiKeywords: ['sesongbaserte arbeidsark salg', 'påske oppgaver barn Etsy', 'vår naturtema arbeidsark'],
+    titleTag: 'Vår-arbeidsark: Selg i mars og april | LCS',
+    metaDescription: 'Selg vår-tema arbeidsark med påske og 17. mai-oppgaver i mars og april. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Vår-utskrifter: Selg i mars og april',
+    title: 'Vår-arbeidsark: Selg i mars og april',
     tagline: 'Våren bringer påske, naturtemaer og 17. mai-forberedelser',
     description: 'Våren er en travel sesong for printable-selgere. Påske er den største begivenheten, fulgt av 17. mai-forberedelser. Naturtemaer som blomster, fugler og insekter selger også godt når våren kommer.',
   },

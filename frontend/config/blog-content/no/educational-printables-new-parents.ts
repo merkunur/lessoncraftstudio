@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'pedagogiske printables nye foreldre 2026',
+    primaryKeyword: 'selge arbeidsark til foreldre Etsy',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'oppgaver nye foreldre selge nett',
+      'arbeidsark småbarn Etsy KDP',
+      'foreldre-målgruppe arbeidsark butikk',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Pedagogiske utskrifter for nye foreldre | LCS',
-    metaDescription: 'Nye foreldre er en svært verdifull kundegruppe. Når de først oppdager pedagogiske utskrifter, blir de ofte trofaste. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['arbeidsark foreldre Etsy', 'oppgaver småbarn selge', 'KDP aktivitetsbok foreldre', 'kommersiell lisens arbeidsark', 'Etsy målgruppe foreldre', 'arbeidsark førskole', 'LessonCraftStudio generator'],
+    titleTag: 'Selg arbeidsark til nye foreldre',
+    metaDescription: 'Nye foreldre er lojale kunder for arbeidsark. Lag oppgaver med LessonCraftStudio — 33 generatorer, 11 språk, kommersiell lisens.',
   },
   hero: {
-    title: 'Pedagogiske utskrifter for nye foreldre',
+    title: 'Selg arbeidsark til nye foreldre — en lojal kundegruppe',
     tagline: 'Nå kunder når de først begynner å lete',
     description: 'Nye foreldre er en svært verdifull kundegruppe. Når de først oppdager pedagogiske utskrifter, blir de ofte trofaste kunder i årevis. Denne guiden viser deg hvordan du når og beholder denne målgruppen.',
   },

@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag Etsy fargeleggingssider som selger',
+    primaryKeyword: 'lage fargeleggingsbilder til Etsy',
     secondaryKeywords: [
-      'lag fargeleggingssider som selger på Etsy',
-      'lag fargeleggingssider for Etsy-butikk',
-      'Etsy fargeleggingsside virksomhetsguide',
-      'selg fargeleggingssider på Etsy tips',
-      'fargeleggingsside oppføringsoptimalisering Etsy',
+      'fargeleggingssider Etsy selge',
+      'fargeleggingsbilder å skrive ut for salg',
+      'Etsy fargelegging nisjestrategi',
     ],
     lsiKeywords: [
-      'Etsy fargelegging nisjestrategi',
-      'digitale fargeleggingsprodukter',
-      'fargeleggingsbok virksomhet Etsy',
+      'fargeleggingsbilder barneskole Etsy',
+      'kommersiell lisens fargeleggingssider',
+      'Amazon KDP fargeleggingsbøker',
+      'temabilder 104 samlinger',
+      'selge fargeleggingsbilder digitalt',
+      'Etsy SEO fargelegging oppføring',
+      'sesongtiming fargelegging produkter',
+      'prissetting fargeleggingspakker',
     ],
-    titleTag: 'Lag Etsy fargeleggingssider som selger | LCS',
-    metaDescription: 'Lær å lage fargeleggingssider som selger på Etsy. Temavalg, oppføringsoptimalisering, sesongtiming og prisstrategier for fargeleggingsside-selgere.',
+    titleTag: 'Lag fargeleggingsbilder til Etsy | Selgerguide',
+    metaDescription: 'Slik lager du fargeleggingsbilder å selge på Etsy. Temabilder, kommersiell lisens. Steg-for-steg guide.',
   },
 
   hero: {
-    title: 'Lag fargeleggingssider som faktisk selger på Etsy',
+    title: 'Lag fargeleggingsbilder til Etsy — selgerguide med temabilder og kommersiell lisens',
     tagline: 'En komplett plattformguide for å bygge en lønnsom Etsy-butikk som selger fargeleggingssider laget fra 104 tematiske bildebiblioteker — dekker Etsy-butikk oppsett, SEO-optimalisering med alle 13 tagger, oppføringstitler og beskrivelser som rangerer for fargeleggingsside-kjøperes søkeord, produktfotografering som viser svart-hvitt strekkunst og tematisk variasjon, prisstrategier for individuelle sider og tematiske samlinger, sesongtiming for høytids- og skolestarttopper, katalogplanlegging på tvers av barn- og voksen fargeleggingsdemografi, KDP fargeleggingsbok-kryssovermuligheter, og løpende butikkoptimalisering med Etsy Stats og søkeanalyse',
     description: 'Fargeleggingssider er den mest etterspurte printbare kategorien på Etsy — men de fleste selgere lager generiske design som blir begravet i søkeresultater. Denne guiden viser deg hvordan du lager tematiske fargeleggingssider som skiller seg ut, optimaliserer oppføringene dine for Etsy SEO, timer utgivelser rundt sesongbaserte etterspørselstopper, og prissetter produktene dine for maksimal fortjeneste. Du vil lære hvordan du bruker fargeleggingsside-generatoren til å bygge en katalog med unike tematiske produkter uten noen tegneferdigheter.',
   },

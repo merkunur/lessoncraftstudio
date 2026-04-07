@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable bedrift inntekt realistisk',
+    primaryKeyword: 'realistisk inntekt arbeidsark forretning Etsy KDP',
     secondaryKeywords: [
-      'praktisk gjennomføring',
-      'optimalisering måling',
-      'vanlige feil unngå',
+      'hvor mye tjene arbeidsark Etsy realistisk',
+      'inntektsforventning digital produktforretning',
+      'arbeidsark selger inntekt uten hype',
     ],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Realistisk inntekt fra printable-bedrift | LCS',
-    metaDescription: 'Hvor mye kan du egentlig tjene på å selge utskrivbare produkter? Denne guiden gir deg realistiske inntektsforventninger basert på erfaring, ikke salgs',
+    lsiKeywords: ['arbeidsark forretning inntekt ærlig', 'Etsy selger inntektsestimat', 'digital produktforretning lønnsomhet'],
+    titleTag: 'Realistisk inntekt fra arbeidsark-forretning | LCS',
+    metaDescription: 'Ekte inntektstall for arbeidsark-selgere uten hype. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Realistisk inntekt fra printable-bedrift',
+    title: 'Realistisk inntekt fra arbeidsark-forretning',
     tagline: 'Ekte tall, ingen hype',
     description: 'Hvor mye kan du egentlig tjene på å selge utskrivbare produkter? Denne guiden gir deg realistiske inntektsforventninger basert på erfaring, ikke salgspitch. Fra de første månedene til full skalering.',
   },

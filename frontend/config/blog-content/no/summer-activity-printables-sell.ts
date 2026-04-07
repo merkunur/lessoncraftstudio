@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sommeraktiviteter utskrifter selg hele sommeren sommer aktiviteter',
+    primaryKeyword: 'sommer arbeidsark selge Etsy ferieoppgaver',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'sommeraktiviteter arbeidsark forretning',
+      'ferieoppgaver barn selge nettbutikk',
+      'sommer-tema oppgaver Etsy KDP',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Sommeraktiviteter-utskrifter: Selg hele sommeren | LCS',
-    metaDescription: 'Norsk sommerferie varer fra midten av juni til midten av august — hele 8 uker. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['sesongbaserte arbeidsark salg', 'sommerferie oppgaver barn', 'ferie arbeidsark kommersiell lisens'],
+    titleTag: 'Sommer-arbeidsark: Selg hele sommeren | LCS',
+    metaDescription: 'Selg sommeraktiviteter og ferieoppgaver i 8 uker norsk sommerferie. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Sommeraktiviteter-utskrifter: Selg hele sommeren',
+    title: 'Sommer-arbeidsark: Selg hele sommerferien',
     tagline: 'Norsk sommerferie er 8 uker — foreldre trenger aktiviteter',
     description: 'Norsk sommerferie varer fra midten av juni til midten av august — hele 8 uker. Foreldre søker aktivt etter aktiviteter som holder barna beschåftiget. Sommertema-arbeidsark, ferieaktiviteter og reisepuslespill selger utmerket i denne perioden.',
   },

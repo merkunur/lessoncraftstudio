@@ -2,25 +2,15 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'TPT butikkoppsett og optimalisering',
-    secondaryKeywords: [
-      'TPT butikkoppsett og optimaliseringsguide',
-      'optimaliser TPT-butikk for mer salg',
-      'Teachers Pay Teachers butikkoppsett-tips',
-      'TPT oppføringsoptimalisering for selgere',
-      'forbedre TPT butikkrangeringer 2026',
-    ],
-    lsiKeywords: [
-      'TPT butikkoptimalisering',
-      'TPT søkealgoritme',
-      'TPT selgersuksessstrategier',
-    ],
-    titleTag: 'TPT butikkoppsett og optimaliseringsguide | LCS',
-    metaDescription: 'Optimaliser TPT-butikken din for mer salg. Butikkoppsett, oppføringsoptimalisering, SEO-strategier og konverteringstips for Teachers Pay Teachers-selgere.',
+    primaryKeyword: 'Gumroad butikkoptimalisering arbeidsark',
+    secondaryKeywords: ['Gumroad butikkoppsett arbeidsark-selgere', 'optimaliser Gumroad-butikk oppgaver', 'Gumroad oppføringsoptimalisering arbeidsark'],
+    lsiKeywords: ['Gumroad butikkoptimalisering', 'Gumroad søkeord arbeidsark', 'Gumroad salgsstrategier oppgaver', 'Etsy arbeidsark butikk', 'KDP aktivitetsbok oppføring', 'kommersiell lisens arbeidsark', 'konverteringsoptimalisering arbeidsark', 'produktoppføring søkeord oppgaver'],
+    titleTag: 'Gumroad butikkoptimalisering for arbeidsark | Guide',
+    metaDescription: 'Slik optimaliserer du Gumroad-butikken din for arbeidsark. Oppføringer, søkeord og salgsstrategier.',
   },
 
   hero: {
-    title: 'TPT butikkoppsett og optimaliseringsguide',
+    title: 'Gumroad butikkoptimalisering for arbeidsark — oppføringer, søkeord og salgsstrategier',
     tagline: 'Avanserte strategier for å optimalisere en eksisterende TPT-butikk — dekker søkealgoritmens rangeringsfaktorer, høykonverterende produktbeskrivelser og forhåndsvisninger, anmeldelsesgenererings-taktikker, butikkorganisering for bla-vennlig navigasjon, TPT kampanjehendelsestrategi, og datadrevet katalogskalering for å gjøre en aktiv TPT-butikk til en konsekvent og voksende inntektskanal',
     description: 'En godt optimalisert TPT-butikk kan generere konsekvent gjentakende inntekt fra millioner av lærerkjøpere — men de fleste selgere optimaliserer aldri utover sin første oppføring. Denne guiden dekker alt fra butikkmerkevarebygging og bannerdesign til oppførings-SEO, forhåndsvisningsfiloptimalisering og prispsykologi. Du vil lære de spesifikke rangeringsfaktorene TPT bruker for å vise produkter i søk og hvordan du strukturerer butikken din for maksimal oppdagbarhet og konverteringsrater.',
   },

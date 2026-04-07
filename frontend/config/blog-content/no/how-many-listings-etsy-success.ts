@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hvor mange annonser Etsy suksess',
-    secondaryKeywords: ['hvor mange annonser Etsy suksess tips', 'hvor mange annonser Etsy suksess strategi', 'hvor mange annonser Etsy suksess 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Hvor mange annonser trenger du for Etsy-suksess? | LCS',
-    metaDescription: 'De fleste Etsy-rådgivere sier «du trenger 100+ annonser». Men er det sant? Denne guiden undersøker sammenhengen mellom antall annonser og inntekt for ',
+    primaryKeyword: 'antall Etsy-annonser arbeidsark suksess',
+    secondaryKeywords: ['hvor mange produkter Etsy inntekt', 'Etsy annonseantall vs kvalitet', 'skalering Etsy arbeidsark-butikk'],
+    lsiKeywords: ['Etsy butikkstørrelse salgsdata', 'optimalt antall annonser oppgaver', 'arbeidsark portefølje Etsy'],
+    titleTag: 'Hvor mange Etsy-annonser for arbeidsark-suksess? | LCS',
+    metaDescription: 'Trenger du 100+ annonser for Etsy-suksess med arbeidsark? Vi undersøker hva som faktisk betyr mest. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Hvor mange annonser trenger du for Etsy-suksess?',
+    title: 'Hvor mange Etsy-annonser for arbeidsark-suksess?',
     tagline: 'Antall annonser vs kvalitet — hva betyr mest?',
     description: 'De fleste Etsy-rådgivere sier «du trenger 100+ annonser». Men er det sant? Denne guiden undersøker sammenhengen mellom antall annonser og inntekt for printable-selgere, og gir deg et realistisk mål.',
   },

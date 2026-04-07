@@ -2,25 +2,30 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'visuell læring arbeidsark pakke',
+    primaryKeyword: 'visuell læring oppgaver pakke',
     secondaryKeywords: [
-      'fargeleggingssider tegning arbeidsark generator pakke for selgere',
-      'visuelle aktiviteter utskriftspakke kommersiell bruk',
-      'mønstergjenkjenning arbeidsark pakke for Etsy',
-      'tegning maling arbeidsark generatorer for KDP-selgere',
+      'fargelegging mønster tegning pakke',
+      'visuelle arbeidsark generatorer',
+      'kreative oppgaver generator pakke',
+      'fargelegging og tegning pakke',
     ],
     lsiKeywords: [
-      'fargeleggingssider tegnearbeidsark pakke',
-      'mønstergjenkjenning diagramtelling utskriftsbar samling',
-      'kommersiell lisens visuelle aktivitetsarbeidsark',
-      'masseproduksjon visuelle arbeidsark verktøy',
+      'fargelegging',
+      'tegning',
+      'mønster',
+      'telle',
+      'diagram',
+      'skrivemotorikk',
+      'barneskole',
+      'Etsy',
+      'KDP',
     ],
-    titleTag: 'Visuell Læring Arbeidsark Pakke — 7 Aktivitetsgeneratorer',
-    metaDescription: 'Få 7 visuelle læringsgeneratorer i én pakke. Lag fargeleggingssider, tegning, mønster, størrelsessammenligning, diagram og linjesporing til salg online. $49...',
+    titleTag: 'Visuell læring pakke | 7 generatorer — Engangsbetaling',
+    metaDescription: 'Pakke med 7 visuelle generatorer: fargelegging, tegning, mønstre, diagrammer og mer. Kommersiell lisens for Etsy & KDP.',
   },
 
   hero: {
-    title: 'Visuell Læring-pakke',
+    title: 'Visuell læring pakke — 7 generatorer for fargelegging, tegning og mer',
     tagline: 'Syv helt visuelle arbeidsark-generatorer — arbeidsark som fungerer på alle språk verden over',
     description: 'Hver generator i denne pakken produserer arbeidsark laget helt av bilder, former, farger og tall. Ingen tekst vises på den ferdige siden utover valgfrie grensesnittetiketter. Det betyr at hvert arbeidsark du lager fungerer for kjøpere i alle land, alle språk, alle skolesystemer — uten oversettelse, uten tilpasning, uten lokaliseringsarbeid. Visuell Læring-pakken kombinerer syv spesialiserte generatorer som dekker størrelsessammenligning, togvogn-mønstersekvenser, utfyllings-mønsterarbeidsark, referansebilde-tegning med symmetrimodus, linjesporing mellom parrede objekter, fargeleggingsside-oppretting fra bildekonturer og søylediagram-telleaktiviteter. To av de syv generatorene — Tegn og Fargelegg og Fargeleggingssider — har dedikerte svart-hvite konturtemaer designet spesifikt for fargelegging. Tre generatorer inkluderer automatiske fasit: Stor og Liten, Mønster Arbeidsark og Diagramtelling. De øvrige fire er kreative eller praktiske aktiviteter der fasit ikke er relevante. Hver generator sender ut trykklare PDF- og høyoppløste JPEG-filer. Velg blant over 100 tematiske bildesett eller last opp ditt eget kunstverk. Enten du selger fargeleggingssider på Etsy, publiserer aktivitetsbøker på Amazon KDP eller distribuerer førskolepakker på Gumroad, gir denne pakken deg den visuelle variasjonen og universelle markedsrekkevidden som tekstavhengige konkurrenter ikke kan matche. Hver generator inkluderer en gratis prøveversjon med vannmerke.',
   },

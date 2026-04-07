@@ -1,15 +1,15 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'gjenbruk arbeid arbeidsark flere produkter',
+    primaryKeyword: 'gjenbruk arbeidsark flere produkter multipliser inntekt',
     secondaryKeywords: [
-      'steg steg gjennomføring',
-      'optimalisering finjustering',
-      'publisering markedsføring',
+      'ett arbeidsark fem produkter strategi',
+      'gjenbruk oppgaver pakker KDP bøker',
+      'multipliser inntekt arbeidsark smart gjenbruk',
     ],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
+    lsiKeywords: ['arbeidsark gjenbruksstrategi', 'produktlinje fra ett arbeidsark', 'enkeltark pakker KDP sesong'],
     titleTag: 'Gjenbruk arbeidsark til flere produkter | LCS',
-    metaDescription: 'Smart gjenbruk multipliserer inntekten din uten ekstra arbeid. Selg pa Etsy & KDP med kommersiell lisens.',
+    metaDescription: 'Ett arbeidsark kan bli fem produkter med smart gjenbruk. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
     title: 'Gjenbruk arbeidsark til flere produkter',

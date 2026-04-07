@@ -2,24 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hvordan selge utskriftsprodukter på Gumroad',
+    primaryKeyword: 'selge arbeidsark på Gumroad',
     secondaryKeywords: [
-      'Gumroad utskriftsbutikk oppsettguide',
-      'selg digitale nedlastinger på Gumroad',
-      'Gumroad vs Etsy for utskriftsselgere',
-      'start utskriftsvirksomhet på Gumroad',
+      'Gumroad arbeidsark butikk oppsett',
+      'selge oppgaver på Gumroad guide',
+      'Gumroad vs Etsy arbeidsark',
     ],
     lsiKeywords: [
+      'Gumroad arbeidsark barneskole',
+      'kommersiell lisens oppgaver Gumroad',
+      'prissetting arbeidsark Gumroad',
+      'direkte salg arbeidsark selgere',
       'Gumroad digitalt produktsalg',
-      'Gumroad utskriftsvirksomhet',
-      'direkte-til-forbruker utskriftssalg',
+      'e-postmarkedsføring arbeidsark',
+      'Gumroad vs Etsy sammenligning',
+      'selge oppgaver uten markedsplass',
     ],
-    titleTag: 'Selger du utskriftsprodukter på Gumroad | LCS',
-    metaDescription: 'Guide til å selge utskriftsprodukter på Gumroad. Butikkoppsett, prissetting, betalingsbehandling og markedsføringsstrategier for utskriftsselgere som går.',
+    titleTag: 'Selge arbeidsark på Gumroad | Guide for selgere',
+    metaDescription: 'Slik selger du arbeidsark og oppgaver på Gumroad. Butikkoppsett, prissetting og markedsføring.',
   },
 
   hero: {
-    title: 'Slik selger du utskriftsprodukter på Gumroad',
+    title: 'Selge arbeidsark på Gumroad — guide for selgere med butikkoppsett og prissetting',
     tagline: 'En komplett guide til å selge utskriftsbare arbeidsark og pedagogiske ressurser direkte til kjøpere gjennom Gumroad — dekker butikkfrontoppsett, produktoppretting, fleksible prisalternativer inkludert betal-hva-du-vil, innebygd e-postmarkedsføring for publikumsbygging, trafikkgenereringsstrategier for en skaper-direkte-plattform, produktsideoptimalisering for høyere konvertering, og skalering med bunter og medlemskap for gjentakende inntekt',
     description: 'Gumroad gir utskriftsselgere noe Etsy og TPT ikke kan — direkte kunderelasjoner, null oppføringsgebyrer og fullstendig kontroll over merkevaren din. Denne guiden dekker oppsett av Gumroad-butikken din, prissetting av utskriftsprodukter for direktesalg, bygging av en e-postliste fra kjøpere, og trafikkgenerering uten markedsplassalgoritmer. Hvis du ønsker å eie kundebasen din og beholde mer av hvert salg, er Gumroad plattformen å mestre.',
   },

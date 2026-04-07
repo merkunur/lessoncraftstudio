@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'lag pensum pakker printables 2026',
-    secondaryKeywords: ['lag pensum pakker printables tips', 'lag pensum pakker printables guide', 'lag pensum pakker printables steg for steg'],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Lag pensum-pakker som printables | LCS',
-    metaDescription: 'Pensum-pakker er premium-produkter som kan prises 2–3 ganger høyere enn vanlige pakker. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'lag pensum-pakker arbeidsark selge',
+    secondaryKeywords: ['pensum arbeidsark-pakke Etsy premium', 'læringspakke oppgaver KDP', 'selge komplett arbeidsark-pakke'],
+    lsiKeywords: ['pensum-pakke arbeidsark selge', 'oppgaver pakke Etsy', 'KDP læringspakke bok', 'kommersiell lisens arbeidsark', 'premium arbeidsark pakke', 'Etsy premium produkt', 'LessonCraftStudio generator'],
+    titleTag: 'Lag pensum-pakker med arbeidsark',
+    metaDescription: 'Pensum-pakker prises 2-3x høyere enn enkeltark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Lag pensum-pakker som printables',
+    title: 'Lag pensum-pakker med arbeidsark — selg til premium-pris',
     tagline: 'Komplette læringspakker selger til premium-pris',
     description: 'Pensum-pakker er premium-produkter som kan prises 2–3 ganger høyere enn vanlige pakker. Denne guiden viser deg hvordan du lager komplette læringspakker tilpasset spesifikke trinn og læringsmål.',
   },

@@ -2,14 +2,14 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'ESL utskriftbare ideer til salg — Nisjeguide',
-    metaDescription: 'Oppdag ESL utskriftbare ideer til salg på Etsy, Amazon KDP og Gumroad. Språklæringsproduktkonsepter, plattformstrategier og nisjetips for selgere.',
-    primaryKeyword: 'ESL utskriftbare ideer',
-    secondaryKeywords: ['ESL arbeidsark til salg', 'engelsk som andrespråk utskriftbar virksomhet', 'ESL aktivitetsark for selgere', 'selg ESL utskriftbare på Etsy'],
-    lsiKeywords: ['språklæringsarbeidsark for selgere', 'EFL pedagogisk materiale', 'engelskordforråd utskriftbare produkter'],
+    titleTag: 'Norsk som andrespråk oppgaver til salg | Nisjeideer',
+    metaDescription: 'Norsk som andrespråk oppgaver til salg på Etsy og KDP. Språklærings-arbeidsark med ordforråd og grammatikk — nisjeideer og strategier for selgere.',
+    primaryKeyword: 'norsk som andrespråk oppgaver til salg',
+    secondaryKeywords: ['selge språklærings-arbeidsark Etsy', 'andrespråk-oppgaver KDP', 'ordforråd arbeidsark til salg', 'norsk som andrespråk oppgaver for selgere'],
+    lsiKeywords: ['nisje andrespråk-oppgaver', 'tema ordforråd arbeidsark', 'Etsy språklæring arbeidsark', 'KDP andrespråk aktivitetsbok', 'selge oppgaver digitalt', 'eviggrønn språknisje', 'barneskole norskopplæring'],
   },
   hero: {
-    title: 'ESL utskriftbare forretningsideer for selgere',
+    title: 'Norsk som andrespråk oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'ESL (engelsk som andrespråk) representerer en av de mest etterspurte eviggrønne nisjene for utskriftbare selgere, med global etterspørsel drevet av millioner av elever som lærer engelsk over hele verden. ESL-nisjen skiller seg ut fordi den betjener et internasjonalt kjøperpublikum som strekker seg langt utover det engelskspråklige markedet. Språklærere, privatlærere, internasjonale skoler og foreldre søker aktivt ordforrådsbyggende arbeidsark, grammatikkøvelser og konversasjonsmaterialer. For utskriftbare selgere på Etsy, Amazon KDP og Gumroad kombinerer ESL-nisjen eviggrønn etterspørsel med globalt rekkevidde. Denne guiden gir spesifikke produktideer og plattformstrategier for å bygge en lønnsom ESL utskriftbar produktlinje.',
   },
   marketOverview: `ESL utskriftbar-nisjen er en av de mest konsekvent etterspurte nisjene i det pedagogiske markedet fordi engelskundervisning er en global industri med helårs etterspørsel fra flere kjøpersegmenter. Språklærere trenger supplerende materialer for ordforrådsbygging, grammatikkøvelse og konversasjonsferdigheter. Privatlærere søker strukturerte aktiviteter for individuelle og smågruppetimer. Foreldre med barn som lærer engelsk kjøper hjemmeøvelsesmaterialer.

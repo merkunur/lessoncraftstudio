@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mat tema arbeidsark selge 2026',
-    secondaryKeywords: ['mat tema arbeidsark selge Etsy', 'mat tema arbeidsark selge strategi', 'mat tema arbeidsark selge tips'],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Mattema-arbeidsark: Selg på nett | LCS',
-    metaDescription: 'Mattemaer (frukt, grønnsaker, måltider) er populære for pedagogiske arbeidsark. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'selg mattema-arbeidsark på nett',
+    secondaryKeywords: ['mat-tema oppgaver Etsy selge', 'frukt grønnsaker arbeidsark forretning', 'mattema pedagogisk materiell selge'],
+    lsiKeywords: ['vokabular mat barn oppgaver', 'sortering kategorisering mat', 'mat-illustrasjoner arbeidsark'],
+    titleTag: 'Selg mattema-arbeidsark på nett | LCS',
+    metaDescription: 'Mat-temaer som frukt og grønnsaker er populære for arbeidsark hele året. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Mattema-arbeidsark: Selg på nett',
+    title: 'Selg mattema-arbeidsark på nett',
     tagline: 'Mat er et universelt tema som lærer vokabular og kategorier',
     description: 'Mattemaer (frukt, grønnsaker, måltider) er populære for pedagogiske arbeidsark. Barn lærer vokabular, kategorisering og sunnhet gjennom mattemaer. Kombinert med telling og sortering blir det engasjerende læring.',
   },

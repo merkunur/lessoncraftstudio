@@ -2,26 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sorteringsarbeidsark',
+    primaryKeyword: 'lag sorteringsoppgaver å skrive ut',
     secondaryKeywords: [
-      'lag sorteringsarbeidsark for salg',
-      'bildesortering arbeidsark generator',
-      'printbare klassifiseringsarbeidsark for barn',
-      'kategoriseringsovelser for forskole',
+      'sorteringsoppgaver barneskole å skrive ut',
+      'kategoriseringsarbeidsark med fasit',
+      'klipp-og-lim sorteringsoppgaver PDF',
     ],
     lsiKeywords: [
-      'to-kategori sorteringsarbeidsark med klippegrid',
-      'stiplede rammedesign kategorisortering',
-      'selg sorteringsarbeidsark pa Etsy',
-      'Amazon KDP klassifisering aktivitetsboker',
-      'kommersiell lisens sorteringsverktoy',
+      'sorteringsoppgaver barneskole trinn 1-4',
+      'kategorisering arbeidsark Etsy',
+      'Amazon KDP klassifiseringsbøker',
+      'kommersiell lisens sorteringsverktøy',
+      'LK20 sortering og klassifisering',
+      'temabilder klipp-og-lim aktiviteter',
+      'selge sorteringsoppgaver digitalt',
+      'printbare oppgaver forskole barnehage',
     ],
-    titleTag: 'Sorteringsarbeidsark — Guide',
-    metaDescription: 'Lag sorteringsarbeidsark med to-kategori rammer, stokket klippegrid og tematiske bilder. Trinn-for-trinn guide for salg pa Etsy, KDP og Gumroad.',
+    titleTag: 'Lag sorteringsoppgaver å skrive ut | Steg-for-steg guide',
+    metaDescription: 'Steg-for-steg: lag sorteringsoppgaver å skrive ut med temabilder. Automatisk fasit, 300 DPI PDF. Selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Hvordan lage sorteringsarbeidsark',
+    title: 'Lag sorteringsoppgaver å skrive ut — steg-for-steg guide med temabilder og fasit',
     tagline: 'En trinn-for-trinn veiledning for a lage kategori-sorteringsarbeidsark med stiplede rammer, stokket klippegrid for klipp-og-lim-aktiviteter, tematiske bilder fra 104 samlinger og utskriftsklare eksporter du kan selge globalt',
     description: 'Sorteringsarbeidsark laerer barn a klassifisere objekter i kategorier — en grunnleggende kognitiv ferdighet for logisk tenkning, naturvitenskap og matteforstaelse. Sorteringsarbeidsark-generatoren lager profesjonelle to-kategori sorteringsaktiviteter med stiplede kategoriramme-design og stokkede klippegrid der brukere klipper ut bilder og limer dem i riktig kategori.',
   },

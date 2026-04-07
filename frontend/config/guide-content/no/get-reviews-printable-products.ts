@@ -2,14 +2,14 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'anmeldelsesakkumulering anmeldelser printbare produkter',
-    secondaryKeywords: ['anmeldelser Etsy printables', 'bygge tillit digitale produkter', 'kjoperfeedback printable-virksomhet', 'anmeldelsesstrategi markedsplasser'],
-    lsiKeywords: ['anmeldelsesakkumulering markedsplasser', 'sosialt bevis digitale produkter', 'kjopervurderinger arbeidsark', 'oppfolging etter kjop', 'produktkvalitet driver anmeldelser'],
-    titleTag: 'Fa anmeldelser for printbare produkter — Guide',
-    metaDescription: 'Bygg anmeldelsesakkumulering for printable-virksomheten din. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'få anmeldelser arbeidsark Etsy',
+    secondaryKeywords: ['anmeldelser Etsy arbeidsark-butikk', 'bygge tillit digitale oppgaver', 'kjøperfeedback arbeidsark-virksomhet'],
+    lsiKeywords: ['anmeldelsesakkumulering markedsplasser', 'sosialt bevis digitale arbeidsark', 'kjøpervurderinger oppgaver', 'Etsy arbeidsark anmeldelser', 'KDP aktivitetsbok vurderinger', 'kommersiell lisens arbeidsark', 'oppfølging etter kjøp', 'produktkvalitet driver anmeldelser'],
+    titleTag: 'Få anmeldelser for arbeidsark på Etsy | Tips',
+    metaDescription: 'Slik får du flere anmeldelser for arbeidsark på Etsy. Strategier, oppfølging og kundeservice.',
   },
   hero: {
-    title: 'Hvordan fa anmeldelser for printbare produkter',
+    title: 'Få anmeldelser for arbeidsark på Etsy — strategier, oppfølging og kundeservice',
     tagline: 'En komplett guide til a bygge anmeldelsesakkumulering — som dekker produktkvalitet som anmeldelsesdriver, oppfolgingsstrategier etter kjop, plattformspesifikke taktikker og langsiktig tillitsbygging',
     description: 'Anmeldelser er den kraftigste konverteringsfaktoren for printable-produkter pa enhver markedsplass. Produkter med 10+ positive anmeldelser selger dramatisk bedre enn de uten. Denne guiden viser deg hvordan du systematisk bygger anmeldelsesakkumulering gjennom produktkvalitet, kjoperoppfolging og strategisk posisjonering.',
   },

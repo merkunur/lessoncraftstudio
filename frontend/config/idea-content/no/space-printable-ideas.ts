@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Verdensrom utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme verdensrom utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Romtema produktkonsepter og plattformtips for selgere.',
-
-    primaryKeyword: 'verdensrom utskriftsbare ideer',
+    titleTag: 'Verdensrom-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Verdensrom-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge romtema oppgaver.',
+    primaryKeyword: 'verdensrom-oppgaver til salg',
     secondaryKeywords: [
-      'romtema arbeidsark til salg',
-      'verdensrom utskriftsbar forretning',
-      'astronaut aktivitetsark for selgere',
-      'selg romprintables på Etsy',
+      'verdensrom arbeidsark selge Etsy',
+      'romtema aktivitetsbøker KDP',
+      'selge verdensrom-oppgaver på nett',
+      'verdensrom nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'planeter og galakser pedagogiske arbeidsark',
-      'solsystem aktivitetssider',
-      'romutforskning tema utskriftsbare produkter',
+      'verdensrom nisje Etsy KDP',
+      'romtema arbeidsark barneskole',
+      'pedagogiske verdensrom-oppgaver til salg',
+      'planeter og galakser produktlinje selgere',
+      'eviggrønt romtema oppgaver',
     ],
   },
   hero: {
-    title: 'Verdensrom utskriftsbare forretningsideer for selgere',
+    title: 'Verdensrom-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Verdensrommet fanger barns fantasi som få andre temaer, noe som gjør rom- og astronautmotiver til en eviggrønn kraftig nisje for utskriftsbare selgere. Fra småbarn som lærer å gjenkjenne planeter til eldre barn som utforsker solsystemet og galakser, spenner romtemaet over alle aldersgrupper med en naturlig fascinasjon som driver sterkt salg hele året. For utskriftsbare selgere tilbyr verdensrommet en unik kombinasjon av visuell appell, tverrfaglig relevans innen naturfag og matematikk, og kjøperengasjement som oversettes til høye klikkrater og gjentatte kjøp. Enten du selger på Etsy, Amazon KDP eller Gumroad, representerer romtema utskriftsbare produkter en dokumentert nisje med rikelig plass til kreativ produktutvikling og premiumpris. Denne guiden gjennomgår spesifikke produktideer, plattformstrategier og positioneringsmetoder for å hjelpe deg med å bygge en lønnsom rom-utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Verdensrom utskriftsbar-nisjen inntar en unik posisjon på det pedagogiske markedet fordi den kombinerer vitenskapelig fascinasjon med visuell dramatikk som fanger oppmerksomheten til både barn og foreldre. Planeter, raketter, astronauter, stjerner og galakser bærer en iboende følelse av oppdagelse og eventyr som løfter pedagogiske aktiviteter fra kjedelige øvelser til engasjerende utforskning. Denne naturlige tiltrekningen betyr at romtema arbeidsark ikke trenger ekstra overtalelse for å fange kjøperens interesse — temaet selger seg selv gjennom sin visuelle kraft.

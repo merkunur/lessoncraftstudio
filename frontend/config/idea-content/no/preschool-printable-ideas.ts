@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Førskole utskriftsbare ideer til salg — Nisjeguide',
-    metaDescription: 'Utforsk førskole utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Førskoletema produktkonsepter, plattformtips og nisjestrategier for selgere.',
+    titleTag: 'Førskole-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Førskole-oppgaver til salg på Etsy og Amazon KDP. Alderstilpassede arbeidsark for tre- til femåringer — nisjeideer, plattformtips og strategier for selgere.',
 
-    primaryKeyword: 'førskole utskriftsbare ideer',
+    primaryKeyword: 'førskole-oppgaver til salg',
     secondaryKeywords: [
+      'selge førskole-arbeidsark Etsy',
+      'førskole-oppgaver KDP',
       'førskole arbeidsark til salg',
-      'førskole utskriftsbar forretning',
-      'førskole aktivitetsark for selgere',
-      'selg førskole printables online',
+      'småbarn oppgaver for selgere',
     ],
     lsiKeywords: [
-      'småbarn pedagogiske arbeidsark',
-      'førskoleklarhet aktivitetssider',
-      'tre til fem år utskriftsbare produkter',
+      'nisje førskole-oppgaver',
+      'tema førskole arbeidsark',
+      'Etsy førskole arbeidsark',
+      'KDP førskole aktivitetsbok',
+      'selge oppgaver digitalt',
+      'eviggrønn førskolenisje',
+      'barneskole skoleklar',
     ],
   },
   hero: {
-    title: 'Førskole utskriftsbare forretningsideer for selgere',
+    title: 'Førskole-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Førskole representerer den mest aktive vekstperioden for barns kognitive utvikling, og denne utviklingsintensiteten driver enorm etterspørsel etter pedagogiske printables fra foreldre som investerer i barnas tidlige læring. Aldersgruppen tre til fem år er en kritisk periode for utvikling av finmotoriske ferdigheter, fargegjenkjenning, formidentifikasjon, tallbevissthet og bokstavfamiliarisering, og hvert av disse ferdighetsom rådene representerer en distinkt produktkategori for utskriftsbare selgere. For selgere på Etsy, Amazon KDP og Gumroad tilbyr førskolenisjen helårs etterspørsel med sterke topper ved skolestart, konsekvent foreldre-etterspørsel, og et massivt marked drevet av den universelle overgangen fra småbarnstid til formell skolegang. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å bygge en lønnsom førskole utskriftsbar produktlinje.',
   },
   marketOverview: `Førskole utskriftsbar-nisjen representerer det bredeste og mest stabile markedet for pedagogiske produktselgere fordi hvert barn på planeten passerer gjennom denne utviklingsperioden. Foreldre av treåringer begynner å investere i strukturerte læringsmaterialer for første gang, og denne initialkjøpsbeslutningen åpner et forbruksmønster som typisk varer gjennom hele barnets utdanningsreise.

@@ -1,18 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hjemmeundervisning printables voksende marked 2026',
-    secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
-    ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Hjemmeundervisning-utskrifter: Et voksende marked | LCS',
-    metaDescription: 'Hjemmeundervisning er lovlig i Norge, og antallet familier som velger det øker. Internasjonalt er markedet enormt, spesielt i USA, Storbritannia og Au',
+    primaryKeyword: 'selg arbeidsark for hjemmeundervisning',
+    secondaryKeywords: ['hjemmeundervisning oppgaver Etsy selge', 'hjemmeskole arbeidsark forretning', 'pedagogisk materiell hjemmeundervisning salg'],
+    lsiKeywords: ['Kunnskapsløftet hjemmeskole', 'læreplanbaserte oppgaver', 'hjemmeundervisning voksende marked'],
+    titleTag: 'Selg arbeidsark for hjemmeundervisning | LCS',
+    metaDescription: 'Hjemmeundervisning vokser globalt og i Norge. Selg arbeidsark til dette markedet. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Hjemmeundervisning-utskrifter: Et voksende marked',
+    title: 'Selg arbeidsark for hjemmeundervisning',
     tagline: 'Hjemmeundervisning er lovlig i Norge og øker i popularitet',
     description: 'Hjemmeundervisning er lovlig i Norge, og antallet familier som velger det øker. Internasjonalt er markedet enormt, spesielt i USA, Storbritannia og Australia. Utskrivbare læreplaner og aktivitetspakker er svært etterspurt.',
   },

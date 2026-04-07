@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Pinterest trafikk printable butikk',
+    primaryKeyword: 'Pinterest trafikk arbeidsark Etsy butikk strategi',
     secondaryKeywords: [
-      'praktisk gjennomføring',
-      'optimalisering måling',
-      'vanlige feil unngå',
+      'Pinterest markedsføring digitale produkter Etsy',
+      'gratis trafikk arbeidsark butikk Pinterest',
+      'Pinterest pins arbeidsark selgere tips',
     ],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Pinterest-trafikk til din printable-butikk | LCS',
-    metaDescription: 'Pinterest driver mer trafikk til Etsy-butikker for utskrivbare produkter enn noe annet sosialt medium. Denne guiden viser deg hvordan du setter opp en',
+    lsiKeywords: ['Pinterest Etsy trafikk gratis', 'visuell søkemotor arbeidsark', 'Pinterest strategi digitale produkter'],
+    titleTag: 'Pinterest-trafikk til arbeidsark-butikken | LCS',
+    metaDescription: 'Bruk Pinterest til å drive gratis trafikk til Etsy-butikken med arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Pinterest-trafikk til din printable-butikk',
+    title: 'Pinterest-trafikk til arbeidsark-butikken',
     tagline: 'Pinterest er den største gratiskilden til Etsy-trafikk',
     description: 'Pinterest driver mer trafikk til Etsy-butikker for utskrivbare produkter enn noe annet sosialt medium. Denne guiden viser deg hvordan du setter opp en Pinterest-strategi som sender konsistent trafikk til annonsene dine.',
   },

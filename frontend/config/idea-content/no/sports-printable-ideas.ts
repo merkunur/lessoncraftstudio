@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sport utskriftsbare ideer til salg — nisjeguide',
-    metaDescription: 'Oppdag lønnsomme sport utskriftsbare ideer til salg på Etsy, Amazon KDP og Gumroad. Sportstema produktkonsepter og plattformtips for selgere.',
+    titleTag: 'Sports-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Sports-oppgaver til salg på Etsy og Amazon KDP. Fotball, basketball og idrettstema arbeidsark — nisjeideer, plattformtips og strategier for selgere.',
 
-    primaryKeyword: 'sport utskriftsbare ideer',
+    primaryKeyword: 'sports-oppgaver til salg',
     secondaryKeywords: [
+      'selge sports-arbeidsark Etsy',
+      'idrett-oppgaver KDP',
       'sportstema arbeidsark til salg',
-      'sport utskriftsbar forretning',
-      'sportsaktivitetsark for selgere',
-      'selg sportsprintables på Etsy',
+      'fotball og basketball oppgaver for selgere',
     ],
     lsiKeywords: [
-      'fotball og basketball pedagogiske arbeidsark',
-      'idrettstema aktivitetssider',
-      'sport og bevegelse utskriftsbare produkter',
+      'nisje sports-oppgaver',
+      'tema idrett arbeidsark',
+      'sesong sportsoppgaver',
+      'Etsy sport arbeidsark',
+      'KDP sport aktivitetsbok',
+      'selge oppgaver digitalt',
+      'eviggrønn sportsnisje',
     ],
   },
   hero: {
-    title: 'Sport utskriftsbare forretningsideer for selgere',
+    title: 'Sports-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Sport er et universelt tiltalende tema som engasjerer barn på tvers av aldersgrupper og kulturer, noe som gjør sportstema utskriftsbare produkter til en sterk nisje for selgere. Fra fotball og basketball til svømming og friidrett, dekker sportstemaet et bredt spekter av aktiviteter som resonerer med idrettsinteresserte familier. Foreldre som ønsker å koble barnas sportsinteresser med pedagogiske aktiviteter skaper vedvarende etterspørsel etter temabaserte arbeidsark. Sesongbaserte sportshendelser — fotballsesongen, sommerolympiaden, vinter-OL — driver ytterligere salgstopper gjennom året. Denne guiden gjennomgår produktideer, plattformstrategier og positioneringsmetoder for å bygge en lønnsom sportstema utskriftsbar produktlinje med våre arbeidsark-generatorverktøy.',
   },
   marketOverview: `Sport utskriftsbar-nisjen drar fordel av barns naturlige entusiasme for fysisk aktivitet og idrettshelter, noe som gjør den til et konsekvent sterk tema for pedagogiske produkter. I motsetning til mange temaer som primært appellerer til ett kjønn, har sportsarbeidsark bred appell som inkluderer både gutter og jenter, spesielt når produktlinjen dekker et variert utvalg av idretter fra fotball og basketball til turn og svømming.

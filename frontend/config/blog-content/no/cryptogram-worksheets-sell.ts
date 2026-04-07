@@ -2,14 +2,14 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kryptogram arbeidsark selge 2026',
-    secondaryKeywords: ['kryptogram-puslespill Etsy', 'hemmelig kode arbeidsark', 'kodeoppgaver barn selge'],
-    lsiKeywords: ['kryptogram generator', 'bokstavkode puslespill', 'hemmelighetsoppgaver salg'],
-    titleTag: 'Selg kryptogram-arbeidsark på nett | LCS',
-    metaDescription: 'Lær hvordan du selger kryptogram-arbeidsark. Lav konkurranse, høy opplevd verdi. Strategi for Etsy og KDP i 2026.',
+    primaryKeyword: 'selge kryptogram-oppgaver Etsy',
+    secondaryKeywords: ['kryptogram arbeidsark Etsy KDP', 'hemmelig kode oppgaver selge', 'kodeknekker arbeidsark barn'],
+    lsiKeywords: ['kryptogram oppgaver Etsy', 'arbeidsark hemmelig kode', 'KDP puslespillbok kryptogram', 'kommersiell lisens arbeidsark', 'Etsy lav konkurranse nisje', 'oppgaver generator', 'LessonCraftStudio'],
+    titleTag: 'Selg kryptogram-oppgaver: Lav konkurranse',
+    metaDescription: 'Kryptogram-oppgaver har lav konkurranse og høy verdi. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Selg kryptogram-arbeidsark på nett',
+    title: 'Selg kryptogram-oppgaver — lav konkurranse, høy verdi',
     tagline: 'Hemmelige koder + læring = produkter som selger seg selv',
     description: 'Kryptogram-puslespill lar barn knekke hemmelige koder ved å bytte ut bokstaver. De kombinerer bokstavgjenkjenning, logisk tenkning og motivasjonen av å «løse» noe. Denne nisjen har svært lav konkurranse på Etsy og solid etterspørsel på KDP. Guiden viser deg hvordan du utnytter denne muligheten.',
   },

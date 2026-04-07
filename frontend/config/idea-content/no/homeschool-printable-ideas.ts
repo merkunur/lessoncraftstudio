@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Hjemmeundervisning utskriftsbare ideer til salg — Nisjeguide',
-    metaDescription: 'Oppdag hjemmeundervisning utskriftsbare ideer for Etsy, Amazon KDP og Gumroad. Nisjestrategier for selgere rettet mot foreldre som bygger.',
+    titleTag: 'Hjemmeundervisning arbeidsark til salg | Nisjeideer',
+    metaDescription: 'Hjemmeundervisning arbeidsark til salg på Etsy og KDP. Oppgaver for hjemmeskole med matte, lesing og skriving — nisjeideer og strategier for selgere.',
 
-    primaryKeyword: 'hjemmeundervisning utskriftsbare ideer',
+    primaryKeyword: 'hjemmeundervisning arbeidsark til salg',
     secondaryKeywords: [
-      'hjemmeundervisning arbeidsark til salg',
-      'hjemmeundervisning utskriftsbar forretning',
-      'hjemmeundervisning aktivitetsark for selgere',
-      'selg hjemmeundervisning printables online',
+      'selge hjemmeundervisning-oppgaver Etsy',
+      'hjemmeskole arbeidsark KDP',
+      'hjemmeundervisning oppgaver til salg',
+      'hjemmeskole arbeidsark for selgere',
     ],
     lsiKeywords: [
-      'hjemmeutdanning læringsarbeidsark',
-      'foreldrestyrt læring utskriftsbare ressurser',
-      'hjemmeundervisningsgruppe aktivitetssider',
+      'nisje hjemmeundervisning-oppgaver',
+      'tema hjemmeskole arbeidsark',
+      'Etsy hjemmeundervisning arbeidsark',
+      'KDP hjemmeskole aktivitetsbok',
+      'selge oppgaver digitalt',
+      'eviggrønn hjemmeskolenisje',
+      'barneskole hjemmeundervisning',
     ],
   },
   hero: {
-    title: 'Hjemmeundervisning utskriftsbare forretningsideer for selgere',
+    title: 'Hjemmeundervisning arbeidsark til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Hjemmeundervisning printables representerer en av de mest lukrative nisjene på det pedagogiske markedet fordi hjemmeundervisningsfamilier kjøper utskriftsbare læringstillegg, øvelsesarbeidsark, aktivitetsbaserte læringsressurser og temaenhetsmaterialer til vesentlig høyere per-familie-rater enn tradisjonelle skoleforeldre. Den grunnleggende årsaken er enkel: hjemmeundervisningsforeldre er de eneste innholdsbeslutningstagerne som bygger hele utdanningsprogrammer fra kjøpte ressurser i stedet for å stole på kommunalt utleverte lærebøker og arbeidshefter. Denne kjøpsdynamikken skaper en kjøper som bruker penger på tvers av hvert fagområde og hvert klassetrinn samtidig, spesielt i husholdninger med flere klassetrinn der søsken som spenner fra førskole til mellomtrinnet alle trenger alderstilpassede materialer til enhver undervisningsblokk gjennom hele året. For utskriftsbare selgere og gründere kombinerer hjemmeundervisningsnisjen høyt per-familie-forbruk med helårs etterspørsel, sterk fellesskapsdrevet oppdagelse og en voksende populasjonsbase. Denne guiden dekker spesifikke produktideer bygget rundt våre arbeidsarkgeneratorverktøy, plattformstrategier for å nå hjemmeundervisningskjøpere og nisjeposisjoneringer for å hjelpe deg med å bygge en lønnsom hjemmeundervisning utskriftsbar produktlinje.',
   },
   marketOverview: `Hjemmeundervisning utskriftsbar-markedet representerer en premium inntektsmulighet fordi hjemmeundervisningsfamilier fungerer som komplette institusjonelle innkjøpere som må anskaffe enhver pedagogisk ressurs selvstendig i stedet for å supplere materialer allerede levert av en skolekommune. Mens en tradisjonell skoleforelder muligens kjøper sporadiske øvelsesarbeidsark for å forsterke daglig undervisning, kjøper en hjemmeundervisningsforelder hele læringsgrunnlaget inkludert kjerneferdighetsøvelse, berikelsesaktiviteter, vurderingsmaterialer og kreative læringsressurser på tvers av hvert fagområde for hvert barn i husholdningen. Denne fundamentale kjøpsforskjellen betyr at hjemmeundervisningsfamilier bruker vesentlig mer per husholdning på pedagogiske printables enn noe annet kjøpersegment på markedet.

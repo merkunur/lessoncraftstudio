@@ -2,24 +2,15 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mønster arbeidsark generator',
-    secondaryKeywords: [
-      'mønstertog arbeidsark generator for selgere',
-      'lag gjentakende mønster arbeidsark til salg',
-      'utskriftsbare mønstersekvens arbeidsark kommersiell bruk',
-      'togmønster arbeidsark generator for KDP',
-    ],
-    lsiKeywords: [
-      'visuell mønstergjenkjenning utskriftsbare for Etsy',
-      'tekstfri togvogn mønster arbeidsark verktøy',
-      'AB ABC mønstersekvens arbeidsark generator',
-    ],
-    titleTag: 'Mønster Arbeidsark Generator — Toggenerator | LCS',
-    metaDescription: 'Generer mønstertog arbeidsark med fem mønstertyper, 11 tematiske togvogner, justerbart ledetrådsantall og. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'mønsteroppgaver gratis på nett',
+    secondaryKeywords: ['logisk rekkefølge gratis', 'mønster fortsette gratis', 'sekvens 1. trinn gratis', 'mønsteroppgave gratis skrive ut'],
+    lsiKeywords: ['mønster', 'sekvens', 'logikk', 'AB', 'ABC', 'vannmerke', 'gratis'],
+    titleTag: 'Mønsteroppgaver gratis | Generator logiske rekkefølger online',
+    metaDescription: 'Lag mønsteroppgaver gratis online med AB, ABC, ABCD sekvenser og temabilder. Automatisk fasit. Ingen registrering.',
   },
 
   hero: {
-    title: 'Mønstertog Generator',
+    title: 'Mønsteroppgaver gratis — Generator for logiske rekkefølger online',
     tagline: 'Generer gjentakende mønster arbeidsark vist på 11 tematiske togvogner med fem mønstertyper, justerbart ledetrådsantall og helt visuelt tekstfritt output som selger globalt uten oversettelse',
     description: 'Lag profesjonelle mønstergjenkjenning arbeidsark der brukerne identifiserer og fullfører gjentakende sekvenser vist som bilder på et tematisk tog med 11 vogner. Fem distinkte mønstertyper dekker hvert nivå av sekvenskompleksitet: AB alternerer to objekter, AAB grupperer to av ett etterfulgt av ett av et annet, ABB snur den grupperingen, ABC roterer tre forskjellige objekter, og AABB parrer to av hvert før gjentakelse. Toglayoutet arrangerer 11 vogner over tre rader (5 + 3 + 3), med hver vogn som inneholder et bilde fra det gjentakende mønsteret. Én vogn etterlates tom — brukerne identifiserer mønsteret og bestemmer det manglende objektet. Juster ledetrådsantallet fra 4 til 10 for å kontrollere vanskelighetsgraden: å vise 10 ledetråder gjør mønsteret åpenbart, mens å vise kun 4 krever ekte mønstervurdering. Det distinkte togvognslayoutet er et visuelt differensieringspunkt fra vanlige rutenettarbeidsark. Hent fra mer enn 3 100 illustrasjoner i 104 tematiske samlinger eller last opp egne bilder. En separat fasitfane viser alle 11 vogner utfylt med den korrekte mønstersekvensen. Hvert arbeidsark er helt visuelt med kun bilder på togvogner og null tekst i outputtet. Ingen ord vises — kun bilder. Dette gjør arbeidsarkene dine universelt salgbare uten oversettelse: én produktannonse betjener hvert marked i verden. Eksporter trykklare PDF-er og JPEG-bilder med høy DPI i Letter, A4, Kvadrat (1200×1200) eller egendefinerte størrelser. Bytt gråtone for blekkvarsom utskrift. Den gratis prøveversjonen inneholder alle funksjoner med et vannmerke på nedlastinger. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

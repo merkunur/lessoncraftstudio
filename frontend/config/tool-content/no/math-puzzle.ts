@@ -2,24 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mattepuslespill generator på nett',
+    primaryKeyword: 'mattespill gratis på nett',
     secondaryKeywords: [
-      'puslespill matematikkarbeidsark for selgere',
-      'mattepuslespill generator for barn',
-      'bilde mattepuslespill på nett',
-      'utskriftsbare mattepuslespill arbeidsark for brukere',
+      'mattepuslespill gratis skrive ut',
+      'mattegåter gratis online',
+      'morsomme matteoppgaver gratis',
+      'lekne matteoppgaver gratis',
     ],
     lsiKeywords: [
-      'bilderutenett mattepuslespill for produktlinjebruk',
-      'puslespillstil matematikkaktivitet for barn',
-      'konfigurerbar mattepuslespill arbeidsark generator',
+      'puslespill',
+      'bilder',
+      'matche',
+      'logikk',
+      'vannmerke',
+      'gratis',
     ],
-    titleTag: 'Mattepuslespill Generator — Puslespillarbeidsark til...',
-    metaDescription: 'Lag puslespillstil mattepuslespill for produktlinjen din. Bilderutenett puslespill med addisjon og subtraksjon,. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Mattespill gratis på nett | Generator mattepuslespill',
+    metaDescription: 'Lag mattepuslespill med bilder gratis online. Barn løser stykker for å matche figurer. Fasit inkludert. Ingen registrering.',
   },
 
   hero: {
-    title: 'Mattepuslespill Arbeidsark Generator',
+    title: 'Mattespill gratis på nett — Generator for mattepuslespill med bilder',
     tagline: 'Lag puslespillstil bildepuslespill med matematikkligninger på under 60 sekunder',
     description: 'Forvandl matematikkoving til et engasjerende visuelt puslespill som ser helt annerledes ut enn et vanlig arbeidsark. Dette verktøyet deler et valgt bilde opp i et rutenett av celler, hver med en matematikkligning. Blandede puslespillbrikker med svarsiffer vises nedenfor — brukerne loser hver ligning og matcher riktig brikke for å rekonstruere bildet. Velg blant tre operasjonsmoduser: Addisjon, Subtraksjon eller Blandet (begge operasjonene tilfeldig kombinert). Juster rutenettstorrelse fra 2×2 (4 brikker, lettest) opp til 4×4 (16 brikker, vanskeligst) for å matche ethvert ferdighetsnivå. Last opp egne PNG- eller JPEG-bilder for merkevarebaserte, sesongbaserte eller nisjepuslespill, eller bla gjennom det innebygde biblioteket med mer enn 3 100 bilder i 104 temaer. Puslespillformatet generator et direkte gjenkjennelig produkt som skiller seg ut i markedsplassens sokeresultater — kjopere som scroller gjennom rader av identiske arbeidsark stopper ved et fargerikt bildepuslespill. Last ned som trykkeklar PDF eller hoyopplost JPEG. Den gratis proveversjonen inneholder et vannmerke på nedlastinger. Kjop en lisens for å fjerne vannmerket og selge kommersielt.',
   },

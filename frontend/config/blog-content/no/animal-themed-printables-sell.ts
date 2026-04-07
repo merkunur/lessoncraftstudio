@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'dyr temaet dyretema utskrifter evergreen',
+    primaryKeyword: 'selge dyretema arbeidsark Etsy',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'dyreoppgaver barn selge nett',
+      'dyretema oppgaver KDP bok',
+      'evergreen arbeidsark dyr Etsy',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Dyretema-utskrifter: En evergreen-nisje | LCS',
-    metaDescription: 'Dyr er det mest populære temaet for utskrivbare arbeidsark på tvers av alle kategorier. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['dyretema arbeidsark selge', 'oppgaver dyr barn Etsy', 'KDP aktivitetsbok dyr', 'kommersiell lisens arbeidsark', 'evergreen nisje oppgaver', 'Etsy digital nedlasting dyr', 'LessonCraftStudio generator'],
+    titleTag: 'Dyretema-arbeidsark: Evergreen på Etsy',
+    metaDescription: 'Dyretema-oppgaver selger hele året. Lag profesjonelle arbeidsark med LessonCraftStudio — 33 generatorer, 11 språk, kommersiell lisens.',
   },
   hero: {
-    title: 'Dyretema-utskrifter: En evergreen-nisje',
+    title: 'Dyretema-arbeidsark — evergreen-nisje som selger året rundt',
     tagline: 'Barn elsker dyr — og det endrer seg aldri',
     description: 'Dyr er det mest populære temaet for utskrivbare arbeidsark på tvers av alle kategorier. Fra fargelegging av dyr til dyre-ordsøk og dyre-matteoppgaver — alt med dyretema selger bedre enn generiske versjoner.',
   },

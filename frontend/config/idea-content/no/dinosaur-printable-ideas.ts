@@ -2,24 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dinosaur utskriftbare ideer til salg — Nisjeguide',
-    metaDescription: 'Utforsk dinosaurtema utskriftbare ideer til salg på Etsy, Amazon KDP og Gumroad. Produktkonsepter, plattformstrategier og nisjetips for selgere.',
-
-    primaryKeyword: 'dinosaur utskriftbare ideer',
+    titleTag: 'Dinosaur-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Dinosaur-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge dinosaurtema oppgaver.',
+    primaryKeyword: 'dinosaur-oppgaver til salg',
     secondaryKeywords: [
-      'dinosaurtema arbeidsark til salg',
-      'dinosaur utskriftbar forretningsideer',
-      'selg dinosauraktivitetsark på nett',
-      'dinosaur arbeidsark nisje for selgere',
+      'dinosaur arbeidsark selge Etsy',
+      'dinosaurtema aktivitetsbøker KDP',
+      'selge dinosaur-oppgaver på nett',
+      'dinosaur nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'forhistoriske dyretema pedagogiske utskriftbare',
-      'paleontologiaktiviteter for barn',
-      'dinosaurartslæringsarbeidsark',
+      'dinosaur nisje Etsy KDP',
+      'eviggrønt tema arbeidsark',
+      'dinosaurtema arbeidsark barneskole',
+      'pedagogiske dinosaur-oppgaver til salg',
+      'forhistorisk tema produktlinje selgere',
     ],
   },
   hero: {
-    title: 'Dinosaur utskriftbare forretningsideer for selgere',
+    title: 'Dinosaur-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Dinosaurer er et av de sterkeste eviggrønne temaene for utskriftbare selgere fordi barn er universelt og intenst fascinert av disse forhistoriske skapningene. Fra T-Rex og Triceratops til Brachiosaurus og Stegosaurus gir det enorme mangfoldet av dinosaurarter utskriftbare selgere et massivt kreativt lerret for produktdifferensiering. Dinosaurtemaet tilbyr ekstraordinær dybde med dusinvis av gjenkjennelige arter, habitat- og tidslinjekonsepter, og sterke STEM-forbindelser gjennom paleontologi, geologi og evolusjon. For selgere på Etsy, Amazon KDP og Gumroad kombinerer dinosaurnisjen kraftig barneappell med helårs etterspørsel som ikke er sesongavhengig. Denne guiden gir spesifikke produktideer, plattformstrategier og prismetoder for å hjelpe deg med å bygge en lønnsom dinosaurtema utskriftbar produktlinje.',
   },
   marketOverview: `Dinosaur utskriftbar-nisjen er en av de mest pålitelige eviggrønne nisjene i det pedagogiske markedet. Barnefascinasjonen av dinosaurer er nesten universell og starter typisk rundt to til tre års alder og varer ofte til åtte til ti år. Denne langvarige interessen skaper et bredt kjøpervindu som selgere kan utnytte med alderstilpassede produkter.

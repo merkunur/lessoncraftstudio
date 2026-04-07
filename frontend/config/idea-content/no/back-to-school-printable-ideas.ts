@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Skolestart utskriftbare ideer til salg | LCS',
-    metaDescription: 'Skolestart utskriftbare ideer for Etsy og KDP. Produktkonsepter, timing for juli-september og strategier for den største pedagogiske etterspørselsperioden.',
-
-    primaryKeyword: 'skolestart utskriftbare til salg',
+    titleTag: 'Skolestart oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Skolestart-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere i juli-september etterspørselstoppen.',
+    primaryKeyword: 'skolestart oppgaver til salg Etsy',
     secondaryKeywords: [
-      'skolestart arbeidsark til salg på Etsy',
-      'skolestart aktiviteter for Etsy-selgere',
-      'skoletema aktivitetsbøker for KDP',
-      'selg skolestart utskriftbare',
-      'skoleutstyr-tema utskriftbar virksomhet',
+      'skolestart arbeidsark selge Etsy',
+      'skoletema aktivitetsbøker KDP',
+      'selge skolestart-oppgaver på nett',
+      'skolestart nisje arbeidsark-selgere',
     ],
     lsiKeywords: [
-      'skolestart utskriftbar nisje',
-      'august september etterspørselstopp',
-      'skoletema produkter',
+      'skolestart nisje Etsy KDP',
+      'sesongbasert etterspørsel august september',
+      'skoletema arbeidsark barneskole',
+      'pedagogiske oppgaver til salg',
+      'skolestart produktlinje selgere',
     ],
   },
   hero: {
-    title: 'Skolestart utskriftbare til salg på Etsy',
+    title: 'Skolestart oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Skolestart er det største sesongbaserte etterspørselsvinduet for pedagogiske utskriftbare — foreldre og kjøpere begynner å handle i juli, og kjøpstoppen strekker seg gjennom september. Denne nisjeguiden dekker skolestartmuligheten: hvilke produktformater som selger best i innkjøpssesongen, hvordan du lager klassetrinnspesifikke pakker som treffer presise kjøpersegmenter, og spesifikke produktideer på tvers av matte, leseferdigheter, puslespill og organisasjonsaktiviteter. Begynn å skape i juni for å få oppføringene dine indeksert og vurdert før rushet begynner.',
   },
   marketOverview: `Den utskriftbare skolestartnisjen har et av de høyeste sesongbaserte trafikkvolumet på den pedagogiske markedsplassen, og leverer vedvarende etterspørsel over et bredt salgsvindu fra juli til september som gir selgere meningsfull tid til å fange inntekter. Kjøpere begynner å forberede seg på nye produktbehov i midten av juli, og kjøper planleggingsmateriell, førsteuke isbrytere og supplerende produkter som hjelper dem å komme raskt i gang når skoleåret begynner. Foreldre søker etter skoleklarhetsarbeidsark, pedagogiske aktiviteter for å bygge bro over sommerens læringstap, og engasjerende utskriftbare som letter overgangen fra feriemodus tilbake til strukturerte daglige rutiner. Hjemmeundervisningsfamilier, som planlegger hele sitt akademiske år i sommermånedene, representerer et særlig verdifullt kjøpersegment fordi de kjøper omfattende ressurssamlinger i stedet for individuelle arbeidsark.

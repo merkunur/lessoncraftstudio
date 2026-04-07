@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vinter utskrifter selg desember januar',
+    primaryKeyword: 'vinter arbeidsark selge desember januar Etsy',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'vintertema oppgaver selge nettbutikk',
+      'snø ski arbeidsark forretning barn',
+      'vinter sesongoppgaver Etsy KDP',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Vinter-utskrifter: Selg i desember–januar | LCS',
-    metaDescription: 'Vintertemaer er populære fra november til februar. Snøfnugg, ski, vinterklær og vinterdyr er temaer som selger godt både på Etsy og Undervisningsbyen.',
+    lsiKeywords: ['sesongbaserte arbeidsark salg', 'vinter oppgaver barn nisje', 'vintertema arbeidsark kommersiell lisens'],
+    titleTag: 'Vinter-arbeidsark: Selg des.–jan. | LCS',
+    metaDescription: 'Selg vintertema-arbeidsark med snø, ski og vinterdyr fra november til februar. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Vinter-utskrifter: Selg i desember–januar',
+    title: 'Vinter-arbeidsark: Selg i desember–januar',
     tagline: 'Snø, is og vintermagi — sesongprodukter med bred appell',
     description: 'Vintertemaer er populære fra november til februar. Snøfnugg, ski, vinterklær og vinterdyr er temaer som selger godt både på Etsy og Undervisningsbyen.no. Kombiner med jul og nyttår for maksimal dekning.',
   },

@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'utskrifter morsdag farsdag',
+    primaryKeyword: 'selg morsdag farsdag arbeidsark sesongprodukter',
     secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
+      'morsdag arbeidsark Etsy selgere Norge',
+      'farsdag oppgaver selge sesongbasert',
+      'lag morsdagsaktiviteter arbeidsark kommersiell lisens',
     ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Utskrifter for morsdag og farsdag | LCS',
-    metaDescription: 'Morsdag (februar i Norge) og farsdag (november i Norge) er to store salgsmuligheter. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['sesongbaserte arbeidsark morsdag farsdag', 'kort aktiviteter barn foreldre', 'norsk morsdag februar farsdag november'],
+    titleTag: 'Selg arbeidsark for morsdag og farsdag | LCS',
+    metaDescription: 'Morsdag og farsdag gir to store salgsmuligheter for arbeidsark-selgere. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Utskrifter for morsdag og farsdag',
+    title: 'Selg arbeidsark for morsdag og farsdag',
     tagline: 'To årlige salgsmuligheter med høy etterspørsel',
     description: 'Morsdag (februar i Norge) og farsdag (november i Norge) er to store salgsmuligheter. Barn lager kort, tegninger og aktiviteter som gaver. Utskrivbare kort, fargeleggingssider og aktiviteter selger godt i disse periodene.',
   },

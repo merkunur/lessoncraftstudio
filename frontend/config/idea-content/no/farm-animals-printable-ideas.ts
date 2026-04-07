@@ -2,14 +2,14 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Gårdsdyr utskriftbare ideer til salg — Nisjeguide',
-    metaDescription: 'Oppdag gårdsdyr utskriftbare ideer til salg på Etsy, Amazon KDP og Gumroad. Dyretema produktkonsepter, plattformstrategier og nisjetips for selgere.',
-    primaryKeyword: 'gårdsdyr utskriftbare ideer',
-    secondaryKeywords: ['gårdsdyr arbeidsark til salg', 'gårdstema utskriftbar virksomhet', 'gårdsdyr aktivitetsark for selgere', 'selg gårdsdyr utskriftbare på Etsy'],
-    lsiKeywords: ['gårdstema pedagogiske arbeidsark', 'bondegård læringsaktiviteter', 'husdyr-tema utskriftbare produkter'],
+    titleTag: 'Bondegårdsdyr-oppgaver til salg | Nisjeideer',
+    metaDescription: 'Bondegårdsdyr-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge gårdstema oppgaver.',
+    primaryKeyword: 'bondegårdsdyr-oppgaver til salg',
+    secondaryKeywords: ['bondegårdsdyr arbeidsark selge Etsy', 'gårdstema aktivitetsbøker KDP', 'selge bondegårdsdyr-oppgaver på nett', 'bondegårdsdyr nisje arbeidsark-selgere'],
+    lsiKeywords: ['bondegårdsdyr nisje Etsy KDP', 'gårdstema arbeidsark barneskole', 'pedagogiske bondegårdsdyr-oppgaver til salg', 'husdyr tema produktlinje selgere', 'eviggrønt dyretema oppgaver'],
   },
   hero: {
-    title: 'Gårdsdyr utskriftbare forretningsideer for selgere',
+    title: 'Bondegårdsdyr-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Gårdsdyr representerer en av de mest pålitelige og universelt appellerende nisjene for utskriftbare selgere, med tidløs barneappell drevet av kjente dyr som kuer, griser, høner, sauer, hester, geiter og ender som barn møter i bøker, sanger og besøk til bondegårder fra svært ung alder. Gårdstemaet tilbyr ekstraordinær undertemas dybde med dusinvis av gjenkjennelige dyr, gårdsscener, jordbruksutstyr og sesongsykluser. For utskriftbare selgere på Etsy, Amazon KDP og Gumroad kombinerer gårdsdyr-nisjen sterk helårs etterspørsel med universell barneappell og tverrfaglig pedagogisk verdi.',
   },
   marketOverview: `Gårdsdyr utskriftbar-nisjen er en av de mest etablerte og konsekvent etterspurte nisjene i det pedagogiske markedet. Barnefascinasjonen av gårdsdyr begynner typisk i de tidligste leveårene gjennom dyrelyder, pekebøker og sanger som \'Bonden i bakken\' og \'I fjøset.\' Denne tidlige eksponeringen skaper et kjøpervindu som starter med småbarn og strekker seg gjennom tidlig grunnskole.

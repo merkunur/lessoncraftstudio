@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lag og selg TPT-ressurser',
+    primaryKeyword: 'selge arbeidsark på Gumroad lærere',
     secondaryKeywords: [
-      'hvordan lage og selge TPT-ressurser',
-      'selg ressurser på Teachers Pay Teachers guide',
-      'TPT ressursoppretting for selgere',
-      'tjen penger på salg på TPT 2026',
-      'Teachers Pay Teachers butikkoppsett',
+      'arbeidsark til norske lærere selge',
+      'plattformvalg arbeidsark lærere',
+      'selge oppgaver til skoler digitalt',
     ],
     lsiKeywords: [
-      'TPT selgervirksomhet guide',
-      'pedagogisk ressursmarkedsplass',
-      'selg undervisningsmateriell på nett',
+      'arbeidsark barneskole lærere Gumroad',
+      'kommersiell lisens oppgaver lærere',
+      'nisjer arbeidsark norske skoler',
+      'LK20 arbeidsark digitalt salg',
+      'markedsføring oppgaver til lærere',
+      'prissetting arbeidsark lærere',
+      'plattformvalg Gumroad Etsy lærere',
+      'selge undervisningsmateriell på nett',
     ],
-    titleTag: 'Lager og selger du TPT-ressurser | LCS',
-    metaDescription: 'Guide til å lage og selge ressurser på Teachers Pay Teachers. Produktoppretting, butikkoppsett, prissetting og markedsføringsstrategier for TPT-selgere.',
+    titleTag: 'Selge arbeidsark til lærere på Gumroad | Guide',
+    metaDescription: 'Slik selger du arbeidsark til norske lærere. Plattformvalg, nisjer og markedsføring.',
   },
 
   hero: {
-    title: 'Slik lager og selger du TPT-ressurser',
+    title: 'Selge arbeidsark til lærere på Gumroad — guide med plattformvalg og nisjer',
     tagline: 'En komplett guide til å selge pedagogiske ressurser på Teachers Pay Teachers — dekker kontooppsett og butikkonfigurasjon, oppretting av TPT-klare ressurser med riktig formatering, pakking av filer for opplasting, skriving av oppføringer som rangerer i kjøpersøk, oppretting av effektive forhåndsvisninger og miniatyrbilder, prisstrategi for selgermarkedsplassen, og lansering av dine første ressurser for å bygge butikkmomentum og konsekvent inntekt',
     description: 'Teachers Pay Teachers er den største markedsplassen spesifikt for pedagogiske ressurser — og den tilbyr selgere direkte tilgang til millioner av lærere som aktivt søker etter klasseromsmaterialer. Denne guiden dekker alt fra å lage TPT-klare produkter med generatorene våre til å sette opp butikken din, skrive beskrivelser som rangerer i TPT-søk, og prisstrategier som balanserer volum med fortjeneste. Enten du er en lærer som tjener penger på egne materialer eller en gründer som bygger en utskriftsvirksomhet, tilbyr TPT et dedikert publikum ingen annen plattform kan matche.',
   },

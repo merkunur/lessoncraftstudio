@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'printable prisstrategi etsy printables',
-    secondaryKeywords: ['Etsy printable prisstrategi tips', 'Etsy printable prisstrategi strategi', 'Etsy printable prisstrategi 2026'],
-    lsiKeywords: ['utskrivbare produkter forretning', 'printable selger strategi', 'digital nedlasting inntekt'],
-    titleTag: 'Prisstrategi for Etsy-printables | LCS',
-    metaDescription: 'De fleste printable-selgere underpriser produktene sine. Denne guiden viser deg en prissettingsmodell basert på kundens opplevde verdi, ikke din produ',
+    primaryKeyword: 'prisstrategi arbeidsark Etsy selgere',
+    secondaryKeywords: ['prissetting oppgaver digitale nedlastinger', 'riktig pris arbeidsark Etsy', 'arbeidsark pakker prissetting'],
+    lsiKeywords: ['verdibasert prising pedagogiske produkter', 'fortjenestemargin digitale produkter', 'Etsy prisoptimalisering'],
+    titleTag: 'Prisstrategi for arbeidsark på Etsy | LCS',
+    metaDescription: 'De fleste arbeidsark-selgere underpriser produktene sine. Lær verdibasert prissetting. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Prisstrategi for Etsy-printables',
+    title: 'Prisstrategi for arbeidsark på Etsy',
     tagline: 'Prissett for verdi, ikke for kostnad',
     description: 'De fleste printable-selgere underpriser produktene sine. Denne guiden viser deg en prissettingsmodell basert på kundens opplevde verdi, ikke din produksjonstid. Med riktig prising kan du doble inntekten uten å doble arbeidet.',
   },

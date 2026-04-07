@@ -1,18 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'halloween utskrifter selg oktober',
-    secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
-    ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Halloween-utskrifter: Selg i oktober | LCS',
-    metaDescription: 'Halloween har blitt stadig mer populær i Norge. Både barnehager og skoler arrangerer Halloween-aktiviteter. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'selg Halloween-arbeidsark i oktober',
+    secondaryKeywords: ['Halloween oppgaver barn Etsy selge', 'sesongbaserte Halloween-ark forretning', 'Halloween aktivitetsark KDP selge'],
+    lsiKeywords: ['gresskar spøkelser oppgaver', 'Halloween pedagogisk materiale', 'sesongprodukt oktober salg'],
+    titleTag: 'Selg Halloween-arbeidsark i oktober | LCS',
+    metaDescription: 'Halloween-oppgaver selger godt i oktober på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Halloween-utskrifter: Selg i oktober',
+    title: 'Selg Halloween-arbeidsark i oktober',
     tagline: 'Halloween er en voksende trend i Norge',
     description: 'Halloween har blitt stadig mer populær i Norge. Både barnehager og skoler arrangerer Halloween-aktiviteter. Utskrivbare Halloween-oppgaver med spøkelser, gresskar og flaggermus selger godt både på Etsy (internasjonalt) og Undervisningsbyen.no (norsk marked).',
   },

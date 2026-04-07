@@ -1,18 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'finmotorikk aktiviteter printables 2026',
-    secondaryKeywords: [
-      'norsk tilpasning unik vinkel',
-      'produktoppbygging prissetting',
-      'seo timing',
-    ],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Finmotorikk-aktiviteter som utskrifter | LCS',
-    metaDescription: 'Finmotorikk-aktiviteter forbereder barn på skriving ved å trene håndkontroll, øye-hånd-koordinasjon og presisjon. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'selg finmotorikk-arbeidsark på nett',
+    secondaryKeywords: ['finmotorikk oppgaver Etsy selge', 'sporingsoppgaver barn forretning', 'håndtrening arbeidsark selge KDP'],
+    lsiKeywords: ['øye-hånd-koordinasjon øvelser', 'skrivetrening forberedelse', 'finmotorikk barnehage materiell'],
+    titleTag: 'Selg finmotorikk-arbeidsark for barn | LCS',
+    metaDescription: 'Finmotorikk-oppgaver forbereder barn på skriving og er svært etterspurt. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Finmotorikk-aktiviteter som utskrifter',
+    title: 'Selg finmotorikk-arbeidsark for barn',
     tagline: 'Finmotorikk er forkravet for skriving — og etterspørselen er stor',
     description: 'Finmotorikk-aktiviteter forbereder barn på skriving ved å trene håndkontroll, øye-hånd-koordinasjon og presisjon. Sporing, klipping-øvelser og tegneoppgaver er populære produkter i denne kategorien.',
   },

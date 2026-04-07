@@ -2,24 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kodeaddisjon arbeidsark generator',
+    primaryKeyword: 'hemmelig melding med regnestykker skrive ut',
     secondaryKeywords: [
-      'utskriftsbare mattepuslespill arbeidsark til Etsy',
-      'kodeaddisjon arbeidsark til Amazon KDP',
-      'mattepuslespill generator til Gumroad-selgere',
-      'kodeaddisjon arbeidsark kommersiell lisens',
+      'kodeknekker matte oppgave',
+      'hemmelig kode plusstykker',
+      'mattegåte arbeidsark',
+      'kodeoppgaver matematikk',
     ],
     lsiKeywords: [
-      'pedagogiske puslespill utskriftsbare forretningsideer',
-      'mattepuslespill selge på nett',
-      'mattepuslespill arbeidsbok generator',
+      'knekke kode',
+      'dechiffrere',
+      'skjult melding',
+      'gåte',
     ],
-    titleTag: 'Kodeaddisjon Generator | Mattepuslespill å Knekke',
-    metaDescription: 'Lag kodeaddisjons arbeidsark til Etsy, KDP og Gumroad. Avslør Ord modus, 104 temaer, 11 språk, fasit, 400+ DPI. $49 engangsbetaling.',
+    titleTag: 'Hemmelig melding med regnestykker | Kodeknekker-generator',
+    metaDescription: 'Lag oppgaver der barn løser plusstykker for å knekke hemmelige meldinger. Temabilder, fasit inkludert. Prøv gratis.',
   },
 
   hero: {
-    title: 'Kodeaddisjons Arbeidsark Generator — Mattepuslespill å Knekke',
+    title: 'Hemmelig melding med regnestykker — Kodeknekker-generator med temabilder',
     tagline: 'Forvandl addisjon til et detektivoppdrag der hvert bilde skjuler et hemmelig nummer.',
     description:
       'Lag kryptaritmetiske addisjons arbeidsark som utfordrer brukerne til å knekke en visuell kode. Hvert bilde på arbeidsarket representerer i hemmelighet et bestemt nummer — brukerne løser addisjonsoppgaver for å finne ut hvilket nummer hvert bilde står for, der regneferdighet og logisk resonnement smelter sammen i én og samme øvelse. Bytt til Avslør Ord modusen, og utfordringen vokser: skriv et hemmelig ord på opptil ti bokstaver, og hver korrekt løst ligning avslører en bokstav i svaret, mens tre villedende ligninger med feil summer øker spenningen. Generatoren støtter elleve språkspesifikke alfabeter, noe som gjør at Avslør Ord modusen fungerer innebygd på norsk, svensk, dansk, engelsk, tysk, fransk og fem andre språk — en funksjon som ingen annen arbeidsark-generator tilbyr. Det norske alfabetet inneholder æ, ø og å, så hemmelige ord med disse bokstavene fungerer naturlig. Velg blant mer enn 3 100 bilder i 104 temaer, konfigurer tallintervaller fra 1 til 20 med to til fem kodesymboler per arbeidsark, og eksporter trykkeklare PDF-er eller JPEG-er med mer enn 400 DPI med automatiske fasiter. Gratis prøveversjon med alle funksjoner — uten registrering, uten kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',

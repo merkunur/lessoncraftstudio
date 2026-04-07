@@ -2,27 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'selg mattearbeidsark på Etsy',
+    primaryKeyword: 'selge matteoppgaver på Etsy',
     secondaryKeywords: [
-      'hvordan selge mattearbeidsark på Etsy',
-      'Etsy matte arbeidsark butikk oppsett',
-      'printbare mattearbeidsark Etsy virksomhet',
-      'selg pedagogiske printables på Etsy',
+      'mattearbeidsark Etsy butikk guide',
+      'selge plusstykker minusstykker Etsy',
+      'Etsy matte oppgaver nisjevalg',
     ],
     lsiKeywords: [
-      'Etsy digital nedlasting matte aktiviteter oppføringsoptimalisering',
-      'matte arbeidsark pakkeprisstrategi Etsy selgere',
-      'Etsy SEO tagger for pedagogiske printbare arbeidsark',
-      'selg addisjons subtraksjons arbeidsark Etsy butikk',
-      'skolestart matte printable Etsy sesongstrategi',
-      'Etsy oppføringsbilder mockups for matte arbeidsark produkter',
+      'matteoppgaver barneskole Etsy',
+      'kommersiell lisens mattearbeidsark',
+      'Amazon KDP matte aktivitetsbøker',
+      'Etsy SEO matteoppgaver tagger',
+      'prissetting mattepakker Etsy',
+      'LK20 matte trinn 1-4',
+      'selge plusstykker og puslespill digitalt',
+      'sesongplanlegging skolestart matte',
     ],
-    titleTag: 'Selg mattearbeidsark på Etsy — Guide',
-    metaDescription: 'Selg mattearbeidsark på Etsy med 6 generatorer. Etsy SEO, oppføringsoptimalisering, prissetting, pakkestrategi og sesongplanlegging for printable-selgere.',
+    titleTag: 'Selge matteoppgaver på Etsy | Guide for selgere',
+    metaDescription: 'Slik selger du matteoppgaver på Etsy. Plusstykker, minusstykker, puslespill. Nisjevalg og SEO-tips.',
   },
 
   hero: {
-    title: 'Slik selger du mattearbeidsark på Etsy',
+    title: 'Selge matteoppgaver på Etsy — guide for selgere med nisjevalg og SEO-tips',
     tagline: 'En komplett plattformguide for å bygge en lønnsom Etsy-butikk som selger mattearbeidsark laget med 6 spesialiserte generatorer — dekker Etsy-butikk oppsett, SEO-optimalisering med alle 13 tagger, oppføringstitler og beskrivelser som rangerer for kjøperes søkeord, produktfotografering og mockups, prisstrategier for individuelle arbeidsark og pakker, sesongplanlegging for skolestart- og ferietopper, katalogplanlegging på tvers av addisjon, subtraksjon, kodepuslespill, sammenligning, rutenettoppgaver og talldrilloppgaver, samt løpende butikkoptimalisering med Etsy Stats og søkeanalyse',
     description: 'Mattearbeidsark er blant de mest ettertraktede pedagogiske printables på Etsy. Foreldre som leter etter leksesupplement, kjøpere som søker etter klargjorte aktiviteter og hjemmeundervisningsfamilier som bygger pensumsressurser — alle henvender seg til Etsy for nedlastbare mattemateriell. Denne guiden viser deg hvordan du bygger en Etsy-butikk som betjener alle tre kjøpersegmentene med arbeidsark laget med våre 6 mattegeneratorer: Addisjon, Subtraksjon, Kodeaddisjon, Mer eller Mindre, Mattepuslespill og Mattearbeidsark.\n\nI motsetning til produktskapingsguider som lærer deg å bruke en spesifikk app, fokuserer denne plattformguiden på Etsy-spesifikke salgsstrategier. Du vil lære å undersøke etterspørselen etter mattearbeidsark på Etsy, planlegge et produktkatalog som dekker flere matteferdigheter og vanskelighetsgrader, skrive oppføringer som rangerer i Etsy-søk, lage oppføringsbilder som konverterer besøkende til kjøpere, sette priser som balanserer konkurranseevne med lønnsomhet, og optimalisere butikken din over tid med Etsys innebygde analyseverktøy.\n\nHver av de 6 mattegeneratorene produserer en annen type arbeidsark, noe som gir deg produktvariasjon som de fleste enkeltverktøy-selgere ikke kan matche. Addisjons- og subtraksjonsgeneratoren lager bildebaserte oppgaver der brukerne teller tematiske illustrasjoner. Kodeaddisjon produserer hemmelig kode-mattepuslespill som kombinerer regning med avkoding. Mer eller Mindre genererer sammenligningsarbeidsark for større-enn og mindre-enn konsepter. Mattepuslespill generator rutenettbaserte utfordringer som utvikler logisk tenkning sammen med beregningsferdigheter. Mattearbeidsark produserer rene talldrilloppgaver for brukere som trenger fokusert regneøvelse. Sammen lar disse 6 verktøyene deg bygge et omfattende mattearbeidsark-katalog fra ett enkelt verktøysett.\n\nHver funksjon i alle 6 generatorer er tilgjengelig i den gratis prøveversjonen med vannmerke, slik at du kan lage komplette arbeidsark, vurdere utdatakvaliteten og planlegge produktkatalogen din før du kjøper kommersielle lisenser. Den kommersielle lisensen fjerner vannmerker og gir full rett til å selge genererte arbeidsark på Etsy og enhver annen markedsplass.',
   },

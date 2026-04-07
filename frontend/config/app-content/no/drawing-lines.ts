@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'arbeidsark tegn linjer generator lag sporingsarbeidsark',
-    secondaryKeywords: [
-      'linjesporing arbeidsark selg på Etsy',
-      'tegn linjer arbeidsark generator til Amazon KDP',
-      'linjesporing arbeidsark kommersiell lisens',
-      'utskriftsbare linjesporingsovelser til Gumroad',
-    ],
-    lsiKeywords: [
-      'digitale linjesporing produkter nettbasert forretning',
-      'utskriftsbare finmotoriske arbeidsark business',
-      'tegn linjer generator kommersielt bruk',
-    ],
-    titleTag: 'Tegn Linjer Generator | Lag Sporingsarbeidsark',
-    metaDescription: 'Lag linjesporingsarbeidsark til salg på Etsy, KDP og Gumroad. Åtte SVG-maler, bildeparmatchning, 104 tematiske samlinger. $49 engangsbetaling.',
+    primaryKeyword: 'skrivemotorikk linjer skrive ut',
+    secondaryKeywords: ['prikkelinjer overskrive', 'finmotorikk oppgaveark', 'sporingsøvelser 1. trinn', 'linjer trekke oppgave'],
+    lsiKeywords: ['finmotorikk', 'prikkelinje', 'sporing', 'overskrive', '1. trinn'],
+    titleTag: 'Skrivemotorikk linjer å skrive ut | Generator overskrivingsøvelser',
+    metaDescription: 'Lag overskrivings- og skrivemotorikk-oppgaver med temabilder. 300 DPI PDF utskrivbare. Prøv gratis — kommersiell lisens.',
   },
 
   hero: {
-    title: 'Tegn Linjer Arbeidsark Generator for Linjesporingsovelser',
+    title: 'Skrivemotorikk linjer å skrive ut — Generator for overskrivingsøvelser',
     tagline: 'Åtte SVG-linjemaler — kurver, diagonaler, horisontale og vertikale — med 4–5 bildepar per side for finmotorisk utvikling gjennom guidet linjesporing.',
     description:
       'Bygg profesjonelle linjesporingsarbeidsark der brukerne tegner langs guidede baner for å forbinde matchende bildepar. Åtte SVG-baserte maler dekker fire linjetyper: fire kurvemaler for flytende bevegelser, to diagonalmaler for vinklede streker, en horisontal mal for rette sporinger og en vertikal mal for ovenfra-og-ned-ovelse. Hver mal plasserer 4 eller 5 matchende bildepar på motsatte sider av linjebanen, noe som gir brukerne et visuelt mål ved hver ende. Auto-utfyll tildeler tilfeldig bildepar fra ethvert valgt tema eller på tvers av alle temaer samtidig. Innhold hentes fra det innebygde bildebiblioteket med mer enn 3 100 fargerike illustrasjoner i 104 temaer — dyr, kjoretoy, mat, natur og dusinvis flere. Hvert arbeidsark er rent visuelt med null tekst på resultatet, noe som gjor dem universelt brukbare uansett språk eller lesenivå. Malvalget styrer sideorienteringen automatisk: kurvemaler bruker liggende format for sveiende bevegelser, mens diagonal-, horisontal- og vertikalmaler bruker stående format for fokusert ovenfra-og-ned-ovelse. Full Tilgang låser opp alle 104 temaer og alle 11 brukergrensesnittspråk. Eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI i Letter-, A4- eller egendefinert format. Enten du selger linjesporingspakker på Etsy, setter sammen finmotoriske arbeidboker til Amazon KDP eller lager skriveforberedende stasjoner til Gumroad — Tegn Linjer Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

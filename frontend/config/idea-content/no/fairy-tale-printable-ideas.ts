@@ -2,14 +2,14 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Eventyr utskriftbare ideer til salg — Nisjeguide',
-    metaDescription: 'Oppdag eventyr utskriftbare ideer til salg på Etsy, Amazon KDP og Gumroad. Fantasitema produktkonsepter, plattformstrategier og nisjetips for selgere.',
-    primaryKeyword: 'eventyr utskriftbare ideer',
-    secondaryKeywords: ['eventyr arbeidsark til salg', 'fantasitema utskriftbar virksomhet', 'eventyr aktivitetsark for selgere', 'selg eventyr utskriftbare på Etsy'],
-    lsiKeywords: ['fantasitema pedagogiske arbeidsark', 'klassiske barnehistorier aktiviteter', 'prinsesse og drage tema utskriftbare'],
+    titleTag: 'Eventyr-oppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Eventyr-oppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge eventyrtema oppgaver.',
+    primaryKeyword: 'eventyr-oppgaver til salg',
+    secondaryKeywords: ['eventyr arbeidsark selge Etsy', 'eventyrtema aktivitetsbøker KDP', 'selge eventyr-oppgaver på nett', 'eventyr nisje arbeidsark-selgere'],
+    lsiKeywords: ['eventyr nisje Etsy KDP', 'eventyrtema arbeidsark barneskole', 'pedagogiske eventyr-oppgaver til salg', 'fantasitema produktlinje selgere', 'eviggrønt eventyrtema oppgaver'],
   },
   hero: {
-    title: 'Eventyr utskriftbare forretningsideer for selgere',
+    title: 'Eventyr-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Eventyr tilbyr et av de mest tidløse og universelt appellerende temaene for utskriftbare selgere, med fantasifigurer som prinsesser, drager, riddere, feer, enhjørninger, trollmenn, slott og magiske skoger som vekker barns fantasi og fører til engasjert læring. Eventyr-nisjen drar fordel av helårs etterspørsel uten sesongavhengighet, og den sterke narrative strukturen til klassiske historier gir et naturlig rammeverk for pedagogiske aktiviteter. For selgere på Etsy, Amazon KDP og Gumroad kombinerer eventyr-nisjen universell barneappell med tverrfaglig pedagogisk verdi. Denne guiden gir spesifikke produktideer og plattformstrategier for å bygge en lønnsom eventyr utskriftbar produktlinje.',
   },
   marketOverview: `Eventyr utskriftbar-nisjen inntar en unik posisjon der fortellingsbasert læring møter fantasifull lek, noe som skaper etterspørsel fra flere kjøpersegmenter. Foreldre søker eventyr-tema arbeidsark som kombinerer leseglede med pedagogisk innhold. Kjøpere trenger materialer for leseferdighetsenheter om narrative strukturer, karakterutvikling og historieforståelse. Hjemmeundervisere innlemmer eventyr i tverrfaglige enheter som dekker lesing, skriving og kreativt uttrykk.

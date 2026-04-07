@@ -1,14 +1,14 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'spesialundervisning utskrifter selg nett',
-    secondaryKeywords: ['spesialundervisning printables selge Etsy', 'spesialundervisning printables selge strategi', 'spesialundervisning printables selge tips'],
-    lsiKeywords: ['sesongbaserte utskrifter', 'utskrivbare arbeidsark nisje', 'printable selger Norge'],
-    titleTag: 'Spesialundervisning-utskrifter: Selg på nett | LCS',
-    metaDescription: 'Spesialundervisning krever tilpassede materialer som er vanskelig å finne ferdig. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'spesialundervisning arbeidsark selge Etsy',
+    secondaryKeywords: ['tilpassede arbeidsark selge nettbutikk', 'spesialpedagogikk oppgaver forretning', 'arbeidsark tilpasset opplæring Etsy KDP'],
+    lsiKeywords: ['tilrettelagte oppgaver barn salg', 'spesialundervisning materialer nisje', 'arbeidsark kommersiell lisens'],
+    titleTag: 'Spesialundervisning-arbeidsark: Selg | LCS',
+    metaDescription: 'Lag og selg tilpassede arbeidsark for spesialundervisning på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Spesialundervisning-utskrifter: Selg på nett',
+    title: 'Spesialundervisning-arbeidsark: Lag og selg',
     tagline: 'Tilpassede materialer for barn med særskiltebehov',
     description: 'Spesialundervisning krever tilpassede materialer som er vanskelig å finne ferdig. Lærere og foreldre er villige til å betale premium for godt tilpassede arbeidsark. Denne nisjen har lav konkurranse og høy betalingsvilje.',
   },

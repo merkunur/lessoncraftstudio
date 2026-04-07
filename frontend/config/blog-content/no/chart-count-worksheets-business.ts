@@ -2,14 +2,14 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'diagram telleoppgaver forretning 2026',
-    secondaryKeywords: ['bildetelling arbeidsark selge', 'telling diagram Etsy', 'telleark utskrifter bedrift'],
-    lsiKeywords: ['mattetelling utskrifter', 'barnehage telleoppgaver', 'grafikk matte salg'],
-    titleTag: 'Diagram- og telleoppgaver som forretning | LCS',
-    metaDescription: 'Selg diagram- og telleoppgaver på Etsy. Lær produktstrategi, prissetting og markedsføring for denne voksende nisjen i 2026.',
+    primaryKeyword: 'selge telleoppgaver Etsy',
+    secondaryKeywords: ['diagram arbeidsark selge KDP', 'bildetelling oppgaver Etsy butikk', 'telleark barn selge nett'],
+    lsiKeywords: ['telleoppgaver arbeidsark Etsy', 'diagram oppgaver selge', 'KDP tellebok barn', 'kommersiell lisens arbeidsark', 'barnehage oppgaver selge', 'Etsy digital nedlasting', 'LessonCraftStudio generator'],
+    titleTag: 'Selg telle- og diagramoppgaver på Etsy',
+    metaDescription: 'Telle- og diagramoppgaver har jevn etterspørsel. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Diagram- og telleoppgaver som forretning',
+    title: 'Selg telle- og diagramoppgaver — underskattet nisje med jevn etterspørsel',
     tagline: 'En underskattet nisje med jevn etterspørsel',
     description: 'Diagram- og telleoppgaver er blant de mest populære utskriftene for barnehage og førskole. Barn teller objekter i bilder og lager enkle diagrammer — en grunnleggende matteferdighet som alle foreldre vil øve. Konkurransen er lavere enn for standard matteark, og produktene er raske å lage med riktig verktøy.',
   },

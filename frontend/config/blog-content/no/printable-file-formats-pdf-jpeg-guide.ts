@@ -1,18 +1,18 @@
 import type { BlogContent } from '../types';
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'filformater printables pdf jpeg printable',
+    primaryKeyword: 'filformater arbeidsark PDF JPEG A4 US Letter',
     secondaryKeywords: [
-      'steg steg gjennomføring',
-      'optimalisering finjustering',
-      'publisering markedsføring',
+      'PDF vs JPEG arbeidsark Etsy selgere',
+      'papirstørrelse A4 US Letter arbeidsark',
+      'eksportformat arbeidsark digital nedlasting',
     ],
-    lsiKeywords: ['arbeidsark produksjon', 'printable forretning guide', 'Etsy selger tutorial'],
-    titleTag: 'Filformater for printables: PDF vs JPEG | LCS',
-    metaDescription: 'PDF er standard for utskrifter, men noen kunder foretrekker JPEG. Selg pa Etsy & KDP med kommersiell lisens.',
+    lsiKeywords: ['arbeidsark filformat guide', 'PDF oppløsning utskrift', 'A4 vs US Letter arbeidsark'],
+    titleTag: 'Filformater for arbeidsark: PDF vs JPEG | LCS',
+    metaDescription: 'Velg riktig filformat og papirstørrelse for arbeidsark du selger. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Filformater for printables: PDF vs JPEG',
+    title: 'Filformater for arbeidsark: PDF vs JPEG',
     tagline: 'Velg riktig format for hvert bruksområde',
     description: 'PDF er standard for utskrifter, men noen kunder foretrekker JPEG. Denne guiden forklarer når du bør bruke hvilket format, papirstørrelser (A4 vs US Letter) og oppløsningskrav.',
   },

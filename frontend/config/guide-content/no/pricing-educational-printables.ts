@@ -2,14 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'prissetting pedagogisk materiale',
-    secondaryKeywords: ['prissetting arbeidsark Etsy', 'prisstrategier printables', 'prissett digitale produkter', 'arbeidsark pris KDP Gumroad'],
-    lsiKeywords: ['prisoptimalisering printable-salg', 'verdibasert prissetting arbeidsark', 'konkurransedyktig prissetting markedsplasser', 'pakkeprissetting strategi', 'premium prissetting pedagogisk innhold'],
-    titleTag: 'Prissetting av pedagogiske printables — Guide',
-    metaDescription: 'Prissettingstrategier for pedagogiske printables. Individuelle arbeidsark, pakker, premium posisjonering og plattformspesifikk prissetting for Etsy, KDP og.',
+    primaryKeyword: 'prissette arbeidsark og oppgaver',
+    secondaryKeywords: [
+      'prisstrategier arbeidsark Etsy KDP',
+      'prissette oppgaver for salg',
+      'arbeidsark pakkeprissetting plattformer',
+    ],
+    lsiKeywords: [
+      'prissette arbeidsark barneskole',
+      'kommersiell lisens prisguide oppgaver',
+      'Etsy prissetting arbeidsark selgere',
+      'Amazon KDP prisberegning arbeidsbok',
+      'Gumroad prissetting oppgaver',
+      'verdibasert prissetting arbeidsark',
+      'pakkeprissetting strategi oppgaver',
+      'premium prissetting pedagogisk innhold',
+    ],
+    titleTag: 'Prissett arbeidsark og oppgaver | Komplett prisguide',
+    metaDescription: 'Komplett prisguide for arbeidsark og oppgaver. Strategier for Etsy, KDP, Gumroad og andre plattformer.',
   },
   hero: {
-    title: 'Prissettingsstrategier for pedagogiske printables',
+    title: 'Prissett arbeidsark og oppgaver — komplett prisguide for Etsy, KDP og Gumroad',
     tagline: 'En komplett guide til prissetting av pedagogiske printables — som dekker individuelle arbeidsark, pakkeprissetting, premium posisjonering, plattformspesifikke strategier og prisoptimalisering for maksimal omsetning',
     description: 'Prissetting er den enkeltfaktoren som har storst innvirkning pa omsetningen i en printable-virksomhet. For lav pris signaliserer lav kvalitet og undergaver marginen din. For hoy pris avskrekker forstegangs kjopere. Denne guiden gir deg et bevist rammeverk for a prissette pedagogiske printables for optimal omsetning pa Etsy, Amazon KDP og Gumroad.',
   },

@@ -2,24 +2,15 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'skjulte objekter arbeidsark generator',
-    secondaryKeywords: [
-      'utskriftsbar sokebilde generator til Etsy-selgere',
-      'finn gjenstandene arbeidsark generator til KDP-utgivere',
-      'skjulte objekter aktivitet generator kommersiell lisens',
-      'selg finn gjenstandene arbeidsark på Gumroad',
-    ],
-    lsiKeywords: [
-      'digitale skjulte objekter utskriftsbare nettbasert forretning',
-      'kommersielt bruk finn gjenstandene arbeidsark generator',
-      'utskriftsbar visuell sokeaktivitet forretningsverktoy',
-    ],
-    titleTag: 'Skjulte Objekter Generator | Lag Sokearbeidsark',
-    metaDescription: 'Lag skjulte objekter arbeidsark til salg på Etsy, KDP og Gumroad. $49 engangsbetaling.',
+    primaryKeyword: 'finn og merk oppgave skrive ut',
+    secondaryKeywords: ['gjemte gjenstander oppgave', 'søkebilde skrive ut', 'observasjonslek oppgave', 'finn og ring inn barn'],
+    lsiKeywords: ['observasjon', 'søke', 'finne', 'gjemte', 'bilde'],
+    titleTag: 'Finn og merk oppgave å skrive ut | Generator observasjonsleker',
+    metaDescription: 'Lag finn-og-merk oppgaver med temabilder. Automatisk fasit, 300 DPI PDF. Prøv gratis — selg på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Skjulte Objekter Arbeidsark Generator for Soke- og Finn den Merkelige Bildet Aktiviteter',
+    title: 'Finn og merk oppgave å skrive ut — Generator for observasjonsleker',
     tagline: 'To aktivitetsmoduser i en generator — Soking skjulte objekter-scener med null-overlapp plassering og Finn den Merkelige Bildet parrede bilderader — med automatisk genererte fasiter, adaptiv bildestorrelse, navn- og datofelt og en legende som viser objekter å finne.',
     description:
       'Bygg profesjonelle skjulte objekter-arbeidsark der brukerne soker i en friformsbildescene for å finne og ringe spesifikke objekter inn. Velg mellom to aktivitetsmoduser: Sokings-modusen bruker en null-overlappalgoritme til å spre 1–5 skjulte objekter blant 8–12 distraktorer over siden — intet rutenett, ingen rader og kolonner, bare en sammenhengende visuell scene generert av findBestPosition()-algoritmen som tester 50 tilfeldige posisjoner per bilde og adaptivt reduserer storrelse når plassen blir trang. En legende nederst på arbeidsarket viser brukerne noyaktig hvilke objekter de skal finne. Finn den Merkelige Bildet-modusen arrangerer 8–12 parrede bilder i rader med 1–5 uparrede objekter blandet inn — brukerne identifiserer bildene som ikke har en matchende partner. Dobbeltlerretssystemet genererer både en arbeidsarkfane og en fasitfane — fasiten tegner rode sirkler rundt skjulte objekter (Soking) eller uparrede objekter (Finn den Merkelige Bildet), slik at du aldri trenger å markere dem manuelt. Finn Gjenstandene Generatoren er visuell: språket påvirker brukergrensesnittetiketter men IKKE arbeidsarkets innhold, så hvert arbeidsark fungerer på ethvert språk uten lokaliserte bildenavn. Samme arbeidsark kan selges globalt uten modifikasjon. Full Tilgang låser opp alle 104 temaer med mer enn 3 100 illustrasjoner og alle 11 brukergrensesnittspråk. Legg til bakgrunnstemaer og rammetemaer med uavhengige opasitetskontroller, slå navn- og datofelt til, tilpass den automatiske overskriften med 6 skrifttypevalg, og eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI i Letter, A4 eller egendefinerte storrelser. Enten du selger skjulte objekter-aktivitetspakker på Etsy, setter sammen sokearbeidboker til Amazon KDP eller lager visuelle diskrimineringsaktiviteter til Gumroad — denne generatoren leverer produksjonsklare arbeidsark på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

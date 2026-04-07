@@ -2,24 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kodeknekker matematikk arbeidsark generator',
+    primaryKeyword: 'hemmelig melding regnestykker gratis',
     secondaryKeywords: [
-      'knekk koden matematikk arbeidsark for selgere',
-      'kodeknekker puslespill på nett',
-      'utskriftsbare chiffer matematikk arbeidsark for barn',
-      'hemmelig kode addisjons arbeidsark generator',
+      'kodeknekker matte gratis på nett',
+      'hemmelig kode plusstykker gratis',
+      'mattegåte arbeidsark gratis',
+      'kodeoppgaver gratis skrive ut',
     ],
     lsiKeywords: [
-      'bilde chiffer matematikk puslespill på nett',
-      'ord avsloring kodeknekking arbeidsark',
-      'tallkode matematikk aktivitet for brukere',
+      'knekke kode',
+      'dechiffrere',
+      'skjult melding',
+      'vannmerke',
+      'gratis',
+      'online',
     ],
-    titleTag: 'Kodeknekker Matematikk Generator — Arbeidsark til...',
-    metaDescription: 'Lag kodeknekker matematikk arbeidsark for produktlinjeglede. Selg pa Etsy & KDP med kommersiell lisens.',
+    titleTag: 'Hemmelig melding regnestykker gratis | Kodeknekker-generator',
+    metaDescription: 'Lag kodeknekker-oppgaver gratis online. Barn løser plusstykker for å knekke hemmelige meldinger. Ingen registrering. Fasit inkludert.',
   },
 
   hero: {
-    title: 'Kodeknekker Matematikk Arbeidsark Generator',
+    title: 'Hemmelig melding med regnestykker gratis — Kodeknekker-generator online',
     tagline: 'Lag kryptaritmetikkpuslespill der brukerne knekker hemmelige koder gjennom addisjon',
     description: 'Dette er ikke bare enda et addisjons arbeidsark — det er en kodeknekningsutfordring. Hvert puslespill gjemmer tall bak bildesymboler, og brukerne må lose addisjonsligninger for å finne ut hvilken siffer som horer til hvilket bilde. I Normal Modus representerer hvert symbol en unik siffer. Bytt til Ord Avsloring-modusen, og hver lost ligning avslorer en bokstav i et hemmelig ord, med villedende bokstaver som holder brukerne gjetende. Velg blant mer enn 100 bildetemaer, juster symbolantall og addendkompleksitet, og last ned trykkeklare PDF-er eller JPEG-bilder. Stotter 11 språk med lokalbevisste alfabeter. Den gratis proveversjonen inneholder et vannmerke på nedlastinger. Kjop en lisens for å fjerne vannmerket og selge kommersielt.',
   },

@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Skreddersydd arbeidsark-tjeneste forretningsideer — Guide',
-    metaDescription: 'Skreddersydd arbeidsark-tjeneste forretningsideer for Etsy og frilanselgere. Tilby bestillingsproduserte pedagogiske utskriftbare med premium per-ordre.',
+    titleTag: 'Egendefinerte arbeidsark-tjenester | Forretningsideer',
+    metaDescription: 'Egendefinerte arbeidsark-tjenester som forretningsideer. Tilby skreddersydde oppgaver og arbeidsark til kjøpere — strategier for Etsy, KDP og frilansselgere.',
 
-    primaryKeyword: 'skreddersydd arbeidsark tjeneste',
+    primaryKeyword: 'egendefinerte arbeidsark-tjenester ideer',
     secondaryKeywords: [
-      'skreddersydd arbeidsark forretningsideer',
-      'bestillingssydd utskriftbar opprettelsestjeneste',
-      'spesialtilpasset arbeidsark virksomhet',
-      'selg skreddersydde arbeidsark på nett',
+      'selge skreddersydde arbeidsark Etsy',
+      'egendefinerte oppgaver KDP',
+      'bestillingsproduserte arbeidsark til salg',
+      'skreddersydde oppgaver for selgere',
     ],
     lsiKeywords: [
-      'personaliserte pedagogiske utskriftbare',
-      'on-demand arbeidsarkskaping',
-      'frilans utskriftbar designtjeneste',
+      'nisje egendefinerte arbeidsark',
+      'tema skreddersydde oppgaver',
+      'Etsy skreddersydd arbeidsark',
+      'KDP egendefinert aktivitetsbok',
+      'selge oppgaver digitalt',
+      'frilans arbeidsark-tjeneste',
+      'personaliserte oppgaver forretning',
     ],
   },
   hero: {
-    title: 'Skreddersydd arbeidsark-tjeneste forretningsideer for selgere',
+    title: 'Egendefinerte arbeidsark-tjenester — forretningsideer for selgere',
     description: 'Skreddersydde arbeidsark-tjenester representerer en premium forretningsmodell der selgere tilbyr personalisert, bestillingsprodusert arbeidsarkskaping og klienter ber om spesifikke temaer, fag, navn, institusjonsmerking eller pensumtilpasset innhold mens selgeren produserer skreddersydde arbeidsark med generatorverktøy for å oppfylle hver ordre med presisjon og profesjonell kvalitet. Denne tjenestemodellen oppnår premium per-ordre prissetting fordi klienter betaler for personalisering og spesifisitet i stedet for å kjøpe generiske ferdige produkter fra overfylte markedsplasskategorier. Tjenestetilnærmingen bygger tilbakevendende klientrelasjoner fordi kjøpere, veiledersentre og organisasjoner kommer tilbake gjentatte ganger for løpende tilpassede innholdsbehov. For utskriftbare selgere og entreprenører som utforsker skreddersydde arbeidsark-tjenestemodeller dekker denne guiden spesifikke tjenestetilbud bygget rundt våre arbeidsarkgeneratorverktøy, plattformstrategier for å nå og betjene skreddersydde ordreklienter, og forretningsmetoder som hjelper deg med å bygge en bærekraftig virksomhet.',
   },
   marketOverview: `Den skreddersydde arbeidsark-tjenestemodellen adresserer et fundamentalt hull i det pedagogiske utskriftbare markedet der kjøpere, veiledersentre og organisasjoner trenger materialer spesifikt tilpasset deres unike krav men ikke finner nøyaktig det de trenger blant generiske ferdige produkter. Kjøpere trenger ofte arbeidsark tilpasset deres spesifikke pensum, med ordforråd fra deres nåværende innholdsenheter, kalibrert til de spesifikke ferdighetsnivåene til elevene og formatert for å matche deres rutiner og vurderingsstrukturer.

@@ -2,22 +2,26 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'selge kodeaddisjons-puslespill Etsy',
+    primaryKeyword: 'selge kode-plusstykker Etsy',
     secondaryKeywords: [
-      'bildeaddisjon puslespill Etsy',
-      'matteknekker arbeidsark selge',
-      'kodeoppgaver matte Etsy butikk',
+      'kode-plusstykker puslespill selge nett',
+      'matteknekker arbeidsark Etsy KDP',
+      'kodeoppgaver plusstykker barn selge',
     ],
     lsiKeywords: [
-      'kode-addisjon utskrifter',
-      'puslespill matte nedlasting',
-      'morsomme matteoppgaver salg',
+      'kode-plusstykker arbeidsark Etsy',
+      'puslespill plusstykker oppgaver',
+      'KDP mattebok kodeoppgaver',
+      'kommersiell lisens arbeidsark',
+      'Etsy nisje matte puslespill',
+      'arbeidsark generator',
+      'LessonCraftStudio',
     ],
-    titleTag: 'Selg kodeaddisjons-puslespill på Etsy | LCS',
-    metaDescription: 'Lær hvordan du selger kodeaddisjons-puslespill på Etsy. Unik nisje med høy fortjeneste. Tips for produksjon, prissetting og SEO i 2026.',
+    titleTag: 'Selg kode-plusstykker-puslespill på Etsy',
+    metaDescription: 'Kode-plusstykker er en unik nisje med høy fortjeneste. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {
-    title: 'Selg kodeaddisjons-puslespill på Etsy',
+    title: 'Selg kode-plusstykker-puslespill — unik nisje på Etsy',
     tagline: 'Kombiner matte med kodeknekking for unike produkter',
     description: 'Kodeaddisjons-puslespill kombinerer matteoppgaver med kodeknekking — barnet løser addisjonsoppgaver for å finne bokstaver som avslører et hemmelig ord. Denne unike nisjen har lavere konkurranse enn standard matteark og høyere opplevd verdi. Denne guiden viser deg hvordan du lager, pakker og selger disse engasjerende puslespillene med maksimal fortjeneste.',
   },

@@ -2,14 +2,14 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Påske utskriftbare ideer til salg — Nisjeguide',
-    metaDescription: 'Oppdag påske utskriftbare ideer til salg på Etsy, Amazon KDP og Gumroad. Ferieproduktkonsepter, sesongstrategier og plattformtips for selgere.',
-    primaryKeyword: 'påske utskriftbare ideer',
-    secondaryKeywords: ['påskearbeidsark til salg', 'påskeaktivitetsark for selgere', 'vårtema utskriftbar virksomhet', 'selg påskeutskriftbare på Etsy'],
-    lsiKeywords: ['sesongbaserte vår arbeidsarkpakker', 'ferietema pedagogiske aktiviteter', 'påske og vårfest utskriftbare ressurser'],
+    titleTag: 'Påskeoppgaver til salg | Nisjeideer Etsy & KDP',
+    metaDescription: 'Påskeoppgaver til salg på Etsy og KDP. Nisjeideer, produkttyper og strategier for arbeidsark-selgere som vil selge påsketema oppgaver.',
+    primaryKeyword: 'påskeoppgaver til salg Etsy',
+    secondaryKeywords: ['påskearbeidsark selge Etsy', 'påsketema aktivitetsbøker KDP', 'selge påskeoppgaver på nett', 'påske nisje arbeidsark-selgere'],
+    lsiKeywords: ['påske nisje Etsy KDP', 'sesongbasert etterspørsel vår', 'påsketema arbeidsark barneskole', 'pedagogiske påskeoppgaver til salg', 'vårsesong produktlinje selgere'],
   },
   hero: {
-    title: 'Påske utskriftbare forretningsideer for selgere',
+    title: 'Påskeoppgaver til salg — nisjeideer for Etsy og KDP-selgere',
     description: 'Påske er en av de sterkeste sesongbaserte mulighetene for utskriftbare selgere, med etterspørsel som bygger seg opp fra februar til april og topper seg i ukene før påskehelgen. Temaet omfatter et rikt utvalg av undertemaer inkludert påskehare, påskeegg, kyllinger, vårblomster, kaniner, kurver, fjærkre og vårscener. Kjøpere planlegger påsketema produktpakker, foreldre søker ferieinspirerte pedagogiske aktiviteter, og hjemmeundervisere innlemmer vårtemaer i pensum. For utskriftbare selgere på Etsy, Amazon KDP og Gumroad belønner påskenisjen tidlig forberedelse med stigende sesongbaserte avkastninger. Denne guiden gir spesifikke produktideer og plattformstrategier for å bygge en lønnsom påske utskriftbar produktlinje.',
   },
   marketOverview: `Påske utskriftbar-nisjen leverer et konsentrert men kraftfullt sesongbasert salgsvindu som belønner disiplinert tidlig publisering. Etterspørselen begynner å bygge seg opp i februar når kjøpere planlegger vårenheter, og topper seg i mars til april avhengig av påskedatoen. Foreldre søker påsketema pedagogiske aktiviteter som kombinerer ferieglede med læringsinnhold. Hjemmeundervisere integrerer vår- og påsketemaer i naturfags- og matteenheter om livssykluser, plantevekst og sesongskifter.

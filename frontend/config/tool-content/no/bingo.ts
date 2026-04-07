@@ -2,24 +2,15 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bingokort kort generator bildebingo lag',
-    secondaryKeywords: [
-      'bildebingo kort generator online',
-      'bingospill generator for barn',
-      'utskriftsbare bingokort for skolen',
-      'tilpasset bingokort generator for selgere',
-    ],
-    lsiKeywords: [
-      'batch bingokort generator for produktlinjens spill',
-      'bilde og ord bingokort generator',
-      'opropsliste bingo arbeidsark generator',
-    ],
-    titleTag: 'Bingokort Generator — Bildebingo online — Lag Online Gratis',
-    metaDescription: 'Lag bildebingokort for produktlinjens spill. Rutenett fra 3×3 til 5×5, batch unike kort, opropslister, 104 temaer. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'lage bingobrett gratis',
+    secondaryKeywords: ['bingo generator gratis', 'bingo med bilder gratis', 'egen bingo lage gratis', 'bingospill gratis skrive ut'],
+    lsiKeywords: ['bingobrett', 'bilder', 'spill', 'gruppe', 'vannmerke', 'gratis', 'fest'],
+    titleTag: 'Lage bingobrett gratis | Generator bingo med bilder online',
+    metaDescription: 'Lag bingobrett gratis online med 3 000+ temabilder. Unike brett per sett, 300 DPI PDF. Ingen registrering.',
   },
 
   hero: {
-    title: 'Bingokort Generator',
+    title: 'Lage bingobrett gratis — Generator for bingo med bilder online',
     tagline: 'Bildebingokort generator med konfigurerbare rutenett fra 3×3 til 5×5, batch-generering av 1–10 unike kort per sett, ZIP-eksport av alle kort i én nedlasting, doble fyllingsmoduser for celler og brikker uavhengig, dedikert opropsliste med dynamisk ordrutenett og 104 tematiske bildesamlinger',
     description: 'Lag profesjonelle bildebingokort der hver spiller får et unikt kort med forskjellige bilder i forskjellige posisjoner — essensielt for at bingo fungerer som spill. Konfigurer rader 3–5 og kolonner 3–5 uavhengig, standard 4×4 (16 celler). Generer 1–10 unike kort per batch, hvert med annerledes tilfeldig bildeutvalg. Eksporter alle kort som individuelle JPEG-bilder i én enkelt bingo_cards.zip-fil. Velg Bilde- eller Ordfylling uavhengig for både kortceller og sirkulære brikker — generator fire distinkte bingokortsstiler. Ordfylling viser lokaliserte bildenavn, noe som gjør Bingokort Generatoren språkfølsom — å bytte språk endrer ord på kort, brikker og opropsliste. Sirkulære brikker har stiplede kanter og Fisher-Yates-blanding. En dedikert opropsliste viser et dynamisk ordrutenett for spilllederen. Aktiver tilpasset opropsutvalg for å håndplukke spesifikke bilder med en levende teller. Bla gjennom 104 tematiske samlinger med mer enn 3 100 illustrasjoner eller last opp egne bilder. Bruk bakgrunns- og rammetemaer med uavhengige gjennomsiktighetsskyveknapper. Eksporter arbeidsark-JPEG, oprops-JPEG, arbeidsark-PDF, oprops-PDF med 300 DPI, pluss ZIP batch-eksport. Velg Letter, A4, Kvadrat eller egendefinerte sidestørrelser med gråtonebryter. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

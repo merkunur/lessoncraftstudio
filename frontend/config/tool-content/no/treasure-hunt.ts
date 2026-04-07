@@ -2,24 +2,15 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skattejakt arbeidsark generator til utskrift',
-    secondaryKeywords: [
-      'skattejakt arbeidsark generator for selgere',
-      'lag retningspuslespill til salg',
-      'utskriftsbar skattejakt generator kommersiell bruk',
-      'skattejakt puslespill generator for KDP og Etsy',
-    ],
-    lsiKeywords: [
-      'to retningstyper grunnleggende kardinal koordinatrutenett generator',
-      'språkavhengige lokaliserte retningsledetråder 11 språk',
-      'automatisk fasit markert skattecelle dobbelt lerretssystem',
-    ],
-    titleTag: 'Skattejakt Generator — Skattejakt Arbeidsark Generator',
-    metaDescription: 'Lag skattejakt arbeidsark på 5×5 rutenett med to retningstyper, tematiske landemerker, automatisk fasit og 104. Selg pa Etsy & KDP med kommersiell lisens.',
+    primaryKeyword: 'skattejakt gratis skrive ut',
+    secondaryKeywords: ['postløp gratis skrive ut', 'sporløype gratis', 'ledetråder skattejakt gratis', 'skattejakt barn gratis'],
+    lsiKeywords: ['ledetråder', 'spor', 'postløp', 'sporløype', 'vannmerke', 'gratis', 'utendørs'],
+    titleTag: 'Skattejakt gratis å skrive ut | Generator sporløype online',
+    metaDescription: 'Lag skattejakt- og postløpoppgaver gratis online. Temabilder, utskrivbare PDF-er. Ingen registrering.',
   },
 
   hero: {
-    title: 'Skattejakt Generator',
+    title: 'Skattejakt gratis å skrive ut — Generator for sporløype online',
     tagline: 'Veifinnende skattejakt arbeidsark-generator med fast 5×5 koordinatrutenett (A–E rader, 1–5 kolonner), to retningstyper (Grunnleggende: opp/ned/venstre/høyre for førskole til 1. klasse, og Kardinal: nord/sør/øst/vest for 2. klasse+), 6 tematiske landemerkebilder, nøyaktig 4 retningsbevegelser per puslespill, automatisk generert fasit med lysegul markert skattecelle via dobbelt lerretssystem, fullt lokaliserte retningsledetråder på 11 språk og en skattejakt-tematisert tealoverskrift (#2C8C7C) med gyllen Fredoka-tittel over 104 tematiske bildesamlinger',
     description: 'Lag profesjonelle skattejakt arbeidsark der brukere følger sekvensielle retningsledetråder for å finne skjult skatt på et 5×5 koordinatrutenett merket med bokstavrader (A–E) og nummerkolonner (1–5). Hvert puslespill sprer 6 tematiske bilder over rutenettet som visuelle landemerker, genererer deretter en startposisjon og nøyaktig 4 retningsbevegelser som fører til skattecellen. Arbeidsarket viser 5 instruksjonslinjer: «Begynn ved [celle]» etterfulgt av 4 «Flytt [retning] [antall] felt(er)» ledetråder, avsluttende med «Hvor er skatten?» Velg mellom to retningstyper. Grunnleggende modus bruker opp, ned, venstre og høyre for førskole til 1. klasse. Kardinalmodus bruker nord, sør, øst og vest for 2. klasse og opp. Skattejakt Generatoren er språkavhengig: retningsledetråder og bildeinnhold endres begge når du bytter språk. Alle retninger er fullt oversatt til 11 støttede språk. Det doble lerretssystemet genererer både en arbeidsark-fane og en fasit-fane — fasiten markerer den endelige skattecellen i lysegul (rgba(255, 250, 205, 0.8)) med en mørkegrå ramme. Hvert puslespill inkluderer en skattejakt-tematisert automatisk generert overskrift med teal bakgrunn (#2C8C7C), ravgul ytre ramme (#D4A574), sandbeige indre ramme (#F4E4C1) og gyllen tittel (#D4A017) i Fredoka. Bla gjennom 104 temasamlinger med 3 100+ illustrasjoner eller last opp egne bilder. Eksporter trykklare PDF-er og JPEG-er i 300 DPI. Bytt gråtone. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },

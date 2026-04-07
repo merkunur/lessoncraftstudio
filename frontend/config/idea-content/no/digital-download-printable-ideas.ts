@@ -2,24 +2,28 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Digital nedlasting arbeidsark ideer til salg — Guide',
-    metaDescription: 'Digital nedlasting arbeidsarkideer for Etsy, Gumroad og Shopify selgere. Bygg en nulllager utskriftbar virksomhet med øyeblikkelig levering av pedagogiske.',
+    titleTag: 'Digitale arbeidsark-nedlastinger til salg | Ideer',
+    metaDescription: 'Digitale arbeidsark-nedlastinger til salg på Etsy og KDP. Bygg en nulllager oppgavevirksomhet med øyeblikkelig levering — forretningsideer for selgere.',
 
-    primaryKeyword: 'digital nedlasting arbeidsark ideer',
+    primaryKeyword: 'digitale nedlastinger arbeidsark til salg',
     secondaryKeywords: [
-      'digital nedlasting utskriftbar virksomhet',
-      'selg digitale arbeidsark på nett',
-      'digitale utskriftbare produktideer',
-      'nedlastbar arbeidsark forretningsmodell',
+      'selge digitale arbeidsark Etsy',
+      'nedlastbare oppgaver KDP',
+      'digitale arbeidsark-produkter til salg',
+      'PDF oppgaver forretningsmodell',
     ],
     lsiKeywords: [
-      'øyeblikkelig nedlasting pedagogiske produkter',
-      'PDF arbeidsark markedsplasssalg',
-      'automatisert digital produktlevering',
+      'nisje digitale arbeidsark',
+      'tema nedlastbare oppgaver',
+      'Etsy digitale arbeidsark',
+      'KDP nedlastbar aktivitetsbok',
+      'selge oppgaver digitalt',
+      'nulllager arbeidsark-forretning',
+      'øyeblikkelig levering oppgaver',
     ],
   },
   hero: {
-    title: 'Digital nedlasting arbeidsark forretningsideer for selgere',
+    title: 'Digitale arbeidsark-nedlastinger til salg — forretningsideer for selgere',
     description: 'Digitale nedlastninger representerer den reneste formen for utskriftbar virksomhet der selgere skaper arbeidsark-PDFer en gang og selger ubegrensede kopier gjennom øyeblikkelig digital levering med null lager, null fraktkostnader og null leveringsoverhead, noe som gjør hvert salg etter det første i hovedsak ren fortjeneste. Kjøpere mottar filer øyeblikkelig etter kjøp og skriver ut hjemme, i gruppen eller hos et lokalt trykkeri. Digital nedlastningsmodellen tilbyr de høyeste fortjenestemarginene av ethvert utskriftbart forretningsformat. For utskriftbare selgere og entreprenører som bygger pedagogiske produktvirksomheter dekker denne guiden spesifikke digitale nedlastningsproduktideer bygget rundt våre arbeidsarkgeneratorverktøy, plattformstrategier for å maksimere synlighet og salg, og forretningsmetoder for å bygge en lønnsom nedlastningsvirksomhet med minimal startinvestering.',
   },
   marketOverview: `Det digitale nedlastingsmarkedet for pedagogiske arbeidsark fortsetter å vokse etter hvert som flere kjøpere, foreldre og hjemmeundervisningsfamilier oppdager bekvemmeligheten ved å kjøpe øyeblikkelig tilgjengelige PDF-arbeidsarkpakker de kan skrive ut nøyaktig når det er nødvendig, i de nøyaktige mengdene som kreves, på sin foretrukne papirtype og størrelse.

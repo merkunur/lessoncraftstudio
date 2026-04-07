@@ -34,7 +34,7 @@ Prissetting følger standard pedagogiske utskriftbare konvensjoner. Individuelle
   productIdeas: [
     {
       title: 'Byggekjøretøy tellearbeidsark for utskriftbare selgere',
-      description: 'Tellearbeidsark med gravemaskiner, kraner, lastebiler, bulldosere og sementblandere bringer byggeplassspenning til tidlig matteøvelse. Bruk Finn og tell-generatoren til å lage travle byggeplasscener der barn finner og teller spesifikke kjøretøy. Tilby sett rettet mot flere ferdighetsnivåer: tell lastebiler opp til fem for førskole, tell og skriv tall til ti for tidlig læring, og tell med hopp med rader av kraner for 1. klassere.',
+      description: 'Tellearbeidsark med gravemaskiner, kraner, lastebiler, bulldosere og sementblandere bringer byggeplassspenning til tidlig matteøvelse. Bruk Finn og tell-generatoren til å lage travle byggeplasscener der barn finner og teller spesifikke kjøretøy. Tilby sett rettet mot flere ferdighetsnivåer: tell lastebiler opp til fem for førskole, tell og skriv tall til ti for tidlig læring, og tell med hopp med rader av kraner for 1. trinnre.',
       appId: 'find-count',
     },
     {
@@ -49,7 +49,7 @@ Prissetting følger standard pedagogiske utskriftbare konvensjoner. Individuelle
     },
     {
       title: 'Byggetema addisjonsarbeidsark for matte-utskriftbare linjer',
-      description: 'Byggeillustrerte mattearbeidsark forvandler rutineregneøvelse til engasjerende aktiviteter. Bruk Addisjons-generatoren til å lage arbeidsark der barn legger sammen grupper av byggekjøretøy, løser byggetema tekstoppgaver, eller fullfører tallsetninger med byggeillustrasjoner. Målrett førskole til 2. klasse.',
+      description: 'Byggeillustrerte mattearbeidsark forvandler rutineregneøvelse til engasjerende aktiviteter. Bruk Addisjons-generatoren til å lage arbeidsark der barn legger sammen grupper av byggekjøretøy, løser byggetema tekstoppgaver, eller fullfører tallsetninger med byggeillustrasjoner. Målrett førskole til 2. trinn.',
       appId: 'addition',
     },
     {
@@ -69,7 +69,7 @@ Prissetting følger standard pedagogiske utskriftbare konvensjoner. Individuelle
     },
     {
       title: 'Bygge mønsterarbeidsark for pedagogiske utskriftbare virksomheter',
-      description: 'Mønstergjenkjenningsarbeidsark med byggetema-bilder lærer essensielle tidlig matte-konsepter. Mønsterarbeidsark-generatoren lager sekvenser med forskjellige byggegjenstander. Tilby AB, ABC og AABB mønsternivåer for førskole gjennom 1. klasse.',
+      description: 'Mønstergjenkjenningsarbeidsark med byggetema-bilder lærer essensielle tidlig matte-konsepter. Mønsterarbeidsark-generatoren lager sekvenser med forskjellige byggegjenstander. Tilby AB, ABC og AABB mønsternivåer for førskole gjennom 1. trinn.',
       appId: 'pattern-worksheet',
     },
     {

@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Justerbart ledetrådsystem for tilpassbar vanskelighetsgrad',
         description:
-          'Still inn fra 3 til 11 ledetråder per arbeidsark. Ledetråder er bildeledetråder som vises separat fra toget — brukerne skal identifisere hvilken bokstavvogn hvert ledetrådbilde hører til. Færre ledetråder generator en enklere koblingsaktivitet egnet for barnehagebarn, mens fulle 11 ledetråder utfordrer brukere i barnehageklasse og 1. klasse til å koble hver vogn. Denne innebygde vanskelighetsjusteringen gjør det enkelt å lage nivåinndelte produktlinjer eller utskriftsbare produkter i nivåer fra den samme appen.',
+          'Still inn fra 3 til 11 ledetråder per arbeidsark. Ledetråder er bildeledetråder som vises separat fra toget — brukerne skal identifisere hvilken bokstavvogn hvert ledetrådbilde hører til. Færre ledetråder generator en enklere koblingsaktivitet egnet for barnehagebarn, mens fulle 11 ledetråder utfordrer brukere i barnehage og 1. trinn til å koble hver vogn. Denne innebygde vanskelighetsjusteringen gjør det enkelt å lage nivåinndelte produktlinjer eller utskriftsbare produkter i nivåer fra den samme appen.',
       },
       {
         title: '104 visuelle temaer med mer enn 3 100 bilder til bokstavkobling',
@@ -189,6 +189,14 @@ const content: AppContent = {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste begge opprettelsesmodusene, hver ledetrådinnstilling, hvert tema og hvert eksportformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet oppfyller behovene dine før du anskaffer en lisens.',
+    },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Tilpass vanskelighetsgraden for småskoletrinnet (1.–4. trinn) med enklere ord og mellomtrinnet (5.–7. trinn) med mer avansert ordforråd. Generatoren lar deg lage oppgaver for ethvert trinn i barneskolen.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i norsk for barneskolen i LK20, der elevene blant annet skal utvikle bokstavkunnskap og lese- og skriveutvikling. Tilpass ordvalget og vanskelighetsgraden til de spesifikke kompetansemålene du jobber med.',
     },
   ],
 

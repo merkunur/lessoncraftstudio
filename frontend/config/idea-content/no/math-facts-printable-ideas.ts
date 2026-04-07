@@ -24,9 +24,9 @@ const content: IdeaContent = {
   },
   hero: {
     title: 'Mattefakta-oppgaver til salg — nisjeideer for Etsy og KDP-selgere',
-    description: 'Regnefakta øvelsesark representerer en av de mest stabile og eviggrønne nisjene for utskriftsbare selgere fordi matematisk flyt er en universell utdanningsprioritet som foreldre og kjøpere investerer i konsekvent gjennom hele skoleåret. Addisjon, subtraksjon, multiplikasjon og divisjon utgjør grunnlaget for all matematikkundervisning, og behovet for gjentatt øvelse driver vedvarende etterspørsel etter friske, engasjerende arbeidsark. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad tilbyr regnefakta-nisjen helårs etterspørsel med minimale sesongsvingninger, bred aldersgruppetildekning fra barnehage til fjerde klasse, og høy gjenkjøpsrate ettersom kjøpere trenger nye materialer etter hvert som elever progredierer. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å hjelpe deg med å bygge en lønnsom regnefakta utskriftsbar produktlinje.',
+    description: 'Regnefakta øvelsesark representerer en av de mest stabile og eviggrønne nisjene for utskriftsbare selgere fordi matematisk flyt er en universell utdanningsprioritet som foreldre og kjøpere investerer i konsekvent gjennom hele skoleåret. Addisjon, subtraksjon, multiplikasjon og divisjon utgjør grunnlaget for all matematikkundervisning, og behovet for gjentatt øvelse driver vedvarende etterspørsel etter friske, engasjerende arbeidsark. For utskriftsbare selgere på Etsy, Amazon KDP og Gumroad tilbyr regnefakta-nisjen helårs etterspørsel med minimale sesongsvingninger, bred aldersgruppetildekning fra barnehage til 4. trinn, og høy gjenkjøpsrate ettersom kjøpere trenger nye materialer etter hvert som elever progredierer. Denne guiden dekker spesifikke produktideer, plattformstrategier og nisjeposisjoneringer for å hjelpe deg med å bygge en lønnsom regnefakta utskriftsbar produktlinje.',
   },
-  marketOverview: `Regnefakta utskriftsbar-nisjen er en av de mest pålitelige inntektskildene for pedagogiske produktselgere fordi etterspørselen er drevet av universelle utdanningsstandarder som krever matematisk flyt i de tidlige skoleårene. Hver elev fra barnehage til fjerde klasse trenger gjentatt øvelse med grunnleggende regnefakta, og denne uunngåelige utdanningsmilepælen skaper en uuttømmelig kjøperbase som fornyes årlig.
+  marketOverview: `Regnefakta utskriftsbar-nisjen er en av de mest pålitelige inntektskildene for pedagogiske produktselgere fordi etterspørselen er drevet av universelle utdanningsstandarder som krever matematisk flyt i de tidlige skoleårene. Hver elev fra barnehage til 4. trinn trenger gjentatt øvelse med grunnleggende regnefakta, og denne uunngåelige utdanningsmilepælen skaper en uuttømmelig kjøperbase som fornyes årlig.
 
 Markedet for regnefakta printables er ekstraordinært bredt fordi det betjener flere kjøpersegmenter samtidig. Foreldre kjøper øvelsesark for å forsterke skolearbeid og bygge matematisk sikkerhet hjemme. Kjøpere søker supplerende materialer for gruppebruk med progressive vanskelighetsnivåer. Hjemmeundervisningsfamilier trenger komplette matematikkpensa med systematisk progresjon. Privatundervisere kjøper varierende øvelsesmateriale for individuelle elever. Denne mangfoldige kjøperbasen skaper en etterspørselsbredde som få andre nisjer kan matche.
 
@@ -64,7 +64,7 @@ Prissetting for regnefakta printables følger standard pedagogiske konvensjoner.
     },
     {
       title: 'Regnefakta mønsterarbeidsark for matematikk produktlinjer',
-      description: 'Tallmønstre og regnemønstre bygger algebraisk tenkning som er grunnleggende for avansert matematikk. Mønsterarbeidsarkgeneratoren lager tallsekvenser der barn identifiserer regelen og fortsetter mønsteret. Tilby progressive vanskelighetsnivåer fra enkle tellesekvenser for barnehage til multiplikasjons- og addisjonsmønstre for tredje og fjerde klasse. Disse arbeidsarkene komplementerer rene regnefakta-ark ved å legge til konseptuell forståelse av matematiske forhold, noe som gjør dem til verdifulle tillegg til regnefakta-bundler.',
+      description: 'Tallmønstre og regnemønstre bygger algebraisk tenkning som er grunnleggende for avansert matematikk. Mønsterarbeidsarkgeneratoren lager tallsekvenser der barn identifiserer regelen og fortsetter mønsteret. Tilby progressive vanskelighetsnivåer fra enkle tellesekvenser for barnehage til multiplikasjons- og addisjonsmønstre for tredje og 4. trinn. Disse arbeidsarkene komplementerer rene regnefakta-ark ved å legge til konseptuell forståelse av matematiske forhold, noe som gjør dem til verdifulle tillegg til regnefakta-bundler.',
       appId: 'pattern-worksheet',
     },
     {
@@ -74,7 +74,7 @@ Prissetting for regnefakta printables følger standard pedagogiske konvensjoner.
     },
     {
       title: 'Regnefakta ordblanding for matematikkordforråd',
-      description: 'Ordblandinger med matematisk terminologi forsterker forståelse av matematisk språk som er essensielt for å følge instruksjoner og løse tekstoppgaver. Bruk Ordblandingsgeneratoren til å lage puslespill med matematikktermer som addisjon, subtraksjon, multiplikasjon, divisjon, sum, differanse, produkt, kvotient og andre begreper. Organiser etter vanskelighetsnivå fra enkle termer for barnehage til avanserte begreper for fjerde klasse. Inkluder fasitsvar og definisjoner for pedagogisk verdi.',
+      description: 'Ordblandinger med matematisk terminologi forsterker forståelse av matematisk språk som er essensielt for å følge instruksjoner og løse tekstoppgaver. Bruk Ordblandingsgeneratoren til å lage puslespill med matematikktermer som addisjon, subtraksjon, multiplikasjon, divisjon, sum, differanse, produkt, kvotient og andre begreper. Organiser etter vanskelighetsnivå fra enkle termer for barnehage til avanserte begreper for 4. trinn. Inkluder fasitsvar og definisjoner for pedagogisk verdi.',
       appId: 'word-scramble',
     },
     {
@@ -93,7 +93,7 @@ Prissetting for regnefakta printables følger standard pedagogiske konvensjoner.
     {
       platform: 'Etsy',
       title: 'Selge regnefakta printables på Etsy',
-      description: 'Etsy har massiv etterspørsel etter regnefakta øvelsesark fra foreldre som søker supplementer til skolens matematikkundervisning. Bruk spesifikke longtail-nøkkelord som "addisjonsfakta arbeidsark barnehage" eller "multiplikasjonstabeller øvelse tredje klasse". Inkluder alle tretten tagger med variasjoner som kombinerer regneart, vanskelighetsnivå og aldersgruppe. Listingbilder som viser ferdig utfylte arbeidsark med fargestifter demonstrerer produktets pedagogiske verdi bedre enn tomme ark. Regnefakta-nisjen selger konsekvent hele året, men planlegg kampanjer rundt skolestart og eksamensperioder.',
+      description: 'Etsy har massiv etterspørsel etter regnefakta øvelsesark fra foreldre som søker supplementer til skolens matematikkundervisning. Bruk spesifikke longtail-nøkkelord som "addisjonsfakta arbeidsark barnehage" eller "multiplikasjonstabeller øvelse 3. trinn". Inkluder alle tretten tagger med variasjoner som kombinerer regneart, vanskelighetsnivå og aldersgruppe. Listingbilder som viser ferdig utfylte arbeidsark med fargestifter demonstrerer produktets pedagogiske verdi bedre enn tomme ark. Regnefakta-nisjen selger konsekvent hele året, men planlegg kampanjer rundt skolestart og eksamensperioder.',
     },
     {
       platform: 'Amazon KDP',
@@ -108,14 +108,14 @@ Prissetting for regnefakta printables følger standard pedagogiske konvensjoner.
     {
       platform: 'Gumroad og Shopify',
       title: 'Bygge et matematikk utskriftsbart merke med direktesalg',
-      description: 'Direktesalgsplattformer lar deg bygge et spesialisert matematikk utskriftsbart merke som foreldre og kjøpere stoler på for kvalitets regnefakta materialer. Lag en sammenhengende produktlinje med konsistent design og tydelig progresjon fra barnehage gjennom fjerde klasse. Bruk e-postinnsamling for å bygge en foreldreabonnentliste du kan varsle om nye produkter og klassestinnspesifikke slipp. Foreldre som kjøper barnehage addisjonsmaterialer returnerer ofte for subtraksjon, multiplikasjon og divisjon etterhvert som barnet progredierer, noe som skaper langsiktige kunderelasjoner.',
+      description: 'Direktesalgsplattformer lar deg bygge et spesialisert matematikk utskriftsbart merke som foreldre og kjøpere stoler på for kvalitets regnefakta materialer. Lag en sammenhengende produktlinje med konsistent design og tydelig progresjon fra barnehage gjennom 4. trinn. Bruk e-postinnsamling for å bygge en foreldreabonnentliste du kan varsle om nye produkter og klassetrinnspesifikke slipp. Foreldre som kjøper barnehage addisjonsmaterialer returnerer ofte for subtraksjon, multiplikasjon og divisjon etterhvert som barnet progredierer, noe som skaper langsiktige kunderelasjoner.',
     },
   ],
 
   faq: [
     {
       question: 'Hvilke regnearter selger best som utskriftsbare produkter?',
-      answer: 'Addisjonsfakta er den bestselgende regnekategorien fordi den er den første regnearten barn lærer og har den bredeste aldersgruppen fra barnehage til andre klasse. Multiplikasjonstabeller følger tett etter med sterk etterspørsel fra andre til fjerde klasse. Subtraksjon og divisjon representerer sterke sekundære kategorier. Blandede regnearter-ark som kombinerer flere operasjoner i ett arbeidsark appellerer til kjøpere som ønsker effektiv repetisjon. Selgere som tilbyr alle fire regnekategorier bygger de mest komplette og lønnsomme matematikkatalogene.',
+      answer: 'Addisjonsfakta er den bestselgende regnekategorien fordi den er den første regnearten barn lærer og har den bredeste aldersgruppen fra barnehage til 2. trinn. Multiplikasjonstabeller følger tett etter med sterk etterspørsel fra andre til 4. trinn. Subtraksjon og divisjon representerer sterke sekundære kategorier. Blandede regnearter-ark som kombinerer flere operasjoner i ett arbeidsark appellerer til kjøpere som ønsker effektiv repetisjon. Selgere som tilbyr alle fire regnekategorier bygger de mest komplette og lønnsomme matematikkatalogene.',
     },
     {
       question: 'Er regnefakta-nisjen for konkurranseutsatt for nye selgere?',

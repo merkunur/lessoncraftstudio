@@ -68,7 +68,7 @@ const content: AppContent = {
       {
         title: 'Justerbart antall øvelser fra 1 til 8 per arbeidsark',
         description:
-          'Bestem nøyaktig hvor mange øvelser som vises på hver side, fra én fokusert øvelse for nybegynnere til en tettpakket side med åtte øvelser for gjennomgang og evaluering. Færre øvelser etterlater plass til større bilder og mer hvitt rom, perfekt for barnehage- og barnehageklasseprodukter. Flere øvelser maksimerer øvingstettheten for eldre brukere eller lekseark. Denne fleksibiliteten gjør det mulig å lage visuelt distinkte produkter fra den samme appen uten å endre noen annen innstilling.',
+          'Bestem nøyaktig hvor mange øvelser som vises på hver side, fra én fokusert øvelse for nybegynnere til en tettpakket side med åtte øvelser for gjennomgang og evaluering. Færre øvelser etterlater plass til større bilder og mer hvitt rom, perfekt for barnehage- og barnehagetrinnet-produkter. Flere øvelser maksimerer øvingstettheten for eldre brukere eller lekseark. Denne fleksibiliteten gjør det mulig å lage visuelt distinkte produkter fra den samme appen uten å endre noen annen innstilling.',
       },
       {
         title: '104 visuelle temaer med 3 100+ bilder og 8 geometriske former',
@@ -189,6 +189,14 @@ const content: AppContent = {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste begge øvelsesmodusene, hver preposisjon, hvert tema, hver form og hvert eksportformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet oppfyller behovene dine før du anskaffer en lisens.',
+    },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Utfyllingsøvelser med enkle preposisjoner som «på», «under» og «ved siden av» passer godt for småskoletrinnet (1.–4. trinn), der barna bygger grunnleggende romforståelse. Flervalgsspørsmål med mer nyanserte preposisjoner og komplekse romlige beskrivelser gir en passende utfordring for mellomtrinnet (5.–7. trinn). Bilde-og-form-formatet gjør øvelsene tilgjengelige uavhengig av lesenivå.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i norsk for barneskolen i LK20, særlig innen romforståelse og preposisjoner. Preposisjonsøvelser trener romlig vokabular, setningsbygging og forståelse av romlige relasjoner — ferdigheter som er relevante for både norskfaget og matematikkens geometridel i LK20.',
     },
   ],
 

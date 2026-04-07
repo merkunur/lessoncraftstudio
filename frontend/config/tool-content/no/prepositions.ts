@@ -116,7 +116,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Bruk Utfylling for eldre brukere',
-      description: 'Utfyllingsmodus krever aktiv gjenkalling — brukerne må produsere riktig preposisjon fra hukommelsen, ikke bare gjenkjenne den. Dette passer 2. klasse+ og DSA-brukere som allerede kjenner stedsordene, men trenger skriveøvelse. Det gjør også arbeidsarkene vanskeligere å gjette, noe som øker den pedagogiske verdien.',
+      description: 'Utfyllingsmodus krever aktiv gjenkalling — brukerne må produsere riktig preposisjon fra hukommelsen, ikke bare gjenkjenne den. Dette passer 2. trinn+ og DSA-brukere som allerede kjenner stedsordene, men trenger skriveøvelse. Det gjør også arbeidsarkene vanskeligere å gjette, noe som øker den pedagogiske verdien.',
     },
     {
       title: 'Bruk Flervalg for nybegynnere',
@@ -188,6 +188,10 @@ const content: ToolContent = {
     {
       question: 'Hva er returpolitikken?',
       answer: 'Prøv før du kjøper med vår gratis prøveversjon — alle funksjoner er tilgjengelige, slik at du kan fullstendig evaluere verktøyet før du kjøper. Fordi den gratis prøveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjøp. Sørg for at verktøyet passer til dine behov med den gratis prøveversjonen før du kjøper.',
+    },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Tilpass vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn) og mellomtrinnet (5.–7. trinn). Verktøyet er et fleksibelt supplement som støtter kompetansemål i norsk — romforståelse og preposisjoner — i LK20 — Kunnskapsløftet 2020.',
     },
   ],
 

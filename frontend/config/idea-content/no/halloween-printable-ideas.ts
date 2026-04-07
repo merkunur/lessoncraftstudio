@@ -53,7 +53,7 @@ For å fange maksimal halloweenomsetning, utvikle produkter på tvers av flere u
     },
     {
       title: 'Halloween addisjonsarbeidsark for matematikk utskriftsbare linjer',
-      description: 'Matematikkarbeidsark med halloweenillustrasjoner forvandler rutinemessig regneøvelse til skummelt tematiske aktiviteter som foreldre og kjøpere velger over vanlige talloppgaver gjennom hele oktober. Bruk Addisjonsgeneratoren til å lage arbeidsark der barn legger sammen grupper av gresskar, løser spøkelsetema tekstoppgaver, eller fullfører tallsetninger med flaggermus- og edderkopillustrasjoner. Rett deg mot barnehage til andre klasse med oppgaver fra ensifrede summer til tosifret addisjon. Halloween matematikkarbeidsark selger spesielt godt i den konsentrerte oktoberperioden fordi kjøpere søker tematisk innhold som gjør det mulig å fortsette ferdighetsbyggende praksis uten å forstyrre den festlige stemningen som barn forventer under halloweensesongen.',
+      description: 'Matematikkarbeidsark med halloweenillustrasjoner forvandler rutinemessig regneøvelse til skummelt tematiske aktiviteter som foreldre og kjøpere velger over vanlige talloppgaver gjennom hele oktober. Bruk Addisjonsgeneratoren til å lage arbeidsark der barn legger sammen grupper av gresskar, løser spøkelsetema tekstoppgaver, eller fullfører tallsetninger med flaggermus- og edderkopillustrasjoner. Rett deg mot barnehage til 2. trinn med oppgaver fra ensifrede summer til tosifret addisjon. Halloween matematikkarbeidsark selger spesielt godt i den konsentrerte oktoberperioden fordi kjøpere søker tematisk innhold som gjør det mulig å fortsette ferdighetsbyggende praksis uten å forstyrre den festlige stemningen som barn forventer under halloweensesongen.',
       appId: 'addition',
     },
     {
@@ -73,7 +73,7 @@ For å fange maksimal halloweenomsetning, utvikle produkter på tvers av flere u
     },
     {
       title: 'Halloween mønsterarbeidsark for pedagogiske produktlinjer',
-      description: 'Mønstergjenkjenningsarbeidsark med halloweenmotiver lærer tidlig matematikk gjennom skumle sekvenser som barn finner engasjerende og morsomme. Mønsterarbeidsarkgeneratoren lager sekvenser med gresskar, flaggermus, edderkopper, spøkelser og hekser der barn identifiserer og fortsetter gjentakende mønstre. Tilby AB-, ABC- og AABB-mønsternivåer for å dekke førskole til første klasse standarder. Halloweenmotiver fungerer spesielt godt for mønsteraktiviteter fordi de visuelt distinkte ikonene gjør mønstre umiddelbart tydelige og motiverende. Disse arbeidsarkene komplementerer telle- og addisjonsprodukter for omfattende halloween matematikkbundler som øker gjennomsnittlig ordreverdien din gjennom oktobers salgsvindu.',
+      description: 'Mønstergjenkjenningsarbeidsark med halloweenmotiver lærer tidlig matematikk gjennom skumle sekvenser som barn finner engasjerende og morsomme. Mønsterarbeidsarkgeneratoren lager sekvenser med gresskar, flaggermus, edderkopper, spøkelser og hekser der barn identifiserer og fortsetter gjentakende mønstre. Tilby AB-, ABC- og AABB-mønsternivåer for å dekke førskole til 1. trinn standarder. Halloweenmotiver fungerer spesielt godt for mønsteraktiviteter fordi de visuelt distinkte ikonene gjør mønstre umiddelbart tydelige og motiverende. Disse arbeidsarkene komplementerer telle- og addisjonsprodukter for omfattende halloween matematikkbundler som øker gjennomsnittlig ordreverdien din gjennom oktobers salgsvindu.',
       appId: 'pattern-worksheet',
     },
     {
@@ -118,7 +118,7 @@ For å fange maksimal halloweenomsetning, utvikle produkter på tvers av flere u
     },
     {
       question: 'Hvilke halloween-undertemaer selger best?',
-      answer: 'Gresskar dominerer som det bestselgende halloween-undertemaet fordi det appellerer til alle aldersgrupper og har den bredeste sesongappellen fra september til november. Spøkelser og hekser følger tett etter med sterk visuell appell som oversettes godt til arbeidsarkillustrasjoner. Søte-ikke-skumle halloweentemaer presterer eksepsjonelt godt i førskole- og barnehagesegmentet der foreldre og kjøpere foretrekker alderstilpasset innhold uten skremmende elementer. Monstre og vampyrer appellerer til eldre barn i andre til fjerde klasse. Selgere som dekker hele spekteret fra søtt til skummelt med produkter for ulike aldersgrupper maksimerer sin sesongomsetning.',
+      answer: 'Gresskar dominerer som det bestselgende halloween-undertemaet fordi det appellerer til alle aldersgrupper og har den bredeste sesongappellen fra september til november. Spøkelser og hekser følger tett etter med sterk visuell appell som oversettes godt til arbeidsarkillustrasjoner. Søte-ikke-skumle halloweentemaer presterer eksepsjonelt godt i førskole- og barnehagesegmentet der foreldre og kjøpere foretrekker alderstilpasset innhold uten skremmende elementer. Monstre og vampyrer appellerer til eldre barn i andre til 4. trinn. Selgere som dekker hele spekteret fra søtt til skummelt med produkter for ulike aldersgrupper maksimerer sin sesongomsetning.',
     },
     {
       question: 'Hvordan skiller mine halloween printables seg ut blant konkurrentene?',

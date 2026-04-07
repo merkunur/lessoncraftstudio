@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste begge aktivitetsmodusene, null-overlapp plasseringsalgoritmen, konfigurerbare objektantall, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer, navn- og datofelt og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. For småskoletrinnet (1.–4. trinn) kan du bruke færre skjulte objekter (1–2) med mange store distraktorer, slik at scenen er oversiktlig. For mellomtrinnet (5.–7. trinn) øker du til 4–5 skjulte objekter blant 10–12 distraktorer for en vanskeligere visuell utfordring. Finn den Merkelige Bildet-modusen passer også godt for eldre brukere som trenger mer kompleks visuell diskriminering.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i kunst og håndverk for barneskolen i LK20, særlig innen visuell observasjon og finmotorikk. Søkeoppgavene trener systematisk visuell skanning, oppmerksomhet på detaljer og konsentrasjon — ferdigheter som også er relevante for tverrfaglige temaer i LK20.',
+    },
   ],
 
   internalLinks: [

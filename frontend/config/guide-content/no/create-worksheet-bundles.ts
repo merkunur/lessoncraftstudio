@@ -96,7 +96,7 @@ const content: GuideContent = {
     {
       appId: 'wordsearch',
       title: 'Ordsoek-generator',
-      description: 'Ordsoek-puslespill tilfoyer variasjon til tematiske pakker og fungerer pa tvers av fag-, klasse- og sesongbaserte pakketyper.',
+      description: 'Ordsoek-puslespill tilfoyer variasjon til tematiske pakker og fungerer pa tvers av fag-, trinn- og sesongbaserte pakketyper.',
     },
     {
       appId: 'matching',

@@ -35,7 +35,7 @@ const content: GuideContent = {
   tutorial: [
     {
       heading: 'Velg malgruppe og sett Max Minuend',
-      content: 'Max Minuend-kontrollen er den primaere vanskelighetsinnstillingen for subtraksjonsarbeidsark. Minuenden er tallet du trekker fra — i \"7 – 3 = 4\" er minuenden 7. A sette Max Minuend bestemmer det vanskeligste problemet som kan opptre pa arbeidsarket.\n\nSlik mapper Max Minuend til aldersgrupper:\n\nForskole (alder 4-5): Max Minuend pa 5. Oppgaver som \"3 – 1 = 2\" eller \"5 – 2 = 3.\" Bruk utelukkende Overstrykningsmodus sa de kan se bilder som fjernes. Arbeidsarkene bor vaere sterkt visuelle med store bilder.\n\nBarnehage (alder 5-6): Max Minuend pa 10. Oppgaver opptil \"10 – 4 = 6.\" Bland Overstrykning og Bilde – Tall-moduser for a begynne a forbinde visuelle elementer med sifre.\n\nForste klasse (alder 6-7): Max Minuend pa 15. Finn subtrahend-modusen blir verdifull her, der barn ser \"9 – ? = 4\" og ma bestemme hva som ble tatt bort.\n\nAndre klasse (alder 7-8): Max Minuend pa 20. Blandet modus kombinerer alle ovelsetyper for omfattende evaluering.',
+      content: 'Max Minuend-kontrollen er den primaere vanskelighetsinnstillingen for subtraksjonsarbeidsark. Minuenden er tallet du trekker fra — i \"7 – 3 = 4\" er minuenden 7. A sette Max Minuend bestemmer det vanskeligste problemet som kan opptre pa arbeidsarket.\n\nSlik mapper Max Minuend til aldersgrupper:\n\nForskole (alder 4-5): Max Minuend pa 5. Oppgaver som \"3 – 1 = 2\" eller \"5 – 2 = 3.\" Bruk utelukkende Overstrykningsmodus sa de kan se bilder som fjernes. Arbeidsarkene bor vaere sterkt visuelle med store bilder.\n\nBarnehage (alder 5-6): Max Minuend pa 10. Oppgaver opptil \"10 – 4 = 6.\" Bland Overstrykning og Bilde – Tall-moduser for a begynne a forbinde visuelle elementer med sifre.\n\n1. trinn (alder 6-7): Max Minuend pa 15. Finn subtrahend-modusen blir verdifull her, der barn ser \"9 – ? = 4\" og ma bestemme hva som ble tatt bort.\n\n2. trinn (alder 7-8): Max Minuend pa 20. Blandet modus kombinerer alle ovelsetyper for omfattende evaluering.',
     },
     {
       heading: 'Velg et visuelt tema for arbeidsarkene dine',
@@ -100,7 +100,7 @@ const content: GuideContent = {
     },
     {
       question: 'Hva er Max Minuend og hvordan kontrollerer det vanskelighetsgrad?',
-      answer: 'Max Minuend setter det storste tallet som barn trekker fra. I oppgaven \"7 – 3 = 4\" er minuenden 7. Sett Max Minuend til 5 for forskole, 10 for barnehage, 15 for forste klasse eller 20 for andre klasse.',
+      answer: 'Max Minuend setter det storste tallet som barn trekker fra. I oppgaven \"7 – 3 = 4\" er minuenden 7. Sett Max Minuend til 5 for forskole, 10 for barnehage, 15 for 1. trinn eller 20 for 2. trinn.',
     },
     {
       question: 'Genererer generatoren automatisk fasit?',

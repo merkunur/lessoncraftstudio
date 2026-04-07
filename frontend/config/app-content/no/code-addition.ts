@@ -133,7 +133,7 @@ const content: AppContent = {
       {
         title: 'Engasjement på nett og lekende regning',
         description:
-          'Bruk kodeaddisjons arbeidsark til å forvandle den daglige matematikkøvingen til et spill. Del ut et Klassisk Modus puslespill som oppvarmingsutfordring der den første brukeren som knekker koden vinner en premie. Bruk Avslør Ord modusen til å kode et vokabularord, et faktum eller en motiverende melding som brukerne oppdager ved å løse alle ligningene. Puslespillformatet forvandler et rutinepreget øvingsark til en mysterieaktivitet som holder brukerne fokuserte og motiverte. Automatiske fasiter sparer opplevd verdi, og den justerbare vanskelighetsgraden betyr at en enkelt generator dekker fra barnehage til 5. klasse.',
+          'Bruk kodeaddisjons arbeidsark til å forvandle den daglige matematikkøvingen til et spill. Del ut et Klassisk Modus puslespill som oppvarmingsutfordring der den første brukeren som knekker koden vinner en premie. Bruk Avslør Ord modusen til å kode et vokabularord, et faktum eller en motiverende melding som brukerne oppdager ved å løse alle ligningene. Puslespillformatet forvandler et rutinepreget øvingsark til en mysterieaktivitet som holder brukerne fokuserte og motiverte. Automatiske fasiter sparer opplevd verdi, og den justerbare vanskelighetsgraden betyr at en enkelt generator dekker fra barnehage til 5. trinn.',
         platform: 'Nettbasert / Privatundervisning / Hjemmeundervisning',
       },
     ],
@@ -204,6 +204,14 @@ const content: AppContent = {
       question: 'Hva er returpolicyen?',
       answer:
         'Prøv før du kjøper med vår gratis prøveversjon — alle funksjoner er tilgjengelige for å fullt ut evaluere verktøyet før du anskaffer en lisens. Fordi den gratis prøveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjøp. Sørg for at verktøyet passer til behovene dine ved å bruke den gratis prøveversjonen før du kjøper.',
+    },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Juster tallintervallet og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn) og mellomtrinnet (5.–7. trinn). Generatoren lar deg tilpasse oppgavene til ethvert trinn i barneskolen — fra konkret visuell telling for 1. trinn til mer abstrakt tallregning for eldre elever på mellomtrinnet.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er designet som et fleksibelt supplement og er ikke bundet til én bestemt læreplan. Oppgavene dekker kompetansemål i matematikk for barneskolen i LK20, der elevene blant annet skal utforske og bruke regnestrategier for addisjon og logisk tenkning. Tilpass tallintervallet og øvelsesmodusen for å matche de spesifikke kompetansemålene du jobber med.',
     },
   ],
 

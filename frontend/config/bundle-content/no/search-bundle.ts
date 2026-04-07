@@ -195,7 +195,7 @@ const content: BundleContent = {
     { pageType: 'guide', slug: 'lag-skjulte-objekter-arbeidsark', anchorText: 'Hvordan du lager arbeidsark med skjulte objekter' },
     { pageType: 'guide', slug: 'publiser-puslespillboeker-kdp', anchorText: 'Publiser puslespillbøker på Amazon KDP' },
     { pageType: 'start', slug: 'markedsfoering-utskriftsbar-forretning', anchorText: 'Markedsfør din utskriftsbare forretning på nett' },
-    { pageType: 'idea', slug: 'foerste-klasse-utskriftsbare-ideer', anchorText: 'Første klasse utskriftsbare ideer for selgere' },
+    { pageType: 'idea', slug: '1-trinn-utskriftsbare-ideer', anchorText: '1. trinn utskriftsbare ideer for selgere' },
   ],
 
   visuals: {

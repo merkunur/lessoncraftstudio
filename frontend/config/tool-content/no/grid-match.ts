@@ -153,7 +153,7 @@ const content: ToolContent = {
     },
     {
       title: 'Velg riktig rutenettstørrelse for målgruppen din',
-      description: 'Tilpass rutenettkonfigurasjon til kjøperforventninger. For Gumroad produktlinjeressurser rettet mot barnehage til første klasse, bruk 2×2 og 2×3 rutenett. For Etsy aktivitetspakker, bruk 3×3 rutenett. For KDP puslespillarbeidsbøker rettet mot eldre brukere, bruk 4×3 og 4×4 rutenett.',
+      description: 'Tilpass rutenettkonfigurasjon til kjøperforventninger. For Gumroad produktlinjeressurser rettet mot barnehage til 1. trinn, bruk 2×2 og 2×3 rutenett. For Etsy aktivitetspakker, bruk 3×3 rutenett. For KDP puslespillarbeidsbøker rettet mot eldre brukere, bruk 4×3 og 4×4 rutenett.',
     },
   ],
 
@@ -205,6 +205,10 @@ const content: ToolContent = {
     {
       question: 'Hva er returpolitikken?',
       answer: 'Prøv før du kjøper med vår gratis prøveversjon — alle funksjoner er tilgjengelige. Fordi den gratis prøveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjøp. Sørg for at verktøyet passer til dine behov med den gratis prøveversjonen før du kjøper.',
+    },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Juster antall elementer og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn) og mellomtrinnet (5.–7. trinn). Verktøyet er et fleksibelt supplement som støtter kompetansemål i kunst og håndverk og matematikk i LK20 — Kunnskapsløftet 2020.',
     },
   ],
 

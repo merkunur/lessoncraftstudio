@@ -202,6 +202,10 @@ const content: ToolContent = {
       question: 'Hva er returpolicyen?',
       answer: 'Prov for du kjoper med vår gratis proveversjon — alle funksjoner er tilgjengelige slik at du kan fullt evaluere verktøyet for du kjoper. Fordi den gratis proveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjop. Sorg for at verktøyet passer til behovene dine med den gratis proveversjonen for du kjoper.',
     },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Juster tallintervallet og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn), mellomtrinnet (5.–7. trinn) eller ungdomstrinnet (8.–10. trinn). Verktøyet er et fleksibelt supplement som støtter kompetansemålene i matematikk i LK20 — Kunnskapsløftet 2020.',
+    },
   ],
 
   internalLinks: [

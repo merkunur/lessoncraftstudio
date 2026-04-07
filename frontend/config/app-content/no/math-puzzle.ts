@@ -69,7 +69,7 @@ const content: AppContent = {
       {
         title: 'Justerbar rutenettstørrelse fra 4 til 16 brikker',
         description:
-          'Still inn rader fra 2 til 4 og kolonner fra 2 til 4 for å lage puslespill som varierer fra et nybegynnervennlig 2×2-rutenett (4 brikker) til et utfordrende 4×4-rutenett (16 brikker). Mindre rutenett fungerer perfekt for barnehagebarn og brukere i barnehageklasse som trenger færre oppgaver per side, mens større rutenett tilbyr omfattende øving for brukere i 1. og 2. klasse. Rutenettstørrelsen bestemmer direkte antall oppgaver, noe som gjør vanskelighetsdifferensiering like enkelt som å justere to glidebrytere. For selgere betyr dette at du med det samme bildet kan tilby tre vanskelighetsgrader i en produktoppføring.',
+          'Still inn rader fra 2 til 4 og kolonner fra 2 til 4 for å lage puslespill som varierer fra et nybegynnervennlig 2×2-rutenett (4 brikker) til et utfordrende 4×4-rutenett (16 brikker). Mindre rutenett fungerer perfekt for barnehagebarn og brukere i barnehage som trenger færre oppgaver per side, mens større rutenett tilbyr omfattende øving for brukere i 1. og 2. trinn. Rutenettstørrelsen bestemmer direkte antall oppgaver, noe som gjør vanskelighetsdifferensiering like enkelt som å justere to glidebrytere. For selgere betyr dette at du med det samme bildet kan tilby tre vanskelighetsgrader i en produktoppføring.',
       },
       {
         title: 'Tre matematikkoperasjoner til hvert nivå',
@@ -200,6 +200,14 @@ const content: AppContent = {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste hver operasjon, hver rutenettstørrelse, hvert tema og hvert eksportformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet oppfyller behovene dine før du anskaffer en lisens.',
+    },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Juster tallintervallet og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn) og mellomtrinnet (5.–7. trinn). Generatoren lar deg tilpasse oppgavene til ethvert trinn i barneskolen — fra konkret visuell telling for 1. trinn til mer abstrakt tallregning for eldre elever på mellomtrinnet.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er designet som et fleksibelt supplement og er ikke bundet til én bestemt læreplan. Oppgavene dekker kompetansemål i matematikk for barneskolen i LK20, der elevene blant annet skal utforske og bruke regnestrategier og logisk tenkning. Tilpass tallintervallet og øvelsesmodusen for å matche de spesifikke kompetansemålene du jobber med.',
     },
   ],
 

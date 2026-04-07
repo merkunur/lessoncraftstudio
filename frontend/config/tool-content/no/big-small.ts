@@ -128,7 +128,7 @@ const content: ToolContent = {
     },
     {
       title: 'Tilpass øvelsesantall til målaldersgruppen din',
-      description: 'For småbarn og førskolebarn (2–4 år), bruk 2–3 store øvelser per side med 2 bilder hver for maksimal tydelighet. For barnehagebarn (4–6 år), bruk 4–6 øvelser med 2 eller 3 bilder. For første klasse og opp, 6–10 øvelser per side generator effektive vurderingsark.',
+      description: 'For småbarn og førskolebarn (2–4 år), bruk 2–3 store øvelser per side med 2 bilder hver for maksimal tydelighet. For barnehagebarn (4–6 år), bruk 4–6 øvelser med 2 eller 3 bilder. For 1. trinn og opp, 6–10 øvelser per side generator effektive vurderingsark.',
     },
     {
       title: 'Bruk gråtone for KDP og masseutskrift',
@@ -188,6 +188,10 @@ const content: ToolContent = {
     {
       question: 'Hva er returpolitikken?',
       answer: 'Prøv før du kjøper med vår gratis prøveversjon — alle funksjoner er tilgjengelige, slik at du kan fullstendig evaluere verktøyet før du kjøper. Fordi den gratis prøveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjøp. Sørg for at verktøyet passer til dine behov med den gratis prøveversjonen før du kjøper.',
+    },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Juster tallintervallet og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn), mellomtrinnet (5.–7. trinn) eller ungdomstrinnet (8.–10. trinn). Verktøyet er et fleksibelt supplement som støtter kompetansemålene i matematikk i LK20 — Kunnskapsløftet 2020.',
     },
   ],
 

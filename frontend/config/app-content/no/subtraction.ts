@@ -26,7 +26,7 @@ const content: AppContent = {
     title: 'Minusstykker å skrive ut — Generator med temabilder og fasit',
     tagline: 'Gjør subtraksjon konkret med arbeidsark der brukerne stryker over bilder for å finne svaret.',
     description:
-      'Lag bildebaserte subtraksjonsarbeidsark som gjør konseptet «fjerne» synlig og forståelig gjennom en kraftfull visuell metode: overstrykning. Brukerne ser en gruppe bilder og observerer diagonale kryss over de fjernede elementene — noe som gjør det abstrakte begrepet subtraksjon konkret og intuitivt. Velg mellom fire øvelsesmoduser — Overstrykning, Bilde − Tall, Finn Subtrahenden og Blandet Modus — for å guide læringen fra barnehage til 2. klasse. Utforsk mer enn 3 100 nøye utvalgte illustrasjoner i 104 temaer som dinosaurer, havdyr og kjøretøy. Hvert arbeidsark inneholder en automatisk generert fasit, og du kan eksportere trykkeklare PDF-er i Letter-, Kort- (800×1000) eller A4-format med mer enn 400 DPI. En innebygd gråtoneknapp gjør det mulig å lage blekkbesparende svart-hvite versjoner med ett klikk. Enten du selger temapakker på Etsy, utgir aktivitetsbøker på Amazon KDP eller skriver ut øvingsark til kundene dine — Subtraksjons Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',
+      'Lag bildebaserte subtraksjonsarbeidsark som gjør konseptet «fjerne» synlig og forståelig gjennom en kraftfull visuell metode: overstrykning. Brukerne ser en gruppe bilder og observerer diagonale kryss over de fjernede elementene — noe som gjør det abstrakte begrepet subtraksjon konkret og intuitivt. Velg mellom fire øvelsesmoduser — Overstrykning, Bilde − Tall, Finn Subtrahenden og Blandet Modus — for å guide læringen fra barnehage til 2. trinn. Utforsk mer enn 3 100 nøye utvalgte illustrasjoner i 104 temaer som dinosaurer, havdyr og kjøretøy. Hvert arbeidsark inneholder en automatisk generert fasit, og du kan eksportere trykkeklare PDF-er i Letter-, Kort- (800×1000) eller A4-format med mer enn 400 DPI. En innebygd gråtoneknapp gjør det mulig å lage blekkbesparende svart-hvite versjoner med ett klikk. Enten du selger temapakker på Etsy, utgir aktivitetsbøker på Amazon KDP eller skriver ut øvingsark til kundene dine — Subtraksjons Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',
   },
 
   howItWorks: {
@@ -76,7 +76,7 @@ const content: AppContent = {
       {
         title: 'Justerbare tallintervaller fra 2 til 20',
         description:
-          'Still inn den maksimale subtrahenden fra 2 til 20, med full kontroll over vanskelighetsgraden. Generatoren garanterer at subtrahenden alltid er mindre enn starttallet, noe som sikrer gyldige, ikke-negative svar i alle tilfeller. Lag enkle arbeidsark med maksimum 5 for barnehagen, standardøvelser til 10 for barneskolen, eller mer utfordrende tall til 20 for 1. og 2. klasse. Justeringen krever bare én endring, slik at du kan differensiere materialet for en hel klasse på få minutter. Denne presise kontrollen gjør det enkelt å lage produktlinjer per aldersgruppe — en barnehagepakke med subtrahend opp til 5, en barneskolepakke opp til 10 og en avansert pakke opp til 20.',
+          'Still inn den maksimale subtrahenden fra 2 til 20, med full kontroll over vanskelighetsgraden. Generatoren garanterer at subtrahenden alltid er mindre enn starttallet, noe som sikrer gyldige, ikke-negative svar i alle tilfeller. Lag enkle arbeidsark med maksimum 5 for barnehagen, standardøvelser til 10 for barneskolen, eller mer utfordrende tall til 20 for 1. og 2. trinn. Justeringen krever bare én endring, slik at du kan differensiere materialet for en hel klasse på få minutter. Denne presise kontrollen gjør det enkelt å lage produktlinjer per aldersgruppe — en barnehagepakke med subtrahend opp til 5, en barneskolepakke opp til 10 og en avansert pakke opp til 20.',
       },
       {
         title: '104 visuelle temaer med mer enn 3 100 bilder',
@@ -136,7 +136,7 @@ const content: AppContent = {
       {
         title: 'Øvingsarbeidsark for nettundervisning og privatundervisning',
         description:
-          'Generer tilpassede subtraksjonsarbeidsark skreddersydd til hver brukers nivå. Skriv ut arbeidsark i modusen Overstrykning for nybegynnere som trenger visuell støtte, og arbeidsark i Finn Subtrahenden for avanserte brukere som er klare for algebraisk tenkning — alt i samme økt. Den automatiske fasiten sparer opplevd verdi, og gråtonemoduset senker utskriftskostnadene for intensiv bruk. Enten du driver et leksehjelpsenter, underviser i barnehageklassen eller hjemmeunderviser — generatoren erstatter timers manuelt arbeid med et par klikk.',
+          'Generer tilpassede subtraksjonsarbeidsark skreddersydd til hver brukers nivå. Skriv ut arbeidsark i modusen Overstrykning for nybegynnere som trenger visuell støtte, og arbeidsark i Finn Subtrahenden for avanserte brukere som er klare for algebraisk tenkning — alt i samme økt. Den automatiske fasiten sparer opplevd verdi, og gråtonemoduset senker utskriftskostnadene for intensiv bruk. Enten du driver et leksehjelpsenter, underviser i barnehagen eller hjemmeunderviser — generatoren erstatter timers manuelt arbeid med et par klikk.',
         platform: 'Nettbasert / Privatundervisning / Hjemmeundervisning',
       },
     ],
@@ -197,6 +197,14 @@ const content: AppContent = {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste hver modus, hvert tema, hvert eksportformat og hvert sideformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet oppfyller behovene dine før du anskaffer en lisens.',
+    },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Juster tallintervallet og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn) og mellomtrinnet (5.–7. trinn). Generatoren lar deg tilpasse oppgavene til ethvert trinn i barneskolen — fra konkret visuell telling for 1. trinn til mer abstrakt tallregning for eldre elever på mellomtrinnet.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er designet som et fleksibelt supplement og er ikke bundet til én bestemt læreplan. Oppgavene dekker kompetansemål i matematikk for barneskolen i LK20, der elevene blant annet skal utforske og bruke regnestrategier for subtraksjon. Tilpass tallintervallet og øvelsesmodusen for å matche de spesifikke kompetansemålene du jobber med.',
     },
   ],
 

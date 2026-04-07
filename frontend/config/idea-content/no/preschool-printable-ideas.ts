@@ -110,7 +110,7 @@ Prissetting følger standard konvensjoner med en slight premium for veletablerte
     {
       platform: 'Gumroad og Shopify',
       title: 'Bygge et førskole utskriftsbart merke med direktesalg',
-      description: 'Direktesalgsplattformer lar deg bygge et spesialisert førskole utskriftsbart merke. Lag en sammenhengende produktlinje med tydelig aldersprogresjon fra to til fem år. Bruk e-postinnsamling for å bygge en foreldreabonnentliste. Foreldre som kjøper førskole materialer returnerer typisk for barnehage- og førsteklasseressurser det følgende året.',
+      description: 'Direktesalgsplattformer lar deg bygge et spesialisert førskole utskriftsbart merke. Lag en sammenhengende produktlinje med tydelig aldersprogresjon fra to til fem år. Bruk e-postinnsamling for å bygge en foreldreabonnentliste. Foreldre som kjøper førskole materialer returnerer typisk for barnehage- og 1. trinn-ressurser det følgende året.',
     },
   ],
 

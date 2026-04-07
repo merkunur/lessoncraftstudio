@@ -30,7 +30,7 @@ const content: IdeaContent = {
 
 Amazon KDP har revolusjonert det fysiske utskriftsbare markedet ved å eliminere de tradisjonelle barrierene for fysisk produktsalg. Selgere trenger ikke investere i trykkekostnader, lagerhåndtering eller forsendelseslogistikk. KDP håndterer utskrift, lagring og forsendelse for hver enkelt bestilling gjennom utskrift-på-forespørsel-modellen. Dette betyr at selgere kan tilby fysiske bøker med null oppstartskostnader og null lagerrisiko, og motta royalties for hvert salg.
 
-Kjøpersegmentene for fysiske utskriftsbare produkter inkluderer foreldre som foretrekker fysiske bøker barn kan skrive direkte i, besteforeldre som kjøper aktivitetsbøker som gaver, kjøpere og organisasjoner som kjøper klassesett i bulk, biblioteker som supplerer samlingene sine med aktivitetsbøker, og reisende familier som foretrekker fysiske aktivitetsbøker fremfor å håndtere utskrift underveis.
+Kjøpersegmentene for fysiske utskriftsbare produkter inkluderer foreldre som foretrekker fysiske bøker barn kan skrive direkte i, besteforeldre som kjøper aktivitetsbøker som gaver, kjøpere og organisasjoner som kjøper trinnsett i bulk, biblioteker som supplerer samlingene sine med aktivitetsbøker, og reisende familier som foretrekker fysiske aktivitetsbøker fremfor å håndtere utskrift underveis.
 
 Det som gjør fysiske produkter spesielt attraktive som utvidelse for digitale selgere er at det eksisterende innholdet kan reformateres for fysisk produksjon med relativt lite tilleggsarbeid. Arbeidsark som allerede selger godt digitalt har bevist markedsetterspørsel, og fysiske versjoner av de samme produktene når et nytt kjøpersegment uten å kannibalisere det digitale salget.
 
@@ -74,7 +74,7 @@ Prissetting for fysiske utskriftsbare produkter er generelt høyere enn digitale
     },
     {
       title: 'Ordblandings puslespillbøker for eldre barn',
-      description: 'Ordblandings puslespillbøker appellerer til eldre barn i andre til fjerde klasse som nyter utfordrende ordpuslespill. Bruk Ordblandingsgeneratoren til å lage tematiske samlinger med progressive vanskelighetsnivåer. Formater for KDP med tydelig typografi og inkluder fasitsvar. Ordblandingsbøker har lavere KDP-konkurranse enn ordsøk, noe som gir muligheter for nye selgere å etablere seg.',
+      description: 'Ordblandings puslespillbøker appellerer til eldre barn i andre til 4. trinn som nyter utfordrende ordpuslespill. Bruk Ordblandingsgeneratoren til å lage tematiske samlinger med progressive vanskelighetsnivåer. Formater for KDP med tydelig typografi og inkluder fasitsvar. Ordblandingsbøker har lavere KDP-konkurranse enn ordsøk, noe som gir muligheter for nye selgere å etablere seg.',
       appId: 'word-scramble',
     },
     {

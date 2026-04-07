@@ -193,6 +193,10 @@ const content: ToolContent = {
       question: 'Hva er returpolitikken?',
       answer: 'Prøv før du kjøper med vår gratis prøveversjon — alle funksjoner tilgjengelige. Fordi den gratis prøveversjonen gir full tilgang, tilbyr vi ingen refusjoner. Sørg for at verktøyet passer til dine behov med prøveversjonen.',
     },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Tilpass temaer og vanskelighetsgrad for å matche småskoletrinnet (1.–4. trinn) og mellomtrinnet (5.–7. trinn). Verktøyet er et tverrfaglig supplement som støtter kompetansemål i norsk, matematikk og kunst og håndverk i LK20 — Kunnskapsløftet 2020.',
+    },
   ],
 
   internalLinks: [

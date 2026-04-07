@@ -99,7 +99,7 @@ const content: BundleContent = {
     },
     {
       title: 'Amazon KDP matematikk-arbeidsbok',
-      description: 'Kombiner arbeidsark fra flere generatorer til tematiske KDP-arbeidsbøker: «Matematikk-aktivitetsbok for 1. klasse» med addisjons-, subtraksjons- og sammenligningssider, eller «Matematikkpuslespillsamling» som blander puslespillrutenett og algebrapuslespill. Den konsistente designmotoren sikrer at hver side ser profesjonelt ensartet ut. Generer 50 til 100 sider per arbeidsbok i én økt.',
+      description: 'Kombiner arbeidsark fra flere generatorer til tematiske KDP-arbeidsbøker: «Matematikk-aktivitetsbok for 1. trinn» med addisjons-, subtraksjons- og sammenligningssider, eller «Matematikkpuslespillsamling» som blander puslespillrutenett og algebrapuslespill. Den konsistente designmotoren sikrer at hver side ser profesjonelt ensartet ut. Generer 50 til 100 sider per arbeidsbok i én økt.',
       platform: 'Amazon KDP',
     },
     {

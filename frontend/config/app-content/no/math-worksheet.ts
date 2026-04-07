@@ -135,7 +135,7 @@ const content: AppContent = {
       {
         title: 'Algebrapuslespill for nettundervisning og privatundervisning',
         description:
-          'Generer tilpassede algebrapuslespill skreddersydd til hver brukers ferdighetsnivå. Skriv ut Veldig Lett tosymbolsarbeidsark for nybegynnere i 1. klasse og Vanskelig firesymbolssystemer for avanserte brukere i 3.–4. klasse — alt i samme økt. Bildevariabelformatet gjør tidlig algebra tilgjengelig for unge brukere som ennå ikke er klare for abstrakt x-og-y notasjon, mens puslespillmekanikken motiverer dem til å løse hver ligning. Den automatiske fasiten sparer opplevd verdi og muliggjør direkte tilbakemelding.',
+          'Generer tilpassede algebrapuslespill skreddersydd til hver brukers ferdighetsnivå. Skriv ut Veldig Lett tosymbolsarbeidsark for nybegynnere i 1. trinn og Vanskelig firesymbolssystemer for avanserte brukere i 3.–4. trinn — alt i samme økt. Bildevariabelformatet gjør tidlig algebra tilgjengelig for unge brukere som ennå ikke er klare for abstrakt x-og-y notasjon, mens puslespillmekanikken motiverer dem til å løse hver ligning. Den automatiske fasiten sparer opplevd verdi og muliggjør direkte tilbakemelding.',
         platform: 'Nettbasert / Privatundervisning / Hjemmeundervisning',
       },
     ],
@@ -145,7 +145,7 @@ const content: AppContent = {
     {
       question: 'Hvordan fungerer det algebraiske bildepuslespillformatet?',
       answer:
-        'Hvert puslespill presenterer et system av koblede ligninger der bilder forestiller ukjente variabler. For eksempel: et tosymbolspuslespill kan vise: eple + eple = 6, eple + banan = 8. Brukerne utleder at hvert eple er 3 og hver banan 5. Høyere vanskelighetsgrader legger til flere symboler og flere ligninger, noe som generator ekte flervariable algebraiske puslespill — alt uten abstrakt bokstavnotasjon. Dette visuelle formatet gjør algebra tilgjengelig for brukere allerede fra 1. klasse.',
+        'Hvert puslespill presenterer et system av koblede ligninger der bilder forestiller ukjente variabler. For eksempel: et tosymbolspuslespill kan vise: eple + eple = 6, eple + banan = 8. Brukerne utleder at hvert eple er 3 og hver banan 5. Høyere vanskelighetsgrader legger til flere symboler og flere ligninger, noe som generator ekte flervariable algebraiske puslespill — alt uten abstrakt bokstavnotasjon. Dette visuelle formatet gjør algebra tilgjengelig for brukere allerede fra 1. trinn.',
     },
     {
       question: 'Hva betyr de fire vanskelighetsgradene?',
@@ -201,6 +201,14 @@ const content: AppContent = {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste hver vanskelighetsgrad, hver operasjonsmodus, hvert tema og hvert eksportformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet oppfyller behovene dine før du anskaffer en lisens.',
+    },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Juster tallintervallet og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn) og mellomtrinnet (5.–7. trinn). Generatoren lar deg tilpasse oppgavene til ethvert trinn i barneskolen — fra konkret visuell telling for 1. trinn til mer abstrakt tallregning for eldre elever på mellomtrinnet.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er designet som et fleksibelt supplement og er ikke bundet til én bestemt læreplan. Oppgavene dekker kompetansemål i matematikk for barneskolen i LK20, der elevene blant annet skal utforske og bruke varierte regnestrategier for de fire regneartene. Tilpass tallintervallet og øvelsesmodusen for å matche de spesifikke kompetansemålene du jobber med — fra pluss, minus, gange og deling.',
     },
   ],
 

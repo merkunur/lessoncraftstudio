@@ -147,7 +147,7 @@ const content: GuideContent = {
     {
       appId: 'addition',
       title: 'Addisjonsarbeidsark-generator',
-      description: 'Matte og Tall-kategori starter med høyest søkevolum blant matteformater. Lager addisjonsøvingsarbeidsark med fasit på tvers av tematiske og rene tallformater for barnehage til tredjeklasse.',
+      description: 'Matte og Tall-kategori starter med høyest søkevolum blant matteformater. Lager addisjonsøvingsarbeidsark med fasit på tvers av tematiske og rene tallformater for barnehage til 3.-trinn.',
     },
     {
       appId: 'wordsearch',

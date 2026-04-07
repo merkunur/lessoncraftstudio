@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste begge aktivitetsmodusene, alle fire oppgavetypene, Bokstavsok-modusen, konfigurerbare rutenettdimensjoner, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. For småskoletrinnet (1.–4. trinn) kan du bruke et grovere rutenett (5×5) med enkel telling av 1–2 målobjekter. For mellomtrinnet (5.–7. trinn) øker du tettheten til 8×8 eller 10×10 med 4 målobjekter og blandede oppgavetyper. Bokstavsøk-modusen med norsk alfabet (inkl. Æ, Ø, Å) passer spesielt godt for tidlig lese- og skriveopplæring på småskoletrinnet.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i matematikk for barneskolen i LK20, særlig innen tallforståelse og sammenligning. Telleøvelsene trener en-til-en-korrespondanse, mengdeforståelse og nøyaktig opptelling — ferdigheter som er sentrale i matematikkopplæringen fra 1. til 4. trinn.',
+    },
   ],
 
   internalLinks: [

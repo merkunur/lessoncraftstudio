@@ -206,6 +206,10 @@ const content: ToolContent = {
       question: 'Hva er returpolitikken?',
       answer: 'Prøv før du kjøper med vår gratis prøveversjon — alle funksjoner tilgjengelige. Fordi prøveversjonen gir full tilgang, tilbyr vi ingen refusjoner. Sørg for at verktøyet passer til dine behov med prøveversjonen.',
     },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Juster vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn), mellomtrinnet (5.–7. trinn) eller ungdomstrinnet (8.–10. trinn). Verktøyet er et fleksibelt supplement som støtter kompetansemål i logisk tenkning og problemløsning i LK20 — Kunnskapsløftet 2020.',
+    },
   ],
 
   internalLinks: [

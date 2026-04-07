@@ -67,7 +67,7 @@ const content: BundleContent = {
     },
     {
       title: 'Bredt aldersspektrum',
-      description: 'Puslespill- og logikkarbeidsark spenner naturlig over et bredere aldersspektrum enn grunnleggende ferdighetsbyggende aktiviteter. Enkle Manglende Biter-rutenett og lette Finn den Ulike-rader fungerer for førskolebarn, mens komplekse Sudoku-puslespill og forgrenede labyrinter utfordrer brukere i 2. og 3. klasse.',
+      description: 'Puslespill- og logikkarbeidsark spenner naturlig over et bredere aldersspektrum enn grunnleggende ferdighetsbyggende aktiviteter. Enkle Manglende Biter-rutenett og lette Finn den Ulike-rader fungerer for førskolebarn, mens komplekse Sudoku-puslespill og forgrenede labyrinter utfordrer brukere i 2. og 3. trinn.',
     },
     {
       title: 'KDP puslespillbok-kraftpakke',
@@ -193,7 +193,7 @@ const content: BundleContent = {
     { pageType: 'guide', slug: 'lag-kryssordpuslespill', anchorText: 'Hvordan du lager kryssordpuslespill som selger' },
     { pageType: 'guide', slug: 'publiser-puslespillboeker-kdp', anchorText: 'Hvordan du publiserer puslespillbøker på Amazon KDP' },
     { pageType: 'start', slug: 'amazon-kdp-aktivitetsboeker', anchorText: 'Publiser aktivitetsbøker på Amazon KDP' },
-    { pageType: 'idea', slug: 'foerste-klasse-utskriftsbare-ideer', anchorText: 'Første klasse utskriftsbare ideer for barneskolen' },
+    { pageType: 'idea', slug: '1-trinn-utskriftsbare-ideer', anchorText: '1. trinn utskriftsbare ideer for barneskolen' },
   ],
 
   visuals: {

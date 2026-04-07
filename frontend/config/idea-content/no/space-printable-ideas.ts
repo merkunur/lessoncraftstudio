@@ -49,7 +49,7 @@ Konkurransen i romnisjen er moderat, med de fleste eksisterende produkter som br
     },
     {
       title: 'Romtema addisjonsarbeidsark for matte utskriftsbare selgere',
-      description: 'Mattearbeidsark illustrert med planeter og raketter forvandler rutine addisjonsøvelser til engasjerende romoppdrag. Bruk Addisjons-generatoren til å skape arbeidsark med rombilder og tema. Målrett barnehage til andre klasse med oppgaver fra ensifrede summer til tosifret addisjon. Romtema matematikk-printables krever en premium fordi kjøpere forbinder det spennende temaet med høyere barneengasjement.',
+      description: 'Mattearbeidsark illustrert med planeter og raketter forvandler rutine addisjonsøvelser til engasjerende romoppdrag. Bruk Addisjons-generatoren til å skape arbeidsark med rombilder og tema. Målrett barnehage til 2. trinn med oppgaver fra ensifrede summer til tosifret addisjon. Romtema matematikk-printables krever en premium fordi kjøpere forbinder det spennende temaet med høyere barneengasjement.',
       appId: 'addition',
     },
     {
@@ -69,7 +69,7 @@ Konkurransen i romnisjen er moderat, med de fleste eksisterende produkter som br
     },
     {
       title: 'Verdensrom mønsterarbeidsark for utskriftsbare forretninger',
-      description: 'Mønstergjenkjenningsarbeidsark med romtema underviser i tidlig mattekonsepter med visuelt slående bilder. Mønsterarbeidsark-generatoren skaper sekvenser med planeter, stjerner og romfartøyer. Tilby AB, ABC og AABB mønsternivåer som dekker førskole til første klasse.',
+      description: 'Mønstergjenkjenningsarbeidsark med romtema underviser i tidlig mattekonsepter med visuelt slående bilder. Mønsterarbeidsark-generatoren skaper sekvenser med planeter, stjerner og romfartøyer. Tilby AB, ABC og AABB mønsternivåer som dekker førskole til 1. trinn.',
       appId: 'pattern-worksheet',
     },
     {
@@ -114,7 +114,7 @@ Konkurransen i romnisjen er moderat, med de fleste eksisterende produkter som br
     },
     {
       question: 'Hvilke aldersgrupper kjøper rom-arbeidsark oftest?',
-      answer: 'Den primære kjøperdemografien spenner over alderen tre til ti år. Førskolebarn tiltrekkes av fargerike planeter og raketter gjennom fargelegging og tellingsaktiviteter. Barnehage- og førsteklassekjøpere fokuserer på solsystemlæring og romordforråd. Eldre barn utforsker mer detaljerte astronomi- og romfartshistorie-arbeidsark.',
+      answer: 'Den primære kjøperdemografien spenner over alderen tre til ti år. Førskolebarn tiltrekkes av fargerike planeter og raketter gjennom fargelegging og tellingsaktiviteter. Barnehage- og 1. trinn-kjøpere fokuserer på solsystemlæring og romordforråd. Eldre barn utforsker mer detaljerte astronomi- og romfartshistorie-arbeidsark.',
     },
     {
       question: 'Hvordan lager jeg romtema arbeidsark effektivt med generatorverktøy?',

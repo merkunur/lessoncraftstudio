@@ -77,7 +77,7 @@ Prissetting for utskriftsbare abonnementer varierer basert på innhold og leveri
     },
     {
       title: 'Stavings-abonnement med ukentlige bokstavblandinger',
-      description: 'Et ukentlig bokstavblandings-abonnement gir konsekvent staveøvelse med nye ord hver uke. Bruk Bokstavblanding-generatoren med ordlister som følger standard pensumsordforråd for ulike klassetrinn. Tilby nivåbaserte abonnementer fra førskole til tredje klasse.',
+      description: 'Et ukentlig bokstavblandings-abonnement gir konsekvent staveøvelse med nye ord hver uke. Bruk Bokstavblanding-generatoren med ordlister som følger standard pensumsordforråd for ulike klassetrinn. Tilby nivåbaserte abonnementer fra førskole til 3. trinn.',
       appId: 'word-scramble',
     },
     {

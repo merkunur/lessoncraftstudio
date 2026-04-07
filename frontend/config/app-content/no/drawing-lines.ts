@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste hver linjemal, hvert bildetema, auto-utfyll-funksjonen, hvert eksportformat og hvert sideformat for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Kurvemaler med brede, sveiende linjer er ideelle for småskoletrinnet (1.–4. trinn) og barnehagen, der finmotorikken fortsatt er under utvikling. Diagonal- og vertikalmaler med smalere baner passer godt for mellomtrinnet (5.–7. trinn). Du kan også variere antall bildepar og bildekompleksitet for å tilpasse vanskelighetsgraden til aldersgruppen.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i kunst og håndverk for barneskolen i LK20, særlig innen visuell observasjon og finmotorikk. Linjesporingsøvelsene utvikler håndleddsfleksibilitet, blyantgrep og retningskontroll — ferdigheter som er grunnleggende for skriveforberedelse i norsk barneskoleopplæring.',
+    },
   ],
 
   internalLinks: [

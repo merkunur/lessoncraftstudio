@@ -108,7 +108,7 @@ Prissetting i barnehagenisjen er velestablert. Individuelle arbeidsark eller sm�
     {
       platform: 'Gumroad og Shopify',
       title: 'Bygge et barnehage utskriftsbart merke med direktesalg',
-      description: 'Direktesalgsplattformer lar deg bygge et spesialisert barnehage utskriftsbart merke som foreldre stoler på og vender tilbake til. Lag en sammenhengende produktlinje med konsistent design og progresjon på tvers av alle ferdighetsområder. Bruk e-postinnsamling for å bygge en foreldrewabonnentliste du kan varsle om nye produkter og sesongslipp. Foreldre som finner kvalitetsmateriell for barnehageeleven sin vender ofte tilbake for førsteklasseressurser det følgende året, noe som skaper langsiktige kunderelasjoner.',
+      description: 'Direktesalgsplattformer lar deg bygge et spesialisert barnehage utskriftsbart merke som foreldre stoler på og vender tilbake til. Lag en sammenhengende produktlinje med konsistent design og progresjon på tvers av alle ferdighetsområder. Bruk e-postinnsamling for å bygge en foreldrewabonnentliste du kan varsle om nye produkter og sesongslipp. Foreldre som finner kvalitetsmateriell for barnehageeleven sin vender ofte tilbake for 1. trinn-ressurser det følgende året, noe som skaper langsiktige kunderelasjoner.',
     },
   ],
 
@@ -145,7 +145,7 @@ Prissetting i barnehagenisjen er velestablert. Individuelle arbeidsark eller sm�
     {
       pageType: 'idea',
       slug: 'first-grade-printable-ideas',
-      anchorText: 'Førsteklasse utskriftsbare ideer',
+      anchorText: '1. trinn utskriftsbare ideer',
     },
   ],
 

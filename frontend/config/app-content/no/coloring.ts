@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste det frie lerretet, hvert tegneverktoy, hele bildebiblioteket, produktlinjehjelperene, rammetemaer, gråtoneeksport og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Fargeleggingsbilder er universelt tilgjengelige fra barnehagealder og oppover. For de yngste på småskoletrinnet (1.–4. trinn) fungerer enkle motiver med store flater godt, mens mer detaljerte komposisjoner med flere elementer passer for mellomtrinnet (5.–7. trinn). Det frie lerretet gjør det enkelt å tilpasse bildestørrelse og kompleksitet etter behov.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i kunst og håndverk for barneskolen i LK20, særlig innen kreativt uttrykk og fargekunnskap. Fargelegging utvikler finmotorikk, fargeforståelse og estetisk bevissthet — ferdigheter som er sentrale i kunst og håndverk-faget gjennom hele barneskolen.',
+    },
   ],
 
   internalLinks: [

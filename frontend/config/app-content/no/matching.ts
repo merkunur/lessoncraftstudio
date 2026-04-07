@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste alle fire koblingsmoduser, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer, navn/dato-felt, artikkelnumre, punktmarkeringer og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Du kan tilpasse vanskelighetsgraden ved å justere antall par (4, 5 eller 6) og velge mellom enklere koblingsmoduser som Begynnelsesbokstav for småskoletrinnet (1.–4. trinn), eller mer utfordrende moduser som Bilde/Ord Blandet og Tilpasset Ord for mellomtrinnet (5.–7. trinn). Bildekompleksiteten varierer også etter tema, slik at du kan velge enkle motiver for de yngste og mer detaljerte bilder for eldre brukere.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i kunst og håndverk for barneskolen i LK20, særlig innen visuell observasjon og finmotorikk. Koblingsøvelsene trener visuell diskriminering, oppmerksomhet på detaljer og hånd-øye-koordinasjon — ferdigheter som er sentrale i de tverrfaglige temaene i LK20.',
+    },
   ],
 
   internalLinks: [
@@ -230,8 +238,8 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'barnehageklasse-utskriftsbare-ideer',
-      anchorText: 'Barnehageklasse utskriftsbare ideer for unge brukere',
+      slug: 'barnehage-utskriftsbare-ideer',
+      anchorText: 'Barnehage utskriftsbare ideer for unge brukere',
     },
     {
       pageType: 'start',

@@ -74,7 +74,7 @@ Prissetting for foreldredag printables følger standard konvensjoner med en lite
     },
     {
       title: 'Foreldredag mønsterarbeidsark for pedagogiske aktiviteter',
-      description: 'Mønstergjenkjenningsarbeidsark med foreldredagsmotiver kombinerer matematikkferdigheter med sesongfeiring. Mønsterarbeidsarkgeneratoren lager sekvenser med blomster, hjerter, gaver og familietema objekter. Tilby AB- og ABC-nivåer for førskole til første klasse. Disse arbeidsarkene integrerer akademisk øvelse i foreldredags aktiviteter på en naturlig måte.',
+      description: 'Mønstergjenkjenningsarbeidsark med foreldredagsmotiver kombinerer matematikkferdigheter med sesongfeiring. Mønsterarbeidsarkgeneratoren lager sekvenser med blomster, hjerter, gaver og familietema objekter. Tilby AB- og ABC-nivåer for førskole til 1. trinn. Disse arbeidsarkene integrerer akademisk øvelse i foreldredags aktiviteter på en naturlig måte.',
       appId: 'pattern-worksheet',
     },
     {

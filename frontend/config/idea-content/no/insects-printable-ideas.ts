@@ -53,7 +53,7 @@ For å bygge en bærekraftig insekt utskriftsbar forretning, utvikle produkter s
     },
     {
       title: 'Insekt addisjonsarbeidsark for matematikk utskriftsbare linjer',
-      description: 'Matematikkarbeidsark illustrert med insektbilder forvandler regneøvelse til engasjerende naturtemaaktiviteter som foreldre og kjøpere velger over vanlige talloppgaver. Bruk Addisjonsgeneratoren til å lage arbeidsark der barn legger sammen grupper av sommerfugler, løser bietema tekstoppgaver, eller fullfører tallsetninger med marihøne-illustrasjoner. Rett deg mot barnehage til andre klasse med oppgaver fra ensifrede summer til tosifret addisjon. Insekt matematikkarbeidsark appellerer spesielt i vår- og sommersesongen når naturfagsenheter om insekter er mest aktive.',
+      description: 'Matematikkarbeidsark illustrert med insektbilder forvandler regneøvelse til engasjerende naturtemaaktiviteter som foreldre og kjøpere velger over vanlige talloppgaver. Bruk Addisjonsgeneratoren til å lage arbeidsark der barn legger sammen grupper av sommerfugler, løser bietema tekstoppgaver, eller fullfører tallsetninger med marihøne-illustrasjoner. Rett deg mot barnehage til 2. trinn med oppgaver fra ensifrede summer til tosifret addisjon. Insekt matematikkarbeidsark appellerer spesielt i vår- og sommersesongen når naturfagsenheter om insekter er mest aktive.',
       appId: 'addition',
     },
     {
@@ -73,7 +73,7 @@ For å bygge en bærekraftig insekt utskriftsbar forretning, utvikle produkter s
     },
     {
       title: 'Insekt mønsterarbeidsark for pedagogiske produktlinjer',
-      description: 'Mønstergjenkjenningsarbeidsark med fargerike insekter lærer tidlig matematikk gjennom visuelt tiltalende sekvenser. Mønsterarbeidsarkgeneratoren lager sekvenser med ulike insektarter der barn identifiserer og fortsetter gjentakende mønstre. Tilby AB-, ABC- og AABB-mønsternivåer for førskole til første klasse. Insekter fungerer spesielt godt for mønsteraktiviteter fordi deres mangfoldige former og farger gjør mønstre visuelt tydelige og engasjerende. Disse arbeidsarkene komplementerer telle- og addisjonsprodukter for naturfagstema matematikkbundler.',
+      description: 'Mønstergjenkjenningsarbeidsark med fargerike insekter lærer tidlig matematikk gjennom visuelt tiltalende sekvenser. Mønsterarbeidsarkgeneratoren lager sekvenser med ulike insektarter der barn identifiserer og fortsetter gjentakende mønstre. Tilby AB-, ABC- og AABB-mønsternivåer for førskole til 1. trinn. Insekter fungerer spesielt godt for mønsteraktiviteter fordi deres mangfoldige former og farger gjør mønstre visuelt tydelige og engasjerende. Disse arbeidsarkene komplementerer telle- og addisjonsprodukter for naturfagstema matematikkbundler.',
       appId: 'pattern-worksheet',
     },
     {

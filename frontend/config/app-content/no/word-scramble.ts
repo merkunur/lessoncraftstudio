@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste hver innholdskilde, hver vanskelighetsgrad, hvert tema, fargekodingsmuligheter, hvert eksportformat og hvert sideformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet passer til behovene dine før du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Tilpass vanskelighetsgraden for småskoletrinnet (1.–4. trinn) med enklere ord og mellomtrinnet (5.–7. trinn) med mer avansert ordforråd. Generatoren lar deg lage oppgaver for ethvert trinn i barneskolen.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i norsk for barneskolen i LK20, der elevene blant annet skal utvikle rettskriving og ordforståelse. Tilpass ordvalget og vanskelighetsgraden til de spesifikke kompetansemålene du jobber med.',
+    },
   ],
 
   internalLinks: [

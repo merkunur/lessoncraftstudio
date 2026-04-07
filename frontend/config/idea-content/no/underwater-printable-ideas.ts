@@ -34,7 +34,7 @@ Prissetting følger standard pedagogiske prisnivåer med individuelle ark til to
   productIdeas: [
     {
       title: 'Undervannsliv tellearbeidsark for utskriftsbare selgere',
-      description: 'Tellearbeidsark med fisk, sjøstjerner, blekkspruter og skjell bringer havets magi til tidlig matematikkøvelse. Bruk Finn og Tell-generatoren til å skape undervannsscener der barn finner og teller spesifikke sjødyr blant korallrev og havbunner. Produser sett med varierende vanskelighetsgrader for førskole til andre klasse.',
+      description: 'Tellearbeidsark med fisk, sjøstjerner, blekkspruter og skjell bringer havets magi til tidlig matematikkøvelse. Bruk Finn og Tell-generatoren til å skape undervannsscener der barn finner og teller spesifikke sjødyr blant korallrev og havbunner. Produser sett med varierende vanskelighetsgrader for førskole til 2. trinn.',
       appId: 'find-count',
     },
     {

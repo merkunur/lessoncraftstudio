@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste temabasert og manuelt kategorivalg, konfigurerbare bildeantall, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer, navn/dato-felt og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. For småskoletrinnet (1.–4. trinn) fungerer tydelige kategorier med kjente temaer (f.eks. dyr vs. mat) og færre bilder godt. For mellomtrinnet (5.–7. trinn) kan du bruke mer nyanserte kategorier som krever dypere forståelse av klassifiseringskriterier, og øke antall bilder per arbeidsark for en mer krevende sorteringsoppgave.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i naturfag for barneskolen i LK20, særlig innen klassifisering og kategorisering. Sorteringsøvelser trener evnen til å observere likheter og forskjeller, gruppere etter kriterier og begrunne valg — ferdigheter som er sentrale i naturfaglig utforskning gjennom hele barneskolen.',
+    },
   ],
 
   internalLinks: [

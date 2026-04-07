@@ -104,12 +104,12 @@ const content: BundleContent = {
     },
     {
       title: 'Amazon KDP språkarbeidsbøker',
-      description: 'Kombiner arbeidsark fra flere generatorer til tematiske KDP-arbeidsbøker organisert etter språk og kompetansenivå: «Fransk Leseaktivitetsbok» med alfabettog, ordsøk og kryptogrammer, eller «Tyske Ordkunnskaper 1. klasse» som blander bokstavblanding, preposisjoner og ordgjetting. Hver språkversjon er en separat bokannonse med eget ISBN.',
+      description: 'Kombiner arbeidsark fra flere generatorer til tematiske KDP-arbeidsbøker organisert etter språk og kompetansenivå: «Fransk Leseaktivitetsbok» med alfabettog, ordsøk og kryptogrammer, eller «Tyske Ordkunnskaper 1. trinn» som blander bokstavblanding, preposisjoner og ordgjetting. Hver språkversjon er en separat bokannonse med eget ISBN.',
       platform: 'Amazon KDP',
     },
     {
       title: 'Gumroad språkressurser',
-      description: 'Gumroad-kjøpere søker etter språkspesifikke leseressurser per klassetrinn og ferdighet. Lag nivåinndelte pakker: førskole alfabetgjenkjenning, 1. klasse ordsøk, 2. klasse kryptogrammer. De automatiske fasitene, flere vanskelighetsnivåer og korrekt grammatikk på hvert språk oppfyller Gumroads premium ressursstandarder.',
+      description: 'Gumroad-kjøpere søker etter språkspesifikke leseressurser per klassetrinn og ferdighet. Lag nivåinndelte pakker: førskole alfabetgjenkjenning, 1. trinn ordsøk, 2. trinn kryptogrammer. De automatiske fasitene, flere vanskelighetsnivåer og korrekt grammatikk på hvert språk oppfyller Gumroads premium ressursstandarder.',
       platform: 'Gumroad',
     },
     {

@@ -39,7 +39,7 @@ Nøkkelen til suksess i sommerlæringsnisjen er å posisjonere produktene som «
     },
     {
       title: 'Sommerordkryss for ferieordforrådsbygging',
-      description: 'Ordkrysspuslespill med sommerordforråd holder leseferdigheter skarpe gjennom ferien. Skap puslespill med strand-, reise-, camping- og naturordforråd. Ordkryss-generatoren lar deg kontrollere vanskelighetsgrad slik at du kan tilby varianter for ulike aldersgrupper fra førskole til tredje klasse.',
+      description: 'Ordkrysspuslespill med sommerordforråd holder leseferdigheter skarpe gjennom ferien. Skap puslespill med strand-, reise-, camping- og naturordforråd. Ordkryss-generatoren lar deg kontrollere vanskelighetsgrad slik at du kan tilby varianter for ulike aldersgrupper fra førskole til 3. trinn.',
       appId: 'wordsearch',
     },
     {

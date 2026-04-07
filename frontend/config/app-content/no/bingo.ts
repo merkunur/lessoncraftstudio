@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste alle rutenettstorrelser, batch-generering, ZIP-eksport, bilde- og ordutfyllingsmoduser, oppropslisten, hele bildebiblioteket, tilpasset oppropsutvalg, bakgrunns- og rammetemaer, tekstverktoy og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Bingo er en allsidig aktivitet som fungerer godt på tvers av alderstrinn. For småskoletrinnet (1.–4. trinn) passer et 3×3-rutenett med bildeutfylling og kjente temaer. For mellomtrinnet (5.–7. trinn) kan du bruke et 5×5-rutenett med ordutfylling for å trene ordforråd og leseforståelse. Oppropslisten gjør det enkelt for en voksen eller en eldre elev å lede spillet.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål på tverrfaglig nivå for barneskolen i LK20, blant annet ordforråd, visuell gjenkjenning og sosialt samspill. Bingo kombinerer lytting, visuell skanning og turtaking — ferdigheter som er relevante for både norskfaget, matematikk og det tverrfaglige temaet folkehelse og livsmestring.',
+    },
   ],
 
   internalLinks: [

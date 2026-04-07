@@ -21,7 +21,7 @@ Tverrfaglig pedagogisk verdi gir gårdsdyr-utskriftbare ekstra troverdighet. Nat
 Prissetting følger standard pedagogiske utskriftbare konvensjoner. Individuelle sett selger for femten til trettifem kroner. Tematiske pakker når femti til nitti kroner. Omfattende gårdsenhetspakker oppnår nitti til hundreogåtti kroner. KDP aktivitetsbøker presterer godt til tretti til seksti kroner.`,
 
   productIdeas: [
-    { title: 'Gårdsdyr tellearbeidsark for utskriftbare selgere', description: 'Tellearbeidsark med kuer, griser, høner, sauer og hester. Bruk Finn og tell-generatoren til å lage gårdsscener der barn finner og teller spesifikke dyr. Tilby sett for førskole, barnehage og 1. klasse.', appId: 'find-count' },
+    { title: 'Gårdsdyr tellearbeidsark for utskriftbare selgere', description: 'Tellearbeidsark med kuer, griser, høner, sauer og hester. Bruk Finn og tell-generatoren til å lage gårdsscener der barn finner og teller spesifikke dyr. Tilby sett for førskole, barnehage og 1. trinn.', appId: 'find-count' },
     { title: 'Gårdsdyr ordsøk-puslespill til nettsalg', description: 'Gårdsordforråds-ordsøk med dyrenavn, gårdsutstyr og jordbrukstermer. Ordsøk-generatoren lar deg kontrollere rutenettstørrelse for alderstilpassede versjoner.', appId: 'wordsearch' },
     { title: 'Gårdsdyr matcheaktiviteter for pedagogiske butikker', description: 'Matchearbeidsark der barn matcher dyr til lydene sine, dyr til maten de spiser, voksne dyr til ungene sine, eller dyr til habitatene sine på gården.', appId: 'matching' },
     { title: 'Gårdsdyr addisjonsarbeidsark for matte-utskriftbare linjer', description: 'Mattearbeidsark illustrert med gårdsdyrbilder. Bruk Addisjons-generatoren for oppgaver med grupper av dyr på en bondegård.', appId: 'addition' },

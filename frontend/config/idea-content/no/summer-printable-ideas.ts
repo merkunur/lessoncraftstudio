@@ -34,7 +34,7 @@ Konkurransefordelene i sommernisjen kommer fra tematisk rikdom og produktvariasj
   productIdeas: [
     {
       title: 'Sommer tellearbeidsark for utskriftsbare selgere',
-      description: 'Tellearbeidsark med strand, sjødyr, iskrem og sommeraktiviteter er blant de mest populære sommerprintables. Bruk Finn og Tell-generatoren til å skape strandscener og sommerlandskaper der barn finner og teller. Produser sett med varierende vanskelighetsgrader for førskole til andre klasse.',
+      description: 'Tellearbeidsark med strand, sjødyr, iskrem og sommeraktiviteter er blant de mest populære sommerprintables. Bruk Finn og Tell-generatoren til å skape strandscener og sommerlandskaper der barn finner og teller. Produser sett med varierende vanskelighetsgrader for førskole til 2. trinn.',
       appId: 'find-count',
     },
     {

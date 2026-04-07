@@ -34,7 +34,7 @@ Prissetting for valentinsdag utskriftsbare produkter er på linje med andre seso
   productIdeas: [
     {
       title: 'Valentinsdag tellearbeidsark for utskriftsbare selgere',
-      description: 'Tellearbeidsark med hjerter, roser, bamser og sjokolader bringer valentinsstemningen til tidlig matematikkøvelse. Bruk Finn og Tell-generatoren til å skape valentinsscener der barn finner og teller spesifikke gjenstander. Produser sett med varierende vanskelighetsgrader for førskole til andre klasse.',
+      description: 'Tellearbeidsark med hjerter, roser, bamser og sjokolader bringer valentinsstemningen til tidlig matematikkøvelse. Bruk Finn og Tell-generatoren til å skape valentinsscener der barn finner og teller spesifikke gjenstander. Produser sett med varierende vanskelighetsgrader for førskole til 2. trinn.',
       appId: 'find-count',
     },
     {

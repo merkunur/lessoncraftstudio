@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Still inn vanskelighetsgraden',
-        description: 'Juster «Min antall per gruppe» og «Maks antall per gruppe» gliderne for å kontrollere tallene som brukes. For barnehagebarn, prov 1–3. For barnehageklassen, bruk 1–5. 1. klasse-brukere klarer 1–10. Du kan også stille inn antall ovelser per arbeidsark (1 til 10).',
+        description: 'Juster «Min antall per gruppe» og «Maks antall per gruppe» gliderne for å kontrollere tallene som brukes. For barnehagebarn, prov 1–3. For 1. trinn, bruk 1–5. 2. trinn-brukere klarer 1–10. Du kan også stille inn antall ovelser per arbeidsark (1 til 10).',
       },
       {
         title: 'Velg et tema fra bildebiblioteket',
@@ -143,7 +143,7 @@ const content: ToolContent = {
     },
     {
       title: 'Start med lave tallintervaller',
-      description: 'For barnehage- og barnehageklasseprodukter, hold maks antall per gruppe ved 3–5. Små barn overveldes av store tall. Lag separate «lett» og «utfordring» versjoner av hvert arbeidsark slik at foreldre og selgere kan velge riktig nivå.',
+      description: 'For barnehage- og 1. trinn-produkter, hold maks antall per gruppe ved 3–5. Små barn overveldes av store tall. Lag separate «lett» og «utfordring» versjoner av hvert arbeidsark slik at foreldre og selgere kan velge riktig nivå.',
     },
     {
       title: 'Legg til egendefinert tekst for merkevarebygging',
@@ -195,6 +195,10 @@ const content: ToolContent = {
     {
       question: 'Hva er returpolicyen?',
       answer: 'Prov for du kjoper med vår gratis proveversjon — alle funksjoner er tilgjengelige slik at du kan fullt evaluere verktøyet for du kjoper. Fordi den gratis proveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjop. Sorg for at verktøyet passer til behovene dine med den gratis proveversjonen for du kjoper.',
+    },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Juster tallintervallet og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn), mellomtrinnet (5.–7. trinn) eller ungdomstrinnet (8.–10. trinn). Verktøyet er et fleksibelt supplement som støtter kompetansemålene i matematikk i LK20 — Kunnskapsløftet 2020.',
     },
   ],
 

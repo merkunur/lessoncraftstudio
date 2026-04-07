@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste alle fire inndatametodene, 15×15 rutenettgeneratoren, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Tilpass vanskelighetsgraden for småskoletrinnet (1.–4. trinn) med enklere ord og mellomtrinnet (5.–7. trinn) med mer avansert ordforråd. Generatoren lar deg lage oppgaver for ethvert trinn i barneskolen.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i norsk for barneskolen i LK20, der elevene blant annet skal utvikle ordforråd, rettskriving og problemløsning. Tilpass ordvalget og vanskelighetsgraden til de spesifikke kompetansemålene du jobber med.',
+    },
   ],
 
   internalLinks: [
@@ -235,13 +243,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: '1-klasse-utskriftsbare-ideer',
-      anchorText: '1. klasse utskriftsbare ideer for barneskolen',
+      slug: '1-trinn-utskriftsbare-ideer',
+      anchorText: '1. trinn utskriftsbare ideer for barneskolen',
     },
     {
       pageType: 'idea',
-      slug: '2-klasse-utskriftsbare-ideer',
-      anchorText: '2. klasse utskriftsbare ideer for voksende brukere',
+      slug: '2-trinn-utskriftsbare-ideer',
+      anchorText: '2. trinn utskriftsbare ideer for voksende brukere',
     },
     {
       pageType: 'start',

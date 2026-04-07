@@ -137,7 +137,7 @@ const content: ToolContent = {
     },
     {
       title: 'Varier parantall for nivåinndelt vanskelighetsgrad',
-      description: 'Lag graduerte koblingspakker med det konfigurerbare parantallet. Begynn med 4 par for førskolebarn med større bilder. Bruk 5 par for første klasse. Still inn 6 par for avanserte brukere. Nivåinndelte pakker med progressiv vanskelighetsgrad selger bedre.',
+      description: 'Lag graduerte koblingspakker med det konfigurerbare parantallet. Begynn med 4 par for førskolebarn med større bilder. Bruk 5 par for 1. trinn. Still inn 6 par for avanserte brukere. Nivåinndelte pakker med progressiv vanskelighetsgrad selger bedre.',
     },
     {
       title: 'Utnytt språkfølsomhet for flerspråklige produkter',
@@ -201,6 +201,10 @@ const content: ToolContent = {
     {
       question: 'Hva er returpolitikken?',
       answer: 'Prøv før du kjøper med vår gratis prøveversjon — alle funksjoner er tilgjengelige. Fordi den gratis prøveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjøp. Sørg for at verktøyet passer til dine behov med den gratis prøveversjonen før du kjøper.',
+    },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Juster antall elementer og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn) og mellomtrinnet (5.–7. trinn). Verktøyet er et fleksibelt supplement som støtter kompetansemål i kunst og håndverk og matematikk i LK20 — Kunnskapsløftet 2020.',
     },
   ],
 

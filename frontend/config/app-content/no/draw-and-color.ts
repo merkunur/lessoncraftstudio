@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste hver rutenettstorrelse, hver ledetrådsprosent, hver symmetrimodus, hvert eksportformat og hvert sideformat for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. For småskoletrinnet (1.–4. trinn) fungerer store rutenett med høy ledetrådsprosent godt, slik at barna har mange referanseceller å støtte seg på. For mellomtrinnet (5.–7. trinn) kan du redusere ledetrådsprosenten og bruke symmetrimoduser for en mer krevende øvelse i romlig resonnering. Generatoren egner seg fra barnehagealder til og med mellomtrinnet.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i kunst og håndverk for barneskolen i LK20, særlig innen kreativt uttrykk og fargekunnskap. Rutenetttegning trener romlig persepsjon, proporsjonskontroll og symmetriforståelse — ferdigheter som også er relevante for geometri i matematikkfaget i LK20.',
+    },
   ],
 
   internalLinks: [

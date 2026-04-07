@@ -28,11 +28,11 @@ const content: ToolContent = {
       },
       {
         title: 'Still inn tallintervallet',
-        description: 'Bruk min- og maks-gliderne for å kontrollere hvor mange objekter som vises per gruppe (intervall: 1–10). For barnehagebarn, hold intervallet smalt (1–5). Barnehageklassebarn klarer 1–10 fint. Antall ovelser per side justeres automatisk: 1–8 for normale moduser og 1–3 for Sjekk og Kryss pga. dets storre visuelle avtykk.',
+        description: 'Bruk min- og maks-gliderne for å kontrollere hvor mange objekter som vises per gruppe (intervall: 1–10). For barnehagebarn, hold intervallet smalt (1–5). 1. trinn-barn klarer 1–10 fint. Antall ovelser per side justeres automatisk: 1–8 for normale moduser og 1–3 for Sjekk og Kryss pga. dets storre visuelle avtykk.',
       },
       {
         title: 'Konfigurer symbolvisning',
-        description: 'Velg mellom Illustrasjoner og Vanlige Symboler for sammenligningsnegnene. Illustrasjoner viser fargerike, tiltalende versjoner av storre enn, mindre enn og lik med-symbolene — ideelt for barnehage- og barnehageklasseprodukter. Vanlige Symboler viser standard > < = tegn for eldre brukere som overgår til konvensjonell matematisk notasjon.',
+        description: 'Velg mellom Illustrasjoner og Vanlige Symboler for sammenligningsnegnene. Illustrasjoner viser fargerike, tiltalende versjoner av storre enn, mindre enn og lik med-symbolene — ideelt for barnehage- og 1. trinn-produkter. Vanlige Symboler viser standard > < = tegn for eldre brukere som overgår til konvensjonell matematisk notasjon.',
       },
       {
         title: 'Still inn bildevariasjon',
@@ -115,7 +115,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Bruk Illustrasjoner for yngre brukere',
-      description: 'De illustrerte sammenligningssymbolene er fargerike og tiltalende, ideelle for barnehage- og barnehageklasseprodukter. Bytt til Vanlige Symboler for 1. klasse og oppover, eller inkluder begge versjonene i pakken din slik at selgere kan velge riktig passform for produktlinjen sin. Å inkludere begge symbolstilene i en enkelt produktoppforing oker også nokkelordrekkevidden din på Etsy.',
+      description: 'De illustrerte sammenligningssymbolene er fargerike og tiltalende, ideelle for barnehage- og 1. trinn-produkter. Bytt til Vanlige Symboler for 1. trinn og oppover, eller inkluder begge versjonene i pakken din slik at selgere kan velge riktig passform for produktlinjen sin. Å inkludere begge symbolstilene i en enkelt produktoppforing oker også nokkelordrekkevidden din på Etsy.',
     },
     {
       title: 'Skaler vanskelighetsgrad med bildevariasjon',
@@ -131,7 +131,7 @@ const content: ToolContent = {
     },
     {
       title: 'Hold Sjekk og Kryss ovelser ved 1–3 per side',
-      description: 'Sjekk og Kryss-modusen bruker storre visuelle bokser med 8–20 blandede bilder hver. Å passe mer enn 3 på en enkelt side gjor arbeidsarket trangt. Hold det ved 1–2 for barnehagen og 2–3 for barnehageklassen. Normale moduser kan gå opp til 8 ovelser per side.',
+      description: 'Sjekk og Kryss-modusen bruker storre visuelle bokser med 8–20 blandede bilder hver. Å passe mer enn 3 på en enkelt side gjor arbeidsarket trangt. Hold det ved 1–2 for barnehagen og 2–3 for 1. trinn. Normale moduser kan gå opp til 8 ovelser per side.',
     },
     {
       title: 'Eksporter både PDF og JPEG',
@@ -158,7 +158,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hva er forskjellen mellom Illustrasjoner og Vanlige Symboler?',
-      answer: 'Illustrasjoner viser fargerike, tiltalende versjoner av storre enn, mindre enn og lik med-tegnene — perfekt for barnehage- og barnehageklassearbeidsark. Vanlige Symboler viser de standard > < = tegnene brukt i konvensjonell matematisk notasjon. Bruk Illustrasjoner for yngre brukere og Vanlige Symboler for eldre brukere.',
+      answer: 'Illustrasjoner viser fargerike, tiltalende versjoner av storre enn, mindre enn og lik med-tegnene — perfekt for barnehage- og 1. trinn-arbeidsark. Vanlige Symboler viser de standard > < = tegnene brukt i konvensjonell matematisk notasjon. Bruk Illustrasjoner for yngre brukere og Vanlige Symboler for eldre brukere.',
     },
     {
       question: 'Hva gjor Bildevariasjon-innstillingen?',
@@ -183,6 +183,10 @@ const content: ToolContent = {
     {
       question: 'Hva er returpolicyen?',
       answer: 'Prov for du kjoper med vår gratis proveversjon — alle funksjoner er tilgjengelige slik at du kan fullt evaluere verktøyet for du kjoper. Fordi den gratis proveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjop. Sorg for at verktøyet passer til behovene dine med den gratis proveversjonen for du kjoper.',
+    },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Juster tallintervallet og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn), mellomtrinnet (5.–7. trinn) eller ungdomstrinnet (8.–10. trinn). Verktøyet er et fleksibelt supplement som støtter kompetansemålene i matematikk i LK20 — Kunnskapsløftet 2020.',
     },
   ],
 

@@ -29,7 +29,7 @@ Det som gjør julenisjen eksepsjonelt verdifull for utskriftbare selgere er den 
 
 Sesongbasert timing skaper et konsentrert salgsvindu som belønner forberedelse. Tidlige kjøpere begynner å søke etter juleutskriftbare i september og oktober, noe som gir velindekserte oppføringer flere uker til å akkumulere visninger, favoritter og tidlige anmeldelser før novembertoppen. Det høyeste salgsvolumet forekommer fra midten av november til andre uke av desember. I motsetning til fysiske produkter har utskriftbare selgere ingen fristfrister for forsendelse, noe som gjør digitale juleprodukter attraktive selv den 24. desember.
 
-Konkurranselandskapet i juleutskriftbare er stort men segmentert, noe som skaper muligheter for selgere som retter seg mot spesifikke undernisjer. Generiske julefargeleggingssider møter hard konkurranse, men juletellearbeidsark for førskolenivå, ferieordforråds-ordsøk for barnehagenivå eller pepperkake-tema matteaktiviteter for 1. klassenivå retter seg mot mye smalere søk med motiverte kjøpere.
+Konkurranselandskapet i juleutskriftbare er stort men segmentert, noe som skaper muligheter for selgere som retter seg mot spesifikke undernisjer. Generiske julefargeleggingssider møter hard konkurranse, men juletellearbeidsark for førskolenivå, ferieordforråds-ordsøk for barnehagenivå eller pepperkake-tema matteaktiviteter for 1. trinn retter seg mot mye smalere søk med motiverte kjøpere.
 
 Prissetting i julenisjen følger standard pedagogiske utskriftbare nivåer med en lett sesongpremie. Individuelle arbeidsarksett selger for femten til trettifem kroner. Tematiske juleaktivitetspakker med femten til tjuefem sider oppnår seksti til hundreogti kroner. Omfattende feriepakker med tretti eller flere sider når hundreogti til to hundre og tjue kroner på Gumroad. På Amazon KDP presterer juleaktivitetsbøker i førti til seksti siders området godt til tretti til seksti kroner.
 
@@ -38,7 +38,7 @@ For å maksimere jul utskriftbar inntekt, utvikle produkter på tvers av flere u
   productIdeas: [
     {
       title: 'Jule tellearbeidsark for utskriftbare selgere',
-      description: 'Tellearbeidsark med nisser, kuler, sukkerstenger, julestrømper og gaver forvandler ferieglede til engasjerende matteøvelse som selgere og kjøpere ivrig kjøper hver desember. Bruk Finn og tell-generatoren til å lage festlige scener der barn finner og teller spesifikke julegjenstander blant pyntede trær, innpakkede gaver og vinterlandskap. Tilby sett rettet mot flere ferdighetsnivåer: tell juleobjekter opp til fem for førskole, tell og skriv tall til ti for barnehage, og tell med hopp med rader av kuler eller lyslenker for 1. klasse.',
+      description: 'Tellearbeidsark med nisser, kuler, sukkerstenger, julestrømper og gaver forvandler ferieglede til engasjerende matteøvelse som selgere og kjøpere ivrig kjøper hver desember. Bruk Finn og tell-generatoren til å lage festlige scener der barn finner og teller spesifikke julegjenstander blant pyntede trær, innpakkede gaver og vinterlandskap. Tilby sett rettet mot flere ferdighetsnivåer: tell juleobjekter opp til fem for førskole, tell og skriv tall til ti for barnehage, og tell med hopp med rader av kuler eller lyslenker for 1. trinn.',
       appId: 'find-count',
     },
     {
@@ -53,7 +53,7 @@ For å maksimere jul utskriftbar inntekt, utvikle produkter på tvers av flere u
     },
     {
       title: 'Jule addisjonsarbeidsark for matte-utskriftbare linjer',
-      description: 'Ferieillustrete mattearbeidsark forvandler rutineregneøvelse til engasjerende desemberaktiviteter. Bruk Addisjons-generatoren til å lage arbeidsark der barn legger sammen grupper av gaver, løser juletema tekstoppgaver med sukkerstenger og kuler, eller fullfører tallsetninger med festlige illustrasjoner. Målrett førskole til 2. klasse. Julemattearbeidsark har eksepsjonell etterspørsel fordi kjøpere trenger ferdighetstilpasset øvelse som matcher desembers festlige energi.',
+      description: 'Ferieillustrete mattearbeidsark forvandler rutineregneøvelse til engasjerende desemberaktiviteter. Bruk Addisjons-generatoren til å lage arbeidsark der barn legger sammen grupper av gaver, løser juletema tekstoppgaver med sukkerstenger og kuler, eller fullfører tallsetninger med festlige illustrasjoner. Målrett førskole til 2. trinn. Julemattearbeidsark har eksepsjonell etterspørsel fordi kjøpere trenger ferdighetstilpasset øvelse som matcher desembers festlige energi.',
       appId: 'addition',
     },
     {

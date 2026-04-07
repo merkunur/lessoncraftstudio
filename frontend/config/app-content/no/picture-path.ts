@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste alle tre spillmodusene, LPF labyrintalgoritmen, fem bilderoller, veggtilpasning, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer, navn/dato-felt og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Bildesti-modusen med enkle ruter og tydelige bilder passer godt for småskoletrinnet (1.–4. trinn). Klassisk Labyrint-modusen med veggbaserte korridorer og samlingsbilder gir en mer krevende romlig utfordring for mellomtrinnet (5.–7. trinn). Du kan også justere rutenettets størrelse og antall bilder for å fininnstille vanskelighetsgraden etter aldersgruppen.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i matematikk for barneskolen i LK20, særlig innen logisk tenkning og problemløsning. Labyrint- og veiøvelser trener romlig orientering, planlegging og sekvensiell tenkning — ferdigheter som er relevante for problemløsning og utforskning i LK20.',
+    },
   ],
 
   internalLinks: [

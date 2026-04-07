@@ -33,7 +33,7 @@ const content: GuideContent = {
   tutorial: [
     {
       heading: 'Definer produktlinjens arkitektur',
-      content: 'For du lager et eneste arbeidsark, definer strukturen til produktlinjen din. En godt planlagt arkitektur multipliserer omsetningen fordi hvert nytt produkt styrker de eksisterende.\n\nVelg din kjerneprodukttype: mattearbeidsark, ordsoek, fargeleggingssider, matchingsaktiviteter eller en annen kategori. Denne kjernetypen blir fundamentet som resten av produktlinjen bygges pa.\n\nBestem variasjonsdimensjonene dine: tema (dyr, mat, kjoretoy), vanskelighetsgrad (forskole, barnehage, forste klasse), format (portrett, landskap, kvadrat) og sprak (norsk, engelsk, tysk). Hver dimensjon multipliserer antall distinkte produkter du kan lage.\n\nKartlegg de forste 10-20 produktene for du starter. Et planlagt sett med produkter skaper en mer sammenhengende butikk enn tilfeldig produktoppretting.',
+      content: 'For du lager et eneste arbeidsark, definer strukturen til produktlinjen din. En godt planlagt arkitektur multipliserer omsetningen fordi hvert nytt produkt styrker de eksisterende.\n\nVelg din kjerneprodukttype: mattearbeidsark, ordsoek, fargeleggingssider, matchingsaktiviteter eller en annen kategori. Denne kjernetypen blir fundamentet som resten av produktlinjen bygges pa.\n\nBestem variasjonsdimensjonene dine: tema (dyr, mat, kjoretoy), vanskelighetsgrad (forskole, barnehage, 1. trinn), format (portrett, landskap, kvadrat) og sprak (norsk, engelsk, tysk). Hver dimensjon multipliserer antall distinkte produkter du kan lage.\n\nKartlegg de forste 10-20 produktene for du starter. Et planlagt sett med produkter skaper en mer sammenhengende butikk enn tilfeldig produktoppretting.',
     },
     {
       heading: 'Etabler visuelt konsistent design',
@@ -45,7 +45,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Lag vanskelighetsgrad-progresjoner',
-      content: 'Vanskelighetsgrad-progresjoner utvider produktlinjen din vertikalt — samme tema og format, men forskjellige vanskelighetsnivåer. Dette betjener flere aldersgrupper og skaper naturlige oppgraderingsstier for kjopere.\n\nFor mattearbeidsark: lag forskoleniva (tallomrade 1-5), barnehageniva (1-10), forste klasse (1-15) og andre klasse (1-20) versjoner av hvert tema.\n\nFor ordsoek: varier rutenettsstorrelse (5x5 for unge brukere, 10x10 for mellomnivaer, 15x15 for avanserte).\n\nKjopere som kjoper forste klasse-versjonen i september vil soke etter andre klasse-versjonen neste ar. Vanskelighetsprogresjon skaper gjentatte kjopere.',
+      content: 'Vanskelighetsgrad-progresjoner utvider produktlinjen din vertikalt — samme tema og format, men forskjellige vanskelighetsnivåer. Dette betjener flere aldersgrupper og skaper naturlige oppgraderingsstier for kjopere.\n\nFor mattearbeidsark: lag forskoleniva (tallomrade 1-5), barnehageniva (1-10), 1. trinn (1-15) og 2. trinn (1-20) versjoner av hvert tema.\n\nFor ordsoek: varier rutenettsstorrelse (5x5 for unge brukere, 10x10 for mellomnivaer, 15x15 for avanserte).\n\nKjopere som kjoper 1. trinn-versjonen i september vil soke etter 2. trinn-versjonen neste ar. Vanskelighetsprogresjon skaper gjentatte kjopere.',
     },
     {
       heading: 'Diversifiser produktformater',
@@ -53,7 +53,7 @@ const content: GuideContent = {
     },
     {
       heading: 'Pakk produkter strategisk',
-      content: 'Pakker oker omsetning per transaksjon og gir kjopere bedre verdi. Lag tre pakketyper:\n\nTemapakker: Alle vanskelighetsnivåer innenfor ett tema. \"Dinosaur mattearbeidsark — Komplett pakke\" med forskole til andre klasse.\n\nKlassetrinnspakker: Alle temaer pa ett vanskelighetsniva. \"Barnehage mattearbeidsark — 10 temaer.\"\n\nFormategapakker: Alle arbeidsarktyper innenfor en kategori. \"Komplett dyrematematikk\" med addisjon, subtraksjon, telling og monstre.\n\nPrissett pakker til 30-50% rabatt sammenlignet med individuelle priser for tydelig verdi.',
+      content: 'Pakker oker omsetning per transaksjon og gir kjopere bedre verdi. Lag tre pakketyper:\n\nTemapakker: Alle vanskelighetsnivåer innenfor ett tema. \"Dinosaur mattearbeidsark — Komplett pakke\" med forskole til 2. trinn.\n\nKlassetrinnspakker: Alle temaer pa ett vanskelighetsniva. \"Barnehage mattearbeidsark — 10 temaer.\"\n\nFormategapakker: Alle arbeidsarktyper innenfor en kategori. \"Komplett dyrematematikk\" med addisjon, subtraksjon, telling og monstre.\n\nPrissett pakker til 30-50% rabatt sammenlignet med individuelle priser for tydelig verdi.',
     },
   ],
 
@@ -64,11 +64,11 @@ const content: GuideContent = {
     },
     {
       heading: 'Bygg en produktlinje pa Amazon KDP',
-      content: 'KDP-produktlinjer fungerer best nar du bygger dybde innenfor spesifikke kategorier. Velg to til tre Amazon-kategorier og fyll dem systematisk med relaterte produkter. Amazons anbefalingsmotor fremhever dine andre produkter for kjopere av ethvert enkelt produkt.\n\nKompiler produktlinjevariasjoner til arbeidsboker med progressiv vanskelighetsgrad. En serie pa 3-4 boker som dekker forskole til andre klasse skaper en gjenkjennelig merkevaretilstedevaerelse.',
+      content: 'KDP-produktlinjer fungerer best nar du bygger dybde innenfor spesifikke kategorier. Velg to til tre Amazon-kategorier og fyll dem systematisk med relaterte produkter. Amazons anbefalingsmotor fremhever dine andre produkter for kjopere av ethvert enkelt produkt.\n\nKompiler produktlinjevariasjoner til arbeidsboker med progressiv vanskelighetsgrad. En serie pa 3-4 boker som dekker forskole til 2. trinn skaper en gjenkjennelig merkevaretilstedevaerelse.',
     },
     {
       heading: 'Bygg en produktlinje pa Gumroad',
-      content: 'Gumroad-kjopere verdsetter komplette losninger. Bygg produktlinjen din rundt tematiske samlinger som dekker hele enheter eller semestre. En \"Komplett forste klasse matematikk\"-samling som inkluderer progressive arbeidsark pa tvers av flere operasjoner rettferdiggjor premium prissetting.\n\nBruk Gumroads butikkfunksjon for a vise hele produktlinjen din organisert i samlinger. Kjopere som ser et dypt, velorganisert katalog er mer tilboyelige til a gjore flere kjop.',
+      content: 'Gumroad-kjopere verdsetter komplette losninger. Bygg produktlinjen din rundt tematiske samlinger som dekker hele enheter eller semestre. En \"Komplett 1. trinn matematikk\"-samling som inkluderer progressive arbeidsark pa tvers av flere operasjoner rettferdiggjor premium prissetting.\n\nBruk Gumroads butikkfunksjon for a vise hele produktlinjen din organisert i samlinger. Kjopere som ser et dypt, velorganisert katalog er mer tilboyelige til a gjore flere kjop.',
     },
   ],
 

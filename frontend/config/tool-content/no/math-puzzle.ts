@@ -128,7 +128,7 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Begynn med 2×2 for unge brukere',
-      description: 'Et 2×2-rutenett har kun 4 puslespillbrikker og 4 ligninger — overkommelig for barnehagebarn og barnehageklassebarn som akkurat laerer addisjon. Ok til 3×3 for 1. klasse og 4×4 for 2. klasse og oppover. Å matche rutenettstorrelse med aldersgruppe er den enkleste måten å lage nivåinndelte produkter. Når du selger på markedsplasser, merk tydelig den anbefalte alderen eller klassetrinnet i produkttittelen og beskrivelsen din.',
+      description: 'Et 2×2-rutenett har kun 4 puslespillbrikker og 4 ligninger — overkommelig for barnehagebarn og 1. trinn-barn som akkurat laerer addisjon. Ok til 3×3 for 1. trinn og 4×4 for 2. trinn og oppover. Å matche rutenettstorrelse med aldersgruppe er den enkleste måten å lage nivåinndelte produkter. Når du selger på markedsplasser, merk tydelig den anbefalte alderen eller klassetrinnet i produkttittelen og beskrivelsen din.',
     },
     {
       title: 'Bruk Blandet Modus for maksimal variasjon',
@@ -196,6 +196,10 @@ const content: ToolContent = {
     {
       question: 'Hva er returpolicyen?',
       answer: 'Prov for du kjoper med vår gratis proveversjon — alle funksjoner er tilgjengelige slik at du kan fullt evaluere verktøyet for du kjoper. Fordi den gratis proveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjop. Sorg for at verktøyet passer til behovene dine med den gratis proveversjonen for du kjoper.',
+    },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Juster tallintervallet og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn), mellomtrinnet (5.–7. trinn) eller ungdomstrinnet (8.–10. trinn). Verktøyet er et fleksibelt supplement som støtter kompetansemålene i matematikk i LK20 — Kunnskapsløftet 2020.',
     },
   ],
 

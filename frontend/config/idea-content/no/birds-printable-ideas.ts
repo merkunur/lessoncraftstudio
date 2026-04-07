@@ -44,7 +44,7 @@ Fuglenisjen tilbyr også sterke differensieringsmuligheter gjennom regionale og 
   productIdeas: [
     {
       title: 'Fugle tellearbeidsark for utskriftbare selgere',
-      description: 'Tellearbeidsark med ugler, papegøyer, ørner og pingviner utnytter barns naturlige fascinasjon av fugler mens de bygger grunnleggende matteferdigheter. Lag sett som retter seg mot ulike ferdighetsnivåer: tell fugler opp til fem for førskolemarkedet, tell og skriv tall til ti for det tidlige lærersegmentet, og tell med hopp med fugleflokker for 1. klasse. Bruk Finn og tell-generatoren til å produsere visuelt rike scener der barn finner og teller spesifikke fuglearter i tre-, himmels- og dam-miljøer. Pakk etter vanskelighetsgrad eller kombiner alle nivåer i en omfattende fugle-tellepakke for kjøpere som arbeider med grupper med blandede ferdigheter.',
+      description: 'Tellearbeidsark med ugler, papegøyer, ørner og pingviner utnytter barns naturlige fascinasjon av fugler mens de bygger grunnleggende matteferdigheter. Lag sett som retter seg mot ulike ferdighetsnivåer: tell fugler opp til fem for førskolemarkedet, tell og skriv tall til ti for det tidlige lærersegmentet, og tell med hopp med fugleflokker for 1. trinn. Bruk Finn og tell-generatoren til å produsere visuelt rike scener der barn finner og teller spesifikke fuglearter i tre-, himmels- og dam-miljøer. Pakk etter vanskelighetsgrad eller kombiner alle nivåer i en omfattende fugle-tellepakke for kjøpere som arbeider med grupper med blandede ferdigheter.',
       appId: 'find-count',
     },
     {
@@ -59,7 +59,7 @@ Fuglenisjen tilbyr også sterke differensieringsmuligheter gjennom regionale og 
     },
     {
       title: 'Fugletema addisjonsarbeidsark for matte utskriftbare linjer',
-      description: 'Mattearbeidsark illustrert med fuglebilder forvandler rutineregneøvelse til engasjerende aktiviteter som foreldre og kjøpere velger fremfor vanlige talldriller. Bruk Addisjons-generatoren til å lage arbeidsark der barn legger sammen grupper av fugler på greiner, løser fugletema tekstoppgaver, eller fullfører tallsetninger med fugleillustrasjoner. Målrett førskole til 2. klasse med oppgaver fra ensifrede summer til tosifret addisjon. Fugletema mattearbeidsark oppnår en liten premie over generiske alternativer fordi kjøpere oppfatter høyere engasjementsverdi når emnet kobles til naturfags- og naturtemaer barn allerede utforsker.',
+      description: 'Mattearbeidsark illustrert med fuglebilder forvandler rutineregneøvelse til engasjerende aktiviteter som foreldre og kjøpere velger fremfor vanlige talldriller. Bruk Addisjons-generatoren til å lage arbeidsark der barn legger sammen grupper av fugler på greiner, løser fugletema tekstoppgaver, eller fullfører tallsetninger med fugleillustrasjoner. Målrett førskole til 2. trinn med oppgaver fra ensifrede summer til tosifret addisjon. Fugletema mattearbeidsark oppnår en liten premie over generiske alternativer fordi kjøpere oppfatter høyere engasjementsverdi når emnet kobles til naturfags- og naturtemaer barn allerede utforsker.',
       appId: 'addition',
     },
     {
@@ -79,7 +79,7 @@ Fuglenisjen tilbyr også sterke differensieringsmuligheter gjennom regionale og 
     },
     {
       title: 'Fugle mønsterarbeidsark for pedagogiske utskriftbare virksomheter',
-      description: 'Mønstergjenkjenningsarbeidsark med fargerike fugler lærer et essensielt tidlig matte-konsept mens de utnytter den visuelle variasjonen som gjør fugletemaer så appellerende. Mønsterarbeidsark-generatoren lager sekvenser med forskjellige fuglearter der barn identifiserer og fortsetter gjentatte mønstre. Tilby AB, ABC og AABB mønsternivåer for å dekke førskole gjennom 1. klasse standarder. Fugler fungerer spesielt godt for mønsteraktiviteter fordi deres mangfoldige farger og former gjør mønstre visuelt klare og engasjerende. Disse arbeidsarkene komplementerer telle- og addisjonsprodukter naturlig, noe som gjør dem til sterke tillegg til fugletema mattepakker som øker din gjennomsnittlige ordreverdi.',
+      description: 'Mønstergjenkjenningsarbeidsark med fargerike fugler lærer et essensielt tidlig matte-konsept mens de utnytter den visuelle variasjonen som gjør fugletemaer så appellerende. Mønsterarbeidsark-generatoren lager sekvenser med forskjellige fuglearter der barn identifiserer og fortsetter gjentatte mønstre. Tilby AB, ABC og AABB mønsternivåer for å dekke førskole gjennom 1. trinn standarder. Fugler fungerer spesielt godt for mønsteraktiviteter fordi deres mangfoldige farger og former gjør mønstre visuelt klare og engasjerende. Disse arbeidsarkene komplementerer telle- og addisjonsprodukter naturlig, noe som gjør dem til sterke tillegg til fugletema mattepakker som øker din gjennomsnittlige ordreverdi.',
       appId: 'pattern-worksheet',
     },
     {
@@ -124,7 +124,7 @@ Fuglenisjen tilbyr også sterke differensieringsmuligheter gjennom regionale og 
     },
     {
       question: 'Hvilke aldersgrupper kjøper fugletema arbeidsark oftest?',
-      answer: 'Den primære kjøperdemografien for fugle utskriftbare spenner over alderen to til åtte år, fra førskole til tidlig grunnskole. Foreldre til småbarn og førskolebarn kjøper fugle fargeleggingssider, matcheaktiviteter og grunnleggende telleark. Førskole- og 1. klassekjøpere kjøper fugleordforrådsbyggere, mønsterarbeidsark og tematisk matteøvelse tilpasset naturfagsemner. 2. og 3. klassekjøpere søker fugle bokstavblandinger, mer komplekse ordsøk og tverrfaglige aktiviteter som forbinder matte og naturfag. Ved å lage produkter på flere ferdighetsnivåer innenfor fugletemaet adresserer du hele aldersspekteret og maksimerer din potensielle kundebase på tvers av salgsplattformer.',
+      answer: 'Den primære kjøperdemografien for fugle utskriftbare spenner over alderen to til åtte år, fra førskole til tidlig grunnskole. Foreldre til småbarn og førskolebarn kjøper fugle fargeleggingssider, matcheaktiviteter og grunnleggende telleark. Førskole- og 1. trinn-kjøpere kjøper fugleordforrådsbyggere, mønsterarbeidsark og tematisk matteøvelse tilpasset naturfagsemner. 2. og 3. trinn-kjøpere søker fugle bokstavblandinger, mer komplekse ordsøk og tverrfaglige aktiviteter som forbinder matte og naturfag. Ved å lage produkter på flere ferdighetsnivåer innenfor fugletemaet adresserer du hele aldersspekteret og maksimerer din potensielle kundebase på tvers av salgsplattformer.',
     },
     {
       question: 'Hvordan differensierer jeg fugle utskriftbare fra konkurrenter?',

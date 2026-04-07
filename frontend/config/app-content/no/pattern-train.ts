@@ -185,6 +185,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste hver monstertype, hver ledetrådinnstilling, hvert tema, hvert eksportformat og hvert sideformat for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Enkle AB-mønstre med tydelige bilder er ideelle for småskoletrinnet (1.–4. trinn) og barnehagen, der barna lærer å gjenkjenne gjentatte sekvenser. For mellomtrinnet (5.–7. trinn) kan du bruke mer komplekse mønstre som ABC eller ABBC med flere ledetråder fjernet for å øke utfordringen. Togvognformatet gjør øvelsene intuitive for alle aldersgrupper.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i matematikk for barneskolen i LK20, særlig innen logisk tenkning og problemløsning. Mønstergjenkjenning er en grunnleggende matematisk ferdighet i LK20, og togformatet gjør det konkret og visuelt tilgjengelig for elever som arbeider med sekvenser og rekkefølge.',
+    },
   ],
 
   internalLinks: [
@@ -225,13 +233,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: '1-klasse-utskriftsbare-ideer',
-      anchorText: '1. klasse utskriftsbare ideer for barneskolen',
+      slug: '1-trinn-utskriftsbare-ideer',
+      anchorText: '1. trinn utskriftsbare ideer for barneskolen',
     },
     {
       pageType: 'idea',
-      slug: '2-klasse-utskriftsbare-ideer',
-      anchorText: '2. klasse utskriftsbare ideer for voksende brukere',
+      slug: '2-trinn-utskriftsbare-ideer',
+      anchorText: '2. trinn utskriftsbare ideer for voksende brukere',
     },
     {
       pageType: 'start',

@@ -41,7 +41,7 @@ const content: ToolContent = {
       },
       {
         title: 'Still inn vanskelighetsgraden',
-        description: 'Juster glidebryteren «Maks Subtrahend» for å kontrollere det storste tallet som brukes i ovelsene (intervall: 2–20). For barnehagebarn, hold det på 5 eller lavere. Barnehageklassebarn klarer opp til 10 fint. 1. klasse-brukere kan jobbe med hele intervallet opp til 20. Du kan også stille inn antall ovelser per arbeidsark (1 til 10).',
+        description: 'Juster glidebryteren «Maks Subtrahend» for å kontrollere det storste tallet som brukes i ovelsene (intervall: 2–20). For barnehagebarn, hold det på 5 eller lavere. 1. trinn-barn klarer opp til 10 fint. 2. trinn-brukere kan jobbe med hele intervallet opp til 20. Du kan også stille inn antall ovelser per arbeidsark (1 til 10).',
       },
       {
         title: 'Velg et tema fra bildebiblioteket',
@@ -85,7 +85,7 @@ const content: ToolContent = {
     },
     {
       title: 'Finn det manglende tallet arbeidsark',
-      description: 'Bruk Finn Subtrahenden-modusen eksklusivt til å lage «finn det manglende tallet» subtraksjonsark. Dette formatet er populaert blant selgere i 1. og 2. klasse fordi det utvikler algebraisk tenkning. Pakk dem som en separat produktlinje ved siden av de vanlige subtraksjonspakkene dine.',
+      description: 'Bruk Finn Subtrahenden-modusen eksklusivt til å lage «finn det manglende tallet» subtraksjonsark. Dette formatet er populaert blant selgere i 1. og 2. trinn fordi det utvikler algebraisk tenkning. Pakk dem som en separat produktlinje ved siden av de vanlige subtraksjonspakkene dine.',
     },
     {
       title: 'Tospråklige subtraksjons arbeidsark',
@@ -127,15 +127,15 @@ const content: ToolContent = {
   proTips: [
     {
       title: 'Begynn med Overstryknings-modus for unge brukere',
-      description: 'Overstrykning er det mest intuitive subtraksjonsformatet for barnehagebarn og barnehageklassebarn. Barn ser en gruppe bilder, stryker noen over og teller hva som er igjen. Begynn hver ny bruker eller produktlinje med Overstrykning for du introduserer andre moduser — det bygger den grunnleggende forståelsen at subtraksjon betyr «fjerne». Forskning viser konsekvent at konkret-til-abstrakt progresjon produserer sterkere matematikkresultater, og Overstrykning-arbeidsark sitter perfekt i det konkret-representerende stadiet.',
+      description: 'Overstrykning er det mest intuitive subtraksjonsformatet for barnehagebarn og 1. trinn-barn. Barn ser en gruppe bilder, stryker noen over og teller hva som er igjen. Begynn hver ny bruker eller produktlinje med Overstrykning for du introduserer andre moduser — det bygger den grunnleggende forståelsen at subtraksjon betyr «fjerne». Forskning viser konsekvent at konkret-til-abstrakt progresjon produserer sterkere matematikkresultater, og Overstrykning-arbeidsark sitter perfekt i det konkret-representerende stadiet.',
     },
     {
       title: 'Hold maksSubtrahend lavt for tidlige brukere',
-      description: 'Still inn maksSubtrahend-glidebryteren til 5 for barnehageprodukter og 10 for barnehageklassen. Unge barn overveldes av store grupper bilder. Lag separate «lett» (maksSubtrahend 5), «middels» (maksSubtrahend 10) og «utfordring» (maksSubtrahend 20) versjoner slik at kjopere kan velge riktig nivå. Å liste alle tre vanskelighetsgradene som en enkelt nivåinndelt pakke på Etsy eller Gumroad motiverer en hoyere pris.',
+      description: 'Still inn maksSubtrahend-glidebryteren til 5 for barnehageprodukter og 10 for 1. trinn. Unge barn overveldes av store grupper bilder. Lag separate «lett» (maksSubtrahend 5), «middels» (maksSubtrahend 10) og «utfordring» (maksSubtrahend 20) versjoner slik at kjopere kan velge riktig nivå. Å liste alle tre vanskelighetsgradene som en enkelt nivåinndelt pakke på Etsy eller Gumroad motiverer en hoyere pris.',
     },
     {
       title: 'Bruk Finn Subtrahenden for avanserte brukere',
-      description: 'Finn Subtrahenden-modusen viser startantallet og resultatet og ber barnet finne ut hvor mange som ble fjernet. Dette er betydelig vanskeligere og utvikler tidlig algebraisk tenkning. Spar det til 1. klasse og oppover, eller markedsfør det som et separat «utfordring»-produktnivå. På Etsy og Gumroad tiltrekker «finn det manglende tallet» subtraksjons arbeidsark et distinkt kjopersegment.',
+      description: 'Finn Subtrahenden-modusen viser startantallet og resultatet og ber barnet finne ut hvor mange som ble fjernet. Dette er betydelig vanskeligere og utvikler tidlig algebraisk tenkning. Spar det til 1. trinn og oppover, eller markedsfør det som et separat «utfordring»-produktnivå. På Etsy og Gumroad tiltrekker «finn det manglende tallet» subtraksjons arbeidsark et distinkt kjopersegment.',
     },
     {
       title: 'Inkluder alltid fasit',
@@ -195,6 +195,10 @@ const content: ToolContent = {
     {
       question: 'Hva er returpolicyen?',
       answer: 'Prov for du kjoper med vår gratis proveversjon — alle funksjoner er tilgjengelige slik at du kan fullt evaluere verktøyet for du kjoper. Fordi den gratis proveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjop. Sorg for at verktøyet passer til behovene dine med den gratis proveversjonen for du kjoper.',
+    },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Juster tallintervallet og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn), mellomtrinnet (5.–7. trinn) eller ungdomstrinnet (8.–10. trinn). Verktøyet er et fleksibelt supplement som støtter kompetansemålene i matematikk i LK20 — Kunnskapsløftet 2020.',
     },
   ],
 

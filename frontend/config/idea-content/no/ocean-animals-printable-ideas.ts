@@ -51,7 +51,7 @@ Prissetting følger standard pedagogiske konvensjoner. Individuelle arbeidsark s
     },
     {
       title: 'Havdyr addisjonsarbeidsark for matematikkprodukter',
-      description: 'Matematikkarbeidsark illustrert med havdyrbilder forvandler regneøvelse til undervannsmatematikkeventyr. Bruk Addisjonsgeneratoren til å lage arbeidsark med havtema illustrasjoner og tekstoppgaver relatert til marine scenarier. Rett deg mot barnehage til andre klasse. Havdyr matematikkarbeidsark selger godt hele året med sommertopperi fordi havtemaet appellerer bredt og kobler til mange familiers ferieerfaringer.',
+      description: 'Matematikkarbeidsark illustrert med havdyrbilder forvandler regneøvelse til undervannsmatematikkeventyr. Bruk Addisjonsgeneratoren til å lage arbeidsark med havtema illustrasjoner og tekstoppgaver relatert til marine scenarier. Rett deg mot barnehage til 2. trinn. Havdyr matematikkarbeidsark selger godt hele året med sommertopperi fordi havtemaet appellerer bredt og kobler til mange familiers ferieerfaringer.',
       appId: 'addition',
     },
     {

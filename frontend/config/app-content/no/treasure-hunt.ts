@@ -27,7 +27,7 @@ const content: AppContent = {
       {
         title: 'Velg retningstypen din',
         description:
-          'I panelet Puslespillkonfigurasjon, bytt mellom to retningsordforråd. Grunnleggende modus bruker opp, ned, venstre og hoyre — ideelt for barnehagebarn til 1. klasse som oppbygger grunnleggende romlig ordforråd. Kompass-modus bruker nord, sor, ost og vest — tilpasset 2. klasse og oppover, introduserer kompassretninger og kartlesingsferdigheter. Begge retningssettene er fullt oversatt til alle 11 stoettede språk, slik at å bytte språkvelgeren oppdaterer retningsanvisningsteksten på arbeidsarket.',
+          'I panelet Puslespillkonfigurasjon, bytt mellom to retningsordforråd. Grunnleggende modus bruker opp, ned, venstre og hoyre — ideelt for barnehagebarn til 1. trinn som oppbygger grunnleggende romlig ordforråd. Kompass-modus bruker nord, sor, ost og vest — tilpasset 2. trinn og oppover, introduserer kompassretninger og kartlesingsferdigheter. Begge retningssettene er fullt oversatt til alle 11 stoettede språk, slik at å bytte språkvelgeren oppdaterer retningsanvisningsteksten på arbeidsarket.',
       },
       {
         title: 'Velg bilder til rutenettet',
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Hva er de to retningstypene, og hvordan skiller de seg?',
       answer:
-        'Grunnleggende modus bruker opp, ned, venstre og hoyre — velkjente retningsord for barnehagebarn til 1. klasse som oppbygger grunnleggende romlig ordforråd. Kompass-modus bruker nord, sor, ost og vest — kompassretninger tilpasset 2. klasse og oppover. Begge moduser genererer den samme 4-bevegelsespuslespillstrukturen på det samme 5×5 rutenettet. Retningstypebryteren lar deg lage progressiv vanskelighetsgrad: begynn med Grunnleggende retningsarbeidsark og avanser til Kompass retningsarbeidsark med identiske temaer.',
+        'Grunnleggende modus bruker opp, ned, venstre og hoyre — velkjente retningsord for barnehagebarn til 1. trinn som oppbygger grunnleggende romlig ordforråd. Kompass-modus bruker nord, sor, ost og vest — kompassretninger tilpasset 2. trinn og oppover. Begge moduser genererer den samme 4-bevegelsespuslespillstrukturen på det samme 5×5 rutenettet. Retningstypebryteren lar deg lage progressiv vanskelighetsgrad: begynn med Grunnleggende retningsarbeidsark og avanser til Kompass retningsarbeidsark med identiske temaer.',
     },
     {
       question: 'Hvorfor har hvert puslespill noyaktig 4 bevegelser?',
@@ -189,6 +189,14 @@ const content: AppContent = {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste begge retningstypene, 5×5 koordinatrutenettet, 6-bilders puslespillgenerering, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
+    },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Grunnleggende retningsanvisninger (opp, ned, venstre, høyre) passer godt for småskoletrinnet (1.–4. trinn), der barna øver på enkel navigasjon og leseforståelse av instruksjoner. Kompassretninger (nord, sør, øst, vest) gir en mer avansert utfordring for mellomtrinnet (5.–7. trinn). Skattejagtformatet motiverer brukere i alle aldersgrupper gjennom det lekne opplegget.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål på tverrfaglig nivå for barneskolen i LK20, blant annet lesing, problemløsning og fysisk aktivitet. Skattejagtoppgavene kombinerer leseforståelse av retningsanvisninger med romlig resonnering og koordinatnavigasjon — ferdigheter som er relevante for både norskfaget og matematikk i LK20.',
     },
   ],
 

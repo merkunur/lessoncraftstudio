@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste alle rutenettstorrelser, ledetrådscellekonfigurasjoner, den automatisk genererte fasiten med nummererte overlegg, hele bildebiblioteket, bakgrunns- og rammetemaer, opplasting av egne bilder, tekstverktoy og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Et 2×2-rutenett med 3 ledetråder gir en enkel oppgave for småskoletrinnet (1.–4. trinn), mens et 4×4-rutenett med bare 1 ledetråd skaper en krevende utfordring for mellomtrinnet (5.–7. trinn). Den konfigurerbare vanskelighetsgraden gjør det enkelt å tilpasse puslespillene til forskjellige aldersgrupper og ferdighetsnivåer.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i kunst og håndverk for barneskolen i LK20, særlig innen visuell observasjon og finmotorikk. Rutenettkobling trener romlig persepsjon, visuell analyse og logisk tenkning — ferdigheter som også støtter kompetansemål i matematikk knyttet til romforståelse.',
+    },
   ],
 
   internalLinks: [
@@ -235,8 +243,8 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'barnehageklasse-utskriftsbare-ideer',
-      anchorText: 'Barnehageklasse utskriftsbare ideer for unge brukere',
+      slug: 'barnehage-utskriftsbare-ideer',
+      anchorText: 'Barnehage utskriftsbare ideer for unge brukere',
     },
     {
       pageType: 'start',

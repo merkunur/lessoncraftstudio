@@ -11,8 +11,8 @@ const content: ToolContent = {
 
   hero: {
     title: 'Skattejakt gratis å skrive ut — Generator for sporløype online',
-    tagline: 'Veifinnende skattejakt arbeidsark-generator med fast 5×5 koordinatrutenett (A–E rader, 1–5 kolonner), to retningstyper (Grunnleggende: opp/ned/venstre/høyre for førskole til 1. klasse, og Kardinal: nord/sør/øst/vest for 2. klasse+), 6 tematiske landemerkebilder, nøyaktig 4 retningsbevegelser per puslespill, automatisk generert fasit med lysegul markert skattecelle via dobbelt lerretssystem, fullt lokaliserte retningsledetråder på 11 språk og en skattejakt-tematisert tealoverskrift (#2C8C7C) med gyllen Fredoka-tittel over 104 tematiske bildesamlinger',
-    description: 'Lag profesjonelle skattejakt arbeidsark der brukere følger sekvensielle retningsledetråder for å finne skjult skatt på et 5×5 koordinatrutenett merket med bokstavrader (A–E) og nummerkolonner (1–5). Hvert puslespill sprer 6 tematiske bilder over rutenettet som visuelle landemerker, genererer deretter en startposisjon og nøyaktig 4 retningsbevegelser som fører til skattecellen. Arbeidsarket viser 5 instruksjonslinjer: «Begynn ved [celle]» etterfulgt av 4 «Flytt [retning] [antall] felt(er)» ledetråder, avsluttende med «Hvor er skatten?» Velg mellom to retningstyper. Grunnleggende modus bruker opp, ned, venstre og høyre for førskole til 1. klasse. Kardinalmodus bruker nord, sør, øst og vest for 2. klasse og opp. Skattejakt Generatoren er språkavhengig: retningsledetråder og bildeinnhold endres begge når du bytter språk. Alle retninger er fullt oversatt til 11 støttede språk. Det doble lerretssystemet genererer både en arbeidsark-fane og en fasit-fane — fasiten markerer den endelige skattecellen i lysegul (rgba(255, 250, 205, 0.8)) med en mørkegrå ramme. Hvert puslespill inkluderer en skattejakt-tematisert automatisk generert overskrift med teal bakgrunn (#2C8C7C), ravgul ytre ramme (#D4A574), sandbeige indre ramme (#F4E4C1) og gyllen tittel (#D4A017) i Fredoka. Bla gjennom 104 temasamlinger med 3 100+ illustrasjoner eller last opp egne bilder. Eksporter trykklare PDF-er og JPEG-er i 300 DPI. Bytt gråtone. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
+    tagline: 'Veifinnende skattejakt arbeidsark-generator med fast 5×5 koordinatrutenett (A–E rader, 1–5 kolonner), to retningstyper (Grunnleggende: opp/ned/venstre/høyre for førskole til 1. trinn, og Kardinal: nord/sør/øst/vest for 2. trinn+), 6 tematiske landemerkebilder, nøyaktig 4 retningsbevegelser per puslespill, automatisk generert fasit med lysegul markert skattecelle via dobbelt lerretssystem, fullt lokaliserte retningsledetråder på 11 språk og en skattejakt-tematisert tealoverskrift (#2C8C7C) med gyllen Fredoka-tittel over 104 tematiske bildesamlinger',
+    description: 'Lag profesjonelle skattejakt arbeidsark der brukere følger sekvensielle retningsledetråder for å finne skjult skatt på et 5×5 koordinatrutenett merket med bokstavrader (A–E) og nummerkolonner (1–5). Hvert puslespill sprer 6 tematiske bilder over rutenettet som visuelle landemerker, genererer deretter en startposisjon og nøyaktig 4 retningsbevegelser som fører til skattecellen. Arbeidsarket viser 5 instruksjonslinjer: «Begynn ved [celle]» etterfulgt av 4 «Flytt [retning] [antall] felt(er)» ledetråder, avsluttende med «Hvor er skatten?» Velg mellom to retningstyper. Grunnleggende modus bruker opp, ned, venstre og høyre for førskole til 1. trinn. Kardinalmodus bruker nord, sør, øst og vest for 2. trinn og opp. Skattejakt Generatoren er språkavhengig: retningsledetråder og bildeinnhold endres begge når du bytter språk. Alle retninger er fullt oversatt til 11 støttede språk. Det doble lerretssystemet genererer både en arbeidsark-fane og en fasit-fane — fasiten markerer den endelige skattecellen i lysegul (rgba(255, 250, 205, 0.8)) med en mørkegrå ramme. Hvert puslespill inkluderer en skattejakt-tematisert automatisk generert overskrift med teal bakgrunn (#2C8C7C), ravgul ytre ramme (#D4A574), sandbeige indre ramme (#F4E4C1) og gyllen tittel (#D4A017) i Fredoka. Bla gjennom 104 temasamlinger med 3 100+ illustrasjoner eller last opp egne bilder. Eksporter trykklare PDF-er og JPEG-er i 300 DPI. Bytt gråtone. Den gratis prøveversjonen inneholder alle funksjoner med vannmerke. Kjøp en lisens for å fjerne vannmerket og selge kommersielt.',
   },
 
   tutorial: {
@@ -28,7 +28,7 @@ const content: ToolContent = {
       },
       {
         title: 'Velg retningstype',
-        description: 'Bytt mellom to retningsordforråd. Grunnleggende modus bruker opp, ned, venstre og høyre — kjente retningsord ideelle for førskole til 1. klasse. Kardinalmodus bruker nord, sør, øst og vest — kompassretninger for 2. klasse og opp, som introduserer kartlesningsferdigheter. Begge retningstyper genererer den samme 4-bevegelsers puslespillstrukturen på det samme 5×5 rutenettet.',
+        description: 'Bytt mellom to retningsordforråd. Grunnleggende modus bruker opp, ned, venstre og høyre — kjente retningsord ideelle for førskole til 1. trinn. Kardinalmodus bruker nord, sør, øst og vest — kompassretninger for 2. trinn og opp, som introduserer kartlesningsferdigheter. Begge retningstyper genererer den samme 4-bevegelsers puslespillstrukturen på det samme 5×5 rutenettet.',
       },
       {
         title: 'Velg innholdsspråk',
@@ -93,7 +93,7 @@ const content: ToolContent = {
     },
     {
       title: 'Gumroad koordinatrutenett og retningsordforråds aktivitetspakker',
-      description: 'Last opp skattejakt aktivitetspakker til Gumroad rettet mot kjøpere som trenger koordinatrutenett og retningsordforrådsressurser. Det 5×5 bokstav-nummer rutenettet introduserer rutenettrefferanseferdigheter. Lag klassetrinnsnivåinndelte sett: grunnleggende retningsskattejakter for førskole–1. klasse og kardinale retningsversjoner for 2.–4. klasse.',
+      description: 'Last opp skattejakt aktivitetspakker til Gumroad rettet mot kjøpere som trenger koordinatrutenett og retningsordforrådsressurser. Det 5×5 bokstav-nummer rutenettet introduserer rutenettrefferanseferdigheter. Lag klassetrinnsnivåinndelte sett: grunnleggende retningsskattejakter for førskole–1. trinn og kardinale retningsversjoner for 2.–4. trinn.',
       platform: 'Gumroad',
     },
     {
@@ -155,7 +155,7 @@ const content: ToolContent = {
     },
     {
       question: 'Hva er de to retningstypen, og hvordan skiller de seg?',
-      answer: 'Grunnleggende modus bruker opp, ned, venstre og høyre — kjente retningsord for førskole til 1. klasse. Kardinalmodus bruker nord, sør, øst og vest — kompassretninger for 2. klasse og opp, som introduserer kartlesningsferdigheter. Begge retningstyper genererer den samme 4-bevegelsers puslespillstrukturen på det samme 5×5 rutenettet.',
+      answer: 'Grunnleggende modus bruker opp, ned, venstre og høyre — kjente retningsord for førskole til 1. trinn. Kardinalmodus bruker nord, sør, øst og vest — kompassretninger for 2. trinn og opp, som introduserer kartlesningsferdigheter. Begge retningstyper genererer den samme 4-bevegelsers puslespillstrukturen på det samme 5×5 rutenettet.',
     },
     {
       question: 'Hvordan fungerer den automatisk genererte fasiten?',
@@ -188,6 +188,10 @@ const content: ToolContent = {
     {
       question: 'Hva er returpolitikken?',
       answer: 'Prøv før du kjøper med vår gratis prøveversjon — alle funksjoner tilgjengelige. Fordi prøveversjonen gir full tilgang, tilbyr vi ingen refusjoner. Sørg for at verktøyet passer til dine behov med prøveversjonen.',
+    },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Lag postløp og sporløyper tilpasset småskoletrinnet (1.–4. trinn), mellomtrinnet (5.–7. trinn) eller ungdomstrinnet (8.–10. trinn). Verktøyet er et tverrfaglig supplement som støtter kompetansemål i lesing, problemløsning og fysisk aktivitet i LK20 — Kunnskapsløftet 2020.',
     },
   ],
 

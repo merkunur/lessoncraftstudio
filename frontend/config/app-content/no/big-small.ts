@@ -185,6 +185,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste hver sporsmålstype, hver bildemodus, hver ovelseskonfigurasjon, hvert eksportformat og hvert sideformat for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Enkle øvelser som «ring rundt den store» med to bilder passer godt for de yngste på småskoletrinnet (1.–4. trinn) og i barnehagen. For mellomtrinnet (5.–7. trinn) kan du bruke «sorter fra minst til størst» med flere objekter, eller modusen med tre identiske bilder for mer nyansert størrelsessammenligning. De fem spørsmålstypene dekker et bredt vanskelighetsområde.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i matematikk for barneskolen i LK20, særlig innen tallforståelse og sammenligning. Størrelsessammenligning trener relasjonell tenkning, sortering og begreper som «større enn», «mindre enn» og «lik» — ferdigheter som er grunnleggende i tidlig matematikkopplæring i LK20.',
+    },
   ],
 
   internalLinks: [
@@ -230,8 +238,8 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'barnehageklasse-utskriftsbare-ideer',
-      anchorText: 'Barnehageklasse utskriftsbare ideer for unge brukere',
+      slug: 'barnehage-utskriftsbare-ideer',
+      anchorText: 'Barnehage utskriftsbare ideer for unge brukere',
     },
     {
       pageType: 'start',

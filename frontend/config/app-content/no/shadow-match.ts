@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste begge ovelsesmodusene, automatisk genererte silhuetter, klipperetningsvalg, fasit, hele bildebiblioteket, bakgrunns- og rammetemaer, etikettbryter, navn/dato-felt, tekstverktoy og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Skyggematching-modusen med tydelige silhuetter og få bilder er godt egnet for småskoletrinnet (1.–4. trinn), der barna trener grunnleggende visuell gjenkjenning. Gjør Det Helt-modusen med delte halvdeler og flere elementer krever mer nøyaktig visuell analyse og passer for mellomtrinnet (5.–7. trinn). Du kan også variere antall bilder per arbeidsark for å tilpasse vanskelighetsgraden.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i kunst og håndverk for barneskolen i LK20, særlig innen visuell observasjon og finmotorikk. Skyggematching trener formgjenkjenning, visuell diskriminering og oppmerksomhet på konturer — ferdigheter som også er relevante for geometriforståelse i matematikkfaget.',
+    },
   ],
 
   internalLinks: [
@@ -235,8 +243,8 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: 'barnehageklasse-utskriftsbare-ideer',
-      anchorText: 'Barnehageklasse utskriftsbare ideer for unge brukere',
+      slug: 'barnehage-utskriftsbare-ideer',
+      anchorText: 'Barnehage utskriftsbare ideer for unge brukere',
     },
     {
       pageType: 'start',

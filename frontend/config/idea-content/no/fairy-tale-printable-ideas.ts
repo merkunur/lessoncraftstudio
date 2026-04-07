@@ -26,7 +26,7 @@ Prissetting følger standard pedagogiske utskriftbare konvensjoner. Individuelle
     { title: 'Eventyr fargeleggingssider for Etsy og KDP-selgere', description: 'Fargeleggingssider med detaljerte omriss av prinsesser, drager, slott, feer, enhjørninger og magiske skoger. Legg til karakternavn og historiefortellingsprompter.', appId: 'coloring' },
     { title: 'Eventyr bingokort for gruppeaktiviteter', description: 'Eventyr bingokort med fantasi-ordforråd. Bingo-generatoren lager unike kortvarianter for engasjerende gruppeaktiviteter.', appId: 'bingo' },
     { title: 'Eventyr skygge-matchearbeidsark for utskriftbare butikker', description: 'Skygge-matching med eventyrfigurer som har distinkte silhuetter: drager, slott, kroner, tryllestaver og ridderhjelmer.', appId: 'shadow-match' },
-    { title: 'Eventyr mønsterarbeidsark for pedagogiske virksomheter', description: 'Mønstergjenkjenningsarbeidsark med eventyrbilder. Tilby AB, ABC og AABB mønsternivåer for førskole gjennom 1. klasse.', appId: 'pattern-worksheet' },
+    { title: 'Eventyr mønsterarbeidsark for pedagogiske virksomheter', description: 'Mønstergjenkjenningsarbeidsark med eventyrbilder. Tilby AB, ABC og AABB mønsternivåer for førskole gjennom 1. trinn.', appId: 'pattern-worksheet' },
     { title: 'Eventyr bokstavblandingsaktiviteter for ordforrådsproduker', description: 'Bokstavblandinger med eventyr-ordforråd som drage, slott, krone, ridder, prinsesse og trollmann. Inkluder fasit.', appId: 'word-scramble' },
     { title: 'Eventyr tegneaktiviteter for kreative produktlinjer', description: 'Guidede tegneaktiviteter som lærer barn å tegne eventyrfigurer trinn for trinn: drager, slott, feer og prinsesser.', appId: 'draw-and-color' },
   ],

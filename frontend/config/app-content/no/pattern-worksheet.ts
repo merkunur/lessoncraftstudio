@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste hver monstertype, hver sporsmålsmodus, hver ovelseskonfigurasjon, hvert tema, hvert eksportformat og hvert sideformat for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Enkle AB-mønstre med utfyll-feltet-spørsmål passer godt for småskoletrinnet (1.–4. trinn), der barna bygger grunnleggende mønsterforståelse. For mellomtrinnet (5.–7. trinn) kan du bruke avanserte mønstre som ABCD eller Voksende sekvenser, kombinert med flervalgsmodusen som krever mer analytisk tenkning. Ni mønstertyper gir stor bredde i vanskelighetsgrad.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i matematikk for barneskolen i LK20, særlig innen logisk tenkning og problemløsning. Mønstergjenkjenning og sekvensforståelse er sentrale elementer i tidlig matematikkopplæring, og oppgavene bidrar til å utvikle abstrakt tenkning og systematisk resonnering.',
+    },
   ],
 
   internalLinks: [
@@ -230,13 +238,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: '1-klasse-utskriftsbare-ideer',
-      anchorText: '1. klasse utskriftsbare ideer for barneskolen',
+      slug: '1-trinn-utskriftsbare-ideer',
+      anchorText: '1. trinn utskriftsbare ideer for barneskolen',
     },
     {
       pageType: 'idea',
-      slug: '2-klasse-utskriftsbare-ideer',
-      anchorText: '2. klasse utskriftsbare ideer for voksende brukere',
+      slug: '2-trinn-utskriftsbare-ideer',
+      anchorText: '2. trinn utskriftsbare ideer for voksende brukere',
     },
     {
       pageType: 'start',

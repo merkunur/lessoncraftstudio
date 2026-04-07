@@ -136,7 +136,7 @@ const content: ToolContent = {
     },
     {
       title: 'Tilpass mønsterkompleksitet til målaldersgruppe',
-      description: 'For førskolebarn (3–4 år), bruk AB og AAB-mønstre med tom-rute modus for enkel gjenkjenning. For barnehagebarn (4–6 år), introduser ABC-mønstre og flervalgsmodus. For første klasse og opp, ABBC gjennom ABCD-mønstre med tilfeldig start generator ekte vurderingsutfordringer.',
+      description: 'For førskolebarn (3–4 år), bruk AB og AAB-mønstre med tom-rute modus for enkel gjenkjenning. For barnehagebarn (4–6 år), introduser ABC-mønstre og flervalgsmodus. For 1. trinn og opp, ABBC gjennom ABCD-mønstre med tilfeldig start generator ekte vurderingsutfordringer.',
     },
     {
       title: 'Bruk gråtone for KDP og masseutskrift',
@@ -188,6 +188,10 @@ const content: ToolContent = {
     {
       question: 'Hva er returpolitikken?',
       answer: 'Prøv før du kjøper med vår gratis prøveversjon — alle funksjoner er tilgjengelige, slik at du kan fullstendig evaluere verktøyet før du kjøper. Fordi den gratis prøveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjøp. Sørg for at verktøyet passer til dine behov med den gratis prøveversjonen før du kjøper.',
+    },
+    {
+      question: 'Passer dette verktøyet for norske klassetrinn (LK20)?',
+      answer: 'Ja. Juster vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn), mellomtrinnet (5.–7. trinn) eller ungdomstrinnet (8.–10. trinn). Verktøyet er et fleksibelt supplement som støtter kompetansemål i logisk tenkning og problemløsning i LK20 — Kunnskapsløftet 2020.',
     },
   ],
 

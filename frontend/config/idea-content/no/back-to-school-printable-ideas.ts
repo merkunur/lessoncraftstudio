@@ -25,7 +25,7 @@ const content: IdeaContent = {
   },
   marketOverview: `Den utskriftbare skolestartnisjen har et av de høyeste sesongbaserte trafikkvolumet på den pedagogiske markedsplassen, og leverer vedvarende etterspørsel over et bredt salgsvindu fra juli til september som gir selgere meningsfull tid til å fange inntekter. Kjøpere begynner å forberede seg på nye produktbehov i midten av juli, og kjøper planleggingsmateriell, førsteuke isbrytere og supplerende produkter som hjelper dem å komme raskt i gang når skoleåret begynner. Foreldre søker etter skoleklarhetsarbeidsark, pedagogiske aktiviteter for å bygge bro over sommerens læringstap, og engasjerende utskriftbare som letter overgangen fra feriemodus tilbake til strukturerte daglige rutiner. Hjemmeundervisningsfamilier, som planlegger hele sitt akademiske år i sommermånedene, representerer et særlig verdifullt kjøpersegment fordi de kjøper omfattende ressurssamlinger i stedet for individuelle arbeidsark.
 
-Det som gjør skolestartsnisjen eksepsjonelt sterk for utskriftbare selgere er den rene bredden av kjøpermotivasjoner som konvergerer i en enkelt sesong. Nye kjøpere som bygger produktsamlinger fra bunnen trenger alt fra navnelapper til morgenarbeidsaktiviteter. Erfarne kjøpere som frisker opp septembermaterialene sine søker nye tilnærminger til kjente førsteukesufordringer som å lære navn, etablere rutiner og vurdere ferdighetsnivåer. Foreldre i førskole- og 1. klassemarkedet som forbereder barna sine på skoleopplevelsen kjøper klargjøringsaktiviteter som dekker bokstavgjenkjenning, tallferdigheter, finmotorikk og følg-instruksjoner-arbeidsark. Hvert kjøpersegment søker med ulike nøkkelord og ulike produktforventninger, noe som skaper flere lønnsomme inngangspunkter innenfor den samme sesongbaserte nisjen.
+Det som gjør skolestartsnisjen eksepsjonelt sterk for utskriftbare selgere er den rene bredden av kjøpermotivasjoner som konvergerer i en enkelt sesong. Nye kjøpere som bygger produktsamlinger fra bunnen trenger alt fra navnelapper til morgenarbeidsaktiviteter. Erfarne kjøpere som frisker opp septembermaterialene sine søker nye tilnærminger til kjente førsteukesufordringer som å lære navn, etablere rutiner og vurdere ferdighetsnivåer. Foreldre i førskole- og 1. trinn-markedet som forbereder barna sine på skoleopplevelsen kjøper klargjøringsaktiviteter som dekker bokstavgjenkjenning, tallferdigheter, finmotorikk og følg-instruksjoner-arbeidsark. Hvert kjøpersegment søker med ulike nøkkelord og ulike produktforventninger, noe som skaper flere lønnsomme inngangspunkter innenfor den samme sesongbaserte nisjen.
 
 Den visuelle identiteten til skolestartprodukter er umiddelbart gjenkjennelig og kommersielt kraftfull. Skolebusser, ryggsekker, blyanter, fargestifter, epler, notatbøker, linjaler, tavler og skoletema-scener danner et universelt forstått visuelt språk som kjøpere umiddelbart kobler seg til. Denne sterke tematiske identiteten oversettes til iøynefallende produktminiatyrbilder og oppføringsforhåndsvisninger som presterer godt i overfylte markedsplassøkeresultater. Den glade, optimistiske tonen i skolestartbilder, som representerer nye begynnelser og nye muligheter, skaper positive emosjonelle assosiasjoner som driver kjøpsbeslutninger og genererer entusiastiske anmeldelser fra fornøyde kjøpere.
 
@@ -46,7 +46,7 @@ Fra et nøkkelordforskningsperspektiv deler skolestartutskriftbare søk seg i fl
   productIdeas: [
     {
       title: 'Skolestart tellearbeidsark for utskriftbare selgere',
-      description: 'Tellearbeidsark med blyanter, fargestifter, bøker, epler og ryggsekker bringer produktlinjens spenning til tidlig matteøvelse som selgere og kjøpere ivrig kjøper gjennom hele skolestartsesongen. Bruk Finn og tell-generatoren til å lage skolescener der barn finner og teller spesifikke utstyr blant pulter, skap og lekeplasslandskap. Tilby sett rettet mot flere ferdighetsnivåer: tell skoleobjekter opp til fem for førskolemarkedet, tell og skriv tall til ti for barnehagenivå, og tell med hopp med rader av blyanter eller grupper av fargestifter for 1. klassenivå. Pakk etter vanskelighetsgrad eller kombiner alle nivåer til en omfattende skolestart-tellepakke for blandet ferdighetsetterspørsel i september.',
+      description: 'Tellearbeidsark med blyanter, fargestifter, bøker, epler og ryggsekker bringer produktlinjens spenning til tidlig matteøvelse som selgere og kjøpere ivrig kjøper gjennom hele skolestartsesongen. Bruk Finn og tell-generatoren til å lage skolescener der barn finner og teller spesifikke utstyr blant pulter, skap og lekeplasslandskap. Tilby sett rettet mot flere ferdighetsnivåer: tell skoleobjekter opp til fem for førskolemarkedet, tell og skriv tall til ti for barnehagenivå, og tell med hopp med rader av blyanter eller grupper av fargestifter for 1. trinn. Pakk etter vanskelighetsgrad eller kombiner alle nivåer til en omfattende skolestart-tellepakke for blandet ferdighetsetterspørsel i september.',
       appId: 'find-count',
     },
     {
@@ -61,7 +61,7 @@ Fra et nøkkelordforskningsperspektiv deler skolestartutskriftbare søk seg i fl
     },
     {
       title: 'Skolestart addisjonsarbeidsark for matte-utskriftbare linjer',
-      description: 'Skoleutstyrsillustert mattearbeidsark forvandler rutineregneøvelse til engasjerende aktiviteter som kjøpere foretrekker fremfor rene talldriller i de energiske første ukene av et nytt skoleår. Bruk Addisjons-generatoren til å lage arbeidsark der barn legger sammen grupper av blyanter i kopper, løser ryggsekk-tema tekstoppgaver, eller fullfører tallsetninger illustrert med fargestifter, bøker og epler. Målrett førskole til 2. klasse med oppgaver som spenner fra ensifrede summer til tosifret addisjon med produktlinjens visuelle kontekster. Skolestart mattearbeidsark har sterk etterspørsel fordi kjøpere trenger ferdighetstilpasset øvelse som matcher den friske starten-energien, og foreldre setter pris på pedagogiske aktiviteter som kanaliserer førstedagsspenningen inn i produktiv læring.',
+      description: 'Skoleutstyrsillustert mattearbeidsark forvandler rutineregneøvelse til engasjerende aktiviteter som kjøpere foretrekker fremfor rene talldriller i de energiske første ukene av et nytt skoleår. Bruk Addisjons-generatoren til å lage arbeidsark der barn legger sammen grupper av blyanter i kopper, løser ryggsekk-tema tekstoppgaver, eller fullfører tallsetninger illustrert med fargestifter, bøker og epler. Målrett førskole til 2. trinn med oppgaver som spenner fra ensifrede summer til tosifret addisjon med produktlinjens visuelle kontekster. Skolestart mattearbeidsark har sterk etterspørsel fordi kjøpere trenger ferdighetstilpasset øvelse som matcher den friske starten-energien, og foreldre setter pris på pedagogiske aktiviteter som kanaliserer førstedagsspenningen inn i produktiv læring.',
       appId: 'addition',
     },
     {
@@ -71,7 +71,7 @@ Fra et nøkkelordforskningsperspektiv deler skolestartutskriftbare søk seg i fl
     },
     {
       title: 'Skolestart bingokort for førsteuke gruppeaktiviteter',
-      description: 'Skolestart bingokort betjener kjøpere som arrangerer førsteuke isbrytere og orienteringsarrangementer der gruppespill hjelper nye klassekamerater med å knytte bånd i de kritiske tidlige dagene av et skoleår. Bingo-generatoren lager unike kortvarianter fra din skoleordforråds-liste, og sikrer at ingen to kort er identiske for gruppespill. Selg produktlinjesett med tjuefem til tretti kort med et oppropningsark og skoleordforrådsreferanseguide inkludert. For familiemarkedet, lag bingosett med skoleutstyrsbilder, pedagogiske aktivitetsikoner og fagordforråd som familier kan spille under skolestartforberedelser hjemme. Bingoprodukter genererer sterk sesongetterspørsel fordi alle kjøpere trenger strukturerte bli-kjent-aktiviteter, og digitale bingokort kan kjøpes og skrives ut minutter før skoledagen begynner.',
+      description: 'Skolestart bingokort betjener kjøpere som arrangerer førsteuke isbrytere og orienteringsarrangementer der gruppespill hjelper nye medelever med å knytte bånd i de kritiske tidlige dagene av et skoleår. Bingo-generatoren lager unike kortvarianter fra din skoleordforråds-liste, og sikrer at ingen to kort er identiske for gruppespill. Selg produktlinjesett med tjuefem til tretti kort med et oppropningsark og skoleordforrådsreferanseguide inkludert. For familiemarkedet, lag bingosett med skoleutstyrsbilder, pedagogiske aktivitetsikoner og fagordforråd som familier kan spille under skolestartforberedelser hjemme. Bingoprodukter genererer sterk sesongetterspørsel fordi alle kjøpere trenger strukturerte bli-kjent-aktiviteter, og digitale bingokort kan kjøpes og skrives ut minutter før skoledagen begynner.',
       appId: 'bingo',
     },
     {
@@ -81,7 +81,7 @@ Fra et nøkkelordforskningsperspektiv deler skolestartutskriftbare søk seg i fl
     },
     {
       title: 'Skolestart mønsterarbeidsark for pedagogiske utskriftbare virksomheter',
-      description: 'Mønstergjenkjenningsarbeidsark med kjent skolebildespråk lærer essensielle tidlig matte-konsepter mens de rir på bølgen av nyttårsentusiasme som gjør skolestartprodukter så appellerende for kjøpere. Mønsterarbeidsark-generatoren lager sekvenser med forskjellige skoleutstyr der brukere identifiserer og fortsetter gjentatte mønstre med blyanter, fargestifter, epler, stjerner og notatbøker. Tilby AB, ABC og AABB mønsternivåer for å dekke førskole gjennom 1. klasse standarder. Skoleutstyr fungerer eksepsjonelt godt for mønsteraktiviteter fordi deres mangfoldige former og lyse farger gjør mønstre umiddelbart klare og tematisk engasjerende. Disse arbeidsarkene komplementerer telle- og addisjonsprodukter naturlig, noe som gjør dem til sterke tillegg til skolestart mattepakker som øker gjennomsnittlig ordreverdien din i toppsalgssesongen.',
+      description: 'Mønstergjenkjenningsarbeidsark med kjent skolebildespråk lærer essensielle tidlig matte-konsepter mens de rir på bølgen av nyttårsentusiasme som gjør skolestartprodukter så appellerende for kjøpere. Mønsterarbeidsark-generatoren lager sekvenser med forskjellige skoleutstyr der brukere identifiserer og fortsetter gjentatte mønstre med blyanter, fargestifter, epler, stjerner og notatbøker. Tilby AB, ABC og AABB mønsternivåer for å dekke førskole gjennom 1. trinn standarder. Skoleutstyr fungerer eksepsjonelt godt for mønsteraktiviteter fordi deres mangfoldige former og lyse farger gjør mønstre umiddelbart klare og tematisk engasjerende. Disse arbeidsarkene komplementerer telle- og addisjonsprodukter naturlig, noe som gjør dem til sterke tillegg til skolestart mattepakker som øker gjennomsnittlig ordreverdien din i toppsalgssesongen.',
       appId: 'pattern-worksheet',
     },
     {
@@ -192,8 +192,8 @@ Fra et nøkkelordforskningsperspektiv deler skolestartutskriftbare søk seg i fl
     },
     {
       pageType: 'idea',
-      slug: 'forsteklasse-utskriftbare-ideer',
-      anchorText: 'Førsteklasse utskriftbare ideer',
+      slug: '1-trinn-utskriftbare-ideer',
+      anchorText: '1. trinn utskriftbare ideer',
     },
   ],
 

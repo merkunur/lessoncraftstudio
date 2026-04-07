@@ -105,7 +105,7 @@ const content: AppContent = {
       {
         title: 'Sammenligningsaktivitetsbøker på Amazon KDP',
         description:
-          'Sett sammen 50–100 sammenligningsarbeidsark til en aktivitetsbok formatert for Amazon KDP. Strukturer boken med progressiv vanskelighetsgrad — begynn med Samme Bilder i modusen Bilde til Bilde, gå videre til Forskjellige Bilder i Bilde til Tall, og avslutt med Sjekk og Kryss utfordringer. Legg til tittelside, instruksjonsdel og fasit bakerst. Sammenligningsaktivitetsbøker for barn 3–7 år selger konsekvent året rundt. Vurder separate deler per aldersgruppe — en barnehageutgave med små tallintervaller og en utgave for 1. klasse med større intervaller — slik at hver tittel betjener en separat søkeordsnisje.',
+          'Sett sammen 50–100 sammenligningsarbeidsark til en aktivitetsbok formatert for Amazon KDP. Strukturer boken med progressiv vanskelighetsgrad — begynn med Samme Bilder i modusen Bilde til Bilde, gå videre til Forskjellige Bilder i Bilde til Tall, og avslutt med Sjekk og Kryss utfordringer. Legg til tittelside, instruksjonsdel og fasit bakerst. Sammenligningsaktivitetsbøker for barn 3–7 år selger konsekvent året rundt. Vurder separate deler per aldersgruppe — en barnehageutgave med små tallintervaller og en utgave for 1. trinn med større intervaller — slik at hver tittel betjener en separat søkeordsnisje.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
@@ -123,7 +123,7 @@ const content: AppContent = {
       {
         title: 'Sammenligningsøvelser for nettundervisning og privatundervisning',
         description:
-          'Generer tilpassede sammenligningsarbeidsark skreddersydd til hver brukers nåværende ferdighetsnivå. Skriv ut Bilde til Bilde arbeidsark med Samme Bilder for nybegynnere og Sjekk og Kryss Grupper arbeidsark for avanserte brukere — alt i samme økt. Den automatiske fasiten sparer opplevd verdi. Enten du driver et leksehjelpsenter, underviser i barnehageklassen eller hjemmeunderviser, erstatter generatoren timers manuelt arbeid med et par klikk.',
+          'Generer tilpassede sammenligningsarbeidsark skreddersydd til hver brukers nåværende ferdighetsnivå. Skriv ut Bilde til Bilde arbeidsark med Samme Bilder for nybegynnere og Sjekk og Kryss Grupper arbeidsark for avanserte brukere — alt i samme økt. Den automatiske fasiten sparer opplevd verdi. Enten du driver et leksehjelpsenter, underviser i barnehagen eller hjemmeunderviser, erstatter generatoren timers manuelt arbeid med et par klikk.',
         platform: 'Nettbasert / Privatundervisning / Hjemmeundervisning',
       },
     ],
@@ -143,7 +143,7 @@ const content: AppContent = {
     {
       question: 'Hvilke tallintervaller kan jeg stille inn for sammenligningsøvelser?',
       answer:
-        'Du kan stille inn minimum og maksimum antall objekter per gruppe fra 1 til 10 for standardsammenligningsmoduser. For Sjekk og Kryss Grupper kan du stille inn det totale antall bilder i boksen fra 8 til 20. Disse innstillingene lar deg lage enkle sammenligninger for barnehagebarn eller mer utfordrende øvelser for brukere i 1. og 2. klasse. Denne detaljerte intervallkontrollen gjør det mulig for selgere å bygge presist målrettede produktlinjer for hver aldersgruppe.',
+        'Du kan stille inn minimum og maksimum antall objekter per gruppe fra 1 til 10 for standardsammenligningsmoduser. For Sjekk og Kryss Grupper kan du stille inn det totale antall bilder i boksen fra 8 til 20. Disse innstillingene lar deg lage enkle sammenligninger for barnehagebarn eller mer utfordrende øvelser for brukere i 1. og 2. trinn. Denne detaljerte intervallkontrollen gjør det mulig for selgere å bygge presist målrettede produktlinjer for hver aldersgruppe.',
     },
     {
       question: 'Hva gjør innstillingen Bildevariasjon?',
@@ -189,6 +189,14 @@ const content: AppContent = {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste hver modus, hvert tema, hvert eksportformat og hvert sideformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet oppfyller behovene dine før du anskaffer en lisens. Vi anbefaler at du under din gratis prøveperiode lager flere komplette arbeidsark, gjennomgår utskriftskvaliteten og layoutmulighetene og bekrefter at resultatet oppfyller markedsplassstandardene dine før du kjøper den kommersielle lisensen.',
+    },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Modusen Bilde til Bilde med to enkle grupper passer godt for småskoletrinnet (1.–4. trinn), der barna teller og sammenligner mengder visuelt. For mellomtrinnet (5.–7. trinn) kan du bruke Bilde til Tall-modusen og Sjekk og Kryss Grupper for mer avansert mengdeforståelse og abstrakt sammenligning. De ulike modusene dekker et bredt spekter av ferdighetsnivåer.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i matematikk for barneskolen i LK20, særlig innen tallforståelse og sammenligning. Mer-og-mindre-øvelser trener mengdeforståelse, relasjonelle begreper og grunnleggende tallsans — ferdigheter som er sentrale i matematikkopplæringen fra 1. til 4. trinn i LK20.',
     },
   ],
 

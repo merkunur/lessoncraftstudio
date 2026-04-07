@@ -190,6 +190,14 @@ const content: AppContent = {
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste begge genereringsmodusene, per-ovelse-overstyringssystemet, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer, navn/dato-felt, ovelsesnumre og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',
     },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Lignende modus med tydelige kategoriskiller (f.eks. tre dyr og ett kjøretøy) passer godt for småskoletrinnet (1.–4. trinn). Identisk modus, der tre like bilder og ett avvikende bilde krever nøyere visuell analyse, gir en mer krevende utfordring for mellomtrinnet (5.–7. trinn). Du kan også justere antall øvelser per side for å tilpasse arbeidsmengden.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er et fleksibelt supplement som ikke er bundet til én bestemt læreplan. Oppgavene støtter kompetansemål i matematikk for barneskolen i LK20, særlig innen logisk tenkning og problemløsning. Finn den ulike-øvelser trener kategorisering, visuell diskriminering og evnen til å identifisere avvik — ferdigheter som styrker analytisk tenkning på tvers av fag i LK20.',
+    },
   ],
 
   internalLinks: [
@@ -235,13 +243,13 @@ const content: AppContent = {
     },
     {
       pageType: 'idea',
-      slug: '1-klasse-utskriftsbare-ideer',
-      anchorText: '1. klasse utskriftsbare ideer for barneskolen',
+      slug: '1-trinn-utskriftsbare-ideer',
+      anchorText: '1. trinn utskriftsbare ideer for barneskolen',
     },
     {
       pageType: 'idea',
-      slug: '2-klasse-utskriftsbare-ideer',
-      anchorText: '2. klasse utskriftsbare ideer for voksende brukere',
+      slug: '2-trinn-utskriftsbare-ideer',
+      anchorText: '2. trinn utskriftsbare ideer for voksende brukere',
     },
     {
       pageType: 'start',

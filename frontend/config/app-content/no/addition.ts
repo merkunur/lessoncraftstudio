@@ -26,7 +26,7 @@ const content: AppContent = {
     title: 'Plusstykker å skrive ut — Generator med temabilder og fasit',
     tagline: 'Forvandl addisjon til et visuelt eventyr med bildebaserte matematikkarbeidsark.',
     description:
-      'Lag bildebaserte addisjons arbeidsark som gjør tidlige matematikkonsepter konkrete og engasjerende for unge brukere. Velg mellom fire ulike øvelsesmoduser — Bilde + Bilde, Bilde + Tall, Finn Leddet og Blandet Modus — for å tilpasse til ethvert nivå fra barnehage til 2. klasse. Utforsk mer enn 3 100 nøye utvalgte illustrasjoner i 104 temaer som bondegårdsdyr, kjøretøy og mat for å gjøre hvert regnestykke levende. Hvert arbeidsark inneholder en automatisk generert fasit, og du kan eksportere trykkeklare PDF-er i Letter-, A4- eller egendefinert format med mer enn 400 DPI. Enten du selger på Etsy, utgir aktivitetsbøker på Amazon KDP eller distribuerer arbeidsark til kundene dine — Addisjons Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',
+      'Lag bildebaserte addisjons arbeidsark som gjør tidlige matematikkonsepter konkrete og engasjerende for unge brukere. Velg mellom fire ulike øvelsesmoduser — Bilde + Bilde, Bilde + Tall, Finn Leddet og Blandet Modus — for å tilpasse til ethvert nivå fra barnehage til 2. trinn. Utforsk mer enn 3 100 nøye utvalgte illustrasjoner i 104 temaer som bondegårdsdyr, kjøretøy og mat for å gjøre hvert regnestykke levende. Hvert arbeidsark inneholder en automatisk generert fasit, og du kan eksportere trykkeklare PDF-er i Letter-, A4- eller egendefinert format med mer enn 400 DPI. Enten du selger på Etsy, utgir aktivitetsbøker på Amazon KDP eller distribuerer arbeidsark til kundene dine — Addisjons Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',
   },
 
   howItWorks: {
@@ -71,7 +71,7 @@ const content: AppContent = {
       {
         title: 'Justerbare tallintervaller',
         description:
-          'Still inn minimum og maksimum antall elementer per gruppe fra 1 til 10, med full kontroll over vanskelighetsgraden. Lag enkle arbeidsark fra 1+1 til 3+3 for de yngste, standardøvelser fra 1–10 for barnehageklasse, eller utfordrende tall nær ti for 1. og 2. klasse. Justeringen krever bare ett klikk, slik at du kan differensiere materialet til en hel klasse på få minutter. Denne detaljerte kontrollen over tallintervaller betyr at du kan lage presist målrettede produkter til hvert utviklingstrinn, fra tidlig telling til flersifret addisjonsmestring. Kjøpere setter pris på arbeidsark som matcher deres presise produktstruktur fremfor generiske vanskelighetsgrader i én størrelse.',
+          'Still inn minimum og maksimum antall elementer per gruppe fra 1 til 10, med full kontroll over vanskelighetsgraden. Lag enkle arbeidsark fra 1+1 til 3+3 for de yngste, standardøvelser fra 1–10 for barnehage, eller utfordrende tall nær ti for 1. og 2. trinn. Justeringen krever bare ett klikk, slik at du kan differensiere materialet til en hel klasse på få minutter. Denne detaljerte kontrollen over tallintervaller betyr at du kan lage presist målrettede produkter til hvert utviklingstrinn, fra tidlig telling til flersifret addisjonsmestring. Kjøpere setter pris på arbeidsark som matcher deres presise produktstruktur fremfor generiske vanskelighetsgrader i én størrelse.',
       },
       {
         title: '104 visuelle temaer med mer enn 3 100 bilder',
@@ -136,7 +136,7 @@ const content: AppContent = {
       {
         title: 'Øvingsarbeidsark for nettundervisning og privatundervisning',
         description:
-          'Generer tilpassede addisjons arbeidsark skreddersydd til hver brukers nåværende nivå. Skriv ut Bilde + Bilde arbeidsark for nybegynnere og Finn Leddet arbeidsark for avanserte brukere — alt i samme økt. Den automatiske fasiten sparer opplevd verdi. Enten du driver et leksehjelpsenter, underviser i barnehageklassen eller hjemmeunderviser — generatoren erstatter timers manuelt arbeid med et par klikk. Privatundervisere kan dessuten tilpasse arbeidsarkene med navn og spesielle temaer som matcher elevenes interesser, noe som generator en personlig opplevelse som øker engasjementet.',
+          'Generer tilpassede addisjons arbeidsark skreddersydd til hver brukers nåværende nivå. Skriv ut Bilde + Bilde arbeidsark for nybegynnere og Finn Leddet arbeidsark for avanserte brukere — alt i samme økt. Den automatiske fasiten sparer opplevd verdi. Enten du driver et leksehjelpsenter, underviser i barnehagen eller hjemmeunderviser — generatoren erstatter timers manuelt arbeid med et par klikk. Privatundervisere kan dessuten tilpasse arbeidsarkene med navn og spesielle temaer som matcher elevenes interesser, noe som generator en personlig opplevelse som øker engasjementet.',
         platform: 'Nettbasert / Privatundervisning / Hjemmeundervisning',
       },
     ],
@@ -151,7 +151,7 @@ const content: AppContent = {
     {
       question: 'Hvilke tallintervaller kan jeg stille inn for addisjonsoppgaver?',
       answer:
-        'Du kan stille inn minimum og maksimum antall elementer per gruppe fra 1 til 10. Det betyr at du kan lage enkle oppgaver som 1+1 for barnehagen eller mer utfordrende tall mot 10+10 for 1. og 2. klasse. Justeringen gjøres med to enkle inputfelter i panelet Øvelseskonfigurasjon. Denne presise kontrollen gjør det enkelt å lage produktlinjer per nivå — en barnehagepakke med intervall 1–3, en barnehageklassepakke med intervall 1–5 og en 1.–2. klasse-pakke med intervall 1–10.',
+        'Du kan stille inn minimum og maksimum antall elementer per gruppe fra 1 til 10. Det betyr at du kan lage enkle oppgaver som 1+1 for barnehagen eller mer utfordrende tall mot 10+10 for 1. og 2. trinn. Justeringen gjøres med to enkle inputfelter i panelet Øvelseskonfigurasjon. Denne presise kontrollen gjør det enkelt å lage produktlinjer per nivå — en barnehagepakke med intervall 1–3, en 1.-trinn-pakke med intervall 1–5 og en 1.–2. trinn-pakke med intervall 1–10.',
     },
     {
       question: 'Hvor mange bilder og temaer er tilgjengelige?',
@@ -197,6 +197,14 @@ const content: AppContent = {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste hver modus, hvert tema, hvert eksportformat og hvert sideformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet oppfyller behovene dine før du anskaffer en lisens.',
+    },
+    {
+      question: 'Passer oppgavene for småskoletrinnet og mellomtrinnet?',
+      answer: 'Ja. Juster tallintervallet og vanskelighetsgraden for å matche småskoletrinnet (1.–4. trinn) og mellomtrinnet (5.–7. trinn). Generatoren lar deg tilpasse oppgavene til ethvert trinn i barneskolen — fra konkret visuell telling for 1. trinn til mer abstrakt tallregning for eldre elever på mellomtrinnet.',
+    },
+    {
+      question: 'Følger oppgavene LK20 (Kunnskapsløftet 2020)?',
+      answer: 'Generatoren er designet som et fleksibelt supplement og er ikke bundet til én bestemt læreplan. Oppgavene dekker kompetansemål i matematikk for barneskolen i LK20, der elevene blant annet skal utforske og bruke regnestrategier for addisjon. Tilpass tallintervallet og øvelsesmodusen for å matche de spesifikke kompetansemålene du jobber med.',
     },
   ],
 

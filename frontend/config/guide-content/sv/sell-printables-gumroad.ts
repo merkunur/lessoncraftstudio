@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sälja printables på Gumroad guide',
+    primaryKeyword: 'sälja printables Gumroad guide',
     secondaryKeywords: [
-      'hur man säljer printables på Gumroad',
-      'Gumroad printable-företag uppstart',
-      'sälja digitala nedladdningar på Gumroad',
-      'Gumroad för printable-säljare',
+      'Gumroad butik arbetsblad digitala produkter',
+      'sälja digitala nedladdningar Gumroad',
+      'Gumroad prissättning printables-säljare',
+      'Gumroad e-postmarknadsföring kundlista',
     ],
     lsiKeywords: [
-      'skapar-direkt försäljningsplattform digitala nedladdningar omedelbar leverans e-postlista',
-      'Gumroad butiksfasad varumärke produktsida omslagsbild beskrivningsoptimering',
-      'betala-vad-du-vill prissättning rabattkoder erbjudandelänkar nivåindelad prissättning',
-      'e-postmarknadsföring målgruppsbyggande följarlista produktuppdateringar nyhetsbrev',
-      'sociala medier trafik Pinterest Instagram blogginnehåll SEO marknadsföring',
-      'produktpaket medlemskap prenumerationer återkommande intäkt katalogskalning',
+      'skapar-direkt försäljningsplattform digitala nedladdningar e-postlista',
+      'Gumroad butiksfasad varumärke produktsida omslagsbild',
+      'betala-vad-du-vill prissättning rabattkoder nivåindelad prissättning',
+      'e-postmarknadsföring målgruppsbyggande följarlista nyhetsbrev',
+      'pysselbok pusselbok arbetsblad skriva ut PDF',
+      'produktpaket medlemskap prenumerationer katalogskalning',
     ],
-    titleTag: 'Sälja printables på Gumroad | LessonCraftStudio',
-    metaDescription: 'Hur du säljer printables på Gumroad med noll månadsavgifter. Butiksuppstart, prisstrategier, e-postmarknadsföring och att bygga direkta kundrelationer.',
+    titleTag: 'Sälja printables på Gumroad | LCS',
+    metaDescription: 'Sälj printables på Gumroad utan månadsavgifter. Butiksuppstart, prisstrategier, e-postmarknadsföring och direkta kundrelationer. Komplett guide för säljare.',
   },
 
   hero: {
-    title: 'Hur du säljer printables på Gumroad',
+    title: 'Sälja printables på Gumroad — guide',
     tagline: 'En komplett guide till att sälja utskriftsklara arbetsblad och pedagogiska resurser direkt till köpare genom Gumroad — täcker butiksuppstart, produktskapande, flexibla prisalternativ inklusive betala-vad-du-vill, inbyggd e-postmarknadsföring för målgruppsbyggande, trafikgenereringsstrategier för en skapar-direkt-plattform, produktsidoptimering för högre konvertering, och skalning med paket och medlemskap för återkommande intäkt',
     description: 'Gumroad är fundamentalt annorlunda från marknadsplatsplattformar som Etsy, Amazon KDP eller Gumroad. På dessa plattformar driver inbyggd sökning upptäckt. På Gumroad är du marknadsplatsen. Du tar med din egen publik, äger kundrelationen och behåller köpar-e-postadresser för direkt marknadsföring. Denna guide täcker allt du behöver för att sälja printables framgångsrikt på Gumroad.',
   },

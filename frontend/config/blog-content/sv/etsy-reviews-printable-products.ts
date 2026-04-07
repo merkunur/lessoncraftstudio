@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy recensioner utskriftsprodukter',
+    primaryKeyword: 'få fler recensioner Etsy printables',
     secondaryKeywords: [
-      'etsy-recensioner utskrifter Etsy',
-      'etsy-recensioner utskrifter foeretagande',
-      'utskrifter etsy-recensioner utskrifter',
+      'femstjärniga recensioner strategi Etsy',
+      'kundrecensioner digitala produkter',
+      'hantera negativa recensioner Etsy-butik',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'social proof printable-försäljning',
+      'recensioner driver Etsy-försäljning',
+      'uppföljning efter köp Etsy',
     ],
-    titleTag: 'Etsy-Recensioner för Utskrifter | LCS',
-    metaDescription: 'Så får du fler femstjärniga recensioner på dina utskrifter. Strategier för att uppmuntra feedback och hantera. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Få Fler Recensioner på Etsy Printables | LCS',
+    metaDescription: 'Få fler femstjärniga recensioner för dina printables på Etsy. Strategier som uppmuntrar positiv feedback och driver försäljning.',
   },
   hero: {
-    title: 'Etsy-Recensioner för Utskrifter',
-    tagline: 'Femstjärniga recensioner är din bästa marknadsföring',
+    title: 'Få Fler Femstjärniga Recensioner på Etsy',
+    tagline: 'Recensioner driver försäljning mer än något annat på Etsy',
     description: 'Recensioner driver försäljning på Etsy. Produkter med 50+ femstjärniga recensioner säljer 3-5 gånger mer än produkter utan recensioner.',
   },
   category: 'platform-strategy',

@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa sälja additionsblad hur skapar',
+    primaryKeyword: 'skapa additionsuppgifter att skriva ut steg för steg',
     secondaryKeywords: [
-      'gör additionsarbetsblad för barn',
-      'additions arbetsblad generator',
-      'utskriftsklara additionsarbetsblad att sälja',
-      'anpassade additions övningsblad',
+      'additionsarbetsblad generator att sälja Etsy',
+      'gör additionsövningar att skriva ut PDF',
+      'utskriftsbara matteuppgifter addition förskoleklass',
+      'sälja mattearbetsblad Amazon KDP addition',
     ],
     lsiKeywords: [
-      'bildbaserade mattearbetsblad',
-      'visuell addition för förskola',
-      'förskoleklass matte övningsblad',
-      'sälja mattearbetsblad på Etsy',
-      'Amazon KDP matte aktivitetsböcker',
-      'kommersiell licens arbetsbladsverktyg',
+      'bildbaserade mattearbetsblad visuell addition förskola',
+      'förskoleklass lågstadiet matteövning att skriva ut',
+      'sälja mattearbetsblad Etsy printable matte',
+      'Amazon KDP matte pysselbok additionsuppgifter',
+      'kommersiell licens arbetsbladsverktyg tryckfärdig PDF',
+      'tematiska additionsblad facit automatiskt genererat',
     ],
-    titleTag: 'Skapa additionsblad att sälja | LessonCraftStudio',
-    metaDescription: 'Hur du skapar additionsarbetsblad för barn. Steg-för-steg-guide: välj teman, ställ in svårighet, generera facit och exportera PDF att sälja på Etsy och KDP.',
+    titleTag: 'Skapa additionsuppgifter att skriva ut | LCS',
+    metaDescription: 'Steg-för-steg: skapa additionsarbetsblad att skriva ut. Välj tema, ställ in svårighet, generera facit och exportera PDF. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar additionsarbetsblad för barn',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska, tryckfärdiga additionsarbetsblad du kan sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa additionsarbetsblad att skriva ut och sälja',
+    tagline: 'Steg-för-steg-guide: skapa tematiska additionsuppgifter med automatiskt facit och exportera tryckfärdiga PDF:er för Etsy, Amazon KDP och Gumroad',
     description: 'Additionsarbetsblad är en av de mest konsekvent sökta printable-produkterna på alla stora marknadsplatser. Föräldrar behöver dem för övning hemma. säljare behöver dem för dagliga drillövningar och hemläxor. Handledningscentra behöver nya uppsättningar varje vecka. Denna guide leder dig genom hela skapandeprocessen med Additionsarbetsblad-generatorn — från att välja din målåldersgrupp och tema till att exportera en polerad, tryckfärdig PDF med automatiskt facit.',
   },
 

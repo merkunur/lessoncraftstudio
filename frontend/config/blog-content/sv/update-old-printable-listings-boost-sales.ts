@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'uppdatera gamla listningar oeka foersaeljning',
+    primaryKeyword: 'uppdatera Etsy-listningar öka försäljning',
     secondaryKeywords: [
-      'optimering för framgång',
-      'tillväxtstrategier',
-      'mäta förbättra resultat',
+      'optimera gamla printable-listningar Etsy',
+      'bättre titlar sökord Etsy-butik',
+      'öka konvertering befintliga listningar',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'Etsy SEO uppdatera sökord taggar',
+      'nya mockup-foton listning konvertering',
+      'printable-listning optimering strategi',
     ],
-    titleTag: 'Uppdatera Gamla Listningar: Öka Försäljning | LCS',
-    metaDescription: 'Uppdatera befintliga Etsy-listningar för att öka försäljningen. Nya foton, bättre titlar och uppdaterade sökord.',
+    titleTag: 'Uppdatera Etsy-Listningar: Öka Försäljning',
+    metaDescription: 'Uppdatera gamla Etsy-listningar och öka försäljningen 30-50%. Nya foton, bättre titlar och aktuella sökord.',
   },
   hero: {
-    title: 'Uppdatera Gamla Listningar: Öka Försäljning',
-    tagline: 'Dina befintliga listningar har outnyttjad potential',
+    title: 'Uppdatera Listningar: Öka Försäljning',
+    tagline: 'Befintliga listningar har outnyttjad potential att öka 30-50%',
     description: 'Att uppdatera gamla listningar med nya foton, bättre titlar och aktuella sökord kan öka försäljningen med 30-50% utan att skapa nya produkter.',
   },
   category: 'platform-strategy',

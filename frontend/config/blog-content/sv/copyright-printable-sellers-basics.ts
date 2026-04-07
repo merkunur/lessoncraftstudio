@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'upphovsrätt för utskriftssäljare',
+    primaryKeyword: 'upphovsrätt sälja printables Etsy',
     secondaryKeywords: [
-      'steg för steg guide',
-      'vanliga misstag undvika',
-      'avancerade tips',
+      'copyright digitala produkter Sverige',
+      'skydda arbetsblad upphovsrätt',
+      'upphovsrätt regler Etsy-säljare',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'svensk upphovsrättslag digitalt',
+      'immaterialrätt printable business',
+      'piratkopiering skydd arbetsblad',
     ],
-    titleTag: 'Upphovsrätt för Utskriftssäljare | LCS',
-    metaDescription: 'Grundläggande upphovsrätt för utskriftssäljare. Vad du äger, vad du inte äger, och hur du skyddar dina produkter.',
+    titleTag: 'Upphovsrätt för Printable-Säljare: Guide | LCS',
+    metaDescription: 'Grundläggande upphovsrätt för printable-säljare. Vad du äger, vad du inte får kopiera, och hur du skyddar dina produkter på Etsy.',
   },
   hero: {
-    title: 'Upphovsrätt för Utskriftssäljare',
-    tagline: 'Skydda ditt arbete och undvik misstag',
+    title: 'Upphovsrätt för Printable-Säljare: Grunderna',
+    tagline: 'Skydda dina produkter och undvik dyra upphovsrättsmisstag',
     description: 'Upphovsrätt i Sverige skyddar dina skapade verk automatiskt. Men det finns viktiga nyanser för digitala produkter.',
   },
   category: 'how-to',

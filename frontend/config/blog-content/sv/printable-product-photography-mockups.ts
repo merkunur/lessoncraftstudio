@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'produktfotografering mockups utskrifter',
+    primaryKeyword: 'produktfotografering printables mockups guide',
     secondaryKeywords: [
-      'steg för steg guide',
-      'vanliga misstag undvika',
-      'avancerade tips',
+      'skapa mockups arbetsblad Etsy-listning',
+      'produktbilder printable-butik tips',
+      'mockup-verktyg gratis printable-säljare',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'Etsy-listning bilder konvertering',
+      'fotografera printables professionellt',
+      'digital produkt mockup presentera',
     ],
-    titleTag: 'Produktfotografering och Mockups | LCS',
-    metaDescription: 'Komplett guide till produktfotografering och mockups för utskriftssäljare. Gratis verktyg och professionella tekniker.',
+    titleTag: 'Produktfotografering: Mockups för Printables',
+    metaDescription: 'Guide till produktfotografering och mockups för printable-säljare. Gratis verktyg och tekniker som ökar klickfrekvensen.',
   },
   hero: {
-    title: 'Produktfotografering och Mockups',
-    tagline: 'Dina listningsbilder avgör om kunder klickar eller scrollar vidare',
+    title: 'Produktfotografering: Mockups för Printables',
+    tagline: 'Listningsbilder avgör om köparen klickar eller scrollar vidare',
     description: 'Bilder är det första köparen ser. Professionella mockups med utskrifterna i verkliga miljöer ökar klickfrekvensen med 2-3 gånger.',
   },
   category: 'how-to',

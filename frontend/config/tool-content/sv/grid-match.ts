@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis rutnätskopplingspussel',
+    primaryKeyword: 'rita på rutnät gratis skriva ut',
     secondaryKeywords: [
-      'rutnätskopplingspussel gratis online',
-      'rutmatchning pussel skapa gratis',
-      'bildplattor pussel skriva ut gratis',
-      'gratis rutnätspussel med bilder',
+      'kopiera på rutnät gratis online',
+      'pixel art gratis skriva ut',
+      'spegling rutnät gratis',
+      'rutnätsritning gratis',
     ],
     lsiKeywords: [
-      'gratis rutmatchning online',
-      'bildplattor pussel att skriva ut',
-      'rutnätspussel gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'rutnät',
+      'kopiera',
+      'pixel',
     ],
-    titleTag: 'Rutnätskopplingspussel gratis | LessonCraftStudio',
-    metaDescription: 'Skapa rutnätskopplingspussel gratis online. 2×2 till 4×4 rutnät, ledtrådsceller, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Rita på rutnät gratis online | Rutnätsritningsgenerator',
+    metaDescription: 'Skapa rita-på-rutnät uppgifter gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis rutnätskopplingspussel online',
-    tagline: 'Konfigurerbart rutnät med justerbara ledtrådsceller och automatiskt facit — gratis provversion med vattenmärke',
+    title: 'Rita på rutnät gratis online — Rutnätsritningsgenerator',
+    tagline: 'Skapa rita-på-rutnät uppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa rutnätskopplingspussel — helt gratis att testa online. En bild delas upp i plattor, och användarna matchar numrerade plattor till rätt positioner. Konfigurera 2×2 till 4×4 rutnät med 1–5 ledtrådsceller. Rent visuellt — universellt säljbart utan översättning. Automatiskt facit med numrerade cirklar ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker visuella pussel att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

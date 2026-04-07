@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables sommar — Verksamhet | LessonCraftStudio',
-    metaDescription: 'Upptäck sommar utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Strand- och soltema produktkoncept, säsongsstrategier och plattformstips för.',
+    titleTag: 'Sommartema printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj sommartema printables på Etsy och KDP. Produktidéer med strand, glass och sol för pysselbok och arbetsblad barn.',
 
-    primaryKeyword: 'printables sommar idéer verksamhet',
+    primaryKeyword: 'sommartema printables att sälja',
     secondaryKeywords: [
-      'sommartema arbetsblad att sälja',
-      'sommar utskriftsbart företag idéer',
-      'sommar aktivitetsblad för säljare',
-      'sälja sommar utskriftsbara på Etsy',
+      'sommar arbetsblad Etsy',
+      'sommartema pysselbok KDP',
+      'strand glass printables barn',
+      'sommarpyssel aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'strand och sol pedagogiska arbetsblad',
-      'varmt väder aktivitetssidor',
-      'semestertema utskriftsbara för säljare',
+      'sommartema uppgifter förskoleklass',
+      'sommar arbetsblad lågstadiet',
+      'semester pyssel barn att skriva ut',
     ],
   },
   hero: {
-    title: 'Sommar utskriftsbara affärsidéer för säljare',
+    title: 'Sommartema printables — produktidéer för säljare',
     description: 'Sommaren öppnar det längsta ihållande försäljningsfönstret i den säsongsbetonade kalendern för utskriftsbara produkter, med efterfrågan som byggs från maj till augusti när föräldrar söker strukturerade aktiviteter för att motverka sommarens inlärningsförlust, läger och daghem fyller på med tematiserade arbetsblad och familjer förbereder reseunderhållning för semesterresor. Nischen erbjuder ett expansivt utbud av underämnen inklusive strandscener, solsken, glass, vattenmelon, sandslott, solrosor, swimmingpooler, sjöstjärnor, snäckskal och flip-flops, vilket ger säljare ett livfullt visuellt ordförråd som fångar den energi och spänning som barn förknippar med de varmaste månaderna. Hemundervisande familjer som fortsätter utbildning under sommarmånaderna tillför konsekvent efterfrågan under hela fönstret, medan semesterbibelskolor och samhällets fritidsprogram skapar ytterligare köparsegment som söker massaktivitetsresurser. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad kombinerar sommarnischen förlängd säsongsbetonad efterfrågan med universellt tilltalande bildspråk som fotograferas vackert för produktlistningar. Denna guide täcker specifika produktidéer, plattformsstrategier och timingmetoder för att hjälpa dig bygga en lönsam utskriftbar sommarproduktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara sommarprodukter utmärker sig från andra säsongsbetonade kategorier på grund av sin rena varaktighet och intensiteten av föräldraefterfrågan på strukturerade barnaktiviteter. Medan de flesta helgdagsnischer levererar koncentrerade två till fyra veckors försäljningsfönster sträcker sig sommaren över fyra fulla månader av aktivt köpande från maj till augusti, med tidiga köpare och lägersamordnare som börjar sina sökningar i april. Denna förlängda tidslinje innebär att sommarutskriftlistningar har mer tid att ackumulera recensioner, klättra i sökrankningar och generera ackumulerande organisk trafik under hela säsongen. Föräldrar blir det dominerande köparsegmentet under sommarmånaderna allteftersom skolrutiner upplöses och verkligheten av att hålla barn engagerade, underhållna och lärande i veckor på slutet driver brådskande sökningar efter utskriftsbara aktiviteter som ger struktur utan formaliteten hos formellt kursplaneinnehåll.

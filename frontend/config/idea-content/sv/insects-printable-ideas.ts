@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables insekter — Verksamhet | LessonCraftStudio',
-    metaDescription: 'Upptäck insektstematiserade utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Kryp- och fjärilskoncept, plattformsstrategier och nischtips för.',
+    titleTag: 'Insekter printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj insektstema printables på Etsy och KDP. Produktidéer med fjäril, nyckelpiga och bi för pysselbok och arbetsblad barn.',
 
-    primaryKeyword: 'insekter printables verksamhet utskriftsbara för',
+    primaryKeyword: 'insekter printables att sälja',
     secondaryKeywords: [
-      'insektstematiserade arbetsblad att sälja',
-      'kryp utskriftsbart företag idéer',
-      'insekt aktivitetsblad för säljare',
-      'sälja insekt utskriftsbara på Etsy',
+      'insektstema arbetsblad Etsy',
+      'insekter pysselbok KDP',
+      'fjäril nyckelpiga printables barn',
+      'småkryp aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'entomologiaktiviteter för barn',
-      'kryptematiserade pedagogiska arbetsblad',
-      'småkryp tematiserade utskriftsbara',
+      'insekter uppgifter förskoleklass',
+      'kryp arbetsblad lågstadiet',
+      'livscykel fjäril att skriva ut',
     ],
   },
   hero: {
-    title: 'Insekter utskriftsbara affärsidéer för säljare',
+    title: 'Insekter printables — produktidéer för säljare',
     description: 'Insekter erbjuder säljare av utskriftsbara produkter ett av de mest universellt fascinerande djurtemana med djupa kopplingar till naturvetenskaplig utbildning och säsongsbetonade efterfrågemönster. Barn fängslas naturligt av fjärilar, nyckelpigor, myror och bin, och förvandlar vardagliga möten i trädgården till inlärningsmöjligheter som föräldrar gärna stöder med arbetsbladsköp. Insektsnischen gynnas av stark överensstämmelse med naturvetenskapliga ämnen som täcker livscykler, livsmiljöer, metamorfos och ekosystem. Med över en miljon kända arter är de kreativa möjligheterna för produktdifferentiering praktiskt taget obegränsade. Vår och sommar driver toppefterfrågan när barn studerar fjärilar, trädgårdar surrar av aktivitet och familjer utforskar naturen tillsammans. För säljare på Etsy, Amazon KDP och Gumroad representerar insektstematiserade utskriftsbara produkter en nisch där pedagogisk relevans möter barndomsnyfikenhet för att skapa pålitlig försäljningspotential året runt. Denna guide ger specifika produktidéer, plattformsstrategier och prissättningsmetoder för att hjälpa dig bygga en lönsam insektstematiserad utskriftbar produktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara insektprodukter befinner sig i skärningspunkten mellan naturvetenskaplig utbildning och barndomsfascination, vilket skapar efterfrågan från föräldrar och hemundervisare som alla erkänner det pedagogiska värdet av kryptematiserade lärandematerial. Barn stöter på insekter dagligen i sina trädgårdar, parker och bakgårdar, vilket gör dessa varelser omedelbart relaterbara och ändlöst intressanta för barn. Föräldrar söker efter insektarbetsblad för att kanalisera denna naturliga nyfikenhet till strukturerade inlärningsaktiviteter, medan köpare behöver resurser för entomologienheter, livscykelstudier och livsmiljöutforskningar som förekommer genom hela tidig barndom och grundskolans kursplaner.

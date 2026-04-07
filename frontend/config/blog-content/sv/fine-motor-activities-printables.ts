@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'finmotorik aktiviteter utskrifter',
+    primaryKeyword: 'sälja finmotorik arbetsblad printable',
     secondaryKeywords: [
-      'finmotorik-aktiviteter utskrifter Etsy',
-      'finmotorik-aktiviteter utskrifter foeretagande',
-      'utskrifter finmotorik-aktiviteter utskrifter',
+      'klippövningar spårning barn PDF',
+      'finmotorik aktiviteter skriva ut',
+      'prick-till-prick övningar förskola',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'motorisk utveckling barn material',
+      'saxövning spårningsblad printable',
+      'handmotorik förskola aktivitetsblad',
     ],
-    titleTag: 'Finmotorik-Aktiviteter: Utskrifter | LCS',
-    metaDescription: 'Finmotorik-utskrifter som klippövningar, spårning och prickning säljer starkt till föräldrar med förskolebarn. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Finmotorik-Arbetsblad Printable | LCS',
+    metaDescription: 'Finmotorik-printables som klippövningar, spårning och prickning säljer starkt. Skapa och sälj till föräldrar med förskolebarn.',
   },
   hero: {
-    title: 'Finmotorik-Aktiviteter: Utskrifter',
-    tagline: 'Finmotorik är grunden för all framtida skrivning',
+    title: 'Sälj Finmotorik-Printables: Stark Efterfrågan',
+    tagline: 'Klippövningar, spårning och prickning som förskoleföräldrar söker',
     description: 'Finmotorik-utveckling är en prioritet för svenska föräldrar. Klippövningar, spårningsblad och prick-till-prick-aktiviteter säljer bra.',
   },
   category: 'product-guide',

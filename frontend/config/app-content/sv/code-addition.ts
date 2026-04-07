@@ -2,26 +2,26 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'hemliga kodpussel matte att sälja på Etsy',
+    primaryKeyword: 'hemligt meddelande med räknestycken skriva ut',
     secondaryKeywords: [
-      'kodadditions arbetsblad generator för Etsy-säljare',
-      'mattepussel med hemlig kod för Amazon KDP',
-      'kodknäckningspussel matte kommersiell licens',
-      'Avslöja Ord mattepussel att sälja online',
+      'kodknäckare matte uppgift',
+      'hemlig kod plusstycken',
+      'mattegåta arbetsblad',
+      'koduppgifter matematik',
     ],
     lsiKeywords: [
-      'kryptaritmetik arbetsblad printables',
-      'passiv inkomst mattepussel',
-      'flerspråkiga kodpussel verksamhet',
-      'svenska marknaden pusselblad',
+      'knäcka kod',
+      'dechiffrera',
+      'dolt meddelande',
+      'gåta',
     ],
-    titleTag: 'Kodpussel matte att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa hemliga kodpussel med matte att sälja på Etsy och KDP. Avslöja Ord i 11 språk, facit, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Hemligt meddelande med räknestycken | Kodknäckargenerator',
+    metaDescription: 'Skapa uppgifter där barn löser plusstycken för att knäcka hemliga meddelanden. Temabilder, facit inkluderat. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa hemliga kodpussel med matte att sälja på Etsy och KDP',
-    tagline: 'Förvandla addition till ett detektivuppdrag där varje bild döljer ett hemligt nummer.',
+    title: 'Hemligt meddelande med räknestycken — Kodknäckargenerator',
+    tagline: 'Skapa uppgifter där barn löser plusstycken för att avslöja hemliga meddelanden — prova gratis med vattenmärke.',
     description:
       'Skapa kodknäckningspussel med matte att sälja på Etsy och Amazon KDP — ett unikt produktformat som sticker ut bland vanliga additionsblad. Varje bild på arbetsbladet döljer ett hemligt nummer, och köparna löser additionsuppgifter för att knäcka koden. Byt till Avslöja Ord läget för att dölja ett hemligt ord — varje löst ekvation avslöjar en bokstav, medan tre vilseledande ekvationer höjer spänningen. Generatorn stöder elva språkspecifika alfabet med å, ä och ö inbyggt för svenska. Välj bland mer än 3 100 bilder i 104 teman, konfigurera talintervall från 1 till 20 med två till fem kodsymboler per arbetsblad, och exportera tryckfärdiga PDF:er i 400+ DPI med automatiska facit. Kodknäckningsformatet är oemotståndligt i produktminiatyrer på Etsy och särskiljer dina produkter från alla konkurrenter. Den svenska marknaden för pedagogiska pussel på Etsy är i princip obefintlig — du kan vara först. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

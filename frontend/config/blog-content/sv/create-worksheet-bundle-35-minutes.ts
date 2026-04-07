@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skapa arbetsbladspaket 35 minuter',
+    primaryKeyword: 'skapa arbetsbladspaket snabbt Etsy',
     secondaryKeywords: [
-      'skapa arbetsbladspaket minuter Etsy',
-      'skapa arbetsbladspaket foeretagande',
-      'utskrifter skapa arbetsbladspaket',
+      'arbetsblad bundle 35 minuter',
+      'snabb produktskapande printables',
+      'effektivt skapa PDF-paket sälja',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'arbetsflöde printable-produktion',
+      'generator arbetsblad Etsy-listning',
+      'mockup till Etsy-publicering',
     ],
-    titleTag: 'Skapa ett Arbetsbladspaket på 35 Minuter | LCS',
-    metaDescription: 'Steg-för-steg: Skapa ett komplett 30-sidors arbetsbladspaket på 35 minuter med generatorn. Inklusive mockups. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skapa Arbetsbladspaket på 35 Minuter | LCS',
+    metaDescription: 'Skapa ett komplett 30-sidors arbetsbladspaket på 35 minuter med vår generator. Steg-för-steg från idé till Etsy-listning.',
   },
   hero: {
-    title: 'Skapa ett Arbetsbladspaket på 35 Minuter',
-    tagline: 'Den snabbaste vägen från idé till publicerad produkt',
+    title: 'Arbetsbladspaket på 35 Minuter: Steg för Steg',
+    tagline: 'Från idé till publicerad Etsy-listning på en halvtimme',
     description: 'Med rätt arbetsflöde och verktyg kan du gå från idé till publicerat Etsy-listing på 35 minuter. Här är den exakta processen.',
   },
   category: 'how-to',

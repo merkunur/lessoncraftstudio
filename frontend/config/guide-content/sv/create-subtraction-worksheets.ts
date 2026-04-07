@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'subtraktionsblad sälja subtraktionsarbetsblad för',
+    primaryKeyword: 'skapa subtraktionsuppgifter att skriva ut för barn',
     secondaryKeywords: [
-      'gör subtraktionsarbetsblad för barn',
-      'subtraktionsarbetsblad generator',
-      'utskriftsklara subtraktionsarbetsblad att sälja',
-      'anpassade subtraktionsövningsblad',
+      'subtraktionsarbetsblad generator barn att skriva ut',
+      'matteövning subtraktion skriva ut PDF förskoleklass',
+      'sälja subtraktionsblad Etsy printable matematik',
+      'Amazon KDP pysselbok subtraktion matteuppgifter',
     ],
     lsiKeywords: [
-      'överkorsade bilder subtraktionsarbetsblad',
-      'visuell subtraktion för förskoleklass',
-      'årskurs 1 subtraktionsövning',
-      'sälja subtraktionsarbetsblad på Etsy',
-      'Amazon KDP subtraktionsaktivitetsböcker',
-      'kommersiell licens arbetsbladsverktyg',
+      'överkorsade bilder visuell subtraktion förskoleklass',
+      'subtraktion lågstadiet åk 1 matteövning att skriva ut',
+      'fyra övningslägen korsning bild-tal blandat',
+      'sälja subtraktionsarbetsblad Etsy printable digitala',
+      'Amazon KDP pysselbok subtraktion matteaktivitetsbok',
+      'kommersiell licens arbetsbladsverktyg facit automatiskt',
     ],
-    titleTag: 'Subtraktionsblad att sälja | LessonCraftStudio',
-    metaDescription: 'Skapa subtraktionsarbetsblad för barn med överkorsade bilder, tematiska visuella element och automatiska facit. Steg-för-steg-guide för Etsy, KDP och Gumroad.',
+    titleTag: 'Skapa subtraktionsuppgifter att skriva ut | LCS',
+    metaDescription: 'Skapa subtraktionsarbetsblad att skriva ut med överkorsade bilder, 4 övningslägen och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar subtraktionsarbetsblad för barn',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska subtraktionsarbetsblad med överkorsade bilder, konfigurerbar svårighet och tryckfärdig export du kan sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa subtraktionsuppgifter att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa subtraktionsarbetsblad med överkorsade bilder, konfigurerbar svårighet och tryckfärdig export för Etsy, Amazon KDP och Gumroad',
     description: 'Subtraktionsarbetsblad är det naturliga andra steget i varje matteproduktkatalog. När barn bemästrar addition följer subtraktion omedelbart — och efterfrågan på övningsmaterial likaså. Denna guide leder dig genom hela skapandeprocessen med Subtraktionsarbetsblad-generatorn — från att ställa in Max Minuend och välja ett visuellt tema till att exportera tryckfärdiga PDF:er med automatiska facit. Generatorns signaturfeature är övningsläget med överkorsade bilder, där barn ser en grupp tematiska bilder med några visuellt överkorsade och måste bestämma hur många som finns kvar.',
   },
 

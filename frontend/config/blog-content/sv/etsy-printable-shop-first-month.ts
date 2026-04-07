@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'första månaden etsy butik guide',
+    primaryKeyword: 'starta Etsy printable-butik första månaden',
     secondaryKeywords: [
-      'optimering för framgång',
-      'tillväxtstrategier',
-      'mäta förbättra resultat',
+      'öppna Etsy-butik sälja printables',
+      'nybörjarguide Etsy digitala produkter',
+      '30 dagars plan Etsy-shop',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'första listningarna Etsy tips',
+      'ny Etsy-butik synlighet',
+      'komma igång sälja arbetsblad online',
     ],
-    titleTag: 'Första Månaden med Etsy-Butik: Guide | LCS',
-    metaDescription: 'Din första månad på Etsy avgör framtiden. Steg-för-steg-plan med dagliga uppgifter för nya utskriftssäljare.',
+    titleTag: 'Starta Etsy Printable-Butik: 30-Dagarsplan | LCS',
+    metaDescription: 'Steg-för-steg-plan för din första månad som printable-säljare på Etsy. Dagliga uppgifter som bygger en lönsam butik.',
   },
   hero: {
-    title: 'Första Månaden med Etsy-Butik: Guide',
-    tagline: 'Vad du ska fokusera på de första 30 dagarna',
+    title: 'Starta Printable-Butik på Etsy: 30-Dagarsplan',
+    tagline: 'Vad du ska göra dag för dag de första 30 dagarna',
     description: 'De första 30 dagarna på Etsy sätter tonen. Fokusera på kvalitetslistningar, rätt prissättning och konsekvent publicering.',
   },
   category: 'platform-strategy',

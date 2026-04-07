@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ordgissning arbetsblad saelj',
+    primaryKeyword: 'ordgissning arbetsblad sälja Etsy printable',
     secondaryKeywords: [
-      'ordgissning-arbetsblad sälj online Etsy',
-      'ordgissning-arbetsblad sälj foeretagande',
-      'utskrifter ordgissning-arbetsblad sälj',
+      'hänga gubbe ordspel printable barn',
+      'ordgissning pysselbok KDP ordförråd',
+      'word guess arbetsblad SFI-material',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'ordspel arbetsblad barn 6-12 år',
+      'ordförrådsövning printable-nisch',
+      'klassiska ordspel skriva ut sälja',
     ],
-    titleTag: 'Ordgissning-Arbetsblad: Sälj Online | LCS',
-    metaDescription: 'Ordgissning-arbetsblad (hangman-stil) säljer bra. Klassiskt ordspel i utskriftsformat för barn och familjer. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Ordgissning-Arbetsblad: Sälj Printables',
+    metaDescription: 'Sälj ordgissning-arbetsblad som printables. Ordspel i hangman-stil för barn och SFI. Säljer bra på Etsy och KDP.',
   },
   hero: {
-    title: 'Ordgissning-Arbetsblad: Sälj Online',
-    tagline: 'Ordgissning är det mest beroendeframkallande ordspelet',
+    title: 'Ordgissning-Arbetsblad: Sälj som Printable',
+    tagline: 'Ordgissning kombinerar ordförråd med spelmoment',
     description: 'Ordgissning-spel i arbetsbladsformat kombinerar ordförrådsövning med spelmoment. Populärt för barn 6-12 år och SFI-elever.',
   },
   category: 'product-guide',

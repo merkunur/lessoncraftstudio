@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'korsordsmaker att sälja på Etsy och KDP',
+    primaryKeyword: 'korsord generator',
     secondaryKeywords: [
-      'bildkorsord generator för Etsy-säljare',
-      'korsordspussel med bilder för Amazon KDP',
-      'korsordsblad kommersiell licens',
-      'korsord arbetsblad att sälja online',
-      'bildkorsord pusselbok att publicera på KDP',
+      'skapa korsord',
+      'korsord skriva ut',
+      'korsord med bilder',
+      'korsordspussel generator',
     ],
     lsiKeywords: [
-      'passiv inkomst korsordspussel',
-      'printables-verksamhet korsord',
-      'flerspråkiga korsord produktlinje',
-      'svenska marknaden korsord Etsy',
+      'ledtrådar',
+      'rutnät',
+      'vågrätt',
+      'lodrätt',
+      'facit',
     ],
-    titleTag: 'Korsord att sälja på Etsy och KDP | LessonCraftStudio',
-    metaDescription: 'Skapa bildkorsord att sälja på Etsy och KDP. 15×15 rutnät, bildledtrådar, 11 språk, automatiskt facit, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Korsord generator | Skapa med bilder och facit',
+    metaDescription: 'Skapa korsord med bildledtrådar på ett 15×15-rutnät. 4 inmatningsmetoder, 104 teman, automatiskt facit. Prova gratis — kommersiell licens.',
   },
 
   hero: {
-    title: 'Skapa bildkorsord att sälja på Etsy och Amazon KDP',
-    tagline: 'Ersätt traditionella textledtrådar med bildledtrådar på ett 15×15 korsord — fyra inmatningsmetoder, automatiskt facit och 104 tematiska bildsamlingar.',
+    title: 'Korsord generator — Skapa korsord med bilder och facit',
+    tagline: 'Skapa korsord med bildledtrådar på ett 15×15-rutnät i 11 språk — prova gratis med vattenmärke.',
     description:
       'Skapa bildkorsord att sälja på Etsy eller sammanställa i korsordspusselböcker för Amazon KDP. Åtta bilder genererar åtta ord på ett 15×15-rutnät — bildledtrådarna gör att pusslen sticker ut bland textbaserade konkurrenter i sökresultat. Generatorn är språkkänslig: samma bilder producerar svenska korsord med \"KATT\", engelska med \"CAT\" och tyska med \"KATZE\" — vilket gör varje språkversion till en unik, säljbar produkt. Välj bland fyra inmatningsmetoder inklusive snabb temagenerering och anpassad ordlista. Automatiskt facit med ifyllt rutnät ingår. Exportera tryckfärdiga PDF:er i Letter och A4 med mer än 3 100 illustrationer i 104 teman. Korsordspussel med bilder på svenska för Etsy och KDP är en nisch med i princip noll konkurrens — var först. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

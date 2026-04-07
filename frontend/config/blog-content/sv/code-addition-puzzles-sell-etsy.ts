@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kod-additionspussel saelj Etsy',
+    primaryKeyword: 'sälja kodpussel addition på Etsy',
     secondaryKeywords: [
-      'kod-additionspussel sälj etsy Etsy',
-      'kod-additionspussel sälj foeretagande',
-      'utskrifter kod-additionspussel sälj',
+      'mattepussel med kodknäckning printable',
+      'hemligt meddelande matte arbetsblad',
+      'gamifierad matte barn PDF',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'kodknäckning addition övningar',
+      'nisch mattepussel låg konkurrens',
+      'pusselbok barn matte Etsy',
     ],
-    titleTag: 'Kod-Additionspussel: Sälj på Etsy | LCS',
-    metaDescription: 'Kod-additionspussel kombinerar matte med kodknäckning. Unik nisch med låg konkurrens och hög efterfrågan.',
+    titleTag: 'Sälj Kod-Additionspussel på Etsy | LCS',
+    metaDescription: 'Kod-additionspussel kombinerar matte med kodknäckning. Unik nisch med låg konkurrens. Skapa och sälj gamifierad matte på Etsy.',
   },
   hero: {
-    title: 'Kod-Additionspussel: Sälj på Etsy',
-    tagline: 'Gamifierad matte som barn vill lösa',
+    title: 'Sälj Kod-Additionspussel: Unik Mattenisch',
+    tagline: 'Gamifierad matte med kodknäckning som barn älskar att lösa',
     description: 'Kod-additionspussel gör matte roligt genom att kombinera addition med hemliga meddelanden. En unik nisch med minimalt utbud på Etsy.',
   },
   category: 'product-guide',

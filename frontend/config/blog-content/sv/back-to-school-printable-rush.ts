@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'försäljning för skolstarts rushen maximera',
+    primaryKeyword: 'sälja skolstartsmaterial på Etsy augusti',
     secondaryKeywords: [
-      'skolstart utskrifter Etsy',
-      'augusti arbetsblad foersaeljning',
-      'hoesttermin utskrifter',
+      'skolstart arbetsblad printables',
+      'höstterminen utskrifter försäljning',
+      'förskoleklass material Etsy',
     ],
     lsiKeywords: [
-      'skolstart saesong',
-      'hoesttermin produkter',
-      'foersaeljningstopp skolstart',
+      'säsongstoppar printable business',
+      'årskurs 1 mattepaket sälja',
+      'skolstart Sverige vecka 33',
     ],
-    titleTag: 'Skolstarts-Rushen: Maximera Försäljning | LCS',
-    metaDescription: 'Skolstarten i augusti-september är årets största försäljningsperiod för utskrifter. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skolstarts-Rushen: Sälj Printables Augusti | LCS',
+    metaDescription: 'Skolstarten ger 30% av årsintäkten för printable-säljare. Planera din Etsy-butik för höstterminens rush med rätt timing och produkter.',
   },
   hero: {
-    title: 'Skolstarts-Rushen: Maximera Utskriftsförsäljningen',
-    tagline: 'Augusti-september kan stå för 30% av din årsintäkt',
+    title: 'Skolstarts-Rushen: Sälj Mer i Augusti-September',
+    tagline: 'Rätt timing ger 30% av din årsintäkt på en månad',
     description: 'Skolstarten är den mest lönsamma perioden för utskriftssäljare. Föräldrar förbereder barnen, hemundervisare planerar läsåret, och pedagoger letar nytt material. Den här guiden visar hur du förbereder din butik med en tidsplan som börjar redan i juni.',
   },
   category: 'niche-seasonal',

@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sälj ritnings symmetriarbetsblad ritblad sälja hur',
+    primaryKeyword: 'skapa ritövningar symmetri att skriva ut',
     secondaryKeywords: [
-      'rutnätsritning arbetsblad för barn',
-      'symmetriarbetsblad generator',
-      'utskriftsklara ritarbetsblad att sälja',
-      'cell-för-cell reproduktionsarbetsblad',
+      'symmetriarbetsblad generator barn att skriva ut',
+      'rutnätsritning övningsblad skriva ut PDF',
+      'sälja ritarbetsblad Etsy printable symmetri',
+      'Amazon KDP pysselbok ritning symmetriövningar',
     ],
     lsiKeywords: [
-      'dubbelrutnät rit-printables',
-      'justerbar ledtrådsprocent arbetsblad',
-      'spegelläge symmetriövningar',
-      'sälja ritarbetsblad på Etsy',
-      'Amazon KDP rit-aktivitetsböcker',
-      'S/V konturarbetsblad verktyg',
+      'dubbelrutnät ritövning ledtrådsprocent konturer',
+      'spegelläge symmetriövning horisontell vertikal',
+      'rumslig medvetenhet finmotorik förskoleklass lågstadiet',
+      'sälja ritarbetsblad Etsy printable digitala produkter',
+      'Amazon KDP pysselbok ritning symmetri aktivitetsbok',
+      'S/V konturer kommersiell licens 100+ teman',
     ],
-    titleTag: 'Ritblad att sälja online | LessonCraftStudio',
-    metaDescription: 'Skapa ritnings- och symmetriarbetsblad med dubbelrutnätssystem, justerbar ledtrådsprocent, tre symmetrilägen och S/V-konturer. Sälj på Etsy och KDP. Prova.',
+    titleTag: 'Skapa ritövningar att skriva ut | LCS',
+    metaDescription: 'Skapa ritnings- och symmetriarbetsblad att skriva ut. Dubbelrutnät, justerbar svårighet och S/V-konturer. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar ritnings- och symmetriarbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa rutnätsritningsarbetsblad med justerbar svårighet, symmetrilägen och S/V-konturteman du kan sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa ritövningar och symmetriblad att skriva ut',
+    tagline: 'Steg-för-steg: skapa rutnätsritningsarbetsblad med symmetrilägen, justerbar svårighet och S/V-konturer för Etsy, Amazon KDP och Gumroad',
     description: 'Rutnätsritningsarbetsblad kombinerar två högefterfrågade färdigheter på en enda sida: rumslig reproduktion och symmetriigenkänning. användare kopierar en referensbild cell-för-cell från ett delvis avslöjat ledtrådsrutnät till ett blankt övningsrutnät. Denna guide leder dig genom hela skapandeprocessen med Rita och Färglägg Arbetsblad-generatorn — från att konfigurera rutnätsdimensioner och ledtrådsprocent till att välja symmetrilägen och exportera tryckfärdiga PDF:er. Dubbelrutnätsformatet, nolltext-output och S/V-konturstil gör dessa arbetsblad universellt säljbara utan översättning.',
   },
 

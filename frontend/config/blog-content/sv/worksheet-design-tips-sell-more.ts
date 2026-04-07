@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'arbetsblad designtips saelj mer',
+    primaryKeyword: 'arbetsblad design tips sälj mer Etsy',
     secondaryKeywords: [
-      'arbetsblad-designtips sälj Etsy',
-      'arbetsblad-designtips sälj foeretagande',
-      'utskrifter arbetsblad-designtips sälj',
+      'professionell layout arbetsblad printable',
+      'designtips printable-säljare premium',
+      'visuell hierarki arbetsblad säljer bättre',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'layout whitespace typografi arbetsblad',
+      'professionell design ökar konvertering',
+      'premium-pris printables designkvalitet',
     ],
-    titleTag: 'Arbetsblad-Designtips: Sälj Mer | LCS',
-    metaDescription: 'Designtips som gör dina arbetsblad professionella och attraktiva. Layout, typografi och visuell hierarki som säljer. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Arbetsblad-Design: Tips för Att Sälj Mer',
+    metaDescription: 'Designtips som gör arbetsblad professionella. Layout, typografi och visuell hierarki som motiverar premium-priser.',
   },
   hero: {
-    title: 'Arbetsblad-Designtips: Sälj Mer',
-    tagline: 'Professionell design motiverar premium-priser',
+    title: 'Arbetsblad-Design: Tips för Att Sälj Mer',
+    tagline: 'Professionell design motiverar premium-priser på Etsy',
     description: 'Professionell design är det som skiljer 49 kr-produkter från 149 kr-produkter. Lär dig grunderna i layout, whitespace och visuell hierarki.',
   },
   category: 'how-to',

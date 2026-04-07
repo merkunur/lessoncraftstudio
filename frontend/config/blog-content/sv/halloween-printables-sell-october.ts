@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Halloween utskrifter saelj oktober',
+    primaryKeyword: 'sälja Halloween-printables oktober',
     secondaryKeywords: [
-      'halloween-utskrifter sälj oktober Etsy',
-      'halloween-utskrifter sälj foeretagande',
-      'utskrifter halloween-utskrifter sälj',
+      'Halloween arbetsblad skriva ut sälja',
+      'Halloween aktiviteter barn Etsy',
+      'höst oktober printables affärsidé',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'Halloween pyssel barn PDF',
+      'säsongstoppar oktober printables',
+      'spöktema färgläggning pussel',
     ],
-    titleTag: 'Halloween-Utskrifter: Sälj i Oktober | LCS',
-    metaDescription: 'Halloween-utskrifter har en kort men intensiv säljsäsong. Maximera försäljningen september-oktober. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Halloween-Printables i Oktober | LCS',
+    metaDescription: 'Halloween-printables har kort men intensiv säljsäsong. Maximera försäljningen september-oktober med rätt timing och produkter.',
   },
   hero: {
-    title: 'Halloween-Utskrifter: Sälj i Oktober',
-    tagline: 'Halloween-boomen börjar i september och toppar i oktober',
+    title: 'Sälj Halloween-Printables: Oktobertopppen',
+    tagline: 'Halloween växer i Sverige och ger en intensiv försäljningstopp',
     description: 'Halloween växer i Sverige. Utklädnad, dekorationer och aktiviteter för barn ökar varje år. Utskrifter med Halloween-tema säljer bra.',
   },
   category: 'niche-seasonal',

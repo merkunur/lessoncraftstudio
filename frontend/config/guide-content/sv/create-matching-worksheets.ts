@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'matchningsarbetsblad skapar förskola sälja',
+    primaryKeyword: 'skapa matchningsövningar att skriva ut förskola',
     secondaryKeywords: [
-      'matchningsarbetsblad för förskola',
-      'matchningsarbetsblad generator',
-      'utskriftsklara matchningsaktiviteter att sälja',
-      'dra-en-linje matchningsarbetsblad',
+      'matchningsarbetsblad generator barn att skriva ut',
+      'dra-en-linje matchning övningsblad PDF sälja',
+      'sälja matchningsarbetsblad Etsy printable förskola',
+      'Amazon KDP pysselbok matchning bildmatchning',
     ],
     lsiKeywords: [
-      'bildmatchning arbetsblad förskola',
-      'bokstavsmatchning förskoleklass',
-      'visuell diskriminering arbetsblad',
-      'sälja matchningsarbetsblad på Etsy',
-      'Amazon KDP matchnings-aktivitetsböcker',
-      'kommersiell licens arbetsbladsverktyg',
+      'bildmatchning arbetsblad förskola förskoleklass',
+      'bokstavsmatchning visuell diskriminering övning',
+      'dra-en-linje kopplingslinjer automatiskt facit',
+      'sälja matchningsarbetsblad Etsy printable digitala produkter',
+      'Amazon KDP pysselbok matchning aktivitetsbok',
+      'kommersiell licens arbetsbladsverktyg flerspråkig',
     ],
-    titleTag: 'Skapa matchningsarbetsblad att sälja | LCS',
-    metaDescription: 'Hur du skapar matchningsarbetsblad för förskola. Använd 4 lägen, tematiska bilder, automatiska facit med kopplingslinjer och exportera PDF att sälja på Etsy.',
+    titleTag: 'Skapa matchningsövningar att skriva ut | LCS',
+    metaDescription: 'Skapa matchningsarbetsblad att skriva ut med 4 lägen, tematiska bilder och automatiskt facit. Exportera PDF. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar matchningsarbetsblad för förskola',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska dra-en-linje matchningsarbetsblad med automatiska facit du kan sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa matchningsövningar att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa dra-en-linje matchningsarbetsblad med 4 lägen, tematiska bilder och automatiskt facit för Etsy, Amazon KDP och Gumroad',
     description: 'Matchningsarbetsblad är bland de mest mångsidiga förskole-printable-produkterna. De lär visuell diskriminering, bokstavsigenkänning, vokabulär och logisk parning — allt genom att dra en linje mellan två kolumner. Denna guide leder dig genom hela skapandeprocessen med Matchningsarbetsblad-generatorn — från att välja matchningsläge och tema till att exportera tryckfärdiga PDF:er med automatiska facit. Generatorn erbjuder fyra distinkta matchningslägen (Bokstav, Bild+Namn, Bild-eller-Namn och Anpassad), vilket gör det till ett av de mest flexibla verktygen.',
   },
 

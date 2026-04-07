@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'etsy sälj hur skapar',
+    primaryKeyword: 'skapa alfabetsövningar att skriva ut bokstavsträning',
     secondaryKeywords: [
-      'skapa alfabetståg arbetsblad att sälja',
-      'alfabetståg arbetsblad generator kommersiellt bruk',
-      'utskriftsbart bokstavsigenkänning tåg-generator för Etsy och KDP',
-      'språkkänsliga bokstavsmatchnings-arbetsblad med facit',
+      'alfabetståg arbetsblad generator att sälja',
+      'bokstavsigenkänning övningsblad skriva ut PDF',
+      'sälja bokstavsövningar Etsy förskoleklass',
+      'Amazon KDP pysselbok bokstäver alfabet',
     ],
     lsiKeywords: [
-      'elva färgglada tågvagnar bokstav-bild matchning arbetsblad-generator',
-      'automatiskt skapa manuellt val två skapandelägen alfabetgenerator',
-      'konfigurerbart tre till elva ledtrådsantal svårighetsskalning generator',
-      'sälja alfabetståg arbetsblad på Etsy',
-      'Amazon KDP bokstavsigenkänning tåg-arbetsböcker',
-      'kommersiell licens alfabetståg verktyg',
+      'tågvagnar bokstav-bild matchning arbetsblad generator',
+      'automatiskt manuellt val två skapandelägen bokstavsövning',
+      'konfigurerbar svårighet ledtrådar förskoleklass lågstadiet',
+      'sälja alfabetsblad Etsy printable bokstäver',
+      'Amazon KDP bokstavsigenkänning pysselbok alfabet',
+      'kommersiell licens flerspråkig 11 språk bokstavsträning',
     ],
-    titleTag: 'Alfabetsblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Hur du skapar alfabetståg-arbetsblad med tågvagnar, två skapandelägen, konfigurerbar svårighet och 104 temabildsamlingar. Sälj på Etsy, KDP och Gumroad.',
+    titleTag: 'Skapa alfabetsövningar att skriva ut | LCS',
+    metaDescription: 'Skapa alfabetståg-arbetsblad med bokstavsigenkänning, 11 språk och konfigurerbar svårighet. Exportera PDF att sälja på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar alfabetståg-arbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa bokstavsigenkännings-arbetsblad med 11 färgglada tågvagnar som bär bokstäver och matchande illustrationer, två skapandelägen (Automatisk skapning för slumpmässig generering och Manuellt val för produktkatalogsanpassade bokstavsgrupper), konfigurerbart ledtrådsantal från 3 till 11 för inbyggd svårighetsskalning, språkkänslig bokstavsmatchning över 11 inhemska alfabet där samma bild paras med olika bokstäver per språk, och automatiskt genererade facit du kan sälja över hela världen på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa alfabetsövningar att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa alfabetståg-arbetsblad med bokstavsigenkänning, konfigurerbar svårighet och flerspråkig generering för Etsy, Amazon KDP och Gumroad',
     description: 'Alfabetståg-arbetsblad är en visuellt distinkt bokstavsigenkänningsaktivitet där användare matchar utspridda ledtrådsbilder till rätt tågvagn baserat på vilken bokstav varje bild börjar med. Till skillnad från platta bokstavsövningsblad som smälter samman i marknadsplatslistningar är den färgglada 11-vagns tåglayouten omedelbart igenkännbar och scrollstoppande. Alfabetståg-generatorn erbjuder två skapandelägen — Automatisk skapning för snabb massproduktion och Manuellt val för handplockade bokstavsgrupper — plus ett konfigurerbart ledtrådsreglage från 3 till 11 som skapar naturliga svårighetsnivåer. Den verkliga konkurrensfördelen är språkkänslig bokstavsmatchning: samma bild paras med olika bokstäver beroende på valt språk, så en hundbild matchar D på engelska men H på tyska (Hund), C på franska (Chien) och P på spanska (Perro). Detta innebär att en designsession producerar genuint annorlunda pusselinnehåll på 11 språk.',
   },
 

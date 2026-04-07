@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mer och mindre-blad att sälja på Etsy',
+    primaryKeyword: 'större än mindre än uppgift skriva ut',
     secondaryKeywords: [
-      'jämförelsearbetsblad att sälja på Etsy',
-      'mer eller mindre generator för Amazon KDP',
-      'större-än mindre-än arbetsblad kommersiell licens',
-      'jämförelseblad att sälja online',
-      'jämförelsebok att publicera på KDP',
+      'jämföra tal uppgift',
+      'större än mindre än lika med',
+      'fler färre uppgift',
+      'jämföra mängder',
     ],
     lsiKeywords: [
-      'passiv inkomst jämförelseblad',
-      'printables-verksamhet taljämförelse',
-      'visuella jämförelser produktlinje',
-      'svenska marknaden matteblad Etsy',
+      'större än',
+      'mindre än',
+      'jämföra',
+      'mängder',
+      'tal',
     ],
-    titleTag: 'Mer och mindre-blad för Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa mer och mindre-blad att sälja på Etsy och KDP. 3 jämförelselägen, 104 teman, facit, 400+ DPI, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Större än mindre än uppgift att skriva ut | Jämförelsegenerator',
+    metaDescription: 'Skapa uppgifter om att jämföra tal och mängder med temabilder. Automatiskt facit, 300 DPI PDF. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa mer och mindre-blad att sälja på Etsy och Amazon KDP',
-    tagline: 'Förvandla taljämförelse till en visuell upptäcktsfärd med bildbaserade större-än och mindre-än arbetsblad.',
+    title: 'Större än mindre än uppgift att skriva ut — Jämförelsegenerator',
+    tagline: 'Skapa uppgifter om att jämföra tal och mängder med temabilder — prova gratis med vattenmärke.',
     description:
       'Skapa jämförelsearbetsblad att sälja på Etsy eller sammanställa i matteaktivitetsböcker för Amazon KDP. Tre övningslägen — Bild till Bild, Bild till Tal och det unika läget Kontrollera och Kryssa Grupper — ger variation för produktlinjer per svårighetsnivå. Växla mellan samma och olika bilder, välj illustrationssymboler eller matematiska tecken. Välj bland mer än 3 100 illustrationer i 104 teman. Jämförelseblad är en grundläggande mattefärdighet som efterfrågas av föräldrar och förskollärare. Den svenska marknaden på Etsy har minimal konkurrens för visuella jämförelseblad. Automatiskt facit och export i 400+ DPI ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

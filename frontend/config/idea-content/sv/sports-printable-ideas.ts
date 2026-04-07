@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables sport — Verksamhet | LessonCraftStudio',
-    metaDescription: 'Upptäck sport utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Atletiktema produktkoncept, plattformsstrategier och tips för helårsförsäljning.',
+    titleTag: 'Sporttema printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj sporttema printables på Etsy och KDP. Produktidéer med fotboll, basket och hockey för pysselbok och arbetsblad barn.',
 
-    primaryKeyword: 'printables sport idéer verksamhet',
+    primaryKeyword: 'sporttema printables att sälja',
     secondaryKeywords: [
-      'sporttema arbetsblad att sälja',
-      'sport utskriftsbart företag idéer',
-      'atletiska aktivitetsblad för säljare',
-      'sälja sport utskriftsbara på Etsy',
+      'sport arbetsblad Etsy',
+      'fotboll pysselbok KDP',
+      'idrott printables barn',
+      'sporttema aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'lagsport pedagogiska arbetsblad',
-      'bollspel tematiserade aktivitetssidor',
-      'idrottstema utskriftsbara produkter',
+      'sporttema uppgifter förskoleklass',
+      'idrott arbetsblad lågstadiet',
+      'bollsport pyssel barn att skriva ut',
     ],
   },
   hero: {
-    title: 'Sport utskriftsbara affärsidéer för säljare',
+    title: 'Sporttema printables — produktidéer för säljare',
     description: 'Sport är ett av de mest universellt engagerande temana för barn i alla åldrar, vilket gör det till en enastående tidlös nisch för utskriftsbara entreprenörer som söker konsekventa intäkter året runt drivna av säsongsbetonad sportrotation och bred tvärkursplanesmässig attraktionskraft. Sporttemat erbjuder anmärkningsvärt djup av underämnen inklusive fotboll, basketboll, amerikansk fotboll, baseboll, tennis, hockey, volleyboll, simning, löpning, gymnastik, olympiska spel, bollspel, lagsporter och individuella sporter, vilket ger säljare ett enormt visuellt ordförråd som kopplar till nästan varje barns aktiva intressen oavsett om de spelar i organiserade lag, njuter av trädgårdsspel eller tittar på sina favoritidrottare tävla på tv. Tvärkursplanesmässig mångsidighet gör sportutskrifter särskilt värdefulla eftersom atletik kopplar naturligt till matte genom poäng, statistik och räkning, läsning genom sportvokabulär och lagterminologi, idrott och hälsa genom rörelsemotivation och hälsomedvetenhet, och sociala färdigheter genom lagarbete och sportmannaskap. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad kombinerar sportnischen stark helårsefterfrågan med universell relaterbarhet som resonerar med idrottsfokuserade köpare som söker sportrelaterat material, säljare som skapar engagerande tematiserade aktiviteter, hemundervisande familjer som utforskar atletiska ämnen och föräldrar som letar efter pedagogiskt material som kanaliserar sitt barns sportentusiasm till produktiva inlärningsupplevelser. Denna guide täcker specifika produktidéer, plattformsstrategier och nischpositioneringsmetoder för att hjälpa dig bygga en lönsam utskriftbar sportproduktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara sportprodukter intar en unikt kraftfull position för säljare av utskriftsbara produkter eftersom nästan varje barn har en direkt, personlig koppling till sport genom att spela i lag, titta på matcher med familjen, samla idrottskort, bära lagtröjor eller delta i idrottslektioner och rastaktiviteter. Till skillnad från säsongsbetonade teman som koncentrerar efterfrågan till smala kalenderfönster gynnas sportnischen av naturlig säsongsrotation: fotboll dominerar höstsökningar, basketboll och hockey driver vinterefterfrågan, baseboll och fotboll ökar under vår och sommar, och simning och friidrott toppar under varma månader. Denna roterande cykel säkerställer att sporttematiserade pedagogiska material bibehåller konsekvent helårsrelevans istället för att bero på en enda toppperiod.

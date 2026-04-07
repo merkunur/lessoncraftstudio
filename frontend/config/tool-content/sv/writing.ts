@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis skrivövningar generator',
+    primaryKeyword: 'skrivmotorik uppgifter gratis skriva ut',
     secondaryKeywords: [
-      'skrivövningar generator gratis online',
-      'bokstavsspårning arbetsblad skapa gratis',
-      'handstilsövning skriva ut gratis',
-      'gratis skrivövningar med pilguidad streckordning',
+      'skrivövningar gratis online',
+      'bokstavsformning gratis',
+      'skrivmotorik förskoleklass gratis',
+      'överskrivning bokstäver gratis',
     ],
     lsiKeywords: [
-      'gratis skrivövningsblad online',
-      'bokstavsträning att skriva ut',
-      'handstilsövning förskoleklass gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'skrivmotorik',
+      'bokstäver',
+      'finmotorik',
     ],
-    titleTag: 'Skrivövningar gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa skrivövningar gratis online. Tre övningslägen, fem typsnitt, pilguidad streckordning, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skrivmotorik uppgifter gratis online | Skrivövningar',
+    metaDescription: 'Skapa skrivmotorik-uppgifter gratis online med egna ord. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis skrivövningar generator online',
-    tagline: 'Tre progressiva lägen med pilguidad streckordning och tonande bokstavsguider — gratis provversion med vattenmärke',
+    title: 'Skrivmotorik uppgifter gratis online — Generator skrivövningar',
+    tagline: 'Skapa skrivmotorik-uppgifter gratis med bokstavsformning — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa skrivövningsblad — helt gratis att testa online. Tre progressiva lägen: Spåra, Tonande Spårning och Guidad Kopiering. Fem typsnittsstilar inklusive pilguidad streckordning. Varje rad är oberoende konfigurerbar. Förskrivningsstreckövningar för finmotorisk uppvärmning ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker handstilsövningar att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

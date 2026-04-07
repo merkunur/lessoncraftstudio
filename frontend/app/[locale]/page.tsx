@@ -60,10 +60,10 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Werkbladen generator voor Etsy & KDP'
   },
   sv: {
-    title: 'Starta ett loensamnt utskriftsfoereag | LessonCraftStudio',
-    description: 'Bygg ett utskriftsfoereag paa Etsy, Amazon KDP eller TPT. 33 professionella generatorer, 3 000+ bilder, 11 spraak. Gratis provversion med vattenstempel.',
-    keywords: 'utskriftsfoereag, saelja utskrifter Etsy, KDP arbetsblad, extrainkomst utskrifter, ordsoek generator, professionella utskrifter',
-    ogAlt: 'LessonCraftStudio - Starta ett loensamnt utskriftsfoereag'
+    title: 'Arbetsblad generator | Skapa och sälj på Etsy & KDP',
+    description: '33 professionella arbetsbladsgeneratorer med 3 000+ bilder och 11 språk. Utskrivbara PDF:er på minuter. Prova gratis — kommersiell licens för Etsy, KDP & mer.',
+    keywords: 'arbetsblad generator, skapa arbetsblad skriva ut, uppgiftsgenerator, verktyg för att skapa uppgifter, ordsök generator, korsord generator, matteuppgifter generator, målarbilder skapa',
+    ogAlt: 'LessonCraftStudio — Arbetsblad generator för Etsy & KDP'
   },
   da: {
     title: 'Arbejdsark generator | Lav og sælg på Etsy & KDP',

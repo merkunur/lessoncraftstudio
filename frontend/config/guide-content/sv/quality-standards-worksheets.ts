@@ -2,26 +2,26 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kvalitetsstandarder för säljbara arbetsblad',
+    primaryKeyword: 'kvalitetskrav arbetsblad att sälja',
     secondaryKeywords: [
-      'utskriftsbar kvalitetschecklista',
-      'professionella arbetsbladsdesignstandarder',
-      'arbetsblad kvalitetskontroll försäljning',
-      'tryckfärdig arbetsbladsformatering',
+      'utskriftskvalitet arbetsblad Etsy KDP',
+      'professionella arbetsblad skriva ut PDF',
+      'kvalitetschecklista printables säljare',
+      'tryckfärdig formatering arbetsblad 300 DPI',
     ],
     lsiKeywords: [
       'utskriftskvalitet upplösning DPI-inställningar marginaljustering typsnittsläsbarhet',
-      'färgkonsistens PDF-formatering sidlayout facitnoggrannhet',
+      'färgkonsistens PDF-formatering sidlayout facitnoggrannhet A4 Letter',
       'korrekturarbetsflöde kundförväntningar professionell output filformat',
-      'utfallsinställningar pappersstorlekskompatibilitet visuell konsekvens varumärkesstandarder',
+      'utfallsinställningar pappersstorlekskompatibilitet visuell konsekvens',
       'recensionsbetyg köparförtroende produktionschecklista kvalitetssäkring',
     ],
-    titleTag: 'Kvalitetsstandarder för arbetsblad | LessonCraftStudio',
-    metaDescription: 'Kvalitetsstandarder säljare av arbetsblad behöver för professionell output. Upplösning, marginaler, typografi, facit och utskriftstestning för marknadsplatser.',
+    titleTag: 'Kvalitetskrav arbetsblad att sälja | LCS',
+    metaDescription: 'Kvalitetsstandarder för arbetsblad du säljer på Etsy och KDP. Upplösning, marginaler, typografi, facit och utskriftstestning. Komplett checklista för säljare.',
   },
 
   hero: {
-    title: 'Kvalitetsstandarder för arbetsblad',
+    title: 'Kvalitetskrav för arbetsblad att sälja',
     tagline: 'En komplett guide till kvalitetsstandarder som säljare av arbetsblad behöver för professionell output — inklusive upplösnings- och filformatstandarder, sidlayout- och marginalkrav, typografi- och läsbarhetsregler, färg- och visuell konsekvens, facitverifiering, kvalitetskontrollchecklistor före publicering, testning på flera skrivare och kvalitetsunderhåll över hela katalogen',
     description: 'Kvalitet är den enda faktorn som separerar arbetsbladsäljare som bygger hållbara företag från de som kämpar med dåliga recensioner, återbetalningsförfrågningar och sjunkande försäljning. Ett arbetsblad som ser professionellt ut på skärmen men skrivs ut med avklippta marginaler, suddig text eller feljusterade element skapar en negativ köparupplevelse som skadar ditt butiksrykte permanent. Denna guide ger en komplett kvalitetsstandardschecklista designad specifikt för säljare av utskriftsbara arbetsblad — från upplösnings- och formateringsstandarder genom typografi, facitnoggrannhet, utskriftstestning och kvalitetsunderhåll när din katalog skalas.',
   },

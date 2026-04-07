@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'nyaar utskrifter januari',
+    primaryKeyword: 'nyårsprintables sälja januari Etsy',
     secondaryKeywords: [
-      'produkter säljer denna nisch',
-      'skapandeprocess verktyg',
-      'marknadsföring säsongsplanering',
+      'nyårsarbetsblad barn skriva ut',
+      'målsättningsblad printables sälja',
+      'januariförsäljning digitala produkter',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'nyårslöften aktivitetsblad förskoleklass',
+      'säsongsprodukt januari printable-butik',
+      'skärmfri nyårsaktivitet barn ladda ner',
     ],
-    titleTag: 'Nyårs-Utskrifter: Januari-Försäljning | LCS',
-    metaDescription: 'Nyårsutskrifter säljer starkt i januari. Målsättningsblad, planerare och nya vanor-aktiviteter för barn och vuxna. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Nyårsprintables: Sälj på Etsy i Januari',
+    metaDescription: 'Nyårsprintables säljer starkt i januari. Målsättningsblad och planerare för barn. Skapa med generator, sälj på Etsy och Amazon KDP.',
   },
   hero: {
-    title: 'Nyårs-Utskrifter: Januari-Försäljning',
-    tagline: 'Januari är en underskattat försäljningsmånad',
+    title: 'Nyårsprintables: Sälj Starkt i Januari',
+    tagline: 'Januari är en underskattad toppmånad för printable-säljare',
     description: 'Januari är en ny start. Målsättningsblad, årsplanerare och aktiviteter med nystartstema säljer bra i början av året.',
   },
   category: 'niche-seasonal',

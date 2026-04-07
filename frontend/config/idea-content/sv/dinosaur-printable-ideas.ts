@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables dinosaurier — Verksamhet | LessonCraftStudio',
-    metaDescription: 'Utforska lönsamma dinosaurier utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Produktkoncept, plattformsstrategier och nischtips för säljare.',
+    titleTag: 'Dinosaurier printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj dinosaurietema printables på Etsy och KDP. Produktidéer med T-rex, triceratops och förhistoriska djur för pysselbok och arbetsblad.',
 
-    primaryKeyword: 'printables dinosaurier idéer verksamhet',
+    primaryKeyword: 'dinosaurier printables att sälja',
     secondaryKeywords: [
-      'dinosaurie arbetsblad att sälja',
-      'dinosaurietema utskriftsbart företag',
-      'dinosaurie aktivitetsblad för säljare',
-      'sälja dinosaurie utskriftsbara på Etsy',
+      'dinosaurietema arbetsblad Etsy',
+      'dinosaurier pysselbok KDP',
+      'dinosaurie aktiviteter att skriva ut',
+      'förhistoriska djur printables barn',
     ],
     lsiKeywords: [
-      'förhistoriska tematiserade pedagogiska arbetsblad',
-      'paleontologiaktiviteter för barn',
-      'jura-tema produktlinje utskriftsbara',
+      'dinosaurier uppgifter förskoleklass',
+      'dino arbetsblad lågstadiet',
+      'paleontologi aktiviteter barn',
     ],
   },
   hero: {
-    title: 'Dinosaurier utskriftsbara affärsidéer för säljare',
+    title: 'Dinosaurier printables — produktidéer för säljare',
     description: 'Dinosaurier fängslar barn som få andra ämnen. Kombinationen av enorma varelser, mystisk utrotning och ändlös artvariation skapar en fascination som driver konsekvent efterfrågan på dinosaurietematiserade pedagogiska produkter. För säljare av utskriftsbara produkter omsätts detta i en nisch med kraftfull emotionell attraktionskraft, starkt föräldra- och köparintresse och köpbeteende året runt. Till skillnad från säsongsbetonade teman som bleknar efter några veckor kvarstår dinosaurieentusiasmen under varje månad på kalendern. Oavsett om du säljer på Etsy, Amazon KDP eller Gumroad erbjuder dinosaurieutskrifter betydande utrymme för produktdifferentiering tack vare den rena mångfalden av arter, eror och inlärningsvinklar som finns tillgängliga. Denna guide täcker specifika produktidéer, plattformsspecifika strategier och praktiska tillvägagångssätt för att bygga en lönsam dinosaurietematiserad utskriftbar produktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara dinosaurieprodukter frodas på en enkel sanning: barn är besatta av dinosaurier. Denna besatthet korsar könsgränser, kulturella gränser och åldersgrupper på sätt som få andra teman uppnår. Föräldrar erkänner denna passion och söker aktivt pedagogiska material som kanaliserar dinosaurieentusiasmen till produktivt lärande. Köpare utnyttjar dinosauriefascinationen för att lära ut ordförråd, räkning, naturvetenskapskoncept och läsfärdigheter, med vetskapen om att engagemangsnivåerna skjuter i höjden när förhistoriska varelser är inblandade.

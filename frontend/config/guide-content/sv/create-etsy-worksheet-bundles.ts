@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa paket arbetsblad för Etsy',
+    primaryKeyword: 'sälja arbetsblad-paket Etsy guide strategi',
     secondaryKeywords: [
-      'hur man skapar Etsy arbetsblad-paket',
-      'Etsy utskriftsbart paketannonsstrategi',
-      'sälj arbetsblad-paket på Etsy',
-      'Etsy digital nedladdning paketskapande',
+      'skapa Etsy paket utskriftsbara arbetsblad',
+      'Etsy paketannons prisstrategi printables',
+      'arbetsblad-bundle Etsy digital nedladdning',
+      'paketprissättning Etsy utskriftsbara produkter',
     ],
     lsiKeywords: [
-      'Etsy paketannons optimering filorganisation strategi',
-      'arbetsblad paketprissättning ankare rabatt värdestackning',
-      'Etsy paket förhandsgranskningsbilder miniatyr mockup layout',
-      'ämne årskurs tema säsong pakettyper pedagogiska utskrifter',
-      'Etsy digital leverans flera filer paketstruktur',
-      'paket vs enskild annons kannibalisering Etsy butiksstrategi',
+      'Etsy paketannons SEO optimering filorganisation',
+      'paketprissättning ankare rabatt värdestackning printables',
+      'förhandsgranskningsbilder miniatyr mockup Etsy layout',
+      'ämne årskurs tema säsong pakettyper printables',
+      'Etsy digital leverans flerfilspaket struktur strategi',
+      'paket vs enskild annons kannibalisering butiksstrategi',
     ],
-    titleTag: 'Skapa paket arbetsblad för Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa Etsy arbetsblad-paket som ökar genomsnittligt ordervärde. Pakettyper, filorganisation, förhandsgranskningsbilder, annonsoptimering och prisstrategi.',
+    titleTag: 'Sälja arbetsblad-paket på Etsy | LCS',
+    metaDescription: 'Skapa arbetsblad-paket som säljer på Etsy. Pakettyper, prissättning, annonsoptimering och filorganisation. Öka ditt genomsnittliga ordervärde.',
   },
 
   hero: {
-    title: 'Hur du skapar Etsy arbetsblad-paket',
-    tagline: 'En komplett guide till att skapa, strukturera, lista och optimera arbetsblad-paket för Etsy — täcker pakettypval över ämne, årskurs, tema, säsong och formatkategorier, produktval för maximal upplevd värde, filorganisation inom Etsys leveransgränser, paketspecifika förhandsgranskningsbilder och miniatyrdesign, annostitlar och taggar optimerade för paketsöktermer, värdestacknings-prisstrategier med ankarrabatter och prestandaspårning för att identifiera dina mest framgångsrika paketkombinationer',
+    title: 'Skapa arbetsblad-paket som säljer på Etsy',
+    tagline: 'Komplett guide: pakettyper, prissättning, SEO-optimering och filorganisation för arbetsblad-paket på Etsy',
     description: 'Arbetsblad-paket är bland de högst intäktsgenererande annonserna på Etsy för pedagogiska utskriftssäljare. Denna guide tar dig igenom det kompletta paketskapande-arbetsflödet — från att välja vilka produkter att kombinera till att skriva annonser som kommunicerar paketvärde till att spåra prestanda över tid.',
   },
 

@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'för försäljning bästa pappersstorlekar utskrifter',
+    primaryKeyword: 'A4 eller Letter printables Etsy',
     secondaryKeywords: [
-      'bästa pappersstorlekar utskrifter Etsy',
-      'bästa pappersstorlekar foeretagande',
-      'utskrifter bästa pappersstorlekar',
+      'pappersstorlek arbetsblad PDF',
+      'format utskrifter sälja internationellt',
+      'A4 vs US Letter arbetsblad',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'PDF formatering printables',
+      'utskriftsformat Europa vs USA',
+      'rätt storlek digitala produkter',
     ],
-    titleTag: 'Bästa Pappersstorlekar för Utskrifter | LCS',
-    metaDescription: 'A4 dominerar i Europa, Letter i USA. Erbjud båda för maximal försäljning. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'A4 vs Letter: Rätt Format för Printables | LCS',
+    metaDescription: 'Fel pappersstorlek kostar försäljning. Lär dig välja A4 eller Letter för dina printables och nå både svenska och internationella köpare.',
   },
   hero: {
-    title: 'Bästa Pappersstorlekar för Utskrifter',
-    tagline: 'A4 vs Letter — fel format kostar försäljning',
+    title: 'A4 eller Letter? Rätt Format för Printables',
+    tagline: 'Erbjud båda formaten och dubbla din marknad',
     description: 'Pappersstorlekar och format är avgörande för utskriftsförsäljning. Svenska köpare förväntar sig A4, amerikanska förväntar sig Letter. Säljare som erbjuder båda formaten säljer mer.',
   },
   category: 'how-to',

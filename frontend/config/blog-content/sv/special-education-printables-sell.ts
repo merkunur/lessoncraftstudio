@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'specialpedagogik utskrifter saelj',
+    primaryKeyword: 'specialpedagogik printables sälja premiumpriser',
     secondaryKeywords: [
-      'specialpedagogik-utskrifter sälj Etsy',
-      'specialpedagogik-utskrifter sälj foeretagande',
-      'utskrifter specialpedagogik-utskrifter sälj',
+      'anpassade arbetsblad särskilda behov Etsy',
+      'specialpedagogik material skriva ut KDP',
+      'tydlig layout stor text arbetsblad sälja',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'barn med särskilda behov aktivitetsblad',
+      'visuellt stöd arbetsblad printable-nisch',
+      'specialundervisning material låg konkurrens',
     ],
-    titleTag: 'Specialpedagogik-Utskrifter: Sälj | LCS',
-    metaDescription: 'Utskrifter anpassade för specialpedagogik säljer för premiumpriser. Tydlig layout, stor text och förenklad design. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Specialpedagogik-Printables: Sälj Premium',
+    metaDescription: 'Sälj specialpedagogik-printables för premiumpriser. Anpassad layout med tydlig struktur. Hög efterfrågan, låg konkurrens.',
   },
   hero: {
-    title: 'Specialpedagogik-Utskrifter: Sälj',
-    tagline: 'Specialpedagogik-material har hög efterfrågan och premium-priser',
+    title: 'Specialpedagogik-Printables: Sälj Premium',
+    tagline: 'Högt efterfrågad nisch med premiumpriser och låg konkurrens',
     description: 'Material för barn med särskilda behov har stark efterfrågan och minimal konkurrens. Anpassad layout med tydlig struktur och visuellt stöd.',
   },
   category: 'niche-seasonal',

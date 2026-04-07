@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis spårningsblad finmotorik',
+    primaryKeyword: 'skrivmotorik linjer gratis skriva ut',
     secondaryKeywords: [
-      'spårningsblad generator gratis online',
-      'linjespårning arbetsblad skapa gratis',
-      'rita linjer blad skriva ut gratis',
-      'gratis finmotoriska övningsblad',
+      'streckade linjer överskriva gratis',
+      'finmotorik uppgifter gratis online',
+      'överskrivningsövningar gratis',
+      'linjer dra gratis',
     ],
     lsiKeywords: [
-      'gratis spårningsblad online',
-      'linjespårning att skriva ut',
-      'finmotorikövning gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'finmotorik',
+      'streckade linjer',
+      'förskoleklass',
     ],
-    titleTag: 'Spårningsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa spårningsblad gratis online. 8 SVG-mallar, bildpar, 104 teman, autofyllning. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skrivmotorik linjer gratis online | Överskrivningsgenerator',
+    metaDescription: 'Skapa överskrivningsuppgifter gratis online med streckade linjer och temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis spårningsblad för finmotorik online',
-    tagline: 'Åtta SVG-linjemallar med bildparmatchning och autofyllning — gratis provversion med vattenmärke',
+    title: 'Skrivmotorik linjer gratis online — Överskrivningsgenerator',
+    tagline: 'Skapa överskrivningsuppgifter gratis med streckade linjer — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa linjespårningsblad — helt gratis att testa online. Åtta SVG-mallar med kurvor, diagonaler och raka linjer kopplar samman matchande bildpar. Helt visuellt — fungerar globalt utan översättning. Autofyllning från 104 teman gör skapandet snabbt. Perfekt för föräldrar som söker finmotoriska övningar att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

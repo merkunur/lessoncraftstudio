@@ -2,28 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'hur mycket tjäna printables inkomst från utskriftsbart företag',
+    primaryKeyword: 'hur mycket kan man tjäna på printables',
     secondaryKeywords: [
-      'inkomstförväntningar utskriftsbart företag',
-      'realistisk inkomst sälja utskriftsbara produkter',
-      'sälja arbetsblad online inkomst',
-      'intäktsfaktorer utskriftsbart företag',
+      'inkomst sälja arbetsblad online',
+      'realistiska förväntningar printable-företag',
+      'passiv inkomst utskriftsbara produkter',
+      'intäkter Etsy KDP printable-säljare',
     ],
     lsiKeywords: [
-      'Etsy utskriftsbara säljare intäktsfaktorer',
-      'Amazon KDP aktivitetsbok intäktsvariabler',
-      'arbetsbladsföretag katalogstorlek inkomst',
-      'utskriftsbar prissättningsstrategi marknadsplatsavgifter',
-      'digital nedladdning företag tidsinvestering',
-      'flera intäktsströmmar utskriftsbara produkter',
+      'Etsy intäktsfaktorer digitala nedladdningar',
+      'Amazon KDP royalty aktivitetsbok',
+      'katalogstorlek och inkomst arbetsblad',
+      'prissättning marknadsplatsavgifter printables',
+      'tidsinvestering printable-verksamhet',
+      'flera intäktsströmmar digitala produkter',
     ],
-    titleTag: 'Hur mycket tjäna på printables | LessonCraftStudio',
-    metaDescription: 'Hur mycket kan du tjäna på att sälja utskriftsbara produkter? Realistiska inkomstförväntningar, plattformsavgifter, prissättningsstrategier och variablerna som.',
+    titleTag: 'Hur mycket tjänar man på printables? | LCS',
+    metaDescription: 'Realistiska inkomstförväntningar för printable-säljare. Plattformsavgifter, prissättning, katalogstorlek och faktorerna du kontrollerar.',
   },
 
   hero: {
-    title: 'Inkomst från utskriftsbart företag: realistiska förväntningar',
-    tagline: 'En ärlig genomgång av variablerna som avgör inkomsten från utskriftsbara produkter — ingen hype, inga fabricerade siffror, bara de faktorer du faktiskt kontrollerar',
+    title: 'Inkomst från printable-verksamhet: ärliga siffror',
+    tagline: 'Variablerna som avgör din inkomst — ingen hype, bara de faktorer du faktiskt kontrollerar',
     description: 'Varje sökning om utskriftsbart företagande leder så småningom till samma fråga: hur mycket kan man tjäna? Internet är fullt av vaga löften och overifierbara påståenden. Denna guide tar ett annat grepp. Istället för att erbjuda en siffra som skulle vara meningslös utan kontext bryter den ner de specifika variablerna som avgör inkomsten från utskriftsbara produkter — katalogstorlek, produktkvalitet, prissättningsstrategi, plattformsekonomi, marknadsföringsinsats och tidsinvestering. Dessa är faktorerna inom din kontroll, och att förstå dem är långt mer värdefullt än någon krontal. Oavsett om du säljer på Etsy, publicerar på Amazon KDP eller använder andra marknadsplatser gäller samma grundläggande ekonomi. Den gratis provversionen med vattenstämpel låter dig testa varje genrator innan du investerar, så du kan utvärdera produktkvalitet och produktionshastighet på egen hand.',
   },
 

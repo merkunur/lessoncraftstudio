@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'utskrifter för mors dag fars dag',
+    primaryKeyword: 'mors dag fars dag printables sälja',
     secondaryKeywords: [
-      'utskrifter mors fars Etsy',
-      'utskrifter mors foeretagande',
-      'utskrifter utskrifter mors',
+      'mors dag arbetsblad barn skriva ut',
+      'fars dag aktiviteter printable Etsy',
+      'säsongsprodukt maj november printables',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'barnaktiviteter mors dag kort skriva ut',
+      'fars dag pyssel ladda ner Etsy',
+      'säsongsbetonade printables svenska högtider',
     ],
-    titleTag: 'Utskrifter för Mors Dag och Fars Dag | LCS',
-    metaDescription: 'Utskrifter för mors dag och fars dag säljer starkt. Barnaktiviteter, kort och gåvor som barn kan göra själva. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Mors Dag & Fars Dag Printables: Sälj',
+    metaDescription: 'Printables för mors dag och fars dag säljer starkt. Barnaktiviteter och kort. Två garanterade topperioder per år på Etsy.',
   },
   hero: {
-    title: 'Utskrifter för Mors Dag och Fars Dag',
-    tagline: 'Maj och november ger två garanterade säljperioder',
+    title: 'Mors Dag & Fars Dag: Sälj Printables',
+    tagline: 'Maj och november ger två garanterade försäljningstoppar',
     description: 'Mors dag (sista söndagen i maj i Sverige) och fars dag (andra söndagen i november) skapar två pålitliga försäljningsperioder.',
   },
   category: 'niche-seasonal',

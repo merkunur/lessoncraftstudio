@@ -1,25 +1,28 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gratis korsordsmaker med bilder',
+    primaryKeyword: 'korsord gratis online',
     secondaryKeywords: [
-      'korsordsmaker gratis online',
-      'bildkorsord skapa gratis',
-      'korsord med bilder skriva ut gratis',
-      'gratis korsordspussel med bildledtrådar',
+      'skapa korsord gratis',
+      'korsord skriva ut gratis',
+      'korsord med bilder gratis',
+      'korsordsgenerator gratis',
     ],
     lsiKeywords: [
-      'gratis korsordspussel online',
-      'bildkorsord att skriva ut',
-      'korsord med bilder gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'rutnät',
+      'ledtrådar',
+      'facit',
     ],
-    titleTag: 'Korsordsmaker gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa korsord med bilder gratis online. 15×15 rutnät, bildledtrådar, 4 inmatningsmetoder, facit, 11 språk. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Korsord gratis online | Skapa med bilder och facit',
+    metaDescription: 'Skapa korsord gratis online med bildledtrådar på 15×15-rutnät. 104 teman, facit. Ingen registrering. Vattenmärket tas bort med licens.',
     },
 
   hero: {
-    title: 'Gratis korsordsmaker med bilder online',
-    tagline: 'Skapa bildkorsord med bildledtrådar på 15×15 rutnät, 4 inmatningsmetoder och facit — gratis provversion med vattenmärke',
+    title: 'Korsord gratis online — Skapa med bilder och facit',
+    tagline: 'Skapa korsord gratis med bildledtrådar och 104 teman — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa bildkorsord med bildledtrådar — helt gratis att testa online. Åtta bilder genererar åtta ord på ett 15×15 rutnät. Fyra inmatningsmetoder: snabb temagenerering, manuell redigering, anpassad ordlista och egna bilder. Språkberoende: samma bilder producerar svenska korsord med \"KATT\", engelska med \"CAT\", tyska med \"KATZE\". Automatiskt facit med ifyllt rutnät ingår. Perfekt för föräldrar och barn som söker korsord att skriva ut, och för Etsy-säljare som vill testa formatet. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

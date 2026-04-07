@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mattepusselböcker amazon kdp',
+    primaryKeyword: 'sälja mattepusselbok Amazon KDP',
     secondaryKeywords: [
-      'produkttyper säljer bäst',
-      'skapa professionella produkter snabbt',
-      'listnings marknadsföringsstrategi',
+      'mattepussel bok barn print on demand',
+      'KDP pusselbok matte publicera',
+      'mattebok barn Amazon Sverige',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'kodknäckning matte barnbok KDP',
+      'tryckt pusselbok passiv inkomst',
+      'mattepussel kombination utbildning lek',
     ],
-    titleTag: 'Mattepusselböcker på Amazon KDP | LCS',
-    metaDescription: 'Mattepusselböcker är en vinstgivande KDP-nisch. Kombination av matte och pussel som barn och föräldrar älskar.',
+    titleTag: 'Sälj Mattepusselböcker på Amazon KDP | LCS',
+    metaDescription: 'Mattepusselböcker är en vinstgivande KDP-nisch. Skapa och publicera matteböcker med pusselformat som barn och föräldrar köper.',
   },
   hero: {
-    title: 'Mattepusselböcker på Amazon KDP',
-    tagline: 'Matteböcker med pusselformat säljer otroligt på KDP',
+    title: 'Sälj Mattepusselböcker på Amazon KDP',
+    tagline: 'Matte plus pussel säljer starkt som tryckt bok',
     description: 'Mattepussel-böcker på KDP kombinerar utbildning med underhållning. Print-on-demand eliminerar risken — du betalar inget tills en bok säljs.',
   },
   category: 'product-guide',

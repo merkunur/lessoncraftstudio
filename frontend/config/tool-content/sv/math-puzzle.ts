@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis mattepussel skapa',
+    primaryKeyword: 'mattespel gratis skriva ut',
     secondaryKeywords: [
-      'mattepussel generator gratis online',
-      'mattepussel arbetsblad skapa gratis',
-      'bildpussel matte skriva ut gratis',
-      'gratis mattepussel med bilder',
+      'mattepussel gratis online',
+      'roliga matteuppgifter gratis',
+      'mattegåtor gratis skriva ut',
+      'mattepussel barn gratis',
     ],
     lsiKeywords: [
-      'gratis pusselblad matte online',
-      'bildrutnät mattepussel att skriva ut',
-      'matteaktivitet pussel gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'pussel',
+      'bilder',
+      'logik',
     ],
-    titleTag: 'Mattepussel gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa mattepussel gratis online. Bildrutnätspussel med addition och subtraktion, 2×2 till 4×4 rutnät, facit. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Mattespel gratis online | Generator mattepussel',
+    metaDescription: 'Skapa mattepussel gratis online med bilder och automatiskt facit. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis mattepussel generator online',
-    tagline: 'Skapa pusselstils bildpussel med matteekvationer — gratis provversion med vattenmärke',
+    title: 'Mattespel gratis online — Generator mattepussel med bilder',
+    tagline: 'Skapa mattepussel gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Förvandla matteövning till ett visuellt pussel — helt gratis att testa online. En bild delas upp i pusselbitar med matteekvationer. Välj addition, subtraktion eller blandat, justera rutnät från 2×2 till 4×4, och bläddra bland mer än 3 100 bilder i 104 teman. Perfekt för föräldrar som söker engagerande mattepussel, och för Etsy-säljare som vill testa formatet. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

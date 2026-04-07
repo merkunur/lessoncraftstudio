@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa saknade bitar-pussel att sälja',
+    primaryKeyword: 'skapa saknade bitar-pussel att skriva ut',
     secondaryKeywords: [
-      'skapa saknade bitar-pussel att sälja',
-      'pusselarbetsblad generator kommersiellt bruk',
-      'utskriftsklara saknade bitar-generator för Etsy och KDP',
-      'visuella pusselarbetsblad med facit',
+      'pusselarbetsblad generator barn att skriva ut',
+      'saknade bitar visuellt pussel skriva ut PDF',
+      'sälja pusselarbetsblad Etsy printable barn',
+      'Amazon KDP pusselbok saknade bitar pysselbok',
     ],
     lsiKeywords: [
-      'smart bitutdragning färgvariansberäkning pusselgenerator',
-      'sex former pussel arbetsblad-generator med distraktionsbitar',
+      'smart bitutdragning färgvarians pusselgenerator visuell',
+      'sex bitformer distraktionsbitar svårighetskontroll',
       'automatiskt facit gulmarkering saknade bitar generator',
-      'sälja saknade bitar-pussel på Etsy',
-      'Amazon KDP pusselarbetsböcker',
-      'kommersiell licens saknade bitar-verktyg',
+      'sälja saknade bitar-pussel Etsy printable digitala',
+      'Amazon KDP pusselbok pysselbok visuell logik',
+      'kommersiell licens saknade bitar-verktyg facit',
     ],
-    titleTag: 'Saknade bitar att sälja online | LessonCraftStudio',
-    metaDescription: 'Skapa pusselarbetsblad med 6 bitformer, smart utdragning, distraktionsbitar och automatiskt facit. Steg-för-steg-försäljningsguide för Etsy och KDP. Prova.',
+    titleTag: 'Skapa saknade bitar-pussel att skriva ut | LCS',
+    metaDescription: 'Skapa saknade bitar-pussel att skriva ut med 6 bitformer, distraktionsbitar och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar pusselarbetsblad med saknade bitar',
-    tagline: 'En steg-för-steg-guide för att skapa pusselarbetsblad med sex bitformer, smart bitutdragning med ljusstyrkevariansdetektion, distraktionsbitar för genuin utmaning, två oberoende svårighetskontroller, autogenererade facit med gulmarkering, och helt visuella pussel du kan sälja världen över på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa saknade bitar-pussel att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa visuella pusselarbetsblad med sex bitformer, justerbar svårighet och automatiskt facit för Etsy, Amazon KDP och Gumroad',
     description: 'Saknade bitar-pussel är en unikt engagerande visuell aktivitet där användare undersöker en bild med utstansade hål och identifierar vilken numrerad option som fyller varje lucka. Formatet kombinerar rumsligt resonerande med visuell diskriminering. Eftersom arbetsbladet bara innehåller bilder, hål och numrerade alternativ utan språkspecifik text är varje pussel du skapar omedelbart säljbart världen över utan översättning.',
   },
 

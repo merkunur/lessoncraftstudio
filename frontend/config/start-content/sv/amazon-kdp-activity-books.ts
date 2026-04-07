@@ -2,28 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'aktivitetsböcker Amazon KDP verksamhet',
+    primaryKeyword: 'sälja aktivitetsböcker Amazon KDP guide',
     secondaryKeywords: [
-      'Amazon KDP aktivitetsböcker',
-      'publicera pusselböcker på KDP',
-      'KDP aktivitetsbok företag',
-      'ge ut aktivitetsböcker Amazon',
+      'publicera pusselböcker KDP steg för steg',
+      'Amazon KDP aktivitetsbok Sverige',
+      'tjäna pengar KDP aktivitetsböcker',
+      'print-on-demand pusselbok Amazon',
     ],
     lsiKeywords: [
-      'Kindle Direct Publishing aktivitetsböcker',
       'KDP interiörformatering arbetsblad',
-      'KDP omslagsdesign aktivitetsböcker',
+      'omslagsdesign aktivitetsbok Amazon',
       'Amazon backend-nyckelord pusselböcker',
-      'KDP royaltyberäkning aktivitetsböcker',
-      'print-on-demand aktivitetsbok företag',
+      'KDP royaltyberäkning pocketbok',
+      'Kindle Direct Publishing nybörjare',
+      'publicera barnbok Amazon Sverige',
     ],
-    titleTag: 'Aktivitetsböcker Amazon KDP | LessonCraftStudio',
-    metaDescription: 'Lär dig sälja aktivitetsböcker på Amazon KDP. Interiörformatering, omslagsdesign, nyckelordsstrategi, prissättning och skalning av ditt KDP-bokföretag steg för.',
+    titleTag: 'Sälja aktivitetsböcker på Amazon KDP | LCS',
+    metaDescription: 'Komplett guide till att publicera och sälja aktivitetsböcker på Amazon KDP. Formatering, omslagsdesign, nyckelord och prissättning steg för steg.',
   },
 
   hero: {
-    title: 'Amazon KDP aktivitetsbok — affärsguide',
-    tagline: 'Publicera och sälj professionella aktivitetsböcker på Amazon med print-on-demand — inget lager, inga startkostnader',
+    title: 'Sälja aktivitetsböcker på Amazon KDP',
+    tagline: 'Publicera professionella pusselböcker med print-on-demand — inget lager, inga startkostnader',
     description: 'Amazon KDP ger dig tillgång till världens största bokmarknadsplats utan lagerrisk. Denna guide täcker varje steg i att bygga ett lönsamt aktivitetsbok-företag på KDP — från interiörformatering och omslagsdesign till nyckelordsforskning, prissättning, kategorival och katalogskalning. Oavsett om du publicerar din första pusselbok eller expanderar en befintlig utskriftsbar verksamhet till Amazon — detta är din KDP-specifika handlingsplan.',
   },
 

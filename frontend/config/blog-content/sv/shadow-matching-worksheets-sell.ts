@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skuggmatchning arbetsblad saelj',
+    primaryKeyword: 'skuggmatchning arbetsblad sälja Etsy',
     secondaryKeywords: [
-      'skuggmatchning-arbetsblad sälj online Etsy',
-      'skuggmatchning-arbetsblad sälj foeretagande',
-      'utskrifter skuggmatchning-arbetsblad sälj',
+      'shadow matching printables barn förskoleklass',
+      'visuell perception arbetsblad skriva ut',
+      'skuggmatchning pysselbok KDP nisch',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'skuggövningar barn 3-6 år printable',
+      'observation finmotorik arbetsblad förskola',
+      'matchningsövningar printable-butik Etsy',
     ],
-    titleTag: 'Skuggmatchning-Arbetsblad: Sälj Online | LCS',
-    metaDescription: 'Skuggmatchning-arbetsblad utvecklar visuell perception hos barn 3-6 år. En nisch med stabil efterfrågan.',
+    titleTag: 'Skuggmatchning-Arbetsblad: Sälj Printables',
+    metaDescription: 'Sälj skuggmatchning-arbetsblad som printables. Visuell perception för barn 3-6 år. Stabil efterfrågan på Etsy och KDP.',
   },
   hero: {
-    title: 'Skuggmatchning-Arbetsblad: Sälj Online',
-    tagline: 'Visuell matchning som utvecklar observation',
+    title: 'Skuggmatchning-Arbetsblad: Sälj som Printable',
+    tagline: 'Visuell matchning som utvecklar observation och säljer bra',
     description: 'Skuggmatchning-arbetsblad är populära för förskolebarn. Barnet matchar objektet med sin skugga — utvecklar observation och finmotorik.',
   },
   category: 'product-guide',

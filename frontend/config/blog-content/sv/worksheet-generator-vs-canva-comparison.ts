@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'arbetsblads generator vs Canva jaemfoerelse',
+    primaryKeyword: 'arbetsblads-generator vs Canva jämförelse',
     secondaryKeywords: [
-      'steg för steg guide',
-      'vanliga misstag undvika',
-      'avancerade tips',
+      'skapa arbetsblad generator eller Canva',
+      'snabbaste sättet skapa printables sälja',
+      'arbetsblad med facit automatiskt verktyg',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'specialiserad generator vs designverktyg',
+      'arbetsblad produktion hastighet kvalitet',
+      'Canva begränsningar arbetsblad facit',
     ],
-    titleTag: 'Arbetsblads-Generator vs Canva | LCS',
-    metaDescription: 'Arbetsblads-generatorer vs Canva för utskriftsskapande. Hastighet, kvalitet och funktioner jämförda. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Arbetsblads-Generator vs Canva: Jämförelse',
+    metaDescription: 'Generator vs Canva för arbetsblad. Hastighet, kvalitet och facit-funktion jämförda. Vilket verktyg passar printable-säljare?',
   },
   hero: {
-    title: 'Arbetsblads-Generator vs Canva',
-    tagline: 'Specialiserat verktyg vs generell designer',
+    title: 'Generator vs Canva: Vad Passar Bäst?',
+    tagline: 'Specialiserat verktyg vs generell designer — jämförelse',
     description: 'Canva är bra för grafisk design men saknar arbetsblads-specifika funktioner. En generator skapar färdiga arbetsblad med facit på sekunder.',
   },
   category: 'how-to',

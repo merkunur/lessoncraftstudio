@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Amazon KDP eller Etsy för printables',
+    primaryKeyword: 'Amazon KDP vs Etsy printables jämförelse',
     secondaryKeywords: [
-      'Amazon KDP vs Etsy för att sälja printables',
-      'var man säljer utskriftsklara arbetsblad online',
-      'KDP eller Etsy vilken plattform är bättre för printables',
-      'sälja printables på flera plattformar strategi',
+      'KDP eller Etsy vilken plattform printables',
+      'sälja arbetsblad KDP vs Etsy avgifter',
+      'var sälja utskriftsbara produkter online guide',
+      'flerplattformsstrategi printables KDP Etsy',
     ],
     lsiKeywords: [
-      'digital nedladdning marknadsplats print-on-demand publicering plattformsjämförelse',
-      'Etsy listningsavgifter transaktionsavgifter KDP royalty tryckningskostnader',
-      'Etsy SEO taggar algoritm Amazon A9 backend nyckelord kategorier',
-      'digital PDF utskriftsbar fysisk tryckt bok formatkonvertering',
-      'flerplattforms-försäljningsstrategi tvärplattforms utskriftsbart företag',
-      'utskriftsbart arbetsblad aktivitetsbok målarbild pusselbok marknadsplats',
+      'digital nedladdning print-on-demand plattformsjämförelse',
+      'Etsy avgifter KDP royalty tryckningskostnader marginaler',
+      'Etsy SEO taggar Amazon A9 backend nyckelord',
+      'digital PDF vs fysisk bok formatkonvertering',
+      'flerplattforms försäljning tvärplattforms printable-verksamhet',
+      'arbetsblad pysselbok pusselbok målarbild marknadsplats',
     ],
-    titleTag: 'KDP vs Etsy: var sälja printables | LessonCraftStudio',
-    metaDescription: 'KDP vs Etsy för printable-säljare. Jämför avgiftsstrukturer, produktformat, trafikmekanik och lär dig flerplattformsstrategier för dina printables. Prova.',
+    titleTag: 'KDP vs Etsy: var sälja printables | LCS',
+    metaDescription: 'KDP vs Etsy jämförelse för printable-säljare. Avgifter, marginaler, trafikmekanik och flerplattformsstrategi. Välj rätt plattform.',
   },
 
   hero: {
-    title: 'Amazon KDP vs Etsy: Var du säljer printables',
-    tagline: 'En direkt jämförelse av de två dominerande plattformarna för printable-säljare — täcker den grundläggande skillnaden mellan digitala nedladdningar och print-on-demand, avgiftsstrukturer och verkliga vinstmarginaler, trafik- och upptäckbarhetsmekanik, vilka produkttyper hör till vilken plattform, listnings- och publiceringsarbetsflöden, köparbeteendemönster, flerplattformsstrategin som maximerar intäkt, och ett beslutsramverk för att välja var du startar baserat på din innehållstyp, volym och affärsmål',
+    title: 'Amazon KDP vs Etsy — var ska du sälja printables?',
+    tagline: 'Direkt jämförelse: avgiftsstrukturer, vinstmarginaler, trafikmekanik, produktpassning och flerplattformsstrategi för printable-säljare',
     description: 'Etsy och Amazon KDP är de två största plattformarna för att sälja utskriftsbart innehåll, men de betjänar fundamentalt olika marknader med olika ekonomi. Etsy säljer digitala PDF-nedladdningar som köpare skriver ut hemma. KDP säljer fysiska tryckta böcker som Amazon tillverkar och fraktar. Samma pedagogiska innehåll, helt olika produktformat, köparupplevelser och intäktsmodeller. Denna guide ger en systematisk jämförelse över varje dimension som spelar roll — avgifter, trafik, produktpassning, arbetsflöde och köparbeteende — så att du kan fatta ett informerat beslut.',
   },
 

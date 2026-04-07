@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis kopplingsblad generator',
+    primaryKeyword: 'para ihop uppgifter gratis skriva ut',
     secondaryKeywords: [
-      'kopplingsblad generator gratis online',
-      'matchnings arbetsblad skapa gratis',
-      'dra-ett-streck blad skriva ut gratis',
-      'gratis kopplingsblad med bilder',
+      'matchningslek gratis online',
+      'dra streck uppgift gratis',
+      'para ihop förskoleklass gratis',
+      'koppla ihop gratis',
     ],
     lsiKeywords: [
-      'gratis matchningsblad online',
-      'kopplingsblad att skriva ut',
-      'dra-ett-streck övning gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'matcha',
+      'dra streck',
+      'förskoleklass',
     ],
-    titleTag: 'Kopplingsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa kopplingsblad gratis online. 4 matchningslägen, facit med kopplingslinjer, 11 språk, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Para ihop uppgifter gratis online | Matchningsgenerator',
+    metaDescription: 'Skapa para-ihop-uppgifter gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis kopplingsblad generator online',
-    tagline: 'Fyra matchningslägen med automatiskt facit och kopplingslinjer — gratis provversion med vattenmärke',
+    title: 'Para ihop uppgifter gratis online — Matchningsgenerator',
+    tagline: 'Skapa para-ihop-uppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa dra-ett-streck kopplingsblad — helt gratis att testa online. Fyra matchningslägen: Begynnelsebokstav, Bild+Ord, Blandat och Anpassat Ord. Konfigurera 4–6 par per blad. Språkkänslig: samma bilder ger olika begynnelsebokstäver per språk. Automatiskt facit med kopplingslinjer ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker kopplingsövningar att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

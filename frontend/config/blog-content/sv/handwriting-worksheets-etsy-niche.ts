@@ -2,22 +2,22 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'handskrivning arbetsblad Etsy nisch',
+    primaryKeyword: 'sälja handskrivningsövningar på Etsy',
     secondaryKeywords: [
-      'handskrivning-arbetsblad etsy-nisch Etsy',
-      'handskrivning-arbetsblad etsy-nisch foeretagande',
-      'utskrifter handskrivning-arbetsblad etsy-nisch',
+      'handstilsövningar barn printable',
+      'kalligrafi övningar skriva ut PDF',
+      'handskrivning arbetsblad nisch Etsy',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'digital detox handskrivning trend',
+      'skrivövningar förskoleklass grundskola',
+      'vackert handstil övningsblad vuxna',
     ],
-    titleTag: 'Handskrivning-Arbetsblad: Etsy-Nisch | LCS',
-    metaDescription: 'Handskrivningsarbetsblad är en av Etsys snabbast växande nischer. Både barn och vuxna vill förbättra sin handstil.',
+    titleTag: 'Sälj Handskrivningsövningar på Etsy | LCS',
+    metaDescription: 'Handskrivningsövningar är en snabbväxande nisch på Etsy. Barn och vuxna vill förbättra sin handstil. Sälj printables.',
   },
   hero: {
-    title: 'Handskrivning-Arbetsblad: Etsy-Nisch',
+    title: 'Sälj Handskrivningsövningar: Växande Nisch',
     tagline: 'Digital detox driver efterfrågan på handskrivning',
     description: 'Handskrivning upplever en renässans i Sverige. Föräldrar vill att barn lär sig skriva för hand, och vuxna söker kalligrafi-övningar.',
   },

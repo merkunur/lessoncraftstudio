@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis alfabetsblad generator',
+    primaryKeyword: 'alfabet uppgifter gratis skriva ut',
     secondaryKeywords: [
-      'alfabetsblad generator gratis online',
-      'alfabetståg arbetsblad skapa gratis',
-      'bokstavsövning skriva ut gratis',
-      'gratis alfabetståg med bilder',
+      'ABC uppgifter gratis online',
+      'bokstavsigenkänning gratis',
+      'alfabet förskoleklass gratis',
+      'bokstäver skriva ut gratis',
     ],
     lsiKeywords: [
-      'gratis bokstavsövning online',
-      'alfabetståg att skriva ut',
-      'bokstavsigenkänning gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'ABC',
+      'bokstäver',
+      'förskoleklass',
     ],
-    titleTag: 'Alfabetsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa alfabetsblad gratis online. 11 tågvagnar, bokstav-bild matchning, svenska ÅÄÖ, 11 språk, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Alfabet uppgifter gratis online | ABC-övningsgenerator',
+    metaDescription: 'Skapa alfabet-uppgifter gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis alfabetsblad generator online',
-    tagline: 'Färgglada bokstavståg med bild-till-bokstav matchning på 11 språk — gratis provversion med vattenmärke',
+    title: 'Alfabet uppgifter gratis online — ABC-övningsgenerator',
+    tagline: 'Skapa alfabet-uppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa alfabetståg — helt gratis att testa online. 11 färgglada tågvagnar med bokstav-bild matchning. Autoskapa eller manuellt val, 3–11 justerbara ledtrådar. Språkkänslig: svenska med ÅÄÖ, tyska med ÄÖÜ. Perfekt för föräldrar som söker bokstavsövningar att skriva ut för förskoleklass, och för Etsy-säljare som vill testa generatorn. Välj bland mer än 3 100 bilder i 104 teman. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

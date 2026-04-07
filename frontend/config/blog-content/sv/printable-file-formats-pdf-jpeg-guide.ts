@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'filformat utskrifter PDF JPEG guide',
+    primaryKeyword: 'filformat printables PDF JPEG guide',
     secondaryKeywords: [
-      'filformat utskrifter jpeg Etsy',
-      'filformat utskrifter foeretagande',
-      'utskrifter filformat utskrifter',
+      'bästa filformat Etsy printables',
+      'PDF vs JPEG arbetsblad sälja',
+      'filformat digital produkt Amazon KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'utskriftskvalitet PDF arbetsblad',
+      'bildformat mockup-foton Etsy-listning',
+      'leverera printables rätt format köpare',
     ],
-    titleTag: 'Filformat för Utskrifter: PDF vs JPEG | LCS',
-    metaDescription: 'Komplett guide till filformat för utskriftsprodukter. PDF för arbetsblad, JPEG för mockups — och undantagen. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Filformat Printables: PDF vs JPEG Guide',
+    metaDescription: 'Guide till filformat för printables. PDF för arbetsblad, JPEG för mockups. Rätt format för Etsy, KDP och din butik.',
   },
   hero: {
-    title: 'Filformat för Utskrifter: PDF vs JPEG',
-    tagline: 'Rätt format för rätt plattform och användning',
+    title: 'Filformat för Printables: PDF vs JPEG',
+    tagline: 'Rätt format avgör kvaliteten och kundnöjdheten',
     description: 'PDF är standardformat för utskrifter, JPEG för bilder och mockups. Fel format kan göra dina produkter obrukbara.',
   },
   category: 'how-to',

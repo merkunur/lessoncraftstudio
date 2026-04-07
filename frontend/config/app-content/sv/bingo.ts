@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingo-brickor maker att sälja på Etsy',
+    primaryKeyword: 'skapa bingobrickor',
     secondaryKeywords: [
-      'bingokort generator för Etsy-säljare',
-      'bildbingo arbetsblad för Amazon KDP',
-      'bingokort generator kommersiell licens',
-      'bingo-brickor att sälja online',
-      'bingobok att publicera på KDP',
+      'bingo generator',
+      'bingo med bilder skriva ut',
+      'egen bingo skapa',
+      'bingospel skriva ut',
     ],
     lsiKeywords: [
-      'passiv inkomst bingokort',
-      'printables-verksamhet bingoaktiviteter',
-      'flerspråkiga bingokort produktlinje',
-      'svenska marknaden bingokort Etsy',
+      'bingobricka',
+      'bingo',
+      'bilder',
+      'rutnät',
+      'spel',
     ],
-    titleTag: 'Bingo-brickor att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa bingo-brickor med bilder att sälja på Etsy och KDP. Batch-generering, ZIP-export, uppropslista, 11 språk, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Skapa bingobrickor | Generator bingo med bilder',
+    metaDescription: 'Skapa bingobrickor med 3 000+ temabilder. Unika brickor per set, utskrivbara PDF:er. Prova gratis — kommersiell licens.',
   },
 
   hero: {
-    title: 'Skapa bingo-brickor med bilder att sälja på Etsy och KDP',
-    tagline: 'Generera 1–10 unika bingokort per batch med konfigurerbara rutnät, bild- eller ordfyllning, uppropslista och ZIP batch-export.',
+    title: 'Skapa bingobrickor — Generator bingo med bilder',
+    tagline: 'Skapa unika bingobrickor med temabilder och batch-generering — prova gratis med vattenmärke.',
     description:
       'Skapa bildbingokort att sälja på Etsy eller sammanställa i bingoaktivitetsböcker för Amazon KDP. Generera 1–10 unika kort per batch med konfigurerbara rutnät från 3×3 till 5×5 — perfekt för klasspaket och familjespel. ZIP batch-export laddar ner alla kort i en enda fil. Generatorn är språkkänslig: ordfyllning producerar unika bingokort på 11 språk med lokaliserade ord — varje språkversion blir en separat produkt. Bingokort med bilder är extremt populära bland föräldrar och förskollärare och säljer konsekvent. Den svenska marknaden för bildbingokort på Etsy saknar i princip konkurrenter. Välj bland mer än 3 100 illustrationer i 104 teman. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'bilder hur skapar ordsökningspussel sälj ordpussel sälja',
+    primaryKeyword: 'skapa ordsök att skriva ut med bilder',
     secondaryKeywords: [
-      'ordsökningspussel generator',
-      'utskriftsbar ordsökning-generator',
-      'ordsökningspussel att sälja',
-      'anpassad ordsökning med bilder',
+      'ordsökningspussel generator att skriva ut PDF',
+      'göra ordsök barn bildledtrådar skriva ut',
+      'sälja ordsök Etsy printable pusselbok',
+      'Amazon KDP ordsökningsbok pusselbok barn',
     ],
     lsiKeywords: [
-      'bildbaserade ordsöknings-arbetsblad',
-      'flerspråkiga ordsökningspussel',
-      'ordförråds-ordsökning för barn',
-      'sälja ordsökningsböcker på KDP',
-      'Etsy ordsökningspussel utskriftsbart',
-      'kommersiell licens pusselverktyg',
+      'bildbaserade ordsök ordförråd stavning barn',
+      'flerspråkiga ordsökningspussel 11 språk generator',
+      'ordsök rutnätsstorlek sökriktningar svårighetsgrad',
+      'sälja ordsökningsböcker Amazon KDP pusselbok',
+      'Etsy ordsökningspussel printable digitala nedladdningar',
+      'kommersiell licens pusselverktyg färgkodat facit',
     ],
-    titleTag: 'Ordpussel med bilder att sälja | LessonCraftStudio',
-    metaDescription: 'Hur du skapar ordsökningspussel med bildledtrådar. Välj teman, ställ in rutnätsstorlek, konfigurera sökriktningar, generera facit och sälj på Etsy och KDP.',
+    titleTag: 'Skapa ordsök att skriva ut | LCS',
+    metaDescription: 'Skapa ordsökningspussel att skriva ut med bildledtrådar, konfigurerbar svårighet och färgkodat facit. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar ordsökningspussel med bilder',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska ordsökningspussel med bildledtrådar som du kan sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa ordsök att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa tematiska ordsökningspussel med bildledtrådar, flerspråkigt stöd och färgkodat facit för Etsy, Amazon KDP och Gumroad',
     description: 'Ordsökningspussel är en av de mest sålda utskriftsbara kategorierna på alla stora marknadsplatser. De tilltalar barn som lär sig ordförråd, användare som övar stavning, språkinlärare som bygger ordförståelse och vuxna som njuter av pusselböcker för avkoppling. Denna guide leder dig genom hela skapandeprocessen med Ordsökning Pussel Generator — från att välja mellan ordförrådsläge och anpassade ordlistor till att konfigurera rutnätsstorlek, sökriktningar och svårighetsgrader. Generatorn stöder 11 språk, vilket gör flerspråkiga ordsökningsprodukter till en realistisk och lönsam nisch. Oavsett om du skapar din första pussleprodukt eller bygger ett ordsökningsbokimperium på Amazon KDP kommer du att ha ett färdigt, tryckfärdigt pussel med färgkodat facit i slutet av denna guide.',
   },
 

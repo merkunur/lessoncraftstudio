@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ESL arbetsblad global marknad',
+    primaryKeyword: 'sälja ESL arbetsblad global marknad',
     secondaryKeywords: [
-      'produkter säljer denna nisch',
-      'skapandeprocess verktyg',
-      'marknadsföring säsongsplanering',
+      'SFI material arbetsblad printable',
+      'engelska som andraspråk övningar',
+      'ESL worksheets sälja Etsy',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'andraspråksinlärning arbetsblad PDF',
+      'SFI svenska invandrare material',
+      'flerspråkiga arbetsblad global',
     ],
-    titleTag: 'ESL-Arbetsblad: Global Marknad | LCS',
-    metaDescription: 'ESL-arbetsblad når en global marknad av engelskastuderande. I Sverige är SFI-materialet en unik nisch.',
+    titleTag: 'Sälj ESL-Arbetsblad Globalt på Etsy | LCS',
+    metaDescription: 'ESL-arbetsblad når miljoner köpare globalt. SFI-material ger svenska säljare en unik nisch med noll konkurrens.',
   },
   hero: {
-    title: 'ESL-Arbetsblad: Global Marknad',
-    tagline: 'Engelska som andraspråk — miljoner potentiella kunder',
+    title: 'Sälj ESL-Arbetsblad: Global Marknad',
+    tagline: 'SFI-material och ESL-övningar med miljoner potentiella köpare',
     description: 'ESL-marknaden är enorm globalt. I Sverige kan du specifikt rikta in dig på SFI-elever som lär sig svenska — en unik och oexploaterad nisch.',
   },
   category: 'niche-seasonal',

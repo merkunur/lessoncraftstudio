@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'e-postmarknadsföring för printables-säljare',
+    primaryKeyword: 'e-postmarknadsföring printable-säljare guide',
     secondaryKeywords: [
-      'e-postlista utskriftsbara säljare',
-      'nyhetsbrev arbetsbladsföretag',
-      'e-postmarknadsföring digitala produkter',
-      'utskriftsbart företag e-poststrategi',
+      'bygga e-postlista säljare printables',
+      'nyhetsbrev strategi utskriftsbara produkter',
+      'e-postmarknadsföring Etsy digitala produkter',
+      'lead magnet printable-verksamhet prenumeranter',
     ],
     lsiKeywords: [
-      'prenumerantlista lead magnet opt-in freebie välkomstsekvens e-postautomatisering',
-      'öppningsfrekvens klickfrekvens segmentering utskick drip-kampanj',
-      'e-posttjänstleverantör landningssida konverteringsgrad avprenumerationsfrekvens',
-      'ämnesradsoptimering e-postleveransbarhet prenumerantengagemang',
-      'automatiserade sekvenser återaktiveringskampanj listhygien avsändarrykte',
-      'innehållskalender e-postanalys A/B-testning personalisering taggar',
+      'prenumerantlista lead magnet välkomstsekvens e-postautomatisering',
+      'öppningsfrekvens klickfrekvens segmentering drip-kampanj',
+      'e-posttjänst landningssida konverteringsgrad prenumeranter',
+      'ämnesrad optimering leveransbarhet engagemang e-post',
+      'automatiserade sekvenser återaktivering listhygien printables',
+      'innehållskalender A/B-testning personalisering Etsy KDP',
     ],
-    titleTag: 'E-postmarknadsföring för säljare | LessonCraftStudio',
-    metaDescription: 'E-postmarknadsföringsstrategier för säljare av utskriftsbara produkter. Bygg din prenumerantlista, skapa lead magnets, automatisera sekvenser och driv.',
+    titleTag: 'E-postmarknadsföring printable-säljare | LCS',
+    metaDescription: 'E-postmarknadsföring för printable-säljare. Bygg prenumerantlista, skapa lead magnets, automatisera sekvenser och driv återkommande försäljning.',
   },
 
   hero: {
-    title: 'E-postmarknadsföring för säljare av utskriftsbara produkter',
-    tagline: 'En komplett guide till e-postmarknadsföring för säljare av utskriftsbara produkter — inklusive hur du väljer e-posttjänstleverantör, skapar övertygande lead magnets, bygger högkonverterande landningssidor, designar välkomstsekvenser, utvecklar innehållsstrategier för utskick, segmenterar din prenumerantlista, automatiserar säsongskampanjer och spårar mätvärden för kontinuerlig optimering',
+    title: 'E-postmarknadsföring för printable-säljare',
+    tagline: 'Komplett guide: lead magnets, välkomstsekvenser, segmentering och automatiserad e-postmarknadsföring för säljare av utskriftsbara produkter',
     description: 'E-post är den enda marknadsföringskanal du helt äger och kontrollerar. Algoritmer för sociala medier ändras, marknadsplatsens sökrankingar fluktuerar och annonskostnader stiger — men din e-postlista tillhör dig. Varje prenumerant representerar en direkt linje till en potentiell köpare som redan har uttryckt intresse för dina produkter. För säljare av utskriftsbara produkter förvandlar e-postmarknadsföring engångsmarknadsplatskunder till återkommande köpare som handlar direkt, rekommenderar dina produkter och engagerar sig med varje ny release du annonserar.',
   },
 

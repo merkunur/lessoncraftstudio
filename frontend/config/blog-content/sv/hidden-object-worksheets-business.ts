@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'dolda objekt arbetsblad foeretagande',
+    primaryKeyword: 'sälja sök-och-hitta arbetsblad Etsy',
     secondaryKeywords: [
-      'produkttyper säljer bäst',
-      'skapa professionella produkter snabbt',
-      'listnings marknadsföringsstrategi',
+      'dolda objekt printable barn PDF',
+      'hidden objects arbetsblad sälja',
+      'sök och hitta aktivitetsbok KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'observationsövningar barn skriva ut',
+      'gömda föremål pussel printable',
+      'visuell uppmärksamhet arbetsblad',
     ],
-    titleTag: 'Dolda-Objekt-Arbetsblad: Företagande | LCS',
-    metaDescription: 'Dolda-objekt-arbetsblad kombinerar observation med lek. Populärt för barn 4-8 år på Etsy och i KDP-böcker.',
+    titleTag: 'Sälj Sök-och-Hitta-Arbetsblad på Etsy | LCS',
+    metaDescription: 'Sök-och-hitta-arbetsblad fängslar barn 4-8 år. Skapa dolda objekt-printables och sälj på Etsy eller som KDP-bok.',
   },
   hero: {
-    title: 'Dolda-Objekt-Arbetsblad: Företagande',
-    tagline: 'Sök-och-hitta-aktiviteter som fängslar barn',
+    title: 'Sälj Sök-och-Hitta-Arbetsblad på Etsy',
+    tagline: 'Dolda objekt-pussel som fängslar barn i alla åldrar',
     description: 'Dolda-objekt-arbetsblad är extremt populära. Barn älskar att söka och hitta gömda föremål i detaljerade bilder.',
   },
   category: 'product-guide',

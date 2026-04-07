@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables mat och hälsa Etsy | LessonCraftStudio',
-    metaDescription: 'Upptäck mat och matlagning utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Recepttema produktkoncept, plattformsstrategier och tips för säljare.',
+    titleTag: 'Mat och matlagning printables att sälja | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj mat- och matlagningsprintables på Etsy och KDP. Produktidéer med frukt, grönsaker och recept för pysselbok och arbetsblad.',
 
-    primaryKeyword: 'printables mat hälsa etsy matlagning utskriftsbara affärsidéer för',
+    primaryKeyword: 'mat och matlagning printables att sälja',
     secondaryKeywords: [
-      'mattema arbetsblad att sälja',
-      'matlagning utskriftsbart företag idéer',
-      'kök aktivitetsblad för säljare',
-      'sälja mat utskriftsbara på Etsy',
+      'mattema arbetsblad Etsy',
+      'matlagning pysselbok KDP',
+      'frukt grönsaker printables barn',
+      'hälsa och kost aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'kulinariska tematiserade pedagogiska arbetsblad',
-      'näringslära aktiviteter för barn',
-      'recepttema produktlinje utskriftsbara',
+      'mattema uppgifter förskoleklass',
+      'näringslära arbetsblad lågstadiet',
+      'köksaktiviteter barn att skriva ut',
     ],
   },
   hero: {
-    title: 'Mat och matlagning utskriftsbara affärsidéer för säljare',
+    title: 'Mat och matlagning printables — produktidéer för säljare',
     description: 'Mat och matlagning är ett av de mest universellt engagerande temana för barn i alla åldrar, vilket gör det till en enastående tidlös nisch för utskriftsbara entreprenörer som söker konsekventa intäkter året runt med bred tvärkursplanesmässig attraktionskraft. Mat- och matlagningstemat erbjuder anmärkningsvärt djup av underämnen inklusive frukter, grönsaker, pizza, kakor, tårta, bröd, köksredskap, bakning, mathandel, hälsosam kost, näringslära, från jord till bord-koncept och internationella maträtter, vilket ger säljare ett enormt visuellt ordförråd som kopplar till varje barns dagliga upplevelse av måltider, mellanmål och köksutforskning. Tvärkursplanesmässig mångsidighet gör matutskrifter särskilt värdefulla eftersom matlagning kopplar naturligt till matte genom mätning och räkning av ingredienser, läsning genom receptläsning och matvokabulär, naturvetenskap genom näringslära och växters tillväxt, och livsfärdigheter genom hälsosamma matvanor och kökssäkerhet. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad kombinerar mat- och matlagningsnischen stark helårsefterfrågan med universell relaterbarhet som resonerar med förskole- och förskoleklassköpare som driver näringsenheter, hemundervisande familjer som utforskar matlagning och föräldrar som letar efter engagerande inlärningsaktiviteter som kopplar akademiska färdigheter till vardagliga köksupplevelser. Denna guide täcker specifika produktidéer, plattformsstrategier och nischpositioneringsmetoder för att hjälpa dig bygga en lönsam utskriftbar mat- och matlagningsproduktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara mat- och matlagningsprodukter intar en unikt kraftfull position för säljare av utskriftsbara produkter eftersom varje barn har en direkt, personlig koppling till mat genom dagliga måltider, mellanmålsstunder, mathandlingsresor och köksupplevelser med familjen. Till skillnad från nischteman som beror på att ett barn utvecklar ett specifikt intresse är mat universellt relevant från spädbarnstiden och framåt, vilket säkerställer att mattematiserade pedagogiska material tilltalar den bredast möjliga publiken av föräldrar, köpare och hemundervisande familjer. Denna universella relevans omsätts i konsekvent köpefterfrågan under alla tolv månader eftersom näringsutbildning, medvetenhet om hälsosam kost och matlagungstematiserade inlärningsaktiviteter aldrig är ur säsong.

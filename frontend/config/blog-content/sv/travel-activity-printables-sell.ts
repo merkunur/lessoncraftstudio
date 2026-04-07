@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'reseaktivitets utskrifter saelj',
+    primaryKeyword: 'reseaktiviteter printables barn sälja',
     secondaryKeywords: [
-      'reseaktivitets-utskrifter sälj Etsy',
-      'reseaktivitets-utskrifter sälj foeretagande',
-      'utskrifter reseaktivitets-utskrifter sälj',
+      'resepyssel barn skriva ut Etsy',
+      'sysselsätt barn resan aktivitetsblad',
+      'sommarresa printable-nisch säsongsprodukt',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'skärmfria reseaktiviteter barn PDF',
+      'resepaket printable familjesemester',
+      'bilresa flygresa aktivitetsbok barn',
     ],
-    titleTag: 'Reseaktivitets-Utskrifter: Sälj | LCS',
-    metaDescription: 'Reseaktivitets-utskrifter säljer starkt inför sommarsemestern. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Reseaktiviteter: Sälj Printables för Barn',
+    metaDescription: 'Sälj reseaktivitets-printables. Skärmfria aktiviteter för resan. Stor efterfrågan inför sommarlov och semestersäsong.',
   },
   hero: {
-    title: 'Reseaktivitets-Utskrifter: Sälj',
-    tagline: 'Föräldrar behöver material som håller barnen sysselsatta under resor',
+    title: 'Reseaktiviteter: Sälj Printables för Barn',
+    tagline: 'Skärmfria reseaktiviteter säljer starkt inför semestern',
     description: 'Svenska familjer reser mycket på sommarlovet. Utskrivbara reseaktiviteter som inte kräver wifi eller laddning har stark efterfrågan.',
   },
   category: 'niche-seasonal',

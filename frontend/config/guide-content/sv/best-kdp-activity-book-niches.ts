@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'bästa nischer aktivitetsböcker KDP 2026',
+    primaryKeyword: 'bästa nischer pysselbok Amazon KDP lönsamma',
     secondaryKeywords: [
-      'bästa KDP aktivitetsbok nischer för publicerare',
-      'lönsamma aktivitetsbok kategorier Amazon KDP',
-      'KDP nischforskning aktivitetsböcker',
-      'underbetjänade aktivitetsbok nischer KDP',
+      'lönsamma nischer aktivitetsböcker KDP publicera',
+      'Amazon KDP pysselbok nischforskning guide',
+      'underbetjänade kategorier aktivitetsböcker publicerare',
+      'KDP nischval pysselbok pusselbok 2026',
     ],
     lsiKeywords: [
-      'Amazon BSR bästsäljarrang konkurrensanalys efterfrågan',
-      'aktivitetsbok underkategori matte pussel målarbok ordsökning',
-      'målgruppssegmentering förskola barn vuxna seniorer storskrift',
-      'säsongsbetonad nisch högtid skolstart sommar vintergröna',
-      'nischvalidering testtitel 90-dagars försäljning katalogstrategi',
-      'tvärkategori hybrid tematisk aktivitetsbok undernisch',
+      'Amazon BSR bästsäljarrang konkurrensanalys nischvalidering',
+      'pysselbok pusselbok målarbok ordsök mattebok kategorier',
+      'förskoleklass lågstadiet mellanstadiet vuxna seniorer målgrupp',
+      'säsongsbetonad nisch högtid skolstart vintergröna kategorier',
+      'testtitel 90-dagars försäljning katalogstrategi publicera',
+      'tvärkategori hybridnisch tematisk aktivitetsbok undernisch',
     ],
-    titleTag: 'Bästa KDP-nischer böcker (2026) | LessonCraftStudio',
-    metaDescription: 'Upptäck de bästa KDP aktivitetsbok-nischerna för publicerare. Täcker efterfrågeanalys, konkurrensutvärdering, underbetjänade kategorier och säsongsbetonad.',
+    titleTag: 'Bästa KDP-nischer pysselbok 2026 | LCS',
+    metaDescription: 'Hitta de mest lönsamma nischerna för pysselböcker och aktivitetsböcker på Amazon KDP. Nischforskning, konkurrensanalys och underbetjänade kategorier.',
   },
 
   hero: {
-    title: 'Bästa KDP aktivitetsbok-nischer för publicerare',
-    tagline: 'En nischforskningsguide för Amazon KDP aktivitetsbok-publicerare — täcker efterfrågan-till-konkurrens-analys för varje stor aktivitetsbok-kategori, målgruppssegmenteringsstrategier som multiplicerar nischmöjligheter, Amazon BSR och recensionsdata-tolkning för nischvalidering, underbetjänade undernischer med stark köparefterfrågan och tunn konkurrens, säsongsbetonade kontra vintergröna nischtiming för katalogplanering, tvärkategori hybridnischer som når flera köparpooler, och flernischportföljstrategier som balanserar djup med diversifiering',
+    title: 'Bästa nischer för pysselböcker på Amazon KDP',
+    tagline: 'En komplett nischforskningsguide för KDP-publicerare — efterfrågeanalys, konkurrensdata, underbetjänade kategorier, säsongstrender och portföljstrategi för pysselböcker och aktivitetsböcker',
     description: 'Att välja rätt nisch avgör om dina KDP aktivitetsböcker tjänar konsekvent intäkt eller försvinner in i Amazons katalog. Denna guide handlar inte om hur man skapar aktivitetsböcker — våra andra KDP-guider täcker matteaktivitetsböcker, pusselböcker, ordsökningsböcker, formatering och intäktsstrategi i detalj. Denna guide fokuserar på beslutet som kommer före allt det: vilka aktivitetsbok-kategorier bör du rikta dig mot, hur utvärderar du om en nisch har tillräcklig efterfrågan, och hur identifierar du de specifika undernischerna där en ny publicerare kan konkurrera?',
   },
 

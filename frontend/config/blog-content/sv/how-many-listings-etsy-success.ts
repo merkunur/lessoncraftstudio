@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hur maanga listningar Etsy framgaang',
+    primaryKeyword: 'antal listningar Etsy framgång printables',
     secondaryKeywords: [
-      'många listningar etsy-framgång? Etsy',
-      'många listningar foeretagande',
-      'utskrifter många listningar',
+      'hur många produkter behövs Etsy',
+      'kritisk massa Etsy-butik',
+      'Etsy listningar kvantitet vs kvalitet',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'framgångsrik Etsy-butik antal produkter',
+      'Etsy synlighet fler listningar',
+      'skala printable-butik produktportfölj',
     ],
     titleTag: 'Hur Många Listningar för Etsy-Framgång? | LCS',
-    metaDescription: 'Hur många Etsy-listningar behöver du för stabil försäljning? Datadriven analys visar den kritiska massan.',
+    metaDescription: 'Hur många Etsy-listningar krävs för stabil printable-försäljning? Datadriven analys visar den kritiska massan.',
   },
   hero: {
-    title: 'Hur Många Listningar för Etsy-Framgång?',
-    tagline: 'Svaret är mer än du tror — men kvalitet slår kvantitet',
+    title: 'Hur Många Etsy-Listningar Behöver Du?',
+    tagline: 'Kvalitet slår kvantitet, men kritisk massa spelar roll',
     description: 'De flesta framgångsrika Etsy-butiker har 50-200 listningar. Men kvalitet på varje listning är viktigare än total kvantitet.',
   },
   category: 'platform-strategy',

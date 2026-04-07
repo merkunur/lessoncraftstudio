@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'storleksjämförelse arbetsblad sälj',
+    primaryKeyword: 'storleksjämförelse arbetsblad sälja Etsy',
     secondaryKeywords: [
-      'storleksjämförelse-arbetsblad sälj Etsy',
-      'storleksjämförelse-arbetsblad sälj foeretagande',
-      'utskrifter storleksjämförelse-arbetsblad sälj',
+      'stor liten arbetsblad förskoleklass printable',
+      'storleksbegrepp pysselblad barn skriva ut',
+      'jämföra storlekar aktivitetsbok KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'grundläggande matte förskola arbetsblad',
+      'storleksbegrepp visuellt lärande printable',
+      'stor liten lika jämförelseövningar barn',
     ],
-    titleTag: 'Storleksjämförelse-Arbetsblad: Sälj | LCS',
-    metaDescription: 'Storleksjämförelse-arbetsblad för förskolebarn. Grundläggande matematiska begrepp som stor, liten, lika med bilder. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Storleksjämförelse-Arbetsblad: Sälj Printables',
+    metaDescription: 'Sälj storleksjämförelse-arbetsblad för förskolebarn. Stort, litet och lika med bilder. Stabil nisch på Etsy och KDP.',
   },
   hero: {
-    title: 'Storleksjämförelse-Arbetsblad: Sälj',
-    tagline: 'Stort och litet — grundläggande matematik för de yngsta',
+    title: 'Storleksjämförelse: Sälj Arbetsblad Online',
+    tagline: 'Stort och litet — grundläggande matte som säljer',
     description: 'Storleksjämförelse är bland de första matematiska begreppen barn lär sig. Arbetsblad med bilder gör det konkret och engagerande.',
   },
   category: 'product-guide',

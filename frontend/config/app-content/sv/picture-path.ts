@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bildlabyrint att sälja på Etsy',
+    primaryKeyword: 'labyrint skriva ut',
     secondaryKeywords: [
-      'labyrint arbetsblad för Etsy-säljare',
-      'vägpussel generator för Amazon KDP',
-      'bildväg arbetsblad kommersiell licens',
-      'labyrintblad att sälja online',
-      'labyrintbok att publicera på KDP',
+      'labyrint generator',
+      'labyrint barn skriva ut',
+      'skapa labyrint',
+      'labyrint förskoleklass',
     ],
     lsiKeywords: [
-      'passiv inkomst labyrintblad',
-      'printables-verksamhet labyrint',
-      'bildväg aktiviteter produktlinje',
-      'svenska marknaden labyrintblad Etsy',
+      'labyrint',
+      'irrgång',
+      'väg',
+      'barn',
+      'förskoleklass',
     ],
-    titleTag: 'Bildlabyrint att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa bildlabyrint att sälja på Etsy och KDP. 3 spellägen, LPF-algoritm, facit, 104 teman, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Labyrint att skriva ut | Labyrintgenerator',
+    metaDescription: 'Skapa labyrinter med temabilder. Automatiskt facit, 300 DPI PDF. Prova gratis — sälj på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Skapa bildlabyrint att sälja på Etsy och Amazon KDP',
-    tagline: 'Tre spellägen — Bildväg, Klassisk Labyrint och Välj Rätt Väg — med LPF-algoritm, facit och visuell design som fungerar globalt.',
+    title: 'Labyrint att skriva ut — Labyrintgenerator med temabilder',
+    tagline: 'Skapa labyrinter med temabilder och tre spellägen — prova gratis med vattenmärke.',
     description:
       'Skapa labyrint- och vägarbetsblad att sälja på Etsy eller sammanställa i labyrintböcker för Amazon KDP. Tre spellägen: Bildväg med rutnät av bilder, Klassisk Labyrint med LPF-algoritm och konfigurerbara väggar, och Välj Rätt Väg med trevägs-labyrinter. Automatiskt facit med markerade lösningsvägar ingår. Labyrinter är helt visuella — kräver ingen läsning, fungerar globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Labyrintblad och labyrintböcker är konsekvent populära på Etsy och KDP — köpare söker aktivt efter engagerande labyrintaktiviteter. Den svenska marknaden saknar konkurrens. Exportera tryckfärdiga PDF:er i Letter, A4 och anpassade storlekar. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

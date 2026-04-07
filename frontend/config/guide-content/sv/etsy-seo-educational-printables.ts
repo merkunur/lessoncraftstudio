@@ -2,25 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO för utbildningsblad 2026',
+    primaryKeyword: 'Etsy SEO arbetsblad säljare guide 2026',
     secondaryKeywords: [
-      'Etsy SEO arbetsblad strategi 2026',
-      'Etsy nyckelordsresearch printables',
-      'Etsy annonsoptimering pedagogiska produkter',
-      'Etsy taggstrategi för arbetsblad-säljare',
+      'Etsy nyckelordsresearch printables arbetsblad',
+      'Etsy annonsoptimering pedagogiska utskriftsbara',
+      'Etsy taggstrategi 13 taggar arbetsblad',
+      'Etsy titeloptimering digitala produkter SEO',
     ],
     lsiKeywords: [
-      'Etsy sökalgoritm rankningsfaktorer',
-      'Etsy titeloptimering printables',
-      'Etsy SEO strategi pedagogiska printables',
+      'Etsy sökalgoritm rankningsfaktorer synlighet',
+      'Etsy titeloptimering printables nyckelord',
+      'Etsy SEO strategi kategorispecifika nyckelordsbanker',
+      'skolstart högtid säsongsbetonad nyckelordstajming',
+      'Etsy Stats söktermer konkurrentanalys optimering',
+      'kategori attribut digitala nedladdningar printables',
     ],
-    titleTag: 'Etsy SEO för arbetsblad (2026) | LessonCraftStudio',
-    metaDescription: 'Etsy SEO för arbetsblad 2026. Nyckelordsresearch, titeloptimering, 13 taggar, annonsbeskrivningar och rankningsfaktorer. Guide för printables-säljare.',
+    titleTag: 'Etsy SEO för arbetsblad guide 2026 | LCS',
+    metaDescription: 'Etsy SEO-guide 2026 för arbetsblad-säljare. Nyckelordsresearch, titeloptimering, 13 taggar och rankningsfaktorer. Sälj fler printables.',
   },
 
   hero: {
-    title: 'Etsy SEO för arbetsblad — uppdaterad guide 2026 för säljare',
-    tagline: 'En heltäckande Etsy sökoptimerings-guide för pedagogiska utskriftssäljare — täcker nyckelordsresearch-metodik med Etsy autokomplettering och konkurrentanalys, titeloptimerings-formler som balanserar sökrankning med klickfrekvens, strategisk användning av alla 13 annonstaggar för maximal söktäckning, beskrivningsstruktur med SEO-optimerade första 160 tecken, Etsy sökalgoritmens rankningsfaktorer specifika för digitala produkter, kategori- och attributval, kategorispecifika nyckelordsbanker för matte, läsning, pussel, målning, matchning och sök-och-hitta-arbetsblad, säsongsbetonad nyckelordstajming för skolstart och högtidstoppar samt löpande optimering med Etsy Stats söktermsrapporter',
+    title: 'Etsy SEO för arbetsblad — komplett guide 2026',
+    tagline: 'Heltäckande guide: nyckelordsresearch, titeloptimering, 13 taggar, beskrivningsstruktur och Etsy Stats-analys för printable-säljare',
     description: 'Etsy-sökning är den primära trafikkällan för pedagogiska utskriftssäljare. Denna guide lär dig det kompletta Etsy SEO-arbetsflödet — från att researcha köpares söktermer till att optimera varje element i din annons för maximal synlighet. Du kommer att lära dig den exakta titelstrukturen, taggstrategin och beskrivningsformatet som hjälper pedagogiska utskriftsannonser att visas i Etsys sökresultat.',
   },
 

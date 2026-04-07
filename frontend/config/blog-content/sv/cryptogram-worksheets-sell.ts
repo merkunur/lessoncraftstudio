@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kryptogram arbetsblad saelj',
+    primaryKeyword: 'sälja kryptogram arbetsblad Etsy',
     secondaryKeywords: [
-      'kryptogram-arbetsblad sälj online Etsy',
-      'kryptogram-arbetsblad sälj foeretagande',
-      'utskrifter kryptogram-arbetsblad sälj',
+      'kryptogram pusselblad skriva ut',
+      'kodknäckningspussel barn printable',
+      'kryptogram nisch låg konkurrens',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'logiskt tänkande pussel barn',
+      'bokstavsigenkänning kryptogram',
+      'unika nischprodukter Etsy',
     ],
-    titleTag: 'Kryptogram-Arbetsblad: Sälj Online | LCS',
-    metaDescription: 'Kryptogram-arbetsblad kombinerar logik med bokstavsigenkänning. En nisch med växande efterfrågan och låg konkurrens.',
+    titleTag: 'Sälj Kryptogram-Arbetsblad på Etsy | LCS',
+    metaDescription: 'Kryptogram-arbetsblad är en nisch med låg konkurrens och växande efterfrågan. Kombinera logik med bokstäver och sälj på Etsy.',
   },
   hero: {
-    title: 'Kryptogram-Arbetsblad: Sälj Online',
-    tagline: 'Kodknäckning fascinerar barn och vuxna',
+    title: 'Sälj Kryptogram-Arbetsblad: Unik Nisch',
+    tagline: 'Kodknäckningspussel som fascinerar barn och vuxna',
     description: 'Kryptogram-pussel är underbara för logiskt tänkande och bokstavsigenkänning. En unik nischprodukt som sticker ut i Etsy-sökning.',
   },
   category: 'product-guide',

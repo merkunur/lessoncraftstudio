@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis vilken hör inte hemma generator',
+    primaryKeyword: 'vilken hör inte hemma gratis skriva ut',
     secondaryKeywords: [
-      'vilken hör inte hemma gratis online',
-      'hitta udda bilden skapa gratis',
-      'udda bilden pussel skriva ut gratis',
-      'gratis hitta den annorlunda med bilder',
+      'hitta inkräktaren gratis online',
+      'klassificering uppgift gratis',
+      'logiskt tänkande gratis skriva ut',
+      'vad passar inte gratis',
     ],
     lsiKeywords: [
-      'gratis udda bilden online',
-      'vilken hör inte hemma att skriva ut',
-      'hitta den annorlunda gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'vilken hör inte hemma',
+      'logik',
+      'klassificering',
     ],
-    titleTag: 'Vilken hör inte hemma gratis | LessonCraftStudio',
-    metaDescription: 'Skapa vilken hör inte hemma-blad gratis online. Identiskt och Liknande läge, facit med röda cirklar, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Vilken hör inte hemma? gratis online | Logikgenerator',
+    metaDescription: 'Skapa "vilken hör inte hemma?"-uppgifter gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis vilken hör inte hemma generator online',
-    tagline: 'Identiskt och Liknande läge med facit med röda cirklar — gratis provversion med vattenmärke',
+    title: 'Vilken hör inte hemma? gratis online — Logikgenerator',
+    tagline: 'Skapa logikuppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa hitta den annorlunda-blad — helt gratis att testa online. Identiskt läge med 3 kloner + 1 annorlunda, och Liknande läge med temaövergripande diskriminering. 5–10 övningar per sida. Helt visuellt — universellt säljbart utan översättning. Automatiskt facit med röda cirklar ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker visuella pussel att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

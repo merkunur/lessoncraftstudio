@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis bingo-brickor maker med bilder',
+    primaryKeyword: 'skapa bingobrickor gratis online',
     secondaryKeywords: [
-      'bingo-brickor maker gratis online',
-      'bingokort skapa gratis med bilder',
-      'bildbingo skriva ut gratis',
-      'gratis bingokort generator',
+      'bingo generator gratis',
+      'bingo med bilder gratis skriva ut',
+      'egen bingo skapa gratis',
+      'bingospel gratis skriva ut',
     ],
     lsiKeywords: [
-      'gratis bingokort online',
-      'bingo-brickor att skriva ut',
-      'bildbingo gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'bingobricka',
+      'bingo',
+      'bilder',
     ],
-    titleTag: 'Bingo-brickor gratis med bilder | LessonCraftStudio',
-    metaDescription: 'Skapa bingo-brickor med bilder gratis online. 3×3 till 5×5 rutnät, batch-generering, ZIP-export, uppropslista. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skapa bingobrickor gratis online | Bingogenerator',
+    metaDescription: 'Skapa bingobrickor gratis online med 3 000+ temabilder. Unika brickor per set. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis bingo-brickor maker med bilder online',
-    tagline: 'Batch-generering av 1–10 unika bingokort med ZIP-export och uppropslista — gratis provversion med vattenmärke',
+    title: 'Skapa bingobrickor gratis online — Bingogenerator med bilder',
+    tagline: 'Skapa bingobrickor gratis med temabilder och batch-generering — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa bildbingokort — helt gratis att testa online. Generera 1–10 unika kort per batch med konfigurerbara rutnät. ZIP-export laddar ner alla kort i en fil. Bild- eller ordfyllning, uppropslista ingår. Språkkänslig: lokaliserade ord på 11 språk. Perfekt för föräldrar och förskollärare som söker bingokort att skriva ut, och för Etsy-säljare som vill testa generatorn. Välj bland mer än 3 100 illustrationer i 104 teman. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

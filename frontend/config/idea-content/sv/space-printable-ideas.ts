@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables rymden för Etsy | LessonCraftStudio',
-    metaDescription: 'Upptäck rymden utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Rymdtema produktkoncept, STEM-strategier och plattformstips för säljare.',
+    titleTag: 'Rymdtema printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj rymdtema printables på Etsy och KDP. Produktidéer med planeter, raketer och astronauter för pysselbok och arbetsblad.',
 
-    primaryKeyword: 'printables rymden att sälja på Etsy',
+    primaryKeyword: 'rymdtema printables att sälja',
     secondaryKeywords: [
-      'rymdtema arbetsblad att sälja',
-      'rymden utskriftsbart företag idéer',
-      'rymden aktivitetsblad för säljare',
-      'sälja rymden utskriftsbara på Etsy',
+      'rymden arbetsblad Etsy',
+      'rymdtema pysselbok KDP',
+      'planeter raket printables barn',
+      'solsystemet aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'astronomi pedagogiska arbetsblad',
-      'planet och raket aktivitetssidor',
-      'solsystemet tematiserade utskriftsbara',
+      'rymdtema uppgifter förskoleklass',
+      'astronomi arbetsblad lågstadiet',
+      'STEM rymden pyssel barn',
     ],
   },
   hero: {
-    title: 'Rymden utskriftsbara affärsidéer för säljare',
+    title: 'Rymdtema printables — produktidéer för säljare',
     description: 'Yttre rymden är ett av de mest universellt fängslande temana för barn, vilket gör det till en kraftfull tidlös nisch för utskriftsbara entreprenörer som vill ha konsekventa försäljningar året runt utan säsongsbetonat beroende. Rymdtemat erbjuder extraordinär mångfald av underämnen inklusive planeter, raketer, astronauter, stjärnor, månen, solsystemsmodeller, galaxer, utomjordingar, rymdfarkoster, stjärnbilder, kometer, teleskop och rymdstationer, vilket ger säljare ett djupt visuellt ordförråd som väcker fantasi och nyfikenhet hos den yngre publiken. STEM-utbildningsanpassning gör rymdutskrifter särskilt värdefulla för köpare som integrerar naturvetenskapskoncept i matte-, läs- och konstaktiviteter i hela kursplanen. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad kombinerar rymdnischen stark efterfrågan året runt med tvärkategoriell pedagogisk attraktionskraft som resonerar med både köpare och hemundervisande familjer som investerar i naturvetenskapsrika lärandematerial. Denna guide täcker specifika produktidéer, plattformsstrategier och positioneringsmetoder för att hjälpa dig bygga en lönsam utskriftbar rymdproduktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara rymdprodukter intar en unikt fördelaktig position för säljare av utskriftsbara produkter eftersom den levererar konsekvent efterfrågan året runt utan de uppgångs-och-nedgångscykler som kännetecknar säsongsbetonade nischer. Barns fascination för yttre rymden är djupt universell och skär genom åldersgrupper, kulturer och pedagogiska filosofier. Förskolebarn fängslas av raketer och stjärnor, förskoleklassbarn älskar att lära sig planetnamn och astronautäventyr, och lågstadieelever dyker ivrigt in i solsystemsfakta, stjärnbildsidentifiering och rymdforskningens historia. Denna breda åldersappeal innebär att säljare kan skapa produkter riktade mot flera årskurser från ett enda tema, vilket multiplicerar deras katalogdjup utan att byta ämne.

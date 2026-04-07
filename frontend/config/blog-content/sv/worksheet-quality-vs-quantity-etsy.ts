@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kvalitet vs kvantitet Etsy arbetsblad',
+    primaryKeyword: 'kvalitet vs kvantitet Etsy printables',
     secondaryKeywords: [
-      'kvalitet kvantitet etsy Etsy',
-      'kvalitet kvantitet foeretagande',
-      'utskrifter kvalitet kvantitet',
+      'hur många listningar behövs Etsy framgång',
+      'kvalitet eller kvantitet printable-butik',
+      'optimal produktportfölj Etsy-säljare',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'antal listningar Etsy synlighet algoritm',
+      'professionell kvalitet printable konvertering',
+      'balans kvalitet kvantitet printable-företag',
     ],
-    titleTag: 'Kvalitet vs Kvantitet på Etsy | LCS',
-    metaDescription: 'Kvalitet eller kvantitet på Etsy? Det verkliga svaret är mer nyanserat. Datadriven analys av vad som driver framgång.',
+    titleTag: 'Kvalitet vs Kvantitet: Etsy-Printables',
+    metaDescription: 'Kvalitet eller kvantitet på Etsy? Datadriven analys av vad som driver framgång för printable-säljare. Svaret är mer nyanserat.',
   },
   hero: {
-    title: 'Kvalitet vs Kvantitet på Etsy',
-    tagline: 'Den eviga frågan — och det rätta svaret',
+    title: 'Kvalitet vs Kvantitet: Etsy-Printables',
+    tagline: 'Den eviga frågan — och det datadrivna svaret',
     description: 'Svaret är inte antingen-eller utan båda. Du behöver tillräckligt många listningar för synlighet, men varje listning måste hålla professionell kvalitet.',
   },
   category: 'platform-strategy',

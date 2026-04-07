@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'korsordsböcker kdp lönsam nisch',
+    primaryKeyword: 'sälja korsordsbok Amazon KDP',
     secondaryKeywords: [
-      'korsordsböcker lönsam nisch Etsy',
-      'korsordsböcker lönsam foeretagande',
-      'utskrifter korsordsböcker lönsam',
+      'korsordsböcker KDP nisch passiv inkomst',
+      'skapa korsord bok print on demand',
+      'korsord pusselbok vuxna publicera',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'KDP pusselbok formatering',
+      'korsord generator bok',
+      'tryckta pusselböcker seniorer',
     ],
-    titleTag: 'Korsordsböcker på KDP: Lönsam Nisch | LCS',
-    metaDescription: 'Korsordsböcker på Amazon KDP genererar passiv inkomst. Lär dig skapa, formatera och publicera korsordsböcker.',
+    titleTag: 'Sälj Korsordsböcker på Amazon KDP | LCS',
+    metaDescription: 'Korsordsböcker på Amazon KDP ger passiv inkomst. Skapa, formatera och publicera korsordsböcker som säljer till vuxna och seniorer.',
   },
   hero: {
-    title: 'Korsordsböcker på KDP: Lönsam Nisch',
-    tagline: 'Korsord säljer fantastiskt som tryckta böcker',
+    title: 'Sälj Korsordsböcker på Amazon KDP',
+    tagline: 'Korsord i tryck säljer stabilt till vuxna och seniorer',
     description: 'Korsordsböcker på KDP är en beprövad nisch. Vuxna och seniorer köper tryckta korsordsböcker i stor volym.',
   },
   category: 'product-guide',

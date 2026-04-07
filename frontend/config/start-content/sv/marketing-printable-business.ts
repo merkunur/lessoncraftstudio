@@ -2,28 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'marknadsför för utskriftsbara online marknadsföra printables verksamhet',
+    primaryKeyword: 'marknadsföra printable-verksamhet online',
     secondaryKeywords: [
-      'marknadsföringsstrategier för säljare av utskriftsbara produkter',
-      'marknadsför utskriftsbara arbetsblad online',
-      'marknadsföringsplan utskriftsbart företag',
-      'sälj fler arbetsblad på Etsy',
+      'marknadsföring utskriftsbara arbetsblad',
+      'öka försäljning Etsy printables',
+      'Pinterest-strategi för printable-säljare',
+      'SEO-tips sälja arbetsblad online',
     ],
     lsiKeywords: [
-      'Etsy SEO för digitala nedladdningar',
-      'Pinterest-marknadsföring utskriftsbara produkter',
-      'e-postmarknadsföring för arbetsbladssäljare',
-      'säsongsmarknadsföringskalender utskriftsbara produkter',
-      'marknadsplatsoptimering aktivitetsböcker',
-      'innehållsmarknadsföring för utskriftsbara företagare',
+      'Etsy SEO digitala nedladdningar',
+      'Pinterest marknadsföring arbetsblad',
+      'e-postlista printable-företag',
+      'säsongsplanering utskriftsbara produkter',
+      'varumärkesbyggande Etsy-butik',
+      'organisk trafik marknadsplats arbetsblad',
     ],
-    titleTag: 'Marknadsföra printables-verksamhet | LessonCraftStudio',
-    metaDescription: 'Marknadsför utskriftsbara arbetsblad online: plattforms-SEO, Pinterest-strategi, e-postmarknadsföring, säsongsplanering och varumärkesbyggande för utskriftsbara',
+    titleTag: 'Marknadsföra din printable-verksamhet | LCS',
+    metaDescription: 'Marknadsför dina printables effektivt: Etsy-SEO, Pinterest-strategi, e-postmarknadsföring och säsongsplanering för arbetsbladsförsäljare.',
   },
 
   hero: {
-    title: 'Marknadsför ditt utskriftsbara företag online',
-    tagline: 'Beprövade marknadsföringsstrategier för säljare av utskriftsbara produkter — från plattforms-SEO och Pinterest till e-postmarknadsföring och säsongsplanering, varje kanal du behöver för att driva trafik och försäljning',
+    title: 'Marknadsföra din printable-verksamhet',
+    tagline: 'Beprövade strategier för mer trafik och försäljning — från Etsy-SEO och Pinterest till e-post och säsongsplanering',
     description: 'Fantastiska arbetsblad säljer inte sig själva. Gapet mellan att skapa professionella utskriftsbara produkter och att generera konsekvent försäljning överbryggas av marknadsföring — den medvetna, upprepbara processen att placera dina produkter framför de köpare som behöver dem. Denna guide täcker varje marknadsföringskanal relevant för ägare av utskriftsbara företag: plattforms-SEO som fångar befintlig köparavsikt, Pinterest-strategier som driver långsiktig trafik, e-postmarknadsföring som bygger återkommande kunder, innehållsmarknadsföring som etablerar auktoritet och säsongsplanering som anpassar din katalog till köparnas efterfrågecykler. Varje strategi är handlingsbar utan att kräva dyra marknadsföringsverktyg. Den gratis provversionen med vattenstämpel på varje arbetsbladsgenrator ger dig produkter att marknadsföra omedelbart, så du kan implementera dessa strategier medan du läser dem.',
   },
 

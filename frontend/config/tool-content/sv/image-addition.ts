@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis additionsblad generator online',
+    primaryKeyword: 'additionsuppgifter skriva ut gratis',
     secondaryKeywords: [
-      'additionsblad generator gratis online',
-      'matteblad addition skapa gratis',
-      'additions arbetsblad skriva ut gratis',
-      'gratis additions övningsblad med bilder',
+      'plusstycken generator gratis online',
+      'matteuppgifter addition gratis',
+      'additionsuppgifter förskoleklass gratis',
+      'plusräkning övningsblad gratis',
     ],
     lsiKeywords: [
-      'gratis mattearbetsblad online',
-      'additionsblad med bilder att skriva ut',
-      'övningsblad plusräkning förskoleklass',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'lågstadiet',
+      'åk 1',
+      'facit',
     ],
-    titleTag: 'Additionsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa additionsblad gratis online med tematiska bilder. 104 teman, 4 övningslägen, facit, tryckfärdiga PDF:er. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Additionsuppgifter gratis online | Generator med facit',
+    metaDescription: 'Skapa additionsuppgifter gratis online med temabilder och automatiskt facit. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis additionsblad generator online',
-    tagline: 'Skapa bildbaserade additions arbetsblad på under 60 sekunder — gratis provversion med vattenmärke',
+    title: 'Additionsuppgifter gratis online — Generator med temabilder och facit',
+    tagline: 'Skapa additionsuppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa anpassade additionsblad med tematiska bilder — helt gratis att testa online. Välj bland mer än 100 bildteman, ställ in svårighetsgrad och ladda ner tryckfärdiga PDF:er eller JPEG-bilder. Perfekt för föräldrar som söker matteblad att skriva ut, och för Etsy-säljare som vill testa generatorn innan de köper en kommersiell licens. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

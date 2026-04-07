@@ -2,22 +2,22 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'utskriftsfoeretagande inkomst realistisk',
+    primaryKeyword: 'printable-företag realistisk inkomst Etsy',
     secondaryKeywords: [
-      'utskriftsverksamhet realistisk inkomst Etsy',
-      'utskriftsverksamhet realistisk foeretagande',
-      'utskrifter utskriftsverksamhet realistisk',
+      'hur mycket tjänar printable-säljare Etsy',
+      'realistisk inkomst digitala produkter Sverige',
+      'printable-verksamhet intäkter per månad',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'Etsy säljare inkomst printables statistik',
+      'sidoinkomst arbetsblad sälja online',
+      'printable-företagande förväntningar nybörjare',
     ],
-    titleTag: 'Utskriftsverksamhet: Realistisk Inkomst | LCS',
-    metaDescription: 'Realistiska inkomstsiffror för utskriftsverksamhet. Vad du kan förvänta dig månadsvis baserat på antal listningar. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Printable-Företag: Realistisk Inkomst',
+    metaDescription: 'Realistiska inkomstsiffror för printable-företag. Vad du kan förvänta dig per månad baserat på antal Etsy-listningar.',
   },
   hero: {
-    title: 'Utskriftsverksamhet: Realistisk Inkomst',
+    title: 'Printable-Företag: Realistisk Inkomst',
     tagline: 'Ärliga siffror — varken hypad eller nedslående',
     description: 'De flesta utskriftssäljare tjänar 500-3000 kr per månad det första året. Med 100+ listningar och bra SEO kan du nå 10 000-30 000 kr per månad.',
   },

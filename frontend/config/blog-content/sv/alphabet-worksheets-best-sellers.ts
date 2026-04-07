@@ -2,15 +2,15 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'alfabet arbetsblad baestsaeljare',
-    secondaryKeywords: ['saelj alfabet arbetsblad Etsy', 'bokstavsarbetsblad foeretagande', 'alfabet utskrifter vinst'],
-    lsiKeywords: ['bokstavsigenkaenning', 'foerskola alfabetsoevning', 'handskrivning arbetsblad'],
-    titleTag: 'Alfabet-Arbetsblad Bästsäljare: Guide | LCS',
-    metaDescription: 'Alfabet-arbetsblad är bland de mest sålda utskrifterna online. Lär dig skapa bästsäljare för Etsy med rätt nischer och prissättning.',
+    primaryKeyword: 'sälja bokstavsövningar på Etsy',
+    secondaryKeywords: ['alfabet arbetsblad skriva ut', 'ABC övningsblad förskoleklass', 'bokstavsspårning printable sälja'],
+    lsiKeywords: ['svenska alfabetet å ä ö', 'förskola bokstavsinlärning material', 'handskrivningsövningar barn PDF'],
+    titleTag: 'Sälja Bokstavsövningar på Etsy 2026 | LCS',
+    metaDescription: 'Skapa och sälj alfabet-arbetsblad på Etsy. Svenska ABC-övningar med å, ä, ö är en underexploaterad nisch med hög efterfrågan.',
   },
   hero: {
-    title: 'Alfabet-Arbetsblad: Så Skapar du Bästsäljare',
-    tagline: 'Varje förälder som lär sitt barn bokstäver är en potentiell kund',
+    title: 'Sälja Bokstavsövningar: Skapa Bästsäljare',
+    tagline: 'Svenska alfabet med å, ä, ö är en outnyttjad guldgruva på Etsy',
     description: 'Alfabet-arbetsblad är den enskilt mest sökta kategorin av pedagogiska utskrifter på Etsy. Föräldrar till barn i åldern 3-6 söker aktivt efter material för bokstavsinlärning, och efterfrågan toppar inte bara vid skolstarten utan pågår hela året. Den här guiden visar hur du skapar alfabet-produkter som sticker ut i en konkurrensutsatt marknad.',
   },
   category: 'product-guide',

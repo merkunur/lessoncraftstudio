@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa arbetsblad på flera språk att sälja',
+    primaryKeyword: 'flerspråkiga arbetsblad att sälja',
     secondaryKeywords: [
-      'flerspråkigt arbetsbladskapande',
-      'översätta arbetsblad för försäljning',
-      'flerspråkig utskriftsbar produktion',
-      'internationell arbetsbladdesign',
+      'skapa arbetsblad flera språk Etsy',
+      'flerspråkig printable-produktion säljare',
+      'översätta arbetsblad för försäljning KDP',
+      'internationella arbetsblad marknadsplatser',
     ],
     lsiKeywords: [
-      'språkspecifik formatering teckenuppsättningar diakritiska tecken typsnittsval för språk',
-      'tyska omljud franska accenter spanska tecken accenttecken specialtecken',
-      'produktionsarbetsflöde flerspråkig batch översättning modersmålsgranskning kvalitetssäkring',
-      'lokaliserad listningskopia internationellt utskriftsbart arbetsflöde flerspråkiga innehållsverktyg',
-      'textlängdsvariation sammansatta ord kulturell anpassning arbetsbladslokalisering',
-      'batchproduktion flerspråkig innehållsgenerering automatiserade översättningsverktyg ordförrådsdatabaser',
+      'språkspecifik formatering teckenuppsättningar diakritiska tecken typsnittsval',
+      'tyska omljud franska accenter spanska tecken specialtecken',
+      'produktionsarbetsflöde flerspråkig batch översättning kvalitetssäkring',
+      'Etsy Amazon KDP internationella köpare marknadsplats',
+      'textlängdsvariation sammansatta ord kulturell anpassning lokalisering',
+      'batchproduktion flerspråkig skriva ut PDF pysselbok pusselbok',
     ],
-    titleTag: 'Arbetsblad flera språk att sälja | LessonCraftStudio',
-    metaDescription: 'Hur du skapar arbetsblad på flera språk med produktionsarbetsflöden, teckenhantering, typsnittsval, kvalitetssäkring. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Flerspråkiga arbetsblad att sälja | LCS',
+    metaDescription: 'Skapa arbetsblad på flera språk att sälja på Etsy och KDP. Produktionsarbetsflöden, teckenhantering, kvalitetssäkring och marknadsplatsoptimering.',
   },
 
   hero: {
-    title: 'Hur du skapar arbetsblad på flera språk',
+    title: 'Skapa flerspråkiga arbetsblad att sälja',
     tagline: 'En praktisk guide till flerspråkig arbetsbladproduktion — inklusive hur du väljer språkanpassade arbetsbladtyper, konfigurerar en flerspråkig arbetsyta, hanterar specialtecken och typsnitt, anpassar innehåll naturligt för varje marknad, implementerar kvalitetssäkring för översättningar, använder automatiserade flerspråkiga verktyg, bygger effektiva batchproduktionsarbetsflöden och optimerar marknadsplatslistningar för internationella köpare',
     description: 'Att skapa arbetsblad på flera språk handlar inte om att bara köra text genom en översättare. Professionell flerspråkig produktion kräver förståelse för teckenuppsättningar, typsnittskompatibilitet, textlängdsvariationer, kulturellt sammanhang och kvalitetssäkringsprocesser som säkerställer att varje språkversion uppfyller samma standard som ditt original. Denna guide leder genom den kompletta produktionsmetodiken för att skapa arbetsblad som ser ut och läses professionellt på varje målspråk.',
   },

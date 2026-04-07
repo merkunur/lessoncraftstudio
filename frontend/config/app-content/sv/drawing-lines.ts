@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'spårningsblad finmotorik att sälja på Etsy',
+    primaryKeyword: 'skrivmotorik linjer skriva ut',
     secondaryKeywords: [
-      'linjespårning arbetsblad för Etsy-säljare',
-      'finmotoriska övningsblad för Amazon KDP',
-      'rita linjer arbetsblad kommersiell licens',
-      'spårningsblad att sälja online',
-      'finmotorikbok att publicera på KDP',
+      'streckade linjer överskriva',
+      'finmotorik uppgiftsblad',
+      'överskrivningsövningar förskoleklass',
+      'linjer dra uppgift',
     ],
     lsiKeywords: [
-      'passiv inkomst spårningsblad',
-      'printables-verksamhet finmotorik',
-      'bildpar linjespårning produktlinje',
-      'svenska marknaden finmotorikblad Etsy',
+      'finmotorik',
+      'streckade linjer',
+      'överskrivning',
+      'förskoleklass',
+      'pengrepp',
     ],
-    titleTag: 'Spårningsblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa spårningsblad för finmotorik att sälja på Etsy och KDP. 8 SVG-mallar, bildpar, 104 teman, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Skrivmotorik linjer att skriva ut | Generator överskrivning',
+    metaDescription: 'Skapa överskrivnings- och skrivmotorik-uppgifter med temabilder. 300 DPI PDF utskrivbara. Prova gratis — kommersiell licens.',
   },
 
   hero: {
-    title: 'Skapa spårningsblad för finmotorik att sälja på Etsy och KDP',
-    tagline: 'Åtta SVG-linjemallar — kurvor, diagonaler, horisontella och vertikala — med 4–5 bildpar per sida för finmotorisk utveckling genom guidad linjespårning.',
+    title: 'Skrivmotorik linjer att skriva ut — Generator överskrivning',
+    tagline: 'Skapa överskrivningsövningar med streckade linjer och temabilder för förskoleklass — prova gratis med vattenmärke.',
     description:
       'Skapa linjespårningsblad att sälja på Etsy eller sammanställa i finmotoriska arbetsböcker för Amazon KDP. Åtta SVG-baserade mallar med kurvor, diagonaler och raka linjer kopplar samman matchande bildpar — ett visuellt engagerande format som föräldrar och förskollärare älskar. Varje arbetsblad är rent visuellt utan text, vilket gör dem säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Finmotoriska övningsblad är en av de mest efterfrågade produkterna för förskolebarn och förskoleklass — och den svenska marknaden på Etsy har i princip noll konkurrens. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

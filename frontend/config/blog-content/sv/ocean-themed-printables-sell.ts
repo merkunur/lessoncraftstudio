@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'havstema utskrifter saelj',
+    primaryKeyword: 'havstema arbetsblad sälja på Etsy',
     secondaryKeywords: [
-      'havstema-utskrifter sälj online Etsy',
-      'havstema-utskrifter sälj foeretagande',
-      'utskrifter havstema-utskrifter sälj',
+      'havsdjur printables barn skriva ut',
+      'delfin och val pysselblad sälja',
+      'undervattenstema aktivitetsbok KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'havsdjur färgläggning förskoleklass',
+      'evergreen nisch printable-butik',
+      'marina djur arbetsblad ladda ner',
     ],
-    titleTag: 'Havstema-Utskrifter: Sälj Online | LCS',
-    metaDescription: 'Havstema utskrifter med delfiner, valar och korallrev. En evergreen nisch med stark efterfrågan bland barn.',
+    titleTag: 'Havstema-Printables: Sälj på Etsy Året Runt',
+    metaDescription: 'Havstema-printables med delfiner, valar och korallrev. Evergreen nisch som säljer året runt. Skapa med generator, sälj på Etsy och KDP.',
   },
   hero: {
-    title: 'Havstema-Utskrifter: Sälj Online',
-    tagline: 'Havet fascinerar barn — havstema säljer året runt',
+    title: 'Havstema-Printables: Sälj Året Runt',
+    tagline: 'Havsdjur fascinerar barn och säljer som evergreen-nisch',
     description: 'Havstema är universellt populärt. Delfiner, valar och havssköldpaddor engagerar barn på djupet. Sommar-toppar men säljer året runt.',
   },
   category: 'niche-seasonal',

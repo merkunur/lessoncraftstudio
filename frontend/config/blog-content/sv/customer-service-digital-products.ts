@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kundservice digitala produkter',
+    primaryKeyword: 'kundservice Etsy digitala produkter',
     secondaryKeywords: [
-      'optimering för framgång',
-      'tillväxtstrategier',
-      'mäta förbättra resultat',
+      'hantera kundfrågor printable-butik',
+      'undvika negativa recensioner Etsy',
+      'mallsvar digitala nedladdningar',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'femstjärniga recensioner strategi',
+      'vanliga frågor printable-kunder',
+      'nedladdningsproblem Etsy support',
     ],
-    titleTag: 'Kundservice för Digitala Produkter | LCS',
-    metaDescription: 'Professionell kundservice för digitala utskriftsprodukter. Mallsvar, vanliga frågor och hur du undviker negativa. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Kundservice för Printable-Butiker på Etsy | LCS',
+    metaDescription: 'Bra kundservice ger femstjärniga recensioner på Etsy. Mallsvar, vanliga frågor och tips för din printable-butik.',
   },
   hero: {
-    title: 'Kundservice för Digitala Produkter',
-    tagline: 'Bra kundservice ger femstjärniga recensioner',
+    title: 'Kundservice för Din Printable-Butik på Etsy',
+    tagline: 'Rätt kundservice ger femstjärniga recensioner automatiskt',
     description: 'Kundservice på Etsy är enklare än du tror. De flesta frågor handlar om nedladdning och utskrift — standardisera dina svar.',
   },
   category: 'platform-strategy',

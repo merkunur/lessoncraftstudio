@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skrivövningsblad skapa skrivövningar sälja hur',
+    primaryKeyword: 'skapa skrivövningar att skriva ut bokstavsträning',
     secondaryKeywords: [
-      'gör skrivövningar arbetsblad för barn',
-      'skrivövningar arbetsblad generator',
-      'utskriftsklara skrivövningar att sälja',
-      'anpassade bokstavsövningsarbetsblad',
+      'skrivövningsblad generator barn att skriva ut',
+      'bokstavsformning övningsblad skriva ut PDF',
+      'sälja skrivövningar Etsy printable förskoleklass',
+      'Amazon KDP pysselbok skrivövningar handstil',
     ],
     lsiKeywords: [
-      'spåra bokstäver arbetsblad-generator',
-      'skrivstil övningsblad',
-      'streckordning bokstavsformning',
-      'förskrivningsövningar för förskola',
-      'sälja skrivövningar på Etsy',
-      'Amazon KDP skrivarbetsböcker',
+      'spåra bokstäver streckordning bokstavsformning övning',
+      'skrivstil övningsblad toningsspårning guidad kopia',
+      'förskrivningsövningar förskola förskoleklass lågstadiet',
+      'sälja skrivövningar Etsy printable digitala nedladdningar',
+      'Amazon KDP skrivarbetsbok handstil bokstavsövning',
+      'kommersiell licens typsnittsstilar PDF-export verktyg',
     ],
-    titleTag: 'Skrivövningar att sälja online | LessonCraftStudio',
-    metaDescription: 'Skapa skrivövningsblad med spåra, toningsövning och guidad kopia. Streckordningspilar, fem typsnittsstilar och PDF-export för Etsy och KDP. Prova idag.',
+    titleTag: 'Skapa skrivövningar att skriva ut | LCS',
+    metaDescription: 'Skapa skrivövningsblad att skriva ut med spåra, toningsövning och guidad kopia. Streckordningspilar och PDF-export. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar skrivövningsblad',
-    tagline: 'En steg-för-steg-guide för att skapa professionella skrivövningsarbetsblad med progressiva övningslägen, streckordningspilar och tryckfärdig export för Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa skrivövningar att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa skrivövningsblad med progressiva övningslägen, streckordningspilar och tryckfärdig export för Etsy, Amazon KDP och Gumroad',
     description: 'Skrivövning är en av de mest bestående kategorierna inom pedagogiska printables. Varje förskolebarn som lär sig hålla en penna, varje förskoleklassare som formar sina första bokstäver och varje förstaklassare som övergår till skrivstil behöver strukturerade övningsblad. Denna guide leder dig genom hela skapandeprocessen med Skrivövningar Arbetsblad-generatorn — från att välja övningslägen och typsnittsstilar till att bygga progressiva flerradersarbetsblad och exportera tryckfärdiga PDF:er.',
   },
 

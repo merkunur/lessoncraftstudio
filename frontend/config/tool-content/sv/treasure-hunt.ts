@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis skattjakt generator',
+    primaryKeyword: 'skattjakt gratis skriva ut',
     secondaryKeywords: [
-      'skattjakt generator gratis online',
-      'skattjakt arbetsblad skapa gratis',
-      'riktningspussel skriva ut gratis',
-      'gratis skattjakt med bilder',
+      'tipspromenad gratis skriva ut',
+      'skattjakt barn gratis online',
+      'ledtrådar skattjakt gratis',
+      'spårjakt gratis',
     ],
     lsiKeywords: [
-      'gratis skattjaktblad online',
-      'skattjakt att skriva ut',
-      'riktningspussel gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'skattjakt',
+      'tipspromenad',
+      'ledtrådar',
     ],
-    titleTag: 'Skattjakt gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa skattjakt gratis online. 5×5 koordinatrutnät, grundläggande och kompass, 11 språk, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skattjakt gratis online | Generator spårjakt',
+    metaDescription: 'Skapa skattjakt- och tipspromenaduppgifter gratis online. Temabilder, facit. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis skattjakt generator online',
-    tagline: '5×5 koordinatrutnät med grundläggande och kompass-riktningar på 11 språk — gratis provversion med vattenmärke',
+    title: 'Skattjakt gratis online — Generator spårjakt',
+    tagline: 'Skapa skattjakt-uppgifter gratis med riktningsanvisningar — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa skattjaktblad — helt gratis att testa online. 5×5 koordinatrutnät med 6 tematiska landmärken. Grundläggande (upp/ner/vänster/höger) och Kompass (norr/söder/öster/väster). Språkkänslig: lokaliserade riktningar på 11 språk. Automatiskt facit med markerad skattcell ingår. Perfekt för föräldrar och barn som söker skattjaktblad att skriva ut. Välj bland mer än 3 100 illustrationer i 104 teman. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

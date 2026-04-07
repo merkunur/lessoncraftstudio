@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'ordgissningsspel att sälja på Etsy',
+    primaryKeyword: 'hänga gubbe uppgift skriva ut',
     secondaryKeywords: [
-      'gissa ordet arbetsblad för Etsy-säljare',
-      'ordgissningspussel generator för Amazon KDP',
-      'ordgissningsspel kommersiell licens',
-      'vokabulärpussel printables att sälja online',
-      'ordgissningsbok att publicera på KDP',
+      'gissa ordet uppgiftsblad',
+      'hänga gubbe skriva ut',
+      'ordförråd gissningslek',
+      'ordgåta uppgift',
     ],
     lsiKeywords: [
-      'passiv inkomst ordgissningspussel',
-      'printables-verksamhet vokabulärblad',
-      'flerspråkiga ordspel produktlinje',
-      'svenska marknaden ordpussel Etsy',
+      'hänga gubbe',
+      'gissa',
+      'bokstäver',
+      'ordförråd',
+      'ledtrådar',
     ],
-    titleTag: 'Ordgissningsspel att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa ordgissningsspel att sälja på Etsy och KDP. Bildledtrådar, 4 svårighetsnivåer, 11 språk, facit, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Hänga gubbe uppgift att skriva ut | Generator ordgåtor',
+    metaDescription: 'Skapa hänga-gubbe-uppgifter med temaord och bilder. Automatiskt facit, utskrivbara PDF:er. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa ordgissningsspel att sälja på Etsy och Amazon KDP',
-    tagline: 'Hänga gubbe-stil möter bildledtrådar — fyra svårighetsnivåer förvandlar varje ord till ett engagerande pussel.',
+    title: 'Hänga gubbe uppgift att skriva ut — Generator med temaord och bilder',
+    tagline: 'Skapa hänga-gubbe-uppgifter med bildledtrådar och fyra svårighetsnivåer — prova gratis med vattenmärke.',
     description:
       'Skapa ordgissningsspel att sälja på Etsy eller sammanställa i vokabulärpusselböcker för Amazon KDP. Köparna ser en bildledtråd och fyller i tomma bokstavsceller för att gissa det dolda ordet — ett hänga gubbe-liknande format som bygger stavning och ordförråd. Fyra svårighetsnivåer styr hur många bokstäver som visas som ledtrådar — från inga alls till hälften. Eftersom Gissa Ordet är språkkänsligt ändras målordet efter språk — \"dog\" blir \"hund\" på svenska — vilket gör varje språkversion till en unik produkt. Välj bland mer än 3 100 illustrationer i 104 teman, placera 1 till 10 pussel per blad, och exportera i 400+ DPI med automatiskt facit. Stöd för 11 språk öppnar flera marknader med samma produktformat. Den svenska marknaden för ordgissningsspel på Etsy saknar konkurrenter. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

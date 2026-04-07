@@ -2,22 +2,22 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'utskrifter nya foeraeeldrar marknad',
+    primaryKeyword: 'sälja printables till nya föräldrar',
     secondaryKeywords: [
-      'utskrifter föräldrar marknad Etsy',
-      'utskrifter föräldrar foeretagande',
-      'utskrifter utskrifter föräldrar',
+      'pedagogiska utskrifter småbarnsföräldrar',
+      'lärresurser barn 2-5 år Etsy',
+      'förstagångsföräldrar målgrupp printable',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'köpvilliga föräldrar digitala produkter',
+      'tidigt lärande material skriva ut',
+      'småbarn aktivitetsblad PDF',
     ],
-    titleTag: 'Utskrifter för Nya Föräldrar: Marknad | LCS',
-    metaDescription: 'Nya föräldrar är den mest köpvilliga målgruppen för pedagogiska utskrifter. Så når du dem effektivt. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Printables till Nya Föräldrar | LCS',
+    metaDescription: 'Nya föräldrar är den mest köpvilliga målgruppen. Sälj pedagogiska printables till förstagångsföräldrar som söker lärresurser.',
   },
   hero: {
-    title: 'Utskrifter för Nya Föräldrar: Marknad',
+    title: 'Sälj Printables till Nya Föräldrar',
     tagline: 'Förstagångsföräldrar investerar mest i lärresurser',
     description: 'Förstagångsföräldrar söker aktivt efter lärresurser online. De har hög köpvilja och är villiga att betala premium.',
   },

@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'branding tips utskriftsbutik',
+    primaryKeyword: 'branding printable-butik Etsy tips',
     secondaryKeywords: [
-      'branding-tips utskriftsbutik Etsy',
-      'branding-tips utskriftsbutik foeretagande',
-      'utskrifter branding-tips utskriftsbutik',
+      'varumärke Etsy-butik printables bygga',
+      'logo färgschema printable-säljare',
+      'igenkänning kundlojalitet Etsy-butik',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'konsekvent utseende Etsy-butik produkter',
+      'varumärkesidentitet digital produktbutik',
+      'professionell branding printable-företag',
     ],
-    titleTag: 'Branding-Tips för Utskriftsbutik | LCS',
-    metaDescription: 'Branding-strategier för din Etsy utskriftsbutik. Logo, färgschema, ton och kundupplevelse som bygger igenkänning.',
+    titleTag: 'Branding: Bygg Din Printable-Butik på Etsy',
+    metaDescription: 'Branding-strategier för din printable-butik på Etsy. Logo, färgschema och kundupplevelse som bygger igenkänning och lojalitet.',
   },
   hero: {
-    title: 'Branding-Tips för Utskriftsbutik',
-    tagline: 'Ett starkt varumärke bygger kundlojalitet',
+    title: 'Branding: Bygg Din Printable-Butik',
+    tagline: 'Starkt varumärke bygger kundlojalitet och återköp',
     description: 'Branding handlar om igenkänning. Ett konsekvent utseende över alla produkter gör att kunder känner igen och litar på din butik.',
   },
   category: 'how-to',

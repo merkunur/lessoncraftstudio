@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pedagogiska prisstrategi arbetsblad prissättningsstrategier för',
+    primaryKeyword: 'prissättning arbetsblad att sälja online',
     secondaryKeywords: [
-      'hur man prissätter utskriftsbara arbetsblad',
-      'prissättningsguide för pedagogiska produkter',
-      'arbetsblad prissättningsstrategi',
-      'utskriftsbar produktprissättning',
+      'prissätta pedagogiska printables Etsy KDP',
+      'prisstrategi utskriftsbara produkter',
+      'arbetsblad prissättning vinstmarginal',
+      'paketprissättning digitala nedladdningar',
     ],
     lsiKeywords: [
-      'prispunkt upplevt värde konkurrensbaserad prissättning värdebaserad prissättning kostnadsbaserad prissättning',
-      'prisankring paketprissättning stegvis prissättning pristestning plattformsavgifter vinstmarginal',
-      'prispsykologi rabattstrategi premiumprissättning priselasticitet konverteringsgrad',
-      'plattformsavgifter nettointäkt prisnivåer prisjämförelse kostnadsanalys intäktsoptimering',
-      'säsongsprissättning prisjustering marknadsundersökning köparens betalningsvilja prissättningsmodell',
-      'prissättningsramverk prispositionering underprissättning överprissättning hållbar prissättning',
+      'prispunkt upplevt värde konkurrensbaserad prissättning värdebaserad prissättning',
+      'prisankring paketprissättning stegvis prissättning pristestning plattformsavgifter',
+      'prispsykologi premiumprissättning priselasticitet konverteringsgrad',
+      'Etsy avgifter Amazon KDP royalty Gumroad provision',
+      'pysselbok pusselbok aktivitetsbok skriva ut PDF',
+      'prissättningsramverk underprissättning hållbar prissättning',
     ],
-    titleTag: 'Prisstrategi pedagogiska arbetsblad | LessonCraftStudio',
-    metaDescription: 'Beprövade prissättningsstrategier för pedagogiska utskriftsbara produkter. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Prissätta arbetsblad att sälja | LCS',
+    metaDescription: 'Prissättningsstrategier för utskriftsbara arbetsblad på Etsy och KDP. Konkurrensanalys, paketprissättning, prispsykologi och vinstmarginalberäkning.',
   },
 
   hero: {
-    title: 'Prissättningsstrategier för pedagogiska utskriftsbara produkter',
+    title: 'Prissätta utskriftsbara arbetsblad för försäljning',
     tagline: 'En komplett guide till prissättning av pedagogiska utskriftsbara produkter för maximal intäkt och hållbar tillväxt — inklusive marknadsundersökning och konkurrensanalys, kostnadsberäkning och vinstmarginalplanering, prissättningsmodeller för olika produkttyper, prispsykologi och konverteringsoptimering, plattformsspecifika prissättningsöverväganden och systematisk pristestning för kontinuerlig förbättring',
     description: 'Prissättning är det enskilt mest hävstångsrika beslutet i ditt utskriftsbara företag. En $3 prishöjning över hela din katalog kan dubbla din vinstmarginal över en natt, medan underprissättning med bara några dollar lämnar tusentals dollar på bordet varje år. Ändå sätter de flesta säljare av utskriftsbara produkter priser baserat på magkänsla eller genom att kopiera konkurrenter utan att förstå varför dessa konkurrenter valde sina priser. Denna guide täcker ett komplett prissättningsramverk som fungerar på Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica och alla andra plattformar där du säljer pedagogiska utskriftsbara produkter.',
   },

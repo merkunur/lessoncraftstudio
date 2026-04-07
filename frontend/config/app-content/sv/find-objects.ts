@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'hitta och finn-blad att sälja på Etsy och KDP',
+    primaryKeyword: 'hitta och markera uppgift skriva ut',
     secondaryKeywords: [
-      'dolda objekt arbetsblad för Etsy-säljare',
-      'hitta föremålen generator för Amazon KDP',
-      'sökbild arbetsblad kommersiell licens',
-      'hitta udda bilden att sälja online',
-      'sökarbetsbok att publicera på KDP',
+      'gömda föremål uppgift',
+      'sökbild skriva ut',
+      'observationslek uppgift',
+      'hitta och ringa in barn',
     ],
     lsiKeywords: [
-      'passiv inkomst sökarbetsblad',
-      'printables-verksamhet dolda objekt',
-      'visuell sökning produktlinje',
-      'svenska marknaden sökblad Etsy',
+      'sökbild',
+      'gömda föremål',
+      'observera',
+      'ringa in',
+      'förskoleklass',
     ],
-    titleTag: 'Hitta och finn-blad för Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa hitta och finn-blad att sälja på Etsy och KDP. Sökning och Hitta Udda Bilden, automatiskt facit, 104 teman, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Hitta och markera uppgift att skriva ut | Generator observationslekar',
+    metaDescription: 'Skapa hitta-och-markera uppgifter med temabilder. Automatiskt facit, 300 DPI PDF. Prova gratis — sälj på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Skapa hitta och finn-blad att sälja på Etsy och Amazon KDP',
-    tagline: 'Två aktivitetslägen — Sökning med noll-överlappning och Hitta Udda Bilden — med automatiskt facit och 104 tematiska bildsamlingar.',
+    title: 'Hitta och markera uppgift att skriva ut — Generator observationslekar',
+    tagline: 'Skapa hitta-och-markera uppgifter med gömda föremål och temabilder — prova gratis med vattenmärke.',
     description:
       'Skapa hitta och finn-arbetsblad att sälja på Etsy eller sammanställa i sökarbetsböcker för Amazon KDP. Två aktivitetslägen: Sökning sprider dolda objekt i en bildscen, och Hitta Udda Bilden blandar oparade bilder i rader. Automatiskt facit med röda cirklar ingår. Arbetsbladen är rent visuella utan text — samma produkt fungerar globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Dolda objekt-aktiviteter är enormt populära bland föräldrar och säljer konsekvent året runt. Den svenska marknaden för sökarbetsblad på Etsy saknar i princip konkurrenter. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

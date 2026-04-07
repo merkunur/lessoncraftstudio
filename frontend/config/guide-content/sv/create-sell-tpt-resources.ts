@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hur skapar sälja lärarmaterial',
+    primaryKeyword: 'sälja arbetsblad Gumroad guide steg för steg',
     secondaryKeywords: [
-      'hur man säljer på Gumroad',
-      'skapa Gumroad-resurser för säljare',
-      'Gumroad säljarguide för utskriftsklara arbetsblad',
-      'Gumroad butiksuppstart',
+      'skapa Gumroad-resurser arbetsblad att sälja',
+      'Gumroad säljarguide utskriftsbara printables',
+      'starta Gumroad-butik pedagogiskt material',
+      'prisstrategi Gumroad arbetsblad paket',
     ],
     lsiKeywords: [
-      'pedagogisk marknadsplats produktlinjesresurser digital nedladdning utskrivbara produkter',
-      'Gumroad säljarkonto premium-plan provision royalty utbetalningsstruktur',
-      'standardanpassade årskursnivå ämnesområde resurstyp kategorisering',
-      'produktförhandsgranskning miniatyrbild omslag användarvillkor facit',
-      'Gumroad sökalgoritm taggar titel beskrivning upptäckbarhet rankning',
-      'arbetsbladspaket produktkatalog enhet aktivitetspaket prisstrategi',
+      'pedagogisk marknadsplats digital nedladdning Gumroad printables',
+      'Gumroad säljarkonto premium-plan provision royalty',
+      'årskursnivå ämnesområde resurstyp kategorisering taggar',
+      'förhandsgranskningar miniatyrbilder listningsoptimering Gumroad',
+      'Gumroad sökalgoritm titel beskrivning rankning synlighet',
+      'arbetsbladspaket prisstrategi lansering butiksmomentum',
     ],
-    titleTag: 'Sälja lärarmaterial online | LessonCraftStudio',
-    metaDescription: 'Hur du skapar och säljer Gumroad-resurser. Kontouppstart, resursformatering, listningsoptimering, prissättning och att bygga momentum på Gumroad. Prova.',
+    titleTag: 'Sälja arbetsblad på Gumroad guide | LCS',
+    metaDescription: 'Komplett guide: sälja arbetsblad på Gumroad. Kontouppstart, formatering, listningsoptimering, prissättning och att bygga momentum som säljare.',
   },
 
   hero: {
-    title: 'Hur du skapar och säljer Gumroad-resurser',
-    tagline: 'En komplett guide till att sälja pedagogiska resurser på Gumroad — täcker kontouppstart och butikskonfiguration, att skapa Gumroad-redo resurser med korrekt formatering, paketera filer för uppladdning, skriva listningar som rankar i lärarsökningar, skapa effektiva förhandsgranskningar och miniatyrbilder, prisstrategi för den pedagogiska marknadsplatsen, och att lansera dina första resurser för att bygga butiksmomentum och konsekvent intäkt',
+    title: 'Sälja arbetsblad på Gumroad — komplett guide',
+    tagline: 'Steg-för-steg: starta Gumroad-butik, formatera resurser, optimera listningar, sätt priser och bygg momentum som printable-säljare',
     description: 'Gumroad (Gumroad) är en säljare-till-säljare-marknadsplats där säljare köper och säljer originella pedagogiska resurser. Till skillnad från generella marknadsplatser som Etsy eller print-on-demand-plattformar som Amazon KDP, är varje köpare på Gumroad en säljare som aktivt söker produktlinjesfärdiga material. Detta skapar en unikt riktad målgrupp med specifika behov: standardanpassat innehåll, årskursanpassade aktiviteter och resurser som fungerar i verkliga produktlinje med minimal förberedelse.',
   },
 

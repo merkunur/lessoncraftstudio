@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'paketstrategi Etsy utskrifter',
+    primaryKeyword: 'printable paket strategi Etsy sälja',
     secondaryKeywords: [
-      'paketstrategi etsy-utskrifter Etsy',
-      'paketstrategi etsy-utskrifter foeretagande',
-      'utskrifter paketstrategi etsy-utskrifter',
+      'bundle strategi arbetsblad Etsy högt ordervärde',
+      'paketera printables prissättning tips',
+      'temapaket arbetsblad sälja mer',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'genomsnittligt ordervärde Etsy-butik',
+      'megapaket printables prissättning',
+      'korsförsäljning arbetsblad Etsy',
     ],
-    titleTag: 'Paketstrategi för Etsy-Utskrifter | LCS',
-    metaDescription: 'Paketstrategier som ökar ditt genomsnittliga ordervärde på Etsy. Hur du paketerar, prissätter och marknadsför.',
+    titleTag: 'Paketstrategi: Sälj Mer Printables på Etsy',
+    metaDescription: 'Paketstrategier som ökar ordervärdet på Etsy. Hur du paketerar, prissätter och marknadsför printable-paket för maximal vinst.',
   },
   hero: {
-    title: 'Paketstrategi för Etsy-Utskrifter',
-    tagline: 'Paket är vägen till högre ordervärde',
+    title: 'Paketstrategi: Sälj Mer på Etsy',
+    tagline: 'Paket ökar ordervärdet med 200-300% — så gör du',
     description: 'Paket ökar genomsnittligt ordervärde med 200-300%. Lär dig vilka kombineringar som fungerar bäst för utskriftsprodukter.',
   },
   category: 'platform-strategy',

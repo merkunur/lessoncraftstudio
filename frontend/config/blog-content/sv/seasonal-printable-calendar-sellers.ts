@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'säsongskalender för utskriftssäljare',
+    primaryKeyword: 'säsongskalender printable-säljare svenska högtider',
     secondaryKeywords: [
-      'säsongskalender utskriftssäljare Etsy',
-      'säsongskalender utskriftssäljare foeretagande',
-      'utskrifter säsongskalender utskriftssäljare',
+      'när publicera säsongsprintables Etsy',
+      'svenska högtider printable-produkter planering',
+      'Lucia midsommar skolstart printables',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'säsongsbetonad produktlansering Etsy timing',
+      'årsplanering printable-butik Sverige',
+      'högtider aktivitetsblad barn kalender',
     ],
-    titleTag: 'Säsongskalender för Utskriftssäljare | LCS',
-    metaDescription: 'Komplett säsongskalender för utskriftssäljare med svenska högtider. Vad du ska skapa och när du ska publicera.',
+    titleTag: 'Säsongskalender för Printable-Säljare',
+    metaDescription: 'Komplett säsongskalender med svenska högtider för printable-säljare. Vad du ska skapa och när du publicerar på Etsy.',
   },
   hero: {
-    title: 'Säsongskalender för Utskriftssäljare',
-    tagline: 'Planera hela årets produktlanseringar i förväg',
+    title: 'Säsongskalender för Printable-Säljare',
+    tagline: 'Planera hela årets produktlanseringar runt svenska högtider',
     description: 'Svenska högtider skiljer sig från internationella. Lucia (13 dec), midsommar (juni), skolstart (augusti) och alla hjärtans dag (14 feb) är nyckelperioder.',
   },
   category: 'niche-seasonal',

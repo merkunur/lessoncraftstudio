@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bildlabyrint arbetsblad foeretagande',
+    primaryKeyword: 'bildlabyrint arbetsblad sälja Etsy KDP',
     secondaryKeywords: [
-      'produkttyper säljer bäst',
-      'skapa professionella produkter snabbt',
-      'listnings marknadsföringsstrategi',
+      'labyrint printables barn skriva ut',
+      'bildlabyrint pysselbok Amazon KDP',
+      'labyrintblad aktivitetsbok sälja',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'problemlösning labyrint förskoleklass',
+      'koncentrationsträning arbetsblad barn',
+      'maze printables nischprodukt Etsy',
     ],
-    titleTag: 'Bildlabyrint-Arbetsblad: Företagande | LCS',
-    metaDescription: 'Bildlabyrint-arbetsblad kombinerar problemlösning med visuell attraktion. En lönsam nisch på Etsy och KDP.',
+    titleTag: 'Bildlabyrint-Arbetsblad: Sälj på Etsy & KDP',
+    metaDescription: 'Bildlabyrint-arbetsblad kombinerar problemlösning med visuell attraktion. Lönsam nisch. Skapa med generator, sälj på Etsy och KDP.',
   },
   hero: {
-    title: 'Bildlabyrint-Arbetsblad: Företagande',
-    tagline: 'Labyrintar med bilder som gör dem ännu roligare',
+    title: 'Bildlabyrint-Arbetsblad: Bygg Printable-Företag',
+    tagline: 'Labyrintblad med bilder engagerar barn och säljer bra',
     description: 'Bildlabyrintblad är bland de mest engagerande arbetsbladen. Barn spenderar 5-10 minuter per labyrint — perfekt för koncentrationsträning.',
   },
   category: 'product-guide',

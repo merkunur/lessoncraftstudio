@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa mattepysselböcker för Amazon KDP',
+    primaryKeyword: 'skapa matte pysselbok Amazon KDP publicera',
     secondaryKeywords: [
-      'hur man skapar matte aktivitetsböcker för Amazon KDP',
-      'KDP matte arbetsbok publiceringsguide',
-      'publicera matte aktivitetsböcker på Amazon',
-      'Amazon KDP matte arbetsblad-bok',
+      'KDP matte arbetsbok publiceringsguide steg för steg',
+      'publicera matte pysselbok Amazon KDP royalty',
+      'Amazon KDP mattebok formatering omslag nyckelord',
+      'matte aktivitetsbok KDP prisstrategi intäkt',
     ],
     lsiKeywords: [
-      'KDP manuskriptformatering trimstorlek aktivitetsbok interiörsidor',
-      'Amazon bokomslag design ryggbredd kalkylator mall',
+      'KDP manuskriptformatering trimstorlek interiörsidor',
+      'Amazon bokomslag ryggbredd kalkylator mall design',
       'KDP nyckelordsoptimering bläddringskategorier matteböcker',
       'print-on-demand royalty prisstrategi aktivitetsböcker',
-      'matte arbetsbok sidantal svårighetsgradering facit',
-      'KDP publiceringsgranskningsprocess provtryck författarkopior',
+      'matte arbetsbok svårighetsgradering facit sidantal',
+      'KDP granskningsprocess provtryck författarkopior publicera',
     ],
-    titleTag: 'Mattepysselböcker för Amazon KDP | LessonCraftStudio',
-    metaDescription: 'Lär dig hur du skapar matte aktivitetsböcker för KDP. Täcker manuskriptformatering, omslagsdesign och Amazon nyckelordsoptimering. Ingen registrering.',
+    titleTag: 'Skapa matte pysselbok KDP guide | LCS',
+    metaDescription: 'Skapa matte pysselböcker för Amazon KDP. Manuskriptformatering, omslagsdesign, nyckelordsoptimering och royaltystrategi. Komplett publiceringsguide.',
   },
 
   hero: {
-    title: 'Hur du skapar matte aktivitetsböcker för Amazon KDP',
-    tagline: 'En komplett publiceringsguide för att skapa och sälja matte aktivitetsböcker på Amazon KDP — täcker manuskriptformatering med korrekta trimstorlekar och marginaler, bokomslagsdesign med ryggbreddsberäkningar, Amazon nyckelordsfältsoptimering över alla 7 fält, val av bläddringskategorier för maximal upptäckbarhet, royalty prisstrategi vid både 35- och 60-procentsnivåerna, innehållsplanering med svårighetsgradering över 40 till 80 interiörsidor, facitplacering, print-on-demand-ekonomi, provbeställning och att bygga en serie relaterade mattearbetsböcker som korsmarknadsför varandra på Amazon',
+    title: 'Skapa matte pysselböcker för Amazon KDP',
+    tagline: 'Komplett publiceringsguide: manuskriptformatering, omslagsdesign, nyckelordsoptimering, royaltystrategi och katalogbyggande för KDP matteböcker',
     description: 'Amazon KDP låter dig publicera print-on-demand matte aktivitetsböcker utan förskottstryckningskostnader och utan lagerhantering. Denna guide tar dig igenom varje steg av att skapa en professionell matte arbetsbok — från att generera varierat matteinnehåll med 5 specialiserade arbetsblad-generatorer, genom manuskriptformatering och omslagsdesign, till att optimera din Amazon-annons för söksynlighet och sätta priser som maximerar dina royalties.',
   },
 

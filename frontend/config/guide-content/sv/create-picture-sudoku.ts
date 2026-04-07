@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa sudoku med bilder att sälja',
+    primaryKeyword: 'skapa bildsudoku att skriva ut för barn',
     secondaryKeywords: [
-      'bildsudoku för barn',
-      'bildsudoku arbetsblad generator',
-      'utskriftsbar bildsudoku att sälja',
-      'visuella sudokupussel för förskola',
+      'bildsudoku generator barn att skriva ut PDF',
+      'sudoku med bilder förskola förskoleklass',
+      'sälja bildsudoku Etsy printable pusselbok',
+      'Amazon KDP bildsudoku pusselbok barn logik',
     ],
     lsiKeywords: [
-      'bildbaserade logikpussel för barn',
-      'visuell sudoku för unga inlärare',
-      'förskola logik arbetsblad-generator',
-      'sälja sudokuarbetsblad på Etsy',
-      'Amazon KDP pussel aktivitetsböcker',
-      'kommersiell licens pusselverktyg',
+      'bildbaserade logikpussel 4x4 barn förskola',
+      'visuell sudoku klippa och klistra utskrivbar',
+      'förskola förskoleklass logik kritiskt tänkande',
+      'sälja sudokuarbetsblad Etsy printable pussel',
+      'Amazon KDP pusselbok bildsudoku aktivitetsbok',
+      'kommersiell licens pusselverktyg facit tematiska bilder',
     ],
-    titleTag: 'Sudoku med bilder att sälja | LessonCraftStudio',
-    metaDescription: 'Skapa bildsudoku för unga barn. 4×4 bildrutnät, 3 svårighetsnivåer, tematiska bilder, facit och tryckfärdiga PDF att sälja på Etsy och KDP. Prova idag.',
+    titleTag: 'Skapa bildsudoku att skriva ut | LCS',
+    metaDescription: 'Skapa bildsudoku att skriva ut med 4x4 bildrutnät, 3 svårighetsnivåer och tematiska bilder. Tryckfärdiga PDF. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar bildsudoku för unga barn',
-    tagline: 'En steg-för-steg-guide för att skapa bildbaserade 4×4 sudokupussel du kan sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa bildsudoku att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa bildbaserade 4x4 sudokupussel med tematiska bilder och automatiskt facit för Etsy, Amazon KDP och Gumroad',
     description: 'Bildsudoku ersätter siffror med bilder, vilket gör logikpussel tillgängliga för barn så unga som tre år. Istället för att fylla ett rutnät med siffror placerar barn tematiska bilder — djur, frukter, fordon eller valfri bilduppsättning — så att varje rad och kolumn innehåller varje bild exakt en gång. Denna guide leder dig genom hela skapandeprocessen med Bildsudoku-generatorn — från att välja svårighetsnivå och tema till att exportera en polerad, tryckfärdig PDF med automatiskt facit.',
   },
 

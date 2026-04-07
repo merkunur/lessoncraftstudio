@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mönsterigenkänning sälja etsy skapa arbetsblad kdp',
+    primaryKeyword: 'logiska följder uppgifter skriva ut',
     secondaryKeywords: [
-      'mönsterarbetsblad att sälja på Etsy',
-      'mönsterkomplettering generator för Amazon KDP',
-      'mönstersekvens arbetsblad kommersiell licens',
-      'mönsterigenkänning printables att sälja online',
-      'mönsterbok att publicera på KDP',
+      'fortsätt ordningen uppgift',
+      'visuell logik uppgift',
+      'logiskt tänkande uppgifter',
+      'talföljder uppgift',
     ],
     lsiKeywords: [
-      'passiv inkomst mönsterarbetsblad',
-      'printables-verksamhet mönsterkomplettering',
-      'nio mönstertyper produktlinje',
-      'svenska marknaden mönsterarbetsblad Etsy',
+      'logiska följder',
+      'mönster',
+      'sekvens',
+      'fyll i',
+      'flerval',
     ],
-    titleTag: 'Mönsterigenkänning att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa mönsterarbetsblad att sälja på Etsy och KDP. Nio mönstertyper, fyll-i-rutan och flerval, facit, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Logiska följder uppgifter att skriva ut | Generator',
+    metaDescription: 'Skapa övningar i logiska följder med temabilder. Automatiskt facit, 300 DPI PDF. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa mönsterigenkänning arbetsblad att sälja på Etsy och KDP',
-    tagline: 'Nio mönstertyper från AB till ABCD — fyll-i-rutan och flerval — med oberoende konfiguration per övning.',
+    title: 'Logiska följder uppgifter att skriva ut — Generator med temabilder',
+    tagline: 'Skapa övningar i logiska följder med nio mönstertyper och temabilder — prova gratis med vattenmärke.',
     description:
       'Skapa mönsterkompletteringsarbetsblad att sälja på Etsy eller sammanställa i arbetsböcker för Amazon KDP. Nio mönstertyper från AB till ABCD och två frågelägen — fyll-i-rutan och flerval — ger den bredaste variationen av mönsterövningar tillgänglig. Konfigurera 1–8 övningar per sida med oberoende mönstertyp, frågeläge och tema per övning. Arbetsbladen är helt visuella — säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Med nio mönstertyper kan du skapa produktlinjer per svårighetsnivå — från enkla AB-mönster för förskolan till komplexa ABCD-mönster för årskurs 2. Den svenska marknaden saknar professionella mönsterblad på Etsy. Automatiskt facit ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

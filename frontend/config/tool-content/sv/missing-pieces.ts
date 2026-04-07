@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis saknade bitar generator',
+    primaryKeyword: 'pussel saknade bitar gratis skriva ut',
     secondaryKeywords: [
-      'saknade bitar generator gratis online',
-      'pusselarbetsblad skapa gratis',
-      'saknade bitar pussel skriva ut gratis',
-      'gratis visuellt pussel med bilder',
+      'vilken bit passar gratis online',
+      'pussel uppgiftsblad gratis',
+      'visuell logik gratis',
+      'pusselbitar gratis skriva ut',
     ],
     lsiKeywords: [
-      'gratis saknade bitar online',
-      'pusselblad att skriva ut',
-      'visuellt pussel gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'pussel',
+      'bitar',
+      'visuell logik',
     ],
-    titleTag: 'Saknade bitar gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa saknade bitar-pussel gratis online. 6 bitformer, 1–5 saknade bitar, distraktorer, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Pussel saknade bitar gratis online | Generator',
+    metaDescription: 'Skapa uppgifter med saknade pusselbitar gratis online. Temabilder, facit. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis saknade bitar generator online',
-    tagline: '6 bitformer, 1–5 saknade bitar med distraktorer och automatiskt facit — gratis provversion med vattenmärke',
+    title: 'Pussel saknade bitar gratis online — Generator visuell logik',
+    tagline: 'Skapa pusselbitar-uppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa saknade bitar-pussel — helt gratis att testa online. En bild har hål utklippta och användarna identifierar rätt numrerad bit. 6 bitformer, 1–5 saknade bitar, 2–6 alternativ med distraktorer. Rent visuellt — universellt säljbart utan översättning. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker visuella pussel att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

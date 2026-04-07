@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'prepositionsarbetsblad ESL marknad',
+    primaryKeyword: 'prepositionsarbetsblad SFI sälja Etsy',
     secondaryKeywords: [
-      'prepositionsarbetsblad esl-marknaden Etsy',
-      'prepositionsarbetsblad esl-marknaden foeretagande',
-      'utskrifter prepositionsarbetsblad esl-marknaden',
+      'prepositioner ESL printables skriva ut',
+      'SFI-material arbetsblad sälja online',
+      'språkövningar prepositioner pysselbok',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'svenska för invandrare arbetsblad sälja',
+      'visuella prepositionsövningar printable',
+      'ESL worksheet nisch låg konkurrens',
     ],
-    titleTag: 'Prepositionsarbetsblad: ESL-Marknaden | LCS',
-    metaDescription: 'Prepositionsarbetsblad säljer starkt i ESL/SFI-segmentet. Visuella övningar som gör prepositioner begripliga. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Prepositionsarbetsblad: SFI- och ESL-Nischen',
+    metaDescription: 'Prepositionsarbetsblad säljer starkt i SFI- och ESL-segmentet. Visuella övningar med bilder. Sälj på Etsy och Amazon KDP.',
   },
   hero: {
-    title: 'Prepositionsarbetsblad: ESL-Marknaden',
-    tagline: 'Prepositioner — en av de svåraste delarna av språkinlärning',
+    title: 'Prepositionsarbetsblad: SFI- och ESL-Nischen',
+    tagline: 'Prepositioner med bilder — stark efterfrågan i SFI-marknaden',
     description: 'Prepositioner är svåra att lära sig i ett nytt språk. Visuella arbetsblad som illustrerar på, under, bredvid med bilder säljer starkt till SFI-verksamhet i Sverige.',
   },
   category: 'product-guide',

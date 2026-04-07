@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'utskrifter småbarn småbarnsaktivitets sälj',
+    primaryKeyword: 'småbarn aktiviteter printables sälja Etsy',
     secondaryKeywords: [
-      'småbarnsaktivitets-utskrifter sälj Etsy',
-      'småbarnsaktivitets-utskrifter sälj foeretagande',
-      'utskrifter småbarnsaktivitets-utskrifter sälj',
+      'pysselblad 1-3 år skriva ut sälja',
+      'motorikövningar småbarn printable nisch',
+      'enkla aktivitetsblad toddler Etsy KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'färgläggning stora former barn 1-3 år',
+      'småbarnsföräldrar köper printables Etsy',
+      'skärmfria aktiviteter småbarn ladda ner',
     ],
-    titleTag: 'Småbarnsaktivitets-Utskrifter: Sälj | LCS',
-    metaDescription: 'Utskrifter för småbarn 1-3 år. Enkla aktiviteter som färgläggning, klistermärken och motorikövningar. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Småbarn-Printables: Sälj Aktiviteter',
+    metaDescription: 'Sälj printables för småbarn 1-3 år. Enkel färgläggning och motorikövningar. Småbarnsföräldrar är mest aktiva köpare.',
   },
   hero: {
-    title: 'Småbarnsaktivitets-Utskrifter: Sälj',
-    tagline: 'Småbarnsföräldrar är de mest aktiva köparna',
+    title: 'Småbarn-Printables: Sälj Aktiviteter',
+    tagline: 'Småbarnsföräldrar är de mest aktiva printable-köparna',
     description: 'Småbarnsföräldrar köper aktivt utskrifter. Enkla aktiviteter anpassade för små händer med stora element och tydliga former.',
   },
   category: 'niche-seasonal',

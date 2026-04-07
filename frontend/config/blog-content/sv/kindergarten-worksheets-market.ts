@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'förskoleklass arbetsblad marknad',
+    primaryKeyword: 'sälja förskoleklass arbetsblad Etsy',
     secondaryKeywords: [
-      'förskoleklass-arbetsblad marknad Etsy',
-      'förskoleklass-arbetsblad marknad foeretagande',
-      'utskrifter förskoleklass-arbetsblad marknad',
+      'kindergarten worksheets marknad printable',
+      'förskoleklass material skriva ut',
+      'arbetsblad 6-åringar PDF sälja',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'skolförberedande material Sverige',
+      'förskoleklass övningar Lgr22',
+      'förskola grundskola arbetsblad nisch',
     ],
-    titleTag: 'Förskoleklass-Arbetsblad: Marknad | LCS',
-    metaDescription: 'Förskoleklass-arbetsblad är bland de mest sökta på marknaden. Svenska förskoleklass börjar vid 6 år. Sälj på Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Förskoleklass-Arbetsblad på Etsy | LCS',
+    metaDescription: 'Förskoleklass-arbetsblad är bland de mest sökta printables. Skapa material för 6-åringar och sälj på Etsy.',
   },
   hero: {
-    title: 'Förskoleklass-Arbetsblad: Marknad',
-    tagline: 'Förskoleklass i Sverige är en enorm möjlighet',
+    title: 'Sälj Förskoleklass-Arbetsblad: Stor Marknad',
+    tagline: 'Svenska förskoleklassen skapar en unik printable-möjlighet',
     description: 'Förskoleklass (Swedish pre-school class for 6-year-olds) skapar en stor marknad. Föräldrar söker material som förbereder barnen för grundskolan.',
   },
   category: 'niche-seasonal',

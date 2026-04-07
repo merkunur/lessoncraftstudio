@@ -2,28 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'för utskriftsbar idé steg printables affärsplan',
+    primaryKeyword: 'affärsplan printable-verksamhet steg för steg',
     secondaryKeywords: [
-      'utskriftsbar affärsplan för säljare',
-      'lönsamma utskriftsbara produktidéer',
-      'starta en utskriftsbar produktlinje',
-      'affärsplan utskriftsbara arbetsblad',
+      'strukturerad plan sälja printables',
+      'produktlinje utskriftsbara arbetsblad',
+      'lansera printable-företag Etsy KDP',
+      'lönsamma produktidéer utskriftsbara',
     ],
     lsiKeywords: [
-      'Etsy utskriftsbar butik planering',
-      'Amazon KDP produktstrategi',
-      'arbetsbladsföretag intäktsmål',
-      'utskriftsbar katalogexpansion',
-      'produktlinjekartläggning för säljare',
-      'lanseringschecklista utskriftsbart företag',
+      'Etsy butik planering printables',
+      'Amazon KDP produktstrategi nybörjare',
+      'intäktsmål arbetsbladsföretag',
+      'katalogexpansion printable-säljare',
+      'produktlinjekarta för entreprenörer',
+      'lanseringschecklista digitala produkter',
     ],
-    titleTag: 'Steg-för-steg: printables-verksamhet | LessonCraftStudio',
-    metaDescription: 'Förvandla utskriftsbara affärsidéer till en strukturerad plan. Kartlägg din produktlinje, välj plattformar, sätt priser och lansera på Etsy och Amazon KDP.',
+    titleTag: 'Affärsplan för printable-verksamhet | LCS',
+    metaDescription: 'Förvandla din printable-idé till en strukturerad affärsplan. Kartlägg produktlinje, välj plattform, sätt priser och lansera steg för steg.',
   },
 
   hero: {
-    title: 'Utskriftsbar affärsplan: Från idé till inkomst',
-    tagline: 'En strukturerad plan som förvandlar spridda utskriftsbara affärsidéer till en fokuserad, inkomstgenererande produktlinje',
+    title: 'Affärsplan för din printable-verksamhet',
+    tagline: 'Från spridd idé till fokuserad, inkomstgenererande produktlinje — din strukturerade plan',
     description: 'De flesta utskriftsbara företag misslyckas inte för att säljaren saknade idéer, utan för att de saknade en plan. Denna affärsplan vägleder dig genom varje planeringssteg: validera din utskriftsbara affärsidé, kartlägga din produktlinje, välja rätt plattformar, sätta realistiska intäktsmål och lansera med en tydlig handlingsplan. Oavsett om du börjar från noll eller omstrukturerar en underpresterande butik ger denna guide dig det strategiska ramverk som skiljer säljare som bygger hållbar inkomst från dem som skapar slumpmässiga produkter och hoppas på det bästa.',
   },
 

@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables årskurs 2 — Verksamhet | LessonCraftStudio',
-    metaDescription: 'Utforska utskriftsbara idéer för årskurs 2 att sälja på Etsy, Amazon KDP och Gumroad. Produktkoncept och nischstrategier för säljare av utskriftsbara produkter.',
+    titleTag: 'Årskurs 2 printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj printables för årskurs 2 på Etsy och KDP. Produktidéer för matte, läsförståelse och skrivning i lågstadiet.',
 
-    primaryKeyword: 'printables årskurs 2 idéer verksamhet',
+    primaryKeyword: 'årskurs 2 printables att sälja',
     secondaryKeywords: [
-      'årskurs 2 arbetsblad att sälja',
-      'utskriftsbart företag idéer för lågstadiet årskurs 2',
-      'årskurs 2 aktivitetsblad för säljare',
-      'sälja årskurs 2 utskriftsbara på Gumroad',
+      'åk 2 arbetsblad Etsy',
+      'årskurs 2 pysselbok KDP',
+      'matte printables åk 2',
+      'läsförståelse arbetsblad lågstadiet sälja',
     ],
     lsiKeywords: [
-      'grundskola matematik och läsning arbetsblad',
-      'årskurs 2 utskriftsbara resurser för säljare',
-      'ålder 7-8 lärandeaktiviteter',
+      'lågstadiet åk 2 uppgifter att skriva ut',
+      'åk 2 övningar matte svenska',
+      'arbetsblad 7-8 år printables',
     ],
   },
   hero: {
-    title: 'Årskurs 2 utskriftsbara affärsidéer för säljare',
+    title: 'Årskurs 2 printables — produktidéer för säljare',
     description: 'Utskriftsbara produkter för årskurs 2 intar en unikt lönsam position på den pedagogiska marknaden eftersom årskurs 2 är det år då akademisk komplexitet accelererar dramatiskt inom varje ämnesområde, med matematik som expanderar från ensiffriga operationer till flersiffrig addition och subtraktion med tiotalsövergång, läsning som skiftar från avkodning till genuint läsförståelse och flyt, och skrivning som avancerar från enkla meningar till organiserade stycken med ämnesmeningar och stödjande detaljer. Detta akademiska språng skapar intensiv efterfrågan från köpare som behöver nivåindelade material på flera färdighetsnivåer eftersom beredskapsgapet mellan elever vidgas avsevärt i årskurs 2 när kumulativa lärandeskillnader från förskoleklass och årskurs 1 ackumuleras till mätbara prestationsskillnader som kräver riktade interventions- och berikningsresurser inom varje undervisningsblock. Föräldrar blir alltmer motiverade köpare under årskurs 2 eftersom standardiserade tester intensifieras med mer formella bedömningar, betyg visar specifika årskursanpassade kunskapsnivåer snarare än utvecklingsmilstolpar, och de akademiska insatserna blir påtagliga när familjer inser att grundläggande färdigheter som behärskas eller missas under årskurs 2 direkt påverkar beredskapen för årskurs 3 där läsförståelse blir verktyget för lärande inom alla ämnesområden. Innehållsomfånget för årskurs 2 spänner över en extraordinär bredd av färdigheter inklusive tvåsiffrig och tresiffrig addition och subtraktion med tiotalsövergång, platsvärdeförståelse genom hundratal med utvecklad form och taljämförelser, klockan till femminutersintervaller, räkning av pengar med multipla mynt- och sedelkombinationer, mätning med standardenheter och icke-standardenheter, datainsamling med stapeldiagram och bilddiagram, läsflyt på alltmer komplexa textnivåer, förståelsestrategier inklusive huvudidé och stödjande detaljer, vokabulärutveckling med prefix och suffix, grammatikkonventioner inklusive substantiv, verb, adjektiv och korrekt meningsstruktur, samt styckeskrivning med organisatoriska element. För säljare av utskriftsbara produkter och entreprenörer kombinerar nischen för årskurs 2 massiv institutionell efterfrågan från köpare som söker nivåindelade produktsamlingar med stark föräldraköpkraft driven av synlig akademisk ansvarsskyldighet, vilket skapar diversifierade intäktsmöjligheter på Etsy, Amazon KDP, Gumroad och direktförsäljningsplattformar. Denna guide täcker specifika produktidéer byggda kring våra arbetsbladsgenereringsverktyg, plattformsstrategier för att nå köpare inom årskurs 2, och nischpositioneringsmetoder för att hjälpa dig bygga en lönsam produktlinje för årskurs 2.',
   },
   marketOverview: `Marknaden för utskriftsbara produkter för årskurs 2 representerar en av de starkaste intäktsmöjligheterna i den pedagogiska nischen eftersom årskurs 2 befinner sig vid den kritiska korsningen där akademiska förväntningar intensifieras medan färdighetsluckor vidgas, vilket skapar dubbelt köptryck från säljare som måste skapa nivåindelade produktpaket inom alltmer diversifierade butiker och föräldrar som möter ökad ansvarsskyldighet för sitt barns akademiska framsteg genom mer formell bedömningsrapportering och kunskapsstandarder på årskursnivå. Enbart matematikinnehållskatalogen driver enorm efterfrågan på utskriftsbara produkter eftersom matematik i årskurs 2 övergår från de ensiffriga operationerna som behärskades i årskurs 1 till flersiffrig beräkning som kräver strategier för tiotalsövergång, platsvärdeförståelse som sträcker sig genom hundratal, och problemlösningsapplikationer som involverar tid, pengar, mätning och dataanalys som tillsammans representerar den mest betydande matematiska komplexitetsökningen under lågstadiet.

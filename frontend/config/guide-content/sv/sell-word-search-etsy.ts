@@ -2,24 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sälja ordpussel på Etsy tips',
+    primaryKeyword: 'sälja ordsökning Etsy pusselbutik',
     secondaryKeywords: [
-      'hur man säljer ordpussel på Etsy',
-      'Etsy ordpussel butik tips',
-      'utskrivbara ordpussel Etsy-verksamhet',
-      'sälja ordsökning och korsord på Etsy',
+      'Etsy-butik ordpussel korsord sälja',
+      'utskrivbara ordsökningspussel Etsy SEO',
+      'sälja pussel digitala nedladdningar Etsy',
+      'ordpussel paketstrategi Etsy-säljare',
     ],
     lsiKeywords: [
-      'Etsy SEO ordpussel annonsoptimering',
-      'ordpussel paket prisstrategi Etsy',
-      'printables-verksamhet ordpussel svenska',
+      'Etsy SEO ordpussel annonsoptimering 13 taggar',
+      'ordpussel paket prisstrategi korsord ordmix kryptogram',
+      'pusselbok skriva ut PDF A4 Letter tematisk',
+      'förskoleklass lågstadiet vuxna äldre storskrift',
+      'flerspråkiga pussel svenska engelska tyska franska',
+      'Amazon KDP korsningspotential pusselbokserie',
     ],
-    titleTag: 'Sälja ordpussel på Etsy | LessonCraftStudio',
-    metaDescription: 'Lär dig sälja ordpussel på Etsy med 4 pusselgeneratorer. Etsy SEO, prissättning, paketering med korsord och ordmix. Guide och tips för säljare.',
+    titleTag: 'Sälja ordpussel på Etsy | LCS',
+    metaDescription: 'Sälj ordpussel på Etsy med 4 pusselgeneratorer. Etsy SEO, prissättning, paketering med korsord och ordmix. Guide och tips för printables-säljare.',
   },
 
   hero: {
-    title: 'Så säljer du ordpussel på Etsy — guide och tips för säljare',
+    title: 'Sälja ordpussel på Etsy — säljarguide',
     tagline: 'En komplett plattformsguide för att bygga en lönsam Etsy-butik som säljer ordsökningspussel och kompletterande språkpusselformat — täcker Etsy butiksuppsättning, SEO-optimering med alla 13 taggar, annostitlar och beskrivningar som rankar för pusselköpares söktermer, produktfotografering som visar pusselrutnät och facit, prisstrategier för enskilda pussel och tematiska paket, säsongstajming för högtids- och produktlinjestoppar, katalogplanering över ordsökning, korsord, ordmix och kryptogram, språkspecifika produktmöjligheter på flerspråkiga marknader, samt löpande butiksoptimering med Etsy Stats och sökanalys',
     description: 'Ordsökningspussel är bland de mest efterfrågade utskriftsbara pusselformaten på Etsy, köpta av säljare, föräldrar, aktivitetsledare och vuxna pusselentusiaster. Denna guide tar dig igenom varje steg i att bygga en Etsy-butik som säljer ordsökningspussel tillsammans med kompletterande pusselformat — från att researcha köparefterfrågan och planera din produktkatalog, genom att generera lager med 4 pusselverktyg, till att skriva optimerade annonser, skapa annonsfoton, sätta priser och lansera din butik. Du kommer att lära dig hur ordsökningspussel skiljer sig från andra utskriftskategorier när det gäller språkberoende, köpardemografi, korsförsäljningsmöjligheter och Amazon KDP-korsningspotential.',
   },

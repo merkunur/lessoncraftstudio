@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hitta räkna utskrifter vinst',
+    primaryKeyword: 'sälja hitta och räkna arbetsblad Etsy',
     secondaryKeywords: [
-      'hitta-och-räkna-utskrifter vinst Etsy',
-      'hitta-och-räkna-utskrifter vinst foeretagande',
-      'utskrifter hitta-och-räkna-utskrifter vinst',
+      'räkneblad förskola skriva ut',
+      'hitta och räkna printable barn',
+      'visuella räkneövningar PDF sälja',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'observation räkning småbarn',
+      'tematiska räkneblad 3-6 år',
+      'bildräkning arbetsblad förskola',
     ],
-    titleTag: 'Hitta-och-Räkna-Utskrifter: Vinst | LCS',
-    metaDescription: 'Hitta-och-räkna-arbetsblad säljer starkt för barn 3-6 år. Tematiska versioner med djur och föremål som barn känner. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Hitta-och-Räkna-Arbetsblad på Etsy | LCS',
+    metaDescription: 'Hitta-och-räkna-arbetsblad säljer starkt för barn 3-6 år. Skapa tematiska räkneblad och sälj på Etsy som printables.',
   },
   hero: {
-    title: 'Hitta-och-Räkna-Utskrifter: Vinst',
-    tagline: 'Kombinerar observation med räkning — populärt för småbarn',
+    title: 'Sälj Hitta-och-Räkna-Arbetsblad på Etsy',
+    tagline: 'Visuella räkneövningar som föräldrar med småbarn söker',
     description: 'Hitta-och-räkna-arbetsblad är perfekta för förskolebarn. De kombinerar visuell sökning med grundläggande räkning.',
   },
   category: 'product-guide',

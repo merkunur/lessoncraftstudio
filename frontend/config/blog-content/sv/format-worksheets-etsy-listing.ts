@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'formatera arbetsblad Etsy listning',
+    primaryKeyword: 'formatera arbetsblad PDF för Etsy',
     secondaryKeywords: [
-      'formatera arbetsblad etsy-listning Etsy',
-      'formatera arbetsblad foeretagande',
-      'utskrifter formatera arbetsblad',
+      'PDF inställningar printable Etsy',
+      'mockup-bilder arbetsblad listning',
+      'professionell formatering digitala produkter',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'sidmarginaler utskrifter PDF',
+      'förhandsvisning Etsy-listning',
+      'filformat digital nedladdning Etsy',
     ],
     titleTag: 'Formatera Arbetsblad för Etsy-Listning | LCS',
-    metaDescription: 'Lär dig formatera arbetsblad för perfekta Etsy-listningar. PDF-inställningar, förhandsvisningar och mockup-bilder.',
+    metaDescription: 'Formatera arbetsblad professionellt för Etsy. PDF-inställningar, mockup-bilder och förhandsvisningar som konverterar.',
   },
   hero: {
-    title: 'Formatera Arbetsblad för Etsy-Listning',
-    tagline: 'Rätt format gör skillnaden mellan klick och scroll-förbi',
+    title: 'Formatera Arbetsblad för Etsy-Listningar',
+    tagline: 'Professionell formatering gör klickskillnaden',
     description: 'Professionellt formaterade arbetsblad konverterar bättre. PDF-inställningar, sidmarginaler och förhandsvisningsbilder spelar alla roll.',
   },
   category: 'how-to',

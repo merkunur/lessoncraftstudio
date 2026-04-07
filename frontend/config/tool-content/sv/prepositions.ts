@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis prepositionsblad generator',
+    primaryKeyword: 'rumsuppfattning uppgift gratis skriva ut',
     secondaryKeywords: [
-      'prepositionsblad generator gratis online',
-      'prepositioner arbetsblad skapa gratis',
-      'lägesord blad skriva ut gratis',
-      'gratis prepositionsövningar med bilder',
+      'prepositioner övningar gratis online',
+      'ovanför under bredvid gratis',
+      'lägesord uppgift gratis',
+      'riktningsbegrepp gratis skriva ut',
     ],
     lsiKeywords: [
-      'gratis prepositionsblad online',
-      'lägesord att skriva ut',
-      'prepositionsövning SFI gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'prepositioner',
+      'rumsuppfattning',
+      'lägesord',
     ],
-    titleTag: 'Prepositionsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa prepositionsblad gratis online. Fyll-i-luckan och flerval, 8 prepositioner, 11 språk, facit. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Rumsuppfattning gratis online | Prepositionsgenerator',
+    metaDescription: 'Skapa uppgifter om rumsuppfattning och prepositioner gratis online. Temabilder, facit. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis prepositionsblad generator online',
-    tagline: 'Åtta rumsliga prepositioner med fyll-i-luckan och flerval på 11 språk — gratis provversion med vattenmärke',
+    title: 'Rumsuppfattning gratis online — Prepositionsgenerator',
+    tagline: 'Skapa prepositionsuppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa prepositionsblad — helt gratis att testa online. Åtta kärnprepositioner — i, på, under, bredvid, bakom, mellan, ovanför och framför — med fyll-i-luckan och flerval. Språkkänslig: varje preposition uppdateras på 11 språk. Perfekt för SFI-lärare och föräldrar som söker prepositionsövningar att skriva ut. Formersättning skapar fler visuella kombinationer. Välj bland mer än 3 100 bilder i 104 teman. Automatiskt facit och export ingår. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

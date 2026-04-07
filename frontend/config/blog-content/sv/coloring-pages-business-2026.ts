@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'målarbilder företag 2026',
+    primaryKeyword: 'sälja målarbilder på Etsy 2026',
     secondaryKeywords: [
-      'produkttyper säljer bäst',
-      'skapa professionella produkter snabbt',
-      'listnings marknadsföringsstrategi',
+      'målarbilder affärsidé printable',
+      'färgläggningssidor barn vuxna KDP',
+      'målarbok Amazon KDP skapa',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'vuxenfärgläggning printable trend',
+      'tematiska målarbilder skriva ut',
+      'färgläggningsbok print on demand',
     ],
-    titleTag: 'Målarbilder som Företag 2026 | LCS',
-    metaDescription: 'Målarbilder genererar stabil inkomst på Etsy och KDP. Både barn och vuxna köper. Strategier för 2026.',
+    titleTag: 'Sälja Målarbilder på Etsy 2026: Guide | LCS',
+    metaDescription: 'Målarbilder säljer till barn och vuxna på Etsy och KDP. Lär dig skapa lönsamma färgläggningsprodukter 2026.',
   },
   hero: {
-    title: 'Målarbilder som Företag 2026',
-    tagline: 'Målarbilder säljer mer än du tror — till alla åldrar',
+    title: 'Sälja Målarbilder: Affärsidé för 2026',
+    tagline: 'Färgläggning säljer till alla åldrar — barn och vuxna',
     description: 'Målarbilder-marknaden har exploderat med vuxenfärgläggning. Kombinera med pedagogiskt innehåll för att differentiera dig.',
   },
   category: 'product-guide',

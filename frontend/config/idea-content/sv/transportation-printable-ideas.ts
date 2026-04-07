@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables fordon — Verksamhet | LessonCraftStudio',
-    metaDescription: 'Utforska fordon utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Fordonstema produktkoncept, plattformsstrategier och tips för säljare. Prova.',
+    titleTag: 'Fordonstema printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj fordonstema printables på Etsy och KDP. Produktidéer med bil, lastbil och tåg för pysselbok och arbetsblad barn.',
 
-    primaryKeyword: 'printables fordon idéer verksamhet',
+    primaryKeyword: 'fordonstema printables att sälja',
     secondaryKeywords: [
-      'fordon arbetsblad att sälja',
-      'fordonstema utskriftsbart företag',
-      'fordon aktivitetsblad för säljare',
-      'sälja fordon utskriftsbara på Etsy',
+      'fordon arbetsblad Etsy',
+      'fordonstema pysselbok KDP',
+      'bil lastbil printables barn',
+      'fordon aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'bil och lastbil pedagogiska arbetsblad',
-      'fordonstema aktivitetssidor',
-      'resor och transport tematiserade utskriftsbara',
+      'fordonstema uppgifter förskoleklass',
+      'transport arbetsblad lågstadiet',
+      'bilar tåg pyssel barn att skriva ut',
     ],
   },
   hero: {
-    title: 'Fordon utskriftsbara affärsidéer för säljare',
+    title: 'Fordonstema printables — produktidéer för säljare',
     description: 'Transport är ett av de mest universellt älskade temana för små barn, vilket gör det till en enastående tidlös nisch för utskriftsbara entreprenörer som söker konsekventa intäkter året runt utan säsongsbetonat beroende. Transporttemat erbjuder anmärkningsvärt djup av underämnen inklusive bilar, lastbilar, tåg, flygplan, bussar, båtar, helikoptrar, brandbilar, ambulanser, traktorer, motorcyklar, byggfordon, fartyg och ubåtar, vilket ger säljare ett enormt visuellt ordförråd som fängslar barn som är oändligt fascinerade av saker som rör sig. Tvärkursplanesmässig mångsidighet gör fordonsutskrifter särskilt värdefulla eftersom fordon kopplar naturligt till matteövningar med räkning, ordförrådsbyggande inom läsning, samhällskunskapsenheter om samhällshjälpare och naturvetenskapskoncept om rörelse och energi. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad kombinerar fordonsnischen stark helårsefterfrågan med bred pedagogisk attraktionskraft som resonerar med förskole- och förskoleklassköpare som driver transportenheter, hemundervisande familjer som utforskar fordonsteman och föräldrar som letar efter engagerande inlärningsaktiviteter för fordonsbesatta barn. Denna guide täcker specifika produktidéer, plattformsstrategier och nischpositioneringsmetoder för att hjälpa dig bygga en lönsam utskriftbar fordonsproduktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara fordonsprodukter intar en unikt kraftfull position för säljare av utskriftsbara produkter eftersom barns fascination för fordon är bland de mest intensiva och ihållande intressena inom tidig barndomsutveckling. Från det ögonblick småbarn pekar entusiastiskt på förbipasserande lastbilar, brandbilar och flygplan ovanför tar fordonsbesattheten tag och kvarstår under hela förskole- och tidig lågstadieåren. Denna djupa, inneboende motivation innebär att barn ivrigt engagerar sig i transporttematiserade arbetsblad utan den övertalning som generiska pedagogiska material ibland kräver, vilket gör fordonstematiserade utskrifter exceptionellt attraktiva för både köpare som söker engagemang och föräldrar som vill ha produktiva skärmfria aktiviteter.

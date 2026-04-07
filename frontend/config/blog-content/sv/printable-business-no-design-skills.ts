@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'utskriftsverksamhet utan designkunskaper',
+    primaryKeyword: 'sälja printables utan designkunskaper',
     secondaryKeywords: [
-      'utskriftsverksamhet utan designkunskaper Etsy',
-      'utskriftsverksamhet utan foeretagande',
-      'utskrifter utskriftsverksamhet utan',
+      'starta printable-företag utan design',
+      'skapa arbetsblad utan grafisk designer',
+      'printable-verksamhet nybörjare verktyg',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'arbetsblad generator automatisk design',
+      'professionella printables utan erfarenhet',
+      'Etsy-butik starta utan designkunskap',
     ],
-    titleTag: 'Utskriftsverksamhet utan Designkunskaper | LCS',
-    metaDescription: 'Starta utskriftsverksamhet utan designerfarenhet. Verktyg och generatorer som gör professionella resultat. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Printables Utan Designkunskaper',
+    metaDescription: 'Starta printable-företag utan designerfarenhet. Generatorer skapar professionella arbetsblad automatiskt. Sälj på Etsy och KDP.',
   },
   hero: {
-    title: 'Utskriftsverksamhet utan Designkunskaper',
-    tagline: 'Du behöver inte vara grafisk designer',
+    title: 'Sälj Printables Utan Designkunskaper',
+    tagline: 'Du behöver inte vara grafisk designer — generatorer gör jobbet',
     description: 'Du behöver inga designkunskaper för att skapa professionella utskrifter. Generatorer hanterar layout, typografi och formatering automatiskt.',
   },
   category: 'how-to',

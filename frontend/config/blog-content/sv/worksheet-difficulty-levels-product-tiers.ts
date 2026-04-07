@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'svårighetsnivåer produktnivåer',
+    primaryKeyword: 'svårighetsnivåer arbetsblad produktnivåer Etsy',
     secondaryKeywords: [
-      'steg för steg guide',
-      'vanliga misstag undvika',
-      'avancerade tips',
+      'nybörjare avancerad arbetsblad tre nivåer',
+      'produktlinje svårighetsgrad printable strategi',
+      'åldersanpassade arbetsblad multiplicera listningar',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'progressiv svårighet arbetsblad-paket',
+      'tre prisnivåer printable Etsy-butik',
+      'differentierade produkter samma koncept',
     ],
-    titleTag: 'Svårighetsnivåer: Produktnivåer | LCS',
-    metaDescription: 'Använd svårighetsnivåer för att skapa produktnivåer. Nybörjare, mellanliggande och avancerad ger tre produkter av. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Svårighetsnivåer: Tredubbla Din Produktlinje',
+    metaDescription: 'Använd svårighetsnivåer för att skapa tre produkter av en. Nybörjare, mellanliggande och avancerad. Tredubbla listningarna.',
   },
   hero: {
-    title: 'Svårighetsnivåer: Produktnivåer',
-    tagline: 'Rätt svårighetsgrad ger rätt målgrupp',
+    title: 'Svårighetsnivåer: Tredubbla Din Produktlinje',
+    tagline: 'Tre nivåer ger tre produkter av samma koncept',
     description: 'Tre svårighetsnivåer per arbetsbladstyp tredubblar din produktlinje. Samma koncept, olika utmaning — tre separata produkter.',
   },
   category: 'how-to',

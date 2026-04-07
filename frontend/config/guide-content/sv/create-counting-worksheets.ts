@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'räkneblad sälja etsy hur skapar räkne diagramarbetsblad skapa',
+    primaryKeyword: 'skapa räkneövningar att skriva ut med bilddiagram',
     secondaryKeywords: [
-      'bilddiagram arbetsblad generator',
-      'skapa räkne- och diagramarbetsblad',
-      'utskriftsklara bilddiagram arbetsblad att sälja',
-      'stapeldiagram räkningsarbetsblad generator',
+      'räknearbetsblad generator att skriva ut PDF',
+      'bilddiagram övning förskoleklass att sälja',
+      'sälja räkneblad Etsy printable matematik',
+      'Amazon KDP pysselbok räkneövningar diagram',
     ],
     lsiKeywords: [
-      'utspridd bildrutnät räkningsaktivitet',
-      'automatiskt facit diagramarbetsblad',
-      'dubbelarbetsyta datarepresentationsverktyg',
-      'sälja diagramarbetsblad på Etsy',
-      'Amazon KDP datakompetens arbetsböcker',
-      'kommersiell licens bilddiagram-generator',
+      'bildrutnät räkningsaktivitet stapeldiagram övning',
+      'automatiskt facit dubbelarbetsyta datakompetens',
+      'räkna och rita diagram förskoleklass lågstadiet',
+      'sälja räknearbetsblad Etsy printable matematik',
+      'Amazon KDP pysselbok datakompetens diagram',
+      'kommersiell licens bilddiagram-generator 104 teman',
     ],
-    titleTag: 'Räkneblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Hur du skapar räkningsarbetsblad med bilddiagram, automatiskt facit och 104 teman. Steg-för-steg-guide för att sälja printables på Etsy, KDP och Gumroad.',
+    titleTag: 'Skapa räkneövningar att skriva ut | LCS',
+    metaDescription: 'Skapa räknearbetsblad med bilddiagram att skriva ut. Automatiskt facit, 104 teman och stapeldiagram. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar räkne- och diagramarbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa bilddiagram-arbetsblad med utspridda bildrutnät, autogenererade facit och stapeldiagram du kan sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa räkneövningar med bilddiagram att skriva ut',
+    tagline: 'Steg-för-steg: skapa räkne- och diagramarbetsblad med utspridda bildrutnät, automatiskt facit och stapeldiagram för Etsy, Amazon KDP och Gumroad',
     description: 'Räkne- och diagramarbetsblad lär ut två grundläggande mattefärdigheter i en enda aktivitet: datainsamling (räkna utspridda bilder) och datarepresentation (fylla i ett stapeldiagram). Detta dubbelafärdighetsformat är en produktkatalogsstandard i tidiga grundskolemarknader världen över, vilket skapar stadig helårsefterfrågan. Denna guide leder dig genom hela skapandeprocessen med Diagram Räkning Arbetsblad-generatorn — från att välja bilder och generera det utspridda rutnätet till att granska det autogenererade facit och exportera tryckfärdiga filer.',
   },
 

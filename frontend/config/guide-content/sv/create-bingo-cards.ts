@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa bingo-brickor med bilder att sälja',
+    primaryKeyword: 'skapa bingobrickor att skriva ut med bilder',
     secondaryKeywords: [
-      'gör bingokort med bilder',
-      'bingokort generator för barn',
-      'utskriftsklara bingokort att sälja',
-      'anpassad bildbingo-generator',
+      'bingokort generator bilder att skriva ut PDF',
+      'göra bingobrickor barn tematiska utskriftsbara',
+      'sälja bingokort Etsy printable bingo',
+      'Amazon KDP bingo pysselbok aktivitetsbok',
     ],
     lsiKeywords: [
-      'tematiska bingokort för produktlinje',
-      'festbingo utskriftsbar aktivitet',
-      'sälja bingokort på Etsy',
-      'Amazon KDP bingo aktivitetsböcker',
-      'kommersiell licens bingoverktyg',
-      'flera unika bingokort generator',
+      'tematiska bingokort fest aktivitet att skriva ut',
+      'bildbingo förskoleklass lågstadiet kalas barnkalas',
+      'sälja bingokort Etsy printable digitala produkter',
+      'Amazon KDP bingo pysselbok aktivitetsbok barn',
+      'kommersiell licens bingoverktyg unika kort generator',
+      'uppropskort rutnätsstorlekar 3x3 4x4 5x5 flerspråkig',
     ],
-    titleTag: 'Bingo-brickor att sälja online | LessonCraftStudio',
-    metaDescription: 'Hur du skapar bingokort med tematiska bilder. Välj rutnätsstorlekar, generera unika kort med uppropskort och exportera tryckfärdiga PDF att sälja på Etsy och.',
+    titleTag: 'Skapa bingobrickor att skriva ut | LCS',
+    metaDescription: 'Skapa tematiska bingobrickor med bilder att skriva ut. Välj rutnätsstorlek, generera unika kort och exportera PDF. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar bingokort med tematiska bilder',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska, tryckfärdiga bingokort med uppropskort du kan sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa bingobrickor att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa tematiska bingokort med bilder, uppropskort och tryckfärdiga PDF:er för Etsy, Amazon KDP och Gumroad',
     description: 'Bingokort är en av de mest mångsidiga printable-produkterna. säljare använder dem för vokabulärrepetition och produktlinjesbelöningar. Föräldrar använder dem för födelsedagskalas och familjespelkvällar. Eventplanerare använder dem för babyshower, högtidssamlingar och teambuilding-aktiviteter. Denna guide leder dig genom hela skapandeprocessen med Bingokort-generatorn — från att välja rutnätsstorlek och tema till att generera flera unika kort med uppropskort och exportera allt som tryckfärdiga PDF:er.',
   },
 

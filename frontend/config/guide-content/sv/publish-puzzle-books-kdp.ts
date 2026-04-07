@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'publicera pysselböcker på Amazon KDP',
+    primaryKeyword: 'publicera pusselbok Amazon KDP',
     secondaryKeywords: [
-      'hur man publicerar pusselböcker på Amazon KDP',
-      'KDP pusselbok publiceringsguide',
-      'skapa ordsökningsböcker för Amazon',
-      'Amazon KDP korsord sudoku pusselböcker',
+      'pusselbok KDP ordsökning korsord sudoku',
+      'skapa pusselböcker att sälja Amazon',
+      'KDP pusselbok formatering guide',
+      'pusselbok barn vuxna Amazon självpublicering',
     ],
     lsiKeywords: [
-      'ordsökning korsord sudoku pusselbok interiörsidor',
+      'ordsökning korsord sudoku pusselbok interiörsidor skriva ut',
       'pusselbok sidantal svårighetsgradering lösningssektion',
-      'KDP variationspusselbok blandade pusseltyper formatering',
+      'KDP variationspusselbok blandade pusseltyper formatering trim',
       'Amazon pusselbok nyckelord kategorier vuxna barn marknad',
-      'print-on-demand pusselkatalog serie volymnumrering',
+      'print-on-demand pusselkatalog serie volymnumrering royalty',
       'pusselrutnät avstånd trimstorlek facit bakmaterial',
     ],
-    titleTag: 'Publicera pysselböcker på KDP | LessonCraftStudio',
-    metaDescription: 'Hur du publicerar pusselböcker på KDP med ordsökning, korsord och sudoku. Täcker formatering, variationsböcker, seriestrategi och Amazon-annonsering. Prova.',
+    titleTag: 'Publicera pusselböcker på KDP | LCS',
+    metaDescription: 'Publicera pusselböcker på Amazon KDP med ordsökning, korsord och sudoku. Formatering, variationsböcker, seriestrategi och nyckelordsoptimering steg för steg.',
   },
 
   hero: {
-    title: 'Hur du publicerar pusselböcker på Amazon KDP',
+    title: 'Publicera pusselböcker på Amazon KDP',
     tagline: 'En komplett guide till att skapa och publicera pusselböcker på Amazon KDP — täcker ordsökning, korsord, sudoku, mattepussel och visuella pusseltyper, hur du strukturerar enkeltyps- och variationspusselböcker, pusselspecifik formatering för tryck med adekvat rutnätsavstånd och lösningssektioner, den dubbla marknaden för vuxna och barn, Amazon nyckelordsoptimering för pusselsökningar, svårighetsgradering över enkla medel och svåra sektioner, att bygga flervolyms pusselboksserier och katalogstrategier som utnyttjar Amazons korsmarknadsföring',
     description: 'Pusselböcker är en av de största och mest konsekvent lönsamma kategorierna på Amazon KDP. Till skillnad från matteaktivitetsböcker som primärt riktar sig mot föräldrar och säljare till unga barn, betjänar pusselböcker en massiv dubbelmarknad — vuxna som tycker om ordsökning, korsord och sudoku som daglig underhållning, plus barn som engageras av visuella pussel, bildvägar och tematiska ordfinnare. Denna guide tar dig igenom att skapa professionella pusselböcker med särskild uppmärksamhet på vad som gör pusselböcker annorlunda: högre sidantal, valet mellan enkeltyps- och variationsformat, pusselspecifika formateringskrav och den volymbaserade katalogstrategin som driver långsiktig KDP-intäkt.',
   },

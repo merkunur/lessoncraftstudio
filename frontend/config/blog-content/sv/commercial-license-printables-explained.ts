@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kommersiell licens utskrifter foerklarat',
+    primaryKeyword: 'kommersiell licens printables förklarat',
     secondaryKeywords: [
-      'kommersiell licens utskrifter Etsy',
-      'kommersiell licens foeretagande',
-      'utskrifter kommersiell licens',
+      'licensvillkor sälja arbetsblad Etsy',
+      'vad får jag sälja kommersiell licens',
+      'printable licens rättigheter guide',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'användningsvillkor digitala produkter',
+      'återförsäljningsrätt utskrifter',
+      'kommersiellt bruk arbetsblad',
     ],
-    titleTag: 'Kommersiell Licens för Utskrifter: Förklarat | LCS',
-    metaDescription: 'Förstå kommersiella licenser för utskriftsverktyg. Vad du får sälja, var och hur — klarspråk utan juridisk jargong.',
+    titleTag: 'Kommersiell Licens för Printables Förklarat | LCS',
+    metaDescription: 'Vad innebär kommersiell licens för printables? Tydlig guide om vad du får sälja, var och hur utan juridisk jargong.',
   },
   hero: {
-    title: 'Kommersiell Licens för Utskrifter: Förklarat',
-    tagline: 'Vad du behöver veta innan du säljer',
+    title: 'Kommersiell Licens för Printables: Tydlig Guide',
+    tagline: 'Vad du får och inte får göra med licensierade printables',
     description: 'Kommersiella licenser bestämmer vad du får göra med utskrifter du skapar. Utan rätt licens riskerar du att bryta mot villkor.',
   },
   category: 'how-to',

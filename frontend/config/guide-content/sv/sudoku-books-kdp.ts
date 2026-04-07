@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa sudokuböcker för Amazon KDP',
+    primaryKeyword: 'sudokubok Amazon KDP publicera',
     secondaryKeywords: [
-      'hur man skapar sudokuböcker för Amazon KDP',
-      'bildsudoku böcker för barn KDP',
-      'sudoku pusselbok publiceringsguide',
-      'sudoku bokserier Amazon självpublicering',
+      'skapa sudokubok barn vuxna KDP',
+      'bildsudoku bok förskoleklass Amazon',
+      'sudoku pusselbok självpublicering guide',
+      'sudoku bokserie KDP royalty strategi',
     ],
     lsiKeywords: [
       'sudoku rutnät svårighet enkel medium svår expert progression',
-      'bildsudoku barn logikpussel förskola förskoleklass',
+      'bildsudoku barn logikpussel förskola förskoleklass skriva ut',
       'siffersudoku vuxna hjärnträning kognitiv övning',
-      'sudoku bok formatering rutnätsstorlek tryckkvalitet KDP',
+      'sudoku bok formatering rutnätsstorlek tryckkvalitet KDP trim',
       'sudoku serie volymer upprepade köp lojala lösare katalog',
-      'sudoku pusselantal sidlayout facit trycktrim',
+      'pusselbok Amazon nyckelord kategorier royaltyberäkning',
     ],
-    titleTag: 'Sudokuböcker för Amazon KDP | LessonCraftStudio',
-    metaDescription: 'Skapa sudokuböcker KDP med bildsudoku för barn och siffersudoku för vuxna. Svårighetsgradering, rutnätsformatering och seriebyggande strategi. Online.',
+    titleTag: 'Sudokuböcker för Amazon KDP | LCS',
+    metaDescription: 'Skapa sudokuböcker för KDP med bildsudoku för barn och siffersudoku för vuxna. Svårighetsgradering, formatering och seriebyggande strategi steg för steg.',
   },
 
   hero: {
-    title: 'Hur du skapar sudokuböcker för Amazon KDP',
+    title: 'Skapa sudokuböcker för Amazon KDP',
     tagline: 'En fokuserad guide till att skapa och publicera sudoku pusselböcker på Amazon KDP — täcker den dubbla marknaden av bildsudoku för små barn och siffersudoku för vuxna, svårighetsprogressionsstrategier som håller lösare engagerade genom enkla till expertsektioner, sudokuspecifik rutnätsformatering för rent tryckresultat, sidlayout och facitkonventioner unika för sudokuböcker, den seriebyggande metoden som utnyttjar sudokulösares exceptionellt starka upprepade-köp-beteende, och expansionsvägen från en sudokukatalog till bredare pusselbokspublicering',
     description: 'Sudoku intar en unik position bland KDP pusselböcker. Till skillnad från de flesta pusseltyper som betjänar en enda målgrupp delas sudoku i två fundamentalt olika produkter: bildsudoku för barn i åldrarna 3 till 7 som utvecklar tidig logikförmåga med bilder istället för siffror, och siffersudoku för vuxna som sträcker sig från avkopplande enkla rutnät till krävande expertutmaningar. Varje format har sin egen målgrupp, söktermer, omslagsdesignkonventioner och konkurrenssituation. Denna guide fokuserar specifikt på vad som gör sudokuboks-publicering distinkt från generell pusselboks-publicering: den dubbla marknadsmöjligheten, svårighetsprogressionen som spelar större roll för sudoku än för någon annan pusseltyp, sudokuspecifika formateringskrav för tryck, och den upprepade-köp-ekonomin som gör sudoku till en av de mest pålitliga katalogbyggande kategorierna på KDP.',
   },

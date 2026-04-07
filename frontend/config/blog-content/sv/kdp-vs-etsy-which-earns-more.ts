@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'KDP vs Etsy vilken tjanar mer',
+    primaryKeyword: 'Amazon KDP vs Etsy printable-inkomst',
     secondaryKeywords: [
-      'etsy vilken tjänar Etsy',
-      'etsy vilken foeretagande',
-      'utskrifter etsy vilken',
+      'jämförelse KDP Etsy intäkter',
+      'bäst plattform sälja arbetsblad',
+      'passiv inkomst KDP eller Etsy',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'royalty KDP vs Etsy marginal',
+      'tryckt bok vs digital nedladdning',
+      'dubbel plattformsstrategi printables',
     ],
-    titleTag: 'KDP vs Etsy: Vilken Tjänar Mer? | LCS',
-    metaDescription: 'KDP vs Etsy för utskriftssäljare. Jämförelse av intäkter, avgifter, arbetsinsats och tillväxtpotential.',
+    titleTag: 'KDP vs Etsy: Vilken Ger Mer Inkomst? | LCS',
+    metaDescription: 'KDP vs Etsy: vilken plattform ger mer inkomst? Jämförelse av intäkter, avgifter och tillväxtpotential för printable-säljare.',
   },
   hero: {
-    title: 'KDP vs Etsy: Vilken Tjänar Mer?',
-    tagline: 'Två plattformar, olika styrkor — den bästa strategin använder båda',
+    title: 'KDP vs Etsy: Vilken Ger Mest Inkomst?',
+    tagline: 'Använd båda plattformarna med rätt strategi',
     description: 'KDP ger passiv inkomst via tryckta böcker. Etsy ger högre marginaler på digitala nedladdningar. Smartaste strategin: använd båda.',
   },
   category: 'platform-strategy',

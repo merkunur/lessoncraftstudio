@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'förskola utskrifter bästsäljare',
+    primaryKeyword: 'förskola printables bästsäljare Etsy',
     secondaryKeywords: [
-      'förskola-utskrifter bästsäljare Etsy',
-      'förskola-utskrifter bästsäljare foeretagande',
-      'utskrifter förskola-utskrifter bästsäljare',
+      'förskoleklass arbetsblad sälja online',
+      'pysselblad förskola skriva ut sälja',
+      'bästsäljande printables barn 3-5 år',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'förskolematerial digital produkt Etsy',
+      'förskoleförberedande aktivitetsblad nisch',
+      'pysselbok förskola Amazon KDP',
     ],
-    titleTag: 'Förskola-Utskrifter: Bästsäljare | LCS',
-    metaDescription: 'Förskola-material är de mest sålda utskrifterna online. Vilka produkter säljer bäst och hur du skapar dem. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Förskoleprintables: Bästsäljare på Etsy',
+    metaDescription: 'Förskolematerial är bästsäljande printables på Etsy. Vilka produkter säljer bäst och hur du skapar dem med generator.',
   },
   hero: {
-    title: 'Förskola-Utskrifter: Bästsäljare',
-    tagline: 'Förskola-material är den största kategorin på Etsy',
+    title: 'Förskoleprintables: Bästsäljande Nischen',
+    tagline: 'Förskolematerial dominerar Etsy — så skapar du bästsäljare',
     description: 'Förskolematerial dominerar utskriftsmarknaden. Föräldrar till barn 3-5 år är den mest aktiva köpargruppen.',
   },
   category: 'niche-seasonal',

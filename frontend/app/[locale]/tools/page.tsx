@@ -31,7 +31,7 @@ const toolsKeywords: Record<string, string[]> = {
   pt: ['gerador de atividades grátis online', 'criar caça-palavras grátis', 'criar cruzadinha grátis', 'gerador de exercícios grátis', 'atividades de matemática grátis para imprimir', 'gerador sudoku grátis'],
   it: ['generatore schede gratis', 'crucipuzzle gratis online', 'cruciverba gratis', 'generatore matematica gratis', 'schede da stampare gratis', 'strumenti didattici online'],
   nl: ['werkbladen generator gratis online', 'woordzoeker maken gratis', 'kruiswoordpuzzel maken gratis', 'reken werkbladen generator gratis', 'kleurplaten generator gratis', 'sudoku printen gratis'],
-  sv: ['gratis utskriftsgeneratorer', 'online arbetsbladsskapare', 'utskriftsverktyg prova gratis', 'ordsökningsgenerator gratis', 'mattearbetsbladsgenerator', 'målarbildsskapare online'],
+  sv: ['arbetsblad generator gratis online', 'skapa ordsök gratis', 'skapa korsord gratis', 'matteuppgifter generator gratis', 'målarbilder gratis skriva ut', 'sudoku gratis skriva ut'],
   da: ['gratis arbejdsark generator', 'ordleg gratis', 'krydsord gratis', 'plusstykker gratis', 'regneopgaver gratis', 'malebilleder gratis', 'sudoku gratis', 'opgaver gratis til print'],
   no: ['gratis utskriftsgeneratorer', 'online oppgaveskaper', 'utskriftsverktøy prøv gratis', 'ordsøkgenerator gratis', 'matteoppgave-generator', 'fargeleggingsskaper online'],
   fi: ['ilmaiset tulostettavat generaattorit', 'online tehtävägeneraattori', 'tulostettavat työkalut kokeile ilmaiseksi', 'sanaristikkogeneraattori ilmainen', 'matematiikkatehtävägeneraattori', 'värityskuvageneraattori online'],
@@ -67,8 +67,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Gebruik alle 33 generatoren gratis online — woordzoeker, kruiswoordpuzzel, rekenen, sudoku en meer. Zonder registratie. Watermerk verdwijnt met licentie.',
   },
   sv: {
-    title: 'Gratis utskriftsgeneratorer | 33 verktyg | LessonCraftStudio',
-    description: 'Prova alla 33 arbetsbladsgeneratorer gratis online. Ingen registrering. Ords\ökningar, matte, m\ålarbilder, pussel och mer med vattenst\ämpel.',
+    title: 'Gratis arbetsbladsgeneratorer | 33 onlineverktyg',
+    description: 'Använd alla 33 generatorer gratis online — ordsök, korsord, matte, sudoku och mer. Ingen registrering. Vattenmärket tas bort med licens.',
   },
   da: {
     title: 'Gratis arbejdsark-generatorer | 33 online værktøjer',

@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Pinterest-marknadsföring för arbetsblad',
+    primaryKeyword: 'Pinterest marknadsföring printables sälja',
     secondaryKeywords: [
-      'pinterest för utskriftsbara säljare',
-      'sälja arbetsblad med pinterest',
-      'pinterest strategi utskriftsbart företag',
-      'pinterest trafik arbetsbladsbutiker',
+      'Pinterest strategi arbetsblad Etsy-butik',
+      'Pinterest SEO utskriftsbara produkter',
+      'driva trafik Pinterest printables',
+      'Pinterest pins arbetsblad säljare',
     ],
     lsiKeywords: [
       'visuell sökmotor pin-design tavleoptimering nyckelordrika beskrivningar',
       'vintergrönt trafik pin-schemaläggning klickfrekvens organisk upptäckt',
       'produktpins idépins Pinterest-analys Pinterest-SEO rika pins',
-      'pin-visningar ompinningsstrategi säsongspinning tavlestrategi',
+      'Etsy butik trafik arbetsblad skriva ut pysselbok',
       'pin-optimering vertikalt format Pinterest-algoritm fräscha pins',
       'sökranking sparfrekvens utgående klick publikinsikter pin-mallar',
     ],
-    titleTag: 'Pinterest för arbetsblad-verksamhet | LessonCraftStudio',
-    metaDescription: 'Pinterest-marknadsföringsstrategi för säljare av arbetsblad. Driv långsiktig trafik genom pin-optimering, tavlestrategi och nyckelordrikt innehåll. Prova.',
+    titleTag: 'Pinterest för printables-säljare | LCS',
+    metaDescription: 'Pinterest-strategi för printables-säljare. Driv trafik till din Etsy-butik med pin-optimering, tavlestruktur och nyckelordrika beskrivningar. Komplett guide.',
   },
 
   hero: {
-    title: 'Pinterest-marknadsföring för arbetsbladsföretag',
+    title: 'Pinterest-marknadsföring för printables-säljare',
     tagline: 'En komplett guide till Pinterest-marknadsföring för arbetsbladsäljare — inklusive hur du sätter upp ett företagskonto, strukturerar tavlor för upptäckt, designar högkonverterande pins, skriver nyckelordrika beskrivningar, utvecklar ett pinningsschema, optimerar för Pinterest-SEO, utnyttjar säsongsinnehållscykler och analyserar prestandadata',
     description: 'Pinterest är inte en social medieplattform. Det är en visuell sökmotor där användare aktivt söker efter produkter och idéer att köpa. För säljare av utskriftsbara arbetsblad är denna distinktion avgörande — Pinterest-användare upptäcker, sparar och klickar sig vidare till köp av pedagogiska resurser månader efter att en pin publicerats. Denna guide ger ett komplett Pinterest-marknadsföringsramverk byggt specifikt för arbetsbladsföretag, från profiloptimering och tavlestrategi till pin-design, nyckelordsintegrering, säsongsplanering och analysdrivet förfinande.',
   },

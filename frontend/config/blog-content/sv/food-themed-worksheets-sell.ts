@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mattema arbetsblad saelj',
+    primaryKeyword: 'sälja mattema arbetsblad på Etsy',
     secondaryKeywords: [
-      'mattema-arbetsblad sälj online Etsy',
-      'mattema-arbetsblad sälj foeretagande',
-      'utskrifter mattema-arbetsblad sälj',
+      'mat-tema printables barn frukt grönsaker',
+      'mattema aktivitetsblad skriva ut',
+      'mat arbetsblad förskola PDF',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'frukt grönsaker räkneblad barn',
+      'mattema matchning sortering',
+      'engagerande tema printable-nisch',
     ],
-    titleTag: 'Mattema-Arbetsblad: Sälj Online | LCS',
-    metaDescription: 'Mattema arbetsblad säljer starkt. Frukt, grönsaker och mat från världen — engagerande teman för barn. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Mattema-Arbetsblad på Etsy | LCS',
+    metaDescription: 'Mattema arbetsblad med frukt, grönsaker och favorittillrätter engagerar barn. Skapa och sälj på Etsy som printables.',
   },
   hero: {
-    title: 'Mattema-Arbetsblad: Sälj Online',
-    tagline: 'Frukt, grönsaker och favorittillrätter som tema',
+    title: 'Sälj Mattema-Arbetsblad: Frukt och Grönsaker',
+    tagline: 'Mat-teman engagerar barn och säljer stabilt på Etsy',
     description: 'Mat-teman engagerar barn på ett personligt plan. Räkna frukt, matcha grönsaker, och ordsök med mattema säljer bra.',
   },
   category: 'niche-seasonal',

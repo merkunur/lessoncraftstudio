@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'gratisprov kundmagnet',
+    primaryKeyword: 'leadmagnet gratis prov printables',
     secondaryKeywords: [
-      'optimering för framgång',
-      'tillväxtstrategier',
-      'mäta förbättra resultat',
+      'gratisprov marknadsföring Etsy-butik',
+      'locka kunder printable verksamhet',
+      'provblad vattenstämpel kundmagnet',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'e-postsamling leadmagnet strategi',
+      'gratis arbetsblad marknadsföring',
+      'konvertera besökare till köpare',
     ],
-    titleTag: 'Gratisprov som Kundmagnet | LCS',
-    metaDescription: 'Använd gratisprov som leadmagnet för din utskriftsverksamhet. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Gratisprov som Leadmagnet för Printables | LCS',
+    metaDescription: 'Använd gratis provblad som leadmagnet. Bygg kundlista och driv försäljning till din printable-verksamhet på Etsy.',
   },
   hero: {
-    title: 'Gratisprov som Kundmagnet',
-    tagline: 'Ge bort lite för att sälja mycket',
+    title: 'Gratisprov som Leadmagnet för Printables',
+    tagline: 'Ge bort ett provblad och vinn en lojal kund',
     description: 'Gratisprov är den mest effektiva leadmagneten för utskriftssäljare. Ge bort 2-3 arbetsblad med vattenstämpel för att visa kvaliteten.',
   },
   category: 'platform-strategy',

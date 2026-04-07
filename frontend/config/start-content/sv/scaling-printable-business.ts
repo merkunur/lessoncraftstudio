@@ -2,28 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'från extra till heltidsverksamhet skala upp sidoprojekt heltidsföretag',
+    primaryKeyword: 'skala printable-verksamhet till heltid',
     secondaryKeywords: [
-      'växa utskriftsbart företag till heltid',
-      'skala Etsy-butik utskriftsbara produkter',
-      'expansionsstrategi utskriftsbart företag',
-      'sidoprojekt till heltid utskriftsbara produkter',
+      'växa Etsy-butik printables heltid',
+      'sidoprojekt till heltidsföretag arbetsblad',
+      'expansionsstrategi printable-säljare',
+      'multiplattform printable-distribution',
     ],
     lsiKeywords: [
-      'katalogexpansion för säljare av utskriftsbara produkter',
-      'multiplattformsdistribution för arbetsblad',
-      'paketstrategi för digitala nedladdningar',
-      'produktionsarbetsflöde optimering utskriftsbara',
-      'flerspråkig marknadsexpansion utskriftsbara',
-      'återinvesteringsstrategi utskriftsbart företag',
+      'katalogexpansion utskriftsbara produkter',
+      'sälja arbetsblad flera plattformar',
+      'paketstrategi digitala nedladdningar',
+      'produktionsarbetsflöde printable-företag',
+      'flerspråkig expansion printable-marknad',
+      'återinvesteringsstrategi printable-säljare',
     ],
-    titleTag: 'Från extra till heltidsverksamhet | LessonCraftStudio',
-    metaDescription: 'Hur du skalar ditt utskriftsbara företag från sidoprojekt till heltid. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skala upp din printable-verksamhet | LCS',
+    metaDescription: 'Väx från sidoprojekt till heltid med din printable-verksamhet. Katalogexpansion, multiplattform och paketeringsstrategi steg för steg.',
   },
 
   hero: {
-    title: 'Skala upp från sidoprojekt till heltidsföretag med utskriftsbara produkter',
-    tagline: 'Strategiskt tillväxtramverk för säljare av utskriftsbara produkter — från katalogexpansion och multiplattformsdistribution till paketeringsstrategi och arbetsflödesoptimering, den operativa handboken för att skala bortom ett sidoprojekt',
+    title: 'Skala din printable-verksamhet till heltid',
+    tagline: 'Operativ handbok för tillväxt — katalogexpansion, multiplattform och arbetsflödesoptimering',
     description: 'Att starta ett utskriftsbart företag och att skala ett utskriftsbart företag kräver fundamentalt olika färdigheter. Kreativiteten och entusiasmen som lanserar dina första produkter ger vika för systemtänkande, datadrivna beslut och produktionsdisciplin när du växer. Denna guide ger ett konkret ramverk för varje tillväxtfas: från dina första 25 listningar genom katalogmognad vid 300 eller fler produkter. Du kommer att lära dig hur du systematiskt expanderar din katalog, distribuerar på flera plattformar, paketerar produkter för högre genomsnittligt ordervärde, optimerar ditt produktionsarbetsflöde och expanderar till flerspråkiga marknader. Varje strategi kopplar direkt till arbetsbladsgenratorverktygen som finns tillgängliga genom den gratis provversionen med vattenstämpel, så att du kan implementera skalningsstrategier medan du läser dem.',
   },
 

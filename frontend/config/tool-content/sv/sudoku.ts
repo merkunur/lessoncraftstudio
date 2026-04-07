@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis sudoku med bilder barn',
+    primaryKeyword: 'sudoku gratis skriva ut',
     secondaryKeywords: [
-      'sudoku med bilder gratis online',
-      'bildsudoku skapa gratis',
-      'bildsudoku skriva ut gratis',
-      'gratis sudoku med bilder för barn',
+      'sudoku generator gratis online',
+      'sudoku barn gratis skriva ut',
+      'sudoku med bilder gratis',
+      'skapa egen sudoku gratis',
     ],
     lsiKeywords: [
-      'gratis bildsudoku online',
-      'sudoku med bilder att skriva ut',
-      'bildsudoku barn gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'sudoku',
+      'logik',
+      'bilder',
     ],
-    titleTag: 'Sudoku med bilder gratis barn | LessonCraftStudio',
-    metaDescription: 'Skapa sudoku med bilder gratis online. 4×4 rutnät, tre svårighetsnivåer, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sudoku gratis online | Generator med bilder',
+    metaDescription: 'Skapa sudoku gratis online med bilder och justerbar svårighet. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis sudoku med bilder för barn online',
-    tagline: '4×4 bildsudoku med tre svårighetsnivåer och automatiskt facit — gratis provversion med vattenmärke',
+    title: 'Sudoku gratis online — Generator med bilder',
+    tagline: 'Skapa sudoku gratis med bilder och justerbar svårighet — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa bildsudoku — helt gratis att testa online. 4×4 rutnät med bilder istället för siffror. Tre svårighetsnivåer: Lätt (4 tomma), Medel (6), Svår (8). Helt visuellt — universellt säljbart utan översättning. Automatiskt facit med komplett fyllt rutnät ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker logikpussel för barn att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

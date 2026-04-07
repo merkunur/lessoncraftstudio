@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables tacksamhet att sälja | LessonCraftStudio',
-    metaDescription: 'Upptäck tacksägelse utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Skördetema produktkoncept, säsongsstrategier och plattformstips för säljare.',
+    titleTag: 'Skördetema och tacksamhet printables | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj skördetema och tacksamhet printables på Etsy och KDP. Produktidéer med höstlöv, pumpa och skörd för pysselbok.',
 
-    primaryKeyword: 'sälja printables tacksamhet tacksägelse utskriftsbara',
+    primaryKeyword: 'skördetema printables att sälja',
     secondaryKeywords: [
-      'tacksägelse arbetsblad att sälja',
-      'tacksägelse utskriftsbart företag idéer',
-      'tacksägelse aktivitetsblad för säljare',
-      'sälja tacksägelse utskriftsbara på Etsy',
+      'tacksamhet arbetsblad Etsy',
+      'skördetema pysselbok KDP',
+      'höst printables barn',
+      'skörd aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'skörd och tacksamhet pedagogiska arbetsblad',
-      'november tematiserade aktivitetssidor',
-      'kalkon och pilgrimstema utskriftsbara',
+      'hösttema uppgifter förskoleklass',
+      'november arbetsblad lågstadiet',
+      'tacksägelse pyssel barn att skriva ut',
     ],
   },
   hero: {
-    title: 'Tacksägelse utskriftsbara affärsidéer för säljare',
+    title: 'Skördetema och tacksamhet printables — produktidéer',
     description: 'Tacksägelsen öppnar ett fokuserat och mycket lönsamt försäljningsfönster för utskriftsbara entreprenörer, med efterfrågan som byggs genom oktober och toppar under de tre första veckorna i november när köpare förbereder skördetematiserade gruppaktiviteter och familjer planerar pedagogisk underhållning för helgsammankomster. Nischen erbjuder rik mångfald av underämnen inklusive kalkoner, pumpor, pilgrimer, skördescener, ymnighetshorn, höstlöv, pajer, ekollon och tacksamhetsaktiviteter, vilket ger säljare ett varmt visuellt ordförråd som resonerar med tidiga läsare och deras familjer under en av årets mest väntade firanden. Hemundervisande familjer och daghem tillför betydande köpardjup som söker tacksägelsepyssel och aktiviteter som blandar helgspänning med genuina inlärningsresultat. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad levererar tacksägelsenischen koncentrerad säsongsbetonad efterfrågan med en mysig höstetik som fotograferas vackert för produktlistningar och marknadsföring i sociala medier. Denna guide täcker specifika produktidéer, plattformsstrategier och timingmetoder för att hjälpa dig bygga en lönsam utskriftbar tacksägelseproduktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara tacksägelseprodukter intar en förstaklassposition i höstens säljkalender och genererar koncentrerad efterfrågan under oktober och november när köpare, föräldrar och hemundervisande familjer aktivt söker skördetematiserade pedagogiska material. Köpare börjar planera novembers gruppaktiviteter och tacksägelsefiranden i början av oktober och söker efter tematiserade arbetsblad som blandar helgvärme med genuina pedagogiska resultat inom matte, läsning och kritiskt tänkande. Föräldrar söker åldersanpassade tacksägelseaktiviteter som tjänar flera syften: hålla barn engagerade under helgförberedelser, tillhandahålla pedagogisk underhållning under familjeresor och skapa strukturerade inlärningstillfällen under den förlängda tacksägelsehelgen när skärmfria aktiviteter är särskilt uppskattade.

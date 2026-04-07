@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'facit ökar försäljningen varför din utskriftsförsäljning',
+    primaryKeyword: 'arbetsblad med facit säljer bättre Etsy',
     secondaryKeywords: [
-      'arbetsblad med facit saeljer baettre',
-      'svar nyckel utskrifter',
-      'foeraelder vaerde facit',
+      'facit ökar försäljning printables',
+      'svarsnyckel arbetsblad PDF',
+      'professionella utskrifter med svar',
     ],
     lsiKeywords: [
-      'arbetsblad kvalitetsmaerke',
-      'professionella utskrifter',
-      'upplevt vaerde digitala produkter',
+      'upplevt värde digitala produkter',
+      'kundnöjdhet arbetsblad recension',
+      'kvalitetssignal Etsy listning',
     ],
     titleTag: 'Facit Ökar Försäljningen med 40% | LCS',
-    metaDescription: 'Arbetsblad med facit säljer upp till 40% bättre. Lär dig varför facit ökar upplevt värde och hur du skapar dem. Salj pa Etsy & KDP med kommersiell licens.',
+    metaDescription: 'Arbetsblad med facit säljer 40% bättre på Etsy. Lär dig varför svarsnyckel höjer upplevt värde och minskar returer för dina printables.',
   },
   hero: {
-    title: 'Varför Facit Ökar Din Utskriftsförsäljning med 40%',
-    tagline: 'Ett enkelt tillägg som förändrar kundens upplevelse helt',
+    title: 'Facit Ökar Försäljningen med 40% på Etsy',
+    tagline: 'Den enklaste åtgärden som gör dina printables professionella',
     description: 'Arbetsblad utan facit känns ofärdiga. Föräldrar vill kunna kontrollera svaren utan att räkna själva. Det tar bara sekunder extra att generera men kan öka din försäljning avsevärt. Här är varför facit är den mest underskattade försäljningsfaktorn för utskriftsprodukter.',
   },
   category: 'how-to',

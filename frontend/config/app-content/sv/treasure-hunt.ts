@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'skattjakt-generator att sälja på Etsy och KDP',
+    primaryKeyword: 'skattjakt skriva ut',
     secondaryKeywords: [
-      'skattjakt arbetsblad för Etsy-säljare',
-      'vägfinnande pussel generator för Amazon KDP',
-      'riktningspussel arbetsblad kommersiell licens',
-      'skattjaktblad att sälja online',
-      'skattjaktbok att publicera på KDP',
+      'tipspromenad skriva ut',
+      'skattjakt uppgiftsblad',
+      'ledtrådar skattjakt',
+      'skattjakt barn',
     ],
     lsiKeywords: [
-      'passiv inkomst skattjaktblad',
-      'printables-verksamhet riktningspussel',
-      'flerspråkiga skattjaktblad produktlinje',
-      'svenska marknaden skattjaktblad Etsy',
+      'skattjakt',
+      'tipspromenad',
+      'ledtrådar',
+      'spårjakt',
+      'barn',
     ],
-    titleTag: 'Skattjakt att sälja på Etsy och KDP | LessonCraftStudio',
-    metaDescription: 'Skapa skattjakt att sälja på Etsy och KDP. 5×5 koordinatrutnät, grundläggande och kompass, 11 språk, facit, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Skattjakt att skriva ut | Generator spårjakt',
+    metaDescription: 'Skapa skattjakt- och tipspromenaduppgifter med temabilder. Utskrivbara PDF:er. Prova gratis — sälj på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Skapa skattjakt att sälja på Etsy och Amazon KDP',
-    tagline: 'Riktningsbaserade pussel på 5×5 koordinatrutnät med grundläggande och kompass-riktningar, lokaliserade anvisningar på 11 språk och automatiskt facit.',
+    title: 'Skattjakt att skriva ut — Generator spårjakt med temabilder',
+    tagline: 'Skapa skattjakt- och tipspromenaduppgifter med riktningsanvisningar och temabilder — prova gratis med vattenmärke.',
     description:
       'Skapa skattjaktblad att sälja på Etsy eller sammanställa i aktivitetsböcker för Amazon KDP. Köparna följer riktningsanvisningar för att hitta en gömd skatt på ett 5×5 koordinatrutnät — ett engagerande format som föräldrar och barn älskar. Grundläggande läge (upp/ner/vänster/höger) för tidiga användare, Kompass-läge (norr/söder/öster/väster) för avancerade. Generatorn är språkkänslig: samma pussel producerar autentiska riktningsanvisningar på 11 språk — \"Flytta ner 2 rutor\" på svenska, \"Move down 2 squares\" på engelska. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit med markerad skattplats ingår. Skattjaktblad är unika produkter som sticker ut på Etsy. Den svenska marknaden saknar denna produkttyp helt. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

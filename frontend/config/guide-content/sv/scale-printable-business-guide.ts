@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hur skalar växa printables',
+    primaryKeyword: 'skala upp printable-verksamhet',
     secondaryKeywords: [
-      'hur man skalar upp ett utskriftsbart företag',
-      'växa utskriftsbar arbetsbladsverksamhet',
-      'tillväxtstrategi utskriftsbart företag',
-      'skala upp pedagogisk utskriftsbar försäljning',
+      'växa printables-företag Etsy Amazon',
+      'batchproduktion arbetsblad effektivt',
+      'multiplattform strategi printables säljare',
+      'skala digital produktverksamhet guide',
     ],
     lsiKeywords: [
-      'företagstillväxt intäktsskalning automatisering outsourcing produktkatalogexpansion',
-      'multiplattformsförsäljning arbetsflödesoptimering batchproduktion systemtänkande',
-      'tidshantering delegering produktdiversifiering marknadsexpansion varumärkesbyggande',
-      'kundlivstidsvärde operativ effektivitet processdokumentation standardrutiner',
-      'katalogtillväxt intäkt per produkt plattformsdiversifiering skalningsflaskhals',
-      'affärssystem repeterbara processer produktionspipeline innehållsmultiplikation',
+      'företagstillväxt intäktsskalning automatisering produktkatalogexpansion',
+      'multiplattformsförsäljning arbetsflödesoptimering batchproduktion',
+      'Etsy Amazon KDP Gumroad Creative Fabrica plattformsdiversifiering',
+      'kundlivstidsvärde operativ effektivitet processdokumentation',
+      'katalogtillväxt intäkt per produkt skalningsflaskhals',
+      'pysselbok pusselbok arbetsblad flerspråkig expansion skriva ut',
     ],
-    titleTag: 'Växa printables-verksamhet | LessonCraftStudio',
-    metaDescription: 'Hur du skalar upp ditt utskriftsbara företag med batchproduktion, multiplattformsexpansion, katalogtillväxt, flerspråkiga marknader och automatiseringsstrategie',
+    titleTag: 'Skala upp printable-verksamhet | LCS',
+    metaDescription: 'Skala din printable-verksamhet med batchproduktion, multiplattformsexpansion och flerspråkiga marknader. Från sidoprojekt till hållbar inkomst på Etsy och KDP.',
   },
 
   hero: {
-    title: 'Hur du skalar upp ditt utskriftsbara företag',
+    title: 'Skala upp din printable-verksamhet',
     tagline: 'En komplett guide till att skala upp ditt utskriftsbara företag bortom sidoprojektintäkter — inklusive bedömning av skalningsberedskap och identifiering av flaskhalsar, batchproduktionssystem för konsekvent utdata, multiplattformsexpansionsstrategi, katalogtillväxt genom produktlinjeförlängningar, flerspråkig marknadsexpansion, automatisering av repetitiva uppgifter och tillväxtmått som driver strategiska beslut',
     description: 'Skillnaden mellan ett utskriftsbart sidoprojekt och en skalbar utskriftsbar verksamhet är inte talang, tur eller att arbeta hårdare. Det är system. Varje säljare som har vuxit från en handfull produkter med sporadisk försäljning till en katalog som genererar konsekvent månatlig intäkt gjorde det genom att ersätta manuellt arbete med repeterbara processer, expandera strategiskt över plattformar och marknader, och bygga en produktionspipeline som multiplicerar utdatan utan att multiplicera arbetade timmar. Denna guide leder dig genom det kompletta skalningsramverket — från att inse när ditt företag är redo att skala, genom att bygga systemen som gör tillväxt hållbar.',
   },

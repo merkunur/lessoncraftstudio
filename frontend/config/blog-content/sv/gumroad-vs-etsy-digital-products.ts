@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Gumroad vs Etsy digitala produkter',
+    primaryKeyword: 'Gumroad vs Etsy sälja printables',
     secondaryKeywords: [
-      'gumroad etsy digitala Etsy',
-      'gumroad etsy foeretagande',
-      'utskrifter gumroad etsy',
+      'bästa plattform sälja digitala produkter',
+      'Etsy avgifter vs Gumroad avgifter',
+      'jämförelse säljplattformar printables',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'egen butik vs marknadsplats',
+      'trafik avgifter kontroll jämförelse',
+      'printable-försäljning plattformsstrategi',
     ],
-    titleTag: 'Gumroad vs Etsy: Digitala Produkter | LCS',
-    metaDescription: 'Jämförelse mellan Gumroad och Etsy för digitala utskriftsprodukter. Avgifter, trafik, kontroll och bästa strategi.',
+    titleTag: 'Gumroad vs Etsy: Bäst för Printables? | LCS',
+    metaDescription: 'Gumroad vs Etsy för printable-säljare. Jämför avgifter, trafik och kontroll. Vilken plattform passar din verksamhet?',
   },
   hero: {
-    title: 'Gumroad vs Etsy: Digitala Produkter',
-    tagline: 'Två plattformar, helt olika affärsmodeller',
+    title: 'Gumroad vs Etsy: Vilken Passar Printables?',
+    tagline: 'Två plattformar med helt olika styrkor och svagheter',
     description: 'Gumroad ger mer kontroll och lägre avgifter men ingen inbyggd trafik. Etsy ger enorm trafik men tar mer i avgifter.',
   },
   category: 'platform-strategy',

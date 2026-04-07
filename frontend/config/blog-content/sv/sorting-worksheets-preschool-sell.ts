@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sorteringsarbetsblad för förskola sälj',
+    primaryKeyword: 'sorteringsarbetsblad förskola sälja Etsy',
     secondaryKeywords: [
-      'sorteringsarbetsblad förskola sälj Etsy',
-      'sorteringsarbetsblad förskola foeretagande',
-      'utskrifter sorteringsarbetsblad förskola',
+      'sortering färg form arbetsblad printable',
+      'kategorisering förskoleklass pysselblad',
+      'sorteringsövningar barn skriva ut KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'kognitiv utveckling sortering förskola',
+      'logiskt tänkande arbetsblad barn printable',
+      'sortera efter kategori aktivitetsblad',
     ],
-    titleTag: 'Sorteringsarbetsblad för Förskola: Sälj | LCS',
-    metaDescription: 'Sorteringsarbetsblad för förskolebarn säljer stabilt. Sortera efter färg, form, storlek och kategori. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sorteringsarbetsblad Förskola: Sälj Printables',
+    metaDescription: 'Sälj sorteringsarbetsblad för förskolebarn. Sortera efter färg, form och storlek. Stabil nisch på Etsy och Amazon KDP.',
   },
   hero: {
-    title: 'Sorteringsarbetsblad för Förskola: Sälj',
-    tagline: 'Sortering — en grundläggande kognitiv färdighet',
+    title: 'Sorteringsarbetsblad: Sälj Printables',
+    tagline: 'Sorteringsövningar för förskolan som säljer stabilt',
     description: 'Sortering utvecklar kategoriseringsförmåga och logiskt tänkande. Förskolebarn behöver övning i att sortera efter olika kriterier.',
   },
   category: 'product-guide',

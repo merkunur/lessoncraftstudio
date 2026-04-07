@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'mer försäljning för gumroad',
+    primaryKeyword: 'optimera Gumroad-butik försäljning',
     secondaryKeywords: [
-      'hur man optimerar sin Gumroad-butik',
-      'Gumroad sökalgoritm rankningsfaktorer',
-      'öka Gumroad-försäljning med butiksoptimering',
-      'Gumroad butikstillväxtstrategi',
+      'Gumroad butiksoptimering printables',
+      'öka försäljning Gumroad sökalgorithm',
+      'Gumroad produktbeskrivning konvertering',
+      'Gumroad recensioner butiksvarumärke',
     ],
     lsiKeywords: [
-      'Gumroad sökrankning konverteringsgrad produktsynlighet lärarmarknadsplats',
-      'butiksvarumärke profil banner sammanhängande visuell identitet ämnesspecialitet',
-      'produktförhandsgranskning miniatyrbild beskrivning copywriting listningsoptimering',
-      'recensionsgenerering socialt bevis köparförtroende stjärnbetyg feedback',
-      'butikssektioner kategorier navigering bläddringsvänlig organisation',
-      'Gumroad analys säsongsplanering datadriven katalogskalningsstrategi',
+      'Gumroad sökrankning konverteringsgrad produktsynlighet marknadsplats',
+      'butiksvarumärke profil banner visuell identitet ämnesspecialitet',
+      'produktförhandsgranskning miniatyrbild beskrivning listningsoptimering',
+      'recensionsgenerering socialt bevis köparförtroende stjärnbetyg',
+      'arbetsblad pysselbok pusselbok skriva ut PDF sälja',
+      'Gumroad analys säsongsplanering katalogskalningsstrategi',
     ],
-    titleTag: 'Optimera försäljning lärmaterial | LessonCraftStudio',
-    metaDescription: 'Gumroad butiksoptimeringsstrategier för högre sökrankningar och mer försäljning. Täcker förhandsgranskningskonvertering, produktpaketering, recensionsbyggande.',
+    titleTag: 'Optimera Gumroad-butik försäljning | LCS',
+    metaDescription: 'Optimera din Gumroad-butik för mer försäljning. Sökrankning, produktbeskrivningar, recensionsbyggande och katalogskalning. Guide för printables-säljare.',
   },
 
   hero: {
-    title: 'Gumroad butiksuppstart och optimeringguide',
+    title: 'Optimera din Gumroad-butik för mer försäljning',
     tagline: 'Avancerade strategier för att optimera en befintlig Gumroad-butik — täcker sökalgoritmens rankningsfaktorer, högkonverterande produktbeskrivningar och förhandsgranskningar, recensionsgenereringstaktik, butiksorganisation för bläddringsvänlig navigering, Gumroad kampanjevenemangsstrategi, och datadriven katalogskalning för att förvandla en aktiv Gumroad-butik till en konsekvent och växande intäktskanal',
     description: 'Att sätta upp en Gumroad-butik och publicera dina första resurser är bara början. Skillnaden mellan en butik som genererar sporadisk försäljning och en som producerar konsekvent månatlig intäkt handlar om optimering — hur väl dina listningar rankar i Gumroad-sökning, hur effektivt dina förhandsgranskningar konverterar besökare till köpare, hur din butiksorganisation uppmuntrar flerproduktköp, och hur strategiskt du expanderar din katalog baserat på faktisk prestandadata.',
   },

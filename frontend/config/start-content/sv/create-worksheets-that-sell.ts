@@ -2,28 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'skapa arbetsblad som säljer',
+    primaryKeyword: 'skapa arbetsblad som säljer bra',
     secondaryKeywords: [
-      'skapa professionella arbetsblad',
-      'gora arbetsblad att salja pa Etsy',
-      'arbetsbladskapande for saljare',
-      'design tips for utskriftsbara arbetsblad',
+      'göra professionella arbetsblad Etsy',
+      'designtips utskriftsbara arbetsblad',
+      'arbetsblad med facit att sälja',
+      'produktskapande för printable-säljare',
     ],
     lsiKeywords: [
-      'kvalitetsstandarder for arbetsblad',
-      'automatisk facitgenerering',
-      'arbetsflode for utskriftsbara produkter',
-      'paketstrategi for arbetsblad',
-      'tematiska arbetsbladsbilder',
-      'tryckfardiga PDF-arbetsblad',
+      'kvalitetsstandarder utskriftsbara arbetsblad',
+      'automatisk facitgenerering verktyg',
+      'arbetsflöde printable-produktion',
+      'paketstrategi arbetsbladsförsäljning',
+      'tematiska bilder arbetsbladsdesign',
+      'tryckfärdiga PDF 300 DPI',
     ],
-    titleTag: 'Skapa arbetsblad som säljer | LessonCraftStudio',
-    metaDescription: 'Sa skapar du arbetsblad som saljer pa Etsy, Amazon KDP och Gumroad. Steg-for-steg-guide om temabilder, facit, prissattning och listningsoptimering. Prova.',
+    titleTag: 'Skapa arbetsblad som säljer | LCS',
+    metaDescription: 'Så skapar du professionella arbetsblad som säljer på Etsy och Amazon KDP. Guide om temabilder, facit, paketering och listningsoptimering.',
   },
 
   hero: {
-    title: 'Sa skapar du professionella arbetsblad som saljer',
-    tagline: 'Produktskapandets spelplan som skiljer arbetsblad kopare valjer fran arbetsblad kopare scrollar forbi',
+    title: 'Så skapar du arbetsblad som säljer',
+    tagline: 'Spelplanen som skiljer arbetsblad köpare väljer från arbetsblad köpare scrollar förbi',
     description: 'Denna guide tacker varje steg i att skapa utskriftsbara arbetsblad som uppfyller professionella standarder och saljer konsekvent. Du kommer att lara dig vad som gor ett arbetsblad professionellt, hur du anvander generatorer for att eliminera designbarriarer, hur du bygger paket som maximerar intakter och hur du testar dina produkter innan du listar dem. Oavsett om du saljer pa Etsy, Amazon KDP, Gumroad eller Gumroad — kvaliteten pa dina arbetsblad avgor om kopare klickar "lagg i varukorg" eller fortsatter scrolla.',
   },
 

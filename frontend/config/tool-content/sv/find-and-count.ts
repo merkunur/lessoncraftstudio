@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis hitta och räkna generator',
+    primaryKeyword: 'hitta och räkna gratis skriva ut',
     secondaryKeywords: [
-      'hitta och räkna generator gratis online',
-      'sök- och räkneblad skapa gratis',
-      'bokstavsletning arbetsblad gratis',
-      'gratis hitta och räkna med ÅÄÖ',
+      'räkna föremålen gratis online',
+      'hur många finns det gratis',
+      'räkneövning förskoleklass gratis',
+      'hitta och räkna barn gratis',
     ],
     lsiKeywords: [
-      'gratis sökblad online',
-      'hitta och räkna att skriva ut',
-      'bokstavsletning svenska gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'räkna',
+      'föremål',
+      'förskoleklass',
     ],
-    titleTag: 'Hitta och räkna gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa hitta och räkna-blad gratis online. Dolda Objekt och Bokstavsletning med svenska ÅÄÖ, 4 uppgiftstyper, facit. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Hitta och räkna gratis online | Räkneövningsgenerator',
+    metaDescription: 'Skapa hitta-och-räkna uppgifter gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis hitta och räkna generator online',
-    tagline: 'Dolda Objekt och Bokstavsletning med svenska ÅÄÖ, fyra uppgiftstyper och automatiskt facit — gratis provversion med vattenmärke',
+    title: 'Hitta och räkna gratis online — Räkneövningsgenerator',
+    tagline: 'Skapa hitta-och-räkna uppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa sök- och räkneblad — helt gratis att testa online. Dolda Objekt sprider bilder i konfigurerbart rutnät med fyra uppgiftstyper. Bokstavsletning med svenska ÅÄÖ (29 bokstäver) genererar sökscener per bokstav. Språkkänslig: lokaliserade etiketter på 11 språk. Automatiskt facit med röda annoteringer ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar och SFI-lärare som söker sökövningar att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

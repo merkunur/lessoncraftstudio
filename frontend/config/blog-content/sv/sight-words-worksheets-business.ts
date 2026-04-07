@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ordbilds arbetsblad foeretagande',
+    primaryKeyword: 'ordbilder arbetsblad sälja sight words Etsy',
     secondaryKeywords: [
-      'produkttyper säljer bäst',
-      'skapa professionella produkter snabbt',
-      'listnings marknadsföringsstrategi',
+      'sight words printables engelska marknaden',
+      'högfrekventa ord arbetsblad SFI sälja',
+      'läsinlärning printable-nisch KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'ordbilder förskoleklass lågstadiet arbetsblad',
+      'SFI-material ordövningar printable',
+      'sight word worksheet nisch Etsy',
     ],
-    titleTag: 'Ordbilds-Arbetsblad: Företagande | LCS',
-    metaDescription: 'Ordbilds-arbetsblad (sight words) säljer starkt i engelskspråkiga marknader. Anpassa för svenska och flerspråkiga produkter.',
+    titleTag: 'Ordbilder/Sight Words: Sälj Arbetsblad',
+    metaDescription: 'Sälj ordbilder-arbetsblad (sight words) som printables. Stark efterfrågan i engelska och SFI-marknaden. Etsy och KDP.',
   },
   hero: {
-    title: 'Ordbilds-Arbetsblad: Företagande',
-    tagline: 'Ordbilder — grunden för läsinlärning',
+    title: 'Ordbilder-Arbetsblad: Bygg Printable-Företag',
+    tagline: 'Sight words och ordbilder — grunden för läsinlärning',
     description: 'Ordbilder (sight words) är grundläggande för läsinlärning på engelska. Svenska varianten med högfrekventa ord har potential för SFI-marknaden.',
   },
   category: 'product-guide',

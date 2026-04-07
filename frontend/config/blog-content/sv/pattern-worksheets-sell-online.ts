@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mönster arbetsblad sälj online',
+    primaryKeyword: 'mönster arbetsblad sälja på Etsy',
     secondaryKeywords: [
-      'mönster-arbetsblad sälj online Etsy',
-      'mönster-arbetsblad sälj foeretagande',
-      'utskrifter mönster-arbetsblad sälj',
+      'mönsterigenkänning printables förskoleklass',
+      'logiska serier arbetsblad skriva ut',
+      'mönsterarbetsblad pysselbok KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'sekvenser och mönster lågstadiet',
+      'förskoleförberedande printable-produkt',
+      'mönsterövningar barn ladda ner',
     ],
-    titleTag: 'Mönster-Arbetsblad: Sälj Online | LCS',
-    metaDescription: 'Mönster-arbetsblad utvecklar matematiskt tänkande. Populärt för förskolebarn och grundskolans tidiga år. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Mönster-Arbetsblad: Sälj Printables Online',
+    metaDescription: 'Sälj mönster-arbetsblad som printables. Populärt för förskoleklass och lågstadiet. Skapa med generator, sälj på Etsy och Amazon KDP.',
   },
   hero: {
-    title: 'Mönster-Arbetsblad: Sälj Online',
-    tagline: 'Mönsterigenkänning är grunden för matematik',
+    title: 'Mönster-Arbetsblad: Sälj som Printables',
+    tagline: 'Mönsterigenkänning säljer starkt till föräldrar och förskolor',
     description: 'Mönsterigenkänning är en grundläggande kognitiv färdighet. Mönster-arbetsblad säljer bra till föräldrar som vill förbereda barn för skolan.',
   },
   category: 'product-guide',

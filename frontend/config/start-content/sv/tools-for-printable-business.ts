@@ -2,28 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'verktyg för utskriftsbara printables verksamhet nödvändiga ägare',
+    primaryKeyword: 'bästa verktyg för printable-verksamhet',
     secondaryKeywords: [
-      'checklista verktyg utskriftsbart företag',
-      'arbetsbladsgenratorverktyg för säljare',
-      'verktyg för att sälja utskriftsbara produkter online',
-      'produktionsverktyg utskriftsbara produkter',
+      'arbetsbladsgenrator för printable-säljare',
+      'verktyg sälja utskriftsbara produkter',
+      'produktionsverktyg printable-företag',
+      'verktygslåda för arbetsbladsförsäljare',
     ],
     lsiKeywords: [
-      'Etsy säljarverktyg för digitala nedladdningar',
-      'Amazon KDP aktivitetsbok produktionsverktyg',
-      'programvara för arbetsbladsskapande för entreprenörer',
-      'arbetsflödesautomation utskriftsbart företag',
-      'flerspråkig arbetsbladsgenrator verktyg',
-      'kommersiell licens arbetsbladsproduktion',
+      'Etsy säljarverktyg digitala nedladdningar',
+      'Amazon KDP produktionsverktyg aktivitetsbok',
+      'programvara skapa arbetsblad professionellt',
+      'arbetsflöde printable-produktion effektiv',
+      'flerspråkig arbetsbladsgenrator',
+      'kommersiell licens arbetsbladsverktyg',
     ],
-    titleTag: 'Verktyg för printables-verksamhet | LessonCraftStudio',
-    metaDescription: 'Bästa verktyg för säljare av utskriftsbara produkter: arbetsbladsgenratorer, designverktyg, plattformsverktyg och arbetsflöden för en professionell verktygslåda',
+    titleTag: 'Verktyg för din printable-verksamhet | LCS',
+    metaDescription: 'Rätt verktyg för printable-säljare: arbetsbladsgenratorer, designverktyg och plattformsverktyg. Bygg en professionell verktygslåda.',
   },
 
   hero: {
-    title: 'Nödvändiga verktyg för ägare av utskriftsbara företag',
-    tagline: 'Den kompletta verktygslådeguiden för utskriftsbara entreprenörer — från innehållsskapande till plattformshantering, varje verktyg du behöver för att producera, paketera och sälja professionella arbetsblad',
+    title: 'Nödvändiga verktyg för printable-företagare',
+    tagline: 'Komplett verktygslåda — från arbetsbladsgenratorer till plattformsverktyg för professionell produktion',
     description: 'Att bygga ett utskriftsbart företag kräver rätt verktyg i varje steg: innehållsskapande, design, formatering, listning och analys. De flesta säljare överkomplicerar sin tekniska uppsättning och spenderar pengar på verktyg de inte behöver medan de missar de som faktiskt accelererar produktionen. Denna guide skär igenom bruset. Den täcker den nödvändiga verktygslådan för ägare av utskriftsbara företag — med start i den viktigaste kategorin (arbetsbladsgenratorer som producerar utskriftsklara 300 DPI PDF-filer), för att sedan expandera till kompletterande designverktyg, plattformsspecifika verktyg och arbetsflödesstrategier. Oavsett om du säljer på Etsy, Amazon KDP eller Gumroad är produktionsverktygslådan densamma. Plattformarna skiljer sig åt, men behovet av snabbt, högkvalitativt innehållsskapande gör det inte. Den gratis provversionen med vattenstämpel låter dig testa varje genrator innan du investerar, så du kan utvärdera varje verktyg mot dina specifika produktionsbehov.',
   },
 

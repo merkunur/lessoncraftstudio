@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables jul & lucia för Etsy | LessonCraftStudio',
-    metaDescription: 'Upptäck jul utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Julproduktkoncept, säsongsstrategier och plattformstips för säljare. Prova.',
+    titleTag: 'Julpyssel printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj julpyssel printables på Etsy och KDP. Produktidéer med tomten, pepparkaka och adventskalender för pysselbok och arbetsblad.',
 
-    primaryKeyword: 'printables jul lucia för etsy utskriftsbara affärsidéer säljare',
+    primaryKeyword: 'julpyssel printables att sälja',
     secondaryKeywords: [
-      'jularbetsblad att sälja',
-      'helgdag utskriftsbart företag idéer',
-      'jul aktivitetsblad för säljare',
-      'sälja jul utskriftsbara på Etsy',
+      'jul arbetsblad Etsy',
+      'julpyssel pysselbok KDP',
+      'adventskalender printables sälja',
+      'jultema aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'säsongsbetonade helgdag arbetsbladspaket',
-      'vintertema pedagogiska aktiviteter',
-      'festliga produktlinje utskriftsbara resurser',
+      'lucia pyssel att skriva ut',
+      'jul uppgifter förskoleklass',
+      'pepparkaka arbetsblad lågstadiet',
     ],
   },
   hero: {
-    title: 'Jul utskriftsbara affärsidéer för säljare',
+    title: 'Julpyssel printables — produktidéer för säljare',
     description: 'Jul representerar den enskilt mest kraftfulla säsongsbetonade möjligheten på hela marknaden för utskriftsbara produkter, och genererar en efterfrågeökning från oktober till december som överskuggar varje annan helgdag kombinerat. Temat omfattar ett extraordinärt utbud av underämnen inklusive tomten, renar, snögubbar, pepparkakshus, polkagrisar, julkulor, tomtenissar, julstrumpor, kransar och julkrubbor, vilket ger säljare praktiskt taget obegränsad produktvariation inom en sammanhängande nisch. Köpare planerar helgtematiserade aktivitetspaket och decemberaktiviteter, föräldrar söker skärmfri underhållning under jullovet och presentköpare upptäcker att aktivitetsböcker och arbetsbladspaket är perfekta julklappar. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad belönar julnischen tidig förberedelse med årligen ackumulerande avkastning allteftersom listningar får sökauktoritet och recensioner. Denna guide ger specifika produktidéer, plattformsstrategier och timingmetoder för att hjälpa dig bygga en lönsam utskriftbar julproduktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara julprodukter är den obestridda tungviktaren inom säsongsbetonad försäljning av pedagogiska produkter, driven av sammanfallande efterfrågan från köpare, föräldrar, hemundervisare och presentköpare under det sista kvartalet varje år. Köpare börjar planera decembers pedagogiska aktiviteter redan i september och söker efter helgtematiserade arbetsblad som håller barn engagerade under de spänningsfyllda veckorna före jullovet. Föräldrar letar efter jultematiserade pedagogiska aktiviteter för att sysselsätta barn under julresor, familjesammankomster och den långa jullovsperioden när strukturerad underhållning blir avgörande. Presentköpare upptäcker att utskriftsbara aktivitetsböcker och arbetsbladspaket utgör genomtänkta, prisvärda julklappar och festsmåpresenter.

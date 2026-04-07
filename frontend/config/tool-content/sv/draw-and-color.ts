@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis rita och måla-blad',
+    primaryKeyword: 'rituppgift gratis skriva ut',
     secondaryKeywords: [
-      'rita och måla-blad gratis online',
-      'rutnätsritning arbetsblad skapa gratis',
-      'ritblad skriva ut gratis',
-      'gratis ritövningar med rutnät',
+      'rita och färglägga gratis online',
+      'kreativt uppgiftsblad gratis',
+      'konstuppgift gratis skriva ut',
+      'steg-för-steg ritning gratis',
     ],
     lsiKeywords: [
-      'gratis ritblad online',
-      'rutnätsritning att skriva ut',
-      'rita och färglägg gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'rita',
+      'färglägga',
+      'kreativitet',
     ],
-    titleTag: 'Rita och måla-blad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa rita och måla-blad gratis online. Dubbelrutnät, justerbar ledtrådsprocent, tre symmetrilägen. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Rita och färglägga gratis online | Kreativ generator',
+    metaDescription: 'Skapa rit- och färgläggningsuppgifter gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis rita och måla-blad online',
-    tagline: 'Dubbelrutnät med justerbar ledtrådsprocent och tre symmetrilägen — gratis provversion med vattenmärke',
+    title: 'Rita och färglägga gratis online — Kreativ generator',
+    tagline: 'Skapa rit- och färgläggningsuppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa rutnätsritningsblad — helt gratis att testa online. Användarna kopierar en referensbild cell-för-cell med justerbar ledtrådsprocent (10–75%). Rutnät från 3×3 till 10×10 med tre symmetrilägen. 100+ svartvita konturteman. Helt visuellt — säljbart globalt utan översättning. Perfekt för föräldrar som söker ritövningar att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

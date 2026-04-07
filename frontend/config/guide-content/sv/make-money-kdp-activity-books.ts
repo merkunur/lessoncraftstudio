@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tjäna pengar på aktivitetsböcker KDP',
+    primaryKeyword: 'tjäna pengar pysselböcker Amazon KDP strategi',
     secondaryKeywords: [
-      'hur man tjänar pengar med KDP aktivitetsböcker',
-      'KDP aktivitetsbok inkomststrategier',
-      'Amazon KDP aktivitetsbok intäktsoptimering',
-      'lönsam aktivitetsbok publicering KDP',
+      'KDP pysselbok inkomststrategi publicera',
+      'Amazon KDP aktivitetsbok royalty prisoptimering',
+      'lönsam pysselbok publicering KDP guide',
+      'KDP katalogstrategi sammansatt intäkt böcker',
     ],
     lsiKeywords: [
       'KDP royaltyberäkning tryckningskostnad prisstrategi',
-      'aktivitetsbok katalog sammansatt intäkt månatlig inkomst',
-      'säsongsbetonad publicering högtid jul sommar skolstart',
-      'Amazon Best Seller-badge nyckelord kategorirankning',
-      'flerplattform Etsy Gumroad digital utskrift expansion',
-      'KDP rapporter prestationsspårning intäkt per titel analys',
+      'pysselbok katalog sammansatt intäkt månadsintäkt',
+      'säsongsbetonad publicering högtid skolstart sommar',
+      'Amazon Best Seller nyckelord kategorirankning synlighet',
+      'flerplattform Etsy Gumroad digital expansion intäkt',
+      'KDP rapporter prestationsspårning intäkt per titel',
     ],
-    titleTag: 'Tjäna pengar med KDP-böcker | LessonCraftStudio',
-    metaDescription: 'Hur du tjänar pengar med KDP aktivitetsböcker. Täcker prissättning, katalogbyggande, royaltyberäkningar, säsongsbetonad publicering och skalningsstrategier.',
+    titleTag: 'Tjäna pengar KDP pysselböcker | LCS',
+    metaDescription: 'Tjäna pengar med pysselböcker på Amazon KDP. Royaltyberäkningar, prisoptimering, katalogstrategi och säsongsbetonad publicering.',
   },
 
   hero: {
-    title: 'Hur du tjänar pengar med KDP aktivitetsböcker',
-    tagline: 'En heltäckande intäktsguide för Amazon KDP aktivitetsbok-publicerare — täcker royaltymatematik och prisoptimering, katalogekonomi som sammansätter månadsinkomst, säsongsbetonade publiceringsstrategier för högtidsintäktstoppar, Amazon nyckelordsoptimering för maximal försäljning, produktionsskalning över flera aktivitetsbokstyper, prestationsspårning för att fördubbla satsningen på vinnare, och flerplattforms-expansion till Etsy och Gumroad för ytterligare inkomstströmmar',
+    title: 'Tjäna pengar med pysselböcker på Amazon KDP',
+    tagline: 'Intäktsguide: royaltymatematik, prisoptimering, katalogstrategi, säsongsbetonad publicering och flerplattformsexpansion för KDP-publicerare',
     description: 'Att publicera aktivitetsböcker på Amazon KDP är enkelt. Att generera konsekvent och växande inkomst från dem kräver en genomtänkt affärsstrategi. Denna guide handlar inte om hur man skapar aktivitetsböcker — våra andra KDP-guider täcker matteaktivitetsböcker, pusselböcker, ordsökningsböcker och formatering i detalj. Denna guide handlar om pengarna: hur KDP-royalties faktiskt fungerar för aktivitetsböcker, hur du prissätter för maximal vinst snarare än maximal försäljning, varför en katalog med 10 böcker tjänar betydligt mer än 10 gånger vad en enda bok tjänar, och hur du bygger ett publiceringsföretag som genererar sammansatt månatlig intäkt snarare än engångsförsäljningar.',
   },
 

@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatisera printables verksamhet automatiserar ditt',
+    primaryKeyword: 'automatisera utskriftsbara produkter Etsy effektivisera',
     secondaryKeywords: [
-      'automatisering utskriftsbart företag',
-      'automatisera arbetsblad skapande',
-      'digitala produkter arbetsflödesautomatisering',
-      'utskriftsbar säljare effektivitet',
+      'batchproduktion arbetsblad att skriva ut',
+      'mallsystem utskriftsbara produkter sälja',
+      'effektivisera Etsy-butik printables',
+      'automatisera arbetsbladsproduktion KDP',
     ],
     lsiKeywords: [
-      'batchproduktion arbetsflödesoptimering mallsystem produktskapande hastighet',
-      'listningsautomatisering massbearbetning tidshantering produktionspipeline',
-      'systematiskt skapande repeterbara processer verktygseffektivitet innehållsbatchning',
-      'listningsmallar beskrivningsmallar filorganisation produktionsschemaläggning',
-      'strömlinjeformat arbetsflöde processstandardisering operativ effektivitet uppgiftsbatchning',
-      'produktionssystem skalbara processer kataloghantering arbetsflödesdesign',
+      'batchproduktion arbetsflöde mallsystem produktionspipeline utskriftsbara',
+      'listningsmallar Etsy-optimering filorganisation produktionsschema',
+      'systematiskt skapande repeterbara processer effektivitet printables',
+      'beskrivningsmallar nyckelordsoptimering kataloghantering arbetsflödesdesign',
+      'skalbara processer tidsbesparande verktyg produktskapande hastighet',
+      'produktionssystem Etsy KDP Gumroad digital försäljning automatisering',
     ],
-    titleTag: 'Automatisera printables-verksamhet | LessonCraftStudio',
-    metaDescription: 'Så automatiserar du ditt utskriftsbara företag med batchproduktion, mallsystem och systematiska arbetsflöden. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Automatisera din printable-verksamhet | LCS',
+    metaDescription: 'Så effektiviserar du din verksamhet med utskriftsbara produkter. Batchproduktion, mallsystem och arbetsflöden för att sälja mer på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Så automatiserar du ditt utskriftsbara företag',
-    tagline: 'En komplett guide till att effektivisera ditt utskriftsbara företag — inklusive hur du identifierar automatiseringsmöjligheter, bygger mallsystem, batchkör produktionsuppgifter, standardiserar listningar, organiserar filer systematiskt, automatiserar filbearbetning, skapar produktionsscheman och skalar genom systematisk variation',
+    title: 'Effektivisera din verksamhet med utskriftsbara produkter',
+    tagline: 'En komplett guide till att automatisera ditt printable-företag — inklusive batchproduktion, mallsystem, standardiserade listningar, filorganisation och produktionsscheman för Etsy, Amazon KDP och Gumroad',
     description: 'De mest framgångsrika säljarna av utskriftsbara produkter är inte nödvändigtvis de mest kreativa eller begåvade designerna. De är de mest systematiska. De har byggt arbetsflöden som eliminerar överflödigt arbete, mallsystem som förhindrar att börja från noll och produktionsprocesser som förvandlar timmars arbete till minuter. Denna guide visar dig hur du automatiserar ditt utskriftsbara företag genom praktiska, genomförbara strategier — från batchproduktion och mallsystem till standardiserade listningar och systematisk katalogexpansion.',
   },
 

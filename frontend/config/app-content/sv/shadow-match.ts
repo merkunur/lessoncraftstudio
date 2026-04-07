@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'skuggkopplingsblad att sälja på Etsy',
+    primaryKeyword: 'skugglek uppgift skriva ut',
     secondaryKeywords: [
-      'siluettmatchning arbetsblad för Etsy-säljare',
-      'skuggpussel generator för Amazon KDP',
-      'skuggmatchning arbetsblad kommersiell licens',
-      'skuggkopplingsblad att sälja online',
-      'siluettbok att publicera på KDP',
+      'skuggor och figurer uppgift',
+      'siluetter matcha',
+      'skugg-parning uppgift',
+      'skugglek förskoleklass',
     ],
     lsiKeywords: [
-      'passiv inkomst skuggmatchning',
-      'printables-verksamhet siluettblad',
-      'visuell perception produktlinje',
-      'svenska marknaden skuggblad Etsy',
+      'skugga',
+      'siluett',
+      'matcha',
+      'förskoleklass',
+      'visuell perception',
     ],
-    titleTag: 'Skuggkopplingsblad för Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa skuggkopplingsblad att sälja på Etsy och KDP. Siluettmatchning och Gör Den Hel, autosiluetter, facit, 104 teman. $49 engångsbetalning.',
+    titleTag: 'Skugglek uppgift att skriva ut | Generator siluettmatchning',
+    metaDescription: 'Skapa skugglek-uppgifter med bilder och siluetter. Automatiskt facit, 300 DPI PDF. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa skuggkopplingsblad att sälja på Etsy och Amazon KDP',
-    tagline: 'Två matchningslägen — Skuggmatchning med autosiluetter och Gör Den Hel med delade bilder — med Fisher-Yates-derangering och automatiskt facit.',
+    title: 'Skugglek uppgift att skriva ut — Generator siluettmatchning',
+    tagline: 'Skapa skugglek-uppgifter med bilder och siluetter för förskoleklass — prova gratis med vattenmärke.',
     description:
       'Skapa skuggkopplingsblad att sälja på Etsy eller sammanställa i visuell perception-arbetsböcker för Amazon KDP. Skuggmatchning-läget matchar färgade bilder med automatiskt genererade svarta siluetter. Gör Den Hel-läget delar bilder i halvor som köparna kopplar ihop. Båda lägena använder Fisher-Yates-derangering som garanterar genuina matchningsutmaningar. Automatiskt facit ingår. Arbetsbladen är rent visuella — samma produkt säljs globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Skuggmatchning är ett populärt format som förskollärare och föräldrar aktivt söker efter. Den svenska marknaden har minimal konkurrens för detta produktformat. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsy för direktförsäljning jämförelse',
+    primaryKeyword: 'Etsy vs Gumroad vs egen sajt printables jämförelse',
     secondaryKeywords: [
-      'etsy direktförsäljning jämförelse Etsy',
-      'etsy direktförsäljning foeretagande',
-      'utskrifter etsy direktförsäljning',
+      'bästa plattform sälja printables Sverige',
+      'Etsy avgifter vs Gumroad kontroll',
+      'var sälja arbetsblad online jämförelse',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'plattformsjämförelse digitala produkter',
+      'Etsy trafik vs egen butik marginaler',
+      'printable-säljare vilken plattform passar',
     ],
-    titleTag: 'Etsy vs Direktförsäljning: Jämförelse | LCS',
-    metaDescription: 'Etsy vs egen webbplats vs Gumroad för svenska utskriftssäljare. Avgifter, kontroll och tillväxtpotential.',
+    titleTag: 'Etsy vs Gumroad vs Egen Sajt: Jämförelse',
+    metaDescription: 'Etsy vs Gumroad vs egen webbplats. Vilken plattform passar bäst för svenska printable-säljare? Avgifter, trafik och kontroll.',
   },
   hero: {
-    title: 'Etsy vs Direktförsäljning: Jämförelse',
-    tagline: 'I Sverige finns ingen TPT — men det finns alternativ',
+    title: 'Etsy vs Gumroad vs Egen Sajt: Jämförelse',
+    tagline: 'Vilken plattform passar bäst för dina printables?',
     description: 'Sverige har ingen Teacher Pay Teachers-motsvarighet. Jämför Etsy med Gumroad och din egen webbplats för att hitta bästa plattformen. Etsy ger mest trafik, Gumroad ger mest kontroll, och egen webbplats ger bäst marginaler långsiktigt.',
   },
   category: 'platform-strategy',

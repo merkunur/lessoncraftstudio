@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis mönsterblad generator',
+    primaryKeyword: 'mönster-uppgifter gratis skriva ut',
     secondaryKeywords: [
-      'mönsterblad generator gratis online',
-      'mönstertåg arbetsblad skapa gratis',
-      'mönsterigenkänning skriva ut gratis',
-      'gratis mönsterövning med tågvagnar',
+      'logisk ordning gratis online',
+      'mönster fortsätta gratis',
+      'sekvens förskoleklass gratis',
+      'mönsteruppgift gratis',
     ],
     lsiKeywords: [
-      'gratis mönsterblad online',
-      'mönstertåg att skriva ut',
-      'mönsterigenkänning gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'mönster',
+      'sekvens',
+      'logik',
     ],
-    titleTag: 'Mönsterblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa mönsterblad gratis online. Fem mönstertyper, 11 tågvagnar, justerbar svårighet, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Mönster-uppgifter gratis online | Generator logiska ordningar',
+    metaDescription: 'Skapa mönster-uppgifter gratis online med AB, ABC, ABCD sekvenser. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis mönsterblad generator online',
-    tagline: 'Fem mönstertyper på 11 tematiska tågvagnar med justerbar svårighet — gratis provversion med vattenmärke',
+    title: 'Mönster-uppgifter gratis online — Generator logiska ordningar',
+    tagline: 'Skapa mönster-uppgifter gratis med temabilder och tågvagnar — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa mönstertåg — helt gratis att testa online. 11 färgglada tågvagnar med upprepande sekvenser — fem mönstertyper från AB till AABB. Justera ledtrådar från 4 till 10. Helt visuellt — universellt säljbart utan översättning. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker mönsterövningar att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

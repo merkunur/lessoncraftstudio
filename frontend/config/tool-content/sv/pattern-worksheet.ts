@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis mönsterigenkänning arbetsblad',
+    primaryKeyword: 'logiska följder gratis skriva ut',
     secondaryKeywords: [
-      'mönsterigenkänning arbetsblad gratis online',
-      'mönsterkomplettering skapa gratis',
-      'mönsterarbetsblad skriva ut gratis',
-      'gratis mönsterövning med bilder',
+      'fortsätt ordningen gratis online',
+      'visuell logik gratis',
+      'logiskt tänkande uppgifter gratis',
+      'talföljder gratis skriva ut',
     ],
     lsiKeywords: [
-      'gratis mönsterarbetsblad online',
-      'mönsterkomplettering att skriva ut',
-      'mönsterigenkänning gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'logiska följder',
+      'mönster',
+      'fyll i',
     ],
-    titleTag: 'Mönsterigenkänning gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa mönsterarbetsblad gratis online. Nio mönstertyper, fyll-i-rutan och flerval, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Logiska följder gratis online | Generator',
+    metaDescription: 'Skapa övningar i logiska följder gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis mönsterigenkänning arbetsblad online',
-    tagline: 'Nio mönstertyper med fyll-i-rutan och flerval, per-övning konfiguration — gratis provversion med vattenmärke',
+    title: 'Logiska följder gratis online — Generator med temabilder',
+    tagline: 'Skapa logiska följder gratis med nio mönstertyper — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa mönsterkompletteringsblad — helt gratis att testa online. Nio mönstertyper från AB till ABCD med fyll-i-rutan och flerval. 1–8 övningar per sida med oberoende konfiguration. Helt visuellt — universellt säljbart utan översättning. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker mönsterövningar att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

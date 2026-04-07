@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'saelj additions-arbetsblad Etsy 2026',
+    primaryKeyword: 'sälja additions-arbetsblad på Etsy',
     secondaryKeywords: [
-      'saelj matte-arbetsblad online',
-      'additions-arbetsblad foeretagande Etsy',
-      'utskrivbara matte-aktiviteter Etsy-butik',
+      'mattearbetsblad printables sälja online',
+      'additions-övningar pysselbok KDP',
+      'prissätta matteblad Etsy-butik',
     ],
     lsiKeywords: [
-      'matte-utskriftsfoeretagande',
-      'prissaettning arbetsblad',
-      'Etsy digital nedladdning matte',
+      'matte printables lågstadiet förskoleklass',
+      'räkneövningar barn ladda ner PDF',
+      'Etsy digital nedladdning matteblad',
     ],
-    titleTag: 'Sälj Additions-Arbetsblad på Etsy: Guide | LCS',
-    metaDescription: 'Lär dig hur du säljer additions-arbetsblad på Etsy med vinst. Prissättning, paketering och listningsstrategier som fungerar 2026. Testa gratis provversion.',
+    titleTag: 'Sälj Additions-Arbetsblad på Etsy: Guide',
+    metaDescription: 'Sälj additions-arbetsblad på Etsy med vinst. Prissättning, paketering och listningsstrategier. Skapa med generator.',
   },
   hero: {
-    title: 'Sälj Additions-Arbetsblad på Etsy: Komplett Guide',
-    tagline: 'Förvandla enkla matteutskrifter till en stadig inkomstström',
+    title: 'Sälj Additions-Arbetsblad på Etsy',
+    tagline: 'Förvandla matteblad till en stadig inkomstström',
     description: 'Additions-arbetsblad är en av de mest sökta utskriftskategorierna på Etsy, där föräldrar och hemundervisande familjer köper dem året runt. Marknaden är stor, men de flesta säljare gör samma misstag: prissätter för lågt, listar enstaka blad istället för paket och ignorerar säsongsbetonade sökord. Den här guiden visar dig exakt hur du skapar, prissätter och listar additions-arbetsblad som säljer konsekvent — med en generator som producerar professionella resultat på minuter, inte timmar.',
   },
   category: 'product-guide',

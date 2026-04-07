@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kommersiell licens för printables-säljare',
+    primaryKeyword: 'kommersiell licens printables sälja',
     secondaryKeywords: [
-      'kommersiell licens för utskriftsbara produkter förklarad',
-      'sälja arbetsblad lagligt',
+      'kommersiell licens arbetsblad Etsy KDP',
+      'sälja arbetsblad lagligt licensvillkor',
       'kommersiella rättigheter digitala produkter',
-      'licensiering för utskriftsbara säljare',
+      'licensiering clip art typsnitt printables',
     ],
     lsiKeywords: [
-      'immateriella rättigheter användningsrättigheter personlig kontra kommersiell användning licensnivåer',
-      'royaltyfri återförsäljningsrättigheter härledda verk underlicensiering upphovsrättsefterlevnad',
-      'licensvillkor digitala produkträttigheter clip art-licensiering malllicensiering',
-      'kommersiella utdatarättigheter licensavtal licensverifiering efterlevnadssystem',
-      'licensmisstag plattformsrestriktioner hänvisningskrav exklusivitetsklausuler',
-      'licensregister licensdokumentation multiplattformslicensiering konkurrensfördel',
+      'immateriella rättigheter personlig kontra kommersiell användning licensnivåer',
+      'royaltyfri återförsäljningsrättigheter härledda verk upphovsrätt',
+      'licensvillkor digitala produkträttigheter clip art malllicensiering',
+      'Etsy Amazon KDP Gumroad plattformsrestriktioner',
+      'licensmisstag produktborttagning kontosuspension',
+      'licensregister multiplattformslicensiering efterlevnadssystem',
     ],
-    titleTag: 'Kommersiell licens för säljare | LessonCraftStudio',
-    metaDescription: 'Förstå kommersiella licenser för utskriftsbara produkter innan du säljer. Lär dig licenstyper, vanliga misstag och hur korrekt licensiering skyddar din.',
+    titleTag: 'Kommersiell licens printables | LCS',
+    metaDescription: 'Förstå kommersiella licenser innan du säljer printables. Licenstyper, vanliga misstag och hur korrekt licensiering skyddar din verksamhet på Etsy och KDP.',
   },
 
   hero: {
-    title: 'Förstå kommersiella licenser',
+    title: 'Kommersiella licenser för printables-säljare',
     tagline: 'En komplett guide till kommersiell licensiering för säljare av utskriftsbara produkter — inklusive skillnaden mellan personlig och kommersiell användning, vad som kräver kommersiell licens, hur man utvärderar licensvillkor, vanliga licensmodeller i den utskriftsbara branschen, licensmisstag att undvika, bygga ett efterlevnadssystem, hantera multiplattformslicensiering och använda licenskunskap som konkurrensfördel',
     description: 'Varje resurs du använder för att skapa utskriftsbara produkter — arbetsbladgeneratorer, clip art, typsnitt, mallar och bildbibliotek — kommer med licensvillkor som bestämmer om du lagligt kan sälja utdatan. De flesta säljare av utskriftsbara produkter hoppar över detta steg helt och antar att köp av ett verktyg automatiskt ger kommersiella rättigheter. Det antagandet leder till produktborttagningar, kontosuspensioner och förlorade intäkter. Denna guide förklarar hur kommersiell licensiering fungerar i den utskriftsbara branschen, vad du ska leta efter i licensavtal och hur du bygger ett efterlevnadssystem som skyddar din verksamhet när den växer.',
   },

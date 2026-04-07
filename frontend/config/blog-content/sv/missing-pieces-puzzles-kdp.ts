@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'saknade bitar pussel KDP',
+    primaryKeyword: 'sälja saknade bitar pusselbok KDP',
     secondaryKeywords: [
-      'produkttyper säljer bäst',
-      'skapa professionella produkter snabbt',
-      'listnings marknadsföringsstrategi',
+      'missing pieces pussel printable barn',
+      'logikpussel bok Amazon publicera',
+      'saknade bitar arbetsblad PDF Etsy',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'observation logik pussel förskola',
+      'problemlösning arbetsblad barn',
+      'nischprodukt pusselbok KDP',
     ],
-    titleTag: 'Saknade-Bitar-Pussel på KDP | LCS',
-    metaDescription: 'Saknade-bitar-pussel utvecklar logiskt tänkande. En nischprodukt med god potential på KDP och Etsy.',
+    titleTag: 'Sälj Saknade-Bitar-Pusselbok på KDP | LCS',
+    metaDescription: 'Saknade-bitar-pussel utvecklar logik och observation. Skapa och publicera en unik nischpusselbok på Amazon KDP.',
   },
   hero: {
-    title: 'Saknade-Bitar-Pussel på KDP',
-    tagline: 'Logikpussel som utvecklar problemlösningsförmåga',
+    title: 'Sälj Saknade-Bitar-Pusselbok: Unik KDP-Nisch',
+    tagline: 'Logikpussel med observation som utvecklar problemlösning',
     description: 'Saknade-bitar-pussel är en unik nisch. Barnet ska identifiera vilken bit som saknas — utvecklar observation och logik.',
   },
   category: 'product-guide',

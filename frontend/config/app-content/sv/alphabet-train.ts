@@ -2,27 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'alfabetsblad att sälja på Etsy och KDP',
+    primaryKeyword: 'alfabet uppgifter skriva ut',
     secondaryKeywords: [
-      'alfabetståg arbetsblad för Etsy-säljare',
-      'bokstavsigenkänning generator för Amazon KDP',
-      'alfabetsblad med tågvagnar kommersiell licens',
-      'alfabetståg printables att sälja online',
-      'alfabetsbok att publicera på KDP',
+      'ABC uppgifter generator',
+      'bokstavsigenkänning uppgift',
+      'lär dig alfabetet uppgifter',
+      'bokstäver skriva ut',
     ],
     lsiKeywords: [
-      'passiv inkomst alfabetsblad',
-      'printables-verksamhet bokstavsövningar',
-      'flerspråkiga alfabetsblad produktlinje',
-      'svenska marknaden alfabetsblad Etsy',
+      'ABC',
+      'stora bokstäver',
+      'små bokstäver',
+      'alfabetisk ordning',
+      'förskoleklass',
+      'åk 1',
     ],
-    titleTag: 'Alfabetsblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa alfabetsblad att sälja på Etsy och KDP. Tågvagnar med bokstav-bild koppling, 11 språk med ÅÄÖ, facit, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Alfabet uppgifter att skriva ut | ABC-övningsgenerator',
+    metaDescription: 'Skapa alfabet-uppgifter med temabilder för bokstavsigenkänning. Automatiskt facit, 11 språk. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa alfabetsblad att sälja på Etsy och Amazon KDP',
-    tagline: 'Varje vagn bär en bokstav och en matchande bild — bygg bokstavsigenkänning, vagn för vagn.',
+    title: 'Alfabet uppgifter att skriva ut — ABC-övningsgenerator med temabilder',
+    tagline: 'Skapa alfabet-uppgifter med bokstavsigenkänning och temabilder för förskoleklass — prova gratis med vattenmärke.',
     description:
       'Skapa alfabetståg arbetsblad att sälja på Etsy eller sammanställa i bokstavsböcker för Amazon KDP. 11 färgglada vagnar rullar över sidan, var och en med en bokstav kopplad till en matchande illustration — ett iögonfallande format som lockar köpare i produktminiatyrer. Stöd för 11 språk med egna alfabet — svenska med Å/Ä/Ö, tyska med Ä/Ö/Ü — multiplicerar din produktkatalog elva gånger. Bokstavsövningar för förskoleklass (6 år) är en av de mest efterfrågade produkterna bland svenska föräldrar. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit och export i 400+ DPI ingår. Den svenska marknaden saknar denna produkttyp på Etsy. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

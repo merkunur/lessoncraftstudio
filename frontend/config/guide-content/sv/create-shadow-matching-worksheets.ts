@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skuggkopplingsblad sälja skuggmatchningsarbetsblad skapa',
+    primaryKeyword: 'skapa skuggmatchning arbetsblad att skriva ut',
     secondaryKeywords: [
-      'skapa skuggmatchningsarbetsblad att sälja',
-      'silhuettmatchning arbetsblad generator',
-      'utskriftsklara skuggpussel för Etsy och KDP',
-      'gör det helt delad-bild arbetsblad',
+      'skuggmatchning generator barn att skriva ut PDF',
+      'silhuettmatchning övningsblad förskola skriva ut',
+      'sälja skuggpussel Etsy printable barn',
+      'Amazon KDP pysselbok skuggmatchning visuell',
     ],
     lsiKeywords: [
-      'pixelnivå silhuettgenerering för arbetsblad',
-      'visuell perception matchningsaktivitet generator',
-      'skuggmatchning arbetsblad med automatiskt facit',
-      'sälja skuggpussel på Etsy',
-      'Amazon KDP visuell perception arbetsböcker',
-      'kommersiell licens skuggmatchning verktyg',
+      'pixelnivå silhuettgenerering visuell perception',
+      'gör det helt delad-bild matchningsaktivitet',
+      'skuggmatchning automatiskt facit derangering generator',
+      'sälja skuggpussel Etsy printable digitala produkter',
+      'Amazon KDP pysselbok visuell perception arbetsbok',
+      'kommersiell licens skuggmatchning verktyg facit',
     ],
-    titleTag: 'Skuggkopplingsblad att sälja | LessonCraftStudio',
-    metaDescription: 'Skapa skuggmatchningsarbetsblad med två lägen: Skuggmatchning för silhuetter och Gör det helt för delade bilder. Steg-för-steg-guide för Etsy och KDP.',
+    titleTag: 'Skapa skuggmatchning att skriva ut | LCS',
+    metaDescription: 'Skapa skuggmatchningsarbetsblad att skriva ut med silhuetter och delad-bild-läge. Automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar skuggmatchningsarbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa dubbelläges skuggmatchningsarbetsblad med pixelnivå silhuettgenerering, Gör det helt delad-bild-halvor, Fisher-Yates-derangering, växlingsbara etiketter, autogenererade facit och helt visuell output du kan sälja världen över',
+    title: 'Skapa skuggmatchningsarbetsblad att skriva ut',
+    tagline: 'Steg-för-steg: skapa silhuett- och delad-bild-matchning med automatiskt facit och visuell output för Etsy, Amazon KDP och Gumroad',
     description: 'Skuggmatchning är en grundläggande visuell perceptionsfärdighet som barn utvecklar före läsning och matematik. Föräldrar behöver dem för visuell diskriminering hemma. säljare behöver dem för perceptionscentra. Arbetsterapeuter använder dem för visuella bearbetningsutvärderingar. Denna guide leder dig genom hela skapandeprocessen med Skuggmatchning-generatorn — från att välja mellan Skuggmatchning och Gör det helt-lägen till att konfigurera etiketter, generera pixelnivå-silhuetter och exportera produktionsklara filer med automatiska facit.',
   },
 

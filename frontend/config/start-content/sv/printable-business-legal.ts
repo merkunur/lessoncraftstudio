@@ -2,28 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'för printables verksamhet skatter',
+    primaryKeyword: 'juridik för printable-säljare',
     secondaryKeywords: [
-      'juridiska grunder utskriftsbart företag',
-      'skatteskyldigheter digitala produkter',
-      'företagsstruktur för säljare av utskriftsbara produkter',
-      'immaterialrätt utskriftsbara arbetsblad',
+      'skatt digitala produkter Sverige',
+      'moms på utskriftsbara nedladdningar',
+      'enskild firma printable-verksamhet',
+      'juridiska krav sälja arbetsblad online',
     ],
     lsiKeywords: [
-      'moms digitala nedladdningar per land',
-      'enskild firma för utskriftsbart företag',
-      'bokföring för Etsy-säljare',
-      'plattformsvillkor efterlevnad',
-      'gränsöverskridande skatt digitala varor',
-      'avdragsgilla utgifter utskriftsbart företag',
+      'bokföring Etsy-säljare Sverige',
+      'F-skatt egenföretagare digitala produkter',
+      'immaterialrätt arbetsbladsdesign',
+      'avdrag hemmakontor printable-företag',
+      'moms EU digitala tjänster',
+      'plattformsvillkor Etsy Amazon KDP',
     ],
-    titleTag: 'Printables-verksamhet: juridik | LessonCraftStudio',
-    metaDescription: 'Skattekrav för att sälja utskriftsbara produkter förklarade. Företagsstruktur, avdragsgilla utgifter, immaterialrätt och plattformsefterlevnad för säljare.',
+    titleTag: 'Juridik och skatt för printable-säljare | LCS',
+    metaDescription: 'Juridik och skatt för printable-säljare i Sverige. Företagsform, moms på digitala produkter, avdrag och immaterialrätt förklarat.',
   },
 
   hero: {
-    title: 'Skatter och juridiska grunder för utskriftsbart företagande',
-    tagline: 'Viktig skatte- och juridisk information för säljare av utskriftsbara produkter — företagsstruktur, skatteskyldigheter för digitala varor, avdragsgilla utgifter, immaterialrätt, plattformsefterlevnad och när du behöver professionell hjälp',
+    title: 'Juridik och skatt för printable-säljare',
+    tagline: 'Företagsstruktur, skatteskyldigheter, avdrag och immaterialrätt — allt du behöver veta för att driva din verksamhet rätt',
     description: 'Att driva ett utskriftsbart företag innebär att driva ett riktigt företag, och riktiga företag har skatteskyldigheter, juridiska krav och efterlevnadsansvar. Många säljare av utskriftsbara produkter startar sina butiker utan att förstå det juridiska landskapet, vilket kan leda till obehagliga överraskningar vid skattedeklarationen eller värre. Denna guide täcker de väsentliga ämnena som varje säljare av utskriftsbara produkter bör förstå: alternativ för företagsstruktur, skatteskyldigheter för försäljning av digitala produkter, avdragsgilla företagsutgifter, grunderna i immaterialrätt, efterlevnad av plattformars användarvillkor, krav på bokföring och när du bör söka professionell juridisk eller skatterådgivning. Varje avsnitt innehåller en tydlig ansvarsfriskrivning: detta är utbildningsinformation som hjälper dig ställa rätt frågor, inte professionell rådgivning för din specifika situation. Använd denna guide för att identifiera de ämnen du behöver diskutera med en kvalificerad skatterådgivare eller advokat.',
   },
 

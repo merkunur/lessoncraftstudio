@@ -2,26 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'säsongsmarknadsföring för printables',
+    primaryKeyword: 'säsongsmarknadsföring printables säljare',
     secondaryKeywords: [
-      'säsongsbetonad strategi utskriftsbart företag',
-      'högtidsarbetsblad marknadsföring',
-      'skolstart utskriftsbar försäljning',
-      'säsongsproduktkalender säljare',
+      'säsongsstrategi Etsy arbetsblad',
+      'högtidsarbetsblad marknadsföring kalender',
+      'skolstart printables försäljningstoppar',
+      'säsongsproduktplanering utskriftsbara produkter',
     ],
     lsiKeywords: [
       'högtidsefterfrågan säsongsproduktplanering toppförsäljningsperioder',
       'skolstartssäsong högtidsarbetsblad sommarläsning nyårsresurser',
-      'valentinaktiviteter påskutskriftsbara halloweenarbetsblad jularbetsblad',
-      'tacksamhetsaktiviteter säsongstrender efterfrågeprognoser produktionskalender',
-      'releasetiming säsongsnyckelord trendanalys innehållskalender kvartalsplanering',
+      'halloween jularbetsblad påsk valentin säsong',
+      'releasetiming säsongsnyckelord trendanalys innehållskalender',
+      'Etsy Amazon KDP säsongstoppar kvartalsplanering',
+      'pysselbok aktivitetsbok arbetsblad skriva ut tema',
     ],
-    titleTag: 'Säsongsmarknadsföring printables | LessonCraftStudio',
-    metaDescription: 'Planera säsongsmarknadsföringskampanjer för utskriftsbara produkter anpassade efter efterfrågecykler. Säljarkalender med produktionstiming och strategier.',
+    titleTag: 'Säsongsmarknadsföring printables | LCS',
+    metaDescription: 'Planera säsongsmarknadsföring för printables med produktionskalender och tajming. Skolstart, högtider och sommartoppar. Strategi för Etsy- och KDP-säljare.',
   },
 
   hero: {
-    title: 'Säsongsmarknadsföringskalender för säljare av utskriftsbara produkter',
+    title: 'Säsongsmarknadsföring för printables-säljare',
     tagline: 'En komplett guide till säsongsmarknadsföring av utskriftsbara produkter — inklusive hur du kartlägger årliga efterfrågecykler, bygger produktionskalendrar anpassade efter toppperioder, optimerar listningar för säsongssökning, skapar tematiska produktvariationer effektivt, planerar säsongspaket, schemalägger marknadsföringskampanjer, analyserar prestanda år efter år och balanserar säsongsreleaser med vintergrönt katalogdjup',
     description: 'Timing avgör om en utskriftsbar produkt lanseras i toppefterfrågan eller anländer efter att köpare redan har handlat från konkurrenter. Ett halloweenarbetsbladspaket listat i oktober konkurrerar mot hundratals etablerade listningar som har ackumulerat försäljning sedan augusti. En skolstartsmattepaket skapat i september missar köpfönstret som startade i juli. Denna guide ger ett komplett ramverk för säsongsmarknadsföringskalender designat specifikt för säljare av utskriftsbara produkter — från årlig efterfrågekartläggning och produktionsschemaläggning till säsongsnyckelordsoptimering och prestandaförfining år efter år.',
   },

@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skattjakt arbetsblad skapa skattjakter sälja online hur',
+    primaryKeyword: 'skapa skattjakt arbetsblad att skriva ut',
     secondaryKeywords: [
-      'skapa skattjakt arbetsblad att sälja',
-      'skattjakt arbetsblad generator kommersiellt bruk',
-      'utskriftsbar skattjakt-generator för Etsy och KDP',
-      'koordinatrutnät vägfinnararbetsblad med facit',
+      'skattjakt generator barn att skriva ut PDF',
+      'koordinatrutnät vägfinnarövning skriva ut',
+      'sälja skattjakt arbetsblad Etsy printable',
+      'Amazon KDP pysselbok skattjakt riktningar',
     ],
     lsiKeywords: [
-      'två riktningstyper grundläggande kardinal koordinatrutnät generator',
-      'fem gånger fem bokstav-siffra rutnät riktningsledningstrådar vägfinnar-generator',
-      'automatiskt facit ljusgul markerad skattcell dubbelarbetsyta generator',
-      'sälja skattjakt arbetsblad på Etsy',
-      'Amazon KDP riktnings-vägfinnararbetsböcker',
-      'kommersiell licens skattjakt verktyg',
+      'grundläggande kardinal riktningstyper koordinatrutnät',
+      '5x5 rutnät riktningsförflyttningar landmärken generator',
+      'automatiskt facit dubbelarbetsyta skattcell markerad',
+      'sälja skattjakt Etsy printable digitala produkter',
+      'Amazon KDP pysselbok vägfinnare riktningsövning',
+      'kommersiell licens skattjakt verktyg flerspråkig facit',
     ],
-    titleTag: 'Skattjakter att sälja online | LessonCraftStudio',
-    metaDescription: 'Skapa skattjakt arbetsblad på ett 5×5 rutnät med riktningsförflyttningar, tematiska landmärken och automatiskt facit. Steg-för-steg-guide för Etsy och KDP.',
+    titleTag: 'Skapa skattjakt att skriva ut | LCS',
+    metaDescription: 'Skapa skattjakt-arbetsblad att skriva ut med 5x5 rutnät, riktningsförflyttningar och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar skattjakt-arbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa vägfinnar-skattjakt-arbetsblad på ett 5×5 koordinatrutnät med två riktningstyper (grundläggande upp/ner/vänster/höger och kardinal norr/söder/öster/väster), exakt 4 riktningsförflyttningar per pussel, 6 tematiska landmärkesbilder, autogenererade facit med ljusgul markerad skattcell, och fullt lokaliserade riktningsledtrådar på 11 språk',
+    title: 'Skapa skattjakt-arbetsblad att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa vägfinnar-skattjakt på 5x5 koordinatrutnät med riktningsövningar, tematiska bilder och facit för Etsy, Amazon KDP och Gumroad',
     description: 'Skattjakt-arbetsblad är en unikt engagerande vägfinnaraktivitet där användare följer sekventiella riktningsledtrådar för att lokalisera gömd skatt på ett 5×5 koordinatrutnät märkt med bokstavsrader (A–E) och sifferkolumner (1–5). Formatet kombinerar koordinatläsning med riktningsvokabulär. Skattjakt-generatorn erbjuder två riktningstyper — grundläggande (upp/ner/vänster/höger) och kardinal (norr/söder/öster/väster) — varje pussel differentieras naturligt efter åldersgrupp. Fullt lokaliserade riktningsledtrådar på 11 språk skapar flerspråkiga produktlinjer.',
   },
 

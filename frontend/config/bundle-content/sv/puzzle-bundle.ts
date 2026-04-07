@@ -2,26 +2,28 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pussel och logik-paket för KDP',
+    primaryKeyword: 'pussel och logik paket generator',
     secondaryKeywords: [
-      'pusselarbetsblad generator paket för säljare',
-      'utskriftsbar logikpussel verktygslåda kommersiell användning',
-      'labyrint sudoku arbetsblad paket för Etsy',
-      'pusselaktivitet generatorer för KDP-säljare',
+      'sudoku generator paket',
+      'labyrint generator bundle',
+      'logiska uppgifter paket',
+      'vilken hör inte hemma paket',
     ],
     lsiKeywords: [
-      'saknade bitar sudoku labyrint arbetsblad paket',
-      'hitta udda bilden logik utskriftsbar samling',
-      'kommersiell licens pusselarbetsblad',
-      'bulkproduktion pusselarbetsblad verktyg',
+      'sudoku',
+      'labyrint',
+      'logik',
+      'vilken hör inte hemma',
+      'stor och liten',
+      'mönster',
     ],
-    titleTag: 'Pussel- och logikpaket för KDP | LessonCraftStudio',
-    metaDescription: 'Pusselarbetsblad paket med 4 generatorer: saknade bitar, hitta udda bilden, bildsudoku och labyrinter. Sälj på Etsy, KDP och Gumroad. $149 engångsbetalning.',
+    titleTag: 'Pussel & Logik paket — 4 generatorer | 149 $ engångsbetalning',
+    metaDescription: 'Alla 4 pusselgeneratorer i ett paket: sudoku, labyrint, vilken hör inte hemma, storleksjämförelse. Prova gratis.',
   },
 
   hero: {
-    title: 'Pussel & Logik-paket',
-    tagline: 'Fyra helt visuella pusselgeneratorer — rumsligt resonemang, logisk deduktion och problemlösning i varje arbetsblad',
+    title: 'Pussel & Logik paket — 4 generatorer för sudoku, labyrint & mer',
+    tagline: 'Alla 4 pusselgeneratorer med temabilder och facit — prova gratis med vattenmärke.',
     description: 'Pussel & Logik-paketet är det enda paketet där varje enskild app producerar helt visuella arbetsblad. Ingen text, inget språkberoende, ingen översättning behövs — varje arbetsblad fungerar i alla länder, alla språk, alla marknader. Detta paket kombinerar fyra specialiserade pusselgeneratorer som riktar sig mot högre kognitiva färdigheter: rumsligt resonemang med Saknade Bitar rutnätspussel, visuell urskiljning med Hitta Udda Bilden-utmaningar, logisk deduktion med 4x4 Bildsudoku och problemlösning med Bildväg-labyrinter. Alla fyra generatorer producerar automatiska facit — det enda paketet med 100% facittäckning över varje app. Varje generator matar ut utskriftsklara PDF- och högupplösta JPEG-filer med konfigurerbara svårighetsinställningar och tematiska bildbibliotek. Pussel- och logikarbetsbladskategorin är ett av de snabbast växande segmenten på Etsy och Amazon KDP eftersom dessa aktiviteter tilltalar ett bredare åldersintervall än grundläggande färdighetsbyggande arbetsblad — från dagis till årskurs 3 och uppåt. Saknade Bitar delar bilder i rutnätssegment och tar bort bitar för användare att identifiera. Hitta Udda Bilden presenterar rader av bilder där ett objekt skiljer sig från resten. Bildsudoku använder ett 4x4 rutnät med tematiska bilder istället för siffror, vilket gör klassiskt Sudoku tillgängligt för unga barn som ännu inte kan arbeta med siffror. Bildväg erbjuder tre distinkta labyrintlägen: vägnavigering, klassisk labyrintlösning och välj-rätt-väg-utmaningar. Välj bland över 100 tematiska bilduppsättningar eller ladda upp dina egna PNG- och JPEG-filer för varumärkesspecifika, nischade produkter. Oavsett om du säljer pusselböcker på Amazon KDP, listar aktivitetspaket på Etsy eller skapar logikpaket för Gumroad, ger detta paket dig fyra distinkta pusseltyper som köpare söker efter oberoende. Varje generator inkluderar en gratis provversion med vattenstämpel så att du kan testa alla funktioner innan du köper en licens.',
   },
 

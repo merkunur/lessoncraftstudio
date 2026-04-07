@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis kryptogram generator',
+    primaryKeyword: 'hemligt meddelande gratis skriva ut',
     secondaryKeywords: [
-      'kryptogram generator gratis online',
-      'bildchiffer pussel skapa gratis',
-      'kryptogram arbetsblad skriva ut gratis',
-      'gratis kodknäckningspussel med bilder',
+      'kryptogram gratis online',
+      'hemlig kod gratis skriva ut',
+      'kodspel gratis online',
+      'dechiffrera meddelande gratis',
     ],
     lsiKeywords: [
-      'gratis kryptogram online',
-      'bildchiffer pussel att skriva ut',
-      'kodknäckning arbetsblad gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'kod',
+      'dechiffrera',
+      'hemlig',
     ],
-    titleTag: 'Kryptogram generator gratis | LessonCraftStudio',
-    metaDescription: 'Skapa kryptogram gratis online. Bildchiffer kodning, svårighetsreglage, 11 språk med svenska ÅÄÖ, facit. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Hemliga meddelanden gratis online | Kryptogramgenerator',
+    metaDescription: 'Skapa kryptogram och hemliga meddelanden gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis kryptogram generator online',
-    tagline: 'Skapa bildchiffer pussel där bokstäver mappas till bilder — gratis provversion med vattenmärke',
+    title: 'Hemliga meddelanden gratis online — Kryptogramgenerator',
+    tagline: 'Skapa kryptogram och hemliga meddelanden gratis — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa kryptogram med bildchiffer — helt gratis att testa online. Hela meningar kodas till bilder som köparna avkodar. Reglaget Bokstäver att Avslöja (0–10) styr svårigheten. Svenska kryptogram kodar fraser med å, ä, ö i alfabetet — varje språk är en unik chifferprodukt. Välj bland mer än 3 100 illustrationer i 104 teman. Facit med bokstavslegend ingår. Perfekt för barn och vuxna som söker kodknäckningspussel, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

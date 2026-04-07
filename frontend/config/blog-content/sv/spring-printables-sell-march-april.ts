@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vaar utskrifter mars april foersaeljning',
+    primaryKeyword: 'vårprintables sälja mars april Etsy',
     secondaryKeywords: [
-      'produkter säljer denna nisch',
-      'skapandeprocess verktyg',
-      'marknadsföring säsongsplanering',
+      'påsk vår arbetsblad barn printable',
+      'blommor djurungar pysselblad skriva ut',
+      'säsongsprodukt vår printable-butik',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'vårtema aktivitetsblad förskoleklass',
+      'påskpyssel arbetsblad ladda ner Etsy',
+      'valborgsmässoafton printables Sverige',
     ],
-    titleTag: 'Vår-Utskrifter: Mars-April Försäljning | LCS',
-    metaDescription: 'Vår-utskrifter säljer från mars till maj. Blommor, djurungar och utomhusaktiviteter. Strategier för svenska säljare.',
+    titleTag: 'Vårprintables: Sälj Mars-April på Etsy',
+    metaDescription: 'Vårprintables säljer starkt mars till maj. Blommor, påsk och utomhusaktiviteter. Strategier för svenska printable-säljare.',
   },
   hero: {
-    title: 'Vår-Utskrifter: Mars-April Försäljning',
-    tagline: 'Våren ger nytt hopp — och ny försäljning',
+    title: 'Vårprintables: Sälj Mars till Maj',
+    tagline: 'Våren ger ny försäljning med påsk, blommor och utomhustema',
     description: 'Våren i Sverige innebär påsk, valborgsmässoafton och skolavslutning. Utskrifter med vårtema säljer bra under denna period.',
   },
   category: 'niche-seasonal',

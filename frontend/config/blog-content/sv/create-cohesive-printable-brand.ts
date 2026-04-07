@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ett skapa sammanhängande utskriftsmärke',
+    primaryKeyword: 'bygga varumärke printable-butik Etsy',
     secondaryKeywords: [
-      'skapa sammanhängande utskriftsmärke Etsy',
-      'skapa sammanhängande foeretagande',
-      'utskrifter skapa sammanhängande',
+      'branding strategi Etsy-butik',
+      'sammanhängande design printables',
+      'igenkännbart varumärke digitala produkter',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'visuell identitet Etsy-shop',
+      'kundlojalitet printable business',
+      'professionell utskriftsverksamhet',
     ],
-    titleTag: 'Skapa ett Sammanhängande Utskriftsmärke | LCS',
-    metaDescription: 'Bygg ett igenkännbart varumärke för din utskriftsverksamhet. Visuell identitet, tonalitet och kundupplevelse. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Bygg Varumärke för Din Printable-Butik | LCS',
+    metaDescription: 'Bygg ett igenkännbart varumärke för din printable-butik på Etsy. Visuell identitet och konsekvent design som skapar återkommande kunder.',
   },
   hero: {
-    title: 'Skapa ett Sammanhängande Utskriftsmärke',
-    tagline: 'Professionell branding skiljer amatörer från proffs',
+    title: 'Bygg Varumärke för Din Printable-Butik',
+    tagline: 'Konsekvent branding gör att kunder kommer tillbaka',
     description: 'Branding gör att kunder kommer tillbaka. Ett konsekvent utseende, tonalitet och kvalitetsnivå bygger förtroende och lojalitet.',
   },
   category: 'how-to',

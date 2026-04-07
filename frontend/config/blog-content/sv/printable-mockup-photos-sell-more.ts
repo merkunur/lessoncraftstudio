@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mockup foton saelj mer utskrifter',
+    primaryKeyword: 'mockup-foton printables sälj mer Etsy',
     secondaryKeywords: [
-      'mockup-foton sälj utskrifter Etsy',
-      'mockup-foton sälj foeretagande',
-      'utskrifter mockup-foton sälj',
+      'produktbilder Etsy-listning arbetsblad',
+      'mockup skapa printables konvertering',
+      'professionella foton digital produkt Etsy',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'konverteringsfrekvens Etsy produktbilder',
+      'mockup-verktyg printable-säljare gratis',
+      'listningsbilder arbetsblad sälja bättre',
     ],
-    titleTag: 'Mockup-Foton: Sälj Mer Utskrifter | LCS',
-    metaDescription: 'Mockup-foton visar dina utskrifter i användning och dubblar konverteringsfrekvensen. Hur du skapar effektiva mockups. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Mockup-Foton: Sälj Mer Printables',
+    metaDescription: 'Mockup-foton dubblar konverteringen på Etsy. Skapa professionella produktbilder för dina printables med gratis verktyg.',
   },
   hero: {
-    title: 'Mockup-Foton: Sälj Mer Utskrifter',
-    tagline: 'Professionella foton dubblar din konvertering',
+    title: 'Mockup-Foton: Sälj Mer Printables',
+    tagline: 'Professionella produktbilder dubblar din konvertering',
     description: 'Mockup-foton visar utskrifter som de ser ut i verkligheten — utskrivna, på ett bord, med pennor. Detta ökar konverteringen dramatiskt.',
   },
   category: 'how-to',

@@ -2,23 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables alla hjärtans dag | LessonCraftStudio',
-    metaDescription: 'Utforska alla hjärtans dag utskriftsbara idéer att sälja på Etsy, KDP och Gumroad. Kärlekstema produktkoncept, säsongsstrategier och tips för säljare.',
-    primaryKeyword: 'printables alla hjärtans dag att sälja',
+    titleTag: 'Alla hjärtans dag printables att sälja | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj alla hjärtans dag printables på Etsy. Produktidéer med hjärtan, vänskap och kärlekstema för pysselbok och arbetsblad.',
+    primaryKeyword: 'alla hjärtans dag printables att sälja',
     secondaryKeywords: [
-      'alla hjärtans dag arbetsblad att sälja',
-      'alla hjärtans dag utskriftsbart företag idéer',
-      'alla hjärtans dag aktivitetsblad för säljare',
-      'sälja alla hjärtans dag utskriftsbara på Etsy',
+      'alla hjärtans dag arbetsblad Etsy',
+      'hjärttema pysselbok KDP',
+      'vänskapstema printables barn',
+      'alla hjärtans dag aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'hjärttema pedagogiska arbetsblad',
-      'februari tematiserade aktivitetssidor',
-      'kärlek och vänskap tematiserade utskriftsbara',
+      'alla hjärtans dag pyssel förskoleklass',
+      'februari arbetsblad lågstadiet',
+      'kärlekstema aktiviteter barn att skriva ut',
     ],
   },
   hero: {
-    title: 'Alla hjärtans dag utskriftsbara affärsidéer för säljare',
+    title: 'Alla hjärtans dag printables — produktidéer för säljare',
     description: 'Alla hjärtans dag öppnar ett kraftfullt vinterförsäljningsfönster för utskriftsbara entreprenörer, med efterfrågan som byggs genom januari och toppar i början av februari när köpare förbereder alla hjärtans dag-utbyten och föräldrar söker pedagogiska kärlekstematiserade aktiviteter och alternativ till vanliga alla hjärtans dag-kort. Nischen erbjuder charmig mångfald av underämnen inklusive hjärtan, cupid, vänskap, rosor, godis, brevlådor, kärleksbrev och alla hjärtans dag-utbyten, vilket ger säljare ett varmt visuellt ordförråd som tilltalar barn, familjer och köpare lika. Daghemsföreståndare och hemundervisande familjer tillför ytterligare ett köparsegment som söker strukturerade alla hjärtans dag-aktiviteter som blandar helgspänning med genuint färdighetsbyggande. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad kombinerar nischen för alla hjärtans dag pålitlig årlig efterfrågan med en universellt tilltalande kärlek-och-vänskap-estetik som fotograferas vackert för produktlistningar och marknadsföring i sociala medier. Denna guide täcker specifika produktidéer, plattformsstrategier och timingmetoder för att hjälpa dig bygga en lönsam utskriftbar produktlinje för alla hjärtans dag med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara alla hjärtans dag-produkter intar en förstaklassposition i vinterens säljkalender och levererar koncentrerad säsongsbetonad efterfrågan under en period när efterjulens shoppingsenergi omdirigeras mot nya kreativa projekt och firanden. Köpare börjar planera alla hjärtans dag-festaktiviteter och februariförstärkningar i början av januari och söker efter tematiserade arbetsblad som förvandlar spänningen av alla hjärtans dag-utbyten till strukturerade inlärningsmöjligheter. Föräldrar söker åldersanpassade alla hjärtans dag-aktiviteter som tjänar dubbla syften som kreativa alternativ till butiksköpta kort och pedagogisk underhållning under den kärlekstematiserade helgveckan. Daghemsföreståndare, hemundervisande familjer och fritidsverksamhetssamordnare köper tematiserade aktivitetsblad för alla hjärtans dag-fester, vänskapsfokuserade lärandesessioner och februarifiranden som behöver engagerande material för unga deltagare.

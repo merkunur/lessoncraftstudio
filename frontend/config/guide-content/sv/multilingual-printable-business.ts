@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'flerspråkig språk printables verksamhet ett flerspråkigt',
+    primaryKeyword: 'flerspråkig printable-verksamhet internationell expansion',
     secondaryKeywords: [
-      'sälja utskriftsbara produkter på flera språk',
-      'internationell marknad utskriftsbara produkter',
-      'flerspråkig arbetsbladverksamhet',
-      'expandera utskriftsbara produkter globalt',
+      'sälja printables flera språk internationellt',
+      'expandera printable-butik globalt flerspråkig',
+      'flerspråkiga arbetsblad Etsy KDP marknader',
+      'internationell printable-verksamhet språkmarknader',
     ],
     lsiKeywords: [
-      'språkexpansion internationella marknader lokaliseringsstrategi europeiska utskriftsbara marknader',
-      'tyska utbildningsmarknaden fransk arbetsbladefterfrågan spanska utskriftsbara köpare',
-      'flerspråkig katalog intäktsmultiplikation marknadsdiversifiering gränsöverskridande försäljning',
-      'översättningsarbetsflöde global utbildningsmarknad språkspecifika marknadsplatser internationell SEO',
-      'flerspråkig produktportfölj språktäckning konkurrensfördel underservade marknader',
-      'tvärspråkliga intäktsströmmar plattformsinternationalisering multimarknadsdistribution',
+      'språkexpansion internationella marknader lokaliseringsstrategi',
+      'tyska franska spanska europeiska printable-marknader',
+      'flerspråkig katalog intäktsmultiplikation diversifiering',
+      'översättningsarbetsflöde språkspecifika marknadsplatser SEO',
+      'flerspråkig produktportfölj konkurrensfördel underservade',
+      'tvärspråkliga intäktsströmmar plattformsinternationalisering',
     ],
-    titleTag: 'Flerspråkig printables-verksamhet | LessonCraftStudio',
-    metaDescription: 'Bygg ett flerspråkigt utskriftsbart företag genom att expandera till internationella marknader. Lär dig vilka språk att rikta, översättningsarbetsflöden och.',
+    titleTag: 'Flerspråkig printable-verksamhet guide | LCS',
+    metaDescription: 'Bygg en flerspråkig printable-verksamhet. Vilka språkmarknader att prioritera, intäktsmultiplikation och stegvis expansion till internationella marknader.',
   },
 
   hero: {
-    title: 'Bygga ett flerspråkigt utskriftsbart företag',
-    tagline: 'En komplett guide till att expandera ditt utskriftsbara företag internationellt — inklusive varför flerspråkig expansion är den mest underutnyttjade tillväxtstrategin, vilka språkmarknader som erbjuder den högsta avkastningen, hur du strukturerar din verksamhet för flerspråkig drift, analysera internationella marknadsplatsmöjligheter, bygga konkurrensfördel genom språktäckning, utveckla ett ramverk för intäktsmultiplikation, planera stegvis språkexpansion och optimera flerspråkig portföljprestanda',
+    title: 'Bygg en flerspråkig printable-verksamhet',
+    tagline: 'Komplett guide: språkprioritering, marknadsanalys, intäktsmultiplikation och stegvis expansion till internationella printable-marknader',
     description: 'De flesta säljare av utskriftsbara produkter konkurrerar uteslutande på engelska och ignorerar massiv efterfrågan på tyska, franska, spanska och andra språkmarknader. Denna guide visar hur du bygger ett flerspråkigt utskriftsbart företag som multiplicerar intäkter genom att nå underservade internationella köpare över flera plattformar och språk.',
   },
 

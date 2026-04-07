@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa kryptogram att sälja',
+    primaryKeyword: 'skapa kryptogram att skriva ut bildchiffer',
     secondaryKeywords: [
-      'skapa kryptogrampussel att sälja',
-      'bildchiffer pussel generator kommersiellt bruk',
-      'utskriftsklara kryptogram arbetsblad för Etsy och KDP',
-      'bild-till-bokstav chifferpussel med facit',
+      'kryptogrampussel generator barn att skriva ut',
+      'bildchiffer pussel kodknäckning att sälja',
+      'sälja kryptogram Etsy printable pusselbok',
+      'Amazon KDP kryptogram pusselbok bildchiffer',
     ],
     lsiKeywords: [
-      'bildchiffer mekanism bild-till-bokstav mappning fras kodning pussel-generator',
-      'Bokstäver att avslöja reglage noll till tio svårighetsgradient generator',
-      'Automatisk tilldelning Manuell tilldelning bildchiffer bokstavslegend facit generator',
-      'sälja kryptogrampussel på Etsy',
-      'Amazon KDP bildchiffer pusselböcker',
-      'kommersiell licens kryptogram arbetsblad verktyg',
+      'bildchiffer bild-till-bokstav kodning hemlig fras pussel',
+      'svårighetsreglage bokstäver avslöja justerbar nivå',
+      'automatisk manuell tilldelning massproduktion chiffer',
+      'sälja kryptogrampussel Etsy printable digitala produkter',
+      'Amazon KDP bildchiffer pusselbok flerspråkig',
+      'kommersiell licens kryptogram verktyg facit generator',
     ],
-    titleTag: 'Kryptogram att sälja online | LessonCraftStudio',
-    metaDescription: 'Skapa kryptogrampussel med bildchifferkodning, justerbar svårighet, automatiskt tilldelningsläge och språkmedvetna alfabet. Guide för Etsy- och KDP-säljare.',
+    titleTag: 'Skapa kryptogram att skriva ut | LCS',
+    metaDescription: 'Skapa kryptogrampussel med bildchiffer att skriva ut. Justerbar svårighet, flerspråkiga alfabet och facit. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar kryptogrampussel',
-    tagline: 'En steg-för-steg-guide för att skapa bildchifferpussel där varje alfabetsbokstav mappas till en unik bild och användare avkodar hela hemliga fraser genom mönsterigenkänning, med ett Bokstäver att avslöja-reglage (0–10) som primär svårighetskontroll, Automatisk tilldelning för ettklicks-massproduktion och Manuell tilldelning för handplockad precision, språkmedvetna alfabet som lägger till språkspecifika tecken som tyska ä/ö/ü/ß och franska é/è/ç/à, Färg- kontra S/V-filter för dubbel produktskapande, bokstavslegend-facit, och 400+ DPI-exporter',
+    title: 'Skapa kryptogrampussel att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa bildchifferpussel med justerbar svårighet, flerspråkiga alfabet och automatiskt facit för Etsy, Amazon KDP och Gumroad',
     description: 'Kryptogram-generatorn genererar bildchifferpussel byggda på en unik mekanism: varje alfabetsbokstav mappas till en unik bild, och din hemliga fras renderas som en sekvens av bilder som användare måste avkoda tillbaka till läsbar text. Till skillnad från ordsökningar eller ordmixar som arbetar med enstaka ord kodar kryptogrampussel hela meningar och fraser — användare knäcker chiffret genom att härleda vilken bild som representerar vilken bokstav, med kontextuella ledtrådar från vanliga ord för att accelerera kodknäckningen. Bokstäver att avslöja-reglaget (0–10) är den primära svårighetskontrollen. Automatisk tilldelning och Manuell tilldelning ger flexibilitet. Språkmedvetna alfabet producerar genuint annorlunda chifferprodukter per språk. Färg- kontra S/V-filtret skapar dubbla produktvarianter från varje design.',
   },
 

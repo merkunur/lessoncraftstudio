@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skapa lär paket',
+    primaryKeyword: 'skapa läroplanspaket sälja Etsy',
     secondaryKeywords: [
-      'skapa utskrivbara läroplanspaket Etsy',
-      'skapa utskrivbara foeretagande',
-      'utskrifter skapa utskrivbara',
+      'Lgr22 arbetsblad paket printable',
+      'hemundervisning material Sverige',
+      'kompletta terminspaket skriva ut',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'läroplansanpassat material PDF',
+      'svenska skolsystemet arbetsblad',
+      'premium utskriftspaket Etsy',
     ],
-    titleTag: 'Skapa Utskrivbara Läroplanspaket | LCS',
-    metaDescription: 'Läroplansanpassade utskriftspaket har högst ordervärde. Lär dig skapa paket efter svenska Lgr22 och internationella. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skapa Läroplanspaket att Sälja på Etsy | LCS',
+    metaDescription: 'Läroplanspaket efter Lgr22 säljer för 200-500 kr. Skapa kompletta terminspaket och sälj på Etsy med högt ordervärde.',
   },
   hero: {
-    title: 'Skapa Utskrivbara Läroplanspaket',
-    tagline: 'Kompletta paket säljer för 200-500 kr styck',
+    title: 'Skapa Läroplanspaket som Säljer för Premium',
+    tagline: 'Kompletta terminspaket ger 200-500 kr per försäljning',
     description: 'Läroplanspaket som följer Lgr22 eller Common Core Standards säljer för premium. Hemundervisare betalar gärna 200-500 kr.',
   },
   category: 'product-guide',

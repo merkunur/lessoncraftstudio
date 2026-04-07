@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bondgårdsdjur utskrifter sälj online',
+    primaryKeyword: 'sälja bondgårdsdjur arbetsblad Etsy',
     secondaryKeywords: [
-      'bondgårdsdjur-utskrifter sälj online Etsy',
-      'bondgårdsdjur-utskrifter sälj foeretagande',
-      'utskrifter bondgårdsdjur-utskrifter sälj',
+      'bondgårdstema printables barn',
+      'ko gris höna häst arbetsblad',
+      'bondgårdsdjur pysselbok skriva ut',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'lantlig tema aktivitetsblad förskola',
+      'svenska bondgårdsdjur övningar',
+      'evergreen djurtema printables',
     ],
-    titleTag: 'Bondgårdsdjur-Utskrifter: Sälj Online | LCS',
-    metaDescription: 'Bondgårdsdjur-utskrifter säljer stabilt året runt. Ko, gris, höna och häst — teman som barn och föräldrar älskar. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Bondgårdsdjur-Arbetsblad på Etsy | LCS',
+    metaDescription: 'Bondgårdsdjur-printables säljer stabilt året runt. Ko, gris, höna och häst engagerar barn. Guide för svenska Etsy-säljare.',
   },
   hero: {
-    title: 'Bondgårdsdjur-Utskrifter: Sälj Online',
-    tagline: 'Bondgårdsdjur — en klassiker som aldrig går ur mode',
+    title: 'Sälj Bondgårdsdjur-Printables: Tidlös Nisch',
+    tagline: 'Bondgårdsdjur har nostalgisk dragningskraft i Sverige',
     description: 'Bondgårdsdjur-teman har en nostalgisk attraktion i Sverige. Kombinera med räkneövningar och matchningsblad för förskolebarn.',
   },
   category: 'niche-seasonal',

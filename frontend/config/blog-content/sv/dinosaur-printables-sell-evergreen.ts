@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'dinosaurie utskrifter saelj evergreen',
+    primaryKeyword: 'sälja dinosaurie-arbetsblad på Etsy',
     secondaryKeywords: [
-      'dinosaurie-utskrifter evergreen försäljning Etsy',
-      'dinosaurie-utskrifter evergreen foeretagande',
-      'utskrifter dinosaurie-utskrifter evergreen',
+      'dino printables evergreen nisch',
+      'dinosaurie pysselbok barn PDF',
+      'dinosaurier aktivitetsblad skriva ut',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'tidlös barnprodukt dinosaurier',
+      'dino matte ordsök pussel',
+      'evergreen produktlinje Etsy',
     ],
-    titleTag: 'Dinosaurie-Utskrifter: Evergreen Försäljning | LCS',
-    metaDescription: 'Dinosaurie-utskrifter säljer året runt. Lär dig skapa dinosaurie-arbetsblad och aktiviteter som barn älskar. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Dinosaurie-Printables: Evergreen Nisch | LCS',
+    metaDescription: 'Dinosaurie-printables säljer året runt. Skapa dino-arbetsblad och aktiviteter som barn älskar och föräldrar köper på Etsy.',
   },
   hero: {
-    title: 'Dinosaurie-Utskrifter: Evergreen Försäljning',
-    tagline: 'Dinosaurier har fascinerat barn i generationer',
+    title: 'Sälj Dinosaurie-Printables: Evergreen-Nisch',
+    tagline: 'Dinosaurier fascinerar barn och säljer stabilt året runt',
     description: 'Dinosaurier är en tidlös fascination för barn. Dinosaurie-matte, dinosaurie-ordsök och dinosaurie-fakta-blad säljer stabilt.',
   },
   category: 'niche-seasonal',

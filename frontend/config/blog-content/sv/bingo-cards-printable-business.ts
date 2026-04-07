@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bingokort utskriftsfoeretagande',
+    primaryKeyword: 'sälja bingokort på Etsy printable',
     secondaryKeywords: [
-      'produkttyper säljer bäst',
-      'skapa professionella produkter snabbt',
-      'listnings marknadsföringsstrategi',
+      'utskrivbara bingokort affärsidé',
+      'tematiska bingokort skapa sälja',
+      'bingo aktivitetsblad barn PDF',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'kalas bingo skriva ut',
+      'pedagogiska bingokort förskola',
+      'bingo generator verktyg',
     ],
-    titleTag: 'Bingokort: Utskriftsföretagande | LCS',
-    metaDescription: 'Bingokort säljer till föräldrar, eventplanerare och pedagoger. Lär dig skapa och sälja utskrivbara bingokort.',
+    titleTag: 'Sälj Bingokort på Etsy: Printable Guide | LCS',
+    metaDescription: 'Tematiska bingokort säljer till kalas, förskolor och event. Skapa och sälj utskrivbara bingokort på Etsy med egen printable-verksamhet.',
   },
   hero: {
-    title: 'Bingokort: Utskriftsföretagande',
-    tagline: 'Bingo fungerar för alla åldrar och alla tillfällen',
+    title: 'Sälj Utskrivbara Bingokort på Etsy',
+    tagline: 'Kalas, förskolor och event ger jämn efterfrågan året runt',
     description: 'Bingo är universellt populärt. Tematiska bingokort för högtider, klassrum och fester säljer jämnt på Etsy.',
   },
   category: 'product-guide',

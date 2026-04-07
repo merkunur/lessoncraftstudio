@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP-formatering för arbetsböcker guide',
+    primaryKeyword: 'KDP formatering pysselbok arbetsbok guide',
     secondaryKeywords: [
-      'KDP formateringsguide för arbetsbladsböcker',
-      'Amazon KDP manuskriptformatering specifikationer',
-      'KDP trimstorlek marginaler utfall arbetsbladsböcker',
-      'tryckfärdig PDF-export KDP aktivitetsböcker',
+      'Amazon KDP manuskript formatering specifikationer',
+      'KDP trimstorlek marginaler pysselbok arbetsbok',
+      'tryckfärdig PDF-export KDP 300 DPI guide',
+      'KDP omslag ryggbredd dimensioner kalkylator',
     ],
     lsiKeywords: [
-      'KDP trimstorlek 8.5x11 6x9 8x10 arbetsblad interiörlayout',
-      'manuskriptmarginaler innermarginal bindning säker zon utfallsområde',
-      'PDF-export 300 DPI typsnittsinbäddning gråskala CMYK',
-      'KDP omslag dimensioner ryggbredd streckkod placering kalkylator',
-      'sidnumrering förmaterial bakmaterial innehållsförteckning',
-      'KDP uppladdningsfel avvisning felsökning förhandsgranskning provtryck',
+      'KDP trimstorlek 8.5x11 6x9 8x10 interiörlayout',
+      'manuskriptmarginaler innermarginal bindning säker zon',
+      'PDF-export 300 DPI typsnittsinbäddning CMYK gråskala',
+      'KDP omslag dimensioner ryggbredd streckkod placering',
+      'sidnumrering förmaterial innehållsförteckning facit',
+      'KDP uppladdningsfel avvisning felsökning provtryck',
     ],
-    titleTag: 'KDP-formatering för arbetsböcker | LessonCraftStudio',
-    metaDescription: 'KDP formateringsguide som täcker trimstorlekar, marginaler, utfallsinställningar, PDF-export vid 300 DPI, omslagsdimensioner och felsökning för aktivitetsböcker',
+    titleTag: 'KDP-formatering pysselbok guide | LCS',
+    metaDescription: 'KDP formateringsguide: trimstorlekar, marginaler, PDF-export vid 300 DPI och omslagsdimensioner. Undvik avvisningar vid publicering av pysselböcker.',
   },
 
   hero: {
-    title: 'KDP formateringsguide för arbetsbladsböcker',
-    tagline: 'Den definitiva tekniska referensen för formatering av arbetsblads- och aktivitetsböcker för Amazon KDP — täcker trimstorleksval för olika aktivitetstyper, marginal- och innermarginalberäkningar för bekvämt skrivutrymme, utfall kontra icke-utfall-konfiguration, tryckfärdig PDF-export vid 300 DPI med inbäddade typsnitt, omslagsdimensionsberäkningar inklusive ryggbredd och streckkodszoner, komplett manuskriptsammansättning från förmaterial till lösningssektioner, och felsökning av de vanligaste KDP-uppladdningsavvisningarna och formateringsfel',
+    title: 'KDP formateringsguide för pysselböcker och arbetsböcker',
+    tagline: 'Teknisk referens: trimstorlekar, marginaler, PDF-export, omslagsdimensioner och felsökning av KDP-uppladdningar för aktivitetsböcker och arbetsböcker',
     description: 'En perfekt designad arbetsbladsbok betyder ingenting om KDP avvisar manuskriptet eller det tryckta resultatet har text som försvinner in i bindningen, marginaler för smala för att barn ska kunna skriva i, eller suddiga bilder från lågupplöst export. Denna guide täcker de tekniska formateringsspecifikationerna som skiljer en professionell KDP-publikation från en amatörmässig — de exakta måtten, inställningarna och exportprocedurerna som säkerställer att dina arbetsblads- och aktivitetsböcker trycks korrekt varje gång.',
   },
 

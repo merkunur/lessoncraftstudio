@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'flerspråkiga utskrifters fördel utskrifter',
+    primaryKeyword: 'flerspråkiga printables konkurrensfördel',
     secondaryKeywords: [
-      'flerspråkiga utskrifters fördel Etsy',
-      'flerspråkiga utskrifters foeretagande',
-      'utskrifter flerspråkiga utskrifters',
+      'sälja arbetsblad flera språk Etsy',
+      'internationell marknad printables',
+      'flerspråkig expansion digitala produkter',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'skandinaviska språk printable-fördel',
+      'tyska franska marknaden Etsy',
+      'internationell försäljning låg konkurrens',
     ],
-    titleTag: 'Flerspråkiga Utskrifters Fördel | LCS',
-    metaDescription: 'Flerspråkiga utskrifter öppnar nya marknader med mindre konkurrens. Strategier för svenska säljare att nå globalt.',
+    titleTag: 'Flerspråkiga Printables: Konkurrensfördel | LCS',
+    metaDescription: 'Flerspråkiga printables öppnar nya marknader med låg konkurrens. Svenska säljare har en naturlig fördel med skandinaviska språk.',
   },
   hero: {
-    title: 'Flerspråkiga Utskrifters Fördel',
-    tagline: 'Flerspråkighet ger konkurrensfördelar på Etsy',
+    title: 'Flerspråkiga Printables: Din Konkurrensfördel',
+    tagline: 'Flera språk multiplicerar din marknad med minimal extra insats',
     description: 'Att erbjuda produkter på flera språk multiplicerar din marknad. Svenska säljare har en naturlig fördel med skandinaviska språk.',
   },
   category: 'platform-strategy',

@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'moenstertaag arbetsblad nisch',
+    primaryKeyword: 'mönstertåg arbetsblad sälja nischprodukt',
     secondaryKeywords: [
-      'mönstertåg-arbetsblad nisch Etsy',
-      'mönstertåg-arbetsblad nisch foeretagande',
-      'utskrifter mönstertåg-arbetsblad nisch',
+      'mönsterigenkänning printables barn Etsy',
+      'tågtema arbetsblad skriva ut och sälja',
+      'mönstertåg pysselbok Amazon KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'logiska serier förskoleklass arbetsblad',
+      'tågtema aktivitetsblad lågstadiet',
+      'mönster och sekvenser printable-nisch',
     ],
-    titleTag: 'Mönstertåg-Arbetsblad: Nisch | LCS',
-    metaDescription: 'Mönstertåg-arbetsblad kombinerar mönsterigenkänning med barnens fascination för tåg. En unik nischprodukt. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Mönstertåg-Arbetsblad: Unik Nischprodukt',
+    metaDescription: 'Mönstertåg-arbetsblad kombinerar mönsterigenkänning med tåg-fascination. Unik nisch med låg konkurrens. Sälj på Etsy och Amazon KDP.',
   },
   hero: {
-    title: 'Mönstertåg-Arbetsblad: Nisch',
-    tagline: 'Mönsterigenkänning kombinerat med tåg-fascination',
+    title: 'Mönstertåg-Arbetsblad: En Lönsam Nisch',
+    tagline: 'Mönsterigenkänning möter tågfascination — unik nischprodukt',
     description: 'Mönstertåg-arbetsblad är en unik kombination av mönsterigenkänning och transport-tema. Barn älskar tåg och föräldrar uppskattar pedagogiskt innehåll.',
   },
   category: 'product-guide',

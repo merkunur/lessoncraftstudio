@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'prepositions prepositionsarbetsblad skapa prepositionsblad sfi sälja hur',
+    primaryKeyword: 'skapa prepositionsövningar att skriva ut SFI',
     secondaryKeywords: [
-      'skapa prepositionsarbetsblad att sälja',
-      'prepositionsarbetsblad generator kommersiellt bruk',
-      'utskriftsklara rumsliga språkarbetsblad för Etsy och KDP',
-      'språkkänsliga prepositionsarbetsblad med facit',
+      'prepositionsarbetsblad generator att skriva ut PDF',
+      'lägesord övningsblad barn SFI skriva ut',
+      'sälja prepositionsblad Etsy printable språkövning',
+      'Amazon KDP pysselbok prepositioner rumsligt språk',
     ],
     lsiKeywords: [
-      'två övningslägen fyll-i-luckan flerval prepositions-generator',
-      'formersättning separat bildlager scenkombinationer',
-      'prepositions kryssrutenät sju lägesord riktad övning',
-      'sälja prepositionsarbetsblad på Etsy',
-      'Amazon KDP rumsligt språk aktivitetsböcker',
-      'kommersiell licens prepositionsarbetsblad verktyg',
+      'fyll-i-luckan flerval prepositionsövning scener',
+      'formersättning scenkombinationer bildlager variation',
+      'lägesord på under ovanför bredvid mellan inuti',
+      'sälja prepositionsarbetsblad Etsy printable SFI',
+      'Amazon KDP pysselbok rumsligt språk flerspråkig',
+      'kommersiell licens prepositionsverktyg facit 11 språk',
     ],
-    titleTag: 'Prepositionsblad SFI att sälja | LessonCraftStudio',
-    metaDescription: 'Skapa prepositionsarbetsblad med två övningslägen, formersättning för scenvariation, 7-prepositions kryssruta och. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skapa prepositionsövningar att skriva ut | LCS',
+    metaDescription: 'Skapa prepositionsarbetsblad att skriva ut med scenbilder, två övningslägen och facit. Flerspråkig. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar prepositionsarbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa rumsliga språkarbetsblad med två övningslägen (Fyll-i-luckan för aktivt återkallande och Flerval för stödd övning), Formersättning som multiplicerar scenkombinationer, ett prepositions kryssrutenät för att välja exakt vilka lägesord som ska inkluderas, konfigurerbar 1–8 övningar per sida, språkkänsliga prepositionsord som översätts till inhemska motsvarigheter på 11 språk, och autogenererade facit',
+    title: 'Skapa prepositionsövningar att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa rumsliga språkarbetsblad med scenbilder, fyll-i-luckan och flerval, flerspråkigt stöd och automatiskt facit för Etsy, Amazon KDP och Gumroad',
     description: 'Prepositionsarbetsblad är en visuellt engagerande rumslig språkaktivitet där användare identifierar rätt lägesord genom att studera bildscener. Till skillnad från abstrakta grammatikövningar som förlitar sig på text ger scenbaserat format konkret visuell kontext — en katt som sitter på en låda, en boll under ett bord, en fågel ovanför ett staket. Prepositions Arbetsblad-generatorn erbjuder två övningslägen: Fyll-i-luckan för aktivt återkallande och Flerval för stödd övning. Formersättning multiplicerar scenkombinationer. Språkkänsliga prepositionsord producerar genuint annorlunda språkprodukter.',
   },
 

@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis hitta och finn generator',
+    primaryKeyword: 'hitta och markera uppgift gratis skriva ut',
     secondaryKeywords: [
-      'hitta och finn generator gratis online',
-      'dolda objekt arbetsblad skapa gratis',
-      'sökbild blad skriva ut gratis',
-      'gratis hitta udda bilden pussel',
+      'gömda föremål gratis online',
+      'sökbild gratis skriva ut',
+      'observationslek gratis',
+      'hitta och ringa in gratis',
     ],
     lsiKeywords: [
-      'gratis sökblad online',
-      'dolda objekt att skriva ut',
-      'hitta och finn övning gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'sökbild',
+      'gömda föremål',
+      'observera',
     ],
-    titleTag: 'Hitta och finn gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa hitta och finn-blad gratis online. Sökning och Hitta Udda Bilden, noll-överlappning, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Hitta och markera gratis online | Observationsleksgenerator',
+    metaDescription: 'Skapa hitta-och-markera uppgifter gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis hitta och finn generator online',
-    tagline: 'Sökning med noll-överlappning och Hitta Udda Bilden — automatiskt facit med röda cirklar — gratis provversion med vattenmärke',
+    title: 'Hitta och markera gratis online — Observationsleksgenerator',
+    tagline: 'Skapa hitta-och-markera uppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa dolda objekt-arbetsblad — helt gratis att testa online. Sökning sprider dolda objekt i en bildscen, Hitta Udda Bilden blandar oparade bilder. Automatiskt facit med röda cirklar ingår. Rent visuellt — universellt säljbart utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker sökarbetsblad att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

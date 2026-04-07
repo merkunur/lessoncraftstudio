@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis blandade bokstäver generator',
+    primaryKeyword: 'blandade bokstäver gratis skriva ut',
     secondaryKeywords: [
-      'blandade bokstäver generator gratis online',
-      'ordmix arbetsblad skapa gratis',
-      'bokstavspussel skriva ut gratis',
-      'gratis stavningspussel med bilder',
-    ],
-    lsiKeywords: [
-      'gratis ordmix online',
-      'blandade bokstäver pussel att skriva ut',
+      'anagram uppgifter gratis online',
+      'bokstäver i oordning gratis',
+      'ordpussel gratis skriva ut',
       'stavningsövning gratis',
     ],
-    titleTag: 'Blandade bokstäver gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa blandade bokstäver-pussel gratis online. Bildledtrådar, vokal-färgkodning, 4 svårighetsnivåer, 11 språk. Salj pa Etsy & KDP med kommersiell licens.',
+    lsiKeywords: [
+      'gratis',
+      'online',
+      'vattenmärke',
+      'anagram',
+      'stavning',
+      'ordförråd',
+    ],
+    titleTag: 'Blandade bokstäver gratis online | Anagramgenerator',
+    metaDescription: 'Skapa uppgifter med blandade bokstäver gratis online. Temabilder, facit. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis blandade bokstäver generator online',
-    tagline: 'Skapa stavningspussel med blandade bokstavsbrickor och bildledtrådar — gratis provversion med vattenmärke',
+    title: 'Blandade bokstäver gratis online — Anagramgenerator',
+    tagline: 'Skapa anagramuppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa blandade bokstäver-pussel — helt gratis att testa online. Bildledtråd paras med blandade bokstavsbrickor som användarna ordnar om. Vokal-konsonant färgkodning och fyra svårighetsnivåer ger variation. Språkkänslig: \"HUND\" på svenska, \"DOG\" på engelska, \"CHIEN\" på franska. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit ingår. Perfekt för föräldrar som söker stavningspussel, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

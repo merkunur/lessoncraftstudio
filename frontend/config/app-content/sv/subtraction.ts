@@ -2,26 +2,29 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generator subtraktionsblad att sälja på Etsy',
+    primaryKeyword: 'subtraktionsuppgifter skriva ut',
     secondaryKeywords: [
-      'skapa minusräkningsblad för Etsy-shop',
-      'subtraktionsövningar för Amazon KDP',
-      'matteblad minusräkning med kommersiell licens',
-      'arbetsblad matematik att sälja online',
+      'minusstycken generator',
+      'matteuppgifter subtraktion åk 1 2',
+      'minusräkning skriva ut',
+      'subtraktionsuppgifter med facit',
     ],
     lsiKeywords: [
-      'passiv inkomst subtraktionsblad',
-      'printables-verksamhet subtraktion',
-      'överstrykning pedagogiska printables',
-      'svenska marknaden mattearbetsblad',
+      'lågstadiet',
+      'åk 1',
+      'åk 2',
+      'med växling',
+      'utan växling',
+      'skillnad',
+      'facit',
     ],
-    titleTag: 'Subtraktionsblad — Sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa subtraktionsblad att sälja på Etsy och KDP. Tematiska bilder, facit, kommersiell licens. Testa gratis med vattenmärke. $49 engångsbetalning.',
+    titleTag: 'Subtraktionsuppgifter att skriva ut | Generator med facit',
+    metaDescription: 'Skapa subtraktionsuppgifter med temabilder och automatiskt facit. 300 DPI PDF, 11 språk. Prova gratis — kommersiell licens inkluderad.',
   },
 
   hero: {
-    title: 'Generera subtraktionsblad att sälja på Etsy, KDP och mer',
-    tagline: 'Gör subtraktion konkret med arbetsblad där användarna stryker över bilder för att hitta svaret.',
+    title: 'Subtraktionsuppgifter att skriva ut — Generator med temabilder och facit',
+    tagline: 'Skapa minusstycken med bilder för förskoleklass och lågstadiet — prova gratis med vattenmärke.',
     description:
       'Gör subtraktion till en säljbar produkt med en generator skapad för printables-entreprenörer. Skapa illustrerade subtraktionsblad med tematiska bilder från över 100 kategorier — djur, fordon, mat, natur — som gör matematiken engagerande och dina Etsy-annonser oemotståndliga. Varje arbetsblad exporteras som utskriftsklar PDF i 400+ DPI med automatiskt facit, redo att laddas upp på Etsy, sammanställas i en aktivitetsbok för Amazon KDP, eller erbjudas via din egen webbshop. Den kommersiella licensen ingår med varje arbetsblad. Välj mellan fyra övningslägen — Överstrykning, Bild − Tal, Hitta Subtrahenden och Blandat Läge — för att vägleda lärandet från förskola till årskurs 2. Lönsamt tips: kombinera addition och subtraktion i paket — säljare rapporterar betydligt högre genomsnittliga ordervärden med kombinerade mattepaket. Den svenska marknaden erbjuder enorm potential med minimal konkurrens. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

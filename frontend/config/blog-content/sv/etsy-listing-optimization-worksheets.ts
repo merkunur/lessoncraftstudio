@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsy listningsoptimering för arbetsblad',
+    primaryKeyword: 'optimera Etsy-listning arbetsblad',
     secondaryKeywords: [
-      'etsy listningsoptimering arbetsblad Etsy',
-      'etsy listningsoptimering foeretagande',
-      'utskrifter etsy listningsoptimering',
+      'Etsy SEO titlar taggar printables',
+      'konverteringsoptimering Etsy-butik',
+      'bästa Etsy-listning arbetsblad PDF',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'listningsbilder mockup printables',
+      'Etsy beskrivning konvertering',
+      'visningar klick försäljning Etsy',
     ],
-    titleTag: 'Etsy Listningsoptimering för Arbetsblad | LCS',
-    metaDescription: 'Optimera dina Etsy-listningar för maximala visningar och konvertering. Titlar, taggar, bilder och beskrivningar som säljer.',
+    titleTag: 'Optimera Etsy-Listningar för Arbetsblad | LCS',
+    metaDescription: 'Optimera dina Etsy-listningar med rätt titlar, taggar och bilder. Dubbla konverteringen för dina arbetsblad och printables.',
   },
   hero: {
-    title: 'Etsy Listningsoptimering för Arbetsblad',
-    tagline: 'Varje detalj i din listning påverkar försäljningen',
+    title: 'Optimera Etsy-Listningar för Arbetsblad',
+    tagline: 'Rätt titlar, taggar och bilder dubblar konverteringen',
     description: 'En väloptimerad Etsy-listning kan dubbla din konverteringsfrekvens. Titlar, taggar, bilder och beskrivningar spelar alla kritiska roller.',
   },
   category: 'platform-strategy',

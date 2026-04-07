@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'för hur skapar storleksjämförelsearbetsblad jämförelseblad sälja online',
+    primaryKeyword: 'skapa storleksövningar att skriva ut förskola',
     secondaryKeywords: [
-      'stort och litet arbetsblad för barn',
-      'storleksdiskriminering arbetsblad generator',
-      'utskriftsklara storleksjämförelsearbetsblad att sälja',
-      'storleksordning arbetsblad för förskola',
+      'storleksjämförelse arbetsblad generator att skriva ut',
+      'stort litet övningsblad barn PDF förskola',
+      'sälja storleksarbetsblad Etsy printable barn',
+      'Amazon KDP pysselbok storleksordning jämförelse',
     ],
     lsiKeywords: [
-      'visuella storleksdiskrimineringsaktiviteter',
-      'nolltext arbetsblad för internationell försäljning',
-      'ringa in den stora arbetsblad',
-      'sälja storleksjämförelsearbetsblad på Etsy',
-      'Amazon KDP storleksordning aktivitetsböcker',
-      'kommersiell licens storleksarbetsblad verktyg',
+      'visuella storleksdiskriminering ringa in stor liten',
+      'nolltext arbetsblad internationell försäljning universellt',
+      'storleksordning numrera 1-2-3 förskola förskoleklass',
+      'sälja storleksjämförelse Etsy printable digitala produkter',
+      'Amazon KDP pysselbok storleksordning aktivitetsbok',
+      'kommersiell licens storleksverktyg 5 frågetyper facit',
     ],
-    titleTag: 'Jämförelseblad att sälja online | LessonCraftStudio',
-    metaDescription: 'Hur du skapar storleksjämförelsearbetsblad med 5 frågetyper och 2 bildlägen. Nolltext-output som säljer världen över. Guide för Etsy, KDP och Gumroad.',
+    titleTag: 'Skapa storleksövningar att skriva ut | LCS',
+    metaDescription: 'Skapa storleksjämförelsearbetsblad att skriva ut med 5 frågetyper och visuell nolltext-output. Sälj världen över på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar storleksjämförelsearbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa storleksdiskrimineringsarbetsblad med fem frågetyper och nolltext-output du kan sälja världen över på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa storleksövningar att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa storleksdiskrimineringsarbetsblad med fem frågetyper och nolltext-output för Etsy, Amazon KDP och Gumroad',
     description: 'Storleksjämförelse är en av de tidigaste visuella färdigheterna barn utvecklar, och arbetsblad har helårsefterfrågan. Denna guide leder dig genom hela skapandeprocessen med Stort och Litet Arbetsblad-generatorn — från att välja bland fem frågetyper och två bildlägen till att konfigurera övningsdensitet, generera automatiska facit och exportera tryckfärdiga filer. Verktyget producerar helt visuella arbetsblad med noll text på outputen, vilket innebär att dina produkter säljer till köpare i alla länder utan översättning.',
   },
 

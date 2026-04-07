@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'rutnätsmatchning pussel sälj online',
+    primaryKeyword: 'sälja rutnätspussel arbetsblad Etsy',
     secondaryKeywords: [
-      'rutnätsmatchning-pussel sälj online Etsy',
-      'rutnätsmatchning-pussel sälj foeretagande',
-      'utskrifter rutnätsmatchning-pussel sälj',
+      'grid matching pussel printable',
+      'logikpussel barn skriva ut',
+      'mönsterigenkänning arbetsblad PDF',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'visuellt tänkande övningar barn',
+      'rutnätsmatchning nischprodukt Etsy',
+      'logik pussel förskola grundskola',
     ],
-    titleTag: 'Rutnätsmatchning-Pussel: Sälj Online | LCS',
-    metaDescription: 'Rutnätsmatchning-pussel utvecklar logiskt tänkande. En nischprodukt med växande efterfrågan på Etsy.',
+    titleTag: 'Sälj Rutnätspussel-Arbetsblad på Etsy | LCS',
+    metaDescription: 'Rutnätsmatchning-pussel utvecklar logiskt tänkande. Skapa och sälj logikpussel som nischprodukt på Etsy med låg konkurrens.',
   },
   hero: {
-    title: 'Rutnätsmatchning-Pussel: Sälj Online',
-    tagline: 'Logikpussel som utvecklar visuellt tänkande',
+    title: 'Sälj Rutnätspussel: Logik-Nisch på Etsy',
+    tagline: 'Mönsterigenkänning och logik som barn och seniorer gillar',
     description: 'Rutnätsmatchning-pussel kombinerar logik med mönsterigenkänning. Populärt för barn 5-10 år och senioraktiviteter.',
   },
   category: 'product-guide',

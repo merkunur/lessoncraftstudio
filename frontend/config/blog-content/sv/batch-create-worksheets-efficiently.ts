@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skapa arbetsblad effektivt batch',
+    primaryKeyword: 'skapa arbetsblad snabbt för Etsy',
     secondaryKeywords: [
-      'snabb arbetsbladsproduktion',
-      'massproducera utskrifter',
-      'arbetsblad generator effektivitet',
+      'batch-produktion printables',
+      'massproducera arbetsblad sälja',
+      'effektiv arbetsblads-generator',
     ],
     lsiKeywords: [
-      'tidsbesparande arbetsblad',
-      'produktivitet utskrifter',
-      'automatisera arbetsbladskapande',
+      'tidsbesparande utskriftsproduktion',
+      'produktivitet printable business',
+      'automatisera skapande arbetsblad',
     ],
-    titleTag: 'Skapa Arbetsblad i Batch: Effektivt | LCS',
-    metaDescription: 'Lär dig skapa 50+ professionella arbetsblad per timme med batch-tekniker. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Batch-Skapa Arbetsblad: 50+ Per Timme | LCS',
+    metaDescription: 'Skapa 50+ professionella arbetsblad per timme med batch-teknik. Spara tid och skala din printable-verksamhet på Etsy och KDP.',
   },
   hero: {
-    title: 'Skapa Arbetsblad i Batch: 50+ Per Timme',
-    tagline: 'Effektivitet är skillnaden mellan hobbyist och företagare',
+    title: 'Batch-Skapa Arbetsblad: 50+ Per Timme',
+    tagline: 'Batch-teknik gör dig från hobbyist till printable-entreprenör',
     description: 'De mest framgångsrika utskriftssäljarna producerar inte ett arbetsblad i taget. De använder batch-tekniker för att skapa hela produktlinjer på en eftermiddag. Den här guiden visar den exakta processen för att maximera din output utan att kompromissa med kvaliteten.',
   },
   category: 'how-to',

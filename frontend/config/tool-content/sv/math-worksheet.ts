@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis matteblad generator online',
+    primaryKeyword: 'matteuppgifter generator gratis online',
     secondaryKeywords: [
-      'matteblad generator gratis online',
-      'algebrapussel arbetsblad skapa gratis',
-      'matteblad med bilder skriva ut gratis',
-      'gratis mattearbetsblad med bildvariabler',
+      'räkneuppgifter gratis skriva ut',
+      'matteuppgifter gratis generator',
+      'matteuppgifter med facit gratis',
+      'uppgiftsgenerator matematik gratis',
     ],
     lsiKeywords: [
-      'gratis algebrapussel online',
-      'matteblad med bilder att skriva ut',
-      'visuella ekvationer arbetsblad gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'grundskola',
+      'facit',
+      'PDF',
     ],
-    titleTag: 'Matteblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa matteblad gratis online med algebrapussel. Bilder som variabler, 4 svårighetsnivåer, unika lösningar, facit. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Matteuppgifter generator gratis online | Räkneuppgifter',
+    metaDescription: 'Skapa matteuppgifter gratis online med automatiskt facit. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis matteblad generator online',
-    tagline: 'Skapa visuella algebrapussel med bilder som variabler — gratis provversion med vattenmärke',
+    title: 'Matteuppgifter generator gratis online — Räkneuppgifter med facit',
+    tagline: 'Skapa matteuppgifter gratis med automatiskt facit — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Gå bortom vanliga räkneövningar med algebra bildpussel — helt gratis att testa online. Bilder ersätter okända variabler i ekvationssystem, och köparna bestämmer det numeriska värdet av varje bild. Fyra svårighetsnivåer och en inbyggd algebraisk lösare som garanterar exakt en lösning. Perfekt för föräldrar som söker utmanande matteblad, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

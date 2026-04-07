@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'påsk utskrifter vårens affärsmöjlighet',
+    primaryKeyword: 'sälja påskprintables på Etsy',
     secondaryKeywords: [
-      'påsk-utskrifter vårens affärsmöjlighet Etsy',
-      'påsk-utskrifter vårens foeretagande',
-      'utskrifter påsk-utskrifter vårens',
+      'påskpyssel arbetsblad skriva ut',
+      'påskaktiviteter barn printable',
+      'vår påsk utskrifter affärsidé',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'påskris påskkäringar aktiviteter',
+      'äggjaktsblad skriva ut barn',
+      'säsongsprodukt vår mars april',
     ],
-    titleTag: 'Påsk-Utskrifter: Vårens Affärsmöjlighet | LCS',
-    metaDescription: 'Påsk-utskrifter säljer från mars till april. Äggjaktsaktiviteter, vårfärgläggning och påskpyssel. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Påskprintables: Vårens Bästa Nisch | LCS',
+    metaDescription: 'Påskprintables säljer starkt mars-april. Påskpyssel, äggjaktsblad och vårfärgläggning ger svenska säljare en säsongstopp.',
   },
   hero: {
-    title: 'Påsk-Utskrifter: Vårens Affärsmöjlighet',
-    tagline: 'Påsk och vår ger en stark försäljningstopp i mars-april',
+    title: 'Sälj Påskprintables: Vårens Affärsmöjlighet',
+    tagline: 'Svenska påsktraditioner ger unika produktmöjligheter',
     description: 'Påsk i Sverige kombinerar traditioner med vårfirande. Påskris, påskkäringar och ägg-teman skapar unika produktmöjligheter.',
   },
   category: 'niche-seasonal',

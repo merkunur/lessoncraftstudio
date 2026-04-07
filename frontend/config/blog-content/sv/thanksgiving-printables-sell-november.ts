@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'lucia advent utskrifter november',
+    primaryKeyword: 'Lucia advent printables sälja november',
     secondaryKeywords: [
-      'lucia- advent-utskrifter november Etsy',
-      'lucia- advent-utskrifter foeretagande',
-      'utskrifter lucia- advent-utskrifter',
+      'Lucia-arbetsblad barn skriva ut Etsy',
+      'adventskalender printable sälja december',
+      'svenska högtider printables KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'Luciatåg aktivitetsblad saffransbullar',
+      'advents pyssel barn ladda ner',
+      'november december printable-butik Sverige',
     ],
-    titleTag: 'Lucia- och Advent-Utskrifter: November | LCS',
-    metaDescription: 'Lucia och advent skapar en unik svensk försäljningsmöjlighet i november-december. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Lucia & Advent Printables: Sälj November',
+    metaDescription: 'Lucia och advent skapar unik svensk försäljningsmöjlighet i november-december. Sälj Lucia-arbetsblad och adventskalendrar.',
   },
   hero: {
-    title: 'Lucia- och Advent-Utskrifter: November',
-    tagline: 'Lucia den 13 december är Storsvenskarnas högtid',
+    title: 'Lucia & Advent Printables: Sälj i November',
+    tagline: 'Lucia och advent ger Sveriges starkaste printable-säsong',
     description: 'Sverige har ingen Thanksgiving men Lucia den 13 december är minst lika stor. Luciatåg-aktiviteter, adventskalender-utskrifter och Lucia-arbetsblad med ljus, saffransbullar och stjärngosse-tema säljer enormt. Börja publicera i oktober.',
   },
   category: 'niche-seasonal',

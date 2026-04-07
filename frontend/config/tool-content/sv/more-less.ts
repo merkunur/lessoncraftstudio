@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis mer och mindre arbetsblad',
+    primaryKeyword: 'större än mindre än gratis skriva ut',
     secondaryKeywords: [
-      'mer och mindre arbetsblad gratis online',
-      'jämförelsearbetsblad skapa gratis',
-      'större-än mindre-än skriva ut gratis',
-      'gratis jämförelseblad med bilder',
+      'jämföra tal gratis online',
+      'fler färre uppgift gratis',
+      'större mindre lika med gratis',
+      'jämföra mängder gratis',
     ],
     lsiKeywords: [
-      'gratis jämförelseblad online',
-      'mer och mindre att skriva ut',
-      'taljämförelse gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'större än',
+      'mindre än',
+      'jämföra',
     ],
-    titleTag: 'Mer och mindre gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa mer och mindre arbetsblad gratis online. 3 jämförelselägen med bilder, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Större än mindre än gratis online | Jämförelsegenerator',
+    metaDescription: 'Skapa uppgifter om att jämföra tal gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis mer och mindre arbetsblad online',
-    tagline: 'Tre visuella jämförelselägen med bilder — gratis provversion med vattenmärke',
+    title: 'Större än mindre än gratis online — Jämförelsegenerator',
+    tagline: 'Skapa jämförelseuppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa jämförelsearbetsblad — helt gratis att testa online. Tre övningstyper: Bild mot Bild, Bild mot Tal och Pricka och Kryssa Grupper. Fungerar identiskt på alla 11 språk — universellt säljbart. Välj bland mer än 100 bildteman, ställ in talområde och välj jämförelsesymboler. Perfekt för föräldrar som söker matteblad att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

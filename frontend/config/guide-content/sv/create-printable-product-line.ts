@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'produktlinje bygga printables utskriftsbar skapa',
+    primaryKeyword: 'bygga produktlinje utskriftsbara produkter Etsy',
     secondaryKeywords: [
-      'produktlinjestrategi för printables',
-      'bygg en arbetsblads-produktlinje',
-      'hur man bygger en printable-katalog',
-      'produktlinje för utskriftsbart företag',
+      'produktlinje strategi printables säljare',
+      'skapa produktkatalog utskriftsbara arbetsblad',
+      'bygga varumärke Etsy printable-butik',
+      'systematisk katalogexpansion KDP Etsy Gumroad',
     ],
     lsiKeywords: [
-      'produktkatalog konsistens varumärkessammanhållning progression katalogstrategi',
-      'produktfärdplan mallar visuellt varumärke namnkonventioner katalogdjup',
-      'produktserier designspråk layoutmönster varumärkesigenkänning butiksidentitet',
-      'systematisk expansion årskursutvidgning formatvariation temakonsistens produktrutnät',
-      'korsförsäljning katalognavigering butiksorganisation produktsekvensering marknadstäckning',
-      'visuell identitet produkthierarki kompletterande produkter produktekosystem linjesammanhållning',
+      'produktkatalog varumärkeskonsistens progression katalogstrategi',
+      'produktfärdplan mallar visuellt varumärke namnkonventioner',
+      'designspråk layoutmönster varumärkesigenkänning butiksidentitet',
+      'systematisk expansion formatvariation temakonsistens Etsy',
+      'korsförsäljning katalognavigering butiksorganisation printables',
+      'visuell identitet produkthierarki produktekosystem sammanhållning',
     ],
-    titleTag: 'Bygga produktlinje printables | LessonCraftStudio',
-    metaDescription: 'Lär dig skapa en utskriftsbar produktlinje med konsekvent varumärke, strategisk produktsekvensering och systematisk. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Bygga produktlinje printables Etsy | LCS',
+    metaDescription: 'Bygg en sammanhängande produktlinje med utskriftsbara produkter. Varumärkeskonsistens, katalogstrategi och systematisk expansion för Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar en utskriftsbar produktlinje',
-    tagline: 'En komplett guide till att bygga en sammanhängande utskriftsbar produktlinje som driver varumärkesigenkänning och upprepade köp — täcker produktlinjeidentitet och struktur, visuell konsistens, namnkonventioner, strategisk produktsekvensering, katalogorganisation och systematiska expansionsmetoder',
+    title: 'Bygg en produktlinje med utskriftsbara produkter',
+    tagline: 'Komplett guide: produktlinjeidentitet, visuell konsistens, namnkonventioner och systematisk katalogexpansion för Etsy, Amazon KDP och Gumroad',
     description: 'En produktlinje förvandlar en slumpmässig samling utskriftsklara arbetsblad till ett igenkännbart varumärke som köpare återvänder till. Istället för att skapa isolerade produkter bygger en sammanhängande produktlinje katalogdjup, visuell konsistens och köparförtroende som ackumuleras över tid. Denna guide täcker det kompletta ramverket för planering, byggande och expandering av en produktlinje som fungerar på Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica och alla andra plattformar.',
   },
 

@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy annonser utskrifter vaert det',
+    primaryKeyword: 'Etsy Ads printables värt pengarna',
     secondaryKeywords: [
-      'etsy-annonser utskrifter värt Etsy',
-      'etsy-annonser utskrifter foeretagande',
-      'utskrifter etsy-annonser utskrifter',
+      'annonsera printables Etsy ROI',
+      'Etsy annonser budget strategi',
+      'betald marknadsföring digitala produkter',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'annonsavkastning Etsy-butik',
+      'CPC kostnad per klick printables',
+      'organisk vs betald trafik Etsy',
     ],
-    titleTag: 'Etsy-Annonser för Utskrifter: Värt Det? | LCS',
-    metaDescription: 'Är Etsy-annonser värt pengarna för utskriftssäljare? Analys av ROI, budgetstrategier och när du ska annonsera.',
+    titleTag: 'Etsy Ads för Printables: Värt Pengarna? | LCS',
+    metaDescription: 'Är Etsy Ads värt det för printable-säljare? ROI-analys, budgetstrategier och när annonsering lönar sig.',
   },
   hero: {
-    title: 'Etsy-Annonser för Utskrifter: Värt Det?',
-    tagline: 'När annonsering lönar sig — och när det inte gör det',
+    title: 'Etsy Ads för Printables: Värt Pengarna?',
+    tagline: 'Datadriven analys av när annonsering lönar sig',
     description: 'Etsy-annonser kan vara lönsamma men kräver rätt strategi. Annonsera bara produkter med bevisad efterfrågan och god marginal.',
   },
   category: 'platform-strategy',

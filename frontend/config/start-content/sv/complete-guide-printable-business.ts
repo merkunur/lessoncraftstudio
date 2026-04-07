@@ -2,28 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'starta printables verksamhet 2026 ett utskriftsbart',
+    primaryKeyword: 'komplett guide starta printable-verksamhet',
     secondaryKeywords: [
-      'utskriftsbart företag för nybörjare',
-      'sälja utskriftsbara arbetsblad online',
-      'starta en utskriftsbar arbetsbladsbutik',
-      'guide starta utskriftsbart företag',
+      'starta utskriftsbart företag från grunden',
+      'sälja arbetsblad online nybörjarguide',
+      'printable-verksamhet steg för steg',
+      'bygga arbetsbladsbutik Etsy KDP',
     ],
     lsiKeywords: [
-      'digital nedladdning affärsmodell',
-      'arbetsbladsgenrator för säljare',
-      'Etsy utskriftsbar butik uppställning',
-      'Amazon KDP aktivitetsböcker',
-      'Gumroad arbetsblad',
-      'kommersiell licens utskriftsbara verktyg',
+      'passiv inkomst digitala produkter',
+      'arbetsbladsverktyg för entreprenörer',
+      'Etsy butik digitala nedladdningar',
+      'Amazon KDP aktivitetsböcker Sverige',
+      'kommersiell licens arbetsblad',
+      'sälja PDF-arbetsblad online',
     ],
-    titleTag: 'Starta printables-verksamhet (2026) | LessonCraftStudio',
-    metaDescription: 'Så startar du ett utskriftsbart företag från grunden. Steg-för-steg-guide för Etsy-, Amazon KDP- och Gumroad-säljare som använder arbetsbladsgenratorer.',
+    titleTag: 'Starta printable-verksamhet: komplett guide | LCS',
+    metaDescription: 'Steg-för-steg-guide till att starta en printable-verksamhet. Välj nisch, skapa professionella arbetsblad och sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Den kompletta guiden till att starta ett utskriftsbart företag',
-    tagline: 'Från noll till din första försäljning — allt du behöver veta om att bygga ett utskriftsbart arbetsbladsföretag',
+    title: 'Komplett guide: starta din printable-verksamhet',
+    tagline: 'Från noll till första försäljningen — allt du behöver för att bygga ett lönsamt arbetsbladsföretag',
     description: 'Denna guide leder dig genom varje steg i att lansera ett utskriftsbart arbetsbladsföretag. Du kommer att lära dig hur du väljer en lönsam nisch, skapar professionella produkter utan designkunskaper, listar på rätt plattformar, prissätter för vinst och bygger en katalog som genererar konsekvent försäljning. Oavsett om du planerar att sälja på Etsy, Amazon KDP, Gumroad eller din egen webbplats — detta är startpunkten.',
   },
 

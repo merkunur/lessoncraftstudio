@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sälja skapa mönsterblad online hur',
+    primaryKeyword: 'skapa mönsterövningar att skriva ut förskola',
     secondaryKeywords: [
-      'mönsterigenkänning arbetsblad för barn',
-      'mönsterarbetsblad generator',
-      'utskriftsklara mönsterarbetsblad att sälja',
-      'visuella mönsteraktiviteter för förskola',
+      'mönsterigenkänning arbetsblad barn att skriva ut',
+      'mönsterarbetsblad generator PDF förskoleklass',
+      'sälja mönsterarbetsblad Etsy printable förskola',
+      'Amazon KDP pysselbok mönsterigenkänning barn',
     ],
     lsiKeywords: [
-      'AB mönsterarbetsblad förskola',
-      'bildbaserade mönsterigenkänning',
-      'förskoleklass mönsterkomplettering',
-      'sälja mönsterarbetsblad på Etsy',
-      'Amazon KDP mönsteraktivitetsböcker',
-      'kommersiell licens arbetsbladsverktyg',
+      'AB ABC ABCD mönsterarbetsblad förskola lågstadiet',
+      'bildbaserade mönsterigenkänning visuellt universellt',
+      'förskoleklass mönsterkomplettering flerval tom ruta',
+      'sälja mönsterarbetsblad Etsy printable digitala produkter',
+      'Amazon KDP pysselbok mönsteraktivitetsbok barn',
+      'kommersiell licens arbetsbladsverktyg facit 9 typer',
     ],
-    titleTag: 'Mönsterblad att sälja online | LessonCraftStudio',
-    metaDescription: 'Skapa mönsterarbetsblad med 9 typer, tematiska bilder, automatiska facit och 2 frågeformat. Exportera tryckfärdiga PDF att sälja på Etsy, Amazon KDP och.',
+    titleTag: 'Skapa mönsterövningar att skriva ut | LCS',
+    metaDescription: 'Skapa mönsterarbetsblad att skriva ut med 9 mönstertyper, tematiska bilder och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar mönsterigenkänningsarbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska, tryckfärdiga mönsterigenkänningsarbetsblad du kan sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa mönsterövningar att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa mönsterigenkänningsarbetsblad med 9 typer, tematiska bilder och automatiskt facit för Etsy, Amazon KDP och Gumroad',
     description: 'Mönsterigenkänning är en av de mest grundläggande förmattematiska färdigheterna barn utvecklar, och arbetsblad som lär detta är i konstant efterfrågan. Denna guide leder dig genom hela skapandeprocessen med Mönsterarbetsblad-generatorn — från att välja mönstertyper och frågeformat till att exportera tryckfärdiga PDF:er med automatiska facit. Med 9 distinkta mönstertyper som sträcker sig från enkla AB-sekvenser till komplexa ABCD-mönster kan du skapa produkter för alla åldrar från förskola genom tidig grundskola.',
   },
 

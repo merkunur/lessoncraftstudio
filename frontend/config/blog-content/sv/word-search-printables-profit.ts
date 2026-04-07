@@ -2,15 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ordsök utskrifter ger vinst guide skapar lönsam verksamhet',
-    secondaryKeywords: ['saelj ordsoek arbetsblad Etsy', 'ordsoek-boecker Amazon KDP', 'utskrivbara ordsoek foeretagande'],
-    lsiKeywords: ['ordsoek generator', 'ordpussel utskrifter', 'digitala ordsoek produkter'],
-    titleTag: 'Ordsök-Utskrifter som Ger Vinst: Guide | LCS',
-    metaDescription: 'Lär dig hur ordsök-utskrifter kan bli en lönsam verksamhet. Strategier för Etsy och KDP med prissättning i SEK. Testa gratis provversion.',
+    primaryKeyword: 'ordsök printables vinst på Etsy',
+    secondaryKeywords: [
+      'sälja ordsök arbetsblad Etsy KDP',
+      'ordsöksbok Amazon KDP publicera',
+      'ordpussel printables lönsam nisch',
+    ],
+    lsiKeywords: [
+      'ordsök generator temapaket snabbt',
+      'ordpussel barn vuxna SFI alla åldrar',
+      'digitala ordsök produkter prissättning',
+    ],
+    titleTag: 'Ordsök-Printables: Vinst på Etsy & KDP',
+    metaDescription: 'Ordsök-printables säljer till alla åldrar. Strategier för Etsy och KDP med prissättning. Lönsam nisch med bred målgrupp.',
   },
   hero: {
-    title: 'Ordsök-Utskrifter: Så Skapar du en Lönsam Verksamhet',
-    tagline: 'Ordsök säljer till alla åldrar — från förskoleklass till pensionärer',
+    title: 'Ordsök-Printables: Så Skapar du Vinst',
+    tagline: 'Ordsök säljer till alla åldrar — förskoleklass till pensionärer',
     description: 'Ordsök är en av de mest mångsidiga utskriftsprodukterna på marknaden. Barn i grundskolan använder dem för att lära sig stavning, föräldrar köper dem som underhållning under resor, och äldre vuxna använder dem för kognitiv träning. Denna breda målgrupp gör ordsök till en unik produkt som säljer året runt med verkliga strategier för den svenska marknaden.',
   },
   category: 'product-guide',

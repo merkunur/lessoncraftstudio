@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables vinter för Etsy | LessonCraftStudio',
-    metaDescription: 'Upptäck vinter utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Kallvädersproduktkoncept med stark november-februari-efterfrågan för arbetsblad.',
+    titleTag: 'Vintertema printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj vintertema printables på Etsy och KDP. Produktidéer med snögubbe, snöflinga och pingvin för pysselbok och arbetsblad.',
 
-    primaryKeyword: 'printables vinter att sälja på Etsy',
+    primaryKeyword: 'vintertema printables att sälja',
     secondaryKeywords: [
-      'vinter arbetsblad att sälja',
-      'vintertema utskriftsbart företag',
-      'vinter aktivitetsblad för säljare',
-      'sälja vinter utskriftsbara på Etsy',
+      'vinter arbetsblad Etsy',
+      'vintertema pysselbok KDP',
+      'snögubbe snöflinga printables barn',
+      'vinterpyssel aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'snö och is pedagogiska arbetsblad',
-      'kallväder aktivitetssidor',
-      'säsongsbetonade vintertema utskriftsbara',
+      'vintertema uppgifter förskoleklass',
+      'vinter arbetsblad lågstadiet',
+      'snö och is pyssel barn att skriva ut',
     ],
   },
   hero: {
-    title: 'Vinter utskriftsbara affärsidéer för säljare',
+    title: 'Vintertema printables — produktidéer för säljare',
     description: 'Vintern öppnar ett brett försäljningsfönster från november till februari när köpare söker säsongsbetonade teman efter jul, föräldrar söker inomhusinlärningsaktiviteter under kalla månader och hemundervisande familjer letar efter säsongsbetonad variation bortom decembers julrush. Vinternischen erbjuder rik mångfald av underämnen inklusive snöflingor, snögubbar, pingviner, vantar, igloor, isbjörnar, kälkar, varm choklad, istappar och frost, vilket ger säljare ett visuellt distinkt ordförråd som står apart från julspecifika produkter. Daghem och fritidsverksamhet behöver strukturerade inomhusaktiviteter när utomhuslek blir begränsad, vilket skapar stabil efterfrågan under de kallaste månaderna. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad representerar vintern en icke-konfessionell säsongsbetonad nisch med förutsägbar årlig efterfrågan och mysigt kallväderbildspråk som resonerar med köpare från olika bakgrunder. Denna guide täcker specifika produktidéer, plattformsstrategier och timingmetoder för att hjälpa dig bygga en lönsam utskriftbar vinterproduktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara vinterprodukter intar en unikt fördelaktig position i den säsongsbetonade säljkalendern eftersom den levererar ihållande efterfrågan över ett fyramånadersfönster utan den intensiva konkurrens som klustras kring specifika helgdagar som jul eller alla hjärtans dag. Köpare återvänder från jullovet i januari med behov av färska säsongsbetonade teman som upprätthåller engagemang under den långa sträckan före våren, och vinterbildspråk ger ett naturligt, marknadsvänligt alternativ som fungerar i varje skolmiljö oavsett kulturella eller religiösa överväganden. Föräldrar som möter veckor av kallt väder och begränsad utomhuslek söker aktivt pedagogiska inomhusaktiviteter som håller barn lärande och underhållna, vilket gör vinterarbetsblad till ett praktiskt köp snarare än en säsongsbetonad lyx.

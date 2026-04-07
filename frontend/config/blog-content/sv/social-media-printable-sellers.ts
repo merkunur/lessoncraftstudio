@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sociala medier utskriftsfoersaeljare',
+    primaryKeyword: 'sociala medier printable-säljare strategi',
     secondaryKeywords: [
-      'optimering för framgång',
-      'tillväxtstrategier',
-      'mäta förbättra resultat',
+      'Pinterest Instagram printable-butik marknadsföring',
+      'driva trafik Etsy sociala medier',
+      'TikTok marknadsföring digitala produkter',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'visuellt innehåll printable-marknadsföring',
+      'sociala medier ROI Etsy-säljare',
+      'Instagram reels printables innehållsstrategi',
     ],
-    titleTag: 'Sociala Medier för Utskriftssäljare | LCS',
-    metaDescription: 'Sociala medier-strategier för utskriftssäljare. Vilka plattformar ger bäst ROI och hur du skapar engagerande innehåll.',
+    titleTag: 'Sociala Medier för Printable-Säljare',
+    metaDescription: 'Sociala medier-strategier för printable-säljare. Pinterest, Instagram och TikTok. Vilken kanal ger bäst ROI?',
   },
   hero: {
-    title: 'Sociala Medier för Utskriftssäljare',
-    tagline: 'Instagram, Pinterest och TikTok — vilken kanal fungerar?',
+    title: 'Sociala Medier för Printable-Säljare',
+    tagline: 'Pinterest, Instagram och TikTok — vilken kanal ger bäst ROI?',
     description: 'Pinterest är överlägset bäst för utskriftssäljare, följt av Instagram. TikTok växer men kräver videoinehåll. Fokusera på visuellt innehåll.',
   },
   category: 'platform-strategy',

@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'välja nisch för printables 2026 nischvalsguide utskriftsbara företag',
+    primaryKeyword: 'välja nisch printables att sälja',
     secondaryKeywords: [
-      'nischforskning utskriftsbara produkter',
-      'lönsamma utskriftsbara nischer',
-      'hur man väljer en utskriftsbar nisch',
-      'arbetsblad nischstrategi',
+      'nischval utskriftsbara produkter Etsy',
+      'lönsamma nischer arbetsblad sälja',
+      'hitta nisch pysselbok Amazon KDP',
+      'printable-verksamhet nischstrategi 2026',
     ],
     lsiKeywords: [
       'marknadsefterfrågan nischlönsamhet målgrupp nischvalidering',
       'vintergröna nischer säsongsnischer underservade marknader konkurrensanalys',
-      'nischexpansion angränsande nischer årskursexpansion ämnesexpansion',
-      'publikbehov köparpersonas kundsegment nischpositionering',
-      'nischstackning multinischstrategi nischdjup produkt-marknads-passning',
-      'nyckelordsefterfrågan sökvolym marknadstrender köparavsiktssignaler',
+      'förskoleklass lågstadiet mellanstadiet åldersanpassad nisch',
+      'Etsy sökvolym Amazon KDP kategori marknadsgap',
+      'nischstackning produkt-marknads-passning köparavsikt söktermer',
+      'pysselbok pusselbok aktivitetsbok arbetsblad skriva ut',
     ],
-    titleTag: 'Välja nisch för printables (2026) | LessonCraftStudio',
-    metaDescription: 'Nischval för utskriftsbara företag: undersök efterfrågan, analysera konkurrens, utvärdera lönsamhet, validera innan du satsar och planera expansion. Prova.',
+    titleTag: 'Välja nisch för printables att sälja | LCS',
+    metaDescription: 'Välj rätt nisch för din printable-verksamhet. Undersök efterfrågan, analysera konkurrens på Etsy och KDP, validera lönsamhet och planera expansion steg för steg.',
   },
 
   hero: {
-    title: 'Nischvalsguide för utskriftsbara företag',
+    title: 'Välj rätt nisch för dina printables',
     tagline: 'Ett komplett ramverk för att välja, validera och planera kring rätt nisch för ditt utskriftsbara företag — inklusive varför nischval avgör framgång, identifiera dina startfördelar, undersöka marknadsefterfrågan, analysera konkurrens, utvärdera lönsamhet, validera innan du satsar, välja mellan vintergröna och säsongsbetonade nischer och planera din expansionsstrategi',
     description: 'Skillnaden mellan säljare av utskriftsbara produkter som bygger hållbara företag och de som kämpar i åratal handlar ofta om ett enda tidigt beslut: nischval. Att välja rätt nisch bestämmer din publik, din prissättningskraft, din konkurrensnivå och din långsiktiga tillväxtpotential. Denna guide ger ett systematiskt ramverk för att utvärdera, välja och validera en utskriftsbar nisch — oavsett om du säljer på Etsy, Amazon KDP, Gumroad, Gumroad eller någon annan plattform.',
   },

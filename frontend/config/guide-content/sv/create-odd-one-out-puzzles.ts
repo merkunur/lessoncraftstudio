@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hitta udda bilden pussel skapar sälja',
+    primaryKeyword: 'skapa hitta udda bilden att skriva ut',
     secondaryKeywords: [
-      'skapa hitta udda bilden-pussel att sälja',
-      'visuell diskriminering arbetsblad generator',
-      'utskriftsbar hitta udda bilden-generator kommersiellt bruk',
-      'hitta den annorlunda pussel för Etsy och KDP',
+      'hitta udda bilden pussel generator att skriva ut',
+      'visuell diskriminering arbetsblad barn PDF',
+      'sälja hitta udda bilden Etsy printable pussel',
+      'Amazon KDP pysselbok hitta den annorlunda',
     ],
     lsiKeywords: [
-      'dubbelt läge identisk liknande hitta udda generator',
-      'per-övning lägesöverstyrning visuella pussel',
-      'automatiskt facit röd cirkel arbetsblad-generator',
-      'sälja hitta udda bilden arbetsblad på Etsy',
-      'Amazon KDP visuell diskriminering arbetsböcker',
-      'kommersiell licens hitta udda bilden verktyg',
+      'identiskt liknande läge hitta udda generator',
+      'per-övning överstyrning visuella pussel barn',
+      'automatiskt facit röd cirkel diskriminering',
+      'sälja hitta udda bilden Etsy printable digitala',
+      'Amazon KDP pysselbok visuell diskriminering logik',
+      'kommersiell licens hitta udda bilden verktyg facit',
     ],
-    titleTag: 'Skapa hitta udda bilden-pussel att sälja | LCS',
-    metaDescription: 'Skapa hitta udda bilden-arbetsblad med Identiskt och Liknande läge, per-övning överstyrning och automatiskt facit. Steg-för-steg-guide för Etsy och KDP.',
+    titleTag: 'Skapa hitta udda bilden att skriva ut | LCS',
+    metaDescription: 'Skapa hitta udda bilden-arbetsblad att skriva ut med Identiskt och Liknande läge och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar Hitta udda bilden-pussel',
-    tagline: 'En steg-för-steg-guide för att skapa visuella diskrimineringsarbetsblad med dubbla genereringslägen, per-övning-överstyrningar, autogenererade facit med röda cirkelmarkörer, och helt visuella pussel du kan sälja världen över på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa hitta udda bilden-pussel att skriva ut',
+    tagline: 'Steg-för-steg: skapa visuella diskrimineringsarbetsblad med dubbla lägen, automatiskt facit och helt visuella pussel för Etsy, Amazon KDP och Gumroad',
     description: 'Hitta udda bilden-pussel är bland de mest universellt tillgängliga pedagogiska aktiviteterna eftersom de inte kräver läsning, språkförståelse eller mattkunskaper. användare tittar på fyra bilder och identifierar den som inte hör hemma. Detta helt visuella format gör arbetsbladen säljbara i alla länder utan översättning. Denna guide leder dig genom hela skapandeprocessen med Hitta Udda Bilden Arbetsblad-generatorn — från att välja mellan Identiskt och Liknande genereringsläge till att konfigurera per-övning-överstyrningar, generera automatiska facit med röda cirkelmarkörer och exportera produktionsklara filer.',
   },
 

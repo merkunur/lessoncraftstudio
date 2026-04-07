@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'matchningsarbetsblad smaabarnsmarknad',
+    primaryKeyword: 'sälja matchningsblad småbarn Etsy',
     secondaryKeywords: [
-      'produkttyper säljer bäst',
-      'skapa professionella produkter snabbt',
-      'listnings marknadsföringsstrategi',
+      'matchning arbetsblad 2-5 år printable',
+      'småbarnsaktiviteter skriva ut PDF',
+      'matchningsövningar förskola sälja',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'första aktiviteter småbarn printable',
+      'visuell matchning utveckling barn',
+      'enkel arbetsbladstyp hög efterfrågan',
     ],
-    titleTag: 'Matchningsarbetsblad: Småbarnsmarknaden | LCS',
-    metaDescription: 'Matchningsarbetsblad för småbarn och förskolebarn säljer starkt. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Matchningsblad för Småbarn på Etsy | LCS',
+    metaDescription: 'Matchningsarbetsblad för barn 2-5 år säljer starkt på Etsy. Enkel produkt med hög efterfrågan. Guide för nya säljare.',
   },
   hero: {
-    title: 'Matchningsarbetsblad: Småbarnsmarknaden',
-    tagline: 'Matchning är den perfekta första aktiviteten för småbarn',
+    title: 'Sälj Matchningsblad: Småbarnsmarknaden',
+    tagline: 'Matchning är den perfekta första printable-produkten',
     description: 'Matchningsarbetsblad är den enklaste arbetsbladstypen men har enorm efterfrågan. Föräldrar till barn 2-5 år söker dessa aktivt.',
   },
   category: 'product-guide',

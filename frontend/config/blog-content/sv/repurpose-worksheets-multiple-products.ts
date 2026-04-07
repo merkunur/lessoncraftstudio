@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'aateranvaend arbetsblad flera produkter',
+    primaryKeyword: 'återanvänd arbetsblad flera produkter Etsy',
     secondaryKeywords: [
-      'steg för steg guide',
-      'vanliga misstag undvika',
-      'avancerade tips',
+      'multiplicera intäkter samma arbetsblad',
+      'temapaket megapaket KDP bok strategi',
+      'paketera om printables fler listningar',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'produktlinje arbetsblad Etsy-butik',
+      'samma innehåll flera format sälja',
+      'arbetsblad enskilt paket bok KDP',
     ],
-    titleTag: 'Återanvänd Arbetsblad i Flera Produkter | LCS',
-    metaDescription: 'Maximera värdet av varje arbetsblad genom att återanvända dem i flera produktformat. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Återanvänd Arbetsblad i Flera Produkter',
+    metaDescription: 'Multiplicera intäkterna: samma arbetsblad som enstaka, temapaket, megapaket och KDP-bok. Så paketerar du om printables.',
   },
   hero: {
     title: 'Återanvänd Arbetsblad i Flera Produkter',
-    tagline: 'Ett arbetsblad kan bli fem produkter',
+    tagline: 'Ett arbetsblad kan bli fem produkter och multiplicera intäkterna',
     description: 'Samma arbetsblad kan säljas enskilt, i temapaket, i årskurspaket, i megapaket och i KDP-böcker. Multiplicera dina intäkter utan extra produktionstid.',
   },
   category: 'how-to',

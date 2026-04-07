@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables SFI — Idéer verksamhet | LessonCraftStudio',
-    metaDescription: 'Upptäck utskriftsbara idéer för svenska som andraspråk att sälja på Etsy, Amazon KDP och Gumroad. Nischstrategier för säljare som riktar sig mot SvA-lärare och.',
+    titleTag: 'SFI och SvA printables att sälja | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj SFI- och SvA-printables på Etsy och Gumroad. Produktidéer för andraspråksundervisning, vokabulär och bildstöd att skriva ut.',
 
-    primaryKeyword: 'printables sfi idéer verksamhet svenska andraspråk utskriftsbara affärsidéer',
+    primaryKeyword: 'SFI printables att sälja',
     secondaryKeywords: [
-      'SvA arbetsblad att sälja',
-      'andraspråk utskriftsbart företag idéer',
-      'språkinlärning aktivitetsblad för säljare',
-      'sälja andraspråk utskriftsbara på Gumroad',
+      'SvA arbetsblad Etsy',
+      'svenska andraspråk printables',
+      'språkinlärning arbetsblad att sälja',
+      'bildstöd SFI att skriva ut',
     ],
     lsiKeywords: [
-      'andraspråksinlärning arbetsblad',
-      'flerspråkiga pedagogiska utskriftsbara produkter',
-      'SFI utskriftsbara aktivitetsresurser',
+      'andraspråksundervisning material',
+      'SFI vokabulär övningar',
+      'nyanlända arbetsblad skola',
     ],
   },
   hero: {
-    title: 'Svenska som andraspråk utskriftsbara affärsidéer för säljare',
+    title: 'SFI och SvA printables — produktidéer för säljare',
     description: 'Utskriftsbara produkter för svenska som andraspråk representerar en stor och växande global marknad där SvA-lärare, SFI-personal, privata handledare, språkskolor, samhällsorganisationer samt invandrar- och flyktingfamiljer köper vokabulärbyggande arbetsblad, visuellt stödda aktiviteter, stegvist övningsmaterial och konversationsstartresurser under hela kalenderåret. Populationer av andraspråkselever expanderar i skoldistrikt världen över när migrationsmönster skapar nya gemenskaper av elever som behöver kompletterande material designade specifikt för icke-modersmålstalare som lär sig akademiskt och vardagligt språk samtidigt. Andraspråksundervisning spänner över grundskoleprogram, vuxenutbildningscentrum, samhällets läsprogram, privata handledningssessioner och internationella språkskolor, där varje miljö köper olika typer av material anpassade till deras specifika elevdemografi och undervisningsmetoder. Köparbasen är unikt internationell eftersom andraspråksköpare kommer från dussintals länder runt om i världen, vilket skapar efterfrågan tvärs tidszoner och säsonger som isolerar denna nisch från de kalendersdrivna köpmönster som begränsar många pedagogiska utskriftsbara kategorier. Andraspråksinskrivning sker kontinuerligt under hela läsåret när familjer flyttar och nyanlända träder in i skolsystem, vilket genererar stabil efterfrågan på nyanlända-material, vokabulärbyggande resurser och stegvisa övningsaktiviteter som lärare behöver omedelbart snarare än vid förutsägbara produktplaneringsintervaller. Visuellt tunga och vokabulärfokuserade material uppnår stark prissättning i denna nisch eftersom språkelever på alla färdighetsnivåer behöver bildstödda resurser, märkta aktiviteter och förståelsestödstrukturer som säljare av allmänpedagogiska utskriftsbara produkter nästan aldrig inkluderar i sina standardarbetsbladsdesigner. Marknaden förblir djupt underservad relativt sin faktiska storlek eftersom majoriteten av säljare av utskriftsbara produkter fokuserar uteslutande på modersmålsmaterial, vilket lämnar andraspråksprofessionella och familjer sökande efter resurser som inkluderar förenklade instruktioner, visuella stöd, tvåspråksvänliga layouter och progressiv språksvårighet lämplig för nybörjar- genom avancerade färdighetsnivåer. För säljare av utskriftsbara produkter och entreprenörer som bygger produktlinjer på Etsy, Amazon KDP, Gumroad och direktförsäljningsplattformar kombinerar andraspråksnischen växande global efterfrågan med en underservad köparpopulation, års-runt-köpmönster, internationell marknadsräckvidd och starka professionella gemenskapsnätverk inom språkundervisningsorganisationer som driver upptäckt när produkter genuint adresserar de specialiserade behov som allmänpedagogiska utskriftsbara produkter konsekvent misslyckas med att möta. Denna guide täcker specifika produktidéer byggda kring våra arbetsbladsgenereringsverktyg, plattformsstrategier för att nå andraspråksköpare världen över, och nischpositioneringsmetoder för att hjälpa dig bygga en lönsam produktlinje för andraspråk.',
   },
   marketOverview: `Marknaden för utskriftsbara produkter för andraspråk representerar en omfattande och expanderande intäktsmöjlighet eftersom populationer av andraspråkselever växer snabbt i länder världen över medan internationell efterfrågan från språkskolor och handledare tillför en global köpardimension som de flesta pedagogiska utskriftsbara nischer helt saknar. Skoldistrikt rapporterar ökande andraspråksinskrivning när immigration och flyktingmottagningsmönster medför familjer vars barn träder in i skolsystem och behöver intensivt språkstöd parallellt med sin akademiska undervisning. Vuxenutbildningsprogram för andraspråk expanderar samtidigt när kommunala utbildningscentrum, arbetsmarknadsutvecklingsorganisationer, flyktingmottagningsbyråer och samhällets läsprogram betjänar växande populationer av vuxna språkelever som behöver praktisk vokabulär, arbetsplatsrelaterat språk och vardagliga språkfärdigheter. Denna kombination av institutionell efterfrågan inom skola, vuxenutbildningsköp och internationell köparräckvidd skapar flera överlappande marknadssegment som säljare av utskriftsbara produkter kan rikta sig mot med nivåindelade produktlinjer.

@@ -2,25 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis hemlig kod mattepussel',
+    primaryKeyword: 'kodknäckare matteuppgift gratis online',
     secondaryKeywords: [
-      'kodpussel matte gratis online',
-      'kodknäckar arbetsblad skapa gratis',
-      'hemlig kod mattepussel skriva ut gratis',
-      'gratis mattepussel med hemlig kod',
+      'hemligt meddelande matte gratis',
+      'koduppgifter matematik gratis skriva ut',
+      'hemlig kod plusstycken gratis',
+      'mattegåta gratis online',
     ],
     lsiKeywords: [
-      'gratis kodknäckningspussel matte',
-      'Avslöja Ord mattepussel online',
-      'kryptaritmetik arbetsblad gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'kod',
+      'hemligt meddelande',
     ],
-    titleTag: 'Kodpussel matte gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa kodknäckande mattepussel gratis online. Bildchiffer med addition, Avslöja Ord-läge, 11 språk. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Kodknäckare matteuppgift gratis online | Generator',
+    metaDescription: 'Skapa kodknäckar-matteuppgifter gratis online. Hemliga meddelanden med plusstycken, temabilder, facit. Ingen registrering.',
   },
 
   hero: {
-    title: 'Gratis hemlig kod mattepussel online',
-    tagline: 'Skapa kodknäckningspussel med matte — gratis provversion med vattenmärke',
+    title: 'Kodknäckare matteuppgift gratis online — Hemliga meddelanden',
+    tagline: 'Skapa kodknäckar-matteuppgifter gratis med hemliga meddelanden — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Inte bara ett additions arbetsblad — det är en kodknäckningsutmaning, helt gratis att testa online. Varje pussel gömmer siffror bakom bildsymboler. I Avslöja Ord-läget avslöjar varje löst ekvation en bokstav i ett hemligt ord. Välj bland mer än 100 bildteman, stöd för 11 språk med svenska å, ä, ö. Perfekt för föräldrar som söker engagerande mattepussel, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

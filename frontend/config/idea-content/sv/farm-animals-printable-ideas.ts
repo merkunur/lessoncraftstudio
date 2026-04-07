@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables bondgårdsdjur för Etsy | LessonCraftStudio',
-    metaDescription: 'Upptäck lönsamma bondgårdsdjur utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Produktkoncept, prissättningsstrategier och plattformstips för.',
+    titleTag: 'Bondgårdsdjur printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj bondgårdsdjur printables på Etsy och KDP. Produktidéer med ko, höna och gris för pysselbok och arbetsblad förskoleklass.',
 
-    primaryKeyword: 'printables bondgårdsdjur att sälja',
+    primaryKeyword: 'bondgårdsdjur printables att sälja',
     secondaryKeywords: [
-      'bondgårdsdjur arbetsblad att sälja',
-      'bondgårdstema utskriftsbart företag',
-      'bondgård aktivitetsblad för säljare',
-      'sälja bondgård utskriftsbara på Etsy',
+      'bondgårdstema arbetsblad Etsy',
+      'bondgårdsdjur pysselbok KDP',
+      'lantgård printables barn',
+      'bondgård aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'bondgårdstema pedagogiska arbetsblad',
-      'lantbruksaktiviteter för barn',
-      'husdjurstema grupp utskriftsbara',
+      'bondgård uppgifter förskoleklass',
+      'djurtema arbetsblad lågstadiet',
+      'lantbruk pyssel barn att skriva ut',
     ],
   },
   hero: {
-    title: 'Bondgårdsdjur utskriftsbara affärsidéer för säljare',
+    title: 'Bondgårdsdjur printables — produktidéer för säljare',
     description: 'Bondgårdsdjur förblir ett av de mest pålitliga temana på marknaden för pedagogiska utskriftsbara produkter. Från småbarn som lär sig räkna ladugårdsdjur till tidiga läsare som spårar ordet "kyckling" — denna nisch attraherar föräldrar, köpare och hemundervisare året runt. För säljare av utskriftsbara produkter erbjuder bondgårdstemat en sällsynt kombination av ständigt relevant efterfrågan, bred åldersappeal och starka säsongsbetonade toppar under vår och höstens skörd. Oavsett om du säljer på Etsy, Amazon KDP eller Gumroad representerar utskriftsbara bondgårdsdjurprodukter en beprövad nisch med utrymme för kreativ differentiering. Denna guide leder dig genom specifika produktidéer, plattformsstrategier och prissättningsmetoder för att hjälpa dig bygga en lönsam bondgårdstematiserad utskriftbar produktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara bondgårdsdjur befinner sig i skärningspunkten mellan två kraftfulla köpmotivationer: pedagogiskt värde och tematisk attraktionskraft. Föräldrar som söker efter bondgårdstematiserade arbetsblad letar vanligtvis efter engagerande sätt att lära ut grundläggande färdigheter som räkning, bokstavsigenkänning, ordförrådsbyggande och finmotorik. Köpare söker gruppfärdiga resurser som överensstämmer med vanliga enheter om bondgårdar och livsmedelsproduktion för tidig barndom.

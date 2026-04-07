@@ -2,22 +2,22 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'alla hjaertans dag utskrifter saelj',
+    primaryKeyword: 'alla hjärtans dag printables sälja Etsy',
     secondaryKeywords: [
-      'produkter säljer denna nisch',
-      'skapandeprocess verktyg',
-      'marknadsföring säsongsplanering',
+      'valentins dag arbetsblad barn skriva ut',
+      'hjärttema pysselblad printable februari',
+      'alla hjärtans dag aktivitetsblad KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'hjärttema pyssel förskoleklass ladda ner',
+      'valentinprintables säsongsprodukt Etsy',
+      'februari försäljningstopp printable-butik',
     ],
-    titleTag: 'Alla Hjärtans Dag-Utskrifter: Sälj | LCS',
-    metaDescription: 'Alla hjärtans dag-utskrifter säljer starkt i januari-februari. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Alla Hjärtans Dag Printables: Sälj Etsy',
+    metaDescription: 'Alla hjärtans dag-printables säljer starkt januari-februari. Hjärttema och barnaktiviteter. Kort men lönsam säsong.',
   },
   hero: {
-    title: 'Alla Hjärtans Dag-Utskrifter: Sälj',
+    title: 'Alla Hjärtans Dag: Sälj Printables',
     tagline: '14 februari ger en kort men lönsam försäljningstopp',
     description: 'Alla hjärtans dag den 14 februari är populärt i Sverige. Barnaktiviteter med hjärtteman och romantiska utskrifter säljer bra.',
   },

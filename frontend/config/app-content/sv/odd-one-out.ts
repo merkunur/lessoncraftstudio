@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'vilken hör inte hemma-blad att sälja på Etsy och KDP',
+    primaryKeyword: 'vilken hör inte hemma uppgift skriva ut',
     secondaryKeywords: [
-      'hitta udda bilden pussel för Etsy-säljare',
-      'vilken hör inte hemma generator för Amazon KDP',
-      'udda bilden arbetsblad kommersiell licens',
-      'hitta den annorlunda att sälja online',
-      'visuell diskrimineringsbok att publicera på KDP',
+      'hitta inkräktaren uppgift',
+      'klassificering uppgiftsblad',
+      'logiskt tänkande uppgifter',
+      'vad passar inte',
     ],
     lsiKeywords: [
-      'passiv inkomst udda bilden',
-      'printables-verksamhet visuell diskriminering',
-      'hitta den annorlunda produktlinje',
-      'svenska marknaden udda bilden Etsy',
+      'vilken hör inte hemma',
+      'inkräktare',
+      'logik',
+      'klassificering',
+      'förskoleklass',
     ],
-    titleTag: 'Vilken hör inte hemma för Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa vilken hör inte hemma-blad att sälja på Etsy och KDP. Identisk och Liknande lägen, facit med röda cirklar, 104 teman. $49 engångsbetalning.',
+    titleTag: 'Vilken hör inte hemma? uppgift att skriva ut | Logikgenerator',
+    metaDescription: 'Skapa "vilken hör inte hemma?"-uppgifter med temabilder för logiskt tänkande. Automatiskt facit. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa vilken hör inte hemma-blad att sälja på Etsy och KDP',
-    tagline: 'Två genereringslägen — Identisk och Liknande — med facit med röda cirkelmarkeringar och visuella pussel som fungerar globalt utan översättning.',
+    title: 'Vilken hör inte hemma? uppgift att skriva ut — Logikgenerator',
+    tagline: 'Skapa "vilken hör inte hemma?"-uppgifter med temabilder för logiskt tänkande — prova gratis med vattenmärke.',
     description:
       'Skapa hitta-den-annorlunda arbetsblad att sälja på Etsy eller sammanställa i kritiskt tänkande-arbetsböcker för Amazon KDP. Köparna identifierar och ringar in det udda objektet i varje rad av fyra bilder. Identiskt läge för hitta-skillnaden-utmaningar, Liknande läge för temaövergripande diskrimineringspussel. Konfigurera 5–10 övningar per sida. Arbetsbladen är helt visuella — säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit med röda cirklar ingår. Vilken hör inte hemma-blad är ett populärt format bland föräldrar till förskolebarn och säljer konsekvent. Den svenska marknaden saknar denna produkttyp på Etsy. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

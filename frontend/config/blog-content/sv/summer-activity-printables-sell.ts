@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sommaraktivitets utskrifter sälj',
+    primaryKeyword: 'sommaraktiviteter printables sälja Etsy',
     secondaryKeywords: [
-      'sommaraktivitets-utskrifter sälj Etsy',
-      'sommaraktivitets-utskrifter sälj foeretagande',
-      'utskrifter sommaraktivitets-utskrifter sälj',
+      'sommarlov arbetsblad barn skriva ut',
+      'sommarglömska förhindra pysselblad printable',
+      'sommaraktivitet utomhus aktivitetsbok KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'sommarlov Sverige 10 veckor aktiviteter',
+      'skärmfria sommaraktiviteter barn ladda ner',
+      'säsongsprodukt sommar printable-butik',
     ],
-    titleTag: 'Sommaraktivitets-Utskrifter: Sälj | LCS',
-    metaDescription: 'Sommaraktivitets-utskrifter som arbetsblad, pussel och utomhuslekar att sälja på Etsy & KDP med kommersiell licens. Skapa och sälj sommaraktiviteter.',
+    titleTag: 'Sommaraktiviteter: Sälj Printables på Etsy',
+    metaDescription: 'Sälj sommaraktivitets-printables. 10 veckor sommarlov skapar stor efterfrågan. Arbetsblad, pussel och utomhuslekar.',
   },
   hero: {
-    title: 'Sommaraktivitets-Utskrifter: Sälj',
-    tagline: 'Föräldrar behöver aktiviteter under sommarlovet',
+    title: 'Sommaraktiviteter: Sälj Printables',
+    tagline: '10 veckors sommarlov skapar enorm efterfrågan',
     description: 'Sommarlovet i Sverige är 10 veckor. Föräldrar söker aktiviteter som förhindrar sommarglömska och håller barnen engagerade.',
   },
   category: 'niche-seasonal',

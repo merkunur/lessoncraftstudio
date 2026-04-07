@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bästa utskrifterna sälja till jul utskrifter',
+    primaryKeyword: 'sälja julprintables på Etsy',
     secondaryKeywords: [
-      'bästa utskrifterna sälja Etsy',
-      'bästa utskrifterna foeretagande',
-      'utskrifter bästa utskrifterna',
+      'jul arbetsblad skriva ut sälja',
+      'Lucia adventskalender printables',
+      'julpyssel utskrifter affärsidé',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'säsongsprodukter jul november',
+      'svenska jultraditioner arbetsblad',
+      'advent aktivitetsbok barn',
     ],
-    titleTag: 'Bästa Utskrifterna att Sälja till Jul | LCS',
-    metaDescription: 'Julutskrifter är årets mest lönsamma period. Lucia, advent och jul ger svenska säljare unika möjligheter.',
+    titleTag: 'Sälj Julprintables på Etsy: Bästa Tipsen | LCS',
+    metaDescription: 'Julperioden ger 40% av årsintäkten. Lucia, advent och julpyssel-printables säljer enormt. Guide för svenska Etsy-säljare.',
   },
   hero: {
-    title: 'Bästa Utskrifterna att Sälja till Jul',
-    tagline: 'November-december kan stå för 40% av din årsintäkt',
+    title: 'Sälj Julprintables: Årets Mest Lönsamma Period',
+    tagline: 'Lucia, advent och julpyssel kan ge 40% av din årsintäkt',
     description: 'I Sverige är Lucia den 13 december minst lika viktig som jul. Adventskalender-aktiviteter, Lucia-arbetsblad och julpyssel-utskrifter säljer enormt.',
   },
   category: 'niche-seasonal',

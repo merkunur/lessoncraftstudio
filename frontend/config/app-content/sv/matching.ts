@@ -2,27 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kopplingsblad att skapa och sälja på Etsy',
+    primaryKeyword: 'para ihop uppgifter skriva ut',
     secondaryKeywords: [
-      'matchnings arbetsblad för Etsy-säljare',
-      'kopplingsblad generator för Amazon KDP',
-      'dra-ett-streck arbetsblad kommersiell licens',
-      'matchningsaktiviteter att sälja online',
-      'kopplingsbok att publicera på KDP',
+      'matcha bilder uppgift',
+      'dra streck uppgift',
+      'koppla ihop uppgift',
+      'para ihop förskoleklass',
     ],
     lsiKeywords: [
-      'passiv inkomst matchningsblad',
-      'printables-verksamhet kopplingsövningar',
-      'flerspråkiga matchningsaktiviteter produktlinje',
-      'svenska marknaden kopplingsblad Etsy',
+      'matcha',
+      'dra streck',
+      'koppla',
+      'förskoleklass',
+      'lågstadiet',
+      'facit',
     ],
-    titleTag: 'Kopplingsblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa kopplingsblad att sälja på Etsy och KDP. 4 matchningslägen, automatiskt facit, 104 teman, 11 språk, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Para ihop uppgifter att skriva ut | Generator matchningslek',
+    metaDescription: 'Skapa para-ihop-uppgifter med temabilder för förskoleklass och lågstadiet. Automatiskt facit, 300 DPI PDF. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa kopplingsblad att sälja på Etsy och Amazon KDP',
-    tagline: 'Fyra matchningslägen i en generator — Begynnelsebokstav, Bild+Ord, Bild/Ord Blandat och Anpassat Ord — med automatiskt genererade facit och 104 tematiska bildsamlingar.',
+    title: 'Para ihop uppgifter att skriva ut — Generator matchningslek',
+    tagline: 'Skapa para-ihop-uppgifter med temabilder för förskoleklass och lågstadiet — prova gratis med vattenmärke.',
     description:
       'Skapa dra-ett-streck kopplingsblad att sälja på Etsy eller sammanställa i arbetsböcker för Amazon KDP. Fyra matchningslägen — Begynnelsebokstav, Bild+Ord, Bild/Ord Blandat och Anpassat Ord — ger dig flexibilitet att skapa unika produkter för varje åldersgrupp. Konfigurera 4, 5 eller 6 par per blad. Generatorn är språkkänslig: samma bilder producerar unika arbetsblad på 11 olika språk med lokaliserade ord och begynnelsebokstäver — varje språkversion blir en separat produkt. Automatiskt facit med kopplingslinjer ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Kopplingsblad är extremt populära bland föräldrar till förskolebarn och säljer konsekvent året runt. Den svenska marknaden saknar konkurrens för denna produkttyp. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'målarbilder för etsy kdp hur skapar från tematiska',
+    primaryKeyword: 'skapa målarbilder att skriva ut och sälja',
     secondaryKeywords: [
-      'målarbild-generator från bilder',
-      'utskriftsklara målarbilder att sälja',
-      'gråskale målarbild generator',
-      'anpassade målarblad för barn',
+      'målarbild generator tematiska bilder PDF',
+      'göra målarbilder att skriva ut Etsy',
+      'sälja målarbilder Amazon KDP målarbok',
+      'utskriftsbara målarblad barn vuxna skapa',
     ],
     lsiKeywords: [
-      'tematiska målarbilder för Etsy',
-      'målarbok sidor för Amazon KDP',
-      'fritt formgivna målarbild-designer',
-      'konvertera bilder till målarbilder',
-      'produktlinjes målaraktivitetsblad',
-      'kommersiell licens målarverktyg',
+      'tematiska målarbilder Etsy printable butik',
+      'målarbok Amazon KDP sidor gråskaleexport',
+      'fri arbetsyta designa målarbilder konvertera',
+      'frihandsritning textverktyg konturer skriva ut',
+      'kommersiell licens målarverktyg 104 teman',
+      'sälja målarbilder digitala nedladdningar Gumroad',
     ],
-    titleTag: 'Målarbilder för Etsy och KDP | LessonCraftStudio',
-    metaDescription: 'Hur du skapar målarbilder från 3 100+ tematiska bilder. Fri arbetsyta med gråskaleexport, frihandsritning och produktlinjeshjälpare. Sälj på Etsy och KDP.',
+    titleTag: 'Skapa målarbilder att skriva ut | LCS',
+    metaDescription: 'Skapa målarbilder att skriva ut med 3 100+ tematiska bilder och gråskaleexport. Designa med fri arbetsyta. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar målarbilder från tematiska bilder',
-    tagline: 'En steg-för-steg-guide för att designa anpassade målarbilder med en fri arbetsyta, 3 100+ tematiska bilder, frihandsritning och gråskaleexport med ett klick',
+    title: 'Skapa målarbilder att skriva ut och sälja',
+    tagline: 'Steg-för-steg: designa målarbilder med fri arbetsyta, 3 100+ tematiska bilder och gråskaleexport. Sälj på Etsy, Amazon KDP och Gumroad',
     description: 'Målarbilder är en av de mest sökta och köpta printable-produkterna på alla stora marknadsplatser. Föräldrar vill ha dem för offline, opluggade aktiviteter. säljare använder dem som produktlinjesuppvärmning och belöningsblad. Etsy-säljare bygger hela butiker kring tematiska målarbild-paket. Denna guide leder dig genom hela skapandeprocessen med Målarbild-generatorn — från att placera tematiska bilder på en fri arbetsyta till att aktivera gråskaleväxeln som konverterar din färgglada design till en ren, tryckfärdig målarbild.',
   },
 

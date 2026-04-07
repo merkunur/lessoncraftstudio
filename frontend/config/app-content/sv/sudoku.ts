@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'sudoku med bilder generator för KDP-böcker',
+    primaryKeyword: 'sudoku skriva ut',
     secondaryKeywords: [
-      'bildsudoku pussel att sälja på Etsy',
-      'bildsudoku generator för Amazon KDP',
-      'sudoku med bilder kommersiell licens',
-      'bildsudoku printables att sälja online',
-      'sudokubok att publicera på KDP',
+      'sudoku generator',
+      'sudoku barn skriva ut',
+      'sudoku med bilder',
+      'skapa egen sudoku',
     ],
     lsiKeywords: [
-      'passiv inkomst sudokublad',
-      'printables-verksamhet logikpussel',
-      'visuella sudoku produktlinje',
-      'svenska marknaden sudoku Etsy',
+      'sudoku',
+      'logik',
+      'rutnät',
+      'bilder',
+      'barn',
     ],
-    titleTag: 'Sudoku med bilder för KDP och Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa sudoku med bilder att sälja på Etsy och KDP. 4×4 rutnät, tre svårighetsnivåer, facit, 104 teman, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Sudoku att skriva ut | Generator med bilder',
+    metaDescription: 'Skapa sudoku med bilder eller siffror, justerbar svårighetsgrad. Automatiskt facit, utskrivbara PDF:er. Prova gratis — sälj på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Skapa sudoku med bilder att sälja på Etsy och Amazon KDP',
-    tagline: 'Visuella 4×4 sudokupussel med bilder istället för siffror — tre svårighetsnivåer och temabaserat bildval för pussel som säljer globalt utan översättning.',
+    title: 'Sudoku att skriva ut — Generator med bilder och justerbar svårighet',
+    tagline: 'Skapa sudoku med bilder för barn och justerbar svårighetsgrad — prova gratis med vattenmärke.',
     description:
       'Skapa bildsudoku att sälja på Etsy eller sammanställa i logikpusselböcker för Amazon KDP. 4×4 rutnät med bilder istället för siffror — samma regler som klassiskt sudoku, men visuellt tillgängligt för barn. Tre svårighetsnivåer: Lätt (4 tomma celler), Medel (6) och Svår (8). Bildsudoku är helt visuellt — fungerar globalt utan översättning, en enda produkt säljs på alla marknader. Välj bland mer än 3 100 illustrationer i 104 teman. Sudokuböcker för barn är en konsekvent populär nisch på KDP. Den svenska marknaden saknar bildsudoku-produkter på Etsy. Automatiskt facit med komplett fyllt rutnät ingår. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

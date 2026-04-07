@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'djurtema utskrifter saelj 2026',
+    primaryKeyword: 'sälja djur arbetsblad på Etsy',
     secondaryKeywords: [
-      'djur arbetsblad Etsy',
-      'saelj djurtema aktiviteter',
-      'djurpedagogiska utskrifter',
+      'djurtema printables affärsidé',
+      'skogsdjur pysselbok sälja',
+      'djur aktivitetsblad skriva ut',
     ],
     lsiKeywords: [
-      'djurarbetsblad vinst',
-      'tematiska djuraktiviteter',
-      'barnarbetsblad djur',
+      'evergreen nisch utskrifter',
+      'svenska skogsdjur övningar',
+      'bondgårdsdjur arbetsblad barn',
     ],
-    titleTag: 'Djurtema Utskrifter: Sälj Evergreen | LCS',
-    metaDescription: 'Djurtema utskrifter säljer året runt. Lär dig skapa och prissätta djurarbetsblad som barn älskar och föräldrar köper på Etsy 2026.',
+    titleTag: 'Sälj Djurtema Arbetsblad på Etsy 2026 | LCS',
+    metaDescription: 'Djurtema printables säljer året runt. Skogsdjur och husdjur är en evergreen-nisch på Etsy med låg konkurrens för svenska säljare.',
   },
   hero: {
-    title: 'Djurtema Utskrifter: En Evergreen-Nisch som Säljer',
-    tagline: 'Barn älskar djur — föräldrar köper djurmaterial året runt',
+    title: 'Djurtema Printables: Evergreen-Nisch som Säljer',
+    tagline: 'Skogsdjur, husdjur och bondgårdsdjur — efterfrågan som aldrig tar slut',
     description: 'Djurtema arbetsblad och aktiviteter är den mest tidlösa nischen inom utskriftsförsäljning. Oavsett säsong, trend eller ålder — djur engagerar barn. Denna guide visar hur du utnyttjar denna evergreen-marknad med produkter som säljer konsekvent på Etsy, med strategier anpassade för svenska säljare.',
   },
   category: 'product-guide',

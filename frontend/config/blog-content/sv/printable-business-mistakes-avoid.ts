@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'misstag utskriftsverksamhet undvika',
+    primaryKeyword: 'vanliga misstag printable-företag undvika',
     secondaryKeywords: [
-      'utskriftsverksamhet misstag undvika Etsy',
-      'utskriftsverksamhet misstag foeretagande',
-      'utskrifter utskriftsverksamhet misstag',
+      'nybörjarmisstag Etsy printable-säljare',
+      'printable-verksamhet tips undvik fallgropar',
+      'sälja printables misstag nybörjare',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'prissättning misstag Etsy-butik',
+      'dålig SEO printable-listningar',
+      'generiska produkter Etsy konkurrens',
     ],
-    titleTag: 'Utskriftsverksamhet: Misstag att Undvika | LCS',
-    metaDescription: 'De 10 vanligaste misstagen nya utskriftssäljare gör — och hur du undviker dem. Baserat på erfarenheter från hundratals säljare.',
+    titleTag: 'Printable-Företag: 10 Misstag att Undvika',
+    metaDescription: 'De 10 vanligaste misstagen nya printable-säljare gör och hur du undviker dem. Prissättning, SEO och nischval.',
   },
   hero: {
-    title: 'Utskriftsverksamhet: Misstag att Undvika',
-    tagline: 'Lär dig av andras misstag istället för dina egna',
+    title: 'Printable-Företag: Misstag att Undvika',
+    tagline: 'Lär dig av andras misstag och spara månader',
     description: 'Nya utskriftssäljare gör ofta samma misstag: för låga priser, generiska produkter, dålig SEO och brist på nischfokus.',
   },
   category: 'how-to',

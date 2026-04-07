@@ -2,27 +2,28 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'prepositionsblad för SFI att sälja på Etsy och Eduki',
+    primaryKeyword: 'rumsuppfattning uppgift skriva ut',
     secondaryKeywords: [
-      'prepositioner arbetsblad för Etsy-säljare',
-      'rumsligt språk arbetsblad för Amazon KDP',
-      'prepositionsblad SFI SVA kommersiell licens',
-      'prepositionsövningar att sälja online',
-      'språkarbetsbok att publicera på KDP',
+      'prepositioner övningar',
+      'ovanför under bredvid uppgift',
+      'lägesord uppgiftsblad',
+      'riktningsbegrepp förskoleklass',
     ],
     lsiKeywords: [
-      'passiv inkomst prepositionsblad',
-      'printables-verksamhet SFI-material',
-      'rumsligt ordförråd produktlinje',
-      'svenska marknaden prepositionsblad Etsy',
+      'prepositioner',
+      'rumsuppfattning',
+      'lägesord',
+      'ovanför',
+      'under',
+      'bredvid',
     ],
-    titleTag: 'Prepositionsblad SFI att sälja | LessonCraftStudio',
-    metaDescription: 'Skapa prepositionsblad för SFI att sälja på Etsy och Eduki. 8 prepositioner, ifyllning och flerval, 11 språk, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Rumsuppfattning uppgift att skriva ut | Prepositionsgenerator',
+    metaDescription: 'Skapa uppgifter om rumsuppfattning och prepositioner med temabilder. Automatiskt facit, 11 språk. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa prepositionsblad för SFI att sälja på Etsy och Eduki',
-    tagline: 'Åtta rumsliga prepositioner möter bild-och-form övningar — bygg rumsligt ordförråd, mening för mening.',
+    title: 'Rumsuppfattning uppgift att skriva ut — Prepositionsgenerator',
+    tagline: 'Skapa uppgifter om rumsuppfattning och prepositioner med temabilder — prova gratis med vattenmärke.',
     description:
       'Skapa prepositionsblad att sälja på Etsy, Eduki eller sammanställa i språkarbetsböcker för Amazon KDP. Åtta kärnprepositioner — i, på, under, bredvid, bakom, mellan, ovanför och framför — med ifyllningsövningar och flervalsfrågor. SFI-lärare i hundratals kommuner behöver ständigt nytt material för prepositioner — en B2B-marknad med hög betalningsvilja och kronisk brist på varierat material. Stöd för 11 språk med grammatiskt korrekta prepositioner multiplicerar din produktkatalog. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit och export i 400+ DPI ingår. Den svenska marknaden för prepositionsblad är i princip obefintlig på Etsy — en enorm outnyttjad möjlighet. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

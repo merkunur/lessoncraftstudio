@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis skuggkopplingsblad',
+    primaryKeyword: 'skugglek gratis skriva ut',
     secondaryKeywords: [
-      'skuggkopplingsblad gratis online',
-      'siluettmatchning arbetsblad skapa gratis',
-      'skuggpussel skriva ut gratis',
-      'gratis skuggmatchning med bilder',
+      'siluetter matcha gratis online',
+      'skuggmatchning gratis',
+      'skugg-parning gratis skriva ut',
+      'skugglek förskoleklass gratis',
     ],
     lsiKeywords: [
-      'gratis skuggmatchning online',
-      'siluettblad att skriva ut',
-      'skuggkoppling gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'skugga',
+      'siluett',
+      'matcha',
     ],
-    titleTag: 'Skuggkopplingsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa skuggkopplingsblad gratis online. Siluettmatchning och Gör Den Hel, autosiluetter, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skugglek gratis online | Siluettmatchningsgenerator',
+    metaDescription: 'Skapa skugglek-uppgifter gratis online med bilder och siluetter. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis skuggkopplingsblad online',
-    tagline: 'Siluettmatchning och Gör Den Hel med automatiskt facit — gratis provversion med vattenmärke',
+    title: 'Skugglek gratis online — Siluettmatchningsgenerator',
+    tagline: 'Skapa skugglek-uppgifter gratis med bilder och siluetter — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa skuggkopplingsblad — helt gratis att testa online. Skuggmatchning med autosiluetter och Gör Den Hel med delade bildhalvor. Fisher-Yates-derangering garanterar genuina matchningsutmaningar. Rent visuellt — universellt säljbart utan översättning. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker visuella matchningsövningar, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

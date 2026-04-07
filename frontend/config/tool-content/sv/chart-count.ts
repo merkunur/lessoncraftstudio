@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis räkne- och diagramblad',
+    primaryKeyword: 'räkneuppgifter och diagram gratis online',
     secondaryKeywords: [
-      'bilddiagram arbetsblad gratis online',
-      'diagramräkning arbetsblad skapa gratis',
-      'piktogram arbetsblad skriva ut gratis',
-      'gratis bilddiagram med facit',
+      'räkna och diagram gratis skriva ut',
+      'stapeldiagram uppgifter gratis',
+      'räkneuppgifter förskoleklass gratis',
+      'diagramuppgifter gratis online',
     ],
     lsiKeywords: [
-      'gratis diagramblad online',
-      'bilddiagram att skriva ut',
-      'räkne- och diagramövning gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'räkna',
+      'stapeldiagram',
+      'data',
     ],
-    titleTag: 'Räkne- och diagramblad gratis | LessonCraftStudio',
-    metaDescription: 'Skapa räkne- och diagramblad gratis online. Spridda 4×5 rutnät, 6 bildtyper, automatiskt facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Räkneuppgifter och diagram gratis online | Generator',
+    metaDescription: 'Skapa räkne- och diagramuppgifter gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis räkne- och diagramblad online',
-    tagline: 'Bilddiagram arbetsblad med spridda bildsrutnät och automatiskt facit — gratis provversion med vattenmärke',
+    title: 'Räkneuppgifter och diagram gratis online — Generator med temabilder',
+    tagline: 'Skapa räkne- och diagramuppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa bilddiagram arbetsblad — helt gratis att testa online. Användarna räknar spridda bilder och fyller i stapeldiagrammet. 4×5-rutnät med 20 ikoner från 6 bildtyper, automatiskt facit med gulmarkerade celler. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker diagramövningar, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

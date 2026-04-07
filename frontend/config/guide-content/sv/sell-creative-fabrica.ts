@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sälja utbildningsresurser Creative Fabrica',
+    primaryKeyword: 'sälja printables Creative Fabrica',
     secondaryKeywords: [
-      'hur man säljer på Creative Fabrica',
-      'Creative Fabrica för säljare',
-      'sälja printables på Creative Fabrica',
-      'Creative Fabrica Classroom resurser',
+      'Creative Fabrica arbetsblad säljare',
+      'sälja digitala produkter Creative Fabrica',
+      'Creative Fabrica Classroom pedagogiska resurser',
+      'tjäna pengar Creative Fabrica prenumeration',
     ],
     lsiKeywords: [
-      'designmarknadsplats hantverkspublik prenumerationsmodell digitala nedladdningar pedagogiska printables',
-      'Creative Fabrica Classroom-sektion lärarresurser arbetsblad uppladdning produktlistning',
-      'prenumerationspool intäkt enskilda försäljningar dubbel inkomstmodell designerkonto',
-      'hantverk utbildning korsning utskriftsaktiviteter tematiska arbetsblad målarbilder pussel',
-      'produkttaggar kategorier sökoptimering omslagsbilder beskrivningsformatering',
-      'katalogskalning paket tvärkategori marknadsföring typsnitt grafik pedagogiska resurser',
+      'designmarknadsplats hantverkspublik prenumerationsmodell digitala nedladdningar',
+      'Creative Fabrica Classroom arbetsblad uppladdning produktlistning',
+      'prenumerationspool intäkt enskilda försäljningar dubbel inkomstmodell',
+      'hantverk utbildning pysselbok aktivitetsbok målarbilder pussel skriva ut',
+      'produkttaggar kategorier sökoptimering omslagsbilder beskrivning',
+      'katalogskalning paket tvärkategori typsnitt grafik',
     ],
-    titleTag: 'Sälja på Creative Fabrica | LessonCraftStudio',
-    metaDescription: 'Sälj pedagogiska resurser på Creative Fabrica. Tjäna från prenumerationer och enskilda försäljningar, nå hantverks- och säljarepublik i Classroom-sektionen.',
+    titleTag: 'Sälja printables på Creative Fabrica | LCS',
+    metaDescription: 'Sälj arbetsblad och printables på Creative Fabrica. Dubbel intäkt från prenumerationer och enskilda köp. Guide till Classroom-sektionen för säljare.',
   },
 
   hero: {
-    title: 'Hur du säljer pedagogiska resurser på Creative Fabrica',
+    title: 'Sälja printables på Creative Fabrica',
     tagline: 'En komplett guide till att sälja utskriftsklara arbetsblad och pedagogiska resurser på Creative Fabrica — täcker designerkonto-uppstart, produktskapande för CF Classroom-sektionen, dubbel intäkt från enskilda försäljningar och prenumerationsnedladdningar, sökoptimering för en designcentrerad marknadsplats, att nå den unika hantverks-utbildnings-korspubliken, marknadsföringsstrategier för att sticka ut bland designers, och att skala din katalog över pedagogiska och kreativa kategorier',
     description: 'Creative Fabrica kombinerar marknadsplatsupptäckt med en prenumerationsintäktsmodell, vilket ger pedagogiska printable-säljare två inkomstströmmar från varje produkt. Denna guide leder dig genom att sätta upp din designerbutik, skapa listningar optimerade för CF:s sök- och kategorisystem, prissätta för både enskilda köpare och prenumerationspoolen, och bygga en katalog som tilltalar Creative Fabricas unika blandning av hantverkare, designers och säljare.',
   },

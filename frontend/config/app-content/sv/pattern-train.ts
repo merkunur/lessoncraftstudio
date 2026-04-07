@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mönsterblad sälja etsy skapa tågvagnar kdp',
+    primaryKeyword: 'mönster-uppgifter skriva ut',
     secondaryKeywords: [
-      'mönstertåg arbetsblad att sälja på Etsy',
-      'mönsterigenkänning generator för Amazon KDP',
-      'mönstersekvens arbetsblad kommersiell licens',
-      'mönsterblad att sälja online',
-      'mönsterbok att publicera på KDP',
+      'logisk ordning uppgifter',
+      'mönster fortsätta övning',
+      'sekvens förskoleklass',
+      'mönsteruppgift lågstadiet',
     ],
     lsiKeywords: [
-      'passiv inkomst mönsterblad',
-      'printables-verksamhet mönsterigenkänning',
-      'visuella sekvenser produktlinje',
-      'svenska marknaden mönsterblad Etsy',
+      'mönster',
+      'sekvens',
+      'logik',
+      'förskoleklass',
+      'lågstadiet',
     ],
-    titleTag: 'Mönsterblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa mönsterblad att sälja på Etsy och KDP. Fem mönstertyper, 11 tågvagnar, justerbar svårighet, facit, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Mönster-uppgifter att skriva ut | Generator logiska ordningar',
+    metaDescription: 'Skapa mönster-uppgifter med AB, ABC, ABCD sekvenser och temabilder. Automatiskt facit. Prova gratis — sälj på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Skapa mönsterblad med tågvagnar att sälja på Etsy och KDP',
-    tagline: 'Fem mönstertyper — AB, AAB, ABB, ABC, AABB — visade på 11 tematiska tågvagnar med justerbar svårighetskontroll.',
+    title: 'Mönster-uppgifter att skriva ut — Generator logiska ordningar',
+    tagline: 'Skapa mönster-uppgifter med tågvagnar och temabilder för förskoleklass och lågstadiet — prova gratis med vattenmärke.',
     description:
       'Skapa mönsterigenkänningsblad med tågvagnar att sälja på Etsy eller sammanställa i arbetsböcker för Amazon KDP. 11 färgglada vagnar visar upprepande sekvenser — ett iögonfallande format som sticker ut i produktminiatyrer. Fem mönstertyper från AB till AABB täcker varje svårighetsnivå. Justera antalet ledtrådar från 4 till 10 för att skapa progressiva produktlinjer. Arbetsbladen är helt visuella — säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Tågformatet är unikt och särskiljer dina produkter från vanliga mönsterblad. Mönsterigenkänning är en av de mest efterfrågade förskolefärdigheterna — den svenska marknaden på Etsy saknar denna produkttyp. Automatiskt facit ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

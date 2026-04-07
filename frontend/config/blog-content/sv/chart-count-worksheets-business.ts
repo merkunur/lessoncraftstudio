@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'diagram räknearbetsblad säljer',
+    primaryKeyword: 'sälja räkneblad med diagram på Etsy',
     secondaryKeywords: [
-      'diagram- räknearbetsblad säljer Etsy',
-      'diagram- räknearbetsblad foeretagande',
-      'utskrifter diagram- räknearbetsblad',
+      'diagram arbetsblad förskoleklass PDF',
+      'visuella matteövningar skriva ut',
+      'räkna och rita arbetsblad barn',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'bilddiagram matte förskola',
+      'räkneövningar årskurs 1 printable',
+      'visuellt lärande matematik barn',
     ],
-    titleTag: 'Diagram- och Räknearbetsblad som Säljer | LCS',
-    metaDescription: 'Diagram- och räknearbetsblad kombinerar visuellt lärande med matematik. Populärt för förskoleklass och årskurs 1. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Diagram-Räkneblad på Etsy | LCS',
+    metaDescription: 'Diagram- och räknearbetsblad kombinerar visuellt lärande med matte. Populärt för förskoleklass. Skapa och sälj på Etsy.',
   },
   hero: {
-    title: 'Diagram- och Räknearbetsblad som Säljer',
-    tagline: 'Visuell matte som föräldrar älskar att köpa',
+    title: 'Diagram- och Räkneblad: Visuell Matte som Säljer',
+    tagline: 'Bilddiagram och räkneövningar som föräldrar aktivt söker',
     description: 'Räkne- och diagramarbetsblad är visuellt tilltalande och pedagogiskt effektiva. Föräldrar söker dessa för barn i åldern 4-7.',
   },
   category: 'product-guide',

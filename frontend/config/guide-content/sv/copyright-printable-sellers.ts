@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'upphovsrätt för printables-säljare',
+    primaryKeyword: 'upphovsrätt sälja utskriftsbara produkter Etsy',
     secondaryKeywords: [
-      'upphovsrättsskydd arbetsblad',
-      'utskriftsbart företag upphovsrättslagstiftning',
-      'skydda arbetsblad från kopiering',
-      'upphovsrätt för digitala produkter',
+      'upphovsrättsskydd arbetsblad digitala produkter',
+      'skydda designfiler Etsy säljare printables',
+      'DMCA-anmälan kopiering digitala produkter',
+      'upphovsrätt pedagogiska material att sälja',
     ],
     lsiKeywords: [
-      'immateriella rättigheter originellt verk skydd upphovsrättsregistrering DMCA-borttagning',
-      'rimlig användning pedagogisk public domain resurser upphovsrättsintrång härledda verk',
-      'upphovsrättsmeddelande kreativt uttryck upphovsrättsskyddade element arbetsbladdesignskydd',
-      'originellt arrangemang stöld av digitala produkter innehållsskrapning marknadsplats IP-skydd',
-      'upphovsrättsägande automatiskt skydd registreringsfördelar lagstadgade skadestånd',
-      'kreativa val uttryck kontra idéer fakta standardmetoder pedagogiskt innehåll',
+      'immateriella rättigheter DMCA-borttagning upphovsrättsregistrering skydd',
+      'rimlig användning public domain kreativt uttryck härledda verk',
+      'upphovsrättsmeddelande designskydd originellt arrangemang printables',
+      'innehållsskrapning marknadsplats IP-skydd stöld digitala produkter',
+      'automatiskt skydd registreringsfördelar lagstadgade skadestånd Sverige',
+      'kreativa val uttryck kontra idéer fakta standardmetoder',
     ],
-    titleTag: 'Upphovsrätt för säljare | LessonCraftStudio',
-    metaDescription: 'Förstå upphovsrätten som säljare av utskriftsbara produkter behöver: vilka arbetsbladelement som är skyddsbara, registreringsfördelar, upprätthållande och att.',
+    titleTag: 'Upphovsrätt för printable-säljare | LCS',
+    metaDescription: 'Upphovsrätt för dig som säljer utskriftsbara produkter. Vilka element som skyddas, hur du hanterar kopiering och DMCA, och vanliga misstag att undvika.',
   },
 
   hero: {
-    title: 'Upphovsrättsgrunder för säljare av utskriftsbara produkter',
-    tagline: 'En komplett guide till att förstå upphovsrätt som ägare av utskriftsbart företag — inklusive vad upphovsrätten skyddar i arbetsblad, vad som är och inte är upphovsrättsskyddat i pedagogiska produkter, skydda dina originaldesigner, förstå rimlig användning, använda public domain-resurser, hantera intrång, undvika upphovsrättsmisstag och bygga upphovsrättsmedvetenhet i din verksamhet',
+    title: 'Upphovsrätt för dig som säljer utskriftsbara produkter',
+    tagline: 'En praktisk guide till upphovsrätt för printable-säljare — vad som skyddas, hur du hanterar intrång, DMCA-anmälningar och vanliga misstag att undvika på Etsy och Amazon KDP',
     description: 'Upphovsrätt är det juridiska ramverk som skyddar ditt originella kreativa arbete och definierar vad du kan och inte kan använda från andra. Som säljare av utskriftsbara produkter är förståelse av upphovsrättsgrunder väsentlig av två skäl: skydda arbetsbladen och designerna du skapar från obehörig kopiering, och säkerställa att dina egna produkter inte gör intrång på någon annans rättigheter. Denna guide ger praktisk upphovsrättskunskap specifikt för säljare av utskriftsbara produkter — vilka element i dina arbetsblad som är skyddsbara, hur du stärker din juridiska position, vad du gör när någon kopierar ditt arbete och hur du undviker vanliga upphovsrättsmisstag som kan resultera i marknadsplatsborttagningar eller juridiskt ansvar. Observera: denna guide är pedagogisk information, inte juridisk rådgivning. Konsultera en kvalificerad jurist för vägledning om specifika situationer.',
   },
 

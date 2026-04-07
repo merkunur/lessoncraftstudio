@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa mattepussel att sälja',
+    primaryKeyword: 'skapa mattepussel att skriva ut för barn',
     secondaryKeywords: [
-      'mattepussel arbetsblad generator',
-      'bildåterställning mattepussel',
-      'utskriftsklara mattepussel att sälja',
-      'rutnätsbaserade mattepussel för barn',
+      'mattepussel generator bildåterställning att skriva ut',
+      'matteövning pussel barn skriva ut PDF',
+      'sälja mattepussel Etsy printable matematik',
+      'Amazon KDP mattepussel pysselbok barn',
     ],
     lsiKeywords: [
-      'bildpussel matteaktivitet',
-      'lös ekvationer återställ bild',
-      'visuella mattepussel förskola förskoleklass',
-      'sälja mattepussel på Etsy',
-      'Amazon KDP mattepussel böcker',
-      'kommersiell licens pussel-generator',
+      'bildpussel matteaktivitet ekvationer återställ bild',
+      'rutnätsbaserat mattepussel förskola förskoleklass lågstadiet',
+      'visuella mattepussel matteövning kombination',
+      'sälja mattepussel Etsy printable digitala produkter',
+      'Amazon KDP pysselbok mattepussel aktivitetsbok',
+      'kommersiell licens pussel-generator facit automatiskt',
     ],
-    titleTag: 'Mattepussel att sälja online | LessonCraftStudio',
-    metaDescription: 'Hur du skapar mattepussel där barn löser ekvationer för att återställa bilder. Rutnätsstorlekar, operationer, facit och tips för att sälja på Etsy. Prova.',
+    titleTag: 'Skapa mattepussel att skriva ut | LCS',
+    metaDescription: 'Skapa mattepussel att skriva ut där barn löser ekvationer och återställer bilder. Rutnätsstorlekar, automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar mattepussel arbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa bildåterställnings-mattepussel där barn löser ekvationer för att återställa bilder — redo att sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa mattepussel att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa bildåterställnings-mattepussel med ekvationer, rutnätsstorlekar och automatiskt facit för Etsy, Amazon KDP och Gumroad',
     description: 'Mattepussel-arbetsblad kombinerar matteövning med spänningen av att lösa ett visuellt pussel. En bild delas i rutnätsbitar, varje bit får en matteekvation, och barn löser ekvationerna för att ta reda på var varje bit hör hemma och återställa bilden. Denna guide leder dig genom att skapa mattepussel med Mattepussel-generatorn — från att välja teman och rutnätsstorlekar till att exportera tryckfärdiga PDF:er med automatiska facit.',
   },
 

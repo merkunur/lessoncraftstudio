@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables husdjur för Etsy | LessonCraftStudio',
-    metaDescription: 'Utforska lönsamma husdjur utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Katt-, hund- och smådjurskoncept med plattformsstrategier för säljare.',
+    titleTag: 'Husdjur printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj husdjurstema printables på Etsy och KDP. Produktidéer med hund, katt och hamster för pysselbok och arbetsblad barn.',
 
-    primaryKeyword: 'printables husdjur för Etsy',
+    primaryKeyword: 'husdjur printables att sälja',
     secondaryKeywords: [
-      'husdjurstema arbetsblad att sälja',
-      'husdjur utskriftsbart företag idéer',
-      'husdjur aktivitetsblad för säljare',
-      'sälja husdjur utskriftsbara på Etsy',
+      'husdjurstema arbetsblad Etsy',
+      'hund katt pysselbok KDP',
+      'husdjur printables barn',
+      'sällskapsdjur aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'sällskapsdjur pedagogiska arbetsblad',
-      'katt och hund tematiserade aktivitetssidor',
-      'djurvård tematiserade utskriftsbara',
+      'husdjur uppgifter förskoleklass',
+      'djurtema arbetsblad lågstadiet',
+      'katt hund pyssel att skriva ut',
     ],
   },
   hero: {
-    title: 'Husdjur utskriftsbara affärsidéer för säljare',
+    title: 'Husdjur printables — produktidéer för säljare',
     description: 'Husdjur intar en unikt kraftfull position på marknaden för pedagogiska utskriftsbara produkter eftersom nästan varje barn har en personlig koppling till sällskapsdjur. Oavsett om en familj äger en hund, en katt, en hamster eller en guldfisk dras barn naturligt till lärandematerial med välbekanta varelser de ser och interagerar med dagligen. Denna emotionella koppling driver stark köpintention från föräldrar som vill kombinera sitt barns entusiasm för husdjur med strukturerat lärande. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad erbjuder husdjurstemat massiv tidlös efterfrågan, varierat artutbud för produktdifferentiering och åldersoberoende attraktionskraft från småbarn till tidig lågstadieålder. Denna guide ger specifika produktidéer, plattformsstrategier och nischpositioneringsråd för att hjälpa dig bygga ett lönsamt husdjurstematiserat utskriftsbart företag med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara husdjurprodukter gynnas av en enkel men kraftfull marknadsdynamik: husdjur är det mest personligt relevanta djurtemat för barn. Medan bondgårdsdjur och havsvarelser är intressanta är husdjur de djur barn faktiskt bor med, tar hand om och älskar. Denna personliga koppling förvandlar arbetsbladsarbete från en abstrakt övning till en aktivitet med deras favoritkamrater, vilket är precis varför föräldrar och köpare söker husdjurstematiserade pedagogiska material.

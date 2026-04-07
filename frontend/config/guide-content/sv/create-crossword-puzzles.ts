@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa korsord att sälja online',
+    primaryKeyword: 'skapa korsord att skriva ut för barn',
     secondaryKeywords: [
-      'korsordspussel generator för barn',
-      'utskriftsbar korsord-generator',
-      'korsordspussel att sälja',
-      'anpassat korsord med bildledtrådar',
+      'korsordspussel generator barn bildledtrådar',
+      'göra korsord att skriva ut PDF sälja',
+      'sälja korsord Etsy printable pusselbok',
+      'Amazon KDP korsord pusselbok barn flerspråkig',
     ],
     lsiKeywords: [
-      'bildledtråd korsord arbetsblad',
-      'flerspråkiga korsordspussel',
-      'vokabulärkorsord för barn',
-      'sälja korsordsböcker på KDP',
-      'Etsy korsord printables',
-      'kommersiell licens pusselverktyg',
+      'bildledtråd korsord vokabulär förskoleklass lågstadiet',
+      'flerspråkiga korsordspussel 11 språk generator',
+      'korsord stavningsövning ordkunskap barn att skriva ut',
+      'sälja korsordsböcker Amazon KDP pusselbok',
+      'Etsy korsord printable digitala nedladdningar',
+      'kommersiell licens pusselverktyg facit automatiskt',
     ],
-    titleTag: 'Korsord att sälja online | LessonCraftStudio',
-    metaDescription: 'Hur du skapar korsordspussel för barn med bildledtrådar. Välj teman, generera korsande rutnät, numrerade ledtrådar, facit, sälj på Etsy och KDP. Prova.',
+    titleTag: 'Skapa korsord att skriva ut för barn | LCS',
+    metaDescription: 'Skapa korsordspussel för barn med bildledtrådar att skriva ut. Välj teman, generera korsande rutnät och facit. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar korsordspussel för barn',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska korsordspussel med bildledtrådar du kan sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa korsord att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa tematiska korsordspussel med bildledtrådar, automatiskt facit och flerspråkig generering för Etsy, Amazon KDP och Gumroad',
     description: 'Korsordspussel är ett av de mest igenkända och omtyckta pusselformaten i världen — och barnkorsordmarknaden växer snabbt. säljare använder dem för vokabulärförstärkning. Föräldrar använder dem för stavningsövning. Handledare använder dem för att göra ordstudier till ett spel. Denna guide leder dig genom hela skapandeprocessen med Korsordspussel-generatorn — från att välja mellan bildbaserade ledtrådar och anpassade ordlistor till att konfigurera rutnätslayout, granska numrerade ledtrådar och exportera tryckfärdiga PDF:er med facit. Generatorn stöder 11 språk, vilket gör flerspråkiga korsordsprodukter till en realistisk och nivågrupperad nisch.',
   },
 

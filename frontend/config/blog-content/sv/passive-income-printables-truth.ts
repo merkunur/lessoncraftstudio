@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'passiv inkomst utskrifter sanning',
+    primaryKeyword: 'passiv inkomst printables sanningen',
     secondaryKeywords: [
-      'passiv inkomst utskrifter Etsy',
-      'passiv inkomst foeretagande',
-      'utskrifter passiv inkomst',
+      'tjäna pengar printables Etsy realistiskt',
+      'passiv inkomst digitala produkter Sverige',
+      'printable-företag sidoinkomst',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'automatiserad försäljning arbetsblad Etsy',
+      'hur mycket tjänar printable-säljare',
+      'realistisk inkomst digitala produkter',
     ],
-    titleTag: 'Passiv Inkomst med Utskrifter: Sanningen | LCS',
-    metaDescription: 'Kan utskrifter verkligen ge passiv inkomst? Realistiska förväntningar och strategier för att nå det målet. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Passiv Inkomst med Printables: Sanningen',
+    metaDescription: 'Kan printables ge passiv inkomst? Realistiska siffror och strategier för Etsy och KDP. Vad du faktiskt kan förvänta dig som säljare.',
   },
   hero: {
-    title: 'Passiv Inkomst med Utskrifter: Sanningen',
-    tagline: 'Det är inte helt passivt — men det kan bli nästan',
+    title: 'Passiv Inkomst med Printables: Sanningen',
+    tagline: 'Inte helt passivt — men nästan, med rätt strategi',
     description: 'Passiv inkomst med utskrifter är möjlig men kräver arbete uppfront. Realistiska siffror visar vad du kan förvänta dig.',
   },
   category: 'platform-strategy',

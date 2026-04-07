@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'e-postlista utskriftsfoeretagande',
+    primaryKeyword: 'bygga e-postlista printable-verksamhet',
     secondaryKeywords: [
-      'optimering för framgång',
-      'tillväxtstrategier',
-      'mäta förbättra resultat',
+      'nyhetsbrev strategi Etsy-säljare',
+      'leadmagnet printables gratis prov',
+      'e-postmarknadsföring digitala produkter',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'återkommande kunder e-post',
+      'segmentering printable-kunder',
+      'egen kundlista oberoende Etsy',
     ],
-    titleTag: 'E-postlista för Utskriftsverksamhet | LCS',
-    metaDescription: 'Bygg en e-postlista för din utskriftsverksamhet. Strategier för leadmagneter, segmentering och återkommande. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'E-postlista för Printable-Verksamhet | LCS',
+    metaDescription: 'Bygg en e-postlista för din printable-verksamhet. Leadmagneter, segmentering och strategier som ger återkommande kunder.',
   },
   hero: {
-    title: 'E-postlista för Utskriftsverksamhet',
-    tagline: 'Din e-postlista är den enda kanalen du äger helt',
+    title: 'Bygg E-postlista för Din Printable-Butik',
+    tagline: 'E-postlistan är enda kanalen du äger helt själv',
     description: 'En e-postlista ger dig direkt kontakt med kunder utan att vara beroende av Etsys algoritmer.',
   },
   category: 'platform-strategy',

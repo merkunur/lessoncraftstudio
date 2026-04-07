@@ -2,26 +2,28 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'ord språkpaket sälja läsning språk paket',
+    primaryKeyword: 'språkpaket arbetsblad generator',
     secondaryKeywords: [
-      'språkarbetsblad generator paket för säljare',
-      'läsverktyg utskriftspaket kommersiell användning',
-      'ordpussel arbetsblad paket för Etsy',
-      'flerspråkiga arbetsblad generatorer för KDP-säljare',
+      'ordsök korsord generator paket',
+      'ordpussel generator bundle',
+      'skrivmotorik alfabet paket',
+      'språkuppgifter skriva ut paket',
     ],
     lsiKeywords: [
-      'alfabet handstil ordsökning paket',
-      'ordmix kryptogram utskriftsbar samling',
-      'kommersiell licens läsarbetsblad',
-      'bulkproduktion språkarbetsblad verktyg',
+      'ordsök',
+      'korsord',
+      'kryptogram',
+      'skrivmotorik',
+      'alfabet',
+      'ordförråd',
     ],
-    titleTag: 'Ord- och språkpaket — Sälja | LessonCraftStudio',
-    metaDescription: 'Få 7 läs- och skrivarbetsblad-generatorer i ett paket. Skapa alfabet, ordsökning, kryptogram, prepositioner och handstilsarbetsblad på 11 språk. $49. $149 e.',
+    titleTag: 'Språkpaket — 7 arbetsbladsgeneratorer | 149 $ engångsbetalning',
+    metaDescription: 'Alla 7 språkgeneratorer i ett paket: ordsök, korsord, kryptogram, anagram, hänga gubbe, skrivmotorik, alfabet. Prova gratis.',
   },
 
   hero: {
-    title: 'Läsning & Språk-paket',
-    tagline: 'Sju språkdrivna arbetsblad-generatorer — multiplicera din produktlinje över 11 språk',
+    title: 'Språkpaket — 7 arbetsbladsgeneratorer för ordsök, korsord & mer',
+    tagline: 'Alla 7 språkgeneratorer med temabilder och facit — prova gratis med vattenmärke.',
     description: 'Varje generator i detta paket är språkmedveten. Detta enda faktum förvandlar din produktkatalog: en arbetsbladsdesign blir 11 distinkta produkter när du växlar mellan engelska, tyska, franska, spanska, portugisiska, italienska, holländska, svenska, danska, norska och finska. Läsning & Språk-paketet kombinerar sju specialiserade generatorer som täcker alfabetigenkänning, rumsliga prepositioner, ordgissning med bildledtrådar, bokstavsmixning, ordsökningsrutnät, menings-till-bild kryptogram och guidad handstilspraktik. Sex av de sju generatorerna producerar språkspecifikt innehåll — orden, bokstäverna och ordförrådet på varje arbetsblad ändras för att matcha det valda språket, med korrekta diakritiska tecken, inhemska alfabet och grammatiskt korrekta formuleringar. Den sjunde, Skrivövning, fokuserar på handstilsstreckpraktik med minimal språkberoende. Varje generator matar ut utskriftsklara PDF- och högupplösta JPEG-filer. Sex av sju inkluderar automatiska facit. Välj bland över 100 tematiska bilduppsättningar eller ladda upp ditt eget konstverk för varumärkesspecifika, nischade produkter. Oavsett om du säljer läsutskrifter på Etsy, publicerar språkarbetsböcker på Amazon KDP eller distribuerar resurser på Gumroad, ger detta paket dig den variation och språkräckvidd som enspråkiga konkurrenter inte kan matcha. Varje generator inkluderar en gratis provversion med vattenstämpel så att du kan testa alla funktioner innan du köper en licens.',
   },
 

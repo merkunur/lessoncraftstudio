@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'rymden tema arbetsblad foeretagande',
+    primaryKeyword: 'rymdtema arbetsblad sälja printables',
     secondaryKeywords: [
-      'produkter säljer denna nisch',
-      'skapandeprocess verktyg',
-      'marknadsföring säsongsplanering',
+      'planeter raketer pysselblad barn Etsy',
+      'rymden aktivitetsbok KDP barn nisch',
+      'astronaut tema arbetsblad skriva ut',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'rymdtema evergreen nisch printable-butik',
+      'planeter solsystemet arbetsblad förskola',
+      'rymden pyssel barn ladda ner PDF',
     ],
-    titleTag: 'Rymden-Tema Arbetsblad: Företagande | LCS',
-    metaDescription: 'Rymden-tema arbetsblad kombinerar fascination med utbildning. Planeter, raketer och astronauter som barn älskar. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Rymdtema-Arbetsblad: Sälj Printables',
+    metaDescription: 'Sälj rymdtema-arbetsblad som printables. Planeter, raketer och astronauter. Evergreen nisch på Etsy och Amazon KDP.',
   },
   hero: {
-    title: 'Rymden-Tema Arbetsblad: Företagande',
-    tagline: 'Rymden fascinerar barn och inspirerar till lärande',
+    title: 'Rymdtema-Arbetsblad: Bygg Printable-Företag',
+    tagline: 'Rymden fascinerar barn och säljer som evergreen-nisch',
     description: 'Rymden-tema är tidlöst populärt bland barn. Kombinera rymdbilder med matte, ordsök och fakta-arbetsblad för en komplett produktlinje.',
   },
   category: 'niche-seasonal',

@@ -2,28 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'kommersiell licens för printables-säljare',
+    primaryKeyword: 'kommersiell licens sälja arbetsblad online',
     secondaryKeywords: [
-      'kommersiell användningslicens utskriftsbara produkter',
-      'sälja arbetsblad kommersiellt Etsy Amazon',
-      'licensguide utskriftsbart företag',
-      'arbetsbladsgenrator kommersiella rättigheter',
+      'licensguide printable-säljare',
+      'kommersiella rättigheter arbetsbladsverktyg',
+      'sälja genererade arbetsblad Etsy KDP',
+      'licensnivåer arbetsbladsgenrator',
     ],
     lsiKeywords: [
-      'kommersiell licens digitala nedladdningar',
-      'licenskrav för utskriftsbara säljare',
-      'Etsy digital nedladdning kommersiell licens',
-      'Amazon KDP aktivitetsbok licensiering',
-      'arbetsbladsgenrator licensnivåer',
-      'kommersiell kontra personlig användning utskriftsbara',
+      'kommersiell användning digitala produkter',
+      'licenskrav Etsy digitala nedladdningar',
+      'KDP aktivitetsbok licensiering',
+      'personlig kontra kommersiell licens',
+      'obegränsad kommersiell användning arbetsblad',
+      'licensvillkor för printable-företag',
     ],
-    titleTag: 'Kommersiell licens för säljare | LessonCraftStudio',
-    metaDescription: 'Förstå kommersiella licenser för att sälja arbetsblad på Etsy, Amazon KDP och andra plattformar. Två licensnivåer förklarade med tydliga rättigheter och.',
+    titleTag: 'Kommersiell licens: guide för säljare | LCS',
+    metaDescription: 'Komplett guide till kommersiella licenser för arbetsbladsförsäljning. Två nivåer förklarade — vad du får sälja på Etsy, Amazon KDP och fler plattformar.',
   },
 
   hero: {
-    title: 'Den kompletta licensguiden för säljare av utskriftsbara produkter',
-    tagline: 'Allt du behöver veta om kommersiell licensiering för arbetsbladsgenratorer — vad du kan sälja, var du kan sälja det och vilken nivå som passar ditt företag',
+    title: 'Licensguide för printable-säljare',
+    tagline: 'Vad du kan sälja, var du kan sälja och vilken licensnivå som passar din verksamhet',
     description: 'Kommersiell licensiering är det mest missförstådda ämnet inom utskriftsbart företagande. Säljare oroar sig för om de har rätt att sälja genererade arbetsblad, vilka plattformar som täcks och om de behöver separata licenser för varje produkt eller listning. Denna guide eliminerar den förvirringen helt. Du kommer att lära dig exakt vad en kommersiell licens täcker, vad de två prisnivåerna inkluderar, hur licensen gäller på varje stor säljplattform och hur den gratis provversionen med vattenstämpel låter dig utvärdera allt innan du köper. Oavsett om du säljer på Etsy, publicerar på Amazon KDP eller använder någon annan marknadsplats ger denna guide dig fullständig klarhet om dina kommersiella rättigheter.',
   },
 

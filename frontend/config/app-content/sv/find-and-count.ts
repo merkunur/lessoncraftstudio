@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'hitta och räkna-blad att sälja på Etsy',
+    primaryKeyword: 'hitta och räkna uppgift skriva ut',
     secondaryKeywords: [
-      'hitta och räkna arbetsblad för Etsy-säljare',
-      'sökaktivitet generator för Amazon KDP',
-      'bokstavsletning arbetsblad kommersiell licens',
-      'hitta och räkna printables att sälja online',
-      'sökarbetsbok att publicera på KDP',
+      'räkna föremålen uppgift',
+      'hur många finns det? uppgift',
+      'räkneövning förskoleklass',
+      'hitta och räkna barn',
     ],
     lsiKeywords: [
-      'passiv inkomst sök-och-räkna',
-      'printables-verksamhet räkneaktiviteter',
-      'bokstavsletning svenska ÅÄÖ produktlinje',
-      'svenska marknaden sökblad Etsy',
+      'räkna',
+      'föremål',
+      'hur många',
+      'förskoleklass',
+      'lågstadiet',
     ],
-    titleTag: 'Hitta och räkna att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa hitta och räkna-blad att sälja på Etsy och KDP. 4 uppgiftstyper, Bokstavsletning med ÅÄÖ, facit, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Hitta och räkna uppgift att skriva ut | Generator räkneövningar',
+    metaDescription: 'Skapa hitta-och-räkna uppgifter där barn letar efter och räknar temabilder. Automatiskt facit. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa hitta och räkna-blad att sälja på Etsy och Amazon KDP',
-    tagline: 'Två aktivitetslägen — Dolda Objekt och Bokstavsletning — med fyra uppgiftstyper, svenska ÅÄÖ-alfabet och automatiskt facit.',
+    title: 'Hitta och räkna uppgift att skriva ut — Generator räkneövningar',
+    tagline: 'Skapa hitta-och-räkna uppgifter med temabilder för förskoleklass och lågstadiet — prova gratis med vattenmärke.',
     description:
       'Skapa sök- och räkneblad att sälja på Etsy eller sammanställa i aktivitetsböcker för Amazon KDP. Två lägen: Dolda Objekt sprider bilder i ett konfigurerbart rutnät med fyra uppgiftstyper — ringa in, ruta, stryk över eller räkna. Bokstavsletning visar det svenska alfabetet med ÅÄÖ och genererar sökscener med bilder som börjar på den valda bokstaven — en unik produkt för den svenska marknaden. Generatorn är språkkänslig: samma bildtema producerar unika arbetsblad på 11 språk med lokaliserade etiketter. Automatiskt facit med visuella annoteringer ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Hitta och räkna-blad säljer konsekvent året runt och den svenska marknaden på Etsy har minimal konkurrens. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa paket arbetsblad som säljer',
+    primaryKeyword: 'skapa arbetsblad-paket som säljer strategi',
     secondaryKeywords: [
-      'arbetsbladpaket strategi',
-      'utskriftsbart paket skapande',
-      'hur man paketerar arbetsblad för försäljning',
-      'arbetsbladpaket prissättning',
+      'arbetsblad-paket prisstrategi printable-säljare',
+      'paketera arbetsblad för försäljning guide',
+      'paketprissättning Etsy KDP printables',
+      'skapa högvärdiga paket utskriftsbara produkter',
     ],
     lsiKeywords: [
-      'pakettyper ämne årskurs tema säsong format mega upplevt värde',
-      'värdestackning specificerade besparingar bonusmaterial omslag innehållsförteckning',
-      'ankarprissättning rabattpsykologi stegvis paketprissättning pristestning',
-      'kompletterande produkter variation konsistens utfyllnadsundvikande kvalitetsstandarder',
-      'paketförpackning mockup förhandsgranskning varumärke filorganisering namnkonventioner',
-      'multiplattformspaketlistningar universell strategi plattformsoberoende försäljning',
+      'pakettyper ämne årskurs tema säsong format upplevt värde',
+      'värdestackning ankarprissättning rabattpsykologi paket',
+      'paketförpackning mockup förhandsgranskning varumärke',
+      'kompletterande produkter variation konsistens kvalitet',
+      'multiplattform paketlistningar Etsy KDP Gumroad',
+      'prestandaspårning plattformsoberoende paketeringsstrategi',
     ],
-    titleTag: 'Skapa paket arbetsblad som säljer | LessonCraftStudio',
-    metaDescription: 'Hur du skapar arbetsbladpaket som säljer på alla plattformar. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skapa arbetsblad-paket som säljer | LCS',
+    metaDescription: 'Skapa arbetsblad-paket som säljer. Pakettyper, prissättning, värdestackning och listningsoptimering. Fungerar på Etsy, Amazon KDP och Gumroad.',
   },
 
   hero: {
-    title: 'Hur du skapar arbetsbladpaket som säljer',
-    tagline: 'En komplett guide till att skapa högvärdiga arbetsbladpaket som ökar intäkterna per transaktion på alla försäljningsplattformar — inklusive pakettyper och strukturer, produktval för övertygande kombinationer, värdestackning och upplevt värde-psykologi, professionell paketförpackning och presentation, ankarprissättning och rabattstrategier, plattformsoberoende listningsoptimering och prestandaspårning för kontinuerlig förbättring',
+    title: 'Skapa arbetsblad-paket som säljer mer',
+    tagline: 'Komplett guide: pakettyper, prissättningspsykologi, värdestackning och plattformsoberoende strategi för att öka intäkterna per transaktion',
     description: 'Att paketera arbetsblad är det enskilt mest effektiva sättet att öka ditt genomsnittliga ordervärde utan att skapa nytt innehåll. Ett välstrukturerat paket förvandlar individuella produkter värda $8 till $12 var till ett $35 till $65-paket som köpare uppfattar som ett bättre erbjudande — även om du tjänar betydligt mer per transaktion. Denna guide täcker universell paketeringsstrategi som fungerar på Etsy, Amazon KDP, Gumroad, Gumroad, Creative Fabrica och alla andra plattformar där du säljer utskriftsbara arbetsblad.',
   },
 

@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy nyckelordsresearch utskrifter',
+    primaryKeyword: 'nyckelordsresearch Etsy printables 2026',
     secondaryKeywords: [
-      'etsy nyckelordsresearch utskrifter Etsy',
-      'etsy nyckelordsresearch foeretagande',
-      'utskrifter etsy nyckelordsresearch',
+      'hitta sökord Etsy arbetsblad',
+      'Etsy SEO sökordsstrategi',
+      'taggar titlar printable-listningar',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'Etsy sökvolym verktyg',
+      'long-tail nyckelord printables',
+      'svenska sökord Etsy-butik',
     ],
-    titleTag: 'Etsy Nyckelordsresearch för Utskrifter | LCS',
-    metaDescription: 'Komplett guide till nyckelordsresearch för Etsy. Verktyg, strategier och bästa praxis för utskriftssäljare 2026.',
+    titleTag: 'Nyckelordsresearch för Etsy Printables | LCS',
+    metaDescription: 'Komplett guide till nyckelordsresearch för printables på Etsy 2026. Verktyg, strategier och svenska sökord som driver trafik.',
   },
   hero: {
-    title: 'Etsy Nyckelordsresearch för Utskrifter',
-    tagline: 'Rätt sökord = rätt kunder hittar dina produkter',
+    title: 'Nyckelordsresearch för Printables på Etsy',
+    tagline: 'Rätt sökord gör att köpare hittar just dina produkter',
     description: 'Nyckelordsresearch är grunden för Etsy-framgång. Rätt sökord i titlar, taggar och beskrivningar driver organisk trafik till dina listningar.',
   },
   category: 'platform-strategy',

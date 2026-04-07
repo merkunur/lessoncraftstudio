@@ -2,22 +2,22 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vinterutskrifter vinter december januari',
+    primaryKeyword: 'vinterprintables sälja december januari Etsy',
     secondaryKeywords: [
-      'produkter säljer denna nisch',
-      'skapandeprocess verktyg',
-      'marknadsföring säsongsplanering',
+      'vinteraktiviteter barn arbetsblad skriva ut',
+      'snötema vinterdjur pysselblad printable',
+      'inomhusaktiviteter vinter barn KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'vintertema arbetsblad november-februari',
+      'snöflingor skidtema aktivitetsbok',
+      'svenska vintern printable-nisch säsong',
     ],
-    titleTag: 'Vinterutskrifter: December-Januari | LCS',
-    metaDescription: 'Vinterutskrifter säljer från november till februari. Snö, vinter-djur och inomhusaktiviteter för kalla dagar. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Vinterprintables: Sälj December-Januari',
+    metaDescription: 'Vinterprintables säljer november till februari. Snöflingor, vinterdjur och inomhusaktiviteter. Lång svensk vinter ger lång säsong.',
   },
   hero: {
-    title: 'Vinterutskrifter: December-Januari',
+    title: 'Vinterprintables: Sälj December till Januari',
     tagline: 'Vintertemat sträcker sig längre än bara jul',
     description: 'Vintern i Sverige är lång och ger gott om tid att sälja vinterutskrifter. Snöflingor, vinterdjur, skidtema och mysiga inomhusaktiviteter.',
   },

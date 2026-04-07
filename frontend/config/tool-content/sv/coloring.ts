@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis målarbilder generator',
+    primaryKeyword: 'skapa målarbilder gratis online',
     secondaryKeywords: [
-      'målarbilder generator gratis online',
-      'målarsida skapa gratis',
-      'målarbilder skriva ut gratis',
-      'gratis målarbilder med teman',
+      'målarbilder gratis skriva ut',
+      'färgläggningsbilder gratis',
+      'målarbildsgenerator gratis',
+      'egna målarbilder gratis',
     ],
     lsiKeywords: [
-      'gratis målarbilder online',
-      'målarsidor att skriva ut',
-      'målarbilder för barn gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'målarbilder',
+      'färgläggning',
+      'konturer',
     ],
-    titleTag: 'Målarbilder generator gratis | LessonCraftStudio',
-    metaDescription: 'Skapa målarbilder gratis online. Fri arbetsyta, 104 teman, frihandsritning, gråskaleexport. Gratis provversion med vattenmärke.',
+    titleTag: 'Skapa målarbilder gratis online | Färgläggningsgenerator',
+    metaDescription: 'Skapa målarbilder gratis online från 3 000+ temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis målarbilder generator online',
-    tagline: 'Fri arbetsyta med frihandsritning, gråskaleexport och 104 tematiska bildsamlingar — gratis provversion med vattenmärke',
+    title: 'Skapa målarbilder gratis online — Färgläggningsgenerator',
+    tagline: 'Skapa målarbilder gratis från 3 000+ temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa målarbilder — helt gratis att testa online. Fri arbetsyta där du placerar bilder exakt var du vill. Bläddra bland mer än 3 100 illustrationer i 104 teman, lägg till frihandsritningar, och växla gråskaleexport för bläckvänliga målarsidor. Målarbilder för barn är en av de mest sökta printable-kategorierna i Sverige. Perfekt för föräldrar som söker målarbilder att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

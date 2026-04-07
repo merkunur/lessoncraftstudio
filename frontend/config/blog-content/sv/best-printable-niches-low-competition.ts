@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bästa utskriftsnischer låg konkurrens',
+    primaryKeyword: 'lönsamma printable-nischer låg konkurrens 2026',
     secondaryKeywords: [
-      'optimering för framgång',
-      'tillväxtstrategier',
-      'mäta förbättra resultat',
+      'bästa nischer sälja printables Etsy',
+      'SFI material nisch arbetsblad',
+      'oupptäckta nischer digitala produkter',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'Lucia midsommar printables',
+      'svenska traditioner arbetsblad',
+      'nischanalys utskriftsföretag',
     ],
-    titleTag: 'Bästa Utskriftsnischer med Låg Konkurrens | LCS',
-    metaDescription: 'Upptäck lönsamma utskriftsnischer med låg konkurrens 2026. SFI-material, svenska traditioner och mer. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Lönsamma Printable-Nischer 2026 | LCS',
+    metaDescription: 'Hitta printable-nischer med låg konkurrens 2026. SFI-material, Lucia-aktiviteter och svenska teman ger svenska säljare en unik fördel.',
   },
   hero: {
-    title: 'Bästa Utskriftsnischer med Låg Konkurrens',
-    tagline: 'Hitta nischer där du kan dominera utan massiv konkurrens',
+    title: 'Lönsamma Printable-Nischer med Låg Konkurrens',
+    tagline: 'Svenska nischer som SFI och Lucia har noll konkurrens på Etsy',
     description: 'SFI-material, Lucia-aktiviteter, midsommar-utskrifter och svenska skogsdjur-teman är nischer med minimal konkurrens men stark efterfrågan.',
   },
   category: 'platform-strategy',

@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hemundervisning utskrifter vaexande marknad',
+    primaryKeyword: 'sälja homeschool printables internationellt',
     secondaryKeywords: [
-      'hemundervisning-utskrifter växande marknad Etsy',
-      'hemundervisning-utskrifter växande foeretagande',
-      'utskrifter hemundervisning-utskrifter växande',
+      'hemundervisning material Etsy marknad',
+      'homeschool arbetsblad sälja globalt',
+      'hemundervisning paket printable PDF',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'homeschool curriculum USA marknad',
+      'flerspråkiga lärresurser hemundervisare',
+      'internationell hemundervisning trend',
     ],
-    titleTag: 'Hemundervisning-Utskrifter: Växande Marknad | LCS',
-    metaDescription: 'Hemundervisning-marknaden växer globalt. Svenska säljare kan nå internationella hemundervisare med flerspråkiga produkter.',
+    titleTag: 'Sälj Homeschool-Printables Internationellt | LCS',
+    metaDescription: 'Hemundervisning-marknaden växer globalt. Nå internationella homeschool-familjer med flerspråkiga printables via Etsy.',
   },
   hero: {
-    title: 'Hemundervisning-Utskrifter: Växande Marknad',
-    tagline: 'Hemundervisning i Sverige är ovanligt men internationellt enormt',
+    title: 'Sälj Homeschool-Printables: Global Marknad',
+    tagline: 'Internationella hemundervisare är en enorm köpargrupp',
     description: 'Hemundervisning är ovanligt i Sverige men enormt i USA, Storbritannien och Australien. Svenska säljare kan nå denna marknad via Etsy.',
   },
   category: 'niche-seasonal',

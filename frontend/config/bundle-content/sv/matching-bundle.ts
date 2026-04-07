@@ -2,26 +2,28 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'kopplings sorteringspaket matchning sortering paket',
+    primaryKeyword: 'matchnings- och sorteringspaket generator',
     secondaryKeywords: [
-      'matchning sortering arbetsblad generator paket för säljare',
-      'utskriftsbar matchningsaktivitet verktygslåda kommersiell användning',
-      'bingokort generator paket för Etsy',
-      'sorteringsarbetsblad generatorer för KDP-säljare',
+      'bingo generator paket',
+      'skugglek generator bundle',
+      'hitta och räkna paket',
+      'sorterings-uppgifter paket',
     ],
     lsiKeywords: [
-      'matchning sortering bingo arbetsblad paket',
-      'skuggmatchning rutnätsmatchning utskriftsbar samling',
-      'kommersiell licens matchningsarbetsblad',
-      'bulkproduktion matchningsarbetsblad verktyg',
+      'bingo',
+      'skugglek',
+      'hitta och räkna',
+      'sortera',
+      'saknade bitar',
+      'förskoleklass',
     ],
-    titleTag: 'Kopplings- och sorteringspaket | LessonCraftStudio',
-    metaDescription: 'Få 5 matchningsarbetsblad-generatorer i ett paket. Skapa matchning, rutnätsmatchning, skuggmatchning, bingo och sorteringsarbetsblad att sälja på Etsy. $49...',
+    titleTag: 'Matchning & Sortering paket — 5 generatorer | 149 $ engångsbetalning',
+    metaDescription: 'Alla 5 matchningsgeneratorer i ett paket: bingo, skugglek, hitta och räkna, sortering, saknade bitar. Prova gratis.',
   },
 
   hero: {
-    title: 'Matchning & Sortering-paket',
-    tagline: 'Fem matchnings- och sorteringsgeneratorer — från visuell parmatchning till batch-bingokort-exporter',
+    title: 'Matchning & Sortering paket — 5 generatorer',
+    tagline: 'Alla 5 matchningsgeneratorer med temabilder och facit — prova gratis med vattenmärke.',
     description: 'Matchning & Sortering-paketet samlar fem specialiserade generatorer som täcker hela spektrumet av matchnings-, parnings- och kategoriseringsaktiviteter. Detta är ett hybridpaket — tre av de fem apparna är språkberoende och producerar arbetsblad med ordförrådsetiketter på något av 11 språk som stöds, medan två är helt visuella och fungerar världen över utan översättning. Matchning erbjuder fyra distinkta lägen inklusive bokstavsmatchning, bild-namnparning och anpassat innehåll. Rutnätsmatchning skapar koordinatbaserade matchningspussel på strukturerade rutnät. Skuggmatchning genererar siluettparningsarbetsblad där användare drar linjer som förbinder objekt med deras skuggor. Bingo producerar batchexporter av flera unika kort i en enda ZIP-nedladdning — den enda appen över alla paket med denna förmåga, designad specifikt för produktlinjes- och gruppanvändning. Bildsortering bygger tvåkategori-sorteringsarbetsblad där användare klassificerar tematiska bilder i vänster och höger grupper. Fyra av de fem generatorerna producerar automatiska facit. Bingo är undantaget — som en spelkortsgenerator finns det inget enda korrekt svar. Varje generator matar ut utskriftsklara PDF- och högupplösta JPEG-filer. Välj bland över 100 tematiska bilduppsättningar eller ladda upp dina egna PNG- och JPEG-filer för varumärkesspecifika, nischade produkter. Oavsett om du säljer matchningsaktivitetspaket på Etsy, publicerar sorteringsarbetsböcker på Amazon KDP eller skapar bingokortset för Gumroad, ger detta paket dig den variation och produktionshastighet som säljare behöver. Varje generator inkluderar en gratis provversion med vattenstämpel så att du kan testa alla funktioner innan du köper en licens.',
   },
 

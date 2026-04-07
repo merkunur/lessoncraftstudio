@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sorteringsarbetsblad skapar kategorisorterings sälja',
+    primaryKeyword: 'skapa sorteringsövningar att skriva ut förskola',
     secondaryKeywords: [
-      'skapa sorteringsarbetsblad för barn',
-      'bildsortering arbetsblad generator',
-      'utskriftsklara sorteringsaktiviteter att sälja',
-      'tvåkategoris klassificeringsarbetsblad',
+      'sorteringsarbetsblad generator barn att skriva ut',
+      'klipp och sortera övningsblad PDF förskola',
+      'sälja sorteringsarbetsblad Etsy printable barn',
+      'Amazon KDP pysselbok klassificering sortering',
     ],
     lsiKeywords: [
-      'klipp-och-sortera arbetsblad för förskola',
-      'bildklassificering aktivitetsgenerator',
-      'sorteringsarbetsblad med facit',
-      'sälja sorteringsarbetsblad på Etsy',
-      'Amazon KDP klassificeringsarbetsböcker',
-      'kommersiell licens sorteringsverktyg',
+      'klipp-och-sortera arbetsblad förskola förskoleklass',
+      'bildklassificering tvåkategori aktivitet generator',
+      'sorteringsarbetsblad automatiskt facit temaläge',
+      'sälja sorteringsarbetsblad Etsy printable digitala produkter',
+      'Amazon KDP pysselbok klassificering aktivitetsbok',
+      'kommersiell licens sorteringsverktyg flerspråkig',
     ],
-    titleTag: 'Skapa sorteringsarbetsblad att sälja | LCS',
-    metaDescription: 'Skapa sorteringsarbetsblad med tvåkategori temaläge, 4–12 bilder, blandat utklippsrutnät och automatiska facit. Steg-för-steg-guide för Etsy och KDP. Prova.',
+    titleTag: 'Skapa sorteringsövningar att skriva ut | LCS',
+    metaDescription: 'Skapa sorteringsarbetsblad att skriva ut med tvåkategori-format, blandat utklippsrutnät och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar kategorisorterings-arbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa tvåkategori klipp-och-sortera arbetsblad med tema- och manuella vallägen, autogenererade facit och flerspråkigt stöd du kan sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa sorteringsövningar att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa klipp-och-sortera arbetsblad med tvåkategori-format, temaval och automatiskt facit för Etsy, Amazon KDP och Gumroad',
     description: 'Kategorisortering är en av de tidigaste kognitiva färdigheterna barn utvecklar, och sorteringsarbetsblad förblir i hög efterfrågan. Denna guide leder dig genom hela skapandeprocessen med Bildsortering Arbetsblad-generatorn — från att välja urvalläge och konfigurera bildantal till att generera blandade utklippsrutnät med automatiska facit.',
   },
 

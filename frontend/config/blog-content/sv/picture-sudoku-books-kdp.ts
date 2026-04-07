@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bild sudoku boecker KDP',
+    primaryKeyword: 'bildsudoku bok Amazon KDP sälja',
     secondaryKeywords: [
-      'produkttyper säljer bäst',
-      'skapa professionella produkter snabbt',
-      'listnings marknadsföringsstrategi',
+      'sudoku barn bilder pusselbok publicera',
+      'bildsudoku printable Etsy förskoleklass',
+      'logikpussel bildbok KDP låg konkurrens',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'sudoku utan siffror barn lågstadiet',
+      'pusselbok barn skriva ut och sälja',
+      'bildsudoku aktivitetsbok nischprodukt',
     ],
-    titleTag: 'Bild-Sudoku-Böcker på KDP | LCS',
-    metaDescription: 'Bild-sudoku-böcker på Amazon KDP. Sudoku med bilder för barn som ännu inte kan siffror. Nisch med hög potential.',
+    titleTag: 'Bildsudoku-Böcker: Publicera på Amazon KDP',
+    metaDescription: 'Publicera bildsudoku-böcker på Amazon KDP. Sudoku med bilder istället för siffror. Nisch med låg konkurrens och hög potential.',
   },
   hero: {
-    title: 'Bild-Sudoku-Böcker på KDP',
-    tagline: 'Sudoku med bilder istället för siffror — perfekt för barn',
+    title: 'Bildsudoku-Böcker: Publicera på KDP',
+    tagline: 'Sudoku med bilder istället för siffror — perfekt nisch på KDP',
     description: 'Bild-sudoku ersätter siffror med bilder och gör logikpussel tillgängliga för barn. En växande nisch på KDP med låg konkurrens.',
   },
   category: 'product-guide',

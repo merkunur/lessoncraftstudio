@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digitala kontra digitalt fysiskt',
+    primaryKeyword: 'digitala vs fysiska printables jämförelse säljare',
     secondaryKeywords: [
-      'digital utskriftsbar affärsmodell',
-      'print on demand kontra digital nedladdning',
-      'fysisk utskriftsbar produktförsäljning',
-      'digital nedladdning utskriftsbar strategi',
+      'digital nedladdning vs print on demand jämförelse',
+      'sälja digitala eller fysiska utskriftsbara produkter',
+      'vinstmarginal digital vs fysisk printable',
+      'Etsy digital nedladdning eller KDP fysisk bok',
     ],
     lsiKeywords: [
       'digital nedladdning fysisk produkt print-on-demand leveransmodell',
-      'fraktkostnader vinstmarginal jämförelse lagerhantering skalbarhet',
-      'produktionskostnader leveransmetod kundupplevelse produktformat',
-      'hybridmodell digital marknadsplats fysiska marknader overheadkostnader',
-      'passiva intäkter utskriftskostnader förpackning produktkvalitetskontroll',
-      'formatval affärsmodelljämförelse säljarstrategi tillväxtväg',
+      'fraktkostnader vinstmarginal skalbarhet lagerhantering',
+      'produktionskostnader kundupplevelse produktformat jämförelse',
+      'hybridmodell Etsy KDP Gumroad digital fysisk',
+      'passiva intäkter utskriftskostnader förpackning kvalitet',
+      'affärsmodell formatval säljarstrategi tillväxtväg printables',
     ],
-    titleTag: 'Digitalt vs fysiskt: printables | LessonCraftStudio',
-    metaDescription: 'Jämförelse digitala kontra fysiska utskriftsbara produkter för säljare. Vinstmarginaler, skalbarhet, leverans och val av rätt format för ditt företag.',
+    titleTag: 'Digitalt vs fysiskt: printables guide | LCS',
+    metaDescription: 'Digitala vs fysiska printables: jämför vinstmarginaler, skalbarhet och leverans. Välj rätt format för din printable-verksamhet.',
   },
 
   hero: {
-    title: 'Digitala kontra fysiska utskriftsbara produkter',
-    tagline: 'En komplett guide till digitala kontra fysiska utskriftsbara produkter — inklusive hur du jämför vinstmarginaler, utvärderar skalbarhet, förstår kundförväntningar, väljer rätt plattformar för varje format, implementerar en hybridmodell, planerar produktionsarbetsflöden och övergår mellan format när ditt företag växer',
+    title: 'Digitala vs fysiska printables — vilken modell passar dig?',
+    tagline: 'Komplett jämförelse: vinstmarginaler, skalbarhet, kundförväntningar och plattformsval för digitala nedladdningar vs fysiska utskriftsprodukter',
     description: 'Varje säljare av utskriftsbara produkter står inför ett fundamentalt affärsmodellsbeslut: sälja digitala nedladdningar som köpare skriver ut själva, sälja förproducerade fysiska produkter som levereras till köpare, eller erbjuda båda formaten. Varje approach har olika marginalstrukturer, operativa krav, skalbarhetegenskaper och kundförväntningar. Denna guide ger ett grundligt jämförelseramverk för att hjälpa dig utvärdera båda formaten och välja den approach som matchar dina resurser, mål och målmarknad.',
   },
 

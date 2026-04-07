@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis subtraktionsblad generator',
+    primaryKeyword: 'subtraktionsuppgifter skriva ut gratis',
     secondaryKeywords: [
-      'subtraktionsblad generator gratis online',
-      'minusräkningsblad skapa gratis',
-      'subtraktions arbetsblad skriva ut gratis',
-      'gratis subtraktionsövningar med bilder',
+      'minusstycken generator gratis online',
+      'matteuppgifter subtraktion gratis',
+      'subtraktionsuppgifter förskoleklass gratis',
+      'minusräkning övningsblad gratis',
     ],
     lsiKeywords: [
-      'gratis subtraktionsblad online',
-      'överstrykning matteblad att skriva ut',
-      'minusräkning övningsblad förskoleklass',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'lågstadiet',
+      'åk 1',
+      'facit',
     ],
-    titleTag: 'Subtraktionsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa subtraktionsblad gratis online med överstrykning. 104 teman, 4 lägen, facit, tryckfärdiga PDF:er. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Subtraktionsuppgifter gratis online | Generator med facit',
+    metaDescription: 'Skapa subtraktionsuppgifter gratis online med temabilder och automatiskt facit. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis subtraktionsblad generator online',
-    tagline: 'Skapa visuella stryk-över subtraktionsblad på under 60 sekunder — gratis provversion med vattenmärke',
+    title: 'Subtraktionsuppgifter gratis online — Generator med temabilder och facit',
+    tagline: 'Skapa subtraktionsuppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Gör subtraktion begripligt med stryk-över-visuella — helt gratis att testa online. Användarna stryker över bilder för att hitta svaret, det mest naturliga sättet att lära sig subtraktion. Välj bland mer än 100 bildteman, ställ in svårighetsgrad och ladda ner tryckfärdiga PDF:er. Perfekt för föräldrar som söker subtraktionsblad att skriva ut, och för Etsy-säljare som vill testa generatorn innan de köper en kommersiell licens. Den gratis provversionen innehåller en vattenstämpel på nedladdningar. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'diagram bilddiagram arbetsblad skapa diagramblad sälja online',
+    primaryKeyword: 'skapa bilddiagram arbetsblad att skriva ut',
     secondaryKeywords: [
-      'skapa bilddiagram arbetsblad att sälja',
-      'diagram räkning arbetsblad generator kommersiellt bruk',
-      'utskriftsklara piktogram arbetsblad för Etsy och KDP',
-      'stapeldiagram räkningsarbetsblad med automatiskt facit',
+      'diagramövningar att skriva ut förskoleklass',
+      'bilddiagram räkneövning generator PDF',
+      'sälja stapeldiagram arbetsblad Etsy KDP',
+      'utskriftsbara piktogram övningar lågstadiet',
     ],
     lsiKeywords: [
-      'utspridd 4x5 bildrutnät datainsamling räkningsarbetsblad generator',
-      'dubbelarbetsyta facit gulmarkerade celler automatisk lösning',
-      'slumpmässig fördelning 6 bildtyper 1-5 vardera unik generering',
-      'sälja bilddiagram arbetsblad på Etsy',
-      'Amazon KDP datakompetens arbetsböcker med stapeldiagram',
-      'kommersiell licens diagram räkning verktyg',
+      'bilddiagram 4x5 rutnät datainsamling räkning generator',
+      'automatiskt facit dubbelarbetsyta stapeldiagram övning',
+      'slumpmässig fördelning unika arbetsblad varje generering',
+      'sälja bilddiagram Etsy printable matte datakompetens',
+      'Amazon KDP pysselbok stapeldiagram dataövningar',
+      'kommersiell licens diagramverktyg 104 teman flerspråkig',
     ],
-    titleTag: 'Diagramblad att sälja online | LessonCraftStudio',
-    metaDescription: 'Skapa bilddiagram arbetsblad med 4×5 utspridda rutnät, automatiskt facit, slumpmässig bildfördelning och 104 teman. Steg-för-steg-guide för Etsy och KDP.',
+    titleTag: 'Skapa bilddiagram att skriva ut | LCS',
+    metaDescription: 'Skapa bilddiagram-arbetsblad att skriva ut med automatiskt facit och 104 teman. Steg-för-steg-guide. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar bilddiagram och diagram-arbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa bilddiagram-arbetsblad där användare räknar 20 utspridda bilder över ett 4×5 rutnät och registrerar antal i ett 6-kolumns × 5-raders stapeldiagram, med ett dubbelarbetsytesystem som automatiskt genererar facit med gulmarkerade celler (#FFC857) simultant, slumpmässig fördelning som tilldelar var och en av 6 bildtyper 1–5 gånger för unika arbetsblad varje generering, tre bildvalslägen, lokaliserade "Bilddiagram"-rubriker på 11 språk, språkoberoende visuell räkning som säljer globalt utan översättning, och 300 DPI-exporter',
+    title: 'Skapa bilddiagram-arbetsblad att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa räkneövningar med bilddiagram, automatiskt facit och slumpmässig generering för Etsy, Amazon KDP och Gumroad',
     description: 'Diagram Räkning Arbetsblad-generatorn genererar bilddiagram-arbetsblad som lär två sammankopplade datafärdigheter i en enda aktivitet: datainsamling genom att räkna utspridda bilder, och datarepresentation genom att fylla stapeldiagramsceller. Dubbelarbetsytesystemet är den avgörande konkurrensfördelen — appen genererar simultant ett arbetsblad och ett facit med gulmarkerade celler (#FFC857). Tre bildvalslägen betjänar olika produktionsarbetsflöden. Bilddiagram-arbetsblad är inte språkkänsliga — visuell räkning använder universella siffror och bilder, så samma arbetsblad fungerar identiskt i alla länder utan översättning.',
   },
 

@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lönsamma nischer för printables hur undersöker utskriftsbara',
+    primaryKeyword: 'hitta lönsamma nischer printables',
     secondaryKeywords: [
-      'nischforskningsmetoder utskriftsbara produkter',
-      'hitta lönsamma arbetsblad-nischer',
-      'marknadsundersökning utskriftsbara produkter',
-      'efterfrågeanalys nischer utskriftsbara',
+      'nischforskning utskriftsbara produkter Etsy',
+      'lönsamma arbetsblad-nischer Amazon KDP',
+      'marknadsundersökning printables säljare',
+      'efterfrågeanalys nischer att sälja',
     ],
     lsiKeywords: [
       'marknadsplatsdata nyckelordsforskning sökvolym konkurrensnivå efterfrågesignaler',
-      'köparavsikt trendande nischer underservade marknader nischvalidering marknadsgap',
-      'säsongsefterfrågan vintergrön efterfrågan publikforskning prisanalys konkurrensanalys',
-      'produkt-marknadspassning söktrender marknadsplatsanalys nischlönsamhetspoäng',
-      'efterfrågekvantifiering marknadsmättnadsanalys nyckelordsverktyg datadrivna beslut',
-      'minimalt livskraftig produkttestning forskningsarbetsflöde nischupptäckt systematisk process',
+      'köparavsikt trendande nischer underservade marknader marknadsgap',
+      'säsongsefterfrågan vintergrön efterfrågan prisanalys konkurrensanalys',
+      'Etsy autokomplettering Amazon KDP kategori Google Trends',
+      'pysselbok pusselbok aktivitetsbok arbetsblad skriva ut',
+      'förskoleklass lågstadiet mellanstadiet målgrupp validering',
     ],
-    titleTag: 'Lönsamma nischer för printables | LessonCraftStudio',
-    metaDescription: 'Hur du undersöker lönsamma utskriftsbara nischer med marknadsplatsdata, nyckelordsanalys, konkurrentforskning, efterfrågesignaler och systematiska valideringsme',
+    titleTag: 'Hitta lönsamma nischer printables | LCS',
+    metaDescription: 'Undersök lönsamma nischer för printables med marknadsplatsdata, nyckelordsanalys och konkurrentforskning. Systematisk metod för Etsy- och KDP-säljare.',
   },
 
   hero: {
-    title: 'Hur du undersöker lönsamma utskriftsbara nischer',
+    title: 'Hitta lönsamma nischer för printables',
     tagline: 'En komplett forskningsmetodikguide — inklusive marknadsplats-sökanalys, kvantifiering av nyckelordsefterfrågan, konkurrentproduktforskning, identifiera underservade marknadsgap, utvärdera nischlönsamhet, testa efterfrågan med minimalt livskraftiga produkter, spåra säsongs- och trendmönster och bygga ett pågående nischupptäcktssystem',
     description: 'Skillnaden mellan säljare som konsekvent hittar lönsamma nischer och de som gissar fel är inte tur eller intuition — det är metodik. Framgångsrika säljare använder specifika forskningstekniker för att identifiera nischer där köparefterfrågan är stark, konkurrensen hanterbar och prissättningen stöder sunda marginaler. Denna guide lär dig de faktiska forskningsprocesserna, datakällorna och analytiska ramverken för att upptäcka lönsamma utskriftsbara nischer systematiskt snarare än att förlita dig på magkänsla eller kopiera vad andra redan säljer.',
   },

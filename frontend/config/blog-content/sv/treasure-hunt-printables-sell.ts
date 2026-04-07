@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skattjakt utskrifter saelj',
+    primaryKeyword: 'skattjakt printables sälja på Etsy',
     secondaryKeywords: [
-      'skattjakt-utskrifter sälj online Etsy',
-      'skattjakt-utskrifter sälj foeretagande',
-      'utskrifter skattjakt-utskrifter sälj',
+      'skattjakt-blad barn skriva ut barnkalas',
+      'treasure hunt printable inomhus utomhus',
+      'skattjakt aktivitetsblad pysselbok KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'barnkalas skattjakt ladda ner PDF',
+      'skolavslutning aktivitet skattjakt',
+      'tematisk skattjakt printable-nisch',
     ],
-    titleTag: 'Skattjakt-Utskrifter: Sälj Online | LCS',
-    metaDescription: 'Skattjakt-utskrifter säljer till föräldrar, eventplanerare och pedagoger. Inomhus, utomhus och tematiska versioner. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skattjakt-Printables: Sälj på Etsy',
+    metaDescription: 'Sälj skattjakt-printables. Populärt för barnkalas och skolavslutningar. Inomhus, utomhus och tematiska versioner.',
   },
   hero: {
-    title: 'Skattjakt-Utskrifter: Sälj Online',
-    tagline: 'Skattjakt-blad för inomhus och utomhus',
+    title: 'Skattjakt-Printables: Sälj på Etsy',
+    tagline: 'Skattjakt-blad säljer till föräldrar och eventplanerare',
     description: 'Skattjakt-blad är perfekta för barnkalas, skolavslutningar och familjeaktiviteter. Enkla att skapa och populära året runt.',
   },
   category: 'product-guide',

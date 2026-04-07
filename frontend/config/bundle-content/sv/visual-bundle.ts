@@ -2,26 +2,28 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'visuellt lärpaket för säljare lärande paket',
+    primaryKeyword: 'visuellt lärande paket generator',
     secondaryKeywords: [
-      'målarbilder ritning arbetsblad generator paket för säljare',
-      'visuella aktiviteter utskriftspaket kommersiell användning',
-      'mönsterigenkänning arbetsblad paket för Etsy',
-      'ritning målning arbetsblad generatorer för KDP-säljare',
+      'målarbilder generator paket',
+      'rituppgifter generator bundle',
+      'para ihop uppgifter paket',
+      'finmotorik övningar paket',
     ],
     lsiKeywords: [
-      'målarbilder ritningsarbetsblad paket',
-      'mönsterigenkänning diagramräkning utskriftsbar samling',
-      'kommersiell licens visuella aktivitetsarbetsblad',
-      'bulkproduktion visuella arbetsblad verktyg',
+      'målarbilder',
+      'ritning',
+      'para ihop',
+      'finmotorik',
+      'streckade linjer',
+      'förskoleklass',
     ],
-    titleTag: 'Visuellt lärpaket för säljare | LessonCraftStudio',
-    metaDescription: 'Få 7 visuella lärande-generatorer i ett paket. Skapa målarbilder, ritning, mönster, storleksjämförelse, diagram och linjespårning att sälja online. $49.',
+    titleTag: 'Visuellt lärande paket — 7 generatorer | 149 $ engångsbetalning',
+    metaDescription: 'Alla 7 visuella generatorer i ett paket: målarbilder, ritning, matchning, streckade linjer, hitta föremål och mer. Prova gratis.',
   },
 
   hero: {
-    title: 'Visuellt Lärande-paket',
-    tagline: 'Sju helt visuella arbetsblad-generatorer — arbetsblad som fungerar på alla språk världen över',
+    title: 'Visuellt lärande paket — 7 generatorer för målarbilder, ritning & mer',
+    tagline: 'Alla 7 visuella generatorer med temabilder — prova gratis med vattenmärke.',
     description: 'Varje generator i detta paket producerar arbetsblad gjorda helt av bilder, former, färger och siffror. Ingen text visas på den färdiga sidan utöver valfria gränssnittsetiketter. Det innebär att varje arbetsblad du skapar fungerar för köpare i alla länder, alla språk, alla skolsystem — utan översättning, utan anpassning, utan lokaliseringsarbete. Visuellt Lärande-paketet kombinerar sju specialiserade generatorer som täcker storleksjämförelse, tågvagns-mönstersekvenser, fyll-i-luckan-mönsterarbetsblad, referensbild-ritning med symmetriläge, linjespårning mellan parade objekt, målarbild-skapande från bildkonturer och stapeldiagram-räkningsaktiviteter. Två av de sju generatorerna — Rita och Färglägg och Målarbilder — har dedikerade svartvita konturteman designade specifikt för infärgning, vilket ger dig tillgång till både färgglada och svartvita produktstilar från en enda verktygslåda. Tre generatorer inkluderar automatiska facit där det är tillämpligt: Stort & Litet, Mönster Arbetsblad och Diagramräkning. De övriga fyra är kreativa eller praktiska aktiviteter där facit inte är tillämpliga. Varje generator matar ut utskriftsklara PDF- och högupplösta JPEG-filer. Välj bland över 100 tematiska bilduppsättningar eller ladda upp ditt eget konstverk för varumärkesspecifika, nischade produkter. Oavsett om du säljer målarbilder på Etsy, publicerar aktivitetsböcker på Amazon KDP eller distribuerar förskolepaket på Gumroad, ger detta paket dig den visuella variation och universella marknadsräckvidd som textberoende konkurrenter inte kan matcha. Varje generator inkluderar en gratis provversion med vattenstämpel så att du kan testa alla funktioner innan du köper en licens.',
   },
 

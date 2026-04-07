@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hjärnpaus utskrifter populärt för pedagoger',
+    primaryKeyword: 'sälja hjärnpaus-aktiviteter printable',
     secondaryKeywords: [
-      'hjärnpaus-utskrifter populärt pedagoger Etsy',
-      'hjärnpaus-utskrifter populärt foeretagande',
-      'utskrifter hjärnpaus-utskrifter populärt',
+      'brain break arbetsblad skriva ut',
+      'korta pusselblad förskola sälja',
+      'pausaktiviteter barn PDF Etsy',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'labyrint färgläggning snabba övningar',
+      'pedagogiska printables rastaktivitet',
+      'miniaktiviteter barn skriva ut',
     ],
-    titleTag: 'Hjärnpaus-Utskrifter: Populärt för Pedagoger | LCS',
-    metaDescription: 'Hjärnpaus-aktiviteter som pussel, labyrint och färgläggning säljer bra till föräldrar och pedagoger. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sälj Hjärnpaus-Printables till Pedagoger | LCS',
+    metaDescription: 'Hjärnpaus-aktiviteter som pussel och labyrint säljer bra till pedagoger och föräldrar. Skapa och sälj pausaktiviteter på Etsy.',
   },
   hero: {
-    title: 'Hjärnpaus-Utskrifter: Populärt för Pedagoger',
-    tagline: 'Korta aktiviteter som ger barnen paus mellan lektioner',
+    title: 'Sälj Hjärnpaus-Printables till Pedagoger',
+    tagline: 'Korta pausaktiviteter som varje förskola och skola behöver',
     description: 'Hjärnpaus-aktiviteter fyller ett verkligt behov. Korta pussel, labyrintblad och snabba färgläggningssidor ger barn en välbehövlig paus.',
   },
   category: 'product-guide',

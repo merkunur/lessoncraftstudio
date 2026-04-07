@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'saelj subtraktions-arbetsblad online 2026',
+    primaryKeyword: 'sälja subtraktions-arbetsblad online Etsy',
     secondaryKeywords: [
-      'subtraktions-arbetsblad Etsy foeretagande',
-      'saelj matte-arbetsblad nedladdning',
-      'utskrivbara subtraktionsaktiviteter saelj',
+      'subtraktionsövningar printables sälja',
+      'matteblad subtraktion pysselbok KDP',
+      'korsförsäljning addition subtraktion Etsy',
     ],
     lsiKeywords: [
-      'matte-utskriftsfoersaeljning',
-      'subtraktion oevningsblad',
-      'digitala nedladdningar matte',
+      'subtraktion arbetsblad lågstadiet förskoleklass',
+      'räkneövningar minus barn ladda ner',
+      'mattepaket Etsy digital nedladdning',
     ],
-    titleTag: 'Sälj Subtraktions-Arbetsblad Online: Guide | LCS',
-    metaDescription: 'Komplett guide till att sälja subtraktions-arbetsblad online. Produktskapande, prissättning och marknadsföringsstrategier för Etsy och KDP 2026.',
+    titleTag: 'Sälj Subtraktions-Arbetsblad Online: Guide',
+    metaDescription: 'Guide till att sälja subtraktions-arbetsblad online. Prissättning och paketering för Etsy och Amazon KDP.',
   },
   hero: {
-    title: 'Sälj Subtraktions-Arbetsblad Online: Komplett Guide',
-    tagline: 'Subtraktion är det naturliga nästa steget efter addition — och lika lönsamt',
+    title: 'Sälj Subtraktions-Arbetsblad Online',
+    tagline: 'Subtraktion kompletterar addition och säljer lika bra',
     description: 'Subtraktions-arbetsblad är det perfekta komplementet till addition och säljer nästan lika bra året runt. Föräldrar som köper additions-övningar köper ofta subtraktionsblad samtidigt, vilket gör korsförsäljning till en inbyggd fördel. Den här guiden visar hur du skapar differentierade subtraktionsprodukter, paketerar dem smart och listar dem där köparna faktiskt söker — med verkliga priser i SEK och strategier anpassade för den nordiska marknaden.',
   },
   category: 'product-guide',

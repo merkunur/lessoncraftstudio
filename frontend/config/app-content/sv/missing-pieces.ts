@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'saknade bitar-pussel för KDP-arbetsböcker',
+    primaryKeyword: 'pussel saknade bitar skriva ut',
     secondaryKeywords: [
-      'saknade bitar pussel för Etsy-säljare',
-      'visuellt pussel generator för Amazon KDP',
-      'pusselblad arbetsblad kommersiell licens',
-      'saknade bitar printables att sälja online',
-      'visuell perception pusselbok KDP',
+      'vilken bit passar uppgift',
+      'pussel uppgiftsblad',
+      'visuell logik uppgift',
+      'pusselbitar hitta',
     ],
     lsiKeywords: [
-      'passiv inkomst saknade bitar',
-      'printables-verksamhet visuella pussel',
-      'visuell diskriminering produktlinje',
-      'svenska marknaden pusselblad Etsy',
+      'pussel',
+      'bitar',
+      'visuell logik',
+      'förskoleklass',
+      'lågstadiet',
     ],
-    titleTag: 'Saknade bitar-pussel för Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa saknade bitar-pussel att sälja på Etsy och KDP. 6 bitformer, 1–5 saknade bitar, facit, 104 teman, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Pussel saknade bitar att skriva ut | Generator visuell logik',
+    metaDescription: 'Skapa uppgifter med saknade bitar med temabilder och automatiskt facit. 300 DPI PDF utskrivbara. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa saknade bitar-pussel att sälja på Etsy och Amazon KDP',
-    tagline: 'Generera pusselliknande pussel med 6 bitformer, 1–5 saknade bitar, distraktorer och automatiskt facit — visuell design som fungerar globalt.',
+    title: 'Pussel saknade bitar att skriva ut — Generator visuell logik',
+    tagline: 'Skapa uppgifter med saknade pusselbitar och temabilder för förskoleklass — prova gratis med vattenmärke.',
     description:
       'Skapa saknade bitar-pussel att sälja på Etsy eller sammanställa i pusselarbetsböcker för Amazon KDP. En bild har hål utklippta och köparna identifierar vilken numrerad bit som fyller varje lucka — ett engagerande format som tränar visuell diskriminering. Välj bland 6 bitformer och konfigurera 1–5 saknade bitar med 2–6 alternativ inklusive distraktorer. Automatiskt facit ingår. Pusslen är rent visuella — samma produkt säljs globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Saknade bitar-pussel är ett unikt produktformat som sticker ut bland konkurrenter och säljer bra som del av visuella perception-böcker på KDP. Den svenska marknaden saknar denna typ av produkter helt. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'spårningsarbetsblad finmotorik sälj',
+    primaryKeyword: 'spårningsarbetsblad finmotorik sälja Etsy',
     secondaryKeywords: [
-      'spårningsarbetsblad finmotorik sälj Etsy',
-      'spårningsarbetsblad finmotorik foeretagande',
-      'utskrifter spårningsarbetsblad finmotorik',
+      'bokstavsspårning barn printable skriva ut',
+      'finmotorik arbetsblad förskoleklass KDP',
+      'spåra linjer former pysselbok barn',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'skrivförberedande arbetsblad barn 3-6 år',
+      'tracing worksheets printable-nisch',
+      'handskrivning förberedelse förskola',
     ],
-    titleTag: 'Spårningsarbetsblad: Finmotorik och Sälj | LCS',
-    metaDescription: 'Spårningsarbetsblad utvecklar finmotorik och förbereder barn för handskrivning. Starkt efterfrågade för ålder 3-6. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Spårningsarbetsblad: Sälj Finmotorik-Printables',
+    metaDescription: 'Sälj spårningsarbetsblad som printables. Finmotorik och skrivförberedelse för barn 3-6 år. Stark efterfrågan på Etsy.',
   },
   hero: {
-    title: 'Spårningsarbetsblad: Finmotorik och Sälj',
-    tagline: 'Spårning — bryggan mellan lek och skrivning',
+    title: 'Spårningsarbetsblad: Sälj Finmotorik-Printables',
+    tagline: 'Spårning förbereder barn för skrivning och säljer starkt',
     description: 'Spårningsarbetsblad är en av de mest sökta utskriftstyperna. Barn spårar linjer, former och bokstäver — perfekt förberedelse för skrivning.',
   },
   category: 'product-guide',

@@ -2,24 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'prissätta printables på Etsy',
+    primaryKeyword: 'prissätta printables Etsy rätt pris',
     secondaryKeywords: [
-      'hur man prissätter printables på Etsy',
       'Etsy prisstrategi digitala nedladdningar',
-      'prissättning arbetsblad paket Etsy',
-      'Etsy printables prisguide',
+      'prissättning arbetsblad paket Etsy-butik',
+      'hur prissätta utskriftsbara produkter',
+      'Etsy avgifter nettointäkt kalkylator',
     ],
     lsiKeywords: [
-      'Etsy avgifter nettointäkt beräkning',
-      'paketprissättning pedagogiska printables',
-      'prisstrategi printables-verksamhet',
+      'Etsy avgifter nettointäkt beräkning transaktionsavgift',
+      'paketprissättning pedagogiska printables trenivå-pris',
+      'prisstrategi printables-verksamhet konkurrentanalys',
+      'arbetsblad pysselbok pusselbok prispunkt',
+      'säsongsrabatt kupongstrategi ordervärde',
+      'skriva ut PDF digital nedladdning A4 Letter',
     ],
-    titleTag: 'Prissätta printables på Etsy | LessonCraftStudio',
-    metaDescription: 'Prissätt printables på Etsy rätt. Avgiftsmatematik, trenivå-prissättning, paketstrategier och säsongsbetonade justeringar. Komplett prisguide för säljare.',
+    titleTag: 'Prissätta printables på Etsy | LCS',
+    metaDescription: 'Prissätt dina printables på Etsy rätt. Avgiftsmatematik, trenivå-prissättning, paketstrategier och konkurrentanalys. Komplett prisguide för Etsy-säljare.',
   },
 
   hero: {
-    title: 'Prissätta printables på Etsy — komplett prisguide för säljare',
+    title: 'Prissätta printables på Etsy — prisguide',
     tagline: 'En komplett prisstrategi-guide för Etsy utskriftsbara arbetsblad-säljare — täcker konkurrentresearch, Etsy avgiftsmatematik och nettointäktsberäkningar, baspris-benchmarks per produkttyp och sidantal, trenivå-prisstrukturer som ökar genomsnittligt ordervärde, korskategori- och årskursnivå-paketprissättning, strategisk användning av Etsy-kampanjer och kuponger, internationella prisjusteringar för globala köpare och pristestningsmetodik med Etsy Stats konverteringsdata',
     description: 'Prissättning är det enskilt mest påverkande beslutet i ditt Etsy utskriftsbara arbetsblad-företag. Prissätt för lågt och Etsy-avgifter äter dina marginaler. Prissätt för högt utan att kommunicera värde och köpare scrollar förbi. Denna guide ger dig det kompletta prisramverket — från att beräkna din faktiska nettointäkt efter alla Etsy-avgifter, till att bygga en trenivå-prisstruktur som naturligt ökar genomsnittligt ordervärde, till att prissätta korskategori-paket som tar ut premiumpriser. Oavsett om du listar ditt första arbetsbladspaket eller optimerar priser över en etablerad katalog kommer du ha en datadriven prisstrategi vid slutet av denna guide.',
   },

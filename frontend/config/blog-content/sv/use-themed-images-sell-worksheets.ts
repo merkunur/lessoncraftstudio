@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tematiska bilder saelj arbetsblad',
+    primaryKeyword: 'tematiska bilder arbetsblad sälja mer',
     secondaryKeywords: [
-      'steg för steg guide',
-      'vanliga misstag undvika',
-      'avancerade tips',
+      'bildtema arbetsblad differentiering Etsy',
+      'unika printables tematiska bilder generator',
+      'tematiskt arbetsblad professionell design',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'djurtema blomtema rymdtema arbetsblad',
+      '100+ bildteman printable-produktion',
+      'visuellt attraktiva arbetsblad säljer bättre',
     ],
-    titleTag: 'Använd Tematiska Bilder: Sälj Arbetsblad | LCS',
-    metaDescription: 'Tematiska bilder gör dina arbetsblad unika och attraktiva. Hur du använder 100+ bildteman för maximal försäljning. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Tematiska Bilder: Sälj Mer Arbetsblad',
+    metaDescription: 'Tematiska bilder gör arbetsblad unika och attraktiva. 100+ bildteman i generatorn. Differentiering som ökar försäljningen.',
   },
   hero: {
-    title: 'Använd Tematiska Bilder: Sälj Arbetsblad',
-    tagline: 'Tematiska bilder differentierar dina produkter',
+    title: 'Tematiska Bilder: Sälj Mer Arbetsblad',
+    tagline: 'Tematiska bilder differentierar och ökar konverteringen',
     description: 'Tematiska bilder är det som skiljer professionella arbetsblad från generiska. Med 100+ teman i generatorn kan du skapa unika produkter.',
   },
   category: 'how-to',

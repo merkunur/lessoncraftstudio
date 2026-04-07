@@ -2,28 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'flerspråkiga arbetsblad sälja skapar språk',
+    primaryKeyword: 'skapa flerspråkiga arbetsblad att sälja',
     secondaryKeywords: [
-      'skapa arbetsblad på flera språk',
-      'flerspråkiga utskriftsbara arbetsblad',
-      'sälja arbetsblad på tyska franska spanska',
-      'flerspråkig aktivitetsboksgenrator',
+      'arbetsblad på flera språk Etsy',
+      'flerspråkig printable-verksamhet',
+      'sälja tyska franska arbetsblad online',
+      'internationell marknad utskriftsbara produkter',
     ],
     lsiKeywords: [
       'språkkänslig arbetsbladsgenrator',
-      'skapa arbetsblad på 11 språk',
-      'icke-engelska utskriftsbar marknad Etsy',
+      'arbetsblad 11 språk automatiskt',
+      'Etsy.de Etsy.fr sälja arbetsblad',
       'flerspråkig ordsöksgenrator',
-      'internationellt utskriftsbart företag',
-      'sälja arbetsblad på Etsy.de Etsy.fr',
+      'internationell expansion printable-företag',
+      'lokaliserat pedagogiskt innehåll',
     ],
-    titleTag: 'Flerspråkiga arbetsblad att sälja | LessonCraftStudio',
-    metaDescription: 'Skapa och sälj arbetsblad på 11 språk med en flerspråkig genrator. Nå tyska, franska och spanska köpare på Etsy, Amazon KDP och globala marknader. Prova.',
+    titleTag: 'Flerspråkiga arbetsblad: sälj på 11 språk | LCS',
+    metaDescription: 'Skapa och sälj arbetsblad på 11 språk utan översättningsarbete. Nå köpare på Etsy.de, Amazon.fr och globala marknader.',
   },
 
   hero: {
-    title: 'Så skapar du arbetsblad på 11 språk',
-    tagline: 'Nå internationella köpare på Etsy och Amazon KDP med professionellt lokaliserat arbetsbladsinnehåll — inga översättningskunskaper krävs',
+    title: 'Skapa och sälj arbetsblad på 11 språk',
+    tagline: 'Nå internationella köpare med lokaliserat innehåll — inga översättningskunskaper krävs',
     description: 'De flesta säljare av utskriftsbara produkter konkurrerar enbart på den engelskspråkiga marknaden och ignorerar miljontals köpare som söker på tyska, franska, spanska, portugisiska, italienska och andra språk. Denna guide visar hur du använder flerspråkiga arbetsbladsgenratorer för att skapa autentiskt, språkspecifikt innehåll på 11 språk och sälja det på internationella marknadsplatser. Du kommer att lära dig den avgörande skillnaden mellan språkkänsliga och visuella genratorer, förstå marknadsmöjligheterna för varje språk som stöds och bygga en systematisk strategi för att expandera ditt utskriftsbara företag internationellt.',
   },
 

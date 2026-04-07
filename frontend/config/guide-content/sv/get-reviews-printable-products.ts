@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'få recensioner för printable-produkter',
+    primaryKeyword: 'få recensioner Etsy printable-produkter strategi',
     secondaryKeywords: [
-      'strategi för recensioner utskriftsbara produkter',
-      'etsy recensioner digitala produkter',
-      'kundrecensioner arbetsbladsföretag',
-      'öka recensioner utskriftsbar butik',
+      'öka recensioner Etsy digitala produkter',
+      'kundrecensioner strategi printable-verksamhet',
+      'socialt bevis utskriftsbara produkter Etsy',
+      'recensioner KDP Amazon aktivitetsbok strategi',
     ],
     lsiKeywords: [
-      'stjärnbetyg köparfeedback produktrecension recensionsbegäran recensionsgenerering socialt bevis',
-      'kundnöjdhet recensionsuppföljning feedbackloop butiktrovärdighet',
-      'recensionskonverteringsgrad positiva recensioner produktkvalitetssignaler kundupplevelse',
+      'stjärnbetyg köparfeedback recensionsbegäran socialt bevis',
+      'kundnöjdhet recensionsuppföljning feedbackloop trovärdighet',
+      'recensionskonvertering positiva recensioner kvalitetssignaler',
       'recensionssvar butiksrykte förtroendebyggande köpförtroende',
-      'organiska recensioner autentisk feedback recensionsvolym marknadsplatsranking',
-      'listningsoptimering förväntningssättning köparkommunikation efterköpsupplevelse',
+      'organiska recensioner autentisk feedback marknadsplatsranking',
+      'förväntningssättning köparkommunikation efterköpsupplevelse',
     ],
-    titleTag: 'Få recensioner för printables | LessonCraftStudio',
-    metaDescription: 'Beprövade strategier för att få recensioner för utskriftsbara produkter. Bygg socialt bevis, tjäna autentisk feedback och lyft din Etsy-, KDP- och Gumroad-butik',
+    titleTag: 'Få recensioner printables Etsy | LCS',
+    metaDescription: 'Strategier för att få fler recensioner som printable-säljare. Bygg socialt bevis, tjäna autentisk feedback och lyft din Etsy- och KDP-butik.',
   },
 
   hero: {
-    title: 'Så får du recensioner för utskriftsbara produkter',
-    tagline: 'En komplett guide till att tjäna autentiska recensioner för utskriftsbara produkter — inklusive hur du levererar recensionsvärda produktupplevelser, optimerar nedladdnings- och användningskvalitet, inkluderar professionella recensionsbegäranden, följer upp köpare vid rätt tidpunkt, svarar konstruktivt på alla recensioner, sätter korrekta listningsförväntningar, bygger recensionsvolym genom katalogtillväxt och skapar feedbackloopar som förbättrar dina produkter över tid',
+    title: 'Få fler recensioner som printable-säljare',
+    tagline: 'Komplett guide: leverera recensionsvärda produkter, professionella uppföljningar och feedbackloopar som bygger socialt bevis på Etsy, Amazon KDP och Gumroad',
     description: 'Recensioner är den mest kraftfulla förtroendesignalen på marknadsplatser för digitala produkter. För säljare av utskriftsbara produkter, där köpare inte fysiskt kan granska produkten före köp, fungerar recensioner som det primära beviset på att dina arbetsblad levererar vad de lovar. En produkt med 50 positiva recensioner säljer bättre än en identisk produkt med noll recensioner eftersom köpare använder socialt bevis för att minska den upplevda risken med att köpa från en okänd säljare. Denna guide visar dig hur du systematiskt tjänar autentiska recensioner som bygger trovärdighet, förbättrar marknadsplatssynlighet och driver konsekvent försäljningstillväxt.',
   },
 

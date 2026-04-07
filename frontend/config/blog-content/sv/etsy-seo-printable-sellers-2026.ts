@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO utskriftsfoersaeljare 2026',
+    primaryKeyword: 'Etsy SEO printable-säljare 2026',
     secondaryKeywords: [
-      'etsy utskriftssäljare 2026 Etsy',
-      'etsy utskriftssäljare foeretagande',
-      'utskrifter etsy utskriftssäljare',
+      'Etsy algoritm uppdatering 2026',
+      'SEO strategi sälja arbetsblad Etsy',
+      'Etsy sökrankning printables tips',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'Etsy relevans konvertering ranking',
+      'nyckelord taggar Etsy 2026',
+      'synlighet Etsy digitala produkter',
     ],
-    titleTag: 'Etsy SEO för Utskriftssäljare 2026 | LCS',
-    metaDescription: 'Uppdaterad Etsy SEO-guide för utskriftssäljare 2026. Nya algoritmförändringar, taktiker och verktyg som fungerar nu.',
+    titleTag: 'Etsy SEO för Printable-Säljare 2026 | LCS',
+    metaDescription: 'Etsy SEO-guide för printable-säljare 2026. Nya algoritmändringar, nyckelordstaktiker och verktyg som fungerar nu.',
   },
   hero: {
-    title: 'Etsy SEO för Utskriftssäljare 2026',
-    tagline: 'Etsys algoritm förändras — din strategi måste följa med',
+    title: 'Etsy SEO för Printable-Säljare 2026',
+    tagline: 'Uppdaterade strategier för Etsys nya algoritm',
     description: 'Etsy SEO 2026 prioriterar relevans, konverteringshistorik och kundnöjdhet. Titlar med rätt nyckelord och bra foton är viktigare än någonsin.',
   },
   category: 'platform-strategy',

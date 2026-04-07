@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'rita faerglaegga arbetsblad saelj',
+    primaryKeyword: 'sälja rita och färglägg arbetsblad Etsy',
     secondaryKeywords: [
-      'produkttyper säljer bäst',
-      'skapa professionella produkter snabbt',
-      'listnings marknadsföringsstrategi',
+      'kreativa arbetsblad barn printable',
+      'teckningsövningar skriva ut PDF',
+      'färgläggningsblad finmotorik barn',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'skärmfria aktiviteter barn',
+      'kreativ motorik arbetsblad förskola',
+      'rita måla övningsblad sälja',
     ],
-    titleTag: 'Rita-och-Färglägg-Arbetsblad: Sälj Online | LCS',
-    metaDescription: 'Rita-och-färglägg-arbetsblad kombinerar kreativitet med finmotorik. Populärt på Etsy för barn 3-8 år.',
+    titleTag: 'Sälj Rita-och-Färglägg-Arbetsblad på Etsy | LCS',
+    metaDescription: 'Rita-och-färglägg-arbetsblad kombinerar kreativitet med finmotorik. Skapa och sälj skärmfria aktiviteter på Etsy för barn 3-8 år.',
   },
   hero: {
-    title: 'Rita-och-Färglägg-Arbetsblad: Sälj Online',
-    tagline: 'Kreativa arbetsblad som kombinerar teckning och färgläggning',
+    title: 'Sälj Rita-och-Färglägg-Arbetsblad på Etsy',
+    tagline: 'Skärmfria kreativa aktiviteter som föräldrar söker',
     description: 'Kreativa arbetsblad som kombinerar teckning och färgläggning har bred dragningskraft. Föräldrar söker skärmfria aktiviteter.',
   },
   category: 'product-guide',

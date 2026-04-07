@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mattefakta flyt utskrifter saelj',
+    primaryKeyword: 'sälja mattefakta-övningar printable Etsy',
     secondaryKeywords: [
-      'mattefakta-flyt utskrifter säljer Etsy',
-      'mattefakta-flyt utskrifter foeretagande',
-      'utskrifter mattefakta-flyt utskrifter',
+      'automatisera räkning arbetsblad barn',
+      'math fact fluency printable PDF',
+      'snabbräkning övningsblad sälja',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'grundläggande räkning automatisering',
+      'addition subtraktion drill arbetsblad',
+      'matteträning hemundervisare material',
     ],
-    titleTag: 'Mattefakta-Flyt: Utskrifter som Säljer | LCS',
-    metaDescription: 'Mattefakta-flyt-arbetsblad hjälper barn automatisera grundläggande räkning. Stor efterfrågan från föräldrar och hemundervisare.',
+    titleTag: 'Sälj Mattefakta-Övningar Printable | LCS',
+    metaDescription: 'Mattefakta-övningar hjälper barn automatisera grundräkning. Stor efterfrågan från föräldrar. Skapa och sälj på Etsy.',
   },
   hero: {
-    title: 'Mattefakta-Flyt: Utskrifter som Säljer',
-    tagline: 'Automatiserade mattefakta — nyckeln till matematisk framgång',
+    title: 'Sälj Mattefakta-Övningar: Stark Efterfrågan',
+    tagline: 'Föräldrar investerar gärna i barnens matteautomatisering',
     description: 'Mattefakta-flyt handlar om att snabbt kunna svara på grundläggande additioner och subtraktioner. Föräldrar investerar gärna i detta.',
   },
   category: 'product-guide',

@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'generator mattepussel att sälja på Etsy',
+    primaryKeyword: 'mattespel skriva ut',
     secondaryKeywords: [
-      'mattepussel arbetsblad för Etsy-säljare',
-      'bildpussel matte för Amazon KDP-böcker',
-      'mattepussel generator kommersiell licens',
-      'pusselblad matematik att sälja online',
-      'matteaktivitetsbok pussel för KDP',
+      'mattepussel uppgifter',
+      'mattegåtor skriva ut',
+      'roliga matteuppgifter',
+      'lekfulla matteuppgifter',
     ],
     lsiKeywords: [
-      'passiv inkomst mattepussel',
-      'printables-verksamhet pusselblad',
-      'visuella matteutmaningar produktlinje',
-      'svenska marknaden mattepussel Etsy',
+      'pussel',
+      'bilder',
+      'matcha',
+      'logik',
+      'tänka',
     ],
-    titleTag: 'Mattepussel att sälja på Etsy och KDP | LessonCraftStudio',
-    metaDescription: 'Skapa mattepussel arbetsblad att sälja på Etsy och KDP. Bildpussel med addition och subtraktion, 2×2 till 4×4 rutnät, facit. $49 engångsbetalning.',
+    titleTag: 'Mattespel att skriva ut | Generator mattepussel',
+    metaDescription: 'Skapa mattepussel med bilder där barn löser stycken för att matcha figurer. Facit inkluderat. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa mattepussel arbetsblad att sälja på Etsy och Amazon KDP',
-    tagline: 'Kombinera matteövning med pusselglädje — varje bit innehåller en matteuppgift, varje lösning avslöjar bilden.',
+    title: 'Mattespel att skriva ut — Generator med bildpussel och facit',
+    tagline: 'Skapa mattepussel där barn löser räknestycken för att matcha bilder — prova gratis med vattenmärke.',
     description:
       'Skapa mattepussel att sälja på Etsy eller sammanställa i aktivitetsböcker för Amazon KDP — ett unikt format där en bild delas upp i pusselbitar med matteuppgifter. Köparna löser additions- och subtraktionsuppgifter för att sätta ihop bilden, vilket förvandlar rutinmässigt räknande till ett engagerande visuellt pussel. Konfigurera rutnätsstorlekar från 2×2 till 4×4, välj bland mer än 3 100 illustrationer i 104 teman, och exportera tryckfärdiga PDF:er i 400+ DPI med automatiskt facit. Mattepussel sticker ut i sökresultat på Etsy tack vare det unika formatet — köpare letar efter engagerande alternativ till vanliga räkneblad. Den svenska marknaden har i princip noll konkurrens för denna typ av produkt. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

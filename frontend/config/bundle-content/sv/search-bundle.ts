@@ -2,26 +2,28 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'hitta finn paket för säljare sök',
+    primaryKeyword: 'sök och hitta paket generator',
     secondaryKeywords: [
-      'sök och hitta arbetsblad generator paket för säljare',
-      'I Spy gömt objekt utskriftspaket kommersiell användning',
-      'korsord skattjakt arbetsblad paket för Etsy',
-      'hitta och räkna aktivitetsgeneratorer för KDP-säljare',
+      'korsord generator paket',
+      'skattjakt generator bundle',
+      'hitta föremålen paket',
+      'rutnätsritning paket',
     ],
     lsiKeywords: [
-      'gömt objekt I Spy korsord skattjakt arbetsblad paket',
-      'flerspråkig sökaktivitet utskriftsbar samling',
-      'kommersiell licens upptäcktsarbetsblad',
-      'bulkproduktion sök och hitta arbetsblad verktyg',
+      'korsord',
+      'skattjakt',
+      'tipspromenad',
+      'hitta föremål',
+      'rutnät',
+      'observationslek',
     ],
-    titleTag: 'Hitta och finn-paket för säljare | LessonCraftStudio',
-    metaDescription: 'Sök och hitta arbetsblad paket med 4 generatorer: I Spy, gömda objekt, korsord och skattjakter. Sälj på Etsy, KDP, Gumroad. $149 engångsbetalning.',
+    titleTag: 'Sök & Hitta paket — 4 generatorer | 149 $ engångsbetalning',
+    metaDescription: 'Alla 4 sökgeneratorer i ett paket: korsord, skattjakt, hitta föremål, rutnätsritning. Prova gratis.',
   },
 
   hero: {
-    title: 'Sök & Hitta-paket',
-    tagline: 'Fyra upptäcktsfokuserade generatorer — I Spy-scener, gömda objekt, korsordspussel och skattjakter i varje arbetsblad',
+    title: 'Sök & Hitta paket — 4 generatorer för korsord, skattjakt & mer',
+    tagline: 'Alla 4 sökgeneratorer med temabilder och facit — prova gratis med vattenmärke.',
     description: 'Sök & Hitta-paketet är det mest språkrika paketet i samlingen. Tre av fyra appar producerar språkberoende arbetsblad — bildetiketter och språkspecifika alfabet i Hitta och Räkna, översatta pusselord i Korsord och fullt lokaliserade riktningsledtrådar i Skattjakt. Detta flerspråkiga djup är en genuin konkurrensfördel för säljare som riktar sig mot icke-engelska marknader, eftersom varje översatt arbetsblad blir en unik produktannons med praktiskt taget noll konkurrens. Paketet förenar fyra genuint olika aktivitetsformat under ett "sök och upptäck"-tema: I Spy gömt objekt-scener där användare lokaliserar och räknar specifika objekt, visuella gömt objekt-arbetsblad med nollöverlappande scengenering, 15x15 korsordsrutnät med bildbaserade ledtrådar istället för textdefinitioner och koordinatrutnäts-skattjakter med sekventiella riktningsrörelser. Alla fyra generatorer producerar automatiska facit — 100% facittäckning över hela paketet. Hitta och Räkna erbjuder två söklägen: Hidden Object I Spy-scener med konfigurerbara rutnätsstorlekar från 5x5 till 10x10 och ett Bokstavsspårningsläge som använder språkspecifika alfabet inklusive tyska umlauter, spanska accenttecken och skandinaviska specialbokstäver. Hitta Föremålen tillhandahåller helt visuella gömt objekt-arbetsblad med intelligent nollöverlappande scenplacering och adaptiv bildstorlek. Korsord stöder fyra inmatningsmetoder — temaautoval, manuell ordredigering, anpassade ordlistor och bilduppladdning — allt renderat på ett 15x15 rutnät med 8 bildledtrådar som ersätter traditionella textdefinitioner. Skattjakt placerar landmärken på ett 5x5 koordinatrutnät märkt A till E och 1 till 5, med exakt 4 sekventiella riktningsrörelser i antingen Grundläggande läge med upp, ner, vänster och höger eller Kardinalläge med norr, söder, öster och väster — allt fullständigt översatt på 11 språk. Välj bland över 100 tematiska bilduppsättningar eller ladda upp dina egna PNG- och JPEG-filer för varumärkesspecifika, nischade produkter. Varje generator inkluderar en gratis provversion med vattenstämpel så att du kan testa alla funktioner innan du köper en licens.',
   },
 

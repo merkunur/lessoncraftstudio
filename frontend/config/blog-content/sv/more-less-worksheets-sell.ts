@@ -2,22 +2,22 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mer mindre arbetsblad saelj',
+    primaryKeyword: 'sälja mer-mindre arbetsblad Etsy',
     secondaryKeywords: [
-      'mer-mindre-arbetsblad sälj online Etsy',
-      'mer-mindre-arbetsblad sälj foeretagande',
-      'utskrifter mer-mindre-arbetsblad sälj',
+      'jämföra mängder arbetsblad printable',
+      'mer eller mindre övningar barn PDF',
+      'grundläggande matte arbetsblad 3-6 år',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'taluppfattning jämförelse förskola',
+      'större mindre övningsblad barn',
+      'matte grundbegrepp printable nisch',
     ],
-    titleTag: 'Mer-Mindre-Arbetsblad: Sälj Online | LCS',
-    metaDescription: 'Mer-mindre-arbetsblad lär barn jämföra mängder och tal. Grundläggande matematik med stark efterfrågan för ålder 3-6.',
+    titleTag: 'Sälj Mer-Mindre-Arbetsblad på Etsy | LCS',
+    metaDescription: 'Mer-mindre-arbetsblad säljer stabilt för barn 3-6 år. Grundläggande matteövningar som varje barn behöver. Sälj på Etsy.',
   },
   hero: {
-    title: 'Mer-Mindre-Arbetsblad: Sälj Online',
+    title: 'Sälj Mer-Mindre-Arbetsblad: Stabil Efterfrågan',
     tagline: 'Grundläggande jämförelse som varje barn behöver lära sig',
     description: 'Jämförelse av mer och mindre är grundläggande matematik. Dessa arbetsblad säljer jämnt eftersom varje barn behöver lära sig konceptet.',
   },

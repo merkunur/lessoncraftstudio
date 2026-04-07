@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis stor och liten arbetsblad',
+    primaryKeyword: 'stor och liten uppgift gratis skriva ut',
     secondaryKeywords: [
-      'stor och liten arbetsblad gratis online',
-      'storleksjämförelse skapa gratis',
-      'storleksblad skriva ut gratis',
-      'gratis storleksövning med bilder',
+      'jämföra storlek gratis online',
+      'ordna efter storlek gratis',
+      'större mindre gratis skriva ut',
+      'storlek förskoleklass gratis',
     ],
     lsiKeywords: [
-      'gratis storleksblad online',
-      'stor liten att skriva ut',
-      'storleksjämförelse gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'stor',
+      'liten',
+      'jämföra',
     ],
-    titleTag: 'Stor och liten gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa stor och liten arbetsblad gratis online. Fem frågetyper, identiska och olika bilder, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Stor och liten gratis online | Storleksjämförelsegenerator',
+    metaDescription: 'Skapa storleksjämförelse-uppgifter gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis stor och liten arbetsblad online',
-    tagline: 'Fem frågetyper med identiska och olika bildlägen — gratis provversion med vattenmärke',
+    title: 'Stor och liten gratis online — Storleksjämförelsegenerator',
+    tagline: 'Skapa storleksjämförelse-uppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa storleksjämförelseblad — helt gratis att testa online. Fem frågetyper: ringa in den stora/lilla/mellanstora, numrera stigande och fallande. Två bildlägen. Helt visuellt — universellt säljbart utan översättning. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker storleksövningar att skriva ut. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kundsupport digitala produkter',
+    primaryKeyword: 'kundsupport digitala produkter Etsy säljare',
     secondaryKeywords: [
-      'kundservice digitala produkter',
-      'utskriftsbart företag support',
-      'hantera kundklagomål arbetsblad',
-      'support digital nedladdning',
+      'kundservice printable-verksamhet guide',
+      'hantera kundklagomål Etsy digitala produkter',
+      'svarsmallar support utskriftsbara produkter',
+      'FAQ-system digital nedladdning säljare',
     ],
     lsiKeywords: [
-      'supportärendehantering återbetalningshantering FAQ-sida köparkommunikation svarsmallar',
-      'kundnöjdhet nedladdningsfelsökning filformatstöd utskriftsinstruktioner',
-      'marknadsplatsmeddelanden supportautomatisering proaktiv dokumentation självbetjäningssupport',
-      'kundlojalitet recensionshantering produktbeskrivningstydlighet förväntningshantering',
-      'supportförebyggande vanliga problem lösningstid professionell kommunikation',
-      'skalbara supportsystem mallbibliotek mönsterspårning feedbackloopar',
+      'supportärendehantering återbetalning FAQ-sida svarsmallar',
+      'nedladdningsfelsökning filformat utskriftsinstruktioner köpare',
+      'supportautomatisering proaktiv dokumentation självbetjäning',
+      'recensionshantering kundlojalitet förväntningshantering Etsy',
+      'vanliga problem lösningstid professionell kommunikation',
+      'skalbara supportsystem mallbibliotek feedbackloopar',
     ],
-    titleTag: 'Kundsupport digitala produkter | LessonCraftStudio',
-    metaDescription: 'Kundsupportstrategier för digitala produktsäljare. Täcker förebyggande, svarsmallar, återbetalningshantering, recensionshantering och skalbarhet. Prova.',
+    titleTag: 'Kundsupport digitala produkter guide | LCS',
+    metaDescription: 'Kundsupport för dig som säljer digitala produkter. Svarsmallar, FAQ-system, återbetalningshantering och recensionshantering. Skalbart supportsystem.',
   },
 
   hero: {
     title: 'Kundsupport för digitala produktföretag',
-    tagline: 'En komplett guide till att bygga effektiva supportsystem för ditt utskriftsbara företag — inklusive de vanligaste supportproblemen för digitala produkter, förebygga supportförfrågningar genom bättre dokumentation, bygga självbetjänings-FAQ-system, skapa svarsmallar, hantera återbetalningar professionellt, förvandla support till affärsförbättringar, hantera recensioner konstruktivt och skala support när din katalog växer',
+    tagline: 'Komplett guide: svarsmallar, FAQ-system, återbetalningshantering och skalbar support för säljare av utskriftsbara produkter på Etsy och andra plattformar',
     description: 'Kundsupport för digitala produkter skiljer sig fundamentalt från support för fysiska produkter. Det finns inga leveransförseningar, inga skadade paket och inga storleksproblem. Istället hanterar säljare av digitala produkter nedladdningsproblem, filformatsförvirring, utskriftsfrågor och förväntningskonflikter. Den goda nyheten är att de flesta supportproblem för digitala produkter är förebyggbara — med tydliga produktbeskrivningar, heltäckande FAQ och proaktiv dokumentation kan du eliminera majoriteten av supportförfrågningar innan de uppstår. Denna guide ger ett praktiskt kundsupportramverk specifikt för säljare av utskriftsbara produkter, som täcker förebyggandestrategier, svarssystem och skalbara processer som bibehåller kvaliteten när din katalog växer.',
   },
 

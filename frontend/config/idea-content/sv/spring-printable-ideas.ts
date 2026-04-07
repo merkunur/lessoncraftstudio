@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables vår — Verksamhet | LessonCraftStudio',
-    metaDescription: 'Upptäck vår utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Säsongsproduktkoncept, mars-maj-strategier och plattformstips för säljare. Prova.',
+    titleTag: 'Vårtema printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj vårtema printables på Etsy och KDP. Produktidéer med blommor, fjärilar och trädgård för pysselbok och arbetsblad.',
 
-    primaryKeyword: 'printables vår idéer verksamhet',
+    primaryKeyword: 'vårtema printables att sälja',
     secondaryKeywords: [
-      'vår arbetsblad att sälja',
-      'vårtema utskriftsbart företag',
-      'vår aktivitetsblad för säljare',
-      'sälja vår utskriftsbara på Etsy',
+      'vår arbetsblad Etsy',
+      'vårtema pysselbok KDP',
+      'blommor fjärilar printables barn',
+      'vårpyssel aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'blomma och trädgård pedagogiska arbetsblad',
-      'säsongsbetonade naturaktivitetssidor',
-      'vårtema utskriftsbara resurser',
+      'vårtema uppgifter förskoleklass',
+      'natur arbetsblad lågstadiet',
+      'trädgård pyssel barn att skriva ut',
     ],
   },
   hero: {
-    title: 'Vår utskriftsbara affärsidéer för säljare',
+    title: 'Vårtema printables — produktidéer för säljare',
     description: 'Våren öppnar ett generöst försäljningsfönster från mars till maj när grupper övergår till naturcentrerade teman och familjer omfamnar utomhuslärande efter månader av vinterrutiner. Nischen spänner över en rik variation av underämnen inklusive fjärilar, blommor, trädgårdar, regnbågar, larver, nyckelpigor, fåglar, bon, regn och paraplyer, vilket ger säljare ett expansivt visuellt ordförråd som kopplar naturligt till naturvetenskapliga kursplaner, utomhusutforskning och den universella känslan av förnyelse som definierar säsongen. Köpare söker aktivt färska vårmaterial för att öka engagemanget under andra halvan av läsåret, medan hemundervisande familjer och daghemsföreståndare letar efter säsongsbetonad variation som överbryggar inomhus- och utomhusinlärningsupplevelser. För utskriftsbara entreprenörer på Etsy, Amazon KDP och Gumroad erbjuder våren en bred icke-helgdagskategori med förlängd relevans som undviker de smala efterfrågetopparna hos endagshelgdagar. Denna guide täcker specifika produktidéer, plattformsstrategier och timingmetoder för att hjälpa dig bygga en lönsam utskriftbar vårproduktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara vårprodukter intar en unikt fördelaktig position i den pedagogiska marknadskalendern eftersom den fungerar som en bred säsongsbetonad kategori snarare än en endagshelgdag, vilket ger säljare ett förlängt tremånadersfönster med efterfrågan som sträcker sig från början av mars till slutet av maj. Köpare som vaknar ur vinterens dvala söker aktivt efter färska, naturtematiserade material som återengagerar barn som tröttnat på enbart inomhusteman, och vårens bildspråk ger den perfekta övergången allteftersom grupper skiftar mot naturvetenskapligt integrerat innehåll som täcker livscykler, vädermönster, växternas tillväxt och djurs livsmiljöer. Denna naturliga överensstämmelse mellan vårteman och centrala kursplaneämnen innebär att köpare kan motivera vårköp som pedagogiska investeringar snarare än rent dekorativa säsongsbetonade tillägg.

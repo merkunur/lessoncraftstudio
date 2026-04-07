@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis bildlabyrint generator',
+    primaryKeyword: 'labyrint gratis skriva ut',
     secondaryKeywords: [
-      'bildlabyrint generator gratis online',
-      'labyrint arbetsblad skapa gratis',
-      'labyrintblad skriva ut gratis',
-      'gratis labyrint med bilder',
+      'labyrint generator gratis online',
+      'labyrint barn gratis skriva ut',
+      'skapa labyrint gratis',
+      'labyrint förskoleklass gratis',
     ],
     lsiKeywords: [
-      'gratis labyrintblad online',
-      'bildväg pussel att skriva ut',
-      'labyrint gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'labyrint',
+      'irrgång',
+      'väg',
     ],
-    titleTag: 'Bildlabyrint gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa bildlabyrint gratis online. Bildväg, Klassisk Labyrint och Välj Rätt Väg, facit, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Labyrint gratis online | Labyrintgenerator',
+    metaDescription: 'Skapa labyrinter gratis online med temabilder. Facit, 300 DPI PDF. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis bildlabyrint generator online',
-    tagline: 'Tre spellägen — Bildväg, Klassisk Labyrint och Välj Rätt Väg — med facit och 104 teman — gratis provversion med vattenmärke',
+    title: 'Labyrint gratis online — Labyrintgenerator',
+    tagline: 'Skapa labyrinter gratis med temabilder och tre spellägen — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa labyrintblad — helt gratis att testa online. Tre spellägen: Bildväg, Klassisk Labyrint med LPF-algoritm och Välj Rätt Väg. Helt visuella — universellt säljbara utan översättning. Automatiskt facit med markerade lösningsvägar ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker labyrintblad att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

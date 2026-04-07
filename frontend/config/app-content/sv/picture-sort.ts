@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'sorteringsblad för Etsy-verksamhet',
+    primaryKeyword: 'sorterings-uppgift skriva ut',
     secondaryKeywords: [
-      'bildsortering arbetsblad för Etsy-säljare',
-      'sorteringsblad generator för Amazon KDP',
-      'klassificering arbetsblad kommersiell licens',
-      'sorteringsaktiviteter att sälja online',
-      'sorteringsbok att publicera på KDP',
+      'sortera och gruppera uppgift',
+      'kategorisera bilder',
+      'ordna och sortera uppgiftsblad',
+      'sorteringsaktivitet förskoleklass',
     ],
     lsiKeywords: [
-      'passiv inkomst sorteringsblad',
-      'printables-verksamhet klassificering',
-      'tvåkategori sortering produktlinje',
-      'svenska marknaden sorteringsblad Etsy',
+      'sortera',
+      'gruppera',
+      'kategorisera',
+      'ordna',
+      'förskoleklass',
     ],
-    titleTag: 'Sorteringsblad att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa sorteringsblad att sälja på Etsy och KDP. Tvåkategorisortering, automatiskt facit, 104 teman, 11 språk, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Sorterings-uppgift att skriva ut | Kategoriseringsgenerator',
+    metaDescription: 'Skapa sorterings- och kategoriseringsuppgifter med temabilder. Automatiskt facit, utskrivbara PDF:er. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa sorteringsblad att sälja på Etsy och Amazon KDP',
-    tagline: 'Tvåkategorisortering med temabaserat eller manuellt bildval, automatiskt facit och lokaliserade etiketter på 11 språk.',
+    title: 'Sorterings-uppgift att skriva ut — Kategoriseringsgenerator',
+    tagline: 'Skapa sorterings- och kategoriseringsuppgifter med temabilder för förskoleklass — prova gratis med vattenmärke.',
     description:
       'Skapa sorteringsblad att sälja på Etsy eller sammanställa i klassificerings-arbetsböcker för Amazon KDP. Köparna sorterar utklippta bilder i två kategorier — ett interaktivt format som föräldrar och förskollärare älskar. Välj temaläge eller manuellt läge för att anpassa kategorier och bilder. Generatorn är språkkänslig: samma teman producerar unika arbetsblad på 11 språk med lokaliserade kategorietiketter. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Sorteringsaktiviteter är ett av de mest efterfrågade produktformaten för förskolebarn — och den svenska marknaden på Etsy saknar praktiskt taget konkurrens. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

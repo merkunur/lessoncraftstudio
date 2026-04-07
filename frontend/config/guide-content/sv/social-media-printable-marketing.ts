@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sociala medier för printables-säljare',
+    primaryKeyword: 'sociala medier marknadsföring printables',
     secondaryKeywords: [
-      'sociala medier för utskriftsbara säljare',
-      'marknadsföra utskriftsbara produkter sociala medier',
-      'utskriftsbart företag social strategi',
-      'marknadsföra arbetsblad online',
+      'Instagram Pinterest strategi printables-säljare',
+      'marknadsföra arbetsblad sociala medier',
+      'sociala medier Etsy-butik trafik',
+      'Facebook-grupper printables-säljare tips',
     ],
     lsiKeywords: [
       'innehållsmarknadsföring produktpromotion visuell marknadsföring plattformsstrategi',
       'publikuppbyggnad engagemang varumärkeskännedom produktvisning',
       'organisk räckvidd innehållskalender visuellt innehåll delbara produkter',
       'produktfotografering socialt bevis communitybyggande följartillväxt',
-      'Instagram-marknadsföring Pinterest-strategi Facebook-grupper säljarpromotion',
+      'Instagram Pinterest Facebook arbetsblad pysselbok pusselbok',
       'hashtagstrategi publiceringsschema engagemangsgrad profiloptimering',
     ],
-    titleTag: 'Sociala medier för säljare | LessonCraftStudio',
-    metaDescription: 'Marknadsföringsstrategier för sociala medier för säljare av utskriftsbara produkter. Plattformsval, visuellt innehåll, publikuppbyggnad och engagemang.',
+    titleTag: 'Sociala medier för printables-säljare | LCS',
+    metaDescription: 'Marknadsför dina printables med sociala medier. Instagram, Pinterest och Facebook-strategi för arbetsblad-säljare. Visuellt innehåll och publikuppbyggnad.',
   },
 
   hero: {
-    title: 'Marknadsföring i sociala medier för säljare av utskriftsbara produkter',
+    title: 'Sociala medier för printables-säljare',
     tagline: 'En komplett guide till marknadsföring av utskriftsbara produkter i sociala medier — inklusive hur du väljer rätt plattformar, skapar övertygande visuellt innehåll, balanserar promotion med värde, anpassar inlägg efter säsong, optimerar profiler för upptäckt, använder hashtags strategiskt, bygger autentiskt communityengagemang och spårar resultat för att förfina din strategi',
     description: 'Utskriftsbara produkter är till sin natur visuella, vilket gör sociala medier till en av de mest naturliga och effektiva marknadsföringskanalerna för arbetsbladsäljare. Ett välfotat arbetsblads flat lay, en kort video som visar en generator som producerar ett tematiskt aktivitetspaket, eller ett karusellpost med färgglada målarbilder kan stoppa en scrollande förälder eller säljare mitt i flödet och skicka dem direkt till din butik. Denna guide ger ett komplett ramverk för marknadsföring i sociala medier designat specifikt för säljare av utskriftsbara produkter — från plattformsval och innehållsskapande till publikuppbyggnad och resultatspårning.',
   },

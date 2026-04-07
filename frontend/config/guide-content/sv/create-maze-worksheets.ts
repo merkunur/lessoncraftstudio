@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sälja etsy hur skapar',
+    primaryKeyword: 'skapa labyrinter att skriva ut för barn',
     secondaryKeywords: [
-      'labyrintarbetsblad generator',
-      'utskriftsklara labyrintaktivitetsblad',
-      'labyrintpussel för barn att sälja',
-      'anpassade labyrintarbetsblad med facit',
+      'labyrint generator barn att skriva ut PDF',
+      'labyrintarbetsblad tematiska bilder skriva ut',
+      'sälja labyrinter Etsy printable pusselbok',
+      'Amazon KDP labyrintbok pysselbok barn',
     ],
     lsiKeywords: [
-      'bildväg arbetsblad',
-      'rumsligt resonerande aktiviteter för barn',
-      'utskriftsklara pusselarbetsblad Etsy',
-      'Amazon KDP labyrintaktivitetsböcker',
-      'labyrintarbetsblad med tematiska bilder',
-      'kommersiell licens labyrintgenerator',
+      'bildväg arbetsblad rumsligt resonerande barn',
+      'klassisk labyrint vägbaserad navigering räkning',
+      'utskriftsklara pusselarbetsblad Etsy printable',
+      'Amazon KDP pysselbok labyrintaktivitetsbok barn',
+      'labyrintarbetsblad tematiska bilder facit automatiskt',
+      'kommersiell licens labyrintgenerator 6 rutnätsstorlekar',
     ],
-    titleTag: 'Labyrinter att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Hur du skapar labyrintarbetsblad med 3 spellägen, tematiska bilder och facit. Generera utskriftsklara labyrintaktivitetsblad att sälja på Etsy och Amazon KDP.',
+    titleTag: 'Skapa labyrinter att skriva ut | LCS',
+    metaDescription: 'Skapa labyrintarbetsblad att skriva ut med 3 spellägen, tematiska bilder och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar labyrintarbetsblad och aktivitetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa tematiska labyrintarbetsblad i tre distinkta spellägen — redo att sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa labyrinter att skriva ut och sälja',
+    tagline: 'Steg-för-steg: skapa labyrintarbetsblad med tre spellägen, tematiska bilder och automatiskt facit för Etsy, Amazon KDP och Gumroad',
     description: 'Labyrinter är ett av de mest universellt tilltalande pusselformaten för barn. De bygger rumsligt resonerande, problemlösningsförmåga och tålamod. Denna guide leder dig genom hela skapandeprocessen med Bildvägs Labyrint-generatorn, som erbjuder tre fundamentalt annorlunda spellägen: Bildväg för visuell vägsföljning, Klassisk labyrint för väggbaserad navigering med samlarbild-räkning, och Välj rätt väg för riktningsbeslut. Varje läge producerar en distinkt produkttyp.',
   },
 

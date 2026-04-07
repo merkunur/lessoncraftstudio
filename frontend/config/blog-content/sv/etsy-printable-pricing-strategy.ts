@@ -2,15 +2,15 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy utskrifter prissaettningsstrategi 2026',
-    secondaryKeywords: ['prissaett utskrifter Etsy', 'digital nedladdning prissaettning', 'Etsy arbetsblad prisguide'],
-    lsiKeywords: ['utskriftsfoersaeljning priser', 'digitala produkter prissaettning', 'Etsy butik intaekter'],
-    titleTag: 'Etsy Prissättning för Utskrifter: Guide | LCS',
-    metaDescription: 'Optimal prissättningsstrategi för utskrifter på Etsy. Lär dig prissätta arbetsblad, paket och digitala nedladdningar för maximal vinst 2026.',
+    primaryKeyword: 'prissätta printables på Etsy 2026',
+    secondaryKeywords: ['prissättning arbetsblad PDF Etsy', 'digital nedladdning pris strategi', 'prisguide printable-butik SEK'],
+    lsiKeywords: ['psykologiska prisgränser SEK', 'paketpris digitala produkter', 'marginal Etsy avgifter printables'],
+    titleTag: 'Prissätta Printables på Etsy: Guide 2026 | LCS',
+    metaDescription: 'Prissätt dina printables rätt på Etsy 2026. Datadriven strategi med SEK-prispunkter för arbetsblad, paket och digitala nedladdningar.',
   },
   hero: {
-    title: 'Etsy Prissättningsstrategi för Utskrifter: Komplett Guide',
-    tagline: 'Rätt pris är skillnaden mellan hobby och verksamhet',
+    title: 'Prissätta Printables på Etsy: Komplett Guide',
+    tagline: 'Rätt pris maximerar vinst utan att skrämma bort köpare',
     description: 'De flesta nya Etsy-säljare prissätter för lågt och undrar sedan varför de inte tjänar pengar. Samtidigt skrämmer för höga priser bort köpare i en konkurrensutsatt marknad. Den här guiden ger dig en datadriven prissättningsmodell för utskriftsprodukter som maximerar din vinst utan att förlora försäljning — med specifika prispunkter i SEK för den svenska marknaden.',
   },
   category: 'platform-strategy',

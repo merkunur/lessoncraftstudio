@@ -2,15 +2,15 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mattebladpaket säljer strategi beprövade strategier',
-    secondaryKeywords: ['matte-arbetsblad paket Etsy', 'saelj mattepaket utskrifter', 'loensamma matte-arbetsblad paket'],
-    lsiKeywords: ['mattepaket prissaettning', 'paketstrategier utskrifter', 'matte digitala produkter'],
-    titleTag: 'Mattebladpaket som Säljer: Strategi | LCS',
-    metaDescription: 'Skapa mattebladpaket som säljer på Etsy. Paketstrategier, prissättning och produktkombinationer som maximerar din vinst 2026.',
+    primaryKeyword: 'sälja mattepaket arbetsblad Etsy',
+    secondaryKeywords: ['matte-arbetsblad bundle strategi', 'prissätta mattepaket printable', 'lönsamma matteblad paket Etsy'],
+    lsiKeywords: ['paketpris psykologi SEK', 'additionspaket subtraktionspaket', 'årskurspaket matte printable'],
+    titleTag: 'Sälj Mattepaket på Etsy: Paketstrategi | LCS',
+    metaDescription: 'Skapa mattepaket som säljer på Etsy. Paketstrategier och prissättning som tredubblar ditt ordervärde 2026.',
   },
   hero: {
-    title: 'Mattebladpaket som Säljer: Beprövade Strategier',
-    tagline: 'Rätt paket kan tredubbla ditt genomsnittliga ordervärde',
+    title: 'Sälj Mattepaket på Etsy: Beprövade Strategier',
+    tagline: 'Paketering tredubblar ditt genomsnittliga ordervärde',
     description: 'Enstaka matte-arbetsblad säljer för 15-25 kr. Smarta paket med 30-50 blad säljer för 99-199 kr. Marginalskillnaden är enorm, och skapandetiden ökar bara marginellt när du använder en generator. Den här guiden visar exakt vilka paketeringskombinationer som säljer bäst på Etsy, hur du prissätter dem för maximal vinst, och vilka svenska nischer som är underexploaterade.',
   },
   category: 'product-guide',

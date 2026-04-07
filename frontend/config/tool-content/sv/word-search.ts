@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis ordpussel maker med bilder',
+    primaryKeyword: 'ordsök gratis online',
     secondaryKeywords: [
-      'ordpussel maker gratis online',
-      'ordletar generator skapa gratis',
-      'ordpussel med bilder skriva ut gratis',
-      'gratis ordsökning rutnätspussel',
+      'skapa ordsök gratis',
+      'ordsök skriva ut gratis',
+      'bokstavsjakt gratis online',
+      'ordsök med bilder gratis',
     ],
     lsiKeywords: [
-      'gratis ordpussel online',
-      'ordletar med bilder att skriva ut',
-      'dolda ord pussel gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'rutnät',
+      'bokstäver',
+      'ÅÄÖ',
     ],
-    titleTag: 'Ordpussel maker gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa ordpussel med bilder gratis online. Justerbart rutnät 5–30, riktningskontroller, svenska ÅÄÖ, 11 språk. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Ordsök gratis online | Skapa bokstavsjakt med bilder',
+    metaDescription: 'Skapa ordsök gratis online med 3 000+ temabilder. Egna ord, svenska ÅÄÖ, facit. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis ordpussel maker med bilder online',
-    tagline: 'Skapa dolda-ord rutnätspussel med justerbara storlekar och svenska ÅÄÖ — gratis provversion med vattenmärke',
+    title: 'Ordsök gratis online — Skapa bokstavsjakt med temabilder',
+    tagline: 'Skapa ordsök gratis med justerbara rutnät och svenska ÅÄÖ — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa ordpussel med bilder — helt gratis att testa online. Dolda ord i ett rutnät av fyllnadsbokstäver, justerbara från 5×5 till 30×30, med riktningskontroller för svårighetsanpassning. Svenska rutnät inkluderar å, ä, ö vid naturliga frekvenser — gör pusslen lingvistiskt genuina. Tre innehållskällor: bildbibliotek med mer än 3 100 illustrationer, manuellt redigeringsläge och anpassad ordlista. Färgkodat facit ingår. Perfekt för föräldrar som söker ordpussel att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

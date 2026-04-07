@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Pinterest trafik utskriftsbutik',
+    primaryKeyword: 'Pinterest trafik printable-butik Etsy',
     secondaryKeywords: [
-      'pinterest-trafik till utskriftsbutik Etsy',
-      'pinterest-trafik till foeretagande',
-      'utskrifter pinterest-trafik till',
+      'Pinterest marknadsföring printables säljare',
+      'driva trafik Etsy-butik Pinterest strategi',
+      'Pinterest pins arbetsblad sälja',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'visuell sökmotor printable-marknadsföring',
+      'Pinterest SEO Etsy-säljare tips',
+      'gratis trafik printable-företag',
     ],
-    titleTag: 'Pinterest-Trafik till Din Utskriftsbutik | LCS',
-    metaDescription: 'Pinterest driver mer trafik till Etsy-butiker än någon annan social plattform. Strategier specifikt för utskriftssäljare.',
+    titleTag: 'Pinterest-Trafik till Din Printable-Butik',
+    metaDescription: 'Pinterest driver mest trafik till Etsy-butiker för printables. Strategier för pins, SEO och marknadsföring som printable-säljare.',
   },
   hero: {
-    title: 'Pinterest-Trafik till Din Utskriftsbutik',
-    tagline: 'Pinterest är den mest underskattade trafikkanalen för utskrifter',
+    title: 'Pinterest-Trafik till Din Printable-Butik',
+    tagline: 'Pinterest — den mest underskattade trafikkanalen för printable-säljare',
     description: 'Pinterest fungerar som en visuell sökmotor. Utskriftssäljare som använder Pinterest strategiskt ser 2-3 gånger mer trafik.',
   },
   category: 'platform-strategy',

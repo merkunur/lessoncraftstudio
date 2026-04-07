@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'passiv inkomst arbetsblad 2026 skapa återkommande intäkt',
+    primaryKeyword: 'passiv inkomst arbetsblad sälja',
     secondaryKeywords: [
-      'arbetsbladverksamhet inkomst',
-      'tjäna pengar på att sälja arbetsblad',
-      'utskriftsbar arbetsbladsintäkt',
-      'pågående inkomst från utskriftsbara produkter',
+      'tjäna pengar sälja arbetsblad online',
+      'passiv inkomst printables Etsy',
+      'återkommande intäkt digitala produkter',
+      'arbetsblad verksamhet inkomst KDP',
     ],
     lsiKeywords: [
       'intäktsström digital produktinkomst vintergröna produkter försäljningsautomatisering',
-      'flera intäktskanaler royaltyinkomst print-on-demand digital nedladdningsinkomst',
-      'produktlivscykel långsvansintäkt katalogmonetisering vintergrönt innehåll',
-      'återkommande försäljning ackumulerande avkastning produktportfölj hållbar inkomst',
-      'intäktsmultiplikation katalogeffekter organisk upptäckt pågående försäljning',
-      'skalbar intäktsmodell arbetsblad inkomstströmmar multiplattformsintäkt',
+      'flera intäktskanaler royaltyinkomst print-on-demand digital nedladdning',
+      'produktlivscykel katalogmonetisering vintergrönt innehåll skriva ut',
+      'återkommande försäljning ackumulerande avkastning produktportfölj',
+      'Etsy Amazon KDP Gumroad multiplattform intäkt',
+      'pysselbok pusselbok aktivitetsbok kommersiell licens',
     ],
-    titleTag: 'Passiv inkomst med arbetsblad (2026) | LessonCraftStudio',
-    metaDescription: 'Bygg återkommande arbetsbladsinkomst genom vintergröna kataloger, multiplattformsdistribution, språkexpansion och. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Passiv inkomst med arbetsblad | LCS',
+    metaDescription: 'Bygg passiv inkomst genom att sälja arbetsblad på Etsy och Amazon KDP. Vintergröna kataloger, multiplattformsstrategi och språkexpansion för hållbar intäkt.',
   },
 
   hero: {
-    title: 'Skapa återkommande intäkt med arbetsblad',
+    title: 'Passiv inkomst med arbetsblad att sälja',
     tagline: 'En komplett guide till att bygga hållbar arbetsbladsinkomst — inklusive varför arbetsblad genererar pågående intäkt, bygga vintergröna produktkataloger, diversifiera över intäktskanaler, skapa produkter med efterfrågan året runt, utnyttja paket för högre transaktionsvärde, expandera till flera språk, optimera för organisk upptäckt och bygga ackumulerande katalogeffekter',
     description: 'Den mest kraftfulla aspekten av en arbetsbladverksamhet är att varje produkt du skapar fortsätter generera intäkt långt efter att skapandeansträngningen är klar. Till skillnad från tjänster där du byter timmar mot kronor kan ett enda arbetsbladpaket säljas hundratals eller tusentals gånger över flera plattformar, språk och år utan att kräva ytterligare produktionstid. Denna guide visar hur du bygger en arbetsbladverksamhet designad specifikt för återkommande, ackumulerande intäkt — där varje ny produkt stärker intäktspotentialen i hela din katalog.',
   },

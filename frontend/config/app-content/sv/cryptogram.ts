@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kryptogram-generator att sälja på Etsy',
+    primaryKeyword: 'hemligt meddelande skriva ut',
     secondaryKeywords: [
-      'bildkryptogram pussel för Etsy-säljare',
-      'chifferpussel arbetsblad för Amazon KDP',
-      'kryptogram generator kommersiell licens',
-      'kodknäckarpussel att sälja online',
-      'kryptogrambok att publicera på KDP',
+      'kryptogram generator',
+      'hemlig kod skriva ut',
+      'dechiffrera meddelande uppgift',
+      'kodspel skriva ut',
     ],
     lsiKeywords: [
-      'passiv inkomst kryptogram',
-      'printables-verksamhet chifferpussel',
-      'flerspråkiga kodpussel produktlinje',
-      'svenska marknaden kryptogram Etsy',
+      'kod',
+      'dechiffrera',
+      'bokstäver',
+      'substitution',
+      'hemlig',
     ],
-    titleTag: 'Kryptogram att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa kryptogram med bildchiffer att sälja på Etsy och KDP. Justerbar svårighet, 11 språk, facit, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Hemliga meddelanden att skriva ut | Kryptogramgenerator',
+    metaDescription: 'Skapa kryptogram och hemliga meddelanden med temabilder och automatiskt facit. 300 DPI PDF, 11 språk. Prova gratis — kommersiell licens.',
   },
 
   hero: {
-    title: 'Skapa kryptogram med bildchiffer att sälja på Etsy och KDP',
-    tagline: 'Mappa alfabetets bokstäver till bilder och koda hela fraser till visuella chifferpussel — justerbar svårighet från noll ledtrådar till kraftigt scaffoldat med Bokstäver att Avslöja.',
+    title: 'Hemliga meddelanden att skriva ut — Kryptogramgenerator med temabilder',
+    tagline: 'Skapa kryptogram och hemliga meddelanden som barn dechiffrerar med bildledtrådar — prova gratis med vattenmärke.',
     description:
       'Skapa bildkryptogrampussel att sälja på Etsy eller sammanställa i pusselböcker för Amazon KDP. Varje bokstav i alfabetet mappas till en bild, och en hel fras kodas till ett visuellt chifferpussel som köparna knäcker genom mönsterigenkänning och deduktion. Reglaget Bokstäver att Avslöja (0–10) styr svårigheten — från noll ledtrådar till scaffoldade nybörjarpussel. Välj bland mer än 3 100 illustrationer i 104 teman. Svenska kryptogram kodar med å, ä, ö i alfabetet — varje språkversion blir en unik produkt. Stöd för 11 språk gör det möjligt att sälja på flera marknader med samma produktformat. Facit med komplett bokstavslegend ingår automatiskt. Exportera tryckfärdiga PDF:er i 400+ DPI. Kryptogram på svenska för Etsy och KDP är en nisch med i princip noll konkurrens — ett unikt produktformat som sticker ut. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

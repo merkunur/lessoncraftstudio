@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'vilken hoer inte hemma arbetsblad saelj',
+    primaryKeyword: 'vilken hör inte hemma arbetsblad sälja',
     secondaryKeywords: [
-      'produkttyper säljer bäst',
-      'skapa professionella produkter snabbt',
-      'listnings marknadsföringsstrategi',
+      'logikpussel barn printables Etsy',
+      'kategorisering arbetsblad skriva ut',
+      'vilken hör inte hemma pysselbok KDP',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'odd one out arbetsblad förskoleklass',
+      'logiskt tänkande aktivitetsblad barn',
+      'sorteringsövningar printable-butik',
     ],
-    titleTag: 'Vilken-Hör-Inte-Hemma: Sälj Online | LCS',
-    metaDescription: 'Vilken-hör-inte-hemma-arbetsblad utvecklar logiskt tänkande och kategorisering. Populärt för barn 3-7 år. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Vilken Hör Inte Hemma: Sälj Arbetsblad',
+    metaDescription: 'Sälj vilken-hör-inte-hemma-arbetsblad som printables. Logikpussel för barn 3-7 år. Skapa med generator, sälj på Etsy och Amazon KDP.',
   },
   hero: {
-    title: 'Vilken-Hör-Inte-Hemma: Sälj Online',
-    tagline: 'Logikpussel som utvecklar kategoriseringsförmåga',
+    title: 'Vilken Hör Inte Hemma: Sälj som Printable',
+    tagline: 'Logikpussel för barn som säljer bra på Etsy',
     description: 'Vilken-hör-inte-hemma-arbetsblad är en klassisk pedagogisk aktivitet. Barnet identifierar det objekt som inte hör till gruppen.',
   },
   category: 'product-guide',

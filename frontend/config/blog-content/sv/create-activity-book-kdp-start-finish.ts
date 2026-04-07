@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skapa aktivitetsbok KDP guide',
+    primaryKeyword: 'skapa aktivitetsbok Amazon KDP',
     secondaryKeywords: [
-      'skapa aktivitetsbok komplett Etsy',
-      'skapa aktivitetsbok foeretagande',
-      'utskrifter skapa aktivitetsbok',
+      'pysselbok KDP publicera steg för steg',
+      'aktivitetsbok barn print on demand',
+      'sälja pusselbok Amazon Sverige',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'KDP formatering aktivitetsbok',
+      'print on demand barnbok',
+      'Amazon self-publishing Sverige',
     ],
-    titleTag: 'Skapa Aktivitetsbok för KDP: Komplett Guide | LCS',
-    metaDescription: 'Steg-för-steg guide till att skapa och publicera aktivitetsböcker på Amazon KDP. Formatering, prissättning och marknadsföring.',
+    titleTag: 'Skapa Aktivitetsbok för Amazon KDP | LCS',
+    metaDescription: 'Steg-för-steg: skapa och publicera aktivitetsböcker på Amazon KDP. Formatering, prissättning och marknadsföring för svenska säljare.',
   },
   hero: {
-    title: 'Skapa Aktivitetsbok för KDP: Komplett Guide',
-    tagline: 'Från idé till publicering på Amazon',
+    title: 'Skapa Aktivitetsbok för Amazon KDP',
+    tagline: 'Från idé till publicerad bok med noll lagerkostnad',
     description: 'Amazon KDP är perfekt för aktivitetsböcker. Print-on-demand innebär noll lagerkostnad med global distribution.',
   },
   category: 'how-to',

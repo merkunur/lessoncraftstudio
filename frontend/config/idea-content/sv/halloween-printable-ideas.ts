@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables halloween — Verksamhet | LessonCraftStudio',
-    metaDescription: 'Utforska halloween utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Kusliga produktkoncept, säsongsstrategier och tips för säljare. Prova.',
+    titleTag: 'Halloween printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj halloween printables på Etsy och KDP. Produktidéer med pumpa, spöke och häxa för pysselbok och arbetsblad att skriva ut.',
 
-    primaryKeyword: 'printables halloween idéer verksamhet',
+    primaryKeyword: 'halloween printables att sälja',
     secondaryKeywords: [
-      'halloween arbetsblad att sälja',
-      'halloween tematiserat utskriftsbart företag',
-      'halloween aktivitetsblad för säljare',
-      'sälja halloween utskriftsbara på Etsy',
+      'halloween arbetsblad Etsy',
+      'halloween pysselbok KDP',
+      'pumpa spöke printables barn',
+      'halloween aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'kusliga tematiserade pedagogiska arbetsblad',
-      'oktober tematiserade utskriftsbara aktivitetssidor',
-      'kostym och pumpa tematiserade utskriftsbara',
+      'halloween pyssel förskoleklass',
+      'oktober arbetsblad lågstadiet',
+      'kusliga aktiviteter barn att skriva ut',
     ],
   },
   hero: {
-    title: 'Halloween utskriftsbara affärsidéer för säljare',
+    title: 'Halloween printables — produktidéer för säljare',
     description: 'Halloween levererar en av de mest kraftfulla säsongsbetonade efterfrågeökningarna på marknaden för utskriftsbara produkter, med sökintresse som stiger kraftigt från slutet av augusti till oktober när köpare och festplanerare söker kusligt tematiserat pedagogiskt innehåll. Nischen erbjuder extraordinär mångfald av underämnen inklusive pumpor, spöken, häxor, fladdermöss, spindlar, skelett, vampyrer, monster, spökhus och lyktgubbar, vilket ger säljare en rik visuell palett för att skapa distinkta produkter inom en enda helgdag. Köpare planerar oktoberaktiviteter och halloweenfester veckor i förväg, medan föräldrar letar efter åldersanpassad kuslig underhållning som håller lärandet i centrum. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad belönar halloweennischen tidig förberedelse med ett koncentrerat men mycket lönsamt försäljningsfönster som återkommer förutsägbart varje år. Denna guide täcker specifika produktidéer, plattformsstrategier och timingmetoder för att hjälpa dig bygga en blomstrande halloweenutskriftbar produktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara halloweenprodukter rankas som den näst mest värdefulla säsongsbetonade möjligheten för säljare av pedagogiska produkter, efter jul i total efterfrågevolym men med ett kortare, mer koncentrerat försäljningsfönster som gör timing särskilt viktigt. Köpare börjar planera oktoberaktiviteter och halloweenfester i slutet av augusti och början av september och söker efter tematiserade arbetsblad som balanserar kuslig underhållning med genuint pedagogiskt värde. Föräldrar söker åldersanpassade halloweenaktiviteter som förvandlar skärmtid till kreativa inlärningsupplevelser under veckorna av kostymspänning och bus-eller-godis-förväntan. Festplanerare och evenemangsorganisatörer köper tematiserade aktivitetsblad för samhällsevenemang, trick-or-treat-sammankomster och familjers halloweenfiranden.

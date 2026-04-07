@@ -2,27 +2,27 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa ordpusselböcker för KDP',
+    primaryKeyword: 'ordsökningsbok Amazon KDP publicera',
     secondaryKeywords: [
-      'hur man skapar ordsökningsböcker för Amazon KDP',
-      'ordsökningspusselbok publiceringsguide',
-      'storskrift ordsökningsböcker Amazon',
-      'tematiska ordsökningsböcker KDP publicering',
+      'skapa ordsökningsböcker KDP självpublicering',
+      'storskrift ordsökning bok Amazon vuxna',
+      'tematisk ordsökningsbok barn KDP',
+      'ordsökningspusselbok seriestrategi Amazon',
     ],
     lsiKeywords: [
-      'ordsökning rutnätsstorlek bokstavsavstånd pusselsvårighet',
+      'ordsökning rutnätsstorlek bokstavsavstånd pusselsvårighet 12x12 20x20',
       'tematiska ordlistor ordförrådskurering åldersanpassade ord',
-      'storskrift ordsökning äldre vuxna tillgänglighetsformat',
-      'ordfinnare bok Amazon nyckelord kategorier optimering',
+      'storskrift ordsökning äldre vuxna premiumpriser tillgänglighet',
+      'Amazon nyckelord kategorier KDP optimering royalty',
       'ordsökningsbok serie volymer upprepade köp katalog',
-      'vuxna barn ordsökning marknad målgrupp rutnätsformatering',
+      'pusselbok skriva ut barn vuxna marknad formatering',
     ],
-    titleTag: 'Ordpusselböcker för Amazon KDP | LessonCraftStudio',
-    metaDescription: 'Skapa ordsökningsböcker KDP med tematiska ordlistor, storskriftsformat och seriestrategi. Rutnätsstorlek, målgruppsinriktning och Amazon-optimering. Prova.',
+    titleTag: 'Ordsökningsböcker för Amazon KDP | LCS',
+    metaDescription: 'Skapa ordsökningsböcker för KDP med tematiska ordlistor, storskriftsformat och seriestrategi. Rutnätsstorlek, målgrupper och Amazon-nyckelordsoptimering.',
   },
 
   hero: {
-    title: 'Hur du skapar ordsökningsböcker för Amazon KDP',
+    title: 'Skapa ordsökningsböcker för Amazon KDP',
     tagline: 'En fokuserad guide till att skapa och publicera ordsökningsböcker på Amazon KDP — den enskilt mest populära pusselboks-underkategorin på Amazon, täcker tematisk ordlistekurering för sammanhängande engagerande innehåll, rutnätsstorleksstrategi över 12x12 enkel genom 20x20 expert, storskrifts-ordsöknings-underkategorin som tar ut premiumpriser och har intensivt köpartrohet, vuxna kontra barn marknadspositionering, ordförrådsval som skiljer professionella ordsökningsböcker från amatörsammanställningar, ordsökningsspecifik Amazon nyckelordsoptimering och den volymbaserade seriestrategin som förvandlar en enda ordsökningsbok till en katalog som genererar förutsägbar månadsintäkt',
     description: 'Ordsökningsböcker dominerar Amazon KDP-pusselförsäljning i volym, och överträffar korsord, sudoku och alla andra pusseltyper kombinerat. Kategorin betjänar en massiv målgrupp — vuxna som söker avslappning och hjärnträning, äldre som föredrar storskriftsformat, resenärer som vill ha offline-underhållning och föräldrar som köper engagerande offline-aktiviteter för barn. Denna guide fokuserar specifikt på vad som gör ordsökningsboks-publicering unikt: kurering av tematiska ordlistor, val av rutnätsstorlekar, formatering för storskrift och att bygga en flervolyms katalog.',
   },

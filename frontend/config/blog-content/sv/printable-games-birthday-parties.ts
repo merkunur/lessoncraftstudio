@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'utskrivbara spel kalas',
+    primaryKeyword: 'utskrivbara kalasspel sälja Etsy',
     secondaryKeywords: [
-      'produkter säljer denna nisch',
-      'skapandeprocess verktyg',
-      'marknadsföring säsongsplanering',
+      'barnkalas printables bingo skattjakt',
+      'kalasmaterial skriva ut och sälja',
+      'festspel barn ladda ner printable',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'tematiskt kalas aktivitetspaket Etsy',
+      'barnfest spel skriva ut PDF',
+      'kalaslekar printable nischprodukt',
     ],
-    titleTag: 'Utskrivbara Spel för Kalas | LCS',
-    metaDescription: 'Utskrivbara kalas-spel som bingo, skattjakt och gissningslekar. En lönsam säsongsnisch med jämn efterfrågan.',
+    titleTag: 'Utskrivbara Kalasspel: Sälj på Etsy',
+    metaDescription: 'Sälj utskrivbara kalasspel som bingo och skattjakt. Lönsam nisch med stabil efterfrågan året runt på Etsy.',
   },
   hero: {
-    title: 'Utskrivbara Spel för Kalas',
-    tagline: 'Kalasmaterial säljer till en annan målgrupp',
+    title: 'Utskrivbara Kalasspel: Sälj på Etsy',
+    tagline: 'Kalasmaterial säljer året runt till föräldrar',
     description: 'Kalas-utskrifter säljer året runt. Tematiska bingo, skattjakt-blad och aktivitetspaket för barnkalas har stabil efterfrågan.',
   },
   category: 'niche-seasonal',

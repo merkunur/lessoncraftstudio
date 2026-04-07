@@ -2,23 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables mors dag/fars dag | LessonCraftStudio',
-    metaDescription: 'Upptäck mors dag och fars dag utskriftsbara idéer att sälja på Etsy, KDP och Gumroad. Föräldrauppskattning produktkoncept och plattformstips för säljare.',
-    primaryKeyword: 'printables mors dag fars dag att sälja',
+    titleTag: 'Mors dag och fars dag printables att sälja | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj mors dag och fars dag printables på Etsy. Produktidéer med kort, kuponghäften och pyssel för barn att skriva ut.',
+    primaryKeyword: 'mors dag fars dag printables att sälja',
     secondaryKeywords: [
-      'mors dag arbetsblad att sälja',
-      'fars dag utskriftsbart företag idéer',
-      'föräldradagen aktivitetsblad för säljare',
-      'sälja föräldradagen utskriftsbara på Etsy',
+      'mors dag pyssel Etsy',
+      'fars dag kort att skriva ut',
+      'föräldradagen printables barn',
+      'mors dag arbetsblad sälja',
     ],
     lsiKeywords: [
-      'familjefirande pedagogiska arbetsblad',
-      'föräldrauppskattning aktivitetssidor',
-      'säsongsbetonade familjetema utskriftsbara',
+      'mors dag pyssel förskoleklass',
+      'fars dag present att skriva ut',
+      'föräldrauppskattning aktiviteter barn',
     ],
   },
   hero: {
-    title: 'Mors dag och fars dag utskriftsbara affärsidéer för säljare',
+    title: 'Mors dag och fars dag printables — produktidéer för säljare',
     description: 'Mors dag och fars dag skapar tillsammans ett av de mest emotionellt drivna dubbla helgförsäljningsfönstren i kalendern för utskriftsbara produkter, med efterfrågan som stiger genom april för mors dag i maj och fortsätter in i juni för fars dag. Nischen erbjuder hjärtliga underämnen inklusive hjärtan, blommor, slipsar, gratulationskort, presentcertifikat, uppskattningskuponger, familjeporträtt, pokaler, kronor och "bästa mamma"- eller "bästa pappa"-prisband, vilket ger säljare ett varmt visuellt ordförråd som resonerar med föräldrar och barn i alla åldersgrupper. Köpare planerar presenttillverkningsprojekt veckor i förväg och söker utskriftsbara aktiviteter som låter barn skapa personliga uppskattningspresenter under gruppens tid. Hemundervisande familjer och daghem tillför köpardjup som söker föräldrauppskattningspyssel som kombinerar hjärtlig känsla med genuina inlärningsresultat. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad levererar denna nisch två distinkta intäktstoppar från en enda produktlinje, med en firandecentrerad estetik som driver emotionella köp och starka konverteringsgrader. Denna guide täcker specifika produktidéer, plattformsstrategier och timingmetoder för att hjälpa dig bygga en lönsam utskriftbar produktlinje för föräldrauppskattning med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara föräldrauppskattningsprodukter intar en unikt kraftfull position i vårens säljkalender eftersom den levererar två koncentrerade efterfrågetoppar från en produktlinje. Mors dag i maj och fars dag i juni skapar rygg-mot-rygg-försäljningsfönster som belönar säljare som förbereder en sammanhängande familjeuppskattningskatalog. Köpare börjar planera majs presenttillverkningsprojekt i början av april och söker efter utskriftsbara aktiviteter som låter barn skapa personliga uppskattningspresenter, kort och minnesalbum under gruppens tid. Föräldrar och hemundervisande familjer söker åldersanpassade pysselaktiviteter som hjälper barn uttrycka tacksamhet meningsfullt, och daghemsföreståndare behöver strukturerade uppskattningsprojekt för sina yngsta.

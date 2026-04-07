@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skala utskriftsverksamhet automatisering',
+    primaryKeyword: 'skala printable-företag automatisering',
     secondaryKeywords: [
-      'optimering för framgång',
-      'tillväxtstrategier',
-      'mäta förbättra resultat',
+      'automatisera Etsy-butik printables verktyg',
+      'tillväxtstrategi printable-verksamhet',
+      'effektivisera printable-produktion processer',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'batch-produktion arbetsblad spara tid',
+      'automatiserade listningar Etsy-butik',
+      'skala digital produktverksamhet tips',
     ],
-    titleTag: 'Skala Utskriftsverksamhet med Automatisering | LCS',
-    metaDescription: 'Automatisera din utskriftsverksamhet för att skala utan att arbeta fler timmar. Verktyg, processer och strategier. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Skala Printable-Företag med Automatisering',
+    metaDescription: 'Automatisera ditt printable-företag och skala utan fler timmar. Verktyg, processer och strategier för Etsy och KDP.',
   },
   hero: {
-    title: 'Skala Utskriftsverksamhet med Automatisering',
-    tagline: 'Automatisering frigör tid för det som driver tillväxt',
+    title: 'Skala Printable-Företag med Automatisering',
+    tagline: 'Automatisering frigör tid för tillväxt istället för rutinarbete',
     description: 'Automatisering av repetitiva uppgifter (listningsskapande, sociala medier, kundservice) frigör tid för produktutveckling och marknadsföring.',
   },
   category: 'platform-strategy',

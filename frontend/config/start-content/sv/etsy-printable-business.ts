@@ -2,28 +2,28 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'etsy för masterclass printables utskriftsbart',
+    primaryKeyword: 'sälja printables på Etsy steg för steg',
     secondaryKeywords: [
-      'Etsy utskriftsbart företag',
-      'Etsy butik för utskriftsbara arbetsblad',
-      'hur man säljer arbetsblad på Etsy',
-      'Etsy digitala nedladdningar företag',
+      'Etsy butik utskriftsbara arbetsblad',
+      'starta Etsy-butik digitala nedladdningar',
+      'Etsy SEO för printable-säljare',
+      'tjäna pengar på Etsy med arbetsblad',
     ],
     lsiKeywords: [
-      'Etsy SEO för säljare av utskriftsbara produkter',
-      'Etsy listningsoptimering arbetsblad',
-      'Etsy butiksuppställning digitala produkter',
-      'Etsy taggar för utskriftsbara arbetsblad',
-      'arbetsbladsgenrator för Etsy-säljare',
-      'Etsy prissättningsstrategi utskriftsbara',
+      'Etsy listningsoptimering digitala produkter',
+      'Etsy taggar och nyckelord arbetsblad',
+      'sälja PDF-filer på Etsy Sverige',
+      'Etsy prissättning digitala nedladdningar',
+      'arbetsbladsverktyg för Etsy-säljare',
+      'bygga Etsy-butik printables från noll',
     ],
-    titleTag: 'Masterclass Etsy printables | LessonCraftStudio',
-    metaDescription: 'Så säljer du utskriftsbara produkter på Etsy steg för steg. Butiksuppställning, Etsy SEO, listningsoptimering, prissättning och skalning med arbetsbladsgenrator',
+    titleTag: 'Sälja printables på Etsy: komplett guide | LCS',
+    metaDescription: 'Lär dig sälja printables på Etsy steg för steg. Butiksuppställning, SEO-optimering, prissättning och skalning för arbetsbladsförsäljare.',
   },
 
   hero: {
-    title: 'Etsy utskriftsbart företag — Mästarklass',
-    tagline: 'Den plattformsspecifika guiden till att bygga en lönsam utskriftsbar arbetsbladsbutik på Etsy',
+    title: 'Sälja printables på Etsy — mästarklass',
+    tagline: 'Plattformsspecifik guide till en lönsam arbetsbladsbutik på Etsy',
     description: 'Etsy är den enskilt största marknadsplatsen för utskriftsbara digitala nedladdningar. Denna mästarklass täcker allt du behöver för att bygga en lönsam utskriftsbar arbetsbladsbutik på plattformen — från initial butiksuppställning och Etsy-specifik SEO till listningsoptimering, prissättningsstrategi, annonsering och skalning bortom dina första 50 produkter. Varje strategi i denna guide är skräddarsydd specifikt för hur Etsy fungerar, inte generiska råd som gäller vilken marknadsplats som helst.',
   },
 

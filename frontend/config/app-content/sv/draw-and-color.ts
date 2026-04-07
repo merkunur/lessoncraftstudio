@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rita och måla-blad för Etsy-shop',
+    primaryKeyword: 'rituppgift skriva ut',
     secondaryKeywords: [
-      'rutritning arbetsblad att sälja på Etsy',
-      'rita och färglägg generator för Amazon KDP',
-      'rutnätsritning arbetsblad kommersiell licens',
-      'ritövningsblad att sälja online',
-      'ritbok att publicera på KDP',
+      'rita och färglägga uppgift',
+      'steg-för-steg ritning',
+      'konstuppgift skriva ut',
+      'kreativt uppgiftsblad',
     ],
     lsiKeywords: [
-      'passiv inkomst ritövningar',
-      'printables-verksamhet rutnätsritning',
-      'cell-för-cell reproduktion produktlinje',
-      'svenska marknaden ritblad Etsy',
+      'rita',
+      'färglägga',
+      'rutnät',
+      'kreativitet',
+      'barn',
     ],
-    titleTag: 'Rita och måla-blad för Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa rita och måla-blad att sälja på Etsy och KDP. Dubbelt rutnätssystem, justerbar ledtrådsprocent, symmetrilägen, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Rita och färglägga uppgift att skriva ut | Kreativ generator',
+    metaDescription: 'Skapa rit- och färgläggningsuppgifter med temabilder. 300 DPI PDF utskrivbara. Prova gratis — kommersiell licens.',
   },
 
   hero: {
-    title: 'Skapa rita och måla-blad att sälja på Etsy och Amazon KDP',
-    tagline: 'Dubbelt rutnätssystem med justerbar ledtrådsprocent, symmetrilägen och 100+ svartvita konturteman för ritning och färgläggning.',
+    title: 'Rita och färglägga uppgift att skriva ut — Kreativ generator',
+    tagline: 'Skapa rit- och färgläggningsuppgifter med rutnät och temabilder — prova gratis med vattenmärke.',
     description:
       'Skapa rutnätsritningsarbetsblad att sälja på Etsy eller sammanställa i ritfärdighetsarbetsböcker för Amazon KDP. Köparna reproducerar en referensbild cell-för-cell från ett ledtrådsrutnät till ett tomt övningsrutnät — ett populärt format som föräldrar och förskollärare älskar. Justera ledtrådsprocenten från 10% till 75% och konfigurera rutnät från 3×3 till 10×10. Tre symmetrilägen lägger till variation. Innehåll från 100+ svartvita konturteman med mer än 3 000 illustrationer. Arbetsbladen är rent visuella — säljbara globalt utan översättning. Rita och måla-blad är ett unikt format som särskiljer dina produkter. Den svenska marknaden saknar denna produkttyp på Etsy. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

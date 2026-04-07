@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis sorteringsblad generator',
+    primaryKeyword: 'sorterings-uppgift gratis skriva ut',
     secondaryKeywords: [
-      'sorteringsblad generator gratis online',
-      'bildsortering arbetsblad skapa gratis',
-      'sorteringsblad skriva ut gratis',
-      'gratis sorteringsaktivitet med bilder',
+      'sortera och gruppera gratis online',
+      'kategorisera bilder gratis',
+      'sorteringsaktivitet förskoleklass gratis',
+      'ordna och sortera gratis',
     ],
     lsiKeywords: [
-      'gratis sorteringsblad online',
-      'klassificering att skriva ut',
-      'sorteringsövning gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'sortera',
+      'gruppera',
+      'kategorisera',
     ],
-    titleTag: 'Sorteringsblad gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa sorteringsblad gratis online. Tvåkategorisortering, blandade utklippsrutnät, facit, 11 språk, 104 teman. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Sorterings-uppgift gratis online | Kategoriseringsgenerator',
+    metaDescription: 'Skapa sorterings- och kategoriseringsuppgifter gratis online med temabilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis sorteringsblad generator online',
-    tagline: 'Tvåkategorisortering med temabaserat bildval, blandade utklippsrutnät och automatiskt facit — gratis provversion med vattenmärke',
+    title: 'Sorterings-uppgift gratis online — Kategoriseringsgenerator',
+    tagline: 'Skapa sorteringsuppgifter gratis med temabilder — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa sorteringsblad — helt gratis att testa online. Användarna klipper ut bilder och sorterar dem i två kategorier. Temaläge eller manuellt läge. Språkkänslig: lokaliserade kategorietiketter på 11 språk. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Perfekt för föräldrar som söker sorteringsaktiviteter att skriva ut, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

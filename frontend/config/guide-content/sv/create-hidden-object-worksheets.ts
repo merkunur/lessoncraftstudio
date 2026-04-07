@@ -2,28 +2,28 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skapa hitta och finn att sälja',
+    primaryKeyword: 'skapa leta och hitta arbetsblad att skriva ut',
     secondaryKeywords: [
-      'hitta föremålen-scen generator',
-      'I Spy arbetsblad för barn',
-      'udda-en-ut utskriftsklara arbetsblad',
-      'skapa hitta dolda föremål-pussel att sälja',
+      'hitta föremålen generator barn att skriva ut',
+      'I Spy arbetsblad skriva ut PDF sälja',
+      'sälja leta och hitta Etsy printable barn',
+      'Amazon KDP pysselbok hitta dolda föremål',
     ],
     lsiKeywords: [
-      'visuella sökarbetsblad för förskola',
-      'hitta den dolda bilden aktivitetsblad',
-      'söka och hitta utskriftsklara sidor',
-      'sälja hitta dolda föremål-arbetsblad på Etsy',
-      'Amazon KDP sök och hitta aktivitetsböcker',
-      'kommersiell licens hitta dolda föremål-generator',
+      'visuella sökarbetsblad förskola uppmärksamhet',
+      'hitta dolda bilden aktivitetsblad scenarbetsblad',
+      'udda en ut söka och hitta skriva ut',
+      'sälja hitta föremålen Etsy printable digitala produkter',
+      'Amazon KDP pysselbok sök och hitta aktivitetsbok',
+      'kommersiell licens generator lagerhantering scener',
     ],
-    titleTag: 'Hitta och finn att sälja online | LessonCraftStudio',
-    metaDescription: 'Hur du skapar hitta föremålen-arbetsblad med 2 spellägen: I Spy och Udda en ut. Bygg tematiska scener, generera facit och sälj på Etsy och Amazon KDP.',
+    titleTag: 'Skapa leta-och-hitta arbetsblad | LCS',
+    metaDescription: 'Skapa hitta-föremålen-arbetsblad att skriva ut med I Spy och Udda en ut. Bygg scener, generera facit och sälj på Etsy och Amazon KDP.',
   },
 
   hero: {
-    title: 'Hur du skapar hitta föremålen-scen arbetsblad',
-    tagline: 'En steg-för-steg-guide för att skapa I Spy och Udda en ut-scenarbetsblad du kan sälja på Etsy, Amazon KDP och Gumroad',
+    title: 'Skapa leta-och-hitta-arbetsblad att skriva ut',
+    tagline: 'Steg-för-steg: skapa hitta-föremålen-scener med I Spy och Udda en ut, automatiskt facit och tryckfärdig export för Etsy, Amazon KDP och Gumroad',
     description: 'Hitta föremålen-arbetsblad är bland de mest engagerande printable-produkterna. Barn älskar utmaningen att söka en scen efter specifika föremål, och föräldrar och säljare älskar den fokuserade uppmärksamhet dessa aktiviteter kräver. Denna guide leder dig genom att skapa professionella hitta föremålen-scenarbetsblad med Hitta föremålen-generatorn — från att välja mellan I Spy och Udda en ut-spellägen till att bygga anpassade scener med lagerhantering, generera automatiska facit och exportera tryckfärdiga filer.',
   },
 

@@ -2,26 +2,28 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'matte paket etsy säljare',
+    primaryKeyword: 'mattepaket arbetsblad generator',
     secondaryKeywords: [
-      'matte utskriftspaket för säljare',
-      'matte arbetsblad generator paket kommersiell användning',
-      'utskrivbara matteaktiviteter paket för Etsy',
-      'matte arbetsblad verktygslåda för KDP-säljare',
+      'matteuppgifter generator paket',
+      'additionsuppgifter subtraktionsuppgifter paket',
+      'mattepussel generator bundle',
+      'mattearbetsblad skriva ut paket',
     ],
     lsiKeywords: [
-      'addition subtraktion arbetsblad paket',
-      'mattepussel utskriftsbar samling',
-      'kommersiell licens matte arbetsblad',
-      'bulkproduktion matte arbetsblad verktyg',
+      'addition',
+      'subtraktion',
+      'matteuppgifter',
+      'mattepussel',
+      'facit',
+      'lågstadiet',
     ],
-    titleTag: 'Mattepaket för Etsy-säljare | LessonCraftStudio',
-    metaDescription: 'Få 6 matte arbetsblad-generatorer i ett paket. Addition, subtraktion, kodpussel och algebra att sälja på Etsy & KDP. Kommersiell licens. $149 engångsbetalning.',
+    titleTag: 'Mattepaket — 6 arbetsbladsgeneratorer | 149 $ engångsbetalning',
+    metaDescription: 'Alla 6 mattegeneratorer i ett paket: addition, subtraktion, mattepussel, kodknäckare, diagram och räkneuppgifter. Prova gratis — kommersiell licens.',
   },
 
   hero: {
-    title: 'Matte Mästarpaket för Etsy-säljare',
-    tagline: 'Sex professionella matte arbetsblad-generatorer i ett rabatterat paket',
+    title: 'Mattepaket — 6 arbetsbladsgeneratorer för addition, subtraktion & mer',
+    tagline: 'Alla 6 mattegeneratorer med temabilder och automatiskt facit — prova gratis med vattenmärke.',
     description: 'Bygg en komplett utskriftsbar matteproduktlinje utan att växla mellan separata verktyg. Matematik Mästarpaketet kombinerar sex specialiserade arbetsblad-generatorer som täcker addition, subtraktion, kryptaritmetiska kodpussel, större-än och mindre-än jämförelse, pusselrutnäts-mattepussel och visuella algebra-bildekvationer. Varje generator producerar utskriftsklara PDF- och högupplösta JPEG-filer med automatiska facit, konfigurerbar svårighetsgrad och tematiska bildbibliotek. Fem av de sex apparna är helt visuella — arbetsbladen de producerar fungerar på alla språk eftersom de bygger på bilder och siffror snarare än text. Den sjätte, Kodaddition, lägger till ett språkberoende Avslöja Ord-läge som stöder alla 11 gränssnittsspråk. Välj bland över 100 tematiska bilduppsättningar eller ladda upp dina egna PNG- och JPEG-filer för varumärkesspecifika, nischade produkter. Oavsett om du säljer på Etsy, Amazon KDP eller Gumroad ger detta paket dig den variation köpare förväntar sig och den hastighet säljare behöver. Varje generator inkluderar en gratis provversion med vattenstämpel så att du kan testa alla funktioner innan du köper en licens.',
   },
 

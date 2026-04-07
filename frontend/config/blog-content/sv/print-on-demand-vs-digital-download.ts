@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'print on demand vs digital nedladdning',
+    primaryKeyword: 'print on demand vs digital nedladdning jämförelse',
     secondaryKeywords: [
-      'optimering för framgång',
-      'tillväxtstrategier',
-      'mäta förbättra resultat',
+      'KDP vs Etsy printables vilken är bäst',
+      'digital nedladdning eller tryckt bok sälja',
+      'affärsmodell printables marginaler jämförelse',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'Amazon KDP royalties vs Etsy marginaler',
+      'passiv inkomst print on demand Sverige',
+      'digital produkt vs fysisk bok arbetsblad',
     ],
-    titleTag: 'Print-on-Demand vs Digital Nedladdning | LCS',
-    metaDescription: 'Jämförelse mellan print-on-demand (KDP) och digital nedladdning (Etsy) för utskriftsprodukter. Fördelar och nackdelar.',
+    titleTag: 'Print-on-Demand vs Digital Nedladdning',
+    metaDescription: 'KDP eller Etsy? Jämförelse mellan print-on-demand och digital nedladdning. Marginaler, för- och nackdelar för printable-säljare.',
   },
   hero: {
     title: 'Print-on-Demand vs Digital Nedladdning',
-    tagline: 'Två affärsmodeller — samma produkter',
+    tagline: 'Två affärsmodeller, samma produkter — vilken passar dig?',
     description: 'Print-on-demand via KDP eliminerar tryck och leverans men ger lägre marginaler. Digital nedladdning via Etsy ger högre marginaler men kräver egen marknadsföring.',
   },
   category: 'platform-strategy',

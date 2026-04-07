@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables havsdjur — Verksamhet | LessonCraftStudio',
-    metaDescription: 'Utforska havsdjur utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Havstema produktkoncept, plattformsstrategier och tips för säljare. Prova.',
+    titleTag: 'Havsdjur printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj havsdjur printables på Etsy och KDP. Produktidéer med val, delfin och bläckfisk för pysselbok och arbetsblad barn.',
 
-    primaryKeyword: 'printables havsdjur idéer verksamhet',
+    primaryKeyword: 'havsdjur printables att sälja',
     secondaryKeywords: [
-      'havsdjur arbetsblad att sälja',
-      'havsvarelser utskriftsbart företag idéer',
-      'hav aktivitetsblad för säljare',
-      'sälja havsdjur utskriftsbara på Etsy',
+      'havsdjur arbetsblad Etsy',
+      'havstema pysselbok KDP',
+      'val delfin printables barn',
+      'undervattensdjur aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'marint liv pedagogiska arbetsblad',
-      'undervattenstemat aktivitetssidor',
-      'havsvarelser grupp utskriftsbara',
+      'havstema uppgifter förskoleklass',
+      'havsdjur arbetsblad lågstadiet',
+      'marint liv pyssel att skriva ut',
     ],
   },
   hero: {
-    title: 'Havsdjur utskriftsbara affärsidéer för säljare',
+    title: 'Havsdjur printables — produktidéer för säljare',
     description: 'Havsdjur fängslar barn i alla åldersgrupper, vilket gör marint liv till ett av de mest mångsidiga temana på marknaden för pedagogiska utskriftsbara produkter. Från småbarn som matchar färgglada fiskar till andreklassare som löser valtematiserade matteproblem — undervattensvärlden väcker nyfikenhet och engagemang som driver konsekvent köpefterfrågan. För säljare av utskriftsbara produkter erbjuder havsnischen basförsäljning året runt med en kraftfull sommartopp när strandresor, akvariebesök och marina vetenskapsläger dominerar familjeaktiviteter. Temat överensstämmer också naturligt med kursplaner i naturvetenskap om livsmiljöer, ekosystem och djurklassificering, vilket ger säljare ett starkt fotfäste bland köpare. Oavsett om du specialiserar dig på mattearbetsblad, läsaktiviteter eller kreativa konstutskrifter erbjuder havsdjur rikt visuellt material och varierat ordförråd som omsätts i övertygande produkter på varje plattform. Denna guide beskriver specifika produktidéer, plattformsstrategier och nischpositioneringsmetoder för att hjälpa dig bygga ett blomstrande havstematiserat utskriftsbart företag med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara havsdjur gynnas av en unik kombination av pedagogisk relevans, visuell attraktionskraft och emotionell fascination som få andra teman kan matcha. Barn dras naturligt till marina varelser på grund av deras exotiska former, livfulla färger och mysteriet med undervattensmiljöer. Detta inneboende intresse innebär att föräldrar och köpare inte behöver övertyga motvilliga elever att engagera sig i havstematiserade material, vilket direkt omsätts i positiva recensioner och återköp för säljare som levererar kvalitetsprodukter.

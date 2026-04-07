@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'KDP aktivitetsbok formateringsguide',
+    primaryKeyword: 'formatera aktivitetsbok Amazon KDP guide',
     secondaryKeywords: [
-      'steg för steg guide',
-      'vanliga misstag undvika',
-      'avancerade tips',
+      'KDP sidstorlek marginaler bleed',
+      'Amazon KDP PDF formatering krav',
+      'aktivitetsbok publicering formatguide',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'KDP manuskript godkännande',
+      'print on demand formatering',
+      'upplösning DPI KDP krav',
     ],
-    titleTag: 'KDP Aktivitetsbok: Formateringsguide | LCS',
+    titleTag: 'Formatera Aktivitetsbok för Amazon KDP | LCS',
     metaDescription: 'Komplett formateringsguide för KDP-aktivitetsböcker. Sidstorlek, marginaler, bleed och filformat som Amazon godkänner.',
   },
   hero: {
-    title: 'KDP Aktivitetsbok: Formateringsguide',
-    tagline: 'Rätt formatering är skillnaden mellan godkänd och avvisad',
+    title: 'Formatera Aktivitetsbok för Amazon KDP',
+    tagline: 'Rätt formatering undviker avvisning vid publicering',
     description: 'Amazon KDP har strikta formateringskrav. Fel marginaler eller upplösning leder till avvisning. Denna guide täcker allt.',
   },
   category: 'how-to',

@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables skolstart för Etsy | LessonCraftStudio',
-    metaDescription: 'Upptäck skolstart utskriftsbara idéer att sälja på Etsy, KDP och Gumroad. Skoltemaproduktkoncept, juli-september-strategier och plattformstips för säljare.',
+    titleTag: 'Skolstart printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj skolstart printables på Etsy och Amazon KDP. Produktidéer för pysselbok, arbetsblad och aktiviteter för förskoleklass och lågstadiet.',
 
-    primaryKeyword: 'printables skolstart att sälja Etsy',
+    primaryKeyword: 'skolstart printables att sälja',
     secondaryKeywords: [
-      'skolstart arbetsblad att sälja',
-      'skoltema utskriftsbart företag idéer',
-      'skolstart aktivitetsblad',
-      'sälja skolstart utskriftsbara online',
+      'skolstart arbetsblad Etsy',
+      'skoltema pysselbok KDP',
+      'skolstart aktiviteter att skriva ut',
+      'sälja skolmaterial printables online',
     ],
     lsiKeywords: [
-      'arbetsbladspaket för skolstart',
-      'säljarresurser utskriftsbara',
-      'skolmaterial tematiserade aktiviteter',
+      'skolstart uppgifter förskoleklass',
+      'september arbetsblad säljare',
+      'tillbaka till skolan utskriftsbara produkter',
     ],
   },
   hero: {
-    title: 'Skolstart utskriftsbara affärsidéer för säljare',
+    title: 'Skolstart printables — produktidéer för säljare',
     description: 'Skolstart skapar ett av de största och mest pålitliga säsongsbetonade efterfrågefönstren i kalendern för utskriftsbara företag, med köparaktivitet som ökar från juli till september när köpare förbereder nya produktbehov och föräldrar söker pedagogiska aktiviteter för skolberedskap. Nischen erbjuder rik mångfald av underämnen inklusive skolmaterial, pennor, kritor, ryggsäckar, skolbussar, äpplen, anteckningsböcker, linjaler, griffeltavlor och skoltematiserade scener, vilket ger säljare ett välbekant visuellt ordförråd som resonerar med familjer och säljare under övergången från sommar till strukturerat lärande. Hemundervisande familjer som planerar sitt nya läsår tillför ytterligare ett motiverat köparsegment som ofta köper större paket och omfattande resurspaket. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad kombinerar skolstartnischen massiv förutsägbar efterfrågan med ett universellt igenkänt tema som driver starkt listengagemang och återkommande årliga köp. Denna guide täcker specifika produktidéer, plattformsstrategier och timingmetoder för att hjälpa dig bygga en lönsam utskriftbar skolstartproduktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara skolstartprodukter har en av de högsta säsongsbetonade trafikvolymerna på den pedagogiska marknaden och levererar ihållande efterfrågan över ett brett försäljningsfönster från juli till september som ger säljare meningsfull tid att fånga intäkter. Köpare börjar förbereda för sina nya produktbehov i mitten av juli och köper produktplaneringsmaterial, första-veckan-isbrytaraktiviteter och kompletterande produkter som hjälper dem komma igång snabbt när läsåret börjar. Föräldrar söker skolberedskapsarbetsblad, pedagogiska aktiviteter för att överbrygga sommarens inlärningslucka och engagerande utskrifter som underlättar övergången från semesterläge tillbaka till strukturerade dagliga rutiner. Hemundervisande familjer, som planerar hela sitt läsår under sommarmånaderna, representerar ett särskilt värdefullt köparsegment eftersom de köper omfattande resurssamlingar snarare än enskilda arbetsblad.

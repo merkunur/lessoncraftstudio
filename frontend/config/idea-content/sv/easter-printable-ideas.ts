@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printables påsk för Etsy | LessonCraftStudio',
-    metaDescription: 'Upptäck påsk utskriftsbara idéer att sälja på Etsy, Amazon KDP och Gumroad. Vårhelg produktkoncept, säsongsstrategier och plattformstips för säljare. Prova.',
+    titleTag: 'Påskpyssel printables att sälja på Etsy | LessonCraftStudio',
+    metaDescription: 'Skapa och sälj påskpyssel printables på Etsy och KDP. Produktidéer med påskhare, ägg och vårblommor för pysselbok och arbetsblad.',
 
-    primaryKeyword: 'printables påsk att sälja på Etsy',
+    primaryKeyword: 'påskpyssel printables att sälja',
     secondaryKeywords: [
-      'påskarbetsblad att sälja',
-      'påsktema utskriftsbart företag',
-      'påsk aktivitetsblad för säljare',
-      'sälja påsk utskriftsbara på Etsy',
+      'påsk arbetsblad Etsy',
+      'påskpyssel pysselbok KDP',
+      'påskhare printables barn',
+      'äggjakt aktiviteter att skriva ut',
     ],
     lsiKeywords: [
-      'vårhelg pedagogiska arbetsblad',
-      'äggjaktstema aktivitetssidor',
-      'säsongsbetonade påsk utskriftsbara resurser',
+      'påsk uppgifter förskoleklass',
+      'vårpyssel arbetsblad lågstadiet',
+      'påsklov aktiviteter barn',
     ],
   },
   hero: {
-    title: 'Påsk utskriftsbara affärsidéer för säljare',
+    title: 'Påskpyssel printables — produktidéer för säljare',
     description: 'Påsk skapar ett livligt vårförsäljningsfönster för utskriftsbara entreprenörer, med efterfrågan som stiger från februari till april när köpare planerar vårens pedagogiska aktiviteter och föräldrar söker pedagogiska påskkorgsfyllnadsprodukter och äggjaktstillägg. Nischen erbjuder förtjusande mångfald av underämnen inklusive kaniner, dekorerade ägg, kycklingar, lamm, korgar, vårblommor, tulpaner, morötter och äggjaktar, vilket ger säljare ett glatt visuellt ordförråd som resonerar starkt med yngre köpare och deras familjer. Kyrkogrupper och samhällsorganisationer tillför ytterligare ett köparsegment som söker utskriftsbara aktiviteter för påskevenemang och vårfiranden. För säljare av utskriftsbara produkter på Etsy, Amazon KDP och Gumroad kombinerar påsknischen förutsägbar årlig efterfrågan med en festlig vårestetik som fotograferas vackert för produktlistningar och marknadsföringsmaterial. Denna guide täcker specifika produktidéer, plattformsstrategier och timingmetoder för att hjälpa dig bygga en lönsam utskriftbar påskproduktlinje med våra arbetsbladsgenratorverktyg.',
   },
   marketOverview: `Nischen för utskriftsbara påskprodukter intar en förstaklassposition i vårens säljkalender och levererar koncentrerad säsongsbetonad efterfrågan under en period när få andra helgdagar konkurrerar om köparnas uppmärksamhet. Köpare börjar planera vårens pedagogiska aktiviteter och förpåskfiranden i februari och början av mars och söker efter tematiserade arbetsblad som blandar helgcharm med genuina pedagogiska resultat. Föräldrar söker åldersanpassade påskaktiviteter som tjänar dubbla syften som påskkorgstillägg och pedagogisk underhållning under de spänningsfyllda dagarna före helgdagen. Kyrkogrupper, söndagsskolsamordnare och samhällsevenemangsorganisatörer köper tematiserade aktivitetsblad för äggjakter, vårfestivaler och familjevänliga firanden som behöver strukturerade aktiviteter för unga deltagare.

@@ -2,23 +2,23 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ordvirvel utskrifter foeretagande',
+    primaryKeyword: 'ordvirvel printables sälja word scramble',
     secondaryKeywords: [
-      'ordvirvel-utskrifter företagande Etsy',
-      'ordvirvel-utskrifter företagande foeretagande',
-      'utskrifter ordvirvel-utskrifter företagande',
+      'word scramble arbetsblad Etsy KDP',
+      'ordvirvel pysselbok barn vuxna tematisk',
+      'stavningspussel printable sälja online',
     ],
     lsiKeywords: [
-      'utskriftsfoeretagande Sverige',
-      'digitala produkter saelj',
-      'Etsy butik svenska',
+      'ordvirvel temapaket djur högtider',
+      'bokstavsövningar printable-nisch',
+      'ordpussel skriva ut och sälja Etsy',
     ],
-    titleTag: 'Ordvirvel-Utskrifter: Företagande | LCS',
-    metaDescription: 'Ordvirvel-utskrifter (word scramble) säljer bra på Etsy och KDP. Tematiska versioner för barn och vuxna.',
+    titleTag: 'Ordvirvel-Printables: Sälj Word Scramble',
+    metaDescription: 'Sälj ordvirvel-printables (word scramble). Tematiska versioner för barn och vuxna. Säljer bra på Etsy och KDP.',
   },
   hero: {
-    title: 'Ordvirvel-Utskrifter: Företagande',
-    tagline: 'Blandade bokstäver som utmanar och underhåller',
+    title: 'Ordvirvel-Printables: Bygg Företag',
+    tagline: 'Blandade bokstäver som utmanar, underhåller och säljer',
     description: 'Ordvirvel-pussel utmanar stavningsförmågan. Tematiska versioner med djur, mat eller högtider säljer bra året runt.',
   },
   category: 'product-guide',

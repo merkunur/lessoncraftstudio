@@ -2,27 +2,27 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'rutnätspussel sälja etsy skapa rutnätskopplingspussel kdp',
+    primaryKeyword: 'rita på rutnät uppgift skriva ut',
     secondaryKeywords: [
-      'rutmatchning pussel för Etsy-säljare',
-      'bildplattor pussel generator för Amazon KDP',
-      'rutnätspussel arbetsblad kommersiell licens',
-      'rutnätskoppling att sälja online',
-      'bildpusselbok att publicera på KDP',
+      'kopiera på rutnät uppgift',
+      'pixel art skriva ut',
+      'spegling på rutnät',
+      'rumsuppfattning uppgift',
     ],
     lsiKeywords: [
-      'passiv inkomst rutnätspussel',
-      'printables-verksamhet bildpussel',
-      'visuell perception produktlinje',
-      'svenska marknaden rutnätspussel Etsy',
+      'rutnät',
+      'kopiera',
+      'pixel',
+      'spegling',
+      'visuell logik',
     ],
-    titleTag: 'Rutnätspussel att sälja på Etsy | LessonCraftStudio',
-    metaDescription: 'Skapa rutnätskopplingspussel att sälja på Etsy och KDP. Konfigurerbar storlek, ledtrådsceller, facit, 104 teman, kommersiell licens. $49 engångsbetalning.',
+    titleTag: 'Rita på rutnät uppgift att skriva ut | Generator rutnätsritning',
+    metaDescription: 'Skapa rita-på-rutnät uppgifter med temabilder. Automatiskt facit, utskrivbara PDF:er. Prova gratis.',
   },
 
   hero: {
-    title: 'Skapa rutnätskopplingspussel att sälja på Etsy och KDP',
-    tagline: 'Förvandla vilken bild som helst till ett rutnätsbaserat bildpussel med konfigurerbara ledtrådsceller, numrerad palett och automatiskt facit.',
+    title: 'Rita på rutnät uppgift att skriva ut — Generator rutnätsritning',
+    tagline: 'Skapa rita-på-rutnät uppgifter med temabilder och automatiskt facit — prova gratis med vattenmärke.',
     description:
       'Skapa rutnätskopplingspussel att sälja på Etsy eller sammanställa i visuella pusselböcker för Amazon KDP. En bild delas upp i plattor och köparna matchar numrerade plattor till rätt positioner. Konfigurera rutnätet från 2×2 till 4×4 och ställ in 1–5 ledtrådsceller — färre ledtrådar ger svårare pussel. Automatiskt facit med numrerade cirklar ingår. Pusslen är rent visuella — samma produkt fungerar globalt utan översättning, ett enda skapandeflöde betjänar varje marknad. Välj bland mer än 3 100 illustrationer i 104 teman. Rutnätspussel är ett populärt och unikt format som särskiljer dina produkter från vanliga arbetsblad. Den svenska marknaden på Etsy saknar denna produkttyp helt. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },

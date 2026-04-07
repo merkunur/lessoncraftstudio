@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gratis ordgissningsspel skapa',
+    primaryKeyword: 'hänga gubbe uppgift gratis skriva ut',
     secondaryKeywords: [
-      'ordgissningsspel gratis online',
-      'gissa ordet arbetsblad skapa gratis',
-      'ordgissning pussel skriva ut gratis',
-      'gratis ordgissningsspel med bilder',
+      'gissa ordet gratis online',
+      'hänga gubbe gratis skriva ut',
+      'ordgåta gratis online',
+      'ordförråd gissningslek gratis',
     ],
     lsiKeywords: [
-      'gratis ordgissning online',
-      'gissa ordet pussel att skriva ut',
-      'vokabulärövning gratis',
+      'gratis',
+      'online',
+      'vattenmärke',
+      'hänga gubbe',
+      'gissa',
+      'ordförråd',
     ],
-    titleTag: 'Ordgissningsspel gratis online | LessonCraftStudio',
-    metaDescription: 'Skapa ordgissningsspel gratis online. 4 svårighetsnivåer, bildledtrådar, 11 språk med svenska, facit. Salj pa Etsy & KDP med kommersiell licens.',
+    titleTag: 'Hänga gubbe uppgift gratis online | Generator ordgåtor',
+    metaDescription: 'Skapa hänga-gubbe-uppgifter gratis online med temaord och bilder. Ingen registrering. Vattenmärket tas bort med licens.',
   },
 
   hero: {
-    title: 'Gratis ordgissningsspel online',
-    tagline: 'Skapa gissa ordet-pussel med bildledtrådar och 4 svårighetsnivåer — gratis provversion med vattenmärke',
+    title: 'Hänga gubbe uppgift gratis online — Generator ordgåtor',
+    tagline: 'Skapa hänga-gubbe-uppgifter gratis med temaord — alla funktioner, ingen registrering, vattenmärke.',
     description: 'Skapa ordgissningsspel — helt gratis att testa online. Bildledtråd paras med ett bokstavsrutnät med luckor, och användarna fyller i de saknade bokstäverna. Fyra svårighetsnivåer styr hur många bokstäver som visas. Språkkänslig: \"HUND\" på svenska, \"DOG\" på engelska, \"CHIEN\" på franska. Välj bland mer än 3 100 bilder i 104 teman. Automatiskt facit ingår. Perfekt för föräldrar som söker vokabulärövningar, och för Etsy-säljare som vill testa generatorn. Den gratis provversionen innehåller en vattenstämpel. Ta bort vattenmärket och sälj med kommersiell licens.',
   },
 

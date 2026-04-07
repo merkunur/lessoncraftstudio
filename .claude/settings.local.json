@@ -323,7 +323,17 @@
       "WebFetch(domain:www.warriorforum.com)",
       "WebFetch(domain:muncheye.com)",
       "WebFetch(domain:cvcworksheetsgenerator.com)",
-      "WebFetch(domain:puzzlebookmaker.com)"
+      "WebFetch(domain:puzzlebookmaker.com)",
+      "WebFetch(domain:warriorplus.com)",
+      "WebFetch(domain:puzzlebookdomination.com)",
+      "WebFetch(domain:www.activitybookgenerator.com)",
+      "WebFetch(domain:artistly.ai)",
+      "WebFetch(domain:ahrefs.com)",
+      "WebFetch(domain:www.gsqi.com)",
+      "WebFetch(domain:support.google.com)",
+      "WebFetch(domain:internationalwebmastery.com)",
+      "WebFetch(domain:www.withdaydream.com)",
+      "WebFetch(domain:thegray.company)"
     ],
     "deny": [],
     "ask": []

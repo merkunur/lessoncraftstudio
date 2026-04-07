@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <title>MatchUp Maker</title>
@@ -3116,6 +3117,7 @@
             }
             showMessage(t('preparingFile').replace('{filename}', fileName), 'info', 0);
             const exportOptions = { multiplier: downloadMultiplier };
+            await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
@@ -3142,6 +3144,7 @@
             });
 
             const exportOptions = { multiplier: downloadMultiplier };
+            await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
@@ -3451,8 +3454,20 @@
     
     // Check if user is on free tier
     function isFreeTier() {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get('tier') === 'free';
+        // Access Guard: watermark ON by default.
+        // Removed only after server confirms purchase.
+        var urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('tier') === 'free') return true;
+        return !window.__accessVerified;
+    }
+
+    // Async version: waits for server verification before deciding.
+    // Used by export functions to avoid race conditions.
+    async function waitForAccessCheck() {
+        // Fresh server verification on every export (catches session changes)
+        if (typeof window.__verifyAccessNow === 'function') {
+            await window.__verifyAccessNow();
+        }
     }
 
     // Add watermark to canvas before export
@@ -3523,6 +3538,7 @@
             showMessage(t('preparingPdf'), 'info', 0);
             
             // Add watermark if free tier
+            await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
@@ -3564,6 +3580,7 @@
             showMessage(t('preparingJpeg'), 'info', 0);
             
             // Add watermark if free tier
+            await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {

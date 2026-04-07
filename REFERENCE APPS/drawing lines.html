@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <title>Drawing Lines Worksheet Generator</title>
@@ -3213,6 +3214,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     async function downloadImageFile() {
         if (!lastGeneratedData) { showMessage(t('pleaseGenerateWorksheetFirst'), 'error'); return; }
         showMessage(t('preparingJpegWait'), 'info', 0);
+        await waitForAccessCheck();
         const watermarkData = addWatermarkToCanvas(worksheetCanvas);
         try {
             const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
@@ -3229,8 +3231,20 @@ document.addEventListener("DOMContentLoaded", async function() {
     
     // Check if user is on free tier
     function isFreeTier() {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get('tier') === 'free';
+        // Access Guard: watermark ON by default.
+        // Removed only after server confirms purchase.
+        var urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('tier') === 'free') return true;
+        return !window.__accessVerified;
+    }
+
+    // Async version: waits for server verification before deciding.
+    // Used by export functions to avoid race conditions.
+    async function waitForAccessCheck() {
+        // Fresh server verification on every export (catches session changes)
+        if (typeof window.__verifyAccessNow === 'function') {
+            await window.__verifyAccessNow();
+        }
     }
 
     // Add watermark to canvas before export
@@ -3301,6 +3315,7 @@ document.addEventListener("DOMContentLoaded", async function() {
             showMessage(t('preparingPdf'), 'info', 0);
             
             // Add watermark if free tier
+            await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
@@ -3342,6 +3357,7 @@ document.addEventListener("DOMContentLoaded", async function() {
             showMessage(t('preparingJpeg'), 'info', 0);
             
             // Add watermark if free tier
+            await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
@@ -3369,6 +3385,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 async function downloadPDF() {
         if (!lastGeneratedData) { showMessage(t('pleaseGenerateWorksheetFirst'), 'error'); return; }
         showMessage(t('preparingPdfWait'), 'info', 0);
+        await waitForAccessCheck();
         const watermarkData = addWatermarkToCanvas(worksheetCanvas);
         try {
             const { jsPDF } = window.jspdf;

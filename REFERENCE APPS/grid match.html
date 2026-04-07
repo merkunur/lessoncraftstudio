@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -3278,6 +3279,7 @@
             const btnId = canvasToExport === wsCanvas ? 'downloadWsJpegBtn' : 'downloadAkJpegBtn';
             $(btnId).disabled = true;
 
+            await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 // Save current state
@@ -3318,8 +3320,20 @@
         
     // Check if user is on free tier
     function isFreeTier() {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get('tier') === 'free';
+        // Access Guard: watermark ON by default.
+        // Removed only after server confirms purchase.
+        var urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('tier') === 'free') return true;
+        return !window.__accessVerified;
+    }
+
+    // Async version: waits for server verification before deciding.
+    // Used by export functions to avoid race conditions.
+    async function waitForAccessCheck() {
+        // Fresh server verification on every export (catches session changes)
+        if (typeof window.__verifyAccessNow === 'function') {
+            await window.__verifyAccessNow();
+        }
     }
 
     // Add watermark to canvas before export
@@ -3390,6 +3404,7 @@
             showMessage('Preparing PDF...', 'info', 0);
             
             // Add watermark if free tier
+            await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
@@ -3431,6 +3446,7 @@
             showMessage('Preparing JPEG...', 'info', 0);
             
             // Add watermark if free tier
+            await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
@@ -3462,6 +3478,7 @@ async function downloadPDF(canvasToExport, filename) {
             const btnId = canvasToExport === wsCanvas ? 'downloadWsPdfBtn' : 'downloadAkPdfBtn';
             $(btnId).disabled = true;
 
+            await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             try {
                 const { jsPDF } = window.jspdf;

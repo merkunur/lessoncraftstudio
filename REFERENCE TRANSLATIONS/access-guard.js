@@ -1,49 +1,23 @@
 /**
- * Access Guard - Server-Side Watermark Verification
+ * Access Guard - Watermark Verification + Session Limiting
  *
- * This script MUST be loaded by every worksheet generator app.
- * It verifies with the server that the user actually purchased the app
- * before allowing watermark-free exports.
+ * Loaded by every worksheet generator app.
  *
- * Default behavior: WATERMARK ON (safe default)
- * Only removes watermark after positive server verification.
+ * Verifies with the server ON EVERY EXPORT (not just page load).
+ * This catches session invalidation that happens after the page loaded.
  *
- * Three states:
- *   __accessVerified = false  (default, watermark on)
- *   __accessVerified = true   (server confirmed, watermark off)
- *   __accessPending = true    (verification in progress)
+ * Default: WATERMARK ON. Only removed after positive server confirmation.
  */
 (function() {
   'use strict';
 
-  // Global flags
   window.__accessVerified = false;
   window.__accessPending = false;
-  // Promise that resolves when verification is complete
-  window.__accessReady = Promise.resolve(false);
 
   var urlParams = new URLSearchParams(window.location.search);
   var tier = urlParams.get('tier') || 'free';
 
-  // If tier is free, no verification needed
-  if (tier === 'free') {
-    return;
-  }
-
-  // For any non-free tier, verify with server
-  var token = null;
-  try {
-    token = localStorage.getItem('accessToken');
-  } catch (e) {
-    // localStorage not available
-  }
-
-  if (!token) {
-    console.warn('[Access Guard] No auth token found. Watermark enforced.');
-    return;
-  }
-
-  // Determine appId from the current filename
+  // Determine appId from filename
   var path = window.location.pathname;
   var filename = decodeURIComponent(path.split('/').pop() || '');
 
@@ -83,46 +57,141 @@
     'treasure hunt.html': 'treasure-hunt'
   };
 
-  var appId = filenameToAppId[filename];
-  if (!appId) {
-    console.warn('[Access Guard] Unknown app: ' + filename + '. Watermark enforced.');
-    return;
+  var appId = filenameToAppId[filename] || null;
+
+  /**
+   * Show blocking modal when session is invalidated.
+   */
+  function showSessionExpiredModal() {
+    if (document.getElementById('session-expired-overlay')) return;
+
+    var overlay = document.createElement('div');
+    overlay.id = 'session-expired-overlay';
+    overlay.style.cssText = 'position:fixed;inset:0;z-index:999999;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.6);backdrop-filter:blur(4px);';
+
+    var card = document.createElement('div');
+    card.style.cssText = 'background:#fff;border-radius:16px;padding:40px;max-width:440px;width:90%;text-align:center;box-shadow:0 25px 50px -12px rgba(0,0,0,0.25);';
+
+    var title = document.createElement('h2');
+    title.style.cssText = 'font-size:20px;font-weight:700;color:#111827;margin:0 0 12px;line-height:1.3;font-family:system-ui,-apple-system,sans-serif;';
+    title.textContent = 'Session Active on Another Device';
+
+    var body = document.createElement('p');
+    body.style.cssText = 'font-size:15px;color:#6B7280;line-height:1.6;margin:0 0 28px;font-family:system-ui,-apple-system,sans-serif;';
+    body.textContent = 'Your account is currently being used on another device. Only one device can be active at a time. To continue on this device, sign in again.';
+
+    var btn = document.createElement('a');
+    btn.href = '/member';
+    btn.style.cssText = 'display:inline-block;padding:14px 32px;font-size:16px;font-weight:600;color:#fff;background:#3B82F6;border-radius:10px;text-decoration:none;font-family:system-ui,-apple-system,sans-serif;';
+    btn.textContent = 'Sign In Again';
+
+    card.appendChild(title);
+    card.appendChild(body);
+    card.appendChild(btn);
+    overlay.appendChild(card);
+
+    if (document.body) {
+      document.body.appendChild(overlay);
+    } else {
+      document.addEventListener('DOMContentLoaded', function() {
+        document.body.appendChild(overlay);
+      });
+    }
   }
 
-  // Mark as pending and start verification
-  window.__accessPending = true;
+  /**
+   * Called by export functions via `await waitForAccessCheck()`.
+   * Makes a FRESH server call every time to catch session changes.
+   */
+  window.__accessReady = (function verifyNow() {
+    if (tier === 'free' || !appId) {
+      window.__accessVerified = false;
+      return Promise.resolve(false);
+    }
 
-  window.__accessReady = fetch('/api/verify-app-access', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': 'Bearer ' + token,
-      'X-Device-Id': (function() { try { return localStorage.getItem('lcs_device_id_v2') || ''; } catch(e) { return ''; } })()
-    },
-    body: JSON.stringify({ appId: appId })
-  })
-  .then(function(res) { return res.json(); })
-  .then(function(data) {
-    window.__accessPending = false;
-    if (data && data.error === 'session_expired') {
-      try { window.dispatchEvent(new CustomEvent('session-expired')); } catch(e) {}
+    var token = null;
+    try { token = localStorage.getItem('accessToken'); } catch(e) {}
+    if (!token) {
+      window.__accessVerified = false;
+      return Promise.resolve(false);
+    }
+
+    window.__accessPending = true;
+
+    return fetch('/api/verify-app-access', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + token
+      },
+      body: JSON.stringify({ appId: appId })
+    })
+    .then(function(res) { return res.json(); })
+    .then(function(data) {
+      window.__accessPending = false;
+      if (data && data.error === 'session_expired') {
+        window.__accessVerified = false;
+        showSessionExpiredModal();
+        return false;
+      }
+      if (data && data.hasAccess === true) {
+        window.__accessVerified = true;
+        return true;
+      }
       window.__accessVerified = false;
       return false;
-    }
-    if (data && data.hasAccess === true) {
-      window.__accessVerified = true;
-      console.log('[Access Guard] Access verified for: ' + appId);
-      return true;
-    } else {
+    })
+    .catch(function() {
+      window.__accessPending = false;
       window.__accessVerified = false;
-      console.warn('[Access Guard] Access DENIED for: ' + appId);
       return false;
+    });
+  })();
+
+  /**
+   * Re-verify on every export. This is the key function called by
+   * `await waitForAccessCheck()` in each app's export functions.
+   * Makes a FRESH API call each time — catches session invalidation
+   * that happened after page load.
+   */
+  window.__verifyAccessNow = function() {
+    if (tier === 'free' || !appId) {
+      window.__accessVerified = false;
+      return Promise.resolve();
     }
-  })
-  .catch(function(err) {
-    window.__accessPending = false;
-    window.__accessVerified = false;
-    console.warn('[Access Guard] Verification failed. Watermark enforced.', err);
-    return false;
-  });
+
+    var token = null;
+    try { token = localStorage.getItem('accessToken'); } catch(e) {}
+    if (!token) {
+      window.__accessVerified = false;
+      return Promise.resolve();
+    }
+
+    return fetch('/api/verify-app-access', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + token
+      },
+      body: JSON.stringify({ appId: appId })
+    })
+    .then(function(res) { return res.json(); })
+    .then(function(data) {
+      if (data && data.error === 'session_expired') {
+        window.__accessVerified = false;
+        showSessionExpiredModal();
+        // Throw to ABORT the export — do not continue with watermark
+        throw new Error('SESSION_EXPIRED');
+      }
+      if (data && data.hasAccess === true) {
+        window.__accessVerified = true;
+      } else {
+        window.__accessVerified = false;
+      }
+    })
+    .catch(function(err) {
+      if (err && err.message === 'SESSION_EXPIRED') throw err;
+      window.__accessVerified = false;
+    });
+  };
 })();

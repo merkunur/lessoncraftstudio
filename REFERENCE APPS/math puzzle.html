@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <title>Math Puzzle Worksheet Generator</title>
@@ -3766,6 +3767,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!canvasToExport) return;
         showMessage(t('mathpuzzle.msg.preparing.jpeg'), 'info', 2000);
 
+        await waitForAccessCheck();
         const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const dataURL = await getCanvasDataURL(canvasToExport);
@@ -3783,8 +3785,20 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Check if user is on free tier
     function isFreeTier() {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get('tier') === 'free';
+        // Access Guard: watermark ON by default.
+        // Removed only after server confirms purchase.
+        var urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('tier') === 'free') return true;
+        return !window.__accessVerified;
+    }
+
+    // Async version: waits for server verification before deciding.
+    // Used by export functions to avoid race conditions.
+    async function waitForAccessCheck() {
+        // Fresh server verification on every export (catches session changes)
+        if (typeof window.__verifyAccessNow === 'function') {
+            await window.__verifyAccessNow();
+        }
     }
 
     // Add watermark to canvas before export
@@ -3855,6 +3869,7 @@ document.addEventListener("DOMContentLoaded", function() {
             showMessage(t('mathpuzzle.msg.preparing.pdf'), 'info', 0);
             
             // Add watermark if free tier
+            await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
@@ -3896,6 +3911,7 @@ document.addEventListener("DOMContentLoaded", function() {
             showMessage(t('mathpuzzle.msg.preparing.jpeg'), 'info', 0);
             
             // Add watermark if free tier
+            await waitForAccessCheck();
             const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
@@ -3924,6 +3940,7 @@ async function downloadPDF(canvasToExport, filename) {
         if (!canvasToExport) return;
         showMessage(t('mathpuzzle.msg.preparing.pdf'), 'info', 2000);
 
+        await waitForAccessCheck();
         const watermarkData = addWatermarkToCanvas(canvasToExport);
         try {
             const { jsPDF } = window.jspdf;

@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skattejagt arbejdsark generator til udskrift',
+    primaryKeyword: 'skattejagt generator gratis online',
     secondaryKeywords: [
-      'skattejagt arbejdsark generator for sælgere',
-      'lav retningspuslespil til salg',
-      'printbar skattejagt generator kommerciel brug',
-      'skattejagt puslespil generator til KDP og Etsy',
+      'sporleg gratis til print',
+      'skattejagt prøv gratis',
+      'ledetråde skattejagt gratis',
     ],
     lsiKeywords: [
-      'to retningstyper grundlæggende kardinal koordinatgitter generator',
-      'sprogafhængige lokaliserede retningsledetråde 11 sprog',
-      'automatisk facit markeret skattecelle dobbelt lærredssystem',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'skattejagt',
+      'sporleg',
+      'ledetråde',
     ],
-    titleTag: 'Skattejagt Generator — Skattejagt Arbejdsark Generator',
-    metaDescription: 'Lav skattejagt arbejdsark på 5×5 gitter med to retningstyper, tematiske landemærker, automatisk facit og 104. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis skattejagt generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv skattejagt-generatoren gratis online. Temabilleder, printklare PDF. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Skattejagt Generator',
-    tagline: 'Vejfindende skattejagt arbejdsark-generator med fast 5×5 koordinatgitter (A–E rækker, 1–5 kolonner), to retningstyper (Grundlæggende: op/ned/venstre/højre for førskole til 1. klasse, og Kardinal: nord/syd/øst/vest for 2. klasse+), 6 tematiske landemærkebilleder, præcis 4 retningsbevægelser per puslespil, automatisk genereret facit med lysegul markeret skattecelle via dobbelt lærredssystem, fuldt lokaliserede retningsledetråde på 11 sprog og en skattejagt-tematiseret tealoverskrift (#2C8C7C) med gylden Fredoka-titel over 104 tematiske billedsamlinger',
-    description: 'Lav professionelle skattejagt arbejdsark, hvor brugere følger sekventielle retningsledetråde for at finde skjult skat på et 5×5 koordinatgitter mærket med bogstavrækker (A–E) og nummerkolonner (1–5). Hvert puslespil spreder 6 tematiske billeder over gitteret som visuelle landemærker, genererer derefter en startposition og præcis 4 retningsbevægelser, der fører til skattecellen. Arbejdsarket viser 5 instruktionslinjer: \"Begynd ved [celle]\" efterfulgt af 4 \"Flyt [retning] [antal] felt(er)\" ledetråde, afsluttende med \"Hvor er skatten?\" Vælg mellem to retningstyper. Grundlæggende tilstand bruger op, ned, venstre og højre for førskole til 1. klasse. Kardinaltilstand bruger nord, syd, øst og vest for 2. klasse og op. Skattejagt Generatoren er sprogafhængig: retningsledetråde og billedindhold ændres begge, når du skifter sprog. Alle retninger er fuldt oversat til 11 understøttede sprog. Det dobbelte lærredssystem genererer både en arbejdsarks-fane og en facit-fane — facittet markerer den endelige skattecelle i lysegul (rgba(255, 250, 205, 0.8)) med en mørkegrå ramme. Hvert puslespil inkluderer en skattejagt-tematiseret automatisk genereret overskrift med teal baggrund (#2C8C7C), ravgul ydre ramme (#D4A574), sandbeige indre ramme (#F4E4C1) og gylden titel (#D4A017) i Fredoka. Gennemse 104 temasamlinger med 3.100+ illustrationer eller upload egne billeder. Eksportér trykfærdige PDF\'er og JPEG\'er i 300 DPI. Skift gråtone. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis skattejagt generator — prøv online med vandmærke',
+    tagline: 'Prøv skattejagt-generatoren gratis online — 5×5 koordinatgitter, to retningstyper, 6 tematiske ledetråde og automatisk facit. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv skattejagt-generatoren gratis online — lav professionelle sporleg-opgaver, hvor brugere følger sekventielle ledetråde for at finde skjult skat på et 5×5 koordinatgitter mærket med bogstavrækker (A–E) og nummerkolonner (1–5). Hvert puslespil spreder 6 tematiske billeder over gitteret som visuelle landemærker, genererer derefter en startposition og præcis 4 retningsbevægelser, der fører til skattecellen. Arbejdsarket viser 5 instruktionslinjer: \"Begynd ved [celle]\" efterfulgt af 4 \"Flyt [retning] [antal] felt(er)\" ledetråde, afsluttende med \"Hvor er skatten?\" Vælg mellem to retningstyper. Grundlæggende tilstand bruger op, ned, venstre og højre for førskole til 1. klasse. Kardinaltilstand bruger nord, syd, øst og vest for 2. klasse og op. Skattejagt Generatoren er sprogafhængig: retningsledetråde og billedindhold ændres begge, når du skifter sprog. Alle retninger er fuldt oversat til 11 understøttede sprog. Det dobbelte lærredssystem genererer både en arbejdsarks-fane og en facit-fane — facittet markerer den endelige skattecelle i lysegul (rgba(255, 250, 205, 0.8)) med en mørkegrå ramme. Hvert puslespil inkluderer en skattejagt-tematiseret automatisk genereret overskrift med teal baggrund (#2C8C7C), ravgul ydre ramme (#D4A574), sandbeige indre ramme (#F4E4C1) og gylden titel (#D4A017) i Fredoka. Gennemse 104 temasamlinger med 3.100+ illustrationer eller upload egne billeder. Eksportér trykfærdige PDF\'er og JPEG\'er i 300 DPI. Skift gråtone. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Skattejagt Arbejdsark i 8 Trin',
+    title: 'Sådan laver du skattejagt-opgaver i 8 trin',
     steps: [
       {
         title: 'Åbn Skattejagt Generatoren',
@@ -155,12 +157,12 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Alle funktioner låst op — begge retningstyper, 5×5 koordinatgitteret, 6-billeders puslespilgenerering med præcis 4 retningsbevægelser, det automatisk genererede facit med lysegul markeret skattecelle, hele billedbiblioteket med 104 temasamlinger og 3.100+ illustrationer, tre billedindtastningsmetoder, baggrunds- og rammetemaer, sprogvalg for 11 lokaliserede retningssæt, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på downloads.',
+      question: 'Kan jeg prøve skattejagt-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — begge retningstyper, 5×5 koordinatgitteret, 6-billeders sporleg med præcis 4 retningsbevægelser, automatisk facit med lysegul markeret skattecelle, hele billedbiblioteket med 104 temasamlinger og 3.100+ illustrationer, tre billedindtastningsmetoder, baggrunds- og rammetemaer, sprogvalg for 11 lokaliserede retningssæt, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på gratis downloads.',
     },
     {
-      question: 'Hvad er et skattejagt arbejdsark, og hvordan fungerer puslespillet?',
-      answer: 'Et skattejagt arbejdsark er et vejfindende puslespil på et fast 5×5 koordinatgitter mærket med bogstavrækker (A–E) og nummerkolonner (1–5). Seks tematiske billeder spredes over de 25 celler som visuelle landemærker. Arbejdsarket giver 5 instruktionslinjer: en startposition, præcis 4 retningsbevægelser og en afsluttende spørgsmål \"Hvor er skatten?\" Brugere følger de sekventielle ledetråde på gitteret for at afgøre, hvilken celle der indeholder skatten.',
+      question: 'Hvad er en skattejagt-opgave, og hvordan fungerer sporleget?',
+      answer: 'En skattejagt-opgave er et vejfindende sporleg på et fast 5×5 koordinatgitter mærket med bogstavrækker (A–E) og nummerkolonner (1–5). Seks tematiske billeder spredes over de 25 celler som visuelle ledetråde. Opgaven giver 5 instruktionslinjer: en startposition, præcis 4 retningsbevægelser og et afsluttende spørgsmål \"Hvor er skatten?\" Brugere følger de sekventielle ledetråde på gitteret for at afgøre, hvilken celle der indeholder skatten.',
     },
     {
       question: 'Hvad er de to retningstyper, og hvordan adskiller de sig?',
@@ -214,7 +216,7 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/treasure%20hunt/Skattejagt%201.webp',
-      primaryAlt: 'Skattejagt vejfindende arbejdsark med 5 gange 5 koordinatgitter, 6 spredte tematiske billeder som landemærker, retningsledetråde og skattejagt-tematiseret tealoverskrift med gylden titel',
+      primaryAlt: 'Gratis skattejagt generator med 5 gange 5 koordinatgitter og tematiske ledetråde — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {

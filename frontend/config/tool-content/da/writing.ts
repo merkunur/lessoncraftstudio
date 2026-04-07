@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skriveøvelser arbejdsark generator',
+    primaryKeyword: 'skrivemotorik generator gratis online',
     secondaryKeywords: [
-      'skriveøvelser arbejdsark generator for sælgere',
-      'lav bogstavsporing arbejdsark til salg',
-      'printbare skriveøvelser arbejdsark kommerciel brug',
-      'skriveøvelser generator til KDP',
+      'skriveøvelser gratis til print',
+      'skrivemotorik prøv gratis',
+      'bogstavskrivning gratis',
     ],
     lsiKeywords: [
-      'stregrækkefølge pil skriveøvelser printbare til Etsy',
-      'toningsguide sporings bogstavøvelse arbejdsark værktøj',
-      'kursiv og trykskrift skriveøvelses generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'skrivemotorik',
+      'overtegne',
+      'finmotorik',
     ],
-    titleTag: 'Skriveøvelser Arbejdsark Generator | Lav og Sælg',
-    metaDescription: 'Generér skriveøvelser arbejdsark med tre øvelsestilstande, fem skrifttypestile, pilguided stregrækkefølge,. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis skrivemotorik generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv skrivemotorik-generatoren gratis online. Egne ord, 11 sprog, 300 DPI PDF. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Skriveøvelser Arbejdsark Generator',
-    tagline: 'Lav bogstavøvelsesark med tre progressive tilstande, pilguided stregrækkefølge og tonende bogstavguider, der bygger skrivefærdighed fra fuld sporing til selvstændig skrivning',
-    description: 'Design professionelle skriveøvelser arbejdsark bygget på et tretilstandsprogressionssystem: Sporingstilstand giver faste bogstavkonturer for begyndere at følge direkte, Tonende Sporing reducerer progressivt bogstavets gennemsigtighed hen over rækken, så brugerne overgår fra støttet sporing til selvstændig genkaldelse inden for en enkelt række, og Guidet Kopiering tilbyder en svag kontur for næsten selvstændig skrivning med minimalt visuelt støtte. Fem skrifttypestile giver dig fuld kontrol over bogstavpræsentationen — Tryk Normal for standard blokbogstaver, Tryk Normal Pil med nummererede retningspile, der viser præcis stregrækkefølge-formation, Tryk Sporing for prikkede konturbogstaver designet til sporingsøvelser, Tryk Sporing Pil der kombinerer prikkede konturer med stregrækkefølgepile, og Kursiv (Great Vibes) for flydende skriftøvelse. Den pilguidede stregrækkefølge er den kendetegnende funktion: nummererede retningspile på hvert bogstav viser brugerne præcis, hvordan de former hvert streg i den rigtige sekvens, og forvandler en grundlæggende sporingsside til et instruktionsværktøj. Hver række på arbejdsarket er uafhængigt konfigurerbar — eget øvelsestilstand, skrifttypestil, indholdskilde og store/små bogstaver-konfiguration — så en enkelt side kan blande Sporingstilstand for nye bogstaver, Tonende Sporing for øvede bogstaver og Guidet Kopiering for gentagelse. Indholdskilder inkluderer Billedbiblioteket med mere end 3.100 illustrationer i 104 tematiske samlinger (Begyndelsesbogstav eller Fuldt Filnavn-tilstande), Tilpasset Tekst for ethvert ord eller sætning, og Tom for blanke linjerede rækker. Førskrivnings stregøvelser (lodrette linjer, vandrette linjer, cirkler, zigzag-linjer) bygger finmotoriske grundlag før bogstavformation. Eksportér trykfærdige PDF\'er og JPEG-billeder med ~300 DPI via en 6× gengivelsesmultiplikator i Letter, A4 eller tilpassede størrelser. Vælg blandt 7 skrifttyper til tekstoverlejringer, skift gråtone for blækvenligt output, og brug hele Fabric.js arbejdsområdet til at flytte hvert element. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis skrivemotorik generator — prøv online med vandmærke',
+    tagline: 'Prøv skrivemotorik-generatoren gratis online — skriveøvelser med egne ord, pilguider, 11 sprog, ingen tilmelding',
+    description: 'Prøv vores skrivemotorik-generator gratis online med vandmærke. Lav skriveøvelser med egne ord, pilguider og finmotorik-aktiviteter i 300 DPI PDF — helt uden tilmelding. Tre progressive tilstande bygger skrivefærdighed: Sporingstilstand giver faste bogstavkonturer for begyndere at følge direkte, Tonende Sporing reducerer progressivt bogstavets gennemsigtighed hen over rækken, så brugerne overgår fra støttet sporing til selvstændig genkaldelse inden for en enkelt række, og Guidet Kopiering tilbyder en svag kontur for næsten selvstændig skrivning med minimalt visuelt støtte. Fem skrifttypestile giver dig fuld kontrol over bogstavpræsentationen — Tryk Normal for standard blokbogstaver, Tryk Normal Pil med nummererede retningspile, der viser præcis stregrækkefølge-formation, Tryk Sporing for prikkede konturbogstaver designet til sporingsøvelser, Tryk Sporing Pil der kombinerer prikkede konturer med stregrækkefølgepile, og Kursiv (Great Vibes) for flydende skriftøvelse. Den pilguidede stregrækkefølge er den kendetegnende funktion: nummererede retningspile på hvert bogstav viser brugerne præcis, hvordan de former hvert streg i den rigtige sekvens, og forvandler en grundlæggende sporingsside til et instruktionsværktøj. Hver række på arbejdsarket er uafhængigt konfigurerbar — eget øvelsestilstand, skrifttypestil, indholdskilde og store/små bogstaver-konfiguration — så en enkelt side kan blande Sporingstilstand for nye bogstaver, Tonende Sporing for øvede bogstaver og Guidet Kopiering for gentagelse. Indholdskilder inkluderer Billedbiblioteket med mere end 3.100 illustrationer i 104 tematiske samlinger (Begyndelsesbogstav eller Fuldt Filnavn-tilstande), Tilpasset Tekst for ethvert ord eller sætning, og Tom for blanke linjerede rækker. Førskrivnings stregøvelser (lodrette linjer, vandrette linjer, cirkler, zigzag-linjer) bygger finmotoriske grundlag før bogstavformation. Eksportér trykfærdige PDF\'er og JPEG-billeder med ~300 DPI via en 6× gengivelsesmultiplikator i Letter, A4 eller tilpassede størrelser. Vælg blandt 7 skrifttyper til tekstoverlejringer, skift gråtone for blækvenligt output, og brug hele Fabric.js arbejdsområdet til at flytte hvert element. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Skriveøvelser Arbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du gratis skrivemotorik-øvelser i 8 trin',
     steps: [
       {
         title: 'Åbn Skriveøvelser Arbejdsark Generatoren',
@@ -155,12 +157,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — alle tre øvelsestilstande (Sporing, Tonende Sporing, Guidet Kopiering), alle fem skrifttypestile inklusive pilguided stregrækkefølge, førskrivningsstreger, billedbiblioteket, per-række-konfiguration, tilpasset tekstindtastning og alle eksportformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Er skrivemotorik-generatoren gratis at prøve online?',
+      answer: 'Ja. Prøv skrivemotorik-generatoren gratis online med alle funktioner — tre øvelsestilstande, fem skrifttypestile med pilguider, førskrivningsstreger, 104 billedtemaer, egne ord og alle eksportformater. Ingen tilmelding. Downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvad er de tre øvelsestilstande?',
-      answer: 'Sporingstilstand giver faste bogstavkonturer, som brugerne følger direkte — fuld visuel støtte for nye bogstaver. Tonende Sporing begynder med faste bogstaver i venstre side af rækken og reducerer progressivt gennemsigtigheden hen over rækken og bygger selvstændighed med hver gentagelse. Guidet Kopiering viser en svag bogstavkontur for næsten selvstændig skrivning med minimalt visuelt støtte. Disse tre tilstande generator en naturlig progression fra fuld støtte til selvstændig skrivning.',
+      question: 'Hvad indeholder den gratis skriveøvelses-generator?',
+      answer: 'Den gratis prøveversion giver fuld adgang: Sporing, Tonende Sporing og Guidet Kopiering, pilguided stregrækkefølge, finmotorik-streger, billedbibliotek, egne ord og 300 DPI PDF. Det eneste, der adskiller prøveversionen, er et vandmærke. Ingen tilmelding krævet.',
+    },
+    {
+      question: 'Hvordan fungerer de gratis skrivemotorik-øvelser?',
+      answer: 'Tre progressive tilstande bygger skrivefærdighed: Sporingstilstand giver faste bogstavkonturer at følge. Tonende Sporing reducerer progressivt gennemsigtigheden hen over rækken og bygger selvstændighed. Guidet Kopiering viser en svag kontur for næsten selvstændig skrivning. Pilguider viser præcis stregrækkefølge.',
     },
     {
       question: 'Hvordan fungerer den pilguidede stregrækkefølge?',
@@ -214,22 +220,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/writing/writing.webp',
-      primaryAlt: 'Skriveøvelser arbejdsark med sporings-, tonende sporings- og guidet kopieringstilstande, der viser pilguidede stregrækkefølgebogstaver',
+      primaryAlt: 'Gratis skrivemotorik generator online — skriveøvelser med pilguider og finmotorik-aktiviteter',
     },
     sampleGallery: [
       {
         src: '/samples/danish/writing/writing.webp',
-        alt: 'Skriveøvelser arbejdsark med tre progressive øvelsestilstande og tematisk billedintegrering',
+        alt: 'Gratis skrivemotorik-øvelser med tre progressive tilstande og temabilleder — prøv online',
         caption: 'Tre øvelsestilstande på ét arbejdsark — Sporing, Tonende Sporing og Guidet Kopiering med per-række-uafhængighed',
       },
       {
         src: '/samples/danish/writing/writing%20custom.webp',
-        alt: 'Skriveøvelser arbejdsark i sporingstilstand med tryk pil-skrifttype, der viser nummererede stregrækkefølgeretninger',
+        alt: 'Gratis skriveøvelser med pilguided stregrækkefølge og nummererede retninger',
         caption: 'Pilguided stregrækkefølge — nummererede retningspile viser præcis bogstavformationssekvens',
       },
       {
         src: '/samples/danish/writing/writing%20beginning%20letter.webp',
-        alt: 'Skriveøvelser arbejdsark i tonende sporingstilstand med bogstaver, der progressivt toner ud hen over hver række',
+        alt: 'Gratis skrivemotorik i tonende sporingstilstand med bogstaver, der toner ud over rækken',
         caption: 'Tonende Sporingstilstand — bogstaver toner progressivt ud for at bygge selvstændig skrivetillid',
       },
     ],

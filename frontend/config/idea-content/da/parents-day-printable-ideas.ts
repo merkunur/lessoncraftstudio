@@ -2,23 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Forældredag printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag mors dag og fars dag printbare idéer til salg på Etsy, KDP og Gumroad. Forældrepåskønnelses-produktkoncepter og platformstips for sælgere.',
-    primaryKeyword: 'forældredag printbare idéer',
+    titleTag: 'Mors dag og fars dag opgaver til print — idéer til salg | Etsy.dk',
+    metaDescription: 'Mors dag og fars dag opgaver til print du kan sælge online. Malebilleder, ordleg og skrivemotorik med familietema. Sælg på Etsy.dk. Sidegesjæft.',
+    primaryKeyword: 'mors dag fars dag opgaver til print idéer',
     secondaryKeywords: [
-      'mors dag arbejdsark til salg',
-      'fars dag printbar forretningsidéer',
-      'forældredagsaktivitetsark for sælgere',
-      'sælg forældredagsprintables på Etsy',
+      'mors dag fars dag malebilleder ordleg til print sælg online',
+      'forældredag printbare idéer Etsy.dk sidegesjæft',
+      'forældredag aktivitetsark til print skrivemotorik',
+      'sælg mors dag fars dag malebilleder til print',
     ],
     lsiKeywords: [
-      'familiefejring pædagogiske arbejdsark',
-      'forældrepåskønnelse aktivitetssider',
-      'sæsonbestemte familietematiske printables',
+      'familiefejring opgaver til print sidegesjæft',
+      'forældrepåskønnelse malebilleder ordleg til print',
+      'sæsonbestemte familietema opgaver til print passiv indkomst',
     ],
   },
   hero: {
-    title: 'Mors dag og fars dag printbare forretningsidéer for sælgere',
+    title: 'Mors dag og fars dag opgaver til print — forretningsidéer for sælgere',
     description: 'Mors dag og fars dag skaber tilsammen et af de mest følelsesdrevne dobbeltferie-salgsvinduer i den printbare kalender, med efterspørgsel der stiger gennem april til mors dag i maj og fortsætter ind i juni til fars dag. Nichen tilbyder hjertevarm undertemavariation inklusive hjerter, blomster, slips, lykønskningskort, gavekort, påskønnelseskuponer, familieportrætter, trofæer, kroner og "bedste mor" eller "bedste far" prisbånd, hvilket giver sælgere et varmt visuelt ordforråd der resonerer med forældre og børn på tværs af aldersgrupper. Købere planlægger gavelavningsprojekter uger i forvejen og søger printbare aktiviteter der lader børn skabe personlige påskønnelsesgaver i undervisningstiden. Hjemmeundervisningsfamilier og dagplejeprogrammer tilføjer køberdybde og søger forældrepåskønnelseshåndværk der kombinerer hjertevarm stemning med ægte læringsresultater. For printable sælgere på Etsy, Amazon KDP og Gumroad leverer denne niche to distinkte omsætningstoppe fra en enkelt produktlinje, med en fejringscentreret æstetik der driver følelsesladede køb og stærke konverteringsrater. Denne guide dækker specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en rentabel forældrepåskønnelses printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Forældrepåskønnelses printbare-nichen indtager en unikt kraftfuld position i forårets salgskalender fordi den leverer to koncentrerede efterspørgselstoppe fra én produktlinje. Mors dag i maj og fars dag i juni skaber ryg-mod-ryg salgsvinduer der belønner sælgere der forbereder et sammenhængende familiepåskønnelseskatalog. Købere begynder at planlægge maj gavelavningsprojekter i begyndelsen af april og søger printbare aktiviteter der lader børn skabe personlige påskønnelsesgaver, kort og mindebøger i undervisningstiden. Forældre og hjemmeundervisningsfamilier søger alderstilpassede håndværksaktiviteter der hjælper børn med at udtrykke taknemmelighed meningsfuldt, og dagplejeleverandører har brug for strukturerede påskønnelsesprojekter til deres yngste elever.

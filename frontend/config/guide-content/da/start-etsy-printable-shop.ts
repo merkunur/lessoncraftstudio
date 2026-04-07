@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'start Etsy printable-butik',
+    primaryKeyword: 'start en Etsy.dk printable-butik',
     secondaryKeywords: [
       'sådan starter du en Etsy printable-butik',
       'Etsy printable-butik opsætning fra bunden',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'digital download-butik politikker refusion betingelser Etsy sælgere',
       'Etsy printable-butik lanceringsstrategi første 30 dages vækstplan',
     ],
-    titleTag: 'Start Etsy printable-butik fra bunden — Guide',
-    metaDescription: 'Lær at starte en Etsy printable-butik fra bunden med 33 generatorer. Butiksopsætning, branding, listningsoptimering, prissætning, Etsy gebyrer og 30-dages plan.',
+    titleTag: 'Start en Etsy.dk printable-butik — Guide til passiv indkomst',
+    metaDescription: 'Start en Etsy.dk printable-butik med opgaver til print. Butiksopsætning, branding, listningsoptimering, prissætning og 30-dages plan til passiv indkomst.',
   },
 
   hero: {

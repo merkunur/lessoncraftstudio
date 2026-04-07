@@ -32,7 +32,7 @@ const toolsKeywords: Record<string, string[]> = {
   it: ['generatore schede gratis', 'crucipuzzle gratis online', 'cruciverba gratis', 'generatore matematica gratis', 'schede da stampare gratis', 'strumenti didattici online'],
   nl: ['werkbladen generator gratis online', 'woordzoeker maken gratis', 'kruiswoordpuzzel maken gratis', 'reken werkbladen generator gratis', 'kleurplaten generator gratis', 'sudoku printen gratis'],
   sv: ['gratis utskriftsgeneratorer', 'online arbetsbladsskapare', 'utskriftsverktyg prova gratis', 'ordsökningsgenerator gratis', 'mattearbetsbladsgenerator', 'målarbildsskapare online'],
-  da: ['gratis printbare generatorer', 'online opgaveskaber', 'printable-værktøjer prøv gratis', 'ordsøgningsgenerator gratis', 'matematikopgave-generator', 'malebilledskaber online'],
+  da: ['gratis arbejdsark generator', 'ordleg gratis', 'krydsord gratis', 'plusstykker gratis', 'regneopgaver gratis', 'malebilleder gratis', 'sudoku gratis', 'opgaver gratis til print'],
   no: ['gratis utskriftsgeneratorer', 'online oppgaveskaper', 'utskriftsverktøy prøv gratis', 'ordsøkgenerator gratis', 'matteoppgave-generator', 'fargeleggingsskaper online'],
   fi: ['ilmaiset tulostettavat generaattorit', 'online tehtävägeneraattori', 'tulostettavat työkalut kokeile ilmaiseksi', 'sanaristikkogeneraattori ilmainen', 'matematiikkatehtävägeneraattori', 'värityskuvageneraattori online'],
 };
@@ -71,8 +71,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Prova alla 33 arbetsbladsgeneratorer gratis online. Ingen registrering. Ords\ökningar, matte, m\ålarbilder, pussel och mer med vattenst\ämpel.',
   },
   da: {
-    title: 'Gratis printbare generatorer | 33 v\ærkt\øjer | LessonCraftStudio',
-    description: 'Pr\øv alle 33 opgavegeneratorer gratis online. Ingen tilmelding. Ords\øgninger, matematik, malebilleder, puslespil og mere med vandm\ærke.',
+    title: 'Gratis arbejdsark-generatorer | 33 online værktøjer',
+    description: 'Brug alle 33 generatorer gratis online — ordleg, krydsord, regning, sudoku og mere. Ingen registrering. Vandmærket fjernes med licens.',
   },
   no: {
     title: 'Gratis utskriftsgeneratorer | 33 verkt\øy | LessonCraftStudio',
@@ -193,16 +193,16 @@ const toolsContent: Record<string, {
     categories: { math: 'Matematik', literacy: 'L\äsning & Spr\åk', visual: 'Visuellt L\ärande', matching: 'Matchning & Sortering', puzzle: 'Pussel & Logik', search: 'S\ök & Hitta' },
   },
   da: {
-    heroTitle: 'Gratis printbare generatorer',
-    heroSubtitle: 'Pr\øv alle 33 generatorer gratis online. Ingen tilmelding. Opret professionelle opgaveark med vandm\ærke.',
+    heroTitle: 'Gratis arbejdsark-generatorer',
+    heroSubtitle: 'Brug alle 33 generatorer gratis online — ordleg, krydsord, regning, sudoku og mere. Ingen registrering. Vandmærket fjernes med licens.',
     exploreMore: 'Udforsk mere',
     howToGuides: 'Vejledninger',
     bundles: 'Pakker',
     getStarted: 'Kom i gang',
     wantMore: 'Vil du have flere funktioner?',
-    wantMoreDesc: 'Opgrader for at fjerne vandm\ærker og l\åse op for alle temaer og sprog.',
+    wantMoreDesc: 'Opgrader for at fjerne vandmærker og låse op for alle temaer og sprog.',
     viewAll: 'Se alle generatorer',
-    categories: { math: 'Matematik', literacy: 'L\æsning & Sprog', visual: 'Visuel L\æring', matching: 'Matching & Sortering', puzzle: 'Puslespil & Logik', search: 'S\øg & Find' },
+    categories: { math: 'Regning', literacy: 'Læsning & Sprog', visual: 'Visuel Læring', matching: 'Matching & Sortering', puzzle: 'Puslespil & Logik', search: 'Søg & Find' },
   },
   no: {
     heroTitle: 'Gratis utskriftsgeneratorer',

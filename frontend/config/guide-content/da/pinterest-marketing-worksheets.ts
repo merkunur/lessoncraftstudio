@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'pinterest markedsføring arbejdsark',
+    primaryKeyword: 'Pinterest marketing for opgaver',
     secondaryKeywords: [
       'pinterest for printable sælgere',
       'sælg arbejdsark med pinterest',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'pin-optimering vertikalt format Pinterest-algoritme friske pins',
       'søgerangering gemningsrate udgående klik målgruppeindsigt pin-skabeloner',
     ],
-    titleTag: 'Pinterest markedsføring arbejdsark — Sælgerstrategi',
-    metaDescription: 'Pinterest markedsføringsstrategi for arbejdsark til printable sælgere. Driv langsigtet trafik med pin-optimering, tavlestrategi og nøgleordsrigt indhold.',
+    titleTag: 'Pinterest marketing for opgaver til print — Sælgerstrategi',
+    metaDescription: 'Pinterest marketing for sælgere af opgaver til print. Driv langsigtet trafik til din Etsy.dk-butik med pin-optimering og nøgleordsrigt indhold.',
   },
 
   hero: {

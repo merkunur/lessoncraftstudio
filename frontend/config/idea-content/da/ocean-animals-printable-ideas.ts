@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Havdyr printbare idéer til salg — nicheguide',
-    metaDescription: 'Udforsk havdyr printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Havtema produktkoncepter, platformstrategier og tips til printable-sælgere.',
+    titleTag: 'Havdyr opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Havdyr-tema opgaver til print du kan sælge online. Malebilleder, find og tæl, skyggeleg og ordleg med havdyr. Sælg på Etsy.dk. Sidegesjæft.',
 
-    primaryKeyword: 'havdyr printbare idéer',
+    primaryKeyword: 'havdyr opgaver til print idéer',
     secondaryKeywords: [
-      'havdyr arbejdsark til salg',
-      'havdyr printbar forretningsidéer',
-      'havaktivitetsark til sælgere',
-      'sælg havprintables på Etsy',
+      'havdyr malebilleder find og tæl til print sælg online',
+      'havdyr printbare idéer Etsy.dk sidegesjæft',
+      'hav aktivitetsark til print skyggeleg',
+      'sælg havdyr malebilleder ordleg til print',
     ],
     lsiKeywords: [
-      'havliv pædagogiske arbejdsark',
-      'undervandstema aktivitetssider',
-      'havdyr gruppe printables',
+      'havliv undervands opgaver til print sidegesjæft',
+      'havdyr malebilleder skyggeleg til print passiv indkomst',
+      'undervandstema opgaver til print børnehaveklasse',
     ],
   },
   hero: {
-    title: 'Havdyr printbare forretningsidéer til sælgere',
+    title: 'Havdyr opgaver til print — forretningsidéer for sælgere',
     description: 'Havdyr fascinerer børn på tværs af alle aldersgrupper, hvilket gør havliv til et af de mest alsidige temaer på markedet for pædagogiske printables. Fra småbørn der matcher farverige fisk til anden klasse-elever der løser hvaltema matematikopgaver, vækker undervandsverden nysgerrighed og engagement der driver konsekvent køberefterspørgsel. For printable-sælgere tilbyder havnichen helårssalg med en kraftig sæsonmæssig sommertoppe når strandferie, akvariebesøg og havvidenskabslejre dominerer familieaktiviteter. Temaet passer også naturligt med naturfagspensum om levesteder, økosystemer og dyreklassifikation, hvilket giver sælgere et stærkt fodfæste hos købere. Uanset om du specialiserer dig i matematikarbejdsark, læseaktiviteter eller kreative kunstprintables, giver havdyr rigt visuelt materiale og varieret ordforråd der omsættes til overbevisende produkter på tværs af alle platforme. Denne guide gennemgår specifikke produktidéer, platformstrategier og nichepositioneringsmetoder for at hjælpe dig med at opbygge en blomstrende havtema printable-forretning med vores arbejdsark-generatorværktøjer.',
   },
   marketOverview: `Havdyr printable-nichen drager fordel af en unik kombination af pædagogisk relevans, visuel appel og følelsesmæssig fascination som få andre temaer kan matche. Børn tiltrækkes naturligt af havdyr på grund af deres eksotiske former, livlige farver og mystikken ved undervandsmiljøer. Denne iboende interesse betyder at forældre og købere ikke behøver at overbevise modvillige elever om at engagere sig med havtema materialer, hvilket direkte omsættes til positive anmeldelser og gentagne køb for sælgere der leverer kvalitetsprodukter.

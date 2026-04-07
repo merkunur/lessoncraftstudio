@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printbar hvor meget indkomst realistiske',
+    primaryKeyword: 'passiv indkomst printbar forretning hvor meget kan man tjene',
     secondaryKeywords: [
-      'indkomstforventninger printbar forretning',
-      'realistisk indkomst saelg printbare produkter',
-      'saelg arbejdsark online indkomst',
-      'indtaegtsfaktorer printbar forretning',
+      'indkomstforventninger printbar forretning sidegesjæft',
+      'realistisk indkomst sælg opgaver til print online',
+      'sælg opgaver til print online passiv indkomst',
+      'indtægtsfaktorer printbar forretning Danmark',
     ],
     lsiKeywords: [
-      'Etsy printbare saelgere indtaegtsfaktorer',
-      'Amazon KDP aktivitetsbog indtaegtsvariabler',
-      'arbejdsarksforretning katalogstorrelse indkomst',
-      'printbar prissaetningsstrategi markedspladsafgifter',
-      'digital download forretning tidsinvestering',
-      'flere indtaegtsstroemme printbare produkter',
+      'Etsy.dk printbare sælgere indtægtsfaktorer passiv indkomst',
+      'Amazon KDP aktivitetsbog indtægtsvariabler sidegesjæft',
+      'printbar forretning katalogstørrelse indkomst',
+      'printbar prissætningsstrategi markedspladsafgifter',
+      'digital download forretning tidsinvestering sidegesjæft',
+      'flere indtægtsstrømme printbare opgaver til print',
     ],
-    titleTag: 'Hvor meget kan man tjaene paa at saelge printbare produkter',
-    metaDescription: 'Hvor meget kan du tjaene paa at saelge printbare produkter? Realistiske indkomstforventninger, platformsafgifter,. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Passiv indkomst med printbar forretning — hvor meget kan man tjene?',
+    metaDescription: 'Hvor meget kan du tjene på at sælge opgaver til print? Realistiske indkomstforventninger, platformsafgifter og passiv indkomst. Sælg på Etsy.dk & KDP.',
   },
 
   hero: {
-    title: 'Indkomst fra printbar forretning: realistiske forventninger',
-    tagline: 'En aerlig gennemgang af variablerne der afgoer indkomsten fra printbare produkter — ingen hype, ingen fabrikerede tal, bare de faktorer du faktisk kontrollerer',
-    description: 'Enhver soegning om printbar forretning foerer foer eller siden til det samme spoergsmaal: hvor meget kan man tjaene? Internettet er fuldt af vage loefter og uverificerbare paastande. Denne guide tager en anden tilgang. I stedet for at tilbyde et tal der ville vaere meningsloest uden kontekst bryder den de specifikke variabler ned der afgoer indkomsten fra printbare produkter — katalogstorrelse, produktkvalitet, prissaetningsstrategi, platformsoekonomi, markedsfoeringsindsats og tidsinvestering. Disse er faktorerne inden for din kontrol, og at forstaa dem er langt mere vaerdifuldt end noget kronetal. Den gratis proeveversion med vandmaerke lader dig teste enhver generator foer du investerer.',
+    title: 'Passiv indkomst fra printbar forretning: realistiske forventninger',
+    tagline: 'En ærlig gennemgang af variablerne der afgør din passiv indkomst fra opgaver til print — ingen hype, ingen fabrikerede tal, bare de faktorer du faktisk kontrollerer',
+    description: 'Enhver søgning om printbar forretning fører før eller siden til det samme spørgsmål: hvor meget kan man tjene? Internettet er fuldt af vage loefter og uverificerbare paastande. Denne guide tager en anden tilgang. I stedet for at tilbyde et tal der ville vaere meningsloest uden kontekst bryder den de specifikke variabler ned der afgoer indkomsten fra printbare produkter — katalogstorrelse, produktkvalitet, prissaetningsstrategi, platformsoekonomi, markedsfoeringsindsats og tidsinvestering. Disse er faktorerne inden for din kontrol, og at forstaa dem er langt mere vaerdifuldt end noget kronetal. Den gratis proeveversion med vandmaerke lader dig teste enhver generator foer du investerer.',
   },
 
   introduction: 'Hvor meget kan man tjaene paa at saelge printbare produkter? Det er det mest sogte spoergsmaal inden for printbar forretning, og naesten ethvert svar du finder online er vildledende. Blogindlaeg lover specifikke maanedlige indkomsttal. YouTube-miniaturer viser imponerende indtaegtsscreenshoots. Kurssaelgere citerer indkomster der bekvemt matcher deres pris. Problemet er ikke at det er umuligt at tjaene penge paa printbare produkter — det er at spoergmaalet i sig selv er forkert stillet.\n\nAt spoerge \"hvor meget kan man tjaene\" forudsaetter at der er et fast svar. Det er der ikke. Indkomst fra printbare produkter afhaenger af en kombination af variabler: hvor mange produkter du lister, hvor godt du prissaetter dem, hvilke platforme du saelger paa, hvor meget trafik dine annoncer faar og hvor konsistent du investerer tid i at udvide dit katalog. To saelgere der bruger identiske vaerktojer kan producere dramatisk forskellige resultater baseret paa indsats, strategi og udholdenhed.\n\nDenne guide giver dig ikke et tal. Den giver dig noget mere brugbart: en tydelig forstaaelse af enhver variabel der afgoer indkomsten fra printbare produkter, den faktiske oekonomi for platformene hvor printbare produkter saelges, realistiske tidslinjer for hvordan de foerste maaneder ser ud og et rammevaerk for at saette maal der ligger inden for din kontrol.\n\nArbejdsarksgeneratorerne der behandles i denne guide tilbyder en gratis proeveversion med vandmaerke saa du kan teste produktionshastighed og outputkvalitet foer du binder dig oekonomisk.',

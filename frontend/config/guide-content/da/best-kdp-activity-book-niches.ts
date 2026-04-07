@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP aktivitetsbog nicher',
+    primaryKeyword: 'bedste nicher til KDP aktivitetsbøger',
     secondaryKeywords: [
-      'bedste KDP aktivitetsbog nicher for udgivere',
-      'profitable aktivitetsbog kategorier Amazon KDP',
-      'KDP nicheforskning aktivitetsboeger',
-      'underservicerede aktivitetsbog nicher KDP',
+      'bedste KDP aktivitetsbog-nicher for passiv indkomst',
+      'profitable aktivitetsbog-kategorier på Amazon KDP til print',
+      'KDP nicheforskning regnebøger ordleg-bøger malebøger',
+      'underservicerede nicher til KDP aktivitetsbøger sidegesjæft',
     ],
     lsiKeywords: [
-      'Amazon BSR bestsællerrang konkurrenceanalyse efterspørgsel',
-      'aktivitetsbog underkategori matematik puslespil malebog ordsøgning',
-      'målgruppesegmentering førskole børn voksne seniorer storskrift',
-      'sæsonbetonet niche højtid skolestart sommer stedsegrøn',
-      'nichevalidering testtitel 90-dages salg katalogstrategi',
-      'tværkategori hybrid tematisk aktivitetsbog underniche',
+      'Amazon BSR bestsællerrang konkurrenceanalyse efterspørgsel KDP',
+      'aktivitetsbog underkategori regneopgaver puslespil malebilleder ordlege',
+      'målgruppesegmentering børnehaveklasse indskoling mellemtrin voksne seniorer',
+      'sæsonbetonet niche højtid skolestart sommer stedsegrøn passiv indkomst',
+      'nichevalidering testtitel 90-dages salg katalogstrategi printbar forretning',
+      'tværkategori hybrid tematisk aktivitetsbog underniche kommerciel licens',
     ],
-    titleTag: 'KDP aktivitetsbog nicher — Bedste valg guide — Sælgerguide',
-    metaDescription: 'Opdag de bedste KDP aktivitetsbog-nicher for udgivere. Dækker efterspørgselsanalyse, konkurrencevurdering, underservicerede kategorier og sæsonbetonethed.',
+    titleTag: 'Bedste nicher til KDP aktivitetsbøger — Guide til passiv indkomst',
+    metaDescription: 'Find de bedste nicher til KDP aktivitetsbøger og tjen passiv indkomst. Efterspørgselsanalyse, konkurrencevurdering og underservicerede kategorier.',
   },
 
   hero: {
-    title: 'Bedste KDP aktivitetsbog-nicher for udgivere',
+    title: 'Bedste nicher til KDP aktivitetsbøger for passiv indkomst',
     tagline: 'En nicheforskningsguide for Amazon KDP aktivitetsbog-udgivere — dækker efterspørgsel-til-konkurrence-analyse for hver stor aktivitetsbog-kategori, målgruppesegmenteringsstrategier der multiplicerer nichemuligheder, Amazon BSR og anmeldelsesdata-fortolkning for nichevalidering, underservicerede undernicher med stærk køberefterspørgsel og tynd konkurrence, sæsonbetonede kontra stedsegrønne nichetiming for katalogplanlægning, tværkategori hybridnicher der når flere køberpuljer, og flerniche porteføljestrategier der balancerer dybde med diversificering',
-    description: 'At vælge den rigtige niche afgør om dine KDP aktivitetsboger tjener konsekvent indtægt eller forsvinder ind i Amazons katalog. Denne guide handler ikke om hvordan man generator aktivitetsboger — vores andre KDP-guider dækker matematikaktivitetsboger, puslespilsboger, ordsøgningsboger, formatering og indtægtsstrategi i detaljer. Denne guide fokuserer på beslutningen der kommer før alt det: hvilke aktivitetsbog-kategorier bør du rette dig mod, hvordan vurderer du om en niche har tilstrækkelig efterspørgsel, og hvordan identificerer du de specifikke undernicher hvor en ny udgiver kan konkurrere?',
+    description: 'At vælge den rigtige niche afgør om dine KDP aktivitetsbøger — regnebøger, ordleg-bøger, malebøger og puslespilsbøger — tjener passiv indkomst eller forsvinder i Amazons katalog. Denne guide handler ikke om hvordan man generator aktivitetsboger — vores andre KDP-guider dækker matematikaktivitetsboger, puslespilsboger, ordsøgningsboger, formatering og indtægtsstrategi i detaljer. Denne guide fokuserer på beslutningen der kommer før alt det: hvilke aktivitetsbog-kategorier bør du rette dig mod, hvordan vurderer du om en niche har tilstrækkelig efterspørgsel, og hvordan identificerer du de specifikke undernicher hvor en ny udgiver kan konkurrere?',
   },
 
-  introduction: 'Hver aktivitetsbog udgivet på Amazon KDP konkurrerer inden for en specifik niche — en kombination af indholdstype, målgruppe og køberintention der bestemmer hvilke søgeresultater bogen vises i, hvem der ser den og om de køber. Forskellen mellem at vælge den rigtige niche og den forkerte niche er ikke marginal. En velvalgt niche kan generere 200 til 500 dollar per måned fra en enkelt titel. En dårligt valgt niche kan efterlade en lige så god bog ved 5 dollar per måned på ubestemt tid, uanset indholdskvalitet eller forsidedesign.\n\nKDP aktivitetsbog-markedet indeholder dusinvis af distinkte nicher, hver med sin egen efterspørgselskurve, konkurrencetæthed og profitpotentiale. Matematikarbejdsbøger, ordsøgningssamlinger, sudokupuslespil, malebøger, håndskriftsøvelser, labyrinter, tegneprompter, krydsordspuslespil — hver kategori har underkategorier, og hver underkategori har målgruppesegmenter. En "ordsøgningsbog" er ikke en niche; det er et dusin nicher: ordsøgning for børn 4–6 år, ordsøgning for voksne, storskrift ordsøgning for seniorer, tematisk ordsøgning (dyr, rejser, højtider), ordsøgning på specifikke sprog og mere. Hver variation retter sig mod forskellige Amazon-søgninger, møder forskellig konkurrence og genererer forskellig indtægt.\n\nDe fleste nye KDP-udgivere springer nicheforskning helt over. De generator den type aktivitetsbog de personligt kan lide, udgiver den og håber at Amazons algoritme finder købere. Denne produkt-først-metode fungerer sommetider af held men fejler langt oftere. Niche-først-metoden vender processen: identificer hvor køberefterspørgsel eksisterer men konkurrencen er tynd, skab derefter indhold specifikt for det gap. Dette betyder ikke at jage trends — det betyder at træffe informerede beslutninger om hvor din udgivelsesindsats genererer højest afkast.\n\nDenne guide fører gennem den komplette nicheforskning- og valideringsproces. For instruktioner om at skabe indhold når du har valgt din niche, se guiden om matematikaktivitetsboger, puslespilsboger eller ordsøgningsboger. For formateringsspecifikationer, se KDP-formateringsguiden. For indtægtsstrategi, se KDP-indtægtsguiden. Her dækker vi det grundlæggende spørgsmål: hvilke nicher bør du rette dig mod?',
+  introduction: 'Hver aktivitetsbog udgivet på Amazon KDP — hvad enten det er regnebøger, ordleg-bøger, malebøger eller puslespilsbøger — konkurrerer inden for en specifik niche der bestemmer om den genererer passiv indkomst eller forsvinder. Forskellen mellem at vælge den rigtige niche og den forkerte niche er ikke marginal. En velvalgt niche kan generere 200 til 500 dollar per måned fra en enkelt titel. En dårligt valgt niche kan efterlade en lige så god bog ved 5 dollar per måned på ubestemt tid, uanset indholdskvalitet eller forsidedesign.\n\nKDP aktivitetsbog-markedet indeholder dusinvis af distinkte nicher, hver med sin egen efterspørgselskurve, konkurrencetæthed og profitpotentiale. Matematikarbejdsbøger, ordsøgningssamlinger, sudokupuslespil, malebøger, håndskriftsøvelser, labyrinter, tegneprompter, krydsordspuslespil — hver kategori har underkategorier, og hver underkategori har målgruppesegmenter. En "ordsøgningsbog" er ikke en niche; det er et dusin nicher: ordsøgning for børn 4–6 år, ordsøgning for voksne, storskrift ordsøgning for seniorer, tematisk ordsøgning (dyr, rejser, højtider), ordsøgning på specifikke sprog og mere. Hver variation retter sig mod forskellige Amazon-søgninger, møder forskellig konkurrence og genererer forskellig indtægt.\n\nDe fleste nye KDP-udgivere springer nicheforskning helt over. De generator den type aktivitetsbog de personligt kan lide, udgiver den og håber at Amazons algoritme finder købere. Denne produkt-først-metode fungerer sommetider af held men fejler langt oftere. Niche-først-metoden vender processen: identificer hvor køberefterspørgsel eksisterer men konkurrencen er tynd, skab derefter indhold specifikt for det gap. Dette betyder ikke at jage trends — det betyder at træffe informerede beslutninger om hvor din udgivelsesindsats genererer højest afkast.\n\nDenne guide fører gennem den komplette nicheforskning- og valideringsproces. For instruktioner om at skabe indhold når du har valgt din niche, se guiden om matematikaktivitetsboger, puslespilsboger eller ordsøgningsboger. For formateringsspecifikationer, se KDP-formateringsguiden. For indtægtsstrategi, se KDP-indtægtsguiden. Her dækker vi det grundlæggende spørgsmål: hvilke nicher bør du rette dig mod?',
 
   tutorial: [
     {

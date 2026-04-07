@@ -2,31 +2,32 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kodeaddition generator mattepuslespil knække kodeadditions arbejdsark',
+    primaryKeyword: 'hemmelig besked med regnestykker til print',
     secondaryKeywords: [
-      'printbare mattepuslespil arbejdsark til Etsy',
-      'kodeadditions arbejdsark til Amazon KDP',
-      'mattepuslespil generator til Gumroad sælgere',
-      'kodeadditions arbejdsark kommerciel licens',
+      'kodeknækker matematik opgave',
+      'hemmelig kode plusstykker',
+      'regnegåde arbejdsark',
+      'kodeopgaver matematik',
     ],
     lsiKeywords: [
-      'pædagogiske puslespil printables forretningsidéer',
-      'mattepuslespil sælge online',
-      'mattepuslespil arbejdsbog generator',
+      'knække kode',
+      'dechifrere',
+      'skjult besked',
+      'gåde',
     ],
-    titleTag: 'Kodeaddition Generator | Mattepuslespil at Knække',
-    metaDescription: 'Opret kodeadditions arbejdsark til Etsy, KDP og Gumroad. Afslør Ord tilstand, 104 temaer, 11 sprog, facit, 400+ DPI. $49 engangsbetaling.',
+    titleTag: 'Hemmelig besked med regnestykker | Kodeknækker generator',
+    metaDescription: 'Lav opgaver hvor børn løser plusstykker for at knække hemmelige beskeder. Temabilleder, facit inkluderet. Prøv gratis.',
   },
 
   hero: {
-    title: 'Kodeadditions Arbejdsark Generator — Mattepuslespil at Knække',
-    tagline: 'Forvandl addition til et detektivopdrag, hvor hvert billede skjuler et hemmeligt nummer.',
+    title: 'Hemmelig besked med regnestykker — kodeknækker generator til print',
+    tagline: 'Lav kodeopgaver hvor børn løser plusstykker for at dechifrere skjulte beskeder med temabilleder.',
     description:
-      'Opret kryptaritmetiske additions arbejdsark, der udfordrer brugerne til at knække en visuel kode. Hvert billede på arbejdsarket repræsenterer i hemmelighed et bestemt nummer — brugerne løser additionsopgaver for at finde ud af, hvilket nummer hvert billede står for, hvor regnefærdighed og logisk ræsonnement smelter sammen i én og samme øvelse. Skift til Afslør Ord tilstanden, og udfordringen vokser: skriv et hemmeligt ord på op til ti bogstaver, og hver korrekt løst ligning afslører et bogstav i svaret, mens tre vildledende ligninger med forkerte summer øger spændingen. Generatoren understøtter elleve sprogspecifikke alfabeter, hvilket gør, at Afslør Ord tilstanden fungerer indbygget på dansk, svensk, engelsk, tysk, fransk og syv andre sprog — en funktion, som ingen anden arbejdsark-generator tilbyder. Det danske alfabet indeholder æ, ø og å, så hemmelige ord med disse bogstaver fungerer naturligt. Vælg blandt mere end 3.100 billeder i 104 temaer, konfigurer talintervaller fra 1 til 20 med to til fem kodesymboler per arbejdsark, og eksporter trykklare PDF\'er eller JPEG\'er med mere end 400 DPI med automatiske facit. Gratis prøveversion med alle funktioner — uden tilmelding, uden kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav hemmelig besked med regnestykker til print, der forvandler addition til et detektivopdrag. Hvert billede på arbejdsarket skjuler et hemmeligt nummer — børnene løser plusstykker for at knække koden og dechifrere den skjulte besked. Det er en regnegåde, der kombinerer matematik med logisk tænkning i én engagerende øvelse. Skift til Afslør Ord-tilstanden, og udfordringen vokser: skriv en hemmelig besked på op til ti bogstaver, og hver korrekt løst opgave afslører et bogstav i svaret, mens tre vildledende opgaver med forkerte summer øger spændingen. Det danske marked for kodeopgaver matematik er næsten ubesat. Med 5,8 millioner dansktalende og stigende interesse for printbare aktiviteter på Etsy.dk er \"kodeknækker matematik opgave\" og \"hemmelig kode plusstykker\" søgeord med lav konkurrence og høj købsintention. Generatoren understøtter elleve sprogspecifikke alfabeter — det danske alfabet med æ, ø og å fungerer naturligt, så hemmelige ord som \"gåde\" og \"knække\" vises korrekt. Brug de 104 temaer og mere end 3.100 billeder til at lave regnegåder til børnehaveklasse og indskoling (1.–2. klasse) med talintervaller fra 1 til 20. Vælg to til fem kodesymboler per arbejdsark og eksporter trykklare PDF\'er med mere end 400 DPI med automatisk facit. Prøv gratis med alle funktioner — uden tilmelding, uden kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Kodeadditions Arbejdsark i 5 Trin',
+    title: 'Sådan laver du hemmelig besked med regnestykker i 5 trin',
     steps: [
       {
         title: 'Konfigurer sidelayoutet',
@@ -57,7 +58,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Kodeadditions Generatoren',
+    title: 'Nøglefunktioner i kodeknækker-generatoren',
     features: [
       {
         title: 'Kodeknækningsmekanik — billeder som skjulte numre',
@@ -103,7 +104,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Kodeadditions Arbejdsark Online',
+    title: 'Sådan sælger du kodeopgaver med hemmelige beskeder online',
     cases: [
       {
         title: 'Kodeknækningspuslespilpakker på Etsy.dk',
@@ -140,44 +141,34 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvordan fungerer kodeknækningsmekanikken?',
+      question: 'Kan jeg sælge disse kodeopgaver på Etsy?',
       answer:
-        'Hvert billede på arbejdsarket repræsenterer i hemmelighed et bestemt nummer. Arbejdsarket viser additionsopgaver, hvor additionsleddene og summerne vises som billeder i stedet for tal. Brugerne løser ligningerne med logik og deduktion: hvis en kat plus en hund er syv, og en kat plus en kat er seks, så er katten tre og hunden fire. Puslespillet kræver, at man tænker igennem flere ligninger samtidig, hvilket udvikler både regnefærdighed og kritisk tænkning.',
+        'Ja. Med en kommerciel licens har du alle rettigheder til at sælge dine kodeknækker-opgaver som digitale downloads på Etsy.dk, som puslespilsbøger på Amazon KDP, som printbare ressourcer på Gumroad eller via enhver anden salgskanal. Kodeknækningsformatet skiller sig ud blandt almindelige plusstykker i søgeresultaterne og tiltrækker forældre, der søger engagerende regnegåder.',
     },
     {
-      question: 'Hvad er Afslør Ord tilstanden?',
+      question: 'Hvordan laver jeg hemmelig besked med regnestykker?',
       answer:
-        'Afslør Ord tilstanden lader dig skrive et hemmeligt ord på op til ti bogstaver. Generatoren opretter en ligning for hvert bogstav — summen af hver ligning svarer til et specifikt bogstav i en afkodningstabel. Brugerne løser ligningerne, slår hver sum op i tabellen og danner det skjulte ord. Tre vildledende ligninger med forkerte summer tilføjes automatisk, så brugerne skal kontrollere hvert svar. Det kombinerer matematikøvelse med stavning og ordforråd i en engagerende aktivitet.',
+        'Åbn kodeknækker-generatoren, vælg Klassisk Tilstand (knække kode med billedsymboler) eller Afslør Ord-tilstand (dechifrere en skjult besked). Indstil talintervallet fra 1 til 20, vælg 2–5 kodesymboler fra 104 temaer, og klik Generer. Facit oprettes automatisk. Eksporter som trykfærdig PDF med mere end 400 DPI — hele processen tager under to minutter.',
     },
     {
-      question: 'Hvordan svarer billedsymbolerne til numre?',
+      question: 'Er kodeopgaverne egnede til børnehaveklasse og indskoling?',
       answer:
-        'Når du genererer et arbejdsark, tildeler appen tilfældigt et unikt nummer til hvert valgt billede. For eksempel, med tre billeder og et interval på 1–10 kan katten være 3, raketten 7 og stjernen 5. Tildelingen er tilfældig ved hver generering, så selv med de samme billeder og konfiguration giver hvert arbejdsark et anderledes puslespil. Facit afslører forbindelsen ved at lægge hvert nummer oven på sit billede.',
+        'Ja. Til børnehaveklasse og 1. klasse (indskoling) bruger du to symboler med lave tal (1–5) for at gøre gåden overskuelig. Til 2. klasse og mellemtrin øger du til fire–fem symboler med intervaller op til 20. Afslør Ord-tilstanden er særligt populær hos børn i indskolingen, fordi de knækker en hemmelig besked ved at løse hvert plusstykke — en motiverende kombination af regning og gåde.',
     },
     {
-      question: 'Hvilke talintervaller kan jeg indstille for kodeadditionsøvelser?',
+      question: 'På hvor mange sprog kan jeg lave kodeopgaver?',
       answer:
-        'Du kan indstille minimum- og maksimumværdier fra 1 til 20. Intervallet skal være bredt nok til at give unikke numre til alle dine symboler — hvis du vælger fem symboler, har du brug for mindst fem forskellige numre i dit interval. Appen validerer dette automatisk og angiver, hvis du skal justere intervallet.',
+        'I Klassisk Tilstand er arbejdsarkene rent visuelle og fungerer på alle sprog. Afslør Ord-tilstanden bruger det valgte sprogs alfabet — dansk med æ, ø og å, tysk med Ä, Ö, Ü og ß, fransk med à, â, ç og é. Alle elleve understøttede sprog har fuldstændige og korrekte alfabeter indbygget, så hemmelige ord med diakritiske tegn fungerer naturligt. Det gør kodeknækker-generatoren til den eneste på markedet med flersprogede kodeopgaver.',
     },
     {
-      question: 'Hvor mange symboler kan jeg bruge per arbejdsark?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Du kan vælge mellem to og fem unikke billedsymboler per arbejdsark. Færre symboler generator enklere puslespil, som yngre brugere kan løse; flere symboler generator komplekse udfordringer, hvor flere ukendte skal spores gennem mange ligninger. At justere antallet af symboler er den nemmeste måde at skalere sværhedsgraden uden at ændre talintervallet.',
+        'Ja. Klik på Generer Facit for at oprette en løst version, der lægger det skjulte nummer direkte oven på hvert billedsymbol. I Afslør Ord-tilstanden viser facit også den dechifrerede besked og angiver, hvilke opgaver der var vildledende. Eksporter facit som en separat JPEG- eller PDF-fil sammen med arbejdsarket.',
     },
     {
-      question: 'Er Kodeaddition sprogfølsom?',
+      question: 'Hvad er vildledende opgaver i Afslør Ord-tilstanden?',
       answer:
-        'Ja — Kodeaddition er den eneste sprogfølsomme app i kategorien Matematik Mestringspakke. I Klassisk Tilstand er arbejdsarkene rent visuelle og fungerer på alle sprog. Dog bruger Afslør Ord tilstanden det valgte sprogs alfabet til at koble summer til bogstaver. Dansk indeholder æ, ø og å; tysk indeholder Ä, Ö, Ü og ß; fransk indeholder à, â, ç, é og andre tegn med accenter. Alle elleve understøttede sprog har deres egne fuldstændige og korrekte alfabeter indbygget.',
-    },
-    {
-      question: 'Hvad er vildledende bogstaver i Afslør Ord tilstanden?',
-      answer:
-        'Vildledende bogstaver er tre ekstra ligninger, hvis summer ikke svarer til et bogstav i det hemmelige ord. De vises på arbejdsarket sammen med de rigtige ligninger, og deres summer henviser til bogstaver, der ikke indgår i svaret. Dette forhindrer, at brugerne nemt løser hver ligning og antager, at den afslører et bogstav — de skal løse alle ligninger og konsultere afkodningstabellen for at afgøre, hvilke der er vildledende, og hvilke der danner ordet.',
-    },
-    {
-      question: 'Hvordan viser facit løsningerne?',
-      answer:
-        'Facit gengiver arbejdsarkets design og lægger det skjulte nummer direkte oven på hvert billedsymbol. I Afslør Ord tilstanden viser facit også det afkodede ord og angiver, hvilke ligninger der var vildledende. Du kan eksportere facit som en separat JPEG- eller PDF-fil, hvilket gør det nemt at inkludere i kommercielle produktpakker eller dele ud til forældre.',
+        'Tre ekstra plusstykker, hvis summer ikke svarer til et bogstav i den hemmelige besked. De vises på arbejdsarket sammen med de rigtige opgaver, og børnene skal løse alle regnestykker og konsultere afkodningstabellen for at afgøre, hvilke der er gådens svar, og hvilke der er vildledende. Det tilføjer et ekstra lag af logisk tænkning til hver kodeopgave.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
@@ -185,24 +176,9 @@ const content: AppContent = {
         'Ja. Du har adgang til alle funktioner — begge tilstande, alle symbolantal, det komplette billedbibliotek, Afslør Ord på alle elleve sprog, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste et kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
-      question: 'Hvad er inkluderet i den kommercielle licens?',
-      answer:
-        'Den kommercielle licens fjerner vandmærket fra alle downloads og giver dig ubegrænsede rettigheder til at sælge de arbejdsark, du opretter — på Etsy.dk, Amazon KDP, Gumroad, din egen hjemmeside eller enhver anden platform. Der er ingen royalties per salg, ingen månedlige gebyrer og ingen begrænsning på antallet af arbejdsark, du producerer eller sælger.',
-    },
-    {
-      question: 'Kan jeg sælge de arbejdsark, jeg opretter med dette værktøj, på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du alle rettigheder til at sælge dine kodeadditions arbejdsark som digitale downloads på Etsy.dk, som puslespilsbøger på Amazon KDP, som pædagogiske ressourcer på Gumroad eller via enhver anden salgskanal. Kodeknækningsformatet er et afprøvet produkt, fordi det skiller sig ud blandt almindelige additionsarbejdsark i markedspladsernes søgeresultater.',
-    },
-    {
-      question: 'Skal jeg installere software?',
-      answer:
-        'Nej. Kodeadditions Arbejdsark Generatoren kører helt i din webbrowser. Der er intet at downloade, installere eller opdatere. Den fungerer i alle moderne webbrowsere, herunder Chrome, Firefox, Safari og Edge. Åbn bare siden og begynd at oprette matematiske kodeknækningspuslespil.',
-    },
-    {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Prøv før du køber med vores gratis prøveversion — alle funktioner er tilgængelige for fuldt ud at evaluere værktøjet, før du anskaffer en licens. Fordi den gratis prøveversion giver dig fuld adgang, tilbyder vi ingen refusioner på licenskøb. Sikr dig, at værktøjet passer til dine behov, ved at bruge den gratis prøveversion, før du køber.',
+        'Prøv gratis før du køber — alle funktioner er tilgængelige for fuldt ud at evaluere kodeknækker-generatoren, før du anskaffer en licens. Fordi den gratis prøveversion giver dig fuld adgang, tilbyder vi ingen refusioner på licenskøb.',
     },
   ],
 
@@ -262,23 +238,23 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.webp',
-      primaryAlt: 'Kodeadditions arbejdsark med dyrebilleder, der skjuler hemmelige numre i et kodeknækningspuslespil',
+      primaryAlt: 'Hemmelig besked med regnestykker til print — kodeknækker opgave med temabilleder',
     },
     sampleGallery: [
       {
         src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.webp',
-        alt: 'Kodeadditions arbejdsark i Klassisk Tilstand med tematiske dyrebilleder som kodesymboler',
-        caption: 'Klassisk Tilstand — brugerne knækker koden ved at finde ud af, hvilket nummer hvert billede forestiller',
+        alt: 'Kodeopgave matematik med dyrebilleder som hemmelige symboler i en regnegåde',
+        caption: 'Kodeknækker tilstand — børnene løser plusstykker for at knække den skjulte kode',
       },
       {
         src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%202.webp',
-        alt: 'Kodeadditions arbejdsark med andet visuelt tema, der viser kryptaritmetiske ligninger med billeder',
-        caption: 'Flersymbolsudfordring — flere billeder øger kompleksiteten i deduktionen',
+        alt: 'Hemmelig kode plusstykker med flere billedsymboler og skjult besked',
+        caption: 'Flersymbol regnegåde — flere billeder øger udfordringen i at dechifrere koden',
       },
       {
         src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%203.webp',
-        alt: 'Kodeadditionspuslespil med farverige tematiske billeder og ligninger',
-        caption: 'Tematiske puslespil — 104 visuelle temaer gør hvert arbejdsark unikt og engagerende',
+        alt: 'Regnegåde arbejdsark med farverige temabilleder og hemmelig besked',
+        caption: 'Tematiske kodeopgaver — 104 temaer gør hver regnegåde unik og engagerende',
       },
     ],
     youtubeId: 'vVd11Kjk9iA',

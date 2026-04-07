@@ -2,30 +2,33 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'billedkrydsord generator krydsordspuslespil',
+    primaryKeyword: 'krydsord generator gratis online',
     secondaryKeywords: [
-      'krydsord med billeder online',
-      'lav billedkrydsord arbejdsark',
-      'krydsordspuslespil generator med billedledetråde',
-      'ordforråds krydsord generator for brugere',
+      'lav krydsord gratis',
+      'krydsord gratis til print',
+      'kryds og tværs prøv gratis',
     ],
     lsiKeywords: [
-      'billedkrydsord puslespil med billedledetråde til ordforrådsøvelse',
-      'flersproget krydsordsgenerator med automatisk facit',
-      'tilpasset ordliste krydsord med ledetråde generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'krydsord',
+      'kryds og tværs',
+      'ledetråde',
+      'facit',
     ],
-    titleTag: 'Billedkrydsord Generator — Krydsordspuslespil med...',
-    metaDescription: 'Billedkrydsord generator til krydsordspuslespil med billedledetråde på 15×15 gitter. 4 indtastningsmetoder, automatisk facit. Sælg på Etsy & KDP.',
+    titleTag: 'Gratis krydsord generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv krydsord-generatoren gratis online. Billedledetråde, 104 temaer, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Billedkrydsord Generator',
-    tagline: 'Billedkrydsordværktøj med billedledetråde på fast 15×15 gitter, fire indtastningsmetoder (hurtig temagenerering, manuel billednavnredigering, tilpasset ordliste med ledetråde og upload egne billeder), automatisk genereret facit med udfyldt gitter via dobbelt lærredssystem, sprogafhængige puslespilord på 11 sprog gennem billedvokabulær og en lokaliseret blå overskrift (#5B9BD5) med Fredoka-titel og Quicksand-beskrivelse over 104 tematiske billedsamlinger',
-    description: 'Lav professionelle billedkrydsord, hvor farverige billeder erstatter traditionelle tekstledetråde. Otte billeder genererer otte ord på et fast 15×15 gitter — algoritmen udtrækker ord fra billednavne, fjerner mellemrum, konverterer til store bogstaver, blander, sorterer efter længde (længste først) og placerer ord med optimal krydsning ved delte bogstaver. Nummererede ledetrådpositioner markerer begyndelsen af hvert ord, og billedledetråde vises ved siden af gitteret med matchende numre. Vælg mellem fire indtastningsmetoder. Hurtig Temagenerering vælger automatisk 8 tilfældige billeder fra de 104 temasamlinger og genererer direkte. Manuel Billednavnredigering lader dig klikke på individuelle billeder og omdøbe dem før generering. Tilpasset Ordliste med Ledetråde skifter til traditionelle tekstkrydsord med ORD: ledetråd-format. Upload Egne Billeder lader dig tilføje egne JPEG-, PNG-, GIF- eller WebP-filer. Billedkrydsord Generatoren er sprogafhængig: puslespilord kommer fra lokaliserede billednavne via billedvokabulærsystemet. At skifte indholdssprog ændrer de faktiske krydsord — et kattebillede genererer \"CAT\" på engelsk men \"KATZE\" på tysk, \"CHAT\" på fransk og \"GATTO\" på italiensk, hvilket producerer helt forskellige krydsordspuslespil fra de samme billeder. Det dobbelte lærredssystem genererer både en puslespil-fane og en facit-fane — facittet viser det udfyldte gitter med alle korrekte svar synlige i cellerne. Hver puslespil inkluderer en automatisk genereret lokaliseret overskrift med blå baggrund (#5B9BD5). Gennemse 104 temasamlinger med 3.100+ illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedskontroller. Eksportér trykfærdige PDF\'er og JPEG\'er i 300 DPI i Letter, A4 eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis krydsord generator — prøv online med vandmærke',
+    tagline: 'Prøv krydsord-generatoren gratis online — billedledetråde, 104 temaer, automatisk facit, ingen tilmelding',
+    description: 'Prøv vores krydsord-generator gratis online med vandmærke. Lav kryds og tværs-puslespil med billedledetråde, 104 temaer og automatisk facit — helt uden tilmelding. Otte billeder genererer otte ord på et fast 15×15 gitter — algoritmen udtrækker ord fra billednavne, fjerner mellemrum, konverterer til store bogstaver, blander, sorterer efter længde (længste først) og placerer ord med optimal krydsning ved delte bogstaver. Nummererede ledetrådpositioner markerer begyndelsen af hvert ord, og billedledetråde vises ved siden af gitteret med matchende numre. Vælg mellem fire indtastningsmetoder. Hurtig Temagenerering vælger automatisk 8 tilfældige billeder fra de 104 temasamlinger og genererer direkte. Manuel Billednavnredigering lader dig klikke på individuelle billeder og omdøbe dem før generering. Tilpasset Ordliste med Ledetråde skifter til traditionelle tekstkrydsord med ORD: ledetråd-format. Upload Egne Billeder lader dig tilføje egne JPEG-, PNG-, GIF- eller WebP-filer. Billedkrydsord Generatoren er sprogafhængig: puslespilord kommer fra lokaliserede billednavne via billedvokabulærsystemet. At skifte indholdssprog ændrer de faktiske krydsord — et kattebillede genererer \"CAT\" på engelsk men \"KATZE\" på tysk, \"CHAT\" på fransk og \"GATTO\" på italiensk, hvilket producerer helt forskellige krydsordspuslespil fra de samme billeder. Det dobbelte lærredssystem genererer både en puslespil-fane og en facit-fane — facittet viser det udfyldte gitter med alle korrekte svar synlige i cellerne. Hver puslespil inkluderer en automatisk genereret lokaliseret overskrift med blå baggrund (#5B9BD5). Gennemse 104 temasamlinger med 3.100+ illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedskontroller. Eksportér trykfærdige PDF\'er og JPEG\'er i 300 DPI i Letter, A4 eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Billedkrydsord i 8 Trin',
+    title: 'Sådan laver du gratis krydsord med billeder i 8 trin',
     steps: [
       {
         title: 'Åbn Billedkrydsord Generatoren',
@@ -155,12 +158,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Alle funktioner låst op — alle fire indtastningsmetoder, 15×15 gitterplaceringsalgoritmen, det automatisk genererede facit med udfyldt gitter, hele billedbiblioteket med 104 temasamlinger og 3.100+ illustrationer, upload af egne billeder, baggrunds- og rammetemaer, sprogvalg, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på downloads.',
+      question: 'Er krydsord-generatoren gratis at prøve online?',
+      answer: 'Ja. Prøv krydsord-generatoren gratis online med alle funktioner — fire indtastningsmetoder, 15x15 gitter, automatisk facit, 104 temaer med 3.100+ illustrationer, billedupload, baggrunds- og rammetemaer, 11 sprog og alle eksportformater. Ingen tilmelding. Downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvad er et billedkrydsord, og hvordan fungerer det?',
-      answer: 'Et billedkrydsord erstatter traditionelle tekstledetråde med billedledetråde. I stedet for at læse en skreven definition kigger løseren på et farverigt billede og skriver ordet, det repræsenterer, i krydsordsgitteret. Generatoren placerer 8 billedbaserede ord på et fast 15×15 gitter med nummererede positioner, der kobler hvert billede til dets startcelle. Algoritmen udtrækker ord fra billednavne, sorterer efter længde og placerer ord med optimal krydsning ved delte bogstaver.',
+      question: 'Hvad indeholder den gratis krydsord-generator?',
+      answer: 'Den gratis prøveversion giver fuld adgang: billedkrydsord og tekstkrydsord med ledetråde, hurtig temagenerering, manuel billednavnredigering, tilpasset ordliste og billedupload. Automatisk facit med udfyldt gitter medfølger altid. Det eneste, der adskiller prøveversionen, er et vandmærke.',
+    },
+    {
+      question: 'Hvordan fungerer det gratis kryds og tværs med billeder?',
+      answer: 'Billedledetråde erstatter traditionelle tekstledetråde — løseren kigger på et farverigt billede og skriver ordet i krydsordsgitteret. Generatoren placerer 8 ord på et fast 15x15 gitter med optimal krydsning ved delte bogstaver. Algoritmen sorterer efter længde og finder det bedste layout automatisk.',
     },
     {
       question: 'Hvad er de fire indtastningsmetoder?',
@@ -214,22 +221,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/crossword/Billedkrydsord%201.webp',
-      primaryAlt: 'Billedkrydsord med billedledetråde ved siden af et 15 gange 15 krydsordsgitter med nummererede ledetrådpositioner og lokaliseret blå overskrift',
+      primaryAlt: 'Gratis krydsord generator online — billedkrydsord med ledetråde og automatisk facit',
     },
     sampleGallery: [
       {
         src: '/samples/danish/crossword/Billedkrydsord%201.webp',
-        alt: 'Billedkrydsord arbejdsark med tematiske billedledetråde og 15 gange 15 krydsordsgitter',
+        alt: 'Gratis krydsord med tematiske billedledetråde og 15x15 gitter — prøv online',
         caption: 'Tematisk billedkrydsord — billeder som ledetråde med nummererede gitterpositioner',
       },
       {
         src: '/samples/danish/crossword/Billedkrydsord%202.webp',
-        alt: 'Billedkrydsord puslespil med farverige illustrationer og krydsende ord i gitteret',
+        alt: 'Gratis kryds og tværs med farverige billedledetråde og krydsende ord',
         caption: 'Billedledetråde — farverige illustrationer erstatter traditionelle tekstledetråde',
       },
       {
         src: '/samples/danish/crossword/Billedkrydsord%203.webp',
-        alt: 'Billedkrydsord facit med alle korrekte bogstaver udfyldt i 15 gange 15 gitteret',
+        alt: 'Gratis krydsord facit med alle korrekte bogstaver udfyldt i gitteret',
         caption: 'Automatisk facit — udfyldt gitter viser alle korrekte svar til selvkontrol',
       },
     ],

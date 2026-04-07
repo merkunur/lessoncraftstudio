@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Gumroad butik optimering',
+    primaryKeyword: 'Gumroad butik optimering for printable-sælgere',
     secondaryKeywords: [
       'sådan optimerer du din Gumroad butik',
       'Gumroad søgealgoritme rangeringsfaktorer',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'butikssektioner kategorier navigation gennemsøgningsvenlig organisering',
       'Gumroad analyse sæsonplanlægning datadrevet katalogskalering strategi',
     ],
-    titleTag: 'Gumroad butik optimeringsguide — Sælg mere',
-    metaDescription: 'Gumroad butik optimeringsstrategier for højere søgerangeringer og mere salg. Forhåndsvisningskonvertering, produktpakketering, anmeldelsesopbygning og katalog.',
+    titleTag: 'Gumroad butik optimering — Guide til mere salg',
+    metaDescription: 'Optimer din Gumroad butik for opgaver til print. Søgerangering, forhåndsvisningskonvertering, pakketering og passiv indkomst for printable-sælgere.',
   },
 
   hero: {

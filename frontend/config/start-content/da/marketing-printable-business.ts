@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'markedsfoer printbare arbejdsark',
+    primaryKeyword: 'markedsfør opgaver til print online sælg mere',
     secondaryKeywords: [
-      'markedsfoeringstrategier for saelgere af printbare produkter',
-      'markedsfoer printbare arbejdsark online',
-      'markedsfoeringplan printbar forretning',
-      'saelg flere arbejdsark paa Etsy',
+      'markedsføringstrategier sælgere af opgaver til print',
+      'markedsfør printbare opgaver online Etsy.dk',
+      'markedsføringsplan printbar forretning sidegesjæft',
+      'sælg flere opgaver til print på Etsy.dk',
     ],
     lsiKeywords: [
-      'Etsy SEO for digitale downloads',
-      'Pinterest-markedsfoering printbare produkter',
-      'e-mailmarkedsfoering for arbejdsarksaelgere',
-      'saesonsmarkedsfoeringkalender printbare produkter',
-      'markedspladsoptimering aktivitetsboeger',
-      'indholdsmarkedsfoering for printbare ivaerksaettere',
+      'Etsy SEO for digitale downloads opgaver til print',
+      'Pinterest-markedsføring printbare opgaver malebilleder',
+      'e-mailmarkedsføring for sælgere af opgaver til print',
+      'sæsonmarkedsføringskalender printbare opgaver',
+      'markedspladsoptimering aktivitetsbøger KDP',
+      'indholdsmarkedsføring for printbar forretning sidegesjæft',
     ],
-    titleTag: 'Markedsfoer printbare arbejdsark — guide for saelgere',
-    metaDescription: 'Markedsfoer printbare arbejdsark online: platforms-SEO, Pinterest-strategi, e-mailmarkedsfoering, saesonsplanlaegning og brandopbygning for printbare saelgere.',
+    titleTag: 'Markedsfør opgaver til print — guide for sælgere | Sælg mere online',
+    metaDescription: 'Markedsfør opgaver til print online: platforms-SEO, Pinterest-strategi, e-mailmarkedsføring, sæsonplanlægning og brandopbygning. Sidegesjæft guide.',
   },
 
   hero: {
-    title: 'Markedsfoer din printbare forretning online',
-    tagline: 'Beviste markedsfoeringstrategier for saelgere af printbare produkter — fra platforms-SEO og Pinterest til e-mailmarkedsfoering og saesonsplanlaegning, enhver kanal du behoever for at drive trafik og salg',
-    description: 'Fantastiske arbejdsark saelger ikke sig selv. Gabet mellem at lave professionelle printbare produkter og at generere konsistent salg udbroges af markedsfoering — den bevidste, gentagelige proces med at placere dine produkter foran de koebere der har brug for dem. Denne guide daekker enhver markedsfoeringkanal relevant for ejere af printbare forretninger: platforms-SEO der fanger eksisterende koeberintention, Pinterest-strategier der driver langsigtet trafik, e-mailmarkedsfoering der bygger tilbagevendende kunder, indholdsmarkedsfoering der etablerer autoritet og saesonsplanlaegning der tilpasser dit katalog til koebernes efterspoergselscyklusser. Den gratis proeveversion med vandmaerke paa enhver arbejdsarksgenerator giver dig produkter at markedsfoere med det same.',
+    title: 'Markedsfør din printbare forretning online',
+    tagline: 'Beviste markedsføringsstrategier for sælgere af opgaver til print — fra platforms-SEO og Pinterest til e-mailmarkedsføring og sæsonplanlægning',
+    description: 'Fantastiske opgaver til print sælger ikke sig selv. Gabet mellem at lave professionelle printbare produkter og at generere konsistent salg udbroges af markedsfoering — den bevidste, gentagelige proces med at placere dine produkter foran de koebere der har brug for dem. Denne guide daekker enhver markedsfoeringkanal relevant for ejere af printbare forretninger: platforms-SEO der fanger eksisterende koeberintention, Pinterest-strategier der driver langsigtet trafik, e-mailmarkedsfoering der bygger tilbagevendende kunder, indholdsmarkedsfoering der etablerer autoritet og saesonsplanlaegning der tilpasser dit katalog til koebernes efterspoergselscyklusser. Den gratis proeveversion med vandmaerke paa enhver arbejdsarksgenerator giver dig produkter at markedsfoere med det same.',
   },
 
   introduction: 'De fleste saelgere af printbare produkter investerer tungt i produktskabelse og undrer sig derefter over hvorfor salget forbliver fladt. Svaret er naesten altid det same: de sprang markedsfoeringen over. At lave hoejkvalitets arbejdsark er noedvendig men utilstraekkelig. Markedspladsalgoritmer, koeberes soegeadfaerd og platformens synlighedsregler kraever alle bevidst indsats at navigere.\n\nMarkedsfoering for printbare forretninger adskiller sig fra markedsfoering for fysiske produkter eller tjenester. Du saelger digitale filer paa platforme med egne soegemaskiner, egne rangeringsalgoritmer og egne mekanismer for koeberopdagelse. Generelle markedsfoeringraad — koer Facebook-annoncer, start en TikTok-konto — misser maalet helt. Saelgere af printbare produkter behoever platformsspecifikke strategier der fungerer inden for de oekosystemer hvor deres koebere faktisk handler.\n\nDenne guide fokuserer paa de markedsfoeringkanaler der leverer maalbare resultater for saelgere af printbare arbejdsark. Platforms-SEO er fundamentet. Pinterest er den mest effektive sociale kanal. E-mailmarkedsfoering bygger den eneste malgruppe du helt ejer. Saesonsmarkedsfoering tilpasser din indsats med forudsigelige efterspoergselscyklusser.\n\nEnhver strategi i denne guide kan implementeres uden betalt annoncering, uden markedsfoeringbudget og uden specialiseret markedsfoeringsoftware. De markedsfoeringaktiviteter med hoejest afkast for saelgere af printbare produkter er alle organiske: bedre titler, bedre tags, bedre billeder, bedre timing.',

@@ -2,31 +2,35 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'labyrint arbejdsark generator',
+    primaryKeyword: 'labyrint til print',
     secondaryKeywords: [
-      'printbar labyrintaktivitet generator til Etsy-sælgere',
-      'billedsti arbejdsark generator til KDP-udgivere',
-      'labyrint arbejdsark generator kommerciel licens Gumroad',
-      'sælg vejpuslespil arbejdsark på Etsy og Amazon',
+      'labyrint generator',
+      'labyrint børn til print',
+      'lav labyrint',
+      'labyrint børnehaveklasse',
     ],
     lsiKeywords: [
-      'digitale labyrint printbare produkter online forretning',
-      'kommercielt brug vejpuslespil arbejdsark generator',
-      'printbar puslespilsaktivitet forretningsværktøj',
+      'labyrint',
+      'vej',
+      'sti',
+      'løsning',
+      'børn',
+      'børnehaveklasse',
+      'indskoling',
     ],
-    titleTag: 'Labyrint Arbejdsark Generator | Opret Vejpuslespil',
-    metaDescription: 'Opret labyrintarbejdsark til salg på Etsy, KDP og Gumroad. 3 spiltilstande, LPF-algoritme, automatisk facit, 104 temaer, trykklare PDF\'er. $49 engangsbetaling.',
+    titleTag: 'Labyrint til print | Labyrint-generator',
+    metaDescription: 'Lav labyrinter med temabilleder. Automatisk facit, 300 DPI PDF. Prøv gratis — sælg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Billedsti Labyrint Arbejdsark Generator til Vej- og Labyrintaktiviteter',
-    tagline: 'Tre spiltilstande i én generator — Billedsti, Klassisk Labyrint og Vælg den Rigtige Vej — drevet af en LPF (Longest Path First) labyrintalgoritme med automatisk genererede facit, væggtilpasning og visuelt design, der fungerer globalt uden oversættelse.',
+    title: 'Labyrint til print — lav labyrinter med temabilleder',
+    tagline: 'Tre spiltilstande i én labyrint-generator: Billedsti, Klassisk Labyrint og Vælg den Rigtige Vej — med automatisk facit, LPF-algoritme og 104 temabilledsamlinger.',
     description:
-      'Byg professionelle labyrint- og vejarbejdsark med tre distinkte spiltilstande. Billedsti opretter et gitter af billeder, hvor brugerne følger den rigtige vej fra start til mål ved at identificere vejbilleder blandt distraktorer. Klassisk Labyrint genererer vægbaserede labyrinter med LPF-algoritmen (Longest Path First) med samlingsbilleder spredt gennem korridorerne — konfigurer gitterstørrelser fra 15×15 til 20×20, indstil 1 til 3 veje med blindgyde-blokering, og tilpas vægfarve, tykkelse (1–10px) og opacitet (10–100%). Vælg den Rigtige Vej præsenterer trevejslabyrinter med fire retningsalternativer (nedefra-op, oppefra-ned, venstre-til-højre, højre-til-venstre), hvor brugerne identificerer den eneste korrekte vej blandt lokkeduer. Hver tilstand genererer en ledsagende facitliste på en separat lærredsfane — løsningsveje markeres med rosa cirkler langs den korrekte rute, og Vælg Vej-tilstanden tilføjer en \"✓ KORREKT VEJ\"-etiket. Tildel billeder til fem distinkte roller: Start, Mål, Vej, Distraktor og Dekoration. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne. Den automatisk genererede \"Billedsti\"-overskrift med orange ramme renderer lokaliserede titler og instruktioner på alle 11 understøttede sprog. Billedsti er helt visuelt — labyrinter kræver ingen læsning eller sprogforståelse, hvilket gør hvert arbejdsark direkte salgbart på ethvert marked i verden. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, inkluder navn- og datofelter, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller brugerdefinerede størrelser. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav printbare labyrinter med temabilleder i tre spiltilstande. Billedsti opretter et gitter af billeder, hvor børn følger den rigtige vej fra start til mål. Klassisk Labyrint genererer vægbaserede labyrinter med LPF-algoritmen — konfigurer gitterstørrelser fra 15×15 til 20×20, indstil 1 til 3 veje med blindgyde-blokering, og tilpas vægfarve, tykkelse og opacitet. Vælg den Rigtige Vej præsenterer trevejslabyrinter, hvor børn finder den eneste korrekte sti blandt lokkeduer. Det danske marked med 5,8 millioner dansktalende har meget få printbare labyrinter på Etsy.dk og Amazon KDP — en åben niche for sælgere. Labyrinter er ideelle til børnehaveklasse, hvor børn træner finmotorik og rumlig orientering, til indskoling (0.–3. klasse), hvor problemløsning og logisk tænkning er i fokus, og til mellemtrin (4.–6. klasse), hvor vægbaserede labyrinter med flere veje giver ægte udfordring. Hvert opgaveark genererer automatisk en facitliste med rosa cirkler langs den korrekte løsningsvej. Tildel billeder til fem roller: Start, Mål, Vej, Distraktor og Dekoration. Vælg blandt mere end 3.100 illustrationer i 104 temaer. Labyrinter er rent visuelle — de kræver ingen læsning og fungerer på alle sprog uden oversættelse, hvilket gør dem direkte salgbare globalt. Eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Labyrintarbejdsark i 5 Trin',
+    title: 'Sådan laver du labyrinter til print i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +61,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Billedsti Labyrint Generatoren',
+    title: 'Nøglefunktioner i labyrint-generatoren',
     features: [
       {
         title: 'Tre spiltilstande: Billedsti, Klassisk Labyrint og Vælg den Rigtige Vej',
@@ -103,7 +107,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Labyrintarbejdsark Online',
+    title: 'Sådan sælger du labyrinter til print online',
     cases: [
       {
         title: 'Tematiske labyrintaktivitets-pakker på Etsy.dk',
@@ -140,64 +144,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvad er de tre spiltilstande, og hvordan adskiller de sig?',
+      question: 'Kan jeg sælge disse labyrinter på Etsy?',
       answer:
-        'Generatoren tilbyder tre distinkte tilstande. Billedsti opretter et gitter af billeder, hvor brugerne følger den rigtige vej fra start til mål ved at identificere vejbilleder blandt distraktorer. Klassisk Labyrint genererer vægbaserede labyrinter med LPF-algoritmen med samlingsbilleder, konfigurerbare gitterstørrelser (15×15 til 20×20) og 1 til 3 veje med blindgyde-blokering. Vælg den Rigtige Vej præsenterer trevejslabyrinter med fire retningsalternativer, hvor brugerne identificerer den eneste korrekte rute. Hver tilstand producerer en anderledes rumlig ræsonnementsudfordring fra det samme billedbibliotek.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine labyrinter som digitale downloads på Etsy.dk, som trykte labyrintbøger på Amazon KDP, eller via enhver anden salgskanal. Det danske marked med 5,8 millioner dansktalende har meget få printbare labyrinter, hvilket giver lav konkurrence. De tre spiltilstande, LPF-algoritmen og 104 tematiske billedsamlinger giver dig værktøjerne til at producere unikke labyrintprodukter.',
+    },
+    {
+      question: 'Hvordan laver jeg labyrinter til print?',
+      answer:
+        'Vælg en af tre tilstande: Billedsti (følg den rigtige vej i et billedgitter), Klassisk Labyrint (vægbaserede labyrinter med LPF-algoritmen, 15×15 til 20×20 gitre) eller Vælg den Rigtige Vej (trevejslabyrint med lokkeduer). Tildel billeder til roller — Start, Mål, Vej, Distraktor og Dekoration — fra de 104 temaer, og klik Generer. Eksporter som PDF med 300 DPI.',
+    },
+    {
+      question: 'Er labyrinterne egnede til børnehaveklasse, indskoling og mellemtrin?',
+      answer:
+        'Ja. Billedsti-tilstanden er perfekt til børnehaveklasse, hvor børn træner finmotorik og rumlig orientering ved at følge en billedvej. Til indskoling (0.–3. klasse) bruges Klassisk Labyrint med mindre gitre og 1 vej. Til mellemtrin (4.–6. klasse) øges sværheden med 20×20-gitre, 3 veje og blindgyde-blokering. Vælg den Rigtige Vej udfordrer alle aldersgrupper med stifinding og logisk tænkning.',
+    },
+    {
+      question: 'På hvor mange sprog fungerer labyrinterne?',
+      answer:
+        'Labyrinter er rent visuelle — børn navigerer veje og stier uden at læse tekst. Et labyrintark oprettet på dansk fungerer identisk på alle 11 understøttede sprog (dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk). Kun overskriften oversættes automatisk. Én PDF kan sælges globalt uden oversættelse.',
+    },
+    {
+      question: 'Er facitlisten inkluderet?',
+      answer:
+        'Ja. Generatoren opretter automatisk en facitliste med rosa cirkler langs den korrekte løsningsvej. Vælg den Rigtige Vej-tilstanden tilføjer en "KORREKT VEJ"-etiket. Klassisk Labyrint inkluderer en samlingslegende. Download facit som separat JPEG eller PDF med fire dedikerede downloadknapper.',
     },
     {
       question: 'Hvordan fungerer LPF labyrintalgoritmen?',
       answer:
-        'Longest Path First (LPF) algoritmen er et professionelt vægbaseret labyrintgenereringssystem. Den bruger en korridor-celle-struktur med dynamisk vægplacering for at oprette udfordrende men løsbare labyrinter. Vejkvalitetsscoring evaluerer sving, længde og blokeringer. Flervejsstøtte genererer 1, 2 eller 3 veje med automatisk blindgyde-blokering på forkerte ruter. Du kan konfigurere vejlængde minimum og maksimum (4–30 celler, standard 8–12), gitterstørrelser fra 15×15 til 20×20, og vægbevidst start/slut-positionering sikrer rene ind- og udgangspunkter.',
-    },
-    {
-      question: 'Hvad er de fem billedroller, og hvordan tildeler jeg dem?',
-      answer:
-        'Hvert billede har en specifik rolle i labyrintdesignet. Startbillede markerer indgangspunktet. Målbillede markerer destinationen (1 for Billedsti og Klassisk Labyrint, 3 for Vælg den Rigtige Vej). Vejbilleder definerer den korrekte rute eller vises som samlingsbilleder. Distraktorbilleder fylder ikke-vej-celler. Dekorationsbilleder placeres frit på lærredet. Brug rollevælgeren øverst i Billedbibliotekspanelet for at vælge en rolle, klik derefter på billeder for at tildele dem. Dedikerede paneler nedenfor viser valgte billeder for hver rolle.',
-    },
-    {
-      question: 'Hvordan fungerer væggtilpasning i Klassisk Labyrint og Vælg Vej-tilstande?',
-      answer:
-        'Begge labyrinttilstande tilbyder tre vægkontroller. Vægfarve bruger en farvevælger til at indstille enhver farve. Vægtykkelse justeres fra 1 til 10 pixels (standard 3px). Vægopacitet spænder fra 10% til 100% (standard 100%). Disse indstillinger lader dig oprette tynde grå vægge til sofistikerede puslespilsbøger, tykke farverige vægge til unge brugere, eller halvtransparente vægge til lageffekter. Indstillinger bevares over labyrintregenereringer.',
-    },
-    {
-      question: 'Hvilke retningsmuligheder findes i Vælg den Rigtige Vej-tilstanden?',
-      answer:
-        'Vælg den Rigtige Vej tilbyder fire retningsmuligheder, der bestemmer labyrintflowet: Nedefra og op (standard), Oppefra og ned, Venstre til højre og Højre til venstre. Retningen kontrollerer, hvor start- og slutpositionerne vises, og hvordan vejene flyder gennem gitteret. Gitterstørrelser spænder fra 15×15 til 20×20. Tilstanden kræver 3 Målbilleder (automatisk valgt fra temaet) og genererer 1 korrekt vej plus lokkeduealternativer.',
-    },
-    {
-      question: 'Hvordan fungerer samlingssystemet i Klassisk Labyrint-tilstanden?',
-      answer:
-        'Klassisk Labyrint spreder samlingsbilleder gennem labyrintkorridorerne. Konfigurer antallet af samlingsbilledtyper (1, 2, 3 eller 4 — standard 4), mindste kopier per billede (1, 2 eller 3 — standard 1) og maksimale kopier per billede (1–10 — standard 10). Facit inkluderer en samlingslegende, der viser hvert billede og dets antal langs løsningsvejen. Samlingsbilleder tilføjer tælle- og observationsøvelse ved siden af labyrintløsningsaktiviteten.',
-    },
-    {
-      question: 'Hvordan fungerer det automatisk genererede facit?',
-      answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Facit gengenerator det præcise labyrintlayout og markerer den korrekte løsningsvej med rosa cirkler placeret langs ruten. Vælg den Rigtige Vej-tilstanden tilføjer en \"✓ KORREKT VEJ\"-etiket. Klassisk Labyrint inkluderer en samlingslegende. Download begge versioner separat med fire dedikerede knapper: Arbejdsark-JPEG, Facit-JPEG, Arbejdsark-PDF og Facit-PDF.',
-    },
-    {
-      question: 'Hvordan fungerer den automatisk genererede overskrift?',
-      answer:
-        'Hvert arbejdsark inkluderer en stiliseret overskrift med en orange ydre ramme (8px streg) og 34px marginer. Titlen \"Billedsti\" og beskrivelsen \"Følg vejen fra start til mål!\" oversættes automatisk til alle 11 understøttede sprog. Stående arbejdsark viser en 240px overskrift; liggende arbejdsark bruger et kompakt 165px layout. Overskriften renderes med lokaliseret tekst for dansk (Billedsti), engelsk (Picture Path), tysk (Bilderpfad), fransk (Chemin d\'Images) og alle andre understøttede sprog.',
+        'Longest Path First (LPF) algoritmen genererer vægbaserede labyrinter med korridor-celle-struktur og dynamisk vægplacering. Vejkvalitetsscoring evaluerer sving, længde og blokeringer. Flervejsstøtte genererer 1–3 veje med blindgyde-blokering. Konfigurer vejlængde (4–30 celler), gitterstørrelser (15×15 til 20×20) og vægdesign med farve, tykkelse (1–10px) og opacitet (10–100%).',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — alle tre spiltilstande, LPF labyrintalgoritmen, fem billedroller, væggtilpasning, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
+        'Ja. Du kan bruge alle funktioner — alle tre spiltilstande, LPF-algoritmen, fem billedroller, væggtilpasning, automatisk facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
-      question: 'Er Billedsti arbejdsark sprogfølsomme?',
+      question: 'Hvilke fem billedroller kan jeg tildele?',
       answer:
-        'Nej. Til forskel fra ordbaserede generatorer er Billedsti arbejdsark helt visuelle. Brugerne navigerer labyrinter og følger billedveje uden at læse nogen tekst. Den automatisk genererede overskrift oversættes til 11 sprog, men labyrintindholdet i sig selv kræver ingen sprogforståelse. Dette gør, at hvert arbejdsark direkte kan bruges og sælges på ethvert marked i verden uden modifikation.',
-    },
-    {
-      question: 'Kan jeg sælge labyrintarbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine labyrintarbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. De tre spiltilstande, LPF-algoritmen, 104 tematiske billedsamlinger og det visuelle format giver dig værktøjerne til at producere originale, globalt salgbare labyrintprodukter.',
-    },
-    {
-      question: 'Hvad er returpolitikken?',
-      answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste alle tre spiltilstande, LPF labyrintalgoritmen, fem billedroller, væggtilpasning, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Hvert billede har en specifik rolle i labyrintdesignet: Startbillede markerer indgangspunktet, Målbillede markerer destinationen, Vejbilleder definerer den korrekte rute, Distraktorbilleder fylder forkerte celler, og Dekorationsbilleder placeres frit på lærredet. Brug rollevælgeren i Billedbibliotekspanelet til at tildele roller med et enkelt klik.',
     },
   ],
 
@@ -267,27 +251,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/picture%20path/Billedsti%201.webp',
-      primaryAlt: 'Billedsti labyrintarbejdsark med tematiske billeder i et gitter med orange overskriftsramme og automatisk genereret Billedsti-overskrift',
+      primaryAlt: 'Labyrint til print med temabilleder i et gitter — børn følger den rigtige vej fra start til mål',
     },
     sampleGallery: [
       {
         src: '/samples/danish/picture%20path/Billedsti%201.webp',
-        alt: 'Billedsti-tilstand arbejdsark med billeder arrangeret i et gitter, der viser den korrekte vej fra start til mål',
-        caption: 'Billedsti-tilstand — brugerne følger den korrekte billedvej fra start til mål',
+        alt: 'Labyrint til print med billedsti — børn følger den korrekte vej fra start til mål i et billedgitter',
+        caption: 'Billedsti-tilstand — følg den rigtige billedvej fra start til mål',
       },
       {
         src: '/samples/danish/picture%20path/Billedsti%202.webp',
-        alt: 'Klassisk Labyrint-tilstand arbejdsark med vægbaserede korridorer og samlingsbilleder spredt gennem labyrinten',
-        caption: 'Klassisk Labyrint-tilstand — LPF-algoritmen genererer vægbaserede labyrinter med samlingsbilleder',
+        alt: 'Klassisk labyrint til print med vægbaserede korridorer og samlingsbilleder',
+        caption: 'Klassisk Labyrint — vægbaseret labyrint genereret med LPF-algoritmen',
       },
       {
         src: '/samples/danish/picture%20path/Billedsti%203.webp',
-        alt: 'Billedsti labyrint facit med løsningsvej markeret med rosa cirkler langs den korrekte rute',
-        caption: 'Automatisk genereret facit — løsningsvej markeret med rosa cirkler',
+        alt: 'Facitliste til labyrint med løsningsvej markeret med rosa cirkler langs den korrekte sti',
+        caption: 'Automatisk facit — løsningsvejen markeret med rosa cirkler',
       },
     ],
     youtubeId: 'Sl1o0uPBDCg',
-    videoTitle: 'Sådan Opretter du Labyrintarbejdsark med 3 Spiltilstande og LPF-Algoritme — Trin-for-Trin Guide',
+    videoTitle: 'Lav labyrinter til print med 3 spiltilstande — trin-for-trin guide',
   },
 };
 

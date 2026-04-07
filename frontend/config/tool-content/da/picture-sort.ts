@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'billedsortering generator sorterings arbejdsark generator',
+    primaryKeyword: 'sorterings-opgave generator gratis online',
     secondaryKeywords: [
-      'sorterings arbejdsark generator for sælgere',
-      'lav sorteringsarbejdsark til salg på Etsy',
-      'printbar sorteringsaktivitet generator kommerciel brug',
-      'billedsortering arbejdsark generator til KDP og Etsy',
+      'sortere og gruppere gratis',
+      'kategorisering prøv gratis',
+      'ordne opgaver gratis',
     ],
     lsiKeywords: [
-      'tokategori sorterings arbejdsark generator med facit',
-      'temabaseret manuelt tilstand billedklassificering generator',
-      'blandet udklipsgitter sorteringsaktivitet generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'sortere',
+      'gruppere',
+      'kategorisere',
     ],
-    titleTag: 'Billedsortering Generator — Sorterings Arbejdsark Generator',
-    metaDescription: 'Lav sorteringsarbejdsark med tokategori tematilstand, blandede udklipsgitre, automatiske facit og 104 tematiske. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis sorterings-opgave generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv sorterings-generatoren gratis online. Temabilleder, automatisk facit, printklare PDF. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Billedsortering Generator',
-    tagline: 'Tokategori sorterings arbejdsark generator med temabaseret og manuelt billedvalg, blandede udklipsgitre af 4–12 billeder, stiplede kategorirammer, automatisk genererede facit med 6× større billeder i kategorikasser, lokaliseret Sortér billeder-overskrift på 11 sprog og 104 tematiske billedsamlinger',
-    description: 'Lav professionelle sorteringsarbejdsark, hvor brugerne klipper billeder ud fra et blandet gitter og klassificerer dem i to kategorier — venstre og højre. Vælg tematilstand for at autoudfylde kategorier: vælg et venstre tema og et højre tema, appen henter 4–6 tilfældige billeder per tema. Eller skift til manuel tilstand for at håndvælge individuelle billeder og tildele hver til venstre eller højre. Hvert arbejdsark har to side-om-side stiplede kategorirammer med #FAFAFA-fyldning øverst og et blandet udklipsgitter nedenunder med hvide celler, stiplede #666-kanter, 4px afrundede hjørner og 3–4 kolonner. Konfigurér 4–12 totale billeder med 2–10 per kategori. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet viser billeder med 6× størrelse i kategorikasser med max 2 kolonner, #FAFAFA-fyldning, #444-streg og 12px kantradius. Billedsortering Generatoren er sprogfølsom: kategorietiketter bruger lokaliserede billednavne. En lokaliseret overskrift gengives med mintgrøn baggrund (#4DB6AC), blågrøn titel (#00796B) i Fredoka Bold og orange beskrivelse (#FF7043) i Quicksand. En blågrøn ydre ramme (#26A69A, 8px streg, 12px radius) indrammer siden. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Tilføj navn- og datofelter. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis sorterings-opgave generator — prøv online med vandmærke',
+    tagline: 'Prøv sorterings-generatoren gratis online — tokategori opgaver med temabaseret og manuelt billedvalg, automatisk facit og 104 tematiske samlinger. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv sorterings-generatoren gratis online — lav professionelle grupperings-opgaver, hvor brugerne klipper billeder ud fra et blandet gitter og kategoriserer dem i to grupper — venstre og højre. Vælg tematilstand for at autoudfylde kategorier: vælg et venstre tema og et højre tema, appen henter 4–6 tilfældige billeder per tema. Eller skift til manuel tilstand for at håndvælge individuelle billeder og tildele hver til venstre eller højre. Hvert arbejdsark har to side-om-side stiplede kategorirammer med #FAFAFA-fyldning øverst og et blandet udklipsgitter nedenunder med hvide celler, stiplede #666-kanter, 4px afrundede hjørner og 3–4 kolonner. Konfigurér 4–12 totale billeder med 2–10 per kategori. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet viser billeder med 6× størrelse i kategorikasser med max 2 kolonner, #FAFAFA-fyldning, #444-streg og 12px kantradius. Billedsortering Generatoren er sprogfølsom: kategorietiketter bruger lokaliserede billednavne. En lokaliseret overskrift gengives med mintgrøn baggrund (#4DB6AC), blågrøn titel (#00796B) i Fredoka Bold og orange beskrivelse (#FF7043) i Quicksand. En blågrøn ydre ramme (#26A69A, 8px streg, 12px radius) indrammer siden. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Tilføj navn- og datofelter. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Sorteringsarbejdsark i 8 Trin',
+    title: 'Sådan laver du sorterings-opgaver i 8 trin',
     steps: [
       {
         title: 'Åbn Billedsortering Generatoren',
@@ -155,15 +157,15 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Alle funktioner låst op — begge valgtilstande, konfigurerbare billedantal 4–12, det autogenererede facit med 6× billeder, alle 104 tematiske billedsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, navn/dato-felter, den lokaliserede Sortér billeder-overskrift på 11 sprog, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort kræves. Vandmærke på downloads.',
+      question: 'Kan jeg prøve sorterings-generatoren gratis online?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — begge valgtilstande, konfigurerbare billedantal 4–12, autogenereret facit med 6× billeder, alle 104 tematiske billedsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, navn/dato-felter, den lokaliserede Sortér billeder-overskrift på 11 sprog, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på gratis downloads.',
     },
     {
-      question: 'Hvad er de to valgtilstande?',
-      answer: 'Tematilstand — vælg et tema for hver kategori, appen autovælger 4–6 billeder per tema. Manuel tilstand — håndvælg individuelle billeder og tildel hver til venstre eller højre. Tematilstand er hurtigere; manuel tilstand giver produktkatalogtilpasset kontrol.',
+      question: 'Hvad er de to tilstande til at sortere og gruppere?',
+      answer: 'Tematilstand — vælg et tema for hver kategori, appen autovælger 4–6 billeder per tema. Manuel tilstand — håndvælg individuelle billeder og tildel hver til venstre eller højre. Tematilstand er hurtigere til masseproduktion; manuel tilstand giver præcis kontrol over kategorisering.',
     },
     {
-      question: 'Hvordan fungerer tokategori sorteringslayoutet?',
+      question: 'Hvordan fungerer tokategori sorterings-layoutet?',
       answer: 'Hvert arbejdsark har præcis to kategorier — venstre og højre. To stiplede kategorirammer med #FAFAFA-fyldning øverst og et blandet udklipsgitter nedenunder med alle billeder blandet i hvide celler. Brugerne klipper billederne ud og sorterer i den rigtige kategorikasse.',
     },
     {
@@ -218,7 +220,7 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/picture%20sort/Sorter%20Billeder%201.webp',
-      primaryAlt: 'Tokategori billedsortering arbejdsark med stiplede kategorirammer øverst og blandet udklipsgitter nedenunder med lokaliseret mintgrøn Sortér billeder-overskrift',
+      primaryAlt: 'Gratis sorterings-opgave generator med tokategori layout og blandet udklipsgitter — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {

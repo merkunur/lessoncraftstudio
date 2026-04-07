@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab matchingarbejdsark',
+    primaryKeyword: 'lav forbind-opgaver til print',
     secondaryKeywords: [
-      'matchingarbejdsark til førskole',
-      'matching arbejdsark generator',
-      'printbare matchingaktiviteter til salg',
-      'tegn-en-linje matchingarbejdsark',
+      'forbind-opgaver og parringsleg til børnehaveklasse',
+      'forbind-opgaver generator til førskole',
+      'printbare parringsleg-opgaver til salg på Etsy.dk',
+      'tegn-en-linje forbind-opgaver med billeder',
     ],
     lsiKeywords: [
-      'billedmatching arbejdsark førskole',
-      'bogstavmatching aktiviteter børnehaveklasse',
-      'visuel diskrimination arbejdsark',
-      'sælg matchingarbejdsark på Etsy',
-      'Amazon KDP matching aktivitetsbøger',
-      'kommerciel licens arbejdsarkværktøj',
+      'billedmatching parringsleg til førskole',
+      'bogstavmatching forbind-opgaver til børnehaveklasse',
+      'visuel diskrimination opgaver til print',
+      'sælg forbind-opgaver på Etsy.dk og Saxo.com',
+      'Amazon KDP parringsleg aktivitetshæfter',
+      'kommerciel licens forbind-opgave værktøj',
     ],
-    titleTag: 'Skab matchingarbejdsark til førskole — Guide',
-    metaDescription: 'Skab matchingarbejdsark til førskole. Brug 4 tilstande, tematiske billeder, automatisk facit med forbindelseslinjer og eksportér PDF til salg på Etsy og KDP.',
+    titleTag: 'Lav forbind-opgaver og parringsleg til print — Guide',
+    metaDescription: 'Lav forbind-opgaver til førskole og børnehaveklasse. 4 tilstande, tematiske billeder, automatisk facit og PDF-eksport til salg på Etsy.dk og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du matchingarbejdsark til førskole',
-    tagline: 'En trin-for-trin vejledning til at skabe tematiske tegn-en-linje matchingarbejdsark med automatisk facit du kan sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Matchingarbejdsark er blandt de mest alsidige førskole-printable-produkter du kan skabe. De underviser visuel diskrimination, bogstavgenkendelse, ordforråd og logisk parring — alt gennem den simple handling at tegne en linje mellem to kolonner. Denne guide fører dig igennem hele skabelsesprocessen med matchingarbejdsark-makeren — fra at vælge din matchingtilstand og tema til at eksportere trykklare PDF-filer med automatisk facit. Generatoren tilbyder fire distinkte matchingtilstande (Bogstav, Billede+Navn, Billede-eller-navn og Tilpasset), der gør den til et af de mest fleksible værktøjer til at opbygge et diversificeret produktkatalog. Uanset om du lancerer dit første førskole-printable eller udvider til matchingaktiviteter, vil du have et færdigt produkt klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav forbind-opgaver og parringsleg til print',
+    tagline: 'En trin-for-trin vejledning til at lave tematiske forbind-opgaver med automatisk facit du kan sælge på Etsy.dk, Amazon KDP og Saxo.com',
+    description: 'Forbind-opgaver og parringsleg er blandt de mest alsidige printbare produkter til førskole og børnehaveklasse. De træner visuel diskrimination, bogstavgenkendelse, ordforråd og logisk parring — alt gennem den simple handling at tegne en linje mellem to kolonner. Denne guide fører dig igennem hele skabelsesprocessen med matchingarbejdsark-makeren — fra at vælge din matchingtilstand og tema til at eksportere trykklare PDF-filer med automatisk facit. Generatoren tilbyder fire distinkte matchingtilstande (Bogstav, Billede+Navn, Billede-eller-navn og Tilpasset), der gør den til et af de mest fleksible værktøjer til at opbygge et diversificeret produktkatalog. Uanset om du lancerer dit første førskole-printable eller udvider til matchingaktiviteter, vil du have et færdigt produkt klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Matching er en af de tidligste kognitive færdigheder børn udvikler, og arbejdsark der øver denne færdighed forbliver i høj efterspørgsel fra førskole til tidlig indskoling. Tegn-en-linje formatet er øjeblikkeligt intuitivt — børn ser to kolonner og forbinder relaterede par. Ingen læsefærdighed krævet. Ingen komplekse instruktioner. Bare se, tænk og tegn.\n\nHvad der gør matchingarbejdsark særligt stærke som printable-produkt er deres rækkevidde af læringsanvendelser. En enkelt matchingarbejdsark-generator kan producere bogstavgenkendelsesaktiviteter, ordforråds-øvelsesark, visuelle diskriminationsøvelser og tilpassede stavedrilleopgaver. Hver anvendelse retter sig mod et forskelligt køberbehov og en forskellig søgeforespørgsel på markedspladser.\n\nMatchingarbejdsark-makeren håndterer layoutkompleksiteten for dig. Den arrangerer emner i to blandede kolonner, forbinder dem med justeringsprikker, genererer automatisk facit med vandrette forbindelseslinjer og eksporterer alt i trykklart opløsning. Du vælger matchingtilstanden, vælger et tema, sætter antallet af par, og generatoren bygger et professionelt arbejdsark på sekunder.\n\nGeneratoren er sprogfølsom — Bogstavtilstand producerer begyndelsesbogstaver passende til det valgte sprog, og Billede+Ord tilstand genererer lokaliserede ord-etiketter. Det betyder at du kan skabe matchingprodukter til flere sprogmarkeder uden manuelt at oversætte indhold.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste enhver matchingtilstand og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Parring og forbind-opgaver er en af de tidligste kognitive færdigheder børn udvikler, og opgaver der øver denne parringsleg forbliver i høj efterspørgsel fra førskole til tidlig indskoling. Tegn-en-linje formatet er øjeblikkeligt intuitivt — børn ser to kolonner og forbinder relaterede par. Ingen læsefærdighed krævet. Ingen komplekse instruktioner. Bare se, tænk og tegn.\n\nHvad der gør matchingarbejdsark særligt stærke som printable-produkt er deres rækkevidde af læringsanvendelser. En enkelt matchingarbejdsark-generator kan producere bogstavgenkendelsesaktiviteter, ordforråds-øvelsesark, visuelle diskriminationsøvelser og tilpassede stavedrilleopgaver. Hver anvendelse retter sig mod et forskelligt køberbehov og en forskellig søgeforespørgsel på markedspladser.\n\nMatchingarbejdsark-makeren håndterer layoutkompleksiteten for dig. Den arrangerer emner i to blandede kolonner, forbinder dem med justeringsprikker, genererer automatisk facit med vandrette forbindelseslinjer og eksporterer alt i trykklart opløsning. Du vælger matchingtilstanden, vælger et tema, sætter antallet af par, og generatoren bygger et professionelt arbejdsark på sekunder.\n\nGeneratoren er sprogfølsom — Bogstavtilstand producerer begyndelsesbogstaver passende til det valgte sprog, og Billede+Ord tilstand genererer lokaliserede ord-etiketter. Det betyder at du kan skabe matchingprodukter til flere sprogmarkeder uden manuelt at oversætte indhold.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste enhver matchingtilstand og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'prissæt Etsy printbare arbejdsark',
+    primaryKeyword: 'prissæt printables på Etsy.dk',
     secondaryKeywords: [
       'sådan prissætter du printbare arbejdsark på Etsy',
       'Etsy printable prisstrategi',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'pristest Etsy Stats konverteringsrate optimering',
       'international prissætning valuta Etsy digitale downloads A4 Letter',
     ],
-    titleTag: 'Prissæt Etsy printbare arbejdsark — Prisguide',
-    metaDescription: 'Prissæt Etsy printbare arbejdsark med gebyrmatematik, tre-niveau prissætning, pakkestrategier og sæsonjusteringer. Komplet prisguide for arbejdsarksælgere.',
+    titleTag: 'Prissæt printables på Etsy.dk — Prisguide for sælgere',
+    metaDescription: 'Prissæt printables på Etsy.dk med gebyrmatematik, tre-niveau prissætning, opgavepakker og sæsonjusteringer. Prisguide for printable-sælgere.',
   },
 
   hero: {

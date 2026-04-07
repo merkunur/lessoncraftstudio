@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skalér printable-virksomhed',
+    primaryKeyword: 'skalér din printable-forretning',
     secondaryKeywords: [
       'hvordan man skalerer en printable-virksomhed',
       'voks printable arbejdsark-virksomhed',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'katalogvækst omsætning per produkt platformsdiversificering skaleringsflaskehals',
       'virksomhedssystemer gentagelige processer produktionspipeline indholdsmangedobling',
     ],
-    titleTag: 'Skalér printable-virksomhed — Vækststrategiguide',
-    metaDescription: 'Sådan skalerer du din printable-virksomhed med batchproduktion, multi-platform udvidelse, katalogvækst, flersprogede markeder og automatiseringsstrategier.',
+    titleTag: 'Skalér din printable-forretning — Guide til passiv indkomst',
+    metaDescription: 'Skalér din printable-forretning med opgaver til print. Batchproduktion, multi-platform salg på Etsy.dk og KDP, og flersprogede markeder.',
   },
 
   hero: {

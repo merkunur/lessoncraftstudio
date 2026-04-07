@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'få anmeldelser printbare produkter',
+    primaryKeyword: 'få anmeldelser på printbare produkter',
     secondaryKeywords: [
       'printbar produkt anmeldelsesstrategi',
       'etsy anmeldelser digitale produkter',
@@ -17,12 +17,12 @@ const content: GuideContent = {
       'organiske anmeldelser autentisk feedback anmeldelsesvolumen markedspladsrangering',
       'listningsoptimering forventningsafstemning køberkommunikation efter-køb-oplevelse',
     ],
-    titleTag: 'Få anmeldelser printbare produkter — Sælgerguide',
-    metaDescription: 'Dokumenterede strategier til at få anmeldelser af printbare produkter. Byg social proof, tjen autentisk køberfeedback og boost din Etsy-, KDP- og Gumroad-butik.',
+    titleTag: 'Få anmeldelser på printbare produkter — Guide for sælgere',
+    metaDescription: 'Strategier til at få anmeldelser på opgaver til print. Byg social proof, tjen autentisk feedback og boost din Etsy.dk- og Amazon KDP-butik.',
   },
 
   hero: {
-    title: 'Sådan får du anmeldelser af printbare produkter',
+    title: 'Få anmeldelser på printbare produkter — guide til sælgere',
     tagline: 'En komplet guide til at tjene autentiske anmeldelser af printbare produkter — inklusive hvordan du leverer anmeldelsesværdige produktoplevelser, optimerer download- og brugskvalitet, inkluderer professionelle anmeldelsesanmodninger, følger op med købere på det rigtige tidspunkt, besvarer alle anmeldelser konstruktivt, sætter nøjagtige listningsforventninger, opbygger anmeldelsesvolumen gennem katalogvækst og generator feedbackloops der forbedrer dine produkter over tid',
     description: 'Anmeldelser er det mest kraftfulde tillidssignal på digitale produktmarkedspladser. For printable sælgere, hvor købere ikke fysisk kan undersøge produktet før køb, fungerer anmeldelser som det primære bevis på at dine arbejdsark leverer hvad de lover. Et produkt med 50 positive anmeldelser outseller et identisk produkt med nul anmeldelser fordi købere bruger social proof til at reducere den opfattede risiko ved at købe fra en ukendt sælger. Denne guide viser dig hvordan du systematisk tjener autentiske anmeldelser der opbygger troværdighed, forbedrer markedspladssynlighed og driver konsekvent salgsvækst.',
   },

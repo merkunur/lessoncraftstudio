@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sommer printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag sommer printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Strand- og soltematiske produktkoncepter, sæsonstrategier og platformstips for sælgere.',
+    titleTag: 'Sommer opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Sommer-tema opgaver til print du kan sælge online. Malebilleder, ordleg, find og tæl og skattejagt med strand og sol. Sælg på Etsy.dk. Sidegesjæft.',
 
-    primaryKeyword: 'sommer printbare idéer',
+    primaryKeyword: 'sommer opgaver til print idéer',
     secondaryKeywords: [
-      'sommertematiske arbejdsark til salg',
-      'sommer printbar forretningsidéer',
-      'sommeraktivitetsark for sælgere',
-      'sælg sommerprintables på Etsy',
+      'sommer malebilleder ordleg til print sælg online',
+      'sommer printbare idéer Etsy.dk sidegesjæft',
+      'sommer aktivitetsark til print find og tæl',
+      'sælg sommer-opgaver malebilleder skattejagt til print',
     ],
     lsiKeywords: [
-      'strand og sol pædagogiske arbejdsark',
-      'varmt vejr aktivitetssider',
-      'ferietematiske printables for sælgere',
+      'strand sol sommer opgaver til print sidegesjæft',
+      'varmt vejr malebilleder ordleg til print passiv indkomst',
+      'ferietema opgaver til print børnehaveklasse indskoling',
     ],
   },
   hero: {
-    title: 'Sommer printbare forretningsidéer for sælgere',
+    title: 'Sommer opgaver til print — forretningsidéer for sælgere',
     description: 'Sommer åbner det længste vedvarende salgsvindue i den sæsonbestemte printbare kalender, med efterspørgsel der opbygges fra maj til august efterhånden som forældre søger strukturerede aktiviteter til at bekæmpe sommerens læringstab, lejre og dagplejer fylder op med tematiske arbejdsark, og familier forbereder rejseunderholdning til ferie-roadtrips. Nichen tilbyder et ekspansivt udvalg af underemner inklusive strandscener, solskin, is, vandmelon, sandslotte, solsikker, svømmebassiner, søstjerner, muslingeskaller og flip-flops, hvilket giver sælgere et livligt visuelt ordforråd der fanger den energi og begejstring børn forbinder med de varmeste måneder. Hjemmeundervisningsfamilier der fortsætter uddannelse gennem sommermånederne tilføjer konsekvent efterspørgsel gennem hele vinduet, mens feriebibelsholdere og fællesskabsrekreationsprogrammer skaber yderligere købersegmenter der søger masseaktivitetsressourcer. For printable sælgere på Etsy, Amazon KDP og Gumroad kombinerer sommernichen forlænget sæsonefterspørgsel med universelt tiltalende billeder der fotograferer smukt til produktlistninger. Denne guide dækker specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en rentabel sommer printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Sommerprintbare-nichen adskiller sig fra andre sæsonkategorier på grund af sin rene varighed og intensiteten af forældreefterspørgsel efter strukturerede børneaktiviteter. Mens de fleste ferienicher leverer koncentrerede to til fire ugers salgsvinduer, strækker sommer sig over fire fulde måneder med aktive køb fra maj til august, med tidlige købere og lejrkoordinatorer der begynder deres søgninger i april. Denne forlængede tidslinje betyder at sommerprintbare listninger har mere tid til at akkumulere anmeldelser, klatre i søgerangeringer og generere akkumulerende organisk trafik gennem hele sæsonen. Forældre bliver det dominerende købersegment i sommermånederne efterhånden som skolerutiner opløses og virkeligheden med at holde børn engagerede, underholdte og lærende i uger ad gangen driver presserende søgninger efter printbare aktiviteter der giver struktur uden den formelle rigiditet.

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sælg ordsøgningspuslespil på Etsy',
+    primaryKeyword: 'sælg ordlege på Etsy.dk',
     secondaryKeywords: [
       'sådan sælger du ordsøgningspuslespil på Etsy',
       'Etsy ordsøgning puslespil butik opsætning',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'ferie-temaede ordsøgning printable Etsy sæsonstrategi',
       'Etsy listning fotos mockups for ordsøgning puslespil produkter',
     ],
-    titleTag: 'Sælg ordsøgningspuslespil på Etsy — Guide',
-    metaDescription: 'Sælg ordsøgningspuslespil på Etsy med 4 puslespilgeneratorer. Etsy SEO, listningsoptimering, prissætning, pakketering med krydsord og ordblandinger.',
+    titleTag: 'Sælg ordlege på Etsy.dk — Guide for printable-sælgere',
+    metaDescription: 'Sælg ordlege til print på Etsy.dk med 4 puslespilgeneratorer. Etsy SEO, prissætning, pakketering med krydsord og passiv indkomst.',
   },
 
   hero: {

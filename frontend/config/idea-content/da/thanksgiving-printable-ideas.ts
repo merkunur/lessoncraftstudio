@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Taksigelse printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag taksigelse printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Høsttematiske produktkoncepter, sæsonstrategier og platformstips for sælgere.',
+    titleTag: 'Høsttakkefest opgaver til print — idéer til salg | Etsy.dk & KDP',
+    metaDescription: 'Høsttakkefest opgaver til print du kan sælge online. Malebilleder, ordleg, find og tæl og regneopgaver med høsttema. Sælg på Etsy.dk. Sidegesjæft.',
 
-    primaryKeyword: 'taksigelse printbare idéer',
+    primaryKeyword: 'høsttakkefest opgaver til print idéer',
     secondaryKeywords: [
-      'taksigelsesarbejdsark til salg',
-      'taksigelse printbar forretningsidéer',
-      'taksigelsesaktivitetsark for sælgere',
-      'sælg taksigelsesprintables på Etsy',
+      'høst malebilleder ordleg til print sælg online',
+      'taksigelse printbare idéer Etsy.dk sidegesjæft',
+      'høst aktivitetsark til print regneopgaver',
+      'sælg høst-opgaver malebilleder find og tæl til print',
     ],
     lsiKeywords: [
-      'høst og taknemmelighed pædagogiske arbejdsark',
-      'novembertematiske aktivitetssider',
-      'kalkun- og pilgrimtematiske printables',
+      'høst taknemmelighed opgaver til print sidegesjæft',
+      'november høsttema malebilleder til print passiv indkomst',
+      'høsttakkefest opgaver til print printbar forretning',
     ],
   },
   hero: {
-    title: 'Taksigelse printbare forretningsidéer for sælgere',
+    title: 'Høsttakkefest opgaver til print — forretningsidéer for sælgere',
     description: 'Taksigelse åbner et fokuseret og meget profitabelt salgsvindue for printbare entreprenører, med efterspørgsel der opbygges gennem oktober og topper i de første tre uger af november, efterhånden som købere forbereder høsttematiske gruppeaktiviteter og familier planlægger pædagogisk underholdning til feriefester. Nichen tilbyder rig undertemavariation inklusive kalkuner, græskar, pilgrimme, høstscener, overflødighedshorn, efterårsblade, tærter, agern og taknemmeligheds­aktiviteter, hvilket giver sælgere et varmt visuelt ordforråd der resonerer med tidlige elever og deres familier under en af årets mest eftertragtede fejringer. Hjemmeundervisningsfamilier og dagplejeprogrammer tilføjer betydelig køberdybde og søger taksigelseshåndværk og aktiviteter der blander ferieglæde med ægte læringsresultater. For printable sælgere på Etsy, Amazon KDP og Gumroad leverer taksigelsesnichen koncentreret sæsonefterspørgsel med en hyggelig efterårsæstetik der fotograferer smukt til produktlistninger og markedsføring på sociale medier. Denne guide dækker specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en rentabel taksigelse printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Taksigelsesprintbare-nichen indtager en førsteklasses position i efterårets salgskalender og genererer koncentreret efterspørgsel i oktober og november, når købere, forældre og hjemmeundervisningsfamilier aktivt søger høsttematiske pædagogiske materialer. Købere begynder at planlægge novembergruppe­aktiviteter og taksigelsessfejringer i begyndelsen af oktober og søger tematiske arbejdsark der blander ferievarme med ægte pædagogiske resultater på tværs af matematik, læsefærdigheder og kritisk tænkningsfærdigheder. Forældre søger alderstilpassede taksigelsesaktiviteter der tjener flere formål: at holde børn engagerede under ferieforberedelse, give pædagogisk underholdning under familierejser og skabe strukturerede læringsøjeblikke i den forlængede taksigelsesweekend når skærmfri aktiviteter er særligt værdsat.

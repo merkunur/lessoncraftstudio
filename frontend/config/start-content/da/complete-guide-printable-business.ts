@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'start printbar forretning',
+    primaryKeyword: 'start printbar forretning opgaver til print sidegesjæft',
     secondaryKeywords: [
-      'printbar forretning for begyndere',
-      'saelg printbare arbejdsark online',
-      'start en printbar arbejdsarksbutik',
-      'guide start printbar forretning',
+      'printbar forretning for begyndere passiv indkomst',
+      'sælg opgaver til print online Etsy.dk',
+      'start en butik med opgaver til print',
+      'guide start printbar forretning sidegesjæft Danmark',
     ],
     lsiKeywords: [
-      'digital download forretningsmodel',
-      'arbejdsarksgenerator for saelgere',
-      'Etsy printbar butik opsaetning',
-      'Amazon KDP aktivitetsboeger',
-      'Gumroad arbejdsark',
-      'kommerciel licens printbare vaerktojer',
+      'digital download forretningsmodel opgaver til print',
+      'opgavegenerator for sælgere printbar forretning',
+      'Etsy.dk printbar butik opsætning sidegesjæft',
+      'Amazon KDP aktivitetsbøger passiv indkomst',
+      'Gumroad opgaver til print sælg online',
+      'kommerciel licens printbare værktøjer sidegesjæft',
     ],
-    titleTag: 'Start printbar forretning — Komplet guide — Saelgerguide',
-    metaDescription: 'Saadan starter du en printbar forretning fra bunden. Trin-for-trin-guide for Etsy-, Amazon KDP- og Gumroad-saelgere der bruger arbejdsarksgeneratorer.',
+    titleTag: 'Start printbar forretning — komplet guide | Opgaver til print & sidegesjæft',
+    metaDescription: 'Sådan starter du en printbar forretning fra bunden. Trin-for-trin-guide for sælgere på Etsy.dk, Amazon KDP og Gumroad. Sidegesjæft med opgaver til print.',
   },
 
   hero: {
     title: 'Den komplette guide til at starte en printbar forretning',
-    tagline: 'Fra nul til dit foerste salg — alt du behoever at vide om at bygge en printbar arbejdsarksforretning',
-    description: 'Denne guide leder dig gennem hvert trin i at lancere en printbar arbejdsarksforretning. Du vil laere hvordan du vaelger en profitabel niche, skaber professionelle produkter uden designkundskaber, lister paa de rigtige platforme, prissaetter for profit og bygger et katalog der genererer konsistent salg. Uanset om du planlagger at saelge paa Etsy, Amazon KDP, Gumroad eller din egen hjemmeside — dette er startpunktet.',
+    tagline: 'Fra nul til dit første salg — alt du behøver at vide om at bygge en printbar forretning med opgaver til print',
+    description: 'Denne guide leder dig gennem hvert trin i at lancere en printbar forretning med opgaver til print. Du vil laere hvordan du vaelger en profitabel niche, skaber professionelle produkter uden designkundskaber, lister paa de rigtige platforme, prissaetter for profit og bygger et katalog der genererer konsistent salg. Uanset om du planlagger at saelge paa Etsy, Amazon KDP, Gumroad eller din egen hjemmeside — dette er startpunktet.',
   },
 
   introduction: 'Markedet for printbare arbejdsark er vokset stabilt fordi efterspoergslen aldrig slutter. Foraeldre hjemmeunderviser. Laerere supplerer produktkataloger. Tutorer har brug for nyt materiale hver uge. Saesontemaer roterer, men grundbehovet — strukturerede, engagerende, trykfaerdige laeringsaktiviteter — forbliver konstant aar efter aar.\n\nAt starte en printbar forretning kraever ikke en laereruddannelse, grafisk designerfaring eller en stor indledende investering. Hvad det kraever er en tydelig forstaaelse af hvad koebere faktisk vil have, de rigtige vaerktojer til at skabe professionelle produkter effektivt og en vilje til at behandle dette som en rigtig forretning snarere end et sideeksperiment.\n\nDenne guide daekker hele vejen. I slutningen vil du have en konkret handlingsplan: din niche valgt, dit foerste produkt skabt, din butik listet og din prissaetningsstrategi sat. Ingen vage raad, ingen hype — bare de praktiske trin der tager dig fra ide til indkomst.\n\nEn vigtig note foer vi begynder: hver arbejdsarksgenerator naevnt i denne guide tilbyder en gratis proeveversion med vandmaerke. Du kan teste alle funktioner, lave proeverarbeidsark og evaluere kvaliteten foer du koeber en kommerciel licens. Der er nul risiko ved at komme i gang.',

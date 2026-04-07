@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bondegårdsdyr printbare idéer til salg — nicheguide',
-    metaDescription: 'Opdag profitable bondegårdsdyr printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Produktkoncepter, prisstrategier og platformtips til sælgere.',
+    titleTag: 'Bondegårdsdyr opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Bondegårdsdyr-tema opgaver til print du kan sælge online. Malebilleder, find og tæl, sortere og forbind-opgaver med gårdsdyr. Sidegesjæft.',
 
-    primaryKeyword: 'bondegårdsdyr printbare idéer',
+    primaryKeyword: 'bondegårdsdyr opgaver til print idéer',
     secondaryKeywords: [
-      'bondegårdsdyr arbejdsark til salg',
-      'bondegårdstema printbar forretning',
-      'bondegårdsaktivitetsark til sælgere',
-      'sælg bondegårdsprintables på Etsy',
+      'bondegårdsdyr malebilleder find og tæl til print',
+      'bondegård printbare idéer Etsy.dk sidegesjæft',
+      'bondegårds aktivitetsark til print sortere',
+      'sælg bondegårdsdyr malebilleder forbind-opgaver til print',
     ],
     lsiKeywords: [
-      'landbrugstema pædagogiske arbejdsark',
-      'gårdaktiviteter til børn',
-      'husdyrtema printbare ressourcer',
+      'landbrug gårdsdyr opgaver til print sidegesjæft',
+      'gårdsdyr malebilleder sortere til print passiv indkomst',
+      'husdyrtema opgaver til print børnehaveklasse',
     ],
   },
   hero: {
-    title: 'Bondegårdsdyr printbare forretningsidéer til sælgere',
+    title: 'Bondegårdsdyr opgaver til print — forretningsidéer for sælgere',
     description: 'Bondegårdsdyr forbliver et af de mest pålidelige temaer på markedet for pædagogiske printables. Fra småbørn der lærer at tælle bondegårdsdyr til tidlige læsere der sporer ordet "kylling," tiltrækker denne niche forældre, købere og hjemmeundervisere hele året rundt. For printable-sælgere tilbyder bondegårdstemaet en sjælden kombination af stedsegrøn efterspørgsel, bred aldersappel og stærke sæsonmæssige toppe i forår og efterårshøst. Uanset om du sælger på Etsy, Amazon KDP eller Gumroad, repræsenterer bondegårdsdyr printables en dokumenteret niche med plads til kreativ differentiering. Denne guide gennemgår specifikke produktidéer, platformstrategier og prismetoder for at hjælpe dig med at opbygge en profitabel bondegårdstema printbar produktlinje med vores arbejdsark-generatorværktøjer.',
   },
   marketOverview: `Bondegårdsdyr-nichenichen for printables befinder sig i skæringspunktet mellem to kraftfulde købermotivationer: pædagogisk værdi og tematisk appel. Forældre der søger efter bondegårdstema arbejdsark leder typisk efter engagerende måder at undervise i grundlæggende færdigheder som tælling, bogstavgenkendelse, ordforrådsopbygning og finmotorik. Købere søger gruppevenlige ressourcer der passer til almindelige tidlige barndomsenheder om bondegårde og fødevareproduktion.

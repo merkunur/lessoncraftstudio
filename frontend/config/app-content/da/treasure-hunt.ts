@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'skattejagt arbejdsark generator',
+    primaryKeyword: 'skattejagt til print',
     secondaryKeywords: [
-      'printbar skattejagt vejfinding generator til Etsy-sælgere',
-      'retningspuslespil arbejdsark generator til KDP-udgivere',
-      'koordinatgitter skattejagt generator kommerciel licens',
-      'sælg skattejagt arbejdsark på Gumroad',
+      'sporleg til print',
+      'skattejagt opgaveark',
+      'ledetråde skattejagt',
+      'skattejagt børn',
     ],
     lsiKeywords: [
-      'digitale skattejagt printbare produkter online forretning',
-      'kommercielt brug retningsarbejdsark generator',
-      'printbar vejfinding puslespil forretningsværktøj',
+      'skattejagt sporleg ledetråde spor',
+      'børn aktivitet skattejagt print',
+      'skattejagt opgave koordinatgitter retning',
     ],
-    titleTag: 'Skattejagt Generator | Opret Vejarbejdsark — Opret og Sælg',
-    metaDescription: 'Opret skattejagt arbejdsark til salg på Etsy, KDP og Gumroad. 5×5 koordinatgitter, to retningstyper, automatisk facit, 104 temaer. $49 engangsbetaling.',
+    titleTag: 'Skattejagt til print | Generator sporleg',
+    metaDescription: 'Lav skattejagt- og sporleg-opgaver med temabilleder. Printklare PDF\'er. Prøv gratis — sælg på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Skattejagt Arbejdsark Generator til Vejfinding Retningspuslespil',
-    tagline: 'Generer retningsbaserede vejfindingspuslespil på et 5×5 koordinatgitter — to retningsordforråd (Grundlæggende: op/ned/venstre/højre og Kompas: nord/syd/øst/vest), fuldt lokaliserede retningsanvisninger på 11 sprog, automatisk genereret facit med markeret skatteplads og skattejagt-tematiserede overskrifter over 104 billedsamlinger.',
+    title: 'Skattejagt til print — sporleg og ledetråde for børn',
+    tagline: 'Lav printbare skattejagt-opgaver med ledetråde på et 5×5 koordinatgitter — to retningstyper (op/ned/venstre/højre og kompas: nord/syd/øst/vest), fuldt lokaliserede sporleg-anvisninger på 11 sprog og automatisk facit med markeret skatteplads.',
     description:
-      'Byg professionelle skattejagt arbejdsark, hvor brugerne følger sekventielle bevægelsesanvisninger for at lokalisere en gemt skat på et 5×5 bogstav-tal koordinatgitter (A–E rækker, 1–5 kolonner). Hvert puslespil spreder 6 tematiske billeder over gitteret som vartegn og genererer derefter en startposition og præcis 4 retningsbevægelser, der fører til skattecellen. Vælg mellem to retningsordforråd: Grundlæggende tilstand bruger op, ned, venstre og højre for tidlige brugere, mens Kompas-tilstand bruger nord, syd, øst og vest for mere avanceret rumligt ræsonnement. Skattejagt Generatoren er sprogfølsom: at skifte sprog ændrer både retningsinstruktionernes tekst og billedindholdet, med alle retninger fuldt oversat til 11 understøttede sprog. Det betyder, at det samme puslespil med de samme billeder producerer autentiske retningsanvisninger på det valgte sprog — \"Flyt ned 2 felter\" på dansk, \"Move down 2 squares\" på engelsk, \"Gehe 2 Felder nach unten\" på tysk. Hvert puslespil inkluderer en automatisk genereret lokaliseret overskrift med blågrøn baggrund (#2C8C7C), gylden titel (#D4A017) i Fredoka-skrifttype og sandfarvet beskrivelse i Quicksand — der viser \"Skattejagt\" og \"Følg ledetrådene og find skatten!\" på det valgte sprog. Dobbeltlærredssystemet genererer både en arbejdsarkfane og en facitfane — facit markerer den endelige skattecelle i bleggu, så du aldrig behøver markere den manuelt. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 sprog til lokaliserede retninger og billeder. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller brugerdefinerede størrelser. Uanset om du sælger skattejagtpakker på Etsy.dk, sammensætter retningsfærdigheds-arbejdsbøger til Amazon KDP eller opretter koordinatgitteraktiviteter til Gumroad — denne generator leverer produktionsklare puslespil på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Generér printbare skattejagt-opgaver, hvor børn følger ledetråde og spor for at lokalisere en gemt skat på et 5×5 koordinatgitter. Hvert sporleg spreder 6 tematiske billeder over gitteret som vartegn og opretter en startposition og præcis 4 retningsbevægelser, der fører til skattecellen. Med det danske marked på kun 5,8 millioner indbyggere er konkurrencen på Etsy.dk og Amazon KDP markant lavere end på engelsksprogede platforme — og danske forældre søger aktivt efter printbare skattejagt-aktiviteter og sporleg til børn i børnehaveklasse (5-6 år), indskoling 0.-3. klasse og mellemtrin 4.-6. klasse. Vælg mellem to retningstyper: Grundlæggende tilstand bruger op, ned, venstre og højre for de yngste i børnehaveklassen, mens Kompas-tilstand bruger nord, syd, øst og vest for indskoling og mellemtrin. Generatoren er sprogfølsom: at skifte sprog ændrer ledetrådsteksten med autentiske retningsanvisninger — \"Flyt ned 2 felter\" på dansk, \"Move down 2 squares\" på engelsk, \"Gehe 2 Felder nach unten\" på tysk. Hvert sporleg inkluderer en automatisk genereret overskrift med blågrøn baggrund, gylden titel og lokaliseret tekst: \"Skattejagt\" og \"Følg ledetrådene og find skatten!\". Dobbeltlærredssystemet genererer både en opgavefane og en facitfane — facit markerer den endelige skattecelle i bleggu, så du aldrig behøver markere manuelt. Fuld Adgang låser op for alle 104 temaer med over 3.100 illustrationer og alle 11 sprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Uanset om du sælger skattejagt-pakker på Etsy.dk, sammensætter sporleg-aktivitetsbøger til Amazon KDP eller opretter koordinatgitter-opgaver til Gumroad — denne generator leverer produktionsklare skattejagt-opgaver på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Skattejagt Arbejdsark i 5 Trin',
+    title: 'Sådan laver du skattejagt-opgaver til print i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Skattejagt Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i skattejagt- og sporleg-generatoren',
     features: [
       {
         title: 'Vejfinding skattejagtpuslespil på et 5×5 koordinatgitter',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Skattejagt Arbejdsark Online',
+    title: 'Sådan sælger du skattejagt- og sporleg-opgaver online',
     cases: [
       {
         title: 'Tematiske skattejagtpakker på Etsy.dk',
@@ -140,64 +140,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvad er et skattejagtarbejdsark, og hvordan fungerer puslespillet?',
+      question: 'Kan jeg sælge disse skattejagt-opgaver på Etsy?',
       answer:
-        'Et skattejagtarbejdsark er et vejfindingspuslespil på et 5×5 koordinatgitter mærket med bogstavsrækker (A–E) og talkolonner (1–5). Seks tematiske billeder spredes over gitteret som visuelle vartegn. Arbejdsarket giver 5 instruktionslinjer: en startposition (f.eks. \"Start ved A3\"), præcis 4 retningsbevægelser (f.eks. \"Flyt ned 2 felter\"), og et slutspørgsmål \"Hvor er skatten?\" Brugerne følger de sekventielle anvisninger på gitteret for at bestemme, hvilken celle der indeholder skatten.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine skattejagt-opgaver som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som ressourcer på Gumroad eller via enhver anden salgskanal. De to retningstyper, 5×5 koordinatgitteret, lokaliserede ledetråde, automatisk facit og 104 tematiske billedsamlinger giver dig originale sporleg-produkter. Det danske marked med 5,8 millioner indbyggere har lav konkurrence på printbare skattejagt-aktiviteter.',
     },
     {
-      question: 'Hvordan fungerer 5×5 koordinatgitteret?',
+      question: 'Hvordan laver jeg skattejagt-opgaver med denne generator?',
       answer:
-        'Gitteret består af 25 celler arrangeret i 5 rækker (mærket A til E) og 5 kolonner (mærket 1 til 5). Hver celle identificeres af en bogstav-tal koordinat som A1, B3 eller E5. Seks tematiske billeder optager 6 af de 25 celler som visuelle vartegn. Startpositionen og alle 4 bevægelser forbliver inden for gitterets grænser (rækker A–E, kolonner 1–5), hvilket sikrer, at hvert puslespil er løseligt. Dette bogstav-tal koordinatsystem introducerer brugere til gitterreferencefærdigheder brugt i kort, diagrammer og matematik.',
+        'Vælg retningstype (Grundlæggende: op/ned/venstre/højre eller Kompas: nord/syd/øst/vest), vælg 6 billeder fra 104 temaer med over 3.100 illustrationer, og klik Generer. Generatoren opretter et 5×5 koordinatgitter med spredte billeder, en startposition og præcis 4 ledetråde, der fører til skattecellen. Download som trykfærdig PDF eller JPEG med 300 DPI. Facit med markeret skatteplads genereres automatisk.',
     },
     {
-      question: 'Hvad er de to retningstyper, og hvordan adskiller de sig?',
+      question: 'Er skattejagt-opgaverne egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Grundlæggende tilstand bruger op, ned, venstre og højre — velkendte retningsord for børnehavebørn til 1. klasse, der opbygger grundlæggende rumligt ordforråd. Kompas-tilstand bruger nord, syd, øst og vest — kompasretninger tilpasset 2. klasse og opefter. Begge tilstande genererer den samme 4-bevægelses puslespilsstruktur på det samme 5×5 gitter. Retningstypeomskifteren lader dig oprette progressiv sværhed: begynd med Grundlæggende retningsarbejdsark og avancér til Kompas retningsarbejdsark med identiske temaer.',
+        'Ja. Til børnehaveklasse (5-6 år) og tidlig indskoling 0.-1. klasse bruger du Grundlæggende tilstand med op, ned, venstre og højre — velkendte retningsord, der opbygger rumligt ordforråd. Til indskoling 2.-3. klasse og mellemtrin 4.-6. klasse passer Kompas-tilstand med nord, syd, øst og vest for mere avanceret rumligt ræsonnement og kortlæsningsfærdigheder. Begge tilstande opretter den samme 4-bevægelses sporleg-struktur.',
     },
     {
-      question: 'Hvorfor har hvert puslespil præcis 4 bevægelser?',
+      question: 'På hvor mange sprog kan jeg lave skattejagt-opgaver?',
       answer:
-        'Den konsekvente 4-bevægelsesstruktur generator et standardiseret puslespilsformat, der fungerer pålideligt på 5×5-gitteret. Fire bevægelser giver tilstrækkelig kompleksitet til meningsfuld vejfinding uden at overvælde yngre brugere. Hvert puslespil følger det samme 5-linjes instruktionsformat: startposition, 4 sekventielle bevægelser og \"Hvor er skatten?\"-spørgsmålet. Denne konsistens gør skattejagtarbejdsark forudsigelige for brugere og nemme at pakke i strukturerede aktivitetssæt for sælgere.',
+        'Generatoren understøtter 11 sprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Alle ledetråde og retningsanvisninger er fuldt oversat — \"Flyt ned 2 felter\" på dansk, \"Move down 2 squares\" på engelsk, \"Gehe 2 Felder nach unten\" på tysk. Overskriften \"Skattejagt\" og \"Følg ledetrådene og find skatten!\" oversættes automatisk til det valgte sprog.',
     },
     {
-      question: 'Hvordan bruges de 6 billeder i puslespillet?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Seks tematiske billeder spredes over de 25 celler i 5×5-gitteret som visuelle vartegn. De gør gitteret visuelt engagerende og hjælper brugerne orientere sig, mens de følger retningsanvisninger. Du kan fylde gitteret med tre metoder: Generer fra Tema (standard) autovælger 6 tilfældige billeder, Manuelt Billedvalg lader dig gennemse biblioteket og klikke for at vælge præcis 6 billeder, og Upload Egne Billeder lader dig tilføje egne filer.',
+        'Ja. Hvert sporleg genererer automatisk en facitfane, der viser det identiske 5×5 gitter med den endelige skattecelle markeret i bleggu med mørkegrå kontur. Ingen manuel markering nødvendig — facit er altid synkroniseret med opgaven. Begge versioner eksporteres separat som PDF og JPEG med 300 DPI.',
     },
     {
-      question: 'Er Skattejagt Generatoren sprogfølsom?',
+      question: 'Hvad er et skattejagt-opgaveark, og hvordan fungerer sporleget?',
       answer:
-        'Ja. Skattejagt Generatoren er sprogfølsom på to måder. Først er al retningsinstruktionstekst — startinstruktioner, bevægelsesretninger (Grundlæggende og Kompas), feltenheder og skattespørgsmålet — fuldt oversat til det valgte sprog på alle 11 understøttede sprog. Desuden opdateres billedindhold indlæst fra biblioteket baseret på valgt lokal. At skifte sprog producerer autentiske skattejagtarbejdsark på modersmålet med lokaliserede retninger og billeder. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer og alle 11 sprog.',
-    },
-    {
-      question: 'Hvordan lokaliseres retningsanvisningerne?',
-      answer:
-        'Alt retningsordforråd er oversat til 11 sprog: engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, dansk, norsk og finsk. Grundlæggende retninger (op/ned/venstre/højre) og Kompas-retninger (nord/syd/øst/vest) har begge komplette oversættelser, sammen med \"Start ved\"-instruktionen, \"Flyt\"-verbet, \"felt/felter\"-enheden og \"Hvor er skatten?\"-spørgsmålet. For eksempel, på dansk i Grundlæggende tilstand skrives anvisningen \"Flyt ned 2 felter\" med nationalt retningsordforråd. Overskriftens titel og beskrivelse oversættes også automatisk.',
-    },
-    {
-      question: 'Hvordan fungerer det automatisk genererede facit?',
-      answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane, hver med separate fortryd/gentag-stakke. Arbejdsarket viser 5×5-gitteret med spredte billeder og retningsanvisninger — klar til brugerne at følge. Facit gengenerator det identiske layout og markerer den endelige skattecelle i bleggu (rgba(255, 250, 205, 0.8)) med mørkegrå kontur, hvilket gør destinationen øjeblikkeligt synlig. Begge versioner eksporteres separat med fire dedikerede downloadknapper.',
+        'Et skattejagt-opgaveark er et vejfindingspuslespil på et 5×5 koordinatgitter mærket med bogstavsrækker (A-E) og talkolonner (1-5). Seks tematiske billeder spredes som vartegn. Opgavearket giver 5 ledetråde: en startposition (f.eks. \"Start ved A3\"), 4 retningsbevægelser (f.eks. \"Flyt ned 2 felter\"), og spørgsmålet \"Hvor er skatten?\" Barnet følger sporene på gitteret for at finde skattecellen.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — begge retningstyper, 5×5 koordinatgitteret, 6-billeds puslespilsgenerering, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, alle downloadformater og gråtoneomskifter — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Kan jeg tilføje baggrundstemaer og rammetemaer på skattejagtarbejdsark?',
-      answer:
-        'Ja. Panelet Sideopsætning inkluderer både en baggrundstema-vælger med en opacitetsskyder (0–1 i 0,05-trin) og en rammetema-vælger med sin egen uafhængige opacitetsskyder. Baggrundstemaer tilføjer dekorative mønstre bag koordinatgitteret og retningsinstruktionerne, mens rammetemaer rammer siden ind. Begge har separate opacitetskontroller for fuldstændig designfleksibilitet.',
-    },
-    {
-      question: 'Kan jeg sælge skattejagtarbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine skattejagtarbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. De to retningstyper, 5×5 koordinatgitteret, lokaliserede retningsanvisninger, automatisk genererede facit og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare vejfindingspuslespil-produkter.',
+        'Ja. Du kan bruge alle funktioner — begge retningstyper, 5×5 koordinatgitteret, 6-billeds sporleg, det automatiske facit, hele billedbiblioteket, baggrunds- og rammetemaer, alle downloadformater og gråtone — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste begge retningstyper, 5×5 koordinatgitteret, 6-billeds puslespilsgenerering, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste begge retningstyper, koordinatgitteret, sporleg-generering, facit, hele billedbiblioteket og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
     },
   ],
 
@@ -262,23 +242,23 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/treasure%20hunt/Skattejagt%201.webp',
-      primaryAlt: 'Skattejagt vejfinding arbejdsark med 5 gange 5 koordinatgitter, spredte billeder, retningsanvisninger og skattejagt-tematiseret overskrift',
+      primaryAlt: 'Skattejagt til print med 5 gange 5 koordinatgitter, spredte billeder, ledetråde og sporleg-overskrift',
     },
     sampleGallery: [
       {
         src: '/samples/danish/treasure%20hunt/Skattejagt%201.webp',
-        alt: 'Skattejagtpuslespil arbejdsark med 6 tematiske billeder på et 5 gange 5 gitter og Grundlæggende retningsanvisninger',
-        caption: 'Grundlæggende retningstilstand — følg op, ned, venstre og højre anvisninger for at finde skatten',
+        alt: 'Skattejagt til print med 6 tematiske billeder på et 5 gange 5 gitter og ledetråde med grundlæggende retninger',
+        caption: 'Grundlæggende sporleg — følg ledetrådene op, ned, venstre og højre for at finde skatten',
       },
       {
         src: '/samples/danish/treasure%20hunt/Skattejagt%202.webp',
-        alt: 'Skattejagtpuslespil arbejdsark med et andet tema og Kompas-retningsanvisninger',
-        caption: 'Kompas-retningstilstand — kompasretninger for avanceret rumligt ræsonnement',
+        alt: 'Skattejagt-opgaveark med et andet tema og kompas-ledetråde nord, syd, øst og vest',
+        caption: 'Kompas-sporleg — kompasretninger for avanceret rumligt ræsonnement i indskoling og mellemtrin',
       },
       {
         src: '/samples/danish/treasure%20hunt/Skattejagt%203.webp',
-        alt: 'Skattejagt facit med endelig skattecelle markeret i bleggu på koordinatgitteret',
-        caption: 'Automatisk genereret facit — bleggu markering viser skattens destination',
+        alt: 'Skattejagt facit med den endelige skattecelle markeret i bleggu på koordinatgitteret',
+        caption: 'Automatisk facit — bleggu markering viser hvor skatten er gemt efter sporleget',
       },
     ],
     youtubeId: 'flHiBXsYLLA',

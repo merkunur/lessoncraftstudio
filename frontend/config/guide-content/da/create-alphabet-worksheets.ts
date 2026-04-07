@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'alfabettog arbejdsark',
+    primaryKeyword: 'lav alfabet-opgaver til print',
     secondaryKeywords: [
-      'skab alfabettog arbejdsark til salg',
-      'alfabettog arbejdsark generator kommerciel brug',
-      'printbart bogstavgenkendelse tog-generator til Etsy og KDP',
-      'sprogfoelsomme bogstavmatchnings-arbejdsark med facit',
+      'alfabet-tog opgaver til børnehaveklasse',
+      'bogstavgenkendelse togvogne generator',
+      'printbare alfabet-opgaver til salg på Etsy.dk',
+      'bogstavlæring med billeder til indskoling',
     ],
     lsiKeywords: [
-      'elleve farverige togvogne bogstav-billede matchning arbejdsark-generator',
-      'automatisk skabelse manuelt valg to skabelsestilstande alfabetgenerator',
-      'konfigurerbart tre til elleve ledetraadsantal svaerhedsskalering generator',
-      'saelg alfabettog arbejdsark paa Etsy',
-      'Amazon KDP bogstavgenkendelse tog-arbejdsboeger',
-      'kommerciel licens alfabettog vaerktoej',
+      'farverige togvogne bogstav-billede matchning opgaver',
+      'automatisk og manuelt valg to skabelsestilstande',
+      'konfigurerbar sværhedsgrad fra 3 til 11 ledetråde',
+      'sælg alfabet-opgaver på Etsy.dk og Saxo.com',
+      'Amazon KDP bogstavgenkendelse aktivitetshæfter',
+      'kommerciel licens alfabet-tog værktøj',
     ],
-    titleTag: 'Alfabettog arbejdsark — Guide — Komplet Guide for Sælgere',
-    metaDescription: 'Sådan generator du alfabettog-arbejdsark med togvogne, to skabelsestilstande, konfigurerbar sværhedsgrad og 104. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Lav alfabet-opgaver til print — Komplet sælgerguide',
+    metaDescription: 'Lav alfabet-tog opgaver med farverige togvogne, to skabelsestilstande og konfigurerbar sværhedsgrad. Sælg på Etsy.dk, Saxo.com og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du alfabettog-arbejdsark',
-    tagline: 'En trin-for-trin-guide til at skabe bogstavgenkendelsesarbejdsark med 11 farverige togvogne der bærer bogstaver og matchende illustrationer, to skabelsestilstande (Automatisk skabelse til tilfældig generering og Manuelt valg til produktkatalogtilpassede bogstavgrupper), konfigurerbart ledetrådantal fra 3 til 11 for indbygget sværhedsskalering, sprogfølsom bogstavmatchning over 11 indfødte alfabeter hvor det samme billede parres med forskellige bogstaver per sprog, og automatisk genererede facit du kan sælge over hele verden på Etsy, Amazon KDP og Gumroad',
-    description: 'Alfabettog-arbejdsark er en visuelt distinkt bogstavgenkendelsesaktivitet hvor brugere matcher spredte ledetrådbilleder til den rigtige togvogn baseret på hvilket bogstav hvert billede begynder med. I modsætning til flade bogstavøvelsesark der smelter sammen i markedspladslistninger er det farverige 11-vogns toglayout øjeblikkeligt genkendeligt og scrollstoppende. Alfabettog-generatoren tilbyder to skabelsestilstande — Automatisk skabelse til hurtig masseproduktion og Manuelt valg til håndplukkede bogstavgrupper — plus et konfigurerbart ledetrådsskyder fra 3 til 11 der generator naturlige sværhedsniveauer. Den virkelige konkurrencefordel er sprogfølsom bogstavmatchning: det samme billede parres med forskellige bogstaver afhængigt af det valgte sprog, så et hundebillede matcher D på engelsk men H på tysk (Hund), C på fransk (Chien) og P på spansk (Perro). Dette betyder at én designsession producerer ægte anderledes puslespilsindhold på 11 sprog.',
+    title: 'Lav alfabet-tog opgaver til børn — komplet guide',
+    tagline: 'En trin-for-trin-guide til at lave bogstavgenkendelsesopgaver med 11 farverige togvogne der bærer bogstaver og matchende illustrationer, to skabelsestilstande (Automatisk skabelse til tilfældig generering og Manuelt valg til produktkatalogtilpassede bogstavgrupper), konfigurerbart ledetrådantal fra 3 til 11 for indbygget sværhedsskalering, sprogfølsom bogstavmatchning over 11 indfødte alfabeter hvor det samme billede parres med forskellige bogstaver per sprog, og automatisk genererede facit du kan sælge over hele verden på Etsy, Amazon KDP og Gumroad',
+    description: 'Alfabet-tog opgaver er en visuelt distinkt bogstavlæringsaktivitet hvor børn matcher spredte ledetrådbilleder til den rigtige togvogn baseret på hvilket bogstav hvert billede begynder med. I modsætning til flade bogstavøvelser der smelter sammen i markedspladslistninger er det farverige 11-vogns toglayout øjeblikkeligt genkendeligt og scrollstoppende. Alfabettog-generatoren tilbyder to skabelsestilstande — Automatisk skabelse til hurtig masseproduktion og Manuelt valg til håndplukkede bogstavgrupper — plus et konfigurerbart ledetrådsskyder fra 3 til 11 der generator naturlige sværhedsniveauer. Den virkelige konkurrencefordel er sprogfølsom bogstavmatchning: det samme billede parres med forskellige bogstaver afhængigt af det valgte sprog, så et hundebillede matcher D på engelsk men H på tysk (Hund), C på fransk (Chien) og P på spansk (Perro). Dette betyder at én designsession producerer ægte anderledes puslespilsindhold på 11 sprog.',
   },
 
-  introduction: 'Bogstavgenkendelse er den grundlæggende læsefærdighed som alt andet bygger på. Før børn kan læse ord, afkode sætninger eller skrive historier skal de pålideligt identificere individuelle bogstaver og associere dem med deres lyde. Alfabetsarbejdsark tilhører de højest efterspurgte printable-produkter. Udfordringen for sælgere er differentiering — markedet er mættet med identiske bogstavøvelsesark. Alfabettog-arbejdsark løser dette med et visuelt distinkt format: 11 farverige togvogne der bærer bogstaver og matchende illustrationer arrangeret over siden, med spredte ledetrådbilleder som brugere skal matche til den rigtige vogn.\n\nHvad der gør Alfabettog-generatoren særligt kraftfuld er dens to skabelsestilstande. Automatisk skabelsestilstand vælger tilfældigt 11 bogstaver og tildeler matchende billeder — ideelt til hurtig masseproduktion. Manuelt valgtilstand viser hele alfabetgitteret og lader dig vælge præcis 11 bogstaver — afgørende for produktkatalogtilpassede produkter: kun vokaler, kun konsonanter, bogstaver der dækkes en bestemt undervisningsuge, eller bogstaver som brugere ofte forveksler (b/d, p/q).\n\nDet konfigurerbare ledetrådsskyder tilføjer et indbygget sværhedssystem. Tre ledetråde betyder at kun 3 af 11 vogne har en matchningsopgave — nemmeste niveau. Fem til syv ledetråde giver mellemniveau. Ni til elleve ledetråde betyder at næsten hver vogn kræver en matchning — sværeste niveau. Denne ene kontrol lader dig producere nemme, medium og svære versioner på sekunder.\n\nDen mest betydningsfulde konkurrencefordel er sprogfølsom bogstavmatchning. Et hundebillede matcher D på engelsk, H på tysk (Hund), C på fransk (Chien) og P på spansk (Perro). Samme kattebillede matcher C på engelsk men K på tysk (Katze). Værktøjet understøtter 11 indfødte alfabeter med korrekte tegnsæt: engelsk med 26 bogstaver, tysk med 30 inklusive Ä, Ö, Ü og ß, svensk med 29 inklusive Å, Ä og Ö, dansk med 29 inklusive Æ, Ø og Å, spansk med Ñ og syv flere europæiske sprog. Én designsession bliver 11 salgbare produkter med autentisk anderledes puslespilsindhold.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke.',
+  introduction: 'Bogstavgenkendelse er den grundlæggende læsefærdighed som alt andet bygger på. Før børn i børnehaveklassen kan læse ord, afkode sætninger eller skrive historier skal de pålideligt identificere individuelle bogstaver og associere dem med deres lyde. Alfabet-opgaver til print tilhører de højest efterspurgte printbare produkter. Udfordringen for sælgere er differentiering — markedet er mættet med identiske bogstavøvelsesark. Alfabettog-arbejdsark løser dette med et visuelt distinkt format: 11 farverige togvogne der bærer bogstaver og matchende illustrationer arrangeret over siden, med spredte ledetrådbilleder som brugere skal matche til den rigtige vogn.\n\nHvad der gør Alfabettog-generatoren særligt kraftfuld er dens to skabelsestilstande. Automatisk skabelsestilstand vælger tilfældigt 11 bogstaver og tildeler matchende billeder — ideelt til hurtig masseproduktion. Manuelt valgtilstand viser hele alfabetgitteret og lader dig vælge præcis 11 bogstaver — afgørende for produktkatalogtilpassede produkter: kun vokaler, kun konsonanter, bogstaver der dækkes en bestemt undervisningsuge, eller bogstaver som brugere ofte forveksler (b/d, p/q).\n\nDet konfigurerbare ledetrådsskyder tilføjer et indbygget sværhedssystem. Tre ledetråde betyder at kun 3 af 11 vogne har en matchningsopgave — nemmeste niveau. Fem til syv ledetråde giver mellemniveau. Ni til elleve ledetråde betyder at næsten hver vogn kræver en matchning — sværeste niveau. Denne ene kontrol lader dig producere nemme, medium og svære versioner på sekunder.\n\nDen mest betydningsfulde konkurrencefordel er sprogfølsom bogstavmatchning. Et hundebillede matcher D på engelsk, H på tysk (Hund), C på fransk (Chien) og P på spansk (Perro). Samme kattebillede matcher C på engelsk men K på tysk (Katze). Værktøjet understøtter 11 indfødte alfabeter med korrekte tegnsæt: engelsk med 26 bogstaver, tysk med 30 inklusive Ä, Ö, Ü og ß, svensk med 29 inklusive Å, Ä og Ö, dansk med 29 inklusive Æ, Ø og Å, spansk med Ñ og syv flere europæiske sprog. Én designsession bliver 11 salgbare produkter med autentisk anderledes puslespilsindhold.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke.',
 
   tutorial: [
     {

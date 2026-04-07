@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'udgiv puslespilbøger KDP',
+    primaryKeyword: 'udgiv puslespilsbøger på KDP',
     secondaryKeywords: [
       'sådan udgiver du puslespilbøger på Amazon KDP',
       'KDP puslespilbog udgivelsesguide',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'print-on-demand puslespil katalog serie bind nummerering',
       'puslespilgitter afstand trimstørrelse facit bagstof',
     ],
-    titleTag: 'Udgiv puslespilbøger på KDP — Guide',
-    metaDescription: 'Udgiv puslespilbøger på KDP med ordsøgning, krydsord og sudoku. Formatering, variety-bøger, seriestrategi og Amazon-listning for puslespilsælgere.',
+    titleTag: 'Udgiv puslespilsbøger på KDP — Guide til passiv indkomst',
+    metaDescription: 'Udgiv puslespilsbøger på Amazon KDP med ordlege, krydsord og sudoku. Formatering, seriestrategi og passiv indkomst for printable-sælgere.',
   },
 
   hero: {

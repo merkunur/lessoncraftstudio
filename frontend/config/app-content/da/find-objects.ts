@@ -2,31 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'skjulte objekter arbejdsark generator',
+    primaryKeyword: 'find og markér opgave til print',
     secondaryKeywords: [
-      'printbar søgebillede generator til Etsy-sælgere',
-      'find genstandene arbejdsark generator til KDP-udgivere',
-      'skjulte objekter aktivitet generator kommerciel licens',
-      'sælg find genstandene arbejdsark på Gumroad',
+      'gemte genstande opgave',
+      'søgebillede til print',
+      'observationsleg opgave',
+      'find og cirkel børn',
     ],
     lsiKeywords: [
-      'digitale skjulte objekter printbare online forretning',
-      'kommercielt brug find genstandene arbejdsark generator',
-      'printbar visuel søgeaktivitet forretningsværktøj',
+      'gemte genstande',
+      'søgebillede',
+      'observation',
+      'opmærksomhed',
+      'børnehaveklasse',
+      'facit',
     ],
-    titleTag: 'Skjulte Objekter Generator | Opret Søgearbejdsark',
-    metaDescription: 'Opret skjulte objekter arbejdsark til salg på Etsy, KDP og Gumroad. $49 engangsbetaling.',
+    titleTag: 'Find og markér opgave til print | Generator observationslege',
+    metaDescription: 'Lav find-og-markér opgaver med temabilleder. Automatisk facit, 300 DPI PDF. Prøv gratis — sælg på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Skjulte Objekter Arbejdsark Generator til Søge- og Find den Ulige Billede Aktiviteter',
-    tagline: 'To aktivitetstilstande i én generator — Søgning skjulte objekter-scener med nul-overlap placering og Find den Ulige Billede parrede billedrækker — med automatisk genererede facit, adaptiv billedstørrelse, navn- og datofelter og en legende, der viser objekter at finde.',
+    title: 'Find og markér opgave til print — Generator til observationslege og søgebilleder',
+    tagline: 'To aktivitetstilstande i én generator — Søgning med gemte genstande og nul-overlap placering samt Find den Ulige Billede med parrede billedrækker — med automatisk facit, adaptiv billedstørrelse, navn- og datofelter og en legende, der viser genstande at finde.',
     description:
-      'Byg professionelle skjulte objekter-arbejdsark, hvor brugerne søger i en friformsbilledscene for at finde og ringe specifikke objekter ind. Vælg mellem to aktivitetstilstande: Søgnings-tilstanden bruger en nul-overlapalgoritme til at sprede 1–5 skjulte objekter blandt 8–12 distraktorer over siden — intet gitter, ingen rækker og kolonner, bare en sammenhængende visuel scene genereret af findBestPosition()-algoritmen, der tester 50 tilfældige positioner per billede og adaptivt reducerer størrelse, når pladsen bliver trang. En legende nederst på arbejdsarket viser brugerne præcis, hvilke objekter de skal finde. Find den Ulige Billede-tilstanden arrangerer 8–12 parrede billeder i rækker med 1–5 uparrede objekter blandet ind — brugerne identificerer billederne, der ikke har en matchende partner. Dobbeltlærredssystemet genererer både en arbejdsarkfane og en facitfane — facit tegner røde cirkler rundt skjulte objekter (Søgning) eller uparrede objekter (Find den Ulige Billede), så du aldrig behøver markere dem manuelt. Find Genstandene Generatoren er visuel: sproget påvirker brugerfladeetiketter men IKKE arbejdsarkets indhold, så hvert arbejdsark fungerer på ethvert sprog uden lokaliserede billednavne. Samme arbejdsark kan sælges globalt uden modifikation. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, slå navn- og datofelter til, tilpas den automatiske overskrift med 6 skrifttypevalg, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4 eller brugerdefinerede størrelser. Uanset om du sælger skjulte objekter-aktivitetspakker på Etsy.dk, sammensætter søgearbejdsbøger til Amazon KDP eller opretter visuelle diskrimineringsaktiviteter til Gumroad — denne generator leverer produktionsklare arbejdsark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle find-og-markér opgaver til print, hvor børn søger i en billedscene for at finde og cirkle specifikke genstande. Det danske marked for printbare opgaveark (5,8 mio. dansktalende, Etsy.dk, lav konkurrence) er ideelt for sælgere af observationslege til børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse). Vælg mellem to aktivitetstilstande: Søgnings-tilstanden bruger en nul-overlapalgoritme til at sprede 1–5 gemte genstande blandt 8–12 distraktorer over siden — intet gitter, ingen rækker og kolonner, bare en sammenhængende visuel scene. En legende nederst på opgavearket viser børnene præcis, hvilke genstande de skal finde. Find den Ulige Billede-tilstanden arrangerer 8–12 parrede billeder i rækker med 1–5 uparrede genstande blandet ind — børnene identificerer billederne, der ikke har en matchende partner. Dobbeltlærredssystemet genererer både et opgaveark og en facitliste — facit tegner røde cirkler rundt gemte genstande (Søgning) eller uparrede genstande (Find den Ulige Billede), så du aldrig behøver markere dem manuelt. Generatoren er visuel: sproget påvirker brugerfladeetiketter men IKKE opgavearkets indhold, så hvert opgaveark fungerer på ethvert sprog uden lokaliserede billednavne. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, slå navn- og datofelter til, tilpas den automatiske overskrift med 6 skrifttypevalg, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4 eller brugerdefinerede størrelser. Uanset om du sælger søgebillede-pakker på Etsy.dk, sammensætter observationsopgave-bøger til Amazon KDP eller opretter opmærksomhedsaktiviteter til Gumroad — denne generator leverer produktionsklare opgaveark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Skjulte Objekter Arbejdsark i 5 Trin',
+    title: 'Sådan laver du find-og-markér opgaver i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +60,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Find Genstandene Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i find-og-markér generatoren',
     features: [
       {
         title: 'To aktivitetstilstande: Søgning Skjulte Objekter og Find den Ulige Billede',
@@ -103,7 +106,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Skjulte Objekter Arbejdsark Online',
+    title: 'Sådan sælger du find-og-markér opgaver online',
     cases: [
       {
         title: 'Tematiske skjulte objekter-aktivitetspakker på Etsy.dk',
@@ -140,64 +143,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvad er de to aktivitetstilstande, og hvordan adskiller de sig?',
+      question: 'Kan jeg sælge disse find-og-markér opgaver på Etsy?',
       answer:
-        'Generatoren tilbyder to distinkte tilstande. Søgnings-tilstanden (standard) opretter frie skjulte objekter-scener, hvor 1–5 målobjekter spredes blandt 8–12 distraktorer med en nul-overlapalgoritme — brugerne søger på siden og ringer ind, hvad de finder, guidet af en legende nederst. Find den Ulige Billede-tilstanden arrangerer 8–12 parrede billeder i rækker med 1–5 uparrede objekter blandet ind — brugerne identificerer billederne, der ikke har en matchende partner. Billeder i Find den Ulige Billede-tilstanden er 50% større end Søgnings-tilstanden for tydeligere visuel sammenligning.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine find-og-markér opgaver som digitale downloads på Etsy.dk, som trykte søgebillede-bøger på Amazon KDP, som ressourcer på Gumroad, eller via enhver anden salgskanal. De to aktivitetstilstande, nul-overlap scenegenerering og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare observationsopgaver.',
     },
     {
-      question: 'Hvordan fungerer nul-overlap placeringsalgoritmen i Søgnings-tilstanden?',
+      question: 'Hvordan laver jeg find-og-markér opgaver?',
       answer:
-        'I stedet for at placere billeder på et fast gitter bruger Søgnings-tilstanden en findBestPosition()-algoritme, der tester 50 tilfældige positioner for hvert billede og vælger placeringen med mindst overlap. Når pladsen bliver trang, reducerer algoritmen adaptivt billedstørrelsen for at passe flere objekter uden at overbelaste scenen. Dette opretter naturligt udseende skjulte objekter-scener, hvor billeder spredes organisk over siden, hvilket gør søgeoplevelsen mere engagerende end forudsigelige gitterbaserede layouts.',
+        'Åbn generatoren, vælg en aktivitetstilstand (Søgning med gemte genstande eller Find den Ulige Billede), konfigurer antal genstande og distraktorer, vælg et billedtema fra de 104 samlinger, og klik Generer. Opgavearket med automatisk facit er klar til eksport som 300 DPI PDF eller JPEG på få minutter.',
     },
     {
-      question: 'Hvor mange skjulte objekter og distraktorer kan jeg bruge i Søgnings-tilstanden?',
+      question: 'Er de egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'I Søgnings-tilstanden kan du konfigurere 1–5 skjulte objekter (målene, brugerne skal finde) og 8–12 distraktorobjekter (de omgivende billeder, der fylder scenen). Begynd med 1–2 skjulte objekter og 8 distraktorer for enklere arbejdsark, og øg til 5 skjulte objekter blandt 12 distraktorer for udfordrende scener. Legenden nederst på arbejdsarket viser brugerne, hvilke objekter de skal finde.',
+        'Ja. Til børnehaveklasse: brug Søgnings-tilstanden med 1–2 gemte genstande og 8 distraktorer for let opmærksomhedstræning. Til indskoling (0.–3. klasse): øg til 3–4 genstande blandt 10 distraktorer. Til mellemtrin (4.–6. klasse): brug 5 gemte genstande blandt 12 distraktorer, eller prøv Find den Ulige Billede-tilstanden for visuel diskriminering.',
     },
     {
-      question: 'Hvordan fungerer Find den Ulige Billede-tilstanden?',
+      question: 'På hvor mange sprog fungerer opgaverne?',
       answer:
-        'Find den Ulige Billede-tilstanden arrangerer billeder i rækker med parrede og uparrede objekter. Konfigurer 8–12 parrede billeder (hvert vises to gange i layoutet) og 1–5 uparrede (ulige) objekter, der kun vises én gang. Brugerne gennemgår hver række og identificerer billedet, der ikke har en matchende partner. Billeder renderes 50% større end Søgnings-tilstanden for tydeligere visuel sammenligning. Der er ingen legende nederst, da brugerne opdager de uparrede objekter gennem visuel analyse.',
+        'Find-og-markér opgaverne er rent visuelle — ingen tekst på resultatet — så de fungerer på ethvert sprog uden oversættelse. Grænsefladen understøtter 11 sprog (dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk), men selve opgavearket er identisk uanset sprogvalg. Ét produkt kan sælges globalt.',
     },
     {
-      question: 'Hvad viser legenden nederst på arbejdsarket?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'I Søgnings-tilstanden viser en legende i den nedre margin (120px) målobjekterne, brugerne skal finde. Denne visuelle reference viser hvert skjult objekt, så brugerne ved præcis, hvad de skal lede efter — hvilket gør arbejdsarkene tilgængelige for førlæsere og flersprogede produktlinjer uden at kræve skriftlige instruktioner. Find den Ulige Billede-tilstanden inkluderer ingen legende, da aktiviteten er selvforklarende: find billedet uden en matchende partner.',
+        'Ja. Dobbeltlærredssystemet genererer automatisk en facitliste med røde cirkler rundt gemte genstande (Søgning) eller uparrede genstande (Find den Ulige Billede). Cirkler dimensioneres 3–5px større end genstanden for tydelig synlighed. Download facit separat som Facit-JPEG eller Facit-PDF med 300 DPI.',
     },
     {
-      question: 'Hvordan fungerer det automatisk genererede facit?',
+      question: 'Hvad er de to aktivitetstilstande?',
       answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser den skjulte objekter-scene uden markeringer — brugerne søger og ringer objekter ind selv. Facit gengenerator det identiske layout og tegner røde cirkler rundt de korrekte objekter: skjulte mål i Søgnings-tilstanden og uparrede objekter i Find den Ulige Billede-tilstanden. Cirkler dimensioneres 3–5px større end objektet for tydelig synlighed. Begge versioner eksporteres separat med fire downloadknapper.',
-    },
-    {
-      question: 'Kan jeg tilføje navn- og datofelter på arbejdsarket?',
-      answer:
-        'Ja. Et flueben i panelet Tekst og Indhold tilføjer \"Navn:\" og \"Dato:\"-felter på arbejdsarket. Disse identifikationslinjer sikrer ansvarlighed til produktlinjebrug og gør dine arbejdsark professionelt formaterede til markedspladsannoncer. Slå dem til for produktlinjefærdige produkter eller fra for aktivitetsbogssider.',
-    },
-    {
-      question: 'Hvordan fungerer den automatisk genererede overskrift?',
-      answer:
-        'Hvert arbejdsark inkluderer en automatisk størrelses­justeret titel renderet i Fredoka-skrifttype (#4A4A4A mørkegrå) med dekorative hvide pillecontainere og skygger. Titlens skriftstørrelse justeres automatisk baseret på tekstlængde: 32px for korte titler (under 12 tegn), nedskaleret til 18px for længere titler (over 22 tegn). Du kan også tilføje et beskrivelse­sfelt under titlen. Overskriftssystemet sikrer professionelt udseende arbejdsark uanset titellængde.',
+        'Søgnings-tilstanden opretter frie søgebilleder, hvor 1–5 gemte genstande spredes blandt 8–12 distraktorer med en nul-overlapalgoritme — børnene søger og cirkler, hvad de finder. Find den Ulige Billede-tilstanden arrangerer 8–12 parrede billeder i rækker med 1–5 uparrede genstande — børnene identificerer genstanden uden en partner.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — begge aktivitetstilstande, konfigurerbare antal skjulte objekter og distraktorer, nul-overlap placeringsalgoritmen, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn- og datofelter og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Er Find Genstandene Generatoren sprogfølsom?',
-      answer:
-        'Nej. Find Genstandene Generatoren er visuel — den indlæser ikke lokaliserede billednavne eller bruger billedordforråds­systemet. Sprogindstillinger påvirker kun brugerfladeetiketter (knapper, paneltitler, værktøjstips), IKKE indholdet på arbejdsarkene selv. Dette betyder, at hvert genereret arbejdsark fungerer universelt på alle sprog uden nogen lokaliseret tekst på siden, hvilket gør dine produkter salgbare på ethvert marked uden modifikationer.',
-    },
-    {
-      question: 'Kan jeg sælge skjulte objekter-arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine skjulte objekter-arbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. De to aktivitetstilstande, nul-overlap scenegenerering og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare skjulte objekter-produkter.',
+        'Ja. Du kan bruge alle funktioner — begge aktivitetstilstande, konfigurerbare objektantal, automatisk facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn- og datofelter og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket.',
     },
     {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste begge aktivitetstilstande, nul-overlap placeringsalgoritmen, konfigurerbare objektantal, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn- og datofelter og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste begge tilstande, konfigurerbare objektantal, facit, hele billedbiblioteket og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken.',
     },
   ],
 
@@ -262,27 +245,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp',
-      primaryAlt: 'Skjulte objekter søgearbejdsark med spredte billeder placeret med nul-overlapalgoritme, legende nederst der viser objekter at finde og dekorativ overskrift',
+      primaryAlt: 'Find-og-markér opgave til print med gemte genstande spredt over søgebillede og legende med genstande at finde',
     },
     sampleGallery: [
       {
         src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp',
-        alt: 'Søgning skjulte objekter-scene med spredte billeder og legende, der viser målobjekter nederst',
-        caption: 'Søgnings-tilstand — fri skjulte objekter-scene med legendevisning',
+        alt: 'Observationsleg opgave med gemte genstande spredt over søgebillede til børnehaveklasse',
+        caption: 'Søgnings-tilstand — børnene finder og cirkler gemte genstande i søgebilledet',
       },
       {
         src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%202.webp',
-        alt: 'Skjulte objekter arbejdsark med et andet tema og varieret objektantal',
-        caption: 'Tematisk søgescene — 104 temaer giver unikke skjulte objekter-udfordringer',
+        alt: 'Find-og-markér opgave med tematisk søgebillede og varieret antal genstande til indskoling',
+        caption: 'Tematisk søgebillede — 104 temaer giver unikke observationsudfordringer',
       },
       {
         src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%203.webp',
-        alt: 'Skjulte objekter arbejdsark facit med røde cirkler tegnet rundt målobjekter',
-        caption: 'Automatisk genereret facit — røde cirkler markerer skjulte og uparrede objekter',
+        alt: 'Facitliste til find-og-markér opgave med røde cirkler rundt gemte genstande',
+        caption: 'Automatisk facit — røde cirkler markerer gemte og uparrede genstande',
       },
     ],
     youtubeId: '8Y3jrVr1Phs',
-    videoTitle: 'Sådan Opretter du Skjulte Objekter Arbejdsark med Søgning og Find den Ulige Billede Tilstande — Trin-for-Trin Guide',
+    videoTitle: 'Sådan laver du find-og-markér opgaver med søgebilleder og observationslege — trin-for-trin guide',
   },
 };
 

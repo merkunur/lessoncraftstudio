@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kryptogram arbejdsark generator',
+    primaryKeyword: 'kryptogram generator gratis online',
     secondaryKeywords: [
-      'billedchiffer puslespil generator for sælgere',
-      'lav kryptogram arbejdsark til salg',
-      'printbare kryptogram puslespil kommerciel brug',
-      'kryptogram generator til KDP',
+      'hemmelig besked gratis til print',
+      'kryptogram prøv gratis',
+      'kodespil gratis online',
     ],
     lsiKeywords: [
-      'billed-til-bogstav chiffer printbare til Etsy',
-      'kodeknæknings arbejdsark generator værktøj',
-      'flersproget billedkryptogram generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'hemmelig besked',
+      'kode',
+      'dechifrere',
     ],
-    titleTag: 'Kryptogram Arbejdsark Generator | Lav og Sælg Puslespil',
-    metaDescription: 'Generér kryptogram arbejdsark med billedchiffer kodning, sværhedsregler, autotildelingstilstand, facit på 11 sprog. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis kryptogram generator | Hemmelige beskeder prøv gratis',
+    metaDescription: 'Prøv kryptogram-generatoren gratis online. Hemmelige beskeder med temabilleder, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Kryptogram Arbejdsark Generator',
-    tagline: 'Lav billedchiffer puslespil, hvor hvert bogstav mappes til et billede, og brugerne afkoder hele hemmelige sætninger gennem mønstergenkendelse',
-    description: 'Design professionelle kryptogram arbejdsark bygget på en billedchiffermekanik: hvert alfabetsbogstav mappes til et unikt billede, og din hemmelige sætning gengives som en sekvens af billeder, som brugerne skal afkode tilbage til læsbar tekst. I modsætning til ordsøgninger eller bogstavblandinger, der arbejder med enkelte ord, koder Kryptogram-generatoren hele sætninger og fraser — brugerne knækker chifferet ved at deducere, hvilket billede der repræsenterer hvilket bogstav, med kontekstuelle ledetråde fra almindelige ord som \"og\", \"den\" og \"er\" for at fremskynde deres kodeknækning. Skyderen Bogstaver at Afsløre (0–10) er den primære sværhedskontrol: indstil den til nul for en ren kodeknækningsudfordring uden startinformation, eller skub den op til ti for tung støttning, hvor mange bogstav-til-billede-tilknytninger er forudafsløret som tips. Autotildeling henter tilfældige billeder fra enhver af 104 tematiske samlinger (mere end 3.100 illustrationer) for at fylde hele chifferet med ét klik, mens Manuel Tildeling lader dig håndplukke specifikke billeder til specifikke bogstaver med en fuld visuel forhåndsvisning af alle tilknytninger. Upload tilpassede billeder for komplet kreativ kontrol. Facittet inkluderer en bogstavlegende, der viser hvert alfabetsbogstav parret med sit tildelte billede i sorteret rækkefølge — den definitive løsningsreference. Sprogfølsomhed er indbygget: skift sprog, og både den hemmelige beskedtekst og alfabetet ændres. Danske kryptogrammer koder danske sætninger med æ, ø, å i alfabetet; tyske kryptogrammer inkluderer ä, ö, ü, ß; franske kryptogrammer bruger é, è, ç, à. Hver sprogversion er et ægte anderledes chifferprodukt. Eksportér trykfærdige PDF\'er og JPEG-billeder med 400+ DPI i Letter, A4 eller tilpassede størrelser. Vælg blandt 5 skrifttyper, skift gråtone for blækvenligt output, og brug hele Fabric.js arbejdsområdet til at flytte hvert element. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis kryptogram generator — hemmelige beskeder prøv gratis',
+    tagline: 'Prøv kryptogram-generatoren gratis online — hemmelige beskeder med billedchiffer, temabilleder, automatisk facit, ingen tilmelding',
+    description: 'Prøv vores kryptogram-generator gratis online med vandmærke. Lav hemmelige beskeder med billedchiffer, 104 temaer og automatisk facit — helt uden tilmelding. Hvert alfabetsbogstav mappes til et unikt billede, og din hemmelige sætning gengives som en sekvens af billeder, som brugerne skal afkode tilbage til læsbar tekst. I modsætning til ordsøgninger eller bogstavblandinger, der arbejder med enkelte ord, koder Kryptogram-generatoren hele sætninger og fraser — brugerne knækker chifferet ved at deducere, hvilket billede der repræsenterer hvilket bogstav, med kontekstuelle ledetråde fra almindelige ord som \"og\", \"den\" og \"er\" for at fremskynde deres kodeknækning. Skyderen Bogstaver at Afsløre (0–10) er den primære sværhedskontrol: indstil den til nul for en ren kodeknækningsudfordring uden startinformation, eller skub den op til ti for tung støttning, hvor mange bogstav-til-billede-tilknytninger er forudafsløret som tips. Autotildeling henter tilfældige billeder fra enhver af 104 tematiske samlinger (mere end 3.100 illustrationer) for at fylde hele chifferet med ét klik, mens Manuel Tildeling lader dig håndplukke specifikke billeder til specifikke bogstaver med en fuld visuel forhåndsvisning af alle tilknytninger. Upload tilpassede billeder for komplet kreativ kontrol. Facittet inkluderer en bogstavlegende, der viser hvert alfabetsbogstav parret med sit tildelte billede i sorteret rækkefølge — den definitive løsningsreference. Sprogfølsomhed er indbygget: skift sprog, og både den hemmelige beskedtekst og alfabetet ændres. Danske kryptogrammer koder danske sætninger med æ, ø, å i alfabetet; tyske kryptogrammer inkluderer ä, ö, ü, ß; franske kryptogrammer bruger é, è, ç, à. Hver sprogversion er et ægte anderledes chifferprodukt. Eksportér trykfærdige PDF\'er og JPEG-billeder med 400+ DPI i Letter, A4 eller tilpassede størrelser. Vælg blandt 5 skrifttyper, skift gråtone for blækvenligt output, og brug hele Fabric.js arbejdsområdet til at flytte hvert element. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Kryptogram Arbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du gratis kryptogrammer med hemmelige beskeder i 8 trin',
     steps: [
       {
         title: 'Åbn Kryptogram Arbejdsark Generatoren',
@@ -155,12 +157,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — Autotildeling, Manuel Tildeling, tilpasset billedupload, Bogstaver at Afsløre (0–10), alle 104 billedtemaer, bogstavlegende facit og alle eksportformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Er kryptogram-generatoren gratis at prøve online?',
+      answer: 'Ja. Prøv kryptogram-generatoren gratis online med alle funktioner — Autotildeling, Manuel Tildeling, billedupload, sværhedskontrol (0-10 bogstaver afsløret), 104 billedtemaer, bogstavlegende facit og alle eksportformater. Ingen tilmelding. Downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvordan fungerer billedkryptogram-chifferet?',
-      answer: 'Hvert alfabetsbogstav mappes til et unikt billede. Din hemmelige sætning gengives som en sekvens af billeder, der erstatter hvert bogstav. Brugerne studerer billedsekvensen, deducerer hvilket billede der repræsenterer hvilket bogstav med mønstergenkendelse og kontekstuelle ledetråde, og skriver de afkodede bogstaver for at afsløre den originale besked. Mellemrum og tegnsætning bevares, så ordgrænser er synlige.',
+      question: 'Hvordan fungerer de gratis hemmelige beskeder med billedchiffer?',
+      answer: 'Hvert bogstav mappes til et unikt billede. Din hemmelige besked vises som en sekvens af billeder, som børn dechifrerer. De studerer mønstrene, finder ud af hvilket billede der repræsenterer hvilket bogstav, og afkoder hele beskeden. Mellemrum bevares, så ordgrænser er synlige.',
+    },
+    {
+      question: 'Hvad indeholder den gratis kryptogram-prøveversion?',
+      answer: 'Den gratis prøveversion giver fuld adgang: Autotildeling og Manuel Tildeling, sværhedskontrol med 0-10 afslørede bogstaver, 104 temaer, billedupload, bogstavlegende facit og alle eksportformater. Det eneste, der adskiller prøveversionen, er et vandmærke. Ingen tilmelding krævet.',
     },
     {
       question: 'Hvad gør skyderen Bogstaver at Afsløre (0–10)?',
@@ -214,22 +220,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp',
-      primaryAlt: 'Kryptogram arbejdsark med billedchiffer, der viser tematiske billeder mappet til alfabetsbogstaver, som koder en hemmelig sætning',
+      primaryAlt: 'Gratis kryptogram generator online — hemmelige beskeder med billedchiffer og temabilleder',
     },
     sampleGallery: [
       {
         src: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp',
-        alt: 'Kryptogram arbejdsark med tematiske billeder, der erstatter bogstaver i en kodet hemmelig sætning',
+        alt: 'Gratis kryptogram med hemmelig besked kodet som temabilleder — prøv online',
         caption: 'Billedchiffer puslespil — afkod den hemmelige besked ved at identificere, hvilket billede der repræsenterer hvilket bogstav',
       },
       {
         src: '/samples/danish/cryptogram/Billed-Kryptogram%202.webp',
-        alt: 'Kryptogram arbejdsark med dyretema billeder og Bogstaver at Afsløre tips for støttet sværhed',
+        alt: 'Gratis hemmelig besked kodespil med dyretema og afslørede bogstaver som ledetråd',
         caption: 'Tematisk chiffer med Bogstaver at Afsløre — forudafslørede tilknytninger giver støttning for begyndere',
       },
       {
         src: '/samples/danish/cryptogram/Billed-Kryptogram%203.webp',
-        alt: 'Kryptogram facit med komplet bogstavlegende, der viser alle alfabet-til-billede-tilknytninger i sorteret rækkefølge',
+        alt: 'Gratis kryptogram facit med bogstavlegende — alle alfabet-til-billede-tilknytninger',
         caption: 'Bogstavlegende facit — hvert alfabetsbogstav parret med sit tildelte billede for definitiv løsningsreference',
       },
     ],

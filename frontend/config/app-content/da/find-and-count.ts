@@ -2,31 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'find og tæl arbejdsark generator',
+    primaryKeyword: 'find og tæl opgave til print',
     secondaryKeywords: [
-      'printbar find og tæl arbejdsark generator til Etsy-sælgere',
-      'skjulte objekter søgeaktivitet generator til KDP-udgivere',
-      'find og tæl arbejdsark generator kommerciel licens',
-      'sælg find og tæl arbejdsark på Gumroad',
+      'tæl genstandene opgave',
+      'hvor mange er der? opgave',
+      'tælleøvelse børnehaveklasse',
+      'find og tæl børn',
     ],
     lsiKeywords: [
-      'digitale søgearbejdsark printbare online forretning',
-      'kommercielt brug skjulte objekter arbejdsark generator',
-      'printbar tælleaktivitet forretningsværktøj',
+      'tælle',
+      'finde',
+      'antal',
+      'børnehaveklasse',
+      'indskoling',
+      'facit',
     ],
-    titleTag: 'Find og Tæl Generator | Opret Søgearbejdsark',
-    metaDescription: 'Opret find og tæl arbejdsark til salg på Etsy, KDP og Gumroad. 4 opgavetyper, Bogstavsøgning, automatisk facit, 104 temaer. $49 engangsbetaling.',
+    titleTag: 'Find og tæl opgave til print | Generator tælleøvelser',
+    metaDescription: 'Lav find-og-tæl opgaver hvor børn leder efter og tæller temabilleder. Automatisk facit. Prøv gratis.',
   },
 
   hero: {
-    title: 'Find og Tæl Arbejdsark Generator til Søge- og Tælleaktiviteter',
-    tagline: 'To aktivitetstilstande i én generator — Skjulte Objekter Søgning og Bogstavsøgning — med fire blandbare opgavetyper (ring om, firkant, streg over, tæl), lokalspecifikke alfabeter med accentuerede bogstaver, lokaliserede billednavnsetiketter på 11 sprog og automatisk genererede facit med visuelle annoteringer.',
+    title: 'Find og tæl opgave til print — Generator til tælleøvelser og søgebilleder',
+    tagline: 'To aktivitetstilstande i én generator — Søgning med gemte genstande og Bogstavsøgning — med fire blandbare opgavetyper (ring om, firkant, streg over, tæl), lokalspecifikke alfabeter med æ, ø, å, lokaliserede billednavnsetiketter på 11 sprog og automatisk facit med visuelle annoteringer.',
     description:
-      'Byg professionelle søge- og tællearbejdsark, hvor brugerne søger i en spredt billedscene for at finde, ringe om, strege over eller tælle specifikke objekter. Vælg mellem to aktivitetstilstande: Skjulte Objekter-tilstanden spreder billeder over et konfigurerbart gitter (5–10 rækker × 5–10 kolonner) og lader dig tildele op til 4 målobjekter med individuelle opgavetyper — ring om objektet, sæt en firkant rundt det, streg det over, eller tæl hvor mange der er. Bogstavsøgning-tilstanden viser et lokalspecifikt alfabet med accentuerede bogstaver (dansk ÆØÅ, tysk ÄÖÜ, spansk Ñ, svensk ÅÄÖ) og genererer søgescener med billeder, der begynder med det valgte bogstav. Hvert arbejdsark inkluderer en automatisk genereret overskrift — \"Find og tæl\" eller \"Bogstavsøgning\" — lokaliseret på alle 11 understøttede sprog med blå ramme (#2196F3). Dobbeltlærredssystemet genererer både en arbejdsarkfane og en facitfane med røde cirkel-, firkant- og korsannoteringer plus mængdevisninger. Find og Tæl Generatoren er sprogfølsom: billednavnsetiketter på arbejdsarket renderes på det valgte sprog via billedordforråds­systemet. Det betyder, at det samme billedtema genererer unikke arbejdsark på 11 forskellige sprog — hver sprogversion har lokaliserede etiketter, og Bogstavsøgning tilpasses til det sprogs alfabet (dansk ÆØÅ), hvilket gør hver version til et separat produkt. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog til lokaliserede etiketter. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller brugerdefinerede størrelser. Uanset om du sælger søgeaktivitetspakker på Etsy.dk, sammensætter skjulte objekter-arbejdsbøger til Amazon KDP eller opretter tælleaktiviteter til Gumroad — denne generator leverer produktionsklare arbejdsark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle find-og-tæl opgaver til print, hvor børn søger i en spredt billedscene for at finde, ringe om, strege over eller tælle specifikke genstande. Det danske marked for printbare opgaveark (5,8 mio. dansktalende, Etsy.dk, lav konkurrence) er oplagt for sælgere af tælleøvelser til børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse). Vælg mellem to aktivitetstilstande: Søgnings-tilstanden spreder billeder over et konfigurerbart gitter (5–10 rækker × 5–10 kolonner) og lader dig tildele op til 4 målobjekter med individuelle opgavetyper — ring om genstanden, sæt en firkant rundt den, streg den over, eller tæl hvor mange der er. Bogstavsøgning-tilstanden viser et lokalspecifikt alfabet med danske bogstaver (Æ, Ø, Å) og genererer søgescener med billeder, der begynder med det valgte bogstav. Hvert opgaveark inkluderer en automatisk genereret overskrift — \"Find og tæl\" eller \"Bogstavsøgning\" — lokaliseret på alle 11 understøttede sprog med blå ramme (#2196F3). Dobbeltlærredssystemet genererer både et opgaveark og en facitliste med røde cirkel-, firkant- og korsannoteringer plus antal-visninger. Generatoren er sprogfølsom: billednavnsetiketter renderes på det valgte sprog via billedordforråds­systemet. Det betyder, at det samme billedtema genererer unikke opgaveark på 11 forskellige sprog — hver sprogversion har lokaliserede etiketter, og Bogstavsøgning tilpasses til det sprogs alfabet (dansk ÆØÅ), hvilket gør hver version til et separat produkt. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller brugerdefinerede størrelser. Uanset om du sælger tælleøvelse-pakker på Etsy.dk, sammensætter søge-og-tæl-bøger til Amazon KDP eller opretter tælleaktiviteter til Gumroad — denne generator leverer produktionsklare opgaveark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Find og Tæl Arbejdsark i 5 Trin',
+    title: 'Sådan laver du find-og-tæl opgaver i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +60,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Find og Tæl Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i find-og-tæl generatoren',
     features: [
       {
         title: 'To aktivitetstilstande: Skjulte Objekter Søgning og Bogstavsøgning',
@@ -103,7 +106,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Find og Tæl Arbejdsark Online',
+    title: 'Sådan sælger du find-og-tæl opgaver online',
     cases: [
       {
         title: 'Tematiske søgeaktivitetspakker på Etsy.dk',
@@ -140,64 +143,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvad er de to aktivitetstilstande, og hvordan adskiller de sig?',
+      question: 'Kan jeg sælge disse find-og-tæl opgaver på Etsy?',
       answer:
-        'Generatoren tilbyder to distinkte tilstande. Skjulte Objekter-tilstanden (standard) opretter klassiske søgescener — spredte billeder over et konfigurerbart gitter, hvor brugerne søger efter op til 4 specifikke objekter og udfører tildelte opgaver (ring om, firkant, streg over eller tæl). Bogstavsøgning-tilstanden aktiverer et lokalspecifikt alfabet og genererer søgescener med billeder, der begynder med det valgte bogstav. Arbejdsarkets overskrift skifter automatisk mellem \"Find og tæl\" og \"Bogstavsøgning\" (lokaliseret på alle 11 sprog) baseret på den aktive tilstand.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine find-og-tæl opgaver som digitale downloads på Etsy.dk, som trykte tællebøger på Amazon KDP, som ressourcer på Gumroad, eller via enhver anden salgskanal. De to aktivitetstilstande, fire opgavetyper, Bogstavsøgning med lokalspecifikke alfabeter og 104 tematiske billedsamlinger giver stærk differentiering.',
     },
     {
-      question: 'Hvad er de fire opgavetyper, og kan jeg blande dem på ét arbejdsark?',
+      question: 'Hvordan laver jeg find-og-tæl opgaver?',
       answer:
-        'De fire opgavetyper er ring om (tegn en cirkel rundt objektet), firkant (sæt en firkant rundt objektet), streg over (streg objektet over) og tæl (tæl hvor mange forekomster der er, og skriv tallet). Ja, du kan tildele en anderledes opgavetype til hver af de op til 4 målobjekter på et enkelt arbejdsark. For eksempel kan et arbejdsark bede brugerne ringe om alle katte, strege over alle hunde, tælle alle fugle og sætte en firkant rundt alle fisk.',
+        'Åbn generatoren, vælg en aktivitetstilstand (Søgning med gemte genstande eller Bogstavsøgning), vælg op til 4 målobjekter fra de 104 billedtemaer, tildel opgavetyper (ring om, firkant, streg over, tæl), og klik Generer. Opgavearket med automatisk facit er klar til eksport som 300 DPI PDF eller JPEG på få minutter.',
     },
     {
-      question: 'Hvordan fungerer Bogstavsøgning med forskellige sprog?',
+      question: 'Er de egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Bogstavsøgning-tilstanden viser et lokalspecifikt alfabet tilpasset hvert sprogs tegnsæt. Engelsk viser A–Z (26 bogstaver), tysk tilføjer Ä, Ö og Ü (29 bogstaver), spansk tilføjer Ñ (27 bogstaver), dansk og norsk tilføjer Æ, Ø og Å (29 bogstaver), og svensk og finsk tilføjer Å, Ä og Ö (29 bogstaver). Gitteret renderes i 7 kolonner med automatisk rækkejustering. Når du vælger et bogstav, viser generatoren billeder, der begynder med det bogstav på det valgte sprog, og fylder resterende celler med distraktorer.',
+        'Ja. Til børnehaveklasse: brug 5×5-gitre med 2 målobjekter og tæl-opgavetypen for simpel talforståelse. Til indskoling (0.–3. klasse): øg til 7×7-gitre med 3 mål og blandede opgavetyper. Til mellemtrin (4.–6. klasse): brug 10×10-gitre med alle 4 mål for udfordrende søge- og tælleøvelser. Bogstavsøgning med dansk ÆØÅ er ideel til bogstavgenkendelse i alle aldersgrupper.',
     },
     {
-      question: 'Hvordan fungerer lokaliserede billednavnsetiketter?',
+      question: 'På hvor mange sprog fungerer opgaverne?',
       answer:
-        'Find og Tæl Generatoren er sprogfølsom. Billednavnsetiketter renderes på det valgte sprog via billedordforråds­systemet (image-vocabulary.js). For eksempel viser et kattebillede \"Kat\" på dansk, \"Cat\" på engelsk, \"Katze\" på tysk og \"Chat\" på fransk. I Bogstavsøgning-tilstanden ændres også begyndelsesbogstaver med sproget — en kat begynder med \"K\" på dansk, men \"C\" på engelsk og \"G\" på spansk. Kommerciel Pakke understøtter engelsk; Fuld Adgang låser op for alle 11 sprog.',
+        'Generatoren understøtter 11 sprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Billednavnsetiketter renderes på det valgte sprog — \"Kat\" på dansk, \"Cat\" på engelsk, \"Katze\" på tysk. Bogstavsøgning tilpasses til hvert sprogs alfabet (dansk ÆØÅ, tysk ÄÖÜ, spansk Ñ). Hver sprogversion er et separat produkt.',
     },
     {
-      question: 'Hvordan fungerer den konfigurerbare gittertæthed?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'I panelet Sideopsætning indstiller du rækker fra 5 til 10 og kolonner fra 5 til 10. Standard er 6×6 (36 celler). Et mindre gitter som 5×5 (25 celler) opretter lettere arbejdsark med større billeder — ideelt for yngre brugere. Et større gitter som 10×10 (100 celler) opretter tætte, udfordrende scener for avancerede brugere. Hver celle viser et billede med maksstørrelse 80px. Målobjekter forekommer 1–5 gange hver, med resterende celler fyldt af tilfældige distraktorbilleder fra temaet.',
+        'Ja. Dobbeltlærredssystemet genererer automatisk en facitliste med røde visuelle annoteringer: cirkler rundt ring-om-objekter, firkanter rundt firkant-objekter, kors over streg-over-objekter og antal-visninger for tæl-objekter. Download facit separat som Facit-JPEG eller Facit-PDF med 300 DPI.',
     },
     {
-      question: 'Hvorfor er der en grænse på 4 objekter per arbejdsark?',
+      question: 'Hvad er de fire opgavetyper?',
       answer:
-        'Generatoren håndhæver et maksimum på 4 målobjekter per arbejdsark for at opretholde tydelige, fokuserede søgeaktiviteter. Med 4 objekter og 4 forskellige opgavetyper kan et enkelt arbejdsark indeholde 4 distinkte søg-og-gør-opgaver — tilstrækkelig variation til at udfordre brugerne uden at overvælde dem. Panelet Skjulte Objekter Spørgsmål viser en tæller for valgte og giver en Ryd Valg-knap for at nulstille dine valg.',
-    },
-    {
-      question: 'Hvordan fungerer det automatisk genererede facit?',
-      answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser den spredte billedscene uden markeringer — brugerne søger og fuldender opgaverne selv. Facit gengenerator det identiske layout og tilføjer røde visuelle annoteringer: cirkler rundt ring-om-opgaveobjekter, firkanter rundt firkant-opgaveobjekter, kors over streg-over-opgaveobjekter og mængdevisninger for tæl-opgaveobjekter. Begge versioner eksporteres separat med fire dedikerede knapper.',
-    },
-    {
-      question: 'Autogenereres arbejdsarket ved sideindlæsning?',
-      answer:
-        'Ja. Appen genererer automatisk et komplet søgearbejdsark, når du åbner den — med dyretemaet, 4 tilfældigt valgte billeder og tilfældigt tildelte opgavetyper på et 6×6-gitter. Dette giver dig en øjeblikkelig forhåndsvisning af, hvad værktøjet producerer. Derfra kan du tilpasse tema, gitterdimensioner, målobjekter, opgavetyper og aktivitetstilstand og derefter klikke på Generer for at genopbygge med dine indstillinger.',
+        'Ring om: tegn en cirkel rundt genstanden. Firkant: sæt en firkant rundt den. Streg over: streg genstanden over. Tæl: tæl hvor mange forekomster der er, og skriv tallet. Du kan blande alle fire opgavetyper på ét opgaveark — for eksempel ring om alle katte, streg over alle hunde, tæl alle fugle og sæt firkant rundt alle fisk.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — begge aktivitetstilstande, alle fire opgavetyper, Bogstavsøgning med lokalspecifikke alfabeter, konfigurerbare gitterdimensioner, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Kan jeg tilføje baggrundstemaer og rammetemaer på søgearbejdsark?',
-      answer:
-        'Ja. Panelet Sideopsætning inkluderer både en baggrundstema-vælger med en opacitetsskyder og en rammetema-vælger med sin egen uafhængige opacitetsskyder. Baggrundstemaer tilføjer dekorative mønstre bag søgescenen, mens rammetemaer rammer siden ind. Begge har separate opacitetskontroller. Den automatisk genererede overskrift bruger en blå ramme (#2196F3) med gul indre accent — uafhængig af det siderammetema, du vælger.',
-    },
-    {
-      question: 'Kan jeg sælge søgearbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine find og tæl arbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. De to aktivitetstilstande, fire opgavetyper, Bogstavsøgning med lokalspecifikke alfabeter og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare søgeprodukter.',
+        'Ja. Du kan bruge alle funktioner — begge aktivitetstilstande, alle fire opgavetyper, Bogstavsøgning med danske Æ, Ø, Å, konfigurerbare gitterdimensioner, automatisk facit, hele billedbiblioteket og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket.',
     },
     {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste begge aktivitetstilstande, alle fire opgavetyper, Bogstavsøgning-tilstanden, konfigurerbare gitterdimensioner, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste begge tilstande, alle opgavetyper, Bogstavsøgning, facit og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken.',
     },
   ],
 
@@ -267,27 +250,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
-      primaryAlt: 'Find og tæl søgearbejdsark med spredte billeder på et gitter, blå overskriftsramme og fire opgaveinstruktioner',
+      primaryAlt: 'Find-og-tæl opgave til print med spredte billeder på et gitter, blå overskriftsramme og fire tælleøvelse-instruktioner',
     },
     sampleGallery: [
       {
         src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
-        alt: 'Skjulte objekter søgearbejdsark i stående tilstand med spredte dyrebilleder og opgaveinstruktioner',
-        caption: 'Skjulte Objekter-tilstand — klassisk søgning med ring om, firkant, streg over og tæl-opgaver',
+        alt: 'Tælleøvelse opgave med spredte dyrebilleder og ring om, firkant, streg over og tæl-instruktioner til børnehaveklasse',
+        caption: 'Søgnings-tilstand — børnene finder og tæller genstande med fire opgavetyper',
       },
       {
         src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%202.webp',
-        alt: 'Find og tæl søgearbejdsark med et andet tema og varieret gittertæthed',
-        caption: 'Tematisk søgearbejdsark — 104 temaer giver unikke søgescener for hvert arbejdsark',
+        alt: 'Find-og-tæl opgave med tematisk søgebillede og varieret gittertæthed til indskoling',
+        caption: 'Tematisk tælleøvelse — 104 temaer giver unikke søge- og tællescener',
       },
       {
         src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%203.webp',
-        alt: 'Find og tæl facit med røde cirkel-, firkant- og korsannoteringer over korrekte objekter',
-        caption: 'Automatisk genereret facit — røde annoteringer og mængdevisninger markerer korrekte svar',
+        alt: 'Facitliste til find-og-tæl opgave med røde cirkel-, firkant- og korsannoteringer og antal-visninger',
+        caption: 'Automatisk facit — røde annoteringer og antal-visninger markerer korrekte svar',
       },
     ],
     youtubeId: '0cOPi7eajLs',
-    videoTitle: 'Sådan Opretter du Find og Tæl Arbejdsark med 4 Opgavetyper og Bogstavsøgning — Trin-for-Trin Guide',
+    videoTitle: 'Sådan laver du find-og-tæl opgaver med 4 opgavetyper og bogstavsøgning — trin-for-trin guide',
   },
 };
 

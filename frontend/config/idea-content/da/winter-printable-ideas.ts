@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Vinter printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag vinter printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Koldt-vejr produktkoncepter med stærk november-februar efterspørgsel for arbejdsark.',
+    titleTag: 'Vinter opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Vinter-tema opgaver til print du kan sælge online. Malebilleder, ordleg, regneopgaver og skattejagt med sne og is. Sælg på Etsy.dk. Sidegesjæft.',
 
-    primaryKeyword: 'vinter printbare idéer',
+    primaryKeyword: 'vinter opgaver til print idéer',
     secondaryKeywords: [
-      'vinterarbejdsark til salg',
-      'vintertematisk printbar forretning',
-      'vinteraktivitetsark for sælgere',
-      'sælg vinterprintables på Etsy',
+      'vinter malebilleder ordleg til print sælg online',
+      'vinter printbare idéer Etsy.dk sidegesjæft',
+      'vinter aktivitetsark til print regneopgaver',
+      'sælg vinter-opgaver malebilleder skattejagt til print',
     ],
     lsiKeywords: [
-      'sne og is pædagogiske arbejdsark',
-      'koldt vejr aktivitetssider',
-      'sæsonbestemte vintertematiske printables',
+      'sne is vinter opgaver til print sidegesjæft',
+      'koldt vejr malebilleder ordleg til print passiv indkomst',
+      'sæsonbestemte vinter opgaver til print printbar forretning',
     ],
   },
   hero: {
-    title: 'Vinter printbare forretningsidéer for sælgere',
+    title: 'Vinter opgaver til print — forretningsidéer for sælgere',
     description: 'Vinter åbner et bredt salgsvindue fra november til februar efterhånden som købere søger efter-ferie sæsontemaer, forældre søger indendørs læringsaktiviteter under kolde måneder, og hjemmeundervisningsfamilier leder efter sæsonvariation ud over decembers ferietravlhed. Vinternichen tilbyder rig undertemavariation inklusive snefnug, snemænd, pingviner, vanter, igloer, isbjørne, slæder, varm kakao, istapper og frost, hvilket giver sælgere et visuelt distinkt ordforråd der adskiller sig fra julespecifikke produkter. Dagplejer og fritidsordninger har brug for strukturerede indendørsaktiviteter når udendørs leg bliver begrænset, hvilket skaber stabil efterspørgsel i de koldeste måneder. For printable sælgere på Etsy, Amazon KDP og Gumroad repræsenterer vinter en ikke-konfessionel sæsonniche med forudsigelig årlig efterspørgsel og hyggelig koldt-vejr-billeder der resonerer med købere på tværs af diverse baggrunde. Denne guide dækker specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en rentabel vinter printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Vinterprintbare-nichen indtager en unikt fordelagtig position i den sæsonbestemte salgskalender fordi den leverer vedvarende efterspørgsel over et firemåneders vindue uden den intense konkurrence der klynger sig omkring specifikke ferier som jul eller valentinsdag. Købere vender tilbage fra vinterferie i januar med behov for friske sæsontemaer der opretholder engagement under den lange strækning før forår, og vinterbilleder giver en naturlig, markedsvenlig mulighed der fungerer i ethvert skolemiljø uanset kulturelle eller religiøse hensyn. Forældre der står over for uger med koldt vejr og begrænset udendørs leg søger aktivt pædagogiske indendørsaktiviteter der holder børn lærende og underholdte, hvilket gør vinterarbejdsark til et praktisk køb snarere end en sæsonluksus.

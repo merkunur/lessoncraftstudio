@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Køretøjer printbare idéer til salg — Nicheguide',
-    metaDescription: 'Udforsk køretøjer printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Køretøjstematiske produktkoncepter, platformsstrategier og tips for sælgere.',
+    titleTag: 'Køretøjer opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Køretøjer-tema opgaver til print du kan sælge online. Malebilleder, find og tæl, sortere og forbind-opgaver med biler og lastbiler. Sidegesjæft.',
 
-    primaryKeyword: 'køretøjer printbare idéer',
+    primaryKeyword: 'køretøjer opgaver til print idéer',
     secondaryKeywords: [
-      'transportarbejdsark til salg',
-      'køretøjstematisk printbar forretning',
-      'transportaktivitetsark for sælgere',
-      'sælg transportprintables på Etsy',
+      'køretøjer malebilleder find og tæl til print sælg online',
+      'køretøjer printbare idéer Etsy.dk sidegesjæft',
+      'transport aktivitetsark til print sortere',
+      'sælg køretøjer malebilleder forbind-opgaver til print',
     ],
     lsiKeywords: [
-      'bil og lastbil pædagogiske arbejdsark',
-      'køretøjstematiske aktivitetssider',
-      'rejse- og transporttematiske printables',
+      'bil lastbil køretøj opgaver til print sidegesjæft',
+      'transporttema malebilleder sortere til print passiv indkomst',
+      'rejse transport opgaver til print børnehaveklasse',
     ],
   },
   hero: {
-    title: 'Transport printbare forretningsidéer for sælgere',
+    title: 'Køretøjer opgaver til print — forretningsidéer for sælgere',
     description: 'Transport er et af de mest universelt elskede temaer for små børn, hvilket gør det til en fremragende stedsegrøn niche for printbare entreprenører der søger konsekvent helårs omsætning uden sæsonafhængighed. Transporttemaet tilbyder bemærkelsesværdig undertemasdybde inklusive biler, lastbiler, tog, fly, busser, både, helikoptere, brandbiler, ambulancer, traktorer, motorcykler, entreprenørmaskiner, skibe og ubåde, hvilket giver sælgere et enormt visuelt ordforråd der fængsler børn der er endeløst fascinerede af ting der bevæger sig. Tværfaglig alsidighed gør transportprintables særligt værdifulde fordi køretøjer forbinder naturligt til matematiktælleøvelser, læsefærdigheds-ordforrådsopbygning, samfundsfagsenheder om samfundshjælpere og naturfagskoncepter om bevægelse og energi. For printable sælgere på Etsy, Amazon KDP og Gumroad kombinerer transportnichen stærk helårs efterspørgsel med bred pædagogisk appel der resonerer med førskole- og børnehavekøbere der kører transportenheder, hjemmeundervisningsfamilier der udforsker køretøjstemaer og forældre der leder efter engagerende læringsaktiviteter til køretøjsbesatte børn. Denne guide dækker specifikke produktidéer, platformsstrategier og nichepositioneringstilgange til at hjælpe dig med at opbygge en rentabel transport printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Transportprintbare-nichen har en unikt kraftfuld position for printable sælgere fordi børns fascination af køretøjer er blandt de mest intense og vedvarende interesser i den tidlige barndomsudvikling. Fra det øjeblik småbørn begejstret peger på forbipasserende lastbiler, brandbiler og fly overhead, tager køretøjsbesættelsen fat og vedvarer gennem førskole- og de tidlige grundskoleår. Denne dybe, indre motivation betyder at børn ivrigt engagerer sig med transporttematiske arbejdsark uden den overtalelse som generiske pædagogiske materialer undertiden kræver, hvilket gør køretøjstematiske printables exceptionelt attraktive for både købere der søger engagement og forældre der ønsker produktive skærmfri aktiviteter.

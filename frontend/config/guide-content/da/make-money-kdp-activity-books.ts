@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tjen penge KDP aktivitetsbøger',
+    primaryKeyword: 'tjen penge på KDP aktivitetsbøger',
     secondaryKeywords: [
       'sådan tjener du penge med KDP aktivitetsbøger',
       'KDP aktivitetsbog indkomststrategier',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'multi-platform Etsy Gumroad digital printable udvidelse',
       'KDP rapporter præstationssporing omsætning per titel analyse',
     ],
-    titleTag: 'Tjen penge med KDP aktivitetsbøger — Omsætningsguide',
-    metaDescription: 'Sådan tjener du penge med KDP aktivitetsbøger. Prissætning, katalogopbygning, royaltyberegninger, sæsonudgivelse og multi-platform skaleringsstrategier.',
+    titleTag: 'Tjen penge på KDP aktivitetsbøger — Guide til passiv indkomst',
+    metaDescription: 'Tjen passiv indkomst med KDP aktivitetsbøger. Prissætning, katalogopbygning, royaltyberegninger og skaleringsstrategier for regnebøger og opgavebøger.',
   },
 
   hero: {

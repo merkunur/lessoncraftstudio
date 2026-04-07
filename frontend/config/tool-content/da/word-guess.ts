@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gæt ordet arbejdsark generator',
+    primaryKeyword: 'galge-opgave generator gratis online',
     secondaryKeywords: [
-      'gæt ordet arbejdsark generator for sælgere',
-      'opret stavningsgætning arbejdsark til salg',
-      'printbare ordbyggende arbejdsark kommercielt brug',
-      'gæt ordet generator til KDP',
+      'gæt ordet gratis',
+      'hængespil gratis til print',
+      'galge-opgave prøv gratis',
     ],
     lsiKeywords: [
-      'visuelle stavnings printbare til Etsy',
-      'billedbaseret ordbyggende arbejdsark værktøj',
-      'flersproget stavningsaktivitet generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'galge',
+      'gætte',
+      'ordforråd',
     ],
-    titleTag: 'Gæt Ordet Arbejdsark Generator | Sælg Printables',
-    metaDescription: 'Generer gæt ordet arbejdsark med 4 sværhedsgrader, dobbelte indtastningstilstande, ekskluder bogstaver, 11 sprog og. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis galge-opgave generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv galge-opgave-generatoren gratis online. Temaord, billeder, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Gæt Ordet Arbejdsark Generator',
-    tagline: 'Opret billedbaserede stavningsarbejdsark med 4 ledetrådsniveauer på 11 sprog',
-    description: 'Forvandl ordforrådsøvelse til et visuelt puslespil, som brugerne elsker at løse. Dette værktøj genererer gæt ordet arbejdsark, hvor en billedledetråd parres med et bogstavsgitter med huller — brugerne studerer billedet og udfylder de manglende bogstaver for at stave det ord, det repræsenterer. Den fremtrædende funktion er et 4-niveaus progressivt ledetrådssystem: Ingen Ledetråde afslører nul bogstaver for ren genkaldelse, Let afslører halvdelen af bogstaverne for støttede begyndere, Normal afslører en fjerdedel for balanceret udfordring, og Svær afslører kun en sjettedel for selvsikre stavere. Vælg mellem to indtastningstilstande: Billedledetråd henter ordforråd fra mere end 3.100 billeder i 104 tematiske samlinger med automatisk bogstavsgittergenerering, eller Tilpasset Ordliste lader dig skrive ord direkte til målrettet ordforrådsøvelse uden billeder. Ekskluder Bogstaver-funktionen fjerner specifikke bogstaver fra gitre — ekskluder vokaler til fonikfokuserede øvelser eller ekskluder almindelige bogstaver til en hårdere udfordring. Sprogfølsomhed er indbygget: skift fra dansk til et af de 11 understøttede sprog, og det samme billede producerer en anderledes korrekt stavning. Et hundebillede genererer \"HUND\" på dansk, \"DOG\" på engelsk, \"CHIEN\" på fransk, \"PERRO\" på spansk. Ét arbejdsarksdesign bliver 11 unikke sprogprodukter med genuint forskellige svar. Indstil store eller små bogstaver, slå øvelsesnummerering til, tilføj brugerdefinerede tekstoverlay, og vælg blandt 7 skrifttypefamilier. Eksporter som trykfærdig PDF eller højopløst JPEG med valgfri facitgenerering. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis galge-opgave generator — prøv online med vandmærke',
+    tagline: 'Prøv galge-opgave-generatoren gratis online — gæt ordet med temaord, billeder, automatisk facit, ingen tilmelding',
+    description: 'Prøv vores galge-opgave-generator gratis online med vandmærke. Lav gæt ordet-opgaver med temaord, billeder og automatisk facit — helt uden tilmelding. Dette værktøj genererer galge-opgaver, hvor en billedledetråd parres med et bogstavsgitter med huller — brugerne studerer billedet og udfylder de manglende bogstaver for at stave det ord, det repræsenterer. Den fremtrædende funktion er et 4-niveaus progressivt ledetrådssystem: Ingen Ledetråde afslører nul bogstaver for ren genkaldelse, Let afslører halvdelen af bogstaverne for støttede begyndere, Normal afslører en fjerdedel for balanceret udfordring, og Svær afslører kun en sjettedel for selvsikre stavere. Vælg mellem to indtastningstilstande: Billedledetråd henter ordforråd fra mere end 3.100 billeder i 104 tematiske samlinger med automatisk bogstavsgittergenerering, eller Tilpasset Ordliste lader dig skrive ord direkte til målrettet ordforrådsøvelse uden billeder. Ekskluder Bogstaver-funktionen fjerner specifikke bogstaver fra gitre — ekskluder vokaler til fonikfokuserede øvelser eller ekskluder almindelige bogstaver til en hårdere udfordring. Sprogfølsomhed er indbygget: skift fra dansk til et af de 11 understøttede sprog, og det samme billede producerer en anderledes korrekt stavning. Et hundebillede genererer \"HUND\" på dansk, \"DOG\" på engelsk, \"CHIEN\" på fransk, \"PERRO\" på spansk. Ét arbejdsarksdesign bliver 11 unikke sprogprodukter med genuint forskellige svar. Indstil store eller små bogstaver, slå øvelsesnummerering til, tilføj brugerdefinerede tekstoverlay, og vælg blandt 7 skrifttypefamilier. Eksporter som trykfærdig PDF eller højopløst JPEG med valgfri facitgenerering. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Opretter du Gæt Ordet Arbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du gratis galge-opgaver med billeder i 8 trin',
     steps: [
       {
         title: 'Åbn Gæt Ordet Arbejdsark Generatoren',
@@ -155,12 +157,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort krævet. Du kan oprette, forhåndsvise og downloade så mange arbejdsark, du vil. Downloads fra den gratis prøveversion indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Er galge-opgave-generatoren gratis at prøve online?',
+      answer: 'Ja. Prøv galge-opgave-generatoren gratis online med alle funktioner — temaord med billeder, fire sværhedsgrader, 104 billedtemaer, Ekskluder Bogstaver, automatisk facit og alle eksportformater. Ingen tilmelding. Downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvordan fungerer de fire ledetråds sværhedsgrader?',
-      answer: 'Hvert niveau kontrollerer, hvor mange bogstaver der er forudfyldt i gitteret. Ingen Ledetråde efterlader gitteret helt blankt for ren genkaldelse. Let afslører halvdelen af bogstaverne for støttede begyndere. Normal afslører en fjerdedel af bogstaverne for balanceret udfordring. Svær afslører kun en sjettedel af bogstaverne for selvsikre stavere. Du kan blande niveauer over sider for at oprette niveauinddelte pakker.',
+      question: 'Hvad indeholder den gratis gæt ordet-generator?',
+      answer: 'Den gratis prøveversion giver fuld adgang: fire ledetrådsniveauer (Ingen Ledetråde, Let, Normal, Svær), billedledetråde fra 104 temaer, tilpasset ordliste, Ekskluder Bogstaver og automatisk facit. Det eneste, der adskiller prøveversionen, er et vandmærke. Ingen tilmelding krævet.',
+    },
+    {
+      question: 'Hvordan fungerer de gratis galge-opgaver?',
+      answer: 'Et billedledetråd parres med et bogstavsgitter med huller. Børn studerer billedet og gætter, hvilket ord det forestiller, ved at udfylde de manglende bogstaver. Fire sværhedsgrader styrer, hvor mange bogstaver der er forudfyldt: Ingen Ledetråde (0%), Let (50%), Normal (25%) og Svær (16%).',
     },
     {
       question: 'Hvad er de to indtastningstilstande?',
@@ -214,22 +220,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/word%20guess/G%C3%A6t%20Ordet%201.webp',
-      primaryAlt: 'Gæt ordet arbejdsark, der viser billedledetråde parret med bogstavsgitre med huller til stavningsøvelse',
+      primaryAlt: 'Gratis galge-opgave generator online — gæt ordet med temaord, billeder og automatisk facit',
     },
     sampleGallery: [
       {
         src: '/samples/danish/word%20guess/Gæt%20Ordet%201.webp',
-        alt: 'Gæt ordet arbejdsark med billedledetråde og delvist udfyldte bogstavsgitre til stavningsøvelse',
+        alt: 'Gratis galge-opgaver med billedledetråde og delvist udfyldte bogstavsgitre — prøv online',
         caption: 'Billedbaserede gæt ordet øvelser med progressive ledetrådsniveauer',
       },
       {
         src: '/samples/danish/word%20guess/Gæt%20Ordet%202.webp',
-        alt: 'Gæt ordet arbejdsark, der viser flere sværhedsgrader med forskellige mængder afslørede bogstaver',
+        alt: 'Gratis gæt ordet-opgaver med flere sværhedsgrader og forskellige afslørede bogstaver',
         caption: 'Justerbar ledetrådssværhed fra Let til Ingen Ledetråde',
       },
       {
         src: '/samples/danish/word%20guess/Gæt%20Ordet%203.webp',
-        alt: 'Gæt ordet facit med alle korrekte bogstaver udfyldt',
+        alt: 'Gratis galge-opgave facit med alle korrekte bogstaver udfyldt',
         caption: 'Automatisk genereret facit med alle korrekte stavninger',
       },
     ],

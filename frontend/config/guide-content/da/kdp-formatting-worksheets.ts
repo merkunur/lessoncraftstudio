@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP formatering arbejdsark',
+    primaryKeyword: 'KDP formatering af opgavebøger',
     secondaryKeywords: [
       'KDP formateringsguide for arbejdsarkbøger',
       'Amazon KDP manuskript formateringsspecifikationer',
@@ -17,12 +17,12 @@ const content: GuideContent = {
       'sidenummerering forsidestof bagstof indholdsfortegnelse',
       'KDP upload fejl afvisning fejlfinding previewer korrektur',
     ],
-    titleTag: 'KDP formatering arbejdsark — Komplet guide',
-    metaDescription: 'KDP formateringsguide med trimstørrelser, margener, beskæringsindstillinger, PDF eksport ved 300 DPI, omslagsdimensioner og upload-fejlfinding for.',
+    titleTag: 'KDP formatering af opgavebøger — Komplet guide til print',
+    metaDescription: 'KDP formateringsguide for opgavebøger til print. Trimstørrelser, margener, beskæring, PDF eksport ved 300 DPI og omslagsdimensioner for passiv indkomst.',
   },
 
   hero: {
-    title: 'KDP formateringsguide for arbejdsarkbøger',
+    title: 'KDP formatering af opgavebøger — teknisk guide til print',
     tagline: 'Den definitive tekniske reference til formatering af arbejdsark- og aktivitetsbøger til Amazon KDP — dækkende trimstørrelsesvalg til forskellige aktivitetstyper, margen- og rygberegninger for komfortabel skriveplads, beskæring versus ingen-beskæring konfiguration, trykklart PDF eksport ved 300 DPI med indlejrede skrifttyper, omslagsdimensionsberegninger inklusive rygbredde og stregkodezoner, komplet manuskriptsamling fra forsidestof til løsningssektioner, og fejlfinding af de mest almindelige KDP upload-afvisninger og formateringsfejl',
     description: 'En perfekt designet arbejdsarkbog betyder intet hvis KDP afviser manuskriptet eller det trykte resultat har tekst der forsvinder ind i bindingen, margener for smalle til at børn kan skrive i, eller slørede billeder fra lav-opløsnings eksport. Denne guide dækker de tekniske formateringsspecifikationer der adskiller en professionel KDP-udgivelse fra en amatør — de præcise mål, indstillinger og eksportprocedurer der sikrer at dine arbejdsark- og aktivitetsbøger trykker korrekt hver gang. For indholdsskabelsesstrategier og forretningsplanlægning, se vores andre KDP-guider. Denne guide er rent teknisk: manuskriptspecifikationer, sidelayout, PDF-forberedelse, omslagsdesign-dimensioner og upload-fejlfinding.',
   },

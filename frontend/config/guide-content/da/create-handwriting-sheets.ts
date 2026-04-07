@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab håndskriftsøvelsesark',
+    primaryKeyword: 'lav skrivemotorik-opgaver til print',
     secondaryKeywords: [
-      'lav håndskriftsarbejdsark til børn',
-      'håndskrift arbejdsark generator',
-      'printbare håndskriftsøvelser til salg',
-      'tilpassede bogstavsporingsarbejdsark',
+      'skrivemotorik opgaver til børnehaveklasse',
+      'bogstavsporing generator til indskoling',
+      'printbare skrivemotorik-opgaver til salg på Etsy.dk',
+      'stiplede linjer bogstavøvelser til print',
     ],
     lsiKeywords: [
-      'bogstavsporing arbejdsark maker',
-      'skriveskrift håndskriftsøvelsesark',
-      'stregrækkefølge bogstavdannelse',
-      'før-skrivestreger til førskole',
-      'sælg håndskriftsarbejdsark på Etsy',
-      'Amazon KDP håndskrifts-arbejdsbøger',
+      'bogstavsporing opgaver maker til førskole',
+      'skriveskrift skrivemotorik øvelsesark',
+      'stregrækkefølge bogstavdannelse til børn',
+      'før-skrivestreger til børnehaveklasse',
+      'sælg skrivemotorik-opgaver på Etsy.dk og Saxo.com',
+      'Amazon KDP skrivemotorik-hæfter til børn',
     ],
-    titleTag: 'Skab håndskriftsøvelsesark — Trin-for-trin-guide',
-    metaDescription: 'Skab håndskriftsøvelsesark med sporings-, falmende sporings- og guidet kopieringstilstande. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Lav skrivemotorik-opgaver til print — Trin-for-trin sælgerguide',
+    metaDescription: 'Lav skrivemotorik-opgaver med sporings-, falmende sporings- og guidet kopieringstilstande. Sælg på Etsy.dk, Saxo.com og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du håndskriftsøvelsesark',
-    tagline: 'En trin-for-trin vejledning til at skabe professionelle håndskriftsarbejdsark med progressive øvelsestilstande, stregrækkefølge-pile og trykklart eksport til Etsy, Amazon KDP og Gumroad',
-    description: 'Håndskriftsøvelse er en af de mest vedvarende kategorier inden for pædagogiske printables. Hvert barn der lærer at holde en blyant, hvert børnehaveklassebarn der danner sine første bogstaver, og hvert indskolingsbarn der overgår til skriveskrift har brug for strukturerede øvelsesark. Forældre søger efter dem derhjemme. Sælgere har brug for gruppesæt hver uge. Ergoterapeuter bruger dem i finmotorisk terapi. Denne guide fører dig gennem hele skabelsesprocessen med håndskriftsarbejdsark-generatoren — fra at vælge øvelsestilstande og skriftstile til at bygge progressive flerra-arbejdsark og eksportere trykklare PDF-filer med professionel formatering. Uanset om du lancerer dit første printable-produkt eller udvider et læsefærdighedsarbejdsark-katalog, vil du have et færdigt produkt klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav skrivemotorik-opgaver til print — trin-for-trin guide',
+    tagline: 'En trin-for-trin vejledning til at lave professionelle skrivemotorik-opgaver med progressive øvelsestilstande, stregrækkefølge-pile og printbar eksport til Etsy.dk, Amazon KDP og Saxo.com',
+    description: 'Skrivemotorik-opgaver er en af de mest vedvarende kategorier inden for printbare opgaver. Hvert barn der lærer at holde en blyant, hvert barn i børnehaveklassen der danner sine første bogstaver, og hvert indskolingsbarn der overgår til skriveskrift har brug for strukturerede øvelsesark. Forældre søger efter dem derhjemme. Sælgere har brug for gruppesæt hver uge. Ergoterapeuter bruger dem i finmotorisk terapi. Denne guide fører dig gennem hele skabelsesprocessen med håndskriftsarbejdsark-generatoren — fra at vælge øvelsestilstande og skriftstile til at bygge progressive flerra-arbejdsark og eksportere trykklare PDF-filer med professionel formatering. Uanset om du lancerer dit første printable-produkt eller udvider et læsefærdighedsarbejdsark-katalog, vil du have et færdigt produkt klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Håndskriftsundervisning følger en universel udviklingssekvens: børn progredierer fra før-skrivestreger (linjer og cirkler) til bogstavsporing, derefter til kopiering af bogstaver selvstændigt, og endelig til skrivning fra hukommelsen. Hvert barn gennemgår disse stadier, og hvert stadie kræver dedikerede øvelsesmaterialer. Den udviklingsmæssige virkelighed generator vedvarende, helårsefterspørgsel efter håndskriftsarbejdsark på tværs af flere aldersgrupper og færdighedsniveauer.\n\nHvad der gør håndskriftsøvelsesark særligt stærke som printable-produkt er det rene volumen sælgere har brug for. Et enkelt arbejdsark giver fem til ti minutters øvelse. Sælgere har brug for friske ark dagligt. Forældre der arbejder igennem bogstavdannelse har brug for ét ark per bogstav — det er minimum 26 ark for det store alfabet alene, og yderligere 26 for det lille. Tilføj taldannelse, synlige ord og skriveskriftsøvelse, og en enkelt sælger kan nemt købe hundredvis af sider over ét skoleår.\n\nHåndskriftsarbejdsark-generatoren håndterer den tekniske kompleksitet ved at skabe professionelle øvelsesark. Den tilbyder tre progressive øvelsestilstande — Sporing, Falmende sporing og Guidet kopiering — der afspejler den udviklingssekvens børn faktisk følger. Fem skriftstile inkluderer standard tryk, stiplede sporingsomrids og stregrækkefølge-pile der viser børn præcis hvordan de danner hvert bogstav. Hver række på arbejdsarket kan konfigureres uafhængigt, så du kan bygge arbejdsark der progredierer fra sporing til selvstændig skrivning på en enkelt side.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste enhver øvelsestilstand og skriftkombination og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Skrivemotorik følger en universel udviklingssekvens: børn progredierer fra stiplede linjer og før-skrivestreger til bogstavsporing, derefter til kopiering af bogstaver selvstændigt, og endelig til skrivning fra hukommelsen. Hvert barn i børnehaveklasse og indskoling gennemgår disse stadier, og hvert stadie kræver dedikerede øvelsesmaterialer. Den udviklingsmæssige virkelighed generator vedvarende, helårsefterspørgsel efter håndskriftsarbejdsark på tværs af flere aldersgrupper og færdighedsniveauer.\n\nHvad der gør håndskriftsøvelsesark særligt stærke som printable-produkt er det rene volumen sælgere har brug for. Et enkelt arbejdsark giver fem til ti minutters øvelse. Sælgere har brug for friske ark dagligt. Forældre der arbejder igennem bogstavdannelse har brug for ét ark per bogstav — det er minimum 26 ark for det store alfabet alene, og yderligere 26 for det lille. Tilføj taldannelse, synlige ord og skriveskriftsøvelse, og en enkelt sælger kan nemt købe hundredvis af sider over ét skoleår.\n\nHåndskriftsarbejdsark-generatoren håndterer den tekniske kompleksitet ved at skabe professionelle øvelsesark. Den tilbyder tre progressive øvelsestilstande — Sporing, Falmende sporing og Guidet kopiering — der afspejler den udviklingssekvens børn faktisk følger. Fem skriftstile inkluderer standard tryk, stiplede sporingsomrids og stregrækkefølge-pile der viser børn præcis hvordan de danner hvert bogstav. Hver række på arbejdsarket kan konfigureres uafhængigt, så du kan bygge arbejdsark der progredierer fra sporing til selvstændig skrivning på en enkelt side.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste enhver øvelsestilstand og skriftkombination og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

@@ -2,30 +2,33 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gitterpuslespil generator gitter arbejdsark generator',
+    primaryKeyword: 'tegne på gitter generator gratis online',
     secondaryKeywords: [
-      'gittermatchning arbejdsark generator for sælgere',
-      'lav gitterpuslespil til salg',
-      'printbar gitterpuslespil generator kommerciel brug',
-      'billedfliser matchning arbejdsark generator til KDP og Etsy',
+      'gitteropgaver gratis til print',
+      'pixel art prøv gratis',
+      'kopiere på gitter gratis',
     ],
     lsiKeywords: [
-      'enkeltbilled gitterpuslespil fliser matchningsværktøj',
-      'automatisk facit nummereret cirkeloverlejring generator',
-      'konfigurerbar ledetrådscelle sværhed gittergenerator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'gitter',
+      'tegne',
+      'kopiere',
+      'pixel art',
     ],
-    titleTag: 'Gitterpuslespil Generator — Gitter Arbejdsark Generator',
-    metaDescription: 'Lav gittermatchnings arbejdsark med konfigurerbar gitterstørrelse, justerbare ledetrådsceller, Fisher-Yates-blanding. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis tegne på gitter generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv gitter-generatoren gratis online. Kopiere, spejle, pixel art med temabilleder. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Gitterpuslespil Generator',
-    tagline: 'Enkeltbilled gitterpuslespil generator med konfigurerbare gitterstørrelser fra 2×2 til 4×4, justerbare ledetrådsceller for skalerbar sværhed, Fisher-Yates fliserandomisering, automatisk genererede facit med nummererede cirkeloverlejringer og 104 tematiske billedsamlinger',
-    description: 'Lav professionelle gittermatchnings arbejdsark, hvor et enkelt billede deles op i et gitter af fliser, og brugerne matcher nummererede fliser tilbage til deres korrekte positioner — et rumligt ræsonnementpuslespil bygget af ét billede. Konfigurér gitteret fra 2×2 op til 4×4 (2–4 rækker × 2–4 kolonner, standard 3×3) for at lave puslespil fra 4 til 16 fliser. Indstil 1–5 ledetrådsceller (standard 1), der forbliver synlige som tips — færre ledetråde betyder sværere puslespil, flere ledetråde generator tilgængelige opvarmninger. Appen blander skjulte fliser med Fisher-Yates-randomisering og viser dem i en nummereret palet. Dobbeltarbejdsområde-systemet genererer samtidigt en arbejdsarksfane og en facitfane — facittet viser det komplette ubeskadigede billede med nummererede cirkler overlejret på hver gittercelle (gul baggrund #ffffe0, sort kontur, Fredoka-skrifttype). Det responsive layout tilpasses automatisk: stående sider placerer gitteret øverst med paletten nedenunder; liggende sider positionerer gitteret til venstre med paletten til højre. Gitterpuslespil er IKKE sprogfølsomt — puslespiloutputtet er rent visuelt uden lokaliseret ordindhold, hvilket gør hvert arbejdsark universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Eksportér fire filer per session: arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF — alle med 300 DPI. Den gratis prøveversion indeholder alle funktioner med et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis tegne på gitter generator — prøv online med vandmærke',
+    tagline: 'Prøv gitter-generatoren gratis online — gitteropgaver med kopiere, spejle og pixel art, konfigurerbare gitterstørrelser fra 2×2 til 4×4 og 104 temabilledsamlinger. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv gitter-generatoren gratis online og lav professionelle gitteropgaver, hvor et enkelt billede deles op i et gitter af fliser, og brugerne kopierer nummererede fliser tilbage til deres korrekte positioner. Alle funktioner er tilgængelige i den gratis prøveversion — downloads indeholder et vandmærke, som fjernes med en licens. — et rumligt ræsonnementpuslespil bygget af ét billede. Konfigurér gitteret fra 2×2 op til 4×4 (2–4 rækker × 2–4 kolonner, standard 3×3) for at lave puslespil fra 4 til 16 fliser. Indstil 1–5 ledetrådsceller (standard 1), der forbliver synlige som tips — færre ledetråde betyder sværere puslespil, flere ledetråde generator tilgængelige opvarmninger. Appen blander skjulte fliser med Fisher-Yates-randomisering og viser dem i en nummereret palet. Dobbeltarbejdsområde-systemet genererer samtidigt en arbejdsarksfane og en facitfane — facittet viser det komplette ubeskadigede billede med nummererede cirkler overlejret på hver gittercelle (gul baggrund #ffffe0, sort kontur, Fredoka-skrifttype). Det responsive layout tilpasses automatisk: stående sider placerer gitteret øverst med paletten nedenunder; liggende sider positionerer gitteret til venstre med paletten til højre. Gitterpuslespil er IKKE sprogfølsomt — puslespiloutputtet er rent visuelt uden lokaliseret ordindhold, hvilket gør hvert arbejdsark universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Eksportér fire filer per session: arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF — alle med 300 DPI. Den gratis prøveversion indeholder alle funktioner med et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Gittermatchnings Arbejdsark i 8 Trin',
+    title: 'Sådan laver du gitteropgaver i 8 trin',
     steps: [
       {
         title: 'Åbn Gitterpuslespil Generatoren',
@@ -155,15 +158,15 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner låst op — alle gitterstørrelser fra 2×2 til 4×4, justerbare ledetrådsceller (1–5), Fisher-Yates fliserandomisering, det autogenererede facit med nummererede cirkeloverlejringer, alle 104 tematiske billedsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke.',
+      question: 'Kan jeg prøve gitter-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — alle gitterstørrelser fra 2×2 til 4×4, justerbare ledetrådsceller (1–5), Fisher-Yates fliserandomisering, automatisk facit med nummererede cirkeloverlejringer, alle 104 temabilledsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, gråtonekontakt og alle downloadformater. Ingen kreditkort kræves. Gratis downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvordan fungerer gittermatchningspuslespillet?',
-      answer: 'Arbejdsarket viser et enkelt billede opdelt i et gitter, hvor visse celler viser den faktiske billedflise (ledetrådsceller) og resterende celler viser \"?\"-pladsholdere. Ved siden af eller under gitteret viser en nummereret palet alle skjulte fliser i blandet rækkefølge. Brugerne undersøger de synlige ledetrådsceller, studerer de nummererede fliser og afgør, hvilket nummer der hører i hver tom gitterposition. Konfigurér gitteret fra 2×2 (4 fliser) til 4×4 (16 fliser) og indstil 1–5 ledetrådsceller.',
+      question: 'Hvordan fungerer gitteropgaverne med kopiere og tegne?',
+      answer: 'Arbejdsarket viser et enkelt billede opdelt i et gitter, hvor visse celler viser den faktiske billedflise (ledetrådsceller) og resterende celler viser \"?\"-pladsholdere. Ved siden af eller under gitteret viser en nummereret palet alle skjulte fliser i blandet rækkefølge. Brugerne undersøger de synlige ledetrådsceller, studerer de nummererede fliser og kopierer det korrekte nummer til hver tom gitterposition. Konfigurér gitteret fra 2×2 (4 fliser) til 4×4 (16 fliser) og indstil 1–5 ledetrådsceller.',
     },
     {
-      question: 'Hvordan fungerer det automatisk genererede facit?',
+      question: 'Hvordan fungerer det automatiske facit i gitteropgaverne?',
       answer: 'Når du genererer et arbejdsark, opretter appen samtidigt et facit på en separat fane. Facittet viser det komplette ubeskadigede billede med nummererede cirkler overlejret på hver gittercelle — gul baggrund (#ffffe0), sorte konturer, Fredoka-skrifttype tal. Download hver version uafhængigt — fire produktionsklare filer fra én enkelt generering.',
     },
     {
@@ -218,22 +221,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/grid%20match/Gitterpuslespil%201.webp',
-      primaryAlt: 'Gittermatchning arbejdsark med enkelt billede opdelt i fliser, ledetrådsceller synlige og nummereret flisepalet for rumligt ræsonnementpuslespil',
+      primaryAlt: 'Gratis gitteropgave med tegne og kopiere på gitter — prøv online med vandmærke',
     },
     sampleGallery: [
       {
         src: '/samples/danish/grid%20match/Gitterpuslespil%201.webp',
-        alt: 'Tre gange tre gittermatchningspuslespil med én ledetrådscelle synlig og otte nummererede fliser i blandet palet til matchning',
+        alt: 'Gratis 3x3 gitteropgave med én ledetrådscelle og otte nummererede fliser til kopiere-øvelse',
         caption: '3×3 gitterpuslespil — én ledetrådscelle synlig, otte fliser at matche fra nummereret palet',
       },
       {
         src: '/samples/danish/grid%20match/Gitterpuslespil%202.webp',
-        alt: 'Fire gange fire avanceret gittermatchningspuslespil med seksten fliser og minimale ledetråde for udfordrende visuel perceptionsaktivitet',
+        alt: 'Gratis 4x4 avanceret gitteropgave med pixel art-lignende fliser til udfordrende tegne-øvelse',
         caption: '4×4 avanceret puslespil — maksimal gitterstørrelse med 16 fliser for udfordrende rumligt ræsonnement',
       },
       {
         src: '/samples/danish/grid%20match/Gitterpuslespil%203.webp',
-        alt: 'Gittermatchning facit, der viser komplet billede med nummererede gule cirkler overlejret på hver gittercelle, der angiver korrekt flisplacering',
+        alt: 'Automatisk facit til gitteropgave med nummererede gule cirkler, der viser korrekt flisplacering',
         caption: 'Automatisk genereret facit — nummererede cirkler (#ffffe0) viser korrekt flisplacering på komplet billede',
       },
     ],

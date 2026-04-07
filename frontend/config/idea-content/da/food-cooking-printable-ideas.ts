@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Mad og madlavning printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag mad og madlavning printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Opskriftstematiske produktkoncepter, platformsstrategier og tips for sælgere.',
+    titleTag: 'Mad og madlavning opgaver til print — idéer til salg | Etsy.dk & KDP',
+    metaDescription: 'Madtema opgaver til print du kan sælge online. Malebilleder, find og tæl, ordleg og sortere med mad og frugt. Sælg på Etsy.dk. Sidegesjæft.',
 
-    primaryKeyword: 'mad og madlavning printbare idéer',
+    primaryKeyword: 'mad og madlavning opgaver til print idéer',
     secondaryKeywords: [
-      'madtematiske arbejdsark til salg',
-      'madlavning printbar forretningsidéer',
-      'køkkenaktivitetsark for sælgere',
-      'sælg madprintables på Etsy',
+      'madtema malebilleder ordleg til print sælg online',
+      'mad og madlavning printbare idéer Etsy.dk sidegesjæft',
+      'køkken aktivitetsark til print find og tæl',
+      'sælg madtema malebilleder sortere opgaver til print',
     ],
     lsiKeywords: [
-      'kulinariske tematiske pædagogiske arbejdsark',
-      'ernæringsaktiviteter for børn',
-      'opskriftstematiske produktlinje printables',
+      'kulinarisk tema opgaver til print sidegesjæft',
+      'ernæring mad malebilleder ordleg til print',
+      'frugt og grøntsager opgaver til print passiv indkomst',
     ],
   },
   hero: {
-    title: 'Mad og madlavning printbare forretningsidéer for sælgere',
+    title: 'Mad og madlavning opgaver til print — forretningsidéer for sælgere',
     description: 'Mad og madlavning er et af de mest universelt engagerende temaer for børn i alle aldre, hvilket gør det til en exceptionel stedsegrøn niche for printbare entreprenører der søger konsekvent helårs omsætning med bred tværfaglig appel. Mad- og madlavningstemaet tilbyder bemærkelsesværdig undertemasdybde inklusive frugter, grøntsager, pizza, småkager, kage, brød, køkkenredskaber, bagning, indkøb, sund kost, ernæring, jord-til-bord-koncepter og internationale retter, hvilket giver sælgere et enormt visuelt ordforråd der forbinder til hvert barns daglige oplevelse med måltider, snacks og køkkenudforskning. Tværfaglig alsidighed gør madprintables særligt værdifulde fordi madlavning forbinder naturligt til matematik gennem måling og tælling af ingredienser, læsefærdigheder gennem opskriftlæsning og madordforråd, naturfag gennem ernæring og plantevækst, og livsfærdigheder gennem sunde kostvaner og køkkensikkerhedsbevidsthed. For printable sælgere på Etsy, Amazon KDP og Gumroad kombinerer mad- og madlavningsnichen stærk helårs efterspørgsel med universel genkendelse der resonerer med førskole- og børnehavekøbere der kører ernæringsenheder, hjemmeundervisningsfamilier der udforsker madlavningstemaer og forældre der leder efter engagerende læringsaktiviteter der forbinder produktlinjefærdigheder til daglige køkkenoplevelser. Denne guide dækker specifikke produktidéer, platformsstrategier og nichepositioneringstilgange til at hjælpe dig med at opbygge en rentabel mad og madlavning printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Mad og madlavning printbare-nichen har en unikt kraftfuld position for printable sælgere fordi hvert barn har en direkte, personlig forbindelse til mad gennem daglige måltider, snacktider, indkøbsture og køkkenoplevelser med familien. I modsætning til nichetemaer der afhænger af at et barn udvikler en specifik interesse, er mad universelt relevant fra spædbarnsalderen og frem, hvilket sikrer at madtematiske pædagogiske materialer appellerer til det bredest mulige publikum af forældre, købere og hjemmeundervisningsfamilier. Denne universelle relevans oversættes til konsekvent køberefterspørgsel over alle tolv måneder fordi ernæringsuddannelse, sund kost-bevidsthed og madlavningstematiske læringsaktiviteter aldrig er ude af sæson.

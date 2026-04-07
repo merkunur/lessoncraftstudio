@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Juleprintbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag juleprintbare idéer til salg på Etsy, Amazon KDP og Gumroad. Ferieproduktkoncepeter, sæsonstrategier og platformstips for printable sælgere.',
+    titleTag: 'Jule-opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Jule-opgaver til print du kan sælge online. Malebilleder, ordleg, regneopgaver og skattejagt med juletema. Sælg på Etsy.dk og Amazon KDP. Sidegesjæft.',
 
-    primaryKeyword: 'juleprintbare idéer',
+    primaryKeyword: 'jule-opgaver til print idéer',
     secondaryKeywords: [
-      'julearbejdsark til salg',
-      'ferieprint forretningsidéer',
-      'juleaktivitetsark for sælgere',
-      'sælg juleprintables på Etsy',
+      'jule malebilleder ordleg til print sælg online',
+      'juleprintbare idéer Etsy.dk sidegesjæft',
+      'juleaktivitetsark til print regneopgaver',
+      'sælg jule-opgaver malebilleder på Etsy.dk',
     ],
     lsiKeywords: [
-      'sæsonbestemte ferie arbejdsarksbundler',
-      'vintertematiske pædagogiske aktiviteter',
-      'festligt produktlinje printbare ressourcer',
+      'sæsonbestemte jule opgavepakker til print',
+      'vintertema malebilleder ordleg sidegesjæft',
+      'festlig produktlinje opgaver til print passiv indkomst',
     ],
   },
   hero: {
-    title: 'Juleprintbare forretningsidéer for sælgere',
-    description: 'Jul repræsenterer den enkeltstående mest kraftfulde sæsonmulighed på hele det printbare marked og genererer en efterspørgselsbølge fra oktober til december der dværger enhver anden ferie tilsammen. Temaet omfatter et ekstraordinært udvalg af underemner inklusive julemand, rensdyr, snemænd, pepperkager, sukkerstokke, kugler, nisser, julestrømper, kranse og krybbescener, hvilket giver sælgere praktisk talt ubegrænset produktvariation inden for én sammenhængende niche. Købere planlægger ferietematiske produktpakker og december-produktkatalogaktiviteter, forældre søger skærmfri underholdning under vinterferie, og gavekøbere opdager at aktivitetsbøger og arbejdsarkspakker er ideelle julegaver. For printable sælgere på Etsy, Amazon KDP og Gumroad belønner julenichen tidlig forberedelse med år-over-år akkumulerende afkast efterhånden som listninger opnår søgeautoritet og anmeldelser. Denne guide giver specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en rentabel juleprintbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
+    title: 'Jule-opgaver til print — forretningsidéer for sælgere',
+    description: 'Jul repræsenterer den enkeltstående mest kraftfulde sæsonmulighed for opgaver til print og genererer en massiv efterspørgselsbølge fra oktober til december for jule-malebilleder, ordleg, regneopgaver og skattejagt. Temaet omfatter et ekstraordinært udvalg af underemner inklusive julemand, rensdyr, snemænd, pepperkager, sukkerstokke, kugler, nisser, julestrømper, kranse og krybbescener, hvilket giver sælgere praktisk talt ubegrænset produktvariation inden for én sammenhængende niche. Købere planlægger ferietematiske produktpakker og december-produktkatalogaktiviteter, forældre søger skærmfri underholdning under vinterferie, og gavekøbere opdager at aktivitetsbøger og arbejdsarkspakker er ideelle julegaver. For printable sælgere på Etsy, Amazon KDP og Gumroad belønner julenichen tidlig forberedelse med år-over-år akkumulerende afkast efterhånden som listninger opnår søgeautoritet og anmeldelser. Denne guide giver specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en rentabel juleprintbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Juleprintbare-nichen er den ubestridte sværvægter inden for sæsonbestemt pædagogisk produktsalg, drevet af konvergerende efterspørgsel fra købere, forældre, hjemmeundervisere og gavekøbere i årets sidste kvartal. Købere begynder at planlægge december pædagogiske aktiviteter så tidligt som september og søger efter ferietematiske arbejdsark der holder brugere engagerede i de spændingsfyldte uger før vinterferie. Forældre leder efter juletematiske pædagogiske aktiviteter til at beskæftige børn under ferierejser, familiefester og den lange vinterferie hvor struktureret underholdning bliver essentiel. Gavekøbere opdager at printbare aktivitetsbøger og arbejdsarkspakker er gennemtænkte, overkommelige julegaver og festartikler.
 

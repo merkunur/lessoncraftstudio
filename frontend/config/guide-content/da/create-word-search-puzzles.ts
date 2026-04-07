@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab ordsøgningspuslespil',
+    primaryKeyword: 'lav ordlege til print',
     secondaryKeywords: [
-      'ordsøgningspuslespil generator',
-      'printbar ordsøgning maker',
-      'ordsøgningspuslespil til salg',
-      'tilpasset ordsøgning med billeder',
+      'ordleg generator til print med billedledetråde',
+      'printbare ordlege til salg på Etsy.dk og Amazon KDP',
+      'ordlege til børnehaveklasse og indskoling til print',
+      'tilpassede ordlege med billeder kommerciel licens',
     ],
     lsiKeywords: [
-      'billedbaserede ordsøgning arbejdsark',
-      'flersprogede ordsøgningspuslespil',
-      'ordforråd ordsøgning for børn',
-      'sælg ordsøgningsbøger på KDP',
-      'Etsy ordsøgning printables',
-      'kommerciel licens puslespilværktøj',
+      'billedbaserede ordlege til print for børn',
+      'flersprogede ordlege puslespil til salg',
+      'ordforråd ordleg opgaver til børnehaveklasse',
+      'sælg ordleg-bøger på Amazon KDP passiv indkomst',
+      'Etsy.dk ordlege printables printbar forretning',
+      'kommerciel licens ordleg-værktøj sidegesjæft',
     ],
-    titleTag: 'Skab ordsøgningspuslespil — Trin-for-trin-guide',
-    metaDescription: 'Sådan generator du ordsøgningspuslespil med billedledetråde. Vælg temaer, indstil gitterstørrelse, konfigurér retninger, generér facit og sælg på Etsy og KDP.',
+    titleTag: 'Lav ordlege til print — Guide til salg på Etsy og KDP',
+    metaDescription: 'Lav ordlege til print med billedledetråde. Vælg temaer, indstil gitterstørrelse, konfigurér retninger, generér facit og sælg på Etsy.dk og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du ordsøgningspuslespil med billeder',
-    tagline: 'En trin-for-trin vejledning til at skabe tematiske, billedledetråd ordsøgningspuslespil du kan sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Ordsøgningspuslespil er en af de højest-volumen printable-kategorier på alle store markedspladser. De appellerer til børn der lærer ordforråd, brugere der øver stavning, sprogindlærere der opbygger ordgenkendelse og voksne der nyder puslespilbøger til afslapning. Denne guide fører dig gennem hele skabelsesprocessen med ordsøgningspuslespil-generatoren — fra at vælge mellem ordforråds-tilstand og tilpassede ordlister til at konfigurere gitterstørrelse, søgeretninger og sværhedsgrader. Generatoren understøtter 11 sprog, hvilket gør flersprogede ordsøgningsprodukter til en realistisk og profitabel niche. Uanset om du generator dit første puslespilprodukt eller bygger et ordsøgningsbogimperium på Amazon KDP, vil du have et færdigt, trykklart puslespil med et farvekodet facit ved slutningen af denne vejledning.',
+    title: 'Lav ordlege til print og sælg dem online',
+    tagline: 'En trin-for-trin vejledning til at skabe tematiske ordlege til print med billedledetråde du kan sælge på Etsy.dk, Amazon KDP og Gumroad',
+    description: 'Ordlege til print er en af de mest populære printable-kategorier på alle store markedspladser — fra Etsy.dk til Amazon KDP. De appellerer til børn i børnehaveklasse og indskoling der lærer ordforråd, sprogindlærere der opbygger ordgenkendelse og voksne der nyder puslespilbøger til afslapning. Denne guide fører dig gennem hele skabelsesprocessen med ordsøgningspuslespil-generatoren — fra at vælge mellem ordforråds-tilstand og tilpassede ordlister til at konfigurere gitterstørrelse, søgeretninger og sværhedsgrader. Generatoren understøtter 11 sprog, hvilket gør flersprogede ordsøgningsprodukter til en realistisk og profitabel niche. Uanset om du generator dit første puslespilprodukt eller bygger et ordsøgningsbogimperium på Amazon KDP, vil du have et færdigt, trykklart puslespil med et farvekodet facit ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Ordsøgningspuslespil indtager en unik position på printable-produktmarkedet. I modsætning til arbejdsark der betjener én aldersgruppe spænder ordsøgninger over hele aldersspektret — fra børnehavebørn der finder trebogstavs dyrenavne i et lille gitter til voksne der arbejder gennem komplekse tematiske puslespil i en 400-siders bog. Den universelle appel betyder enorm, vedvarende efterspørgsel på tværs af enhver salgskanal.\n\nHvad der gør ordsøgning særligt stærk som produktkategori er det rene volumen af bogmarkedet. På Amazon KDP rangerer ordsøgningsbøger konsekvent blandt de bedst sælgende aktivitetsbogkategorier. En enkelt veloptimeret ordsøgningsbog med 100 puslespil og facit kan generere stabile royalties i årevis. Adgangsbarrieren er lav, men sælgere der producerer tematiske, visuelt engagerende puslespil med billedledetråde skiller sig dramatisk ud fra den generiske tekst-kun konkurrence.\n\nOrdsøgningspuslespil-generatoren håndterer den tekniske kompleksitet ved puslespilskabelse for dig. Den placerer ord i et gitter med konfigurerbare retninger (horisontalt, vertikalt, diagonalt, baglæns), fylder resterende celler med tilfældige bogstaver, genererer farvekodede facit hvor hvert ord får en distinkt fremhævningsfarve, og understøtter billedledetråde der gør puslespil visuelt engagerende og pædagogiske. To skabelsestilstande — Ordforråds-tilstand og Tilpasset ordliste-tilstand — giver dig fleksibilitet til både tematiske billedbaserede produkter og tekst-kun tilpassede puslespil.\n\nEn stor differentiator er sprogunderstøttelse. Generatoren fungerer på 11 sprog, og fordi ordsøgningspuslespil ER ordene, ændrer sprog alt. En spansk ordsøgning bruger helt anderledes ordforråd end en engelsk for det samme tema. Dette åbner døren til flersprogede produktlinjer som de fleste konkurrenter helt ignorerer.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvepuslespil, teste enhver konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Ordlege til print indtager en unik position på markedspladser som Etsy.dk og Amazon KDP. I modsætning til opgaver til print der betjener én aldersgruppe spænder ordlege over hele aldersspektret — fra børn i børnehaveklasse der finder trebogstavs dyrenavne i et lille gitter til voksne der nyder komplekse tematiske puslespilbøger. Den universelle appel gør ordlege til en af de bedste nicher for din printbare forretning med passiv indkomst.\n\nHvad der gør ordlege særligt stærke som produktkategori er det rene volumen af bogmarkedet. På Amazon KDP rangerer ordsøgningsbøger konsekvent blandt de bedst sælgende aktivitetsbogkategorier. En enkelt veloptimeret ordsøgningsbog med 100 puslespil og facit kan generere stabile royalties i årevis. Adgangsbarrieren er lav, men sælgere der producerer tematiske, visuelt engagerende puslespil med billedledetråde skiller sig dramatisk ud fra den generiske tekst-kun konkurrence.\n\nOrdsøgningspuslespil-generatoren håndterer den tekniske kompleksitet ved puslespilskabelse for dig. Den placerer ord i et gitter med konfigurerbare retninger (horisontalt, vertikalt, diagonalt, baglæns), fylder resterende celler med tilfældige bogstaver, genererer farvekodede facit hvor hvert ord får en distinkt fremhævningsfarve, og understøtter billedledetråde der gør puslespil visuelt engagerende og pædagogiske. To skabelsestilstande — Ordforråds-tilstand og Tilpasset ordliste-tilstand — giver dig fleksibilitet til både tematiske billedbaserede produkter og tekst-kun tilpassede puslespil.\n\nEn stor differentiator er sprogunderstøttelse. Generatoren fungerer på 11 sprog, og fordi ordsøgningspuslespil ER ordene, ændrer sprog alt. En spansk ordsøgning bruger helt anderledes ordforråd end en engelsk for det samme tema. Dette åbner døren til flersprogede produktlinjer som de fleste konkurrenter helt ignorerer.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvepuslespil, teste enhver konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

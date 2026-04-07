@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'billeddiagram arbejdsark generator for sælgere',
+    primaryKeyword: 'tælleopgaver generator gratis online',
     secondaryKeywords: [
-      'piktogram arbejdsark generator online',
-      'diagramtælling arbejdsark for børn',
-      'printbare datadiagram arbejdsark for skolen',
-      'billeddiagram aktivitet generator for sælgere',
+      'tælle og diagram gratis',
+      'tælleopgaver prøv gratis',
+      'tælleaktiviteter gratis til print',
     ],
     lsiKeywords: [
-      'spredt billedgitter tællearbejdsark',
-      'autofacit billeddiagram generator',
-      'datarepræsentation arbejdsark online',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'tælle',
+      'diagram',
+      'streger',
     ],
-    titleTag: 'Billeddiagram Arbejdsark Generator — online | Online Værktøj',
-    metaDescription: 'Lav billeddiagram arbejdsark til matematik. Spredte 4×5 gitre, 6 billedtyper, automatiske facit, 11 sprog, 104. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis tælleopgaver generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv tælleopgaver-generatoren gratis online. Diagrammer, temabilleder, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Diagramtælling Arbejdsark Generator',
-    tagline: 'Billeddiagram arbejdsark generator med spredte billedgitre, automatisk genererede søjlediagram-facit, lokaliserede overskrifter på 11 sprog og 104 tematiske billedsamlinger for datarepræsentations arbejdsark, der sælger globalt',
-    description: 'Lav professionelle billeddiagram arbejdsark, hvor brugerne tæller spredte billeder og udfylder et søjlediagram nedenfor — underviser i dataindsamling og datarepræsentation i én enkelt aktivitet. Hvert arbejdsark har et 4×5-gitter med 20 ikoner fra 6 forskellige billedtyper, hver type forekommer 1–5 gange i en tilfældig fordeling, der gør hver generering unik. Under gitteret viser et søjlediagram med 6 kolonner × 5 rækker, hvor brugerne registrerer deres tælleresultater. Appen genererer samtidigt et facit på en separat arbejdsområdefane med gulmarkerede (#FFC857) celler, der viser de korrekte antal. Vælg billeder automatisk ved at vælge et tema fra dropdown — appen vælger tilfældigt 6 billeder — eller gennemse Billedbiblioteket manuelt med mere end 3.100 illustrationer i 104 tematiske samlinger og klik præcis 6 billeder. Hvert arbejdsark inkluderer en automatisk genereret overskrift med en lokaliseret \"Billeddiagram\"-titel, der tilpasses til alle 11 understøttede sprog. Tilføj navn- og datofelter med et enkelt afkrydsningsfelt. Anvend både baggrundstemaer og rammetemaer med uafhængige gennemsigtighedsskydere (0–1, trin 0,05). Diagramtælling Generatoren er ikke sprogfølsom — visuel tælling med universelle tal og billeder gør arbejdsarkene identisk brugbare på alle sprog. Download fire filer per session: arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF — alle med 300 DPI. Eksportér i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser med gråtonekontakt for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis tælleopgaver generator — prøv online med vandmærke',
+    tagline: 'Prøv tælleopgaver-generatoren gratis online — diagrammer, temabilleder, automatisk facit, ingen tilmelding',
+    description: 'Prøv vores tælleopgaver-generator gratis online med vandmærke. Lav billeddiagram-opgaver med tælle- og diagramøvelser, 104 temaer og automatisk facit — helt uden tilmelding. Hvert arbejdsark har et 4×5-gitter med 20 ikoner fra 6 forskellige billedtyper, hver type forekommer 1–5 gange i en tilfældig fordeling, der gør hver generering unik. Under gitteret viser et søjlediagram med 6 kolonner × 5 rækker, hvor brugerne registrerer deres tælleresultater. Appen genererer samtidigt et facit på en separat arbejdsområdefane med gulmarkerede (#FFC857) celler, der viser de korrekte antal. Vælg billeder automatisk ved at vælge et tema fra dropdown — appen vælger tilfældigt 6 billeder — eller gennemse Billedbiblioteket manuelt med mere end 3.100 illustrationer i 104 tematiske samlinger og klik præcis 6 billeder. Hvert arbejdsark inkluderer en automatisk genereret overskrift med en lokaliseret \"Billeddiagram\"-titel, der tilpasses til alle 11 understøttede sprog. Tilføj navn- og datofelter med et enkelt afkrydsningsfelt. Anvend både baggrundstemaer og rammetemaer med uafhængige gennemsigtighedsskydere (0–1, trin 0,05). Diagramtælling Generatoren er ikke sprogfølsom — visuel tælling med universelle tal og billeder gør arbejdsarkene identisk brugbare på alle sprog. Download fire filer per session: arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF — alle med 300 DPI. Eksportér i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser med gråtonekontakt for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Billeddiagram Arbejdsark i 8 Trin',
+    title: 'Sådan laver du gratis tælleopgaver med diagrammer i 8 trin',
     steps: [
       {
         title: 'Åbn Diagramtælling Arbejdsark Generatoren',
@@ -155,12 +157,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner låst op — dobbeltarbejdsområde-systemet, spredt billedgitter-generering, søjlediagramoprettelse, autogenereret facit med gulmarkerede celler, alle 104 tematiske billedsamlinger, automatisk og manuelt billedvalg, lokaliserede overskrifter, baggrunds- og rammetemaer, navn/dato-felter, gråtoneeksport og alle downloadformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke.',
+      question: 'Er tælleopgaver-generatoren gratis at prøve online?',
+      answer: 'Ja. Prøv tælleopgaver-generatoren gratis online med alle funktioner — tælle- og diagramøvelser, 104 billedtemaer, automatisk facit med gulmarkerede celler, baggrunds- og rammetemaer, gråtoneeksport og alle downloadformater. Ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvordan fungerer billeddiagram arbejdsarket?',
-      answer: 'Hvert arbejdsark har to sammenkoblede dele. Den øvre sektion viser et 4×5-gitter med 20 spredte ikoner fra 6 forskellige billedtyper — hver type forekommer 1–5 gange i en tilfældig fordeling. Den nedre sektion viser et søjlediagram med 6 kolonner × 5 rækker. Brugerne tæller, hvor mange af hver billedtype der findes i gitteret, og farvelægger derefter det tilsvarende antal celler. Dette underviser i både dataindsamling (tælling) og datarepræsentation (diagram) i én enkelt aktivitet.',
+      question: 'Hvad indeholder den gratis tælleopgave-generator?',
+      answer: 'Den gratis prøveversion giver fuld adgang: spredte billedgitre med 20 ikoner, søjlediagrammer med 6 kolonner, automatisk facit, 104 temaer, lokaliserede overskrifter på 11 sprog og 300 DPI PDF/JPEG. Det eneste, der adskiller prøveversionen, er et vandmærke. Ingen tilmelding krævet.',
+    },
+    {
+      question: 'Hvordan fungerer de gratis tælleopgaver med diagram?',
+      answer: 'Hvert arbejdsark har to sammenkoblede dele. Den øvre sektion viser et 4×5-gitter med 20 spredte ikoner fra 6 forskellige billedtyper. Den nedre sektion viser et søjlediagram med 6 kolonner × 5 rækker. Børn tæller, hvor mange af hver billedtype der findes, og farvelægger det tilsvarende antal celler i diagrammet.',
     },
     {
       question: 'Hvordan fungerer det automatisk genererede facit?',
@@ -214,22 +220,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/chart%20count/Billediagram%201.webp',
-      primaryAlt: 'Billeddiagram arbejdsark med spredt 4×5 billedgitter, der viser 20 ikoner fra 6 typer og tomt søjlediagram for brugerne at tælle og diagrammere data',
+      primaryAlt: 'Gratis tælleopgaver generator online — billeddiagram med spredte ikoner og søjlediagram til tælleøvelse',
     },
     sampleGallery: [
       {
         src: '/samples/danish/chart%20count/Billediagram%201.webp',
-        alt: 'Dyretema billeddiagram arbejdsark med 20 spredte dyreikoner i et 4×5-gitter og 6-kolonne søjlediagram nedenfor til tælleøvelse',
+        alt: 'Gratis tælleopgaver med dyretema — 20 spredte ikoner og søjlediagram prøv online',
         caption: 'Dyretema billeddiagram — 6 dyretyper spredt i gitteret med søjlediagram nedenfor til datarepræsentationsøvelse',
       },
       {
         src: '/samples/danish/chart%20count/Billediagram%202.webp',
-        alt: 'Billeddiagram arbejdsark med dekorativt baggrunds- og rammetema anvendt med uafhængige gennemsigtighedskontroller',
+        alt: 'Gratis tælleopgaver med dekorativt baggrunds- og rammetema — prøv uden tilmelding',
         caption: 'Dekoreret billeddiagram — baggrunds- og rammetemaer med uafhængige gennemsigtighedskontroller for professionel produktstyling',
       },
       {
         src: '/samples/danish/chart%20count/Billediagram%203.webp',
-        alt: 'Billeddiagram facit med gulmarkerede celler, der viser korrekte antal for hver af de 6 billedtyper i søjlediagrammet',
+        alt: 'Gratis tælleopgaver facit med gulmarkerede celler i søjlediagrammet',
         caption: 'Automatisk genereret facit — guludfyldte celler (#FFC857) viser det korrekte antal for hver billedtype',
       },
     ],

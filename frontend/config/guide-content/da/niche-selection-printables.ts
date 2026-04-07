@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'nichevalg til printable-virksomheder',
+    primaryKeyword: 'nichevalg for printables',
     secondaryKeywords: [
       'printable niche-research',
       'profitable printable-nicher',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'nichestabling multi-niche strategi nichedybde produkt-markeds tilpasning',
       'nøgleordsefterspørgsel søgevolumen markedspladstendenser køberintentionssignaler',
     ],
-    titleTag: 'Nichevalg til printable-virksomheder — Guide',
-    metaDescription: 'Nichevalg til printable-virksomheder: undersøg efterspørgsel, analysér konkurrence, evaluér profitabilitet, validér før du forpligter dig og planlæg udvidelse.',
+    titleTag: 'Nichevalg for printables — Guide til din printbare forretning',
+    metaDescription: 'Nichevalg for printables: undersøg efterspørgsel, analysér konkurrence, evaluér profitabilitet og find den bedste niche til din printbare forretning.',
   },
 
   hero: {

@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'saelg aktivitetsboeger paa amazon kdp guide saelgerguide aktivitetsbog',
+    primaryKeyword: 'KDP aktivitetsbøger kom i gang sælg på Amazon',
     secondaryKeywords: [
-      'Amazon KDP aktivitetsboeger',
-      'publicer puslespilboeger paa KDP',
-      'KDP aktivitetsbog forretning',
-      'udgiv aktivitetsboeger Amazon',
+      'Amazon KDP aktivitetsbøger til print passiv indkomst',
+      'publicer regneopgaver puslespilbøger KDP',
+      'KDP aktivitetsbog sidegesjæft Danmark',
+      'udgiv opgavebøger Amazon print-on-demand',
     ],
     lsiKeywords: [
-      'Kindle Direct Publishing aktivitetsboeger',
-      'KDP interiorformatering arbejdsark',
-      'KDP omslagsdesign aktivitetsboeger',
-      'Amazon backend-noegleord puslespilboeger',
-      'KDP royaltyberegning aktivitetsboeger',
-      'print-on-demand aktivitetsbog forretning',
+      'Kindle Direct Publishing opgavebøger til print',
+      'KDP interiorformatering regneopgaver ordleg',
+      'KDP omslagsdesign aktivitetsbøger børn',
+      'Amazon backend-nøgleord puslespilbøger malebilleder',
+      'KDP royaltyberegning aktivitetsbøger printbar forretning',
+      'print-on-demand aktivitetsbog sidegesjæft Saxo.com',
     ],
-    titleTag: 'Saelg aktivitetsboeger paa Amazon KDP — Guide — Saelgerguide',
-    metaDescription: 'Laer at saelge aktivitetsboeger paa Amazon KDP. Interiorformatering, omslagsdesign, noegleordsstrategi, prissaetning og skalering af dit KDP-bogforretning.',
+    titleTag: 'KDP aktivitetsbøger kom i gang — sælg på Amazon | Sælgerguide',
+    metaDescription: 'Lær at sælge aktivitetsbøger på Amazon KDP. Interiorformatering, omslagsdesign, nøgleordsstrategi og prissætning. Passiv indkomst med printbar forretning.',
   },
 
   hero: {
-    title: 'Amazon KDP aktivitetsbog — forretningsguide',
-    tagline: 'Publicer og saelg professionelle aktivitetsboeger paa Amazon med print-on-demand — intet lager, ingen startomkostninger',
-    description: 'Amazon KDP giver dig adgang til verdens stoerste bogmarkedsplads uden lagerrisiko. Denne guide daekker hvert trin i at bygge en profitabel aktivitetsbog-forretning paa KDP — fra interiorformatering og omslagsdesign til noegleordsforskning, prissaetning, kategorivalg og katalogskalering. Uanset om du publicerer din foerste puslespilbog eller udvider en eksisterende printbar virksomhed til Amazon — dette er din KDP-specifikke handlingsplan.',
+    title: 'Amazon KDP aktivitetsbøger — kom i gang',
+    tagline: 'Publicer og sælg professionelle opgavebøger på Amazon med print-on-demand — intet lager, ingen startomkostninger',
+    description: 'Amazon KDP giver dig adgang til verdens største bogmarkedsplads uden lagerrisiko — ideel til passiv indkomst med printbar forretning. Denne guide dækker hvert trin i at bygge en profitabel aktivitetsbog-forretning på KDP — fra interiorformatering og omslagsdesign til nøgleordsforskning, prissætning, kategorivalg og katalogskalering. Uanset om du publicerer din foerste puslespilbog eller udvider en eksisterende printbar virksomhed til Amazon — dette er din KDP-specifikke handlingsplan.',
   },
 
   introduction: 'Amazon saelger flere boeger end nogen anden forhandler i verden, og aktivitetsboeger er en af de hurtigst voksende kategorier inden for boerne- og puslespilboeger. I modsaetning til Etsy hvor du saelger individuelle digitale downloads, trykker Amazon KDP fysiske boeger on demand og sender dem direkte til kunderne. Du uploader en PDF-interior og en omslagsfil, saetter din pris, og Amazon haandterer tryk, forsendelse, kundeservice og returneringer.\n\nDenne print-on-demand-model eliminerer de to stoerste forhindringer i traditionel bogudgivelse: forudgaaende trykkeomkostninger og lagerrisiko. Du betaler aldrig for at trykke et eneste eksemplar. Amazon trykker hver bog foerst efter at en kunde har bestilt den. Din fortjeneste er forskellen mellem din listepris og Amazons trykkeomkostning, ganget med din valgte royaltysats.\n\nDenne guide er KDP-specifik fra start til slut. Generel strategi for printbar forretning findes i vores Komplette guide til at starte en printbar forretning, og Etsy-specifikke taktikker daekkes i Etsy-guiden for printbare produkter. Her er enhver anbefaling tilpasset Amazons platform, algoritme og koebberadfaerd.\n\nEn vigtig note: hver arbejdsarksgenerator naevnt i denne guide tilbyder en gratis proeveversion med vandmaerke. Du kan lave proevesider for aktivitetsboeger, teste formatering og evaluere kvaliteten foer du koeber en kommerciel licens til publicering paa KDP.',

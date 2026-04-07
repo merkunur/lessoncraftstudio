@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mønsterarbejdsark generator',
+    primaryKeyword: 'logiske rækkefølger opgaver til print',
     secondaryKeywords: [
-      'mønstergenkendelse arbejdsark sælg på Etsy',
-      'mønster arbejdsark generator til Amazon KDP',
-      'mønstersekvens arbejdsark kommerciel licens',
-      'printbare mønsterøvelser til Gumroad',
+      'fortsæt rækkefølgen opgave',
+      'visuel logik opgave',
+      'logisk tænkning opgaver',
+      'talrækker opgave',
     ],
     lsiKeywords: [
-      'digitale mønsterfuldendelse produkter online forretning',
-      'printbare visuelle mønster arbejdsark business',
-      'mønstergenkendelse generator kommercielt brug',
+      'rækkefølge logik tænkning visuel',
+      'talrækker indskoling mellemtrin',
+      'logiske rækkefølger mønster opgaver printbare',
     ],
-    titleTag: 'Mønsterarbejdsark Generator | Opret og Sælg Online',
-    metaDescription: 'Opret mønsterarbejdsark til salg på Etsy, KDP og Gumroad. Ni mønstertyper, to spørgsmålstilstande, øvelsesvis konfiguration, 104 temaer. $49 engangsbetaling.',
+    titleTag: 'Logiske rækkefølger opgaver til print | Generator',
+    metaDescription: 'Lav øvelser i logiske rækkefølger med temabilleder. Automatisk facit, 300 DPI PDF. Prøv gratis.',
   },
 
   hero: {
-    title: 'Mønsterarbejdsark Generator til Gitterbaserede Mønsterfuldendelsesøvelser',
-    tagline: 'Ni mønstertyper fra AB til ABCD — to spørgsmålstilstande (udfyld-feltet og flervalg) — med øvelsesvis uafhængig konfiguration for mønstertype, spørgsmålstilstand og tema på hver side.',
+    title: 'Logiske rækkefølger opgaver til print — visuel logik og tænkning',
+    tagline: 'Ni mønstertyper fra AB til ABCD — to opgavetilstande (udfyld-feltet og flervalg) — med øvelsesvis uafhængig konfiguration for logisk tænkning fra indskoling til mellemtrin.',
     description:
-      'Design professionelle mønsterfuldendelsesarbejdsark, hvor brugerne identificerer gentagne sekvenser og udfylder det manglende element — eller vælger det korrekte svar fra flervalgsmuligheder. Ni distinkte mønstertyper dækker hvert niveau af sekvenskompleksitet: AB alternerer to elementer, AAB og ABB introducerer asymmetriske grupperinger, ABC roterer tre elementer, AABB parrer to af hver, ABBC og AABC tilføjer trebilleds asymmetriske mønstre, ABCC forlænger med fordoblet slutning, og ABCD roterer fire forskellige elementer for maksimal udfordring. To spørgsmålstilstande generator fundamentalt forskellige øvelser fra hver mønstertype: Tomt Felt erstatter et element med et tomt rum, som brugerne skal udfylde, mens Vælg Blandt Alternativer viser det tomme felt plus tre svarvalg med ét korrekt og to distraktorer. Konfigurer 1–8 øvelser per side med hver øvelse uafhængigt indstillet for mønstertype, spørgsmålstilstand og tema — en side kan blande en AB udfyld-feltet-øvelse med en ABCD flervalgsøvelse. Aktiver Tilfældig Start for at begynde mønstre midt i cyklussen og Tilfældig Tom Position for at placere det manglende element hvor som helst i sekvensen for øget sværhed. Indhold hentes fra det indbyggede billedbibliotek med mere end 3.100 illustrationer i 104 temaer. En separat facitfane viser alle tomme felter udfyldt med de korrekte mønsterelementer til øjeblikkelig verifikation. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med høj DPI i Letter-, A4-, Kvadrat- eller brugerdefineret format. Hvert arbejdsark er helt visuelt med udelukkende billeder i gitterrækker og nul tekst på resultatet, hvilket gør produkterne universelt salgbare uden oversættelse. Uanset om du opretter mønstergenkendelsespakker på Etsy.dk, sammensætter tidlige læringsarbejdsbøger til Amazon KDP eller bygger niveauinddelte visuelle stationer til Gumroad — Mønsterarbejdsark Generatoren leverer den bredeste variation af mønsterøvelser tilgængelig. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Generér printbare opgaver i logiske rækkefølger, hvor børn skal fortsætte rækkefølgen og udfylde det manglende element — eller vælge det korrekte svar fra flervalgsmuligheder. Ni mønstertyper dækker hvert trin af visuel logik og logisk tænkning: AB alternerer to elementer, AAB og ABB introducerer asymmetriske grupperinger, ABC roterer tre elementer, AABB parrer to af hver, ABBC og AABC tilføjer trebilleds-variationer, ABCC forlænger med fordoblet slutning, og ABCD roterer fire elementer for maksimal udfordring. Med det danske marked på kun 5,8 millioner indbyggere er udbuddet af printbare logiske rækkefølger-opgaver på dansk minimalt — det giver sælgere på Etsy.dk og Amazon KDP en klar mulighed for at dække en uopfyldt efterspørgsel. Danske skoler bruger begreberne børnehaveklasse (5-6 år), indskoling 0.-3. klasse og mellemtrin 4.-6. klasse, og forældre og lærere søger aktivt efter visuel logik-opgaver og logisk tænkning-øvelser til disse aldersgrupper. To opgavetilstande fordobler produktvariationen: Tomt Felt erstatter et element med et tomt rum, mens Vælg Blandt Alternativer viser tre svarvalg med ét korrekt og to distraktorer. Konfigurer 1-8 øvelser per side med hver øvelse uafhængigt indstillet for mønstertype, tilstand og tema. Aktiver Tilfældig Start for at begynde rækkefølger midt i cyklussen og Tilfældig Tom Position for øget sværhed. Indhold hentes fra billedbiblioteket med over 3.100 illustrationer i 104 temaer. En separat facitfane viser alle tomme felter udfyldt med de korrekte elementer. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter-, A4-, Kvadrat- eller brugerdefineret format. Hvert opgaveark er helt visuelt med nul tekst på resultatet, hvilket gør produkterne universelt salgbare. Uanset om du sælger opgavepakker med logiske rækkefølger på Etsy.dk, sammensætter aktivitetsbøger med visuel logik til Amazon KDP eller bygger niveauinddelte logisk tænkning-øvelser til Gumroad — denne generator leverer den bredeste variation af mønsteropgaver. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Mønsterarbejdsark i 5 Trin',
+    title: 'Sådan laver du opgaver i logiske rækkefølger i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Mønsterarbejdsark Generatoren',
+    title: 'Nøglefunktioner i generatoren til logiske rækkefølger',
     features: [
       {
         title: 'Ni mønstertyper fra simpelt AB til komplekst ABCD',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Mønsterarbejdsark Online',
+    title: 'Sådan sælger du opgaver i logiske rækkefølger online',
     cases: [
       {
         title: 'Mønsterfuldendelsespakker på Etsy.dk',
@@ -140,64 +140,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvad er de ni mønstertyper, og hvordan adskiller de sig?',
+      question: 'Kan jeg sælge disse logiske rækkefølger-opgaver på Etsy?',
       answer:
-        'AB alternerer to elementer (A-B-A-B) for det enkleste mønster. AAB grupperer to af ét derefter ét af et andet (A-A-B-A-A-B). ABB vender den gruppering (A-B-B-A-B-B). ABC roterer tre elementer (A-B-C-A-B-C). AABB parrer to af hver (A-A-B-B-A-A-B-B). ABBC placerer to B mellem A og C. AABC indleder med to A før B og C. ABCC afslutter med to C efter A og B. ABCD roterer fire forskellige elementer for maksimal kompleksitet. Progressionen fra 2-billeds til 4-billedsmønstre generator en naturlig sværhedsstige fra børnehave til tidlig grundskole.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine opgaver i logiske rækkefølger som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som ressourcer på Gumroad eller via enhver anden salgskanal. Ni mønstertyper, to opgavetilstande og øvelsesvis konfiguration giver dig den bredeste produktvariation. Det danske marked med 5,8 millioner indbyggere har minimalt udbud af printbare logik-opgaver på dansk.',
     },
     {
-      question: 'Hvad er de to spørgsmålstilstande, og hvordan fungerer de?',
+      question: 'Hvordan laver jeg opgaver i logiske rækkefølger?',
       answer:
-        'Tomt Felt-tilstand erstatter et element i mønsteret med et tomt rum — brugerne skal identificere mønsteret og bestemme det manglende element uden ledetråde. Vælg Blandt Alternativer-tilstand viser det tomme felt ved siden af tre svarvalg: ét korrekt element og to distraktorer fra forskellige positioner i mønsteret. Tomt Felt tester åbent ræsonnement; Flervalg tester genkendelse med strukturerede alternativer. Begge tilstande fungerer med alle ni mønstertyper, hvilket giver dig 18 distinkte øvelsesstile.',
+        'Vælg en af ni mønstertyper (AB gennem ABCD), vælg opgavetilstand (tomt felt eller flervalg), og konfigurer 1-8 øvelser per side med uafhængige indstillinger per øvelse. Vælg billeder fra 104 tematiske samlinger med over 3.100 illustrationer. Generatoren opretter gitterbaserede rækkefølge-opgaver med et manglende element, som barnet skal udfylde. Download som trykfærdig PDF eller JPEG med 300 DPI.',
     },
     {
-      question: 'Hvordan fungerer øvelsesvis konfiguration?',
+      question: 'Er opgaverne egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Hver øvelse på siden har uafhængige indstillinger for mønstertype, spørgsmålstilstand og billedtema. Du kan indstille Øvelse 1 som en AB tomt-felt med bondegårdsdyr, Øvelse 2 som en ABC flervalg med køretøjer og Øvelse 3 som en ABCD tomt-felt med havdyr — alt på den samme side. Det betyder, at et arbejdsark kan fungere som en komplet niveauinddelt aktivitet med indbygget progressiv sværhed, i stedet for at have brug for separate sider til hver mønstertype eller spørgsmålstilstand.',
+        'Ja. Til børnehaveklasse (5-6 år) bruger du AB- og AAB-mønstre med tomt-felt-tilstand for enkel visuel logik. Til indskoling 0.-3. klasse passer ABC- og AABB-mønstre med flervalgsøvelser. Til mellemtrin 4.-6. klasse bruger du ABCD-mønstre med tilfældig start og tilfældig tom position for avanceret logisk tænkning. Øvelsesvis konfiguration giver dig mulighed for at blande sværhedsgrader på samme side.',
     },
     {
-      question: 'Hvad gør indstillingerne Tilfældig Start og Tilfældig Tom Position?',
+      question: 'På hvor mange sprog kan jeg lave rækkefølge-opgaver?',
       answer:
-        'Start fra Tilfældigt Element begynder mønsteret ved et tilfældigt punkt i cyklussen i stedet for altid ved det første element — et ABC-mønster kan begynde ved C-A-B-C i stedet for A-B-C. Tilfældig Tom Position placerer det manglende element hvor som helst i sekvensen i stedet for på en fast plads. Sammen forhindrer disse indstillinger, at brugerne løser mønstre ved rutine og sikrer, at hvert genereret arbejdsark præsenterer en ny udfordring, selv med den samme mønstertype og tema.',
+        'Generatoren understøtter 11 brugerfladesprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Selve opgavearkene er helt visuelle med udelukkende billeder i gitterrækker og nul tekst på resultatet — det samme produkt fungerer identisk på alle sprog uden oversættelse. At skifte sprog påvirker kun brugerfladen i generatoren.',
     },
     {
-      question: 'Hvor mange øvelser kan jeg lægge på en side?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Du kan indstille 1 til 8 øvelser per side, med standard 5. Færre øvelser per side generator større, tydeligere gitterrækker, ideelle til yngre brugere eller fokuseret øvelse. Flere øvelser generator tættere arbejdsark, egnede til bedømmelse eller gennemgang. Kombineret med øvelsesvis konfiguration kan 8 øvelser på en side præsentere 8 forskellige mønstertyper eller blande tomt-felt- og flervalgstilstande for omfattende øvelse.',
+        'Ja. En separat facitfane viser det komplette opgaveark med alle tomme felter udfyldt med de korrekte mønsterelementer. For flervalgsøvelser angives det korrekte svar tydeligt. Begge lærreder kan redigeres uafhængigt, og begge downloades som separate filer. Facitlisten er automatisk genereret og altid synkroniseret med opgaven.',
     },
     {
-      question: 'Hvordan vælger jeg billeder til hver øvelse?',
+      question: 'Hvad er de ni mønstertyper?',
       answer:
-        'Tre muligheder er tilgængelige per øvelse: anvend et tema for automatisk at vælge koordinerede billeder fra det 104-samlings-store bibliotek, gennemse manuelt og vælg specifikke billeder, eller upload egne billeder. Mønstertypen bestemmer, hvor mange distinkte billeder der er nødvendige: AB, AAB, ABB og AABB bruger 2 billeder; ABC, ABBC, AABC og ABCC bruger 3 billeder; og ABCD bruger 4 billeder. Hver øvelse kan bruge et anderledes tema for maksimal visuel variation.',
-    },
-    {
-      question: 'Hvordan fungerer facit for mønsterarbejdsark?',
-      answer:
-        'Facit lever på en separat lærredsfane, der viser det komplette arbejdsark med alle tomme felter udfyldt med de korrekte mønsterelementer. For flervalgsøvelser angives det korrekte svar tydeligt. Begge lærreder kan redigeres uafhængigt, så du kan tilpasse facit separat fra arbejdsarket. Arbejdsarket og facit downloades som separate filer, hvilket giver købere en komplet produktpakke med verificerede løsninger.',
-    },
-    {
-      question: 'Hvordan adskiller Mønsterarbejdsark sig fra Mønstertog?',
-      answer:
-        'Mønsterarbejdsark bruger et gitterbaseret layout med 1–8 uafhængigt konfigurerede øvelser per side, ni mønstertyper (AB gennem ABCD) og to spørgsmålstilstande (tomt felt og flervalg). Mønstertog viser et enkelt mønster over 11 tematiske togvogne i et distinkt visuelt format med fem mønstertyper (AB gennem AABB) og justerbart antal ledetråde. Mønsterarbejdsark udmærker sig i volumen, variation og blandede sværhedssider; Mønstertog udmærker sig i visuelt engagement med sit unikke togvognsformat.',
+        'AB alternerer to elementer. AAB og ABB introducerer asymmetriske grupperinger. ABC roterer tre elementer. AABB parrer to af hver. ABBC og AABC tilføjer trebilleds-variationer. ABCC forlænger med fordoblet slutning. ABCD roterer fire forskellige elementer for maksimal kompleksitet. Progressionen fra 2-billeds til 4-billedsmønstre giver en naturlig sværhedsstige fra børnehaveklasse til mellemtrin.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — alle ni mønstertyper, begge spørgsmålstilstande, øvelsesvis konfiguration, billedbiblioteket, tilfældig start og tilfældig tom position, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Er Mønsterarbejdsark-generatoren sprogfølsom?',
-      answer:
-        'Nej. Mønsterarbejdsark er en rent visuel app — arbejdsarkene indeholder udelukkende billeder i gitterrækker med nul tekst på resultatet, så de er identiske på ethvert sprog. At skifte sprog påvirker kun brugerfladeettiketter i generatoren og billedbibliotekssproget, ikke arbejdsarket i sig selv. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog.',
-    },
-    {
-      question: 'Kan jeg sælge arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine mønsterarbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som pædagogiske ressourcer på Gumroad eller via enhver anden salgskanal. Ni mønstertyper, to spørgsmålstilstande og øvelsesvis konfiguration giver dig den bredeste produktvariation og differentiering i markedsplads-kategorier.',
+        'Ja. Du kan bruge alle funktioner — alle ni mønstertyper, begge opgavetilstande, øvelsesvis konfiguration, billedbiblioteket, tilfældig start og tilfældig tom position, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver mønstertype, hver spørgsmålstilstand, hver øvelseskonfiguration, hvert tema, hvert eksportformat og hvert sideformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver mønstertype, hver opgavetilstand, hver øvelseskonfiguration, hvert tema, hvert eksportformat og hvert sideformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
     },
   ],
 
@@ -262,23 +242,23 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/pattern%20worksheet/M%C3%B8nsterg%C3%A5der%201.webp',
-      primaryAlt: 'Mønsterfuldendelsesarbejdsark med gitterbaserede øvelser, der viser gentagne billedmønstre med tomme felter og flervalgsposter',
+      primaryAlt: 'Logiske rækkefølger opgave til print med gitterbaserede øvelser, der viser gentagne billedmønstre med tomme felter og flervalg',
     },
     sampleGallery: [
       {
         src: '/samples/danish/pattern%20worksheet/Mønstergåder%201.webp',
-        alt: 'Mønsterarbejdsark med AB udfyld-feltet-øvelser og dyrebilleder i gitterlayout med tomme felter, som brugerne skal fuldende',
-        caption: 'AB tomt-felt-øvelser med dyretema — brugerne identificerer det alternerende mønster og udfylder det manglende billede',
+        alt: 'Logiske rækkefølger opgave med AB udfyld-feltet-øvelser og dyrebilleder i gitterlayout med tomme felter',
+        caption: 'AB tomt-felt-øvelser med dyretema — barnet fortsætter rækkefølgen og udfylder det manglende billede',
       },
       {
         src: '/samples/danish/pattern%20worksheet/Mønstergåder%202.webp',
-        alt: 'Mønsterarbejdsark med ABC flervalgsøvelser med tematiske billeder og tre svaralternativer per øvelse',
-        caption: 'ABC flervalgsøvelser — brugerne vælger det korrekte manglende element blandt tre alternativer',
+        alt: 'Visuel logik opgave med ABC flervalgsøvelser med tematiske billeder og tre svaralternativer per øvelse',
+        caption: 'ABC flervalgsøvelser — barnet vælger det korrekte manglende element i den logiske rækkefølge',
       },
       {
         src: '/samples/danish/pattern%20worksheet/Mønstergåder%203.webp',
-        alt: 'Mønsterarbejdsark facit, der viser alle tomme positioner udfyldt med de korrekte mønsterelementer',
-        caption: 'Facit — alle tomme felter udfyldt med korrekte mønsterelementer til lærerverifikation',
+        alt: 'Facit til logiske rækkefølger opgave, der viser alle tomme positioner udfyldt med korrekte elementer',
+        caption: 'Facit — alle tomme felter udfyldt med korrekte mønsterelementer til kontrol',
       },
     ],
     youtubeId: 'W94X5_RA3ug',

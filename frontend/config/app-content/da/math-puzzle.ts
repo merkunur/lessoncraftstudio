@@ -2,31 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mattepuslespil arbejdsark generator',
+    primaryKeyword: 'regnespil til print',
     secondaryKeywords: [
-      'printbare mattepuslespil arbejdsark til Etsy sælgere',
-      'billedpuslespil arbejdsark generator til Amazon KDP',
-      'mattepuslespil arbejdsark sælg på Gumroad',
-      'mattepuslespil printables kommerciel licens',
+      'matematik puslespil opgaver',
+      'regnegåder til print',
+      'sjove regneopgaver',
+      'legende matematikopgaver',
     ],
     lsiKeywords: [
-      'digitale mattepuslespil produkter online forretning',
-      'printbare puslespilarbejdsark business',
-      'kommercielt brug mattepuslespil generator',
+      'puslespil',
+      'billeder',
+      'kombinere',
+      'logik',
+      'tænke',
     ],
-    titleTag: 'Mattepuslespil Generator | Opret og Sælg Printables',
-    metaDescription: 'Opret mattepuslespil arbejdsark til salg på Etsy, KDP og Gumroad. Billedpuslespil med addition og subtraktion, justerbare gitter. $49 engangsbetaling.',
+    titleTag: 'Regnespil til print | Generator matematikpuslespil',
+    metaDescription: 'Lav matematik-puslespil med billeder hvor børn løser stykker for at matche figurer. Facit inkluderet. Prøv gratis.',
   },
 
   hero: {
-    title: 'Mattepuslespil Arbejdsark Generator til Visuelle Matematikudfordringer',
-    tagline: 'Kombinér matematikøvelse med puslespilsglæde — hver brik indeholder en matematikopgave, hver løsning afslører billedet.',
+    title: 'Regnespil til print — generator til matematik-puslespil med billeder',
+    tagline: 'Lav sjove regneopgaver som puslespil — børnene løser stykker for at kombinere brikker og afsløre billedet.',
     description:
-      'Opret engagerende mattepuslespil arbejdsark, hvor et billede deles op i et gitter af brikker, hver med en additions- eller subtraktionsopgave. Brugerne løser opgaverne og kobler de numrerede svar til de blandede puslespilsbrikker under gitteret — så forvandles rutinemæssig regning til et visuelt mysterium. Konfigurer gitterstørrelser fra 2×2 til 4×4 for at oprette puslespil med 4 til 16 brikker, og vælg addition, subtraktion eller blandede operationer for at tilpasse til ethvert færdighedsniveau. Gennemse mere end 3.100 omhyggeligt udvalgte illustrationer i 104 temaer som bondegårdsdyr, rummet, dinosaurer og højtider for at gøre hvert puslespil unikt. Hvert arbejdsark genererer en automatisk facitliste med det løste gitter ved siden af det fuldstændigt samlede billede. Eksporter trykklare PDF\'er og JPEG\'er med 400+ DPI i Letter-, A4- eller brugerdefinerede formater. Uanset om du sælger tematiske puslespilspakker på Etsy.dk, sammensætter progressive aktivitetsbøger til Amazon KDP, eller opretter praktiske matematikstationer til din produktlinje — Mattepuslespil Generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav regnespil til print, hvor et billede deles op i et gitter af puslespilsbrikker, og hver brik indeholder en matematikopgave. Børnene løser stykkerne og kobler de nummererede svar til de blandede brikker under gitteret — så forvandles regning til et sjovt visuelt mysterium. Det er legende matematikopgaver, der kombinerer logik, tænkning og puslespilsglæde i ét ark. Konfigurer gitterstørrelser fra 2×2 til 4×4 for at lave regnegåder med 4 til 16 brikker, og vælg addition, subtraktion eller blandede operationer. Det danske marked for matematik puslespil opgaver er næsten ubesat. Med 5,8 millioner dansktalende og stigende interesse for printbare regnespil på Etsy.dk er søgeord som \"regnegåder til print\" og \"sjove regneopgaver\" nicher med lav konkurrence. Brug generatoren til at lave legende matematikopgaver til børnehaveklasse (indskoling), 1.–2. klasse og mellemtrin. Gennemse mere end 3.100 illustrationer i 104 temaer som bondegårdsdyr, rummet, dinosaurer og højtider for at gøre hvert puslespil unikt. Hvert arbejdsark genererer en automatisk facitliste med det løste gitter ved siden af det samlede billede. Eksporter trykklare PDF\'er med 400+ DPI i Letter-, A4- eller brugerdefinerede formater. Uanset om du sælger puslespilspakker på Etsy.dk, sammensætter regnegåde-bøger til Amazon KDP, eller laver matematik-stationer — denne regnespil generator leverer professionelle resultater på få minutter. Prøv gratis med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Mattepuslespil Arbejdsark i 5 Trin',
+    title: 'Sådan laver du regnespil til print i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Mattepuslespil Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i regnespil-generatoren',
     features: [
       {
         title: 'Billedpuslespilformat med matematikopgaver',
@@ -103,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Mattepuslespil Arbejdsark Online',
+    title: 'Sådan sælger du regnespil og matematikpuslespil online',
     cases: [
       {
         title: 'Tematiske mattepuslespilpakker på Etsy.dk',
@@ -140,49 +142,34 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvordan fungerer mattepuslespilsformatet?',
+      question: 'Kan jeg sælge disse regnespil på Etsy?',
       answer:
-        'Et valgt billede deles op i et gitter af celler. Hver celle indeholder en matematikopgave (addition, subtraktion eller blandet). Under gitteret vises de samme billedbrikker blandet og nummereret. Brugerne løser hver matematikopgave og kobler svaret til den rigtige blandede brik — når alle brikker er korrekt koblet, er puslespillet løst og hele billedet afsløret. Denne afsløjningsmekanisme tilføjer et motivationslag, som almindelige øvelsesark mangler, hvilket gør, at brugerne bliver begejstrede for at afslutte hvert problem i stedet for at give op halvvejs.',
+        'Ja. Med en kommerciel licens har du alle rettigheder til at sælge dine matematik-puslespil som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som printbare produkter på Gumroad, eller via enhver anden salgskanal. Der er ingen royalties per salg, ingen månedlige gebyrer og ingen begrænsning på antallet af regnespil, du producerer eller sælger.',
     },
     {
-      question: 'Hvilke gitterstørrelser er tilgængelige for puslespillene?',
+      question: 'Hvordan laver jeg regnespil til print?',
       answer:
-        'Du kan indstille rækker fra 2 til 4 og kolonner fra 2 til 4, hvilket generator puslespil med 4 brikker (2×2) til 16 brikker (4×4). Mindre gitter er perfekte til yngre brugere eller hurtige aktiviteter, mens større gitter tilbyder flere opgaver og en større puslespilsudfordring. Dette udvalg af gittermuligheder gør det også nemt at oprette lagdelte produktpakker — grupper lette, mellemsvære og svære puslespil i et tilbud, der appellerer til købere på tværs af flere aldersgrupper.',
+        'Åbn regnespil-generatoren, indstil antal rækker og kolonner (2×2 til 4×4), vælg operation (addition, subtraktion eller blandet), vælg et billede fra 104 temaer, og klik Generer. Billedet deles automatisk op i puslespilsbrikker, og børnene løser stykker for at kombinere brikkerne. Facit oprettes automatisk. Eksporter som trykfærdig PDF med 400+ DPI.',
     },
     {
-      question: 'Hvilke matematikoperationer understøtter Mattepuslespil Generatoren?',
+      question: 'Er regnespillene egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Generatoren understøtter tre operationstilstande: Addition (to tal, der adderes til løsningen), Subtraktion (det ene tal minus det andet giver løsningen) og Blandet — addition og subtraktion (begge operationer tilfældigt fordelt over gitteret). Dette lader dig øve specifikke færdigheder eller tilbyde varieret øvelse på et enkelt arbejdsark.',
+        'Ja. Et 2×2-gitter med 4 brikker og kun addition er perfekt til børnehaveklasse og 1. klasse (indskoling). Et 3×3-gitter med 9 brikker passer til 2. klasse, og et 4×4-gitter med 16 brikker og blandede operationer udfordrer mellemtrin. Gitterstørrelsen bestemmer direkte sværhedsgraden — sjove regneopgaver til alle niveauer med to klik.',
     },
     {
-      question: 'Hvordan genereres tallene i matematikopgaverne?',
+      question: 'På hvor mange sprog kan jeg lave regnespil?',
       answer:
-        'Løsningerne er en blandet sekvens fra 2 til N, hvor N er lig med det samlede antal puslespilsbrikker (rækker × kolonner). Ved addition genereres to operander, der adderes til løsningsværdien. Ved subtraktion genereres operander, så det ene tal minus det andet giver løsningen. Hvert svar er unikt, hvilket sikrer, at hver brik passer til præcis én opgave.',
+        'Regnespillene er helt visuelle — indholdet bruger billeder og tal, ingen ord. Et puslespil oprettet på ét sprog fungerer globalt. Appens brugerflade understøtter 11 sprog: dansk, svensk, norsk, finsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk og engelsk. Dine legende matematikopgaver kan sælges på alle markedspladser uden oversættelse.',
     },
     {
-      question: 'Har jeg brug for et specifikt billede til hvert puslespil?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Ja, hvert puslespil bruger ét billede, der deles op i gitterceller. Du kan vælge et billede fra det indbyggede bibliotek med mere end 3.100 illustrationer i 104 temaer, eller uploade dit eget billede. Generatoren deler automatisk billedet op baseret på de gitterdimensioner, du har valgt.',
-    },
-    {
-      question: 'Genererer generatoren facit til puslespillene?',
-      answer:
-        'Ja. Klik på knappen Generer Facit for at oprette en løst version med det færdige gitter, hvor alle matematiksvarer er udfyldt, ved siden af det fuldstændigt samlede billede. Du kan forhåndsvise det på skærmen og downloade det som en separat JPEG- eller PDF-fil til inkludering i facitversioner eller produktpakker.',
-    },
-    {
-      question: 'Er mattepuslespil arbejdsarkene sprogfølsomme?',
-      answer:
-        'Nej. Mattepuslespil arbejdsark er helt visuelle — indholdet bruger billeder og tal, ingen ord. Et puslespil oprettet på ét sprog fungerer globalt. Sprogindstillingen ændrer kun appens brugerfladeettiketter, ikke arbejdsarkets indhold, hvilket gør dine produkter direkte salgbare på alle markedspladser uden tilpasning eller oversættelse.',
+        'Ja. Klik på Generer Facit for at oprette en løst version med det færdige gitter, hvor alle matematiksvarer er udfyldt, ved siden af det fuldstændigt samlede billede. Download facitlisten som en separat JPEG- eller PDF-fil til produktpakker, forældrevejledninger eller Amazon KDP-bøger.',
     },
     {
       question: 'Kan jeg uploade egne billeder til puslespillene?',
       answer:
-        'Helt sikkert. Funktionen Upload Egne Billeder lader dig uploade dine egne PNG- eller JPEG-filer direkte i generatoren. Dit uploadede billede deles op i puslespilsgitteret på samme måde som biblioteksbilleder, hvilket giver dig helt unikke puslespil til brandede produkter, sæsonbetonet indhold eller produktlinjespecifikke temaer.',
-    },
-    {
-      question: 'Kan jeg eksportere puslespil i gråtone for blækbesparende udskrift?',
-      answer:
-        'Ja. Aktiver gråtonemuligheden, før du eksporterer, for at producere sort-hvide versioner, der er perfekte til masseudskrift, lektiepakker eller aktivitetsbøger, hvor farveudskrift ikke er praktisk. Både JPEG- og PDF-eksporter understøtter gråtonetilstanden. Mange Amazon KDP-udgivere opretter både en digital farveudgave og en gråtonetrykversion af det samme puslespilssæt, hvilket fordobler deres produktkatalog med minimalt ekstra arbejde.',
+        'Ja. Upload dine egne PNG- eller JPEG-filer direkte i generatoren. Dit billede deles op i puslespilsgitteret på samme måde som biblioteksbilleder. Det er perfekt til brandede regnespil, sæsonbetonede matematik-puslespil eller produktlinjespecifikke temaer, der adskiller dine printbare produkter fra konkurrenterne.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
@@ -190,14 +177,9 @@ const content: AppContent = {
         'Ja. Du har adgang til alle funktioner — alle tre operationstilstande, alle gitterstørrelser, det komplette billedbibliotek, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste et kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
-      question: 'Hvad er inkluderet i den kommercielle licens?',
-      answer:
-        'Den kommercielle licens fjerner vandmærket fra alle downloads og giver dig ubegrænsede rettigheder til at sælge de arbejdsark, du opretter — på Etsy.dk, Amazon KDP, Gumroad, din egen hjemmeside eller enhver anden platform. Der er ingen royalties per salg, ingen månedlige gebyrer og ingen begrænsning på antallet af puslespil, du producerer eller sælger. Du beholder fuldt ejerskab over hvert arbejdsark, du genererer.',
-    },
-    {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver operation, hver gitterstørrelse, hvert tema og hvert eksportformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet opfylder dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hvert regnespil, hver gitterstørrelse, hvert tema og hvert eksportformat, før du køber. Prøv gratis, før du anskaffer en licens.',
     },
   ],
 
@@ -252,23 +234,23 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp',
-      primaryAlt: 'Mattepuslespil arbejdsark med et farverigt billede opdelt i gitterbrikker, hver med en additionsopgave',
+      primaryAlt: 'Regnespil til print med farverigt billede opdelt i puslespilsbrikker med matematikopgaver',
     },
     sampleGallery: [
       {
         src: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp',
-        alt: 'Mattepuslespil arbejdsark med 3×3 additionsgitter og dyretema',
-        caption: 'Additionstilstand — 3×3 gitter med 9 puslespilsbrikker og blandede svar nedenfor',
+        alt: 'Sjove regneopgaver som puslespil — 3×3 gitter med additionsopgaver og dyretema',
+        caption: 'Additionstilstand — regnespil med 9 brikker, børnene løser stykker for at kombinere billedet',
       },
       {
         src: '/samples/danish/math%20puzzle/Mattepuslespil%202.webp',
-        alt: 'Mattepuslespil arbejdsark med 2×3 subtraktionsgitter og naturtema',
-        caption: 'Subtraktionstilstand — 2×3 gitter for en hurtig puslespilsudfordring med 6 brikker',
+        alt: 'Regnegåder til print — 2×3 puslespil med subtraktion og naturtema',
+        caption: 'Subtraktionstilstand — legende matematikopgaver med 6 brikker til indskoling',
       },
       {
         src: '/samples/danish/math%20puzzle/Mattepuslespil%203.webp',
-        alt: 'Mattepuslespil arbejdsark med 4×4 blandet operationsgitter og køretøjstema',
-        caption: 'Blandet tilstand — 4×4 gitter med 16 brikker for avanceret matematikøvelse',
+        alt: 'Matematik puslespil opgaver — 4×4 gitter med blandede operationer og køretøjstema',
+        caption: 'Blandet tilstand — 4×4 regnespil med 16 brikker for avanceret logik og tænkning',
       },
     ],
     youtubeId: 'n5QO39Lq5l8',

@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kæledyr printbare idéer til salg — nicheguide',
-    metaDescription: 'Udforsk profitable kæledyr printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Kat, hund og smådyr produktkoncepter med platformstrategier til sælgere.',
+    titleTag: 'Kæledyr opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Kæledyr-tema opgaver til print du kan sælge online. Malebilleder, find og tæl, skyggeleg og forbind-opgaver med katte og hunde. Sidegesjæft.',
 
-    primaryKeyword: 'kæledyr printbare idéer',
+    primaryKeyword: 'kæledyr opgaver til print idéer',
     secondaryKeywords: [
-      'kæledyrstema arbejdsark til salg',
-      'kæledyr printbar forretningsidéer',
-      'kæledyrsaktivitetsark til sælgere',
-      'sælg kæledyrsprintables på Etsy',
+      'kæledyr malebilleder find og tæl til print sælg online',
+      'kæledyr printbare idéer Etsy.dk sidegesjæft',
+      'kæledyr aktivitetsark til print skyggeleg',
+      'sælg kæledyr malebilleder forbind-opgaver til print',
     ],
     lsiKeywords: [
-      'husdyr pædagogiske arbejdsark',
-      'kat og hund tema aktivitetssider',
-      'kæledyrspleje tema printables',
+      'kat hund kæledyr opgaver til print sidegesjæft',
+      'kæledyr malebilleder skyggeleg til print passiv indkomst',
+      'kæledyrspleje tema opgaver til print børnehaveklasse',
     ],
   },
   hero: {
-    title: 'Kæledyr printbare forretningsidéer til sælgere',
+    title: 'Kæledyr opgaver til print — forretningsidéer for sælgere',
     description: 'Kæledyr indtager en unikt kraftig position på markedet for pædagogiske printables fordi næsten hvert barn har en personlig forbindelse til husdyr. Uanset om en familie ejer en hund, en kat, en hamster eller en guldfisk, tiltrækkes børn naturligt af læringsmaterialer med velkendte skabninger de ser og interagerer med dagligt. Denne følelsesmæssige binding driver stærk købsintention fra forældre der ønsker at kombinere deres barns entusiasme for kæledyr med struktureret læring. For printable-sælgere på Etsy, Amazon KDP og Gumroad tilbyder kæledyrstemaet massiv stedsegrøn efterspørgsel, varieret artsudvalg til produktdifferentiering og tværalders appel fra småbørn til tidlig grundskole. Denne guide giver specifikke produktidéer, platformstrategier og nichepositioneringsråd for at hjælpe dig med at opbygge en profitabel kæledyrstema printable-forretning med vores arbejdsark-generatorværktøjer.',
   },
   marketOverview: `Kæledyr printable-nichen drager fordel af en simpel men kraftig markedsdynamik: kæledyr er det mest personligt relevante dyretema for børn. Mens bondegårdsdyr og havdyr er interessante, er kæledyr de dyr børn faktisk bor med, passer på og elsker. Denne personlige forbindelse forvandler arbejdsarktid fra en abstrakt øvelse til en aktivitet med deres yndlingskammerater, hvilket er præcis grunden til at forældre og købere opsøger kæledyrstema pædagogiske materialer.

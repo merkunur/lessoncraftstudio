@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab bingokort',
+    primaryKeyword: 'lav bingoplader til print',
     secondaryKeywords: [
-      'lav bingokort med billeder',
-      'bingokort generator til børn',
-      'printbare bingokort til salg',
-      'tilpasset billedbingo maker',
+      'bingoplader med billeder til børn',
+      'bingoplade generator til fester og grupper',
+      'printbare bingoplader til salg på Etsy.dk',
+      'tilpasset billedbingo maker til print',
     ],
     lsiKeywords: [
-      'tematiske bingokort til grupper',
-      'fest bingo printbare aktiviteter',
-      'sælg bingokort på Etsy',
-      'Amazon KDP bingo aktivitetsbøger',
-      'kommerciel licens bingoværktøj',
-      'flere unikke bingokort generator',
+      'tematiske bingoplader til børnefødselsdage',
+      'festbingo printbare aktiviteter til grupper',
+      'sælg bingoplader på Etsy.dk og Saxo.com',
+      'Amazon KDP bingo aktivitetshæfter',
+      'kommerciel licens bingoplade-værktøj',
+      'flere unikke bingoplader generator',
     ],
-    titleTag: 'Skab bingokort med tematiske billeder — Guide',
-    metaDescription: 'Skab bingokort med tematiske billeder. Vælg gitterstørrelser, generér unikke kort med opråbsark og eksportér trykklare PDF-filer til salg på Etsy.',
+    titleTag: 'Lav bingoplader med tematiske billeder til print — Guide',
+    metaDescription: 'Lav bingoplader med tematiske billeder til print. Vælg gitterstørrelser, generér unikke plader med opråbsark og eksportér PDF til salg på Etsy.dk og KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du bingokort med tematiske billeder',
-    tagline: 'En trin-for-trin vejledning til at skabe tematiske, trykklare bingokort med opråbskort du kan sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Bingokort er et af de mest alsidige printable-produkter du kan skabe. Sælgere lister dem til ordforrådsrepetition og belønningsaktiviteter. Forældre bruger dem til fødselsdagsfester og familiespilaaftener. Eventplanlæggere bruger dem til babyshowers, feriefester og teambuilding-aktiviteter. Denne guide fører dig igennem hele skabelsesprocessen med bingokort-makeren — fra at vælge din gitterstørrelse og tema til at generere flere unikke kort med opråbskort og eksportere alt som trykklare PDF-filer. Uanset om du bygger dit første printable-spilprodukt eller udvider til det højefterspørgsels fest- og gruppeaktivitetsmarked, vil du have et komplet bingokort-sæt klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav bingoplader med tematiske billeder til print',
+    tagline: 'En trin-for-trin vejledning til at lave tematiske, printbare bingoplader med opråbskort du kan sælge på Etsy.dk, Amazon KDP og Saxo.com',
+    description: 'Bingoplader er et af de mest alsidige printbare produkter du kan lave. Sælgere lister dem til ordforrådsrepetition og belønningsaktiviteter. Forældre bruger dem til fødselsdagsfester og familiespilaaftener. Eventplanlæggere bruger dem til babyshowers, feriefester og teambuilding-aktiviteter. Denne guide fører dig igennem hele skabelsesprocessen med bingokort-makeren — fra at vælge din gitterstørrelse og tema til at generere flere unikke kort med opråbskort og eksportere alt som trykklare PDF-filer. Uanset om du bygger dit første printable-spilprodukt eller udvider til det højefterspørgsels fest- og gruppeaktivitetsmarked, vil du have et komplet bingokort-sæt klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Bingo er et af de få printable-produkter der betjener tre helt forskellige købersegmenter samtidig. Sælgere har brug for tematiske bingosæt til ordforrådsforstærkning, belønningsaktiviteter og indendørs frikvarter. Forældre og festplanlæggere har brug for tilpassede bingokort til fødselsdagsfester, babyshowers, feriefester og familiespilaaftener. Og printable-sælgere har brug for bingoprodukter fordi de rangerer blandt de højest-konverterende spilformat-printables på enhver stor markedsplads.\n\nHvad der gør bingokort unikt kraftfulde som printable-produkt er det indbyggede krav om flere unikke kort. I modsætning til et arbejdsark hvor enhver spiller får den samme side kræver bingo at enhver spiller har et forskelligt kort. Et enkelt bingospil har brug for 10, 20 eller endda 30 unikke kort — alle der deler den samme billedpulje men med tilfældig placering. Dette strukturelle krav betyder at ethvert bingoprodukt i sagens natur er en pakke, som kræver højere priser end enkeltsides printables.\n\nBingokort-makeren håndterer den kompleksitet der gør bingokort vanskelige at skabe manuelt. Den genererer flere unikke kort per session, hvert med tilfældig billedplacering fra dit valgte tema. Den producerer dedikerede opråbskort der viser ethvert billede brugt på tværs af alle kort. Den understøtter konfigurerbare gitterstørrelser fra 3×3 til 5×5, kun-billede eller billede-med-ord-etiket visningstilstande, og eksporterer alt som flersides PDF-filer eller individuelle JPEG-filer i et ZIP-arkiv.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøve-bingokortsæt, teste enhver konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Bingo er et af de få printbare produkter der betjener tre helt forskellige købersegmenter samtidig. Pædagoger i børnehaveklassen og indskolingen har brug for tematiske bingoplader til ordforrådsforstærkning og belønningsaktiviteter. Forældre og festplanlæggere har brug for tilpassede bingoplader til børnefødselsdage, babyshowers, feriefester og familiespilaaftener. Og printable-sælgere har brug for bingoprodukter fordi de rangerer blandt de højest-konverterende spilformat-printables på enhver stor markedsplads.\n\nHvad der gør bingokort unikt kraftfulde som printable-produkt er det indbyggede krav om flere unikke kort. I modsætning til et arbejdsark hvor enhver spiller får den samme side kræver bingo at enhver spiller har et forskelligt kort. Et enkelt bingospil har brug for 10, 20 eller endda 30 unikke kort — alle der deler den samme billedpulje men med tilfældig placering. Dette strukturelle krav betyder at ethvert bingoprodukt i sagens natur er en pakke, som kræver højere priser end enkeltsides printables.\n\nBingokort-makeren håndterer den kompleksitet der gør bingokort vanskelige at skabe manuelt. Den genererer flere unikke kort per session, hvert med tilfældig billedplacering fra dit valgte tema. Den producerer dedikerede opråbskort der viser ethvert billede brugt på tværs af alle kort. Den understøtter konfigurerbare gitterstørrelser fra 3×3 til 5×5, kun-billede eller billede-med-ord-etiket visningstilstande, og eksporterer alt som flersides PDF-filer eller individuelle JPEG-filer i et ZIP-arkiv.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøve-bingokortsæt, teste enhver konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

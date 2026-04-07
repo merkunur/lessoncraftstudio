@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'find den ulige arbejdsark',
+    primaryKeyword: 'hvad passer ikke generator gratis online',
     secondaryKeywords: [
-      'find den ulige arbejdsark generator for sælgere',
-      'lav find den anderledes puslespil til salg',
-      'printbar find den ulige generator kommerciel brug',
-      'find den ulige puslespil generator til KDP og Etsy',
+      'logisk tænkning gratis',
+      'hvad passer ikke prøv gratis',
+      'klassifikation opgaver gratis',
     ],
     lsiKeywords: [
-      'dobbelt tilstands identisk lignende visuel skelnelse generator',
-      'per-øvelse tilstandstilsidesættelse find den ulige generator',
-      'automatisk facit rød cirkel underligt objekt arbejdsark generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'passer ikke',
+      'logik',
+      'klassifikation',
     ],
-    titleTag: 'Find den Ulige Generator — Arbejdsark Generator —...',
-    metaDescription: 'Lav find den ulige arbejdsark med Identisk og Lignende tilstand, per-øvelse tilsidesættelser, automatiske facit med. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis "hvad passer ikke?" generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv "hvad passer ikke?"-generatoren gratis online. Temabilleder, logisk tænkning, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Find den Ulige Generator',
-    tagline: 'Dobbelt tilstands find den ulige arbejdsark generator med Identisk tilstand (3 kloner + 1 anderledes) og Lignende tilstand (3 fra Tema A + 1 fra Tema B), per-øvelse tilstandstilsidesættelse, 5–10 konfigurerbare øvelser, automatisk genererede facit med røde cirkelmarkeringer og 104 tematiske billedsamlinger',
-    description: 'Lav professionelle find den ulige arbejdsark, hvor brugerne identificerer og sætter ring om billedet, der ikke hører til i hver række af fire billeder. To distinkte tilstande: Identisk tilstand placerer tre kloner ved siden af et anderledes billede fra det samme tema — brugerne finder den, der ikke er dublet. Lignende tilstand henter tre billeder fra Tema A og ét fra Tema B — brugerne identificerer den tematiske afviger. Per-øvelse tilstandstilsidesættelse med dropdown på hver række — bland Identiske og Lignende øvelser på ét enkelt arbejdsark for progressiv sværhed. \"Ryd Valg\"-knap nulstiller alle tilsidesættelser. Konfigurér 5–10 øvelser (standard 6) med 4 billeder per øvelse — den uliges position blandes tilfældigt. Layoutet tilpasses automatisk med 2-kolonner for liggende sider og stående med 7+ øvelser. Totema-system for krydsende kategoriskelnelsespuslespil. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet tegner røde cirkelkonturer rundt det ulige objekt med dynamisk skaleret stregbredde (max(imageSize × 0,04, 3px)). En stiliseret overskrift med koral ydre ramme (#FF6B6B), ravgul indre ramme (#FFB84D) og turkis baggrund (#4ECDC4) viser \"Find den der ikke hører til\" lokaliseret på alle 11 sprog. IKKE sprogfølsomt — rent visuelt, universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis "hvad passer ikke?" generator — prøv online med vandmærke',
+    tagline: 'Prøv "hvad passer ikke?"-generatoren gratis online — to tilstande for logisk tænkning, per-øvelse konfiguration, automatisk facit og 104 tematiske billedsamlinger. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv "hvad passer ikke?"-generatoren gratis online — lav professionelle klassifikation-opgaver, hvor brugerne identificerer og sætter ring om billedet, der ikke hører til i hver række af fire billeder. To distinkte tilstande: Identisk tilstand placerer tre kloner ved siden af et anderledes billede fra det samme tema — brugerne finder den, der ikke er dublet. Lignende tilstand henter tre billeder fra Tema A og ét fra Tema B — brugerne identificerer den tematiske afviger. Per-øvelse tilstandstilsidesættelse med dropdown på hver række — bland Identiske og Lignende øvelser på ét enkelt arbejdsark for progressiv sværhed. \"Ryd Valg\"-knap nulstiller alle tilsidesættelser. Konfigurér 5–10 øvelser (standard 6) med 4 billeder per øvelse — den uliges position blandes tilfældigt. Layoutet tilpasses automatisk med 2-kolonner for liggende sider og stående med 7+ øvelser. Totema-system for krydsende kategoriskelnelsespuslespil. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet tegner røde cirkelkonturer rundt det ulige objekt med dynamisk skaleret stregbredde (max(imageSize × 0,04, 3px)). En stiliseret overskrift med koral ydre ramme (#FF6B6B), ravgul indre ramme (#FFB84D) og turkis baggrund (#4ECDC4) viser \"Find den der ikke hører til\" lokaliseret på alle 11 sprog. IKKE sprogfølsomt — rent visuelt, universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Find den Ulige Arbejdsark i 8 Trin',
+    title: 'Sådan laver du "hvad passer ikke?"-opgaver i 8 trin',
     steps: [
       {
         title: 'Åbn Find den Ulige Generatoren',
@@ -155,16 +157,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Alle funktioner låst op — begge genereringstilstande, per-øvelse tilsidesættelser med Ryd Valg, konfigurerbart øvelsesantal (5–10), det autogenererede facit med røde cirkelmarkeringer, totema-systemet, alle 104 tematiske billedsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, navn/dato-felter, øvelsesnumre, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på downloads.',
+      question: 'Kan jeg prøve "hvad passer ikke?"-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — begge tilstande for logisk tænkning, per-øvelse tilsidesættelser med Ryd Valg, konfigurerbart øvelsesantal (5–10), autogenereret facit med røde cirkelmarkeringer, totema-systemet, alle 104 tematiske billedsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, navn/dato-felter, øvelsesnumre, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på gratis downloads.',
     },
     {
-      question: 'Hvad er de to genereringstilstande?',
-      answer: 'Identisk tilstand — tre kloner af det samme billede ved siden af et anderledes billede fra det samme tema, brugerne finder den der ikke er dublet. Lignende tilstand — tre billeder fra Tema A og ét fra Tema B, brugerne identificerer den tematiske afviger. Tilsidesæt tilstanden per øvelse med dropdown på hver række.',
+      question: 'Hvad er de to klassifikation-tilstande?',
+      answer: 'Identisk tilstand — tre kloner af det samme billede ved siden af et anderledes billede fra det samme tema, brugerne finder den der ikke passer. Lignende tilstand — tre billeder fra Tema A og ét fra Tema B, brugerne identificerer den tematiske afviger. Tilsidesæt tilstanden per øvelse med dropdown på hver række.',
     },
     {
-      question: 'Hvordan fungerer per-øvelse tilstandstilsidesættelse?',
-      answer: 'Hver øvelsesrække har en dropdown, der tilsidesætter den globale tilstand. Indstil globalt til Lignende, skift derefter individuelle øvelser til Identisk. \"Ryd Valg\" nulstiller alle. Dette generator blandsværheds arbejdsark.',
+      question: 'Hvordan fungerer per-øvelse tilstandstilsidesættelse for logisk tænkning?',
+      answer: 'Hver øvelsesrække har en dropdown, der tilsidesætter den globale tilstand. Indstil globalt til Lignende, skift derefter individuelle øvelser til Identisk. \"Ryd Valg\" nulstiller alle. Dette giver blandsværheds klassifikation-opgaver.',
     },
     {
       question: 'Hvordan fungerer totema-systemet i Lignende tilstand?',
@@ -218,7 +220,7 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp',
-      primaryAlt: 'Find den ulige arbejdsark med fire billeder per øvelsesrække, der viser tre almindelige objekter og ét uligt objekt med koral-ravgul-turkis overskrift',
+      primaryAlt: 'Gratis "hvad passer ikke?" generator med fire billeder per øvelsesrække — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {

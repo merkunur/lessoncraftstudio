@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kvalitetsstandarder arbejdsark sælgere',
+    primaryKeyword: 'kvalitetsstandarder for opgaver til print',
     secondaryKeywords: [
       'printbar kvalitetscheckliste',
       'professionelle arbejdsark designstandarder',
@@ -16,8 +16,8 @@ const content: GuideContent = {
       'beskæringsindstillinger papirstørrelseskompatibilitet visuel konsistens brandstandarder',
       'anmeldelsesvurderinger købertillid produktionscheckliste kvalitetssikring',
     ],
-    titleTag: 'Kvalitetsstandarder arbejdsark sælgere har brug for —...',
-    metaDescription: 'Kvalitetsstandarder for arbejdsark som sælgere har brug for til professionelt output.',
+    titleTag: 'Kvalitetsstandarder for opgaver til print — Sælgerguide',
+    metaDescription: 'Kvalitetsstandarder for opgaver til print. Professionelt output, trykklarhed og checkliste til sælgere på Etsy.dk og Amazon KDP.',
   },
 
   hero: {

@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab farvelægningssider',
+    primaryKeyword: 'lav malebilleder til print',
     secondaryKeywords: [
-      'farvelægningsside maker fra billeder',
-      'printbare farvelægningssider til salg',
-      'gråtone farvelægningsside generator',
-      'tilpassede farvelægningsark til børn',
+      'malebilleder generator fra tematiske billeder',
+      'printbare malebilleder til salg på Etsy.dk',
+      'farvelægningssider gråtone-eksport til print',
+      'tilpassede malebilleder til børn og voksne',
     ],
     lsiKeywords: [
-      'tematiske farvelægningssider til Etsy',
+      'tematiske malebilleder til Etsy.dk og Saxo.com',
       'malebog sider til Amazon KDP',
-      'frit lærred farvelægningsside designer',
-      'konvertér billeder til farvelægningssider',
-      'gruppe farvelægningsaktivitetsark',
-      'kommerciel licens farvelægningsværktøj',
+      'frit lærred farvelægning designer',
+      'konvertér billeder til malebilleder',
+      'malebilleder til børnefødselsdage og grupper',
+      'kommerciel licens malebillede-værktøj',
     ],
-    titleTag: 'Skab farvelægningssider fra tematiske billeder — Guide',
-    metaDescription: 'Skab farvelægningssider fra 3.100+ tematiske billeder. Frit lærred med gråtone-eksport, frihåndstegning og gruppehjælpere. Sælg på Etsy og KDP.',
+    titleTag: 'Lav malebilleder til print fra tematiske billeder — Guide',
+    metaDescription: 'Lav malebilleder til print fra 3.100+ tematiske billeder. Frit lærred med gråtone-eksport og frihåndstegning. Sælg på Etsy.dk, Saxo.com og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du farvelægningssider fra tematiske billeder',
-    tagline: 'En trin-for-trin vejledning til at designe tilpassede farvelægningssider med et frit lærred, 3.100+ tematiske billeder, frihåndstegning og ét-klik gråtone-eksport',
-    description: 'Farvelægningssider er et af de mest søgte og købte printable-produkter på alle store markedspladser. Forældre vil have dem til offline, skærmfrie aktiviteter. Sælgere lister dem som gruppeopvarmning og belønningsark. Etsy-sælgere bygger hele butikker omkring tematiske farvelægningsside-pakker. Denne guide fører dig gennem den fulde skabelsesproces med farvelægningsside-makeren — fra at placere tematiske billeder på et frit lærred til at aktivere gråtone-skiftet der konverterer dit farverige design til en ren, trykklart farvelægningsside. Uanset om du generator dit første farvelægningsprodukt eller udvider et eksisterende printable-katalog, vil du have en færdig farvelægningsside klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav malebilleder til print fra tematiske billeder',
+    tagline: 'En trin-for-trin vejledning til at designe tilpassede malebilleder med et frit lærred, 3.100+ tematiske billeder, frihåndstegning og ét-klik gråtone-eksport',
+    description: 'Malebilleder til print er et af de mest søgte og købte printbare produkter på alle store markedspladser. Forældre vil have dem til offline, skærmfrie aktiviteter. Pædagoger lister dem som gruppeopvarmning og belønningsark. Etsy-sælgere bygger hele butikker omkring tematiske farvelægningsside-pakker. Denne guide fører dig gennem den fulde skabelsesproces med farvelægningsside-makeren — fra at placere tematiske billeder på et frit lærred til at aktivere gråtone-skiftet der konverterer dit farverige design til en ren, trykklart farvelægningsside. Uanset om du generator dit første farvelægningsprodukt eller udvider et eksisterende printable-katalog, vil du have en færdig farvelægningsside klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Farvelægningssider indtager en unik position på printable-markedet. I modsætning til arbejdsark der retter sig mod specifikke aldersgrupper eller færdighedsniveauer appellerer farvelægningssider til næsten alle — småbørn, skolebørn, teenagere og endda voksne. Den universelle appel oversættes til massiv, helårsefterspørgsel på Etsy, Amazon KDP og Gumroad.\n\nHvad der gør farvelægningssider særligt attraktive som produkt er deres enkelhed. Der er ingen facit at generere, ingen sværhedsgrader at konfigurere og ingen pensumtilpasning at bekymre sig om. En veldesignet farvelægningsside med tiltalende billeder sælger på sin egen visuelle fortjeneste. Adgangsbarrieren er lav, men de sælgere der lykkes er dem med distinktive designs der skiller sig ud fra generiske clipart-samlinger.\n\nFarvelægningsside-makeren tager en fundamentalt anderledes tilgang end traditionelle farvelægningsside-værktøjer. I stedet for at arbejde med forudlavede skabeloner eller spore omrids i hånden arbejder du på et frit lærred hvor du placerer tematiske billeder fra et bibliotek med over 3.100 illustrationer på tværs af 104 temaer. Du trækker, ændrer størrelse og roterer billeder frit for at skabe originale kompositioner. Derefter konverterer gråtone-eksport-skiftet dit farverige design til rene sort-hvide omrids klar til farvelægning.\n\nVærktøjet inkluderer også et frihåndstegneværktøj til at tilføje håndtegnede detaljer, tekstværktøjer til titler og instruktioner, og gruppehjælpere som navnefelter og håndskriftslinjer. Denne kombination lader dig skabe alt fra simple enkeltbillede-farvelægningssider til komplekse tematiske aktivitetsark.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan designe komplette farvelægningssider, teste gråtone-skiftet og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Malebilleder indtager en unik position på det printbare marked. I modsætning til opgaver der retter sig mod specifikke aldersgrupper appellerer malebilleder og farvelægningssider til næsten alle — småbørn, skolebørn, teenagere og endda voksne. Den universelle appel oversættes til massiv, helårsefterspørgsel på Etsy.dk, Amazon KDP og Saxo.com.\n\nHvad der gør malebilleder særligt attraktive som produkt er deres enkelhed. Der er ingen facit at generere, ingen sværhedsgrader at konfigurere og ingen pensumtilpasning at bekymre sig om. En veldesignet farvelægningsside med tiltalende billeder sælger på sin egen visuelle fortjeneste. Adgangsbarrieren er lav, men de sælgere der lykkes er dem med distinktive designs der skiller sig ud fra generiske clipart-samlinger.\n\nFarvelægningsside-makeren tager en fundamentalt anderledes tilgang end traditionelle farvelægningsside-værktøjer. I stedet for at arbejde med forudlavede skabeloner eller spore omrids i hånden arbejder du på et frit lærred hvor du placerer tematiske billeder fra et bibliotek med over 3.100 illustrationer på tværs af 104 temaer. Du trækker, ændrer størrelse og roterer billeder frit for at skabe originale kompositioner. Derefter konverterer gråtone-eksport-skiftet dit farverige design til rene sort-hvide omrids klar til farvelægning.\n\nVærktøjet inkluderer også et frihåndstegneværktøj til at tilføje håndtegnede detaljer, tekstværktøjer til titler og instruktioner, og gruppehjælpere som navnefelter og håndskriftslinjer. Denne kombination lader dig skabe alt fra simple enkeltbillede-farvelægningssider til komplekse tematiske aktivitetsark.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan designe komplette farvelægningssider, teste gråtone-skiftet og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

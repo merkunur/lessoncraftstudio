@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'sprog arbejdsark flersproget paa lav generator arbejdsarksgenerator',
+    primaryKeyword: 'flersprogede opgaver til print lav på 11 sprog',
     secondaryKeywords: [
-      'lav arbejdsark paa flere sprog',
-      'flersprogede printbare arbejdsark',
-      'saelg arbejdsark paa tysk fransk spansk',
-      'flersproget aktivitetsbogsgenerator',
+      'lav opgaver til print på flere sprog sælg online',
+      'flersprogede printbare opgaver passiv indkomst',
+      'sælg opgaver til print på tysk fransk spansk',
+      'flersproget opgavegenerator printbar forretning',
     ],
     lsiKeywords: [
-      'sprogfoelsom arbejdsarksgenerator',
-      'lav arbejdsark paa 11 sprog',
-      'ikke-engelsk printbar marked Etsy',
-      'flersproget ordsoegningsgenerator',
-      'internationalt printbart foretagende',
-      'saelg arbejdsark paa Etsy.de Etsy.fr',
+      'sprogfølsom opgavegenerator ordleg krydsord',
+      'lav opgaver til print på 11 sprog sidegesjæft',
+      'ikke-engelsk printbar marked Etsy.de Etsy.fr',
+      'flersproget ordleg-generator til print',
+      'internationalt printbar forretning sidegesjæft',
+      'sælg opgaver til print på Etsy.de Etsy.fr Saxo.com',
     ],
-    titleTag: 'Flersproget arbejdsarksgenerator — 11 sprog — Kom I Gang...',
-    metaDescription: 'Lav og saelg arbejdsark paa 11 sprog med en flersproget generator. Naa tyske, franske og spanske koebere paa Etsy, Amazon KDP og globale markeder. Proev gratis.',
+    titleTag: 'Flersprogede opgaver til print — 11 sprog | Kom i gang',
+    metaDescription: 'Lav og sælg opgaver til print på 11 sprog. Nå tyske, franske og spanske købere på Etsy, Amazon KDP og globale markeder. Prøv gratis med vandmærke.',
   },
 
   hero: {
-    title: 'Saadan laver du arbejdsark paa 11 sprog',
-    tagline: 'Naa internationale koebere paa Etsy og Amazon KDP med professionelt lokaliseret arbejdsarksindhold — ingen oversaettelseskundskaber kraeves',
-    description: 'De fleste saelgere af printbare produkter konkurrerer udelukkende paa det engelsksprogede marked og ignorerer millioner af koebere der soeger paa tysk, fransk, spansk, portugisisk, italiensk og andre sprog. Denne guide viser hvordan du bruger flersprogede arbejdsarksgeneratorer til at lave autentisk, sprogspecifikt indhold paa 11 sprog og saelge det paa internationale markedspladser. Du vil laere den afgoerende forskel mellem sprogfoelsomme og visuelle generatorer, forstaa markedsmulighederne for hvert understoettet sprog og bygge en systematisk strategi for at udvide din printbare forretning internationalt.',
+    title: 'Sådan laver du opgaver til print på 11 sprog',
+    tagline: 'Nå internationale købere på Etsy og Amazon KDP med professionelt lokaliserede opgaver til print — ingen oversættelseskundskaber kræves',
+    description: 'De fleste sælgere af printbare produkter konkurrerer udelukkende på det engelsksprogede marked og ignorerer millioner af købere der søger på tysk, fransk, spansk, portugisisk, italiensk og andre sprog. Denne guide viser hvordan du bruger flersprogede arbejdsarksgeneratorer til at lave autentisk, sprogspecifikt indhold paa 11 sprog og saelge det paa internationale markedspladser. Du vil laere den afgoerende forskel mellem sprogfoelsomme og visuelle generatorer, forstaa markedsmulighederne for hvert understoettet sprog og bygge en systematisk strategi for at udvide din printbare forretning internationalt.',
   },
 
   introduction: 'Det engelsksprogede marked for printbare produkter paa Etsy og Amazon KDP er overfyldt. Tusindvis af saelgere konkurrerer om de samme soegeord, hvilket presser priserne ned og goer synlighed stadig svaerere. Samtidig har de tyske, franske, spanske, portugisiske og italienske markeder en broekdel af den konkurrence — og millioner af aktive koebere der soeger efter paedagogiske arbejdsark, puslespilboeger og aktivitetssider paa deres modersmaal.\n\nDette er ingen hypotetisk mulighed. Amazon.de, Amazon.fr, Amazon.es, Amazon.it, Etsy.de og Etsy.fr er etablerede markedspladser hvor koebere aktivt soeger efter lokaliseret uddannelsesindhold. Saelgere der tilbyder autentiske flersprogede arbejdsark — ikke maskinoversatte efterhaandsprodukter — dominerer disse markeder fordi saa faa konkurrenter gider betjene dem.\n\nUdfordringen har altid vaeret produktion. At lave arbejdsark paa et sprog du ikke taler kraever enten dyre oversaettelsestjenester eller upaalidelig automatisk oversaettelse. Arbejdsarksgeneratorer der understoetter flere sprog eliminerer denne barriere helt. Oversaettelserne er inbygget i systemet — ordforraad, ordlister, ledetraade og etiketter paa alle 11 understoettede sprog — saa du laver professionelt flersproget indhold med det samme workflow som du allerede bruger til engelsk.\n\nHver generator naevnt i denne guide tilbyder en gratis proeveversion med vandmaerke, saa du kan teste flersproget output paa alle understoettede sprog foer du koeber en kommerciel licens.',

@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Skovdyr printbare idéer til salg — nicheguide',
-    metaDescription: 'Udforsk skovdyr printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Skovtema produktkoncepter, platformtips og nichestrategier til sælgere.',
+    titleTag: 'Skovdyr opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Skovdyr-tema opgaver til print du kan sælge online. Malebilleder, find og tæl, skyggeleg og forbind-opgaver med skovens dyr. Sidegesjæft.',
 
-    primaryKeyword: 'skovdyr printbare idéer',
+    primaryKeyword: 'skovdyr opgaver til print idéer',
     secondaryKeywords: [
-      'skovdyr arbejdsark til salg',
-      'skovtema printbar forretning',
-      'skovaktivitetsark til sælgere',
-      'sælg skovdyr printables online',
+      'skovdyr malebilleder skyggeleg til print sælg online',
+      'skovdyr printbare idéer Etsy.dk sidegesjæft',
+      'skov aktivitetsark til print find og tæl',
+      'sælg skovdyr malebilleder forbind-opgaver til print',
     ],
     lsiKeywords: [
-      'skovvæsen pædagogiske arbejdsark',
-      'naturhabitat aktiviteter til børn',
-      'dyrelivstema gruppe printables',
+      'skovvæsen naturtema opgaver til print sidegesjæft',
+      'skovdyr malebilleder skyggeleg til print passiv indkomst',
+      'dyreliv naturhabitat opgaver til print børnehaveklasse',
     ],
   },
   hero: {
-    title: 'Skovdyr printbare forretningsidéer til sælgere',
+    title: 'Skovdyr opgaver til print — forretningsidéer for sælgere',
     description: 'Skovdyr repræsenterer et af de mest vedvarende populære temaer inden for børns pædagogiske produkter, og kombinerer den hyggelige skovæstetik som forældre elsker med de naturfagsindholdsforbindelser som købere har brug for. Bjørne, hjorte, ræve, ugler, kaniner, egern, vaskebjørne og pindsvin danner en elsket rollebesætning som børn møder i billedbøger, børneværelsesindretning og naturdokumentarer fra deres tidligste år. For printable-sælgere på Etsy, Amazon KDP og Gumroad drager skovdyrnichen fordel af helårsrelevans med stærke sæsonmæssige toppe i efterår og vinter når gruppeaktiviteter fokuserer på dvale, fødekæder og levestedstilpasning. Skovæstetikken er blevet en dominerende trend inden for børneværelses- og gruppeindretning, hvilket driver efterspørgsel efter matchende pædagogiske materialer der bærer den samme visuelle varme. Denne guide giver specifikke produktidéer, platformstrategier og nichepositioneringstilgange for at hjælpe dig med at opbygge en profitabel skovdyr printbar produktlinje med vores arbejdsark-generatorværktøjer.',
   },
   marketOverview: `Skovdyr printable-nichen befinder sig i skæringspunktet mellem naturuddannelse, sæsonbestemt indholdsplanlægning og den enormt populære skovbørnehaværelsesæstetiktrend, hvilket skaber efterspørgsel fra flere købersegmenter hele året. Forældre der har dekoreret børneværelser og legeværelser med skovtemaer søger aktivt matchende pædagogiske materialer med de samme bjørne, ræve, hjorte og ugler der pryder deres børns vægge. Købere der opbygger naturfagsenheder om skovhabitater, dvale, fødekæder og sæsonmæssige dyretilpasninger har brug for printbare ressourcer der tilpasser sig indholdsstandarder mens de holder det yngre publikum engageret.

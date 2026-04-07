@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pirat printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag pirattematiske printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Eventyrprodukter, skattejagtarbejdsark og nichestrategier for sælgere.',
+    titleTag: 'Pirat opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Pirat-tema opgaver til print du kan sælge online. Skattejagt, malebilleder, ordleg og labyrint med pirattema. Sælg på Etsy.dk og KDP. Sidegesjæft.',
 
-    primaryKeyword: 'pirat printbare idéer',
+    primaryKeyword: 'pirat opgaver til print idéer',
     secondaryKeywords: [
-      'pirattematiske arbejdsark til salg',
-      'pirat printbar forretningsidéer',
-      'pirataktivitetsark for sælgere',
-      'sælg piratprintables online',
+      'pirat skattejagt malebilleder til print sælg online',
+      'pirat printbare idéer Etsy.dk sidegesjæft',
+      'pirat aktivitetsark til print ordleg labyrint',
+      'sælg pirat skattejagt malebilleder til print',
     ],
     lsiKeywords: [
-      'skattejagt pædagogiske arbejdsark',
-      'nautisk eventyr aktivitetssider',
-      'pirattematiske pædagogiske printables',
+      'skattejagt pirat-tema opgaver til print sidegesjæft',
+      'nautisk eventyr malebilleder til print passiv indkomst',
+      'pirat-tema ordleg skattejagt til print børnehaveklasse',
     ],
   },
   hero: {
-    title: 'Pirat printbare forretningsidéer for sælgere',
+    title: 'Pirat opgaver til print — forretningsidéer for sælgere',
     description: 'Pirater repræsenterer et af de mest universelt fængslende eventyrtemaer for børn, hvilket gør dette til en fremragende stedsegrøn niche for printbare entreprenører der søger pålidelig helårs omsætning drevet af fantasifyldt engagement og den tidløse fascination som skattejagter, piratskibe og swashbuckling-eventyr holder for børn på tværs af alle aldersgrupper og baggrunde. Pirattemaet tilbyder ekstraordinær undertemasdybde inklusive piratskib, skattekiste, skattekort, dødningehoved og krydsende knogler, papegøje, klap for øjet, krog, sværd, kanon, anker, kompas, Jolly Roger, ø, palmetræ, guldmønter, teleskop, piratflag, planke, havfrue og kraken, hvilket giver sælgere et rigt visuelt ordforråd der forbinder til børns naturlige kærlighed til fantasileg, eventyrshistoriefortælling og skattesøgende udforskning som forældre konsekvent opmuntrer som et redskab til læring. Tværfaglig alsidighed gør piratprintables særligt værdifulde fordi eventyrkoncepter forbinder naturligt til matematik gennem skattetælning, guldmøntværdier og kortkoordinatgitre, læsefærdigheder gennem piratordforråd, kortlegendelæsning og eventyrshistorieforståelse, geografi gennem havudforskning, økortlægning og kompasvejledningsaktiviteter, og kreativ skrivning gennem eventyrshistoriefortælling, kaptajnens logbogsskrivning og skattejagtsnarrative prompts. For printable sælgere på Etsy, Amazon KDP og Gumroad kombinerer piratnichen stærk helårs efterspørgsel med universel børneappel der resonerer med købere der planlægger fantasileg og eventyrslæringsenheder, læsefærdighedsfokuserede købere der integrerer narrative temaer, hjemmeundervisningsfamilier der udforsker havgeografi og historiske udforskningsemner, og forældre der leder efter pædagogiske materialer der kanaliserer deres barns naturlige fascination af skattejagter og pirateventyr til produktive læringsoplevelser. Denne guide dækker specifikke produktidéer, platformsstrategier og nichepositioneringstilgange til at hjælpe dig med at opbygge en rentabel pirat printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Pirat printbare-nichen indtager en unikt kraftfuld position for printable sælgere fordi praktisk talt hvert lille barn oplever en dyb, fantasifuld fascination af skattejagter, piratskibe og de eventyrlige muligheder ved at udforske mystiske øer og opdage skjult guld. I modsætning til sæsontemaer der koncentrerer efterspørgsel i snævre kalendervinduer, drager piratnichen fordel af ægte helårs relevans: børn engagerer sig i piratleg i enhver sæson, pirattematiske medier og legetøj opretholder konstant popularitet, og det eventyrnarrativ der driver piratfascinationen fungerer uafhængigt af vejr eller kalenderbegivenheder. Dette konsekvent efterspørgselsmønster gør piratprintables til en pålidelig indtægtskilde uden de fest-eller-hungersnød-cyklusser der udfordrer sælgere i mere sæsonbetonede nicher.

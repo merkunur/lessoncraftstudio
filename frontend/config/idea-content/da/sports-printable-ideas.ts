@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sport printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag sport printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Atletiktematiske produktkoncepter, platformsstrategier og tips for dette helårstema.',
+    titleTag: 'Sport opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Sport-tema opgaver til print du kan sælge online. Malebilleder, find og tæl, ordleg og regneopgaver med boldspil og atletik. Sælg på Etsy.dk. Sidegesjæft.',
 
-    primaryKeyword: 'sport printbare idéer',
+    primaryKeyword: 'sport opgaver til print idéer',
     secondaryKeywords: [
-      'sportstematiske arbejdsark til salg',
-      'sport printbar forretningsidéer',
-      'atletikaktivitetsark for sælgere',
-      'sælg sportsprintables på Etsy',
+      'sport malebilleder ordleg til print sælg online',
+      'sport printbare idéer Etsy.dk sidegesjæft',
+      'sport aktivitetsark til print regneopgaver',
+      'sælg sport malebilleder find og tæl til print',
     ],
     lsiKeywords: [
-      'holdsport pædagogiske arbejdsark',
-      'boldspiltematiske aktivitetssider',
-      'idrætstematiske printables',
+      'holdsport boldspil opgaver til print sidegesjæft',
+      'sport malebilleder ordleg til print passiv indkomst',
+      'idrætstema opgaver til print børnehaveklasse indskoling',
     ],
   },
   hero: {
-    title: 'Sport printbare forretningsidéer for sælgere',
+    title: 'Sport opgaver til print — forretningsidéer for sælgere',
     description: 'Sport er et af de mest universelt engagerende temaer for børn i alle aldre, hvilket gør det til en exceptionel stedsegrøn niche for printbare entreprenører der søger konsekvent helårs omsætning drevet af sæsonbestemt sportsrotation og bred tværfaglig appel. Sportstemaet tilbyder bemærkelsesværdig undertemasdybde inklusive fodbold, basketball, amerikansk fodbold, baseball, tennis, hockey, volleyball, svømning, løb, gymnastik, olympiske lege, boldspil, holdsport og individuel sport, hvilket giver sælgere et enormt visuelt ordforråd der forbinder til næsten hvert barns aktive interesser uanset om de spiller på organiserede hold, nyder baghavedsspil eller ser deres yndlingsatleter konkurrere på tv. Tværfaglig alsidighed gør sportsprintables særligt værdifulde fordi atletik forbinder naturligt til matematik gennem scores, statistik og tælning, læsefærdigheder gennem sportsordforråd og holdterminologi, idræt gennem bevægelsesmotivation og sundhedsbevidsthed og sociale færdigheder gennem holdspilskoncepter og sportsånd. For printable sælgere på Etsy, Amazon KDP og Gumroad kombinerer sportsnichen stærk helårs efterspørgsel med universel genkendelse der resonerer med idrætsfokuserede købere, hjemmeundervisningsfamilier og forældre der leder efter pædagogiske materialer der kanaliserer deres barns sportsentusiasme til produktive læringsoplevelser. Denne guide dækker specifikke produktidéer, platformsstrategier og nichepositioneringstilgange til at hjælpe dig med at opbygge en rentabel sport printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Sportsprintbare-nichen har en unikt kraftfuld position for printable sælgere fordi næsten hvert barn har en direkte, personlig forbindelse til sport gennem at spille på hold, se kampe med familien, samle kort, bære holdtrøjer eller deltage i idrætstimer og frikvartersaktiviteter. I modsætning til sæsontemaer der koncentrerer efterspørgsel i snævre kalendervinduer, drager sportsnichen fordel af naturlig sæsonrotation: fodbold dominerer efterårssøgninger, basketball og hockey driver vinterefterspørgsel, baseball og fodbold stiger i forår og sommer, og svømning og atletik topper i varmt-vejr-måneder. Denne roterende cyklus sikrer at sportstematiske pædagogiske materialer opretholder konsekvent helårs relevans snarere end at afhænge af en enkelt topsæson.

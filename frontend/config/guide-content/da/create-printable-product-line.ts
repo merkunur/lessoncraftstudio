@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab en printbar produktlinje',
+    primaryKeyword: 'opbyg en printbar produktlinje',
     secondaryKeywords: [
-      'printbar produktlinje-strategi',
-      'byg en arbejdsark produktlinje',
-      'hvordan man bygger et printbar-katalog',
-      'produktlinje til printable-virksomhed',
+      'printbar produktlinje strategi til sidegesjæft',
+      'byg et printbart opgave-katalog til Etsy.dk',
+      'produktlinje til passiv indkomst med printbare opgaver',
+      'sammenhængende printbar produktlinje til Saxo.com og KDP',
     ],
     lsiKeywords: [
-      'produktkatalog produktkonsistens brand-sammenhæng produktprogression katalogstrategi',
-      'produktkøreplan produktskabeloner visuel branding navngivningskonventioner katalogdybde',
+      'produktkatalog konsistens branding produktprogression katalogstrategi',
+      'produktkøreplan skabeloner visuel branding navngivning katalogdybde',
       'produktserier designsprog layoutmønstre brandgenkendelse butiksidentitet',
-      'systematisk udvidelse klassetrinsudvidelse formatvariation temakonsistens produktgitter',
-      'krydssalg katalognavigation butiksorganisering produktsekventering markedsdækning',
-      'visuel identitet produkthierarki komplementære produkter produktøkosystem linjesammenhæng',
+      'systematisk udvidelse formatvariation temakonsistens produktgitter',
+      'krydssalg katalognavigation butiksorganisering produktsekventering',
+      'visuel identitet produkthierarki komplementære produkter produktøkosystem',
     ],
-    titleTag: 'Generator du en printbar produktlinje — Guide',
-    metaDescription: 'Lær at skabe en printbar produktlinje med konsistent branding, strategisk produktsekventering og systematisk. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Opbyg en printbar produktlinje — Komplet sælgerguide',
+    metaDescription: 'Opbyg en printbar produktlinje med konsistent branding, strategisk produktsekventering og systematisk udvidelse. Sælg på Etsy.dk, Saxo.com og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du en printbar produktlinje',
-    tagline: 'En komplet guide til at bygge en sammenhængende printbar produktlinje der driver brandgenkendelse og gentagne køb — der dækker produktlinjeidentitet og -struktur, visuel konsistens på tværs af dit katalog, navngivningskonventioner der opbygger genkendelse, strategisk produktsekventering, katalogorganisering til nem navigation og systematiske udvidelsesmetoder til langsigtet vækst',
-    description: 'En produktlinje transformerer en tilfældig samling af printbare arbejdsark til et genkendeligt brand som købere vender tilbage til igen og igen. I stedet for at skabe isolerede produkter der konkurrerer med tusindvis af lignende listninger, bygger en sammenhængende produktlinje katalogdybde, visuel konsistens og købertillid der sammensættes over tid. Denne guide dækker den komplette ramme til at planlægge, bygge og udvide en printbar produktlinje der fungerer på Etsy, Amazon KDP, Gumroad, Creative Fabrica og enhver anden platform hvor du sælger pædagogiske ressourcer.',
+    title: 'Opbyg en printbar produktlinje — komplet guide',
+    tagline: 'En komplet guide til at opbygge en sammenhængende printbar produktlinje der driver brandgenkendelse og gentagne køb — der dækker produktlinjeidentitet og -struktur, visuel konsistens på tværs af dit katalog, navngivningskonventioner der opbygger genkendelse, strategisk produktsekventering, katalogorganisering til nem navigation og systematiske udvidelsesmetoder til langsigtet vækst',
+    description: 'En printbar produktlinje transformerer en tilfældig samling af printbare opgaver til et genkendeligt brand som købere vender tilbage til igen og igen. I stedet for at skabe isolerede produkter der konkurrerer med tusindvis af lignende listninger, bygger en sammenhængende produktlinje katalogdybde, visuel konsistens og købertillid der sammensættes over tid. Denne guide dækker den komplette ramme til at planlægge, bygge og udvide en printbar produktlinje der fungerer på Etsy, Amazon KDP, Gumroad, Creative Fabrica og enhver anden platform hvor du sælger pædagogiske ressourcer.',
   },
 
-  introduction: 'De fleste printable-sælgere starter på den samme måde: de generator et arbejdsark, lister det, generator derefter et andet urelateret arbejdsark og lister det også. Over måneder akkumulerer deres butik snesevis af produkter med forskellige visuelle stile, inkonsistent navngivning og ingen logisk relation mellem dem. Hvert produkt står alene og konkurrerer individuelt mod tusindvis af lignende listninger. Hvert nyt produktlancering starter fra nul fordi intet i kataloget forstærker noget andet.\n\nEn produktlinje tager den modsatte tilgang. Hvert produkt du generator passer ind i en bevidst struktur — forenet af visuelt design, forbundet gennem konsistent navngivning, organiseret efter tydelige kategorier og sekventeret for at bygge på hvad der kom før. Når en køber opdager ét produkt i din linje og kan lide kvaliteten, kan de øjeblikkeligt se ti flere produkter der matcher den samme standard, dækker relaterede emner og ser ud som om de hører sammen. Den visuelle og strukturelle konsistens er hvad der gør engangskøbere til tilbagevendende kunder.\n\nForretningseffekten af en produktlinje versus et tilfældigt katalog er betydelig. Sælgere med sammenhængende produktlinjer rapporterer højere gennemsnitlige ordreværdier fordi købere køber flere relaterede produkter i en enkelt session. De ser stærkere organisk søgeydelse fordi produkttitler og -beskrivelser forstærker hinanden med konsistente nøgleordsmønstre. De oplever lavere kundeakvisisitionsomkostninger fordi hver tilfreds køber vender tilbage for yderligere produkter uden ekstra marketingudgifter. Og de bygger ægte brandgenkendelse — købere lærer at søge specifikt efter deres produkter frem for at gennemse generiske søgeresultater.\n\nDenne guide dækker den komplette ramme til at bygge en printbar produktlinje fra bunden: definering af din linjes identitet, planlægning af dens struktur, etablering af visuel konsistens, skabelse af navngivningskonventioner, strategisk produktsekventering, katalogorganisering til navigation og systematisk udvidelse over tid.',
+  introduction: 'De fleste sælgere af printbare opgaver starter på den samme måde: de laver en opgave, lister den på Etsy.dk, laver derefter en anden urelateret opgave og lister den også. Over måneder akkumulerer deres butik snesevis af produkter med forskellige visuelle stile, inkonsistent navngivning og ingen logisk relation mellem dem. Hvert produkt står alene og konkurrerer individuelt mod tusindvis af lignende listninger. Hvert nyt produktlancering starter fra nul fordi intet i kataloget forstærker noget andet.\n\nEn produktlinje tager den modsatte tilgang. Hvert produkt du generator passer ind i en bevidst struktur — forenet af visuelt design, forbundet gennem konsistent navngivning, organiseret efter tydelige kategorier og sekventeret for at bygge på hvad der kom før. Når en køber opdager ét produkt i din linje og kan lide kvaliteten, kan de øjeblikkeligt se ti flere produkter der matcher den samme standard, dækker relaterede emner og ser ud som om de hører sammen. Den visuelle og strukturelle konsistens er hvad der gør engangskøbere til tilbagevendende kunder.\n\nForretningseffekten af en produktlinje versus et tilfældigt katalog er betydelig. Sælgere med sammenhængende produktlinjer rapporterer højere gennemsnitlige ordreværdier fordi købere køber flere relaterede produkter i en enkelt session. De ser stærkere organisk søgeydelse fordi produkttitler og -beskrivelser forstærker hinanden med konsistente nøgleordsmønstre. De oplever lavere kundeakvisisitionsomkostninger fordi hver tilfreds køber vender tilbage for yderligere produkter uden ekstra marketingudgifter. Og de bygger ægte brandgenkendelse — købere lærer at søge specifikt efter deres produkter frem for at gennemse generiske søgeresultater.\n\nDenne guide dækker den komplette ramme til at bygge en printbar produktlinje fra bunden: definering af din linjes identitet, planlægning af dens struktur, etablering af visuel konsistens, skabelse af navngivningskonventioner, strategisk produktsekventering, katalogorganisering til navigation og systematisk udvidelse over tid.',
 
   tutorial: [
     {

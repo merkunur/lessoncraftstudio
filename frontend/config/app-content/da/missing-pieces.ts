@@ -2,31 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'manglende brikker puslespil generator',
+    primaryKeyword: 'puslespil manglende brikker til print',
     secondaryKeywords: [
-      'printbar puslespil generator til Etsy-sælgere',
-      'manglende brikker arbejdsark generator til KDP-udgivere',
-      'visuelt puslespil generator kommerciel licens Gumroad',
-      'sælg manglende brikker arbejdsark på Gumroad',
+      'hvilken brik passer opgave',
+      'puslespil opgaveark',
+      'visuel logik opgave',
+      'puslespilsbrikker finde',
     ],
     lsiKeywords: [
-      'digitale puslespil printbare produkter online forretning',
-      'kommercielt brug visuelt puslespil generator',
-      'printbar puslespilsaktivitet forretningsværktøj',
+      'puslespil',
+      'brikker',
+      'logik',
+      'visuel',
+      'indskoling',
+      'facit',
     ],
-    titleTag: 'Manglende Brikker Generator | Opret Visuelle Puslespil',
-    metaDescription: 'Opret manglende brikker-puslespil til salg på Etsy, KDP og Gumroad. 6 brikformer, konfigurerbar sværhed, automatisk facit, 104 temaer. $49 engangsbetaling.',
+    titleTag: 'Puslespil manglende brikker til print | Generator visuel logik',
+    metaDescription: 'Lav opgaver med "manglende brikker" med temabilleder og automatisk facit. 300 DPI PDF printklare. Prøv gratis.',
   },
 
   hero: {
-    title: 'Manglende Brikker Puslespil Generator til Puslespilslignende Visuelle Puslespil',
-    tagline: 'Generer puslespilslignende puslespil, hvor brikker klippes ud fra billeder, og brugerne identificerer det korrekte nummererede alternativ — med 6 brikformer, 1–5 manglende brikker, 2–6 løsningsalternativer inkl. distraktorer, automatisk genererede facit og visuelt design, der fungerer på alle sprog.',
+    title: 'Puslespil manglende brikker til print — Generator til visuel logik-opgaver',
+    tagline: 'Generer puslespil-opgaver, hvor brikker klippes ud fra billeder, og børnene finder den korrekte nummererede brik — med 6 brikformer, 1–5 manglende brikker, 2–6 løsningsalternativer inkl. distraktorer, automatisk facit og visuelt design, der fungerer på alle sprog.',
     description:
-      'Byg professionelle manglende brikker-puslespil, hvor et billede har huller klippet ud, og brugerne identificerer, hvilket nummereret alternativ der udfylder hvert hul. Den smarte brikekstraktionsalgoritme finder visuelt distinkte områder med tilstrækkelig farvevarians, hvilket sikrer, at hvert puslespil er løseligt og engagerende. Vælg blandt 6 brikformer — firkant, cirkel, rektangel stående, rektangel liggende, ellipse stående og ellipse liggende — og konfigurer sværhedsgraden med 1–5 manglende brikker og 2–6 løsningsalternativer, der inkluderer distraktorbrikker for at udfordre visuel diskrimineringsevne. Hvert puslespil inkluderer et automatisk genereret facit med gulmarkerede nummertiketter placeret inde i hvert hul, der viser det korrekte alternativ. Den automatisk genererede overskrift renderer \"Manglende Brikker\" i turkis (#06B6D4) med en rosarosa beskrivelse (#DB2777) over et dobbelt rammesystem — blågrøn ydre (#14B8A6, 8px) og varm rosa indre (#EC4899, 3px) — lokaliseret på alle 11 understøttede sprog. Manglende Brikker er IKKE sprogfølsom: puslespillene er rent visuelle uden lokalt afhængigt indhold, så hvert puslespil fungerer identisk verden over. Samme puslespil kan sælges globalt uden oversættelse. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Uanset om du sælger visuelle puslespilspakker på Etsy.dk, sammensætter puslespilsarbejdsbøger til Amazon KDP eller opretter kritisk tænkning-aktiviteter til Gumroad — denne generator leverer produktionsklare puslespil på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle puslespil-opgaver med manglende brikker til print, hvor et billede har huller klippet ud, og børnene identificerer, hvilken nummereret brik der udfylder hvert hul. Det danske marked for printbare opgaveark (5,8 mio. dansktalende, Etsy.dk, lav konkurrence) er oplagt for sælgere af visuel logik-opgaver til børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse). Den smarte brikekstraktionsalgoritme finder visuelt distinkte områder med tilstrækkelig farvevarians, hvilket sikrer, at hvert puslespil er løseligt og engagerende. Vælg blandt 6 brikformer — firkant, cirkel, rektangel stående, rektangel liggende, ellipse stående og ellipse liggende — og konfigurer sværhedsgraden med 1–5 manglende brikker og 2–6 løsningsalternativer, der inkluderer distraktorbrikker for at udfordre visuel logik. Hvert puslespil inkluderer et automatisk genereret facit med gulmarkerede nummertiketter placeret inde i hvert hul, der viser det korrekte alternativ. Puslespillene er rent visuelle uden lokalt afhængigt indhold, så hvert puslespil fungerer identisk verden over — samme puslespil kan sælges globalt uden oversættelse. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Uanset om du sælger puslespil-pakker på Etsy.dk, sammensætter visuel logik-bøger til Amazon KDP eller opretter kritisk tænkning-aktiviteter til Gumroad — denne generator leverer produktionsklare opgaveark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Manglende Brikker-Puslespil i 5 Trin',
+    title: 'Sådan laver du puslespil med manglende brikker i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +60,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Manglende Brikker Puslespil Generatoren',
+    title: 'Nøglefunktioner i puslespil-generatoren',
     features: [
       {
         title: 'Puslespilslignende manglende brikker-puslespil med konfigurerbar sværhed',
@@ -103,7 +106,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Manglende Brikker-Puslespil Online',
+    title: 'Sådan sælger du puslespil med manglende brikker online',
     cases: [
       {
         title: 'Tematiske manglende brikker puslespilspakker på Etsy.dk',
@@ -140,64 +143,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvordan fungerer manglende brikker-puslespilsmekanikken?',
+      question: 'Kan jeg sælge disse puslespil på Etsy?',
       answer:
-        'Generatoren tager et billede fra biblioteket (eller din upload) og klipper 1–5 brikker ud, efterlader hvide huller med sorte konturlinjer på de oprindelige placeringer. Den viser derefter 2–6 nummererede løsningsalternativer under eller ved siden af puslespillet — de korrekte brikker plus distraktorbrikker ekstraheret fra andre områder af det samme billede. Brugerne gennemgår hullerne og de nummererede alternativer og identificerer derefter, hvilket alternativ der udfylder hvert hul baseret på farve, mønster og visuelle detaljer.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine puslespil med manglende brikker som digitale downloads på Etsy.dk, som trykte visuel logik-bøger på Amazon KDP, som ressourcer på Gumroad, eller via enhver anden salgskanal. De 6 brikformer, konfigurerbar sværhed, automatisk facit og 104 tematiske billedsamlinger giver stærk differentiering.',
+    },
+    {
+      question: 'Hvordan laver jeg puslespil med manglende brikker?',
+      answer:
+        'Åbn generatoren, vælg en brikform (firkant, cirkel, rektangel eller ellipse), konfigurer antal manglende brikker (1–5) og løsningsalternativer (2–6), vælg et billede fra de 104 temaer eller upload dit eget, og klik Generer. Opgavearket med automatisk facit er klar til eksport som 300 DPI PDF eller JPEG på få minutter.',
+    },
+    {
+      question: 'Er de egnede til børnehaveklasse, indskoling og mellemtrin?',
+      answer:
+        'Ja. Til børnehaveklasse: brug 1 manglende brik med 2 alternativer og firkantede brikker for simpel visuel logik. Til indskoling (0.–3. klasse): brug 3 manglende brikker med 4 alternativer for moderat udfordring. Til mellemtrin (4.–6. klasse): brug 5 manglende brikker med 6 alternativer inkl. distraktorer for avanceret visuel diskriminering.',
+    },
+    {
+      question: 'På hvor mange sprog fungerer puslespillene?',
+      answer:
+        'Puslespillene er rent visuelle — ingen tekst på resultatet, kun billeder og tal — så de fungerer på ethvert sprog uden oversættelse. Grænsefladen understøtter 11 sprog (dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk), men selve opgavearket er identisk uanset sprogvalg. Ét produkt kan sælges globalt.',
+    },
+    {
+      question: 'Er facitlisten inkluderet?',
+      answer:
+        'Ja. Dobbeltlærredssystemet genererer automatisk en facitliste med gulmarkerede nummertiketter placeret inde i hvert hul, der viser det korrekte alternativindeks. Download facit separat som Facit-JPEG eller Facit-PDF med 300 DPI.',
     },
     {
       question: 'Hvilke 6 brikformer er tilgængelige?',
       answer:
-        'Du kan vælge blandt firkant (standard), cirkel, rektangel stående (80% bredde, 100% højde), rektangel liggende (100% bredde, 80% højde), ellipse stående (80% rx, 100% ry) og ellipse liggende (100% rx, 80% ry). Hver form generator en anderledes visuel udfordring. Firkant og cirkel tilbyder rene geometriske udklip, mens rektangel- og ellipsevarianter generator aflange eller kurvede former, der interagerer anderledes med kildebilledet.',
-    },
-    {
-      question: 'Hvordan fungerer sværhedsindstillingerne?',
-      answer:
-        'Sværheden kontrolleres af to uafhængige indstillinger. Antal manglende brikker (1–5) bestemmer, hvor mange huller der klippes ud af billedet — flere brikker betyder mere rumligt ræsonnement. Antal løsningsalternativer (2–6) bestemmer, hvor mange nummererede valg brugerne evaluerer — når alternativer overstiger manglende brikker, er de ekstra distraktorer, der kræver omhyggelig visuel sammenligning. Et puslespil med 1 manglende brik og 2 alternativer er let; 5 manglende brikker med 6 alternativer er udfordrende.',
-    },
-    {
-      question: 'Hvad er distraktorbrikker, og hvordan genereres de?',
-      answer:
-        'Distraktorbrikker er ekstra løsningsalternativer, der ikke matcher noget hul i puslespillet. De ekstraheres fra forskellige områder af det samme kildebillede med op til 200 placeringsforøg hver, hvilket sikrer, at de ikke overlapper med korrekte brikker. Distraktorer forhindrer brugerne i at løse ved eliminering alene — de skal omhyggeligt sammenligne farver, mønstre og visuelle detaljer for at skelne korrekte alternativer fra lignende alternativer.',
-    },
-    {
-      question: 'Hvordan fungerer den smarte brikekstraktionsalgoritme?',
-      answer:
-        'Algoritmen bruger op til 150 forsøg for at finde brikker med tilstrækkelig visuel detalje. Hver kandidatbrik analyseres for lysstyrke­varians (mindste tærskel 15) for at sikre, at den indeholder tilstrækkelig farveinformation til at være identificerbar. Brikker opretholder mindst 250 pixels afstand fra hinanden for at forhindre overlap. Brikstørrelse beregnes som 12% af billedets bredde med minimum 50 pixels. Denne automatiserede proces sikrer, at hvert puslespil er visuelt løseligt uanset kildebillede.',
-    },
-    {
-      question: 'Hvordan fungerer det automatisk genererede facit?',
-      answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Facit viser det samme puslespilsbillede med huller, men udelader løsningsalternativerne. I stedet placeres gulmarkerede nummertiketter (rgba(255,255,0,0.7)) inde i hvert hul, der viser det korrekte 1-baserede alternativindeks. Skriftstørrelsen skaleres til 60% af brikstørrelsen for tydelig læsbarhed. Download facit separat med de dedikerede Facit-JPEG og Facit-PDF knapper.',
-    },
-    {
-      question: 'Er manglende brikker-puslespil sprogfølsomme?',
-      answer:
-        'Nej. Manglende Brikker er et rent visuelt puslespilsformat uden tekstindhold på selve arbejdsarket — ingen ord, ingen bogstaver, ingen lokalt afhængige elementer. Det eneste sprogafhængige element er den automatisk genererede overskriftstekst (\"Manglende Brikker\" / \"Find og placer de manglende brikker!\"), som er lokaliseret på alle 11 understøttede sprog. Puslespillet i sig selv fungerer identisk på ethvert sprog, hvilket gør det ideelt til globale markeder.',
-    },
-    {
-      question: 'Hvordan fungerer det dobbelte rammesystem?',
-      answer:
-        'Hvert genereret puslespil har to dekorative rammer. Den ydre ramme bruger lysende blågrøn (#14B8A6) med 8px streg, 34px marginer og 12px kantradius. Den indre ramme bruger varm rosa (#EC4899) med 3px streg, 46,5px marginer, 8px kantradius og en let forskydning på 2px højre og 3px ned. Sammen generator de en poleret, professionel indramning, der øger den visuelle kvalitet af dine puslespilsarbejdsark til markedspladsannoncer.',
+        'Firkant (standard), cirkel, rektangel stående, rektangel liggende, ellipse stående og ellipse liggende. Hver form skaber en anderledes visuel udfordring. Firkant og cirkel tilbyder rene geometriske udklip, mens rektangel- og ellipsevarianter giver aflange eller kurvede former, der interagerer anderledes med kildebilledet.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — alle 6 brikformer, konfigurerbare manglende brikker og løsningsalternativer, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Kan jeg tilføje baggrundstemaer og rammetemaer på puslespil?',
-      answer:
-        'Ja. Panelet Sideopsætning inkluderer både en baggrundstema-vælger med en opacitetsskyder (0–1 i 0,05-trin) og en rammetema-vælger med sin egen uafhængige opacitetsskyder. Baggrundstemaer tilføjer dekorative mønstre bag puslespilsindholdet, mens rammetemaer rammer siden ind. Begge har separate opacitetskontroller, så du kan oprette subtile baggrunde med fremtrædende rammer, eller enhver kombination, der passer din design.',
-    },
-    {
-      question: 'Kan jeg sælge manglende brikker-puslespil oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine manglende brikker-puslespil som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. De 6 brikformer, konfigurerbar sværhed, automatisk genererede facit og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare puslespilsprodukter.',
+        'Ja. Du kan bruge alle funktioner — alle 6 brikformer, konfigurerbare manglende brikker og løsningsalternativer, automatisk facit, hele billedbiblioteket, baggrunds- og rammetemaer og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket.',
     },
     {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste alle 6 brikformer, konfigurerbare sværhedsindstillinger, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste alle brikformer, sværhedsindstillinger, facit og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken.',
     },
   ],
 
@@ -262,27 +245,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp',
-      primaryAlt: 'Manglende brikker puslespilsarbejdsark med huller klippet ud af et billede og nummererede løsningsalternativer inkl. distraktorer',
+      primaryAlt: 'Puslespil manglende brikker opgave til print med huller klippet ud af et billede og nummererede brikker at finde',
     },
     sampleGallery: [
       {
         src: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp',
-        alt: 'Manglende brikker-puslespil med firkantede huller klippet ud af en farverig illustration',
+        alt: 'Puslespil med manglende brikker — firkantede huller i farverig illustration til visuel logik i indskoling',
         caption: 'Firkantede brikker — rene geometriske udklip for tydelig visuel identifikation',
       },
       {
         src: '/samples/danish/missing%20pieces/Manglende%20Dele%202.webp',
-        alt: 'Manglende brikker-puslespil med cirkulære huller og nummererede løsningsalternativer',
-        caption: 'Cirkulære brikker — afrundede udklip med distraktora­lternativer for øget udfordring',
+        alt: 'Hvilken brik passer opgave med cirkulære huller og nummererede løsningsalternativer inkl. distraktorer',
+        caption: 'Cirkulære brikker — afrundede udklip med distraktorbrikker for øget logik-udfordring',
       },
       {
         src: '/samples/danish/missing%20pieces/Manglende%20Dele%203.webp',
-        alt: 'Manglende brikker puslespil facit med gulmarkerede numre inde i hvert hul',
-        caption: 'Automatisk genereret facit — gule etiketter viser korrekt alternativ for hvert hul',
+        alt: 'Facitliste til puslespil med manglende brikker — gule nummertiketter inde i hvert hul',
+        caption: 'Automatisk facit — gule etiketter viser korrekt brik for hvert hul',
       },
     ],
     youtubeId: 'gb-xE_Ay4fc',
-    videoTitle: 'Sådan Opretter du Manglende Brikker-Puslespil med 6 Former og Automatiske Facit — Trin-for-Trin Guide',
+    videoTitle: 'Sådan laver du puslespil med manglende brikker — 6 brikformer og automatisk facit — trin-for-trin guide',
   },
 };
 

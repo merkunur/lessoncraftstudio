@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab billedsudoku',
+    primaryKeyword: 'lav sudoku med billeder til print',
     secondaryKeywords: [
-      'billedsudoku for børn',
-      'billedsudoku arbejdsark generator',
-      'printbar billedsudoku til salg',
+      'billedsudoku til børn i børnehaveklasse',
+      'billedsudoku generator til print',
+      'printbar sudoku med billeder til salg på Etsy.dk',
       'visuelle sudoku-puslespil til førskole',
     ],
     lsiKeywords: [
-      'billedbaserede logikpuslespil for børn',
-      'visuel sudoku for det yngre publikum',
-      'førskole logik-arbejdsark maker',
-      'sælg sudoku-arbejdsark på Etsy',
-      'Amazon KDP puslespil aktivitetsbøger',
-      'kommerciel licens puslespilværktøj',
+      'billedbaserede logikpuslespil for børn til print',
+      'visuel sudoku til børnehaveklasse og indskoling',
+      'førskole logik-opgave maker',
+      'sælg sudoku-opgaver på Etsy.dk og Saxo.com',
+      'Amazon KDP puslespil-aktivitetshæfter',
+      'kommerciel licens sudoku-værktøj',
     ],
-    titleTag: 'Skab billedsudoku-arbejdsark — Guide',
-    metaDescription: 'Skab billedsudoku til det yngre publikum. 4x4 billedgitter, 3 sværhedsgrader, tematiske billeder, facit og trykklare PDF til salg på Etsy og KDP.',
+    titleTag: 'Lav sudoku med billeder til print — Sælgerguide',
+    metaDescription: 'Lav sudoku med billeder til børn. 4x4 billedgitter, 3 sværhedsgrader, tematiske billeder, facit og printbar PDF til salg på Etsy.dk og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du billedsudoku til unge brugere',
-    tagline: 'En trin-for-trin vejledning til at skabe billedbaserede 4x4 sudoku-puslespil du kan sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Billedsudoku erstatter tal med billeder, der gør logikpuslespil tilgængelige for børn helt ned til tre år. I stedet for at fylde et gitter med cifre placerer børn tematiske billeder — dyr, frugter, køretøjer eller ethvert billedsæt du vælger — så hver række og kolonne indeholder hvert billede præcis én gang. Denne guide fører dig igennem hele skabelsesprocessen med billedsudoku-makeren — fra at vælge din sværhedsgrad og tema til at eksportere en poleret, trykklart PDF med automatisk facit. Uanset om du bygger dit første printbare puslespilprodukt eller udvider et eksisterende tidlig-lærings-katalog, vil du have et færdigt produkt klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav sudoku med billeder til børn — komplet guide',
+    tagline: 'En trin-for-trin vejledning til at lave billedbaserede 4x4 sudoku-puslespil du kan sælge på Etsy.dk, Amazon KDP og Saxo.com',
+    description: 'Sudoku med billeder erstatter tal med tematiske billeder, der gør logikpuslespil tilgængelige for børn helt ned til tre år. I stedet for at fylde et gitter med cifre placerer børn tematiske billeder — dyr, frugter, køretøjer eller ethvert billedsæt du vælger — så hver række og kolonne indeholder hvert billede præcis én gang. Denne guide fører dig igennem hele skabelsesprocessen med billedsudoku-makeren — fra at vælge din sværhedsgrad og tema til at eksportere en poleret, trykklart PDF med automatisk facit. Uanset om du bygger dit første printbare puslespilprodukt eller udvider et eksisterende tidlig-lærings-katalog, vil du have et færdigt produkt klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Sudoku er et af verdens mest genkendelige puslespilformater, men standard 9x9 talgitter er alt for komplekse for det yngre publikum. Billedsudoku løser dette ved at bruge et 4x4 gitter med fire tematiske billeder i stedet for ni cifre. Reglerne forbliver de samme — hver række og kolonne skal indeholde hvert billede præcis én gang — men den reducerede gitterstørrelse og det visuelle format gør det passende for børn i alderen 3 til 7.\n\nHvad der gør billedsudoku særligt stærkt som printable-produkt er at det underviser logik, ikke matematik. Forældre der søger "logikpuslespil til førskole" eller "kritisk tænkning arbejdsark til børnehaveklasse" finder billedsudoku fordi det udvikler rumlig ræsonnering og deduktiv tænkning uden at kræve nogen talefærdigheder. Dette positionerer dine produkter i logik- og puslespilkategorien frem for at konkurrere direkte med det mættede matematik-arbejdsarkmarked.\n\nDen visuelle natur af billedsudoku gør det også sproguafhængigt for selve puslespilindholdet. Et barn der løser et gitter med dyrebilleder behøver ikke læse nogen tekst — puslespillet er helt visuelt. Det betyder at et enkelt arbejdsarkdesign fungerer for købere i ethvert land og dramatisk udvider dit potentielle marked. Overskriften og instruktionerne er lokalitetsbevidste med 11 sprog indbygget, men selve puslespillet behøver ingen oversættelse.\n\nBilledsudoku-makeren håndterer al puslespilgenerering for dig. Den generator gyldige 4x4 sudoku-gitter, fjerner det korrekte antal celler baseret på din valgte sværhedsgrad, genererer et udklipsområde hvor børn finder de manglende billeder og producerer automatisk facit. Du fokuserer på produktstrategi — hvilke temaer at bruge, hvilke sværhedsgrader at ramme, hvordan du pakker og prissætter — mens generatoren håndterer puslespillogik, layout og trykformatering.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvepuslespil, teste enhver konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Sudoku er et af verdens mest genkendelige puslespilformater, men standard 9x9 talgitter er alt for komplekse for børn i børnehaveklassen. Sudoku med billeder løser dette ved at bruge et 4x4 gitter med fire tematiske billeder i stedet for ni cifre. Reglerne forbliver de samme — hver række og kolonne skal indeholde hvert billede præcis én gang — men den reducerede gitterstørrelse og det visuelle format gør det passende for børn i alderen 3 til 7.\n\nHvad der gør billedsudoku særligt stærkt som printable-produkt er at det underviser logik, ikke matematik. Forældre der søger "logikpuslespil til førskole" eller "kritisk tænkning arbejdsark til børnehaveklasse" finder billedsudoku fordi det udvikler rumlig ræsonnering og deduktiv tænkning uden at kræve nogen talefærdigheder. Dette positionerer dine produkter i logik- og puslespilkategorien frem for at konkurrere direkte med det mættede matematik-arbejdsarkmarked.\n\nDen visuelle natur af billedsudoku gør det også sproguafhængigt for selve puslespilindholdet. Et barn der løser et gitter med dyrebilleder behøver ikke læse nogen tekst — puslespillet er helt visuelt. Det betyder at et enkelt arbejdsarkdesign fungerer for købere i ethvert land og dramatisk udvider dit potentielle marked. Overskriften og instruktionerne er lokalitetsbevidste med 11 sprog indbygget, men selve puslespillet behøver ingen oversættelse.\n\nBilledsudoku-makeren håndterer al puslespilgenerering for dig. Den generator gyldige 4x4 sudoku-gitter, fjerner det korrekte antal celler baseret på din valgte sværhedsgrad, genererer et udklipsområde hvor børn finder de manglende billeder og producerer automatisk facit. Du fokuserer på produktstrategi — hvilke temaer at bruge, hvilke sværhedsgrader at ramme, hvordan du pakker og prissætter — mens generatoren håndterer puslespillogik, layout og trykformatering.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvepuslespil, teste enhver konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

@@ -2,31 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'subtraktions arbejdsark generator',
+    primaryKeyword: 'minusstykker til print',
     secondaryKeywords: [
-      'subtraktions arbejdsark sælg på Etsy',
-      'subtraktions arbejdsark generator til Amazon KDP',
-      'overstregnings arbejdsark kommerciel licens',
-      'printbare subtraktionsarbejdsark til Gumroad',
+      'minusopgaver generator',
+      'regneopgaver minus 1. klasse',
+      'sommer subtraction til print',
+      'minusstykker med facit',
     ],
     lsiKeywords: [
-      'digitale matematikolprodukter for iværksættere',
-      'printbare subtraktionsaktiviteter online forretning',
-      'subtraktions arbejdsark generator kommercielt brug',
+      'indskoling',
+      '1. klasse',
+      '2. klasse',
+      'lån',
+      'forskel',
+      'facitliste',
     ],
-    titleTag: 'Subtraktions Arbejdsark Generator | Opret og Sælg',
-    metaDescription: 'Opret subtraktionsarbejdsark til salg på Etsy, KDP og Gumroad. 4 tilstande med overstregning, 104 temaer, facit, gråtone, 400+ DPI. $49 engangsbetaling.',
+    titleTag: 'Minusstykker til print | Generator med facitliste',
+    metaDescription: 'Lav minusstykker med temabilleder og automatisk facitliste. 300 DPI PDF, 11 sprog. Prøv gratis — kommerciel licens inkluderet.',
   },
 
   hero: {
-    title: 'Subtraktions Arbejdsark Generator med Overstregning',
-    tagline: 'Gør subtraktion konkret med arbejdsark, hvor brugerne streger billeder over for at finde svaret.',
+    title: 'Minusstykker til print — generator med overstregning og facitliste',
+    tagline: 'Lav minusopgaver med temabilleder, automatisk facit og printklare PDF\'er til indskoling og mellemtrin.',
     description:
-      'Opret billedbaserede subtraktionsarbejdsark, der gør konceptet \"fjerne\" synligt og forståeligt gennem en kraftfuld visuel metode: overstregning. Brugerne ser en gruppe billeder og observerer diagonale kryds over de fjernede elementer — hvilket gør det abstrakte begreb subtraktion konkret og intuitivt. Vælg mellem fire øvelsestilstande — Overstregning, Billede − Tal, Find Subtrahenden og Blandet Tilstand — for at guide læringen fra børnehave til 2. klasse. Udforsk mere end 3.100 omhyggeligt udvalgte illustrationer i 104 temaer som dinosaurer, havdyr og køretøjer. Hvert arbejdsark indeholder en automatisk genereret facitliste, og du kan eksportere trykklare PDF\'er i Letter-, Kort- (800×1000) eller A4-format med mere end 400 DPI. En indbygget gråtoneknap gør det muligt at oprette blækvenlige sort-hvide versioner med ét klik. Uanset om du sælger temapakker på Etsy.dk, udgiver aktivitetsbøger på Amazon KDP eller printer øvelsesark til dine kunder — Subtraktions Arbejdsark Generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle minusstykker til print, der gør subtraktion konkret og forståeligt med en visuel overstregningsmetode. Børnene ser en gruppe billeder og observerer diagonale kryds over de fjernede elementer — så bliver det abstrakte begreb \"forskel\" synligt og intuitivt. Vælg mellem fire øvelsestilstande — Overstregning, Billede minus Tal, Find Subtrahenden og Blandet Tilstand — tilpasset fra børnehaveklasse til 2. klasse. Danmark har 5,8 millioner indbyggere, og det danske marked for printbare minusopgaver er næsten ubesat på Etsy.dk. Søg efter \"minusstykker til print\" eller \"regneopgaver minus 1. klasse\" — du finder kun få konkurrenter, hvilket giver dig en enorm fordel som sælger. Brug generatoren til at lave minusstykker med facit til indskoling (børnehaveklasse, 1. klasse) og mellemtrin (2.–3. klasse). Indstil den maksimale subtrahend fra 2 til 20 for at tilpasse sværhedsgraden. Udforsk mere end 3.100 omhyggeligt udvalgte illustrationer i 104 temaer som dinosaurer, havdyr og køretøjer — sommer-subtraction-sæt og sæsonbetonede minusopgaver sælger særligt godt. Hvert arbejdsark genererer en automatisk facitliste, og du eksporterer trykklare PDF\'er i Letter-, Kort- (800×1000) eller A4-format med mere end 400 DPI. En indbygget gråtoneknap laver blækvenlige sort-hvide versioner med ét klik. Uanset om du sælger minusstykker på Etsy.dk, udgiver aktivitetsbøger på Amazon KDP eller laver regneopgaver til dine kunder — denne minusopgaver generator leverer professionelle resultater på få minutter. Prøv gratis med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Subtraktionsarbejdsark i 5 Trin',
+    title: 'Sådan laver du minusstykker til print i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +60,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Subtraktions Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i minusstykker-generatoren',
     features: [
       {
         title: 'Overstregning — den visuelle subtraktionsmetode',
@@ -103,7 +106,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Subtraktionsarbejdsark Online',
+    title: 'Sådan sælger du minusstykker til print online',
     cases: [
       {
         title: 'Temapakker med subtraktionsarbejdsark på Etsy.dk',
@@ -140,39 +143,34 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvilke øvelsestilstande tilbyder Subtraktions Arbejdsark Generatoren?',
+      question: 'Kan jeg sælge disse minusstykker på Etsy?',
       answer:
-        'Generatoren indeholder fire tilstande: Overstregning (en komplet gruppe billeder med diagonale kryds over de fjernede elementer), Billede − Tal (en gruppe billeder minus et tal), Find Subtrahenden (startgruppen og resultatet vises, og brugerne bestemmer, hvor mange der er fjernet) og Blandet Tilstand (kombinerer alle tre). Hver tilstand retter sig mod et andet niveau, fra ren visuel tælling til tidlig algebraisk ræsonnement. Sælgere, der tilbyder alle fire tilstande i en niveauinddelt pakke, kan tage premiumpriser, fordi køberne får en komplet progression, der dækker hele spektret af subtraktionsfærdigheder.',
+        'Ja. Med en kommerciel licens har du alle rettigheder til at sælge dine minusstykker som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som printbare produkter på Gumroad, eller via enhver anden salgskanal. Der er ingen royalties per salg, ingen månedlige gebyrer og ingen begrænsninger på antallet af minusopgaver, du producerer eller sælger.',
     },
     {
-      question: 'Hvordan fungerer overstregningen?',
+      question: 'Hvordan laver jeg minusstykker til print?',
       answer:
-        'I tilstanden Overstregning viser arbejdsarket hele startgruppen — for eksempel otte sommerfugle. Derefter tegnes diagonale kryds over de sidste N billeder for at repræsentere den fjernede mængde. Brugerne tæller billederne uden kryds for at finde svaret. Dette gør det abstrakte koncept \"fjerne\" synligt og konkret og er særligt effektivt for børn i børnehaven og indskolingen, der lige er begyndt med subtraktion.',
+        'Åbn minusopgaver generatoren, vælg en af fire tilstande (Overstregning, Billede minus Tal, Find Subtrahenden eller Blandet), indstil den maksimale subtrahend fra 2 til 20, vælg billeder fra 104 temaer, og klik Generer. Arbejdsarket og facitlisten oprettes automatisk, og du eksporterer som trykfærdig PDF i Letter- eller A4-format med mere end 400 DPI. Hele processen tager under to minutter.',
     },
     {
-      question: 'Hvilke talintervaller kan jeg indstille for subtraktionsopgaver?',
+      question: 'Er minusstykkerne egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Du kan indstille den maksimale subtrahend fra 2 til 20. Generatoren sikrer automatisk, at subtrahenden altid er mindre end starttallet, hvilket garanterer gyldige og ikke-negative svar. Så du kan oprette enkle opgaver som 3 minus 1 for begyndere eller mere udfordrende tal som 18 minus 12 for avancerede brugere.',
+        'Ja. Indstil subtrahend til maksimalt 5 for børnehaveklasse og 1. klasse (indskoling), til 10 for 2. klasse, eller til 20 for mellemtrin. Tilstanden Overstregning er perfekt til de yngste, fordi børnene direkte kan se, hvor mange der er fjernet. Tilstanden Find Subtrahenden udvikler tidlig algebraisk tænkning hos ældre børn. Du kan differentiere sværhedsgraden med ét klik.',
     },
     {
-      question: 'Hvor mange billeder og temaer er der tilgængelige?',
+      question: 'På hvor mange sprog kan jeg lave minusstykker?',
       answer:
-        'Det indbyggede billedbibliotek indeholder mere end 3.100 illustrationer fordelt på 104 temaer, herunder dyr, køretøjer, mad, højtider, sport, rummet, natur og meget mere. Du kan også uploade dine egne billeder til brand- eller sæsonbetonede illustrationer.',
+        'Minusstykkerne er helt visuelle — det matematiske indhold bruger billeder, kryds og tal, ingen ord. Et arbejdsark oprettet på ét sprog fungerer på alle sprog. Appens brugerflade understøtter 11 sprog: dansk, svensk, norsk, finsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk og engelsk. Det betyder, at dine printbare minusopgaver kan sælges globalt uden oversættelse.',
     },
     {
-      question: 'Opretter generatoren automatisk facit?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Ja. Klik på knappen Generer Facit for at oprette en udfyldt version af dit arbejdsark med alle korrekte differenser. I tilstanden Overstregning beholder facit de overstregede billeder og tilføjer det skrevne svar, så sælgere og forældre kan kontrollere med et blik. Download det som en separat JPEG- eller PDF-fil sammen med brugerens arbejdsark.',
+        'Ja. Klik på knappen Generer Facit for at oprette en udfyldt version af dit arbejdsark med alle korrekte differenser. I tilstanden Overstregning beholder facitlisten de overstregede billeder og tilføjer den korrekte forskel, så du kan kontrollere med et blik. Download facitlisten som en separat JPEG- eller PDF-fil sammen med arbejdsarket.',
     },
     {
-      question: 'Er subtraktionsarbejdsarkene sprogafhængige?',
+      question: 'Hvordan fungerer overstregningen i minusopgaverne?',
       answer:
-        'Nej. Subtraktionsarbejdsarkene er helt visuelle — det matematiske indhold bruger billeder, kryds og tal, ingen ord. Et arbejdsark oprettet på ét sprog fungerer på alle sprog. Sprogindstillingen ændrer kun etiketterne i applikationens brugerflade, ikke arbejdsarkets indhold, hvilket gør dine produkter direkte salgbare globalt uden oversættelse.',
-    },
-    {
-      question: 'Hvad er gråtoneeksportmuligheden?',
-      answer:
-        'Downloadmenuen indeholder en mulighed for Gråtone, der konverterer hele arbejdsarket og facit til sort-hvid før eksporten. Dette giver blækbesparende versioner, der er perfekte til aktivitetsbøger på Amazon KDP til lave omkostninger eller til situationer, hvor farveudskrift ikke er tilgængelig eller er for dyr.',
+        'I tilstanden Overstregning viser arbejdsarket hele startgruppen — for eksempel otte sommerfugle. Derefter tegnes diagonale kryds over de sidste N billeder for at repræsentere den fjernede mængde. Børnene tæller billederne uden kryds for at finde forskellen. Denne metode gør det abstrakte begreb \"lån\" og \"forskel\" synligt og konkret — særligt effektivt i indskolingen.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
@@ -180,19 +178,9 @@ const content: AppContent = {
         'Ja. Du har adgang til alle funktioner i generatoren — de fire øvelsestilstande, det komplette billedbibliotek, facitgenerering, gråtoneeksport og alle sideformater — uden at oprette en konto, indtaste et kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
-      question: 'Hvad er inkluderet i den kommercielle licens?',
+      question: 'Hvad er gråtoneeksportmuligheden?',
       answer:
-        'Den kommercielle licens fjerner vandmærket fra alle downloads og giver dig ubegrænsede rettigheder til at sælge de arbejdsark, du opretter — på Etsy.dk, Amazon KDP, Gumroad, din egen hjemmeside eller enhver anden platform. Der er ingen royalties per salg, ingen månedlige gebyrer og ingen begrænsninger på antallet af arbejdsark, du producerer eller sælger.',
-    },
-    {
-      question: 'Kan jeg sælge de arbejdsark, jeg opretter med dette værktøj, på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du alle rettigheder til at sælge dine subtraktionsarbejdsark som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som pædagogiske printbare produkter på Gumroad, eller via enhver anden salgskanal. Mange sælgere opretter temapakker og aktivitetsbøger, der genererer konstante indtægter.',
-    },
-    {
-      question: 'Hvad er returpolitikken?',
-      answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver tilstand, hvert tema, hvert eksportformat og hvert sideformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet opfylder dine behov, før du anskaffer en licens.',
+        'Downloadmenuen indeholder en mulighed for Gråtone, der konverterer hele arbejdsarket og facitlisten til sort-hvid før eksporten. Dette giver blækbesparende versioner, der er perfekte til aktivitetsbøger på Amazon KDP eller masseudskrift af minusstykker til indskoling og mellemtrin.',
     },
   ],
 
@@ -252,23 +240,23 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/subtraction/Sjov%20Subtraktion%201.webp',
-      primaryAlt: 'Subtraktionsarbejdsark med overstregede billeder, der viser den fjernede mængde',
+      primaryAlt: 'Minusstykker til print med overstregede billeder og automatisk facitliste',
     },
     sampleGallery: [
       {
         src: '/samples/danish/subtraction/Sjov%20Subtraktion%201.webp',
-        alt: 'Subtraktionsarbejdsark i Overstregning tilstand med diagonale kryds over fjernede billeder',
-        caption: 'Overstregning tilstand — diagonale kryds viser, hvilke elementer der subtraheres',
+        alt: 'Minusstykker med overstregning — diagonale kryds viser forskellen for indskoling',
+        caption: 'Overstregning — minusopgaver hvor børnene ser forskellen med diagonale kryds',
       },
       {
         src: '/samples/danish/subtraction/Sjov%20Subtraktion%202.webp',
-        alt: 'Subtraktionsarbejdsark i Billede minus Tal tilstand med grupper af billeder og tal',
-        caption: 'Billede − Tal tilstand — kombinerer grupper af billeder med tal for overgangsfærdigheder',
+        alt: 'Minusopgaver med billede minus tal til 1. og 2. klasse',
+        caption: 'Billede minus Tal — regneopgaver minus for indskoling og mellemtrin',
       },
       {
         src: '/samples/danish/subtraction/Sjov%20Subtraktion%203.webp',
-        alt: 'Subtraktionsarbejdsark i Find Subtrahenden tilstand, der udfordrer brugerne til at finde den manglende værdi',
-        caption: 'Find Subtrahenden tilstand — brugerne bestemmer, hvor mange der er fjernet',
+        alt: 'Minusstykker med facit hvor børnene finder den manglende forskel',
+        caption: 'Find Subtrahenden — minusstykker med facitliste til selvkontrol',
       },
     ],
     youtubeId: 'til2mrWMUxk',

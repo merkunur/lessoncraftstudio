@@ -2,31 +2,35 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'præpositioner arbejdsark generator',
+    primaryKeyword: 'rumlig orientering opgave til print',
     secondaryKeywords: [
-      'printbare præpositioner arbejdsark til Etsy-sælgere',
-      'rumligt sprog arbejdsark generator til KDP-udgivere',
-      'præpositioner aktiviteter sælg på Gumroad',
-      'præpositioner printables kommerciel licens',
+      'forholdsord øvelser',
+      'over under ved siden af opgave',
+      'rumsans opgaveark',
+      'retningsbegreber børnehaveklasse',
     ],
     lsiKeywords: [
-      'digitale rumlige ordforråds produkter online forretning',
-      'printbare præpositioner arbejdsark business',
-      'kommercielt brug sprogarbejdsark generator',
+      'forholdsord',
+      'rumlig',
+      'orientering',
+      'over',
+      'under',
+      'ved siden af',
+      'børnehaveklasse',
     ],
-    titleTag: 'Præpositioner Arbejdsark Generator | Opret Printables',
-    metaDescription: 'Opret præpositioner arbejdsark til salg på Etsy, KDP og Gumroad. 8 rumlige præpositioner, udfyldningsøvelser og flervalg. $49 engangsbetaling.',
+    titleTag: 'Rumlig orientering opgave til print | Forholdsord-generator',
+    metaDescription: 'Lav opgaver om rumlig orientering og forholdsord med temabilleder. Automatisk facit, 11 sprog. Prøv gratis.',
   },
 
   hero: {
-    title: 'Præpositioner Arbejdsark Generator til Rumligt Sprog',
-    tagline: 'Otte rumlige præpositioner møder billede-og-form øvelser — byg rumligt ordforråd, sætning for sætning.',
+    title: 'Rumlig orientering opgave til print — forholdsord-generator',
+    tagline: 'Lav printbare opgaver om rumlig orientering og forholdsord — over, under, ved siden af, bag, mellem, foran — med temabilleder og geometriske former.',
     description:
-      'Design professionelle præpositioner arbejdsark, der lærer rumlige relationer gennem praktiske billede-og-form øvelser. Brugerne øver otte kernepræpositioner — i, på, under, ved siden af, bag, mellem, over og foran — med to forskellige øvelsestilstande: Udfyldningsøvelser, hvor brugerne skriver den manglende præposition, og Flervalgsspørgsmål, hvor brugerne identificerer billedet, der matcher en rumlig beskrivelse. Vælg, hvilke præpositioner du vil inkludere via den indbyggede tjekliste, og konfigurer 1 til 8 øvelser per arbejdsark. Gennemse mere end 3.100 omhyggeligt udvalgte illustrationer i 104 temaer til de placerede genstande, og vælg blandt 8 geometriske former (cirkel, kubus, cylinder, hjerte, sekskant, kvadrat, stjerne, trekant) som rumlige referencepunkter. Fuld Adgang låser op for alle 11 understøttede sprog med grammatisk korrekte præpositioner — tysk med kasussammentrækninger som \"im\" og \"am\", fransk med elisionsregler for \"l\'\" før vokaler, spansk med kønsbestemte artikler — hvilket multiplicerer dit produktkatalog elleve gange fra et enkelt arbejdsflow. Hvert arbejdsark genererer automatisk en facitliste, og du kan eksportere trykklare PDF\'er og JPEG\'er med mere end 400 DPI i Letter-, A4-, Kvadrat- eller brugerdefineret format. Uanset om du sælger tematiske præpositionspakker på Etsy.dk, sammensætter bøger om rumligt ordforråd til Amazon KDP eller opretter niveauinddelte sprogstationer til Gumroad — Præpositioner Arbejdsark Generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle opgaver om rumlig orientering og forholdsord, hvor børn øver retningsbegreber gennem billede-og-form øvelser. Børnene arbejder med otte forholdsord — i, på, under, ved siden af, bag, mellem, over og foran — i to øvelsestilstande: Udfyldningsøvelser, hvor de skriver det manglende forholdsord, og Flervalgsspørgsmål, hvor de identificerer billedet, der matcher en rumlig beskrivelse. Det danske marked med 5,8 millioner dansktalende har meget få printbare opgaver om rumlig orientering og forholdsord på Etsy.dk og Amazon KDP — en åben niche for sælgere. Opgaverne er ideelle til børnehaveklasse, hvor rumsans og retningsbegreber er en del af den daglige undervisning, til indskoling (0.–3. klasse), hvor rumlig orientering indgår i læringsmålene, og til mellemtrin (4.–6. klasse) med sprogbevidst grammatik på 11 sprog. Vælg hvilke forholdsord du vil inkludere via tjeklisten, konfigurer 1 til 8 øvelser per opgaveark, og vælg blandt mere end 3.100 illustrationer i 104 temaer og 8 geometriske former. Generatoren understøtter 11 sprog med grammatisk korrekte forholdsord — dansk med korrekte bøjninger, tysk med kasussammentrækninger, fransk med elisionsregler — hvilket multiplicerer dit produktkatalog. Hvert opgaveark genererer automatisk en facitliste, og du kan eksportere trykklare PDF\'er med mere end 400 DPI. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Præpositioner Arbejdsark i 5 Trin',
+    title: 'Sådan laver du opgaver om rumlig orientering i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +61,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Præpositioner Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i forholdsord-generatoren',
     features: [
       {
         title: '8 rumlige præpositioner med udfyldnings- og flervalgstilstande',
@@ -103,7 +107,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Præpositioner Arbejdsark Online',
+    title: 'Sådan sælger du opgaver om forholdsord og rumlig orientering online',
     cases: [
       {
         title: 'Tematiske præpositioner arbejdsark pakker på Etsy.dk',
@@ -140,64 +144,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvilke øvelsestilstande tilbyder Præpositioner Arbejdsark Generatoren?',
+      question: 'Kan jeg sælge disse opgaver om rumlig orientering på Etsy?',
       answer:
-        'Generatoren indeholder to tilstande: Udfyldningsøvelse og Flervalgsspørgsmål. Udfyldningsøvelse viser sætninger med en manglende præposition, som brugerne udfylder (for eksempel \"Katten er ____ kvadraten\"). Flervalgsspørgsmål viser en rumlig beskrivelse og beder brugerne om at krydse det matchende billede af. Begge tilstande fungerer med alle otte præpositioner og alle temaer.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine opgaver om forholdsord og rumlig orientering som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, eller via enhver anden salgskanal. Det danske marked med 5,8 millioner dansktalende har næsten ingen printbare opgaver om retningsbegreber, hvilket giver lav konkurrence. Billede-og-form formatet og den flersprogede evne giver stærk differentiering.',
     },
     {
-      question: 'Hvilke 8 præpositioner er tilgængelige?',
+      question: 'Hvordan laver jeg opgaver om forholdsord og rumlig orientering?',
       answer:
-        'Generatoren understøtter otte rumlige præpositioner: i, på, under, ved siden af, bag, mellem, over og foran. Du vælger, hvilke præpositioner du vil inkludere via en tjekliste, så du kan fokusere på alle otte for en omfattende gennemgang eller begrænse udvalget til to eller tre for målrettet øvelse. Sælgere, der opretter separate arbejdsarkpakker for hvert præpositionspar, kan opbygge et større katalog fra det samme værktøj.',
+        'Vælg en øvelsestilstand: Udfyldningsøvelse (børn skriver det manglende forholdsord — "Katten er ____ kvadraten") eller Flervalgsspørgsmål (børn identificerer billedet, der matcher en rumlig beskrivelse). Vælg hvilke forholdsord du vil inkludere via tjeklisten, indstil 1–8 øvelser per opgaveark, og vælg temabilleder og geometriske former. Eksporter som PDF med 400+ DPI.',
     },
     {
-      question: 'Hvad er forskellen mellem genstande og former?',
+      question: 'Er opgaverne egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Genstande er tematiske illustrationer fra billedbiblioteket — dyr, køretøjer, mad og mere — som repræsenterer det objekt, der placeres. Former er geometriske figurer (cirkel, kubus, cylinder, hjerte, sekskant, kvadrat, stjerne, trekant), der fungerer som rumlig referencepunkt. Hver øvelse placerer en genstand i forhold til en form, hvilket generator tydelige rumlige relationer som \"Katten er under kubusen.\"',
+        'Ja. Til børnehaveklasse bruges Flervalgsspørgsmål med 2 forholdsord (over, under) og 1–2 øvelser per side — perfekt til at introducere retningsbegreber og rumsans. Til indskoling (0.–3. klasse) bruges 4–5 forholdsord med Udfyldningsøvelser. Til mellemtrin (4.–6. klasse) bruges alle 8 forholdsord med tætpakkede sider. Rumlig orientering er en del af læringsmålene i den danske folkeskole.',
     },
     {
-      question: 'Hvor mange øvelser kan jeg have på hvert arbejdsark?',
+      question: 'På hvor mange sprog fungerer opgaverne?',
       answer:
-        'Du kan indstille fra 1 til 8 øvelser per arbejdsark. Færre øvelser generator enklere, mere overskuelige sider, perfekte til yngre brugere eller målrettet øvelse. Flere øvelser maksimerer øvelsestætheden til gennemgangssessioner, evalueringer eller lektieark. At variere antallet af øvelser i dine produktlistinger hjælper dig også med at oprette forskellige priskategorier.',
+        'Generatoren understøtter 11 sprog med grammatisk korrekte forholdsord: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Hvert sprog har egne grammatikregler — tysk med kasussammentrækninger ("im", "am"), fransk med elision ("l\'"), dansk med korrekte bøjninger. Hver sprogversion er et separat salgbart produkt.',
     },
     {
-      question: 'Er Præpositioner Arbejdsark Generatoren sprogfølsom?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Ja. Til forskel fra rent visuelle matematikapper ændrer præpositioner arbejdsark sig fundamentalt baseret på det valgte sprog. Hvert sprog har egne præpositionsord, artikelregler og grammatikmønstre. Tysk bruger kasussammentrækninger (\"im\", \"am\") og kønsbevidste artikler (dem/der). Fransk anvender elision (\"l\'\" før vokaler). Spansk bruger kønsbestemte artikler (el/la). Dansk bruger korrekte bestemte og ubestemte former i præpositionsfraser. Hver genereret sætning er grammatisk korrekt — ingen ord-for-ord-oversættelse. Den Kommercielle licens er kun engelsk; Fuld Adgang låser op for alle 11 sprog.',
+        'Ja. Klik på Generer Facit for at oprette en løst version. Ved Udfyldningsøvelser viser facit hvert tomt felt udfyldt med det korrekte forholdsord. Ved Flervalgsspørgsmål markeres det korrekte billede. Eksporter facit som separat JPEG eller PDF ved siden af opgavearket.',
     },
     {
-      question: 'Hvordan fungerer grammatikbehandlingen i forskellige sprog?',
+      question: 'Hvilke 8 forholdsord er tilgængelige?',
       answer:
-        'Generatoren indeholder en indbygget grammatikmotor for hvert af de 11 understøttede sprog. Den slår den korrekte artikel op baseret på ordets køn (vigtigt for tysk, fransk, spansk, portugisisk, italiensk), anvender kasusregler for tyske præpositioner, håndterer fransk elision, hvor artikler trækkes sammen før vokaler eller stumt h, og bruger korrekte bøjningsformer for formnavne. På dansk bruges for eksempel \"kvadraten\" i bestemt form med korrekt bøjning. Resultatet er naturligt klingende sætninger i hvert sprog, ingen kluntede bogstavelige oversættelser.',
-    },
-    {
-      question: 'Hvordan fungerer præpositioner tjeklisten?',
-      answer:
-        'Panelet Præpositioner Tjekliste lader dig slå hver af de otte præpositioner til eller fra. Kun markerede præpositioner vises i genererede øvelser. Dette giver dig præcis kontrol over lektionsindholdet — markér kun \"i\" og \"på\" til et introduktionsarbejdsark, eller markér alle otte for en omfattende gennemgang.',
-    },
-    {
-      question: 'Opretter generatoren automatisk facit?',
-      answer:
-        'Ja. Klik på knappen Generer Facit for at oprette en løst version af dit arbejdsark. Ved Udfyldningsøvelser viser facit hvert tomt felt udfyldt med den korrekte præposition. Ved Flervalgsspørgsmål markeres det korrekte billede. Eksporter facit som en separat JPEG- eller PDF-fil ved siden af brugerens arbejdsark.',
+        'Generatoren understøtter otte rumlige forholdsord: i, på, under, ved siden af, bag, mellem, over og foran. Du vælger, hvilke forholdsord du vil inkludere via en tjekliste. Fokuser på alle otte for en omfattende gennemgang af rumlig orientering, eller begræns udvalget til to eller tre for målrettet øvelse med specifikke retningsbegreber.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du har adgang til alle funktioner — begge øvelsestilstande, alle otte præpositioner, det komplette billedbibliotek, alle former, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste et kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
+        'Ja. Du har adgang til alle funktioner — begge øvelsestilstande, alle otte forholdsord, det komplette billedbibliotek, alle geometriske former, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste et kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
-      question: 'Hvad er inkluderet i den kommercielle licens?',
+      question: 'Hvad er forskellen mellem genstande og former?',
       answer:
-        'Den Kommercielle licens tilbyder vandmærkefri engelske eksporter med fulde salgsrettigheder. Fuld Adgang-licensen tilføjer alle 11 sprog med grammatisk korrekte præpositioner, artikler og grammatikregler, hvilket multiplicerer dit produktkatalog. Begge licensniveauer giver ubegrænsede rettigheder til at sælge på Etsy.dk, Amazon KDP, Gumroad, din egen hjemmeside eller enhver anden platform — ingen royalties per salg, ingen månedlige gebyrer og ingen produktionsbegrænsninger.',
-    },
-    {
-      question: 'Kan jeg sælge arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du alle rettigheder til at sælge dine præpositioner arbejdsark som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som pædagogiske printbare produkter på Gumroad, eller via enhver anden salgskanal. Billede-og-form formatet og den flersprogede evne giver dig stærk differentiering i trængte markedsplads-kategorier.',
-    },
-    {
-      question: 'Hvad er returpolitikken?',
-      answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste begge øvelsestilstande, hver præposition, hvert tema, hver form og hvert eksportformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet opfylder dine behov, før du anskaffer en licens.',
+        'Genstande er tematiske illustrationer fra billedbiblioteket — dyr, køretøjer, mad og mere — som repræsenterer det objekt, der placeres. Former er geometriske figurer (cirkel, kubus, cylinder, hjerte, sekskant, kvadrat, stjerne, trekant), der fungerer som rumligt referencepunkt. Hver øvelse placerer en genstand i forhold til en form — for eksempel "Katten er under kubusen" — hvilket giver tydelig rumlig orientering.',
     },
   ],
 
@@ -257,27 +241,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/prepositions/Pr%C3%A6positioner%201.webp',
-      primaryAlt: 'Præpositioner arbejdsark med farverige billeder, der viser rumlige relationer mellem genstande og geometriske former',
+      primaryAlt: 'Rumlig orientering opgave til print med forholdsord — over, under, ved siden af — og temabilleder med geometriske former',
     },
     sampleGallery: [
       {
         src: '/samples/danish/prepositions/Præpositioner%201.webp',
-        alt: 'Udfyldningsøvelse præpositioner arbejdsark med dyretema og geometriske former',
-        caption: 'Udfyldningsøvelse — brugerne udfylder sætninger med den korrekte præposition',
+        alt: 'Udfyldningsøvelse om forholdsord og rumlig orientering med dyretema og geometriske former',
+        caption: 'Udfyldningsøvelse — børn skriver det korrekte forholdsord (over, under, ved siden af)',
       },
       {
         src: '/samples/danish/prepositions/Præpositioner%202.webp',
-        alt: 'Flervalgsspørgsmål præpositioner arbejdsark med køretøjstema og rumlige beskrivelser',
-        caption: 'Flervalgsspørgsmål — brugerne identificerer billedet, der matcher den rumlige beskrivelse',
+        alt: 'Flervalgsspørgsmål om retningsbegreber med køretøjstema og rumlige beskrivelser',
+        caption: 'Flervalgsspørgsmål — børn identificerer billedet, der matcher den rumlige orientering',
       },
       {
         src: '/samples/danish/prepositions/Præpositioner%203.webp',
-        alt: 'Præpositioner arbejdsark med alle otte rumlige præpositioner og facit',
-        caption: 'Komplet arbejdsark med 8 øvelser — omfattende gennemgang af alle rumlige præpositioner',
+        alt: 'Opgave om rumlig orientering med alle otte forholdsord og automatisk facit',
+        caption: 'Komplet opgaveark med 8 forholdsord — omfattende øvelse i rumlig orientering',
       },
     ],
     youtubeId: 'ifIXbViR5_o',
-    videoTitle: 'Sådan Opretter du Præpositioner Arbejdsark med Billede-og-Form Øvelser — Trin-for-Trin Guide',
+    videoTitle: 'Lav opgaver om rumlig orientering og forholdsord — trin-for-trin guide',
   },
 };
 

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sælg matematikarbejdsark på Etsy',
+    primaryKeyword: 'sælg regneopgaver på Etsy.dk',
     secondaryKeywords: [
       'sådan sælger du matematikarbejdsark på Etsy',
       'Etsy matematik arbejdsark butik opsætning',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'skolestart matematik printable Etsy sæsonstrategi',
       'Etsy listning fotos mockups for matematik arbejdsark produkter',
     ],
-    titleTag: 'Sælg matematikarbejdsark på Etsy — Guide',
-    metaDescription: 'Sælg matematikarbejdsark på Etsy med 6 generatorer. Etsy SEO, listningsoptimering, prissætning, pakkestrategi og sæsonplanlægning for printable-sælgere.',
+    titleTag: 'Sælg regneopgaver på Etsy.dk — Guide for sælgere',
+    metaDescription: 'Sælg regneopgaver til print på Etsy.dk med 6 generatorer. Plusstykker, minusstykker, Etsy SEO, prissætning og passiv indkomst for printable-sælgere.',
   },
 
   hero: {

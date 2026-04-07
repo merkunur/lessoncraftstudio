@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sælg Gumroad ressourcer',
+    primaryKeyword: 'sælg opgaver på Gumroad',
     secondaryKeywords: [
-      'sådan sælger du på Gumroad',
-      'skab Gumroad ressourcer til sælgere',
-      'Gumroad sælgerguide for printbare arbejdsark',
-      'Gumroad butik opsætning',
+      'sælg printbare opgaver på Gumroad til passiv indkomst',
+      'Gumroad sælgerguide for opgaver til print',
+      'opret Gumroad butik og sælg regneopgaver og ordlege',
+      'tjen penge på Gumroad med printbare arbejdsark',
     ],
     lsiKeywords: [
-      'sælger markedsplads butik ressourcer digital download undervisningsmaterialer',
-      'Gumroad sælgerkonto premium plan kommission royalty udbetalingsstruktur',
-      'standardtilpasset klassetrin fagområde ressourcetype kategorisering',
-      'produkt forhåndsvisning miniaturebillede forside brugsbetingelser facit',
-      'Gumroad søgealgoritme tags titel beskrivelse opdagelighed rangering',
-      'arbejdsark pakke indholdsbibliotek enhed aktivitetspakke prisstrategi',
+      'sidegesjæft sælg digitale opgaver på Gumroad passiv indkomst printbar forretning',
+      'Gumroad sælgerkonto kommission royalty udbetalingsstruktur prisstrategi',
+      'opgaver til print regneopgaver ordlege krydsord malebilleder skrivemotorik',
+      'produkt forhåndsvisning miniaturebillede forside brugsbetingelser facit til opgaver',
+      'Gumroad søgealgoritme tags titel beskrivelse opdagelighed rangering for printables',
+      'opgavepakker aktivitetspakker sælg på Gumroad børnehaveklasse indskoling mellemtrin',
     ],
-    titleTag: 'Skab og sælg Gumroad ressourcer — Guide',
-    metaDescription: 'Skab og sælg Gumroad ressourcer. Kontoopsætning, ressourceformatering, listningsoptimering, prissætning og opbygning af momentum på Gumroad.',
+    titleTag: 'Sælg opgaver på Gumroad — Komplet guide til printbar forretning',
+    metaDescription: 'Sælg opgaver på Gumroad og byg en printbar forretning. Kontoopsætning, formatering af opgaver til print, listningsoptimering, prissætning og passiv indkomst med Gumroad.',
   },
 
   hero: {
-    title: 'Sådan generator og sælger du Gumroad ressourcer',
-    tagline: 'En komplet guide til salg af pædagogiske ressourcer på Gumroad — dækkende kontoopsætning og butikskonfiguration, skabelse af Gumroad-klare ressourcer med korrekt formatering, pakning af filer til upload, skrivning af listninger der rangerer i købersøgninger, skabelse af effektive forhåndsvisninger og miniaturebilleder, prisstrategi for sælgermarkedspladsen, og lancering af dine første ressourcer for at opbygge butiksmomentum og konsekvent omsætning',
-    description: 'Gumroad er en sælger-til-sælger markedsplads hvor købere køber og sælger originale pædagogiske ressourcer. I modsætning til generelle markedspladser som Etsy eller print-on-demand platforme som Amazon KDP er enhver køber på Gumroad en sælger der aktivt søger efter klar-til-brug materialer. Dette generator et unikt målrettet publikum med specifikke behov: standardtilpasset indhold, klassetrin-passende aktiviteter og ressourcer der fungerer i virkelige miljøer med minimal forberedelse. Denne guide fører dig gennem den komplette rejse fra opsætning af din Gumroad sælgerkonto til udgivelse af dine første ressourcer og opbygning af det momentum der forvandler en ny butik til en konsekvent omsætningskilde.',
+    title: 'Sælg opgaver på Gumroad — byg din printbare forretning',
+    tagline: 'En komplet guide til salg af opgaver til print på Gumroad — dækkende kontoopsætning og butikskonfiguration, skabelse af Gumroad-klare ressourcer med korrekt formatering, pakning af filer til upload, skrivning af listninger der rangerer i købersøgninger, skabelse af effektive forhåndsvisninger og miniaturebilleder, prisstrategi for sælgermarkedspladsen, og lancering af dine første ressourcer for at opbygge butiksmomentum og konsekvent omsætning',
+    description: 'Gumroad er en populær markedsplads for sælgere af printbare opgaver til børn — fra regneopgaver og ordlege til krydsord og malebilleder. I modsætning til generelle markedspladser som Etsy.dk eller print-on-demand platforme som Amazon KDP tiltrækker Gumroad købere der aktivt søger efter klar-til-brug opgaver til print med kommerciel licens. Denne guide fører dig gennem den komplette rejse fra opsætning af din Gumroad sælgerkonto til udgivelse af dine første opgavepakker og opbygning af det momentum der forvandler en ny butik til en stabil kilde til passiv indkomst.',
   },
 
-  introduction: 'Gumroad adskiller sig fra enhver anden platform til salg af printbart pædagogisk indhold. På Etsy er dine købere en blanding af forældre, hjemmeundervisere, sælgere og gavekøbere der browser en massiv generel markedsplads. På Amazon KDP er dine købere forbrugere der køber fysiske bøger. På Gumroad er dine købere næsten udelukkende butiksindkøbere, skoleadministratorer, indholdsbibliotekspecialister og hjemmeundervisningssælgere — mennesker der ved præcis hvad de har brug for og evaluerer ressourcer gennem en professionel linse.\n\nDenne skelnen former alt om hvordan du generator, pakker, prissætter og markedsfører dine ressourcer på Gumroad. Købere der søger på Gumroad filtrerer efter klassetrin, fagområde, ressourcetype og uddannelsesstandarder. De forventer professionel formatering med klare læringsmål, komplette facit og instruktioner til praktisk implementering. De evaluerer ressourcer med forhåndsvisningsfunktionen og gennemlæser eksempelsider før køb. Og de deler anbefalinger med kolleger, hvilket generator mund-til-mund momentum som ingen mængde SEO-optimering kan replikere.\n\nGumroad gebyrstrukturen belønner engagerede sælgere. Den gratis Basic-plan lader dig beholde 45% af hvert salg — Gumroad tager en 55% kommission. Premium-planen koster $59,95 per år men øger din andel til 80% af hvert salg, med Gumroad der kun tager 20%. For enhver sælger der forventer mere end omtrent $150 i årligt salg betaler Premium sig hurtigt og forbedrer dramatisk dine marginer på hvert efterfølgende salg.\n\nGumroad tilbyder også indbyggede funktioner som andre platforme mangler for pædagogiske sælgere. Du kan tagge ressourcer med specifikke uddannelsesstandarder, tildele detaljerede klassetrinsintervaller, kategorisere efter fag og ressourcetype, og tilbyde tilpassede pakker der lader købere vælge flere ressourcer til en rabat. Disse funktioner betyder at købere kan finde præcis hvad de har brug for gennem præcis filtrering, og dine ressourcer vises i relevante søgninger automatisk når de er korrekt kategoriseret.\n\nDenne guide dækker den komplette proces med at blive Gumroad-sælger: kontoopsætning, ressourceskabelse, filpakning, listningsoptimering, forhåndsvisningsskabelse, prisstrategi og lanceringstaktikker. For sælgere der allerede er aktive på Etsy eller KDP fokuserer denne guide på hvad der gør Gumroad anderledes — de køberspecifikke krav, platformunikke funktioner og sælgerpublikummets forventninger der kræver en Gumroad-specifik tilgang.',
+  introduction: 'Gumroad adskiller sig fra enhver anden platform til salg af printbare opgaver og aktiviteter. På Etsy.dk er dine købere en blanding af forældre, hjemmeundervisere og gavekøbere der browser en massiv generel markedsplads. På Amazon KDP er dine købere forbrugere der køber fysiske bøger. På Gumroad er dine købere næsten udelukkende folk der aktivt søger efter klar-til-brug opgaver til print — regneopgaver, ordlege, krydsord, malebilleder og skrivemotorik-ark — med kommerciel licens til videresalg.\n\nDenne skelnen former alt om hvordan du generator, pakker, prissætter og markedsfører dine opgaver på Gumroad. Købere der søger på Gumroad filtrerer efter klassetrin, fagområde, ressourcetype og uddannelsesstandarder. De forventer professionel formatering med klare læringsmål, komplette facit og instruktioner til praktisk implementering. De evaluerer ressourcer med forhåndsvisningsfunktionen og gennemlæser eksempelsider før køb. Og de deler anbefalinger med kolleger, hvilket generator mund-til-mund momentum som ingen mængde SEO-optimering kan replikere.\n\nGumroad gebyrstrukturen belønner engagerede sælgere. Den gratis Basic-plan lader dig beholde 45% af hvert salg — Gumroad tager en 55% kommission. Premium-planen koster $59,95 per år men øger din andel til 80% af hvert salg, med Gumroad der kun tager 20%. For enhver sælger der forventer mere end omtrent $150 i årligt salg betaler Premium sig hurtigt og forbedrer dramatisk dine marginer på hvert efterfølgende salg.\n\nGumroad tilbyder også indbyggede funktioner som andre platforme mangler for pædagogiske sælgere. Du kan tagge ressourcer med specifikke uddannelsesstandarder, tildele detaljerede klassetrinsintervaller, kategorisere efter fag og ressourcetype, og tilbyde tilpassede pakker der lader købere vælge flere ressourcer til en rabat. Disse funktioner betyder at købere kan finde præcis hvad de har brug for gennem præcis filtrering, og dine ressourcer vises i relevante søgninger automatisk når de er korrekt kategoriseret.\n\nDenne guide dækker den komplette proces med at blive Gumroad-sælger: kontoopsætning, ressourceskabelse, filpakning, listningsoptimering, forhåndsvisningsskabelse, prisstrategi og lanceringstaktikker. For sælgere der allerede er aktive på Etsy eller KDP fokuserer denne guide på hvad der gør Gumroad anderledes — de køberspecifikke krav, platformunikke funktioner og sælgerpublikummets forventninger der kræver en Gumroad-specifik tilgang.',
 
   tutorial: [
     {

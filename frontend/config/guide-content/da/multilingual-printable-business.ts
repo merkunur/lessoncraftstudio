@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'flersproget printable-virksomhed',
+    primaryKeyword: 'flersproget printable-forretning',
     secondaryKeywords: [
       'sælg printables på flere sprog',
       'internationalt printable-marked',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'flersproget produktportefølje sprogdækning konkurrencefordel underbetjente markeder',
       'tværsproglige omsætningsstrømme platforminternationalisering multi-markeds distribution',
     ],
-    titleTag: 'Flersproget printable-virksomhed — Strategiguide',
-    metaDescription: 'Byg en flersproget printable-virksomhed ved at udvide til internationale markeder. Lær hvilke sprog du skal målrette, oversættelsesworkflows og omsætning.',
+    titleTag: 'Flersproget printable-forretning — Guide til passiv indkomst',
+    metaDescription: 'Byg en flersproget printable-forretning med opgaver til print på flere sprog. Internationale markeder, oversættelsesworkflows og passiv indkomst.',
   },
 
   hero: {

@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab subtraktionsarbejdsark',
+    primaryKeyword: 'lav minusstykker til print',
     secondaryKeywords: [
-      'lav subtraktionsarbejdsark til børn',
-      'subtraktions arbejdsark generator',
-      'printbare subtraktionsarbejdsark til salg',
-      'tilpassede subtraktions øvelsesark',
+      'minusstykker til børnehaveklasse og indskoling til print',
+      'minusstykker generator til salg på Etsy.dk og Amazon KDP',
+      'printbare minusstykker med overkrydsede billeder og facit',
+      'regneopgaver minus til print kommerciel licens',
     ],
     lsiKeywords: [
-      'overkrydsede billeder subtraktionsarbejdsark',
-      'visuel subtraktion for børnehaveklasse',
-      'indskoling subtraktionsøvelse',
-      'sælg subtraktionsarbejdsark på Etsy',
-      'Amazon KDP subtraktions aktivitetsbøger',
-      'kommerciel licens arbejdsarksværktøj',
+      'overkrydsede billeder minusstykker til børn til print',
+      'visuel subtraktion opgaver for børnehaveklasse',
+      'indskoling minusstykker øvelsesark til print',
+      'sælg minusstykker på Etsy.dk printbar forretning passiv indkomst',
+      'Amazon KDP subtraktions-aktivitetsbøger regnebøger',
+      'kommerciel licens regneopgaver minus sidegesjæft',
     ],
-    titleTag: 'Skab subtraktionsarbejdsark — Trin-for-trin-guide',
-    metaDescription: 'Skab subtraktionsarbejdsark til børn med overkrydsede billeder, tematiske visuelle elementer og automatisk facit. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Lav minusstykker til print — Guide til salg på Etsy og KDP',
+    metaDescription: 'Lav minusstykker til print med overkrydsede billeder, tematiske visuelle elementer og automatisk facit. Sælg regneopgaver på Etsy.dk og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du subtraktionsarbejdsark til børn',
-    tagline: 'En trin-for-trin vejledning til at skabe tematiske subtraktionsarbejdsark med overkrydsede billeder, konfigurerbar sværhedsgrad og trykklare eksporter du kan sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Subtraktionsarbejdsark er det naturlige andet trin i ethvert matematik-indholdsbibliotek. Når børn mestrer addition følger subtraktion straks — og det gør efterspørgslen efter øvelsesmaterialer også. Forældre, sælgere og tutorer har alle brug for subtraktionsressourcer der matcher det sværhedsniveau deres brugere er klar til. Denne guide fører dig gennem hele skabelsesprocessen med subtraktionsarbejdsark-generatoren — fra at indstille Max Minuend og vælge et visuelt tema til at eksportere polerede, trykklare PDF-filer med automatisk facit. Subtraktionsgeneratorens signatur-funktion er den overkrydsede billede-øvelsestilstand, hvor børn ser en gruppe tematiske billeder med nogle visuelt overstreget og skal bestemme hvor mange der er tilbage. Uanset om du tilføjer subtraktionsprodukter til en eksisterende matematik-arbejdsarklinje eller generator dit første printable-produkt, vil du have et færdigt arbejdsark klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav minusstykker til print og sælg dem online',
+    tagline: 'En trin-for-trin vejledning til at skabe tematiske minusstykker til print med overkrydsede billeder, konfigurerbar sværhedsgrad og trykklare eksporter du kan sælge på Etsy.dk, Amazon KDP og Gumroad',
+    description: 'Minusstykker til print er det naturlige andet trin i enhver regneopgave-produktlinje. Når børn i børnehaveklasse og indskoling mestrer plusstykker, følger minusstykker straks — og det gør efterspørgslen på Etsy.dk og Amazon KDP også. Forældre, sælgere og tutorer har alle brug for subtraktionsressourcer der matcher det sværhedsniveau deres brugere er klar til. Denne guide fører dig gennem hele skabelsesprocessen med subtraktionsarbejdsark-generatoren — fra at indstille Max Minuend og vælge et visuelt tema til at eksportere polerede, trykklare PDF-filer med automatisk facit. Subtraktionsgeneratorens signatur-funktion er den overkrydsede billede-øvelsestilstand, hvor børn ser en gruppe tematiske billeder med nogle visuelt overstreget og skal bestemme hvor mange der er tilbage. Uanset om du tilføjer subtraktionsprodukter til en eksisterende matematik-arbejdsarklinje eller generator dit første printable-produkt, vil du have et færdigt arbejdsark klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Subtraktion er den anden regneoperation børn lærer, og den følger addition i hvert indholdsbibliotek verden over. Den sekvensering generator et pålideligt efterspørgselsmønster: overalt hvor additionsarbejdsark sælger, sælger subtraktionsarbejdsark lige bagefter. Købere der køber dine additionsprodukter vil aktivt søge efter matchende subtraktionsmaterialer, hvilket gør dette til en naturlig katalogudvidelse med et indbygget publikum.\n\nHvad der gør subtraktionsarbejdsark distinktive som printable-produkt er det visuelle element. Mens additionsarbejdsark viser to grupper der kombineres, viser subtraktionsarbejdsark elementer der fjernes — typisk gennem overkrydsede billeder. Denne visuelle repræsentation af "at tage væk" er hvordan børn først forstår subtraktion konceptuelt, og det gør subtraktionsarbejdsark øjeblikkeligt genkendelige og tiltalende i markedsplads-miniaturebilleder.\n\nSubtraktionsarbejdsark-generatoren håndterer al den tekniske kompleksitet ved at skabe disse visuelle elementer. Den placerer tematiske billeder på lærredet, markerer det korrekte antal som overstreget, genererer den tilsvarende ligning og producerer et automatisk facit. Generatoren understøtter fire øvelsestilstande — Overstregning, Billede – Tal, Find subtrahend og Blandet — der hver betjener forskellige læringsstadier og køberbehov. Sværhedsgrad kontrolleres gennem Max Minuend-indstillingen, der bestemmer det største tal børn trækker fra.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste enhver konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Minus er den anden regneoperation børn i børnehaveklasse og indskoling lærer, og minusstykker til print følger plusstykker i ethvert produktkatalog for regneopgaver. Den sekvensering skaber et pålideligt efterspørgselsmønster på Etsy.dk og Amazon KDP: overalt hvor plusstykker sælger, sælger minusstykker lige bagefter. Købere der køber dine plusstykke-produkter vil aktivt søge efter matchende minusstykker, hvilket gør dette til en naturlig udvidelse af din printbare forretning.\n\nHvad der gør minusstykker til print distinktive som printable-produkt er det visuelle element. Mens additionsarbejdsark viser to grupper der kombineres, viser subtraktionsarbejdsark elementer der fjernes — typisk gennem overkrydsede billeder. Denne visuelle repræsentation af "at tage væk" er hvordan børn først forstår subtraktion konceptuelt, og det gør subtraktionsarbejdsark øjeblikkeligt genkendelige og tiltalende i markedsplads-miniaturebilleder.\n\nSubtraktionsarbejdsark-generatoren håndterer al den tekniske kompleksitet ved at skabe disse visuelle elementer. Den placerer tematiske billeder på lærredet, markerer det korrekte antal som overstreget, genererer den tilsvarende ligning og producerer et automatisk facit. Generatoren understøtter fire øvelsestilstande — Overstregning, Billede – Tal, Find subtrahend og Blandet — der hver betjener forskellige læringsstadier og køberbehov. Sværhedsgrad kontrolleres gennem Max Minuend-indstillingen, der bestemmer det største tal børn trækker fra.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste enhver konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

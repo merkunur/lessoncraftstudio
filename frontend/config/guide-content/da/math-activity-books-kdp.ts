@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'matematik aktivitetsbøger KDP',
+    primaryKeyword: 'regnebøger til KDP',
     secondaryKeywords: [
       'sådan generator du matematik aktivitetsbøger til Amazon KDP',
       'KDP matematik arbejdsbog udgivelsesguide',
@@ -17,12 +17,12 @@ const content: GuideContent = {
       'matematik arbejdsbog sideantal sværhedsprogression facit',
       'KDP udgivelse gennemgangsproces korrekturkopi forfattereksemplarer',
     ],
-    titleTag: 'Skab matematik aktivitetsbøger KDP — Guide',
-    metaDescription: 'Lær at skabe matematik aktivitetsbøger til KDP. Manuskriptformatering, omslagsdesign, Amazon nøgleordsoptimering og royalty-prisstrategi for udgivere.',
+    titleTag: 'Regnebøger til KDP — Guide til passiv indkomst',
+    metaDescription: 'Lav regnebøger til Amazon KDP og tjen passiv indkomst. Manuskriptformatering, omslagsdesign, nøgleordsoptimering og royalty-prisstrategi.',
   },
 
   hero: {
-    title: 'Sådan generator du matematik aktivitetsbøger til Amazon KDP',
+    title: 'Lav regnebøger til Amazon KDP og tjen passiv indkomst',
     tagline: 'En komplet udgivelsesguide til at skabe og sælge matematik aktivitetsbøger på Amazon KDP — dækkende manuskriptformatering med korrekte trimstørrelser og margener, bogomslagsdesign med rygbreddeberegninger, Amazon nøgleordsfeltoptimering på tværs af alle 7 nøgleordspladser, gennemsøgningskategorivalg for maksimal opdagelighed, royalty-prisstrategi ved både 35 procent og 60 procent niveauerne, indholdsplanlægning med sværhedsprogression over 40 til 80 interiørsider, facitplacering, print-on-demand økonomi, korrekturbestilling, og opbygning af en serie relaterede matematikarbejdsbøger der krydspromoverer hinanden på Amazon',
     description: 'Amazon KDP lader dig udgive print-on-demand matematik aktivitetsbøger uden forudgående trykkeomkostninger og uden lagerstyring. Denne guide fører dig gennem hvert trin i skabelsen af en professionel matematik arbejdsbog — fra at generere varieret matematikindhold med 5 specialiserede arbejdsarkgeneratorer, gennem manuskriptformatering og omslagsdesign, til at optimere din Amazon-listning for søgesynlighed og sætte priser der maksimerer dine royalties. Uanset om du udgiver din første aktivitetsbog eller udvider et eksisterende katalog, dækker denne guide de KDP-specifikke workflows der adskiller sig fundamentalt fra at sælge individuelle digitale downloads på markedspladser som Etsy.',
   },

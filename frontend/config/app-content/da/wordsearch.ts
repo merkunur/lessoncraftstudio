@@ -2,31 +2,36 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'ordsøgning generator opret sælg ordpuslespil arbejdsark skjulte ord',
+    primaryKeyword: 'ordleg generator',
     secondaryKeywords: [
-      'ordsoegningspuslespil arbejdsark sælg på Etsy',
-      'ordsoegning generator til Amazon KDP udgivere',
-      'ordsoegningspuslespil arbejdsark kommerciel licens',
-      'printbare ordsoegningspuslespil til Gumroad',
+      'lav ordleg',
+      'bogstavjagt til print',
+      'ordleg med billeder',
+      'ordpuzzel generator dansk',
     ],
     lsiKeywords: [
-      'digitale ordsoegningspuslespil produkter online forretning',
-      'printbare skjulte-ord gitter arbejdsark business',
-      'ordsoegning generator kommercielt brug',
+      'gitter',
+      'bogstaver',
+      'ordforråd',
+      'stavning',
+      'tema',
+      'facit',
+      'PDF',
+      'folkeskole',
     ],
-    titleTag: 'Ordsøgning Generator | Opret og Sælg Ordpuslespil',
-    metaDescription: 'Opret ordsøgningsarbejdsark til salg på Etsy, KDP og Gumroad. Justerbart gitter 5–30, retningskontroller, sprogbevidste fyldningsbogstaver. $49 engangsbetaling.',
+    titleTag: 'Ordleg generator | Lav bogstavjagt med temabilleder',
+    metaDescription: 'Lav ordlege med 3.000+ temabilleder på 11 sprog. Eget ordvalg, automatisk facit, 300 DPI PDF. Prøv gratis — kommerciel licens.',
   },
 
   hero: {
-    title: 'Ordsøgning Arbejdsark Generator til Skjulte-Ord Gitterpuslespil',
-    tagline: 'Justerbare gitre fra 5×5 til 30×30 med diagonal- og baglæns retningskontroller — byg den perfekte sværhedsgrad til enhver målgruppe.',
+    title: 'Ordleg Generator — Lav Bogstavjagt med Temabilleder og Automatisk Facit',
+    tagline: 'Justerbare gitre fra 5×5 til 30×30 med diagonal- og baglæns retningskontroller — lav ordlege til børnehaveklasse, indskoling og mellemtrin.',
     description:
-      'Design professionelle ordsøgningsarbejdsark, hvor skjulte ord er indlejret i et gitter af tilfældige fyldningsbogstaver, og brugerne skanner rækker, kolonner og diagonaler for at finde dem — det klassiske puslespilsformat, der aldrig går af mode. Vælg mellem tre indholdskilder: det indbyggede billedbibliotek med mere end 3.100 illustrationer i 104 temaer, Manuel Redigeringstilstand, hvor du vælger billeder og derefter tilpasser visningsnavnene, eller Egen Ordliste til tekstbaserede puslespil med op til 8 egne ord. Juster gitteret fra 5×5 til hurtige opvarmninger til 30×30 til rigtige udfordringer, og slå diagonale ord samt baglæns ord til eller fra for at finjustere sværheden over fire til otte mulige placeringsretninger. Tre visningstilstande — ord plus billeder, kun billeder eller kun ord — styrer, hvordan ledetrådene vises ved siden af gitteret. Fuld Adgang låser op for alle 11 understøttede sprog, hvor både de skjulte ord og gitterets fyldningsbogstaver ændres efter sprog: danske gitre inkluderer æ, ø, å ved naturlige frekvensvægte, tyske gitre inkluderer ä, ö, ü, og hvert andet sprog bruger sit autentiske tegnsæt. En farvekodet facitliste markerer hvert fundet ord i en af seks roterende farver for øjeblikkelig visuel verifikation. Eksporter trykklare PDF\'er og JPEG-billeder med mere end 400 DPI i Letter-, A4- eller brugerdefineret format. Uanset om du sælger tematiske puslespilspakker på Etsy.dk, sammensætter ordsøgningsbøger til Amazon KDP eller opretter niveauinddelte ordforråds­stationer til Gumroad — Ordsøgning Arbejdsark Generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle ordlege, hvor skjulte ord er gemt i et gitter af tilfældige fyldningsbogstaver, og brugerne skanner rækker, kolonner og diagonaler for at finde dem — den klassiske bogstavjagt, der aldrig går af mode. Vælg mellem tre indholdskilder: det indbyggede billedbibliotek med mere end 3.100 illustrationer i 104 temaer, Manuel Redigeringstilstand, hvor du vælger billeder og tilpasser visningsnavnene, eller Egen Ordliste til tekstbaserede ordlege med op til 8 egne ord. Juster gitteret fra 5×5 til hurtige opvarmninger til 30×30 til rigtige udfordringer, og slå diagonale samt baglæns ord til eller fra for at finjustere sværheden over fire til otte mulige placeringsretninger. Tre visningstilstande — ord plus billeder, kun billeder eller kun ord — styrer, hvordan ledetrådene vises ved siden af gitteret. Det danske marked med 5,8 millioner dansktalende er en underudnyttet niche: Etsy.dk har minimal konkurrence inden for printbare ordlege, og folkeskolens niveauer — børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse) — kræver differentierede gitterstørrelser og sværhedsgrader, som denne generator leverer ud af boksen. Fuld Adgang låser op for alle 11 understøttede sprog, hvor både de skjulte ord og gitterets fyldningsbogstaver ændres efter sprog: danske gitre inkluderer æ, ø, å ved naturlige frekvensvægte, tyske gitre inkluderer ä, ö, ü, og hvert andet sprog bruger sit autentiske tegnsæt. En farvekodet facitliste markerer hvert fundet ord i en af seks roterende farver for øjeblikkelig visuel verifikation. Eksporter trykklare PDF\'er og JPEG-billeder med mere end 300 DPI i Letter-, A4- eller brugerdefineret format. Uanset om du sælger tematiske ordlegpakker på Etsy.dk, sammensætter bogstavjagtbøger til Amazon KDP eller opretter niveauinddelte ordforrådsøvelser til Gumroad — ordleg-generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Ordsøgningsarbejdsark i 5 Trin',
+    title: 'Sådan Laver du Ordlege i 5 Trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +62,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Ordsøgning Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i Ordleg-Generatoren',
     features: [
       {
         title: 'Skjulte-ord gitterpuslespil med billedledetråde',
@@ -103,7 +108,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Ordsøgningsarbejdsark Online',
+    title: 'Sådan Sælger du Ordlege Online',
     cases: [
       {
         title: 'Tematiske ordsøgningspakker på Etsy.dk',
@@ -140,64 +145,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvordan fungerer ordsøgningspuslespillet?',
+      question: 'Kan jeg sælge disse ordlege på Etsy?',
       answer:
-        'Skjulte ord er indlejret i et gitter af tilfældige fyldningsbogstaver. Brugerne skanner rækker, kolonner og valgfrit diagonaler for at finde hvert ord. Når et ord er fundet, ringer brugerne om det eller markerer det i gitteret. Fyldningsbogstaverne tilfældiggøres hver gang du genererer, så hvert puslespil er unikt, selv med den samme ordliste. Op til 8 ord kan placeres i et enkelt gitter.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine ordlege som digitale downloads på Etsy.dk, som trykte bogstavjagtbøger på Amazon KDP, som printbare ressourcer på Gumroad eller via enhver anden salgskanal. Det danske marked med 5,8 millioner dansktalende har minimal konkurrence inden for printbare ordlege, hvilket giver dig en stærk first-mover-fordel.',
     },
     {
-      question: 'Hvilke gitterstørrelser er tilgængelige?',
+      question: 'Hvordan laver jeg en ordleg?',
       answer:
-        'Du kan indstille rækker og kolonner uafhængigt af hinanden fra 5 til 30. Standard er 12×12. Et 5×5-gitter generator et hurtigt, enkelt puslespil med kun 25 celler; et 30×30-gitter generator et tæt, udfordrende søgepuslespil med 900 celler. At justere gitterstørrelsen er den primære måde at kontrollere sværheden sammen med ordretningsindstillingerne.',
+        'Vælg en af tre indholdskilder: Billedbiblioteket med 3.100+ illustrationer i 104 temaer, Manuel Redigering, hvor du tilpasser billednavne, eller Egen Ordliste med op til 8 egne ord. Indstil gitterstørrelse (5×5 til 30×30), slå diagonaler og baglæns ord til eller fra, vælg visningstilstand og klik Generer. Det hele tager under to minutter.',
     },
     {
-      question: 'Hvad gør diagonal- og baglæns omskifterne?',
+      question: 'Er ordlegene egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Diagonalomskifteren tillader ord at placeres langs begge diagonalakser ud over horisontalt og vertikalt. Baglæns omskifteren tillader ord at placeres baglæns i enhver aktiveret retning. Med begge aktiveret kan ord vises i otte mulige retninger. Med begge deaktiveret vises ord kun venstre-til-højre horisontalt og oppefra-og-ned vertikalt. Disse omskiftere lader dig finjustere sværheden fra enkle toretnings-gitre til komplekse otteretnings-puslespil.',
+        'Ja. Gitterstørrelsen og retningsindstillingerne dækker hele folkeskolens spænd. Børnehaveklasse og indskoling (0.–3. klasse) bruger små 5×5 til 8×8 gitre med kun horisontale og vertikale ord. Mellemtrin (4.–6. klasse) bruger 12×12 til 20×20 gitre med diagonaler og baglæns ord aktiveret. Denne differentiering lader dig oprette niveauinddelte pakker, der dækker flere klassetrin.',
     },
     {
-      question: 'Hvad er de tre indholdskilder?',
+      question: 'På hvor mange sprog kan jeg lave ordlege?',
       answer:
-        'Billedbibliotekstilstanden bruger tematiske illustrationer, hvor hvert billednavn bliver et skjult ord. Manuel Redigeringstilstand lader dig vælge billeder og derefter tilpasse deres visningsnavne, før du genererer — perfekt til alternativt ordforråd eller forenklet stavning. Egen Ordliste springer billeder helt over og lader dig skrive op til 8 egne ord direkte, hvilket muliggør ordsøgningsarbejdsark til ethvert emne uden matchende illustrationer.',
+        'Fuld Adgang låser op for alle 11 sprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Både de skjulte ord og gitterets fyldningsbogstaver ændres efter sprog — danske gitre inkluderer æ, ø og å ved naturlige frekvensvægte. Hver sprogversion er et unikt, salgbart produkt.',
     },
     {
-      question: 'Hvad er de tre visningstilstande?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Vis Ord og Billeder (standard) viser både billedledetråde og ordlister ved siden af gitteret. Vis Kun Billeder viser billedledetråde uden tekstlister, hvilket kræver, at brugerne identificerer billedet og finder ordet selv. Vis Kun Ord viser tekstlister uden billeder, hvilket generator en rendyrket tekstbaseret ordsøgningsoplevelse. Hver tilstand styrer, hvad der vises som ledetrådsreferencer ved siden af gitteret.',
+        'Ja. Facit markerer hvert fundet ord i en af seks roterende farver: rosa, blå, grøn, guld, koral og lavendel. Hvert ord får en distinkt farve for øjeblikkelig visuel identifikation. Du kan aktivere gråtoneeksport for blækvenlige facitversioner. Facit genereres som en separat downloadbar fil.',
     },
     {
-      question: 'Hvordan fungerer den sprogbevidste alfabetsfyldning?',
+      question: 'Hvad er forskellen mellem ordleg og bogstavjagt?',
       answer:
-        'Når du vælger et sprog, skifter gitterets fyldningstegn automatisk til det pågældende sprogs alfabet med vægtede frekvensfordelinger. Danske gitre inkluderer æ, ø og å. Tyske gitre inkluderer ä, ö, ü og ß. Franske gitre inkluderer é, è, ç, à og andre accentuerede tegn. Dette gør puslespillene lingvistisk autentiske — fyldningsbogstaverne ser naturlige ud frem for åbenlyst engelskgenererede.',
+        'Ordleg og bogstavjagt beskriver det samme puslespilsformat: skjulte ord gemt i et gitter af fyldningsbogstaver, hvor brugerne skanner rækker, kolonner og diagonaler for at finde dem. Ordleg er det mest udbredte danske ord for formatet, mens bogstavjagt bruges som synonym. Generatoren laver begge varianter med de samme indstillinger.',
     },
     {
-      question: 'Hvordan fungerer den farvekodede facitliste?',
+      question: 'Hvad er det maksimale antal ord per ordleg?',
       answer:
-        'Facit markerer hvert fundet ord i en af seks roterende farver: rosa, blå, grøn, guld, koral og lavendel. Hvert ord får en distinkt farve, så de ses tydeligt, selv når ord krydser eller overlapper hinanden i gitteret. Du kan aktivere gråtoneeksport for blækvenlige facitversioner. Facit genereres som en separat downloadbar fil.',
-    },
-    {
-      question: 'Hvad er det maksimale antal ord per puslespil?',
-      answer:
-        'Du kan placere op til 8 ord eller billeder i et enkelt ordsøgningsgitter. Denne grænse sikrer, at ordene passer pænt i gitteret uden overdreven overlapning. For større ordantal, opret flere arbejdsark og pak dem som et sæt — dette øger også den oplevede værdi af dine produktpakker.',
-    },
-    {
-      question: 'Er Ordsøgning-generatoren sprogfølsom?',
-      answer:
-        'Ja. Fordi skjulte ord er billednavne på det valgte sprog, ændrer et sprogskift hele puslespilsindholdet. Desuden ændres gitterets fyldningsbogstaver for at matche målsprogets tegnsæt med korrekte frekvensvægte. Kommerciel Pakke er kun engelsk; Fuld Adgang låser op for alle 11 sprog, hvilket gør hver sprogversion til et distinkt produkt med forskellige ord og forskellige fyldningstegn.',
+        'Du kan placere op til 8 ord eller billeder i et enkelt gitter. For større ordantal, opret flere arbejdsark og pak dem som et sæt — dette øger også den oplevede værdi af dine produktpakker på Etsy.dk.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
         'Ja. Du kan bruge alle funktioner — alle tre indholdskilder, alle visningstilstande, hele billedbiblioteket, justerbare gitterstørrelser, retningskontroller, farvekodede facit og alle eksportformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Kan jeg sælge arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine ordsøgningsarbejdsark som digitale downloads på Etsy.dk, som trykte puslespilsbøger på Amazon KDP, som pædagogiske ressourcer på Gumroad eller via enhver anden salgskanal. De justerbare gitterstørrelser, retningskontroller og den flersprogede kapacitet giver dig stærk differentiering i trængte markedsplads-kategorier.',
-    },
-    {
-      question: 'Hvad er returpolitikken?',
-      answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver indholdskilde, hver gitterstørrelse, hver retningsindstilling, hver visningstilstand, hvert eksportformat og hvert sideformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
     },
   ],
 
@@ -262,22 +247,22 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
-      primaryAlt: 'Ordsøgningsarbejdsark med skjulte ord i et bogstavsgitter og billedledetråde, der viser ordforråds­puslespil',
+      primaryAlt: 'Ordleg med skjulte ord i et bogstavgitter og temabilleder som ledetråde til bogstavjagt',
     },
     sampleGallery: [
       {
         src: '/samples/danish/wordsearch/Ordsøgning%201.webp',
-        alt: 'Ordsøgningsarbejdsark i stående format med 12×12 bogstavsgitter og tematiske billedledetråde',
-        caption: 'Stående format — 12×12-gitter med tematiske billedledetråde og ordliste',
+        alt: 'Ordleg i stående format med 12×12 bogstavgitter og tematiske billedledetråde',
+        caption: 'Stående format — 12×12-gitter med temabilleder og ordliste til bogstavjagt',
       },
       {
         src: '/samples/danish/wordsearch/Ordsøgning%202.webp',
-        alt: 'Ordsøgningsarbejdsark med større gitter og diagonale ord aktiveret',
+        alt: 'Ordleg med større gitter og diagonale ord aktiveret til mellemtrin',
         caption: 'Større gitter — med diagonal- og baglæns ord aktiveret for øget udfordring',
       },
       {
         src: '/samples/danish/wordsearch/Ordsøgning%203.webp',
-        alt: 'Ordsøgning farvekodet facitliste med seks markeringsfarver, der viser fundne ord',
+        alt: 'Ordleg farvekodet facit med seks markeringsfarver, der viser fundne ord i bogstavjagten',
         caption: 'Farvekodet facit — hvert ord markeret i en unik farve for nem verifikation',
       },
     ],

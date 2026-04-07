@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'prissætningsstrategier for pædagogiske printables',
+    primaryKeyword: 'prissætning af opgaver til print',
     secondaryKeywords: [
       'hvordan man prissætter printbare arbejdsark',
       'pædagogisk printable prissætningsguide',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'sæsonbetonet prissætning prisjustering markedsundersøgelse købervilje til at betale prismodel',
       'prissætningsramme prispositionering underprissætning overprissætning bæredygtig prissætning',
     ],
-    titleTag: 'Prissætningsstrategier for pædagogiske printables — Guide',
-    metaDescription: 'Gennemprøvede prissætningsstrategier for pædagogiske printables. Dækker prissætningspsykologi, konkurrenceanalyse, platformgebyrer, profitmarginer og pristest.',
+    titleTag: 'Prissætning af opgaver til print — Guide for printable-sælgere',
+    metaDescription: 'Prissætning af opgaver til print for sælgere. Prissætningspsykologi, konkurrenceanalyse, platformgebyrer på Etsy.dk og KDP, og profitmarginer.',
   },
 
   hero: {

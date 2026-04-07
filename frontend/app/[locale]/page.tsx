@@ -66,10 +66,10 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Starta ett loensamnt utskriftsfoereag'
   },
   da: {
-    title: 'Start en profitabel printable-virksomhed | LessonCraftStudio',
-    description: 'Byg en printable-virksomhed paa Etsy, Amazon KDP eller TPT. 33 professionelle generatorer, 3.000+ billeder, 11 sprog. Gratis proeveversion med vandmaerke.',
-    keywords: 'printable-virksomhed, saelge printables Etsy, KDP opgaver, ekstraindtaegt printables, ordsoegning generator, professionelle printables',
-    ogAlt: 'LessonCraftStudio - Start en profitabel printable-virksomhed'
+    title: 'Arbejdsark generator | Lav og sælg på Etsy & KDP',
+    description: '33 professionelle arbejdsark-generatorer med 3.000+ billeder og 11 sprog. Printklare PDF\'er på minutter. Prøv gratis — kommerciel licens til Etsy, KDP & mere.',
+    keywords: 'arbejdsark generator, opgaver til print, ordleg generator, krydsord generator, plusstykker til print, regneopgaver generator, malebilleder generator, sudoku til print, sælge printables Etsy.dk',
+    ogAlt: 'LessonCraftStudio - Arbejdsark generator til Etsy & KDP'
   },
   no: {
     title: 'Start en loennsom utskriftsvirksomhet | LessonCraftStudio',

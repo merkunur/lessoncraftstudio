@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tælle- og grafarbejdsark',
+    primaryKeyword: 'lav tælleopgaver til print',
     secondaryKeywords: [
-      'billedgraf arbejdsark-generator',
-      'skab tælle- og grafarbejdsark',
-      'printbare billedgraf-arbejdsark til salg',
-      'søjlediagram tælle-arbejdsark maker',
+      'tælleopgaver med billedgraf til børnehaveklasse',
+      'find og tæl opgaver generator til indskoling',
+      'printbare tælleopgaver til salg på Etsy.dk',
+      'søjlediagram tælleopgaver maker med facit',
     ],
     lsiKeywords: [
-      'spredte billeder gitter tælleaktivitet',
-      'automatisk facit grafarbejdsark',
+      'spredte billeder gitter tælleaktivitet til børn',
+      'automatisk facit tælleopgaver til print',
       'dobbelt-lærred datarepræsentationsværktøj',
-      'sælg grafarbejdsark på Etsy',
-      'Amazon KDP datafærdigheds-arbejdsbøger',
-      'kommerciel licens billedgraf-maker',
+      'sælg tælleopgaver på Etsy.dk og Saxo.com',
+      'Amazon KDP tællehæfter med søjlediagrammer',
+      'kommerciel licens tælleopgave-maker',
     ],
-    titleTag: 'Tælle- og grafarbejdsark — Guide',
-    metaDescription: 'Skab tællearbejdsark med billedgrafer, automatisk facit og 104 temaer. Trin-for-trin guide til at sælge printables på Etsy, KDP og Gumroad.',
+    titleTag: 'Lav tælleopgaver med billedgrafer til print — Guide',
+    metaDescription: 'Lav tælleopgaver med billedgrafer, automatisk facit og 104 temaer. Trin-for-trin guide til at sælge printbare opgaver på Etsy.dk, Saxo.com og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du tælle- og grafarbejdsark',
-    tagline: 'En trin-for-trin vejledning til at skabe billedgraf-arbejdsark med spredte billedgittere, automatisk genereret facit og søjlediagrammer du kan sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Tælle- og grafarbejdsark underviser to grundlæggende matematikfærdigheder i en enkelt aktivitet: dataindsamling (tælling af spredte billeder) og datarepræsentation (udfyldning af et søjlediagram). Dette dobbelt-færdigheds format er en pensum-standard i tidlige grundskoleklasser globalt, der generator vedvarende helårsefterspørgsel på alle markedspladser. Denne guide fører dig igennem hele skabelsesprocessen med billeddiagram arbejdsark-makeren — fra at vælge billeder og generere det spredte gitter til at gennemgå det automatisk genererede facit og eksportere trykklare filer. Uanset om du lancerer dit første datafærdigheds-produkt eller udvider et eksisterende matematik-arbejdsark-katalog, vil du have et færdigt billedgraf-arbejdsark med dets matchende facit klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav tælleopgaver med billedgrafer til print',
+    tagline: 'En trin-for-trin vejledning til at lave tælleopgaver med billedgrafer, spredte billedgittere, automatisk facit og søjlediagrammer du kan sælge på Etsy.dk, Amazon KDP og Saxo.com',
+    description: 'Tælleopgaver til print træner to grundlæggende matematikfærdigheder i en enkelt aktivitet: dataindsamling (find og tæl spredte billeder) og datarepræsentation (udfyldning af et søjlediagram). Dette dobbelt-færdigheds format er en pensum-standard i tidlige grundskoleklasser globalt, der generator vedvarende helårsefterspørgsel på alle markedspladser. Denne guide fører dig igennem hele skabelsesprocessen med billeddiagram arbejdsark-makeren — fra at vælge billeder og generere det spredte gitter til at gennemgå det automatisk genererede facit og eksportere trykklare filer. Uanset om du lancerer dit første datafærdigheds-produkt eller udvider et eksisterende matematik-arbejdsark-katalog, vil du have et færdigt billedgraf-arbejdsark med dets matchende facit klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Billedgrafer er en af de tidligste datarepræsentationsfærdigheder børn lærer. Fra børnehaveklassen øver brugere sig i at tælle objekter og registrere deres resultater i simple diagrammer — en færdighed der forstærkes op gennem anden klasse og videre. Det flerårige pensumvindue generator vedvarende markedspladsefterspørgsel efter billedgraf- og tællearbejdsark på tværs af flere klassetrin.\n\nDet der gør tælle- og grafarbejdsark særligt stærke som printable-produkt er deres dobbelt-færdigheds natur. Hvert arbejdsark kræver at brugere tæller spredte billeder (dataindsamling) og derefter udfylder et søjlediagram (datarepræsentation). Købere værdsætter aktiviteter der dækker to læringsmål samtidigt fordi de maksimerer instruktionstid. Forældre og tutorer sætter pris på det visuelle, hands-on format der gør abstrakte matematikkoncepter konkrete.\n\nBilleddiagram arbejdsark-makeren håndterer den tekniske kompleksitet for dig. Den genererer et 4×5 spredt billedgitter indeholdende 20 ikoner fra 6 forskellige billedtyper, der hver optræder 1–5 gange i en tilfældig distribution der gør enhver generering unik. Under gitteret giver et struktureret 6-kolonners × 5-rækkers søjlediagram brugere et tydeligt sted at registrere deres tællinger. Appen producerer samtidigt et facit på en separat lærredsfane med gul-fremhævede celler der viser de korrekte tællinger — ingen manuel tælling, intet separat oprettelsestrin.\n\nDu fokuserer på produktstrategi — hvilke temaer at bruge, hvordan du pakker, hvilke markedspladser at ramme — mens generatoren håndterer layout, distributionslogik, facit-nøjagtighed og trykformatering. Hver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste enhver konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Find og tæl-opgaver med billedgrafer er en af de tidligste datarepræsentationsfærdigheder børn lærer. Fra børnehaveklassen øver børn sig i at tælle objekter og registrere deres resultater i simple diagrammer — en færdighed der forstærkes op gennem indskolingen og videre. Det flerårige pensumvindue generator vedvarende markedspladsefterspørgsel efter billedgraf- og tællearbejdsark på tværs af flere klassetrin.\n\nDet der gør tælle- og grafarbejdsark særligt stærke som printable-produkt er deres dobbelt-færdigheds natur. Hvert arbejdsark kræver at brugere tæller spredte billeder (dataindsamling) og derefter udfylder et søjlediagram (datarepræsentation). Købere værdsætter aktiviteter der dækker to læringsmål samtidigt fordi de maksimerer instruktionstid. Forældre og tutorer sætter pris på det visuelle, hands-on format der gør abstrakte matematikkoncepter konkrete.\n\nBilleddiagram arbejdsark-makeren håndterer den tekniske kompleksitet for dig. Den genererer et 4×5 spredt billedgitter indeholdende 20 ikoner fra 6 forskellige billedtyper, der hver optræder 1–5 gange i en tilfældig distribution der gør enhver generering unik. Under gitteret giver et struktureret 6-kolonners × 5-rækkers søjlediagram brugere et tydeligt sted at registrere deres tællinger. Appen producerer samtidigt et facit på en separat lærredsfane med gul-fremhævede celler der viser de korrekte tællinger — ingen manuel tælling, intet separat oprettelsestrin.\n\nDu fokuserer på produktstrategi — hvilke temaer at bruge, hvordan du pakker, hvilke markedspladser at ramme — mens generatoren håndterer layout, distributionslogik, facit-nøjagtighed og trykformatering. Hver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste enhver konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

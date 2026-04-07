@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Skolestart printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag skolestart printbare idéer til salg på Etsy, KDP og Gumroad. Produktkoncepter til skolestart, juli-september strategier og platformstips for sælgere.',
+    titleTag: 'Skolestart opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Skolestart opgaver til print du kan sælge på Etsy.dk, Amazon KDP og Gumroad. Regneopgaver, ordleg og malebilleder til børnehaveklasse og indskoling.',
 
-    primaryKeyword: 'skolestart printbare idéer',
+    primaryKeyword: 'skolestart opgaver til print idéer',
     secondaryKeywords: [
-      'skolestartarbejdsark til salg',
-      'skole printbar forretningsidéer',
-      'skolestartaktivitetsark',
-      'sælg skolestartprintables online',
+      'skolestart regneopgaver ordleg til print sælg online',
+      'skolestart printbare idéer Etsy.dk sidegesjæft',
+      'skolestart aktivitetsark til print børnehaveklasse',
+      'sælg skolestart malebilleder ordleg på Etsy.dk',
     ],
     lsiKeywords: [
-      'produktlinje arbejdsarksbundler',
-      'sælgerressource printables',
-      'skoleforsyningstematiske aktiviteter',
+      'skolestart produktlinje opgaver til print sidegesjæft',
+      'printbar forretning skolestart passiv indkomst',
+      'skoleforsyningstema opgaver indskoling til print',
     ],
   },
   hero: {
-    title: 'Skolestart printbare forretningsidéer for sælgere',
-    description: 'Skolestart skaber et af de største og mest pålidelige sæsonbestemte efterspørgselsvinduer i den printbare forretningskalender, med køberaktivitet der stiger fra juli til september, efterhånden som købere forbereder nye produktbehov og forældre søger pædagogiske aktiviteter til skoleparathed. Nichen tilbyder rig undertemavariation inklusive skoleforsyninger, blyanter, farvekridt, rygsække, skolebusser, æbler, notesbøger, linealer, tavler og skoletematiske scener, hvilket giver sælgere et velkendt visuelt ordforråd der resonerer med familier og sælgere i overgangen fra sommer til struktureret læring. Hjemmeundervisningsfamilier der planlægger deres nye skoleår tilføjer endnu et motiveret købersegment, der ofte køber større bundler og omfattende ressourcepakker. For printable sælgere på Etsy, Amazon KDP og Gumroad kombinerer skolestartsnichen massiv forudsigelig efterspørgsel med et universelt genkendt tema der driver stærkt listningsengagement og gentagne årlige køb. Denne guide dækker specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en rentabel skolestart printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
+    title: 'Skolestart opgaver til print — forretningsidéer for sælgere',
+    description: 'Skolestart skaber et af de største og mest pålidelige sæsonbestemte efterspørgselsvinduer for opgaver til print, med køberaktivitet der stiger fra juli til september, efterhånden som forældre søger regneopgaver, ordleg og malebilleder til børnehaveklasse og indskoling. Nichen tilbyder rig undertemavariation inklusive skoleforsyninger, blyanter, farvekridt, rygsække, skolebusser, æbler, notesbøger, linealer, tavler og skoletematiske scener, hvilket giver sælgere et velkendt visuelt ordforråd der resonerer med familier og sælgere i overgangen fra sommer til struktureret læring. Hjemmeundervisningsfamilier der planlægger deres nye skoleår tilføjer endnu et motiveret købersegment, der ofte køber større bundler og omfattende ressourcepakker. For printable sælgere på Etsy, Amazon KDP og Gumroad kombinerer skolestartsnichen massiv forudsigelig efterspørgsel med et universelt genkendt tema der driver stærkt listningsengagement og gentagne årlige køb. Denne guide dækker specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en rentabel skolestart printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Skolestartprintbare-nichen kommanderer en af de højeste sæsonbestemte trafikvolumener på det pædagogiske marked og leverer vedvarende efterspørgsel på tværs af et bredt juli-til-september salgsvindue der giver sælgere meningsfuld tid til at fange omsætning. Købere begynder at forberede sig til deres nye produktbehov i midten af juli og køber produktplanlægningsmaterialer, første-uge isbryder-aktiviteter og supplerende produkter der hjælper dem med at komme hurtigt i gang når skoleåret begynder. Forældre søger skoleparathedsarbejdsark, pædagogiske aktiviteter til at bygge bro over sommerens læringstab og engagerende printables der letter overgangen fra ferietilstand tilbage til strukturerede daglige rutiner. Hjemmeundervisningsfamilier, der planlægger hele deres skoleår i sommermånederne, repræsenterer et særligt værdifuldt købersegment fordi de køber omfattende ressourcesamlinger snarere end individuelle arbejdsark.
 

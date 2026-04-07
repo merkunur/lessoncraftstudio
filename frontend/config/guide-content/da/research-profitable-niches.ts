@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'undersøg profitable printable-nicher',
+    primaryKeyword: 'find profitable nicher for printables',
     secondaryKeywords: [
       'printable niche-undersøgelsesmetoder',
       'find profitable arbejdsark-nicher',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'efterspørgselskvantificering markedsmætningsanalyse nøgleordsværktøjer datadrevne beslutninger',
       'minimum levedygtigt produkt testning undersøgelsesworkflow nicheopdagelse systematisk proces',
     ],
-    titleTag: 'Undersøg profitable printable-nicher — Metodeguide',
-    metaDescription: 'Sådan undersøger du profitable printable-nicher med markedspladsdata, nøgleordsanalyse, konkurrentundersøgelse, efterspørgselssignaler og systematiske.',
+    titleTag: 'Find profitable nicher for printables — Metodeguide for sælgere',
+    metaDescription: 'Find profitable nicher for opgaver til print med markedspladsdata, nøgleordsanalyse og konkurrentundersøgelse på Etsy.dk og Amazon KDP.',
   },
 
   hero: {

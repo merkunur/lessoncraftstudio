@@ -2,27 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'matematik arbejdsark pakke',
+    primaryKeyword: 'regneopgaver til print pakke',
     secondaryKeywords: [
-      'matematik printpakke for sælgere',
-      'matematik arbejdsark generator pakke kommerciel brug',
-      'printbare matematikaktiviteter pakke til Etsy',
-      'matematik arbejdsark værktøjskasse til KDP-sælgere',
+      'plusstykker minusstykker printpakke til Etsy.dk',
+      'regneopgaver generator pakke kommerciel licens',
+      'printbare regneopgaver pakke sælg på Amazon KDP',
+      'matematik arbejdsark værktøjskasse passiv indkomst',
     ],
     lsiKeywords: [
-      'addition subtraktion arbejdsark pakke',
-      'matematikpuslespil printbar samling',
-      'kommerciel licens matematik arbejdsark',
-      'masseproduktion matematik arbejdsark værktøj',
+      'plusstykker minusstykker puslespil pakke til print',
+      'regnepakke printbar forretning sidegesjæft',
+      'kommerciel licens regneopgaver børnehaveklasse indskoling',
+      'masseproduktion regneopgaver værktøj Saxo.com',
     ],
-    titleTag: 'Matematik Arbejdsark Pakke — 6 Generatorer | Matematik',
-    metaDescription: 'Få 6 matematik arbejdsark-generatorer i én pakke. Addition, subtraktion, kodpuslespil og algebra til salg på Etsy & KDP. $149 engangsbetaling.',
+    titleTag: 'Regnepakke til print — 6 generatorer | Plusstykker, minusstykker & mere',
+    metaDescription: 'Få 6 regneopgave-generatorer i én pakke til print. Plusstykker, minusstykker, kodepuslespil og algebra — sælg på Etsy.dk og Amazon KDP. $149 engangsbetaling.',
   },
 
   hero: {
-    title: 'Matematik Mestringspakke',
-    tagline: 'Seks professionelle matematik arbejdsark-generatorer i én rabatteret pakke',
-    description: 'Byg en komplet printbar matematikproduktlinje uden at skifte mellem separate værktøjer. Matematik Mestringspakken kombinerer seks specialiserede arbejdsark-generatorer, der dækker addition, subtraktion, kryptaritmetiske kodpuslespil, større-end og mindre-end sammenligning, puslespilsgitter-matematikpuslespil og visuelle algebra-billedligninger. Hver generator producerer trykfærdige PDF- og højopløste JPEG-filer med automatiske facit, konfigurerbar sværhedsgrad og tematiske billedbiblioteker. Fem af de seks apps er helt visuelle — arbejdsarkene de producerer fungerer på alle sprog, fordi de bygger på billeder og tal snarere end tekst. Den sjette, Kodeaddition, tilføjer en sprogafhængig Afslør Ord-tilstand, der understøtter alle 11 grænsefladesprog. Vælg blandt over 100 tematiske billedsæt eller upload dine egne PNG- og JPEG-filer til brandspecifikke, nichede produkter. Uanset om du sælger på Etsy, Amazon KDP eller Gumroad giver denne pakke dig den variation, købere forventer, og den hastighed, sælgere har brug for. Hver generator inkluderer en gratis prøveversion med vandmærke, så du kan teste alle funktioner, før du køber en licens.',
+    title: 'Matematik mestringspakke',
+    tagline: 'Seks professionelle regneopgave-generatorer i én rabatteret pakke — til print og salg',
+    description: 'Byg en komplet printbar produktlinje med regneopgaver uden at skifte mellem separate værktøjer. Matematik mestringspakken kombinerer seks specialiserede generatorer til plusstykker, minusstykker, kryptaritmetiske kodepuslespil, større-end og mindre-end sammenligning, puslespilsgitter-regneopgaver og visuelle algebra-billedligninger. Hver generator producerer trykfærdige PDF- og højopløste JPEG-filer med automatiske facit, konfigurerbar sværhedsgrad og tematiske billedbiblioteker. Fem af de seks apps er helt visuelle — arbejdsarkene de producerer fungerer på alle sprog, fordi de bygger på billeder og tal snarere end tekst. Den sjette, Kodeaddition, tilføjer en sprogafhængig Afslør Ord-tilstand, der understøtter alle 11 grænsefladesprog. Vælg blandt over 100 tematiske billedsæt eller upload dine egne PNG- og JPEG-filer til brandspecifikke, nichede produkter. Uanset om du sælger på Etsy, Amazon KDP eller Gumroad giver denne pakke dig den variation, købere forventer, og den hastighed, sælgere har brug for. Hver generator inkluderer en gratis prøveversion med vandmærke, så du kan teste alle funktioner, før du køber en licens.',
   },
 
   appsIncluded: [

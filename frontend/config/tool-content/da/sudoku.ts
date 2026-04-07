@@ -2,30 +2,33 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'billedsudoku for børn',
+    primaryKeyword: 'sudoku generator gratis online',
     secondaryKeywords: [
-      'billedsudoku generator for sælgere',
-      'lav billedsudoku puslespil til salg',
-      'printbar billedsudoku generator kommerciel brug',
-      'billedsudoku arbejdsark generator til KDP og Etsy',
+      'sudoku gratis til print',
+      'sudoku med billeder prøv gratis',
+      'lav sudoku gratis',
     ],
     lsiKeywords: [
-      '4x4 gitter billedlogik puslespil generator',
-      'tre sværhedsgrader let medium svær sudoku generator',
-      'automatisk facit komplet udfyldt gitter sudoku generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'sudoku',
+      'tal',
+      'billeder',
+      'sværhedsgrad',
     ],
-    titleTag: 'Billedsudoku Generator — Billedsudoku for Børn Generator',
-    metaDescription: 'Lav billedsudoku for børn med 4×4 billedgitre, tre sværhedsgrader, automatiske facit og 104 tematiske samlinger. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis sudoku generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv sudoku-generatoren gratis online. Billeder eller tal, justerbar sværhedsgrad. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Billedsudoku Generator',
-    tagline: '4×4 billedbaseret sudoku puslespil generator med tre sværhedsgrader (Let 4 tomme, Medium 6 tomme, Svær 8 tomme), automatisk genererede facit med komplette udfyldte gitre, temabaseret og manuelt billedvalg over 104 samlinger med mere end 3.100 illustrationer, premiumgitterdesign med alternerende blokfarver og flerlagede skygger, og rent visuelle puslespil der sælger globalt uden oversættelse',
-    description: 'Lav professionelle billedsudoku for børn, hvor brugerne udfylder tomme celler med de rigtige billeder ved hjælp af række-og-kolonne-logik på et 4×4 gitter. Hvert puslespil bruger præcis 4 unikke billeder, der skal optræde én gang i hver række og én gang i hver kolonne — de samme regler som klassisk sudoku, men med farverige illustrationer i stedet for tal. Tre sværhedsgrader: Let fjerner 4 celler, Medium fjerner 6, Svær fjerner 8 — halvdelen af gitteret. Vælg billeder gennem temabaseret autovalg, der tilfældigt vælger 4 billeder fra 104 tematiske samlinger, eller manuelt valg. Premiumgitterdesignet har alternerende 2×2-blokfarver i lyseblå (#F8F9FC) og lyserosa (#FFF5F7), fede midtdelere (#7C8DB5, 3px), lettere indre linjer (#D1D9E6, 1,5px), indigoblå ydre ramme (#667EEA) med 18px afrundede hjørner, og tre flerlagede skygger. Billeder vises med 65% af cellestørrelsen. Hvert puslespil genererer en stiliseret \"Billedsudoku\"-overskrift med lilla baggrund (#5E35B1). Dobbeltarbejdsområde-systemet opretter samtidigt arbejdsark og facit — facittet viser det komplette udfyldte 4×4-gitter med alle 16 celler. Da billedsudoku er helt visuelt — ingen ord på puslespilgitteret — fungerer hvert arbejdsark identisk på alle sprog, universelt sælgbart. Eksportér PDF\'er og JPEG-billeder med 300 DPI i Letter, A4 eller tilpassede størrelser. Skift gråtone. 50-trins fortryd/gentag. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
+    title: 'Gratis sudoku generator — prøv online med vandmærke',
+    tagline: 'Prøv sudoku-generatoren gratis online — 4×4 billedbaseret sudoku med tre sværhedsgrader, automatisk facit og 104 tematiske samlinger. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv sudoku-generatoren gratis online — lav professionelle billedsudoku, hvor brugerne udfylder tomme celler med de rigtige billeder ved hjælp af række-og-kolonne-logik på et 4×4 gitter. Hvert puslespil bruger præcis 4 unikke billeder, der skal optræde én gang i hver række og én gang i hver kolonne — de samme regler som klassisk sudoku, men med farverige illustrationer i stedet for tal. Tre sværhedsgrader: Let fjerner 4 celler, Medium fjerner 6, Svær fjerner 8 — halvdelen af gitteret. Vælg billeder gennem temabaseret autovalg, der tilfældigt vælger 4 billeder fra 104 tematiske samlinger, eller manuelt valg. Premiumgitterdesignet har alternerende 2×2-blokfarver i lyseblå (#F8F9FC) og lyserosa (#FFF5F7), fede midtdelere (#7C8DB5, 3px), lettere indre linjer (#D1D9E6, 1,5px), indigoblå ydre ramme (#667EEA) med 18px afrundede hjørner, og tre flerlagede skygger. Billeder vises med 65% af cellestørrelsen. Hvert puslespil genererer en stiliseret \"Billedsudoku\"-overskrift med lilla baggrund (#5E35B1). Dobbeltarbejdsområde-systemet opretter samtidigt arbejdsark og facit — facittet viser det komplette udfyldte 4×4-gitter med alle 16 celler. Da billedsudoku er helt visuelt — ingen ord på puslespilgitteret — fungerer hvert arbejdsark identisk på alle sprog, universelt sælgbart. Eksportér PDF\'er og JPEG-billeder med 300 DPI i Letter, A4 eller tilpassede størrelser. Skift gråtone. 50-trins fortryd/gentag. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Billedsudoku Arbejdsark i 8 Trin',
+    title: 'Sådan laver du sudoku-opgaver i 8 trin',
     steps: [
       {
         title: 'Åbn Billedsudoku Generatoren',
@@ -155,15 +158,15 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Alle funktioner låst op — alle tre sværhedsgrader, temabaseret og manuelt billedvalg, autogenereret facit med komplet udfyldt gitter, alle 104 tematiske billedsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, premiumgitterdesign, tilpasset tekst med 7 skrifttyper, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på downloads.',
+      question: 'Kan jeg prøve sudoku-generatoren gratis online?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — alle tre sværhedsgrader, temabaseret og manuelt billedvalg, autogenereret facit med komplet udfyldt gitter, alle 104 tematiske billedsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, premiumgitterdesign, tilpasset tekst med 7 skrifttyper, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på gratis downloads.',
     },
     {
       question: 'Hvordan fungerer et 4×4 billedsudoku?',
-      answer: 'Et 4×4-gitter med 16 celler. Fire unikke billeder erstatter tal. Hvert billede skal optræde præcis én gang per række og kolonne. Visse celler starter udfyldt (ledetråde), brugerne udfylder resten med logisk eliminering. Billedformatet gør puslespil tilgængelige for førskoleelever.',
+      answer: 'Et 4×4-gitter med 16 celler. Fire unikke billeder erstatter tal. Hvert billede skal optræde præcis én gang per række og kolonne. Visse celler starter udfyldt (ledetråde), brugerne udfylder resten med logisk eliminering. Billedformatet gør sudoku-puslespil tilgængelige for begyndere.',
     },
     {
-      question: 'Hvad kontrollerer de tre sværhedsgrader?',
+      question: 'Hvad kontrollerer de tre sværhedsgrader i sudoku?',
       answer: 'Let fjerner 4 celler (12 ledetråde). Medium fjerner 6 (10 ledetråde). Svær fjerner 8 — halvdelen af gitteret. Systemet vælger tilfældigt, hvilke celler der bliver tomme, så regenerering producerer anderledes layout hver gang.',
     },
     {
@@ -218,7 +221,7 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/sudoku/Billede-Sudoku%201.webp',
-      primaryAlt: '4×4 billedsudoku arbejdsark med tematiske billeder i et premiumgitter med alternerende blå og rosa blokfarver, fede midtdelere og indigoblå ydre ramme med afrundede hjørner',
+      primaryAlt: 'Gratis sudoku generator med 4×4 billedgitter og tre sværhedsgrader — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {

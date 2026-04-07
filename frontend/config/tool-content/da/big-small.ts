@@ -2,30 +2,33 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'størrelsessammenligning arbejdsark generator for børn',
+    primaryKeyword: 'stor og lille generator gratis online',
     secondaryKeywords: [
-      'stor og lille arbejdsark for førskolen',
-      'størrelsessammenligning generator online',
-      'printbare størrelsessortering arbejdsark for børn',
-      'stor lille medium arbejdsark for børnehaven',
+      'størrelsesammenligning gratis',
+      'stor lille opgave prøv gratis',
+      'ordne efter størrelse gratis',
     ],
     lsiKeywords: [
-      'visuel størrelsesskelnelse arbejdsark for børn',
-      'tekstfri størrelsessammenligning printbar',
-      'stor lille rækkefølge aktivitet for førskolen',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'stor',
+      'lille',
+      'størrelse',
+      'sammenlign',
     ],
-    titleTag: 'Størrelsessammenligning Arbejdsark Generator — For Børn...',
-    metaDescription: 'Lav størrelsessammenligning arbejdsark for førskolen og børnehaven. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis stor og lille generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv stor-og-lille-generatoren gratis online. Temabilleder, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Stor og Lille Arbejdsark Generator',
-    tagline: 'Generér størrelsessammenligning arbejdsark med fem spørgsmålstyper, to billedtilstande og helt visuelt tekstfrit output, der sælger globalt uden oversættelse',
-    description: 'Lav professionelle størrelsessammenligning arbejdsark, hvor brugerne identificerer større, mindre og mellemstore billeder eller nummererer dem i størrelsesrækkefølge. Fem spørgsmålstyper dækker enhver størrelsesskelnelsesfærdighed: Sæt Ring om den Store, Sæt Ring om den Lille, Sæt Ring om den Mellemstore, Nummerer 1–2–3 Lille til Stor og Nummerer 1–2–3 Stor til Lille. To billedtilstande generator fundamentalt forskellige øvelser fra det samme værktøj: Identiske Billeder viser det samme billede i forskellige størrelser for ren størrelsesopfattelse, mens Forskellige Billeder viser distinkte objekter i forskellige størrelser for relativ størrelsesvurdering. Indstil 1–10 øvelser per side med 2 eller 3 billeder per øvelse — to billeder for simple større/mindre sammenligninger, tre billeder for at introducere medium-alternativet og muliggøre rækkefølgeudfordringer. Hvert arbejdsark er helt visuelt med nul tekst i outputtet. Ingen ord vises på den genererede side — kun billeder og visuelle indikatorer. Dette gør dine arbejdsark universelt brugbare uanset sprog, læseniveau eller litteracitetsstatus, og universelt sælgbare uden oversættelse. Én produktannonce betjener hvert marked i verden. Hent fra mere end 3.100 illustrationer i 104 tematiske samlinger eller upload egne billeder. Det automatisk genererede facit markerer og cirkler korrekte svar for øjeblikkelig verifikation. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis stor og lille generator — prøv online med vandmærke',
+    tagline: 'Prøv stor-og-lille-generatoren gratis online — fem spørgsmålstyper, to billedtilstande og automatisk facit. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv stor-og-lille-generatoren gratis online — lav professionelle størrelses-opgaver, hvor brugerne sammenligner og identificerer større, mindre og mellemstore billeder eller ordner dem efter størrelse. Fem spørgsmålstyper dækker enhver størrelsesskelnelsesfærdighed: Sæt Ring om den Store, Sæt Ring om den Lille, Sæt Ring om den Mellemstore, Nummerer 1–2–3 Lille til Stor og Nummerer 1–2–3 Stor til Lille. To billedtilstande generator fundamentalt forskellige øvelser fra det samme værktøj: Identiske Billeder viser det samme billede i forskellige størrelser for ren størrelsesopfattelse, mens Forskellige Billeder viser distinkte objekter i forskellige størrelser for relativ størrelsesvurdering. Indstil 1–10 øvelser per side med 2 eller 3 billeder per øvelse — to billeder for simple større/mindre sammenligninger, tre billeder for at introducere medium-alternativet og muliggøre rækkefølgeudfordringer. Hvert arbejdsark er helt visuelt med nul tekst i outputtet. Ingen ord vises på den genererede side — kun billeder og visuelle indikatorer. Dette gør dine arbejdsark universelt brugbare uanset sprog, læseniveau eller litteracitetsstatus, og universelt sælgbare uden oversættelse. Én produktannonce betjener hvert marked i verden. Hent fra mere end 3.100 illustrationer i 104 tematiske samlinger eller upload egne billeder. Det automatisk genererede facit markerer og cirkler korrekte svar for øjeblikkelig verifikation. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Størrelsessammenligning Arbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du stor-og-lille opgaver i 8 enkle trin',
     steps: [
       {
         title: 'Åbn Stor og Lille Arbejdsark Generatoren',
@@ -155,12 +158,12 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — alle fem spørgsmålstyper, begge billedtilstande, justerbart øvelsesantal, billedbiblioteket, facitgenerering og alle eksportformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Kan jeg prøve stor-og-lille-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — alle fem spørgsmålstyper, begge billedtilstande, justerbart øvelsesantal, billedbiblioteket, facitgenerering og alle eksportformater. Ingen registrering, intet kreditkort kræves. Gratis downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
     },
     {
-      question: 'Hvad er de fem spørgsmålstyper?',
-      answer: 'Sæt Ring om den Store beder brugerne finde det største billede. Sæt Ring om den Lille retter sig mod det mindste. Sæt Ring om den Mellemstore kræver identifikation af det mellemstore billede (kræver 3 billeder per øvelse). Nummerer 1–2–3 Lille til Stor beder brugerne mærke billeder i stigende størrelsesrækkefølge. Nummerer 1–2–3 Stor til Lille vender til faldende. Cirkelspørgsmål tester identifikation; nummereringsspørgsmål tester flertrins sekventering.',
+      question: 'Hvad er de fem størrelses-spørgsmålstyper?',
+      answer: 'Sæt Ring om den Store beder brugerne finde det største billede. Sæt Ring om den Lille retter sig mod det mindste. Sæt Ring om den Mellemstore kræver identifikation af det mellemstore billede (kræver 3 billeder per øvelse). Nummerer 1–2–3 Lille til Stor beder brugerne ordne billeder i stigende størrelse. Nummerer 1–2–3 Stor til Lille vender til faldende. Cirkelspørgsmål tester identifikation; nummereringsspørgsmål tester flertrins sammenligning.',
     },
     {
       question: 'Hvad er forskellen mellem Identiske Billeder og Forskellige Billeder-tilstand?',
@@ -214,7 +217,7 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp',
-      primaryAlt: 'Stor og lille størrelsessammenligning arbejdsark med tematiske billeder i forskellige størrelser, der viser sæt ring om den store øvelse',
+      primaryAlt: 'Gratis stor og lille generator med tematiske billeder i forskellige størrelser — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {

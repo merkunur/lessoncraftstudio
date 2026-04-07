@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sudokubøger KDP',
+    primaryKeyword: 'sudoku-bøger til KDP',
     secondaryKeywords: [
       'sådan generator du sudokubøger til Amazon KDP',
       'billedsudoku bøger for børn KDP',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'sudoku serie bind genkøb loyale løsere katalog',
       'sudoku puslespilantal sidelayout facit trykstørrelse',
     ],
-    titleTag: 'Sudokubøger KDP — Udgivelsesguide',
-    metaDescription: 'Skab sudokubøger til KDP med billedsudoku til børn og talsudoku til voksne. Sværhedsprogression, gitterformatering og serieopbygningsstrategi.',
+    titleTag: 'Sudoku-bøger til KDP — Guide til passiv indkomst',
+    metaDescription: 'Lav sudoku-bøger til Amazon KDP med billedsudoku til børn og talsudoku til voksne. Sværhedsprogression, formatering og passiv indkomst.',
   },
 
   hero: {

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Påske printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag påske printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Forårsferieproduktkonceper, sæsonstrategier og platformstips for sælgere.',
+    titleTag: 'Påske opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Påske-tema opgaver til print du kan sælge online. Malebilleder, ordleg, regneopgaver og skattejagt med påsketema. Sælg på Etsy.dk og Amazon KDP.',
 
-    primaryKeyword: 'påske printbare idéer',
+    primaryKeyword: 'påske opgaver til print idéer',
     secondaryKeywords: [
-      'påskearbejdsark til salg',
-      'påsketematisk printbar forretning',
-      'påskeaktivitetsark for sælgere',
-      'sælg påskeprintables på Etsy',
+      'påske malebilleder ordleg til print sælg online',
+      'påske printbare idéer Etsy.dk sidegesjæft',
+      'påske aktivitetsark til print regneopgaver',
+      'sælg påske-opgaver malebilleder skattejagt til print',
     ],
     lsiKeywords: [
-      'forårsferie pædagogiske arbejdsark',
-      'æggejagt-tematiske aktivitetssider',
-      'sæsonbestemte påske printbare ressourcer',
+      'forårsferie opgaver til print sidegesjæft',
+      'æggejagt-tema malebilleder ordleg til print',
+      'sæsonbestemte påske opgaver til print passiv indkomst',
     ],
   },
   hero: {
-    title: 'Påske printbare forretningsidéer for sælgere',
-    description: 'Påske skaber et livligt forårssalgsvindue for printbare entreprenører, med efterspørgsel der stiger fra februar til april efterhånden som købere planlægger forårspædagogiske aktiviteter og forældre søger pædagogiske påskekurvfyld og æggejagtssupplementer. Nichen tilbyder dejlig undertemavariation inklusive kaniner, dekorerede æg, kyllinger, lam, kurve, forårsblomster, tulipaner, gulerødder og ægnejagter, hvilket giver sælgere et muntert visuelt ordforråd der resonerer stærkt med yngre købere og deres familier. Kirkegrupper og fællesskabsorganisationer tilføjer endnu et købersegment der søger printbare aktiviteter til påskebegivenheder og forårsfejringer. For printable sælgere på Etsy, Amazon KDP og Gumroad kombinerer påskenichen forudsigelig årlig efterspørgsel med en festlig forårsæstetik der fotograferer smukt til produktlistninger og markedsføringsmaterialer. Denne guide dækker specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en rentabel påske printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
+    title: 'Påske opgaver til print — forretningsidéer for sælgere',
+    description: 'Påske skaber et livligt forårssalgsvindue for opgaver til print, med stigende efterspørgsel fra februar til april for påske-malebilleder, ordleg, regneopgaver og skattejagt med påsketema. Nichen tilbyder dejlig undertemavariation inklusive kaniner, dekorerede æg, kyllinger, lam, kurve, forårsblomster, tulipaner, gulerødder og ægnejagter, hvilket giver sælgere et muntert visuelt ordforråd der resonerer stærkt med yngre købere og deres familier. Kirkegrupper og fællesskabsorganisationer tilføjer endnu et købersegment der søger printbare aktiviteter til påskebegivenheder og forårsfejringer. For printable sælgere på Etsy, Amazon KDP og Gumroad kombinerer påskenichen forudsigelig årlig efterspørgsel med en festlig forårsæstetik der fotograferer smukt til produktlistninger og markedsføringsmaterialer. Denne guide dækker specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en rentabel påske printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Påskeprintbare-nichen indtager en førsteklasses position i forårets salgskalender og leverer koncentreret sæsonefterspørgsel i en periode hvor få andre ferier konkurrerer om køberens opmærksomhed. Købere begynder at planlægge forårspædagogiske aktiviteter og før-påske-fejringer i februar og begyndelsen af marts og søger tematiske arbejdsark der blander feriecharm med ægte pædagogiske resultater. Forældre søger alderstilpassede påskeaktiviteter der tjener dobbelt formål som påskekurv-indlæg og pædagogisk underholdning i de spændingsfyldte dage op til ferien. Kirkegrupper, søndagsskolekoordinatorer og fællesskabsarrangører køber tematiske aktivitetsark til påskeæggejagter, forårsfestivaler og familievenlige fejringer der har brug for strukturerede aktiviteter til unge deltagere.
 

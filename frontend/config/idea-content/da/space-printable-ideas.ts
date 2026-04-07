@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Rummet printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag rummet printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Verdensrumsproduktkoncepeter, STEM-strategier og platformstips for printable sælgere.',
+    titleTag: 'Rummet opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Rum-tema opgaver til print du kan sælge online. Malebilleder, find og tæl, regneopgaver og ordleg med planeter og raketter. Sælg på Etsy.dk. Sidegesjæft.',
 
-    primaryKeyword: 'rummet printbare idéer',
+    primaryKeyword: 'rummet opgaver til print idéer',
     secondaryKeywords: [
-      'rumtematiske arbejdsark til salg',
-      'rummet printbar forretningsidéer',
-      'rumaktivitetsark for sælgere',
-      'sælg rumprintables på Etsy',
+      'rum malebilleder regneopgaver til print sælg online',
+      'rummet printbare idéer Etsy.dk sidegesjæft',
+      'rum aktivitetsark til print ordleg find og tæl',
+      'sælg rum malebilleder regneopgaver til print',
     ],
     lsiKeywords: [
-      'astronomi pædagogiske arbejdsark',
-      'planet- og rakettematiske aktivitetssider',
-      'solsystemtematiske printables',
+      'astronomi rummet opgaver til print sidegesjæft',
+      'planet raket malebilleder til print passiv indkomst',
+      'solsystem opgaver til print børnehaveklasse indskoling',
     ],
   },
   hero: {
-    title: 'Rummet printbare forretningsidéer for sælgere',
+    title: 'Rummet opgaver til print — forretningsidéer for sælgere',
     description: 'Verdensrummet er et af de mest universelt fængslende temaer for børn, hvilket gør det til en kraftfuld stedsegrøn niche for printbare entreprenører der ønsker konsekvent helårs salg uden sæsonafhængighed. Rumtemaet tilbyder ekstraordinær undertemavariation inklusive planeter, raketter, astronauter, stjerner, månen, solsystemmodeller, galakser, rumvæsener, rumfartøjer, stjernebilleder, kometer, teleskoper og rumstationer, hvilket giver sælgere et dybt visuelt ordforråd der vækker fantasi og nysgerrighed hos det yngre publikum. STEM-uddannelsestilpasning gør rumprintables særligt værdifulde for sælgere der integrerer naturfagskoncepter i matematik-, læse- og kunstaktiviteter på tværs af indholdsbiblioteket. For printable sælgere på Etsy, Amazon KDP og Gumroad kombinerer rumnichen stærk helårs efterspørgsel med tværfaglig pædagogisk appel der resonerer med både købere og hjemmeundervisningsfamilier der investerer i naturfagsrige læringsmaterialer. Denne guide dækker specifikke produktidéer, platformsstrategier og positioneringstilgange til at hjælpe dig med at opbygge en rentabel rum printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Rumprintbare-nichen indtager en unikt fordelagtig position for printable sælgere fordi den leverer konsekvent helårs efterspørgsel uden de bom-og-bust cyklusser der karakteriserer sæsonnicher. Børns fascination af verdensrummet er dybt universel og skærer på tværs af aldersgrupper, kulturer og pædagogiske filosofier. Førskolealderen er betaget af raketter og stjerner, børnehavealderen elsker at lære planetnavne og astronautseventyr, og grundskoleelever dykker ivrigt ned i solsystemfakta, stjernebilledidentifikation og rumudforskningshistorie. Denne brede aldersappel betyder at sælgere kan skabe produkter rettet mod flere klassetrin fra et enkelt tema og multiplicere deres katalogdybde uden at skifte emne.

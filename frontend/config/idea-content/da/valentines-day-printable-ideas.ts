@@ -2,23 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Valentinsdag printbare idéer til salg — Nicheguide',
-    metaDescription: 'Udforsk valentinsdag printbare idéer til salg på Etsy, KDP og Gumroad. Kærlighedstematiske produktkoncepter, sæsonstrategier og tips for sælgere.',
-    primaryKeyword: 'valentinsdag printbare idéer',
+    titleTag: 'Valentinsdag opgaver til print — idéer til salg | Etsy.dk & KDP',
+    metaDescription: 'Valentinsdag-tema opgaver til print du kan sælge online. Malebilleder, ordleg, regneopgaver og forbind-opgaver med hjerter. Sælg på Etsy.dk. Sidegesjæft.',
+    primaryKeyword: 'valentinsdag opgaver til print idéer',
     secondaryKeywords: [
-      'valentinsdagsarbejdsark til salg',
-      'valentinsdag printbar forretningsidéer',
-      'valentinsdagsaktivitetsark for sælgere',
-      'sælg valentinsdagsprintables på Etsy',
+      'valentinsdag malebilleder ordleg til print sælg online',
+      'valentinsdag printbare idéer Etsy.dk sidegesjæft',
+      'valentinsdag aktivitetsark til print regneopgaver',
+      'sælg valentinsdag malebilleder forbind-opgaver til print',
     ],
     lsiKeywords: [
-      'hjertetematiske pædagogiske arbejdsark',
-      'februartematiske aktivitetssider',
-      'kærligheds- og venskabstematiske printables',
+      'hjertetema opgaver til print sidegesjæft',
+      'februar valentinsdag malebilleder til print passiv indkomst',
+      'kærlighed venskab opgaver til print børnehaveklasse',
     ],
   },
   hero: {
-    title: 'Valentinsdag printbare forretningsidéer for sælgere',
+    title: 'Valentinsdag opgaver til print — forretningsidéer for sælgere',
     description: 'Valentinsdag åbner et kraftfuldt vintersalgsvindue for printbare entreprenører, med efterspørgsel der opbygges gennem januar og topper i begyndelsen af februar, efterhånden som købere forbereder valentinsudvekslinger og forældre søger pædagogiske kærlighedstematiske aktiviteter og valentinkortalternativer. Nichen tilbyder charmerende undertemavariation inklusive hjerter, amor, venskab, roser, slik, postkasser, kærlighedsbreve og valentinsudvekslinger, hvilket giver sælgere et varmt visuelt ordforråd der appellerer til børn, familier og købere. Dagplejeleverandører og hjemmeundervisningsfamilier tilføjer endnu et købersegment der søger strukturerede valentinsaktiviteter der blander ferieglæde med ægte færdighedsopbygning. For printable sælgere på Etsy, Amazon KDP og Gumroad kombinerer valentinsdagsnichen pålidelig årlig efterspørgsel med en universelt tiltalende kærligheds-og-venskabsæstetik der fotograferer smukt til produktlistninger og markedsføring på sociale medier. Denne guide dækker specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en rentabel valentinsdag printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Valentinsdag printbare-nichen indtager en førsteklasses position i vinterens salgskalender og leverer koncentreret sæsonefterspørgsel i en periode hvor efter-ferie indkøbsenergi omdirigeres mod friske kreative projekter og fejringer. Købere begynder at planlægge valentinsfestaktiviteter og februartematiske forbedringer i begyndelsen af januar og søger tematiske arbejdsark der forvandler spændingen ved valentinsudvekslinger til strukturerede læringsmuligheder. Forældre søger alderstilpassede valentinsaktiviteter der fungerer som kreative alternativer til købte valentinkort og giver pædagogisk underholdning i den kærlighedstematiske ferieuge. Dagplejeleverandører, hjemmeundervisningsfamilier og fritidsordningskoordinatorer køber tematiske aktivitetsark til valentinsfester, venskabsfokuserede læringssessioner og februarfejringsbegivenheder der har brug for engagerende materialer til unge deltagere.

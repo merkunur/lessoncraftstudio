@@ -2,27 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'søg og find arbejdsark pakke',
+    primaryKeyword: 'find og tæl krydsord skattejagt pakke til print',
     secondaryKeywords: [
-      'søg og find arbejdsark generator pakke for sælgere',
-      'I Spy skjult objekt printpakke kommerciel brug',
-      'krydsord skattejagt arbejdsark pakke til Etsy',
-      'find og tæl aktivitetsgeneratorer til KDP-sælgere',
+      'find og tæl krydsord skattejagt pakke Etsy.dk',
+      'I Spy skjulte objekter printpakke kommerciel licens',
+      'krydsord skattejagt generatorer Amazon KDP',
+      'find og tæl aktivitetsgeneratorer passiv indkomst',
     ],
     lsiKeywords: [
-      'skjult objekt I Spy krydsord skattejagt arbejdsark pakke',
-      'flersproget søgeaktivitet printbar samling',
-      'kommerciel licens opdagelsesarbejdsark',
-      'masseproduktion søg og find arbejdsark værktøj',
+      'skjulte objekter I Spy krydsord skattejagt til print',
+      'flersproget søgeaktivitet printbar forretning sidegesjæft',
+      'kommerciel licens find og tæl børnehaveklasse indskoling',
+      'masseproduktion søg og find Saxo.com',
     ],
-    titleTag: 'Søg og Find Arbejdsark Pakke — 4 Generatorer — Sælgerguide',
-    metaDescription: 'Søg og find arbejdsark pakke med 4 generatorer: I Spy, skjulte objekter, krydsord og skattejagter. Sælg på Etsy, KDP, Gumroad. $149 engangsbetaling.',
+    titleTag: 'Søg & find-pakke til print — 4 generatorer | Krydsord, skattejagt & find og tæl',
+    metaDescription: 'Søg & find-pakke med 4 generatorer til print: find og tæl, skjulte objekter, krydsord og skattejagt. Sælg på Etsy.dk og Amazon KDP. $149 engangsbetaling.',
   },
 
   hero: {
-    title: 'Søg & Find-pakke',
-    tagline: 'Fire opdagelsesfokuserede generatorer — I Spy-scener, skjulte objekter, krydsordspuslespil og skattejagter i hvert arbejdsark',
-    description: 'Søg & Find-pakken er den mest sprogrige pakke i samlingen. Tre af fire apps producerer sprogafhængige arbejdsark — billedetiketter og sprogspecifikke alfabeter i Find og Tæl, oversatte puslespilord i Krydsord og fuldt lokaliserede retningsledetråde i Skattejagt. Denne flersprogede dybde er en ægte konkurrencefordel for sælgere, der retter sig mod ikke-engelske markeder, da hvert oversat arbejdsark bliver en unik produktannonce med praktisk talt nul konkurrence. Pakken forener fire ægte forskellige aktivitetsformater under et \"søg og opdag\"-tema: I Spy skjulte objekter-scener, visuelle skjulte objekter-arbejdsark med nul-overlapning, 15x15 krydsordsgitter med billedbaserede ledetråde og koordinatgitter-skattejagter med sekventielle retningsbevægelser. Alle fire generatorer producerer automatiske facit — 100% facitdækning over hele pakken. Vælg blandt over 100 tematiske billedsæt eller upload dine egne filer. Hver generator inkluderer en gratis prøveversion med vandmærke.',
+    title: 'Søg & find-pakke',
+    tagline: 'Fire opdagelsesfokuserede generatorer til print — find og tæl, krydsord, skattejagt og skjulte objekter',
+    description: 'Søg & find-pakken er den mest sprogrige pakke i samlingen. Tre af fire apps producerer sprogafhængige arbejdsark til print — billedetiketter og sprogspecifikke alfabeter i Find og tæl, oversatte puslespilord i Krydsord og fuldt lokaliserede retningsledetråde i Skattejagt. Denne flersprogede dybde er en ægte konkurrencefordel for sælgere, der retter sig mod ikke-engelske markeder, da hvert oversat arbejdsark bliver en unik produktannonce med praktisk talt nul konkurrence. Pakken forener fire ægte forskellige aktivitetsformater under et \"søg og opdag\"-tema: I Spy skjulte objekter-scener, visuelle skjulte objekter-arbejdsark med nul-overlapning, 15x15 krydsordsgitter med billedbaserede ledetråde og koordinatgitter-skattejagter med sekventielle retningsbevægelser. Alle fire generatorer producerer automatiske facit — 100% facitdækning over hele pakken. Vælg blandt over 100 tematiske billedsæt eller upload dine egne filer. Hver generator inkluderer en gratis prøveversion med vandmærke.',
   },
 
   appsIncluded: [

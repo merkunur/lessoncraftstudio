@@ -2,27 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'puslespilarbejdsark pakke',
+    primaryKeyword: 'logik- og puslespil-pakke til print',
     secondaryKeywords: [
-      'puslespilarbejdsark generator pakke for sælgere',
-      'printbar logikpuslespil værktøjskasse kommerciel brug',
-      'labyrint sudoku arbejdsark pakke til Etsy',
-      'puslespilaktivitet generatorer til KDP-sælgere',
+      'hvad passer ikke labyrint sudoku pakke Etsy.dk',
+      'logikpuslespil printpakke kommerciel licens',
+      'labyrint billedsudoku puslespil pakke Amazon KDP',
+      'puslespil-generatorer passiv indkomst sidegesjæft',
     ],
     lsiKeywords: [
-      'manglende brikker sudoku labyrint arbejdsark pakke',
-      'find den ulige logik printbar samling',
-      'kommerciel licens puslespilarbejdsark',
-      'masseproduktion puslespilarbejdsark værktøj',
+      'manglende brikker hvad passer ikke sudoku labyrint til print',
+      'logikpuslespil printbar samling børnehaveklasse indskoling',
+      'kommerciel licens puslespil printbar forretning',
+      'masseproduktion logikopgaver Saxo.com',
     ],
-    titleTag: 'Puslespilarbejdsark Pakke — 4 Logik- og Puslespilgeneratorer',
-    metaDescription: 'Puslespilarbejdsark pakke med 4 generatorer: manglende brikker, find den ulige, billedsudoku og labyrinter. Sælg på Etsy, KDP og Gumroad. $149 engangsbetaling.',
+    titleTag: 'Logik- og puslespil-pakke til print — 4 generatorer | Labyrint, sudoku & mere',
+    metaDescription: 'Logik- og puslespil-pakke med 4 generatorer til print: manglende brikker, hvad passer ikke, billedsudoku og labyrint. Sælg på Etsy.dk & KDP. $149.',
   },
 
   hero: {
-    title: 'Puslespil & Logik-pakke',
-    tagline: 'Fire helt visuelle puslespilgeneratorer — rumligt ræsonnement, logisk deduktion og problemløsning i hvert arbejdsark',
-    description: 'Puslespil & Logik-pakken er den eneste pakke, hvor enhver enkelt app producerer helt visuelle arbejdsark. Ingen tekst, ingen sprogafhængighed, ingen oversættelse nødvendig — hvert arbejdsark fungerer i alle lande, alle sprog, alle markeder. Denne pakke kombinerer fire specialiserede puslespilgeneratorer, der retter sig mod højere kognitive færdigheder: rumligt ræsonnement med Manglende Brikker gitterpuslespil, visuel skelnelse med Find den Ulige-udfordringer, logisk deduktion med 4x4 Billedsudoku og problemløsning med Billedsti-labyrinter. Alle fire generatorer producerer automatiske facit — den eneste pakke med 100% facitdækning over enhver app. Hver generator udsender trykfærdige PDF- og højopløste JPEG-filer med konfigurerbare sværhedsindstillinger og tematiske billedbiblioteker. Puslespil- og logikarbejdsarkskategorien er et af de hurtigst voksende segmenter på Etsy og Amazon KDP. Vælg blandt over 100 tematiske billedsæt eller upload dine egne filer. Hver generator inkluderer en gratis prøveversion med vandmærke.',
+    title: 'Logik- og puslespil-pakke',
+    tagline: 'Fire helt visuelle puslespilgeneratorer til print — labyrint, hvad passer ikke, sudoku og logikopgaver',
+    description: 'Logik- og puslespil-pakken er den eneste pakke, hvor enhver enkelt app producerer helt visuelle arbejdsark til print. Ingen tekst, ingen sprogafhængighed, ingen oversættelse nødvendig — hvert arbejdsark fungerer i alle lande, alle sprog, alle markeder. Denne pakke kombinerer fire specialiserede puslespilgeneratorer, der retter sig mod højere kognitive færdigheder: rumligt ræsonnement med Manglende Brikker gitterpuslespil, visuel skelnelse med Find den Ulige-udfordringer, logisk deduktion med 4x4 Billedsudoku og problemløsning med Billedsti-labyrinter. Alle fire generatorer producerer automatiske facit — den eneste pakke med 100% facitdækning over enhver app. Hver generator udsender trykfærdige PDF- og højopløste JPEG-filer med konfigurerbare sværhedsindstillinger og tematiske billedbiblioteker. Puslespil- og logikarbejdsarkskategorien er et af de hurtigst voksende segmenter på Etsy og Amazon KDP. Vælg blandt over 100 tematiske billedsæt eller upload dine egne filer. Hver generator inkluderer en gratis prøveversion med vandmærke.',
   },
 
   appsIncluded: [

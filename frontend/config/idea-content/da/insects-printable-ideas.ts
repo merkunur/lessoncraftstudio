@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Insekter printbare idéer til salg — nicheguide',
-    metaDescription: 'Opdag insekttema printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Kryb og sommerfugle produktkoncepter, platformstrategier og nichetips til sælgere.',
+    titleTag: 'Insekter opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Insekt-tema opgaver til print du kan sælge online. Malebilleder, find og tæl, sortere og forbind-opgaver med sommerfugle og kryb. Sidegesjæft.',
 
-    primaryKeyword: 'insekter printbare idéer',
+    primaryKeyword: 'insekter opgaver til print idéer',
     secondaryKeywords: [
-      'insekttema arbejdsark til salg',
-      'kryb printbar forretningsidéer',
-      'insektaktivitetsark til sælgere',
-      'sælg insektprintables på Etsy',
+      'insekt malebilleder find og tæl til print sælg online',
+      'insekter printbare idéer Etsy.dk sidegesjæft',
+      'insekt aktivitetsark til print sortere',
+      'sælg insekt malebilleder forbind-opgaver til print',
     ],
     lsiKeywords: [
-      'entomologiaktiviteter til børn',
-      'krybtema pædagogiske arbejdsark',
-      'kravledyr tema printables',
+      'kryb sommerfugle opgaver til print sidegesjæft',
+      'insekt malebilleder sortere til print passiv indkomst',
+      'entomologi kravledyr opgaver til print børnehaveklasse',
     ],
   },
   hero: {
-    title: 'Insekter printbare forretningsidéer til sælgere',
+    title: 'Insekter opgaver til print — forretningsidéer for sælgere',
     description: 'Insekter tilbyder printable-sælgere et af de mest universelt fascinerende dyretemaer med dybe bånd til naturfagsundervisning og sæsonmæssige efterspørgselsmønstre. Børn er naturligt fængslet af sommerfugle, mariehøns, myrer og bier, hvilket forvandler hverdagens havemøder til læringsmuligheder som forældre ivrigt understøtter med arbejdsarkkøb. Insektnichen drager fordel af stærk tilpasning med naturfagsemner i grundskolen der dækker livscyklusser, levesteder, metamorfose og økosystemer. Med over en million kendte arter er de kreative muligheder for produktdifferentiering praktisk talt ubegrænsede. Forår og sommer driver spidsefterspørgsel da børn studerer sommerfugle, haver summer med aktivitet, og familier udforsker naturen sammen. For sælgere på Etsy, Amazon KDP og Gumroad repræsenterer insekttema printables en niche hvor pædagogisk relevans møder barnlig nysgerrighed for at skabe pålideligt helårssalgspotentiale. Denne guide giver specifikke produktidéer, platformstrategier og prismetoder for at hjælpe dig med at opbygge en profitabel insekttema printbar produktlinje med vores arbejdsark-generatorværktøjer.',
   },
   marketOverview: `Insekt printable-nichen befinder sig i skæringspunktet mellem naturfagsundervisning og barnlig fascination, hvilket skaber efterspørgsel fra forældre og hjemmeundervisere der alle anerkender den pædagogiske værdi af krybtema læringsmaterialer. Børn møder insekter dagligt i deres haver, parker og baghaver, hvilket gør disse skabninger umiddelbart relaterbare og endeløst interessante for børn. Forældre søger efter insektarbejdsark for at kanalisere denne naturlige nysgerrighed ind i strukturerede læringsaktiviteter, mens købere har brug for ressourcer til entomologienheder, livscyklusstudier og levestedsudforskning der optræder gennem tidlig barndoms- og grundskolelæring.

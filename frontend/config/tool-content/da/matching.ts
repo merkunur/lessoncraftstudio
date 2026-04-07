@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'matchnings arbejdsark generator',
+    primaryKeyword: 'forbind-opgaver generator gratis online',
     secondaryKeywords: [
-      'matchnings arbejdsark generator for sælgere',
-      'lav tegn-en-streg matchnings arbejdsark til salg',
-      'printbar matchningsaktivitet generator kommerciel brug',
-      'billedmatchning arbejdsark generator til KDP og Etsy',
+      'parringsleg gratis til print',
+      'forbind-opgaver prøv gratis',
+      'sæt sammen gratis',
     ],
     lsiKeywords: [
-      'firetilstands tegn-en-streg matchnings arbejdsark værktøj',
-      'automatisk facit matchningsaktivitet generator',
-      'begyndelsesbogstav billede ord matchning generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'forbinde',
+      'parring',
+      'streger',
     ],
-    titleTag: 'Matchnings Arbejdsark Generator — Tegn-en-Streg Generator',
-    metaDescription: 'Lav matchnings arbejdsark med 4 tilstande, automatisk facit med forbindelseslinjer, konfigurerbare par, 11 sprog,. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis forbind-opgaver generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv forbind-opgaver-generatoren gratis online. Temabilleder, automatisk facit, 300 DPI PDF. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Matchnings Arbejdsark Generator',
-    tagline: 'Firetilstands tegn-en-streg matchnings arbejdsark generator med Begyndelsesbogstav, Billede+Ord, Blandet og Tilpasset Ord-tilstande, automatisk genererede facit med forbindelseslinjer, konfigurerbare parantal, lokaliseret Find Par-overskrift på 11 sprog og 104 tematiske billedsamlinger',
-    description: 'Lav professionelle tegn-en-streg matchnings arbejdsark, hvor brugerne forbinder par ved at tegne linjer mellem to kolonner — med fire distinkte matchningstilstande i én enkelt generator. Begyndelsesbogstav-tilstand placerer billeder til venstre og deres første bogstaver til højre, med tre undertilstande: Tilfældigt Tema og Billeder, Tilfældigt fra Valgt Tema, og Vælg Specifikke Billeder. Skift store eller små bogstaver. Billede+Ord-tilstand viser mærkede billedpar på begge sider for ordforrådsforstærkning. Billede/Ord Blandet-tilstand bruger per-række dropdown-vælgere. Tilpasset Ord-tilstand parrer billeder med dine egne indtastede matchningstermer. Konfigurér 4, 5 eller 6 par per arbejdsark (standard 6). Skift artikelnummer (standard TIL) og punktmarkeringer (standard TIL) uafhængigt. Hvert arbejdsark inkluderer en automatisk genereret lokaliseret \"Find Par!\"-overskrift med gul pillebaggrund (#FFD700), koralramme (#FF7F50, 8px streg), lokaliseret titel i Fredoka (700) og beskrivelse i Quicksand (500), automatisk oversat til alle 11 understøttede sprog. Dobbeltarbejdsområde-systemet genererer samtidigt en arbejdsarksfane og en facitfane — facittet tegner horisontale forbindelseslinjer (#555, stregbredde 2) mellem korrekte matchninger. Denne generator er sprogfølsom: Begyndelsesbogstav og Billede+Ord-tilstande bruger lokaliserede billednavne, så at skifte sprog ændrer ordene og begyndelsesbogstaverne — det samme kattebillede viser K på dansk men C på engelsk (Cat) og K på tysk (Katze). Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Tilføj navn- og datofelter. Eksportér fire filer per session: arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF — alle med 300 DPI. Vælg Letter, A4, Kvadrat eller tilpassede sidestørrelser med gråtonekontakt. Den gratis prøveversion indeholder alle funktioner med et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis forbind-opgaver generator — prøv online med vandmærke',
+    tagline: 'Prøv forbind-opgaver-generatoren gratis online — fire parringstilstande, automatisk facit med streger, 104 temabilledsamlinger og lokaliserede overskrifter på 11 sprog. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv forbind-opgaver-generatoren gratis online og lav professionelle parringsøvelser, hvor brugerne tegner streger mellem to kolonner. Alle funktioner er tilgængelige i den gratis prøveversion — downloads indeholder et vandmærke, som fjernes med en licens. Begyndelsesbogstav-tilstand placerer billeder til venstre og deres første bogstaver til højre, med tre undertilstande: Tilfældigt Tema og Billeder, Tilfældigt fra Valgt Tema, og Vælg Specifikke Billeder. Skift store eller små bogstaver. Billede+Ord-tilstand viser mærkede billedpar på begge sider for ordforrådsforstærkning. Billede/Ord Blandet-tilstand bruger per-række dropdown-vælgere. Tilpasset Ord-tilstand parrer billeder med dine egne indtastede matchningstermer. Konfigurér 4, 5 eller 6 par per arbejdsark (standard 6). Skift artikelnummer (standard TIL) og punktmarkeringer (standard TIL) uafhængigt. Hvert arbejdsark inkluderer en automatisk genereret lokaliseret \"Find Par!\"-overskrift med gul pillebaggrund (#FFD700), koralramme (#FF7F50, 8px streg), lokaliseret titel i Fredoka (700) og beskrivelse i Quicksand (500), automatisk oversat til alle 11 understøttede sprog. Dobbeltarbejdsområde-systemet genererer samtidigt en arbejdsarksfane og en facitfane — facittet tegner horisontale forbindelseslinjer (#555, stregbredde 2) mellem korrekte matchninger. Denne generator er sprogfølsom: Begyndelsesbogstav og Billede+Ord-tilstande bruger lokaliserede billednavne, så at skifte sprog ændrer ordene og begyndelsesbogstaverne — det samme kattebillede viser K på dansk men C på engelsk (Cat) og K på tysk (Katze). Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Anvend baggrunds- og rammetemaer med uafhængige gennemsigtighedsskydere. Tilføj navn- og datofelter. Eksportér fire filer per session: arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF — alle med 300 DPI. Vælg Letter, A4, Kvadrat eller tilpassede sidestørrelser med gråtonekontakt. Den gratis prøveversion indeholder alle funktioner med et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Matchnings Arbejdsark i 8 Trin',
+    title: 'Sådan laver du forbind-opgaver i 8 trin',
     steps: [
       {
         title: 'Åbn Matchnings Arbejdsark Generatoren',
@@ -155,16 +157,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner låst op — alle fire matchningstilstande, konfigurerbare parantal (4, 5 eller 6), det autogenererede facit med forbindelseslinjer, alle 104 tematiske billedsamlinger, den lokaliserede Find Par-overskrift på 11 sprog, baggrunds- og rammetemaer, artikelnummer, punktmarkeringer, navn/dato-felter, gråtoneeksport og alle downloadformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke.',
+      question: 'Kan jeg prøve forbind-opgaver-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — alle fire parringstilstande, konfigurerbare parantal (4, 5 eller 6), automatisk facit med streger, alle 104 temabilledsamlinger, lokaliseret Find Par-overskrift på 11 sprog, baggrunds- og rammetemaer, artikelnummer, punktmarkeringer, navn/dato-felter, gråtoneeksport og alle downloadformater. Ingen kreditkort kræves. Gratis downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvad er de fire matchningstilstande?',
-      answer: 'Generatoren tilbyder fire distinkte tilstande. Begyndelsesbogstav placerer billeder til venstre og deres første bogstaver til højre — med tre undertilstande plus store/små bogstaver-kontakt. Billede+Ord viser mærkede billedpar på begge sider. Billede/Ord Blandet bruger per-række dropdown-vælgere. Tilpasset Ord parrer billeder med dine egne indtastede termer.',
+      question: 'Hvad er de fire parringstilstande i forbind-opgaverne?',
+      answer: 'Generatoren tilbyder fire tilstande. Begyndelsesbogstav placerer billeder til venstre og deres første bogstaver til højre — med tre undertilstande plus store/små bogstaver-kontakt. Billede+Ord viser mærkede billedpar på begge sider. Billede/Ord Blandet bruger per-række dropdown-vælgere. Tilpasset Ord parrer billeder med dine egne indtastede termer.',
     },
     {
-      question: 'Hvordan fungerer det automatisk genererede facit?',
-      answer: 'Når du genererer et arbejdsark, opretter appen samtidigt et matchende facit på en separat arbejdsområdefane. Facittet gengenerator det præcise arbejdsarkslayout og tilføjer horisontale forbindelseslinjer (#555, stregbredde 2) tegnet mellem hvert korrekt par. Download hver version uafhængigt — fire produktionsklare filer fra én enkelt generering.',
+      question: 'Hvordan fungerer det automatiske facit i forbind-opgaverne?',
+      answer: 'Når du genererer et arbejdsark, opretter appen samtidigt et matchende facit på en separat arbejdsområdefane. Facittet gengenerator det præcise arbejdsarkslayout og tilføjer horisontale streger (#555, stregbredde 2) tegnet mellem hvert korrekt par. Download hver version uafhængigt — fire produktionsklare filer fra én enkelt generering.',
     },
     {
       question: 'Hvordan fungerer det konfigurerbare parantal?',
@@ -214,22 +216,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/matching/Find%20Parrene%201.webp',
-      primaryAlt: 'Tegn-en-streg matchnings arbejdsark med tematiske billeder arrangeret i to kolonner med lokaliseret Find Par-overskrift, artikelnummer og dekorative punktmarkeringer',
+      primaryAlt: 'Gratis forbind-opgaver med temabilleder i to kolonner, lokaliseret Find Par-overskrift, artikelnummer og punktmarkeringer — prøv online med vandmærke',
     },
     sampleGallery: [
       {
         src: '/samples/danish/matching/Find%20Parrene%201.webp',
-        alt: 'Begyndelsesbogstav matchnings arbejdsark med billeder til venstre og deres første bogstaver til højre for foniksøvelse',
+        alt: 'Gratis forbind-opgaver med begyndelsesbogstav — billeder til venstre og bogstaver til højre for foniksøvelse',
         caption: 'Begyndelsesbogstav-tilstand — brugerne matcher billeder med deres første bogstaver med store eller små bogstaver',
       },
       {
         src: '/samples/danish/matching/Find%20Parrene%202.webp',
-        alt: 'Billede og ord matchnings arbejdsark med mærkede par på begge sider for ordforrådsforstærkningsaktiviteter',
+        alt: 'Gratis forbind-opgaver med billede og ord — mærkede par på begge sider til ordforråds parring',
         caption: 'Billede+Ord-tilstand — mærkede billedpar på begge sider til ordforråds matchning og ordgenkendelse',
       },
       {
         src: '/samples/danish/matching/Find%20Parrene%203.webp',
-        alt: 'Matchnings arbejdsark facit med horisontale forbindelseslinjer tegnet mellem korrekte par for øjeblikkelig svarverifikation',
+        alt: 'Automatisk facit til forbind-opgaver med streger mellem korrekte par til øjeblikkelig verifikation',
         caption: 'Automatisk genereret facit — forbindelseslinjer (#555) mellem korrekte par for øjeblikkelig verifikation',
       },
     ],

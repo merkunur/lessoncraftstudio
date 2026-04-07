@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'skat printbar juridisk saelge printbare',
+    primaryKeyword: 'skat og moms sælg opgaver til print Danmark',
     secondaryKeywords: [
-      'juridiske grundlag printbar forretning',
-      'skatteforpligtelser digitale produkter',
-      'virksomhedsstruktur for saelgere af printbare produkter',
-      'immaterialret printbare arbejdsark',
+      'juridiske grundlag printbar forretning Danmark',
+      'skatteforpligtelser digitale produkter sidegesjæft',
+      'virksomhedsstruktur sælgere af opgaver til print',
+      'immaterialret printbare opgaver kommerciel licens',
     ],
     lsiKeywords: [
-      'moms digitale downloads per land',
-      'enkeltmandsvirksomhed for printbar forretning',
-      'bogfoering for Etsy-saelgere',
-      'platformsvilkaar efterlevelse',
-      'graenseoverskridende skat digitale varer',
-      'fradragsberettigede udgifter printbar forretning',
+      'moms digitale downloads Danmark Etsy.dk',
+      'enkeltmandsvirksomhed printbar forretning sidegesjæft',
+      'bogføring for Etsy-sælgere opgaver til print',
+      'platformsvilkår efterlevelse printbar forretning',
+      'grænseoverskridende skat digitale varer Danmark',
+      'fradragsberettigede udgifter printbar forretning sidegesjæft',
     ],
-    titleTag: 'Saelge printbare produkter skattekrav — juridisk guide',
-    metaDescription: 'Skattekrav for at saelge printbare produkter forklaret. Virksomhedsstruktur, fradragsberettigede udgifter,. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Skat og moms ved salg af opgaver til print — juridisk guide | Danmark',
+    metaDescription: 'Skattekrav for at sælge opgaver til print forklaret. Virksomhedsstruktur, moms, fradragsberettigede udgifter. Sælg på Etsy.dk & KDP med kommerciel licens.',
   },
 
   hero: {
-    title: 'Skat og juridiske grundlag for printbar virksomhed',
-    tagline: 'Vigtig skatte- og juridisk information for saelgere af printbare produkter — virksomhedsstruktur, skatteforpligtelser for digitale varer, fradragsberettigede udgifter, immaterialret, platformsefterlevelse og naar du behoever professionel hjaelp',
-    description: 'At drive en printbar forretning indebaerer at drive en rigtig virksomhed, og rigtige virksomheder har skatteforpligtelser, juridiske krav og efterlevelsesansvar. Mange saelgere af printbare produkter starter deres butikker uden at forstaa det juridiske landskab, hvilket kan foere til ubehagelige overraskelser. Denne guide daekker de vaesentlige emner som enhver saelger af printbare produkter boer forstaa: virksomhedsstruktur, skatteforpligtelser for salg af digitale produkter, fradragsberettigede virksomhedsudgifter, grundlaeggende immaterialret, efterlevelse af platformsvilkaar, krav til bogfoering og naar du boer soege professionel raadgivning. Ethvert afsnit indeholder en tydelig ansvarsfraskrivelse: dette er uddannelsesinformation, ikke professionel raadgivning for din specifikke situation.',
+    title: 'Skat og juridiske grundlag for printbar forretning',
+    tagline: 'Vigtig skatte- og juridisk information for sælgere af opgaver til print — virksomhedsstruktur, moms, fradragsberettigede udgifter og platformsefterlevelse',
+    description: 'At drive en printbar forretning indebærer at drive en rigtig virksomhed, og rigtige virksomheder har skatteforpligtelser, juridiske krav og efterlevelsesansvar. Mange saelgere af printbare produkter starter deres butikker uden at forstaa det juridiske landskab, hvilket kan foere til ubehagelige overraskelser. Denne guide daekker de vaesentlige emner som enhver saelger af printbare produkter boer forstaa: virksomhedsstruktur, skatteforpligtelser for salg af digitale produkter, fradragsberettigede virksomhedsudgifter, grundlaeggende immaterialret, efterlevelse af platformsvilkaar, krav til bogfoering og naar du boer soege professionel raadgivning. Ethvert afsnit indeholder en tydelig ansvarsfraskrivelse: dette er uddannelsesinformation, ikke professionel raadgivning for din specifikke situation.',
   },
 
   introduction: 'Skatteperioden overrumpler mange saelgere af printbare produkter. De tilbragte aaret med at lave arbejdsark, liste produkter og generere indtaegter paa flere platforme — men satte aldrig penge til side til skat, sporede aldrig fradragsberettigede udgifter og registrerede aldrig deres virksomhed korrekt. Resultatet er stress, strafafgifter og sommetider en betydelig skatteregning der kunne have vaeret reduceret med ordentlig planlaegning.\n\nDen juridiske side af at drive en printbar forretning er ikke valgfri, og den er ikke saa kompliceret som den virker naar du foerst forstaar grundlaget. Du behoever ingen juragrad for at saelge arbejdsark paa Etsy. Men du behoever at forstaa dine skatteforpligtelser, beskytte din immaterialret, efterleve platformsvilkaar og foere bogfoering der goer selvangivelsen enkel.\n\nDenne guide er organiseret omkring de spoergsmaal saelgere af printbare produkter oftest stiller: Hvilken virksomhedsstruktur behoever jeg? Skal jeg opkraeve moms? Hvilke udgifter kan jeg fradrage? Hvordan beskytter jeg mine designs? Hvad sker der hvis jeg saelger internationalt? Naar behoever jeg en professionel?\n\nEn vigtig ansvarsfraskrivelse: denne guide giver udelukkende generel uddannelsesinformation. Den udgoer ikke juridisk raadgivning, skatteraadgivning eller professionel raadgivning af nogen art. Skattelove og juridiske krav varierer efter land, region og kommune. De aendrer sig ofte. Raadfoer dig altid med en kvalificeret skatteraadgiver eller advokat for beslutninger der paavirker din virksomhed.',

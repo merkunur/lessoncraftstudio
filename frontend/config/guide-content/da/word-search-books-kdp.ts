@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'ordsøgningsbøger KDP',
+    primaryKeyword: 'ordleg-bøger til KDP',
     secondaryKeywords: [
       'sådan generator du ordsøgningsbøger til Amazon KDP',
       'ordsøgning puslespilbog udgivelsesguide',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'ordsøgningsbog serie bind genkøb katalog',
       'voksen børn ordsøgning marked publikum gitterformatering',
     ],
-    titleTag: 'Skab ordsøgningsbøger til KDP — Guide',
-    metaDescription: 'Skab ordsøgningsbøger til KDP med tematiske ordlister, stor skrift-formater og seriestrategi. Gitterstørrelse, publikumsmålretning og Amazon-optimering.',
+    titleTag: 'Ordleg-bøger til KDP — Guide til passiv indkomst',
+    metaDescription: 'Lav ordleg-bøger til Amazon KDP med tematiske ordlister, stor skrift-formater og seriestrategi. Passiv indkomst med ordlege til print.',
   },
 
   hero: {

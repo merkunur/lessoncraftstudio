@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab arbejdsarkpakker der sælger',
+    primaryKeyword: 'lav opgavepakker til print der sælger',
     secondaryKeywords: [
-      'arbejdsarkpakke strategi',
-      'printbar pakke-skabelse',
-      'hvordan man pakker arbejdsark til salg',
-      'arbejdsarkpakke prissætning',
+      'opgavepakke strategi til Etsy.dk og Amazon KDP',
+      'printbar opgavepakke til salg passiv indkomst',
+      'sådan pakker du opgaver til print og sælger dem',
+      'prissætning af opgavepakker til printbar forretning',
     ],
     lsiKeywords: [
-      'pakketyper fag klassetrin tema sæsonbetonet format mega oplevet værdi',
-      'værdi-stabling specificeret besparelse bonusmaterialer forside indholdsfortegnelse',
-      'ankerprissætning rabatpsykologi gradueret pakkeprissætning pristest',
-      'komplementære produkter variation konsistens fyldstof-undgåelse kvalitetsstandarder',
-      'pakkepræsentation mockup forhåndsvisning branding filorganisering navngivningskonventioner',
-      'multi-platform pakkelistninger universel strategi tværplatform salg',
+      'pakketyper regneopgaver ordlege malebilleder krydsord sæsonbetonet mega oplevet værdi',
+      'værdi-stabling specificeret besparelse bonusmaterialer forside indholdsfortegnelse opgaver',
+      'ankerprissætning rabatpsykologi gradueret prissætning af printables til salg',
+      'komplementære opgaver variation konsistens kvalitetsstandarder printbar forretning',
+      'pakkepræsentation mockup forhåndsvisning branding filorganisering opgaver til print',
+      'multi-platform opgavepakker Etsy.dk Amazon KDP Gumroad tværplatform sidegesjæft',
     ],
-    titleTag: 'Skab arbejdsarkpakker der sælger — Guide',
-    metaDescription: 'Sådan generator du arbejdsarkpakker der sælger på alle platforme. Pakketyper, prissætningspsykologi, værdi-stabling og professionel præsentation til mere.',
+    titleTag: 'Lav opgavepakker der sælger — Guide til Etsy og KDP',
+    metaDescription: 'Lav opgavepakker til print der sælger på Etsy.dk og Amazon KDP. Pakketyper, prissætningspsykologi, værdi-stabling og professionel præsentation for passiv indkomst.',
   },
 
   hero: {
-    title: 'Sådan generator du arbejdsarkpakker der sælger',
-    tagline: 'En komplet guide til at skabe høj-værdi arbejdsarkpakker der øger omsætning per transaktion på alle salgsplatforme — der dækker pakketyper og strukturer, produktvalg til overbevisende kombinationer, værdi-stabling og oplevet værdi-psykologi, professionel pakkepræsentation og -indpakning, ankerprissætning og rabatstrategier, platformuafhængig listningsoptimering og ydelsessporing til løbende forbedring',
-    description: 'At pakke arbejdsark er den mest effektive måde at øge din gennemsnitlige ordreværdi uden at skabe nyt indhold. En velstruktureret pakke transformerer individuelle produkter til en værdi af $8 til $12 hver til en $35 til $65 pakke som købere opfatter som et bedre tilbud — selvom du tjener betydeligt mere per transaktion. Denne guide dækker universel pakkestrategi der fungerer på Etsy, Amazon KDP, Gumroad, Creative Fabrica og enhver anden platform hvor du sælger printbare arbejdsark.',
+    title: 'Lav opgavepakker til print der sælger på Etsy og KDP',
+    tagline: 'En komplet guide til at skabe høj-værdi opgavepakker til print der øger omsætning per transaktion på alle salgsplatforme — dækkende pakketyper og strukturer, produktvalg til overbevisende kombinationer, værdi-stabling og oplevet værdi-psykologi, professionel pakkepræsentation og -indpakning, ankerprissætning og rabatstrategier, platformuafhængig listningsoptimering og ydelsessporing til løbende forbedring',
+    description: 'At pakke opgaver til print i bundles er den mest effektive måde at øge din gennemsnitlige ordreværdi på Etsy.dk og Amazon KDP uden at skabe nyt indhold. En velstruktureret opgavepakke transformerer individuelle produkter til en pakke på $35 til $65 som købere opfatter som et bedre tilbud — og giver dig mere passiv indkomst per transaktion. Denne guide dækker universel pakkestrategi der fungerer på Etsy, Amazon KDP, Gumroad, Creative Fabrica og enhver anden platform hvor du sælger printbare arbejdsark.',
   },
 
-  introduction: 'At sælge individuelle arbejdsark sætter et hårdt loft på din omsætning per kunde. En køber besøger din butik, køber ét produkt til $10 og forlader. Selv hvis dine arbejdsark er exceptionelle, vender de fleste engangs-købere aldrig tilbage. Pakker bryder dette mønster ved at tilbyde købere mere værdi per køb mens de dramatisk øger dine indtjening per transaktion.\n\nPsykologien bag pakkekøb er veldokumenteret: købere opfatter pakkede produkter som højere værdi end summen af deres dele, særligt når pakken tilbyder en tydelig rabat over individuelt køb. En forælder der leder efter matematik-øvelsesark ser en enkelt 20-siders additions-pakke til $10 eller en komplet førsteklasse matematik-pakke med 100 sider der dækker addition, subtraktion, talsans og tekstopgaver til $32. Pakken koster mere, men per-side værdien og bekvemmeligheden ved en omfattende løsning gør det til det indlysende valg for de fleste købere.\n\nPakker løser også et kritisk forretningsproblem: kundeakvisisionsomkostninger. Uanset om du betaler for annoncering, bruger tid på SEO eller opbygger en følgerskare på sociale medier, repræsenterer hver besøgende i din butik indsats og nogle gange direkte omkostninger. En pakke konverterer den samme besøgende til en $35 køber i stedet for en $10 køber, der tredobler dit afkast på hver investeret marketingkrone og -time. Over tid sammensættes dette dramatisk — sælgere der lægger vægt på pakker rapporterer konsekvent at pakker udgør 40% til 60% af deres samlede omsætning på trods af at de repræsenterer en lille brøkdel af deres samlede listninger.\n\nDenne guide dækker platformuafhængig pakkestrategi: hvad du skal pakke, hvordan du strukturerer pakker for maksimal oplevet værdi, prissætningspsykologi der driver højere konvertering, og professionel præsentation der opbygger købertillid. Principperne fungerer identisk uanset om du sælger på Etsy, Amazon KDP, Gumroad, Creative Fabrica eller din egen hjemmeside.',
+  introduction: 'At sælge individuelle opgaver til print sætter et hårdt loft på din omsætning per kunde på Etsy.dk og Amazon KDP. En køber besøger din butik, køber ét produkt til $10 og forlader. Opgavepakker bryder dette mønster ved at tilbyde købere mere værdi per køb, og er nøglen til at skalere din printbare forretning med passiv indkomst.\n\nPsykologien bag pakkekøb er veldokumenteret: købere opfatter pakkede produkter som højere værdi end summen af deres dele, særligt når pakken tilbyder en tydelig rabat over individuelt køb. En forælder der leder efter matematik-øvelsesark ser en enkelt 20-siders additions-pakke til $10 eller en komplet førsteklasse matematik-pakke med 100 sider der dækker addition, subtraktion, talsans og tekstopgaver til $32. Pakken koster mere, men per-side værdien og bekvemmeligheden ved en omfattende løsning gør det til det indlysende valg for de fleste købere.\n\nPakker løser også et kritisk forretningsproblem: kundeakvisisionsomkostninger. Uanset om du betaler for annoncering, bruger tid på SEO eller opbygger en følgerskare på sociale medier, repræsenterer hver besøgende i din butik indsats og nogle gange direkte omkostninger. En pakke konverterer den samme besøgende til en $35 køber i stedet for en $10 køber, der tredobler dit afkast på hver investeret marketingkrone og -time. Over tid sammensættes dette dramatisk — sælgere der lægger vægt på pakker rapporterer konsekvent at pakker udgør 40% til 60% af deres samlede omsætning på trods af at de repræsenterer en lille brøkdel af deres samlede listninger.\n\nDenne guide dækker platformuafhængig pakkestrategi: hvad du skal pakke, hvordan du strukturerer pakker for maksimal oplevet værdi, prissætningspsykologi der driver højere konvertering, og professionel præsentation der opbygger købertillid. Principperne fungerer identisk uanset om du sælger på Etsy, Amazon KDP, Gumroad, Creative Fabrica eller din egen hjemmeside.',
 
   tutorial: [
     {

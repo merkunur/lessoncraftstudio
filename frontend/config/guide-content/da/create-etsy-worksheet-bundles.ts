@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy arbejdsark-pakker',
+    primaryKeyword: 'lav opgavepakker til Etsy.dk',
     secondaryKeywords: [
-      'sådan generator du Etsy arbejdsark-pakker',
-      'Etsy printable pakke listningsstrategi',
-      'sælg arbejdsark-pakker på Etsy',
-      'Etsy digital download pakkeoprettelse',
+      'opgavepakker til Etsy.dk sælgerguide',
+      'Etsy.dk printbar pakke listningsstrategi',
+      'sælg opgavepakker på Etsy.dk som sidegesjæft',
+      'Etsy.dk digital download pakkeoprettelse',
     ],
     lsiKeywords: [
-      'Etsy pakkelistning optimering filorganisering strategi',
-      'arbejdsark pakke prissætning anker rabat værdi-stabling',
-      'Etsy pakke forhåndsvisningsbilleder miniaturebillede mockup layout',
-      'emne klassetrin tema sæsonbetonet pakketyper pædagogiske printables',
-      'Etsy digital levering flere filer pakkestruktur',
-      'pakke vs individuel listning kannibalisering Etsy butiksstrategi',
+      'Etsy.dk pakkelistning optimering filorganisering',
+      'opgavepakke prissætning ankerrabat værdi-stabling',
+      'Etsy.dk pakke forhåndsvisningsbilleder mockup layout',
+      'emne klassetrin tema sæsonbetonede pakketyper printbare opgaver',
+      'Etsy.dk digital levering flere filer pakkestruktur',
+      'pakke vs individuel listning Etsy.dk butiksstrategi',
     ],
-    titleTag: 'Skab Etsy arbejdsark-pakker — Guide',
-    metaDescription: 'Skab Etsy arbejdsark-pakker der øger gennemsnitlig ordreværdi. Pakketyper, filorganisering, forhåndsvisningsbilleder, listningsoptimering og prisstrategi.',
+    titleTag: 'Lav opgavepakker til Etsy.dk — Komplet sælgerguide',
+    metaDescription: 'Lav opgavepakker til Etsy.dk der øger gennemsnitlig ordreværdi. Pakketyper, filorganisering, forhåndsvisningsbilleder, listningsoptimering og prisstrategi.',
   },
 
   hero: {
-    title: 'Sådan generator du Etsy arbejdsark-pakker',
-    tagline: 'En komplet guide til at skabe, strukturere, liste og optimere arbejdsark-pakker til Etsy — dækkende pakketypevalg på tværs af emne, klassetrin, tema, sæson og formatkategorier, produktvalg for maksimal oplevet værdi, filorganisering inden for Etsys leveringsgrænser, pakkespecifikke forhåndsvisningsbilleder og miniaturebilleddesign, listningstitler og tags optimeret til pakkesøgetermer, værdi-stablings-prisstrategier med ankerrabatter, og præstationssporing til at identificere dine højest præsterende pakkekombinationer',
-    description: 'Arbejdsark-pakker er blandt de højest omsætningsgivende listninger på Etsy for pædagogiske printable-sælgere. Denne guide fører dig gennem det komplette pakkeskabelses-workflow — fra at vælge hvilke produkter der skal kombineres til at skrive listninger der kommunikerer pakkeværdi til at spore præstation over tid.',
+    title: 'Lav opgavepakker til Etsy.dk — sælgerguide',
+    tagline: 'En komplet guide til at lave, strukturere, liste og optimere opgavepakker til Etsy.dk — dækkende pakketypevalg på tværs af emne, klassetrin, tema, sæson og formatkategorier, produktvalg for maksimal oplevet værdi, filorganisering inden for Etsys leveringsgrænser, pakkespecifikke forhåndsvisningsbilleder og miniaturebilleddesign, listningstitler og tags optimeret til pakkesøgetermer, værdi-stablings-prisstrategier med ankerrabatter, og præstationssporing til at identificere dine højest præsterende pakkekombinationer',
+    description: 'Opgavepakker er blandt de højest omsætningsgivende listninger på Etsy.dk for sælgere af printbare opgaver. Denne guide fører dig gennem det komplette pakkeskabelses-workflow — fra at vælge hvilke produkter der skal kombineres til at skrive listninger der kommunikerer pakkeværdi til at spore præstation over tid.',
   },
 
-  introduction: 'Pakker er en af de mest effektive strategier til at øge omsætningen fra en Etsy printable-butik. En velkonstrueret arbejdsark-pakke tilbyder købere mere værdi per køb mens den giver dig en højere gennemsnitlig ordreværdi end individuelle listninger alene. Økonomien er ligetil: hvis et enkelt arbejdsark sælger for $3 og en pakke med otte relaterede arbejdsark sælger for $12, tjener du fire gange omsætningen per transaktion med minimal ekstra produktionsomkostning.\n\nUd over den direkte omsætningsfordel konkurrerer pakker anderledes i Etsy-søgning. Købere der søger efter "math worksheet bundle kindergarten" har stærkere købshensigt end dem der søger efter individuelle arbejdsark — de har allerede besluttet at de vil have flere produkter og leder efter den bedste samling. Pakke-nøgleord møder også mindre konkurrence end individuelle produkt-nøgleord i mange pædagogiske printable-kategorier.\n\nPakker reducerer også den beslutningstræthed der får købere til at forlade uden at købe. I stedet for at vælge mellem seks individuelle listninger kan en køber købe én pakke der inkluderer alt de har brug for. For sælgere der køber gruppematerialer eller forældre der samler hjemmeundervisningsressourcer løser pakker problemet "hvilke skal jeg vælge?"\n\nUdfordringen er at skabelse af effektive pakker kræver bevidst planlægning. Tilfældige samlinger af arbejdsark pakket sammen underpræsterer sammenlignet med gennemtænkt kuraterede pakker med klare temaer, konsekvent kvalitet og professionel præsentation. Denne guide dækker hvert aspekt af pakkeskabelsesprocessen: valg af den rigtige pakketype til dit katalog, valg af hvilke produkter der skal inkluderes, organisering af filer til professionel levering, skabelse af forhåndsvisningsbilleder der kommunikerer værdi, skrivning af pakkespecifikke listninger optimeret til Etsy-søgning, prissætning for maksimal omsætning, og sporing af præstation for at forfine din strategi over tid. Hver generator nævnt i denne guide er tilgængelig som gratis prøveversion med vandmærke, så du kan skabe prøvepakkeindhold og teste din tilgang før køb af licens.',
+  introduction: 'Opgavepakker er en af de mest effektive strategier til at øge omsætningen fra en Etsy.dk butik med printbare produkter. En velkonstrueret opgavepakke tilbyder købere mere værdi per køb mens den giver dig en højere gennemsnitlig ordreværdi end individuelle listninger alene. Økonomien er ligetil: hvis et enkelt arbejdsark sælger for $3 og en pakke med otte relaterede arbejdsark sælger for $12, tjener du fire gange omsætningen per transaktion med minimal ekstra produktionsomkostning.\n\nUd over den direkte omsætningsfordel konkurrerer pakker anderledes i Etsy-søgning. Købere der søger efter "math worksheet bundle kindergarten" har stærkere købshensigt end dem der søger efter individuelle arbejdsark — de har allerede besluttet at de vil have flere produkter og leder efter den bedste samling. Pakke-nøgleord møder også mindre konkurrence end individuelle produkt-nøgleord i mange pædagogiske printable-kategorier.\n\nPakker reducerer også den beslutningstræthed der får købere til at forlade uden at købe. I stedet for at vælge mellem seks individuelle listninger kan en køber købe én pakke der inkluderer alt de har brug for. For sælgere der køber gruppematerialer eller forældre der samler hjemmeundervisningsressourcer løser pakker problemet "hvilke skal jeg vælge?"\n\nUdfordringen er at skabelse af effektive pakker kræver bevidst planlægning. Tilfældige samlinger af arbejdsark pakket sammen underpræsterer sammenlignet med gennemtænkt kuraterede pakker med klare temaer, konsekvent kvalitet og professionel præsentation. Denne guide dækker hvert aspekt af pakkeskabelsesprocessen: valg af den rigtige pakketype til dit katalog, valg af hvilke produkter der skal inkluderes, organisering af filer til professionel levering, skabelse af forhåndsvisningsbilleder der kommunikerer værdi, skrivning af pakkespecifikke listninger optimeret til Etsy-søgning, prissætning for maksimal omsætning, og sporing af præstation for at forfine din strategi over tid. Hver generator nævnt i denne guide er tilgængelig som gratis prøveversion med vandmærke, så du kan skabe prøvepakkeindhold og teste din tilgang før køb af licens.',
 
   tutorial: [
     {

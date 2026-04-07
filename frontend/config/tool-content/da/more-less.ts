@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'større end mindre end arbejdsark',
+    primaryKeyword: 'større end mindre end generator gratis online',
     secondaryKeywords: [
-      'større end mindre end arbejdsark generator for sælgere',
-      'opret sammenligningsarbejdsark til salg',
-      'printbare talsammenligning arbejdsark kommercielt brug',
-      'mere eller mindre matematik arbejdsark generator til KDP',
+      'sammenligne tal gratis',
+      'flere færre prøv gratis',
+      'sammenligne mængder gratis',
     ],
     lsiKeywords: [
-      'visuelle sammenligning printbare til Etsy',
-      'kvantitetssammenligning arbejdsark værktøj',
-      'tjek og kryds matematik aktivitet generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'større end',
+      'mindre end',
+      'sammenligne',
     ],
-    titleTag: 'Større End Mindre End Arbejdsark | Sælg Online',
-    metaDescription: 'Opret visuelle større end, mindre end og lig med arbejdsark med billeder på sekunder. Tre tilstande inkl. unikt Tjek og Kryds. Sælg på Etsy, KDP og Gumroad.',
+    titleTag: 'Gratis større end mindre end generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv sammenlignings-generatoren gratis online. Tal, mængder, temabilleder, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Større End Mindre End Arbejdsark Generator',
-    tagline: 'Opret visuelle sammenligningsarbejdsark med tre øvelsestilstande på under 60 sekunder',
-    description: 'Undervis i større end, mindre end og lig med gennem billedbaserede sammenligningsarbejdsark, der gør abstrakte begreber konkrete. Dette værktøj genererer tre distinkte øvelsestyper: Billede mod Billede (sammenlign to billedgrupper side om side), Billede mod Tal (brobygning mellem visuel tælling og skrevne tal), og den unikke Tjek og Kryds Grupper-tilstand, hvor brugerne sorterer en blandet kasse med omflyttede billeder i majoritets- og minoritetskategorier. Vælg blandt mere end 100 billedtemaer, indstil dit talinterval, vælg mellem illustrerede eller almindelige sammenligningssymboler og download trykklare PDF\'er eller højopløste JPEG-billeder. Fordi arbejdsarkene kun bruger billeder, tal og symboler, fungerer de identisk på alle 11 understøttede sprog — opret én gang og sælg til købere verden over. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis større end mindre end generator — prøv online med vandmærke',
+    tagline: 'Prøv sammenlignings-generatoren gratis online — tre øvelsestilstande, temabilleder og automatisk facit. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv sammenlignings-generatoren gratis online — lav visuelle større end, mindre end og lig med opgaver med billedbaserede sammenligninger, der gør abstrakte begreber konkrete. Dette værktøj genererer tre distinkte øvelsestyper: Billede mod Billede (sammenlign to billedgrupper side om side), Billede mod Tal (brobygning mellem visuel tælling og skrevne tal), og den unikke Tjek og Kryds Grupper-tilstand, hvor brugerne sorterer en blandet kasse med omflyttede billeder i majoritets- og minoritetskategorier. Vælg blandt mere end 100 billedtemaer, indstil dit talinterval, vælg mellem illustrerede eller almindelige sammenligningssymboler og download trykklare PDF\'er eller højopløste JPEG-billeder. Fordi arbejdsarkene kun bruger billeder, tal og symboler, fungerer de identisk på alle 11 understøttede sprog — opret én gang og sælg til købere verden over. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Opretter du Sammenligningsarbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du sammenlignings-opgaver i 8 enkle trin',
     steps: [
       {
         title: 'Åbn arbejdsark-generatoren',
@@ -154,16 +156,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort krævet. Du kan oprette, forhåndsvise og downloade så mange arbejdsark, du vil. Downloads fra den gratis prøveversion indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Kan jeg prøve sammenlignings-generatoren gratis online?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — alle funktioner tilgængelige. Du kan oprette, forhåndsvise og downloade så mange opgaver, du vil. Gratis downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
     },
     {
-      question: 'Hvad er de tre øvelsestilstande?',
-      answer: 'Generatoren understøtter tre tilstande: Billede mod Billede (to billedgrupper side om side — brugerne tæller og sammenligner mængder), Billede mod Tal (en billedgruppe parret med et tal — brobygger visuel og abstrakt talgenkendelse), og Tjek og Kryds Grupper (en kasse med 8–20 blandede billeder fra to kategorier blandet sammen — brugerne sætter flueben ved majoritetsgruppen og krydser minoritetsgruppen).',
+      question: 'Hvad er de tre tilstande til at sammenligne tal og mængder?',
+      answer: 'Generatoren understøtter tre tilstande: Billede mod Billede (to billedgrupper side om side — brugerne tæller og sammenligner mængder), Billede mod Tal (en billedgruppe parret med et tal — brobygger visuel og abstrakt talgenkendelse), og Tjek og Kryds Grupper (en kasse med 8–20 blandede billeder fra to kategorier — brugerne sætter flueben ved gruppen med flere og krydser gruppen med færre).',
     },
     {
       question: 'Hvordan fungerer Tjek og Kryds Grupper-tilstanden?',
-      answer: 'I Tjek og Kryds-tilstanden viser arbejdsarket en enkelt kasse fyldt med 8–20 billeder fra to forskellige kategorier (for eksempel katte og hunde) blandet tilfældigt. Brugeren tæller hver kategori, tegner et flueben ved siden af gruppen med flere objekter og tegner et kryds ved siden af gruppen med færre objekter. Dette udvikler sorterings-, tælle- og sammenligningsfærdigheder samtidig.',
+      answer: 'I Tjek og Kryds-tilstanden viser opgaven en enkelt kasse fyldt med 8–20 billeder fra to forskellige kategorier (for eksempel katte og hunde) blandet tilfældigt. Brugeren tæller hver kategori, tegner et flueben ved siden af gruppen med flere objekter og tegner et kryds ved siden af gruppen med færre objekter. Dette udvikler sorterings-, tælle- og sammenligningsfærdigheder samtidig.',
     },
     {
       question: 'Hvad er forskellen mellem Illustrationer og Almindelige Symboler?',
@@ -209,7 +211,7 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/more%20less/Mere%20Mindre%201.webp',
-      primaryAlt: 'Mere eller mindre arbejdsark med billedsammenligningsgrupper, der viser større end og mindre end øvelser',
+      primaryAlt: 'Gratis større end mindre end generator med billedsammenligningsgrupper — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {

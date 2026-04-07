@@ -2,31 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'matchnings arbejdsark generator',
+    primaryKeyword: 'forbind-opgaver til print',
     secondaryKeywords: [
-      'printbar matchningsaktivitet generator til Etsy-sælgere',
-      'træk-en-streg matchnings arbejdsark generator til KDP',
-      'billedmatchnings arbejdsark generator kommerciel licens',
-      'sælg matchnings arbejdsark på Gumroad',
+      'sæt sammen opgave',
+      'parring opgaveark',
+      'forbind med streger opgave',
+      'forbinde billeder børnehaveklasse',
     ],
     lsiKeywords: [
-      'digitale matchnings printbare produkter online forretning',
-      'kommercielt brug matchnings arbejdsark generator',
-      'printbar matchningsaktivitet forretningsværktøj',
+      'parring',
+      'forbinde',
+      'streger',
+      'børnehaveklasse',
+      'indskoling',
+      'facit',
     ],
-    titleTag: 'Matchnings Arbejdsark Generator | Opret og Sælg',
-    metaDescription: 'Opret matchnings arbejdsark til salg på Etsy, KDP og Gumroad. 4 matchningstilstande, automatisk facit, 104 temaer, konfigurerbare par. $49 engangsbetaling.',
+    titleTag: 'Forbind-opgaver til print | Generator parringsleg',
+    metaDescription: 'Lav forbind-opgaver med temabilleder til børnehaveklasse og indskoling. Automatisk facit, 300 DPI PDF. Prøv gratis.',
   },
 
   hero: {
-    title: 'Matchnings Arbejdsark Generator til Træk-en-Streg Matchningsaktiviteter',
-    tagline: 'Fire matchningstilstande i én generator — Begyndelsesbogstav, Billede+Ord, Billede/Ord Blandet og Tilpasset Ord — med automatisk genererede facit, konfigurerbare parantal og en lokaliseret \"Find Parrene!\"-overskrift over 104 tematiske billedsamlinger.',
+    title: 'Forbind-opgaver til print — Generator til parringsleg og forbindelsesøvelser',
+    tagline: 'Fire parringstilstande i én generator — Begyndelsesbogstav, Billede+Ord, Billede/Ord Blandet og Tilpasset Ord — med automatisk facit, konfigurerbart antal par og lokaliseret \"Find Parrene!\"-overskrift over 104 tematiske billedsamlinger.',
     description:
-      'Byg professionelle træk-en-streg matchnings arbejdsark, hvor brugerne kobler par sammen ved at tegne linjer mellem to kolonner. Vælg mellem fire distinkte matchningstilstande: Billede ↔ Begyndelsesbogstav matcher billeder med deres første bogstav, Billede+Ord ↔ Billede+Ord parrer mærkede billeder på begge sider, Billede/Ord ↔ Billede/Ord blander billeder og ord per række med dropdown-kontroller, og Billede ↔ Tilpasset Ord lader dig skrive dine egne matchningstermer. Konfigurer 4, 5 eller 6 par per arbejdsark og slå artikelnumre og dekorative punktmarkeringer til for ren formatering. Hvert arbejdsark inkluderer en automatisk genereret lokaliseret \"Find Parrene!\"-overskrift med titel og instruktioner renderet på alle 11 understøttede sprog. Dobbeltlærredssystemet genererer både en arbejdsarkfane og en facitfane — facit tegner forbindelseslinjer mellem korrekte matchninger, så du aldrig behøver oprette det manuelt. Matchnings Arbejdsark Generatoren er sprogfølsom: Begyndelsesbogstav- og Billede+Ord-tilstande bruger lokaliserede billednavne, så at skifte sprog ændrer ordene og de første bogstaver på arbejdsarket. Det betyder, at det samme billedtema kan generere unikke arbejdsark på 11 forskellige sprog — hver sprogversion har forskellige ord, forskellige begyndelsesbogstaver og en tilpasset overskrift, hvilket gør hver version til et separat produkt. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog til lokaliseret ordindhold. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, inkluder navn- og datofelter, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Uanset om du sælger matchningsaktivitets-pakker på Etsy.dk, sammensætter tidlige læse- og skrivearbejdsbøger til Amazon KDP eller opretter matchningsstationsaktiviteter til Gumroad — denne generator leverer produktionsklare arbejdsark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle forbind-opgaver til print, hvor børn parrer billeder ved at tegne streger mellem to kolonner. Det danske marked for printbare opgaveark (5,8 mio. dansktalende, Etsy.dk, lav konkurrence) giver en unik mulighed for sælgere, der vil sælge parringsøvelser til børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse). Vælg mellem fire parringstilstande: Billede ↔ Begyndelsesbogstav forbinder billeder med deres første bogstav, Billede+Ord ↔ Billede+Ord parrer mærkede billeder på begge sider, Billede/Ord Blandet blander billeder og ord per række, og Tilpasset Ord lader dig skrive dine egne forbindelsestermer. Konfigurer 4, 5 eller 6 par per opgaveark og slå artikelnumre samt dekorative punktmarkeringer til for ren formatering. Hvert opgaveark inkluderer en automatisk genereret lokaliseret \"Find Parrene!\"-overskrift med titel og instruktioner på alle 11 understøttede sprog. Dobbeltlærredssystemet genererer både et opgaveark og en facitliste — facit tegner forbindelseslinjer mellem korrekte par, så du aldrig behøver oprette det manuelt. Generatoren er sprogfølsom: Begyndelsesbogstav- og Billede+Ord-tilstande bruger lokaliserede billednavne, så at skifte sprog ændrer ordene og de første bogstaver på opgavearket. Det betyder, at det samme billedtema kan generere unikke forbind-opgaver på 11 forskellige sprog — hver sprogversion har forskellige ord, forskellige begyndelsesbogstaver og en tilpasset overskrift, hvilket gør hver version til et separat produkt. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog til lokaliseret ordindhold. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, inkluder navn- og datofelter, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Uanset om du sælger parringsøvelse-pakker på Etsy.dk, sammensætter forbindelsesopgave-bøger til Amazon KDP eller opretter parringsstationsaktiviteter til Gumroad — denne generator leverer produktionsklare opgaveark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Matchnings Arbejdsark i 5 Trin',
+    title: 'Sådan laver du forbind-opgaver i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +60,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Matchnings Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i forbind-opgave generatoren',
     features: [
       {
         title: 'Fire matchningstilstande: Begyndelsesbogstav, Billede+Ord, Billede/Ord Blandet og Tilpasset Ord',
@@ -103,7 +106,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Matchnings Arbejdsark Online',
+    title: 'Sådan sælger du forbind-opgaver online',
     cases: [
       {
         title: 'Tematiske matchnings arbejdsarkspakker på Etsy.dk',
@@ -140,64 +143,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvad er de fire matchningstilstande, og hvordan adskiller de sig?',
+      question: 'Kan jeg sælge disse forbind-opgaver på Etsy?',
       answer:
-        'Generatoren tilbyder fire distinkte tilstande. Begyndelsesbogstav-tilstanden placerer billeder til venstre og deres første bogstaver til højre — brugerne matcher hvert billede med bogstavet, det begynder med. Billede+Ord-tilstanden viser mærkede billedpar på begge sider til ordforrådsmatchning. Billede/Ord Blandet-tilstanden bruger dropdown-vælgere per række, så hver side kan vise et billede eller et ord uafhængigt, hvilket generator varieret sværhedsgrad inden for et enkelt arbejdsark. Tilpasset Ord-tilstanden parrer billeder med dine egne indtastede ord til stavning, ordforråd eller sprogøvelser. Hver tilstand producerer en anderledes læringsaktivitet fra det samme billedbibliotek.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine forbind-opgaver som digitale downloads på Etsy.dk, som trykte parrings-bøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. De fire parringstilstande, automatisk facit og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare forbind-opgaveprodukter.',
     },
     {
-      question: 'Hvordan fungerer det konfigurerbare parantal?',
+      question: 'Hvordan laver jeg forbind-opgaver?',
       answer:
-        'I panelet Arbejdsarkskonfiguration vælger du 4, 5 eller 6 fra dropdownmenuen for maksimalt antal par. Standard er 6 par. Færre par opretter arbejdsark med større billeder og mere afstand — ideelt til yngre brugere eller arbejdsark med længere ord. Flere par øger sværhedsgrad og indholdstæthed. Parantallet gælder konsekvent på tværs af alle fire matchningstilstande.',
+        'Åbn generatoren, vælg en parringstilstand (Begyndelsesbogstav, Billede+Ord, Billede/Ord Blandet eller Tilpasset Ord), vælg billeder fra de 104 temaer og konfigurer 4, 5 eller 6 par per opgaveark. Klik Generer for at oprette opgavearket med automatisk facit. Eksporter som 300 DPI PDF eller JPEG — færdigt til print eller digitalt salg.',
     },
     {
-      question: 'Hvordan fungerer det automatisk genererede facit?',
+      question: 'Er de egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser den tocolonne-layout uden forbindelseslinjer — brugerne tegner deres egne linjer for at matche par. Facit gengenerator den identiske layout og tilføjer horisontale forbindelseslinjer (#555 farve, stregbredde 2) mellem hvert korrekt par. Begge versioner eksporteres separat med fire dedikerede downloadknapper: worksheet.jpeg, worksheet.pdf, answer_key.jpeg og answer_key.pdf.',
+        'Ja. Forbind-opgaverne fungerer for alle aldersgrupper. Til børnehaveklasse: vælg 4 par med store billeder for nem parring. Til indskoling (0.–3. klasse): brug Begyndelsesbogstav-tilstanden med 5–6 par til bogstavgenkendelse. Til mellemtrin (4.–6. klasse): brug Tilpasset Ord- eller Billede+Ord-tilstanden med 6 par for ordforråd og staveøvelser. Parantallet og tilstandsvalget giver fleksibel sværhedsgrad.',
     },
     {
-      question: 'Hvad er Begyndelsesbogstav-undertilstandene?',
+      question: 'På hvor mange sprog fungerer forbind-opgaverne?',
       answer:
-        'Begyndelsesbogstav-tilstanden tilbyder tre undertilstande til billedvalg. \"Tilfældigt Tema og Billeder\" vælger et tilfældigt tema og 6 tilfældige billeder derfra. \"Tilfældigt fra Valgt Tema\" lader dig vælge et specifikt tema og vælger derefter tilfældige billeder fra det tema. \"Vælg Specifikke Billeder\" åbner Billedbiblioteket, så du kan manuelt vælge præcis 6 billeder. Du kan også vælge mellem store og små bogstaver med bogstavstypeknapperne.',
+        'Generatoren understøtter 11 sprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Begyndelsesbogstav- og Billede+Ord-tilstande bruger lokaliserede billednavne, så at skifte sprog ændrer ordene og de første bogstaver. Et kattebillede viser \"K\" på dansk, \"C\" på engelsk og \"K\" på tysk. Hver sprogversion er et separat produkt.',
     },
     {
-      question: 'Hvad er panelet Artikelkonfiguration?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Panelet Artikelkonfiguration vises for Billede+Ord, Billede/Ord Blandet og Tilpasset Ord-tilstande. Det tilbyder dynamiske kontroller per række til at konfigurere hvert matchningspar. I Billede/Ord Blandet-tilstanden lader dropdown-vælgere dig vælge, om hver side af hver række viser et billede eller et ord. I Tilpasset Ord-tilstanden lader tekstfelter dig skrive matchningsordet for hvert billede. Panelet giver dig finkornig kontrol over hvert enkelt par i arbejdsarket.',
+        'Ja. Dobbeltlærredssystemet genererer automatisk en facitliste med horisontale forbindelseslinjer mellem hvert korrekt par. Du behøver aldrig oprette facit manuelt. Download begge versioner med fire dedikerede knapper: Opgaveark-JPEG, Facit-JPEG, Opgaveark-PDF og Facit-PDF — alle med 300 DPI.',
     },
     {
-      question: 'Hvordan fungerer artikelnumre og punktmarkeringer?',
+      question: 'Hvad er de fire parringstilstande?',
       answer:
-        'To omskiftere i panelet Arbejdsarkskonfiguration kontrollerer formateringen. \"Inkluder artikelnumre\" (standard TIL) tilføjer numre før hvert par — nyttigt til facitkontrol og produktlinjesdiskussion. \"Vis punktmarkeringer\" (standard TIL) tilføjer dekorative punkter ved siden af artiklerne for visuel tydelighed. Begge muligheder er uafhængige: du kan have kun numre, kun punkter, begge, eller ingen af dem afhængigt af din arbejdsarkstil og målgruppe.',
-    },
-    {
-      question: 'Hvordan fungerer den lokaliserede overskrift?',
-      answer:
-        'Hvert genereret arbejdsark inkluderer en stiliseret \"Find Parrene!\"-overskrift med gul pillebaggrund (#FFD700), hvid indre pille og koralramkant (#FF7F50, 8px streg). Titlen og beskrivelsesteksten oversættes automatisk til det valgte sprog — alle 11 sprog understøttes: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Titlen bruger skrifttypen Fredoka (vægt 700) og beskrivelsen bruger Quicksand (vægt 500).',
-    },
-    {
-      question: 'Er Matchnings Arbejdsark Generatoren sprogfølsom?',
-      answer:
-        'Ja. Begyndelsesbogstav- og Billede+Ord-tilstande bruger lokaliserede billednavne fra Billedbiblioteket, så at skifte sprog ændrer ordene og de første bogstaver, der vises på arbejdsarket. For eksempel viser et kattebillede \"K\" på dansk i Begyndelsesbogstav-tilstanden, \"C\" på engelsk (Cat) og \"K\" på tysk (Katze). Den lokaliserede \"Find Parrene!\"-overskrift ændres også med det valgte sprog. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer og alle 11 sprog til lokaliseret ordindhold.',
+        'Begyndelsesbogstav-tilstanden forbinder billeder med deres første bogstav. Billede+Ord-tilstanden parrer mærkede billeder på begge sider til ordforrådsøvelse. Billede/Ord Blandet blander billeder og ord per række med dropdown-kontroller. Tilpasset Ord-tilstanden parrer billeder med dine egne indtastede ord til staveøvelse eller sprogøvelser. Hver tilstand skaber en anderledes parringsudfordring fra det samme billedbibliotek.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — alle fire matchningstilstande, konfigurerbare parantal, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter, artikelnumre, punktmarkeringer og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Kan jeg tilføje baggrundstemaer og rammetemaer på matchnings arbejdsark?',
-      answer:
-        'Ja. Panelet Sideopsætning inkluderer både en baggrundstema-vælger med en opacitetsskyder (0–1 i 0,05-trin) og en rammetema-vælger med sin egen uafhængige opacitetsskyder. Baggrundstemaer tilføjer dekorative mønstre bag matchningsindholdet, mens rammetemaer rammer siden ind. Begge har separate opacitetskontroller, så du kan oprette subtile baggrunde med fremtrædende rammer, eller enhver kombination, der passer din design.',
-    },
-    {
-      question: 'Kan jeg sælge matchnings arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine matchnings arbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. De fire matchningstilstande, automatisk genererede facit og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare matchningsaktivitetsprodukter.',
+        'Ja. Du kan bruge alle funktioner — alle fire parringstilstande, konfigurerbare parantal, automatisk facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste alle fire matchningstilstande, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter, artikelnumre, punktmarkeringer og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste alle fire parringstilstande, det automatiske facit, hele billedbiblioteket og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
     },
   ],
 
@@ -257,27 +240,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/matching/Find%20Parrene%201.webp',
-      primaryAlt: 'Træk-en-streg matchnings arbejdsark med tematiske billeder arrangeret i to kolonner med lokaliseret Find Parrene-overskrift og artikelnumre',
+      primaryAlt: 'Forbind-opgave til print med temabilleder i to kolonner og lokaliseret Find Parrene-overskrift til parringsleg',
     },
     sampleGallery: [
       {
         src: '/samples/danish/matching/Find%20Parrene%201.webp',
-        alt: 'Begyndelsesbogstav matchnings arbejdsark med billeder til venstre og første bogstaver til højre',
-        caption: 'Begyndelsesbogstav-tilstand — brugerne matcher billeder med deres første bogstaver',
+        alt: 'Forbind-opgave med begyndelsesbogstav — billeder til venstre og bogstaver til højre til børnehaveklasse',
+        caption: 'Begyndelsesbogstav-tilstand — børnene forbinder billeder med streger til det rigtige bogstav',
       },
       {
         src: '/samples/danish/matching/Find%20Parrene%202.webp',
-        alt: 'Billede og ord matchnings arbejdsark med mærkede par på begge sider',
-        caption: 'Billede+Ord-tilstand — mærkede billedpar til ordforrådsmatchning',
+        alt: 'Parring opgaveark med billede og ord — mærkede par på begge sider til indskoling',
+        caption: 'Billede+Ord-tilstand — mærkede billedpar til ordforrådsparring',
       },
       {
         src: '/samples/danish/matching/Find%20Parrene%203.webp',
-        alt: 'Matchnings arbejdsark facit med forbindelseslinjer tegnet mellem korrekte par',
-        caption: 'Automatisk genereret facit — forbindelseslinjer viser korrekte matchninger',
+        alt: 'Facitliste til forbind-opgave med streger tegnet mellem korrekte par',
+        caption: 'Automatisk facit — forbindelseslinjer viser korrekte parringsresultater',
       },
     ],
     youtubeId: 'y3ghkjt_67s',
-    videoTitle: 'Sådan Opretter du Matchnings Arbejdsark med 4 Tilstande og Automatiske Facit — Trin-for-Trin Guide',
+    videoTitle: 'Sådan laver du forbind-opgaver med 4 parringstilstande og automatisk facit — trin-for-trin guide',
   },
 };
 

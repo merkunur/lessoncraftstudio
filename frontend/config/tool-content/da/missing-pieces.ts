@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'puslespilarbejdsark manglende brikker',
+    primaryKeyword: 'manglende brikker generator gratis online',
     secondaryKeywords: [
-      'puslespilarbejdsark generator for sælgere',
-      'lav manglende brikker puslespil til salg',
-      'printbar puslespilgenerator kommerciel brug',
-      'manglende brikker puslespil generator til KDP og Etsy',
+      'puslespil brikker gratis til print',
+      'visuel logik prøv gratis',
+      'manglende brikker prøv gratis',
     ],
     lsiKeywords: [
-      'smart brikekstraktion farvevarians puslespil generator',
-      'seks former manglende brikker arbejdsark generator med facit',
-      'distraktor-brikker puslespilarbejdsark generator værktøj',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'puslespil',
+      'brikker',
+      'logik',
     ],
-    titleTag: 'Manglende Brikker Generator — Puslespilarbejdsark Generator',
-    metaDescription: 'Lav puslespilarbejdsark med 6 brikformer, konfigurerbar sværhed, smart ekstraktion med distraktor-brikker, 104. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis manglende brikker generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv manglende brikker-generatoren gratis online. Temabilleder, automatisk facit, printklare PDF. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Manglende Brikker Generator',
-    tagline: 'Puslespilarbejdsark generator med 6 brikformer (firkant, cirkel, rektangel stående/liggende, ellipse stående/liggende), 1–5 manglende brikker med 2–6 løsningsalternativer inklusive distraktorer, smart brikekstraktion med farvevariansdetektering og 250px minimumafstand, automatisk genererede facit med gulmarkerede nummertiketter, dobbelt rammesystem i blågrøn og hot pink, og 104 tematiske billedsamlinger',
-    description: 'Lav professionelle puslespilarbejdsark, hvor et billede har huller klippet ud, og brugerne identificerer, hvilket nummereret alternativ der fylder hvert hul. Den smarte brikekstraktions-algoritme tester op til 150 placeringsforsøg for at finde brikker med tilstrækkelig farvevarians (mindste lysstyrke-varians 15) med mindst 250 pixels afstand mellem brikker. Brikstørrelse beregnes som 12% af billedets bredde med minimum 50 pixels. Vælg blandt 6 brikformer: firkant (standard) og cirkel for rene geometriske klip, rektangel stående/liggende for aflange huller, ellipse stående/liggende for blødere kurvede klip. Konfigurér sværheden med to uafhængige kontroller: 1–5 manglende brikker og 2–6 løsningsalternativer. Distraktor-brikker ekstraheres fra ikke-overlappende områder. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet viser gulmarkerede nummertiketter (rgba(255,255,0,0.7)) inde i hvert hul. En automatisk genereret overskrift gengiver \"Manglende brikker\" i turkis (#06B6D4) med rosafarvet beskrivelse (#DB2777) og dobbelt rammesystem — blågrøn ydre (#14B8A6, 8px) og hot pink indre (#EC4899, 3px). Manglende Brikker er IKKE sprogfølsomt — rent visuelt, universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis manglende brikker generator — prøv online med vandmærke',
+    tagline: 'Prøv manglende brikker-generatoren gratis online — puslespil med visuel logik, 6 brikformer, automatisk facit og 104 temabilledsamlinger. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv manglende brikker-generatoren gratis online og lav professionelle puslespil, hvor et billede har huller klippet ud, og brugerne identificerer, hvilken brik der fylder hvert hul. Alle funktioner er tilgængelige i den gratis prøveversion — downloads indeholder et vandmærke, som fjernes med en licens. Den smarte brikekstraktions-algoritme tester op til 150 placeringsforsøg for at finde brikker med tilstrækkelig farvevarians (mindste lysstyrke-varians 15) med mindst 250 pixels afstand mellem brikker. Brikstørrelse beregnes som 12% af billedets bredde med minimum 50 pixels. Vælg blandt 6 brikformer: firkant (standard) og cirkel for rene geometriske klip, rektangel stående/liggende for aflange huller, ellipse stående/liggende for blødere kurvede klip. Konfigurér sværheden med to uafhængige kontroller: 1–5 manglende brikker og 2–6 løsningsalternativer. Distraktor-brikker ekstraheres fra ikke-overlappende områder. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet viser gulmarkerede nummertiketter (rgba(255,255,0,0.7)) inde i hvert hul. En automatisk genereret overskrift gengiver \"Manglende brikker\" i turkis (#06B6D4) med rosafarvet beskrivelse (#DB2777) og dobbelt rammesystem — blågrøn ydre (#14B8A6, 8px) og hot pink indre (#EC4899, 3px). Manglende Brikker er IKKE sprogfølsomt — rent visuelt, universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Puslespilarbejdsark i 8 Trin',
+    title: 'Sådan laver du manglende brikker-puslespil i 8 trin',
     steps: [
       {
         title: 'Åbn Manglende Brikker Generatoren',
@@ -155,15 +157,15 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Alle funktioner låst op — alle 6 brikformer, 1–5 manglende brikker, 2–6 løsningsalternativer med distraktorer, det autogenererede facit, alle 104 tematiske billedsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, dobbelt rammesystem, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på downloads.',
+      question: 'Kan jeg prøve manglende brikker-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — alle 6 brikformer, 1–5 manglende brikker, 2–6 løsningsalternativer med distraktorer, automatisk facit, alle 104 temabilledsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, dobbelt rammesystem, gråtonekontakt og alle downloadformater. Ingen kreditkort. Vandmærke på downloads.',
     },
     {
-      question: 'Hvordan fungerer manglende brikker-puslespilmekanikken?',
-      answer: 'Generatoren tager et billede og klipper 1–5 brikker ud, efterlader hvide huller med sorte konturer (2px). Den viser derefter 2–6 nummererede løsningsalternativer — korrekte brikker plus distraktorer ekstraheret fra andre ikke-overlappende områder. Brugerne identificerer, hvilket alternativ der fylder hvert hul. Facittet viser gulmarkerede nummertiketter inde i hvert hul.',
+      question: 'Hvordan fungerer puslespillet med manglende brikker?',
+      answer: 'Generatoren tager et billede og klipper 1–5 brikker ud, efterlader hvide huller med sorte konturer (2px). Den viser derefter 2–6 nummererede løsningsalternativer — korrekte brikker plus distraktorer. Brugerne bruger visuel logik til at identificere, hvilken brik der fylder hvert hul. Facittet viser gulmarkerede nummertiketter inde i hvert hul.',
     },
     {
-      question: 'Hvilke 6 brikformer findes?',
+      question: 'Hvilke 6 brikformer findes i puslespillet?',
       answer: 'Firkant (standard), cirkel, rektangel stående (80% bredde, 100% højde), rektangel liggende (100% bredde, 80% højde), ellipse stående og ellipse liggende. Hver form generator en anderledes visuel udfordring.',
     },
     {
@@ -218,22 +220,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp',
-      primaryAlt: 'Puslespilarbejdsark med huller klippet ud fra en farverig illustration og nummererede løsningsalternativer inklusive distraktorer med turkis Manglende Brikker-overskrift og blågrøn-pink dobbelt ramme',
+      primaryAlt: 'Gratis manglende brikker puslespil med visuel logik og temabilleder — prøv online med vandmærke',
     },
     sampleGallery: [
       {
         src: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp',
-        alt: 'Manglende brikker puslespil med firkantede huller klippet ud og nummererede løsningsalternativer for visuel identifikation',
+        alt: 'Gratis manglende brikker puslespil med firkantede huller og nummererede brikker til visuel logik',
         caption: 'Firkantede brikker — rene geometriske klip med nummererede løsningsalternativer inklusive distraktorer',
       },
       {
         src: '/samples/danish/missing%20pieces/Manglende%20Dele%202.webp',
-        alt: 'Manglende brikker puslespil med cirkulære huller og nummererede løsningsalternativer inklusive distraktor-brikker',
+        alt: 'Gratis manglende brikker puslespil med cirkulære huller og distraktorbrikker til logik-øvelse',
         caption: 'Cirkulære brikker — afrundede klip med distraktorer, der forhindrer eliminering',
       },
       {
         src: '/samples/danish/missing%20pieces/Manglende%20Dele%203.webp',
-        alt: 'Manglende brikker puslespil facit med gulmarkerede nummertiketter placeret inde i hvert hul, der viser det korrekte alternativindeks',
+        alt: 'Automatisk facit til manglende brikker med gulmarkerede nummertiketter i hvert hul',
         caption: 'Automatisk genereret facit — gulmarkerede etiketter (rgba(255,255,0,0.7)) viser korrekt alternativ for hvert hul',
       },
     ],

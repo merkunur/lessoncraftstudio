@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'mønsterarbejdsark skab guide',
+    primaryKeyword: 'lav mønster-opgaver til print',
     secondaryKeywords: [
-      'mønstergenkendelse arbejdsark til børn',
-      'mønster arbejdsark generator',
-      'printbare mønsterarbejdsark til salg',
-      'visuelle mønsteraktiviteter til førskole',
+      'mønster-opgaver og rækkefølge til børnehaveklasse',
+      'mønstergenkendelse generator til førskole',
+      'printbare mønster-opgaver til salg på Etsy.dk',
+      'visuelle rækkefølge-opgaver til indskoling',
     ],
     lsiKeywords: [
-      'AB mønster arbejdsark førskole',
-      'billedbaserede mønstergenkendelsesaktiviteter',
-      'børnehaveklasse mønsterfuldførelsesark',
-      'sælg mønsterarbejdsark på Etsy',
-      'Amazon KDP mønster aktivitetsbøger',
-      'kommerciel licens arbejdsarkværktøj',
+      'AB mønster-opgaver til førskole og børnehaveklasse',
+      'billedbaserede mønstergenkendelse aktiviteter til print',
+      'mønster-fuldførelsesopgaver til indskoling',
+      'sælg mønster-opgaver på Etsy.dk og Saxo.com',
+      'Amazon KDP mønster-aktivitetshæfter',
+      'kommerciel licens mønster-opgave værktøj',
     ],
-    titleTag: 'Skab mønsterarbejdsark — Trin-for-trin-guide',
-    metaDescription: 'Skab mønsterarbejdsark med 9 typer, tematiske billeder, automatisk facit og 2 spørgsmålsformater. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Lav mønster-opgaver til print — Trin-for-trin sælgerguide',
+    metaDescription: 'Lav mønster-opgaver med 9 typer, tematiske billeder, automatisk facit og 2 spørgsmålsformater. Sælg på Etsy.dk, Saxo.com og Amazon KDP.',
   },
 
   hero: {
-    title: 'Skab mønsterarbejdsark: trin-for-trin guide',
-    tagline: 'En trin-for-trin vejledning til at skabe tematiske, trykklare mønstergenkendelsesarbejdsark du kan sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Mønstergenkendelse er en af de mest grundlæggende før-matematik-færdigheder børn udvikler, og arbejdsark der underviser den er i konstant efterspørgsel fra forældre, sælgere og tutorprogrammer. Denne guide fører dig igennem hele skabelsesprocessen med mønsterarbejdsark-makeren — fra at vælge mønstertyper og spørgsmålsformater til at eksportere polerede, trykklare PDF-filer med automatisk facit. Med 9 distinkte mønstertyper fra simple AB-sekvenser til komplekse ABCD-mønstre kan du skabe produkter til enhver aldersgruppe fra førskole til tidlig indskoling. Uanset om du lancerer dit første printable-produkt eller udvider et eksisterende pædagogisk arbejdsarkkatalog, vil du have færdige produkter klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav mønster-opgaver og rækkefølge-aktiviteter til print',
+    tagline: 'En trin-for-trin vejledning til at lave tematiske, printbare mønstergenkendelsesopgaver du kan sælge på Etsy.dk, Amazon KDP og Saxo.com',
+    description: 'Mønstergenkendelse og rækkefølge er en af de mest grundlæggende før-matematik-færdigheder børn udvikler, og opgaver der underviser den er i konstant efterspørgsel fra forældre, pædagoger og tutorprogrammer. Denne guide fører dig igennem hele skabelsesprocessen med mønsterarbejdsark-makeren — fra at vælge mønstertyper og spørgsmålsformater til at eksportere polerede, trykklare PDF-filer med automatisk facit. Med 9 distinkte mønstertyper fra simple AB-sekvenser til komplekse ABCD-mønstre kan du skabe produkter til enhver aldersgruppe fra førskole til tidlig indskoling. Uanset om du lancerer dit første printable-produkt eller udvider et eksisterende pædagogisk arbejdsarkkatalog, vil du have færdige produkter klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Mønstergenkendelse er den kognitive færdighed der understøtter al matematisk tænkning. Før børn lærer at addere, subtrahere eller tælle med formål lærer de at identificere mønstre — hvad kommer næste, hvad mangler, hvad gentages. Denne færdighed overføres direkte til algebra, talsekvenser, geometri og logisk ræsonnering. Den grundlæggende vigtighed generator vedvarende efterspørgsel efter mønsterarbejdsark på tværs af enhver aldersgruppe fra førskole til 2. klasse.\n\nHvad der gør mønsterarbejdsark særligt stærke som printable-produkt er deres universelle visuelle natur. I modsætning til arbejdsark der afhænger af sprogspecifikt indhold bruger mønstergenkendelsesaktiviteter udelukkende billeder. Et barn i Danmark arbejder igennem det samme AB-mønster af katte og hunde som et barn i Brasilien. Det betyder at et enkelt produkt betjener købere i ethvert marked uden oversættelse eller lokalisering — en markant fordel for sælgere der bygger internationale kataloger.\n\nMønsterarbejdsark-makeren håndterer kompleksiteten for dig. Den understøtter 9 mønstertyper fra simple 2-billede AB-sekvenser til avancerede 4-billede ABCD-mønstre, tilbyder to spørgsmålsformater (åben tom boks og flervalg), randomiserer blanke positioner og startelementer for variation, og genererer automatisk facit. Du fokuserer på produktstrategi — hvilke mønstertyper at ramme, hvilke temaer at bruge, hvordan du pakker efter sværhedsgrad — mens generatoren håndterer layout, mønsternøjagtighed og trykformatering.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste enhver mønstertype og konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Mønstergenkendelse og rækkefølge er den kognitive færdighed der understøtter al matematisk tænkning. Før børn i børnehaveklassen lærer plusstykker, minusstykker eller at tælle med formål lærer de at identificere mønstre — hvad kommer næste, hvad mangler, hvad gentages. Denne færdighed overføres direkte til algebra, talsekvenser, geometri og logisk ræsonnering. Den grundlæggende vigtighed generator vedvarende efterspørgsel efter mønsterarbejdsark på tværs af enhver aldersgruppe fra førskole til 2. klasse.\n\nHvad der gør mønsterarbejdsark særligt stærke som printable-produkt er deres universelle visuelle natur. I modsætning til arbejdsark der afhænger af sprogspecifikt indhold bruger mønstergenkendelsesaktiviteter udelukkende billeder. Et barn i Danmark arbejder igennem det samme AB-mønster af katte og hunde som et barn i Brasilien. Det betyder at et enkelt produkt betjener købere i ethvert marked uden oversættelse eller lokalisering — en markant fordel for sælgere der bygger internationale kataloger.\n\nMønsterarbejdsark-makeren håndterer kompleksiteten for dig. Den understøtter 9 mønstertyper fra simple 2-billede AB-sekvenser til avancerede 4-billede ABCD-mønstre, tilbyder to spørgsmålsformater (åben tom boks og flervalg), randomiserer blanke positioner og startelementer for variation, og genererer automatisk facit. Du fokuserer på produktstrategi — hvilke mønstertyper at ramme, hvilke temaer at bruge, hvordan du pakker efter sværhedsgrad — mens generatoren håndterer layout, mønsternøjagtighed og trykformatering.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste enhver mønstertype og konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

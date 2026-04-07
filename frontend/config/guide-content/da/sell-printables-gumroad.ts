@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sælg printables på Gumroad',
+    primaryKeyword: 'sælg printables på Gumroad for passiv indkomst',
     secondaryKeywords: [
       'sådan sælger du printables på Gumroad',
       'Gumroad printable-forretning opsætning',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'sociale medier trafik Pinterest Instagram blog indhold SEO promovering',
       'produktpakker medlemgenerator abonnementer tilbagevendende omsætning katalogskalering',
     ],
-    titleTag: 'Sælg printables på Gumroad — Guide',
-    metaDescription: 'Sælg printables på Gumroad med nul månedlige gebyrer. Butiksopsætning, prisstrategier, e-mail markedsføring og opbygning af direkte kunderelationer.',
+    titleTag: 'Sælg printables på Gumroad — Guide til passiv indkomst',
+    metaDescription: 'Sælg opgaver til print på Gumroad med nul månedlige gebyrer. Butiksopsætning, prisstrategier, e-mailmarketing og passiv indkomst med printables.',
   },
 
   hero: {

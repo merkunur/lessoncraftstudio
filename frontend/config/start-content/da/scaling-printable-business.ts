@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'skaler printbar forretning op',
+    primaryKeyword: 'skaler printbar forretning sidegesjæft til heltid',
     secondaryKeywords: [
-      'vaekst printbar forretning til heltid',
-      'skaler Etsy-butik printbare produkter',
-      'ekspansionsstrategi printbar forretning',
-      'sideprojekt til heltid printbare produkter',
+      'vækst printbar forretning til heltid passiv indkomst',
+      'skaler Etsy.dk-butik opgaver til print',
+      'ekspansionsstrategi printbar forretning sidegesjæft',
+      'sidegesjæft til heltid med opgaver til print',
     ],
     lsiKeywords: [
-      'katalogudvidelse for saelgere af printbare produkter',
-      'multiplatformsdistribution for arbejdsark',
-      'pakkestrategi for digitale downloads',
-      'produktionsworkflow optimering printbare',
-      'flersproget markedsudvidelse printbare',
-      'geninvesteringsstrategi printbar forretning',
+      'katalogudvidelse sælgere af opgaver til print',
+      'multiplatformsdistribution opgaver til print Etsy.dk KDP',
+      'pakkestrategi for digitale downloads sidegesjæft',
+      'produktionsworkflow optimering printbar forretning',
+      'flersproget markedsudvidelse opgaver til print',
+      'geninvesteringsstrategi printbar forretning passiv indkomst',
     ],
-    titleTag: 'Skaler printbar forretning op — sideprojekt til heltid',
-    metaDescription: 'Saadan skalerer du din printbare forretning fra sideprojekt til heltid. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Skaler printbar forretning — sidegesjæft til heltid | Opgaver til print',
+    metaDescription: 'Sådan skalerer du din printbare forretning fra sidegesjæft til heltid. Opgaver til print på Etsy.dk & KDP med kommerciel licens. Passiv indkomst guide.',
   },
 
   hero: {
-    title: 'Skaler op fra sideprojekt til heltidsforretning med printbare produkter',
-    tagline: 'Strategisk vaekstrammevaerk for saelgere af printbare produkter — fra katalogudvidelse og multiplatformsdistribution til paketeringsstrategi og workflowoptimering, den operationelle haandbog for at skalere ud over et sideprojekt',
-    description: 'At starte en printbar forretning og at skalere en printbar forretning kraever fundamentalt forskellige faerdigheder. Kreativiteten og entusiasmen der lancerer dine foerste produkter giver plads for systemtaenkning, datadrevne beslutninger og produktionsdisciplin naar du vokser. Denne guide giver et konkret rammevaerk for enhver vaekstfase: fra dine foerste 25 annoncer gennem katalogmodenhed ved 300 eller flere produkter. Du vil laere hvordan du systematisk udvider dit katalog, distribuerer paa flere platforme, pakker produkter for hoejere gennemsnitligt ordrevaerdi, optimerer dit produktionsworkflow og udvider til flersprogede markeder. Den gratis proeveversion med vandmaerke lader dig teste enhver generator.',
+    title: 'Skaler op fra sidegesjæft til heltidsforretning med opgaver til print',
+    tagline: 'Strategisk vækstrammeværk for sælgere af opgaver til print — fra katalogudvidelse og multiplatformsdistribution til paketeringsstrategi og workflowoptimering',
+    description: 'At starte en printbar forretning og at skalere en printbar forretning kræver fundamentalt forskellige færdigheder. Kreativiteten og entusiasmen der lancerer dine foerste produkter giver plads for systemtaenkning, datadrevne beslutninger og produktionsdisciplin naar du vokser. Denne guide giver et konkret rammevaerk for enhver vaekstfase: fra dine foerste 25 annoncer gennem katalogmodenhed ved 300 eller flere produkter. Du vil laere hvordan du systematisk udvider dit katalog, distribuerer paa flere platforme, pakker produkter for hoejere gennemsnitligt ordrevaerdi, optimerer dit produktionsworkflow og udvider til flersprogede markeder. Den gratis proeveversion med vandmaerke lader dig teste enhver generator.',
   },
 
   introduction: 'De fleste saelgere af printbare produkter naar et plateau. De starter en butik, lister deres foerste dusin produkter, genererer noget indledende salg og ser derefter deres vaekst udjeavne sig. Aarsagen er naesten altid den same: de fortsaetter med startaktiviteter naar de burde overgaa til skaleringsaktiviteter. At starte en printbar forretning betyder at lave dit foerste produkt og faa det listet. At skalere en printbar forretning betyder at bygge systemer der producerer, distribuerer og optimerer produkter effektivt paa tvaers af platforme og markeder.\n\nSkiftet fra sideprojekt til skalerbar forretning handler ikke om at arbejde flere timer. Det handler om at arbejde anderledes. En sideprojektsaelger laver et produkt per session, lister det paa en platform og haaber paa salg. En skalerende saelger batchproducerer ti produkter per session, distribuerer paa fire platforme, roterer saesonbaserede noegleord maanedligt og bruger analyse til at satse dobbelt paa det der konverterer. Samme antal timer, dramatisk forskellige resultater.\n\nDenne guide giver et milepaelabaseret vaekstrammevaerk snarere end vage opmuntringer. Enhver vaekstfase har specifikke operationelle prioriteter, forskellige udfordringer og distinkte maalevardier der er vigtige. Skalering kraever ogsaa investeringsbeslutninger. Geninvesteringsrammevaerket i denne guide prioriterer produktionskapacitet foerst, optimering derefter og betalt annoncering sidst.\n\nEnhver anbefaling kobler til vaerktojer tilgaengelige gennem den gratis proeveversion med vandmaerke.',

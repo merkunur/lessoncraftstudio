@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Safaridyr printbare idéer til salg — nicheguide',
-    metaDescription: 'Opdag profitable safaridyr printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Afrikansk dyreliv produktkoncepter og platformtips til sælgere.',
+    titleTag: 'Safaridyr opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Safaridyr-tema opgaver til print du kan sælge online. Malebilleder, find og tæl, skyggeleg og sortere med afrikanske dyr. Sidegesjæft passiv indkomst.',
 
-    primaryKeyword: 'safaridyr printbare idéer',
+    primaryKeyword: 'safaridyr opgaver til print idéer',
     secondaryKeywords: [
-      'safaridyr arbejdsark til salg',
-      'safaritema printbar forretning',
-      'jungleaktivitetsark til sælgere',
-      'sælg safariprintables på Etsy',
+      'safaridyr malebilleder find og tæl til print sælg online',
+      'safaridyr printbare idéer Etsy.dk sidegesjæft',
+      'jungle aktivitetsark til print skyggeleg',
+      'sælg safaridyr malebilleder sortere til print',
     ],
     lsiKeywords: [
-      'afrikansk dyreliv pædagogiske arbejdsark',
-      'jungle og savanne aktivitetssider',
-      'eksotiske dyretema printables',
+      'afrikansk dyreliv opgaver til print sidegesjæft',
+      'jungle savanne malebilleder til print passiv indkomst',
+      'eksotiske dyr opgaver til print børnehaveklasse',
     ],
   },
   hero: {
-    title: 'Safaridyr printbare forretningsidéer til sælgere',
+    title: 'Safaridyr opgaver til print — forretningsidéer for sælgere',
     description: 'Safaridyr har en særlig plads i børns fantasi, hvilket gør afrikansk dyreliv til et af de mest visuelt overbevisende og kommercielt givende temaer på markedet for pædagogiske printables. Fra småbørn der lærer at identificere løver og elefanter til første klasse-elever der udforsker giraffmønstre og zebrastreger, vækker safaritemaet nysgerrighed der spænder over alle aldersgrupper og læringstrin. For printable-sælgere tilbyder safaridyr en kraftig kombination af stedsegrøn appel, tværfaglig relevans inden for geografi og naturfag, og stærk visuel genkendelse der driver høje klikrater på markedspladslister. Zoologisk have-besøg, naturdokumentarer og bevidsthed om dyrebeskyttelse holder safaritemaer i konstant efterspørgsel blandt forældre og hjemmeundervisere. Uanset om du sælger på Etsy, Amazon KDP eller Gumroad, repræsenterer safaridyr printables en dokumenteret niche med plads til kreativ differentiering og premiumpris. Denne guide gennemgår specifikke produktidéer, platformstrategier og positioneringsmetoder for at hjælpe dig med at opbygge en profitabel safaritema printbar produktlinje med vores arbejdsark-generatorværktøjer.',
   },
   marketOverview: `Safaridyr printable-nichen indtager en unik position på det pædagogiske marked fordi den kombinerer to kraftige kræfter: børns fascination af eksotisk dyreliv og den pædagogiske rigdom i afrikansk geografi og dyrevidenskab. I modsætning til husdyrtemaer der føles velkendte, bærer safaridyr et element af eventyr og undren der naturligt løfter engagementet. Når et barn arbejder med et arbejdsark der viser løver, elefanter, giraffer eller zebraer, føles aktiviteten mere som udforskning end skolearbejde, hvilket er præcis grunden til at forældre og købere opsøger disse materialer.

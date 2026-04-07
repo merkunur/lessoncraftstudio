@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'malebilleder generator',
+    primaryKeyword: 'lav malebilleder til print',
     secondaryKeywords: [
-      'malebilleder arbejdsark sælg på Etsy',
-      'malebilleder generator til Amazon KDP',
-      'printbare malebilleder kommerciel licens',
-      'opret malebilleder til Gumroad',
+      'malebog generator',
+      'farvelægningsbilleder oprette',
+      'egne malebilleder lave',
+      'tegninger til farvelægning oprette',
     ],
     lsiKeywords: [
-      'digitale malebilleder produkter online forretning',
-      'printbare malebogs forretningsværktøj',
-      'malebilleder generator kommercielt brug',
+      'malebog farvelægning konturer tegning børn kreativ',
+      'printbare malebilleder forretningsværktøj',
+      'malebog generator kommercielt brug',
     ],
-    titleTag: 'Malebilleder Generator | Opret og Sælg Printbare',
-    metaDescription: 'Opret tilpassede malebilleder til salg på Etsy, KDP og Gumroad. Frit lærred, 104 temaer, frihåndstegning, gråtoneeksport. $49 engangsbetaling.',
+    titleTag: 'Lav malebilleder til print | Generator farvelægning',
+    metaDescription: 'Lav malebilleder fra 3.000+ temabilleder. Højopløselige konturer, printklare PDF\'er. Prøv gratis — sælg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Malebilleder Generator til Tilpassede Printbare Malearbejdsark',
-    tagline: 'Frit lærred som malebilledsdesigner — gennemse 104 tematiske billedsamlinger, tilføj frihåndstegninger, inkluder produktlinjehjælpere som navnefelt og skriveøvelseslinjer, og slå gråtoneeksport til for blækvenlige malebilleder.',
+    title: 'Lav malebilleder til print — farvelægningsbilleder med 3.000+ motiver',
+    tagline: 'Malebog generator med frit lærred — vælg blandt 104 tematiske billedsamlinger, tegn egne konturer med frihåndstegning, tilføj navnefelt og skriveøvelseslinjer, og eksporter blækvenlige farvelægningsbilleder til print.',
     description:
-      'Design professionelle malebilleder på et frit lærred, hvor du placerer billeder præcis, hvor du vil — ingen gitre, ingen skabeloner, ren kreativ frihed. Gennemse det indbyggede billedbibliotek med mere end 3.100 farverige illustrationer i 104 tematiske samlinger, klik på ethvert billede for at tilføje det til dit lærred, og arranger, ændr størrelse, roter og lagr elementer, indtil siden ser perfekt ud. Frihåndstegningsværktøjet lader dig skitsere egne illustrationer direkte på lærredet med justerbar penselfarve og -størrelse. Produktlinjehjælpere tilføjer et navnefelt og skriveøvelseslinjer med et enkelt klik — og forvandler malebilleder til færdige produktlinjeaktiviteter. Når du er klar, slår du gråtonemuligheden til for at konvertere din farverige komposition til blækvenlige malebilleder, perfekte til udskrift. Tilføj dekorative rammetemaer, brugerdefineret tekst med kontureffekter og upload egne billeder ved siden af bibliotekets indhold. Malebilleder-generatoren er ikke sprogfølsom — resultatet er rent visuelt, så arbejdsarkene ser identiske ud på ethvert sprog. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter-, A4-, Kvadrat- eller brugerdefineret format. Uanset om du sælger malebilledspakker på Etsy.dk, sammensætter malebøger til Amazon KDP eller opretter produktlinjesmaleaktiviteter til Gumroad — Malebilleder Generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav dine egne malebilleder til print på et frit lærred, hvor du placerer billeder præcis, hvor du vil — ingen gitre, ingen skabeloner, ren kreativ frihed. Det danske marked med 5,8 millioner dansktalende byder på lav konkurrence inden for printbare farvelægningsbilleder på Etsy.dk og Amazon KDP. Gennemse det indbyggede billedbibliotek med mere end 3.100 farverige illustrationer i 104 tematiske samlinger — dyr, natur, højtider, køretøjer og snesevis flere. Klik på ethvert billede for at tilføje det til dit lærred, og arranger, ændr størrelse, roter og lagr elementer, indtil din malebog-side ser perfekt ud. Frihåndstegningsværktøjet lader dig skitsere egne konturer direkte på lærredet med justerbar penselfarve og -størrelse — skab helt originale tegninger til farvelægning. Produktlinjehjælpere tilføjer et navnefelt og skriveøvelseslinjer med et enkelt klik, hvilket gør dine malebilleder egnede til børnehaveklasse (5–6 år), indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse). Slå gråtonemuligheden til for at konvertere din farverige komposition til blækvenlige konturer — perfekte til udskrift og malebøger. Tilføj dekorative rammetemaer, brugerdefineret tekst med kontureffekter og upload egne billeder. Generatoren er ikke sprogfølsom — resultatet er rent visuelt, så farvelægningsbillederne ser identiske ud på ethvert sprog. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter-, A4-, Kvadrat- eller brugerdefineret format. Uanset om du sælger malebilledspakker på Etsy.dk, sammensætter malebøger til Amazon KDP eller opretter kreative farvelægningsaktiviteter — denne malebog generator leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Tilpassede Malebilleder i 5 Trin',
+    title: 'Sådan laver du dine egne malebilleder til print i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Malebilleder Generatoren',
+    title: 'Nøglefunktioner i malebog generatoren',
     features: [
       {
         title: 'Frit lærred som malebilledsdesigner',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Tilpassede Malebilleder Online',
+    title: 'Sådan sælger du farvelægningsbilleder og malebøger online',
     cases: [
       {
         title: 'Tematiske malebilledspakker på Etsy.dk',
@@ -140,64 +140,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvordan adskiller det frie lærred sig fra gitterbaserede generatorer?',
+      question: 'Kan jeg sælge disse malebilleder på Etsy?',
       answer:
-        'Malebilleder Generatoren bruger et helt åbent lærred uden gitre, skabeloner eller fag. Du placerer billeder hvor som helst på siden ved at klikke på dem i biblioteket og derefter trække, ændre størrelse, rotere og lagre dem frit. Dette adskiller sig fundamentalt fra gitterbaserede værktøjer, der låser billeder i faste positioner. Den frie tilgang giver dig fuld kreativ kontrol over hvert sidelayout, hvilket gør hvert malebillede unikt og originalt.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine malebilleder som digitale downloads på Etsy.dk, som trykte malebøger på Amazon KDP eller via enhver anden salgskanal. Det frie lærred, frihåndstegningsværktøjet og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at lave originale, salgbare farvelægningsbilleder. Det danske marked har lav konkurrence — en oplagt mulighed for printbare malebøger.',
     },
     {
-      question: 'Hvordan fungerer frihåndstegningsværktøjet?',
+      question: 'Hvordan laver jeg malebilleder til print?',
       answer:
-        'Slå Tegneværktøjsknappen til for at skifte fra Vælg-tilstand til Tegne-tilstand. Vælg en penselfarve med farvevælgeren og juster penselstørrelsen fra 1 til 50 pixels med skyderen. Tegn direkte på lærredet med din mus eller pen — streger renderes som jævne Fabric.js-baner. Skift tilbage til Vælg-tilstand for at flytte og redigere dine tegninger som alle andre lærredsobjekter. Kombinér frihåndstegning med biblioteksbilleder for hybridmalebilleder.',
+        'Åbn malebog generatoren, vælg et tema fra billedbiblioteket med 3.100+ illustrationer, og placér billeder frit på lærredet. Tilføj frihåndstegninger, konturer, tekst og dekorative rammer. Slå gråtoneeksport til for blækvenlige farvelægningsbilleder og download som trykfærdig PDF med 300 DPI. Hele processen tager få minutter — fra valg af billeder til printklart resultat.',
     },
     {
-      question: 'Hvad er produktlinjehjælperne, og hvordan bruger jeg dem?',
+      question: 'Er malebillederne egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'To etkliksknapper i panelet Produktlinjehjælpere. Navnefeltknappen tilføjer et formateret \"Navn: ____________________\" tekstblok nær toppen af siden. Skriveøvelseslinjer-knappen tilføjer en gruppe med tre jævnt fordelte linjer (hel, stiplet, hel) nær bunden af siden til skriveøvelse. Begge hjælpere opretter standard lærredsobjekter, som du kan flytte, ændre størrelse eller slette præcis som alle andre elementer.',
+        'Ja. Det frie lærred lader dig tilpasse sværheden til alle aldersgrupper. Til børnehaveklasse (5–6 år) bruger du store, enkle billeder med tydeligere konturer. Til indskoling (0.–3. klasse) tilføjer du flere detaljer og produktlinjehjælpere som navnefelt og skriveøvelseslinjer. Til mellemtrin (4.–6. klasse) opretter du mere komplekse kompositioner med frihåndstegninger og detaljerede temaer.',
     },
     {
-      question: 'Hvordan fungerer gråtoneeksportomskifteren?',
+      question: 'På hvor mange sprog fungerer generatoren?',
       answer:
-        'Gråtoneomskifteren i panelet Download konverterer hele dit malebillede til gråtone ved eksporttidspunktet. Dit lærred forbliver i fuld farve for nem visuel redigering — gråtone anvendes kun på den eksporterede fil. Dette lader dig designe med farverige billeder til identifikation og derefter producere blækvenlige resultater til udskrift. Essentielt for Amazon KDP-malebogs­indersider og masseudskrift, hvor farveblæk er utilgængeligt eller dyrt.',
-    },
-    {
-      question: 'Hvordan gennemser og tilføjer jeg billeder fra biblioteket?',
-      answer:
-        'Åbn panelet Billedbibliotek, vælg et tema fra dropdownen, eller skriv et søgeord i søgefeltet. Billeder vises i et gitter — klik på ethvert billede for at tilføje det direkte til dit lærred. Billedet vises som et flytbart, størrelsesændringsbart lærredsobjekt, som du kan trække, rotere og lagre med andre elementer. Biblioteket indeholder mere end 3.100 farverige illustrationer i 104 tematiske samlinger. Du kan også uploade egne PNG-, JPG- eller GIF-billeder.',
-    },
-    {
-      question: 'Kan jeg uploade egne billeder?',
-      answer:
-        'Ja. Panelet Billedbibliotek inkluderer en uploadknap, der accepterer PNG-, JPG- og GIF-filer. Uploadede billeder tilføjes til lærredet præcis som biblioteksbilleder — fuldt flytbare, størrelsesændringsbare og roterbare. Kombinér din egen kunst med biblioteksillustrationer for helt originale malebilleder. Egne billeder er særligt nyttige til brandspecifikke malebilleder eller emneindhold, der ikke dækkes af de indbyggede temaer.',
-    },
-    {
-      question: 'Hvordan fungerer dekorative rammetemaer?',
-      answer:
-        'I panelet Sideopsætning vælger du et rammetema fra rammebiblioteket. Rammen rammer dit lærred ind og tilføjer visuel finish til det færdige malebillede. Rammer anvendes som lærredselementer, som du kan se i editoren. De definerer sidens visuelle grænse uden at forstyrre dine billeder, tekst eller tegninger. Forskellige rammetemaer passer til forskellige målgrupper — legende rammer til børnemalebilleder, elegante rammer til voksenmalebøger.',
+        'Brugerfladen understøtter 11 sprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, norsk og finsk. Malebilleder er en rent visuel app — resultatet består kun af billeder, tegninger og konturer uden sprogtekst, så dine farvelægningsbilleder ser identiske ud uanset sprog. Dette betyder, at ét produkt kan sælges til alle markeder uden oversættelse.',
     },
     {
       question: 'Hvorfor er der ingen facitliste for malebilleder?',
       answer:
-        'Malebilleder er kreative aktiviteter uden et enkelt korrekt svar — hele formålet er, at brugere eller kolorister tilføjer deres egne farver. Til forskel fra matematikarbejdsark eller bogstavssporingsøvelser er der ingen rigtig eller forkert måde at farvelægge en side på. Dette gør malebilleder til ideelle lavforberedelsesprodukter for sælgere, da du eksporterer kun malebilledet i sig selv uden nogen ekstra facitfil at oprette.',
+        'Malebilleder er kreative aktiviteter uden et enkelt korrekt svar — hele formålet er, at børn tilføjer deres egne farver til konturtegningerne. Til forskel fra matematikopgaver er der ingen rigtig eller forkert måde at farvelægge en side på. Dette gør malebilleder til ideelle lavforberedelsesprodukter for sælgere, da du eksporterer kun farvelægningsbilledet uden nogen ekstra facitfil.',
+    },
+    {
+      question: 'Hvordan fungerer frihåndstegningsværktøjet?',
+      answer:
+        'Slå Tegneværktøjsknappen til for at skifte til Tegne-tilstand. Vælg penselfarve og juster penselstørrelsen fra 1 til 50 pixels. Tegn egne konturer, dekorative elementer og originale illustrationer direkte på lærredet. Kombinér frihåndstegning med biblioteksbilleder for at oprette helt unikke malebilleder, der ikke kan kopieres af andre sælgere.',
+    },
+    {
+      question: 'Hvordan fungerer gråtoneeksport?',
+      answer:
+        'Gråtoneomskifteren konverterer hele din farverige komposition til blækvenlige konturer ved eksporttidspunktet. Dit lærred forbliver i fuld farve for nem redigering — gråtone anvendes kun på den downloadede fil. Essentielt for malebøger til Amazon KDP og masseudskrift, hvor farveblæk er dyrt.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — det frie lærred, alle tegneværktøjer, billedbiblioteket, produktlinjehjælperne, rammetemaer, gråtoneeksport og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Er Malebilleder-generatoren sprogfølsom?',
-      answer:
-        'Nej. Malebilleder Generatoren er en rent visuel app — resultatet består kun af billeder, tegninger og eventuel tekst, du manuelt tilføjer. At skifte sprog påvirker kun brugerfladeetiketter i generatoren og billedbiblioteksetiketterne, ikke malebilledets resultat. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog.',
-    },
-    {
-      question: 'Kan jeg sælge malebilleder oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine malebilleder som digitale downloads på Etsy.dk, som trykte malebøger på Amazon KDP, som produktlinjeressourcer på Gumroad eller via enhver anden salgskanal. Det frie lærred, frihåndstegningsværktøjet og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare malebilledsprodukter.',
-    },
-    {
-      question: 'Hvad er returpolitikken?',
-      answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste det frie lærred, hvert tegneværktøj, hele billedbiblioteket, produktlinjehjælperne, rammetemaer, gråtoneeksport og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Ja. Du kan bruge alle funktioner — det frie lærred, alle tegneværktøjer, billedbiblioteket, produktlinjehjælperne, rammetemaer, gråtoneeksport og alle downloadformater — uden at oprette en konto eller indtaste kreditkort. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
   ],
 
@@ -262,27 +242,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/coloring/coloring%20portrait%201.webp',
-      primaryAlt: 'Tilpasset malebillede med tematiske billeder arrangeret på frit lærred med dekorativ ramme og produktlinjesnavnefelt',
+      primaryAlt: 'Malebillede til print med tematiske konturer arrangeret på frit lærred — farvelægningsbilleder fra malebog generator',
     },
     sampleGallery: [
       {
         src: '/samples/danish/coloring/coloring%20portrait%201.webp',
-        alt: 'Dyretema malebillede med farverige illustrationer arrangeret frit på lærredet',
-        caption: 'Dyretema malebillede — farverige illustrationer arrangeret frit på lærredet',
+        alt: 'Malebillede med dyretema — farverige konturer til farvelægning arrangeret frit på lærredet',
+        caption: 'Dyretema farvelægningsbillede — kreative konturer arrangeret frit på lærredet',
       },
       {
         src: '/samples/danish/coloring/coloring%20portrait%202.webp',
-        alt: 'Malebillede med skriveøvelseslinjer og navnefelt til produktlinjebrug',
-        caption: 'Produktlinjefærdigt malebillede — navnefelt og skriveøvelseslinjer inkluderet',
+        alt: 'Malebillede til print med navnefelt og skriveøvelseslinjer — egnet til børnehaveklasse og indskoling',
+        caption: 'Printklart malebillede — navnefelt og skriveøvelseslinjer til børn',
       },
       {
         src: '/samples/danish/coloring/coloring%20landscape%201.webp',
-        alt: 'Gråtone malebillede med dekorativ ramme klar til blækvenlig udskrift',
-        caption: 'Gråtoneeksport — blækvenligt malebillede med dekorativt rammetema',
+        alt: 'Gråtone farvelægningsbillede med dekorativ ramme — blækvenlig malebog side til print',
+        caption: 'Gråtoneeksport — blækvenligt farvelægningsbillede klar til malebog',
       },
     ],
     youtubeId: 'ZdpCr2txHcc',
-    videoTitle: 'Sådan Opretter du Tilpassede Malebilleder med Frihåndstegning og Gråtoneeksport — Trin-for-Trin Guide',
+    videoTitle: 'Sådan laver du malebilleder til print med frihåndstegning og gråtoneeksport — trin-for-trin guide',
   },
 };
 

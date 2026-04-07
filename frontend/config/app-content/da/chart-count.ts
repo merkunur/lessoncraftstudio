@@ -2,31 +2,33 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'billeddiagram generator',
+    primaryKeyword: 'tælleopgaver til print',
     secondaryKeywords: [
-      'printbare billeddiagram arbejdsark sælg på Etsy',
-      'billeddiagram generator til Amazon KDP-udgivere',
-      'sælg billeddiagram aktiviteter på Gumroad',
-      'datarepræsentation arbejdsark generator kommerciel licens',
+      'øvelser tælle og diagram',
+      'opgaver diagrammer indskoling',
+      'tælle og strege opgave',
+      'tælleaktiviteter børnehaveklasse',
     ],
     lsiKeywords: [
-      'digitale piktogram printbare produkter online forretning',
-      'printbare diagramtælling arbejdsark forretningsværktøj',
-      'kommercielt brug billeddiagram generator med facit',
+      'tælle',
+      'søjlediagram',
+      'streger',
+      'data',
+      'sortere',
     ],
-    titleTag: 'Billeddiagram Generator | Opret Diagramtælling Arbejdsark',
-    metaDescription: 'Opret billeddiagram arbejdsark til salg på Etsy, KDP og Gumroad. Automatisk facit med markeringer, 104 temaer, 6 billedtyper per ark. $49 engangsbetaling.',
+    titleTag: 'Tælleopgaver og diagrammer til print | Generator',
+    metaDescription: 'Lav tælle- og diagramopgaver med temabilleder. Automatisk facit, printklare PDF\'er. Prøv gratis.',
   },
 
   hero: {
-    title: 'Billeddiagram Arbejdsark Generator til Printbare Diagramtælling Aktiviteter',
-    tagline: 'Dobbeltlærred piktogram-generator — generer spredte billedgitre med 6 billedtyper, automatisk udfyldte søjlediagram-facit, lokaliserede overskrifter på 11 sprog og 104 tematiske billedsamlinger til datarepræsentation arbejdsark.',
+    title: 'Tælleopgaver til print — generator til diagrammer og tælleaktiviteter',
+    tagline: 'Lav tælle- og diagramopgaver med temabilleder, automatisk facit og printklare PDF\'er til børnehaveklasse og indskoling.',
     description:
-      'Forvandl visuel tælling til en komplet datafærdighedsaktivitet med den eneste arbejdsark-generator, der er bygget specifikt til billeddiagrammer. Hvert arbejdsark indeholder et spredt billedgitter med 20 ikoner fra 6 forskellige typer arrangeret i et 4×5-layout — brugerne tæller, hvor mange af hver type der er, og farvelægger derefter de tilsvarende celler i søjlediagrammet nedenfor. Appen genererer samtidigt en facitliste med gulmarkerede celler, der viser de korrekte antal, så sælgere kan verificere udfyldte ark øjeblikkeligt. Vælg billeder automatisk ved at vælge et tema fra dropdownmenuen Arbejdsarkets Billedkilde, eller vælg manuelt præcis 6 billeder fra det gennemsøgelige Billedbibliotek med mere end 3.100 illustrationer i 104 samlinger. Hvert arbejdsark inkluderer en automatisk genereret overskrift med en lokaliseret \"Billeddiagram\"-titel og tælleinstruktioner — overskriften tilpasses til alle 11 understøttede sprog automatisk. Tilføj navn- og datofelter med et enkelt flueben, anvend baggrunds- og rammetemaer med uafhængige opacitetskontroller, og tilpas med tekstværktøjer og frihånds lærredsredigering. Diagramtælling Generatoren er ikke sprogfølsom — visuel tælling bruger universelle tal og billeder, så arbejdsarkene fungerer identisk på ethvert sprog. Det samme billeddiagram arbejdsark kan bruges globalt uden oversættelse — et enkelt skabelsesflow betjener ethvert marked uden sprogspecifikke varianter. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI via 6× renderingsmultiplikator i Letter, A4, Kvadrat (1200×1200) eller brugerdefinerede størrelser. Download alle fire filer — arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF — i en enkelt session. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer for maksimal variation over billeddiagram-pakker. Uanset om du sælger billeddiagram-pakker på Etsy.dk, sammensætter datafærdigheds-arbejdsbøger til Amazon KDP eller opretter matematikstationsaktiviteter til Gumroad — Diagramtælling Generatoren leverer produktlinjefærdige resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle tælleopgaver til print med den eneste generator, der er bygget specifikt til øvelser med tælle og diagram. Hvert arbejdsark indeholder et spredt billedgitter med 20 ikoner fra 6 forskellige typer i et 4×5-layout — børnene tæller, sorterer og markerer streger, og farvelægger derefter de tilsvarende celler i søjlediagrammet nedenfor. Appen genererer samtidigt en facitliste med gulmarkerede celler, der viser de korrekte antal. Det danske marked for tælleaktiviteter børnehaveklasse er næsten ubesat. Med 5,8 millioner dansktalende og stigende interesse for printbare opgaver på Etsy.dk er søgeord som \"tælle og strege opgave\" og \"opgaver diagrammer indskoling\" nicher med lav konkurrence og høj købsintention. Brug generatoren til at lave tælleopgaver til børnehaveklasse, indskoling (1. klasse) og mellemtrin, der træner data-sortere og søjlediagram-færdigheder. Vælg billeder automatisk fra 104 tematiske samlinger eller manuelt fra mere end 3.100 illustrationer. Hvert arbejdsark inkluderer en lokaliseret overskrift med tælleinstruktioner på alle 11 sprog. Tilføj navn- og datofelter, anvend baggrunds- og rammetemaer, og tilpas med tekstværktøjer og frihånds lærredsredigering. Tælleopgaverne er ikke sprogfølsomme — visuel tælling bruger universelle tal og billeder, så arbejdsarkene fungerer identisk på ethvert sprog. Eksporter trykklare PDF\'er med 300 DPI i Letter, A4 eller brugerdefinerede størrelser. Download alle fire filer — arbejdsark og facit som JPEG og PDF — i en enkelt session. Uanset om du sælger tællepakker på Etsy.dk, sammensætter datafærdigheds-bøger til Amazon KDP eller laver matematikstationer — denne tælleopgaver generator leverer resultater på få minutter. Prøv gratis med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Billeddiagram Arbejdsark i 5 Trin',
+    title: 'Sådan laver du tælleopgaver og diagrammer til print i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayout og navnefelter',
@@ -57,7 +59,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Diagramtælling Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i tælleopgaver-generatoren',
     features: [
       {
         title: 'Billeddiagram arbejdsark generator med spredt billedgitter og søjlediagram',
@@ -103,7 +105,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Billeddiagram Arbejdsark Online',
+    title: 'Sådan sælger du tælleopgaver og diagrammer online',
     cases: [
       {
         title: 'Tematiske billeddiagram-pakker på Etsy.dk',
@@ -140,64 +142,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvordan fungerer billeddiagram-arbejdsarket?',
+      question: 'Kan jeg sælge disse tælleopgaver på Etsy?',
       answer:
-        'Hvert arbejdsark har to dele. Den øvre sektion viser et 4×5-gitter med 20 spredte ikoner fra 6 forskellige billedtyper — hver type forekommer 1–5 gange, tilfældigt fordelt. Den nedre sektion viser et søjlediagram med 6 kolonner × 5 rækker med kolonner mærket med hver billedtype og rækker nummereret 1–5 nedefra og op. Brugerne tæller, hvor mange af hver billedtype der er i gitteret, og farvelægger eller udfylder derefter det tilsvarende antal celler i den matchende kolonne. Dette lærer både dataindsamling (tælling) og datarepræsentation (diagram) i en enkelt aktivitet.',
+        'Ja. Med en kommerciel licens har du alle rettigheder til at sælge dine tælleopgaver som digitale downloads på Etsy.dk, som trykte datafærdigheds-bøger på Amazon KDP, som printbare produkter på Gumroad, eller via enhver anden salgskanal. Dobbeltlærred-genereringen, automatisk facit og 104 tematiske billedsamlinger giver dig værktøjerne til at producere originale tælle- og diagramprodukter i stor skala.',
     },
     {
-      question: 'Hvordan fungerer det automatiske billedvalg?',
+      question: 'Hvordan laver jeg tælleopgaver til print?',
       answer:
-        'Åbn panelet Billedbibliotek og brug dropdownmenuen Arbejdsarkets Billedkilde til at vælge et tema. Appen vælger tilfældigt 6 billeder fra den temasamling. Hvis du foretrækker manuel kontrol, skift til manuel tilstand: gennemse temaer eller søg med nøgleord, og klik derefter på præcis 6 billeder. Valgte billeder vises i en forhåndsvisningsrække, hvor du kan klikke på ethvert billede for at fjerne det og vælge en erstatning. Uden valgt tema henter appen 6 tilfældige billeder fra alle tilgængelige samlinger. Hver tilstand garanterer præcis 6 billedtyper per arbejdsark.',
+        'Åbn tælleopgaver-generatoren, vælg et tema fra 104 billedsamlinger (eller vælg 6 billeder manuelt), og klik Generer. Appen arrangerer 20 spredte ikoner i et 4×5-gitter og opretter et søjlediagram nedenfor. Børnene tæller, sorterer og markerer streger. Facit genereres automatisk med gulmarkerede celler. Download alle fire filer — arbejdsark og facit som JPEG og PDF — i en enkelt session.',
     },
     {
-      question: 'Hvordan fungerer den automatisk genererede facitliste?',
+      question: 'Er tælleopgaverne egnede til børnehaveklasse og indskoling?',
       answer:
-        'Når du genererer et arbejdsark, opretter appen samtidig en matchende facitliste på en separat lærredsfane. Facit viser det samme billedgitter og søjlediagram, men de korrekte celler i diagrammet er fyldt med gul (#FFC857) markering. Skift mellem fanerne Arbejdsark og Facit for at sammenligne. Download hver version uafhængigt med de fire downloadknapper: arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF. Facit genereres automatisk — ingen manuel tælling nødvendig.',
+        'Ja. Tælle- og diagramopgaverne er designet til børnehaveklasse og indskoling (1. klasse), hvor børnene tæller op til 5 pr. billedtype. Det visuelle format med billeder og søjlediagram er perfekt til at lære tælle, sortere og data-repræsentation — kernefærdigheder i de første skoleår. Hvert arbejdsark er unikt takket være tilfældig fordeling af billedtyper.',
     },
     {
-      question: 'Hvad er den lokaliserede overskrift på hvert arbejdsark?',
+      question: 'På hvor mange sprog kan jeg lave tælleopgaver?',
       answer:
-        'Hvert genereret arbejdsark inkluderer en stiliseret overskrift med en gul pillebaggrund (#FFD93D), hvid indre pille og orange ramkant. Overskriften viser en \"Billeddiagram\"-titel og tælleinstruktioner, der automatisk oversættes til det aktive brugerfladesprog — dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk eller finsk. Overskriften tilpasses til liggende tilstand med et kompakt layout. Du behøver ikke oprette eller formatere overskriften manuelt.',
+        'Tælleopgaverne er helt visuelle — børnene tæller billeder og udfylder søjlediagramceller med tal, ingen ord. Et arbejdsark oprettet på ét sprog fungerer globalt. Appens brugerflade og den lokaliserede overskrift understøtter 11 sprog: dansk, svensk, norsk, finsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk og engelsk. Dine printbare tælleaktiviteter kan sælges på alle markedspladser uden oversættelse.',
     },
     {
-      question: 'Hvordan fungerer navn- og datofelterne?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'I panelet Sideopsætning sætter du flueben i feltet Inkluder Navn/Dato for at tilføje formaterede \"Navn: ____\" og \"Dato: ____\" felter nederst på arbejdsarksiden. Felterne bruger skrifttypen Fredoka i 18px med #333-farve. Brugerne skriver deres navn og dato, før de begynder tælleaktiviteten. Dette gør arbejdsarkene øjeblikkeligt produktlinjefærdige uden yderligere formatering. Fjern fluebenet for at fjerne felterne til produkter, der ikke behøver identifikation.',
+        'Ja. Appen genererer automatisk en matchende facitliste med gulmarkerede celler, der viser det korrekte antal for hver billedtype. Skift mellem fanerne Arbejdsark og Facit for at sammenligne. Download facitlisten som separat JPEG eller PDF — ingen manuel tælling nødvendig.',
     },
     {
-      question: 'Hvordan fungerer baggrunds- og rammetemaer?',
+      question: 'Hvordan fungerer billedgitteret og søjlediagrammet?',
       answer:
-        'Panelet Sideopsætning tilbyder både baggrundstemaer og rammetemaer indlæst fra det indbyggede temabibliotek. Hvert har en uafhængig opacitetsskyder (0–1, trin 0,05), så du kan indstille en subtil baggrund på lav opacitet, mens du beholder en dristig ramme på fuld styrke, eller enhver kombination du foretrækker. Baggrundstemaer fylder sidefladen bag billedgitteret og diagrammet, mens rammetemaer rammer den ydre kant ind. Sammen tilføjer de dekorativ finish uden at forstyrre arbejdsarkets indhold.',
-    },
-    {
-      question: 'Hvordan fungerer gråtoneomskifteren?',
-      answer:
-        'Gråtoneomskifteren i panelet Download konverterer hele dit arbejdsark eller facit til gråtone ved eksporttidspunktet. Dit lærred forbliver i fuld farve for nem visuel redigering — gråtone anvendes kun på den eksporterede fil. Dette producerer blækvenlige resultater til masseudskrift, hvor farveblæk er dyrt eller utilgængeligt, og til Amazon KDP-bogsindersider, der kræver sort-hvide sider. Gråtoneomskifteren fungerer uafhængigt for både arbejdsarks- og faciteksporter.',
-    },
-    {
-      question: 'Hvordan skifter jeg mellem arbejdsarket og facit?',
-      answer:
-        'Lærredsområdet har to faner: Arbejdsark og Facit. Klik på fanen Facit for at vise den automatisk genererede løsning med gulfyldte diagramceller. Klik på fanen Arbejdsark for at vende tilbage til øvelsesversionen med tomme celler. Hver fane har sit eget par downloadknapper (JPEG og PDF), hvilket giver dig fire samlede downloadmuligheder. Redigeringer af lærredselementer som tekst, baggrund og rammer gælder for begge faner — den eneste forskel mellem dem er søjlediagrammets udfyldningstilstand.',
+        'Hvert arbejdsark har to dele. Den øvre sektion viser et 4×5-gitter med 20 spredte ikoner fra 6 billedtyper — hver type forekommer 1–5 gange, tilfældigt fordelt. Den nedre sektion viser et søjlediagram med 6 kolonner og 5 rækker. Børnene tæller hver billedtype og farvelægger det tilsvarende antal celler. Det træner både tælle (dataindsamling) og diagram (datarepræsentation) i én øvelse.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — dobbeltlærredet, billedgittergenerering, søjlediagramoprettelse, automatisk facit, billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter, gråtoneeksport og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Er Diagramtælling Generatoren sprogfølsom?',
-      answer:
-        'Nej. Diagramtælling Generatoren producerer visuelle tællearbejdsark, hvor brugerne tæller billeder og udfylder søjlediagramceller — tal og billeder er universelle. At skifte sprog påvirker kun brugerfladeetiketter i generatoren, den automatisk genererede overskrifts titel og instruktioner samt billedbiblioteksets indholdsetiketter. Arbejdsarkets resultat i sig selv fungerer identisk på ethvert sprog. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog til brugerfladen.',
-    },
-    {
-      question: 'Kan jeg sælge billeddiagram arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine billeddiagram arbejdsark som digitale downloads på Etsy.dk, som trykte datafærdigheds-arbejdsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. Dobbeltlærred-genereringen, automatisk facit og 104 tematiske billedsamlinger giver dig værktøjerne til at producere originale, salgbare billeddiagram-produkter i stor skala.',
+        'Ja. Du kan bruge alle funktioner — dobbeltlærredet, billedgittergenerering, søjlediagramoprettelse, automatisk facit, billedbiblioteket, baggrunds- og rammetemaer, gråtoneeksport og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste dobbeltlærredet, billedgittergenerering, automatisk facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter, gråtoneeksport og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste alle temaer, gråtoneeksport, facitgenerering og alle downloadformater, før du køber. Prøv gratis, før du anskaffer en licens.',
     },
   ],
 
@@ -262,23 +244,23 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/chart%20count/Billediagram%201.webp',
-      primaryAlt: 'Billeddiagram arbejdsark med spredt billedgitter og søjlediagram, hvor brugerne tæller og diagrammerer 6 billedtyper',
+      primaryAlt: 'Tælleopgaver til print med billedgitter og søjlediagram til børnehaveklasse og indskoling',
     },
     sampleGallery: [
       {
         src: '/samples/danish/chart%20count/Billediagram%201.webp',
-        alt: 'Dyretema billeddiagram arbejdsark med 20 spredte dyreikoner og tomt søjlediagram',
-        caption: 'Dyretema billeddiagram — 6 dyretyper spredt over gitteret med søjlediagram nedenfor',
+        alt: 'Tælleaktiviteter børnehaveklasse — dyretema med 20 spredte ikoner og tomt søjlediagram',
+        caption: 'Dyretema tælleopgave — børnene tæller 6 dyretyper og fylder søjlediagrammet ud',
       },
       {
         src: '/samples/danish/chart%20count/Billediagram%202.webp',
-        alt: 'Billeddiagram arbejdsark med et andet tema og farverige illustrationer',
-        caption: 'Tematisk billeddiagram — 104 temaer giver unikke tælleudfordringer for hvert arbejdsark',
+        alt: 'Øvelser tælle og diagram med temabilleder til indskoling',
+        caption: 'Tematisk tælleopgave — 104 temaer giver unikke øvelser med tælle og sortere',
       },
       {
         src: '/samples/danish/chart%20count/Billediagram%203.webp',
-        alt: 'Billeddiagram facit med gulmarkerede celler, der viser korrekte antal for hver billedtype',
-        caption: 'Automatisk genereret facit — gulfyldte celler viser det korrekte antal for hver billedtype',
+        alt: 'Tælleopgaver facit med gulmarkerede celler der viser korrekte streger i søjlediagrammet',
+        caption: 'Automatisk facit — gulmarkerede celler viser det korrekte antal for hver billedtype',
       },
     ],
     youtubeId: 'CDgIihDQX6U',

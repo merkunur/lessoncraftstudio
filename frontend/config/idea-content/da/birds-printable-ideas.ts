@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fugle printbare idéer til salg — nicheguide',
-    metaDescription: 'Udforsk fugletema printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Produktkoncepter, platformstrategier og nichepositioneringstips til sælgere.',
+    titleTag: 'Fugle opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Fugletema opgaver til print du kan sælge på Etsy.dk og Amazon KDP. Malebilleder, find og tæl, ordleg og regneopgaver med fugle til børnehaveklasse.',
 
-    primaryKeyword: 'fugle printbare idéer',
+    primaryKeyword: 'fugle opgaver til print idéer',
     secondaryKeywords: [
-      'fugletema arbejdsark til salg',
-      'fugle printbar forretningsidéer',
-      'sælg fugleaktivitetsark online',
-      'fugle arbejdsark niche til sælgere',
+      'fugletema malebilleder ordleg til print sælg online',
+      'fugle printbare idéer Etsy.dk sidegesjæft',
+      'sælg fugle aktivitetsark til print KDP',
+      'fugle regneopgaver find og tæl til print',
     ],
     lsiKeywords: [
-      'dyrelivstema pædagogiske printables',
-      'naturobservation arbejdsark',
-      'ornitologiaktiviteter til børn',
+      'dyreliv naturobservation opgaver til print',
+      'fugle malebilleder ordleg sidegesjæft',
+      'ornitologi aktiviteter til print børnehaveklasse',
     ],
   },
   hero: {
-    title: 'Fugle printbare forretningsidéer til sælgere',
-    description: 'Fugle tilbyder et af de mest visuelt mangfoldige og universelt tiltalende temaer på markedet for pædagogiske printables. Fra ugler og ørne til papegøjer og pingviner giver den enorme variation af fuglearter printable-sælgere et enormt kreativt lærred til produktdifferentiering. Børn er naturligt fascinerede af fugle fordi de flyver, synger og kommer i livlige farver, hvilket gør fugletema arbejdsark iboende engagerende for det yngre publikum. For sælgere på Etsy, Amazon KDP og Gumroad drager fuglenichen fordel af stærke bånd til naturfagsemner omkring levesteder, migration og livscyklusser. Sæsonmæssig interesse topper under forårets redesæson og efterårets migrationsperioder, mens fuglekiggerhobby-crossover bringer voksne købere ind på markedet sammen med forældre og sælgere. Denne guide giver specifikke produktidéer, platformstrategier og prismetoder for at hjælpe dig med at opbygge en profitabel fugletema printbar produktlinje med vores arbejdsark-generatorværktøjer.',
+    title: 'Fugle opgaver til print — forretningsidéer for sælgere',
+    description: 'Fugle tilbyder et af de mest visuelt mangfoldige temaer for opgaver til print — fra malebilleder med ugler og papegøjer til find og tæl med fuglearter. Fra ugler og ørne til papegøjer og pingviner giver den enorme variation af fuglearter printable-sælgere et enormt kreativt lærred til produktdifferentiering. Børn er naturligt fascinerede af fugle fordi de flyver, synger og kommer i livlige farver, hvilket gør fugletema arbejdsark iboende engagerende for det yngre publikum. For sælgere på Etsy, Amazon KDP og Gumroad drager fuglenichen fordel af stærke bånd til naturfagsemner omkring levesteder, migration og livscyklusser. Sæsonmæssig interesse topper under forårets redesæson og efterårets migrationsperioder, mens fuglekiggerhobby-crossover bringer voksne købere ind på markedet sammen med forældre og sælgere. Denne guide giver specifikke produktidéer, platformstrategier og prismetoder for at hjælpe dig med at opbygge en profitabel fugletema printbar produktlinje med vores arbejdsark-generatorværktøjer.',
   },
   marketOverview: `Fugle printable-nichen indtager en unik position hvor pædagogisk indhold møder naturværdsættelse, hvilket skaber efterspørgsel fra flere købersegmenter. Forældre søger efter fugletema arbejdsark til at komplementere havefuglekiggeraktiviteter, naturvandringer og den naturfaglige nysgerrighed deres børn udtrykker naturligt. Købere har brug for ressourcer til ornitologienheder, levestedsstudier og sæsonmæssige migrationslektioner der optræder i tidlig barndoms- og grundskole indholdsbiblioteker. Hjemmeundervisere opbygger ofte flerugers fuglestudieenheder der kræver varierede printbare materialer på tværs af færdighedsområder.
 

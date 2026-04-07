@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dansk som andetsprog printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag printbare idéer til dansk som andetsprog til salg på Etsy, Amazon KDP og Gumroad.',
+    titleTag: 'Dansk som andetsprog opgaver til print — idéer til salg | Etsy.dk & KDP',
+    metaDescription: 'Andetsprog opgaver til print du kan sælge online. Ordleg, blandede bogstaver, krydsord og skrivemotorik til sprogindlæring. Sidegesjæft passiv indkomst.',
 
-    primaryKeyword: 'dansk som andetsprog printbare idéer',
+    primaryKeyword: 'andetsprog opgaver til print idéer',
     secondaryKeywords: [
-      'andetsprogundervisning arbejdsark til salg',
-      'sprogindlæring printbar forretningsidéer',
-      'andetsprogs aktivitetsark for sælgere',
-      'sælg andetsprogsprintables på Gumroad',
+      'andetsprog ordleg skrivemotorik til print sælg online',
+      'sprogindlæring printbare idéer Etsy.dk sidegesjæft',
+      'andetsprogs aktivitetsark til print ordleg',
+      'sælg andetsprogs ordleg krydsord til print',
     ],
     lsiKeywords: [
-      'sprogindlærer pædagogiske arbejdsark',
-      'flersprogede pædagogiske printables',
-      'sprogundervisnings aktivitetsressourcer',
+      'sprogindlærer ordleg opgaver til print sidegesjæft',
+      'flersprogede opgaver til print passiv indkomst',
+      'sprogundervisning aktivitetsressourcer til print',
     ],
   },
   hero: {
-    title: 'Andetsprog printbare forretningsidéer for sælgere',
+    title: 'Andetsprog opgaver til print — forretningsidéer for sælgere',
     description: 'Andetsprogsundervisnings-printables repræsenterer et stort og voksende globalt marked hvor sprogundervisere, tutorer, sprogskoler, lokalsamfundsorganisationer og immigrant- og flygtningefamilier køber ordforrådsopbyggende arbejdsark, visuel-støtte-aktiviteter, stilladerede øvelsesmaterialer og samtalestarterressourcer through hele kalenderåret. Sprogindlærerpopulationer vokser i skoledistrikter verden over da immigrationsmønstre skaber nye fællesskaber af elever der har brug for supplementære materialer designet specifikt til ikke-modersmålstalende der lærer akademisk og konversationelt sprog simultant. Sprogundervisning spænder over grundskole- og ungdomsuddannelsers støtteprogrammer, voksenuddannelsescentre, lokalsamfunds-læsefærdighedsprogrammer, private tutorsessioner og internationale sprogskoler, hvor hvert miljø køber forskellige typer materialer skræddersyet til deres specifikke elevdemografier og undervisningsmetoder. Køberbasen er unikt international fordi sprogindlæringskøbere kommer fra dusinvis af lande verden over, hvilket skaber efterspørgsel på tværs af tidszoner og sæsoner der isolerer denne niche fra de kalenderdrevne købsmønstre der begrænser mange pædagogiske printbare kategorier. Sprogindlæringstilmelding sker kontinuerligt through hele skoleåret da familier flytter og nyankomne træder ind i skolesystemer, hvilket genererer stabil efterspørgsel efter velkomstmaterialer til nyankomne, ordforrådsopbyggende ressourcer og stilladerede øvelsesaktiviteter som undervisere har brug for øjeblikkeligt snarere end ved forudsigelige planlægningsintervaller. Visuelt tunge og ordforråds-fokuserede materialer opnår stærk prissætning i denne niche fordi sprogindlærere på alle kompetenceniveauer har brug for billedstøttede ressourcer, mærkede aktiviteter og forståelsesstilladser som almenpædagogiske printable-sælgere næsten aldrig inkluderer i deres standard arbejdsarksdesigns. Markedet forbliver dybt underforsynet i forhold til dets faktiske størrelse fordi flertallet af printable-sælgere fokuserer udelukkende på modersmålsmaterialer, hvilket efterlader sprogundervisere og familier der søger ressourcer der inkorporerer forenklede instruktioner, visuelle støtter, flersprogvenlige layouts og progressiv sproglig sværhedsgrad passende til begynder through avancerede kompetenceniveauer. For printable sælgere og entreprenører der opbygger produktlinjer på Etsy, Amazon KDP, Gumroad og direkte salgsplatforme kombinerer andetsprogsnichen voksende global efterspørgsel med en underforsynet køberpopulation, helårs købsmønstre, internationalt markedsrækkevidde og stærke professionelle fællesskabsnetværk i sprogundervisningsorganisationer der driver opdagelse når produkter ægte adresserer de specialiserede behov som almenpædagogiske printables konsekvent svigter at opfylde. Denne guide dækker specifikke produktidéer bygget omkring vores arbejdsarkgeneratorværktøjer, platformsstrategier til at nå sprogindlæringskøbere verden over og nichepositioneringstilgange til at hjælpe dig med at opbygge en rentabel andetsprogs printbar produktlinje.',
   },
   marketOverview: `Andetsprog printbare marked repræsenterer en væsentlig og voksende omsætningsmulighed fordi sprogindlærerpopulationer vokser hurtigt i hele verden mens international efterspørgsel fra sprogskoler og tutorer tilføjer en global køberdimension som de fleste pædagogiske printbare nicher fuldstændigt mangler. Skoledistrikter rapporterer stigende andetsprogsindmelding da immigration og flygtningebosætning bringer familier hvis børn træder ind i skolesystemer med behov for intensiv sprogstøtte ved siden af deres akademiske undervisning. Voksen sprogprogrammer udvides simultant da uddannelsesinstitutioner, arbejdsstyrkeuudviklingsorganisationer, flygtningebosætningsagenturer og lokalsamfunds-læsefærdighedsprogrammer betjener voksende populationer af voksne sprogindlærere der har brug for praktisk ordforråd, arbejdspladsssprog og dagligdags sprogfærdigheder. Denne kombination af institutionel efterspørgsel, voksenuddannelseskøb og international køberrækkevidde skaber multiple overlappende markedssegmenter som printable-sælgere kan målrette med lagdelte produktlinjer.

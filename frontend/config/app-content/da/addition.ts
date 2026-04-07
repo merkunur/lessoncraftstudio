@@ -2,31 +2,35 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'additions arbejdsark generator',
+    primaryKeyword: 'plusstykker til print',
     secondaryKeywords: [
-      'additions arbejdsark sælg på Etsy',
-      'matematik arbejdsark generator til Amazon KDP',
-      'additions arbejdsark kommerciel licens',
-      'printbare matematik arbejdsark til Gumroad',
+      'plusopgaver generator',
+      'regneopgaver plus 1. klasse',
+      'sommer optelling til print',
+      'plusstykker med billeder',
     ],
     lsiKeywords: [
-      'digitale matematikolprodukter for iværksættere',
-      'printbare aktiviteter online forretning',
-      'arbejdsark generator kommercielt brug',
+      'indskoling',
+      '1. klasse',
+      '2. klasse',
+      'uden mén',
+      'med mén',
+      'facitliste',
+      'svar',
     ],
-    titleTag: 'Additions Arbejdsark Generator | Opret og Sælg Online',
-    metaDescription: 'Opret additions arbejdsark til salg på Etsy, KDP og Gumroad. 104 temaer, 4 øvelsestilstande, facit, eksport 400+ DPI. $49 engangsbetaling.',
+    titleTag: 'Plusstykker til print | Generator med facitliste',
+    metaDescription: 'Lav plusstykker med temabilleder på få sekunder. Automatisk facitliste, 300 DPI PDF, 11 sprog. Prøv gratis — kommerciel licens til Etsy & KDP.',
   },
 
   hero: {
-    title: 'Additions Arbejdsark Generator til Visuel Matematikøvelse',
-    tagline: 'Forvandl addition til et visuelt eventyr med billedbaserede matematikarbejdsark.',
+    title: 'Plusstykker til print — Generator med temabilleder og facitliste',
+    tagline: 'Lav plusopgaver med billeder til indskoling og børnehaveklasse — prøv gratis med vandmærke.',
     description:
-      'Opret billedbaserede additions arbejdsark, der gør tidlige matematikkoncepter konkrete og sjove for unge brugere. Vælg mellem fire forskellige øvelsestilstande — Billede + Billede, Billede + Tal, Find Leddet og Blandet Tilstand — for at tilpasse til ethvert niveau fra børnehave til 2. klasse. Udforsk mere end 3.100 omhyggeligt udvalgte illustrationer i 104 temaer som bondegårdsdyr, køretøjer og mad for at gøre hvert regnestykke levende. Hvert arbejdsark indeholder en automatisk genereret facitliste, og du kan eksportere trykklare PDF\'er i Letter-, A4- eller brugerdefineret format med mere end 400 DPI. Uanset om du sælger på Etsy.dk, udgiver aktivitetsbøger på Amazon KDP eller distribuerer arbejdsark til dine kunder — Additions Arbejdsark Generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav plusstykker til print med temabilleder, der gør regneopgaver sjove for børn i børnehaveklasse, 1. klasse og 2. klasse. Vælg mellem fire øvelsestilstande — Billede + Billede, Billede + Tal, Find Leddet og Blandet Tilstand — og tilpas sværhedsgraden til ethvert niveau i indskolingen. Vælg fra mere end 3.100 illustrationer i 104 temaer som bondegårdsdyr, køretøjer og mad, der gør hvert regnestykke levende og engagerende. Hvert arbejdsark får en automatisk genereret facitliste, og du eksporterer trykklare PDF\'er i Letter-, A4- eller brugerdefineret format med mere end 300 DPI. Uanset om du sælger plusstykker på Etsy.dk, udgiver regnebøger på Amazon KDP eller laver opgaver til dine egne børn — generatoren leverer professionelle resultater på få minutter. Det danske marked for printbare plusopgaver er næsten uberørt, og med 5,8 millioner dansktalende er der en reel mulighed for at etablere dig som den førende udbyder. Prøv alle funktioner gratis med vandmærke — ingen tilmelding, intet kreditkort.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Additions Arbejdsark i 5 Trin',
+    title: 'Sådan laver du plusstykker til print i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +61,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Additions Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i plusstykker-generatoren',
     features: [
       {
         title: 'Fire forskellige øvelsestilstande',
@@ -103,10 +107,10 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Additions Arbejdsark Online',
+    title: 'Sådan sælger du plusstykker til print online',
     cases: [
       {
-        title: 'Temapakker med additions arbejdsark på Etsy.dk',
+        title: 'Temapakker med plusstykker på Etsy.dk',
         description:
           'Opret sæt med 10–20 additions arbejdsark grupperet efter tema — bondegårdsdyr, dinosaurer, havdyr, højtider — og tilbyd dem som direkte download på Etsy.dk. Inkluder facit som ekstrafil i hver pakke. Temapakker tiltrækker forældre, der søger efter specifikke interesser, og købere, der har brug for færdigt materiale med det samme. Prissæt enkle temaer mellem 25–40 kr og megapakker mellem 100–150 kr for en solid gennemsnitlig ordreværdi. Organiser hver pakke med stigende sværhedsgrad — begynd med enkle tal som 1+1 på de første arbejdsark og byg op til tal som 8+9 mod slutningen — så forældrene ser en komplet læringsvej i hvert køb. Opret sæsonversioner af populære temaer for at drive salgsstigninger under skolestart, jul og sommerferie.',
         platform: 'Etsy (etsy.dk)',
@@ -140,59 +144,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvilke øvelsestilstande tilbyder Additions Arbejdsark Generatoren?',
+      question: 'Kan jeg sælge disse plusstykker på Etsy?',
       answer:
-        'Generatoren indeholder fire tilstande: Billede + Billede (to grupper billeder at tælle og lægge sammen), Billede + Tal (en gruppe billeder plus et tal), Find Leddet (summen vises, og brugerne finder den manglende gruppe) og Blandet Tilstand (kombinerer alle tre). Hver tilstand retter sig mod et andet niveau, fra ren visuel tælling til tidlig algebraisk ræsonnement. Sælgere, der tilbyder alle fire tilstande i en niveauinddelt pakke, kan tage premiumpriser, fordi køberne får en komplet progression fra begynder til avanceret. Købere sætter pris på, at de kan oprette præcis det materiale, de har brug for til hver brugergruppe, uden at lede gennem generiske arbejdsarkswebsteder.',
+        'Ja. Med en kommerciel licens kan du sælge dine plusstykker som digitale downloads på Etsy.dk, som trykte regnebøger på Amazon KDP, eller via Gumroad, Saxo.com og enhver anden platform. Der er ingen royalties per salg, ingen månedlige gebyrer og ingen begrænsninger på antal. Mange sælgere opretter temapakker med plusstykker — f.eks. bondegårdsdyr, dinosaurer eller årstider — der genererer konstante indtægter. Det danske marked for printbare regneopgaver er næsten uberørt på Etsy.',
     },
     {
-      question: 'Hvilke talintervaller kan jeg indstille for additionsopgaver?',
+      question: 'Hvordan laver jeg plusstykker til print?',
       answer:
-        'Du kan indstille minimum og maksimum antal elementer per gruppe fra 1 til 10. Det betyder, at du kan oprette enkle opgaver som 1+1 for børnehaven eller mere udfordrende tal mod 10+10 for 1. og 2. klasse. Justeringen foretages med to enkle inputfelter i panelet Øvelseskonfiguration. Denne præcise kontrol gør det nemt at oprette produktlinjer per niveau — en børnehavepakke med interval 1–3, en børnehaveklassepakke med interval 1–5 og en 1.–2. klasse-pakke med interval 1–10.',
+        'Åbn generatoren og vælg en af fire øvelsestilstande: Billede + Billede (ren visuel tælling), Billede + Tal (kombinerer billeder og cifre), Find Leddet (find den manglende gruppe) eller Blandet Tilstand. Indstil talintervallet fra 1 til 10, vælg billeder fra 104 temaer, tilpas layout og skrifttype, og klik på download. Facitlisten genereres automatisk. Hele processen tager under 3 minutter.',
     },
     {
-      question: 'Hvor mange billeder og temaer er der tilgængelige?',
+      question: 'Er plusstykker-generatoren egnet til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Det indbyggede billedbibliotek indeholder mere end 3.100 illustrationer fordelt på 104 temaer, herunder dyr, køretøjer, mad, højtider, sport, rummet, natur og meget mere. Du kan også uploade dine egne billeder, hvis du har brug for specifikke brand- eller sæsonbetonede illustrationer. Alle billeder har høj opløsning og printes skarpt på både hjemmeprintere og professionelle trykketjenester.',
+        'Ja. Med justerbare talintervaller dækker generatoren hele spektret. Til børnehaveklasse (0. klasse) kan du lave enkle plusstykker fra 1+1 til 3+3 i tilstanden Billede + Billede. Til indskoling (1.–3. klasse) bruges Billede + Tal og Find Leddet med tal op til 10. Til mellemtrin (4.–6. klasse) kan du udfordre med Blandet Tilstand og høje talintervaller. Alle niveauer understøttes i samme værktøj.',
     },
     {
-      question: 'Opretter generatoren automatisk facit?',
+      question: 'På hvor mange sprog kan jeg lave plusstykker?',
       answer:
-        'Ja. Klik på knappen Generer Facit for at oprette en udfyldt version af dit arbejdsark med alle korrekte tal. Du kan forhåndsvise facit på skærmen og downloade det som en separat JPEG- eller PDF-fil sammen med brugerens arbejdsark. At inkludere facit i dine produkttilbud tilfører oplevet værdi for sælgere, som forventer færdige printbare produkter, der sparer tid.',
+        'Generatoren understøtter 11 sprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Plusstykker er primært visuelle — billederne og tallene fungerer på alle sprog — men brugerfladen, titler og instruktioner kan tilpasses til hvert sprog. Du kan oprette den samme pakke på 11 sprog og sælge til et globalt publikum.',
     },
     {
-      question: 'Hvilke sideformater og eksportmuligheder understøttes?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Vælg mellem Letter Stående, Letter Liggende, A4 Stående, A4 Liggende, Kvadrat (1200×1200) eller en brugerdefineret størrelse. Eksporter som højopløst JPEG eller trykfærdig PDF. Alle eksporter renderes med mere end 400 DPI, hvilket garanterer professionel udskriftskvalitet. Mangfoldigheden af formater gør det muligt at oprette produkter til forskellige markeder — Letter til nordamerikanske købere, A4 til europæiske kunder.',
+        'Ja. Klik på knappen Generer Facit for automatisk at oprette en udfyldt version med alle korrekte svar. Facitlisten kan downloades som en separat PDF- eller JPEG-fil. At inkludere facit i dine produkter tilfører stor værdi — forældre og lærere forventer det, og det gør dine plusstykker til et komplet, professionelt produkt klar til salg.',
     },
     {
-      question: 'Er additions arbejdsarkene sprogafhængige?',
+      question: 'Hvilke øvelsestilstande tilbyder plusstykker-generatoren?',
       answer:
-        'Nej. Additions arbejdsarkene er helt visuelle — det matematiske indhold bruger billeder og tal, ingen ord. Et arbejdsark oprettet på ét sprog fungerer på alle sprog. Sprogindstillingen ændrer kun etiketterne i applikationens brugerflade, ikke arbejdsarkets indhold, hvilket gør dine produkter direkte salgbare globalt uden nogen oversættelsesindsats.',
+        'Fire tilstande: Billede + Billede (to grupper billeder at tælle og lægge sammen — perfekt til børnehaveklasse), Billede + Tal (en gruppe billeder plus et ciffer — god til 1. klasse), Find Leddet (summen vises, barnet finder den manglende del — udvikler tidlig algebra) og Blandet Tilstand (kombinerer alle tre for varieret øvelse). Sælgere kan tilbyde alle fire tilstande i en niveauinddelt pakke for at tage premiumpriser.',
     },
     {
-      question: 'Kan jeg bruge mine egne billeder i stedet for det indbyggede bibliotek?',
+      question: 'Kan jeg bruge mine egne billeder?',
       answer:
-        'Helt sikkert. Panelet Upload Billeder lader dig uploade dine egne PNG- eller JPEG-filer direkte i generatoren. Uploadede billeder fungerer med alle fire øvelsestilstande og vises ved siden af biblioteksbillederne, så du kan kombinere tilpassede illustrationer med den indbyggede samling for et unikt resultat.',
+        'Helt sikkert. Panelet Upload Billeder lader dig uploade dine egne PNG- eller JPEG-filer direkte i generatoren. Uploadede billeder fungerer med alle fire øvelsestilstande og vises ved siden af biblioteksbillederne. Perfekt til brandede plusstykker med din egen clipart eller maskot.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du har adgang til alle funktioner i generatoren — de fire øvelsestilstande, det komplette billedbibliotek, facitgenereringen og alle eksportformater — uden at oprette en konto, indtaste et kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Hvad er inkluderet i den kommercielle licens?',
-      answer:
-        'Den kommercielle licens fjerner vandmærket fra alle downloads og giver dig ubegrænsede rettigheder til at sælge de arbejdsark, du opretter — på Etsy.dk, Amazon KDP, Gumroad, din egen hjemmeside eller enhver anden platform. Der er ingen royalties per salg, ingen månedlige gebyrer og ingen begrænsninger på antallet af arbejdsark, du producerer eller sælger.',
-    },
-    {
-      question: 'Kan jeg sælge de arbejdsark, jeg opretter med dette værktøj, på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du alle rettigheder til at sælge dine additions arbejdsark som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som pædagogiske printbare produkter på Gumroad, eller via enhver anden salgskanal. Mange sælgere opretter temapakker og aktivitetsbøger, der genererer konstante indtægter.',
-    },
-    {
-      question: 'Hvad er returpolitikken?',
-      answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver tilstand, hvert tema, hvert eksportformat og hvert sideformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet opfylder dine behov, før du anskaffer en licens.',
+        'Ja. Du har adgang til alle funktioner — fire øvelsestilstande, 3.100+ billeder, facitgenerering og alle eksportformater — uden konto, kreditkort eller installation. Downloads indeholder et vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder til Etsy, KDP og alle andre platforme.',
     },
   ],
 
@@ -247,27 +236,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/addition/Sjov%20Addition%201.webp',
-      primaryAlt: 'Additionsarbejdsark med farverige dyrebilleder i tilstanden Billede + Billede',
+      primaryAlt: 'Plusstykker til print med farverige dyrebilleder i tilstanden Billede + Billede',
     },
     sampleGallery: [
       {
         src: '/samples/danish/addition/Sjov%20Addition%201.webp',
-        alt: 'Stående additionsarbejdsark i tilstanden Billede + Tal med dyretema',
-        caption: 'Billede + Tal tilstand — brugerne kombinerer billedgrupper med tal for overgangsfærdigheder',
+        alt: 'Plusstykker til print i tilstanden Billede + Tal med dyretema',
+        caption: 'Billede + Tal tilstand — børnene kombinerer billedgrupper med tal til indskoling',
       },
       {
         src: '/samples/danish/addition/Sjov%20Addition%202.webp',
-        alt: 'Liggende additionsarbejdsark i Blandet Tilstand med madtema',
-        caption: 'Blandet Tilstand — kombinerer alle øvelsestyper for varieret, engagerende matematikøvelse',
+        alt: 'Plusstykker til print i Blandet Tilstand med madtema',
+        caption: 'Blandet Tilstand — kombinerer alle øvelsestyper for varieret regneopgaver',
       },
       {
         src: '/samples/danish/addition/Sjov%20Addition%203.webp',
-        alt: 'Additionsarbejdsark i tilstanden Find Leddet med køretøjstema',
-        caption: 'Find Leddet tilstand — brugerne opdager den manglende gruppe for tidlig algebraisk tænkning',
+        alt: 'Plusstykker i tilstanden Find Leddet med køretøjstema',
+        caption: 'Find Leddet tilstand — børnene finder den manglende gruppe for tidlig algebraisk tænkning',
       },
     ],
     youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'Opret Additions Arbejdsark med Billeder — Trin-for-Trin Guide',
+    videoTitle: 'Lav plusstykker til print med billeder — trin-for-trin guide',
   },
 };
 

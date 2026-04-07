@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sociale medier printable markedsføring',
+    primaryKeyword: 'sociale medier for printable-sælgere',
     secondaryKeywords: [
       'sociale medier for printable sælgere',
       'promover printables på sociale medier',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'Instagram-markedsføring Pinterest-strategi Facebook-grupper sælgerpromovering',
       'hashtagstrategi opslagsplan engagementrate profiloptimering',
     ],
-    titleTag: 'Sociale medier printable markedsføring — Sælgerguide',
-    metaDescription: 'Strategier for sociale medier markedsføring af printables for sælgere — platformsvalg, visuelt indhold, publikumsopbygning og engagement der driver.',
+    titleTag: 'Sociale medier for printable-sælgere — Marketingguide',
+    metaDescription: 'Sociale medier marketing for sælgere af opgaver til print. Platformsvalg, visuelt indhold, publikumsopbygning og trafik til din Etsy.dk-butik.',
   },
 
   hero: {

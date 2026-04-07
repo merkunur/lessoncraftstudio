@@ -18,7 +18,7 @@ const bundlesKeywords: Record<string, string[]> = {
   it: ['pacchetti generatori schede', 'bundle schede didattiche', 'generatori matematica pacchetto', 'licenza commerciale schede', 'schede da stampare pacchetto', 'generatori bundle risparmio'],
   nl: ['bundels generators commerciële licentie', 'printable bundel korting', 'werkbladen pakket Etsy', 'rekenbladen bundel KDP', 'Bol.com printables bundel'],
   sv: ['utskriftspaket', 'arbetsbladspaket', 'Etsy utskriftspaket', 'KDP aktivitetsbokspaket', 'kommersiell licens paket', 'kategoripaket'],
-  da: ['printbare pakker', 'opgavepakke', 'Etsy printable pakker', 'KDP aktivitetsbogspakke', 'kommerciel licens pakke', 'kategoripakke'],
+  da: ['arbejdsark-pakker', 'opgavepakke kommerciel licens', 'Etsy opgaver pakke', 'KDP aktivitetsbog pakke', 'kategoripakke generatorer', 'spar på generatorer'],
   no: ['utskriftspakker', 'oppgavepakke', 'Etsy utskriftspakker', 'KDP aktivitetsbokpakke', 'kommersiell lisens pakke', 'kategoripakke'],
   fi: ['tulostettavat paketit', 'tehtäväpaketti', 'Etsy tulostettavat paketit', 'KDP aktiviteettikirjapaketti', 'kaupallinen lisenssi paketti', 'kategoriapaketti'],
 };
@@ -132,10 +132,10 @@ const bundlesContent: Record<string, {
     pricePurchase: 'Engångsköp',
   },
   da: {
-    heroTitle: 'Generatorpakker',
-    heroDescription: 'Spar med kategoripakker. Få alle generatorer i en kategori med kommerciel licens til pakkepris.',
-    metaTitle: 'Printable generatorpakker | Spar med kategoripakker | LessonCraftStudio',
-    metaDescription: 'Alle generatorer i en kategori til pakkepris. 6 pakker for matematik, sprog, tegning, matching, puslespil og søgning. Engangskøb med kommerciel licens.',
+    heroTitle: 'Kategoribundler med kommerciel licens',
+    heroDescription: 'Spar med kategoribundler. Få alle generatorer i en kategori med kommerciel licens til bundlepris. Sælg på Etsy, KDP og mere.',
+    metaTitle: 'Kategoribundler | Spar op til 57 % på arbejdsark-generatorer',
+    metaDescription: 'Alle arbejdsark-generatorer i en kategori til bundlepris. Regning, sprog, visuelt, matching, puslespil og søge-bundler. Engangskøb, kommerciel licens.',
     ctaTitle: 'Prøv før du køber',
     ctaDescription: 'Alle generatorer er gratis at prøve med vandmærke. Se kvaliteten inden køb.',
     ctaButton: 'Prøv generatorerne gratis',

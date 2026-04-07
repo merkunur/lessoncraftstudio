@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Forår printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag forår printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Sæsonbestemte produktkoncepter, marts-maj strategier og platformstips for sælgere.',
+    titleTag: 'Forår opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Forårstema opgaver til print du kan sælge online. Malebilleder, ordleg, find og tæl og regneopgaver med blomster og natur. Sælg på Etsy.dk. Sidegesjæft.',
 
-    primaryKeyword: 'forår printbare idéer',
+    primaryKeyword: 'forår opgaver til print idéer',
     secondaryKeywords: [
-      'forårsarbejdsark til salg',
-      'forårstematisk printbar forretning',
-      'forårsaktivitetsark for sælgere',
-      'sælg forårsprintables på Etsy',
+      'forår malebilleder ordleg til print sælg online',
+      'forår printbare idéer Etsy.dk sidegesjæft',
+      'forår aktivitetsark til print find og tæl',
+      'sælg forårs-opgaver malebilleder regneopgaver til print',
     ],
     lsiKeywords: [
-      'blomster og have pædagogiske arbejdsark',
-      'sæsonbestemte naturaktivitetssider',
-      'forårstematiske printbare ressourcer',
+      'blomster have forår opgaver til print sidegesjæft',
+      'sæsonbestemte forår malebilleder til print passiv indkomst',
+      'forårstema opgaver til print børnehaveklasse indskoling',
     ],
   },
   hero: {
-    title: 'Forår printbare forretningsidéer for sælgere',
+    title: 'Forår opgaver til print — forretningsidéer for sælgere',
     description: 'Forår åbner et generøst salgsvindue fra marts til maj efterhånden som butikker skifter til naturcentrerede temaer og familier omfavner udendørs læring efter måneders vinterrutiner. Nichen spænder over en rig variation af underemner inklusive sommerfugle, blomster, haver, regnbuer, larver, mariehøns, fugle, reder, regn og paraplyer, hvilket giver sælgere et ekspansivt visuelt ordforråd der forbinder naturligt med naturfagsindhold, udendørs udforskning og den universelle følelse af fornyelse der definerer sæsonen. Købere søger aktivt friske forårsmaterialer til at booste engagement i anden halvdel af skoleåret, mens hjemmeundervisningsfamilier og dagplejeleverandører leder efter sæsonvariation der bygger bro mellem indendørs og udendørs læringsoplevelser. For printbare entreprenører der sælger på Etsy, Amazon KDP og Gumroad tilbyder forår en bred ikke-feriekategori med forlænget relevans der undgår de snævre efterspørgselstoppe fra enkeltdagsferier. Denne guide dækker specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en rentabel forår printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Forårsprintbare-nichen indtager en unikt fordelagtig position i den pædagogiske markedspladskalender fordi den fungerer som en bred sæsonkategori snarere end en enkeltdagsferie, hvilket giver sælgere et forlænget tremåneders efterspørgselsvindue der strækker sig fra begyndelsen af marts til slutningen af maj. Købere der dukker op fra vinterens tristhed søger aktivt efter friske, naturtematiske materialer der genengagerer børn der er blevet trætte af udelukkende indendørs temaer, og forårsbilleder giver den perfekte overgang efterhånden som butikker skifter mod naturfagsintegreret indhold der dækker livscyklusser, vejrmønstre, plantevækst og dyrehabitater. Denne naturlige overensstemmelse mellem forårsbilleder og kernefagområder betyder at købere kan retfærdiggøre forårskøb som pædagogiske investeringer snarere end rent dekorative sæsontilføjelser.

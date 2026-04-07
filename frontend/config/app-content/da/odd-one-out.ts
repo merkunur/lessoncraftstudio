@@ -2,31 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'find den ulige generator',
+    primaryKeyword: 'hvad passer ikke opgave til print',
     secondaryKeywords: [
-      'printbar find den ulige puslespil generator til Etsy-sælgere',
-      'find den der ikke hører til arbejdsark generator til KDP',
-      'ulige billede aktivitet generator kommerciel licens',
-      'sælg find den ulige puslespil på Gumroad',
+      'find den der ikke hører til',
+      'klassifikation opgaveark',
+      'logisk tænkning opgaver',
+      'hvem hører ikke til',
     ],
     lsiKeywords: [
-      'digitale find den ulige printbare online forretning',
-      'kommercielt brug visuel diskriminering arbejdsark generator',
-      'printbar find den anderledes puslespil forretningsværktøj',
+      'passer ikke',
+      'klassifikation',
+      'logik',
+      'tænkning',
+      'kategorisere',
+      'indskoling',
     ],
-    titleTag: 'Find den Ulige Generator | Opret og Sælg Arbejdsark',
-    metaDescription: 'Opret find den ulige arbejdsark til salg på Etsy, KDP og Gumroad. To puslespilstilstande, automatisk facit med røde cirkler, 104 temaer. $49 engangsbetaling.',
+    titleTag: 'Hvad passer ikke? opgave til print | Logik-generator',
+    metaDescription: 'Lav "hvad passer ikke?"-opgaver med temabilleder til logisk tænkning. Automatisk facit, printklare PDF\'er. Prøv gratis.',
   },
 
   hero: {
-    title: 'Find den Ulige Arbejdsark Generator til Find-den-Anderledes Puslespil',
-    tagline: 'To genereringstilstande — Identisk og Lignende — med tilsidesættelse per øvelse, 5–10 konfigurerbare øvelser, automatisk genererede facit med røde cirkelmarkeringer og visuelle puslespil, der fungerer på alle 11 sprog uden oversættelse.',
+    title: 'Hvad passer ikke? — opgave til print med logik-generator',
+    tagline: 'Lav printbare "hvad passer ikke?"-opgaver, der træner logisk tænkning og klassifikation — to tilstande, automatisk facit med røde cirkler og 104 temabilledsamlinger.',
     description:
-      'Byg professionelle find-den-anderledes arbejdsark, hvor brugerne identificerer og ringer det ulige objekt ind i hver række af fire billeder. Vælg mellem to genereringstilstande: Identisk tilstand placerer tre kloner af det samme billede ved siden af et anderledes billede fra det samme tema til find-forskellen-udfordringer, mens Lignende tilstand henter tre billeder fra Tema A og ét billede fra Tema B til temaovergribende diskrimineringspuslespil. Tilsidesæt tilstanden per øvelse for at blande sværhedsgrader inden for et enkelt arbejdsark. Konfigurer 5 til 10 øvelser per side med standard sat til 6, og slå valgfri navn- og datofelter og øvelsesnumre til for produktlinjefærdig formatering. Hvert arbejdsark genererer en ledsagende facitliste på en separat lærredsfane — facit tegner en rød cirkel rundt det ulige objekt i hver række, så du aldrig behøver markere svar manuelt. Den automatisk genererede overskrift har en koralfarvet ydre ramme, ravgul indre ramme og turkis baggrund med den lokaliserede titel \"Find den der ikke hører til\" renderet i Fredoka og instruktioner i Quicksand på alle 11 sprog. Fordi puslespillene er helt visuelle — ingen ord vises på selve arbejdsarket — er de ikke sprogfølsomme og fungerer identisk i enhver lokal. Samme arbejdsark kan sælges globalt uden oversættelse. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Uanset om du sælger visuelle puslespilspakker på Etsy.dk, sammensætter kritisk tænkning-arbejdsbøger til Amazon KDP eller opretter produktlinjeaktiviteter til Gumroad — denne generator leverer produktionsklare arbejdsark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle opgaver til logisk tænkning, hvor børn finder den, der ikke hører til, i en række af fire billeder. Vælg mellem to tilstande: Identisk tilstand placerer tre ens billeder ved siden af ét, der passer ikke — perfekt til visuel klassifikation for de yngste. Lignende tilstand henter tre billeder fra ét tema og ét fra et andet til temaovergribende logik, hvor børn skal kategorisere og tænke abstrakt. Tilsidesæt tilstanden per øvelse for at blande sværhedsgrader inden for ét opgaveark. Konfigurer 5 til 10 øvelser per side og slå navn- og datofelter til. Hvert opgaveark genererer automatisk en facitliste med røde cirkler rundt det billede, der ikke passer. Det danske marked med 5,8 millioner dansktalende har næsten ingen printbare logikopgaver af typen "hvad passer ikke?" på Etsy.dk og Amazon KDP — en åben niche for sælgere. Opgaverne er ideelle til børnehaveklasse og indskoling (0.–3. klasse), hvor logisk tænkning og klassifikation er en del af læseplanen. Børn i mellemtrin (4.–6. klasse) kan udfordres med Lignende tilstand og subtile temadistinktioner. Fordi opgaverne er rent visuelle — ingen tekst på selve opgavearket — fungerer de på alle sprog uden oversættelse. Vælg blandt mere end 3.100 illustrationer i 104 temaer, tilføj baggrunds- og rammetemaer, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Find den Ulige Arbejdsark i 5 Trin',
+    title: 'Sådan laver du "hvad passer ikke?"-opgaver i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +60,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Find den Ulige Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i logik-generatoren til klassifikation',
     features: [
       {
         title: 'Find den der ikke hører til-puslespil med to genereringstilstande',
@@ -103,7 +106,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Find den Ulige Arbejdsark Online',
+    title: 'Sådan sælger du logikopgaver med "hvad passer ikke?" online',
     cases: [
       {
         title: 'Tematiske find den ulige puslespilspakker på Etsy.dk',
@@ -140,64 +143,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvordan fungerer find den ulige-mekanikken?',
+      question: 'Kan jeg sælge disse logikopgaver på Etsy?',
       answer:
-        'Hver øvelse viser fire billeder i et horisontalt kort — tre almindelige objekter og ét uligt objekt. Brugerne kigger på rækken, identificerer, hvilket billede der ikke hører til, og ringer det ind. Det ulige objekts position blandes tilfældigt inden for rækken, så det kan vises i enhver af de fire pladser. Øvelser arrangeres vertikalt på siden, med layoutet, der skifter til 2 kolonner ved liggende orientering eller stående med 7 eller flere øvelser.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine "hvad passer ikke?"-opgaver som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, eller via enhver anden salgskanal. Det danske marked med 5,8 millioner dansktalende har næsten ingen printbare klassifikationsopgaver, hvilket giver lav konkurrence. De to tilstande og 104 tematiske billedsamlinger giver dig værktøjerne til at producere originale logikopgaver til salg.',
+    },
+    {
+      question: 'Hvordan laver jeg "hvad passer ikke?"-opgaver?',
+      answer:
+        'Vælg en tilstand: Identisk tilstand viser tre ens billeder og ét, der passer ikke — perfekt til visuel klassifikation. Lignende tilstand henter tre billeder fra ét tema og ét fra et andet til temaovergribende logisk tænkning. Vælg temaer fra de 104 billedsamlinger, indstil 5–10 øvelser per side og klik Generer. Eksporter som printklare PDF\'er med 300 DPI — klar til salg.',
+    },
+    {
+      question: 'Er opgaverne egnede til børnehaveklasse, indskoling og mellemtrin?',
+      answer:
+        'Ja. Identisk tilstand er ideel til børnehaveklasse og indskoling (0.–3. klasse), hvor børn træner grundlæggende klassifikation og logisk tænkning ved at finde den, der ikke hører til. Lignende tilstand med subtile temadistinktioner udfordrer elever på mellemtrin (4.–6. klasse) til at kategorisere og tænke abstrakt. Tilsidesæt tilstanden per øvelse for at blande sværhedsgrader på ét opgaveark.',
+    },
+    {
+      question: 'På hvor mange sprog fungerer opgaverne?',
+      answer:
+        'Opgaverne er rent visuelle — ingen tekst vises på selve opgavearket. Et opgaveark oprettet på dansk fungerer identisk på alle 11 understøttede sprog (dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk). Kun overskriften "Find den der ikke hører til" oversættes. Én PDF kan sælges globalt uden oversættelse.',
+    },
+    {
+      question: 'Er facitlisten inkluderet?',
+      answer:
+        'Ja. Generatoren opretter automatisk en facitliste med en rød cirkel tegnet rundt det billede, der ikke passer, i hver øvelsesrække. Cirklens stregbredde skaleres dynamisk med billedstørrelse for tydelig synlighed. Download facit som separat JPEG eller PDF med fire dedikerede downloadknapper.',
     },
     {
       question: 'Hvad er forskellen mellem Identisk og Lignende tilstand?',
       answer:
-        'Identisk tilstand placerer tre kloner af præcis det samme billede ved siden af et anderledes billede fra det samme tema — brugerne finder den, der ikke er dublet. Lignende tilstand henter tre billeder fra Tema A (f.eks. dyr) og ét billede fra Tema B (f.eks. mad) — brugerne identificerer den tematiske afviger. Identisk tilstand er lettere, fordi brugerne sammenligner visuelle dubletter. Lignende tilstand er sværere, fordi alle fire billeder er forskellige, og distinktionen er kategorisk snarere end visuel.',
-    },
-    {
-      question: 'Hvordan fungerer tilstandstilsidesættelse per øvelse?',
-      answer:
-        'Hver øvelsesrække inkluderer sin egen tilstandsdropdown, der lader dig tilsidesætte den globale tilstandsindstilling. Indstil den globale tilstand til Lignende, skift derefter individuelle øvelser til Identisk — eller omvendt. Dette opretter arbejdsark med blandet sværhed, hvor nogle øvelser er lettere (Identisk) og andre er sværere (Lignende) på den samme side. En \"Ryd Valg\"-knap nulstiller alle per-øvelse-tilsidesættelser til den globale indstilling.',
-    },
-    {
-      question: 'Hvor mange øvelser kan jeg inkludere på et arbejdsark?',
-      answer:
-        'Øvelsesantallet er konfigurerbart fra 5 til 10, med standard sat til 6. Hver øvelse indeholder altid præcis 4 billeder (3 almindelige + 1 ulig). Færre øvelser generator større billedkort med mere afstand; flere øvelser øger indholdstætheden. Layoutet tilpasser sig automatisk — stående sider med 7+ øvelser og alle liggende sider bruger et 2-kolonnelayout for optimalt mellemrum.',
-    },
-    {
-      question: 'Hvordan fungerer totemasystemet i Lignende tilstand?',
-      answer:
-        'I Lignende tilstand vælger du to temaer fra dropdown-menuerne. Tema A giver de tre almindelige billeder for hver øvelse (f.eks. dyr), og Tema B giver det ene ulige objekt (f.eks. mad). Dette garanterer, at det ulige objekt altid er tematisk distinkt. Vælg blandt enhver kombination af de 104 tilgængelige temaer. I Identisk tilstand behøves kun ét tema, da både de almindelige kloner og det ulige billede kommer fra den samme samling.',
-    },
-    {
-      question: 'Hvordan fungerer det automatisk genererede facit med røde cirkler?',
-      answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser øvelseskortene uden markeringer — brugerne ringer det ulige objekt ind selv. Facit gengenerator det identiske layout og tegner en rød cirkelkontur rundt det ulige objekt i hver række. Cirklens stregbredde skaleres dynamisk med billedstørrelse (det større af imageSize × 0,04 eller 3 pixels). Begge versioner eksporteres separat med fire dedikerede downloadknapper.',
-    },
-    {
-      question: 'Kan jeg tilføje navn- og datofelter på find den ulige arbejdsark?',
-      answer:
-        'Ja. Slå fluebenet \"Inkluder Navn/Dato-felter\" i panelet Øvelseskonfiguration til for at tilføje navn- og datolinjer. Disse felter positioneres responsivt baseret på sidelayout. Navn- og datofelter gør arbejdsarkene produktlinjefærdige — sælgere kan spore udfyldte ark, og forældre kan organisere afsluttede aktiviteter efter dato.',
-    },
-    {
-      question: 'Hvordan fungerer øvelsesnumre?',
-      answer:
-        'Slå fluebenet \"Inkluder Øvelsesnumre\" i panelet Øvelseskonfiguration til for at vise numre på venstre side af hvert øvelseskort. Numre bruger 25px bredde med 15px mellemrum fra kortindholdet. Øvelsesnumre hjælper under produktlinjegennemgang og gør det nemt for sælgere at referere til specifikke øvelser under diskussion.',
+        'Identisk tilstand placerer tre kloner af det samme billede ved siden af ét anderledes billede — børn finder den, der ikke er dublet. Lignende tilstand henter tre billeder fra Tema A og ét fra Tema B — børn identificerer den tematiske afviger. Identisk er lettere og træner visuel klassifikation. Lignende er sværere og kræver logisk tænkning om kategorier.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — begge genereringstilstande, per-øvelse-tilsidesættelser, konfigurerbare øvelsesantal, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter, øvelsesnumre og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
+        'Ja. Du kan bruge alle funktioner — begge tilstande, per-øvelse-tilsidesættelser, konfigurerbart øvelsesantal, automatisk facit med røde cirkler, hele billedbiblioteket, baggrunds- og rammetemaer og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
-      question: 'Er find den ulige arbejdsark sprogfølsomme?',
+      question: 'Kan jeg tilføje navn- og datofelter?',
       answer:
-        'Nej. Til forskel fra apps, der viser ord på arbejdsarket, er find den ulige-puslespil helt visuelle — ingen tekst vises på selve puslespilsindholdet. Den automatisk genererede overskrift (\"Find den der ikke hører til\") oversættes til alle 11 understøttede sprog, men de faktiske øvelser indeholder kun billeder. Dette betyder, at hvert arbejdsark fungerer på ethvert sprog uden modifikation, hvilket gør find den ulige-puslespil ideelle til global markedspladssalg.',
-    },
-    {
-      question: 'Kan jeg sælge find den ulige arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine find den ulige arbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. De to genereringstilstande, per-øvelse-tilsidesættelser og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare visuelle diskrimineringsprodukter.',
-    },
-    {
-      question: 'Hvad er returpolitikken?',
-      answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste begge genereringstilstande, per-øvelse-tilsidesættelsessystemet, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter, øvelsesnumre og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Ja. Slå fluebenet "Inkluder Navn/Dato-felter" til i panelet Øvelseskonfiguration for at tilføje navn- og datolinjer. Du kan også aktivere øvelsesnumre på venstre side af hvert kort. Begge funktioner gør opgavearkene klar til brug i indskoling og børnehaveklasse uden yderligere forberedelse.',
     },
   ],
 
@@ -262,27 +245,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp',
-      primaryAlt: 'Find den ulige arbejdsark med fire billeder per øvelsesrække, farverige tematiske illustrationer og lokaliseret overskrift',
+      primaryAlt: 'Hvad passer ikke opgave til print med fire billeder per række til logisk tænkning og klassifikation',
     },
     sampleGallery: [
       {
         src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp',
-        alt: 'Lignende tilstand find den ulige arbejdsark med tre dyr og ét madobjekt per række',
-        caption: 'Lignende tilstand — tre billeder fra Tema A og ét uligt objekt fra Tema B',
+        alt: 'Logisk tænkning opgave med tre dyr og ét madobjekt — find den der ikke hører til',
+        caption: 'Lignende tilstand — tre billeder fra ét tema og ét, der passer ikke, fra et andet',
       },
       {
         src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%202.webp',
-        alt: 'Identisk tilstand find den ulige arbejdsark med tre identiske billeder og ét anderledes billede per række',
-        caption: 'Identisk tilstand — tre kloner af det samme billede og ét anderledes billede',
+        alt: 'Klassifikation opgaveark med tre identiske billeder og ét anderledes billede per række',
+        caption: 'Identisk tilstand — tre ens billeder og ét, der ikke hører til',
       },
       {
         src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%203.webp',
-        alt: 'Find den ulige facit med røde cirkler tegnet rundt det ulige objekt i hver øvelsesrække',
-        caption: 'Automatisk genereret facit — røde cirkler markerer det ulige objekt i hver række',
+        alt: 'Facitliste til hvad passer ikke opgave med røde cirkler rundt det billede, der ikke passer',
+        caption: 'Automatisk facit — røde cirkler markerer det billede, der passer ikke, i hver række',
       },
     ],
     youtubeId: '0R6WFUfY7Mk',
-    videoTitle: 'Sådan Opretter du Find den Ulige Arbejdsark med To Tilstande og Automatiske Facit — Trin-for-Trin Guide',
+    videoTitle: 'Lav "hvad passer ikke?"-opgaver til logisk tænkning — trin-for-trin guide',
   },
 };
 

@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tegne- og symmetriarbejdsark',
+    primaryKeyword: 'lav tegneaktiviteter til print',
     secondaryKeywords: [
-      'gittertegnings-arbejdsark for børn',
-      'symmetriarbejdsark-generator',
-      'printbare tegnearbejdsark til salg',
-      'celle-for-celle reproduktionsarbejdsark',
+      'tegne på gitter opgaver til børn',
+      'symmetriopgaver generator til indskoling',
+      'printbare tegneaktiviteter til salg på Etsy.dk',
+      'overtegne celle-for-celle reproduktionsopgaver',
     ],
     lsiKeywords: [
-      'dobbelt-gitter tegne-printables',
-      'justerbar ledetråds-procent arbejdsark',
-      'spejltilstand symmetriøvelser',
-      'sælg tegnearbejdsark på Etsy',
-      'Amazon KDP tegneaktivitetsbøger',
-      'sort-hvid omrids arbejdsark-værktøj',
+      'dobbelt-gitter tegne-opgaver til print',
+      'justerbar ledetråds-procent tegneaktiviteter',
+      'spejltilstand symmetriøvelser til børn',
+      'sælg tegneaktiviteter på Etsy.dk og Saxo.com',
+      'Amazon KDP tegneaktivitetshæfter',
+      'sort-hvid omrids opgave-værktøj',
     ],
-    titleTag: 'Tegne- og symmetriarbejdsark — Guide',
-    metaDescription: 'Skab tegne- og symmetriarbejdsark med dobbelt-gitter system, justerbar ledetråds-procent, tre symmetritilstande og sort-hvide omrids. Sælg på Etsy og KDP.',
+    titleTag: 'Lav tegneaktiviteter og symmetriopgaver til print — Guide',
+    metaDescription: 'Lav tegneaktiviteter med dobbelt-gitter system, justerbar ledetråds-procent, tre symmetritilstande og sort-hvide omrids. Sælg på Etsy.dk og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du tegne- og symmetriarbejdsark',
-    tagline: 'En trin-for-trin vejledning til at skabe gittertegnings-arbejdsark med justerbar sværhedsgrad, symmetritilstande og sort-hvide omridstemaer du kan sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Gittertegnings-arbejdsark kombinerer to efterspurgte færdigheder på en enkelt side: rumlig reproduktion og symmetrigenkendelse. Brugere kopierer et referencebillede celle-for-celle fra et delvist afsløret ledetrådsgitter ind i et blankt øvelsesgitter, der udvikler finmotorisk kontrol, observationsnøjagtighed og rumlig ræsonnering med hver øvelse. Denne guide fører dig igennem hele skabelsesprocessen med tegn og farvelæg arbejdsark-makeren — fra at konfigurere gitterdimensioner og ledetråds-procenter til at vælge symmetritilstande og eksportere trykklare PDF\'er. Dobbelt-gitter formatet, tekst-frit output og sort-hvid omridsstil gør disse arbejdsark universelt salgbare uden oversættelse. Uanset om du lancerer dit første tegnearbejdsark-produkt eller udvider et eksisterende visuelt aktivitetskatalog, vil du have færdige produkter klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav tegneaktiviteter og symmetriopgaver til print',
+    tagline: 'En trin-for-trin vejledning til at lave tegne-på-gitter opgaver med justerbar sværhedsgrad, symmetritilstande og sort-hvide omrids du kan sælge på Etsy.dk, Amazon KDP og Saxo.com',
+    description: 'Tegne-på-gitter opgaver kombinerer to efterspurgte færdigheder på en enkelt side: rumlig reproduktion og symmetrigenkendelse. Brugere kopierer et referencebillede celle-for-celle fra et delvist afsløret ledetrådsgitter ind i et blankt øvelsesgitter, der udvikler finmotorisk kontrol, observationsnøjagtighed og rumlig ræsonnering med hver øvelse. Denne guide fører dig igennem hele skabelsesprocessen med tegn og farvelæg arbejdsark-makeren — fra at konfigurere gitterdimensioner og ledetråds-procenter til at vælge symmetritilstande og eksportere trykklare PDF\'er. Dobbelt-gitter formatet, tekst-frit output og sort-hvid omridsstil gør disse arbejdsark universelt salgbare uden oversættelse. Uanset om du lancerer dit første tegnearbejdsark-produkt eller udvider et eksisterende visuelt aktivitetskatalog, vil du have færdige produkter klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Gittertegning er en af de mest effektive metoder til at udvikle rumlig bevidsthed og finmotorisk kontrol hos børn. I modsætning til frihåndstegning giver gitterbaseret reproduktion brugere en struktureret ramme: de observerer referenceceller, identificerer former og linjer, og gengenerator dem i tilsvarende blanke celler. Denne celle-for-celle tilgang opbygger observationsnøjagtighed, øje-hånd koordination og de rumlige ræsonneringsfærdigheder der understøtter geometri og designtænkning.\n\nDet der gør gittertegnings-arbejdsark særligt stærke som printable-produkt er dobbelt-gitter systemet. Hvert arbejdsark har to ledsagergittere per billede: et øvelsesgitter med tomme celler hvor brugere tegner, og et ledetrådsgitter der viser en konfigurerbar procentdel af referencebilledet som visuelle hints. Dette format er fundamentalt anderledes end farvelægningssider eller frihåndstegnings-opgaver fordi det giver struktureret vejledning der skalerer med sværhedsgrad. Sænk ledetråds-procenten for sværere øvelser, hæv den for lettere — det samme billede bliver til snesevis af distinkte produkter.\n\nTegn og farvelæg arbejdsark-makeren håndterer den tekniske kompleksitet. Den genererer dobbelt-gitter layouts automatisk, tilbyder tre symmetritilstande (Tilfældig, Horisontal spejling, Vertikal spejling) til rumlige ræsonneringsøvelser, og trækker fra et bibliotek med 100+ sort-hvide omridstema-samlinger med 3.000+ illustrationer specifikt designet til tegnereprodukion og farvelægning bagefter. To uafhængige sværhedsgrads-akser — gitterstørrelse (3×3 til 10×10) og ledetråds-procent (10% til 75%) — generator snesevis af unikke sværheidskombinationer fra et enkelt temabillede. Outputtet indeholder nul tekst, der gør hvert arbejdsark universelt salgbart uden oversættelse på tværs af alle internationale markedspladser.\n\nHver funktion beskrevet i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste enhver gitterstørrelse, ledetråds-procent og symmetritilstand, og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Tegne-på-gitter er en af de mest effektive metoder til at udvikle rumlig bevidsthed og finmotorisk kontrol hos børn i børnehaveklasse og indskoling. I modsætning til frihåndstegning giver overtegning med gitter børn en struktureret ramme: de observerer referenceceller, identificerer former og stiplede linjer, og gengiver dem i tilsvarende blanke celler. Denne celle-for-celle tilgang opbygger observationsnøjagtighed, øje-hånd koordination og de rumlige ræsonneringsfærdigheder der understøtter geometri og designtænkning.\n\nDet der gør gittertegnings-arbejdsark særligt stærke som printable-produkt er dobbelt-gitter systemet. Hvert arbejdsark har to ledsagergittere per billede: et øvelsesgitter med tomme celler hvor brugere tegner, og et ledetrådsgitter der viser en konfigurerbar procentdel af referencebilledet som visuelle hints. Dette format er fundamentalt anderledes end farvelægningssider eller frihåndstegnings-opgaver fordi det giver struktureret vejledning der skalerer med sværhedsgrad. Sænk ledetråds-procenten for sværere øvelser, hæv den for lettere — det samme billede bliver til snesevis af distinkte produkter.\n\nTegn og farvelæg arbejdsark-makeren håndterer den tekniske kompleksitet. Den genererer dobbelt-gitter layouts automatisk, tilbyder tre symmetritilstande (Tilfældig, Horisontal spejling, Vertikal spejling) til rumlige ræsonneringsøvelser, og trækker fra et bibliotek med 100+ sort-hvide omridstema-samlinger med 3.000+ illustrationer specifikt designet til tegnereprodukion og farvelægning bagefter. To uafhængige sværhedsgrads-akser — gitterstørrelse (3×3 til 10×10) og ledetråds-procent (10% til 75%) — generator snesevis af unikke sværheidskombinationer fra et enkelt temabillede. Outputtet indeholder nul tekst, der gør hvert arbejdsark universelt salgbart uden oversættelse på tværs af alle internationale markedspladser.\n\nHver funktion beskrevet i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste enhver gitterstørrelse, ledetråds-procent og symmetritilstand, og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

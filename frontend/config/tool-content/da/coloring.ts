@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'farvelægningsside generator lav sider',
+    primaryKeyword: 'malebilleder generator gratis online',
     secondaryKeywords: [
-      'farvelægningsside generator for sælgere',
-      'tilpassede farvelægningsarbejdsark online',
-      'farvelægningsside generator for hjemmeundervisning',
-      'printbare farvelægningssider for børn online',
+      'lav malebilleder gratis',
+      'farvelægning gratis til print',
+      'malebog prøv gratis',
     ],
     lsiKeywords: [
-      'produktlinjens farvelægningsside designer online',
-      'gråtone farvelægningsarbejdsark til tryk',
-      'frihåndstegning farvelægningsaktivitet generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'malebilleder',
+      'farvelægning',
+      'konturer',
     ],
-    titleTag: 'Tilpasset Farvelægningsside Generator — Lav Sider Online...',
-    metaDescription: 'Lav tilpassede farvelægningssider for din produktlinje eller hjemme. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis malebilleder generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv malebilleder-generatoren gratis online. 3.000+ temabilleder, højopløselige konturer. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Farvelægningsside Generator',
-    tagline: 'Frit arbejdsområde farvelægningsside generator med frihåndstegning, gråtoneeksport, produktlinjehjælpere og 104 tematiske billedsamlinger for professionelle farvelægningssider, der sælger globalt uden oversættelse',
-    description: 'Design professionelle farvelægningssider på et helt åbent arbejdsområde, hvor du placerer billeder præcis, hvor du vil — ingen gitre, ingen skabeloner, ingen bokse, ren kreativ frihed. Denne frie tilgang er kernedifferentiatoren: hver farvelægningsside, du laver, er unik og umulig at replikere med skabelonbaserede værktøjer. Gennemse 104 tematiske billedsamlinger med mere end 3.100 farverige illustrationer, klik for at tilføje billeder, arrangér derefter, ændr størrelse, rotér og lagdel elementer hvor som helst på arbejdsområdet. Frihåndstegningsværktøjet lader dig skitsere originale illustrationer direkte ved siden af biblioteksbilleder med justerbar penselfarve og størrelse (1–50 pixels), hvilket generator hybridfarvelægningssider, der blander kurateret kunstværk med dine egne tegninger. Étkliksproduktlinjehjælpere tilføjer et navnefelt (\"Navn: ____\") og skriveøvelseslinjer (heltrukket, stiplet, heltrukket) — forvandler farvelægningssider til produktlinjefærdige aktivitetsark, der sælger på Gumroad. Skift gråtoneeksport for at konvertere din farverige komposition til blækvenlige farvelægningssider perfekte til KDP-interiører og massetryk. Tilføj dekorative rammetemaer, tilpasset tekst med kontureffekter, og upload egne PNG-, JPG- eller GIF-billeder. Dette er en helt visuel app — outputtet indeholder ingen tekst, hvilket gør farvelægningssider universelt sælgbare uden oversættelse. Intet facit eksisterer, da farvelægning er en kreativ aktivitet uden korrekt svar. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis malebilleder generator — prøv online med vandmærke',
+    tagline: 'Prøv malebilleder-generatoren gratis online — 3.000+ temabilleder, højopløselige konturer, frihåndstegning og gråtoneeksport til farvelægning. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv malebilleder-generatoren gratis online og design professionelle farvelægningssider med konturer på et helt åbent arbejdsområde. Alle funktioner er tilgængelige i den gratis prøveversion — downloads indeholder et vandmærke, som fjernes med en licens. Denne frie tilgang er kernedifferentiatoren: hver farvelægningsside, du laver, er unik og umulig at replikere med skabelonbaserede værktøjer. Gennemse 104 tematiske billedsamlinger med mere end 3.100 farverige illustrationer, klik for at tilføje billeder, arrangér derefter, ændr størrelse, rotér og lagdel elementer hvor som helst på arbejdsområdet. Frihåndstegningsværktøjet lader dig skitsere originale illustrationer direkte ved siden af biblioteksbilleder med justerbar penselfarve og størrelse (1–50 pixels), hvilket generator hybridfarvelægningssider, der blander kurateret kunstværk med dine egne tegninger. Étkliksproduktlinjehjælpere tilføjer et navnefelt (\"Navn: ____\") og skriveøvelseslinjer (heltrukket, stiplet, heltrukket) — forvandler farvelægningssider til produktlinjefærdige aktivitetsark, der sælger på Gumroad. Skift gråtoneeksport for at konvertere din farverige komposition til blækvenlige farvelægningssider perfekte til KDP-interiører og massetryk. Tilføj dekorative rammetemaer, tilpasset tekst med kontureffekter, og upload egne PNG-, JPG- eller GIF-billeder. Dette er en helt visuel app — outputtet indeholder ingen tekst, hvilket gør farvelægningssider universelt sælgbare uden oversættelse. Intet facit eksisterer, da farvelægning er en kreativ aktivitet uden korrekt svar. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Tilpassede Farvelægningssider i 8 Trin',
+    title: 'Sådan laver du malebilleder i 8 trin',
     steps: [
       {
         title: 'Åbn Farvelægningsside Generatoren',
@@ -155,15 +157,15 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner låst op — hele det frie arbejdsområde, alle 104 tematiske billedsamlinger med mere end 3.100 illustrationer, frihåndstegningsværktøjet, produktlinjehjælpere (navnefelt og skriveøvelseslinjer), gråtoneeksport, dekorative rammer, tilpasset billedupload og alle eksportformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Kan jeg prøve malebilleder-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — hele det frie arbejdsområde, alle 104 temabilledsamlinger med 3.000+ malebilleder og konturer, frihåndstegningsværktøjet, produktlinjehjælpere (navnefelt og skriveøvelseslinjer), gråtoneeksport, dekorative rammer, tilpasset billedupload og alle eksportformater. Ingen kreditkort kræves. Gratis downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvad gør det frie arbejdsområde anderledes end skabelonbaserede værktøjer?',
-      answer: 'Farvelægningsside Generatoren giver dig et helt åbent arbejdsområde uden gitre, skabeloner, bokse eller forudbestemte layouts. Hvert billede placeres præcis, hvor du trækker det. Du kan overlappe billeder, rotere dem til enhver vinkel, ændre størrelse frit og skabe lagdelte kompositioner. Skabelonværktøjer låser dig i faste positioner. Den frie tilgang betyder, at hver farvelægningsside, du laver, er unik.',
+      question: 'Hvad gør malebilleder-generatoren anderledes end skabelonbaserede værktøjer?',
+      answer: 'Malebilleder-generatoren giver dig et helt åbent arbejdsområde uden gitre, skabeloner eller forudbestemte layouts. Hvert billede placeres præcis, hvor du trækker det. Du kan overlappe billeder, rotere dem til enhver vinkel, ændre størrelse frit og skabe lagdelte kompositioner. Den frie tilgang betyder, at hvert malebillede, du laver, er unikt.',
     },
     {
-      question: 'Hvordan fungerer gråtoneeksporten?',
+      question: 'Hvordan fungerer gråtoneeksport til malebilleder?',
       answer: 'Billedbiblioteket indeholder farverige illustrationer, som du bruger under design. Når du er klar til at eksportere, skift gråtonemuligheden i panelen Download for at konvertere din farverige komposition til blækvenlige farvelægningssider. Gråtonekonverteringen sker ved eksporttidspunktet — dit arbejdsområde forbliver farverigt, mens du arbejder. Denne metode er ideel til KDP-interiører og massetryk.',
     },
     {
@@ -214,22 +216,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/coloring/coloring%20portrait%201.webp',
-      primaryAlt: 'Tilpasset farvelægningsside lavet på frit arbejdsområde med farverige tematiske illustrationer arrangeret i en original komposition med dekorativ ramme',
+      primaryAlt: 'Gratis malebilleder med konturer og temabilleder til farvelægning — prøv online med vandmærke',
     },
     sampleGallery: [
       {
         src: '/samples/danish/coloring/coloring%20portrait%201.webp',
-        alt: 'Dyretema farvelægningsside med flere illustrationer arrangeret på frit arbejdsområde, der viser kreative layoutmuligheder',
+        alt: 'Gratis malebilleder med dyretema og konturer arrangeret på frit arbejdsområde til farvelægning',
         caption: 'Dyretema farvelægningsside — frit arbejdsområdelayout med flere illustrationer arrangeret i en unik komposition',
       },
       {
         src: '/samples/danish/coloring/coloring%20portrait%202.webp',
-        alt: 'Produktlinjefærdig farvelægningsside med navnefelt og skriveøvelseslinjer tilføjet med étkliksproduktlinjehjælpere',
+        alt: 'Gratis malebilleder med navnefelt og skriveøvelseslinjer til produktlinjefærdig farvelægning',
         caption: 'Produktlinjeaktivitetsark — navnefelt og skriveøvelseslinjer forvandler farvelægningssider til strukturerede indlæringsaktiviteter',
       },
       {
         src: '/samples/danish/coloring/coloring%20landscape%201.webp',
-        alt: 'Gråtone farvelægningsside-eksport, der viser blækvenlig konvertering fra farverig komposition til KDP-interiører og massetryk',
+        alt: 'Gratis malebilleder i gråtone med konturer til blækvenlig farvelægning og KDP-print',
         caption: 'Gråtoneeksport — farverige kompositioner konverteres til blækvenlige farvelægningssider til KDP-interiører og massetryk',
       },
     ],

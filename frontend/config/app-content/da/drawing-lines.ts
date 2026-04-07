@@ -2,31 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'arbejdsark tegn linjer generator opret sporingsarbejdsark',
+    primaryKeyword: 'skrivemotorik linjer til print',
     secondaryKeywords: [
-      'linjesporing arbejdsark sælg på Etsy',
-      'tegn linjer arbejdsark generator til Amazon KDP',
-      'linjesporing arbejdsark kommerciel licens',
-      'printbare linjesporingsøvelser til Gumroad',
+      'stiplede linjer overtegne',
+      'finmotorik opgaveark',
+      'overtegne øvelser børnehaveklasse',
+      'linjer trække opgave',
     ],
     lsiKeywords: [
-      'digitale linjesporing produkter online forretning',
-      'printbare finmotoriske arbejdsark business',
-      'tegn linjer generator kommercielt brug',
+      'stiplede linjer',
+      'overtegne',
+      'finmotorik',
+      'pennegreb',
+      'børnehaveklasse',
+      '1. klasse',
     ],
-    titleTag: 'Tegn Linjer Generator | Opret Sporingsarbejdsark',
-    metaDescription: 'Opret linjesporingsarbejdsark til salg på Etsy, KDP og Gumroad. Otte SVG-skabeloner, billedparmatchning, 104 tematiske samlinger. $49 engangsbetaling.',
+    titleTag: 'Skrivemotorik linjer til print | Generator overtegne-øvelser',
+    metaDescription: 'Lav overtegne- og skrivemotorik-opgaver med temabilleder. 300 DPI PDF printklare. Prøv gratis — kommerciel licens.',
   },
 
   hero: {
-    title: 'Tegn Linjer Arbejdsark Generator til Linjesporingsøvelser',
-    tagline: 'Otte SVG-linjeskabeloner — kurver, diagonaler, horisontale og vertikale — med 4–5 billedpar per side til finmotorisk udvikling gennem guidet linjesporing.',
+    title: 'Skrivemotorik linjer til print — Generator til overtegne-øvelser og finmotorik',
+    tagline: 'Otte SVG-linjeskabeloner — kurver, diagonaler, horisontale og vertikale — med 4–5 billedpar per side til finmotorisk udvikling og pennegrebstræning i børnehaveklasse og 1. klasse.',
     description:
-      'Byg professionelle linjesporingsarbejdsark, hvor brugerne tegner langs guidede baner for at forbinde matchende billedpar. Otte SVG-baserede skabeloner dækker fire linjetyper: fire kurveskabeloner til flydende bevægelser, to diagonalskabeloner til vinklede streger, en horisontal skabelon til lige sporinger og en vertikal skabelon til oppefra-og-ned-øvelse. Hver skabelon placerer 4 eller 5 matchende billedpar på modsatte sider af linjebanen, hvilket giver brugerne et visuelt mål ved hver ende. Auto-udfyld tildeler tilfældigt billedpar fra ethvert valgt tema eller på tværs af alle temaer samtidig. Indhold hentes fra det indbyggede billedbibliotek med mere end 3.100 farverige illustrationer i 104 temaer — dyr, køretøjer, mad, natur og snesevis flere. Hvert arbejdsark er rent visuelt med nul tekst på resultatet, hvilket gør dem universelt brugbare uanset sprog eller læseniveau. Skabelonvalget styrer sideorienteringen automatisk: kurveskabeloner bruger liggende format til svejende bevægelser, mens diagonal-, horisontal- og vertikalskabeloner bruger stående format til fokuseret oppefra-og-ned-øvelse. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter-, A4- eller brugerdefineret format. Uanset om du sælger linjesporingspakker på Etsy.dk, sammensætter finmotoriske arbejdsbøger til Amazon KDP eller opretter skriveforberedende stationer til Gumroad — Tegn Linjer Arbejdsark Generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle skrivemotorik- og overtegne-opgaver til print, hvor børn tegner langs stiplede linjer for at forbinde matchende billedpar. Det danske marked (5,8 mio. dansktalende, Etsy.dk, lav konkurrence) giver en unik mulighed for sælgere af finmotorik-opgaveark til børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse). Otte SVG-baserede skabeloner dækker fire linjetyper: fire kurveskabeloner til flydende bevægelser, to diagonalskabeloner til vinklede streger, en horisontal skabelon til lige sporinger og en vertikal skabelon til oppefra-og-ned-øvelse. Hver skabelon placerer 4 eller 5 matchende billedpar på modsatte sider af linjebanen, hvilket giver børnene et visuelt mål ved hver ende. Auto-udfyld tildeler tilfældigt billedpar fra ethvert valgt tema eller på tværs af alle temaer samtidig. Indhold hentes fra det indbyggede billedbibliotek med mere end 3.100 farverige illustrationer i 104 temaer — dyr, køretøjer, mad, natur og snesevis flere. Hvert opgaveark er rent visuelt med nul tekst på resultatet, hvilket gør dem universelt brugbare uanset sprog eller læseniveau — perfekt til børnehaveklasse og 1. klasse. Skabelonvalget styrer sideorienteringen automatisk: kurveskabeloner bruger liggende format til svejende bevægelser, mens diagonal-, horisontal- og vertikalskabeloner bruger stående format til fokuseret pennegrebstræning. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter-, A4- eller brugerdefineret format. Uanset om du sælger overtegne-pakker på Etsy.dk, sammensætter finmotorik-arbejdsbøger til Amazon KDP eller opretter skriveforberedende stationer til Gumroad — denne generator leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Tegn Linjer-Arbejdsark i 5 Trin',
+    title: 'Sådan laver du skrivemotorik-opgaver i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +60,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Tegn Linjer Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i skrivemotorik-generatoren',
     features: [
       {
         title: 'Otte SVG-linjeskabeloner: kurver, diagonaler, horisontale og vertikale',
@@ -103,7 +106,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Tegn Linjer-Arbejdsark Online',
+    title: 'Sådan sælger du overtegne-opgaver online',
     cases: [
       {
         title: 'Linjesporingspakker på Etsy.dk',
@@ -140,44 +143,34 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvad er de otte linjeskabeloner, og hvordan adskiller de sig?',
+      question: 'Kan jeg sælge disse overtegne-opgaver på Etsy?',
       answer:
-        'De otte skabeloner dækker fire linjetyper. Fire kurveskabeloner generator flydende, svejende baner i liggende format med 4 billedpar hver — hver kurvevariant tilbyder en anderledes form for visuel variation. To diagonalskabeloner producerer vinklede linjer i stående format med 5 par. En horisontal skabelon genererer lige venstre-til-højre-linjer i stående format med 5 par. En vertikal skabelon generator oppefra-og-ned-linjer i stående format med 4 par. Hver linjetype retter sig mod en anderledes finmotorisk færdighed, hvilket lader dig oprette progressive sværhedssæt.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine skrivemotorik-opgaver som digitale downloads på Etsy.dk, som trykte finmotorik-bøger på Amazon KDP, som ressourcer på Gumroad eller via enhver anden salgskanal. De otte linjeskabeloner, 104 billedtemaer og det helt visuelle format giver dig stærk differentiering og global salgbarhed.',
     },
     {
-      question: 'Hvilke linjetyper findes, og hvilke færdigheder udvikler de?',
+      question: 'Hvordan laver jeg overtegne-opgaver?',
       answer:
-        'Kurvede linjer udvikler håndledsfleksibilitet og flydende bevægelse, når brugerne følger svejende buer. Diagonale linjer bygger tværsidig koordination med vinklede sporingsbaner. Horisontale linjer forstærker venstre-til-højre retningskontrol — den samme sporingsretning, der bruges ved læsning og skrivning. Vertikale linjer øver oppefra-og-ned streger, der er essentielle for bogstavsformning. Tilsammen dækker disse fire linjetyper de grundlæggende finmotoriske færdigheder, der er nødvendige for skriveberedskab.',
+        'Åbn generatoren, vælg en af de otte SVG-linjeskabeloner (kurver, diagonaler, horisontale eller vertikale), vælg et billedtema fra de 104 samlinger og brug auto-udfyld til at placere billedpar. Klik Generer og eksporter som 300 DPI PDF eller JPEG — færdigt til print. Hvert opgaveark er rent visuelt uden tekst, så det fungerer universelt.',
     },
     {
-      question: 'Hvordan fungerer billedparmatchning på hver skabelon?',
+      question: 'Er de egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Hver skabelon placerer matchende billedpar på modsatte sider af linjebanen. Et billede vises ved linjens start, og dets match vises ved slutningen. Brugerne sporer langs den guidede linjebane for at forbinde de matchende billeder. Skabeloner rummer 4 eller 5 par afhængigt af linjetype — kurve- og vertikalskabeloner bruger 4 par, diagonal- og horisontalskabeloner bruger 5. De matchende billeder giver brugerne et visuelt mål, der motiverer dem til at fuldføre hver linje.',
+        'Ja. Overtegne-opgaverne passer alle aldersgrupper. Til børnehaveklasse: begynd med horisontale stiplede linjer for grundlæggende pennegreb. Til indskoling (0.–3. klasse): avancér til kurveskabeloner for håndledsfleksibilitet. Til mellemtrin (4.–6. klasse): brug diagonale linjer for tværsidig koordination. Skabelonvalget styrer sværhedsgraden automatisk.',
     },
     {
-      question: 'Hvordan fungerer auto-udfyld-funktionen?',
+      question: 'På hvor mange sprog fungerer opgaverne?',
       answer:
-        'Auto-udfyld tildeler tilfældigt billedpar fra det valgte tema eller på tværs af alle tilgængelige temaer samtidig. Klik på auto-udfyld-knappen, og hver parplads på den aktuelle skabelon udfyldes direkte med matchende billeder. Dette er særligt nyttigt til batchproduktion — vælg et tema, auto-udfyld, eksporter, skift derefter tema og gentag for at generere snesevis af unikke arbejdsark på minutter uden at placere hvert billede manuelt.',
+        'Overtegne-opgaverne er rent visuelle — ingen tekst på resultatet — så de fungerer på ethvert sprog uden oversættelse. Grænsefladen understøtter 11 sprog (dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk), men selve opgavearket er identisk uanset sprogvalg. Ét produkt kan sælges globalt.',
     },
     {
-      question: 'Hvorfor bruger nogle skabeloner liggende og andre stående format?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Skabelonorienteringen styres af linjetypen. De fire kurveskabeloner bruger liggende format, fordi svejende kurvede linjer har brug for den bredere dimension for at svinge naturligt. Diagonal-, horisontal- og vertikalskabeloner bruger stående format, fordi deres linjebaner passer bedre i den smallere, højere sideform. Denne automatiske orienteringsskift sikrer, at hver linjetype får maksimalt plads til tydelige, sporbare baner.',
+        'Overtegne-opgaver har ikke brug for en separat facitliste, fordi linjebanen i sig selv guider barnet. SVG-linjeskabelonen viser præcis, hvor man skal overtegne — børnene følger den synlige bane fra et billede til dets match. Øvelsen er selvkontrollerende: hvis linjen følger banen og når det matchende billede, er den gennemført korrekt.',
     },
     {
-      question: 'Hvorfor er der ingen facitliste for Tegn Linjer-arbejdsark?',
+      question: 'Hvilke finmotoriske færdigheder udvikler skabelonerne?',
       answer:
-        'Tegn Linjer-arbejdsark har ikke brug for en separat facitliste, fordi linjebanen i sig selv guider brugeren. SVG-linjeskabelonen, der er trykt på arbejdsarket, viser præcis, hvor man skal spore — brugerne følger den synlige bane fra et billede til dets match. Øvelsen er selvkontrollerende: hvis brugerens linje følger banen og når det matchende billede, har de gennemført den korrekt.',
-    },
-    {
-      question: 'Kan jeg uploade egne billeder i stedet for at bruge biblioteket?',
-      answer:
-        'Ja. Funktionen til upload af egne billeder lader dig tilføje ethvert billede til dine linjesporingsarbejdsark. Upload fotos, illustrationer eller grafik relevant for dit specifikke emne eller målgruppe. Egne billeder vises ved siden af bibliotekets billeder og fungerer med alle otte skabeloner og auto-udfyld-funktionen. Dette er nyttigt til at oprette emnespecifikke arbejdsark eller brandede produkter.',
-    },
-    {
-      question: 'Kan jeg tilføje felter til navn og dato på arbejdsarket?',
-      answer:
-        'Ja. Aktiver navn- og datofelter fra panelet Indhold. De vises i Fredoka-skrifttype ved 18px i en mørkegrå farve. Du kan også tilføje brugerdefineret tekst med panelet Tekstværktøjer med enhver tilgængelig skrifttype — Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito og Quicksand — og flytte dem hvor som helst på lærredet.',
+        'Kurvede linjer udvikler håndledsfleksibilitet og flydende bevægelse. Diagonale linjer bygger tværsidig koordination. Horisontale linjer forstærker venstre-til-højre retningskontrol — den samme bevægelse som ved læsning og skrivning. Vertikale linjer øver oppefra-og-ned streger, der er essentielle for bogstavsformning. Tilsammen dækker de fire linjetyper grundlæggende pennegrebsfærdigheder.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
@@ -185,19 +178,9 @@ const content: AppContent = {
         'Ja. Du kan bruge alle funktioner — alle otte linjeskabeloner, hele billedbiblioteket, auto-udfyld, alle eksportformater og de komplette lærredsredigeringsværktøjer — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
-      question: 'Er Tegn Linjer-generatoren sprogfølsom?',
-      answer:
-        'Nej. Tegn Linjer er en rent visuel app — arbejdsarkene indeholder kun billeder, linjebaner og dekorative rammer med nul tekst på resultatet, så de er identiske på ethvert sprog. At skifte sprog påvirker kun brugerfladeetiketter og billedbiblioteksetiketter i generatoren, ikke arbejdsarkets indhold. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog.',
-    },
-    {
-      question: 'Kan jeg sælge arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine linjesporingsarbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som pædagogiske ressourcer på Gumroad eller via enhver anden salgskanal. De otte linjeskabeloner, 104 billedtemaer og det helt visuelle format giver dig stærk differentiering og global salgbarhed i markedsplads-kategorier.',
-    },
-    {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver linjeskabelon, hvert billedtema, auto-udfyld-funktionen, hvert eksportformat og hvert sideformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver linjeskabelon, hvert billedtema, auto-udfyld-funktionen og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
     },
   ],
 
@@ -262,27 +245,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/drawing%20lines/Linjetegnings%C3%B8velse%201.webp',
-      primaryAlt: 'Linjesporingsarbejdsark med kurvet linjeskabelon, der forbinder matchende dyrebilledpar i liggende format',
+      primaryAlt: 'Skrivemotorik overtegne-opgave til print med kurvede stiplede linjer mellem matchende billedpar i liggende format',
     },
     sampleGallery: [
       {
         src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%201.webp',
-        alt: 'Linjesporingsarbejdsark med kurveskabelon, der forbinder matchende billedpar i liggende orientering',
-        caption: 'Kurveskabelon — brugerne sporer flydende kurvede linjer for at forbinde matchende billedpar',
+        alt: 'Overtegne-øvelse med kurvede stiplede linjer til finmotorik og pennegreb i børnehaveklasse',
+        caption: 'Kurveskabelon — børnene overtegner flydende kurvede linjer for at forbinde matchende billedpar',
       },
       {
         src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%202.webp',
-        alt: 'Linjesporingsarbejdsark med diagonalskabelon, der forbinder fem billedpar i stående orientering',
+        alt: 'Finmotorik opgaveark med diagonale stiplede linjer og fem billedpar til indskoling',
         caption: 'Diagonalskabelon — vinklede linjer med 5 billedpar til tværsidig koordinationsøvelse',
       },
       {
         src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%204.webp',
-        alt: 'Linjesporingsarbejdsark med horisontal skabelon, der forbinder billedpar med lige linjer i stående format',
-        caption: 'Horisontal skabelon — lige venstre-til-højre-linjer med tematiske billeder',
+        alt: 'Skrivemotorik opgave med horisontale stiplede linjer og tematiske billeder til 1. klasse',
+        caption: 'Horisontal skabelon — lige venstre-til-højre-linjer til pennegrebstræning',
       },
     ],
     youtubeId: 'P9q3ymjFnOQ',
-    videoTitle: 'Sådan Opretter du Linjesporingsarbejdsark med Otte SVG-Skabeloner — Trin-for-Trin Guide',
+    videoTitle: 'Sådan laver du skrivemotorik overtegne-opgaver med otte SVG-skabeloner — trin-for-trin guide',
   },
 };
 

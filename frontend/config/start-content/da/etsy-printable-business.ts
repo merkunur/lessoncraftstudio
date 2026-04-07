@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'saelg printbare produkter paa etsy masterclass printbar forretning',
+    primaryKeyword: 'sælg opgaver til print på Etsy.dk sidegesjæft',
     secondaryKeywords: [
-      'Etsy printbar forretning',
-      'Etsy butik for printbare arbejdsark',
-      'hvordan man saelger arbejdsark paa Etsy',
-      'Etsy digitale downloads forretning',
+      'Etsy.dk printbar forretning passiv indkomst',
+      'Etsy butik for opgaver til print sælg online',
+      'hvordan man sælger opgaver til print på Etsy.dk',
+      'Etsy digitale downloads printbar forretning Danmark',
     ],
     lsiKeywords: [
-      'Etsy SEO for saelgere af printbare produkter',
-      'Etsy annonceringsoptimering arbejdsark',
-      'Etsy butiksopsaetning digitale produkter',
-      'Etsy tags for printbare arbejdsark',
-      'arbejdsarksgenerator for Etsy-saelgere',
-      'Etsy prissaetningsstrategi printbare',
+      'Etsy SEO for sælgere af opgaver til print',
+      'Etsy annonceringsoptimering regneopgaver ordleg',
+      'Etsy.dk butiksopsætning digitale produkter sidegesjæft',
+      'Etsy tags for printbare opgaver malebilleder',
+      'opgavegenerator for Etsy-sælgere printbar forretning',
+      'Etsy prissætningsstrategi printbare opgaver',
     ],
-    titleTag: 'Saelg printbare produkter paa Etsy — Masterclass',
-    metaDescription: 'Saadan saelger du printbare produkter paa Etsy trin for trin. Butiksopsaetning, Etsy SEO, annonceringsoptimering, prissaetning og skalering med.',
+    titleTag: 'Sælg opgaver til print på Etsy.dk — masterclass | Sidegesjæft',
+    metaDescription: 'Sådan sælger du opgaver til print på Etsy.dk trin for trin. Butiksopsætning, Etsy SEO, annonceringsoptimering, prissætning og skalering. Sidegesjæft guide.',
   },
 
   hero: {
-    title: 'Etsy printbar forretning — Masterclass',
-    tagline: 'Den platformsspecifikke guide til at bygge en profitabel printbar arbejdsarksbutik paa Etsy',
-    description: 'Etsy er den enkeltstaaende stoerste markedsplads for printbare digitale downloads. Denne masterclass daekker alt du har brug for til at bygge en profitabel printbar arbejdsarksbutik paa platformen — fra indledende butiksopsaetning og Etsy-specifik SEO til annonceringsoptimering, prissaetningsstrategi, annoncering og skalering ud over dine foerste 50 produkter. Hver strategi i denne guide er skraeddersyet specifikt til hvordan Etsy fungerer, ikke generiske raad der gaelder enhver markedsplads.',
+    title: 'Etsy.dk printbar forretning — masterclass',
+    tagline: 'Den platformsspecifikke guide til at bygge en profitabel butik med opgaver til print på Etsy.dk',
+    description: 'Etsy er den enkeltstående største markedsplads for printbare digitale downloads — og Etsy.dk er din direkte vej til danske købere. Denne masterclass dækker alt du har brug for til at bygge en profitabel butik med opgaver til print på platformen — fra indledende butiksopsætning og Etsy-specifik SEO til annonceringsoptimering, prissætningsstrategi, annoncering og skalering ud over dine første 50 produkter. Hver strategi i denne guide er skraeddersyet specifikt til hvordan Etsy fungerer, ikke generiske raad der gaelder enhver markedsplads.',
   },
 
   introduction: 'Etsy haandterer milliarder af dollars i salg af digitale downloads hvert aar, og printbare arbejdsark er en af platformens hurtigst voksende kategorier. I modsaetning til at saelge paa din egen hjemmeside hvor du skal generere enhver besogende selv, leverer Etsy koebere der allerede soeger efter praecis det du laver. Foraeldre skriver \"printbare additionsarbejdsark\" i Etsy-soegningen. Koebere soeger efter \"foerskole malebilleder pakke.\" Hjemmeundervisningsfamilier leder efter \"indskoling matematikoevselsesark.\"\n\nMen Etsy er ogsaa overfyldt. Tusindvis af saelgere lister printbare arbejdsark, og platformens soegealgoritme afgoer hvem der faar synlighed og hvem der forsvinder i maengden. At lykkes paa Etsy kraever forstaaelse af hvordan platformens soegning fungerer, hvad der faar koebere til at klikke paa din annonce i stedet for en konkurrents, og hvordan du strukturerer din butik for maksimal opdagelighed.\n\nDenne masterclass er Etsy-specifik fra start til slut. Generelle raad om printbar forretning findes i vores Komplette guide til at starte en printbar forretning. Denne guide antager at du har besluttet dig for Etsy som din platform og vil have den taktiske, platformsspecifikke viden for at lykkes.\n\nEn note foer vi dykker ind: hver arbejdsarksgenerator naevnt i denne guide tilbyder en gratis proeveversion med vandmaerke. Du kan lave proeveprodukter, teste Etsy-annoncer og validere din niche foer du koeber en kommerciel licens.',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab arbejdsark på flere sprog',
+    primaryKeyword: 'opgaver på flere sprog til print',
     secondaryKeywords: [
       'flersproget arbejdsark-skabelse',
       'oversæt arbejdsark til salg',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'RTL layout tekstlængdevariation sammensatte ord kulturel tilpasning arbejdsark-lokalisering',
       'batchproduktion flersproget indholdsgenerering automatiserede oversættelsesværktøjer vokabulardatabaser',
     ],
-    titleTag: 'Skab arbejdsark på flere sprog — Guide',
-    metaDescription: 'Sådan generator du arbejdsark på flere sprog med produktionsworkflows, tegnhåndtering, skrifttypevalg,. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Opgaver på flere sprog til print — Guide for sælgere',
+    metaDescription: 'Lav opgaver til print på flere sprog. Produktionsworkflows, tegnhåndtering og flersproget salg på Etsy.dk og Amazon KDP med kommerciel licens.',
   },
 
   hero: {

@@ -2,30 +2,34 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ordsøgning arbejdsark generator',
+    primaryKeyword: 'ordleg generator gratis online',
     secondaryKeywords: [
-      'ordsøgning puslespil generator for sælgere',
-      'lav ordgitter arbejdsark til salg',
-      'printbare ordsøgning arbejdsark kommerciel brug',
-      'ordsøgning generator til KDP',
+      'lav ordleg gratis',
+      'bogstavjagt gratis til print',
+      'ordleg prøv gratis',
+      'gratis ordpuzzel med billeder',
     ],
     lsiKeywords: [
-      'skjulte ord gitterpuslespil printbare til Etsy',
-      'lokalbevidst ordsøgning arbejdsark værktøj',
-      'flersproget ordsøgning puslespil generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'ordleg',
+      'bogstavjagt',
+      'gitter',
+      'facit',
     ],
-    titleTag: 'Ordsøgning Arbejdsark Generator | LCS',
-    metaDescription: 'Generér ordsøgning arbejdsark med justerbare gitre fra 5×5 til 30×30, retningskontroller, lokalbevidste. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis ordleg generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv ordleg-generatoren gratis online med vandmærke. 3.000+ temabilleder, eget ordvalg, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Ordsøgning Arbejdsark Generator',
-    tagline: 'Lav skjulte-ord gitterpuslespil med justerbare størrelser, retningskontroller og lokalbevidste fyldningsbogstaver på 11 sprog',
-    description: 'Design professionelle ordsøgning arbejdsark, hvor skjulte ord er indlejret i et gitter af tilfældige fyldningsbogstaver, og brugerne scanner rækker, kolonner og diagonaler for at finde dem — det klassiske puslespilformat, der aldrig går af mode. Dette værktøj giver dig præcis kontrol over sværhedsgraden gennem to uafhængige akser: gitterstørrelse (justerbar fra 5×5 til 30×30 med rækker og kolonner indstillet uafhængigt) og ordretningskontakter (diagonale ord til eller fra, baglæns ord til eller fra), der generator alt fra to til otte mulige placeringsretninger. Vælg blandt tre indholdskilder: Billedbibliotek henter fra mere end 3.100 illustrationer i 104 tematiske samlinger, Manuelt Redigeringstilstand lader dig vælge billeder og tilpasse visningsnavne, og Tilpasset Ordliste lader dig skrive op til 8 ord direkte til tekstbaserede puslespil. Tre visningstilstande — Ord + Billeder, Kun Billeder og Kun Ord — styrer, hvad der vises som ledetråde ved siden af gitteret. Den kendetegnende funktion er lokalbevidst alfabetsfyldning: når du skifter sprog, ændres gitterets fyldningsbogstaver til at matche det pågældende sprogs tegnsæt med vægtede frekvensfordelinger. Danske gitre inkluderer æ, ø, å ved naturlige frekvenser. Tyske gitre inkluderer ä, ö, ü og ß. Franske gitre inkluderer é, è, ç, à. Hvert sprog får autentiske fyldningstegn, hvilket gør puslespillene sprogligt ægte snarere end åbenlyst engelskgenererede. Et farvekodede facit markerer hvert fundet ord i en af seks cyklende farver — rosa, blå, grøn, guld, koral og lavendel — for øjeblikkelig visuel verifikation. Eksportér trykfærdige PDF\'er og JPEG-billeder med 400+ DPI i Letter, A4 eller tilpassede størrelser. Vælg blandt 7 skrifttypefamilier, tilføj navn- og datofelter, skift gråtone for blækvenligt output, og brug hele Fabric.js arbejdsområdet til at flytte hvert element. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis ordleg generator — prøv online med vandmærke',
+    tagline: 'Prøv ordleg-generatoren gratis online — bogstavjagt med temabilleder, eget ordvalg, automatisk facit, ingen tilmelding',
+    description: 'Prøv vores ordleg-generator gratis online med vandmærke. Lav bogstavjagt-puslespil med 3.000+ temabilleder, eget ordvalg og farvekodede facit — helt uden tilmelding. Dette værktøj giver dig præcis kontrol over sværhedsgraden gennem to uafhængige akser: gitterstørrelse (justerbar fra 5×5 til 30×30 med rækker og kolonner indstillet uafhængigt) og ordretningskontakter (diagonale ord til eller fra, baglæns ord til eller fra), der generator alt fra to til otte mulige placeringsretninger. Vælg blandt tre indholdskilder: Billedbibliotek henter fra mere end 3.100 illustrationer i 104 tematiske samlinger, Manuelt Redigeringstilstand lader dig vælge billeder og tilpasse visningsnavne, og Tilpasset Ordliste lader dig skrive op til 8 ord direkte til tekstbaserede puslespil. Tre visningstilstande — Ord + Billeder, Kun Billeder og Kun Ord — styrer, hvad der vises som ledetråde ved siden af gitteret. Den kendetegnende funktion er lokalbevidst alfabetsfyldning: når du skifter sprog, ændres gitterets fyldningsbogstaver til at matche det pågældende sprogs tegnsæt med vægtede frekvensfordelinger. Danske gitre inkluderer æ, ø, å ved naturlige frekvenser. Tyske gitre inkluderer ä, ö, ü og ß. Franske gitre inkluderer é, è, ç, à. Hvert sprog får autentiske fyldningstegn, hvilket gør puslespillene sprogligt ægte snarere end åbenlyst engelskgenererede. Et farvekodede facit markerer hvert fundet ord i en af seks cyklende farver — rosa, blå, grøn, guld, koral og lavendel — for øjeblikkelig visuel verifikation. Eksportér trykfærdige PDF\'er og JPEG-billeder med 400+ DPI i Letter, A4 eller tilpassede størrelser. Vælg blandt 7 skrifttypefamilier, tilføj navn- og datofelter, skift gråtone for blækvenligt output, og brug hele Fabric.js arbejdsområdet til at flytte hvert element. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Ordsøgning Arbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du gratis ordleg med billeder i 8 trin',
     steps: [
       {
         title: 'Åbn Ordsøgning Arbejdsark Generatoren',
@@ -155,12 +159,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — alle tre indholdskilder, alle visningstilstande, hele billedbiblioteket, justerbare gitterstørrelser op til 30×30, diagonal- og baglænsretningskontroller, lokalbevidst fyldning, farvekodede facit og alle eksportformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Er ordleg-generatoren gratis at prøve online?',
+      answer: 'Ja. Prøv ordleg-generatoren gratis online med alle funktioner — 3.000+ temabilleder, eget ordvalg, justerbare gitterstørrelser op til 30x30, diagonal- og baglænsretninger, lokalbevidste fyldningsbogstaver (æ, ø, å), farvekodede facit og alle eksportformater. Ingen tilmelding. Downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvordan fungerer ordsøgningspuslespilformatet?',
-      answer: 'Skjulte ord indlejres i et gitter af tilfældige fyldningsbogstaver. Brugerne scanner rækker, kolonner og eventuelt diagonaler for at finde hvert ord og cirkler eller markerer det derefter. Gitterets fyldningsbogstaver randomiseres hver gang du genererer, så hvert puslespil er unikt, selv med den samme ordliste. Op til 8 ord kan placeres i et enkelt gitter.',
+      question: 'Hvad indeholder den gratis ordleg-generator?',
+      answer: 'Den gratis prøveversion giver fuld adgang: tre indholdskilder, alle visningstilstande, hele billedbiblioteket med 104 temaer, gitterstørrelser fra 5x5 til 30x30, retningskontroller og farvekodede facit. Det eneste, der adskiller prøveversionen, er et vandmærke. Ingen tilmelding krævet.',
+    },
+    {
+      question: 'Hvordan fungerer den gratis bogstavjagt?',
+      answer: 'Skjulte ord indlejres i et gitter af tilfældige fyldningsbogstaver. Brugerne scanner rækker, kolonner og eventuelt diagonaler for at finde hvert ord. Gitterets fyldningsbogstaver bruger danske bogstaver inkl. æ, ø, å ved naturlige frekvenser. Op til 8 ord kan placeres i et enkelt gitter.',
     },
     {
       question: 'Hvilke gitterstørrelser er tilgængelige?',
@@ -214,22 +222,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
-      primaryAlt: 'Ordsøgning arbejdsark med skjulte ord indlejret i et bogstavgitter og tematiske billedledetråde til ordforråds­puslespil',
+      primaryAlt: 'Gratis ordleg generator online — bogstavjagt med temabilleder og automatisk facit',
     },
     sampleGallery: [
       {
         src: '/samples/danish/wordsearch/Ordsøgning%201.webp',
-        alt: 'Ordsøgning arbejdsark i stående layout med 12×12 bogstavgitter og tematiske billedledetråde',
+        alt: 'Gratis ordleg med 12x12 bogstavgitter og tematiske billedledetråde — prøv online',
         caption: 'Stående layout — 12×12 gitter med tematiske billedledetråde og ordliste',
       },
       {
         src: '/samples/danish/wordsearch/Ordsøgning%202.webp',
-        alt: 'Ordsøgning arbejdsark med større gitter og diagonale ord aktiveret',
+        alt: 'Gratis bogstavjagt med større gitter og diagonale ord — prøv uden tilmelding',
         caption: 'Større gitter — med diagonale og baglæns ord aktiveret for øget sværhed',
       },
       {
         src: '/samples/danish/wordsearch/Ordsøgning%203.webp',
-        alt: 'Ordsøgning facit med farvekodede markeringer, der viser hvert fundet ord',
+        alt: 'Gratis ordleg facit med farvekodede markeringer for hvert fundet ord',
         caption: 'Farvekodede facit — seks cyklende farver til øjeblikkelig visuel verifikation',
       },
     ],

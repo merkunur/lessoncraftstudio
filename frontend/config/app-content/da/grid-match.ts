@@ -2,31 +2,35 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gittermatchning puslespil generator',
+    primaryKeyword: 'tegne på gitter opgave til print',
     secondaryKeywords: [
-      'printbar gitterpuslespil generator til Etsy-sælgere',
-      'billedfliser matchnings arbejdsark generator til KDP',
-      'gittermatchning puslespil generator kommerciel licens',
-      'sælg gitterbilledpuslespil på Gumroad',
+      'kopiere på gitter opgave',
+      'pixel art til print',
+      'spejling på gitter',
+      'rumsans opgave',
     ],
     lsiKeywords: [
-      'digitale fliser matchnings printbare online forretning',
-      'kommercielt brug gitterpuslespil arbejdsark generator',
-      'printbar billedpuslespil forretningsværktøj',
+      'gitter',
+      'tegne',
+      'kopiere',
+      'pixel art',
+      'spejling',
+      'rumsans',
+      'indskoling',
     ],
-    titleTag: 'Gittermatchning Puslespil Generator | Opret og Sælg',
-    metaDescription: 'Opret gittermatchningspuslespil til salg på Etsy, KDP og Gumroad. $49 engangsbetaling.',
+    titleTag: 'Tegne på gitter opgave til print | Generator gittertegning',
+    metaDescription: 'Lav tegne-på-gitter opgaver med temabilleder. Automatisk facit, printklare PDF\'er. Prøv gratis.',
   },
 
   hero: {
-    title: 'Gittermatchning Puslespil Generator til Billedflisers Matchningsaktiviteter',
-    tagline: 'Forvandl ethvert billede til et gitterbaseret billedpuslespil — del det op i fliser, vis konfigurerbare ledetrådsceller, bland resterende fliser til en nummereret palette, og auto-generer et facit med nummererede cirkeloverlay over 104 tematiske billedsamlinger.',
+    title: 'Tegne på gitter opgave til print — Generator til gittertegning og kopiering',
+    tagline: 'Forvandl ethvert billede til en tegne-på-gitter opgave — del det op i fliser, vis konfigurerbare ledetrådsceller, bland resterende fliser til en nummereret palette, og auto-generer facit med nummererede cirkeloverlay over 104 tematiske billedsamlinger.',
     description:
-      'Byg professionelle gittermatchningspuslespil, hvor et enkelt billede deles op i et gitter af fliser, og brugerne matcher nummererede fliser tilbage til deres korrekte positioner. Konfigurer gitteret fra 2×2 op til 4×4 (2–4 rækker × 2–4 kolonner) og indstil 1–5 ledetrådsceller, der forbliver synlige som tips — færre ledetråde betyder sværere puslespil. Appen blander resterende fliser med Fisher-Yates-randomisering og viser dem i en nummereret palette ved siden af eller under gitteret. Brugerne studerer de synlige ledetrådsceller, gennemgår de nummererede fliser og skriver, hvilket nummer der hører hjemme i hver tom celle. Dobbeltlærredssystemet genererer både en arbejdsarkfane og en facitfane — facit viser det komplette billede med nummererede cirkler overlejret på hver celle, der viser korrekt fliseplacering, så du aldrig behøver oprette facit manuelt. Gittermatchning er IKKE sprogfølsom: puslespilsresultatet er rent visuelt uden lokaliseret ordindhold på selve arbejdsarket. Det samme gitterpuslespil fungerer identisk på alle markeder uden oversættelse. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog til appgrænsefladen. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, inkluder brugerdefineret tekst med syv skrifttypemuligheder, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4 eller brugerdefinerede størrelser. Uanset om du sælger billedpuslespil-pakker på Etsy.dk, sammensætter visuel perceptions-arbejdsbøger til Amazon KDP eller opretter hurtigsluts-puslespilsaktiviteter til Gumroad — denne generator leverer produktionsklare gitterpuslespil på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle tegne-på-gitter opgaver til print, hvor børn kopierer billedfliser og matcher dem til de korrekte positioner. Det danske marked for printbare opgaveark (5,8 mio. dansktalende, Etsy.dk, lav konkurrence) er ideelt for sælgere af rumsans- og gitteropgaver til børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse). Konfigurer gitteret fra 2×2 op til 4×4 (2–4 rækker × 2–4 kolonner) og indstil 1–5 ledetrådsceller, der forbliver synlige som tips — færre ledetråde betyder sværere opgaver. Appen blander resterende fliser med Fisher-Yates-randomisering og viser dem i en nummereret palette ved siden af eller under gitteret. Børnene studerer de synlige ledetrådsceller, gennemgår de nummererede fliser og skriver, hvilket nummer der hører hjemme i hver tom celle. Dobbeltlærredssystemet genererer både et opgaveark og en facitliste — facit viser det komplette billede med nummererede cirkler overlejret på hver celle, der viser korrekt fliseplacering. Gitteropgaven er IKKE sprogfølsom: resultatet er rent visuelt uden lokaliseret ordindhold på selve opgavearket, så det fungerer identisk på alle markeder. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, inkluder brugerdefineret tekst med syv skrifttypemuligheder, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4 eller brugerdefinerede størrelser. Uanset om du sælger gitteropgave-pakker på Etsy.dk, sammensætter pixel art-kopierings­bøger til Amazon KDP eller opretter spejlingsaktiviteter til Gumroad — denne generator leverer produktionsklare opgaveark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Gittermatchningspuslespil i 5 Trin',
+    title: 'Sådan laver du tegne-på-gitter opgaver i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +61,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Gittermatchning Puslespil Generatoren',
+    title: 'Nøglefunktioner i gitteropgave-generatoren',
     features: [
       {
         title: 'Enkeltbilledgitterpuslespil med konfigurerbare rækker og kolonner (2–4 × 2–4)',
@@ -103,7 +107,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Gittermatchningspuslespil Online',
+    title: 'Sådan sælger du gitteropgaver online',
     cases: [
       {
         title: 'Tematiske gitterpuslespil-pakker på Etsy.dk',
@@ -140,64 +144,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvilke gitterstørrelser er tilgængelige for gittermatchningspuslespil?',
+      question: 'Kan jeg sælge disse gitteropgaver på Etsy?',
       answer:
-        'Generatoren understøtter 2–4 rækker og 2–4 kolonner, konfigureret uafhængigt. Dette generator gitre fra 2×2 (4 fliser) op til 4×4 (16 fliser). Standard er 3×3 (9 fliser). Mindre gitre er lettere og fungerer godt for yngre brugere; større gitre øger sværhedsgraden og visuel kompleksitet. Du kan indstille rækker og kolonner til forskellige værdier — for eksempel generator 2 rækker × 4 kolonner et bredt rektangulært puslespil.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine tegne-på-gitter opgaver som digitale downloads på Etsy.dk, som trykte rumsans-bøger på Amazon KDP, som ressourcer på Gumroad, eller via enhver anden salgskanal. De konfigurerbare gitterstørrelser, justerbare ledetrådsceller, automatisk facit og 104 tematiske billedsamlinger giver stærk differentiering.',
     },
     {
-      question: 'Hvordan kontrollerer ledetrådsceller puslespillets sværhed?',
+      question: 'Hvordan laver jeg tegne-på-gitter opgaver?',
       answer:
-        'Ledetrådsceller er gitterpositioner, hvor billedflisen forbliver synlig som et tip. Indstil 1–5 ledetrådsceller med skyderen i panelet Gittermuligheder (standard er 1). Flere ledetråde gør puslespillet lettere, fordi brugerne har flere referencepunkter. For et 3×3-gitter med 1 ledetråd skal brugerne matche 8 fliser — ganske udfordrende. Med 5 ledetråde skal kun 4 fliser matches — meget mere tilgængeligt. Denne ene kontrol lader dig oprette graderede sværhedssæt fra det samme billede.',
+        'Åbn generatoren, konfigurer gitteret (2×2 til 4×4 rækker og kolonner), indstil antal ledetrådsceller (1–5), vælg et billede fra de 104 temaer eller upload dit eget, og klik Generer. Opgavearket med automatisk facit er klar til eksport som 300 DPI PDF eller JPEG. Hver generering producerer en unik fliserækkefølge takket være Fisher-Yates-randomisering.',
     },
     {
-      question: 'Hvordan fungerer gittermatchningspuslespillet for brugerne?',
+      question: 'Er de egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Arbejdsarket viser et gitter, hvor nogle celler viser den faktiske billedflise (ledetrådsceller) og resterende celler viser \"?\"-pladsholdere. Under eller ved siden af gitteret viser en nummereret palette alle skjulte fliser i blandet rækkefølge. Brugerne gennemgår ledetrådscellerne, studerer de nummererede fliser og afgør, hvilket nummer der hører hjemme i hver tom gitterposition. Svaret kræver rumligt ræsonnement — matchning af fliseindhold til dets korrekte plads i det overordnede billede.',
+        'Ja. Til børnehaveklasse: brug 2×2-gitre med 3 ledetråde (kun 1 flise at placere). Til indskoling (0.–3. klasse): brug 3×3-gitre med 2 ledetråde for moderat rumsans-udfordring. Til mellemtrin (4.–6. klasse): brug 4×4-gitre med 1 ledetråd for avanceret visuel kopiering og spejling. Gitterstørrelse og ledetrådsantal giver fleksibel sværhedsgrad.',
     },
     {
-      question: 'Hvordan fungerer det automatisk genererede facit?',
+      question: 'På hvor mange sprog fungerer opgaverne?',
       answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Facit viser det komplette, uopdelte billede med nummererede cirkler overlejret på hver gittercelle. Hver cirkel har en gul baggrund (#ffffe0) med sort kontur og viser palettenummeret, der hører hjemme i den position. Numrene svarer til den blandede fliserækkefølge fra arbejdsarket, hvilket gør facitkontrol enkel. Begge versioner eksporteres separat med fire dedikerede downloadknapper.',
+        'Gitteropgaverne er rent visuelle — kun billedfliser og tal, ingen tekst — så de fungerer på ethvert sprog uden oversættelse. Grænsefladen understøtter 11 sprog (dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk), men selve opgavearket er identisk uanset sprogvalg. Ét produkt kan sælges globalt.',
     },
     {
-      question: 'Kan jeg bruge egne billeder til gitterpuslespil?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Ja. Panelet Upload Egne Billeder lader dig uploade PNG-, JPG- eller GIF-filer fra din computer. Uploadede billeder vises i et galleri under uploadområdet. Klik på ethvert uploadet billede for at vælge det som din puslespilskilde. Denne funktion er ideel til at oprette personaliserede puslespil fra fotos, tilpasset kunstværk eller brandede billeder. Du kan bruge uploadede billeder ved siden af det indbyggede bibliotek — skift frit mellem dem.',
+        'Ja. Dobbeltlærredssystemet genererer automatisk en facitliste, der viser det komplette billede med nummererede cirkler overlejret på hver gittercelle. Hvert nummer svarer til den blandede flisepalette fra opgavearket. Download facit separat som Facit-JPEG eller Facit-PDF med 300 DPI.',
     },
     {
-      question: 'Hvordan tilpasser layoutet sig til stående og liggende orientering?',
+      question: 'Hvordan kontrollerer ledetrådsceller sværheden?',
       answer:
-        'Generatoren registrerer automatisk din sideorientering og ompositionerer elementer i overensstemmelse hermed. Stående sider placerer gitteret øverst (med 45% af tilgængelig højde) med den nummererede palette nedenfor og en fuldbredde-overskrift. Liggende sider positionerer gitteret på den venstre halvdel (48% af tilgængelig bredde) med paletten til højre og en kompakt overskrift. Dette sikrer, at gitterpuslespil ser balancerede og professionelle ud i begge orienteringer uden manuelle layoutjusteringer.',
-    },
-    {
-      question: 'Kan jeg generere flere unikke puslespil fra det samme billede?',
-      answer:
-        'Ja. Hver gang du klikker på Generer, blander appen fliserne med Fisher-Yates-randomisering, hvilket producerer en anderledes nummereret fliserækkefølge. Ledetrådscellernes positioner ændres også mellem genereringer. Det betyder, at du kan oprette flere distinkte puslespilsarbejdsark fra et enkelt billede uden at ændre nogen indstillinger — hvert har forskellige flisenumre og ledetrådspositioner, hvilket gør dem til unikke puslespilsoplevelser.',
-    },
-    {
-      question: 'Hvordan fungerer sværhedsskalering over gitterstørrelser og ledetrådsantal?',
-      answer:
-        'Sværheden afhænger af to faktorer: samlet antal fliser (gitterstørrelse) og synlige ledetråde. Et 2×2-gitter med 3 ledetråde efterlader kun 1 flise at matche — det lettest mulige puslespil. Et 4×4-gitter med 1 ledetråd kræver matchning af 15 fliser — den sværeste konfiguration. Mellem disse yderpunkter kan du oprette ethvert sværhedsniveau. Til graderede arbejdsbøger, begynd med 2×2-gitre (3 ledetråde), fortsæt til 3×3 (2 ledetråde) og afslut med 4×4 (1 ledetråd) for en naturlig sværhedskurve.',
+        'Ledetrådsceller er gitterpositioner, hvor billedflisen forbliver synlig som et tip. Flere ledetråde gør opgaven lettere. For et 3×3-gitter med 1 ledetråd skal barnet kopiere 8 fliser — udfordrende. Med 5 ledetråde er der kun 4 fliser at placere — meget lettere. Denne ene kontrol lader dig oprette graderede sværhedssæt fra det samme billede.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — alle gitterstørrelser, justerbare ledetrådsceller, det automatisk genererede facit med nummererede overlay, hele billedbiblioteket, baggrunds- og rammetemaer, upload af egne billeder, tekstværktøjer og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Er Gittermatchning Puslespil Generatoren sprogfølsom?',
-      answer:
-        'Nej. Gittermatchning er rent visuelt — puslespilsresultatet indeholder kun billedfliser og tal, uden lokaliseret ordindhold på selve arbejdsarket. Appgrænsefladen (menuer, knapper, overskriftstekst) understøtter alle 11 sprog, men det genererede puslespil fungerer identisk uanset sprogvalg. Dette gør gittermatchningspuslespil universelt salgbare på alle markeder uden oversættelse. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog.',
-    },
-    {
-      question: 'Kan jeg sælge gittermatchningspuslespil oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine gittermatchningspuslespil som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. De konfigurerbare gitterstørrelser, justerbare ledetrådsceller, automatisk genererede facit og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare gitterpuslespilsprodukter.',
+        'Ja. Du kan bruge alle funktioner — alle gitterstørrelser, justerbare ledetrådsceller, automatisk facit, hele billedbiblioteket, baggrunds- og rammetemaer, upload af egne billeder og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket.',
     },
     {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste alle gitterstørrelser, ledetrådscellekonfigurationer, det automatisk genererede facit med nummererede overlay, hele billedbiblioteket, baggrunds- og rammetemaer, upload af egne billeder, tekstværktøjer og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste alle gitterstørrelser, ledetrådskonfigurationer, facit og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken.',
     },
   ],
 
@@ -262,27 +246,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/grid%20match/Gitterpuslespil%201.webp',
-      primaryAlt: 'Gittermatchning billedpuslespil arbejdsark med billedfliser opdelt i et gitter, ledetrådsceller synlige og nummereret flisepalette til matchning',
+      primaryAlt: 'Tegne-på-gitter opgave til print med billedfliser opdelt i et gitter, ledetrådsceller synlige og nummereret flisepalette til kopiering',
     },
     sampleGallery: [
       {
         src: '/samples/danish/grid%20match/Gitterpuslespil%201.webp',
-        alt: 'Tre gange tre gittermatchningspuslespil med én ledetrådscelle og otte nummererede fliser i paletten',
-        caption: '3×3 gitterpuslespil — én ledetrådscelle synlig, otte fliser at matche fra nummereret palette',
+        alt: 'Tegne-på-gitter opgave med 3x3 gitter, én ledetrådscelle og otte nummererede fliser til rumsans i indskoling',
+        caption: '3×3 gitteropgave — én ledetrådscelle synlig, otte fliser at kopiere fra nummereret palette',
       },
       {
         src: '/samples/danish/grid%20match/Gitterpuslespil%202.webp',
-        alt: 'Gittermatchningspuslespil med et andet tema og varieret gitterstørrelse',
-        caption: 'Tematisk gitterpuslespil — 104 temaer giver unikke visuelle perceptionsudfordringer',
+        alt: 'Gitteropgave med tematisk billede og varieret gitterstørrelse til pixel art kopiering',
+        caption: 'Tematisk gitteropgave — 104 temaer giver unikke tegne- og kopieringsudfordringer',
       },
       {
         src: '/samples/danish/grid%20match/Gitterpuslespil%203.webp',
-        alt: 'Gittermatchning facit, der viser komplet billede med nummererede cirkler overlejret på hver gittercelle',
-        caption: 'Automatisk genereret facit — nummererede cirkler viser korrekt fliseplacering på komplet billede',
+        alt: 'Facitliste til gitteropgave med komplet billede og nummererede cirkler på hver celle',
+        caption: 'Automatisk facit — nummererede cirkler viser korrekt fliseplacering på komplet billede',
       },
     ],
     youtubeId: 'RGtED1Bnut8',
-    videoTitle: 'Sådan Opretter du Gittermatchning Billedpuslespil med Konfigurerbar Sværhedsgrad — Trin-for-Trin Guide',
+    videoTitle: 'Sådan laver du tegne-på-gitter opgaver med konfigurerbar sværhedsgrad — trin-for-trin guide',
   },
 };
 

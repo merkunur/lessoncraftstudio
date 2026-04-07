@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingokort generator',
+    primaryKeyword: 'lav bingoplader',
     secondaryKeywords: [
-      'printbar bingokort generator til Etsy-sælgere',
-      'billedbingo arbejdsark generator til KDP-udgivere',
-      'bingokort generator kommerciel licens',
-      'sælg printbare bingokort på Gumroad',
+      'bingo generator',
+      'bingo med billeder til print',
+      'egen bingo lave',
+      'bingo spil til print',
     ],
     lsiKeywords: [
-      'digitale bingo printbare produkter online forretning',
-      'kommercielt brug bingokort generator',
-      'printbar billedbingo forretningsværktøj',
+      'bingoplade bingo billeder spil gruppe klasse',
+      'printbare bingoplader forretningsværktøj',
+      'bingo generator kommercielt brug',
     ],
-    titleTag: 'Bingokort Generator | Opret og Sælg Bingo Printables',
-    metaDescription: 'Opret billedbingokort til salg på Etsy, KDP og Gumroad. Batch-generer unikke kort, ZIP-eksport, opråbsliste, 104 temaer. $49 engangsbetaling.',
+    titleTag: 'Lav bingoplader | Generator bingo med billeder',
+    metaDescription: 'Lav bingoplader med 3.000+ temabilleder. Unikke plader per sæt, printklare PDF\'er. Prøv gratis — kommerciel licens.',
   },
 
   hero: {
-    title: 'Billedbingo Kort Generator til Printbare Bingoaktiviteter',
-    tagline: 'Generer 1–10 unikke bingokort per batch med konfigurerbare gitre fra 3×3 til 5×5 — billed- eller ordudfyldning til både kortceller og cirkulære brikker, en dedikeret opråbsliste til spillederen, ZIP batch-eksport af alle kort og 104 tematiske billedsamlinger.',
+    title: 'Lav bingoplader med billeder — bingo generator til print',
+    tagline: 'Lav dine egne bingoplader med 3.000+ temabilleder — generer 1–10 unikke plader per sæt, billed- eller ordudfyldning, opråbsliste til spillederen, ZIP batch-eksport og 104 tematiske billedsamlinger.',
     description:
-      'Byg professionelle billedbingokort, hvor spillere markerer matchende billeder eller ord på deres unikke kortgitre. Konfigurer rækker fra 3 til 5 og kolonner fra 3 til 5 uafhængigt, hvilket generator gitre fra 3×3 (9 celler) op til 5×5 (25 celler) med standard 4×4 (16 celler). Vælg billedudfyldning eller ordudfyldning uafhængigt for både kortceller og cirkulære brikker — brikker har stiplede kanter og blandet Fisher-Yates-rækkefølge for autentisk bingospil. Generer 1–10 unikke bingokort per batch, hvert med et anderledes tilfældigt billedudvalg fra puljen. En dedikeret opråbsliste på en separat fane viser et dynamisk ordgitter til spillederen med kolonner beregnet baseret på længste ordlængde og ensartet skriftstørrelse. Håndpluk specifikke billeder til tilpasset opråbsudvalg eller lad appen vælge fra dit tema. Billedbingo Kort Generatoren er sprogfølsom: ordudfyldning bruger lokaliserede billednavne fra Billedbiblioteket, så at skifte sprog ændrer ordene på kort, brikker og opråbslisten. Det betyder, at det samme billedtema kan generere unikke bingokort på 11 forskellige sprog — hver sprogversion har lokaliserede ord, hvilket gør hver version til et separat produkt for et nyt marked. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog til lokaliseret ordindhold. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, inkluder brugerdefineret tekst med syv skrifttypemuligheder, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller brugerdefinerede størrelser. Batch-eksporter alle genererede kort som individuelle JPEG-billeder i en enkelt ZIP-fil. Uanset om du sælger bingokort-pakker på Etsy.dk, sammensætter bingoaktivitetsbøger til Amazon KDP eller opretter produktlinje­bingosæt til Gumroad — denne generator leverer produktionsklare bingokort på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle bingoplader med billeder, hvor spillere markerer matchende billeder eller ord på deres unikke bingoplade. Det danske marked med 5,8 millioner dansktalende har lav konkurrence inden for printbare bingo spil på Etsy.dk — en oplagt mulighed for at sælge bingoplader til grupper og klasser. Konfigurer rækker fra 3 til 5 og kolonner fra 3 til 5 uafhængigt, hvilket giver gitre fra 3×3 (9 felter) op til 5×5 (25 felter) med standard 4×4 (16 felter). Vælg billedudfyldning eller ordudfyldning uafhængigt for både kortceller og cirkulære brikker — brikker har stiplede kanter og blandet Fisher-Yates-rækkefølge for autentisk bingospil. Generer 1–10 unikke bingoplader per sæt, hver med et anderledes tilfældigt billedudvalg fra puljen. En dedikeret opråbsliste til spillederen viser et dynamisk ordgitter med kolonner beregnet baseret på længste ordlængde. Bingo generatoren er sprogfølsom: ordudfyldning bruger lokaliserede billednavne, så at skifte sprog ændrer ordene — det samme tema kan generere unikke bingoplader på 11 sprog. Bingoplader er egnede til børnehaveklasse (5–6 år), indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse) — tilpas sværheden med gitterstørrelse og antal billeder. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Batch-eksporter alle bingoplader som individuelle JPEG-billeder i en enkelt ZIP-fil. Uanset om du sælger bingopladepakker på Etsy.dk, sammensætter bingo spil bøger til Amazon KDP eller opretter gruppeaktiviteter — denne bingo generator leverer printklare bingoplader på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Billedbingokort i 5 Trin',
+    title: 'Sådan laver du bingoplader med billeder i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Billedbingo Kort Generatoren',
+    title: 'Nøglefunktioner i bingo generatoren',
     features: [
       {
         title: 'Konfigurerbart bingogitter fra 3×3 til 5×5 med uafhængige række- og kolonnekontroller',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Billedbingokort Online',
+    title: 'Sådan sælger du bingoplader og bingo spil online',
     cases: [
       {
         title: 'Tematiske bingokortpakker på Etsy.dk',
@@ -140,64 +140,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvilke gitterstørrelser er tilgængelige for bingokort?',
+      question: 'Kan jeg sælge disse bingoplader på Etsy?',
       answer:
-        'Rækker og kolonner er uafhængigt konfigurerbare fra 3 til 5, hvilket generator gitre fra 3×3 (9 celler) op til 5×5 (25 celler). Standard er 4×4 med 16 celler. Du kan også oprette ikke-kvadratiske gitre som 3×5 (15 celler) eller 5×3 (15 celler) til unikke bingokortformater. Mindre gitre fungerer godt til hurtigt spillede runder, mens 5×5-gitre giver den klassiske bingooplevelse med flere objekter at holde styr på.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine bingoplader som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP eller via enhver anden salgskanal. Batch-generering af unikke plader, ZIP-eksport, opråbslister og 104 tematiske billedsamlinger giver dig værktøjerne til at producere salgbare bingo spil i stor skala. Det danske marked har lav konkurrence inden for printbare bingoplader.',
     },
     {
-      question: 'Hvordan fungerer batch-generering for flere bingokort?',
+      question: 'Hvordan laver jeg bingoplader?',
       answer:
-        'Indstil antal kort fra 1 til 10 i panelet Bingokortindstillinger. Hvert kort trækker et anderledes tilfældigt udvalg fra billedpuljen, hvilket garanterer, at hvert kort i batchen er unikt — essentielt for bingo, hvor hver spiller har brug for et anderledes kort. Det første kort vises på lærredet øjeblikkeligt til forhåndsvisning. Alle genererede kort er tilgængelige gennem ZIP batch-eksporten til download som individuelle JPEG-filer.',
+        'Åbn bingo generatoren, vælg et tema fra billedbiblioteket med 3.100+ illustrationer, konfigurer gitterstørrelse (3×3 til 5×5) og antal plader (1–10). Vælg billed- eller ordudfyldning for kortceller og brikker. Klik Generer — appen opretter unikke bingoplader med tilfældigt billedudvalg plus en opråbsliste til spillederen. Eksporter som printklare PDF\'er med 300 DPI eller batch-download alle plader som ZIP-fil.',
     },
     {
-      question: 'Hvordan fungerer ZIP batch-eksporten?',
+      question: 'Er bingopladerne egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Efter at have genereret flere bingokort, klik på batch-eksportknappen for at downloade alle kort som individuelle højopløste JPEG-filer pakket i et enkelt bingo_cards.zip-arkiv. Hvert kort navngives sekventielt inde i ZIP\'en for nem organisering. Dette eliminerer behovet for at downloade kort ét ad gangen — generer et komplet sæt af 10 unikke kort og eksporter dem alle med et enkelt klik med JSZip-komprimering.',
+        'Ja. Til børnehaveklasse (5–6 år) bruger du 3×3-gitre med billedudfyldning — færre felter og visuelle billeder gør spillet enkelt. Til indskoling (0.–3. klasse) bruger du 4×4-gitre med blandede tilstande (billedkort med ordbrikker). Til mellemtrin (4.–6. klasse) bruger du 5×5-gitre med ordudfyldning for den klassiske 25-felters bingooplevelse, der styrker ordforråd og læsefærdigheder.',
     },
     {
-      question: 'Hvad er forskellen mellem kortcelleudfyldning og brikudfyldning?',
+      question: 'På hvor mange sprog fungerer generatoren?',
       answer:
-        'Kortceller og brikker har hver sin uafhængige udfyldningstilstand: Billede eller Ord. Kortcelleudfyldning bestemmer, hvad der vises i hver celle i bingogitteret. Brikudfyldning bestemmer, hvad der vises på de cirkulære brikker under kortet, som spillerne bruger til matchning. Du kan blande tilstande — billedkort med ordbrikker, ordkort med billedbrikker, eller matche begge — hvilket generator fire distinkte bingokortsstile fra ét sæt billeder.',
+        'Bingo generatoren understøtter 11 sprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, norsk og finsk. Ordudfyldning bruger lokaliserede billednavne — det samme tema genererer unikke bingoplader på hvert sprog. Et kattebillede viser \"Kat\" på dansk, \"Cat\" på engelsk og \"Katze\" på tysk. Hver sprogversion bliver et separat produkt for et nyt marked.',
     },
     {
-      question: 'Hvad er opråbslisten, og hvordan fungerer den?',
+      question: 'Er opråbslisten inkluderet?',
       answer:
-        'Opråbslisten er en separat side (tilgængelig via fanen Opråb), der viser et dynamisk ordgitter af alle unikke objekter fra billedpuljen. Spillederen læser disse ord højt, mens spillerne markerer deres bingokort. Kolonner beregnes baseret på længste ordlængde (2–6 kolonner) med ensartet skriftstørrelse. Gitteret er centreret på siden og arver siderammer og baggrund fra arbejdsarkets lærred. Dette er IKKE en facitliste — det er et referenceark til personen, der leder bingospillet.',
+        'Ja. Hvert bingosæt inkluderer en dedikeret opråbsliste på en separat fane med et dynamisk ordgitter af alle unikke objekter. Spillederen læser ord højt fra opråbslisten, mens spillerne markerer deres bingoplader. Bingo bruger en opråbsliste i stedet for en facitliste — der er intet enkelt korrekt svar, fordi hver spillers plade har forskellige objekter i forskellige positioner.',
     },
     {
-      question: 'Hvad er tilpasset opråbsudvalg?',
+      question: 'Hvordan fungerer batch-generering af unikke plader?',
       answer:
-        'Aktiver fluebenet \"Brug tilpasset udvalg\" i panelet Bingokortindstillinger for at håndplukke, hvilke specifikke billeder der vises i opråbspuljen. Når aktiveret klikker du på billeder i Billedbiblioteket for at tilføje dem til dit tilpassede opråbsudvalg — en levende tæller viser \"Valgt til tilpasset opråb: X\", mens du vælger. Dette giver dig præcis kontrol over, hvilke objekter der vises i bingospillet, nyttigt til produktkatalogtilpassede aktiviteter eller tematiske events, hvor du ønsker specifikt ordforråd.',
+        'Indstil antal plader fra 1 til 10. Hvert kort trækker et anderledes tilfældigt udvalg fra billedpuljen, hvilket garanterer unikke plader — essentielt for bingo, hvor hver spiller har brug for en anderledes plade. Batch-eksporter alle plader som individuelle JPEG-filer i en enkelt bingo_cards.zip med ét klik. Ingen grund til at downloade plader én ad gangen.',
     },
     {
-      question: 'Er Billedbingo Kort Generatoren sprogfølsom?',
+      question: 'Hvad er forskellen mellem billed- og ordudfyldning?',
       answer:
-        'Ja. Når ordudfyldningstilstanden bruges til kortceller eller brikker, er de viste ord lokaliserede billednavne fra Billedbiblioteket. At skifte sprog i Arbejdsarksindstillingerne ændrer ordene på kort, brikker og opråbslisten. For eksempel viser et kattebillede \"Kat\" på dansk, men \"Cat\" på engelsk og \"Katze\" på tysk. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer og alle 11 sprog til lokaliseret ordindhold.',
-    },
-    {
-      question: 'Hvorfor er der ingen facitliste for bingokort?',
-      answer:
-        'Bingokort bruger en opråbsliste i stedet for en facitliste. I bingo læser spillederen objekter fra opråbslisten, mens spillerne markerer matchende objekter på deres unikke kort — der er intet enkelt \"korrekt svar\", fordi hver spillers kort har forskellige objekter i forskellige positioner. Opråbslisten fungerer som spillets referencedokument, der lister alle mulige objekter, spillederen kan annoncere under spillet.',
+        'Kortceller og brikker har uafhængige udfyldningstilstande: Billede eller Ord. Bland tilstande for kreativ variation — billedkort med ordbrikker giver en visuel-til-tekst matchningsudfordring, mens ordkort med billedbrikker vender dynamikken. Fire distinkte bingostile fra én generator giver dig flere produktvarianter til salg.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — alle gitterstørrelser, batch-generering af op til 10 kort, ZIP batch-eksport, både billed- og ordudfyldningstilstande, opråbslisten, hele billedbiblioteket, tilpasset opråbsudvalg, baggrunds- og rammetemaer, tekstværktøjer og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Kan jeg tilføje baggrundstemaer og rammetemaer på bingokort?',
-      answer:
-        'Ja. Panelet Sideopsætning inkluderer både en baggrundstema-vælger med en opacitetsskyder (0–1 i 0,05-trin) og en rammetema-vælger med sin egen uafhængige opacitetsskyder. Baggrundstemaer tilføjer dekorative mønstre bag bingogitteret, mens rammetemaer rammer siden ind. Opråbslisten arver siderammer og baggrund fra hovedlærredet. Begge har separate opacitetskontroller, så du kan oprette subtile baggrunde med fremtrædende rammer, eller enhver kombination, der passer din design.',
-    },
-    {
-      question: 'Kan jeg sælge bingokort oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine bingokort som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. De konfigurerbare gitterstørrelser, batch-generering, ZIP-eksport, dobbelte udfyldningstilstande, opråbslister og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare bingoprodukter i stor skala.',
-    },
-    {
-      question: 'Hvad er returpolitikken?',
-      answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste alle gitterstørrelser, batch-generering, ZIP-eksport, billed- og ordudfyldningstilstande, opråbslisten, hele billedbiblioteket, tilpasset opråbsudvalg, baggrunds- og rammetemaer, tekstværktøjer og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Ja. Du kan bruge alle funktioner — alle gitterstørrelser, batch-generering af op til 10 plader, ZIP batch-eksport, billed- og ordudfyldning, opråbslisten, hele billedbiblioteket og alle downloadformater — uden at oprette en konto eller indtaste kreditkort. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
   ],
 
@@ -262,27 +242,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/bingo/Billedbingo%201.webp',
-      primaryAlt: 'Billedbingokort med tematiske billeder i et gitter og cirkulære brikker med stiplede kanter nedenfor',
+      primaryAlt: 'Bingoplade med temabilleder — printklart bingo spil lavet med bingo generator',
     },
     sampleGallery: [
       {
         src: '/samples/danish/bingo/Billedbingo%201.webp',
-        alt: 'Billedbingokort med billedudfyldning, der viser farverige tematiske illustrationer i gitterceller og cirkulære billedbrikker',
-        caption: 'Billedudfyldningstilstand — farverige illustrationer i både kortceller og cirkulære brikker',
+        alt: 'Bingoplade med billedudfyldning — farverige temabilleder i gitterfelter og cirkulære brikker til print',
+        caption: 'Bingoplade med billeder — farverige illustrationer i felter og cirkulære brikker',
       },
       {
         src: '/samples/danish/bingo/Billedbingo%202.webp',
-        alt: 'Billedbingokort med et andet tema og varieret gitterstørrelse',
-        caption: 'Tematisk bingokort — 104 temaer giver unikke bingooplevelser for hvert sæt',
+        alt: 'Bingoplade med et andet tema — unikke bingoplader fra bingo generator til gruppe og klasse',
+        caption: 'Tematisk bingoplade — 104 temaer giver unikke bingo spil for hver gruppe',
       },
       {
         src: '/samples/danish/bingo/Billedbingo%203.webp',
-        alt: 'Bingo opråbsliste med dynamisk ordgitter, der viser alle spillobjekter til spillederen',
-        caption: 'Opråbsliste — dynamisk ordgitter til personen, der leder bingospillet',
+        alt: 'Bingo opråbsliste med dynamisk ordgitter — spillederens referenceark til bingo spil',
+        caption: 'Opråbsliste — dynamisk ordgitter til spillederen i bingo spillet',
       },
     ],
     youtubeId: 'd6AOiDXoK1c',
-    videoTitle: 'Sådan Opretter du Billedbingokort med Batch-Generering og Opråbslister — Trin-for-Trin Guide',
+    videoTitle: 'Sådan laver du bingoplader med billeder — batch-generering og opråbslister trin-for-trin',
   },
 };
 

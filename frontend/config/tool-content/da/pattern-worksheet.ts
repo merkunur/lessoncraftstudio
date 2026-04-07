@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mønstergenkendelse arbejdsark',
+    primaryKeyword: 'logiske rækkefølger generator gratis online',
     secondaryKeywords: [
-      'mønster arbejdsark generator for sælgere',
-      'lav mønsterkomplettering arbejdsark til salg',
-      'printbare mønstersekvens arbejdsark kommerciel brug',
-      'gitterbaseret mønster arbejdsark generator til KDP',
+      'visuel logik gratis',
+      'logisk tænkning prøv gratis',
+      'rækkefølge opgaver gratis',
     ],
     lsiKeywords: [
-      'visuel mønstergenkendelse printbare til Etsy',
-      'tekstfri mønsterkomplettering arbejdsark værktøj',
-      'AB ABC ABCD mønstersekvens arbejdsark generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'logik',
+      'rækkefølge',
+      'tænkning',
     ],
-    titleTag: 'Mønstergenkendelse Arbejdsark Generator | Lav og Sælg',
-    metaDescription: 'Generér mønsterarbejdsark med ni typer, to spørgsmålstilstande, per-øvelse konfiguration, automatiske facit og 104. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis logiske rækkefølger generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv logiske rækkefølger-generatoren gratis online. Temabilleder, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Mønster Arbejdsark Generator',
-    tagline: 'Generér gitterbaserede mønstergenkendelse arbejdsark med ni mønstertyper, to spørgsmålstilstande, per-øvelse uafhængig konfiguration og helt visuelt tekstfrit output, der sælger globalt uden oversættelse',
-    description: 'Lav professionelle mønsterkompletteringsarbejdsark, hvor brugerne identificerer gentagende sekvenser og udfylder det manglende objekt eller vælger det rigtige svar blandt flervalsmuligheder. Ni distinkte mønstertyper dækker det bredeste udvalg af sekvenskompleksitet: AB alternerer to objekter, AAB og ABB introducerer asymmetriske grupperinger, ABC roterer tre forskellige objekter, AABB parrer to af hvert, ABBC og AABC tilføjer trebillede asymmetriske mønstre, ABCC udvider med fordoblet slutning, og ABCD roterer fire forskellige objekter for maksimal udfordring. To spørgsmålstilstande generator fundamentalt forskellige øvelser: Tom Rude erstatter et objekt med et tomt felt for åbent ræsonnement, mens Vælg blandt Alternativer præsenterer hullet plus tre svarmuligheder med ét korrekt og to distraktorer. Konfigurér 1–8 øvelser per side med hver øvelse uafhængigt indstillet for mønstertype, spørgsmålstilstand og tema — én side kan blande en AB udfyldningsopvarmning med en ABCD flervalsudfordring. Aktivér Tilfældig Start for at begynde mønstre midt i cyklussen og Tilfældig Hul for at placere det manglende objekt hvor som helst i sekvensen. Hvert arbejdsark er helt visuelt med kun billeder og nul tekst i outputtet — ingen ord vises, hvilket gør dine produkter universelt sælgbare uden oversættelse. Hent fra mere end 3.100 illustrationer i 104 tematiske samlinger eller upload egne billeder. En separat facitfane viser alle huller udfyldt med det rigtige mønsterobjekt. Eksportér trykfærdige PDF\'er og JPEG-billeder med høj DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis logiske rækkefølger generator — prøv online med vandmærke',
+    tagline: 'Prøv den gratis logiske rækkefølger generator online — ni mønstertyper, to spørgsmålstilstande, per-øvelse konfiguration og automatisk facit. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv den gratis logiske rækkefølger generator online — lav professionelle rækkefølge-opgaver, hvor brugerne identificerer gentagende sekvenser og udfylder det manglende objekt eller vælger det rigtige svar blandt flervalsmuligheder. Ni distinkte mønstertyper dækker det bredeste udvalg af sekvenskompleksitet: AB alternerer to objekter, AAB og ABB introducerer asymmetriske grupperinger, ABC roterer tre forskellige objekter, AABB parrer to af hvert, ABBC og AABC tilføjer trebillede asymmetriske mønstre, ABCC udvider med fordoblet slutning, og ABCD roterer fire forskellige objekter for maksimal udfordring. To spørgsmålstilstande generator fundamentalt forskellige øvelser: Tom Rude erstatter et objekt med et tomt felt for åbent ræsonnement, mens Vælg blandt Alternativer præsenterer hullet plus tre svarmuligheder med ét korrekt og to distraktorer. Konfigurér 1–8 øvelser per side med hver øvelse uafhængigt indstillet for mønstertype, spørgsmålstilstand og tema — én side kan blande en AB udfyldningsopvarmning med en ABCD flervalsudfordring. Aktivér Tilfældig Start for at begynde mønstre midt i cyklussen og Tilfældig Hul for at placere det manglende objekt hvor som helst i sekvensen. Hvert arbejdsark er helt visuelt med kun billeder og nul tekst i outputtet — ingen ord vises, hvilket gør dine produkter universelt sælgbare uden oversættelse. Hent fra mere end 3.100 illustrationer i 104 tematiske samlinger eller upload egne billeder. En separat facitfane viser alle huller udfyldt med det rigtige mønsterobjekt. Eksportér trykfærdige PDF\'er og JPEG-billeder med høj DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Mønstergenkendelse Arbejdsark i 8 Trin',
+    title: 'Sådan laver du logiske rækkefølge-opgaver i 8 trin',
     steps: [
       {
         title: 'Åbn Mønster Arbejdsark Generatoren',
@@ -155,16 +157,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner låst op — alle ni mønstertyper, begge spørgsmålstilstande, per-øvelse konfiguration, billedbiblioteket, tilfældig start og tilfældigt hul, facitgenerering og alle eksportformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Kan jeg prøve logiske rækkefølger gratis online?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — alle ni rækkefølge-typer, begge spørgsmålstilstande, per-øvelse konfiguration, billedbiblioteket, tilfældig start og tilfældigt hul, facitgenerering og alle eksportformater er tilgængelige. Ingen registrering, intet kreditkort kræves. Gratis downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
     },
     {
-      question: 'Hvad er de ni mønstertyper?',
-      answer: 'AB alternerer to objekter (A-B-A-B). AAB grupperer to af ét derefter ét af et andet (A-A-B-A-A-B). ABB vender den gruppering (A-B-B-A-B-B). ABC roterer tre objekter (A-B-C-A-B-C). AABB parrer to af hvert (A-A-B-B-A-A-B-B). ABBC placerer to B mellem A og C. AABC leder med to A før B og C. ABCC slutter med to C efter A og B. ABCD roterer fire forskellige objekter for maksimal kompleksitet. Progressionen fra 2-billede til 4-billede mønstre generator en naturlig sværhedsstige.',
+      question: 'Hvad er de ni logiske rækkefølge-typer?',
+      answer: 'AB alternerer to objekter (A-B-A-B). AAB grupperer to af ét derefter ét af et andet (A-A-B-A-A-B). ABB vender den gruppering (A-B-B-A-B-B). ABC roterer tre objekter (A-B-C-A-B-C). AABB parrer to af hvert (A-A-B-B-A-A-B-B). ABBC placerer to B mellem A og C. AABC leder med to A før B og C. ABCC slutter med to C efter A og B. ABCD roterer fire forskellige objekter for maksimal kompleksitet. Progressionen fra 2-billede til 4-billede rækkefølger danner en naturlig sværhedsstige.',
     },
     {
-      question: 'Hvad er de to spørgsmålstilstande?',
-      answer: 'Tom Rude-tilstand erstatter et objekt i mønsteret med et tomt felt — brugerne skal identificere mønsteret og bestemme det manglende objekt uden tips. Vælg blandt Alternativer-tilstand præsenterer hullet ved siden af tre svarmuligheder: ét korrekt objekt og to distraktorer. Tom Rude tester åbent ræsonnement; Flervalg tester genkendelse med strukturerede svarmuligheder. Begge tilstande fungerer med alle ni mønstertyper, hvilket giver 18 distinkte øvelsesstile.',
+      question: 'Hvad er de to spørgsmålstilstande for logisk tænkning?',
+      answer: 'Tom Rude-tilstand erstatter et objekt i rækkefølgen med et tomt felt — brugerne skal identificere sekvensen og bestemme det manglende objekt uden tips. Vælg blandt Alternativer-tilstand præsenterer hullet ved siden af tre svarmuligheder: ét korrekt objekt og to distraktorer. Tom Rude tester åbent ræsonnement; Flervalg tester genkendelse med strukturerede svarmuligheder. Begge tilstande fungerer med alle ni rækkefølge-typer, hvilket giver 18 distinkte øvelsesstile.',
     },
     {
       question: 'Hvordan fungerer per-øvelse konfiguration?',
@@ -214,7 +216,7 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/pattern%20worksheet/M%C3%B8nsterg%C3%A5der%201.webp',
-      primaryAlt: 'Mønstergenkendelse arbejdsark med gitterbaserede øvelser, der viser gentagende billedmønstre med tomme ruder og flervalsmuligheder for brugerne at fuldende',
+      primaryAlt: 'Gratis logiske rækkefølger generator med gitterbaserede øvelser — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {

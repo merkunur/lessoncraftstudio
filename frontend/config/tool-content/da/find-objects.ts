@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skjulte objekter arbejdsark',
+    primaryKeyword: 'find og markér generator gratis online',
     secondaryKeywords: [
-      'skjulte objekter arbejdsark generator for sælgere',
-      'lav søgebillede skjulte objekter arbejdsark til salg',
-      'printbar skjulte objekter generator kommerciel brug',
-      'skjulte objekter puslespil generator til KDP og Etsy',
+      'gemte genstande gratis til print',
+      'søgebillede prøv gratis',
+      'observationsleg gratis',
     ],
     lsiKeywords: [
-      'søgning find den underlige dobbelt tilstands aktivitet generator',
-      'nul-overlapning scenegenerering adaptiv størrelse algoritme',
-      'automatisk facit rød cirkel annoterings skjulte objekter generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'gemte genstande',
+      'søgebillede',
+      'observation',
     ],
-    titleTag: 'Skjulte Objekter Generator — Skjulte Objekter Arbejdsark...',
-    metaDescription: 'Lav skjulte objekter arbejdsark med Søgning og Find den Underlige-tilstande, nul-overlapning scener, automatiske. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis find og markér generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv find-og-markér-generatoren gratis online. Temabilleder, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Skjulte Objekter Generator',
-    tagline: 'Dobbelt tilstands skjulte objekter arbejdsark generator med Søgning-tilstand (nul-overlapning spredte scener med 1–5 skjulte objekter blandt 8–12 distraktorer og bundlegende) og Find den Underlige-tilstand (8–12 parrede billeder med 1–5 uparrede objekter gengivet 50% større), adaptiv billedstørrelsesalgoritme og automatisk genererede facit med røde cirkelannoteringer',
-    description: 'Lav professionelle skjulte objekter-arbejdsark med to distinkte aktivitetstilstande. Søgning-tilstanden spreder 1–5 skjulte objekter blandt 8–12 distraktorer med nul-overlapningsalgoritme — findBestPosition() tester 50 positioner per billede og reducerer adaptivt størrelsen. En legende i bunden viser målobjekterne. Find den Underlige-tilstanden arrangerer 8–12 parrede billeder med 1–5 uparrede objekter gengivet 50% større. Dobbeltarbejdsområde-systemet genererer facit med røde cirkler 3–5px større end objekterne. IKKE sprogfølsomt — rent visuelt uden lokaliserede billednavne, universelt sælgbart. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
+    title: 'Gratis find og markér generator — prøv online med vandmærke',
+    tagline: 'Prøv find-og-markér-generatoren gratis online — søgebilleder med gemte genstande, observationsleg med automatisk facit og 104 temabilledsamlinger. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv find-og-markér-generatoren gratis online og lav professionelle søgebilleder med gemte genstande i to aktivitetstilstande. Alle funktioner er tilgængelige i den gratis prøveversion — downloads indeholder et vandmærke, som fjernes med en licens. Søgning-tilstanden spreder 1–5 skjulte objekter blandt 8–12 distraktorer med nul-overlapningsalgoritme — findBestPosition() tester 50 positioner per billede og reducerer adaptivt størrelsen. En legende i bunden viser målobjekterne. Find den Underlige-tilstanden arrangerer 8–12 parrede billeder med 1–5 uparrede objekter gengivet 50% større. Dobbeltarbejdsområde-systemet genererer facit med røde cirkler 3–5px større end objekterne. IKKE sprogfølsomt — rent visuelt uden lokaliserede billednavne, universelt sælgbart. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Skjulte Objekter Arbejdsark i 8 Trin',
+    title: 'Sådan laver du find og markér-øvelser i 8 trin',
     steps: [
       {
         title: 'Åbn Skjulte Objekter Generatoren',
@@ -155,12 +157,12 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Alle funktioner låst op — begge aktivitetstilstande, konfigurerbare objekt- og distraktorantal, nul-overlapningsalgoritmen, autogenereret facit med røde cirkler, legendevisning, alle 104 temabilleder, tilpasset billedupload, baggrunds- og rammetemaer, navn/dato-felter, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på downloads.',
+      question: 'Kan jeg prøve find og markér-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — begge tilstande til gemte genstande og observationsleg, konfigurerbare objekt- og distraktorantal, nul-overlapningsalgoritmen, automatisk facit med røde cirkler, legendevisning, alle 104 temabilleder, tilpasset billedupload, baggrunds- og rammetemaer, navn/dato-felter, gråtonekontakt og alle downloadformater. Ingen kreditkort. Vandmærke på downloads.',
     },
     {
-      question: 'Hvad er de to aktivitetstilstande?',
-      answer: 'Søgning (standard) — frie skjulte objekter-scener med 1–5 mål blandt 8–12 distraktorer med nul-overlapningsalgoritme og bundlegende. Find den Underlige — 8–12 parrede billeder med 1–5 uparrede objekter gengivet 50% større. Hver tilstand producerer en fundamentalt anderledes kognitiv udfordring.',
+      question: 'Hvilke tilstande til søgebilleder og gemte genstande findes?',
+      answer: 'Søgning (standard) — frie søgebilleder med 1–5 gemte genstande blandt 8–12 distraktorer med nul-overlapningsalgoritme og bundlegende. Find den Underlige — 8–12 parrede billeder med 1–5 uparrede objekter gengivet 50% større. Hver tilstand producerer en fundamentalt anderledes observationsleg.',
     },
     {
       question: 'Hvordan fungerer nul-overlapnings placeringsalgoritmen?',
@@ -218,22 +220,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp',
-      primaryAlt: 'Skjulte objekter søgearbejdsark med spredte billeder placeret med nul-overlapningsalgoritme, legende i bunden med objekter at finde og dekorativ Fredoka-overskrift',
+      primaryAlt: 'Gratis find og markér søgebillede med gemte genstande og observationsleg — prøv online med vandmærke',
     },
     sampleGallery: [
       {
         src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp',
-        alt: 'Søgning skjulte objekter-scene med spredte billeder og legende der viser målobjekter i bunden af arbejdsarket',
+        alt: 'Gratis søgebillede med gemte genstande og legende der viser målobjekter — prøv find og markér online',
         caption: 'Søgning-tilstand — fri skjulte objekter-scene med nul-overlapning placering og bundlegende',
       },
       {
         src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%202.webp',
-        alt: 'Find den Underlige arbejdsark med parrede billeder i rækker og uparrede objekter at identificere gengivet 50 procent større',
+        alt: 'Gratis observationsleg med parrede billeder og uparrede objekter — prøv find og markér online',
         caption: 'Find den Underlige-tilstand — parrede billeder med uparrede objekter til visuelle skelnelsesaktiviteter',
       },
       {
         src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%203.webp',
-        alt: 'Skjulte objekter arbejdsark facit med røde cirkler tegnet rundt om målobjekter dimensioneret 3 til 5 pixels større',
+        alt: 'Automatisk facit til find og markér med røde cirkler rundt om gemte genstande',
         caption: 'Automatisk genereret facit — røde cirkelannoteringer markerer skjulte og uparrede objekter til selvkontrol',
       },
     ],

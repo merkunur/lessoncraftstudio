@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab skjulte genstande-arbejdsark',
+    primaryKeyword: 'lav find-og-markér opgaver til print',
     secondaryKeywords: [
-      'skjulte genstande scene-generator',
-      'I Spy arbejdsark for børn',
-      'find den der er anderledes printbare arbejdsark',
-      'lav skjulte genstande-puslespil til salg',
+      'find-og-markér scene-generator til børn',
+      'I Spy opgaver til print for børnehaveklasse',
+      'printbare find-og-markér opgaver til salg på Etsy.dk',
+      'lav skjulte genstande puslespil til Saxo.com',
     ],
     lsiKeywords: [
-      'visuel søge-arbejdsark til førskole',
-      'find det skjulte billede aktivitetsark',
-      'søg og find printbare sider',
-      'sælg skjulte genstande-arbejdsark på Etsy',
-      'Amazon KDP søg og find aktivitetsbøger',
-      'kommerciel licens skjulte genstande-maker',
+      'visuel søge-opgaver til førskole og indskoling',
+      'find det skjulte billede aktivitetsark til print',
+      'søg og find printbare sider til børn',
+      'sælg find-og-markér opgaver på Etsy.dk',
+      'Amazon KDP søg og find aktivitetshæfter',
+      'kommerciel licens find-og-markér værktøj',
     ],
-    titleTag: 'Skab skjulte genstande-arbejdsark — Guide',
-    metaDescription: 'Skab skjulte genstande-arbejdsark med 2 spiltilstande: I Spy og Find den anderledes. Byg tematiske scener, generér facit, og sælg på Etsy og Amazon KDP.',
+    titleTag: 'Lav find-og-markér opgaver til print — Guide',
+    metaDescription: 'Lav find-og-markér opgaver med 2 spiltilstande: I Spy og Find den anderledes. Byg tematiske scener, generér facit, og sælg på Etsy.dk og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du skjulte genstande scene-arbejdsark',
-    tagline: 'En trin-for-trin vejledning til at skabe I Spy og Find den anderledes scene-arbejdsark du kan sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Skjulte genstande-arbejdsark er blandt de mest engagerende printable-produkter du kan skabe. Børn elsker udfordringen i at søge en scene igennem for specifikke genstande, og forældre og købere elsker den fokuserede opmærksomhed disse aktiviteter kræver. Denne guide fører dig igennem at skabe professionelle skjulte genstande scene-arbejdsark med find genstande-generatoren — fra at vælge mellem I Spy og Find den anderledes spiltilstande til at bygge tilpassede scener med lagdelte billeder, generere automatisk facit og eksportere trykklare filer. Uanset om du lancerer dit første printable-produkt eller tilføjer en ny kategori til en eksisterende butik, vil du have færdige arbejdsark klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav find-og-markér opgaver og I Spy-aktiviteter til print',
+    tagline: 'En trin-for-trin vejledning til at lave I Spy og find-og-markér scene-opgaver du kan sælge på Etsy.dk, Amazon KDP og Saxo.com',
+    description: 'Find-og-markér opgaver er blandt de mest engagerende printbare produkter du kan lave. Børn elsker udfordringen i at søge en scene igennem for specifikke genstande, og forældre og købere elsker den fokuserede opmærksomhed disse aktiviteter kræver. Denne guide fører dig igennem at skabe professionelle skjulte genstande scene-arbejdsark med find genstande-generatoren — fra at vælge mellem I Spy og Find den anderledes spiltilstande til at bygge tilpassede scener med lagdelte billeder, generere automatisk facit og eksportere trykklare filer. Uanset om du lancerer dit første printable-produkt eller tilføjer en ny kategori til en eksisterende butik, vil du have færdige arbejdsark klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Skjulte genstande-aktiviteter tapper ind i et fundamentalt menneskeligt instinkt: trangen til at søge og finde. Børn helt ned til tre år engagerer sig naturligt med søg-og-find opgaver, der gør skjulte genstande-arbejdsark til et af de bredest appellerende printable-produkter du kan skabe. Målgruppen spænder fra førskole til indskoling, krydser ethvert pensum og fungerer lige godt derhjemme og i grupper.\n\nDet der adskiller skjulte genstande-arbejdsark fra andre printable-produkter er deres visuel-først natur. Disse arbejdsark indeholder ingen tekst der behøver oversættelse, ingen matematikopgaver bundet til et specifikt pensum og ingen sprogafhængige instruktioner. Et skjulte genstande scene-arbejdsark skabt med engelske UI-etiketter fungerer identisk for en køber i Tyskland, Brasilien eller Japan. Dette gør dine produkter universelt salgbare på internationale markedspladser uden nogen ændring.\n\nFind genstande-generatoren giver dig to distinkte spiltilstande der generator fundamentalt forskellige produkter. I Spy-tilstand udfordrer børn til at finde specifikke skjulte genstande inden for en travl scene af distraktor-billeder. Find den anderledes-tilstand beder børn om at identificere det billede der ikke har et matchende par. Hver tilstand tjener forskellige udviklingsfærdigheder — visuel diskrimination, opmærksomhed på detaljer, mønstergenkendelse — og hver generator en separat produktlinje til dit katalog.\n\nI modsætning til gitterbaserede arbejdsark-generatorer bruger find genstande-værktøjet et frit lærred hvor du positionerer billeder individuelt. Du kontrollerer lagdeling, justering og placering for at skabe scener med ægte visuel kompleksitet. Kombineret med tilpasset billed-upload, baggrundstemaer og kantdekorationer giver dette dig komplet kreativ kontrol over enhver scene du bygger.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan bygge komplette scener, teste begge spiltilstande og evaluere eksportkvaliteten før køb af kommerciel licens.',
+  introduction: 'Find-og-markér aktiviteter tapper ind i et fundamentalt menneskeligt instinkt: trangen til at søge og finde. Børn helt ned til tre år engagerer sig naturligt med søg-og-find opgaver, der gør find-og-markér opgaver til et af de bredest appellerende printbare produkter du kan lave. Målgruppen spænder fra førskole til indskoling, krydser ethvert pensum og fungerer lige godt derhjemme og i grupper.\n\nDet der adskiller skjulte genstande-arbejdsark fra andre printable-produkter er deres visuel-først natur. Disse arbejdsark indeholder ingen tekst der behøver oversættelse, ingen matematikopgaver bundet til et specifikt pensum og ingen sprogafhængige instruktioner. Et skjulte genstande scene-arbejdsark skabt med engelske UI-etiketter fungerer identisk for en køber i Tyskland, Brasilien eller Japan. Dette gør dine produkter universelt salgbare på internationale markedspladser uden nogen ændring.\n\nFind genstande-generatoren giver dig to distinkte spiltilstande der generator fundamentalt forskellige produkter. I Spy-tilstand udfordrer børn til at finde specifikke skjulte genstande inden for en travl scene af distraktor-billeder. Find den anderledes-tilstand beder børn om at identificere det billede der ikke har et matchende par. Hver tilstand tjener forskellige udviklingsfærdigheder — visuel diskrimination, opmærksomhed på detaljer, mønstergenkendelse — og hver generator en separat produktlinje til dit katalog.\n\nI modsætning til gitterbaserede arbejdsark-generatorer bruger find genstande-værktøjet et frit lærred hvor du positionerer billeder individuelt. Du kontrollerer lagdeling, justering og placering for at skabe scener med ægte visuel kompleksitet. Kombineret med tilpasset billed-upload, baggrundstemaer og kantdekorationer giver dette dig komplet kreativ kontrol over enhver scene du bygger.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan bygge komplette scener, teste begge spiltilstande og evaluere eksportkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

@@ -2,25 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dinosaur printbare idéer til salg — nicheguide',
-    metaDescription: 'Udforsk profitable dinosaur printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Produktkoncepter, platformstrategier og nichetips til printable-sælgere.',
+    titleTag: 'Dinosaur opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Dinosaur-tema opgaver til print du kan sælge online. Malebilleder, find og tæl, regneopgaver og ordleg med dinosaurer. Sidegesjæft med passiv indkomst.',
 
-    primaryKeyword: 'dinosaur printbare idéer',
+    primaryKeyword: 'dinosaur opgaver til print idéer',
     secondaryKeywords: [
-      'dinosaur arbejdsark til salg',
-      'dinosaurtema printbar forretning',
-      'dinosaur aktivitetsark til sælgere',
-      'sælg dinosaurprintables på Etsy',
+      'dinosaur malebilleder regneopgaver til print sælg online',
+      'dinosaur printbare idéer Etsy.dk sidegesjæft',
+      'dinosaur aktivitetsark til print KDP',
+      'sælg dinosaur ordleg find og tæl til print',
     ],
     lsiKeywords: [
-      'forhistorisk tema pædagogiske arbejdsark',
-      'palæontologi aktiviteter til børn',
-      'jurassisk tema produktlinje printables',
+      'forhistorisk tema opgaver til print sidegesjæft',
+      'dinosaur malebilleder ordleg til print passiv indkomst',
+      'jurassisk tema produktlinje opgaver til print',
     ],
   },
   hero: {
-    title: 'Dinosaur printbare forretningsidéer til sælgere',
-    description: 'Dinosaurer fængsler børn som få andre emner. Kombinationen af massive skabninger, mystisk udryddelse og endeløs artsvariation skaber en fascination der driver konsekvent efterspørgsel efter dinosaurtema pædagogiske produkter. For printable-sælgere omsættes dette til en niche med kraftig følelsesmæssig appel, stærk forældre- og køberinteresse, og helårs købsadfærd. I modsætning til sæsonbestemte temaer der falmer efter få uger, vedvarer dinosaurentusiasmen på tværs af alle kalenderens måneder. Uanset om du sælger på Etsy, Amazon KDP eller Gumroad, tilbyder dinosaurprintables betydelig plads til produktdifferentiering takket være den enorme mangfoldighed af arter, tidsaldre og læringsmuligheder. Denne guide dækker specifikke produktidéer, platformspecifikke strategier og praktiske tilgange til at opbygge en profitabel dinosaurtema printbar produktlinje med vores arbejdsark-generatorværktøjer.',
+    title: 'Dinosaur opgaver til print — forretningsidéer for sælgere',
+    description: 'Dinosaurer fængsler børn som få andre emner — og dét gør dinosaur-tema til en kraftfuld stedsegrøn niche for opgaver til print. Kombinationen af massive skabninger, mystisk udryddelse og endeløs artsvariation skaber en fascination der driver konsekvent efterspørgsel efter dinosaurtema pædagogiske produkter. For printable-sælgere omsættes dette til en niche med kraftig følelsesmæssig appel, stærk forældre- og køberinteresse, og helårs købsadfærd. I modsætning til sæsonbestemte temaer der falmer efter få uger, vedvarer dinosaurentusiasmen på tværs af alle kalenderens måneder. Uanset om du sælger på Etsy, Amazon KDP eller Gumroad, tilbyder dinosaurprintables betydelig plads til produktdifferentiering takket være den enorme mangfoldighed af arter, tidsaldre og læringsmuligheder. Denne guide dækker specifikke produktidéer, platformspecifikke strategier og praktiske tilgange til at opbygge en profitabel dinosaurtema printbar produktlinje med vores arbejdsark-generatorværktøjer.',
   },
   marketOverview: `Dinosaur printable-nichen trives på en simpel sandhed: børn er besat af dinosaurer. Denne besættelse krydser kønslinjer, kulturelle grænser og aldersgrupper på måder som få andre temaer opnår. Forældre genkender denne passion og søger aktivt pædagogiske materialer der kanaliserer dinosaurentusiasmen ind i produktiv læring. Købere udnytter dinosaurfascination til at undervise i ordforråd, tælling, naturfagskoncepter og læsefærdigheder, velvidende at engagementet stiger når forhistoriske skabninger er involveret.
 

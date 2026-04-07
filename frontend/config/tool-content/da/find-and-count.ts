@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'find tæl generator søgearbejdsark',
+    primaryKeyword: 'find og tæl generator gratis online',
     secondaryKeywords: [
-      'find og tæl arbejdsark generator for sælgere',
-      'lav søge- og tællearbejdsark til salg',
-      'printbar søgeaktivitet generator kommerciel brug',
-      'skjulte objekter arbejdsark generator til KDP og Etsy',
+      'tælleøvelse gratis til print',
+      'find og tæl prøv gratis',
+      'tæl genstandene gratis',
     ],
     lsiKeywords: [
-      'skjulte objekter bogstavsøgning dobbelt tilstands aktivitet generator',
-      'fire opgavetyper ring om firkant kryds over tæl mixbar arbejdsark',
-      'lokalspecifikt alfabet accentuerede bogstaver søgegenerator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'tælle',
+      'finde',
+      'antal',
     ],
-    titleTag: 'Find og Tæl Generator — Søgearbejdsark Generator | Online',
-    metaDescription: 'Find og tæl generator: lav søgearbejdsark med Skjulte Objekter og Bogstavsøgning, fire opgavetyper, lokalspecifikke alfabeter. Sælg på Etsy & KDP.',
+    titleTag: 'Gratis find og tæl generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv find-og-tæl-generatoren gratis online. Temabilleder, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Find og Tæl Generator',
-    tagline: 'Dobbelt tilstands søgearbejdsark generator med Skjulte Objekter-tilstand (spredt billedgitter med op til 4 målobjekter) og Bogstavsøgning-tilstand (lokalspecifikt alfabet med danske ÆØÅ), fire mixbare opgavetyper (ring om, firkant, kryds over, tæl), lokaliserede billednavnsetiketter på 11 sprog og konfigurerbar gittertæthed 5×5 til 10×10',
-    description: 'Lav professionelle søge- og tællearbejdsark med to aktivitetstilstande. Skjulte Objekter spreder billeder i et konfigurerbart gitter (5–10 rækker × 5–10 kolonner, standard 6×6) med op til 4 målobjekter med individuelle opgavetyper — ring om, firkant, kryds over eller tæl. Bogstavsøgning viser et lokalspecifikt alfabet med danske A–Å inklusive Æ, Ø og Å (29 bogstaver) og genererer søgescener med billeder, der begynder med det valgte bogstav. Sprogfølsom: billednavnsetiketter gengives på det valgte sprog via billedvokabulærsystemet — \"Kat\" på dansk, \"Cat\" på engelsk, \"Katze\" på tysk. Dobbeltarbejdsområde-systemet genererer facit med røde visuelle annoteringer: cirkler, firkanter, kryds og kvantitetsvisninger. En automatisk genereret overskrift viser \"Find og tæl\" eller \"Bogstavsøgning\" med blå ramme (#2196F3) lokaliseret på alle 11 sprog. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
+    title: 'Gratis find og tæl generator — prøv online med vandmærke',
+    tagline: 'Prøv find-og-tæl-generatoren gratis online — tælleøvelser med temabilleder, fire opgavetyper og automatisk facit. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv find-og-tæl-generatoren gratis online og lav professionelle tælleøvelser med to aktivitetstilstande. Alle funktioner er tilgængelige i den gratis prøveversion — downloads indeholder et vandmærke, som fjernes med en licens. Skjulte Objekter spreder billeder i et konfigurerbart gitter (5–10 rækker × 5–10 kolonner, standard 6×6) med op til 4 målobjekter med individuelle opgavetyper — ring om, firkant, kryds over eller tæl. Bogstavsøgning viser et lokalspecifikt alfabet med danske A–Å inklusive Æ, Ø og Å (29 bogstaver) og genererer søgescener med billeder, der begynder med det valgte bogstav. Sprogfølsom: billednavnsetiketter gengives på det valgte sprog via billedvokabulærsystemet — \"Kat\" på dansk, \"Cat\" på engelsk, \"Katze\" på tysk. Dobbeltarbejdsområde-systemet genererer facit med røde visuelle annoteringer: cirkler, firkanter, kryds og kvantitetsvisninger. En automatisk genereret overskrift viser \"Find og tæl\" eller \"Bogstavsøgning\" med blå ramme (#2196F3) lokaliseret på alle 11 sprog. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Søgearbejdsark i 8 Trin',
+    title: 'Sådan laver du find og tæl-øvelser i 8 trin',
     steps: [
       {
         title: 'Åbn Find og Tæl Generatoren',
@@ -155,15 +157,15 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Alle funktioner låst op — begge aktivitetstilstande, alle fire opgavetyper, lokalspecifikke alfabeter med ÆØÅ, konfigurerbar gittertæthed, det autogenererede facit, lokaliserede billedetiketter på 11 sprog, alle 104 tematiske billedsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, navn/dato-felter, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på downloads.',
+      question: 'Kan jeg prøve find og tæl-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — begge tælleøvelse-tilstande, alle fire opgavetyper, lokalspecifikke alfabeter med ÆØÅ, konfigurerbar gittertæthed, automatisk facit, lokaliserede billedetiketter på 11 sprog, alle 104 temabilledsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, navn/dato-felter, gråtonekontakt og alle downloadformater. Ingen kreditkort. Vandmærke på downloads.',
     },
     {
-      question: 'Hvad er de to aktivitetstilstande?',
-      answer: 'Skjulte Objekter (standard) — spredte billeder i konfigurerbart gitter (5–10 × 5–10) med op til 4 målobjekter og opgavetyper. Bogstavsøgning — aktiverer lokalspecifikt alfabet (dansk 29 bogstaver med ÆØÅ) og genererer scener med billeder, der begynder med det valgte bogstav. Overskriften skifter automatisk.',
+      question: 'Hvilke tilstande til tælleøvelser findes?',
+      answer: 'Skjulte Objekter (standard) — find og tæl genstande i konfigurerbart gitter (5–10 × 5–10) med op til 4 målobjekter og opgavetyper. Bogstavsøgning — aktiverer lokalspecifikt alfabet (dansk 29 bogstaver med ÆØÅ) og genererer scener med billeder, der begynder med det valgte bogstav. Overskriften skifter automatisk.',
     },
     {
-      question: 'Hvad er de fire opgavetyper?',
+      question: 'Hvilke fire opgavetyper findes til find og tæl?',
       answer: 'Ring om (tegn cirkel), firkant (sæt firkant rundt), kryds over (kryds over), tæl (skriv antal). Mix alle fire på ét arbejdsark — ring om alle katte, kryds over alle hunde, tæl alle fugle, firkant alle fisk.',
     },
     {
@@ -218,22 +220,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
-      primaryAlt: 'Find og tæl søgearbejdsark med spredte billeder på et konfigurerbart gitter med blå overskriftramme og fire opgaveinstruktioner',
+      primaryAlt: 'Gratis find og tæl tælleøvelse med temabilleder og fire opgavetyper — prøv online med vandmærke',
     },
     sampleGallery: [
       {
         src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
-        alt: 'Søgearbejdsark med spredte tematiske billeder og fire opgavetyper inklusive ring om, firkant, kryds over og tæl',
+        alt: 'Gratis tælleøvelse med temabilleder og fire opgavetyper — find og tæl online med vandmærke',
         caption: 'Skjulte Objekter-tilstand — klassisk søgning med ring om, firkant, kryds over og tæl-opgaver på et spredt billedgitter',
       },
       {
         src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%202.webp',
-        alt: 'Søgearbejdsark i liggende tilstand med bredere gitterlayout og spredte tematiske billeder blandt distraktorobjekter',
+        alt: 'Gratis find og tæl-øvelse i liggende format med bredere gitter og spredte temabilleder',
         caption: 'Liggende layout — bredere gitter med blandede opgavetyper for varieret visuel søgeudfordring',
       },
       {
         src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%203.webp',
-        alt: 'Find og tæl facit med røde cirkel-, firkant- og krydsannoteringer over korrekte målobjekter og kvantitetsvisninger',
+        alt: 'Automatisk facit til find og tæl med røde annoteringer, der viser antal og markerer korrekte genstande',
         caption: 'Automatisk genereret facit — røde annoteringer markerer cirkler, firkanter, kryds og tællesummer for hvert målobjekt',
       },
     ],

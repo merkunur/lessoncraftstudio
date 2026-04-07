@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Halloween printbare idéer til salg — Nicheguide',
-    metaDescription: 'Udforsk halloween printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Uhyggelige produktkoncepter, sæsonstrategier og tips til printable sælgere.',
+    titleTag: 'Halloween opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Halloween-tema opgaver til print du kan sælge online. Malebilleder, ordleg, labyrint og skattejagt med halloween-figurer. Sælg på Etsy.dk og KDP.',
 
-    primaryKeyword: 'halloween printbare idéer',
+    primaryKeyword: 'halloween opgaver til print idéer',
     secondaryKeywords: [
-      'halloweenarbejdsark til salg',
-      'halloweentematisk printbar forretning',
-      'halloweenaktivitetsark for sælgere',
-      'sælg halloweenprintables på Etsy',
+      'halloween malebilleder ordleg til print sælg online',
+      'halloween printbare idéer Etsy.dk sidegesjæft',
+      'halloween aktivitetsark til print labyrint',
+      'sælg halloween malebilleder skattejagt til print',
     ],
     lsiKeywords: [
-      'uhyggelige tematiske pædagogiske arbejdsark',
-      'oktobertematiske printbare aktivitetssider',
-      'kostume- og græskartematiske printables',
+      'uhyggelig tema opgaver til print sidegesjæft',
+      'oktober halloween malebilleder ordleg til print',
+      'græskar kostume opgaver til print passiv indkomst',
     ],
   },
   hero: {
-    title: 'Halloween printbare forretningsidéer for sælgere',
+    title: 'Halloween opgaver til print — forretningsidéer for sælgere',
     description: 'Halloween leverer en af de mest kraftfulde sæsonbestemte efterspørgselsbølger på det printbare marked, med søgeinteresse der stiger kraftigt fra slutningen af august til oktober, efterhånden som købere og festplanlæggere søger uhyggeligt tematisk pædagogisk indhold. Nichen tilbyder ekstraordinær undertemavariation inklusive græskar, spøgelser, hekse, flagermus, edderkopper, skeletter, vampyrer, monstre, hjemsøgte huse og græskarhoveder, hvilket giver sælgere en rig visuel palette til at skabe distinkte produkter inden for en enkelt ferie. Købere planlægger oktoberaktiviteter og halloweenfester uger i forvejen, mens forældre leder efter alderstilpasset uhyggelig sjov der holder læring i centrum. For printable sælgere på Etsy, Amazon KDP og Gumroad belønner halloweennichen tidlig forberedelse med et koncentreret men meget profitabelt salgsvindue der vender forudsigeligt tilbage hvert år. Denne guide dækker specifikke produktidéer, platformsstrategier og timingtilgange til at hjælpe dig med at opbygge en blomstrende halloween printbar produktlinje med vores arbejdsarkgeneratorværktøjer.',
   },
   marketOverview: `Halloweenprintbare-nichen rangerer som den næstmest værdifulde sæsonmulighed for pædagogiske produktsælgere, kun overgået af jul i samlet efterspørgselsvolumen men med et kortere, mere koncentreret salgsvindue der gør timing særligt vigtigt. Købere begynder at planlægge oktoberaktiviteter og halloweenfester i slutningen af august og begyndelsen af september og søger tematiske arbejdsark der balancerer uhyggelig sjov med ægte pædagogisk værdi. Forældre søger alderstilpassede halloweenaktiviteter der forvandler skærmtid til kreative læringsoplevelser i ugerne med kostumeglæde og trick-or-treat-forventning. Festplanlæggere og arrangører køber tematiske aktivitetsark til fællesskabsbegivenheder, trunk-or-treat-arrangementer og familiehalloweenfejringer.

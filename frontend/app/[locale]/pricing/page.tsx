@@ -667,10 +667,10 @@ const pricingContent: Record<string, {
     catalogSubtitle: 'Kop enskilda appar for $49 eller spara med ett kategoripaket for $149.',
   },
   da: {
-    metaTitle: 'Priser - Professionelle printbare generatorer | LessonCraftStudio',
-    metaDescription: 'Prøv alle 33 generatorer gratis med vandmærke. Individuelle apps 49 $, pakker 149 $. Engangskøb, kommerciel licens inkluderet.',
-    keywords: ['printbar generator priser', 'kommerciel licens printables', 'Etsy printable værktøjer pris', 'opgave generator køb'],
-    heroBadge: '33 generatorer | 6 pakker | Engangskøb',
+    metaTitle: 'Priser | Arbejdsark-generatorer fra 49 $ — Engangsbetaling',
+    metaDescription: 'Prøv alle 33 generatorer gratis med vandmærke. Enkelt-apps 49 $, kategoribundler fra 99 $. Engangsbetaling, kommerciel licens, intet abonnement.',
+    keywords: ['arbejdsark generator priser', 'kommerciel licens opgaver til print', 'Etsy printable værktøjer pris', 'opgave generator køb', 'engangsbetaling arbejdsark'],
+    heroBadge: '33 generatorer | 6 bundler | Engangsbetaling',
     heroTitle: 'Simple priser. Intet abonnement.',
     heroSubtitle: 'Prøv hver generator gratis med vandmærke. Når du er klar, frigør rene eksporter med et engangskøb.',
     freeTier: {

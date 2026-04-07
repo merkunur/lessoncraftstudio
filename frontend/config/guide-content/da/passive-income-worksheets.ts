@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tilbagevendende omsætning arbejdsark',
+    primaryKeyword: 'passiv indkomst med opgaver til print',
     secondaryKeywords: [
       'arbejdsark virksomhedsindkomst',
       'tjen penge ved at sælge arbejdsark',
@@ -17,12 +17,12 @@ const content: GuideContent = {
       'omsætningsmultiplikation katalogeffekter organisk opdagelse løbende salg',
       'skalerbar omsætningsmodel arbejdsark indkomststrømme multi-platform omsætning',
     ],
-    titleTag: 'Tilbagevendende omsætning arbejdsark — Indkomstguide',
-    metaDescription: 'Byg tilbagevendende arbejdsark-omsætning gennem evergreen-kataloger, multi-platform distribution, sprogudvidelse og katalog-sammensætningsstrategier.',
+    titleTag: 'Passiv indkomst med opgaver til print — Guide til sælgere',
+    metaDescription: 'Byg passiv indkomst med opgaver til print. Evergreen-kataloger, multi-platform distribution på Etsy.dk og KDP, og skaleringsstrategier.',
   },
 
   hero: {
-    title: 'Skab tilbagevendende omsætning med arbejdsark',
+    title: 'Passiv indkomst med opgaver til print — byg din forretning',
     tagline: 'En komplet guide til at bygge bæredygtig arbejdsark-indkomst — der dækker hvorfor arbejdsark genererer løbende omsætning, opbygning af evergreen-produktkataloger, diversificering på tværs af omsætningskanaler, skabelse af produkter med helårsefterspørgsel, udnyttelse af pakker til højere transaktionsværdi, udvidelse til flere sprog, optimering til organisk opdagelse og opbygning af sammensatte katalogeffekter',
     description: 'Det mest kraftfulde aspekt af en arbejdsark-virksomhed er at hvert produkt du generator fortsætter med at generere omsætning længe efter skabelsesindsatsen er fuldført. I modsætning til tjenester hvor du bytter timer for kroner, kan en enkelt arbejdsarkpakke sælge hundredvis eller tusindvis af gange på tværs af flere platforme, sprog og år uden at kræve yderligere produktionstid. Denne guide viser dig hvordan du bygger en arbejdsark-virksomhed designet specifikt til tilbagevendende, sammensatte omsætning — hvor hvert nyt produkt styrker indtjeningspotentialet for hele dit katalog.',
   },

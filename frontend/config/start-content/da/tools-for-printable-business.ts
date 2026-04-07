@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'bedste vaerktojer saelgere printbare produkter noedvendige ejere forretninger',
+    primaryKeyword: 'bedste værktøjer til printbar forretning sælg opgaver til print',
     secondaryKeywords: [
-      'checkliste vaerktojer printbar forretning',
-      'arbejdsarksgeneratorvaerktojer for saelgere',
-      'vaerktojer til at saelge printbare produkter online',
-      'produktionsvaerktojer printbare produkter',
+      'checkliste værktøjer printbar forretning sidegesjæft',
+      'opgavegenerator-værktøjer for sælgere til print',
+      'værktøjer til at sælge opgaver til print online',
+      'produktionsværktøjer printbare opgaver passiv indkomst',
     ],
     lsiKeywords: [
-      'Etsy saelgervaerktojer for digitale downloads',
-      'Amazon KDP aktivitetsbog produktionsvaerktojer',
-      'software til arbejdsarksskabelse for ivaerksaettere',
-      'workflowautomation printbar forretning',
-      'flersproget arbejdsarksgenerator vaerktojer',
-      'kommerciel licens arbejdsarksproduktion',
+      'Etsy.dk sælgerværktøjer for digitale downloads',
+      'Amazon KDP aktivitetsbog produktionsværktøjer',
+      'software til opgavegenerering for iværksættere',
+      'workflowautomation printbar forretning sidegesjæft',
+      'flersproget opgavegenerator værktøjer til print',
+      'kommerciel licens opgaveproduktion printbar forretning',
     ],
-    titleTag: 'Bedste vaerktojer for saelgere af printbare produkter',
-    metaDescription: 'Bedste vaerktojer for saelgere af printbare produkter: arbejdsarksgeneratorer, designvaerktojer, platformsvaerktojer. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Bedste værktøjer til printbar forretning — sælg opgaver til print',
+    metaDescription: 'Bedste værktøjer for sælgere af opgaver til print: opgavegeneratorer, designværktøjer, platformsværktøjer. Sælg på Etsy.dk & KDP med kommerciel licens.',
   },
 
   hero: {
-    title: 'Noedvendige vaerktojer for ejere af printbare forretninger',
-    tagline: 'Den komplette vaerktojskasseguide for printbare ivaerksaettere — fra indholdssskabelse til platformshaandtering, ethvert vaerktoej du behoever for at producere, pakke og saelge professionelle arbejdsark',
-    description: 'At bygge en printbar forretning kraever de rigtige vaerktojer i hvert trin: indholdsskabelse, design, formatering, annoncering og analyse. De fleste saelgere overkomplicerer deres tekniske opsaetning og bruger penge paa vaerktojer de ikke behoever mens de savner dem der faktisk accelererer produktionen. Denne guide skaerer igennem stojen. Den daekker den noedvendige vaerktojskasse for ejere af printbare forretninger — startende med den vigtigste kategori (arbejdsarksgeneratorer der producerer trykfaerdige 300 DPI PDF-filer), for derefter at udvide til supplerende designvaerktojer, platformsspecifikke vaerktojer og workflowstrategier. Den gratis proeveversion med vandmaerke lader dig teste enhver generator foer du investerer.',
+    title: 'Nødvendige værktøjer for ejere af printbare forretninger',
+    tagline: 'Den komplette værktøjskasseguide for printbare iværksættere — fra opgavegenerering til platformshåndtering, ethvert værktøj du behøver',
+    description: 'At bygge en printbar forretning kræver de rigtige værktøjer i hvert trin: opgavegenerering, design, formatering, annoncering og analyse. De fleste saelgere overkomplicerer deres tekniske opsaetning og bruger penge paa vaerktojer de ikke behoever mens de savner dem der faktisk accelererer produktionen. Denne guide skaerer igennem stojen. Den daekker den noedvendige vaerktojskasse for ejere af printbare forretninger — startende med den vigtigste kategori (arbejdsarksgeneratorer der producerer trykfaerdige 300 DPI PDF-filer), for derefter at udvide til supplerende designvaerktojer, platformsspecifikke vaerktojer og workflowstrategier. Den gratis proeveversion med vandmaerke lader dig teste enhver generator foer du investerer.',
   },
 
   introduction: 'Enhver printbar forretning drives af vaerktojer. Kvaliteten af din output, hastigheden af din produktion og variationen i dit katalog afhaenger alle af de vaerktojer du vaelger. Alligevel springer de fleste guider om at saelge printbare produkter vaerktojsdiskussionen helt over.\n\nDenne guide besvarer det spoergsmaal omfattende. Den daekker tre kategorier af vaerktojer som enhver saelger af printbare produkter behoever: vaerktojer til indholdsskabelse (generatorerne der producerer dine faktiske arbejdsark), design- og formateringsvaerktojer (til omslag, mockupbilleder og paketering) og platformshaandteringsvaerktojer (til annonceringsoptimering, noegleordsforskning og analyse). Enhver kategori har noedvendige vaerktojer og valgfrie. At kende forskellen sparer penge og tid.\n\nDet enkeltstaaende vigtigste vaerktoej i enhver printbar forretning er indholdsageneratoren. Alt andet — omslagsdesign, annoncebilleder, SEO-optimering — er sekundaert sammenlignet med at have hoejkvalitets, trykfaerdigt indhold at saelge. En smukt designet Etsy-annonce med middelmaadig arbejdsark indeni genererer tilbagebetalinger og enstjernede anmeldelser. En simpel annonce med professionelle, korrekte 300 DPI-arbejdsark genererer tilbagevendende koebere og femstjernede anmeldelser.\n\nDen gratis proeveversion med vandmaerke paa enhver arbejdsarksgenerator lader dig bygge praktisk erfaring med de mest kritiske vaerktojer foer du bruger en eneste krone.',

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sæsonbestemt markedsføring printables',
+    primaryKeyword: 'sæsonmarketing for printables',
     secondaryKeywords: [
       'sæsonbestemt printbar forretningsstrategi',
       'ferie-arbejdsark markedsføring',
@@ -16,8 +16,8 @@ const content: GuideContent = {
       'juleaktiviteter sæsontrends efterspørgselsprognosticering produktionskalender',
       'udgivelsestiming sæsonnøgleord trendanalyse indholdskalender kvartalsplanlægning',
     ],
-    titleTag: 'Sæsonbestemt markedsføring printables — Sælgerkalender',
-    metaDescription: 'Planlæg sæsonbestemte markedsføringskampagner for printables tilpasset efterspørgselscyklusser.',
+    titleTag: 'Sæsonmarketing for printables — Kalender for sælgere',
+    metaDescription: 'Sæsonmarketing for sælgere af opgaver til print. Planlæg kampagner tilpasset efterspørgselscyklusser på Etsy.dk og Amazon KDP.',
   },
 
   hero: {

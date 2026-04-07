@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab størrelsessammenlignings-arbejdsark',
+    primaryKeyword: 'lav stor-og-lille opgaver til print',
     secondaryKeywords: [
-      'stor og lille arbejdsark for børn',
-      'størrelses-diskrimination arbejdsark-generator',
-      'printbare størrelsessammenlignings-arbejdsark til salg',
-      'størrelsesordnings-arbejdsark til førskole',
+      'stor og lille opgaver til børnehaveklasse og indskoling',
+      'størrelses-sammenligning opgaver generator til Etsy.dk og KDP',
+      'printbare stor-og-lille opgaver til salg med kommerciel licens',
+      'størrelsesordnings-opgaver til førskole til print',
     ],
     lsiKeywords: [
-      'visuel størrelses-diskrimination aktiviteter',
-      'tekst-frie arbejdsark til internationalt salg',
-      'cirkel den store arbejdsark',
-      'sælg størrelsessammenlignings-arbejdsark på Etsy',
-      'Amazon KDP størrelsesordnings-aktivitetsbøger',
-      'kommerciel licens størrelses-arbejdsark værktøj',
+      'visuel størrelses-diskrimination opgaver til børn til print',
+      'tekst-frie opgaver til internationalt salg passiv indkomst',
+      'cirkel den store opgaver til børnehaveklasse',
+      'sælg stor-og-lille opgaver på Etsy.dk printbar forretning',
+      'Amazon KDP størrelsesordnings-aktivitetsbøger til print',
+      'kommerciel licens størrelses-opgaver sidegesjæft',
     ],
-    titleTag: 'Skab størrelsessammenlignings-arbejdsark — Guide',
-    metaDescription: 'Skab størrelsessammenlignings-arbejdsark med 5 spørgsmålstyper og 2 billedtilstande. Tekst-frit output sælger globalt. Guide til Etsy, KDP og Gumroad.',
+    titleTag: 'Lav stor-og-lille opgaver til print — Guide til Etsy og KDP',
+    metaDescription: 'Lav stor-og-lille opgaver til print med 5 spørgsmålstyper og 2 billedtilstande. Tekst-frit output sælger globalt. Sælg på Etsy.dk, KDP og Gumroad.',
   },
 
   hero: {
-    title: 'Sådan generator du størrelsessammenlignings-arbejdsark',
-    tagline: 'En trin-for-trin vejledning til at skabe størrelses-diskriminations-arbejdsark med fem spørgsmålstyper og tekst-frit output du kan sælge globalt på Etsy, Amazon KDP og Gumroad',
-    description: 'Størrelsessammenligning er en af de tidligste visuelle færdigheder børn udvikler, og arbejdsark der træner denne færdighed har helårsefterspørgsel fra købere og tidlige læringscentre. Denne guide fører dig igennem hele skabelsesprocessen med stor og lille arbejdsark-makeren — fra at vælge blandt fem spørgsmålstyper og to billedtilstande til at konfigurere øvelsestæthed, generere automatisk facit og eksportere trykklare filer. Værktøjet producerer fuldt visuelle arbejdsark med nul tekst på outputtet, hvilket betyder at dine produkter sælger til købere i ethvert land uden oversættelse. Uanset om du generator dit første printable-produkt eller udvider et eksisterende tidlig lærings-katalog, vil du have færdige arbejdsark klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav stor-og-lille opgaver til print og sælg dem online',
+    tagline: 'En trin-for-trin vejledning til at skabe størrelses-diskriminations-opgaver til print med fem spørgsmålstyper og tekst-frit output du kan sælge globalt på Etsy.dk, Amazon KDP og Gumroad',
+    description: 'Størrelses-sammenligning er en af de tidligste visuelle færdigheder børn i børnehaveklasse og indskoling udvikler, og stor-og-lille opgaver til print har helårsefterspørgsel fra forældre og sælgere på Etsy.dk og Amazon KDP. Denne guide fører dig igennem hele skabelsesprocessen med stor og lille arbejdsark-makeren — fra at vælge blandt fem spørgsmålstyper og to billedtilstande til at konfigurere øvelsestæthed, generere automatisk facit og eksportere trykklare filer. Værktøjet producerer fuldt visuelle arbejdsark med nul tekst på outputtet, hvilket betyder at dine produkter sælger til købere i ethvert land uden oversættelse. Uanset om du generator dit første printable-produkt eller udvider et eksisterende tidlig lærings-katalog, vil du have færdige arbejdsark klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Størrelses-diskrimination er en grundlæggende visuel-kognitiv færdighed som børn begynder at udvikle før de kan læse, skrive eller tælle. At genkende at ét objekt er større end et andet, ordne elementer fra mindst til størst og identificere den mellemstore mulighed i en gruppe — disse færdigheder understøtter matematisk ræsonnering, rumlig bevidsthed og dagligdags problemløsning. Den udviklingsmæssige betydning oversættes til vedvarende markedspladsefterspørgsel efter størrelsessammenlignings-arbejdsark på tværs af førskole, børnehaveklasse og tidlig indskolingsaldersgrupper.\n\nDet der gør størrelsessammenlignings-arbejdsark ekceptionelt stærke som printable-produkt er deres tekst-frie output. Stor og lille arbejdsark-makeren genererer arbejdsark der kun indeholder billeder og visuelle indikatorer — ingen ord vises på den færdige side. Det betyder at et arbejdsark skabt i én session sælger identisk til købere i ethvert land, ethvert sprog og ethvert læseniveau. Du behøver ikke separate produktversioner til engelske, tyske, franske eller spanske markeder. Én listning, én fil, universel salgbarhed. Dette er en konkret konkurrencefordel over tekstbaserede arbejdsark-generatorer hvor hvert produkt kræver oversættelse og separate markedsplads-listninger.\n\nVærktøjet tilbyder fem distinkte spørgsmålstyper der generator en naturlig sværheidsprogression. Cirkel den store er den simpleste identifikationsopgave. Cirkel den lille kræver lidt mere omhyggelig sammenligning. Cirkel den mellemstore introducerer et tredje størrelses-niveau og eliminationsræsonnering. Nummerér 1–2–3 lille til stor og stor til lille skifter fra identifikation til flertrins-sekventering. Hver spørgsmålstype retter sig mod en anderledes kognitiv færdighed, og hver generator et separat produkt du kan liste på markedspladser.\n\nTo billedtilstande fordobler din produktvariation fra det samme værktøj. Identiske billeder-tilstand viser det samme billede i forskellige størrelser, der isolerer ren størrelsesperception. Forskellige billeder-tilstand viser distinkte objekter i forskellige størrelser, der kræver relativ størrelses-ræsonnering. Disse tilstande generator fundamentalt forskellige øvelser der appellerer til forskellige køberbehov.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan teste alle fem spørgsmålstyper, begge billedtilstande, ethvert tema og den fulde eksport-pipeline før køb af kommerciel licens.',
+  introduction: 'Størrelses-diskrimination er en grundlæggende visuel-kognitiv færdighed som børn i børnehaveklasse og indskoling begynder at udvikle før de kan læse, skrive eller tælle. At genkende at ét objekt er større end et andet, ordne elementer fra mindst til størst og identificere den mellemstore mulighed i en gruppe — disse opgaver til print har vedvarende efterspørgsel på markedspladser som Etsy.dk og Amazon KDP, og er en oplagt niche for din printbare forretning.\n\nDet der gør stor-og-lille opgaver ekceptionelt stærke som printable-produkt er deres tekst-frie output. Stor og lille arbejdsark-makeren genererer arbejdsark der kun indeholder billeder og visuelle indikatorer — ingen ord vises på den færdige side. Det betyder at et arbejdsark skabt i én session sælger identisk til købere i ethvert land, ethvert sprog og ethvert læseniveau. Du behøver ikke separate produktversioner til engelske, tyske, franske eller spanske markeder. Én listning, én fil, universel salgbarhed. Dette er en konkret konkurrencefordel over tekstbaserede arbejdsark-generatorer hvor hvert produkt kræver oversættelse og separate markedsplads-listninger.\n\nVærktøjet tilbyder fem distinkte spørgsmålstyper der generator en naturlig sværheidsprogression. Cirkel den store er den simpleste identifikationsopgave. Cirkel den lille kræver lidt mere omhyggelig sammenligning. Cirkel den mellemstore introducerer et tredje størrelses-niveau og eliminationsræsonnering. Nummerér 1–2–3 lille til stor og stor til lille skifter fra identifikation til flertrins-sekventering. Hver spørgsmålstype retter sig mod en anderledes kognitiv færdighed, og hver generator et separat produkt du kan liste på markedspladser.\n\nTo billedtilstande fordobler din produktvariation fra det samme værktøj. Identiske billeder-tilstand viser det samme billede i forskellige størrelser, der isolerer ren størrelsesperception. Forskellige billeder-tilstand viser distinkte objekter i forskellige størrelser, der kræver relativ størrelses-ræsonnering. Disse tilstande generator fundamentalt forskellige øvelser der appellerer til forskellige køberbehov.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan teste alle fem spørgsmålstyper, begge billedtilstande, ethvert tema og den fulde eksport-pipeline før køb af kommerciel licens.',
 
   tutorial: [
     {

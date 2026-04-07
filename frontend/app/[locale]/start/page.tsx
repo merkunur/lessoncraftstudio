@@ -17,7 +17,7 @@ const startKeywords: Record<string, string[]> = {
   it: ['come vendere schede didattiche', 'avviare business stampabili', 'creare schede da vendere', 'guida venditore Etsy', 'guida principiante KDP', 'vendere stampabili educativi'],
   nl: ['printables-business starten', 'Etsy shop openen printables', 'KDP publiceren beginners', 'printables verkopen Nederland', 'Bol.com verkoper worden'],
   sv: ['starta utskriftsföretag', 'utskriftsföretag nybörjare', 'sälja utskrifter', 'Etsy säljarguide', 'KDP nybörjarguide', 'passiv inkomst utskrifter'],
-  da: ['starte printable-forretning', 'printable-forretning begyndere', 'sælge printables', 'Etsy sælgerguide', 'KDP begynderguide', 'passiv indkomst printables'],
+  da: ['starte printable-forretning', 'kom i gang med at sælge printables', 'sælge opgaver til print', 'Etsy sælgerguide begyndere', 'KDP aktivitetsbog begynderguide', 'passiv indkomst opgaver til print'],
   no: ['starte utskriftsvirksomhet', 'utskriftsvirksomhet nybegynnere', 'selge utskrifter', 'Etsy selgerguide', 'KDP nybegynnerguide', 'passiv inntekt utskrifter'],
   fi: ['aloita tulostettavien yritys', 'tulostettavien yritys aloittelijoille', 'myydä tulostettavia', 'Etsy myyjäopas', 'KDP aloittelijan opas', 'passiivinen tulo tulostettavat'],
 };
@@ -104,10 +104,10 @@ const startPageContent: Record<string, {
     ctaButton: 'Prova generatorerna gratis',
   },
   da: {
-    heroTitle: 'Guider til printable-forretning',
-    heroDescription: 'Alt du behøver for at starte og vækste en profitabel printable-forretning. Fra nichevalg til salgsvækst.',
-    metaTitle: 'Guider til printable-forretning | Start og vækst | LessonCraftStudio',
-    metaDescription: 'Omfattende guider til at starte og vækste en printable-forretning. Salg på Etsy, Amazon KDP, TPT. Priser, marketing og nichestrategier.',
+    heroTitle: 'Kom i gang med at sælge opgaver til print',
+    heroDescription: 'Alt du behøver for at starte og vækste en profitabel printable-forretning. Fra første produkt til fuldtidsindkomst.',
+    metaTitle: 'Start din printable-forretning | Trin-for-trin kom-i-gang-guide',
+    metaDescription: 'Komplette planer for at starte en printable-forretning på Etsy, Amazon KDP eller TPT. Fra første arbejdsark til første salg — ingen designfærdigheder nødvendigt.',
     ctaTitle: 'Klar til at skabe?',
     ctaDescription: 'Prøv alle 33 generatorer gratis med vandmærke. Ingen tilmelding.',
     ctaButton: 'Prøv generatorerne gratis',

@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'gitterritning generator',
+    primaryKeyword: 'tegneaktivitet opgave til print',
     secondaryKeywords: [
-      'gitterritning arbejdsark sælg på Etsy',
-      'tegn og farvelæg generator til Amazon KDP',
-      'gitterreproduktion arbejdsark kommerciel licens',
-      'printbare tegneøvelser til Gumroad',
+      'tegne og farvelægge opgaveark',
+      'trin-for-trin tegning',
+      'kunst opgaveark',
+      'kreativt opgaveark',
     ],
     lsiKeywords: [
-      'digitale gitterritning produkter online forretning',
-      'printbare celle-for-celle reproduktion arbejdsark business',
-      'gitterritning generator kommercielt brug',
+      'tegne farvelægge kreativ kunst børnehaveklasse indskoling',
+      'printbare tegneøvelser forretningsværktøj',
+      'tegneaktivitet generator kommercielt brug',
     ],
-    titleTag: 'Gitterritning Generator | Opret Gitterkunst Arbejdsark',
-    metaDescription: 'Opret gitterritningsarbejdsark til salg på Etsy, KDP og Gumroad. Dobbelt gittersystem, justerbar ledetrådsprocent, symmetritilstande. $49 engangsbetaling.',
+    titleTag: 'Tegne og farvelægge opgave til print | Kreativ generator',
+    metaDescription: 'Lav tegne- og farvelægningsopgaver med temabilleder. 300 DPI PDF printklare. Prøv gratis — kommerciel licens.',
   },
 
   hero: {
-    title: 'Gitterritning Arbejdsark Generator til Gitterbaserede Tegneøvelser',
-    tagline: 'Dobbelt gittersystem — øvelsesgitter og ledetrådsgitter side om side — med justerbar ledetrådsprocent fra 10% til 75%, horisontale og vertikale symmetritilstande og 100+ sort-hvide konturtemaer til tegning og farvelægning.',
+    title: 'Tegneaktivitet opgave til print — kreative tegne- og farvelægningsopgaver',
+    tagline: 'Kreativ generator til tegne og farvelægge opgaveark — dobbelt gittersystem med øvelsesgitter og ledetrådsgitter, trin-for-trin tegning med justerbar sværhed, og 100+ sort-hvide konturtemaer til kunst opgaveark.',
     description:
-      'Design professionelle gitterritningsarbejdsark, hvor brugerne reproducerer et referencebillede ved at kopiere det celle-for-celle fra et ledetrådsgitter til et tomt øvelsesgitter. To gitre vises per valgt billede: et Øvelsesgitter med tomme celler, hvor brugerne tegner, og et Ledetrådsgitter, der viser en konfigurerbar procent af referencebilledet som visuelle ledetråde. Juster ledetrådsprocenten fra 10% til 75% for at kontrollere sværheden — færre ledetråde betyder sværere øvelser, der kræver skarpere observation. Konfigurer gitterdimensioner fra 3×3 (9 celler) til 10×10 (100 celler), med rækker og kolonner justerbare uafhængigt fra 3 til 10. Tre symmetritilstande tilføjer en rumlig ræsonnementsdi­mension: Tilfældig placerer ledetråde i spredte positioner, Horisontal spejler ledetråde venstre-til-højre, og Vertikal spejler ledetråde oppefra-og-ned, hver med en del-at-vise-vælger. Indhold hentes fra det indbyggede sort-hvide konturtemabibliotek med 100+ samlinger med mere end 3.000 sort-hvide illustrationer specifikt designet til tegning og farvelægning — ikke farverige temaer, men rene konturer, som brugerne reproducerer og derefter farvelægger. Dette er en rent visuel app: arbejdsarkene indeholder kun gitterbilleder uden tekst, hvilket gør dem universelt brugbare uanset sprog. Ingen facitliste nødvendig, da ledetrådsgitteret i sig selv fungerer som referenceløsningen. Fuld Adgang låser op for alle 100+ sort-hvide temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter-, A4- eller brugerdefineret format. Uanset om du sælger gitterritningspakker på Etsy.dk, sammensætter tegnefærdigheds­arbejdsbøger til Amazon KDP eller opretter rumlige ræsonnementsstationer til Gumroad — Gitterritning Arbejdsark Generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle tegne- og farvelægningsopgaver, hvor børn reproducerer et referencebillede celle-for-celle fra et ledetrådsgitter til et tomt øvelsesgitter. Det danske marked med 5,8 millioner dansktalende har lav konkurrence inden for kreative opgaveark på Etsy.dk — en oplagt mulighed for printbare tegneaktiviteter. To gitre vises per valgt billede: et Øvelsesgitter med tomme celler, hvor børnene tegner, og et Ledetrådsgitter, der viser en konfigurerbar procent af referencebilledet som visuelle ledetråde. Juster ledetrådsprocenten fra 10% til 75% for trin-for-trin tegning — færre ledetråde skaber sværere kunst opgaveark. Konfigurer gitterdimensioner fra 3×3 (9 celler) til 10×10 (100 celler) med uafhængige række- og kolonnejusteringer. Tre symmetritilstande tilføjer en rumlig dimension: Tilfældig, Horisontal og Vertikal spejling. Indhold hentes fra 100+ sort-hvide konturtemasamlinger med mere end 3.000 illustrationer, specifikt designet til tegning og farvelægning. Tegneaktiviteterne er egnede til børnehaveklasse (5–6 år), indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse) — tilpas sværheden med gitterstørrelse og ledetrådsprocent. Dette er en rent visuel app: opgavearkene indeholder kun gitterbilleder uden tekst, hvilket gør dem universelt brugbare uanset sprog. Fuld Adgang låser op for alle 100+ temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter-, A4- eller brugerdefineret format. Uanset om du sælger kreative opgaveark på Etsy.dk, sammensætter tegnefærdighedsbøger til Amazon KDP eller opretter kunst opgaveark — denne generator leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Gitterritningsarbejdsark i 5 Trin',
+    title: 'Sådan laver du tegne- og farvelægningsopgaver i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Gitterritning Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i den kreative tegneaktivitet generator',
     features: [
       {
         title: 'Dobbelt gittersystem: Øvelsesgitter og Ledetrådsgitter',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Gitterritningsarbejdsark Online',
+    title: 'Sådan sælger du tegne- og farvelægningsopgaver online',
     cases: [
       {
         title: 'Gitterritningspakker på Etsy.dk',
@@ -140,64 +140,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvordan fungerer det dobbelte gittersystem?',
+      question: 'Kan jeg sælge disse tegneaktiviteter på Etsy?',
       answer:
-        'Hvert billede, du vælger, genererer to ledsagergitre. Øvelsesgitteret har tomme celler med lette konturer, hvor brugerne tegner deres reproduktion. Ledetrådsgitteret viser en konfigurerbar procent af referencebilledet — nogle celler udfyldt med dele af billedet, andre efterladt tomme. Brugerne kigger på ledetrådsgitteret, identificerer, hvilke celler der viser referenceindhold, og reproducerer hele billedet celle-for-celle i øvelsesgitteret. De to gitre vises sammen på arbejdsarksiden.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine tegne- og farvelægningsopgaver som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP eller via enhver anden salgskanal. Det dobbelte gitterformat, den justerbare ledetrådsprocent og symmetritilstandene giver et unikt kreativt opgaveark, der skiller sig ud. Det danske marked har lav konkurrence inden for printbare kunst opgaveark.',
     },
     {
-      question: 'Hvad styrer ledetrådsprocenten?',
+      question: 'Hvordan laver jeg tegne- og farvelægningsopgaver?',
       answer:
-        'Ledetrådsprocenten (10%–75%) bestemmer, hvilken brøkdel af ledetrådsgitterets celler der viser referencebilledet. Ved 75% viser tre fjerdedele af cellerne billedet, og brugerne udfylder kun den resterende fjerdedel. Ved 25% er kun en fjerdedel af cellerne synlige, og brugerne rekonstruerer resten fra spredte ledetråde. Ved 10% synes næsten ingen reference for maksimal udfordring. Lavere ledetrådsprocent betyder sværere øvelser. Denne skyder er den primære sværhedskontrol og lader dig oprette jævne progressioner fra let til ekspert inden for en enkelt arbejdsarkspakke.',
+        'Åbn generatoren, konfigurer gitterdimensioner (3×3 til 10×10) og ledetrådsprocent (10%–75%). Vælg et sort-hvidt konturtema fra biblioteket med 3.000+ illustrationer. Vælg en symmetritilstand (Tilfældig, Horisontal eller Vertikal). Generatoren opretter automatisk et dobbelt gittersystem — øvelsesgitter til tegning og ledetrådsgitter som trin-for-trin reference. Eksporter som trykfærdig PDF med 300 DPI.',
     },
     {
-      question: 'Hvilke gitterstørrelser kan jeg konfigurere?',
+      question: 'Er tegneaktiviteterne egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Rækker og kolonner justeres uafhængigt fra 3 til 10. Et 3×3-gitter har 9 store celler — enkelt for unge brugere. Et 10×10-gitter har 100 små celler — krævende for avancerede brugere. Ikke-kvadratiske gitre som 4×6 eller 8×5 tilpasser sig til forskellige billedforhold. Gitterstørrelse og ledetrådsprocent generator to uafhængige sværhedsaksler, så et 5×5-gitter ved 50% ledetråde er middelsværhedsgrad, mens et 10×10-gitter ved 10% ledetråde er ekspertniveau.',
+        'Ja. Tilpas sværheden med to uafhængige kontroler. Til børnehaveklasse (5–6 år): brug 3×3-gitre med 75% ledetråde for enkel trin-for-trin tegning. Til indskoling (0.–3. klasse): brug 5×5-gitre med 40–50% ledetråde for middel udfordring. Til mellemtrin (4.–6. klasse): brug 8×8 eller 10×10-gitre med 10–15% ledetråde for ekspertniveau. Symmetritilstande tilføjer ekstra rumligt ræsonnement.',
+    },
+    {
+      question: 'På hvor mange sprog fungerer generatoren?',
+      answer:
+        'Brugerfladen understøtter 11 sprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, norsk og finsk. Tegneaktiviteterne er rent visuelle — opgavearkene indeholder kun gitterbilleder uden tekst, så de er identiske på ethvert sprog. Den autolokaliserede overskrift tilpasser sig automatisk. Ét produkt kan sælges til alle markeder uden oversættelse.',
+    },
+    {
+      question: 'Er facitlisten inkluderet?',
+      answer:
+        'Ledetrådsgitteret fungerer i sig selv som referenceløsningen. Da ledetrådsgitteret viser en procent af det komplette billede, kan børnene sammenligne deres færdige tegning mod originalbilledet. Der er ingen grund til en separat facitfil — det dobbelte gitterformat inkluderer løsningsreferencen. Dette forenkler dit produktskabelsesworkflow, da du eksporterer én side med begge gitre.',
     },
     {
       question: 'Hvordan fungerer symmetri- og spejltilstandene?',
       answer:
-        'Tre tilstande styrer, hvordan ledetrådsceller placeres. Ingen (Tilfældig) spreder ledetrådsceller i vilkårlige positioner for generel tegneøvelse. Horisontal spejler ledetrådsceller venstre-til-højre — brugerne ser den ene side og skal tegne spejlbilledet på den anden. Vertikal spejler ledetrådsceller oppefra-og-ned. Når Horisontal eller Vertikal er valgt, lader en del-at-vise-vælger dig vælge, hvilken halvdel der vises som ledetråde (venstre/højre eller øverst/nederst). Spejltilstande lærer symmetrigenkendelse parallelt med tegnefærdigheder.',
+        'Tre tilstande styrer ledetrådscellernes placering. Tilfældig spreder ledetråde i vilkårlige positioner for generel tegneøvelse. Horisontal spejler venstre-til-højre — børnene ser den ene side og tegner spejlbilledet. Vertikal spejler oppefra-og-ned. Spejltilstande lærer symmetrigenkendelse parallelt med kreative tegnefærdigheder — populært i både kunst- og matematikkategorier.',
     },
     {
-      question: 'Hvorfor bruger denne app sort-hvide konturtemaer i stedet for farverige?',
+      question: 'Hvorfor bruger denne app sort-hvide konturtemaer?',
       answer:
-        'Gitterritning bruger sort-hvide konturillustrationer specifikt designet til tegning og farvelægning. Rene konturer er ideelle til celle-for-celle reproduktion — brugerne kan tydeligt se linjerne, de skal kopiere. Efter tegningen er færdig, kan brugerne farvelægge deres reproduktion som en yderligere aktivitet. Farverige billeder ville være sværere at reproducere i hånden og ville ikke indbyde til farvelægning bagefter. Det sort-hvide format printes også perfekt i sort-hvid, hvilket holder udskriftsomkostningerne lave til produktlinje- og arbejdsbogsbrug.',
-    },
-    {
-      question: 'Hvorfor er der ingen separat facitliste for denne app?',
-      answer:
-        'Ledetrådsgitteret i sig selv fungerer som referenceløsningen. Da ledetrådsgitteret viser en procent af det komplette billede, kan brugerne sammenligne deres færdige øvelsesgitter mod en fuldt synlig reference når som helst ved at kigge på originalbilledet. Der er ingen grund til en separat facitfil — det dobbelte gitterformat inkluderer i sig selv løsningsreferencen. Dette effektiviserer dit produktskabelses­arbejdsflow, da du eksporterer én side med begge gitre i stedet for at håndtere separate arbejdsarks- og facitfiler.',
-    },
-    {
-      question: 'Hvordan vælger jeg billeder til gitterritningsøvelserne?',
-      answer:
-        'Gennemse 100+ sort-hvide konturtemasamlinger med mere end 3.000 illustrationer ordnet efter kategori — dyr, køretøjer, mad, natur, erhverv, højtider og snesevis flere. Brug søgefunktionen til at finde specifikke billeder på tværs af alle temaer. Eller upload dit eget billede for at oprette gitterøvelser fra enhver kilde. Valgte billeder bearbejdes automatisk til det dobbelte gitterformat med din konfigurerede ledetrådsprocent og symmetriindstillinger.',
-    },
-    {
-      question: 'Kan jeg tilføje felter til navn og dato på arbejdsarket?',
-      answer:
-        'Ja. Slå muligheden Inkluder Navn/Dato-Felter til for at tilføje identifikationsområder på dit arbejdsark. Du kan også bruge panelet Tekstværktøjer til at tilføje en brugerdefineret titel, instruktioner eller anden tekst med skrifttyper inkl. Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial og Verdana. Alle tekstelementer kan redigeres frit på lærredet — træk, ændr størrelse, roter og flyt efter behov.',
+        'Sort-hvide konturer er ideelle til trin-for-trin tegning — børnene kan tydeligt se linjerne, de skal kopiere celle-for-celle. Efter tegningen er færdig, kan de farvelægge deres reproduktion som en ekstra kreativ aktivitet. Det sort-hvide format printes perfekt uden farveblæk, hvilket holder udskriftsomkostningerne lave.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — alle gitterstørrelser, alle ledetrådsprocenter, alle symmetritilstande, det sort-hvide temabibliotek, upload af egne billeder og alle eksportformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Er Gitterritning-generatoren sprogfølsom?',
-      answer:
-        'Nej. Gitterritning er en rent visuel app — arbejdsarkene indeholder kun gitterbilleder med nul tekst på resultatet, så de er identiske på ethvert sprog. At skifte sprog påvirker kun brugerfladeetiketter i generatoren og billedbiblioteksetiketterne, ikke arbejdsarket i sig selv. Kommerciel Pakke inkluderer 10 sort-hvide temaer; Fuld Adgang låser op for alle 100+ sort-hvide temaer og alle 11 brugerfladesprog.',
-    },
-    {
-      question: 'Kan jeg sælge arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine gitterritningsarbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som pædagogiske ressourcer på Gumroad eller via enhver anden salgskanal. Det dobbelte gitterformat, den justerbare ledetrådsprocent, symmetritilstandene og den sort-hvide konturstil generator et distinkt produkt, der konkurrerer stærkt i tegning- og aktivitetsarbejdsark-kategorier.',
-    },
-    {
-      question: 'Hvad er returpolitikken?',
-      answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver gitterstørrelse, hver ledetrådsprocent, hver symmetritilstand, hvert eksportformat og hvert sideformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Ja. Du kan bruge alle funktioner — alle gitterstørrelser, alle ledetrådsprocenter, alle symmetritilstande, det sort-hvide temabibliotek, upload af egne billeder og alle eksportformater — uden at oprette en konto eller indtaste kreditkort. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
   ],
 
@@ -262,27 +242,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.webp',
-      primaryAlt: 'Gitterritningsarbejdsark med dobbelt gittersystem, der viser øvelsesgitter og ledetrådsgitter med sort-hvidt konturtema',
+      primaryAlt: 'Tegneaktivitet opgave til print — dobbelt gittersystem med øvelsesgitter og ledetrådsgitter for trin-for-trin tegning',
     },
     sampleGallery: [
       {
         src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%201.webp',
-        alt: 'Gitterritningsarbejdsark med dyr sort-hvidt konturtema, der viser øvelsesgitter og ledetrådsgitter',
-        caption: 'Dyretema — brugerne reproducerer konturen celle-for-celle fra ledetrådsgitterets ledetråde',
+        alt: 'Tegne- og farvelægningsopgave med dyretema — kreativt opgaveark med trin-for-trin tegning',
+        caption: 'Dyretema tegneaktivitet — børnene tegner konturen celle-for-celle fra ledetrådsgitteret',
       },
       {
         src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%202.webp',
-        alt: 'Gitterritningsarbejdsark med horisontalt symmetrispejltilstand og ledetrådsceller spejlet venstre-til-højre',
-        caption: 'Horisontal symmetritilstand — ledetrådsceller spejles venstre-til-højre for rumligt ræsonnement',
+        alt: 'Kunst opgaveark med horisontal symmetritilstand — kreativ tegneaktivitet til indskoling',
+        caption: 'Horisontal symmetritilstand — kreativt opgaveark med spejling for rumligt ræsonnement',
       },
       {
         src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%203.webp',
-        alt: 'Gitterritningsarbejdsark med lav ledetrådsprocent, der viser minimale referenceceller for ekspertudfordring',
-        caption: 'Lav ledetrådsprocent — minimale referenceceller for ekspertniveau gitterreproduktion',
+        alt: 'Tegneaktivitet med lav ledetrådsprocent — udfordrende kunst opgaveark til mellemtrin',
+        caption: 'Lav ledetrådsprocent — minimale ledetråde for avanceret trin-for-trin tegning',
       },
     ],
     youtubeId: '1uZubAOGIkM',
-    videoTitle: 'Sådan Opretter du Gitterritningsarbejdsark med Justerbar Ledetrådsprocent og Symmetritilstande — Trin-for-Trin Guide',
+    videoTitle: 'Sådan laver du tegne- og farvelægningsopgaver med justerbar sværhed og symmetritilstande — trin-for-trin guide',
   },
 };
 

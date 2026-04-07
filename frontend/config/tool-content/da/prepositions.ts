@@ -2,30 +2,33 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'præpositioner arbejdsark generator',
+    primaryKeyword: 'rumlig orientering generator gratis online',
     secondaryKeywords: [
-      'præpositioner arbejdsark generator for sælgere',
-      'opret præpositioner arbejdsark til salg',
-      'printbare rumlige præpositioner arbejdsark kommercielt brug',
-      'præpositioner generator til KDP',
+      'forholdsord øvelser gratis',
+      'rumsans opgaver prøv gratis',
+      'over under gratis til print',
     ],
     lsiKeywords: [
-      'rumlige præpositioner printbare til Etsy',
-      'stedord arbejdsark værktøj',
-      'flersproget præpositioner aktivitet generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'forholdsord',
+      'rumlig',
+      'over',
+      'under',
     ],
-    titleTag: 'Præpositioner Arbejdsark Generator | Sælg Printables',
-    metaDescription: 'Generer præpositioner arbejdsark med udfyldnings- og flervalgstilstande, formerstatning, 104 temaer, 11 sprog. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis forholdsord generator | Rumlig orientering prøv online med vandmærke',
+    metaDescription: 'Prøv forholdsord-generatoren gratis online. Rumlig orientering, temabilleder, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Præpositioner Arbejdsark Generator',
-    tagline: 'Opret rumlige præpositioner arbejdsark med to øvelsestilstande på 11 sprog',
-    description: 'Undervis i stedord gennem billedbaserede øvelser, som brugerne virkelig nyder. Dette værktøj genererer præpositioner arbejdsark, hvor brugerne identificerer rumlige relationer — på, under, over, ved siden af, mellem, inde i, udenfor — ved at studere billedscener og udfylde eller vælge den rigtige præposition. Vælg mellem to øvelsestilstande: Udfyldning, hvor brugerne skriver den rigtige præposition selv, eller Flervalg, hvor de vælger blandt alternativer med en tilpasselig instruktionsrække. Indstil 1–8 øvelser per arbejdsark og vælg præcis, hvilke præpositioner der skal inkluderes med fluebensgitteret. Værktøjets fremtrædende funktion er Formerstatning — et separat billedlag, der lader dig skifte sceneformer uafhængigt, hvilket opretter langt flere visuelle kombinationer, end et enkelt billedsæt kan tilbyde. Sprogfølsomhed er indbygget: skift fra dansk til et af de 11 understøttede sprog, og hvert præpositionsord opdateres til sin nationale ækvivalent. Engelsk bruger \"on, under, above, beside, between, inside, outside\"; tysk bruger \"auf, unter, über, neben, zwischen, drinnen, draußen\". Ét arbejdsarksdesign bliver 11 unikke sprogprodukter. Gennemse mere end 3.100 billeder i 104 temaer, upload din egen PNG eller JPEG til brandede designs, og vælg blandt flere skabeloner og 7 skrifttypefamilier. Eksporter som trykfærdig PDF eller højopløst JPEG. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis forholdsord generator — rumlig orientering prøv online med vandmærke',
+    tagline: 'Prøv forholdsord-generatoren gratis online — rumlig orientering med to øvelsestilstande, formerstatning og 11 sprog. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv forholdsord-generatoren gratis online — lav billedbaserede rumlig orientering-opgaver med forholdsord som over, under, ved siden af og mellem. Dette værktøj genererer præpositioner arbejdsark, hvor brugerne identificerer rumlige relationer — på, under, over, ved siden af, mellem, inde i, udenfor — ved at studere billedscener og udfylde eller vælge den rigtige præposition. Vælg mellem to øvelsestilstande: Udfyldning, hvor brugerne skriver den rigtige præposition selv, eller Flervalg, hvor de vælger blandt alternativer med en tilpasselig instruktionsrække. Indstil 1–8 øvelser per arbejdsark og vælg præcis, hvilke præpositioner der skal inkluderes med fluebensgitteret. Værktøjets fremtrædende funktion er Formerstatning — et separat billedlag, der lader dig skifte sceneformer uafhængigt, hvilket opretter langt flere visuelle kombinationer, end et enkelt billedsæt kan tilbyde. Sprogfølsomhed er indbygget: skift fra dansk til et af de 11 understøttede sprog, og hvert præpositionsord opdateres til sin nationale ækvivalent. Engelsk bruger \"on, under, above, beside, between, inside, outside\"; tysk bruger \"auf, unter, über, neben, zwischen, drinnen, draußen\". Ét arbejdsarksdesign bliver 11 unikke sprogprodukter. Gennemse mere end 3.100 billeder i 104 temaer, upload din egen PNG eller JPEG til brandede designs, og vælg blandt flere skabeloner og 7 skrifttypefamilier. Eksporter som trykfærdig PDF eller højopløst JPEG. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Opretter du Præpositioner Arbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du forholdsord-opgaver i 8 enkle trin',
     steps: [
       {
         title: 'Åbn Præpositioner Arbejdsark Generatoren',
@@ -155,16 +158,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort krævet. Du kan oprette, forhåndsvise og downloade så mange arbejdsark, du vil. Downloads fra den gratis prøveversion indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Kan jeg prøve forholdsord-generatoren gratis online?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — alle funktioner tilgængelige. Du kan oprette, forhåndsvise og downloade så mange rumlig orientering-opgaver, du vil. Gratis downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
     },
     {
-      question: 'Hvordan fungerer de to øvelsestilstande?',
-      answer: 'Udfyldnings-tilstand viser en billedscene med en tom linje, hvor brugerne skriver den rigtige præposition (i, på, under osv.). Flervalgs-tilstand præsenterer den samme scene, men med valgbare alternativer, så brugerne vælger det rigtige svar. Du kan tilpasse instruktionsteksten i Flervalgs-tilstanden for at matche din undervisningsstil.',
+      question: 'Hvordan fungerer de to øvelsestilstande for forholdsord?',
+      answer: 'Udfyldnings-tilstand viser en billedscene med en tom linje, hvor brugerne skriver det rigtige forholdsord (i, på, under osv.). Flervalgs-tilstand præsenterer den samme scene, men med valgbare alternativer, så brugerne vælger det rigtige svar. Du kan tilpasse instruktionsteksten i Flervalgs-tilstanden for at matche din undervisningsstil.',
     },
     {
-      question: 'Hvordan fungerer præpositionsvalget?',
-      answer: 'Værktøjet viser et fluebensgitter med alle tilgængelige præpositioner for det valgte sprog. Sæt flueben ved dem, du vil inkludere: i, på, under, ved siden af, bag, mellem, over og foran. Du kan vælge alle til omfattende øvelse eller fokusere på en specifik delmængde til målrettede lektioner.',
+      question: 'Hvordan vælger man forholdsord til rumlig orientering?',
+      answer: 'Værktøjet viser et fluebensgitter med alle tilgængelige forholdsord for det valgte sprog. Sæt flueben ved dem, du vil inkludere: i, på, under, ved siden af, bag, mellem, over og foran. Du kan vælge alle til omfattende øvelse eller fokusere på en specifik delmængde til målrettede lektioner.',
     },
     {
       question: 'Hvad er Formerstatning?',
@@ -214,7 +217,7 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/prepositions/Pr%C3%A6positioner%201.webp',
-      primaryAlt: 'Præpositioner arbejdsark, der viser billedscener med rumlige relationsøvelser til stedordsøvelse',
+      primaryAlt: 'Gratis forholdsord generator med rumlig orientering billedscener — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {

@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'kommerciel licens printbare arbejdsark',
+    primaryKeyword: 'kommerciel licens opgaver til print sælg lovligt',
     secondaryKeywords: [
-      'kommerciel brugslicens printbare produkter',
-      'saelg arbejdsark kommercielt Etsy Amazon',
-      'licensguide printbar forretning',
-      'arbejdsarksgenerator kommercielle rettigheder',
+      'kommerciel licens printbare opgaver Etsy.dk Amazon KDP',
+      'sælg opgaver til print kommercielt lovligt',
+      'licensguide printbar forretning passiv indkomst',
+      'opgavegenerator kommercielle rettigheder sidegesjæft',
     ],
     lsiKeywords: [
-      'kommerciel licens digitale downloads',
-      'licenskrav for printbare saelgere',
-      'Etsy digital download kommerciel licens',
-      'Amazon KDP aktivitetsbog licensering',
-      'arbejdsarksgenerator licensniveauer',
-      'kommerciel kontra personlig brug printbare',
+      'kommerciel licens digitale downloads til print',
+      'licenskrav printbare sælgere Etsy.dk Saxo.com',
+      'Etsy digital download kommerciel licens Danmark',
+      'Amazon KDP aktivitetsbog licensering opgaver',
+      'opgavegenerator licensniveauer printbar forretning',
+      'kommerciel kontra personlig brug printbare opgaver',
     ],
-    titleTag: 'Kommerciel licens for printbare arbejdsark — guide for...',
-    metaDescription: 'Forstaa kommercielle licenser for at saelge arbejdsark paa Etsy, Amazon KDP og andre platforme.',
+    titleTag: 'Kommerciel licens til opgaver til print — guide for sælgere',
+    metaDescription: 'Forstå kommercielle licenser for at sælge opgaver til print på Etsy.dk, Amazon KDP og andre platforme. Sælg lovligt med kommerciel licens.',
   },
 
   hero: {
-    title: 'Den komplette licensguide for saelgere af printbare produkter',
-    tagline: 'Alt du behoever at vide om kommerciel licensering for arbejdsarksgeneratorer — hvad du kan saelge, hvor du kan saelge det og hvilket niveau der passer din forretning',
-    description: 'Kommerciel licensering er det mest misforstaaede emne inden for printbar forretning. Saelgere bekymrer sig om de har ret til at saelge genererede arbejdsark, hvilke platforme der er daekket og om de har brug for separate licenser for hvert produkt eller annonce. Denne guide eliminerer den forvirring helt. Du vil laere praecis hvad en kommerciel licens daekker, hvad de to prisniveauer inkluderer, hvordan licensen gaelder paa enhver stor salgsplatform og hvordan den gratis proeveversion med vandmaerke lader dig evaluere alt foer du koeber.',
+    title: 'Den komplette licensguide for sælgere af printbare opgaver',
+    tagline: 'Alt du behøver at vide om kommerciel licens til opgaver til print — hvad du kan sælge, hvor du kan sælge det og hvilket niveau der passer din forretning',
+    description: 'Kommerciel licens er det mest misforståede emne inden for printbar forretning. Saelgere bekymrer sig om de har ret til at saelge genererede arbejdsark, hvilke platforme der er daekket og om de har brug for separate licenser for hvert produkt eller annonce. Denne guide eliminerer den forvirring helt. Du vil laere praecis hvad en kommerciel licens daekker, hvad de to prisniveauer inkluderer, hvordan licensen gaelder paa enhver stor salgsplatform og hvordan den gratis proeveversion med vandmaerke lader dig evaluere alt foer du koeber.',
   },
 
   introduction: 'Licensforvirring draeber flere printbare forretninger end daarlige produkter nogensinde goer. Ikke fordi reglerne er komplicerede — det er de ikke — men fordi saelgere enten aldrig tjekker deres licensvilkaar eller antager begraensninger der ikke eksisterer. Begge fejl koster penge.\n\nSaelgere der springer licensundersoegelse over risikerer at bygge et produktkatalog paa vaerktojer de ikke lovligt kan bruge til kommercielle formaal. Et enkelt fjernelsesmeddelelse fra en rettighedshaver kan slette maaneders arbejde — aflistede produkter, tabte anmeldelser og skadet saelgerrygte. Saelgere der antager alt for strenge begraensninger efterlader paa den anden side penge paa bordet ved ikke at lave produkter de har fuld ret til at saelge.\n\nDenne guide fokuserer specifikt paa LessonCraftStudio arbejdsarksgeneratorlicenser — hvad de daekker, hvad de koster og hvordan de gaelder for virkelige salgsscenarier paa Etsy, Amazon KDP, Gumroad og andre platforme. Maalet er at give dig fuldstaendig tillid til dine kommercielle rettigheder saa du kan fokusere paa at bygge produkter i stedet for at bekymre dig om juridisk eksponering.\n\nHver generator tilbyder en gratis proeveversion med vandmaerke der giver dig fuldstaendig adgang til alle funktioner foer du bruger noget. Proeveversionen lader dig evaluere outputkvalitet, teste forskellige temaer og indstillinger og bekraefte at generatorerne opfylder dine produktionsbehov — alt foer du traffer en licensbeslutning.',

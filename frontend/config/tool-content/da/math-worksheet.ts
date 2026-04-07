@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generer algebra matematik arbejdsark generator',
+    primaryKeyword: 'regneopgaver generator gratis online',
     secondaryKeywords: [
-      'matematik arbejdsark generator for sælgere',
-      'opret algebra puslespilsarbejdsark til salg',
-      'printbare mattepuslespil arbejdsark kommercielt brug',
-      'algebra billedpuslespil generator til KDP',
+      'lav regneopgaver gratis',
+      'matematik opgaver gratis til print',
+      'regneopgaver prøv gratis',
     ],
     lsiKeywords: [
-      'visuelle algebra printbare til Etsy',
-      'billedligning arbejdsark værktøj',
-      'billedvariabel matematikaktivitet generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'regnearter',
+      'hovedregning',
+      'facit',
     ],
-    titleTag: 'Matematik Arbejdsark Generator | Visuelle Algebrapuslespil',
-    metaDescription: 'Generer algebra billedpuslespil, hvor billeder repræsenterer variabler i koblede ligninger. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis regneopgaver generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv regneopgaver-generatoren gratis online. Alle regnearter, automatisk facit, 300 DPI PDF. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Matematik Arbejdsark Generator',
-    tagline: 'Opret visuelle algebrapuslespil med billeder som variabler på under 60 sekunder',
-    description: 'Gå ud over almindelige regneøvelser med algebra billedpuslespil, der udfordrer brugerne til at tænke i ligningssystemer. Hvert arbejdsark præsenterer et sæt koblede ligninger, hvor billeder erstatter ukendte variabler — brugerne skal bestemme den numeriske værdi, hvert billede repræsenterer. Fire sværhedsgrader skalerer fra to symboler med simpel addition til fire simultane ukendte med blandede operationer. En indbygget algebraisk løser garanterer, at hvert puslespil har præcis én korrekt løsning — ingen tvetydighed, ingen gætteri. Vælg Kun Addition for fokuseret øvelse eller Addition og Subtraktion for avanceret problemløsning. Indstil talintervallet, slå negative resultater til for ældre brugere, og kontroller puslespil per side fra 1 til 6 med automatisk layout. Vælg billeder individuelt, indlæs et helt temasæt, eller upload din egen PNG eller JPEG til brandede puslespil. Fordi puslespillene kun bruger billeder og tal, fungerer de identisk på ethvert sprog — sælg den samme PDF globalt uden oversættelse. Download som trykfærdig PDF eller højopløst JPEG. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis regneopgaver generator — prøv online med vandmærke',
+    tagline: 'Prøv regneopgaver-generatoren gratis online — alle regnearter, automatisk facit, ingen tilmelding',
+    description: 'Prøv vores regneopgaver-generator gratis online med vandmærke. Lav algebra billedpuslespil med alle regnearter, automatisk facit og printklare PDF\'er — helt uden tilmelding. Hvert arbejdsark præsenterer et sæt koblede ligninger, hvor billeder erstatter ukendte variabler — brugerne skal bestemme den numeriske værdi, hvert billede repræsenterer. Fire sværhedsgrader skalerer fra to symboler med simpel addition til fire simultane ukendte med blandede operationer. En indbygget algebraisk løser garanterer, at hvert puslespil har præcis én korrekt løsning — ingen tvetydighed, ingen gætteri. Vælg Kun Addition for fokuseret øvelse eller Addition og Subtraktion for avanceret problemløsning. Indstil talintervallet, slå negative resultater til for ældre brugere, og kontroller puslespil per side fra 1 til 6 med automatisk layout. Vælg billeder individuelt, indlæs et helt temasæt, eller upload din egen PNG eller JPEG til brandede puslespil. Fordi puslespillene kun bruger billeder og tal, fungerer de identisk på ethvert sprog — sælg den samme PDF globalt uden oversættelse. Download som trykfærdig PDF eller højopløst JPEG. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Opretter du Matematikarbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du gratis regneopgaver med billeder i 8 trin',
     steps: [
       {
         title: 'Åbn arbejdsark-generatoren',
@@ -155,12 +157,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort krævet. Du kan oprette, forhåndsvise og downloade så mange arbejdsark, du vil. Downloads fra den gratis prøveversion indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Er regneopgaver-generatoren gratis at prøve online?',
+      answer: 'Ja. Prøv regneopgaver-generatoren gratis online med alle funktioner — ingen tilmelding, intet kreditkort krævet. Lav, forhåndsvis og download så mange regneopgaver, du vil. Downloads indeholder et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
     },
     {
-      question: 'Hvordan fungerer algebra billedpuslespillene?',
-      answer: 'Hvert puslespil præsenterer et system af koblede ligninger, hvor billeder erstatter ukendte variabler. Brugerne analyserer relationerne mellem ligninger for at bestemme den numeriske værdi, hvert billede repræsenterer. For eksempel, hvis kat + hund = 7 og kat + kat = 6, så er kat = 3 og hund = 4. Den indbyggede løser garanterer, at hvert puslespil har præcis én korrekt løsning. Denne metode introducerer algebraisk ræsonnement visuelt, hvilket gør det tilgængeligt for yngre brugere, der ikke er klar til traditionel variabelnotation med bogstaver.',
+      question: 'Hvad indeholder den gratis prøveversion af regneopgaver?',
+      answer: 'Den gratis prøveversion giver fuld adgang: alle regnearter, fire sværhedsgrader, 104 billedtemaer, automatisk facit, 300 DPI PDF og JPEG. Det eneste, der adskiller prøveversionen, er et vandmærke. Ingen tilmelding krævet.',
+    },
+    {
+      question: 'Kan jeg downloade gratis regneopgaver til print?',
+      answer: 'Ja. Download gratis regneopgaver som printklare PDF-filer eller højopløste JPEG-billeder med vandmærke. Hvert puslespil præsenterer koblede ligninger med billeder som variabler, og den indbyggede løser garanterer præcis én korrekt løsning. Facit medfølger altid.',
     },
     {
       question: 'Hvad er de fire sværhedsgrader?',
@@ -214,22 +220,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
-      primaryAlt: 'Algebra billedpuslespil arbejdsark med billedsymboler som ukendte variabler i koblede ligninger',
+      primaryAlt: 'Gratis regneopgaver generator online — algebra billedpuslespil med automatisk facit',
     },
     sampleGallery: [
       {
         src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
-        alt: 'Visuelt algebrapuslespil med to billedsymboler og additionsligninger for begyndere',
+        alt: 'Gratis regneopgaver med to billedsymboler og additionsligninger — prøv online',
         caption: 'Meget Let-tilstand — to symboler med simpel addition',
       },
       {
         src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp',
-        alt: 'Middel sværhed algebra billedpuslespil med tre billedvariabler i koblede ligninger',
+        alt: 'Gratis regneopgaver i middel sværhed med tre billedvariabler i koblede ligninger',
         caption: 'Middel sværhed — tre ukendte i koblede ligninger',
       },
       {
         src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp',
-        alt: 'Svært algebrapuslespil arbejdsark med fire simultane ukendte og blandede operationer',
+        alt: 'Gratis regneopgaver med fire simultane ukendte og blandede operationer — prøv gratis',
         caption: 'Svær-tilstand — fire variabler med addition og subtraktion',
       },
     ],

@@ -2,31 +2,35 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'arbejdsark mere eller mindre sammenligningsarbejdsark',
+    primaryKeyword: 'større end mindre end opgave til print',
     secondaryKeywords: [
-      'printbare sammenligningsarbejdsark til Etsy',
-      'mere mindre arbejdsark generator til Amazon KDP',
-      'større end mindre end arbejdsark sælg på Gumroad',
-      'sammenligningsarbejdsark kommerciel licens',
+      'sammenligne tal opgave',
+      'større end mindre end lig med',
+      'flere færre opgave',
+      'sammenligne mængder',
     ],
     lsiKeywords: [
-      'digitale matematiksammenligningsprodukter online forretning',
-      'printbare talforståelse arbejdsark business',
-      'kommercielt brug sammenligningsgenerator',
+      'større end',
+      'mindre end',
+      'lig med',
+      'sammenligne',
+      'tal',
+      'mængder',
+      'indskoling',
     ],
-    titleTag: 'Mere eller Mindre Generator | Sammenligningsarbejdsark',
-    metaDescription: 'Opret sammenligningsarbejdsark til salg på Etsy, KDP og Gumroad. 3 sammenligningstilstande, 104 temaer, facit, 400+ DPI eksport. $49 engangsbetaling.',
+    titleTag: 'Større end mindre end opgave til print | Sammenligningsgenerator',
+    metaDescription: 'Lav opgaver om at sammenligne tal og mængder med temabilleder. Automatisk facit, 300 DPI PDF. Prøv gratis.',
   },
 
   hero: {
-    title: 'Mere eller Mindre Arbejdsark Generator til Visuel Talsammenligning',
-    tagline: 'Forvandl talsammenligning til en visuel opdagelsesrejse med billedbaserede større-end og mindre-end arbejdsark.',
+    title: 'Større end mindre end opgave til print — Sammenligningsgenerator',
+    tagline: 'Lav printbare opgaver, hvor børn sammenligner tal og mængder med større end, mindre end og lig med — perfekt til indskoling og børnehaveklasse.',
     description:
-      'Opret engagerende sammenligningsarbejdsark, der lærer brugerne, hvilken gruppe der har flere, hvilken der har færre, og hvornår to grupper er lige store. Vælg blandt tre forskellige øvelsestilstande — Billede til Billede, Billede til Tal og den unikke tilstand Tjek og Kryds Grupper, hvor brugerne analyserer kasser med blandede billeder for at finde majoritetsgruppen. Skift mellem samme billeder og forskellige billeder som sammenligning, vælg illustrationssymboler eller almindelige matematiske tegn, og vælg blandt mere end 3.100 omhyggeligt udvalgte billeder i 104 temaer. Hvert arbejdsark genererer en automatisk facitliste, og du kan eksportere trykklare PDF\'er i Letter-, A4- eller brugerdefineret format med mere end 400 DPI. Uanset om du sælger temapakker på Etsy.dk, sammensætter sammenligningsaktivitetsbøger til Amazon KDP eller opretter niveauinddelte matematikstationer til din produktlinje — Mere eller Mindre Arbejdsark Generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle opgaver om at sammenligne tal og mængder med temabilleder — klar til print som PDF i høj kvalitet. Vælg blandt tre øvelsestilstande: Billede til Billede, hvor børn tæller og afgør, hvilken gruppe der har flere eller færre; Billede til Tal, hvor en gruppe billeder sammenlignes med et tal; og Tjek og Kryds Grupper, hvor børn finder majoritetsgruppen i en kasse med blandede billeder. Skift mellem samme billeder og forskellige billeder, vælg illustrationssymboler eller almindelige matematiske tegn (>, <, =), og vælg blandt mere end 3.100 billeder i 104 temaer. Det danske marked med 5,8 millioner dansktalende byder på lav konkurrence inden for printbare opgaver om at sammenligne mængder. Etsy.dk og Amazon KDP har meget få danske sammenligningsopgaver, hvilket gør det til en attraktiv niche for sælgere. Opgaverne er ideelle til børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse) — tilpas sværhedsgraden med talintervaller fra 1 til 10 og billedvariation. Hvert opgaveark genererer automatisk en facitliste med korrekte sammenligningssymboler. Eksporter trykklare PDF\'er i Letter, A4 eller brugerdefineret format med mere end 400 DPI. Uanset om du sælger temapakker med større end og mindre end opgaver på Etsy.dk, sammensætter sammenligningsbøger til Amazon KDP eller opretter niveauinddelte matematikstationer — generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Sammenligningsarbejdsark i 5 Trin',
+    title: 'Sådan laver du opgaver om at sammenligne tal i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +61,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Mere eller Mindre Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i sammenligningsgeneratoren',
     features: [
       {
         title: 'Tre sammenligningstilstande til øvelser',
@@ -103,7 +107,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Sammenligningsarbejdsark Online',
+    title: 'Sådan sælger du opgaver om at sammenligne tal online',
     cases: [
       {
         title: 'Tematiske sammenligningsarbejdsark pakker på Etsy.dk',
@@ -140,64 +144,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvilke sammenligningstilstande tilbyder Mere eller Mindre Arbejdsark Generatoren?',
+      question: 'Kan jeg sælge disse sammenligningsopgaver på Etsy?',
       answer:
-        'Generatoren indeholder tre tilstande: Billede til Billede (to grupper billeder at tælle og sammenligne), Billede til Tal (en gruppe billeder kombineret med et tal), og Tjek og Kryds Grupper (en kasse med blandede billeder, hvor brugerne sætter flueben ved majoritetsgruppen og krydser minoritetsgruppen). Hver tilstand retter sig mod et andet færdighedsniveau og sammenligningsudfordring. Sælgere kombinerer ofte alle tre tilstande i en produktlisting, hvilket giver købere et komplet sammenligningskurrikulum, der dækker visuel tælling, tal-symbolkobling og avanceret sortering i én download.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine opgaver om at sammenligne tal og mængder som digitale downloads på Etsy.dk, som aktivitetsbøger på Amazon KDP, eller via enhver anden salgskanal. Det danske marked med 5,8 millioner dansktalende har meget få printbare sammenligningsopgaver, hvilket giver dig lav konkurrence og god synlighed. Mange sælgere opretter temapakker med større end og mindre end opgaver, der genererer konstante indtægter.',
+    },
+    {
+      question: 'Hvordan laver jeg opgaver om at sammenligne tal?',
+      answer:
+        'Vælg en af tre tilstande: Billede til Billede (to grupper billeder at tælle og sammenligne mængder), Billede til Tal (en gruppe billeder kombineret med et tal), eller Tjek og Kryds Grupper (en kasse med blandede billeder, hvor børnene markerer gruppen med flere og færre). Vælg et tema fra de 104 billedsamlinger, indstil talintervallet (1–10), og klik Generer. Eksporter som PDF i 400+ DPI — klar til print og salg.',
+    },
+    {
+      question: 'Er opgaverne egnede til børnehaveklasse, indskoling og mellemtrin?',
+      answer:
+        'Ja. Tilpas sværhedsgraden til alle niveauer i den danske folkeskole. Til børnehaveklasse og indskoling (0.–3. klasse) bruges lave talintervaller (1–5) med tilstanden Billede til Billede og Samme Billeder. Til mellemtrin (4.–6. klasse) bruges højere talintervaller (1–10) med tilstanden Billede til Tal og Forskellige Billeder. Tjek og Kryds Grupper med 8–20 blandede billeder udfordrer selv ældre elever.',
+    },
+    {
+      question: 'På hvor mange sprog fungerer sammenligningsopgaverne?',
+      answer:
+        'Opgaverne er rent visuelle — indholdet bruger billeder, tal og symboler for større end, mindre end og lig med uden tekst. Et opgaveark oprettet på dansk fungerer identisk på alle 11 understøttede sprog (dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk). Sprogindstillingen ændrer kun brugerfladen, ikke opgavens indhold. Én PDF kan sælges globalt uden oversættelse.',
+    },
+    {
+      question: 'Er facitlisten inkluderet?',
+      answer:
+        'Ja. Klik på Generer Facit for at oprette en udfyldt version med alle korrekte sammenligningssymboler. Forhåndsvis facit på skærmen og download det som separat JPEG eller PDF. At inkludere professionelle facitlister i dine produktpakker på Etsy.dk øger den oplevede værdi og tiltrækker flere købere.',
     },
     {
       question: 'Hvad er tilstanden Tjek og Kryds Grupper?',
       answer:
-        'Tjek og Kryds Grupper er en unik øvelsestype, hvor en kasse indeholder 8–20 billeder fra to forskellige kategorier, der er blandet. Brugerne sorterer billederne visuelt, tæller hver gruppe og sætter derefter flueben ved gruppen med flere og krydser gruppen med færre. Du kan inkludere maksimalt 3 Tjek og Kryds opgaver per arbejdsark. Denne tilstand udvikler samtidig visuel skelneevne og tælleevne. Fordi Tjek og Kryds sjældent forekommer i konkurrerende arbejdsark-generatorer, kan sælgere, der fremhæver denne tilstand i deres produkttitler og beskrivelser, adskille deres tilbud.',
-    },
-    {
-      question: 'Hvilke talintervaller kan jeg indstille for sammenligningsøvelser?',
-      answer:
-        'Du kan indstille minimum og maksimum antal objekter per gruppe fra 1 til 10 for standardsammenligningstilstande. For Tjek og Kryds Grupper kan du indstille det samlede antal billeder i kassen fra 8 til 20. Disse indstillinger lader dig oprette enkle sammenligninger for børnehavebørn eller mere udfordrende øvelser for brugere i 1. og 2. klasse. Denne detaljerede intervalkontrol gør det muligt for sælgere at opbygge præcist målrettede produktlinjer for hver aldersgruppe.',
-    },
-    {
-      question: 'Hvad gør indstillingen Billedvariation?',
-      answer:
-        'Billedvariation bestemmer, om begge sider af en sammenligning bruger den samme type billede eller forskellige typer. Tilstanden Samme Billeder sammenligner mængder af identiske objekter (for eksempel 5 katte mod 7 katte), med fokus udelukkende på talforståelse. Tilstanden Forskellige Billeder bruger distinkte objekter (for eksempel 5 katte mod 7 hunde), hvilket tilføjer visuel kompleksitet. Denne ene omskifter generator to forskellige sværhedsgrader med de samme indstillinger.',
-    },
-    {
-      question: 'Hvilke muligheder findes for symbolvisning?',
-      answer:
-        'Du kan vælge mellem Illustrationssymboler (farverige, grafiske større-end, mindre-end og lig-med-tegn) og Almindelige Symboler (standard teksttegn >, <, =). Illustrationssymboler er perfekte for yngre brugere, der drager fordel af visuelle ledetråde. Du kan også aktivere Symboler at Ringe Om, hvor sammenligningssymboler vises, som brugerne ringer ind som en del af opgaven.',
-    },
-    {
-      question: 'Er sammenligningsarbejdsarkene sprogfølsomme?',
-      answer:
-        'Nej. Mere eller Mindre arbejdsark er rent visuelle — sammenligningsindholdet bruger billeder og tal, ingen ord. Dette betyder, at et arbejdsark oprettet på ét sprog fungerer på alle sprog. Sprogindstillingen ændrer kun appens brugerfladeettiketter, ikke arbejdsarkets indhold, hvilket gør dine produkter direkte salgbare globalt. Dette er en betydelig fordel for sælgere, der betjener internationale markedspladser, da en enkelt sammenligningsarbejdsark-PDF kan tilbydes i Etsy-butikker i flere lande uden nogen oversættelse.',
-    },
-    {
-      question: 'Genererer generatoren automatisk facit?',
-      answer:
-        'Ja. Klik på knappen Generer Facit for at oprette en udfyldt version af dit arbejdsark med alle korrekte sammenligningssymboler. Du kan forhåndsvise facit på skærmen og downloade det som en separat JPEG- eller PDF-fil ved siden af brugerens arbejdsark. At inkludere professionelt formaterede facit i hver produktlisting udstråler kvalitet og fuldstændighed over for markedsplads-købere.',
-    },
-    {
-      question: 'Kan jeg eksportere arbejdsark i gråtone for blækbesparende udskrift?',
-      answer:
-        'Ja. Aktiver muligheden Gråtone i downloadpanelet for at konvertere dine farverige arbejdsark til sort-hvid før eksport. Dette er perfekt til masseudskrift, hvor du ønsker at spare blæk og stadig levere sammenligningsøvelser af høj kvalitet. Både JPEG- og PDF-eksporter understøtter gråtonetilstanden.',
+        'Tjek og Kryds Grupper er en unik øvelsestype, hvor en kasse indeholder 8–20 billeder fra to forskellige kategorier blandet sammen. Børnene sorterer billederne visuelt, tæller hver gruppe og sætter flueben ved gruppen med flere og kryds ved gruppen med færre. Denne tilstand udvikler visuel skelneevne, tællenøjagtighed og evnen til at sammenligne mængder. Fordi tilstanden sjældent findes hos konkurrenter, kan sælgere differentiere deres produkter ved at fremhæve den.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du har adgang til alle funktioner i generatoren — alle tre sammenligningstilstande, det komplette billedbibliotek, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste et kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
+        'Ja. Du har adgang til alle funktioner — alle tre sammenligningstilstande, det komplette billedbibliotek, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste et kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
-      question: 'Hvad er inkluderet i den kommercielle licens?',
+      question: 'Kan jeg eksportere opgaver i gråtone til blækbesparende udskrift?',
       answer:
-        'Den kommercielle licens fjerner vandmærket fra alle downloads og giver dig ubegrænsede rettigheder til at sælge de arbejdsark, du opretter — på Etsy.dk, Amazon KDP, Gumroad, din egen hjemmeside eller enhver anden platform. Der er ingen royalties per salg, ingen månedlige gebyrer og ingen begrænsning på antallet af arbejdsark, du producerer eller sælger.',
-    },
-    {
-      question: 'Kan jeg sælge de arbejdsark, jeg opretter med dette værktøj, på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du alle rettigheder til at sælge dine sammenligningsarbejdsark som digitale downloads på Etsy.dk, som aktivitetsbøger på Amazon KDP, som lærematerialer på Gumroad eller via enhver anden salgskanal. Mange sælgere opretter temapakker og aktivitetsbøger, der genererer konstante indtægter. Du kan også kombinere sammenligningsarbejdsark med andre typer matematikarbejdsark — som addition eller subtraktion — for at opbygge omfattende matematikpakker, der tiltrækker højere priser.',
-    },
-    {
-      question: 'Hvad er returpolitikken?',
-      answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver tilstand, hvert tema, hvert eksportformat og hvert sideformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet opfylder dine behov, før du anskaffer en licens. Vi anbefaler, at du under din gratis prøveperiode opretter flere komplette arbejdsark, gennemgår udskriftskvaliteten og layoutmulighederne og bekræfter, at resultatet opfylder dine markedspladsstandarder, før du køber den kommercielle licens.',
+        'Ja. Aktiver Gråtone i downloadpanelet for at konvertere farverige opgaveark til sort-hvid før eksport. Perfekt til masseudskrift, hvor du vil spare blæk og stadig levere sammenligningsopgaver af høj kvalitet. Både JPEG- og PDF-eksporter understøtter gråtonetilstanden.',
     },
   ],
 
@@ -257,27 +241,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/more%20less/Mere%20Mindre%201.webp',
-      primaryAlt: 'Mere eller Mindre arbejdsark med farverige dyrebilleder i tilstanden Billede til Billede',
+      primaryAlt: 'Større end mindre end opgave til print med farverige dyrebilleder og sammenligningssymboler',
     },
     sampleGallery: [
       {
         src: '/samples/danish/more%20less/Mere%20Mindre%201.webp',
-        alt: 'Sammenligningsarbejdsark med tilstanden Billede til Billede og dyretema',
-        caption: 'Billede til Billede — brugerne tæller to grupper billeder og sammenligner mængder',
+        alt: 'Opgave om at sammenligne mængder med tilstanden Billede til Billede og dyretema',
+        caption: 'Billede til Billede — børn tæller to grupper og afgør, hvilken der har flere eller færre',
       },
       {
         src: '/samples/danish/more%20less/Mere%20Mindre%202.webp',
-        alt: 'Sammenligningsarbejdsark med tilstanden Billede til Tal og madtema',
-        caption: 'Billede til Tal — kombinerer grupper af billeder med tal for at koble færdigheder sammen',
+        alt: 'Sammenligne tal opgave med tilstanden Billede til Tal og madtema',
+        caption: 'Billede til Tal — sammenlign en gruppe billeder med et tal ved hjælp af større end og mindre end',
       },
       {
         src: '/samples/danish/more%20less/Mere%20Mindre%203.webp',
-        alt: 'Tjek og Kryds Grupper arbejdsark med blandede billeder til visuel sortering',
-        caption: 'Tjek og Kryds Grupper — brugerne finder majoritetsgruppen i en kasse med blandede billeder',
+        alt: 'Tjek og Kryds Grupper opgave med blandede billeder til sammenligning af mængder',
+        caption: 'Tjek og Kryds Grupper — find gruppen med flere og færre i en kasse med blandede billeder',
       },
     ],
     youtubeId: 'eNguG63nYVs',
-    videoTitle: 'Opret Sammenligningsarbejdsark — Trin-for-Trin Guide',
+    videoTitle: 'Lav opgaver om at sammenligne tal og mængder — trin-for-trin guide',
   },
 };
 

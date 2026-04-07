@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kommerciel brug licens printables',
+    primaryKeyword: 'forstå kommercielle licenser for printables',
     secondaryKeywords: [
       'printable kommerciel licens forklaret',
       'sælg arbejdsark lovligt',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'licensfejl platformrestriktioner attributionskrav eksklusivitetsklausuler',
       'licensregistre licensdokumentation multi-platform licens konkurrencefordel',
     ],
-    titleTag: 'Kommerciel brug licens printables — Sælgerguide',
-    metaDescription: 'Forstå kommercielle brugslicenser til printables før du sælger. Lær om licenstyper, almindelige fejl og hvordan korrekt licens beskytter din virksomhed.',
+    titleTag: 'Forstå kommercielle licenser for printables — Sælgerguide',
+    metaDescription: 'Forstå kommercielle licenser for opgaver til print. Licenstyper, almindelige fejl og hvordan korrekt kommerciel licens beskytter din printbare forretning.',
   },
 
   hero: {

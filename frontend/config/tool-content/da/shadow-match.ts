@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'skyggematchning arbejdsark',
+    primaryKeyword: 'skyggeleg generator gratis online',
     secondaryKeywords: [
-      'skyggematchning arbejdsark generator for sælgere',
-      'lav silhuetmatchning arbejdsark til salg',
-      'printbar skyggepuslespil generator kommerciel brug',
-      'skyggematchning arbejdsark generator til KDP og Etsy',
+      'silhuet-parring gratis til print',
+      'skyggeleg prøv gratis',
+      'skygger og figurer gratis',
     ],
     lsiKeywords: [
-      'dobbelt tilstands silhuet og delt-billede matchningsværktøj',
-      'pixelniveau skygge-generering derangeringsalgoritme generator',
-      'automatisk facit skyggepuslespil arbejdsark generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'skygge',
+      'silhuet',
+      'parring',
     ],
-    titleTag: 'Skyggematchning Generator — Arbejdsark Generator —...',
-    metaDescription: 'Lav skyggematchning arbejdsark med pixelniveau silhuetter og Gør Billedet Helt billeddeling, automatiske facit, 104. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis skyggeleg generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv skyggeleg-generatoren gratis online. Billeder og silhuetter, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Skyggematchning Generator',
-    tagline: 'Dobbelt tilstands skyggematchning arbejdsark generator med pixelniveau silhuetoprettelse, Gør Billedet Helt delt-billede halvdele med horisontale og vertikale klipretninger, Fisher-Yates-derangering der garanterer ingen trivielle matchninger, automatisk genererede facit med bogstav-til-nummer etiketter og 104 tematiske billedsamlinger',
-    description: 'Lav professionelle skyggematchnings arbejdsark med to distinkte øvelsestilstande. Skyggematchning-tilstand placerer 4 farvede billeder mærket A, B, C, D i øverste række og 4 automatisk genererede sorte silhuetter mærket 1, 2, 3, 4 i nederste række — silhuetterne oprettes gennem billedbehandling på pixelniveau, der konverterer hver pixel med alfa > 10 til rent sort, ægte pixelbehandling, ikke CSS-filtre. Gør Billedet Helt-tilstand deler 4 billeder i halvdele — vælg horisontal (øvre/nedre) eller vertikal (venstre/højre) klipretning. Begge tilstande bruger Fisher-Yates-derangering, der garanterer, at intet objekt vises i sin oprindelige position. Skift vis/skjul etiketter for A/B/C/D og 1/2/3/4 identifikatorer — etiketter TIL giver struktureret støtte, etiketter FRA generator ren visuel matchningsudfordring. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet viser hver korrekt bogstav-til-nummer-parring. Skyggematchning er IKKE sprogfølsom — rent visuelt output, universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne det og sælge kommercielt.',
+    title: 'Gratis skyggeleg generator — prøv online med vandmærke',
+    tagline: 'Prøv skyggeleg-generatoren gratis online — silhuet-parring med billeder og skygger, automatisk facit og 104 temabilledsamlinger. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv skyggeleg-generatoren gratis online og lav professionelle skygge- og silhuet-øvelser med to tilstande. Alle funktioner er tilgængelige i den gratis prøveversion — downloads indeholder et vandmærke, som fjernes med en licens. Skyggematchning-tilstand placerer 4 farvede billeder mærket A, B, C, D i øverste række og 4 automatisk genererede sorte silhuetter mærket 1, 2, 3, 4 i nederste række — silhuetterne oprettes gennem billedbehandling på pixelniveau, der konverterer hver pixel med alfa > 10 til rent sort, ægte pixelbehandling, ikke CSS-filtre. Gør Billedet Helt-tilstand deler 4 billeder i halvdele — vælg horisontal (øvre/nedre) eller vertikal (venstre/højre) klipretning. Begge tilstande bruger Fisher-Yates-derangering, der garanterer, at intet objekt vises i sin oprindelige position. Skift vis/skjul etiketter for A/B/C/D og 1/2/3/4 identifikatorer — etiketter TIL giver struktureret støtte, etiketter FRA generator ren visuel matchningsudfordring. Dobbeltarbejdsområde-systemet genererer samtidigt arbejdsark og facit — facittet viser hver korrekt bogstav-til-nummer-parring. Skyggematchning er IKKE sprogfølsom — rent visuelt output, universelt sælgbart uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer eller upload egne billeder. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne det og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Skyggematchnings Arbejdsark i 8 Trin',
+    title: 'Sådan laver du skyggeleg-øvelser i 8 trin',
     steps: [
       {
         title: 'Åbn Skyggematchning Generatoren',
@@ -155,15 +157,15 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — begge øvelsestilstande, pixelniveau silhuetgenerering, horisontale og vertikale klipretninger, det autogenererede facit, skiftbare etiketter, alle 104 tematiske billedsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, navn/dato-felter, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke.',
+      question: 'Kan jeg prøve skyggeleg-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — begge tilstande til skygge- og silhuet-parring, pixelniveau silhuetgenerering, horisontale og vertikale klipretninger, automatisk facit, skiftbare etiketter, alle 104 temabilledsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, navn/dato-felter, gråtonekontakt og alle downloadformater. Ingen kreditkort kræves. Vandmærke på downloads.',
     },
     {
-      question: 'Hvad er de to øvelsestilstande?',
-      answer: 'Generatoren tilbyder to distinkte tilstande. Skyggematchning placerer 4 farvede billeder mærket A–D i øverste række og 4 automatisk genererede sorte silhuetter mærket 1–4 i nederste række — silhuetterne oprettes gennem pixelniveau-behandling. Gør Billedet Helt deler 4 billeder i halvdele — første halvdele A–D, anden halvdele 1–4 — og brugerne kobler brikkerne sammen. Vælg horisontal (øvre/nedre) eller vertikal (venstre/højre) klipretning i Gør Billedet Helt.',
+      question: 'Hvilke tilstande til skyggeleg og silhuet-parring findes?',
+      answer: 'Generatoren tilbyder to tilstande. Skyggeleg placerer 4 farvede billeder mærket A–D i øverste række og 4 automatisk genererede sorte silhuetter mærket 1–4 i nederste række — silhuetterne oprettes gennem pixelniveau-behandling. Gør Billedet Helt deler 4 billeder i halvdele — første halvdele A–D, anden halvdele 1–4 — og brugerne parrer brikkerne. Vælg horisontal (øvre/nedre) eller vertikal (venstre/højre) klipretning.',
     },
     {
-      question: 'Hvordan fungerer pixelniveau silhuetgenereringen?',
+      question: 'Hvordan fungerer pixelniveau silhuetgenereringen i skyggelegen?',
       answer: 'I Skyggematchning-tilstand indlæser appen hvert billede til et lærred, udtrækker hver pixel med getImageData og konverterer alle pixels med alfa > 10 til rent sort (R=0, G=0, B=0, A=255). Dette bevarer den præcise gennemsigtighedsprofil og producerer korrekte sorte silhuetter med fine detaljer. Ægte pixelbehandling — ikke CSS-filtre, ikke præfabrikerede aktiver.',
     },
     {
@@ -218,22 +220,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%201.webp',
-      primaryAlt: 'Skyggematchning arbejdsark med farvede billeder i øverste række og automatisk genererede sorte silhuetter i nederste række med ravgul overskrift og bogstav-nummer-etiketter',
+      primaryAlt: 'Gratis skyggeleg med billeder og silhuetter til parring — prøv online med vandmærke',
     },
     sampleGallery: [
       {
         src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%201.webp',
-        alt: 'Skyggematchning arbejdsark, der viser fire farvede billeder matchet med fire pixelniveau sorte silhuetter med A B C D og 1 2 3 4 etiketter',
+        alt: 'Gratis skyggeleg med fire billeder og fire sorte silhuetter til parring — prøv online',
         caption: 'Skyggematchning-tilstand — brugerne matcher billeder med deres automatisk genererede pixelniveau silhuetter',
       },
       {
         src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%202.webp',
-        alt: 'Gør billedet helt arbejdsark med delte billedhalvdele, som brugerne kobler sammen ved at matche første og anden halvdele mærket A til D og 1 til 4',
+        alt: 'Gratis skyggeleg med delte billedhalvdele til parring — prøv Gør Billedet Helt online',
         caption: 'Gør Billedet Helt-tilstand — brugerne matcher delte billedhalvdele for at fuldende billeder med horisontale eller vertikale klip',
       },
       {
         src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%203.webp',
-        alt: 'Skyggematchning facit, der viser originalbilleder ved siden af silhuetter med korrekte bogstav-til-nummer matchningsetiketter som A til 2',
+        alt: 'Automatisk facit til skyggeleg med korrekte bogstav-til-nummer parringer for silhuetter',
         caption: 'Automatisk genereret facit — bogstav-til-nummer etiketter viser korrekte matchninger for begge øvelsestilstande',
       },
     ],

@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sælg pædagogiske printables på Etsy',
+    primaryKeyword: 'sælg opgaver på Etsy.dk',
     secondaryKeywords: [
       'sådan sælger du pædagogiske printables på Etsy',
       'Etsy pædagogisk printable-butik strategi',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'tværkategori pædagogisk printable pakketering Etsy strategi',
       'Etsy listning fotos mockups for pædagogiske printable produkter',
     ],
-    titleTag: 'Sælg pædagogiske printables på Etsy — Guide',
-    metaDescription: 'Sælg pædagogiske printables på Etsy med 33 generatorer på tværs af 6 kategorier. Butiksstrategi, Etsy SEO, tværkategoripakker og prissætning for sælgere.',
+    titleTag: 'Sælg opgaver på Etsy.dk — Guide for printable-sælgere',
+    metaDescription: 'Sælg opgaver til print på Etsy.dk med 33 generatorer. Butiksstrategi, Etsy SEO, opgavepakker, prissætning og passiv indkomst for sælgere.',
   },
 
   hero: {

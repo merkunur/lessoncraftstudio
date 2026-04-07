@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'printbar forretningsplan ideer',
+    primaryKeyword: 'printbar forretningsplan opgaver til print sidegesjæft',
     secondaryKeywords: [
-      'printbar forretningsplan for saelgere',
-      'profitable printbare produktideer',
-      'start en printbar produktlinje',
-      'forretningsplan printbare arbejdsark',
+      'printbar forretningsplan for sælgere passiv indkomst',
+      'profitable printbare produktidéer opgaver til print',
+      'start en printbar produktlinje sidegesjæft Danmark',
+      'forretningsplan opgaver til print Etsy.dk KDP',
     ],
     lsiKeywords: [
-      'Etsy printbar butik planlaegning',
-      'Amazon KDP produktstrategi',
-      'arbejdsarksforretning indtaegtsmaal',
-      'printbar katalogudvidelse',
-      'produktlinjekortlaegning for saelgere',
-      'lanceringscheckliste printbar forretning',
+      'Etsy.dk printbar butik planlægning sidegesjæft',
+      'Amazon KDP produktstrategi aktivitetsbøger',
+      'printbar forretning indtægtsmål passiv indkomst',
+      'printbar katalogudvidelse opgaver til print',
+      'produktlinjekortlægning for sælgere sidegesjæft',
+      'lanceringscheckliste printbar forretning Danmark',
     ],
-    titleTag: 'Printbar forretningsplan — Fra ide til indkomst —...',
-    metaDescription: 'Forvandl printbare forretningsideer til en struktureret plan. Kortlaeg din produktlinje, vaelg platforme, saet priser og lancer paa Etsy og Amazon KDP.',
+    titleTag: 'Printbar forretningsplan — fra idé til indkomst | Opgaver til print',
+    metaDescription: 'Forvandl printbare forretningsidéer til en struktureret plan. Kortlæg din produktlinje, vælg platforme, sæt priser og lancér på Etsy.dk og Amazon KDP.',
   },
 
   hero: {
-    title: 'Printbar forretningsplan: Fra ide til indkomst',
-    tagline: 'En struktureret plan der forvandler spredte printbare forretningsideer til en fokuseret, indkomstgenererende produktlinje',
-    description: 'De fleste printbare forretninger fejler ikke fordi saelgeren manglede ideer, men fordi de manglede en plan. Denne forretningsplan guider dig gennem hvert planlaegningstrin: valider din printbare forretningside, kortlaeg din produktlinje, vaelg de rigtige platforme, saet realistiske indtaegtsmaal og lancer med en tydelig handlingsplan. Uanset om du begynder fra nul eller omstrukturerer en underpreasterende butik giver denne guide dig det strategiske rammevaerk der adskiller saelgere der bygger baeredygtig indkomst fra dem der laver tilfaeldige produkter og haaber paa det bedste.',
+    title: 'Printbar forretningsplan: fra idé til indkomst',
+    tagline: 'En struktureret plan der forvandler spredte printbare forretningsidéer til en fokuseret produktlinje med opgaver til print',
+    description: 'De fleste printbare forretninger fejler ikke fordi sælgeren manglede idéer, men fordi de manglede en plan. Denne forretningsplan guider dig gennem hvert planlaegningstrin: valider din printbare forretningside, kortlaeg din produktlinje, vaelg de rigtige platforme, saet realistiske indtaegtsmaal og lancer med en tydelig handlingsplan. Uanset om du begynder fra nul eller omstrukturerer en underpreasterende butik giver denne guide dig det strategiske rammevaerk der adskiller saelgere der bygger baeredygtig indkomst fra dem der laver tilfaeldige produkter og haaber paa det bedste.',
   },
 
   introduction: 'Internettet er fuldt af printbare forretningsideer. Gennemse ethvert ivaerksaetterforum og du finder lister med \"50 printbare produkter du kan saelge i dag\" eller \"bedste digitale produkter til Etsy.\" Ideerne er ikke problemet. Problemet er at de fleste saelgere springer planlaegningsfasen helt over.\n\nDe vaelger en tilfaeldig ide, laver en haandfuld produkter, lister dem paa Etsy og undrer sig over hvorfor intet saelger efter to uger. Derefter vaelger de en anden ide og gentager den samme cyklus. Seks maaneder senere har de en spredt butik med 15 urelaterede produkter, intet tydeligt brand og nul momentum.\n\nSaelgere der bygger reel indkomst fra printbare produkter goer det anderledes. De begynder med en forretningsplan — en struktureret plan der kortlaegger deres niche, produktlinje, platformsstrategi, prissaetning og vaekstmilepale foer de laver et eneste produkt. Den plan behoever ikke vaere kompleks, men den skal eksistere.\n\nDenne guide er den forretningsplan. I slutningen vil du have en konkret plan der daekker dine foerste 50 produkter, din platformsstrategi, din prisstruktur og din 90-dages lanceringstidslinje. Hver arbejdsarksgenerator naevnt tilbyder en gratis proeveversion med vandmaerke, saa du kan teste produktskabelse som del af din planlaegningsproces uden nogen indledende omkostning.',

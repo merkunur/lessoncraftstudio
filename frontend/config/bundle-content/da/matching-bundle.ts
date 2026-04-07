@@ -2,27 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'matchningsarbejdsark pakke',
+    primaryKeyword: 'forbind-opgaver og sortere pakke til print',
     secondaryKeywords: [
-      'matchning sortering arbejdsark generator pakke for sælgere',
-      'printbar matchningsaktivitet værktøjskasse kommerciel brug',
-      'bingokort generator pakke til Etsy',
-      'sorteringsarbejdsark generatorer til KDP-sælgere',
+      'forbind-opgaver skyggeleg bingoplader pakke Etsy.dk',
+      'sortere tegne på gitter printpakke kommerciel licens',
+      'bingoplader generator pakke sælg Amazon KDP',
+      'forbind-opgaver sortere generatorer passiv indkomst',
     ],
     lsiKeywords: [
-      'matchning sortering bingo arbejdsark pakke',
-      'skyggematchning gittermatchning printbar samling',
-      'kommerciel licens matchningsarbejdsark',
-      'masseproduktion matchningsarbejdsark værktøj',
+      'forbind-opgaver skyggeleg bingoplader pakke til print',
+      'tegne på gitter sortere printbar samling sidegesjæft',
+      'kommerciel licens forbind-opgaver børnehaveklasse',
+      'masseproduktion forbind-opgaver printbar forretning',
     ],
-    titleTag: 'Matchningsarbejdsark Pakke — 5 Sorterings- og...',
-    metaDescription: 'Få 5 matchningsarbejdsark-generatorer i én pakke. Lav matchning, gittermatchning, skyggematchning, bingo og sorteringsarbejdsark til salg på Etsy. $49.',
+    titleTag: 'Forbind-opgaver & sortere-pakke til print — 5 generatorer | Bingoplader & skyggeleg',
+    metaDescription: 'Få 5 generatorer i én pakke til print. Forbind-opgaver, tegne på gitter, skyggeleg, bingoplader og sortere — sælg på Etsy.dk og Amazon KDP. $149.',
   },
 
   hero: {
-    title: 'Matchning & Sortering-pakke',
-    tagline: 'Fem matchnings- og sorteringsgeneratorer — fra visuel parmatchning til batch-bingokort-eksporter',
-    description: 'Matchning & Sortering-pakken samler fem specialiserede generatorer, der dækker hele spektret af matchnings-, parrings- og kategoriseringsaktiviteter. Dette er en hybridpakke — tre af de fem apps er sprogafhængige og producerer arbejdsark med ordforråds etiketter på et af 11 understøttede sprog, mens to er helt visuelle og fungerer verden over uden oversættelse. Matchning tilbyder fire distinkte tilstande inklusive bogstavmatchning, billede-navnparring og tilpasset indhold. Gittermatchning skaber koordinatbaserede matchningspuslespil på strukturerede gitre. Skyggematchning genererer silhuetparringsarbejdsark. Bingo producerer batcheksporter af flere unikke kort i én enkelt ZIP-download — den eneste app over alle pakker med denne evne, designet specifikt til produktlinje- og gruppebrug. Billedsortering bygger tokategori-sorteringsarbejdsark. Fire af de fem generatorer producerer automatiske facit. Bingo er undtagelsen — som en spelkortsgenerator er der intet enkelt korrekt svar. Hver generator udsender trykfærdige PDF- og højopløste JPEG-filer. Vælg blandt over 100 tematiske billedsæt eller upload dine egne filer. Hver generator inkluderer en gratis prøveversion med vandmærke.',
+    title: 'Forbind-opgaver & sortere-pakke',
+    tagline: 'Fem generatorer til forbind-opgaver, skyggeleg og sortere — fra visuel parmatchning til bingoplader i batch',
+    description: 'Forbind-opgaver & sortere-pakken samler fem specialiserede generatorer, der dækker hele spektret af forbind-opgaver, skyggeleg, sortere og kategoriseringsaktiviteter. Dette er en hybridpakke — tre af de fem apps er sprogafhængige og producerer arbejdsark med ordforråds etiketter på et af 11 understøttede sprog, mens to er helt visuelle og fungerer verden over uden oversættelse. Matchning tilbyder fire distinkte tilstande inklusive bogstavmatchning, billede-navnparring og tilpasset indhold. Gittermatchning skaber koordinatbaserede matchningspuslespil på strukturerede gitre. Skyggematchning genererer silhuetparringsarbejdsark. Bingo producerer batcheksporter af flere unikke kort i én enkelt ZIP-download — den eneste app over alle pakker med denne evne, designet specifikt til produktlinje- og gruppebrug. Billedsortering bygger tokategori-sorteringsarbejdsark. Fire af de fem generatorer producerer automatiske facit. Bingo er undtagelsen — som en spelkortsgenerator er der intet enkelt korrekt svar. Hver generator udsender trykfærdige PDF- og højopløste JPEG-filer. Vælg blandt over 100 tematiske billedsæt eller upload dine egne filer. Hver generator inkluderer en gratis prøveversion med vandmærke.',
   },
 
   appsIncluded: [

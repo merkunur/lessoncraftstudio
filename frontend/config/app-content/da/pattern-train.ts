@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'mønstertog generator',
+    primaryKeyword: 'mønster-opgaver til print',
     secondaryKeywords: [
-      'mønstersekvens arbejdsark sælg på Etsy',
-      'mønstertog arbejdsark generator til Amazon KDP',
-      'mønstergenkendelse arbejdsark kommerciel licens',
-      'printbare mønsterøvelser til Gumroad',
+      'logisk rækkefølge opgaver',
+      'mønster fortsætte øvelse',
+      'sekvens børnehaveklasse',
+      'mønster opgave indskoling',
     ],
     lsiKeywords: [
-      'digitale mønsterøvelse produkter online forretning',
-      'printbare visuelle mønstersekvens arbejdsark business',
-      'mønstertog generator kommercielt brug',
+      'mønster rækkefølge sekvens logik',
+      'AB ABC ABCD mønster indskoling',
+      'mønster-opgaver tog format printbare',
     ],
-    titleTag: 'Mønstertog Generator | Opret Sekvensarbejdsark — Sælgguide',
-    metaDescription: 'Opret mønstertog-arbejdsark til salg på Etsy, KDP og Gumroad. Fem mønstertyper, 11 tematiske togvogne, justerbart antal ledetråde. $49 engangsbetaling.',
+    titleTag: 'Mønster-opgaver til print | Generator logiske rækkefølger',
+    metaDescription: 'Lav mønster-opgaver med AB, ABC, ABCD sekvenser og temabilleder. Automatisk facit. Prøv gratis — sælg på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Mønstertog Arbejdsark Generator til Gentagne Sekvensøvelser',
-    tagline: 'Fem mønstertyper — AB, AAB, ABB, ABC, AABB — vist over 11 tematiske togvogne med justerbart antal ledetråde fra 4 til 10 for præcis sværhedskontrol.',
+    title: 'Mønster-opgaver til print — logiske rækkefølger i togformat',
+    tagline: 'Lav mønster-opgaver med AB, AAB, ABB, ABC og AABB sekvenser vist over 11 tematiske togvogne — juster antal ledetråde fra 4 til 10 for præcis sværhedskontrol fra børnehaveklasse til mellemtrin.',
     description:
-      'Design professionelle mønstergenkendelsesarbejdsark, hvor brugerne identificerer og fuldender gentagne sekvenser vist som billeder på et tematisk tog med 11 vogne. Fem distinkte mønstertyper dækker hvert niveau af sekvenskompleksitet: AB alternerer to elementer, AAB grupperer to af ét efterfulgt af ét af et andet, ABB vender den gruppering, ABC roterer tre forskellige elementer, og AABB parrer to af hver, før mønsteret gentages. Toglayoutet arrangerer 11 vogne over tre rækker (5 + 3 + 3), med hver vogn, der holder et billede fra det gentagne mønster. Én vogn efterlades tom — brugerne identificerer mønsteret og bestemmer det manglende element. Juster antallet af ledetråde fra 4 til 10 for at kontrollere sværheden: at vise 10 ledetråde gør mønsteret åbenlyst, mens kun 4 kræver ægte mønsterræsonnement, da de første 3 vogne altid vises. Indhold hentes fra det indbyggede billedbibliotek med mere end 3.100 illustrationer i 104 temaer. En separat facitfane viser alle 11 vogne udfyldt med den korrekte mønstersekvens til øjeblikkelig verifikation. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med høj DPI i Letter-, A4-, Kvadrat- eller brugerdefineret format. Hvert arbejdsark er helt visuelt med udelukkende billeder på togvognene og nul tekst på resultatet, hvilket gør produkterne universelt salgbare uden oversættelse. Uanset om du opretter mønstergenkendelsespakker på Etsy.dk, sammensætter tidlige læringsarbejdsbøger til Amazon KDP eller bygger niveauinddelte matematikstationer til Gumroad — Mønstertog Arbejdsark Generatoren leverer unikke togformatprodukter på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Generér printbare mønster-opgaver, hvor børn skal finde den logiske rækkefølge og udfylde den manglende togvogn i en sekvens. Fem mønstertyper dækker hvert trin i den logiske tænkning: AB alternerer to elementer, AAB og ABB introducerer asymmetriske grupperinger, ABC roterer tre elementer, og AABB parrer to af hvert element i en udvidet cyklus. Togformatet arrangerer 11 vogne over tre rækker (5 + 3 + 3), og én vogn efterlades tom — barnet skal ræsonnere sig frem til det manglende mønsterelement. Med det danske marked på kun 5,8 millioner indbyggere er konkurrencen på Etsy.dk og Amazon KDP markant lavere end på engelsksprogede markedspladser. Danske forældre, pædagoger og lærere søger aktivt efter mønster-opgaver til børnehaveklasse (5-6 år), indskoling 0.-3. klasse og mellemtrin 4.-6. klasse — men udbuddet af printbare sekvensøvelser på dansk er minimalt. Juster ledetrådsskyderen fra 4 til 10 for at styre sværheden: 10 ledetråde gør rækkefølgen åbenlys for de yngste i børnehaveklassen, mens kun 4 ledetråde kræver ægte logisk ræsonnement, egnet til indskoling og mellemtrin. Indhold hentes fra det indbyggede billedbibliotek med mere end 3.100 illustrationer i 104 temaer. En separat facitfane viser alle 11 vogne udfyldt med den korrekte mønstersekvens til øjeblikkelig kontrol. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med høj DPI i Letter-, A4-, Kvadrat- eller brugerdefineret format. Hvert opgaveark er helt visuelt med udelukkende billeder på togvognene og nul tekst på resultatet, hvilket gør produkterne universelt salgbare uden oversættelse. Uanset om du sælger mønster-opgavepakker på Etsy.dk, sammensætter aktivitetsbøger med logiske rækkefølger til Amazon KDP eller bygger niveauinddelte sekvensøvelser til Gumroad — denne generator leverer unikke togformat-produkter på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Mønstertog-Arbejdsark i 5 Trin',
+    title: 'Sådan laver du mønster-opgaver i togformat i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Mønstertog Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i generatoren til mønster-opgaver i togformat',
     features: [
       {
         title: 'Togvognsformat med 11 tematiske vogne',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Mønstertog-Arbejdsark Online',
+    title: 'Sådan sælger du mønster-opgaver i togformat online',
     cases: [
       {
         title: 'Mønstergenkendelsespakker på Etsy.dk',
@@ -140,54 +140,39 @@ const content: AppContent = {
 
   faq: [
     {
+      question: 'Kan jeg sælge disse mønster-opgaver på Etsy?',
+      answer:
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine mønster-opgaver som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som ressourcer på Gumroad eller via enhver anden salgskanal. De fem mønstertyper (AB, AAB, ABB, ABC, AABB), det justerbare antal ledetråde og det unikke togvognsformat giver dig stærk differentiering. Det danske marked med 5,8 millioner indbyggere har markant lavere konkurrence end engelsksprogede markedspladser.',
+    },
+    {
+      question: 'Hvordan laver jeg mønster-opgaver med denne generator?',
+      answer:
+        'Vælg en af fem mønstertyper (AB, AAB, ABB, ABC eller AABB), indstil antal ledetråde fra 4 til 10 for at styre sværheden, og vælg billeder fra 104 tematiske samlinger med over 3.100 illustrationer. Generatoren arrangerer 11 togvogne over tre rækker og efterlader én vogn tom, som barnet skal udfylde. Klik Generer, kontroller facit på en separat fane, og download som trykfærdig PDF eller JPEG med 300 DPI. Hele processen tager få minutter.',
+    },
+    {
+      question: 'Er mønster-opgaverne egnede til børnehaveklasse, indskoling og mellemtrin?',
+      answer:
+        'Ja. Opgaverne dækker hele spektret. Til børnehaveklasse (5-6 år) bruger du AB-mønster med 8-10 ledetråde for enkel sekvensgenkendelses. Til indskoling 0.-3. klasse passer AAB, ABB og ABC-mønstre med 5-7 ledetråde. Til mellemtrin 4.-6. klasse bruger du AABB-mønstre med kun 4 ledetråde, som kræver ægte logisk ræsonnement. Ledetrådsskyderen og mønstertypen tilsammen giver præcis sværhedskontrol til hvert alderstrin.',
+    },
+    {
+      question: 'På hvor mange sprog kan jeg lave mønster-opgaver?',
+      answer:
+        'Generatoren understøtter 11 brugerfladesprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Selve opgavearkene er dog helt visuelle med udelukkende billeder på togvognene og nul tekst på resultatet — det samme produkt fungerer identisk på alle sprog uden oversættelse. At skifte sprog påvirker kun brugerfladen i generatoren, ikke det udskrevne opgaveark.',
+    },
+    {
+      question: 'Er facitlisten inkluderet?',
+      answer:
+        'Ja. En separat facitfane viser det komplette tog med alle 11 vogne udfyldt — inklusive positionen, der var tom på opgavearket. Begge lærreder kan redigeres uafhængigt, og begge downloades som separate filer (PDF eller JPEG). Facitlisten er automatisk genereret og altid synkroniseret med opgaven, så du aldrig behøver markere svar manuelt.',
+    },
+    {
       question: 'Hvad er de fem mønstertyper, og hvordan adskiller de sig?',
       answer:
-        'AB alternerer to elementer (A-B-A-B) for det enkleste gentagne mønster. AAB grupperer to af ét element derefter ét af et andet (A-A-B-A-A-B). ABB vender den gruppering (A-B-B-A-B-B). ABC roterer tre forskellige elementer (A-B-C-A-B-C), hvilket kræver, at brugerne holder styr på en længere gentagen enhed. AABB parrer to af hvert element (A-A-B-B-A-A-B-B) i en udvidet cyklus. Progressionen fra AB til AABB generator en naturlig sværhedsstige fra simpel toelements-alternering til komplekse flerelements-sekvenser.',
-    },
-    {
-      question: 'Hvordan styrer antallet af ledetråde sværheden?',
-      answer:
-        'Antallet af ledetråde bestemmer, hvor mange af de 11 togvogne der viser billeder. De første 3 vogne vises altid for at etablere mønsteret. Med 10 ledetråde er kun 1 vogn tom blandt 10 udfyldte — mønsteret er meget åbenlyst. Med 4 ledetråde ser brugerne minimal information og skal ræsonnere omhyggeligt for at identificere sekvensen. Denne ene indstilling forvandler hver mønstertype fra en simpel øvelse til en ægte ræsonnementsudfordring og multiplicerer effektivt produktvariationen fra hver mønstertype.',
-    },
-    {
-      question: 'Hvordan er de 11 togvogne arrangeret på siden?',
-      answer:
-        'Toget viser 11 vogne over tre rækker: 5 vogne på øverste række, 3 på midten-venstre og 3 på midten-højre. Hver vogn holder et billede fra den gentagne mønstersekvens. Den tematiske togkunst forbinder vognene visuelt, hvilket generator et engagerende layout, der adskiller sig fra almindelige gitterbaserede mønsterarbejdsark. Dette distinkte format hjælper produkter med at skille sig ud i søgeresultater på markedspladser.',
-    },
-    {
-      question: 'Hvordan bestemmes den manglende vogns position?',
-      answer:
-        'Den tomme vogn placeres dynamisk blandt positionerne 3 til 10 baseret på det konfigurerede antal ledetråde. De første 3 positioner udfyldes altid, så brugerne ser tilstrækkeligt af mønsteret, før de møder den tomme vogn. Denne intelligente placering sikrer, at hvert puslespil er retfærdigt og løseligt. To arbejdsark med den samme mønstertype kan have forskellige manglende positioner, hvilket tilføjer naturlig variation i produktpakker.',
-    },
-    {
-      question: 'Hvordan vælger jeg billeder til togvognene?',
-      answer:
-        'Tre muligheder er tilgængelige: temaautomatik vælger koordinerede billeder fra det valgte tema automatisk, manuelt udvalg lader dig gennemse det 104-tema-store bibliotek og vælge specifikke billeder, og tilpasset upload lader dig tilføje egne billeder. Hvert tema giver et visuelt koordineret sæt — dyr, køretøjer, mad, natur og snesevis flere. Mønstertypen bestemmer, hvor mange distinkte billeder der er nødvendige: AB bruger 2, AAB og ABB bruger 2, ABC bruger 3 og AABB bruger 2.',
-    },
-    {
-      question: 'Hvordan fungerer facit for mønstertog-arbejdsark?',
-      answer:
-        'Facit lever på en separat lærredsfane, der viser det komplette tog med alle 11 vogne udfyldt — inklusive positionen, der var tom på arbejdsarket. Begge lærreder kan redigeres uafhængigt, så du kan tilpasse facit separat. Arbejdsarket og facit downloades som separate filer, hvilket giver købere en komplet produktpakke med verificerede løsninger.',
-    },
-    {
-      question: 'Hvordan adskiller mønstertog-arbejdsark sig fra gitterbaserede mønsterarbejdsark?',
-      answer:
-        'Mønstertog viser sekvenser over et tematisk tog med 11 vogne i et distinkt visuelt format, mens gitterbaserede mønsterarbejdsark bruger almindelige rækker og kolonner. Togformatet er mere visuelt engagerende og generator produkter, der skiller sig ud i markedspladsannoncer. Mønstertog har også justerbart antal ledetråde (4–10) for finkornig sværhedskontrol og dynamisk placering af den manglende vogn — funktioner, der ikke findes i standard gitterlayouts.',
+        'AB alternerer to elementer (A-B-A-B) for den enkleste logiske rækkefølge. AAB grupperer to af ét element derefter ét af et andet (A-A-B-A-A-B). ABB vender grupperingen (A-B-B-A-B-B). ABC roterer tre forskellige elementer (A-B-C-A-B-C) for en mere kompleks sekvens. AABB parrer to af hvert element (A-A-B-B-A-A-B-B) i en udvidet cyklus. Progressionen fra AB til AABB giver en naturlig sværhedsstige fra simpel alternering til flerelements-sekvenser.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
         'Ja. Du kan bruge alle funktioner — alle fem mønstertyper, justerbart antal ledetråde, billedbiblioteket, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Er Mønstertog-generatoren sprogfølsom?',
-      answer:
-        'Nej. Mønstertog er en rent visuel app — arbejdsarkene indeholder udelukkende billeder på togvogne med nul tekst på resultatet, så de er identiske på ethvert sprog. At skifte sprog påvirker kun brugerflade­etiketterne i generatoren og billedbibliotekssproget, ikke arbejdsarket i sig selv. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog.',
-    },
-    {
-      question: 'Kan jeg sælge arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine mønstertog-arbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som pædagogiske ressourcer på Gumroad eller via enhver anden salgskanal. De fem mønstertyper, det justerbare antal ledetråde og det unikke togvognsformat giver dig stærk differentiering og global salgbarhed i markedsplads-kategorier.',
     },
     {
       question: 'Hvad er returpolitikken?',
@@ -257,23 +242,23 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/pattern%20train/M%C3%B8nstertoget%201.webp',
-      primaryAlt: 'Mønstertog-arbejdsark med tematiske togvogne, der viser AB gentagne mønster med en manglende vogn, som brugerne skal fuldende',
+      primaryAlt: 'Mønster-opgave til print med tematiske togvogne, der viser AB logisk rækkefølge med en manglende vogn, som barnet skal udfylde',
     },
     sampleGallery: [
       {
         src: '/samples/danish/pattern%20train/Mønstertoget%201.webp',
-        alt: 'Mønstertog-arbejdsark med AB alternerende mønster og dyrebilleder over 11 tematiske togvogne',
-        caption: 'AB-mønster med dyretema — brugerne identificerer den alternerende sekvens og udfylder den manglende vogn',
+        alt: 'Mønster-opgave til print med AB alternerende sekvens og dyrebilleder over 11 tematiske togvogne',
+        caption: 'AB-mønster med dyretema — barnet finder den logiske rækkefølge og udfylder den manglende vogn',
       },
       {
         src: '/samples/danish/pattern%20train/Mønstertoget%202.webp',
-        alt: 'Mønstertog-arbejdsark med ABC treelement-mønster og tematiske billeder over togvogne',
-        caption: 'ABC-mønster — tre roterende elementer generator en mere kompleks gentagen sekvens',
+        alt: 'Mønster-opgave med ABC treelement-sekvens og tematiske billeder over togvogne',
+        caption: 'ABC-mønster — tre roterende elementer i en mere kompleks logisk rækkefølge',
       },
       {
         src: '/samples/danish/pattern%20train/Mønstertoget%203.webp',
-        alt: 'Mønstertog facit, der viser alle 11 vogne udfyldt med den korrekte mønstersekvens',
-        caption: 'Facit — alle 11 vogne udfyldt med det korrekte mønster til lærerveri­fikation',
+        alt: 'Facit til mønster-opgave, der viser alle 11 vogne udfyldt med den korrekte sekvens',
+        caption: 'Facit — alle 11 vogne udfyldt med den korrekte logiske rækkefølge til kontrol',
       },
     ],
     youtubeId: '5A4aHvcC5u4',

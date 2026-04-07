@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'arbejdsark stort lille generator opret',
+    primaryKeyword: 'stor og lille opgave til print',
     secondaryKeywords: [
-      'størrelsessammenligning arbejdsark sælg på Etsy',
-      'stort og lille arbejdsark generator til Amazon KDP',
-      'størrelsesdiskriminering arbejdsark kommerciel licens',
-      'printbare størrelsesøvelser til Gumroad',
+      'sammenlign størrelse opgave',
+      'ordne efter størrelse øvelse',
+      'større mindre opgave',
+      'størrelser børnehaveklasse',
     ],
     lsiKeywords: [
-      'digitale størrelsessammenligning produkter online forretning',
-      'printbare visuel diskriminering arbejdsark business',
-      'stort lille arbejdsark generator kommercielt brug',
+      'stor lille størrelse sammenlign ordne',
+      'børnehaveklasse indskoling størrelse',
+      'stor og lille opgave printbar generator',
     ],
-    titleTag: 'Stort og Lille Generator | Opret og Sælg Arbejdsark',
-    metaDescription: 'Opret størrelsessammenligningsarbejdsark til salg på Etsy, KDP og Gumroad. $49 engangsbetaling.',
+    titleTag: 'Stor og lille opgave til print | Generator størrelsesammenligning',
+    metaDescription: 'Lav opgaver om størrelsesammenligning med temabilleder. Stor vs. lille, ordne, automatisk facit. Prøv gratis.',
   },
 
   hero: {
-    title: 'Stort og Lille Arbejdsark Generator til Størrelsessammenligningsøvelser',
-    tagline: 'Fem spørgsmålstyper — ring om den store, ring om den lille, ring om den mellemstore, nummerér stigende, nummerér faldende — med identiske og forskellige billedtilstande til visuel størrelsesdiskriminering.',
+    title: 'Stor og lille opgave til print — sammenlign og ordne efter størrelse',
+    tagline: 'Fem opgavetyper — ring om den store, ring om den lille, ring om den mellemstore, ordne stigende, ordne faldende — med identiske og forskellige billedtilstande til størrelsesammenligning fra børnehaveklasse til indskoling.',
     description:
-      'Design professionelle størrelsessammenligningsarbejdsark, hvor brugerne kigger på tematiske billeder i forskellige størrelser og identificerer, hvilken der er størst, mindst eller mellemstor, eller nummererer dem i rækkefølge fra mindst til størst eller størst til mindst. Fem distinkte spørgsmålstyper dækker enhver størrelsesdiskrimineringsfærdighed: Ring om den Store, Ring om den Lille, Ring om den Mellemstore, Nummerér 1–2–3 Lille til Stor og Nummerér 1–2–3 Stor til Lille. To billedtilstande generator fundamentalt forskellige øvelser: Identiske Billeder viser det samme billede i forskellige størrelser til ren størrelses­opfattelse, mens Forskellige Billeder viser distinkte objekter til relativ størrelses­bedømmelse. Konfigurer 1–10 øvelser per side med 2 eller 3 billeder per øvelse — to billeder til enklere sammenligninger, tre til sværere, der inkluderer en mellemstor mulighed. Hvert arbejdsark er helt visuelt med nul tekst på resultatet, hvilket gør dem universelt brugbare uanset sprog eller læseniveau. Indhold hentes fra det indbyggede billedbibliotek med mere end 3.100 illustrationer i 104 temaer. En automatisk genereret facitliste markerer korrekte svar til øjeblikkelig verifikation. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter-, A4- eller brugerdefineret format. Uanset om du sælger størrelses­sammenligningspakker på Etsy.dk, sammensætter tidlige læringsarbejdsbøger til Amazon KDP eller opretter niveauinddelte visuelle stationer til Gumroad — Stort og Lille Arbejdsark Generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Generér printbare opgaver om størrelsesammenligning, hvor børn kigger på tematiske billeder i forskellige størrelser og finder den største, mindste eller mellemstore — eller ordner dem efter størrelse fra lille til stor eller omvendt. Fem opgavetyper dækker hele spektret af størrelsesammenligning: Ring om den Store, Ring om den Lille, Ring om den Mellemstore, Nummerér 1-2-3 Lille til Stor og Nummerér 1-2-3 Stor til Lille. Med det danske marked på kun 5,8 millioner indbyggere er konkurrencen på Etsy.dk og Amazon KDP markant lavere end på engelsksprogede platforme — og danske forældre, pædagoger og lærere søger aktivt efter printbare størrelse-opgaver til børnehaveklasse (5-6 år) og indskoling 0.-3. klasse. Udbuddet af opgaver om større og mindre på dansk er minimalt, hvilket giver sælgere en klar markedsmulighed. To billedtilstande fordobler produktvariationen: Identiske Billeder viser det samme billede i forskellige størrelser til ren størrelsesammenligning, mens Forskellige Billeder viser distinkte objekter til relativ størrelsesbedømmelse. Konfigurer 1-10 øvelser per side med 2 eller 3 billeder per øvelse. Hvert opgaveark er helt visuelt med nul tekst på resultatet, hvilket gør produkterne universelt salgbare uanset sprog. Indhold hentes fra billedbiblioteket med over 3.100 illustrationer i 104 temaer. En automatisk facitliste markerer korrekte svar. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter-, A4- eller brugerdefineret format. Uanset om du sælger størrelse-opgavepakker på Etsy.dk, sammensætter aktivitetsbøger med stor og lille til Amazon KDP eller opretter niveauinddelte størrelseøvelser til Gumroad — denne generator leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Størrelsessammenligningsarbejdsark i 5 Trin',
+    title: 'Sådan laver du stor og lille opgaver til print i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Stort og Lille Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i generatoren til stor og lille opgaver',
     features: [
       {
         title: 'Fem størrelses­sammenligningsspørgsmålstyper',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Størrelsessammenligningsarbejdsark Online',
+    title: 'Sådan sælger du stor og lille opgaver online',
     cases: [
       {
         title: 'Størrelsessammenligningspakker på Etsy.dk',
@@ -140,59 +140,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvad er de fem spørgsmålstyper, og hvordan fungerer de?',
+      question: 'Kan jeg sælge disse størrelse-opgaver på Etsy?',
       answer:
-        'Ring om den Store beder brugerne identificere det største billede blandt 2 eller 3 alternativer. Ring om den Lille retter sig mod det mindste billede. Ring om den Mellemstore kræver, at man identificerer det mellemstore billede (kun tilgængelig med 3 billeder per øvelse). Nummerér 1–2–3 Lille til Stor beder brugerne mærke billeder i stigende størrelsesorden. Nummerér 1–2–3 Stor til Lille vender rækkefølgen til faldende. Cirkelspørgsmål tester identifikation; nummereringsspørgsmål tester sekventering — sammen dækker de hele spektret af størrelses­diskrimineringsfærdigheder.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine stor og lille opgaver som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som ressourcer på Gumroad eller via enhver anden salgskanal. Fem opgavetyper, to billedtilstande og det helt visuelle format giver dig stærk differentiering. Det danske marked med 5,8 millioner indbyggere har lav konkurrence på printbare størrelse-opgaver.',
     },
     {
-      question: 'Hvad er forskellen mellem Identiske Billeder og Forskellige Billeder-tilstand?',
+      question: 'Hvordan laver jeg stor og lille opgaver med denne generator?',
       answer:
-        'Identiske Billeder-tilstanden viser det samme billede i forskellige størrelser — for eksempel tre kopier af en kat i lille, mellemstor og stor skala. Dette isolerer ren størrelses­opfattelse uden andre variabler. Forskellige Billeder-tilstanden viser distinkte objekter i forskellige størrelser — for eksempel en hund, en kat og en fugl i forskellige skalaer. Dette kræver relativ størrelses­bedømmelse, hvor brugerne skal sammenligne forskellige genstande. De to tilstande generator fundamentalt forskellige øvelser og fordobler effektivt din produktvariation.',
+        'Vælg en af fem opgavetyper (ring om den store, ring om den lille, ring om den mellemstore, ordne stigende eller faldende), vælg billedtilstand (identiske eller forskellige billeder), indstil 1-10 øvelser per side med 2 eller 3 billeder per øvelse, og vælg billeder fra 104 temaer med over 3.100 illustrationer. Klik Generér, kontroller facit, og download som trykfærdig PDF eller JPEG med 300 DPI.',
     },
     {
-      question: 'Hvad styrer indstillingen 2 eller 3 billeder per øvelse?',
+      question: 'Er størrelse-opgaverne egnede til børnehaveklasse og indskoling?',
       answer:
-        'Med 2 billeder per øvelse laver brugerne en simpel større/mindre sammenligning mellem to genstande. Med 3 billeder introduceres en mellemstor mulighed, hvilket muliggør spørgsmålstypen Ring om den Mellemstore og gør nummereringsøvelser mere udfordrende med tre objekter at ordne i stedet for to. Trebilleds­øvelser er sværere, fordi brugerne skal skelne mellem tre relative størrelser frem for bare to. Begynd med 2 billeder til yngre brugere og avancér til 3 for mere avanceret øvelse.',
+        'Ja. Til børnehaveklasse (5-6 år) bruger du Ring om den Store med 2 identiske billeder for enkel størrelsesammenligning. Til indskoling 0.-3. klasse passer Ring om den Mellemstore med 3 billeder og Nummerér 1-2-3 ordningsøvelser for mere avanceret størrelsebedømmelse. Forskellige Billeder-tilstanden udfordrer yderligere, da børnene skal sammenligne distinkte objekter. Alle opgaver er helt visuelle og kræver ingen læsefærdigheder.',
     },
     {
-      question: 'Hvor mange øvelser kan jeg lægge på en side?',
+      question: 'På hvor mange sprog kan jeg lave størrelse-opgaver?',
       answer:
-        'Du kan indstille 1 til 10 øvelser per side. Standard er 4 øvelser. Færre øvelser per side generator større, tydeligere billeder, ideelle til yngre brugere eller fokuseret øvelse. Flere øvelser per side generator tættere arbejdsark, egnede til bedømmelse eller gennemgang. Det optimale antal afhænger af din sidestørrelse og billeder per øvelse — 4 øvelser med 3 billeder hver fylder en standardside godt, mens 8–10 øvelser fungerer bedre med 2 billeder hver.',
+        'Generatoren understøtter 11 brugerfladesprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Selve opgavearkene er helt visuelle med kun billeder og visuelle indikatorer — nul tekst på resultatet — så det samme produkt fungerer identisk på alle sprog uden oversættelse. At skifte sprog påvirker kun brugerfladen i generatoren.',
     },
     {
-      question: 'Hvorfor har arbejdsarkene ingen tekst?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Stort og Lille-arbejdsark er helt visuelle af design. Øvelserne indeholder kun billeder og visuelle indikatorer som cirkler eller nummerfelter — ingen skrevne ord vises på det genererede resultat. Dette gør arbejdsarkene universelt brugbare uanset sprog eller læseniveau. Før-læsende brugere gennemfører dem uden at læse. Det samme arbejdsark sælger verden over uden oversættelse. Instruktioner kan gives mundtligt af sælgeren eller tilføjes som brugerdefineret tekst med tekstværktøjerne, hvis det er nødvendigt.',
+        'Ja. En automatisk genereret facitliste markerer og ringer de korrekte svar om for hver øvelse. For cirkelopgaver markeres det korrekte billede visuelt. For ordningsøvelser vises den korrekte rækkefølge. Facit downloades som en separat fil sammen med opgavearket — altid synkroniseret med opgaven.',
     },
     {
-      question: 'Hvordan fungerer den automatisk genererede facitliste?',
+      question: 'Hvad er de fem opgavetyper?',
       answer:
-        'Facit opretter en løst version af dit arbejdsark, hvor korrekte svar er visuelt markeret og ringet om. For cirkelspørgsmål markeres det korrekte billede. For nummereringsspørgsmål vises den korrekte størrelsesorden. Facit downloades som en separat fil sammen med arbejdsarket. At inkludere facit med hvert produkt øger oplevet værdi og forventes af købere på Etsy.dk, Gumroad og KDP.',
-    },
-    {
-      question: 'Kan jeg uploade egne billeder i stedet for at bruge biblioteket?',
-      answer:
-        'Ja. Funktionen til upload af egne billeder lader dig tilføje ethvert billede til dine størrelses­sammenligningsøvelser. Upload fotos, illustrationer eller grafik relevant for dit specifikke emne eller målgruppe. Egne billeder vises ved siden af bibliotekets billeder på lærredet og fungerer med alle fem spørgsmålstyper og begge billedtilstande. Dette er nyttigt til at oprette emnespecifikke arbejdsark — sammenlign bygnings­størrelser, madportioner eller ethvert visuelt koncept ud over det indbyggede temabiblioteks udvalg.',
+        'Ring om den Store beder barnet identificere det største billede. Ring om den Lille retter sig mod det mindste. Ring om den Mellemstore kræver identifikation af det mellemstore billede (kun med 3 billeder). Nummerér 1-2-3 Lille til Stor beder barnet ordne efter størrelse stigende. Nummerér 1-2-3 Stor til Lille vender rækkefølgen. Cirkelopgaver tester identifikation; ordningsopgaver tester sekventering — sammen dækker de hele spektret af størrelsesammenligning.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — alle fem spørgsmålstyper, begge billedtilstande, billedbiblioteket, justerbare øvelsesantal, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Er Stort og Lille-generatoren sprogfølsom?',
-      answer:
-        'Nej. Stort og Lille er en rent visuel app — arbejdsarkene indeholder kun billeder med nul tekst på resultatet, så de er identiske på ethvert sprog. At skifte sprog påvirker kun brugerflade­etiketterne i generatoren, ikke arbejdsarkets indhold. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog.',
-    },
-    {
-      question: 'Kan jeg sælge arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine størrelses­sammenligningsarbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som pædagogiske ressourcer på Gumroad eller via enhver anden salgskanal. De fem spørgsmålstyper, to billedtilstande og det helt visuelle format giver dig stærk differentiering og global salgbarhed i markedsplads-kategorier.',
+        'Ja. Du kan bruge alle funktioner — alle fem opgavetyper, begge billedtilstande, billedbiblioteket, justerbare øvelsesantal, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver spørgsmålstype, hver billedtilstand, hver øvelseskonfiguration, hvert eksportformat og hvert sideformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver opgavetype, hver billedtilstand, hver øvelseskonfiguration, hvert eksportformat og hvert sideformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
     },
   ],
 
@@ -257,27 +242,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp',
-      primaryAlt: 'Stort og lille størrelsessammenlignings­arbejdsark med tematiske billeder i forskellige størrelser, der viser ring om den store øvelse',
+      primaryAlt: 'Stor og lille opgave til print med tematiske billeder i forskellige størrelser, der viser sammenlign størrelse øvelse',
     },
     sampleGallery: [
       {
         src: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp',
-        alt: 'Størrelsessammenlignings­arbejdsark med forskellige billeder-tilstand, der viser distinkte objekter i forskellige størrelser',
-        caption: 'Forskellige Billeder-tilstand — brugerne sammenligner distinkte objekter til relativ størrelses­bedømmelse',
+        alt: 'Stor og lille opgave til print med forskellige billeder-tilstand, der viser distinkte objekter til størrelsesammenligning',
+        caption: 'Forskellige Billeder-tilstand — barnet sammenligner distinkte objekter og ordner efter størrelse',
       },
       {
         src: '/samples/danish/big%20small/Stort%20eller%20Lille%202.webp',
-        alt: 'Størrelsessammenlignings­arbejdsark med tre identiske billeder i forskellige størrelser til mellemstor-identifikation',
+        alt: 'Størrelse-opgave med tre identiske billeder i forskellige størrelser til mellemstor-identifikation',
         caption: '3 Identiske Billeder — tre kopier i forskellige størrelser muliggør ring om den mellemstore øvelse',
       },
       {
         src: '/samples/danish/big%20small/Stort%20eller%20Lille%203.webp',
-        alt: 'Størrelsessammenligning facit med markerede korrekte svar og indrammede billeder',
-        caption: 'Facit — korrekte svar markeret og ringet om til øjeblikkelig visuel verifikation',
+        alt: 'Facit til stor og lille opgave med markerede korrekte svar og indrammede billeder',
+        caption: 'Facit — korrekte svar markeret og ringet om til øjeblikkelig kontrol',
       },
     ],
     youtubeId: 'S2s2U6Nb7FI',
-    videoTitle: 'Sådan Opretter du Størrelsessammenlignings­arbejdsark med Fem Spørgsmålstyper — Trin-for-Trin Guide',
+    videoTitle: 'Sådan laver du stor og lille opgaver til print med fem opgavetyper — trin-for-trin guide',
   },
 };
 

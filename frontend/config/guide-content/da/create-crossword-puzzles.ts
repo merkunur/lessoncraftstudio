@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab krydsordspuslespil',
+    primaryKeyword: 'lav krydsord til børn',
     secondaryKeywords: [
-      'krydsordspuslespil generator til børn',
-      'printbar krydsord maker',
-      'krydsordspuslespil til salg',
-      'tilpasset krydsord med billedledetråde',
+      'kryds og tværs generator til print',
+      'printbare krydsord til børn med billedledetråde',
+      'krydsord til salg på Etsy.dk',
+      'lav kryds og tværs med billeder',
     ],
     lsiKeywords: [
-      'billedledetråd krydsord arbejdsark',
-      'flersprogede krydsordspuslespil',
-      'ordforråd krydsord for børn',
-      'sælg krydsordsbøger på KDP',
-      'Etsy krydsord printables',
-      'kommerciel licens puslespilværktøj',
+      'billedledetråd krydsord til indskoling',
+      'flersprogede krydsord til print',
+      'ordforråd kryds og tværs for børn',
+      'sælg krydsordshæfter på Amazon KDP',
+      'Etsy.dk krydsord printbare opgaver',
+      'kommerciel licens krydsord-værktøj',
     ],
-    titleTag: 'Skab krydsordspuslespil — Trin-for-trin-guide',
-    metaDescription: 'Skab krydsordspuslespil til børn med billedledetråde. Vælg temaer, generér krydsende gitter, nummererede ledetråde, facit og sælg på Etsy og KDP.',
+    titleTag: 'Lav krydsord til børn — Trin-for-trin sælgerguide',
+    metaDescription: 'Lav kryds og tværs til børn med billedledetråde. Vælg temaer, generér krydsende gitter, facit og sælg på Etsy.dk, Saxo.com og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du krydsordspuslespil til børn',
-    tagline: 'En trin-for-trin vejledning til at skabe tematiske krydsordspuslespil med billedledetråde du kan sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Krydsordspuslespil er et af de mest genkendelige og elskede puslespilformater i verden — og børnekrydsords-markedet vokser hurtigt. Sælgere lister dem til ordforrådsforstærkning. Forældre bruger dem til staveøvelse. Tutorer bruger dem til at gøre ordstudier til et spil frem for en drilleopgave. Denne guide fører dig gennem hele skabelsesprocessen med krydsordspuslespil-generatoren — fra at vælge mellem billedbaserede ledetråde og tilpassede ordlister til at konfigurere gitterlayout, gennemgå nummererede ledetråde og eksportere trykklare PDF-filer med facit. Generatoren understøtter 11 sprog, hvilket gør flersprogede krydsordsprodukter til en realistisk og differentieret niche. Uanset om du bygger dit første puslespilprodukt eller udvider til krydsordsbøger til Amazon KDP, vil du have et færdigt, professionelt krydsordspuslespil klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav krydsord og kryds og tværs til børn',
+    tagline: 'En trin-for-trin vejledning til at lave tematiske krydsord med billedledetråde du kan sælge på Etsy.dk, Amazon KDP og Saxo.com',
+    description: 'Kryds og tværs er et af de mest genkendelige og elskede puslespilformater i Danmark — og børnekrydsords-markedet vokser hurtigt. Sælgere lister dem til ordforrådsforstærkning. Forældre bruger dem til staveøvelse. Tutorer bruger dem til at gøre ordstudier til et spil frem for en drilleopgave. Denne guide fører dig gennem hele skabelsesprocessen med krydsordspuslespil-generatoren — fra at vælge mellem billedbaserede ledetråde og tilpassede ordlister til at konfigurere gitterlayout, gennemgå nummererede ledetråde og eksportere trykklare PDF-filer med facit. Generatoren understøtter 11 sprog, hvilket gør flersprogede krydsordsprodukter til en realistisk og differentieret niche. Uanset om du bygger dit første puslespilprodukt eller udvider til krydsordsbøger til Amazon KDP, vil du have et færdigt, professionelt krydsordspuslespil klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Krydsordspuslespil indtager en unik position på det pædagogiske printable-marked. I modsætning til ordsøgninger hvor børn scanner efter skjulte ord kræver krydsord aktiv genkaldelse og bogstav-for-bogstav stavenøjagtighed. Et barn der løser et krydsord skal identificere hver billedledetråd, genkalde det korrekte ord og skrive hvert bogstav i sekvens ind i krydsende gitterfirkanter. Den kombination af visuel genkendelse, ordforråds-genkaldelse og stavepræcision gør krydsord til et af de stærkeste ordforrådsopbygningsværktøjer tilgængelige i printbart format.\n\nBørnekrydsords-kategorien drager også fordel af stærk brandgenkendelse. Voksne voksede op med at løse krydsord i aviser og magasiner, så forældre og sælgere genkender instinktivt formatet og stoler på dets pædagogiske værdi. Den indbyggede fortrolighed betyder mindre overbevisning krævet i dine produktlistninger — købere ved allerede hvad et krydsord er og hvorfor det fungerer.\n\nHvad der gør denne generator særligt kraftfuld er billedledetråds-formatet. Traditionelle krydsord bruger tekstbaserede ledetrådsbeskrivelser, som kræver læseevne som yngre børn muligvis ikke har. Billedbaserede krydsord erstatter tekstledetråde med billeder — et barn ser et billede af en kat og skriver K-A-T ind i gitteret. Dette gør krydsord tilgængelige for børn helt ned til børnehaveklasse-alder, og udvider dramatisk dit potentielle køberpublikum sammenlignet med tekst-kun krydsordsprodukter.\n\nKrydsordspuslespil-generatoren håndterer det komplekse algoritmiske arbejde for dig. Den placerer 8 ord i et krydsende gitter hvor ord deler fælles bogstaver ved krydsningspunkter, tildeler nummererede positioner til hvert ord, genererer billedledetråde der matcher gitternumre og producerer et komplet facit. To skabelsestilstande — temabaseret billedvalg og tilpasset ordliste med tekstledetråde — giver dig fleksibilitet til både visuelle produkter rettet mod små børn og tekstledetråd-produkter til ældre løsere.\n\nSprogunderstøttelse er en stor differentiator. Fordi krydsordsvarene ER ordene, ændrer et sprogskift hvert svar i gitteret. Et tysk krydsord til et dyretema bruger helt anderledes ordforråd end et engelsk. Dette åbner flersprogede produktlinjer som de fleste konkurrenter aldrig forsøger.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvepuslespil, teste begge ledetrådstilstande og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Kryds og tværs indtager en unik position på det pædagogiske printbare marked. I modsætning til ordleg hvor børn scanner efter skjulte ord kræver krydsord aktiv genkaldelse og bogstav-for-bogstav stavenøjagtighed. Et barn der løser et krydsord skal identificere hver billedledetråd, genkalde det korrekte ord og skrive hvert bogstav i sekvens ind i krydsende gitterfirkanter. Den kombination af visuel genkendelse, ordforråds-genkaldelse og stavepræcision gør krydsord til et af de stærkeste ordforrådsopbygningsværktøjer tilgængelige i printbart format.\n\nBørnekrydsords-kategorien drager også fordel af stærk brandgenkendelse. Voksne voksede op med at løse krydsord i aviser og magasiner, så forældre og sælgere genkender instinktivt formatet og stoler på dets pædagogiske værdi. Den indbyggede fortrolighed betyder mindre overbevisning krævet i dine produktlistninger — købere ved allerede hvad et krydsord er og hvorfor det fungerer.\n\nHvad der gør denne generator særligt kraftfuld er billedledetråds-formatet. Traditionelle krydsord bruger tekstbaserede ledetrådsbeskrivelser, som kræver læseevne som yngre børn muligvis ikke har. Billedbaserede krydsord erstatter tekstledetråde med billeder — et barn ser et billede af en kat og skriver K-A-T ind i gitteret. Dette gør krydsord tilgængelige for børn helt ned til børnehaveklasse-alder, og udvider dramatisk dit potentielle køberpublikum sammenlignet med tekst-kun krydsordsprodukter.\n\nKrydsordspuslespil-generatoren håndterer det komplekse algoritmiske arbejde for dig. Den placerer 8 ord i et krydsende gitter hvor ord deler fælles bogstaver ved krydsningspunkter, tildeler nummererede positioner til hvert ord, genererer billedledetråde der matcher gitternumre og producerer et komplet facit. To skabelsestilstande — temabaseret billedvalg og tilpasset ordliste med tekstledetråde — giver dig fleksibilitet til både visuelle produkter rettet mod små børn og tekstledetråd-produkter til ældre løsere.\n\nSprogunderstøttelse er en stor differentiator. Fordi krydsordsvarene ER ordene, ændrer et sprogskift hvert svar i gitteret. Et tysk krydsord til et dyretema bruger helt anderledes ordforråd end et engelsk. Dette åbner flersprogede produktlinjer som de fleste konkurrenter aldrig forsøger.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvepuslespil, teste begge ledetrådstilstande og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

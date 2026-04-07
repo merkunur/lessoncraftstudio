@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab labyrint-arbejdsark',
+    primaryKeyword: 'lav labyrinter til print',
     secondaryKeywords: [
-      'labyrint-arbejdsark generator',
-      'printbare labyrint-aktivitetsark',
-      'labyrint-puslespil til børn til salg',
-      'tilpassede labyrint-arbejdsark med facit',
+      'labyrint-generator til børn med billeder',
+      'printbare labyrinter til salg på Etsy.dk',
+      'labyrint-puslespil til børn til print',
+      'tilpassede labyrinter med facit til indskoling',
     ],
     lsiKeywords: [
-      'billedsti-arbejdsark til børn',
-      'rumlig ræsonnering aktiviteter for børn',
-      'printbare puslespil-arbejdsark Etsy',
-      'Amazon KDP labyrint-aktivitetsbøger',
-      'labyrint-arbejdsark med tematiske billeder',
+      'billedsti-opgaver til børnehaveklasse',
+      'rumlig ræsonnering aktiviteter til børn',
+      'printbare labyrint-opgaver til Etsy.dk',
+      'Amazon KDP labyrint-aktivitetshæfter',
+      'labyrinter med tematiske billeder til print',
       'kommerciel licens labyrint-generator',
     ],
-    titleTag: 'Skab labyrint-arbejdsark — Trin-for-trin guide',
-    metaDescription: 'Skab labyrint-arbejdsark med 3 spiltilstande, tematiske billeder og facit. Generér printbare labyrint-aktivitetsark til salg på Etsy og Amazon KDP.',
+    titleTag: 'Lav labyrinter til print — Trin-for-trin sælgerguide',
+    metaDescription: 'Lav labyrinter til print med 3 spiltilstande, tematiske billeder og facit. Sælg printbare labyrint-opgaver på Etsy.dk, Saxo.com og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du labyrint-arbejdsark og aktivitetsark',
-    tagline: 'En trin-for-trin vejledning til at skabe tematiske labyrint-arbejdsark på tværs af tre distinkte spiltilstande — klar til salg på Etsy, Amazon KDP og Gumroad',
-    description: 'Labyrinter er et af de mest universelt tiltalende puslespilformater for børn. De opbygger rumlig ræsonnering, problemløsningsevner og tålmodighed — og de sælger konsekvent på alle printable-markedspladser. Denne guide fører dig igennem hele skabelsesprocessen med billedsti-labyrint-generatoren, som tilbyder tre fundamentalt forskellige spiltilstande: Billedsti til visuel stifølgning, Klassisk labyrint til vægbaseret navigation med samle-tælling, og Vælg den rigtige sti til retningsbestemte beslutningstagning. Hver tilstand producerer en distinkt produkttype fra ét enkelt værktøj. Du vil lære at konfigurere gitterstørrelser, tildele tematiske billedroller, tilpasse vægudseende og eksportere trykklare PDF\'er med automatisk facit. Uanset om du bygger dit første labyrintprodukt eller udvider et puslespil-arbejdsark-katalog, dækker denne vejledning enhver indstilling og strategi du behøver.',
+    title: 'Lav labyrinter og billedsti-opgaver til print',
+    tagline: 'En trin-for-trin vejledning til at lave tematiske labyrinter på tværs af tre distinkte spiltilstande — klar til salg på Etsy.dk, Amazon KDP og Saxo.com',
+    description: 'Labyrinter er et af de mest universelt tiltalende puslespilformater for børn i alle aldre. De opbygger rumlig ræsonnering, problemløsningsevner og tålmodighed — og de sælger konsekvent på alle printable-markedspladser. Denne guide fører dig igennem hele skabelsesprocessen med billedsti-labyrint-generatoren, som tilbyder tre fundamentalt forskellige spiltilstande: Billedsti til visuel stifølgning, Klassisk labyrint til vægbaseret navigation med samle-tælling, og Vælg den rigtige sti til retningsbestemte beslutningstagning. Hver tilstand producerer en distinkt produkttype fra ét enkelt værktøj. Du vil lære at konfigurere gitterstørrelser, tildele tematiske billedroller, tilpasse vægudseende og eksportere trykklare PDF\'er med automatisk facit. Uanset om du bygger dit første labyrintprodukt eller udvider et puslespil-arbejdsark-katalog, dækker denne vejledning enhver indstilling og strategi du behøver.',
   },
 
-  introduction: 'Labyrinter tapper ind i noget fundamentalt omkring hvordan børn lærer. At følge en sti fra start til slut kræver rumlig bevidsthed, fremadrettet planlægning og evnen til at komme sig fra forkerte sving — færdigheder der overføres direkte til matematik, læseforståelse og navigation i den virkelige verden. Den pædagogiske dybde gør labyrint-arbejdsark til en stærk produktkategori med helårsefterspørgsel fra forældre, købere og læringscentre.\n\nDet der adskiller billedsti-labyrint-generatoren fra basale labyrintværktøjer er dens tre distinkte spiltilstande. Billedsti generator visuelle stifølgningsaktiviteter hvor børn sporer en rute mellem tematiske billeder. Klassisk labyrint genererer traditionelle vægbaserede labyrinter med samleobjekt-billeder spredt udover — der kombinerer navigationsfærdigheder med tælleøvelse. Vælg den rigtige sti præsenterer retningsbestemte labyrinter med flere rutemuligheder hvor kun én fører til den korrekte destination. Hver tilstand generator et fundamentalt anderledes produkt, der giver dig tre gange katalogvariationen fra en enkelt generator.\n\nUd over tilstandsvalg tilbyder generatoren omfattende tilpasning: seks gitterstørrelser fra 15x15 til 20x20, konfigurerbart antal stier og stilængder, vægfarve- og tykkelseskontrol, fem distinkte billedroller (Start, Slut, Sti, Distraktor, Dekoration) og 100+ tematiske billedsæt. Resultatet er et værktøj der kan producere tusindvis af unikke labyrintvariationer — hver enkelt et potentielt produkt.\n\nHver funktion beskrevet i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvelabyrinter i alle tre tilstande, teste enhver konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Labyrinter tapper ind i noget grundlæggende omkring hvordan børn i børnehaveklasse og indskoling lærer. At følge en sti fra start til slut kræver rumlig bevidsthed, fremadrettet planlægning og evnen til at komme sig fra forkerte sving — færdigheder der overføres direkte til regneopgaver, læseforståelse og navigation i den virkelige verden. Den pædagogiske dybde gør labyrint-arbejdsark til en stærk produktkategori med helårsefterspørgsel fra forældre, købere og læringscentre.\n\nDet der adskiller billedsti-labyrint-generatoren fra basale labyrintværktøjer er dens tre distinkte spiltilstande. Billedsti generator visuelle stifølgningsaktiviteter hvor børn sporer en rute mellem tematiske billeder. Klassisk labyrint genererer traditionelle vægbaserede labyrinter med samleobjekt-billeder spredt udover — der kombinerer navigationsfærdigheder med tælleøvelse. Vælg den rigtige sti præsenterer retningsbestemte labyrinter med flere rutemuligheder hvor kun én fører til den korrekte destination. Hver tilstand generator et fundamentalt anderledes produkt, der giver dig tre gange katalogvariationen fra en enkelt generator.\n\nUd over tilstandsvalg tilbyder generatoren omfattende tilpasning: seks gitterstørrelser fra 15x15 til 20x20, konfigurerbart antal stier og stilængder, vægfarve- og tykkelseskontrol, fem distinkte billedroller (Start, Slut, Sti, Distraktor, Dekoration) og 100+ tematiske billedsæt. Resultatet er et værktøj der kan producere tusindvis af unikke labyrintvariationer — hver enkelt et potentielt produkt.\n\nHver funktion beskrevet i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvelabyrinter i alle tre tilstande, teste enhver konfiguration og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

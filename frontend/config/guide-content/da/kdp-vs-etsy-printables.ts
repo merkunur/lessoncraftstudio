@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP vs Etsy printables',
+    primaryKeyword: 'KDP vs Etsy for printables',
     secondaryKeywords: [
       'Amazon KDP vs Etsy til salg af printables',
       'hvor skal man sælge printbare arbejdsark online',
@@ -17,8 +17,8 @@ const content: GuideContent = {
       'multi-platform salgsstrategi tværplatform printable-forretning',
       'printbare arbejdsark aktivitetsbog malebog puslespilbog markedsplads',
     ],
-    titleTag: 'KDP vs Etsy printables — Sammenligningsguide',
-    metaDescription: 'KDP vs Etsy for printable-sælgere. Sammenlign gebyrstrukturer, produktformater, trafikmekanikker og lær multi-platformstrategier for din printable.',
+    titleTag: 'KDP vs Etsy for printables — Hvad er bedst for din forretning?',
+    metaDescription: 'KDP vs Etsy.dk for sælgere af opgaver til print. Sammenlign gebyrer, produktformater, trafikmekanikker og multi-platformstrategier for passiv indkomst.',
   },
 
   hero: {

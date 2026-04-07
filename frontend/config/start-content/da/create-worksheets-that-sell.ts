@@ -2,29 +2,29 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'skab arbejdsark der saelger',
+    primaryKeyword: 'lav opgaver til print der sælger Etsy.dk KDP',
     secondaryKeywords: [
-      'lav professionelle arbejdsark',
-      'lave arbejdsark til salg paa Etsy',
-      'arbejdsarksoprettelse for saelgere',
-      'designtips til printbare arbejdsark',
+      'lav professionelle opgaver til print sælg online',
+      'lave opgaver til print til salg på Etsy.dk',
+      'opgaver til print for sælgere printbar forretning',
+      'designtips til printbare opgaver passiv indkomst',
     ],
     lsiKeywords: [
-      'kvalitetsstandarder for arbejdsark',
-      'automatisk facitgenerering',
-      'workflow for printbare produkter',
-      'pakkestrategi for arbejdsark',
-      'tematiske arbejdsarksbilleder',
-      'trykfaerdige PDF-arbejdsark',
+      'kvalitetsstandarder for opgaver til print',
+      'automatisk facitgenerering regneopgaver ordleg',
+      'workflow for printbare produkter sidegesjæft',
+      'pakkestrategi for opgaver til print',
+      'tematiske opgavebilleder til print',
+      'trykfærdige PDF-opgaver kommerciel licens',
     ],
-    titleTag: 'Skab arbejdsark der saelger — Professionel guide | Online',
-    metaDescription: 'Saadan laver du arbejdsark der saelger paa Etsy, Amazon KDP og Gumroad. Trin-for-trin-guide om temabilleder, facit, prissaetning og annonceringsoptimering.',
+    titleTag: 'Lav opgaver til print der sælger — professionel guide',
+    metaDescription: 'Sådan laver du opgaver til print der sælger på Etsy.dk, Amazon KDP og Gumroad. Guide om temabilleder, facit, prissætning og annonceringsoptimering.',
   },
 
   hero: {
-    title: 'Saadan laver du professionelle arbejdsark der saelger',
-    tagline: 'Produktskabelsens spilleplan der adskiller arbejdsark koebere vaelger fra arbejdsark koebere scroller forbi',
-    description: 'Denne guide daekker hvert trin i at skabe printbare arbejdsark der opfylder professionelle standarder og saelger konsistent. Du vil laere hvad der goer et arbejdsark professionelt, hvordan du bruger generatorer til at eliminere designbarrierer, hvordan du bygger pakker der maksimerer indtaegter, og hvordan du tester dine produkter foer du lister dem. Uanset om du saelger paa Etsy, Amazon KDP, Gumroad eller andre platforme — kvaliteten af dine arbejdsark afgoer om koebere klikker "laeg i kurv" eller fortsaetter med at scrolle.',
+    title: 'Sådan laver du professionelle opgaver til print der sælger',
+    tagline: 'Produktskabelsens spilleplan der adskiller opgaver til print købere vælger fra dem de scroller forbi',
+    description: 'Denne guide dækker hvert trin i at skabe printbare opgaver til print der opfylder professionelle standarder og sælger konsistent. Du vil laere hvad der goer et arbejdsark professionelt, hvordan du bruger generatorer til at eliminere designbarrierer, hvordan du bygger pakker der maksimerer indtaegter, og hvordan du tester dine produkter foer du lister dem. Uanset om du saelger paa Etsy, Amazon KDP, Gumroad eller andre platforme — kvaliteten af dine arbejdsark afgoer om koebere klikker "laeg i kurv" eller fortsaetter med at scrolle.',
   },
 
   introduction: 'Markedet for printbare arbejdsark er konkurrencepraeget. Tusindvis af saelgere lister nye produkter hver uge. Alligevel deler majoriteten af disse produkter det samme problem: de ser amatoragtige ud. Inkonsistent afstand, manglende facit, intetsigende layouts og generiske clipart-billeder signalerer lav indsats — og koebere lagger maerke til det.\n\nDe saelgere der tjaener konsistent indkomst fra arbejdsark er dem der behandler produktskabelse som et haandvaerk. Deres arbejdsark har rene layouts, korrekte facit, visuelt tiltalende temaer og professionel trykformatering. Disse er ikke designgenier — de er saelgere der forstaar hvad koebere evaluerer foer de koeber, og som bruger de rigtige vaerktojer til at opfylde disse standarder effektivt.\n\nDenne guide handler om at bygge bro over det kvalitetsgab. Du vil laere praecis hvad der goer et arbejdsark \"professionelt\" i koebernes oejne, hvordan arbejdsarksgeneratorer haandterer den tekniske kompleksitet saa du kan fokusere paa produktstrategi, og det specifikke workflow der producerer saelgbare produkter paa minutter snarere end timer.\n\nEn vigtig note: hver arbejdsarksgenerator naevnt i denne guide tilbyder en gratis proeveversion med vandmaerke. Du kan teste hele skabelsesprocessen, evaluere outputkvaliteten og lave proeverarbeidsark foer du koeber en kommerciel licens. Der er nul risiko ved at foelge med.',

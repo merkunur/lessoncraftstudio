@@ -2,31 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'algebrapuslespil arbejdsark generator',
+    primaryKeyword: 'regneopgaver generator',
     secondaryKeywords: [
-      'printbare algebrapuslespil med billeder til Etsy sælgere',
-      'algebraiske ligningsarbejdsark generator til Amazon KDP',
-      'algebrapuslespil med billeder sælg på Gumroad',
-      'algebrapuslespil printables kommerciel licens',
+      'lav regneopgaver',
+      'matematik arbejdsark til print',
+      'opgavegenerator matematik',
+      'regneopgaver på mål',
     ],
     lsiKeywords: [
-      'digitale algebraprodukter online forretning',
-      'printbare ligningspuslespil business',
-      'kommercielt brug algebraisk arbejdsark generator',
+      'regnearter',
+      'hovedregning',
+      'regning',
+      'folkeskole',
+      'facit',
+      'PDF',
     ],
-    titleTag: 'Algebrapuslespil Generator | Matematikarbejdsark Generator',
-    metaDescription: 'Opret algebrapuslespil arbejdsark til salg på Etsy, KDP og Gumroad. Billeder som variabler, 4 sværhedsgrader, unikke løsninger. $49 engangsbetaling.',
+    titleTag: 'Regneopgaver generator | Lav matematikopgaver til print',
+    metaDescription: 'Lav regneopgaver på mål med automatisk facitliste. 300 DPI PDF, 11 sprog. Prøv gratis — kommerciel licens til Etsy & KDP.',
   },
 
   hero: {
-    title: 'Algebrapuslespil Arbejdsark Generator til Visuelle Ligninger',
-    tagline: 'Gør tidlig algebra til et visuelt eventyr — billeder bliver variabler, og hvert puslespil har præcis én løsning.',
+    title: 'Regneopgaver generator — lav matematikopgaver til print med facit',
+    tagline: 'Lav regneopgaver på mål med billeder som variabler, automatisk facitliste og printklare PDF\'er til folkeskolen.',
     description:
-      'Opret engagerende algebraiske billedpuslespil arbejdsark, hvor billeder fungerer som ukendte variabler i et system af ligninger. Brugerne løser koblede ligninger for at bestemme den numeriske værdi af hvert billede — så forvandles abstrakt algebra til en konkret, visuel tankeproces. Vælg blandt fire sværhedsgrader: Meget Let og Let bruger to symboler, Middel introducerer tre symboler, og Svær udfordrer brugerne med fire simultane ukendte. Vælg opgaver med kun addition eller bland addition og subtraktion for avanceret øvelse, og indstil talintervallet præcist fra 0 til 20 med en valgfri omskifter for negative resultater. Den indbyggede algebraiske løser garanterer, at hvert puslespil har præcis én korrekt løsning — ingen tvetydighed, ingen gætteri. Gennemse mere end 3.100 omhyggeligt udvalgte illustrationer i 104 temaer at bruge som algebraiske symboler, eller upload egne billeder for et brandetilpasset udseende. Hvert arbejdsark genererer en automatisk facitliste, og du kan eksportere trykklare PDF\'er og JPEG\'er med 400+ DPI i Letter-, A4- eller brugerdefinerede formater. Uanset om du sælger tematiske puslespilspakker på Etsy.dk, sammensætter progressive algebrabøger til Amazon KDP, eller opretter niveauinddelte matematikstationer til din produktlinje — Matematikarbejdsark Generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav regneopgaver til print med denne opgavegenerator matematik, der forvandler abstrakt algebra til et visuelt puslespil. Billeder fungerer som ukendte variabler i et system af ligninger — børnene løser koblede regnearter for at bestemme den numeriske værdi af hvert billede. Det er hovedregning kombineret med logisk tænkning i én engagerende øvelse. Vælg blandt fire sværhedsgrader: Meget Let og Let bruger to symboler, Middel introducerer tre, og Svær udfordrer med fire simultane ukendte. Vælg opgaver med kun addition eller bland addition og subtraktion, og indstil talintervallet præcist fra 0 til 20. Den indbyggede algebraiske løser garanterer, at hvert puslespil har præcis én korrekt løsning. Det danske marked for matematik arbejdsark til print er næsten ubesat. Med 5,8 millioner dansktalende og stigende interesse for printbare regneopgaver på Etsy.dk er søgeord som \"regneopgaver generator\" og \"lav regneopgaver\" nicher med lav konkurrence og høj købsintention. Brug generatoren til at lave regneopgaver på mål til folkeskolen — fra børnehaveklasse (indskoling) til mellemtrin. Udforsk mere end 3.100 illustrationer i 104 temaer som algebraiske symboler, eller upload egne billeder. Hvert arbejdsark genererer en automatisk facitliste, og du eksporterer trykklare PDF\'er med 400+ DPI i Letter-, A4- eller brugerdefinerede formater. Uanset om du sælger matematikpakker på Etsy.dk, sammensætter regnebøger til Amazon KDP, eller laver niveauinddelte regneark — denne regneopgaver generator leverer professionelle resultater på få minutter. Prøv gratis med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Algebrapuslespil Arbejdsark i 5 Trin',
+    title: 'Sådan laver du regneopgaver til print i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +60,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Algebrapuslespil Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i regneopgaver-generatoren',
     features: [
       {
         title: 'Algebraisk billedpuslespilformat',
@@ -103,7 +106,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Algebrapuslespil Arbejdsark Online',
+    title: 'Sådan sælger du regneopgaver til print online',
     cases: [
       {
         title: 'Tematiske algebrapuslespilspakker på Etsy.dk',
@@ -140,64 +143,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvordan fungerer det algebraiske billedpuslespilformat?',
+      question: 'Kan jeg sælge disse regneopgaver på Etsy?',
       answer:
-        'Hvert puslespil præsenterer et system af koblede ligninger, hvor billeder forestiller ukendte variabler. For eksempel: et tosymbolspuslespil kan vise: æble + æble = 6, æble + banan = 8. Brugerne udleder, at hvert æble er 3 og hver banan 5. Højere sværhedsgrader tilføjer flere symboler og flere ligninger, hvilket generator ægte flervariable algebraiske puslespil — alt uden abstrakt bogstavnotation. Dette visuelle format gør algebra tilgængeligt for brugere allerede fra 1. klasse.',
+        'Ja. Med en kommerciel licens har du alle rettigheder til at sælge dine regneopgaver som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som printbare produkter på Gumroad, eller via enhver anden salgskanal. Der er ingen royalties per salg, ingen månedlige gebyrer og ingen begrænsning på antallet af matematik arbejdsark, du producerer eller sælger.',
     },
     {
-      question: 'Hvad betyder de fire sværhedsgrader?',
+      question: 'Hvordan laver jeg regneopgaver til print?',
       answer:
-        'Meget Let og Let bruger to billedsymboler i et lille system af ligninger — perfekt til at introducere konceptet. Middel tilføjer et tredje symbol med tre koblede ligninger, hvilket kræver flere deduktionsskridt. Svær præsenterer fire symboler fordelt over fire simultane ligninger, hvilket udfordrer brugerne til at spore flere ukendte samtidig. Hvert niveau producerer et system, som generatorens løser har verificeret har præcis én løsning. For sælgere tilbyder denne firedelte struktur muligheden for at oprette niveauspecifikke sæt eller progressive pakker.',
+        'Åbn regneopgaver generatoren, vælg sværhedsgrad (Meget Let til Svær), vælg regnearter (kun addition eller blandet addition og subtraktion), indstil talintervallet fra 0 til 20, vælg billeder fra 104 temaer, og klik Generer. Facitlisten oprettes automatisk. Eksporter som trykfærdig PDF med 400+ DPI — hele processen tager under to minutter.',
     },
     {
-      question: 'Hvilke matematikoperationer er tilgængelige?',
+      question: 'Er regneopgaverne egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Du kan vælge mellem Kun Addition, hvor ligningerne udelukkende bruger addition, eller Addition og Subtraktion, hvor begge operationer blandes inden for samme puslespil. Kun Addition er perfekt for yngre brugere, mens blandede operationer tilføjer kompleksitet for avancerede brugere og generator mere varierede ligningsstrukturer.',
+        'Ja. Meget Let-niveauet med to symboler og kun addition er perfekt til børnehaveklasse og 1. klasse (indskoling). Middel-niveauet med tre symboler passer til 2.–3. klasse, og Svær med fire simultane ukendte udfordrer mellemtrin. Du kan lave regneopgaver på mål for hvert klassetrin i folkeskolen med ét klik.',
     },
     {
-      question: 'Hvilke talintervaller kan jeg indstille for puslespillene?',
+      question: 'På hvor mange sprog kan jeg lave regneopgaver?',
       answer:
-        'Du indstiller et minimum- og maksimumværdi for løsningerne, med et standardinterval på 0 til 20. Mindre intervaller (f.eks. 1–5) generator enklere puslespil for begyndere, mens større intervaller giver mere udfordrende beregninger inden for ligningerne. Du kan også aktivere Tillad Negative Resultater for avancerede brugere, der er klar til at øve med negative tal.',
+        'Regneopgaverne er helt visuelle — indholdet bruger billeder og tal, ingen ord. Et arbejdsark oprettet på ét sprog fungerer på alle sprog. Appens brugerflade understøtter 11 sprog: dansk, svensk, norsk, finsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk og engelsk. Dine matematik arbejdsark til print kan sælges globalt uden oversættelse.',
     },
     {
-      question: 'Har hvert puslespil virkelig præcis én løsning?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Ja. Generatoren indeholder en indbygget algebraisk løser, der validerer hvert puslespil, før det placeres på arbejdsarket. Hvis et tilfældigt genereret system skulle have flere løsninger eller ingen løsning, forkaster generatoren det og opretter et nyt system. Du behøver aldrig kontrollere matematikken manuelt — hvert puslespil er garanteret unikt løseligt. Denne indbyggede validering er en enorm tidsbesparelse for sælgere, der producerer store puslespilsbatcher.',
+        'Ja. Klik på knappen Generer Facit for at oprette en løst version, der afslører den numeriske værdi af hvert billedsymbol. Facitlisten kan forhåndsvises på skærmen og downloades som en separat JPEG- eller PDF-fil. At inkludere facit i hver produktlisting øger den oplevede værdi for købere.',
     },
     {
-      question: 'Hvordan fungerer billeder som algebraiske variabler?',
+      question: 'Har hvert puslespil præcis én løsning?',
       answer:
-        'Hvert billede, du vælger fra biblioteket (eller uploader selv), tildeles at repræsentere en ukendt variabel i ligningssystemet. Det samme billede repræsenterer altid den samme værdi inden for et puslespil. Brugerne ser genkendelige billeder i stedet for abstrakte bogstaver, hvilket gør variabelbegrebet konkret og tilgængeligt — selv for unge brugere, der aldrig har set formel algebra.',
-    },
-    {
-      question: 'Genererer generatoren automatisk facit?',
-      answer:
-        'Ja. Klik på knappen Generer Facit for at oprette en løst version, der afslører den numeriske værdi af hvert billedsymbol. Du kan forhåndsvise facit på skærmen og downloade det som en separat JPEG- eller PDF-fil ved siden af brugerens arbejdsark. At inkludere facit i hver produktlisting tilfører oplevet værdi for købere.',
-    },
-    {
-      question: 'Er algebrapuslespil arbejdsarkene sprogfølsomme?',
-      answer:
-        'Nej. Disse arbejdsark er helt visuelle — indholdet bruger billeder og tal, ingen ord. Et puslespil oprettet i en hvilken som helst sprogindstilling fungerer globalt. Sprogindstillingen ændrer kun appens brugerfladeettiketter, ikke arbejdsarkets indhold. Denne sproguafhængige egenskab er en ægte konkurrencefordel for sælgere: en enkelt algebrapuslespil-PDF kan tilbydes på markedspladser i Nordamerika, Europa og Asien uden tilpasning.',
+        'Ja. Den indbyggede algebraiske løser validerer hvert puslespil, før det placeres på arbejdsarket. Hvis et genereret system har flere løsninger eller ingen løsning, forkaster generatoren det og opretter et nyt. Du behøver aldrig kontrollere hovedregningen manuelt — hvert puslespil er garanteret unikt løseligt.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du har adgang til alle funktioner — alle fire sværhedsgrader, begge operationstilstande, det komplette billedbibliotek, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste et kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Hvad er inkluderet i den kommercielle licens?',
-      answer:
-        'Den kommercielle licens fjerner vandmærket fra alle downloads og giver dig ubegrænsede rettigheder til at sælge de arbejdsark, du opretter — på Etsy.dk, Amazon KDP, Gumroad, din egen hjemmeside eller enhver anden platform. Der er ingen royalties per salg, ingen månedlige gebyrer og ingen begrænsning på antallet af arbejdsark, du producerer eller sælger.',
-    },
-    {
-      question: 'Kan jeg sælge arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fuldstændige rettigheder til at sælge dine algebrapuslespil arbejdsark som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som printbare produkter på Gumroad, eller via enhver anden salgskanal. Mange sælgere opretter sværhedsgraderede pakker og progressive algebrabøger, der genererer konstante indtægter.',
+        'Ja. Du har adgang til alle funktioner — alle fire sværhedsgrader, begge regnearter, det komplette billedbibliotek, facitgenerering og alle eksportformater — uden at oprette en konto, indtaste et kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver sværhedsgrad, hver operationstilstand, hvert tema og hvert eksportformat, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet opfylder dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste hver sværhedsgrad, hvert tema og hvert eksportformat, før du køber. Den gratis prøveversion er returpolitikken — prøv generatoren gratis, før du anskaffer en licens.',
     },
   ],
 
@@ -257,23 +240,23 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
-      primaryAlt: 'Algebraisk billedpuslespil arbejdsark med billeder, der forestiller ukendte variabler i et system af ligninger',
+      primaryAlt: 'Regneopgaver til print med billeder som variabler og automatisk facitliste',
     },
     sampleGallery: [
       {
         src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
-        alt: 'Meget Let algebrapuslespil arbejdsark med to billedsymboler og kun additionsligninger',
-        caption: 'Meget Let niveau — to billedsymboler i et enkelt ligningssystem med kun addition',
+        alt: 'Regneopgaver generator — let niveau med to billedsymboler og additionsopgaver',
+        caption: 'Meget Let niveau — regneopgaver på mål med to symboler og kun addition',
       },
       {
         src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp',
-        alt: 'Middel algebrapuslespil arbejdsark med tre billedsymboler og blandede operationer',
-        caption: 'Middel niveau — tre symboler i koblede ligninger med addition og subtraktion',
+        alt: 'Matematik arbejdsark til print med tre symboler og blandede regnearter',
+        caption: 'Middel niveau — regneopgaver med tre symboler, addition og subtraktion',
       },
       {
         src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp',
-        alt: 'Svært algebrapuslespil arbejdsark med fire billedsymboler i et system af fire ligninger',
-        caption: 'Svær niveau — fire simultane ukendte for avanceret algebraisk problemløsning',
+        alt: 'Opgavegenerator matematik — svært niveau med fire ukendte og facit',
+        caption: 'Svær niveau — fire simultane ukendte til hovedregning for mellemtrin',
       },
     ],
     youtubeId: '-JIawojGNr0',

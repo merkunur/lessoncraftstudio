@@ -2,30 +2,33 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'labyrint arbejdsark generator',
+    primaryKeyword: 'labyrint generator gratis online',
     secondaryKeywords: [
-      'labyrint arbejdsark generator for sælgere',
-      'lav billedsti labyrint arbejdsark til salg',
-      'printbar labyrintpuslespil generator kommerciel brug',
-      'labyrintaktivitet arbejdsark generator til KDP og Etsy',
+      'labyrinter gratis til print',
+      'labyrint prøv gratis',
+      'lav labyrint gratis',
     ],
     lsiKeywords: [
-      'tre spiltilstande billedsti klassisk labyrint vælg vej',
-      'LPF longest path first algoritme vægbaseret labyrint generator',
-      'automatisk facit rosa cirkel løsningsvej labyrint generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'labyrint',
+      'vej',
+      'sti',
+      'børn',
     ],
-    titleTag: 'Billedsti Generator — Labyrint Arbejdsark Generator —...',
-    metaDescription: 'Lav labyrintarbejdsark med Billedsti, Klassisk Labyrint og Vælg den Rigtige Vej-tilstande, samlingsbilleder og. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis labyrint generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv labyrint-generatoren gratis online. Temabilleder, automatisk facit, 300 DPI PDF. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Billedsti Labyrint Generator',
-    tagline: 'Tretilstands labyrint arbejdsark generator med Billedsti (billedgitter vejfølgning), Klassisk Labyrint (LPF vægbaseret algoritme med samlingsbilleder og blindgyde-blokering) og Vælg den Rigtige Vej (trevejs retningslabyrint), fem billedroller, tilpasbar vægdesign og helt visuelle labyrinter der sælger globalt uden oversættelse',
-    description: 'Lav professionelle labyrint- og vejarbejdsark med tre distinkte spiltilstande. Billedsti generator billedgitre, hvor brugerne følger den rigtige vej. Klassisk Labyrint genererer vægbaserede labyrinter med LPF-algoritmen, konfigurerbare gitterstørrelser 15×15 til 20×20, 1–3 veje med blindgyde-blokering, og tilpasbar vægfarve/tykkelse/gennemsigtighed. Samlingsbilleder spredes gennem korridorer. Vælg den Rigtige Vej præsenterer trevejslabyrinter med fire retningsmuligheder. Fem billedroller: Start, Mål, Vej, Distraktor og Dekoration. Hver tilstand genererer facit med rosa cirkler langs løsningsvejen. Vælg Vej tilføjer \"✓ KORREKT VEJ\". Klassisk Labyrint inkluderer samlingslegende. Helt visuelle labyrinter — universelt sælgbare uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
+    title: 'Gratis labyrint generator — prøv online med vandmærke',
+    tagline: 'Prøv labyrint-generatoren gratis online — tre spiltilstande, fem billedroller, tilpasbar vægdesign og automatisk facit. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv labyrint-generatoren gratis online — lav professionelle labyrinter og vejopgaver med tre distinkte spiltilstande. Billedsti generator billedgitre, hvor brugerne følger den rigtige vej. Klassisk Labyrint genererer vægbaserede labyrinter med LPF-algoritmen, konfigurerbare gitterstørrelser 15×15 til 20×20, 1–3 veje med blindgyde-blokering, og tilpasbar vægfarve/tykkelse/gennemsigtighed. Samlingsbilleder spredes gennem korridorer. Vælg den Rigtige Vej præsenterer trevejslabyrinter med fire retningsmuligheder. Fem billedroller: Start, Mål, Vej, Distraktor og Dekoration. Hver tilstand genererer facit med rosa cirkler langs løsningsvejen. Vælg Vej tilføjer \"✓ KORREKT VEJ\". Klassisk Labyrint inkluderer samlingslegende. Helt visuelle labyrinter — universelt sælgbare uden oversættelse. Gennemse 104 tematiske samlinger med mere end 3.100 illustrationer. Eksportér fire filer per session med 300 DPI. Den gratis prøveversion indeholder alle funktioner med vandmærke. Køb en licens for at fjerne vandmærket.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Labyrintarbejdsark i 8 Trin',
+    title: 'Sådan laver du labyrint-opgaver i 8 trin',
     steps: [
       {
         title: 'Åbn Billedsti Labyrint Generatoren',
@@ -155,11 +158,11 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Alle funktioner låst op — alle tre spiltilstande, LPF labyrintalgoritmen, fem billedroller, vægtilpasning, samlingssystemet, autogenereret facit med rosa cirkler og samlingslegender, alle 104 tematiske billedsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, navn/dato-felter, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på downloads.',
+      question: 'Kan jeg prøve labyrint-generatoren gratis online?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — alle tre spiltilstande, LPF labyrintalgoritmen, fem billedroller, vægtilpasning, samlingssystemet, autogenereret facit med rosa cirkler og samlingslegender, alle 104 tematiske billedsamlinger, tilpasset billedupload, baggrunds- og rammetemaer, navn/dato-felter, gråtonekontakt og alle downloadformater. Ingen registrering, intet kreditkort. Vandmærke på gratis downloads.',
     },
     {
-      question: 'Hvad er de tre spiltilstande?',
+      question: 'Hvad er de tre labyrint-tilstande?',
       answer: 'Billedsti — billedgitter, hvor brugerne følger den rigtige vej blandt distraktorer. Klassisk Labyrint — LPF-algoritmen genererer vægbaserede labyrinter med samlingsbilleder, konfigurerbare gitre 15×15 til 20×20, 1–3 veje. Vælg den Rigtige Vej — trevejslabyrinter med fire retningsmuligheder. Hver tilstand leverer en anderledes kognitiv udfordring.',
     },
     {
@@ -218,7 +221,7 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/picture%20path/Billedsti%201.webp',
-      primaryAlt: 'Billedsti labyrintarbejdsark med tematiske billeder i et gitter med orange overskriftramme og automatisk genereret Billedsti-overskrift med lokaliseret titel',
+      primaryAlt: 'Gratis labyrint generator med tematiske billeder og tre spiltilstande — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {

@@ -2,31 +2,31 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'billedsudoku generator',
+    primaryKeyword: 'sudoku til print',
     secondaryKeywords: [
-      'printbar billedsudoku generator til Etsy-sælgere',
-      'billedsudoku puslespil generator til KDP-udgivere',
-      'billedsudoku arbejdsark generator kommerciel licens',
-      'sælg sudoku puslespilsarbejdsark på Gumroad',
+      'sudoku generator',
+      'sudoku børn til print',
+      'sudoku med billeder',
+      'lav egen sudoku',
     ],
     lsiKeywords: [
-      'digitale sudoku printbare produkter online forretning',
-      'kommercielt brug billedpuslespil generator',
-      'printbar logikpuslespil forretningsværktøj',
+      'sudoku tal billeder sværhedsgrad',
+      'gitter logik sudoku print',
+      'sudoku opgave børn generator printbar',
     ],
-    titleTag: 'Billedsudoku Generator | Opret og Sælg Arbejdsark',
-    metaDescription: 'Opret billedsudoku arbejdsark til salg på Etsy, KDP og Gumroad. 4×4 gitter, tre sværhedsgrader, automatisk facit, 104 temaer. $49 engangsbetaling.',
+    titleTag: 'Sudoku til print | Generator med billeder',
+    metaDescription: 'Lav sudoku med billeder eller tal, justerbar sværhedsgrad. Automatisk facit, printklare PDF\'er. Prøv gratis — sælg på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Billedsudoku Arbejdsark Generator til 4×4 Billedlogikpuslespil',
-    tagline: 'Visuelle 4×4 sudokupuslespil med billeder i stedet for tal — tre sværhedsgrader fra 4 til 8 tomme celler, automatisk genererede facit med komplette udfyldte gitre og temabaseret billedvalg over 104 samlinger til puslespil, der sælger globalt uden oversættelse.',
+    title: 'Sudoku til print — generator med billeder og justerbar sværhedsgrad',
+    tagline: 'Lav din egen sudoku med billeder i stedet for tal — tre sværhedsgrader fra 4 til 8 tomme celler i et 4×4 gitter, automatisk facit og 104 tematiske billedsamlinger til sudoku-opgaver, der sælger globalt uden oversættelse.',
     description:
-      'Byg professionelle 4×4 billedsudoku arbejdsark, hvor brugerne udfylder tomme celler med de korrekte billeder ved hjælp af række-og-kolonne-logik. Hvert puslespil bruger præcis 4 unikke billeder, der skal vises én gang i hver række og én gang i hver kolonne — de samme regler som klassisk sudoku, men med farverige illustrationer i stedet for tal. Vælg blandt tre sværhedsgrader: Let fjerner 4 celler, Middel fjerner 6 og Svær fjerner 8 — halvdelen af gitteret. Vælg billeder gennem temabaseret autovalg, der tilfældigt vælger 4 billeder fra enhver af 104 tematiske samlinger, eller vælg manuelt præcis 4 billeder fra biblioteket, søg eller dine egne uploads. Det premiumdesignede gitter har alternerende 2×2-blokfarver i lyseblå og lyserosa, flerlagsede skygger og en indigoblå ydre ramme med afrundede hjørner. Hvert puslespil inkluderer en automatisk genereret \"Billedsudoku\"-overskrift lokaliseret på alle 11 sprog og et dobbeltlærredsfacit, der viser det komplette udfyldte gitter med alle 16 celler udfyldt. Fordi billedsudoku er helt visuelt — ingen ord vises på puslespilsgitteret — fungerer hvert arbejdsark identisk på alle 11 sprog, hvilket gør dine produkter salgbare globalt uden nogen modifikation. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4 eller brugerdefinerede størrelser. Uanset om du sælger tematiske sudokupakker på Etsy.dk, sammensætter logikarbejdsbøger til Amazon KDP eller opretter ræsonnementsaktiviteter til Gumroad — denne generator leverer produktionsklare puslespil på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Generér printbare sudoku-opgaver med billeder, hvor børn udfylder tomme celler med de korrekte billeder ved hjælp af logik. Hvert sudoku-gitter bruger præcis 4 unikke billeder, der skal vises én gang i hver række og én gang i hver kolonne — de samme regler som klassisk sudoku, men med farverige illustrationer i stedet for tal. Med det danske marked på kun 5,8 millioner indbyggere er konkurrencen på Etsy.dk og Amazon KDP markant lavere end på engelsksprogede platforme — og danske forældre, pædagoger og lærere søger aktivt efter printbare sudoku-opgaver til børnehaveklasse (5-6 år), indskoling 0.-3. klasse og mellemtrin 4.-6. klasse. Udbuddet af billedsudoku på dansk er minimalt, hvilket giver sælgere en klar markedsmulighed. Vælg blandt tre sværhedsgrader: Let fjerner 4 celler (perfekt til børnehaveklasse), Middel fjerner 6 celler (indskoling) og Svær fjerner 8 celler — halvdelen af gitteret (mellemtrin). Vælg billeder gennem temabaseret autovalg fra 104 samlinger, manuelt udvalg fra biblioteket med over 3.100 illustrationer, eller upload egne billeder. Det premiumdesignede gitter har alternerende 2×2-blokfarver, flerlagsede skygger og en indigoblå ramme med afrundede hjørner. Hvert sudoku-opgaveark inkluderer en automatisk genereret overskrift lokaliseret på alle 11 sprog og et dobbeltlærredsfacit med det komplette udfyldte gitter. Fordi sudoku med billeder er helt visuelt — ingen ord på gitteret — fungerer hvert opgaveark identisk på alle sprog, hvilket gør produkterne universelt salgbare. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4 eller brugerdefinerede størrelser. Uanset om du sælger sudoku-pakker på Etsy.dk, sammensætter logikbøger til Amazon KDP eller opretter ræsonnementsaktiviteter til Gumroad — denne generator leverer produktionsklare sudoku-opgaver på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Billedsudoku Arbejdsark i 5 Trin',
+    title: 'Sådan laver du sudoku til print i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +57,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Billedsudoku Generatoren',
+    title: 'Nøglefunktioner i sudoku-generatoren med billeder',
     features: [
       {
         title: '4×4 billedsudoku med billeder i stedet for tal',
@@ -103,7 +103,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Billedsudoku Arbejdsark Online',
+    title: 'Sådan sælger du sudoku til print online',
     cases: [
       {
         title: 'Tematiske billedsudoku-pakker på Etsy.dk',
@@ -140,64 +140,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvordan fungerer et 4×4 billedsudoku-puslespil?',
+      question: 'Kan jeg sælge disse sudoku-opgaver på Etsy?',
       answer:
-        'Et 4×4 billedsudoku bruger et gitter med 16 celler arrangeret i 4 rækker og 4 kolonner. Fire unikke billeder erstatter traditionelle tal. Reglen er den samme som klassisk sudoku: hvert billede skal vises præcis én gang i hver række og præcis én gang i hver kolonne. Nogle celler begynder udfyldt med billeder (ledetråde), og brugeren udfylder de tomme celler ved at bruge logisk eliminering — tjekke, hvilket billede der mangler i hver række og kolonne for at bestemme korrekt placering.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine sudoku-opgaver som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, som ressourcer på Gumroad eller via enhver anden salgskanal. De tre sværhedsgrader, 104 tematiske billedsamlinger og det visuelle format giver dig originale, globalt salgbare sudoku-produkter. Det danske marked med 5,8 millioner indbyggere har lav konkurrence på printbar sudoku med billeder.',
+    },
+    {
+      question: 'Hvordan laver jeg sudoku til print med denne generator?',
+      answer:
+        'Vælg sværhedsgrad (Let: 4 tomme celler, Middel: 6 tomme, Svær: 8 tomme), vælg præcis 4 billeder fra 104 temaer med over 3.100 illustrationer eller upload egne billeder, og klik Generer. Generatoren opretter et gyldigt 4×4 sudoku-gitter med premium-design og fjerner det valgte antal celler. Download som trykfærdig PDF eller JPEG med 300 DPI. Facit med komplet udfyldt gitter genereres automatisk.',
+    },
+    {
+      question: 'Er sudoku-opgaverne egnede til børnehaveklasse, indskoling og mellemtrin?',
+      answer:
+        'Ja. Let sværhedsgrad (4 tomme celler) passer til børnehaveklasse (5-6 år), hvor børn lærer grundlæggende logik med enkel række-og-kolonne-eliminering. Middel (6 tomme) passer til indskoling 0.-3. klasse med moderat logisk deduktion. Svær (8 tomme — halvdelen af gitteret) udfordrer mellemtrin 4.-6. klasse med flertrins ræsonnement. Billedformatet gør sudoku tilgængeligt for børn, der endnu ikke har mestret tal.',
+    },
+    {
+      question: 'På hvor mange sprog kan jeg lave sudoku-opgaver?',
+      answer:
+        'Generatoren understøtter 11 brugerfladesprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Selve sudoku-gitteret er helt visuelt — det indeholder kun billeder, ingen ord eller tal — så hvert opgaveark fungerer identisk på alle sprog uden oversættelse. Det eneste lokaliserede element er overskriftsteksten, som oversættes automatisk.',
+    },
+    {
+      question: 'Er facitlisten inkluderet?',
+      answer:
+        'Ja. Hvert sudoku-opgaveark genererer automatisk en facitfane med det komplette 4×4 gitter, hvor alle 16 celler er udfyldt med de korrekte billeder. Ingen manuel løsning nødvendig — facit er altid synkroniseret med opgaven. Begge versioner eksporteres separat som PDF og JPEG med 300 DPI.',
     },
     {
       question: 'Hvorfor bruge billeder i stedet for tal til sudoku?',
       answer:
-        'Billeder gør sudoku tilgængeligt for førlæsere og unge brugere, der endnu ikke har mestret tal. Det visuelle format engagerer brugerne med farverige tematiske illustrationer, samtidig med at det udvikler de samme logiske ræsonnementsfærdigheder som talbaseret sudoku. Billedbaserede puslespil er også universelt forståelige — ingen sprog- eller talsystemkundskab kræves — hvilket gør dine produkter salgbare globalt uden oversættelse.',
-    },
-    {
-      question: 'Hvad kontrollerer de tre sværhedsgrader?',
-      answer:
-        'Sværhed bestemmer, hvor mange celler der efterlades tomme til brugeren at løse. Let fjerner 4 celler fra 16-cellers gitteret og efterlader 12 ledetråde for enkel løsning. Middel fjerner 6 celler, hvilket kræver mere omhyggelig logisk deduktion. Svær fjerner 8 celler — præcis halvdelen af gitteret — og kræver flertrins ræsonnement. Systemet vælger tilfældigt, hvilke celler der bliver tomme, så at regenerere den samme sværhed generator et anderledes puslespilslayout hver gang.',
-    },
-    {
-      question: 'Hvorfor kræver generatoren præcis 4 billeder?',
-      answer:
-        'Et 4×4 sudokugitter bruger præcis 4 unikke symboler — hver forekommer 4 gange over de 16 celler. At vælge færre end 4 billeder ville efterlade gitteret ufuldstændigt, og at vælge flere end 4 ville bryde sudoku-begrænsningen om, at hvert symbol vises præcis én gang per række og kolonne. Appen håndhæver dette krav: temabaseret valg vælger automatisk 4 tilfældige billeder, og manuelt valg forhindrer tilføjelse af et 5. billede.',
-    },
-    {
-      question: 'Hvad er forskellen mellem temabaseret og manuelt billedvalg?',
-      answer:
-        'Temabaseret valg lader dig vælge et tema fra dropdownen, og systemet vælger automatisk 4 tilfældige billeder fra den samling — ideelt til hurtig puslespilsgenerering. Manuelt valg åbner hele Billedbiblioteket, hvor du gennemser 104 tematiske samlinger, filtrerer efter tema eller søger med nøgleord for at håndplukke præcis 4 specifikke billeder. Du kan også uploade egne billeder. Begge metoder resulterer i præcis 4 billeder brugt i puslespillet.',
-    },
-    {
-      question: 'Hvordan fungerer facit for billedsudoku?',
-      answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Arbejdsarket viser 4×4-gitteret med tomme celler, hvor brugerne skal bestemme de korrekte billeder. Facit viser præcis det samme gitter, men med alle 16 celler udfyldt — hver tom celle er udfyldt med det rigtige billede. Begge versioner eksporteres separat med fire dedikerede knapper: sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg og sudoku_answer_key.pdf.',
-    },
-    {
-      question: 'Hvad gør gitterdesignet premium?',
-      answer:
-        'Sudokugitteret har alternerende 2×2-blokbaggrunde i lyseblå (#F8F9FC) og lyserosa (#FFF5F7), der hjælper brugerne identificere blokgrænser. Fede midtadskillere (#7C8DB5, 3px streg) separerer de fire kvadranter, mens lettere indre linjer (#D1D9E6, 1,5px) definerer individuelle celler. En indigoblå ydre ramme (#667EEA) med 18px afrundede hjørner rammer hele gitteret ind, og tre flerlagsede skygger ved varierende forskydninger tilføjer professionel dybde. Billeder vises med 65% af cellestørrelsen for tydelig visuel separation.',
-    },
-    {
-      question: 'Er puslespillene unikke, hver gang jeg genererer et?',
-      answer:
-        'Ja. Appen blander billeder tilfældigt, før den udfylder 4×4-gitteret, og vælger derefter tilfældigt, hvilke celler der skal være tomme baseret på sværhedsgraden. Selv med de samme 4 billeder og den samme sværhedsindstilling producerer regenerering et anderledes gyldigt sudokuarrangement med forskellige tomme cellepositioner. Denne randomisering lader dig oprette store samlinger af unikke puslespil fra et lille sæt tematiske billeder.',
+        'Sudoku med billeder gør logik tilgængeligt for førlæsere og unge børn, der endnu ikke har mestret tal. Det visuelle format engagerer med farverige tematiske illustrationer, samtidig med at det udvikler de samme logiske ræsonnementsfærdigheder. Billedbaserede sudoku-opgaver er universelt forståelige uanset sprog, hvilket gør produkterne salgbare globalt uden oversættelse.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — alle tre sværhedsgrader, temabaseret og manuelt billedvalg, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, tekstværktøjer og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Er billedsudoku arbejdsark sprogfølsomme?',
-      answer:
-        'Nej. Billedsudoku er helt visuelt — puslespilsgitteret indeholder kun billeder, ingen ord eller tal. Dette gør, at hvert arbejdsark fungerer identisk på alle 11 understøttede sprog. Det eneste lokaliserede element er den automatisk genererede \"Billedsudoku\"-overskriftstekst over gitteret, som oversættes automatisk, når du skifter sprog. Puslespillet i sig selv kræver nul modifikation for forskellige markeder, hvilket gør det ideelt til global salg.',
-    },
-    {
-      question: 'Kan jeg sælge billedsudoku arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine billedsudoku arbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. De tre sværhedsgrader, 104 tematiske billedsamlinger og det visuelle format giver dig de kreative værktøjer til at producere originale, globalt salgbare sudokuprodukter.',
+        'Ja. Du kan bruge alle funktioner — alle tre sværhedsgrader, temabaseret og manuelt billedvalg, automatisk facit, hele billedbiblioteket, baggrunds- og rammetemaer, tekstværktøjer og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste alle tre sværhedsgrader, temabaseret og manuelt billedvalg, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, tekstværktøjer og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste alle tre sværhedsgrader, billedvalg, facit, hele billedbiblioteket og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
     },
   ],
 
@@ -267,23 +247,23 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/sudoku/Billede-Sudoku%201.webp',
-      primaryAlt: '4×4 billedsudoku arbejdsark med tematiske billeder i et premiumgitter med alternerende blokfarver og automatisk genereret Billedsudoku-overskrift',
+      primaryAlt: 'Sudoku til print med billeder — 4×4 gitter med tematiske illustrationer, justerbar sværhedsgrad og automatisk facit',
     },
     sampleGallery: [
       {
         src: '/samples/danish/sudoku/Billede-Sudoku%201.webp',
-        alt: 'Let sværhed billedsudoku med 4 tomme celler og 12 udfyldte celler i et 4×4-gitter',
-        caption: 'Let sværhed — 4 tomme celler for begyndere, der lærer række-og-kolonne-logik',
+        alt: 'Sudoku til print med billeder — let sværhedsgrad med 4 tomme celler i et 4×4 gitter',
+        caption: 'Let sværhedsgrad — 4 tomme celler, perfekt til børnehaveklasse og tidlig indskoling',
       },
       {
         src: '/samples/danish/sudoku/Billede-Sudoku%202.webp',
-        alt: 'Billedsudoku med et andet tema og middelsværhed',
-        caption: 'Tematisk billedsudoku — 104 temaer giver unikke puslespilsoplevelser for hvert sæt',
+        alt: 'Sudoku med billeder i et andet tema og middel sværhedsgrad til indskoling',
+        caption: 'Tematisk sudoku med billeder — 104 temaer giver unikke sudoku-opgaver for hvert sæt',
       },
       {
         src: '/samples/danish/sudoku/Billede-Sudoku%203.webp',
-        alt: 'Billedsudoku facit, der viser komplet udfyldt 4×4-gitter med alle 16 celler udfyldt',
-        caption: 'Automatisk genereret facit — komplet udfyldt gitter med alle billeder placeret',
+        alt: 'Sudoku facit med komplet udfyldt 4×4 gitter, der viser alle 16 celler med korrekte billeder',
+        caption: 'Automatisk facit — komplet udfyldt sudoku-gitter med alle billeder placeret',
       },
     ],
     youtubeId: 'bqVioFbkYbA',

@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab additionsarbejdsark',
+    primaryKeyword: 'lav plusstykker til print',
     secondaryKeywords: [
-      'lav additionsarbejdsark til boern',
-      'additions arbejdsark generator',
-      'printklare additionsarbejdsark til salg',
-      'tilpassede additions oevelsesark',
+      'plusstykker til børn med billeder',
+      'plusstykker generator til børnehaveklasse',
+      'printbare plusstykker til salg på Etsy.dk',
+      'regneopgaver addition til indskoling',
     ],
     lsiKeywords: [
-      'billedbaserede matematikarbejdsark',
-      'visuel addition for foerskole',
-      'boernehaveklasse matematik oevelsesark',
-      'saelg matematikarbejdsark paa Etsy',
-      'Amazon KDP matematik aktivitetsboeger',
-      'kommerciel licens arbejdsarksvaerktoej',
+      'billedbaserede plusstykker til førskole',
+      'visuelle regneopgaver børnehaveklasse',
+      'plusstykker med facit til print',
+      'sælg regneopgaver på Etsy.dk og Saxo.com',
+      'Amazon KDP regnehæfter til børn',
+      'kommerciel licens plusstykker-værktøj',
     ],
-    titleTag: 'Skab additionsarbejdsark — Trin-for-trin-guide — Sælgerguide',
-    metaDescription: 'Sådan generator du additionsarbejdsark til børn. Trin-for-trin-guide: vælg temaer, indstil sværhedsgrad, generér facit og eksportér PDF til salg på Etsy og KDP.',
+    titleTag: 'Lav plusstykker til print — Trin-for-trin sælgerguide',
+    metaDescription: 'Lav plusstykker til børn med tematiske billeder. Vælg temaer, indstil sværhedsgrad, generér facit og eksportér PDF til salg på Etsy.dk, Saxo.com og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du additionsarbejdsark til børn',
-    tagline: 'En trin-for-trin-guide til at skabe tematiske, trykklare additionsarbejdsark du kan sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Additionsarbejdsark er en af de mest konsekvent søgte printable-produkter på alle store markedspladser. Forældre har brug for dem til øvelse derhjemme. Sælgere har brug for dem til daglige drilløvelser og hjemmeopgaver. Vejledningscentre har brug for nye sæt hver uge. Denne guide fører dig gennem hele skabelsesprocessen med Additionsarbejdsark-generatoren — fra at vælge din målaldersgruppe og tema til at eksportere en poleret, trykklart PDF med automatisk facit.',
+    title: 'Lav plusstykker til børn — trin-for-trin guide',
+    tagline: 'En trin-for-trin-guide til at lave tematiske, printbare plusstykker og regneopgaver du kan sælge på Etsy.dk, Amazon KDP og Saxo.com',
+    description: 'Plusstykker til print er en af de mest søgte kategorier blandt printbare regneopgaver på alle store markedspladser. Forældre har brug for dem til øvelse derhjemme. Sælgere har brug for dem til daglige drilløvelser og hjemmeopgaver. Vejledningscentre har brug for nye sæt hver uge. Denne guide fører dig gennem hele skabelsesprocessen med Additionsarbejdsark-generatoren — fra at vælge din målaldersgruppe og tema til at eksportere en poleret, trykklart PDF med automatisk facit.',
   },
 
-  introduction: 'Addition er den første matematikoperation børn lærer, og den forbliver relevant fra førskole gennem 2. klasse og videre. Det lange indlæringsvindue betyder stabil efterspørgsel på additionsarbejdsark over flere aldersgrupper — hver kræver forskellige sværhedsgrader, visuelle stilarter og opgaveformater.\n\nHvad der gør additionsarbejdsark særligt stærke som printable-produkt er deres universalitet. Hvert produktkatalog i hvert land underviser addition. Hver hjemmeundervisende forælder har brug for additionsøvelsesmateriale. Hver vejleder der arbejder med brugere med vanskeligheder rækker efter additionsdrilløvelser. Dette er ikke et sæsonbetonet produkt eller en nichetrend — det er en grundlæggende pædagogisk ressource med helårsefterspørgsel.\n\nAdditionsarbejdsark-generatoren håndterer den tekniske kompleksitet. Den genererer billedbaserede additionsopgaver med tematiske visuelle elementer, konfigurerer sværhedsgrad ved at justere talintervaller, understøtter fire distinkte øvelsestilstande og producerer automatiske facit. Du fokuserer på produktstrategi — hvilke aldersgrupper at rette dig mod, hvilke temaer at bruge, hvordan du pakker og prissætter — mens generatoren håndterer layout, matematisk korrekthed og trykformatering.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste hver konfiguration og evaluere trykkvaliteten før køb af kommerciel licens.',
+  introduction: 'Plusstykker er den første regneoperation børn lærer, og den forbliver relevant fra børnehaveklasse gennem indskoling og videre. Det lange indlæringsvindue betyder stabil efterspørgsel på plusstykker til print over flere aldersgrupper — hver kræver forskellige sværhedsgrader, visuelle stilarter og opgaveformater.\n\nHvad der gør plusstykker særligt stærke som printbart produkt er deres universalitet. Hvert produktkatalog i hvert land underviser addition. Hver hjemmeundervisende forælder har brug for additionsøvelsesmateriale. Hver vejleder der arbejder med brugere med vanskeligheder rækker efter additionsdrilløvelser. Dette er ikke et sæsonbetonet produkt eller en nichetrend — det er en grundlæggende pædagogisk ressource med helårsefterspørgsel.\n\nAdditionsarbejdsark-generatoren håndterer den tekniske kompleksitet. Den genererer billedbaserede additionsopgaver med tematiske visuelle elementer, konfigurerer sværhedsgrad ved at justere talintervaller, understøtter fire distinkte øvelsestilstande og producerer automatiske facit. Du fokuserer på produktstrategi — hvilke aldersgrupper at rette dig mod, hvilke temaer at bruge, hvordan du pakker og prissætter — mens generatoren håndterer layout, matematisk korrekthed og trykformatering.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvearbejdsark, teste hver konfiguration og evaluere trykkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

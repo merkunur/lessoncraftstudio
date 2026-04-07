@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bogstavblanding arbejdsark generator',
+    primaryKeyword: 'blandede bogstaver generator gratis online',
     secondaryKeywords: [
-      'bogstavblanding arbejdsark generator for sælgere',
-      'lav bogstavomstilling puslespil til salg',
-      'printbare bogstavblanding arbejdsark kommerciel brug',
-      'bogstavblanding generator til KDP',
+      'anagram opgaver gratis',
+      'blandede bogstaver prøv gratis',
+      'ordpuslespil gratis til print',
     ],
     lsiKeywords: [
-      'blandede bogstavbrikker printbare til Etsy',
-      'billedbaseret bogstavblanding arbejdsark værktøj',
-      'flersproget stavepuslespil generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'anagram',
+      'bogstaver',
+      'stavning',
     ],
-    titleTag: 'Bogstavblanding Arbejdsark Generator | LCS',
-    metaDescription: 'Generér bogstavblanding arbejdsark med blandede bogstavbrikker, billedledetråde, vokal-farvekodning, 4. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis blandede bogstaver generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv blandede bogstaver-generatoren gratis online. Temabilleder, automatisk facit, printklare PDF. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Bogstavblanding Arbejdsark Generator',
-    tagline: 'Lav blandede bogstavbrikker stavepuslespil med billedledetråde, farvekodning og 4 sværhedsgrader på 11 sprog',
-    description: 'Forvandl ordforrådsøvelse til et praktisk stavepuslespil, hvor brugerne løser opgaven ved at omarrangere blandede bogstavbrikker. Dette værktøj genererer bogstavblanding arbejdsark, hvor en billedledetråd parres med et sæt blandede brikker — brugerne studerer billedet, identificerer hvad det forestiller, og placerer bogstaverne i den rigtige rækkefølge. I modsætning til udfyldningsøvelser giver bogstavblanding brugerne ALLE bogstaverne, men i forkert rækkefølge, hvilket gør det til en bogstavomstilling, der opbygger stavenøjagtighed gennem aktiv manipulation. Den kendetegnende funktion er vokal-konsonant farvekodning: aktivér den for at vise vokaler i én farve og konsonanter i en anden, hvilket tilføjer en visuel foniks-dimension, der hjælper brugerne identificere bogstavtyper, mens de løser puslespil. Fire sværhedsgrader styrer, hvor mange bogstaver der er forudplaceret i den rigtige position: Ingen Ledetråde blander hvert bogstav for maksimal udfordring, Let forudplacerer halvdelen for støttede begyndere, Normal placerer en fjerdedel for afbalanceret øvelse, og Svær placerer kun en sjettedel for sikre stavere. Vælg mellem tre indholdskilder: Billedbibliotek henter fra mere end 3.100 illustrationer i 104 tematiske samlinger, Manuelt Redigeringstilstand lader dig vælge billeder og tilpasse visningsnavne, og Tilpasset Ordliste lader dig skrive op til 8 ord direkte til tekstbaserede puslespil. Sprogfølsomhed er indbygget: skift fra dansk til et af de 11 understøttede sprog, og det samme billede producerer et andet målord med andre bogstaver og et helt andet blandet arrangement. Et hundebillede genererer \"HUND\" på dansk, \"DOG\" på engelsk, \"CHIEN\" på fransk, \"PERRO\" på spansk. Ét design bliver 11 unikke produkter. Indstil 1–10 puslespil per side, skift mellem store eller små bogstaver, tilføj øvelsesnummerering og vælg blandt 7 skrifttypefamilier. Eksportér som trykfærdig PDF eller højopløst JPEG med automatisk facitgenerering. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis blandede bogstaver generator — prøv online med vandmærke',
+    tagline: 'Prøv blandede bogstaver-generatoren gratis online — anagram-opgaver med temabilleder, farvekodning, automatisk facit, ingen tilmelding',
+    description: 'Prøv vores blandede bogstaver-generator gratis online med vandmærke. Lav anagram-opgaver med temabilleder, farvekodning og automatisk facit — helt uden tilmelding. Dette værktøj genererer ordpuslespil, hvor en billedledetråd parres med et sæt blandede bogstavbrikker — brugerne studerer billedet, identificerer hvad det forestiller, og placerer bogstaverne i den rigtige rækkefølge. I modsætning til udfyldningsøvelser giver bogstavblanding brugerne ALLE bogstaverne, men i forkert rækkefølge, hvilket gør det til en bogstavomstilling, der opbygger stavenøjagtighed gennem aktiv manipulation. Den kendetegnende funktion er vokal-konsonant farvekodning: aktivér den for at vise vokaler i én farve og konsonanter i en anden, hvilket tilføjer en visuel foniks-dimension, der hjælper brugerne identificere bogstavtyper, mens de løser puslespil. Fire sværhedsgrader styrer, hvor mange bogstaver der er forudplaceret i den rigtige position: Ingen Ledetråde blander hvert bogstav for maksimal udfordring, Let forudplacerer halvdelen for støttede begyndere, Normal placerer en fjerdedel for afbalanceret øvelse, og Svær placerer kun en sjettedel for sikre stavere. Vælg mellem tre indholdskilder: Billedbibliotek henter fra mere end 3.100 illustrationer i 104 tematiske samlinger, Manuelt Redigeringstilstand lader dig vælge billeder og tilpasse visningsnavne, og Tilpasset Ordliste lader dig skrive op til 8 ord direkte til tekstbaserede puslespil. Sprogfølsomhed er indbygget: skift fra dansk til et af de 11 understøttede sprog, og det samme billede producerer et andet målord med andre bogstaver og et helt andet blandet arrangement. Et hundebillede genererer \"HUND\" på dansk, \"DOG\" på engelsk, \"CHIEN\" på fransk, \"PERRO\" på spansk. Ét design bliver 11 unikke produkter. Indstil 1–10 puslespil per side, skift mellem store eller små bogstaver, tilføj øvelsesnummerering og vælg blandt 7 skrifttypefamilier. Eksportér som trykfærdig PDF eller højopløst JPEG med automatisk facitgenerering. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Bogstavblanding Arbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du gratis blandede bogstaver-opgaver i 8 trin',
     steps: [
       {
         title: 'Åbn Bogstavblanding Arbejdsark Generatoren',
@@ -155,12 +157,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — alle tre indholdskilder, alle fire sværhedsgrader, hele billedbiblioteket, vokal-konsonant farvekodning, facitgenerering og alle eksportformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Er blandede bogstaver-generatoren gratis at prøve online?',
+      answer: 'Ja. Prøv blandede bogstaver-generatoren gratis online med alle funktioner — tre indholdskilder, fire sværhedsgrader, 104 billedtemaer, vokal-konsonant farvekodning, facit og alle eksportformater. Ingen tilmelding. Downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvordan adskiller bogstavblandingspuslespil sig fra gæt ordet arbejdsark?',
-      answer: 'Bogstavblanding giver brugerne ALLE bogstaverne, men i forkert rækkefølge — de omarrangerer blandede brikker til den rigtige stavemåde. Gæt Ordet viser huller i faste positioner, og brugerne udfylder de manglende bogstaver. Bogstavblanding er en bogstavomstillingsudfordring; Gæt Ordet er en udfyldningsøvelse. De øver forskellige kognitive færdigheder og parres godt i pakkede produkter.',
+      question: 'Hvad indeholder den gratis anagram-opgave-generator?',
+      answer: 'Den gratis prøveversion giver fuld adgang: blandede bogstavbrikker med billedledetråde, fire sværhedsgrader, farvekodning af vokaler og konsonanter, 104 temaer, automatisk facit og printklare PDF. Det eneste, der adskiller prøveversionen, er et vandmærke. Ingen tilmelding krævet.',
+    },
+    {
+      question: 'Hvordan fungerer de gratis blandede bogstaver-puslespil?',
+      answer: 'Blandede bogstaver giver brugerne ALLE bogstaverne, men i forkert rækkefølge — de omarrangerer brikker til den rigtige stavemåde. Et billedledetråd viser, hvad ordet forestiller. Farvekodning af vokaler og konsonanter hjælper med at identificere bogstavtyper under løsningen.',
     },
     {
       question: 'Hvordan fungerer de fire sværhedsgrader?',
@@ -214,22 +220,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/word%20scramble/Bogstavrod%201.webp',
-      primaryAlt: 'Bogstavblanding arbejdsark med billedledetråde og blandede bogstavbrikker til bogstavomstilling stavepuslespil',
+      primaryAlt: 'Gratis blandede bogstaver generator online — anagram-opgaver med temabilleder og automatisk facit',
     },
     sampleGallery: [
       {
         src: '/samples/danish/word%20scramble/Bogstavrod%201.webp',
-        alt: 'Bogstavblanding arbejdsark med billedledetråde og blandede bogstavbrikker ved Let sværhed',
+        alt: 'Gratis blandede bogstaver med billedledetråde ved Let sværhed — prøv online',
         caption: 'Let sværhed — halvdelen af bogstaverne forudplaceret som ledetråde for tidlige stavere',
       },
       {
         src: '/samples/danish/word%20scramble/Bogstavrod%202.webp',
-        alt: 'Bogstavblanding arbejdsark med vokal-konsonant farvekodning, der viser farvede bogstavbrikker',
+        alt: 'Gratis anagram-opgaver med vokal-konsonant farvekodning og farvede bogstavbrikker',
         caption: 'Farvekodede tilstand — vokaler og konsonanter i forskellige farver for foniksbevidsthed',
       },
       {
         src: '/samples/danish/word%20scramble/Bogstavrod%203.webp',
-        alt: 'Bogstavblanding facit med alle bogstaver korrekt omarrangeret',
+        alt: 'Gratis blandede bogstaver facit med alle ord korrekt omarrangeret',
         caption: 'Facit — korrekt omarrangerede ord til nem bedømmelse og selvkontrol',
       },
     ],

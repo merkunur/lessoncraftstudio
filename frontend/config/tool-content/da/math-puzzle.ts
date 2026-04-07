@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mattepuslespil puslespil generator arbejdsark',
+    primaryKeyword: 'regnespil generator gratis online',
     secondaryKeywords: [
-      'puslespil matematikarbejdsark for sælgere',
-      'mattepuslespil generator for børn',
-      'billede mattepuslespil online',
-      'printbare mattepuslespil arbejdsark for brugere',
+      'matematik puslespil gratis',
+      'regnegåder gratis til print',
+      'sjove regneopgaver prøv gratis',
     ],
     lsiKeywords: [
-      'billedgitter mattepuslespil til produktlinjebrug',
-      'puslespilsstil matematikaktivitet for børn',
-      'konfigurerbar mattepuslespil arbejdsark generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'puslespil',
+      'regnegåde',
+      'logik',
     ],
-    titleTag: 'Mattepuslespil Generator — Puslespilsarbejdsark til Klassen',
-    metaDescription: 'Opret puslespilsstil mattepuslespil til din produktlinje. Billedgitter puslespil med addition og subtraktion,. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis regnespil generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv regnespil-generatoren gratis online. Matematik-puslespil med billeder, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Mattepuslespil Arbejdsark Generator',
-    tagline: 'Opret puslespilsstil billedpuslespil med matematikligninger på under 60 sekunder',
-    description: 'Forvandl matematikøvelse til et engagerende visuelt puslespil, der ser helt anderledes ud end et almindeligt arbejdsark. Dette værktøj deler et valgt billede op i et gitter af celler, hver med en matematikligning. Blandede puslespilsbrikker med svarcifre vises nedenfor — brugerne løser hver ligning og matcher den rigtige brik for at rekonstruere billedet. Vælg blandt tre operationstilstande: Addition, Subtraktion eller Blandet (begge operationer tilfældigt kombineret). Juster gitterstørrelse fra 2×2 (4 brikker, lettest) op til 4×4 (16 brikker, sværest) for at matche ethvert færdighedsniveau. Upload egne PNG- eller JPEG-billeder til brandede, sæsonbetonede eller nichepuslespil, eller gennemse det indbyggede bibliotek med mere end 3.100 billeder i 104 temaer. Puslespilsformatet generator et direkte genkendeligt produkt, der skiller sig ud i markedspladsens søgeresultater — købere, der scroller gennem rækker af identiske arbejdsark, stopper ved et farverigt billedpuslespil. Download som trykfærdig PDF eller højopløst JPEG. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis regnespil generator — prøv online med vandmærke',
+    tagline: 'Prøv regnespil-generatoren gratis online — matematik-puslespil med billeder, automatisk facit, ingen tilmelding',
+    description: 'Prøv vores regnespil-generator gratis online med vandmærke. Lav sjove matematik-puslespil med billeder, hvor børn løser regnegåder for at sammensætte et billede — helt uden tilmelding. Dette værktøj deler et valgt billede op i et gitter af celler, hver med en matematikligning. Blandede puslespilsbrikker med svarcifre vises nedenfor — brugerne løser hver ligning og matcher den rigtige brik for at rekonstruere billedet. Vælg blandt tre operationstilstande: Addition, Subtraktion eller Blandet (begge operationer tilfældigt kombineret). Juster gitterstørrelse fra 2×2 (4 brikker, lettest) op til 4×4 (16 brikker, sværest) for at matche ethvert færdighedsniveau. Upload egne PNG- eller JPEG-billeder til brandede, sæsonbetonede eller nichepuslespil, eller gennemse det indbyggede bibliotek med mere end 3.100 billeder i 104 temaer. Puslespilsformatet generator et direkte genkendeligt produkt, der skiller sig ud i markedspladsens søgeresultater — købere, der scroller gennem rækker af identiske arbejdsark, stopper ved et farverigt billedpuslespil. Download som trykfærdig PDF eller højopløst JPEG. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Opretter du Mattepuslespil i 8 Enkle Trin',
+    title: 'Sådan laver du gratis regnespil med billeder i 8 trin',
     steps: [
       {
         title: 'Åbn puslespilsgeneratoren',
@@ -155,12 +157,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort krævet. Du kan oprette, forhåndsvise og downloade så mange arbejdsark, du vil. Downloads fra den gratis prøveversion indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder. Den gratis prøveversion lader dig teste hver indstilling — alle gitterstørrelser, alle tre operationstilstande, billedupload, sidelayout, gråtoneomskifter og facitgenerering.',
+      question: 'Er regnespil-generatoren gratis at prøve online?',
+      answer: 'Ja. Prøv regnespil-generatoren gratis online med alle funktioner — ingen tilmelding, intet kreditkort krævet. Lav, forhåndsvis og download så mange matematik-puslespil med billeder, du vil. Downloads indeholder et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
     },
     {
-      question: 'Hvordan fungerer mattepuslespil-formatet?',
-      answer: 'Værktøjet deler et valgt billede op i et gitter af celler. Hver celle viser en matematikligning (addition, subtraktion eller begge). Under gitteret vises blandede puslespilsbrikker med svarcifre. Brugerne løser hver ligning, finder den matchende brik og placerer den i den rigtige celle for at rekonstruere hele billedet.',
+      question: 'Hvad indeholder den gratis prøveversion af regnespil?',
+      answer: 'Den gratis prøveversion giver fuld adgang: alle gitterstørrelser (2x2 til 4x4), tre operationstilstande, 104 billedtemaer, billedupload, automatisk facit, gråtone og alle eksportformater. Det eneste, der adskiller prøveversionen, er et vandmærke. Ingen tilmelding krævet.',
+    },
+    {
+      question: 'Hvordan fungerer det gratis regnespil-format?',
+      answer: 'Værktøjet deler et valgt billede op i et gitter af celler. Hver celle viser en regneopgave (addition, subtraktion eller begge). Under gitteret vises blandede puslespilsbrikker med svarcifre. Børn løser hver regnegåde, finder den matchende brik og sammensætter billedet.',
     },
     {
       question: 'Hvilke gitterstørrelser er tilgængelige?',
@@ -210,22 +216,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp',
-      primaryAlt: 'Mattepuslespil arbejdsark, der viser et puslespilsstil billedgitter med additionsligninger og blandede svarsbrikker',
+      primaryAlt: 'Gratis regnespil generator online — matematik-puslespil med billeder og automatisk facit',
     },
     sampleGallery: [
       {
         src: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp',
-        alt: 'Puslespil matematikarbejdsark med additionsligninger i et farverigt billedgitter',
+        alt: 'Gratis regnespil med additionsligninger i et farverigt billedgitter — prøv online',
         caption: 'Additionstilstand med tematisk billedpuslespil',
       },
       {
         src: '/samples/danish/math%20puzzle/Mattepuslespil%202.webp',
-        alt: 'Matematikarbejdsark med subtraktionsligninger og blandede cifferbrikker under gitteret',
+        alt: 'Gratis regnegåder med subtraktionsligninger og blandede puslespilsbrikker',
         caption: 'Subtraktionstilstand — løs ligninger for at rekonstruere billedet',
       },
       {
         src: '/samples/danish/math%20puzzle/Mattepuslespil%203.webp',
-        alt: 'Blandet additions- og subtraktions mattepuslespil med større gitter for avancerede brugere',
+        alt: 'Gratis regnespil med blandede regnearter og større gitter — prøv uden tilmelding',
         caption: 'Blandede operationer — addition og subtraktion i ét puslespil',
       },
     ],

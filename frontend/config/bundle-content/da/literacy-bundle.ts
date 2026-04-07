@@ -2,27 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'pakke sprog læse generatorer',
+    primaryKeyword: 'sprog- og ordleg-pakke til print',
     secondaryKeywords: [
-      'sprogarbejdsark generator pakke for sælgere',
-      'læseværktøj printpakke kommerciel brug',
-      'ordpuslespil arbejdsark pakke til Etsy',
-      'flersprogede arbejdsark generatorer til KDP-sælgere',
+      'ordleg krydsord kryptogram pakke sælg på Etsy.dk',
+      'ordsoegning skrivemotorik printpakke kommerciel licens',
+      'blandede bogstaver galge ordleg pakke Amazon KDP',
+      'flersprogede ordleg-generatorer passiv indkomst',
     ],
     lsiKeywords: [
-      'alfabet håndskrift ordsøgning pakke',
-      'bogstavblanding kryptogram printbar samling',
-      'kommerciel licens læsearbejdsark',
-      'masseproduktion sprogarbejdsark værktøj',
+      'alfabet skrivemotorik ordleg pakke til print',
+      'blandede bogstaver kryptogram hemmelig besked samling',
+      'kommerciel licens ordleg børnehaveklasse indskoling',
+      'masseproduktion ordleg printbar forretning Saxo.com',
     ],
-    titleTag: 'Læsearbejdsark Pakke — 7 Sprog- og Ordgeneratorer | Online',
-    metaDescription: 'Få 7 læse- og skrivearbejdsark-generatorer i én pakke. Lav alfabet, ordsøgning, kryptogram, forholdsord og håndskriftsarbejdsark på 11 sprog. $49. $149 enga.',
+    titleTag: 'Sprog- og ordleg-pakke til print — 7 generatorer | Ordleg & skrivemotorik',
+    metaDescription: 'Få 7 ordleg- og sprogværktøjer i én pakke til print. Ordleg, krydsord, kryptogram, forholdsord og skrivemotorik på 11 sprog. Sælg på Etsy.dk & KDP. $149.',
   },
 
   hero: {
-    title: 'Læsning & Sprog-pakke',
-    tagline: 'Syv sprogdrevne arbejdsark-generatorer — multiplicér din produktlinje over 11 sprog',
-    description: 'Hver generator i denne pakke er sprogbevidst. Dette ene faktum forvandler dit produktkatalog: ét arbejdsarksdesign bliver 11 distinkte produkter, når du skifter mellem engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk. Læsning & Sprog-pakken kombinerer syv specialiserede generatorer, der dækker alfabetgenkendelse, rumlige forholdsord, ordgætning med billedledetråde, bogstavblanding, ordsøgningsgitter, sætning-til-billede kryptogram og guidet håndskriftsøvelse. Seks af de syv generatorer producerer sprogspecifikt indhold — ordene, bogstaverne og ordforrådet på hvert arbejdsark ændres for at matche det valgte sprog, med korrekte diakritiske tegn, indfødte alfabeter og grammatisk korrekte formuleringer. Den syvende, Skriveøvelse, fokuserer på håndskriftsstregøvelse med minimal sprogafhængighed. Hver generator udsender trykfærdige PDF- og højopløste JPEG-filer. Seks af syv inkluderer automatiske facit. Vælg blandt over 100 tematiske billedsæt eller upload dit eget kunstværk til brandspecifikke, nichede produkter. Uanset om du sælger læseprintables på Etsy, publicerer sprogarbejdsbøger på Amazon KDP eller distribuerer ressourcer på Gumroad, giver denne pakke dig den variation og sproglige rækkevidde, som etsprogede konkurrenter ikke kan matche. Hver generator inkluderer en gratis prøveversion med vandmærke, så du kan teste alle funktioner, før du køber en licens.',
+    title: 'Sprog- og ordleg-pakke',
+    tagline: 'Syv sprogdrevne generatorer til ordleg og skrivemotorik — multiplicér din produktlinje over 11 sprog',
+    description: 'Hver generator i denne pakke er sprogbevidst. Dette ene faktum forvandler dit produktkatalog: ét arbejdsarksdesign bliver 11 distinkte produkter, når du skifter mellem engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk. Sprog- og ordleg-pakken kombinerer syv specialiserede generatorer, der dækker alfabetgenkendelse, forholdsord, gæt ordet med billedledetråde, blandede bogstaver, ordleg-gitter, hemmelig besked-kryptogram og guidet skrivemotorik. Seks af de syv generatorer producerer sprogspecifikt indhold — ordene, bogstaverne og ordforrådet på hvert arbejdsark ændres for at matche det valgte sprog, med korrekte diakritiske tegn, indfødte alfabeter og grammatisk korrekte formuleringer. Den syvende, Skriveøvelse, fokuserer på håndskriftsstregøvelse med minimal sprogafhængighed. Hver generator udsender trykfærdige PDF- og højopløste JPEG-filer. Seks af syv inkluderer automatiske facit. Vælg blandt over 100 tematiske billedsæt eller upload dit eget kunstværk til brandspecifikke, nichede produkter. Uanset om du sælger læseprintables på Etsy, publicerer sprogarbejdsbøger på Amazon KDP eller distribuerer ressourcer på Gumroad, giver denne pakke dig den variation og sproglige rækkevidde, som etsprogede konkurrenter ikke kan matche. Hver generator inkluderer en gratis prøveversion med vandmærke, så du kan teste alle funktioner, før du køber en licens.',
   },
 
   appsIncluded: [

@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'linjesporing arbejdsark',
+    primaryKeyword: 'skrivemotorik linjer generator gratis online',
     secondaryKeywords: [
-      'linjesporing arbejdsark generator for sælgere',
-      'lav tegne linjer arbejdsark til salg',
-      'printbare linjesporing arbejdsark kommerciel brug',
-      'tegne linjer arbejdsark generator til KDP',
+      'overtegne øvelser gratis',
+      'stiplede linjer gratis til print',
+      'finmotorik prøv gratis',
     ],
     lsiKeywords: [
-      'finmotoriske færdigheder arbejdsark værktøj til Etsy',
-      'SVG linjeskabelon arbejdsark generator',
-      'billedpar matchning linjesporing printbare',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'stiplede linjer',
+      'overtegne',
+      'finmotorik',
     ],
-    titleTag: 'Linjesporing Arbejdsark Generator — Tegne Linjer Generator',
-    metaDescription: 'Lav linjesporing arbejdsark med otte SVG-skabeloner, mere end 3.100 illustrationer i 104 temaer og autoudfyldning af. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis skrivemotorik linjer generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv overtegne-generatoren gratis online. Stiplede linjer, temabilleder, printklare PDF. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Tegne Linjer Arbejdsark Generator',
-    tagline: 'Otte SVG-linjeskabeloner med billedparmatchning, autoudfyldning fra 104 farverige temaer og skabelonstyret sideorientering for professionelle linjesporing arbejdsark, der sælger globalt',
-    description: 'Lav professionelle linjesporing arbejdsark, hvor brugerne tegner langs guidede stier for at forbinde matchende billedpar. Otte SVG-baserede skabeloner dækker en komplet finmotorisk progression: en horisontal skabelon for lige venstre-til-højre sporinger (enklest), en vertikal skabelon for oppefra-og-ned streger, fire kurveskabeloner for flydende håndledsbevægelser, og to diagonale skabeloner for krydsende kropskoordinering (sværest). Hver skabelon placerer 4 eller 5 matchede billedpar på modsatte sider af linjestien, hvilket giver brugerne et visuelt mål ved hver ende. Skabelonvalg driver automatisk sideorientering — kurver defaulter til liggende for svejfende buer, mens diagonal-, horisontal- og vertikalskabeloner bruger stående for fokuseret øvelse. Autoudfyldning fylder øjeblikkeligt hver parplads med tilfældige billeder fra ethvert valgt tema eller alle 104 temaer samtidigt, hvilket gør batchoprettelse hurtig. Indhold hentes fra mere end 3.100 farverige illustrationer i 104 tematiske samlinger — dyr, køretøjer, mad, natur og snesevis flere. Hvert arbejdsark er helt visuelt med nul tekst i outputtet, hvilket gør produkter universelt sælgbare uden oversættelse. Intet facit er nødvendigt, da linjestien selv guider brugeren — en selvkontrollerende aktivitet af design. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis skrivemotorik linjer generator — prøv online med vandmærke',
+    tagline: 'Prøv overtegne-generatoren gratis online — otte SVG-linjeskabeloner med billedpar, autoudfyldning fra 104 farverige temaer og printklare PDF. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv overtegne-generatoren gratis online og lav professionelle skrivemotorik-øvelser med stiplede linjer, hvor brugerne tegner langs guidede stier for at forbinde matchende billedpar. Alle funktioner er tilgængelige i den gratis prøveversion — downloads indeholder et vandmærke, som fjernes med en licens. Otte SVG-baserede skabeloner dækker en komplet finmotorisk progression: en horisontal skabelon for lige venstre-til-højre sporinger (enklest), en vertikal skabelon for oppefra-og-ned streger, fire kurveskabeloner for flydende håndledsbevægelser, og to diagonale skabeloner for krydsende kropskoordinering (sværest). Hver skabelon placerer 4 eller 5 matchede billedpar på modsatte sider af linjestien, hvilket giver brugerne et visuelt mål ved hver ende. Skabelonvalg driver automatisk sideorientering — kurver defaulter til liggende for svejfende buer, mens diagonal-, horisontal- og vertikalskabeloner bruger stående for fokuseret øvelse. Autoudfyldning fylder øjeblikkeligt hver parplads med tilfældige billeder fra ethvert valgt tema eller alle 104 temaer samtidigt, hvilket gør batchoprettelse hurtig. Indhold hentes fra mere end 3.100 farverige illustrationer i 104 tematiske samlinger — dyr, køretøjer, mad, natur og snesevis flere. Hvert arbejdsark er helt visuelt med nul tekst i outputtet, hvilket gør produkter universelt sælgbare uden oversættelse. Intet facit er nødvendigt, da linjestien selv guider brugeren — en selvkontrollerende aktivitet af design. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Linjesporing Arbejdsark i 8 Trin',
+    title: 'Sådan laver du overtegne-øvelser i 8 trin',
     steps: [
       {
         title: 'Åbn Tegne Linjer Arbejdsark Generatoren',
@@ -155,15 +157,15 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner låst op — alle otte linjeskabeloner, hele billedbiblioteket med 104 temaer, autoudfyldning, tilpasset billedupload og alle eksportformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Kan jeg prøve overtegne-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — alle otte linjeskabeloner til stiplede linjer og finmotorik, hele billedbiblioteket med 104 temaer, autoudfyldning, tilpasset billedupload og alle eksportformater. Ingen kreditkort kræves. Gratis downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvad er de otte linjeskabeloner?',
+      question: 'Hvilke skabeloner til stiplede linjer og overtegning findes?',
       answer: 'Otte SVG-baserede skabeloner dækker fire linjetyper for omfattende finmotorisk udvikling. Fire kurveskabeloner generator flydende, svejfende stier i liggende orientering med 4 billedpar hver — hver kurvevariant tilbyder en anderledes bueform. To diagonale skabeloner producerer vinklede linjer i stående orientering med 5 par. En horisontal skabelon genererer lige venstre-til-højre linjer i stående med 5 par. En vertikal skabelon generator oppefra-og-ned linjer i stående med 4 par.',
     },
     {
-      question: 'Hvordan fungerer billedparmatchning?',
+      question: 'Hvordan fungerer billedpar i overtegne-øvelserne?',
       answer: 'Hver skabelon placerer matchede billedpar på modsatte sider af linjestien. Et billede vises ved linjens start og dets match vises ved slutningen. Brugerne sporer langs den guidede sti for at forbinde de matchende billeder. Skabeloner rummer 4 eller 5 par afhængigt af linjetype. De matchende billeder giver brugerne et visuelt mål, der motiverer dem til at fuldende hver linje.',
     },
     {
@@ -214,22 +216,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/drawing%20lines/Linjetegnings%C3%B8velse%201.webp',
-      primaryAlt: 'Linjesporing arbejdsark med SVG-kurveskabelon, der forbinder matchede farverige billedpar i liggende format',
+      primaryAlt: 'Gratis overtegne-øvelse med stiplede linjer og farverige billedpar — prøv skrivemotorik-generatoren online med vandmærke',
     },
     sampleGallery: [
       {
         src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%201.webp',
-        alt: 'Linjesporing arbejdsark med kurveskabelon, der forbinder matchede dyrebilledpar i liggende orientering',
+        alt: 'Gratis overtegne-øvelse med kurveskabelon og stiplede linjer, der forbinder matchede dyrebilledpar',
         caption: 'Kurveskabelon — flydende linjestier med 4 farverige billedpar i liggende orientering',
       },
       {
         src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%202.webp',
-        alt: 'Linjesporing arbejdsark med diagonal skabelon, der forbinder fem billedpar i stående orientering',
+        alt: 'Gratis finmotorik-øvelse med diagonal skabelon og stiplede linjer, der forbinder fem billedpar',
         caption: 'Diagonal skabelon — vinklede linjer med 5 billedpar for krydsende kropskoordineringsøvelse',
       },
       {
         src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%204.webp',
-        alt: 'Linjesporing arbejdsark med vertikal skabelon, der forbinder naturtema billedpar i stående format',
+        alt: 'Gratis overtegne-øvelse med vertikal skabelon og stiplede linjer til begynder finmotorik',
         caption: 'Vertikal skabelon — oppefra-og-ned linjer for begynder finmotorisk øvelse',
       },
     ],

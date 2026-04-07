@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'arbejdsark tegn generator gittertegning',
+    primaryKeyword: 'tegneaktivitet generator gratis online',
     secondaryKeywords: [
-      'gittertegning arbejdsark generator for sælgere',
-      'lav tegn og farvelæg arbejdsark til salg',
-      'printbare gitterreproduktion arbejdsark kommerciel brug',
-      'celle-for-celle tegne arbejdsark generator til KDP',
+      'tegne og farvelægge gratis',
+      'kreativt opgaveark prøv gratis',
+      'trin-for-trin tegning gratis',
     ],
     lsiKeywords: [
-      'dobbeltgitter tegning printbare til Etsy',
-      'justerbar ledetrådsprocent arbejdsark værktøj',
-      'symmetri spejltilstand tegne arbejdsark generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'tegne',
+      'farvelægge',
+      'kreativ',
     ],
-    titleTag: 'Tegne Arbejdsark Generator — Gittertegning Generator | Sælg',
-    metaDescription: 'Generér gittertegning arbejdsark med dobbeltgitter, justerbar ledetrådsprocent, tre symmetritilstande og tematiske. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis tegne og farvelægge generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv tegne-og-farvelægge-generatoren gratis online. Temabilleder, printklare PDF. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Tegn og Farvelæg Arbejdsark Generator',
-    tagline: 'Generér dobbeltgitter tegnearbejdsark med justerbar ledetrådsprocent, tre symmetritilstande og helt visuelt tekstfrit output, der sælger globalt uden oversættelse',
-    description: 'Lav professionelle gittertegning arbejdsark, hvor brugerne reproducerer et referencebillede ved at kopiere det celle-for-celle fra et ledetrådsgitter til et tomt øvelsesgitter. To gitre vises per valgt billede: et Øvelsesgitter med tomme celler, hvor brugerne tegner, og et Ledetrådsgitter, der viser en konfigurerbar procentdel af referencebilledet som visuelle tips. Justér ledetrådsprocenten fra 10% til 75% for at kontrollere sværhedsgraden — færre ledetråde betyder sværere øvelser, der kræver skarpere observation. Konfigurér gitterdimensioner fra 3×3 (9 celler) til 10×10 (100 celler), med rækker og kolonner justerbare uafhængigt. Tre symmetritilstande tilføjer en rumlig vurderingsdimension: Tilfældig spreder ledetråde i vilkårlige positioner, Horisontal spejler ledetråde venstre-højre, og Vertikal spejler ledetråde oppefra-ned. Indhold hentes fra det indbyggede sort-hvid konturbibliotek med 100+ samlinger med mere end 3.000 sort-hvide illustrationer specifikt designet til tegning og farvelægning — rene konturer som brugerne reproducerer og derefter farvelægger. Dette er en helt visuel app: arbejdsark indeholder kun gitterbilleder med nul tekst, hvilket gør dem universelt sælgbare uden oversættelse. Intet separat facit eksisterer, da ledetrådsgitteret selv fungerer som referenceløsningen. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis tegne og farvelægge generator — prøv online med vandmærke',
+    tagline: 'Prøv tegne-og-farvelægge-generatoren gratis online — kreative tegneaktiviteter med dobbeltgitter, trin-for-trin tegning og temabilleder. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv tegne-og-farvelægge-generatoren gratis online og lav kreative tegneaktiviteter, hvor brugerne reproducerer et referencebillede celle-for-celle fra et ledetrådsgitter til et tomt øvelsesgitter. Alle funktioner er tilgængelige i den gratis prøveversion — downloads indeholder et vandmærke, som fjernes med en licens. To gitre vises per valgt billede: et Øvelsesgitter med tomme celler, hvor brugerne tegner, og et Ledetrådsgitter, der viser en konfigurerbar procentdel af referencebilledet som visuelle tips. Justér ledetrådsprocenten fra 10% til 75% for at kontrollere sværhedsgraden — færre ledetråde betyder sværere øvelser, der kræver skarpere observation. Konfigurér gitterdimensioner fra 3×3 (9 celler) til 10×10 (100 celler), med rækker og kolonner justerbare uafhængigt. Tre symmetritilstande tilføjer en rumlig vurderingsdimension: Tilfældig spreder ledetråde i vilkårlige positioner, Horisontal spejler ledetråde venstre-højre, og Vertikal spejler ledetråde oppefra-ned. Indhold hentes fra det indbyggede sort-hvid konturbibliotek med 100+ samlinger med mere end 3.000 sort-hvide illustrationer specifikt designet til tegning og farvelægning — rene konturer som brugerne reproducerer og derefter farvelægger. Dette er en helt visuel app: arbejdsark indeholder kun gitterbilleder med nul tekst, hvilket gør dem universelt sælgbare uden oversættelse. Intet separat facit eksisterer, da ledetrådsgitteret selv fungerer som referenceløsningen. Eksportér trykfærdige PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Gittertegning Arbejdsark i 8 Trin',
+    title: 'Sådan laver du tegne og farvelægge-øvelser i 8 trin',
     steps: [
       {
         title: 'Åbn Tegn og Farvelæg Arbejdsark Generatoren',
@@ -155,15 +157,15 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner låst op — alle gitterstørrelser, alle ledetrådsprocenter, alle symmetritilstande, det sort-hvide temabilledbibliotek, tilpasset billedupload og alle eksportformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Kan jeg prøve tegne og farvelægge-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — alle gitterstørrelser, alle ledetrådsprocenter, alle symmetritilstande, det sort-hvide temabilledbibliotek til kreative tegneaktiviteter, tilpasset billedupload og alle eksportformater. Ingen kreditkort kræves. Gratis downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvordan fungerer dobbeltgittersystemet?',
-      answer: 'Hvert billede, du vælger, genererer to ledsagende gitre. Øvelsesgitteret har tomme celler med lette konturer, hvor brugerne tegner deres reproduktion. Ledetrådsgitteret viser en konfigurerbar procentdel af referencebilledet — visse celler udfyldt med dele af billedet, andre efterladt tomme. Brugerne kigger på ledetrådsgitteret, identificerer hvilke celler der viser referenceindhold, og reproducerer hele billedet celle-for-celle i øvelsesgitteret.',
+      question: 'Hvordan fungerer dobbeltgitter-tegneaktiviteten?',
+      answer: 'Hvert billede genererer to ledsagende gitre. Øvelsesgitteret har tomme celler, hvor brugerne tegner trin-for-trin. Ledetrådsgitteret viser en konfigurerbar procentdel af referencebilledet. Brugerne kigger på ledetrådsgitteret og tegner billedet celle-for-celle i øvelsesgitteret — en kreativ tegneaktivitet, der træner observation og finmotorik.',
     },
     {
-      question: 'Hvad kontrollerer ledetrådsprocentskyderen?',
+      question: 'Hvad kontrollerer ledetrådsprocentskyderen i tegneaktiviteten?',
       answer: 'Ledetrådsprocenten (10%–75%) bestemmer, hvilken andel af ledetrådsgitterets celler der afslører referencebilledet. Ved 75% viser tre fjerdedele af cellerne billedet, og brugerne udfylder kun den resterende fjerdedel. Ved 50% er halvdelen af cellerne synlige for en moderat udfordring. Ved 25% rekonstruerer brugerne fra spredte fragmenter. Ved 10% er næsten ingen reference synlig for en maksimal udfordring.',
     },
     {
@@ -214,22 +216,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.webp',
-      primaryAlt: 'Tegn og farvelæg gittertegning arbejdsark med dobbeltgittersystem, der viser tomt øvelsesgitter og delvist afsløret ledetrådsgitter med sort-hvidt konturtema',
+      primaryAlt: 'Gratis tegne og farvelægge aktivitet med dobbeltgitter og temabilleder — prøv online med vandmærke',
     },
     sampleGallery: [
       {
         src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%201.webp',
-        alt: 'Gittertegning arbejdsark med dyr sort-hvidt konturtema, der viser øvelsesgitter og ledetrådsgitter side om side',
+        alt: 'Gratis tegneaktivitet med dyretema og konturer til kreativ farvelægning — prøv online',
         caption: 'Dyretema — brugerne reproducerer konturen fra gitterledetråde og farvelægger derefter deres tegning',
       },
       {
         src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%202.webp',
-        alt: 'Gittertegning arbejdsark med horisontal symmetri spejltilstand med ledetrådsceller afsløret på den venstre halvdel for rumlig vurdering',
+        alt: 'Gratis tegne og farvelægge med horisontal symmetri — kreativ tegneaktivitet med spejltilstand',
         caption: 'Horisontal symmetritilstand — ledetrådsceller spejler venstre-højre for rumlig vurdering og bilateral symmetriøvelse',
       },
       {
         src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%203.webp',
-        alt: 'Gittertegning arbejdsark med lav ledetrådsprocent, der viser minimale referenceceller i et stort gitter for ekspertniveau reproduktionsudfordring',
+        alt: 'Gratis kreativ tegneaktivitet med lav ledetrådsprocent til udfordrende trin-for-trin tegning',
         caption: 'Lav ledetrådsprocent ekspertudfordring — minimale referenceceller kræver præcis observation og rumlig vurdering',
       },
     ],

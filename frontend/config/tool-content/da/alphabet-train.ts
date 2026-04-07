@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'alfabettog arbejdsark generator for børn',
+    primaryKeyword: 'alfabet opgaver generator gratis online',
     secondaryKeywords: [
-      'alfabettog generator online',
-      'bogstavgenkendelse arbejdsark for børn',
-      'printbart alfabettog til børnehaven',
-      'alfabet matchning arbejdsark generator for sælgere',
+      'ABC opgaver gratis',
+      'bogstavgenkendelse gratis til print',
+      'alfabet prøv gratis',
     ],
     lsiKeywords: [
-      'bogstav-billede matchning togarbejdsark for børn',
-      'flersproget alfabet aktivitet online',
-      'farverigt alfabettog printbart til børnehaven',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'ABC',
+      'alfabet',
+      'bogstaver',
     ],
-    titleTag: 'Alfabettog Generator — Bogstavsøvelse for Børn',
-    metaDescription: 'Opret alfabettog arbejdsark til bogstavgenkendelse. 11 farverige vogne, bogstav-billede matchning, 11 sprog, 104. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis alfabet generator | ABC-øvelser prøv online med vandmærke',
+    metaDescription: 'Prøv alfabet-generatoren gratis online. Temabilleder, bogstavgenkendelse, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Alfabettog Arbejdsark Generator',
-    tagline: 'Opret farverige bogstavstog-arbejdsark med billede-til-bogstav matchning på 11 sprog',
-    description: 'Byg alfabet arbejdsark, der ikke ligner almindelige bogstavssporingssider. Dette værktøj arrangerer 11 livlige togvogne hen over siden, hver med et bogstav og en matchende illustration. Spredte ledetrådsbilleder vises ved siden af toget — brugerne identificerer, hvilket bogstav hvert billede begynder med, og matcher det med den rigtige vogn. Vælg mellem Autoopret-tilstand (værktøjet vælger tilfældigt 11 bogstaver og tildeler matchende billeder) eller Manuelt Valg (håndpluk hvert bogstav fra et komplet alfabetgitter og tildel hvert billede selv). Juster sværheden med ledetrådsantallet: 3 ledetråde for begyndere, 5–7 for mellemniveau og 9–11 for avancerede brugere, der skal matche næsten hver vogn. Den virkelige styrke er sprogfølsomhed — vælg blandt 11 nationale alfabeter inkl. dansk (Æ/Ø/Å), tysk (Ä/Ö/Ü), spansk (Ñ) og flere. Det samme billede parres med forskellige bogstaver på hvert sprog: \"hund\" matcher H på dansk, men D på engelsk (Dog). Ét arbejdsarksdesign bliver 11 unikke produkter. Gennemse mere end 3.100 billeder i 104 temaer, eller upload egne til brandede designs. Vælg blandt 7 skrifttypefamilier og eksporter som trykfærdig PDF eller højopløst JPEG. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis alfabet generator — ABC-øvelser prøv online med vandmærke',
+    tagline: 'Prøv alfabet-generatoren gratis online — ABC-opgaver med temabilleder, bogstavgenkendelse, automatisk facit, ingen tilmelding',
+    description: 'Prøv vores alfabet-generator gratis online med vandmærke. Lav ABC-opgaver med temabilleder, bogstavgenkendelse og automatisk facit — helt uden tilmelding. Dette værktøj arrangerer 11 livlige togvogne hen over siden, hver med et bogstav og en matchende illustration. Spredte ledetrådsbilleder vises ved siden af toget — brugerne identificerer, hvilket bogstav hvert billede begynder med, og matcher det med den rigtige vogn. Vælg mellem Autoopret-tilstand (værktøjet vælger tilfældigt 11 bogstaver og tildeler matchende billeder) eller Manuelt Valg (håndpluk hvert bogstav fra et komplet alfabetgitter og tildel hvert billede selv). Juster sværheden med ledetrådsantallet: 3 ledetråde for begyndere, 5–7 for mellemniveau og 9–11 for avancerede brugere, der skal matche næsten hver vogn. Den virkelige styrke er sprogfølsomhed — vælg blandt 11 nationale alfabeter inkl. dansk (Æ/Ø/Å), tysk (Ä/Ö/Ü), spansk (Ñ) og flere. Det samme billede parres med forskellige bogstaver på hvert sprog: \"hund\" matcher H på dansk, men D på engelsk (Dog). Ét arbejdsarksdesign bliver 11 unikke produkter. Gennemse mere end 3.100 billeder i 104 temaer, eller upload egne til brandede designs. Vælg blandt 7 skrifttypefamilier og eksporter som trykfærdig PDF eller højopløst JPEG. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Opretter du Alfabettog Arbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du gratis alfabet-opgaver med billeder i 8 trin',
     steps: [
       {
         title: 'Åbn Alfabettog Generatoren',
@@ -155,12 +157,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort krævet. Du kan oprette, forhåndsvise og downloade så mange arbejdsark, du vil. Downloads fra den gratis prøveversion indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Er alfabet-generatoren gratis at prøve online?',
+      answer: 'Ja. Prøv alfabet-generatoren gratis online med alle funktioner — ABC-opgaver med temabilleder, bogstavgenkendelse, justerbart ledetrådsantal, 104 temaer, automatisk facit og alle eksportformater. Ingen tilmelding. Downloads indeholder et vandmærke.',
     },
     {
-      question: 'Hvordan fungerer alfabettog-formatet?',
-      answer: 'Værktøjet opretter 11 farverige togvogne, hver med et bogstav og en matchende illustration. Spredte ledetrådsbilleder vises ved siden af toget. Brugerne identificerer, hvilket bogstav hvert ledetrådsbillede begynder med, og matcher det med den rigtige vogn. Antallet af ledetrådsbilleder er konfigurerbart fra 3 til 11. En facitliste genereres ved siden af hvert arbejdsark, der viser de korrekte bogstav-billede-koblinger.',
+      question: 'Hvad indeholder den gratis ABC-opgave-generator?',
+      answer: 'Den gratis prøveversion giver fuld adgang: 11 farverige togvogne med bogstaver og billeder, justerbart ledetrådsantal (3-11), 104 billedtemaer, Autoopret og Manuelt Valg, 11 sprog med nationale alfabeter (inkl. Æ, Ø, Å) og automatisk facit. Det eneste, der adskiller prøveversionen, er et vandmærke.',
+    },
+    {
+      question: 'Hvordan fungerer de gratis alfabet-opgaver med bogstavgenkendelse?',
+      answer: 'Værktøjet opretter 11 farverige togvogne med bogstaver og billeder. Spredte ledetrådsbilleder vises ved siden af toget — børn identificerer, hvilket bogstav hvert billede begynder med, og matcher det med den rigtige vogn. Ledetrådsantallet (3-11) styrer sværheden. Automatisk facit medfølger.',
     },
     {
       question: 'Hvad er forskellen mellem Autoopret og Manuelt Valg?',
@@ -214,22 +220,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
-      primaryAlt: 'Alfabettog arbejdsark, der viser 11 farverige vogne med bogstaver og matchende ledetrådsbilleder til bogstavgenkendelse',
+      primaryAlt: 'Gratis alfabet generator online — ABC-øvelser med togvogne, temabilleder og automatisk facit',
     },
     sampleGallery: [
       {
         src: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
-        alt: 'Farverigt alfabettog arbejdsark med bogstav-billede matchningsaktivitet for unge brugere',
+        alt: 'Gratis ABC-opgaver med farverigt alfabettog og bogstav-billede matchning — prøv online',
         caption: 'Togvognsformat med bogstav-billede matchning',
       },
       {
         src: '/samples/danish/alphabet%20train/Alfabettog%202.webp',
-        alt: 'Alfabettog arbejdsark med tematiske billeder og flere ledetrådsmatchningsopgaver',
+        alt: 'Gratis alfabet-opgaver med temabilleder og konfigurerbare ledetråde — prøv gratis',
         caption: 'Tematiske billeder med konfigurerbart ledetrådsantal',
       },
       {
         src: '/samples/danish/alphabet%20train/Alfabettog%203.webp',
-        alt: 'Avanceret alfabettog arbejdsark med 11 ledetråde for maksimal sværhed bogstavgenkendelse',
+        alt: 'Gratis bogstavgenkendelse med 11 ledetråde for avancerede ABC-øvelser',
         caption: 'Komplet 11-ledetråds sværhed for avancerede brugere',
       },
     ],

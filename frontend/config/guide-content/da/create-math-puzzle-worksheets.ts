@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skab matematikpuslespil-arbejdsark',
+    primaryKeyword: 'lav regnespil til print',
     secondaryKeywords: [
-      'matematikpuslespil arbejdsark generator',
-      'billedrekonstruktion matematikpuslespil',
-      'printbare matematikpuslespil-arbejdsark til salg',
-      'gitterbaserede matematikpuslespil til børn',
+      'regnespil med billeder generator til børn',
+      'matematikpuslespil til print for indskoling',
+      'printbare regnespil til salg på Etsy.dk',
+      'gitterbaserede regneopgaver med billedpuslespil',
     ],
     lsiKeywords: [
-      'billede puslespil matematik aktivitet',
-      'løs ligninger saml billede',
-      'visuelle matematikpuslespil førskole børnehaveklasse',
-      'sælg matematikpuslespil på Etsy',
-      'Amazon KDP matematikpuslespil bøger',
-      'kommerciel licens puslespil maker',
+      'billede puslespil regneopgaver til børn',
+      'løs regnestykker og saml billedet',
+      'visuelle regnespil til børnehaveklasse og indskoling',
+      'sælg regnespil på Etsy.dk og Saxo.com',
+      'Amazon KDP regnespil-hæfter til børn',
+      'kommerciel licens regnespil-maker',
     ],
-    titleTag: 'Skab matematikpuslespil-arbejdsark — Trin-for-trin-guide',
-    metaDescription: 'Skab matematikpuslespil-arbejdsark hvor børn løser ligninger for at samle billeder. Gitterstørrelser, operationer, facit og tips til salg på Etsy.',
+    titleTag: 'Lav regnespil med billedpuslespil til print — Sælgerguide',
+    metaDescription: 'Lav regnespil hvor børn løser regnestykker for at samle billeder. Gitterstørrelser, operationer, facit og tips til salg på Etsy.dk og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du matematikpuslespil-arbejdsark',
-    tagline: 'En trin-for-trin vejledning til at skabe billedrekonstruktions-matematikpuslespil hvor børn løser ligninger for at samle billeder — klar til at sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Matematikpuslespil-arbejdsark kombinerer matematikøvelse med spændingen af at løse et visuelt puslespil. Et enkelt billede deles i gitterstykker, hvert stykke får en matematikligning, og børn løser ligningerne for at finde ud af hvor hvert stykke hører til og samle billedet. Dette format transformerer rutine-matematikdrilleopgaver til et engagerende spil som børn faktisk vil gennemføre. Denne guide fører dig gennem skabelsen af matematikpuslespil-arbejdsark med matematikpuslespil-generatoren — fra at vælge temaer og gitterstørrelser til at eksportere trykklare PDF-filer med automatiske facit. Uanset om du lancerer dit første printable-produkt eller tilføjer et unikt format til et eksisterende matematikarbejdsark-katalog, vil du have færdige puslespil klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav regnespil med billedpuslespil til print',
+    tagline: 'En trin-for-trin vejledning til at lave billedrekonstruktions-regnespil hvor børn løser regnestykker for at samle billeder — klar til at sælge på Etsy.dk, Amazon KDP og Saxo.com',
+    description: 'Regnespil med billedpuslespil kombinerer regneopgaver med spændingen af at løse et visuelt puslespil. Et enkelt billede deles i gitterstykker, hvert stykke får en matematikligning, og børn løser ligningerne for at finde ud af hvor hvert stykke hører til og samle billedet. Dette format transformerer rutine-matematikdrilleopgaver til et engagerende spil som børn faktisk vil gennemføre. Denne guide fører dig gennem skabelsen af matematikpuslespil-arbejdsark med matematikpuslespil-generatoren — fra at vælge temaer og gitterstørrelser til at eksportere trykklare PDF-filer med automatiske facit. Uanset om du lancerer dit første printable-produkt eller tilføjer et unikt format til et eksisterende matematikarbejdsark-katalog, vil du have færdige puslespil klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Standard additions- og subtraktionsarbejdsark er essentielle, men de følger alle det samme format: en liste af ligninger på en side. Matematikpuslespil-arbejdsark bryder det mønster helt. I stedet for rækker af opgaver ser børn et gitter af omrokkerede billedstykker ved siden af matematiske udtryk. At løse hver ligning afslører et tal der fortæller barnet hvor det stykke hører til i det rekonstruerede billede. Belønningen er ikke bare et korrekt svar — det er et færdigt billede.\n\nDette format udnytter noget kraftfuldt: børn der modstår traditionelle matematikdrilleopgaver vil ivrigt arbejde igennem de samme ligninger når et puslespil er involveret. Den visuelle belønning af at se billedet komme sammen generator indre motivation som rene arbejdsark ikke kan matche. For printable-sælgere oversættes dette direkte til markedspladsdifferentiering. Købere der scroller igennem sider af identisk udseende matematikarbejdsark stopper når de ser et produkt der ser fundamentalt anderledes ud.\n\nMatematikpuslespil-generatoren håndterer al den tekniske kompleksitet. Den deler ethvert tematisk billede i gitterstykker (2x2, 3x3 eller 4x4), genererer passende matematikligninger for hver celle, blander stykkerne med nummererede mærker og producerer både puslespilarbejdsarket og et komplet facit. Du konfigurerer gitterstørrelsen, matematikoperationen og temaet — generatoren håndterer layout, ligningsnøjagtighed og trykformatering.\n\nFordi matematikpuslespil bruger tal og billeder frem for ord er puslespilindholdet selv sproguafhængigt. Tal er universelle. Det betyder at et enkelt puslespilprodukt fungerer for købere i ethvert land uden oversættelse, hvilket forenkler internationalt salg markant.\n\nHver funktion beskrevet i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvepuslespil, teste enhver gitterstørrelse og operationskombination og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Standard plusstykker og minusstykker er essentielle, men de følger alle det samme format: en liste af regnestykker på en side. Regnespil med billedpuslespil bryder det mønster helt. I stedet for rækker af opgaver ser børn et gitter af omrokkerede billedstykker ved siden af matematiske udtryk. At løse hver ligning afslører et tal der fortæller barnet hvor det stykke hører til i det rekonstruerede billede. Belønningen er ikke bare et korrekt svar — det er et færdigt billede.\n\nDette format udnytter noget kraftfuldt: børn der modstår traditionelle matematikdrilleopgaver vil ivrigt arbejde igennem de samme ligninger når et puslespil er involveret. Den visuelle belønning af at se billedet komme sammen generator indre motivation som rene arbejdsark ikke kan matche. For printable-sælgere oversættes dette direkte til markedspladsdifferentiering. Købere der scroller igennem sider af identisk udseende matematikarbejdsark stopper når de ser et produkt der ser fundamentalt anderledes ud.\n\nMatematikpuslespil-generatoren håndterer al den tekniske kompleksitet. Den deler ethvert tematisk billede i gitterstykker (2x2, 3x3 eller 4x4), genererer passende matematikligninger for hver celle, blander stykkerne med nummererede mærker og producerer både puslespilarbejdsarket og et komplet facit. Du konfigurerer gitterstørrelsen, matematikoperationen og temaet — generatoren håndterer layout, ligningsnøjagtighed og trykformatering.\n\nFordi matematikpuslespil bruger tal og billeder frem for ord er puslespilindholdet selv sproguafhængigt. Tal er universelle. Det betyder at et enkelt puslespilprodukt fungerer for købere i ethvert land uden oversættelse, hvilket forenkler internationalt salg markant.\n\nHver funktion beskrevet i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvepuslespil, teste enhver gitterstørrelse og operationskombination og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

@@ -2,30 +2,31 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kodeknækker matematik arbejdsark generator',
+    primaryKeyword: 'kodeknækker regneopgaver gratis online',
     secondaryKeywords: [
-      'knæk koden matematik arbejdsark for sælgere',
-      'kodeknækker puslespil online',
-      'printbare chiffer matematik arbejdsark for børn',
-      'hemmelig kode additions arbejdsark generator',
+      'hemmelig besked regnestykker gratis',
+      'kodeknækker matematik prøv gratis',
+      'hemmelig kode plusstykker gratis',
     ],
     lsiKeywords: [
-      'billede chiffer matematik puslespil online',
-      'ord afsløring kodeknækning arbejdsark',
-      'talkode matematik aktivitet for brugere',
+      'gratis',
+      'vandmærke',
+      'kodeknækker',
+      'hemmelig besked',
+      'regnestykker',
     ],
-    titleTag: 'Kodeknækker Matematik Generator — Arbejdsark til Klassen',
-    metaDescription: 'Opret kodeknækkende matematik arbejdsark til produktlinjesjov. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis kodeknækker generator | Hemmelig besked med regnestykker',
+    metaDescription: 'Prøv kodeknækker-generatoren gratis online. Børn løser plusstykker for at knække hemmelige beskeder. Vandmærke, ingen tilmelding.',
   },
 
   hero: {
-    title: 'Kodeknækker Matematik Arbejdsark Generator',
-    tagline: 'Opret kryptaritmetikpuslespil, hvor brugerne knækker hemmelige koder gennem addition',
-    description: 'Dette er ikke bare endnu et additions arbejdsark — det er en kodeknækningsudfordring. Hvert puslespil gemmer tal bag billedsymboler, og brugerne skal løse additionsligninger for at finde ud af, hvilken ciffer der hører til hvilket billede. I Normal Tilstand repræsenterer hvert symbol en unik ciffer. Skift til Ord Afsløring-tilstanden, og hver løst ligning afslører et bogstav i et hemmeligt ord, med vildledende bogstaver, der holder brugerne gættende. Vælg blandt mere end 100 billedtemaer, juster symbolantal og addendkompleksitet, og download trykklare PDF\'er eller JPEG-billeder. Understøtter 11 sprog med lokalbevidste alfabeter. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis kodeknækker generator — hemmelig besked med regnestykker',
+    tagline: 'Prøv kodeknækker-generatoren gratis online — løs plusstykker for at knække hemmelige beskeder, ingen tilmelding',
+    description: 'Prøv vores kodeknækker-generator gratis online med vandmærke. Børn løser plusstykker for at knække hemmelige beskeder med billedsymboler — helt uden tilmelding. I Normal Tilstand repræsenterer hvert symbol en unik ciffer. Skift til Ord Afsløring-tilstanden, og hver løst ligning afslører et bogstav i et hemmeligt ord, med vildledende bogstaver, der holder brugerne gættende. Vælg blandt mere end 100 billedtemaer, juster symbolantal og addendkompleksitet, og download trykklare PDF\'er eller JPEG-billeder. Understøtter 11 sprog med lokalbevidste alfabeter. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Opretter du Kodeknækker Arbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du gratis kodeknækker-regneopgaver i 8 trin',
     steps: [
       {
         title: 'Åbn arbejdsark-generatoren',
@@ -155,16 +156,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Hvad er et kodeadditions arbejdsark?',
-      answer: 'Et kodeadditions arbejdsark er et kryptaritmetikpuslespil, hvor billeder eller symboler erstatter tal i additionsligninger. Brugerne løser ligningerne for at finde ud af, hvilken ciffer hvert symbol repræsenterer. Det kombinerer additionsøvelse med logisk deduktion, hvilket gør det langt mere engagerende end almindelige matematikøvelser. Chiffermekanikken tilføjer et engagerende puslespilslag, der forvandler rutinemæssig additionsøvelse til en efterforskningsudfordring.',
+      question: 'Er kodeknækker-generatoren gratis at prøve online?',
+      answer: 'Ja. Prøv kodeknækker-generatoren gratis online med alle funktioner — ingen tilmelding, intet kreditkort krævet. Lav, forhåndsvis og download så mange kodeknækker-regneopgaver med hemmelige beskeder, du vil. Downloads indeholder et vandmærke. Køb en licens for at fjerne vandmærket.',
     },
     {
-      question: 'Hvad er forskellen mellem Normal Tilstand og Ord Afsløring-tilstand?',
-      answer: 'I Normal Tilstand gemmer hvert billede en unik hemmelig ciffer, og brugerne løser additionsligninger for at knække koden. I Ord Afsløring-tilstand afslører hver løst ligning et bogstav i et skjult ord, og vildledende bogstaver med forkerte summer holder brugerne gættende. Fra et sælgerperspektiv giver denne distinktion dig effektivt to helt forskellige produktlinjer fra ét værktøj.',
+      question: 'Hvad er et kodeknækker-regnestykke med hemmelig besked?',
+      answer: 'Et kodeknækker-regnestykke er et puslespil, hvor billeder erstatter tal i plusstykker. Børn løser regneopgaverne for at knække den hemmelige kode. I Ord Afsløring-tilstand afslører hver løst ligning et bogstav i en hemmelig besked — med vildledende bogstaver, der gør det ekstra spændende.',
     },
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort krævet. Du kan oprette, forhåndsvise og downloade så mange puslespil, du vil. Downloads fra den gratis prøveversion indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Hvad indeholder den gratis prøveversion af kodeknækkeren?',
+      answer: 'Den gratis prøveversion giver fuld adgang: Normal Tilstand og Ord Afsløring-tilstand, 104 billedtemaer, justerbart symbolantal, automatisk facit og alle eksportformater. Det eneste, der adskiller prøveversionen, er et vandmærke på downloads. Ingen tilmelding krævet.',
     },
     {
       question: 'Hvordan fungerer Symbolantal-indstillingen?',
@@ -210,22 +211,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.webp',
-      primaryAlt: 'Kodeadditions arbejdsark, der viser kryptaritmetikpuslespil med billedsymboler, der gemmer hemmelige cifre',
+      primaryAlt: 'Gratis kodeknækker generator online — hemmelig besked med regnestykker og billedsymboler',
     },
     sampleGallery: [
       {
         src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.webp',
-        alt: 'Kodeknækker matematikpuslespil med dyresymboler i Normal Tilstand',
+        alt: 'Gratis kodeknækker regneopgaver med dyresymboler — prøv online uden tilmelding',
         caption: 'Normal Tilstand med dyretema — hvert symbol gemmer en unik ciffer',
       },
       {
         src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%202.webp',
-        alt: 'Kodeadditions arbejdsark med Ord Afsløring-tilstand og tematiske billeder',
+        alt: 'Gratis hemmelig besked regnestykker med Ord Afsløring-tilstand og temabilleder',
         caption: 'Ord Afsløring-tilstand — løs ligninger for at stave et hemmeligt ord',
       },
       {
         src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%203.webp',
-        alt: 'Kryptaritmetik puslespilsarbejdsark med blandede addender og dekorativ ramme',
+        alt: 'Gratis kodeknækker plusstykker med blandede addender og dekorativ ramme',
         caption: 'Blandede addender med rammedekoration for produktklar output',
       },
     ],

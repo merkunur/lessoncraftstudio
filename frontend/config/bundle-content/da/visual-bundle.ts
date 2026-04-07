@@ -2,27 +2,27 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'visuel indlæring arbejdsark pakke',
+    primaryKeyword: 'visuelt læringsmateriale-pakke til print',
     secondaryKeywords: [
-      'malebilleder tegning arbejdsark generator pakke for sælgere',
-      'visuelle aktiviteter printpakke kommerciel brug',
-      'mønstergenkendelse arbejdsark pakke til Etsy',
-      'tegning maling arbejdsark generatorer til KDP-sælgere',
+      'malebilleder overtegne mønster pakke Etsy.dk',
+      'stor og lille tegning printpakke kommerciel licens',
+      'mønster malebilleder generatorer Amazon KDP',
+      'visuelle aktiviteter generatorer passiv indkomst sidegesjæft',
     ],
     lsiKeywords: [
-      'malebilleder tegnearbejdsark pakke',
-      'mønstergenkendelse diagramtælling printbar samling',
-      'kommerciel licens visuelle aktivitetsarbejdsark',
-      'masseproduktion visuelle arbejdsark værktøj',
+      'malebilleder overtegne mønster pakke til print',
+      'stor og lille diagramtælling printbar forretning',
+      'kommerciel licens visuelle aktiviteter børnehaveklasse',
+      'masseproduktion visuelle opgaver Saxo.com',
     ],
-    titleTag: 'Visuel Indlæring Arbejdsark Pakke — 7 Aktivitetsgeneratorer',
-    metaDescription: 'Få 7 visuelle indlæringsgeneratorer i én pakke. Lav malebilleder, tegning, mønster, størrelsessammenligning, diagram og linjesporing til salg online. $49. $.',
+    titleTag: 'Visuelt læringsmateriale-pakke til print — 7 generatorer | Malebilleder, mønster & mere',
+    metaDescription: 'Få 7 visuelle generatorer i én pakke til print. Malebilleder, overtegne, mønster, stor og lille, diagramtælling og linjesporing. Sælg på Etsy.dk & KDP. $149.',
   },
 
   hero: {
-    title: 'Visuel Indlæring-pakke',
-    tagline: 'Syv helt visuelle arbejdsark-generatorer — arbejdsark der fungerer på alle sprog verden over',
-    description: 'Hver generator i denne pakke producerer arbejdsark lavet helt af billeder, former, farver og tal. Ingen tekst vises på den færdige side ud over valgfrie grænsefladeetiketter. Det betyder, at hvert arbejdsark du laver fungerer for købere i alle lande, alle sprog, alle skolesystemer — uden oversættelse, uden tilpasning, uden lokaliseringsarbejde. Visuel Indlæring-pakken kombinerer syv specialiserede generatorer, der dækker størrelsessammenligning, togvogns-mønstersekvenser, udfyldnings-mønsterarbejdsark, referencebillede-tegning med symmetritilstand, linjesporing mellem parrede objekter, malebillede-oprettelse fra billedkonturer og søjlediagram-tælleaktiviteter. To af de syv generatorer — Tegn og Farvelæg og Malebilleder — har dedikerede sort-hvide konturtemaer designet specifikt til farvelægning. Tre generatorer inkluderer automatiske facit: Stor og Lille, Mønster Arbejdsark og Diagramtælling. De øvrige fire er kreative eller praktiske aktiviteter, hvor facit ikke er relevante. Hver generator udsender trykfærdige PDF- og højopløste JPEG-filer. Vælg blandt over 100 tematiske billedsæt eller upload dit eget kunstværk. Uanset om du sælger malebilleder på Etsy, publicerer aktivitetsbøger på Amazon KDP eller distribuerer førskolepakker på Gumroad, giver denne pakke dig den visuelle variation og universelle markedsrækkevidde, som tekstafhængige konkurrenter ikke kan matche. Hver generator inkluderer en gratis prøveversion med vandmærke.',
+    title: 'Visuelt læringsmateriale-pakke',
+    tagline: 'Syv helt visuelle generatorer til print — malebilleder, mønster og overtegne der fungerer på alle sprog',
+    description: 'Hver generator i denne pakke producerer opgaver til print lavet helt af billeder, former, farver og tal. Ingen tekst vises på den færdige side ud over valgfrie grænsefladeetiketter. Det betyder, at hvert arbejdsark du laver fungerer for købere i alle lande, alle sprog, alle skolesystemer — uden oversættelse, uden tilpasning, uden lokaliseringsarbejde. Visuel Indlæring-pakken kombinerer syv specialiserede generatorer, der dækker størrelsessammenligning, togvogns-mønstersekvenser, udfyldnings-mønsterarbejdsark, referencebillede-tegning med symmetritilstand, linjesporing mellem parrede objekter, malebillede-oprettelse fra billedkonturer og søjlediagram-tælleaktiviteter. To af de syv generatorer — Tegn og Farvelæg og Malebilleder — har dedikerede sort-hvide konturtemaer designet specifikt til farvelægning. Tre generatorer inkluderer automatiske facit: Stor og Lille, Mønster Arbejdsark og Diagramtælling. De øvrige fire er kreative eller praktiske aktiviteter, hvor facit ikke er relevante. Hver generator udsender trykfærdige PDF- og højopløste JPEG-filer. Vælg blandt over 100 tematiske billedsæt eller upload dit eget kunstværk. Uanset om du sælger malebilleder på Etsy, publicerer aktivitetsbøger på Amazon KDP eller distribuerer førskolepakker på Gumroad, giver denne pakke dig den visuelle variation og universelle markedsrækkevidde, som tekstafhængige konkurrenter ikke kan matche. Hver generator inkluderer en gratis prøveversion med vandmærke.',
   },
 
   appsIncluded: [

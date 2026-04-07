@@ -2,30 +2,33 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'subtraktions arbejdsark generator',
+    primaryKeyword: 'minusstykker generator gratis online',
     secondaryKeywords: [
-      'subtraktions arbejdsark generator til Etsy-sælgere',
-      'opret subtraktions arbejdsark til salg',
-      'printbare subtraktions arbejdsark kommercielt brug',
-      'billede subtraktions arbejdsark til KDP',
+      'minusstykker til print gratis',
+      'regneopgaver minus gratis',
+      'minusstykker prøv gratis',
+      'gratis minusopgaver med billeder',
     ],
     lsiKeywords: [
-      'visuelle subtraktions printbare for sælgere',
-      'overstregnings matematik arbejdsark værktøj',
-      'fjerne-arbejdsark generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'online',
+      'ingen tilmelding',
+      'facitliste',
     ],
-    titleTag: 'Subtraktions Arbejdsark Generator | Matematik Printables',
-    metaDescription: 'Opret subtraktions arbejdsark med overstregnings-visuelle på sekunder. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis minusstykker generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv minusstykker-generatoren gratis online med vandmærke. Temabilleder, automatisk facit, 300 DPI PDF. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Subtraktions Arbejdsark Generator',
-    tagline: 'Opret visuelle overstregnings subtraktions arbejdsark på under 60 sekunder',
-    description: 'Gør subtraktion forståeligt med overstregnings-visuelle, som børn intuitivt forstår. Dette værktøj genererer billedbaserede subtraktions arbejdsark, hvor brugerne streger billeder over for at finde svaret — den mest naturlige måde at lære fjerne-matematik på. Vælg blandt mere end 100 billedtemaer, indstil dit subtrahendinterval, vælg blandt fire øvelsestilstande inkl. det unikke Overstregnings-format, og download trykklare PDF\'er eller højopløste JPEG-billeder. Perfekt til Etsy-sælgere, der bygger niveauinddelte matematikprodukter, købere, der opretter produktlinjepakker, og KDP-udgivere, der sammensætter subtraktions-arbejdsbøger. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis minusstykker generator — prøv online med vandmærke',
+    tagline: 'Prøv minusstykker-generatoren gratis online — overstregning, temabilleder, automatisk facit, ingen tilmelding',
+    description: 'Prøv vores minusstykker-generator gratis online med vandmærke. Lav billedbaserede minusopgaver med overstregning, 104 temabilleder og automatisk facitliste — helt uden tilmelding. Vælg blandt mere end 100 billedtemaer, indstil dit subtrahendinterval, vælg blandt fire øvelsestilstande inkl. det unikke Overstregnings-format, og download trykklare PDF\'er eller højopløste JPEG-billeder. Perfekt til Etsy-sælgere, der bygger niveauinddelte matematikprodukter, købere, der opretter produktlinjepakker, og KDP-udgivere, der sammensætter subtraktions-arbejdsbøger. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Opretter du Subtraktions Arbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du gratis minusstykker med billeder i 8 trin',
     steps: [
       {
         title: 'Åbn arbejdsark-generatoren',
@@ -153,16 +156,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort krævet. Du kan oprette, forhåndsvise og downloade så mange arbejdsark, du vil. Downloads fra den gratis prøveversion indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Er minusstykker-generatoren gratis at prøve online?',
+      answer: 'Ja. Du kan prøve minusstykker-generatoren gratis online med alle funktioner — ingen tilmelding, intet kreditkort krævet. Lav, forhåndsvis og download så mange minusopgaver med billeder, du vil. Downloads fra den gratis prøveversion indeholder et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
     },
     {
-      question: 'Hvad er de fire øvelsestilstande?',
-      answer: 'Generatoren understøtter fire tilstande: Overstregning (brugerne streger billeder over for at visualisere fjerne-subtraktion), Billede − Tal (en billedgruppe minus et tal), Find Subtrahenden (minuend og resultat vises; barnet afgør, hvad der blev fjernet), og Blandet Tilstand (kombinerer tilfældigt alle tre stile på ét arbejdsark for maksimal variation).',
+      question: 'Hvad indeholder den gratis prøveversion af minusstykker?',
+      answer: 'Den gratis prøveversion giver fuld adgang: fire øvelsestilstande inkl. Overstregning, Billede minus Tal, Find Subtrahenden og Blandet Tilstand. 104 billedtemaer, automatisk facitliste, 300 DPI PDF og JPEG. Det eneste, der adskiller prøveversionen, er et vandmærke. Ingen tilmelding krævet.',
     },
     {
-      question: 'Hvilke filformater kan jeg downloade?',
-      answer: 'Du kan downloade arbejdsark som højopløste JPEG-billeder eller udskriftsoptimerede PDF-filer. Både arbejdsarket og dets matchende facit er tilgængelige i begge formater. PDF\'er er ideelle til direkte udskrift; JPEG\'er fungerer fremragende til at oprette produktmockups og sociale medie-indlæg.',
+      question: 'Kan jeg downloade gratis minusstykker til print?',
+      answer: 'Ja. Download gratis minusstykker som højopløste JPEG-billeder eller printklare PDF-filer med vandmærke. Både minusopgaver og facitliste er tilgængelige i begge formater. PDF\'er er ideelle til direkte udskrift; JPEG\'er fungerer fremragende til produktmockups.',
     },
     {
       question: 'Kan jeg bruge arbejdsarkene til kommercielle formål?',
@@ -208,22 +211,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/subtraction/Sjov%20Subtraktion%201.webp',
-      primaryAlt: 'Subtraktions arbejdsark med overstregnings billeder, der viser visuelle fjerne-matematikøvelser',
+      primaryAlt: 'Gratis minusstykker generator online — overstregning med temabilleder og automatisk facit',
     },
     sampleGallery: [
       {
         src: '/samples/danish/subtraction/Sjov%20Subtraktion%201.webp',
-        alt: 'Overstregnings subtraktions arbejdsark med dyretema, der viser overstregede billeder',
+        alt: 'Gratis minusstykker med dyretema — overstregning prøv online uden tilmelding',
         caption: 'Overstregnings-tilstand med dyretema',
       },
       {
         src: '/samples/danish/subtraction/Sjov%20Subtraktion%202.webp',
-        alt: 'Subtraktions arbejdsark med Billede minus Tal-tilstand og tematiske billeder',
+        alt: 'Gratis minusopgaver med Billede minus Tal-tilstand og temabilleder',
         caption: 'Billede − Tal-tilstand med tematiske billeder',
       },
       {
         src: '/samples/danish/subtraction/Sjov%20Subtraktion%203.webp',
-        alt: 'Find Subtrahenden arbejdsark med dekorativ ramme',
+        alt: 'Gratis minusstykker i Find Subtrahenden-tilstand med dekorativ ramme',
         caption: 'Find Subtrahenden-tilstand med dekorativ ramme',
       },
     ],

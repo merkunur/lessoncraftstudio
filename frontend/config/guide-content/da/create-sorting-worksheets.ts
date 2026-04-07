@@ -2,32 +2,32 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sorteringsarbejdsark kategori kategorisorteringsarbejdsark guide',
+    primaryKeyword: 'lav sorterings-opgaver til print',
     secondaryKeywords: [
-      'skab sorteringsarbejdsark for børn',
-      'billedsortering arbejdsark-generator',
-      'printbare sorteringsaktiviteter til salg',
-      'to-kategori klassifikationsarbejdsark',
+      'sorterings-opgaver til børnehaveklasse og indskoling til print',
+      'billedsortering opgaver generator til salg på Etsy.dk og KDP',
+      'printbare sorterings-opgaver med klip-og-sortér kommerciel licens',
+      'to-kategori klassifikationsopgaver til print for sælgere',
     ],
     lsiKeywords: [
-      'klip-og-sortér arbejdsark til førskole',
-      'billedklassifikation aktivitets-maker',
-      'sorteringsarbejdsark med facit',
-      'sælg sorteringsarbejdsark på Etsy',
-      'Amazon KDP klassifikations-arbejdsbøger',
-      'kommerciel licens sorteringsværktøj',
+      'klip-og-sortér opgaver til førskole og børnehaveklasse',
+      'billedklassifikation opgaver til print med facit',
+      'sorterings-opgaver sælg på Etsy.dk passiv indkomst',
+      'sælg sorterings-opgaver på Etsy.dk printbar forretning',
+      'Amazon KDP klassifikations-aktivitetsbøger til print',
+      'kommerciel licens sorterings-værktøj sidegesjæft',
     ],
-    titleTag: 'Kategorisorteringsarbejdsark — Guide',
-    metaDescription: 'Skab sorteringsarbejdsark med to-kategori tematilstand, 4-12 billeder, blandet udklipsgitter og automatisk facit. Trin-for-trin guide til salg på Etsy og KDP.',
+    titleTag: 'Lav sorterings-opgaver til print — Guide til salg på Etsy og KDP',
+    metaDescription: 'Lav sorterings-opgaver til print med to-kategori tematilstand, 4-12 billeder, blandet udklipsgitter og automatisk facit. Sælg på Etsy.dk og Amazon KDP.',
   },
 
   hero: {
-    title: 'Sådan generator du kategorisorteringsarbejdsark',
-    tagline: 'En trin-for-trin vejledning til at skabe to-kategori klip-og-sortér arbejdsark med tema- og manuel valgtilstand, automatisk genereret facit og flersproget understøttelse du kan sælge på Etsy, Amazon KDP og Gumroad',
-    description: 'Kategorisortering er en af de tidligste kognitive færdigheder børn udvikler, og sorteringsarbejdsark forbliver i høj efterspørgsel på alle pædagogiske markedspladser. Forældre har brug for dem til hands-on læring derhjemme. Købere har brug for dem til klassifikationsaktiviteter og sorteringscentre. Læringscentre bruger dem til visuel kategoriseringsøvelse. Denne guide fører dig igennem hele skabelsesprocessen med billedsortering arbejdsark-generatoren — fra at vælge din valgtilstand og konfigurere billedantal til at generere blandede udklipsgittere med automatisk facit. Uanset om du generator dit første sorteringsprodukt eller udvider et eksisterende klassifikations-arbejdsark katalog, vil du have et færdigt produkt klar til at liste ved slutningen af denne vejledning.',
+    title: 'Lav sorterings-opgaver til print og sælg dem online',
+    tagline: 'En trin-for-trin vejledning til at skabe to-kategori klip-og-sortér opgaver til print med tema- og manuel valgtilstand, automatisk genereret facit og flersproget understøttelse du kan sælge på Etsy.dk, Amazon KDP og Gumroad',
+    description: 'Kategorisortering er en af de tidligste kognitive færdigheder børn i børnehaveklasse og indskoling udvikler, og sorterings-opgaver til print forbliver i høj efterspørgsel på markedspladser som Etsy.dk og Amazon KDP. Forældre har brug for dem til hands-on læring derhjemme, og sælgere kan bygge en printbar forretning med passiv indkomst ved at sælge klip-og-sortér opgavepakker med kommerciel licens. Denne guide fører dig igennem hele skabelsesprocessen med billedsortering arbejdsark-generatoren — fra at vælge din valgtilstand og konfigurere billedantal til at generere blandede udklipsgittere med automatisk facit. Uanset om du generator dit første sorteringsprodukt eller udvider et eksisterende klassifikations-arbejdsark katalog, vil du have et færdigt produkt klar til at liste ved slutningen af denne vejledning.',
   },
 
-  introduction: 'Klassifikation er en af de grundlæggende kognitive færdigheder i tidlig barndomsuddannelse. Før børn kan læse, skrive eller regne, lærer de at sortere — at gruppere objekter efter fælles egengenerator som farve, form, funktion eller kategori. Dette gør sorteringsarbejdsark til et universelt relevant produkt med vedvarende efterspørgsel fra førskole til indskoling.\n\nDet der gør sorteringsarbejdsark særligt effektive som printable-produkt er klip-og-sortér formatet. Brugere klipper fysisk billeder ud fra et blandet gitter og placerer dem i den korrekte kategoriramme. Denne hands-on interaktion generator dybere engagement end cirkel-eller-tegn-en-linje aktiviteter fordi det kræver motoriske færdigheder, rumlig ræsonnering og aktiv beslutningstagning. Købere søger aktivt efter klip-og-sortér formater fordi de holder børn engagerede længere og producerer et håndgribeligt færdigt produkt.\n\nBilledsortering arbejdsark-generatoren håndterer den tekniske kompleksitet ved at skabe disse aktiviteter. Den tilbyder to valgtilstande: tematilstand auto-udfylder kategorier fra det indbyggede billedbibliotek til hurtig produktion, mens manuel tilstand lader dig håndvælge individuelle billeder til indholdstilpasset præcision. Generatoren producerer to-kategori sorteringslayouts med blandede udklipsgittere, automatisk genereret facit med billeder vist i seks gange gittercellestørrelsen, og en stilet lokaliseret overskrift på elleve sprog. Du fokuserer på produktstrategi — hvilke kategoriparringer at ramme, hvilke sværhedsgrader at skabe, hvordan du pakker og prissætter — mens generatoren håndterer layout, blanding og facitoprettelse.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvesorteringsarbejdsark, teste begge valgtilstande og evaluere outputkvaliteten før køb af kommerciel licens.',
+  introduction: 'Klassifikation er en af de grundlæggende kognitive færdigheder i tidlig barndomsuddannelse — helt centralt for børn i børnehaveklasse og indskoling. Før børn kan læse, skrive eller løse regneopgaver, lærer de at sortere objekter efter fælles egenskaber som farve, form og kategori. Dette gør sorterings-opgaver til print til et universelt relevant produkt med vedvarende efterspørgsel og en oplagt niche for din printbare forretning på Etsy.dk og Amazon KDP.\n\nDet der gør sorterings-opgaver særligt effektive som printable-produkt er klip-og-sortér formatet. Brugere klipper fysisk billeder ud fra et blandet gitter og placerer dem i den korrekte kategoriramme. Denne hands-on interaktion generator dybere engagement end cirkel-eller-tegn-en-linje aktiviteter fordi det kræver motoriske færdigheder, rumlig ræsonnering og aktiv beslutningstagning. Købere søger aktivt efter klip-og-sortér formater fordi de holder børn engagerede længere og producerer et håndgribeligt færdigt produkt.\n\nBilledsortering arbejdsark-generatoren håndterer den tekniske kompleksitet ved at skabe disse aktiviteter. Den tilbyder to valgtilstande: tematilstand auto-udfylder kategorier fra det indbyggede billedbibliotek til hurtig produktion, mens manuel tilstand lader dig håndvælge individuelle billeder til indholdstilpasset præcision. Generatoren producerer to-kategori sorteringslayouts med blandede udklipsgittere, automatisk genereret facit med billeder vist i seks gange gittercellestørrelsen, og en stilet lokaliseret overskrift på elleve sprog. Du fokuserer på produktstrategi — hvilke kategoriparringer at ramme, hvilke sværhedsgrader at skabe, hvordan du pakker og prissætter — mens generatoren håndterer layout, blanding og facitoprettelse.\n\nHver funktion nævnt i denne guide er tilgængelig i den gratis prøveversion med vandmærke. Du kan skabe prøvesorteringsarbejdsark, teste begge valgtilstande og evaluere outputkvaliteten før køb af kommerciel licens.',
 
   tutorial: [
     {

@@ -2,31 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'skyggematchning generator',
+    primaryKeyword: 'skyggeleg opgave til print',
     secondaryKeywords: [
-      'printbar silhuetmatchning aktivitet generator til Etsy-sælgere',
-      'billedskygge puslespil arbejdsark generator til KDP',
-      'skyggematchning arbejdsark generator kommerciel licens',
-      'sælg skyggematchnings arbejdsark på Gumroad',
+      'skygger og figurer opgave',
+      'silhuetter forbinde',
+      'skygge-parring opgave',
+      'skyggeleg børnehaveklasse',
     ],
     lsiKeywords: [
-      'digitale silhuetmatchnings printbare online forretning',
-      'kommercielt brug skyggepuslespil arbejdsark generator',
-      'printbar visuel matchningsaktivitet forretningsværktøj',
+      'skygge',
+      'silhuet',
+      'parring',
+      'figurer',
+      'børnehaveklasse',
+      'indskoling',
     ],
-    titleTag: 'Skyggematchning Generator | Opret Silhuetpuslespil',
-    metaDescription: 'Opret skyggematchnings arbejdsark til salg på Etsy, KDP og Gumroad. Skyggematchning og gør-den-hel-tilstande, autosilhuetter, 104 temaer. $49 engangsbetaling.',
+    titleTag: 'Skyggeleg opgave til print | Generator silhuet-parring',
+    metaDescription: 'Lav skyggeleg-opgaver med billeder og silhuetter. Automatisk facit, 300 DPI PDF. Prøv gratis.',
   },
 
   hero: {
-    title: 'Skyggematchning Arbejdsark Generator til Silhuet- og Delt-Billede Matchningsaktiviteter',
-    tagline: 'To matchningstilstande i én generator — Skyggematchning opretter automatisk genererede sorte silhuetter fra ethvert billede, Gør Den Hel deler billeder i halvdele — begge med Fisher-Yates-derangering, der sikrer ingen trivielle matchninger, automatisk genererede facit og 104 tematiske billedsamlinger.',
+    title: 'Skyggeleg opgave til print — Generator til silhuet-parring og skygge-matchning',
+    tagline: 'To parringstilstande i én generator — Skygge-parring opretter automatisk sorte silhuetter fra ethvert billede, Gør Den Hel deler billeder i halvdele — begge med Fisher-Yates-derangering, der sikrer ingen trivielle matchninger, automatisk facit og 104 tematiske billedsamlinger.',
     description:
-      'Byg professionelle skyggematchnings arbejdsark, hvor brugerne matcher farvede billeder med deres silhuetter eller genforbinder delte billedhalvdele. Skyggematchning-tilstanden placerer 4 farvede billeder mærket A, B, C, D i den øvre række og 4 automatisk genererede sorte silhuetter mærket 1, 2, 3, 4 i den nedre række — silhuetterne oprettes gennem billedbehandling på pixelniveau, der konverterer hver pixel med alfa > 10 til rent sort, hvilket producerer korrekte konturer, der bevarer hvert billedes præcise gennemsigtighedsprofil. Gør Den Hel-tilstanden deler billeder i halvdele med horisontal eller vertikal klipretning, mærker første halvdele A–D og anden halvdele 1–4, og tilpasser layoutet baseret på orientering. Begge tilstande bruger Fisher-Yates-derangering for at garantere, at intet objekt vises i sin oprindelige position, hvilket generator ægte matchningsudfordringer hver gang. Slå vis/skjul etiketter til for A/B/C/D og 1/2/3/4 identifikatorer, tilføj valgfri navn- og datofelter til produktlinjebrug, og generer autofacit, der viser hver korrekt bogstav-til-nummer-parring. Skyggematchning Arbejdsark Generatoren er IKKE sprogfølsom: resultatet er rent visuelt uden lokaliseret ordindhold på selve arbejdsarket. Det samme skyggematchningsarbejdsark fungerer identisk på alle markeder uden oversættelse. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, inkluder brugerdefineret tekst med syv skrifttypemuligheder, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller brugerdefinerede størrelser. Uanset om du sælger skyggepuslespil-pakker på Etsy.dk, sammensætter visuel perceptions-arbejdsbøger til Amazon KDP eller opretter hurtigsluts-aktiviteter til Gumroad — denne generator leverer produktionsklare arbejdsark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle skyggeleg-opgaver til print, hvor børn forbinder farvede billeder med deres silhuetter eller genforbinder delte billedhalvdele. Det danske marked for printbare opgaveark (5,8 mio. dansktalende, Etsy.dk, lav konkurrence) er perfekt for sælgere af skygge-parringsøvelser til børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse). Skygge-parring-tilstanden placerer 4 farvede billeder mærket A, B, C, D i den øvre række og 4 automatisk genererede sorte silhuetter mærket 1, 2, 3, 4 i den nedre række — silhuetterne oprettes gennem billedbehandling på pixelniveau, der konverterer hver pixel til rent sort for at bevare hvert billedes præcise konturprofil. Gør Den Hel-tilstanden deler billeder i halvdele med horisontal eller vertikal klipretning, mærker første halvdele A–D og anden halvdele 1–4. Begge tilstande bruger Fisher-Yates-derangering for at garantere, at intet billede vises i sin oprindelige position, hvilket skaber ægte matchningsudfordringer hver gang. Slå vis/skjul etiketter til for A/B/C/D og 1/2/3/4 identifikatorer, tilføj valgfri navn- og datofelter, og generer automatisk facit, der viser hver korrekt bogstav-til-nummer-parring. Resultatet er rent visuelt uden lokaliseret ordindhold, så det samme skyggeleg-opgaveark fungerer identisk på alle markeder uden oversættelse. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, inkluder brugerdefineret tekst med syv skrifttypemuligheder, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller brugerdefinerede størrelser. Uanset om du sælger skyggeleg-pakker på Etsy.dk, sammensætter silhuet-parrings­bøger til Amazon KDP eller opretter figur-matchningsaktiviteter til Gumroad — denne generator leverer produktionsklare opgaveark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Skyggematchnings Arbejdsark i 5 Trin',
+    title: 'Sådan laver du skyggeleg-opgaver i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +60,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Skyggematchning Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i skyggeleg-generatoren',
     features: [
       {
         title: 'Automatisk genererede silhuetter via billedbehandling på pixelniveau',
@@ -103,7 +106,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Skyggematchnings Arbejdsark Online',
+    title: 'Sådan sælger du skyggeleg-opgaver online',
     cases: [
       {
         title: 'Tematiske skyggematchnings-pakker på Etsy.dk',
@@ -140,64 +143,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvad er de to øvelsestilstande, og hvordan adskiller de sig?',
+      question: 'Kan jeg sælge disse skyggeleg-opgaver på Etsy?',
       answer:
-        'Generatoren tilbyder to distinkte tilstande. Skyggematchning-tilstanden placerer 4 farvede billeder i den øvre række og 4 automatisk genererede sorte silhuetter i den nedre række — brugerne matcher hvert billede med dets skygge ved at parre bogstaver (A–D) med numre (1–4). Gør Den Hel-tilstanden deler 4 billeder i halvdele og præsenterer første halvdele (A–D) og anden halvdele (1–4) separat — brugerne matcher halvdele for at fuldende hvert billede. Skyggematchning tester silhuetgenkendelse, mens Gør Den Hel udvikler rumlig bevidsthed og del-til-hel-ræsonnement.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine skyggeleg-opgaver som digitale downloads på Etsy.dk, som trykte silhuet-bøger på Amazon KDP, som ressourcer på Gumroad, eller via enhver anden salgskanal. De to parringstilstande, automatisk genererede silhuetter, derangeringsalgoritmen og 104 tematiske billedsamlinger giver stærk differentiering.',
     },
     {
-      question: 'Hvordan genereres silhuetterne?',
+      question: 'Hvordan laver jeg skyggeleg-opgaver?',
       answer:
-        'Silhuetterne oprettes gennem ægte billedbehandling på pixelniveau, ikke CSS-filtre eller forudfremstillede skyggeaktiver. Appen indlæser hvert billede til et lærred, udtræk hver pixel med getImageData og konverterer alle pixels med en alfaværdi større end 10 til rent sort (R=0, G=0, B=0, A=255). Dette bevarer den præcise gennemsigtighedsprofil for hvert kildebillede og producerer korrekte sorte silhuetter, der afspejler fine detaljer som ører, haler, håndtag og andre distinkte konturer.',
+        'Åbn generatoren, vælg en tilstand (Skygge-parring eller Gør Den Hel), vælg 4 billeder fra de 104 temaer, og klik Generer. I Skygge-parring oprettes sorte silhuetter automatisk. I Gør Den Hel deles billeder i halvdele (horisontal eller vertikal). Opgavearket med automatisk facit er klar til eksport som 300 DPI PDF eller JPEG på få minutter.',
     },
     {
-      question: 'Hvilke klipretnings­muligheder findes i Gør Den Hel-tilstanden?',
+      question: 'Er de egnede til børnehaveklasse, indskoling og mellemtrin?',
       answer:
-        'Gør Den Hel-tilstanden tilbyder to klipretnings­muligheder via radioknapper: Horisontale klip deler billeder i øvre og nedre halvdele, mens vertikale klip deler billeder i venstre og højre halvdele. Klipretningen gælder for alle 4 billeder på arbejdsarket. Layoutet tilpasser sig automatisk baseret på sideorientering — liggende sider arrangerer objekter i 2 rækker × 4 objekter, mens stående sider bruger 2 kolonner × 4 objekter for optimal visuel balance.',
+        'Ja. Til børnehaveklasse: brug Skygge-parring med etiketter (A/B/C/D og 1/2/3/4) for guidet figurgenkendelse. Til indskoling (0.–3. klasse): brug Gør Den Hel med horisontale klip for rumlig bevidsthed. Til mellemtrin (4.–6. klasse): skjul etiketterne for avanceret visuel diskriminering, eller brug vertikale klip for sværere del-til-hel-ræsonnement.',
     },
     {
-      question: 'Hvordan fungerer derangeringsalgoritmen?',
+      question: 'På hvor mange sprog fungerer opgaverne?',
       answer:
-        'Begge tilstande bruger en Fisher-Yates-derangeringsalgoritme, der garanterer, at intet objekt vises i sin oprindelige position. I Skyggematchning-tilstanden sidder ingen silhuet direkte under sit matchende billede. I Gør Den Hel-tilstanden vises ingen anden halvdel ved siden af sin matchende første halvdel. Dette sikrer, at hvert arbejdsark præsenterer en ægte matchningsudfordring — brugerne kan ikke gætte korrekt baseret udelukkende på position. Derangeringen beregnes på ny ved hver generering, hvilket producerer forskellige arrangementer fra de samme billeder.',
+        'Skyggeleg-opgaverne er rent visuelle — kun billeder, silhuetter og delte halvdele, ingen tekst — så de fungerer på ethvert sprog uden oversættelse. Grænsefladen understøtter 11 sprog (dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk), men selve opgavearket er identisk uanset sprogvalg. Ét produkt kan sælges globalt.',
     },
     {
-      question: 'Kan jeg slå A/B/C/D og 1/2/3/4 etiketterne til og fra?',
+      question: 'Er facitlisten inkluderet?',
       answer:
-        'Ja. Fluebenet \"Vis Etiketter\" i panelet Øvelseskonfiguration (standard TIL) kontrollerer, om A, B, C, D etiketter vises på billeder eller første halvdele, og 1, 2, 3, 4 etiketter vises på silhuetter eller anden halvdele. Når etiketterne er TIL, skriver brugerne bogstav-nummer-par som svar. Når etiketterne er FRA, bliver arbejdsarket en ren visuel matchningsudfordring uden alfanumerisk støtte — nyttigt til puslespilsbøger eller avancerede aktiviteter.',
+        'Ja. Dobbeltlærredssystemet genererer automatisk en facitliste. I Skygge-parring viser facit originalbilledet ved siden af dets silhuet med etiketter som \"A → 2\". I Gør Den Hel vises det komplette billede med sin matchningsetiket. Download facit separat som Facit-JPEG eller Facit-PDF med 300 DPI.',
     },
     {
-      question: 'Hvorfor er der altid præcis 4 opgaver per arbejdsark?',
+      question: 'Hvad er de to parringstilstande?',
       answer:
-        'Arbejdsarket bruger et fast antal på 4 matchningsproblemer. Dette er ikke konfigurerbart. Fire objekter giver den optimale balance for skygge- og delt-billede-matchning: tilstrækkelig variation til at skabe en ægte matchningsudfordring med derangering, samtidig med at hvert billede holdes stort nok til, at brugerne kan studere fine detaljer i silhuetter og delte halvdele. Det konsekvente 4-objektsformat fungerer også godt til pakke­produkter, hvor hver side har forudsigelig indholdstæthed.',
-    },
-    {
-      question: 'Hvordan fungerer navn- og datofelterne?',
-      answer:
-        'Slå fluebenet \"Inkluder Navn/Dato-felter\" i panelet Øvelseskonfiguration til for at tilføje navn- og datolinjer nederst på arbejdsarket. Når aktiveret kan brugerne skrive deres navn og dato direkte på den udskrevne side — essentielt for produktlinjeansvar og organiseret bedømmelse. Når deaktiveret bruger arbejdsarket hele sidefladen til matchningsindhold. Denne mulighed fungerer med både Skyggematchning og Gør Den Hel-tilstande.',
-    },
-    {
-      question: 'Hvordan fungerer det automatisk genererede facit?',
-      answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. I Skyggematchning-tilstanden viser facit et gitter, hvor hver celle viser originalbilledet ved siden af dets silhuet med en etiket som \"A → 2\". I Gør Den Hel-tilstanden viser hver celle det komplette originalbillede med sin matchningsetiket. Gitteret bruger 4 kolonner med konsekvent afstand. Begge versioner eksporteres separat med fire dedikerede downloadknapper: arbejdsark-JPEG, arbejdsark-PDF, facit-JPEG og facit-PDF.',
+        'Skygge-parring placerer 4 farvede billeder i den øvre række og 4 automatisk genererede sorte silhuetter i den nedre række — børnene forbinder hvert billede med dets skygge. Gør Den Hel deler 4 billeder i halvdele og præsenterer første og anden halvdele separat — børnene matcher halvdele for at fuldende hvert billede. Begge tilstande bruger Fisher-Yates-derangering, der sikrer ingen trivielle matchninger.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — begge øvelsestilstande, automatisk genererede silhuetter, klipretningsvalg, facit, hele billedbiblioteket, baggrunds- og rammetemaer, etiketomskifter, navn/dato-felter, tekstværktøjer og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
-    },
-    {
-      question: 'Er Skyggematchning Arbejdsark Generatoren sprogfølsom?',
-      answer:
-        'Nej. Skyggematchning er rent visuelt — arbejdsarkets resultat indeholder kun billeder, silhuetter og delte halvdele uden lokaliseret ordindhold. Appgrænsefladen (menuer, knapper, overskriftstekst) understøtter alle 11 sprog, men det genererede arbejdsark fungerer identisk uanset sprogvalg. Dette gør skyggematchnings arbejdsark universelt salgbare på alle markeder uden oversættelse. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog.',
-    },
-    {
-      question: 'Kan jeg sælge skyggematchnings arbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine skyggematchnings arbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. De to øvelsestilstande, automatisk genererede silhuetter, derangeringsalgoritmen, autofacit og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare visuelle matchningsprodukter.',
+        'Ja. Du kan bruge alle funktioner — begge tilstande, automatiske silhuetter, klipretningsvalg, facit, hele billedbiblioteket, baggrunds- og rammetemaer, etiketomskifter, navn/dato-felter og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket.',
     },
     {
       question: 'Hvad er returpolitikken?',
       answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste begge øvelsestilstande, automatisk genererede silhuetter, klipretningsvalg, facit, hele billedbiblioteket, baggrunds- og rammetemaer, etiketomskifter, navn/dato-felter, tekstværktøjer og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste begge tilstande, silhuetter, facit, hele billedbiblioteket og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken.',
     },
   ],
 
@@ -262,27 +245,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%201.webp',
-      primaryAlt: 'Skyggematchnings arbejdsark med farvede billeder i øvre række og automatisk genererede sorte silhuetter i nedre række med ravgul overskrift',
+      primaryAlt: 'Skyggeleg opgave til print med farvede billeder og sorte silhuetter til parring i børnehaveklasse',
     },
     sampleGallery: [
       {
         src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%201.webp',
-        alt: 'Skyggematchnings arbejdsark, der viser fire farvede billeder matchet med fire sorte silhuetter med bogstav- og nummeretiketter',
-        caption: 'Skyggematchning-tilstand — brugerne matcher billeder med deres automatisk genererede silhuetter',
+        alt: 'Skygge-parring opgave med fire farvede billeder og fire sorte silhuetter til forbindelse i børnehaveklasse',
+        caption: 'Skygge-parring — børnene forbinder billeder med deres automatisk genererede silhuetter',
       },
       {
         src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%202.webp',
-        alt: 'Gør den hel arbejdsark med delte billedhalvdele, som brugerne kobler sammen ved at matche første og anden halvdele',
-        caption: 'Gør Den Hel-tilstand — brugerne matcher delte billedhalvdele for at fuldende billederne',
+        alt: 'Gør den hel opgave med delte billedhalvdele som børnene kobler sammen til indskoling',
+        caption: 'Gør Den Hel-tilstand — børnene matcher delte billedhalvdele for at fuldende figurerne',
       },
       {
         src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%203.webp',
-        alt: 'Skyggematchning facit, der viser originalbilleder med silhuetter og korrekte bogstav-til-nummer matchningsetiketter',
-        caption: 'Automatisk genereret facit — bogstav-til-nummer etiketter viser korrekte matchninger',
+        alt: 'Facitliste til skyggeleg med originalbilleder, silhuetter og korrekte bogstav-til-nummer parringsetiketter',
+        caption: 'Automatisk facit — bogstav-til-nummer etiketter viser korrekte skygge-parringer',
       },
     ],
     youtubeId: 'TYvUXJeMI98',
-    videoTitle: 'Sådan Opretter du Skyggematchnings Arbejdsark med Silhuetter og Delte Billeder — Trin-for-Trin Guide',
+    videoTitle: 'Sådan laver du skyggeleg-opgaver med silhuet-parring og delte billeder — trin-for-trin guide',
   },
 };
 

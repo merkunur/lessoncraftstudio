@@ -2,31 +2,34 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'billedsortering generator',
+    primaryKeyword: 'sorterings-opgave til print',
     secondaryKeywords: [
-      'printbar sorteringsaktivitet generator til Etsy-sælgere',
-      'tokategori sortering arbejdsark generator til KDP',
-      'billedklassificering arbejdsark generator kommerciel licens',
-      'sælg sorteringsarbejdsark på Gumroad',
+      'sortere og gruppere opgave',
+      'kategorisere billeder',
+      'ordne og sortere opgaveark',
+      'sorteringsaktivitet børnehaveklasse',
     ],
     lsiKeywords: [
-      'digitale sorterings printbare produkter online forretning',
-      'kommercielt brug klassificering arbejdsark generator',
-      'printbar kategorisortering aktivitet forretningsværktøj',
+      'sortere',
+      'gruppere',
+      'kategorisere',
+      'ordne',
+      'børnehaveklasse',
+      'indskoling',
     ],
-    titleTag: 'Billedsortering Generator | Opret Sorteringsarbejdsark',
-    metaDescription: 'Opret billedsorteringsarbejdsark til salg på Etsy, KDP og Gumroad. Tokategorisortering, automatisk facit, 104 temaer, 4–12 billeder. $49 engangsbetaling.',
+    titleTag: 'Sorterings-opgave til print | Kategoriserings-generator',
+    metaDescription: 'Lav sorterings- og kategoriseringsopgaver med temabilleder. Automatisk facit, printklare PDF\'er. Prøv gratis.',
   },
 
   hero: {
-    title: 'Billedsortering Arbejdsark Generator til Tokategori Sorteringsaktiviteter',
-    tagline: 'Tokategorisortering i en kraftfuld generator — temabaseret eller manuelt billedvalg — med automatisk genererede facit, 4–12 konfigurerbare billeder, en lokaliseret \"Sorter billeder\"-overskrift på 11 sprog og 104 tematiske billedsamlinger.',
+    title: 'Sorterings-opgave til print — kategoriserings-generator',
+    tagline: 'Lav printbare sorterings- og kategoriseringsopgaver, hvor børn sorterer, grupperer og ordner billeder i to kategorier — temabaseret eller manuelt billedvalg med automatisk facit.',
     description:
-      'Byg professionelle sorteringsarbejdsark, hvor brugerne klassificerer billeder i to kategorier ved at sortere udklippede billeder i den korrekte venstre eller højre gruppe. Vælg tematilstand for automatisk at udfylde kategorier fra billedbiblioteket — vælg et venstre tema og et højre tema, og appen henter 4–6 tilfældige billeder per tema — eller skift til manuel tilstand for at håndvælge individuelle billeder og tildele hver til en kategori. Hvert arbejdsark har to stiplede kategorirammer øverst som sorteringsmål og et blandet udklipsgitter nedenfor med blandede billeder klar til at klippes ud og sorteres. Dobbeltlærredssystemet genererer både en arbejdsarkfane og en facitfane med 6× større billeder organiseret i kategorifelter, så du aldrig behøver oprette facit manuelt. Billedsortering Generatoren er sprogfølsom: kategorietiketter bruger lokaliserede billednavne, så at skifte sprog ændrer teksten på arbejdsarket. Det betyder, at de samme billedtemaer kan generere unikke sorteringsarbejdsark på 11 forskellige sprog — hver sprogversion har lokaliserede kategorietiketter, hvilket gør hver version til et separat produkt. En lokaliseret \"Sorter billeder\"-overskrift med mintgrøn baggrund og blågrøn titel renderes automatisk på alle 11 understøttede sprog. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog til lokaliserede kategorietiketter. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, inkluder navn- og datofelter til produktlinjeansvar, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Uanset om du sælger sorteringsaktivitets-pakker på Etsy.dk, sammensætter klassificerings-arbejdsbøger til Amazon KDP eller opretter sorterings­stationsaktiviteter til Gumroad — denne generator leverer produktionsklare arbejdsark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
+      'Lav professionelle sorterings-opgaver til print, hvor børn kategoriserer billeder i to grupper ved at klippe billeder ud og sortere dem i den korrekte venstre eller højre kategori. Vælg tematilstand for automatisk at udfylde kategorier fra billedbiblioteket — for eksempel dyr til venstre og mad til højre — eller skift til manuel tilstand for at håndvælge individuelle billeder. Hvert opgaveark har to stiplede kategorirammer øverst og et blandet udklipsgitter nedenfor med 4–12 billeder klar til at klippes ud og sorteres. Det danske marked med 5,8 millioner dansktalende har næsten ingen printbare sorteringsopgaver på Etsy.dk og Amazon KDP — en åben niche for sælgere. Sorteringsopgaver er ideelle til børnehaveklasse, hvor børn lærer at gruppere og kategorisere i den daglige undervisning, til indskoling (0.–3. klasse), hvor sortere og ordne er en del af læringsmålene, og til mellemtrin (4.–6. klasse) med mere udfordrende kategoridistinktioner. Generatoren er sprogfølsom: kategorietiketter bruger lokaliserede billednavne, så de samme temaer producerer unikke opgaveark på alle 11 sprog. Hvert opgaveark genererer automatisk en facitliste med billeder sorteret i korrekte kategorifelter. Vælg blandt mere end 3.100 illustrationer i 104 temaer, tilføj baggrunds- og rammetemaer, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
   howItWorks: {
-    title: 'Sådan Opretter du Billedsorteringsarbejdsark i 5 Trin',
+    title: 'Sådan laver du sorterings-opgaver til print i 5 trin',
     steps: [
       {
         title: 'Indstil sidelayoutet',
@@ -57,7 +60,7 @@ const content: AppContent = {
   },
 
   keyFeatures: {
-    title: 'Nøglefunktioner i Billedsortering Arbejdsark Generatoren',
+    title: 'Nøglefunktioner i kategoriserings-generatoren',
     features: [
       {
         title: 'Tokategorisortering med temabaseret eller manuelt billedvalg',
@@ -103,7 +106,7 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Sådan Sælger du Billedsorteringsarbejdsark Online',
+    title: 'Sådan sælger du sorterings-opgaver online',
     cases: [
       {
         title: 'Tematiske sorteringsarbejdsark-pakker på Etsy.dk',
@@ -140,64 +143,44 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Hvordan fungerer tokategorisorteringsmekanikken?',
+      question: 'Kan jeg sælge disse sorterings-opgaver på Etsy?',
       answer:
-        'Hvert sorteringsarbejdsark har præcis to kategorier — venstre og højre. Arbejdsarket viser to stiplede kategorirammer øverst, hvor brugerne sorterer deres billeder, og et blandet udklipsgitter nedenfor med alle billeder blandet. Brugerne klipper billederne ud fra gitteret og placerer hver i den korrekte kategoriramme. Tokategoriformatet generator en tydelig binær klassificeringsopgave, der fungerer til alle emner — dyr mod mad, land mod vand, levende mod ikke-levende og tusindvis af andre parringer.',
+        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine sorterings- og kategoriseringsopgaver som digitale downloads på Etsy.dk, som trykte aktivitetsbøger på Amazon KDP, eller via enhver anden salgskanal. Det danske marked med 5,8 millioner dansktalende har næsten ingen printbare sorteringsopgaver, hvilket giver lav konkurrence. Tokategorisorteringen, automatisk facit og 104 temaer giver dig værktøjerne til at producere unikke produkter.',
+    },
+    {
+      question: 'Hvordan laver jeg sorterings-opgaver til print?',
+      answer:
+        'Vælg tematilstand og vælg to temaer — for eksempel dyr til venstre og mad til højre. Appen henter automatisk 4–6 billeder per tema. Alternativt bruges manuel tilstand til at håndvælge billeder. Klik Generer — opgavearket viser to kategorirammer øverst og et blandet udklipsgitter nedenfor, hvor børn klipper billeder ud og sorterer dem i den korrekte gruppe. Eksporter som printklare PDF\'er med 300 DPI.',
+    },
+    {
+      question: 'Er opgaverne egnede til børnehaveklasse, indskoling og mellemtrin?',
+      answer:
+        'Ja. Til børnehaveklasse bruges 4–6 billeder med tydelige kategoriforskelle (dyr mod køretøjer) — perfekt til at lære at gruppere og kategorisere. Til indskoling (0.–3. klasse) bruges 8–10 billeder med mere subtile distinktioner (husdyr mod vilde dyr). Til mellemtrin (4.–6. klasse) bruges 12 billeder med udfordrende kategorier. At sortere og ordne er en del af læringsmålene i den danske folkeskole.',
+    },
+    {
+      question: 'På hvor mange sprog fungerer sorterings-opgaverne?',
+      answer:
+        'Generatoren understøtter 11 sprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk. Kategorietiketter bruger lokaliserede billednavne — "Kat" på dansk, "Cat" på engelsk, "Katze" på tysk. De samme temaer producerer unikke opgaveark på hvert sprog, så du kan sælge sprogspecifikke pakker eller flersprogede megapakker.',
+    },
+    {
+      question: 'Er facitlisten inkluderet?',
+      answer:
+        'Ja. Generatoren opretter automatisk en facitliste med billeder sorteret i korrekte kategorifelter — renderet med 6x størrelsen af udklipsgitterets celler for tydelig verifikation. Download facit som separat JPEG eller PDF med fire dedikerede downloadknapper. At inkludere facit i dine produktpakker øger den oplevede værdi.',
     },
     {
       question: 'Hvad er forskellen mellem tematilstand og manuel tilstand?',
       answer:
-        'Tematilstanden lader dig vælge ét tema til den venstre kategori og et andet tema til den højre kategori. Appen vælger automatisk 4–6 tilfældige billeder per tema fra billedbiblioteket, hvilket generator arbejdsark med 8–12 billeder totalt. Manuel tilstand giver dig fuldstændig kontrol: du håndvælger individuelle billeder fra ethvert tema og tildeler hver til venstre eller højre kategori. Tematilstand er hurtigere til masseproduktion; manuel tilstand er ideel til at oprette specifikke, produktkatalogtilpassede sorteringsaktiviteter.',
-    },
-    {
-      question: 'Hvor mange billeder kan jeg inkludere på hvert sorteringsarbejdsark?',
-      answer:
-        'Hvert arbejdsark understøtter 4 til 12 samlede billeder, med hver kategori, der holder mellem 2 og 10 billeder. Tematilstanden henter automatisk 4–6 billeder per tema. Manuel tilstand lader dig indstille præcise antal per kategori. Udklipsgitteret justerer sin kolonnelayout (3–4 kolonner baseret på antal) for at opretholde rent visuelt mellemrum. Færre billeder generator enklere sorteringsopgaver; flere billeder øger sværheden.',
-    },
-    {
-      question: 'Hvordan fungerer det blandede udklipsgitter?',
-      answer:
-        'Udklipsgitteret optager de nedre 55% af indholdsområdet og viser alle valgte billeder i tilfældig rækkefølge. Billeder vises i hvide celler med stiplede #666-kanter og 4px afrundede hjørner, arrangeret i 3–4 kolonner baseret på det samlede billedantal. Hver billede fylder 85% af sin celle. Brugerne klipper billederne ud langs de stiplede linjer og sorterer dem i den korrekte kategoriramme ovenfor. Blandingen sikrer, at brugerne faktisk skal klassificere hvert billede i stedet for at kopiere et mønster.',
-    },
-    {
-      question: 'Hvordan fungerer det automatisk genererede facit?',
-      answer:
-        'Generatoren bruger et dobbeltlærredssystem med en Arbejdsarkfane og en Facitfane. Facit viser to kategorifelter (ét per kategori, lige brede) med billeder sorteret i deres korrekte gruppe. Facitbilleder renderes med 6× størrelsen af udklipsgitterets celler for tydelig verifikation, med maks 2 kolonner per kategorifelt. Hvert felt bruger #FAFAFA-udfyldning med #444 stiplet streg og 12px kantradius. Begge versioner eksporteres separat med fire dedikerede downloadknapper.',
-    },
-    {
-      question: 'Hvordan fungerer den lokaliserede overskrift?',
-      answer:
-        'Hvert genereret arbejdsark inkluderer en stiliseret \"Sorter billeder\"-overskrift med mintgrøn baggrund (#4DB6AC), hvid pillecontainer, blågrøn titel (#00796B) i Fredoka Bold-skrifttype og orange beskrivelse (#FF7043) i Quicksand-skrifttype. Stående arbejdsark viser en 100px overskrift; liggende arbejdsark bruger en kompakt 70px overskrift. Titlen og beskrivelsen oversættes automatisk til alle 11 understøttede sprog: dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk.',
-    },
-    {
-      question: 'Er Billedsortering Generatoren sprogfølsom?',
-      answer:
-        'Ja. Kategorietiketter bruger lokaliserede billednavne fra Billedbiblioteket, så at skifte sprog ændrer teksten på arbejdsarket. For eksempel vises et kattebillede som \"Kat\" på dansk, men \"Cat\" på engelsk og \"Katze\" på tysk. Den lokaliserede \"Sorter billeder\"-overskrift ændres også med det valgte sprog. Kommerciel Pakke inkluderer 10 farverige temaer; Fuld Adgang låser op for alle 104 temaer og alle 11 sprog til lokaliserede kategorietiketter.',
-    },
-    {
-      question: 'Kan jeg inkludere navn- og datofelter på sorteringsarbejdsark?',
-      answer:
-        'Ja. Sæt flueben i fluebenet \"Inkluder Navn/Dato-felter\" i panelet Sideopsætning for at tilføje navn- og datolinjer på arbejdsarket. Disse felter sikrer sporbarhed i produktlinjemiljøer og gør dine sorteringsarbejdsark klar til sælgerens indsamling og bedømmelse uden yderligere forberedelse.',
+        'Tematilstand vælger automatisk 4–6 billeder per tema fra billedbiblioteket — hurtig masseproduktion af sorterings-opgaver. Manuel tilstand giver fuld kontrol: du håndvælger individuelle billeder og tildeler hver til venstre eller højre kategori. Begge tilstande producerer det samme professionelle layout med kategorirammer og blandet udklipsgitter.',
     },
     {
       question: 'Findes der en gratis prøveversion?',
       answer:
-        'Ja. Du kan bruge alle funktioner — temabaseret og manuelt kategorivalg, konfigurerbare billedantal, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
+        'Ja. Du kan bruge alle funktioner — temabaseret og manuelt kategorivalg, konfigurerbare billedantal, automatisk facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter og alle downloadformater — uden at oprette en konto, indtaste kreditkort eller installere software. Downloads fra den gratis prøveversion indeholder et lille vandmærke. En kommerciel licens fjerner vandmærket og giver fulde salgsrettigheder.',
     },
     {
-      question: 'Kan jeg tilføje baggrundstemaer og rammetemaer på sorteringsarbejdsark?',
+      question: 'Hvor mange billeder kan jeg inkludere per opgaveark?',
       answer:
-        'Ja. Panelet Sideopsætning inkluderer både en baggrundstema-vælger med en opacitetsskyder (0–1 i 0,05-trin) og en rammetema-vælger med sin egen uafhængige opacitetsskyder. Baggrundstemaer tilføjer dekorative mønstre bag sorteringsindholdet, mens rammetemaer rammer siden ind. Begge har separate opacitetskontroller, så du kan oprette subtile baggrunde med fremtrædende rammer, eller enhver kombination, der passer din design.',
-    },
-    {
-      question: 'Kan jeg sælge sorteringsarbejdsark oprettet med dette værktøj på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommerciel licens har du fulde rettigheder til at sælge dine sorteringsarbejdsark som digitale downloads på Etsy.dk, som trykte arbejdsbøger på Amazon KDP, som produktlinjeressourcer på Gumroad, eller via enhver anden salgskanal. Tokategorisorteringsmekanikken, automatisk genererede facit og 104 tematiske billedsamlinger giver dig de kreative værktøjer til at producere originale, salgbare sorteringsaktivitetsprodukter.',
-    },
-    {
-      question: 'Hvad er returpolitikken?',
-      answer:
-        'Fordi den gratis prøveversion giver dig adgang til alle funktioner, tilbyder vi ingen refusioner på køb af kommercielle licenser. Du kan teste temabaseret og manuelt kategorivalg, konfigurerbare billedantal, det automatisk genererede facit, hele billedbiblioteket, baggrunds- og rammetemaer, navn/dato-felter og alle downloadformater, før du køber. Den gratis prøveversion er returpolitikken — sikr dig, at værktøjet passer til dine behov, før du anskaffer en licens.',
+        'Hvert opgaveark understøtter 4 til 12 billeder, med 2–10 billeder per kategori. Færre billeder giver enklere sorterings-opgaver til børnehaveklasse; flere billeder øger sværheden til indskoling og mellemtrin. Udklipsgitteret justerer automatisk sit layout (3–4 kolonner) for rent visuelt mellemrum.',
     },
   ],
 
@@ -262,27 +245,27 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/picture%20sort/Sorter%20Billeder%201.webp',
-      primaryAlt: 'Tokategori billedsorteringsarbejdsark med tematiske kategorirammer, blandet udklipsgitter og lokaliseret Sorter billeder-overskrift',
+      primaryAlt: 'Sorterings-opgave til print med to kategorirammer, blandet udklipsgitter og temabilleder til kategorisering',
     },
     sampleGallery: [
       {
         src: '/samples/danish/picture%20sort/Sorter%20Billeder%201.webp',
-        alt: 'Tematilstand sorteringsarbejdsark med dyr til venstre og mad til højre kategorier',
-        caption: 'Tematilstand — automatisk udfyldte kategorier fra billedbiblioteket',
+        alt: 'Sorterings-opgave med dyr til venstre og mad til højre — børn sorterer og grupperer billeder',
+        caption: 'Tematilstand — sortere billeder i to kategorier med temabilleder',
       },
       {
         src: '/samples/danish/picture%20sort/Sorter%20Billeder%202.webp',
-        alt: 'Sorteringsarbejdsark med et andet temapar og varieret billedantal',
-        caption: 'Tematisk sortering — 104 temaer giver uendelige kategoripar-kombinationer',
+        alt: 'Kategoriserings-opgave til print med et andet temapar og varieret billedantal',
+        caption: 'Kategorisering — 104 temaer giver uendelige muligheder for at ordne og sortere',
       },
       {
         src: '/samples/danish/picture%20sort/Sorter%20Billeder%203.webp',
-        alt: 'Billedsortering facit med 6x større billeder organiseret i korrekte kategorifelter',
-        caption: 'Automatisk genereret facit — 6× større billeder i kategorifelter',
+        alt: 'Facitliste til sorterings-opgave med billeder sorteret i korrekte kategorigrupper',
+        caption: 'Automatisk facit — billeder sorteret i de korrekte kategorier',
       },
     ],
     youtubeId: '9kzmlABtNVQ',
-    videoTitle: 'Sådan Opretter du Billedsorteringsarbejdsark med Tokategorisortering og Automatiske Facit — Trin-for-Trin Guide',
+    videoTitle: 'Lav sorterings-opgaver til print med kategorisering og automatisk facit — trin-for-trin guide',
   },
 };
 

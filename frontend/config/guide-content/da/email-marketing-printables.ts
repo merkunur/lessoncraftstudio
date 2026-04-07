@@ -2,7 +2,7 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'e-mail-markedsføring printables',
+    primaryKeyword: 'e-mailmarketing for printable-sælgere',
     secondaryKeywords: [
       'e-mail-liste printable sælgere',
       'nyhedsbrev til arbejdsarksforretning',
@@ -17,12 +17,12 @@ const content: GuideContent = {
       'automatiserede sekvenser genengageringskampagne listehygiejne afsenderreputation',
       'indholdskalender e-mail-analyse A/B-test personalisering tags',
     ],
-    titleTag: 'E-mail-markedsføring printables — Sælgerstrategi',
-    metaDescription: 'E-mail-markedsføringsstrategier for printable sælgere. Byg din abonnentliste, skab leadmagneter, automatisér sekvenser og driv gentagne salg.',
+    titleTag: 'E-mailmarketing for printable-sælgere — Guide til passiv indkomst',
+    metaDescription: 'E-mailmarketing for sælgere af opgaver til print. Byg din abonnentliste, skab leadmagneter og driv gentagne salg på Etsy.dk og din egen butik.',
   },
 
   hero: {
-    title: 'E-mail-markedsføring for printable produktsælgere',
+    title: 'E-mailmarketing for printable-sælgere — byg din e-mailliste',
     tagline: 'En komplet guide til e-mail-markedsføring for printable sælgere — inklusive hvordan du vælger en e-mail-tjenesteudbyder, generator overbevisende leadmagneter, bygger højkonverterende landingssider, designer velkomstsekvenser, udvikler indholdsstrategier til nyhedsbreve, segmenterer din abonnentliste, automatiserer sæsonkampagner og sporer metrikker for løbende optimering',
     description: 'E-mail er den eneste markedsføringskanal du fuldt ud ejer og kontrollerer. Sociale mediealgoritmer ændres, søgerangeringer på markedspladser svinger, og annonceomkostninger stiger — men din e-mail-liste tilhører dig. Hver abonnent repræsenterer en direkte linje til en potentiel køber der allerede har udtrykt interesse for dine produkter. For printable sælgere forvandler e-mail-markedsføring engangskunder på markedspladser til tilbagevendende købere der køber direkte, anbefaler dine produkter og engagerer sig med hver ny udgivelse du annoncerer.',
   },

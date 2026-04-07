@@ -2,30 +2,33 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'additions arbejdsark generator for sælgere',
+    primaryKeyword: 'plusstykker generator gratis online',
     secondaryKeywords: [
-      'additions arbejdsark generator online',
-      'matematik additions arbejdsark for børn',
-      'printbare additions øvelsesark',
-      'billede additions arbejdsark til børnehave',
+      'plusstykker til print gratis',
+      'regneopgaver plus gratis',
+      'plusstykker prøv gratis',
+      'gratis plusopgaver med billeder',
     ],
     lsiKeywords: [
-      'visuelle matematik arbejdsark online',
-      'billedbaseret additions øvelse for børn',
-      'børnehave matematik printbare for sælgere',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'online',
+      'ingen tilmelding',
+      'facitliste',
     ],
-    titleTag: 'Additions Arbejdsark Generator — Matematikark til Klassen',
-    metaDescription: 'Opret additions arbejdsark med tematiske billeder til din produktlinje. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis plusstykker generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv plusstykker-generatoren gratis online med vandmærke. 104 temaer, 4 øvelsestilstande, automatisk facit. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Additions Arbejdsark Generator',
-    tagline: 'Opret smukke, billedbaserede additions arbejdsark på under 60 sekunder',
-    description: 'Forvandl matematikøvelse til et visuelt eventyr. Dette værktøj lader dig oprette tilpassede additions arbejdsark med tematiske billeder, som børn virkelig har lyst til at arbejde med. Vælg blandt mere end 100 billedtemaer, indstil din sværhedsgrad, vælg dit sidelayout og download trykklare PDF\'er eller højopløste JPEG-billeder. Perfekt til sælgere, der bygger niveauinddelte lektiepakker, forældre, der supplerer produktlinjeundervisning, og Etsy-sælgere, der opretter printbare matematikprodukter. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis plusstykker generator — prøv online med vandmærke',
+    tagline: 'Prøv plusstykker-generatoren gratis online — alle funktioner, ingen tilmelding, vandmærke på downloads',
+    description: 'Prøv vores plusstykker-generator gratis online med vandmærke. Lav billedbaserede plusopgaver med 104 temaer, 4 øvelsestilstande og automatisk facitliste — helt uden tilmelding. Vælg blandt mere end 100 billedtemaer, indstil din sværhedsgrad, vælg dit sidelayout og download trykklare PDF\'er eller højopløste JPEG-billeder. Perfekt til sælgere, der bygger niveauinddelte lektiepakker, forældre, der supplerer produktlinjeundervisning, og Etsy-sælgere, der opretter printbare matematikprodukter. Den gratis prøveversion indeholder et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Opretter du Additions Arbejdsark i 8 Enkle Trin',
+    title: 'Sådan laver du gratis plusstykker med billeder i 8 trin',
     steps: [
       {
         title: 'Åbn arbejdsark-generatoren',
@@ -153,16 +156,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort krævet. Du kan oprette, forhåndsvise og downloade så mange arbejdsark, du vil. Downloads fra den gratis prøveversion indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Er plusstykker-generatoren gratis at prøve online?',
+      answer: 'Ja. Du kan prøve plusstykker-generatoren gratis online med alle funktioner — ingen tilmelding, intet kreditkort krævet. Lav, forhåndsvis og download så mange plusopgaver med billeder, du vil. Downloads fra den gratis prøveversion indeholder et vandmærke. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
     },
     {
-      question: 'Hvilke filformater kan jeg downloade?',
-      answer: 'Du kan downloade arbejdsark som højopløste JPEG-billeder eller udskriftsoptimerede PDF-filer. Både arbejdsarket og dets matchende facit er tilgængelige i begge formater. PDF\'er er ideelle til direkte udskrift; JPEG\'er fungerer fremragende til at oprette produktmockups og sociale medie-indlæg. Til KDP-udgivelse, eksporter PDF\'er med den højeste tilgængelige opløsning for at opfylde Amazons udskriftskvalitetskrav.',
+      question: 'Hvad indeholder den gratis prøveversion af plusstykker?',
+      answer: 'Den gratis prøveversion giver fuld adgang til alle funktioner: 104 billedtemaer, 4 øvelsestilstande, automatisk facitliste, 300 DPI PDF og JPEG. Det eneste, der adskiller prøveversionen, er et vandmærke på downloads. Ingen tilmelding krævet.',
     },
     {
-      question: 'Kan jeg bruge arbejdsarkene til kommercielle formål?',
-      answer: 'Den gratis prøveversion med vandmærke er kun til personligt og produktlinjebrug. For at sælge arbejdsark på Etsy.dk, Gumroad, Amazon KDP eller enhver anden markedsplads har du brug for en kommerciel licens. Den kommercielle licens fjerner vandmærket og giver fulde videresalgsrettigheder for de arbejdsark, du opretter.',
+      question: 'Kan jeg downloade gratis plusstykker til print?',
+      answer: 'Ja. Download gratis plusstykker som højopløste JPEG-billeder eller printklare PDF-filer med vandmærke. Både plusopgaver og facitliste er tilgængelige i begge formater. PDF\'er er ideelle til direkte udskrift; JPEG\'er fungerer fremragende til produktmockups og sociale medie-indlæg.',
     },
     {
       question: 'Hvor mange billedtemaer er tilgængelige?',
@@ -208,22 +211,22 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/addition/Sjov%20Addition%201.webp',
-      primaryAlt: 'Additions arbejdsark med dyrebilleder, der viser billedbaserede matematikøvelser',
+      primaryAlt: 'Gratis plusstykker generator online — billedbaserede plusopgaver med dyretema og automatisk facit',
     },
     sampleGallery: [
       {
         src: '/samples/danish/addition/Sjov%20Addition%201.webp',
-        alt: 'Billedadditions arbejdsark med dyretema, der viser Billede + Billede-tilstand',
+        alt: 'Gratis plusstykker med dyretema — Billede + Billede-tilstand prøv online',
         caption: 'Billede + Billede-tilstand med dyretema',
       },
       {
         src: '/samples/danish/addition/Sjov%20Addition%202.webp',
-        alt: 'Additions arbejdsark med Billede + Tal-tilstand og tematiske billeder',
+        alt: 'Gratis plusopgaver med Billede + Tal-tilstand og tematiske billeder',
         caption: 'Billede + Tal-tilstand med tematiske billeder',
       },
       {
         src: '/samples/danish/addition/Sjov%20Addition%203.webp',
-        alt: 'Blandet tilstand additions arbejdsark med dekorativ ramme',
+        alt: 'Gratis plusstykker i blandet tilstand med dekorativ ramme — prøv uden tilmelding',
         caption: 'Blandet tilstand med dekorativ ramme',
       },
     ],

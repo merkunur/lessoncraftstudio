@@ -2,30 +2,32 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mønster arbejdsark generator',
+    primaryKeyword: 'mønster-opgaver generator gratis online',
     secondaryKeywords: [
-      'mønstertog arbejdsark generator for sælgere',
-      'lav gentagende mønster arbejdsark til salg',
-      'printbare mønstersekvens arbejdsark kommerciel brug',
-      'togmønster arbejdsark generator til KDP',
+      'logiske rækkefølger gratis',
+      'mønster opgaver prøv gratis',
+      'sekvens opgaver gratis til print',
     ],
     lsiKeywords: [
-      'visuel mønstergenkendelse printbare til Etsy',
-      'tekstfri togvogn mønster arbejdsark værktøj',
-      'AB ABC mønstersekvens arbejdsark generator',
+      'gratis',
+      'vandmærke',
+      'prøv',
+      'mønster',
+      'rækkefølge',
+      'sekvens',
     ],
-    titleTag: 'Mønster Arbejdsark Generator — Toggenerator | LCS',
-    metaDescription: 'Generér mønstertog arbejdsark med fem mønstertyper, 11 tematiske togvogne, justerbart ledetrådantal og automatiske. Saelg pa Etsy & KDP med kommerciel licens.',
+    titleTag: 'Gratis mønster-opgaver generator | Prøv online med vandmærke',
+    metaDescription: 'Prøv mønster-generatoren gratis online. AB, ABC, ABCD sekvenser med temabilleder. Ingen tilmelding.',
   },
 
   hero: {
-    title: 'Mønstertog Generator',
-    tagline: 'Generér gentagende mønster arbejdsark vist på 11 tematiske togvogne med fem mønstertyper, justerbart ledetrådantal og helt visuelt tekstfrit output, der sælger globalt uden oversættelse',
-    description: 'Lav professionelle mønstergenkendelse arbejdsark, hvor brugerne identificerer og fuldender gentagende sekvenser vist som billeder på et tematisk tog med 11 vogne. Fem distinkte mønstertyper dækker hvert niveau af sekvenskompleksitet: AB alternerer to objekter, AAB grupperer to af ét efterfulgt af ét af et andet, ABB vender den gruppering, ABC roterer tre forskellige objekter, og AABB parrer to af hvert før gentagelse. Toglayoutet arrangerer 11 vogne over tre rækker (5 + 3 + 3), med hver vogn der indeholder et billede fra det gentagende mønster. Én vogn efterlades tom — brugerne identificerer mønsteret og bestemmer det manglende objekt. Justér ledetrådantallet fra 4 til 10 for at kontrollere sværhedsgraden: at vise 10 ledetråde gør mønsteret åbenlyst, mens at vise kun 4 kræver ægte mønstervurdering. Det distinkte togvognslayout er et visuelt differentieringspunkt fra almindelige gitterarbejdsark. Hent fra mere end 3.100 illustrationer i 104 tematiske samlinger eller upload egne billeder. En separat facitfane viser alle 11 vogne udfyldt med den korrekte mønstersekvens. Hvert arbejdsark er helt visuelt med kun billeder på togvogne og nul tekst i outputtet. Ingen ord vises — kun billeder. Dette gør dine arbejdsark universelt sælgbare uden oversættelse: én produktannonce betjener hvert marked i verden. Eksportér trykfærdige PDF\'er og JPEG-billeder med høj DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
+    title: 'Gratis mønster-opgaver generator — prøv online med vandmærke',
+    tagline: 'Prøv mønster-opgave generatoren gratis online — fem sekvenstyper, 11 tematiske togvogne, justerbart ledetrådantal og automatisk facit. Ingen tilmelding, vandmærke på gratis downloads',
+    description: 'Prøv mønster-opgave generatoren gratis online — lav professionelle sekvens-opgaver, hvor brugerne identificerer og fuldender gentagende rækkefølger vist som billeder på et tematisk tog med 11 vogne. Fem distinkte mønstertyper dækker hvert niveau af sekvenskompleksitet: AB alternerer to objekter, AAB grupperer to af ét efterfulgt af ét af et andet, ABB vender den gruppering, ABC roterer tre forskellige objekter, og AABB parrer to af hvert før gentagelse. Toglayoutet arrangerer 11 vogne over tre rækker (5 + 3 + 3), med hver vogn der indeholder et billede fra det gentagende mønster. Én vogn efterlades tom — brugerne identificerer mønsteret og bestemmer det manglende objekt. Justér ledetrådantallet fra 4 til 10 for at kontrollere sværhedsgraden: at vise 10 ledetråde gør mønsteret åbenlyst, mens at vise kun 4 kræver ægte mønstervurdering. Det distinkte togvognslayout er et visuelt differentieringspunkt fra almindelige gitterarbejdsark. Hent fra mere end 3.100 illustrationer i 104 tematiske samlinger eller upload egne billeder. En separat facitfane viser alle 11 vogne udfyldt med den korrekte mønstersekvens. Hvert arbejdsark er helt visuelt med kun billeder på togvogne og nul tekst i outputtet. Ingen ord vises — kun billeder. Dette gør dine arbejdsark universelt sælgbare uden oversættelse: én produktannonce betjener hvert marked i verden. Eksportér trykfærdige PDF\'er og JPEG-billeder med høj DPI i Letter, A4, Kvadrat (1200×1200) eller tilpassede størrelser. Skift gråtone for blækvenligt output. Den gratis prøveversion indeholder alle funktioner med et vandmærke på downloads. Køb en licens for at fjerne vandmærket og sælge kommercielt.',
   },
 
   tutorial: {
-    title: 'Sådan Laver du Mønstertog Arbejdsark i 8 Trin',
+    title: 'Sådan laver du mønster-opgaver med togvogne i 8 trin',
     steps: [
       {
         title: 'Åbn Mønstertog Generatoren',
@@ -155,16 +157,16 @@ const content: ToolContent = {
 
   faq: [
     {
-      question: 'Findes der en gratis prøveversion?',
-      answer: 'Ja. Værktøjet tilbyder en gratis prøveversion med alle funktioner — alle fem mønstertyper, justerbart ledetrådantal fra 4 til 10, billedbiblioteket, facitgenerering og alle eksportformater. Ingen registrering, intet kreditkort kræves. Gratis prøveversions-downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
+      question: 'Kan jeg prøve mønster-generatoren gratis?',
+      answer: 'Ja. Prøv gratis online uden tilmelding — alle fem sekvenstyper, justerbart ledetrådantal fra 4 til 10, billedbiblioteket, facitgenerering og alle eksportformater er tilgængelige. Ingen registrering, intet kreditkort kræves. Gratis downloads indeholder et vandmærke. Køb en kommerciel licens for at fjerne vandmærket og låse op for salgsrettigheder.',
     },
     {
-      question: 'Hvad er de fem mønstertyper?',
-      answer: 'AB alternerer to objekter (A-B-A-B) for det enkleste gentagende mønster. AAB grupperer to af ét derefter ét af et andet (A-A-B-A-A-B). ABB vender den gruppering (A-B-B-A-B-B). ABC roterer tre forskellige objekter (A-B-C-A-B-C), kræver at brugerne sporer en længere gentagende enhed. AABB parrer to af hvert objekt (A-A-B-B-A-A-B-B) i en udvidet cyklus. Progressionen fra AB til AABB generator en naturlig sværhedsstige.',
+      question: 'Hvad er de fem mønster-rækkefølger?',
+      answer: 'AB alternerer to objekter (A-B-A-B) for den enkleste sekvens. AAB grupperer to af ét derefter ét af et andet (A-A-B-A-A-B). ABB vender den gruppering (A-B-B-A-B-B). ABC roterer tre forskellige objekter (A-B-C-A-B-C), kræver at brugerne sporer en længere gentagende enhed. AABB parrer to af hvert objekt (A-A-B-B-A-A-B-B) i en udvidet cyklus. Progressionen fra AB til AABB danner en naturlig sværhedsstige.',
     },
     {
-      question: 'Hvordan kontrollerer ledetrådantallet sværheden?',
-      answer: 'Ledetrådantallet indstiller, hvor mange af de 11 togvogne der viser billeder. De første 3 vogne er altid synlige for at etablere mønsteret. Med 10 ledetråde er kun 1 vogn tom blandt 10 udfyldte — mønsteret er meget åbenlyst. Med 4 ledetråde ser brugerne minimal information og skal vurdere omhyggeligt for at identificere sekvensen.',
+      question: 'Hvordan kontrollerer ledetrådantallet sværheden i mønster-opgaverne?',
+      answer: 'Ledetrådantallet indstiller, hvor mange af de 11 togvogne der viser billeder. De første 3 vogne er altid synlige for at etablere rækkefølgen. Med 10 ledetråde er kun 1 vogn tom blandt 10 udfyldte — sekvensen er meget åbenlys. Med 4 ledetråde ser brugerne minimal information og skal vurdere omhyggeligt for at identificere mønsteret.',
     },
     {
       question: 'Hvordan er de 11 togvogne arrangeret på siden?',
@@ -214,7 +216,7 @@ const content: ToolContent = {
   visuals: {
     heroImages: {
       primary: '/samples/danish/pattern%20train/M%C3%B8nstertoget%201.webp',
-      primaryAlt: 'Mønstertog arbejdsark med tematiske togvogne, der viser gentagende mønstersekvens med en manglende vogn for brugerne at fuldende',
+      primaryAlt: 'Gratis mønster-opgave generator med tematiske togvogne, der viser gentagende sekvens med en manglende vogn — prøv online med vandmærke',
     },
     sampleGallery: [
       {

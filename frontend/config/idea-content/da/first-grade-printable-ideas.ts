@@ -2,24 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: '1. klasse printbare idéer til salg — Nicheguide',
-    metaDescription: 'Opdag 1. klasse printbare idéer til salg på Etsy, Amazon KDP og Gumroad. Produktkoncepter og nichestrategier for sælgere rettet mod 1. klasses akademik.',
+    titleTag: 'Indskoling opgaver til print — idéer til salg på Etsy.dk & KDP',
+    metaDescription: 'Indskoling opgaver til print du kan sælge online. Plusstykker, minusstykker, ordleg og malebilleder til 1. klasse. Sælg på Etsy.dk og Amazon KDP.',
 
-    primaryKeyword: '1. klasse printbare idéer',
+    primaryKeyword: 'indskoling 1. klasse opgaver til print idéer',
     secondaryKeywords: [
-      '1. klassearbejdsark til salg',
-      '1. klasse printbar forretningsidéer',
-      '1. klasse aktivitetsark for sælgere',
-      'sælg 1. klasseprintables på Gumroad',
+      'indskoling plusstykker ordleg til print sælg online',
+      '1. klasse printbare idéer Etsy.dk sidegesjæft',
+      '1. klasse aktivitetsark til print regneopgaver',
+      'sælg indskoling opgaver malebilleder til print',
     ],
     lsiKeywords: [
-      'tidlig grundskole pædagogiske arbejdsark',
-      '1. klasse produktkatalog printables',
-      'alder 6-7 læringsaktivitetssider',
+      'indskoling regneopgaver ordleg til print sidegesjæft',
+      '1. klasse plusstykker minusstykker til print passiv indkomst',
+      'alder 6-7 opgaver til print printbar forretning',
     ],
   },
   hero: {
-    title: '1. klasse printbare forretningsidéer for sælgere',
+    title: 'Indskoling opgaver til print — forretningsidéer for sælgere',
     description: '1. klasseprintables repræsenterer en af de højest efterspurgte og mest akademisk intensive nicher på det pædagogiske printbare marked fordi 1. klasse er det afgørende år hvor børn overgår fra grundlæggende parathedssfærdigheder til ægte akademisk mestring, hvilket skaber ekstraordinær efterspørgsel fra købere der har brug for flerniveaus øvelsesmaterialer til produktlinjer med brede færdighedsintervaller og forældre der investerer tungt i supplementære ressourcer fordi 1. klasse er hvor læseflydende, regnefakta-automatisering og skriftlig kommunikation forventes at nå målbare benchmarks. De akademiske færdigheder der definerer 1. klasses produktkatalog spænder over et kritisk kompetenceområde inklusive addition og subtraktion inden for tyve, pladsværdiforståelse med tiere og enere, frekvensordsflydende på tværs af udvidede ordlister, konsonant-vokal-konsonant og konsonant-vokal-konsonant-e ordsafkodning, konsonantsammensætninger og digrafer, læseforståelse af simple passager, skrivning af komplette sætninger med korrekt grammatik og tegnsætning, klokkelæsning til hele og halve timer, identifikation og tælning af mønter, målesammenligninger og dataindsamling med simpel grafisk fremstilling. Denne akademiske intensitet skaber en kraftfuld dobbelt køberbase hvor købere på Gumroad bruger tungt på supplementære materialer fordi springet fra børnehaveklasseforventninger til 1. klasses benchmarks kræver omfattende flerniveaus øvelse på tværs af enhver færdighedsgren, og forældre på Etsy og Amazon aktivt køber hjemmeøvelsesarbejdsark fordi 1. klasses karakterkort, standardiserede vurderinger og læseniveauevalueringer gør akademisk fremskridt højt synligt og handlingsbart for familier. For printable sælgere og entreprenører kombinerer 1. klassenichen massiv helårs institutionel efterspørgsel med stærk forældrekøbsmotivation, hvilket skaber multiple omsætningsstrømme på tværs af enhver stor markedspladsplatform. Denne guide dækker specifikke produktidéer bygget omkring vores arbejdsarkgeneratorværktøjer, platformsspecifikke strategier til at nå 1. klassekøbere og nichepositioneringstilgange til at hjælpe dig med at opbygge en rentabel 1. klasse printbar produktlinje.',
   },
   marketOverview: `1. klasse printbare-nichen indtager en premium position på det pædagogiske marked fordi den betjener det klassetrin hvor akademiske forventninger stiger mest dramatisk, hvilket driver det højeste forbrug per køber på supplementære materialer af alle primære klassetrin. I modsætning til børnehaveklassen hvor læringsmål fokuserer på eksponering og parathed, kræver 1. klasses produktkatalog målbar mestring af specifikke færdigheder inklusive læseflydende ved definerede ord-per-minut benchmarks, additions- og subtraktionsfakta-automatisering inden for tyve og skriftlig sætningskonstruktion med korrekt brug af store bogstaver og tegnsætning. Denne mestringsorientering betyder at sælgere og købere køber printbare øvelsesmaterialer med klart akademisk formål og hastighed der omsættes direkte til motiveret købsadfærd på enhver markedsplads.

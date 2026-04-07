@@ -2,24 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur labyrinthe gratuit à imprimer',
+    primaryKeyword: 'générateur labyrinthes gratuit en ligne',
     secondaryKeywords: [
-      'labyrinthe gratuit en ligne',
-      'labyrinthe enfant gratuit à imprimer',
-      'créer labyrinthe gratuit',
-      'labyrinthe maternelle gratuit',
+      'labyrinthe enfant à imprimer gratuit sans inscription',
+      'créer labyrinthe gratuit en ligne',
+      'labyrinthe maternelle à imprimer gratuit',
+      'générateur labyrinthe images gratuit',
     ],
     lsiKeywords: [
+      'GS',
+      'CP',
+      'maternelle',
+      'sans inscription',
       'parcours',
       'chemin',
       'sortie',
       'motricité fine',
-      'gratuit',
-      'sans inscription',
-      'solution',
+      'concentration',
     ],
-    titleTag: 'Générateur labyrinthe gratuit à imprimer | LCS',
-    metaDescription: 'Créez des labyrinthes gratuitement en ligne. Images thématiques, solutions automatiques, PDF imprimables, sans inscription. Essai gratuit.',
+    titleTag: 'Générateur labyrinthes gratuit en ligne | LCS',
+    metaDescription: 'Générateur de labyrinthes gratuit — créez des labyrinthes avec images thématiques en ligne, sans inscription. Solutions automatiques, PDF 300 DPI. Licence commerciale pour Etsy & KDP.',
   },
 
   hero: {
@@ -205,6 +207,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet aux trois modes de jeu, à l\'algorithme LPF, aux cinq rôles d\'images, à la personnalisation des murs, au système d\'objets à collectionner, au corrigé auto-généré avec cercles roses sur les chemins de solution, aux 104 thèmes, à l\'importation d\'images personnalisées, aux thèmes de fond et de bordure, aux champs nom/date, à l\'export en niveaux de gris et à tous les formats de téléchargement, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

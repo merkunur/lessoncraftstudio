@@ -2,25 +2,27 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'fiches repérage spatial gratuit à imprimer',
+    primaryKeyword: 'fiches repérage spatial gratuit en ligne',
     secondaryKeywords: [
-      'prépositions de lieu gratuit en ligne',
-      'se repérer dans l\'espace gratuit',
-      'vocabulaire spatial gratuit',
-      'sur sous devant derrière gratuit',
+      'prépositions de lieu exercice gratuit sans inscription',
+      'se repérer dans l\'espace fiche gratuit en ligne',
+      'vocabulaire spatial maternelle GS CP gratuit',
+      'sur sous devant derrière fiche gratuit à imprimer',
     ],
     lsiKeywords: [
+      'GS',
+      'CP',
+      'maternelle',
+      'sans inscription',
       'sur',
       'sous',
       'devant',
       'derrière',
-      'espace',
-      'gratuit',
-      'sans inscription',
-      'maternelle',
+      'à côté',
+      'entre',
     ],
-    titleTag: 'Fiches repérage spatial gratuit à imprimer | LCS',
-    metaDescription: 'Créez des fiches de repérage spatial et prépositions gratuitement en ligne. Images thématiques, corrections automatiques, sans inscription. Essai gratuit.',
+    titleTag: 'Fiches repérage spatial gratuit en ligne | LCS',
+    metaDescription: 'Générateur de fiches de repérage spatial gratuit — exercices de prépositions avec images en ligne, sans inscription. Corrections automatiques, 11 langues. Licence commerciale.',
   },
 
   hero: {
@@ -202,6 +204,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

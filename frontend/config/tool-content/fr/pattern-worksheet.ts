@@ -4,23 +4,24 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'exercices suites logiques gratuit en ligne',
     secondaryKeywords: [
-      'compléter la suite gratuit à imprimer',
-      'logique visuelle gratuit en ligne',
-      'séquence à compléter gratuit',
-      'jeu de logique gratuit à imprimer',
+      'compléter la suite exercice gratuit sans inscription',
+      'logique visuelle fiche gratuit en ligne',
+      'séquence à compléter GS CP gratuit',
+      'jeu de logique à imprimer gratuit',
     ],
     lsiKeywords: [
-      'raisonnement',
+      'GS',
+      'CP',
+      'maternelle',
+      'sans inscription',
+      'raisonnement logique',
       'compléter',
       'séquence',
       'visuel',
-      'gratuit',
-      'sans inscription',
-      'GS',
-      'CP',
+      'corrections',
     ],
     titleTag: 'Exercices suites logiques gratuit en ligne | LCS',
-    metaDescription: 'Créez des exercices de suites logiques gratuitement en ligne. Séquences visuelles, images thématiques, solutions automatiques, sans inscription.',
+    metaDescription: 'Créez des exercices de suites logiques gratuitement en ligne — sans inscription. Séquences visuelles avec images thématiques, solutions automatiques, PDF 300 DPI. Licence commerciale.',
   },
 
   hero: {
@@ -202,6 +203,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet aux neuf types de motifs, aux deux modes de question, à la configuration par exercice et à tous les formats d\'export, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

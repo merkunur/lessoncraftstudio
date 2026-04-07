@@ -1,25 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'générateur fiches alphabet gratuit',
+    primaryKeyword: 'générateur fiches alphabet gratuit en ligne',
     secondaryKeywords: [
-      'fiches alphabet à imprimer gratuit',
-      'exercices alphabet maternelle gratuit',
-      'reconnaissance lettres GS CP gratuit',
-      'fiches lettres gratuit en ligne',
+      'exercices alphabet maternelle gratuit sans inscription',
+      'reconnaissance lettres GS CP gratuit en ligne',
+      'fiches lettres à imprimer gratuit',
+      'apprendre alphabet exercices gratuit PDF',
     ],
     lsiKeywords: [
-      'ABC',
+      'GS',
+      'CP',
+      'maternelle',
+      'sans inscription',
+      'ordre alphabétique',
       'majuscules',
       'minuscules',
       'reconnaissance',
-      'gratuit',
-      'sans inscription',
-      'maternelle',
-      'GS',
+      'ABC',
     ],
     titleTag: 'Générateur fiches alphabet gratuit en ligne | LCS',
-    metaDescription: 'Créez des fiches d\'alphabet gratuitement en ligne. Images thématiques, reconnaissance des lettres, sans inscription. Licence commerciale disponible.',
+    metaDescription: 'Générateur de fiches d\'alphabet gratuit — créez des exercices de reconnaissance des lettres en ligne, sans inscription. Images thématiques, 11 langues. Licence commerciale.',
   },
 
   hero: {
@@ -201,6 +202,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

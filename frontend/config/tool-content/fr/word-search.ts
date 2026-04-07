@@ -2,24 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur mots mêlés gratuit',
+    primaryKeyword: 'générateur mots mêlés gratuit avec images',
     secondaryKeywords: [
-      'créer mots mêlés gratuit en ligne',
-      'mots mêlés à imprimer gratuit',
-      'mots cachés générateur gratuit',
-      'mots mêlés personnalisés gratuit',
+      'créer mots mêlés en ligne gratuit sans inscription',
+      'mots cachés générateur gratuit à imprimer',
+      'mots mêlés personnalisés gratuit en ligne',
+      'générateur mots cachés CP CE1 CE2 gratuit',
     ],
     lsiKeywords: [
-      'grille',
-      'lettres',
-      'vocabulaire',
-      'gratuit',
+      'CP',
+      'CE1',
+      'CE2',
+      'maternelle',
       'sans inscription',
+      'grille',
+      'vocabulaire',
+      'orthographe',
       'solution',
-      'PDF',
     ],
     titleTag: 'Générateur mots mêlés gratuit en ligne | LCS',
-    metaDescription: 'Créez des mots mêlés gratuitement en ligne. 3 000+ images, grilles 5×5 à 30×30, solutions automatiques, sans inscription. Licence commerciale disponible.',
+    metaDescription: 'Générateur de mots mêlés gratuit — créez des grilles avec 3 000+ images thématiques en ligne, sans inscription. Solutions automatiques, PDF 300 DPI. Licence commerciale.',
   },
 
   hero: {
@@ -201,6 +203,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

@@ -2,24 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur message codé gratuit',
+    primaryKeyword: 'générateur cryptogrammes gratuit en ligne',
     secondaryKeywords: [
-      'cryptogramme à imprimer gratuit',
-      'code secret gratuit en ligne',
-      'message codé à imprimer gratuit',
-      'jeu de décodage gratuit',
+      'message codé à imprimer gratuit sans inscription',
+      'code secret à imprimer gratuit en ligne',
+      'déchiffrer message codé fiche gratuit',
+      'jeu de décodage à imprimer gratuit',
     ],
     lsiKeywords: [
-      'alphabet codé',
-      'déchiffrer',
-      'substitution',
-      'gratuit',
+      'CP',
+      'CE1',
       'sans inscription',
+      'alphabet codé',
+      'substitution',
+      'déchiffrer',
+      'code',
+      'lettres',
       'solution',
-      'PDF',
     ],
-    titleTag: 'Générateur message codé gratuit en ligne | LCS',
-    metaDescription: 'Créez des cryptogrammes et messages codés gratuitement en ligne. Images thématiques, solutions automatiques, sans inscription. Essai gratuit.',
+    titleTag: 'Générateur cryptogrammes gratuit en ligne | LCS',
+    metaDescription: 'Générateur de cryptogrammes gratuit — créez des messages codés avec images thématiques en ligne, sans inscription. Solutions automatiques, PDF 300 DPI. Licence commerciale.',
   },
 
   hero: {
@@ -201,6 +203,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

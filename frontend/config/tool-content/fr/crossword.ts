@@ -1,24 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'générateur mots croisés gratuit',
+    primaryKeyword: 'générateur mots croisés gratuit avec images',
     secondaryKeywords: [
-      'créer mots croisés gratuit en ligne',
-      'mots croisés à imprimer gratuit',
-      'mots croisés avec images gratuit',
-      'générateur grille mots croisés',
+      'créer mots croisés en ligne gratuit sans inscription',
+      'mots croisés personnalisés gratuit à imprimer',
+      'générateur grille mots croisés images gratuit',
+      'mots croisés CP CE1 gratuit en ligne',
     ],
     lsiKeywords: [
+      'CP',
+      'CE1',
+      'sans inscription',
       'grille',
       'indices',
-      'images',
-      'gratuit',
-      'sans inscription',
+      'horizontal',
+      'vertical',
       'solution',
-      'PDF',
+      '15×15',
     ],
     titleTag: 'Générateur mots croisés gratuit en ligne | LCS',
-    metaDescription: 'Créez des mots croisés gratuitement en ligne. Indices images, grille 15×15, solutions automatiques, sans inscription. Licence commerciale disponible.',
+    metaDescription: 'Générateur de mots croisés gratuit — créez des grilles avec indices images sur 15×15 en ligne, sans inscription. Solutions automatiques, PDF 300 DPI. Licence commerciale.',
   },
 
   hero: {
@@ -200,6 +202,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet aux quatre méthodes de saisie, au générateur de grille 15×15, au corrigé auto-généré avec grille remplie, aux 104 thèmes, à l\'importation d\'images personnalisées, à la sélection de langue, aux thèmes de fond et de bordure, à l\'export en niveaux de gris et à tous les formats de téléchargement, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

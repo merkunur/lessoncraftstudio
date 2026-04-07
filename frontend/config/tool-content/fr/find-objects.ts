@@ -2,24 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'cherche et trouve gratuit à imprimer',
+    primaryKeyword: 'générateur cherche et trouve gratuit en ligne',
     secondaryKeywords: [
-      'jeu cherche et trouve gratuit en ligne',
-      'objets cachés gratuit à imprimer',
-      'jeu d\'observation gratuit en ligne',
+      'jeu cherche et trouve fiche gratuit sans inscription',
+      'objets cachés à imprimer gratuit en ligne',
+      'jeu d\'observation à imprimer gratuit',
       'cherche et trouve maternelle gratuit',
     ],
     lsiKeywords: [
+      'GS',
+      'CP',
+      'maternelle',
+      'sans inscription',
       'observation',
       'concentration',
       'attention visuelle',
-      'gratuit',
-      'sans inscription',
-      'solution',
-      'PDF',
+      'trouver',
+      'repérer',
     ],
-    titleTag: 'Cherche et trouve gratuit à imprimer | LCS',
-    metaDescription: 'Créez des fiches « cherche et trouve » gratuitement en ligne. Images thématiques, solutions automatiques, sans inscription. Essai gratuit.',
+    titleTag: 'Générateur cherche et trouve gratuit en ligne | LCS',
+    metaDescription: 'Générateur « cherche et trouve » gratuit — créez des fiches d\'observation avec images thématiques en ligne, sans inscription. Solutions automatiques. Licence commerciale.',
   },
 
   hero: {
@@ -205,6 +207,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet aux deux modes d\'activité, aux quantités d\'objets configurables, à l\'algorithme sans chevauchement, au corrigé auto-généré avec annotations en cercles rouges, à la légende Je Vois Je Vois, aux 104 thèmes, à l\'importation d\'images personnalisées, aux thèmes de fond et de bordure, aux champs nom et date, à l\'export en niveaux de gris et à tous les formats de téléchargement, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

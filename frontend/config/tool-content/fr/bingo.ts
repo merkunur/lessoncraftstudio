@@ -1,25 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'générateur cartes loto gratuit',
+    primaryKeyword: 'générateur cartes loto gratuit avec images',
     secondaryKeywords: [
-      'créer cartes bingo gratuit en ligne',
-      'loto images gratuit à imprimer',
+      'créer cartes bingo gratuit sans inscription',
+      'loto images à imprimer gratuit en ligne',
       'créer loto personnalisé gratuit',
-      'cartes de bingo gratuit en ligne',
+      'cartes de bingo à imprimer gratuit',
     ],
     lsiKeywords: [
+      'GS',
+      'CP',
+      'maternelle',
+      'sans inscription',
       'loto',
       'bingo',
+      'jeu de société',
       'cartes',
       'tirage',
-      'gratuit',
-      'sans inscription',
-      'PDF',
-      'classe',
     ],
-    titleTag: 'Générateur cartes loto/bingo gratuit en ligne | LCS',
-    metaDescription: 'Créez des cartes de loto/bingo gratuitement en ligne. 3 000+ images thématiques, cartes uniques par set, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Générateur cartes de loto gratuit en ligne | LCS',
+    metaDescription: 'Générateur de cartes de loto/bingo gratuit — créez des cartes avec 3 000+ images thématiques en ligne, sans inscription. Cartes uniques par set. Licence commerciale.',
     },
 
   hero: {
@@ -205,6 +206,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet à toutes les tailles de grille, la génération par lot jusqu\'à 10 cartes, l\'export ZIP, les deux modes de remplissage pour les cases et les jetons, la feuille d\'appel, la sélection personnalisée des appels, les 104 thèmes, le téléchargement d\'images personnalisées, les thèmes de fond et de bordure, l\'export en niveaux de gris et tous les formats de téléchargement, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

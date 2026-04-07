@@ -2,24 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'chasse au trésor gratuit à imprimer',
+    primaryKeyword: 'générateur chasse au trésor gratuit en ligne',
     secondaryKeywords: [
-      'jeu de piste gratuit à imprimer',
-      'chasse au trésor fiche gratuit',
-      'indices chasse au trésor gratuit',
+      'jeu de piste à imprimer gratuit sans inscription',
+      'chasse au trésor fiche gratuit en ligne',
+      'indices chasse au trésor gratuit à imprimer',
       'jeu de piste enfants gratuit',
     ],
     lsiKeywords: [
+      'GS',
+      'CP',
+      'CE1',
+      'sans inscription',
       'indices',
       'aventure',
       'anniversaire',
       'jeu de piste',
-      'gratuit',
-      'sans inscription',
-      'PDF',
+      'énigmes',
     ],
-    titleTag: 'Chasse au trésor gratuit à imprimer | LCS',
-    metaDescription: 'Créez des fiches de chasse au trésor et jeux de piste gratuitement en ligne. Images thématiques, PDF imprimables, sans inscription. Essai gratuit.',
+    titleTag: 'Générateur chasse au trésor gratuit en ligne | LCS',
+    metaDescription: 'Générateur de chasse au trésor gratuit — créez des fiches de jeux de piste avec images thématiques en ligne, sans inscription. PDF imprimables. Licence commerciale.',
   },
 
   hero: {
@@ -201,6 +203,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet aux deux types de direction, à la grille de coordonnées 5×5, à la génération de puzzle à 6 images avec 4 déplacements directionnels, au corrigé auto-généré avec case du trésor surlignée, aux 104 thèmes, aux trois méthodes d\'importation d\'images, aux thèmes de fond et de bordure, à la sélection de langue pour 11 jeux de directions localisés, à l\'export en niveaux de gris et à tous les formats de téléchargement, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

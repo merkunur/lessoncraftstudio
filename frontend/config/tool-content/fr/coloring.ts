@@ -1,24 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'générateur coloriage gratuit en ligne',
+    primaryKeyword: 'générateur coloriages gratuit avec images',
     secondaryKeywords: [
-      'créer coloriage gratuit à imprimer',
-      'coloriage personnalisé gratuit',
-      'fabriquer coloriage gratuit en ligne',
-      'dessin à colorier gratuit créer',
+      'créer coloriage à imprimer gratuit sans inscription',
+      'coloriage personnalisé gratuit en ligne',
+      'générateur coloriages à imprimer gratuit',
+      'dessin à colorier créer gratuit',
     ],
     lsiKeywords: [
+      'maternelle',
+      'sans inscription',
       'dessin',
       'colorier',
       'contours',
       'noir et blanc',
-      'gratuit',
-      'sans inscription',
-      'PDF',
+      'thèmes',
+      'enfants',
+      'adultes',
     ],
-    titleTag: 'Générateur coloriage gratuit en ligne | LCS',
-    metaDescription: 'Créez des coloriages gratuitement en ligne. 3 000+ images thématiques, contours haute résolution, PDF imprimables, sans inscription. Essai gratuit.',
+    titleTag: 'Générateur coloriages gratuit en ligne | LCS',
+    metaDescription: 'Générateur de coloriages gratuit — créez des pages à colorier à partir de 3 000+ images thématiques en ligne, sans inscription. PDF haute résolution. Licence commerciale pour Etsy & KDP.',
     },
 
   hero: {
@@ -200,6 +202,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet au canevas libre, aux 104 thèmes, au dessin à main levée, aux aides pour la vente, à l\'export en niveaux de gris et à tous les formats d\'export, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

@@ -2,25 +2,28 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur sudoku gratuit à imprimer',
+    primaryKeyword: 'générateur sudoku images gratuit en ligne',
     secondaryKeywords: [
-      'sudoku gratuit en ligne',
-      'sudoku enfant gratuit à imprimer',
-      'sudoku images gratuit',
-      'créer grille sudoku gratuit',
+      'sudoku enfant à imprimer gratuit sans inscription',
+      'créer grille sudoku gratuit en ligne',
+      'sudoku images à imprimer gratuit',
+      'générateur sudoku 4x4 6x6 gratuit',
     ],
     lsiKeywords: [
+      'GS',
+      'CP',
+      'CE1',
+      'sans inscription',
       'grille',
       'logique',
-      'chiffres',
       'images',
-      'gratuit',
-      'sans inscription',
+      'facile',
+      'difficile',
       '4x4',
       '6x6',
     ],
-    titleTag: 'Générateur sudoku gratuit à imprimer | LCS',
-    metaDescription: 'Créez des sudoku gratuitement en ligne. Images ou chiffres, difficulté réglable, solutions automatiques, sans inscription. Licence commerciale disponible.',
+    titleTag: 'Générateur sudoku images gratuit en ligne | LCS',
+    metaDescription: 'Générateur de sudoku gratuit — créez des grilles avec images ou chiffres, difficulté réglable, en ligne sans inscription. Solutions automatiques. Licence commerciale pour Etsy & KDP.',
   },
 
   hero: {
@@ -206,6 +209,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet aux trois niveaux de difficulté, à la sélection par thème et manuelle, au corrigé auto-généré avec grille complète remplie, aux 104 thèmes, à l\'importation d\'images personnalisées, au design premium de grille, aux thèmes de fond et de bordure, aux outils texte, à l\'export en niveaux de gris et à tous les formats de téléchargement, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

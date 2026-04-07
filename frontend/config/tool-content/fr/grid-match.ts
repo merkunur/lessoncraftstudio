@@ -2,24 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'dessin sur quadrillage gratuit à imprimer',
+    primaryKeyword: 'dessin sur quadrillage gratuit en ligne',
     secondaryKeywords: [
-      'reproduction quadrillage gratuit en ligne',
-      'pixel art gratuit à imprimer',
+      'reproduire sur quadrillage fiche gratuit sans inscription',
+      'pixel art à imprimer gratuit en ligne',
       'reproduction sur grille gratuit',
-      'symétrie quadrillage gratuit',
+      'symétrie quadrillage exercice gratuit',
     ],
     lsiKeywords: [
+      'GS',
+      'CP',
+      'CE1',
+      'sans inscription',
       'quadrillage',
       'reproduire',
       'copier',
-      'gratuit',
-      'sans inscription',
-      'solution',
-      'PDF',
+      'symétrie',
+      'repérage spatial',
     ],
-    titleTag: 'Dessin sur quadrillage gratuit à imprimer | LCS',
-    metaDescription: 'Créez des fiches de reproduction sur quadrillage gratuitement en ligne. Images thématiques, corrections automatiques, sans inscription. Essai gratuit.',
+    titleTag: 'Dessin sur quadrillage gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches de reproduction sur quadrillage gratuitement en ligne — sans inscription. Images thématiques, corrections automatiques, PDF imprimables. Licence commerciale.',
   },
 
   hero: {
@@ -205,6 +207,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet à toutes les tailles de grille, aux cases-indices ajustables, au corrigé auto-généré avec cercles numérotés, aux 104 thèmes, au téléchargement d\'images personnalisées, aux thèmes de fond et de bordure, à l\'export en niveaux de gris et à tous les formats d\'export, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

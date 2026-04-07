@@ -2,24 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'cherche et compte gratuit à imprimer',
+    primaryKeyword: 'générateur cherche et compte gratuit en ligne',
     secondaryKeywords: [
-      'dénombrement maternelle gratuit en ligne',
-      'compter les objets exercice gratuit',
-      'jeu dénombrement GS CP gratuit',
-      'cherche et compte gratuit en ligne',
+      'dénombrement maternelle fiche gratuit sans inscription',
+      'compter les objets exercice gratuit en ligne',
+      'combien y en a-t-il fiche gratuit',
+      'jeu de dénombrement GS CP gratuit à imprimer',
     ],
     lsiKeywords: [
-      'dénombrer',
-      'compter',
-      'discrimination visuelle',
-      'gratuit',
-      'sans inscription',
       'GS',
       'CP',
+      'maternelle',
+      'sans inscription',
+      'dénombrer',
+      'combien',
+      'compter',
+      'discrimination visuelle',
+      'corrections',
     ],
-    titleTag: 'Cherche et compte gratuit à imprimer | LCS',
-    metaDescription: 'Créez des fiches « cherche et compte » gratuitement en ligne. Images thématiques, corrections automatiques, sans inscription. Essai gratuit.',
+    titleTag: 'Générateur cherche et compte gratuit en ligne | LCS',
+    metaDescription: 'Générateur « cherche et compte » gratuit — créez des fiches de dénombrement avec images thématiques en ligne, sans inscription. Corrections automatiques. Licence commerciale.',
   },
 
   hero: {
@@ -205,6 +207,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet aux deux modes d\'activité, aux quatre types de tâches, au Repérage de Lettres avec alphabets spécifiques à la langue, à la densité de grille configurable, au corrigé auto-généré avec annotations rouges, aux étiquettes d\'images localisées dans 11 langues, aux 104 thèmes, à l\'importation d\'images personnalisées, aux thèmes de fond et de bordure, aux champs nom/date, à l\'export en niveaux de gris et à tous les formats de téléchargement, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

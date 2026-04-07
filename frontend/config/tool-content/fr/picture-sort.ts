@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'fiches tri et classement gratuit',
+    primaryKeyword: 'fiches tri et classement gratuit en ligne',
     secondaryKeywords: [
-      'exercice trier et ranger gratuit',
-      'classement images gratuit en ligne',
-      'catégoriser exercice gratuit',
-      'tri maternelle gratuit à imprimer',
+      'exercice trier et ranger maternelle gratuit sans inscription',
+      'classement images fiche gratuit en ligne',
+      'catégoriser exercice à imprimer gratuit',
+      'tri maternelle GS gratuit',
     ],
     lsiKeywords: [
+      'GS',
+      'CP',
+      'maternelle',
+      'sans inscription',
       'trier',
       'classer',
       'ranger',
       'catégoriser',
-      'gratuit',
-      'sans inscription',
-      'solution',
-      'PDF',
+      'grouper',
     ],
     titleTag: 'Fiches tri et classement gratuit en ligne | LCS',
-    metaDescription: 'Créez des fiches de tri et classement gratuitement en ligne. Images thématiques, corrections automatiques, sans inscription. Licence commerciale disponible.',
+    metaDescription: 'Créez des fiches de tri et classement gratuitement en ligne — sans inscription. Images thématiques, corrections automatiques, PDF imprimables. Licence commerciale.',
   },
 
   hero: {
@@ -206,6 +207,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet aux deux modes de sélection, au nombre d\'images configurable de 4 à 12, au corrigé auto-généré, aux 104 thèmes, à l\'importation d\'images personnalisées, aux thèmes de fond et de bordure, aux champs nom/date, à l\'en-tête localisé en 11 langues, à l\'export en niveaux de gris et à tous les formats de téléchargement, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

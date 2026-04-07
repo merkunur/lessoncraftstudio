@@ -2,24 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'puzzle pièces manquantes gratuit à imprimer',
+    primaryKeyword: 'puzzle pièces manquantes gratuit en ligne',
     secondaryKeywords: [
-      'jeu pièce manquante gratuit en ligne',
-      'compléter le puzzle gratuit',
-      'observation visuelle gratuit',
-      'jeu logique visuelle gratuit',
+      'jeu pièce manquante fiche gratuit sans inscription',
+      'compléter le puzzle exercice gratuit en ligne',
+      'observation visuelle fiche gratuit à imprimer',
+      'jeu logique visuelle gratuit en ligne',
     ],
     lsiKeywords: [
+      'GS',
+      'CP',
+      'maternelle',
+      'sans inscription',
       'puzzle',
       'compléter',
       'observer',
-      'raisonnement',
-      'gratuit',
-      'sans inscription',
-      'solution',
+      'raisonnement visuel',
+      'corrections',
     ],
-    titleTag: 'Puzzle pièces manquantes gratuit à imprimer | LCS',
-    metaDescription: 'Créez des fiches « pièces manquantes » gratuitement en ligne. Images thématiques, solutions automatiques, sans inscription. Essai gratuit.',
+    titleTag: 'Pièces manquantes gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches « pièces manquantes » gratuitement en ligne — sans inscription. Images thématiques, solutions automatiques, PDF 300 DPI. Licence commerciale disponible.',
   },
 
   hero: {
@@ -205,6 +207,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet aux 6 formes de pièces, 1–5 pièces manquantes, 2–6 options de réponse avec distractrices, le corrigé auto-généré, les 104 thèmes, l\'importation d\'images personnalisées, les thèmes de fond et de bordure, la double bordure, l\'export en niveaux de gris et tous les formats de téléchargement, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

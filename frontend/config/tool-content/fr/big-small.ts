@@ -1,25 +1,27 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'fiches grand petit gratuit à imprimer',
+    primaryKeyword: 'fiches grand petit gratuit en ligne',
     secondaryKeywords: [
-      'comparaison tailles gratuit en ligne',
-      'ranger par taille gratuit',
-      'plus grand plus petit gratuit',
+      'comparaison tailles maternelle gratuit sans inscription',
+      'ranger par taille exercice gratuit en ligne',
+      'plus grand plus petit fiche gratuit à imprimer',
       'classement taille maternelle gratuit',
     ],
     lsiKeywords: [
+      'PS',
+      'MS',
+      'GS',
+      'maternelle',
+      'sans inscription',
       'grand',
       'petit',
-      'comparer',
-      'trier',
+      'moyen',
       'ranger',
-      'gratuit',
-      'sans inscription',
-      'maternelle',
+      'comparer',
     ],
-    titleTag: 'Fiches grand/petit gratuit à imprimer | LCS',
-    metaDescription: 'Créez des fiches de comparaison de tailles gratuitement en ligne. Images thématiques, corrections automatiques, sans inscription. Essai gratuit.',
+    titleTag: 'Fiches grand petit gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches de comparaison de tailles gratuitement en ligne — sans inscription. Grand vs petit, tri par taille, corrections automatiques. Licence commerciale disponible.',
     },
 
   hero: {
@@ -201,6 +203,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

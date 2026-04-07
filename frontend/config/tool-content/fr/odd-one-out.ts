@@ -2,24 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'cherche l\'intrus gratuit à imprimer',
+    primaryKeyword: 'cherche l\'intrus gratuit en ligne',
     secondaryKeywords: [
-      'jeu de l\'intrus gratuit en ligne',
-      'trouver l\'intrus gratuit',
-      'quel est l\'intrus gratuit',
-      'jeu logique intrus gratuit',
+      'jeu de l\'intrus fiche gratuit sans inscription',
+      'trouver l\'intrus exercice gratuit en ligne',
+      'quel est l\'intrus maternelle gratuit à imprimer',
+      'jeu logique intrus gratuit en ligne',
     ],
     lsiKeywords: [
+      'GS',
+      'CP',
+      'maternelle',
+      'sans inscription',
       'catégorie',
       'classification',
       'logique',
       'raisonnement',
-      'gratuit',
-      'sans inscription',
-      'solution',
+      'corrections',
     ],
-    titleTag: 'Cherche l\'intrus gratuit à imprimer | LCS',
-    metaDescription: 'Créez des fiches « cherche l\'intrus » gratuitement en ligne. Images thématiques, corrections automatiques, sans inscription. Essai gratuit.',
+    titleTag: 'Cherche l\'intrus gratuit en ligne | LCS',
+    metaDescription: 'Générateur « cherche l\'intrus » gratuit — créez des fiches de raisonnement logique avec images en ligne, sans inscription. Corrections automatiques. Licence commerciale.',
   },
 
   hero: {
@@ -205,6 +207,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet aux deux modes de génération, aux remplacements par exercice, au système à deux thèmes, aux nombres d\'exercices configurables, au corrigé auto-généré avec marqueurs cercle rouge, aux 104 thèmes, à l\'importation d\'images personnalisées, aux thèmes de fond et de bordure, aux champs nom/date, aux numéros d\'exercices, à l\'export en niveaux de gris et à tous les formats de téléchargement, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

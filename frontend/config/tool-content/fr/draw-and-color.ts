@@ -2,24 +2,25 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'fiches dessin gratuit à imprimer',
+    primaryKeyword: 'fiches dessin et coloriage gratuit en ligne',
     secondaryKeywords: [
-      'activités dessin gratuit en ligne',
-      'fiches arts visuels gratuit',
-      'dessin guidé gratuit à imprimer',
-      'activité coloriage dessin gratuit',
+      'activités dessin à imprimer gratuit sans inscription',
+      'fiches arts visuels à imprimer gratuit en ligne',
+      'dessin guidé fiche gratuit',
+      'activité coloriage et dessin gratuit à imprimer',
     ],
     lsiKeywords: [
+      'maternelle',
+      'GS',
+      'CP',
+      'sans inscription',
       'dessin guidé',
       'arts visuels',
       'créativité',
-      'gratuit',
-      'sans inscription',
-      'PDF',
-      'maternelle',
+      'colorier',
     ],
     titleTag: 'Fiches dessin et coloriage gratuit en ligne | LCS',
-    metaDescription: 'Créez des fiches de dessin guidé et coloriage gratuitement en ligne. Images thématiques, PDF imprimables, sans inscription. Essai gratuit.',
+    metaDescription: 'Créez des fiches de dessin guidé et coloriage gratuitement en ligne — sans inscription. Images thématiques, PDF 300 DPI. Licence commerciale pour Etsy & KDP.',
   },
 
   hero: {
@@ -201,6 +202,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet à toutes les tailles de grille, tous les pourcentages d\'indices, tous les modes de symétrie et tous les formats d\'export, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

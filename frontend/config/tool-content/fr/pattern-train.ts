@@ -2,25 +2,26 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'générateur suites logiques gratuit',
+    primaryKeyword: 'générateur suites logiques gratuit en ligne',
     secondaryKeywords: [
-      'fiches suite logique gratuit à imprimer',
-      'algorithme maternelle gratuit en ligne',
-      'exercices suites logiques gratuit',
-      'motifs à compléter gratuit',
+      'algorithme maternelle fiche gratuit sans inscription',
+      'exercices suites logiques GS CP gratuit en ligne',
+      'reproduire un algorithme fiche gratuit',
+      'motifs à compléter gratuit à imprimer',
     ],
     lsiKeywords: [
+      'GS',
+      'CP',
+      'maternelle',
+      'sans inscription',
       'algorithme',
       'AB',
       'ABC',
+      'répéter',
       'séquence',
-      'gratuit',
-      'sans inscription',
-      'maternelle',
-      'GS',
     ],
     titleTag: 'Générateur suites logiques gratuit en ligne | LCS',
-    metaDescription: 'Créez des fiches de suites logiques gratuitement en ligne. Motifs AB, ABC, ABCD avec images thématiques, sans inscription. Essai gratuit.',
+    metaDescription: 'Générateur de suites logiques gratuit — créez des fiches d\'algorithmes AB, ABC, ABCD avec images en ligne, sans inscription. Solutions automatiques. Licence commerciale.',
   },
 
   hero: {
@@ -202,6 +203,10 @@ const content: ToolContent = {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

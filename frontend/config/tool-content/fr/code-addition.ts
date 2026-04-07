@@ -3,22 +3,24 @@ import type { ToolContent } from '../types';
 const content: ToolContent = {  seo: {
     primaryKeyword: 'message codé maths gratuit en ligne',
     secondaryKeywords: [
-      'fiches code secret calcul gratuit',
-      'générateur message codé addition',
-      'déchiffrer code maths à imprimer gratuit',
-      'jeu de code maths en ligne',
+      'code secret calcul fiche gratuit sans inscription',
+      'déchiffrer code addition exercice en ligne gratuit',
+      'jeu de code maths CP CE1 gratuit à imprimer',
+      'générateur message codé addition gratuit',
     ],
     lsiKeywords: [
       'CP',
       'CE1',
-      'gratuit',
+      'maternelle',
+      'GS',
       'sans inscription',
       'déchiffrer',
       'code secret',
-      'corrections',
+      'message caché',
+      'énigme',
     ],
     titleTag: 'Message codé maths gratuit en ligne | LCS',
-    metaDescription: 'Créez des fiches de message codé maths gratuitement. Les enfants résolvent des additions pour déchiffrer un code secret. Sans inscription. Essai gratuit.',
+    metaDescription: 'Créez des fiches de message codé maths gratuitement en ligne — sans inscription. Les enfants résolvent des additions pour déchiffrer un code secret. Corrections incluses. Licence commerciale.',
   },
 
   hero: {
@@ -196,6 +198,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Testez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

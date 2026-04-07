@@ -1,24 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'puzzle maths gratuit à imprimer',
+    primaryKeyword: 'puzzle maths gratuit en ligne',
     secondaryKeywords: [
-      'jeux de maths gratuit en ligne',
-      'casse-tête mathématique à imprimer gratuit',
-      'générateur puzzle maths gratuit',
-      'énigme maths en ligne',
+      'jeux de maths à imprimer gratuit sans inscription',
+      'casse-tête mathématique fiche gratuit en ligne',
+      'énigme maths CP CE1 gratuit à imprimer',
+      'générateur puzzle maths images gratuit',
     ],
     lsiKeywords: [
       'CP',
       'CE1',
-      'gratuit',
+      'maternelle',
       'sans inscription',
-      'logique',
+      'casse-tête',
       'images',
+      'associer',
+      'logique',
       'corrections',
     ],
-    titleTag: 'Puzzle maths gratuit à imprimer | LCS',
-    metaDescription: 'Créez des puzzles mathématiques gratuitement en ligne. Les enfants résolvent des calculs pour assembler les images. Sans inscription. Essai gratuit.',
+    titleTag: 'Puzzle maths gratuit en ligne | LCS',
+    metaDescription: 'Créez des puzzles mathématiques gratuits en ligne — sans inscription. Les enfants résolvent des calculs pour associer les images. Corrections incluses. Licence commerciale disponible.',
   },
 
   hero: {
@@ -196,6 +198,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

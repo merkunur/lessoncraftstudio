@@ -1,24 +1,26 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'fiches dénombrement gratuit à imprimer',
+    primaryKeyword: 'fiches dénombrement et diagrammes gratuit en ligne',
     secondaryKeywords: [
-      'exercices compter et diagramme gratuit',
-      'générateur dénombrement en ligne',
-      'fiches graphiques maternelle gratuit',
-      'compter et classer gratuit',
+      'exercices compter et diagramme gratuit sans inscription',
+      'fiches graphiques maternelle GS CP gratuit à imprimer',
+      'dénombrement et tableau fiche gratuit en ligne',
+      'compter et classer exercices gratuit PDF',
     ],
     lsiKeywords: [
       'GS',
       'CP',
-      'gratuit',
+      'maternelle',
       'sans inscription',
       'tableau',
-      'diagramme',
+      'graphique',
+      'diagramme en bâtons',
       'dénombrer',
+      'données',
     ],
-    titleTag: 'Fiches dénombrement gratuit en ligne | LCS',
-    metaDescription: 'Créez des fiches de dénombrement et diagrammes gratuitement en ligne. Images thématiques, corrections automatiques. Sans inscription. Essai gratuit.',
+    titleTag: 'Fiches dénombrement et diagrammes gratuit en ligne | LCS',
+    metaDescription: 'Créez des fiches de dénombrement et diagrammes gratuitement en ligne — sans inscription. Images thématiques, corrections automatiques, PDF imprimables. Licence commerciale disponible.',
   },
 
   hero: {
@@ -200,6 +202,10 @@ const content: ToolContent = {  seo: {
     {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet au système double canevas, au corrigé automatique, aux 104 thèmes, aux thèmes de fond et de bordure, aux en-têtes localisés, aux champs nom/date, à l\'export en niveaux de gris et à tous les formats d\'export, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
+    },
+    {
+      question: 'Ces fiches sont-elles adaptées à la maternelle et au primaire (GS, CP, CE1) ?',
+      answer: 'Oui. Les fiches générées conviennent à la maternelle (PS, MS, GS), au CP, CE1, CE2 et au-delà. Au Québec, cela correspond au préscolaire et aux premières années du primaire. En Belgique et en Suisse romande, les niveaux équivalents sont également couverts. La difficulté est ajustable pour chaque niveau.',
     },
   ],
 

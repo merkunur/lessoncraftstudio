@@ -79,8 +79,8 @@ const bundlesContent: Record<string, {
   es: {
     heroTitle: 'Paquetes de generadores con licencia comercial',
     heroDescription: 'Ahorre con paquetes por categoría. Obtenga todos los generadores de una categoría con licencia comercial a precio de paquete.',
-    metaTitle: 'Paquetes con licencia comercial | LCS',
-    metaDescription: 'Todos los generadores de una categoría a precio de paquete. 6 paquetes de matemáticas, lectura, dibujo, asociación, puzzles y búsqueda. Licencia comercial.',
+    metaTitle: 'Paquetes de generadores | Hasta 57 % de ahorro',
+    metaDescription: 'Todos los generadores de una categoría a precio de paquete. 6 paquetes: matemáticas, lectura, dibujo, asociación, puzzles y búsqueda. Licencia comercial incluida.',
     ctaTitle: 'Pruebe antes de comprar',
     ctaDescription: 'Todos los generadores son gratis para probar con marca de agua. Compruebe la calidad antes de comprar.',
     ctaButton: 'Probar generadores gratis',

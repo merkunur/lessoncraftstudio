@@ -192,6 +192,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kokovertailutyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
     },
     {
+      question: 'Sopivatko kokovertailutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Kokovertailutehtävät sopivat erinomaisesti esiopetukseen (iso vs. pieni), alkuopetukseen (järjestä koon mukaan) ja alakoulun alkuun (vertaa mittoja). Visuaalinen vertailu on intuitiivista jo pienimmille lapsille.',
+    },
+    {
+      question: 'Noudattavatko kokovertailutehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n matematiikan tavoitteita T3 (luokittelu ja vertailu) ja esiopetuksen mittaamisen ja vertailun perusteita. Koon vertailu, sarjoittaminen ja järjestäminen ovat keskeisiä matemaattisia taitoja.',
+    },
+    {
+      question: 'Miten luon kokovertailutehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuvat kirjastosta, aseta vertailutyyppi (iso vs. pieni tai järjestä) ja napsauta Luo. Generaattori luo automaattisesti kokovertailutehtävän vastausavaimineen.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa hyvityksiä kaupallisten lisenssien ostoista. Voit testata jokaista kysymystyyppiä, jokaista kuvatilaa, jokaista harjoituskonfiguraatiota, jokaista vientimuotoa ja jokaista sivukokoa ennen ostoa. Ilmainen kokeilu on palautuskäytäntö.',
@@ -213,6 +228,16 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'matching-worksheets',
       anchorText: 'Yhdistäminen Työarkkien Generaattori',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-big-small-worksheets',
+      anchorText: 'Opas kokovertailutyöarkkien luomiseen ja myymiseen',
+    },
+    {
+      pageType: 'bundle',
+      slug: 'visual-bundle',
+      anchorText: 'Visuaalinen Paketti — Kaikki Visuaaliset Työkalut Yhdessä',
     },
   ],
 

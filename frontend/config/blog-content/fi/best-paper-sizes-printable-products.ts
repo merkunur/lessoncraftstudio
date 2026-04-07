@@ -14,7 +14,7 @@ const content: BlogContent = {
       'PDF-asetukset tulostus',
     ],
     titleTag: 'Paras paperikoko tulosteille | LCS',
-    metaDescription: 'A4, Letter vai Half Letter? Valitse oikea paperikoko tulostettaville tuotteille eri markkinoille ja alustoille.',
+    metaDescription: 'A4, Letter vai Half Letter? Valitse oikea paperikoko tulosteillesi. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Parhaat paperikoot tulostettaville tuotteille',

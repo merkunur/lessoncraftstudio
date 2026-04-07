@@ -14,7 +14,7 @@ const content: BlogContent = {
       'kieliversiot tulostettavat tuotteet',
     ],
     titleTag: 'Myy tulostettavia 11 kielellä | LCS',
-    metaDescription: 'Laajenna tulosteliiketoimintasi 11 kielelle. Jokainen kieliversio avaa uuden markkinan minimaalisella lisätyöllä.',
+    metaDescription: 'Laajenna tulosteliiketoimintasi 11 kielelle ja avaa uusia markkinoita. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: '11 kielta: myy tulosteita globaalisti',

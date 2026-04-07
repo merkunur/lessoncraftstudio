@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Etsy pakettimyynti strategia',
     ],
     titleTag: 'Matematiikkapaketit jotka myyvät | LCS',
-    metaDescription: 'Rakenna matematiikkatyöarkkipaketteja jotka myyvät Etsyssä. Paketointi, hinnoittelu ja sisältöehdotukset.',
+    metaDescription: 'Rakenna matematiikkatyöarkkipaketteja jotka myyvät. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Matematiikkatyoarkkipaketit jotka myyvat oikeasti',

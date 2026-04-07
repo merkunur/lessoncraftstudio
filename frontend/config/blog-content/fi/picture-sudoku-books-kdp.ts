@@ -14,7 +14,7 @@ const content: BlogContent = {
       'pulmakirjat pienille lapsille',
     ],
     titleTag: 'Kuvasudokukirjat KDP:ssä | LCS',
-    metaDescription: 'Julkaise kuvasudokukirjoja Amazon KDP:ssä. Sudoku ilman numeroita sopii pienille lapsille. Kasvava niche.',
+    metaDescription: 'Julkaise kuvasudokukirjoja Amazon KDP:ssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kuvasudokukirjat KDP-tuotteena',

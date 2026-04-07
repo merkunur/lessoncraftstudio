@@ -14,7 +14,7 @@ const content: BlogContent = {
       'palapelitehtävät KDP-kirja',
     ],
     titleTag: 'Puuttuvat palat -kirjat KDP:ssä | LCS',
-    metaDescription: 'Julkaise puuttuvat palat -pulmatehtäväkirjoja KDP:ssä. Ainutlaatuinen niche joka kehittää visuaalista päättelyä.',
+    metaDescription: 'Julkaise puuttuvat palat -pulmatehtäväkirjoja KDP:ssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Puuttuvat palat -palapelit KDP-tuotteena',

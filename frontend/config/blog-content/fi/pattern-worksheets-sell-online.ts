@@ -14,7 +14,7 @@ const content: BlogContent = {
       'kuvioharjoitukset esikoulu',
     ],
     titleTag: 'Kuviotyöarkit verkkomyyntiin | LCS',
-    metaDescription: 'Myy kuviotyöarkkeja verkossa. Hahmontunnistus on avaintaito jonka jokainen lapsi harjoittelee. Vakaa kysyntä.',
+    metaDescription: 'Myy kuviotyöarkkeja verkossa vakaalla kysynnällä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kuviotyoarkit: hahmontunnistuksen myyntituote',

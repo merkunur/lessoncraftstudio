@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tuotevalikoiman virheet',
     ],
     titleTag: 'Tulosteliiketoiminnan 10 virhettä | LCS',
-    metaDescription: 'Vältä 10 yleisintä virhettä tulosteliiketoiminnassa. Hinnoittelu, SEO, tuotevalikoima ja asiakaspalvelu.',
+    metaDescription: 'Vältä 10 yleisintä virhettä tulosteliiketoiminnassa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tulosteliiketoiminnan 10 yleisinta virhetta',

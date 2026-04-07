@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tehtäväarkkien hinnoittelu Etsy',
     ],
     titleTag: 'Myy yhteenlaskutehtäviä Etsyssä | LCS',
-    metaDescription: 'Opi myymään yhteenlaskutehtäviä Etsyssä kannattavasti. Hinnoittelu, paketointi ja ilmoitusstrategiat.',
+    metaDescription: 'Myy yhteenlaskutehtäviä Etsyssä: hinnoittelu ja strategiat. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Myy yhteenlaskutehtavia Etsyssa: taydellinen opas',

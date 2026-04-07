@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tuotekuvaus Etsy-listaus',
     ],
     titleTag: 'Mockup-kuvat: myy tulosteita enemmän | LCS',
-    metaDescription: 'Käytä mockup-kuvia myydäksesi enemmän tulosteita. Ilmaiset ja maksulliset lähteet ja vinkit paremaan konversioon.',
+    metaDescription: 'Käytä mockup-kuvia myydäksesi enemmän tulosteita. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Mockup-kuvat tulosteille: myy enemman visuaalisuudella',

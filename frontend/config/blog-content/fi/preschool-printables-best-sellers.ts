@@ -14,7 +14,7 @@ const content: BlogContent = {
       'kehitystehtävät 4-6-vuotiaille',
     ],
     titleTag: 'Esikoulutulosteet: myydyimmät | LCS',
-    metaDescription: 'Esikouluikäisten tulosteet ovat myydyimpiä tuotteita. Suomessa esiopetus on pakollista ja materiaalien kysyntä kasvaa.',
+    metaDescription: 'Esikoulutulosteet ovat myydyimpiä tuotteita. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Esikoulutulosteet: myydyimmat tuotteet markkinoilla',

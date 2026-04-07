@@ -14,7 +14,7 @@ const content: BlogContent = {
       'paikallissijat harjoittelu tulostettavia',
     ],
     titleTag: 'Paikkasanatehtävät S2-markkinoille | LCS',
-    metaDescription: 'Myy prepositio- ja paikallissijatehtäviä S2-oppijoille. Yli 400 000 maahanmuuttajaa oppii suomea. Kilpailuton niche.',
+    metaDescription: 'Myy paikallissijatehtäviä S2-oppijoille verkossa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Prepositiotyoarkit: S2-markkinan suuri mahdollisuus',

@@ -167,6 +167,36 @@ const content: AppContent = {
         'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myyda luomiasi tyoarkkeja Etsyssa, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eika rajoituksia.',
     },
     {
+      question: 'Sopivatko arvaa sana -tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Tehtävät sopivat parhaiten alkuopetukseen (1.–2. luokka) ja alakouluun, kun lapset hallitsevat kirjaimet. Kuvavihjeet ja teemakohtaiset sanat helpottavat arvaamista. Lyhyet sanat sopivat nuorimmille.',
+    },
+    {
+      question: 'Noudattavatko arvaa sana -tehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n äidinkielen tavoitteita T3 (sanavaraston laajentaminen) ja T4 (oikeinkirjoituksen harjoittelu). Sanan arvaaminen kirjain kerrallaan kehittää foneemista tietoisuutta ja kirjaintuntemusta.',
+    },
+    {
+      question: 'Miten luon arvaa sana -tehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse sisältölähde (kuvakirjasto tai oma sanalista), valitse teemakuvat ja napsauta Luo. Generaattori luo hirsipuu-tyyppisen tehtävän kuvavihjeineen ja vastausavaimen automaattisesti.',
+    },
+    {
+      question: 'Sisältyvätkö vastaukset automaattisesti?',
+      answer:
+        'Kyllä. Jokainen tehtäväarkki sisältää automaattisesti luodun vastausavaimen, jossa oikeat sanat on paljastettu. Vastausavain on erillisellä sivulla.',
+    },
+    {
+      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
+      answer:
+        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä arvaa sana -tehtäviä digitaalisina latauksina Etsyssä, painettuina pulmakirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
+    },
+    {
+      question: 'Kuinka monella kielellä voin luoda tehtäviä?',
+      answer:
+        'Generaattori tukee 11 kieltä: suomi, englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska ja norja. Kuvanimet kääntyvät automaattisesti valitulle kielelle. Jokainen kieliversio on erillinen tuote.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia. Voit testata jokaisen sisaltolahteen, jokaisen vaikeustason, jokaisen teeman ja jokaisen vientimuodon ennen ostamista.',

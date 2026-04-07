@@ -14,7 +14,7 @@ const content: BlogContent = {
       'kotiopetus taukotehtävät',
     ],
     titleTag: 'Aivotaukotehtävät tulostettavina | LCS',
-    metaDescription: 'Myy aivotauko-tulostettavia oppimistaukojen aktiviteeteiksi. Lyhyet virkistävät tehtävät ovat kysytty tuotekategoria.',
+    metaDescription: 'Myy aivotauko-tulostettavia — lyhyet virkistävät tehtävät myyvät hyvin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Aivotauko-tulosteet opettajille: lyhyet virkistavat tehtavat',

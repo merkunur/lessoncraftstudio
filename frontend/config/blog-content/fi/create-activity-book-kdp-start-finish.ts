@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Amazon kirjamyynti aloittelijoille',
     ],
     titleTag: 'Aktiviteettikirja KDP:hen: opas | LCS',
-    metaDescription: 'Luo aktiviteettikirja Amazon KDP:hen alusta julkaisuun. Sisältö, muotoilu, kansi ja lanseeraus vaihe vaiheelta.',
+    metaDescription: 'Luo aktiviteettikirja Amazon KDP:hen alusta julkaisuun saakka. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Aktiviteettikirja KDP:ssa alusta loppuun',

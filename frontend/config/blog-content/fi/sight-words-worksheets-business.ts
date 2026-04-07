@@ -14,7 +14,7 @@ const content: BlogContent = {
       'alkuopetus lukeminen tulostettavia',
     ],
     titleTag: 'Sanantunnistus-tulosteet myyntiin | LCS',
-    metaDescription: 'Myy sanantunnistustyöarkkeja. Lukemaan oppiminen on ikivihreä tarve ja suomenkieliset materiaalit ovat kilpailuttomia.',
+    metaDescription: 'Myy sanantunnistustyöarkkeja: ikivihreä markkina. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kokonaisten sanojen tyoarkit liiketoimintana',

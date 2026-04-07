@@ -182,6 +182,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä viivanjäljennystyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
     },
     {
+      question: 'Sopivatko jäljentämistehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Jäljentämistehtävät sopivat erinomaisesti esiopetukseen (kynäotteen kehittäminen, perusviivat), alkuopetukseen (monimutkaisemmat kuviot) ja alakoulun alkuun (tarkat linjat). Tehtävät ovat erityisen hyödyllisiä 5–8-vuotiaille hienomotoriikan kehitysvaiheessa.',
+    },
+    {
+      question: 'Noudattavatko jäljentämistehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n esiopetuksen ja alkuopetuksen tavoitteita hienomotoriikan ja kirjoitusmotoriikan kehittämisessä. Viivan jäljentäminen on perusta kirjainten muodostukselle, jota opetussuunnitelma edellyttää 1. luokalta alkaen.',
+    },
+    {
+      question: 'Miten luon jäljentämistehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuvat, aseta viivan tyyppi ja vaikeustaso, ja napsauta Luo. Pisteviivat luodaan automaattisesti kuvien välille.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa hyvityksiä kaupallisten lisenssien ostoista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -198,6 +213,21 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'coloring-worksheets',
       anchorText: 'Värityssivut visuaalisen oppimisen vaihteluun',
+    },
+    {
+      pageType: 'app',
+      slug: 'draw-and-color-worksheets',
+      anchorText: 'Piirrä ja Väritä Generaattori luoviin tehtäviin',
+    },
+    {
+      pageType: 'bundle',
+      slug: 'piirustus-taide-paketti',
+      anchorText: 'Piirustus & Taide Paketti — Kaikki Luovat Sovellukset',
+    },
+    {
+      pageType: 'guide',
+      slug: 'luo-jaljentamistehtavia',
+      anchorText: 'Opas Jäljentämistehtävien Luomiseen ja Myyntiin',
     },
   ],
 

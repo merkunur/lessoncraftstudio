@@ -14,7 +14,7 @@ const content: BlogContent = {
       'päiväkoti aarteenetsintä',
     ],
     titleTag: 'Aarteenetsintätulosteet myyntiin | LCS',
-    metaDescription: 'Myy tulostettavia aarteenetsintöjä Etsyssä. Aarrejahdit sopivat juhliin, päiväkoteihin ja perheille. Kasvava markkina.',
+    metaDescription: 'Myy tulostettavia aarteenetsintöjä Etsyssä ja KDP:ssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Aarteenetsinta-tulosteet: seikkailun myyntituote',

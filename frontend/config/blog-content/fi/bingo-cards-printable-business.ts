@@ -14,7 +14,7 @@ const content: BlogContent = {
       'S2-opetus bingopeli',
     ],
     titleTag: 'Tulostettavat bingokortit myyntiin | LCS',
-    metaDescription: 'Myy tulostettavia bingokortteja Etsyssä. Bingo on universaali peli joka sopii juhliin, kouluihin ja kielenoppimiseen.',
+    metaDescription: 'Myy tulostettavia bingokortteja — universaali peli juhliin ja opetukseen. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Bingokortit tulostettavana: monipuolinen liiketoiminta',

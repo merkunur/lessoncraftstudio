@@ -14,7 +14,7 @@ const content: BlogContent = {
       'ulkoaktiviteetit tulostettavia',
     ],
     titleTag: 'Kesäaktiviteettitulosteet myyntiin | LCS',
-    metaDescription: 'Myy kesäaktiviteetti-tulosteita. Suomessa kesän pitkät päivät ja lomakausi luovat kysyntää tulostettaville.',
+    metaDescription: 'Myy kesäaktiviteetti-tulosteita lomakauden kysyntään. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kesaaktiviteetti-tulosteet: lomakauden myyntimahdollisuus',

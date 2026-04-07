@@ -14,7 +14,7 @@ const content: BlogContent = {
       'pakettien kokoaminen olemassa olevista',
     ],
     titleTag: 'Muunna työarkit useiksi tuotteiksi | LCS',
-    metaDescription: 'Muuta yksi tehtäväarkkisetti useiksi eri tuotteiksi. Etsy, KDP, Gumroad ja paketit samasta sisällöstä.',
+    metaDescription: 'Muuta yksi tehtäväarkkisetti useiksi eri tuotteiksi. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Uudelleenkayta tyoarkkeja useiksi tuotteiksi',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'ammattimainen ulkoasu tulosteet',
     ],
     titleTag: 'Tehtäväarkkien designvinkit | LCS',
-    metaDescription: 'Paranna tulosteidesi ulkoasua ja myy enemmän. Suunnitteluvinkit jotka nostavat koettua arvoa ja konversiota.',
+    metaDescription: 'Paranna tulosteidesi ulkoasua ja myy enemmän. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tyoarkkien suunnitteluvinkit: myy enemman laadulla',

@@ -182,6 +182,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä puuttuvien palojen palapelisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, omassa kaupassasi tai millä tahansa muulla myyntikanavalla. 6 palan muotoa, säädettävä vaikeus, automaattisesti luodut vastausavaimet ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien palapeelituotteiden tuottamiseen.',
     },
     {
+      question: 'Sopivatko puuttuvat palat -tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Puuttuvat palat -tehtävät sopivat erinomaisesti esiopetukseen ja alkuopetukseen — ne kehittävät visuaalista hahmottamista ilman lukutaitovaatimusta. Monimutkaisemmat kuvat haastavat myös alakoulun oppilaita.',
+    },
+    {
+      question: 'Noudattavatko puuttuvat palat -tehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n laaja-alaista osaamista L1 (ajattelu ja oppimaan oppiminen) sekä matematiikan geometrian hahmottamisen tavoitteita. Visuaalinen päättely ja osa-kokonaisuus-suhteen ymmärtäminen ovat keskeisiä taitoja.',
+    },
+    {
+      question: 'Miten luon puuttuvat palat -tehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuva kirjastosta, aseta palojen määrä ja napsauta Luo. Generaattori leikkaa kuvan automaattisesti ja poistaa yhden palan. Vastausavain syntyy samalla.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata kaikkia 6 palan muotoa, säädettäviä vaikeusasetuksia, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja ja kaikkia latausmuotoja ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -203,6 +218,16 @@ const content: AppContent = {
       pageType: 'guide',
       slug: 'luo-puuttuvat-palat-palapeleja',
       anchorText: 'Opas myytävien puuttuvien palojen palapelien luomiseen',
+    },
+    {
+      pageType: 'app',
+      slug: 'varjoleikki-tyolehdat',
+      anchorText: 'Varjoleikkitehtäviä visuaalisen hahmottamisen paketteihin',
+    },
+    {
+      pageType: 'app',
+      slug: 'etsi-esineet-tyolehdat',
+      anchorText: 'Etsi esineet -tehtäviä havaintotaitopaketteihin',
     },
   ],
 

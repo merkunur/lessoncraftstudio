@@ -193,6 +193,21 @@ const content: AppContent = {
         'Kylla. Kaupallisella lisenssilla sinulla on taydet oikeudet myyda vahennyslaskutyoarkkejasi digitaalisina latauksina Etsyssa, painettuina aktiviteettikirjoina Amazon KDP:ssa, tulostettavina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Monet myyjat luovat teemapaketteja ja aktiviteettikirjoja, jotka tuottavat johdonmukaista tuloa.',
     },
     {
+      question: 'Sopivatko vähennyslaskutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Lukualueen säädöllä tehtävät sopivat esiopetuksesta alakoulun loppuun. Yliviivaus-visualisointi auttaa nuorimpia ymmärtämään vähentämisen konkreettisesti, ja suuremmat lukualueet haastavat vanhempia oppilaita.',
+    },
+    {
+      question: 'Noudattavatko vähennyslaskutehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n matematiikan tavoitteita T5 ja T6 — peruslaskutoimitusten hallinta ja lukujonotaitojen kehittäminen. Yliviivausvisualisointi vastaa opetussuunnitelman painotusta konkreettisesta ja visuaalisesta matematiikasta luokilla 1–2.',
+    },
+    {
+      question: 'Miten luon vähennyslaskutehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse harjoitustila (esim. Kuva - Kuva tai Kuva - Numero), aseta lukualue, valitse teemakuvat ja napsauta Luo. Yliviivausvisualisointi lisätään automaattisesti. Vastausavain syntyy samalla.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata jokaisen tilan, jokaisen teeman, jokaisen vientimuodon ja jokaisen sivukoon ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, etta tyokalu vastaa tarpeitasi ennen lisenssin hankkimista.',

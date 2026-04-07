@@ -14,7 +14,7 @@ const content: BlogContent = {
       'adventtikalenteri tulosteet',
     ],
     titleTag: 'Parhaat tulosteet joulusesonkiin | LCS',
-    metaDescription: 'Joulusesongin myydyimmät tulosteet ja lanseerausstrategia. Suomalainen jouluteema on ainutlaatuinen kilpailuetu.',
+    metaDescription: 'Joulusesongin myydyimmät tulosteet ja lanseerausstrategia yrittäjälle. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Parhaat tulosteet joulusesonkiin: Joulupukin kotimaasta',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'varhaiskasvatus kehitys tulosteet',
     ],
     titleTag: 'Taapero-aktiviteetit tulosteina | LCS',
-    metaDescription: 'Myy tulostettavia aktiviteetteja taaperoiden vanhemmille. Kasvava markkina jossa vanhemmat etsivät kehittäviä tehtäviä.',
+    metaDescription: 'Myy taaperoaktiviteetti-tulosteita: kasvava markkina. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Taaperoaktiviteetti-tulosteet: kotipaivien pelastaja',

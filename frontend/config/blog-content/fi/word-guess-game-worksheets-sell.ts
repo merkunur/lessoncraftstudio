@@ -14,7 +14,7 @@ const content: BlogContent = {
       'interaktiiviset sanapulmat',
     ],
     titleTag: 'Sana-arvauspeli tulostettavina | LCS',
-    metaDescription: 'Myy sana-arvauspelejä tulostettavina Etsyssä. Sanapelit kehittävät sanavarastoa ja ovat hauska oppimistapa.',
+    metaDescription: 'Myy sana-arvauspelejä tulostettavina Etsyssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Sana-arvauspelit tyoarkeina: pelillinen myyntituote',

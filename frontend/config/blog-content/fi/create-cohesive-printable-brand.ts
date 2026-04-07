@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tunnistettavuus verkkokaupassa',
     ],
     titleTag: 'Rakenna yhtenäinen tulostebrandi | LCS',
-    metaDescription: 'Rakenna tunnistettava brändi tulostekaupallesi. Logo, värimaailma ja visuaalinen ilme joka erottaa sinut kilpailijoista.',
+    metaDescription: 'Rakenna tunnistettava brändi tulostekaupallesi erottuvalla ilmeellä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Luo yhtenainen tulostebrandi: erottuva ilme',

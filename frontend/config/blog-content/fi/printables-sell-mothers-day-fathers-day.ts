@@ -14,7 +14,7 @@ const content: BlogContent = {
       'lahja-aktiviteetit tulostettavia',
     ],
     titleTag: 'Äitienpäivä- ja isänpäivätulosteet | LCS',
-    metaDescription: 'Myy tulosteita äitien- ja isänpäiväksi. Suomessa äitienpäivä on toukokuussa ja isänpäivä marraskuussa.',
+    metaDescription: 'Myy tulosteita äitien- ja isänpäiväksi Suomessa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Aitienpaiva- ja isanpaiva-tulosteet: tunnepitoiset myynnit',

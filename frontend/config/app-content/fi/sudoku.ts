@@ -177,6 +177,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kuvasudoku-työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, digitaalisina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kolme vaikeustasoa, 104 temaattista kuvakokoelmaa ja puhtaasti visuaalinen muoto antavat sinulle luovat työkalut alkuperäisten, globaalisti myytävien sudoku-tuotteiden tuottamiseen.',
     },
     {
+      question: 'Sopivatko sudokutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Pienet kuvasudokut (4×4) sopivat esiopetukseen ja alkuopetukseen, keskikokoiset (6×6) alakoulun alaluokille ja täysikokoiset (9×9) ylemmille luokille. Kuvapohjaiset sudokut eivät vaadi numerotuntemusta.',
+    },
+    {
+      question: 'Noudattavatko sudokutehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Sudoku tukee OPS 2014:n laaja-alaista osaamista L1 (looginen ajattelu ja päättely) sekä matematiikan ongelmanratkaisutaitoja. Ruudukon täyttäminen säännöillä kehittää strategista ajattelua ja poissulkemistekniikkaa.',
+    },
+    {
+      question: 'Miten luon sudokutehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse ruudukon koko (4×4, 6×6 tai 9×9), valitse sisältö (numerot tai teemakuvat), aseta vaikeustaso ja napsauta Luo. Generaattori luo automaattisesti validin sudokuruudukon ja vastausavaimen.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata kaikkia kolmea vaikeustasoa, teemapohjaista ja manuaalista kuvavalintaa, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, tekstityökaluja ja kaikkia latausmuotoja ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -198,6 +213,16 @@ const content: AppContent = {
       pageType: 'guide',
       slug: 'sudoku-kirjat-kdp',
       anchorText: 'Opas sudoku-kirjojen luomiseen Amazon KDP:lle',
+    },
+    {
+      pageType: 'app',
+      slug: 'kuviotehtava-tyolehdat',
+      anchorText: 'Kuviotehtäviä loogisen ajattelun harjoituspaketteihin',
+    },
+    {
+      pageType: 'app',
+      slug: 'kumpi-ei-kuulu-tyolehdat',
+      anchorText: 'Kumpi ei kuulu -palapeleja päättelypalapeelpakettien vaihteluun',
     },
   ],
 

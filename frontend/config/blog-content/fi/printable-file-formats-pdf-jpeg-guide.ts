@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostuslaatu tiedostomuoto',
     ],
     titleTag: 'Tulosteiden tiedostomuodot: opas | LCS',
-    metaDescription: 'Oikea tiedostomuoto tulostettaville tuotteille. Milloin PDF, milloin JPEG? Resoluutio, värit ja tulostuslaatu.',
+    metaDescription: 'Valitse oikea tiedostomuoto tulostettaville tuotteille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tulosteiden tiedostomuodot: PDF vs JPEG opas',

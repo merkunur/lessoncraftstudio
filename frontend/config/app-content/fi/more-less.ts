@@ -193,6 +193,21 @@ const content: AppContent = {
         'Kylla. Kaupallisella lisenssilla sinulla on taydet oikeudet myyda vertailutyoarkkejasi digitaalisina latauksina Etsyssa, aktiviteettikirjoina Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla myyntikanavalla. Voit myos yhdistaa vertailutyoarkkeja muihin matematiikkatyoarkkityyppeihin kattavien pakettien rakentamiseksi.',
     },
     {
+      question: 'Sopivatko lukuvertailutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Kuvapohjaiset vertailut (enemmän vs. vähemmän) sopivat esiopetukseen, numerovertalut (suurempi/pienempi/yhtä suuri) alkuopetukseen ja monimutkaisemmat vertailut alakouluun. Tehtävät mukautuvat lapsen tasoon.',
+    },
+    {
+      question: 'Noudattavatko lukuvertailutehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n matematiikan tavoitteita T3 (lukujonotaidot) ja T5 (lukujen suuruusvertailu). Suurempi, pienempi ja yhtä suuri -käsitteet ovat keskeisiä 1.–2. luokan matemaattisia taitoja opetussuunnitelmassa.',
+    },
+    {
+      question: 'Miten luon lukuvertailutehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse vertailutyyppi, aseta lukualue, valitse teemakuvat ja napsauta Luo. Generaattori luo automaattisesti vertailutehtävän, jossa käytetään >, < ja = -merkkejä. Vastausavain syntyy samalla.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata jokaisen tilan, jokaisen teeman, jokaisen vientimuodon ja jokaisen sivukoon ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, etta tyokalu vastaa tarpeitasi ennen lisenssin hankkimista.',

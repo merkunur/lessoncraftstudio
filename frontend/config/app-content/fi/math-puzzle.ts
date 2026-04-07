@@ -177,6 +177,26 @@ const content: AppContent = {
         'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myyda luomiasi tyoarkkeja — Etsyssa, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eika rajoituksia.',
     },
     {
+      question: 'Sopivatko matikkapulmatehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Pienimmät ruudukot (3×3) ja yhteenlasku sopivat alkuopetukseen. Suuremmat ruudukot ja useat laskutoimitukset haastavat alakoulun ylemmät luokat. Kuvapohjaisuus tekee tehtävistä kiinnostavia kaikille ikäryhmille.',
+    },
+    {
+      question: 'Noudattavatko matikkapulmatehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät yhdistävät OPS 2014:n matematiikan peruslaskutoimitukset (T5, T6) ja laaja-alaisen osaamisen ongelmanratkaisutaidot (L1). Ruudukkomuoto kehittää loogista päättelyä ja strategista ajattelua, joita opetussuunnitelma painottaa.',
+    },
+    {
+      question: 'Miten luon matikkapulmatehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse ruudukon koko (3×3, 4×4 tai 5×5), valitse laskutoimitukset (yhteenlasku, vähennyslasku tai molemmat), aseta lukualue, valitse teemakuvat ja napsauta Luo. Pulma ja vastausavain syntyvät automaattisesti.',
+    },
+    {
+      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
+      answer:
+        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä matikkapulmia digitaalisina latauksina Etsyssä, painettuina pulmakirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata jokaisen laskutoimituksen, jokaisen ruudukon koon, jokaisen teeman ja jokaisen vientimuodon ennen ostamista. Ilmainen kokeilu on palautuskäytäntö.',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tuotantoaikataulu tulostekauppa',
     ],
     titleTag: 'Kausikalenteri tulostemyyjälle | LCS',
-    metaDescription: 'Suunnittele tulosteiden tuotanto- ja markkinointikalenteri kausien mukaan. Suomen juhlapyhät ja sesongit hyötykäyttöön.',
+    metaDescription: 'Suunnittele tulosteiden kausikalenteri myyjänä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kausikalenteri tulostekauppiaalle: vuosisuunnitelma',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'lastenjuhla-aktiviteetit tulostettavia',
     ],
     titleTag: 'Tulostettavat pelit juhliin | LCS',
-    metaDescription: 'Myy tulostettavia pelejä syntymäpäiväjuhliin. Vanhemmat etsivät helppoja ja edullisia aktiviteetteja juhliin.',
+    metaDescription: 'Myy tulostettavia pelejä syntymäpäiväjuhliin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tulostettavat pelit syntymapaivajahliin: helppo bisnes',

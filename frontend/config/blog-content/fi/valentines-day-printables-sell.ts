@@ -14,7 +14,7 @@ const content: BlogContent = {
       'helmikuun sesonkimyynti tulosteet',
     ],
     titleTag: 'Ystävänpäivätulosteet myyntiin | LCS',
-    metaDescription: 'Myy ystävänpäivätulosteita helmikuussa. Rakkausteema myy kansainvälisesti ja Suomessa ystävänpäivä on suosittu.',
+    metaDescription: 'Myy ystävänpäivätulosteita helmikuun sesonkiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Ystavanpaivatulosteet: helmikuun myyntimahdollisuus',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'nopeat laskuharjoitukset tulosteet',
     ],
     titleTag: 'Päässälaskutulosteet myyntiin | LCS',
-    metaDescription: 'Myy päässälaskutulosteita. Matematiikan peruslaskutoimitusten automatisointi on taito jota jokainen lapsi harjoittelee.',
+    metaDescription: 'Myy päässälaskutulosteita — jokaisen lapsen perustaito. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Paalaskutulosteet: matemaattinen sujuvuus myyntituotteena',

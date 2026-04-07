@@ -172,6 +172,26 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä yhdistämistyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
     },
     {
+      question: 'Sopivatko yhdistämistehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Yhdistämistehtävät sopivat erinomaisesti esiopetukseen ja alkuopetukseen — ne eivät vaadi lukutaitoa, vain visuaalista hahmottamista. Kuvien yhdistäminen on intuitiivista jo 4-vuotiaille. Vaikeampien tehtävien avulla ne sopivat myös alakoulun alaluokille.',
+    },
+    {
+      question: 'Noudattavatko yhdistämistehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Yhdistämistehtävät tukevat OPS 2014:n laaja-alaista osaamista L1 (ajattelu ja oppimaan oppiminen) sekä esiopetuksen hahmottamisen ja luokittelun tavoitteita. Visuaalinen parinetsintä kehittää tarkkaavaisuutta ja vertailutaitoja.',
+    },
+    {
+      question: 'Miten luon yhdistämistehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuvat kirjastosta, aseta parien määrä ja napsauta Luo. Generaattori sijoittaa kuvat automaattisesti vasempaan ja oikeaan sarakkeeseen satunnaisessa järjestyksessä. Vastausavain syntyy automaattisesti.',
+    },
+    {
+      question: 'Sisältyvätkö vastaukset automaattisesti?',
+      answer:
+        'Kyllä. Jokainen yhdistämistehtävä sisältää automaattisesti luodun vastausavaimen, jossa oikeat parit on yhdistetty viivalla. Vastausavain on erillisellä sivulla.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa hyvityksiä kaupallisten lisenssien ostoista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -188,6 +208,21 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'grid-match-worksheets',
       anchorText: 'Ruudukkoyhdistämispulmat visuaaliseen yhdistämisvaihteluun',
+    },
+    {
+      pageType: 'app',
+      slug: 'aakkosjuna-tyoarkit',
+      anchorText: 'Aakkosjuna Tyoarkkien Generaattori',
+    },
+    {
+      pageType: 'bundle',
+      slug: 'yhdistely-lajittelu-paketti',
+      anchorText: 'Yhdistely & Lajittelu Paketti — Kaikki Yhdistämissovellukset',
+    },
+    {
+      pageType: 'guide',
+      slug: 'luo-varjoyhdistely-tyolehtia',
+      anchorText: 'Opas Yhdistämistehtävien Luomiseen',
     },
   ],
 

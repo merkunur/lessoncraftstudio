@@ -198,6 +198,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kirjoitusharjoitustyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta. Kolme harjoitustilaa, viisi fonttityyliä, nuoliohjattu vetojärjestys ja esikirjoitusviivat antavat sinulle vahvan erilaistumisen.',
     },
     {
+      question: 'Sopivatko kirjoitusharjoitukset esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Kirjoitusharjoitukset sopivat erinomaisesti esiopetukseen (kirjainten jäljentäminen, kynäote), alkuopetukseen (sanojen kirjoittaminen) ja alakoulun alkuun (lauseiden harjoittelu). Tehtävien vaikeustaso mukautuu käyttäjän valintoihin.',
+    },
+    {
+      question: 'Noudattavatko kirjoitusharjoitukset OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n äidinkielen tavoitteita T3 (kirjoittaminen) ja erityisesti käsialan ja kirjainten muodostuksen harjoittelua, jota opetussuunnitelma painottaa esiopetuksessa ja 1.–2. luokalla. Hienomotoriikan kehittäminen on keskeinen tavoite.',
+    },
+    {
+      question: 'Miten luon kirjoitusharjoituksen nopeasti?',
+      answer:
+        'Avaa generaattori, kirjoita harjoiteltavat sanat tai lauseet, valitse fontti ja viivasto, valitse teemakuvat ja napsauta Luo. Jäljennettävät pisteviivakirjaimet luodaan automaattisesti.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa hyvityksiä kaupallisten lisenssien ostoista. Voit testata jokaista harjoitustilaa, jokaista fonttityyliä, esikirjoitusviivoja, jokaista sisältölähdettä, jokaista vientimuotoa ja jokaista sivukokoa ennen ostoa. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -219,6 +234,16 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'drawing-lines-worksheets',
       anchorText: 'Viivanjäljennys Työarkkien Generaattori',
+    },
+    {
+      pageType: 'app',
+      slug: 'kirjainsekoitus-tyoarkit',
+      anchorText: 'Kirjainsekoitus Työarkkien Generaattori',
+    },
+    {
+      pageType: 'bundle',
+      slug: 'lukeminen-kieli-paketti',
+      anchorText: 'Lukeminen & Kieli Paketti — Kaikki Kielityökalut',
     },
   ],
 

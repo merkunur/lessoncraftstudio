@@ -14,7 +14,7 @@ const content: BlogContent = {
       'matematiikkakirjat Amazon myynti',
     ],
     titleTag: 'Matematiikkapulmakirjat KDP:ssä | LCS',
-    metaDescription: 'Julkaise matematiikkapulmakirjoja Amazon KDP:ssä. Muotoilu, hinnoittelu ja lanseerausstrategia aloittelijoille.',
+    metaDescription: 'Julkaise matematiikkapulmakirjoja Amazon KDP:ssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Matematiikkapulmatehtavakirjat Amazon KDP:ssa',

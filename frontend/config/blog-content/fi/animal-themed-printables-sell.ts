@@ -14,7 +14,7 @@ const content: BlogContent = {
       'eläinkuvat generaattori',
     ],
     titleTag: 'Eläinaiheisia tulostettavia myyntiin | LCS',
-    metaDescription: 'Eläinteema on lasten suosikkikategoria. Näin luot ja myyt eläinaiheisia tulostettavia Etsyssä ja KDP:ssä.',
+    metaDescription: 'Eläinteema on lasten suosikkikategoria tulostettavissa tehtävissä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Elainaihe-tulosteet: lasten suosikkiteeman myynti',

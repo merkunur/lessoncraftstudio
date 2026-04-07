@@ -14,7 +14,7 @@ const content: BlogContent = {
       'looginen luokittelu esikoulu',
     ],
     titleTag: 'Lajittelutehtävät esikoululaisille | LCS',
-    metaDescription: 'Myy lajittelutehtäviä esikouluikäisten vanhemmille. Luokittelutaidon harjoittelu on jokaisen lapsen tarve.',
+    metaDescription: 'Myy lajittelutehtäviä esikouluikäisten vanhemmille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Lajittelutyoarkit: esikouluikaisten suosikkitehtava',

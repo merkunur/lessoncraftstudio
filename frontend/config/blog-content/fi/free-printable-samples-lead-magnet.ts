@@ -14,7 +14,7 @@ const content: BlogContent = {
       'sisältömarkkinointi tulosteet',
     ],
     titleTag: 'Tulostenäytteet lead magnettina | LCS',
-    metaDescription: 'Käytä ilmaisia tulostenäytteitä lead magnettina. Rakenna sähköpostilista ja konvertoi liidejä maksaviksi asiakkaiksi.',
+    metaDescription: 'Käytä tulostenäytteitä lead magnettina tehokkaasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Ilmaiset tulostemallimeet lead magnettina',

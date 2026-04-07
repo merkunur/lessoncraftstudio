@@ -187,6 +187,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä ruudukkopiirrustustyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
     },
     {
+      question: 'Sopivatko piirtämistehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Piirtämistehtävät sopivat kaikille ikäryhmille. Yksinkertaiset vaihe-vaiheelta-ohjeet sopivat esiopetukseen, monimutkaisemmat kuvat alkuopetukseen ja alakouluun. Piirtäminen ja väritys kehittävät hienomotoriikkaa ja luovuutta.',
+    },
+    {
+      question: 'Noudattavatko piirtämistehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n kuvallisen ilmaisun (KU) tavoitteita: kuvallinen tuottaminen, värien käyttö ja visuaalinen viestintä. Vaihe-vaiheelta-piirtäminen kehittää ohjeiden seuraamista ja havainnointikykyä.',
+    },
+    {
+      question: 'Miten luon piirtämistehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuva kirjastosta, aseta piirrosohjeiden tyyppi ja napsauta Luo. Generaattori luo automaattisesti vaihe-vaiheelta-ohjeet ja tyhjän tilan piirtämiseen.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa hyvityksiä kaupallisten lisenssien ostoista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -203,6 +218,21 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'drawing-lines-worksheets',
       anchorText: 'Viivanjäljennystyöarkit hienomotoristen taitojen tuotteisiin',
+    },
+    {
+      pageType: 'app',
+      slug: 'pattern-worksheets',
+      anchorText: 'Hahmontunnistustyöarkit visuaalisiin harjoituspaketteihin',
+    },
+    {
+      pageType: 'app',
+      slug: 'picture-bingo-worksheets',
+      anchorText: 'Kuvabingogeneraattori pelillisiin tuotepaketteihin',
+    },
+    {
+      pageType: 'app',
+      slug: 'shadow-match-worksheets',
+      anchorText: 'Varjoyhdistelygeneraattori visuaalisen hahmottamisen tuotteisiin',
     },
   ],
 

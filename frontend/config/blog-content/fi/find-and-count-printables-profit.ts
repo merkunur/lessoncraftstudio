@@ -14,7 +14,7 @@ const content: BlogContent = {
       'esikoulu laskeminen kuvista',
     ],
     titleTag: 'Etsi ja laske -tulosteet myyntiin | LCS',
-    metaDescription: 'Myy etsi ja laske -tulosteita kannattavasti. Visuaalinen etsiminen ja laskeminen on matalan kilpailun niche.',
+    metaDescription: 'Myy etsi ja laske -tulosteita matalan kilpailun nichessä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Etsi ja laske -tulosteet: tuottava piilonicheissa',

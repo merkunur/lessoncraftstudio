@@ -168,6 +168,21 @@ const content: AppContent = {
         'Kaupallinen lisenssi tarjoaa vesileimattomia englanninkielisia vientejä taysilla myyntioikeuksilla. Taysi Paasy -lisenssi lisaa kaikki 11 kieltä kieliopillisesti oikeilla prepositioilla. Molemmat tasot antavat rajoittamattomat myyntioikeudet Etsyssa, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla.',
     },
     {
+      question: 'Sopivatko tilakäsitetehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Tilakäsitetehtävät sopivat erinomaisesti esiopetukseen (päällä, alla, vieressä) ja alkuopetukseen (edessä, takana, välissä). Kuvapohjaiset tehtävät tekevät abstrakteista käsitteistä konkreettisia.',
+    },
+    {
+      question: 'Noudattavatko tilakäsitetehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n matematiikan geometrian tavoitteita (T13, T14) ja äidinkielen sanaston laajentamisen tavoitteita (T3). Tilakäsitteet ovat keskeinen esiopetuksen ja 1. luokan oppimistavoite opetussuunnitelmassa.',
+    },
+    {
+      question: 'Miten luon tilakäsitetehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuvat kirjastosta, valitse harjoiteltavat prepositiot ja napsauta Luo. Generaattori sijoittaa kuvat automaattisesti ja luo tehtävän vastausavaimineen.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia. Voit testata molemmat harjoitustilat, jokaisen preposition, jokaisen teeman ja jokaisen vientimuodon ennen ostamista.',

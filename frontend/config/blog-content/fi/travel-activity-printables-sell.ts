@@ -14,7 +14,7 @@ const content: BlogContent = {
       'lomamatka aktiviteetit tulostettavia',
     ],
     titleTag: 'Matka-aktiviteettitulosteet myyntiin | LCS',
-    metaDescription: 'Myy tulostettavia matka-aktiviteetteja lapsille. Vanhemmat etsivät viihdykkeitä pitkille matkoille.',
+    metaDescription: 'Myy tulostettavia matka-aktiviteetteja perheille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Matka-aktiviteetti-tulosteet: matkustavan perheen pelastaja',

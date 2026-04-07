@@ -14,7 +14,7 @@ const content: BlogContent = {
       'suomenkieliset tulosteet kilpailuetu',
     ],
     titleTag: 'Tulosteiden nichet matalalla kilpailulla | LCS',
-    metaDescription: 'Löydä tulostekategoriat joissa kilpailu on matalaa mutta kysyntä vakaata. S2-materiaalit ja suomalaiset teemat.',
+    metaDescription: 'Löydä tulostekategoriat joissa kilpailu on matalaa mutta kysyntä vakaata. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Parhaat tulosteet-nichet matalalla kilpailulla',

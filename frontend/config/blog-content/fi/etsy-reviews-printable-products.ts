@@ -14,7 +14,7 @@ const content: BlogContent = {
       'arvostelu pyyntö Etsy',
     ],
     titleTag: 'Etsy-arvostelut tulosteille | LCS',
-    metaDescription: 'Saa lisää arvosteluja tulosteille Etsyssä. Arvostelut nostavat myyntiä ja hakupaikkaa eettisillä strategioilla.',
+    metaDescription: 'Saa lisää arvosteluja tulosteille Etsyssä eettisesti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Etsy-arvostelut tulosteille: taydellinen strategia',

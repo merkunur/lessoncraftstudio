@@ -14,7 +14,7 @@ const content: BlogContent = {
       'kotoutuminen materiaalit',
     ],
     titleTag: 'S2-tulosteet: globaali markkina | LCS',
-    metaDescription: 'S2-tulosteet ovat kasvava markkina. Yli 400 000 suomenoppijaa ja miljoonia kielenoppijoita maailmalla.',
+    metaDescription: 'S2-tulosteet ovat kasvava globaali markkina myyjille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'S2-tyoarkit: globaali markkina suomalaiselle myyjalle',

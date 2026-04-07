@@ -14,7 +14,7 @@ const content: BlogContent = {
       'lapsen kehitys tulostettavia',
     ],
     titleTag: 'Opetustulosteet uusille vanhemmille | LCS',
-    metaDescription: 'Tavoita uudet vanhemmat opetuksellisilla tulosteilla. Suomessa neuvolajärjestelmä tukee aktiivisia vanhempia.',
+    metaDescription: 'Tavoita uudet vanhemmat opetuksellisilla tulosteilla myyntiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Opetukselliset tulosteet uusille vanhemmille',

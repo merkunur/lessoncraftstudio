@@ -167,6 +167,31 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä piiloesineiden työlehtiäsi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, digitaalisina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla.',
     },
     {
+      question: 'Sopivatko etsi ja merkitse -tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Etsi ja merkitse -tehtävät sopivat erinomaisesti esiopetukseen ja alkuopetukseen — ne eivät vaadi lukutaitoa, vain visuaalista havainnointikykyä. Kuvien etsiminen isosta kuvasta on intuitiivista jo pienimmille.',
+    },
+    {
+      question: 'Noudattavatko etsi ja merkitse -tehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n laaja-alaista osaamista L1 (ajattelu ja oppimaan oppiminen) ja esiopetuksen visuaalisen hahmottamisen tavoitteita. Tarkkaavaisuuden ja havainnoinnin kehittäminen on keskeinen esiopetuksen tavoite.',
+    },
+    {
+      question: 'Miten luon etsi ja merkitse -tehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuvat kirjastosta, aseta etsittävien esineiden määrä ja napsauta Luo. Generaattori sijoittaa kuvat automaattisesti ja luo vastausavaimen.',
+    },
+    {
+      question: 'Sisältyvätkö vastaukset automaattisesti?',
+      answer:
+        'Kyllä. Jokainen tehtävä sisältää automaattisesti luodun vastausavaimen, jossa etsityt esineet on ympyröity tai merkitty. Vastausavain on erillisellä sivulla.',
+    },
+    {
+      question: 'Kuinka monella kielellä voin luoda tehtäviä?',
+      answer:
+        'Generaattori tukee 11 kieltä: suomi, englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska ja norja. Kuvanimet kääntyvät automaattisesti valitulle kielelle. Jokainen kieliversio on erillinen tuote.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -183,6 +208,16 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'aarteenetsinta-tyolehdat',
       anchorText: 'Aarteenetsintä-työlehtia seikkailuteemaisiin paketteihin',
+    },
+    {
+      pageType: 'app',
+      slug: 'ruudukkopalapeli-tyolehdat',
+      anchorText: 'Ruutupiirrostehtäviä visuaalisiin hahmottamispaketteihin',
+    },
+    {
+      pageType: 'app',
+      slug: 'varjoyhdistely-tyolehdat',
+      anchorText: 'Varjoyhdistely-työlehtia havainnoinnin monipuolistamiseen',
     },
     {
       pageType: 'guide',

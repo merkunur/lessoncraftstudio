@@ -14,7 +14,7 @@ const content: BlogContent = {
       'luontoteemat väritys Suomi',
     ],
     titleTag: 'Värityssivut liiketoimintana | LCS',
-    metaDescription: 'Rakenna kannattava värityssivuliiketoiminta. Ikivihreä tuotekategoria kaikille ikäryhmille Etsyssä ja KDP:ssä.',
+    metaDescription: 'Rakenna kannattava värityssivuliiketoiminta — ikivihreä kategoria. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Varityssivut liiketoimintana 2026: taydellinen opas',

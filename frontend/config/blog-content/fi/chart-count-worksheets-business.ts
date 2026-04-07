@@ -14,7 +14,7 @@ const content: BlogContent = {
       'laskentatehtävät kuvilla',
     ],
     titleTag: 'Kaaviolaskutehtävät myyntiin | LCS',
-    metaDescription: 'Myy kaaviolaskutehtäviä Etsyssä. Ainutlaatuinen niche jossa visuaaliset matematiikkatehtävät erottuvat joukosta.',
+    metaDescription: 'Myy kaaviolaskutehtäviä — visuaalinen matematiikkaniche erottuu. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kaaviolaskutyoarkit: rakenna niche-liiketoiminta',

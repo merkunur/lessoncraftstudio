@@ -196,6 +196,21 @@ const content: AppContent = {
         'Ei. Koodiyhteenlasku Tyoarkkien Generaattori toimii taysin selaimessasi. Mitaan ei tarvitse ladata, asentaa tai paivittaa. Se toimii kaikissa moderneissa selaimissa, mukaan lukien Chrome, Firefox, Safari ja Edge. Avaa sivu ja aloita matemaattisten koodimurtamispulmien luominen.',
     },
     {
+      question: 'Sopivatko koodiyhteenlaskutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Tehtävät sopivat parhaiten alkuopetukseen (1.–2. luokka) ja alakouluun (3.–6. luokka), koska ne yhdistävät laskemisen ja koodinpurun. Esiopetukseen lukualueen kannattaa rajoittaa 1–5:een ja käyttää Paljasta Sana -tilaa.',
+    },
+    {
+      question: 'Noudattavatko koodiyhteenlaskutehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät yhdistävät OPS 2014:n matematiikan peruslaskutoimitukset (T5, T6) ja laaja-alaisen osaamisen ongelmanratkaisutaitoja (L1). Koodinpurkumekanismi kehittää loogista ajattelua ja päättelykykyä, joita opetussuunnitelma painottaa.',
+    },
+    {
+      question: 'Miten luon koodiyhteenlaskutehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse tila (Paljasta Sana tai muu), aseta lukualue ja symbolien määrä, kirjoita viesti ja valitse teemakuvat. Napsauta Luo — generaattori yhdistää laskutehtävät ja salaisen viestin automaattisesti.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Kokeile ennen ostamista ilmaisella kokeilulla — kaikki ominaisuudet ovat saatavilla tyokalun taydelliseen arviointiin ennen ostoa. Koska ilmainen kokeilu antaa tayden pääsyn, emme tarjoa palautuksia lisenssiostoista. Varmista, etta tyokalu sopii tarpeisiisi kaytta ilmaista kokeilua ennen ostamista.',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'asiakassuhde tulostekauppa',
     ],
     titleTag: 'Sähköpostilista tulosteliiketoiminnalle | LCS',
-    metaDescription: 'Rakenna sähköpostilista tulostekaupallesi. Lead magnet -strategiat, automaatio ja konversio-optimointi yrittäjälle.',
+    metaDescription: 'Rakenna sähköpostilista tulostekaupallesi tehokkaasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Sahkopostilista tulosteliiketoiminnalle: taydellinen opas',

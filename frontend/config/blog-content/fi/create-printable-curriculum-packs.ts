@@ -14,7 +14,7 @@ const content: BlogContent = {
       'kotiopetus oppimateriaalit',
     ],
     titleTag: 'Opetussuunnitelmapaketit tulosteina | LCS',
-    metaDescription: 'Rakenna opetussuunnitelmaan perustuvia tulostepaketteja. Suomen opetussuunnitelman tuntemus on kilpailuetu.',
+    metaDescription: 'Rakenna opetussuunnitelmaan perustuvia tulostepaketteja myyntiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Opetussuunnitelmapaketit tulosteina: premium-tuote',

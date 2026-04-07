@@ -14,7 +14,7 @@ const content: BlogContent = {
       'käsityö hienomotoriikka',
     ],
     titleTag: 'Hienomotoriikka-tulosteet myyntiin | LCS',
-    metaDescription: 'Myy hienomotoriikka-aktiviteetteja tulosteina. Kynänkäytön harjoittelu on jokaisen lapsen tarve ennen koulua.',
+    metaDescription: 'Myy hienomotoriikka-aktiviteetteja tulosteina kannattavasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Hienomotoriikka-aktiviteetit tulosteina: vakaa markkina',

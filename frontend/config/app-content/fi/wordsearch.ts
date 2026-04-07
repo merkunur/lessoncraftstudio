@@ -180,6 +180,36 @@ const content: AppContent = {
         'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myyda luomiasi tyoarkkeja — Etsyssa, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eika rajoituksia.',
     },
     {
+      question: 'Sopivatko sanasokkelotehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Pienet ruudukot (5x5\u20138x8) sopivat esiopetukseen ja alkuopetukseen, keskikokoiset (10x12) alakoulun alaluokille ja suuret ruudukot (15x15\u201330x30) yläluokille. Diagonaalisten ja käänteisten sanojen poistaminen helpottaa tehtävää nuorimmille.',
+    },
+    {
+      question: 'Noudattavatko sanasokkelotehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Sanasokkelot tukevat OPS 2014:n äidinkielen tavoitteita T3 (sanavaraston laajentaminen) ja T4 (oikeinkirjoituksen harjoittelu). Kirjainten tunnistaminen ja sanojen hahmottaminen kehittävät lukutaitoa, jota opetussuunnitelma painottaa 1.\u20132. luokalla.',
+    },
+    {
+      question: 'Miten luon sanasokkelon nopeasti?',
+      answer:
+        'Avaa generaattori, valitse sisältölähde (kuvakirjasto, manuaalinen muokkaus tai oma sanalista), aseta ruudukon koko, ota diagonaaliset tai käänteissuunnat käyttöön ja napsauta Luo. Vastausavain värikoodeineen syntyy automaattisesti.',
+    },
+    {
+      question: 'Sisältyvätkö vastaukset automaattisesti?',
+      answer:
+        'Kyllä. Jokainen sanasokkelo sisältää värikoodatun vastausavaimen, jossa jokainen löydetty sana on merkitty omalla värillään kuudesta kiertävästä väristä. Vastausavain on erillisellä sivulla.',
+    },
+    {
+      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
+      answer:
+        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä sanasokkelotehtäviä digitaalisina latauksina Etsyssä, painettuina pulmakirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
+    },
+    {
+      question: 'Kuinka monella kielellä voin luoda tehtäviä?',
+      answer:
+        'Generaattori tukee 11 kieltä: suomi, englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska ja norja. Jokainen kieli käyttää omia täyttökirjaimiaan luonnollisilla frekvensseillä — suomalaiset ruudukot sisältävät ä:n ja ö:n. Jokainen kieliversio on erillinen tuote.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia. Voit testata jokaisen sisaltolahteen, jokaisen ruudukon koon, jokaisen suuntaasssetuksen ja jokaisen vientimuodon ennen ostamista.',

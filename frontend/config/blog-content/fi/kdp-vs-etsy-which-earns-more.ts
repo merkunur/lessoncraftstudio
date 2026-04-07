@@ -14,7 +14,7 @@ const content: BlogContent = {
       'monikanavainen myyntistrategia',
     ],
     titleTag: 'KDP vai Etsy: kumpi tuottaa enemmän? | LCS',
-    metaDescription: 'Vertaile KDP:tä ja Etsyä tulostemyyjänä. Kumpi alusta sopii sinulle paremmin? Realistinen analyysi.',
+    metaDescription: 'Vertaile KDP:tä ja Etsyä tulostemyyjänä realistisesti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'KDP vai Etsy: kumpi tuottaa enemman?',

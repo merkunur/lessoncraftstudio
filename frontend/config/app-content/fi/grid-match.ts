@@ -187,6 +187,36 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä ruudukkoyhdistämispulmiasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
     },
     {
+      question: 'Sopivatko ruutupiirrostehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Yksinkertaiset ruudukot sopivat esiopetukseen ja alkuopetukseen, monimutkaisemmat peilaus- ja kopiointitehtävät haastavat alakoulun oppilaita. Ruutupiirros kehittää visuaalista hahmottamista kaikilla ikätasoilla.',
+    },
+    {
+      question: 'Noudattavatko ruutupiirrostehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n matematiikan geometrian tavoitteita (T13, T14) sekä kuvallisen ilmaisun (KU) tavoitteita. Ruudukon kopioiminen kehittää avaruudellista hahmottamista ja symmetrian ymmärtämistä.',
+    },
+    {
+      question: 'Miten luon ruutupiirrostehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuva kirjastosta, aseta ruudukon koko ja napsauta Luo. Generaattori luo automaattisesti mallikuvan ja tyhjän ruudukon kopiointia varten. Vastausavain syntyy samalla.',
+    },
+    {
+      question: 'Sisältyvätkö vastaukset automaattisesti?',
+      answer:
+        'Kyllä. Jokainen ruutupiirrostehtävä sisältää automaattisesti luodun vastausavaimen, jossa malli on kopioitu valmiiksi ruudukkoon. Vastausavain on erillisellä sivulla.',
+    },
+    {
+      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
+      answer:
+        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä ruutupiirrostehtäviä digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
+    },
+    {
+      question: 'Kuinka monella kielellä voin luoda tehtäviä?',
+      answer:
+        'Generaattori tukee 11 kieltä: suomi, englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska ja norja. Käyttöliittymä ja otsikot kääntyvät automaattisesti. Jokainen kieliversio on erillinen tuote.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa hyvityksiä kaupallisten lisenssien ostoista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -203,6 +233,21 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'missing-pieces-worksheets',
       anchorText: 'Puuttuvien palojen pulmat visuaaliseen pulmavaihteluun',
+    },
+    {
+      pageType: 'app',
+      slug: 'etsi-esineet-tyolehdat',
+      anchorText: 'Etsi Esineet -työlehtia havainnoinnin harjoitteluun',
+    },
+    {
+      pageType: 'app',
+      slug: 'kuvalajittelu-tyolehdat',
+      anchorText: 'Kuvalajittelu-työlehtia visuaalisiin luokittelupaketteihin',
+    },
+    {
+      pageType: 'guide',
+      slug: 'luo-ruutupiirros-tyolehtia',
+      anchorText: 'Opas myytävien ruutupiirrostehtävien luomiseen',
     },
   ],
 

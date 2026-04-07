@@ -14,7 +14,7 @@ const content: BlogContent = {
       'järjestelmät tulostekauppa',
     ],
     titleTag: 'Skaalaa tulostekauppa automaatiolla | LCS',
-    metaDescription: 'Skaalaa tulosteliiketoimintasi automaatiolla. Generaattorit, mallipohjat ja järjestelmät jotka säästävät aikaa.',
+    metaDescription: 'Skaalaa tulosteliiketoimintasi automaatiolla. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tulosteliiketoiminnan skaalaus automaatiolla',

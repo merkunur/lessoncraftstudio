@@ -14,7 +14,7 @@ const content: BlogContent = {
       'suomalaiset kirjaimet harjoittelu',
     ],
     titleTag: 'Kirjoitusharjoitukset Etsy-nichena | LCS',
-    metaDescription: 'Myy kirjoitusharjoituksia Etsyssä. Ikivihreä niche jossa vanhemmat etsivät hienomotoriikkaharjoituksia lapsille.',
+    metaDescription: 'Myy kirjoitusharjoituksia Etsyssä — ikivihreä niche. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kaunokirjoitustyoarkit: ikivihrea Etsy-niche',

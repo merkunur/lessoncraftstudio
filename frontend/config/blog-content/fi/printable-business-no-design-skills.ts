@@ -14,7 +14,7 @@ const content: BlogContent = {
       'automaattinen tulosteiden luominen',
     ],
     titleTag: 'Tulostekauppa ilman designtaitoja | LCS',
-    metaDescription: 'Aloita tulosteliiketoiminta ilman suunnittelutaitoja. Generaattorit tekevät suunnittelun puolestasi automaattisesti.',
+    metaDescription: 'Aloita tulosteliiketoiminta ilman designtaitoja. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tulosteliiketoiminta ilman suunnittelutaitoja',

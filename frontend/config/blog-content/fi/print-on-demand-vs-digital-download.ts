@@ -14,7 +14,7 @@ const content: BlogContent = {
       'fyysiset vs digitaaliset tuotteet',
     ],
     titleTag: 'Tilauspaino vai digitaalinen lataus? | LCS',
-    metaDescription: 'Vertaile tilauspaino- ja digitaalisen latauksen malleja tulosteille. Mikä malli sopii sinun liiketoimintaasi.',
+    metaDescription: 'Vertaile tilauspaino- ja digitaalisen latauksen malleja. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tilauspaino vai digitaalinen lataus: kumpi malli?',

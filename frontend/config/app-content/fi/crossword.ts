@@ -167,6 +167,36 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kuvaristikko-palapelisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, digitaalisina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla.',
     },
     {
+      question: 'Sopivatko sanaristikkotehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Sanaristikot sopivat parhaiten alkuopetukseen (1.\u20132. luokka) ja alakouluun (3.\u20136. luokka), kun lapset osaavat kirjoittaa kirjaimia. Kuvavihjeet tekevät tehtävistä saavutettavia jo 1. luokalla.',
+    },
+    {
+      question: 'Noudattavatko sanaristikkotehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Sanaristikot tukevat OPS 2014:n äidinkielen tavoitteita T3 (sanavaraston laajentaminen), T4 (oikeinkirjoituksen harjoittelu) ja T7 (kirjoitetun kielen ymmärtäminen). Kuvavihjeet yhdistävät visuaalisen ja kielellisen oppimisen.',
+    },
+    {
+      question: 'Miten luon sanaristikon nopeasti?',
+      answer:
+        'Avaa generaattori, valitse sisältölähde (kuvakirjasto, manuaalinen tai oma sanalista), aseta ruudukon koko, valitse teemakuvat vihjekuviksi ja napsauta Luo. Generaattori sijoittaa sanat automaattisesti ristikkoon ja luo vastausavaimen.',
+    },
+    {
+      question: 'Sisältyvätkö vastaukset automaattisesti?',
+      answer:
+        'Kyllä. Jokainen sanaristikko sisältää automaattisesti luodun vastausavaimen, jossa kaikki sanat on täytetty ruudukkoon. Vastausavain on erillisellä sivulla.',
+    },
+    {
+      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
+      answer:
+        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä sanaristikkotehtäviä digitaalisina latauksina Etsyssä, painettuina pulmakirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
+    },
+    {
+      question: 'Kuinka monella kielellä voin luoda tehtäviä?',
+      answer:
+        'Generaattori tukee 11 kieltä: suomi, englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska ja norja. Sanojen sijoittelu ja ruudukon täyttökirjaimet mukautuvat automaattisesti kieleen. Jokainen kieliversio on erillinen tuote.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -188,6 +218,16 @@ const content: AppContent = {
       pageType: 'guide',
       slug: 'julkaise-palapelikirjoja-kdp',
       anchorText: 'Näin julkaiset palapelikirjoja Amazon KDP:ssä',
+    },
+    {
+      pageType: 'app',
+      slug: 'sanasokkelo-tyoarkit',
+      anchorText: 'Sanasokkelo Työarkkien Generaattori',
+    },
+    {
+      pageType: 'bundle',
+      slug: 'lukeminen-kieli-paketti',
+      anchorText: 'Lukeminen & Kieli Paketti — Kaikki Kielityökalut',
     },
   ],
 

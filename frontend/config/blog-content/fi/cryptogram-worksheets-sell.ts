@@ -14,7 +14,7 @@ const content: BlogContent = {
       'ongelmanratkaisu tehtävät',
     ],
     titleTag: 'Salakirjoitustehtävät myyntiin | LCS',
-    metaDescription: 'Myy salakirjoitustyöarkkeja Etsyssä. Ainutlaatuinen tuotetyyppi joka yhdistää ongelmanratkaisun ja kielitaidon.',
+    metaDescription: 'Myy salakirjoitustyöarkkeja — ainutlaatuinen ongelmanratkaisuniche. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Salakirjoitustyoarkit: ainutlaatuinen myyntituote',

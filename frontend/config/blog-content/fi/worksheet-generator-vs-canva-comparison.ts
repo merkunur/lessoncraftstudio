@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Canva tulosteiden suunnittelu',
     ],
     titleTag: 'Generaattori vai Canva tulosteille? | LCS',
-    metaDescription: 'Vertaile tehtäväarkkigeneraattoria ja Canvaa tulosteiden luomisessa. Kumpi on nopeampi ja tuottavampi ratkaisu.',
+    metaDescription: 'Vertaile generaattoria ja Canvaa tulosteiden luomisessa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tyoarkkigeneraattori vai Canva: kumpi sopii sinulle?',

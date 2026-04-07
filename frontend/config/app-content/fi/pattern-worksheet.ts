@@ -187,6 +187,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kuviotyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
     },
     {
+      question: 'Sopivatko loogisten sarjojen tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Yksinkertaiset kuviosarjat sopivat esiopetukseen, monimutkaisemmat sarjat alkuopetukseen ja matemaattiset lukujonot alakouluun. Visuaalinen muoto tekee loogisesta ajattelusta saavutettavaa kaikille ikätasoille.',
+    },
+    {
+      question: 'Noudattavatko loogisten sarjojen tehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n matematiikan tavoitteita T3 (sarjoittaminen ja lukujonotaidot) ja laaja-alaista osaamista L1 (looginen ajattelu ja päättely). Kuvioiden tunnistaminen ja jatkaminen kehittää algebrallisen ajattelun perusteita.',
+    },
+    {
+      question: 'Miten luon loogisen sarjan tehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse sarjatyyppi ja teemakuvat kirjastosta, aseta vaikeustaso ja napsauta Luo. Generaattori luo automaattisesti sarjan, jossa yksi tai useampi elementti puuttuu. Vastausavain syntyy samalla.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa hyvityksiä kaupallisten lisenssien ostoista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -203,6 +218,21 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'big-small-worksheets',
       anchorText: 'Kokovertailutyöarkit kognitiivisten taitojen vaihteluun',
+    },
+    {
+      pageType: 'app',
+      slug: 'matikkapalapeli-tyolehdat',
+      anchorText: 'Matikkapalapeleja loogisten taitojen harjoituspaketteihin',
+    },
+    {
+      pageType: 'app',
+      slug: 'sudoku-tyolehdat',
+      anchorText: 'Kuvasudoku-palapeleja visuaalisten logiikkapakettien vaihteluun',
+    },
+    {
+      pageType: 'guide',
+      slug: 'luo-kuviotehtavia',
+      anchorText: 'Opas myytävien kuviotehtävien luomiseen',
     },
   ],
 

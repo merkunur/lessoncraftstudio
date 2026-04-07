@@ -14,7 +14,7 @@ const content: BlogContent = {
       'ruokakuvat tehtävissä',
     ],
     titleTag: 'Ruoka-aiheiset tulosteet myyntiin | LCS',
-    metaDescription: 'Myy ruoka-aiheisia työarkkeja. Ruokateema on universaali ja sopii matematiikasta kielten oppimiseen.',
+    metaDescription: 'Myy ruoka-aiheisia työarkkeja — universaali teema myyjille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Ruoka-aihe tyoarkit: universaali teema myyntituotteena',

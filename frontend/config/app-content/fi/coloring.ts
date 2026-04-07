@@ -182,6 +182,31 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä värityssivujasi digitaalisina latauksina Etsyssä, painettuina värityskirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
     },
     {
+      question: 'Sopivatko väritystehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Väritystehtävät sopivat kaikille ikäryhmille esiopetuksesta alakouluun. Yksinkertaiset ääriviivat sopivat nuorimmille, yksityiskohtaisemmat kuvat haastavat vanhempia lapsia. Väritys kehittää hienomotoriikkaa ja keskittymiskykyä.',
+    },
+    {
+      question: 'Noudattavatko väritystehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Väritystehtävät tukevat OPS 2014:n kuvallisen ilmaisun (KU) tavoitteita ja esiopetuksen hienomotoriikan kehittämisen tavoitteita. Värien käyttö ja kynäotteen harjoittelu ovat keskeisiä taitoja, joita opetussuunnitelma painottaa.',
+    },
+    {
+      question: 'Miten luon värityskuvan nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuva yli 3 000 kuvan kirjastosta, aseta ääriviivan paksuus ja napsauta Luo. Generaattori muuntaa kuvan automaattisesti tulostettavaksi värityskuvaksi.',
+    },
+    {
+      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
+      answer:
+        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä värityskuvia digitaalisina latauksina Etsyssä, painettuina värityskirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
+    },
+    {
+      question: 'Kuinka monella kielellä voin luoda tehtäviä?',
+      answer:
+        'Generaattori tukee 11 kieltä: suomi, englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska ja norja. Käyttöliittymä ja kuvanimet kääntyvät automaattisesti. Jokainen kieliversio on erillinen tuote.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa hyvityksiä kaupallisten lisenssien ostoista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -191,13 +216,28 @@ const content: AppContent = {
   internalLinks: [
     {
       pageType: 'app',
-      slug: 'draw-and-color-worksheets',
+      slug: 'piirra-ja-varita-tyolehdat',
       anchorText: 'Piirustus ja väritys -työarkit taidepaketteihin',
     },
     {
       pageType: 'app',
-      slug: 'drawing-lines-worksheets',
+      slug: 'viivanjaljennys-tyolehdat',
       anchorText: 'Viivanjäljennystyöarkit hienomotoristen taitojen tuotteisiin',
+    },
+    {
+      pageType: 'guide',
+      slug: 'luo-varityskirja-sivuja',
+      anchorText: 'Opas myytävien värityskirjojen luomiseen',
+    },
+    {
+      pageType: 'app',
+      slug: 'varjoleikki-tyolehdat',
+      anchorText: 'Varjoleikkitehtäviä visuaalisen hahmottamisen tuotteisiin',
+    },
+    {
+      pageType: 'app',
+      slug: 'etsi-esineet-tyolehdat',
+      anchorText: 'Etsi esineet -tehtäviä havainnointipaketteihin',
     },
   ],
 

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'taidekasvatus tulostettavia',
     ],
     titleTag: 'Piirrä ja väritä -tulosteet myyntiin | LCS',
-    metaDescription: 'Myy piirrä ja väritä -tehtäviä Etsyssä. Luovat tulostettavat tehtävät kehittävät hienomotoriikkaa ja ovat kasvava markkina.',
+    metaDescription: 'Myy piirrä ja väritä -tehtäviä — luova niche kasvavalla kysynnällä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Piirra ja varita -tyoarkit: luovuus myyntituotteena',

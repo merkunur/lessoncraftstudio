@@ -14,7 +14,7 @@ const content: BlogContent = {
       'kevätjuhlat aktiviteetit',
     ],
     titleTag: 'Pääsiäistulosteet kevätsesonkiin | LCS',
-    metaDescription: 'Myy pääsiäistulostettavia keväällä. Pääsiäinen on Suomessa merkittävä juhla ja tulostettavat aktiviteetit myyvät hyvin.',
+    metaDescription: 'Myy pääsiäistulostettavia keväällä — merkittävä sesonkimahdollisuus. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Paasiaistulosteet kevaalla: kasvava myyntimahdollisuus',

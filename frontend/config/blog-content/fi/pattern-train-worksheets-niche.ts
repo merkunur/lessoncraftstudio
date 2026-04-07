@@ -14,7 +14,7 @@ const content: BlogContent = {
       'looginen ajattelu juna-tehtävät',
     ],
     titleTag: 'Kuviojuna tulostettavina: niche | LCS',
-    metaDescription: 'Myy kuviojuna-tehtäväarkkeja. Ainutlaatuinen yhdistelmä jossa junavaunut muodostavat kuviosarjan. Matalan kilpailun niche.',
+    metaDescription: 'Myy kuviojuna-tehtäväarkkeja matalan kilpailun nichessä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kuviojunatyoarkit: ainutlaatuinen piilonicheissa',

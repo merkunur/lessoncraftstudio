@@ -14,7 +14,7 @@ const content: BlogContent = {
       'kausiluonteiset tulosteet kevät',
     ],
     titleTag: 'Kevättulosteet maalis-huhtikuussa | LCS',
-    metaDescription: 'Myy kevättulosteita maalis-huhtikuussa. Kevään saapuminen Suomeen on erityinen tapahtuma joka inspiroi tuoteideoita.',
+    metaDescription: 'Myy kevättulosteita maalis-huhtikuun sesonkiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kevaatulosteet maalis-huhtikuussa: kevaan juhla',

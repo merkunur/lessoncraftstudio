@@ -197,6 +197,21 @@ const content: AppContent = {
         'Kyllä. Koska salainen viesti on valitulla kielellä ja aakkosto muuttuu kielen mukaan, jokainen kieliversio tuottaa aidosti erilaisen koodipulman. Kaupallinen Paketti on vain englanniksi; Täysi Pääsy avaa kaikki 11 kieltä.',
     },
     {
+      question: 'Sopivatko kryptogrammitehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kryptogrammit sopivat parhaiten alkuopetuksen loppuun (2. luokka) ja alakouluun (3.\u20136. luokka), kun lapset hallitsevat kirjaimet. Lyhyet viestit ja yksinkertaiset koodit sopivat aloittelijoille, monimutkaisemmat salakoodit haastavat vanhempia.',
+    },
+    {
+      question: 'Noudattavatko kryptogrammitehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Kryptogrammit tukevat OPS 2014:n äidinkielen tavoitteita T3 (sanavaraston laajentaminen) ja laaja-alaisen osaamisen ongelmanratkaisutaitoja (L1). Koodinpurkaminen kehittää loogista päättelykykyä ja kirjaintuntemusta.',
+    },
+    {
+      question: 'Miten luon kryptogrammitehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, kirjoita salainen viesti, valitse koodityyppi, valitse teemakuvat ja napsauta Luo. Generaattori luo automaattisesti koodatun viestin ja vastausavaimen.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa hyvityksiä kaupallisten lisenssien ostoista. Voit testata Automaattista Määritystä, Manuaalista Määritystä, Kirjaimia Paljastettavaksi, jokaista teemaa, jokaista vientimuotoa ja jokaista sivukokoa ennen ostoa. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -218,6 +233,16 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'word-scramble-worksheets',
       anchorText: 'Kirjainsekoitus Työarkkien Generaattori',
+    },
+    {
+      pageType: 'bundle',
+      slug: 'lukeminen-kieli-paketti',
+      anchorText: 'Lukeminen & Kieli Paketti — Kaikki Kielityökalut',
+    },
+    {
+      pageType: 'guide',
+      slug: 'myy-sanapulmia-etsy',
+      anchorText: 'Opas Sanapulmien Myymiseen Etsyssä',
     },
   ],
 

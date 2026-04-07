@@ -197,6 +197,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä bingokorttisi digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssä, tuotelinjaresursseina Gumroadissa tai millä tahansa muulla myyntikanavalla. Säädettävät ruudukkokoot, eräluonti, ZIP-vienti, kaksoistäyttötilat, huutolistat ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien bingotuotteiden tuottamiseen laajassa mittakaavassa.',
     },
     {
+      question: 'Sopivatko bingotehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Kuvabingo sopii erinomaisesti esiopetukseen ja alkuopetukseen — se ei vaadi lukutaitoa, vain kuvatunnistusta. Pelillisyys tekee oppimisesta hauskaa kaikille ikäryhmille aina alakoulun loppuun.',
+    },
+    {
+      question: 'Noudattavatko bingotehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Bingotehtävät tukevat OPS 2014:n laaja-alaista osaamista L1 (ajattelu ja oppimaan oppiminen) ja esiopetuksen pelillisen oppimisen tavoitteita. Kuvatunnistus ja tarkkaavaisuus kehittyvät pelaamisen kautta.',
+    },
+    {
+      question: 'Miten luon bingolautoja nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuvat kirjastosta (suositeltu 24+ kuvaa), aseta ruudukon koko ja laudan määrä settiin. Generaattori luo automaattisesti uniikit laudat, joissa kuvat ovat eri paikoissa jokaisella laudalla.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata kaikkia ruudukkokoja, eräluontia, ZIP-vientiä, kuva- ja sanatäyttötiloja, huutolistaa, koko kuvakirjastoa, mukautettua huutolistan valintaa, tausta- ja kehysteemoja, tekstityökaluja ja kaikkia latausmuotoja ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',

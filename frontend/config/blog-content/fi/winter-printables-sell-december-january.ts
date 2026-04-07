@@ -14,7 +14,7 @@ const content: BlogContent = {
       'talviloma aktiviteetit tulosteet',
     ],
     titleTag: 'Talvitulosteet joulu-tammikuussa | LCS',
-    metaDescription: 'Myy talvitulosteita joulu-tammikuussa. Suomen pitkä talvi ja jouluperinteet ovat ainutlaatuinen kilpailuetu.',
+    metaDescription: 'Myy talvitulosteita joulu-tammikuun pitkään sesonkiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Talvitulosteet joulu-tammikuussa: pitka sesonki',

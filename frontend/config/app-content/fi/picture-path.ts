@@ -173,6 +173,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä sokkelo-työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, digitaalisina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kolme pelitilaa, LPF-algoritmi, 104 temaattista kuvakokoelmaa ja puhtaasti visuaalinen muoto antavat sinulle työkalut alkuperäisten, globaalisti myytävien sokkelotuotteiden tuottamiseen.',
     },
     {
+      question: 'Sopivatko labyrinttitehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Yksinkertaiset polkutehtävät sopivat esiopetukseen (kynäotteen harjoittelu), keskitasoiset labyrintit alkuopetukseen ja monimutkaiset labyrintit alakouluun. Tehtävät kehittävät avaruudellista hahmottamista ja ongelmanratkaisua.',
+    },
+    {
+      question: 'Noudattavatko labyrinttitehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Labyrintit tukevat OPS 2014:n laaja-alaista osaamista L1 (ajattelu ja oppimaan oppiminen) sekä matematiikan geometrian hahmottamisen tavoitteita. Reitin suunnittelu kehittää strategista ajattelua ja avaruudellista päättelyä.',
+    },
+    {
+      question: 'Miten luon labyrinttitehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuvat kirjastosta alku- ja loppupisteiksi, aseta vaikeustaso ja napsauta Luo. Generaattori luo automaattisesti labyrintin ratkaisupolkuineen. Vastausavain syntyy samalla.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata kaikkia kolmea pelitilaa, LPF-sokkeloalgoritmia, viittä kuvaroolia, seinämuokkausta, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, nimi/päivämääräkenttiä ja kaikkia latausmuotoja ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -189,6 +204,16 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'etsi-esineet-tyolehdat',
       anchorText: 'Etsi Esineet -työlehtia täydentäviin etsintätoimintoihin',
+    },
+    {
+      pageType: 'app',
+      slug: 'ruudukkopalapeli-tyolehdat',
+      anchorText: 'Ruudukkoyhdistely-palapelit visuaalisiin aktiviteettipaketteihin',
+    },
+    {
+      pageType: 'bundle',
+      slug: 'palapelit-pelit-paketti',
+      anchorText: 'Palapelit & Pelit -paketti — Kaikki palapelisovellukset yhdessä',
     },
     {
       pageType: 'guide',

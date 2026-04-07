@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostuslaatu Etsy-tuotteet',
     ],
     titleTag: 'Muotoile työarkit Etsy-ilmoitukseen | LCS',
-    metaDescription: 'Muotoile tulostettavat työarkit oikein Etsy-ilmoitusta varten. PDF-asetukset, kuvat, otsikot ja tunnisteet.',
+    metaDescription: 'Muotoile tulostettavat työarkit oikein Etsy-myyntiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Muotoile tyoarkit Etsy-ilmoitukseen: tekninen opas',

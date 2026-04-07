@@ -14,7 +14,7 @@ const content: BlogContent = {
       'Facebook-ryhmät tulostemyyjät',
     ],
     titleTag: 'Some-strategia tulostemyyjälle | LCS',
-    metaDescription: 'Käytä sosiaalista mediaa tulostemyynnin kasvattamiseen. Pinterest, Instagram ja Facebook strategiat myyjille.',
+    metaDescription: 'Some-strategia tulostemyyjille: Pinterest ja Instagram. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Sosiaalinen media tulostemyyjille: taydellinen strategia',

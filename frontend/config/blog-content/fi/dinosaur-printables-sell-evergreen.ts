@@ -14,7 +14,7 @@ const content: BlogContent = {
       'STEM-tulosteet dinosaurusteema',
     ],
     titleTag: 'Dinosaurustulosteet: ikivihreä tuote | LCS',
-    metaDescription: 'Dinosaurustulosteet myyvät ympärivuotisesti. Dinosaurukset ovat lasten ikivihreä suosikki joka ei mene pois muodista.',
+    metaDescription: 'Dinosaurustulosteet myyvät ympärivuotisesti — ikivihreä suosikkiteema. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Dinosaurustulosteet: ikivihrea suosikkiteema',

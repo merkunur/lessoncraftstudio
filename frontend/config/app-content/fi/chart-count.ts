@@ -182,6 +182,26 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kuvagraafityöarkkejasi digitaalisina latauksina Etsyssä, painettuina datataitojen työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
     },
     {
+      question: 'Sopivatko laskemistehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Kuvagraafitehtävät sopivat erinomaisesti esiopetukseen (laskeminen 1–5), alkuopetukseen (laskeminen 1–10) ja alakoulun alkuun (diagrammien lukeminen ja tulkinta). Visuaalinen muoto tekee datankäsittelystä konkreettista.',
+    },
+    {
+      question: 'Noudattavatko laskemistehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Kuvagraafitehtävät tukevat OPS 2014:n matematiikan tavoitteita T2 (tiedon kerääminen ja esittäminen) ja T5 (laskutaidon kehittäminen). Diagrammien tulkinta on keskeinen taito, jota opetussuunnitelma edellyttää jo 1. luokalta alkaen.',
+    },
+    {
+      question: 'Miten luon kuvagraafitehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse sivukoko, valitse teemakuvat kirjastosta ja napsauta Luo. Generaattori luo automaattisesti kuvagraafin, laskentatehtävän ja vastausavaimen.',
+    },
+    {
+      question: 'Sisältyvätkö vastaukset automaattisesti?',
+      answer:
+        'Kyllä. Jokainen kuvagraafitehtävä sisältää automaattisesti luodun vastausavaimen, joka näyttää oikeat lukumäärät ja diagrammin tulkinnan. Vastausavain on erillisellä sivulla helpottamaan tarkistamista.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa hyvityksiä kaupallisten lisenssien ostoista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -198,6 +218,21 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'math-worksheets',
       anchorText: 'Matematiikkatyöarkit kattaviin matematiikkapaketteihin',
+    },
+    {
+      pageType: 'app',
+      slug: 'addition-worksheets',
+      anchorText: 'Yhteenlaskutehtävien generaattori',
+    },
+    {
+      pageType: 'app',
+      slug: 'find-and-count-worksheets',
+      anchorText: 'Etsi ja laske -generaattori',
+    },
+    {
+      pageType: 'guide',
+      slug: 'create-chart-count-worksheets',
+      anchorText: 'Kuinka luoda kuvagraafitehtäviä myyntiin',
     },
   ],
 

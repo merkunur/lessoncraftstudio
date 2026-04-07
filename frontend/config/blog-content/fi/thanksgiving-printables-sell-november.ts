@@ -14,7 +14,7 @@ const content: BlogContent = {
       'itsenäisyyspäivä tulostettavia',
     ],
     titleTag: 'Marraskuun tulosteet myyntiin | LCS',
-    metaDescription: 'Myy tulosteita marraskuussa. Suomessa pikkujoulukausi, isänpäivä ja itsenäisyyspäivä luovat kysyntäpiikkejä.',
+    metaDescription: 'Myy tulosteita marraskuussa: pikkujoulu ja isänpäivä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Pikkujoulu- ja itsenaisyyspaivatulosteet marraskuussa',

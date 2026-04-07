@@ -14,7 +14,7 @@ const content: BlogContent = {
       'orgaaninen vs maksettu Etsy',
     ],
     titleTag: 'Etsy-mainokset tulosteille: kannattaako? | LCS',
-    metaDescription: 'Ovatko Etsy-mainokset kannattavia tulosteille? ROI-analyysi, budjettiehdotukset ja milloin mainostaa.',
+    metaDescription: 'Ovatko Etsy-mainokset kannattavia tulosteille? ROI-analyysi. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Etsy-mainokset tulosteille: kannattaako sijoittaa?',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tukiopetus tulostettavia Suomi',
     ],
     titleTag: 'Erityisopetustulosteet myyntiin | LCS',
-    metaDescription: 'Myy erityisopetustulosteita. Suomessa erityisopetus on laadukasta ja materiaalien kysyntä on jatkuvaa ja kilpailuton niche.',
+    metaDescription: 'Myy erityisopetustulosteita: kilpailuton niche Suomessa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Erityisopetustulosteet: arvokas ja kilpailuton niche',

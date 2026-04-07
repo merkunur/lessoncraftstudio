@@ -14,7 +14,7 @@ const content: BlogContent = {
       'arvostelut Etsy-kauppa',
     ],
     titleTag: 'Vastausavain nostaa tulostemyyntiä | LCS',
-    metaDescription: 'Miksi vastausavain on välttämätön tulosteissasi. Nostaa koettua arvoa, parantaa arvosteluja ja lisää toistuvaa myyntiä.',
+    metaDescription: 'Vastausavain nostaa koettua arvoa ja parantaa arvosteluja. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Vastausavaimen merkitys tulostemyynnissa',

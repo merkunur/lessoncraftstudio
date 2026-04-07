@@ -14,7 +14,7 @@ const content: BlogContent = {
       'automatisoitu digitaalinen myynti',
     ],
     titleTag: 'Passiivinen tulo tulosteilla: totuus | LCS',
-    metaDescription: 'Onko tulosteiden myynti oikeasti passiivista tuloa? Realistinen analyysi työmäärästä, tuloista ja ylläpidosta.',
+    metaDescription: 'Onko tulosteiden myynti oikeasti passiivista tuloa? Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Passiivinen tulo tulosteilla: totuus hypeen takana',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'kielipulmat lapsille',
     ],
     titleTag: 'Kirjainsekoitus-tulosteet myyntiin | LCS',
-    metaDescription: 'Myy kirjainsekoitus-tulostettavia. Sanasekoituspulmat kehittävät sanavarastoa ja oikeinkirjoitusta. Matala kilpailu.',
+    metaDescription: 'Myy kirjainsekoitus-tulostettavia: matala kilpailu. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Sanasekoitustulosteet: yksinkertainen tuote iso tuotto',

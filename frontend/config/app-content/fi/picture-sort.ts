@@ -197,6 +197,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä lajittelutyölehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotelinjaresursseina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kahden kategorian lajittelumekanismi, automaattisesti luodut vastausavaimet ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien lajittelutoimintatuotteiden tuottamiseen.',
     },
     {
+      question: 'Sopivatko lajittelutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Lajittelutehtävät sopivat erinomaisesti esiopetukseen (yksinkertainen kahteen ryhmään lajittelu), alkuopetukseen (kolme tai useampi ryhmä) ja alakouluun (monimutkaisemmat luokittelukriteerit). Visuaalinen lajittelu ei vaadi lukutaitoa.',
+    },
+    {
+      question: 'Noudattavatko lajittelutehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Lajittelutehtävät tukevat OPS 2014:n matematiikan tavoitteita T3 (luokittelu ja ryhmittely) sekä laaja-alaista osaamista L1 (ajattelu ja oppimaan oppiminen). Luokittelu ja sarjoittaminen ovat matemaattisen ajattelun perusteita.',
+    },
+    {
+      question: 'Miten luon lajittelutehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuvat kirjastosta, aseta ryhmien määrä ja lajittelukriteerit, ja napsauta Luo. Generaattori sijoittaa kuvat automaattisesti ja luo lajittelutehtävän vastausavaimineen.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata teemapohjaista ja manuaalista kategoriavalintaa, säädettäviä kuvamääriä, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, nimi/päivämääräkenttiä ja kaikkia latausmuotoja ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'konversio-optimointi vanhat tulosteet',
     ],
     titleTag: 'Päivitä vanhat tulosteet: lisää myyntiä | LCS',
-    metaDescription: 'Päivitä vanhat tulosteilmoituksesi ja nosta myyntiä. Etsy palkitsee tuoreita ilmoituksia hakutuloksissa.',
+    metaDescription: 'Päivitä vanhat tulosteilmoituksesi ja nosta myyntiä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Paivita vanhat ilmoitukset ja kasvata myyntia',

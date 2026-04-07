@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostepaketin sisältösuunnitelma',
     ],
     titleTag: 'Tee tehtäväpaketti 35 minuutissa | LCS',
-    metaDescription: 'Vaiheittainen opas tulostettavan tehtäväpaketin luomiseen 35 minuutissa. Generaattori tekee raskaan työn puolestasi.',
+    metaDescription: 'Luo tulostettava tehtäväpaketti 35 minuutissa vaihe vaiheelta. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Luo tyoarkkipaketti 35 minuutissa: vaiheittainen opas',

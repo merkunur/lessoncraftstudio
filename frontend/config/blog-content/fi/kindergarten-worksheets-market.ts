@@ -14,7 +14,7 @@ const content: BlogContent = {
       'päivähoito tulostettavia tehtäviä',
     ],
     titleTag: 'Esikoulun tehtäväarkit: markkina | LCS',
-    metaDescription: 'Esikouluikäisten tulosteet ovat kasvava markkina. Suomessa esiopetus on pakollista ja materiaalien kysyntä jatkuvaa.',
+    metaDescription: 'Esikouluikäisten tulosteet ovat kasvava markkina Suomessa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Paivakotityoarkkien markkina: kasvava kysyntae',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'alkuperäisen sisällön suojaus',
     ],
     titleTag: 'Tekijänoikeus tulostemyyjille | LCS',
-    metaDescription: 'Ymmärrä tekijänoikeuden perusteet tulostemyyjänä. Mitä saat käyttää, miten suojaat oman työsi ja vältät rikkomukset.',
+    metaDescription: 'Ymmärrä tekijänoikeuden perusteet tulostemyyjänä ja suojaa työsi. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tekijanoikeus tulostemyyjille: perusteet selkeasti',

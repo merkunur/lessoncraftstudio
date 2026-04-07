@@ -198,6 +198,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kuviojunatyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
     },
     {
+      question: 'Sopivatko kuviotehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Yksinkertaiset AB-kuviot sopivat esiopetukseen (6-vuotiaat), ABC-kuviot alkuopetukseen ja monimutkaisemmat ABCD-kuviot alakouluun. Kuviojunan visuaalinen muoto tekee sarjoittamisesta konkreettista.',
+    },
+    {
+      question: 'Noudattavatko kuviotehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Kuviotehtävät tukevat OPS 2014:n matematiikan tavoitteita T3 (lukujonotaitojen ja sarjoittamisen perusteet) ja laaja-alaista osaamista L1 (looginen ajattelu). Kuvioiden tunnistaminen ja jatkaminen on keskeinen matemaattinen taito alkuopetuksessa.',
+    },
+    {
+      question: 'Miten luon kuviotehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse kuviotyyppi (AB, ABC tai ABCD), valitse teemakuvat kirjastosta ja napsauta Luo. Generaattori luo automaattisesti kuviojunan, jossa viimeinen vaunu on tyhjä ratkaistavaksi. Vastausavain syntyy samalla.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa hyvityksiä kaupallisten lisenssien ostoista. Voit testata jokaista kuviotyyppiä, jokaista vihjelukuasetusta, jokaista teemaa, jokaista vientimuotoa ja jokaista sivukokoa ennen ostoa. Ilmainen kokeilu on palautuskäytäntö.',
@@ -214,6 +229,21 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'matching-worksheets',
       anchorText: 'Yhdistämistyöarkit varhaisen oppimisen vaihteluun',
+    },
+    {
+      pageType: 'app',
+      slug: 'picture-bingo-worksheets',
+      anchorText: 'Kuvabingogeneraattori pelillisiin tuotepaketteihin',
+    },
+    {
+      pageType: 'app',
+      slug: 'odd-one-out-worksheets',
+      anchorText: 'Mikä ei kuulu joukkoon -generaattori loogisen ajattelun tuotteisiin',
+    },
+    {
+      pageType: 'app',
+      slug: 'big-small-worksheets',
+      anchorText: 'Suuri ja pieni -generaattori vertailutaitojen harjoitteluun',
     },
   ],
 

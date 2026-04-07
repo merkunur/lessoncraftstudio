@@ -14,7 +14,7 @@ const content: BlogContent = {
       'esineiden tunnistus siluetti',
     ],
     titleTag: 'Varjoyhdistämistehtävät myyntiin | LCS',
-    metaDescription: 'Myy varjoyhdistämistyöarkkeja Etsyssä ja KDP:ssä. Visuaalisen hahmottamisen kehittäminen on myyntivaltti.',
+    metaDescription: 'Myy varjoyhdistämistyöarkkeja Etsyssä ja KDP:ssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Varjoyhdistamistyoarkit: visuaalisen hahmottamisen liiketoiminta',

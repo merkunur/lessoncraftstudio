@@ -14,7 +14,7 @@ const content: BlogContent = {
       'sokkelot kaikille ikäryhmille',
     ],
     titleTag: 'Kuvasokkelot liiketoimintana | LCS',
-    metaDescription: 'Myy kuvasokkelo-tehtäviä kannattavasti. Labyrintit kiehtovat lapsia ja aikuisia ja ovat ikivihreä tuotekategoria.',
+    metaDescription: 'Myy kuvasokkelo-tehtäviä ikivihreänä tuotteena. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kuvasokkelo-tyoarkit: labyrinttien liiketoiminta',

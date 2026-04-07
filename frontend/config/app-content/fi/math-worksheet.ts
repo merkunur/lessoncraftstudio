@@ -173,6 +173,31 @@ const content: AppContent = {
         'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myyda luomiasi tyoarkkeja — Etsyssa, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eika rajoituksia.',
     },
     {
+      question: 'Sopivatko algebrapulmatehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Algebrapulmat sopivat parhaiten alkuopetuksen loppuun (2. luokka) ja alakouluun (3.–6. luokka). Neljä vaikeustasoa mahdollistaa eriyttämisen: helpoin taso sopii 2. luokalle, vaikein haastaa 5.–6.-luokkalaisia.',
+    },
+    {
+      question: 'Noudattavatko algebrapulmatehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n matematiikan tavoitteita T5 (peruslaskutoimitukset), T6 (lukujonotaidot) ja erityisesti T9 (algebrallinen ajattelu). Kuvasymbolit valmistavat oppilaita muuttuja-ajatteluun, jota opetussuunnitelma painottaa 3. luokasta alkaen.',
+    },
+    {
+      question: 'Miten luon matikkatehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse vaikeustaso (1–4), aseta lukualue, valitse teemakuvat symboliksi ja napsauta Luo. Generaattori luo automaattisesti pulman, jolla on tarkalleen yksi ratkaisu, sekä vastausavaimen.',
+    },
+    {
+      question: 'Sisältyvätkö vastaukset automaattisesti?',
+      answer:
+        'Kyllä. Jokainen tehtäväarkki sisältää automaattisesti luodun vastausavaimen, joka näyttää jokaisen kuvasymboolin lukuarvon ja laskutoimituksen ratkaisun. Vastausavain vie oman sivunsa.',
+    },
+    {
+      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
+      answer:
+        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä algebrapulmatehtäviä digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla. Jokainen luomasi tehtävä on uniikki.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata jokaisen vaikeustason, jokaisen laskutoimitustilan, jokaisen teeman ja jokaisen vientimuodon ennen ostamista.',

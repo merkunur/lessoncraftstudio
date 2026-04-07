@@ -14,7 +14,7 @@ const content: BlogContent = {
       'erottuvuus Etsy-hakutuloksissa',
     ],
     titleTag: 'Teemakuvat tulosteissa: myy enemmän | LCS',
-    metaDescription: 'Käytä teemakuvia tehtäväarkeissa ja erotut Etsyssä. Visuaalinen vetovoima nostaa klikkauksia ja myyntiä.',
+    metaDescription: 'Käytä teemakuvia tehtäväarkeissa ja erotut Etsyssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kayta teemakuvia tyoarkkien myynnissa: erottuva etu',

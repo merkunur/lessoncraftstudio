@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tulostemyynti sivutulona',
     ],
     titleTag: 'Tulosteiden tulot: realistinen kuva | LCS',
-    metaDescription: 'Realistiset tulodotukset tulosteliiketoiminnalle. Kuukausitulot ensimmäisenä vuonna ilman kaunistelua.',
+    metaDescription: 'Realistiset tulodotukset tulosteliiketoiminnalle. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tulosteiden liiketoimintatulot: realistinen kuva',

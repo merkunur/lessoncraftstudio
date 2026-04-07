@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tammikuun tulostesesonki',
     ],
     titleTag: 'Uudenvuoden tulosteet tammikuussa | LCS',
-    metaDescription: 'Myy uudenvuoden ja loppiaisen tulosteita tammikuussa. Suomessa loppiainen on yleinen vapaapäivä ja sesonkituote.',
+    metaDescription: 'Myy uudenvuoden ja loppiaisen tulosteita tammikuussa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Uudenvuoden ja loppiaisen tulosteet tammikuussa',

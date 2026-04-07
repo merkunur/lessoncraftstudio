@@ -14,7 +14,7 @@ const content: BlogContent = {
       'konversioprosentti ja SEO Etsy',
     ],
     titleTag: 'Etsy-SEO tulostemyyjille | LCS',
-    metaDescription: 'Optimoi Etsy-ilmoituksesi tulosteille. Avainsanat, otsikot, tunnisteet ja kuvaukset jotka toimivat hakualgoritmin kanssa.',
+    metaDescription: 'Optimoi Etsy-SEO tulosteille: avainsanat ja tunnisteet. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Etsy-SEO tulostemyyjille 2026: taydellinen opas',

@@ -177,6 +177,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä aarteenetsintä-työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, omassa kaupassasi Gumroadissa tai millä tahansa muulla myyntikanavalla. Kaksi suuntatyyppiä, 5×5-koordinaattiruudukko, lokalisoidut suuntavihjeet, automaattisesti luodut vastausavaimet ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien polunetsintä-palapeelituotteiden tuottamiseen.',
     },
     {
+      question: 'Sopivatko aarteenetsintätehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Aarteenetsintätehtävät sopivat kaikille ikäryhmille. Kuvavihjeet sopivat esiopetukseen, kirjalliset vihjeet alkuopetukseen ja monimutkaisemmat rastiradat alakouluun. Pelillisyys motivoi kaikkia ikäryhmiä.',
+    },
+    {
+      question: 'Noudattavatko aarteenetsintätehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n laaja-alaista osaamista L1 (ajattelu ja oppimaan oppiminen) ja L3 (itsestä huolehtiminen ja arjen taidot). Vihjeiden seuraaminen kehittää loogista päättelyä ja ohjeiden ymmärtämistä.',
+    },
+    {
+      question: 'Miten luon aarteenetsintätehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuvat kirjastosta, aseta rastien määrä ja vihjeiden tyyppi, ja napsauta Luo. Generaattori luo automaattisesti rastirata-tehtävän vihjeineen.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata molempia suuntatyyppejä, 5×5-koordinaattiruudukkoa, 6 kuvan palapeliluontia, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja ja kaikkia latausmuotoja ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -198,6 +213,16 @@ const content: AppContent = {
       pageType: 'guide',
       slug: 'luo-aarteenetsinta-tyolehtia',
       anchorText: 'Opas aarteenetsintä-työlehien luomiseen',
+    },
+    {
+      pageType: 'app',
+      slug: 'kuviotehtava-tyolehdat',
+      anchorText: 'Kuviotehtäviä loogisten taitojen harjoituspaketteihin',
+    },
+    {
+      pageType: 'app',
+      slug: 'sudoku-tyolehdat',
+      anchorText: 'Kuvasudoku-palapeleja päättelypalapeelpakettien vaihteluun',
     },
   ],
 

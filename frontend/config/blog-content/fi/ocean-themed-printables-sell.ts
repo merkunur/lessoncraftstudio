@@ -14,7 +14,7 @@ const content: BlogContent = {
       'vesiteema aktiviteetit tulostettavia',
     ],
     titleTag: 'Meriaiheiset tulosteet myyntiin | LCS',
-    metaDescription: 'Myy meriaiheisia tulostettavia. Suomessa rannikko ja järvet tekevät vesiteemasta tutun ja halutun aihepiirin.',
+    metaDescription: 'Myy meriaiheisia tulostettavia kannattavasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Meriaihe-tulosteet: vesiteeman liiketoiminta',

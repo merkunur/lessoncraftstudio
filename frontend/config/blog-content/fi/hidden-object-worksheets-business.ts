@@ -14,7 +14,7 @@ const content: BlogContent = {
       'visuaalinen hahmotus tehtävät',
     ],
     titleTag: 'Piilokuva-tehtävät liiketoimintana | LCS',
-    metaDescription: 'Rakenna liiketoiminta piilokuvatehtävillä. Lapset rakastavat etsimistä ja suomenkielinen niche on kilpailuton.',
+    metaDescription: 'Rakenna liiketoiminta piilokuvatehtävillä — kilpailuton niche. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Piilokuvatehtavat: liiketoiminta joka perustuu etsimisen iloon',

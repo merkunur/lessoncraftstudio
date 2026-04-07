@@ -14,7 +14,7 @@ const content: BlogContent = {
       'progressiivinen vaikeustaso tehtävät',
     ],
     titleTag: 'Vaikeustasot ja tuoteportaat tulosteille | LCS',
-    metaDescription: 'Käytä vaikeustasoja tulosteidesi tuoteportaissa. Helppo, keskitaso ja vaikea segmentoivat markkinan ja lisäävät myyntiä.',
+    metaDescription: 'Käytä vaikeustasoja tulosteiden tuoteportaissa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tyoarkkien vaikeustasot ja tuoteportaat',

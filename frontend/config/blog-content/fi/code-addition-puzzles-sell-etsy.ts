@@ -14,7 +14,7 @@ const content: BlogContent = {
       'ongelmanratkaisu tehtäväarkit',
     ],
     titleTag: 'Koodiyhteenlaskupulmat Etsyssä | LCS',
-    metaDescription: 'Myy koodiyhteenlaskupulmia Etsyssä. Lapset ratkaisevat laskuja paljastaakseen sanoja. Erottuva tuote matalalla kilpailulla.',
+    metaDescription: 'Myy koodiyhteenlaskupulmia — erottuva tuote matalalla kilpailulla. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Koodiyhteenlaskupulmat: erottuva tuote Etsyssa',

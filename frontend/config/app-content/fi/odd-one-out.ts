@@ -178,6 +178,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kumpi ei kuulu -työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kaksi luontitilaa, harjoituskohtaiset ylikirjoitukset ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien visuaalisten erottelutuotteiden tuottamiseen.',
     },
     {
+      question: 'Sopivatko mikä ei kuulu joukkoon -tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Yksinkertaiset kuvavertailut sopivat esiopetukseen (3–6-vuotiaille), monimutkaisemmat luokittelut alkuopetukseen ja abstraktimmat päättelytehtävät alakouluun. Tehtävät kehittävät loogista ajattelua kaikilla tasoilla.',
+    },
+    {
+      question: 'Noudattavatko mikä ei kuulu joukkoon -tehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n laaja-alaista osaamista L1 (ajattelu ja oppimaan oppiminen) ja matematiikan luokittelun tavoitteita T3. Erottelu, luokittelu ja päättely ovat keskeisiä taitoja, joita opetussuunnitelma painottaa.',
+    },
+    {
+      question: 'Miten luon mikä ei kuulu joukkoon -tehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuvat kirjastosta, aseta ryhmän koko ja napsauta Luo. Generaattori valitsee automaattisesti yhden poikkeavan kuvan ja luo tehtävän vastausavaimineen.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata molempia luontitiloja, harjoituskohtaista ylikirjoitusjärjestelmää, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, nimi/päivämääräkenttiä, harjoitusnumeroita ja kaikkia latausmuotoja ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -199,6 +214,16 @@ const content: AppContent = {
       pageType: 'guide',
       slug: 'luo-kumpi-ei-kuulu-palapeleja',
       anchorText: 'Opas myytävien kumpi ei kuulu -palapelien luomiseen',
+    },
+    {
+      pageType: 'bundle',
+      slug: 'puzzle-bundle',
+      anchorText: 'Palapeli Paketti — Kaikki Palapelit ja Logiikkatyökalut',
+    },
+    {
+      pageType: 'idea',
+      slug: 'logiikka-palapeli-tulostettavat-ideat',
+      anchorText: 'Logiikka- ja palapeliideoita tulostettavien myyjille',
     },
   ],
 

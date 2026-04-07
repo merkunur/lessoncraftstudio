@@ -14,7 +14,7 @@ const content: BlogContent = {
       'visuaalinen erottelu lapsille',
     ],
     titleTag: 'Etsi erilainen -tulosteet myyntiin | LCS',
-    metaDescription: 'Myy etsi erilainen -tehtäviä. Looginen poissulkeminen kehittää kriittistä ajattelua ja on kysytty tuotekategoria.',
+    metaDescription: 'Myy etsi erilainen -tehtäviä verkossa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Etsi erilainen -tyoarkit: loogisen ajattelun myyntituote',

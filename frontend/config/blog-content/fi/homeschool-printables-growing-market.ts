@@ -14,7 +14,7 @@ const content: BlogContent = {
       'etäopetus tulosteet',
     ],
     titleTag: 'Kotiopetustulosteet: kasvava markkina | LCS',
-    metaDescription: 'Kotiopetustulosteet ovat kasvava markkina. Suomessa kotiopetus on laillista ja kasvussa. Löydä kilpailuton niche.',
+    metaDescription: 'Kotiopetustulosteet ovat kasvava markkina Suomessa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kotiopetustulosteet: nopeasti kasvava markkina',

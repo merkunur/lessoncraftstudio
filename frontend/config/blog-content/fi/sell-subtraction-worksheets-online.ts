@@ -14,7 +14,7 @@ const content: BlogContent = {
       'digitaaliset lataukset matematiikka',
     ],
     titleTag: 'Myy vähennyslaskutehtäviä verkossa | LCS',
-    metaDescription: 'Rakenna kannattava vähennyslaskutyöarkkien verkkomyynti. Tuotevalikoima, hinnoittelu ja markkinointi.',
+    metaDescription: 'Myy vähennyslaskutyöarkkeja verkossa kannattavasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Myy vahennyslaskutyoarkkeja verkossa: taydellinen opas',

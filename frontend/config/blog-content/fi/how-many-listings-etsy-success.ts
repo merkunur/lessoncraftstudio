@@ -14,7 +14,7 @@ const content: BlogContent = {
       'myynnin käynnistyminen Etsy',
     ],
     titleTag: 'Montako ilmoitusta Etsy-menestykseen? | LCS',
-    metaDescription: 'Kuinka monta Etsy-ilmoitusta tarvitset menestykseen? 50-100 listausta on kriittinen massa datan perusteella.',
+    metaDescription: 'Montako Etsy-ilmoitusta tarvitset menestykseen? Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Montako ilmoitusta Etsy-menestykseen tarvitaan?',

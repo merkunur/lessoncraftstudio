@@ -14,7 +14,7 @@ const content: BlogContent = {
       'yhtenäinen tuoteilme Etsy',
     ],
     titleTag: 'Tulostekaupan brändäysvinkit | LCS',
-    metaDescription: 'Rakenna tunnistettava brändi tulostekaupallesi. Logo, värimaailma ja yhtenäinen visuaalinen ilme asiakkaille.',
+    metaDescription: 'Rakenna tunnistettava brändi tulostekaupallesi. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tulostekaupan brandays: vinkit ammattimaiseen ilmeeseen',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'esikoulun piirustusharjoitukset',
     ],
     titleTag: 'Jäljennystyöarkit tulostettavina | LCS',
-    metaDescription: 'Myy jäljennystyöarkkeja hienomotoriikan kehittämiseen. Kynänkäytön harjoittelu on ikivihreä tarve esikouluikäisille.',
+    metaDescription: 'Myy jäljennystyöarkkeja hienomotoriikan kehittämiseen. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Jaljennostehtavat: hienomotoriikan kehittaminen myyntituotteena',

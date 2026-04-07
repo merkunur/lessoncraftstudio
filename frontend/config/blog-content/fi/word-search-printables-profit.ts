@@ -14,7 +14,7 @@ const content: BlogContent = {
       'kielitaito-harjoitukset tulostettavia',
     ],
     titleTag: 'Sanaristikot tulostettavina myyntiin | LCS',
-    metaDescription: 'Myy sanaristikkoja tulostettavina. Sananetsintätehtävät sopivat kaikille ikäryhmille ja ovat ikivihreä tuotekategoria.',
+    metaDescription: 'Myy sanaristikkoja tulostettavina: ikivihreä kategoria. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Sananhakutulosteet: ikivihrea tuottava liiketoiminta',

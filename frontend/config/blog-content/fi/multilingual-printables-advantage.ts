@@ -14,7 +14,7 @@ const content: BlogContent = {
       'kansainvälinen markkina tulosteet',
     ],
     titleTag: 'Monikielisten tulosteiden etu | LCS',
-    metaDescription: 'Hyödynnä 11 kieltä tulosteissa. Monikielisyys moninkertaistaa markkinan minimaalisella lisätyöllä.',
+    metaDescription: 'Hyödynnä monikielisiä tulosteita kilpailuetuna. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Monikielisten tulosteiden etu: 11 kielta 11x markkina',

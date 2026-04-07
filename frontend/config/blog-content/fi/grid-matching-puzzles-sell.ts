@@ -14,7 +14,7 @@ const content: BlogContent = {
       'ongelmanratkaisu tehtäväarkit',
     ],
     titleTag: 'Ruudukkoyhdistämispulmat myyntiin | LCS',
-    metaDescription: 'Myy ruudukkoyhdistämispulmia Etsyssä. Ainutlaatuinen tuote joka kehittää loogista ajattelua. Matala kilpailu.',
+    metaDescription: 'Myy ruudukkoyhdistämispulmia — matalan kilpailun niche. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Ruudukkoyhdistamispulmat: looginen ajattelu myyntituotteena',

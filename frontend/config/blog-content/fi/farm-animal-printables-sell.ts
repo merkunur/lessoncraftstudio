@@ -14,7 +14,7 @@ const content: BlogContent = {
       'maaseutu teema tulostettavia',
     ],
     titleTag: 'Maatilaeläintulosteet myyntiin | LCS',
-    metaDescription: 'Myy maatilaeläintulosteita. Maatilaeläimet ovat suosikkiteema pienille lapsille ja myyvät ympärivuotisesti.',
+    metaDescription: 'Myy maatilaeläintulosteita ympärivuotisesti kannattavasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Maatilaelaintulosteet: pienten lasten suosikkiteema',

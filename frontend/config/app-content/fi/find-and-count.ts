@@ -177,6 +177,36 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä Etsi ja Löydä- ja etsi-ja-laske-työlehtiäsi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla.',
     },
     {
+      question: 'Sopivatko etsi ja laske -tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Etsi ja laske -tehtävät sopivat erinomaisesti esiopetukseen (laskeminen 1–5), alkuopetukseen (laskeminen 1–10) ja alakoulun alkuun. Tehtävät yhdistävät visuaalisen havainnoinnin ja laskemisen konkreettisesti.',
+    },
+    {
+      question: 'Noudattavatko etsi ja laske -tehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n matematiikan tavoitteita T5 (laskutaidon kehittäminen) ja esiopetuksen lukumäärien hahmottamisen tavoitteita. Esineiden laskeminen kuvasta on konkreettista matematiikkaa, jota opetussuunnitelma painottaa.',
+    },
+    {
+      question: 'Miten luon etsi ja laske -tehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuvat kirjastosta, aseta etsittävien kuvien määrä ja napsauta Luo. Generaattori sijoittaa kuvat automaattisesti ja luo laskentatehtävän vastausavaimineen.',
+    },
+    {
+      question: 'Sisältyvätkö vastaukset automaattisesti?',
+      answer:
+        'Kyllä. Jokainen tehtävä sisältää automaattisesti luodun vastausavaimen, jossa oikeat lukumäärät on merkitty. Vastausavain on erillisellä sivulla.',
+    },
+    {
+      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
+      answer:
+        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä etsi ja laske -tehtäviä digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
+    },
+    {
+      question: 'Kuinka monella kielellä voin luoda tehtäviä?',
+      answer:
+        'Generaattori tukee 11 kieltä: suomi, englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska ja norja. Kuvanimet ja otsikot kääntyvät automaattisesti valitulle kielelle. Jokainen kieliversio on erillinen tuote.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',
@@ -193,6 +223,16 @@ const content: AppContent = {
       pageType: 'app',
       slug: 'kuvio-laske-tyolehdat',
       anchorText: 'Kuviodiagrammi-työlehtia täydellisiin laskentatuotteisiin',
+    },
+    {
+      pageType: 'app',
+      slug: 'aarteenetsinta-tyolehdat',
+      anchorText: 'Aarteenetsintä-työlehtia etsintäteemaisiin paketteihin',
+    },
+    {
+      pageType: 'app',
+      slug: 'ruudukkopalapeli-tyolehdat',
+      anchorText: 'Ruutupiirrostehtäviä visuaalisiin hahmottamispaketteihin',
     },
     {
       pageType: 'guide',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'varhaiskasvatus tulosteet',
     ],
     titleTag: 'Yhdistämistehtävät taaperoille | LCS',
-    metaDescription: 'Myy yhdistämistehtäviä taaperoiden vanhemmille. Kasvava markkina jossa vanhemmat etsivät kehitystä tukevia tulostettavia.',
+    metaDescription: 'Myy yhdistämistehtäviä taaperoiden vanhemmille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Yhdistamistyoarkit: taaperomarkkinan kultakaivos',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'PDF-vaatimukset Amazon-julkaisu',
     ],
     titleTag: 'KDP-aktiviteettikirjan muotoiluopas | LCS',
-    metaDescription: 'Muotoile aktiviteettikirja KDP:n vaatimusten mukaisesti. Sivukoko, marginaalit ja tiedostomuodot täydellisesti.',
+    metaDescription: 'Muotoile aktiviteettikirja KDP:n vaatimusten mukaisesti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'KDP-aktiviteettikirjan muotoilu: tekninen opas',

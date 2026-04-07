@@ -14,7 +14,7 @@ const content: BlogContent = {
       'valokuvaus tulostettaville tuotteille',
     ],
     titleTag: 'Tulosteiden tuotekuvaus ja mockupit | LCS',
-    metaDescription: 'Luo ammattimaisia tuotekuvia tulosteille mockup-kuvien avulla. Ilmaiset ja maksulliset työkalut ja vinkit.',
+    metaDescription: 'Luo ammattimaisia tuotekuvia tulosteille mockupeilla. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Tulosteiden tuotekuvaus ja mockupit: taydellinen opas',

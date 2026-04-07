@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tiede tulostettavia',
     ],
     titleTag: 'Avaruusteema-tulosteet myyntiin | LCS',
-    metaDescription: 'Myy avaruusaiheisia tulostettavia. Avaruus kiehtoo lapsia ja STEM-koulutuksen trendi lisää kysyntää.',
+    metaDescription: 'Myy avaruusaiheisia tulostettavia: STEM-trendi kasvaa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Avaruusaihe-tyoarkit: STEM-teeman liiketoiminta',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'palautuskäytäntö digitaaliset',
     ],
     titleTag: 'Asiakaspalvelu digitaalisille tuotteille | LCS',
-    metaDescription: 'Järjestä asiakaspalvelu digitaalisille tuotteille tehokkaasti. Automaatio, viestimallit ja yleisimmät tilanteet.',
+    metaDescription: 'Järjestä asiakaspalvelu digitaalisille tuotteille tehokkaasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Asiakaspalvelu digitaalisille tuotteille: tehokkaat kaytannot',

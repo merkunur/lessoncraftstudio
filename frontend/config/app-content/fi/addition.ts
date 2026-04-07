@@ -192,6 +192,21 @@ const content: AppContent = {
         'Kylla. Kaupallisella lisenssilla sinulla on taydet oikeudet myyda yhteenlaskutyoarkkejasi digitaalisina latauksina Etsyssa, painettuina aktiviteettikirjoina Amazon KDP:ssa, koulutuksellisina tulostettavina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Monet myyjat luovat teemapaketteja ja aktiviteettikirjoja, jotka tuottavat johdonmukaista tuloa.',
     },
     {
+      question: 'Sopivatko yhteenlaskutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Lukualueen säädöllä (1–10 esiopetukseen, 1–20 alkuopetukseen, 1–100 alakouluun) tehtävät sopivat kaikille tasoille 6-vuotiaista 12-vuotiaisiin. Kuvat tekevät laskemisesta konkreettista nuorimmille käyttäjille.',
+    },
+    {
+      question: 'Noudattavatko yhteenlaskutehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Generaattorin tehtävät tukevat OPS 2014:n matematiikan tavoitteita T5 ja T6 — peruslaskutoimitusten hallinta ja lukujonotaitojen kehittäminen luokilla 1–2. Kuvapohjaiset tehtävät vastaavat erityisesti konkreettisen matematiikan lähestymistapaa, jota OPS 2014 painottaa.',
+    },
+    {
+      question: 'Miten luon yhteenlaskutehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse sivukoko ja harjoitustila (esim. Kuva + Kuva), aseta lukualue, valitse teemakuvat kirjastosta ja napsauta Luo. Koko prosessi kestää alle minuutin. Vastausavain luodaan automaattisesti.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata jokaisen tilan, jokaisen teeman, jokaisen vientimuodon ja jokaisen sivukoon ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, etta tyokalu vastaa tarpeitasi ennen lisenssin hankkimista.',

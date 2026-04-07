@@ -14,7 +14,7 @@ const content: BlogContent = {
       'esikoulun matemaattinen vertailu',
     ],
     titleTag: 'Enemmän-vähemmän tulosteet myyntiin | LCS',
-    metaDescription: 'Myy enemmän-vähemmän tehtäväarkkeja. Matemaattinen vertailu on avaintaito jota kaikki esikouluikäiset harjoittelevat.',
+    metaDescription: 'Myy enemmän-vähemmän tehtäväarkkeja verkossa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Enemman-vahemman tyoarkit: matemaattinen vertailu myyntituotteena',

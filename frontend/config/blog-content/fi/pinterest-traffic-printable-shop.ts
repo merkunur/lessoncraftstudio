@@ -14,7 +14,7 @@ const content: BlogContent = {
       'visuaalinen markkinointi Pinterest',
     ],
     titleTag: 'Pinterest-liikenne tulostekauppaan | LCS',
-    metaDescription: 'Ohjaa Pinterest-liikennettä tulostekauppaasi. Pinausstrategia, taulusuunnittelu ja optimointi tulosteille.',
+    metaDescription: 'Ohjaa Pinterest-liikennettä tulostekauppaasi. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Pinterest-liikenne tulostekauppaan: taydellinen opas',

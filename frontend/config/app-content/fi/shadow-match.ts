@@ -197,6 +197,21 @@ const content: AppContent = {
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä varjoyhdistely-työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotelinjaresursseina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kaksi harjoitustilaa, automaattisesti luodut siluetit, sekoitusalgoritmi, automaattiset vastausavaimet ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien visuaalisten yhdistelyttuotteiden tuottamiseen.',
     },
     {
+      question: 'Sopivatko varjoleikkitehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
+      answer:
+        'Kyllä. Varjoleikkitehtävät sopivat erinomaisesti esiopetukseen (3–6-vuotiaille) — ne eivät vaadi lukutaitoa. Siluettien tunnistaminen kehittää visuaalista hahmottamista. Monimutkaisemmat kuvat sopivat alkuopetukseen ja alakoulun alkuun.',
+    },
+    {
+      question: 'Noudattavatko varjoleikkitehtävät OPS 2014 -opetussuunnitelmaa?',
+      answer:
+        'Kyllä. Tehtävät tukevat OPS 2014:n esiopetuksen hahmottamisen ja visuaalisen erottelun tavoitteita sekä laaja-alaista osaamista L1 (ajattelu ja oppimaan oppiminen). Kuvan ja siluettien vertailu kehittää tarkkaavaisuutta ja päättelykykyä.',
+    },
+    {
+      question: 'Miten luon varjoleikkitehtävän nopeasti?',
+      answer:
+        'Avaa generaattori, valitse teemakuvat kirjastosta ja napsauta Luo. Generaattori luo automaattisesti siluetit valituista kuvista ja sijoittaa ne tehtäväpohjaan. Vastausavain syntyy samalla.',
+    },
+    {
       question: 'Mikä on palautuskäytäntö?',
       answer:
         'Koska ilmainen kokeilu antaa pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata molempia harjoitustiloja, automaattisesti luotuja siluetteja, leikkaussuuntavalintoja, vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, tunnistevaihtokytkintä, nimi/päivämääräkenttiä, tekstityökaluja ja kaikkia latausmuotoja ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu sopii tarpeisiisi ennen lisenssin hankkimista.',

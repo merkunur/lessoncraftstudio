@@ -14,7 +14,7 @@ const content: BlogContent = {
       'visuaalinen vertailu tehtävät',
     ],
     titleTag: 'Kokovertailutulosteet myyntiin | LCS',
-    metaDescription: 'Myy kokovertailutyöarkkeja. Iso vs pieni on perustaito jonka jokainen lapsi oppii. Vakaa niche matalalla kilpailulla.',
+    metaDescription: 'Myy kokovertailutyöarkkeja: vakaa niche matalalla kilpailulla. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Kokovertailutyoarkit: yksinkertaisuus on vahvuus',

@@ -14,7 +14,7 @@ const content: BlogContent = {
       'sanatehtävät kirjana Amazon',
     ],
     titleTag: 'Ristikkokirjat KDP-nichena | LCS',
-    metaDescription: 'Julkaise ristikkokirjoja Amazon KDP:ssä. Kasvava niche kohtuullisella kilpailulla ja vakaalla kysynnällä.',
+    metaDescription: 'Julkaise ristikkokirjoja Amazon KDP:ssä — kasvava niche vakaalla kysynnällä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Ristikkokirjat KDP-nichena: taydellinen sivutulo',

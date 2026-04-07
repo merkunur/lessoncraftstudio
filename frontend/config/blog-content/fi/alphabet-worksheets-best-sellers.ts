@@ -14,7 +14,7 @@ const content: BlogContent = {
       'suomalaiset aakkoset 29 kirjainta',
     ],
     titleTag: 'Myy aakkostyöarkkeja Etsyssä | LCS',
-    metaDescription: 'Aakkostyöarkit ovat bestseller-tuote Etsyssä. Suomen 29 kirjainta on kilpailuetu kansainvälisillä markkinoilla.',
+    metaDescription: 'Aakkostyöarkit ovat bestseller-tuote — 29 kirjainta on kilpailuetu. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Aakkostyoarkit: yksi myydyimmista tulostekategorioista',

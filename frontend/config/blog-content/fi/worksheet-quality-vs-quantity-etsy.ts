@@ -14,7 +14,7 @@ const content: BlogContent = {
       'tuotevalikoima strategia Etsy',
     ],
     titleTag: 'Laatu vai määrä Etsy-tulosteissa? | LCS',
-    metaDescription: 'Laatu vai listausten määrä Etsyssä? Oikea vastaus on molemmat, mutta painotus ratkaisee menestyksen.',
+    metaDescription: 'Laatu vai listausten määrä Etsyssä? Molemmat ratkaisevat. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Laatu vai maara: kumpi voittaa Etsyssa?',

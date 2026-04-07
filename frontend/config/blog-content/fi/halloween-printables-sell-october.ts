@@ -14,7 +14,7 @@ const content: BlogContent = {
       'halloween Suomessa tulosteet',
     ],
     titleTag: 'Halloween-tulosteet lokakuussa | LCS',
-    metaDescription: 'Myy halloween-tulosteita lokakuussa. Suomessa halloween on kasvanut suosituksi ja tulostettavat aktiviteetit myyvät hyvin.',
+    metaDescription: 'Myy halloween-tulosteita lokakuun sesongissa kannattavasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Halloween-tulosteet: lokakuun myyntisesonki',

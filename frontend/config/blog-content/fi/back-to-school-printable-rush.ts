@@ -14,7 +14,7 @@ const content: BlogContent = {
       'esikoulu elokuu tulosteet',
     ],
     titleTag: 'Koulunaloituksen tulostesesonki | LCS',
-    metaDescription: 'Hyödynnä koulunaloituksen myyntipiikki elokuussa. Suomessa koulu alkaa elokuussa ja vanhemmat etsivät tulostettavia tehtäviä.',
+    metaDescription: 'Hyödynnä koulunaloituksen myyntipiikki tulostettavilla tehtävillä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {
     title: 'Koulunaloituksen tulostesesonki: elokuun myyntipiikki',

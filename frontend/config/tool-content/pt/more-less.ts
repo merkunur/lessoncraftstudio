@@ -2,16 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'atividade maior menor igual grátis',
+    primaryKeyword: 'maior menor igual grátis para imprimir',
     secondaryKeywords: [
       'comparar números grátis online',
-      'maior que menor que grátis exercícios',
-      'mais que menos que grátis atividade',
-      'comparação de quantidades grátis PDF',
+      'maior que menor que grátis sem cadastro',
+      'comparação de quantidades grátis',
+      'mais que menos que grátis PDF',
     ],
-    lsiKeywords: ['maior que', 'menor que', 'igual', 'comparar', 'sem cadastro'],
-    titleTag: 'Atividade maior menor igual grátis | Online',
-    metaDescription: 'Crie atividades de comparação de números e quantidades grátis. Sem cadastro. Imagens temáticas, gabarito automático. Marca d\'água removida com licença.',
+    lsiKeywords: ['maior que', 'menor que', 'igual', 'comparar', 'quantidades', 'sem cadastro'],
+    titleTag: 'Maior menor igual grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de comparação de números grátis com imagens temáticas online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

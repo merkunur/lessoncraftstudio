@@ -5,9 +5,9 @@ const content: ToolContent = {
     primaryKeyword: 'atividade de ligar grátis para imprimir',
     secondaryKeywords: [
       'associar imagens grátis online',
-      'ligar os pares grátis atividade',
-      'atividade de relacionar grátis PDF',
-      'ligar com flechas grátis educação infantil',
+      'ligar os pares grátis sem cadastro',
+      'atividade de relacionar grátis para imprimir',
+      'ligar com flechas grátis PDF',
     ],
     lsiKeywords: [
       'ligar',
@@ -15,9 +15,10 @@ const content: ToolContent = {
       'pares',
       'educação infantil',
       'sem cadastro',
+      'online',
     ],
-    titleTag: 'Atividades de ligar grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de associação grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
+    titleTag: 'Atividade de ligar grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de associação grátis com imagens temáticas online. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

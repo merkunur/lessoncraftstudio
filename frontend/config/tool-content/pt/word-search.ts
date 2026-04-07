@@ -2,12 +2,12 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'gerador de caça-palavras grátis',
+    primaryKeyword: 'gerador de caça-palavras grátis online',
     secondaryKeywords: [
-      'criar caça-palavras grátis online',
+      'criar caça-palavras grátis sem cadastro',
       'caça-palavras para imprimir grátis',
-      'caça-palavras personalizado grátis',
-      'gerador de caça-palavras com imagens grátis',
+      'caça-palavras personalizado grátis online',
+      'caça-palavras com imagens grátis PDF',
     ],
     lsiKeywords: [
       'grade',
@@ -16,9 +16,10 @@ const content: ToolContent = {
       'gabarito',
       'sem cadastro',
       'PDF',
+      'alfabetização',
     ],
-    titleTag: 'Gerador de caça-palavras grátis | Online',
-    metaDescription: 'Crie caça-palavras grátis com 3.000+ imagens temáticas. Sem cadastro. Grades personalizadas, gabarito automático. Marca d\'água removida com licença.',
+    titleTag: 'Gerador de caça-palavras grátis online | Sem cadastro',
+    metaDescription: 'Crie caça-palavras grátis com 3.000+ imagens temáticas online. Sem cadastro. Grades personalizadas, gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

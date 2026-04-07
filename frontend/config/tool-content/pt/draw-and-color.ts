@@ -5,13 +5,13 @@ const content: ToolContent = {
     primaryKeyword: 'atividades de desenho grátis para imprimir',
     secondaryKeywords: [
       'atividades de arte grátis online',
-      'desenho guiado grátis atividade',
+      'desenho guiado grátis sem cadastro',
       'atividades de desenho e colorir grátis',
       'atividades artísticas grátis PDF',
     ],
-    lsiKeywords: ['desenho guiado', 'arte', 'criatividade', 'colorir', 'sem cadastro'],
+    lsiKeywords: ['desenho guiado', 'arte', 'criatividade', 'colorir', 'sem cadastro', 'online'],
     titleTag: 'Atividades de desenho grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de desenho guiado e colorir grátis com imagens temáticas. Sem cadastro. PDF 300 DPI imprimíveis. Marca d\'água removida com licença.',
+    metaDescription: 'Crie atividades de desenho guiado e colorir grátis com imagens temáticas online. Sem cadastro. PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

@@ -2,16 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'exercícios de sequência lógica grátis',
+    primaryKeyword: 'sequência lógica grátis para imprimir',
     secondaryKeywords: [
-      'completar a sequência grátis online',
-      'lógica visual grátis atividade',
-      'raciocínio lógico grátis atividade',
-      'sequência numérica grátis para imprimir',
+      'exercícios de sequência grátis online',
+      'completar a sequência grátis sem cadastro',
+      'raciocínio lógico grátis para imprimir',
+      'lógica visual grátis PDF',
     ],
-    lsiKeywords: ['raciocínio', 'completar', 'sequência', 'visual', 'sem cadastro'],
-    titleTag: 'Exercícios de sequência lógica grátis | Online',
-    metaDescription: 'Crie exercícios de sequência lógica grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
+    lsiKeywords: ['raciocínio', 'completar', 'sequência', 'visual', 'sem cadastro', 'online'],
+    titleTag: 'Sequência lógica grátis para imprimir | Online',
+    metaDescription: 'Crie exercícios de sequência lógica grátis com imagens temáticas online. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

@@ -90,8 +90,8 @@ const bundlesContent: Record<string, {
   pt: {
     heroTitle: 'Pacotes com licença comercial',
     heroDescription: 'Economize com pacotes por categoria. Todos os geradores de uma categoria com licença comercial para vender na Hotmart, Etsy e KDP.',
-    metaTitle: 'Pacotes geradores com licença comercial | LCS',
-    metaDescription: 'Pacotes de geradores com licença comercial por categoria. Matemática, alfabetização, visual, associação, puzzles e jogos.',
+    metaTitle: 'Pacotes de geradores com licença comercial | LessonCraftStudio',
+    metaDescription: 'Todos os geradores de uma categoria a preço de pacote. 6 pacotes: matemática, alfabetização, visual, associação, puzzles e jogos. Licença comercial incluída.',
     ctaTitle: 'Teste antes de comprar',
     ctaDescription: 'Todos os geradores são grátis para testar com marca d\'água. Veja a qualidade antes de comprar.',
     ctaButton: 'Testar geradores grátis',

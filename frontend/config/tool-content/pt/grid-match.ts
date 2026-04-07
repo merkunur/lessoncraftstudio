@@ -7,11 +7,11 @@ const content: ToolContent = {
       'reproduzir na grade grátis online',
       'pixel art grátis para imprimir',
       'copiar desenho na quadrícula grátis',
-      'simetria na grade grátis PDF',
+      'simetria na grade grátis sem cadastro',
     ],
-    lsiKeywords: ['quadrícula', 'reproduzir', 'copiar', 'simetria', 'sem cadastro'],
+    lsiKeywords: ['quadrícula', 'reproduzir', 'copiar', 'simetria', 'sem cadastro', 'online'],
     titleTag: 'Desenho quadriculado grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de reprodução em grade grátis com imagens temáticas. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
+    metaDescription: 'Crie atividades de reprodução em grade grátis com imagens temáticas online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

@@ -55,7 +55,7 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Use los 33 generadores gratis en línea — sopa de letras, crucigramas, matemáticas, sudoku y más. Sin registro. La marca de agua se elimina con licencia.',
   },
   pt: {
-    title: '33 geradores de atividades grátis | Ferramentas online',
+    title: 'Geradores de atividades grátis | 33 ferramentas online',
     description: 'Use os 33 geradores grátis online — caça-palavras, cruzadinhas, matemática, sudoku e mais. Sem cadastro. Marca d\'água removida com licença.',
   },
   it: {

@@ -4,19 +4,20 @@ const content: ToolContent = {  seo: {
     primaryKeyword: 'atividades de contagem grátis para imprimir',
     secondaryKeywords: [
       'exercícios de gráficos grátis online',
-      'atividades de gráficos grátis ensino fundamental',
-      'contagem e tabelas grátis PDF',
-      'atividades de quantificação grátis',
+      'contagem e tabelas grátis para imprimir',
+      'atividades de quantificação grátis sem cadastro',
+      'gráficos ensino fundamental grátis',
     ],
     lsiKeywords: [
       'contar',
-      'gráfico de barras',
+      'gráfico',
       'pictograma',
-      'dados',
+      'gabarito',
       'sem cadastro',
+      'online',
     ],
-    titleTag: 'Atividades de contagem grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de contagem e gráficos grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF imprimíveis. Marca d\'água removida com licença.',
+    titleTag: 'Atividades de contagem e gráficos grátis | Online',
+    metaDescription: 'Crie atividades de contagem e gráficos grátis com imagens temáticas online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

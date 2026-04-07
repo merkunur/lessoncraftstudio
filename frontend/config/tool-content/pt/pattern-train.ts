@@ -5,13 +5,13 @@ const content: ToolContent = {
     primaryKeyword: 'atividades de sequência grátis para imprimir',
     secondaryKeywords: [
       'sequência lógica grátis online',
-      'completar a sequência grátis exercício',
+      'completar a sequência grátis sem cadastro',
       'padrões para completar grátis',
-      'sequência grátis educação infantil',
+      'sequência educação infantil grátis PDF',
     ],
-    lsiKeywords: ['AB', 'ABC', 'repetir', 'continuar', 'sequência', 'sem cadastro'],
+    lsiKeywords: ['AB', 'ABC', 'repetir', 'continuar', 'sequência', 'sem cadastro', 'online'],
     titleTag: 'Atividades de sequência grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de sequência lógica grátis com padrões AB, ABC e imagens temáticas. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
+    metaDescription: 'Crie atividades de sequência lógica grátis com padrões AB, ABC, ABCD online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

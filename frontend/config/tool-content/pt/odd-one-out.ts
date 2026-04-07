@@ -5,13 +5,13 @@ const content: ToolContent = {
     primaryKeyword: 'encontre o intruso grátis para imprimir',
     secondaryKeywords: [
       'qual não pertence grátis online',
-      'jogo do intruso grátis atividade',
-      'classificação lógica grátis atividade',
+      'jogo do intruso grátis sem cadastro',
+      'classificação lógica grátis para imprimir',
       'raciocínio lógico grátis PDF',
     ],
-    lsiKeywords: ['categoria', 'classificar', 'lógica', 'raciocínio', 'sem cadastro'],
+    lsiKeywords: ['categoria', 'classificar', 'lógica', 'raciocínio', 'sem cadastro', 'online'],
     titleTag: 'Encontre o intruso grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de "encontre o intruso" grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF imprimíveis. Marca d\'água removida com licença.',
+    metaDescription: 'Crie atividades de encontre o intruso grátis com imagens temáticas online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

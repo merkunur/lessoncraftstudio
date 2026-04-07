@@ -5,19 +5,20 @@ const content: ToolContent = {
     primaryKeyword: 'letras embaralhadas grátis para imprimir',
     secondaryKeywords: [
       'formar palavras grátis online',
-      'desembaralhar letras grátis atividade',
-      'palavras embaralhadas grátis PDF',
+      'desembaralhar letras grátis sem cadastro',
       'anagrama grátis para imprimir',
+      'palavras embaralhadas grátis PDF',
     ],
     lsiKeywords: [
       'anagrama',
-      'embaralhar',
       'formar',
       'ortografia',
+      'vocabulário',
       'sem cadastro',
+      'alfabetização',
     ],
     titleTag: 'Letras embaralhadas grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de letras embaralhadas grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
+    metaDescription: 'Crie atividades de letras embaralhadas grátis com imagens temáticas online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

@@ -5,9 +5,9 @@ const content: ToolContent = {
     primaryKeyword: 'jogo da forca grátis para imprimir',
     secondaryKeywords: [
       'adivinhar a palavra grátis online',
-      'forca para imprimir grátis',
+      'forca grátis para imprimir sem cadastro',
       'jogo de palavras grátis PDF',
-      'adivinhar palavras grátis atividade',
+      'adivinhar palavras grátis online',
     ],
     lsiKeywords: [
       'forca',
@@ -15,9 +15,10 @@ const content: ToolContent = {
       'letras',
       'vocabulário',
       'sem cadastro',
+      'online',
     ],
     titleTag: 'Jogo da forca grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de jogo da forca grátis com vocabulário temático. Sem cadastro. Gabarito automático, PDF imprimíveis. Marca d\'água removida com licença.',
+    metaDescription: 'Crie atividades de jogo da forca grátis com vocabulário temático online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

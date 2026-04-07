@@ -4,14 +4,14 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'quebra-cabeça grátis para imprimir',
     secondaryKeywords: [
-      'peças faltando grátis atividade',
-      'complete o puzzle grátis online',
-      'observação visual grátis atividade',
-      'lógica visual grátis para imprimir',
+      'peças faltando grátis online',
+      'complete o puzzle grátis sem cadastro',
+      'observação visual grátis para imprimir',
+      'lógica visual grátis PDF',
     ],
-    lsiKeywords: ['quebra-cabeça', 'completar', 'observar', 'raciocínio visual', 'sem cadastro'],
-    titleTag: 'Quebra-cabeça grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de "peças faltando" grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
+    lsiKeywords: ['quebra-cabeça', 'completar', 'observar', 'raciocínio visual', 'sem cadastro', 'online'],
+    titleTag: 'Quebra-cabeça peças faltando grátis | Online',
+    metaDescription: 'Crie atividades de peças faltando grátis com imagens temáticas online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

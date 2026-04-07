@@ -4,20 +4,21 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'encontre os objetos grátis para imprimir',
     secondaryKeywords: [
-      'jogo de encontrar objetos grátis',
-      'objetos escondidos grátis para imprimir',
-      'jogo de observação grátis atividade',
+      'jogo de encontrar objetos grátis online',
+      'objetos escondidos grátis sem cadastro',
+      'jogo de observação grátis para imprimir',
       'encontre e circule grátis PDF',
     ],
     lsiKeywords: [
       'observação',
       'concentração',
       'atenção visual',
-      'encontrar',
       'sem cadastro',
+      'online',
+      'gabarito',
     ],
     titleTag: 'Encontre os objetos grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de "encontre os objetos" grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
+    metaDescription: 'Crie atividades de encontre os objetos grátis com imagens temáticas online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

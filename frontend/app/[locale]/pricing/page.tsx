@@ -355,9 +355,9 @@ const pricingContent: Record<string, {
     catalogSubtitle: 'Compra aplicaciones individuales por $49 o ahorra con un paquete de categoria por $149.',
   },
   pt: {
-    metaTitle: 'Preços - Geradores de imprimíveis profissionais | LessonCraftStudio',
-    metaDescription: 'Teste todos os 33 geradores grátis com marca d\'água. Apps individuais 49 $, pacotes 149 $. Pagamento único, licença comercial incluída.',
-    keywords: ['preços gerador imprimíveis', 'licença comercial imprimíveis', 'ferramentas Etsy imprimíveis preço', 'gerador fichas comprar'],
+    metaTitle: 'Preços | Geradores de atividades a partir de $49 — Pagamento único',
+    metaDescription: 'Teste os 33 geradores grátis com marca d\'água. Apps individuais a $49, pacotes por categoria a partir de $99. Pagamento único, licença comercial, sem assinatura.',
+    keywords: ['preços geradores atividades', 'licença comercial imprimíveis', 'gerador atividades comprar', 'pagamento único geradores'],
     heroBadge: '33 geradores | 6 pacotes | Pagamento único',
     heroTitle: 'Preços simples. Sem assinatura.',
     heroSubtitle: 'Teste cada gerador grátis com marca d\'água. Quando estiver pronto, desbloqueie exportações limpas com pagamento único.',

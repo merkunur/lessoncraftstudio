@@ -2,12 +2,12 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'mensagem secreta grátis para imprimir',
+    primaryKeyword: 'gerador de criptogramas grátis online',
     secondaryKeywords: [
-      'criptograma grátis online',
-      'código secreto grátis para imprimir',
-      'decifrar mensagem grátis atividade',
-      'jogo de código grátis PDF',
+      'mensagem secreta grátis para imprimir',
+      'código secreto grátis online',
+      'decifrar mensagem grátis sem cadastro',
+      'criptograma grátis PDF',
     ],
     lsiKeywords: [
       'código',
@@ -15,9 +15,10 @@ const content: ToolContent = {
       'letras',
       'substituição',
       'sem cadastro',
+      'online',
     ],
-    titleTag: 'Mensagens secretas grátis para imprimir | Online',
-    metaDescription: 'Crie criptogramas e mensagens secretas grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
+    titleTag: 'Gerador de criptogramas grátis online | Sem cadastro',
+    metaDescription: 'Crie criptogramas e mensagens secretas grátis online. Sem cadastro. Gabarito automático, imagens temáticas. Marca d\'água removida com licença.',
   },
 
   hero: {

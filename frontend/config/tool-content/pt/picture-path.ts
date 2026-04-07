@@ -5,13 +5,13 @@ const content: ToolContent = {
     primaryKeyword: 'labirinto grátis para imprimir',
     secondaryKeywords: [
       'gerador de labirinto grátis online',
-      'labirinto infantil grátis para imprimir',
+      'labirinto infantil grátis sem cadastro',
       'criar labirinto grátis',
-      'labirinto grátis educação infantil',
+      'labirinto educação infantil grátis PDF',
     ],
-    lsiKeywords: ['caminho', 'saída', 'coordenação motora', 'concentração', 'sem cadastro'],
-    titleTag: 'Labirinto grátis para imprimir | Online',
-    metaDescription: 'Crie labirintos grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
+    lsiKeywords: ['caminho', 'saída', 'coordenação motora', 'concentração', 'sem cadastro', 'online'],
+    titleTag: 'Labirinto grátis para imprimir | Gerador online',
+    metaDescription: 'Crie labirintos grátis com imagens temáticas online. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

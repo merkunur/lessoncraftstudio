@@ -5,13 +5,13 @@ const content: ToolContent = {
     primaryKeyword: 'sudoku grátis para imprimir',
     secondaryKeywords: [
       'gerador de sudoku grátis online',
-      'sudoku infantil grátis para imprimir',
-      'sudoku com imagens grátis',
-      'criar sudoku personalizado grátis',
+      'sudoku infantil grátis sem cadastro',
+      'sudoku com imagens grátis para imprimir',
+      'criar sudoku grátis PDF',
     ],
-    lsiKeywords: ['grade', 'lógica', 'números', 'imagens', '4x4', '6x6', 'sem cadastro'],
-    titleTag: 'Sudoku grátis para imprimir | Online',
-    metaDescription: 'Crie sudoku grátis com imagens ou números, dificuldade ajustável. Sem cadastro. Gabarito automático, PDF imprimíveis. Marca d\'água removida com licença.',
+    lsiKeywords: ['grade', 'lógica', 'números', 'imagens', 'fácil', 'difícil', 'sem cadastro'],
+    titleTag: 'Sudoku grátis para imprimir | Gerador online',
+    metaDescription: 'Crie sudoku grátis com imagens ou números, dificuldade ajustável, online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

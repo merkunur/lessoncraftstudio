@@ -1,16 +1,16 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'atividade grande e pequeno grátis',
+    primaryKeyword: 'grande e pequeno grátis para imprimir',
     secondaryKeywords: [
       'comparar tamanhos grátis online',
-      'maior e menor grátis atividade',
-      'ordenar por tamanho grátis exercício',
-      'tamanhos grátis educação infantil',
+      'maior e menor grátis sem cadastro',
+      'ordenar por tamanho grátis para imprimir',
+      'tamanhos educação infantil grátis PDF',
     ],
-    lsiKeywords: ['grande', 'pequeno', 'médio', 'ordenar', 'sem cadastro'],
-    titleTag: 'Atividade grande e pequeno grátis | Online',
-    metaDescription: 'Crie atividades de comparação de tamanhos grátis com imagens temáticas. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
+    lsiKeywords: ['grande', 'pequeno', 'médio', 'ordenar', 'classificar', 'sem cadastro'],
+    titleTag: 'Grande e pequeno grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de comparação de tamanhos grátis com imagens temáticas online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

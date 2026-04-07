@@ -5,13 +5,13 @@ const content: ToolContent = {
     primaryKeyword: 'encontre e conte grátis para imprimir',
     secondaryKeywords: [
       'contar objetos grátis online',
-      'quantos tem? grátis atividade',
-      'atividade de contagem grátis educação infantil',
+      'quantos tem? grátis sem cadastro',
+      'atividade de contagem grátis para imprimir',
       'encontre e conte grátis PDF',
     ],
-    lsiKeywords: ['contar', 'quantos', 'discriminação visual', 'números', 'sem cadastro'],
+    lsiKeywords: ['contar', 'quantos', 'números', 'educação infantil', 'sem cadastro', 'online'],
     titleTag: 'Encontre e conte grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de "encontre e conte" grátis com imagens temáticas. Sem cadastro. Gabarito automático, PDF imprimíveis. Marca d\'água removida com licença.',
+    metaDescription: 'Crie atividades de encontre e conte grátis com imagens temáticas online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

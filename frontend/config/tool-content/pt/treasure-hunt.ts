@@ -4,14 +4,14 @@ const content: ToolContent = {
   seo: {
     primaryKeyword: 'caça ao tesouro grátis para imprimir',
     secondaryKeywords: [
-      'gincana grátis para imprimir',
-      'jogo de pistas grátis online',
-      'pistas caça ao tesouro grátis',
-      'caça ao tesouro infantil grátis PDF',
+      'gincana grátis para imprimir online',
+      'jogo de pistas grátis sem cadastro',
+      'caça ao tesouro infantil grátis',
+      'pistas caça ao tesouro grátis PDF',
     ],
-    lsiKeywords: ['pistas', 'aventura', 'aniversário', 'gincana', 'sem cadastro'],
+    lsiKeywords: ['pistas', 'aventura', 'gincana', 'enigmas', 'sem cadastro', 'online'],
     titleTag: 'Caça ao tesouro grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de caça ao tesouro e gincana grátis com imagens temáticas. Sem cadastro. PDF imprimíveis. Marca d\'água removida com licença.',
+    metaDescription: 'Crie atividades de caça ao tesouro grátis com imagens temáticas online. Sem cadastro. PDF imprimíveis. Marca d\'água removida com licença.',
   },
 
   hero: {

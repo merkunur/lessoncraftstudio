@@ -100,8 +100,8 @@ const ideasContent: Record<string, {
   pt: {
     heroTitle: '45 nichos lucrativos de imprimíveis para vender',
     heroDescription: 'Encontre o nicho perfeito para seu negócio. 45 ideias lucrativas com sugestões de produtos, dicas de plataformas e estratégias de preços para Hotmart, Etsy e KDP.',
-    metaTitle: '45 nichos lucrativos de atividades | LCS',
-    metaDescription: 'Descubra 45 nichos lucrativos para vender atividades no Etsy e KDP. Temas, estações e formatos com ideias de produtos e preços.',
+    metaTitle: '45 nichos lucrativos de imprimíveis para Etsy e KDP | LessonCraftStudio',
+    metaDescription: 'Descubra 45 nichos lucrativos para vender atividades no Etsy e KDP. Análise de concorrência, ideias de produtos e estratégias de preços.',
     ctaTitle: 'Pronto para começar seu nicho?',
     ctaDescription: 'Teste os 33 geradores grátis com marca d\'água. Sem cadastro.',
     ctaButton: 'Testar geradores grátis',

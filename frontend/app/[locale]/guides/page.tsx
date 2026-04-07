@@ -141,8 +141,8 @@ const guidesContent: Record<string, {
   pt: {
     heroTitle: 'Guias para vendedores de imprimíveis',
     heroDescription: 'Guias passo a passo para criar e vender imprimíveis na Hotmart, Kiwify, Etsy e Amazon KDP. Plataformas, criação e estratégias de negócio.',
-    metaTitle: 'Guias para criar e vender atividades | LCS',
-    metaDescription: '65 guias para criar e vender atividades no Etsy, KDP e Hotmart. Criação de produtos, plataformas e estratégias de negócio.',
+    metaTitle: '65 guias: criar e vender imprimíveis no Etsy e KDP | LessonCraftStudio',
+    metaDescription: 'Guias passo a passo sobre SEO Etsy, formato KDP, estratégias de preços, seleção de nicho e mais. Tudo para seu negócio de imprimíveis.',
     ctaTitle: 'Comece a criar hoje',
     ctaDescription: 'Teste os 33 geradores grátis com marca d\'água. Sem cadastro.',
     ctaButton: 'Testar geradores grátis',

@@ -2,16 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'atividade de localização espacial grátis',
+    primaryKeyword: 'localização espacial grátis para imprimir',
     secondaryKeywords: [
       'preposições de lugar grátis online',
-      'noções espaciais grátis atividade',
-      'em cima embaixo ao lado grátis atividade',
-      'orientação espacial grátis educação infantil',
+      'noções espaciais grátis sem cadastro',
+      'em cima embaixo ao lado grátis',
+      'orientação espacial grátis PDF',
     ],
     lsiKeywords: ['em cima', 'embaixo', 'na frente', 'atrás', 'ao lado', 'sem cadastro'],
-    titleTag: 'Atividade de localização espacial grátis | Online',
-    metaDescription: 'Crie atividades de localização espacial e preposições grátis. Sem cadastro. Imagens temáticas, gabarito automático, 11 idiomas. Marca d\'água removida com licença.',
+    titleTag: 'Localização espacial grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de localização espacial e preposições grátis online. Sem cadastro. Gabarito automático, 11 idiomas. Marca d\'água removida com licença.',
   },
 
   hero: {

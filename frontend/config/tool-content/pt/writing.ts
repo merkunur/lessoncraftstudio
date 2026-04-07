@@ -2,23 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'atividades de coordenação motora grátis',
+    primaryKeyword: 'coordenação motora grátis para imprimir',
     secondaryKeywords: [
-      'gerador de caligrafia grátis online',
-      'pontilhado para imprimir grátis',
-      'atividades de escrita grátis PDF',
-      'treino de letra grátis para imprimir',
+      'atividades de escrita grátis online',
+      'pontilhado grátis para imprimir',
+      'caligrafia grátis sem cadastro',
+      'treino de letra grátis PDF',
     ],
     lsiKeywords: [
       'traçado',
       'letras',
       'cursiva',
-      'bastão',
       'coordenação motora fina',
       'sem cadastro',
+      'alfabetização',
     ],
-    titleTag: 'Atividades de coordenação motora grátis | Online',
-    metaDescription: 'Crie atividades de coordenação motora e escrita grátis. Sem cadastro. Palavras personalizadas, 11 idiomas. Marca d\'água removida com licença.',
+    titleTag: 'Coordenação motora grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de coordenação motora e escrita grátis online. Sem cadastro. Palavras personalizadas, 11 idiomas. Marca d\'água removida com licença.',
   },
 
   hero: {

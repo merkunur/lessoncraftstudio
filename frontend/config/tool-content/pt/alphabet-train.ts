@@ -4,20 +4,20 @@ const content: ToolContent = {  seo: {
     primaryKeyword: 'atividades do alfabeto grátis para imprimir',
     secondaryKeywords: [
       'exercícios do ABC grátis online',
-      'reconhecimento de letras grátis atividade',
-      'atividades de alfabetização grátis PDF',
-      'aprender o alfabeto grátis atividades',
+      'reconhecimento de letras grátis sem cadastro',
+      'atividades de alfabetização grátis para imprimir',
+      'aprender o alfabeto grátis PDF',
     ],
     lsiKeywords: [
       'ABC',
       'maiúsculas',
       'minúsculas',
-      'ordem alfabética',
+      'educação infantil',
       'sem cadastro',
       'alfabetização',
     ],
     titleTag: 'Atividades do alfabeto grátis para imprimir | Online',
-    metaDescription: 'Crie atividades do alfabeto grátis com imagens temáticas. Sem cadastro. Reconhecimento de letras, gabarito automático. Marca d\'água removida com licença.',
+    metaDescription: 'Crie atividades do alfabeto grátis com imagens temáticas online. Sem cadastro. Gabarito automático, 11 idiomas. Marca d\'água removida com licença.',
   },
 
   hero: {

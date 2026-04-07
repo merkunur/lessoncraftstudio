@@ -3,20 +3,21 @@ import type { ToolContent } from '../types';
 const content: ToolContent = {  seo: {
     primaryKeyword: 'desafios de matemática grátis para imprimir',
     secondaryKeywords: [
-      'quebra-cabeça de matemática grátis',
-      'enigmas matemáticos grátis online',
-      'jogos de matemática grátis para imprimir',
-      'puzzle matemático grátis PDF',
+      'quebra-cabeça de matemática grátis online',
+      'enigmas matemáticos grátis para imprimir',
+      'jogos de matemática grátis PDF',
+      'puzzle de matemática grátis sem cadastro',
     ],
     lsiKeywords: [
       'enigma',
-      'imagens',
-      'associar',
       'lógica',
+      'raciocínio',
+      'gabarito',
       'sem cadastro',
+      'online',
     ],
     titleTag: 'Desafios de matemática grátis para imprimir | Online',
-    metaDescription: 'Crie puzzles matemáticos grátis com imagens temáticas e gabarito. Sem cadastro. 104 temas disponíveis, PDF 300 DPI. Marca d\'água removida com licença.',
+    metaDescription: 'Crie puzzles matemáticos grátis com imagens temáticas online. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

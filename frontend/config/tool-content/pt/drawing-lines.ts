@@ -2,12 +2,12 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'atividades de pontilhado grátis para imprimir',
+    primaryKeyword: 'pontilhado grátis para imprimir',
     secondaryKeywords: [
-      'coordenação motora pontilhado grátis',
-      'cobrir pontilhado grátis atividade',
-      'tracejado para imprimir grátis',
-      'coordenação motora grátis educação infantil',
+      'coordenação motora pontilhado grátis online',
+      'cobrir pontilhado grátis sem cadastro',
+      'tracejado grátis para imprimir',
+      'atividades de coordenação motora grátis PDF',
     ],
     lsiKeywords: [
       'linhas',
@@ -15,9 +15,10 @@ const content: ToolContent = {
       'pontilhado',
       'coordenação motora fina',
       'sem cadastro',
+      'educação infantil',
     ],
-    titleTag: 'Atividades de pontilhado grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de pontilhado e coordenação motora grátis. Sem cadastro. Imagens temáticas, PDF 300 DPI. Marca d\'água removida com licença.',
+    titleTag: 'Pontilhado grátis para imprimir | Online sem cadastro',
+    metaDescription: 'Crie atividades de pontilhado e coordenação motora grátis online. Sem cadastro. Imagens temáticas, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

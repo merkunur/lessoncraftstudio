@@ -1,22 +1,23 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'mensagem secreta com contas grátis',
+    primaryKeyword: 'mensagem secreta com contas grátis online',
     secondaryKeywords: [
-      'código secreto matemática grátis online',
+      'código secreto matemática grátis',
+      'enigma de adição grátis para imprimir',
       'decifrar código com somas grátis',
-      'enigma de matemática grátis para imprimir',
-      'atividade código secreto grátis PDF',
+      'atividade código secreto grátis online',
     ],
     lsiKeywords: [
       'decifrar',
       'código',
       'mensagem',
-      'enigma',
+      'gabarito',
       'sem cadastro',
+      'online',
     ],
-    titleTag: 'Mensagem secreta com contas grátis | Online',
-    metaDescription: 'Crie atividades de mensagem secreta com contas grátis. Sem cadastro. Imagens temáticas, gabarito incluído. Marca d\'água removida com licença.',
+    titleTag: 'Mensagem secreta com contas grátis | Online sem cadastro',
+    metaDescription: 'Crie mensagens secretas com contas de adição grátis online. Sem cadastro. Gabarito automático, imagens temáticas. Marca d\'água removida com licença.',
   },
 
   hero: {

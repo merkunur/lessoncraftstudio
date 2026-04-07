@@ -5,20 +5,20 @@ const content: ToolContent = {
     primaryKeyword: 'gerador de atividades de matemática grátis',
     secondaryKeywords: [
       'exercícios de matemática grátis para imprimir',
-      'gerador de contas grátis online',
+      'criar atividades de matemática grátis online',
+      'gerador de contas grátis sem cadastro',
       'atividades de matemática grátis PDF',
-      'criar atividades de matemática grátis',
     ],
     lsiKeywords: [
       'operações',
       'cálculo',
-      'aritmética',
       'gabarito',
       'sem cadastro',
-      'PDF',
+      'online',
+      'ensino fundamental',
     ],
     titleTag: 'Gerador de atividades de matemática grátis | Online',
-    metaDescription: 'Crie atividades de matemática grátis com gabarito automático. Sem cadastro. Soma, subtração e mais. PDF 300 DPI. Marca d\'água removida com licença.',
+    metaDescription: 'Crie atividades de matemática personalizadas grátis online. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

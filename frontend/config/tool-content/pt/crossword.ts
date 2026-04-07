@@ -1,12 +1,12 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'gerador de cruzadinha grátis',
+    primaryKeyword: 'gerador de cruzadinha grátis online',
     secondaryKeywords: [
-      'criar cruzadinha grátis online',
-      'cruzadinha para imprimir grátis',
-      'palavras cruzadas grátis com imagens',
-      'cruzadinha personalizada grátis',
+      'criar cruzadinha grátis sem cadastro',
+      'palavras cruzadas grátis para imprimir',
+      'cruzadinha com imagens grátis online',
+      'gerador de palavras cruzadas grátis',
     ],
     lsiKeywords: [
       'dicas',
@@ -14,9 +14,11 @@ const content: ToolContent = {  seo: {
       'horizontal',
       'vertical',
       'gabarito',
+      'sem cadastro',
+      'alfabetização',
     ],
-    titleTag: 'Gerador de cruzadinha grátis | Online',
-    metaDescription: 'Crie cruzadinhas grátis com imagens como pistas visuais. Sem cadastro. 104 temas, gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
+    titleTag: 'Gerador de cruzadinha grátis online | Sem cadastro',
+    metaDescription: 'Crie cruzadinhas grátis com imagens como pistas visuais online. Sem cadastro. 104 temas, gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

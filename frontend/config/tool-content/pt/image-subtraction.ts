@@ -2,22 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'atividades de subtração com imagens grátis',
+    primaryKeyword: 'gerador de atividades de subtração grátis online',
     secondaryKeywords: [
-      'contas de menos com figuras grátis',
-      'subtração visual para imprimir grátis',
-      'exercícios de subtração com imagens grátis online',
-      'atividades de subtração ilustrada grátis PDF',
+      'contas de menos grátis para imprimir',
+      'exercícios de subtração grátis online',
+      'atividades de subtração grátis sem cadastro',
+      'subtração com imagens grátis PDF',
     ],
     lsiKeywords: [
       'imagens',
-      'riscar',
-      'visual',
       'gabarito',
       'sem cadastro',
+      'online',
+      'ensino fundamental',
+      '1° ano',
     ],
-    titleTag: 'Subtração com imagens grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de subtração com imagens grátis. Sem cadastro. Gabarito automático, 104 temas, PDF 300 DPI. Marca d\'água removida com licença.',
+    titleTag: 'Gerador de subtração grátis online | Sem cadastro',
+    metaDescription: 'Crie atividades de subtração com imagens grátis online. Sem cadastro. Gabarito automático, 104 temas, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

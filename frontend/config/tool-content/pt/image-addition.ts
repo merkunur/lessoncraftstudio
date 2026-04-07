@@ -1,22 +1,23 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'atividades de adição com imagens grátis',
+    primaryKeyword: 'gerador de atividades de adição grátis online',
     secondaryKeywords: [
-      'contas de mais com figuras grátis',
-      'adição visual para imprimir grátis',
-      'exercícios de soma com imagens grátis online',
-      'atividades de adição ilustrada grátis PDF',
+      'contas de mais grátis para imprimir',
+      'exercícios de adição grátis online',
+      'atividades de soma grátis sem cadastro',
+      'adição com imagens grátis PDF',
     ],
     lsiKeywords: [
       'imagens',
-      'figuras',
-      'visual',
       'gabarito',
       'sem cadastro',
+      'online',
+      'ensino fundamental',
+      '1° ano',
     ],
-    titleTag: 'Adição com imagens grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de adição com imagens grátis. Sem cadastro. Gabarito automático, 104 temas, PDF 300 DPI. Marca d\'água removida com licença.',
+    titleTag: 'Gerador de adição grátis online | Sem cadastro',
+    metaDescription: 'Crie atividades de adição com imagens grátis online. Sem cadastro. Gabarito automático, 104 temas, PDF 300 DPI. Marca d\'água removida com licença.',
   },
 
   hero: {

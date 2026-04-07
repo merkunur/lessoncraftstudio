@@ -1,16 +1,16 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar desenhos para colorir grátis',
+    primaryKeyword: 'criar desenhos para colorir grátis online',
     secondaryKeywords: [
-      'gerador de desenhos para colorir grátis online',
+      'gerador de desenhos para colorir grátis',
       'desenhos para colorir personalizados grátis',
-      'colorir grátis para imprimir',
-      'criar páginas para colorir grátis',
+      'colorir grátis para imprimir sem cadastro',
+      'páginas para colorir grátis PDF',
     ],
-    lsiKeywords: ['desenho', 'colorir', 'contornos', 'preto e branco', 'sem cadastro'],
-    titleTag: 'Criar desenhos para colorir grátis | Online',
-    metaDescription: 'Crie desenhos para colorir grátis a partir de 3.000+ imagens temáticas. Sem cadastro. Contornos em alta resolução. Marca d\'água removida com licença.',
+    lsiKeywords: ['desenho', 'colorir', 'contornos', 'preto e branco', 'sem cadastro', 'online'],
+    titleTag: 'Criar desenhos para colorir grátis | Online sem cadastro',
+    metaDescription: 'Crie desenhos para colorir grátis a partir de 3.000+ imagens temáticas online. Sem cadastro. Contornos em alta resolução. Marca d\'água removida com licença.',
   },
 
   hero: {

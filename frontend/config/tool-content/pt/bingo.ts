@@ -1,16 +1,16 @@
 import type { ToolContent } from '../types';
 
 const content: ToolContent = {  seo: {
-    primaryKeyword: 'criar cartelas de bingo grátis',
+    primaryKeyword: 'criar cartelas de bingo grátis online',
     secondaryKeywords: [
-      'gerador de bingo grátis online',
+      'gerador de bingo grátis sem cadastro',
       'bingo com imagens grátis para imprimir',
-      'bingo educativo grátis para imprimir',
-      'criar bingo personalizado grátis',
+      'bingo educativo grátis online',
+      'cartelas de bingo grátis PDF',
     ],
-    lsiKeywords: ['bingo', 'cartelas', 'sorteio', 'jogo de mesa', 'sem cadastro'],
-    titleTag: 'Criar cartelas de bingo grátis | Online',
-    metaDescription: 'Crie cartelas de bingo grátis com 3.000+ imagens temáticas. Sem cadastro. Cartelas únicas por jogo. Marca d\'água removida com licença.',
+    lsiKeywords: ['bingo', 'cartelas', 'sorteio', 'jogo de mesa', 'sem cadastro', 'online'],
+    titleTag: 'Criar cartelas de bingo grátis | Online sem cadastro',
+    metaDescription: 'Crie cartelas de bingo grátis com 3.000+ imagens temáticas online. Sem cadastro. Cartelas únicas por jogo. Marca d\'água removida com licença.',
   },
 
   hero: {

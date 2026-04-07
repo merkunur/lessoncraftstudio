@@ -2,16 +2,16 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'atividade de classificação grátis para imprimir',
+    primaryKeyword: 'classificação grátis para imprimir',
     secondaryKeywords: [
       'classificar e agrupar grátis online',
-      'categorizar imagens grátis exercício',
-      'separar e classificar grátis atividade',
-      'atividade de agrupamento grátis PDF',
+      'categorizar imagens grátis sem cadastro',
+      'separar e classificar grátis para imprimir',
+      'agrupamento grátis PDF',
     ],
-    lsiKeywords: ['classificar', 'agrupar', 'separar', 'categorizar', 'sem cadastro'],
-    titleTag: 'Atividade de classificação grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de classificação e categorização grátis com imagens temáticas. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
+    lsiKeywords: ['classificar', 'agrupar', 'separar', 'categorizar', 'sem cadastro', 'online'],
+    titleTag: 'Classificação grátis para imprimir | Online',
+    metaDescription: 'Crie atividades de classificação grátis com imagens temáticas online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

@@ -5,13 +5,13 @@ const content: ToolContent = {
     primaryKeyword: 'jogo das sombras grátis para imprimir',
     secondaryKeywords: [
       'associar sombras grátis online',
-      'sombras e figuras grátis para imprimir',
+      'sombras e figuras grátis sem cadastro',
       'silhuetas para associar grátis',
-      'sombras grátis educação infantil',
+      'sombras educação infantil grátis PDF',
     ],
-    lsiKeywords: ['silhueta', 'sombra', 'associar', 'discriminação visual', 'sem cadastro'],
+    lsiKeywords: ['silhueta', 'sombra', 'associar', 'discriminação visual', 'sem cadastro', 'online'],
     titleTag: 'Jogo das sombras grátis para imprimir | Online',
-    metaDescription: 'Crie atividades de associação de sombras grátis com imagens e silhuetas. Sem cadastro. Gabarito automático, PDF 300 DPI. Marca d\'água removida com licença.',
+    metaDescription: 'Crie atividades de associação de sombras grátis com imagens temáticas online. Sem cadastro. Gabarito automático. Marca d\'água removida com licença.',
   },
 
   hero: {

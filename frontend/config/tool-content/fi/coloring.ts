@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'värityssivugeneraattori mukautettu',
+    primaryKeyword: 'ilmainen värityskuvien tekijä verkossa',
     secondaryKeywords: [
-      'värityssivugeneraattori',
-      'näin teet mukautettuja värityssivuja vaiheessa',
-      'avaa värityssivugeneraattori',
-      'aseta sivun asettelu kehys',
+      'värityskuvia ilmaiseksi verkossa',
+      'värityssivugeneraattori ilman rekisteröitymistä',
+      'kokeile värityskuvien tekijää ilmaiseksi',
+      'tulostettava värityskuva ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'tuotevalikoiman varityssivusuunnittelija verkossa',
-      'harmaasavy varitystehtavat tulostukseen',
-      'vapaapiirto varitysaktiviteetti generaattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'värityssivu',
     ],
-    titleTag: 'Mukautettu Värityssivugeneraattori — Tee Sivuja Verkossa...',
-    metaDescription: 'Tee mukautettuja värityssivuja tuotevalikoimaasi tai kotiin. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen värityskuvien tekijä verkossa | Kokeile',
+    metaDescription: 'Luo värityskuvia ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

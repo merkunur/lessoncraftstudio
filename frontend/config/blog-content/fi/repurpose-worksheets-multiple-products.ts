@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'uudelleenkayta tyoarkkeja useiksi tuotteiksi',
+    primaryKeyword: 'muunna työarkit useiksi tuotteiksi',
     secondaryKeywords: [
-      'vaihe sisallon luominen generaattorilla',
-      'vaihe muotoilu paketointi',
-      'vaihe ilmoituksen luominen julkaisu',
+      'uudelleenkäytä tulosteet eri alustoilla',
+      'yksi sisältö monta tuotetta',
+      'tehtäväarkit Etsy KDP Gumroad',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'sisällön uudelleenkäyttö tulosteet',
+      'monikanavainen tuotemyynti',
+      'pakettien kokoaminen olemassa olevista',
     ],
-    titleTag: 'Uudelleenkayta tyoarkkeja useiksi tuotteiksi | LCS',
-    metaDescription: 'Muuta yksi tyoarkkisetti useiksi eri tuotteiksi. Etsy, KDP, Gumroad ja paketit samasta sisallosta.',
+    titleTag: 'Muunna työarkit useiksi tuotteiksi | LCS',
+    metaDescription: 'Muuta yksi tehtäväarkkisetti useiksi eri tuotteiksi. Etsy, KDP, Gumroad ja paketit samasta sisällöstä.',
   },
   hero: {
     title: 'Uudelleenkayta tyoarkkeja useiksi tuotteiksi',

@@ -79,8 +79,8 @@ const toolsMetadata: Record<string, { title: string; description: string }> = {
     description: 'Bruk alle 33 generatorer gratis på nett — ordleting, kryssord, matte, sudoku og mer. Ingen registrering. Vannmerket fjernes med lisens.',
   },
   fi: {
-    title: 'Ilmaiset tulostettavat generaattorit | 33 ty\ökalua | LessonCraftStudio',
-    description: 'Kokeile kaikkia 33 teht\äv\ägeneraattoria ilmaiseksi verkossa. Ei rekister\öitymist\ä. Sanaristikot, matematiikka, v\ärityskuvat, palapelit ja lis\ä\ä vesileimalla.',
+    title: 'Ilmaiset tehtävägeneraattorit | 33 verkkotyökalua',
+    description: 'Käytä kaikkia 33 generaattoria ilmaiseksi verkossa — sanasokkelo, sanaristikko, matikka, sudoku ja muuta. Ei rekisteröintiä. Vesileima poistuu lisenssillä.',
   },
 };
 
@@ -217,8 +217,8 @@ const toolsContent: Record<string, {
     categories: { math: 'Matematikk', literacy: 'Lesing & Språk', visual: 'Visuell Læring', matching: 'Koble & Sortere', puzzle: 'Puslespill & Logikk', search: 'Søk & Finn' },
   },
   fi: {
-    heroTitle: 'Ilmaiset tulostettavat generaattorit',
-    heroSubtitle: 'Kokeile kaikkia 33 generaattoria ilmaiseksi verkossa. Ei rekister\öitymist\ä. Luo ammattimaisia teht\ävi\ä vesileimalla.',
+    heroTitle: 'Ilmaiset tehtävägeneraattorit verkossa',
+    heroSubtitle: 'Kokeile kaikkia 33 generaattoria ilmaiseksi verkossa. Ei rekisteröitymistä. Luo ammattimaisia tehtäviä vesileimalla.',
     exploreMore: 'Tutustu lis\ä\ä',
     howToGuides: 'Oppaat',
     bundles: 'Paketit',

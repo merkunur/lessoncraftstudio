@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Merirosvoaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu merirosvoaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja vinkit myyjille.',
+    titleTag: 'Merirosvo-tulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Merirosvoaiheisia tulostettavia tehtäviä myyntiin. Seikkailuniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'merirosvoaiheiset tulostettavat ideat myyntiin',
+    primaryKeyword: 'merirosvo tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'merirosvotyöarkit myyntiin',
-      'merirosvoteemainen tulostettava liiketoiminta',
-      'merirosvoaktiviteettiarkki myyjille',
-      'myy merirosovtulostettavia verkossa',
+      'merirosvotehtäviä myydä Etsyssä',
+      'merirosvo-tulostettavat niche KDP',
+      'aarteenetsintä tehtävät myyntiin',
+      'seikkailuaktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'seikkailuteemaiset opetukselliset työarkit',
-      'aarteenetsintäaktiviteetit lapsille',
-      'meriseikkailu tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'merirosvot',
+      'seikkailu',
+      'tulostettavat',
+      'aarre',
+      'niche',
     ],
   },
   hero: {

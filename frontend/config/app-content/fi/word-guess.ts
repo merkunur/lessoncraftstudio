@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'arvaa sana generaattori',
+    primaryKeyword: 'hirsipuu-tehtävä tulostaa',
     secondaryKeywords: [
-      'arvaa sana tyoarkit myy Etsyssa',
-      'sana-arvaus tyoarkki generaattori Amazon KDP',
-      'arvaa sana tyoarkit kaupallinen lisenssi',
-      'tulostettavat sanapulmat Gumroadiin',
+      'arvaa sana tehtävämoniste',
+      'hirsipuu tulostaa',
+      'sanasto arvausleikki',
+      'sana-arvoitus tehtävä',
     ],
     lsiKeywords: [
-      'digitaaliset sanasto tuotteet yrittajille',
-      'tulostettavat sana-arvaus aktiviteetit verkkoliiketoiminta',
-      'sanapulma generaattori kaupallinen kaytto',
+      'sanasto',
+      'kirjaimet',
+      'vastaukset',
+      'alakoulu',
+      'esiopetus',
     ],
-    titleTag: 'Arvaa Sana Generaattori | Luo ja Myy Sanapulmia Verkossa',
-    metaDescription: 'Luo arvaa sana -tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Kuvavihjeet, 4 vaikeustasoa, 3 sisältölähdettä, 11 kieltä. $49 kertamaksu.',
+    titleTag: 'Hirsipuu-tehtävä tulostaa | Sana-arvoitusgeneraattori',
+    metaDescription: 'Luo hirsipuu-tehtäviä teemasanoilla ja kuvilla. Automaattiset vastaukset, tulostettavat PDF:t. Kokeile ilmaiseksi.',
   },
 
   hero: {

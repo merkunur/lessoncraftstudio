@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pääsiäisen tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu pääsiäisen tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadissa. Kevätjuhlatuotekonseptit, kausistrategiat ja alustavinkit myyjille.',
+    titleTag: 'Pääsiäistulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Pääsiäisaiheisia tulostettavia tehtäviä myyntiin. Kevään tuottoisin kausiniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'pääsiäisen tulostettavat ideat myyntiin',
+    primaryKeyword: 'pääsiäinen tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'pääsiäistyöarkit myyntiin',
-      'pääsiäisteemainen tulostettava liiketoiminta',
-      'pääsiäisaktiviteettiarkki myyjille',
-      'myy pääsiäistulostettavia Etsyssä',
+      'pääsiäistehtäviä myydä Etsyssä',
+      'pääsiäistulostettavat niche KDP',
+      'kevään kausiluonteiset tulostettavat',
+      'pääsiäisaktiviteetit tulostettavat myyntiin',
     ],
     lsiKeywords: [
-      'kevätjuhla opetukselliset työarkit',
-      'munanetsintäteemaiset aktiviteettiarkkit',
-      'kausittaiset pääsiäisen tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'pääsiäinen',
+      'kevät',
+      'kausiluonteinen',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

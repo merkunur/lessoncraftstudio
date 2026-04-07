@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'S2-tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu S2-tulostettaviin liiketoimintaideoihin Etsyyn, Amazon KDP:hen ja Gumroadille. Kielenoppimisen tuotekonseptit, alustastrategiat ja vinkit myyjille.',
+    titleTag: 'S2-kielitulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'S2-kielenoppimisen tulostettavia tehtäviä myyntiin. Kasvava monikielinen niche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'S2 tulostettavat ideat',
+    primaryKeyword: 'S2 tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'kielenoppimisen työarkit myyntiin',
-      'S2 tulostettava liiketoimintaideat',
-      'vieraskohtaisen kielen aktiviteettiarkki myyjille',
-      'myy S2-tulostettavia Gumroadilla',
+      'kielenoppimisen tehtäviä myydä Etsyssä',
+      'S2-tulostettavat niche KDP',
+      'monikieliset tulostettavat myyntiin',
+      'vieraskielisten tehtävät tulostettavat',
     ],
     lsiKeywords: [
-      'kielenoppijan opetukselliset työarkit',
-      'monikieliset opetukselliset tulostettavat',
-      'kielenopetuksen aktiviteettiresurssit',
+      'Etsy',
+      'KDP',
+      'kielenoppiminen',
+      'S2',
+      'tulostettavat',
+      'monikielinen',
+      'niche',
     ],
   },
   hero: {

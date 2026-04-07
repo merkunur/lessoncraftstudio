@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kuvilla ilmainen sananhakugeneraattori tee sananhakupalapelejä',
+    primaryKeyword: 'ilmainen sanasokkelo verkossa',
     secondaryKeywords: [
-      'tee sananhakupalapelejä ilmaiseksi verkossa',
+      'sanasokkelo ilmaiseksi verkossa',
       'sananhakugeneraattori ilman rekisteröitymistä',
-      'ilmainen sananhaku kuvilla',
-      'tulostettavat sananhaut ilmainen kokeilu',
+      'kokeile sanasokkeloa ilmaiseksi',
+      'tulostettava sanasokkelo ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'ilmainen sanapalapelityökalu verkossa',
-      'pikainen sananhakutekijä',
-      'kokeile ennen ostoa palapelivälineet',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'sananhaku',
     ],
-    titleTag: 'Ilmainen Sananhakugeneraattori Kuvilla | LCS',
-    metaDescription: 'Tee sananhakupalapelejä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen sanasokkelo verkossa | Ei rekisteröitymistä',
+    metaDescription: 'Tee sanasokkeloja ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

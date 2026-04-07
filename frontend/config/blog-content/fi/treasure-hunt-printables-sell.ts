@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'aarteenetsinta tulosteet myy',
+    primaryKeyword: 'aarteenetsintä tulostettavia myyntiin',
     secondaryKeywords: [
-      'aarteenetsinta tyoarkit Etsy',
-      'seikkailutehtavat lapsille myynti',
-      'treasure hunt tulosteet',
+      'aarrejahti tulosteet myynti Etsy',
+      'tulostettava aarteenetsintä-peli',
+      'etsintätehtävät tulostettavia juhla',
     ],
     lsiKeywords: [
-      'seikkailupeli tulostettava',
-      'etsintaleikit lapsille',
-      'interaktiiviset tulosteet',
+      'juhlapelit aarrejahti tulosteet',
+      'ulkoaktiviteetit tulostettavia',
+      'päiväkoti aarteenetsintä',
     ],
-    titleTag: 'Aarteenetsinta-tulosteet: myyntiopas | LCS',
-    metaDescription: 'Myy aarteenetsinta-tulosteita Etsyssa. Seikkailutehtavat jotka aktivoivat lapsia. Juhliin, kouluihin ja vapaa-aikaan.',
+    titleTag: 'Aarteenetsintätulosteet myyntiin | LCS',
+    metaDescription: 'Myy tulostettavia aarteenetsintöjä Etsyssä. Aarrejahdit sopivat juhliin, päiväkoteihin ja perheille. Kasvava markkina.',
   },
   hero: {
     title: 'Aarteenetsinta-tulosteet: seikkailun myyntituote',

@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'verkossa ssa ilmainen kirjainsekoitusgeneraattori tee kirjainsekoitustehtäviä',
+    primaryKeyword: 'ilmainen sekoitetut kirjaimet -tehtävä verkossa',
     secondaryKeywords: [
-      'tee kirjainsekoitustehtäviä ilmaiseksi verkossa',
-      'sanansekoitusgeneraattori ilman rekisteröitymistä',
-      'ilmainen kirjainjärjestelypalapelin tekijä',
-      'kirjainsekoitustehtävät ilmainen kokeilu',
+      'sekoitetut kirjaimet ilmaiseksi verkossa',
+      'kirjainsekoitusgeneraattori ilman rekisteröitymistä',
+      'kokeile kirjainsekoitusta ilmaiseksi',
+      'tulostettava kirjainsekoitus ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'ilmainen oikeinkirjoituspalapelityökalu verkossa',
-      'pikainen kirjainsekoituksen tekijä',
-      'kokeile ennen ostoa lukutaitotyökalut',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'sanatehtävä',
     ],
-    titleTag: 'Ilmainen Kirjainsekoitusgeneraattori Verkossa | LCS',
-    metaDescription: 'Tee kirjainsekoitustehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen kirjainsekoitus verkossa | Kokeile heti',
+    metaDescription: 'Tee kirjainsekoitustehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

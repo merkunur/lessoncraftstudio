@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hinnoittele etsy tulostettavat strategiaopas tulostettavien hinnoittelustrategiat',
-    secondaryKeywords: ['Etsy-tulostettavien hinnoittelustrategia', 'miten hinnoitella tulostettavat Etsyssä', 'Etsy-digitaalisten latausten hinnoittelu', 'Etsy-työarkkien hinnoitteluopas'],
-    lsiKeywords: ['Etsy-maksut transaktiokulut listausmaksut nettotuotto', 'Etsy-hinnoittelupsykologia arvoankurointi pakettihinta', 'Etsy-kilpailuanalyysi hintapiste konversioaste', 'digitaalisten latausten hinnoittelumalli arvopohjainen hinnoittelu', 'Etsy-myyntistrategia hintatestaas tuottooptimointi', 'Etsy-kaupan hinnoittelukehys premium-hinnoittelu alennnusstrategia'],
-    titleTag: 'Hinnoittele Etsy-tulostettavat — Strategiaopas',
-    metaDescription: 'Etsy-tulostettavien hinnoittelustrategiat. Etsy-maksurakenne, kilpailuanalyysi, hinnoittelupsykologia, pakettihinta ja systemaattinen hintatestaus voiton.',
+    primaryKeyword: 'hinnoittele Etsy-tulostettavat strategisesti',
+    secondaryKeywords: [
+      'Etsy-tulostettavien hinnoittelustrategia opas',
+      'miten hinnoitella tulostettavat Etsyssä oikein',
+      'Etsy-digitaalisten latausten hinnoitteluopas',
+      'Etsy-työarkkien hintapisteet ja konversio',
+    ],
+    lsiKeywords: [
+      'Etsy-maksut transaktiomaksut nettotuotto',
+      'hinnoittelupsykologia arvoankurointi pakettihinta',
+      'kaupallinen lisenssi tulostettavat tuotteet',
+      'kilpailuanalyysi hintapiste konversioprosentti',
+      'hintatestaas tuotto-optimointi premium',
+      'Etsy-kaupan hinnoittelukehys strategia',
+    ],
+    titleTag: 'Hinnoittele Etsy-tulostettavat | Strategiaopas',
+    metaDescription: 'Etsy-tulostettavien hinnoittelustrategia. Maksurakenne, kilpailuanalyysi, hinnoittelupsykologia, pakettihinta ja systemaattinen hintatestaus.',
   },
 
   hero: {

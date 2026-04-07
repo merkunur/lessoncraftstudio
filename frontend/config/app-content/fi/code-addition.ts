@@ -2,20 +2,21 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'koodiyhteenlasku generaattori matikkapulmia ratkottavaksi luo tyoarkkeja',
+    primaryKeyword: 'salainen viesti laskutehtävillä tulostaa',
     secondaryKeywords: [
-      'tulostettavat matikkapulmat tyoarkit Etsyyn',
-      'koodiyhteenlasku tyoarkit Amazon KDP',
-      'matikkapulma generaattori Gumroad myyjille',
-      'koodiyhteenlasku tyoarkit kaupallinen lisenssi',
+      'koodinmurtaja matikka',
+      'salakoodi pluslaskuilla',
+      'matikka-arvoitus tehtävämoniste',
+      'kooditehtäviä matematiikka',
     ],
     lsiKeywords: [
-      'opetukselliset pulma tulostettavat liikeideat',
-      'matikkapulmat myy verkossa',
-      'matikkapulma tyokirja generaattori',
+      'alakoulu',
+      'yhteenlasku',
+      'pulmatehtävä',
+      'vastaukset',
     ],
-    titleTag: 'Koodiyhteenlasku Generaattori | Matikkapulmia Ratkottavaksi',
-    metaDescription: 'Luo koodiyhteenlasku tyoarkkeja Etsyyn, KDP:hen ja Gumroadiin. Paljasta Sana -tila, 104 teemaa, 11 kieltä, vastausavain, 400+ DPI. $49 kertamaksu.',
+    titleTag: 'Salainen viesti laskutehtävillä | Koodinmurtaja-generaattori',
+    metaDescription: 'Luo tehtäviä, joissa lapset ratkovat yhteenlaskuja murtaakseen salaisia viestejä. Teemakuvat, vastaukset mukana. Kokeile ilmaiseksi.',
   },
 
   hero: {

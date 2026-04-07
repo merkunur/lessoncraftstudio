@@ -2,20 +2,23 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kumpi ei kuulu -palapeelin tekijä',
+    primaryKeyword: 'mikä ei kuulu joukkoon tehtävä tulostaa',
     secondaryKeywords: [
-      'kumpi ei kuulu -palapeelin tekijä myyntiin Etsyssä ja KDP:ssä',
-      'luo kumpi ei kuulu -työlehtia Etsy-kauppaan',
-      'etsi erilainen -palapeleja Amazon KDP -kirjoihin',
-      'kumpi ei kuulu -tulosteet kaupallinen lisenssi',
+      'etsi erilainen tehtävä',
+      'luokittelu tehtävämoniste',
+      'looginen ajattelu tehtäviä',
+      'mikä ei sovi',
     ],
     lsiKeywords: [
-      'kumpi ei kuulu -tulosteniche',
-      'myy etsi erilainen -palapeleja kaupallisesti',
-      'kriittisen ajattelun työlehituotteet',
+      'logiikka',
+      'luokittelu',
+      'poikkeava',
+      'esiopetus',
+      'alakoulu',
+      'vastaukset',
     ],
-    titleTag: 'Kumpi Ei Kuulu -palapeelin tekijä — Myy Etsyssä ja KDP:ssä',
-    metaDescription: 'Luo kumpi ei kuulu -palapeleja myytäväksi Etsyssä ja KDP:ssä. Kaksi palapeelitilaa, automaattiset vastausavaimet punaisilla ympyröillä, 104 teemaa,. $49...',
+    titleTag: 'Mikä ei kuulu joukkoon? tulostaa | Logiikkageneraattori',
+    metaDescription: 'Luo "mikä ei kuulu joukkoon?" -tehtäviä teemakuvilla loogiseen ajatteluun. Automaattiset vastaukset. Kokeile ilmaiseksi.',
   },
 
   hero: {

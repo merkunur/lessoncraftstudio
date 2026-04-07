@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'verkossa ssa ilmainen aakkostyöarkkigeneraattori tee aakkostehtäviä',
+    primaryKeyword: 'ilmainen aakkostehtävä verkossa',
     secondaryKeywords: [
-      'tee aakkostehtäviä ilmaiseksi verkossa',
-      'kirjainoppimisen generaattori ilman rekisteröitymistä',
-      'ilmainen aakkosjunatehtävägeneraattori',
-      'aakkostehtävät ilmainen kokeilu',
+      'aakkostehtäviä ilmaiseksi verkossa',
+      'aakkosgeneraattori ilman rekisteröitymistä',
+      'kokeile aakkostehtäviä ilmaiseksi',
+      'tulostettavat aakkostehtävät ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'ilmainen aakkostyökalu verkossa',
-      'pikainen kirjaintehtävägeneraattori',
-      'kokeile ennen ostoa lukutaitotyökalut',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'kirjaintehtävä',
     ],
-    titleTag: 'Ilmainen Aakkostyöarkkigeneraattori Verkossa | LCS',
-    metaDescription: 'Tee aakkostehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen aakkostehtävä verkossa | Kokeile heti',
+    metaDescription: 'Tee aakkostehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

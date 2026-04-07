@@ -2,20 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'myy opetuksellisia tulostettavia Etsyssä',
+    primaryKeyword: 'myy tulostettavia Etsyssä monikategoriisesti',
     secondaryKeywords: [
-      'Etsy opetuksellisten tulostettavien kauppa opas',
-      'myy työarkkeja Etsyssä monikategoriisesti',
-      'opetuksellisten tulostettavien Etsy-liiketoiminta',
-      'Etsy digitaalisten latausten kauppa opetustuotteille',
+      'Etsy-tulostettavien kauppa monikategorinen opas',
+      'myy työarkkeja Etsyssä kattavasti',
+      'tulostettavien Etsy-liiketoiminta strategia',
+      'Etsy-kaupan rakentaminen tulostettavien myyjille',
     ],
     lsiKeywords: [
-      'Etsy digitaalisten tulostettavien tuotteiden myynti',
-      'opetuksellisen tulostettavien tuotteiden liiketoimintastrategia',
-      'monikategoriinen Etsy-kauppa',
+      'digitaalisten tulostettavien myynti Etsy',
+      'monikategoriinen kauppastrategia optimointi',
+      'kaupallinen lisenssi PDF-vienti',
+      'hakuoptimointi listaukset konversio',
+      'Etsy Gumroad KDP monialustainen',
+      'katalogin skaalaus ristikkäismyynti',
     ],
-    titleTag: 'Myy opetuksellisia tulostettavia Etsyssä — Opas',
-    metaDescription: 'Myy opetuksellisia tulostettavia Etsyssä. Monikategorinen kauppastrategia, tuotelistauksen optimointi, SEO ja skaalautuminen opetuksellisten tulostettavien.',
+    titleTag: 'Myy tulostettavia Etsyssä | Monikategoria-opas',
+    metaDescription: 'Myy tulostettavia Etsyssä monikategoriisesti. Kauppastrategia, tuotelistausten optimointi, SEO ja katalogin skaalaaminen tulostettavien myyjille.',
   },
 
   hero: {

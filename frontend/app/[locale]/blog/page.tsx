@@ -191,8 +191,8 @@ const blogIndexMetadata: Record<string, { title: string; description: string }> 
     description: 'Praktiske guider, tips og strategier for å selge arbeidsark og oppgaver på Etsy, Amazon KDP og mer. 33 generatorer, kommersiell lisens.',
   },
   fi: {
-    title: 'Blogi tulosteiden myyjille | LessonCraftStudio',
-    description: 'Käytännön oppaat, vinkit ja strategiat tulostettavien tuotteiden liiketoiminnan rakentamiseen Etsyssä, Amazon KDP:ssä ja muualla.',
+    title: 'Blogi tulostettavien myyjille | Oppaat ja strategiat',
+    description: 'Käytännön oppaat tulostettavien tuotteiden liiketoimintaan: Etsy-strategiat, KDP-julkaisu, niche-ideat ja myyntivinkit suomeksi.',
   },
 };
 

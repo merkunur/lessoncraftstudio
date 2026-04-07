@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ystävänpäivän tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu ystävänpäivän tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Ystävänpäivätulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Ystävänpäivän tulostettavia tehtäviä myyntiin. Helmikuun kausiniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'ystävänpäivän tulostettavat ideat myyntiin',
+    primaryKeyword: 'ystävänpäivä tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'ystävänpäivän työarkit myyntiin',
-      'ystävänpäivätulostettava liiketoimintaideat',
-      'sydänaktiviteettiarkit myyjille',
-      'myy ystävänpäivätulostettavia Etsyssä',
+      'ystävänpäivätehtäviä myydä Etsyssä',
+      'ystävänpäivätulostettavat niche KDP',
+      'sydänteemaiset tehtävät myyntiin',
+      'helmikuun kausiluonteiset tulostettavat',
     ],
     lsiKeywords: [
-      'kausiluontoiset ystävänpäivätyöarkkiniput',
-      'sydän- ja rakkausteemaiset aktiviteetit',
-      'ystävyysteemalliset tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'ystävänpäivä',
+      'kausiluonteinen',
+      'tulostettavat',
+      'sydän',
+      'niche',
     ],
   },
   hero: {

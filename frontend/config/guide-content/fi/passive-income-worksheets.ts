@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'jatkuva tulo työarkeilla',
+    primaryKeyword: 'passiivinen tulo tulostettavilla työarkeilla',
     secondaryKeywords: [
-      'työarkkien liiketoimintatulot',
-      'tienaa rahaa myymällä työarkkeja',
-      'tulostettavien työarkkien liikevaihto',
-      'jatkuva tulo tulostettavilla',
+      'jatkuva tulo työarkkien myynnistä opas',
+      'tienaa rahaa tulostettavilla tuotteilla',
+      'tulostettavien työarkkien tulovirrat',
+      'passiivisen tulon rakentaminen myyjille',
     ],
     lsiKeywords: [
-      'tulovirta digitaalisten tuotteiden tulot ikivihreät tuotteet myyntien automatisointi',
-      'monikanavaiset tulot rojaltitulot print-on-demand digitaalisten latausten tulot',
-      'tuotteen elinkaari pitkähäntätuotto katalogin monetisointi ikivihreä sisältö',
-      'toistuvat myynnit kertyvät tuotot tuoteportfolio kestävä tulo',
-      'liikevaihdon moninkertaistaminen katalogitehokkuus orgaaninen löydettävyys jatkuva myynti',
-      'skaalautuva tulomalli työarkkien tulovirrat monialustainen liikevaihto',
+      'ikivihreät tuotteet katalogitehokkuus',
+      'monikanavainen tulo rojaltit lataukset',
+      'kaupallinen lisenssi PDF-vienti',
+      'kertyvät tuotot orgaaninen löydettävyys',
+      'Etsy KDP Gumroad monialustainen',
+      'skaalautuva tulomalli tuoteportfolio',
     ],
-    titleTag: 'Jatkuva tulo työarkeilla — Tuloopas',
-    metaDescription: 'Rakenna jatkuvaa työarkkituloa ikivihreillä katalogeilla, monialustaisella jakelulla, kielilaajennuksella ja katalogin kertymisstrategioilla.',
+    titleTag: 'Passiivinen tulo tulostettavilla | Tulostrategiaopas',
+    metaDescription: 'Rakenna passiivista tuloa tulostettavilla työarkeilla. Ikivihreät katalogit, monialustainen jakelu ja katalogin kertymisstrategiat Etsyyn ja KDP:hen.',
   },
 
   hero: {

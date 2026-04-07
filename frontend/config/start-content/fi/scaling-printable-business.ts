@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'skaalaa tulostettavien liiketoiminta',
+    primaryKeyword: 'skaalaa tulostettavien liiketoiminta kokopäiväiseksi',
     secondaryKeywords: [
-      'kasvu tulostettavien liiketoiminta kokopaivaiseksi',
-      'skaalaa Etsy-kauppa tulostettavat tuotteet',
-      'laajennusstrategia tulostettavien liiketoiminta',
-      'sivuprojektista kokopaivaiseksi tulostettavat tuotteet',
+      'kasvata tulostettavien tuotteiden myyntiä',
+      'skaalaa Etsy-kauppa tulostettavat laajennusstrategia',
+      'sivuprojektista kokopäiväiseksi tulostettavat',
+      'tulostettavien liiketoiminnan kasvuopas',
     ],
     lsiKeywords: [
-      'katalogin laajennus tulostettavien myyjille',
-      'monialustadistribuutio tehtaville',
+      'katalogin laajennus tuotevalikoima',
+      'monialustadistribuutio Etsy KDP Gumroad',
       'niputusstrategia digitaalisille latauksille',
-      'tuotantotyonkulun optimointi tulostettavat',
-      'monikielinen markkinalaajentaminen tulostettavat',
-      'uudelleensijoitusstrategia tulostettavien liiketoiminta',
+      'tuotantotyönkulun optimointi automaatio',
+      'monikielinen markkinalaajentaminen 11 kieltä',
+      'passiivinen tulo skaalaus tulostettavat',
     ],
-    titleTag: 'Skaalaa tulostettavien liiketoiminta — sivuprojektista...',
-    metaDescription: 'Näin skaalaat tulostettavien liiketoimintasi sivuprojektista kokopäiväiseksi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Skaalaa tulostettavien liiketoiminta kokopäiväiseksi',
+    metaDescription: 'Näin skaalaat tulostettavien liiketoimintasi sivuprojektista kokopäiväiseksi. Katalogin laajennus, monialustastrategia ja monikielinen kasvu.',
   },
 
   hero: {

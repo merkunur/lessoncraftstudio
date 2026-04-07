@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'parhaat paperikoot tulosteille tulostettaville',
+    primaryKeyword: 'paperikoko tulostettaville tuotteille',
     secondaryKeywords: [
-      'parhaat paperikoot tulosteet tuotteet opas',
-      'parhaat paperikoot tulosteet tuotteet vaiheittain',
-      'parhaat paperikoot tulosteet tuotteet 2026',
+      'A4 vai Letter tulosteet',
+      'paras paperikoko Etsy-tulosteisiin',
+      'tulostettavien tiedostojen koko-opas',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'A4 standardi Suomi',
+      'Letter-koko USA-markkina',
+      'PDF-asetukset tulostus',
     ],
-    titleTag: 'Parhaat paperikoot tulosteille | LCS',
-    metaDescription: 'Mika paperikoko tulosteille? A4, Letter, Half Letter? Suomessa A4 on standardi mutta kansainvalisesti. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Paras paperikoko tulosteille | LCS',
+    metaDescription: 'A4, Letter vai Half Letter? Valitse oikea paperikoko tulostettaville tuotteille eri markkinoille ja alustoille.',
   },
   hero: {
     title: 'Parhaat paperikoot tulostettaville tuotteille',

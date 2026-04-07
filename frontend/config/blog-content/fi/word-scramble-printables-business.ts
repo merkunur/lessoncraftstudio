@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sanasekoitustulosteet liiketoiminta',
+    primaryKeyword: 'kirjainsekoitus tulostettavia liiketoiminta',
     secondaryKeywords: [
-      'sanasekoitus tehtavat myynti',
-      'kirjainsekoitus tulosteet Etsy',
-      'sanaharjoitukset lapsille myy',
+      'sanojen sekoitus tehtävät tulosteet myynti',
+      'kirjainjärjestys-pulmat tulostettavia',
+      'sanasekoitus Etsy liiketoiminta',
     ],
     lsiKeywords: [
-      'anagrammit lapsille tulosteet',
-      'sanaston harjoittelu tulostettava',
-      'kielellinen taito tulosteet',
+      'sanasto-harjoitukset tulosteet',
+      'oikeinkirjoitus tehtävät tulostettavia',
+      'kielipulmat lapsille',
     ],
-    titleTag: 'Sanasekoitustulosteet: liiketoimintaopas | LCS',
-    metaDescription: 'Rakenna kannattava sanasekoitustulosteiden liiketoiminta. Helppo tuote joka myy ymparivuotisesti. S2-niche Suomessa on kilpailuton.',
+    titleTag: 'Kirjainsekoitus-tulosteet myyntiin | LCS',
+    metaDescription: 'Myy kirjainsekoitus-tulostettavia. Sanasekoituspulmat kehittävät sanavarastoa ja oikeinkirjoitusta. Matala kilpailu.',
   },
   hero: {
     title: 'Sanasekoitustulosteet: yksinkertainen tuote iso tuotto',

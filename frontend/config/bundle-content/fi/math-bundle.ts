@@ -2,21 +2,21 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'matematiikan mestaripaketti tyoarkkipaketti',
+    primaryKeyword: 'matematiikan työarkkigeneraattoripaketti tulostettavia',
     secondaryKeywords: [
-      'matematiikan tyoarkkigeneraattoripaketti Etsy-myyjille',
-      'tulostettava matematiikkapaketti kaupalliseen kayttoon',
-      'matematiikan tyoarkkigeneraattoripaketti KDP-myyjille',
-      'kaikki matematiikkageneraattorit yhdessa paketissa',
+      'matematiikkapaketti Etsy-myyjille kertaosto',
+      'tulostettava matematiikkapaketti kaupalliseen käyttöön',
+      'yhteenlasku vähennyslasku generaattoripaketti KDP',
+      '6 matematiikkageneraattoria yhdessä paketissa',
     ],
     lsiKeywords: [
-      'yhteenlasku vahennyslasku tyoarkkipaketti',
-      'matematiikkapulmat tulostettava kokoelma',
-      'kaupallinen lisenssi matematiikan tyoarkit',
-      'massatuotanto matematiikan tyoarkkityokalu',
+      'yhteenlasku vähennyslasku koodiyhteenlasku vertailu',
+      'matematiikkapulma matematiikkatehtävä generaattori',
+      'kaupallinen lisenssi säästä kertaosto',
+      'tulostusvalmiit PDF-työarkit vastausavaimilla',
     ],
-    titleTag: 'Matematiikan tyoarkkipaketti — 6 generaattoria myyjille',
-    metaDescription: 'Matematiikan mestaripaketti: 6 tyoarkkigeneraattoria yhdessa tyoarkkipaketissa. Yhteenlasku, vahennyslasku ja koodipulmat Etsyyn ja KDP:hen. $149.',
+    titleTag: 'Matematiikkapaketti | 6 generaattoria — Kertaosto',
+    metaDescription: 'Matematiikkapaketti: 6 työarkkigeneraattoria yhdessä paketissa. Yhteenlasku, vähennyslasku, koodipulmat, vertailu, palapelit ja algebratehtävät. $149 kertaosto.',
   },
 
   hero: {

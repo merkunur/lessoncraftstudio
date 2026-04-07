@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo ristisanatehtäviä',
+    primaryKeyword: 'näin teet ristisanatehtäviä tulostettavia',
     secondaryKeywords: [
-      'ristisanatehtävägeneraattori lapsille',
-      'tulostettava ristisanatehtävien tekijä',
-      'ristisanatehtävät myyntiin',
-      'mukautetut ristisanat kuvavihjein',
+      'ristisanatehtävägeneraattori kuvavihjein',
+      'tulosta ristisanatehtäviä myyntiin Etsyssä',
+      'luo ristisanatehtäviä vastausavaimella PDF',
+      'ristisanatehtävien tekeminen opas lapsille',
     ],
     lsiKeywords: [
-      'kuvavihjein ristisanatehtävätyöarkit',
-      'monikieliset ristisanatehtävät',
-      'sanasto ristisanat lapsille',
-      'myy ristisanakirjoja KDP:ssä',
-      'Etsy ristisana tulostettavat',
-      'kaupallinen lisenssi pulmityökalu',
+      'esiopetus alakoulu sanasto',
+      'monikieliset ristisanatehtävät 11 kieltä',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP ristisanakirjat',
+      'numeroidut vihjeet kuvavihjeet',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo ristisanatehtäviä — Vaiheittainen opas',
-    metaDescription: 'Luo ristisanatehtäviä lapsille kuvavihjein. Valitse teemat, luo risteävät ruudukot, numeroidut vihjeet, vastausavaimet ja myy Etsyssä ja KDP:ssä.',
+    titleTag: 'Ristisanatehtäviä tulostettavia | Vaiheittainen opas',
+    metaDescription: 'Näin teet ristisanatehtäviä tulostettavaksi kuvavihjein. Valitse teemat, luo risteävät ruudukot, vastausavaimet ja vie PDF myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

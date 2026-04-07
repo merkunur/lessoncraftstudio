@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Talviaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu talviaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Talvituotekonseptit, kausistrategiat ja alustavinkit myyjille.',
+    titleTag: 'Talvitulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Talviaiheisia tulostettavia tehtäviä myyntiin. Talven kausiniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'talviaiheiset tulostettavat ideat myyntiin',
+    primaryKeyword: 'talvi tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'talvityöarkit myyntiin',
-      'talvitulostettava liiketoimintaideat',
-      'talviaktiviteettiarkit myyjille',
-      'myy talvitulostettavia Etsyssä',
+      'talvitehtäviä myydä Etsyssä',
+      'talvitulostettavat niche KDP',
+      'kausiluonteiset talvitehtävät myyntiin',
+      'lumi- ja jääaktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'kausiluontoiset talvityöarkkiniput',
-      'lumi- ja jääteemalliset aktiviteetit',
-      'talviluontotulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'talvi',
+      'kausiluonteinen',
+      'tulostettavat',
+      'lumi',
+      'niche',
     ],
   },
   hero: {

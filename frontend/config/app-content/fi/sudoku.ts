@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kuvasudoku-generaattori KDP-palapelikirjoihin',
+    primaryKeyword: 'sudoku tulostaa',
     secondaryKeywords: [
-      'luo kuvasudoku-palapeleja Etsyyn',
-      'sudoku-palapelikirjat Amazon KDP -myyjille',
-      'kuvasudoku-työlehdet kaupallinen lisenssi',
-      'myy visuaalisia sudoku-tulosteita verkossa',
+      'sudoku-generaattori',
+      'sudoku lapsille tulostaa',
+      'sudoku kuvilla',
+      'luo oma sudoku',
     ],
     lsiKeywords: [
-      'sudoku-palapelikirjaniche KDP',
-      'myy logiikkapalapeleja kaupallisesti',
-      'visuaaliset sudoku-työlehituotteet',
+      'logiikka',
+      'pulma',
+      'vaikeustaso',
+      'vastaukset',
+      'PDF',
     ],
-    titleTag: 'Kuvasudoku-generaattori KDP-palapelikirjoihin | LCS',
-    metaDescription: 'Luo kuvasudoku-palapeleja myytäväksi Etsyssä ja KDP:ssä. 4×4-kuvaruudukot, 3 vaikeustasoa, automaattiset vastausavaimet, kaupallinen lisenssi. $49 kertamaksu.',
+    titleTag: 'Sudoku tulostaa | Generaattori kuvilla',
+    metaDescription: 'Luo sudokuja kuvilla tai numeroilla, säädettävä vaikeustaso. Automaattiset vastaukset, tulostettavat PDF:t. Kokeile ilmaiseksi.',
   },
 
   hero: {

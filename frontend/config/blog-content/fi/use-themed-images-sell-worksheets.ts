@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kayta teemakuvia myy tyoarkit',
+    primaryKeyword: 'teemakuvat tehtäväarkeissa myyntiä lisää',
     secondaryKeywords: [
-      'vaihe sisallon luominen generaattorilla',
-      'vaihe muotoilu paketointi',
-      'vaihe ilmoituksen luominen julkaisu',
+      'kuvateema tulosteet erottuvat Etsyssä',
+      'teemoitetut tulosteet myyvät paremmin',
+      'visuaalinen vetovoima tulosteet myynti',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'kuvageneraattori tulosteet',
+      'teemoitetut työarkit markkinointi',
+      'erottuvuus Etsy-hakutuloksissa',
     ],
-    titleTag: 'Kayta teemakuvia tyoarkkien myynnissa | LCS',
-    metaDescription: 'Teemakuvat erottavat tyoarkkisi kilpailijoista. Miten valitset oikean teeman ja kaytat kuvia tehokkaasti. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Teemakuvat tulosteissa: myy enemmän | LCS',
+    metaDescription: 'Käytä teemakuvia tehtäväarkeissa ja erotut Etsyssä. Visuaalinen vetovoima nostaa klikkauksia ja myyntiä.',
   },
   hero: {
     title: 'Kayta teemakuvia tyoarkkien myynnissa: erottuva etu',

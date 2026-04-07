@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kuviotyoarkit myy verkossa',
+    primaryKeyword: 'kuviotyöarkit tulostettavia verkkomyynti',
     secondaryKeywords: [
-      'kuviotehtavat tulosteet Etsy',
-      'hahmontunnistus tyoarkit myynti',
-      'pattern worksheets myy',
+      'hahmontunnistus tehtävät tulosteet myynti',
+      'kuviotehtävät tulostettavia Etsy',
+      'matemaattinen hahmotus tulosteet',
     ],
     lsiKeywords: [
-      'looginen ajattelu kuviot',
-      'sarjat ja jatkuvuus',
-      'matemaattinen hahmotus',
+      'looginen ajattelu kuviot tulosteet',
+      'sarjat ja jatkuvuus tehtävät',
+      'kuvioharjoitukset esikoulu',
     ],
-    titleTag: 'Kuviotyoarkit: myy verkossa | LCS',
-    metaDescription: 'Myy kuviotyoarkkeja verkossa. Hahmontunnistus on avaintaito jota jokainen lapsi harjoittelee. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Kuviotyöarkit verkkomyyntiin | LCS',
+    metaDescription: 'Myy kuviotyöarkkeja verkossa. Hahmontunnistus on avaintaito jonka jokainen lapsi harjoittelee. Vakaa kysyntä.',
   },
   hero: {
     title: 'Kuviotyoarkit: hahmontunnistuksen myyntituote',

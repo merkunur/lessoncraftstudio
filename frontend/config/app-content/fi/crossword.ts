@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'ristikko palapeelin tekijä myy etsyssä kdp ssä luo',
+    primaryKeyword: 'sanaristikko-generaattori',
     secondaryKeywords: [
-      'ristikko-palapeelin tekijä myyntiin Etsyssä ja KDP:ssä',
-      'luo kuvaristikoita Etsyyn',
-      'ristikko-palapelikirjat Amazon KDP:lle',
-      'tulostettava ristikko-generaattori kaupallinen lisenssi',
+      'luo sanaristikko',
+      'ristikko tulostaa',
+      'sanaristikko kuvilla',
+      'ristikkogeneraattori',
     ],
     lsiKeywords: [
-      'sanasto-palapeliniche Etsy',
-      'myy ristikko-tulosteita verkossa',
-      'opetukselliset palapeelituotteet',
+      'vihjeet',
+      'ruudukko',
+      'vaakasuora',
+      'pystysuora',
+      'vastaukset',
     ],
-    titleTag: 'Ristikko-palapeelin tekijä — Myy Etsyssä ja KDP:ssä | LCS',
-    metaDescription: 'Luo kuvaristikoita myytäväksi Etsyssä ja KDP:ssä. Kuvavihjeillä, automaattiset vastausavaimet, 104 teemaa, kaupallinen lisenssi. $49 kertamaksu.',
+    titleTag: 'Sanaristikko-generaattori | Luo kuvilla ja vastauksilla',
+    metaDescription: 'Luo sanaristikoita kuvavihjein 15×15-ruudukossa. 4 syöttötapaa, 104 teemaa, automaattiset vastaukset. Kokeile ilmaiseksi — kaupallinen lisenssi.',
   },
 
   hero: {

@@ -78,10 +78,10 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio — Arbeidsark generator for Etsy & KDP'
   },
   fi: {
-    title: 'Aloita kannattava tulostettavien liiketoiminta | LessonCraftStudio',
-    description: 'Rakenna tulostettavien liiketoiminta Etsyssa, Amazon KDP:ssa tai TPT:ssa. 33 ammattimaista generaattoria, yli 3 000 kuvaa, 11 kielta. Ilmainen kokeiluversio vesileimalla.',
-    keywords: 'tulostettavien liiketoiminta, myy tulostettavia Etsy, KDP tehtaevat, lisaetulot tulostettavat, sananetsinta generaattori, ammattimaiset tulostettavat',
-    ogAlt: 'LessonCraftStudio - Aloita kannattava tulostettavien liiketoiminta'
+    title: 'Tehtävämoniste-generaattori | Luo ja myy Etsyssä & KDP:ssä',
+    description: '33 ammattimaista tehtävägeneraattoria 3 000+ kuvalla ja 11 kielellä. Tulostettavat PDF:t minuuteissa. Kokeile ilmaiseksi — kaupallinen lisenssi.',
+    keywords: 'tehtävämoniste-generaattori, luo tehtäviä tulostettavaksi, tehtävägeneraattori, sanasokkelo generaattori, sanaristikko generaattori, matikkatehtävien generaattori, värityskuvia tulostaa',
+    ogAlt: 'LessonCraftStudio — Tehtävämoniste-generaattori Etsyyn & KDP:hen'
   }
 };
 

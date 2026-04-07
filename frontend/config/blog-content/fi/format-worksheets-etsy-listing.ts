@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'muotoile tyoarkit Etsy ilmoitus',
+    primaryKeyword: 'työarkkien muotoilu Etsy-ilmoitukseen',
     secondaryKeywords: [
-      'muotoile tyoarkit Etsy ilmoitus opas',
-      'muotoile tyoarkit Etsy ilmoitus vaiheittain',
-      'muotoile tyoarkit Etsy ilmoitus 2026',
+      'PDF-muotoilu tulosteet Etsy',
+      'tehtäväarkkien valmistelu myyntiin',
+      'Etsy-ilmoituksen tiedostoformaatti',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'resoluutio PDF-tulosteet',
+      'sivuasettelu työarkit',
+      'tulostuslaatu Etsy-tuotteet',
     ],
-    titleTag: 'Muotoile tyoarkit Etsy-ilmoitukseen | LCS',
-    metaDescription: 'Muotoile tyoarkit oikein Etsy-ilmoitusta varten. PDF-asetukset, kuvat, otsikot ja tunnisteet.',
+    titleTag: 'Muotoile työarkit Etsy-ilmoitukseen | LCS',
+    metaDescription: 'Muotoile tulostettavat työarkit oikein Etsy-ilmoitusta varten. PDF-asetukset, kuvat, otsikot ja tunnisteet.',
   },
   hero: {
     title: 'Muotoile tyoarkit Etsy-ilmoitukseen: tekninen opas',

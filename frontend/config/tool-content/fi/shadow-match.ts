@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'varjoyhdistely tehtavia generaattori tehtavageneraattori',
+    primaryKeyword: 'ilmainen varjoleikki-tehtävä verkossa',
     secondaryKeywords: [
-      'varjoyhdistely-tehtavien generaattori myyjille',
-      'tee siluettiyhdistely-tehtavia myyntiin',
-      'tulostettava varjopalapeli-generaattori kaupallinen kaytto',
-      'varjoyhdistely-tehtavien generaattori KDP ja Etsy',
+      'varjoleikkitehtäviä ilmaiseksi verkossa',
+      'varjoyhdistelygeneraattori ilman rekisteröitymistä',
+      'kokeile varjoleikkiä ilmaiseksi',
+      'tulostettava varjoyhdistely ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'kaksoistila siluetti ja jaettu kuva yhdistelytyo kalu',
-      'pikselitason varjogenerointi sekoitusalgoritmi generaattori',
-      'automaattinen vastausavain varjopalapeli-tehtavien generaattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'varjotehtävä',
     ],
-    titleTag: 'Varjoyhdistely-generaattori — Tehtavageneraattori —...',
-    metaDescription: 'Tee varjoyhdistely-tehtavia pikselitason silueteilla ja Taydenna Kuva -kuvanjaolla, automaattisilla. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen varjoleikki-tehtävä verkossa | Kokeile',
+    metaDescription: 'Tee varjoleikkitehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

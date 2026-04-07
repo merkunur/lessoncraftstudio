@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'halloween tulosteet myy lokakuu',
+    primaryKeyword: 'halloween-tulosteet myyntiin lokakuu',
     secondaryKeywords: [
-      'halloween tulosteet myy lokakuu opas',
-      'halloween tulosteet myy lokakuu 2026',
-      'halloween tulosteet myy lokakuu Suomi',
+      'halloween-tehtävät tulostettavia Etsy',
+      'kauhuteema tulosteet sesonki',
+      'lokakuun tulosteet myyntistrategia',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'halloween-juhlat aktiviteetit',
+      'kurpitsa tulostettavia',
+      'halloween Suomessa tulosteet',
     ],
     titleTag: 'Halloween-tulosteet lokakuussa | LCS',
-    metaDescription: 'Myy halloween-tulosteita lokakuussa. Suomessa halloween on kasvanut suosituksi ja tulosteet myyvat hyvin. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    metaDescription: 'Myy halloween-tulosteita lokakuussa. Suomessa halloween on kasvanut suosituksi ja tulostettavat aktiviteetit myyvät hyvin.',
   },
   hero: {
     title: 'Halloween-tulosteet: lokakuun myyntisesonki',

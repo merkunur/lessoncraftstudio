@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sosiaalinen media tulostemyyjille taydellinen strategia',
+    primaryKeyword: 'sosiaalinen media tulostemyyjälle',
     secondaryKeywords: [
-      'sosiaalinen media tulosteet myyjat opas',
-      'sosiaalinen media tulosteet myyjat 2026',
-      'sosiaalinen media tulosteet myyjat Suomi',
+      'some-strategia tulostekaupalle',
+      'Pinterest Instagram tulostemyynti',
+      'markkinointi somessa tulosteille',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'Pinterest tulostemarkkinointi',
+      'Instagram tulostekauppa',
+      'Facebook-ryhmät tulostemyyjät',
     ],
-    titleTag: 'Sosiaalinen media tulostemyyjille | LCS',
-    metaDescription: 'Kayta sosiaalista mediaa tulostemyynnin kasvattamiseen. Pinterest, Instagram ja Facebook strategiat myyjille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Some-strategia tulostemyyjälle | LCS',
+    metaDescription: 'Käytä sosiaalista mediaa tulostemyynnin kasvattamiseen. Pinterest, Instagram ja Facebook strategiat myyjille.',
   },
   hero: {
     title: 'Sosiaalinen media tulostemyyjille: taydellinen strategia',

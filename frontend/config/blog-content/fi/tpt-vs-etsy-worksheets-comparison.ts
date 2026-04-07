@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy vai Gumroad tyoarkit vertailu',
+    primaryKeyword: 'Gumroad vai Etsy tulosteet vertailu',
     secondaryKeywords: [
-      'kaytannoen toteutus vaihe vaiheelta',
-      'yleisimmat haasteet ratkaisut',
-      'mittaaminen optimointi',
+      'paras alusta tehtäväarkkien myyntiin',
+      'Gumroad Etsy alustavertailu',
+      'tulosteiden myyntialusta valinta',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'provisiot alustavertailu',
+      'kohdeyleisö Gumroad Etsy',
+      'monikanavainen tulostemyynti',
     ],
-    titleTag: 'Etsy vai Gumroad tyoarkeille? | LCS',
-    metaDescription: 'Vertaile Etsya ja Gumroadia tyoarkkien myyntiin. Kumpi sopii suomalaiselle myyjalle paremmin? Suomessa ei ole TPT:ta.',
+    titleTag: 'Gumroad vai Etsy tehtäväarkeille? | LCS',
+    metaDescription: 'Vertaile Gumroadia ja Etsyä tehtäväarkkien myyntiin. Palkkiot, kohdeyleisö ja strategia kummallekin alustalle.',
   },
   hero: {
     title: 'Etsy vai Gumroad tyoarkeille: suomalaisen myyjann vertailu',

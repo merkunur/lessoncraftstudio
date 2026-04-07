@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'generaattori tehtävägeneraattori ruudukkopiirros piirustustehtävägeneraattori piirrä',
+    primaryKeyword: 'ilmainen piirrustustehtävä verkossa',
     secondaryKeywords: [
-      'ruudukkopiirros tehtavageneraattori myyjille',
-      'tee piirra ja varita tehtavia myyntiin',
-      'tulostettava ruudukkotoisto tehtavat kaupallinen kaytto',
-      'solu-soluun piirustustehtava generaattori KDP:lle',
+      'piirrustustehtäviä ilmaiseksi verkossa',
+      'piirrosgeneraattori ilman rekisteröitymistä',
+      'kokeile piirrustustehtävää ilmaiseksi',
+      'tulostettava piirrustustehtävä ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'kaksoisruudukko piirros tulostettavat Etsyyn',
-      'saadettava vihjemaara tehtavatyokalu',
-      'symmetria peilitila piirros tehtavageneraattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'piirrostehtävä',
     ],
-    titleTag: 'Piirustustehtävägeneraattori — Ruudukkopiirros Generaattori',
-    metaDescription: 'Luo ruudukkopiirrostehtäviä kaksoisruudukolla, säädettävällä vihjemäärällä, kolmella symmetriatilalla ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen piirrustustehtävä verkossa | Kokeile heti',
+    metaDescription: 'Tee piirrustustehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo työarkkipaketteja',
+    primaryKeyword: 'näin teet työarkkipaketteja myyntiin',
     secondaryKeywords: [
-      'tulostettavien työarkkipakettien luominen',
-      'myy työarkkipaketteja Etsyssä',
-      'paketointi tulostettavien tuotteiden liiketoiminnassa',
-      'korkea-arvoisten pakettien rakentaminen',
+      'työarkkipakettien rakentaminen tulostettavaksi',
+      'tulostettavien pakettien hinnoittelustrategia',
+      'luo temaattisia työarkkikokoelmia myyntiin',
+      'paketointi tulostettavien liiketoiminnassa opas',
     ],
     lsiKeywords: [
-      'tulostettavien tuotteiden paketointi myyntiin',
-      'pakettien hinnoittelustrategia',
-      'temaattiset työarkkipaketit markkinapaikoille',
-      'moniformaattipaketit Etsyyn',
-      'Amazon KDP aktiviteettikirjakoelmat',
-      'kaupallinen lisenssi työarkkityökalu',
+      'moniformaattipaketit temaattiset kokoelmat',
+      'hinnoittelu paketointi ristimyynti',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP aktiviteettikirjakokoelma',
+      '33 generaattoria 6 kategoriaa',
+      'myy Etsyssä KDP:ssä Gumroadissa',
     ],
-    titleTag: 'Luo työarkkipaketteja — Opas',
-    metaDescription: 'Opi rakentamaan korkea-arvoisia työarkkipaketteja. Paketointistrategiat, hinnoittelu, markkinapaikkaoptimointi ja skaalaus Etsyssä, KDP:ssä ja Gumroadissa.',
+    titleTag: 'Työarkkipaketteja myyntiin | Vaihe vaiheelta -opas',
+    metaDescription: 'Näin rakennat korkea-arvoisia työarkkipaketteja myyntiin. Paketointistrategiat, hinnoittelu ja skaalaus Etsyssä, KDP:ssä ja Gumroadissa.',
   },
 
   hero: {

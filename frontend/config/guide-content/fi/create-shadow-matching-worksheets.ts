@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo varjojen yhdistämistyöarkkeja',
+    primaryKeyword: 'näin teet varjojen yhdistämistehtäviä tulostettavia',
     secondaryKeywords: [
-      'varjojen yhdistäminen lapsille',
-      'varjojen yhdistämistyöarkkien generaattori',
-      'tulostettavia varjotyöarkkeja myyntiin',
-      'visuaalinen hahmottaminen esikoulu',
+      'varjoyhdistämisgeneraattori lapsille myyntiin',
+      'tulosta siluetti-yhdistämistehtäviä esiopetukseen',
+      'luo varjotyöarkkeja vastausavaimella PDF',
+      'varjojen yhdistämistehtävien tekeminen opas',
     ],
     lsiKeywords: [
-      'varjojen tunnistaminen lapsille',
-      'siluetti-yhdistämistehtävät nuorille käyttäjille',
-      'visuaalinen erottelu esikoulu-työarkit',
-      'myy varjotyöarkkeja Etsyssä',
-      'Amazon KDP varjojen yhdistämiskirjat',
-      'kaupallinen lisenssi varjotyöarkkityökalu',
+      'visuaalinen hahmottaminen siluetti',
+      'esiopetus eskari alkuopetus',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP varjoyhdistämiskirja',
+      'automaattiset siluetit 104 teemaa',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo varjojen yhdistämistyöarkkeja — Opas',
-    metaDescription: 'Luo varjojen yhdistämistyöarkkeja automaattisilla silueteilla. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Varjojen yhdistämistehtäviä tulostettavia | Opas',
+    metaDescription: 'Näin teet varjojen yhdistämistehtäviä tulostettavaksi automaattisilla silueteilla. Vastausavaimet, 104 teemaa ja PDF myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'aloita Etsy tulostettavien kauppa',
-    secondaryKeywords: ['perusta Etsy-kauppa tulostettaville', 'Etsy tulostettavien liiketoiminnan aloittaminen', 'ensimmainen Etsy-kauppa opetuksellisille tulostettaville', 'aloittelijan opas Etsy tulostettavien myyntiin'],
-    lsiKeywords: ['Etsy-kaupan perustaminen digitaalisille latauksille', 'tulostettavien liiketoiminnan aloittaminen nollasta', 'Etsy-myyjatilin luominen ja optimointi'],
-    titleTag: 'Aloita Etsy-tulostettavien kauppa — Opas',
-    metaDescription: 'Aloita Etsy-tulostettavien kauppa alusta. Kaupan perustaminen, ensimmaiset listaukset, SEO-optimointi, hinnoittelu ja katalogin rakentaminen digitaalisten.',
+    primaryKeyword: 'aloita Etsy-tulostettavien kauppa opas',
+    secondaryKeywords: [
+      'perusta Etsy-kauppa tulostettaville tuotteille',
+      'Etsy-tulostettavien liiketoiminnan aloittaminen',
+      'ensimmäinen Etsy-kauppa tulostettaville opas',
+      'aloittelijan opas Etsy-tulostettavien myyntiin',
+    ],
+    lsiKeywords: [
+      'Etsy-kaupan perustaminen digitaaliset lataukset',
+      'ensimmäiset listaukset SEO-optimointi',
+      'kaupallinen lisenssi PDF-vienti',
+      'hinnoittelu tuotekuvat katalogin rakentaminen',
+      'Etsy Gumroad KDP monialustainen',
+      '33 generaattoria 6 kategoriaa',
+    ],
+    titleTag: 'Aloita Etsy-tulostettavien kauppa | Aloitusopas',
+    metaDescription: 'Aloita Etsy-tulostettavien kauppa alusta. Kaupan perustaminen, ensimmäiset listaukset, SEO-optimointi, hinnoittelu ja katalogin rakentaminen.',
   },
   hero: {
     title: 'Aloita Etsy-tulostettavien kauppa alusta',

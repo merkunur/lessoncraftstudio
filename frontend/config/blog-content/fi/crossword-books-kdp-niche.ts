@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ristikkokirjat Amazon KDP niche',
+    primaryKeyword: 'ristikkokirjat KDP julkaisu',
     secondaryKeywords: [
-      'ristisanatehtava kirjat julkaisu',
-      'KDP pulmatehtavakirjat myynti',
-      'ristikot tulosteet liiketoiminta',
+      'ristisanatehtäväkirjat Amazon',
+      'sanaristikot KDP liiketoiminta',
+      'pulmatehtäväkirjat julkaisu KDP',
     ],
     lsiKeywords: [
-      'sanaristikot omatoimijulkaisu',
-      'pulmatehtavakirja KDP',
-      'ristisanatehtavat aikuisille',
+      'omatoimijulkaisu pulmakirjat',
+      'ristikot aikuisille KDP',
+      'sanatehtävät kirjana Amazon',
     ],
-    titleTag: 'Ristikkokirjat KDP-nichena: opas | LCS',
-    metaDescription: 'Julkaise ristikkokirjoja Amazon KDP:ssa. Kasvava niche jossa kilpailu on kohtuullista. Taydellinen sivutuloprojekti suomalaiselle yrittajalle.',
+    titleTag: 'Ristikkokirjat KDP-nichena | LCS',
+    metaDescription: 'Julkaise ristikkokirjoja Amazon KDP:ssä. Kasvava niche kohtuullisella kilpailulla ja vakaalla kysynnällä.',
   },
   hero: {
     title: 'Ristikkokirjat KDP-nichena: taydellinen sivutulo',

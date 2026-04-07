@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kuvalajittelu-generaattori',
+    primaryKeyword: 'lajittelutehtävä tulostaa',
     secondaryKeywords: [
-      'tulostettava lajittelutoiminta-generaattori Etsy-myyjille',
-      'kahden kategorian lajittelu-työlehtigeneraattori KDP:lle',
-      'kuvaluokittelu-työlehtigeneraattori kaupallinen lisenssi',
-      'myy lajittelutyölehtia Gumroadissa',
+      'lajittele ja ryhmittele tehtävä',
+      'luokittele kuvat',
+      'järjestä ja lajittele tehtävämoniste',
+      'lajitteluaktiviteetti esiopetus',
     ],
     lsiKeywords: [
-      'digitaaliset lajittelu-tulosteet verkkoliiketoiminta',
-      'kaupallinen luokittelu-työlehtigeneraattori',
-      'tulostettava kategorian lajittelutoiminta liiketoimintatyökalu',
+      'lajittelu',
+      'ryhmittely',
+      'luokittelu',
+      'esiopetus',
+      'vastaukset',
     ],
-    titleTag: 'Kuvalajittelu-generaattori | Luo lajittelutyölehtia',
-    metaDescription: 'Luo kuvalajittelutyölehtia myytäväksi Etsyssä, KDP:ssä ja Gumroadissa. $49 kertamaksu.',
+    titleTag: 'Lajittelutehtävä tulostaa | Luokittelugeneraattori',
+    metaDescription: 'Luo lajittelu- ja luokittelutehtäviä teemakuvilla. Automaattiset vastaukset, tulostettavat PDF:t. Kokeile ilmaiseksi.',
   },
 
   hero: {

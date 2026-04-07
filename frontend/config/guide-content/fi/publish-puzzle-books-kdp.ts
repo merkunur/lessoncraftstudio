@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'julkaise pulmakirjoja KDP',
-    secondaryKeywords: ['miten julkaista pulmakirjoja Amazon KDP:ssä', 'KDP-pulmakirjan julkaisuopas', 'luo sananetsintäkirjoja Amazoniin', 'Amazon KDP ristisana sudoku pulmakirjat'],
-    lsiKeywords: ['sananetsintä ristisana sudoku pulmakirja sisäsivut', 'pulmakirja sivumäärä vaikeusasteeteneminen ratkaisuosio', 'KDP sekapulmakirja eri pulmatyypit muotoilu', 'Amazon pulmakirja hakusanat kategoriat aikuisten lasten markkina', 'print-on-demand pulmakatalogi sarja osien numerointi', 'pulmaristikko välistys trimkoko vastaukset loppuliite'],
-    titleTag: 'Julkaise pulmakirjoja KDP:ssä — Opas',
-    metaDescription: 'Julkaise pulmakirjoja KDP:ssä sananetsinnällä, ristisanatehtävillä ja sudokuilla. Muotoilu, sekakirjat, sarjastrategia ja Amazon-listaus pulmakirjojen myyjille.',
+    primaryKeyword: 'julkaise pulmakirjoja KDP:ssä opas',
+    secondaryKeywords: [
+      'KDP-pulmakirjan julkaisuopas myyjille',
+      'luo sananetsintäkirjoja Amazoniin myyntiin',
+      'Amazon KDP ristisana sudoku pulmakirjat',
+      'pulmakirjojen muotoilu ja julkaisu KDP:ssä',
+    ],
+    lsiKeywords: [
+      'sananetsintä ristisana sudoku sisäsivut',
+      'sivumäärä vaikeusaste ratkaisuosio',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon-hakusanat kategoriat markkina',
+      'sekapulmakirja sarja osien numerointi',
+      'pulmaristikko trimikoko vastaukset',
+    ],
+    titleTag: 'Julkaise pulmakirjoja KDP:ssä | Myyjän opas',
+    metaDescription: 'Julkaise pulmakirjoja KDP:ssä. Sananetsinnät, ristisanatehtävät, sudokut, muotoilu, sekakirjat ja Amazon-listausstrategia pulmakirjojen myyjille.',
   },
 
   hero: {

@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Maatilaeläin tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu kannattaviin maatilaeläinaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Maatilaeläintulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Maatilaeläinaiheisia tulostettavia tehtäviä myyntiin. Suosittu eläinniche Etsyssä ja KDP:ssä.',
 
     primaryKeyword: 'maatilaeläin tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'maatilaeläin työarkit myyntiin',
-      'maatilateemainen tulostettava liiketoiminta',
-      'maatilaaktiviteettiarkki myyjille',
-      'myy maatilatulostettavia Etsyssä',
+      'maatilatehtäviä myydä Etsyssä',
+      'maatilaeläin tulostettavat niche KDP',
+      'kotieläinteemaiset tehtävät myyntiin',
+      'maatilaaktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'maatalousteemaiset opetukselliset työarkit',
-      'maatilaaktiviteetit lapsille',
-      'kotieläinteemaiset tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'maatila',
+      'eläimet',
+      'tulostettavat',
+      'kotieläimet',
+      'niche',
     ],
   },
   hero: {

@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Gumroad-kaupan optimointi',
-    secondaryKeywords: ['optimoi Gumroad-kauppa tulostettaville', 'Gumroad-myyjän optimointistrategia', 'Gumroad hakuoptimointi resurssimyynti', 'Gumroad katalogin optimointi'],
-    lsiKeywords: ['Gumroad-kaupan hakuoptimointi', 'tulostettavien resurssien myyntistrategia', 'digitaalisten tuotteiden kaupan optimointi'],
-    titleTag: 'Gumroad-kaupan optimointi — Opas',
-    metaDescription: 'Optimoi Gumroad-kauppasi tulostettavien resurssien myyntiin. Tuotelistauksen optimointi, hakustrategia, katalogin organisointi ja myynnin kasvattaminen.',
+    primaryKeyword: 'Gumroad-kaupan optimointi tulostettaville',
+    secondaryKeywords: [
+      'optimoi Gumroad-kauppa myyntiä varten opas',
+      'Gumroad-myyjän optimointistrategia tulostettaville',
+      'Gumroad-tuotelistausten optimointi konversioon',
+      'Gumroad-katalogin rakenne ja ristikkäismyynti',
+    ],
+    lsiKeywords: [
+      'tuotesivun konversio-optimointi ulkoinen liikenne',
+      'katalogin rakenne tuotepaketit kategoriat',
+      'kaupallinen lisenssi tulostettavat tuotteet',
+      'hinnoittelu A/B-testaus liikevaihdon kasvu',
+      'Pinterest sähköposti sosiaalinen media liikenne',
+      'jatkuva optimointiprosessi myyntidatan analyysi',
+    ],
+    titleTag: 'Gumroad-kaupan optimointi | Strategiaopas',
+    metaDescription: 'Optimoi Gumroad-kauppasi tulostettaville tuotteille. Tuotelistaukset, hakustrategia, katalogin rakenne ja jatkuva optimointi myynnin kasvattamiseen.',
   },
   hero: {
     title: 'Gumroad-kaupan optimointi tulostettavien resurssien myyntiin',

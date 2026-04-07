@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'matikkapulmapeli generaattori luo myy tulostettavia tyoarkkien visuaalisiin',
+    primaryKeyword: 'matikkapelejä tulostaa',
     secondaryKeywords: [
-      'tulostettavat matikkapulmapeli tyoarkit Etsy myyjille',
-      'kuvapulmapeli tyoarkki generaattori Amazon KDP',
-      'matikkapulmapeli tyoarkit myy Gumroadissa',
-      'matikkapulmapeli tulostettavat kaupallinen lisenssi',
+      'matikkapulmia tehtäviä',
+      'matikka-arvoituksia tulostaa',
+      'hauskoja matikkatehtäviä',
+      'leikkisiä matikkatehtäviä',
     ],
     lsiKeywords: [
-      'digitaaliset matikkapulmapeli tuotteet verkkoliiketoiminta',
-      'tulostettavat pulmapeli tyoarkit business',
-      'kaupallinen kaytto matikkapulmapeli generaattori',
+      'alakoulu',
+      'yhteenlasku',
+      'vähennyslasku',
+      'kuvapulma',
+      'vastaukset',
     ],
-    titleTag: 'Matikkapulmapeli Generaattori | Luo ja Myy Tulostettavia',
-    metaDescription: 'Luo matikkapulmapeli tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Kuvapulmat yhteen- ja vahennyslaskulla, saadettavat ruudukot. $49 kertamaksu.',
+    titleTag: 'Matikkapelejä tulostaa | Matikkapulmageneraattori',
+    metaDescription: 'Luo matikkapulmia kuvilla, joissa lapset ratkovat laskuja yhdistääkseen kuvia. Vastaukset mukana. Kokeile ilmaiseksi.',
   },
 
   hero: {

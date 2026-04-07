@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dinosaurusaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu kannattaviin dinosaurusaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Dinosaurustulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Dinosaurusaiheisia tulostettavia tehtäviä myyntiin. Lasten ikuinen suosikkiniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'dinosaurusaiheiset tulostettavat ideat myyntiin',
+    primaryKeyword: 'dinosaurus tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'dinosaurustyöarkit myyntiin',
-      'dinosaurusteemainen tulostettava liiketoiminta',
-      'dinosaurusaktiviteettiarkki myyjille',
-      'myy dinosaurustulostettavia Etsyssä',
+      'dinosaurustehtäviä myydä Etsyssä',
+      'dinosaurustulostettavat niche KDP',
+      'esihistorialliset tehtävät myyntiin',
+      'dinosaurusaktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'esihistoriallinen teemainen opetustyöarkit',
-      'paleontologia-aktiviteetit lapsille',
-      'jurassinen teemainen tuotelinja tulostettavat',
+      'Etsy',
+      'KDP',
+      'dinosaurus',
+      'esihistoria',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

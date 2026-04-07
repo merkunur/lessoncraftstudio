@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo matemaattisia pulmatehtävätyöarkkeja',
+    primaryKeyword: 'näin teet matikkapulmatehtäviä tulostettavia',
     secondaryKeywords: [
-      'matemaattinen pulmatehtävä työarkkigeneraattori',
-      'kuvan uudelleenkokoaminen matemaattinen pulmatehtävä',
-      'tulostettavat matemaattiset pulmatehtävätyöarkit myyntiin',
-      'ruudukkopohjaiset matemaattiset pulmatehtävät lapsille',
+      'matikkapulmageneraattori ruudukkopohjaisena',
+      'tulosta kuva-matikkatehtäviä myyntiin',
+      'luo matemaattisia pulmia vastausavaimella PDF',
+      'matikkapulmatehtävien tekeminen opas lapsille',
     ],
     lsiKeywords: [
-      'kuvapulmatehtävä matemaattinen aktiviteetti',
-      'ratkaise yhtälöt kokoat kuvan',
-      'visuaaliset matemaattiset pulmatehtävät esikoulu päiväkoti',
-      'myy matemaattisia pulmatehtäviä Etsyssä',
-      'Amazon KDP matemaattiset pulmatehtäväkirjat',
-      'kaupallinen lisenssi pulmatehtävätyökalu',
+      'ratkaise yhtälö kokoa kuva',
+      'esiopetus alakoulu matematiikka',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP matikkapulmakirja',
+      'ruudukkokoot operaatiot vastausavain',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo matemaattisia pulmatehtävätyöarkkeja — Vaihe...',
-    metaDescription: 'Luo matemaattisia pulmatehtävätyöarkkeja, joissa lapset ratkaisevat yhtälöitä kootakseen kuvia. Ruudukkokoot, operaatiot, vastausavaimet ja myyntivinkit Etsyyn.',
+    titleTag: 'Matikkapulmatehtäviä tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet matikkapulmatehtäviä tulostettavaksi. Ratkaise yhtälöitä ja kokoa kuvia. Ruudukkokoot, vastausavaimet ja PDF myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

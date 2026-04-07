@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO tulostettaville opetustuotteille',
+    primaryKeyword: 'Etsy SEO tulostettaville tuotteille opas',
     secondaryKeywords: [
-      'Etsy-hakuoptimointi tulostettaville',
-      'Etsy-avainsanastrategia työarkeille',
-      'Etsy-listausten optimointi opetustuotteille',
-      'Etsy-tagit tulostettaville tuotteille',
+      'Etsy-hakuoptimointi tulostettavien myyjille',
+      'Etsy-avainsanastrategia työarkeille ja pulmille',
+      'Etsy-listausten optimointi digitaalisille latauksille',
+      'Etsy-tagit ja otsikot tulostettaville tuotteille',
     ],
     lsiKeywords: [
-      'Etsy-hakualgoritmi tulostettaville tuotteille',
-      'Etsy-otsikon optimointi työarkeille',
-      'Etsy-tagien strategia opetustuotteille',
-      'Etsy-listausten kuvat tulostettaville',
-      'Etsy-konversioprosentti tulostettavat tuotteet',
-      'Etsy-hakunäkyvyys digitaaliset lataukset',
+      'Etsy-hakualgoritmi hakunäkyvyys',
+      'otsikon optimointi 13 tagia',
+      'kaupallinen lisenssi tulostettavat tuotteet',
+      'konversioprosentti tuotekuvat kuvaus',
+      'digitaaliset lataukset Etsy-kauppa',
+      'kilpailuanalyysi hakusanat sijoitus',
     ],
-    titleTag: 'Etsy SEO tulostettaville opetustuotteille — Opas',
-    metaDescription: 'Optimoi Etsy-listaukset tulostettaville opetustuotteille. Avainsanastrategia, otsikko-optimointi, tagit, kuvat ja konversio-optimointi.',
+    titleTag: 'Etsy SEO tulostettaville tuotteille | Kattava opas',
+    metaDescription: 'Optimoi Etsy-listaukset tulostettaville tuotteille. Avainsanastrategia, otsikko-optimointi, tagit, tuotekuvat ja konversio-optimointi myyjille.',
   },
 
   hero: {

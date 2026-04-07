@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kuvasokkelo tyoarkit liiketoiminta',
+    primaryKeyword: 'kuvasokkelo tulostettavia liiketoiminta',
     secondaryKeywords: [
-      'labyrintti tulosteet myynti',
-      'sokkelo tehtavat lapsille Etsy',
-      'maze worksheets liiketoiminta',
+      'labyrinttitehtävät tulosteet myynti',
+      'sokkelo-työarkit tulostettavia Etsy',
+      'polunetsintä tulosteet lapsille',
     ],
     lsiKeywords: [
-      'visuaalinen navigointi tehtavat',
-      'polunetsinta tulosteet',
       'ongelmanratkaisu labyrintit',
+      'visuaalinen navigointi tehtävät',
+      'sokkelot kaikille ikäryhmille',
     ],
-    titleTag: 'Kuvasokkelo-tyoarkit liiketoimintana | LCS',
-    metaDescription: 'Myy kuvasokkelo-tyoarkkeja kannattavasti. Labyrintit kiehtovat lapsia ja aikuisia. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Kuvasokkelot liiketoimintana | LCS',
+    metaDescription: 'Myy kuvasokkelo-tehtäviä kannattavasti. Labyrintit kiehtovat lapsia ja aikuisia ja ovat ikivihreä tuotekategoria.',
   },
   hero: {
     title: 'Kuvasokkelo-tyoarkit: labyrinttien liiketoiminta',

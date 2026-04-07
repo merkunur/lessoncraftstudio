@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'koodiyhteenlaskupulmat myy Etsyssa',
+    primaryKeyword: 'koodiyhteenlaskupulmat tulostettavia Etsy',
     secondaryKeywords: [
-      'matematiikkapulmat tulosteet Etsy',
-      'koodatut yhteenlaskutehtavat lapsille',
-      'myy pulmatehtavia verkossa',
+      'salasanapulmat matematiikka myynti',
+      'koodatut laskutehtävät lapsille',
+      'matematiikkapulmat tulosteet myy',
     ],
     lsiKeywords: [
-      'salasanapulmat matematiikka',
-      'koodaustehtavat lapsille',
-      'hauska matematiikka tulosteet',
+      'dekoodaustehtävät tulosteet',
+      'hauska matematiikka tulostettavia',
+      'ongelmanratkaisu tehtäväarkit',
     ],
-    titleTag: 'Koodiyhteenlaskupulmat Etsyssa: myyntiopas | LCS',
-    metaDescription: 'Myy koodiyhteenlaskupulmia Etsyssa. Ainutlaatuinen niche jossa lapset ratkaisevat laskuja paljastaakseen sanoja. Erottuva tuote 2026.',
+    titleTag: 'Koodiyhteenlaskupulmat Etsyssä | LCS',
+    metaDescription: 'Myy koodiyhteenlaskupulmia Etsyssä. Lapset ratkaisevat laskuja paljastaakseen sanoja. Erottuva tuote matalalla kilpailulla.',
   },
   hero: {
     title: 'Koodiyhteenlaskupulmat: erottuva tuote Etsyssa',

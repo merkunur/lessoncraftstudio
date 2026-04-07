@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sähköpostimarkkinointi tulostettaville tuotteille opas tulostettavien tuotteiden liiketoiminnalle',
+    primaryKeyword: 'sähköpostimarkkinointi tulostettavien myyjille',
     secondaryKeywords: [
-      'sähköpostilistan rakentaminen tulostettavien myyjille',
-      'liidimagneetti tulostettavat tuotteet',
-      'sähköpostikampanjat tulostettavien tuotteiden liiketoiminnalle',
-      'uutiskirje tulostettavien tuotteiden myyjille',
+      'sähköpostilistan rakentaminen tulostettaville',
+      'liidimagneetti tulostettavien liiketoiminnassa',
+      'sähköpostikampanjat työarkkimyyjille opas',
+      'uutiskirjestrategia tulostettavien myyjille',
     ],
     lsiKeywords: [
-      'sähköpostimarkkinointistrategia digitaalisten tuotteiden myyjille',
-      'sähköpostilistan kasvattaminen tulostettavista tuotteista',
-      'liidimagneetin luominen työarkeista',
-      'sähköpostiautomaatio tulostettavien liiketoiminnalle',
-      'sähköpostisegmentointi tulostettavien ostajille',
-      'sähköpostimittarit ja optimointi',
+      'listan kasvattaminen segmentointi automaatio',
+      'liidimagneetin luominen konversio',
+      'kaupallinen lisenssi digitaaliset tuotteet',
+      'sähköpostimittarit avausprosentti klikkaus',
+      'Etsy Gumroad suoramyynti sähköposti',
+      'asiakassuhde toistuvat ostot',
     ],
-    titleTag: 'Sähköpostimarkkinointi tulostettaville tuotteille — Opas',
-    metaDescription: 'Rakenna sähköpostilista tulostettavien tuotteiden liiketoiminnalle. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Sähköpostimarkkinointi tulostettaville | Strategiaopas',
+    metaDescription: 'Rakenna sähköpostilista tulostettavien liiketoiminnalle. Liidimagneetit, automaatio, segmentointi ja kampanjastrategiat tulostettavien myyjille.',
   },
 
   hero: {

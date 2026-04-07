@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo lajittelutyöarkkeja',
+    primaryKeyword: 'näin teet lajittelutehtäviä tulostettavia',
     secondaryKeywords: [
-      'lajittelutyöarkit lapsille',
-      'kategorioiden lajittelutyöarkkien generaattori',
-      'tulostettavia lajittelutyöarkkeja myyntiin',
-      'visuaalinen luokittelu esikoulu',
+      'lajittelugeneraattori kategorioittain myyntiin',
+      'tulosta luokittelutehtäviä esiopetukseen',
+      'luo lajitteluarkkeja temaattisilla kuvilla PDF',
+      'lajittelutehtävien tekeminen opas lapsille',
     ],
     lsiKeywords: [
-      'kuvalajittelutehtävät lapsille',
-      'kategorioiden tunnistaminen varhaiskasvatuksessa',
-      'luokittelu- ja lajittelutyöarkit',
-      'myy lajittelutyöarkkeja Etsyssä',
-      'Amazon KDP lajitteluaktiviteettikirjat',
-      'kaupallinen lisenssi työarkkityökalu',
+      'kategorioiden tunnistaminen luokittelu',
+      'esiopetus eskari varhaiskasvatus',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP lajitteluaktiviteettikirja',
+      'temaattiset kuvat 104 teemaa',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo lajittelutyöarkkeja — Opas',
-    metaDescription: 'Luo kategorioiden lajittelutyöarkkeja temaattisilla kuvilla. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Lajittelutehtäviä tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet lajittelutehtäviä tulostettavaksi temaattisilla kuvilla. Kategorioiden tunnistaminen, vastausavaimet ja PDF myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

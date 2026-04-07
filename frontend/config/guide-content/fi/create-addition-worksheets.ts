@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo yhteenlaskutyöarkkeja',
+    primaryKeyword: 'näin teet yhteenlaskutehtäviä tulostettavia',
     secondaryKeywords: [
-      'tee yhteenlaskutyöarkkeja lapsille',
-      'yhteenlaskutyöarkkien generaattori',
-      'tulostuskelpoisia yhteenlaskutyöarkkeja myyntiin',
-      'mukautettuja yhteenlaskuharjoitusarkkeja',
+      'yhteenlaskutyöarkkien generaattori tulostettavaksi',
+      'tulosta yhteenlaskutehtäviä myyntiin Etsyssä',
+      'kuvapohjainen yhteenlasku esiopetukseen opas',
+      'luo matikkatehtäviä vastausavaimella PDF',
     ],
     lsiKeywords: [
-      'kuvapohjaisia matemaattisia työarkkeja',
-      'visuaalinen yhteenlasku esikouluun',
-      'alakoulu matematiikka harjoitusarkit',
-      'myy matemaattisia työarkkeja Etsyssä',
-      'Amazon KDP matematiikka-aktiviteettikirjat',
-      'kaupallinen lisenssi työarkkityökalu',
+      'esiopetus alakoulu matematiikka',
+      'kaupallinen lisenssi PDF-vienti',
+      'vastausavain automaattinen',
+      'Amazon KDP aktiviteettikirja',
+      '104 teemaa 3 100+ kuvaa',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo yhteenlaskutyöarkkeja — Vaihe vaiheelta -opas —...',
-    metaDescription: 'Näin luot yhteenlaskutyöarkkeja lapsille. Vaihe vaiheelta -opas: valitse teemat, aseta vaikeustaso, luo vastausavaimet ja vie PDF myyntiin Etsyssä ja KDP:ssä.',
+    titleTag: 'Yhteenlaskutehtäviä tulostettavia | Vaihe vaiheelta',
+    metaDescription: 'Näin teet yhteenlaskutehtäviä tulostettavaksi. Valitse teemat, aseta vaikeustaso, luo vastausavaimet ja vie PDF myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

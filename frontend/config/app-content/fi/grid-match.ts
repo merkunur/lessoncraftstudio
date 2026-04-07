@@ -2,21 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'luo ruudukkoyhdistämispulmia ruudukkoyhdistämispulma generaattori amazon',
+    primaryKeyword: 'ruutupiirros tehtävä tulostaa',
     secondaryKeywords: [
-      'ruudukkoyhdistämispulma generaattori tulostettavaan liiketoimintaan',
-      'luo ruudukkoyhdistämispulmia Etsy-kauppaan',
-      'kuvapalapulmat Amazon KDP -kirjoihin',
-      'ruudukkoyhdistämistyöarkit kaupallinen lisenssi',
-      'myy visuaalisia pulmia verkossa',
+      'kopioi ruudukkoon tehtävä',
+      'pikselitaide tulostaa',
+      'peilaus ruudukossa',
+      'hahmotuskyky tehtävä',
     ],
     lsiKeywords: [
-      'kuvapalapeli tulostettava niche',
-      'myy ruudukkopulmia kaupallisesti',
-      'visuaalisen havainnon työarkkituotteet',
+      'ruudukko',
+      'hahmottaminen',
+      'visuaalinen',
+      'esiopetus',
+      'vastaukset',
     ],
-    titleTag: 'Ruudukkoyhdistämispulma Generaattori Myyjille | LCS',
-    metaDescription: 'Luo ruudukkoyhdistämispulmia myyntiin Etsyssä ja KDP:ssä. Konfiguroitavat ruudukot, vihjesolut, automaattiset vastauslehdet, kaupallinen lisenssi. $49...',
+    titleTag: 'Ruutupiirros tehtävä tulostaa | Ruudukkopiirrosgeneraattori',
+    metaDescription: 'Luo ruutupiirrostehtäviä teemakuvilla. Automaattiset vastaukset, tulostettavat PDF:t. Kokeile ilmaiseksi.',
   },
 
   hero: {

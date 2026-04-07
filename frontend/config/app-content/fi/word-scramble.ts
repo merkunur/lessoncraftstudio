@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kirjainsekoitus generaattori',
+    primaryKeyword: 'sekoitetut kirjaimet tulostaa',
     secondaryKeywords: [
-      'kirjainsekoitus tyoarkit myy Etsyssa',
-      'kirjainpulma generaattori Amazon KDP',
-      'kirjainsekoitus tyoarkit kaupallinen lisenssi',
-      'tulostettavat oikeinkirjoituspulmat Gumroadiin',
+      'anagrammi tehtävämoniste',
+      'kirjainsekoitus tehtävä',
+      'sanapulma tulostaa',
+      'tavaa sanat oikein',
     ],
     lsiKeywords: [
-      'digitaaliset oikeinkirjoitustuotteet yrittajille',
-      'tulostettavat kirjainjärjestely verkkoliiketoiminta',
-      'kirjainsekoitus generaattori kaupallinen kaytto',
+      'oikeinkirjoitus',
+      'sanasto',
+      'kirjaimet',
+      'vastaukset',
+      'alakoulu',
     ],
-    titleTag: 'Kirjainsekoitus Generaattori | LCS',
-    metaDescription: 'Luo kirjainsekoitus tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. $49 kertamaksu.',
+    titleTag: 'Sekoitetut kirjaimet tulostaa | Anagrammi-generaattori',
+    metaDescription: 'Luo tehtäviä sekoitetuilla kirjaimilla ja teemakuvilla. Automaattiset vastaukset, tulostettavat PDF:t. Kokeile ilmaiseksi.',
   },
 
   hero: {

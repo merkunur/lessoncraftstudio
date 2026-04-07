@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kuviosarjajuna generaattori luo myy',
+    primaryKeyword: 'ilmainen kuviotehtävä verkossa',
     secondaryKeywords: [
-      'kuviosarjajuna-työkirja-generaattori myyjille',
-      'luo toistuva kuvio -työkirjoja myyntiin',
-      'tulostettavat kuviosekvenssi-työkirjat kaupalliseen käyttöön',
-      'junakuvio-työkirja-generaattori KDP:lle',
+      'kuviotehtäviä ilmaiseksi verkossa',
+      'kuviogeneraattori ilman rekisteröitymistä',
+      'kokeile kuviotehtäviä ilmaiseksi',
+      'tulostettava kuviotehtävä ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'visuaalinen kuvion tunnistus tulostettavat Etsyyn',
-      'tekstivapaa junavaunu-kuvio-työkirjatyökalu',
-      'AB ABC -kuviosekvenssi-työkirja-generaattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'kuviojuna',
     ],
-    titleTag: 'Kuviosarjajuna-generaattori | Luo ja myy',
-    metaDescription: 'Luo kuviosarjajuna-työkirjoja viidellä kuviotyypillä, 11 temaattisella junavaunulla, säädettävällä vihjeluvulla ja automaattisilla ratkaisuavaimilla.',
+    titleTag: 'Ilmainen kuviotehtävä verkossa | Kokeile heti',
+    metaDescription: 'Tee kuviotehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

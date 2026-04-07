@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'monikielisten tulosteiden etu kielta 11x markkina',
+    primaryKeyword: 'monikielisten tulosteiden kilpailuetu',
     secondaryKeywords: [
-      'monikieliset tulosteet etu opas',
-      'monikieliset tulosteet etu 2026',
-      'monikieliset tulosteet etu Suomi',
+      'tulosteet useilla kielillä myynti',
+      'kieliversiot tulostettavia Etsy',
+      'monikielinen tulostestrategia',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      '11 kieliversiota tulosteet',
+      'lokalisointi tulosteliiketoiminta',
+      'kansainvälinen markkina tulosteet',
     ],
     titleTag: 'Monikielisten tulosteiden etu | LCS',
-    metaDescription: 'Hyodynna 11 kielta tulosteissa. Monikielisyys moninkertaistaa markkinan minimaalisella lisatyolla. Suomalaisen myyjann etu.',
+    metaDescription: 'Hyödynnä 11 kieltä tulosteissa. Monikielisyys moninkertaistaa markkinan minimaalisella lisätyöllä.',
   },
   hero: {
     title: 'Monikielisten tulosteiden etu: 11 kielta 11x markkina',

@@ -2,11 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'piilokuvat tyoarkit liiketoiminta',
-    secondaryKeywords: ['etsi esineet tehtavat myynti', 'piilokuva tulosteet Etsy', 'hidden object tyoarkit myy'],
-    lsiKeywords: ['visuaalinen haku tehtavat', 'tarkkaaavaisuus harjoitukset', 'etsi ja loeyda tulosteet'],
-    titleTag: 'Piilokuvat tyoarkit: liiketoimintaopas | LCS',
-    metaDescription: 'Rakenna liiketoiminta piilokuvatehtavilla. Lapset rakastavat etsimista ja vanhemmat rakastavat oppimista. Kilpailuton suomenkielinen niche.',
+    primaryKeyword: 'piilokuva-tehtävät tulostettavia liiketoiminta',
+    secondaryKeywords: [
+      'etsi esineet -tehtävät tulosteet myynti',
+      'piilotetut esineet tulostettavia Etsy',
+      'visuaalinen etsintä tehtäväarkit',
+    ],
+    lsiKeywords: [
+      'tarkkaavaisuus harjoitukset tulosteet',
+      'etsintätehtävät lapsille',
+      'visuaalinen hahmotus tehtävät',
+    ],
+    titleTag: 'Piilokuva-tehtävät liiketoimintana | LCS',
+    metaDescription: 'Rakenna liiketoiminta piilokuvatehtävillä. Lapset rakastavat etsimistä ja suomenkielinen niche on kilpailuton.',
   },
   hero: {
     title: 'Piilokuvatehtavat: liiketoiminta joka perustuu etsimisen iloon',

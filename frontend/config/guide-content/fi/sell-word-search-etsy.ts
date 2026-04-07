@@ -2,20 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'myy sananetsintäpulmia Etsyssä',
+    primaryKeyword: 'myy sananetsintäpulmia Etsyssä opas',
     secondaryKeywords: [
-      'Etsy sananetsintäpulmien myyntiopas',
-      'myy sanaristikkotyöarkkeja Etsyssä',
-      'sananetsintäpulmien Etsy-liiketoiminta',
-      'luo sananetsintöjä myyntiin Etsyssä',
+      'Etsy sananetsintäpulmien myyntistrategia',
+      'myy sanaristikkoja Etsyssä 11 kielellä',
+      'sananetsintäpulmien Etsy-liiketoiminta opas',
+      'luo sananetsintöjä myyntiin Etsy-kaupassa',
     ],
     lsiKeywords: [
-      'sananetsintäpulmien myynti digitaalisena latauksena',
-      'kielimultiplikaattori sananetsintöjen myyntiin',
-      'sananetsintäpulmien tuotepakettien rakentaminen',
+      'sananetsintä digitaalinen lataus Etsy',
+      'kielimultiplikaattori 11 kielimarkkina',
+      'kaupallinen lisenssi PDF-vienti',
+      'tuotepakettien rakentaminen teemat',
+      'Etsy KDP Gumroad sananetsintämyynti',
+      'listausoptimointi hakustrategia',
     ],
-    titleTag: 'Myy sananetsintäpulmia Etsyssä — Opas',
-    metaDescription: 'Myy sananetsintäpulmia Etsyssä. Listausoptimointi, kielimultiplikaattori, teemastrategia ja sananetsintäpulmien Etsy-kaupan rakentaminen 11 kielimarkkinoille.',
+    titleTag: 'Myy sananetsintäpulmia Etsyssä | Myyjän opas',
+    metaDescription: 'Myy sananetsintäpulmia Etsyssä. Listausoptimointi, kielimultiplikaattori 11 kielellä, teemastrategia ja sananetsintäkaupan skaalaaminen myyjille.',
   },
 
   hero: {

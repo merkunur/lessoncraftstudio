@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'aloita tulostettavien tuotteiden liiketoiminta',
+    primaryKeyword: 'aloita tulostettavien tuotteiden liiketoiminta opas',
     secondaryKeywords: [
-      'tulostettavien tuotteiden liiketoiminta aloittelijoille',
-      'myy tulostettavia tehtavia verkossa',
-      'aloita tulostettavien tehtavien kauppa',
-      'opas tulostettavien liiketoiminnan aloittamiseen',
+      'tulostettavien liiketoiminta aloittelijoille askel askeleelta',
+      'myy tulostettavia tehtäviä Etsyssä ja KDP:ssä',
+      'tulostettavien tuotteiden verkkokaupan perustaminen',
+      'passiivinen tulo tulostettavilla tuotteilla',
     ],
     lsiKeywords: [
       'digitaalinen lataus liiketoimintamalli',
-      'tehtavageneraattori myyjille',
-      'Etsy tulostettavien kaupan perustaminen',
-      'Amazon KDP aktiviteettikirjat',
-      'Gumroad tehtavat',
-      'kaupallinen lisenssi tulostettavat tyokalut',
+      'tehtävägeneraattori kaupallinen lisenssi',
+      'Etsy-kaupan perustaminen tulostettavat',
+      'Amazon KDP aktiviteettikirjat julkaisu',
+      'kevytyrittäjyys sivutyö verkossa',
+      'tulostettavien tuotteiden hinnoittelu',
     ],
-    titleTag: 'Aloita tulostettavien liiketoiminta — Taydellinen opas...',
-    metaDescription: 'Nain aloitat tulostettavien tuotteiden liiketoiminnan alusta alkaen. Askel askeleelta -opas Etsy-, Amazon KDP- ja Gumroad-myyjille tehtavageneraattoreilla.',
+    titleTag: 'Aloita tulostettavien liiketoiminta — Täysi opas',
+    metaDescription: 'Näin aloitat tulostettavien tuotteiden liiketoiminnan alusta alkaen. Askel askeleelta -opas Etsy-, Amazon KDP- ja Gumroad-myyjille generaattoreilla.',
   },
 
   hero: {

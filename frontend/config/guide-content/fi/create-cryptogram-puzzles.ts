@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kryptogrammipulmat opas kryptogrammipulmiä luo',
+    primaryKeyword: 'näin teet kryptogrammipulmia tulostettavia',
     secondaryKeywords: [
-      'luo kryptogrammipulmiä myyntiin',
-      'kuvasalaus-pulmageneraattori kaupallinen käyttö',
-      'tulostettavat kryptogrammi-työarkit Etsyyn ja KDP:hen',
-      'kuva-kirjain salauspalapelit vastausavaimella',
+      'kryptogrammigeneraattori kuvasalauksella',
+      'tulosta salauspalapelejä myyntiin opas',
+      'luo kryptogrammeja vastausavaimella PDF',
+      'kuvasalaus-pulmatehtävät Etsyyn ja KDP:hen',
     ],
     lsiKeywords: [
-      'kuvasalausmekanismi kuva-kirjain-kartoitus lause-koodaus pulmatekijä',
-      'kirjainten paljastus -liukusäädin nollasta kymmeneen vaikeusaste generaattori',
-      'automaattinen osoitus manuaalinen osoitus kuvasalaus kirjainlegende vastausavaingeneraattori',
-      'myy kryptogrammipulmiä Etsyssä',
-      'Amazon KDP kuvasalaus pulmakirjat',
-      'kaupallinen lisenssi kryptogrammi-työarkkityökalu',
+      'kuva-kirjain-kartoitus salaus',
+      'säädettävä vaikeustaso liukusäädin',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP pulmakirjat',
+      'automaattinen manuaalinen osoitustila',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Kryptogrammipulmat — Opas',
-    metaDescription: 'Luo kryptogrammipulmiä kuvasalauskoodauksella, säädettävällä vaikeustasolla, automaattisella osoitustilalla ja paikkakuntakohtaisilla aakkosilla.',
+    titleTag: 'Kryptogrammipulmia tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet kryptogrammipulmia tulostettavaksi kuvasalauksella. Säädettävä vaikeustaso, vastausavain ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

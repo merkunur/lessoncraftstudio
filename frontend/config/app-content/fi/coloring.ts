@@ -2,21 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'värityssivujen generaattori myy etsyssä kdp ssä luo värityssivuja',
+    primaryKeyword: 'luo värityskuvia tulostaa',
     secondaryKeywords: [
-      'värityssivujen generaattori myy Etsyssä ja KDP:ssä',
-      'luo värityssivuja Etsy-kauppaan',
-      'värityskirjat Amazon KDP -myyjille',
-      'tulostettavat värityssivut kaupallinen lisenssi',
-      'myy väritystulostettavia verkossa',
+      'värityskuvageneraattori',
+      'värityskuvia tehdä',
+      'omia värityskuvia luoda',
+      'väritettäviä kuvia luoda',
     ],
     lsiKeywords: [
-      'värityskirja niche Etsy KDP',
-      'myy värityssivuja kaupallisesti',
-      'tulostettavat väritystuotteet',
+      'ääriviivat',
+      'väritys',
+      'tulostettava',
+      'lapset',
+      'PDF',
     ],
-    titleTag: 'Värityssivujen Generaattori — Myy Etsyssä ja KDP:ssä | LCS',
-    metaDescription: 'Luo värityssivuja myyntiin Etsyssä ja KDP:ssä. Temaattiset kuvat, ääriviivamuunnos, 104 kokoelmaa, kaupallinen lisenssi. $49 kertamaksu.',
+    titleTag: 'Luo värityskuvia tulostaa | Väritysgeneraattori',
+    metaDescription: 'Luo värityskuvia 3 000+ teemakuvasta. Korkearesoluutioiset ääriviivat, tulostettavat PDF:t. Kokeile ilmaiseksi — myy Etsyssä & Amazon KDP:ssä.',
   },
 
   hero: {

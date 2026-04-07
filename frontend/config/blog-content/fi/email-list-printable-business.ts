@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sahkopostilista tulosteliiketoiminnalle rakenna tulostebisneksellesi',
+    primaryKeyword: 'sähköpostilista tulosteliiketoiminnalle',
     secondaryKeywords: [
-      'sahkopostilista tulosteet liiketoiminta opas',
-      'sahkopostilista tulosteet liiketoiminta 2026',
-      'sahkopostilista tulosteet liiketoiminta Suomi',
+      'lead magnet tulosteet strategia',
+      'sähköpostimarkkinointi tulostekauppa',
+      'uutiskirje tulosteliiketoiminta',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'automaatio sähköpostimarkkinointi',
+      'konversio sähköpostilista',
+      'asiakassuhde tulostekauppa',
     ],
-    titleTag: 'Sahkopostilista tulosteliiketoiminnalle | LCS',
-    metaDescription: 'Rakenna sahkopostilista tulostebisneksellesi. Lead magnet -strategiat, automaatio ja konversio.',
+    titleTag: 'Sähköpostilista tulosteliiketoiminnalle | LCS',
+    metaDescription: 'Rakenna sähköpostilista tulostekaupallesi. Lead magnet -strategiat, automaatio ja konversio-optimointi yrittäjälle.',
   },
   hero: {
     title: 'Sahkopostilista tulosteliiketoiminnalle: taydellinen opas',

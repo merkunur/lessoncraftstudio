@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'etsi ja laske -työlehtigeneraattori Etsyyn',
+    primaryKeyword: 'etsi ja laske tehtävä tulostaa',
     secondaryKeywords: [
-      'hae ja laske -työlehtigeneraattori Etsy-kauppaan',
-      'luo etsi ja laske -työlehtia Etsyyn',
-      'Etsi ja Laske -laskukirjat Amazon KDP:lle',
-      'etsi ja laske -tulosteet kaupallinen lisenssi',
+      'laske esineet tehtävä',
+      'montako on? tehtävä',
+      'laskuharjoitus esiopetus',
+      'etsi ja laske lapset',
     ],
     lsiKeywords: [
-      'Etsi ja Laske -tulosteniche',
-      'myy etsi ja laske -tulosteita kaupallisesti',
-      'visuaalisen laskemisen työlehituotteet',
+      'laskeminen',
+      'esiopetus',
+      'alakoulu',
+      'havainnointi',
+      'vastaukset',
     ],
-    titleTag: 'Etsi ja Laske -työlehtigeneraattori Etsyyn | LCS',
-    metaDescription: 'Luo etsi-ja-laske-työlehtia myytäväksi Etsyssä ja KDP:ssä. Piilotettu esine ja Kirjainetsintä -tilat, automaattiset vastausavaimet, 104 teemaa,. $49 kertamaksu.',
+    titleTag: 'Etsi ja laske tehtävä tulostaa | Laskuharjoitusgeneraattori',
+    metaDescription: 'Luo etsi-ja-laske tehtäviä, joissa lapset etsivät ja laskevat teemakuvia. Automaattiset vastaukset. Kokeile ilmaiseksi.',
   },
 
   hero: {

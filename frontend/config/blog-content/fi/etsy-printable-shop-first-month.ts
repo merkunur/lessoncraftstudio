@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy tulosteet kauppa ensimmainen kuukausi',
+    primaryKeyword: 'Etsy-kauppa tulosteille aloittaminen',
     secondaryKeywords: [
-      'Etsy kauppa aloittaminen tulosteet',
-      'ensimmainen kuukausi Etsy myyjana',
-      'Etsy aloittelijan opas tulosteet',
+      'ensimmäinen kuukausi Etsy-myyjänä',
+      'Etsy-kaupan perustaminen tulosteet',
+      'Etsy aloittelijan opas tulosteille',
     ],
     lsiKeywords: [
-      'digitaalinen myynti aloittaminen',
-      'Etsy kaupan perustaminen',
-      'tulosteet verkkokauppa',
+      'kevytyrittäjyys Etsy Suomi',
+      'ensimmäiset myynnit Etsy',
+      'tulostekauppa perustaminen',
     ],
-    titleTag: 'Etsy-kaupan ensimmainen kuukausi | LCS',
-    metaDescription: 'Avaa Etsy-kauppa tulosteille ja tee ensimmaiset myynnit 30 paivassa. Vaiheittainen opas suomalaiselle kevytyrittajalle.',
+    titleTag: 'Etsy-kaupan ensimmäinen kuukausi | LCS',
+    metaDescription: 'Avaa Etsy-kauppa tulosteille ja tee ensimmäiset myynnit 30 päivässä. Vaiheittainen opas suomalaiselle yrittäjälle.',
   },
   hero: {
     title: 'Etsy-kaupan ensimmainen kuukausi: vaiheittainen opas',

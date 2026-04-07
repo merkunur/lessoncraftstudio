@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo värityskuvia',
+    primaryKeyword: 'näin teet värityskuvia tulostettavia',
     secondaryKeywords: [
-      'värityskuva-tekijä kuvista',
-      'tulostettavat värityskuvat myyntiin',
-      'harmaasävygeneraattori värityskuville',
-      'mukautetut väritysarkit lapsille',
+      'värityskuvageneraattori temaattisilla kuvilla',
+      'tulosta värityskuvia myyntiin Etsyssä',
+      'luo värityskuvia harmaasävyviennillä PDF',
+      'värityskuvien tekeminen opas KDP:hen',
     ],
     lsiKeywords: [
-      'temaattiset värityskuvat Etsyyn',
-      'värityskirjasivut Amazon KDP:hen',
-      'vapaa kangas värityskuvasuunnittelija',
-      'muunna kuvat värityskuviksi',
-      'ryhmäväritysaktiiviteettiarkit',
-      'kaupallinen lisenssi väritystyökalu',
+      'vapaa kangas piirtäminen väritys',
+      '3 100+ temaattista kuvaa',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP värityskirjat',
+      'ryhmäväritys esiopetus alakoulu',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo värityskuvia temaattisista kuvista — Opas',
-    metaDescription: 'Luo värityskuvia 3 100+ temaattisesta kuvasta. Vapaa kangas harmaasävyviennillä, vapaalla piirtämisellä ja ryhmäauttajilla. Myy Etsyssä ja KDP:ssä.',
+    titleTag: 'Värityskuvia tulostettavia | Vaihe vaiheelta -opas',
+    metaDescription: 'Näin teet värityskuvia tulostettavaksi 3 100+ temaattisesta kuvasta. Vapaa kangas, harmaasävyvienti ja PDF myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

@@ -2,11 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kuvaristikko generaattori ristikkopalapelit kuvavihjeilla',
-    secondaryKeywords: ['ristikko kuvilla verkossa', 'tee kuvaristikko-tehtavia', 'ristikkopalapeli-generaattori kuvavihjeilla', 'sanasto-ristikko-generaattori kayttajille'],
-    lsiKeywords: ['kuvaristikkopalapeli kuvavihjeilla sanastonharjoitteluun', 'monikielinen ristikko-generaattori automaattisella vastausavaimella', 'mukautettu sanalista ristikko vihjeilla -generaattori'],
-    titleTag: 'Kuvaristikko-generaattori — Ristikkopalapelit kuvavihjeilla',
-    metaDescription: 'Tee kuvaristikkoja kuvavihjeilla 15x15-ruudukossa. 4 syotetapaa, automaattinen vastausavain taeytettynae. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    primaryKeyword: 'ilmainen sanaristikko-generaattori verkossa',
+    secondaryKeywords: [
+      'sanaristikko ilmaiseksi verkossa',
+      'ristikkogeneraattori ilman rekisteröitymistä',
+      'kokeile sanaristikkoa ilmaiseksi',
+      'tulostettava sanaristikko ilmainen kokeilu',
+    ],
+    lsiKeywords: [
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'ristikko',
+    ],
+    titleTag: 'Ilmainen sanaristikko verkossa | Ei rekisteröitymistä',
+    metaDescription: 'Tee sanaristikkoja ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

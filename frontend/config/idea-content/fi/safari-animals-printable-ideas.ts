@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Safarieläinten tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu safarieläinten tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Safarieläintulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Safarieläinaiheisia tulostettavia tehtäviä myyntiin. Villieläinniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'safarieläinten tulostettavat ideat myyntiin',
+    primaryKeyword: 'safarieläin tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'safarieläintyöarkit myyntiin',
-      'safarieläin tulostettava liiketoimintaideat',
-      'villieläinaktiviteettiarkit myyjille',
-      'myy safarieläintulostettavia Etsyssä',
+      'safarieläintehtäviä myydä Etsyssä',
+      'safarieläin tulostettavat niche KDP',
+      'villieläinteemaiset tehtävät myyntiin',
+      'eläintarha-aktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'villieläin opetukselliset työarkit',
-      'eläintarha-aiheiset aktiviteettisivut',
-      'afrikkalaisten eläinten tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'safari',
+      'villieläimet',
+      'eläimet',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

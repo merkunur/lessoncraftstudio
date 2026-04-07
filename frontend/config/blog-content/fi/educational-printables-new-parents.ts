@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'opetukselliset tulosteet uudet vanhemmat',
+    primaryKeyword: 'opetukselliset tulosteet vanhemmille',
     secondaryKeywords: [
-      'tuotevalikoima teemat',
-      'suomalaisen myyjann kilpailuedut',
-      'hinnoittelu paketointi',
+      'tulostettavia kehitystehtäviä pienille lapsille',
+      'varhaiskasvatuksen tulosteet myyntiin',
+      'oppimateriaalit tuoreille vanhemmille',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'neuvola-ikäisten tehtävät',
+      'varhaiskasvatus Suomi tulosteet',
+      'lapsen kehitys tulostettavia',
     ],
-    titleTag: 'Opetukselliset tulosteet uusille vanhemmille | LCS',
-    metaDescription: 'Tavoita uudet vanhemmat opetuksellisilla tulosteilla. Suomessa neuvolajarjestelma on maailman parhaita ja vanhemmat ovat aktiivisia.',
+    titleTag: 'Opetustulosteet uusille vanhemmille | LCS',
+    metaDescription: 'Tavoita uudet vanhemmat opetuksellisilla tulosteilla. Suomessa neuvolajärjestelmä tukee aktiivisia vanhempia.',
   },
   hero: {
     title: 'Opetukselliset tulosteet uusille vanhemmille',

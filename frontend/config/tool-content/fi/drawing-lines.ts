@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'tehtävägeneraattori viivanpiirtamistehtävägeneraattori viivaharjoitus viivojen',
+    primaryKeyword: 'ilmainen kirjoitusmotoriikka viivat verkossa',
     secondaryKeywords: [
-      'viivojen piirtämisen tehtävägeneraattori',
-      'näin teet viivanjäljitystehtäviä vaiheessa',
-      'avaa viivojen piirtämisen generaattori',
-      'aseta sivun asettelu tausta',
+      'viivaharjoitustehtäviä ilmaiseksi verkossa',
+      'viivageneraattori ilman rekisteröitymistä',
+      'kokeile viivaharjoitusta ilmaiseksi',
+      'tulostettava viivaharjoitus ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'hienomotoriset taidot tehtavatyokalu Etsyyn',
-      'SVG viivamalli tehtavageneraattori',
-      'kuvaparimatchaus viivanjaljitys tulostettavat',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'motoriikkatehtävä',
     ],
-    titleTag: 'Viivanpiirtamistehtävägeneraattori — Viivaharjoitus...',
-    metaDescription: 'Viivanpiirtamistehtävägeneraattori: tee viivaharjoitustehtäviä kahdeksalla SVG-mallilla, yli 3 100 kuvituksella 104 teemassa. Ilmainen kokeilu vesileimalla.',
+    titleTag: 'Ilmainen viivaharjoitus verkossa | Kokeile heti',
+    metaDescription: 'Tee viivaharjoitustehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

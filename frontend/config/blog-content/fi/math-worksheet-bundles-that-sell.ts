@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'matematiikkatyoarkkipaketit jotka myyvat',
+    primaryKeyword: 'matematiikkapaketti tulostettavia myyntiin',
     secondaryKeywords: [
-      'matematiikka tulosteet paketit Etsy',
-      'tyoarkkipaketti strategia',
-      'matikkapaketit digitaalinen myynti',
+      'matikkapaketit Etsy myydyimmät',
+      'matematiikan tehtäväpaketit myynti',
+      'työarkkipaketti strategia matematiikka',
     ],
     lsiKeywords: [
       'pakettihinnoittelu tulosteet',
-      'matematiikka harjoitusmateriaali',
-      'Etsy pakettimyynti',
+      'matematiikkaharjoitukset tulostettavia',
+      'Etsy pakettimyynti strategia',
     ],
-    titleTag: 'Matematiikkatyoarkkipaketit jotka myyvat | LCS',
-    metaDescription: 'Rakenna matematiikkatyoarkkipaketteja jotka myyvat Etsyssa. Paketointi, hinnoittelu ja sisaltoehdotukset. 35 minuuttia per paketti.',
+    titleTag: 'Matematiikkapaketit jotka myyvät | LCS',
+    metaDescription: 'Rakenna matematiikkatyöarkkipaketteja jotka myyvät Etsyssä. Paketointi, hinnoittelu ja sisältöehdotukset.',
   },
   hero: {
     title: 'Matematiikkatyoarkkipaketit jotka myyvat oikeasti',

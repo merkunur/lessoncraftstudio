@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Avaruusaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu avaruusaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Avaruustulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Avaruusaiheisia tulostettavia tehtäviä myyntiin. STEM-niche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'avaruusaiheiset tulostettavat ideat myyntiin',
+    primaryKeyword: 'avaruus tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'avaruusteemaiset työarkit myyntiin',
-      'avaruustulostettava liiketoimintaideat',
-      'avaruusaktiviteettiarkit myyjille',
-      'myy avaruustulostettavia Etsyssä',
+      'avaruustehtäviä myydä Etsyssä',
+      'avaruustulostettavat niche KDP',
+      'planeettateemaiset tehtävät myyntiin',
+      'aurinkokunta-aktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'tähtitieteelliset opetukselliset työarkit',
-      'planeetta- ja rakettiteemaiset aktiviteettisivut',
-      'aurinkokuntateemaiset tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'avaruus',
+      'planeetat',
+      'STEM',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

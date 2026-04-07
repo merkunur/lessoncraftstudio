@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsi erilainen tyoarkit myy',
+    primaryKeyword: 'etsi erilainen -tehtävät tulostettavia',
     secondaryKeywords: [
-      'tuotetyypit vaikeustasot',
-      'hinnoittelu paketointi',
-      'markkinointi avainsanat',
+      'poissulkeminen tulosteet myynti',
+      'mikä ei kuulu joukkoon tulostettavia',
+      'looginen erottelu tehtäväarkit Etsy',
     ],
     lsiKeywords: [
-      'luokittelu poissulkeminen',
-      'visuaalinen erottelu',
-      'kriittinen ajattelu tehtavat',
+      'kriittinen ajattelu tulosteet',
+      'luokittelu poissulkeminen tehtävät',
+      'visuaalinen erottelu lapsille',
     ],
-    titleTag: 'Etsi erilainen -tyoarkit: myyntiopas | LCS',
-    metaDescription: 'Myy etsi erilainen -tyoarkkeja. Poissulkemalla erottelu kehittaa loogista ajattelua. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Etsi erilainen -tulosteet myyntiin | LCS',
+    metaDescription: 'Myy etsi erilainen -tehtäviä. Looginen poissulkeminen kehittää kriittistä ajattelua ja on kysytty tuotekategoria.',
   },
   hero: {
     title: 'Etsi erilainen -tyoarkit: loogisen ajattelun myyntituote',

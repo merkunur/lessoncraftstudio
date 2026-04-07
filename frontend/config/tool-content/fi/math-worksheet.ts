@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'verkossa ssa ilmainen matematiikkatehtävägeneraattori luo matematiikkatehtäviä',
+    primaryKeyword: 'ilmainen matikkatehtävien generaattori verkossa',
     secondaryKeywords: [
-      'tee matematiikkatehtäviä ilmaiseksi verkossa',
-      'matematiikkaongelmien generaattori ilman rekisteröitymistä',
-      'ilmainen algebrapalapelitehtävägeneraattori',
-      'tulostettavat matematiikkatehtävät ilmainen kokeilu',
+      'matikkatehtäviä ilmaiseksi verkossa',
+      'matematiikkageneraattori ilman rekisteröitymistä',
+      'kokeile matikkatehtäviä ilmaiseksi',
+      'tulostettavat matikkatehtävät ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'ilmainen matematiikkatyökalu verkossa',
-      'pikainen tehtävägeneraattori ilman tiliä',
-      'kokeile ennen ostoa matematiikkatehtävät',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'matematiikka',
     ],
-    titleTag: 'Ilmainen Matematiikkatehtävägeneraattori Verkossa | LCS',
-    metaDescription: 'Luo matematiikkatehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen matikkatehtävien generaattori verkossa',
+    metaDescription: 'Luo matikkatehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

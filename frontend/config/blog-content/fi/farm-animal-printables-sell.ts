@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'maatila elain tulosteet myy',
+    primaryKeyword: 'maatilaeläintulosteet myyntiin',
     secondaryKeywords: [
-      'maatila elain tulosteet myy opas',
-      'maatila elain tulosteet myy 2026',
-      'maatila elain tulosteet myy Suomi',
+      'maatilateema tulostettavia lapsille',
+      'maatilaeläimet tehtäväarkit Etsy',
+      'navettaeläimet tulosteet myynti',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'maatila-aktiviteetit lapsille',
+      'eläintulosteet esikoulu',
+      'maaseutu teema tulostettavia',
     ],
-    titleTag: 'Maatilaelaintulosteet: myyntiopas | LCS',
-    metaDescription: 'Myy maatilaelaintulosteita. Maatilaelaimet ovat suosikkiteema pienille lapsille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Maatilaeläintulosteet myyntiin | LCS',
+    metaDescription: 'Myy maatilaeläintulosteita. Maatilaeläimet ovat suosikkiteema pienille lapsille ja myyvät ympärivuotisesti.',
   },
   hero: {
     title: 'Maatilaelaintulosteet: pienten lasten suosikkiteema',

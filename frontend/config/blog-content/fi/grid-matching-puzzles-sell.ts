@@ -2,11 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ruudukkoyhdistamispulmat myy',
-    secondaryKeywords: ['ruudukko palapeli tulosteet', 'grid matching tulosteet Etsy', 'looginen ajattelu tehtavat myy'],
-    lsiKeywords: ['ruudukkotehtavat lapsille', 'visuaalinen paattely tulosteet', 'koordinaatioharjoitukset'],
-    titleTag: 'Ruudukkoyhdistamispulmat: myyntiopas | LCS',
-    metaDescription: 'Myy ruudukkoyhdistamispulmia Etsyssa. Ainutlaatuinen tuote joka kehittaa loogista ajattelua. Matala kilpailu, kasvava kysynta.',
+    primaryKeyword: 'ruudukkoyhdistämispulmat tulostettavia',
+    secondaryKeywords: [
+      'ruudukkotehtävät tulosteet Etsy',
+      'looginen ajattelu pulmat myynti',
+      'visuaalinen päättely tulostettavia',
+    ],
+    lsiKeywords: [
+      'koordinaatioharjoitukset tulosteet',
+      'hahmontunnistus ruudukko',
+      'ongelmanratkaisu tehtäväarkit',
+    ],
+    titleTag: 'Ruudukkoyhdistämispulmat myyntiin | LCS',
+    metaDescription: 'Myy ruudukkoyhdistämispulmia Etsyssä. Ainutlaatuinen tuote joka kehittää loogista ajattelua. Matala kilpailu.',
   },
   hero: {
     title: 'Ruudukkoyhdistamispulmat: looginen ajattelu myyntituotteena',

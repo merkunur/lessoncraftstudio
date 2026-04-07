@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kryptogrammi generaattori',
+    primaryKeyword: 'salainen viesti tulostaa',
     secondaryKeywords: [
-      'kuvakryptogrammi pulmia myy Etsyssä',
-      'kryptogrammi työarkkien generaattori Amazon KDP',
-      'koodipulmien työlehdet kaupallinen lisenssi',
-      'tulostettavat kryptogrammit Gumroadiin',
+      'kryptogrammi-generaattori',
+      'salakoodi tulostaa',
+      'viestinpurkutehtävä',
+      'koodipeli tulostaa',
     ],
     lsiKeywords: [
-      'digitaaliset kuvakoodipulmat verkkokauppa',
-      'tulostettavat salakirjoituspulmat liiketoiminta',
-      'kryptogrammi generaattori kaupallinen käyttö',
+      'salakirjoitus',
+      'koodi',
+      'kirjaimet',
+      'vastaukset',
+      'alakoulu',
     ],
-    titleTag: 'Kryptogrammi Generaattori | Luo ja Myy Salakirjoituspulmia',
-    metaDescription: 'Luo kryptogrammi-työarkkeja myyntiin Etsyssä, KDP:ssä ja Gumroadissa. Kuvakoodaus, Kirjaimia Paljastettavaksi -vaikeussäätö, 104 teemaa. $49 kertamaksu.',
+    titleTag: 'Salaisia viestejä tulostaa | Kryptogrammi-generaattori',
+    metaDescription: 'Luo kryptogrammeja ja salaisia viestejä teemakuvilla ja automaattisilla vastauksilla. 300 DPI PDF, 11 kieltä. Kokeile ilmaiseksi.',
   },
 
   hero: {

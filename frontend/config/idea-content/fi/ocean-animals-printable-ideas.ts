@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Merieläin tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu merieläinaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja vinkit myyjille.',
+    titleTag: 'Merieläintulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Merieläinaiheisia tulostettavia tehtäviä myyntiin. Valtameriteemainen niche Etsyssä ja KDP:ssä.',
 
     primaryKeyword: 'merieläin tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'merieläintyöarkit myyntiin',
-      'meriaiheinen tulostettava liiketoiminta',
-      'merieläinaktiviteettiarkki myyjille',
-      'myy meritulostettavia Etsyssä',
+      'merieläintehtäviä myydä Etsyssä',
+      'merieläin tulostettavat niche KDP',
+      'valtameriteemaiset tehtävät myyntiin',
+      'vedenalaiset aktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'valtameriteemaiset opetukselliset työarkit',
-      'vedenalaiset eläinaktiviteetit lapsille',
-      'merelliset tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'meri',
+      'valtameri',
+      'eläimet',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

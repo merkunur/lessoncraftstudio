@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulo passiivinen tulosteilla totuus onko tulosteiden',
+    primaryKeyword: 'passiivinen tulo tulostettavilla totuus',
     secondaryKeywords: [
-      'passiivinen tulo tulosteet totuus opas',
-      'passiivinen tulo tulosteet totuus 2026',
-      'passiivinen tulo tulosteet totuus Suomi',
+      'onko tulostemyynti passiivista tuloa',
+      'realistiset tulot tulostekaupasta',
+      'sivutulo tulostettavilla tuotteilla',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'tulostekaupan ylläpito',
+      'todellinen työmäärä tulosteet',
+      'automatisoitu digitaalinen myynti',
     ],
     titleTag: 'Passiivinen tulo tulosteilla: totuus | LCS',
-    metaDescription: 'Onko tulosteiden myynti oikeasti passiivista tuloa? Realistinen analyysi tyomaarasta, tuloista ja yllapidosta. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    metaDescription: 'Onko tulosteiden myynti oikeasti passiivista tuloa? Realistinen analyysi työmäärästä, tuloista ja ylläpidosta.',
   },
   hero: {
     title: 'Passiivinen tulo tulosteilla: totuus hypeen takana',

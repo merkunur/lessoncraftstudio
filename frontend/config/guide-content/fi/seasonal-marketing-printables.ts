@@ -2,20 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kausiluonteinen markkinointi tulostettaville',
+    primaryKeyword: 'kausimarkkinointi tulostettavien myyjille',
     secondaryKeywords: [
-      'kausiluonteinen tulostettavien markkinointistrategia',
+      'tulostettavien kausimarkkinointistrategia opas',
       'juhlapyhien tulostettavien myyntiaikataulu',
       'kausivaihtelut tulostettavien liiketoiminnassa',
-      'juhlapyhien työarkkien markkinointi Etsy KDP',
+      'juhlapyhätuotteiden tuotanto ja listausaikataulu',
     ],
     lsiKeywords: [
-      'kausiluonteinen sisältökalenteri tulostettavien myyjille',
-      'juhlapyhätuotteiden listausaikataulu markkinapaikan optimointi',
-      'kysynnän ennustaminen kausittainen myyntipiikki',
+      'vuosittainen sisältökalenteri myyntihuiput',
+      'juhlapyhätuotteet kausittainen kysynnän ennuste',
+      'kaupallinen lisenssi tulostettavat tuotteet',
+      'ikivihreä vs kausiluonteinen tuote',
+      'Etsy KDP Gumroad kausimyynti',
+      'tuotannon aikataulutus ennakkolisaus',
     ],
-    titleTag: 'Kausiluonteinen markkinointi tulostettaville — Opas',
-    metaDescription: 'Kausiluonteinen markkinointistrategia tulostettavien myyjille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Kausimarkkinointi tulostettaville | Strategiaopas',
+    metaDescription: 'Kausimarkkinointistrategia tulostettavien myyjille. Vuosittainen myyntikalenteri, tuotannon aikataulutus ja juhlapyhästrategiat Etsyyn ja KDP:hen.',
   },
 
   hero: {

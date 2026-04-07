@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulosteiden hinnoittelu etsyssa hinnoittelustrategia etsy',
+    primaryKeyword: 'tulosteiden hinnoittelu Etsyssä',
     secondaryKeywords: [
-      'Etsy tulosteet hinnoittelustrategia opas',
-      'Etsy tulosteet hinnoittelustrategia 2026',
-      'Etsy tulosteet hinnoittelustrategia Suomi',
+      'Etsy-tulosteiden hinnoittelustrategia',
+      'digitaalisten tuotteiden hinnoittelu',
+      'pakettihinnoittelu tulosteet Etsy',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'psykologinen hinnoittelu',
+      'hintaportaat tulosteet',
+      'yksittäinen vs paketti Etsy',
     ],
-    titleTag: 'Tulosteiden hinnoittelu Etsyssa | LCS',
-    metaDescription: 'Optimoi tulosteidesi hinnoittelu Etsyssa. Yksittaiset, paketit ja premium-tasot. Psykologinen hinnoittelu.',
+    titleTag: 'Tulosteiden hinnoittelu Etsyssä | LCS',
+    metaDescription: 'Optimoi tulosteidesi hinnoittelu Etsyssä. Yksittäiset, paketit ja premium-tasot psykologisella hinnoittelulla.',
   },
   hero: {
     title: 'Tulosteiden hinnoittelustrategia Etsyssa',

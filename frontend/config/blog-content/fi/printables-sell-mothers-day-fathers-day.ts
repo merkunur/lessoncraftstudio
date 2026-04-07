@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulosteet myy aitienpaiva isanpaiva',
+    primaryKeyword: 'äitienpäivä isänpäivä tulosteet myyntiin',
     secondaryKeywords: [
-      'tulosteet myy aitienpaiva isanpaiva opas',
-      'tulosteet myy aitienpaiva isanpaiva 2026',
-      'tulosteet myy aitienpaiva isanpaiva Suomi',
+      'äitienpäivätulosteet sesonkimyynti',
+      'isänpäivä tulostettavia Etsy',
+      'vanhempienpäivä tulosteet strategia',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'äitienpäivä toukokuu Suomi',
+      'isänpäivä marraskuu Suomi',
+      'lahja-aktiviteetit tulostettavia',
     ],
-    titleTag: 'Aitienpaiva- ja isanpaiva-tulosteet | LCS',
-    metaDescription: 'Myy tulosteita aitien- ja isanpaivaksi. Suomessa aitienpaiva on toukokuussa ja isanpaiva marraskuussa. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Äitienpäivä- ja isänpäivätulosteet | LCS',
+    metaDescription: 'Myy tulosteita äitien- ja isänpäiväksi. Suomessa äitienpäivä on toukokuussa ja isänpäivä marraskuussa.',
   },
   hero: {
     title: 'Aitienpaiva- ja isanpaiva-tulosteet: tunnepitoiset myynnit',

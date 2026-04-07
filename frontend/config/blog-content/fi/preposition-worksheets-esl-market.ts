@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'prepositiotyoarkkeja prepositiotyoarkit markkinoilla',
+    primaryKeyword: 'paikkasanatehtävät S2-markkinoille',
     secondaryKeywords: [
-      'prepositioharjoitukset suomi toisena kielena',
-      'paikkasanat tyoarkit myynti',
-      'S2 materiaalit Etsy',
+      'prepositiot tulostettavia S2-opetus',
+      'suomen paikallissijat tehtäväarkit',
+      'S2-kielioppiharjoitukset tulosteet',
     ],
     lsiKeywords: [
-      'kielioppi harjoitukset maahanmuuttajat',
       'suomen kielen opetus tulosteet',
-      'paikallissijat harjoittelu',
+      'maahanmuuttajien kielioppi',
+      'paikallissijat harjoittelu tulostettavia',
     ],
-    titleTag: 'Prepositiotyoarkit S2-markkinoilla | LCS',
-    metaDescription: 'Myy prepositiotyoarkkeja S2-oppijoille. Yli 400 000 maahanmuuttajaa oppii suomea. Kilpailuton niche valtavalla potentiaalilla.',
+    titleTag: 'Paikkasanatehtävät S2-markkinoille | LCS',
+    metaDescription: 'Myy prepositio- ja paikallissijatehtäviä S2-oppijoille. Yli 400 000 maahanmuuttajaa oppii suomea. Kilpailuton niche.',
   },
   hero: {
     title: 'Prepositiotyoarkit: S2-markkinan suuri mahdollisuus',

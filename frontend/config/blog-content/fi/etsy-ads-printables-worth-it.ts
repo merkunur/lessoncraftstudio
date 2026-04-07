@@ -2,16 +2,16 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy mainokset tulosteet kannattaako',
+    primaryKeyword: 'Etsy-mainokset tulosteille kannattavuus',
     secondaryKeywords: [
-      'Etsy mainokset tulosteet kannattaako opas',
-      'Etsy mainokset tulosteet kannattaako 2026',
-      'Etsy mainokset tulosteet kannattaako Suomi',
+      'Etsy Ads tulostemyyjille',
+      'mainosbudjetti tulosteet Etsy',
+      'kannattaako mainostaa Etsyssä tulosteet',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'ROI Etsy-mainokset',
+      'klikkaushinta tulosteet',
+      'orgaaninen vs maksettu Etsy',
     ],
     titleTag: 'Etsy-mainokset tulosteille: kannattaako? | LCS',
     metaDescription: 'Ovatko Etsy-mainokset kannattavia tulosteille? ROI-analyysi, budjettiehdotukset ja milloin mainostaa.',

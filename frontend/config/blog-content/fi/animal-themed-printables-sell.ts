@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'elainaihe tulosteet myy',
+    primaryKeyword: 'eläinaiheisia tulostettavia myyntiin',
     secondaryKeywords: [
-      'elainaihe tulosteet myy opas',
-      'elainaihe tulosteet myy 2026',
-      'elainaihe tulosteet myy Suomi',
+      'myy eläintehtäviä Etsyssä',
+      'eläinkuvat tulostettavat tehtävät',
+      'eläinteema tulosteet liiketoiminta',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'lemmikkieläimet tehtävät lapsille',
+      'villieläimet tulostettavia',
+      'eläinkuvat generaattori',
     ],
-    titleTag: 'Elainaihe-tulosteet: myyntiopas | LCS',
-    metaDescription: 'Myy elainaiheisia tulosteita. Elaimet ovat lasten suosikkiteema numero yksi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Eläinaiheisia tulostettavia myyntiin | LCS',
+    metaDescription: 'Eläinteema on lasten suosikkikategoria. Näin luot ja myyt eläinaiheisia tulostettavia Etsyssä ja KDP:ssä.',
   },
   hero: {
     title: 'Elainaihe-tulosteet: lasten suosikkiteeman myynti',

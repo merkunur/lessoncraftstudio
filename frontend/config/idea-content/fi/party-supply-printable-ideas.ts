@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Juhlataviketulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu tulostettaviin juhlatarvikeisiin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja vinkit myyjille.',
+    titleTag: 'Juhlatarviketulostettavat ideat | Myy Etsyssä',
+    metaDescription: 'Tulostettavia juhlatarvikkeita myyntiin. Syntymäpäivä- ja juhlaniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'tulostettaviin juhlatarvikeisiin myyntiin myyjille juhlataviketulostettavat ideat nicheopas',
+    primaryKeyword: 'juhlatarvike tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'tulostettavat juhlatarvikkeet myyntiin',
-      'juhlateemainen tulostettava liiketoiminta',
-      'juhla-aktiviteettiarkki myyjille',
-      'myy juhlatulostettavia verkossa',
+      'juhlatehtäviä myydä Etsyssä',
+      'juhlatarviketulostettavat niche KDP',
+      'syntymäpäivätulostettavat myyntiin',
+      'juhlapelien tulostettavat ideat',
     ],
     lsiKeywords: [
-      'syntymäpäiväjuhla tulostettavat aktiviteetit',
-      'juhlapeli tulostettavat resurssit',
-      'tapahtuma-aktiviteettien tulostettavat materiaalit',
+      'Etsy',
+      'KDP',
+      'juhla',
+      'syntymäpäivä',
+      'tulostettavat',
+      'juhlatarvikkeet',
+      'niche',
     ],
   },
   hero: {

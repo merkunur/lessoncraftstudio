@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Erityisopetuksen tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu erityisopetuksen tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Erityisopetustulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Erityisopetuksen tulostettavia tehtäviä myyntiin. Kasvava erikoisniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'erityisopetuksen tulostettavat ideat myyntiin',
+    primaryKeyword: 'erityisopetus tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'erityisopetuksen työarkit myyntiin',
-      'erityisopetustulostettava liiketoimintaideat',
-      'mukautetut aktiviteettiarkit myyjille',
-      'myy erityisopetustulostettavia Gumroadilla',
+      'erityisopetuksen tehtäviä myydä Etsyssä',
+      'erityisopetustulostettavat niche KDP',
+      'mukautetut tehtävät myyntiin',
+      'eriyttävät tulostettavat aktiviteetit',
     ],
     lsiKeywords: [
-      'esteettömät opetukselliset työarkit',
-      'mukautetut oppimisaktiviteettisivut',
-      'eriyttävät tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'erityisopetus',
+      'eriyttäminen',
+      'tulostettavat',
+      'esteettömyys',
+      'niche',
     ],
   },
   hero: {

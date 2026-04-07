@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'puuttuvat palat -palapetigeneraattori KDP-kirjoihin',
+    primaryKeyword: 'palapeli puuttuvat palat tulostaa',
     secondaryKeywords: [
-      'puuttuvat palat -palapetigeneraattori KDP-aktiviteettikirjoihin',
-      'luo puuttuvien palojen palapeleja Etsyyn',
-      'visuaaliset palapeli-työlehdet Amazon KDP -myyjille',
-      'puuttuvat palat -tulosteet kaupallinen lisenssi',
+      'mikä pala sopii tehtävä',
+      'palapeli tehtävämoniste',
+      'visuaalinen logiikka tehtävä',
+      'palapelipalat etsiä',
     ],
     lsiKeywords: [
-      'visuaalisen hahmottamisen palapeliniche',
-      'KDP-aktiviteettikirjaliiketoiminta',
-      'myy havaintotyölehtia verkossa',
+      'hahmottaminen',
+      'visuaalinen',
+      'logiikka',
+      'esiopetus',
+      'vastaukset',
     ],
-    titleTag: 'Puuttuvat Palat -palapetigeneraattori KDP-kirjoihin | LCS',
-    metaDescription: 'Luo puuttuvat palat -palapeleja myytäväksi Etsyssä ja KDP:ssä. Visuaalinen havaintomuoto, vastausavaimet, 104 teemaa, kaupallinen lisenssi. $49 kertamaksu.',
+    titleTag: 'Palapeli puuttuvat palat tulostaa | Visuaalinen logiikka',
+    metaDescription: 'Luo puuttuvat palat -tehtäviä teemakuvilla ja automaattisilla vastauksilla. 300 DPI PDF tulostettavat. Kokeile ilmaiseksi.',
   },
 
   hero: {

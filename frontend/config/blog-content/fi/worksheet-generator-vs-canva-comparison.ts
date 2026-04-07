@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tyoarkit generaattori vai Canva vertailu',
+    primaryKeyword: 'tehtäväarkkigeneraattori vai Canva',
     secondaryKeywords: [
-      'vaihe sisallon luominen generaattorilla',
-      'vaihe muotoilu paketointi',
-      'vaihe ilmoituksen luominen julkaisu',
+      'generaattori vs Canva tulosteet vertailu',
+      'paras työkalu tulosteiden luomiseen',
+      'Canva vai generaattori tehtäväarkit',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'tulosteiden tuotantotyökalut',
+      'automaattinen sisällönluonti tulosteet',
+      'Canva tulosteiden suunnittelu',
     ],
-    titleTag: 'Generaattori vai Canva tyoarkeille? | LCS',
-    metaDescription: 'Vertaile tyoarkkigeneraattoria ja Canvaa. Kumpi sopii paremmin tulosteliiketoimintaan? Nopeus, laatu ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Generaattori vai Canva tulosteille? | LCS',
+    metaDescription: 'Vertaile tehtäväarkkigeneraattoria ja Canvaa tulosteiden luomisessa. Kumpi on nopeampi ja tuottavampi ratkaisu.',
   },
   hero: {
     title: 'Tyoarkkigeneraattori vai Canva: kumpi sopii sinulle?',

@@ -224,9 +224,9 @@ const guidesContent: Record<string, {
   },
   fi: {
     heroTitle: 'Oppaat',
-    heroDescription: 'Vaiheittaiset oppaat tulostettavien luomiseen ja myyntiin. Alustaohjeet, luomisoppaat ja liiketoimintastrategiat.',
+    heroDescription: 'Vaihe vaiheelta -oppaat tulostettavien luomiseen ja myyntiin. Alustaohjeet, luomisoppaat ja liiketoimintastrategiat.',
     metaTitle: 'Oppaat | Luo ja myy tulostettavia | LessonCraftStudio',
-    metaDescription: '65 vaiheittaista opasta tulostettavien luomiseen ja myyntiin. Alustaohjeet, luomisoppaat ja liiketoimintastrategiat Etsyyn, KDP:hen ja TPT:hen.',
+    metaDescription: '65 vaihe vaiheelta -opasta tulostettavien luomiseen ja myyntiin. Alustaohjeet, luomisoppaat ja liiketoimintastrategiat Etsyyn & KDP:hen.',
     ctaTitle: 'Aloita luominen tänään',
     ctaDescription: 'Kokeile kaikkia 33 generaattoria ilmaiseksi vesileimalla. Ei rekisteröitymistä.',
     ctaButton: 'Kokeile generaattoreita ilmaiseksi',

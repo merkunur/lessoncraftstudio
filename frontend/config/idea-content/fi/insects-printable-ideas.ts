@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Hyönteisaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu hyönteisaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja vinkit myyjille.',
+    titleTag: 'Hyönteistulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Hyönteisaiheisia tulostettavia tehtäviä myyntiin. Luonnontieteen niche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'myyntiin hyönteisaiheiset tulostettavat ideat nicheopas myyjille tutustu',
+    primaryKeyword: 'hyönteis tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'hyönteistyöarkit myyntiin',
-      'hyönteisteemainen tulostettava liiketoiminta',
-      'hyönteisaktiviteettiarkki myyjille',
-      'myy hyönteistulostettavia Etsyssä',
+      'hyönteistehtäviä myydä Etsyssä',
+      'hyönteistulostettavat niche KDP',
+      'ötökkäteemaiset tehtävät myyntiin',
+      'perhos- ja mehiläistulostettavat',
     ],
     lsiKeywords: [
-      'ötökkäteemaiset opetukselliset työarkit',
-      'perhos- ja mehiläisaktiviteetit lapsille',
-      'luonnontieteelliset hyönteiset tulostettavat',
+      'Etsy',
+      'KDP',
+      'hyönteiset',
+      'luonto',
+      'tulostettavat',
+      'ötökät',
+      'niche',
     ],
   },
   hero: {

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'myy vahennyslaskutehtavia verkossa 2026',
+    primaryKeyword: 'myy vähennyslaskutehtäviä verkossa',
     secondaryKeywords: [
-      'vahennyslasku tyoarkit myynti',
-      'matematiikka tulosteet verkkokauppa',
-      'vahennyslaskuharjoitukset Etsy',
+      'vähennyslaskutyöarkit myynti Etsy',
+      'matematiikka tulostettavia verkkokauppa',
+      'vähennyslaskuharjoitukset tulostettavia',
     ],
     lsiKeywords: [
       'peruslaskutoimitukset tulosteet',
-      'matematiikan harjoittelu kotona',
-      'digitaaliset lataukset lapsille',
+      'matematiikan harjoittelu tulostettavia',
+      'digitaaliset lataukset matematiikka',
     ],
-    titleTag: 'Myy vahennyslaskutyoarkkeja verkossa | LCS',
-    metaDescription: 'Rakenna kannattava vahennyslaskutyoarkkien verkkomyynti. Tuotevalikoima, hinnoittelu ja markkinointi Etsyssa ja Gumroadissa 2026.',
+    titleTag: 'Myy vähennyslaskutehtäviä verkossa | LCS',
+    metaDescription: 'Rakenna kannattava vähennyslaskutyöarkkien verkkomyynti. Tuotevalikoima, hinnoittelu ja markkinointi.',
   },
   hero: {
     title: 'Myy vahennyslaskutyoarkkeja verkossa: taydellinen opas',

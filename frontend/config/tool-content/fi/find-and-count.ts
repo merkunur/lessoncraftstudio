@@ -2,11 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'etsi laske generaattori hakutehtava hakutehtavia',
-    secondaryKeywords: ['etsi ja laske -tehtavageneraattori myyjille', 'tee haku- ja laskemistehtavia myyntiin', 'tulostettava hakuaktiviteetti-generaattori kaupallinen kaytto', 'piilotetut esineet -tehtavageneraattori KDP ja Etsy'],
-    lsiKeywords: ['piilotetut esineet kirjainhaku kaksoistila-aktiviteetti-generaattori', 'nelja tehtyvatyyppia ymparoi nelio rasti laske sekoitettava tehtava', 'kielikohtainen aakkosto korostuskirjaimet hakugeneraattori'],
-    titleTag: 'Etsi ja laske -generaattori — Hakutehtava-generaattori | LCS',
-    metaDescription: 'Tee hakutehtavia Piilotetut esineet- ja Kirjainhaku-tiloilla, nelja tehtyvatyyppia, kielikohtaiset aakkostot,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    primaryKeyword: 'ilmainen etsi ja laske -tehtävä verkossa',
+    secondaryKeywords: [
+      'etsi ja laske ilmaiseksi verkossa',
+      'hakutehtävägeneraattori ilman rekisteröitymistä',
+      'kokeile etsi ja laske ilmaiseksi',
+      'tulostettava etsi ja laske ilmainen kokeilu',
+    ],
+    lsiKeywords: [
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'hakutehtävä',
+    ],
+    titleTag: 'Ilmainen etsi ja laske -tehtävä verkossa',
+    metaDescription: 'Tee etsi ja laske -tehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

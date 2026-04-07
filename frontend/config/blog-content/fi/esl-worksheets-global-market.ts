@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'S2 tyoarkit globaali markkina',
+    primaryKeyword: 'S2-materiaalit tulostettavia myyntiin',
     secondaryKeywords: [
-      'S2 tyoarkit globaali markkina opas',
-      'S2 tyoarkit globaali markkina 2026',
-      'S2 tyoarkit globaali markkina Suomi',
+      'suomi toisena kielenä tulosteet',
+      'kielenoppimisen työarkit myynti',
+      'S2-tehtävät tulostettavia Etsy',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'maahanmuuttajien kielenopetus',
+      'suomen kielen oppiminen tulosteet',
+      'kotoutuminen materiaalit',
     ],
-    titleTag: 'S2-tyoarkit: globaali markkina | LCS',
-    metaDescription: 'S2-tyoarkit ovat globaali markkina. Suomessa 400 000+ oppijaa ja maailmalla miljoonia kielenoppijoita. Kilpailuton niche.',
+    titleTag: 'S2-tulosteet: globaali markkina | LCS',
+    metaDescription: 'S2-tulosteet ovat kasvava markkina. Yli 400 000 suomenoppijaa ja miljoonia kielenoppijoita maailmalla.',
   },
   hero: {
     title: 'S2-tyoarkit: globaali markkina suomalaiselle myyjalle',

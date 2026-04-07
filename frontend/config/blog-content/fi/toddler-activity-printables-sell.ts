@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'taapero aktiviteetti tulosteet myy',
+    primaryKeyword: 'taaperoaktiviteetit tulostettavia myyntiin',
     secondaryKeywords: [
-      'taapero aktiviteetti tulosteet myy opas',
-      'taapero aktiviteetti tulosteet myy 2026',
-      'taapero aktiviteetti tulosteet myy Suomi',
+      'pienten lasten tulosteet myynti Etsy',
+      'taaperoiden tehtäväarkit tulostettavia',
+      'varhaiskasvatuksen tulosteet myynti',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'alle 3-vuotiaat tulosteet',
+      'taaperotoiminta tulostettavia',
+      'varhaiskasvatus kehitys tulosteet',
     ],
-    titleTag: 'Taaperoaktiviteetti-tulosteet | LCS',
-    metaDescription: 'Myy taaperoaktiviteetti-tulosteita. Suomessa kotihoidon tuki mahdollistaa pitkaan kotona olon ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Taapero-aktiviteetit tulosteina | LCS',
+    metaDescription: 'Myy tulostettavia aktiviteetteja taaperoiden vanhemmille. Kasvava markkina jossa vanhemmat etsivät kehittäviä tehtäviä.',
   },
   hero: {
     title: 'Taaperoaktiviteetti-tulosteet: kotipaivien pelastaja',

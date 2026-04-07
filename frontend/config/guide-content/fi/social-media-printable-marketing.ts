@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sosiaalinen media tulostettavien markkinointi',
-    secondaryKeywords: ['sosiaalisen median markkinointi tulostettaville tuotteille', 'tulostettavien tuotteiden markkinointi Instagram TikTok', 'sosiaalisen median strategia Etsy-myyjille', 'visuaalinen markkinointi tulostettaville'],
-    lsiKeywords: ['sosiaalisen median sisaltostrategia tulostettavien myyjille', 'visuaalinen tuotemarkkinointi digitaaliset lataukset', 'orgaaninen sosiaalinen media pienyrittajille'],
-    titleTag: 'Sosiaalisen median markkinointi tulostettaville — Opas',
-    metaDescription: 'Sosiaalisen median markkinointistrategia tulostettavien myyjille. Instagram, TikTok, Facebook ja Pinterest-taktiikat liikenteen ohjaamiseen Etsy-, KDP- ja.',
+    primaryKeyword: 'sosiaalisen median markkinointi tulostettaville',
+    secondaryKeywords: [
+      'some-strategia tulostettavien myyjille opas',
+      'tulostettavien markkinointi Instagram TikTok',
+      'sosiaalisen median liikenne Etsy-kauppaan',
+      'visuaalinen some-markkinointi tulostettaville',
+    ],
+    lsiKeywords: [
+      'Pinterest Instagram TikTok Facebook',
+      'pin-optimointi visuaalinen sisältöstrategia',
+      'kaupallinen lisenssi tulostettavat tuotteet',
+      'orgaaninen näkyvyys sisältökalenteri',
+      'Etsy KDP Gumroad liikenneohjaus',
+      'videosisältö tuote-esittely brändäys',
+    ],
+    titleTag: 'Some-markkinointi tulostettaville | Strategiaopas',
+    metaDescription: 'Sosiaalisen median markkinointistrategia tulostettavien myyjille. Pinterest, Instagram, TikTok ja Facebook liikenteen ohjaamiseen myyntikanaville.',
   },
   hero: {
     title: 'Sosiaalisen median markkinointi tulostettavien myyjille',

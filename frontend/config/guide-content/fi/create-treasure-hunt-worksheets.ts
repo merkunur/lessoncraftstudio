@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'aarteenetsintä-työarkit',
+    primaryKeyword: 'näin teet aarteenetsintätehtäviä tulostettavia',
     secondaryKeywords: [
-      'luo aarteenetsintä-työarkkeja myyntiin',
-      'aarteenetsintä-työarkkigeneraattori kaupallinen käyttö',
-      'tulostettava aarteenetsintä-työkalu Etsyyn ja KDP:hen',
-      'koordinaattiruudukko reitinseuranta-työarkit vastauksineen',
+      'aarteenetsintägeneraattori koordinaattiruudukolla',
+      'tulosta reitinseurantatehtäviä myyntiin',
+      'luo aarteenetsintäarkkeja vastausavaimella PDF',
+      'aarteenetsintätehtävien tekeminen opas lapsille',
     ],
     lsiKeywords: [
-      'kaksi suuntatyyppiä perus kardinaali koordinaattiruudukko työarkkityökalu',
-      'viisi kertaa viisi kirjain-numero ruudukko suuntavihjeet reitinseurantageneraattori',
-      'automaattinen vastausavain vaaleankeltainen korostettu aarresolu kaksoiskanvas generaattori',
-      'myy aarteenetsintä-työarkkeja Etsyssä',
-      'Amazon KDP suunnistustehtäväkirjat',
-      'kaupallinen lisenssi aarteenetsintätyökalu',
+      '5x5 koordinaattiruudukko suuntaliikkeet',
+      'esiopetus alakoulu suunnistus',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP suunnistustehtäväkirja',
+      'temaattiset maamerkit vastausavain',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Aarteenetsintä-työarkit — Opas',
-    metaDescription: 'Luo aarteenetsintä-työarkkeja 5x5-ruudukolla suuntaliikkeillä, temaattisilla maamerkeillä ja automaattisella vastausavaimella.',
+    titleTag: 'Aarteenetsintätehtäviä tulostettavia | Opas',
+    metaDescription: 'Näin teet aarteenetsintätehtäviä tulostettavaksi. 5x5-ruudukko, suuntaliikkeet, vastausavaimet ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

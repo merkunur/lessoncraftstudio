@@ -823,9 +823,9 @@ const pricingContent: Record<string, {
     catalogSubtitle: 'Kjop individuelle apper for $49 eller spar med en kategoripakke for $149.',
   },
   fi: {
-    metaTitle: 'Hinnat - Ammattimaiset tulostusgeneraattorit | LessonCraftStudio',
-    metaDescription: 'Kokeile kaikkia 33 generaattoria ilmaiseksi vesileimalla. Yksittäiset sovellukset 49 $, paketit 149 $. Kertaosto, kaupallinen lisenssi mukana.',
-    keywords: ['tulostusgeneraattori hinnat', 'kaupallinen lisenssi tulosteet', 'Etsy tulostustyökalut hinta', 'tehtävägeneraattori osta'],
+    metaTitle: 'Hinnat | Tehtävägeneraattorit alkaen 49 $ — Kertamaksu',
+    metaDescription: 'Kokeile kaikkia 33 generaattoria ilmaiseksi vesileimalla. Yksittäiset sovellukset 49 $, kategoriapakettit alkaen 99 $. Kertamaksu, kaupallinen lisenssi, ei tilausta.',
+    keywords: ['tehtävägeneraattori hinnat', 'kaupallinen lisenssi tulosteet', 'Etsy tulostustyökalut hinta', 'tehtävägeneraattori osta', 'kertamaksu'],
     heroBadge: '33 generaattoria | 6 pakettia | Kertaosto',
     heroTitle: 'Selkeät hinnat. Ei tilauksia.',
     heroSubtitle: 'Kokeile jokaista generaattoria ilmaiseksi vesileimalla. Kun olet valmis, avaa puhtaat viennit kertaostolla.',

@@ -2,20 +2,23 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'prepositiot tyoarkki generaattori luo',
+    primaryKeyword: 'tilakäsitteet tehtävä tulostaa',
     secondaryKeywords: [
-      'tulostettavat prepositiot tyoarkit Etsy myyjille',
-      'paikkasanat tyoarkki generaattori KDP julkaisijoille',
-      'prepositiot aktiviteetit myy Gumroadissa',
-      'prepositiot tulostettavat kaupallinen lisenssi',
+      'prepositiot harjoituksia',
+      'päällä alla vieressä tehtävä',
+      'sijaintitehtävä',
+      'suuntakäsitteet esiopetus',
     ],
     lsiKeywords: [
-      'digitaaliset paikkasanasto tuotteet verkkoliiketoiminta',
-      'tulostettavat prepositiot tyoarkit business',
-      'kaupallinen kaytto kielityoarkki generaattori',
+      'tilakäsitteet',
+      'sijainti',
+      'päällä',
+      'alla',
+      'esiopetus',
+      '1. luokka',
     ],
-    titleTag: 'Prepositiot Tyoarkki Generaattori | Luo Tulostettavia',
-    metaDescription: 'Luo prepositiot tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. 8 paikkasanaa, tayttoharjoitukset ja monivalinta. $49 kertamaksu.',
+    titleTag: 'Tilakäsitteet tehtävä tulostaa | Prepositiogeneraattori',
+    metaDescription: 'Luo tilakäsitteiden ja prepositioiden tehtäviä teemakuvilla. Automaattiset vastaukset, 11 kieltä. Kokeile ilmaiseksi.',
   },
 
   hero: {

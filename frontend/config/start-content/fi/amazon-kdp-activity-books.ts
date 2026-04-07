@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'myy aktiviteettikirjoja amazon kdp ssa opas myyjille aktiviteettikirjojen',
+    primaryKeyword: 'julkaise aktiviteettikirjoja Amazon KDP:ssä opas',
     secondaryKeywords: [
-      'Amazon KDP aktiviteettikirjat',
-      'julkaise pulmatehtavakirjoja KDP:ssa',
-      'KDP aktiviteettikirjaliiketoiminta',
-      'julkaise aktiviteettikirjoja Amazonissa',
+      'KDP-julkaisu aloittelijoille aktiviteettikirjat',
+      'myy pulmakirjoja Amazonissa KDP-liiketoiminta',
+      'Amazon KDP tehtäväkirjojen julkaisuopas',
+      'print-on-demand aktiviteettikirjat tulot',
     ],
     lsiKeywords: [
-      'Kindle Direct Publishing aktiviteettikirjat',
-      'KDP sisasivujen muotoilu tehtavakirjat',
+      'Kindle Direct Publishing sisäsivujen muotoilu',
       'KDP kansien suunnittelu aktiviteettikirjat',
-      'Amazon taustaavainsanat pulmatehtavakirjat',
-      'KDP rojaltilaskenta aktiviteettikirjat',
-      'print-on-demand aktiviteettikirjaliiketoiminta',
+      'Amazon taustaavainsanat pulmakirjat',
+      'KDP rojaltilaskenta hinnoittelu',
+      'tehtävägeneraattori KDP-sisäsivut',
+      'passiivinen tulo KDP-julkaisu',
     ],
-    titleTag: 'Myy aktiviteettikirjoja Amazon KDP:ssa — opas myyjille',
-    metaDescription: 'Opi myymaan aktiviteettikirjoja Amazon KDP:ssa. Sisasivujen muotoilu, kansien suunnittelu, avainsanastrategia, hinnoittelu ja KDP-kirjaliiketoiminnan.',
+    titleTag: 'Julkaise aktiviteettikirjoja Amazon KDP:ssä — Opas',
+    metaDescription: 'Näin julkaiset aktiviteettikirjoja Amazon KDP:ssä. Sisäsivujen muotoilu, kansien suunnittelu, avainsanastrategia ja KDP-liiketoiminnan käynnistys.',
   },
 
   hero: {

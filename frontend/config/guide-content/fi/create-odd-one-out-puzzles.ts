@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'etsi erilainen -pulmat',
-    secondaryKeywords: ['etsi erilainen -generaattori lapsille', 'tulostettavat etsi erilainen -työarkit myyntiin', 'visuaalisen erottelun pulmat', 'mikä ei kuulu joukkoon -harjoitukset'],
-    lsiKeywords: ['neljä kuvaa per harjoitusrivi kolme yhteistä yksi erilainen', 'automaattinen vastausavain punaisella ympyrämerkinnällä', 'mukautuva sarakeasettelu temaattisilla kuvilla', 'myy etsi erilainen -pulmiä Etsyssä', 'Amazon KDP loogisen päättelyn pulmakirjat', 'kaupallinen lisenssi etsi erilainen -työkalu'],
-    titleTag: 'Etsi erilainen -pulmat — Opas',
-    metaDescription: 'Luo etsi erilainen -pulmatyöarkkeja neljän kuvan harjoitusrivein, automaattisilla vastausavaimilla ja 104 teemalla. Opas Etsyn ja KDP:n myyjille.',
+    primaryKeyword: 'näin teet etsi erilainen -pulmia tulostettavia',
+    secondaryKeywords: [
+      'etsi erilainen -generaattori lapsille myyntiin',
+      'tulosta mikä ei kuulu joukkoon -tehtäviä',
+      'luo visuaalisen erottelun pulmia PDF',
+      'etsi erilainen -pulmien tekeminen opas',
+    ],
+    lsiKeywords: [
+      'looginen päättely kategorisointi',
+      'neljä kuvaa kolme samaa yksi erilainen',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP logiikkapulmakirja',
+      '104 teemaa automaattinen vastausavain',
+      'myy Etsyssä Gumroadissa',
+    ],
+    titleTag: 'Etsi erilainen -pulmia tulostettavia | Opas',
+    metaDescription: 'Näin teet etsi erilainen -pulmia tulostettavaksi. Neljä kuvaa, vastausavaimet, 104 teemaa ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
   hero: {
     title: 'Kuinka luot etsi erilainen -pulmiä',

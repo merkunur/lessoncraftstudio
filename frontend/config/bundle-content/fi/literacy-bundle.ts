@@ -2,21 +2,21 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'kieli paketti lukemisen tyoarkkipaketti sanageneraattoria lukeminen',
+    primaryKeyword: 'lukemisen työarkkigeneraattoripaketti tulostettavia',
     secondaryKeywords: [
-      'kielityoarkkigeneraattoripaketti myyjille',
-      'sanapulmageneraattoripaketti kaupalliseen kayttoon',
-      'monikielinen tyoarkkipaketti Etsy-myyjille',
-      'lukemisen tyokalupaketti KDP-myyjille',
+      'kielityöarkkipaketti Etsy-myyjille kertaosto',
+      'sanapulmageneraattoripaketti kaupalliseen käyttöön',
+      'monikielinen lukemispaketti 11 kieltä KDP',
+      '7 sanageneraattoria yhdessä paketissa',
     ],
     lsiKeywords: [
-      'aakkos-kirjoitus-sanahaku-paketti',
-      'kirjainsekoitus kryptogrammi tulostettava kokoelma',
-      'kaupallinen lisenssi lukemistyoarkit',
-      'massatuotanto kielityoarkkityokalu',
+      'aakkosjuna sanahaku kryptogrammi kirjainsekoitus',
+      'prepositiot kirjoitusharjoitus arvaa sana',
+      'kaupallinen lisenssi säästä kertaosto',
+      'tulostusvalmiit PDF-työarkit vastausavaimilla',
     ],
-    titleTag: 'Lukemisen tyoarkkipaketti — 7 kieli- ja sanageneraattoria',
-    metaDescription: 'Hanki 7 lukemisen tyoarkkigeneraattoria yhdessa paketissa. Luo aakkos-, sanahaku-, kryptogrammi-, prepositio- ja kirjoitustyoarkkeja 11 kielella. $49.',
+    titleTag: 'Lukemispaketti | 7 generaattoria — Kertaosto',
+    metaDescription: 'Lukemispaketti: 7 kieli- ja sanageneraattoria yhdessä paketissa. Aakkoset, sanahaku, kryptogrammi, prepositiot ja kirjoitus 11 kielellä. $149 kertaosto.',
   },
 
   hero: {

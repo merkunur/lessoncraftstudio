@@ -2,20 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'myy matemaattisia työarkkeja Etsyssä',
+    primaryKeyword: 'myy matikkatehtäviä Etsyssä opas',
     secondaryKeywords: [
-      'Etsy matemaattisten työarkkien myyntiopas',
+      'Etsy matikkatehtävien myyntistrategia',
       'myy matemaattisia tulostettavia Etsyssä',
-      'matemaattisten työarkkien Etsy-liiketoiminta',
-      'luo matemaattisia tulostettavia myyntiin',
+      'matikkatehtävien Etsy-liiketoiminta opas',
+      'luo matikkatehtäviä myyntiin Etsy-kaupassa',
     ],
     lsiKeywords: [
-      'Etsy digitaalisten matemaattisten tuotteiden myynti',
-      'kuvapohjaiset matemaattiset työarkit tulostettavat',
-      'matemaattisten tulostettavien hinnoittelu Etsy',
+      'Etsy digitaalinen matikkatuote listaus',
+      'kuvapohjaiset matikkatehtävät tulostettavat',
+      'kaupallinen lisenssi PDF-vienti',
+      'hinnoittelu teemastrategia teemat',
+      'Etsy KDP Gumroad matikkamyynti',
+      'tuotekuvat listausoptimointi konversio',
     ],
-    titleTag: 'Myy matemaattisia työarkkeja Etsyssä — Opas',
-    metaDescription: 'Myy matemaattisia työarkkeja Etsyssä. Listausoptimointi, tuotekuvat, hinnoittelu, teemastrategia ja matemaattisten tulostettavien Etsy-kaupan skaalaaminen.',
+    titleTag: 'Myy matikkatehtäviä Etsyssä | Myyjän opas',
+    metaDescription: 'Myy matikkatehtäviä Etsyssä. Listausoptimointi, tuotekuvat, hinnoittelu, teemastrategia ja matikkatehtävien Etsy-kaupan skaalaaminen myyjille.',
   },
 
   hero: {

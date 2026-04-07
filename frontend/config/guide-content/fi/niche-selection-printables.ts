@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'markkinaraon valinta tulostettaville yrityksille',
+    primaryKeyword: 'nichen valinta tulostettavien liiketoiminnalle',
     secondaryKeywords: [
-      'tulostettavien markkinarakotutkimus',
-      'kannattavat tulostettavien markkinaraot',
-      'miten valita tulostettavien markkinarako',
-      'työarkkien markkinarakostrategia',
+      'tulostettavien nichetutkimus opas',
+      'kannattavat nichet tulostettaville tuotteille',
+      'miten valita oikea niche tulostettaville',
+      'työarkkien nichestrategia myyjille',
     ],
     lsiKeywords: [
-      'markkinakysyntä markkinaraon kannattavuus kohderyhmä markkinaraon validointi',
-      'ikivihreät markkinaraot kausiluonteiset markkinaraot alipalvellut markkinat kilpailuanalyysi',
-      'markkinaraon laajentaminen vierekkäiset markkinaraot luokka-asteen laajennus aineen laajennus',
-      'kohderyhmän tarpeet ostajapersoonat asiakassegmentit markkinaraon asemointi',
-      'markkinaraon pinoaminen moni-markkinarakostrategia markkinaraon syvyys tuote-markkina-sopivuus',
-      'hakusanakysyntä hakuvolyymi markkinapaikkatrendit ostointentiosignaalit',
+      'markkinakysyntä kannattavuus validointi',
+      'ikivihreät vs kausiluonteiset nichet',
+      'kaupallinen lisenssi tulostettavat tuotteet',
+      'kohderyhmä ostajapersoonat segmentit',
+      'Etsy KDP hakuvolyymi kilpailuanalyysi',
+      'nichen laajentaminen pinoaminen syvyys',
     ],
-    titleTag: 'Markkinaraon valinta tulostettaville yrityksille — Opas',
-    metaDescription: 'Markkinaraon valinta tulostettaville yrityksille: tutki kysyntää, analysoi kilpailua, arvioi kannattavuutta, validoi ennen sitoutumista ja suunnittele.',
+    titleTag: 'Nichen valinta tulostettaville | Strategiaopas',
+    metaDescription: 'Nichen valinta tulostettavien liiketoiminnalle. Tutki kysyntää, analysoi kilpailua, arvioi kannattavuutta ja validoi ennen sitoutumista.',
   },
 
   hero: {

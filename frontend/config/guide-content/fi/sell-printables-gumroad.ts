@@ -2,20 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'myy tulostettavia Gumroadissa',
+    primaryKeyword: 'myy tulostettavia Gumroadissa opas',
     secondaryKeywords: [
-      'Gumroad tulostettavien myyntiopas',
-      'myy opetuksellisia tulostettavia Gumroadissa',
-      'Gumroad vs Etsy tulostettaville tuotteille',
-      'Gumroad digitaalisten tuotteiden kauppa',
+      'Gumroad-tulostettavien myyntistrategia opas',
+      'myy työarkkeja Gumroadissa suoramyyntinä',
+      'Gumroad vs Etsy tulostettavien myyntiin',
+      'Gumroad-kaupan rakentaminen tulostettaville',
     ],
     lsiKeywords: [
-      'Gumroad suoramyyntialusta tulostettaville',
-      'digitaalisten tuotteiden myynti omalla brändillä',
-      'Gumroad hinnoittelu ja maksut',
+      'suoramyyntialusta digitaaliset tuotteet',
+      'Gumroad brändi asiakassuhde sähköposti',
+      'kaupallinen lisenssi PDF-vienti',
+      'hinnoittelu markkinointi liikenteen ohjaus',
+      'Etsy KDP vaihtoehto suoramyynti',
+      'katalogin rakentaminen tuotepaketit',
     ],
-    titleTag: 'Myy tulostettavia Gumroadissa — Opas',
-    metaDescription: 'Myy tulostettavia Gumroadissa. Kaupan perustaminen, tuotelistaus, hinnoittelu, markkinointi ja tulostettavien liiketoiminnan rakentaminen suoramyyntialustalla.',
+    titleTag: 'Myy tulostettavia Gumroadissa | Myyjän opas',
+    metaDescription: 'Myy tulostettavia Gumroadissa. Kaupan perustaminen, tuotelistaus, hinnoittelu, markkinointi ja suoramyyntiliiketoiminnan rakentaminen myyjille.',
   },
 
   hero: {

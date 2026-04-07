@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'Etsi ja Löydä -tulosteiden tekijä',
+    primaryKeyword: 'etsi ja merkitse tehtävä tulostaa',
     secondaryKeywords: [
-      'Etsi ja Löydä -tulosteiden tekijä myyntiin Etsyssä ja KDP:ssä',
-      'luo Etsi ja Löydä -työlehtia Etsy-kauppaan',
-      'piiloesineiden aktiviteettikirjat Amazon KDP:lle',
-      'Etsi ja Löydä -tulosteet kaupallinen lisenssi',
+      'piilotetut esineet tehtävä',
+      'etsintäkuva tulostaa',
+      'havainnointileikki tehtävä',
+      'etsi ja ympyröi lapset',
     ],
     lsiKeywords: [
-      'Etsi ja Löydä -aktiviteettikirjaniche KDP',
-      'myy piiloesineiden tulosteita kaupallisesti',
-      'visuaalisen etsinnän työlehituotteet',
+      'havainnointi',
+      'etsintä',
+      'esiopetus',
+      'alakoulu',
+      'vastaukset',
     ],
-    titleTag: 'Etsi ja Löydä -tulosteiden tekijä — Myy Etsyssä ja KDP:ssä',
-    metaDescription: 'Luo Etsi ja Löydä- ja piiloesineiden työlehtia myytäväksi Etsyssä ja KDP:ssä. $49 kertamaksu.',
+    titleTag: 'Etsi ja merkitse tehtävä tulostaa | Havainnointigeneraattori',
+    metaDescription: 'Luo etsi-ja-merkitse tehtäviä teemakuvilla. Automaattiset vastaukset, 300 DPI PDF. Kokeile ilmaiseksi — myy Etsyssä & KDP:ssä.',
   },
 
   hero: {

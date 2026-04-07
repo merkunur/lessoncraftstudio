@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Matemaattiset peruslaskut tulostettavat ideat myyntiin —...',
-    metaDescription: 'Tutustu matemaattisten peruslaskujen tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Matikkatulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Matematiikan tulostettavia tehtäviä myyntiin. Ikivihreä laskuniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'tulostettavat ideat myyntiin matemaattisten peruslaskujen matemaattiset peruslaskut',
+    primaryKeyword: 'matematiikka tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'matemaattiset peruslaskutyöarkit myyntiin',
-      'matematiikka tulostettava liiketoimintaideat',
-      'matikkaharjoitusarkki myyjille',
-      'myy matikkatulostettavia verkossa',
+      'matikkatehtäviä myydä Etsyssä',
+      'matikkatulostettavat niche KDP',
+      'laskuharjoitukset tulostettavat myyntiin',
+      'yhteen- ja vähennyslaskutulostettavat',
     ],
     lsiKeywords: [
-      'yhteen- ja vähennyslaskun harjoitustyöarkit',
-      'kertolaskutaulukkoiden harjoitustulostettavat',
-      'matemaattisen sujuvuuden harjoitusresurssit',
+      'Etsy',
+      'KDP',
+      'matematiikka',
+      'laskuharjoitus',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

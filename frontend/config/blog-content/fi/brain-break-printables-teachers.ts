@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'aivotauko tulosteet opettajille lyhyet virkistavat tehtavat',
+    primaryKeyword: 'aivotauko tulostettavia myyntiin',
     secondaryKeywords: [
-      'aivotauko tulosteet opettajat opas',
-      'aivotauko tulosteet opettajat 2026',
-      'aivotauko tulosteet opettajat Suomi',
+      'lyhyet aktiviteetit tulostettavia',
+      'virkistävät tehtävät tulosteet',
+      'taukotehtävät tulostettava Etsy',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'oppimistauot tulosteet',
+      'keskittymisharjoitukset tulostettavia',
+      'kotiopetus taukotehtävät',
     ],
-    titleTag: 'Aivotauko-tulosteet opettajille | LCS',
-    metaDescription: 'Myy aivotauko-tulosteita opettajille. Lyhyet aktiviteetit jotka virkistavat oppitunnin keskella. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Aivotaukotehtävät tulostettavina | LCS',
+    metaDescription: 'Myy aivotauko-tulostettavia oppimistaukojen aktiviteeteiksi. Lyhyet virkistävät tehtävät ovat kysytty tuotekategoria.',
   },
   hero: {
     title: 'Aivotauko-tulosteet opettajille: lyhyet virkistavat tehtavat',

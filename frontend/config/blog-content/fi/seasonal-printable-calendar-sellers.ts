@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'suunnittele kausien kausikalenteri tulostekauppiaalle',
+    primaryKeyword: 'kausikalenteri tulostemyyjälle',
     secondaryKeywords: [
-      'kausikalenteri tulosteet myyjat opas',
-      'kausikalenteri tulosteet myyjat 2026',
-      'kausikalenteri tulosteet myyjat Suomi',
+      'tulostekaupan sesonkisuunnittelu',
+      'vuosikello tulostemyyjä',
+      'kausittainen tuotanto tulosteet',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'sesonkimyynti tulosteet Suomi',
+      'juhlapyhät tulosteet kalenteri',
+      'tuotantoaikataulu tulostekauppa',
     ],
-    titleTag: 'Kausikalenteri tulostekauppiaalle | LCS',
-    metaDescription: 'Suunnittele tulosteidesi tuotanto- ja markkinointikalenteri kausien mukaan. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Kausikalenteri tulostemyyjälle | LCS',
+    metaDescription: 'Suunnittele tulosteiden tuotanto- ja markkinointikalenteri kausien mukaan. Suomen juhlapyhät ja sesongit hyötykäyttöön.',
   },
   hero: {
     title: 'Kausikalenteri tulostekauppiaalle: vuosisuunnitelma',

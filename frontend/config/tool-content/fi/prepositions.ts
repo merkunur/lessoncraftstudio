@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen prepositiotehtävägeneraattori tee prepositiotehtäviä',
+    primaryKeyword: 'ilmainen tilakäsitteet tehtävä verkossa',
     secondaryKeywords: [
-      'tee prepositiotehtäviä ilmaiseksi verkossa',
+      'tilakäsitetehtäviä ilmaiseksi verkossa',
       'prepositiogeneraattori ilman rekisteröitymistä',
-      'ilmainen kielioppiarktigeneraattori',
-      'prepositiotehtävät ilmainen kokeilu',
+      'kokeile tilakäsitetehtävää ilmaiseksi',
+      'tulostettava tilakäsitetehtävä ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'ilmainen kielioppiväline verkossa',
-      'pikainen prepositioiden tekijä',
-      'kokeile ennen ostoa kielityökalut',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'tilakäsite',
     ],
-    titleTag: 'Ilmainen Prepositiotehtävägeneraattori | LCS',
-    metaDescription: 'Tee prepositiotehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen tilakäsitetehtävä verkossa | Kokeile heti',
+    metaDescription: 'Tee tilakäsitetehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

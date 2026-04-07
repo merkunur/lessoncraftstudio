@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'aakkosjuna-työarkit',
+    primaryKeyword: 'näin teet aakkosjunatyöarkkeja tulostettavia',
     secondaryKeywords: [
-      'luo aakkosjuna-työarkkeja myyntiin',
-      'aakkosjuna-työarkkien generaattori kaupalliseen käyttöön',
-      'tulostettava kirjaintunnistus junatyökalu Etsyyn ja KDP:hen',
-      'kielitietoinen kirjainparitus-työarkki vastausavaimilla',
+      'aakkosjuna-generaattori kaupalliseen käyttöön',
+      'tulostettava kirjaintunnistus lapsille opas',
+      'kirjain-kuva-paritus työarkki myyntiin',
+      'aakkostyöarkkeja esiopetukseen PDF',
     ],
     lsiKeywords: [
-      'yksitoista värikästä junavaunua kirjain-kuvaparitus työarkkigeneraattori',
-      'automaattinen luonti manuaalinen valinta kaksi luontitilaa aakkosgeneraattori',
-      'konfiguroitava kolmesta yhteentoista vihjeiden määrä vaikeustason skaalaus',
-      'myy aakkosjuna-työarkkeja Etsyssä',
-      'Amazon KDP kirjaintunnistus juna-harjoituskirjat',
-      'kaupallinen lisenssi aakkosjuna-työkalu',
+      'esiopetus alkuopetus kirjaintunnistus',
+      'kaksi luontitilaa automaattinen manuaalinen',
+      'kaupallinen lisenssi vesileima',
+      '11 värikästä junavaunua',
+      'myy Etsyssä KDP:ssä Gumroadissa',
+      '104 teemaa kuvakirjasto',
     ],
-    titleTag: 'Aakkosjuna-työarkit — Opas — Kattava myyjän opas',
-    metaDescription: 'Näin luot aakkosjuna-työarkkeja junavaunuilla, kahdella luontitilalla, konfiguroitavalla vaikeustasolla ja 104. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Aakkosjunatyöarkkeja tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet aakkosjunatyöarkkeja tulostettavaksi. Kaksi luontitilaa, 104 teemaa, vastausavaimet ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

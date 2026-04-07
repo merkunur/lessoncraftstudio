@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen yhteenlaskutehtävien tekijä verkossa tee yhteenlaskutehtäviä ilmaiseksi rekisteröitymistä',
+    primaryKeyword: 'ilmainen yhteenlaskutehtävä verkossa',
     secondaryKeywords: [
-      'tee yhteenlaskutehtäviä ilmaiseksi verkossa',
-      'yhteenlaskutehtävägeneraattori ilman rekisteröitymistä',
-      'ilmainen matematiikkageneraattori lapsille',
+      'yhteenlaskutehtäviä ilmaiseksi verkossa',
+      'yhteenlaskugeneraattori ilman rekisteröitymistä',
+      'kokeile yhteenlaskutehtäviä ilmaiseksi',
       'tulostettavat yhteenlaskutehtävät ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'ilmainen tehtävägeneraattori verkossa',
-      'pikainen tehtävätekijä ilman tiliä',
-      'kokeile ennen ostoa tulostustyökalut',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'matematiikkatehtävä',
     ],
-    titleTag: 'Ilmainen Yhteenlaskutehtävien Tekijä Verkossa | LCS',
-    metaDescription: 'Tee yhteenlaskutehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen yhteenlaskutehtävä verkossa | Kokeile heti',
+    metaDescription: 'Tee yhteenlaskutehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

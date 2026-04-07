@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'yhdistämistehtäviä yhdistämistehtävägeneraattori viiva generaattori',
+    primaryKeyword: 'ilmainen yhdistämistehtävä verkossa',
     secondaryKeywords: [
-      'yhdistämistehtävägeneraattori',
-      'näin teet yhdistämistehtäviä vaiheessa',
-      'avaa yhdistämistehtävägeneraattori',
-      'valitse yhdistystila',
+      'yhdistämistehtäviä ilmaiseksi verkossa',
+      'yhdistämisgeneraattori ilman rekisteröitymistä',
+      'kokeile yhdistämistehtävää ilmaiseksi',
+      'tulostettava yhdistämistehtävä ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'neljatilaa piirra viiva yhdistamistehtava tyokalu',
-      'automaattinen vastausavain yhdistamisaktiviteetti generaattori',
-      'alkukirjain kuva sana yhdistamis generaattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'yhdistämistehtävä',
     ],
-    titleTag: 'Yhdistämistehtävägeneraattori — Piirrä Viiva Generaattori',
-    metaDescription: 'Tee yhdistämistehtäviä 4 tilalla, automaattisella vastausavaimella yhdistysviivoin, konfiguroitavilla pareilla, 11 kieltä, 104 teemaa.',
+    titleTag: 'Ilmainen yhdistämistehtävä verkossa | Kokeile heti',
+    metaDescription: 'Tee yhdistämistehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

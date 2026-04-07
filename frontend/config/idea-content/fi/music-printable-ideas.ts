@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Musiikkiaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu musiikkiaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadissa.',
+    titleTag: 'Musiikkitulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Musiikkiaiheisia tulostettavia tehtäviä myyntiin. Luova taideniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'myyntiin musiikkiaiheiset tulostettavat musiikkiaiheisia',
+    primaryKeyword: 'musiikki tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'musiikkiteemaiset työarkit myyntiin',
-      'musiikki tulostettava liiketoimintaideat',
-      'musiikkiaktiviteettiarkki myyjille',
-      'myy musiikkitulostettavia Etsyssä',
+      'musiikkitehtäviä myydä Etsyssä',
+      'musiikkitulostettavat niche KDP',
+      'soitinteemaiset tehtävät myyntiin',
+      'nuotti- ja rytmiaktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'soitinteemaiset opetukselliset työarkit',
-      'rytmi- ja nuottitoiminnat lapsille',
-      'musiikkiteoriateemaiset tulostettavat',
+      'Etsy',
+      'KDP',
+      'musiikki',
+      'soittimet',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

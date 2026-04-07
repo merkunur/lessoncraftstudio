@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Koulunaloitus-tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu koulunaloitus-tulostettaviin ideoihin myyntiin Etsyssä, KDP:ssä ja Gumroadilla. Tuotekonseptit, heinä-syyskuun strategiat ja alustaneuvot myyjille.',
+    titleTag: 'Koulunaloitustulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Koulunaloituksen tulostettavia tehtäviä myyntiin Etsyssä ja KDP:ssä. Suosittu kausiniche elokuussa — aloita nyt.',
 
     primaryKeyword: 'koulunaloitus tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'koulunaloitustyöarkit myyntiin',
-      'koulutulostettava liiketoimintaideat',
-      'koulunaloitusaktiviteettiarkki',
-      'myy koulunaloitustulostettavia verkossa',
+      'koulunaloitustehtäviä myydä Etsyssä',
+      'back to school tulostettavat niche',
+      'elokuun kausiluonteiset tulostettavat',
+      'koulutarviketehtävät KDP myyntiin',
     ],
     lsiKeywords: [
-      'tuotelinjan työarkkiniput',
-      'myyjäresurssitulostettavat',
-      'koulutarviketeemalliset aktiviteetit',
+      'Etsy',
+      'KDP',
+      'koulunaloitus',
+      'kausiluonteinen',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

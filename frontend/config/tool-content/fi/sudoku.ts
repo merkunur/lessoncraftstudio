@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kuvasudoku lapsille',
+    primaryKeyword: 'ilmainen sudoku tulostettava verkossa',
     secondaryKeywords: [
-      'kuvasudoku-generaattori myyjille',
-      'tee kuvasudoku-palapelejaemyyntiin',
-      'tulostettava kuvasudoku-generaattori kaupallinen kaytto',
-      'kuvasudoku-tehtavageneraattori KDP ja Etsy',
+      'sudoku ilmaiseksi verkossa',
+      'sudokugeneraattori ilman rekisteröitymistä',
+      'kokeile sudokua ilmaiseksi',
+      'tulostettava sudoku ilmainen kokeilu',
     ],
     lsiKeywords: [
-      '4x4 ruudukko kuvalogiikkapalapeli-generaattori',
-      'kolme vaikeustasoa helppo keskitaso vaikea sudoku-generaattori',
-      'automaattinen vastausavain taysi ruudukko sudoku-generaattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'sudokutehtävä',
     ],
-    titleTag: 'Kuvasudoku-generaattori — Kuvasudoku lapsille -generaattori',
-    metaDescription: 'Tee kuvasudokua lapsille 4x4 kuvaruudukoilla, kolme vaikeustasoa, automaattiset vastausavaimet ja 104. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen sudoku verkossa | Ei rekisteröitymistä',
+    metaDescription: 'Tee sudokutehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

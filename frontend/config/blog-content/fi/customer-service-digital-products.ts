@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'asiakaspalvelu digitaalisille tuotteille tehokkaat kaytannot',
+    primaryKeyword: 'asiakaspalvelu digitaaliset tuotteet',
     secondaryKeywords: [
-      'kaytannoen toteutus vaihe vaiheelta',
-      'yleisimmat haasteet ratkaisut',
-      'mittaaminen optimointi',
+      'asiakaspalvelu Etsy-kaupassa',
+      'digitaalisten tuotteiden tuki',
+      'asiakasviestintä tulostekauppa',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'automaattiset vastaukset Etsy',
+      'usein kysytyt kysymykset tulosteet',
+      'palautuskäytäntö digitaaliset',
     ],
     titleTag: 'Asiakaspalvelu digitaalisille tuotteille | LCS',
-    metaDescription: 'Jarjesta asiakaspalvelu digitaalisille tuotteille tehokkaasti. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    metaDescription: 'Järjestä asiakaspalvelu digitaalisille tuotteille tehokkaasti. Automaatio, viestimallit ja yleisimmät tilanteet.',
   },
   hero: {
     title: 'Asiakaspalvelu digitaalisille tuotteille: tehokkaat kaytannot',

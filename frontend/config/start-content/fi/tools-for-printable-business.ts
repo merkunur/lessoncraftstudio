@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'parhaat työkalut tulostettavien tuotteiden myyjille välttämättömät liiketoiminnan omistajille',
+    primaryKeyword: 'parhaat työkalut tulostettavien tuotteiden myyjille',
     secondaryKeywords: [
-      'tarkistuslista tyokalut tulostettavien liiketoiminta',
-      'tehtavageneraattorityokalut myyjille',
-      'tyokalut tulostettavien tuotteiden myymiseen verkossa',
-      'tuotantotyokalut tulostettavat tuotteet',
+      'tehtävägeneraattorityökalut myyjille ja yrittäjille',
+      'työkalut tulostettavien tuotteiden luomiseen verkossa',
+      'tuotantotyökalut tulostettavat Etsy KDP',
+      'välttämättömät työkalut tulostettavien liiketoimintaan',
     ],
     lsiKeywords: [
-      'Etsy myyjien tyokalut digitaalisille latauksille',
-      'Amazon KDP aktiviteettikirjan tuotantotyokalut',
-      'tehtavien luontiohjelmisto yrittajille',
-      'tyonkulun automaatio tulostettavien liiketoiminta',
-      'monikielinen tehtavageneraattori tyokalut',
-      'kaupallinen lisenssi tehtavatuotanto',
+      'Etsy-myyjien työkalut digitaalisille latauksille',
+      'Amazon KDP aktiviteettikirjan tuotantotyökalut',
+      'tehtävien luontiohjelmisto yrittäjille',
+      'työnkulun automaatio tulostettavien liiketoiminta',
+      'monikielinen tehtävägeneraattori 11 kieltä',
+      'kaupallinen lisenssi tehtävätuotanto',
     ],
-    titleTag: 'Parhaat työkalut tulostettavien tuotteiden myyjille',
-    metaDescription: 'Parhaat työkalut tulostettavien tuotteiden myyjille: tehtävägeneraattorit, suunnittelutyökalut, alusttyökalut. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Parhaat työkalut tulostettavien myyjille',
+    metaDescription: 'Parhaat työkalut tulostettavien tuotteiden myyjille: tehtävägeneraattorit, suunnittelutyökalut ja alustatyökalut Etsy- ja KDP-liiketoimintaan.',
   },
 
   hero: {

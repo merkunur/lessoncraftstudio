@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'aarteenetsintä-generaattori',
+    primaryKeyword: 'aarteenetsintä tulostaa',
     secondaryKeywords: [
-      'aarteenetsintä-tulosteiden generaattori Etsyyn ja KDP:hen',
-      'luo aarteenetsintä-työlehtia Etsy-kauppaan',
-      'suuntapalapeli-tulosteet Amazon KDP -kirjoihin',
-      'aarteenetsintä-työlehdet kaupallinen lisenssi',
+      'rastirata tulostaa',
+      'suunnistus tulostaa',
+      'vihjeet aarteenetsintä',
+      'aarteenetsintä lapsille',
     ],
     lsiKeywords: [
-      'seikkailupalapeeli-tulosteniche',
-      'myy aarteenetsintä-työlehtiä kaupallisesti',
-      'koordinaattiruudukko-työlehituotteet',
+      'aarre',
+      'vihjeet',
+      'seikkailu',
+      'lapset',
+      'PDF',
     ],
-    titleTag: 'Aarteenetsintä-generaattori — Myy Etsyssä ja KDP:ssä | LCS',
-    metaDescription: 'Luo aarteenetsintä-työlehtia myytäväksi Etsyssä ja KDP:ssä. Suuntapalapelit koordinaattiruudukoissa, 11 kieltä, vastausavaimet, kaupallinen lisenssi. $49...',
+    titleTag: 'Aarteenetsintä tulostaa | Rastirata-generaattori',
+    metaDescription: 'Luo aarteenetsintä- ja rastiratatehtäviä teemakuvilla. Tulostettavat PDF:t. Kokeile ilmaiseksi — myy Etsyssä & KDP:ssä.',
   },
 
   hero: {

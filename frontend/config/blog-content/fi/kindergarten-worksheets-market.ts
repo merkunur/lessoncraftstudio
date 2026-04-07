@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'paivakoti tyoarkit markkina',
+    primaryKeyword: 'esikoulun tehtäväarkit markkina',
     secondaryKeywords: [
-      'paivakoti tyoarkit markkina opas',
-      'paivakoti tyoarkit markkina 2026',
-      'paivakoti tyoarkit markkina Suomi',
+      'päiväkoti-ikäisten tulosteet myynti',
+      'esiopetus työarkit tulostettavia',
+      'esikoululaisten tehtävät Etsy',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'varhaiskasvatus tulosteet Suomi',
+      'esiopetusikäisten oppimateriaali',
+      'päivähoito tulostettavia tehtäviä',
     ],
-    titleTag: 'Paivakotityoarkkien markkina | LCS',
-    metaDescription: 'Paivakoti-ikaisten tyoarkit ovat kasvava markkina. Suomessa paivakotijärjestelma on laaja ja materiaalien. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Esikoulun tehtäväarkit: markkina | LCS',
+    metaDescription: 'Esikouluikäisten tulosteet ovat kasvava markkina. Suomessa esiopetus on pakollista ja materiaalien kysyntä jatkuvaa.',
   },
   hero: {
     title: 'Paivakotityoarkkien markkina: kasvava kysyntae',

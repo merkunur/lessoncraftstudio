@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'tehtäviä kielellä monikielinen tehtävägeneraattori näin',
+    primaryKeyword: 'luo monikielisiä tehtäviä 11 kielellä generaattorilla',
     secondaryKeywords: [
-      'luo tehtavia useilla kielilla',
-      'monikieliset tulostettavat tehtavat',
-      'myy tehtavia saksaksi ranskaksi espanjaksi',
-      'monikielinen aktiviteettikirjageneraattori',
+      'monikielinen tehtävägeneraattori myyjille',
+      'myy tehtäviä saksaksi ranskaksi espanjaksi',
+      'monikieliset tulostettavat tehtävät Etsyssä',
+      'kansainvälinen tulostettavien liiketoiminta opas',
     ],
     lsiKeywords: [
-      'kielitietoinen tehtavageneraattori',
-      'luo tehtavia 11 kielella',
-      'ei-englanninkielinen tulostettavien markkina Etsy',
-      'monikielinen sananhakugeneraattori',
-      'kansainvalinen tulostettavien liiketoiminta',
-      'myy tehtavia Etsy.de Etsy.fr',
+      'kielitietoinen tehtävägeneraattori sanasto',
+      'luo tehtäviä 11 kielellä automaattisesti',
+      'ei-englanninkielinen markkina Etsy KDP',
+      'monikielinen sanahakugeneraattori kryptogrammi',
+      'kansainvälinen markkinalaajentaminen',
+      'Etsy.de Etsy.fr lokalisoidut listaukset',
     ],
-    titleTag: 'Monikielinen tehtävägeneraattori — 11 kieltä — aloitusopas',
-    metaDescription: 'Luo ja myy tehtäviä 11 kielellä monikielisellä generaattorilla. Tavoita saksalaiset, ranskalaiset ja espanjalaiset ostajat Etsyssä, Amazon KDP:ssä ja.',
+    titleTag: 'Monikielinen tehtävägeneraattori — 11 kieltä',
+    metaDescription: 'Luo ja myy tehtäviä 11 kielellä monikielisellä generaattorilla. Tavoita ostajia Saksassa, Ranskassa ja Espanjassa Etsyssä ja KDP:ssä.',
   },
 
   hero: {

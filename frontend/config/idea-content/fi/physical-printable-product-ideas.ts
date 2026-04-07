@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fyysiset tulostettavat tuoteideat myyntiin — Opas',
-    metaDescription: 'Fyysisten tulostettavien tuoteideoita Etsyn ja markkinamyyjille. Rakenna premium-liiketoiminta tulostamalla, laminoimalla ja lähettämällä käsin.',
+    titleTag: 'Fyysiset tulostettavat ideat | Myy painettuja tuotteita',
+    metaDescription: 'Fyysisten tulostettavien tuotteiden ideat myyjille. Myy laminoituja ja sidottuja tuotteita Etsyssä.',
 
-    primaryKeyword: 'fyysisten tulostettavien fyysiset tulostettavat tuotteiden',
+    primaryKeyword: 'fyysiset tulostettavat tuoteideat myyntiin',
     secondaryKeywords: [
-      'fyysisten tulostettavien tuotteiden liiketoimintaideat myyjille',
-      'laminoidut yhteenlaskuharjoituskortit fyysisille tuotemyyjille',
-      'kierresidotut sanaristikkoaktiviteettikirjat',
-      'valmiiksi leikatut yhdistämisaktiviteettikorttisarjat',
+      'painetut tulostettavat myydä Etsyssä',
+      'laminoidut tehtäväkortit myyntiin',
+      'kierresidotut työkirjat KDP',
+      'fyysinen tulostettava liiketoiminta',
     ],
     lsiKeywords: [
-      'tulosta-ja-lähetä opetukselliset tuotteet',
-      'fyysinen työkirjan julkaiseminen',
-      'käsin kosketeltava painettu resurssimyynti',
+      'Etsy',
+      'KDP',
+      'fyysinen',
+      'laminointi',
+      'tulostettavat',
+      'painettu',
     ],
   },
   hero: {

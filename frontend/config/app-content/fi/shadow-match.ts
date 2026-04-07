@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'varjoyhdistely-generaattori',
+    primaryKeyword: 'varjoleikki tehtävä tulostaa',
     secondaryKeywords: [
-      'tulostettava siluettiyhdistely-aktiviteetti generaattori Etsy-myyjille',
-      'kuvavarjopalapeli-työlehtigeneraattori KDP:lle',
-      'varjoyhdistely-työlehtigeneraattori kaupallinen lisenssi',
-      'myy varjoyhdistely-työlehtia Gumroadissa',
+      'varjot ja kuvat tehtävä',
+      'siluetit yhdistä',
+      'varjoparitus tehtävä',
+      'varjoleikki esiopetus',
     ],
     lsiKeywords: [
-      'digitaaliset siluettiyhdistely-tulosteet verkkoliiketoiminta',
-      'kaupallinen varjopalapeli-työlehtigeneraattori',
-      'tulostettava visuaalinen yhdistelytoiminta liiketoimintatyökalu',
+      'siluetti',
+      'havainnointi',
+      'yhdistäminen',
+      'esiopetus',
+      'vastaukset',
     ],
-    titleTag: 'Varjoyhdistely-generaattori | Luo siluettipalapeleja',
-    metaDescription: 'Luo varjoyhdistely-työlehtia myytäväksi Etsyssä, KDP:ssä ja Gumroadissa. $49 kertamaksu.',
+    titleTag: 'Varjoleikki tehtävä tulostaa | Siluettiyhdistämisgeneraattori',
+    metaDescription: 'Luo varjoleikkitehtäviä kuvilla ja silueteilla. Automaattiset vastaukset, 300 DPI PDF. Kokeile ilmaiseksi.',
   },
 
   hero: {

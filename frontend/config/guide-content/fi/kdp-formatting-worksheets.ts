@@ -2,20 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP-muotoilu työarkit',
+    primaryKeyword: 'KDP-muotoilu työarkkikirjoille opas',
     secondaryKeywords: [
-      'KDP-muotoiluopas työarkkikirjoille',
       'Amazon KDP käsikirjoituksen muotoiluvaatimukset',
-      'KDP-trimikoko marginaalit leikkausvara työarkkikirjat',
-      'painovalmis PDF-vienti KDP-aktiviteettikirjat',
+      'KDP-trimikoot marginaalit leikkausvara opas',
+      'painovalmis PDF-vienti KDP-aktiviteettikirjoihin',
+      'KDP-kannen mitat ja selkäleveys laskuri',
     ],
     lsiKeywords: [
-      'KDP-trimikoko 8.5x11 6x9 8x10 työarkkien sisäsivuasettelu',
-      'käsikirjoituksen marginaalit selkä sidonta turvavyöhyke leikkausvaraalue',
-      'PDF-vienti 300 DPI fonttien upotus harmaasävy CMYK',
+      'trimikoko 8.5x11 6x9 8x10 sisäsivut',
+      'marginaalit selkä sidonta turvavyöhyke',
+      'PDF 300 DPI fonttien upotus harmaasävy',
+      'kansisuunnittelu selkäleveys viivakoodialue',
+      'KDP-lataus hylkäys vianmääritys',
+      'aktiviteettikirja työkirja muotoilu',
     ],
-    titleTag: 'KDP-muotoilu työarkit — Täydellinen opas',
-    metaDescription: 'KDP-muotoiluopas trimikoot, marginaalit, leikkausasetukset, PDF-vienti 300 DPI, kansimitat ja latausvirheiden korjaus aktiviteettikirjoille.',
+    titleTag: 'KDP-muotoilu työarkkikirjoille | Täydellinen opas',
+    metaDescription: 'KDP-muotoiluopas työarkkikirjoille. Trimikoot, marginaalit, leikkausasetukset, PDF-vienti 300 DPI ja kansimitat aktiviteettikirjojen julkaisuun.',
   },
 
   hero: {

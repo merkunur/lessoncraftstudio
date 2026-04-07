@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'tehtävägeneraattori luo kuviotehtäviä',
+    primaryKeyword: 'ilmainen loogisia sarjoja tehtävä verkossa',
     secondaryKeywords: [
-      'kuviotehtävägeneraattori',
-      'näin luot kuvionhavaitsemistehtäviä vaiheessa',
-      'avaa kuviotehtävägeneraattori',
-      'aseta sivuasettelu tausta',
+      'loogisia sarjoja ilmaiseksi verkossa',
+      'kuvionhavaitsemisgeneraattori ilman rekisteröitymistä',
+      'kokeile kuviotehtäviä ilmaiseksi',
+      'tulostettava logiikkatehtävä ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'visuaalinen kuvionhavaitseminen tulostettavat Etsyyn',
-      'tekstiton kuvion taydentaminen tehtavatyokalu',
-      'AB ABC ABCD kuviosekvenssi tehtavageneraattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'kuviotehtävä',
     ],
-    titleTag: 'Kuvionhavaitsemis-tehtävägeneraattori | Luo ja Myy',
-    metaDescription: 'Luo kuviotehtäviä yhdeksällä tyypillä, kahdella kysymystilalla, harjoituskohtaisella asetuksella, automaattisilla vastausavaimilla ja 104 teemakuvalla.',
+    titleTag: 'Ilmainen loogisia sarjoja -tehtävä verkossa',
+    metaDescription: 'Tee loogisia sarjoja -tehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

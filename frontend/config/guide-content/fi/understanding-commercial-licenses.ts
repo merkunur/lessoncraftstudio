@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kaupalliset lisenssit tulostettavien myy',
-    secondaryKeywords: ['ymmärrä kaupalliset lisenssit tulostettavien tuotteille', 'kaupallinen lisenssi tyoarkkigeneraattoreille', 'tulostettavien myyntioikeudet kaupallinen lisenssi', 'kaupallisen lisenssin opas tulostettavien myyjille'],
-    lsiKeywords: ['kaupallinen käyttöoikeus digitaaliset tuotteet', 'tekijanoikeudet tulostettavien myynnissä', 'lisenssityypit digitaalisille opetusresursseille'],
-    titleTag: 'Kaupalliset lisenssit tulostettaville — Opas',
-    metaDescription: 'Ymmärrä kaupalliset lisenssit tulostettavien tuotteiden myyntiin. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    primaryKeyword: 'kaupalliset lisenssit tulostettavien myyjille opas',
+    secondaryKeywords: [
+      'kaupallinen lisenssi tulostettavien myyntiin',
+      'lisenssityypit työarkkigeneraattoreille opas',
+      'tulostettavien myyntioikeudet ja lisenssit',
+      'kaupallisen lisenssin merkitys myyjille',
+    ],
+    lsiKeywords: [
+      'kaupallinen käyttöoikeus digitaaliset tuotteet',
+      'tekijänoikeudet lisenssidokumentaatio',
+      'kaupallinen lisenssi vesileima poisto',
+      'monialustainen myynti lisenssien yhteensopivuus',
+      'Etsy KDP Gumroad Creative Fabrica oikeudet',
+      'kuvakirjasto lisenssit juridinen suoja',
+    ],
+    titleTag: 'Kaupalliset lisenssit tulostettaville | Opas',
+    metaDescription: 'Kaupallisten lisenssien opas tulostettavien myyjille. Lisenssityypit, käyttöoikeudet, monialustainen yhteensopivuus ja liiketoiminnan juridinen suoja.',
   },
   hero: {
     title: 'Kaupallisten lisenssien ymmärtäminen tulostettavien myyjille',

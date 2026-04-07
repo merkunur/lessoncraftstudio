@@ -2,20 +2,23 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'algebrapulmapeli generaattori luo tyoarkkeja',
+    primaryKeyword: 'matikkatehtävien generaattori',
     secondaryKeywords: [
-      'tulostettavat algebrapulmapelit kuvilla Etsy myyjille',
-      'algebrallinen yhtälötyöarkki generaattori Amazon KDP',
-      'algebrapulmapelit kuvilla myy Gumroadissa',
-      'algebrapulmapeli tulostettavat kaupallinen lisenssi',
+      'luo matikkatehtäviä',
+      'laskutehtäviä tulostaa',
+      'tehtävägeneraattori matematiikka',
+      'räätälöityjä matikkatehtäviä',
     ],
     lsiKeywords: [
-      'digitaaliset algebratuotteet verkkoliiketoiminta',
-      'tulostettavat yhtalöpulmapelit business',
-      'kaupallinen kaytto algebrallinen tyoarkki generaattori',
+      'laskutoimitukset',
+      'päässälasku',
+      'laskeminen',
+      'peruskoulu',
+      'vastaukset',
+      'PDF',
     ],
-    titleTag: 'Algebrapulmapeli Generaattori | LCS',
-    metaDescription: 'Luo algebrapulmapeli tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Kuvat muuttujina, 4 vaikeustasoa, uniikit ratkaisut. Ilmainen kokeilu. $49 kertamaksu.',
+    titleTag: 'Matikkatehtävien generaattori | Luo laskutehtäviä tulostettavaksi',
+    metaDescription: 'Luo räätälöityjä matikkatehtäviä automaattisilla vastauksilla. 300 DPI PDF, 11 kieltä. Kokeile ilmaiseksi — kaupallinen lisenssi Etsyyn & KDP:hen.',
   },
 
   hero: {

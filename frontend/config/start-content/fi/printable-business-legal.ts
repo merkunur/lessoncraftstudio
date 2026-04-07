@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'tulostettavien tuotteiden myynti verovaatimukset verotus juridiset perusteet liiketoiminnalle',
+    primaryKeyword: 'tulostettavien myynti verotus ja juridiset perusteet',
     secondaryKeywords: [
-      'juridiset perusteet tulostettavien liiketoiminta',
-      'verovelvoitteet digitaaliset tuotteet',
+      'verovelvoitteet digitaalisten tuotteiden myynti',
       'yritysrakenne tulostettavien tuotteiden myyjille',
-      'immateriaalioikeudet tulostettavat tehtavat',
+      'kevytyrittäjyys tulostettavat tuotteet verotus',
+      'immateriaalioikeudet tulostettavat tehtävät',
     ],
     lsiKeywords: [
-      'arvonlisavero digitaaliset lataukset maittain',
-      'toiminimi tulostettavien liiketoiminta',
-      'kirjanpito Etsy-myyjille',
-      'alustaehtojen noudattaminen',
-      'rajat ylittava verotus digitaaliset tuotteet',
-      'vahennyskelpoiset menot tulostettavien liiketoiminta',
+      'arvonlisävero digitaaliset lataukset EU',
+      'toiminimi kevytyrittäjä tulostettavat',
+      'kirjanpito Etsy-myyjille vähennykset',
+      'alustaehtojen noudattaminen käyttöehdot',
+      'rajat ylittävä verotus digitaaliset tuotteet',
+      'vähennyskelpoiset menot tulostettavien liiketoiminta',
     ],
-    titleTag: 'Tulostettavien tuotteiden myynti verovaatimukset —...',
-    metaDescription: 'Verovaatimukset tulostettavien tuotteiden myyntiin. Yritysrakenne, vähennyskelpoiset menot,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Tulostettavien myynti: verotus ja juridiset perusteet',
+    metaDescription: 'Verotus ja juridiset perusteet tulostettavien tuotteiden myyntiin. Yritysrakenne, ALV, vähennyskelpoiset menot ja alustaehtojen noudattaminen.',
   },
 
   hero: {

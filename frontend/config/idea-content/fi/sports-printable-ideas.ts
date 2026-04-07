@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Urheiluaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu urheiluaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Urheilutulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Urheiluaiheisia tulostettavia tehtäviä myyntiin. Liikuntaniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'urheiluaiheiset tulostettavat ideat myyntiin',
+    primaryKeyword: 'urheilu tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'urheilutyöarkit myyntiin',
-      'urheilutulostettava liiketoimintaideat',
-      'urheiluaktiviteettiarkit myyjille',
-      'myy urheilutulostettavia Etsyssä',
+      'urheilutehtäviä myydä Etsyssä',
+      'urheilutulostettavat niche KDP',
+      'liikuntateemaiset tehtävät myyntiin',
+      'joukkueurheilu-aktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'urheiluteemalliset opetukselliset työarkit',
-      'liikunta-aiheiset aktiviteettisivut',
-      'joukkueurheilu tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'urheilu',
+      'liikunta',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

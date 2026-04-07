@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'piirra ja varita tyoarkit myy',
+    primaryKeyword: 'piirrä ja väritä tulostettavia myyntiin',
     secondaryKeywords: [
-      'piirustus ja varitys tulosteet Etsy',
-      'luova tehtavat lapsille myynti',
-      'drawing worksheets liiketoiminta',
+      'piirustustehtävät tulostettava Etsy',
+      'luovat tehtäväarkit myynti',
+      'taidetehtävät tulostettavia lapsille',
     ],
     lsiKeywords: [
-      'taidekasvatus tulosteet',
-      'luovuuden kehitys tyoarkit',
-      'piirustusharjoitukset lapsille',
+      'hienomotoriikka piirustus tulosteet',
+      'luovuuden kehitys tehtävät',
+      'taidekasvatus tulostettavia',
     ],
-    titleTag: 'Piirra ja varita -tyoarkit: myyntiopas | LCS',
-    metaDescription: 'Myy piirra ja varita -tyoarkkeja Etsyssa. Luovat tehtavat kehittavat hienomotoriikkaa ja ilmaisua. Kasvava markkina.',
+    titleTag: 'Piirrä ja väritä -tulosteet myyntiin | LCS',
+    metaDescription: 'Myy piirrä ja väritä -tehtäviä Etsyssä. Luovat tulostettavat tehtävät kehittävät hienomotoriikkaa ja ovat kasvava markkina.',
   },
   hero: {
     title: 'Piirra ja varita -tyoarkit: luovuus myyntituotteena',

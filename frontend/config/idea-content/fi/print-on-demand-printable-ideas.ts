@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Print-on-demand-työarkkiideat myyntiin — Opas',
-    metaDescription: 'Print-on-demand-työarkkiideat Etsy-, KDP- ja Shopify-myyjille. Rakenna nollavarastoinen tulostettava liiketoiminta työkirjoilla, aktiviteettipaketeilla ja.',
+    titleTag: 'Print-on-demand tulostettavat | Myy ilman varastoa',
+    metaDescription: 'Print-on-demand tulostettavien ideat myyjille. Myy KDP:ssä ja Etsyssä ilman varastoa.',
 
-    primaryKeyword: 'print-on-demand-työarkki-ideat',
+    primaryKeyword: 'print-on-demand tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'POD-tulostettava liiketoimintaideat',
-      'print-on-demand opetukselliset tuotteet',
-      'myy työarkkeja print-on-demandilla',
-      'POD-työarkkiliiketoimintamalli',
+      'POD-tulostettavia myydä KDP:ssä',
+      'nollavarasto tulostettava liiketoiminta',
+      'print-on-demand tehtävät Etsyssä',
+      'automatisoitu tulostettava myynti',
     ],
     lsiKeywords: [
-      'automatisoitu tulostus ja toimitus',
-      'tilauskohtainen opetustuotemyynti',
-      'nollavarastoinen työarkkiliiketoiminta',
+      'Etsy',
+      'KDP',
+      'POD',
+      'nollavarasto',
+      'tulostettavat',
+      'automatisoitu',
     ],
   },
   hero: {

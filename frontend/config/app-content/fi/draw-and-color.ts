@@ -2,21 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'piirustus ja väritys generaattori Etsyyn',
+    primaryKeyword: 'piirrustustehtävä tulostaa',
     secondaryKeywords: [
-      'piirustus ja väritys generaattori Etsy-kauppaan',
-      'luo piirustus- ja väritystyöarkkeja Etsyyn',
-      'ruudukkopiirrustus tulostettavat Amazon KDP',
-      'piirustus ja väritys työarkit kaupallinen lisenssi',
-      'myy taidetyöarkkeja verkossa',
+      'piirtää ja värittää tehtävä',
+      'vaihe-vaiheelta piirtäminen',
+      'taidetehtävä tulostaa',
+      'luova tehtävämoniste',
     ],
     lsiKeywords: [
-      'taideharjoitus tulostettava niche',
-      'myy piirustustyöarkkeja kaupallisesti',
-      'luovat työarkkituotteet Etsy',
+      'piirtäminen',
+      'väritys',
+      'luovuus',
+      'lapset',
+      'PDF',
     ],
-    titleTag: 'Piirustus ja Väritys Generaattori Etsyyn | LCS',
-    metaDescription: 'Luo piirustus- ja väritystyöarkkeja myyntiin Etsyssä ja KDP:ssä. Ruudukkopiirrustus, temaattiset kuvat, 104 kokoelmaa, lisenssi. $49 kertamaksu.',
+    titleTag: 'Piirtämis- ja väritystehtävä tulostaa | Luova generaattori',
+    metaDescription: 'Luo piirtämis- ja väritystehtäviä teemakuvilla. 300 DPI PDF tulostettavat. Kokeile ilmaiseksi — kaupallinen lisenssi.',
   },
 
   hero: {

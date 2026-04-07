@@ -2,21 +2,23 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kuviojuna generaattori myyjille luo myyntiin',
+    primaryKeyword: 'kuviotehtäviä tulostaa',
     secondaryKeywords: [
-      'kuvioharjoitus generaattori tulostettaviin tuotteisiin',
-      'luo kuviotyöarkkeja Etsy-kauppaan',
-      'sarjan täydennys tulostettavat Amazon KDP',
-      'kuviojuna työarkit kaupallinen lisenssi',
-      'myy kuvioharjoituksia verkossa',
+      'looginen järjestys tehtäviä',
+      'kuvion jatkaminen harjoitus',
+      'sekvenssi esiopetus',
+      'kuviotehtävä alkuopetus',
     ],
     lsiKeywords: [
-      'hahmontunnistus tulostettava niche',
-      'myy sarjatyöarkkeja kaupallisesti',
-      'varhainen matematiikka työarkkituotteet',
+      'kuvio',
+      'sekvenssi',
+      'AB',
+      'ABC',
+      'esiopetus',
+      'vastaukset',
     ],
-    titleTag: 'Kuviojuna Generaattori Myyjille | LCS',
-    metaDescription: 'Luo kuviojuna-työarkkeja myyntiin Etsyssä ja KDP:ssä. Sarjan täydennysharjoitukset, temaattiset kuvat, 104 kokoelmaa, lisenssi. $49 kertamaksu.',
+    titleTag: 'Kuviotehtäviä tulostaa | Loogisten järjestysten generaattori',
+    metaDescription: 'Luo kuviotehtäviä AB, ABC, ABCD sekvensseillä ja teemakuvilla. Automaattiset vastaukset. Kokeile ilmaiseksi.',
   },
 
   hero: {

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsi laske tulosteet tuottavuusopas',
+    primaryKeyword: 'etsi ja laske tulostettavia myyntiin',
     secondaryKeywords: [
-      'etsi ja laske tyoarkit myynti',
-      'laskutehtavat kuvilla Etsy',
-      'visuaalinen matematiikka tulosteet',
+      'laskutehtävät kuvilla tulosteet',
+      'visuaalinen matematiikka myynti',
+      'etsi ja laske -tehtäväarkit Etsy',
     ],
     lsiKeywords: [
-      'laskeminen kuvista',
+      'lukumäärän harjoittelu tulosteet',
       'visuaalinen hahmotus matematiikka',
-      'lukumaara harjoitukset',
+      'esikoulu laskeminen kuvista',
     ],
-    titleTag: 'Etsi ja laske -tulosteet: tuottavuusopas | LCS',
-    metaDescription: 'Myy etsi ja laske -tulosteita kannattavasti Etsyssa ja KDP:ssa. Visuaalinen etsiminen ja matematiikka. Matala kilpailu, vakaa kysynta.',
+    titleTag: 'Etsi ja laske -tulosteet myyntiin | LCS',
+    metaDescription: 'Myy etsi ja laske -tulosteita kannattavasti. Visuaalinen etsiminen ja laskeminen on matalan kilpailun niche.',
   },
   hero: {
     title: 'Etsi ja laske -tulosteet: tuottava piilonicheissa',

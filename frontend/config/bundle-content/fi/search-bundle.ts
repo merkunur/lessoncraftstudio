@@ -2,21 +2,21 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'etsi ja loyda -tyoarkkipaketti myyjille',
+    primaryKeyword: 'etsi ja löydä -paketti työarkkigeneraattoreita tulostettavia',
     secondaryKeywords: [
-      'etsi ja loyda -tyoarkkigeneraattoripaketti myyjille',
-      'I Spy piilotettu esine tulostepaketti kaupalliseen kayttoon',
-      'ristisanatehtava aarteenetsinta tyoarkkipaketti Etsy-myyjille',
-      'loyda ja laske aktiviteettigenraattorit KDP-myyjille',
+      'I Spy löydä ja laske generaattoripaketti Etsy kertaosto',
+      'ristisanatehtävä aarteenetsintä pulmapaketti KDP',
+      'piilotetut esineet löytämispaketti kaupalliseen käyttöön',
+      '4 löytämisgeneraattoria yhdessä paketissa',
     ],
     lsiKeywords: [
-      'piilotettu esine I Spy ristisanatehtava aarteenetsinta tyoarkkipaketti',
-      'monikielinen hakuaktiviteetti tulostettava kokoelma',
-      'kaupallinen lisenssi loytamistyoarkit',
-      'massatuotanto etsi ja loyda -tyoarkkityokalu',
+      'löydä ja laske löydä esineet ristisanatehtävä aarteenetsintä',
+      'monikielinen hakuaktiviteetti 11 kieltä',
+      'kaupallinen lisenssi säästä kertaosto',
+      'tulostusvalmiit PDF-työarkit vastausavaimilla',
     ],
-    titleTag: 'Etsi ja loyda -tyoarkkipaketti — 4 generaattoria myyjille',
-    metaDescription: 'Etsi ja loyda -paketti 4 generaattorilla: I Spy, piilotetut esineet, ristisanatehtavat ja aarteenetsinta. Myy Etsyssa, KDP:ssa, Gumroadissa. $149 kertamaksu.',
+    titleTag: 'Etsi ja löydä -paketti | 4 generaattoria — Kertaosto',
+    metaDescription: 'Etsi ja löydä -paketti: 4 generaattoria — I Spy, piilotetut esineet, ristisanatehtävät ja aarteenetsintä. 11 kieltä. $149 kertaosto.',
   },
 
   hero: {

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulosteet mockup kuvat myy enemman',
+    primaryKeyword: 'mockup-kuvat tulosteille myynti',
     secondaryKeywords: [
-      'tulosteet mockup kuvat myy enemman opas',
-      'tulosteet mockup kuvat myy enemman 2026',
-      'tulosteet mockup kuvat myy enemman Suomi',
+      'tuotekuvat tulosteet Etsy myy enemmän',
+      'mockup-kuva tulostettaville tuotteille',
+      'visuaalinen markkinointi tulosteet',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'ilmaiset mockup-pohjat tulosteet',
+      'Canva mockup tulosteet',
+      'tuotekuvaus Etsy-listaus',
     ],
-    titleTag: 'Mockup-kuvat tulosteille: myy enemman | LCS',
-    metaDescription: 'Kayta mockup-kuvia myydaksesi enemman tulosteita. Ilmaiset ja maksulliset mockup-lahteet ja vinkit. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Mockup-kuvat: myy tulosteita enemmän | LCS',
+    metaDescription: 'Käytä mockup-kuvia myydäksesi enemmän tulosteita. Ilmaiset ja maksulliset lähteet ja vinkit paremaan konversioon.',
   },
   hero: {
     title: 'Mockup-kuvat tulosteille: myy enemman visuaalisuudella',

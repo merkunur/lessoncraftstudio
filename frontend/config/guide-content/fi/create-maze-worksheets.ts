@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'opas labyrinttityöarkit labyrinttityöarkkeja luo',
-    secondaryKeywords: ['labyrinttgeneraattori lapsille', 'tulostettavat sokkelot myyntiin', 'kuvapolku labyrinttityöarkit', 'mukautetut labyrinttiharjoitukset'],
-    lsiKeywords: ['temaattiset labyrintit Etsyyn', 'Amazon KDP labyrinttiaktiviteettikirjat', 'hienomotoristentaitojen harjoituslabyrintit', 'kaupallinen lisenssi labyrinttityökalu', 'keräilykohteet labyrintit lapsille', 'kuvapolkuaktiviteetit'],
-    titleTag: 'Labyrinttityöarkit — Opas',
-    metaDescription: 'Luo labyrinttityöarkkeja temaattisilla kuvilla, keräilykohteilla, automaattisilla vastausavaimilla ja 104 teemalla. Opas Etsyn ja KDP:n myyjille.',
+    primaryKeyword: 'näin teet labyrinttitehtäviä tulostettavia',
+    secondaryKeywords: [
+      'labyrinttgeneraattori temaattisilla kuvilla',
+      'tulosta kuvapolkutehtäviä myyntiin Etsyssä',
+      'luo sokkelo-työarkkeja vastausavaimella PDF',
+      'labyrinttitehtävien tekeminen opas lapsille',
+    ],
+    lsiKeywords: [
+      'kuvapolku keräilykohteet hienomotoriikka',
+      'esiopetus alakoulu ongelmanratkaisu',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP labyrinttiaktiviteettikirja',
+      '104 teemaa kaksi tilaa',
+      'myy Etsyssä Gumroadissa',
+    ],
+    titleTag: 'Labyrinttitehtäviä tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet labyrinttitehtäviä tulostettavaksi temaattisilla kuvilla. Kuvapolku- ja klassinen tila, vastausavaimet ja PDF myyntiin Etsyssä ja KDP:ssä.',
   },
   hero: {
     title: 'Kuinka luot labyrinttityöarkkeja',

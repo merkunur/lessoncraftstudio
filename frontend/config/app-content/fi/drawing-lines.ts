@@ -2,21 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'viivanjäljennys työarkin generaattori etsyyn luo viivanjäljennystyöarkkeja myyntiin etsyssä',
+    primaryKeyword: 'kirjoitusmotoriikka viivat tulostaa',
     secondaryKeywords: [
-      'viivanjäljennys generaattori Etsy-myyjille',
-      'luo viivanjäljennystyöarkkeja Etsy-kauppaan',
-      'hienomotoriset työarkit Amazon KDP',
-      'jäljennys tulostettavat kaupallinen lisenssi',
-      'myy viivapiirrustustyöarkkeja verkossa',
+      'pisteviivat jäljentäminen',
+      'hienomotoriikka tehtävämoniste',
+      'jäljentämisharjoitukset esiopetus',
+      'viivoja piirtäminen tehtävä',
     ],
     lsiKeywords: [
-      'hienomotoriset taidot tulostettava niche',
-      'myy jäljennystyöarkkeja kaupallisesti',
-      'esikirjoitustaitojen tuotteet',
+      'hienomotoriikka',
+      'esiopetus',
+      'kynäote',
+      'jäljentää',
+      'vastaukset',
     ],
-    titleTag: 'Viivanjäljennys Työarkin Generaattori Etsyyn | LCS',
-    metaDescription: 'Luo viivanjäljennystyöarkkeja myyntiin Etsyssä ja KDP:ssä. 8 SVG-mallia, temaattiset kuvaparit, hienomotoriset harjoitukset, lisenssi. $49 kertamaksu.',
+    titleTag: 'Kirjoitusmotoriikka viivat tulostaa | Jäljentämisgeneraattori',
+    metaDescription: 'Luo jäljentämis- ja kirjoitusmotoriikan tehtäviä teemakuvilla. 300 DPI PDF tulostettavat. Kokeile ilmaiseksi — kaupallinen lisenssi.',
   },
 
   hero: {

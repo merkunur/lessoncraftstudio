@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'esikoulu tulosteet myydyimmat',
+    primaryKeyword: 'esikoulutulosteet myydyimmät',
     secondaryKeywords: [
-      'esikoulu tulosteet myydyimmat opas',
-      'esikoulu tulosteet myydyimmat 2026',
-      'esikoulu tulosteet myydyimmat Suomi',
+      'esikoulu tehtäväarkit Etsy bestseller',
+      'esiopetus tulostettavia myyntiin',
+      'varhaiskasvatuksen tulosteet kauppa',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'esikouluikäisten oppiminen tulosteet',
+      'päiväkoti-ikäisten tehtävät',
+      'kehitystehtävät 4-6-vuotiaille',
     ],
-    titleTag: 'Esikoulutulosteet: myydyimmat | LCS',
-    metaDescription: 'Esikouluikaisten tulosteet ovat myydyimpia tuotteita. Suomessa esikoulu on pakollinen 6-vuotiaille ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Esikoulutulosteet: myydyimmät | LCS',
+    metaDescription: 'Esikouluikäisten tulosteet ovat myydyimpiä tuotteita. Suomessa esiopetus on pakollista ja materiaalien kysyntä kasvaa.',
   },
   hero: {
     title: 'Esikoulutulosteet: myydyimmat tuotteet markkinoilla',

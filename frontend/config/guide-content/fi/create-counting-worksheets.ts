@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'lasku- ja kaaviotyöarkit',
+    primaryKeyword: 'näin teet laskutehtäviä kaavioilla tulostettavia',
     secondaryKeywords: [
-      'kuvakaavio-työarkkigeneraattori',
-      'luo lasku- ja kaaviotyöarkkeja',
-      'tulostettavat kuvakaavio-työarkit myyntiin',
-      'pylväsdiagrammi laskutyöarkkien tekijä',
+      'kuvakaavio-laskutehtävien generaattori',
+      'tulostettava lasku- ja kaaviotyöarkki opas',
+      'luo laskutehtäviä vastausavaimella PDF',
+      'pylväsdiagrammi laskutehtävä myyntiin',
     ],
     lsiKeywords: [
-      'hajautettujen kuvien ruudukon laskentaaktiviteetti',
-      'automaattinen vastausavain kaaviotyöarkit',
-      'kaksoiskankaan tiedon esittämisen työkalu',
-      'myy kaaviotyöarkkeja Etsyssä',
-      'Amazon KDP datataitojen työkirjat',
-      'kaupallinen lisenssi kuvakaavio-tekijä',
+      'esiopetus alakoulu datataidot',
+      'automaattinen vastausavain kaksoiskangas',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP datataitojen työkirja',
+      '104 teemaa kuvaruudukko',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Lasku- ja kaaviotyöarkit — Opas',
-    metaDescription: 'Luo laskutyöarkkeja kuvakaavioilla, automaattisella vastausavaimella ja 104 teemalla.',
+    titleTag: 'Laskutehtäviä kaavioilla tulostettavia | Opas',
+    metaDescription: 'Näin teet laskutehtäviä kuvakaavioilla tulostettavaksi. Automaattinen vastausavain, 104 teemaa ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

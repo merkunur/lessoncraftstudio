@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'myy yhteenlaskutehtavia Etsyssa 2026',
+    primaryKeyword: 'myy yhteenlaskutehtäviä Etsyssä',
     secondaryKeywords: [
-      'yhteenlasku tyoarkit Etsy liiketoiminta',
-      'myy matematiikka tulosteet verkossa',
-      'tulostettavat yhteenlaskutehtavat Etsy kauppa',
+      'yhteenlasku tulostettavia Etsy-kauppa',
+      'matematiikka tulosteet myynti verkossa',
+      'yhteenlaskutyöarkit liiketoiminta',
     ],
     lsiKeywords: [
-      'matematiikka tulosteet liiketoiminta',
-      'tyoarkkien hinnoittelu',
+      'matemaattinen harjoittelu tulosteet',
       'Etsy digitaalinen lataus matematiikka',
+      'tehtäväarkkien hinnoittelu Etsy',
     ],
-    titleTag: 'Myy yhteenlaskutehtavia Etsyssa: opas | LCS',
-    metaDescription: 'Opi myymaan yhteenlaskutehtavia Etsyssa kannattavasti. Hinnoittelu, paketointi ja ilmoitusstrategiat 2026. Kokeile generaattoria vesileimalla.',
+    titleTag: 'Myy yhteenlaskutehtäviä Etsyssä | LCS',
+    metaDescription: 'Opi myymään yhteenlaskutehtäviä Etsyssä kannattavasti. Hinnoittelu, paketointi ja ilmoitusstrategiat.',
   },
   hero: {
     title: 'Myy yhteenlaskutehtavia Etsyssa: taydellinen opas',

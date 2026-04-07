@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulosteet liiketoiminta ilman suunnittelutaitoja',
+    primaryKeyword: 'tulosteliiketoiminta ilman designtaitoja',
     secondaryKeywords: [
-      'tulosteet liiketoiminta ilman suunnittelutaitoja opas',
-      'tulosteet liiketoiminta ilman suunnittelutaitoja 2026',
-      'tulosteet liiketoiminta ilman suunnittelutaitoja Suomi',
+      'aloita tulostekauppa ilman suunnittelua',
+      'tulosteet myyntiin ilman graafista osaamista',
+      'generaattorilla tulosteita ilman taitoja',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'työarkkigeneraattori aloittelijoille',
+      'tulostekauppa ilman Canvaa',
+      'automaattinen tulosteiden luominen',
     ],
-    titleTag: 'Tulosteliiketoiminta ilman designtaitoja | LCS',
-    metaDescription: 'Aloita tulosteliiketoiminta ilman suunnittelutaitoja. Generaattorit tekevat suunnittelun puolestasi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Tulostekauppa ilman designtaitoja | LCS',
+    metaDescription: 'Aloita tulosteliiketoiminta ilman suunnittelutaitoja. Generaattorit tekevät suunnittelun puolestasi automaattisesti.',
   },
   hero: {
     title: 'Tulosteliiketoiminta ilman suunnittelutaitoja',

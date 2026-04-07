@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Digitaalisten latausten työarkkideat myyntiin — Opas',
-    metaDescription: 'Digitaalisten latausten työarkkideat Etsy-, Gumroad- ja Shopify-myyjille. Rakenna nollavarasto tulostettava liiketoiminta opetuksellisten PDF-tiedostojen.',
+    titleTag: 'Digitaaliset tulostettavat ideat | Myy PDF-tehtäviä',
+    metaDescription: 'Digitaalisten tulostettavien ideaopas myyjille. Myy PDF-tehtäviä Etsyssä ilman varastoa.',
 
-    primaryKeyword: 'digitaalisten latausten työarkkideat',
+    primaryKeyword: 'digitaaliset tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'digitaalinen lataus tulostettava liiketoiminta',
-      'myy digitaalisia työarkkeja verkossa',
-      'digitaalisia tulostettavia tuoteideat',
-      'ladattava työarkkien liiketoimintamalli',
+      'PDF-tehtäviä myydä Etsyssä',
+      'digitaalinen lataus tulostettavat',
+      'nollavarasto tulostettava liiketoiminta',
+      'ladattavat tehtävät myyntiin verkossa',
     ],
     lsiKeywords: [
-      'välitön lataus opetustuotteet',
-      'PDF-työarkkien markkinapaikkamyynti',
-      'automatisoitu digitaalinen tuotetoimitus',
+      'Etsy',
+      'KDP',
+      'PDF',
+      'digitaalinen',
+      'tulostettavat',
+      'nollavarasto',
     ],
   },
   hero: {

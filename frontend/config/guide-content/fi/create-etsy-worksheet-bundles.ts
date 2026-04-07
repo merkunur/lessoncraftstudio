@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo Etsy-työarkkipaketteja',
+    primaryKeyword: 'näin teet työarkkipaketteja Etsy-myyntiin',
     secondaryKeywords: [
-      'Etsy-työarkkipakettistrategia',
-      'tulostettavat paketit Etsy-myyntiin',
-      'yhdistä työarkkeja Etsy-paketeiksi',
-      'Etsy-paketin rakentaminen myyjille',
+      'Etsy-työarkkipakettistrategia opas',
+      'tulostettavien pakettien rakentaminen myyntiin',
+      'luo temaattisia aktiviteettipaketteja Etsyyn',
+      'työarkkipakettien hinnoittelu Etsyssä',
     ],
     lsiKeywords: [
-      'moniformaattiset työarkkipaketit',
-      'temaattiset aktiviteettipaketat',
-      'Etsy-paketin hinnoittelustrategia',
-      'ristimyynti tulostettavat tuotteet',
-      'Etsy-myyjän paketointi-opas',
-      'kaupallinen lisenssi työarkkityökalut',
+      'moniformaattiset paketit ristimyynti',
+      'temaattiset kokoelmat kausijulkaisut',
+      'kaupallinen lisenssi PDF-vienti',
+      'Etsy-paketin hinnoittelu konversio',
+      '33 generaattoria 6 kategoriaa',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo Etsy-työarkkipaketteja — Opas',
-    metaDescription: 'Luo ja myy työarkkipaketteja Etsyssä. Moniformaattiset paketit, temaattiset kokoelmat, hinnoittelustrategiat ja kausiluonteiset julkaisut. Myyjän opas.',
+    titleTag: 'Työarkkipaketteja Etsy-myyntiin | Opas myyjille',
+    metaDescription: 'Näin teet työarkkipaketteja Etsy-myyntiin. Moniformaattiset paketit, temaattiset kokoelmat, hinnoittelu ja kausiluonteiset julkaisut.',
   },
 
   hero: {

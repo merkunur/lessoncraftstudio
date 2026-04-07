@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'luo aktiviteettikirja KDP alusta loppuun',
+    primaryKeyword: 'aktiviteettikirja KDP julkaisu opas',
     secondaryKeywords: [
-      'vaihe sisallon luominen generaattorilla',
-      'vaihe muotoilu paketointi',
-      'vaihe ilmoituksen luominen julkaisu',
+      'tee aktiviteettikirja Amazoniin',
+      'KDP-kirjan luominen alusta loppuun',
+      'tulostettava aktiviteettikirja julkaisu',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'KDP muotoiluvaatimukset',
+      'aktiviteettikirjan kansi',
+      'Amazon kirjamyynti aloittelijoille',
     ],
-    titleTag: 'Aktiviteettikirja KDP:ssa: alusta loppuun | LCS',
-    metaDescription: 'Luo aktiviteettikirja Amazon KDP:ssa alusta julkaisuun. Sisalto, muotoilu, kansi ja lanseeraus vaihe vaiheelta.',
+    titleTag: 'Aktiviteettikirja KDP:hen: opas | LCS',
+    metaDescription: 'Luo aktiviteettikirja Amazon KDP:hen alusta julkaisuun. Sisältö, muotoilu, kansi ja lanseeraus vaihe vaiheelta.',
   },
   hero: {
     title: 'Aktiviteettikirja KDP:ssa alusta loppuun',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sana-arvauspelit tyoarkit myy',
+    primaryKeyword: 'sana-arvauspeli tulostettavia myyntiin',
     secondaryKeywords: [
-      'sana-arvaustehtavat tulosteet Etsy',
-      'arvauspeli tyoarkit lapsille',
-      'kielipelit tulostettava myynti',
+      'sanapeli tulosteet Etsy myynti',
+      'arvauspeli tehtäväarkit tulostettavia',
+      'sanatehtävät tulostettavia lapsille',
     ],
     lsiKeywords: [
-      'sanapelit pedagogiset',
-      'kirjainarvaus tehtavat',
-      'kielellinen paattely tulosteet',
+      'sanasto-pelit tulosteet',
+      'kielitaito pelit tulostettavia',
+      'interaktiiviset sanapulmat',
     ],
-    titleTag: 'Sana-arvauspelit tyoarkeina: myyntiopas | LCS',
-    metaDescription: 'Myy sana-arvaustehtavia Etsyssa. Hauska pelillinen tuote joka opettaa kielitaitoa. Suomenkielisilla tuotteilla ei ole kilpailua.',
+    titleTag: 'Sana-arvauspeli tulostettavina | LCS',
+    metaDescription: 'Myy sana-arvauspelejä tulostettavina Etsyssä. Sanapelit kehittävät sanavarastoa ja ovat hauska oppimistapa.',
   },
   hero: {
     title: 'Sana-arvauspelit tyoarkeina: pelillinen myyntituote',

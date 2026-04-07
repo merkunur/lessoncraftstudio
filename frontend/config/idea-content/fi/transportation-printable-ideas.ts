@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kulkuneuvoaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu kulkuneuvoaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Kulkuneuvotulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Kulkuneuvoaiheisia tulostettavia tehtäviä myyntiin. Ajoneuvoniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'kulkuneuvoaiheiset tulostettavat ideat myyntiin',
+    primaryKeyword: 'kulkuneuvo tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'kulkuneuvotyöarkit myyntiin',
-      'kulkuneuvotulostettava liiketoimintaideat',
-      'ajoneuvoaktiviteettiarkit myyjille',
-      'myy kulkuneuvotulostettavia Etsyssä',
+      'kulkuneuvotehtäviä myydä Etsyssä',
+      'kulkuneuvotulostettavat niche KDP',
+      'ajoneuvoteemaiset tehtävät myyntiin',
+      'auto- ja lentokoneaktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'ajoneuvoteemalliset opetukselliset työarkit',
-      'liikenneaiheiset aktiviteettisivut',
-      'auto- ja lentokonetulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'kulkuneuvot',
+      'ajoneuvot',
+      'liikenne',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

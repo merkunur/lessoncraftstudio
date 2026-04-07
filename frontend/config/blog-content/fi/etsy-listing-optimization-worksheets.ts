@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'etsy ilmoitusten optimointi tyoarkeille ilmoitus',
+    primaryKeyword: 'Etsy-ilmoituksen optimointi tulosteet',
     secondaryKeywords: [
-      'Etsy ilmoitus optimointi tyoarkit opas',
-      'Etsy ilmoitus optimointi tyoarkit 2026',
-      'Etsy ilmoitus optimointi tyoarkit Suomi',
+      'Etsy-listaus työarkit optimointi',
+      'ilmoituksen otsikko tulosteet Etsy',
+      'tunnisteet ja kuvaukset Etsy-kauppa',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'konversioprosentti Etsy',
+      'tuotekuvat Etsy-listaus',
+      'hakutulossijoitus Etsy',
     ],
-    titleTag: 'Etsy-ilmoitusten optimointi tyoarkeille | LCS',
-    metaDescription: 'Optimoi Etsy-ilmoituksesi tyoarkeille. Otsikot, kuvat, kuvaukset ja tunnisteet jotka konvertoivat 2026.',
+    titleTag: 'Etsy-ilmoitusten optimointi tulosteille | LCS',
+    metaDescription: 'Optimoi Etsy-ilmoituksesi tulostettaville tuotteille. Otsikot, kuvat, kuvaukset ja tunnisteet jotka konvertoivat.',
   },
   hero: {
     title: 'Etsy-ilmoitusten optimointi tyoarkeille',

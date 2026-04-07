@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'dinosaurus tulosteet myy ikivihrea',
+    primaryKeyword: 'dinosaurustulosteet ikivihreä myynti',
     secondaryKeywords: [
-      'dinosaurus tulosteet myy ikivihrea opas',
-      'dinosaurus tulosteet myy ikivihrea 2026',
-      'dinosaurus tulosteet myy ikivihrea Suomi',
+      'myy dinosaurustehtäviä Etsyssä',
+      'dinosaurusteema tulosteet liiketoiminta',
+      'dinosaurus työarkit tulostettavia',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'dinosaurukset lapsille tulosteet',
+      'luonnonhistoria tehtävät',
+      'STEM-tulosteet dinosaurusteema',
     ],
-    titleTag: 'Dinosaurustulosteet: ikivihrea myynti | LCS',
-    metaDescription: 'Myy dinosaurustulosteita ymparivuotisesti. Dinosaurukset ovat lasten ikivihrea suosikki joka ei mene pois. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Dinosaurustulosteet: ikivihreä tuote | LCS',
+    metaDescription: 'Dinosaurustulosteet myyvät ympärivuotisesti. Dinosaurukset ovat lasten ikivihreä suosikki joka ei mene pois muodista.',
   },
   hero: {
     title: 'Dinosaurustulosteet: ikivihrea suosikkiteema',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kevat tulosteet myy maalis huhtikuu',
+    primaryKeyword: 'kevättulosteet myyntiin maalis-huhtikuu',
     secondaryKeywords: [
-      'kevat tulosteet myy maalis huhtikuu opas',
-      'kevat tulosteet myy maalis huhtikuu 2026',
-      'kevat tulosteet myy maalis huhtikuu Suomi',
+      'kevään tulosteet sesonkimyynti',
+      'maaliskuun tulostettavia Etsy',
+      'kevätkukat ja luonto tulosteet',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'kevään saapuminen Suomi tulosteet',
+      'luontoteemat kevät tulostettavia',
+      'kausiluonteiset tulosteet kevät',
     ],
-    titleTag: 'Kevaatulosteet maalis-huhtikuussa | LCS',
-    metaDescription: 'Myy kevaatulosteet maalis-huhtikuussa. Kevaan saapuminen Suomeen on erityinen tapahtuma joka inspiroi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Kevättulosteet maalis-huhtikuussa | LCS',
+    metaDescription: 'Myy kevättulosteita maalis-huhtikuussa. Kevään saapuminen Suomeen on erityinen tapahtuma joka inspiroi tuoteideoita.',
   },
   hero: {
     title: 'Kevaatulosteet maalis-huhtikuussa: kevaan juhla',

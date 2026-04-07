@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'varityssivut liiketoiminta 2026',
+    primaryKeyword: 'värityssivut tulostettavia liiketoiminta',
     secondaryKeywords: [
-      'varityskuvat tulosteet myynti',
-      'coloring pages Etsy liiketoiminta',
-      'varitys tulosteet myy',
+      'myy värityskuvia Etsyssä',
+      'värityskirjat KDP liiketoiminta',
+      'tulostettavat väritystehtävät myynti',
     ],
     lsiKeywords: [
-      'luova kehitys tulosteet',
-      'varityskirjat KDP',
-      'taidekasvatus tulostettava',
+      'aikuisten värityskirjat KDP',
+      'lasten värityskuvat tulostettavia',
+      'luontoteemat väritys Suomi',
     ],
-    titleTag: 'Varityssivut liiketoimintana 2026 | LCS',
-    metaDescription: 'Rakenna kannattava varityssivuliiketoiminta 2026. Ikivihrea tuote kaikille ikaryhmille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Värityssivut liiketoimintana | LCS',
+    metaDescription: 'Rakenna kannattava värityssivuliiketoiminta. Ikivihreä tuotekategoria kaikille ikäryhmille Etsyssä ja KDP:ssä.',
   },
   hero: {
     title: 'Varityssivut liiketoimintana 2026: taydellinen opas',

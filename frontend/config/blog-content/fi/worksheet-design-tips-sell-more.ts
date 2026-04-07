@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tyoarkit suunnittelu vinkit myy enemman',
+    primaryKeyword: 'tehtäväarkkien suunnitteluvinkit myynti',
     secondaryKeywords: [
-      'tyoarkit suunnittelu vinkit myy enemman opas',
-      'tyoarkit suunnittelu vinkit myy enemman vaiheittain',
-      'tyoarkit suunnittelu vinkit myy enemman 2026',
+      'tulosteiden design myy enemmän',
+      'visuaalinen suunnittelu työarkit',
+      'tehtäväarkkien ulkoasu vinkit',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'typografia tulosteet',
+      'asettelu tehtäväarkit',
+      'ammattimainen ulkoasu tulosteet',
     ],
-    titleTag: 'Tyoarkkien suunnitteluvinkit: myy enemman | LCS',
-    metaDescription: 'Suunnitteluvinkit jotka tekevat tyoarkeistasi myyvempia. Visuaalinen ilme, asettelu ja typografia. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Tehtäväarkkien designvinkit | LCS',
+    metaDescription: 'Paranna tulosteidesi ulkoasua ja myy enemmän. Suunnitteluvinkit jotka nostavat koettua arvoa ja konversiota.',
   },
   hero: {
     title: 'Tyoarkkien suunnitteluvinkit: myy enemman laadulla',

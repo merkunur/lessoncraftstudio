@@ -2,16 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'puuttuvat palat -pulmat',
+    primaryKeyword: 'näin teet puuttuvat palat -pulmia tulostettavia',
     secondaryKeywords: [
-      'avaa puuttuvat palat generaattori',
-      'valitse teema kuva',
-      'luo tarkista',
-      'mukauta vie',
+      'puuttuvat palat -generaattori myyntiin',
+      'tulosta palapelitehtäviä häiritsevin vaihtoehdon',
+      'luo puuttuvat palat -pulmia vastausavaimella',
+      'puuttuvat palat -pulmien tekeminen opas',
     ],
-    lsiKeywords: ['älykkäästi irrotetut palat temaattisilla kuvilla', 'numeroidut ratkaisuvaihtoehdot häiritsevillä vaihtoehdoilla', 'automaattinen vastausavain keltakorosteisin merkinnöin', 'myy palapelityöarkkeja Etsyssä', 'Amazon KDP palapulakirjat', 'kaupallinen lisenssi palapelityökalu'],
-    titleTag: 'Puuttuvat palat -pulmat — Opas',
-    metaDescription: 'Luo puuttuvat palat -pulmatyöarkkeja temaattisilla kuvilla, numeroiduilla vaihtoehdoilla, häiritsevillä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    lsiKeywords: [
+      'visuaalinen analyysi looginen päättely',
+      'numeroidut vaihtoehdot häiritsevät',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP palapulakirja',
+      '104 teemaa automaattinen vastausavain',
+      'myy Etsyssä Gumroadissa',
+    ],
+    titleTag: 'Puuttuvat palat -pulmia tulostettavia | Opas',
+    metaDescription: 'Näin teet puuttuvat palat -pulmia tulostettavaksi. Numeroidut vaihtoehdot, häiritsevät, vastausavaimet ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
   hero: {
     title: 'Kuinka luot puuttuvat palat -pulmiä',

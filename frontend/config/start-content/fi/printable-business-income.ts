@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'paljon tulostettavien myynnillä voi tienata liiketoiminnan tulot realistiset',
+    primaryKeyword: 'paljonko tulostettavien myynnillä voi tienata',
     secondaryKeywords: [
-      'tuotto-odotukset tulostettavien liiketoiminta',
-      'realistinen tulo tulostettavien tuotteiden myynti',
-      'myy tehtavia verkossa tulot',
-      'tulotekijat tulostettavien liiketoiminta',
+      'tulostettavien liiketoiminnan tuotto-odotukset',
+      'realistiset tulot tulostettavien tuotteiden myynnistä',
+      'passiivinen tulo tulostettavilla verkossa',
+      'tulotekijät Etsy KDP Gumroad tulostettavat',
     ],
     lsiKeywords: [
-      'Etsy tulostettavien myyjien tulotekijat',
-      'Amazon KDP aktiviteettikirjan tulomuuttujat',
-      'tehtavaliiketoiminta katalogin koko tulot',
+      'Etsy-tulostettavien myyjien tulotekijät',
+      'Amazon KDP aktiviteettikirjan rojaltit',
+      'katalogin koko ja tulovaikutus',
       'tulostettavien hinnoittelustrategia alustamaksut',
-      'digitaalinen lataus liiketoiminta aikainvestointi',
+      'digitaalinen lataus passiivinen sivutyö',
       'useat tulovirrat tulostettavat tuotteet',
     ],
-    titleTag: 'Paljon tulostettavien myynnillä voi tienata',
-    metaDescription: 'Kuinka paljon tulostettavien tuotteiden myynnillä voi tienata? Realistiset tuotto-odotukset, alustamaksut,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Paljonko tulostettavien myynnillä voi tienata?',
+    metaDescription: 'Paljonko tulostettavien tuotteiden myynnillä voi tienata? Realistiset tuotto-odotukset, alustamaksut ja tulotekijät Etsyssä ja KDP:ssä.',
   },
 
   hero: {

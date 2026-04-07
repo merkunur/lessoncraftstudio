@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'skaalaa tulosteliiketoiminta automaatiolla tulosteliiketoiminnan skaalaus liiketoiminta automaatio',
+    primaryKeyword: 'skaalaa tulostekauppa automaatiolla',
     secondaryKeywords: [
-      'skaalaa tulosteet liiketoiminta automaatio opas',
-      'skaalaa tulosteet liiketoiminta automaatio 2026',
-      'skaalaa tulosteet liiketoiminta automaatio Suomi',
+      'tulosteliiketoiminnan skaalaus opas',
+      'automaatio tulostekaupassa',
+      'tuotannon tehostaminen tulosteet',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'generaattorit skaalaus',
+      'ajanhallinta tulosteyrittäjä',
+      'järjestelmät tulostekauppa',
     ],
-    titleTag: 'Skaalaa tulosteliiketoiminta automaatiolla | LCS',
-    metaDescription: 'Skaalaa tulosteliiketoimintasi automaatiolla. Generaattorit, mallitehtavat ja jarjestelmat jotka saastava. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Skaalaa tulostekauppa automaatiolla | LCS',
+    metaDescription: 'Skaalaa tulosteliiketoimintasi automaatiolla. Generaattorit, mallipohjat ja järjestelmät jotka säästävät aikaa.',
   },
   hero: {
     title: 'Tulosteliiketoiminnan skaalaus automaatiolla',

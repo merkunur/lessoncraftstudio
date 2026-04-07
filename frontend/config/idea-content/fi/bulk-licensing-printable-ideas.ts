@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Massalisensoinnin tulostettavat liiketoimintaideat...',
-    metaDescription: 'Massalisensoinnin tulostettavat liiketoimintaideat työarkkikokoelmien myyntiin laitoksille, piireille ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Massalisensointi tulostettaville | Myy volyymilla',
+    metaDescription: 'Massalisensoinnin ideat tulostettaville tuotteille. Myy volyymilisenssejä yrityksille ja organisaatioille.',
 
-    primaryKeyword: 'massalisensointi tulostettava',
+    primaryKeyword: 'massalisensointi tulostettavat myyntiin',
     secondaryKeywords: [
-      'massalisenssi työarkkien liiketoiminta',
-      'laitoslisenssi tulostettavat',
-      'tukkumyynti tulostettavien työarkkien myynti',
-      'massa opetukselliset tulostettavat sopimukset',
+      'tulostettavien volyymilisenssi ideat',
+      'kaupallinen lisenssi tulostettavat',
+      'tukkumyynti tulostettavat tehtävät',
+      'organisaatiolisenssi digitaaliset tuotteet',
     ],
     lsiKeywords: [
-      'volyymilisensointi digitaalisille tuotteille',
-      'laitostulostettavien sopimukset',
-      'organisaationlaajuiset työarkkipaketit',
+      'Etsy',
+      'KDP',
+      'lisenssi',
+      'volyymi',
+      'tulostettavat',
+      'kaupallinen',
     ],
   },
   hero: {

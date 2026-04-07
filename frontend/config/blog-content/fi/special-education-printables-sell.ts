@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'erityisopetus tulosteet myy',
+    primaryKeyword: 'erityisopetus tulostettavia myyntiin',
     secondaryKeywords: [
-      'erityisopetus tulosteet myy opas',
-      'erityisopetus tulosteet myy 2026',
-      'erityisopetus tulosteet myy Suomi',
+      'erityisopetusmateriaalit tulosteet Etsy',
+      'erityislasten tehtäväarkit myynti',
+      'mukautetut tulostettavat oppimateriaalit',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'eriyttäminen tulosteet',
+      'erityistarpeet tehtäväarkit',
+      'tukiopetus tulostettavia Suomi',
     ],
-    titleTag: 'Erityisopetustulosteet: myyntiopas | LCS',
-    metaDescription: 'Myy erityisopetustulosteita. Suomessa erityisopetus on laadukasta ja materiaalien kysynta jatkuvaa. Kilpailuton niche.',
+    titleTag: 'Erityisopetustulosteet myyntiin | LCS',
+    metaDescription: 'Myy erityisopetustulosteita. Suomessa erityisopetus on laadukasta ja materiaalien kysyntä on jatkuvaa ja kilpailuton niche.',
   },
   hero: {
     title: 'Erityisopetustulosteet: arvokas ja kilpailuton niche',

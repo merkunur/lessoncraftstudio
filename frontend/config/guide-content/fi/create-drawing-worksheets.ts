@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'piirustus opas luo piirustustyöarkit kuinka',
+    primaryKeyword: 'näin teet piirustustyöarkkeja tulostettavia',
     secondaryKeywords: [
-      'avaa piirustustyöarkkigeneraattori',
-      'valitse teema kuva',
-      'aseta vihjeprosentti luo',
-      'mukauta vie',
+      'piirustusharjoitusten generaattori myyntiin',
+      'tulosta ruudukkopiirustustehtäviä opas',
+      'luo piirustusarkkeja vihjekuvilla PDF',
+      'piirustustyöarkkien tekeminen Etsyyn',
     ],
     lsiKeywords: [
-      'kaksoisruudukko piirustusharjoitus vihjekuva piirrosjärjestelmä',
-      'MV-ääriviivateema väri-ruudukko vihjeprosentti generaattori',
-      'solukohtainen jäljentäminen symmetrinen piirtäminen hienomotoriikka työkalu',
-      'myy piirustusharjoitusarkkeja Etsyssä',
-      'Amazon KDP piirustusaktiviteettikirjat',
-      'kaupallinen lisenssi piirustusharjoitustyökalu',
+      'kaksoisruudukko vihjekuva piirtäminen',
+      'MV-ääriviiva hienomotoriikka',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP piirustusaktiviteettikirja',
+      '104 teemaa esiopetus alakoulu',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Piirustustyöarkit — Opas',
-    metaDescription: 'Luo ruudukkopiirustustyöarkkeja kaksoisruudukolla, vihjekuvilla, MV-ääriviivateemoilla ja 104 temaattisella kuvalla. Opas Etsyn ja KDP:n myyjille.',
+    titleTag: 'Piirustustyöarkkeja tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet piirustustyöarkkeja tulostettavaksi. Kaksoisruudukko, vihjekuvat, 104 teemaa ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

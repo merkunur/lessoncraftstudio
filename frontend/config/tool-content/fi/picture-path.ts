@@ -2,11 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kuvareitti generaattori labyrinttitehtava generaattori labyrintti',
-    secondaryKeywords: ['labyrinttitehtava-generaattori myyjille', 'tee kuvareitti-labyrinttitehtavia myyntiin', 'tulostettava labyrinttipalapeli-generaattori kaupallinen kaytto', 'labyrinttiaktiviteetti-generaattori KDP ja Etsy'],
-    lsiKeywords: ['kolme pelitilaa kuvareitti klassinen labyrintti valitse reitti', 'LPF pisin polku ensin algoritmi seinaepohjainen labyrintti-generaattori', 'automaattinen vastausavain pinkki ympyrae ratkaisupolku labyrintti-generaattori'],
-    titleTag: 'Kuvareitti-generaattori — Labyrinttitehtava-generaattori...',
-    metaDescription: 'Tee labyrinttitehtavia Kuvareitti-, Klassinen labyrintti- ja Valitse oikea reitti -tiloilla, kerailtaevillae. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    primaryKeyword: 'ilmainen labyrintti tulostettava verkossa',
+    secondaryKeywords: [
+      'labyrinttejä ilmaiseksi verkossa',
+      'labyrinttgeneraattori ilman rekisteröitymistä',
+      'kokeile labyrinttiä ilmaiseksi',
+      'tulostettava labyrintti ilmainen kokeilu',
+    ],
+    lsiKeywords: [
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'labyrinttitehtävä',
+    ],
+    titleTag: 'Ilmainen labyrintti verkossa | Ei rekisteröitymistä',
+    metaDescription: 'Tee labyrinttitehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

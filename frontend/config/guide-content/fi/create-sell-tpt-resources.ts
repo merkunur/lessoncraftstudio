@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo ja myy resursseja Gumroadissa',
+    primaryKeyword: 'näin luot ja myyt resursseja Gumroadissa',
     secondaryKeywords: [
-      'Gumroad-resurssien luominen myyjille',
-      'myy tulostettavia resursseja Gumroadissa',
       'Gumroad-kaupan perustaminen tulostettaville',
-      'Gumroad-listausten optimointi',
+      'tulostettavien resurssien myynti Gumroadissa',
+      'Gumroad-listausten optimointi myyjille',
+      'digitaalisten resurssien myynti opas',
     ],
     lsiKeywords: [
-      'digitaalisten resurssien myynti Gumroadissa',
-      'Gumroad-kaupan rakentaminen tulostettaville tuotteille',
-      'tulostettavat resurssit verkkokauppaan',
-      'Gumroad-avainsanastrategia tulostettaville',
-      'tulostettavien resurssien paketointi myyntiin',
-      'kaupallinen lisenssi resurssien luomiseen',
+      'suoramyyntialusta digitaaliset tuotteet',
+      'Gumroad-kaupan rakentaminen brändi',
+      'kaupallinen lisenssi PDF-vienti',
+      'avainsanastrategia tuotesivu konversio',
+      'paketointi hinnoittelu skaalaaminen',
+      'myy Gumroadissa Etsyssä',
     ],
-    titleTag: 'Luo ja myy resursseja Gumroadissa — Opas',
-    metaDescription: 'Kokonaisvaltainen opas tulostettavien resurssien luomiseen ja myymiseen Gumroadissa. Kaupan perustaminen, tuotteiden optimointi, hinnoittelu ja skaalaus.',
+    titleTag: 'Myy resursseja Gumroadissa | Opas myyjille',
+    metaDescription: 'Näin luot ja myyt tulostettavia resursseja Gumroadissa. Kaupan perustaminen, tuotteiden optimointi, hinnoittelu ja skaalausstrategia.',
   },
 
   hero: {

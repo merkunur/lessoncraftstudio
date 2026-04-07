@@ -2,16 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'työarkkien laatustandardit',
+    primaryKeyword: 'tulostettavien työarkkien laatustandardit',
     secondaryKeywords: [
-      'ymmärrä miksi laatu vaikuttaa suoraan',
-      'hallitse tulostettavan muotoilun perusteet',
-      'varmista typografian luettavuuden standardit',
-      'varmista vastausten sisällön tarkkuus',
+      'ammattimaiset laatuvaatimukset tulostettaville',
+      'tulostettavien muotoilun laatuopas myyjille',
+      'typografian ja luettavuuden standardit työarkeille',
+      'vastausten tarkkuus ja laadunvarmistus opas',
     ],
-    lsiKeywords: ['tulostuslaatu muotoilustandardit typografia tasaus luettavuus', 'vastausten tarkkuus oikoluku laadunvarmistus ammattimainen ulkoasu', 'tuotteen laatu asiakastyytyväisyys arvostelujen hallinta brändin luotettavuus', 'tulostettava muotoilu sivun asettelu marginaalit resoluutio väritila', 'sisällön tarkkuus opetuksellinen sopivuus ikätasoinen materiaali', 'visuaalinen johdonmukaisuus brändi-identiteetti tuotelinja ammattimainen esittely'],
-    titleTag: 'Työarkkien laatustandardit — Opas',
-    metaDescription: 'Ammattimaiset laatustandardit tulostettaville työarkeille. Muotoilu, typografia, tulostuslaatu, vastausten. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    lsiKeywords: [
+      'tulostuslaatu muotoilu typografia tasaus',
+      'vastausten tarkkuus oikoluku laadunvarmistus',
+      'kaupallinen lisenssi ammattimainen tuote',
+      'tuotteen laatu arvostelut premium-hinta',
+      'Etsy KDP Gumroad tuotelaatu',
+      'visuaalinen johdonmukaisuus brändi-identiteetti',
+    ],
+    titleTag: 'Tulostettavien laatustandardit | Ammattimainen opas',
+    metaDescription: 'Laatustandardit tulostettaville työarkeille. Muotoilu, typografia, tulostuslaatu, vastausten tarkkuus ja laadunvarmistusprosessi ammattimaisille myyjille.',
   },
 
   hero: {

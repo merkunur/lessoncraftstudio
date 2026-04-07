@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kolmannen luokan tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu kolmannen luokan tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: '3. luokan tulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: '3. luokan tulostettavia tehtäviä myyntiin. Alakoulun niche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'kolmannen luokan tulostettavat ideat myyntiin nicheopas liiketoimintaideat',
+    primaryKeyword: '3. luokan tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'kolmannen luokan työarkit myyntiin',
-      'kolmannen luokan tulostettava liiketoimintaideat',
-      'kolmannen luokan aktiviteettiarkit myyjille',
-      'myy kolmannen luokan tulostettavia Etsyssä',
+      'kolmannen luokan tehtäviä myydä Etsyssä',
+      '3. luokan tulostettavat niche KDP',
+      'alakoulun tehtävät myyntiin',
+      '8–9-vuotiaiden tulostettavat aktiviteetit',
     ],
     lsiKeywords: [
-      'alakoulun opetukselliset työarkit',
-      '8–9-vuotiaiden oppimisaktiviteettisivut',
-      'kolmannen vuosiluokan tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'alakoulu',
+      '3. luokka',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Vedenalaiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu vedenalaisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Vedenalaiset tulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Vedenalaisia tulostettavia tehtäviä myyntiin. Merielämäniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'vedenalaiset tulostettavat ideat myyntiin',
+    primaryKeyword: 'vedenalainen tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'vedenalaiset työarkit myyntiin',
-      'vedenalainen tulostettava liiketoimintaideat',
-      'merielämäaktiviteettiarkit myyjille',
-      'myy vedenalaisia tulostettavia Etsyssä',
+      'vedenalaisia tehtäviä myydä Etsyssä',
+      'vedenalaiset tulostettavat niche KDP',
+      'merielämäteemaiset tehtävät myyntiin',
+      'koralliriutta-aktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'meri-aiheiset opetukselliset työarkit',
-      'koralliriutta-aktiviteettisivut',
-      'kala- ja merenelävätulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'vedenalainen',
+      'meri',
+      'kalat',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

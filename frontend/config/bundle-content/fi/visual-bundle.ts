@@ -2,21 +2,21 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'visuaalinen oppiminen paketti tyoarkkipaketti aktiviteettia',
+    primaryKeyword: 'visuaalinen työarkkigeneraattoripaketti tulostettavia',
     secondaryKeywords: [
-      'visuaalinen oppiminen paketti',
-      'suuri pieni tyoarkkigeneraattori',
-      'kuviojuna tyoarkkigeneraattori',
-      'kuviotyoarkkigeneraattori',
+      'visuaalisen oppimisen paketti Etsy-myyjille kertaosto',
+      'väritys piirustus kuviot generaattoripaketti KDP',
+      'suuri ja pieni kuviojuna diagrammilaskenta paketti',
+      '7 visuaalista generaattoria yhdessä paketissa',
     ],
     lsiKeywords: [
-      'varitys piirtaminen tyoarkkipaketti',
-      'kuvionhahmoittaminen diagrammilaskenta tulostettava kokoelma',
-      'kaupallinen lisenssi visuaalisten aktiviteettien tyoarkit',
-      'massatuotanto visuaalisten tyoarkkien tyokalu',
+      'värityssivut viivojen piirtäminen piirra ja väritä',
+      'kuviotyöarkki diagrammilaskenta kuviojuna',
+      'kaupallinen lisenssi säästä kertaosto',
+      'tekstiriippumattomat työarkit kaikille kielille',
     ],
-    titleTag: 'Visuaalinen oppiminen -tyoarkkipaketti — 7 aktiviteettia...',
-    metaDescription: 'Hanki 7 visuaalista oppimisen generaattoria yhdessa paketissa. Varitys, piirustus, kuviot ja kaaviot myyntiin Etsyssa ja KDP:ssa. $149 kertamaksu.',
+    titleTag: 'Visuaalinen paketti | 7 generaattoria — Kertaosto',
+    metaDescription: 'Visuaalinen paketti: 7 työarkkigeneraattoria yhdessä paketissa. Väritys, piirustus, kuviot, kokovertailu ja diagrammilaskenta. $149 kertaosto.',
   },
 
   hero: {

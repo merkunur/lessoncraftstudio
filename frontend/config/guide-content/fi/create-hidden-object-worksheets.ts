@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'piilotettuja esineitä -työarkit',
-    secondaryKeywords: ['etsi esineet -pulmageneraattori', 'tulostettavat piiloesineet-työarkit myyntiin', 'I Spy -aktiviteettiarkit lapsille', 'mukautetut piiloesineet-kohtaukset'],
-    lsiKeywords: ['temaattiset piiloesineet-kohtaukset Etsyyn', 'Amazon KDP piiloesineet-aktiviteettikirjat', 'visuaalisen haun harjoitustyöarkit', 'kaupallinen lisenssi piiloesineet-työkalu', 'ryhmäaktiiviteettikohtaukset lapsille', 'etsi ja laske -harjoitukset'],
-    titleTag: 'Piilotettuja esineitä -työarkit — Opas',
-    metaDescription: 'Luo piilotettuja esineitä -työarkkeja temaattisilla kohtauksilla, visuaalisen haun harjoituksilla ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    primaryKeyword: 'näin teet piiloesinetehtäviä tulostettavia',
+    secondaryKeywords: [
+      'piiloesinegeneraattori temaattisilla kohtauksilla',
+      'tulosta I Spy -tehtäviä myyntiin Etsyssä',
+      'luo piiloesineet-työarkkeja vastausavaimella',
+      'piiloesinetehtävien tekeminen opas lapsille',
+    ],
+    lsiKeywords: [
+      'visuaalinen haku tarkkaavaisuus',
+      'esiopetus alakoulu I Spy',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP piiloesineet-aktiviteettikirja',
+      '104 teemaa satunnainen sijoittelu',
+      'myy Etsyssä Gumroadissa',
+    ],
+    titleTag: 'Piiloesinetehtäviä tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet piiloesinetehtäviä tulostettavaksi temaattisilla kohtauksilla. Automaattinen vastausavain, 104 teemaa ja PDF myyntiin Etsyssä ja KDP:ssä.',
   },
   hero: {
     title: 'Kuinka luot piilotettuja esineitä -kohtaustyöarkkeja',

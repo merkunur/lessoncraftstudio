@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ruoka aihe tyoarkit myy',
+    primaryKeyword: 'ruoka-aiheiset tehtäväarkit myyntiin',
     secondaryKeywords: [
-      'tuotevalikoima teemat',
-      'suomalaisen myyjann kilpailuedut',
-      'hinnoittelu paketointi',
+      'ruokateema tulostettavia lapsille',
+      'ruoka-aktiviteetit tulosteet Etsy',
+      'hedelmät ja vihannekset tehtäväarkit',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'ravitsemuskasvatus tulosteet',
+      'ruokasanasto S2-opetus',
+      'ruokakuvat tehtävissä',
     ],
-    titleTag: 'Ruoka-aihe tyoarkit: myyntiopas | LCS',
-    metaDescription: 'Myy ruoka-aiheisia tyoarkkeja. Ruokateema on universaali ja sopii matematiikasta kielten oppimiseen. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ruoka-aiheiset tulosteet myyntiin | LCS',
+    metaDescription: 'Myy ruoka-aiheisia työarkkeja. Ruokateema on universaali ja sopii matematiikasta kielten oppimiseen.',
   },
   hero: {
     title: 'Ruoka-aihe tyoarkit: universaali teema myyntituotteena',

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'kuvakaavio-työarkit',
+    primaryKeyword: 'näin teet kuvakaavio-laskutehtäviä tulostettavia',
     secondaryKeywords: [
-      'luo kuvakaavio-työarkkeja myyntiin',
-      'kuvadiagrammi työarkkigeneraattori kaupallinen käyttö',
-      'tulostettavat piktogrammi-työarkit Etsyyn ja KDP:hen',
-      'pylväsdiagrammi laskutyöarkit automaattisella vastauksella',
+      'kuvakaavio-työarkkigeneraattori myyntiin',
+      'tulostettava piktogrammi-laskutehtävä opas',
+      'pylväsdiagrammi työarkki vastausavaimella',
+      'luo datataitojen tehtäviä PDF-muodossa',
     ],
     lsiKeywords: [
-      'hajautettu 4x5 kuvaruudukko tiedonkeruulaskutyöarkkien tekijä',
-      'kaksoiskankaat vastausavain keltakorosteiset solut automaattisesti luotu ratkaisu',
-      'satunnainen jakauma 6 kuvatyyppiä 1-5 kutakin ainutlaatuinen generaattori',
-      'myy kuvakaavio-työarkkeja Etsyssä',
-      'Amazon KDP datataitojen työkirjat pylväsdiagrammeilla',
-      'kaupallinen lisenssi kuvadiagrammi-työarkkityökalu',
+      'esiopetus alakoulu datataidot',
+      '4x5 kuvaruudukko satunnaisjakauma',
+      'kaupallinen lisenssi vastausavain',
+      'Amazon KDP datataitojen työkirja',
+      '104 teemaa automaattinen ratkaisu',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Kuvakaavio-työarkit — Opas',
-    metaDescription: 'Luo kuvakaavio-työarkkeja 4x5 hajautetuilla ruudukoilla, automaattisella vastausavaimella, satunnaisella kuvajakaumalla ja 104 teemalla.',
+    titleTag: 'Kuvakaavio-laskutehtäviä tulostettavia | Opas',
+    metaDescription: 'Näin teet kuvakaavio-laskutehtäviä tulostettavaksi. 4x5-ruudukot, automaattinen vastausavain, 104 teemaa ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'meri aihe tulosteet myy',
+    primaryKeyword: 'meriaiheiset tulostettavat myyntiin',
     secondaryKeywords: [
-      'meri aihe tulosteet myy opas',
-      'meri aihe tulosteet myy 2026',
-      'meri aihe tulosteet myy Suomi',
+      'meri ja vesi tulosteet Etsy',
+      'vedenalainen teema tulostettavia',
+      'merieläimet tehtäväarkit myynti',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'rannikko Suomi tulosteet',
+      'kalat ja merenelävät tehtävät',
+      'vesiteema aktiviteetit tulostettavia',
     ],
-    titleTag: 'Meriaihe-tulosteet: myyntiopas | LCS',
-    metaDescription: 'Myy meriaiheisia tulosteita. Suomessa rannikko ja jarvet tekevat vesiteemasta tutun ja halutun. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Meriaiheiset tulosteet myyntiin | LCS',
+    metaDescription: 'Myy meriaiheisia tulostettavia. Suomessa rannikko ja järvet tekevät vesiteemasta tutun ja halutun aihepiirin.',
   },
   hero: {
     title: 'Meriaihe-tulosteet: vesiteeman liiketoiminta',

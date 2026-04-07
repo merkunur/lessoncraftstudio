@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kokovertailutyoarkit myy',
+    primaryKeyword: 'kokovertailu tulostettavia myyntiin',
     secondaryKeywords: [
-      'tuotetyypit vaikeustasot',
-      'hinnoittelu paketointi',
-      'markkinointi avainsanat',
+      'iso vs pieni tehtäväarkit tulosteet',
+      'koon tunnistaminen tulostettavia',
+      'mittaaminen lapsille tulosteet myynti',
     ],
     lsiKeywords: [
-      'mittaaminen lapsille',
-      'koon tunnistaminen',
-      'vertailu harjoitukset',
+      'matemaattinen vertailu esikoulu',
+      'koon käsitteet tulosteet',
+      'visuaalinen vertailu tehtävät',
     ],
-    titleTag: 'Kokovertailutyoarkit: myyntiopas | LCS',
-    metaDescription: 'Myy kokovertailutyoarkkeja. Iso vs pieni on perustaito jonka jokainen lapsi oppii. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Kokovertailutulosteet myyntiin | LCS',
+    metaDescription: 'Myy kokovertailutyöarkkeja. Iso vs pieni on perustaito jonka jokainen lapsi oppii. Vakaa niche matalalla kilpailulla.',
   },
   hero: {
     title: 'Kokovertailutyoarkit: yksinkertaisuus on vahvuus',

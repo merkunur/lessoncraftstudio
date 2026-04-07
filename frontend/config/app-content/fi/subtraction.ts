@@ -2,20 +2,23 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'vahennyslasku tyoarkki generaattori luo myy',
+    primaryKeyword: 'vähennyslaskutehtäviä tulostaa',
     secondaryKeywords: [
-      'vahennyslasku tyoarkit myyntiin Etsyssa',
-      'vahennyslasku tyoarkki generaattori Amazon KDP',
-      'yliviivaus tyoarkit kaupallinen lisenssi',
-      'tulostettavat vahennyslasku tyoarkit Gumroadiin',
+      'miinuslaskut generaattori',
+      'matikkatehtäviä vähennyslasku 1. luokka',
+      'miinustehtäviä tulostettavia',
+      'vähennyslaskutehtäviä vastauksilla',
     ],
     lsiKeywords: [
-      'digitaaliset matematiikkatuotteet yrittajille',
-      'tulostettavat vahennyslasku aktiviteetit verkkoliiketoiminta',
-      'vahennyslasku tyoarkki generaattori kaupallinen kaytto',
+      'alakoulu',
+      '1. luokka',
+      '2. luokka',
+      'lainaus',
+      'erotus',
+      'vastaukset',
     ],
-    titleTag: 'Vahennyslasku Tyoarkki Generaattori | Luo ja Myy',
-    metaDescription: 'Luo vahennyslasku tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. $49 kertamaksu.',
+    titleTag: 'Vähennyslaskutehtäviä tulostaa | Generaattori vastauksilla',
+    metaDescription: 'Luo vähennyslaskutehtäviä teemakuvilla ja automaattisilla vastauksilla. 300 DPI PDF, 11 kieltä. Kokeile ilmaiseksi — kaupallinen lisenssi.',
   },
 
   hero: {

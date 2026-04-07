@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'puuttuvat palat palapelit',
+    primaryKeyword: 'puuttuvat palat -pulmakirjat KDP',
     secondaryKeywords: [
-      'puuttuva pala tehtavat KDP',
-      'looginen paattely pulmakirjat',
-      'visuaalinen hahmotus KDP kirjat',
+      'visuaalinen päättely pulmakirja',
+      'puuttuvat osat tehtäväkirja KDP',
+      'looginen hahmotus tehtävät julkaisu',
     ],
     lsiKeywords: [
-      'kuvionkuvionnistaminen',
-      'visuaalinen paattely',
-      'palapaltehtavat lapsille',
+      'kuvionhavainnointi tulosteet',
+      'visuaalinen päättely lapsille',
+      'palapelitehtävät KDP-kirja',
     ],
-    titleTag: 'Puuttuvat palat -palapelit KDP:ssa | LCS',
-    metaDescription: 'Julkaise puuttuvat palat -pulmatehtavakirjoja KDP:ssa. Ainutlaatuinen niche joka kehittaa visuaalista paattelya. Matala kilpailu, vakaa kysynta.',
+    titleTag: 'Puuttuvat palat -kirjat KDP:ssä | LCS',
+    metaDescription: 'Julkaise puuttuvat palat -pulmatehtäväkirjoja KDP:ssä. Ainutlaatuinen niche joka kehittää visuaalista päättelyä.',
   },
   hero: {
     title: 'Puuttuvat palat -palapelit KDP-tuotteena',

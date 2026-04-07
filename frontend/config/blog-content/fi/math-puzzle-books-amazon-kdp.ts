@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'matematiikkapulmatehtavakirjat Amazon KDP',
+    primaryKeyword: 'matematiikkapulmakirjat Amazon KDP',
     secondaryKeywords: [
-      'matemaattinen pulmatehtavakirja julkaisu',
-      'KDP aktiviteettikirjat matematiikka',
-      'Amazon matematiikkakirjat lapsille',
+      'matemaattinen pulmakirja julkaisu',
+      'KDP matematiikka-aktiviteettikirjat',
+      'Amazon pulmakirjat lapsille',
     ],
     lsiKeywords: [
-      'omatoimijulkaisu aktiviteettikirjat',
-      'KDP muotoiluvaatimukset',
-      'Amazon kirjamyynti tulosteet',
+      'omatoimijulkaisu pulmakirjat',
+      'KDP muotoiluvaatimukset kirjat',
+      'matematiikkakirjat Amazon myynti',
     ],
-    titleTag: 'Matematiikkapulmatehtavakirjat KDP:ssa | LCS',
-    metaDescription: 'Julkaise matematiikkapulmatehtavakirjoja Amazon KDP:ssa. Muotoilu, hinnoittelu ja lanseerausstrategia. Taydellinen opas aloittelijoille.',
+    titleTag: 'Matematiikkapulmakirjat KDP:ssä | LCS',
+    metaDescription: 'Julkaise matematiikkapulmakirjoja Amazon KDP:ssä. Muotoilu, hinnoittelu ja lanseerausstrategia aloittelijoille.',
   },
   hero: {
     title: 'Matematiikkapulmatehtavakirjat Amazon KDP:ssa',

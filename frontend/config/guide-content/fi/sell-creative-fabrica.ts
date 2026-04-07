@@ -2,20 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'myy opetuksellisia resursseja Creative Fabricassa',
+    primaryKeyword: 'myy tulostettavia Creative Fabricassa opas',
     secondaryKeywords: [
-      'Creative Fabrica myyjäopas tulostettaville',
-      'myy työarkkeja Creative Fabricassa',
-      'Creative Fabrica opetuksellisten tulostettavien myyjille',
-      'Creative Fabrica vs Etsy tulostettaville',
+      'Creative Fabrica -myyjäopas tulostettaville',
+      'myy työarkkeja Creative Fabricassa strategia',
+      'Creative Fabrica vs Etsy tulostettavien myyntiin',
+      'Creative Fabrica -tilin perustaminen myyjille',
     ],
     lsiKeywords: [
-      'Creative Fabrica markkinapaikka',
-      'digitaalinen tuotealusta vertailu',
-      'vaihtoehtoisia tulostettavien markkinapaikkoja',
+      'Creative Fabrica markkinapaikka CF Learning',
+      'kaksoistulovirta myynti ja tilaukset',
+      'kaupallinen lisenssi tulostettavat tuotteet',
+      'hakuoptimointi muotoilukeskeinen alusta',
+      'Etsy vaihtoehto digitaaliset lataukset',
+      'katalogin skaalaaminen luovat kategoriat',
     ],
-    titleTag: 'Myy opetuksellisia resursseja Creative Fabricassa | LCS',
-    metaDescription: 'Opas opetuksellisten resurssien myyntiin Creative Fabricassa. Alustan perustaminen, tuotelistaus, hinnoittelu ja strategiat tulostettavien myyjille CF:ssä.',
+    titleTag: 'Myy tulostettavia Creative Fabricassa | Opas',
+    metaDescription: 'Myy tulostettavia Creative Fabricassa. Alustan perustaminen, tuotelistaus, hakuoptimointi ja strategia tulostettavien myyjille CF:ssä.',
   },
 
   hero: {

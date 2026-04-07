@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'opas kuviotyöarkit työarkkeja luo',
-    secondaryKeywords: ['kuviotyöarkkigeneraattori lapsille', 'tulostettavat hahmontunnistustyöarkit myyntiin', 'kuviojuna-aktiviteettiharjoitukset', 'mukautetut kuvioiden täyttötehtävät'],
-    lsiKeywords: ['AB ABC AABB kuviotyypit visuaalisella kuvantunnistuksella', 'temaattiset kuviotyöarkit Etsyyn', 'Amazon KDP kuvioaktiviteettikirjat', 'kaupallinen lisenssi kuviotyökalu', 'peräkkäinen hahmontunnistus esikouluikäisille', 'kuvioiden jatkamisharjoitukset'],
-    titleTag: 'Kuviotyöarkit — Opas',
-    metaDescription: 'Luo kuvioiden tunnistustyöarkkeja temaattisilla kuvilla, useilla kuviotyypeillä ja automaattisilla vastausavaimilla. Opas Etsyn ja KDP:n myyjille.',
+    primaryKeyword: 'näin teet kuviotyöarkkeja tulostettavia',
+    secondaryKeywords: [
+      'kuviotyöarkkigeneraattori esiopetukseen',
+      'tulosta kuvioiden tunnistustehtäviä myyntiin',
+      'luo AB ABC AABB -kuviotehtäviä PDF',
+      'kuviotyöarkkien tekeminen opas lapsille',
+    ],
+    lsiKeywords: [
+      'hahmontunnistus peräkkäinen sekvenssi',
+      'esiopetus alkuopetus matematiikan pohja',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP kuvioaktiviteettikirja',
+      '104 teemaa useita kuviotyyppejä',
+      'myy Etsyssä Gumroadissa',
+    ],
+    titleTag: 'Kuviotyöarkkeja tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet kuviotyöarkkeja tulostettavaksi temaattisilla kuvilla. AB/ABC/AABB-kuviot, vastausavaimet ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
   hero: {
     title: 'Kuinka luot kuviojuna-työarkkeja',

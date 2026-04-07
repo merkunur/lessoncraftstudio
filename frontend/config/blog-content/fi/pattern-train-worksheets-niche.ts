@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kuviojunatyoarkit niche',
+    primaryKeyword: 'kuviojuna tulostettavia myyntiin',
     secondaryKeywords: [
-      'kuviojuna tulosteet myynti',
-      'junateema kuvioharjoitukset',
-      'pattern train worksheets',
+      'junateema kuvioharjoitukset tulosteet',
+      'kuviojuna-tehtäväarkit Etsy niche',
+      'hahmontunnistus junatehtävät',
     ],
     lsiKeywords: [
-      'junatyoarkit lapsille',
-      'liikkuva kuvio harjoitukset',
-      'hahmontunnistus juna',
+      'kuviosarjat lapsille tulosteet',
+      'junavaunut kuvioharjoitus',
+      'looginen ajattelu juna-tehtävät',
     ],
-    titleTag: 'Kuviojunatyoarkit nichena | LCS',
-    metaDescription: 'Myy kuviojunatyoarkkeja. Ainutlaatuinen yhdistelma jossa junavaunut muodostavat kuviosarjan. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Kuviojuna tulostettavina: niche | LCS',
+    metaDescription: 'Myy kuviojuna-tehtäväarkkeja. Ainutlaatuinen yhdistelmä jossa junavaunut muodostavat kuviosarjan. Matalan kilpailun niche.',
   },
   hero: {
     title: 'Kuviojunatyoarkit: ainutlaatuinen piilonicheissa',

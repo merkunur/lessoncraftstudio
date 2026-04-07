@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen koodimatematiikkapalapelin tekijä verkossa tee koodimatematiikkapalapelejä ilmaiseksi rekisteröitymistä',
+    primaryKeyword: 'ilmainen salainen viesti laskutehtävä verkossa',
     secondaryKeywords: [
-      'tee koodimatematiikkapalapelejä ilmaiseksi verkossa',
-      'murra koodi -tehtävägeneraattori ilman rekisteröitymistä',
-      'ilmainen matematiikkasalauspalapelin tekijä',
-      'koodiyhteenlaskutehtävät ilmainen kokeilu',
+      'koodiyhteenlaskutehtäviä ilmaiseksi verkossa',
+      'murra koodi -tehtävä ilman rekisteröitymistä',
+      'kokeile koodimatematiikkaa ilmaiseksi',
+      'salainen viesti laskutehtävä ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'ilmainen palapeligeneraattori verkossa',
-      'pikainen koodimatematiikan tekijä',
-      'kokeile ennen ostoa palapelivälineet',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'kooditehtävä',
     ],
-    titleTag: 'Ilmainen Koodimatematiikkapalapelin Tekijä Verkossa | LCS',
-    metaDescription: 'Tee murra koodi -matematiikkapalapelejä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen koodiyhteenlaskutehtävä verkossa | Kokeile',
+    metaDescription: 'Tee salainen viesti -laskutehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

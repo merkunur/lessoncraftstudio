@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'matka aktiviteetti tulosteet myy',
+    primaryKeyword: 'matkailutulosteet lapsille myyntiin',
     secondaryKeywords: [
-      'matka aktiviteetti tulosteet myy opas',
-      'matka aktiviteetti tulosteet myy 2026',
-      'matka aktiviteetti tulosteet myy Suomi',
+      'matka-aktiviteetit tulostettavia',
+      'automatkat tulostettavat tehtävät',
+      'lentokone juna tulosteet lapsille',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'matkustaminen lasten kanssa tulosteet',
+      'taukotehtävät matkalle',
+      'lomamatka aktiviteetit tulostettavia',
     ],
-    titleTag: 'Matka-aktiviteetti-tulosteet | LCS',
-    metaDescription: 'Myy matka-aktiviteetti-tulosteita. Perheet etsivat tekemista pitkille automatkoille ja lennoille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Matka-aktiviteettitulosteet myyntiin | LCS',
+    metaDescription: 'Myy tulostettavia matka-aktiviteetteja lapsille. Vanhemmat etsivät viihdykkeitä pitkille matkoille.',
   },
   hero: {
     title: 'Matka-aktiviteetti-tulosteet: matkustavan perheen pelastaja',

@@ -2,11 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'yhdistamistyoarkit taaperomarkkinoilla markkina myy',
-    secondaryKeywords: ['yhdista parit tyoarkit lapsille', 'matching tulosteet pienille lapsille', 'taaperoaktiviteetit tulostettava'],
-    lsiKeywords: ['visuaalinen hahmotus tulosteet', 'kognitiivinen kehitys tehtavat', 'parinmuodostus harjoitukset'],
-    titleTag: 'Yhdistamistyoarkit taaperomarkkinoilla | LCS',
-    metaDescription: 'Myy yhdistamistyoarkkeja taaperoiden vanhemmille. Kasvava markkina jossa vanhemmat etsivat kehitysta tukevia. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    primaryKeyword: 'yhdistämistehtävät taaperoille tulostettavia',
+    secondaryKeywords: [
+      'yhdistä parit tulosteet pienille lapsille',
+      'matching-tehtävät taapero myynti',
+      'parimuodostus tulostettavia',
+    ],
+    lsiKeywords: [
+      'visuaalinen hahmotus taaperot',
+      'kognitiivinen kehitys tehtävät',
+      'varhaiskasvatus tulosteet',
+    ],
+    titleTag: 'Yhdistämistehtävät taaperoille | LCS',
+    metaDescription: 'Myy yhdistämistehtäviä taaperoiden vanhemmille. Kasvava markkina jossa vanhemmat etsivät kehitystä tukevia tulostettavia.',
   },
   hero: {
     title: 'Yhdistamistyoarkit: taaperomarkkinan kultakaivos',

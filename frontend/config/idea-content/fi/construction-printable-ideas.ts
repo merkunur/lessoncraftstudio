@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Rakennusaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu rakennusaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Ajoneuvo- ja työkaluteemaiset tuotekonseptit myyjille.',
+    titleTag: 'Rakennustulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Rakennusaiheisia tulostettavia tehtäviä myyntiin. Poikien suosikkiniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'rakennusaiheiset tulostettavat ideat myyntiin',
+    primaryKeyword: 'rakennus tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'rakennusteemaiset työarkit myyntiin',
-      'rakennustulostettava liiketoimintaideat',
-      'rakennusaktiviteettiarkki myyjille',
-      'myy rakennustulostettavia verkossa',
+      'rakennustehtäviä myydä Etsyssä',
+      'rakennuskone tulostettavat niche',
+      'työmaateemaiset tehtävät KDP myyntiin',
+      'STEM-rakennustulostettavat ideat',
     ],
     lsiKeywords: [
-      'rakennustyömaateemaiset työarkit',
-      'STEM-rakennusaktiviteetit lapsille',
-      'ajoneuvo- ja koneteemalliset opetustulostettavat',
+      'Etsy',
+      'KDP',
+      'rakennus',
+      'koneet',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

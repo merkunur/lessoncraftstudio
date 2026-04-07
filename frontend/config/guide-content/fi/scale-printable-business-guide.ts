@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'skaalaa tulostettavien liiketoiminta',
+    primaryKeyword: 'skaalaa tulostettavien liiketoimintaa opas',
     secondaryKeywords: [
-      'miten skaalata tulostettavien liiketoimintaa',
-      'kasvata tulostettavien työarkkien liiketoimintaa',
+      'kasvata tulostettavien myyntiä strategisesti',
       'tulostettavien liiketoiminnan kasvustrategia',
-      'skaalaa opetuksellisten tulostettavien myyntiä',
+      'skaalaa työarkkien tuotantoa tehokkaasti',
+      'tulostettavien myyjän skaalausopas',
     ],
     lsiKeywords: [
-      'liiketoiminnan kasvu liikevaihdon skaalaus automatisointi ulkoistaminen tuotekatalogin laajentaminen',
-      'monialustainen myynti työnkulun optimointi erätuotanto järjestelmäajattelu',
-      'ajanhallinta delegointi tuotemonipuolistaminen markkinoiden laajentaminen brändin rakentaminen',
-      'asiakkaan elinkaarioarvo operatiivinen tehokkuus prosessidokumentaatio vakiotoimintaohjeet',
-      'katalogin kasvu liikevaihto per tuote alustadiversifiointi skaalauspullonkaulat',
-      'liiketoimintajärjestelmät toistettavat prosessit tuotantoputki sisällön moninkertaistaminen',
+      'katalogin laajentaminen monialustainen myynti',
+      'erätuotanto työnkulun optimointi automaatio',
+      'kaupallinen lisenssi PDF-vienti',
+      'operatiivinen tehokkuus prosessit',
+      'Etsy KDP Gumroad skaalauspullonkaulat',
+      'liikevaihto per tuote tuotemonipuolistaminen',
     ],
-    titleTag: 'Skaalaa tulostettavien liiketoiminta — Kasvustrategiaopas',
-    metaDescription: 'Näin skaalaat tulostettavien liiketoimintaasi erätuotannolla, monialustaisen laajentamisen, katalogikasvun,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Skaalaa tulostettavien liiketoimintaa | Kasvuopas',
+    metaDescription: 'Näin skaalaat tulostettavien liiketoimintaasi. Erätuotanto, monialustainen laajennus, katalogikasvustrategia ja työnkulun optimointi.',
   },
 
   hero: {

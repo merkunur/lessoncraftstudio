@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sananetsintäkirjat Amazon KDP',
-    secondaryKeywords: ['julkaise sananetsintäkirjoja KDP', 'sananetsintä pulmakirja Amazon', 'luo sananetsintäkirjoja myyntiin', 'KDP sananetsintäkirjojen strategia'],
-    lsiKeywords: ['KDP sananetsintäkirjan julkaiseminen', 'temaattiset sananetsintäkirjat aktiviteettikirja', 'sananetsintä vaikeustasot KDP-kirja'],
-    titleTag: 'Sananetsintäkirjat Amazon KDP:lle — Opas',
-    metaDescription: 'Luo ja julkaise sananetsintäkirjoja Amazon KDP:ssä. Temaattiset sananetsinnät, kirjarakenne, vaikeustasot, hinnoittelu ja sananetsintäkirjojen myyntistrategia.',
+    primaryKeyword: 'luo sananetsintäkirjoja Amazon KDP:lle opas',
+    secondaryKeywords: [
+      'julkaise sananetsintäkirjoja KDP:ssä myyntiin',
+      'sananetsintä-pulmakirja Amazon myyntistrategia',
+      'temaattiset sananetsintäkirjat KDP:hen opas',
+      'sananetsintäkirjojen muotoilu ja julkaisu',
+    ],
+    lsiKeywords: [
+      'temaattinen sananetsintä kirjarakenne osiot',
+      'vaikeustasot helppo keskitaso vaikea',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon-hakusanat kategoriat hinnoittelu',
+      'kielimultiplikaattori 11 kieltä KDP',
+      'suurikirjaiminen large print markkinarako',
+    ],
+    titleTag: 'Sananetsintäkirjoja Amazon KDP:lle | Julkaisuopas',
+    metaDescription: 'Luo ja julkaise sananetsintäkirjoja KDP:ssä. Temaattiset sananetsinnät, vaikeustasot, kirjarakenne, kieliversiot ja sananetsintäkirjojen myyntistrategia.',
   },
   hero: {
     title: 'Luo sananetsintäkirjoja Amazon KDP:lle',

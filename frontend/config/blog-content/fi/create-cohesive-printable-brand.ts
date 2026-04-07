@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'brandi luo yhtenainen tulostebrandi rakenna tunnistettava',
+    primaryKeyword: 'tulostebrandi rakentaminen',
     secondaryKeywords: [
-      'luo yhtenainen tulosteet brandi opas',
-      'luo yhtenainen tulosteet brandi vaiheittain',
-      'luo yhtenainen tulosteet brandi 2026',
+      'yhtenäinen brändi tulosteille',
+      'tulostekaupan visuaalinen ilme',
+      'brändistrategia Etsy-kaupalle',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'logo tulostekaupalle',
+      'värimaailma brändi tulosteet',
+      'tunnistettavuus verkkokaupassa',
     ],
-    titleTag: 'Luo yhtenainen tulostebrandi | LCS',
-    metaDescription: 'Rakenna tunnistettava brandi tulostebisneksellesi. Logo, varimaailma, typografia ja visuaalinen yhdenmukaisuus.',
+    titleTag: 'Rakenna yhtenäinen tulostebrandi | LCS',
+    metaDescription: 'Rakenna tunnistettava brändi tulostekaupallesi. Logo, värimaailma ja visuaalinen ilme joka erottaa sinut kilpailijoista.',
   },
   hero: {
     title: 'Luo yhtenainen tulostebrandi: erottuva ilme',

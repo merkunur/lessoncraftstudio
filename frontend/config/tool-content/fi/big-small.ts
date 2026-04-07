@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'työkirja generaattori kokovertailu myy',
+    primaryKeyword: 'ilmainen iso ja pieni -tehtävä verkossa',
     secondaryKeywords: [
-      'iso ja pieni -työkirja esikouluun',
-      'kokovertailugeneraattori verkossa',
-      'tulostettavat kokolajittelu-työkirjat lapsille',
-      'iso pieni keskikokoinen -työkirja lastentarhaan',
+      'iso ja pieni tehtäviä ilmaiseksi verkossa',
+      'kokovertailugeneraattori ilman rekisteröitymistä',
+      'kokeile kokovertailua ilmaiseksi',
+      'tulostettava iso ja pieni ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'visuaalinen kokoerottelu-työkirja lapsille',
-      'tekstivapaa kokovertailu-tulostettava',
-      'iso pieni -järjestysaktiviteetti esikouluun',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'kokovertailu',
     ],
-    titleTag: 'Kokovertailu-työkirja-generaattori — Lapsille — Myyjäopas',
-    metaDescription: 'Luo kokovertailu-työkirjoja esikouluun ja lastentarhaan. Viisi kysymystyyppiä, identtiset ja erilaiset. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen iso ja pieni -tehtävä verkossa | Kokeile',
+    metaDescription: 'Tee iso ja pieni -tehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

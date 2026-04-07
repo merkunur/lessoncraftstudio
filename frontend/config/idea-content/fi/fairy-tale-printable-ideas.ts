@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Satuaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu satuaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Satutulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Satuaiheisia tulostettavia tehtäviä myyntiin. Luova tarinaniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'satuaiheiset tulostettavat ideat myyntiin',
+    primaryKeyword: 'satu tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'satutyöarkit myyntiin',
-      'tarinakirjateemainen tulostettava liiketoiminta',
-      'satuaktiviteettiarkki myyjille',
-      'myy satutulostettavia verkossa',
+      'satutehtäviä myydä Etsyssä',
+      'satutulostettavat niche KDP',
+      'tarinateemalliset tehtävät myyntiin',
+      'klassikko satuaktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'tarinakirjateemaiset opetukselliset työarkit',
-      'klassiset sadut lukutaitoaktiviteetit',
-      'fantasia-teemaiset tulostettavat ryhmille',
+      'Etsy',
+      'KDP',
+      'sadut',
+      'tarinat',
+      'tulostettavat',
+      'fantasia',
+      'niche',
     ],
   },
   hero: {

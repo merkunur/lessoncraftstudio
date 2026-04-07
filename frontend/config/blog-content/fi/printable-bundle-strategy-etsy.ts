@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulosteet paketti strategia Etsy',
+    primaryKeyword: 'tulostepakettistrategia Etsyssä',
     secondaryKeywords: [
-      'tulosteet paketti strategia Etsy opas',
-      'tulosteet paketti strategia Etsy 2026',
-      'tulosteet paketti strategia Etsy Suomi',
+      'pakettimyynti tulosteet Etsy opas',
+      'tulostepakettien kokoaminen',
+      'Etsy pakettien hinnoittelu tulosteet',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'pakettihinnoittelu strategia',
+      'ristiinmyynti tulosteet',
+      'tuotevalikoima paketti Etsy',
     ],
-    titleTag: 'Tulosteiden pakettistrategia Etsyssa | LCS',
-    metaDescription: 'Rakenna tuottavia paketteja tulosteista Etsyssa. Pakettihinnoittelu, sisaltostrategia ja myyntitaktiikat.',
+    titleTag: 'Tulosteiden pakettistrategia Etsyssä | LCS',
+    metaDescription: 'Rakenna tuottavia tulostepaketteja Etsyssä. Pakettihinnoittelu, sisältöstrategia ja myyntitaktiikat yrittäjälle.',
   },
   hero: {
     title: 'Tulosteiden pakettistrategia Etsyssa',

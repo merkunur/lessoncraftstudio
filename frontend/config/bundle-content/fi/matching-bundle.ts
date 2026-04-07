@@ -2,21 +2,21 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'yhdistelytyoarkkipaketti lajittelu yhdistely paketti',
+    primaryKeyword: 'yhdistely- ja lajittelupaketti työarkkigeneraattoreita',
     secondaryKeywords: [
-      'yhdistely lajittelu tyoarkkigeneraattoripaketti myyjille',
-      'tulostettava yhdistelyaktiviteettipaketti kaupalliseen kayttoon',
-      'bingokorttigeneraattoripaketti Etsy-myyjille',
-      'lajittelutyoarkkigeneraattorit KDP-myyjille',
+      'yhdistelytyöarkkipaketti Etsy-myyjille kertaosto',
+      'bingokorttigeneraattori lajittelupaketti KDP',
+      'varjoyhdistely ruudukkoyhdistely generaattoripaketti',
+      '5 yhdistelygeneraattoria yhdessä paketissa',
     ],
     lsiKeywords: [
-      'yhdistely lajittelu bingo tyoarkkipaketti',
-      'varjoyhdiistelya ruudukkoyhdistelytyoarkkikokoelma',
-      'kaupallinen lisenssi yhdistelytyoarkit',
-      'massatuotanto yhdistelytyoarkkityokalu',
+      'yhdistely varjoyhdistely ruudukkoyhdistely bingo',
+      'kuvalajittelu erävienti bingokorttisetti',
+      'kaupallinen lisenssi säästä kertaosto',
+      'tulostusvalmiit PDF-työarkit vastausavaimilla',
     ],
-    titleTag: 'Yhdistelytyoarkkipaketti — 5 lajittelu- ja...',
-    metaDescription: 'Hanki 5 yhdistely- ja lajittelugeneraattoria yhdessa paketissa. $149 kertamaksu.',
+    titleTag: 'Yhdistelypakettti | 5 generaattoria — Kertaosto',
+    metaDescription: 'Yhdistelytyöarkkipaketti: 5 yhdistely- ja lajittelugeneraattoria. Yhdistely, varjoyhdistely, ruudukkoyhdistely, bingo ja kuvalajittelu. $149 kertaosto.',
   },
 
   hero: {

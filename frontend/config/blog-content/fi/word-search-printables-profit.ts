@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'sananhakutulosteita ikivihrea sananhakutulosteet tuottava liiketoiminta',
+    primaryKeyword: 'sanaristikko tulostettavia myyntiin',
     secondaryKeywords: [
-      'sananhaku tyoarkit myynti Etsy',
-      'sanaristikot tulosteet liiketoiminta',
-      'word search tulosteet myy',
+      'sananetsintä tulosteet Etsy liiketoiminta',
+      'sanaristikot tulostettavia lapsille aikuisille',
+      'wordsearch tulosteet myynti',
     ],
     lsiKeywords: [
-      'sanapelit lapsille tulostettava',
-      'sananhaku generaattori',
-      'kielellinen harjoittelu tulosteet',
+      'sanatehtävät tulosteet myynti',
+      'sanaristikko KDP kirja',
+      'kielitaito-harjoitukset tulostettavia',
     ],
-    titleTag: 'Sananhakutulosteet: tuottava liiketoiminta | LCS',
-    metaDescription: 'Myy sananhakutulosteita Etsyssa ja KDP:ssa. Ikivihrea tuotekategoria joka myy ymparivuotisesti. Aloita ilmaisella kokeilulla vesileimalla.',
+    titleTag: 'Sanaristikot tulostettavina myyntiin | LCS',
+    metaDescription: 'Myy sanaristikkoja tulostettavina. Sananetsintätehtävät sopivat kaikille ikäryhmille ja ovat ikivihreä tuotekategoria.',
   },
   hero: {
     title: 'Sananhakutulosteet: ikivihrea tuottava liiketoiminta',

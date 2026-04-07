@@ -2,21 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'parhaat KDP-aktiviteettikirjojen nichet',
+    primaryKeyword: 'parhaat KDP-aktiviteettikirjojen nichet 2026',
     secondaryKeywords: [
-      'parhaat KDP-aktiviteettikirjojen nichet 2026',
-      'kannattavat KDP-aktiviteettikirjojen nichet',
-      'matalan kilpailun KDP-nichet 2026',
-      'parhaiten myyvät aktiviteettikirjakategoriat Amazon',
-      'KDP-niche-tutkimus aktiviteettikirjat',
+      'kannattavat KDP-nichet aktiviteettikirjoille',
+      'matalan kilpailun KDP-nichet opas',
+      'Amazon KDP niche-tutkimus suomeksi',
+      'parhaiten myyvät aktiviteettikirjakategoriat',
     ],
     lsiKeywords: [
-      'KDP-niche-analyysi',
-      'Amazonin aktiviteettikirjamarkkina',
-      'kannattavat itsejulkaisun nichet',
+      'niche-analyysi kysynnän arviointi',
+      'Amazon BSR arvostelut kilpailu',
+      'kausiluonteiset vs ikivihreät nichet',
+      'alipalvellut ala-nichet KDP',
+      'monialueinen portfoliostrategia',
+      'tulostettavien liiketoiminta KDP',
     ],
-    titleTag: 'Parhaat KDP-aktiviteettikirjojen nichet (2026) | LCS',
-    metaDescription: 'Löydä parhaat KDP-aktiviteettikirjojen nichet vuonna 2026. Matalan kilpailun, korkean kysynnän kategoriat tuottopotentiaalilla ja sisällönluontistrategioilla.',
+    titleTag: 'Parhaat KDP-aktiviteettikirjojen nichet 2026 | Opas',
+    metaDescription: 'Löydä parhaat KDP-aktiviteettikirjojen nichet 2026. Matalan kilpailun kategoriat, kysynnän analyysi ja sisällönluontistrategiat aktiviteettikirjoille.',
   },
 
   hero: {

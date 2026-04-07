@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'luo tehtavia jotka myyvat',
+    primaryKeyword: 'luo tehtäviä jotka myyvät ammattimainen opas',
     secondaryKeywords: [
-      'luo ammattimaisia tehtavia',
-      'tee tehtavia myytavaksi Etsyssa',
-      'tehtavien luominen myyjille',
-      'suunnitteluvinkit tulostettaville tehtaville',
+      'tee ammattimaisia tehtäviä myytäväksi Etsyssä',
+      'tehtävien luominen kaupalliseen käyttöön',
+      'suunnitteluvinkit tulostettaville työarkeille',
+      'myyvien tehtävien luominen generaattorilla',
     ],
     lsiKeywords: [
-      'tehtavien laatustandardit',
+      'tehtävien laatustandardit ostajille',
       'automaattinen vastausavainten luominen',
-      'tulostettavien tuotteiden tyonkulku',
-      'pakettistrategi tehtaville',
-      'temaattiset tehtavakuvat',
-      'tulostusvalmiit PDF-tehtavat',
+      'tulostettavien tuotteiden työnkulku',
+      'pakettistrategia tehtäville hinnoittelu',
+      'temaattiset tehtäväkuvat brändäys',
+      'tulostusvalmiit PDF-tehtävät myyntiin',
     ],
-    titleTag: 'Luo tehtäviä jotka myyvät — ammattimainen opas myyjille',
-    metaDescription: 'Näin luot tehtäviä jotka myyvät Etsyssä, Amazon KDP:ssä ja Gumroadissa. Askel askeleelta -opas teemakuvista, vastausavaimista, hinnoittelusta ja listausten.',
+    titleTag: 'Luo tehtäviä jotka myyvät — opas myyjille',
+    metaDescription: 'Näin luot tehtäviä jotka myyvät Etsyssä ja KDP:ssä. Opas teemakuvista, vastausavaimista, hinnoittelusta ja listausten optimoinnista.',
   },
 
   hero: {

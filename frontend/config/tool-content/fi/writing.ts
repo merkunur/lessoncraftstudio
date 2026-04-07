@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kirjoitusharjoitus työkirja generaattori luo myy',
+    primaryKeyword: 'ilmainen kirjoitusmotoriikka tehtävä verkossa',
     secondaryKeywords: [
-      'kirjoitusharjoitus-työkirja-generaattori myyjille',
-      'luo kirjainjäljennös-työkirjoja myyntiin',
-      'tulostettavat kirjoitusharjoitus-työkirjat kaupalliseen käyttöön',
-      'kirjoitusharjoitusgeneraattori KDP:lle',
+      'kirjoitusmotoriikkatehtäviä ilmaiseksi verkossa',
+      'kirjoitusharjoitusgeneraattori ilman rekisteröitymistä',
+      'kokeile kirjoitusharjoitusta ilmaiseksi',
+      'tulostettava kirjoitusmotoriikka ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'piirtojärjestys nuoli kirjoitusharjoitus tulostettavat Etsyyn',
-      'häivytysopas jäljennös kirjainjärjestys-työkirjatyökalu',
-      'kaunokirjoitus ja painokirjoitus harjoitusgeneraattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'kirjoitustehtävä',
     ],
-    titleTag: 'Kirjoitusharjoitus-työkirja-generaattori | Luo ja myy',
-    metaDescription: 'Luo kirjoitusharjoitus-työkirjoja kolmella harjoitustilalla, viidellä fonttityylillä, nuoliohjatulla piirtojärjestyksellä, häivytysoppailla, 104 teemalla.',
+    titleTag: 'Ilmainen kirjoitusmotoriikka verkossa | Kokeile heti',
+    metaDescription: 'Tee kirjoitusmotoriikkatehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

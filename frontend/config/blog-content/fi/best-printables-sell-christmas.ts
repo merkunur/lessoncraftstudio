@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'parhaat tulosteet myy joulu',
+    primaryKeyword: 'joulutulosteet myyntiin sesonki',
     secondaryKeywords: [
-      'parhaat tulosteet myy joulu opas',
-      'parhaat tulosteet myy joulu 2026',
-      'parhaat tulosteet myy joulu Suomi',
+      'myy joulutehtäviä Etsyssä',
+      'joulun tulosteet strategia',
+      'joulusesongin tulosteet myynti',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'Joulupukki tulosteet Suomi',
+      'joulukoristeet tulostettavia',
+      'adventtikalenteri tulosteet',
     ],
     titleTag: 'Parhaat tulosteet joulusesonkiin | LCS',
-    metaDescription: 'Joulusesongin myydyimmat tulosteet ja strategia. Joulupukki asuu Suomessa joten joulutuotteesi ovat. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    metaDescription: 'Joulusesongin myydyimmät tulosteet ja lanseerausstrategia. Suomalainen jouluteema on ainutlaatuinen kilpailuetu.',
   },
   hero: {
     title: 'Parhaat tulosteet joulusesonkiin: Joulupukin kotimaasta',

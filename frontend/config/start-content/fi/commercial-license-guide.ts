@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'lisenssi opas kaupallinen tulostettaville taydelllinen',
+    primaryKeyword: 'kaupallinen lisenssi tulostettaville tehtäville opas',
     secondaryKeywords: [
-      'kaupallinen kayttolisenssi tulostettavat tuotteet',
-      'myy tehtavia kaupallisesti Etsy Amazon',
-      'lisenssiopas tulostettavien liiketoiminta',
-      'tehtavageneraattorin kaupalliset oikeudet',
+      'kaupallinen käyttölisenssi tulostettavat tuotteet',
+      'myy tehtäviä kaupallisesti Etsyssä ja Amazonissa',
+      'lisenssiopas tulostettavien liiketoimintaan',
+      'tehtävägeneraattorin kaupalliset oikeudet',
     ],
     lsiKeywords: [
       'kaupallinen lisenssi digitaaliset lataukset',
       'lisenssivaatimukset tulostettavien myyjille',
       'Etsy digitaalinen lataus kaupallinen lisenssi',
       'Amazon KDP aktiviteettikirja lisensointi',
-      'tehtavageneraattorin lisenssitasot',
-      'kaupallinen vs henkilokohtainen kaytto tulostettavat',
+      'tehtävägeneraattorin lisenssitasot Commercial Full Access',
+      'kaupallinen vs henkilökohtainen käyttö tulostettavat',
     ],
-    titleTag: 'Kaupallinen lisenssi tulostettaville tehtaville — opas...',
-    metaDescription: 'Ymmarra kaupalliset lisenssit tehtavien myymiseen Etsyssa, Amazon KDP:ssa ja muilla alustoilla.',
+    titleTag: 'Kaupallinen lisenssi tulostettaville — Täysi opas',
+    metaDescription: 'Ymmärrä kaupalliset lisenssit tehtävien myymiseen Etsyssä, Amazon KDP:ssä ja Gumroadissa. Commercial- ja Full Access -tasojen vertailu.',
   },
 
   hero: {

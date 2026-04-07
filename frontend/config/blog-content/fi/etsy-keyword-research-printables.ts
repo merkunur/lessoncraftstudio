@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy avainsana tutkimus tulosteet',
+    primaryKeyword: 'Etsy avainsanatutkimus tulostettaville',
     secondaryKeywords: [
-      'Etsy avainsana tutkimus tulosteet opas',
-      'Etsy avainsana tutkimus tulosteet vaiheittain',
-      'Etsy avainsana tutkimus tulosteet 2026',
+      'hakusanatutkimus Etsy-kauppa',
+      'Etsy-avainsanat tulosteille opas',
+      'pitkähäntäiset avainsanat tulosteet',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'Etsy-haku optimointi',
+      'kilpailija-analyysi Etsy',
+      'suomenkieliset avainsanat Etsy',
     ],
     titleTag: 'Etsy-avainsanatutkimus tulosteille | LCS',
-    metaDescription: 'Tee avainsanatutkimus Etsy-tulosteille oikein. Loeda matalan kilpailun hakusanat jotka tuovat liikennetta.',
+    metaDescription: 'Tee avainsanatutkimus Etsy-tulosteillesi oikein. Löydä matalan kilpailun hakusanat jotka tuovat liikennettä.',
   },
   hero: {
     title: 'Etsy-avainsanatutkimus tulosteille: vaiheittainen opas',

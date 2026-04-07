@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kesäaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu kesäaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Kesätuotekonseptit, kausistrategiat ja alustavinkit myyjille.',
+    titleTag: 'Kesätulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Kesäaiheisia tulostettavia tehtäviä myyntiin. Kesän kausiniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'kesäaiheiset tulostettavat ideat myyntiin',
+    primaryKeyword: 'kesä tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'kesätyöarkit myyntiin',
-      'kesätulostettava liiketoimintaideat',
-      'kesäaktiviteettiarkit myyjille',
-      'myy kesätulostettavia Etsyssä',
+      'kesätehtäviä myydä Etsyssä',
+      'kesätulostettavat niche KDP',
+      'kausiluonteiset kesätehtävät myyntiin',
+      'ranta- ja aurinkotulostettavat',
     ],
     lsiKeywords: [
-      'kausiluontoiset kesätyöarkkiniput',
-      'ranta- ja aurinkoteemalliset aktiviteetit',
-      'kesälomatulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'kesä',
+      'kausiluonteinen',
+      'tulostettavat',
+      'kesäloma',
+      'niche',
     ],
   },
   hero: {

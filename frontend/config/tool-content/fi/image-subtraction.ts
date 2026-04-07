@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen vähennyslaskutehtävien tekijä verkossa tee vähennyslaskutehtäviä ilmaiseksi rekisteröitymistä',
+    primaryKeyword: 'ilmainen vähennyslaskutehtävä verkossa',
     secondaryKeywords: [
-      'tee vähennyslaskutehtäviä ilmaiseksi verkossa',
+      'vähennyslaskutehtäviä ilmaiseksi verkossa',
       'vähennyslaskugeneraattori ilman rekisteröitymistä',
-      'ilmainen matematiikkatyökalu kuvilla',
+      'kokeile vähennyslaskutehtäviä ilmaiseksi',
       'tulostettavat vähennyslaskutehtävät ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'ilmainen tehtävätyökalu verkossa',
-      'pikainen tehtävägeneraattori ilman tiliä',
-      'kokeile ennen ostoa matematiikkatyökalut',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'matematiikkatehtävä',
     ],
-    titleTag: 'Ilmainen Vähennyslaskutehtävien Tekijä Verkossa | LCS',
-    metaDescription: 'Tee vähennyslaskutehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen vähennyslaskutehtävä verkossa | Kokeile heti',
+    metaDescription: 'Tee vähennyslaskutehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Jouluaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu jouluaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Joulutuotekonseptit, kausistrategiat ja alustavinkit myyjille.',
+    titleTag: 'Joulutulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Jouluaiheisia tulostettavia tehtäviä myyntiin Etsyssä ja KDP:ssä. Vuoden tuottoisin kausiniche — suunnittele ajoissa.',
 
-    primaryKeyword: 'jouluaiheiset tulostettavat ideat myyntiin',
+    primaryKeyword: 'joulutulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'joulutyöarkit myyntiin',
-      'joulutulostettava liiketoimintaideat',
-      'jouluaktiviteettiarkit myyjille',
-      'myy joulutulostettavia Etsyssä',
+      'joulutehtäviä myydä Etsyssä',
+      'joulutulostettavat niche KDP',
+      'kausiluonteiset joulutulostettavat',
+      'jouluaktiviteetit tulostettavat myyntiin',
     ],
     lsiKeywords: [
-      'kausiluontoiset juhlatyöarkkiniput',
-      'talviteemalliset opetukselliset aktiviteetit',
-      'juhlava tuotelinja tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'joulu',
+      'kausiluonteinen',
+      'tulostettavat',
+      'joulutulostettavat',
+      'niche',
     ],
   },
   hero: {

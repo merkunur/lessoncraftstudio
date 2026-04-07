@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'opas kirjoitusharjoitusarkit kirjoitusharjoitusarkkeja luo',
-    secondaryKeywords: ['kirjoitusharjoitusgeneraattori lapsille', 'tulostettavat kirjoitustyöarkit myyntiin', 'jäljennä ja kopioi kirjainharjoitusarkit', 'mukautetut kirjoitusharjoitussivut'],
-    lsiKeywords: ['progressiivinen jäljentäminen kirjainmuodostusharjoitus', 'temaattiset kirjoitustyöarkit Etsyyn', 'Amazon KDP kirjoitusharjoituskirjat', 'kaupallinen lisenssi kirjoitustyökalu', 'aakkosten kirjainharjoitus esikouluikäisille', 'hienomotoristentaitojen kehitystyöarkit'],
-    titleTag: 'Kirjoitusharjoitusarkit — Opas',
-    metaDescription: 'Luo kirjoitusharjoitusarkkeja progressiivisella jäljentämisellä, kirjainmuodostusharjoituksella ja temaattisilla kuvilla. Opas Etsyn ja KDP:n myyjille.',
+    primaryKeyword: 'näin teet kirjoitusharjoitusarkkeja tulostettavia',
+    secondaryKeywords: [
+      'kirjoitusharjoitusgeneraattori esiopetukseen',
+      'tulosta kirjainharjoitusarkkeja myyntiin',
+      'luo jäljennysharjoituksia vastausavaimella PDF',
+      'kirjoitusharjoitusarkkien tekeminen opas',
+    ],
+    lsiKeywords: [
+      'esiopetus alkuopetus hienomotoriikka',
+      'progressiivinen jäljentäminen häipyvä',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP kirjoitusharjoituskirja',
+      '104 teemaa kirjainmuodostus',
+      'myy Etsyssä Gumroadissa',
+    ],
+    titleTag: 'Kirjoitusharjoitusarkkeja tulostettavia | Opas',
+    metaDescription: 'Näin teet kirjoitusharjoitusarkkeja tulostettavaksi. Progressiivinen jäljentäminen, temaattiset kuvat ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
   hero: {
     title: 'Kuinka luot kirjoitusharjoitusarkkeja',

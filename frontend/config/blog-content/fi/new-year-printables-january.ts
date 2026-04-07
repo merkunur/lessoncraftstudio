@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'uudenvuodentulosteet tammikuussa uudenvuoden loppiaisen tulosteet tammikuu',
+    primaryKeyword: 'uudenvuoden tulosteet tammikuu',
     secondaryKeywords: [
-      'uusivuosi tulosteet tammikuu opas',
-      'uusivuosi tulosteet tammikuu 2026',
-      'uusivuosi tulosteet tammikuu Suomi',
+      'tammikuun tulosteet myyntiin',
+      'loppiainen tulosteet sesonki',
+      'uusi vuosi aktiviteetit tulostettavia',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'loppiainen 6.1. Suomi tulosteet',
+      'talviaktiviteetit tulostettavia',
+      'tammikuun tulostesesonki',
     ],
-    titleTag: 'Uudenvuodentulosteet tammikuussa | LCS',
-    metaDescription: 'Myy uudenvuoden ja loppiaisen tulosteita tammikuussa. Suomessa loppiainen 6.1. on yleinen vapapaiva. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Uudenvuoden tulosteet tammikuussa | LCS',
+    metaDescription: 'Myy uudenvuoden ja loppiaisen tulosteita tammikuussa. Suomessa loppiainen on yleinen vapaapäivä ja sesonkituote.',
   },
   hero: {
     title: 'Uudenvuoden ja loppiaisen tulosteet tammikuussa',

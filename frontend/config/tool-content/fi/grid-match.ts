@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ruudukkoyhdistämistehtäviä ruudukon ruudukkopulmageneraattori ruudukko tehtävägeneraattori',
+    primaryKeyword: 'ilmainen ruutupiirros-tehtävä verkossa',
     secondaryKeywords: [
-      'ruudukkopulma tehtavageneraattori myyjille',
-      'tee ruudukkopulmia myyntiin',
-      'tulostettava ruudukkopulma generaattori kaupallinen kaytto',
-      'kuvalaatta yhdistamis tehtavageneraattori KDP:lle ja Etsyyn',
+      'ruutupiirrostehtäviä ilmaiseksi verkossa',
+      'ruudukkogeneraattori ilman rekisteröitymistä',
+      'kokeile ruutupiirrostehtävää ilmaiseksi',
+      'tulostettava ruutupiirros ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'yksittaiskuva ruudukkopulma laattamatchaus tyokalu',
-      'automaattinen vastausavain numeroitu ympyrakerros generaattori',
-      'konfiguroitava vihjesolu vaikeus ruudukkogeneraattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'ruudukkotehtävä',
     ],
-    titleTag: 'Ruudukkopulmageneraattori — Ruudukko Tehtävägeneraattori',
-    metaDescription: 'Luo ruudukkoyhdistämistehtäviä konfiguroitavalla ruudukon koolla, säädettävillä vihjesoluilla, Fisher-Yates-sekoituksella ja 104 temaattisilla kuvilla.',
+    titleTag: 'Ilmainen ruutupiirros-tehtävä verkossa | Kokeile',
+    metaDescription: 'Tee ruutupiirrostehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

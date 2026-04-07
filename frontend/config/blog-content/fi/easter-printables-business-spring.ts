@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kevaalla paasiais paasiaistulosteet kasvava',
+    primaryKeyword: 'pääsiäistulosteet myyntiin kevät',
     secondaryKeywords: [
-      'tuotevalikoima teemat',
-      'suomalaisen myyjann kilpailuedut',
-      'hinnoittelu paketointi',
+      'pääsiäistehtävät tulostettavia Etsy',
+      'kevään tulosteet sesonkimyynti',
+      'pääsiäisaktiviteetit tulostettavia',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'virpominen tulosteet',
+      'pääsiäismuna tulostettavia',
+      'kevätjuhlat aktiviteetit',
     ],
-    titleTag: 'Paasiaistulosteet kevaalla | LCS',
-    metaDescription: 'Myy paasiais-tulosteita kevaalla. Paasiainen on Suomessa merkittava juhla ja tulostettavat aktiviteetit myyvat. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Pääsiäistulosteet kevätsesonkiin | LCS',
+    metaDescription: 'Myy pääsiäistulostettavia keväällä. Pääsiäinen on Suomessa merkittävä juhla ja tulostettavat aktiviteetit myyvät hyvin.',
   },
   hero: {
     title: 'Paasiaistulosteet kevaalla: kasvava myyntimahdollisuus',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Pinterest liikenne tulosteet kauppa',
+    primaryKeyword: 'Pinterest-liikenne tulostekauppaan',
     secondaryKeywords: [
-      'Pinterest liikenne tulosteet kauppa opas',
-      'Pinterest liikenne tulosteet kauppa 2026',
-      'Pinterest liikenne tulosteet kauppa Suomi',
+      'Pinterest strategia tulosteille',
+      'ohjaa liikennettä Pinterest Etsy',
+      'Pinterest markkinointi tulostekauppa',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'pinausstrategia tulosteet',
+      'Pinterest-taulut tulostekauppa',
+      'visuaalinen markkinointi Pinterest',
     ],
     titleTag: 'Pinterest-liikenne tulostekauppaan | LCS',
-    metaDescription: 'Ohjaa Pinterest-liikennetta Etsy-kauppaasi. Pinaussstrategia, taulusuunnittelu ja optimointi tulosteille.',
+    metaDescription: 'Ohjaa Pinterest-liikennettä tulostekauppaasi. Pinausstrategia, taulusuunnittelu ja optimointi tulosteille.',
   },
   hero: {
     title: 'Pinterest-liikenne tulostekauppaan: taydellinen opas',

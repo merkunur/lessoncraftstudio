@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy arvostelut tulosteet tuotteet',
+    primaryKeyword: 'Etsy-arvostelut tulosteille',
     secondaryKeywords: [
-      'Etsy arvostelut tulosteet tuotteet opas',
-      'Etsy arvostelut tulosteet tuotteet 2026',
-      'Etsy arvostelut tulosteet tuotteet Suomi',
+      'lisää arvosteluja Etsy-kaupassa',
+      'Etsy-arvostelut tulosteet strategia',
+      'asiakasarviot digitaaliset tuotteet',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'sosiaalinen todiste Etsy',
+      'viiden tähden arvostelut tulosteet',
+      'arvostelu pyyntö Etsy',
     ],
     titleTag: 'Etsy-arvostelut tulosteille | LCS',
-    metaDescription: 'Saa lisaa arvosteluja tulosteille Etsyssa. Arvostelut nostavat myyntia ja hakupaikkaa. Eettiset strategiat.',
+    metaDescription: 'Saa lisää arvosteluja tulosteille Etsyssä. Arvostelut nostavat myyntiä ja hakupaikkaa eettisillä strategioilla.',
   },
   hero: {
     title: 'Etsy-arvostelut tulosteille: taydellinen strategia',

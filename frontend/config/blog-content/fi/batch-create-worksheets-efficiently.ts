@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'luo tyoarkkeja erana tehokkaasti massatuotanto opas',
+    primaryKeyword: 'tehtäväarkkien massatuotanto generaattorilla',
     secondaryKeywords: [
-      'vaihe sisallon luominen generaattorilla',
-      'vaihe muotoilu paketointi',
-      'vaihe ilmoituksen luominen julkaisu',
+      'luo työarkkeja eränä nopeasti',
+      'tulosteiden tuotantotehokkuus',
+      'generaattori massatuotanto vinkit',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'työnkulun optimointi tulosteet',
+      'ajansäästö tuotetuotannossa',
+      'pakettihinnoittelu työarkit',
     ],
-    titleTag: 'Luo tyoarkkeja erana tehokkaasti | LCS',
-    metaDescription: 'Massatuotantotekniikat tyoarkeille. Luo kymmenia tyoarkkeja tunnissa generaattorilla. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Luo tehtäväarkkeja eränä tehokkaasti | LCS',
+    metaDescription: 'Massatuotantotekniikat tulostettaville tehtäville. Luo kymmeniä tehtäväarkkeja tunnissa generaattorilla.',
   },
   hero: {
     title: 'Luo tyoarkkeja erana tehokkaasti: massatuotanto-opas',

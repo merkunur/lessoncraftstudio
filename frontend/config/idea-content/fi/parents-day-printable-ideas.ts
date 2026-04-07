@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Äitien- ja isänpäivä tulostettavat ideat myyntiin —...',
-    metaDescription: 'Tutustu äitien- ja isänpäivän tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, kausistrategiat ja vinkit myyjille.',
+    titleTag: 'Äitien- ja isänpäivätulostettavat | Myy Etsyssä',
+    metaDescription: 'Äitien- ja isänpäivän tulostettavia tehtäviä myyntiin. Kausiniche keväällä ja syksyllä Etsyssä.',
 
-    primaryKeyword: 'äitien isänpäivä tulostettavat ideat myyntiin liiketoimintaideat myyjille',
+    primaryKeyword: 'äitienpäivä isänpäivä tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'äitienpäivätyöarkit myyntiin',
-      'isänpäivä tulostettava liiketoimintaideat',
-      'vanhempienpäivä aktiviteettiarkki myyjille',
-      'myy vanhempienpäivätulostettavia verkossa',
+      'äitienpäivätehtäviä myydä Etsyssä',
+      'isänpäivätulostettavat niche KDP',
+      'vanhempienpäivä tulostettavat myyntiin',
+      'perheaktiviteetit tulostettavat kausi',
     ],
     lsiKeywords: [
-      'perheaiheiset kausiluontoiset tulostettavat',
-      'kevätjuhla opetukselliset aktiviteetit',
-      'lahjakortti ja käsityö tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'äitienpäivä',
+      'isänpäivä',
+      'kausiluonteinen',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

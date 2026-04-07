@@ -2,11 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'myy jaljennostehtavat hienomotoriikka hienomotoriikan',
-    secondaryKeywords: ['pisteviivatehtavat lapsille myy', 'hienomotoriikka tulosteet Etsy', 'jaljentaminen esikouluikaisille'],
-    lsiKeywords: ['kynankaytonharjoittelu', 'motorinen kehitys tyoarkit', 'visuomotorinen koordinaatio'],
-    titleTag: 'Jaljennostehtavat hienomotoriikka: myy | LCS',
-    metaDescription: 'Myy jaljennostehtavia jotka kehittavat hienomotoriikkaa. Ikivihrea tuote esikouluikaisille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    primaryKeyword: 'jäljennystyöarkit tulostettavia myynti',
+    secondaryKeywords: [
+      'piirto-harjoitukset tulostettavia Etsy',
+      'jäljentäminen tehtäväarkit myynti',
+      'viivat ja muodot tulostettavia lapsille',
+    ],
+    lsiKeywords: [
+      'hienomotoriikka jäljentäminen',
+      'kynänkäyttö harjoitukset tulosteet',
+      'esikoulun piirustusharjoitukset',
+    ],
+    titleTag: 'Jäljennystyöarkit tulostettavina | LCS',
+    metaDescription: 'Myy jäljennystyöarkkeja hienomotoriikan kehittämiseen. Kynänkäytön harjoittelu on ikivihreä tarve esikouluikäisille.',
   },
   hero: {
     title: 'Jaljennostehtavat: hienomotoriikan kehittaminen myyntituotteena',

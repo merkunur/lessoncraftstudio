@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'myy ssa vastausavaimen merkitys tulostemyynnissa',
+    primaryKeyword: 'vastausavain tulostettavissa tehtävissä',
     secondaryKeywords: [
-      'vaihe sisallon luominen generaattorilla',
-      'vaihe muotoilu paketointi',
-      'vaihe ilmoituksen luominen julkaisu',
+      'miksi vastausavain lisää myyntiä',
+      'vastausavain tulosteet Etsy',
+      'tehtäväarkit vastauksineen myynti',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'tulosteiden koettu arvo',
+      'asiakastyytyväisyys digitaaliset tuotteet',
+      'arvostelut Etsy-kauppa',
     ],
-    titleTag: 'Vastausavaimen merkitys tulostemyynnissa | LCS',
-    metaDescription: 'Miksi vastausavain on valttamaton tulosteissa. Nostaa koettua arvoa, parantaa arvosteluja ja lisaa myyntia. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Vastausavain nostaa tulostemyyntiä | LCS',
+    metaDescription: 'Miksi vastausavain on välttämätön tulosteissasi. Nostaa koettua arvoa, parantaa arvosteluja ja lisää toistuvaa myyntiä.',
   },
   hero: {
     title: 'Vastausavaimen merkitys tulostemyynnissa',

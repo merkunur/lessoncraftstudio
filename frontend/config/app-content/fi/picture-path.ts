@@ -2,20 +2,23 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kuvapolku-sokkelo-generaattori',
+    primaryKeyword: 'labyrintti tulostaa',
     secondaryKeywords: [
-      'kuvapolku-sokkelo-generaattori myyntiin Etsyssä',
-      'luo kuvapolku-työlehtia Etsy-kauppaan',
-      'sokkelo-aktiviteettitulosteet Amazon KDP -kirjoihin',
-      'kuvapolku-palapelit kaupallinen lisenssi',
+      'labyrintti-generaattori',
+      'labyrintti lapsille tulostaa',
+      'luo labyrintti',
+      'sokkelo tulostaa',
     ],
     lsiKeywords: [
-      'sokkelo-tulosteniche Etsy KDP',
-      'myy polku-työlehtia kaupallisesti',
-      'visuaalisen navigoinnin palapeelituotteet',
+      'sokkelo',
+      'polku',
+      'reitti',
+      'lapset',
+      'vastaukset',
+      'PDF',
     ],
-    titleTag: 'Kuvapolku-sokkelo-generaattori — Myy Etsyssä | LCS',
-    metaDescription: 'Luo kuvapolku-sokkelo-työlehtia myytäväksi Etsyssä ja KDP:ssä. Teemakuvat, vastausavaimet, 104 teemaa, kaupallinen lisenssi. $49 kertamaksu.',
+    titleTag: 'Labyrintti tulostaa | Labyrinttigeneraattori',
+    metaDescription: 'Luo labyrintteja teemakuvilla. Automaattiset vastaukset, 300 DPI PDF. Kokeile ilmaiseksi — myy Etsyssä & Amazon KDP:ssä.',
   },
 
   hero: {

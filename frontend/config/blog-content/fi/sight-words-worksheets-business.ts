@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kokonaisten sanojen tyoarkit liiketoimintana liiketoiminta',
+    primaryKeyword: 'sanatunnistus tulostettavia liiketoiminta',
     secondaryKeywords: [
-      'tuotevalikoima teemat',
-      'suomalaisen myyjann kilpailuedut',
-      'hinnoittelu paketointi',
+      'kokonaisten sanojen työarkit myynti',
+      'lukemaan oppiminen tulosteet Etsy',
+      'sanantunnistus tehtäväarkit myynti',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'lukutaito tulosteet',
+      'frekvenssisanat harjoitukset',
+      'alkuopetus lukeminen tulostettavia',
     ],
-    titleTag: 'Kokonaisten sanojen tyoarkit | LCS',
-    metaDescription: 'Myy kokonaisten sanojen tyoarkkeja. Suomessa kokonaisten sanojen tunnistaminen on osa lukemaan oppimista. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Sanantunnistus-tulosteet myyntiin | LCS',
+    metaDescription: 'Myy sanantunnistustyöarkkeja. Lukemaan oppiminen on ikivihreä tarve ja suomenkieliset materiaalit ovat kilpailuttomia.',
   },
   hero: {
     title: 'Kokonaisten sanojen tyoarkit liiketoimintana',

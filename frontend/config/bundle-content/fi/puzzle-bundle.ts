@@ -2,21 +2,21 @@ import type { BundleContent } from '../types';
 
 const content: BundleContent = {
   seo: {
-    primaryKeyword: 'logiikka paketti logiikkapulmapaketti kdp',
+    primaryKeyword: 'logiikkapulmapaketti työarkkigeneraattoreita tulostettavia',
     secondaryKeywords: [
-      'pulmat logiikka paketti',
-      'puuttuvien palojen pulmageneraattori',
-      'etsi erilainen tyoarkkigeneraattori',
-      'kuvasudoku tyoarkkigeneraattori',
+      'pulmat ja logiikka -paketti Etsy-myyjille kertaosto',
+      'puuttuvat palat sudoku labyrintti generaattoripaketti',
+      'etsi erilainen kuvapolku pulmapaketti KDP',
+      '4 pulmageneraattoria yhdessä paketissa',
     ],
     lsiKeywords: [
-      'puuttuvat palat sudoku labyrintti tyoarkkipaketti',
-      'etsi erilainen logiikka tulostettava kokoelma',
-      'kaupallinen lisenssi pulmatyoarkit',
-      'massatuotanto pulmatyoarkkityokalu',
+      'puuttuvat palat etsi erilainen kuvasudoku kuvapolku',
+      'avaruudellinen päättely looginen deduktio',
+      'kaupallinen lisenssi säästä kertaosto',
+      'täysin visuaaliset työarkit kaikille kielille',
     ],
-    titleTag: 'Logiikkapulmapaketti — 4 generaattoria KDP-pulmakirjoihin',
-    metaDescription: 'Logiikkapulmapaketti 4 generaattorilla: puuttuvat palat, etsi erilainen, kuvasudoku ja kuvapolku. Myy Etsyssa, KDP:ssa ja Gumroadissa. $149 kertamaksu.',
+    titleTag: 'Logiikkapulmapaketti | 4 generaattoria — Kertaosto',
+    metaDescription: 'Logiikkapulmapaketti: 4 generaattoria — puuttuvat palat, etsi erilainen, kuvasudoku ja kuvapolku. Täysin visuaalisia pulmia myyntiin. $149 kertaosto.',
   },
 
   hero: {

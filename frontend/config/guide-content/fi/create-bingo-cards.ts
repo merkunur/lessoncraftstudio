@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo bingokortit',
+    primaryKeyword: 'näin teet bingokortteja tulostettavia',
     secondaryKeywords: [
-      'tee bingokortit kuvilla',
-      'bingokorttigeneraattori lapsille',
-      'tulostettavia bingokortteja myyntiin',
-      'mukautettu kuvabingon tekijä',
+      'bingokorttigeneraattori kuvilla myyntiin',
+      'tulosta temaattisia bingokortteja lapsille',
+      'luo uniikkeja bingokortteja PDF-muodossa',
+      'bingokorttien tekeminen opas Etsyyn',
     ],
     lsiKeywords: [
-      'temaattiset bingokortit ryhmille',
-      'juhlabingo tulostettavat aktiviteetit',
-      'myy bingokortteja Etsyssä',
-      'Amazon KDP bingo-aktiviteettikirjat',
-      'kaupallinen lisenssi bingotyökalu',
-      'useita uniikkeja bingokortteja generaattori',
+      'kutsukortit kutsulistat teemat',
+      'esiopetus alakoulu juhlat',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP bingo-aktiviteettikirja',
+      'useita uniikkeja kortteja generaattori',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo bingokortit temaattisilla kuvilla — Opas',
-    metaDescription: 'Luo bingokortit temaattisilla kuvilla. Valitse ruudukkokoot, luo uniikkeja kortteja kutsukortilla ja vie tulostuskelpoisia PDF-tiedostoja myyntiin Etsyssä.',
+    titleTag: 'Bingokortteja tulostettavia | Vaihe vaiheelta -opas',
+    metaDescription: 'Näin teet bingokortteja tulostettavaksi temaattisilla kuvilla. Valitse ruudukkokoot, luo uniikkeja kortteja ja vie PDF myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

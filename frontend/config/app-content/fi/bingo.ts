@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingokorttien generaattori luo myy bingo tulosteita kuvabingo korttien',
+    primaryKeyword: 'luo bingolautoja',
     secondaryKeywords: [
-      'tulostettava bingokorttien generaattori Etsy-myyjille',
-      'kuvabingo-työlehtigeneraattori KDP-julkaisijoille',
-      'bingokorttien generaattori kaupallinen lisenssi',
-      'myy tulostettavia bingokortteja Gumroadissa',
+      'bingo-generaattori',
+      'kuvabingo tulostaa',
+      'oma bingo luoda',
+      'bingopeli tulostaa',
     ],
     lsiKeywords: [
-      'digitaaliset bingo-tulosteet verkkoliiketoiminta',
-      'kaupallinen bingokorttien generaattori',
-      'tulostettava kuvabingo liiketoimintatyökalu',
+      'bingolauta',
+      'kuvabingo',
+      'peli',
+      'tulostettava',
+      'PDF',
     ],
-    titleTag: 'Bingokorttien generaattori | Luo ja myy bingo-tulosteita',
-    metaDescription: 'Luo kuvabingokortteja myytäväksi Etsyssä, KDP:ssä ja Gumroadissa. Eräluonti, ZIP-vienti, huutolista, 104 teemaa. Ilmainen kokeilu vesileimalla. $49 kertamaksu.',
+    titleTag: 'Luo bingolautoja | Kuvabingogeneraattori',
+    metaDescription: 'Luo bingolautoja 3 000+ teemakuvalla. Uniikit laudat per setti, tulostettavat PDF:t. Kokeile ilmaiseksi — kaupallinen lisenssi.',
   },
 
   hero: {

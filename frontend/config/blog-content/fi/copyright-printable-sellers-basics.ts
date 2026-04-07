@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'myy tekijanoikeus tulostemyyjille perusteet ymmarra',
+    primaryKeyword: 'tekijänoikeus tulostemyyjille',
     secondaryKeywords: [
-      'tekijanoikeus tulosteet myyjat perusteet opas',
-      'tekijanoikeus tulosteet myyjat perusteet 2026',
-      'tekijanoikeus tulosteet myyjat perusteet Suomi',
+      'tulosteiden tekijänoikeus perusteet',
+      'tekijänoikeussuoja digitaaliset tuotteet',
+      'oman työn suojaaminen tulostemyyjänä',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'plagiointi tulosteet',
+      'tekijänoikeuslaki Suomi',
+      'alkuperäisen sisällön suojaus',
     ],
-    titleTag: 'Tekijanoikeus tulostemyyjille | LCS',
-    metaDescription: 'Ymmarra tekijanoikeuden perusteet tulostemyyjana. Mita saat kayttaa, mita et ja miten suojaat oman tyosi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Tekijänoikeus tulostemyyjille | LCS',
+    metaDescription: 'Ymmärrä tekijänoikeuden perusteet tulostemyyjänä. Mitä saat käyttää, miten suojaat oman työsi ja vältät rikkomukset.',
   },
   hero: {
     title: 'Tekijanoikeus tulostemyyjille: perusteet selkeasti',

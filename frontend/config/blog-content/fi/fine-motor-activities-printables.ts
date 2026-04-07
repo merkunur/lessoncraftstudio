@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'hienomotoriikka aktiviteetit tulosteina vakaa markkina',
+    primaryKeyword: 'hienomotoriikka tulostettavia myyntiin',
     secondaryKeywords: [
-      'hienomotoriikka aktiviteetit tulosteet opas',
-      'hienomotoriikka aktiviteetit tulosteet 2026',
-      'hienomotoriikka aktiviteetit tulosteet Suomi',
+      'kynänkäyttöharjoitukset tulostettavia',
+      'hienomotoriikan kehitys tulosteet',
+      'motoristen taitojen tehtäväarkit',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'esikouluikäisten kynäharjoitukset',
+      'leikkaus ja liimaus tulosteet',
+      'käsityö hienomotoriikka',
     ],
-    titleTag: 'Hienomotoriikka-aktiviteetit tulosteina | LCS',
-    metaDescription: 'Myy hienomotoriikka-aktiviteetteja tulosteina. Kynankaytonharjoittelu on jokaisen lapsen tarve ennen koulua. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Hienomotoriikka-tulosteet myyntiin | LCS',
+    metaDescription: 'Myy hienomotoriikka-aktiviteetteja tulosteina. Kynänkäytön harjoittelu on jokaisen lapsen tarve ennen koulua.',
   },
   hero: {
     title: 'Hienomotoriikka-aktiviteetit tulosteina: vakaa markkina',

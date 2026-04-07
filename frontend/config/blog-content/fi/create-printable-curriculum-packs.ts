@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'opetussuunnitelmapaketit tulosteina luo premium',
+    primaryKeyword: 'opetussuunnitelmapaketit tulostettavina',
     secondaryKeywords: [
-      'luo opetussuunnitelma paketit tulosteet opas',
-      'luo opetussuunnitelma paketit tulosteet vaiheittain',
-      'luo opetussuunnitelma paketit tulosteet 2026',
+      'opetussuunnitelmaan perustuvat tulosteet',
+      'oppimateriaalipaketti tulostettava myynti',
+      'luo opetuspaketteja tulosteina',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'Suomen opetussuunnitelma tulosteet',
+      'esiopetus materiaalipaketti',
+      'kotiopetus oppimateriaalit',
     ],
-    titleTag: 'Luo opetussuunnitelmapaketit tulosteina | LCS',
-    metaDescription: 'Rakenna opetussuunnitelmaan perustuvia tulostepaketteja. Suomen opetussuunnitelman tuntemus on kilpailuetu. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Opetussuunnitelmapaketit tulosteina | LCS',
+    metaDescription: 'Rakenna opetussuunnitelmaan perustuvia tulostepaketteja. Suomen opetussuunnitelman tuntemus on kilpailuetu.',
   },
   hero: {
     title: 'Opetussuunnitelmapaketit tulosteina: premium-tuote',

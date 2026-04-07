@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'monikieliset tulostettavat työarkit opas luo monikielisiä tulostettavia työarkkeja',
-    secondaryKeywords: ['luo työarkkeja useilla kielillä', 'monikielinen tulostettavien liiketoiminta', 'kieliversiot tulostettaville tuotteille', 'monikielinen Etsy KDP strategia'],
-    lsiKeywords: ['monikielinen sisällöntuotanto tulostettaville', 'kielimultiplikaattori tulostettavien myyjille', 'kansainväliset markkinat tulostettaville tuotteille'],
-    titleTag: 'Monikieliset tulostettavat työarkit — Opas',
-    metaDescription: 'Luo monikielisiä tulostettavia työarkkeja 11 kielellä. Kielimultiplikaattoristrategia, kansainväliset markkinat ja monikielisen tulostettavien.',
+    primaryKeyword: 'luo monikielisiä tulostettavia työarkkeja opas',
+    secondaryKeywords: [
+      'monikielinen tulostettavien tuotanto 11 kieltä',
+      'kielimultiplikaattoristrategia tulostettaville opas',
+      'luo työarkkeja useilla kielillä myyntiin',
+      'kansainvälinen tulostettavien liiketoiminta opas',
+    ],
+    lsiKeywords: [
+      'kielimultiplikaattori katalogin skaalaus',
+      '11 kieltä sanasto diakriittiset merkit',
+      'kaupallinen lisenssi PDF-vienti',
+      'kansainväliset markkinat kielikohtainen optimointi',
+      'Etsy KDP Gumroad monikielinen myynti',
+      'saksa ranska espanja pohjoismaat suomi',
+    ],
+    titleTag: 'Monikieliset tulostettavat työarkit | Opas',
+    metaDescription: 'Luo monikielisiä tulostettavia työarkkeja 11 kielellä. Kielimultiplikaattori, kansainväliset markkinat ja monikielisen liiketoiminnan rakentaminen.',
   },
   hero: {
     title: 'Luo monikielisiä tulostettavia työarkkeja',

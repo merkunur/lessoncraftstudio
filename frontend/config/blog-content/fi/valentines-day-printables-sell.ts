@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ystavanpaiva tulosteet myy',
+    primaryKeyword: 'ystävänpäivätulosteet myyntiin',
     secondaryKeywords: [
-      'ystavanpaiva tulosteet myy opas',
-      'ystavanpaiva tulosteet myy 2026',
-      'ystavanpaiva tulosteet myy Suomi',
+      'ystävänpäivä tulostettavia Etsy sesonki',
+      'helmikuun tulosteet myyntistrategia',
+      'rakkausteema tulosteet myynti',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'ystävänpäivä Suomi tulosteet',
+      'sydänteema tulostettavia',
+      'helmikuun sesonkimyynti tulosteet',
     ],
-    titleTag: 'Ystavanpaivatulosteet: myyntiopas | LCS',
-    metaDescription: 'Myy ystavanpaiva-tulosteita helmikuussa. Suomessa ystavanpaiva on enemmaan ystavaen kuin romantiikan juhla. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ystävänpäivätulosteet myyntiin | LCS',
+    metaDescription: 'Myy ystävänpäivätulosteita helmikuussa. Rakkausteema myy kansainvälisesti ja Suomessa ystävänpäivä on suosittu.',
   },
   hero: {
     title: 'Ystavanpaivatulosteet: helmikuun myyntimahdollisuus',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'paalasku tulosteet myy',
+    primaryKeyword: 'päässälaskutulosteet myyntiin',
     secondaryKeywords: [
-      'paalasku tulosteet myy opas',
-      'paalasku tulosteet myy 2026',
-      'paalasku tulosteet myy Suomi',
+      'matematiikan peruslaskut tulostettavia',
+      'laskusujuvuus harjoitukset tulosteet',
+      'päässälasku tehtäväarkit Etsy',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'automaattistunut laskutaito',
+      'kertotaulut tulostettavia',
+      'nopeat laskuharjoitukset tulosteet',
     ],
-    titleTag: 'Paalaskutulosteet: myyntiopas | LCS',
-    metaDescription: 'Myy paalaskutulosteita. Matematiikan peruslaskutoimituksen automatisoiminen on tarkea taito jota kaikki. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Päässälaskutulosteet myyntiin | LCS',
+    metaDescription: 'Myy päässälaskutulosteita. Matematiikan peruslaskutoimitusten automatisointi on taito jota jokainen lapsi harjoittelee.',
   },
   hero: {
     title: 'Paalaskutulosteet: matemaattinen sujuvuus myyntituotteena',

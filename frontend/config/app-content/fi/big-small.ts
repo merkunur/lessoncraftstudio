@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'iso pieni generaattori luo myy',
+    primaryKeyword: 'iso ja pieni tehtävä tulostaa',
     secondaryKeywords: [
-      'kokovertailu työarkit myy Etsyssä',
-      'iso ja pieni generaattori Amazon KDP',
-      'kokoerottelu työarkit kaupallinen lisenssi',
-      'tulostettavat kokoharjoitukset Gumroadiin',
+      'vertaa kokoa tehtävä',
+      'järjestä koon mukaan',
+      'suurempi pienempi tehtävä',
+      'koko esiopetus',
     ],
     lsiKeywords: [
-      'digitaaliset kokovertailutuotteet verkkokauppa',
-      'tulostettavat visuaalinen erottelu työarkit liiketoiminta',
-      'iso pieni generaattori kaupallinen käyttö',
+      'kokovertailu',
+      'iso',
+      'pieni',
+      'esiopetus',
+      'vastaukset',
     ],
-    titleTag: 'Iso ja Pieni Generaattori | Luo ja Myy Kokovertailuarkkeja',
-    metaDescription: 'Luo kokovertailutyöarkkeja myyntiin Etsyssä, KDP:ssä ja Gumroadissa. Viisi kysymystyyppiä, identtiset ja eri tilat, 104 teemaa. $49 kertamaksu.',
+    titleTag: 'Iso ja pieni tehtävä tulostaa | Kokovertailugeneraattori',
+    metaDescription: 'Luo kokovertailutehtäviä teemakuvilla. Iso vs. pieni, järjestä, automaattiset vastaukset. Kokeile ilmaiseksi.',
   },
 
   hero: {

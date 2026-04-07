@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'opas matchingtyöarkit matchingtyöarkkeja luo',
-    secondaryKeywords: ['matchingtyöarkkigeneraattori lapsille', 'tulostettavat yhdistäviivat-harjoitukset myyntiin', 'kuvaparit matchingtyöarkit', 'mukautetut visuaalisen erottelun harjoitukset'],
-    lsiKeywords: ['piirrä viiva -matchingtyöarkit Etsyyn', 'Amazon KDP matchingaktiviteettikirjat', 'visuaalisen erottelun harjoitusarkit', 'kaupallinen lisenssi matchingtyökalu', 'esikoulun matchingaktiviteetit', 'kirjain-kuva matching -harjoitukset'],
-    titleTag: 'Matchingtyöarkit — Opas',
-    metaDescription: 'Luo matchingtyöarkkeja kuvaparein, kirjain-kuva-matchingineen ja automaattisilla vastausavaimilla. Vaiheittainen opas Etsyn ja KDP:n myyjille.',
+    primaryKeyword: 'näin teet yhdistämistehtäviä tulostettavia',
+    secondaryKeywords: [
+      'yhdistämistehtävägeneraattori kuvaparein',
+      'tulosta piirrä viiva -tehtäviä myyntiin',
+      'luo yhdistämistehtäviä vastausavaimella PDF',
+      'yhdistämistehtävien tekeminen opas lapsille',
+    ],
+    lsiKeywords: [
+      'visuaalinen erottelu esiopetus',
+      'kuva-kuva kirjain-kuva sana-kuva',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP yhdistämisaktiviteettikirja',
+      '104 teemaa kolme yhdistämistilaa',
+      'myy Etsyssä Gumroadissa',
+    ],
+    titleTag: 'Yhdistämistehtäviä tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet yhdistämistehtäviä tulostettavaksi kuvaparein. Kolme yhdistämistilaa, vastausavaimet ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
   hero: {
     title: 'Kuinka luot matchingtyöarkkeja',

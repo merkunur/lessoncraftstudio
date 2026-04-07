@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulostekaupan brandays vinkit ilme rakenna',
+    primaryKeyword: 'tulostekaupan brändäysvinkit',
     secondaryKeywords: [
-      'tulosteet kauppa brandays vinkit opas',
-      'tulosteet kauppa brandays vinkit 2026',
-      'tulosteet kauppa brandays vinkit Suomi',
+      'Etsy-kaupan ilme tulosteet',
+      'brändistrategia tulostekaupalle',
+      'visuaalinen identiteetti tulostemyyjä',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'kaupan logo tulosteet',
+      'väripaletti tulostekauppa',
+      'yhtenäinen tuoteilme Etsy',
     ],
-    titleTag: 'Tulostekaupan brandays-vinkit | LCS',
-    metaDescription: 'Rakenna tunnistettava brandi tulostekauppallesi. Logo, varimaailma, typografia ja yhtenaiinen visuaalinen ilme. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Tulostekaupan brändäysvinkit | LCS',
+    metaDescription: 'Rakenna tunnistettava brändi tulostekaupallesi. Logo, värimaailma ja yhtenäinen visuaalinen ilme asiakkaille.',
   },
   hero: {
     title: 'Tulostekaupan brandays: vinkit ammattimaiseen ilmeeseen',

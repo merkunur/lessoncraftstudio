@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Esikoulun tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu esikoulun tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja vinkit myyjille.',
+    titleTag: 'Esikoulutulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Esikoulun tulostettavia tehtäviä myyntiin. Varhaiskasvatuksen suosittu niche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'esikoulun tulostettavat ideat myyntiin',
+    primaryKeyword: 'esikoulu tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'esikoulutyöarkit myyntiin',
-      'esikoulu tulostettava liiketoimintaideat',
-      'esikouluaktiviteettiarkki myyjille',
-      'myy esikoulutulostettavia verkossa',
+      'esikoulutehtäviä myydä Etsyssä',
+      'esikoulutulostettavat niche KDP',
+      'varhaiskasvatuksen tehtävät myyntiin',
+      'esikouluaktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'varhaiskasvatuksen opetukselliset työarkit',
-      'esikouluikäisten oppimisaktiviteetit',
-      'esikoulun valmistavat tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'esikoulu',
+      'varhaiskasvatus',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kesäoppimisen tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu kesäoppimisen tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Taitojen ylläpitotuotekonseptit ja nichestrategiat myyjille.',
+    titleTag: 'Kesäoppimisen tulostettavat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Kesäoppimisen tulostettavia tehtäviä myyntiin. Taitojen ylläpitoniche kesälomakaudella.',
 
-    primaryKeyword: 'kesäoppimisen tulostettavat ideat myyntiin nicheopas liiketoimintaideat myyjille',
+    primaryKeyword: 'kesäoppiminen tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'kesäoppimisen työarkit myyntiin',
-      'kesäoppimistulostettava liiketoimintaideat',
-      'taitojen ylläpitoaktiviteettiarkit myyjille',
-      'myy kesäoppimistulostettavia Gumroadilla',
+      'kesäoppimisen tehtäviä myydä Etsyssä',
+      'kesäkertaus tulostettavat niche KDP',
+      'taitojen ylläpito tehtävät myyntiin',
+      'kesäloman harjoitukset tulostettavat',
     ],
     lsiKeywords: [
-      'kesäloman oppimisen menetys ehkäisy',
-      'taitojen ylläpidon tulostettavat resurssit',
-      'kesäkertauksen opetukselliset työarkit',
+      'Etsy',
+      'KDP',
+      'kesäoppiminen',
+      'kesäloma',
+      'kausiluonteinen',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'etsi erilainen -tehtavat generaattori',
+    primaryKeyword: 'ilmainen mikä ei kuulu joukkoon -tehtävä verkossa',
     secondaryKeywords: [
-      'etsi erilainen -tehtavageneraattori myyjille',
-      'tee etsi poikkeava -palapelejaemyyntiin',
-      'tulostettava etsi erilainen -generaattori kaupallinen kaytto',
-      'etsi erilainen -palapeli-generaattori KDP ja Etsy',
+      'mikä ei kuulu joukkoon ilmaiseksi verkossa',
+      'etsi erilainen -generaattori ilman rekisteröitymistä',
+      'kokeile etsi erilainen ilmaiseksi',
+      'tulostettava etsi erilainen ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'kaksoistila identtinen samanlainen visuaalisen erottelun generaattori',
-      'harjoituskohtainen tilan ohitus etsi erilainen -generaattori',
-      'automaattinen vastausavain punainen ympyra poikkeava kohde -tehtavageneraattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'erottelutehtävä',
     ],
-    titleTag: 'Etsi erilainen -generaattori — Tehtavageneraattori —...',
-    metaDescription: 'Tee etsi erilainen -tehtavia Identtinen- ja Samanlainen-tilalla, harjoituskohtaisilla ohituksilla,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen mikä ei kuulu joukkoon verkossa | Kokeile',
+    metaDescription: 'Tee mikä ei kuulu joukkoon -tehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'lajittelutyoarkit esikouluikaisille esikouluikaisten suosikkitehtava esikoulu',
+    primaryKeyword: 'lajittelutehtävät esikoululaisille tulostettavia',
     secondaryKeywords: [
-      'lajittelu tehtavat lapsille Etsy',
-      'kategoriointi tulosteet myy',
-      'luokittelu tyoarkit esikoulu',
+      'lajittelu tulosteet myynti Etsy',
+      'luokittelu tehtäväarkit lapsille',
+      'kategoriointi tulostettavia esikoulu',
     ],
     lsiKeywords: [
       'kognitiivinen kehitys lajittelu',
-      'ryhmittely harjoitukset',
-      'looginen luokittelu lapsille',
+      'ryhmittely harjoitukset tulosteet',
+      'looginen luokittelu esikoulu',
     ],
-    titleTag: 'Lajittelutyoarkit esikouluikaisille | LCS',
-    metaDescription: 'Myy lajittelutyoarkkeja esikouluikaisten vanhemmille. Luokittelutaidon harjoittelu on jokaisen lapsen tarve. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Lajittelutehtävät esikoululaisille | LCS',
+    metaDescription: 'Myy lajittelutehtäviä esikouluikäisten vanhemmille. Luokittelutaidon harjoittelu on jokaisen lapsen tarve.',
   },
   hero: {
     title: 'Lajittelutyoarkit: esikouluikaisten suosikkitehtava',

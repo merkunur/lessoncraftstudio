@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'Etsy SEO tulosteet myyjat 2026',
+    primaryKeyword: 'Etsy SEO tulostemyyjille',
     secondaryKeywords: [
       'Etsy hakukoneoptimointi tulosteet',
-      'Etsy avainsanat 2026',
-      'SEO digitaaliset lataukset Etsy',
+      'Etsy-algoritmi tulosteet myyjät',
+      'hakuoptimointi Etsy-kauppa',
     ],
     lsiKeywords: [
-      'Etsy algoritmit 2026',
-      'hakusanat tulosteet',
-      'Etsy ranking tekijat',
+      'Etsy-haku ranking tekijät',
+      'tunnisteet optimointi Etsy',
+      'konversioprosentti ja SEO Etsy',
     ],
-    titleTag: 'Etsy-SEO tulostemyyjille 2026 | LCS',
-    metaDescription: 'Optimoi Etsy-ilmoituksesi tulosteille 2026. Avainsanat, otsikot, tunnisteet ja kuvaukset jotka toimivat.',
+    titleTag: 'Etsy-SEO tulostemyyjille | LCS',
+    metaDescription: 'Optimoi Etsy-ilmoituksesi tulosteille. Avainsanat, otsikot, tunnisteet ja kuvaukset jotka toimivat hakualgoritmin kanssa.',
   },
   hero: {
     title: 'Etsy-SEO tulostemyyjille 2026: taydellinen opas',

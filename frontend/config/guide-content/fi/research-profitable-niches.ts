@@ -2,20 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tutki kannattavia tulostettavien markkinarakoja',
+    primaryKeyword: 'tutki kannattavia tulostettavien nichejä',
     secondaryKeywords: [
+      'nichetutkimus tulostettavien myyjille opas',
+      'Etsy KDP nicheanalyysi tulostettaville',
       'löydä kannattavia tulostettavien tuotteiden nichejä',
-      'tulostettavien markkinarakotutkimus opas',
-      'Etsy KDP tulostettavien nicheanalyysi',
-      'parhaat markkinaraot tulostettaville tuotteille',
+      'parhaat nichet tulostettaville tuotteille 2026',
     ],
     lsiKeywords: [
-      'markkinarakotutkimus tulostettavien myyjille',
-      'kilpailija-analyysi Etsy KDP',
-      'tuotevalidointi tulostettaville työarkeille',
+      'kysynnän arviointi kilpailuanalyysi',
+      'tuotevalidointi markkinatestaus tulostettavat',
+      'kaupallinen lisenssi PDF-vienti',
+      'hakuvolyymi trendit ostointentio',
+      'Etsy KDP Gumroad niche-tutkimus',
+      'alipalvellut markkinat kausivaihtelut',
     ],
-    titleTag: 'Tutki kannattavia tulostettavien nichejä — Opas',
-    metaDescription: 'Tutki kannattavia tulostettavien nichejä. Markkinarakotutkimusmenetelmät, kilpailija-analyysi, kysynnän validointi ja tuottavimmat kategoriat Etsyn ja KDP:n.',
+    titleTag: 'Tutki kannattavia tulostettavien nichejä | Opas',
+    metaDescription: 'Tutki kannattavia tulostettavien nichejä. Nichetutkimus, kilpailija-analyysi, kysynnän validointi ja tuottavimmat kategoriat Etsyssä ja KDP:ssä.',
   },
 
   hero: {

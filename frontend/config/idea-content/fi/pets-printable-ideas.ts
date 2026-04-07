@@ -2,20 +2,25 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Lemmikki tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu lemmikkiaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Lemmikkitulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Lemmikkiaiheisia tulostettavia tehtäviä myyntiin. Ikuisesti suosittu eläinniche Etsyssä ja KDP:ssä.',
 
     primaryKeyword: 'lemmikki tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'lemmikkiteemaiset työarkit myyntiin',
-      'lemmikki tulostettava liiketoimintaideat',
-      'lemmikkiaktiviteettiarkki myyjille',
-      'myy lemmikkitulostettavia Etsyssä',
+      'lemmikkitehtäviä myydä Etsyssä',
+      'lemmikkitulostettavat niche KDP',
+      'kissa- ja koirateemaiset tehtävät myyntiin',
+      'lemmikkiaktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'kotieläin opetukselliset työarkit',
-      'kissa ja koira teema-aktiviteettisivut',
-      'lemmikinhoidon teemaiset tulostettavat',
+      'Etsy',
+      'KDP',
+      'lemmikit',
+      'eläimet',
+      'tulostettavat',
+      'koirat',
+      'kissat',
+      'niche',
     ],
   },
   hero: {

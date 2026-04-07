@@ -4,17 +4,17 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'Gumroad vai Etsy digitaaliset tuotteet',
     secondaryKeywords: [
-      'kaytannoen toteutus vaihe vaiheelta',
-      'yleisimmat haasteet ratkaisut',
-      'mittaaminen optimointi',
+      'Gumroad vs Etsy vertailu tulosteet',
+      'paras alusta digitaalisille tuotteille',
+      'Gumroad Etsy palkkiot vertailu',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'myyntialustan valinta',
+      'digitaalisten tuotteiden jakelu',
+      'provisiot Gumroad Etsy',
     ],
-    titleTag: 'Gumroad vai Etsy digitaalisille tuotteille? | LCS',
-    metaDescription: 'Vertaile Gumroadia ja Etsya digitaalisten tuotteiden myyntiin. Palkkiot, liikenne ja kaytettavyys.',
+    titleTag: 'Gumroad vai Etsy tulosteille? | LCS',
+    metaDescription: 'Vertaile Gumroadia ja Etsyä tulosteiden myyntiin. Palkkiot, liikenne, käytettävyys ja mikä sopii sinulle.',
   },
   hero: {
     title: 'Gumroad vai Etsy: kumpi sopii digitaalisille tuotteille?',

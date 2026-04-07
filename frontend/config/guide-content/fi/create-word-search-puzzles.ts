@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo sanakäärmepalapelejä',
+    primaryKeyword: 'näin teet sananetsintäpulmia tulostettavia',
     secondaryKeywords: [
-      'sanakäärmepalapelit lapsille',
-      'sanakäärmegeneraattori',
-      'tulostettavia sanakäärmepalapelejä myyntiin',
-      'sanastohaku-palapelimaker',
+      'sananetsintägeneraattori 11 kielellä',
+      'tulosta sanaristikkoja myyntiin Etsyssä',
+      'luo sananetsintäpulmia vastausavaimella PDF',
+      'sananetsintäpulmien tekeminen opas myyjille',
     ],
     lsiKeywords: [
-      'temaattiset sanakäärmepalapelit lapsille',
-      'sanastonkehitys palapelimuodossa',
-      'monikielinen sanakäärmegeneraattori',
-      'myy sanakäärmepalapelejä Etsyssä',
-      'Amazon KDP palapelikirjat',
-      'kaupallinen lisenssi palapeliväline',
+      'sanastohaku temaattinen kuvavihjeet',
+      'monikielinen 11 kieltä sanasto',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP sananetsintäkirja',
+      'mukautettava ruudukkokoko teema',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo sanakäärmepalapelejä — Opas',
-    metaDescription: 'Luo sanakäärmepalapelejä temaattisilla kuvavihjelmillä. Monikielinen sanastotila, mukautettava ruudukkokoko,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Sananetsintäpulmia tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet sananetsintäpulmia tulostettavaksi 11 kielellä. Temaattiset kuvavihjeet, mukautettava ruudukko ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

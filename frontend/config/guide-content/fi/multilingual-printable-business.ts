@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tulostettava monikielinen liiketoiminta strategiaopas monikielisen tulostettavan liiketoiminnan',
+    primaryKeyword: 'monikielinen tulostettavien liiketoiminta opas',
     secondaryKeywords: [
-      'myy tulostettavia useilla kielillä',
-      'kansainvälinen tulostettavien markkina',
-      'monikielinen työarkkiyritys',
-      'laajenna tulostettavia globaalisti',
+      'myy tulostettavia useilla kielillä strategia',
+      'kansainvälinen tulostettavien markkina opas',
+      'laajenna tulostettavien myyntiä globaalisti',
+      'monikielinen työarkkiyritys 11 kieltä',
     ],
     lsiKeywords: [
-      'kielilaajennus kansainväliset markkinat lokalisointistrategia eurooppalaiset tulostettavien markkinat',
-      'saksan opetusmarkkina ranskan työarkkikysyntä espanjan tulostettavien ostajat',
-      'monikielinen katalogi liikevaihdon moninkertaistuminen markkinoiden monipuolistaminen rajat ylittävä myynti',
-      'käännöstyönkulku globaali opetusmarkkina kielikohtaiset markkinapaikat kansainvälinen SEO',
-      'monikielinen tuoteportfolio kielikattavuus kilpailuetu alipavellut markkinat',
-      'kielten välinen liikevaihto alustan kansainvälistäminen monimarkkinajakelu',
+      'kielilaajennus lokalisointistrategia',
+      'eurooppalaiset tulostettavien markkinat',
+      'kaupallinen lisenssi monikielinen tuotanto',
+      'kielimultiplikaattori katalogin kasvu',
+      'Etsy KDP Gumroad kansainvälinen myynti',
+      'saksa ranska espanja pohjoismaat',
     ],
-    titleTag: 'Monikielinen tulostettava liiketoiminta — Strategiaopas',
-    metaDescription: 'Rakenna monikielinen tulostettava liiketoiminta laajentumalla kansainvälisille markkinoille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Monikielinen tulostettavien liiketoiminta | Opas',
+    metaDescription: 'Rakenna monikielinen tulostettavien liiketoiminta 11 kielellä. Kielilaajennus, kansainväliset markkinat ja kielimultiplikaattoristrategia Etsyyn ja KDP:hen.',
   },
 
   hero: {

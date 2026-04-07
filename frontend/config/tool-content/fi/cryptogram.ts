@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kryptogrammi työkirja generaattori luo',
+    primaryKeyword: 'ilmainen salainen viesti -tehtävä verkossa',
     secondaryKeywords: [
-      'kuvakoodipulmien generaattori myyjille',
-      'luo kryptogrammi-työkirjoja myyntiin',
-      'tulostettavat kryptogrammipulmat kaupalliseen käyttöön',
-      'kryptogrammigeneraattori KDP:lle',
+      'salainen viesti ilmaiseksi verkossa',
+      'kryptogrammigeneraattori ilman rekisteröitymistä',
+      'kokeile kryptogrammia ilmaiseksi',
+      'tulostettava salainen viesti ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'kuva-kirjain-koodi tulostettavat Etsyyn',
-      'koodinmurtamis-työkirja-generaattorityökalu',
-      'monikielinen kuvakryptogrammigeneraattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'kooditehtävä',
     ],
-    titleTag: 'Kryptogrammi-työkirja-generaattori | Luo ja myy pulmia',
-    metaDescription: 'Luo kryptogrammi-työkirjoja kuvakoodauksella, vaikeussäädöillä, automaattisella määrityksellä, ratkaisuavaimilla 11 kielellä. Ilmainen kokeilu vesileimalla.',
+    titleTag: 'Ilmainen salainen viesti -tehtävä verkossa',
+    metaDescription: 'Tee salainen viesti -tehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

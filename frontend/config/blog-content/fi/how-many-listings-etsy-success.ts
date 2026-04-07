@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'montako ilmoitusta Etsy menestys',
+    primaryKeyword: 'montako Etsy-ilmoitusta menestykseen',
     secondaryKeywords: [
-      'kaytannoen toteutus vaihe vaiheelta',
-      'yleisimmat haasteet ratkaisut',
-      'mittaaminen optimointi',
+      'Etsy-ilmoitusten määrä tavoite',
+      'kriittinen massa Etsy-listaukset',
+      'kuinka monta tuotetta Etsy-kauppaan',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'Etsy-kaupan kasvattaminen',
+      'tuotevalikoiman laajuus',
+      'myynnin käynnistyminen Etsy',
     ],
     titleTag: 'Montako ilmoitusta Etsy-menestykseen? | LCS',
-    metaDescription: 'Kuinka monta Etsy-ilmoitusta tarvitset menestykseen? Data ja kaytanto nayttavat vastauksen. 50-100 on kriittinen massa.',
+    metaDescription: 'Kuinka monta Etsy-ilmoitusta tarvitset menestykseen? 50-100 listausta on kriittinen massa datan perusteella.',
   },
   hero: {
     title: 'Montako ilmoitusta Etsy-menestykseen tarvitaan?',

@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'bingokortti generaattori kuvabingo tee',
+    primaryKeyword: 'ilmainen bingolautageneraattori verkossa',
     secondaryKeywords: [
-      'kuvabingokortti-generaattori verkossa',
-      'bingopeli-generaattori lapsille',
-      'tulostettavat bingokortit myyntiin',
-      'mukautettu bingokortti-generaattori myyjille',
+      'bingolautoja ilmaiseksi verkossa',
+      'bingogeneraattori ilman rekisteröitymistä',
+      'kokeile bingolautoja ilmaiseksi',
+      'tulostettava bingo ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'erabingokortti-generaattori tuotelinjan peleihin',
-      'kuva- ja sanabingokortti-generaattori',
-      'kutsujalista bingo-tehtavageneraattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'bingopeli',
     ],
-    titleTag: 'Bingokortti-generaattori — Kuvabingo verkossa — Tee...',
-    metaDescription: 'Tee kuvabingokortteja tuotelinjan peleihin. Ruudukot 3x3-5x5, erittain ainutlaatuiset kortit, kutsujalistat,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen bingolautageneraattori verkossa | Kokeile',
+    metaDescription: 'Luo bingolautoja ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

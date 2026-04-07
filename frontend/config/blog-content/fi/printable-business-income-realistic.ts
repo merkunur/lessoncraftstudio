@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulot tulosteiden realistisesti liiketoimintatulot',
+    primaryKeyword: 'tulosteliiketoiminnan tulot realistisesti',
     secondaryKeywords: [
-      'tulosteet liiketoiminta tulot realistinen opas',
-      'tulosteet liiketoiminta tulot realistinen 2026',
-      'tulosteet liiketoiminta tulot realistinen Suomi',
+      'kuinka paljon tulosteet tuottavat',
+      'realistiset tulot tulostekaupasta',
+      'tulostekaupan ansaintapotentiaali',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'kuukausitulot tulosteet',
+      'ensimmäisen vuoden tulot Etsy',
+      'tulostemyynti sivutulona',
     ],
-    titleTag: 'Tulosteiden tulot realistisesti | LCS',
-    metaDescription: 'Realistiset tuloodotukset tulosteliiketoiminnalle. Kuukausitulot kuukaudelta ensimmaisena vuonna. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Tulosteiden tulot: realistinen kuva | LCS',
+    metaDescription: 'Realistiset tulodotukset tulosteliiketoiminnalle. Kuukausitulot ensimmäisenä vuonna ilman kaunistelua.',
   },
   hero: {
     title: 'Tulosteiden liiketoimintatulot: realistinen kuva',

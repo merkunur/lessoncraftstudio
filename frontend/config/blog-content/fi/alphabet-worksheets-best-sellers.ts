@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'myy aakkostyoarkit myydyimmat tuotteet yksi',
+    primaryKeyword: 'aakkostyöarkit tulostettavia myydyimmät',
     secondaryKeywords: [
-      'aakkoset tulosteet Etsy bestseller',
-      'kirjainharjoitukset myynti',
-      'alphabet worksheets myydyimmat',
+      'kirjainharjoitukset tulostettava Etsy',
+      'myy aakkostehtäviä verkossa',
+      'aakkostyöarkkien tuotanto generaattorilla',
     ],
     lsiKeywords: [
       'lukemaan oppiminen tulosteet',
-      'aakkosharjoitukset esikoulu',
-      'kirjaintunnistus tyoarkit',
+      'kirjaintunnistus esikoulu',
+      'suomalaiset aakkoset 29 kirjainta',
     ],
-    titleTag: 'Aakkostyoarkit: myydyimmat tuotteet | LCS',
-    metaDescription: 'Myy aakkostyoarkkeja jotka ovat bestseller-tuotteita Etsyssa. Jokainen lapsi oppii aakkoset. Suomen 29 kirjainta = kilpailuetu.',
+    titleTag: 'Myy aakkostyöarkkeja Etsyssä | LCS',
+    metaDescription: 'Aakkostyöarkit ovat bestseller-tuote Etsyssä. Suomen 29 kirjainta on kilpailuetu kansainvälisillä markkinoilla.',
   },
   hero: {
     title: 'Aakkostyoarkit: yksi myydyimmista tulostekategorioista',

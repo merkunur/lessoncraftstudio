@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo Etsy-värityskuvia',
+    primaryKeyword: 'näin teet värityskuvia Etsy-myyntiin',
     secondaryKeywords: [
-      'värityskuvat Etsy-myyntiin',
-      'Etsy-värityskuvien tekijä',
-      'tulostettavat värityskuvat Etsy-kaupalle',
-      'myy värityskuvia Etsyssä',
+      'värityskuvat Etsy-kauppaan opas',
+      'tulosta värityskuvia digitaaliseksi lataukseksi',
+      'luo temaattisia värityskuvia myyntiin',
+      'värityskuvien myynti Etsyssä vaihe vaiheelta',
     ],
     lsiKeywords: [
-      'Etsy-värityskuvien listausstrategia',
-      'temaattiset värityskuvat digitaalisena latauksena',
-      'kausiluonteiset väritystuotteet Etsyyn',
-      'värityskuvapaketit Etsy-myyjille',
-      'harmaasävy tulostettavat värityskuvat',
-      'kaupallinen lisenssi värityskuvatyökalu',
+      'Etsy-listausstrategia digitaalinen lataus',
+      'harmaasävy tulostettava kausiluonteiset tuotteet',
+      'kaupallinen lisenssi vesileima',
+      'värityskuvapaketit hinnoittelu',
+      'temaattiset kuvakirjastot 104 teemaa',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo värityskuvia Etsy-myyntiin — Opas',
-    metaDescription: 'Luo ja myy värityskuvia Etsyssä. Temaattiset kuvakirjastot, harmaasävyvienti, ryhmäauttajat ja hinnoittelustrategiat. Täydellinen myyjän opas.',
+    titleTag: 'Värityskuvia Etsy-myyntiin | Vaihe vaiheelta -opas',
+    metaDescription: 'Näin teet värityskuvia Etsy-myyntiin. Temaattiset kuvakirjastot, harmaasävyvienti, hinnoittelustrategiat ja listausten optimointi Etsy-kaupassa.',
   },
 
   hero: {

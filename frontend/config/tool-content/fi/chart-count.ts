@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'kuvakaavio tyoarkkigeneraattori verkossa',
+    primaryKeyword: 'ilmainen laskemistehtävä verkossa',
     secondaryKeywords: [
-      'piktogrammi tyoarkkigeneraattori verkossa',
-      'kaaviolaskenta tyoarkit lapsille',
-      'tulostettavat tietokaaviotehtavat koululle',
-      'kuvakaavio aktiviteetti generaattori myyjille',
+      'laskemistehtäviä ilmaiseksi verkossa',
+      'kuvakaavio-generaattori ilman rekisteröitymistä',
+      'kokeile laskemistehtäviä ilmaiseksi',
+      'tulostettavat laskemistehtävät ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'levitetty kuvaruudukko laskentatyoarkit',
-      'automaattinen vastausavain kuvakaavio generaattori',
-      'tietojen esittaminen tyoarkit verkossa',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'kuvakaavio',
     ],
-    titleTag: 'Kuvakaavio Tyoarkkigeneraattori — verkossa | Online Tyokalu',
-    metaDescription: 'Kuvakaavio tyoarkkigeneraattori verkossa: tee kuvakaavio-tehtäviä matematiikkaan. 4×5 ruudukot, 6 kuvatyyppiä, vastausavaimet. Myy Etsyssa & KDP:ssa.',
+    titleTag: 'Ilmainen laskemistehtävä verkossa | Kokeile heti',
+    metaDescription: 'Tee laskemistehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

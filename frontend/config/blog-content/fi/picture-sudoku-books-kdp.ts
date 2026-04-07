@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kuvasudokukirjat KDP',
+    primaryKeyword: 'kuvasudoku-kirjat KDP julkaisu',
     secondaryKeywords: [
-      'tuotetyypit vaikeustasot',
-      'hinnoittelu paketointi',
-      'markkinointi avainsanat',
+      'sudoku ilman numeroita KDP',
+      'kuvasudoku lapsille kirja',
+      'visuaalinen sudoku KDP niche',
     ],
     lsiKeywords: [
-      'looginen ajattelu pelit',
-      'kuvasudoku esikoulu',
-      'sudoku ilman numeroita',
+      'looginen ajattelu pelit KDP',
+      'esikoululaisten sudoku',
+      'pulmakirjat pienille lapsille',
     ],
-    titleTag: 'Kuvasudokukirjat KDP:ssa | LCS',
-    metaDescription: 'Julkaise kuvasudokukirjoja Amazon KDP:ssa. Sudoku ilman numeroita sopii pienille lapsille. Kasvava niche matalalla kilpailulla.',
+    titleTag: 'Kuvasudokukirjat KDP:ssä | LCS',
+    metaDescription: 'Julkaise kuvasudokukirjoja Amazon KDP:ssä. Sudoku ilman numeroita sopii pienille lapsille. Kasvava niche.',
   },
   hero: {
     title: 'Kuvasudokukirjat KDP-tuotteena',

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'talvi tulosteet myy joulu tammikuu',
+    primaryKeyword: 'talvitulosteet myyntiin joulu-tammikuu',
     secondaryKeywords: [
-      'talvi tulosteet myy joulu tammikuu opas',
-      'talvi tulosteet myy joulu tammikuu 2026',
-      'talvi tulosteet myy joulu tammikuu Suomi',
+      'joulusesonki tulosteet strategia',
+      'talviteema tulostettavia Etsy',
+      'joulu tammikuu tulosteet myynti',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'talvi Suomi tulosteet',
+      'lumiteema tulostettavia',
+      'talviloma aktiviteetit tulosteet',
     ],
     titleTag: 'Talvitulosteet joulu-tammikuussa | LCS',
-    metaDescription: 'Myy talvitulosteet joulu-tammikuussa. Suomen pitkae talvi luo paitkan sesongin talviteemaisille tulosteille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    metaDescription: 'Myy talvitulosteita joulu-tammikuussa. Suomen pitkä talvi ja jouluperinteet ovat ainutlaatuinen kilpailuetu.',
   },
   hero: {
     title: 'Talvitulosteet joulu-tammikuussa: pitka sesonki',

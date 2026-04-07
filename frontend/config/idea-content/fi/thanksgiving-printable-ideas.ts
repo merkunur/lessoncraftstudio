@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kiitospäivän tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu kiitospäivän tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Syystuotekonseptit, kausistrategiat ja alustavinkit myyjille.',
+    titleTag: 'Kiitospäivätulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Kiitospäivän tulostettavia tehtäviä myyntiin. Syksyn kausiniche USA-markkinoille Etsyssä.',
 
-    primaryKeyword: 'kiitospäivän tulostettavat ideat myyntiin',
+    primaryKeyword: 'kiitospäivä tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'kiitospäivän työarkit myyntiin',
-      'kiitospäivätulostettava liiketoimintaideat',
-      'sadonkorjuuaktiviteettiarkit myyjille',
-      'myy kiitospäivätulostettavia Etsyssä',
+      'kiitospäivätehtäviä myydä Etsyssä',
+      'kiitospäivätulostettavat niche KDP',
+      'sadonkorjuu tulostettavat myyntiin',
+      'syksyn kausiluonteiset tulostettavat',
     ],
     lsiKeywords: [
-      'kausiluontoiset syystyöarkkiniput',
-      'sadonkorjuuteemalliset opetukselliset aktiviteetit',
-      'kiitollisuusteema tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'kiitospäivä',
+      'syksy',
+      'kausiluonteinen',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

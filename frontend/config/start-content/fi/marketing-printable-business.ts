@@ -2,11 +2,11 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'markkinoi tulostettavia tehtäviä verkossa ssa',
-    secondaryKeywords: ['markkinointistrategiat tulostettavien myyjille', 'markkinoi tulostettavia tehtavia verkossa', 'markkinointisuunnitelma tulostettavien liiketoiminta', 'myy enemman tehtavia Etsyssa'],
-    lsiKeywords: ['Etsy SEO digitaaliset lataukset', 'Pinterest-markkinointi tulostettavat tuotteet', 'sahkopostimarkkinointi tehtavamyyjille', 'kausimarkkinointikalenteri tulostettavat', 'markkinapaikkaoptimointi aktiviteettikirjat', 'sisaltomarkkinointi tulostettavien yrittajille'],
-    titleTag: 'Markkinoi tulostettavia tehtäviä — opas myyjille',
-    metaDescription: 'Markkinoi tulostettavia tehtäviä verkossa: alusta-SEO, Pinterest-strategia, sähköpostimarkkinointi,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    primaryKeyword: 'markkinoi tulostettavia tehtäviä verkossa opas',
+    secondaryKeywords: ['markkinointistrategiat tulostettavien myyjille', 'markkinoi tulostettavia tuotteita Etsyssä', 'markkinointisuunnitelma tulostettavien liiketoimintaan', 'myy enemmän tehtäviä hakuoptimoinnilla'],
+    lsiKeywords: ['Etsy SEO digitaaliset lataukset tagit', 'Pinterest-markkinointi tulostettavat tuotteet', 'sähköpostimarkkinointi tehtävämyyjille', 'kausimarkkinointikalenteri tulostettavat', 'markkinapaikkaoptimointi aktiviteettikirjat', 'sisältömarkkinointi tulostettavien yrittäjille'],
+    titleTag: 'Markkinoi tulostettavia tehtäviä — Opas myyjille',
+    metaDescription: 'Markkinoi tulostettavia tehtäviä verkossa: alusta-SEO, Pinterest-strategia ja sähköpostimarkkinointi. Opas Etsy- ja KDP-myyjille.',
   },
 
   hero: {

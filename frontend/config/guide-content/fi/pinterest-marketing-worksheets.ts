@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'Pinterest-markkinointi työarkeille',
+    primaryKeyword: 'Pinterest-markkinointi tulostettavien myyjille',
     secondaryKeywords: [
-      'Pinterest-strategia tulostettavien myyjille',
-      'Pinterest-liikenne työarkkikauppaan',
-      'Pinterest-markkinointi opetuksellisille tulostettaville',
-      'myy työarkkeja Pinterestin kautta',
+      'Pinterest-strategia tulostettavien kauppaan',
+      'ohjaa Pinterest-liikennettä Etsy-kauppaan',
+      'Pinterest-hakuoptimointi tulostettaville tuotteille',
+      'myy työarkkeja Pinterestin kautta opas',
     ],
     lsiKeywords: [
-      'Pinterest-hakukone visuaalinen markkinointi pin-optimointi taulun strategia',
-      'Pinterest-algoritmi pin-jakelu orgaaninen ulottuvuus sisältökalenteri',
-      'Pinterest-liiketoimintatili analytiikka klikkausaste tallennusaste',
-      'Pinterest-hakuoptimointi hakusanatutkimus pin-kuvaus taulun kuvaus',
-      'Pinterest-markkinointisuppilo löydettävyys liikenne konversio markkinapaikka',
-      'Pinterest-sisältöstrategia pin-mallit visuaalinen suunnittelu brändäys',
+      'Pinterest-hakukone pin-optimointi taulu',
+      'algoritmi pin-jakelu orgaaninen näkyvyys',
+      'kaupallinen lisenssi tulostettavat tuotteet',
+      'klikkausaste tallennusaste analytiikka',
+      'Etsy KDP Gumroad liikenneohjaus',
+      'visuaalinen markkinointi sisältökalenteri',
     ],
-    titleTag: 'Pinterest-markkinointi työarkeille — Strategiaopas',
-    metaDescription: 'Pinterest-markkinointistrategia tulostettavien työarkkien myyjille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Pinterest-markkinointi tulostettaville | Opas',
+    metaDescription: 'Pinterest-markkinointistrategia tulostettavien myyjille. Pin-optimointi, taulustrategia, hakuoptimointi ja liikenteen ohjaus Etsy- ja Gumroad-kauppaan.',
   },
 
   hero: {

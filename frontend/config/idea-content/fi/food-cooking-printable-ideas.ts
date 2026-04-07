@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ruoka ja ruoanlaitto tulostettavat ideat myyntiin —...',
-    metaDescription: 'Tutustu ruoka- ja ruoanlaittoteemaisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Ruoka-tulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Ruoka- ja ruoanlaittoteemaisia tulostettavia tehtäviä myyntiin. Monipuolinen niche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'ruoka ja ruoanlaitto tulostettavat ideat',
+    primaryKeyword: 'ruoka tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'ruokateemaiset työarkit myyntiin',
-      'ruoanlaitto tulostettava liiketoimintaideat',
-      'ruoka-aktiviteettiarkki myyjille',
-      'myy ruokatulostettavia verkossa',
+      'ruokatehtäviä myydä Etsyssä',
+      'ruoanlaitto tulostettavat niche KDP',
+      'ravintoteemaiset tehtävät myyntiin',
+      'keittiöaktiviteetit tulostettavat',
     ],
     lsiKeywords: [
-      'ravintoteemaiset opetukselliset työarkit',
-      'keittiöteemaiset lasten aktiviteetit',
-      'hedelmä- ja vihannesteemalliset tulostettavat',
+      'Etsy',
+      'KDP',
+      'ruoka',
+      'ruoanlaitto',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

@@ -4,21 +4,21 @@ const content: StartContent = {
   seo: {
     primaryKeyword: 'tulostettavien liiketoimintasuunnitelma ideasta tuloon',
     secondaryKeywords: [
-      'tulostettavien liiketoimintasuunnitelma myyjille',
-      'kannattavat tulostettavien tuotteiden ideat',
-      'aloita tulostettava tuotelinja',
-      'liiketoimintasuunnitelma tulostettavat tehtavat',
+      'tulostettavien liiketoimintasuunnitelma aloittelijoille',
+      'kannattavat tulostettavien tuotteiden ideat myyjille',
+      'aloita tulostettava tuotelinja askel askeleelta',
+      'liiketoimintasuunnitelma tulostettavat tehtävät',
     ],
     lsiKeywords: [
-      'Etsy tulostettavien kaupan suunnittelu',
-      'Amazon KDP tuotestrategia',
-      'tehtavaliiketoiminta tuottotavoitteet',
-      'tulostettavien katalogin laajentaminen',
-      'tuotelinjakartoitus myyjille',
+      'Etsy-tulostettavien kaupan suunnittelu strategia',
+      'Amazon KDP tuotestrategia julkaisu',
+      'tehtäväliiketoiminta tuottotavoitteet hinnoittelu',
+      'tulostettavien katalogin laajentaminen skaalaus',
+      'tuotelinjakartoitus niche-valinta myyjille',
       'julkaisun tarkistuslista tulostettava liiketoiminta',
     ],
     titleTag: 'Tulostettavien liiketoimintasuunnitelma — Ideasta tuloon',
-    metaDescription: 'Muuta tulostettavien liiketoimintaideasi jäsennetyksi suunnitelmaksi. Kartoita tuotelinjasi, valitse alustat, aseta hinnat ja julkaise Etsyssä ja Amazon.',
+    metaDescription: 'Muuta tulostettavien liiketoimintaideasi suunnitelmaksi. Kartoita tuotelinjasi, valitse alustat, hinnoittele ja julkaise Etsyssä ja Amazon KDP:ssä.',
   },
 
   hero: {

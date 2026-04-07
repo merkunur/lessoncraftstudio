@@ -2,20 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'yhteenlaskutyoarkki generaattori luo myy',
+    primaryKeyword: 'yhteenlaskutehtäviä tulostaa',
     secondaryKeywords: [
-      'yhteenlaskutyoarkit myyntiin Etsyssa',
-      'matematiikkatyoarkki generaattori Amazon KDP',
-      'yhteenlaskutyoarkit kaupallinen lisenssi',
-      'tulostettavat matematiikkatyoarkit Gumroadiin',
+      'pluslaskut generaattori',
+      'matikkatehtäviä yhteenlasku 1. luokka',
+      'laskutehtäviä tulostettavia',
+      'pluslaskutehtäviä kuvilla',
     ],
     lsiKeywords: [
-      'digitaaliset matematiikkatuotteet yrittajille',
-      'tulostettavat aktiviteetit verkkoliiketoiminta',
-      'tyoarkki generaattori kaupallinen kaytto',
+      'alakoulu',
+      '1. luokka',
+      '2. luokka',
+      'kymmenen ylitys',
+      'vastaukset',
     ],
-    titleTag: 'Yhteenlaskutyoarkki Generaattori | Luo ja Myy Verkossa',
-    metaDescription: 'Luo yhteenlaskutyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. 104 teemaa, 4 harjoitustilaa, vastausavain, yli 400 DPI vienti. $49 kertamaksu.',
+    titleTag: 'Yhteenlaskutehtäviä tulostaa | Generaattori vastauksilla',
+    metaDescription: 'Luo yhteenlaskutehtäviä teemakuvilla sekunneissa. Automaattiset vastaukset, 300 DPI PDF, 11 kieltä. Kokeile ilmaiseksi — kaupallinen lisenssi Etsyyn & KDP:hen.',
   },
 
   hero: {

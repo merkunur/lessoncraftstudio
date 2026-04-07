@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo vähennyslaskutyöarkkeja',
+    primaryKeyword: 'näin teet vähennyslaskutehtäviä tulostettavia',
     secondaryKeywords: [
-      'vähennyslaskutyöarkit lapsille',
-      'vähennyslaskutyöarkkien generaattori',
-      'tulostettavia vähennyslaskutyöarkkeja myyntiin',
-      'kuvapohjaisia vähennyslaskuharjoituksia',
+      'vähennyslaskugeneraattori kuvapohjaisena',
+      'tulosta vähennyslaskuarkkeja myyntiin Etsyssä',
+      'luo vähennyslaskutehtäviä vastausavaimella PDF',
+      'vähennyslaskutehtävien tekeminen opas lapsille',
     ],
     lsiKeywords: [
-      'visuaalinen vähennyslasku esikouluun',
-      'yliviivatut kuvat vähennyslaskussa',
-      'matemaattiset työarkit alkuopetukseen',
-      'myy matemaattisia työarkkeja Etsyssä',
-      'Amazon KDP matematiikka-aktiviteettikirjat',
-      'kaupallinen lisenssi työarkkityökalu',
+      'yliviivatut kuvat visuaalinen vähennyslasku',
+      'esiopetus alkuopetus alakoulu',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP matematiikka-aktiviteettikirja',
+      'vaikeustasot temaattiset kuvat',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo vähennyslaskutyöarkkeja — Opas',
-    metaDescription: 'Luo vähennyslaskutyöarkkeja lapsille. Kuvapohjaiset tehtävät yliviivatuilla kuvilla, vaikeustasot,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Vähennyslaskutehtäviä tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet vähennyslaskutehtäviä tulostettavaksi. Kuvapohjaiset tehtävät, yliviivatut kuvat, vaikeustasot ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

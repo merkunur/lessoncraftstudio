@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kotiopetus tulosteet kasvava markkina',
+    primaryKeyword: 'kotiopetus tulostettavia kasvava markkina',
     secondaryKeywords: [
-      'kotiopetus tulosteet kasvava markkina opas',
-      'kotiopetus tulosteet kasvava markkina 2026',
-      'kotiopetus tulosteet kasvava markkina Suomi',
+      'kotiopetusmateriaalit tulosteet myynti',
+      'kotikoulun tulosteet Etsy',
+      'tulostettavat oppimateriaalit kotikoulu',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'kotiopetus Suomi laillinen',
+      'S2-kotiopetus materiaalit',
+      'etäopetus tulosteet',
     ],
     titleTag: 'Kotiopetustulosteet: kasvava markkina | LCS',
-    metaDescription: 'Kotiopetustulosteet ovat kasvava markkina. Suomessa kotiopetus on laillista ja kasvussa. S2-kotiopetus on erillinen niche.',
+    metaDescription: 'Kotiopetustulosteet ovat kasvava markkina. Suomessa kotiopetus on laillista ja kasvussa. Löydä kilpailuton niche.',
   },
   hero: {
     title: 'Kotiopetustulosteet: nopeasti kasvava markkina',

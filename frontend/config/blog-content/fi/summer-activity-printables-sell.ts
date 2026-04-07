@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kesa aktiviteetti tulosteet myy',
+    primaryKeyword: 'kesäaktiviteetti tulostettavia myyntiin',
     secondaryKeywords: [
-      'kesa aktiviteetti tulosteet myy opas',
-      'kesa aktiviteetti tulosteet myy 2026',
-      'kesa aktiviteetti tulosteet myy Suomi',
+      'kesän tulosteet loma-aika',
+      'kesätulosteet lapsille Etsy',
+      'lomakauden aktiviteetit tulostettavia',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'kesäloma tulosteet Suomi',
+      'oppimiskato ehkäisy tulosteet',
+      'ulkoaktiviteetit tulostettavia',
     ],
-    titleTag: 'Kesaaktiviteetti-tulosteet | LCS',
-    metaDescription: 'Myy kesaaktiviteetti-tulosteita. Suomessa kesan pitkat paivat ja lomakausi luovat kysynnan tulostettaville. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Kesäaktiviteettitulosteet myyntiin | LCS',
+    metaDescription: 'Myy kesäaktiviteetti-tulosteita. Suomessa kesän pitkät päivät ja lomakausi luovat kysyntää tulostettaville.',
   },
   hero: {
     title: 'Kesaaktiviteetti-tulosteet: lomakauden myyntimahdollisuus',

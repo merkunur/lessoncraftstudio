@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'bingo bingokortit tulostettavana liiketoiminta',
+    primaryKeyword: 'tulostettavat bingokortit myyntiin',
     secondaryKeywords: [
-      'bingo tulostettava myynti',
-      'kuvabingo lapsille Etsy',
-      'bingopeli tulosteet myy',
+      'bingokortit Etsy liiketoiminta',
+      'kuvabingo lapsille tulostettava',
+      'bingopeli tulosteet myynti',
     ],
     lsiKeywords: [
-      'pelit tulostettava',
-      'ryhmatehtavat tulosteet',
-      'juhlaaktiviteetit tulostettava',
+      'juhlapelit tulostettavia',
+      'ryhmäaktiviteetit tulosteet',
+      'S2-opetus bingopeli',
     ],
-    titleTag: 'Bingokortit tulostettavana: liiketoiminta | LCS',
-    metaDescription: 'Myy tulostettavia bingokortteja Etsyssa. Bingo on universaali peli joka myy juhlihin, kouluihin ja S2-opetukseen.',
+    titleTag: 'Tulostettavat bingokortit myyntiin | LCS',
+    metaDescription: 'Myy tulostettavia bingokortteja Etsyssä. Bingo on universaali peli joka sopii juhliin, kouluihin ja kielenoppimiseen.',
   },
   hero: {
     title: 'Bingokortit tulostettavana: monipuolinen liiketoiminta',

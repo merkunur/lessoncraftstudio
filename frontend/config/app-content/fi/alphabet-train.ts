@@ -2,20 +2,23 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'aakkosjuna generaattori kirjain luo',
+    primaryKeyword: 'aakkostehtäviä tulostaa',
     secondaryKeywords: [
-      'tulostettava aakkosjuna generaattori Etsy myyjille',
-      'kirjaintunnistus tyoarkki generaattori KDP julkaisijoille',
-      'aakkos tyoarkit myy Gumroadissa',
-      'aakkosjuna tulostettavat kaupallinen lisenssi',
+      'ABC tehtävä generaattori',
+      'kirjaintunnistustehtävä',
+      'opettele aakkoset tehtäviä',
+      'kirjaimet tulostaa',
     ],
     lsiKeywords: [
-      'digitaaliset kirjaintunnistus tuotteet verkkoliiketoiminta',
-      'tulostettavat aakkos tyoarkit business',
-      'kaupallinen kaytto aakkosjuna generaattori',
+      'ABC',
+      'isot kirjaimet',
+      'pienet kirjaimet',
+      'aakkosjärjestys',
+      'esiopetus',
+      '1. luokka',
     ],
-    titleTag: 'Aakkosjuna Generaattori | LCS',
-    metaDescription: 'Luo aakkosjuna tyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Junavaunujen kirjain-kuva-yhdistäminen 11 kielellä, 104 teemaa. $49 kertamaksu.',
+    titleTag: 'Aakkostehtäviä tulostaa | ABC-harjoitusgeneraattori',
+    metaDescription: 'Luo aakkostehtäviä teemakuvilla kirjaintunnistusta varten. Automaattiset vastaukset, 11 kieltä. Kokeile ilmaiseksi.',
   },
 
   hero: {

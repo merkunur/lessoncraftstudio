@@ -2,23 +2,23 @@ import type { StartContent } from '../types';
 
 const content: StartContent = {
   seo: {
-    primaryKeyword: 'myy tulostettavia tuotteita etsyssä täydellinen opas etsy tulostettavien',
+    primaryKeyword: 'myy tulostettavia tuotteita Etsyssä opas myyjille',
     secondaryKeywords: [
-      'Etsy tulostettavien liiketoiminta',
-      'Etsy-kauppa tulostettaville tehtaville',
-      'miten myyda tehtavia Etsyssa',
-      'Etsy digitaalisten latausten liiketoiminta',
+      'Etsy-tulostettavien liiketoiminta aloittelijoille',
+      'perusta Etsy-kauppa tulostettaville tehtäville',
+      'Etsy digitaalisten latausten myynti opas',
+      'passiivinen tulo Etsy-tulostettavat',
     ],
     lsiKeywords: [
-      'Etsy SEO tulostettavien myyjille',
-      'Etsy-listausten optimointi tehtavat',
+      'Etsy SEO tulostettavien hakuoptimointi',
+      'Etsy-listausten optimointi tagit otsikot',
       'Etsy-kaupan perustaminen digitaaliset tuotteet',
-      'Etsy-tagit tulostettaville tehtaville',
-      'tehtavageneraattori Etsy-myyjille',
       'Etsy-hinnoittelustrategia tulostettavat',
+      'tehtävägeneraattori Etsy-myyjille',
+      'kaupallinen lisenssi Etsy-tuotteet',
     ],
-    titleTag: 'Myy tulostettavia tuotteita Etsyssä — täydellinen opas',
-    metaDescription: 'Näin myyt tulostettavia tuotteita Etsyssä askel askeleelta. Kaupan perustaminen, Etsy-SEO, listausten optimointi, hinnoittelu ja skaalaus.',
+    titleTag: 'Myy tulostettavia Etsyssä — Täydellinen opas',
+    metaDescription: 'Näin myyt tulostettavia tuotteita Etsyssä. Kaupan perustaminen, Etsy-SEO, listausten optimointi, hinnoittelu ja liiketoiminnan skaalaus.',
   },
 
   hero: {

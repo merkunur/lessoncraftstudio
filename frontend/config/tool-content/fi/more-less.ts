@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen suurempi kuin pienempi kuin -tekijä',
+    primaryKeyword: 'ilmainen suurempi pienempi yhtä suuri -tehtävä verkossa',
     secondaryKeywords: [
-      'tee vertailutehtäviä ilmaiseksi verkossa',
-      'enemmän vai vähemmän -generaattori ilman rekisteröitymistä',
-      'ilmainen lukuvertailutehtävägeneraattori',
-      'suurempi pienempi kuin -tehtävät ilmainen kokeilu',
+      'suurempi pienempi tehtäviä ilmaiseksi verkossa',
+      'vertailugeneraattori ilman rekisteröitymistä',
+      'kokeile vertailutehtävää ilmaiseksi',
+      'tulostettava suurempi pienempi ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'ilmainen vertailutyökalu verkossa',
-      'pikainen enemmän vähemmän -tekijä',
-      'kokeile ennen ostoa matematiikkatyökalut',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'vertailutehtävä',
     ],
-    titleTag: 'Ilmainen Suurempi Kuin Pienempi Kuin -Tekijä | LCS',
-    metaDescription: 'Tee suurempi kuin pienempi kuin -tehtäviä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen suurempi pienempi -tehtävä verkossa',
+    metaDescription: 'Tee suurempi pienempi yhtä suuri -tehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

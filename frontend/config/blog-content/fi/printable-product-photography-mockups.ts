@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'mockup tulosteiden tuotekuvaus mockupit luo ammattimaisia',
+    primaryKeyword: 'tulosteiden tuotekuvaus ja mockupit',
     secondaryKeywords: [
-      'tulosteet tuotekuvaus mockupit opas',
-      'tulosteet tuotekuvaus mockupit vaiheittain',
-      'tulosteet tuotekuvaus mockupit 2026',
+      'ammattimainen tuotekuva tulosteet',
+      'mockup-kuvat Etsy-ilmoitukseen',
+      'tuotekuvaus digitaaliset tuotteet',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'ilmaiset mockup-työkalut',
+      'Canva tuotekuvaus',
+      'valokuvaus tulostettaville tuotteille',
     ],
     titleTag: 'Tulosteiden tuotekuvaus ja mockupit | LCS',
-    metaDescription: 'Luo ammattimaisia tuotekuvia tulosteille mockup-kuvien avulla. Ilmaiset ja maksulliset tyokalut ja vinkit. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    metaDescription: 'Luo ammattimaisia tuotekuvia tulosteille mockup-kuvien avulla. Ilmaiset ja maksulliset työkalut ja vinkit.',
   },
   hero: {
     title: 'Tulosteiden tuotekuvaus ja mockupit: taydellinen opas',

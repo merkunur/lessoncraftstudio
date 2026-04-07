@@ -2,21 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'yhdistämistehtävä generaattori etsy myyjille luo yhdistämistyöarkkeja myyntiin etsyssä',
+    primaryKeyword: 'yhdistämistehtäviä tulostaa',
     secondaryKeywords: [
-      'yhdistämistehtävä generaattori tulostettavaan liiketoimintaan',
-      'luo yhdistämisharjoituksia Etsy-kauppaan',
-      'esikoulu yhdistämistulostettavat Amazon KDP',
-      'viivanyhdistämis-työarkit kaupallinen lisenssi',
-      'myy yhdistämistyöarkkeja verkossa',
+      'etsi parit tehtävä',
+      'vedä viiva tehtävä',
+      'yhdistä kuvat',
+      'yhdistämistehtävä esiopetus',
     ],
     lsiKeywords: [
-      'varhaisen oppimisen tulostettava niche',
-      'myy yhdistämisharjoituksia kaupallisesti',
-      'esikoulu työarkkituotteet Etsy',
+      'esiopetus',
+      'alakoulu',
+      'parit',
+      'viiva',
+      'vastaukset',
     ],
-    titleTag: 'Yhdistämistehtävä Generaattori Etsy-Myyjille | LCS',
-    metaDescription: 'Luo yhdistämistyöarkkeja myyntiin Etsyssä ja KDP:ssä. 4 yhdistämistilaa, automaattiset vastauslehdet, 104 teemaa, kaupallinen lisenssi. $49 kertamaksu.',
+    titleTag: 'Yhdistämistehtäviä tulostaa | Parinetsintägeneraattori',
+    metaDescription: 'Luo yhdistämistehtäviä teemakuvilla esiopetukseen ja alakouluun. Automaattiset vastaukset, 300 DPI PDF. Kokeile ilmaiseksi.',
   },
 
   hero: {

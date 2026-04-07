@@ -2,21 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kuvakaaviolaskenta työarkit myy etsyssä luo laskenta kaaviotyöarkkeja myyntiin',
+    primaryKeyword: 'laskemistehtäviä tulostaa',
     secondaryKeywords: [
-      'kuvakaaviolaskenta generaattori Etsy-kauppaan',
-      'kuvagraafi työarkit myy verkossa',
-      'laskenta ja kaaviointi tulostettavat KDP',
-      'datakaaviot työarkit tulostettavaan liiketoimintaan',
-      'luo kuvakaaviolaskenta työarkkeja',
+      'harjoituksia laskeminen ja kaaviot',
+      'tehtäviä diagrammit alakoulu',
+      'laskemis- ja tukkimiehen kirjanpito',
+      'laskuaktiviteetteja esiopetus',
     ],
     lsiKeywords: [
-      'STEM tulostettava niche matala kilpailu',
-      'varhaisen oppimisen datataitojen työarkit',
-      'myy kaavioharjoituksia verkossa',
+      'alakoulu',
+      'esiopetus',
+      'laskeminen',
+      'kaavio',
+      'vastaukset',
     ],
-    titleTag: 'Kuvakaaviolaskenta Työarkit — Myy Etsyssä | LCS',
-    metaDescription: 'Luo kuvagraafi- ja laskentatyöarkkeja myyntiin Etsyssä, KDP:ssä. Temaattiset kuvat, automaattiset vastauslehdet, kaupallinen lisenssi. $49 kertamaksu.',
+    titleTag: 'Laskemistehtäviä ja kaavioita tulostaa | Generaattori',
+    metaDescription: 'Luo laskemis- ja kaaviotehtäviä teemakuvilla. Automaattiset vastaukset, tulostettavat PDF:t. Kokeile ilmaiseksi.',
   },
 
   hero: {

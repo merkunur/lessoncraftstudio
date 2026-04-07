@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'hinnoittelustrategiat opetuksellisille tulostettaville',
-    secondaryKeywords: ['miten hinnoitella tulostettavia työarkkeja', 'opetuksellisten tulostettavien hinnoitteluopas', 'työarkkien hinnoittelustrategia', 'tulostettavien tuotteiden hinnoittelu'],
-    lsiKeywords: ['hintapiste koettu arvo kilpailuhinta arvopohjainen hinnoittelu kustannusperusteinen hinnoittelu', 'hinta-ankkurointi pakettihinta porrastettu hinnoittelu hintatestaus alustamaksut voittomarginaali', 'hinnoittelupsykologia alennusstrategia premium-hinnoittelu hintajousto konversioaste', 'alustamaksut nettotuotto hintatasot hintavertailu kustannusanalyysi tuottooptimointi', 'kausihinnoittelu hintasäätö markkinatutkimus ostajan maksuvalmius hintamalli', 'hinnoittelukehys hinta-asemointi alihinnoittelu ylihinnoittelu kestävä hinnoittelu'],
-    titleTag: 'Hinnoittelustrategiat opetuksellisille tulostettaville —...',
-    metaDescription: 'Todistetut hinnoittelustrategiat opetuksellisille tulostettaville. Hinnoittelupsykologia, kilpailuanalyysi, alustamaksut, voittomarginaalit ja hintatestaus.',
+    primaryKeyword: 'tulostettavien tuotteiden hinnoittelustrategiat',
+    secondaryKeywords: [
+      'miten hinnoitella tulostettavia työarkkeja opas',
+      'tulostettavien hinnoitteluopas myyjille',
+      'työarkkien hinnoittelustrategia alustoilla',
+      'tulostettavien tuotteiden hintapisteet ja katteet',
+    ],
+    lsiKeywords: [
+      'arvopohjainen kustannusperusteinen hinnoittelu',
+      'hinta-ankkurointi pakettihinta porrastettu',
+      'kaupallinen lisenssi PDF-vienti',
+      'alustamaksut nettotuotto voittomarginaali',
+      'Etsy KDP Gumroad hinnoittelumalli',
+      'hinnoittelupsykologia hintatestaus konversio',
+    ],
+    titleTag: 'Tulostettavien hinnoittelustrategiat | Kattava opas',
+    metaDescription: 'Hinnoittelustrategiat tulostettaville tuotteille. Hinnoittelupsykologia, kilpailuanalyysi, alustamaksut, voittomarginaalit ja systemaattinen hintatestaus.',
   },
 
   hero: {

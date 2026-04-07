@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Lintuaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu lintuteemaisten tulostettavien ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Tuotekonseptit, alustastrategiat ja nichevinkit myyjille.',
+    titleTag: 'Lintuaiheiset tulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Lintuteemaisia tulostettavia tehtäviä myyntiin Etsyssä ja KDP:ssä. Suosittu luontoniche ympäri vuoden.',
 
     primaryKeyword: 'lintuaiheiset tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'lintutyöarkit myyntiin',
-      'lintuaiheinen tulostettava liiketoiminta',
-      'myy lintuaktiviteettiarkeja verkossa',
-      'lintutyöarkkien niche myyjille',
+      'lintutehtäviä myydä Etsyssä',
+      'lintutulostettavat niche KDP',
+      'luontoteemaiset tehtävät myyntiin',
+      'lintujen tunnistus tulostettavat',
     ],
     lsiKeywords: [
-      'luontoteemaiset opetukselliset tulostettavat',
-      'luontohavaintojen työarkit',
-      'lintutiedeaktiviteetit lapsille',
+      'Etsy',
+      'KDP',
+      'linnut',
+      'luonto',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo prepositiotyöarkkeja',
+    primaryKeyword: 'näin teet prepositiotyöarkkeja tulostettavia',
     secondaryKeywords: [
-      'prepositiotyöarkit lapsille',
-      'prepositiotyöarkkien generaattori',
-      'tulostettavia prepositiotyöarkkeja myyntiin',
-      'paikansanat työarkit esikoulu',
+      'prepositiotehtävien generaattori lapsille',
+      'tulosta paikansanatehtäviä esiopetukseen',
+      'luo kielioppiharjoituksia kuvakohtauksilla PDF',
+      'prepositiotyöarkkien tekeminen opas myyjille',
     ],
     lsiKeywords: [
-      'kuvapohjaiset prepositioharjoitukset lapsille',
-      'visuaaliset paikansanatyöarkit nuorille käyttäjille',
-      'esikoulu kielioppi-työarkkien tekijä',
-      'myy kielityöarkkeja Etsyssä',
-      'Amazon KDP kielten aktiviteettikirjat',
-      'kaupallinen lisenssi työarkkityökalu',
+      'paikansanat kielioppi esiopetus',
+      'täytä tyhjät monivalinta muodonvaihto',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP kielten aktiviteettikirja',
+      'kuvapohjaiset kohtaukset 104 teemaa',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo prepositiotyöarkkeja — Opas',
-    metaDescription: 'Luo prepositiotyöarkkeja kuvakohtauksilla. Täytä tyhjät -tilat, monivalinta, muodonvaihto ja tulostusvalmiit PDF:t myyntiin Etsyssä ja KDP:ssä.',
+    titleTag: 'Prepositiotyöarkkeja tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet prepositiotyöarkkeja tulostettavaksi kuvakohtauksilla. Täytä tyhjät, monivalinta ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

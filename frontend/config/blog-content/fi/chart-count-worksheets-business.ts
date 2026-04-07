@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kaaviolaskutyoarkkeja niche kaaviolaskutyoarkit rakenna liiketoiminta',
+    primaryKeyword: 'taulukkolaskenta tulostettavia myyntiin',
     secondaryKeywords: [
-      'miksi kaaviolaskutyoarkit kasvava niche',
-      'tuotetyypit kaaviolaskukategoriassa',
-      'hinnoittelu kohderyhmiat',
+      'kaaviolaskutehtävät tulosteet Etsy',
+      'datanlukutaito työarkit lapsille',
+      'visuaalinen matematiikka tulostettavia',
     ],
     lsiKeywords: [
-      'taulukkolaskenta lapsille',
-      'visuaalinen matematiikka',
-      'datanlukutaito esikoulu',
+      'tilastot lapsille tulosteet',
+      'diagrammit esikoulu',
+      'laskentatehtävät kuvilla',
     ],
-    titleTag: 'Kaaviolaskutyoarkit: rakenna liiketoiminta | LCS',
-    metaDescription: 'Myy kaaviolaskutyoarkkeja kannattavasti. Ainutlaatuinen niche jossa kilpailu on vahaisesta. Visuaaliset matematiikkatyoarkit myyvat.',
+    titleTag: 'Kaaviolaskutehtävät myyntiin | LCS',
+    metaDescription: 'Myy kaaviolaskutehtäviä Etsyssä. Ainutlaatuinen niche jossa visuaaliset matematiikkatehtävät erottuvat joukosta.',
   },
   hero: {
     title: 'Kaaviolaskutyoarkit: rakenna niche-liiketoiminta',

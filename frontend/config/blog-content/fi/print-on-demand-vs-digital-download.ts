@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tilauspaino digitaalinen lataus vertaile digitaalisen',
+    primaryKeyword: 'tilauspaino vai digitaalinen lataus',
     secondaryKeywords: [
-      'kaytannoen toteutus vaihe vaiheelta',
-      'yleisimmat haasteet ratkaisut',
-      'mittaaminen optimointi',
+      'POD vs digitaalinen tuote vertailu',
+      'tilauspaino tulosteet liiketoiminta',
+      'paras malli tulosteiden myyntiin',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'print on demand tulosteet',
+      'digitaalinen jakelu Etsy',
+      'fyysiset vs digitaaliset tuotteet',
     ],
     titleTag: 'Tilauspaino vai digitaalinen lataus? | LCS',
-    metaDescription: 'Vertaile tilauspaino- ja digitaalisen latauksen malleja tulosteille. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    metaDescription: 'Vertaile tilauspaino- ja digitaalisen latauksen malleja tulosteille. Mikä malli sopii sinun liiketoimintaasi.',
   },
   hero: {
     title: 'Tilauspaino vai digitaalinen lataus: kumpi malli?',

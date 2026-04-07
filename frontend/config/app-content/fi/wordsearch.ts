@@ -2,20 +2,25 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'sanahaku generaattori',
+    primaryKeyword: 'sanasokkelo generaattori',
     secondaryKeywords: [
-      'sanahakupulma tyoarkit myy Etsyssa',
-      'sanahaku generaattori Amazon KDP julkaisijoille',
-      'sanahakupulma tyoarkit kaupallinen lisenssi',
-      'tulostettavat sanahakupulmat Gumroadiin',
+      'luo sanasokkelo',
+      'sanahaku tulostaa',
+      'sanasokkelo kuvilla',
+      'piilosana generaattori',
     ],
     lsiKeywords: [
-      'digitaaliset sanahakupulma tuotteet verkkoliiketoiminta',
-      'tulostettavat piilotettujen sanojen ruudukko tyoarkit business',
-      'sanahaku generaattori kaupallinen kaytto',
+      'ruudukko',
+      'kirjaimet',
+      'sanasto',
+      'oikeinkirjoitus',
+      'teema',
+      'vastaukset',
+      'PDF',
+      'alakoulu',
     ],
-    titleTag: 'Sanahaku Generaattori | Luo ja Myy Sanapulmia',
-    metaDescription: 'Luo sanahakutyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. Saadettava ruudukko 5–30, suuntakontrollit, kielitietoiset tayttökirjaimet. $49 kertamaksu.',
+    titleTag: 'Sanasokkelo-generaattori | Luo teemakuvilla',
+    metaDescription: 'Luo sanasokkeleita 3 000+ teemakuvalla 11 kielellä. Omat sanat, automaattiset vastaukset, 300 DPI PDF. Kokeile ilmaiseksi — kaupallinen lisenssi.',
   },
 
   hero: {

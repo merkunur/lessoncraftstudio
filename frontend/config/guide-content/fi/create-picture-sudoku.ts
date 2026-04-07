@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo kuvasudoku',
+    primaryKeyword: 'näin teet kuvasudokuja tulostettavia',
     secondaryKeywords: [
-      'kuvasudoku lapsille',
-      'kuvasudoku-työarkkien generaattori',
-      'tulostettava kuvasudoku myyntiin',
-      'visuaaliset sudoku-palapelit esikouluun',
+      'kuvasudokugeneraattori lapsille myyntiin',
+      'tulosta kuvasudokutehtäviä esiopetukseen',
+      'luo kuvasudokuja vastausavaimella PDF',
+      'kuvasudokujen tekeminen opas myyjille',
     ],
     lsiKeywords: [
-      'kuvapohjaiset logiikkapalapelit lapsille',
-      'visuaalinen sudoku nuoremmille käyttäjille',
-      'esikoulu logiikka-työarkkien tekijä',
-      'myy sudoku-työarkkeja Etsyssä',
-      'Amazon KDP palapeli-aktiviteettikirjat',
-      'kaupallinen lisenssi palapeliväline',
+      'logiikkapeli visuaalinen 4x4 ruudukko',
+      'esiopetus eskari alkuopetus',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP sudokuaktiviteettikirja',
+      '3 vaikeustasoa temaattiset kuvat',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo kuvasudoku-työarkkeja — Opas',
-    metaDescription: 'Luo kuvasudokuja nuoremmille käyttäjille. 4x4 kuvaruudukot, 3 vaikeustasoa, temaattiset kuvat, vastausavaimet ja tulostusvalmiit PDF:t myyntiin Etsyssä ja.',
+    titleTag: 'Kuvasudokuja tulostettavia | Vaihe vaiheelta -opas',
+    metaDescription: 'Näin teet kuvasudokuja tulostettavaksi lapsille. 4x4-ruudukot, 3 vaikeustasoa, temaattiset kuvat ja PDF-vienti myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

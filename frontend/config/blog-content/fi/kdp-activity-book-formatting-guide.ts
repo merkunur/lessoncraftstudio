@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'KDP aktiviteettikirja muotoilu opas',
+    primaryKeyword: 'KDP-aktiviteettikirjan muotoiluopas',
     secondaryKeywords: [
-      'kaytannoen toteutus vaihe vaiheelta',
-      'yleisimmat haasteet ratkaisut',
-      'mittaaminen optimointi',
+      'Amazon KDP kirjan muotoilu',
+      'aktiviteettikirjan sivuasetukset KDP',
+      'KDP muotoiluvaatimukset tulosteet',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'KDP marginaalit sivukoko',
+      'bleed-asetukset KDP',
+      'PDF-vaatimukset Amazon-julkaisu',
     ],
     titleTag: 'KDP-aktiviteettikirjan muotoiluopas | LCS',
-    metaDescription: 'Muotoile aktiviteettikirja KDP:n vaatimusten mukaisesti. Sivukoko, marginaalit ja tiedostomuodot taydellisesti.',
+    metaDescription: 'Muotoile aktiviteettikirja KDP:n vaatimusten mukaisesti. Sivukoko, marginaalit ja tiedostomuodot täydellisesti.',
   },
   hero: {
     title: 'KDP-aktiviteettikirjan muotoilu: tekninen opas',

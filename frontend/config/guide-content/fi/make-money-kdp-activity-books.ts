@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tienaa rahaa KDP-aktiviteettikirjoilla',
+    primaryKeyword: 'tienaa rahaa KDP-aktiviteettikirjoilla opas',
     secondaryKeywords: [
-      'miten tienata rahaa KDP-aktiviteettikirjoilla',
-      'KDP-aktiviteettikirja tulostrategiat',
-      'Amazon KDP aktiviteettikirja liikevaihdon optimointi',
-      'kannattava aktiviteettikirjan julkaiseminen KDP',
+      'KDP-aktiviteettikirjojen tulostrategiat',
+      'Amazon KDP liikevaihdon optimointi kirjoille',
+      'kannattava aktiviteettikirjan julkaiseminen',
+      'KDP-rojaltilaskenta ja hinnoittelustrategia',
     ],
     lsiKeywords: [
-      'KDP rojalti laskenta painokustannus hinnoittelustrategia',
-      'aktiviteettikirja katalogi kertyvä liikevaihto kuukausitulot',
-      'kausiluonteinen julkaiseminen joulu kesä koulun aloitus',
-      'Amazon Best Seller -merkki hakusana kategoria sijoitus',
-      'monialustainen Etsy Gumroad digitaalinen tulostettava laajennus',
-      'KDP raportit suorituskyvyn seuranta liikevaihto per teos analyysi',
+      'rojalti painokustannus hinnoittelustrategia',
+      'katalogi kertyvä liikevaihto kuukausitulot',
+      'kausiluonteinen julkaiseminen joulu kesä',
+      'Amazon Best Seller hakusana kategoria',
+      'monialustainen laajennus Etsy Gumroad',
+      'KDP-raportit suorituskyvyn seuranta',
     ],
-    titleTag: 'Tienaa rahaa KDP-aktiviteettikirjoilla — Liikevaihto-opas',
-    metaDescription: 'Miten tienata rahaa KDP-aktiviteettikirjoilla. Hinnoittelu, katalogin rakentaminen, rojaltilaskelmat, kausijulkaiseminen ja monialustainen skaalausstrategia.',
+    titleTag: 'Tienaa rahaa KDP-aktiviteettikirjoilla | Tuloopas',
+    metaDescription: 'Näin tienaat rahaa KDP-aktiviteettikirjoilla. Hinnoittelu, katalogin rakentaminen, rojaltilaskelmat ja monialustainen skaalausstrategia.',
   },
 
   hero: {

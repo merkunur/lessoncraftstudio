@@ -2,11 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kaunokirjoitustyoarkit Etsy niche',
-    secondaryKeywords: ['kaunokirjoitus tulosteet myynti', 'kirjoitusharjoitukset lapsille Etsy', 'kasinkirjoitus tyoarkit verkossa'],
-    lsiKeywords: ['hienomotoriikka harjoitukset', 'kirjainten harjoittelu tulosteet', 'kaunokirjoitus esikoulu'],
-    titleTag: 'Kaunokirjoitustyoarkit Etsy-nichena | LCS',
-    metaDescription: 'Myy kaunokirjoitustyoarkkeja Etsyssa. Ikivihrea niche jossa vanhemmat etsivat hienomotoriikkaharjoituksia. Aloita generaattorilla.',
+    primaryKeyword: 'kirjoitusharjoitukset tulostettavia Etsy',
+    secondaryKeywords: [
+      'kaunokirjoitus tulosteet myynti',
+      'käsialaharjoitukset tulostettavia lapsille',
+      'kirjainharjoitukset tulosteet Etsy niche',
+    ],
+    lsiKeywords: [
+      'hienomotoriikka kirjoitus',
+      'esikoulun kirjoitusharjoitukset',
+      'suomalaiset kirjaimet harjoittelu',
+    ],
+    titleTag: 'Kirjoitusharjoitukset Etsy-nichena | LCS',
+    metaDescription: 'Myy kirjoitusharjoituksia Etsyssä. Ikivihreä niche jossa vanhemmat etsivät hienomotoriikkaharjoituksia lapsille.',
   },
   hero: {
     title: 'Kaunokirjoitustyoarkit: ikivihrea Etsy-niche',

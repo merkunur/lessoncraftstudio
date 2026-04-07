@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'digitaaliset vs. fyysiset tulostettavat',
+    primaryKeyword: 'digitaaliset vs fyysiset tulostettavat vertailu',
     secondaryKeywords: [
-      'digitaalinen lataus vai fyysinen tuote',
-      'tulostettavien tuotteiden myyntimuodot',
-      'digitaalinen vs. fyysinen tulostettava vertailu',
-      'valitse tulostettavien myyntimuoto',
+      'digitaalinen lataus vai fyysinen tulostettava',
+      'tulostettavien myyntimuotojen vertailu opas',
+      'digitaalinen vs print-on-demand strategia',
+      'valitse tulostettavien myyntimalli',
     ],
     lsiKeywords: [
-      'digitaalinen lataus tulostettavat edut haitat',
-      'fyysinen print-on-demand tulostettavat tuotteet',
-      'digitaalinen vs. fyysinen katteet skaalautuvuus',
-      'hybridimalli digitaalinen fyysinen tulostettava',
-      'alustavalinta tulostettavien tuotteille',
-      'tuotantotyönkulku digitaalinen ja fyysinen',
+      'katteet skaalautuvuus toimituskustannukset',
+      'digitaalinen lataus passiivinen tulo',
+      'kaupallinen lisenssi PDF-vienti',
+      'hybridimalli monikanavainen myynti',
+      'Etsy KDP Gumroad formaattivertailu',
+      'asiakasodotukset tuotantotyönkulku',
     ],
-    titleTag: 'Digitaaliset vs. fyysiset tulostettavat — Opas',
-    metaDescription: 'Vertaile digitaalisia ja fyysisiä tulostettavia tuotteita. Katteet, skaalautuvuus, asiakasodotukset,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Digitaaliset vs fyysiset tulostettavat | Vertailuopas',
+    metaDescription: 'Vertaile digitaalisia ja fyysisiä tulostettavia. Katteet, skaalautuvuus, asiakasodotukset ja hybridimalli Etsyssä, KDP:ssä ja Gumroadissa.',
   },
 
   hero: {

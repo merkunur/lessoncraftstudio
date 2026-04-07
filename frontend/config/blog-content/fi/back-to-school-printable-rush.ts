@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'koulunaloituksen tulostesesonki elokuun myyntipiikki sesonki',
+    primaryKeyword: 'koulunaloitus tulosteet sesonki',
     secondaryKeywords: [
-      'markkinakatsaus kysynta',
-      'tuotevalikoima teemat',
-      'suomalaisen myyjann kilpailuedut',
+      'elokuun tulostemyynti piikki',
+      'koulunaloitus tehtävät myyntiin',
+      'syksyn tulosteet Etsy strategia',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'syyslukukausi tulosteet',
+      'peruskoulu materiaalit Suomi',
+      'esikoulu elokuu tulosteet',
     ],
     titleTag: 'Koulunaloituksen tulostesesonki | LCS',
-    metaDescription: 'Hyodynna koulunaloituksen tulostesesonki. Suomessa koulu alkaa elokuussa. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    metaDescription: 'Hyödynnä koulunaloituksen myyntipiikki elokuussa. Suomessa koulu alkaa elokuussa ja vanhemmat etsivät tulostettavia tehtäviä.',
   },
   hero: {
     title: 'Koulunaloituksen tulostesesonki: elokuun myyntipiikki',

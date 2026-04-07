@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'pikkujoulu tulosteet myy marraskuu',
+    primaryKeyword: 'marraskuun tulosteet myyntiin',
     secondaryKeywords: [
-      'pikkujoulu tulosteet myy marraskuu opas',
-      'pikkujoulu tulosteet myy marraskuu 2026',
-      'pikkujoulu tulosteet myy marraskuu Suomi',
+      'pikkujoulut tulostettavia aktiviteetteja',
+      'marraskuu tulosteet sesonki Suomi',
+      'syksyn juhlatulosteet myynti',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'pikkujoulukausi tulosteet',
+      'isänpäivä marraskuu tulosteet',
+      'itsenäisyyspäivä tulostettavia',
     ],
-    titleTag: 'Pikkujoulu- ja itsenaisyyspaivatulosteet | LCS',
-    metaDescription: 'Myy pikkujoulu- ja itsenaisyyspaiva-tulosteita. Suomessa ei ole Thanksgivingia mutta marraskuu on juhlakautta. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Marraskuun tulosteet myyntiin | LCS',
+    metaDescription: 'Myy tulosteita marraskuussa. Suomessa pikkujoulukausi, isänpäivä ja itsenäisyyspäivä luovat kysyntäpiikkejä.',
   },
   hero: {
     title: 'Pikkujoulu- ja itsenaisyyspaivatulosteet marraskuussa',

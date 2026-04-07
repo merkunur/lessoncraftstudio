@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'enemman vahemman tyoarkit myy',
+    primaryKeyword: 'enemmän vähemmän -tulosteet myyntiin',
     secondaryKeywords: [
-      'tuotetyypit vaikeustasot',
-      'hinnoittelu paketointi',
-      'markkinointi avainsanat',
+      'matemaattinen vertailu tehtäväarkit',
+      'suurempi pienempi tulostettavia Etsy',
+      'lukuvertailu tulosteet myynti',
     ],
     lsiKeywords: [
-      'matemaattinen vertailu',
-      'suurempi pienempi merkki',
-      'lukumaaran arviointi',
+      'suurempi pienempi merkki tehtävät',
+      'lukumäärän arviointi tulosteet',
+      'esikoulun matemaattinen vertailu',
     ],
-    titleTag: 'Enemman-vahemman tyoarkit: myyntiopas | LCS',
-    metaDescription: 'Myy enemman-vahemman tyoarkkeja. Matemaattinen vertailu on avaintaito jota kaikki esikouluikaiset harjoittelevat. Vakaa niche.',
+    titleTag: 'Enemmän-vähemmän tulosteet myyntiin | LCS',
+    metaDescription: 'Myy enemmän-vähemmän tehtäväarkkeja. Matemaattinen vertailu on avaintaito jota kaikki esikouluikäiset harjoittelevat.',
   },
   hero: {
     title: 'Enemman-vahemman tyoarkit: matemaattinen vertailu myyntituotteena',

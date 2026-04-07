@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulosteet tiedostomuodot PDF JPEG opas',
+    primaryKeyword: 'tulosteiden tiedostomuodot PDF JPEG',
     secondaryKeywords: [
-      'vaihe sisallon luominen generaattorilla',
-      'vaihe muotoilu paketointi',
-      'vaihe ilmoituksen luominen julkaisu',
+      'paras tiedostomuoto tulostettaville',
+      'PDF vai JPEG tulosteet myynti',
+      'tiedostoformaatti tulosteet Etsy',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'resoluutio tulostettava PDF',
+      'väriprofiili CMYK RGB',
+      'tulostuslaatu tiedostomuoto',
     ],
-    titleTag: 'Tulosteiden tiedostomuodot: PDF vs JPEG | LCS',
-    metaDescription: 'Oikea tiedostomuoto tulosteille. Milloin PDF, milloin JPEG? Resoluutio, variat ja tulostuslaatu. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Tulosteiden tiedostomuodot: opas | LCS',
+    metaDescription: 'Oikea tiedostomuoto tulostettaville tuotteille. Milloin PDF, milloin JPEG? Resoluutio, värit ja tulostuslaatu.',
   },
   hero: {
     title: 'Tulosteiden tiedostomuodot: PDF vs JPEG opas',

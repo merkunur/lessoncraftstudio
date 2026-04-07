@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'saa arvosteluja tulostettaville tuotteille',
+    primaryKeyword: 'saa arvosteluja tulostettaville tuotteille opas',
     secondaryKeywords: [
-      'tulostettavien tuotteiden arvostelustrategia',
-      'Etsy-arvostelut digitaalisille tuotteille',
-      'arvostelujen kerääminen työarkkimyyjille',
-      'positiiviset arvostelut tulostettaville tuotteille',
+      'arvostelustrategia tulostettavien myyjille',
+      'Etsy-arvostelut digitaalisille latauksille',
+      'arvostelujen kerääminen työarkkikaupassa',
+      'positiivisten arvostelujen kasvattaminen opas',
     ],
     lsiKeywords: [
-      'arvostelujen vaikutus Etsy-myyntiin',
-      'ostajapalautteen kerääminen tulostettaville',
-      'arvostelujen hallinta digitaalisille tuotteille',
-      'negatiivisten arvostelujen käsittely ammattimaisesti',
-      'arvosteluvolyymin kasvattaminen tulostettaville',
-      'pitkäaikainen kauppamaine arvostelujen kautta',
+      'arvostelujen vaikutus myyntiin hakusijoitus',
+      'ostajapalautteen kerääminen seuranta',
+      'kaupallinen lisenssi tuotteen laatu',
+      'negatiivisten arvostelujen käsittely',
+      'Etsy KDP Gumroad arvostelumaine',
+      'pitkäaikainen kaupan maine orgaaninen kasvu',
     ],
-    titleTag: 'Saa arvosteluja tulostettaville tuotteille — Opas',
-    metaDescription: 'Strategiat arvostelujen keräämiseen tulostettaville tuotteille. Tuotelaatu, seuranta, palautteen käsittely ja maineen rakentaminen Etsyssä, KDP:ssä ja.',
+    titleTag: 'Saa arvosteluja tulostettaville | Strategiaopas',
+    metaDescription: 'Strategiat arvostelujen keräämiseen tulostettaville tuotteille. Tuotelaatu, seuranta, palautteen käsittely ja maineen rakentaminen Etsyssä ja KDP:ssä.',
   },
 
   hero: {

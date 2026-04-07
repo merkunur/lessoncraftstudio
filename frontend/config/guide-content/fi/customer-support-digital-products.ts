@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'asiakastuki digitaalisille tuotteille opas digitaalisten tuotteiden liiketoiminnalle',
+    primaryKeyword: 'asiakastuki digitaalisten tulostettavien myyjille',
     secondaryKeywords: [
-      'digitaalisen tuotteen asiakaspalvelu',
-      'tulostettavien tuotteiden tuki',
-      'käsittele asiakasvalitukset työarkit',
-      'digitaalisen latauksen tuki',
+      'tukistrategia tulostettavien tuotteiden liiketoiminnalle',
+      'asiakaspalvelu digitaalisille latauksille opas',
+      'käsittele asiakasvalitukset tulostettavissa',
+      'palautusten hallinta työarkkimyyjille',
     ],
     lsiKeywords: [
-      'tukitapausten käsittely palautusten hallinta UKK-sivu ostajaviestintä vastausmallit',
-      'asiakastyytyväisyys latausten vianmääritys tiedostomuototuki tulostusohje',
-      'markkinapaikkaviestit tukiautomaatio ennakoiva dokumentaatio itsepalvelutuki',
-      'asiakaspito arvostelujen hallinta tuotekuvauksen selkeys odotusten yhteensovittaminen',
-      'tuen ehkäisy yleisimmät ongelmat ratkaisuaika ammattimainen viestintä',
-      'skaalautuvat tukijärjestelmät mallikirjastot kaavantunnistus palautesilmukat',
+      'vastausmallit tukiautomaatio UKK',
+      'latausten vianmääritys tiedostomuoto',
+      'kaupallinen lisenssi asiakastyytyväisyys',
+      'arvostelujen hallinta tuotekuvaus',
+      'Etsy KDP Gumroad tukiprosessi',
+      'skaalautuva tukijärjestelmä mallikirjasto',
     ],
-    titleTag: 'Asiakastuki digitaalisille tuotteille — Opas',
-    metaDescription: 'Asiakastukistrategiat digitaalisten tuotteiden myyjille. Ongelmien ehkäisy, vastausmallit, palautusten. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Asiakastuki digitaalisille tulostettaville | Opas',
+    metaDescription: 'Asiakastukistrategiat digitaalisten tulostettavien myyjille. Ongelmien ehkäisy, vastausmallit, palautusten hallinta ja tukijärjestelmän rakentaminen.',
   },
 
   hero: {

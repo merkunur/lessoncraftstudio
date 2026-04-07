@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'paivita vanhat tulosteet ilmoitukset kasvata myyntia',
+    primaryKeyword: 'päivitä vanhat tulosteet lisää myyntiä',
     secondaryKeywords: [
-      'vaihe sisallon luominen generaattorilla',
-      'vaihe muotoilu paketointi',
-      'vaihe ilmoituksen luominen julkaisu',
+      'vanhojen Etsy-listausten päivitys',
+      'paranna tulosteiden ilmoituksia',
+      'Etsy-listauksen uudistaminen tulosteet',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'Etsy-algoritmi päivitykset',
+      'listauksen tuoreus Etsy',
+      'konversio-optimointi vanhat tulosteet',
     ],
-    titleTag: 'Paivita vanhat ilmoitukset: kasvata myyntia | LCS',
-    metaDescription: 'Paivita vanhat Etsy-ilmoitukset ja kasvata myyntia. Uudet avainsanat, kuvat ja kuvaukset virkistavat listauksia.',
+    titleTag: 'Päivitä vanhat tulosteet: lisää myyntiä | LCS',
+    metaDescription: 'Päivitä vanhat tulosteilmoituksesi ja nosta myyntiä. Etsy palkitsee tuoreita ilmoituksia hakutuloksissa.',
   },
   hero: {
     title: 'Paivita vanhat ilmoitukset ja kasvata myyntia',

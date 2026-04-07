@@ -2,20 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'tekijänoikeuden perusteet tulostettavien myyjille',
+    primaryKeyword: 'tekijänoikeus tulostettavien myyjille opas',
     secondaryKeywords: [
-      'tekijänoikeus tulostettavien liiketoiminnan omistajille',
-      'tulostettavien myyjän tekijänoikeusopas',
+      'tekijänoikeusopas tulostettavien liiketoiminnalle',
       'suojaa tulostettavat suunnittelusi laillisesti',
       'tekijänoikeuslaki digitaalisten tuotteiden myyjille',
+      'immateriaalioikeudet tulostettavien myynnissä',
     ],
     lsiKeywords: [
-      'tulostettavien tekijänoikeussuoja',
-      'immateriaalioikeudet tulostettavat',
-      'myyjien oikeudelliset perusteet',
+      'tekijänoikeussuoja alkuperäiset suunnittelut',
+      'kohtuullinen käyttö julkinen omaisuus',
+      'kaupallinen lisenssi myyntioikeudet',
+      'loukkausten käsittely alustan säännöt',
+      'Etsy KDP Creative Fabrica oikeudet',
+      'juridinen suoja liiketoiminta',
     ],
-    titleTag: 'Tekijänoikeuden perusteet tulostettavien myyjille | LCS',
-    metaDescription: 'Tekijänoikeuden perusteet tulostettavien myyjille. Suojaa suunnittelusi, ymmärrä oikeutesi ja vältä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Tekijänoikeus tulostettavien myyjille | Kattava opas',
+    metaDescription: 'Tekijänoikeusopas tulostettavien myyjille. Suojaa suunnittelusi, ymmärrä oikeutesi, vältä loukkaukset ja toimi juridisesti oikein Etsyssä ja KDP:ssä.',
   },
 
   hero: {

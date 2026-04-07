@@ -64,9 +64,9 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
     keywords: 'arbeidsark-generatorer, ordleting generator, kryssord generator, matteoppgaver generator, fargeleggingsbilder lage, sudoku skrive ut, labyrint generator, skrivemotorikk oppgaver',
   },
   fi: {
-    title: '33 Tulostegeneraattoria | Etsy & KDP -ty\ökalut',
-    description: 'Tutustu 33 ammattimaiseen tulostettavaan generaattoriin. Sanaristikkoja, matematiikkateht\ävi\ä, v\ärityskuvia, palapelejä & lis\ä\ä. Kokeile ilmaiseksi vesileimalla. Myy Etsyss\ä & Amazon KDP:ss\ä.',
-    keywords: 'tulostettava generaattori, Etsy tulostettavat, KDP teht\äv\ät, myy tulostettavia verkossa, sanaristikkogeneraattori, tulostettavien liiketoiminta',
+    title: '33 tehtävägeneraattoria | Matikka, pulmat, kieli & muuta',
+    description: 'Tutustu 33 ammattimaiseen generaattoriin: matikka, kieli, visuaalinen oppiminen, luovuus ja logiikka. Kaikki ilmaisia kokeilla vesileimalla.',
+    keywords: 'tehtävägeneraattorit, sanasokkelo generaattori, sanaristikko generaattori, matikkatehtävien generaattori, värityskuvia tulostaa, sudoku tulostaa, labyrintti generaattori, kirjoitusmotoriikka tehtäviä',
   },
 };
 
@@ -287,8 +287,8 @@ const localeContent: Record<string, {
     },
   },
   fi: {
-    heroTitle: '33 ammattimaista tulostettavaa generaattoria',
-    heroSubtitle: 'Luo ammattimaisia tulostettavia liiketoimintaasi varten. Sanaristikkoja, matematiikkatehtäviä, värityskuvia, palapelejä & lisää. Kokeile kaikkia 33 generaattoria ilmaiseksi vesileimalla.',
+    heroTitle: '33 ammattimaista tehtävägeneraattoria',
+    heroSubtitle: 'Luo tulostettavia tehtäviä sekunneissa. Sanasokkelo, sanaristikko, matikka, värityskuvia, palapelejä & lisää. Kokeile kaikkia 33 generaattoria ilmaiseksi vesileimalla.',
     tryFree: 'Kokeile ilmaiseksi',
     details: 'Tiedot',
     trustNoAccount: 'Ei tiliä tarvita',

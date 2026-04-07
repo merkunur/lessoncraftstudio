@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'luo tyoarkkipaketti minuutissa vaiheittainen opas',
+    primaryKeyword: 'tehtäväpaketti 35 minuutissa',
     secondaryKeywords: [
-      'luo tyoarkkipaketti 35 minuuttia opas',
-      'luo tyoarkkipaketti 35 minuuttia vaiheittain',
-      'luo tyoarkkipaketti 35 minuuttia 2026',
+      'nopea työarkkipaketin luominen',
+      'tulostepaketin kokoaminen generaattorilla',
+      'tehtäväpaketti nopeasti Etsy-myyntiin',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'generaattori pakettituotanto',
+      'Etsy-paketti lanseeraus',
+      'tulostepaketin sisältösuunnitelma',
     ],
-    titleTag: 'Luo tyoarkkipaketti 35 minuutissa | LCS',
-    metaDescription: 'Vaiheittainen opas tyoarkkipaketin luomiseen 35 minuutissa. Generaattori tekee raskaaan tyon puolestasi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Tee tehtäväpaketti 35 minuutissa | LCS',
+    metaDescription: 'Vaiheittainen opas tulostettavan tehtäväpaketin luomiseen 35 minuutissa. Generaattori tekee raskaan työn puolestasi.',
   },
   hero: {
     title: 'Luo tyoarkkipaketti 35 minuutissa: vaiheittainen opas',

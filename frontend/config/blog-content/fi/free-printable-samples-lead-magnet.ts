@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'ilmaiset tulosteet naytteet lead magnet',
+    primaryKeyword: 'ilmaiset tulostenäytteet lead magnet',
     secondaryKeywords: [
-      'vaihe sisallon luominen generaattorilla',
-      'vaihe muotoilu paketointi',
-      'vaihe ilmoituksen luominen julkaisu',
+      'lead magnet strategia tulosteet',
+      'ilmainen näyte tulostekauppa',
+      'koekappale sähköpostilistan kasvatus',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'sähköpostilista tulostekauppa',
+      'konversio ilmaisesta maksavaksi',
+      'sisältömarkkinointi tulosteet',
     ],
-    titleTag: 'Ilmaiset tulostemallimeet lead magnettina | LCS',
-    metaDescription: 'Kayta ilmaisia tulostemallimeia lead magnettina. Rakenna sahkopostilista ja konvertoi liideja maksaviksi. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Tulostenäytteet lead magnettina | LCS',
+    metaDescription: 'Käytä ilmaisia tulostenäytteitä lead magnettina. Rakenna sähköpostilista ja konvertoi liidejä maksaviksi asiakkaiksi.',
   },
   hero: {
     title: 'Ilmaiset tulostemallimeet lead magnettina',

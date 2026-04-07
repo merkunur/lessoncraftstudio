@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tyoarkit laatu maara Etsy',
+    primaryKeyword: 'laatu vai määrä tulosteet Etsy',
     secondaryKeywords: [
-      'kaytannoen toteutus vaihe vaiheelta',
-      'yleisimmat haasteet ratkaisut',
-      'mittaaminen optimointi',
+      'tulosteiden laatu vs listausten määrä',
+      'Etsy-tuotteiden laatustrategia',
+      'kuinka monta tuotetta Etsy-kauppaan',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'konversioprosentti ja laatu Etsy',
+      'arvostelut laatu tulosteet',
+      'tuotevalikoima strategia Etsy',
     ],
-    titleTag: 'Laatu vai maara Etsyssa? | LCS',
-    metaDescription: 'Kumpi on tarkeampaa Etsyssa: tyoarkkien laatu vai ilmoitusten maara? Vastaus saattaa yllattaa. Molemmat ovat valttamattomia.',
+    titleTag: 'Laatu vai määrä Etsy-tulosteissa? | LCS',
+    metaDescription: 'Laatu vai listausten määrä Etsyssä? Oikea vastaus on molemmat, mutta painotus ratkaisee menestyksen.',
   },
   hero: {
     title: 'Laatu vai maara: kumpi voittaa Etsyssa?',

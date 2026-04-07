@@ -2,20 +2,23 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Räätälöidyn työarkkipalvelun liiketoimintaideat — Opas',
-    metaDescription: 'Räätälöidyn työarkkipalvelun liiketoimintaideat Etsy- ja freelance-myyjille. Tarjoa tilaustuotettuja opetustulostettavia premium-tilaushinnoin.',
+    titleTag: 'Räätälöity työarkkipalvelu | Myy tilaustyönä',
+    metaDescription: 'Räätälöityjen tulostettavien tehtävien palveluideat. Tarjoa tilaustyötä ja ansaitse premium-hintoja.',
 
-    primaryKeyword: 'räätälöity työarkkipalvelu',
+    primaryKeyword: 'räätälöity tulostettava palvelu ideat',
     secondaryKeywords: [
-      'räätälöity työarkkien liiketoimintaideat',
-      'tilauksesta tehty tulostettava luomispalvelu',
-      'erikoisvalmistettu työarkkien liiketoiminta',
-      'myy räätälöityjä työarkkeja verkossa',
+      'tilaustyö tulostettavat myyntiin',
+      'räätälöidyt tehtävät Etsyssä',
+      'personoitu tulostettava palvelu',
+      'mukautetut tulostettavat freelance',
     ],
     lsiKeywords: [
-      'personoidut opetukselliset tulostettavat',
-      'tilaustyöarkkien luominen',
-      'freelance tulostettava suunnittelupalvelu',
+      'Etsy',
+      'tilaustyö',
+      'räätälöity',
+      'freelance',
+      'tulostettavat',
+      'premium',
     ],
   },
   hero: {

@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Halloween tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu halloween-tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla. Kammottavat tuotekonseptit, kausistrategiat ja vinkit myyjille.',
+    titleTag: 'Halloween-tulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Halloween-aiheisia tulostettavia tehtäviä myyntiin. Lokakuun tuottoisin kausiniche Etsyssä ja KDP:ssä.',
 
     primaryKeyword: 'halloween tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'halloween-työarkit myyntiin',
-      'halloween-teemainen tulostettava liiketoiminta',
-      'halloween-aktiviteettiarkki myyjille',
-      'myy halloween-tulostettavia Etsyssä',
+      'halloween-tehtäviä myydä Etsyssä',
+      'halloween-tulostettavat niche KDP',
+      'lokakuun kausiluonteiset tulostettavat',
+      'halloween-aktiviteetit tulostettavat myyntiin',
     ],
     lsiKeywords: [
-      'kammottavat teemaiset opetukselliset työarkit',
-      'lokakuun teemaiset tulostettavat aktiviteettisivut',
-      'puku- ja kurpitsateemaiset tulostettavat',
+      'Etsy',
+      'KDP',
+      'halloween',
+      'kausiluonteinen',
+      'tulostettavat',
+      'lokakuu',
+      'niche',
     ],
   },
   hero: {

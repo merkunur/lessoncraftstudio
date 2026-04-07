@@ -2,21 +2,22 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'hahmontunnistus työarkin generaattori etsyyn luo hahmontunnistustyöarkkeja myyntiin etsyssä',
+    primaryKeyword: 'loogisia sarjoja tehtäviä tulostaa',
     secondaryKeywords: [
-      'hahmontunnistus generaattori Etsy-myyjille',
-      'luo hahmontunnistustyöarkkeja Etsyyn',
-      'visuaalinen kuvio tulostettavat Amazon KDP',
-      'kuviotyöarkit kaupallinen lisenssi',
-      'myy kuvioharjoituksia verkossa',
+      'jatka järjestystä tehtävä',
+      'visuaalinen logiikka tehtävä',
+      'looginen ajattelu tehtäviä',
+      'lukujonotehtäviä',
     ],
     lsiKeywords: [
-      'visuaalinen kuvio tulostettava niche',
-      'myy kuviotyöarkkeja kaupallisesti',
-      'kognitiiviset taidot työarkkituotteet',
+      'logiikka',
+      'sarja',
+      'järjestys',
+      'alakoulu',
+      'vastaukset',
     ],
-    titleTag: 'Hahmontunnistus Työarkin Generaattori Etsyyn | LCS',
-    metaDescription: 'Luo hahmontunnistustyöarkkeja myyntiin Etsyssä ja KDP:ssä. Visuaaliset sarjaharjoitukset, temaattiset kuvat, automaattiset vastauslehdet, lisenssi. $49...',
+    titleTag: 'Loogisia sarjoja tehtäviä tulostaa | Generaattori',
+    metaDescription: 'Luo loogisten sarjojen harjoituksia teemakuvilla. Automaattiset vastaukset, 300 DPI PDF. Kokeile ilmaiseksi.',
   },
 
   hero: {

@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'varjoyhdistamistyoarkit visuaalisen hahmottamisen myyntiopas',
+    primaryKeyword: 'varjoyhdistämistehtävät tulostettavia myynti',
     secondaryKeywords: [
-      'varjoyhdistamisen pedagoginen arvo',
-      'tuotetyypit teemat',
-      'hinnoittelu paketointi',
+      'varjoyhdistely tulosteet Etsy',
+      'siluettitehtävät tulostettavia myynti',
+      'visuaalinen hahmotus varjot tulosteet',
     ],
     lsiKeywords: [
-      'visuaalinen hahmotus varjot',
-      'siluettiyhdistely tehtavat',
-      'kognitiivinen kehitys tulosteet',
+      'kognitiivinen kehitys varjotehtävät',
+      'visuaalinen päättely tulosteet',
+      'esineiden tunnistus siluetti',
     ],
-    titleTag: 'Varjoyhdistamistyoarkit: myyntiopas | LCS',
-    metaDescription: 'Myy varjoyhdistamistyoarkkeja Etsyssa ja KDP:ssa. Lapset yhdistava esineet varjoihinsa. Visuaalisen hahmottamisen kehittaminen on myyntivaltti.',
+    titleTag: 'Varjoyhdistämistehtävät myyntiin | LCS',
+    metaDescription: 'Myy varjoyhdistämistyöarkkeja Etsyssä ja KDP:ssä. Visuaalisen hahmottamisen kehittäminen on myyntivaltti.',
   },
   hero: {
     title: 'Varjoyhdistamistyoarkit: visuaalisen hahmottamisen liiketoiminta',

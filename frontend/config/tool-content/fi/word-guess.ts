@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen sananarvauspalapelin tekijä verkossa tee sananarvauspalapelejä ilmaiseksi rekisteröitymistä',
+    primaryKeyword: 'ilmainen hirsipuu-tehtävä verkossa',
     secondaryKeywords: [
-      'tee sananarvauspalapelejä ilmaiseksi verkossa',
-      'hirsipuupalapeligeneraattori ilman rekisteröitymistä',
-      'ilmainen sanastopalapelin tekijä',
-      'sananarvaustehtävät ilmainen kokeilu',
+      'hirsipuu-tehtäviä ilmaiseksi verkossa',
+      'sananarvausgeneraattori ilman rekisteröitymistä',
+      'kokeile hirsipuu-tehtävää ilmaiseksi',
+      'tulostettava sananarvaus ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'ilmainen sanapelityökalu verkossa',
-      'pikainen sananarvauksen tekijä',
-      'kokeile ennen ostoa sanastotyökalut',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'sanatehtävä',
     ],
-    titleTag: 'Ilmainen Sananarvauspalapelin Tekijä Verkossa | LCS',
-    metaDescription: 'Tee sananarvauspalapelejä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen hirsipuu-tehtävä verkossa | Kokeile heti',
+    metaDescription: 'Tee hirsipuu-tehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

@@ -4,17 +4,17 @@ const content: BlogContent = {
   seo: {
     primaryKeyword: 'parhaat tulosteet nichet matala kilpailu',
     secondaryKeywords: [
-      'parhaat tulosteet nichet matala kilpailu opas',
-      'parhaat tulosteet nichet matala kilpailu 2026',
-      'parhaat tulosteet nichet matala kilpailu Suomi',
+      'kilpailuttomat tulostekategoriat',
+      'tulostenichet joissa on tilaa',
+      'kannattavimmat tulosteet nichet',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'S2-materiaalit niche',
+      'erityisopetus tulostettavat',
+      'suomenkieliset tulosteet kilpailuetu',
     ],
-    titleTag: 'Parhaat tulosteet-nichet matalalla kilpailulla | LCS',
-    metaDescription: 'Loyda tulosteet-nichet joissa kilpailu on matalaa mutta kysynta vakaata. S2-materiaalit, erityisopetus ja suomalaiset teemat.',
+    titleTag: 'Tulosteiden nichet matalalla kilpailulla | LCS',
+    metaDescription: 'Löydä tulostekategoriat joissa kilpailu on matalaa mutta kysyntä vakaata. S2-materiaalit ja suomalaiset teemat.',
   },
   hero: {
     title: 'Parhaat tulosteet-nichet matalalla kilpailulla',

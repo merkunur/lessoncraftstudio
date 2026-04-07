@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'KDP vs Etsy tulostettavat',
+    primaryKeyword: 'KDP vs Etsy tulostettavien myyntiin vertailu',
     secondaryKeywords: [
-      'Amazon KDP vs Etsy tulostettavien myyntiin',
-      'missä myydä tulostettavia työarkkeja verkossa',
-      'KDP vai Etsy kumpi alusta on paras tulostettaville',
-      'myy tulostettavia useilla alustoilla strategia',
+      'Amazon KDP vai Etsy tulostettaville tuotteille',
+      'missä myydä tulostettavia työarkkeja opas',
+      'KDP vs Etsy maksurakenteet ja rojaltit',
+      'monialustainen tulostettavien myyntistrategia',
     ],
     lsiKeywords: [
-      'digitaalinen lataus markkinapaikka print-on-demand julkaisualusta vertailu',
-      'Etsy listausmaksut transaktiomaksut KDP rojaltit painokustannukset',
-      'Etsy SEO tagit algoritmi Amazon A9 taustahakusanat kategoriat',
-      'digitaalinen PDF tulostettava fyysinen painettu kirja formaattimuunnos',
-      'monialustainen myyntistrategia alustojen välinen tulostettava liiketoiminta',
-      'tulostettavat työarkit aktiviteettikirja värityskirja pulmapeli markkinapaikka',
+      'digitaalinen lataus vs print-on-demand',
+      'Etsy-maksut KDP-rojaltit vertailu',
+      'Etsy SEO vs Amazon A9 hakuoptimointi',
+      'PDF-tulostettava vs painettu kirja formaatti',
+      'monialustainen liiketoiminta strategia',
+      'tulostettavat työarkit markkinapaikka',
     ],
-    titleTag: 'KDP vs Etsy tulostettavat — Vertailuopas',
-    metaDescription: 'KDP vs Etsy tulostettavien myyjille. Vertaile maksurakenteet, tuotemuodot, liikennemekanismit ja opi monialustastrategiat tulostettavalle liiketoiminnallesi.',
+    titleTag: 'KDP vs Etsy tulostettavien myyntiin | Vertailuopas',
+    metaDescription: 'KDP vs Etsy tulostettavien myyjille. Vertaile maksurakenteet, tuotemuodot, liikennemekanismit ja monialustastrategiat tulostettavien liiketoiminnalle.',
   },
 
   hero: {

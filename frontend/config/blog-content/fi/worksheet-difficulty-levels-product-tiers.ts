@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tuoteportaat tyoarkkien vaikeustasot',
+    primaryKeyword: 'tehtäväarkkien vaikeustasot tuoteportaat',
     secondaryKeywords: [
-      'vaihe sisallon luominen generaattorilla',
-      'vaihe muotoilu paketointi',
-      'vaihe ilmoituksen luominen julkaisu',
+      'tulosteiden vaikeustasot strategia',
+      'helppo keskitaso vaikea tulosteet',
+      'tuoteportaat tulostettavat tehtävät',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'ikäryhmät tulosteet segmentointi',
+      'eriyttäminen tulosteet myynti',
+      'progressiivinen vaikeustaso tehtävät',
     ],
-    titleTag: 'Tyoarkkien vaikeustasot ja tuoteportaat | LCS',
-    metaDescription: 'Rakenna tuoteportaat vaikeustasoilla. Helppo, keskitaso ja vaikea. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Vaikeustasot ja tuoteportaat tulosteille | LCS',
+    metaDescription: 'Käytä vaikeustasoja tulosteidesi tuoteportaissa. Helppo, keskitaso ja vaikea segmentoivat markkinan ja lisäävät myyntiä.',
   },
   hero: {
     title: 'Tyoarkkien vaikeustasot ja tuoteportaat',

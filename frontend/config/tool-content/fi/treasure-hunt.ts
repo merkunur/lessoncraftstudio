@@ -2,11 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'aarteenetsintae generaattori aarteenetsinta',
-    secondaryKeywords: ['aarteenetsintae-tehtavageneraattori myyjille', 'tee suuntapalapaleja myyntiin', 'tulostettava aarteenetsintae-generaattori kaupallinen kaytto', 'aarteenetsintaepalapeli-generaattori KDP ja Etsy'],
-    lsiKeywords: ['kaksi suuntatyyppia peruskardinaali koordinaattiruudukko-generaattori', 'kieliriippuvaiset lokalisoidut suuntavihjeet 11 kielta', 'automaattinen vastausavain merkitty aarresolu kaksoiskanvasjarjestelma'],
-    titleTag: 'Aarteenetsintae-generaattori —...',
-    metaDescription: 'Tee aarteenetsintaetehtavia 5x5-ruudukossa kahdella suuntatyypilla, teemallisilla maamerkeilla,. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    primaryKeyword: 'ilmainen aarteenetsintätehtävä verkossa',
+    secondaryKeywords: [
+      'aarteenetsintää ilmaiseksi verkossa',
+      'aarteenetsintägeneraattori ilman rekisteröitymistä',
+      'kokeile aarteenetsintää ilmaiseksi',
+      'tulostettava aarteenetsintä ilmainen kokeilu',
+    ],
+    lsiKeywords: [
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'aarteenetsintä',
+    ],
+    titleTag: 'Ilmainen aarteenetsintätehtävä verkossa | Kokeile',
+    metaDescription: 'Tee aarteenetsintätehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

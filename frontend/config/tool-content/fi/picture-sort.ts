@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'lajittelutehtavia kuvalajittelu generaattori lajittelutehtava',
+    primaryKeyword: 'ilmainen lajittelutehtävä verkossa',
     secondaryKeywords: [
-      'lajittelutehtava-generaattori myyjille',
-      'tee lajittelutehtavia myyntiin Etsyssa',
-      'tulostettava lajitteluaktiviteetti-generaattori kaupallinen kaytto',
-      'kuvalajittelu-tehtavageneraattori KDP ja Etsy',
+      'lajittelutehtäviä ilmaiseksi verkossa',
+      'lajittelugeneraattori ilman rekisteröitymistä',
+      'kokeile lajittelutehtävää ilmaiseksi',
+      'tulostettava lajittelutehtävä ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'kahden kategorian lajittelutehtava-generaattori vastausavaimella',
-      'teemapohjainen manuaalitila kuvaluokittelu-generaattori',
-      'sekoitettu leikkausruudukko lajitteluaktiviteetti-generaattori',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'lajittelutehtävä',
     ],
-    titleTag: 'Kuvalajittelu-generaattori — Lajittelutehtava-generaattori',
-    metaDescription: 'Tee lajittelutehtavia kahden kategorian teematilalla, sekoitetuilla leikkausruudukoilla, automaattisilla vastausavaimilla ja 104 teemallisella.',
+    titleTag: 'Ilmainen lajittelutehtävä verkossa | Kokeile heti',
+    metaDescription: 'Tee lajittelutehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

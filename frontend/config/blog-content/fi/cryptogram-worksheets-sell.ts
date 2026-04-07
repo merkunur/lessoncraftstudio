@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'salakirjoitustyoarkit myyntiopas ainutlaatuinen myyntituote myy',
+    primaryKeyword: 'salakirjoitustehtävät tulostettavia myyntiin',
     secondaryKeywords: [
-      'kryptogrammi tulosteet Etsy',
-      'salakirjoitus tehtavat lapsille',
-      'koodatut viestit tyoarkit',
+      'kryptogrammityöarkit myynti Etsy',
+      'koodatut viestit tehtäväarkit',
+      'dekoodaustehtävät tulostettavia',
     ],
     lsiKeywords: [
-      'dekoodaus tehtavat',
-      'salakieli harjoitukset',
+      'salakieli harjoitukset lapsille',
       'looginen ajattelu tulosteet',
+      'ongelmanratkaisu tehtävät',
     ],
-    titleTag: 'Salakirjoitustyoarkit: myyntiopas | LCS',
-    metaDescription: 'Myy salakirjoitustyoarkkeja Etsyssa ja Gumroadissa. Ainutlaatuinen tuotetyyppi joka yhdistaa ongelmanratkaisun ja kielitaidon.',
+    titleTag: 'Salakirjoitustehtävät myyntiin | LCS',
+    metaDescription: 'Myy salakirjoitustyöarkkeja Etsyssä. Ainutlaatuinen tuotetyyppi joka yhdistää ongelmanratkaisun ja kielitaidon.',
   },
   hero: {
     title: 'Salakirjoitustyoarkit: ainutlaatuinen myyntituote',

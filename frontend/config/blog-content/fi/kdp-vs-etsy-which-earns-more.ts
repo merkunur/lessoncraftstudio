@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'KDP vai Etsy kumpi tuottaa enemman',
+    primaryKeyword: 'KDP vai Etsy kumpi tuottaa enemmän',
     secondaryKeywords: [
-      'kaytannoen toteutus vaihe vaiheelta',
-      'yleisimmat haasteet ratkaisut',
-      'mittaaminen optimointi',
+      'Amazon KDP vs Etsy vertailu tulosteet',
+      'paras alusta tulosteiden myyntiin',
+      'KDP Etsy ansaintavertailu',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'rojaltit KDP tulosteet',
+      'Etsy-palkkiot digitaaliset tuotteet',
+      'monikanavainen myyntistrategia',
     ],
-    titleTag: 'KDP vai Etsy: kumpi tuottaa enemman? | LCS',
-    metaDescription: 'Vertaile KDP:ta ja Etsya tulostebisneksessa. Kumpi alusta sopii sinulle paremmin? Realistinen analyysi 2026.',
+    titleTag: 'KDP vai Etsy: kumpi tuottaa enemmän? | LCS',
+    metaDescription: 'Vertaile KDP:tä ja Etsyä tulostemyyjänä. Kumpi alusta sopii sinulle paremmin? Realistinen analyysi.',
   },
   hero: {
     title: 'KDP vai Etsy: kumpi tuottaa enemman?',

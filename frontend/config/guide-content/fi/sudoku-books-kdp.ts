@@ -2,11 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'sudokukirjat Amazon KDP',
-    secondaryKeywords: ['julkaise sudokukirjoja KDP', 'kuvasudoku lasten kirjat KDP', 'sudoku pulmakirja Amazon', 'luo sudokukirjoja myyntiin'],
-    lsiKeywords: ['KDP sudokukirjan julkaiseminen', 'kuvasudoku esikoululaisille aktiviteettikirja', 'sudoku vaikeustasot KDP-kirja'],
-    titleTag: 'Sudokukirjat Amazon KDP:lle — Opas',
-    metaDescription: 'Luo ja julkaise sudokukirjoja Amazon KDP:ssa. Kuvasudoku lapsille, vaikeustasot, kirjarakenne, hinnoittelu ja sudoku-pulmakirjojen myyntistrategia.',
+    primaryKeyword: 'luo sudokukirjoja Amazon KDP:lle opas',
+    secondaryKeywords: [
+      'julkaise sudokukirjoja KDP:ssä myyntiin',
+      'kuvasudoku lasten aktiviteettikirja KDP',
+      'sudoku-pulmakirja Amazon myyntistrategia',
+      'sudokukirjojen muotoilu ja julkaisu KDP:ssä',
+    ],
+    lsiKeywords: [
+      'kuvasudoku 4x4 lapsille logiikkapeli',
+      'vaikeustasot helppo keskitaso haastava',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon-hakusanat kategoriat hinnoittelu',
+      'temaattinen kirjasarja eläimet dinosaurukset',
+      'KDP julkaisuprosessi kansisuunnittelu',
+    ],
+    titleTag: 'Sudokukirjoja Amazon KDP:lle | Julkaisuopas',
+    metaDescription: 'Luo ja julkaise sudokukirjoja Amazon KDP:ssä. Kuvasudoku lapsille, vaikeustasot, kirjarakenne, hinnoittelu ja sudokukirjojen myyntistrategia.',
   },
   hero: {
     title: 'Luo sudokukirjoja Amazon KDP:lle',

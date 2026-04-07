@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'avaruusaihe avaruus tyoarkit liiketoiminta',
+    primaryKeyword: 'avaruusteema tulostettavia myyntiin',
     secondaryKeywords: [
-      'tuotevalikoima teemat',
-      'suomalaisen myyjann kilpailuedut',
-      'hinnoittelu paketointi',
+      'avaruusaiheiset tehtäväarkit liiketoiminta',
+      'avaruus tulosteet Etsy myynti',
+      'STEM-tulosteet avaruusteema',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'avaruus lapsille tulosteet',
+      'planeetat tähdet tehtäväarkit',
+      'tiede tulostettavia',
     ],
-    titleTag: 'Avaruusaihe-tyoarkit liiketoimintana | LCS',
-    metaDescription: 'Myy avaruusaiheisia tyoarkkeja. Avaruus kiehtoo lapsia ja STEM-koulutuksen trendi lisaa kysynta. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Avaruusteema-tulosteet myyntiin | LCS',
+    metaDescription: 'Myy avaruusaiheisia tulostettavia. Avaruus kiehtoo lapsia ja STEM-koulutuksen trendi lisää kysyntää.',
   },
   hero: {
     title: 'Avaruusaihe-tyoarkit: STEM-teeman liiketoiminta',

@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'puuttuvat palat generaattori palapelitehtava',
+    primaryKeyword: 'ilmainen palapeli puuttuvat palat -tehtävä verkossa',
     secondaryKeywords: [
-      'palapelitehtava-generaattori myyjille',
-      'tee puuttuvat palat -palapelejaemyyntiin',
-      'tulostettava palapeligeneraattori kaupallinen kaytto',
-      'puuttuvat palat -palapeli-generaattori KDP ja Etsy',
+      'puuttuvat palat ilmaiseksi verkossa',
+      'palapeligeneraattori ilman rekisteröitymistä',
+      'kokeile palapelitehtävää ilmaiseksi',
+      'tulostettava puuttuvat palat ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'alykaspalanuutto varivarianssi palapeli-generaattori',
-      'kuusi muotoa puuttuvat palat -tehtavageneraattori vastausavaimella',
-      'harhauttajapalat palapelitehtava-generaattori tyokalu',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'palapelitehtävä',
     ],
-    titleTag: 'Puuttuvat palat -generaattori — Palapelitehtava-generaattori',
-    metaDescription: 'Tee palapelitehtavia 6 palamuodolla, saadettaevalla vaikeudella, alykkaaella poiminnalla ja. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen puuttuvat palat -tehtävä verkossa',
+    metaDescription: 'Tee puuttuvat palat -tehtäviä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

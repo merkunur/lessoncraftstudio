@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: '11 kielta myy globaalisti',
+    primaryKeyword: 'monikieliset tulosteet myynti',
     secondaryKeywords: [
-      '11 kielta myy globaalisti opas',
-      '11 kielta myy globaalisti vaiheittain',
-      '11 kielta myy globaalisti 2026',
+      'myy tulostettavia 11 kielellä',
+      'kansainvälinen tulostemyynti strategia',
+      'monikielinen digitaalinen kauppa',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti opas',
-      'tyoarkit tuotanto',
+      'lokalisointi tulosteet',
+      'Etsy kansainvälinen myynti',
+      'kieliversiot tulostettavat tuotteet',
     ],
-    titleTag: '11 kielta: myy globaalisti | LCS',
-    metaDescription: 'Hyodynna 11 kieliversiota ja myy tulosteita globaalisti. Jokainen kieli on uusi markkina minimaalisella lisatyolla.',
+    titleTag: 'Myy tulostettavia 11 kielellä | LCS',
+    metaDescription: 'Laajenna tulosteliiketoimintasi 11 kielelle. Jokainen kieliversio avaa uuden markkinan minimaalisella lisätyöllä.',
   },
   hero: {
     title: '11 kielta: myy tulosteita globaalisti',

@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo kokovertailutyöarkkeja',
+    primaryKeyword: 'näin teet kokovertailutehtäviä tulostettavia',
     secondaryKeywords: [
-      'iso ja pieni työarkit lapsille',
-      'kokovertailutyöarkkien generaattori',
-      'tulostettavia kokovertailutyöarkkeja myyntiin',
-      'ympyröi iso esikoulu-työarkit',
+      'kokovertailugeneraattori lapsille myyntiin',
+      'tulosta iso ja pieni -tehtäviä esiopetukseen',
+      'luo kokovertailuarkkeja vastausavaimella PDF',
+      'kokovertailutehtävien tekeminen opas myyjille',
     ],
     lsiKeywords: [
-      'visuaalinen koon erottelu lapsille',
-      'iso pieni vertailu esikoulu',
-      'koon tunnistaminen varhaiskasvatuksessa',
-      'myy kokovertailutyöarkkeja Etsyssä',
-      'Amazon KDP kokovertailukirjat',
-      'kaupallinen lisenssi työarkkityökalu',
+      'koon erottelu iso pieni järjestäminen',
+      'esiopetus eskari varhaiskasvatus',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP kokovertailukirja',
+      'temaattiset kuvat 104 teemaa',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo kokovertailutyöarkkeja — Opas',
-    metaDescription: 'Luo kokovertailutyöarkkeja temaattisilla kuvilla. Ympyröi iso, järjestä koon mukaan, vastausavaimet ja tulostusvalmiit PDF:t myyntiin Etsyssä ja KDP:ssä.',
+    titleTag: 'Kokovertailutehtäviä tulostettavia | Opas myyjille',
+    metaDescription: 'Näin teet kokovertailutehtäviä tulostettavaksi temaattisilla kuvilla. Ympyröi iso, järjestä koon mukaan, vastausavaimet ja PDF myyntiin Etsyssä ja KDP:ssä.',
   },
 
   hero: {

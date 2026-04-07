@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'matematiikka-aktiviteettikirjat KDP',
+    primaryKeyword: 'luo matematiikka-aktiviteettikirjoja KDP:lle',
     secondaryKeywords: [
-      'miten luoda matematiikka-aktiviteettikirjoja Amazon KDP:lle',
-      'KDP matematiikkatyökirja julkaisuopas',
-      'julkaise matematiikka-aktiviteettikirjoja Amazonissa',
-      'Amazon KDP matematiikkatyöarkki kirja',
+      'KDP-matematiikkatyökirja julkaisuopas',
+      'julkaise matikka-aktiviteettikirjoja Amazonissa',
+      'Amazon KDP matikkatehtäväkirja myyntiin',
+      'matikkakirjojen muotoilu ja julkaisu KDP:ssä',
     ],
     lsiKeywords: [
-      'KDP manuskriptin muotoilu trimkoko aktiviteettikirjan sisäsivut',
-      'Amazon kirjan kansi suunnittelu selän leveys laskuri pohja',
-      'KDP hakusanaoptimointi selauskategoriat matematiikkakirjat',
-      'print-on-demand rojalti hinnoittelustrategia aktiviteettikirjat',
-      'matematiikkatyökirja sivumäärä vaikeustasoeteneminen vastaukset',
-      'KDP julkaiseminen tarkistusprosessi oikolukukappale tekijäkappaleet',
+      'manuskriptin muotoilu trimikoko sisäsivut',
+      'kansisuunnittelu selkäleveys KDP-pohja',
+      'hakusanaoptimointi selauskategoriat matematiikka',
+      'print-on-demand rojalti hinnoittelu',
+      'sivumäärä vaikeustaso vastaukset',
+      'KDP julkaisuprosessi oikolukukappale',
     ],
-    titleTag: 'Luo matematiikka-aktiviteettikirjoja KDP — Opas',
-    metaDescription: 'Opi luomaan matematiikka-aktiviteettikirjoja KDP:lle. Manuskriptin muotoilu, kansisuunnittelu, Amazonin hakusanaoptimointi ja rojaltien hinnoittelustrategia.',
+    titleTag: 'Matikka-aktiviteettikirjoja KDP:lle | Julkaisuopas',
+    metaDescription: 'Näin luot matematiikka-aktiviteettikirjoja KDP:lle. Manuskriptin muotoilu, kansisuunnittelu, hakusanaoptimointi ja rojaltien hinnoittelustrategia.',
   },
 
   hero: {

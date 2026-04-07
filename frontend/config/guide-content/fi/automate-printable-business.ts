@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'automatisoi tulostettava liiketoiminta',
+    primaryKeyword: 'automatisoi tulostettavien liiketoiminta',
     secondaryKeywords: [
-      'tulostettavien tuotteiden automaatio',
-      'automatisoi työarkkien tuotanto',
-      'digitaalisten tuotteiden työnkulun automaatio',
-      'tulostettavien myyjän tehokkuus',
+      'tulostettavien tuotannon automaatio opas',
+      'erätuotanto työarkeille vaihe vaiheelta',
+      'digitaalisten tulostettavien työnkulun tehostaminen',
+      'tulostettavien myyjän tehokkuusopas',
     ],
     lsiKeywords: [
-      'erätuotanto työnkulun optimointi mallijärjestelmä tuotteen luomisnopeus',
-      'listauksen automaatio massankäsittely ajanhallinta tuotantoputki',
-      'järjestelmällinen luominen toistettavat prosessit työkalun tehokkuus sisällön eräkäsittely',
-      'listausmallit kuvausmallit tiedostojen järjestely tuotannon suunnittelu',
-      'virtaviivaistettu työnkulku prosessien standardointi operatiivinen tehokkuus tehtävien eräkäsittely',
-      'tuotantojärjestelmä skaalautuvat prosessit katalogin hallinta työnkulun suunnittelu',
+      'erätuotanto mallijärjestelmä luomisnopeus',
+      'listausautomaatio massankäsittely tuotantoputki',
+      'kaupallinen lisenssi PDF-vienti',
+      'Etsy KDP Gumroad tehokkuus',
+      '33 generaattoria järjestelmällinen tuotanto',
+      'skaalautuva prosessi toistettava työnkulku',
     ],
-    titleTag: 'Automatisoi tulostettava liiketoiminta — Opas —...',
-    metaDescription: 'Näin automatisoit tulostettavan liiketoimintasi erätuotannolla, mallijärjestelmillä ja järjestelmällisillä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Automatisoi tulostettavien liiketoiminta | Opas',
+    metaDescription: 'Näin automatisoit tulostettavien liiketoimintasi. Erätuotanto, mallijärjestelmät, listausautomaatio ja järjestelmällinen työnkulku Etsyyn ja KDP:hen.',
   },
 
   hero: {

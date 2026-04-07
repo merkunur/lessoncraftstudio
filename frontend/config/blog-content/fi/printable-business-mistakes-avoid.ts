@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulosteliiketoiminnan virheet valta namat yleisinta virhetta',
+    primaryKeyword: 'tulosteliiketoiminnan virheet vältä',
     secondaryKeywords: [
-      'suomalaisen myyjann erityisasema',
-      'kaytannoen toteutus vaihe vaiheelta',
-      'yleisimmat haasteet ratkaisut',
+      'yleisimmät virheet tulostemyyjillä',
+      'vältä nämä tulosteet kauppa virheet',
+      'tulostekaupan sudenkuopat',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'hinnoitteluvirheet tulosteet',
+      'SEO-virheet Etsy-kauppa',
+      'tuotevalikoiman virheet',
     ],
-    titleTag: 'Tulosteliiketoiminnan virheet: valta namat | LCS',
-    metaDescription: 'Valta 10 yleisinta virhetta tulosteliiketoiminnassa. Hinnoittelu, SEO, tuotevalikoima ja asiakaspalvelu. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Tulosteliiketoiminnan 10 virhettä | LCS',
+    metaDescription: 'Vältä 10 yleisintä virhettä tulosteliiketoiminnassa. Hinnoittelu, SEO, tuotevalikoima ja asiakaspalvelu.',
   },
   hero: {
     title: 'Tulosteliiketoiminnan 10 yleisinta virhetta',

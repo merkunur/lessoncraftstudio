@@ -2,20 +2,24 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Retkeilyaiheiset tulostettavat ideat myyntiin — Nicheopas',
-    metaDescription: 'Tutustu retkeilyaiheisiin tulostettaviin ideoihin myyntiin Etsyssä, Amazon KDP:ssä ja Gumroadilla.',
+    titleTag: 'Retkeilytulostettavat ideat | Myy Etsyssä & KDP:ssä',
+    metaDescription: 'Retkeilyaiheisia tulostettavia tehtäviä myyntiin. Kesän suosittu ulkoilmaniche Etsyssä ja KDP:ssä.',
 
-    primaryKeyword: 'retkeilyaiheiset tulostettavat ideat myyntiin',
+    primaryKeyword: 'retkeily tulostettavat ideat myyntiin',
     secondaryKeywords: [
-      'retkeilytyöarkit myyntiin',
-      'retkeilyaktiviteettiarkit myyjille',
-      'ulkoilmateemainen tulostettava liiketoiminta',
-      'myy retkeilytulostettavia Etsyssä',
+      'retkeilytehtäviä myydä Etsyssä',
+      'ulkoilma-tulostettavat niche KDP',
+      'kesäretkeily tehtävät myyntiin',
+      'luontoseikkailu tulostettavat ideat',
     ],
     lsiKeywords: [
-      'ulkoilmaseikkailujen opetukselliset työarkit',
-      'luontoteemalliset aktiviteettisivut',
-      'kesäleirin tulostettavat resurssit',
+      'Etsy',
+      'KDP',
+      'retkeily',
+      'kesä',
+      'ulkoilma',
+      'tulostettavat',
+      'niche',
     ],
   },
   hero: {

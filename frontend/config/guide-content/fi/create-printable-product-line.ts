@@ -2,23 +2,23 @@ import type { GuideContent } from '../types';
 
 const content: GuideContent = {
   seo: {
-    primaryKeyword: 'luo tulostettava tuotelinja',
+    primaryKeyword: 'näin rakennat tulostettavan tuotelinjan',
     secondaryKeywords: [
-      'rakenna tulostettava tuotelinja Etsyyn',
-      'tulostettavien tuotteiden tuotelinja KDP',
-      'johdonmukainen tuotelinja työarkeille',
-      'tulostettavien tuotteiden brändäysstrategia',
+      'tulostettavien tuotelinja Etsyyn opas',
+      'johdonmukainen brändi tulostettaville tuotteille',
+      'tulostettavien tuotteiden tuotelinja KDP:hen',
+      'visuaalinen yhtenäisyys tuotelinjan rakentamisessa',
     ],
     lsiKeywords: [
-      'tuotelinjan suunnittelu tulostettaville tuotteille',
-      'visuaalinen johdonmukaisuus tulostettavissa tuotteissa',
-      'brändätty tulostettava kokoelma myyntiin',
-      'tuotekategoriastrategia Etsylle',
-      'Amazon KDP tuotelinja aktiviteettikirjoille',
-      'kaupallinen lisenssi tuotelinja',
+      'brändäys nimeäminen visuaalinen johdonmukaisuus',
+      'tuotekategoriastrategia laajentaminen',
+      'kaupallinen lisenssi PDF-vienti',
+      'Amazon KDP tuotelinja aktiviteettikirjat',
+      '33 generaattoria 6 kategoriaa',
+      'myy Etsyssä Gumroadissa',
     ],
-    titleTag: 'Luo tulostettava tuotelinja — Opas',
-    metaDescription: 'Rakenna johdonmukainen tulostettava tuotelinja. Visuaalinen yhtenäisyys, nimeämiskäytännöt, strateginen järjestys ja laajentaminen Etsyssä, KDP:ssä ja.',
+    titleTag: 'Tulostettava tuotelinja | Vaihe vaiheelta -opas',
+    metaDescription: 'Näin rakennat johdonmukaisen tulostettavan tuotelinjan. Visuaalinen yhtenäisyys, nimeäminen, strateginen järjestys ja laajentaminen Etsyssä ja KDP:ssä.',
   },
 
   hero: {

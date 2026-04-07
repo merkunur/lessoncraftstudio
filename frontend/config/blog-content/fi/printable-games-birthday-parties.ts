@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'tulostettavat pelit syntymapaivajahliin helppo bisnes',
+    primaryKeyword: 'tulostettavat pelit syntymäpäiväjuhliin',
     secondaryKeywords: [
-      'tuotevalikoima teemat',
-      'suomalaisen myyjann kilpailuedut',
-      'hinnoittelu paketointi',
+      'juhlapelit tulostettavia myyntiin',
+      'syntymäpäiväjuhlien aktiviteetit tulosteet',
+      'lasten juhla tulostettavia pelejä',
     ],
     lsiKeywords: [
-      'tulosteet myynti',
-      'digitaaliset tuotteet',
-      'tulostettava myy',
+      'juhlajärjestelyt tulosteet',
+      'temajuhlat aktiviteetit',
+      'lastenjuhla-aktiviteetit tulostettavia',
     ],
-    titleTag: 'Tulostettavat pelit syntymapaivajahliin | LCS',
-    metaDescription: 'Myy tulostettavia peleja syntymapaivajahliin. Vanhemmat etsivat helppoja ja edullisia aktiviteetteja juhliin. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Tulostettavat pelit juhliin | LCS',
+    metaDescription: 'Myy tulostettavia pelejä syntymäpäiväjuhliin. Vanhemmat etsivät helppoja ja edullisia aktiviteetteja juhliin.',
   },
   hero: {
     title: 'Tulostettavat pelit syntymapaivajahliin: helppo bisnes',

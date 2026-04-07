@@ -2,20 +2,23 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'enemman vahemman generaattori vertailutyoarkit tyoarkkien',
+    primaryKeyword: 'suurempi pienempi yhtä suuri tehtävä tulostaa',
     secondaryKeywords: [
-      'tulostettavat vertailutyoarkit Etsyyn',
-      'enemman vahemman tyoarkki generaattori Amazon KDP',
-      'suurempi kuin pienempi kuin tyoarkit myy Gumroadissa',
-      'vertailutyoarkit kaupallinen lisenssi',
+      'vertaa lukuja tehtävä',
+      'suurempi kuin pienempi kuin',
+      'enemmän vähemmän tehtävä',
+      'vertaa määriä',
     ],
     lsiKeywords: [
-      'digitaaliset matematiikkavertailutuotteet verkkoliiketoiminta',
-      'tulostettavat lukuymmarrys tyoarkit business',
-      'kaupallinen kaytto vertailugeneraattori',
+      'vertailu',
+      'suurempi',
+      'pienempi',
+      'esiopetus',
+      'alakoulu',
+      'vastaukset',
     ],
-    titleTag: 'Enemman vai Vahemman Generaattori | Vertailutyoarkit',
-    metaDescription: 'Luo vertailutyoarkkeja myyntiin Etsyssa, KDP:ssa ja Gumroadissa. 3 vertailutilaa, 104 teemaa, vastausavain, 400+ DPI vienti. Ilmainen kokeilu. $49 kertamaksu.',
+    titleTag: 'Suurempi pienempi yhtä suuri tehtävä | Vertailugeneraattori',
+    metaDescription: 'Luo tehtäviä lukujen ja määrien vertailusta teemakuvilla. Automaattiset vastaukset, 300 DPI PDF. Kokeile ilmaiseksi.',
   },
 
   hero: {

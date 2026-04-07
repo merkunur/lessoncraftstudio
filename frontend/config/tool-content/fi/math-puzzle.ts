@@ -2,20 +2,23 @@ import type { ToolContent } from '../types';
 
 const content: ToolContent = {
   seo: {
-    primaryKeyword: 'ilmainen matikkapalapelin tekijä verkossa tee matikkapalapelejä ilmaiseksi rekisteröitymistä',
+    primaryKeyword: 'ilmainen matikkapelit verkossa tulostettava',
     secondaryKeywords: [
-      'tee matikkapalapelejä ilmaiseksi verkossa',
-      'matikkapalapeligeneraattori ilman rekisteröitymistä',
-      'ilmainen kuvapalapelitehtävägeneraattori',
+      'matikkapalapelejä ilmaiseksi verkossa',
+      'matikkapeligeneraattori ilman rekisteröitymistä',
+      'kokeile matikkapelejä ilmaiseksi',
       'tulostettavat matikkapalapelit ilmainen kokeilu',
     ],
     lsiKeywords: [
-      'ilmainen palapeliväline verkossa',
-      'pikainen matikkapalapelin tekijä',
-      'kokeile ennen ostoa palapelivälineet',
+      'ilmainen',
+      'verkossa',
+      'vesileima',
+      'kokeile',
+      'ei rekisteröitymistä',
+      'matikkapeli',
     ],
-    titleTag: 'Ilmainen Matikkapalapelin Tekijä Verkossa | LCS',
-    metaDescription: 'Tee matikkapalapelejä ilmaiseksi verkossa vesileimalla — ei rekisteröitymistä. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    titleTag: 'Ilmainen matikkapeli verkossa | Kokeile heti',
+    metaDescription: 'Tee matikkapalapelejä ilmaiseksi verkossa — ei rekisteröitymistä. Kaikki ominaisuudet käytössä, vesileima poistettavissa lisenssillä.',
   },
 
   hero: {

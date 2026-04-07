@@ -2,20 +2,23 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'kirjoitusharjoitus generaattori',
+    primaryKeyword: 'kirjoitusmotoriikka tehtäviä tulostaa',
     secondaryKeywords: [
-      'käsinkirjoitusharjoitus työarkit myy Etsyssä',
-      'kirjoitusharjoitus generaattori Amazon KDP',
-      'kirjainharjoitus työarkit kaupallinen lisenssi',
-      'tulostettavat kirjoitusharjoitukset Gumroadiin',
+      'kirjoitusharjoitukset generaattori',
+      'kirjainten muodostus tulostaa',
+      'kirjoitusmotoriikka esiopetus',
+      'jäljentäminen kirjaimet',
     ],
     lsiKeywords: [
-      'digitaaliset käsinkirjoitustuotteet verkkokauppa',
-      'tulostettavat kirjainjäljennys työarkit liiketoiminta',
-      'kirjoitusharjoitus generaattori kaupallinen käyttö',
+      'kirjaimet',
+      'jäljentää',
+      'kynäote',
+      'hienomotoriikka',
+      'esiopetus',
+      '1. luokka',
     ],
-    titleTag: 'Kirjoitusharjoitus Generaattori | LCS',
-    metaDescription: 'Luo kirjoitusharjoitustyöarkkeja myyntiin Etsyssä, KDP:ssä ja Gumroadissa. Kolme harjoitustilaa, viisi fonttityyliä, nuoliohjattu vetojärjestys. $49 kertamaksu.',
+    titleTag: 'Kirjoitusmotoriikka tehtäviä tulostaa | Generaattori',
+    metaDescription: 'Luo kirjoitusmotoriikan tehtäviä omilla sanoilla. 11 kieltä, 300 DPI PDF. Kokeile ilmaiseksi — kaupallinen lisenssi myyjille.',
   },
 
   hero: {

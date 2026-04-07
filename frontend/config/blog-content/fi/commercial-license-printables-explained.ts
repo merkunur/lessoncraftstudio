@@ -2,19 +2,19 @@ import type { BlogContent } from '../types';
 
 const content: BlogContent = {
   seo: {
-    primaryKeyword: 'kaupallinen lisenssi tulosteet selitetty',
+    primaryKeyword: 'kaupallinen lisenssi tulostettaville',
     secondaryKeywords: [
-      'kaytannoen toteutus vaihe vaiheelta',
-      'yleisimmat haasteet ratkaisut',
-      'mittaaminen optimointi',
+      'tulosteiden kaupallinen käyttöoikeus',
+      'lisenssi myyntiin tulosteet',
+      'kaupallinen lisenssi Etsy-tuotteet',
     ],
     lsiKeywords: [
-      'tulosteet liiketoiminta',
-      'digitaalinen myynti',
-      'verkkokauppa tulosteet',
+      'tekijänoikeus digitaaliset tuotteet',
+      'jälleenmyyntioikeus tulosteet',
+      'lisenssiehdot verkkokauppa',
     ],
     titleTag: 'Kaupallinen lisenssi tulosteille | LCS',
-    metaDescription: 'Mita kaupallinen lisenssi tarkoittaa tulosteille? Mita saat myoda ja milla ehdoilla. Selkea opas yrittajalle. Myy Etsyssa & KDP:ssa kaupallisella lisenssilla.',
+    metaDescription: 'Mitä kaupallinen lisenssi tarkoittaa tulostettaville tuotteille? Selkeä opas oikeuksista ja ehdoista yrittäjälle.',
   },
   hero: {
     title: 'Kaupallinen lisenssi tulosteille selitettyna',

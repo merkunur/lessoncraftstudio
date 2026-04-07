@@ -202,6 +202,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inga återbetalningar på köp av kommersiella licenser. Du kan testa varje svårighetsnivå, varje operationsläge, varje tema och varje exportformat innan du köper. Den gratis provversionen är returpolicyn — säkerställ att verktyget uppfyller dina behov innan du skaffar en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Generatorn stöder Lgr22:s centrala innehåll i matematik: taluppfattning, de fyra räknesätten (addition, subtraktion, multiplikation, division) och problemlösning. Du styr räknesätt, svårighetsgrad och talintervall, vilket gör det enkelt att skapa uppgifter som matchar specifika mål i kursplanen för varje årskurs.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Generatorn täcker alla nivåer. För förskoleklass (6 år) skapar du enkel addition och subtraktion med små tal. För lågstadiet (åk 1-3) kan du kombinera räknesätt och öka talintervallen stegvis. För mellanstadiet (åk 4-6) fungerar multiplikation, division och blandade operationer med större tal.',
+    },
   ],
 
   internalLinks: [

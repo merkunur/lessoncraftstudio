@@ -196,6 +196,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje frågetyp, varje bildläge, varje övningskonfiguration, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Storleksjämförelse-uppgifter stöder Lgr22:s centrala innehåll i matematik — jämföra, ordna och sortera efter storlek. Att identifiera "stor" och "liten" samt ordna föremål efter storlek är grundläggande begrepp i kursplanen för förskoleklass och de tidiga årskurserna. Du väljer bildteman för att koppla till aktuellt temaarbete.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Uppgifterna är särskilt relevanta för förskoleklass (6 år) och lågstadiets tidiga år (åk 1-2) där storleksbegrepp är centralt. För de yngsta fungerar enkel jämförelse med två bilder. För åk 1-2 kan du lägga till ordning av 3-5 föremål efter storlek. Äldre elever i åk 3-4 kan använda uppgifterna som snabb repetition.',
+    },
   ],
 
   internalLinks: [

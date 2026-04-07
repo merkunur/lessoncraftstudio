@@ -196,6 +196,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje mönstertyp, varje ledtrådsinställning, varje tema, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Mönster-uppgifter stöder Lgr22:s centrala innehåll i matematik — mönster, sekvenser och logiskt tänkande. Att identifiera och fortsätta mönster (AB, ABC, ABCD) är en grundläggande matematisk färdighet som uttryckligen nämns i kursplanen för de tidiga årskurserna. Generatorn skapar verktygen — du kopplar dem till din planering.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Mönsterkomplexiteten är justerbar. För förskoleklass (6 år) fungerar enkla AB-mönster med bilder. För lågstadiet (åk 1-3) kan du använda ABC- och ABCD-sekvenser. För mellanstadiet (åk 4-6) skapar du komplexa mönster med fler element och mer subtila upprepningar. Bildbaserade mönster gör uppgifterna visuellt engagerande.',
+    },
   ],
 
   internalLinks: [

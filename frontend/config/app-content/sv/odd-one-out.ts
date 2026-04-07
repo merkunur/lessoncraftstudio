@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda genereringslägena, per-övning-överskridningssystemet, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält, övningsnummer och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Vilken-hör-inte-hemma-uppgifter stöder Lgr22:s centrala innehåll genom att träna logiskt tänkande, klassificering och kategorisering. Att identifiera vilken bild som inte hör till gruppen kräver analys av gemensamma egenskaper och uteslutning — färdigheter som är grundläggande i kursplanen för matematik och NO.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Svårighetsgraden beror på bildurval och kategoriernas komplexitet. För förskoleklass (6 år) fungerar tydliga kategorier som "djur vs. fordon". För lågstadiet (åk 1-3) kan du använda mer subtila skillnader inom samma tema. För mellanstadiet (åk 4-6) skapar du utmanande uppgifter med abstrakta kategorier och flera möjliga svar.',
+    },
   ],
 
   internalLinks: [

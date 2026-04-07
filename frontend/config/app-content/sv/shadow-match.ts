@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda övningslägena, automatiskt genererade siluetter, klippriktningsval, facit, hela bildbiblioteket, bakgrunds- och ramteman, etikettväxling, namn/datum-fält, textverktyg och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Skugglek-uppgifter stöder Lgr22:s centrala innehåll genom att träna visuell diskriminering, formigenkänning och logiskt tänkande. Att matcha bilder med siluetter kräver analys av konturer och proportioner — kognitiva färdigheter som är grundläggande i kursplanen för de tidiga årskurserna.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Uppgifterna är särskilt relevanta för förskoleklass (6 år) och lågstadiet (åk 1-3) där visuell diskriminering och formigenkänning är centralt. För de yngsta fungerar enkla bilder med tydliga konturer. För åk 1-3 kan du använda mer detaljerade bilder med liknande siluetter. Även mellanstadiet kan använda skugglek som en engagerande observationsövning.',
+    },
   ],
 
   internalLinks: [

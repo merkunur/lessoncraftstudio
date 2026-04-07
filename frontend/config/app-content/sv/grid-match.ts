@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla rutnätsstorlekar, ledtrådscellkonfigurationer, det automatiskt genererade facit med numrerade överlägg, hela bildbiblioteket, bakgrunds- och ramteman, uppladdning av egna bilder, textverktyg och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Rita-på-rutnät-uppgifter stöder Lgr22:s centrala innehåll i matematik och bild — rumsuppfattning, symmetri och visuellt tänkande. Att kopiera mönster på rutnät tränar koordination, precision och förståelse för positionering i ett koordinatsystem. Dessa är grundläggande geometriska färdigheter i kursplanen.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Rutnätsstorlek och bildkomplexitet styr svårighetsgraden. För förskoleklass (6 år) fungerar enkla bilder på 4×4-rutnät. För lågstadiet (åk 1-3) kan du använda 6×6 till 8×8 med mer detaljerade mönster. För mellanstadiet (åk 4-6) skapar du symmetriuppgifter och komplexa figurer på 10×10-rutnät eller större.',
+    },
   ],
 
   internalLinks: [

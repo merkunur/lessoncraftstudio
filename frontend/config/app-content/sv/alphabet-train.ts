@@ -202,6 +202,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inga återbetalningar på köp av kommersiella licenser. Du kan testa båda skapandelägena, varje ledtrådsinställning, varje tema och varje exportformat innan du köper. Den gratis provversionen är returpolicyn — säkerställ att verktyget uppfyller dina behov innan du skaffar en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Alfabet-uppgifterna stöder Lgr22:s centrala innehåll i svenska — bokstavsigenkänning, alfabetisk ordning och koppling mellan bokstäver och ljud. Dessa är grundläggande färdigheter i kursplanen för förskoleklass och åk 1. Du väljer vilka bokstäver och ledtrådsinställningar som passar din planering.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Uppgifterna är särskilt relevanta för förskoleklass (6 år) och lågstadiets tidiga år (åk 1-2) där bokstavsigenkänning och alfabetisk ordning är centralt. För åk 1 kan du lägga till ledtrådar med temabilder som kopplar bokstäver till ord. Äldre elever i åk 2-3 kan använda uppgifterna för repetition och stavningsförberedelse.',
+    },
   ],
 
   internalLinks: [

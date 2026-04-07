@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda aktivitetslägena, noll-överlappnings placeringsalgoritmen, konfigurerbara objektantal, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn- och datumfält och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Hitta-och-markera-uppgifter stöder Lgr22:s centrala innehåll genom att träna observation, visuell uppmärksamhet och koncentration — grundläggande kognitiva färdigheter i kursplanen. Att systematiskt söka och identifiera specifika föremål bland distraktorer tränar dessutom logiskt tänkande. Du väljer bildteman för att koppla till aktuella arbetsområden.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Svårighetsgraden styrs av antalet föremål och bildernas komplexitet. För förskoleklass (6 år) fungerar enkla sökbilder med få föremål att hitta. För lågstadiet (åk 1-3) kan du öka antalet målbilder och lägga till fler distraktorer. För mellanstadiet (åk 4-6) skapar du komplexa sökuppgifter med subtila skillnader.',
+    },
   ],
 
   internalLinks: [

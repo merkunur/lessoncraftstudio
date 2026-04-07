@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje linjemall, varje bildtema, auto-fyll-funktionen, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Överskrivningsuppgifter stöder Lgr22:s centrala innehåll i svenska och motorik — skrivmotorik, finmotorik och penngrepp. Att följa streckade linjer och mönster är grundläggande förskrivningsaktiviteter som nämns i kursplanen för förskoleklass. Uppgifterna tränar hand-öga-koordination och förbereder för bokstavsformning.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Uppgifterna är mest relevanta för förskoleklass (6 år) och lågstadiets tidiga år (åk 1). Streckade linjer, vågor och cirklar tränar penngrepp och finmotorik. Svårighetsgraden varieras genom linjemönster — från enkla raka linjer för de yngsta till komplexa kurvade mönster för äldre nybörjare.',
+    },
   ],
 
   internalLinks: [

@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla tre svårighetsnivåer, temabaserat och manuellt bildval, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, textverktyg och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Sudoku stöder Lgr22:s centrala innehåll i matematik — logiskt tänkande, problemlösning och systematiskt resonemang. Att lösa sudoku kräver att man drar slutsatser och eliminerar möjligheter, färdigheter som är centrala i kursplanen. Justerbara svårighetsnivåer gör det enkelt att anpassa till varje årskurs.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Med tre svårighetsnivåer och bildalternativ täcks alla åldrar. För förskoleklass (6 år) fungerar bildsudoku med 4×4-rutnät. För lågstadiet (åk 1-3) kan du använda 6×6-rutnät med bilder eller siffror. För mellanstadiet (åk 4-6) passar traditionella 9×9-sudoku med justerbar svårighetsgrad.',
+    },
   ],
 
   internalLinks: [

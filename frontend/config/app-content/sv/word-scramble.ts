@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje innehållskälla, varje svårighetsnivå, varje tema, färgkodningsalternativ, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Blandade bokstäver stöder Lgr22:s centrala innehåll i svenska — stavning, ordförråd och bokstavsigenkänning. Att ordna bokstäver till korrekta ord tränar ortografisk medvetenhet, en viktig färdighet i kursplanen. Du väljer egna ord eller använder bildbiblioteket för att koppla uppgifterna till aktuella teman.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Svårighetsgraden beror på ordlängd och antal ord. För förskoleklass (6 år) fungerar korta ord med 3-4 bokstäver och bildstöd. För lågstadiet (åk 1-3) kan du använda stavningslistor och temavokabulär med 5-6 bokstäver. För mellanstadiet (åk 4-6) skapar du uppgifter med längre och mer komplexa ord utan bildstöd.',
+    },
   ],
 
   internalLinks: [

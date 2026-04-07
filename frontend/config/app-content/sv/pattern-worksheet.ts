@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje mönstertyp, varje frågeläge, varje övningskonfiguration, varje tema, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Logiska följder stöder Lgr22:s centrala innehåll i matematik — logiskt tänkande, problemlösning och mönsterigenkänning. Att identifiera regler i sekvenser och dra slutsatser tränar resonemang och abstrakt tänkande, kärnkompetenser i kursplanen. Du styr mönstertyp och svårighetsgrad för att matcha din planering.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Svårighetsgraden styrs av mönstertyp och antal element. För förskoleklass (6 år) fungerar enkla visuella mönster med bilder. För lågstadiet (åk 1-3) kan du använda bildsekvenser med fler element. För mellanstadiet (åk 4-6) skapar du komplexa logiska följder som kräver abstrakt resonemang och regelidentifiering.',
+    },
   ],
 
   internalLinks: [

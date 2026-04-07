@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla rutnätsstorlekar, batch-generering, ZIP-export, bild- och ordfyllningslägen, uppropslistan, hela bildbiblioteket, anpassat uppropsurval, bakgrunds- och ramteman, textverktyg och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Bingo stöder Lgr22:s centrala innehåll genom att kombinera ordförråd, bildtolkning och koncentration i ett lekfullt format. Bingospel kan kopplas till i princip alla ämnesområden — från matematik och naturvetenskap till språk och SO. Du väljer tematiskt innehåll som matchar din undervisningsplanering.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Bingo fungerar utmärkt för alla åldrar. För förskoleklass (6 år) fungerar små 3×3-brickor med bildteman. För lågstadiet (åk 1-3) kan du använda 4×4 eller 5×5 med temabilder eller ord. För mellanstadiet (åk 4-6) skapar du mer komplexa spel med fler rutor. Generatorn skapar unika brickor per set, perfekt för klassrumsaktiviteter.',
+    },
   ],
 
   internalLinks: [

@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla tre spellägen, LPF labyrintalgoritmen, fem bildroller, vägganpassning, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Labyrinter stöder Lgr22:s centrala innehåll genom att träna problemlösning, rumsuppfattning och planering. Att navigera genom en labyrint kräver visuell scanning, beslutsfattande och spatial orientering — kognitiva färdigheter som är grundläggande i kursplanen för de tidiga årskurserna.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Svårighetsgraden styrs av labyrintens komplexitet. För förskoleklass (6 år) fungerar enkla labyrinter med breda gångar. För lågstadiet (åk 1-3) kan du skapa mer komplexa banor med fler vägval. För mellanstadiet (åk 4-6) passar avancerade labyrinter med smala gångar och många återvändsgränder. Temabilder gör uppgifterna engagerande.',
+    },
   ],
 
   internalLinks: [

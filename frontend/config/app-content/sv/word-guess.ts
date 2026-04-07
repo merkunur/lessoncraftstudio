@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inga återbetalningar på köp av kommersiella licenser. Du kan testa varje innehållskälla, varje svårighetsnivå, varje tema, varje exportformat och varje sidformat innan du köper. Den gratis provversionen är returpolicyn — säkerställ att verktyget uppfyller dina behov innan du skaffar en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Gissa-ordet-uppgifter stöder Lgr22:s centrala innehåll i svenska — ordförråd, stavning och läsförståelse. Formatet tränar bokstavsigenkänning och logisk uteslutning, färdigheter som är centrala i kursplanen. Du väljer egna ord eller använder temabiblioteket för att koppla uppgifterna till pågående temaarbete.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Ordlängd och svårighetsnivå är justerbara. För förskoleklass (6 år) fungerar korta ord med 3-4 bokstäver och bildledtrådar. För lågstadiet (åk 1-3) kan du använda stavningslistor och temavokabulär. För mellanstadiet (åk 4-6) skapar du uppgifter med längre ord och fler gissningsplatser utan bildstöd.',
+    },
   ],
 
   internalLinks: [

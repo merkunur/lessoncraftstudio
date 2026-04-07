@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla fyra inmatningsmetoder, 15×15 rutnätsgeneratorn, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Korsord stöder Lgr22:s centrala innehåll i svenska — ordförråd, stavning och läsförståelse. Att tolka bildledtrådar och skriva korrekta ord tränar flera språkliga färdigheter samtidigt. Du väljer innehåll via bildbiblioteket eller egna ord, vilket gör det enkelt att koppla uppgifterna till aktuella teman i kursplanen.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Svårighetsgraden beror på vilka ord du väljer. För förskoleklass (6 år) fungerar korsord med korta ord (3-4 bokstäver) och bildledtrådar. För lågstadiet (åk 1-3) kan du använda stavningslistor och temavokabulär. För mellanstadiet (åk 4-6) skapar du mer komplexa korsord med längre ord och utan bildledtrådar.',
+    },
   ],
 
   internalLinks: [

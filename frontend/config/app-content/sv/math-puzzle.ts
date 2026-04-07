@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inga återbetalningar på köp av kommersiella licenser. Du kan testa varje operation, varje rutnätsstorlek, varje tema och varje exportformat innan du köper. Den gratis provversionen är returpolicyn — säkerställ att verktyget uppfyller dina behov innan du skaffar en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Mattepussel stöder Lgr22:s centrala innehåll genom att kombinera räkning med visuellt logiskt tänkande och problemlösning. Uppgifterna tränar taluppfattning i ett lekfullt format som uppmuntrar resonemang — en kärnkompetens i den svenska matematikläroplanen. Du styr operationer och svårighetsgrad för att matcha specifika kursplansmål.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Svårighetsgraden justeras via talintervall och räknesätt. För förskoleklass (6 år) fungerar enkla plusstycken med bilder. För lågstadiet (åk 1-3) kan du använda addition och subtraktion med tal upp till 20. För mellanstadiet (åk 4-6) passar blandade räknesätt och större talintervall — pusselformatet gör uppgifterna engagerande oavsett ålder.',
+    },
   ],
 
   internalLinks: [

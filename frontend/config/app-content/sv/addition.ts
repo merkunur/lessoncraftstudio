@@ -198,6 +198,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inga återbetalningar på köp av kommersiella licenser. Du kan testa varje läge, varje tema, varje exportformat och varje sidformat innan du köper. Den gratis provversionen är returpolicyn — säkerställ att verktyget uppfyller dina behov innan du skaffar en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Arbetsbladen är utformade som öppna övningar som du kan anpassa till Lgr22:s centrala innehåll i matematik — taluppfattning, de fyra räknesätten och problemlösning. Du väljer talintervall, övningsläge och svårighetsgrad, vilket gör det enkelt att rikta uppgifterna mot allt från förskoleklass till årskurs 6. Generatorn skapar verktygen — du kopplar dem till din planering och centralt innehåll.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Med justerbara talintervall täcker generatorn hela spannet. För förskoleklass (6 år) skapar du enkla plusuppgifter från 1+1 till 3+3 i läget Bild + Bild. För lågstadiet (åk 1-3) används Bild + Tal och Hitta Termen med tal upp till 10. För mellanstadiet (åk 4-6) kan du utmana med Blandat Läge och höga talintervall. Alla nivåer stöds i samma verktyg.',
+    },
   ],
 
   internalLinks: [

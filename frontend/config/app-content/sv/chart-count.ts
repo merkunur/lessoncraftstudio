@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa dubbelarbetsytan, bildsrutnätsgenerering, automatiskt facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält, gråskaleexport och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Räkne- och diagramuppgifter stöder Lgr22:s centrala innehåll i matematik — taluppfattning, datahantering och att tolka enkla tabeller och diagram. Att räkna föremål, sortera data och skapa streckdiagram är uttryckligen nämnt i kursplanen för de tidiga årskurserna. Generatorn skapar verktygen — du kopplar dem till din planering.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Uppgifterna är särskilt relevanta för förskoleklass (6 år) och lågstadiet (åk 1-3) där räkning, sortering och enkla diagram är centralt i kursplanen. För mellanstadiet (åk 4-6) kan du öka antalet kategorier och föremål för mer avancerad datatolkning. Anpassa svårighetsgraden genom att välja antal bilder och kategorier per uppgift.',
+    },
   ],
 
   internalLinks: [

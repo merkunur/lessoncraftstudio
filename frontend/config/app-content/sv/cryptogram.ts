@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa Auto-Tilldela, Manuell Tilldelning, Bokstäver att Avslöja, varje tema, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Kryptogram stöder Lgr22:s centrala innehåll i svenska — bokstavsigenkänning, ordförråd och läsförståelse — samt logiskt tänkande och problemlösning. Att dechiffrera meddelanden genom substitution tränar systematiskt resonemang. Du väljer egna meddelanden för att koppla uppgifterna till aktuella teman i undervisningen.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Svårighetsgraden styrs av meddelandets längd och komplexitet. För lågstadiet (åk 1-3) fungerar korta meddelanden med 3-4 bokstäver att avslöja. För mellanstadiet (åk 4-6) skapar du längre meningar med fler kodade bokstäver. Förskoleklass (6 år) kan använda enkla ord med bildstöd som introduktion till mönsterigenkänning.',
+    },
   ],
 
   internalLinks: [

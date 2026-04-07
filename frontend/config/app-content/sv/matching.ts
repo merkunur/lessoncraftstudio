@@ -202,6 +202,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla fyra matchningslägen, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält, artikelnummer, punktmarkeringar och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Para-ihop-uppgifter stöder Lgr22:s centrala innehåll genom att träna visuell diskriminering, logiskt tänkande och kategorisering. Att matcha bilder, former eller begrepp är grundläggande kognitiva färdigheter som nämns i kursplanen för förskoleklass och de tidiga årskurserna. Du väljer bildteman för att koppla uppgifterna till pågående arbete.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Uppgifterna är särskilt relevanta för förskoleklass (6 år) och lågstadiet (åk 1-3). För de yngsta fungerar enkel bildmatchning med få par. För åk 1-3 kan du öka antalet par och använda mer komplexa bilder. Även mellanstadiet (åk 4-6) kan använda matchningsuppgifter för tematiska repetitioner och ordförrådstema.',
+    },
   ],
 
   internalLinks: [

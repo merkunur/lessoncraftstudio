@@ -202,6 +202,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inga återbetalningar på köp av kommersiella licenser. Du kan testa båda övningslägena, varje preposition, varje tema, varje form och varje exportformat innan du köper. Den gratis provversionen är returpolicyn — säkerställ att verktyget uppfyller dina behov innan du skaffar en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Prepositions-uppgifter stöder Lgr22:s centrala innehåll i svenska — lägesord, rumsuppfattning och språklig medvetenhet. Att använda prepositioner som "ovanför", "under", "bredvid" och "bakom" korrekt är en grundläggande språkfärdighet i kursplanen. Uppgifterna tränar dessutom spatial förståelse som är relevant för matematik.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Uppgifterna är särskilt relevanta för förskoleklass (6 år) och lågstadiet (åk 1-3) där rumsuppfattning och lägesord är centralt i kursplanen. För de yngsta fungerar enkla bilder med tydliga positionsrelationer. För åk 1-3 kan du använda fler prepositioner och mer komplexa scenarier. Även SFI-elever har nytta av övningarna.',
+    },
   ],
 
   internalLinks: [

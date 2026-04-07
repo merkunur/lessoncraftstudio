@@ -205,6 +205,16 @@ const content: AppContent = {
       answer:
         'Prova innan du köper med vår gratis provversion — alla funktioner är tillgängliga för att fullt ut utvärdera verktyget innan du skaffar en licens. Eftersom den gratis provversionen ger dig fullständig tillgång erbjuder vi inga återbetalningar på licensköp. Säkerställ att verktyget passar dina behov genom att använda den gratis provversionen innan du köper.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Kodaddition kombinerar matematik med logiskt tänkande och stöder Lgr22:s centrala innehåll — taluppfattning, de fyra räknesätten och problemlösning. Att knäcka dolda meddelanden genom att lösa räknestycken tränar dessutom systematiskt tänkande, en kärnkompetens i läroplanen. Generatorn skapar verktygen — du kopplar dem till din planering.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Talintervallen är justerbara. För förskoleklass (6 år) fungerar enkla plusstycken med korta meddelanden. För lågstadiet (åk 1-3) kan du öka talintervallen och använda längre hemliga meddelanden. För mellanstadiet (åk 4-6) passar utmanande stycken med större tal — kodknäckningsformatet håller motivationen uppe oavsett nivå.',
+    },
   ],
 
   internalLinks: [

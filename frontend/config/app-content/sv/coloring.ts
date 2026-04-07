@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa den fria arbetsytan, varje ritverktyg, hela bildbiblioteket, produktlinjeshjälparna, ramteman, gråskaleexport och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Målarbilder stöder Lgr22:s centrala innehåll i bild — kreativt skapande, färg och form. Att färglägga bilder tränar finmotorik, penngrepp och kreativt uttryck, färdigheter som är centrala i kursplanen för de tidiga årskurserna. Du väljer bland 3 000+ temabilder för att koppla aktiviteterna till pågående temaarbete.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Målarbilder fungerar för alla åldrar. För förskoleklass (6 år) väljer du enkla bilder med stora ytor. För lågstadiet (åk 1-3) kan du använda mer detaljerade bilder med fler delar att färglägga. För mellanstadiet (åk 4-6) passar komplexa mönster och detaljrika illustrationer. Bilderna kan användas som lugnande pauser eller kreativa stunder.',
+    },
   ],
 
   internalLinks: [

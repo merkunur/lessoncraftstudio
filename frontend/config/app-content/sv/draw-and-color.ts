@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje rutnätsstorlek, varje ledtrådsprocent, varje symmetriläge, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Rita-och-färglägga-uppgifter stöder Lgr22:s centrala innehåll i bild — kreativt skapande, bildkomposition och finmotorik. Att rita efter mönster och färglägga med precision tränar hand-öga-koordination och konstnärligt uttryck. Du väljer teman och rutnätsstorlek för att koppla uppgifterna till aktuella arbetsområden.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Svårighetsgraden styrs av rutnätsstorlek och bildkomplexitet. För förskoleklass (6 år) fungerar enkla bilder på små rutnät. För lågstadiet (åk 1-3) kan du använda mer detaljerade mönster. För mellanstadiet (åk 4-6) skapar du symmetriuppgifter och pixel-art-utmaningar som kräver precision och tålamod.',
+    },
   ],
 
   internalLinks: [

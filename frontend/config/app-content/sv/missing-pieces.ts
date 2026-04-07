@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla 6 bitformer, konfigurerbara svårighetsinställningar, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Uppgifter med saknade bitar stöder Lgr22:s centrala innehåll genom att träna visuell logik, rumsuppfattning och problemlösning. Att identifiera vilken pusselbit som passar kräver analys av form, färg och mönster — kognitiva färdigheter som är centrala i kursplanen. Du väljer bildteman och svårighetsnivå för att matcha din planering.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Svårighetsgraden styrs av antalet alternativ och bitarnas komplexitet. För förskoleklass (6 år) fungerar enkla bilder med 3-4 alternativ. För lågstadiet (åk 1-3) kan du öka antalet alternativ och använda mer detaljerade bilder. För mellanstadiet (åk 4-6) skapar du utmanande uppgifter med subtila skillnader mellan bitarna.',
+    },
   ],
 
   internalLinks: [

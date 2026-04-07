@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda riktningstyper, 5×5 koordinatrutnätet, 6-bilds pusselgenerering, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Skattjakt stöder Lgr22:s centrala innehåll genom att kombinera läsförståelse, problemlösning och orientering. Att följa ledtrådar och navigera mellan stationer tränar logiskt tänkande och samarbete. Formatet är perfekt för tipspromenader — en unikt svensk tradition vid skolavslutningar och föreningsfester. Du väljer teman och frågor.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Skattjaktsformatet fungerar för alla åldrar. För förskoleklass (6 år) skapar du enkla bildbaserade ledtrådar. För lågstadiet (åk 1-3) kan du använda textbaserade frågor och enkel orientering. För mellanstadiet (åk 4-6) passar mer komplexa ledtrådar med koordinater och logiska gåtor. Tipspromenadsformatet är populärt från förskola till vuxna.',
+    },
   ],
 
   internalLinks: [

@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa temabaserat och manuellt kategorival, konfigurerbara bildantal, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Sorterings-uppgifter stöder Lgr22:s centrala innehåll genom att träna klassificering, kategorisering och logiskt tänkande. Att sortera bilder i grupper efter gemensamma egenskaper är en grundläggande färdighet i kursplanen för matematik och NO. Du väljer bildteman och kategorier för att koppla till aktuella arbetsområden.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Svårighetsgraden styrs av antalet kategorier och bildernas likhet. För förskoleklass (6 år) fungerar enkel sortering i 2 grupper med tydliga skillnader. För lågstadiet (åk 1-3) kan du använda 3-4 kategorier med mer subtila egenskaper. För mellanstadiet (åk 4-6) skapar du komplexa klassificeringsuppgifter med överlappande kategorier.',
+    },
   ],
 
   internalLinks: [

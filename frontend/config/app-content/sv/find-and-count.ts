@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda aktivitetslägena, alla fyra uppgiftstyper, Bokstavsletning-läget, konfigurerbara rutnätsdimensioner, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Hitta-och-räkna-uppgifter stöder Lgr22:s centrala innehåll i matematik — taluppfattning, räkning och att jämföra antal. Att systematiskt söka och räkna föremål i en bild tränar dessutom observation och koncentration. Uppgifterna är direkt kopplade till kursplanens mål om att kunna bestämma antal föremål genom räkning.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Uppgifterna är särskilt relevanta för förskoleklass (6 år) och lågstadiet (åk 1-3). För de yngsta fungerar räkning av 3-5 olika föremålstyper. För åk 1-3 kan du öka antalet kategorier och föremål. Mellanstadiet (åk 4-6) kan använda uppgifterna för snabb datainsamling och diagramövningar.',
+    },
   ],
 
   internalLinks: [

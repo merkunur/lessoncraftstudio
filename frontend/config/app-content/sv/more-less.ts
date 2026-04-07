@@ -201,6 +201,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inga återbetalningar på köp av kommersiella licenser. Du kan testa varje läge, varje tema, varje exportformat och varje sidformat innan du köper. Den gratis provversionen är returpolicyn — säkerställ att verktyget uppfyller dina behov innan du skaffar en licens. Vi rekommenderar att du under din gratis provperiod skapar flera kompletta arbetsblad, granskar utskriftskvaliteten och layoutalternativen, och bekräftar att resultatet uppfyller dina marknadsplatslistningsstandarder innan du köper den kommersiella licensen.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Uppgifterna stöder Lgr22:s centrala innehåll i matematik — taluppfattning, jämföra tal och mängder samt symbolerna för större än, mindre än och lika med. Att jämföra och ordna tal är grundläggande färdigheter som uttryckligen nämns i kursplanen för de tidiga årskurserna. Du väljer talintervall för att matcha specifika kursplansmål.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. För förskoleklass (6 år) fungerar visuell jämförelse med bilder och mängder upp till 5. För lågstadiet (åk 1-3) kan du använda symbolerna >, < och = med tal upp till 20 eller 100. För mellanstadiet (åk 4-6) passar jämförelse av större tal och blandade uppgifter. Svårighetsgraden styrs helt av dina inställningar.',
+    },
   ],
 
   internalLinks: [

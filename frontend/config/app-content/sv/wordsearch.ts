@@ -204,6 +204,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje innehållskälla, varje rutnätsstorlek, varje riktningsinställning, varje visningsläge, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Ordsök stöder Lgr22:s centrala innehåll i svenska — ordförråd, stavning och bokstavsigenkänning. Att söka efter dolda ord i ett rutnät tränar visuell avkodning och ordbildsigenkänning, färdigheter som är centrala i kursplanen för de tidiga årskurserna. Du väljer egna ord och teman för att koppla uppgifterna till din planering.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Justerbara rutnätsstorlekar gör verktyget flexibelt. För förskoleklass (6 år) fungerar 5×5-rutnät med korta, enkla ord och bilder. För lågstadiet (åk 1-3) använder du 10×10-rutnät med stavningslistor. För mellanstadiet (åk 4-6) skapar du utmanande 20×20-pussel med diagonala och bakåtriktade ord. Svenska ÅÄÖ inkluderas naturligt.',
+    },
   ],
 
   internalLinks: [

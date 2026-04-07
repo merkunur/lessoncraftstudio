@@ -202,6 +202,16 @@ const content: AppContent = {
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje övningsläge, varje typsnittsstil, förskrivningsstreck, varje innehållskälla, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',
     },
+    {
+      question: 'Följer arbetsbladen Lgr22 (läroplanen)?',
+      answer:
+        'Skrivövningarna stöder Lgr22:s centrala innehåll i svenska — skrivmotorik, bokstavsformning och handstil. Att öva bokstäver och ord med streckade linjer tränar finmotorik och bokstavsigenkänning, grundläggande färdigheter i förskoleklass och åk 1. Du väljer egna ord och bokstäver för att koppla övningarna till din undervisningsplanering.',
+    },
+    {
+      question: 'Passar uppgifterna för förskoleklass, lågstadiet och mellanstadiet?',
+      answer:
+        'Ja. Skrivövningarna är mest relevanta för förskoleklass (6 år) och lågstadiet (åk 1-3) där skrivmotorik och bokstavsformning är centralt. För förskoleklass fokuserar du på enskilda bokstäver och enkel överskrivning. För åk 1-2 kan du lägga till hela ord och meningar. Verktyget stöder 11 språk, inklusive svenska ÅÄÖ.',
+    },
   ],
 
   internalLinks: [

@@ -100,6 +100,30 @@ const guideSubcategories = [
       'sell-printables-creative-market', 'how-to-price-printables-etsy', 'etsy-seo-printable-sellers',
     ]),
   },
+  {
+    id: 'kdp-creation',
+    labelKey: 'kdpCreationGuides',
+    guideIds: new Set([
+      'create-word-search-book-kdp', 'create-sudoku-book-kdp', 'create-crossword-book-kdp',
+      'create-math-workbook-kdp', 'create-coloring-book-kdp', 'create-activity-book-kdp',
+      'create-puzzle-book-kdp', 'create-preschool-workbook-kdp', 'create-kindergarten-workbook-kdp',
+      'create-handwriting-book-kdp', 'create-tracing-book-kdp', 'create-brain-games-book-kdp',
+      'create-word-puzzle-book-kdp', 'create-large-print-puzzle-book-kdp', 'create-kids-activity-book-kdp',
+      'kdp-puzzle-book-formatting', 'kdp-interior-template-worksheets', 'kdp-low-content-book-ideas',
+      'kdp-medium-content-book-ideas', 'how-to-publish-worksheet-book-kdp',
+    ]),
+  },
+  {
+    id: 'language-market',
+    labelKey: 'languageMarketGuides',
+    guideIds: new Set([
+      'german-printables-etsy', 'french-printables-etsy', 'spanish-printables-etsy',
+      'portuguese-printables-etsy', 'italian-printables-etsy', 'dutch-printables-etsy',
+      'swedish-printables-etsy', 'danish-printables-etsy', 'norwegian-printables-etsy',
+      'finnish-printables-etsy', 'non-english-etsy-strategy', 'sell-bilingual-worksheets-etsy',
+      'international-printable-markets', 'localize-printables-more-sales',
+    ]),
+  },
 ];
 
 const guidesContent: Record<string, {
@@ -114,8 +138,8 @@ const guidesContent: Record<string, {
 }> = {
   en: {
     heroTitle: 'How-To Guides for Printable Sellers',
-    heroDescription: '115 step-by-step guides for creating, listing, and selling printable products on Etsy, Amazon KDP, TPT, and more.',
-    metaTitle: '115 Guides: How to Create & Sell Printables on Etsy & KDP',
+    heroDescription: '149 step-by-step guides for creating, listing, and selling printable products on Etsy, Amazon KDP, TPT, and more.',
+    metaTitle: '149 Guides: How to Create & Sell Printables on Etsy & KDP',
     metaDescription: 'Step-by-step guides covering Etsy SEO, KDP formatting, pricing strategies, niche selection, and more. Everything you need to build a printable business.',
     ctaTitle: 'Start Creating Today',
     ctaDescription: 'Try all 33 printable generators free with watermark. No signup required.',
@@ -126,6 +150,8 @@ const guidesContent: Record<string, {
       business: 'Growing and scaling your printable business',
       'generator-platform': 'How to use specific generators for Etsy, KDP, and TPT',
       'how-to-sell': 'How to sell specific printable products on each platform',
+      'kdp-creation': 'How to create and publish books on Amazon KDP',
+      'language-market': 'Selling printables in specific languages and markets',
     },
   },
   de: {
@@ -142,6 +168,8 @@ const guidesContent: Record<string, {
       business: 'Wachstum und Skalierung Ihres Druckvorlagen-Geschäfts',
       'generator-platform': 'So nutzen Sie bestimmte Generatoren für Etsy, KDP und TPT',
       'how-to-sell': 'So verkaufen Sie bestimmte Druckvorlagen auf jeder Plattform',
+      'kdp-creation': 'So erstellen und veröffentlichen Sie Bücher auf Amazon KDP',
+      'language-market': 'Druckvorlagen in bestimmten Sprachen und Märkten verkaufen',
     },
   },
   fr: {
@@ -158,6 +186,8 @@ const guidesContent: Record<string, {
       business: 'Développer et faire grandir votre entreprise d\'imprimables',
       'generator-platform': 'Comment utiliser des générateurs spécifiques pour Etsy, KDP et TPT',
       'how-to-sell': 'Comment vendre des imprimables specifiques sur chaque plateforme',
+      'kdp-creation': 'Comment créer et publier des livres sur Amazon KDP',
+      'language-market': 'Vendre des imprimables dans des langues et marchés spécifiques',
     },
   },
   es: {
@@ -174,6 +204,8 @@ const guidesContent: Record<string, {
       business: 'Crecimiento y escalado de su negocio de imprimibles',
       'generator-platform': 'Cómo usar generadores específicos para Etsy, KDP y TPT',
       'how-to-sell': 'vender imprimibles especificos en cada plataforma',
+      'kdp-creation': 'Cómo crear y publicar libros en Amazon KDP',
+      'language-market': 'Vender imprimibles en idiomas y mercados específicos',
     },
   },
   pt: {
@@ -190,6 +222,8 @@ const guidesContent: Record<string, {
       business: 'Crescimento e expansão do seu negócio de imprimíveis',
       'generator-platform': 'Como usar geradores específicos para Etsy, KDP e TPT',
       'how-to-sell': 'vender imprimiveis especificos em cada plataforma',
+      'kdp-creation': 'Como criar e publicar livros na Amazon KDP',
+      'language-market': 'Vender imprimíveis em idiomas e mercados específicos',
     },
   },
   it: {
@@ -206,6 +240,8 @@ const guidesContent: Record<string, {
       business: 'Crescita e scalabilità del tuo business di stampabili',
       'generator-platform': 'Come usare generatori specifici per Etsy, KDP e TPT',
       'how-to-sell': 'vendere stampabili specifici su ogni piattaforma',
+      'kdp-creation': 'Come creare e pubblicare libri su Amazon KDP',
+      'language-market': 'Vendere stampabili in lingue e mercati specifici',
     },
   },
   nl: {
@@ -222,6 +258,8 @@ const guidesContent: Record<string, {
       business: 'Groei en schaal je printable-bedrijf',
       'generator-platform': 'Hoe specifieke generatoren te gebruiken voor Etsy, KDP en TPT',
       'how-to-sell': 'Hoe specifieke printables verkopen op elk platform',
+      'kdp-creation': 'Boeken maken en publiceren op Amazon KDP',
+      'language-market': 'Printables verkopen in specifieke talen en markten',
     },
   },
   sv: {
@@ -238,6 +276,8 @@ const guidesContent: Record<string, {
       business: 'Tillväxt och skalning av ditt utskriftsföretag',
       'generator-platform': 'Hur du använder specifika generatorer för Etsy, KDP och TPT',
       'how-to-sell': 'Hur du saljer specifika printables pa varje plattform',
+      'kdp-creation': 'Hur du skapar och publicerar böcker på Amazon KDP',
+      'language-market': 'Sälja printables på specifika språk och marknader',
     },
   },
   da: {
@@ -254,6 +294,8 @@ const guidesContent: Record<string, {
       business: 'Vækst og skalering af din printable-forretning',
       'generator-platform': 'Hvordan du bruger specifikke generatorer til Etsy, KDP og TPT',
       'how-to-sell': 'Hvordan du saelger specifikke printables pa hver platform',
+      'kdp-creation': 'Hvordan du opretter og udgiver bøger på Amazon KDP',
+      'language-market': 'Sælge printables på specifikke sprog og markeder',
     },
   },
   no: {
@@ -270,6 +312,8 @@ const guidesContent: Record<string, {
       business: 'Vekst og skalering av din arbeidsark-virksomhet',
       'generator-platform': 'Hvordan bruke spesifikke generatorer for Etsy, KDP og TPT',
       'how-to-sell': 'Hvordan selge spesifikke printables pa hver plattform',
+      'kdp-creation': 'Hvordan lage og publisere bøker på Amazon KDP',
+      'language-market': 'Selge printables på spesifikke språk og markeder',
     },
   },
   fi: {
@@ -286,6 +330,8 @@ const guidesContent: Record<string, {
       business: 'Tulostettavien liiketoiminnan kasvu ja skaalaus',
       'generator-platform': 'Kuinka käyttää tiettyjä generaattoreita Etsyyn, KDP:hen ja TPT:hen',
       'how-to-sell': 'Kuinka myyda tiettyjae tulostettavia kullakin alustalla',
+      'kdp-creation': 'Kuinka luoda ja julkaista kirjoja Amazon KDP:ssä',
+      'language-market': 'Tulostettavien myynti tietyillä kielillä ja markkinoilla',
     },
   },
 };

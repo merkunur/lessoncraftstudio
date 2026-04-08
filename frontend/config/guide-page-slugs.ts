@@ -2,9 +2,10 @@
  * Guide Page Slug Configuration
  *
  * This file maps each guide to its language-specific SEO slugs for /guides/ pages.
- * Covers 115 guides across 5 subcategories:
+ * Covers 149 guides across 7 subcategories:
  * Platform Guides (20), Product Creation Guides (25), Business Strategy Guides (20),
- * Generator-for-Platform Guides (20), How-to-Sell Guides (30).
+ * Generator-for-Platform Guides (20), How-to-Sell Guides (30),
+ * KDP Creation Guides (20), Language Market Guides (14).
  *
  * Example:
  * - English: /en/guides/create-addition-worksheets
@@ -162,6 +163,44 @@ export const guidePageSlugs: GuideSlugConfig[] = [
   { guideId: 'sell-printables-creative-market', slugs: { en: 'sell-printables-creative-market' } },
   { guideId: 'how-to-price-printables-etsy', slugs: { en: 'how-to-price-printables-etsy' } },
   { guideId: 'etsy-seo-printable-sellers', slugs: { en: 'etsy-seo-printable-sellers' } },
+
+  // === KDP Creation Guides (20) — Category D ===
+  { guideId: 'create-word-search-book-kdp', slugs: { en: 'create-word-search-book-kdp' } },
+  { guideId: 'create-sudoku-book-kdp', slugs: { en: 'create-sudoku-book-kdp' } },
+  { guideId: 'create-crossword-book-kdp', slugs: { en: 'create-crossword-book-kdp' } },
+  { guideId: 'create-math-workbook-kdp', slugs: { en: 'create-math-workbook-kdp' } },
+  { guideId: 'create-coloring-book-kdp', slugs: { en: 'create-coloring-book-kdp' } },
+  { guideId: 'create-activity-book-kdp', slugs: { en: 'create-activity-book-kdp' } },
+  { guideId: 'create-puzzle-book-kdp', slugs: { en: 'create-puzzle-book-kdp' } },
+  { guideId: 'create-preschool-workbook-kdp', slugs: { en: 'create-preschool-workbook-kdp' } },
+  { guideId: 'create-kindergarten-workbook-kdp', slugs: { en: 'create-kindergarten-workbook-kdp' } },
+  { guideId: 'create-handwriting-book-kdp', slugs: { en: 'create-handwriting-book-kdp' } },
+  { guideId: 'create-tracing-book-kdp', slugs: { en: 'create-tracing-book-kdp' } },
+  { guideId: 'create-brain-games-book-kdp', slugs: { en: 'create-brain-games-book-kdp' } },
+  { guideId: 'create-word-puzzle-book-kdp', slugs: { en: 'create-word-puzzle-book-kdp' } },
+  { guideId: 'create-large-print-puzzle-book-kdp', slugs: { en: 'create-large-print-puzzle-book-kdp' } },
+  { guideId: 'create-kids-activity-book-kdp', slugs: { en: 'create-kids-activity-book-kdp' } },
+  { guideId: 'kdp-puzzle-book-formatting', slugs: { en: 'kdp-puzzle-book-formatting' } },
+  { guideId: 'kdp-interior-template-worksheets', slugs: { en: 'kdp-interior-template-worksheets' } },
+  { guideId: 'kdp-low-content-book-ideas', slugs: { en: 'kdp-low-content-book-ideas' } },
+  { guideId: 'kdp-medium-content-book-ideas', slugs: { en: 'kdp-medium-content-book-ideas' } },
+  { guideId: 'how-to-publish-worksheet-book-kdp', slugs: { en: 'how-to-publish-worksheet-book-kdp' } },
+
+  // === Language Market Guides (14) — Category E (multilingual-printable-business already exists above) ===
+  { guideId: 'german-printables-etsy', slugs: { en: 'german-printables-etsy' } },
+  { guideId: 'french-printables-etsy', slugs: { en: 'french-printables-etsy' } },
+  { guideId: 'spanish-printables-etsy', slugs: { en: 'spanish-printables-etsy' } },
+  { guideId: 'portuguese-printables-etsy', slugs: { en: 'portuguese-printables-etsy' } },
+  { guideId: 'italian-printables-etsy', slugs: { en: 'italian-printables-etsy' } },
+  { guideId: 'dutch-printables-etsy', slugs: { en: 'dutch-printables-etsy' } },
+  { guideId: 'swedish-printables-etsy', slugs: { en: 'swedish-printables-etsy' } },
+  { guideId: 'danish-printables-etsy', slugs: { en: 'danish-printables-etsy' } },
+  { guideId: 'norwegian-printables-etsy', slugs: { en: 'norwegian-printables-etsy' } },
+  { guideId: 'finnish-printables-etsy', slugs: { en: 'finnish-printables-etsy' } },
+  { guideId: 'non-english-etsy-strategy', slugs: { en: 'non-english-etsy-strategy' } },
+  { guideId: 'sell-bilingual-worksheets-etsy', slugs: { en: 'sell-bilingual-worksheets-etsy' } },
+  { guideId: 'international-printable-markets', slugs: { en: 'international-printable-markets' } },
+  { guideId: 'localize-printables-more-sales', slugs: { en: 'localize-printables-more-sales' } },
 ];
 
 /**

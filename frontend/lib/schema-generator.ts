@@ -445,7 +445,7 @@ export function generateGuidesCollectionSchema(locale: string, baseUrl: string =
     "name": names[locale] || names.en,
     "description": "Step-by-step guides for creating and selling printable worksheets on Etsy, KDP, and TPT.",
     "url": `${baseUrl}/${locale}/guides`,
-    "numberOfItems": 115,
+    "numberOfItems": 149,
     "inLanguage": getHreflangCode(locale),
     "isPartOf": { "@type": "WebSite", "name": "LessonCraftStudio", "url": baseUrl },
   };
@@ -480,9 +480,9 @@ export function generateIdeasCollectionSchema(locale: string, baseUrl: string = 
   return {
     "@context": "https://schema.org", "@type": "CollectionPage",
     "name": names[locale] || names.en,
-    "description": "45 printable business niche ideas for Etsy, Amazon KDP, and TPT sellers.",
+    "description": "60 printable business niche ideas for Etsy, Amazon KDP, and TPT sellers.",
     "url": `${baseUrl}/${locale}/ideas`,
-    "numberOfItems": 45,
+    "numberOfItems": 60,
     "inLanguage": getHreflangCode(locale),
     "isPartOf": { "@type": "WebSite", "name": "LessonCraftStudio", "url": baseUrl },
   };

@@ -2,7 +2,7 @@
  * Idea Page Slug Configuration
  *
  * This file maps each niche/theme idea page to its language-specific SEO slugs for /ideas/ pages.
- * Covers 45 idea pages across 5 subcategories:
+ * Covers 60 idea pages across 6 subcategories:
  * Animals & Nature (8), Seasons & Holidays (10), Interests & Activities (10),
  * Educational Focus (10), Business Models (7).
  *
@@ -92,6 +92,23 @@ export const ideaPageSlugs: IdeaSlugConfig[] = [
   { ideaId: 'party-supply-printable-ideas', slugs: { en: 'party-supply-printable-ideas', de: 'partyzubehoer-druckvorlagen-ideen', fr: 'fournitures-fete-idees-imprimables', es: 'articulos-fiesta-ideas-imprimibles', pt: 'artigos-festa-ideias-imprimiveis', it: 'articoli-festa-idee-stampabili', nl: 'feestartikelen-printable-ideen', sv: 'festartiklar-utskriftsbara-ideer', da: 'festartikler-printbare-ideer', no: 'festartikler-utskriftsbare-ideer' } },
   { ideaId: 'custom-worksheet-service-ideas', slugs: { en: 'custom-worksheet-service-ideas', de: 'arbeitsblatt-service-ideen', fr: 'service-fiches-personnalisees-idees', es: 'servicio-fichas-personalizadas-ideas', pt: 'servico-fichas-personalizadas-ideias', it: 'servizio-schede-personalizzate-idee', nl: 'werkblad-service-op-maat-ideen', sv: 'skraddarsydd-arbetsblad-tjanst-ideer', da: 'skraeddersyet-arbejdsark-service-ideer', no: 'skreddersydd-arbeidsark-tjeneste-ideer' } },
   { ideaId: 'bulk-licensing-printable-ideas', slugs: { en: 'bulk-licensing-printable-ideas', de: 'massenlizenz-druckvorlagen-ideen', fr: 'licences-volume-idees-imprimables', es: 'licencias-volumen-ideas-imprimibles', pt: 'licencas-volume-ideias-imprimiveis', it: 'licenze-volume-idee-stampabili', nl: 'bulklicenties-printable-ideen', sv: 'bulklicensiering-utskriftsbara-ideer', da: 'bulklicensering-printbare-ideer', no: 'bulklisensiering-utskriftsbare-ideer' } },
+
+  // === Niche Discovery Pages (15) — Category B ===
+  { ideaId: 'best-printable-niches-etsy-2026', slugs: { en: 'best-printable-niches-etsy-2026' } },
+  { ideaId: 'best-kdp-puzzle-book-niches', slugs: { en: 'best-kdp-puzzle-book-niches' } },
+  { ideaId: 'profitable-worksheet-niches-etsy', slugs: { en: 'profitable-worksheet-niches-etsy' } },
+  { ideaId: 'low-competition-printables-etsy', slugs: { en: 'low-competition-printables-etsy' } },
+  { ideaId: 'best-coloring-book-niches-kdp', slugs: { en: 'best-coloring-book-niches-kdp' } },
+  { ideaId: 'trending-printables-etsy-2026', slugs: { en: 'trending-printables-etsy-2026' } },
+  { ideaId: 'best-educational-printable-niches', slugs: { en: 'best-educational-printable-niches' } },
+  { ideaId: 'seasonal-printable-ideas-etsy', slugs: { en: 'seasonal-printable-ideas-etsy' } },
+  { ideaId: 'best-math-worksheet-niches-etsy', slugs: { en: 'best-math-worksheet-niches-etsy' } },
+  { ideaId: 'best-puzzle-niches-etsy', slugs: { en: 'best-puzzle-niches-etsy' } },
+  { ideaId: 'underserved-printable-markets', slugs: { en: 'underserved-printable-markets' } },
+  { ideaId: 'best-tpt-niches-worksheets', slugs: { en: 'best-tpt-niches-worksheets' } },
+  { ideaId: 'printable-business-ideas-2026', slugs: { en: 'printable-business-ideas-2026' } },
+  { ideaId: 'best-activity-book-niches-kdp', slugs: { en: 'best-activity-book-niches-kdp' } },
+  { ideaId: 'non-english-printable-niches', slugs: { en: 'non-english-printable-niches' } },
 ];
 
 /**

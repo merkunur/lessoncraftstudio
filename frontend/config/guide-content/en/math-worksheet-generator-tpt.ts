@@ -187,8 +187,8 @@ const content: GuideContent = {
       { src: '/samples/english/math worksheet/Math Worksheet 11.webp', alt: 'Mixed operations math worksheet with themed images ready for TPT', caption: 'A themed math worksheet with professional formatting, multiple operations, and automatic answer key -- ready for TPT listing' },
       { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet for TPT with clean layout and answer key', caption: 'Grade-specific addition worksheet with 300 DPI output quality and themed illustrations' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Math Worksheets for TPT',
+    youtubeId: '-JIawojGNr0',
+    videoTitle: 'How to Create Math Worksheets',
   },
 
   themeImages: [

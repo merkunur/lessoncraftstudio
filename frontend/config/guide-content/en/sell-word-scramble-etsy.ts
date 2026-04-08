@@ -181,8 +181,8 @@ const content: GuideContent = {
       { src: '/samples/english/word scramble/Word Scramble 11.webp', alt: 'Themed word scramble worksheet with answer key for Etsy', caption: 'A themed word scramble puzzle exported at 300 DPI for Etsy product listing' },
       { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search companion product for Etsy puzzle bundle', caption: 'Word search puzzles pair naturally with word scrambles in cross-format Etsy bundles' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Word Scramble Puzzles to Sell on Etsy',
+    youtubeId: 'Hc3g5VsSHEU',
+    videoTitle: 'How to Create Word Scramble Puzzles',
   },
 
   themeImages: [

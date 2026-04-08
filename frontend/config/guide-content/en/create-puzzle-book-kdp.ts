@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle page formatted for KDP puzzle book', caption: 'Themed word search puzzle with automatic answer key for KDP manuscripts' },
       { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Picture crossword puzzle with image clues for puzzle compilation', caption: 'Picture crossword using themed image clues -- a distinctive format for multi-puzzle books' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Multi-Puzzle Books for Amazon KDP',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

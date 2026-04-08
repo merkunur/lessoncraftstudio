@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Portuguese word search puzzle showing themed Portuguese vocabulary in grid', caption: 'A Portuguese caca-palavras generated with native vocabulary including accented characters, tildes, and cedillas' },
       { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Portuguese crossword puzzle with picture clues', caption: 'Picture crossword (palavras cruzadas) with Portuguese answer words -- image clues make creation accessible to all sellers' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Portuguese Printables for Etsy and Amazon BR',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

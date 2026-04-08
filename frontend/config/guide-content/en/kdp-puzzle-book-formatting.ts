@@ -181,8 +181,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle formatted for 8.5 x 11 KDP interior', caption: 'Word search grid with KDP-compliant margins and 300 DPI export quality' },
       { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle formatted for KDP book interior', caption: 'Crossword grid with clue section fitting within KDP safe content area' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Format Puzzle Books for Amazon KDP',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

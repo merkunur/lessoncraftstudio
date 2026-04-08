@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle with localized vocabulary', caption: 'Word search puzzles adapt vocabulary and filler letters to each target language' },
       { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle ready for non-English Etsy listing', caption: 'Crossword puzzles with image clues work across all 11 supported languages' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Non-English Printables for Etsy',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

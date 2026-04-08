@@ -188,8 +188,8 @@ const content: GuideContent = {
       { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page with themed outline for kids activity book', caption: 'Themed coloring pages form the foundation of every kids activity book -- 25 to 35 pages per book' },
       { src: '/samples/english/find and count/I Spy 10.webp', alt: 'Find-and-count I-Spy scene with themed hidden objects', caption: 'Find-and-count I-Spy scenes with themed objects and counting tasks -- the most engaging activity type for children' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Kids Activity Books for Amazon KDP',
+    youtubeId: 'ZdpCr2txHcc',
+    videoTitle: 'How to Create Coloring Pages',
   },
 
   themeImages: [

@@ -184,8 +184,8 @@ const content: GuideContent = {
       { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet with themed illustrations for educational bundle', caption: 'Image-based addition worksheets add academic value to themed bundles and appeal to homeschool buyers' },
       { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page printable for diverse activity bundle on Etsy', caption: 'Coloring pages provide visual variety in bundles and create eye-catching listing thumbnails' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Printable Worksheet Bundles for Etsy',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

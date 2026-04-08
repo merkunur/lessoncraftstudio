@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Spanish word search puzzle showing themed Spanish vocabulary in grid', caption: 'A Spanish sopa de letras generated with native vocabulary including accented characters and the n with tilde' },
       { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet with Spanish language instructions', caption: 'Math worksheet with Spanish-language instructions -- numbers are universal but proper formatting adds professional polish' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Spanish Printables for Etsy and Amazon',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

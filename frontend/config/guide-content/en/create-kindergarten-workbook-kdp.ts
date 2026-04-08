@@ -184,7 +184,7 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Age-appropriate word search puzzle for kindergarten literacy practice', caption: 'Small-grid word search with themed vocabulary building letter recognition and visual scanning skills' },
     ],
     youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Kindergarten Workbooks for Amazon KDP',
+    videoTitle: 'How to Create Addition Worksheets',
   },
 
   themeImages: [

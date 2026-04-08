@@ -181,8 +181,8 @@ const content: GuideContent = {
       { src: '/samples/english/cryptogram/cryptogram_worksheet (11).webp', alt: 'Picture cryptogram puzzle with themed symbols and decoder key', caption: 'A themed picture cryptogram exported at 300 DPI for Etsy product listing' },
       { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search companion product for Etsy puzzle variety pack', caption: 'Word search puzzles complement cryptograms in cross-format Etsy bundles' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Cryptogram Puzzles to Sell on Etsy',
+    youtubeId: '9U0BIIjCnco',
+    videoTitle: 'How to Create Cryptogram Puzzles',
   },
 
   themeImages: [

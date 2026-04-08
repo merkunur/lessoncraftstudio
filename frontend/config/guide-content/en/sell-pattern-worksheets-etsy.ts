@@ -182,8 +182,8 @@ const content: GuideContent = {
       { src: '/samples/english/pattern worksheet/pattern_worksheet (11).webp', alt: 'Pattern worksheet with animal theme showing AB pattern exercises for preschool', caption: 'AB pattern worksheet using the animals theme -- the most popular format for Etsy pattern listings' },
       { src: '/samples/english/pattern worksheet/pattern_worksheet (10).webp', alt: 'Pattern worksheet showing multiple pattern types with per-exercise configuration', caption: 'Mixed pattern practice worksheet demonstrating per-exercise configuration across different pattern types' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Pattern Worksheets to Sell on Etsy',
+    youtubeId: 'W94X5_RA3ug',
+    videoTitle: 'How to Create Pattern Worksheets',
   },
 
   themeImages: [

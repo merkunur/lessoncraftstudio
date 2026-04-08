@@ -181,8 +181,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle for KDP puzzle book interior', caption: 'Word search puzzle -- the most popular medium content book type on Amazon KDP' },
       { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet for KDP math workbook', caption: 'Addition worksheet with auto-generated answer key for math workbook production' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Medium Content Books for Amazon KDP',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

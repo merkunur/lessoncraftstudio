@@ -181,8 +181,8 @@ const content: GuideContent = {
       { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet page with graded problems ready for KDP manuscript', caption: 'An addition worksheet page with progressive difficulty exported as a print-ready PDF for KDP' },
       { src: '/samples/english/subtraction/cross out.webp', alt: 'Subtraction worksheet with answer key', caption: 'A subtraction worksheet with automatic answer key -- every problem solution verified' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create a Math Workbook for Amazon KDP',
+    youtubeId: '-JIawojGNr0',
+    videoTitle: 'How to Create Math Worksheets',
   },
 
   themeImages: [

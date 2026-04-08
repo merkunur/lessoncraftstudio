@@ -182,8 +182,8 @@ const content: GuideContent = {
       { src: '/samples/english/math worksheet/Math Worksheet 11.webp', alt: 'Addition worksheet ready for TPT listing with answer key', caption: 'A professional math worksheet exported at 300 DPI for TPT product listing' },
       { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle formatted for TPT educational marketplace', caption: 'Themed word search puzzle ready for TPT listing with automatic answer key' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Printable Worksheets for Teachers Pay Teachers',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

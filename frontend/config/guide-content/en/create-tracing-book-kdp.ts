@@ -187,8 +187,8 @@ const content: GuideContent = {
       { src: '/samples/english/drawing lines/drawing_lines_curve 2.webp', alt: 'Tracing worksheet page with dashed line paths and themed image endpoints', caption: 'A tracing page with horizontal paths between themed images -- exported at 300 DPI for KDP print quality' },
       { src: '/samples/english/big small/big-small-different images.webp', alt: 'Size comparison worksheet with themed images at different scales', caption: 'Big & Small comparison pages add variety to tracing books while using the same themed image sets' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Tracing Books for Amazon KDP',
+    youtubeId: 'P9q3ymjFnOQ',
+    videoTitle: 'How to Create Tracing Worksheets',
   },
 
   themeImages: [

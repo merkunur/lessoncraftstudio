@@ -183,7 +183,7 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle with themed vocabulary for kindergarten literacy activities', caption: 'Themed word search puzzle for kindergarten -- builds vocabulary and spelling recognition' },
     ],
     youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Kindergarten Worksheets to Sell on Etsy',
+    videoTitle: 'How to Create Addition Worksheets',
   },
 
   themeImages: [

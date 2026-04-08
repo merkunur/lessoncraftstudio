@@ -188,7 +188,7 @@ const content: GuideContent = {
       { src: '/samples/english/pattern worksheet/pattern_worksheet (10).webp', alt: 'Pattern worksheet answer key with completed patterns showing correct image placement', caption: 'Automatic answer key generated alongside each worksheet -- a critical selling point for Etsy buyers' },
     ],
     youtubeId: 'W94X5_RA3ug',
-    videoTitle: 'How to Create Pattern Recognition Worksheets for Etsy',
+    videoTitle: 'How to Create Pattern Worksheets',
   },
 
   themeImages: [

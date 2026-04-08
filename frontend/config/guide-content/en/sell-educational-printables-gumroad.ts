@@ -184,8 +184,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle for Gumroad printable store catalog', caption: 'Word search puzzles appeal to parents and puzzle enthusiasts -- a versatile Gumroad product type' },
       { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Math worksheet for educational Gumroad printable business', caption: 'Image-based math worksheets add academic credibility to your Gumroad printable catalog' },
     ],
-    youtubeId: 'ZdpCr2txHcc',
-    videoTitle: 'How to Sell Educational Printables on Gumroad',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

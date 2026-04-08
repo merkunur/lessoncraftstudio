@@ -184,8 +184,8 @@ const content: GuideContent = {
       { src: '/samples/english/find and count/I Spy 10.webp', alt: 'Find and Count worksheet for visual puzzle Etsy listings', caption: 'Find and Count worksheets add a math dimension to visual puzzles -- children count objects in themed scenes' },
       { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet as cross-sell product for I-Spy Etsy shop', caption: 'Matching worksheets use the same themed images as I-Spy products, creating natural cross-sell opportunities' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create I-Spy Hidden Object Worksheets for Etsy',
+    youtubeId: '8Y3jrVr1Phs',
+    videoTitle: 'How to Create Find Objects Worksheets',
   },
 
   themeImages: [

@@ -187,8 +187,8 @@ const content: GuideContent = {
       { src: '/samples/english/writing/writing.webp', alt: 'Letter tracing page with stroke order arrows for KDP handwriting book', caption: 'Progressive letter tracing with numbered stroke order guides and practice lines' },
       { src: '/samples/english/alphabet train/Alphabet Train 10.webp', alt: 'Alphabet train worksheet complementing handwriting practice in KDP books', caption: 'Alphabet train activities reinforce letter recognition alongside handwriting practice' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Handwriting Practice Books for Amazon KDP',
+    youtubeId: '0b4WglqyXu0',
+    videoTitle: 'How to Create Writing Worksheets',
   },
 
   themeImages: [

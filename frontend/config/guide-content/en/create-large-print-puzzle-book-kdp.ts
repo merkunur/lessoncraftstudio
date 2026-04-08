@@ -187,8 +187,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Large print word search with 12x12 grid and big font word list', caption: 'A 12x12 word search grid with 8 themed words -- large enough for comfortable solving by seniors with vision impairment' },
       { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Large format picture sudoku puzzle for senior cognitive exercise', caption: 'Picture sudoku at 6x6 grid size with familiar themed images -- ideal for large print brain exercise books' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Large Print Puzzle Books for Amazon KDP',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

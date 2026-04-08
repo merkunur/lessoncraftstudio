@@ -181,8 +181,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle page ready for KDP manuscript compilation', caption: 'A themed word search puzzle exported as a print-ready PDF for KDP book interior pages' },
       { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search answer key with highlighted word positions', caption: 'Automatic answer key showing exact word positions -- included with every generated puzzle' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create a Word Search Book for Amazon KDP',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

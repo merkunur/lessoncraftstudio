@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/matching/image and word.webp', alt: 'Matching worksheet with beginning letter match mode for preschool', caption: 'A themed matching worksheet with image-to-letter pairs ready for Etsy listing' },
       { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet answer key showing correct connections', caption: 'Automatic answer key included with every matching worksheet' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Matching Worksheets for Etsy',
+    youtubeId: 'y3ghkjt_67s',
+    videoTitle: 'How to Create Matching Worksheets',
   },
 
   themeImages: [

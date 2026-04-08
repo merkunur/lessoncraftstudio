@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/drawing lines/drawing_lines_curve 2.webp', alt: 'Line tracing activity for preschool workbook with animal theme', caption: 'Tracing activities develop fine motor control while themed images maintain engagement' },
       { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet with themed images for preschool workbook interior', caption: 'Draw-a-line matching activities build visual discrimination and categorization skills' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Preschool Workbooks for Amazon KDP',
+    youtubeId: 'P9q3ymjFnOQ',
+    videoTitle: 'How to Create Tracing Worksheets',
   },
 
   themeImages: [

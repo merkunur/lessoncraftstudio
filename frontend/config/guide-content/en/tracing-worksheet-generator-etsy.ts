@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/drawing lines/drawing_lines_curve 2.webp', alt: 'Tracing worksheet page with curved dotted lines connecting animal images', caption: 'A themed tracing worksheet with 4-5 image pairs connected by dotted guide lines -- ready for Etsy listing' },
       { src: '/samples/english/drawing lines/drawing_lines_curve 1.webp', alt: 'Pre-writing tracing activity showing multiple line types for preschool children', caption: 'Purely visual tracing activity that works worldwide -- no text, no translation needed' },
     ],
-    youtubeId: '',
-    videoTitle: 'How to Create Tracing Worksheets for Etsy',
+    youtubeId: 'P9q3ymjFnOQ',
+    videoTitle: 'How to Create Tracing Worksheets',
   },
 
   themeImages: [

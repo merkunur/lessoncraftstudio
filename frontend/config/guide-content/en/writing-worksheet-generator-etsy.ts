@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/writing/writing beginning letter.webp', alt: 'Trace mode handwriting worksheet with dotted letter outlines', caption: 'Trace mode worksheet showing fully guided letter outlines for beginner handwriting practice' },
       { src: '/samples/english/writing/writing.webp', alt: 'Fading trace handwriting worksheet with progressive difficulty', caption: 'Fading Trace mode with letters progressively fading across the practice row for intermediate learners' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Handwriting Worksheets to Sell on Etsy',
+    youtubeId: '0b4WglqyXu0',
+    videoTitle: 'How to Create Writing Worksheets',
   },
 
   themeImages: [

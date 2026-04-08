@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/prepositions/prepositions_worksheet (11).webp', alt: 'ESL preposition worksheet with in on under activities', caption: 'Spatial preposition worksheet using photographic images for clear visual communication' },
       { src: '/samples/english/prepositions/prepositions_worksheet (10).webp', alt: 'Multilingual preposition worksheet example', caption: 'The same preposition concept generated in multiple languages for international Etsy sales' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Preposition Worksheets to Sell on Etsy',
+    youtubeId: 'ifIXbViR5_o',
+    videoTitle: 'How to Create Preposition Worksheets',
   },
 
   themeImages: [

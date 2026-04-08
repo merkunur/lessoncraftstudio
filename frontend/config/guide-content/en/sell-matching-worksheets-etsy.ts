@@ -182,8 +182,8 @@ const content: GuideContent = {
       { src: '/samples/english/matching/image and word.webp', alt: 'Draw-a-line matching worksheet with animal theme for preschool Etsy listing', caption: 'Draw-a-line matching worksheet using the animals theme -- the top-selling format for toddler activities on Etsy' },
       { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Shadow matching worksheet showing colored images and black silhouettes for visual perception', caption: 'Shadow matching worksheet demonstrating the visual perception format that complements standard matching activities' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Matching Worksheets to Sell on Etsy',
+    youtubeId: 'y3ghkjt_67s',
+    videoTitle: 'How to Create Matching Worksheets',
   },
 
   themeImages: [

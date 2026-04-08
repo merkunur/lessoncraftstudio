@@ -186,8 +186,8 @@ const content: GuideContent = {
       { src: '/samples/english/find and count/I Spy 10.webp', alt: 'I-Spy counting activity with hidden objects in themed scene', caption: 'Hidden Object I-Spy mode with circle task type -- the most popular format on Etsy' },
       { src: '/samples/english/find and count/I Spy 11.webp', alt: 'Auto-annotated answer key showing target object locations', caption: 'Automatic answer key with annotated target locations -- included with every worksheet' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Find & Count I-Spy Worksheets for Etsy',
+    youtubeId: '0cOPi7eajLs',
+    videoTitle: 'How to Create Find and Count Worksheets',
   },
 
   themeImages: [

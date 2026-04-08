@@ -187,8 +187,8 @@ const content: GuideContent = {
       { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page generated for KDP activity book interior', caption: 'A themed coloring page exported at 300 DPI for KDP activity book manuscript' },
       { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle page for mixed activity book', caption: 'A themed word search puzzle with automatic answer key for activity book compilation' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Mixed Activity Books for Amazon KDP',
+    youtubeId: 'ZdpCr2txHcc',
+    videoTitle: 'How to Create Coloring Pages',
   },
 
   themeImages: [

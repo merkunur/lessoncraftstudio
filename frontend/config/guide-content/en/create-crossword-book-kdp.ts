@@ -181,8 +181,8 @@ const content: GuideContent = {
       { src: '/samples/english/crossword/crossword_worksheet (11).webp', alt: 'Picture crossword puzzle page with 15x15 grid and image clues', caption: 'A themed picture crossword puzzle with image clues exported as a print-ready PDF for KDP' },
       { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword answer key showing completed grid', caption: 'Automatic answer key with all entries filled -- generated alongside every puzzle' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create a Picture Crossword Book for Amazon KDP',
+    youtubeId: 'b3WKDrzif-w',
+    videoTitle: 'How to Create Crossword Puzzles',
   },
 
   themeImages: [

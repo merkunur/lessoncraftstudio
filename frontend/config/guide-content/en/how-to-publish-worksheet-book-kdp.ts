@@ -182,7 +182,7 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle page for KDP publication', caption: 'Word search puzzle with auto-generated answer key for KDP puzzle book' },
     ],
     youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Publish Your First Worksheet Book on Amazon KDP',
+    videoTitle: 'How to Create Addition Worksheets',
   },
 
   themeImages: [

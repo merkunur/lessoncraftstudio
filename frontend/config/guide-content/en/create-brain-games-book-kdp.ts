@@ -187,8 +187,8 @@ const content: GuideContent = {
       { src: '/samples/english/odd one out/Find the Odd One Out (11).webp', alt: 'Odd-one-out puzzle page with rows of themed images for visual discrimination', caption: 'An odd-one-out page with 5 items per row -- the core puzzle type for brain games compilations' },
       { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Shadow matching puzzle with colored images and black silhouettes', caption: 'Shadow match puzzle page with auto-generated pixel-accurate silhouettes for spatial awareness challenges' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Brain Games Puzzle Books for KDP',
+    youtubeId: '0R6WFUfY7Mk',
+    videoTitle: 'How to Create Odd One Out Puzzles',
   },
 
   themeImages: [

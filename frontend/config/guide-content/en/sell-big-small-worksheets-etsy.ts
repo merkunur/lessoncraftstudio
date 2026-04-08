@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/big small/big-small identical images.webp', alt: 'Big and small worksheet with circle the biggest question type', caption: 'Circle the biggest -- the most popular size comparison question type for pre-K worksheets' },
       { src: '/samples/english/big small/big-small-different images.webp', alt: 'Size comparison worksheet with order by size activity', caption: 'Order by size worksheets develop sequencing skills alongside visual discrimination' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Big & Small Worksheets to Sell on Etsy',
+    youtubeId: 'S2s2U6Nb7FI',
+    videoTitle: 'How to Create Big & Small Worksheets',
   },
 
   themeImages: [

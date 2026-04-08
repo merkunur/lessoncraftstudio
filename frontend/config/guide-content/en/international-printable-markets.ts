@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle for international marketplace listing', caption: 'Word search puzzles with native vocabulary for any of 11 supported languages' },
       { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page ready for international printable markets', caption: 'Coloring pages with localized labels for global marketplace distribution' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Sell Printables in International Markets',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

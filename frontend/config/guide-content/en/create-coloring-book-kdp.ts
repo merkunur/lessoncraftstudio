@@ -181,8 +181,8 @@ const content: GuideContent = {
       { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page with clean outlines ready for KDP printing', caption: 'A themed coloring page exported as a print-ready PDF -- single-sided formatting prevents bleed-through' },
       { src: '/samples/english/draw and color/grid-drawing_worksheet (10).webp', alt: 'Draw and color activity page with reference image and tracing outline', caption: 'Draw and color activity page -- reference image on one side, dotted outline for tracing on the other' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create a Coloring Book for Amazon KDP',
+    youtubeId: 'ZdpCr2txHcc',
+    videoTitle: 'How to Create Coloring Pages',
   },
 
   themeImages: [

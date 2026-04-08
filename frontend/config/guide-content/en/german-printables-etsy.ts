@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'German word search puzzle showing themed German vocabulary in grid', caption: 'A German word search puzzle generated with native vocabulary including umlauts and compound words' },
       { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'German crossword puzzle with picture clues', caption: 'Picture crossword with German answer words -- image clues bypass the need for written German' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create German Printables for Etsy and Amazon DE',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

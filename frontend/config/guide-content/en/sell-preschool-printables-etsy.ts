@@ -182,8 +182,8 @@ const content: GuideContent = {
       { src: '/samples/english/drawing lines/drawing_lines_curve 2.webp', alt: 'Pre-writing tracing worksheet with animal theme for toddler fine motor development', caption: 'Tracing worksheet for ages 2-3 -- the top-selling preschool printable format on Etsy' },
       { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet with draw-a-line pairs for preschool visual discrimination', caption: 'Draw-a-line matching activity using the animals theme -- builds visual discrimination skills for ages 2-5' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Preschool Printables to Sell on Etsy',
+    youtubeId: 'P9q3ymjFnOQ',
+    videoTitle: 'How to Create Tracing Worksheets',
   },
 
   themeImages: [

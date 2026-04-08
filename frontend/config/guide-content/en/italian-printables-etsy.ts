@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Italian word search puzzle showing themed Italian vocabulary in grid', caption: 'An Italian crucipuzzle generated with native vocabulary including properly accented characters' },
       { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Italian crossword puzzle with picture clues', caption: 'Picture crossword (cruciverba) with Italian answer words -- taps into Italy\'s 90+ year puzzle tradition' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Italian Printables for Etsy and Amazon IT',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

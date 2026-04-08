@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle ready for localization into 10 languages', caption: 'One word search concept becomes 11 products across all supported languages' },
       { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle for multi-language localization', caption: 'Crossword puzzles with image clues localize seamlessly across all 11 languages' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Localize Printables for International Sales',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

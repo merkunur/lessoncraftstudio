@@ -184,8 +184,8 @@ const content: GuideContent = {
       { src: '/samples/english/alphabet train/Alphabet Train 10.webp', alt: 'Alphabet train worksheet as companion product to handwriting Etsy listings', caption: 'Alphabet train worksheets complement handwriting products by teaching letter recognition through themed activities' },
       { src: '/samples/english/drawing lines/drawing_lines_curve 1.webp', alt: 'Pre-writing line tracing worksheet for handwriting readiness', caption: 'Line tracing worksheets build the fine motor control needed before letter writing -- ideal as Level 1 of a handwriting program' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Handwriting Practice Worksheets for Etsy',
+    youtubeId: '0b4WglqyXu0',
+    videoTitle: 'How to Create Writing Worksheets',
   },
 
   themeImages: [

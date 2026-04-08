@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page ready for KDP manuscript', caption: 'A themed coloring page exported as a print-ready 300 DPI PDF for KDP book interior' },
       { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Grayscale coloring page with shading depth', caption: 'Grayscale export mode provides shading and depth for premium adult coloring books' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Coloring Books for Amazon KDP',
+    youtubeId: 'ZdpCr2txHcc',
+    videoTitle: 'How to Create Coloring Pages',
   },
 
   themeImages: [

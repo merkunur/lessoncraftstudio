@@ -182,8 +182,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle page formatted for KDP book interior', caption: 'Word search puzzle with themed vocabulary -- one of 4 puzzle formats in a multi-type KDP compilation book' },
       { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Picture crossword puzzle with image clues for KDP puzzle book', caption: 'Picture crossword with image clues -- a distinctive format that differentiates your puzzle books from text-only competitors' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Multi-Type Puzzle Books for Amazon KDP',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

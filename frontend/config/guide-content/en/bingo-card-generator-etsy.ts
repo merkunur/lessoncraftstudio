@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/bingo/bingo_card.webp', alt: 'Picture bingo card with themed images ready for Etsy listing', caption: 'A unique picture bingo card from a 30-card set -- every card has a different image arrangement' },
       { src: '/samples/english/bingo/callout.webp', alt: 'Bingo caller sheet showing all themed images with labels', caption: 'Caller sheet included with every bingo set -- displays all images used across the cards' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Printable Bingo Cards for Etsy',
+    youtubeId: 'd6AOiDXoK1c',
+    videoTitle: 'How to Create Bingo Cards',
   },
 
   themeImages: [

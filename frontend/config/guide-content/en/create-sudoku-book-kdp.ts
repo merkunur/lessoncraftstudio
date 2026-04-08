@@ -181,8 +181,8 @@ const content: GuideContent = {
       { src: '/samples/english/sudoku/sudoku hard.webp', alt: 'Picture sudoku puzzle page with 4x4 image grid ready for KDP', caption: 'A themed picture sudoku puzzle exported as a print-ready PDF for KDP book interior' },
       { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku answer key showing completed grid', caption: 'Automatic answer key with all cells filled -- verified to have exactly one solution' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create a Picture Sudoku Book for Amazon KDP',
+    youtubeId: 'bqVioFbkYbA',
+    videoTitle: 'How to Create Sudoku Puzzles',
   },
 
   themeImages: [

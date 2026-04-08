@@ -187,8 +187,8 @@ const content: GuideContent = {
       { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Themed coloring page for KDP activity book interior', caption: 'Coloring pages provide creative variety between puzzle sections in mixed-activity books' },
       { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle formatted for activity book manuscript', caption: 'Word search puzzles with themed vocabulary and automatic answer keys' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Mixed Activity Books for Amazon KDP',
+    youtubeId: 'ZdpCr2txHcc',
+    videoTitle: 'How to Create Coloring Pages',
   },
 
   themeImages: [

@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'French word search puzzle showing themed French vocabulary with accents in grid', caption: 'A French word search puzzle (mots meles) generated with native vocabulary including properly accented characters' },
       { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'French crossword puzzle with picture clues', caption: 'Picture crossword (mots croises) with French answer words -- image clues make creation accessible to non-French speakers' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create French Printables for Etsy and Amazon FR',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

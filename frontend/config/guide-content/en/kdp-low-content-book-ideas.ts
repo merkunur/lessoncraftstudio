@@ -181,8 +181,8 @@ const content: GuideContent = {
       { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page ready for KDP coloring book interior', caption: 'Themed coloring page exported at 300 DPI for KDP book interior' },
       { src: '/samples/english/drawing lines/drawing_lines_curve 1.webp', alt: 'Drawing line worksheet for KDP tracing book', caption: 'Guided drawing worksheet suitable for KDP tracing book interior' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Low Content Books for Amazon KDP',
+    youtubeId: 'ZdpCr2txHcc',
+    videoTitle: 'How to Create Coloring Pages',
   },
 
   themeImages: [

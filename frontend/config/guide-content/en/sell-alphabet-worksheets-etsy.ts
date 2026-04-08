@@ -184,8 +184,8 @@ const content: GuideContent = {
       { src: '/samples/english/writing/writing.webp', alt: 'Letter tracing worksheet with stroke-order arrows as companion alphabet product', caption: 'Letter tracing worksheets with stroke-order arrows complement alphabet train products by teaching letter formation' },
       { src: '/samples/english/matching/image and custom word.webp', alt: 'Letter matching worksheet for alphabet recognition assessment', caption: 'Matching worksheets test letter recognition through interactive puzzles -- the third pillar of a complete alphabet product line' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Alphabet Worksheets for Etsy',
+    youtubeId: '_dDQegRq9JQ',
+    videoTitle: 'How to Create Alphabet Train Worksheets',
   },
 
   themeImages: [

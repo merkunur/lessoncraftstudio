@@ -183,8 +183,8 @@ const content: GuideContent = {
       { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle for bilingual worksheet set', caption: 'Word search puzzles in two languages create effective bilingual learning products' },
       { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet for bilingual vocabulary building', caption: 'Matching worksheets connect vocabulary across languages for ESL learners' },
     ],
-    youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'How to Create Bilingual Worksheets for Etsy',
+    youtubeId: '36keBFzJbPo',
+    videoTitle: 'How to Create Word Search Puzzles',
   },
 
   themeImages: [

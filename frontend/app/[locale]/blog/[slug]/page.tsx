@@ -125,7 +125,7 @@ export default async function BlogPostPage({
       publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl, logo: { '@type': 'ImageObject', url: `${baseUrl}/logo-lcs-optimized.png` } },
       author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl, logo: { '@type': 'ImageObject', url: `${baseUrl}/logo-lcs-optimized.png` } },
       datePublished: '2026-03-29',
-      dateModified: '2026-03-29',
+      dateModified: '2026-04-09',
       speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.speakable-headline', '.speakable-summary'] },
     };
 

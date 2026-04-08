@@ -24,64 +24,64 @@ const homepageMetadata: Record<string, { title: string; description: string; key
     ogAlt: 'LessonCraftStudio - Printable Generators for Etsy & KDP Sellers'
   },
   de: {
-    title: 'Arbeitsblatt Generator | Erstellen & Verkaufen auf Etsy & KDP',
-    description: '33 professionelle Arbeitsblatt-Generatoren mit 3.000+ Bildern und 11 Sprachen. Druckfertige PDFs in Minuten. Kostenlos testen — kommerzielle Lizenz für Etsy, KDP & Co.',
-    keywords: 'Arbeitsblatt Generator, Arbeitsblätter erstellen, Druckvorlagen erstellen zum Verkaufen, Unterrichtsmaterial Generator, Arbeitsblatt Ersteller, Suchsel Generator, Kreuzworträtsel erstellen',
-    ogAlt: 'LessonCraftStudio - Arbeitsblatt Generator für Etsy & KDP'
+    title: 'Printable-Generatoren für Etsy- & KDP-Verkäufer | LessonCraftStudio',
+    description: '33 professionelle Printable-Generatoren für Etsy-Verkäufer und KDP-Verleger. Arbeitsblätter, Rätsel, Malbücher und mehr. Kommerzielle Lizenz. Kostenlos testen mit Wasserzeichen.',
+    keywords: 'Printable Generator Etsy verkaufen, KDP Arbeitsblätter erstellen, Druckvorlagen erstellen zum Verkaufen, Suchsel Generator kommerziell, Kreuzworträtsel erstellen verkaufen, Printable Business starten',
+    ogAlt: 'LessonCraftStudio - Printable-Generatoren für Etsy- & KDP-Verkäufer'
   },
   fr: {
-    title: 'Générateur de fiches pédagogiques | Créer & vendre sur Etsy & KDP',
-    description: '33 générateurs de fiches avec 3 000+ images et 11 langues. PDF prêts à imprimer en minutes. Essai gratuit — licence commerciale pour Etsy, KDP & plus.',
-    keywords: 'générateur fiches pédagogiques, générateur mots mêlés, générateur mots croisés, fiches maths à imprimer, générateur coloriages, créer fiches à imprimer, générateur sudoku',
-    ogAlt: 'LessonCraftStudio - Générateur de fiches pédagogiques pour Etsy & KDP'
+    title: 'Générateurs de printables pour vendeurs Etsy & KDP | LessonCraftStudio',
+    description: '33 générateurs de printables pour vendeurs Etsy et éditeurs KDP. Mots mêlés, maths, coloriages et plus. Licence commerciale. Essayer gratuitement avec filigrane.',
+    keywords: 'générateur printables vendre Etsy, créer fiches à vendre, KDP cahiers activités, générateur mots mêlés commercial, business printables, licence commerciale fiches',
+    ogAlt: 'LessonCraftStudio - Générateurs de printables pour vendeurs Etsy & KDP'
   },
   es: {
-    title: 'Generador de fichas educativas | Crear y vender en Etsy y KDP',
-    description: '33 generadores de fichas con 3.000+ imágenes y 11 idiomas. PDF listos para imprimir en minutos. Prueba gratis — licencia comercial para Etsy, KDP y más.',
-    keywords: 'generador de fichas educativas, crear fichas para imprimir, generador de ejercicios, herramientas para crear fichas, generador sopa de letras, generador crucigramas, fichas de matemáticas para imprimir',
-    ogAlt: 'LessonCraftStudio - Generador de fichas educativas para Etsy y KDP'
+    title: 'Generadores de imprimibles para vendedores Etsy & KDP | LessonCraftStudio',
+    description: '33 generadores de imprimibles para vendedores Etsy y editores KDP. Sopas de letras, fichas de matemáticas, libros para colorear y más. Licencia comercial. Probar gratis con marca de agua.',
+    keywords: 'generador imprimibles vender Etsy, crear fichas para vender, KDP libros actividades, generador sopa de letras comercial, negocio imprimibles, licencia comercial fichas',
+    ogAlt: 'LessonCraftStudio - Generadores de imprimibles para vendedores Etsy & KDP'
   },
   pt: {
-    title: 'Gerador de atividades educativas | Criar e vender no Etsy e KDP',
-    description: '33 geradores de atividades com 3.000+ imagens e 11 idiomas. PDF prontos para imprimir em minutos. Teste grátis — licença comercial para Etsy, KDP e mais.',
-    keywords: 'gerador de atividades educativas, criar atividades para imprimir, gerador de exercícios, ferramenta para criar atividades, gerador caça-palavras, gerador cruzadinha, atividades de matemática para imprimir',
-    ogAlt: 'LessonCraftStudio — Gerador de atividades educativas para Etsy e KDP'
+    title: 'Geradores de printables para vendedores Etsy & KDP | LessonCraftStudio',
+    description: '33 geradores de printables para vendedores Etsy e editores KDP. Caça-palavras, fichas de matemática, livros para colorir e mais. Licença comercial. Teste grátis com marca d\'água.',
+    keywords: 'gerador printables vender Etsy, criar atividades para vender, KDP livros atividades, gerador caça-palavras comercial, negócio printables, licença comercial atividades',
+    ogAlt: 'LessonCraftStudio - Geradores de printables para vendedores Etsy & KDP'
   },
   it: {
-    title: 'Generatore di schede didattiche | Creare e vendere su Etsy e KDP',
-    description: '33 generatori di schede con 3.000+ immagini e 11 lingue. PDF pronti da stampare in pochi minuti. Prova gratis — licenza commerciale per Etsy, KDP e altro.',
-    keywords: 'generatore schede didattiche, creare schede didattiche da stampare, generatore esercizi, strumenti per creare schede, generatore materiale didattico',
-    ogAlt: 'LessonCraftStudio - Avvia un business di stampabili redditizio'
+    title: 'Generatori di stampabili per venditori Etsy & KDP | LessonCraftStudio',
+    description: '33 generatori di stampabili per venditori Etsy e editori KDP. Cruciverba, schede di matematica, libri da colorare e altro. Licenza commerciale. Prova gratis con filigrana.',
+    keywords: 'generatore stampabili vendere Etsy, creare schede da vendere, KDP libri attività, generatore cruciverba commerciale, business stampabili, licenza commerciale schede',
+    ogAlt: 'LessonCraftStudio - Generatori di stampabili per venditori Etsy & KDP'
   },
   nl: {
-    title: 'Werkbladen generator | Maken & verkopen op Etsy & KDP',
-    description: '33 professionele werkblad-generatoren met 3.000+ plaatjes en 11 talen. Printklare PDF\'s in minuten. Gratis proberen — commerciële licentie voor Etsy, KDP & meer.',
-    keywords: 'werkbladen generator, werkbladen maken printen, lesmateriaal generator, tools voor werkbladen maken',
-    ogAlt: 'LessonCraftStudio - Werkbladen generator voor Etsy & KDP'
+    title: 'Printable-generators voor Etsy- & KDP-verkopers | LessonCraftStudio',
+    description: '33 professionele printable-generators voor Etsy-verkopers en KDP-uitgevers. Woordzoekers, rekenbladen, kleurboeken en meer. Commerciële licentie. Gratis proberen met watermerk.',
+    keywords: 'printable generator Etsy verkopen, werkbladen maken verkopen, KDP activiteitenboeken, woordzoeker generator commercieel, printable business, commerciële licentie werkbladen',
+    ogAlt: 'LessonCraftStudio - Printable-generators voor Etsy- & KDP-verkopers'
   },
   sv: {
-    title: 'Arbetsblad generator | Skapa och sälj på Etsy & KDP',
-    description: '33 professionella arbetsbladsgeneratorer med 3 000+ bilder och 11 språk. Utskrivbara PDF:er på minuter. Prova gratis — kommersiell licens för Etsy, KDP & mer.',
-    keywords: 'arbetsblad generator, skapa arbetsblad skriva ut, uppgiftsgenerator, verktyg för att skapa uppgifter, ordsök generator, korsord generator, matteuppgifter generator, målarbilder skapa',
-    ogAlt: 'LessonCraftStudio — Arbetsblad generator för Etsy & KDP'
+    title: 'Printable-generatorer för Etsy- & KDP-säljare | LessonCraftStudio',
+    description: '33 professionella printable-generatorer för Etsy-säljare och KDP-förläggare. Ordsök, mattepussel, målarböcker och mer. Kommersiell licens. Prova gratis med vattenstämpel.',
+    keywords: 'printable generator Etsy sälja, skapa arbetsblad sälja, KDP aktivitetsböcker, ordsök generator kommersiell, printable business, kommersiell licens arbetsblad',
+    ogAlt: 'LessonCraftStudio - Printable-generatorer för Etsy- & KDP-säljare'
   },
   da: {
-    title: 'Arbejdsark generator | Lav og sælg på Etsy & KDP',
-    description: '33 professionelle arbejdsark-generatorer med 3.000+ billeder og 11 sprog. Printklare PDF\'er på minutter. Prøv gratis — kommerciel licens til Etsy, KDP & mere.',
-    keywords: 'arbejdsark generator, opgaver til print, ordleg generator, krydsord generator, plusstykker til print, regneopgaver generator, malebilleder generator, sudoku til print, sælge printables Etsy.dk',
-    ogAlt: 'LessonCraftStudio - Arbejdsark generator til Etsy & KDP'
+    title: 'Printable-generatorer for Etsy- & KDP-sælgere | LessonCraftStudio',
+    description: '33 professionelle printable-generatorer for Etsy-sælgere og KDP-udgivere. Ordleg, regneopgaver, malebøger og mere. Kommerciel licens. Prøv gratis med vandmærke.',
+    keywords: 'printable generator Etsy sælge, lave arbejdsark sælge, KDP aktivitetsbøger, ordleg generator kommerciel, printable business, kommerciel licens arbejdsark',
+    ogAlt: 'LessonCraftStudio - Printable-generatorer for Etsy- & KDP-sælgere'
   },
   no: {
-    title: 'Arbeidsark generator | Lag og selg på Etsy & KDP',
-    description: '33 profesjonelle arbeidsark-generatorer med 3 000+ bilder og 11 språk. Utskrivbare PDF-er på minutter. Prøv gratis — kommersiell lisens for Etsy, KDP & mer.',
-    keywords: 'arbeidsark generator, lage arbeidsark skrive ut, oppgavegenerator, verktøy for å lage oppgaver, ordleting generator, kryssord generator, matteoppgaver generator, fargeleggingsbilder lage',
-    ogAlt: 'LessonCraftStudio — Arbeidsark generator for Etsy & KDP'
+    title: 'Printable-generatorer for Etsy- & KDP-selgere | LessonCraftStudio',
+    description: '33 profesjonelle printable-generatorer for Etsy-selgere og KDP-utgivere. Ordleting, matteoppgaver, fargeleggingsbøker og mer. Kommersiell lisens. Prøv gratis med vannmerke.',
+    keywords: 'printable generator Etsy selge, lage arbeidsark selge, KDP aktivitetsbøker, ordleting generator kommersiell, printable business, kommersiell lisens arbeidsark',
+    ogAlt: 'LessonCraftStudio - Printable-generatorer for Etsy- & KDP-selgere'
   },
   fi: {
-    title: 'Tehtävämoniste-generaattori | Luo ja myy Etsyssä & KDP:ssä',
-    description: '33 ammattimaista tehtävägeneraattoria 3 000+ kuvalla ja 11 kielellä. Tulostettavat PDF:t minuuteissa. Kokeile ilmaiseksi — kaupallinen lisenssi.',
-    keywords: 'tehtävämoniste-generaattori, luo tehtäviä tulostettavaksi, tehtävägeneraattori, sanasokkelo generaattori, sanaristikko generaattori, matikkatehtävien generaattori, värityskuvia tulostaa',
-    ogAlt: 'LessonCraftStudio — Tehtävämoniste-generaattori Etsyyn & KDP:hen'
+    title: 'Tulostettavien generaattorit Etsy- & KDP-myyjille | LessonCraftStudio',
+    description: '33 ammattimaista tulostettavien generaattoria Etsy-myyjille ja KDP-julkaisijoille. Sanasokkelot, matikkatehtävät, värityskirjat ja muuta. Kaupallinen lisenssi. Kokeile ilmaiseksi vesileimalla.',
+    keywords: 'tulostettava generaattori Etsy myydä, luoda tehtäviä myyntiin, KDP aktiviteettikirjat, sanasokkelo generaattori kaupallinen, tulostettavien business, kaupallinen lisenssi tehtävät',
+    ogAlt: 'LessonCraftStudio - Tulostettavien generaattorit Etsy- & KDP-myyjille'
   }
 };
 

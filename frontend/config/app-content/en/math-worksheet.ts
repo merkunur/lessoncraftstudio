@@ -17,12 +17,12 @@ const content: AppContent = {
       'practice problems',
       'homework sheets',
     ],
-    titleTag: 'Math Worksheet Generator | Create Custom Math Practice PDFs',
-    metaDescription: 'Generate custom math worksheets with adjustable difficulty and operations. Auto answer keys, 300 DPI export. Try free — sell on Etsy, KDP, and TPT.',
+    titleTag: 'Math Worksheet Generator for Etsy & KDP Publishers',
+    metaDescription: 'Generate custom math worksheets to sell on Etsy, Amazon KDP, and TPT. Addition, subtraction, multiplication bundles. Commercial license included.',
   },
 
   hero: {
-    title: 'Math Worksheet Generator — Create Custom Math Practice PDFs',
+    title: 'Math Worksheet Generator — Build Your Printable Math Business',
     tagline: 'Transform early algebra into a visual adventure — images become variables, and every puzzle has exactly one solution.',
     description:
       'Build a catalog of math drill worksheets and sell them across Etsy, Amazon KDP, and Teachers Pay Teachers — all from one generator designed for printable sellers. Configure any combination of operations (addition, subtraction, multiplication, division), set number ranges for precise difficulty targeting, and generate clean, professional layouts that export as 300 DPI PDFs with automatic answer keys. Unlike image-based math generators, this tool produces focused number-only practice sheets that appeal to parents wanting homework supplements and homeschool families building curriculum. Every worksheet includes a commercial license, making this ideal for building KDP math workbooks or Etsy digital download bundles that target specific grade levels. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

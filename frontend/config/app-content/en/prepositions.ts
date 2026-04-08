@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'preposition worksheet maker',
+    primaryKeyword: 'prepositions worksheet generator',
     secondaryKeywords: [
       'preposition worksheet generator',
       'spatial preposition printable maker',
@@ -18,12 +18,12 @@ const content: AppContent = {
       'positional words',
       'spatial concepts',
     ],
-    titleTag: 'Preposition Worksheet Maker | Positional Words Activity Generator',
-    metaDescription: 'Create preposition worksheets teaching spatial concepts with themed images. Auto answer keys, 11 languages. Try free — sell on Etsy & KDP.',
+    titleTag: 'Prepositions Worksheet Generator for Etsy & KDP Sellers',
+    metaDescription: 'Create preposition worksheets to sell on Etsy and KDP. Language learning printables in 11 languages. Commercial license included. Try free trial.',
   },
 
   hero: {
-    title: 'Preposition Worksheet Maker — Positional Words Activity Generator',
+    title: 'Prepositions Generator — Sell Language Printables in 11 Languages',
     tagline: 'Eight spatial prepositions meet image-and-shape exercises — building spatial vocabulary one sentence at a time.',
     description:
       'Preposition worksheets target the massive ESL and language learning market on Etsy — a niche with consistent demand from teachers, tutors, and parents worldwide. This generator creates professional visual preposition activities where learners identify spatial relationships using themed images. The 11-language support produces genuinely different content per locale, so each language is a distinct sellable product for ESL markets. Choose from 3,000+ themed illustrations across 104 collections and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. ESL printables are one of the fastest-growing niches on Etsy, and preposition worksheets fill a specific gap most sellers overlook. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

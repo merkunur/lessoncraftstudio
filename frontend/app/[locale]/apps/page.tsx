@@ -14,9 +14,9 @@ import { encodeImagePath } from '@/lib/encode-image-path';
 // ============================================================
 const appsMetadata: Record<string, { title: string; description: string; keywords: string }> = {
   en: {
-    title: '33 Worksheet Generators | Math, Puzzles, Language & More',
-    description: 'Browse 33 professional worksheet generators across math, language, visual learning, creative, and logic categories. Try every generator free with watermark.',
-    keywords: 'printable worksheet makers, educational worksheet generators, worksheet creation tools, printable makers collection, word search maker, crossword puzzle maker, math worksheet generator',
+    title: '33 Printable Generators for Etsy & KDP Sellers | LessonCraftStudio',
+    description: 'Browse 33 professional generators built for printable sellers. Word search, math, coloring, sudoku and more. 300 DPI PDFs, commercial license, 11 languages.',
+    keywords: 'printable generators for sellers, Etsy printable tools, KDP worksheet generators, commercial license generators, word search maker, coloring page generator, math worksheet generator',
   },
   de: {
     title: '33 Arbeitsblatt-Generatoren | Mathe, Rätsel, Sprache & mehr',
@@ -87,8 +87,8 @@ const localeContent: Record<string, {
   categories: Record<string, { name: string; description: string }>;
 }> = {
   en: {
-    heroTitle: '33 Professional Printable Generators',
-    heroSubtitle: 'Create professional printables for your business. Word searches, math worksheets, coloring pages, puzzles & more. Try all 33 generators free with watermark.',
+    heroTitle: '33 Professional Generators for Printable Sellers',
+    heroSubtitle: 'Create professional printables to sell on Etsy, Amazon KDP, and TPT. Word searches, math worksheets, coloring pages, puzzles & more. Try all 33 generators free trial with watermark.',
     tryFree: 'Try Free',
     details: 'Details',
     trustNoAccount: 'No account required',

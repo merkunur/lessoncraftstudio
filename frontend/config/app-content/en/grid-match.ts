@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'grid matching worksheet maker',
+    primaryKeyword: 'grid match worksheet generator',
     secondaryKeywords: [
       'grid drawing worksheet generator',
       'copy the picture worksheet maker',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'symmetry',
       'pixel art',
     ],
-    titleTag: 'Grid Drawing Worksheet Maker | Copy-the-Picture Generator',
-    metaDescription: 'Create grid matching and copy-the-picture worksheets with themed images. Auto answer keys, print-ready PDFs. Try free — commercial license for sellers.',
+    titleTag: 'Grid Match Worksheet Generator for Etsy Sellers',
+    metaDescription: 'Create grid match worksheets to sell as printables. Unique product format with almost zero competition on Etsy. Commercial license. Try free trial.',
   },
 
   hero: {
-    title: 'Grid Drawing Worksheet Maker — Copy-the-Picture Generator',
+    title: 'Grid Match Generator — Zero-Competition Printable Niche for Etsy',
     tagline: 'Turn any image into a grid-based picture puzzle — divide it into tiles, reveal configurable clue cells, shuffle remaining tiles into a numbered palette, and auto-generate an answer key with numbered circle overlays across 104 themed image collections.',
     description:
       'Grid matching puzzles offer a unique visual format that stands out from standard worksheets on Etsy — solvers match numbered tiles back to their correct positions in a divided image grid, combining spatial reasoning with observation skills. This generator creates professional grid match puzzles for your printable business with configurable grids from 2x2 to 4x4, adjustable clue cells for difficulty control, and automatic answer keys with numbered overlays. Choose from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with full commercial license. The purely visual format means every puzzle works worldwide without translation. Build themed bundles for Etsy or compile visual perception workbooks for Amazon KDP. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

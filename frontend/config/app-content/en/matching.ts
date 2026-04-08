@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'matching worksheet maker',
+    primaryKeyword: 'matching worksheet generator',
     secondaryKeywords: [
       'matching worksheet generator',
       'match the picture worksheet maker',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'same and different',
       'preschool matching',
     ],
-    titleTag: 'Matching Worksheet Maker | Create Picture Matching Activities',
-    metaDescription: 'Create matching worksheets with themed images for preschool & kindergarten. Auto answer keys, 300 DPI PDFs. Try free — sell on Etsy, KDP & TPT.',
+    titleTag: 'Matching Worksheet Generator for Printable Sellers',
+    metaDescription: 'Create matching worksheets to sell on Etsy and Amazon KDP. 3,000+ themed images, auto answer keys. Commercial license. Try free trial with watermark.',
   },
 
   hero: {
-    title: 'Matching Worksheet Maker — Create Picture Matching Activities',
+    title: 'Matching Worksheet Generator — Create & Sell Printables on Etsy',
     tagline: 'Four matching modes in one generator — Beginning Letter, Image+Word, Image/Word Mixed, and Custom Word — with auto-generated answer keys, configurable pair counts, and a localized \"Match Up!\" header across 104 themed image collections.',
     description:
       'Matching worksheets are a staple of the preschool and kindergarten printable market on Etsy — and this maker lets you create professional draw-a-line matching activities for your printable business in minutes. Choose from four matching modes: Image to Beginning Letter, Image+Word pairs, mixed Image/Word rows, and custom word matching. Configure 4-6 pairs per worksheet and export 300 DPI print-ready PDFs with automatic answer keys that draw connecting lines between correct matches. The 11-language support generates localized word content, so each language is a distinct sellable product. Every worksheet comes with full commercial license for Etsy, Amazon KDP, TPT, or any marketplace — no attribution required. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'size comparison worksheet maker',
+    primaryKeyword: 'big & small worksheet generator',
     secondaryKeywords: [
       'big and small worksheet generator',
       'size sorting worksheet maker',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'measurement readiness',
       'sorting by size',
     ],
-    titleTag: 'Size Comparison Worksheet Maker | Big & Small Activities',
-    metaDescription: 'Create size comparison worksheets with themed images. Big vs. small, sorting by size, auto answer keys. Try free — commercial license for sellers.',
+    titleTag: 'Big & Small Worksheet Generator for Printable Sellers',
+    metaDescription: 'Create size comparison worksheets to sell on Etsy. Pre-K printables with consistent parent demand. Commercial license included. Try free trial.',
   },
 
   hero: {
-    title: 'Size Comparison Worksheet Maker — Big & Small Activities',
+    title: 'Big & Small Generator — Sell Pre-K Printables on Etsy',
     tagline: 'Five question types — circle the big one, circle the small one, circle the medium, number ascending, number descending — with identical and different image modes for visual size discrimination.',
     description:
       'Size comparison worksheets are an essential early learning format that sells consistently on Etsy -- parents and preschool teachers use them to build visual discrimination skills. This maker creates professional big-and-small activities with five question types: circle the big one, circle the small one, circle the medium, and number ordering in both directions. Two image modes create distinct product variants: identical images for pure size perception and different images for relative reasoning. Choose from 3,000+ themed illustrations across 104 collections and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, or any marketplace. The purely visual format works worldwide without translation. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

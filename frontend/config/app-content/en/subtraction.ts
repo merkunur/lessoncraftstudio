@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'subtraction worksheet maker',
+    primaryKeyword: 'subtraction worksheet generator',
     secondaryKeywords: [
       'subtraction worksheet generator',
       'create subtraction worksheets',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'kindergarten subtraction',
       'visual subtraction',
     ],
-    titleTag: 'Subtraction Worksheet Maker | Custom Math Practice Sheets',
-    metaDescription: 'Generate custom subtraction worksheets with themed images and auto answer keys. 300 DPI PDFs in 11 languages. Try free — commercial license included.',
+    titleTag: 'Subtraction Worksheet Generator for Etsy & KDP Sellers',
+    metaDescription: 'Create subtraction worksheets to sell on Etsy, Amazon KDP, and TPT. Professional 300 DPI PDFs with auto answer keys. Commercial license. Try free trial.',
   },
 
   hero: {
-    title: 'Subtraction Worksheet Maker — Custom Math Practice Sheets',
+    title: 'Subtraction Worksheet Generator — Create & Sell on Etsy and KDP',
     tagline: 'Make subtraction click with picture-based worksheets where solvers cross out images to find the answer.',
     description:
       'Turn subtraction into a sellable product with a generator built for printable entrepreneurs. Create image-based subtraction worksheets featuring themed illustrations — animals, vehicles, food, nature, and dozens more — that make math engaging and your listings irresistible. Each worksheet exports as a 300 DPI print-ready PDF with an automatic answer key, ready to upload as a digital download on Etsy, compile into an Amazon KDP activity book, or list on Teachers Pay Teachers. Commercial license is included with every worksheet, so you keep 100% of your revenue with zero attribution required. Sellers who bundle addition and subtraction worksheets together consistently report higher average order values — and you can create both formats in under 3 minutes each. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'shadow matching worksheet maker',
+    primaryKeyword: 'shadow match worksheet generator',
     secondaryKeywords: [
       'shadow match worksheet generator',
       'silhouette matching printable maker',
@@ -15,12 +15,12 @@ const content: AppContent = {
       'visual discrimination',
       'outline matching',
     ],
-    titleTag: 'Shadow Matching Worksheet Maker | Silhouette Puzzle Generator',
-    metaDescription: 'Create shadow matching worksheets with themed silhouette puzzles. Auto answer keys, 300 DPI PDFs. Try free — sell on Etsy, KDP & TPT.',
+    titleTag: 'Shadow Match Worksheet Generator for Printable Sellers',
+    metaDescription: 'Create shadow matching worksheets to sell on Etsy and KDP. Eye-catching visual puzzles with high engagement. Commercial license. Try free trial.',
   },
 
   hero: {
-    title: 'Shadow Matching Worksheet Maker — Silhouette Puzzle Generator',
+    title: 'Shadow Match Generator — Sell Visual Puzzle Printables on Etsy',
     tagline: 'Two matching modes in one generator — Shadow Match creates auto-generated black silhouettes from any image, Make It Whole splits images into halves — both with Fisher-Yates derangement ensuring no trivial matches, auto-generated answer keys, and 104 themed image collections.',
     description:
       'Shadow matching worksheets are a visually striking format that catches buyer attention on Etsy — solvers match colorful images to their silhouettes, building visual discrimination skills preschool parents actively search for. This maker creates professional shadow matching activities with themed illustrations and automatic answer keys in under 3 minutes. Choose from 3,000+ images across 104 collections, configure the number of matching pairs, and export 300 DPI print-ready PDFs with full commercial license. The silhouette format is purely visual and works worldwide without translation. Shadow matching is an underserved niche in the preschool printable market, giving you low competition and strong demand. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

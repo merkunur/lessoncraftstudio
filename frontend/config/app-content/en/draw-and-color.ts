@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'draw and color worksheet maker',
+    primaryKeyword: 'draw & color worksheet generator',
     secondaryKeywords: [
       'drawing activity worksheet generator',
       'guided drawing worksheet maker',
@@ -15,12 +15,12 @@ const content: AppContent = {
       'art activity',
       'creative worksheet',
     ],
-    titleTag: 'Draw & Color Worksheet Maker | Art Activity Generator',
-    metaDescription: 'Create guided drawing and coloring worksheets with themed images. Print-ready 300 DPI PDFs. Try free — commercial license for Etsy & KDP.',
+    titleTag: 'Draw & Color Worksheet Generator for Printable Sellers',
+    metaDescription: 'Create draw-and-color activity pages to sell on Etsy. Combine drawing and coloring in one product. Commercial license included. Try free trial.',
   },
 
   hero: {
-    title: 'Draw & Color Worksheet Maker — Art Activity Generator',
+    title: 'Draw & Color Generator — Sell Creative Activity Printables on Etsy',
     tagline: 'Dual grid system — practice grid and clue grid side by side — with adjustable clue percentage from 10% to 75%, horizontal and vertical symmetry modes, and 100+ black & white outline themes for drawing and coloring activities.',
     description:
       'Draw and color worksheets combine two activities kids love — drawing and coloring — into a single product format that stands out on Etsy. This maker creates professional grid-based drawing activities where learners copy images cell by cell, then color their creation. Choose from 3,000+ themed illustrations across 104 collections as drawing reference images. Every worksheet exports as a 300 DPI print-ready PDF with full commercial license for Etsy, Amazon KDP, or any marketplace. Art activity printables are a growing niche with strong demand from parents seeking screen-free creative activities. Build themed drawing bundles for Etsy or compile art workbooks for Amazon KDP. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

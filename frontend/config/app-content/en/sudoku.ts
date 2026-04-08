@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'sudoku maker',
+    primaryKeyword: 'sudoku puzzle generator',
     secondaryKeywords: [
       'sudoku generator',
       'sudoku puzzle maker',
@@ -17,12 +17,12 @@ const content: AppContent = {
       '4x4 sudoku',
       '6x6 sudoku',
     ],
-    titleTag: 'Sudoku Maker | Create Custom Printable Sudoku Puzzles',
-    metaDescription: 'Create picture and number sudoku puzzles with adjustable difficulty. Auto answer keys, printable PDFs. Try free — sell on Etsy & Amazon KDP.',
+    titleTag: 'Sudoku Puzzle Generator for Etsy & KDP Publishers',
+    metaDescription: 'Create sudoku puzzle books to sell on Amazon KDP and Etsy. Multiple difficulty levels, auto solutions. Commercial license included. Try free trial.',
   },
 
   hero: {
-    title: 'Sudoku Maker — Create Custom Printable Sudoku Puzzles',
+    title: 'Sudoku Generator — Create & Sell Puzzle Books on KDP and Etsy',
     tagline: 'Visual-only 4×4 sudoku puzzles using images instead of numbers — three difficulty levels from 4 to 8 blank cells, auto-generated answer keys with complete filled grids, and theme-based image selection across 104 collections for puzzles that sell worldwide without translation.',
     description:
       'Sudoku books are a proven top-seller on Amazon KDP -- and picture sudoku adds visual appeal that standard number versions lack. This generator creates professional 4x4 picture sudoku puzzles where solvers fill blank cells with themed images using row-and-column logic. Three difficulty levels from 4 to 8 blank cells let you build progressive puzzle books from easy to challenging. Choose from 3,000+ themed illustrations across 104 collections to match any niche. Every puzzle exports as a 300 DPI print-ready PDF with automatic answer keys and full commercial license. The purely visual format works worldwide without translation, and the 4x4 grid is perfect for younger solvers -- an audience standard 9x9 sudoku doesn\'t serve. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

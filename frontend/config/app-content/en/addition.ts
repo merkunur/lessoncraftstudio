@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'addition worksheet maker',
+    primaryKeyword: 'addition worksheet generator',
     secondaryKeywords: [
       'addition worksheet generator',
       'create addition worksheets',
@@ -18,12 +18,12 @@ const content: AppContent = {
       'number bonds',
       'answer key',
     ],
-    titleTag: 'Addition Worksheet Maker | Create & Print Custom Math Sheets',
-    metaDescription: 'Create custom addition worksheets with visual counting images in seconds. Auto answer keys, 300 DPI PDF export, 11 languages. Try free — sell on Etsy & KDP.',
+    titleTag: 'Addition Worksheet Generator for Etsy & KDP Sellers',
+    metaDescription: 'Create professional addition worksheets to sell on Etsy and Amazon KDP. 300 DPI print-ready PDFs with answer keys. Commercial license included. Try free trial.',
   },
 
   hero: {
-    title: 'Addition Worksheet Maker — Create & Print Custom Math Sheets',
+    title: 'Addition Worksheet Generator — Create & Sell on Etsy and KDP',
     tagline: 'Turn addition into a hands-on adventure with picture-based math worksheets.',
     description:
       'Create addition worksheets to sell on Etsy, Amazon KDP, or Teachers Pay Teachers — and generate them in under 3 minutes. This generator builds visual addition problems using themed images that kids love and parents buy. Choose from 3,000+ illustrations organized by theme, set your difficulty level, and export print-ready 300 DPI PDFs with answer keys automatically included. Every worksheet you create comes with a full commercial license — no attribution required, no royalty fees, no restrictions on where you sell. Whether you\'re launching your first Etsy printable shop or expanding an existing KDP activity book catalog, this tool replaces hours of manual design work with professional output that stands out in crowded marketplaces. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

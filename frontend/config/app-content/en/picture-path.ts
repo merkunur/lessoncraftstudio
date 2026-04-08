@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'maze worksheet maker',
+    primaryKeyword: 'picture path worksheet generator',
     secondaryKeywords: [
       'picture path worksheet generator',
       'maze generator for kids',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'fine motor',
       'problem solving',
     ],
-    titleTag: 'Maze Worksheet Maker | Create Picture Path Puzzles',
-    metaDescription: 'Create themed maze and path-finding worksheets with images. Auto answer keys, 300 DPI PDFs. Try free — sell on Etsy & Amazon KDP.',
+    titleTag: 'Picture Path Worksheet Generator for Etsy Sellers',
+    metaDescription: 'Create picture path (maze) worksheets to sell on Etsy. Fun activity printables with auto answer keys. Commercial license included. Try free trial.',
   },
 
   hero: {
-    title: 'Maze Worksheet Maker — Create Picture Path Puzzles',
+    title: 'Picture Path Generator — Create Maze Printables to Sell on Etsy',
     tagline: 'Three game modes in one generator — Picture Pathway, Classic Maze, and Choose the Right Path — powered by an LPF (Longest Path First) maze algorithm with auto-generated answer keys, wall customization, and visual-only design that works globally without translation.',
     description:
       'Picture path mazes combine the timeless appeal of maze puzzles with themed images — solvers navigate paths to reach specific destinations, creating an engaging format that sells well on Etsy and in Amazon KDP activity books. This generator creates professional picture path worksheets with themed image destinations and automatic answer keys in under 3 minutes. Choose from 3,000+ illustrations across 104 collections to match any seasonal trend or interest niche. Every maze exports as a 300 DPI print-ready PDF with full commercial license for Etsy, Amazon KDP, or any marketplace. Maze activity books are a proven KDP category with consistent demand, and the picture path format adds visual appeal that standard line mazes lack. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

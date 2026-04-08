@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'alphabet worksheet maker',
+    primaryKeyword: 'alphabet train generator',
     secondaryKeywords: [
       'ABC worksheet generator',
       'letter recognition worksheet maker',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'letter matching',
       'phonics',
     ],
-    titleTag: 'Alphabet Worksheet Maker | ABC & Letter Activities Generator',
-    metaDescription: 'Create alphabet train worksheets with themed images for letter recognition. Auto answer keys, 11 languages. Try free — sell on Etsy & KDP.',
+    titleTag: 'Alphabet Train Generator for Etsy & KDP Sellers',
+    metaDescription: 'Create alphabet train worksheets to sell on Etsy and KDP. Unique train-themed letter learning products. 11 languages. Commercial license.',
   },
 
   hero: {
-    title: 'Alphabet Worksheet Maker — ABC & Letter Activities Generator',
+    title: 'Alphabet Train Generator — Sell Unique ABC Printables on Etsy',
     tagline: 'Every wagon carries a letter and a matching image — building letter recognition one train car at a time.',
     description:
       'Alphabet worksheets are one of the highest-demand printable products on Etsy — parents, homeschool families, and teachers buy letter learning materials year-round. This generator creates unique train-themed alphabet activities where each letter rides in its own train car with a themed image, making letter learning visual and engaging. Choose from 3,000+ illustrations across 104 collections and export 300 DPI print-ready PDFs with automatic answer keys. The 11-language support generates different alphabet content per locale, including accented characters for German, French, Spanish, and more — each language is a separate sellable product. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

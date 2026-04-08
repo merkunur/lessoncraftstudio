@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'pattern worksheet maker',
+    primaryKeyword: 'pattern train worksheet generator',
     secondaryKeywords: [
       'pattern recognition worksheet generator',
       'AB pattern worksheet maker',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'sequence',
       'what comes next',
     ],
-    titleTag: 'Pattern Worksheet Maker | Create Repeating Pattern Activities',
-    metaDescription: 'Create pattern recognition worksheets with AB, ABC, ABCD patterns and themed images. Auto answer keys. Try free — sell on Etsy & KDP.',
+    titleTag: 'Pattern Train Worksheet Generator for Printable Sellers',
+    metaDescription: 'Create pattern recognition train worksheets to sell on Etsy and KDP. Unique visual format that stands out. Commercial license included. Try free trial.',
   },
 
   hero: {
-    title: 'Pattern Worksheet Maker — Create Repeating Pattern Activities',
+    title: 'Pattern Train Generator — Sell Unique Pattern Printables on Etsy',
     tagline: 'Five pattern types — AB, AAB, ABB, ABC, AABB — displayed across 11 themed train wagons with adjustable clue count from 4 to 10 for precise difficulty control.',
     description:
       'Pattern recognition worksheets are essential early math products that sell consistently on Etsy -- parents and teachers use them to teach sequencing skills from preschool through first grade. This generator creates unique train-themed pattern activities where each train car displays an image in a repeating sequence, and solvers identify and continue the pattern. Choose from 3,000+ themed illustrations across 104 collections, configure pattern complexity, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The visual train format makes pattern practice engaging and visually distinctive in Etsy search results. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

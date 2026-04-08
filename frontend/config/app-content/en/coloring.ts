@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'coloring page maker',
+    primaryKeyword: 'coloring page generator',
     secondaryKeywords: [
       'coloring page generator',
       'custom coloring pages maker',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'kids coloring',
       'adults coloring',
     ],
-    titleTag: 'Coloring Page Maker | Create Custom Printable Coloring Sheets',
-    metaDescription: 'Create themed coloring pages from 3,000+ images. High-resolution outlines, printable PDFs. Try free — sell on Etsy & Amazon KDP with commercial license.',
+    titleTag: 'Coloring Page Generator for Etsy & KDP Sellers',
+    metaDescription: 'Create coloring pages to sell on Etsy, Amazon KDP, and TPT. 3,000+ themed images, 11 languages. Build coloring books fast. Commercial license.',
   },
 
   hero: {
-    title: 'Coloring Page Maker — Create Custom Printable Coloring Sheets',
+    title: 'Coloring Page Generator — Create & Sell Coloring Books on Etsy & KDP',
     tagline: 'Free-form canvas coloring page designer — browse 104 themed image collections, add freehand drawings, include layout helpers like name fields and handwriting lines, and toggle grayscale export for ink-friendly coloring pages.',
     description:
       'Coloring pages are the single highest-demand printable category on Etsy and one of the top KDP niches — and this generator lets you create professional coloring pages to sell without any drawing skills. Convert themed images into clean outlines ready for coloring, choose from 3,000+ illustrations across 104 collections, and export 300 DPI print-ready PDFs with full commercial license. Build themed coloring books for Amazon KDP or seasonal coloring bundles for Etsy in minutes instead of hours. The 104 theme collections cover animals, holidays, vehicles, food, nature, and dozens more — giving you endless product variety for year-round sales. Every coloring page works worldwide without translation. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'sorting worksheet maker',
+    primaryKeyword: 'picture sort worksheet generator',
     secondaryKeywords: [
       'category sorting worksheet generator',
       'picture sorting printable maker',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'same and different',
       'sorting activity',
     ],
-    titleTag: 'Sorting Worksheet Maker | Category & Classification Activities',
-    metaDescription: 'Create picture sorting and classification worksheets with themed images. Auto answer keys, printable PDFs. Try free — commercial license included.',
+    titleTag: 'Picture Sort Worksheet Generator for Printable Sellers',
+    metaDescription: 'Create picture sorting worksheets to sell on Etsy and KDP. Unique classification activities. 3,000+ themed images. Commercial license. Try free trial.',
   },
 
   hero: {
-    title: 'Sorting Worksheet Maker — Category & Classification Activities',
+    title: 'Picture Sort Generator — Sell Unique Sorting Printables on Etsy',
     tagline: 'Two-category sorting in one powerful generator — theme-based or manual image selection — with auto-generated answer keys, 4–12 configurable images, a localized \"Picture Sort\" header in 11 languages, and 104 themed image collections.',
     description:
       'Sorting and categorization worksheets are essential early learning products that sell consistently on Etsy — parents and teachers use them to teach classification skills from preschool through first grade. This maker creates professional picture sorting activities where solvers place images into correct categories using themed illustrations. Choose from 3,000+ images across 104 collections, configure sorting categories, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The visual format works worldwide without translation, and sorting worksheets pair naturally with matching and pattern activities for comprehensive early learning bundles. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

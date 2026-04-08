@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'count and find worksheet maker',
+    primaryKeyword: 'count worksheet generator',
     secondaryKeywords: [
       'I spy counting worksheet generator',
       'find and count printable maker',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'visual discrimination',
       'number recognition',
     ],
-    titleTag: 'Find & Count Worksheet Maker | I Spy Counting Generator',
-    metaDescription: 'Create find-and-count worksheets where kids search for and tally themed images. Auto answer keys. Try free — sell on Etsy & KDP.',
+    titleTag: 'Find & Count Worksheet Generator for Printable Sellers',
+    metaDescription: 'Create find-and-count worksheets to sell on Etsy, KDP, and TPT. Popular with parents. 3,000+ themed images. Commercial license. Try free trial.',
   },
 
   hero: {
-    title: 'Find & Count Worksheet Maker — I Spy Counting Generator',
+    title: 'Find & Count Generator — Sell Popular Kids Printables on Etsy',
     tagline: 'Two activity modes in one generator — Hidden Object I Spy and Letter Spotting — with four mixable task types (circle, square, cross out, count), locale-specific alphabets with accented letters, localized image name labels in 11 languages, and auto-generated answer keys with visual annotations.',
     description:
       'Find-and-count worksheets combine the appeal of I Spy with counting practice — a format that sells consistently on Etsy and makes excellent Amazon KDP activity books. This creator generates professional search-and-count worksheets where solvers find specific objects in a scattered scene and complete tasks like circling, counting, or crossing out items. The Letter Spotting mode adds alphabet learning with locale-specific characters including German umlauts and French accents. Choose from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with automatic annotated answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The 11-language support with localized image labels creates distinct products per locale. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

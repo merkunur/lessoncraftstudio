@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'math puzzle worksheet maker',
+    primaryKeyword: 'math puzzle worksheet generator',
     secondaryKeywords: [
       'math puzzle generator',
       'picture math puzzle worksheets',
@@ -15,12 +15,12 @@ const content: AppContent = {
       'solve and match',
       'logic puzzle math',
     ],
-    titleTag: 'Math Puzzle Maker | Create Picture Math Puzzle Worksheets',
-    metaDescription: 'Create picture math puzzles where kids solve problems to match images. Themed puzzles with auto answer keys. Try free — commercial license for Etsy & KDP.',
+    titleTag: 'Math Puzzle Worksheet Generator for Etsy Sellers',
+    metaDescription: 'Create picture-based math puzzles to sell as printables. Unique product format that stands out on Etsy. 300 DPI PDFs, commercial license. Try free trial.',
   },
 
   hero: {
-    title: 'Math Puzzle Maker — Create Picture Math Puzzle Worksheets',
+    title: 'Math Puzzle Generator — Sell Unique Math Printables on Etsy',
     tagline: 'Merge math practice with puzzle-solving excitement — every piece holds a problem, every solution reveals the picture.',
     description:
       'Stand out in the math printable market with grid-based picture puzzles that combine calculation with logic — a format most Etsy sellers don\'t offer. This generator creates math puzzle worksheets where students solve arithmetic within visual grids using themed images, producing a distinctive product that catches buyers\' attention and commands higher prices than standard math drills. Generate complete puzzles in under 3 minutes with 300 DPI export, automatic answer keys, and full commercial licensing for Etsy, Amazon KDP, TPT, or any marketplace. Math puzzle books are a growing niche on KDP because they offer something beyond basic practice — and this generator lets you fill that niche without graphic design skills. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'tracing worksheet maker',
+    primaryKeyword: 'drawing lines generator',
     secondaryKeywords: [
       'line tracing worksheet generator',
       'pre-writing worksheet maker',
@@ -17,12 +17,12 @@ const content: AppContent = {
       'straight lines',
       'curved lines',
     ],
-    titleTag: 'Tracing Worksheet Maker | Line & Pre-Writing Activity Generator',
-    metaDescription: 'Create tracing and pre-writing worksheets with dotted lines and themed images. Print-ready 300 DPI PDFs. Try free — commercial license included.',
+    titleTag: 'Tracing & Drawing Lines Generator for Etsy Sellers',
+    metaDescription: 'Create line tracing worksheets to sell on Etsy. High demand from parents of preschoolers. 3,000+ themed images. Commercial license. Try free trial.',
   },
 
   hero: {
-    title: 'Tracing Worksheet Maker — Line & Pre-Writing Activity Generator',
+    title: 'Tracing Worksheet Generator — Sell Pre-K Printables on Etsy',
     tagline: 'Eight SVG line templates — curves, diagonals, horizontal, and vertical — with 4–5 image pairs per page for fine motor skill development through guided line tracing.',
     description:
       'Tracing line worksheets tap into the huge pre-writing and fine motor skills niche on Etsy — parents and therapists buy them for toddlers and preschoolers year-round. This generator creates professional line tracing activities where users draw along guided paths to connect matching image pairs. Eight SVG-based templates cover curves, diagonals, horizontal, and vertical lines with 4-5 themed image pairs per page. Choose from 3,000+ illustrations across 104 themed collections to create products that match any seasonal trend or interest niche. Every worksheet is purely visual with zero text, making them universally sellable worldwide. Export 300 DPI print-ready PDFs with full commercial license for Etsy, Amazon KDP, or any marketplace. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

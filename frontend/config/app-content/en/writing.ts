@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'handwriting worksheet maker',
+    primaryKeyword: 'writing worksheet generator',
     secondaryKeywords: [
       'handwriting practice generator',
       'tracing worksheet maker',
@@ -17,12 +17,12 @@ const content: AppContent = {
       'cursive',
       'fine motor skills',
     ],
-    titleTag: 'Handwriting Worksheet Maker | Create Tracing & Writing Sheets',
-    metaDescription: 'Generate handwriting practice worksheets with custom words and tracing activities. 11 languages, 300 DPI PDFs. Try free — commercial license included.',
+    titleTag: 'Writing Worksheet Generator for Etsy & KDP Sellers',
+    metaDescription: 'Create handwriting and writing practice worksheets to sell on Etsy and KDP. Evergreen demand from parents. Commercial license included. Try free trial.',
   },
 
   hero: {
-    title: 'Handwriting Worksheet Maker — Create Tracing & Writing Sheets',
+    title: 'Writing Worksheet Generator — Sell on Etsy, KDP & TPT',
     tagline: 'Three progressive practice modes with arrow-guided stroke order and fading letter guides — build handwriting fluency from full tracing to independent writing on a single worksheet.',
     description:
       'Handwriting worksheets are evergreen sellers on Etsy and Amazon KDP — parents and homeschool families buy them year-round. This generator creates professional letter practice sheets with three progressive modes: Trace for beginners, Fading Trace that builds confidence, and Guided Copy for near-independent writing. Choose from five font styles including arrow-guided stroke order, and draw content from 3,000+ themed images or type any custom text. Every worksheet exports as a 300 DPI print-ready PDF with full commercial license — no attribution, no royalties, no restrictions. Build complete handwriting workbooks for Amazon KDP or themed practice bundles for Etsy in a fraction of the time manual creation takes. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'cryptogram maker',
+    primaryKeyword: 'cryptogram puzzle generator',
     secondaryKeywords: [
       'cryptogram puzzle generator',
       'cryptogram worksheet maker',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'letter substitution',
       'code breaking',
     ],
-    titleTag: 'Cryptogram Maker | Create Custom Code-Breaking Puzzles',
-    metaDescription: 'Generate cryptogram puzzles with themed images and auto answer keys. 300 DPI PDFs in 11 languages. Try free — sell on Etsy & KDP with commercial license.',
+    titleTag: 'Cryptogram Puzzle Generator for Printable Sellers',
+    metaDescription: 'Create cryptogram puzzles to sell on Etsy and Amazon KDP. Unique low-competition niche. 11 languages, commercial license included. Try free trial.',
   },
 
   hero: {
-    title: 'Cryptogram Maker — Create Custom Code-Breaking Puzzles',
+    title: 'Cryptogram Generator — An Untapped Printable Niche for Etsy Sellers',
     tagline: 'Map alphabet letters to images and encode entire phrases into visual cipher puzzles — adjustable difficulty from zero hints to heavily scaffolded with Letters to Reveal.',
     description:
       'Cryptogram cipher puzzles are one of the most unique and low-competition formats you can sell on Etsy and Amazon KDP. This generator turns any phrase into a picture cipher where every letter maps to an image — solvers crack the code through pattern recognition and deduction. Adjust difficulty with the Letters to Reveal slider, choose from 3,000+ themed illustrations, and generate complete puzzles with answer keys in under 3 minutes. The 11-language support creates genuinely different cipher products per locale — German with umlauts, French with accented characters — opening markets most sellers ignore entirely. Every puzzle exports as a 300 DPI print-ready PDF with full commercial license. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

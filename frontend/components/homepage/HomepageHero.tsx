@@ -29,9 +29,9 @@ const localeContent: Record<string, {
 }> = {
   en: {
     badge: 'The Printable Business Opportunity',
-    titleLine1: 'Start a Profitable ',
-    titleHighlight: 'Printable Business',
-    titleLine2: '-- No Design Skills Needed',
+    titleLine1: 'Create and Sell ',
+    titleHighlight: 'Professional Printables',
+    titleLine2: 'on Etsy, KDP & TPT',
     subtitle: 'Thousands of sellers earn $500--$5,000/month selling educational printables on Etsy, Amazon KDP, and TPT. LessonCraftStudio lets you create professional products in minutes, not hours.',
     ctaPrimary: 'See How It Works',
     ctaSecondary: 'Try Free with Watermark',

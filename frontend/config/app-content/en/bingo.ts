@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingo card maker',
+    primaryKeyword: 'bingo card generator',
     secondaryKeywords: [
       'bingo card generator',
       'picture bingo maker',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'party bingo',
       'calling cards',
     ],
-    titleTag: 'Bingo Card Maker | Create Custom Picture Bingo Cards',
-    metaDescription: 'Create themed picture bingo cards with 3,000+ images. Unique cards per set, printable PDFs. Try free — sell on Etsy & KDP with commercial license.',
+    titleTag: 'Picture Bingo Card Generator for Etsy Sellers',
+    metaDescription: 'Create themed bingo cards to sell on Etsy. Classroom games and party activities. 3,000+ images across 104 themes. Commercial license. Try free trial.',
   },
 
   hero: {
-    title: 'Bingo Card Maker — Create Custom Picture Bingo Cards',
+    title: 'Bingo Card Generator — Sell Printable Bingo Games on Etsy',
     tagline: 'Generate 1–10 unique bingo cards per batch with configurable grids from 3×3 to 5×5 — image or word fill for both card cells and circular chips, a dedicated call-out sheet for the caller, ZIP batch export of all cards, and 104 themed image collections.',
     description:
       'Bingo cards are one of the most versatile printable products on Etsy -- they sell for parties, classrooms, holidays, and family game nights year-round. This maker creates professional picture bingo cards with themed images, unique randomized layouts for every card, and automatic caller sheets in under 3 minutes. Choose from 3,000+ illustrations across 104 collections to match any seasonal trend, holiday, or interest niche. Every bingo set exports as 300 DPI print-ready PDFs with full commercial license for Etsy, Amazon KDP, or any marketplace. Themed bingo bundles -- Halloween, Christmas, farm animals, ocean life -- consistently rank among top-selling party printables on Etsy. The visual format works worldwide without translation. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -2,7 +2,7 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'more or less worksheet maker',
+    primaryKeyword: 'more or less worksheet generator',
     secondaryKeywords: [
       'greater than less than worksheet generator',
       'comparison worksheet maker',
@@ -16,12 +16,12 @@ const content: AppContent = {
       'comparing numbers',
       'quantity',
     ],
-    titleTag: 'More or Less Worksheet Maker | Quantity Comparison Generator',
-    metaDescription: 'Create more-or-less comparison worksheets with themed images. Auto answer keys, 300 DPI PDFs. Try free — sell on Etsy & KDP.',
+    titleTag: 'More or Less Worksheet Generator for Etsy Sellers',
+    metaDescription: 'Create more-or-less comparison worksheets to sell on Etsy and KDP. Early math printables with evergreen demand. Commercial license. Try free trial.',
   },
 
   hero: {
-    title: 'More or Less Worksheet Maker — Quantity Comparison Generator',
+    title: 'More or Less Generator — Sell Early Math Printables on Etsy',
     tagline: 'Transform number comparison into a visual discovery with picture-based greater-than and less-than worksheets.',
     description:
       'Greater than and less than worksheets are a foundational math product that sells year-round on Etsy — parents, homeschool families, and teachers need them at every early grade level. This creator generates professional visual number comparison worksheets with three distinct modes: Image to Image, Image to Number, and the unique Check & Cross Groups format. Toggle between same-image and different-image comparisons, choose illustration-style or standard math symbols, and pick from 3,000+ themed images across 104 collections. Every worksheet exports as a 300 DPI print-ready PDF with automatic answer keys and full commercial license for Etsy, Amazon KDP, or any marketplace. Build comparison activity books for KDP or themed math bundles for Etsy. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

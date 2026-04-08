@@ -70,6 +70,19 @@ const guideSubcategories = [
       'digital-vs-physical-printables', 'quality-standards-worksheets',
     ]),
   },
+  {
+    id: 'generator-platform',
+    labelKey: 'generatorPlatformGuides',
+    guideIds: new Set([
+      'word-search-generator-kdp', 'sudoku-generator-kdp', 'crossword-generator-kdp',
+      'coloring-page-generator-etsy', 'math-worksheet-generator-tpt', 'word-search-generator-etsy',
+      'bingo-card-generator-etsy', 'cryptogram-generator-kdp', 'word-scramble-generator-kdp',
+      'activity-book-generator-kdp', 'matching-worksheet-generator-etsy', 'tracing-worksheet-generator-etsy',
+      'pattern-worksheet-generator-etsy', 'coloring-book-generator-kdp', 'writing-worksheet-generator-etsy',
+      'find-count-generator-etsy', 'shadow-match-generator-etsy', 'maze-generator-etsy',
+      'alphabet-worksheet-generator-etsy', 'printable-generator-comparison',
+    ]),
+  },
 ];
 
 const guidesContent: Record<string, {
@@ -84,8 +97,8 @@ const guidesContent: Record<string, {
 }> = {
   en: {
     heroTitle: 'How-To Guides for Printable Sellers',
-    heroDescription: '65 step-by-step guides for creating, listing, and selling printable products on Etsy, Amazon KDP, TPT, and more.',
-    metaTitle: '65 Guides: How to Create & Sell Printables on Etsy & KDP',
+    heroDescription: '85 step-by-step guides for creating, listing, and selling printable products on Etsy, Amazon KDP, TPT, and more.',
+    metaTitle: '85 Guides: How to Create & Sell Printables on Etsy & KDP',
     metaDescription: 'Step-by-step guides covering Etsy SEO, KDP formatting, pricing strategies, niche selection, and more. Everything you need to build a printable business.',
     ctaTitle: 'Start Creating Today',
     ctaDescription: 'Try all 33 printable generators free with watermark. No signup required.',
@@ -94,6 +107,7 @@ const guidesContent: Record<string, {
       platform: 'How to create and sell on specific platforms',
       product: 'How to create specific types of printable products',
       business: 'Growing and scaling your printable business',
+      'generator-platform': 'How to use specific generators for Etsy, KDP, and TPT',
     },
   },
   de: {
@@ -108,6 +122,7 @@ const guidesContent: Record<string, {
       platform: 'So erstellen und verkaufen Sie auf bestimmten Plattformen',
       product: 'So erstellen Sie bestimmte Arten von Druckvorlagen',
       business: 'Wachstum und Skalierung Ihres Druckvorlagen-Geschäfts',
+      'generator-platform': 'So nutzen Sie bestimmte Generatoren für Etsy, KDP und TPT',
     },
   },
   fr: {
@@ -122,6 +137,7 @@ const guidesContent: Record<string, {
       platform: 'Comment créer et vendre sur des plateformes spécifiques',
       product: 'Comment créer des types spécifiques d\'imprimables',
       business: 'Développer et faire grandir votre entreprise d\'imprimables',
+      'generator-platform': 'Comment utiliser des générateurs spécifiques pour Etsy, KDP et TPT',
     },
   },
   es: {
@@ -136,6 +152,7 @@ const guidesContent: Record<string, {
       platform: 'Cómo crear y vender en plataformas específicas',
       product: 'Cómo crear tipos específicos de imprimibles',
       business: 'Crecimiento y escalado de su negocio de imprimibles',
+      'generator-platform': 'Cómo usar generadores específicos para Etsy, KDP y TPT',
     },
   },
   pt: {
@@ -150,6 +167,7 @@ const guidesContent: Record<string, {
       platform: 'Como criar e vender em plataformas específicas',
       product: 'Como criar tipos específicos de imprimíveis',
       business: 'Crescimento e expansão do seu negócio de imprimíveis',
+      'generator-platform': 'Como usar geradores específicos para Etsy, KDP e TPT',
     },
   },
   it: {
@@ -164,6 +182,7 @@ const guidesContent: Record<string, {
       platform: 'Come creare e vendere su piattaforme specifiche',
       product: 'Come creare tipi specifici di stampabili',
       business: 'Crescita e scalabilità del tuo business di stampabili',
+      'generator-platform': 'Come usare generatori specifici per Etsy, KDP e TPT',
     },
   },
   nl: {
@@ -178,6 +197,7 @@ const guidesContent: Record<string, {
       platform: 'Hoe je op specifieke platformen maakt en verkoopt',
       product: 'Hoe je specifieke soorten printables maakt',
       business: 'Groei en schaal je printable-bedrijf',
+      'generator-platform': 'Hoe specifieke generatoren te gebruiken voor Etsy, KDP en TPT',
     },
   },
   sv: {
@@ -192,6 +212,7 @@ const guidesContent: Record<string, {
       platform: 'Hur du skapar och säljer på specifika plattformar',
       product: 'Hur du skapar specifika typer av utskrifter',
       business: 'Tillväxt och skalning av ditt utskriftsföretag',
+      'generator-platform': 'Hur du använder specifika generatorer för Etsy, KDP och TPT',
     },
   },
   da: {
@@ -206,6 +227,7 @@ const guidesContent: Record<string, {
       platform: 'Sådan opretter og sælger du på specifikke platforme',
       product: 'Sådan opretter du specifikke typer opgaver til print',
       business: 'Vækst og skalering af din printable-forretning',
+      'generator-platform': 'Hvordan du bruger specifikke generatorer til Etsy, KDP og TPT',
     },
   },
   no: {
@@ -220,6 +242,7 @@ const guidesContent: Record<string, {
       platform: 'Slik oppretter og selger du arbeidsark på spesifikke plattformer',
       product: 'Slik lager du spesifikke typer arbeidsark og oppgaver',
       business: 'Vekst og skalering av din arbeidsark-virksomhet',
+      'generator-platform': 'Hvordan bruke spesifikke generatorer for Etsy, KDP og TPT',
     },
   },
   fi: {
@@ -234,6 +257,7 @@ const guidesContent: Record<string, {
       platform: 'Kuinka luoda ja myydä tietyillä alustoilla',
       product: 'Kuinka luoda tiettyjä tulostettavien tyyppejä',
       business: 'Tulostettavien liiketoiminnan kasvu ja skaalaus',
+      'generator-platform': 'Kuinka käyttää tiettyjä generaattoreita Etsyyn, KDP:hen ja TPT:hen',
     },
   },
 };

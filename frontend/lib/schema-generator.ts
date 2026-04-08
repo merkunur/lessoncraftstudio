@@ -445,7 +445,7 @@ export function generateGuidesCollectionSchema(locale: string, baseUrl: string =
     "name": names[locale] || names.en,
     "description": "Step-by-step guides for creating and selling printable worksheets on Etsy, KDP, and TPT.",
     "url": `${baseUrl}/${locale}/guides`,
-    "numberOfItems": 65,
+    "numberOfItems": 85,
     "inLanguage": getHreflangCode(locale),
     "isPartOf": { "@type": "WebSite", "name": "LessonCraftStudio", "url": baseUrl },
   };

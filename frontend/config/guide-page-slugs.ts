@@ -2,8 +2,9 @@
  * Guide Page Slug Configuration
  *
  * This file maps each guide to its language-specific SEO slugs for /guides/ pages.
- * Covers 65 "Create X" guides across 3 subcategories:
- * Platform Guides (20), Product Creation Guides (25), Business Strategy Guides (20).
+ * Covers 85 guides across 4 subcategories:
+ * Platform Guides (20), Product Creation Guides (25), Business Strategy Guides (20),
+ * Generator-for-Platform Guides (20).
  *
  * Example:
  * - English: /en/guides/create-addition-worksheets
@@ -107,6 +108,28 @@ export const guidePageSlugs: GuideSlugConfig[] = [
   { guideId: 'seasonal-marketing-printables', slugs: { en: 'seasonal-marketing-printables', de: 'saisonales-marketing-druckvorlagen', fr: 'marketing-saisonnier-imprimables', es: 'marketing-estacional-imprimibles', pt: 'marketing-sazonal-imprimiveis', it: 'marketing-stagionale-stampabili', nl: 'seizoensmarketing-printables', sv: 'saesongmarknadsforing-printables', da: 'saeson-markedsfoering-printables', no: 'sesong-markedsforing-printables' } },
   { guideId: 'digital-vs-physical-printables', slugs: { en: 'digital-vs-physical-printables', de: 'digital-oder-physisch-druckvorlagen', fr: 'numerique-ou-physique-imprimables', es: 'digital-o-fisico-imprimibles', pt: 'digital-ou-fisico-imprimiveis', it: 'digitale-o-fisico-stampabili', nl: 'digitaal-of-fysiek-printables', sv: 'digitalt-eller-fysiskt-printables', da: 'digitalt-eller-fysisk-printables', no: 'digitalt-eller-fysisk-printables' } },
   { guideId: 'quality-standards-worksheets', slugs: { en: 'quality-standards-worksheets', de: 'qualitaetsstandards-arbeitsblaetter', fr: 'normes-qualite-fiches-exercices', es: 'estandares-calidad-fichas-ejercicios', pt: 'padroes-qualidade-fichas-exercicios', it: 'standard-qualita-schede-esercizi', nl: 'kwaliteitsnormen-werkbladen', sv: 'kvalitetsstandarder-arbetsblad', da: 'kvalitetsstandarder-arbejdsark', no: 'kvalitetsstandarder-arbeidsark' } },
+
+  // === Generator-for-Platform Guides (20) — Category C ===
+  { guideId: 'word-search-generator-kdp', slugs: { en: 'word-search-generator-kdp' } },
+  { guideId: 'sudoku-generator-kdp', slugs: { en: 'sudoku-generator-kdp' } },
+  { guideId: 'crossword-generator-kdp', slugs: { en: 'crossword-generator-kdp' } },
+  { guideId: 'coloring-page-generator-etsy', slugs: { en: 'coloring-page-generator-etsy' } },
+  { guideId: 'math-worksheet-generator-tpt', slugs: { en: 'math-worksheet-generator-tpt' } },
+  { guideId: 'word-search-generator-etsy', slugs: { en: 'word-search-generator-etsy' } },
+  { guideId: 'bingo-card-generator-etsy', slugs: { en: 'bingo-card-generator-etsy' } },
+  { guideId: 'cryptogram-generator-kdp', slugs: { en: 'cryptogram-generator-kdp' } },
+  { guideId: 'word-scramble-generator-kdp', slugs: { en: 'word-scramble-generator-kdp' } },
+  { guideId: 'activity-book-generator-kdp', slugs: { en: 'activity-book-generator-kdp' } },
+  { guideId: 'matching-worksheet-generator-etsy', slugs: { en: 'matching-worksheet-generator-etsy' } },
+  { guideId: 'tracing-worksheet-generator-etsy', slugs: { en: 'tracing-worksheet-generator-etsy' } },
+  { guideId: 'pattern-worksheet-generator-etsy', slugs: { en: 'pattern-worksheet-generator-etsy' } },
+  { guideId: 'coloring-book-generator-kdp', slugs: { en: 'coloring-book-generator-kdp' } },
+  { guideId: 'writing-worksheet-generator-etsy', slugs: { en: 'writing-worksheet-generator-etsy' } },
+  { guideId: 'find-count-generator-etsy', slugs: { en: 'find-count-generator-etsy' } },
+  { guideId: 'shadow-match-generator-etsy', slugs: { en: 'shadow-match-generator-etsy' } },
+  { guideId: 'maze-generator-etsy', slugs: { en: 'maze-generator-etsy' } },
+  { guideId: 'alphabet-worksheet-generator-etsy', slugs: { en: 'alphabet-worksheet-generator-etsy' } },
+  { guideId: 'printable-generator-comparison', slugs: { en: 'printable-generator-comparison' } },
 ];
 
 /**

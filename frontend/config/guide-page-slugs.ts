@@ -2,9 +2,9 @@
  * Guide Page Slug Configuration
  *
  * This file maps each guide to its language-specific SEO slugs for /guides/ pages.
- * Covers 85 guides across 4 subcategories:
+ * Covers 115 guides across 5 subcategories:
  * Platform Guides (20), Product Creation Guides (25), Business Strategy Guides (20),
- * Generator-for-Platform Guides (20).
+ * Generator-for-Platform Guides (20), How-to-Sell Guides (30).
  *
  * Example:
  * - English: /en/guides/create-addition-worksheets
@@ -130,6 +130,38 @@ export const guidePageSlugs: GuideSlugConfig[] = [
   { guideId: 'maze-generator-etsy', slugs: { en: 'maze-generator-etsy' } },
   { guideId: 'alphabet-worksheet-generator-etsy', slugs: { en: 'alphabet-worksheet-generator-etsy' } },
   { guideId: 'printable-generator-comparison', slugs: { en: 'printable-generator-comparison' } },
+
+  // === How-to-Sell Guides (30) — Category A ===
+  { guideId: 'sell-coloring-pages-etsy', slugs: { en: 'sell-coloring-pages-etsy' } },
+  { guideId: 'sell-sudoku-books-kdp', slugs: { en: 'sell-sudoku-books-kdp' } },
+  { guideId: 'sell-crossword-puzzles-etsy', slugs: { en: 'sell-crossword-puzzles-etsy' } },
+  { guideId: 'sell-math-worksheets-kdp', slugs: { en: 'sell-math-worksheets-kdp' } },
+  { guideId: 'sell-activity-books-kdp', slugs: { en: 'sell-activity-books-kdp' } },
+  { guideId: 'sell-printables-tpt', slugs: { en: 'sell-printables-tpt' } },
+  { guideId: 'sell-word-scramble-etsy', slugs: { en: 'sell-word-scramble-etsy' } },
+  { guideId: 'sell-cryptogram-puzzles-etsy', slugs: { en: 'sell-cryptogram-puzzles-etsy' } },
+  { guideId: 'sell-bingo-cards-etsy', slugs: { en: 'sell-bingo-cards-etsy' } },
+  { guideId: 'sell-tracing-worksheets-etsy', slugs: { en: 'sell-tracing-worksheets-etsy' } },
+  { guideId: 'sell-pattern-worksheets-etsy', slugs: { en: 'sell-pattern-worksheets-etsy' } },
+  { guideId: 'sell-matching-worksheets-etsy', slugs: { en: 'sell-matching-worksheets-etsy' } },
+  { guideId: 'sell-puzzle-books-kdp', slugs: { en: 'sell-puzzle-books-kdp' } },
+  { guideId: 'sell-preschool-printables-etsy', slugs: { en: 'sell-preschool-printables-etsy' } },
+  { guideId: 'sell-kindergarten-worksheets-etsy', slugs: { en: 'sell-kindergarten-worksheets-etsy' } },
+  { guideId: 'sell-printable-bundles-etsy', slugs: { en: 'sell-printable-bundles-etsy' } },
+  { guideId: 'sell-educational-printables-gumroad', slugs: { en: 'sell-educational-printables-gumroad' } },
+  { guideId: 'sell-i-spy-worksheets-etsy', slugs: { en: 'sell-i-spy-worksheets-etsy' } },
+  { guideId: 'sell-writing-worksheets-etsy', slugs: { en: 'sell-writing-worksheets-etsy' } },
+  { guideId: 'sell-alphabet-worksheets-etsy', slugs: { en: 'sell-alphabet-worksheets-etsy' } },
+  { guideId: 'sell-printables-shopify', slugs: { en: 'sell-printables-shopify' } },
+  { guideId: 'sell-digital-downloads-etsy-beginners', slugs: { en: 'sell-digital-downloads-etsy-beginners' } },
+  { guideId: 'sell-shadow-match-worksheets-etsy', slugs: { en: 'sell-shadow-match-worksheets-etsy' } },
+  { guideId: 'sell-treasure-hunt-worksheets-etsy', slugs: { en: 'sell-treasure-hunt-worksheets-etsy' } },
+  { guideId: 'sell-odd-one-out-worksheets-etsy', slugs: { en: 'sell-odd-one-out-worksheets-etsy' } },
+  { guideId: 'sell-big-small-worksheets-etsy', slugs: { en: 'sell-big-small-worksheets-etsy' } },
+  { guideId: 'sell-preposition-worksheets-etsy', slugs: { en: 'sell-preposition-worksheets-etsy' } },
+  { guideId: 'sell-printables-creative-market', slugs: { en: 'sell-printables-creative-market' } },
+  { guideId: 'how-to-price-printables-etsy', slugs: { en: 'how-to-price-printables-etsy' } },
+  { guideId: 'etsy-seo-printable-sellers', slugs: { en: 'etsy-seo-printable-sellers' } },
 ];
 
 /**

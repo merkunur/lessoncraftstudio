@@ -186,22 +186,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku puzzle worksheet demonstrating KDP activity book content for revenue generation' },
+    heroImage: { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Sudoku puzzle worksheet demonstrating KDP activity book content for revenue generation' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku puzzle formatted for KDP activity book interior pages', caption: 'Sudoku puzzles — a consistently profitable activity book category on Amazon KDP with loyal repeat buyers' },
-      { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Math worksheet formatted for KDP workbook interior pages', caption: 'Math workbooks — high-demand KDP category with natural grade-level catalog expansion opportunities' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle for KDP puzzle book catalog diversification', caption: 'Word search books — the largest puzzle book category on Amazon with strong potential for multi-volume series revenue' },
+      { src: '/samples/english/sudoku/sudoku hard.webp', alt: 'Sudoku puzzle formatted for KDP activity book interior pages', caption: 'Sudoku puzzles — a consistently profitable activity book category on Amazon KDP with loyal repeat buyers' },
+      { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Math worksheet formatted for KDP workbook interior pages', caption: 'Math workbooks — high-demand KDP category with natural grade-level catalog expansion opportunities' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle for KDP puzzle book catalog diversification', caption: 'Word search books — the largest puzzle book category on Amazon with strong potential for multi-volume series revenue' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'How to Create Sudoku Activity Books for Amazon KDP — Revenue-Building Tutorial',
   },
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Badger — themed educational image', caption: 'Badger' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Beaver — themed educational image', caption: 'Beaver' },
+    { src: '/image-library/forest creatures/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
+    { src: '/image-library/forest creatures/badger.webp', alt: 'Badger — themed educational image', caption: 'Badger' },
+    { src: '/image-library/forest creatures/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
+    { src: '/image-library/forest creatures/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
+    { src: '/image-library/forest creatures/beaver.webp', alt: 'Beaver — themed educational image', caption: 'Beaver' },
   ],
 };
 

@@ -203,7 +203,7 @@ Koulunaloitusniche hyötyy myös vahvasta uudelleenostoista. Ostajat, jotka löy
     { src: '/image-library/classroom/book.webp', alt: 'Kirja — temaattinen opetuskuva', caption: 'Kirja' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Kaappi — temaattinen opetuskuva', caption: 'Kaappi' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Laskin — temaattinen opetuskuva', caption: 'Laskin' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalenteri — temaattinen opetuskuva', caption: 'Kalenteri' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalenteri — temaattinen opetuskuva', caption: 'Kalenteri' },
   ],
 
 

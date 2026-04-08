@@ -184,19 +184,19 @@ const content: GuideContent = {
     heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page printable product ready for selling on Gumroad storefront' },
     samples: [
       { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Printable coloring page for Gumroad digital product sales', caption: 'Coloring pages create visually compelling product images that drive social media traffic to your Gumroad store' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle printable for Gumroad store catalog', caption: 'Word search puzzles have broad appeal across parent and buyer audiences — a versatile Gumroad product type' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet activity for Gumroad printable business', caption: 'Matching activities are high-demand educational printables that work well as individual products and in bundles' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle printable for Gumroad store catalog', caption: 'Word search puzzles have broad appeal across parent and buyer audiences — a versatile Gumroad product type' },
+      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet activity for Gumroad printable business', caption: 'Matching activities are high-demand educational printables that work well as individual products and in bundles' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages for Your Gumroad Printable Store',
   },
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Angelfish — themed educational image', caption: 'Angelfish' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfish — themed educational image', caption: 'Clownfish' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — themed educational image', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Crab — themed educational image', caption: 'Crab' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: '/image-library/ocean life/angelfish.webp', alt: 'Angelfish — themed educational image', caption: 'Angelfish' },
+    { src: '/image-library/ocean life/clownfish.webp', alt: 'Clownfish — themed educational image', caption: 'Clownfish' },
+    { src: '/image-library/ocean life/coral.webp', alt: 'Coral — themed educational image', caption: 'Coral' },
+    { src: '/image-library/ocean life/crab.webp', alt: 'Crab — themed educational image', caption: 'Crab' },
+    { src: '/image-library/ocean life/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
   ],
 };
 

@@ -164,7 +164,7 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/writing/writing.webp',
+      src: '/samples/english/writing/writing beginning letter.webp',
       alt: 'Professional writing worksheet demonstrating original creative design elements that are copyrightable',
     },
     samples: [
@@ -174,7 +174,7 @@ const content: GuideContent = {
         caption: 'Writing worksheets contain substantial original creative expression in their instructional text and design',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/english/wordsearch/Word Search 10.webp',
         alt: 'Word search puzzle with themed imagery demonstrating creative arrangement of educational content',
         caption: 'Word search puzzles demonstrate copyrightable creative arrangement of vocabulary elements',
       },

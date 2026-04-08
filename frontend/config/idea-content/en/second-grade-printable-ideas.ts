@@ -156,12 +156,12 @@ The parent buyer segment grows significantly during second grade because the shi
   ],
 
   themeImages: [
-    { src: '/image-library/store/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
-    { src: '/image-library/store/binder.webp', alt: 'Binder — themed educational image', caption: 'Binder' },
-    { src: '/image-library/store/book.webp', alt: 'Book — themed educational image', caption: 'Book' },
-    { src: '/image-library/store/cabinet.webp', alt: 'Cabinet — themed educational image', caption: 'Cabinet' },
-    { src: '/image-library/store/calculator.webp', alt: 'Calculator — themed educational image', caption: 'Calculator' },
-    { src: '/image-library/store/calender.webp', alt: 'Calender — themed educational image', caption: 'Calender' },
+    { src: '/image-library/classroom/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Binder — themed educational image', caption: 'Binder' },
+    { src: '/image-library/classroom/book.webp', alt: 'Book — themed educational image', caption: 'Book' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Cabinet — themed educational image', caption: 'Cabinet' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calculator — themed educational image', caption: 'Calculator' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calender — themed educational image', caption: 'Calender' },
   ],
 
 

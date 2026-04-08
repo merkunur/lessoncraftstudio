@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/word-scramble/Word Scramble 1.webp', alt: 'Word scramble puzzle worksheet ready for Etsy listing' },
+    heroImage: { src: '/samples/english/word scramble/Word Scramble 10.webp', alt: 'Word scramble puzzle worksheet ready for Etsy listing' },
     samples: [
-      { src: '/samples/english/word-scramble/Word Scramble 1.webp', alt: 'Themed word scramble worksheet with answer key for Etsy', caption: 'A themed word scramble puzzle exported at 300 DPI for Etsy product listing' },
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search companion product for Etsy puzzle bundle', caption: 'Word search puzzles pair naturally with word scrambles in cross-format Etsy bundles' },
+      { src: '/samples/english/word scramble/Word Scramble 11.webp', alt: 'Themed word scramble worksheet with answer key for Etsy', caption: 'A themed word scramble puzzle exported at 300 DPI for Etsy product listing' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search companion product for Etsy puzzle bundle', caption: 'Word search puzzles pair naturally with word scrambles in cross-format Etsy bundles' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Word Scramble Puzzles to Sell on Etsy',
@@ -188,8 +188,8 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed educational image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed educational image', caption: 'Dog' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed educational image', caption: 'Horse' },
   ],
 };

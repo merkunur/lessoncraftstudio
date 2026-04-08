@@ -186,7 +186,7 @@ Föräldraköparsegmentet växer betydligt under årskurs 2 eftersom övergånge
     { src: '/image-library/classroom/book.webp', alt: 'Bok — tematisk pedagogisk bild', caption: 'Bok' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Skåp — tematisk pedagogisk bild', caption: 'Skåp' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Miniräknare — tematisk pedagogisk bild', caption: 'Miniräknare' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — tematisk pedagogisk bild', caption: 'Kalender' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalender — tematisk pedagogisk bild', caption: 'Kalender' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

@@ -181,21 +181,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/missing pieces/Missing Pieces (1).webp', alt: 'Jigsaw puzzle worksheet with holes cut from a colorful illustration and numbered solution options including distractors below with turquoise Missing Pieces header and teal-pink dual border framing' },
+    heroImage: { src: '/samples/english/missing pieces/Missing Pieces (10).webp', alt: 'Jigsaw puzzle worksheet with holes cut from a colorful illustration and numbered solution options including distractors below with turquoise Missing Pieces header and teal-pink dual border framing' },
     samples: [
-      { src: '/samples/english/missing pieces/Missing Pieces (1).webp', alt: 'Missing pieces puzzle worksheet showing an image with holes cut out and numbered solution options displayed below with dual border header', caption: 'Jigsaw puzzle worksheet with smart-extracted pieces and numbered solution options including distractors' },
-      { src: '/samples/english/missing pieces/Missing Pieces answer_key.webp', alt: 'Auto-generated answer key with yellow-highlighted number labels placed inside each hole showing the correct option index', caption: 'Auto-generated answer key with yellow-highlighted labels showing correct option for each hole' },
+      { src: '/samples/english/missing pieces/Missing Pieces (11).webp', alt: 'Missing pieces puzzle worksheet showing an image with holes cut out and numbered solution options displayed below with dual border header', caption: 'Jigsaw puzzle worksheet with smart-extracted pieces and numbered solution options including distractors' },
+      { src: '/samples/english/missing pieces/Missing Pieces (10).webp', alt: 'Auto-generated answer key with yellow-highlighted number labels placed inside each hole showing the correct option index', caption: 'Auto-generated answer key with yellow-highlighted labels showing correct option for each hole' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'How to Create Missing Pieces Puzzles — Complete Tutorial',
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
+    { src: '/image-library/farm animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
+    { src: '/image-library/farm animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
+    { src: '/image-library/farm animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
+    { src: '/image-library/farm animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/farm animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
   ],
 };
 

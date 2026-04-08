@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Spanish word search puzzle (sopa de letras) with themed vocabulary for Etsy and Amazon' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Spanish word search puzzle (sopa de letras) with themed vocabulary for Etsy and Amazon' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Spanish word search puzzle showing themed Spanish vocabulary in grid', caption: 'A Spanish sopa de letras generated with native vocabulary including accented characters and the n with tilde' },
-      { src: '/samples/english/addition/Addition 1.webp', alt: 'Addition worksheet with Spanish language instructions', caption: 'Math worksheet with Spanish-language instructions -- numbers are universal but proper formatting adds professional polish' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Spanish word search puzzle showing themed Spanish vocabulary in grid', caption: 'A Spanish sopa de letras generated with native vocabulary including accented characters and the n with tilde' },
+      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet with Spanish language instructions', caption: 'Math worksheet with Spanish-language instructions -- numbers are universal but proper formatting adds professional polish' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Spanish Printables for Etsy and Amazon',
@@ -191,7 +191,7 @@ const content: GuideContent = {
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- Gato in Spanish vocabulary', caption: 'Gato (Cat)' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- Perro in Spanish vocabulary', caption: 'Perro (Dog)' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- Caballo in Spanish vocabulary', caption: 'Caballo (Horse)' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- Manzana in Spanish vocabulary', caption: 'Manzana (Apple)' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- Manzana in Spanish vocabulary', caption: 'Manzana (Apple)' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- Auto in Spanish vocabulary', caption: 'Auto (Car)' },
   ],
 };

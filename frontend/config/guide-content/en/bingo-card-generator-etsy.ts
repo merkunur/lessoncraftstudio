@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card.jpeg', alt: 'Printable picture bingo card set generated for Etsy shop listing with themed images' },
+    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Printable picture bingo card set generated for Etsy shop listing with themed images' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card.jpeg', alt: 'Picture bingo card with themed images ready for Etsy listing', caption: 'A unique picture bingo card from a 30-card set -- every card has a different image arrangement' },
-      { src: '/samples/english/bingo/callout.jpeg', alt: 'Bingo caller sheet showing all themed images with labels', caption: 'Caller sheet included with every bingo set -- displays all images used across the cards' },
+      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Picture bingo card with themed images ready for Etsy listing', caption: 'A unique picture bingo card from a 30-card set -- every card has a different image arrangement' },
+      { src: '/samples/english/bingo/callout.webp', alt: 'Bingo caller sheet showing all themed images with labels', caption: 'Caller sheet included with every bingo set -- displays all images used across the cards' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Printable Bingo Cards for Etsy',
@@ -190,9 +190,9 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed bingo image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed bingo image', caption: 'Dog' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed bingo image', caption: 'Apple' },
-    { src: '/image-library/food/banana.webp', alt: 'Banana -- themed bingo image', caption: 'Banana' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed bingo image', caption: 'Butterfly' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed bingo image', caption: 'Apple' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Banana -- themed bingo image', caption: 'Banana' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed bingo image', caption: 'Butterfly' },
   ],
 };
 

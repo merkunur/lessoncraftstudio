@@ -175,11 +175,11 @@ From a competitive analysis perspective, the most attractive math worksheet nich
   ],
 
   themeImages: [
-    { src: '/image-library/animals/lion.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
-    { src: '/image-library/food/orange.webp', alt: 'Orange -- themed educational image', caption: 'Orange' },
+    { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
+    { src: '/image-library/fruits/apricot.webp', alt: 'Orange -- themed educational image', caption: 'Orange' },
     { src: '/image-library/animals/turtle.webp', alt: 'Turtle -- themed educational image', caption: 'Turtle' },
     { src: '/image-library/vehicles/train.webp', alt: 'Train -- themed educational image', caption: 'Train' },
-    { src: '/image-library/animals/frog.webp', alt: 'Frog -- themed educational image', caption: 'Frog' },
+    { src: '/image-library/animals/iguana.webp', alt: 'Frog -- themed educational image', caption: 'Frog' },
   ],
 };
 

@@ -186,7 +186,7 @@ El patrón de compre durante todo el año de las emprendedores elimina la volati
     { src: '/image-library/classroom/book.webp', alt: 'Libro — imagen educativa temática', caption: 'Libro' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Armario — imagen educativa temática', caption: 'Armario' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagen educativa temática', caption: 'Calculadora' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendario — imagen educativa temática', caption: 'Calendario' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calendario — imagen educativa temática', caption: 'Calendario' },
   ],
 
 

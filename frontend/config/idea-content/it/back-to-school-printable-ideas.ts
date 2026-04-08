@@ -203,7 +203,7 @@ Dal punto di vista della ricerca delle parole chiave, le ricerche di stampabili 
     { src: '/image-library/classroom/book.webp', alt: 'Libro — immagine educativa tematica', caption: 'Libro' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Armadietto — immagine educativa tematica', caption: 'Armadietto' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Calcolatrice — immagine educativa tematica', caption: 'Calcolatrice' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendario — immagine educativa tematica', caption: 'Calendario' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calendario — immagine educativa tematica', caption: 'Calendario' },
   ],
 
 

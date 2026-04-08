@@ -180,10 +180,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Cryptogram puzzle generated for KDP book interior showing themed picture cipher with letter-to-image mappings' },
+    heroImage: { src: '/samples/english/cryptogram/cryptogram_worksheet (10).webp', alt: 'Cryptogram puzzle generated for KDP book interior showing themed picture cipher with letter-to-image mappings' },
     samples: [
-      { src: '/samples/english/cryptogram/cryptogram_worksheet.webp', alt: 'Cryptogram puzzle page ready for KDP manuscript with themed images encoding a secret phrase', caption: 'A themed picture cryptogram exported as a print-ready PDF for KDP book interior' },
-      { src: '/samples/english/cryptogram/cryptogram_answer_key.webp', alt: 'Cryptogram letter legend answer key showing all alphabet-to-image mappings', caption: 'Letter legend answer key with complete alphabet-to-image mapping and decoded phrase' },
+      { src: '/samples/english/cryptogram/cryptogram_worksheet (11).webp', alt: 'Cryptogram puzzle page ready for KDP manuscript with themed images encoding a secret phrase', caption: 'A themed picture cryptogram exported as a print-ready PDF for KDP book interior' },
+      { src: '/samples/english/cryptogram/cryptogram_worksheet (10).webp', alt: 'Cryptogram letter legend answer key showing all alphabet-to-image mappings', caption: 'Letter legend answer key with complete alphabet-to-image mapping and decoded phrase' },
     ],
   },
 

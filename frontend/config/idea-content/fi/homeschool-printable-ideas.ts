@@ -143,7 +143,7 @@ Kilpailutilanne suosii myyjiä jotka ymmärtävät kotikouluttajien erityistarpe
     { src: '/image-library/classroom/book.webp', alt: 'Book — temaattinen opetuskuva', caption: 'Book' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Cabinet — temaattinen opetuskuva', caption: 'Cabinet' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Calculator — temaattinen opetuskuva', caption: 'Calculator' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calender — temaattinen opetuskuva', caption: 'Calender' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calender — temaattinen opetuskuva', caption: 'Calender' },
   ],
 
 

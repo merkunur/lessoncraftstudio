@@ -182,20 +182,20 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math-worksheet/Math Worksheet 1.webp', alt: 'Math worksheet generated for TPT listing showing themed problems with answer key' },
+    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Math worksheet generated for TPT listing showing themed problems with answer key' },
     samples: [
-      { src: '/samples/english/math-worksheet/Math Worksheet 1.webp', alt: 'Mixed operations math worksheet with themed images ready for TPT', caption: 'A themed math worksheet with professional formatting, multiple operations, and automatic answer key -- ready for TPT listing' },
-      { src: '/samples/english/addition/Addition 1.webp', alt: 'Addition worksheet for TPT with clean layout and answer key', caption: 'Grade-specific addition worksheet with 300 DPI output quality and themed illustrations' },
+      { src: '/samples/english/math worksheet/Math Worksheet 11.webp', alt: 'Mixed operations math worksheet with themed images ready for TPT', caption: 'A themed math worksheet with professional formatting, multiple operations, and automatic answer key -- ready for TPT listing' },
+      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet for TPT with clean layout and answer key', caption: 'Grade-specific addition worksheet with 300 DPI output quality and themed illustrations' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Math Worksheets for TPT',
   },
 
   themeImages: [
-    { src: '/image-library/animals/bear.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe -- themed educational image', caption: 'Giraffe' },
-    { src: '/image-library/animals/lion.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
+    { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
     { src: '/image-library/animals/zebra.webp', alt: 'Zebra -- themed educational image', caption: 'Zebra' },
   ],
 };

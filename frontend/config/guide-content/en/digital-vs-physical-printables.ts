@@ -164,12 +164,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 1.webp',
+      src: '/samples/english/addition/Addition Fun 10.webp',
       alt: 'Professional addition worksheet demonstrating digital printable product creation for both digital download and physical printing formats',
     },
     samples: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/english/addition/Addition Fun 11.webp',
         alt: 'Addition worksheet showing digital printable product suitable for both download and physical printing',
         caption: 'Math worksheets work well as digital downloads and as pages in printed workbooks',
       },
@@ -179,7 +179,7 @@ const content: GuideContent = {
         caption: 'Coloring pages are top sellers in both digital download and print-on-demand book formats',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/english/wordsearch/Word Search 10.webp',
         alt: 'Word search puzzle showing product ideal for hybrid digital and physical selling',
         caption: 'Word searches sell individually as digital downloads and compiled into physical puzzle books',
       },

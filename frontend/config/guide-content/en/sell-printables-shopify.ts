@@ -176,9 +176,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search worksheet ready for selling as digital download on Shopify store' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search worksheet ready for selling as digital download on Shopify store' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Printable word search worksheet for Shopify digital product listing', caption: 'Word search worksheet exported as print-ready PDF for Shopify digital delivery' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Printable word search worksheet for Shopify digital product listing', caption: 'Word search worksheet exported as print-ready PDF for Shopify digital delivery' },
       { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page printable for Shopify store product catalog', caption: 'Coloring page with themed illustrations ready for Shopify product listing' },
     ],
   },

@@ -170,12 +170,12 @@ Seasonal marketing opportunities in the farm niche extend beyond the obvious spr
   ],
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
-    { src: '/image-library/farm%20animals/chick.webp', alt: 'Chick — themed educational image', caption: 'Chick' },
+    { src: '/image-library/farm animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
+    { src: '/image-library/farm animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
+    { src: '/image-library/farm animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
+    { src: '/image-library/farm animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/farm animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
+    { src: '/image-library/farm animals/chick.webp', alt: 'Chick — themed educational image', caption: 'Chick' },
   ],
 
 

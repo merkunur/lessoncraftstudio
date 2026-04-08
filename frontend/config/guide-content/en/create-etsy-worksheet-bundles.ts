@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Addition worksheet showing a core component of educational printable bundles for Etsy sellers' },
+    heroImage: { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet showing a core component of educational printable bundles for Etsy sellers' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Animal themed addition worksheet as a math bundle component for Etsy', caption: 'Addition worksheet with animal theme — a core component for math subject bundles on Etsy' },
-      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Animal themed subtraction worksheet complementing addition in Etsy math bundles', caption: 'Subtraction worksheet with animal theme — pairs with addition worksheets for complete math bundles' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Animal word search puzzle adding cross-category variety to Etsy worksheet bundles', caption: 'Word search puzzle with animal theme — adds literacy value to cross-category theme bundles' },
+      { src: '/samples/english/addition/Addition Fun 11.webp', alt: 'Animal themed addition worksheet as a math bundle component for Etsy', caption: 'Addition worksheet with animal theme — a core component for math subject bundles on Etsy' },
+      { src: '/samples/english/subtraction/cross out.webp', alt: 'Animal themed subtraction worksheet complementing addition in Etsy math bundles', caption: 'Subtraction worksheet with animal theme — pairs with addition worksheets for complete math bundles' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Animal word search puzzle adding cross-category variety to Etsy worksheet bundles', caption: 'Word search puzzle with animal theme — adds literacy value to cross-category theme bundles' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Addition Worksheets for Etsy Bundles — Multi-Product Bundle Strategy',

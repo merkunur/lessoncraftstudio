@@ -175,11 +175,11 @@ Multilingual printables deserve special attention as a low-competition frontier.
   ],
 
   themeImages: [
-    { src: '/image-library/animals/deer.webp', alt: 'Deer -- themed educational image', caption: 'Deer' },
-    { src: '/image-library/animals/hedgehog.webp', alt: 'Hedgehog -- themed educational image', caption: 'Hedgehog' },
+    { src: '/image-library/animals/moose.webp', alt: 'Deer -- themed educational image', caption: 'Deer' },
+    { src: '/image-library/animals/raccoon.webp', alt: 'Hedgehog -- themed educational image', caption: 'Hedgehog' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala -- themed educational image', caption: 'Koala' },
-    { src: '/image-library/animals/parrot.webp', alt: 'Parrot -- themed educational image', caption: 'Parrot' },
-    { src: '/image-library/animals/squirrel.webp', alt: 'Squirrel -- themed educational image', caption: 'Squirrel' },
+    { src: '/image-library/animals/woodpecker.webp', alt: 'Parrot -- themed educational image', caption: 'Parrot' },
+    { src: '/image-library/animals/raccoon.webp', alt: 'Squirrel -- themed educational image', caption: 'Squirrel' },
   ],
 };
 

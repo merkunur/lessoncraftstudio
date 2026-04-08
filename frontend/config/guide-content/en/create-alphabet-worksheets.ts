@@ -181,10 +181,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Alphabet train worksheet showing 11 colorful train wagons with letters and matching clue images for letter recognition' },
+    heroImage: { src: '/samples/english/alphabet train/Alphabet Train 11.webp', alt: 'Alphabet train worksheet showing 11 colorful train wagons with letters and matching clue images for letter recognition' },
     samples: [
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Colorful alphabet train worksheet with 11 wagons carrying letters and scattered clue images for letter-image matching', caption: 'Alphabet train worksheet with 11 colorful wagons and letter-image matching clues' },
-      { src: '/samples/english/alphabet train/Alphabet Train 5.webp', alt: 'Alphabet train worksheet with themed images and multiple clue matching tasks at intermediate difficulty', caption: 'Themed alphabet train with configurable clue count for difficulty scaling' },
+      { src: '/samples/english/alphabet train/Alphabet Train 11.webp', alt: 'Colorful alphabet train worksheet with 11 wagons carrying letters and scattered clue images for letter-image matching', caption: 'Alphabet train worksheet with 11 colorful wagons and letter-image matching clues' },
+      { src: '/samples/english/alphabet train/Alphabet Train 10.webp', alt: 'Alphabet train worksheet with themed images and multiple clue matching tasks at intermediate difficulty', caption: 'Themed alphabet train with configurable clue count for difficulty scaling' },
       { src: '/samples/english/alphabet train/Alphabet Train 10.webp', alt: 'Advanced alphabet train worksheet with 11 clues for maximum difficulty comprehensive letter recognition', caption: 'Full 11-clue difficulty level for advanced letter-recognition practice' },
     ],
     youtubeId: '_dDQegRq9JQ',
@@ -192,11 +192,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
+    { src: '/image-library/farm animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
+    { src: '/image-library/farm animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
+    { src: '/image-library/farm animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
+    { src: '/image-library/farm animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/farm animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
   ],
 };
 

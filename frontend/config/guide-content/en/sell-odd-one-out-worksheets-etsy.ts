@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Odd one out worksheet with four images per row showing visual logic puzzle for Etsy digital download' },
+    heroImage: { src: '/samples/english/odd one out/Find the Odd One Out (10).webp', alt: 'Odd one out worksheet with four images per row showing visual logic puzzle for Etsy digital download' },
     samples: [
-      { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Odd one out worksheet showing exercise rows with four images per row', caption: 'Odd one out worksheet with four-image exercise rows and adaptive column layout' },
-      { src: '/samples/english/odd one out/Find the Odd One Out answer-key.webp', alt: 'Auto-generated answer key with red circles around odd items', caption: 'Auto-generated answer key with red circle markers identifying the odd item in each row' },
+      { src: '/samples/english/odd one out/Find the Odd One Out (11).webp', alt: 'Odd one out worksheet showing exercise rows with four images per row', caption: 'Odd one out worksheet with four-image exercise rows and adaptive column layout' },
+      { src: '/samples/english/odd one out/Find the Odd One Out (10).webp', alt: 'Auto-generated answer key with red circles around odd items', caption: 'Auto-generated answer key with red circle markers identifying the odd item in each row' },
     ],
   },
 
@@ -188,7 +188,7 @@ const content: GuideContent = {
     { src: '/image-library/animals/turtle.webp', alt: 'Turtle -- themed educational image', caption: 'Turtle' },
     { src: '/image-library/animals/owl.webp', alt: 'Owl -- themed educational image', caption: 'Owl' },
     { src: '/image-library/animals/zebra.webp', alt: 'Zebra -- themed educational image', caption: 'Zebra' },
-    { src: '/image-library/animals/squirrel.webp', alt: 'Squirrel -- themed educational image', caption: 'Squirrel' },
+    { src: '/image-library/animals/raccoon.webp', alt: 'Squirrel -- themed educational image', caption: 'Squirrel' },
   ],
 };
 

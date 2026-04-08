@@ -178,7 +178,7 @@ The long-term publishing strategy for KDP coloring books mirrors successful appr
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed educational image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed educational image', caption: 'Dog' },
     { src: '/image-library/animals/fish.webp', alt: 'Fish -- themed educational image', caption: 'Fish' },
-    { src: '/image-library/animals/frog.webp', alt: 'Frog -- themed educational image', caption: 'Frog' },
+    { src: '/image-library/animals/iguana.webp', alt: 'Frog -- themed educational image', caption: 'Frog' },
     { src: '/image-library/animals/whale.webp', alt: 'Whale -- themed educational image', caption: 'Whale' },
   ],
 };

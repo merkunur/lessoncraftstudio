@@ -188,20 +188,20 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Math worksheet showing grid layout and spacing formatted for Amazon KDP print specifications' },
     samples: [
-      { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Math worksheet with precise grid spacing demonstrating KDP margin and layout requirements', caption: 'Math worksheet layout — grid-based formatting with adequate cell sizing for comfortable handwriting within KDP margin specifications' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle grid showing letter spacing formatted for KDP print', caption: 'Word search grid — consistent letter spacing at 0.3-inch cells ensures comfortable circling and readability in KDP printed books' },
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Addition worksheet demonstrating clean single-page KDP layout', caption: 'Addition worksheet — clean single-operation layout with clear answer spaces that demonstrates professional KDP interior formatting' },
+      { src: '/samples/english/math worksheet/Math Worksheet 11.webp', alt: 'Math worksheet with precise grid spacing demonstrating KDP margin and layout requirements', caption: 'Math worksheet layout — grid-based formatting with adequate cell sizing for comfortable handwriting within KDP margin specifications' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle grid showing letter spacing formatted for KDP print', caption: 'Word search grid — consistent letter spacing at 0.3-inch cells ensures comfortable circling and readability in KDP printed books' },
+      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet demonstrating clean single-page KDP layout', caption: 'Addition worksheet — clean single-operation layout with clear answer spaces that demonstrates professional KDP interior formatting' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'How to Create Print-Ready Math Worksheets for Amazon KDP — Formatting Tutorial',
   },
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Angelfish — themed educational image', caption: 'Angelfish' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfish — themed educational image', caption: 'Clownfish' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — themed educational image', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Crab — themed educational image', caption: 'Crab' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: '/image-library/ocean life/angelfish.webp', alt: 'Angelfish — themed educational image', caption: 'Angelfish' },
+    { src: '/image-library/ocean life/clownfish.webp', alt: 'Clownfish — themed educational image', caption: 'Clownfish' },
+    { src: '/image-library/ocean life/coral.webp', alt: 'Coral — themed educational image', caption: 'Coral' },
+    { src: '/image-library/ocean life/crab.webp', alt: 'Crab — themed educational image', caption: 'Crab' },
+    { src: '/image-library/ocean life/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
   ],
 };
 

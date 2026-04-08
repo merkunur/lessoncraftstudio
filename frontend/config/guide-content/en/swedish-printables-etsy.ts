@@ -178,17 +178,17 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Swedish word search puzzle generated with LessonCraftStudio showing Swedish vocabulary with special characters' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Swedish word search puzzle generated with LessonCraftStudio showing Swedish vocabulary with special characters' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Swedish word search worksheet ready for Etsy listing', caption: 'A themed Swedish word search puzzle with native vocabulary and automatic answer key' },
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Swedish crossword puzzle with image clues', caption: 'Swedish crossword puzzle using image-based clues with correct special character handling' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Swedish word search worksheet ready for Etsy listing', caption: 'A themed Swedish word search puzzle with native vocabulary and automatic answer key' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Swedish crossword puzzle with image clues', caption: 'Swedish crossword puzzle using image-based clues with correct special character handling' },
     ],
   },
 
   themeImages: [
     { src: '/image-library/animals/moose.webp', alt: 'Moose -- themed educational image', caption: 'Alg' },
     { src: '/image-library/animals/fox.webp', alt: 'Fox -- themed educational image', caption: 'Rav' },
-    { src: '/image-library/animals/bear.webp', alt: 'Bear -- themed educational image', caption: 'Bjorn' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Bjorn' },
     { src: '/image-library/animals/rabbit.webp', alt: 'Rabbit -- themed educational image', caption: 'Kanin' },
     { src: '/image-library/animals/owl.webp', alt: 'Owl -- themed educational image', caption: 'Uggla' },
   ],

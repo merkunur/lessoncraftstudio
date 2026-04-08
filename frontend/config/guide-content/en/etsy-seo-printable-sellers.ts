@@ -182,10 +182,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Etsy listing optimized for search with keyword-rich title and professional photos' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Etsy listing optimized for search with keyword-rich title and professional photos' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search worksheet listing optimized for Etsy SEO', caption: 'A well-optimized Etsy listing with keyword-rich title, all 13 tags, and 10 professional photos' },
-      { src: '/samples/english/coloring/Coloring 1.webp', alt: 'Coloring page bundle with SEO-optimized listing', caption: 'Coloring page bundles with descriptive titles and value-focused photos convert at higher rates in Etsy search' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search worksheet listing optimized for Etsy SEO', caption: 'A well-optimized Etsy listing with keyword-rich title, all 13 tags, and 10 professional photos' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page bundle with SEO-optimized listing', caption: 'Coloring page bundles with descriptive titles and value-focused photos convert at higher rates in Etsy search' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Etsy SEO Guide for Printable Worksheet Sellers',
@@ -193,9 +193,9 @@ const content: GuideContent = {
 
   themeImages: [
     { src: '/image-library/animals/fox.webp', alt: 'Fox -- themed educational worksheet image', caption: 'Fox' },
-    { src: '/image-library/animals/bear.webp', alt: 'Bear -- themed educational worksheet image', caption: 'Bear' },
-    { src: '/image-library/animals/deer.webp', alt: 'Deer -- themed educational worksheet image', caption: 'Deer' },
-    { src: '/image-library/animals/eagle.webp', alt: 'Eagle -- themed educational worksheet image', caption: 'Eagle' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational worksheet image', caption: 'Bear' },
+    { src: '/image-library/animals/moose.webp', alt: 'Deer -- themed educational worksheet image', caption: 'Deer' },
+    { src: '/image-library/animals/vulture.webp', alt: 'Eagle -- themed educational worksheet image', caption: 'Eagle' },
     { src: '/image-library/animals/whale.webp', alt: 'Whale -- themed educational worksheet image', caption: 'Whale' },
   ],
 };

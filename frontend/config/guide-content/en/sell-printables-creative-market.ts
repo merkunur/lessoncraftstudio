@@ -178,17 +178,17 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/Coloring 1.webp', alt: 'Premium coloring page designed for Creative Market listing' },
+    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Premium coloring page designed for Creative Market listing' },
     samples: [
-      { src: '/samples/english/coloring/Coloring 1.webp', alt: 'Printable coloring page bundle for Creative Market shop', caption: 'High-quality coloring pages with photographic designs command premium prices on Creative Market' },
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle collection for Creative Market', caption: 'Multi-language word search bundles are unique products that stand out on the platform' },
+      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Printable coloring page bundle for Creative Market shop', caption: 'High-quality coloring pages with photographic designs command premium prices on Creative Market' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle collection for Creative Market', caption: 'Multi-language word search bundles are unique products that stand out on the platform' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Sell Printable Worksheets on Creative Market',
   },
 
   themeImages: [
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed coloring page design', caption: 'Butterfly' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed coloring page design', caption: 'Butterfly' },
     { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin -- themed coloring page design', caption: 'Dolphin' },
     { src: '/image-library/flowers/rose.webp', alt: 'Rose -- themed coloring page design', caption: 'Rose' },
     { src: '/image-library/flowers/sunflower.webp', alt: 'Sunflower -- themed coloring page design', caption: 'Sunflower' },

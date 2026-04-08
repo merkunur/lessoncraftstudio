@@ -169,9 +169,9 @@ Looking at the second half of 2026, several emerging niches show early indicator
   ],
 
   themeImages: [
-    { src: '/image-library/animals/bear.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- themed educational image', caption: 'Car' },
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed educational image', caption: 'Cat' },
   ],

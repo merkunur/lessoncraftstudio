@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/word scramble/word-scramble_worksheet.webp', alt: 'Word scramble puzzle with shuffled letter tiles and image clues generated for KDP book interior' },
+    heroImage: { src: '/samples/english/word scramble/Word Scramble 10.webp', alt: 'Word scramble puzzle with shuffled letter tiles and image clues generated for KDP book interior' },
     samples: [
-      { src: '/samples/english/word scramble/word-scramble_worksheet.webp', alt: 'Word scramble puzzle page with image clues ready for KDP manuscript', caption: 'A word scramble puzzle page featuring shuffled letter tiles alongside image clues, exported as a 300 DPI print-ready PDF' },
-      { src: '/samples/english/word scramble/word-scramble_answer-key.webp', alt: 'Word scramble answer key showing correct letter arrangements', caption: 'Automatic answer key showing the correct word for each image clue' },
+      { src: '/samples/english/word scramble/Word Scramble 11.webp', alt: 'Word scramble puzzle page with image clues ready for KDP manuscript', caption: 'A word scramble puzzle page featuring shuffled letter tiles alongside image clues, exported as a 300 DPI print-ready PDF' },
+      { src: '/samples/english/word scramble/Word Scramble 10.webp', alt: 'Word scramble answer key showing correct letter arrangements', caption: 'Automatic answer key showing the correct word for each image clue' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Word Scramble Puzzles for KDP Books',
@@ -188,7 +188,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/animals/antelope.webp', alt: 'Antelope -- themed image clue for word scramble puzzles', caption: 'Antelope' },
     { src: '/image-library/animals/bat.webp', alt: 'Bat -- themed image clue for word scramble puzzles', caption: 'Bat' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed image clue for word scramble puzzles', caption: 'Apple' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed image clue for word scramble puzzles', caption: 'Apple' },
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed image clue for word scramble puzzles', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed image clue for word scramble puzzles', caption: 'Dog' },
   ],

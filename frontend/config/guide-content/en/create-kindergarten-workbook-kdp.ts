@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Kindergarten addition worksheet with themed images showing visual counting exercises for K-level math' },
+    heroImage: { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Kindergarten addition worksheet with themed images showing visual counting exercises for K-level math' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Image-based addition worksheet for kindergarten workbook interior', caption: 'Visual addition problems where children count themed images -- matching how kindergarten math is taught' },
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Age-appropriate word search puzzle for kindergarten literacy practice', caption: 'Small-grid word search with themed vocabulary building letter recognition and visual scanning skills' },
+      { src: '/samples/english/addition/Addition Fun 11.webp', alt: 'Image-based addition worksheet for kindergarten workbook interior', caption: 'Visual addition problems where children count themed images -- matching how kindergarten math is taught' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Age-appropriate word search puzzle for kindergarten literacy practice', caption: 'Small-grid word search with themed vocabulary building letter recognition and visual scanning skills' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Kindergarten Workbooks for Amazon KDP',

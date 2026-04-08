@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Printable worksheet designed for international market sales across multiple countries' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Printable worksheet designed for international market sales across multiple countries' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle for international marketplace listing', caption: 'Word search puzzles with native vocabulary for any of 11 supported languages' },
-      { src: '/samples/english/coloring/Coloring 1.webp', alt: 'Coloring page ready for international printable markets', caption: 'Coloring pages with localized labels for global marketplace distribution' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle for international marketplace listing', caption: 'Word search puzzles with native vocabulary for any of 11 supported languages' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page ready for international printable markets', caption: 'Coloring pages with localized labels for global marketplace distribution' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Sell Printables in International Markets',
@@ -189,9 +189,9 @@ const content: GuideContent = {
 
   themeImages: [
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
-    { src: '/image-library/food/bread.webp', alt: 'Bread -- themed educational image', caption: 'Bread' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Bread -- themed educational image', caption: 'Bread' },
     { src: '/image-library/vehicles/bus.webp', alt: 'Bus -- themed educational image', caption: 'Bus' },
-    { src: '/image-library/animals/lion.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
+    { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
     { src: '/image-library/animals/penguin.webp', alt: 'Penguin -- themed educational image', caption: 'Penguin' },
   ],
 };

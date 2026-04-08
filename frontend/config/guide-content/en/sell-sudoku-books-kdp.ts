@@ -176,17 +176,17 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/Sudoku 1.webp', alt: 'Picture sudoku puzzle with themed images for KDP book publishing' },
+    heroImage: { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku puzzle with themed images for KDP book publishing' },
     samples: [
-      { src: '/samples/english/sudoku/Sudoku 1.webp', alt: 'Picture sudoku puzzle page ready for KDP manuscript', caption: 'A 4x4 picture sudoku puzzle using themed images -- print-ready for KDP book interiors' },
-      { src: '/samples/english/sudoku/Sudoku 1.webp', alt: 'Picture sudoku answer key showing completed grid', caption: 'Automatic answer key showing the correct image placement in every cell' },
+      { src: '/samples/english/sudoku/sudoku hard.webp', alt: 'Picture sudoku puzzle page ready for KDP manuscript', caption: 'A 4x4 picture sudoku puzzle using themed images -- print-ready for KDP book interiors' },
+      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku answer key showing completed grid', caption: 'Automatic answer key showing the correct image placement in every cell' },
     ],
   },
 
   themeImages: [
-    { src: '/image-library/animals/cow.webp', alt: 'Cow -- themed image for picture sudoku grids', caption: 'Cow' },
+    { src: '/image-library/animals/horse.webp', alt: 'Cow -- themed image for picture sudoku grids', caption: 'Cow' },
     { src: '/image-library/animals/pig.webp', alt: 'Pig -- themed image for picture sudoku grids', caption: 'Pig' },
-    { src: '/image-library/animals/chicken.webp', alt: 'Chicken -- themed image for picture sudoku grids', caption: 'Chicken' },
+    { src: '/image-library/animals/duck.webp', alt: 'Chicken -- themed image for picture sudoku grids', caption: 'Chicken' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed image for picture sudoku grids', caption: 'Horse' },
     { src: '/image-library/animals/sheep.webp', alt: 'Sheep -- themed image for picture sudoku grids', caption: 'Sheep' },
   ],

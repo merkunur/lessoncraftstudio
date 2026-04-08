@@ -164,17 +164,17 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/english/wordsearch/Word Search 10.webp',
       alt: 'Word search worksheet demonstrating professional quality standards with clean layout and precise formatting',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/english/wordsearch/Word Search 11.webp',
         alt: 'Word search puzzle showing professional print-ready formatting and quality grid alignment',
         caption: 'Professional word search output demonstrates clean layout, readable typography, and precise grid alignment',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/english/addition/Addition Fun 10.webp',
         alt: 'Addition worksheet showing quality standards for number alignment and answer key accuracy',
         caption: 'Math worksheets require precise alignment, clear typography, and verified answer keys for professional quality',
       },

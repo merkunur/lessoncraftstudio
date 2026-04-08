@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Printable worksheet bundle showing pricing tiers for Etsy sellers' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Printable worksheet bundle showing pricing tiers for Etsy sellers' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search worksheet bundle priced for Etsy', caption: 'Word search bundles at $9.99 to $14.99 represent the revenue-maximizing price range on Etsy' },
-      { src: '/samples/english/coloring/Coloring 1.webp', alt: 'Coloring page mega bundle for Etsy shop', caption: 'Mega bundles with 100+ pages justify premium pricing and generate the highest per-listing revenue' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search worksheet bundle priced for Etsy', caption: 'Word search bundles at $9.99 to $14.99 represent the revenue-maximizing price range on Etsy' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page mega bundle for Etsy shop', caption: 'Mega bundles with 100+ pages justify premium pricing and generate the highest per-listing revenue' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Price Your Printable Worksheets on Etsy',
@@ -189,7 +189,7 @@ const content: GuideContent = {
 
   themeImages: [
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed worksheet image', caption: 'Elephant' },
-    { src: '/image-library/animals/lion.webp', alt: 'Lion -- themed worksheet image', caption: 'Lion' },
+    { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed worksheet image', caption: 'Lion' },
     { src: '/image-library/animals/penguin.webp', alt: 'Penguin -- themed worksheet image', caption: 'Penguin' },
     { src: '/image-library/animals/rabbit.webp', alt: 'Rabbit -- themed worksheet image', caption: 'Rabbit' },
     { src: '/image-library/animals/turtle.webp', alt: 'Turtle -- themed worksheet image', caption: 'Turtle' },

@@ -177,19 +177,19 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/shadow-match/shadow-match-horizontal.webp', alt: 'Shadow matching worksheet with colorful pictures and auto-generated silhouettes' },
+    heroImage: { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Shadow matching worksheet with colorful pictures and auto-generated silhouettes' },
     samples: [
-      { src: '/samples/english/shadow-match/shadow-match-horizontal.webp', alt: 'Horizontal shadow match worksheet ready for Etsy listing', caption: 'Shadow match worksheet with horizontal layout -- pictures on left, silhouettes on right' },
-      { src: '/samples/english/shadow-match/shadow-match-vertical.webp', alt: 'Vertical shadow match layout for variety in bundles', caption: 'Vertical layout variation for visual diversity in product bundles' },
+      { src: '/samples/english/shadow match/shadow-match-horizontal.webp', alt: 'Horizontal shadow match worksheet ready for Etsy listing', caption: 'Shadow match worksheet with horizontal layout -- pictures on left, silhouettes on right' },
+      { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Vertical shadow match layout for variety in bundles', caption: 'Vertical layout variation for visual diversity in product bundles' },
     ],
   },
 
   themeImages: [
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
     { src: '/image-library/vehicles/fire-truck.webp', alt: 'Fire truck -- themed educational image', caption: 'Fire Truck' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
-    { src: '/image-library/animals/hedgehog.webp', alt: 'Hedgehog -- themed educational image', caption: 'Hedgehog' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
+    { src: '/image-library/animals/raccoon.webp', alt: 'Hedgehog -- themed educational image', caption: 'Hedgehog' },
   ],
 };
 

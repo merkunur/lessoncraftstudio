@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/Matching 1.webp', alt: 'Matching worksheet generated for Etsy showing themed image-to-word matching pairs' },
+    heroImage: { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet generated for Etsy showing themed image-to-word matching pairs' },
     samples: [
-      { src: '/samples/english/matching/Matching 1.webp', alt: 'Matching worksheet with beginning letter match mode for preschool', caption: 'A themed matching worksheet with image-to-letter pairs ready for Etsy listing' },
-      { src: '/samples/english/matching/Matching 1.webp', alt: 'Matching worksheet answer key showing correct connections', caption: 'Automatic answer key included with every matching worksheet' },
+      { src: '/samples/english/matching/image and word.webp', alt: 'Matching worksheet with beginning letter match mode for preschool', caption: 'A themed matching worksheet with image-to-letter pairs ready for Etsy listing' },
+      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet answer key showing correct connections', caption: 'Automatic answer key included with every matching worksheet' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Matching Worksheets for Etsy',
@@ -191,7 +191,7 @@ const content: GuideContent = {
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed matching worksheet image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed matching worksheet image', caption: 'Dog' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed matching worksheet image', caption: 'Horse' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed matching worksheet image', caption: 'Apple' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed matching worksheet image', caption: 'Apple' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- themed matching worksheet image', caption: 'Car' },
   ],
 };

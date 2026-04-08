@@ -174,19 +174,19 @@ const content: GuideContent = {
     heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page with themed illustrations showing B&W line art for selling on Etsy' },
     samples: [
       { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Animal themed coloring page created for Etsy digital download listing', caption: 'Animal coloring page from the themed image library — clean B&W line art that creates eye-catching Etsy listing photos' },
-      { src: '/samples/english/coloring/coloring portrait 4.webp', alt: 'Nature themed coloring page showing detailed compositions for adult and kids markets', caption: 'Nature coloring page — versatile theme that appeals to both kids and adult coloring buyers on Etsy' },
-      { src: '/samples/english/coloring/coloring portrait 3.webp', alt: 'Holiday themed coloring page demonstrating seasonal product for Etsy demand peaks', caption: 'Holiday coloring page — seasonal themes drive major demand spikes on Etsy throughout the year' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Nature themed coloring page showing detailed compositions for adult and kids markets', caption: 'Nature coloring page — versatile theme that appeals to both kids and adult coloring buyers on Etsy' },
+      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Holiday themed coloring page demonstrating seasonal product for Etsy demand peaks', caption: 'Holiday coloring page — seasonal themes drive major demand spikes on Etsy throughout the year' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages for Selling on Etsy — Step-by-Step Tutorial',
   },
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Badger — themed educational image', caption: 'Badger' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Beaver — themed educational image', caption: 'Beaver' },
+    { src: '/image-library/forest creatures/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
+    { src: '/image-library/forest creatures/badger.webp', alt: 'Badger — themed educational image', caption: 'Badger' },
+    { src: '/image-library/forest creatures/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
+    { src: '/image-library/forest creatures/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
+    { src: '/image-library/forest creatures/beaver.webp', alt: 'Beaver — themed educational image', caption: 'Beaver' },
   ],
 };
 

@@ -180,20 +180,20 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Handwriting practice worksheet with progressive tracing modes for selling on Etsy' },
     samples: [
-      { src: '/samples/english/writing/Writing 1.webp', alt: 'Letter tracing worksheet with stroke-order arrows for Etsy handwriting product', caption: 'Handwriting worksheet with stroke-order arrows and progressive tracing rows -- a premium feature that differentiates your Etsy products' },
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Alphabet train worksheet as companion product to handwriting Etsy listings', caption: 'Alphabet train worksheets complement handwriting products by teaching letter recognition through themed activities' },
-      { src: '/samples/english/drawing lines/Drawing Lines 1.webp', alt: 'Pre-writing line tracing worksheet for handwriting readiness', caption: 'Line tracing worksheets build the fine motor control needed before letter writing -- ideal as Level 1 of a handwriting program' },
+      { src: '/samples/english/writing/writing beginning letter.webp', alt: 'Letter tracing worksheet with stroke-order arrows for Etsy handwriting product', caption: 'Handwriting worksheet with stroke-order arrows and progressive tracing rows -- a premium feature that differentiates your Etsy products' },
+      { src: '/samples/english/alphabet train/Alphabet Train 10.webp', alt: 'Alphabet train worksheet as companion product to handwriting Etsy listings', caption: 'Alphabet train worksheets complement handwriting products by teaching letter recognition through themed activities' },
+      { src: '/samples/english/drawing lines/drawing_lines_curve 1.webp', alt: 'Pre-writing line tracing worksheet for handwriting readiness', caption: 'Line tracing worksheets build the fine motor control needed before letter writing -- ideal as Level 1 of a handwriting program' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Handwriting Practice Worksheets for Etsy',
   },
 
   themeImages: [
-    { src: '/image-library/school/backpack.webp', alt: 'Backpack -- themed educational image', caption: 'Backpack' },
-    { src: '/image-library/school/book.webp', alt: 'Book -- themed educational image', caption: 'Book' },
-    { src: '/image-library/school/crayon.webp', alt: 'Crayon -- themed educational image', caption: 'Crayon' },
-    { src: '/image-library/school/globe.webp', alt: 'Globe -- themed educational image', caption: 'Globe' },
-    { src: '/image-library/school/pencil.webp', alt: 'Pencil -- themed educational image', caption: 'Pencil' },
+    { src: '/image-library/classroom/backpack.webp', alt: 'Backpack -- themed educational image', caption: 'Backpack' },
+    { src: '/image-library/classroom/book.webp', alt: 'Book -- themed educational image', caption: 'Book' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Crayon -- themed educational image', caption: 'Crayon' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Globe -- themed educational image', caption: 'Globe' },
+    { src: '/image-library/classroom/book.webp', alt: 'Pencil -- themed educational image', caption: 'Pencil' },
   ],
 };
 

@@ -180,21 +180,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/find-and-count/I Spy 1.webp', alt: 'Find and count I-Spy worksheet with themed hidden objects and counting task' },
+    heroImage: { src: '/samples/english/find and count/I Spy 10.webp', alt: 'Find and count I-Spy worksheet with themed hidden objects and counting task' },
     samples: [
-      { src: '/samples/english/find-and-count/I Spy 1.webp', alt: 'Find and count worksheet page ready for Etsy listing', caption: 'A themed find-and-count I-Spy worksheet exported as a print-ready 300 DPI PDF' },
-      { src: '/samples/english/find-and-count/I Spy 2.webp', alt: 'I-Spy counting activity with hidden objects in themed scene', caption: 'Hidden Object I-Spy mode with circle task type -- the most popular format on Etsy' },
-      { src: '/samples/english/find-and-count/I Spy 1 answer_key.webp', alt: 'Auto-annotated answer key showing target object locations', caption: 'Automatic answer key with annotated target locations -- included with every worksheet' },
+      { src: '/samples/english/find and count/I Spy 11.webp', alt: 'Find and count worksheet page ready for Etsy listing', caption: 'A themed find-and-count I-Spy worksheet exported as a print-ready 300 DPI PDF' },
+      { src: '/samples/english/find and count/I Spy 10.webp', alt: 'I-Spy counting activity with hidden objects in themed scene', caption: 'Hidden Object I-Spy mode with circle task type -- the most popular format on Etsy' },
+      { src: '/samples/english/find and count/I Spy 11.webp', alt: 'Auto-annotated answer key showing target object locations', caption: 'Automatic answer key with annotated target locations -- included with every worksheet' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Find & Count I-Spy Worksheets for Etsy',
   },
 
   themeImages: [
-    { src: '/image-library/animals/chicken.webp', alt: 'Chicken -- themed illustration for find-and-count scenes', caption: 'Chicken' },
-    { src: '/image-library/animals/cow.webp', alt: 'Cow -- themed illustration for I-Spy worksheets', caption: 'Cow' },
+    { src: '/image-library/animals/duck.webp', alt: 'Chicken -- themed illustration for find-and-count scenes', caption: 'Chicken' },
+    { src: '/image-library/animals/horse.webp', alt: 'Cow -- themed illustration for I-Spy worksheets', caption: 'Cow' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed illustration for hidden object activities', caption: 'Dog' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed illustration for counting worksheets', caption: 'Apple' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed illustration for counting worksheets', caption: 'Apple' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- themed illustration for visual search activities', caption: 'Car' },
   ],
 };

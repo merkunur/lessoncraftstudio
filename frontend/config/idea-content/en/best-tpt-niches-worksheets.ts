@@ -175,9 +175,9 @@ TPT\'s buyer analytics reveal that the highest-converting product listings share
   themeImages: [
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe -- themed educational image', caption: 'Giraffe' },
-    { src: '/image-library/animals/lion.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
+    { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
     { src: '/image-library/animals/penguin.webp', alt: 'Penguin -- themed educational image', caption: 'Penguin' },
-    { src: '/image-library/animals/monkey.webp', alt: 'Monkey -- themed educational image', caption: 'Monkey' },
+    { src: '/image-library/animals/orangutan.webp', alt: 'Monkey -- themed educational image', caption: 'Monkey' },
   ],
 };
 

@@ -182,10 +182,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Large print word search puzzle with oversized grid designed for senior readers on KDP' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Large print word search puzzle with oversized grid designed for senior readers on KDP' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Large print word search with 12x12 grid and big font word list', caption: 'A 12x12 word search grid with 8 themed words -- large enough for comfortable solving by seniors with vision impairment' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Large format picture sudoku puzzle for senior cognitive exercise', caption: 'Picture sudoku at 6x6 grid size with familiar themed images -- ideal for large print brain exercise books' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Large print word search with 12x12 grid and big font word list', caption: 'A 12x12 word search grid with 8 themed words -- large enough for comfortable solving by seniors with vision impairment' },
+      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Large format picture sudoku puzzle for senior cognitive exercise', caption: 'Picture sudoku at 6x6 grid size with familiar themed images -- ideal for large print brain exercise books' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Large Print Puzzle Books for Amazon KDP',
@@ -194,9 +194,9 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed educational image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed educational image', caption: 'Dog' },
-    { src: '/image-library/animals/bird.webp', alt: 'Bird -- themed educational image', caption: 'Bird' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
-    { src: '/image-library/food/bread.webp', alt: 'Bread -- themed educational image', caption: 'Bread' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Bird -- themed educational image', caption: 'Bird' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Bread -- themed educational image', caption: 'Bread' },
   ],
 };
 

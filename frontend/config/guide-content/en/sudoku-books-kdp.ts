@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Picture sudoku puzzle worksheet showing themed image grid suitable for Amazon KDP sudoku book interior pages' },
+    heroImage: { src: '/samples/english/sudoku/sudoku hard.webp', alt: 'Picture sudoku puzzle worksheet showing themed image grid suitable for Amazon KDP sudoku book interior pages' },
     samples: [
       { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Animal themed picture sudoku puzzle formatted for KDP kids sudoku book', caption: 'Picture sudoku with animal theme — image-based grids make sudoku logic accessible to children ages 3 to 7 who have not yet learned numbers' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Picture sudoku puzzle worksheet for KDP book interior', caption: 'Picture sudoku worksheet — 4x4 grids with clear images and generous cell sizing for comfortable solving by young children' },
-      { src: '/samples/english/math puzzle/Math Puzzles (5).webp', alt: 'Math puzzle worksheet for companion KDP puzzle catalog', caption: 'Math puzzle — number-based logic puzzles complement sudoku naturally in variety puzzle books and cross-promote through your author page' },
+      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku puzzle worksheet for KDP book interior', caption: 'Picture sudoku worksheet — 4x4 grids with clear images and generous cell sizing for comfortable solving by young children' },
+      { src: '/samples/english/math puzzle/Math Puzzles (10).webp', alt: 'Math puzzle worksheet for companion KDP puzzle catalog', caption: 'Math puzzle — number-based logic puzzles complement sudoku naturally in variety puzzle books and cross-promote through your author page' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'How to Create Picture Sudoku Puzzles for Amazon KDP Books — Step-by-Step Tutorial',

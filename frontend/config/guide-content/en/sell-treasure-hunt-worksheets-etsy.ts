@@ -180,14 +180,14 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/english/treasure hunt/Treasure Hunt 1.webp', alt: 'Treasure hunt worksheet with Basic directional clues on 5x5 coordinate grid', caption: 'Basic mode treasure hunt puzzle with directional clues and themed animal landmarks on a 5x5 grid' },
       { src: '/samples/english/treasure hunt/north south.webp', alt: 'Cardinal direction treasure hunt worksheet using compass vocabulary', caption: 'Cardinal mode using north, south, east, west vocabulary for elementary geography curricula' },
-      { src: '/samples/english/treasure hunt/Treasure Hunt 1 answer_key.webp', alt: 'Auto-generated answer key with highlighted treasure cell', caption: 'Auto-generated answer key with pale yellow highlighted treasure cell for instant verification' },
+      { src: '/samples/english/treasure hunt/north south.webp', alt: 'Auto-generated answer key with highlighted treasure cell', caption: 'Auto-generated answer key with pale yellow highlighted treasure cell for instant verification' },
     ],
   },
 
   themeImages: [
-    { src: '/image-library/animals/lion.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
-    { src: '/image-library/animals/parrot.webp', alt: 'Parrot -- themed educational image', caption: 'Parrot' },
-    { src: '/image-library/animals/monkey.webp', alt: 'Monkey -- themed educational image', caption: 'Monkey' },
+    { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
+    { src: '/image-library/animals/woodpecker.webp', alt: 'Parrot -- themed educational image', caption: 'Parrot' },
+    { src: '/image-library/animals/orangutan.webp', alt: 'Monkey -- themed educational image', caption: 'Monkey' },
     { src: '/image-library/animals/tiger.webp', alt: 'Tiger -- themed educational image', caption: 'Tiger' },
     { src: '/image-library/animals/whale.webp', alt: 'Whale -- themed educational image', caption: 'Whale' },
   ],

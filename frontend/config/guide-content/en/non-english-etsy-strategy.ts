@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle generated in multiple languages for international Etsy sales' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle generated in multiple languages for international Etsy sales' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle with localized vocabulary', caption: 'Word search puzzles adapt vocabulary and filler letters to each target language' },
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Crossword puzzle ready for non-English Etsy listing', caption: 'Crossword puzzles with image clues work across all 11 supported languages' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle with localized vocabulary', caption: 'Word search puzzles adapt vocabulary and filler letters to each target language' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle ready for non-English Etsy listing', caption: 'Crossword puzzles with image clues work across all 11 supported languages' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Non-English Printables for Etsy',
@@ -190,7 +190,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed educational image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed educational image', caption: 'Dog' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- themed educational image', caption: 'Car' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed educational image', caption: 'Horse' },
   ],

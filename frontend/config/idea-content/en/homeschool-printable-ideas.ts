@@ -161,7 +161,7 @@ The year-round purchasing pattern of homeschool families eliminates the seasonal
     { src: '/image-library/classroom/book.webp', alt: 'Book — themed educational image', caption: 'Book' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Cabinet — themed educational image', caption: 'Cabinet' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Calculator — themed educational image', caption: 'Calculator' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calender — themed educational image', caption: 'Calender' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calender — themed educational image', caption: 'Calender' },
   ],
 
 

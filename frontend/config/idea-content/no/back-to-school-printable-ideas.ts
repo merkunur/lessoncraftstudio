@@ -198,12 +198,12 @@ Fra et nøkkelordforskningsperspektiv deler skolestartutskriftbare søk seg i fl
   ],
 
   themeImages: [
-    { src: '/image-library/product line/backpack.webp', alt: 'Ryggsekk — tematisk pedagogisk bilde', caption: 'Ryggsekk' },
-    { src: '/image-library/product line/binder.webp', alt: 'Ringperm — tematisk pedagogisk bilde', caption: 'Ringperm' },
-    { src: '/image-library/product line/book.webp', alt: 'Bok — tematisk pedagogisk bilde', caption: 'Bok' },
-    { src: '/image-library/product line/cabinet.webp', alt: 'Skap — tematisk pedagogisk bilde', caption: 'Skap' },
-    { src: '/image-library/product line/calculator.webp', alt: 'Kalkulator — tematisk pedagogisk bilde', caption: 'Kalkulator' },
-    { src: '/image-library/product line/calender.webp', alt: 'Kalender — tematisk pedagogisk bilde', caption: 'Kalender' },
+    { src: '/image-library/classroom/backpack.webp', alt: 'Ryggsekk — tematisk pedagogisk bilde', caption: 'Ryggsekk' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Ringperm — tematisk pedagogisk bilde', caption: 'Ringperm' },
+    { src: '/image-library/classroom/book.webp', alt: 'Bok — tematisk pedagogisk bilde', caption: 'Bok' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Skap — tematisk pedagogisk bilde', caption: 'Skap' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalkulator — tematisk pedagogisk bilde', caption: 'Kalkulator' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalender — tematisk pedagogisk bilde', caption: 'Kalender' },
   ],
 
 

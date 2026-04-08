@@ -176,17 +176,17 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/Sudoku 1.webp', alt: 'Picture sudoku puzzle generated for KDP book interior showing 4x4 image grid' },
+    heroImage: { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku puzzle generated for KDP book interior showing 4x4 image grid' },
     samples: [
-      { src: '/samples/english/sudoku/Sudoku 1.webp', alt: 'Picture sudoku puzzle page ready for KDP manuscript', caption: 'A themed 4x4 picture sudoku puzzle exported as a 300 DPI PDF for KDP book interior' },
-      { src: '/samples/english/sudoku/Sudoku 1.webp', alt: 'Picture sudoku answer key showing complete solution', caption: 'Automatic answer key showing the solved grid with all images placed correctly' },
+      { src: '/samples/english/sudoku/sudoku hard.webp', alt: 'Picture sudoku puzzle page ready for KDP manuscript', caption: 'A themed 4x4 picture sudoku puzzle exported as a 300 DPI PDF for KDP book interior' },
+      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku answer key showing complete solution', caption: 'Automatic answer key showing the solved grid with all images placed correctly' },
     ],
   },
 
   themeImages: [
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe -- themed educational image', caption: 'Giraffe' },
-    { src: '/image-library/animals/lion.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
+    { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
     { src: '/image-library/animals/penguin.webp', alt: 'Penguin -- themed educational image', caption: 'Penguin' },
     { src: '/image-library/animals/turtle.webp', alt: 'Turtle -- themed educational image', caption: 'Turtle' },
   ],

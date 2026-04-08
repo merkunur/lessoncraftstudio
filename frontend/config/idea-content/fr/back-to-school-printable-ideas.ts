@@ -197,7 +197,7 @@ Du point de vue de la recherche de mots-clés, les recherches d\'imprimables de 
     { src: '/image-library/classroom/book.webp', alt: 'Livre — image éducative thématique', caption: 'Livre' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Armoire — image éducative thématique', caption: 'Armoire' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Calculatrice — image éducative thématique', caption: 'Calculatrice' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendrier — image éducative thématique', caption: 'Calendrier' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calendrier — image éducative thématique', caption: 'Calendrier' },
   ],
 
 

@@ -176,21 +176,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math-worksheet/Math Worksheet 1.webp', alt: 'Math worksheet with progressive difficulty problems formatted for KDP workbook interior' },
+    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Math worksheet with progressive difficulty problems formatted for KDP workbook interior' },
     samples: [
-      { src: '/samples/english/addition/Addition 1.webp', alt: 'Addition worksheet page with graded problems ready for KDP manuscript', caption: 'An addition worksheet page with progressive difficulty exported as a print-ready PDF for KDP' },
-      { src: '/samples/english/subtraction/Subtraction 1.webp', alt: 'Subtraction worksheet with answer key', caption: 'A subtraction worksheet with automatic answer key -- every problem solution verified' },
+      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet page with graded problems ready for KDP manuscript', caption: 'An addition worksheet page with progressive difficulty exported as a print-ready PDF for KDP' },
+      { src: '/samples/english/subtraction/cross out.webp', alt: 'Subtraction worksheet with answer key', caption: 'A subtraction worksheet with automatic answer key -- every problem solution verified' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create a Math Workbook for Amazon KDP',
   },
 
   themeImages: [
-    { src: '/image-library/school/pencil.webp', alt: 'Pencil -- themed educational image', caption: 'Pencil' },
-    { src: '/image-library/school/book.webp', alt: 'Book -- themed educational image', caption: 'Book' },
-    { src: '/image-library/school/ruler.webp', alt: 'Ruler -- themed educational image', caption: 'Ruler' },
-    { src: '/image-library/school/calculator.webp', alt: 'Calculator -- themed educational image', caption: 'Calculator' },
-    { src: '/image-library/school/backpack.webp', alt: 'Backpack -- themed educational image', caption: 'Backpack' },
+    { src: '/image-library/classroom/book.webp', alt: 'Pencil -- themed educational image', caption: 'Pencil' },
+    { src: '/image-library/classroom/book.webp', alt: 'Book -- themed educational image', caption: 'Book' },
+    { src: '/image-library/classroom/backpack.webp', alt: 'Ruler -- themed educational image', caption: 'Ruler' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calculator -- themed educational image', caption: 'Calculator' },
+    { src: '/image-library/classroom/backpack.webp', alt: 'Backpack -- themed educational image', caption: 'Backpack' },
   ],
 };
 

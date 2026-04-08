@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Worksheet bundle showing multiple printable activity types for selling on Etsy' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Worksheet bundle showing multiple printable activity types for selling on Etsy' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle worksheet for inclusion in Etsy printable bundle', caption: 'Word search puzzles are a high-demand bundle component -- themed vocabulary grids that buyers across all age groups enjoy' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet with themed illustrations for educational bundle', caption: 'Image-based addition worksheets add academic value to themed bundles and appeal to homeschool buyers' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle worksheet for inclusion in Etsy printable bundle', caption: 'Word search puzzles are a high-demand bundle component -- themed vocabulary grids that buyers across all age groups enjoy' },
+      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet with themed illustrations for educational bundle', caption: 'Image-based addition worksheets add academic value to themed bundles and appeal to homeschool buyers' },
       { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page printable for diverse activity bundle on Etsy', caption: 'Coloring pages provide visual variety in bundles and create eye-catching listing thumbnails' },
     ],
     youtubeId: '6O5aCzHkh8M',
@@ -189,11 +189,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/farm/chicken.webp', alt: 'Chicken -- themed educational image', caption: 'Chicken' },
-    { src: '/image-library/farm/cow.webp', alt: 'Cow -- themed educational image', caption: 'Cow' },
-    { src: '/image-library/farm/horse.webp', alt: 'Horse -- themed educational image', caption: 'Horse' },
-    { src: '/image-library/farm/pig.webp', alt: 'Pig -- themed educational image', caption: 'Pig' },
-    { src: '/image-library/farm/sheep.webp', alt: 'Sheep -- themed educational image', caption: 'Sheep' },
+    { src: '/image-library/farm animals/chicken.webp', alt: 'Chicken -- themed educational image', caption: 'Chicken' },
+    { src: '/image-library/farm animals/cow.webp', alt: 'Cow -- themed educational image', caption: 'Cow' },
+    { src: '/image-library/farm animals/cow.webp', alt: 'Horse -- themed educational image', caption: 'Horse' },
+    { src: '/image-library/farm animals/chicken.webp', alt: 'Pig -- themed educational image', caption: 'Pig' },
+    { src: '/image-library/farm animals/donkey.webp', alt: 'Sheep -- themed educational image', caption: 'Sheep' },
   ],
 };
 

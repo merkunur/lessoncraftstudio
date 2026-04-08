@@ -179,7 +179,7 @@ For sellers evaluating which printable niches to enter in 2026, the decision fra
   ],
 
   themeImages: [
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
     { src: '/image-library/animals/fox.webp', alt: 'Fox -- themed educational image', caption: 'Fox' },
     { src: '/image-library/animals/owl.webp', alt: 'Owl -- themed educational image', caption: 'Owl' },

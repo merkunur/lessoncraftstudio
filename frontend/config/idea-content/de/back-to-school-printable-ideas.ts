@@ -203,7 +203,7 @@ Aus der Perspektive der Keyword-Recherche teilen sich Schulanfang-Druckvorlagen-
     { src: '/image-library/classroom/book.webp', alt: 'Buch — thematisches Lernbild', caption: 'Buch' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Schrank — thematisches Lernbild', caption: 'Schrank' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Taschenrechner — thematisches Lernbild', caption: 'Taschenrechner' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — thematisches Lernbild', caption: 'Kalender' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalender — thematisches Lernbild', caption: 'Kalender' },
   ],
 
 

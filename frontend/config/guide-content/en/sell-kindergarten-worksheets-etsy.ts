@@ -177,10 +177,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Kindergarten addition worksheet with themed images for selling on Etsy' },
+    heroImage: { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Kindergarten addition worksheet with themed images for selling on Etsy' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet with animal theme showing visual counting exercises for kindergarten', caption: 'Animal addition worksheet -- the top-selling kindergarten math format on Etsy' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle with themed vocabulary for kindergarten literacy activities', caption: 'Themed word search puzzle for kindergarten -- builds vocabulary and spelling recognition' },
+      { src: '/samples/english/addition/Addition Fun 11.webp', alt: 'Addition worksheet with animal theme showing visual counting exercises for kindergarten', caption: 'Animal addition worksheet -- the top-selling kindergarten math format on Etsy' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle with themed vocabulary for kindergarten literacy activities', caption: 'Themed word search puzzle for kindergarten -- builds vocabulary and spelling recognition' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Kindergarten Worksheets to Sell on Etsy',

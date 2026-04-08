@@ -142,12 +142,12 @@ Kilpailutilanne 1. luokan tulostettavissa on vilkas mutta hajanainen. Suurin osa
   ],
 
   themeImages: [
-    { src: '/image-library/product line/backpack.webp', alt: 'Backpack — temaattinen opetuskuva', caption: 'Backpack' },
-    { src: '/image-library/product line/binder.webp', alt: 'Binder — temaattinen opetuskuva', caption: 'Binder' },
-    { src: '/image-library/product line/book.webp', alt: 'Book — temaattinen opetuskuva', caption: 'Book' },
-    { src: '/image-library/product line/cabinet.webp', alt: 'Cabinet — temaattinen opetuskuva', caption: 'Cabinet' },
-    { src: '/image-library/product line/calculator.webp', alt: 'Calculator — temaattinen opetuskuva', caption: 'Calculator' },
-    { src: '/image-library/product line/calender.webp', alt: 'Calender — temaattinen opetuskuva', caption: 'Calender' },
+    { src: '/image-library/classroom/backpack.webp', alt: 'Backpack — temaattinen opetuskuva', caption: 'Backpack' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Binder — temaattinen opetuskuva', caption: 'Binder' },
+    { src: '/image-library/classroom/book.webp', alt: 'Book — temaattinen opetuskuva', caption: 'Book' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Cabinet — temaattinen opetuskuva', caption: 'Cabinet' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calculator — temaattinen opetuskuva', caption: 'Calculator' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calender — temaattinen opetuskuva', caption: 'Calender' },
   ],
 
 

@@ -177,7 +177,7 @@ Cross-platform revenue potential amplifies the profitability of worksheet niches
   themeImages: [
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed educational image', caption: 'Horse' },
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe -- themed educational image', caption: 'Giraffe' },
-    { src: '/image-library/animals/monkey.webp', alt: 'Monkey -- themed educational image', caption: 'Monkey' },
+    { src: '/image-library/animals/orangutan.webp', alt: 'Monkey -- themed educational image', caption: 'Monkey' },
     { src: '/image-library/animals/panda.webp', alt: 'Panda -- themed educational image', caption: 'Panda' },
     { src: '/image-library/animals/zebra.webp', alt: 'Zebra -- themed educational image', caption: 'Zebra' },
   ],

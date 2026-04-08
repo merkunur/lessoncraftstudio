@@ -181,12 +181,12 @@ Forældrekøbersegmentet når sin toppmotivation i 3. klasse fordi højrisiko st
   ],
 
   themeImages: [
-    { src: '/image-library/store/backpack.webp', alt: 'Rygsæk — tematisk pædagogisk billede', caption: 'Rygsæk' },
-    { src: '/image-library/store/binder.webp', alt: 'Ringbind — tematisk pædagogisk billede', caption: 'Ringbind' },
-    { src: '/image-library/store/book.webp', alt: 'Bog — tematisk pædagogisk billede', caption: 'Bog' },
-    { src: '/image-library/store/cabinet.webp', alt: 'Skab — tematisk pædagogisk billede', caption: 'Skab' },
-    { src: '/image-library/store/calculator.webp', alt: 'Lommeregner — tematisk pædagogisk billede', caption: 'Lommeregner' },
-    { src: '/image-library/store/calender.webp', alt: 'Kalender — tematisk pædagogisk billede', caption: 'Kalender' },
+    { src: '/image-library/classroom/backpack.webp', alt: 'Rygsæk — tematisk pædagogisk billede', caption: 'Rygsæk' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Ringbind — tematisk pædagogisk billede', caption: 'Ringbind' },
+    { src: '/image-library/classroom/book.webp', alt: 'Bog — tematisk pædagogisk billede', caption: 'Bog' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Skab — tematisk pædagogisk billede', caption: 'Skab' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Lommeregner — tematisk pædagogisk billede', caption: 'Lommeregner' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalender — tematisk pædagogisk billede', caption: 'Kalender' },
   ],
 
 

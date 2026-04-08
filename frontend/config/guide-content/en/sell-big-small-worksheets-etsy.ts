@@ -178,19 +178,19 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/big-small/Big Small 1.webp', alt: 'Size comparison worksheet showing big and small objects for preschool learners' },
+    heroImage: { src: '/samples/english/big small/big-small-different images.webp', alt: 'Size comparison worksheet showing big and small objects for preschool learners' },
     samples: [
-      { src: '/samples/english/big-small/Big Small 1.webp', alt: 'Big and small worksheet with circle the biggest question type', caption: 'Circle the biggest -- the most popular size comparison question type for pre-K worksheets' },
-      { src: '/samples/english/big-small/Big Small 1.webp', alt: 'Size comparison worksheet with order by size activity', caption: 'Order by size worksheets develop sequencing skills alongside visual discrimination' },
+      { src: '/samples/english/big small/big-small identical images.webp', alt: 'Big and small worksheet with circle the biggest question type', caption: 'Circle the biggest -- the most popular size comparison question type for pre-K worksheets' },
+      { src: '/samples/english/big small/big-small-different images.webp', alt: 'Size comparison worksheet with order by size activity', caption: 'Order by size worksheets develop sequencing skills alongside visual discrimination' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Big & Small Worksheets to Sell on Etsy',
   },
 
   themeImages: [
-    { src: '/image-library/animals/cow.webp', alt: 'Cow -- themed educational image for size comparison', caption: 'Cow' },
+    { src: '/image-library/animals/horse.webp', alt: 'Cow -- themed educational image for size comparison', caption: 'Cow' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed educational image for size comparison', caption: 'Horse' },
-    { src: '/image-library/animals/chicken.webp', alt: 'Chicken -- themed educational image for size comparison', caption: 'Chicken' },
+    { src: '/image-library/animals/duck.webp', alt: 'Chicken -- themed educational image for size comparison', caption: 'Chicken' },
     { src: '/image-library/animals/pig.webp', alt: 'Pig -- themed educational image for size comparison', caption: 'Pig' },
     { src: '/image-library/animals/sheep.webp', alt: 'Sheep -- themed educational image for size comparison', caption: 'Sheep' },
   ],

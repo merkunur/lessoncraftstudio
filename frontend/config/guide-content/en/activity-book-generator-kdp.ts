@@ -182,17 +182,17 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/Coloring 1.webp', alt: 'Mixed activity book pages showing coloring, word search, and maze activities generated for KDP' },
+    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Mixed activity book pages showing coloring, word search, and maze activities generated for KDP' },
     samples: [
-      { src: '/samples/english/coloring/Coloring 1.webp', alt: 'Coloring page generated for KDP activity book interior', caption: 'A themed coloring page exported at 300 DPI for KDP activity book manuscript' },
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle page for mixed activity book', caption: 'A themed word search puzzle with automatic answer key for activity book compilation' },
+      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page generated for KDP activity book interior', caption: 'A themed coloring page exported at 300 DPI for KDP activity book manuscript' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle page for mixed activity book', caption: 'A themed word search puzzle with automatic answer key for activity book compilation' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Mixed Activity Books for Amazon KDP',
   },
 
   themeImages: [
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
     { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin -- themed educational image', caption: 'Dolphin' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed educational image', caption: 'Horse' },

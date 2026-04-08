@@ -176,21 +176,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Picture crossword puzzle with image clues formatted for KDP book interior' },
+    heroImage: { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Picture crossword puzzle with image clues formatted for KDP book interior' },
     samples: [
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Picture crossword puzzle page with 15x15 grid and image clues', caption: 'A themed picture crossword puzzle with image clues exported as a print-ready PDF for KDP' },
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Crossword answer key showing completed grid', caption: 'Automatic answer key with all entries filled -- generated alongside every puzzle' },
+      { src: '/samples/english/crossword/crossword_worksheet (11).webp', alt: 'Picture crossword puzzle page with 15x15 grid and image clues', caption: 'A themed picture crossword puzzle with image clues exported as a print-ready PDF for KDP' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword answer key showing completed grid', caption: 'Automatic answer key with all entries filled -- generated alongside every puzzle' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create a Picture Crossword Book for Amazon KDP',
   },
 
   themeImages: [
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
-    { src: '/image-library/food/banana.webp', alt: 'Banana -- themed educational image', caption: 'Banana' },
-    { src: '/image-library/food/bread.webp', alt: 'Bread -- themed educational image', caption: 'Bread' },
-    { src: '/image-library/food/cake.webp', alt: 'Cake -- themed educational image', caption: 'Cake' },
-    { src: '/image-library/food/cheese.webp', alt: 'Cheese -- themed educational image', caption: 'Cheese' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Banana -- themed educational image', caption: 'Banana' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Bread -- themed educational image', caption: 'Bread' },
+    { src: '/image-library/fruits/cherry.webp', alt: 'Cake -- themed educational image', caption: 'Cake' },
+    { src: '/image-library/fruits/clementine.webp', alt: 'Cheese -- themed educational image', caption: 'Cheese' },
   ],
 };
 

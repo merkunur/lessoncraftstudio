@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/cryptogram/Cryptogram 1.webp', alt: 'Cryptogram picture cipher puzzle worksheet ready for Etsy listing' },
+    heroImage: { src: '/samples/english/cryptogram/cryptogram_worksheet (10).webp', alt: 'Cryptogram picture cipher puzzle worksheet ready for Etsy listing' },
     samples: [
-      { src: '/samples/english/cryptogram/Cryptogram 1.webp', alt: 'Picture cryptogram puzzle with themed symbols and decoder key', caption: 'A themed picture cryptogram exported at 300 DPI for Etsy product listing' },
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search companion product for Etsy puzzle variety pack', caption: 'Word search puzzles complement cryptograms in cross-format Etsy bundles' },
+      { src: '/samples/english/cryptogram/cryptogram_worksheet (11).webp', alt: 'Picture cryptogram puzzle with themed symbols and decoder key', caption: 'A themed picture cryptogram exported at 300 DPI for Etsy product listing' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search companion product for Etsy puzzle variety pack', caption: 'Word search puzzles complement cryptograms in cross-format Etsy bundles' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Cryptogram Puzzles to Sell on Etsy',
@@ -189,8 +189,8 @@ const content: GuideContent = {
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed educational image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed educational image', caption: 'Dog' },
     { src: '/image-library/animals/bat.webp', alt: 'Bat -- themed educational image', caption: 'Bat' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
   ],
 };
 

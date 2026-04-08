@@ -178,21 +178,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Printable product localized into multiple languages for international sales' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Printable product localized into multiple languages for international sales' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle ready for localization into 10 languages', caption: 'One word search concept becomes 11 products across all supported languages' },
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Crossword puzzle for multi-language localization', caption: 'Crossword puzzles with image clues localize seamlessly across all 11 languages' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle ready for localization into 10 languages', caption: 'One word search concept becomes 11 products across all supported languages' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle for multi-language localization', caption: 'Crossword puzzles with image clues localize seamlessly across all 11 languages' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Localize Printables for International Sales',
   },
 
   themeImages: [
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
-    { src: '/image-library/food/cake.webp', alt: 'Cake -- themed educational image', caption: 'Cake' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/fruits/cherry.webp', alt: 'Cake -- themed educational image', caption: 'Cake' },
     { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin -- themed educational image', caption: 'Dolphin' },
     { src: '/image-library/vehicles/airplane.webp', alt: 'Airplane -- themed educational image', caption: 'Airplane' },
-    { src: '/image-library/animals/parrot.webp', alt: 'Parrot -- themed educational image', caption: 'Parrot' },
+    { src: '/image-library/animals/woodpecker.webp', alt: 'Parrot -- themed educational image', caption: 'Parrot' },
   ],
 };
 

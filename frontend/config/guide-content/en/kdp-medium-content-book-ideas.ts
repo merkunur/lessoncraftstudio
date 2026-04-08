@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Medium content puzzle book page showing word search grid for Amazon KDP' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Medium content puzzle book page showing word search grid for Amazon KDP' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle for KDP puzzle book interior', caption: 'Word search puzzle -- the most popular medium content book type on Amazon KDP' },
-      { src: '/samples/english/addition/Addition 1.webp', alt: 'Addition worksheet for KDP math workbook', caption: 'Addition worksheet with auto-generated answer key for math workbook production' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle for KDP puzzle book interior', caption: 'Word search puzzle -- the most popular medium content book type on Amazon KDP' },
+      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet for KDP math workbook', caption: 'Addition worksheet with auto-generated answer key for math workbook production' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Medium Content Books for Amazon KDP',

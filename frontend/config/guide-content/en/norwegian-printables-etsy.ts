@@ -178,19 +178,19 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Norwegian word search puzzle generated with LessonCraftStudio showing Norwegian vocabulary with special characters' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Norwegian word search puzzle generated with LessonCraftStudio showing Norwegian vocabulary with special characters' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Norwegian word search worksheet ready for Etsy listing', caption: 'A themed Norwegian word search puzzle with native Bokmal vocabulary and automatic answer key' },
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Norwegian crossword puzzle with image clues', caption: 'Norwegian crossword puzzle using image-based clues with correct special character handling' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Norwegian word search worksheet ready for Etsy listing', caption: 'A themed Norwegian word search puzzle with native Bokmal vocabulary and automatic answer key' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Norwegian crossword puzzle with image clues', caption: 'Norwegian crossword puzzle using image-based clues with correct special character handling' },
     ],
   },
 
   themeImages: [
     { src: '/image-library/animals/moose.webp', alt: 'Moose -- themed educational image', caption: 'Elg' },
-    { src: '/image-library/animals/bear.webp', alt: 'Bear -- themed educational image', caption: 'Bjorn' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Bjorn' },
     { src: '/image-library/animals/fox.webp', alt: 'Fox -- themed educational image', caption: 'Rev' },
     { src: '/image-library/animals/whale.webp', alt: 'Whale -- themed educational image', caption: 'Hval' },
-    { src: '/image-library/animals/eagle.webp', alt: 'Eagle -- themed educational image', caption: 'Orn' },
+    { src: '/image-library/animals/vulture.webp', alt: 'Eagle -- themed educational image', caption: 'Orn' },
   ],
 };
 

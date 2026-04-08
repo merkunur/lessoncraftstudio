@@ -178,8 +178,8 @@ The eleven languages our generators support -- English, German, French, Spanish,
   themeImages: [
     { src: '/image-library/animals/panda.webp', alt: 'Panda -- themed educational image', caption: 'Panda' },
     { src: '/image-library/animals/koala.webp', alt: 'Koala -- themed educational image', caption: 'Koala' },
-    { src: '/image-library/animals/flamingo.webp', alt: 'Flamingo -- themed educational image', caption: 'Flamingo' },
-    { src: '/image-library/animals/eagle.webp', alt: 'Eagle -- themed educational image', caption: 'Eagle' },
+    { src: '/image-library/animals/swan.webp', alt: 'Flamingo -- themed educational image', caption: 'Flamingo' },
+    { src: '/image-library/animals/vulture.webp', alt: 'Eagle -- themed educational image', caption: 'Eagle' },
     { src: '/image-library/animals/tiger.webp', alt: 'Tiger -- themed educational image', caption: 'Tiger' },
   ],
 };

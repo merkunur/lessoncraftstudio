@@ -177,10 +177,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/Coloring 1.webp', alt: 'Mixed activity book pages showing coloring, puzzles, and worksheets for KDP' },
+    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Mixed activity book pages showing coloring, puzzles, and worksheets for KDP' },
     samples: [
-      { src: '/samples/english/coloring/Coloring 1.webp', alt: 'Coloring page from a themed activity book', caption: 'Themed coloring page generated for a mixed-activity book compilation' },
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle from an activity book', caption: 'Themed word search puzzle with answer key -- one of many activity types in a compilation' },
+      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page from a themed activity book', caption: 'Themed coloring page generated for a mixed-activity book compilation' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle from an activity book', caption: 'Themed word search puzzle with answer key -- one of many activity types in a compilation' },
     ],
   },
 
@@ -188,8 +188,8 @@ const content: GuideContent = {
     { src: '/image-library/animals/turtle.webp', alt: 'Turtle -- themed image for activity book content', caption: 'Turtle' },
     { src: '/image-library/animals/owl.webp', alt: 'Owl -- themed image for activity book content', caption: 'Owl' },
     { src: '/image-library/animals/fox.webp', alt: 'Fox -- themed image for activity book content', caption: 'Fox' },
-    { src: '/image-library/animals/deer.webp', alt: 'Deer -- themed image for activity book content', caption: 'Deer' },
-    { src: '/image-library/animals/squirrel.webp', alt: 'Squirrel -- themed image for activity book content', caption: 'Squirrel' },
+    { src: '/image-library/animals/moose.webp', alt: 'Deer -- themed image for activity book content', caption: 'Deer' },
+    { src: '/image-library/animals/raccoon.webp', alt: 'Squirrel -- themed image for activity book content', caption: 'Squirrel' },
   ],
 };
 

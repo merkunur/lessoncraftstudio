@@ -186,7 +186,7 @@ Helårs-købsmønsteret hos hjemmeundervisningsfamilier eliminerer den sæsonbes
     { src: '/image-library/classroom/book.webp', alt: 'Bog — tematisk pædagogisk billede', caption: 'Bog' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Skab — tematisk pædagogisk billede', caption: 'Skab' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Lommeregner — tematisk pædagogisk billede', caption: 'Lommeregner' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — tematisk pædagogisk billede', caption: 'Kalender' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalender — tematisk pædagogisk billede', caption: 'Kalender' },
   ],
 
 

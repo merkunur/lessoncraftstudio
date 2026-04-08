@@ -202,7 +202,7 @@ Från ett nyckelordsperspektiv delar sig sökningar efter skolstartutskrifter i 
     { src: '/image-library/classroom/book.webp', alt: 'Bok — tematiserad pedagogisk bild', caption: 'Bok' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Skåp — tematiserad pedagogisk bild', caption: 'Skåp' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Miniräknare — tematiserad pedagogisk bild', caption: 'Miniräknare' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — tematiserad pedagogisk bild', caption: 'Kalender' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalender — tematiserad pedagogisk bild', caption: 'Kalender' },
   ],
 
 

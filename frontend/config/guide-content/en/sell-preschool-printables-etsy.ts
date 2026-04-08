@@ -177,10 +177,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/drawing lines/drawing_lines_horizontal.webp', alt: 'Tracing worksheet for preschool showing pre-writing path exercises for Etsy' },
+    heroImage: { src: '/samples/english/drawing lines/drawing_lines_curve 1.webp', alt: 'Tracing worksheet for preschool showing pre-writing path exercises for Etsy' },
     samples: [
-      { src: '/samples/english/drawing lines/drawing_lines_horizontal.webp', alt: 'Pre-writing tracing worksheet with animal theme for toddler fine motor development', caption: 'Tracing worksheet for ages 2-3 -- the top-selling preschool printable format on Etsy' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet with draw-a-line pairs for preschool visual discrimination', caption: 'Draw-a-line matching activity using the animals theme -- builds visual discrimination skills for ages 2-5' },
+      { src: '/samples/english/drawing lines/drawing_lines_curve 2.webp', alt: 'Pre-writing tracing worksheet with animal theme for toddler fine motor development', caption: 'Tracing worksheet for ages 2-3 -- the top-selling preschool printable format on Etsy' },
+      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet with draw-a-line pairs for preschool visual discrimination', caption: 'Draw-a-line matching activity using the animals theme -- builds visual discrimination skills for ages 2-5' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Preschool Printables to Sell on Etsy',

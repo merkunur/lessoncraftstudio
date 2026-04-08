@@ -184,19 +184,19 @@ const content: GuideContent = {
     heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page printable for selling educational resources on Creative Fabrica marketplace' },
     samples: [
       { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Printable coloring page for Creative Fabrica Learning section', caption: 'Coloring pages bridge the gap between craft and education on Creative Fabrica — appealing to both designer and buyer audiences' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet activity for Creative Fabrica educational products', caption: 'Themed matching activities are high-demand resources in Creative Fabrica\'s Learning section' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle printable for Creative Fabrica marketplace', caption: 'Word search puzzles attract subscription downloads from both buyers on Creative Fabrica' },
+      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet activity for Creative Fabrica educational products', caption: 'Themed matching activities are high-demand resources in Creative Fabrica\'s Learning section' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle printable for Creative Fabrica marketplace', caption: 'Word search puzzles attract subscription downloads from both buyers on Creative Fabrica' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Educational Worksheets for Creative Fabrica',
   },
 
   themeImages: [
-    { src: '/image-library/farm%20animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
-    { src: '/image-library/farm%20animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
-    { src: '/image-library/farm%20animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
-    { src: '/image-library/farm%20animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
+    { src: '/image-library/farm animals/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
+    { src: '/image-library/farm animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
+    { src: '/image-library/farm animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
+    { src: '/image-library/farm animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
+    { src: '/image-library/farm animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
   ],
 };
 

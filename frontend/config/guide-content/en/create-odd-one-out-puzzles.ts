@@ -181,10 +181,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Odd one out worksheet with four images per exercise row showing three common items and one odd item with coral-amber-turquoise header' },
+    heroImage: { src: '/samples/english/odd one out/Find the Odd One Out (10).webp', alt: 'Odd one out worksheet with four images per exercise row showing three common items and one odd item with coral-amber-turquoise header' },
     samples: [
-      { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Odd one out worksheet showing exercise cards with four images per row and styled Find the Odd One Out header', caption: 'Odd one out worksheet with four-image exercise rows and adaptive column layout' },
-      { src: '/samples/english/odd one out/Find the Odd One Out answer-key.webp', alt: 'Auto-generated answer key with red circle outlines drawn around the odd item in each exercise row', caption: 'Auto-generated answer key with red circle markers identifying the odd item in each row' },
+      { src: '/samples/english/odd one out/Find the Odd One Out (11).webp', alt: 'Odd one out worksheet showing exercise cards with four images per row and styled Find the Odd One Out header', caption: 'Odd one out worksheet with four-image exercise rows and adaptive column layout' },
+      { src: '/samples/english/odd one out/Find the Odd One Out (10).webp', alt: 'Auto-generated answer key with red circle outlines drawn around the odd item in each exercise row', caption: 'Auto-generated answer key with red circle markers identifying the odd item in each row' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'How to Create Odd One Out Puzzles — Complete Tutorial',

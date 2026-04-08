@@ -206,7 +206,7 @@ Vanuit een zoekwoordenperspectief splitsen terug-naar-school printable-zoekopdra
     { src: '/image-library/classroom/book.webp', alt: 'Boek — educatieve thema-afbeelding terug naar school', caption: 'Boek' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Kast — educatieve thema-afbeelding terug naar school', caption: 'Kast' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Rekenmachine — educatieve thema-afbeelding terug naar school', caption: 'Rekenmachine' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — educatieve thema-afbeelding terug naar school', caption: 'Kalender' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalender — educatieve thema-afbeelding terug naar school', caption: 'Kalender' },
   ],
 
   youtubeId: '0cOPi7eajLs',

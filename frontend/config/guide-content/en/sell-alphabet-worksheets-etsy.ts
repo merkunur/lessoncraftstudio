@@ -178,21 +178,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Alphabet train worksheet with colorful letter cars for selling on Etsy' },
+    heroImage: { src: '/samples/english/alphabet train/Alphabet Train 10.webp', alt: 'Alphabet train worksheet with colorful letter cars for selling on Etsy' },
     samples: [
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Colorful alphabet train worksheet showing letter-image matching activity', caption: 'Alphabet train worksheets feature colorful train cars with letter-image matching -- visually distinctive products that stand out on Etsy' },
-      { src: '/samples/english/writing/Writing 1.webp', alt: 'Letter tracing worksheet with stroke-order arrows as companion alphabet product', caption: 'Letter tracing worksheets with stroke-order arrows complement alphabet train products by teaching letter formation' },
-      { src: '/samples/english/matching/Matching 1.webp', alt: 'Letter matching worksheet for alphabet recognition assessment', caption: 'Matching worksheets test letter recognition through interactive puzzles -- the third pillar of a complete alphabet product line' },
+      { src: '/samples/english/alphabet train/Alphabet Train 11.webp', alt: 'Colorful alphabet train worksheet showing letter-image matching activity', caption: 'Alphabet train worksheets feature colorful train cars with letter-image matching -- visually distinctive products that stand out on Etsy' },
+      { src: '/samples/english/writing/writing.webp', alt: 'Letter tracing worksheet with stroke-order arrows as companion alphabet product', caption: 'Letter tracing worksheets with stroke-order arrows complement alphabet train products by teaching letter formation' },
+      { src: '/samples/english/matching/image and custom word.webp', alt: 'Letter matching worksheet for alphabet recognition assessment', caption: 'Matching worksheets test letter recognition through interactive puzzles -- the third pillar of a complete alphabet product line' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Alphabet Worksheets for Etsy',
   },
 
   themeImages: [
-    { src: '/image-library/animals/bear.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe -- themed educational image', caption: 'Giraffe' },
-    { src: '/image-library/animals/lion.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
+    { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
     { src: '/image-library/animals/zebra.webp', alt: 'Zebra -- themed educational image', caption: 'Zebra' },
   ],
 };

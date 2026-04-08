@@ -169,11 +169,11 @@ The international KDP market offers additional revenue opportunities for activit
   ],
 
   themeImages: [
-    { src: '/image-library/animals/dinosaur.webp', alt: 'Dinosaur -- themed educational image', caption: 'Dinosaur' },
-    { src: '/image-library/animals/cow.webp', alt: 'Cow -- themed educational image', caption: 'Cow' },
-    { src: '/image-library/animals/shark.webp', alt: 'Shark -- themed educational image', caption: 'Shark' },
+    { src: '/image-library/animals/iguana.webp', alt: 'Dinosaur -- themed educational image', caption: 'Dinosaur' },
+    { src: '/image-library/animals/horse.webp', alt: 'Cow -- themed educational image', caption: 'Cow' },
+    { src: '/image-library/animals/whale.webp', alt: 'Shark -- themed educational image', caption: 'Shark' },
     { src: '/image-library/animals/zebra.webp', alt: 'Zebra -- themed educational image', caption: 'Zebra' },
-    { src: '/image-library/animals/frog.webp', alt: 'Frog -- themed educational image', caption: 'Frog' },
+    { src: '/image-library/animals/iguana.webp', alt: 'Frog -- themed educational image', caption: 'Frog' },
   ],
 };
 

@@ -178,19 +178,19 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Dutch word search puzzle generated with LessonCraftStudio showing Dutch vocabulary in themed grid' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Dutch word search puzzle generated with LessonCraftStudio showing Dutch vocabulary in themed grid' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Dutch word search worksheet ready for Etsy listing', caption: 'A themed Dutch word search puzzle with native vocabulary and automatic answer key' },
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Dutch crossword puzzle with image clues', caption: 'Dutch crossword puzzle using image-based clues for clear visual communication' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Dutch word search worksheet ready for Etsy listing', caption: 'A themed Dutch word search puzzle with native vocabulary and automatic answer key' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Dutch crossword puzzle with image clues', caption: 'Dutch crossword puzzle using image-based clues for clear visual communication' },
     ],
   },
 
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed educational image', caption: 'Kat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed educational image', caption: 'Hond' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Appel' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Appel' },
     { src: '/image-library/vehicles/bicycle.webp', alt: 'Bicycle -- themed educational image', caption: 'Fiets' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Vlinder' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Vlinder' },
   ],
 };
 

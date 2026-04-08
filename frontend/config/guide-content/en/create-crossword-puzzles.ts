@@ -181,10 +181,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Crossword puzzle for children with image clues showing themed vocabulary in an intersecting grid' },
+    heroImage: { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle for children with image clues showing themed vocabulary in an intersecting grid' },
     samples: [
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Children\'s crossword puzzle with animal theme showing numbered grid and image clues', caption: 'Animal-themed crossword puzzle with image clues for kindergarten and first grade vocabulary practice' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Crossword puzzle answer key showing completed grid with all letters filled in', caption: 'Automatic answer key generated alongside each crossword puzzle' },
+      { src: '/samples/english/crossword/crossword_worksheet (11).webp', alt: 'Children\'s crossword puzzle with animal theme showing numbered grid and image clues', caption: 'Animal-themed crossword puzzle with image clues for kindergarten and first grade vocabulary practice' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle answer key showing completed grid with all letters filled in', caption: 'Automatic answer key generated alongside each crossword puzzle' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'How to Create Crossword Puzzles for Kids — Complete Tutorial',

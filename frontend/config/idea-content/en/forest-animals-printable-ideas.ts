@@ -171,12 +171,12 @@ Pricing analysis shows that forest animals printable products command a slight p
   ],
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Badger — themed educational image', caption: 'Badger' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Beaver — themed educational image', caption: 'Beaver' },
-    { src: '/image-library/forest%20creatures/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
+    { src: '/image-library/forest creatures/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
+    { src: '/image-library/forest creatures/badger.webp', alt: 'Badger — themed educational image', caption: 'Badger' },
+    { src: '/image-library/forest creatures/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
+    { src: '/image-library/forest creatures/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
+    { src: '/image-library/forest creatures/beaver.webp', alt: 'Beaver — themed educational image', caption: 'Beaver' },
+    { src: '/image-library/forest creatures/bee.webp', alt: 'Bee — themed educational image', caption: 'Bee' },
   ],
 
 

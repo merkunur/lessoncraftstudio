@@ -177,10 +177,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math-worksheet/Math Worksheet 1.webp', alt: 'Math worksheet generated for Teachers Pay Teachers store listing' },
+    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Math worksheet generated for Teachers Pay Teachers store listing' },
     samples: [
-      { src: '/samples/english/math-worksheet/Math Worksheet 1.webp', alt: 'Addition worksheet ready for TPT listing with answer key', caption: 'A professional math worksheet exported at 300 DPI for TPT product listing' },
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle formatted for TPT educational marketplace', caption: 'Themed word search puzzle ready for TPT listing with automatic answer key' },
+      { src: '/samples/english/math worksheet/Math Worksheet 11.webp', alt: 'Addition worksheet ready for TPT listing with answer key', caption: 'A professional math worksheet exported at 300 DPI for TPT product listing' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle formatted for TPT educational marketplace', caption: 'Themed word search puzzle ready for TPT listing with automatic answer key' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Printable Worksheets for Teachers Pay Teachers',
@@ -189,9 +189,9 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed educational image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed educational image', caption: 'Dog' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- themed educational image', caption: 'Car' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
   ],
 };
 

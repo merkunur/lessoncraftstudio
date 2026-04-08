@@ -169,7 +169,7 @@ De diversiteit aan thuisonderwijsmethodieken creëert vraag naar gevarieerde pro
     { src: '/image-library/classroom/book.webp', alt: 'Boek — educatieve thema-afbeelding thuisonderwijs', caption: 'Boek' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Kast — educatieve thema-afbeelding thuisonderwijs', caption: 'Kast' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Rekenmachine — educatieve thema-afbeelding thuisonderwijs', caption: 'Rekenmachine' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — educatieve thema-afbeelding thuisonderwijs', caption: 'Kalender' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalender — educatieve thema-afbeelding thuisonderwijs', caption: 'Kalender' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

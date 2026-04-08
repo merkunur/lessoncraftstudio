@@ -177,19 +177,19 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/alphabet-train/Alphabet Train 2.webp', alt: 'Alphabet train worksheet with colorful letter-themed train cars' },
+    heroImage: { src: '/samples/english/alphabet train/Alphabet Train 10.webp', alt: 'Alphabet train worksheet with colorful letter-themed train cars' },
     samples: [
-      { src: '/samples/english/alphabet-train/Alphabet Train 2.webp', alt: 'Alphabet train cut-and-paste activity for preschool letter learning', caption: 'Alphabet train worksheet with themed images on each train car -- letter recognition through visual association' },
-      { src: '/samples/english/alphabet-train/Alphabet Train 3.webp', alt: 'Train-themed letter recognition worksheet ready for Etsy', caption: 'Professional 300 DPI output ready for Etsy digital download listing' },
+      { src: '/samples/english/alphabet train/Alphabet Train 11.webp', alt: 'Alphabet train cut-and-paste activity for preschool letter learning', caption: 'Alphabet train worksheet with themed images on each train car -- letter recognition through visual association' },
+      { src: '/samples/english/alphabet train/Alphabet Train 10.webp', alt: 'Train-themed letter recognition worksheet ready for Etsy', caption: 'Professional 300 DPI output ready for Etsy digital download listing' },
     ],
   },
 
   themeImages: [
-    { src: '/image-library/animals/bear.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
-    { src: '/image-library/food/cherry.webp', alt: 'Cherry -- themed educational image', caption: 'Cherry' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
+    { src: '/image-library/fruits/cherry.webp', alt: 'Cherry -- themed educational image', caption: 'Cherry' },
     { src: '/image-library/vehicles/bus.webp', alt: 'Bus -- themed educational image', caption: 'Bus' },
     { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin -- themed educational image', caption: 'Dolphin' },
-    { src: '/image-library/animals/eagle.webp', alt: 'Eagle -- themed educational image', caption: 'Eagle' },
+    { src: '/image-library/animals/vulture.webp', alt: 'Eagle -- themed educational image', caption: 'Eagle' },
   ],
 };
 

@@ -178,22 +178,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/find objects/spotworks_worksheet.webp', alt: 'I-Spy hidden object worksheet with themed images for selling on Etsy' },
+    heroImage: { src: '/samples/english/find objects/spotworks_worksheet (10).webp', alt: 'I-Spy hidden object worksheet with themed images for selling on Etsy' },
     samples: [
-      { src: '/samples/english/find objects/spotworks_worksheet.webp', alt: 'Hidden object I-Spy worksheet showing themed search scene', caption: 'I-Spy hidden object worksheet with themed images -- visually rich products that stand out in Etsy search results' },
-      { src: '/samples/english/find and count/Find and Count 1.webp', alt: 'Find and Count worksheet for visual puzzle Etsy listings', caption: 'Find and Count worksheets add a math dimension to visual puzzles -- children count objects in themed scenes' },
-      { src: '/samples/english/matching/Matching 1.webp', alt: 'Matching worksheet as cross-sell product for I-Spy Etsy shop', caption: 'Matching worksheets use the same themed images as I-Spy products, creating natural cross-sell opportunities' },
+      { src: '/samples/english/find objects/spotworks_worksheet (11).webp', alt: 'Hidden object I-Spy worksheet showing themed search scene', caption: 'I-Spy hidden object worksheet with themed images -- visually rich products that stand out in Etsy search results' },
+      { src: '/samples/english/find and count/I Spy 10.webp', alt: 'Find and Count worksheet for visual puzzle Etsy listings', caption: 'Find and Count worksheets add a math dimension to visual puzzles -- children count objects in themed scenes' },
+      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet as cross-sell product for I-Spy Etsy shop', caption: 'Matching worksheets use the same themed images as I-Spy products, creating natural cross-sell opportunities' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create I-Spy Hidden Object Worksheets for Etsy',
   },
 
   themeImages: [
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolphin -- themed educational image', caption: 'Dolphin' },
-    { src: '/image-library/ocean%20life/jellyfish.webp', alt: 'Jellyfish -- themed educational image', caption: 'Jellyfish' },
-    { src: '/image-library/ocean%20life/seahorse.webp', alt: 'Seahorse -- themed educational image', caption: 'Seahorse' },
-    { src: '/image-library/ocean%20life/starfish.webp', alt: 'Starfish -- themed educational image', caption: 'Starfish' },
-    { src: '/image-library/ocean%20life/whale.webp', alt: 'Whale -- themed educational image', caption: 'Whale' },
+    { src: '/image-library/ocean life/dolphin.webp', alt: 'Dolphin -- themed educational image', caption: 'Dolphin' },
+    { src: '/image-library/ocean life/jellyfish.webp', alt: 'Jellyfish -- themed educational image', caption: 'Jellyfish' },
+    { src: '/image-library/ocean life/angelfish.webp', alt: 'Seahorse -- themed educational image', caption: 'Seahorse' },
+    { src: '/image-library/ocean life/coral.webp', alt: 'Starfish -- themed educational image', caption: 'Starfish' },
+    { src: '/image-library/ocean life/whale.webp', alt: 'Whale -- themed educational image', caption: 'Whale' },
   ],
 };
 

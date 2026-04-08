@@ -179,21 +179,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle page from a KDP word puzzle compilation book' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle page from a KDP word puzzle compilation book' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle with themed vocabulary grid for KDP book', caption: 'Word search puzzles form the largest section of a word puzzle compilation -- 30-40 pages with themed vocabulary' },
-      { src: '/samples/english/crossword/Image Crossword 1.webp', alt: 'Picture crossword with image clues for KDP puzzle book', caption: 'Picture crosswords with image clues are a distinctive format that stands out from text-based crossword competitors' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle with themed vocabulary grid for KDP book', caption: 'Word search puzzles form the largest section of a word puzzle compilation -- 30-40 pages with themed vocabulary' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Picture crossword with image clues for KDP puzzle book', caption: 'Picture crosswords with image clues are a distinctive format that stands out from text-based crossword competitors' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Word Puzzle Books for Amazon KDP',
   },
 
   themeImages: [
-    { src: '/image-library/animals/parrot.webp', alt: 'Parrot -- themed educational image', caption: 'Parrot' },
+    { src: '/image-library/animals/woodpecker.webp', alt: 'Parrot -- themed educational image', caption: 'Parrot' },
     { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin -- themed educational image', caption: 'Dolphin' },
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
     { src: '/image-library/animals/penguin.webp', alt: 'Penguin -- themed educational image', caption: 'Penguin' },
-    { src: '/image-library/animals/lion.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
+    { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
   ],
 };
 

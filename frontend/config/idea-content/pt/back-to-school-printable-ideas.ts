@@ -198,7 +198,7 @@ Do ponto de vista da investigação de palavras-chave, as pesquisas de imprimív
     { src: '/image-library/classroom/book.webp', alt: 'Livro — imagem educativa temática', caption: 'Livro' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Armário — imagem educativa temática', caption: 'Armário' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Calculadora — imagem educativa temática', caption: 'Calculadora' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendário — imagem educativa temática', caption: 'Calendário' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calendário — imagem educativa temática', caption: 'Calendário' },
   ],
 
 

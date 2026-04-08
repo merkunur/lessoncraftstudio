@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/drawing-lines/Drawing Lines 1.webp', alt: 'Tracing worksheet with SVG line template and themed images ready for Etsy' },
+    heroImage: { src: '/samples/english/drawing lines/drawing_lines_curve 1.webp', alt: 'Tracing worksheet with SVG line template and themed images ready for Etsy' },
     samples: [
-      { src: '/samples/english/drawing-lines/Drawing Lines 1.webp', alt: 'Tracing path worksheet with themed images for fine motor practice', caption: 'A tracing worksheet with themed image endpoints exported at 300 DPI for Etsy' },
-      { src: '/samples/english/big-small/Big Small 1.webp', alt: 'Big and small comparison worksheet companion product', caption: 'Big-small worksheets complement tracing activities in fine motor development bundles' },
+      { src: '/samples/english/drawing lines/drawing_lines_curve 2.webp', alt: 'Tracing path worksheet with themed images for fine motor practice', caption: 'A tracing worksheet with themed image endpoints exported at 300 DPI for Etsy' },
+      { src: '/samples/english/big small/big-small-different images.webp', alt: 'Big and small comparison worksheet companion product', caption: 'Big-small worksheets complement tracing activities in fine motor development bundles' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Tracing Worksheets to Sell on Etsy',
@@ -188,8 +188,8 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed educational image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed educational image', caption: 'Dog' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- themed educational image', caption: 'Car' },
   ],
 };

@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition worksheet resource suitable for selling on Gumroad marketplace' },
+    heroImage: { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet resource suitable for selling on Gumroad marketplace' },
     samples: [
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Math addition worksheet for Gumroad store resource', caption: 'Math worksheets are among the most searched resource types on Gumroad — buyers need standards-aligned practice for every skill' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle activity for Gumroad store listing', caption: 'Word search puzzles work across all grade levels on Gumroad as vocabulary builders, centers activities, and early finisher work' },
-      { src: '/samples/english/matching/image and word.webp', alt: 'Matching activity worksheet for Gumroad sellers', caption: 'Matching activities are versatile Gumroad resources that buyers use for assessment, practice, and review across multiple subjects' },
+      { src: '/samples/english/addition/Addition Fun 11.webp', alt: 'Math addition worksheet for Gumroad store resource', caption: 'Math worksheets are among the most searched resource types on Gumroad — buyers need standards-aligned practice for every skill' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle activity for Gumroad store listing', caption: 'Word search puzzles work across all grade levels on Gumroad as vocabulary builders, centers activities, and early finisher work' },
+      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching activity worksheet for Gumroad sellers', caption: 'Matching activities are versatile Gumroad resources that buyers use for assessment, practice, and review across multiple subjects' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Educational Worksheets for Gumroad — Step-by-Step Tutorial',

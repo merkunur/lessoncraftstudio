@@ -169,7 +169,7 @@ Voor Nederlandse printable-verkopers biedt de NT2/ESL-niche een unieke dubbele m
     { src: '/image-library/classroom/book.webp', alt: 'Boek — educatieve thema-afbeelding NT2', caption: 'Boek' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Kast — educatieve thema-afbeelding NT2', caption: 'Kast' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Rekenmachine — educatieve thema-afbeelding NT2', caption: 'Rekenmachine' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — educatieve thema-afbeelding NT2', caption: 'Kalender' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalender — educatieve thema-afbeelding NT2', caption: 'Kalender' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

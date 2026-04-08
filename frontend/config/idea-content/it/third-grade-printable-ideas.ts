@@ -187,7 +187,7 @@ Il segmento di acquirenti genitori raggiunge il suo picco di motivazione durante
     { src: '/image-library/classroom/book.webp', alt: 'Libro — immagine educativa tematica', caption: 'Libro' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Armadio — immagine educativa tematica', caption: 'Armadio' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Calcolatrice — immagine educativa tematica', caption: 'Calcolatrice' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendario — immagine educativa tematica', caption: 'Calendario' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calendario — immagine educativa tematica', caption: 'Calendario' },
   ],
 
 

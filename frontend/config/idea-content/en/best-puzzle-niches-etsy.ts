@@ -173,9 +173,9 @@ From a market positioning perspective, the strongest opportunity for puzzle prin
   ],
 
   themeImages: [
-    { src: '/image-library/animals/monkey.webp', alt: 'Monkey -- themed educational image', caption: 'Monkey' },
-    { src: '/image-library/animals/parrot.webp', alt: 'Parrot -- themed educational image', caption: 'Parrot' },
-    { src: '/image-library/food/watermelon.webp', alt: 'Watermelon -- themed educational image', caption: 'Watermelon' },
+    { src: '/image-library/animals/orangutan.webp', alt: 'Monkey -- themed educational image', caption: 'Monkey' },
+    { src: '/image-library/animals/woodpecker.webp', alt: 'Parrot -- themed educational image', caption: 'Parrot' },
+    { src: '/image-library/fruits/avocado.webp', alt: 'Watermelon -- themed educational image', caption: 'Watermelon' },
     { src: '/image-library/vehicles/airplane.webp', alt: 'Airplane -- themed educational image', caption: 'Airplane' },
     { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin -- themed educational image', caption: 'Dolphin' },
   ],

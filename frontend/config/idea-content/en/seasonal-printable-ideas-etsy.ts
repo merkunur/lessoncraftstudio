@@ -174,10 +174,10 @@ The long-tail revenue of seasonal products extends well beyond their peak sellin
 
   themeImages: [
     { src: '/image-library/animals/rabbit.webp', alt: 'Rabbit -- themed educational image', caption: 'Rabbit' },
-    { src: '/image-library/food/cake.webp', alt: 'Cake -- themed educational image', caption: 'Cake' },
+    { src: '/image-library/fruits/cherry.webp', alt: 'Cake -- themed educational image', caption: 'Cake' },
     { src: '/image-library/animals/penguin.webp', alt: 'Penguin -- themed educational image', caption: 'Penguin' },
     { src: '/image-library/animals/owl.webp', alt: 'Owl -- themed educational image', caption: 'Owl' },
-    { src: '/image-library/food/cookie.webp', alt: 'Cookie -- themed educational image', caption: 'Cookie' },
+    { src: '/image-library/fruits/coconut.webp', alt: 'Cookie -- themed educational image', caption: 'Cookie' },
   ],
 };
 

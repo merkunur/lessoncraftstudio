@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'German word search puzzle with umlauts and themed vocabulary for Etsy and Amazon DE' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'German word search puzzle with umlauts and themed vocabulary for Etsy and Amazon DE' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'German word search puzzle showing themed German vocabulary in grid', caption: 'A German word search puzzle generated with native vocabulary including umlauts and compound words' },
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'German crossword puzzle with picture clues', caption: 'Picture crossword with German answer words -- image clues bypass the need for written German' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'German word search puzzle showing themed German vocabulary in grid', caption: 'A German word search puzzle generated with native vocabulary including umlauts and compound words' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'German crossword puzzle with picture clues', caption: 'Picture crossword with German answer words -- image clues bypass the need for written German' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create German Printables for Etsy and Amazon DE',
@@ -191,7 +191,7 @@ const content: GuideContent = {
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- Katze in German vocabulary', caption: 'Katze (Cat)' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- Hund in German vocabulary', caption: 'Hund (Dog)' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- Pferd in German vocabulary', caption: 'Pferd (Horse)' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- Apfel in German vocabulary', caption: 'Apfel (Apple)' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- Apfel in German vocabulary', caption: 'Apfel (Apple)' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- Auto in German vocabulary', caption: 'Auto (Car)' },
   ],
 };

@@ -181,21 +181,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Themed picture bingo cards showing colorful illustrated grid with caller card for kids' },
+    heroImage: { src: '/samples/english/bingo/bingo_card_1.webp', alt: 'Themed picture bingo cards showing colorful illustrated grid with caller card for kids' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Picture bingo card with animal theme showing 4x4 grid layout for group use', caption: 'A 4×4 picture bingo card using the animals theme with image-only display mode' },
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingo caller card showing all themed images used across the card set', caption: 'Caller reference card showing all images used across the bingo card set' },
+      { src: '/samples/english/bingo/bingo_card_1 word.webp', alt: 'Picture bingo card with animal theme showing 4x4 grid layout for group use', caption: 'A 4×4 picture bingo card using the animals theme with image-only display mode' },
+      { src: '/samples/english/bingo/bingo_card_1.webp', alt: 'Bingo caller card showing all themed images used across the card set', caption: 'Caller reference card showing all images used across the bingo card set' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'How to Create Bingo Cards with Themed Images — Complete Tutorial',
   },
 
   themeImages: [
-    { src: '/image-library/ocean%20life/angelfish.webp', alt: 'Angelfish — themed educational image', caption: 'Angelfish' },
-    { src: '/image-library/ocean%20life/clownfish.webp', alt: 'Clownfish — themed educational image', caption: 'Clownfish' },
-    { src: '/image-library/ocean%20life/coral.webp', alt: 'Coral — themed educational image', caption: 'Coral' },
-    { src: '/image-library/ocean%20life/crab.webp', alt: 'Crab — themed educational image', caption: 'Crab' },
-    { src: '/image-library/ocean%20life/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
+    { src: '/image-library/ocean life/angelfish.webp', alt: 'Angelfish — themed educational image', caption: 'Angelfish' },
+    { src: '/image-library/ocean life/clownfish.webp', alt: 'Clownfish — themed educational image', caption: 'Clownfish' },
+    { src: '/image-library/ocean life/coral.webp', alt: 'Coral — themed educational image', caption: 'Coral' },
+    { src: '/image-library/ocean life/crab.webp', alt: 'Crab — themed educational image', caption: 'Crab' },
+    { src: '/image-library/ocean life/dolphin.webp', alt: 'Dolphin — themed educational image', caption: 'Dolphin' },
   ],
 };
 

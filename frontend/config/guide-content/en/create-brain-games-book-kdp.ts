@@ -182,9 +182,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Odd-one-out brain teaser puzzle page with themed images for KDP brain games book' },
+    heroImage: { src: '/samples/english/odd one out/Find the Odd One Out (10).webp', alt: 'Odd-one-out brain teaser puzzle page with themed images for KDP brain games book' },
     samples: [
-      { src: '/samples/english/odd one out/Find the Odd One Out (1).webp', alt: 'Odd-one-out puzzle page with rows of themed images for visual discrimination', caption: 'An odd-one-out page with 5 items per row -- the core puzzle type for brain games compilations' },
+      { src: '/samples/english/odd one out/Find the Odd One Out (11).webp', alt: 'Odd-one-out puzzle page with rows of themed images for visual discrimination', caption: 'An odd-one-out page with 5 items per row -- the core puzzle type for brain games compilations' },
       { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Shadow matching puzzle with colored images and black silhouettes', caption: 'Shadow match puzzle page with auto-generated pixel-accurate silhouettes for spatial awareness challenges' },
     ],
     youtubeId: '6O5aCzHkh8M',
@@ -196,7 +196,7 @@ const content: GuideContent = {
     { src: '/image-library/animals/fox.webp', alt: 'Fox -- themed educational image', caption: 'Fox' },
     { src: '/image-library/animals/rabbit.webp', alt: 'Rabbit -- themed educational image', caption: 'Rabbit' },
     { src: '/image-library/animals/turtle.webp', alt: 'Turtle -- themed educational image', caption: 'Turtle' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
   ],
 };
 

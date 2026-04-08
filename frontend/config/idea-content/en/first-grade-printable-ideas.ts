@@ -157,12 +157,12 @@ The competitive landscape in first grade printables rewards sellers who understa
   ],
 
   themeImages: [
-    { src: '/image-library/product line/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
-    { src: '/image-library/product line/binder.webp', alt: 'Binder — themed educational image', caption: 'Binder' },
-    { src: '/image-library/product line/book.webp', alt: 'Book — themed educational image', caption: 'Book' },
-    { src: '/image-library/product line/cabinet.webp', alt: 'Cabinet — themed educational image', caption: 'Cabinet' },
-    { src: '/image-library/product line/calculator.webp', alt: 'Calculator — themed educational image', caption: 'Calculator' },
-    { src: '/image-library/product line/calender.webp', alt: 'Calender — themed educational image', caption: 'Calender' },
+    { src: '/image-library/classroom/backpack.webp', alt: 'Backpack — themed educational image', caption: 'Backpack' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Binder — themed educational image', caption: 'Binder' },
+    { src: '/image-library/classroom/book.webp', alt: 'Book — themed educational image', caption: 'Book' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Cabinet — themed educational image', caption: 'Cabinet' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calculator — themed educational image', caption: 'Calculator' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calender — themed educational image', caption: 'Calender' },
   ],
 
 

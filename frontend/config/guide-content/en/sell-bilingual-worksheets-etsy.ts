@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Bilingual word search worksheet showing dual-language vocabulary for Etsy sales' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Bilingual word search worksheet showing dual-language vocabulary for Etsy sales' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle for bilingual worksheet set', caption: 'Word search puzzles in two languages create effective bilingual learning products' },
-      { src: '/samples/english/matching/Matching 1.webp', alt: 'Matching worksheet for bilingual vocabulary building', caption: 'Matching worksheets connect vocabulary across languages for ESL learners' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle for bilingual worksheet set', caption: 'Word search puzzles in two languages create effective bilingual learning products' },
+      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet for bilingual vocabulary building', caption: 'Matching worksheets connect vocabulary across languages for ESL learners' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Bilingual Worksheets for Etsy',
@@ -190,9 +190,9 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed educational image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed educational image', caption: 'Dog' },
-    { src: '/image-library/food/banana.webp', alt: 'Banana -- themed educational image', caption: 'Banana' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Banana -- themed educational image', caption: 'Banana' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed educational image', caption: 'Horse' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
   ],
 };
 

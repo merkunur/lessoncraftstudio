@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Math worksheet with picture-based addition problems for KDP workbook' },
+    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Math worksheet with picture-based addition problems for KDP workbook' },
     samples: [
-      { src: '/samples/english/math worksheet/Math Worksheet 1.webp', alt: 'Picture math worksheet ready for KDP manuscript', caption: 'A themed math worksheet with visual counting problems -- print-ready for KDP book interiors' },
-      { src: '/samples/english/addition/Addition 1.webp', alt: 'Addition worksheet with answer key for KDP workbook', caption: 'Addition practice worksheet with automatic answer key generation' },
+      { src: '/samples/english/math worksheet/Math Worksheet 11.webp', alt: 'Picture math worksheet ready for KDP manuscript', caption: 'A themed math worksheet with visual counting problems -- print-ready for KDP book interiors' },
+      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet with answer key for KDP workbook', caption: 'Addition practice worksheet with automatic answer key generation' },
     ],
   },
 
@@ -187,8 +187,8 @@ const content: GuideContent = {
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- counting image for picture math problems', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- counting image for picture math problems', caption: 'Dog' },
     { src: '/image-library/animals/fish.webp', alt: 'Fish -- counting image for picture math problems', caption: 'Fish' },
-    { src: '/image-library/animals/bird.webp', alt: 'Bird -- counting image for picture math problems', caption: 'Bird' },
-    { src: '/image-library/animals/frog.webp', alt: 'Frog -- counting image for picture math problems', caption: 'Frog' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Bird -- counting image for picture math problems', caption: 'Bird' },
+    { src: '/image-library/animals/iguana.webp', alt: 'Frog -- counting image for picture math problems', caption: 'Frog' },
   ],
 };
 

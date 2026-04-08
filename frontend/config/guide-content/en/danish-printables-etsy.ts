@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Danish word search puzzle generated with LessonCraftStudio showing Danish vocabulary with special characters' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Danish word search puzzle generated with LessonCraftStudio showing Danish vocabulary with special characters' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Danish word search worksheet ready for Etsy listing', caption: 'A themed Danish word search puzzle with native vocabulary and automatic answer key' },
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Danish crossword puzzle with image clues', caption: 'Danish crossword puzzle using image-based clues for visual clarity' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Danish word search worksheet ready for Etsy listing', caption: 'A themed Danish word search puzzle with native vocabulary and automatic answer key' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Danish crossword puzzle with image clues', caption: 'Danish crossword puzzle using image-based clues for visual clarity' },
     ],
   },
 
@@ -189,8 +189,8 @@ const content: GuideContent = {
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elefant' },
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe -- themed educational image', caption: 'Giraf' },
     { src: '/image-library/animals/turtle.webp', alt: 'Turtle -- themed educational image', caption: 'Skildpadde' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Sommerfugl' },
-    { src: '/image-library/food/strawberry.webp', alt: 'Strawberry -- themed educational image', caption: 'Jordbaer' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Sommerfugl' },
+    { src: '/image-library/fruits/blackberry.webp', alt: 'Strawberry -- themed educational image', caption: 'Jordbaer' },
   ],
 };
 

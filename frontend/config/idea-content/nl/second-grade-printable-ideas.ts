@@ -169,7 +169,7 @@ Het jaarronde karakter van de vraag naar groep-4-materiaal is bijzonder sterk om
     { src: '/image-library/classroom/book.webp', alt: 'Boek — educatieve thema-afbeelding groep 4', caption: 'Boek' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Kast — educatieve thema-afbeelding groep 4', caption: 'Kast' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Rekenmachine — educatieve thema-afbeelding groep 4', caption: 'Rekenmachine' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Kalender — educatieve thema-afbeelding groep 4', caption: 'Kalender' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalender — educatieve thema-afbeelding groep 4', caption: 'Kalender' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

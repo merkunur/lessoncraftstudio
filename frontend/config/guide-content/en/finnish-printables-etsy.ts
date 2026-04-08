@@ -178,18 +178,18 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Finnish word search puzzle generated with LessonCraftStudio showing Finnish compound word vocabulary' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Finnish word search puzzle generated with LessonCraftStudio showing Finnish compound word vocabulary' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Finnish word search worksheet ready for Etsy listing', caption: 'A themed Finnish word search puzzle featuring compound words with automatic answer key' },
-      { src: '/samples/english/cryptogram/Cryptogram 1.webp', alt: 'Finnish cryptogram puzzle with compound words', caption: 'Finnish cryptogram puzzle -- long compound words create a uniquely engaging cipher experience' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Finnish word search worksheet ready for Etsy listing', caption: 'A themed Finnish word search puzzle featuring compound words with automatic answer key' },
+      { src: '/samples/english/cryptogram/cryptogram_worksheet (10).webp', alt: 'Finnish cryptogram puzzle with compound words', caption: 'Finnish cryptogram puzzle -- long compound words create a uniquely engaging cipher experience' },
     ],
   },
 
   themeImages: [
-    { src: '/image-library/animals/bear.webp', alt: 'Bear -- themed educational image', caption: 'Karhu' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Perhonen' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Karhu' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Perhonen' },
     { src: '/image-library/animals/turtle.webp', alt: 'Turtle -- themed educational image', caption: 'Kilpikonna' },
-    { src: '/image-library/food/strawberry.webp', alt: 'Strawberry -- themed educational image', caption: 'Mansikka' },
+    { src: '/image-library/fruits/blackberry.webp', alt: 'Strawberry -- themed educational image', caption: 'Mansikka' },
     { src: '/image-library/animals/fox.webp', alt: 'Fox -- themed educational image', caption: 'Kettu' },
   ],
 };

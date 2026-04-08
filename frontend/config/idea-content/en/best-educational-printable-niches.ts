@@ -175,7 +175,7 @@ Pricing analysis across niches reveals significant variation in revenue potentia
   themeImages: [
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed educational image', caption: 'Dog' },
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
-    { src: '/image-library/food/banana.webp', alt: 'Banana -- themed educational image', caption: 'Banana' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Banana -- themed educational image', caption: 'Banana' },
     { src: '/image-library/animals/fish.webp', alt: 'Fish -- themed educational image', caption: 'Fish' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed educational image', caption: 'Horse' },
   ],

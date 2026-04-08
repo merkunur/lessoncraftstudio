@@ -181,22 +181,22 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle with themed vocabulary grid showing hidden words for selling on Etsy' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle with themed vocabulary grid showing hidden words for selling on Etsy' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Animal themed word search puzzle created for Etsy digital download listing', caption: 'Word search puzzle with animal vocabulary theme — grid-based format that creates eye-catching Etsy listing photos' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Crossword puzzle complementing word search products in an Etsy puzzle shop', caption: 'Crossword puzzle — natural cross-sell companion to word search listings in your Etsy shop' },
-      { src: '/samples/english/word scramble/Word Scramble 1.webp', alt: 'Word scramble puzzle showing complementary format for Etsy puzzle bundles', caption: 'Word scramble puzzle — quick vocabulary activity that adds variety to multi-format bundles' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Animal themed word search puzzle created for Etsy digital download listing', caption: 'Word search puzzle with animal vocabulary theme — grid-based format that creates eye-catching Etsy listing photos' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle complementing word search products in an Etsy puzzle shop', caption: 'Crossword puzzle — natural cross-sell companion to word search listings in your Etsy shop' },
+      { src: '/samples/english/word scramble/Word Scramble 10.webp', alt: 'Word scramble puzzle showing complementary format for Etsy puzzle bundles', caption: 'Word scramble puzzle — quick vocabulary activity that adds variety to multi-format bundles' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles for Selling on Etsy — Step-by-Step Tutorial',
   },
 
   themeImages: [
-    { src: '/image-library/forest%20creatures/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
-    { src: '/image-library/forest%20creatures/badger.webp', alt: 'Badger — themed educational image', caption: 'Badger' },
-    { src: '/image-library/forest%20creatures/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
-    { src: '/image-library/forest%20creatures/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
-    { src: '/image-library/forest%20creatures/beaver.webp', alt: 'Beaver — themed educational image', caption: 'Beaver' },
+    { src: '/image-library/forest creatures/ant.webp', alt: 'Ant — themed educational image', caption: 'Ant' },
+    { src: '/image-library/forest creatures/badger.webp', alt: 'Badger — themed educational image', caption: 'Badger' },
+    { src: '/image-library/forest creatures/bat.webp', alt: 'Bat — themed educational image', caption: 'Bat' },
+    { src: '/image-library/forest creatures/bear.webp', alt: 'Bear — themed educational image', caption: 'Bear' },
+    { src: '/image-library/forest creatures/beaver.webp', alt: 'Beaver — themed educational image', caption: 'Beaver' },
   ],
 };
 

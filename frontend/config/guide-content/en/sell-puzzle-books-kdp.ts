@@ -177,10 +177,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search puzzle as part of a multi-type puzzle book for Amazon KDP publishing' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle as part of a multi-type puzzle book for Amazon KDP publishing' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle page formatted for KDP book interior', caption: 'Word search puzzle with themed vocabulary -- one of 4 puzzle formats in a multi-type KDP compilation book' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Picture crossword puzzle with image clues for KDP puzzle book', caption: 'Picture crossword with image clues -- a distinctive format that differentiates your puzzle books from text-only competitors' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle page formatted for KDP book interior', caption: 'Word search puzzle with themed vocabulary -- one of 4 puzzle formats in a multi-type KDP compilation book' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Picture crossword puzzle with image clues for KDP puzzle book', caption: 'Picture crossword with image clues -- a distinctive format that differentiates your puzzle books from text-only competitors' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Multi-Type Puzzle Books for Amazon KDP',

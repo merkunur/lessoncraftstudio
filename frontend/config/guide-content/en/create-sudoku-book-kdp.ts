@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/Sudoku 1.webp', alt: 'Picture sudoku puzzle with themed images formatted for KDP book interior' },
+    heroImage: { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku puzzle with themed images formatted for KDP book interior' },
     samples: [
-      { src: '/samples/english/sudoku/Sudoku 1.webp', alt: 'Picture sudoku puzzle page with 4x4 image grid ready for KDP', caption: 'A themed picture sudoku puzzle exported as a print-ready PDF for KDP book interior' },
-      { src: '/samples/english/sudoku/Sudoku 1.webp', alt: 'Picture sudoku answer key showing completed grid', caption: 'Automatic answer key with all cells filled -- verified to have exactly one solution' },
+      { src: '/samples/english/sudoku/sudoku hard.webp', alt: 'Picture sudoku puzzle page with 4x4 image grid ready for KDP', caption: 'A themed picture sudoku puzzle exported as a print-ready PDF for KDP book interior' },
+      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku answer key showing completed grid', caption: 'Automatic answer key with all cells filled -- verified to have exactly one solution' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create a Picture Sudoku Book for Amazon KDP',
@@ -188,8 +188,8 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe -- themed educational image', caption: 'Giraffe' },
-    { src: '/image-library/animals/lion.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
-    { src: '/image-library/animals/monkey.webp', alt: 'Monkey -- themed educational image', caption: 'Monkey' },
+    { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
+    { src: '/image-library/animals/orangutan.webp', alt: 'Monkey -- themed educational image', caption: 'Monkey' },
     { src: '/image-library/animals/zebra.webp', alt: 'Zebra -- themed educational image', caption: 'Zebra' },
   ],
 };

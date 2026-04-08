@@ -178,21 +178,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/prepositions/Prepositions 1.webp', alt: 'Preposition worksheet showing spatial relationships with photographic images' },
+    heroImage: { src: '/samples/english/prepositions/prepositions_worksheet (10).webp', alt: 'Preposition worksheet showing spatial relationships with photographic images' },
     samples: [
-      { src: '/samples/english/prepositions/Prepositions 1.webp', alt: 'ESL preposition worksheet with in on under activities', caption: 'Spatial preposition worksheet using photographic images for clear visual communication' },
-      { src: '/samples/english/prepositions/Prepositions 1.webp', alt: 'Multilingual preposition worksheet example', caption: 'The same preposition concept generated in multiple languages for international Etsy sales' },
+      { src: '/samples/english/prepositions/prepositions_worksheet (11).webp', alt: 'ESL preposition worksheet with in on under activities', caption: 'Spatial preposition worksheet using photographic images for clear visual communication' },
+      { src: '/samples/english/prepositions/prepositions_worksheet (10).webp', alt: 'Multilingual preposition worksheet example', caption: 'The same preposition concept generated in multiple languages for international Etsy sales' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Preposition Worksheets to Sell on Etsy',
   },
 
   themeImages: [
-    { src: '/image-library/household/chair.webp', alt: 'Chair -- spatial preposition reference image', caption: 'Chair' },
-    { src: '/image-library/household/table.webp', alt: 'Table -- spatial preposition reference image', caption: 'Table' },
-    { src: '/image-library/household/box.webp', alt: 'Box -- spatial preposition reference image', caption: 'Box' },
-    { src: '/image-library/household/cup.webp', alt: 'Cup -- spatial preposition reference image', caption: 'Cup' },
-    { src: '/image-library/household/lamp.webp', alt: 'Lamp -- spatial preposition reference image', caption: 'Lamp' },
+    { src: '/image-library/furniture/armchair.webp', alt: 'Chair -- spatial preposition reference image', caption: 'Chair' },
+    { src: '/image-library/furniture/cabinet.webp', alt: 'Table -- spatial preposition reference image', caption: 'Table' },
+    { src: '/image-library/furniture/bench.webp', alt: 'Box -- spatial preposition reference image', caption: 'Box' },
+    { src: '/image-library/furniture/bed.webp', alt: 'Cup -- spatial preposition reference image', caption: 'Cup' },
+    { src: '/image-library/furniture/bookcase.webp', alt: 'Lamp -- spatial preposition reference image', caption: 'Lamp' },
   ],
 };
 

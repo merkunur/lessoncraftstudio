@@ -182,21 +182,21 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Pattern recognition worksheet with themed images showing AB and ABC pattern exercises for Etsy printable products' },
+    heroImage: { src: '/samples/english/pattern worksheet/pattern_worksheet (10).webp', alt: 'Pattern recognition worksheet with themed images showing AB and ABC pattern exercises for Etsy printable products' },
     samples: [
-      { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Pattern worksheet with ocean animal theme showing fill-in-the-blank pattern exercises', caption: 'Themed pattern recognition worksheet with per-exercise configuration and 300 DPI print-ready output for Etsy listings' },
-      { src: '/samples/english/pattern worksheet/pattern_worksheet.webp', alt: 'Pattern worksheet answer key with completed patterns showing correct image placement', caption: 'Automatic answer key generated alongside each worksheet -- a critical selling point for Etsy buyers' },
+      { src: '/samples/english/pattern worksheet/pattern_worksheet (11).webp', alt: 'Pattern worksheet with ocean animal theme showing fill-in-the-blank pattern exercises', caption: 'Themed pattern recognition worksheet with per-exercise configuration and 300 DPI print-ready output for Etsy listings' },
+      { src: '/samples/english/pattern worksheet/pattern_worksheet (10).webp', alt: 'Pattern worksheet answer key with completed patterns showing correct image placement', caption: 'Automatic answer key generated alongside each worksheet -- a critical selling point for Etsy buyers' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'How to Create Pattern Recognition Worksheets for Etsy',
   },
 
   themeImages: [
-    { src: '/image-library/sea animals/dolphin.webp', alt: 'Dolphin -- themed educational image', caption: 'Dolphin' },
-    { src: '/image-library/sea animals/octopus.webp', alt: 'Octopus -- themed educational image', caption: 'Octopus' },
-    { src: '/image-library/sea animals/seahorse.webp', alt: 'Seahorse -- themed educational image', caption: 'Seahorse' },
-    { src: '/image-library/sea animals/starfish.webp', alt: 'Starfish -- themed educational image', caption: 'Starfish' },
-    { src: '/image-library/sea animals/turtle.webp', alt: 'Turtle -- themed educational image', caption: 'Turtle' },
+    { src: '/image-library/ocean life/dolphin.webp', alt: 'Dolphin -- themed educational image', caption: 'Dolphin' },
+    { src: '/image-library/ocean life/octopus.webp', alt: 'Octopus -- themed educational image', caption: 'Octopus' },
+    { src: '/image-library/ocean life/angelfish.webp', alt: 'Seahorse -- themed educational image', caption: 'Seahorse' },
+    { src: '/image-library/ocean life/coral.webp', alt: 'Starfish -- themed educational image', caption: 'Starfish' },
+    { src: '/image-library/ocean life/crab.webp', alt: 'Turtle -- themed educational image', caption: 'Turtle' },
   ],
 };
 

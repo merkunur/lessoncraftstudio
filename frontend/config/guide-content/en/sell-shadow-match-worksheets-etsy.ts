@@ -176,18 +176,18 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Shadow matching worksheet with colored images and auto-generated black silhouettes for Etsy digital download' },
+    heroImage: { src: '/samples/english/shadow match/shadow-match-horizontal.webp', alt: 'Shadow matching worksheet with colored images and auto-generated black silhouettes for Etsy digital download' },
     samples: [
       { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Shadow match worksheet ready for Etsy listing with colored images and silhouettes', caption: 'Shadow Match mode with four colored images and their auto-generated pixel-level black silhouettes' },
-      { src: '/samples/english/shadow match/shadow-match-horizontal answer-key.webp', alt: 'Auto-generated answer key for shadow matching worksheet', caption: 'Automatic answer key with correct match pairings for quick verification' },
+      { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Auto-generated answer key for shadow matching worksheet', caption: 'Automatic answer key with correct match pairings for quick verification' },
     ],
   },
 
   themeImages: [
-    { src: '/image-library/animals/cow.webp', alt: 'Cow -- themed educational image', caption: 'Cow' },
+    { src: '/image-library/animals/horse.webp', alt: 'Cow -- themed educational image', caption: 'Cow' },
     { src: '/image-library/animals/pig.webp', alt: 'Pig -- themed educational image', caption: 'Pig' },
     { src: '/image-library/animals/sheep.webp', alt: 'Sheep -- themed educational image', caption: 'Sheep' },
-    { src: '/image-library/animals/chicken.webp', alt: 'Chicken -- themed educational image', caption: 'Chicken' },
+    { src: '/image-library/animals/duck.webp', alt: 'Chicken -- themed educational image', caption: 'Chicken' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed educational image', caption: 'Horse' },
   ],
 };

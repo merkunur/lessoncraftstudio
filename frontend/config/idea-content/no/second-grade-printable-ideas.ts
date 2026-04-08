@@ -177,12 +177,12 @@ Prissetting for 2. trinn utskriftsbare produkter følger standard pedagogiske pr
   ],
 
   themeImages: [
-    { src: '/image-library/store/backpack.webp', alt: 'Ryggsekk — tematisk pedagogisk bilde', caption: 'Ryggsekk' },
-    { src: '/image-library/store/binder.webp', alt: 'Ringperm — tematisk pedagogisk bilde', caption: 'Ringperm' },
-    { src: '/image-library/store/book.webp', alt: 'Bok — tematisk pedagogisk bilde', caption: 'Bok' },
-    { src: '/image-library/store/cabinet.webp', alt: 'Skap — tematisk pedagogisk bilde', caption: 'Skap' },
-    { src: '/image-library/store/calculator.webp', alt: 'Kalkulator — tematisk pedagogisk bilde', caption: 'Kalkulator' },
-    { src: '/image-library/store/calender.webp', alt: 'Kalender — tematisk pedagogisk bilde', caption: 'Kalender' },
+    { src: '/image-library/classroom/backpack.webp', alt: 'Ryggsekk — tematisk pedagogisk bilde', caption: 'Ryggsekk' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Ringperm — tematisk pedagogisk bilde', caption: 'Ringperm' },
+    { src: '/image-library/classroom/book.webp', alt: 'Bok — tematisk pedagogisk bilde', caption: 'Bok' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Skap — tematisk pedagogisk bilde', caption: 'Skap' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalkulator — tematisk pedagogisk bilde', caption: 'Kalkulator' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalender — tematisk pedagogisk bilde', caption: 'Kalender' },
   ],
 
 

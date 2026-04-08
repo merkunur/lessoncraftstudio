@@ -181,19 +181,19 @@ const content: GuideContent = {
     heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Educational printable worksheet ready for selling on Gumroad storefront' },
     samples: [
       { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page printable for Gumroad digital product listing', caption: 'Coloring pages create visually compelling Gumroad product covers that drive social media traffic' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle for Gumroad printable store catalog', caption: 'Word search puzzles appeal to parents and puzzle enthusiasts -- a versatile Gumroad product type' },
-      { src: '/samples/english/addition/addition_worksheet portrait.webp', alt: 'Math worksheet for educational Gumroad printable business', caption: 'Image-based math worksheets add academic credibility to your Gumroad printable catalog' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle for Gumroad printable store catalog', caption: 'Word search puzzles appeal to parents and puzzle enthusiasts -- a versatile Gumroad product type' },
+      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Math worksheet for educational Gumroad printable business', caption: 'Image-based math worksheets add academic credibility to your Gumroad printable catalog' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Sell Educational Printables on Gumroad',
   },
 
   themeImages: [
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
-    { src: '/image-library/food/banana.webp', alt: 'Banana -- themed educational image', caption: 'Banana' },
-    { src: '/image-library/food/bread.webp', alt: 'Bread -- themed educational image', caption: 'Bread' },
-    { src: '/image-library/food/cake.webp', alt: 'Cake -- themed educational image', caption: 'Cake' },
-    { src: '/image-library/food/cheese.webp', alt: 'Cheese -- themed educational image', caption: 'Cheese' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Banana -- themed educational image', caption: 'Banana' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Bread -- themed educational image', caption: 'Bread' },
+    { src: '/image-library/fruits/cherry.webp', alt: 'Cake -- themed educational image', caption: 'Cake' },
+    { src: '/image-library/fruits/clementine.webp', alt: 'Cheese -- themed educational image', caption: 'Cheese' },
   ],
 };
 

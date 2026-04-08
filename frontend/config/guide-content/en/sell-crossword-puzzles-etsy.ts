@@ -176,19 +176,19 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Picture crossword puzzle with image clues for selling on Etsy' },
+    heroImage: { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Picture crossword puzzle with image clues for selling on Etsy' },
     samples: [
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Printable picture crossword ready for Etsy digital download', caption: 'A themed picture crossword with image clues -- print-ready for Etsy listings' },
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Crossword puzzle answer key showing completed grid', caption: 'Automatic answer key included with every crossword puzzle' },
+      { src: '/samples/english/crossword/crossword_worksheet (11).webp', alt: 'Printable picture crossword ready for Etsy digital download', caption: 'A themed picture crossword with image clues -- print-ready for Etsy listings' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle answer key showing completed grid', caption: 'Automatic answer key included with every crossword puzzle' },
     ],
   },
 
   themeImages: [
-    { src: '/image-library/animals/lion.webp', alt: 'Lion -- themed image for picture crossword clues', caption: 'Lion' },
+    { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed image for picture crossword clues', caption: 'Lion' },
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe -- themed image for picture crossword clues', caption: 'Giraffe' },
     { src: '/image-library/animals/zebra.webp', alt: 'Zebra -- themed image for picture crossword clues', caption: 'Zebra' },
     { src: '/image-library/animals/penguin.webp', alt: 'Penguin -- themed image for picture crossword clues', caption: 'Penguin' },
-    { src: '/image-library/animals/bear.webp', alt: 'Bear -- themed image for picture crossword clues', caption: 'Bear' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed image for picture crossword clues', caption: 'Bear' },
   ],
 };
 

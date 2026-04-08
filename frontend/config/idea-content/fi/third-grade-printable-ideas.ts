@@ -122,12 +122,12 @@ Hinnoittelu on hieman korkeampi kuin alempien luokkatasojen materiaaleissa sisä
   ],
 
   themeImages: [
-    { src: '/image-library/store/backpack.webp', alt: 'Reppu — temaattinen opetuskuva', caption: 'Reppu' },
-    { src: '/image-library/store/binder.webp', alt: 'Kansio — temaattinen opetuskuva', caption: 'Kansio' },
-    { src: '/image-library/store/book.webp', alt: 'Kirja — temaattinen opetuskuva', caption: 'Kirja' },
-    { src: '/image-library/store/cabinet.webp', alt: 'Kaappi — temaattinen opetuskuva', caption: 'Kaappi' },
-    { src: '/image-library/store/calculator.webp', alt: 'Laskin — temaattinen opetuskuva', caption: 'Laskin' },
-    { src: '/image-library/store/calender.webp', alt: 'Kalenteri — temaattinen opetuskuva', caption: 'Kalenteri' },
+    { src: '/image-library/classroom/backpack.webp', alt: 'Reppu — temaattinen opetuskuva', caption: 'Reppu' },
+    { src: '/image-library/classroom/binder.webp', alt: 'Kansio — temaattinen opetuskuva', caption: 'Kansio' },
+    { src: '/image-library/classroom/book.webp', alt: 'Kirja — temaattinen opetuskuva', caption: 'Kirja' },
+    { src: '/image-library/classroom/cabinet.webp', alt: 'Kaappi — temaattinen opetuskuva', caption: 'Kaappi' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Laskin — temaattinen opetuskuva', caption: 'Laskin' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Kalenteri — temaattinen opetuskuva', caption: 'Kalenteri' },
   ],
 
   youtubeId: '6O5aCzHkh8M',

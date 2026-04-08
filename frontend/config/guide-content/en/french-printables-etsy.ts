@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'French word search puzzle with accented characters and themed vocabulary for Etsy and Amazon FR' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'French word search puzzle with accented characters and themed vocabulary for Etsy and Amazon FR' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'French word search puzzle showing themed French vocabulary with accents in grid', caption: 'A French word search puzzle (mots meles) generated with native vocabulary including properly accented characters' },
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'French crossword puzzle with picture clues', caption: 'Picture crossword (mots croises) with French answer words -- image clues make creation accessible to non-French speakers' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'French word search puzzle showing themed French vocabulary with accents in grid', caption: 'A French word search puzzle (mots meles) generated with native vocabulary including properly accented characters' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'French crossword puzzle with picture clues', caption: 'Picture crossword (mots croises) with French answer words -- image clues make creation accessible to non-French speakers' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create French Printables for Etsy and Amazon FR',
@@ -191,7 +191,7 @@ const content: GuideContent = {
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- Chat in French vocabulary', caption: 'Chat (Cat)' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- Chien in French vocabulary', caption: 'Chien (Dog)' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- Cheval in French vocabulary', caption: 'Cheval (Horse)' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- Pomme in French vocabulary', caption: 'Pomme (Apple)' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- Pomme in French vocabulary', caption: 'Pomme (Apple)' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- Voiture in French vocabulary', caption: 'Voiture (Car)' },
   ],
 };

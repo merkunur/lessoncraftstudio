@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/Bingo 1.webp', alt: 'Printable bingo card set with themed images ready for Etsy listing' },
+    heroImage: { src: '/samples/english/bingo/bingo_card_1.webp', alt: 'Printable bingo card set with themed images ready for Etsy listing' },
     samples: [
-      { src: '/samples/english/bingo/Bingo 1.webp', alt: 'Themed picture bingo card with caller sheet for Etsy', caption: 'A unique bingo card from a 30-card set exported at 300 DPI for Etsy product listing' },
-      { src: '/samples/english/matching/Matching 1.webp', alt: 'Matching game companion product for Etsy party bundle', caption: 'Matching games pair naturally with bingo cards in party activity bundles' },
+      { src: '/samples/english/bingo/bingo_card_1 word.webp', alt: 'Themed picture bingo card with caller sheet for Etsy', caption: 'A unique bingo card from a 30-card set exported at 300 DPI for Etsy product listing' },
+      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching game companion product for Etsy party bundle', caption: 'Matching games pair naturally with bingo cards in party activity bundles' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Printable Bingo Cards to Sell on Etsy',
@@ -188,7 +188,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed educational image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed educational image', caption: 'Dog' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- themed educational image', caption: 'Car' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed educational image', caption: 'Horse' },
   ],

@@ -190,18 +190,18 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Professional printable worksheet generated with LessonCraftStudio showing themed word search puzzle' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Professional printable worksheet generated with LessonCraftStudio showing themed word search puzzle' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Word search worksheet with themed images and print-ready formatting', caption: 'A themed word search puzzle generated in under 30 seconds with automatic answer key' },
-      { src: '/samples/english/coloring/Coloring 1.webp', alt: 'Coloring page generated from LessonCraftStudio image library', caption: 'Professional coloring page from the 3,000+ image library ready for Etsy listing' },
-      { src: '/samples/english/addition/Addition 1.webp', alt: 'Addition math worksheet with themed images and answer key', caption: 'Themed math worksheet with auto-generated answer key for commercial sale' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search worksheet with themed images and print-ready formatting', caption: 'A themed word search puzzle generated in under 30 seconds with automatic answer key' },
+      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page generated from LessonCraftStudio image library', caption: 'Professional coloring page from the 3,000+ image library ready for Etsy listing' },
+      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition math worksheet with themed images and answer key', caption: 'Themed math worksheet with auto-generated answer key for commercial sale' },
     ],
   },
 
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed printable image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed printable image', caption: 'Dog' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed printable image', caption: 'Apple' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed printable image', caption: 'Apple' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- themed printable image', caption: 'Car' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed printable image', caption: 'Horse' },
   ],

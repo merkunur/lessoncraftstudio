@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Italian word search puzzle (crucipuzzle) with themed vocabulary for Etsy and Amazon IT' },
+    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Italian word search puzzle (crucipuzzle) with themed vocabulary for Etsy and Amazon IT' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 1.webp', alt: 'Italian word search puzzle showing themed Italian vocabulary in grid', caption: 'An Italian crucipuzzle generated with native vocabulary including properly accented characters' },
-      { src: '/samples/english/crossword/Crossword 1.webp', alt: 'Italian crossword puzzle with picture clues', caption: 'Picture crossword (cruciverba) with Italian answer words -- taps into Italy\'s 90+ year puzzle tradition' },
+      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Italian word search puzzle showing themed Italian vocabulary in grid', caption: 'An Italian crucipuzzle generated with native vocabulary including properly accented characters' },
+      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Italian crossword puzzle with picture clues', caption: 'Picture crossword (cruciverba) with Italian answer words -- taps into Italy\'s 90+ year puzzle tradition' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Italian Printables for Etsy and Amazon IT',
@@ -191,7 +191,7 @@ const content: GuideContent = {
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- Gatto in Italian vocabulary', caption: 'Gatto (Cat)' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- Cane in Italian vocabulary', caption: 'Cane (Dog)' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- Cavallo in Italian vocabulary', caption: 'Cavallo (Horse)' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- Mela in Italian vocabulary', caption: 'Mela (Apple)' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- Mela in Italian vocabulary', caption: 'Mela (Apple)' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- Macchina in Italian vocabulary', caption: 'Macchina (Car)' },
   ],
 };

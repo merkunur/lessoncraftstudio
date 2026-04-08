@@ -176,20 +176,20 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/Coloring 1.webp', alt: 'Coloring page with outlined design formatted for KDP book interior' },
+    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page with outlined design formatted for KDP book interior' },
     samples: [
-      { src: '/samples/english/coloring/Coloring 1.webp', alt: 'Coloring page with clean outlines ready for KDP printing', caption: 'A themed coloring page exported as a print-ready PDF -- single-sided formatting prevents bleed-through' },
-      { src: '/samples/english/draw-and-color/Draw and Color 1.webp', alt: 'Draw and color activity page with reference image and tracing outline', caption: 'Draw and color activity page -- reference image on one side, dotted outline for tracing on the other' },
+      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page with clean outlines ready for KDP printing', caption: 'A themed coloring page exported as a print-ready PDF -- single-sided formatting prevents bleed-through' },
+      { src: '/samples/english/draw and color/grid-drawing_worksheet (10).webp', alt: 'Draw and color activity page with reference image and tracing outline', caption: 'Draw and color activity page -- reference image on one side, dotted outline for tracing on the other' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create a Coloring Book for Amazon KDP',
   },
 
   themeImages: [
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
     { src: '/image-library/animals/rabbit.webp', alt: 'Rabbit -- themed educational image', caption: 'Rabbit' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed educational image', caption: 'Horse' },
-    { src: '/image-library/animals/parrot.webp', alt: 'Parrot -- themed educational image', caption: 'Parrot' },
+    { src: '/image-library/animals/woodpecker.webp', alt: 'Parrot -- themed educational image', caption: 'Parrot' },
     { src: '/image-library/animals/turtle.webp', alt: 'Turtle -- themed educational image', caption: 'Turtle' },
   ],
 };

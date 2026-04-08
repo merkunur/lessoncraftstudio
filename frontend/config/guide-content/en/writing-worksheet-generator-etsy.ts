@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/writing/Writing 1.webp', alt: 'Handwriting tracing worksheet with guided letter practice generated for Etsy sellers' },
+    heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Handwriting tracing worksheet with guided letter practice generated for Etsy sellers' },
     samples: [
-      { src: '/samples/english/writing/Writing 1.webp', alt: 'Trace mode handwriting worksheet with dotted letter outlines', caption: 'Trace mode worksheet showing fully guided letter outlines for beginner handwriting practice' },
-      { src: '/samples/english/writing/Writing 1.webp', alt: 'Fading trace handwriting worksheet with progressive difficulty', caption: 'Fading Trace mode with letters progressively fading across the practice row for intermediate learners' },
+      { src: '/samples/english/writing/writing beginning letter.webp', alt: 'Trace mode handwriting worksheet with dotted letter outlines', caption: 'Trace mode worksheet showing fully guided letter outlines for beginner handwriting practice' },
+      { src: '/samples/english/writing/writing.webp', alt: 'Fading trace handwriting worksheet with progressive difficulty', caption: 'Fading Trace mode with letters progressively fading across the practice row for intermediate learners' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Handwriting Worksheets to Sell on Etsy',
@@ -190,7 +190,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/animals/cat.webp', alt: 'Cat -- themed handwriting vocabulary image', caption: 'Cat' },
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed handwriting vocabulary image', caption: 'Dog' },
-    { src: '/image-library/food/apple.webp', alt: 'Apple -- themed handwriting vocabulary image', caption: 'Apple' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed handwriting vocabulary image', caption: 'Apple' },
     { src: '/image-library/vehicles/car.webp', alt: 'Car -- themed handwriting vocabulary image', caption: 'Car' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed handwriting vocabulary image', caption: 'Horse' },
   ],

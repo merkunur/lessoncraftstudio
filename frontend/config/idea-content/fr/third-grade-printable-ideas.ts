@@ -176,7 +176,7 @@ Le segment d\'acheteurs parentaux atteint sa motivation maximale au CE2 car les 
     { src: '/image-library/classroom/book.webp', alt: 'Livre — image éducative thématique', caption: 'Book' },
     { src: '/image-library/classroom/cabinet.webp', alt: 'Armoire — image éducative thématique', caption: 'Cabinet' },
     { src: '/image-library/classroom/calculator.webp', alt: 'Calculatrice — image éducative thématique', caption: 'Calculator' },
-    { src: '/image-library/classroom/calender.webp', alt: 'Calendrier — image éducative thématique', caption: 'Calender' },
+    { src: '/image-library/classroom/calculator.webp', alt: 'Calendrier — image éducative thématique', caption: 'Calender' },
   ],
 
 

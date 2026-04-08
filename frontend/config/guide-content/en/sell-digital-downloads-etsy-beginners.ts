@@ -176,18 +176,18 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page printable ready for selling as Etsy digital download' },
+    heroImage: { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page printable ready for selling as Etsy digital download' },
     samples: [
       { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Printable coloring page for Etsy digital download listing', caption: 'Coloring page exported as print-ready PDF -- the most popular digital download category on Etsy' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search worksheet for Etsy digital product listing', caption: 'Word search puzzle with themed vocabulary and automatic answer key for instant digital delivery' },
+      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search worksheet for Etsy digital product listing', caption: 'Word search puzzle with themed vocabulary and automatic answer key for instant digital delivery' },
     ],
   },
 
   themeImages: [
-    { src: '/image-library/animals/bear.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
+    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
     { src: '/image-library/animals/duck.webp', alt: 'Duck -- themed educational image', caption: 'Duck' },
-    { src: '/image-library/animals/frog.webp', alt: 'Frog -- themed educational image', caption: 'Frog' },
+    { src: '/image-library/animals/iguana.webp', alt: 'Frog -- themed educational image', caption: 'Frog' },
     { src: '/image-library/animals/penguin.webp', alt: 'Penguin -- themed educational image', caption: 'Penguin' },
   ],
 };

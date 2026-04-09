@@ -212,10 +212,10 @@ const content: StartContent = {
 
   themeImages: [
     { src: '/image-library/animals/elephant.webp', alt: 'Norsu — teemallinen opetuskuva matikkatehtäviin', caption: 'Norsu' },
-    { src: '/image-library/food/apple.webp', alt: 'Omena — teemallinen opetuskuva matikkatehtäviin', caption: 'Omena' },
+    { src: '/image-library/fruits/apple.webp', alt: 'Omena — teemallinen opetuskuva matikkatehtäviin', caption: 'Omena' },
     { src: '/image-library/vehicles/car.webp', alt: 'Auto — teemallinen opetuskuva matikkatehtäviin', caption: 'Auto' },
-    { src: '/image-library/animals/butterfly.webp', alt: 'Perhonen — teemallinen opetuskuva matikkatehtäviin', caption: 'Perhonen' },
-    { src: '/image-library/food/banana.webp', alt: 'Banaani — teemallinen opetuskuva matikkatehtäviin', caption: 'Banaani' },
+    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Perhonen — teemallinen opetuskuva matikkatehtäviin', caption: 'Perhonen' },
+    { src: '/image-library/fruits/banana.webp', alt: 'Banaani — teemallinen opetuskuva matikkatehtäviin', caption: 'Banaani' },
   ],
 };
 

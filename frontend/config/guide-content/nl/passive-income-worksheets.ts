@@ -207,7 +207,7 @@ const content: GuideContent = {
 
   themeImages: [
     {
-      src: '/image-library/dinosaurs/tyrannosaurus-rex.webp',
+      src: '/image-library/dinosaurs/tyrannosaurus%20rex.webp',
       alt: 'Tyrannosaurus illustratie voor dinosaurus werkbladen',
       caption: 'Tyrannosaurus — het populairste dinosaurusthema voor kinderwerkbladen',
     },

@@ -204,7 +204,7 @@ const content: GuideContent = {
     { src: '/image-library/christmas/angel.webp', alt: 'Ange — image éducative thématique', caption: 'Ange' },
     { src: '/image-library/christmas/bell.webp', alt: 'Cloche — image éducative thématique', caption: 'Cloche' },
     { src: '/image-library/christmas/candle.webp', alt: 'Bougie — image éducative thématique', caption: 'Bougie' },
-    { src: '/image-library/christmas/candy-cane.webp', alt: 'Sucre d\'orge — image éducative thématique', caption: 'Sucre d\'orge' },
+    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Sucre d\'orge — image éducative thématique', caption: 'Sucre d\'orge' },
     { src: '/image-library/christmas/chimney.webp', alt: 'Cheminée — image éducative thématique', caption: 'Cheminée' },
   ],
 };

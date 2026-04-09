@@ -177,7 +177,7 @@ The international opportunity for KDP puzzle books remains largely untapped by E
   themeImages: [
     { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },
     { src: '/image-library/animals/tiger.webp', alt: 'Tiger -- themed educational image', caption: 'Tiger' },
-    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Koala' },
     { src: '/image-library/animals/rabbit.webp', alt: 'Rabbit -- themed educational image', caption: 'Rabbit' },
     { src: '/image-library/animals/turtle.webp', alt: 'Turtle -- themed educational image', caption: 'Turtle' },
   ],

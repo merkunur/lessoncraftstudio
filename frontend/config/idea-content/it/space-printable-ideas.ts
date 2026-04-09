@@ -189,9 +189,9 @@ Per massimizzare le entrate dai tuoi stampabili sullo spazio, sviluppa prodotti 
     { src: '/image-library/space/asteroid.webp', alt: 'Asteroide — immagine educativa tematica', caption: 'Asteroide' },
     { src: '/image-library/space/astronaut.webp', alt: 'Astronauta — immagine educativa tematica', caption: 'Astronauta' },
     { src: '/image-library/space/comet.webp', alt: 'Cometa — immagine educativa tematica', caption: 'Cometa' },
-    { src: '/image-library/space/earth.webp', alt: 'Terra — immagine educativa tematica', caption: 'Terra' },
+    { src: '/image-library/space/Earth.webp', alt: 'Terra — immagine educativa tematica', caption: 'Terra' },
     { src: '/image-library/space/galaxy.webp', alt: 'Galassia — immagine educativa tematica', caption: 'Galassia' },
-    { src: '/image-library/space/jupiter.webp', alt: 'Giove — immagine educativa tematica', caption: 'Giove' },
+    { src: '/image-library/space/Jupiter.webp', alt: 'Giove — immagine educativa tematica', caption: 'Giove' },
   ],
 
 

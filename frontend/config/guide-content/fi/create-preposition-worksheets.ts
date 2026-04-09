@@ -200,7 +200,7 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/around%20the%20house/alarm-clock.webp', alt: 'Herätyskello — temaattinen opetuskuva', caption: 'Herätyskello' },
+    { src: '/image-library/around%20the%20house/alarm%20clock.webp', alt: 'Herätyskello — temaattinen opetuskuva', caption: 'Herätyskello' },
     { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Nojatuoli — temaattinen opetuskuva', caption: 'Nojatuoli' },
     { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Kylpyamme — temaattinen opetuskuva', caption: 'Kylpyamme' },
     { src: '/image-library/around%20the%20house/bed.webp', alt: 'Sänky — temaattinen opetuskuva', caption: 'Sänky' },

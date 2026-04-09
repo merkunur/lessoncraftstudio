@@ -188,9 +188,9 @@ För att maximera dina rymdutskriftsintäkter, utveckla produkter över flera un
     { src: '/image-library/space/asteroid.webp', alt: 'Asteroid — tematiserad pedagogisk bild', caption: 'Asteroid' },
     { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — tematiserad pedagogisk bild', caption: 'Astronaut' },
     { src: '/image-library/space/comet.webp', alt: 'Komet — tematiserad pedagogisk bild', caption: 'Komet' },
-    { src: '/image-library/space/earth.webp', alt: 'Jorden — tematiserad pedagogisk bild', caption: 'Jorden' },
+    { src: '/image-library/space/Earth.webp', alt: 'Jorden — tematiserad pedagogisk bild', caption: 'Jorden' },
     { src: '/image-library/space/galaxy.webp', alt: 'Galax — tematiserad pedagogisk bild', caption: 'Galax' },
-    { src: '/image-library/space/jupiter.webp', alt: 'Jupiter — tematiserad pedagogisk bild', caption: 'Jupiter' },
+    { src: '/image-library/space/Jupiter.webp', alt: 'Jupiter — tematiserad pedagogisk bild', caption: 'Jupiter' },
   ],
 
 

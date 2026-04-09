@@ -199,7 +199,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Asparges — tematisk pedagogisk bilde', caption: 'Asparges' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Rodbet — tematisk pedagogisk bilde', caption: 'Rodbet' },
-    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Paprika — tematisk pedagogisk bilde', caption: 'Paprika' },
+    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Paprika — tematisk pedagogisk bilde', caption: 'Paprika' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Brokkoli — tematisk pedagogisk bilde', caption: 'Brokkoli' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Kal — tematisk pedagogisk bilde', caption: 'Kal' },
   ],

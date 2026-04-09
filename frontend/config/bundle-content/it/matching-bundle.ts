@@ -224,7 +224,7 @@ const content: BundleContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Toro — immagine educativa tematica', caption: 'Toro' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Vitello — immagine educativa tematica', caption: 'Vitello' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Gatto — immagine educativa tematica', caption: 'Gatto' },
-    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Gatto 2 — immagine educativa tematica', caption: 'Gatto 2' },
+    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gatto 2 — immagine educativa tematica', caption: 'Gatto 2' },
     { src: '/image-library/farm%20animals/chick.webp', alt: 'Pulcino — immagine educativa tematica', caption: 'Pulcino' },
     { src: '/image-library/farm%20animals/chicken.webp', alt: 'Gallina — immagine educativa tematica', caption: 'Gallina' },
     { src: '/image-library/farm%20animals/cow.webp', alt: 'Mucca — immagine educativa tematica', caption: 'Mucca' },

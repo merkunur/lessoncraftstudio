@@ -199,7 +199,7 @@ const content: GuideContent = {
     { src: '/image-library/easter/flower.webp', alt: 'Bloem — thematische educatieve afbeelding', caption: 'Bloem' },
     { src: '/image-library/animals%20bw%203/ladybug.webp', alt: 'Lieveheersbeestje — thematische educatieve afbeelding', caption: 'Lieveheersbeestje' },
     { src: '/image-library/animals%20bw/snail.webp', alt: 'Slak — thematische educatieve afbeelding', caption: 'Slak' },
-    { src: '/image-library/around%20the%20house/watering-can.webp', alt: 'Gieter — thematische educatieve afbeelding', caption: 'Gieter' },
+    { src: '/image-library/around%20the%20house/watering%20can.webp', alt: 'Gieter — thematische educatieve afbeelding', caption: 'Gieter' },
   ],
 };
 

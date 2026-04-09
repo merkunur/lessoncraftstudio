@@ -188,7 +188,7 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Butterfly — themed educational image', caption: 'Butterfly' },
     { src: '/image-library/fruits/cherry.webp', alt: 'Cake -- themed educational image', caption: 'Cake' },
     { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin -- themed educational image', caption: 'Dolphin' },
     { src: '/image-library/vehicles/airplane.webp', alt: 'Airplane -- themed educational image', caption: 'Airplane' },

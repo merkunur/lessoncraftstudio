@@ -212,7 +212,7 @@ const content: BundleContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Taureau — image éducative thématique', caption: 'Taureau' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Veau — image éducative thématique', caption: 'Veau' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Chat — image éducative thématique', caption: 'Chat' },
-    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Chat 2 — image éducative thématique', caption: 'Chat 2' },
+    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Chat 2 — image éducative thématique', caption: 'Chat 2' },
     { src: '/image-library/farm%20animals/chick.webp', alt: 'Poussin — image éducative thématique', caption: 'Poussin' },
     { src: '/image-library/farm%20animals/chicken.webp', alt: 'Poule — image éducative thématique', caption: 'Poule' },
     { src: '/image-library/farm%20animals/cow.webp', alt: 'Vache — image éducative thématique', caption: 'Vache' },

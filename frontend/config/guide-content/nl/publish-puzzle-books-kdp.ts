@@ -209,7 +209,7 @@ const content: GuideContent = {
     { src: '/image-library/space/asteroid.webp', alt: 'Asteroïde — thematische educatieve afbeelding', caption: 'Asteroïde' },
     { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — thematische educatieve afbeelding', caption: 'Astronaut' },
     { src: '/image-library/space/comet.webp', alt: 'Komeet — thematische educatieve afbeelding', caption: 'Komeet' },
-    { src: '/image-library/space/earth.webp', alt: 'Aarde — thematische educatieve afbeelding', caption: 'Aarde' },
+    { src: '/image-library/space/Earth.webp', alt: 'Aarde — thematische educatieve afbeelding', caption: 'Aarde' },
     { src: '/image-library/space/galaxy.webp', alt: 'Sterrenstelsel — thematische educatieve afbeelding', caption: 'Sterrenstelsel' },
   ],
 };

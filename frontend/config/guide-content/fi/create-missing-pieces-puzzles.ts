@@ -80,7 +80,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Härkä — temaattinen opetuksellinen kuva', caption: 'Härkä' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Vasikka — temaattinen opetuksellinen kuva', caption: 'Vasikka' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kissa — temaattinen opetuksellinen kuva', caption: 'Kissa' },
-    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kissa 2 — temaattinen opetuksellinen kuva', caption: 'Kissa 2' },
+    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kissa 2 — temaattinen opetuksellinen kuva', caption: 'Kissa 2' },
   ],
 };
 

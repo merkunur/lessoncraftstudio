@@ -222,7 +222,7 @@ const content: BundleContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Sonni — temaattinen opetuskuva', caption: 'Sonni' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Vasikka — temaattinen opetuskuva', caption: 'Vasikka' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kissa — temaattinen opetuskuva', caption: 'Kissa' },
-    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kissa 2 — temaattinen opetuskuva', caption: 'Kissa 2' },
+    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kissa 2 — temaattinen opetuskuva', caption: 'Kissa 2' },
     { src: '/image-library/farm%20animals/chick.webp', alt: 'Tipu — temaattinen opetuskuva', caption: 'Tipu' },
     { src: '/image-library/farm%20animals/chicken.webp', alt: 'Kana — temaattinen opetuskuva', caption: 'Kana' },
     { src: '/image-library/farm%20animals/cow.webp', alt: 'Lehma — temaattinen opetuskuva', caption: 'Lehma' },

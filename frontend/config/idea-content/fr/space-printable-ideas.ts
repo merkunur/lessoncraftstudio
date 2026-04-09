@@ -183,9 +183,9 @@ Pour maximiser vos revenus d\'imprimables spatiaux, développez des produits cou
     { src: '/image-library/space/asteroid.webp', alt: 'Astéroïde — image éducative thématique', caption: 'Asteroid' },
     { src: '/image-library/space/astronaut.webp', alt: 'Astronaute — image éducative thématique', caption: 'Astronaut' },
     { src: '/image-library/space/comet.webp', alt: 'Comète — image éducative thématique', caption: 'Comet' },
-    { src: '/image-library/space/earth.webp', alt: 'Terre — image éducative thématique', caption: 'Earth' },
+    { src: '/image-library/space/Earth.webp', alt: 'Terre — image éducative thématique', caption: 'Earth' },
     { src: '/image-library/space/galaxy.webp', alt: 'Galaxie — image éducative thématique', caption: 'Galaxy' },
-    { src: '/image-library/space/jupiter.webp', alt: 'Jupiter — image éducative thématique', caption: 'Jupiter' },
+    { src: '/image-library/space/Jupiter.webp', alt: 'Jupiter — image éducative thématique', caption: 'Jupiter' },
   ],
 
 

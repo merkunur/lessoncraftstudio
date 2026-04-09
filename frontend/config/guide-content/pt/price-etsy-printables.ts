@@ -198,7 +198,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Espargo — imagem educativa temática', caption: 'Espargo' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Beterraba — imagem educativa temática', caption: 'Beterraba' },
-    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Pimento — imagem educativa temática', caption: 'Pimento' },
+    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Pimento — imagem educativa temática', caption: 'Pimento' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Brócolos — imagem educativa temática', caption: 'Brócolos' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Couve — imagem educativa temática', caption: 'Couve' },
   ],

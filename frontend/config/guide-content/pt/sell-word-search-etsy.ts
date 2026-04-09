@@ -185,11 +185,11 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/kitchen/blender.webp', alt: 'Liquidificador — imagem educativa temática', caption: 'Liquidificador' },
-    { src: '/image-library/kitchen/bowl.webp', alt: 'Tigela — imagem educativa temática', caption: 'Tigela' },
-    { src: '/image-library/kitchen/cup.webp', alt: 'Chávena — imagem educativa temática', caption: 'Chávena' },
-    { src: '/image-library/kitchen/fork.webp', alt: 'Garfo — imagem educativa temática', caption: 'Garfo' },
-    { src: '/image-library/kitchen/fridge.webp', alt: 'Frigorífico — imagem educativa temática', caption: 'Frigorífico' },
+    { src: '/image-library/kitchen%20tools/blender.webp', alt: 'Liquidificador — imagem educativa temática', caption: 'Liquidificador' },
+    { src: '/image-library/kitchen%20tools/bowl.webp', alt: 'Tigela — imagem educativa temática', caption: 'Tigela' },
+    { src: '/image-library/kitchen%20tools/cup.webp', alt: 'Chávena — imagem educativa temática', caption: 'Chávena' },
+    { src: '/image-library/kitchen%20tools/fork.webp', alt: 'Garfo — imagem educativa temática', caption: 'Garfo' },
+    { src: '/image-library/kitchen%20tools/blender.webp', alt: 'Liquidificador — imagem educativa temática', caption: 'Liquidificador' },
   ],
 };
 

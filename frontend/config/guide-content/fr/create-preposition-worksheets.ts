@@ -200,7 +200,7 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/around%20the%20house/alarm-clock.webp', alt: 'Réveil — image éducative thématique', caption: 'Réveil' },
+    { src: '/image-library/around%20the%20house/alarm%20clock.webp', alt: 'Réveil — image éducative thématique', caption: 'Réveil' },
     { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Fauteuil — image éducative thématique', caption: 'Fauteuil' },
     { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Baignoire — image éducative thématique', caption: 'Baignoire' },
     { src: '/image-library/around%20the%20house/bed.webp', alt: 'Lit — image éducative thématique', caption: 'Lit' },

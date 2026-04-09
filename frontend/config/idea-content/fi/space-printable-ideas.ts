@@ -152,9 +152,9 @@ Avaruustulostettavien hinnoittelu noudattaa standardeja opetuksellisten tulostet
     { src: '/image-library/space/asteroid.webp', alt: 'Asteroidi — temaattinen opetuskuva', caption: 'Asteroidi' },
     { src: '/image-library/space/astronaut.webp', alt: 'Astronautti — temaattinen opetuskuva', caption: 'Astronautti' },
     { src: '/image-library/space/comet.webp', alt: 'Komeetta — temaattinen opetuskuva', caption: 'Komeetta' },
-    { src: '/image-library/space/earth.webp', alt: 'Maapallo — temaattinen opetuskuva', caption: 'Maapallo' },
+    { src: '/image-library/space/Earth.webp', alt: 'Maapallo — temaattinen opetuskuva', caption: 'Maapallo' },
     { src: '/image-library/space/galaxy.webp', alt: 'Galaksi — temaattinen opetuskuva', caption: 'Galaksi' },
-    { src: '/image-library/space/jupiter.webp', alt: 'Jupiter — temaattinen opetuskuva', caption: 'Jupiter' },
+    { src: '/image-library/space/Jupiter.webp', alt: 'Jupiter — temaattinen opetuskuva', caption: 'Jupiter' },
   ],
 
   youtubeId: '0cOPi7eajLs',

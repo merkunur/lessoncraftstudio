@@ -186,8 +186,8 @@ const content: GuideContent = {
 
   themeImages: [
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
-    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
-    { src: '/image-library/vehicles/fire-truck.webp', alt: 'Fire truck -- themed educational image', caption: 'Fire Truck' },
+    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Butterfly — themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/vehicles/fire%20truck.webp', alt: 'Fire truck -- themed educational image', caption: 'Fire Truck' },
     { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
     { src: '/image-library/animals/raccoon.webp', alt: 'Hedgehog -- themed educational image', caption: 'Hedgehog' },
   ],

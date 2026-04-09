@@ -192,7 +192,7 @@ const content: GuideContent = {
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed tracing worksheet image', caption: 'Dog' },
     { src: '/image-library/animals/rabbit.webp', alt: 'Rabbit -- themed tracing worksheet image', caption: 'Rabbit' },
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed tracing worksheet image', caption: 'Elephant' },
-    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed tracing worksheet image', caption: 'Butterfly' },
+    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Butterfly — themed tracing worksheet image', caption: 'Butterfly' },
   ],
 };
 

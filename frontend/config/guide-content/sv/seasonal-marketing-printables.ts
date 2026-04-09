@@ -204,7 +204,7 @@ const content: GuideContent = {
     { src: '/image-library/christmas/angel.webp', alt: 'Ängel — tematisk pedagogisk bild', caption: 'Ängel' },
     { src: '/image-library/christmas/bell.webp', alt: 'Klocka — tematisk pedagogisk bild', caption: 'Klocka' },
     { src: '/image-library/christmas/candle.webp', alt: 'Ljus — tematisk pedagogisk bild', caption: 'Ljus' },
-    { src: '/image-library/christmas/candy-cane.webp', alt: 'Polkagris — tematisk pedagogisk bild', caption: 'Polkagris' },
+    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Polkagris — tematisk pedagogisk bild', caption: 'Polkagris' },
     { src: '/image-library/christmas/chimney.webp', alt: 'Skorsten — tematisk pedagogisk bild', caption: 'Skorsten' },
   ],
 };

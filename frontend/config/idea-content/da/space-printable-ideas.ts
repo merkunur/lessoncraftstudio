@@ -188,9 +188,9 @@ For at maksimere din rumprintbare omsætning, udvikl produkter på tværs af fle
     { src: '/image-library/space/asteroid.webp', alt: 'Asteroide — tematisk pædagogisk billede', caption: 'Asteroide' },
     { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — tematisk pædagogisk billede', caption: 'Astronaut' },
     { src: '/image-library/space/comet.webp', alt: 'Komet — tematisk pædagogisk billede', caption: 'Komet' },
-    { src: '/image-library/space/earth.webp', alt: 'Jorden — tematisk pædagogisk billede', caption: 'Jorden' },
+    { src: '/image-library/space/Earth.webp', alt: 'Jorden — tematisk pædagogisk billede', caption: 'Jorden' },
     { src: '/image-library/space/galaxy.webp', alt: 'Galakse — tematisk pædagogisk billede', caption: 'Galakse' },
-    { src: '/image-library/space/jupiter.webp', alt: 'Jupiter — tematisk pædagogisk billede', caption: 'Jupiter' },
+    { src: '/image-library/space/Jupiter.webp', alt: 'Jupiter — tematisk pædagogisk billede', caption: 'Jupiter' },
   ],
 
 

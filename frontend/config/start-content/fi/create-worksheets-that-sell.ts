@@ -228,7 +228,7 @@ const content: StartContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Sonni — teemallinen opetuskuva', caption: 'Sonni' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Vasikka — teemallinen opetuskuva', caption: 'Vasikka' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kissa — teemallinen opetuskuva', caption: 'Kissa' },
-    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kissa 2 — teemallinen opetuskuva', caption: 'Kissa 2' },
+    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kissa 2 — teemallinen opetuskuva', caption: 'Kissa 2' },
   ],
 };
 

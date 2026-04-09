@@ -192,7 +192,7 @@ const content: GuideContent = {
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed bingo image', caption: 'Dog' },
     { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed bingo image', caption: 'Apple' },
     { src: '/image-library/fruits/banana.webp', alt: 'Banana -- themed bingo image', caption: 'Banana' },
-    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed bingo image', caption: 'Butterfly' },
+    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Butterfly — themed bingo image', caption: 'Butterfly' },
   ],
 };
 

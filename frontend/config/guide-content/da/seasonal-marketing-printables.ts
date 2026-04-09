@@ -191,7 +191,7 @@ const content: GuideContent = {
     { src: '/image-library/christmas/angel.webp', alt: 'Engel — tematisk pædagogisk billede', caption: 'Engel' },
     { src: '/image-library/christmas/bell.webp', alt: 'Klokke — tematisk pædagogisk billede', caption: 'Klokke' },
     { src: '/image-library/christmas/candle.webp', alt: 'Stearinlys — tematisk pædagogisk billede', caption: 'Stearinlys' },
-    { src: '/image-library/christmas/candy-cane.webp', alt: 'Sukkerstok — tematisk pædagogisk billede', caption: 'Sukkerstok' },
+    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Sukkerstok — tematisk pædagogisk billede', caption: 'Sukkerstok' },
     { src: '/image-library/christmas/chimney.webp', alt: 'Skorsten — tematisk pædagogisk billede', caption: 'Skorsten' },
   ],
 };

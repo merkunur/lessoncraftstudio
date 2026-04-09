@@ -193,7 +193,7 @@ const content: GuideContent = {
 
   themeImages: [
     { src: '/image-library/animals/fox.webp', alt: 'Fox -- themed educational worksheet image', caption: 'Fox' },
-    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational worksheet image', caption: 'Bear' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational worksheet image', caption: 'Koala' },
     { src: '/image-library/animals/moose.webp', alt: 'Deer -- themed educational worksheet image', caption: 'Deer' },
     { src: '/image-library/animals/vulture.webp', alt: 'Eagle -- themed educational worksheet image', caption: 'Eagle' },
     { src: '/image-library/animals/whale.webp', alt: 'Whale -- themed educational worksheet image', caption: 'Whale' },

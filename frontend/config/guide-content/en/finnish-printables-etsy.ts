@@ -187,7 +187,7 @@ const content: GuideContent = {
 
   themeImages: [
     { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Karhu' },
-    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Perhonen' },
+    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Butterfly — themed educational image', caption: 'Perhonen' },
     { src: '/image-library/animals/turtle.webp', alt: 'Turtle -- themed educational image', caption: 'Kilpikonna' },
     { src: '/image-library/fruits/blackberry.webp', alt: 'Strawberry -- themed educational image', caption: 'Mansikka' },
     { src: '/image-library/animals/fox.webp', alt: 'Fox -- themed educational image', caption: 'Kettu' },

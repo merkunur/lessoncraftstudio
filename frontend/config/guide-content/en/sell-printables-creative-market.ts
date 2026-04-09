@@ -188,7 +188,7 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed coloring page design', caption: 'Butterfly' },
+    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Butterfly — themed coloring page design', caption: 'Butterfly' },
     { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin -- themed coloring page design', caption: 'Dolphin' },
     { src: '/image-library/flowers/rose.webp', alt: 'Rose -- themed coloring page design', caption: 'Rose' },
     { src: '/image-library/flowers/sunflower.webp', alt: 'Sunflower -- themed coloring page design', caption: 'Sunflower' },

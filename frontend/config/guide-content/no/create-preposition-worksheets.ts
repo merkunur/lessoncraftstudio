@@ -172,7 +172,7 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/around%20the%20house/alarm-clock.webp', alt: 'Vekkeklokke — tematisk pedagogisk bilde', caption: 'Vekkeklokke' },
+    { src: '/image-library/around%20the%20house/alarm%20clock.webp', alt: 'Vekkeklokke — tematisk pedagogisk bilde', caption: 'Vekkeklokke' },
     { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Lenestol — tematisk pedagogisk bilde', caption: 'Lenestol' },
     { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Badekar — tematisk pedagogisk bilde', caption: 'Badekar' },
     { src: '/image-library/around%20the%20house/bed.webp', alt: 'Seng — tematisk pedagogisk bilde', caption: 'Seng' },

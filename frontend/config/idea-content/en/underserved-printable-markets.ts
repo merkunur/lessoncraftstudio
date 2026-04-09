@@ -180,7 +180,7 @@ Gifted education materials represent yet another underserved segment. Parents of
     { src: '/image-library/animals/fox.webp', alt: 'Fox -- themed educational image', caption: 'Fox' },
     { src: '/image-library/animals/turtle.webp', alt: 'Turtle -- themed educational image', caption: 'Turtle' },
     { src: '/image-library/animals/rabbit.webp', alt: 'Rabbit -- themed educational image', caption: 'Rabbit' },
-    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Koala' },
   ],
 };
 

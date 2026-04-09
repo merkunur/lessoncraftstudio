@@ -76,7 +76,7 @@ const content: GuideContent = {
     { src: '/image-library/animals/bat.webp', alt: 'Lepakko — temaattinen opetuskuva', caption: 'Lepakko' },
     { src: '/image-library/animals/camel.webp', alt: 'Kameli — temaattinen opetuskuva', caption: 'Kameli' },
     { src: '/image-library/animals/cat.webp', alt: 'Kissa — temaattinen opetuskuva', caption: 'Kissa' },
-    { src: '/image-library/animals/cheetah.webp', alt: 'Gepardi — temaattinen opetuskuva', caption: 'Gepardi' },
+    { src: '/image-library/animals/leopard.webp', alt: 'Gepardi — temaattinen opetuskuva', caption: 'Gepardi' },
   ],
 };
 

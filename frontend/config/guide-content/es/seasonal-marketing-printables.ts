@@ -203,7 +203,7 @@ const content: GuideContent = {
     { src: '/image-library/christmas/angel.webp', alt: 'Ángel — imagen educativa temática', caption: 'Ángel' },
     { src: '/image-library/christmas/bell.webp', alt: 'Campana — imagen educativa temática', caption: 'Campana' },
     { src: '/image-library/christmas/candle.webp', alt: 'Vela — imagen educativa temática', caption: 'Vela' },
-    { src: '/image-library/christmas/candy-cane.webp', alt: 'Bastón de Caramelo — imagen educativa temática', caption: 'Bastón de Caramelo' },
+    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Bastón de Caramelo — imagen educativa temática', caption: 'Bastón de Caramelo' },
     { src: '/image-library/christmas/chimney.webp', alt: 'Chimenea — imagen educativa temática', caption: 'Chimenea' },
   ],
 };

@@ -188,7 +188,7 @@ const content: GuideContent = {
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe -- themed image for picture crossword clues', caption: 'Giraffe' },
     { src: '/image-library/animals/zebra.webp', alt: 'Zebra -- themed image for picture crossword clues', caption: 'Zebra' },
     { src: '/image-library/animals/penguin.webp', alt: 'Penguin -- themed image for picture crossword clues', caption: 'Penguin' },
-    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed image for picture crossword clues', caption: 'Bear' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed image for picture crossword clues', caption: 'Koala' },
   ],
 };
 

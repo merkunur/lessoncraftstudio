@@ -78,7 +78,7 @@ const content: GuideContent = {
     { src: '/image-library/weather/cloudy.webp', alt: 'Pilvinen — temaattinen opetuskuva', caption: 'Pilvinen' },
     { src: '/image-library/weather/cold.webp', alt: 'Kylmä — temaattinen opetuskuva', caption: 'Kylmä' },
     { src: '/image-library/weather/hot.webp', alt: 'Kuuma — temaattinen opetuskuva', caption: 'Kuuma' },
-    { src: '/image-library/weather/lightning.webp', alt: 'Salama — temaattinen opetuskuva', caption: 'Salama' },
+    { src: '/image-library/weather/rainbow.webp', alt: 'Salama — temaattinen opetuskuva', caption: 'Salama' },
   ],
 };
 

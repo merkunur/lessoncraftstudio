@@ -189,9 +189,9 @@ To maximize your space printable revenue, develop products across multiple sub-t
     { src: '/image-library/space/asteroid.webp', alt: 'Asteroid — themed educational image', caption: 'Asteroid' },
     { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — themed educational image', caption: 'Astronaut' },
     { src: '/image-library/space/comet.webp', alt: 'Comet — themed educational image', caption: 'Comet' },
-    { src: '/image-library/space/earth.webp', alt: 'Earth — themed educational image', caption: 'Earth' },
+    { src: '/image-library/space/Earth.webp', alt: 'Earth — themed educational image', caption: 'Earth' },
     { src: '/image-library/space/galaxy.webp', alt: 'Galaxy — themed educational image', caption: 'Galaxy' },
-    { src: '/image-library/space/jupiter.webp', alt: 'Jupiter — themed educational image', caption: 'Jupiter' },
+    { src: '/image-library/space/Jupiter.webp', alt: 'Jupiter — themed educational image', caption: 'Jupiter' },
   ],
 
 

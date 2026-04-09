@@ -192,7 +192,7 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Bear' },
+    { src: '/image-library/animals/koala.webp', alt: 'Bear -- themed educational image', caption: 'Koala' },
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed educational image', caption: 'Elephant' },
     { src: '/image-library/animals/giraffe.webp', alt: 'Giraffe -- themed educational image', caption: 'Giraffe' },
     { src: '/image-library/animals/leopard.webp', alt: 'Lion -- themed educational image', caption: 'Lion' },

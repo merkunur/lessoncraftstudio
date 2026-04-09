@@ -173,7 +173,7 @@ const content: GuideContent = {
     { src: '/image-library/christmas/angel.webp', alt: 'Enkeli — temaattinen opetuskuva', caption: 'Enkeli' },
     { src: '/image-library/christmas/bell.webp', alt: 'Kello — temaattinen opetuskuva', caption: 'Kello' },
     { src: '/image-library/christmas/candle.webp', alt: 'Kynttilä — temaattinen opetuskuva', caption: 'Kynttilä' },
-    { src: '/image-library/christmas/candy-cane.webp', alt: 'Karamellitanko — temaattinen opetuskuva', caption: 'Karamellitanko' },
+    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Karamellitanko — temaattinen opetuskuva', caption: 'Karamellitanko' },
     { src: '/image-library/christmas/chimney.webp', alt: 'Savupiippu — temaattinen opetuskuva', caption: 'Savupiippu' },
   ],
 };

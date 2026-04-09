@@ -133,7 +133,7 @@ const content: StartContent = {
   },
 
   themeImages: [
-    { src: '/image-library/animals/bear.webp', alt: 'Karhu — teemallinen opetuskuva', caption: 'Karhu' },
+    { src: '/image-library/animals/koala.webp', alt: 'Karhu — teemallinen opetuskuva', caption: 'Karhu' },
     { src: '/image-library/animals/elephant.webp', alt: 'Norsu — teemallinen opetuskuva', caption: 'Norsu' },
     { src: '/image-library/animals/fox.webp', alt: 'Kettu — teemallinen opetuskuva', caption: 'Kettu' },
     { src: '/image-library/animals/owl.webp', alt: 'Pöllö — teemallinen opetuskuva', caption: 'Pöllö' },

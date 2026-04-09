@@ -188,7 +188,7 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed coloring source image', caption: 'Butterfly' },
+    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Butterfly — themed coloring source image', caption: 'Butterfly' },
     { src: '/image-library/animals/dolphin.webp', alt: 'Dolphin -- themed coloring source image', caption: 'Dolphin' },
     { src: '/image-library/animals/elephant.webp', alt: 'Elephant -- themed coloring source image', caption: 'Elephant' },
     { src: '/image-library/animals/horse.webp', alt: 'Horse -- themed coloring source image', caption: 'Horse' },

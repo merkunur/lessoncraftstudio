@@ -200,7 +200,7 @@ const content: GuideContent = {
     { src: '/image-library/space/asteroid.webp', alt: 'Asteroide — imagem educativa temática', caption: 'Asteroide' },
     { src: '/image-library/space/astronaut.webp', alt: 'Astronauta — imagem educativa temática', caption: 'Astronauta' },
     { src: '/image-library/space/comet.webp', alt: 'Cometa — imagem educativa temática', caption: 'Cometa' },
-    { src: '/image-library/space/earth.webp', alt: 'Terra — imagem educativa temática', caption: 'Terra' },
+    { src: '/image-library/space/Earth.webp', alt: 'Terra — imagem educativa temática', caption: 'Terra' },
     { src: '/image-library/space/galaxy.webp', alt: 'Galáxia — imagem educativa temática', caption: 'Galáxia' },
   ],
 };

@@ -200,7 +200,7 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/around%20the%20house/alarm-clock.webp', alt: 'Despertador — imagen educativa temática', caption: 'Despertador' },
+    { src: '/image-library/around%20the%20house/alarm%20clock.webp', alt: 'Despertador — imagen educativa temática', caption: 'Despertador' },
     { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Sillón — imagen educativa temática', caption: 'Sillón' },
     { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Bañera — imagen educativa temática', caption: 'Bañera' },
     { src: '/image-library/around%20the%20house/bed.webp', alt: 'Cama — imagen educativa temática', caption: 'Cama' },

@@ -207,7 +207,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Tyr — tematisk pædagogisk billede', caption: 'Tyr' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalv — tematisk pædagogisk billede', caption: 'Kalv' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kat — tematisk pædagogisk billede', caption: 'Kat' },
-    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kat 2 — tematisk pædagogisk billede', caption: 'Kat 2' },
+    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kat 2 — tematisk pædagogisk billede', caption: 'Kat 2' },
   ],
 };
 

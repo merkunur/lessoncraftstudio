@@ -190,7 +190,7 @@ const content: GuideContent = {
     { src: '/image-library/animals/dog.webp', alt: 'Dog -- themed educational image', caption: 'Dog' },
     { src: '/image-library/animals/bat.webp', alt: 'Bat -- themed educational image', caption: 'Bat' },
     { src: '/image-library/fruits/apple.webp', alt: 'Apple -- themed educational image', caption: 'Apple' },
-    { src: '/image-library/animals/seagull.webp', alt: 'Butterfly -- themed educational image', caption: 'Butterfly' },
+    { src: '/image-library/insects%20and%20bugs/butterfly.webp', alt: 'Butterfly — themed educational image', caption: 'Butterfly' },
   ],
 };
 

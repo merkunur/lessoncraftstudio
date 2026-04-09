@@ -84,7 +84,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Parsa — temaattinen opetuskuva', caption: 'Parsa' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Punajuuri — temaattinen opetuskuva', caption: 'Punajuuri' },
-    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Paprika — temaattinen opetuskuva', caption: 'Paprika' },
+    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Paprika — temaattinen opetuskuva', caption: 'Paprika' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Parsakaali — temaattinen opetuskuva', caption: 'Parsakaali' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Kaali — temaattinen opetuskuva', caption: 'Kaali' },
   ],

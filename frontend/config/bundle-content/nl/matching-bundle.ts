@@ -221,7 +221,7 @@ const content: BundleContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematische educatieve afbeelding', caption: 'Stier' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalf — thematische educatieve afbeelding', caption: 'Kalf' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kat — thematische educatieve afbeelding', caption: 'Kat' },
-    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kat 2 — thematische educatieve afbeelding', caption: 'Kat 2' },
+    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kat 2 — thematische educatieve afbeelding', caption: 'Kat 2' },
     { src: '/image-library/farm%20animals/chick.webp', alt: 'Kuiken — thematische educatieve afbeelding', caption: 'Kuiken' },
     { src: '/image-library/farm%20animals/chicken.webp', alt: 'Kip — thematische educatieve afbeelding', caption: 'Kip' },
     { src: '/image-library/farm%20animals/cow.webp', alt: 'Koe — thematische educatieve afbeelding', caption: 'Koe' },

@@ -168,9 +168,9 @@ Konkurransen i romnisjen er moderat, med de fleste eksisterende produkter som br
     { src: '/image-library/space/asteroid.webp', alt: 'Asteroide — tematisk pedagogisk bilde', caption: 'Asteroide' },
     { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — tematisk pedagogisk bilde', caption: 'Astronaut' },
     { src: '/image-library/space/comet.webp', alt: 'Komet — tematisk pedagogisk bilde', caption: 'Komet' },
-    { src: '/image-library/space/earth.webp', alt: 'Jorden — tematisk pedagogisk bilde', caption: 'Jorden' },
+    { src: '/image-library/space/Earth.webp', alt: 'Jorden — tematisk pedagogisk bilde', caption: 'Jorden' },
     { src: '/image-library/space/galaxy.webp', alt: 'Galakse — tematisk pedagogisk bilde', caption: 'Galakse' },
-    { src: '/image-library/space/jupiter.webp', alt: 'Jupiter — tematisk pedagogisk bilde', caption: 'Jupiter' },
+    { src: '/image-library/space/Jupiter.webp', alt: 'Jupiter — tematisk pedagogisk bilde', caption: 'Jupiter' },
   ],
 
 

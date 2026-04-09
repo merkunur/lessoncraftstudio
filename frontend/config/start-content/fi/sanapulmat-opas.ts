@@ -207,7 +207,7 @@ const content: StartContent = {
 
   themeImages: [
     { src: '/image-library/animals/dolphin.webp', alt: 'Delfiini — teemallinen opetuskuva sanapulmiin', caption: 'Delfiini' },
-    { src: '/image-library/food/strawberry.webp', alt: 'Mansikka — teemallinen opetuskuva sanapulmiin', caption: 'Mansikka' },
+    { src: '/image-library/fruits/strawberry.webp', alt: 'Mansikka — teemallinen opetuskuva sanapulmiin', caption: 'Mansikka' },
     { src: '/image-library/animals/owl.webp', alt: 'Pöllö — teemallinen opetuskuva sanapulmiin', caption: 'Pöllö' },
     { src: '/image-library/vehicles/airplane.webp', alt: 'Lentokone — teemallinen opetuskuva sanapulmiin', caption: 'Lentokone' },
     { src: '/image-library/animals/penguin.webp', alt: 'Pingviini — teemallinen opetuskuva sanapulmiin', caption: 'Pingviini' },

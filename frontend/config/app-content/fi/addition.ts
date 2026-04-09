@@ -258,22 +258,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp',
+      primary: '/samples/finnish/addition/hauska-yhteenlasku-1.webp',
       primaryAlt: 'Yhteenlaskutyoarkki varikkäillä elainkuvilla Kuva + Kuva -harjoitustilassa',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp',
+        src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp',
         alt: 'Pystysuuntainen yhteenlaskutyoarkki Kuva + Kuva -tilassa eläinteemalla',
         caption: 'Kuva + Kuva -tila — laske kaksi kuvaryhmaa ja kirjoita summa',
       },
       {
-        src: '/samples/finnish/addition/hauska%20yhteenlasku%202.webp',
+        src: '/samples/finnish/addition/hauska-yhteenlasku-2.webp',
         alt: 'Vaakasuuntainen yhteenlaskutyoarkki Kuva + Numero -tilassa ruokateemalla',
         caption: 'Kuva + Numero -tila — yhdistaa kuvaryhmat numeroihin siltataitojen kehittamiseksi',
       },
       {
-        src: '/samples/finnish/addition/hauska%20yhteenlasku%201%20answer-key.webp',
+        src: '/samples/finnish/addition/hauska-yhteenlasku-1-answer-key.webp',
         alt: 'Yhteenlaskutyoarkki Etsi Yhteenlaskettava -tilassa ajoneuvoteemalla',
         caption: 'Etsi Yhteenlaskettava -tila — kayttajat loytavat puuttuvan ryhman varhaisen algebrallisen ajattelun kehittamiseksi',
       },

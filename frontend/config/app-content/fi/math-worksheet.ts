@@ -249,22 +249,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/math%20worksheet/matematiikkalehti%201.webp',
+      primary: '/samples/finnish/math%20worksheet/matematiikkalehti-1.webp',
       primaryAlt: 'Algebrallinen kuvapulmapeli tyoarkki kuvasymbooleilla, jotka edustavat tuntemattomia muuttujia yhtälöjärjestelmässä',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/math%20worksheet/matematiikkalehti%202.webp',
+        src: '/samples/finnish/math%20worksheet/matematiikkalehti-2.webp',
         alt: 'Erittain Helppo algebrapulmapeli tyoarkki kahdella kuvasymbolilla ja pelkilla yhteenlaskuyhtälöillä',
         caption: 'Erittain Helppo taso — kaksi kuvasymboolia yksinkertaisessa yhtälöjärjestelmässä pelkalla yhteenlaskulla',
       },
       {
-        src: '/samples/finnish/math%20worksheet/matematiikkalehti%203.webp',
+        src: '/samples/finnish/math%20worksheet/matematiikkalehti-3.webp',
         alt: 'Keskitason algebrapulmapeli tyoarkki kolmella kuvasymbolilla ja sekalaskutoimituksilla',
         caption: 'Keskitaso — kolme symbolia yhdistetyissä yhtälöissä yhteen- ja vahennyslaskulla',
       },
       {
-        src: '/samples/finnish/math%20worksheet/matematiikkalehti%201.webp',
+        src: '/samples/finnish/math%20worksheet/matematiikkalehti-1.webp',
         alt: 'Vaikea algebrapulmapeli tyoarkki neljalla kuvasymbolilla neljän yhtälön järjestelmässä',
         caption: 'Vaikea taso — nelja samanaikaista tuntematonta edistyneeseen algebralliseen ongelmanratkaisuun',
       },

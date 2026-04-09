@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/math%20worksheet/matematikopgave%201.webp', alt: 'Professionelt additionsarbejdsark der demonstrerer den kvalitet der understøtter premiumprissætningsstrategier' },
+    heroImage: { src: '/samples/danish/math%20worksheet/matematikopgave-1.webp', alt: 'Professionelt additionsarbejdsark der demonstrerer den kvalitet der understøtter premiumprissætningsstrategier' },
     samples: [
-      { src: '/samples/danish/math%20worksheet/matematikopgave%201.webp', alt: 'Matematikopgave — dansk eksempelarbejdsark', caption: 'Matematikopgave eksempel 1' },
-      { src: '/samples/danish/math%20worksheet/matematikopgave%202.webp', alt: 'Matematikopgave — dansk eksempel 2', caption: 'Matematikopgave eksempel 2' },
-      { src: '/samples/danish/math%20worksheet/matematikopgave%203.webp', alt: 'Matematikopgave — dansk eksempel 3', caption: 'Matematikopgave eksempel 3' },
+      { src: '/samples/danish/math%20worksheet/matematikopgave-1.webp', alt: 'Matematikopgave — dansk eksempelarbejdsark', caption: 'Matematikopgave eksempel 1' },
+      { src: '/samples/danish/math%20worksheet/matematikopgave-2.webp', alt: 'Matematikopgave — dansk eksempel 2', caption: 'Matematikopgave eksempel 2' },
+      { src: '/samples/danish/math%20worksheet/matematikopgave-3.webp', alt: 'Matematikopgave — dansk eksempel 3', caption: 'Matematikopgave eksempel 3' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Sådan generator du matematikarbejdsark hurtigt — Effektiv produktion til bedre profitmarginer',

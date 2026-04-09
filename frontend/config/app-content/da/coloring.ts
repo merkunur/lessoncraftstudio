@@ -241,22 +241,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/danish/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Malebillede til print med tematiske konturer arrangeret på frit lærred — farvelægningsbilleder fra malebog generator',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/coloring/coloring%20portrait%201.webp',
+        src: '/samples/danish/coloring/coloring-portrait-1.webp',
         alt: 'Malebillede med dyretema — farverige konturer til farvelægning arrangeret frit på lærredet',
         caption: 'Dyretema farvelægningsbillede — kreative konturer arrangeret frit på lærredet',
       },
       {
-        src: '/samples/danish/coloring/coloring%20portrait%202.webp',
+        src: '/samples/danish/coloring/coloring-portrait-2.webp',
         alt: 'Malebillede til print med navnefelt og skriveøvelseslinjer — egnet til børnehaveklasse og indskoling',
         caption: 'Printklart malebillede — navnefelt og skriveøvelseslinjer til børn',
       },
       {
-        src: '/samples/danish/coloring/coloring%20landscape%201.webp',
+        src: '/samples/danish/coloring/coloring-landscape-1.webp',
         alt: 'Gråtone farvelægningsbillede med dekorativ ramme — blækvenlig malebog side til print',
         caption: 'Gråtoneeksport — blækvenligt farvelægningsbillede klar til malebog',
       },

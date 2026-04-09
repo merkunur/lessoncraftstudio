@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/big%20small/groot%20of%20klein%201.webp', alt: 'Groottevergelijking werkblad met thematische afbeeldingen op verschillende formaten met omcirkel de grote oefening voor kleuters' },
+    heroImage: { src: '/samples/dutch/big%20small/groot-of-klein-1.webp', alt: 'Groottevergelijking werkblad met thematische afbeeldingen op verschillende formaten met omcirkel de grote oefening voor kleuters' },
     samples: [
-      { src: '/samples/dutch/big%20small/groot%20of%20klein%201.webp', alt: 'Groot en klein groottevergelijking werkblad met thematische afbeeldingen en vijf vraagtypes', caption: 'Groottevergelijking werkblad met thematische afbeeldingen en automatisch gegenereerde antwoordindicatoren' },
-      { src: '/samples/dutch/more%20less/meer%20minder%201.webp', alt: 'Meer of minder vergelijkingswerkblad met thematische afbeeldingen voor visueel leren', caption: 'Meer of Minder modus met thematische afbeeldingen voor visuele hoeveelheidsvergelijking' },
-      { src: '/samples/dutch/pattern%20train/patroontje%201.webp', alt: 'Patroonherkenning werkblad met thematische afbeeldingen voor logisch denken', caption: 'Patroonherkenning werkblad als aanvulling op groottevergelijking producten' },
+      { src: '/samples/dutch/big%20small/groot-of-klein-1.webp', alt: 'Groot en klein groottevergelijking werkblad met thematische afbeeldingen en vijf vraagtypes', caption: 'Groottevergelijking werkblad met thematische afbeeldingen en automatisch gegenereerde antwoordindicatoren' },
+      { src: '/samples/dutch/more%20less/meer-minder-1.webp', alt: 'Meer of minder vergelijkingswerkblad met thematische afbeeldingen voor visueel leren', caption: 'Meer of Minder modus met thematische afbeeldingen voor visuele hoeveelheidsvergelijking' },
+      { src: '/samples/dutch/pattern%20train/patroontje-1.webp', alt: 'Patroonherkenning werkblad met thematische afbeeldingen voor logisch denken', caption: 'Patroonherkenning werkblad als aanvulling op groottevergelijking producten' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'Hoe Groottevergelijking Werkbladen Maken — Complete Handleiding',

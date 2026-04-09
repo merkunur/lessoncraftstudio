@@ -181,8 +181,8 @@ const content: GuideContent = {
     },
     samples: [
       { src: '/samples/danish/writing/writing.webp', alt: 'Skriveøvelse — dansk eksempelarbejdsark', caption: 'Skriveøvelse eksempel 1' },
-      { src: '/samples/danish/writing/writing%20custom.webp', alt: 'Skriveøvelse — dansk eksempel 2', caption: 'Skriveøvelse eksempel 2' },
-      { src: '/samples/danish/writing/writing%20beginning%20letter.webp', alt: 'Skriveøvelse — dansk eksempel 3', caption: 'Skriveøvelse eksempel 3' },
+      { src: '/samples/danish/writing/writing-custom.webp', alt: 'Skriveøvelse — dansk eksempel 2', caption: 'Skriveøvelse eksempel 2' },
+      { src: '/samples/danish/writing/writing-beginning-letter.webp', alt: 'Skriveøvelse — dansk eksempel 3', caption: 'Skriveøvelse eksempel 3' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Ophavsretsgrundlag for sælgere af printbare produkter',

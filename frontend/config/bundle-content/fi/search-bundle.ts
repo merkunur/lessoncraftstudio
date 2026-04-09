@@ -196,14 +196,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/find%20and%20count/min%c3%a4%20n%c3%a4en%201.webp',
+      primary: '/samples/finnish/find%20and%20count/minä-näen-1.webp',
       primaryAlt: 'I Spy loyda ja laske -tyoarkki temaattisilla kuvilla levitettyina ruudukkoon visuaaliseen skannaukseen ja laskentaan',
     },
     sampleGallery: [
-      { src: '/samples/finnish/find%20and%20count/min%c3%a4%20n%c3%a4en%201.webp', alt: 'I Spy loyda ja laske -tyoarkki piilotetuilla esineilla paikannettavaksi ja laskettavaksi', caption: 'Loyda ja Laske I Spy' },
-      { src: '/samples/finnish/find%20objects/l%c3%b6yd%c3%a4%20piilotetut%20esineet%201.webp', alt: 'Piilotettujen esineiden tyoarkki nollapaallekkaisyyskohteella ja visuaalisella selitteella', caption: 'Loyda Esineet -piilotettu esine' },
-      { src: '/samples/finnish/crossword/kuvaristikko%201.webp', alt: '15x15 ristisanatehtavapulma kuvapohjaisilla vihjeilla tekstitmaritelmien sijaan', caption: 'Kuvaristisanatehtavapulma' },
-      { src: '/samples/finnish/treasure%20hunt/aarteenetsint%c3%a4%201.webp', alt: 'Aarteenetsintiatyoarkki 5x5 koordinaattiruudukolla ja suunnanmuutososoituksilla', caption: 'Aarteenetsintiaruudukko' },
+      { src: '/samples/finnish/find%20and%20count/minä-näen-1.webp', alt: 'I Spy loyda ja laske -tyoarkki piilotetuilla esineilla paikannettavaksi ja laskettavaksi', caption: 'Loyda ja Laske I Spy' },
+      { src: '/samples/finnish/find%20objects/löydä-piilotetut-esineet-1.webp', alt: 'Piilotettujen esineiden tyoarkki nollapaallekkaisyyskohteella ja visuaalisella selitteella', caption: 'Loyda Esineet -piilotettu esine' },
+      { src: '/samples/finnish/crossword/kuvaristikko-1.webp', alt: '15x15 ristisanatehtavapulma kuvapohjaisilla vihjeilla tekstitmaritelmien sijaan', caption: 'Kuvaristisanatehtavapulma' },
+      { src: '/samples/finnish/treasure%20hunt/aarteenetsintä-1.webp', alt: 'Aarteenetsintiatyoarkki 5x5 koordinaattiruudukolla ja suunnanmuutososoituksilla', caption: 'Aarteenetsintiaruudukko' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Etsi ja loyda -paketti — Katso kaikki 4 loytamisgeneraattoria toiminnassa',

@@ -195,11 +195,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sanasokkelotehtävä luotu LessonCraftStudio-generaattorilla' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sanasokkelotehtävä luotu LessonCraftStudio-generaattorilla' },
     samples: [
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sanasokkelo — esimerkkituloste', caption: 'Sanasokkelo — suosituin sanapulmatyyppi' },
-      { src: '/samples/finnish/wordsearch/sanahaku%202.webp', alt: 'Teemallinen sanasokkelo — esimerkkituloste', caption: 'Teemoitetut sanasokkelot erottuvat listausvirrassa' },
-      { src: '/samples/finnish/crossword/ristikko%201.webp', alt: 'Kuvaristikko — esimerkkituloste', caption: 'Kuvaristikko — visuaalinen vihjepulmapeli' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sanasokkelo — esimerkkituloste', caption: 'Sanasokkelo — suosituin sanapulmatyyppi' },
+      { src: '/samples/finnish/wordsearch/sanahaku-2.webp', alt: 'Teemallinen sanasokkelo — esimerkkituloste', caption: 'Teemoitetut sanasokkelot erottuvat listausvirrassa' },
+      { src: '/samples/finnish/crossword/kuvaristikko-1.webp', alt: 'Kuvaristikko — esimerkkituloste', caption: 'Kuvaristikko — visuaalinen vihjepulmapeli' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Näin luot sanasokkeloja — LessonCraftStudio-demo',

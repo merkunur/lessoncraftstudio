@@ -209,22 +209,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/pattern train/comboio-de-padrões-1.webp',
+      primary: '/samples/portuguese/pattern%20train/comboio-de-padrões-1.webp',
       primaryAlt: 'Atividade de trem de padrões com vagões temáticos mostrando uma sequência de padrão repetitivo com um vagão em branco para os usuários completarem',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/pattern train/comboio-de-padrões-2.webp',
+        src: '/samples/portuguese/pattern%20train/comboio-de-padrões-2.webp',
         alt: 'Atividade de trem de padrões em modo padrão AB alternante com imagens de animais em 11 vagões temáticos',
         caption: 'Padrão AB com tema animais — os usuários identificam a sequência alternante e completam o vagão em falta',
       },
       {
-        src: '/samples/portuguese/pattern train/comboio-de-padrões-3.webp',
+        src: '/samples/portuguese/pattern%20train/comboio-de-padrões-3.webp',
         alt: 'Atividade de trem de padrões em modo padrão ABC de três elementos com imagens de veículos em vagões temáticos',
         caption: 'Padrão ABC com tema veículos — três elementos em rotação criam uma sequência repetitiva mais complexa',
       },
       {
-        src: '/samples/portuguese/pattern train/comboio-de-padrões-4.webp',
+        src: '/samples/portuguese/pattern%20train/comboio-de-padrões-4.webp',
         alt: 'Gabarito do trem de padrões mostrando os 11 vagões preenchidos com a sequência correta do padrão',
         caption: 'Vista do gabarito — os 11 vagões preenchidos com o padrão correto para verificação pelo vendedor',
       },

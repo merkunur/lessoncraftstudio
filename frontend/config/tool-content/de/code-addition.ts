@@ -213,22 +213,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/code addition/code-knacker-addition-1.webp',
+      primary: '/samples/german/code%20addition/code-knacker-addition-1.webp',
       primaryAlt: 'Code-Knacker-Additions-Arbeitsblatt mit Bildsymbolen, die geheime Zahlen in kryptarithmetischen Rätseln verbergen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/code addition/code-knacker-addition-1.webp',
+        src: '/samples/german/code%20addition/code-knacker-addition-1.webp',
         alt: 'Code-Knacker-Mathe-Rätsel mit Tiersymbolen im Regulären Modus',
         caption: 'Regulärer Modus mit Tierthema — jedes Symbol verbirgt eine einzigartige Zahl',
       },
       {
-        src: '/samples/german/code addition/code-knacker-addition-2.webp',
+        src: '/samples/german/code%20addition/code-knacker-addition-2.webp',
         alt: 'Code-Additions-Arbeitsblatt im Wort-Entschlüsselungs-Modus mit Essensbildern',
         caption: 'Wort-Entschlüsselungs-Modus — Gleichungen lösen, um ein Geheimwort zu buchstabieren',
       },
       {
-        src: '/samples/german/code addition/code-knacker-addition-3.webp',
+        src: '/samples/german/code%20addition/code-knacker-addition-3.webp',
         alt: 'Kryptarithmetik-Rätsel-Arbeitsblatt mit Mischungs-Summanden und dekorativem Rahmen',
         caption: 'Mischungs-Summanden mit Rahmendekoration für produktfertige Ausgabe',
       },

@@ -186,7 +186,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/english/addition/addition-fun-11.webp', alt: 'Animal themed addition worksheet created for Etsy digital download listing', caption: 'Addition worksheet with animal theme — image-based math problems that create eye-catching Etsy listing photos' },
       { src: '/samples/english/subtraction/cross-out.webp', alt: 'Subtraction worksheet complementing addition products in an Etsy math worksheet shop', caption: 'Subtraction worksheet — natural cross-sell companion to addition listings in your Etsy shop' },
-      { src: '/samples/english/math puzzle/math-puzzles-10.webp', alt: 'Math puzzle grid worksheet showing unique format that differentiates Etsy listings', caption: 'Math puzzle grid — unique format with less Etsy competition than standard worksheets' },
+      { src: '/samples/english/math%20puzzle/math-puzzles-10.webp', alt: 'Math puzzle grid worksheet showing unique format that differentiates Etsy listings', caption: 'Math puzzle grid — unique format with less Etsy competition than standard worksheets' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Addition Worksheets for Selling on Etsy — Step-by-Step Tutorial',

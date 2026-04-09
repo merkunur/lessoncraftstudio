@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/picture%20sort/Bildsortering%201.jpeg', alt: 'Tvåkategori sorteringsarbetsblad med streckade kategorirammar och blandat utklippsrutnät' },
+    heroImage: { src: '/samples/swedish/picture%20sort/bildsortering-1.jpeg', alt: 'Tvåkategori sorteringsarbetsblad med streckade kategorirammar och blandat utklippsrutnät' },
     samples: [
-      { src: '/samples/swedish/picture%20sort/Bildsortering%201.jpeg', alt: 'Bildsorteringsarbetsblad med sida-vid-sida kategorirammar och blandat utklippsrutnät', caption: 'Tvåkategori sorteringsarbetsblad med kategorirammar och blandat utklippsrutnät' },
-      { src: '/samples/swedish/picture%20sort/Bildsortering%20answer_key.jpeg', alt: 'Autogenererat facit med förstorade bilder sorterade i korrekta kategorilådor', caption: 'Autogenererat facit med bilder visade vid sex gånger utklippsrutnätets cellstorlek' },
+      { src: '/samples/swedish/picture%20sort/bildsortering-1.jpeg', alt: 'Bildsorteringsarbetsblad med sida-vid-sida kategorirammar och blandat utklippsrutnät', caption: 'Tvåkategori sorteringsarbetsblad med kategorirammar och blandat utklippsrutnät' },
+      { src: '/samples/swedish/picture%20sort/bildsortering-answer-key.jpeg', alt: 'Autogenererat facit med förstorade bilder sorterade i korrekta kategorilådor', caption: 'Autogenererat facit med bilder visade vid sex gånger utklippsrutnätets cellstorlek' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'Hur du skapar kategorisorterings-arbetsblad — Komplett guide',

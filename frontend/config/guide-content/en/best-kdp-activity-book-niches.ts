@@ -190,7 +190,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring book content representing one of the largest KDP activity book niches', caption: 'Coloring books — a massive KDP niche spanning kids, adults, and themed editions with strong year-round demand' },
       { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle demonstrating themed sub-niche targeting within the puzzle category', caption: 'Themed word search — sub-niche targeting through animal, travel, and holiday themes reduces competition while maintaining strong demand' },
-      { src: '/samples/english/math worksheet/math-worksheet-10.webp', alt: 'Math worksheet showing grade-level audience segmentation for KDP niche strategy', caption: 'Math workbooks — audience segmentation by grade level and operation type creates dozens of distinct sub-niches from one category' },
+      { src: '/samples/english/math%20worksheet/math-worksheet-10.webp', alt: 'Math worksheet showing grade-level audience segmentation for KDP niche strategy', caption: 'Math workbooks — audience segmentation by grade level and operation type creates dozens of distinct sub-niches from one category' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Math Worksheets for KDP Activity Books — Niche Content Creation Tutorial',

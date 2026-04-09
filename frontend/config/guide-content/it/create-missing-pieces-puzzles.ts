@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/missing pieces/pezzi-mancanti-1.webp', alt: 'Scheda di puzzle a incastro con buchi ritagliati da un\'illustrazione colorata e opzioni di soluzione numerate inclusi distrattori sotto con intestazione turchese Pezzi Mancanti e doppio bordo turchese-rosa' },
+    heroImage: { src: '/samples/italian/missing%20pieces/pezzi-mancanti-1.webp', alt: 'Scheda di puzzle a incastro con buchi ritagliati da un\'illustrazione colorata e opzioni di soluzione numerate inclusi distrattori sotto con intestazione turchese Pezzi Mancanti e doppio bordo turchese-rosa' },
     samples: [
-      { src: '/samples/italian/missing pieces/pezzi-mancanti-1.webp', alt: 'Scheda di puzzle pezzi mancanti che mostra un\'immagine con buchi ritagliati e opzioni di soluzione numerate visualizzate sotto con intestazione a doppio bordo', caption: 'Scheda di puzzle a incastro con pezzi estratti intelligentemente e opzioni di soluzione numerate inclusi distrattori' },
-      { src: '/samples/italian/missing pieces/pezzi-mancanti-1-answer-key.webp', alt: 'Chiave di risposta auto-generata con etichette numeriche con evidenziazione gialla posizionate all\'interno di ogni buco che mostrano l\'indice dell\'opzione corretta', caption: 'Chiave di risposta auto-generata con etichette con evidenziazione gialla che mostrano l\'opzione corretta per ogni buco' },
+      { src: '/samples/italian/missing%20pieces/pezzi-mancanti-1.webp', alt: 'Scheda di puzzle pezzi mancanti che mostra un\'immagine con buchi ritagliati e opzioni di soluzione numerate visualizzate sotto con intestazione a doppio bordo', caption: 'Scheda di puzzle a incastro con pezzi estratti intelligentemente e opzioni di soluzione numerate inclusi distrattori' },
+      { src: '/samples/italian/missing%20pieces/pezzi-mancanti-1-answer-key.webp', alt: 'Chiave di risposta auto-generata con etichette numeriche con evidenziazione gialla posizionate all\'interno di ogni buco che mostrano l\'indice dell\'opzione corretta', caption: 'Chiave di risposta auto-generata con etichette con evidenziazione gialla che mostrano l\'opzione corretta per ogni buco' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Come Creare Puzzle di Pezzi Mancanti — Tutorial Completo',
@@ -202,7 +202,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Toro — immagine educativa tematica', caption: 'Toro' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Vitello — immagine educativa tematica', caption: 'Vitello' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Gatto — immagine educativa tematica', caption: 'Gatto' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gatto 2 — immagine educativa tematica', caption: 'Gatto 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Gatto 2 — immagine educativa tematica', caption: 'Gatto 2' },
   ],
 };
 

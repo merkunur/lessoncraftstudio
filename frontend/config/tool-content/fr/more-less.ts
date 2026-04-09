@@ -218,22 +218,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/more less/plus-moins-1.webp',
+      primary: '/samples/french/more%20less/plus-moins-1.webp',
       primaryAlt: 'Fiche Plus ou Moins avec des groupes d\'images de comparaison montrant des exercices plus grand que et plus petit que',
     },
     sampleGallery: [
       {
-        src: '/samples/french/more less/plus-moins-1.webp',
+        src: '/samples/french/more%20less/plus-moins-1.webp',
         alt: 'Fiche de comparaison Image contre Image avec thème animaux montrant deux groupes d\'images côte à côte',
         caption: 'Mode Image contre Image avec thème animaux',
       },
       {
-        src: '/samples/french/more less/plus-moins-2.webp',
+        src: '/samples/french/more%20less/plus-moins-2.webp',
         alt: 'Fiche de comparaison Image contre Nombre faisant le pont entre le comptage visuel et les chiffres écrits',
         caption: 'Mode Image contre Nombre — fait le pont entre images et chiffres',
       },
       {
-        src: '/samples/french/more less/plus-moins-3.webp',
+        src: '/samples/french/more%20less/plus-moins-3.webp',
         alt: 'Fiche Cocher et Barrer les Groupes avec des images mélangées pour le tri et la comparaison',
         caption: 'Cocher et Barrer les Groupes — mode unique de tri et comparaison',
       },

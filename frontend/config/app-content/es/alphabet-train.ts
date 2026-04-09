@@ -259,22 +259,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/alphabet train/tren-del-alfabeto-1.webp',
+      primary: '/samples/spanish/alphabet%20train/tren-del-alfabeto-1.webp',
       primaryAlt: 'Ficha tren del abecedario con vagones coloridos llevando letras e imágenes de animales correspondientes',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/alphabet train/tren-del-alfabeto-1.webp',
+        src: '/samples/spanish/alphabet%20train/tren-del-alfabeto-1.webp',
         alt: 'Ficha tren del abecedario con tema de animales mostrando 11 vagones-letra e imágenes-pista',
         caption: 'Modo Creación Automática — 11 vagones-letra aleatorios con pistas de imágenes del tema animales',
       },
       {
-        src: '/samples/spanish/alphabet train/tren-del-alfabeto-2.webp',
+        src: '/samples/spanish/alphabet%20train/tren-del-alfabeto-2.webp',
         alt: 'Ficha tren del abecedario con tema de comida y 5 imágenes-pista para asociación',
         caption: 'Modo Manual — letras seleccionadas con tema de comida y 5 pistas para asociación más fácil',
       },
       {
-        src: '/samples/spanish/alphabet train/tren-del-alfabeto-3.webp',
+        src: '/samples/spanish/alphabet%20train/tren-del-alfabeto-3.webp',
         alt: 'Ficha tren del abecedario con tema de vehículos y 11 pistas completas para práctica avanzada',
         caption: 'Desafío de pistas completo — 11 pistas para práctica completa de asociación letra-imagen',
       },

@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/sudoku/sudoku_l%C3%A4tt.jpeg', alt: 'Sudoku pusselarbetsblad som demonstrerar KDP aktivitetsboksinnehåll för intäktsgenerering' },
+    heroImage: { src: '/samples/swedish/sudoku/sudoku-lätt.jpeg', alt: 'Sudoku pusselarbetsblad som demonstrerar KDP aktivitetsboksinnehåll för intäktsgenerering' },
     samples: [
-      { src: '/samples/swedish/sudoku/sudoku_l%C3%A4tt.jpeg', alt: 'Sudoku pussel formaterat för KDP aktivitetsbok interiörsidor', caption: 'Sudokupussel — en konsekvent lönsam aktivitetsbok-kategori på Amazon KDP med lojala återkommande köpare' },
-      { src: '/samples/swedish/math%20worksheet/mattetal%20landscape.jpeg', alt: 'Mattearbetsblad formaterat för KDP arbetsboks interiörsidor', caption: 'Mattearbetsböcker — högefterfrågad KDP-kategori med naturliga årskursnivå-katalogexpansionsmöjligheter' },
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Ordsökningspussel för KDP pusselboks-katalogdiversifiering', caption: 'Ordsökningsböcker — den största pusselbokskategorin på Amazon med stark potential för flervolyms serieintäkt' },
+      { src: '/samples/swedish/sudoku/sudoku-lätt.jpeg', alt: 'Sudoku pussel formaterat för KDP aktivitetsbok interiörsidor', caption: 'Sudokupussel — en konsekvent lönsam aktivitetsbok-kategori på Amazon KDP med lojala återkommande köpare' },
+      { src: '/samples/swedish/math%20worksheet/mattetal-landscape.jpeg', alt: 'Mattearbetsblad formaterat för KDP arbetsboks interiörsidor', caption: 'Mattearbetsböcker — högefterfrågad KDP-kategori med naturliga årskursnivå-katalogexpansionsmöjligheter' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Ordsökningspussel för KDP pusselboks-katalogdiversifiering', caption: 'Ordsökningsböcker — den största pusselbokskategorin på Amazon med stark potential för flervolyms serieintäkt' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Hur du skapar sudoku aktivitetsböcker för Amazon KDP — intäktsbyggande guide',

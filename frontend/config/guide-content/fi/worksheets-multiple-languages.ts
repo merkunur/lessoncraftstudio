@@ -64,11 +64,11 @@ const content: GuideContent = {
     { appId: 'matching', title: 'Yhdistämistehtävien generaattori', description: 'Luo monikielisiä yhdistämistehtäviä temaattisella kielikohtaisella sanastolla. Visuaaliset kuvat yhdistettynä kielispesifiseen sanastoon.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintätyöarkki joka havainnollistaa monikielistä sisällöntuotantoa oikealla merkistökäsittelyllä' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananetsintätyöarkki joka havainnollistaa monikielistä sisällöntuotantoa oikealla merkistökäsittelyllä' },
     samples: [
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulma joka näyttää sanastopohjaisen monikielisen merkistötuen', caption: 'Sananetsintätyöarkit havainnollistavat oikean merkistökäsittelyn tärkeyttä eri kielillä' },
-      { src: '/samples/finnish/alphabet%20train/aakkostjuna%201.webp', alt: 'Aakkosjunatyöarkki kielikohtaisilla kirjaimilla ja merkeillä', caption: 'Aakkostyöarkit vaativat kielikohtaiset merkit mukaan lukien umlautit ja aksentoidut kirjaimet' },
-      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistämistehtävä monikielisellä tuotannolla visuaalisine ja tekstielementteineen', caption: 'Yhdistämistehtävät yhdistävät visuaaliset elementit kielispesifiseen sanastoon kansainvälisille markkinoille' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananetsintäpulma joka näyttää sanastopohjaisen monikielisen merkistötuen', caption: 'Sananetsintätyöarkit havainnollistavat oikean merkistökäsittelyn tärkeyttä eri kielillä' },
+      { src: '/samples/finnish/alphabet%20train/aakkostjuna-1.webp', alt: 'Aakkosjunatyöarkki kielikohtaisilla kirjaimilla ja merkeillä', caption: 'Aakkostyöarkit vaativat kielikohtaiset merkit mukaan lukien umlautit ja aksentoidut kirjaimet' },
+      { src: '/samples/finnish/matching/yhdistä-parit-1.webp', alt: 'Yhdistämistehtävä monikielisellä tuotannolla visuaalisine ja tekstielementteineen', caption: 'Yhdistämistehtävät yhdistävät visuaaliset elementit kielispesifiseen sanastoon kansainvälisille markkinoille' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Monikielisten aakkostyöarkkien luominen',

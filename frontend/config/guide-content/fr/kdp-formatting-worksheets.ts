@@ -197,9 +197,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp', alt: 'Fiche de mathématiques montrant la mise en page en grille et l\'espacement formatés pour les spécifications d\'impression Amazon KDP' },
+    heroImage: { src: '/samples/french/math%20worksheet/feuille-de-mathématique-1.webp', alt: 'Fiche de mathématiques montrant la mise en page en grille et l\'espacement formatés pour les spécifications d\'impression Amazon KDP' },
     samples: [
-      { src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp', alt: 'Fiche de mathématiques avec espacement de grille précis démontrant les exigences de marges et de mise en page KDP', caption: 'Mise en page de fiche de mathématiques — formatage en grille avec dimensionnement de cellules adéquat pour une écriture manuscrite confortable dans les spécifications de marges KDP' },
+      { src: '/samples/french/math%20worksheet/feuille-de-mathématique-1.webp', alt: 'Fiche de mathématiques avec espacement de grille précis démontrant les exigences de marges et de mise en page KDP', caption: 'Mise en page de fiche de mathématiques — formatage en grille avec dimensionnement de cellules adéquat pour une écriture manuscrite confortable dans les spécifications de marges KDP' },
       { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Grille de puzzle de mots cachés montrant l\'espacement des lettres formaté pour l\'impression KDP', caption: 'Grille de mots cachés — espacement cohérent des lettres à 0,3 pouce par cellule pour un entourage et une lisibilité confortables dans les livres imprimés KDP' },
       { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition démontrant une mise en page KDP propre d\'une seule page', caption: 'Fiche d\'addition — mise en page propre à opération unique avec des espaces de réponse clairs qui démontre un formatage intérieur KDP professionnel' },
     ],

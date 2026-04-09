@@ -198,14 +198,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/missing%20pieces/manglende%20deler%201.webp',
+      primary: '/samples/norwegian/missing%20pieces/manglende-deler-1.webp',
       primaryAlt: 'Manglende biter puslespillarbeidsark med rutenettsegmenter fjernet for romlig resonnementutfordring',
     },
     sampleGallery: [
-      { src: '/samples/norwegian/missing%20pieces/manglende%20deler%201.webp', alt: 'Manglende Deler — norsk eksempel', caption: 'Manglende Deler' },
-      { src: '/samples/norwegian/odd%20one%20out/finn%20den%20rare%201.webp', alt: 'Finn den Rare — norsk eksempel', caption: 'Finn den Ulike' },
-      { src: '/samples/norwegian/sudoku/bilde-sudoku%201.webp', alt: 'Bilde-Sudoku — norsk eksempel', caption: 'Bilde-Sudoku' },
-      { src: '/samples/norwegian/picture%20path/bildesti%201.webp', alt: 'Bildesti — norsk eksempel', caption: 'Bildesti' },
+      { src: '/samples/norwegian/missing%20pieces/manglende-deler-1.webp', alt: 'Manglende Deler — norsk eksempel', caption: 'Manglende Deler' },
+      { src: '/samples/norwegian/odd%20one%20out/finn-den-rare-1.webp', alt: 'Finn den Rare — norsk eksempel', caption: 'Finn den Ulike' },
+      { src: '/samples/norwegian/sudoku/bilde-sudoku-1.webp', alt: 'Bilde-Sudoku — norsk eksempel', caption: 'Bilde-Sudoku' },
+      { src: '/samples/norwegian/picture%20path/bildesti-1.webp', alt: 'Bildesti — norsk eksempel', caption: 'Bildesti' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Puslespill & Logikk-pakke — Se alle 4 generatorer i aksjon',

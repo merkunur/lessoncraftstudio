@@ -191,9 +191,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/math worksheet/folha-de-matemática-1.webp', alt: 'Atividade de matemática mostrando layout de grelha e espaçamento formatado para especificações de impressão da Amazon KDP' },
+    heroImage: { src: '/samples/portuguese/math%20worksheet/folha-de-matemática-1.webp', alt: 'Atividade de matemática mostrando layout de grelha e espaçamento formatado para especificações de impressão da Amazon KDP' },
     samples: [
-      { src: '/samples/portuguese/math worksheet/folha-de-matemática-2.webp', alt: 'Atividade de matemática com espaçamento preciso de grelha demonstrando requisitos de margens e layout KDP', caption: 'Layout de atividade de matemática — formatação baseada em grelha com tamanho de células adequado para caligrafia confortável dentro das especificações de margens KDP' },
+      { src: '/samples/portuguese/math%20worksheet/folha-de-matemática-2.webp', alt: 'Atividade de matemática com espaçamento preciso de grelha demonstrando requisitos de margens e layout KDP', caption: 'Layout de atividade de matemática — formatação baseada em grelha com tamanho de células adequado para caligrafia confortável dentro das especificações de margens KDP' },
       { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Grelha de caça-palavras mostrando espaçamento de letras formatado para impressão KDP', caption: 'Grelha de caça-palavras — espaçamento de letras consistente a células de 0,3 polegadas garante um rodear e legibilidade confortáveis em livros impressos KDP' },
       { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade de adição demonstrando layout limpo de página única KDP', caption: 'Atividade de adição — layout limpo de operação única com espaços de resposta claros que demonstra formatação interior profissional KDP' },
     ],

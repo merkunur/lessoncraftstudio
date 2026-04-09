@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/odd%20one%20out/find%20den%20ulige%201.webp',
+      primary: '/samples/danish/odd%20one%20out/find-den-ulige-1.webp',
       primaryAlt: 'Gratis "hvad passer ikke?" generator med fire billeder per øvelsesrække — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/odd%20one%20out/find%20den%20ulige%201.webp',
+        src: '/samples/danish/odd%20one%20out/find-den-ulige-1.webp',
         alt: 'Lignende tilstands find den ulige arbejdsark med tre billeder fra Tema A og en tematisk afviger fra Tema B per øvelsesrække',
         caption: 'Lignende tilstand — tre billeder fra Tema A og ét uligt objekt fra Tema B for krydsende temaskelnelse',
       },
       {
-        src: '/samples/danish/odd%20one%20out/find%20den%20ulige%202.webp',
+        src: '/samples/danish/odd%20one%20out/find-den-ulige-2.webp',
         alt: 'Identisk tilstands find den ulige arbejdsark med tre kloner af det samme billede og ét anderledes billede per række',
         caption: 'Identisk tilstand — tre kloner af det samme billede og ét anderledes billede for find-dubletten udfordringer',
       },
       {
-        src: '/samples/danish/odd%20one%20out/find%20den%20ulige%203.webp',
+        src: '/samples/danish/odd%20one%20out/find-den-ulige-3.webp',
         alt: 'Find den ulige facit med røde cirkelkonturer tegnet rundt om det ulige objekt i hver øvelsesrække med stregbredde skaleret til billedstørrelse',
         caption: 'Automatisk genereret facit — røde cirkelmarkeringer (streg = max(imageSize × 0,04, 3px)) identificerer det ulige objekt',
       },

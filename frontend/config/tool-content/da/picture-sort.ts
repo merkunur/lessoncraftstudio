@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/picture%20sort/sorter%20billeder%201.webp',
+      primary: '/samples/danish/picture%20sort/sorter-billeder-1.webp',
       primaryAlt: 'Gratis sorterings-opgave generator med tokategori layout og blandet udklipsgitter — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/picture%20sort/sorter%20billeder%201.webp',
+        src: '/samples/danish/picture%20sort/sorter-billeder-1.webp',
         alt: 'Tematilstands sorteringsarbejdsark med automatisk udfyldte venstre og højre kategorier fra billedbiblioteket med blandet udklipsgitter',
         caption: 'Tematilstand — autoudfyldte kategorier fra billedbiblioteket med tilfældigt udklipsgitter',
       },
       {
-        src: '/samples/danish/picture%20sort/sorter%20billeder%202.webp',
+        src: '/samples/danish/picture%20sort/sorter-billeder-2.webp',
         alt: 'Manuel tilstands sorteringsarbejdsark med håndvalgte billeder tildelt til venstre og højre kategorier',
         caption: 'Manuel tilstand — håndvælg billeder og tildel hver til venstre eller højre kategori',
       },
       {
-        src: '/samples/danish/picture%20sort/sorter%20billeder%203.webp',
+        src: '/samples/danish/picture%20sort/sorter-billeder-3.webp',
         alt: 'Billedsortering facit med 6x større billeder organiseret i korrekte kategorikasser med stiplede rammer',
         caption: 'Automatisk genereret facit — 6× større billeder i kategorikasser med max 2 kolonner per kasse',
       },

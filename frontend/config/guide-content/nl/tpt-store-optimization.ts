@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optellen werkblad geoptimaliseerd voor Gumroad winkelzichtbaarheid en verkoop' },
+    heroImage: { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optellen werkblad geoptimaliseerd voor Gumroad winkelzichtbaarheid en verkoop' },
     samples: [
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optellen werkblad geoptimaliseerd voor Gumroad winkecatalogusgroei', caption: 'Rekenwerkbladen zijn veelzijdige Gumroad-materialen — maak thematische seizoensvariaties voor snelle catalogusuitbreiding' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekpuzzel voor Gumroad winkelgetrapte productpakketten', caption: 'Woordzoekpuzzels zijn een van de meest veelzijdige Gumroad-materiaaltypen met breed seizoensgebonden en thematisch potentieel' },
-      { src: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp', alt: 'Wiskundewerkblad voor Gumroad woordenschatmaterialen', caption: 'Wiskundewerkbladen zijn veelgevraagde activiteiten die verkopers zoeken op vak en niveaucategorie op Gumroad' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optellen werkblad geoptimaliseerd voor Gumroad winkecatalogusgroei', caption: 'Rekenwerkbladen zijn veelzijdige Gumroad-materialen — maak thematische seizoensvariaties voor snelle catalogusuitbreiding' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekpuzzel voor Gumroad winkelgetrapte productpakketten', caption: 'Woordzoekpuzzels zijn een van de meest veelzijdige Gumroad-materiaaltypen met breed seizoensgebonden en thematisch potentieel' },
+      { src: '/samples/dutch/math%20worksheet/wiskundeblad-1.webp', alt: 'Wiskundewerkblad voor Gumroad woordenschatmaterialen', caption: 'Wiskundewerkbladen zijn veelgevraagde activiteiten die verkopers zoeken op vak en niveaucategorie op Gumroad' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Woordzoekpuzzels Maken voor Je Gumroad Winkel — Optimalisatiegids',

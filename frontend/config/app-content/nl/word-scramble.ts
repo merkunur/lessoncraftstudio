@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/word%20scramble/letterzaak%201.webp',
+      primary: '/samples/dutch/word%20scramble/letterzaak-1.webp',
       primaryAlt: 'Woordkruisel werkblad met afbeeldingsaanwijzingen en gehusselde lettertegels die letterherschikkings-spellingpuzzels tonen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/word%20scramble/letterzaak%201.webp',
+        src: '/samples/dutch/word%20scramble/letterzaak-1.webp',
         alt: 'Woordkruisel werkblad met afbeeldingsaanwijzingen op Makkelijk niveau met de helft van de letters op de juiste plek',
         caption: 'Makkelijk niveau — de helft van de letters vooraf geplaatst als aanwijzingen voor beginnende spellers',
       },
       {
-        src: '/samples/dutch/word%20scramble/letterzaak%202.webp',
+        src: '/samples/dutch/word%20scramble/letterzaak-2.webp',
         alt: 'Woordkruisel werkblad met klinker-medeklinker kleurcodering en gekleurde lettertegels',
         caption: 'Kleurcodering — klinkers en medeklinkers in verschillende kleuren voor fonetisch bewustzijn',
       },
       {
-        src: '/samples/dutch/word%20scramble/letterzaak%203.webp',
+        src: '/samples/dutch/word%20scramble/letterzaak-3.webp',
         alt: 'Woordkruisel antwoordblad met alle letters correct herschikt',
         caption: 'Antwoordblad — correct herschikt woorden voor eenvoudig nakijken en zelfcontrole',
       },

@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/bingo/Loto d\'images-1.webp',
+      src: '/samples/french/bingo/loto-d\'images-1.webp',
       alt: 'Carton de bingo professionnel démontrant des produits imprimables visuellement attrayants idéaux pour le marketing sur les réseaux sociaux',
     },
     samples: [
       {
-        src: '/samples/french/bingo/Loto d\'images-1.webp',
+        src: '/samples/french/bingo/loto-d\'images-1.webp',
         alt: 'Carton de bingo montrant un produit imprimable très partageable pour le contenu sur les réseaux sociaux',
         caption: 'Les produits visuellement attrayants comme les cartons de bingo créent du contenu percutant pour les réseaux sociaux qui génère de l\'engagement',
       },

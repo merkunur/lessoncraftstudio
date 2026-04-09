@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Tematiske bildebingokort som viser fargerikt illustrert rutenett med oppropskort for barn' },
+    heroImage: { src: '/samples/norwegian/bingo/bildebingo-1.webp', alt: 'Tematiske bildebingokort som viser fargerikt illustrert rutenett med oppropskort for barn' },
     samples: [
-      { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Bildebingokort med dyretema som viser 4x4 rutenettoppsett for gruppebruk', caption: 'Et 4x4 bildebingokort med dyretema i kun-bilde visningsmodus' },
-      { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Bingo oppropskort som viser alle tematiske bilder brukt pa tvers av kortsettet', caption: 'Oppropsreferansekort som viser alle bilder brukt pa tvers av bingokortsett' },
+      { src: '/samples/norwegian/bingo/bildebingo-1.webp', alt: 'Bildebingokort med dyretema som viser 4x4 rutenettoppsett for gruppebruk', caption: 'Et 4x4 bildebingokort med dyretema i kun-bilde visningsmodus' },
+      { src: '/samples/norwegian/bingo/bildebingo-1.webp', alt: 'Bingo oppropskort som viser alle tematiske bilder brukt pa tvers av kortsettet', caption: 'Oppropsreferansekort som viser alle bilder brukt pa tvers av bingokortsett' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Hvordan lage bingokort med tematiske bilder — komplett veiledning',

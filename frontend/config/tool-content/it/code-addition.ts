@@ -212,22 +212,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/code addition/codice-segreto-addizione-1.webp',
+      primary: '/samples/italian/code%20addition/codice-segreto-addizione-1.webp',
       primaryAlt: 'Scheda di addizione codificata con simboli-immagine che nascondono numeri segreti in puzzle crittaritmetici',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/code addition/codice-segreto-addizione-1.webp',
+        src: '/samples/italian/code%20addition/codice-segreto-addizione-1.webp',
         alt: 'Puzzle matematico decifra il codice con simboli animali in Modalità Normale',
         caption: 'Modalità Normale con tema animali — ogni simbolo nasconde un numero unico',
       },
       {
-        src: '/samples/italian/code addition/codice-segreto-addizione-2.webp',
+        src: '/samples/italian/code%20addition/codice-segreto-addizione-2.webp',
         alt: 'Scheda addizione codificata in Modalità Rivela Parola con immagini di cibo',
         caption: 'Modalità Rivela Parola — risolvi le equazioni per svelare una parola segreta',
       },
       {
-        src: '/samples/italian/code addition/codice-segreto-addizione-3.webp',
+        src: '/samples/italian/code%20addition/codice-segreto-addizione-3.webp',
         alt: 'Puzzle crittaritmetico con addendi misti e bordo decorativo',
         caption: 'Addendi misti con bordo decorativo per un prodotto pronto alla vendita',
       },

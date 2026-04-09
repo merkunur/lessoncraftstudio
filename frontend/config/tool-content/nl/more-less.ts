@@ -212,22 +212,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/more%20less/meer%20minder%201.webp',
+      primary: '/samples/dutch/more%20less/meer-minder-1.webp',
       primaryAlt: 'Meer of minder werkblad met beeldvergelijkingsgroepen die groter dan en kleiner dan oefeningen tonen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/more%20less/meer%20minder%201.webp',
+        src: '/samples/dutch/more%20less/meer-minder-1.webp',
         alt: 'Afbeelding naar Afbeelding vergelijkingswerkblad met dierenthema en twee plaatjesgroepen naast elkaar',
         caption: 'Afbeelding naar Afbeelding modus met dierenthema',
       },
       {
-        src: '/samples/dutch/more%20less/meer%20minder%202.webp',
+        src: '/samples/dutch/more%20less/meer-minder-2.webp',
         alt: 'Afbeelding naar Getal vergelijkingswerkblad dat visueel tellen overbrugt met geschreven cijfers',
         caption: 'Afbeelding naar Getal modus — overbrugt plaatjes en cijfers',
       },
       {
-        src: '/samples/dutch/more%20less/meer%20minder%203.webp',
+        src: '/samples/dutch/more%20less/meer-minder-3.webp',
         alt: 'Vinkje en Kruisje Groepen werkblad met gemengde door elkaar gehusselde afbeeldingen om te sorteren en vergelijken',
         caption: 'Vinkje & Kruisje Groepen — unieke sorteer- en vergelijkingsmodus',
       },

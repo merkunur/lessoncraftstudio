@@ -212,22 +212,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/sudoku/bilde-sudoku%201.webp',
+      primary: '/samples/norwegian/sudoku/bilde-sudoku-1.webp',
       primaryAlt: '4×4 bildesudoku arbeidsark med tematiske bilder i et premiumrutenett med alternerende blå og rosa blokkfarger, fete midtdelere og indigoblå ytre ramme med avrundede hjørner',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/sudoku/bilde-sudoku%201.webp',
+        src: '/samples/norwegian/sudoku/bilde-sudoku-1.webp',
         alt: 'Lett vanskelighetsgrad bildesudoku med 4 tomme celler og 12 utfylte celler i et 4×4 rutenett med alternerende blokkfarger',
         caption: 'Lett vanskelighetsgrad — 4 tomme celler for nybegynnere som lærer rad-og-kolonne-logikk',
       },
       {
-        src: '/samples/norwegian/sudoku/bilde-sudoku%202.webp',
+        src: '/samples/norwegian/sudoku/bilde-sudoku-2.webp',
         alt: 'Vanskelig vanskelighetsgrad bildesudoku med 8 tomme celler og 8 utfylte celler i et 4×4 rutenett som krever flertrinns resonnement',
         caption: 'Vanskelig vanskelighetsgrad — 8 tomme celler (halvparten av rutenettet) som krever flertrinns logisk resonnement',
       },
       {
-        src: '/samples/norwegian/sudoku/bilde-sudoku%203.webp',
+        src: '/samples/norwegian/sudoku/bilde-sudoku-3.webp',
         alt: 'Bildesudoku fasit som viser komplett utfylt 4×4 rutenett med alle 16 celler korrekt utfylt',
         caption: 'Automatisk generert fasit — komplett utfylt rutenett med alle bilder korrekt plassert',
       },

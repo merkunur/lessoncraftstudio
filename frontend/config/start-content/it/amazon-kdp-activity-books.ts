@@ -224,7 +224,7 @@ const content: StartContent = {
     samples: [
       { src: '/samples/italian/sudoku/sudoku-con-immagini-1.webp', alt: 'Scheda puzzle Sudoku per interni di libri di attività KDP', caption: 'Sudoku — Categoria Puzzle KDP Più Venduta' },
       { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Puzzle cerca parole per libri di attività Amazon KDP', caption: 'Cerca Parole — Categoria Bestseller KDP' },
-      { src: '/samples/italian/math puzzle/rompicapi-matematici-1.webp', alt: 'Scheda puzzle matematici per interni di quaderni KDP', caption: 'Puzzle Matematici — Nicchia Evergreen KDP' },
+      { src: '/samples/italian/math%20puzzle/rompicapi-matematici-1.webp', alt: 'Scheda puzzle matematici per interni di quaderni KDP', caption: 'Puzzle Matematici — Nicchia Evergreen KDP' },
       { src: '/samples/italian/crossword/cruciverba-con-immagini-1.webp', alt: 'Scheda cruciverba per libri di attività KDP', caption: 'Cruciverba — Formato negozico Libri di Attività' },
     ],
     youtubeId: 'bqVioFbkYbA',

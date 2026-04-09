@@ -158,7 +158,7 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Nederlandse woordzoeker werkbladen voor nicheonderzoek en productvalidatie' },
     samples: [
-      { src: '/samples/dutch/math puzzle/wiskundepuzzels-1.webp', alt: 'Rekenpuzzel werkblad als nichetestproduct', caption: 'Voorbeeld MVP-testproduct voor de rekenpuzzel niche' },
+      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels-1.webp', alt: 'Rekenpuzzel werkblad als nichetestproduct', caption: 'Voorbeeld MVP-testproduct voor de rekenpuzzel niche' },
       { src: '/samples/dutch/coloring/coloring-portrait-1.webp', alt: 'Kleurplaat als instapproduct voor nichestrategie', caption: 'Kleurplaten als instapproducten voor nieuwe kopers' },
       { src: '/samples/dutch/matching/zoek-de-paren-1.webp', alt: 'Matching werkblad voor productdiversificatie', caption: 'Productdiversificatie met matching werkbladen' },
     ],

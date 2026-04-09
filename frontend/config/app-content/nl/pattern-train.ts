@@ -219,22 +219,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/pattern train/patroontje%201.webp',
+      primary: '/samples/dutch/pattern%20train/patroontje-1.webp',
       primaryAlt: 'Patroontrein werkblad met thematische treinwagons die een AB herhalend patroon tonen met één ontbrekende wagon voor gebruikers om te voltooien',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/pattern train/patroontje%202.webp',
+        src: '/samples/dutch/pattern%20train/patroontje-2.webp',
         alt: 'Patroontrein werkblad in AB afwisselend patroon modus met dierenafbeeldingen over 11 thematische treinwagons',
         caption: 'AB-patroon met dierenthema — gebruikers herkennen de afwisselende reeks en vullen de ontbrekende wagon in',
       },
       {
-        src: '/samples/dutch/pattern train/patroontje%205.webp',
+        src: '/samples/dutch/pattern%20train/patroontje-5.webp',
         alt: 'Patroontrein werkblad in ABC drievoudig patroon modus met voertuigafbeeldingen over thematische treinwagons',
         caption: 'ABC-patroon met voertuigenthema — drie roterende items creëren een complexere herhalende reeks',
       },
       {
-        src: '/samples/dutch/pattern train/patroontje%201%20answer-key.webp',
+        src: '/samples/dutch/pattern%20train/patroontje-1-answer-key.webp',
         alt: 'Patroontrein antwoordblad met alle 11 wagons gevuld met de juiste patroonreeks',
         caption: 'Antwoordblad weergave — alle 11 wagons gevuld met het juiste patroon voor verificatie door de verkoper',
       },

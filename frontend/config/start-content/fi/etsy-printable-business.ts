@@ -127,11 +127,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivuesimerkki Etsy-myyjille luotu LessonCraftStudio-generaattorilla' },
+    heroImage: { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Värityssivuesimerkki Etsy-myyjille luotu LessonCraftStudio-generaattorilla' },
     samples: [
-      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu — Etsy-myyntiesimerkki', caption: 'Väritys — Etsyn suosituin kategoria' },
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhaku — Etsy-myyntiesimerkki', caption: 'Sananhaku — vahva hakuvolyymi' },
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlasku — Etsy-myyntiesimerkki', caption: 'Yhteenlasku — ikiviheä myyjä' },
+      { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Värityssivu — Etsy-myyntiesimerkki', caption: 'Väritys — Etsyn suosituin kategoria' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananhaku — Etsy-myyntiesimerkki', caption: 'Sananhaku — vahva hakuvolyymi' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Yhteenlasku — Etsy-myyntiesimerkki', caption: 'Yhteenlasku — ikiviheä myyjä' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Näin luot värityssivuja — LessonCraftStudio-demo',

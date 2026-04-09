@@ -207,9 +207,9 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/math-worksheet-10.webp', alt: 'Math worksheet demonstrating professional output quality from worksheet generators' },
+    heroImage: { src: '/samples/english/math%20worksheet/math-worksheet-10.webp', alt: 'Math worksheet demonstrating professional output quality from worksheet generators' },
     samples: [
-      { src: '/samples/english/math worksheet/math-worksheet-10.webp', alt: 'Math worksheet showing professional layout and 300 DPI print quality', caption: 'Math Worksheet — Versatile Revenue Builder' },
+      { src: '/samples/english/math%20worksheet/math-worksheet-10.webp', alt: 'Math worksheet showing professional layout and 300 DPI print quality', caption: 'Math Worksheet — Versatile Revenue Builder' },
       { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Word search puzzle worksheet for Etsy and Amazon KDP sales', caption: 'Word Search — Top-Selling Puzzle Category' },
       { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page for KDP activity book publishing', caption: 'Coloring — High-Volume KDP Category' },
       { src: '/samples/english/sudoku/sudoku-worksheet.webp', alt: 'Sudoku puzzle worksheet with universal international appeal', caption: 'Sudoku — Universal Market Appeal' },

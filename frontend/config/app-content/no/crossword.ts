@@ -265,22 +265,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/crossword/bildekryssord%201.webp',
+      primary: '/samples/norwegian/crossword/bildekryssord-1.webp',
       primaryAlt: 'Bildekryssordpuslespill med bildeledetråder på et 15 ganger 15 rutenett med lokalisert Bildekryssord-overskrift og nummererte ledetrådposisjoner',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/crossword/bildekryssord%201.webp',
+        src: '/samples/norwegian/crossword/bildekryssord-1.webp',
         alt: 'Bildekryssordpuslespill med tematiske bildeledetråder ved siden av et 15 ganger 15 kryssordrutenett',
         caption: 'Bildekryssord — bildeledetråder erstatter tradisjonelle tekstledetråder på et 15×15 rutenett',
       },
       {
-        src: '/samples/norwegian/crossword/bildekryssord%202.webp',
+        src: '/samples/norwegian/crossword/bildekryssord-2.webp',
         alt: 'Bildekryssordpuslespill med et annet tema og varierte bildeledetråder',
         caption: 'Tematisk bildekryssord — 104 temaer gir unike kryssordpuslespill for hvert sett',
       },
       {
-        src: '/samples/norwegian/crossword/bildekryssord%203.webp',
+        src: '/samples/norwegian/crossword/bildekryssord-3.webp',
         alt: 'Kryssordpuslespill fasit med alle korrekte bokstaver utfylt i rutenettet',
         caption: 'Automatisk generert fasit — utfylt rutenett viser alle korrekte svar',
       },

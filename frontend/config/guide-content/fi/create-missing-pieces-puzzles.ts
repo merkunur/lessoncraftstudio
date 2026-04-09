@@ -67,10 +67,10 @@ const content: GuideContent = {
     { appId: 'find-objects', title: 'Piiloesineet-generaattori', description: 'Visuaalisen haun kumppani. I Spy -aktiviteetit yhdistyvät puuttuvat palat -pulmiin moniformaattisissa visuaalisten pulmien paketeissa.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/finnish/missing%20pieces/puuttuvat%20palat%202.webp', alt: 'Palapelityöarkki aukoilla värikkäässä kuvassa ja numeroiduilla ratkaisuvaihtoehdoilla alla' },
+    heroImage: { src: '/samples/finnish/missing%20pieces/puuttuvat-palat-2.webp', alt: 'Palapelityöarkki aukoilla värikkäässä kuvassa ja numeroiduilla ratkaisuvaihtoehdoilla alla' },
     samples: [
-      { src: '/samples/finnish/missing%20pieces/puuttuvat%20palat%202.webp', alt: 'Puuttuvat palat -pulmatyöarkki kuvasta irrotetuin aukoin ja numeroiduin ratkaisuvaihtoehtoin alla', caption: 'Palapelityöarkki älykkäästi irrotetuin paloin ja numeroiduin ratkaisuvaihtoehtoin mukaan lukien häiritsevät valinnat' },
-      { src: '/samples/finnish/missing%20pieces/puuttuvat%20palat%203.webp', alt: 'Automaattisesti luotu vastausavain keltakorosteisin merkinnöin jotka näyttävät oikean vaihtoehdon numeron jokaiselle aukolle', caption: 'Automaattisesti luotu vastausavain keltakorosteisin merkinnöin jotka näyttävät oikean vaihtoehdon jokaiselle aukolle' },
+      { src: '/samples/finnish/missing%20pieces/puuttuvat-palat-2.webp', alt: 'Puuttuvat palat -pulmatyöarkki kuvasta irrotetuin aukoin ja numeroiduin ratkaisuvaihtoehtoin alla', caption: 'Palapelityöarkki älykkäästi irrotetuin paloin ja numeroiduin ratkaisuvaihtoehtoin mukaan lukien häiritsevät valinnat' },
+      { src: '/samples/finnish/missing%20pieces/puuttuvat-palat-3.webp', alt: 'Automaattisesti luotu vastausavain keltakorosteisin merkinnöin jotka näyttävät oikean vaihtoehdon numeron jokaiselle aukolle', caption: 'Automaattisesti luotu vastausavain keltakorosteisin merkinnöin jotka näyttävät oikean vaihtoehdon jokaiselle aukolle' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Kuinka luot puuttuvat palat -pulmiä — Täydellinen opas',
@@ -80,7 +80,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Härkä — temaattinen opetuksellinen kuva', caption: 'Härkä' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Vasikka — temaattinen opetuksellinen kuva', caption: 'Vasikka' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kissa — temaattinen opetuksellinen kuva', caption: 'Kissa' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kissa 2 — temaattinen opetuksellinen kuva', caption: 'Kissa 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kissa 2 — temaattinen opetuksellinen kuva', caption: 'Kissa 2' },
   ],
 };
 

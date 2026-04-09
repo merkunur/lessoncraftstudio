@@ -151,11 +151,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Ammattimainen yhdistämistyöarkki, joka demonstroi selkeää tuotesuunnittelua asiakastukiongelmien ehkäisemiseksi' },
+    heroImage: { src: '/samples/finnish/matching/yhdistä-parit-1.webp', alt: 'Ammattimainen yhdistämistyöarkki, joka demonstroi selkeää tuotesuunnittelua asiakastukiongelmien ehkäisemiseksi' },
     samples: [
-      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistämistyöarkki selkeällä asettelulla ja ohjeilla ostajien kysymysten vähentämiseksi', caption: 'Selkeä työarkkisuunnittelu ja kattavat tuotekuvaukset ehkäisevät yleisimmät tukipyynnöt' },
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki ammattimaisella muotoilulla ostajien odotusten täyttämiseksi', caption: 'Ammattimainen muotoilu ja yksityiskohtaiset määrittelyt eliminoivat odotusten erojen ongelmat' },
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sanakäärmepalapeli temaattisella sisällöllä ostajaselkeyden demonstroimiseksi', caption: 'Sisältörikkaiden tuotteiden kattava dokumentaatio ja itsepalvelutuki ovat kriittisiä' },
+      { src: '/samples/finnish/matching/yhdistä-parit-1.webp', alt: 'Yhdistämistyöarkki selkeällä asettelulla ja ohjeilla ostajien kysymysten vähentämiseksi', caption: 'Selkeä työarkkisuunnittelu ja kattavat tuotekuvaukset ehkäisevät yleisimmät tukipyynnöt' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Yhteenlaskutyöarkki ammattimaisella muotoilulla ostajien odotusten täyttämiseksi', caption: 'Ammattimainen muotoilu ja yksityiskohtaiset määrittelyt eliminoivat odotusten erojen ongelmat' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sanakäärmepalapeli temaattisella sisällöllä ostajaselkeyden demonstroimiseksi', caption: 'Sisältörikkaiden tuotteiden kattava dokumentaatio ja itsepalvelutuki ovat kriittisiä' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Asiakastuki digitaalisten tuotteiden liiketoiminnalle',

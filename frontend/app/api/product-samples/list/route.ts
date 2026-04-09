@@ -264,8 +264,8 @@ async function scanAppDirectory(dir: string, language: string, folderName: strin
     return [];
   }
 
-  // Classify files - primary images are .webp (excluding _thumb and _preview variants)
-  const primaryWebp = files.filter(f => /\.webp$/i.test(f) && !/_thumb\.webp$/i.test(f) && !/_preview\.webp$/i.test(f));
+  //-classify-files-primary-images-are.webp (excluding _thumb and _preview variants)
+  const primaryWebp = files.filter(f => /\.webp$/i.test(f) && !/-thumb\.webp$/i.test(f) && !/-preview\.webp$/i.test(f));
   const allWebpFiles = new Set(files.filter(f => /\.webp$/i.test(f)).map(f => f.toLowerCase()));
   const pdfFiles = new Set(files.filter(f => /\.pdf$/i.test(f)).map(f => f.toLowerCase()));
 

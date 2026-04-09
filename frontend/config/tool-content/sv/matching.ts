@@ -221,17 +221,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/matching/matchningsspel%20beginning%20letter.webp',
+        src: '/samples/swedish/matching/matchningsspel-beginning-letter.webp',
         alt: 'Begynnelsebokstav matchnings arbetsblad med bilder till vänster och deras första bokstäver till höger för fonicsövning',
         caption: 'Begynnelsebokstav-läge — användarna matchar bilder med deras första bokstäver med versaler eller gemener',
       },
       {
-        src: '/samples/swedish/matching/matchningsspel%20bild%20och%20ord.webp',
+        src: '/samples/swedish/matching/matchningsspel-bild-och-ord.webp',
         alt: 'Bild och ord matchnings arbetsblad med märkta par på båda sidor för vokabulärförstärkningsaktiviteter',
         caption: 'Bild+Ord-läge — märkta bildpar på båda sidor för vokabulärmatchning och ordigenkänning',
       },
       {
-        src: '/samples/swedish/matching/matchningsspel%20answer-key.webp',
+        src: '/samples/swedish/matching/matchningsspel-answer-key.webp',
         alt: 'Matchnings arbetsblad facit med horisontella kopplingslinjer dragna mellan korrekta par för omedelbar svarsverifiering',
         caption: 'Automatiskt genererat facit — kopplingslinjer (#555) mellan korrekta par för omedelbar verifiering',
       },

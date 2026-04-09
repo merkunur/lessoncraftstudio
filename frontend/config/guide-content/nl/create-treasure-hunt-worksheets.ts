@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/treasure%20hunt/schattenjacht%201.webp', alt: 'Schattenjacht pad-vind werkblad met 5 bij 5 coördinaatrooster, 6 verspreide thematische afbeeldingen als oriëntatiepunten, richtingsaanwijzingen en schatthema blauwgroene header met gouden Fredoka-titel' },
+    heroImage: { src: '/samples/dutch/treasure%20hunt/schattenjacht-1.webp', alt: 'Schattenjacht pad-vind werkblad met 5 bij 5 coördinaatrooster, 6 verspreide thematische afbeeldingen als oriëntatiepunten, richtingsaanwijzingen en schatthema blauwgroene header met gouden Fredoka-titel' },
     samples: [
-      { src: '/samples/dutch/treasure%20hunt/schattenjacht%201.webp', alt: 'Schattenjacht werkblad met 5 bij 5 coördinaatrooster met verspreide thematische afbeeldingen en richtingsaanwijzingen onder de schatthema-header', caption: 'Schattenjacht werkblad met basisrichting aanwijzingen op een 5 bij 5 coördinaatrooster met 6 thematische oriëntatiepuntafbeeldingen' },
-      { src: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%201.webp', alt: 'Zoek en tel werkblad als aanvullend visueel zoekformaat bij de schattenjacht activiteiten', caption: 'Zoek en tel werkblad — een verwant visueel zoekformaat dat coördinaatvaardigheden aanvult' },
-      { src: '/samples/dutch/find%20objects/vind%20de%20verborgen%20voorwerpen%201.webp', alt: 'Zoek voorwerpen werkblad als scène-zoek aanvulling op schattenjacht pad-vind activiteiten', caption: 'Zoek voorwerpen werkblad — een zoek-en-vind aanvulling die verwante visuele observatievaardigheden traint' },
+      { src: '/samples/dutch/treasure%20hunt/schattenjacht-1.webp', alt: 'Schattenjacht werkblad met 5 bij 5 coördinaatrooster met verspreide thematische afbeeldingen en richtingsaanwijzingen onder de schatthema-header', caption: 'Schattenjacht werkblad met basisrichting aanwijzingen op een 5 bij 5 coördinaatrooster met 6 thematische oriëntatiepuntafbeeldingen' },
+      { src: '/samples/dutch/find%20and%20count/ik-zie,-ik-zie-1.webp', alt: 'Zoek en tel werkblad als aanvullend visueel zoekformaat bij de schattenjacht activiteiten', caption: 'Zoek en tel werkblad — een verwant visueel zoekformaat dat coördinaatvaardigheden aanvult' },
+      { src: '/samples/dutch/find%20objects/vind-de-verborgen-voorwerpen-1.webp', alt: 'Zoek voorwerpen werkblad als scène-zoek aanvulling op schattenjacht pad-vind activiteiten', caption: 'Zoek voorwerpen werkblad — een zoek-en-vind aanvulling die verwante visuele observatievaardigheden traint' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'Hoe Schattenjacht Werkbladen Maken — Complete Handleiding',

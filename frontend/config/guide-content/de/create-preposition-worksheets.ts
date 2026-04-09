@@ -197,7 +197,7 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/around%20the%20house/alarm%20clock.webp', alt: 'Wecker — thematisches Lernbild', caption: 'Wecker' },
+    { src: '/image-library/around%20the%20house/alarm-clock.webp', alt: 'Wecker — thematisches Lernbild', caption: 'Wecker' },
     { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Sessel — thematisches Lernbild', caption: 'Sessel' },
     { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Badewanne — thematisches Lernbild', caption: 'Badewanne' },
     { src: '/image-library/around%20the%20house/bed.webp', alt: 'Bett — thematisches Lernbild', caption: 'Bett' },

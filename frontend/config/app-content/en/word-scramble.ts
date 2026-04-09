@@ -227,22 +227,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/word scramble/word-scramble-portrait.webp',
+      primary: '/samples/english/word%20scramble/word-scramble-portrait.webp',
       primaryAlt: 'Word scramble worksheet with image clues and shuffled letter tiles showing letter-rearrangement spelling puzzles',
     },
     sampleGallery: [
       {
-        src: '/samples/english/word scramble/word-scramble-portrait.webp',
+        src: '/samples/english/word%20scramble/word-scramble-portrait.webp',
         alt: 'Word scramble worksheet with image clues at Easy difficulty showing half letters pre-placed',
         caption: 'Easy difficulty — half the letters pre-placed as clues for emerging spellers',
       },
       {
-        src: '/samples/english/word scramble/word-scramble-1.webp',
+        src: '/samples/english/word%20scramble/word-scramble-1.webp',
         alt: 'Word scramble worksheet with vowel-consonant color coding showing colored letter tiles',
         caption: 'Color coded mode — vowels and consonants in different colors for phonics awareness',
       },
       {
-        src: '/samples/english/word scramble/word-scramble-portrait-answer-key.webp',
+        src: '/samples/english/word%20scramble/word-scramble-portrait-answer-key.webp',
         alt: 'Word scramble answer key with all letters correctly unscrambled',
         caption: 'Answer key — correctly unscrambled words included with every worksheet',
       },

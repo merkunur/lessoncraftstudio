@@ -124,11 +124,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Matchingsarbeidsark som demonstrerer konsistent produktformat for en printbar produktlinje' },
+    heroImage: { src: '/samples/norwegian/matching/finn-parene-1.webp', alt: 'Matchingsarbeidsark som demonstrerer konsistent produktformat for en printbar produktlinje' },
     samples: [
-      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Matchingsarbeidsark som viser konsistent format pa tvers av temaer for produktlinjebygging', caption: 'Matchingsarbeidsark opprettholder det samme profesjonelle formatet pa tvers av ethvert tema — fundamentet for en visuelt konsistent produktlinje' },
-      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Addisjonsarbeidsark som representerer matteproduktlinje med progressive vanskelighetsnivåer', caption: 'Mattearbeidsark pa flere vanskelighetsnivåer skaper progressiv dybde innenfor produktlinjen din' },
-      { src: '/samples/norwegian/coloring/coloring%20portrait%202.webp', alt: 'Fargeleggingsside som viser visuell konsistens pa tvers av tematiske produktvariasjoner', caption: 'Fargeleggingssider pa tvers av forskjellige temaer demonstrerer hvordan en produktlinje opprettholder visuell sammenheng' },
+      { src: '/samples/norwegian/matching/finn-parene-1.webp', alt: 'Matchingsarbeidsark som viser konsistent format pa tvers av temaer for produktlinjebygging', caption: 'Matchingsarbeidsark opprettholder det samme profesjonelle formatet pa tvers av ethvert tema — fundamentet for en visuelt konsistent produktlinje' },
+      { src: '/samples/norwegian/addition/gøy-addisjon-1.webp', alt: 'Addisjonsarbeidsark som representerer matteproduktlinje med progressive vanskelighetsnivåer', caption: 'Mattearbeidsark pa flere vanskelighetsnivåer skaper progressiv dybde innenfor produktlinjen din' },
+      { src: '/samples/norwegian/coloring/coloring-portrait-2.webp', alt: 'Fargeleggingsside som viser visuell konsistens pa tvers av tematiske produktvariasjoner', caption: 'Fargeleggingssider pa tvers av forskjellige temaer demonstrerer hvordan en produktlinje opprettholder visuell sammenheng' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Hvordan lage matchingsarbeidsark for en konsistent printbar produktlinje',

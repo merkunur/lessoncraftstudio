@@ -222,22 +222,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/grid match/raster-puzzle-1.webp',
+      primary: '/samples/german/grid%20match/raster-puzzle-1.webp',
       primaryAlt: 'Raster-Puzzle-Arbeitsblatt mit einzelnem Bild in Kacheln geteilt, sichtbaren Hinweiszellen und nummerierter Kachelpalette für räumliches Denk-Puzzle-Aktivität',
     },
     sampleGallery: [
       {
-        src: '/samples/german/grid match/raster-puzzle-2.webp',
+        src: '/samples/german/grid%20match/raster-puzzle-2.webp',
         alt: 'Drei-mal-drei Raster-Puzzle mit einer sichtbaren Hinweiszelle und acht nummerierten Kacheln in gemischter Palette zum Zuordnen',
         caption: '3×3-Raster-Puzzle — eine Hinweiszelle sichtbar, acht Kacheln aus der nummerierten Palette zuzuordnen',
       },
       {
-        src: '/samples/german/grid match/raster-puzzle-3.webp',
+        src: '/samples/german/grid%20match/raster-puzzle-3.webp',
         alt: 'Vier-mal-vier fortgeschrittenes Raster-Puzzle mit sechzehn Kacheln und minimalen Hinweisen für anspruchsvolle visuelle Wahrnehmungsaktivität',
         caption: '4×4-Fortgeschrittenen-Puzzle — maximale Rastergröße mit 16 Kacheln für anspruchsvolles räumliches Denken',
       },
       {
-        src: '/samples/german/grid match/raster-puzzle-1-answer-key.webp',
+        src: '/samples/german/grid%20match/raster-puzzle-1-answer-key.webp',
         alt: 'Raster-Puzzle-Lösungsschlüssel mit vollständigem Bild und nummerierten gelben Kreisen überlagert auf jeder Rasterzelle für korrekte Kachelplatzierung',
         caption: 'Automatisch generierter Lösungsschlüssel — nummerierte Kreise (#ffffe0) zeigen korrekte Kachelplatzierung auf dem vollständigen Bild',
       },

@@ -244,22 +244,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/drawing%20lines/linjetegnings%c3%b8velse%201.webp',
+      primary: '/samples/danish/drawing%20lines/linjetegningsøvelse-1.webp',
       primaryAlt: 'Skrivemotorik overtegne-opgave til print med kurvede stiplede linjer mellem matchende billedpar i liggende format',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/drawing%20lines/linjetegningsøvelse%201.webp',
+        src: '/samples/danish/drawing%20lines/linjetegningsøvelse-1.webp',
         alt: 'Overtegne-øvelse med kurvede stiplede linjer til finmotorik og pennegreb i børnehaveklasse',
         caption: 'Kurveskabelon — børnene overtegner flydende kurvede linjer for at forbinde matchende billedpar',
       },
       {
-        src: '/samples/danish/drawing%20lines/linjetegningsøvelse%202.webp',
+        src: '/samples/danish/drawing%20lines/linjetegningsøvelse-2.webp',
         alt: 'Finmotorik opgaveark med diagonale stiplede linjer og fem billedpar til indskoling',
         caption: 'Diagonalskabelon — vinklede linjer med 5 billedpar til tværsidig koordinationsøvelse',
       },
       {
-        src: '/samples/danish/drawing%20lines/linjetegningsøvelse%204.webp',
+        src: '/samples/danish/drawing%20lines/linjetegningsøvelse-4.webp',
         alt: 'Skrivemotorik opgave med horisontale stiplede linjer og tematiske billeder til 1. klasse',
         caption: 'Horisontal skabelon — lige venstre-til-højre-linjer til pennegrebstræning',
       },

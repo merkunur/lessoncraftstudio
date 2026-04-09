@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/shadow match/abbina-le-ombre-1.webp', alt: 'Scheda di discriminazione visiva con immagini colorate e sagome nere auto-generate a livello di pixel per attività di abbinamento percezione visiva' },
+    heroImage: { src: '/samples/italian/shadow%20match/abbina-le-ombre-1.webp', alt: 'Scheda di discriminazione visiva con immagini colorate e sagome nere auto-generate a livello di pixel per attività di abbinamento percezione visiva' },
     samples: [
-      { src: '/samples/italian/shadow match/abbina-le-ombre-1.webp', alt: 'Scheda abbinamento ombre che mostra quattro immagini colorate abbinate a quattro sagome nere a livello di pixel con etichette lettere e numeri', caption: 'Modalità Abbinamento Ombre con quattro immagini colorate e le loro sagome nere auto-generate' },
-      { src: '/samples/italian/shadow match/abbina-le-ombre-1-answer-key.webp', alt: 'Chiave di risposta auto-generata che mostra immagini originali accanto alle sagome con etichette di abbinamento lettera-numero corrette', caption: 'Chiave di risposta auto-generata con abbinamenti lettera-numero per verifica rapida' },
+      { src: '/samples/italian/shadow%20match/abbina-le-ombre-1.webp', alt: 'Scheda abbinamento ombre che mostra quattro immagini colorate abbinate a quattro sagome nere a livello di pixel con etichette lettere e numeri', caption: 'Modalità Abbinamento Ombre con quattro immagini colorate e le loro sagome nere auto-generate' },
+      { src: '/samples/italian/shadow%20match/abbina-le-ombre-1-answer-key.webp', alt: 'Chiave di risposta auto-generata che mostra immagini originali accanto alle sagome con etichette di abbinamento lettera-numero corrette', caption: 'Chiave di risposta auto-generata con abbinamenti lettera-numero per verifica rapida' },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: 'Come Creare Schede di Discriminazione Visiva con Ombre — Tutorial Completo',

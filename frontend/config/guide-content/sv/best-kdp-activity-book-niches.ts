@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Ordsökningspussel som demonstrerar en bred KDP aktivitetsbok-nisch för publicerare' },
+    heroImage: { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Ordsökningspussel som demonstrerar en bred KDP aktivitetsbok-nisch för publicerare' },
     samples: [
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Ordsökningsinnehåll som representerar en av de största KDP aktivitetsbok-nischerna', caption: 'Ordsökningsböcker — en massiv KDP-nisch med tematiska variationer som minskar konkurrens' },
-      { src: '/samples/swedish/math%20worksheet/mattetal%20landscape.jpeg', alt: 'Mattearbetsblad som visar årskursnivå-målgruppssegmentering', caption: 'Mattearbetsböcker — målgruppssegmentering efter årskurs och operationstyp skapar dussintals distinkta undernischer' },
-      { src: '/samples/swedish/sudoku/sudoku_l%C3%A4tt.jpeg', alt: 'Sudokupussel som demonstrerar en dedikerad pusselboks-nisch', caption: 'Sudoku — en dedikerad pusselnisch med lojala köpare och lägre konkurrens än ordsökning eller målarbok' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Ordsökningsinnehåll som representerar en av de största KDP aktivitetsbok-nischerna', caption: 'Ordsökningsböcker — en massiv KDP-nisch med tematiska variationer som minskar konkurrens' },
+      { src: '/samples/swedish/math%20worksheet/mattetal-landscape.jpeg', alt: 'Mattearbetsblad som visar årskursnivå-målgruppssegmentering', caption: 'Mattearbetsböcker — målgruppssegmentering efter årskurs och operationstyp skapar dussintals distinkta undernischer' },
+      { src: '/samples/swedish/sudoku/sudoku-lätt.jpeg', alt: 'Sudokupussel som demonstrerar en dedikerad pusselboks-nisch', caption: 'Sudoku — en dedikerad pusselnisch med lojala köpare och lägre konkurrens än ordsökning eller målarbok' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hur du skapar mattearbetsblad för KDP aktivitetsböcker — nischinnehåll skapandeguide',

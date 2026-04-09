@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/bingo/bildbingo%201.webp',
+      primary: '/samples/swedish/bingo/bildbingo-1.webp',
       primaryAlt: 'Bildbingokort med tematiska bilder i ett rutnät och cirkulära brickor med streckade kanter nedanför',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/bingo/bildbingo%202.webp',
+        src: '/samples/swedish/bingo/bildbingo-2.webp',
         alt: 'Bildbingokort med bildfyllning som visar färgglada tematiska illustrationer i rutnätsceller och cirkulära bildbrickor',
         caption: 'Bildfyllningsläge — färgglada illustrationer i både kortceller och cirkulära brickor',
       },
       {
-        src: '/samples/swedish/bingo/bildbingo%203.webp',
+        src: '/samples/swedish/bingo/bildbingo-3.webp',
         alt: 'Bildbingokort med ordfyllning som visar lokaliserade bildnamn i rutnätsceller och ordbrickor',
         caption: 'Ordfyllningsläge — lokaliserade bildnamn för vokabulärbaserad bingo',
       },
       {
-        src: '/samples/swedish/bingo/bildbingo%201%20callout.webp',
+        src: '/samples/swedish/bingo/bildbingo-1-callout.webp',
         alt: 'Bingo uppropslista med dynamiskt ordrutnät som visar alla spelobjekt för spelledaren',
         caption: 'Uppropslista — dynamiskt ordrutnät för personen som leder bingospelet',
       },

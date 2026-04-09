@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/missing pieces/missing-pieces.webp',
+      primary: '/samples/english/missing%20pieces/missing-pieces.webp',
       primaryAlt: 'Missing pieces puzzle worksheet with holes cut from an image and numbered solution options including distractors',
     },
     sampleGallery: [
       {
-        src: '/samples/english/missing pieces/missing-pieces-1.webp',
+        src: '/samples/english/missing%20pieces/missing-pieces-1.webp',
         alt: 'Missing pieces puzzle with square-shaped holes cut from a colorful illustration',
         caption: 'Square piece shape — clean geometric cuts for clear visual identification',
       },
       {
-        src: '/samples/english/missing pieces/missing-pieces-5.webp',
+        src: '/samples/english/missing%20pieces/missing-pieces-5.webp',
         alt: 'Missing pieces puzzle with circular holes and numbered solution options',
         caption: 'Circle piece shape — rounded cuts with distractor options for added challenge',
       },
       {
-        src: '/samples/english/missing pieces/missing-pieces-answer-key.webp',
+        src: '/samples/english/missing%20pieces/missing-pieces-answer-key.webp',
         alt: 'Missing pieces puzzle answer key with yellow-highlighted numbers inside each hole',
         caption: 'Auto-generated answer key — yellow labels show correct option for each hole',
       },

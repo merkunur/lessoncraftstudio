@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/more less/meer%20minder%201.webp',
+      primary: '/samples/dutch/more%20less/meer-minder-1.webp',
       primaryAlt: 'Meer of Minder werkblad met kleurrijke dierenafbeeldingen in de modus Afbeelding naar Afbeelding',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/more less/meer%20minder%202.webp',
+        src: '/samples/dutch/more%20less/meer-minder-2.webp',
         alt: 'Vergelijkingswerkblad met de modus Afbeelding naar Afbeelding en dierenthema',
         caption: 'Afbeelding naar Afbeelding — gebruikers tellen twee groepen afbeeldingen en vergelijken hoeveelheden',
       },
       {
-        src: '/samples/dutch/more less/meer%20minder%203.webp',
+        src: '/samples/dutch/more%20less/meer-minder-3.webp',
         alt: 'Vergelijkingswerkblad met de modus Afbeelding naar Getal en voedselthema',
         caption: 'Afbeelding naar Getal — combineert groepen afbeeldingen met getallen voor het verbinden van vaardigheden',
       },
       {
-        src: '/samples/dutch/more less/meer%20minder%204.webp',
+        src: '/samples/dutch/more%20less/meer-minder-4.webp',
         alt: 'Controleer en Kruis Groepen werkblad met gemengde afbeeldingen voor visueel sorteren',
         caption: 'Controleer en Kruis Groepen — gebruikers vinden de meerderheidsgroep in een vak met gemengde afbeeldingen',
       },

@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/odd%20one%20out/find%20den%20ulige%201.webp', alt: 'Find den forkerte-arbejdsark med fire billeder per øvelsesrække der viser tre fælles elementer og ét forkert element med koral-ambra-turkis overskrift' },
+    heroImage: { src: '/samples/danish/odd%20one%20out/find-den-ulige-1.webp', alt: 'Find den forkerte-arbejdsark med fire billeder per øvelsesrække der viser tre fælles elementer og ét forkert element med koral-ambra-turkis overskrift' },
     samples: [
-      { src: '/samples/danish/odd%20one%20out/find%20den%20ulige%201.webp', alt: 'Find den Ulige — dansk eksempelarbejdsark', caption: 'Find den Ulige eksempel 1' },
-      { src: '/samples/danish/odd%20one%20out/find%20den%20ulige%202.webp', alt: 'Find den Ulige — dansk eksempel 2', caption: 'Find den Ulige eksempel 2' },
-      { src: '/samples/danish/odd%20one%20out/find%20den%20ulige%203.webp', alt: 'Find den Ulige — dansk eksempel 3', caption: 'Find den Ulige eksempel 3' },
+      { src: '/samples/danish/odd%20one%20out/find-den-ulige-1.webp', alt: 'Find den Ulige — dansk eksempelarbejdsark', caption: 'Find den Ulige eksempel 1' },
+      { src: '/samples/danish/odd%20one%20out/find-den-ulige-2.webp', alt: 'Find den Ulige — dansk eksempel 2', caption: 'Find den Ulige eksempel 2' },
+      { src: '/samples/danish/odd%20one%20out/find-den-ulige-3.webp', alt: 'Find den Ulige — dansk eksempel 3', caption: 'Find den Ulige eksempel 3' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Sådan generator du find den forkerte-puslespil — Komplet vejledning',
@@ -202,7 +202,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Asparges — tematisk pædagogisk billede', caption: 'Asparges' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Rødbede — tematisk pædagogisk billede', caption: 'Rødbede' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Peberfrugt — tematisk pædagogisk billede', caption: 'Peberfrugt' },
+    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Peberfrugt — tematisk pædagogisk billede', caption: 'Peberfrugt' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Broccoli — tematisk pædagogisk billede', caption: 'Broccoli' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Kål — tematisk pædagogisk billede', caption: 'Kål' },
   ],

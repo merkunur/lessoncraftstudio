@@ -228,22 +228,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp',
+      primary: '/samples/dutch/math%20puzzle/wiskundepuzzels-1.webp',
       primaryAlt: 'Rekenpuzzel werkblad met een kleurrijke afbeelding opgesplitst in rasterstukjes, elk met een optelsom',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/math%20puzzle/wiskundepuzzels%202.webp',
+        src: '/samples/dutch/math%20puzzle/wiskundepuzzels-2.webp',
         alt: 'Rekenpuzzel werkblad met 3×3 optelraster en dierenthema',
         caption: 'Optelmodus — 3×3 raster met 9 puzzelstukjes en door elkaar geschudde antwoorden eronder',
       },
       {
-        src: '/samples/dutch/math%20puzzle/wiskundepuzzels%203.webp',
+        src: '/samples/dutch/math%20puzzle/wiskundepuzzels-3.webp',
         alt: 'Rekenpuzzel werkblad met 2×3 aftrekraster en natuurthema',
         caption: 'Aftrekmodus — 2×3 raster voor een snelle puzzeluitdaging met 6 stukjes',
       },
       {
-        src: '/samples/dutch/math%20puzzle/wiskundepuzzels%204.webp',
+        src: '/samples/dutch/math%20puzzle/wiskundepuzzels-4.webp',
         alt: 'Rekenpuzzel werkblad met 4×4 gemengd-bewerkingen raster en voertuigenthema',
         caption: 'Gemengde modus — 4×4 raster met 16 stukjes voor gevorderde rekenoefening',
       },

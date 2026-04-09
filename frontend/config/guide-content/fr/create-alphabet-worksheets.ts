@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/alphabet train/Train de l\'alphabet-1.webp', alt: 'Fiche train alphabet montrant 11 wagons colorés avec lettres et images-indices pour la reconnaissance des lettres' },
+    heroImage: { src: '/samples/french/alphabet%20train/train-de-l\'alphabet-1.webp', alt: 'Fiche train alphabet montrant 11 wagons colorés avec lettres et images-indices pour la reconnaissance des lettres' },
     samples: [
-      { src: '/samples/french/alphabet train/Train de l\'alphabet-1.webp', alt: 'Fiche train alphabet colorée avec 11 wagons portant des lettres et des images-indices dispersées pour l\'association lettre-image', caption: 'Fiche train alphabet avec 11 wagons colorés et indices d\'association lettre-image' },
-      { src: '/samples/french/alphabet train/Train de l\'alphabet-2.webp', alt: 'Fiche train alphabet avec images thématiques et plusieurs tâches d\'association à difficulté intermédiaire', caption: 'Train alphabet thématique avec nombre d\'indices configurable pour la graduation de la difficulté' },
-      { src: '/samples/french/alphabet train/Train de l\'alphabet-3.webp', alt: 'Fiche train alphabet avancée avec 11 indices pour une difficulté maximale de reconnaissance complète des lettres', caption: 'Niveau de difficulté complet à 11 indices pour un entraînement avancé à la reconnaissance des lettres' },
+      { src: '/samples/french/alphabet%20train/train-de-l\'alphabet-1.webp', alt: 'Fiche train alphabet colorée avec 11 wagons portant des lettres et des images-indices dispersées pour l\'association lettre-image', caption: 'Fiche train alphabet avec 11 wagons colorés et indices d\'association lettre-image' },
+      { src: '/samples/french/alphabet%20train/train-de-l\'alphabet-2.webp', alt: 'Fiche train alphabet avec images thématiques et plusieurs tâches d\'association à difficulté intermédiaire', caption: 'Train alphabet thématique avec nombre d\'indices configurable pour la graduation de la difficulté' },
+      { src: '/samples/french/alphabet%20train/train-de-l\'alphabet-3.webp', alt: 'Fiche train alphabet avancée avec 11 indices pour une difficulté maximale de reconnaissance complète des lettres', caption: 'Niveau de difficulté complet à 11 indices pour un entraînement avancé à la reconnaissance des lettres' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Comment créer des fiches train alphabet — Tutoriel complet',
@@ -204,7 +204,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Taureau — image éducative thématique', caption: 'Taureau' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Veau — image éducative thématique', caption: 'Veau' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Chat — image éducative thématique', caption: 'Chat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Chat 2 — image éducative thématique', caption: 'Chat 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Chat 2 — image éducative thématique', caption: 'Chat 2' },
   ],
 };
 

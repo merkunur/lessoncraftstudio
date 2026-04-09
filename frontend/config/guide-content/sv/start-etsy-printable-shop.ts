@@ -177,22 +177,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
+      src: '/samples/swedish/addition/addition-övning.webp',
       alt: 'Professionella additionsarbetsblad som representerar den utskriftskvalitet som är möjlig med alla 33 generatorer',
     },
     samples: [
       {
-        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
+        src: '/samples/swedish/addition/addition-övning.webp',
         alt: 'Additionsarbetsblad som visar Matematik och Tal-kategori produkter för Etsy-butiker',
         caption: 'Matematik och Tal: Additionsarbetsblad med facit redo för Etsy digital nedladdningsannonser',
       },
       {
-        src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+        src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
         alt: 'Ordsökningspussel som visar Bokstäver och Ord-kategori produkter för Etsy-butiker',
         caption: 'Bokstäver och Ord: Ordsökningspussel med tematiskt ordförråd för bred köparattraktion',
       },
       {
-        src: '/samples/swedish/coloring/coloring%20portrait%201.webp',
+        src: '/samples/swedish/coloring/coloring-portrait-1.webp',
         alt: 'Målarbilder som visar Ritning och Konst-kategori produkter för Etsy-butiker',
         caption: 'Ritning och Konst: Målarbilder med tematiska illustrationer för bredast möjliga åldersdemografi',
       },

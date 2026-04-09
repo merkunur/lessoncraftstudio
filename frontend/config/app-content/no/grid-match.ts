@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/grid%20match/rutenettspuslespill%201.webp',
+      primary: '/samples/norwegian/grid%20match/rutenettspuslespill-1.webp',
       primaryAlt: 'Rutenettkobling bildepuslespill arbeidsark med bildefliser delt opp i et rutenett, ledetrådsceller synlige og nummerert flisepalett for kobling',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/grid%20match/rutenettspuslespill%201.webp',
+        src: '/samples/norwegian/grid%20match/rutenettspuslespill-1.webp',
         alt: 'Tre ganger tre rutenettskoblingspuslespill med en ledetrådscelle og åtte nummererte fliser i paletten',
         caption: '3×3 rutenettspuslespill — en ledetrådscelle synlig, åtte fliser å matche fra nummerert palett',
       },
       {
-        src: '/samples/norwegian/grid%20match/rutenettspuslespill%202.webp',
+        src: '/samples/norwegian/grid%20match/rutenettspuslespill-2.webp',
         alt: 'Rutenettskoblingspuslespill med et annet tema og variert rutenettstorrelse',
         caption: 'Tematisk rutenettspuslespill — 104 temaer gir unike visuelle persepsjonsutfordringer',
       },
       {
-        src: '/samples/norwegian/grid%20match/rutenettspuslespill%203.webp',
+        src: '/samples/norwegian/grid%20match/rutenettspuslespill-3.webp',
         alt: 'Rutenettkobling fasit som viser komplett bilde med nummererte sirkler overlagt på hver rutenettcelle',
         caption: 'Automatisk generert fasit — nummererte sirkler viser korrekt fliseplassering på komplett bilde',
       },

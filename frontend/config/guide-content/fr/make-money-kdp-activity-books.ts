@@ -200,7 +200,7 @@ const content: GuideContent = {
     heroImage: { src: '/samples/french/sudoku/sudoku-worksheet.webp', alt: 'Fiche de puzzle sudoku démontrant le contenu de livres d\'activités KDP pour la génération de revenus' },
     samples: [
       { src: '/samples/french/sudoku/sudoku-worksheet.webp', alt: 'Puzzle sudoku formaté pour les pages intérieures de livres d\'activités KDP', caption: 'Puzzles sudoku — une catégorie de livres d\'activités constamment rentable sur Amazon KDP avec des acheteurs réguliers fidèles' },
-      { src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp', alt: 'Fiche de mathématiques formatée pour les pages intérieures de cahiers KDP', caption: 'Cahiers de mathématiques — catégorie KDP à forte demande avec des opportunités naturelles d\'expansion de catalogue par niveau scolaire' },
+      { src: '/samples/french/math%20worksheet/feuille-de-mathématique-1.webp', alt: 'Fiche de mathématiques formatée pour les pages intérieures de cahiers KDP', caption: 'Cahiers de mathématiques — catégorie KDP à forte demande avec des opportunités naturelles d\'expansion de catalogue par niveau scolaire' },
       { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés pour la diversification du catalogue de livres de puzzles KDP', caption: 'Livres de mots cachés — la plus grande catégorie de livres de puzzles sur Amazon avec un fort potentiel de revenus en séries multi-volumes' },
     ],
     youtubeId: 'bqVioFbkYbA',

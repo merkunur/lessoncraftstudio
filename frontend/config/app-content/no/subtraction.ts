@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%201.webp',
+      primary: '/samples/norwegian/subtraction/moro-med-subtraksjon-1.webp',
       primaryAlt: 'Subtraksjonsarbeidsark med overstrekede bilder som viser den fjernede mengden',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%201.webp',
+        src: '/samples/norwegian/subtraction/moro-med-subtraksjon-1.webp',
         alt: 'Subtraksjonsarbeidsark i Overstrykning modus med diagonale kryss over fjernede bilder',
         caption: 'Overstrykning modus — diagonale kryss viser hvilke elementer som subtraheres',
       },
       {
-        src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%202.webp',
+        src: '/samples/norwegian/subtraction/moro-med-subtraksjon-2.webp',
         alt: 'Subtraksjonsarbeidsark i Bilde minus Tall modus med grupper av bilder og tall',
         caption: 'Bilde − Tall modus — kombinerer grupper av bilder med tall for overgangsferdigheter',
       },
       {
-        src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%203.webp',
+        src: '/samples/norwegian/subtraction/moro-med-subtraksjon-3.webp',
         alt: 'Subtraksjonsarbeidsark i Finn Subtrahenden modus som utfordrer brukerne til å finne den manglende verdien',
         caption: 'Finn Subtrahenden modus — brukerne bestemmer hvor mange som er fjernet',
       },

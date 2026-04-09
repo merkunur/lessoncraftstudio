@@ -192,10 +192,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/math puzzle/rompecabezas-matemáticos-1.webp', alt: 'Ficha de puzzle matemático mostrando piezas de imagen desordenadas con ecuaciones matemáticas para que los niños resuelvan y reconstruyan' },
+    heroImage: { src: '/samples/spanish/math%20puzzle/rompecabezas-matemáticos-1.webp', alt: 'Ficha de puzzle matemático mostrando piezas de imagen desordenadas con ecuaciones matemáticas para que los niños resuelvan y reconstruyan' },
     samples: [
-      { src: '/samples/spanish/math puzzle/rompecabezas-matemáticos-1.webp', alt: 'Ficha de puzzle matemático con tema de animales mostrando ecuaciones de cuadrícula y fragmentos de imagen numerados', caption: 'Ficha de puzzle matemático — los niños resuelven ecuaciones para determinar dónde pertenece cada pieza de imagen numerada en la cuadrícula' },
-      { src: '/samples/spanish/math puzzle/rompecabezas-matemáticos-1.webp', alt: 'Clave de respuestas del puzzle matemático mostrando la imagen reconstruida con ecuaciones resueltas', caption: 'Clave de respuestas automática mostrando la imagen reconstruida al 30 % de opacidad con las ecuaciones completas resueltas' },
+      { src: '/samples/spanish/math%20puzzle/rompecabezas-matemáticos-1.webp', alt: 'Ficha de puzzle matemático con tema de animales mostrando ecuaciones de cuadrícula y fragmentos de imagen numerados', caption: 'Ficha de puzzle matemático — los niños resuelven ecuaciones para determinar dónde pertenece cada pieza de imagen numerada en la cuadrícula' },
+      { src: '/samples/spanish/math%20puzzle/rompecabezas-matemáticos-1.webp', alt: 'Clave de respuestas del puzzle matemático mostrando la imagen reconstruida con ecuaciones resueltas', caption: 'Clave de respuestas automática mostrando la imagen reconstruida al 30 % de opacidad con las ecuaciones completas resueltas' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Cómo crear fichas de puzzles matemáticos — Tutorial completo',

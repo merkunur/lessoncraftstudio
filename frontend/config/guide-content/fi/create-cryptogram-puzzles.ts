@@ -153,11 +153,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/cryptogram/kuvakryptogrammi%201.webp', alt: 'Kryptogrammityöarkki kuvasalauksella näyttäen temaattiset kuvat yhdistettynä aakkosten kirjaimiin salaisen lauseen koodaamiseksi' },
+    heroImage: { src: '/samples/finnish/cryptogram/kuvakryptogrammi-1.webp', alt: 'Kryptogrammityöarkki kuvasalauksella näyttäen temaattiset kuvat yhdistettynä aakkosten kirjaimiin salaisen lauseen koodaamiseksi' },
     samples: [
-      { src: '/samples/finnish/cryptogram/kuvakryptogrammi%201.webp', alt: 'Kryptogrammityöarkki temaattisilla kuvilla jotka korvaavat kirjaimet koodatussa salaisessa lauseessa', caption: 'Kuvasalauspulma — pura salainen viesti tunnistamalla mikä kuva edustaa mitä kirjainta' },
-      { src: '/samples/finnish/cryptogram/kuvakryptogrammi%202.webp', alt: 'Kryptogrammityöarkki temaattisilla kuvilla ja Kirjainten paljastus -vihjeillä tuettuun vaikeustasoon', caption: 'Teemallinen salaus Kirjainten paljastuksella — esipuretut yhdistykset tarjoavat tukirakennetta aloittelijoille' },
-      { src: '/samples/finnish/cryptogram/kuvakryptogrammi%203.webp', alt: 'Kryptogrammin vastausavain täydellisellä kirjainlegendellä joka näyttää kaikki aakkos-kuva-yhdistykset järjestyksessä', caption: 'Kirjainlegenden vastausavain — jokainen aakkosten kirjain yhdistettynä osoitettuun kuvaan lopullista ratkaisuviittausta varten' },
+      { src: '/samples/finnish/cryptogram/kuvakryptogrammi-1.webp', alt: 'Kryptogrammityöarkki temaattisilla kuvilla jotka korvaavat kirjaimet koodatussa salaisessa lauseessa', caption: 'Kuvasalauspulma — pura salainen viesti tunnistamalla mikä kuva edustaa mitä kirjainta' },
+      { src: '/samples/finnish/cryptogram/kuvakryptogrammi-2.webp', alt: 'Kryptogrammityöarkki temaattisilla kuvilla ja Kirjainten paljastus -vihjeillä tuettuun vaikeustasoon', caption: 'Teemallinen salaus Kirjainten paljastuksella — esipuretut yhdistykset tarjoavat tukirakennetta aloittelijoille' },
+      { src: '/samples/finnish/cryptogram/kuvakryptogrammi-3.webp', alt: 'Kryptogrammin vastausavain täydellisellä kirjainlegendellä joka näyttää kaikki aakkos-kuva-yhdistykset järjestyksessä', caption: 'Kirjainlegenden vastausavain — jokainen aakkosten kirjain yhdistettynä osoitettuun kuvaan lopullista ratkaisuviittausta varten' },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: 'Kuinka luot kuvasalauskryptogrammipulmiä — Vaiheittainen opas',

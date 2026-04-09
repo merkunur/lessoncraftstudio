@@ -222,22 +222,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/pattern worksheet/pattern-worksheet.webp',
+      primary: '/samples/english/pattern%20worksheet/pattern-worksheet.webp',
       primaryAlt: 'Pattern completion worksheet with grid-based exercises showing repeating image patterns with blank boxes and multiple-choice options',
     },
     sampleGallery: [
       {
-        src: '/samples/english/pattern worksheet/pattern-worksheet-1.webp',
+        src: '/samples/english/pattern%20worksheet/pattern-worksheet-1.webp',
         alt: 'Pattern worksheet with AB fill-in-the-blank exercises using animal images in a grid layout with empty boxes to complete',
         caption: 'AB blank-box exercises with animal theme — identify the alternating pattern and fill in the missing image',
       },
       {
-        src: '/samples/english/pattern worksheet/pattern-worksheet-5.webp',
+        src: '/samples/english/pattern%20worksheet/pattern-worksheet-5.webp',
         alt: 'Pattern worksheet with ABC multiple-choice exercises using vehicle images with three answer options per exercise',
         caption: 'ABC multiple-choice exercises with vehicle theme — choose the correct missing item from three options',
       },
       {
-        src: '/samples/english/pattern worksheet/pattern-answer-key.webp',
+        src: '/samples/english/pattern%20worksheet/pattern-answer-key.webp',
         alt: 'Pattern worksheet answer key showing all blank positions filled with the correct pattern items',
         caption: 'Answer key view — all blanks filled with correct pattern items for instant verification',
       },

@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+      primary: '/samples/swedish/wordsearch/ordletning-portrait.webp',
       primaryAlt: 'Ordsökning arbetsblad med dolda ord inbäddade i ett bokstavsrutnät och tematiska bildledtrådar för vokabulärpussel',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+        src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
         alt: 'Ordsökning arbetsblad i stående layout med 12×12 bokstavsrutnät och tematiska bildledtrådar',
         caption: 'Stående layout — 12×12 rutnät med tematiska bildledtrådar och ordlista',
       },
       {
-        src: '/samples/swedish/wordsearch/ordletning%20landscape.webp',
+        src: '/samples/swedish/wordsearch/ordletning-landscape.webp',
         alt: 'Ordsökning arbetsblad i liggande layout med större rutnät och diagonala ord aktiverade',
         caption: 'Liggande layout — bredare rutnät med diagonala och bakåtord aktiverade',
       },
       {
-        src: '/samples/swedish/wordsearch/ordletning%20custom.webp',
+        src: '/samples/swedish/wordsearch/ordletning-custom.webp',
         alt: 'Ordsökning arbetsblad med anpassad ordlista utan bilder för textbaserade pussel',
         caption: 'Anpassad Ordlista-läge — textbaserad ordsökning utan bildledtrådar',
       },

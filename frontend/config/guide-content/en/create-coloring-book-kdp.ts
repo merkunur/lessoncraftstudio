@@ -179,7 +179,7 @@ const content: GuideContent = {
     heroImage: { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page with outlined design formatted for KDP book interior' },
     samples: [
       { src: '/samples/english/coloring/coloring-portrait-2.webp', alt: 'Coloring page with clean outlines ready for KDP printing', caption: 'A themed coloring page exported as a print-ready PDF -- single-sided formatting prevents bleed-through' },
-      { src: '/samples/english/draw and color/grid-drawing-worksheet-10.webp', alt: 'Draw and color activity page with reference image and tracing outline', caption: 'Draw and color activity page -- reference image on one side, dotted outline for tracing on the other' },
+      { src: '/samples/english/draw%20and%20color/grid-drawing-worksheet-10.webp', alt: 'Draw and color activity page with reference image and tracing outline', caption: 'Draw and color activity page -- reference image on one side, dotted outline for tracing on the other' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages',

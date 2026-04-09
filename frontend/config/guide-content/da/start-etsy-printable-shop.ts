@@ -177,13 +177,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/coloring/coloring%20portrait%201.webp',
+      src: '/samples/danish/coloring/coloring-portrait-1.webp',
       alt: 'Professionelle additionsarbejdsark skabt med additionsarbejdsark-generatoren, der repræsenterer den printable-produktkvalitet opnåelig på tværs af alle 33 generatorer',
     },
     samples: [
-      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside — dansk eksempelarbejdsark', caption: 'Farvelægningsside eksempel 1' },
-      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Farvelægningsside — dansk eksempel 2', caption: 'Farvelægningsside eksempel 2' },
-      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Farvelægningsside — dansk eksempel 3', caption: 'Farvelægningsside eksempel 3' },
+      { src: '/samples/danish/coloring/coloring-portrait-1.webp', alt: 'Farvelægningsside — dansk eksempelarbejdsark', caption: 'Farvelægningsside eksempel 1' },
+      { src: '/samples/danish/coloring/coloring-portrait-2.webp', alt: 'Farvelægningsside — dansk eksempel 2', caption: 'Farvelægningsside eksempel 2' },
+      { src: '/samples/danish/coloring/coloring-landscape-1.webp', alt: 'Farvelægningsside — dansk eksempel 3', caption: 'Farvelægningsside eksempel 3' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sådan generator du printbare arbejdsark til din Etsy-butik',

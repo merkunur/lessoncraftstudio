@@ -271,22 +271,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/find objects/Trouve l\'intrus-1.webp',
+      primary: '/samples/french/find%20objects/trouve-l\'intrus-1.webp',
       primaryAlt: 'Fiche objets cachés Je Vois Je Vois avec images dispersées par algorithme sans chevauchement, légende en bas montrant les objets à trouver et en-tête décoratif',
     },
     sampleGallery: [
       {
-        src: '/samples/french/find objects/Trouve l\'intrus-1.webp',
+        src: '/samples/french/find%20objects/trouve-l\'intrus-1.webp',
         alt: 'Scène Je Vois Je Vois avec images dispersées et légende montrant les objets cibles en bas',
         caption: 'Mode Je Vois Je Vois — scène d\'objets cachés en placement libre avec légende',
       },
       {
-        src: '/samples/french/find objects/Trouve l\'intrus-2-v9.webp',
+        src: '/samples/french/find%20objects/trouve-l\'intrus-2-v9.webp',
         alt: 'Fiche Trouve l\'Intrus avec images appariées en rangées et éléments non appariés à identifier',
         caption: 'Mode Trouve l\'Intrus — images appariées avec éléments non appariés pour discrimination visuelle',
       },
       {
-        src: '/samples/french/find objects/Trouve l\'intrus-1-answer-key-v8.webp',
+        src: '/samples/french/find%20objects/trouve-l\'intrus-1-answer-key-v8.webp',
         alt: 'Corrigé de fiche objets cachés avec cercles rouges dessinés autour des objets cibles',
         caption: 'Corrigé auto-généré — cercles rouges marquant les objets cachés et non appariés',
       },

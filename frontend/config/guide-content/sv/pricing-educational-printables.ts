@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Professionellt additionsarbetsblad som demonstrerar kvaliteten som stöder premiumprissättningsstrategier' },
+    heroImage: { src: '/samples/swedish/addition/addition-övning.webp', alt: 'Professionellt additionsarbetsblad som demonstrerar kvaliteten som stöder premiumprissättningsstrategier' },
     samples: [
-      { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Additionsarbetsblad med tematiserade bilder som stöder premiumprissättning', caption: 'Professionell formatering och tematiserade bilder motiverar högre prispunkter — köpare betalar mer för kvalitet och visuell attraktionskraft' },
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Ordsökningspussel som demonstrerar funktionsdifferentiering för prissättning', caption: 'Ordsökningspussel med tematiserade bilder kräver högre priser än grundläggande textbaserade versioner på alla plattformar' },
-      { src: '/samples/swedish/coloring/coloring%20portrait%202.webp', alt: 'Målarsida som visar kvalitet som stöder konkurrenskraftig prissättning', caption: 'Högkvalitativa målarsidor demonstrerar hur produktkvalitet direkt möjliggör premiumprissättning i konkurrensutsatta kategorier' },
+      { src: '/samples/swedish/addition/addition-övning.webp', alt: 'Additionsarbetsblad med tematiserade bilder som stöder premiumprissättning', caption: 'Professionell formatering och tematiserade bilder motiverar högre prispunkter — köpare betalar mer för kvalitet och visuell attraktionskraft' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.webp', alt: 'Ordsökningspussel som demonstrerar funktionsdifferentiering för prissättning', caption: 'Ordsökningspussel med tematiserade bilder kräver högre priser än grundläggande textbaserade versioner på alla plattformar' },
+      { src: '/samples/swedish/coloring/coloring-portrait-2.webp', alt: 'Målarsida som visar kvalitet som stöder konkurrenskraftig prissättning', caption: 'Högkvalitativa målarsidor demonstrerar hur produktkvalitet direkt möjliggör premiumprissättning i konkurrensutsatta kategorier' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Hur du skapar mattearbetsblad snabbt — Effektiv produktion för bättre vinstmarginaler',

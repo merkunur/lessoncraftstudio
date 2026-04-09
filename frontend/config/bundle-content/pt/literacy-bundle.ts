@@ -219,10 +219,10 @@ const content: BundleContent = {
       primaryAlt: 'Atividade de caça-palavras com grelha de vocabulário temático e gabarito codificado por cores',
     },
     sampleGallery: [
-      { src: '/samples/portuguese/alphabet train/comboio-do-alfabeto-1.webp', alt: 'Atividade de comboio do alfabeto com vagões de associação letra-imagem', caption: 'Atividade Comboio do Alfabeto' },
+      { src: '/samples/portuguese/alphabet%20train/comboio-do-alfabeto-1.webp', alt: 'Atividade de comboio do alfabeto com vagões de associação letra-imagem', caption: 'Atividade Comboio do Alfabeto' },
       { src: '/samples/portuguese/prepositions/preposições-1.webp', alt: 'Atividade de preposições mostrando relações espaciais com imagens', caption: 'Atividade de Preposições' },
-      { src: '/samples/portuguese/word guess/adivinha-a-palavra-1.webp', alt: 'Atividade de adivinhar palavras com pistas de imagens e espaços para letras', caption: 'Atividade de Adivinhar Palavras' },
-      { src: '/samples/portuguese/word scramble/letras-embaralhadas-1.webp', alt: 'Atividade de palavras embaralhadas com peças de letras codificadas por cores', caption: 'Atividade de Palavras Embaralhadas' },
+      { src: '/samples/portuguese/word%20guess/adivinha-a-palavra-1.webp', alt: 'Atividade de adivinhar palavras com pistas de imagens e espaços para letras', caption: 'Atividade de Adivinhar Palavras' },
+      { src: '/samples/portuguese/word%20scramble/letras-embaralhadas-1.webp', alt: 'Atividade de palavras embaralhadas com peças de letras codificadas por cores', caption: 'Atividade de Palavras Embaralhadas' },
       { src: '/samples/portuguese/wordsearch/caça-palavras-2.webp', alt: 'Grelha de caça-palavras com palavras de vocabulário ocultas', caption: 'Atividade de Caça-Palavras' },
       { src: '/samples/portuguese/cryptogram/criptograma-ilustrado-1.webp', alt: 'Puzzle de criptograma com cifra de imagens', caption: 'Atividade de Criptograma' },
       { src: '/samples/portuguese/writing/writing-beginning-letter.webp', alt: 'Atividade de prática de caligrafia com traços de letras guiados', caption: 'Atividade de Caligrafia' },

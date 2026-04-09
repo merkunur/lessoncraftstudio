@@ -231,22 +231,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/wordsearch/woordzoeker%201.webp',
+      primary: '/samples/dutch/wordsearch/woordzoeker-1.webp',
       primaryAlt: 'Woordzoeker werkblad met verborgen woorden in een letterraster en afbeeldingsaanwijzingen die woordenschatpuzzel tonen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/wordsearch/woordzoeker%201.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-1.webp',
         alt: 'Woordzoeker werkblad in staand formaat met 12×12 letterraster en thematische afbeeldingsaanwijzingen',
         caption: 'Staand formaat — 12×12 raster met thematische afbeeldingsaanwijzingen en woordenlijst',
       },
       {
-        src: '/samples/dutch/wordsearch/woordzoeker%202.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-2.webp',
         alt: 'Woordzoeker werkblad in liggend formaat met groter raster en diagonale woorden ingeschakeld',
         caption: 'Liggend formaat — breder raster met diagonale en omgekeerde woorden ingeschakeld',
       },
       {
-        src: '/samples/dutch/wordsearch/woordzoeker%203.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-3.webp',
         alt: 'Woordzoeker werkblad met alleen-woorden weergavemodus zonder afbeeldingen',
         caption: 'Alleen Woorden modus — tekst-gebaseerde woordzoeker zonder afbeeldingsaanwijzingen',
       },

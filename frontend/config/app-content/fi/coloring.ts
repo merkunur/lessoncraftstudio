@@ -243,22 +243,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/finnish/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Mukautettu värityssivu temaattisilla kuvilla vapaamuotoisella kankaalla koristekehyksellä ja nimikentällä',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/coloring/coloring%20portrait%202.webp',
+        src: '/samples/finnish/coloring/coloring-portrait-2.webp',
         alt: 'Eläinteemainen värityssivu värikäillä kuvituksilla vapaamuotoisella kankaalla',
         caption: 'Eläinteemainen värityssivu — värikäät kuvitukset vapaasti järjestettyinä kankaalle',
       },
       {
-        src: '/samples/finnish/coloring/coloring%20portrait%203.webp',
+        src: '/samples/finnish/coloring/coloring-portrait-3.webp',
         alt: 'Värityssivu käsinkirjoitusviivoilla ja nimikentällä tulostusvalmiiseen käyttöön',
         caption: 'Tulostusvalmi värityssivu — nimikenttä ja käsinkirjoitusharjoitusviivat mukana',
       },
       {
-        src: '/samples/finnish/coloring/coloring%20landscape%201.webp',
+        src: '/samples/finnish/coloring/coloring-landscape-1.webp',
         alt: 'Harmaasävyvärityssivu koristekehyksellä valmiina musteystävälliseen tulostamiseen',
         caption: 'Harmaasävyvienti — musteystävällinen värityssivu koristekehysteemalla',
       },

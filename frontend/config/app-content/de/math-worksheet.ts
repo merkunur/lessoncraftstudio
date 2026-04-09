@@ -264,22 +264,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/math worksheet/worksheet.webp',
+      primary: '/samples/german/math%20worksheet/worksheet.webp',
       primaryAlt: 'Algebra-Bilderätsel-Arbeitsblatt mit Bildsymbolen als unbekannte Variablen in einem Gleichungssystem',
     },
     sampleGallery: [
       {
-        src: '/samples/german/math worksheet/worksheet.webp',
+        src: '/samples/german/math%20worksheet/worksheet.webp',
         alt: 'Sehr-Leicht-Algebra-Rätsel-Arbeitsblatt mit zwei Bildsymbolen und reinen Additions-Gleichungen',
         caption: 'Sehr Leicht — zwei Bildsymbole in einem einfachen Gleichungssystem mit reiner Addition',
       },
       {
-        src: '/samples/german/math worksheet/answer-key.webp',
+        src: '/samples/german/math%20worksheet/answer-key.webp',
         alt: 'Mittel-Algebra-Rätsel-Arbeitsblatt mit drei Bildsymbolen und gemischten Operationen',
         caption: 'Mittel — drei Symbole in verknüpften Gleichungen mit Addition und Subtraktion',
       },
       {
-        src: '/samples/german/math worksheet/worksheet.webp',
+        src: '/samples/german/math%20worksheet/worksheet.webp',
         alt: 'Schwer-Algebra-Rätsel-Arbeitsblatt mit vier Bildsymbolen in einem Vier-Gleichungen-System',
         caption: 'Schwer — vier gleichzeitige Unbekannte für fortgeschrittenes algebraisches Problemlösen',
       },

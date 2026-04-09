@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/big%20small/2%20identiska%20bilder.webp',
+      primary: '/samples/swedish/big%20small/2-identiska-bilder.webp',
       primaryAlt: 'Stor och liten storleksjämförelse arbetsblad med tematiska bilder i olika storlekar som visar ringa in den stora övning',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/big%20small/2%20olika%20bilder.webp',
+        src: '/samples/swedish/big%20small/2-olika-bilder.webp',
         alt: 'Storleksjämförelse arbetsblad i ringa in den stora-läge med tematiska djurbilder i olika storlekar',
         caption: 'Ringa in den Stora-läge — användarna identifierar den största bilden i varje övning',
       },
       {
-        src: '/samples/swedish/big%20small/3%20identiska%20bilder.webp',
+        src: '/samples/swedish/big%20small/3-identiska-bilder.webp',
         alt: 'Storleksordning arbetsblad med tre bilder numrerade från minsta till största',
         caption: 'Numrera 1–2–3 Liten till Stor — användarna ordnar bilder efter storlek',
       },
       {
-        src: '/samples/swedish/big%20small/3%20olika%20bilder.webp',
+        src: '/samples/swedish/big%20small/3-olika-bilder.webp',
         alt: 'Storleksjämförelse arbetsblad med identiska bilder-läge med samma bild i tre olika storlekar',
         caption: 'Olika Bilder-läge med 3 bilder — relativt storleksresonemang med distinkta objekt',
       },

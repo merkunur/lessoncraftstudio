@@ -220,9 +220,9 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/draw and color/zeichnen-und-ausmale-1.webp', alt: 'Rasterzeichnen-Arbeitsblatt das die kreative Bandbreite für die Skalierung des Druckvorlagen-Geschäfts demonstriert' },
+    heroImage: { src: '/samples/german/draw%20and%20color/zeichnen-und-ausmale-1.webp', alt: 'Rasterzeichnen-Arbeitsblatt das die kreative Bandbreite für die Skalierung des Druckvorlagen-Geschäfts demonstriert' },
     samples: [
-      { src: '/samples/german/draw and color/zeichnen-und-ausmale-1.webp', alt: 'Rasterzeichnen-Arbeitsblatt mit Themenvielfalt für Katalogerweiterung', caption: 'Rasterzeichnen — Kreative Bandbreite für Katalogtiefe' },
+      { src: '/samples/german/draw%20and%20color/zeichnen-und-ausmale-1.webp', alt: 'Rasterzeichnen-Arbeitsblatt mit Themenvielfalt für Katalogerweiterung', caption: 'Rasterzeichnen — Kreative Bandbreite für Katalogtiefe' },
       { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuchrätsel das hochvolumige Skalierbarkeit über Themen demonstriert', caption: 'Wortsuche — Höchstes Volumen-Skalierungspotenzial' },
       { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Ausmalseite die sprachunabhängige internationale Skalierbarkeit zeigt', caption: 'Ausmalen — Internationale Skalierung ohne Übersetzung' },
       { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: 'Sudoku-Rätsel das plattformunabhängige Produktdistribution demonstriert', caption: 'Sudoku — Plattformunabhängige Distribution' },

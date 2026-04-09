@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/odd one out/trova-il-diverso-1-v10.webp', alt: 'Scheda trova l\'intruso con quattro immagini per riga di esercizio mostrando tre elementi comuni e un intruso con intestazione corallo-ambra-turchese' },
+    heroImage: { src: '/samples/italian/odd%20one%20out/trova-il-diverso-1-v10.webp', alt: 'Scheda trova l\'intruso con quattro immagini per riga di esercizio mostrando tre elementi comuni e un intruso con intestazione corallo-ambra-turchese' },
     samples: [
-      { src: '/samples/italian/odd one out/trova-il-diverso-1-v10.webp', alt: 'Scheda trova l\'intruso che mostra carte esercizio con quattro immagini per riga e intestazione stilizzata Trova l\'Intruso', caption: 'Scheda trova l\'intruso con righe di esercizio a quattro immagini e layout a colonne adattivo' },
-      { src: '/samples/italian/odd one out/trova-il-diverso-1-answer-key.webp', alt: 'Chiave di risposta auto-generata con contorni cerchio rosso attorno all\'elemento intruso in ogni riga di esercizio', caption: 'Chiave di risposta auto-generata con marcatori cerchio rosso che identificano l\'intruso in ogni riga' },
+      { src: '/samples/italian/odd%20one%20out/trova-il-diverso-1-v10.webp', alt: 'Scheda trova l\'intruso che mostra carte esercizio con quattro immagini per riga e intestazione stilizzata Trova l\'Intruso', caption: 'Scheda trova l\'intruso con righe di esercizio a quattro immagini e layout a colonne adattivo' },
+      { src: '/samples/italian/odd%20one%20out/trova-il-diverso-1-answer-key.webp', alt: 'Chiave di risposta auto-generata con contorni cerchio rosso attorno all\'elemento intruso in ogni riga di esercizio', caption: 'Chiave di risposta auto-generata con marcatori cerchio rosso che identificano l\'intruso in ogni riga' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Come Creare Puzzle Trova l\'Intruso — Tutorial Completo',
@@ -200,7 +200,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Asparago — immagine educativa tematica', caption: 'Asparago' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Barbabietola — immagine educativa tematica', caption: 'Barbabietola' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Peperone — immagine educativa tematica', caption: 'Peperone' },
+    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Peperone — immagine educativa tematica', caption: 'Peperone' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Broccoli — immagine educativa tematica', caption: 'Broccoli' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Cavolo — immagine educativa tematica', caption: 'Cavolo' },
   ],

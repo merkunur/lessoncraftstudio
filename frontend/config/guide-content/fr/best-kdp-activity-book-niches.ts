@@ -201,7 +201,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/french/coloring/coloring-portrait-1.webp', alt: 'Contenu de livre de coloriage représentant l\'une des plus grandes niches de livres d\'activités KDP', caption: 'Livres de coloriage — une niche KDP massive couvrant enfants, adultes et éditions thématiques avec une forte demande toute l\'année' },
       { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés démontrant le ciblage de sous-niches thématiques dans la catégorie puzzles', caption: 'Mots cachés thématiques — le ciblage de sous-niches par thèmes animaux, voyage et fêtes réduit la concurrence tout en maintenant une forte demande' },
-      { src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp', alt: 'Fiche de mathématiques montrant la segmentation du public par niveau scolaire pour la stratégie de niches KDP', caption: 'Cahiers de maths — la segmentation du public par niveau scolaire et type d\'opération crée des dizaines de sous-niches distinctes à partir d\'une seule catégorie' },
+      { src: '/samples/french/math%20worksheet/feuille-de-mathématique-1.webp', alt: 'Fiche de mathématiques montrant la segmentation du public par niveau scolaire pour la stratégie de niches KDP', caption: 'Cahiers de maths — la segmentation du public par niveau scolaire et type d\'opération crée des dizaines de sous-niches distinctes à partir d\'une seule catégorie' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Comment créer des fiches de mathématiques pour les livres d\'activités KDP — Tutoriel de création de contenu de niche',

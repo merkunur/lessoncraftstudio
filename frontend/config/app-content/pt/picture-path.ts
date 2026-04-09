@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/picture path/caminho-de-imagen-1.webp',
+      primary: '/samples/portuguese/picture%20path/caminho-de-imagen-1.webp',
       primaryAlt: 'Atividade de labirinto com imagens temáticas numa quadrícula com borda laranja e cabeçalho Caminho de Imagens gerado automaticamente',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/picture path/caminho-de-imagen-2.webp',
+        src: '/samples/portuguese/picture%20path/caminho-de-imagen-2.webp',
         alt: 'Atividade do modo Caminho de Imagens com imagens organizadas numa quadrícula mostrando o caminho correto desde o início até ao final',
         caption: 'Modo Caminho de Imagens — os usuários seguem o caminho correto de imagens desde o início até ao final',
       },
       {
-        src: '/samples/portuguese/picture path/caminho-de-imagen-3.webp',
+        src: '/samples/portuguese/picture%20path/caminho-de-imagen-3.webp',
         alt: 'Atividade do modo Labirinto Clássico com corredores de paredes e imagens colecionáveis dispersas pelo labirinto',
         caption: 'Modo Labirinto Clássico — o algoritmo LPF gera labirintos com paredes e imagens colecionáveis',
       },
       {
-        src: '/samples/portuguese/picture path/caminho-de-imagen-1-answer-key.webp',
+        src: '/samples/portuguese/picture%20path/caminho-de-imagen-1-answer-key.webp',
         alt: 'Gabarito do labirinto com o caminho de solução realçado por círculos rosa ao longo da rota correta',
         caption: 'Gabarito gerado automaticamente — caminho de solução realçado com círculos rosa',
       },

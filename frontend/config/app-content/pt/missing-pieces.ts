@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/missing pieces/peças-em-falta-1.webp',
+      primary: '/samples/portuguese/missing%20pieces/peças-em-falta-1.webp',
       primaryAlt: 'Atividade de puzzle de peças faltantes com lacunas recortadas de uma imagem e opções de solução numeradas incluindo distratoras',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/missing pieces/peças-em-falta-2.webp',
+        src: '/samples/portuguese/missing%20pieces/peças-em-falta-2.webp',
         alt: 'Puzzle de peças faltantes com lacunas quadradas recortadas de uma ilustração colorida',
         caption: 'Forma de peça quadrada — cortes geométricos limpos para identificação visual clara',
       },
       {
-        src: '/samples/portuguese/missing pieces/peças-em-falta-3.webp',
+        src: '/samples/portuguese/missing%20pieces/peças-em-falta-3.webp',
         alt: 'Puzzle de peças faltantes com lacunas circulares e opções de solução numeradas',
         caption: 'Forma de peça circular — cortes arredondados com opções distratoras para maior desafio',
       },
       {
-        src: '/samples/portuguese/missing pieces/peças-em-falta-1-answer-key.webp',
+        src: '/samples/portuguese/missing%20pieces/peças-em-falta-1-answer-key.webp',
         alt: 'Gabarito do puzzle de peças faltantes com números realçados em amarelo dentro de cada lacuna',
         caption: 'Gabarito automático — etiquetas amarelas mostram a opção correta para cada lacuna',
       },

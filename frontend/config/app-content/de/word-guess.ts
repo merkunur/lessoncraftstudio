@@ -267,22 +267,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/word guess/clue-grid-worksheet.webp',
+      primary: '/samples/german/word%20guess/clue-grid-worksheet.webp',
       primaryAlt: 'Wörter-Raten-Arbeitsblatt mit Bild-Hinweisen und leeren Buchstabengittern für deutsche Vokabel-Rätsel',
     },
     sampleGallery: [
       {
-        src: '/samples/german/word guess/clue-grid-worksheet.webp',
+        src: '/samples/german/word%20guess/clue-grid-worksheet.webp',
         alt: 'Wörter-Raten-Arbeitsblatt mit Bild-Hinweisen auf Stufe Leicht mit der Hälfte der Buchstaben sichtbar',
         caption: 'Schwierigkeitsstufe Leicht — die Hälfte der Buchstaben vorausgefüllt als Hinweise für Leseanfänger',
       },
       {
-        src: '/samples/german/word guess/clue-grid-worksheet.webp',
+        src: '/samples/german/word%20guess/clue-grid-worksheet.webp',
         alt: 'Wörter-Raten-Arbeitsblatt auf Stufe Schwer mit minimalen Hinweis-Buchstaben und Tierthema',
         caption: 'Schwierigkeitsstufe Schwer — nur ein Sechstel der Buchstaben für fortgeschrittene Rechtschreiber',
       },
       {
-        src: '/samples/german/word guess/clue-grid-answer-key.webp',
+        src: '/samples/german/word%20guess/clue-grid-answer-key.webp',
         alt: 'Wörter-Raten-Lösungsschlüssel mit allen Buchstaben ausgefüllt und keinen leeren Feldern',
         caption: 'Lösungsschlüssel — alle Buchstaben sichtbar für einfache Korrektur und Selbstkontrolle',
       },

@@ -270,12 +270,12 @@ const content: AppContent = {
         caption: 'Spor-modus med pil-strekrekkefolge — nummererte retningspilar viser noyaktig bokstavformingssekvens',
       },
       {
-        src: '/samples/norwegian/writing/writing%20custom.webp',
+        src: '/samples/norwegian/writing/writing-custom.webp',
         alt: 'Skriveovelsesarbeidsark i tonende sporing-modus med bokstaver som progressivt tones ut over hver rad',
         caption: 'Tonende Sporing-modus — bokstaver tones progressivt ut for å bygge selvstendig skriving',
       },
       {
-        src: '/samples/norwegian/writing/writing%20beginning%20letter.webp',
+        src: '/samples/norwegian/writing/writing-beginning-letter.webp',
         alt: 'Skriveovelsesarbeidsark i guidet kopiering-modus med kursiv skrifttypestil på trelinjes-guider',
         caption: 'Kursiv Guidet Kopiering — svake kursive konturer på trelinjesystem for flytende skriveskriftsovelse',
       },

@@ -182,10 +182,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/drawing lines/drawing-lines-curve-1.webp', alt: 'Line tracing worksheet with SVG path templates and themed images for KDP book interior' },
+    heroImage: { src: '/samples/english/drawing%20lines/drawing-lines-curve-1.webp', alt: 'Line tracing worksheet with SVG path templates and themed images for KDP book interior' },
     samples: [
-      { src: '/samples/english/drawing lines/drawing-lines-curve-2.webp', alt: 'Tracing worksheet page with dashed line paths and themed image endpoints', caption: 'A tracing page with horizontal paths between themed images -- exported at 300 DPI for KDP print quality' },
-      { src: '/samples/english/big small/big-small-different-images.webp', alt: 'Size comparison worksheet with themed images at different scales', caption: 'Big & Small comparison pages add variety to tracing books while using the same themed image sets' },
+      { src: '/samples/english/drawing%20lines/drawing-lines-curve-2.webp', alt: 'Tracing worksheet page with dashed line paths and themed image endpoints', caption: 'A tracing page with horizontal paths between themed images -- exported at 300 DPI for KDP print quality' },
+      { src: '/samples/english/big%20small/big-small-different-images.webp', alt: 'Size comparison worksheet with themed images at different scales', caption: 'Big & Small comparison pages add variety to tracing books while using the same themed image sets' },
     ],
     youtubeId: 'P9q3ymjFnOQ',
     videoTitle: 'How to Create Tracing Worksheets',

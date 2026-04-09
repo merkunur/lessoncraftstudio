@@ -219,22 +219,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/treasure%20hunt/schattenjacht%201.webp',
+      primary: '/samples/dutch/treasure%20hunt/schattenjacht-1.webp',
       primaryAlt: 'Schattenjacht padzoekwerkblad met 5×5 coördinatenraster, verspreide afbeeldingen, richtingsaanwijzingen en schattenjacht-thema koptekst',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/treasure%20hunt/schattenjacht%202.webp',
+        src: '/samples/dutch/treasure%20hunt/schattenjacht-2.webp',
         alt: 'Schattenjacht puzzelwerkblad met 6 thematische afbeeldingen op een 5×5 raster en Basis richtingsaanwijzingen',
         caption: 'Basismodus — volg omhoog, omlaag, links en rechts aanwijzingen om de schat te vinden',
       },
       {
-        src: '/samples/dutch/treasure%20hunt/schattenjacht%203.webp',
+        src: '/samples/dutch/treasure%20hunt/schattenjacht-3.webp',
         alt: 'Schattenjacht puzzelwerkblad met Kompas richtingsaanwijzingen: noord, zuid, oost en west',
         caption: 'Kompasmodus — kompasrichtingen voor gevorderde ruimtelijke oriëntatie',
       },
       {
-        src: '/samples/dutch/treasure%20hunt/schattenjacht%201%20answer-key.webp',
+        src: '/samples/dutch/treasure%20hunt/schattenjacht-1-answer-key.webp',
         alt: 'Schattenjacht antwoordblad met uiteindelijke schatcel gemarkeerd in lichtgeel op het coördinatenraster',
         caption: 'Automatisch gegenereerd antwoordblad — lichtgele markering toont de schatbestemming',
       },

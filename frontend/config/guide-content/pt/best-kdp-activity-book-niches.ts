@@ -195,7 +195,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/portuguese/coloring/coloring-landscape-2.webp', alt: 'Conteúdo de livro para colorir representando um dos nichos mais extensos de livros de atividades KDP', caption: 'Livros para colorir — um nicho massivo de KDP que abrange crianças, adultos e edições temáticas com forte procura durante todo o ano' },
       { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Sopa de letras demonstrando segmentação de sub-nichos temáticos dentro da categoria de puzzles', caption: 'Sopas de letras temáticas — a segmentação por sub-nichos com temas de animais, viagens e festividades reduz a concorrência mantendo forte procura' },
-      { src: '/samples/portuguese/math worksheet/folha-de-matemática-1.webp', alt: 'Atividade de matemática mostrando segmentação de audiência por nível escolar para estratégia de nichos KDP', caption: 'Cadernos de matemática — a segmentação de audiência por nível escolar e tipo de operação cria dezenas de sub-nichos distintos a partir de uma categoria' },
+      { src: '/samples/portuguese/math%20worksheet/folha-de-matemática-1.webp', alt: 'Atividade de matemática mostrando segmentação de audiência por nível escolar para estratégia de nichos KDP', caption: 'Cadernos de matemática — a segmentação de audiência por nível escolar e tipo de operação cria dezenas de sub-nichos distintos a partir de uma categoria' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como criar atividades de matemática para livros de atividades KDP — Tutorial de criação de conteúdo por nichos',

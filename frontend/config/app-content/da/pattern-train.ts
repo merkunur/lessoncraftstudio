@@ -241,22 +241,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/pattern%20train/m%c3%b8nstertoget%201.webp',
+      primary: '/samples/danish/pattern%20train/mønstertoget-1.webp',
       primaryAlt: 'Mønster-opgave til print med tematiske togvogne, der viser AB logisk rækkefølge med en manglende vogn, som barnet skal udfylde',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/pattern%20train/mønstertoget%201.webp',
+        src: '/samples/danish/pattern%20train/mønstertoget-1.webp',
         alt: 'Mønster-opgave til print med AB alternerende sekvens og dyrebilleder over 11 tematiske togvogne',
         caption: 'AB-mønster med dyretema — barnet finder den logiske rækkefølge og udfylder den manglende vogn',
       },
       {
-        src: '/samples/danish/pattern%20train/mønstertoget%202.webp',
+        src: '/samples/danish/pattern%20train/mønstertoget-2.webp',
         alt: 'Mønster-opgave med ABC treelement-sekvens og tematiske billeder over togvogne',
         caption: 'ABC-mønster — tre roterende elementer i en mere kompleks logisk rækkefølge',
       },
       {
-        src: '/samples/danish/pattern%20train/mønstertoget%203.webp',
+        src: '/samples/danish/pattern%20train/mønstertoget-3.webp',
         alt: 'Facit til mønster-opgave, der viser alle 11 vogne udfyldt med den korrekte sekvens',
         caption: 'Facit — alle 11 vogne udfyldt med den korrekte logiske rækkefølge til kontrol',
       },

@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/word guess/indovina-la-parola-1.webp',
+      primary: '/samples/italian/word%20guess/indovina-la-parola-1.webp',
       primaryAlt: 'Scheda indovina parole che mostra indizi immagine abbinati a griglie di lettere con spazi vuoti per la pratica dello spelling',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/word guess/indovina-la-parola-1.webp',
+        src: '/samples/italian/word%20guess/indovina-la-parola-1.webp',
         alt: 'Scheda indovina parole con indizi immagine e griglie di lettere parzialmente completate per la pratica dello spelling',
         caption: 'Esercizi indovina parole basati su immagini con livelli di indizi progressivi',
       },
       {
-        src: '/samples/italian/word guess/indovina-la-parola-2.webp',
+        src: '/samples/italian/word%20guess/indovina-la-parola-2.webp',
         alt: 'Scheda indovina parole che mostra più livelli di difficoltà con quantità diverse di lettere rivelate',
         caption: 'Difficoltà degli indizi regolabile da Facile a Nessun Indizio',
       },
       {
-        src: '/samples/italian/word guess/indovina-la-parola-4.webp',
+        src: '/samples/italian/word%20guess/indovina-la-parola-4.webp',
         alt: 'Scheda indovina parole con collezione di immagini a tema e griglie di lettere colorate',
         caption: 'Le collezioni tematiche creano pacchetti di attività spelling coerenti',
       },

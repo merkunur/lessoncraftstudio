@@ -188,11 +188,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/chart count/gráfico-de-dibujos-1.webp', alt: 'Ficha de gráfico de imágenes con cuadrícula 4×5 de imágenes dispersas mostrando 20 iconos de 6 tipos y gráfico de barras para que los usuarios cuenten y grafiquen datos' },
+    heroImage: { src: '/samples/spanish/chart%20count/gráfico-de-dibujos-1.webp', alt: 'Ficha de gráfico de imágenes con cuadrícula 4×5 de imágenes dispersas mostrando 20 iconos de 6 tipos y gráfico de barras para que los usuarios cuenten y grafiquen datos' },
     samples: [
-      { src: '/samples/spanish/chart count/gráfico-de-dibujos-2.webp', alt: 'Ficha de gráfico de imágenes temática de animales con 20 iconos de animales dispersos en una cuadrícula 4×5 y gráfico de barras de 6 columnas para práctica de conteo', caption: 'Gráfico de imágenes temática de animales — 6 tipos de animales dispersos en la cuadrícula con gráfico de barras debajo para práctica de representación de datos' },
-      { src: '/samples/spanish/chart count/gráfico-de-dibujos-1-answer-key.webp', alt: 'Clave de respuestas de gráfico de imágenes con celdas resaltadas en amarillo mostrando los conteos correctos para cada uno de los 6 tipos de imagen', caption: 'Clave de respuestas autogenerada — celdas amarillas (#FFC857) muestran el conteo correcto para cada tipo de imagen' },
-      { src: '/samples/spanish/chart count/gráfico-de-dibujos-3.webp', alt: 'Ficha de gráfico de imágenes con temas decorativos de fondo y borde aplicados para presentación pulida en marketplace', caption: 'Gráfico de imágenes decorado — temas de fondo y borde con controles de opacidad independientes para estilización profesional' },
+      { src: '/samples/spanish/chart%20count/gráfico-de-dibujos-2.webp', alt: 'Ficha de gráfico de imágenes temática de animales con 20 iconos de animales dispersos en una cuadrícula 4×5 y gráfico de barras de 6 columnas para práctica de conteo', caption: 'Gráfico de imágenes temática de animales — 6 tipos de animales dispersos en la cuadrícula con gráfico de barras debajo para práctica de representación de datos' },
+      { src: '/samples/spanish/chart%20count/gráfico-de-dibujos-1-answer-key.webp', alt: 'Clave de respuestas de gráfico de imágenes con celdas resaltadas en amarillo mostrando los conteos correctos para cada uno de los 6 tipos de imagen', caption: 'Clave de respuestas autogenerada — celdas amarillas (#FFC857) muestran el conteo correcto para cada tipo de imagen' },
+      { src: '/samples/spanish/chart%20count/gráfico-de-dibujos-3.webp', alt: 'Ficha de gráfico de imágenes con temas decorativos de fondo y borde aplicados para presentación pulida en marketplace', caption: 'Gráfico de imágenes decorado — temas de fondo y borde con controles de opacidad independientes para estilización profesional' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Cómo crear fichas de gráficos de imágenes con claves de respuestas automáticas y cuadrículas de imágenes dispersas — Tutorial paso a paso',

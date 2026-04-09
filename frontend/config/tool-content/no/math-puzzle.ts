@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/math%20puzzle/mattepuslespill%201.webp',
+      primary: '/samples/norwegian/math%20puzzle/mattepuslespill-1.webp',
       primaryAlt: 'Mattepuslespill arbeidsark som viser et puslespillstil bilderutenett med addisjonsligninger og blandede svarsbrikker',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/math%20puzzle/mattepuslespill%201.webp',
+        src: '/samples/norwegian/math%20puzzle/mattepuslespill-1.webp',
         alt: 'Puslespill matematikkarbeidsark med addisjonsligninger i et fargerikt bilderutenett',
         caption: 'Addisjonsmodus med tematisk bildepuslespill',
       },
       {
-        src: '/samples/norwegian/math%20puzzle/mattepuslespill%202.webp',
+        src: '/samples/norwegian/math%20puzzle/mattepuslespill-2.webp',
         alt: 'Matematikkarbeidsark med subtraksjonsligninger og blandede sifferbrikker under rutenettet',
         caption: 'Subtraksjonsmodus — los ligninger for å rekonstruere bildet',
       },
       {
-        src: '/samples/norwegian/math%20puzzle/mattepuslespill%203.webp',
+        src: '/samples/norwegian/math%20puzzle/mattepuslespill-3.webp',
         alt: 'Blandet addisjons- og subtraksjons mattepuslespill med storre rutenett for avanserte brukere',
         caption: 'Blandede operasjoner — addisjon og subtraksjon i ett puslespill',
       },

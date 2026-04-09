@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/find objects/spotworks-worksheet.webp',
+      primary: '/samples/english/find%20objects/spotworks-worksheet.webp',
       primaryAlt: 'Hidden object I Spy worksheet with scattered images placed using zero-overlap algorithm, legend at bottom showing objects to find, and decorative header',
     },
     sampleGallery: [
       {
-        src: '/samples/english/find objects/spotworks-worksheet-1.webp',
+        src: '/samples/english/find%20objects/spotworks-worksheet-1.webp',
         alt: 'I Spy hidden object scene with scattered images and legend showing target objects at the bottom',
         caption: 'I Spy mode — free-form hidden object scene with legend display',
       },
       {
-        src: '/samples/english/find objects/spotworks-worksheet-5.webp',
+        src: '/samples/english/find%20objects/spotworks-worksheet-5.webp',
         alt: 'Odd One Out worksheet with paired images in rows and unpaired items to identify',
         caption: 'Odd One Out mode — paired images with unpaired items for visual discrimination',
       },
       {
-        src: '/samples/english/find objects/spotworks-answer-key.webp',
+        src: '/samples/english/find%20objects/spotworks-answer-key.webp',
         alt: 'Hidden object worksheet answer key with red circles drawn around target objects',
         caption: 'Auto-generated answer key — red circles mark hidden and unpaired objects',
       },

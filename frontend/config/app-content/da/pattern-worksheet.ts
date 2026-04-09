@@ -241,22 +241,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/pattern%20worksheet/m%c3%b8nsterg%c3%a5der%201.webp',
+      primary: '/samples/danish/pattern%20worksheet/mønstergåder-1.webp',
       primaryAlt: 'Logiske rækkefølger opgave til print med gitterbaserede øvelser, der viser gentagne billedmønstre med tomme felter og flervalg',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/pattern%20worksheet/mønstergåder%201.webp',
+        src: '/samples/danish/pattern%20worksheet/mønstergåder-1.webp',
         alt: 'Logiske rækkefølger opgave med AB udfyld-feltet-øvelser og dyrebilleder i gitterlayout med tomme felter',
         caption: 'AB tomt-felt-øvelser med dyretema — barnet fortsætter rækkefølgen og udfylder det manglende billede',
       },
       {
-        src: '/samples/danish/pattern%20worksheet/mønstergåder%202.webp',
+        src: '/samples/danish/pattern%20worksheet/mønstergåder-2.webp',
         alt: 'Visuel logik opgave med ABC flervalgsøvelser med tematiske billeder og tre svaralternativer per øvelse',
         caption: 'ABC flervalgsøvelser — barnet vælger det korrekte manglende element i den logiske rækkefølge',
       },
       {
-        src: '/samples/danish/pattern%20worksheet/mønstergåder%203.webp',
+        src: '/samples/danish/pattern%20worksheet/mønstergåder-3.webp',
         alt: 'Facit til logiske rækkefølger opgave, der viser alle tomme positioner udfyldt med korrekte elementer',
         caption: 'Facit — alle tomme felter udfyldt med korrekte mønsterelementer til kontrol',
       },

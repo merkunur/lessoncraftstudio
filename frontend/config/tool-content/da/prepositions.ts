@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/prepositions/pr%c3%a6positioner%201.webp',
+      primary: '/samples/danish/prepositions/præpositioner-1.webp',
       primaryAlt: 'Gratis forholdsord generator med rumlig orientering billedscener — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/prepositions/præpositioner%201.webp',
+        src: '/samples/danish/prepositions/præpositioner-1.webp',
         alt: 'Præpositioner arbejdsark med udfyldningsøvelser med farverige billedscener',
         caption: 'Udfyldning præpositionsøvelser med billedscener',
       },
       {
-        src: '/samples/danish/prepositions/præpositioner%202.webp',
+        src: '/samples/danish/prepositions/præpositioner-2.webp',
         alt: 'Præpositioner arbejdsark med flervalgs rumlige relationsøvelser',
         caption: 'Flervalgs-tilstand for begyndervenlig øvelse',
       },
       {
-        src: '/samples/danish/prepositions/præpositioner%203.webp',
+        src: '/samples/danish/prepositions/præpositioner-3.webp',
         alt: 'Avanceret præpositioner arbejdsark med formerstatning og flere øvelser per side',
         caption: 'Formerstatning opretter unikke scenekombinationer',
       },

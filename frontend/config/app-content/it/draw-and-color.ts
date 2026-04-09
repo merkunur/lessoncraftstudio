@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/draw and color/disegna-e-colora-1.webp',
+      primary: '/samples/italian/draw%20and%20color/disegna-e-colora-1.webp',
       primaryAlt: 'Scheda di disegno su griglia con sistema a griglia doppia mostrando griglia di pratica e griglia indizi con tema di contorni in bianco e nero',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/draw and color/disegna-e-colora-2.webp',
+        src: '/samples/italian/draw%20and%20color/disegna-e-colora-2.webp',
         alt: 'Scheda di disegno su griglia con tema animali di contorni in bianco e nero al 25 % di percentuale indizi mostrando griglia di pratica e griglia indizi',
         caption: 'Tema animali al 25 % di indizi — gli utenti riproducono il contorno da indizi sparsi nella griglia',
       },
       {
-        src: '/samples/italian/draw and color/disegna-e-colora-3.webp',
+        src: '/samples/italian/draw%20and%20color/disegna-e-colora-3.webp',
         alt: 'Scheda di disegno su griglia usando modalità simmetria specchio orizzontale con celle indizi riflesse da sinistra a destra',
         caption: 'Modalità simmetria orizzontale — le celle indizi si riflettono da sinistra a destra per la pratica del ragionamento spaziale',
       },
       {
-        src: '/samples/italian/draw and color/disegna-e-colora-4.webp',
+        src: '/samples/italian/draw%20and%20color/disegna-e-colora-4.webp',
         alt: 'Scheda di disegno su griglia con 10 % di percentuale indizi mostrando celle di riferimento minime per una sfida di livello esperto',
         caption: 'Sfida 10 % di indizi — celle di riferimento minime per riproduzione su griglia di livello esperto',
       },

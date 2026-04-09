@@ -165,12 +165,12 @@ const content: GuideContent = {
         caption: 'Skrivearbeidsark inneholder betydelig originalt kreativt uttrykk i sin instruksjonstekst og design',
       },
       {
-        src: '/samples/norwegian/wordsearch/ordleting%201.webp',
+        src: '/samples/norwegian/wordsearch/ordleting-1.webp',
         alt: 'Ordsok-puslespill med tematiske bilder som demonstrerer kreativt arrangement av pedagogisk innhold',
         caption: 'Ordsok-puslespill demonstrerer opphavsrettslig beskyttbart kreativt arrangement av ordforradselementer',
       },
       {
-        src: '/samples/norwegian/coloring/coloring%20portrait%201.webp',
+        src: '/samples/norwegian/coloring/coloring-portrait-1.webp',
         alt: 'Fargeleggingsside med originalt tematisk illustrasjonsdesign',
         caption: 'Fargeleggingssider har sterke opphavsrettsposisjoner pa grunn av den visuelle originaliteten i designene',
       },

@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/math%20puzzle/mattepussel%201.jpeg', alt: 'Mattepussel-arbetsblad som visar blandade bilddelar med matteekvationer för barn att lösa och återställa' },
+    heroImage: { src: '/samples/swedish/math%20puzzle/mattepussel-1.jpeg', alt: 'Mattepussel-arbetsblad som visar blandade bilddelar med matteekvationer för barn att lösa och återställa' },
     samples: [
-      { src: '/samples/swedish/math%20puzzle/mattepussel%201.jpeg', alt: 'Mattepussel med djurtema som visar rutnätsekvationer och numrerade bildfragment', caption: 'Mattepussel — barn löser ekvationer för att bestämma var varje numrerad bildbit hör hemma i rutnätet' },
-      { src: '/samples/swedish/math%20puzzle/mattepussel%202.jpeg', alt: 'Mattepussel facit som visar återställd bild med lösta ekvationer', caption: 'Automatiskt facit som visar den återställda bilden vid 30% opacitet med kompletta lösta ekvationer' },
+      { src: '/samples/swedish/math%20puzzle/mattepussel-1.jpeg', alt: 'Mattepussel med djurtema som visar rutnätsekvationer och numrerade bildfragment', caption: 'Mattepussel — barn löser ekvationer för att bestämma var varje numrerad bildbit hör hemma i rutnätet' },
+      { src: '/samples/swedish/math%20puzzle/mattepussel-2.jpeg', alt: 'Mattepussel facit som visar återställd bild med lösta ekvationer', caption: 'Automatiskt facit som visar den återställda bilden vid 30% opacitet med kompletta lösta ekvationer' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Hur du skapar mattepussel-arbetsblad — Komplett guide',

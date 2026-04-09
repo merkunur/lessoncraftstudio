@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/math worksheet/scheda-di-matematica-1.webp',
+      primary: '/samples/italian/math%20worksheet/scheda-di-matematica-1.webp',
       primaryAlt: 'Scheda di algebra visuale con simboli immagine come variabili incognite in equazioni collegate',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/math worksheet/scheda-di-matematica-2.webp',
+        src: '/samples/italian/math%20worksheet/scheda-di-matematica-2.webp',
         alt: 'Puzzle algebra visuale con due simboli immagine e equazioni di addizione per principianti',
         caption: 'Molto Facile — due simboli con addizione semplice',
       },
       {
-        src: '/samples/italian/math worksheet/scheda-di-matematica-3.webp',
+        src: '/samples/italian/math%20worksheet/scheda-di-matematica-3.webp',
         alt: 'Puzzle algebra illustrata a difficoltà media con tre variabili immagine in equazioni collegate',
         caption: 'Difficoltà media — tre incognite in equazioni collegate',
       },
       {
-        src: '/samples/italian/math worksheet/scheda-di-matematica-4.webp',
+        src: '/samples/italian/math%20worksheet/scheda-di-matematica-4.webp',
         alt: 'Scheda algebra difficile con quattro incognite simultanee e operazioni miste',
         caption: 'Difficile — quattro variabili con addizione e sottrazione',
       },

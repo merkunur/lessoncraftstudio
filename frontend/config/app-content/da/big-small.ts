@@ -241,22 +241,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/big%20small/stort%20eller%20lille%201.webp',
+      primary: '/samples/danish/big%20small/stort-eller-lille-1.webp',
       primaryAlt: 'Stor og lille opgave til print med tematiske billeder i forskellige størrelser, der viser sammenlign størrelse øvelse',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/big%20small/stort%20eller%20lille%201.webp',
+        src: '/samples/danish/big%20small/stort-eller-lille-1.webp',
         alt: 'Stor og lille opgave til print med forskellige billeder-tilstand, der viser distinkte objekter til størrelsesammenligning',
         caption: 'Forskellige Billeder-tilstand — barnet sammenligner distinkte objekter og ordner efter størrelse',
       },
       {
-        src: '/samples/danish/big%20small/stort%20eller%20lille%202.webp',
+        src: '/samples/danish/big%20small/stort-eller-lille-2.webp',
         alt: 'Størrelse-opgave med tre identiske billeder i forskellige størrelser til mellemstor-identifikation',
         caption: '3 Identiske Billeder — tre kopier i forskellige størrelser muliggør ring om den mellemstore øvelse',
       },
       {
-        src: '/samples/danish/big%20small/stort%20eller%20lille%203.webp',
+        src: '/samples/danish/big%20small/stort-eller-lille-3.webp',
         alt: 'Facit til stor og lille opgave med markerede korrekte svar og indrammede billeder',
         caption: 'Facit — korrekte svar markeret og ringet om til øjeblikkelig kontrol',
       },

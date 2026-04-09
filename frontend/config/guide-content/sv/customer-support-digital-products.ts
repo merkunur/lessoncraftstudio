@@ -186,12 +186,12 @@ const content: GuideContent = {
         caption: 'Tydlig arbetsbladdesign och heltäckande produktbeskrivningar förebygger vanliga supportförfrågningar',
       },
       {
-        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
+        src: '/samples/swedish/addition/addition-övning.webp',
         alt: 'Additionsarbetsblad med professionell formatering som sätter korrekta köparförväntningar',
         caption: 'Professionell formatering och detaljerade specifikationer eliminerar förväntningskonflikter',
       },
       {
-        src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+        src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
         alt: 'Ordsökningspussel med tematiskt innehåll som demonstrerar produkttydlighet för köpare',
         caption: 'Innehållsrika produkter drar mest nytta av heltäckande dokumentation och självbetjäningssupport',
       },

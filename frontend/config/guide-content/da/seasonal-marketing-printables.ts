@@ -175,13 +175,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/bingo/billedbingo%201.webp',
+      src: '/samples/danish/bingo/billedbingo-1.webp',
       alt: 'Bingokort-arbejdsark der demonstrerer et sæsonbestemt printbart produkt ideelt til feriemarkedsføringskampagner',
     },
     samples: [
-      { src: '/samples/danish/bingo/billedbingo%201.webp', alt: 'Billedbingo — dansk eksempelarbejdsark', caption: 'Billedbingo eksempel 1' },
-      { src: '/samples/danish/bingo/billedbingo%202.webp', alt: 'Billedbingo — dansk eksempel 2', caption: 'Billedbingo eksempel 2' },
-      { src: '/samples/danish/bingo/billedbingo%203.webp', alt: 'Billedbingo — dansk eksempel 3', caption: 'Billedbingo eksempel 3' },
+      { src: '/samples/danish/bingo/billedbingo-1.webp', alt: 'Billedbingo — dansk eksempelarbejdsark', caption: 'Billedbingo eksempel 1' },
+      { src: '/samples/danish/bingo/billedbingo-2.webp', alt: 'Billedbingo — dansk eksempel 2', caption: 'Billedbingo eksempel 2' },
+      { src: '/samples/danish/bingo/billedbingo-3.webp', alt: 'Billedbingo — dansk eksempel 3', caption: 'Billedbingo eksempel 3' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Sådan planlægger du sæsonbestemt markedsføring for din printbare forretning',
@@ -191,7 +191,7 @@ const content: GuideContent = {
     { src: '/image-library/christmas/angel.webp', alt: 'Engel — tematisk pædagogisk billede', caption: 'Engel' },
     { src: '/image-library/christmas/bell.webp', alt: 'Klokke — tematisk pædagogisk billede', caption: 'Klokke' },
     { src: '/image-library/christmas/candle.webp', alt: 'Stearinlys — tematisk pædagogisk billede', caption: 'Stearinlys' },
-    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Sukkerstok — tematisk pædagogisk billede', caption: 'Sukkerstok' },
+    { src: '/image-library/christmas/candy-cane.webp', alt: 'Sukkerstok — tematisk pædagogisk billede', caption: 'Sukkerstok' },
     { src: '/image-library/christmas/chimney.webp', alt: 'Skorsten — tematisk pædagogisk billede', caption: 'Skorsten' },
   ],
 };

@@ -4,25 +4,9 @@
 # Server-side script to rename sample image files from old names to
 # SEO-friendly names. Handles immutable flags (chattr) on protected files.
 #
-# MUST be run as root on the production server.
-#
-# Prerequisites:
-#   1. Upload image-rename-map.json to /tmp/image-rename-map.json
-#   2. Upload this script to /tmp/rename-samples-server.sh
-#
 # Usage:
 #   bash /tmp/rename-samples-server.sh --dry-run     # Preview changes (default)
 #   bash /tmp/rename-samples-server.sh --apply        # Actually rename files
-#
-# The script:
-#   1. Reads the JSON rename map
-#   2. For each language folder + app folder combination
-#   3. Checks if the old file exists
-#   4. Unlocks (chattr -i), renames (mv), re-locks (chattr +i)
-#   5. Logs every operation
-#   6. Generates a rollback script automatically
-
-set -euo pipefail
 
 MODE="${1:---dry-run}"
 SAMPLES_DIR="/var/www/lcs-media/samples"
@@ -30,114 +14,100 @@ MAP_FILE="/tmp/image-rename-map.json"
 LOG_FILE="/tmp/image-rename-$(date +%Y%m%d-%H%M%S).log"
 ROLLBACK_FILE="/tmp/image-rename-rollback-$(date +%Y%m%d-%H%M%S).sh"
 
-# Language folders
-LANGUAGES=("english" "german" "french" "spanish" "portuguese" "italian" "dutch" "swedish" "danish" "norwegian" "finnish")
-
-# App folders
-APP_FOLDERS=("addition" "subtraction" "code addition" "more less" "math puzzle" "math worksheet" "alphabet train" "prepositions" "word guess" "word scramble" "wordsearch" "cryptogram" "writing" "big small" "pattern train" "pattern worksheet" "draw and color" "drawing lines" "coloring" "chart count" "matching" "grid match" "shadow match" "bingo" "picture sort" "missing pieces" "odd one out" "sudoku" "picture path" "find and count" "find objects" "crossword" "treasure hunt")
-
-# Check prerequisites
 if [ ! -f "$MAP_FILE" ]; then
     echo "ERROR: $MAP_FILE not found."
-    echo "Upload it first: pscp image-rename-map.json root@server:/tmp/"
-    exit 1
-fi
-
-if [ ! -d "$SAMPLES_DIR" ]; then
-    echo "ERROR: $SAMPLES_DIR not found. Are you on the right server?"
-    exit 1
-fi
-
-# Check if jq is available
-if ! command -v jq &> /dev/null; then
-    echo "ERROR: jq is required. Install with: apt install jq"
     exit 1
 fi
 
 echo "=== Image Rename Script ===" | tee "$LOG_FILE"
 echo "Mode: $MODE" | tee -a "$LOG_FILE"
-echo "Samples dir: $SAMPLES_DIR" | tee -a "$LOG_FILE"
-echo "Map file: $MAP_FILE ($(jq 'length' "$MAP_FILE") entries)" | tee -a "$LOG_FILE"
-echo "Log: $LOG_FILE" | tee -a "$LOG_FILE"
-echo "" | tee -a "$LOG_FILE"
+
+# Build associative array from rename map
+declare -A RENAME_MAP
+while IFS=$'\t' read -r old_name new_name; do
+    RENAME_MAP["$old_name"]="$new_name"
+done < <(jq -r 'to_entries[] | "\(.key)\t\(.value)"' "$MAP_FILE")
+
+echo "Loaded ${#RENAME_MAP[@]} rename entries" | tee -a "$LOG_FILE"
 
 # Initialize rollback script
 if [ "$MODE" = "--apply" ]; then
-    cat > "$ROLLBACK_FILE" << 'HEADER'
-#!/bin/bash
-# Auto-generated rollback script
-# Reverses all renames performed by rename-samples-server.sh
-set -euo pipefail
-echo "Rolling back image renames..."
-HEADER
+    echo '#!/bin/bash' > "$ROLLBACK_FILE"
+    echo 'echo "Rolling back image renames..."' >> "$ROLLBACK_FILE"
     chmod +x "$ROLLBACK_FILE"
 fi
 
 RENAMED=0
 SKIPPED=0
-MISSING=0
+NOT_IN_MAP=0
 ERRORS=0
 
-# Process each rename entry
-while IFS=$'\t' read -r old_name new_name; do
-    # Try each language + app folder combination
-    for lang in "${LANGUAGES[@]}"; do
-        for app in "${APP_FOLDERS[@]}"; do
-            old_path="$SAMPLES_DIR/$lang/$app/$old_name"
+# Build file list first, then iterate
+find "$SAMPLES_DIR" -type f -name "*.webp" > /tmp/webp-file-list.txt
+TOTAL=$(wc -l < /tmp/webp-file-list.txt)
+echo "Scanning $TOTAL webp files..." | tee -a "$LOG_FILE"
 
-            # Check if the old file exists
-            if [ ! -f "$old_path" ]; then
-                continue
-            fi
+while IFS= read -r file_path; do
+    filename=$(basename "$file_path")
+    dir_path=$(dirname "$file_path")
 
-            new_path="$SAMPLES_DIR/$lang/$app/$new_name"
+    # Check if this filename is in the rename map
+    if [[ ! -v "RENAME_MAP[$filename]" ]]; then
+        NOT_IN_MAP=$((NOT_IN_MAP + 1))
+        continue
+    fi
 
-            # Check if new file already exists (collision)
-            if [ -f "$new_path" ] && [ "$old_path" != "$new_path" ]; then
-                echo "  SKIP (target exists): $old_path -> $new_path" | tee -a "$LOG_FILE"
-                ((SKIPPED++))
-                continue
-            fi
+    new_name="${RENAME_MAP[$filename]}"
+    new_path="$dir_path/$new_name"
 
-            if [ "$MODE" = "--apply" ]; then
-                # Unlock immutable flag (may not be set, ignore errors)
-                chattr -i "$old_path" 2>/dev/null || true
+    # Skip if same name
+    if [ "$filename" = "$new_name" ]; then
+        continue
+    fi
 
-                # Rename
-                if mv "$old_path" "$new_path" 2>/dev/null; then
-                    # Re-lock
-                    chattr +i "$new_path" 2>/dev/null || true
-                    chown lcs-media:lcs-media "$new_path" 2>/dev/null || true
+    # Skip if target already exists
+    if [ -f "$new_path" ]; then
+        echo "  SKIP (target exists): ${file_path#$SAMPLES_DIR/}" | tee -a "$LOG_FILE"
+        SKIPPED=$((SKIPPED + 1))
+        continue
+    fi
 
-                    echo "  RENAMED: $lang/$app/$old_name -> $new_name" | tee -a "$LOG_FILE"
-                    ((RENAMED++))
+    rel_path="${file_path#$SAMPLES_DIR/}"
 
-                    # Add rollback entry
-                    echo "chattr -i \"$new_path\" 2>/dev/null || true" >> "$ROLLBACK_FILE"
-                    echo "mv \"$new_path\" \"$old_path\"" >> "$ROLLBACK_FILE"
-                    echo "chattr +i \"$old_path\" 2>/dev/null || true" >> "$ROLLBACK_FILE"
-                else
-                    echo "  ERROR: Failed to rename $old_path" | tee -a "$LOG_FILE"
-                    ((ERRORS++))
-                    # Try to re-lock on error
-                    chattr +i "$old_path" 2>/dev/null || true
-                fi
-            else
-                echo "  WOULD RENAME: $lang/$app/$old_name -> $new_name" | tee -a "$LOG_FILE"
-                ((RENAMED++))
-            fi
-        done
-    done
-done < <(jq -r 'to_entries[] | "\(.key)\t\(.value)"' "$MAP_FILE")
+    if [ "$MODE" = "--apply" ]; then
+        # Unlock file AND parent directory (both may be immutable)
+        chattr -i "$file_path" 2>/dev/null || true
+        chattr -i "$dir_path" 2>/dev/null || true
+        if mv "$file_path" "$new_path" 2>/dev/null; then
+            chattr +i "$new_path" 2>/dev/null || true
+            chattr +i "$dir_path" 2>/dev/null || true
+            chown lcs-media:lcs-media "$new_path" 2>/dev/null || true
+            echo "  RENAMED: $rel_path -> $new_name" | tee -a "$LOG_FILE"
+            RENAMED=$((RENAMED + 1))
+            echo "chattr -i \"$new_path\" \"$dir_path\" 2>/dev/null || true; mv \"$new_path\" \"$file_path\"; chattr +i \"$file_path\" \"$dir_path\" 2>/dev/null || true" >> "$ROLLBACK_FILE"
+        else
+            echo "  ERROR: $rel_path" | tee -a "$LOG_FILE"
+            chattr +i "$file_path" 2>/dev/null || true
+            chattr +i "$dir_path" 2>/dev/null || true
+            ERRORS=$((ERRORS + 1))
+        fi
+    else
+        echo "  WOULD RENAME: $rel_path -> $new_name" | tee -a "$LOG_FILE"
+        RENAMED=$((RENAMED + 1))
+    fi
+done < /tmp/webp-file-list.txt
+
+rm -f /tmp/webp-file-list.txt
 
 echo "" | tee -a "$LOG_FILE"
 echo "=== Summary ===" | tee -a "$LOG_FILE"
-echo "  ${MODE}: ${RENAMED} renamed, ${SKIPPED} skipped, ${ERRORS} errors" | tee -a "$LOG_FILE"
-
+echo "  Mode: $MODE" | tee -a "$LOG_FILE"
+echo "  Matched & renamed: $RENAMED" | tee -a "$LOG_FILE"
+echo "  Skipped (target exists): $SKIPPED" | tee -a "$LOG_FILE"
+echo "  Not in rename map: $NOT_IN_MAP" | tee -a "$LOG_FILE"
+echo "  Errors: $ERRORS" | tee -a "$LOG_FILE"
+echo "  Total scanned: $TOTAL" | tee -a "$LOG_FILE"
+echo "  Log: $LOG_FILE" | tee -a "$LOG_FILE"
 if [ "$MODE" = "--apply" ]; then
-    echo "  Rollback script: $ROLLBACK_FILE" | tee -a "$LOG_FILE"
-    echo "" | tee -a "$LOG_FILE"
-    echo "IMPORTANT: Remember to also update nginx redirects!" | tee -a "$LOG_FILE"
+    echo "  Rollback: $ROLLBACK_FILE" | tee -a "$LOG_FILE"
 fi
-
-echo "Log saved to: $LOG_FILE"

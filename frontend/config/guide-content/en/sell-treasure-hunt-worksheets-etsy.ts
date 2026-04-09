@@ -176,11 +176,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/treasure hunt/treasure-hunt-1.webp', alt: 'Treasure hunt path-finding worksheet with coordinate grid and themed landmark images for Etsy digital download' },
+    heroImage: { src: '/samples/english/treasure%20hunt/treasure-hunt-1.webp', alt: 'Treasure hunt path-finding worksheet with coordinate grid and themed landmark images for Etsy digital download' },
     samples: [
-      { src: '/samples/english/treasure hunt/treasure-hunt-1.webp', alt: 'Treasure hunt worksheet with Basic directional clues on 5x5 coordinate grid', caption: 'Basic mode treasure hunt puzzle with directional clues and themed animal landmarks on a 5x5 grid' },
-      { src: '/samples/english/treasure hunt/north-south.webp', alt: 'Cardinal direction treasure hunt worksheet using compass vocabulary', caption: 'Cardinal mode using north, south, east, west vocabulary for elementary geography curricula' },
-      { src: '/samples/english/treasure hunt/north-south.webp', alt: 'Auto-generated answer key with highlighted treasure cell', caption: 'Auto-generated answer key with pale yellow highlighted treasure cell for instant verification' },
+      { src: '/samples/english/treasure%20hunt/treasure-hunt-1.webp', alt: 'Treasure hunt worksheet with Basic directional clues on 5x5 coordinate grid', caption: 'Basic mode treasure hunt puzzle with directional clues and themed animal landmarks on a 5x5 grid' },
+      { src: '/samples/english/treasure%20hunt/north-south.webp', alt: 'Cardinal direction treasure hunt worksheet using compass vocabulary', caption: 'Cardinal mode using north, south, east, west vocabulary for elementary geography curricula' },
+      { src: '/samples/english/treasure%20hunt/north-south.webp', alt: 'Auto-generated answer key with highlighted treasure cell', caption: 'Auto-generated answer key with pale yellow highlighted treasure cell for instant verification' },
     ],
   },
 

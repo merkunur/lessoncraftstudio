@@ -212,22 +212,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/code%20addition/geheime%20code%20optellen%201.webp',
+      primary: '/samples/dutch/code%20addition/geheime-code-optellen-1.webp',
       primaryAlt: 'Geheime code optelwerkblad met cryptarithmetische puzzels waarbij afbeeldingssymbolen geheime getallen verbergen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/code%20addition/geheime%20code%20optellen%201.webp',
+        src: '/samples/dutch/code%20addition/geheime-code-optellen-1.webp',
         alt: 'Codekraker rekenpuzzel met dierensymbolen in Normale Modus',
         caption: 'Normale Modus met dierenthema — elk symbool verbergt een uniek getal',
       },
       {
-        src: '/samples/dutch/code%20addition/geheime%20code%20optellen%202.webp',
+        src: '/samples/dutch/code%20addition/geheime-code-optellen-2.webp',
         alt: 'Geheime code optelwerkblad in Woord Onthullen Modus met voedselafbeeldingen',
         caption: 'Woord Onthullen Modus — los vergelijkingen op om een geheim woord te spellen',
       },
       {
-        src: '/samples/dutch/code%20addition/geheime%20code%20optellen%203.webp',
+        src: '/samples/dutch/code%20addition/geheime-code-optellen-3.webp',
         alt: 'Cryptarithmetisch puzzelwerkblad met gemixte optellers en decoratief kader',
         caption: 'Gemixte optellers met kaderversiering voor productklare output',
       },

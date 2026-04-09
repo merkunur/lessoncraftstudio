@@ -93,11 +93,11 @@ const content: ToolContent = {
   ],
 
   visuals: {
-    heroImages: { primary: '/samples/finnish/picture%20path/kuvapolku%202.webp', primaryAlt: 'Kuvareitti-labyrinttitehtava teemakuvineen ruudukossa oranssilla otsikkoreunuksella ja automaattisesti generoidulla Kuvareitti-otsikolla lokalisoidulla tekstilla' },
+    heroImages: { primary: '/samples/finnish/picture%20path/kuvapolku-2.webp', primaryAlt: 'Kuvareitti-labyrinttitehtava teemakuvineen ruudukossa oranssilla otsikkoreunuksella ja automaattisesti generoidulla Kuvareitti-otsikolla lokalisoidulla tekstilla' },
     sampleGallery: [
-      { src: '/samples/finnish/picture%20path/kuvapolku%203.webp', alt: 'Kuvareitti-tilan tehtava kuvilla ruudukossa nayttaen oikea polku alusta loppuun harhautuskuvien joukossa', caption: 'Kuvareitti-tila — kayttajat seuraavat oikeaa kuvapolkua alusta maaliin harhautusten joukossa' },
-      { src: '/samples/finnish/picture%20path/kuvapolku%204.webp', alt: 'Klassinen labyrintti -tilan tehtava LPF-algoritmin seinaepohjaisten kaytavien ja kerailtaevien kuvien kanssa labyrintin lapi', caption: 'Klassinen labyrintti -tila — LPF-algoritmi generoi seinaepohjaisia labyrintteja kerailtaevillae kuvilla kaytavissa' },
-      { src: '/samples/finnish/picture%20path/kuvapolku%202%20answer-key.webp', alt: 'Kuvareitti-labyrintin vastausavain ratkaisupolulla merkitty pinkkeilla ympaeroilla oikean reitin varrella ja kerailylegenda', caption: 'Automaattisesti generoitu vastausavain — pinkit ympaerat korostavat ratkaisupolun kerailylegenda mukaan lukien' },
+      { src: '/samples/finnish/picture%20path/kuvapolku-3.webp', alt: 'Kuvareitti-tilan tehtava kuvilla ruudukossa nayttaen oikea polku alusta loppuun harhautuskuvien joukossa', caption: 'Kuvareitti-tila — kayttajat seuraavat oikeaa kuvapolkua alusta maaliin harhautusten joukossa' },
+      { src: '/samples/finnish/picture%20path/kuvapolku-4.webp', alt: 'Klassinen labyrintti -tilan tehtava LPF-algoritmin seinaepohjaisten kaytavien ja kerailtaevien kuvien kanssa labyrintin lapi', caption: 'Klassinen labyrintti -tila — LPF-algoritmi generoi seinaepohjaisia labyrintteja kerailtaevillae kuvilla kaytavissa' },
+      { src: '/samples/finnish/picture%20path/kuvapolku-2-answer-key.webp', alt: 'Kuvareitti-labyrintin vastausavain ratkaisupolulla merkitty pinkkeilla ympaeroilla oikean reitin varrella ja kerailylegenda', caption: 'Automaattisesti generoitu vastausavain — pinkit ympaerat korostavat ratkaisupolun kerailylegenda mukaan lukien' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'Nain teet labyrinttitehtavia kolmella pelitilalla, LPF-algoritmilla ja automaattisilla vastausavaimilla — vaiheittainen opas',

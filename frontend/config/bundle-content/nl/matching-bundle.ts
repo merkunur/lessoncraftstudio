@@ -202,15 +202,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/matching/zoek%20de%20paren%201.webp',
+      primary: '/samples/dutch/matching/zoek-de-paren-1.webp',
       primaryAlt: 'Koppelwerkblad met thematische afbeeldingen die paar-koppeloefening tonen',
     },
     sampleGallery: [
-      { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Koppelwerkblad met vier koppelmodi en thematische afbeeldingen', caption: 'Koppelwerkblad' },
-      { src: '/samples/dutch/grid%20match/rasterpuzzel%201.webp', alt: 'Rasterpuzzel met coördinaatgebaseerd koppelen op gestructureerd raster', caption: 'Rasterpuzzel Werkblad' },
-      { src: '/samples/dutch/shadow%20match/schaduw%20koppelen%201.webp', alt: 'Schaduw koppelen werkblad met silhouet koppeling en trek-een-lijn formaat', caption: 'Schaduw Koppelen Werkblad' },
-      { src: '/samples/dutch/bingo/plaatjesbingo%201.webp', alt: 'Bingokaart met thematische afbeeldingen in willekeurige rasterindeling', caption: 'Plaatjesbingo Kaart' },
-      { src: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%201.webp', alt: 'Sorteer werkblad met twee-categorieën classificatie oefening', caption: 'Sorteer Werkblad' },
+      { src: '/samples/dutch/matching/zoek-de-paren-1.webp', alt: 'Koppelwerkblad met vier koppelmodi en thematische afbeeldingen', caption: 'Koppelwerkblad' },
+      { src: '/samples/dutch/grid%20match/rasterpuzzel-1.webp', alt: 'Rasterpuzzel met coördinaatgebaseerd koppelen op gestructureerd raster', caption: 'Rasterpuzzel Werkblad' },
+      { src: '/samples/dutch/shadow%20match/schaduw-koppelen-1.webp', alt: 'Schaduw koppelen werkblad met silhouet koppeling en trek-een-lijn formaat', caption: 'Schaduw Koppelen Werkblad' },
+      { src: '/samples/dutch/bingo/plaatjesbingo-1.webp', alt: 'Bingokaart met thematische afbeeldingen in willekeurige rasterindeling', caption: 'Plaatjesbingo Kaart' },
+      { src: '/samples/dutch/picture%20sort/afbeeldingen-sorteren-1.webp', alt: 'Sorteer werkblad met twee-categorieën classificatie oefening', caption: 'Sorteer Werkblad' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Matchen & Sorteren Pakket — Bekijk Alle 5 Generators in Actie',
@@ -221,7 +221,7 @@ const content: BundleContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematische educatieve afbeelding', caption: 'Stier' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalf — thematische educatieve afbeelding', caption: 'Kalf' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kat — thematische educatieve afbeelding', caption: 'Kat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kat 2 — thematische educatieve afbeelding', caption: 'Kat 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kat 2 — thematische educatieve afbeelding', caption: 'Kat 2' },
     { src: '/image-library/farm%20animals/chick.webp', alt: 'Kuiken — thematische educatieve afbeelding', caption: 'Kuiken' },
     { src: '/image-library/farm%20animals/chicken.webp', alt: 'Kip — thematische educatieve afbeelding', caption: 'Kip' },
     { src: '/image-library/farm%20animals/cow.webp', alt: 'Koe — thematische educatieve afbeelding', caption: 'Koe' },

@@ -186,12 +186,12 @@ const content: GuideContent = {
         caption: 'Skrivarbetsblad innehåller avsevärt originellt kreativt uttryck i sin instruktionstekst och design',
       },
       {
-        src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+        src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
         alt: 'Ordsökningspussel med tematisk bildmaterial som demonstrerar kreativt arrangemang av pedagogiskt innehåll',
         caption: 'Ordsökningspussel demonstrerar upphovsrättsskyddat kreativt arrangemang av ordförrådselement',
       },
       {
-        src: '/samples/swedish/coloring/coloring%20portrait%201.webp',
+        src: '/samples/swedish/coloring/coloring-portrait-1.webp',
         alt: 'Målarsida med originell tematiserad illustrationsdesign',
         caption: 'Målarsidor har starka upphovsrättspositioner tack vare den visuella originaliteten i deras designer',
       },

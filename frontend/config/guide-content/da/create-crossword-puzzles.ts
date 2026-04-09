@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/crossword/billedkrydsord%201.webp', alt: 'Krydsordspuslespil til børn med billedledetråde der viser tematisk ordforråd i et krydsende gitter' },
+    heroImage: { src: '/samples/danish/crossword/billedkrydsord-1.webp', alt: 'Krydsordspuslespil til børn med billedledetråde der viser tematisk ordforråd i et krydsende gitter' },
     samples: [
-      { src: '/samples/danish/crossword/billedkrydsord%201.webp', alt: 'Billedkrydsord — dansk eksempelarbejdsark', caption: 'Billedkrydsord eksempel 1' },
-      { src: '/samples/danish/crossword/billedkrydsord%202.webp', alt: 'Billedkrydsord — dansk eksempel 2', caption: 'Billedkrydsord eksempel 2' },
-      { src: '/samples/danish/crossword/billedkrydsord%203.webp', alt: 'Billedkrydsord — dansk eksempel 3', caption: 'Billedkrydsord eksempel 3' },
+      { src: '/samples/danish/crossword/billedkrydsord-1.webp', alt: 'Billedkrydsord — dansk eksempelarbejdsark', caption: 'Billedkrydsord eksempel 1' },
+      { src: '/samples/danish/crossword/billedkrydsord-2.webp', alt: 'Billedkrydsord — dansk eksempel 2', caption: 'Billedkrydsord eksempel 2' },
+      { src: '/samples/danish/crossword/billedkrydsord-3.webp', alt: 'Billedkrydsord — dansk eksempel 3', caption: 'Billedkrydsord eksempel 3' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'Sådan generator du krydsordspuslespil til børn — Komplet vejledning',

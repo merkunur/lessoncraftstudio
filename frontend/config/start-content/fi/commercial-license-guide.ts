@@ -213,12 +213,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhakutehtävä joka näyttää kaupallisen lisenssin tulosteen laadun tulostettavien tuotteiden myyjille' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananhakutehtävä joka näyttää kaupallisen lisenssin tulosteen laadun tulostettavien tuotteiden myyjille' },
     samples: [
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhakutehtävä kaupalliseen myyntiin', caption: 'Sananhaku — suosituin kaupallinen myyjä' },
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskumatemaattinen tehtävä kaupallisella lisenssillä', caption: 'Yhteenlasku — ikiviheä matemaattinen peruspilari' },
-      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivutehtävä KDP-aktiviteettikirjoille', caption: 'Väritys — suuren volyymin KDP-kategoria' },
-      { src: '/samples/finnish/crossword/kuvaristikko%201.webp', alt: 'Ristisanatehtävä joka osoittaa monikielisen kaupallisen arvon', caption: 'Ristisana — monikielinen lisenssin arvo' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananhakutehtävä kaupalliseen myyntiin', caption: 'Sananhaku — suosituin kaupallinen myyjä' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Yhteenlaskumatemaattinen tehtävä kaupallisella lisenssillä', caption: 'Yhteenlasku — ikiviheä matemaattinen peruspilari' },
+      { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Värityssivutehtävä KDP-aktiviteettikirjoille', caption: 'Väritys — suuren volyymin KDP-kategoria' },
+      { src: '/samples/finnish/crossword/kuvaristikko-1.webp', alt: 'Ristisanatehtävä joka osoittaa monikielisen kaupallisen arvon', caption: 'Ristisana — monikielinen lisenssin arvo' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Näin luot sananhakutehtäviä kaupalliseen myyntiin — LessonCraftStudio-demo',

@@ -255,22 +255,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/matching/finn%20parene%201.webp',
+      primary: '/samples/norwegian/matching/finn-parene-1.webp',
       primaryAlt: 'Trekk-en-strek koblings arbeidsark med tematiske bilder arrangert i to kolonner med lokalisert Finn Parene-overskrift og artikkelnumre',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/matching/finn%20parene%201.webp',
+        src: '/samples/norwegian/matching/finn-parene-1.webp',
         alt: 'Begynnelsesbokstav koblings arbeidsark med bilder til venstre og forste bokstaver til hoyre',
         caption: 'Begynnelsesbokstav-modus — brukerne matcher bilder med sine forste bokstaver',
       },
       {
-        src: '/samples/norwegian/matching/finn%20parene%202.webp',
+        src: '/samples/norwegian/matching/finn-parene-2.webp',
         alt: 'Bilde og ord koblings arbeidsark med merkede par på begge sider',
         caption: 'Bilde+Ord-modus — merkede bildepar for ordforrådskobling',
       },
       {
-        src: '/samples/norwegian/matching/finn%20parene%203.webp',
+        src: '/samples/norwegian/matching/finn-parene-3.webp',
         alt: 'Koblings arbeidsark fasit med forbindelseslinjer tegnet mellom korrekte par',
         caption: 'Automatisk generert fasit — forbindelseslinjer viser korrekte koblinger',
       },

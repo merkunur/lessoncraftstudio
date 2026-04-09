@@ -210,16 +210,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/wordsearch/woordzoeker%201.webp',
+      primary: '/samples/dutch/wordsearch/woordzoeker-1.webp',
       primaryAlt: 'Woordzoeker werkblad met thematisch woordenschatraster en kleurgecodeerd antwoordblad',
     },
     sampleGallery: [
-      { src: '/samples/dutch/alphabet train/alfabettrein%201.webp', alt: 'Alfabet trein werkblad met letter-afbeelding koppeling op treinwagons', caption: 'Alfabet Trein Werkblad' },
-      { src: '/samples/dutch/prepositions/voorzetsels%201.webp', alt: 'Voorzetsels werkblad met ruimtelijke relaties en afbeeldingen', caption: 'Voorzetsels Werkblad' },
-      { src: '/samples/dutch/word guess/raad%20het%20woord%201.webp', alt: 'Woordraad werkblad met afbeeldingsaanwijzingen en lettervakjes', caption: 'Woordraad Werkblad' },
-      { src: '/samples/dutch/word scramble/letterzaak%201.webp', alt: 'Woordscramble werkblad met kleurgecodeerde lettertegels', caption: 'Woordscramble Werkblad' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekraster met verborgen woordenschatwoorden', caption: 'Woordzoeker Werkblad' },
-      { src: '/samples/dutch/cryptogram/plaatjes%20cryptogram%201.webp', alt: 'Cryptogram puzzel met afbeeldingscijfer codering', caption: 'Cryptogram Werkblad' },
+      { src: '/samples/dutch/alphabet%20train/alfabettrein-1.webp', alt: 'Alfabet trein werkblad met letter-afbeelding koppeling op treinwagons', caption: 'Alfabet Trein Werkblad' },
+      { src: '/samples/dutch/prepositions/voorzetsels-1.webp', alt: 'Voorzetsels werkblad met ruimtelijke relaties en afbeeldingen', caption: 'Voorzetsels Werkblad' },
+      { src: '/samples/dutch/word%20guess/raad-het-woord-1.webp', alt: 'Woordraad werkblad met afbeeldingsaanwijzingen en lettervakjes', caption: 'Woordraad Werkblad' },
+      { src: '/samples/dutch/word%20scramble/letterzaak-1.webp', alt: 'Woordscramble werkblad met kleurgecodeerde lettertegels', caption: 'Woordscramble Werkblad' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekraster met verborgen woordenschatwoorden', caption: 'Woordzoeker Werkblad' },
+      { src: '/samples/dutch/cryptogram/plaatjes-cryptogram-1.webp', alt: 'Cryptogram puzzel met afbeeldingscijfer codering', caption: 'Cryptogram Werkblad' },
       { src: '/samples/dutch/writing/writing.webp', alt: 'Schrijfoefeningen werkblad met begeleide letterstreken', caption: 'Schrijfoefeningen Werkblad' },
     ],
     youtubeId: '36keBFzJbPo',

@@ -187,11 +187,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/chart%20count/bildediagram%202.webp', alt: 'Bildediagram-arbeidsark med spredt 4x5 bilderutenett som viser 20 ikoner fra 6 typer og stolpediagram for losere til a telle og grafere data' },
+    heroImage: { src: '/samples/norwegian/chart%20count/bildediagram-2.webp', alt: 'Bildediagram-arbeidsark med spredt 4x5 bilderutenett som viser 20 ikoner fra 6 typer og stolpediagram for losere til a telle og grafere data' },
     samples: [
-      { src: '/samples/norwegian/chart%20count/bildediagram%201.webp', alt: 'Dyretema bildediagram-arbeidsark med 20 spredte dyreikoner i et 4x5 rutenett og 6-kolonne stolpediagram for telleovelse', caption: 'Dyretema bildediagram — 6 dyretyper spredt over rutenettet med stolpediagram nedenfor for datarepresentasjonsovelse' },
-      { src: '/samples/norwegian/chart%20count/bildediagram%203.webp', alt: 'Bildediagram-fasit med gulmarkerte celler som viser korrekte tellinger for hver av de 6 bildetypene', caption: 'Autogenerert fasit — gulfylte celler (#FFC857) viser korrekt telling for hver bildetype' },
-      { src: '/samples/norwegian/chart%20count/bildediagram%202.webp', alt: 'Bildediagram-arbeidsark med dekorative bakgrunns- og rammetemaer brukt for polert markedsplasspresentasjon', caption: 'Dekorert bildediagram — bakgrunns- og rammetemaer med uavhengige gjennomsiktighetskontroller for profesjonell styling' },
+      { src: '/samples/norwegian/chart%20count/bildediagram-1.webp', alt: 'Dyretema bildediagram-arbeidsark med 20 spredte dyreikoner i et 4x5 rutenett og 6-kolonne stolpediagram for telleovelse', caption: 'Dyretema bildediagram — 6 dyretyper spredt over rutenettet med stolpediagram nedenfor for datarepresentasjonsovelse' },
+      { src: '/samples/norwegian/chart%20count/bildediagram-3.webp', alt: 'Bildediagram-fasit med gulmarkerte celler som viser korrekte tellinger for hver av de 6 bildetypene', caption: 'Autogenerert fasit — gulfylte celler (#FFC857) viser korrekt telling for hver bildetype' },
+      { src: '/samples/norwegian/chart%20count/bildediagram-2.webp', alt: 'Bildediagram-arbeidsark med dekorative bakgrunns- og rammetemaer brukt for polert markedsplasspresentasjon', caption: 'Dekorert bildediagram — bakgrunns- og rammetemaer med uavhengige gjennomsiktighetskontroller for profesjonell styling' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Hvordan lage bildediagram-arbeidsark med autofasiter og spredte bilderutenett — trinn-for-trinn veiledning',

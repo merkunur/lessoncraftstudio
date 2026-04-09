@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/missing%20pieces/saknade%20bitar%201.webp',
+      primary: '/samples/swedish/missing%20pieces/saknade-bitar-1.webp',
       primaryAlt: 'Pusselarbetsblad med hål utklippta från en färgglad illustration och numrerade lösningsalternativ inklusive distraktorer med turkos Saknade Bitar-rubrik och blågrön-rosa dubbelram',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/missing%20pieces/saknade%20bitar%202.webp',
+        src: '/samples/swedish/missing%20pieces/saknade-bitar-2.webp',
         alt: 'Saknade bitar pussel med fyrkantiga hål utklippta och numrerade lösningsalternativ för visuell identifiering',
         caption: 'Fyrkantiga bitar — rena geometriska klipp med numrerade lösningsalternativ inklusive distraktorer',
       },
       {
-        src: '/samples/swedish/missing%20pieces/saknade%20bitar%205.webp',
+        src: '/samples/swedish/missing%20pieces/saknade-bitar-5.webp',
         alt: 'Saknade bitar pussel med cirkulära hål och numrerade lösningsalternativ inklusive distraktorbitar',
         caption: 'Cirkulära bitar — rundade klipp med distraktoralternativ som förhindrar eliminering',
       },
       {
-        src: '/samples/swedish/missing%20pieces/saknade%20bitar%201%20answer-key.webp',
+        src: '/samples/swedish/missing%20pieces/saknade-bitar-1-answer-key.webp',
         alt: 'Saknade bitar pussel facit med gulmarkerade nummertiketter placerade inuti varje hål som visar det korrekta alternativindexet',
         caption: 'Automatiskt genererat facit — gulmarkerade etiketter (rgba(255,255,0,0.7)) visar korrekt alternativ för varje hål',
       },

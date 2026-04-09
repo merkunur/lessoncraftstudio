@@ -227,12 +227,12 @@ const content: ToolContent = {
         caption: 'Drie oefenmodi op één werkblad — Overtrekken, Vervagend Overtrekken en Begeleid Kopiëren met per-rij onafhankelijkheid',
       },
       {
-        src: '/samples/dutch/writing/writing%20beginning%20letter.webp',
+        src: '/samples/dutch/writing/writing-beginning-letter.webp',
         alt: 'Schrijfoefeningen werkblad in overtrekmodus met blokschrift pijl lettertype dat genummerde streekvolgorde-richtingen toont',
         caption: 'Pijlgeleide streekvolgorde — genummerde richtingspijlen tonen exacte lettervormingsvolgorde',
       },
       {
-        src: '/samples/dutch/writing/writing%20custom.webp',
+        src: '/samples/dutch/writing/writing-custom.webp',
         alt: 'Schrijfoefeningen werkblad in vervagend overtrekken modus met letters die progressief vervagen over elke rij',
         caption: 'Vervagend Overtrekken modus — letters vervagen progressief om zelfstandig schrijfvertrouwen op te bouwen',
       },

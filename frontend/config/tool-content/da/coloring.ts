@@ -215,22 +215,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/danish/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Gratis malebilleder med konturer og temabilleder til farvelægning — prøv online med vandmærke',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/coloring/coloring%20portrait%201.webp',
+        src: '/samples/danish/coloring/coloring-portrait-1.webp',
         alt: 'Gratis malebilleder med dyretema og konturer arrangeret på frit arbejdsområde til farvelægning',
         caption: 'Dyretema farvelægningsside — frit arbejdsområdelayout med flere illustrationer arrangeret i en unik komposition',
       },
       {
-        src: '/samples/danish/coloring/coloring%20portrait%202.webp',
+        src: '/samples/danish/coloring/coloring-portrait-2.webp',
         alt: 'Gratis malebilleder med navnefelt og skriveøvelseslinjer til produktlinjefærdig farvelægning',
         caption: 'Produktlinjeaktivitetsark — navnefelt og skriveøvelseslinjer forvandler farvelægningssider til strukturerede indlæringsaktiviteter',
       },
       {
-        src: '/samples/danish/coloring/coloring%20landscape%201.webp',
+        src: '/samples/danish/coloring/coloring-landscape-1.webp',
         alt: 'Gratis malebilleder i gråtone med konturer til blækvenlig farvelægning og KDP-print',
         caption: 'Gråtoneeksport — farverige kompositioner konverteres til blækvenlige farvelægningssider til KDP-interiører og massetryk',
       },

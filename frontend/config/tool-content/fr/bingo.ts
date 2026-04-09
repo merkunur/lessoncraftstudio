@@ -226,22 +226,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/bingo/Loto d\'images-1.webp',
+      primary: '/samples/french/bingo/loto-d\'images-1.webp',
       primaryAlt: 'Carte bingo à images avec des illustrations thématiques dans une grille configurable et des jetons circulaires avec bordures en pointillés en dessous pour l\'association pendant le jeu de bingo',
     },
     sampleGallery: [
       {
-        src: '/samples/french/bingo/Loto d\'images-1.webp',
+        src: '/samples/french/bingo/loto-d\'images-1.webp',
         alt: 'Carte bingo à images en mode remplissage images montrant des illustrations thématiques colorées dans les cases et des jetons circulaires à images avec bordures en pointillés',
         caption: 'Mode remplissage par images — illustrations colorées dans les cases de la carte et les jetons circulaires pour un bingo visuel',
       },
       {
-        src: '/samples/french/bingo/Loto d\'images-2.webp',
+        src: '/samples/french/bingo/loto-d\'images-2.webp',
         alt: 'Carte bingo à images en mode remplissage par mots montrant les noms localisés des images dans les cases et les jetons à mots pour un bingo vocabulaire',
         caption: 'Mode remplissage par mots — noms localisés des images pour des produits bingo vocabulaire multilingues',
       },
       {
-        src: '/samples/french/bingo/Loto d\'images-3.webp',
+        src: '/samples/french/bingo/loto-d\'images-3.webp',
         alt: 'Feuille d\'appel bingo avec grille dynamique de mots montrant tous les éléments du jeu organisés en colonnes pour le meneur de jeu',
         caption: 'Feuille d\'appel — grille dynamique de mots avec colonnes calculées et taille de police uniforme pour le meneur de jeu',
       },

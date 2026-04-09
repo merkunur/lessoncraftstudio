@@ -151,11 +151,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%202.webp', alt: 'Sanakäärmepalapeliworksheet monitermisenä tulostettavana tuotteena Etsy SEO -optimointiin' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku-2.webp', alt: 'Sanakäärmepalapeliworksheet monitermisenä tulostettavana tuotteena Etsy SEO -optimointiin' },
     samples: [
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Eläinteemainen sanakäärmepalapeli teemapohjaiseen Etsy-avainsanakohdentamiseen', caption: 'Sanakäärme eläinteemalla — jokainen teema- ja kielivariaatio kohdistuu eri Etsy-hakuavainsanoihin' },
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki suurivolyymisiin Etsy-matemaattisen tulostettavan avainsanoihin', caption: 'Yhteenlaskutyöarkki eläinteemalla — kohdistuu suurivolyymisiin matemaattisen tulostettavan avainsanoihin' },
-      { src: '/samples/finnish/coloring/coloring%20portrait%202.webp', alt: 'Eläinvärityskuva teemapohjaiseen Etsy-avainsanastrategiaan tulostettaville myyjille', caption: 'Värityskuva eläinteemalla — teemakohtaiset avainsanat ohjaavat kohdennettua Etsy-hakuliikennettä' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Eläinteemainen sanakäärmepalapeli teemapohjaiseen Etsy-avainsanakohdentamiseen', caption: 'Sanakäärme eläinteemalla — jokainen teema- ja kielivariaatio kohdistuu eri Etsy-hakuavainsanoihin' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki suurivolyymisiin Etsy-matemaattisen tulostettavan avainsanoihin', caption: 'Yhteenlaskutyöarkki eläinteemalla — kohdistuu suurivolyymisiin matemaattisen tulostettavan avainsanoihin' },
+      { src: '/samples/finnish/coloring/coloring-portrait-2.webp', alt: 'Eläinvärityskuva teemapohjaiseen Etsy-avainsanastrategiaan tulostettaville myyjille', caption: 'Värityskuva eläinteemalla — teemakohtaiset avainsanat ohjaavat kohdennettua Etsy-hakuliikennettä' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Näin luot sanakäärmetyöarkkeja Etsy SEO:oon — Moniterminen tuotestrategia',
@@ -166,7 +166,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Härkä — temaattinen opetuskuva', caption: 'Härkä' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Vasikka — temaattinen opetuskuva', caption: 'Vasikka' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kissa — temaattinen opetuskuva', caption: 'Kissa' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kissa 2 — temaattinen opetuskuva', caption: 'Kissa 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kissa 2 — temaattinen opetuskuva', caption: 'Kissa 2' },
   ],
 };
 

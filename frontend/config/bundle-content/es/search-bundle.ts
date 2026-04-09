@@ -197,14 +197,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/find and count/veo-veo-1.webp',
+      primary: '/samples/spanish/find%20and%20count/veo-veo-1.webp',
       primaryAlt: 'Ficha I Spy de buscar y contar con imágenes temáticas dispersas en una cuadrícula para exploración visual y conteo',
     },
     sampleGallery: [
-      { src: '/samples/spanish/find and count/veo-veo-1.webp', alt: 'Ficha I Spy de buscar y contar con objetos ocultos para localizar y contar', caption: 'Buscar y Contar I Spy' },
-      { src: '/samples/spanish/find objects/encuentra-el-diferente-1.webp', alt: 'Ficha de objetos ocultos con escena sin superposición y leyenda visual', caption: 'Ficha de Buscar Objetos' },
+      { src: '/samples/spanish/find%20and%20count/veo-veo-1.webp', alt: 'Ficha I Spy de buscar y contar con objetos ocultos para localizar y contar', caption: 'Buscar y Contar I Spy' },
+      { src: '/samples/spanish/find%20objects/encuentra-el-diferente-1.webp', alt: 'Ficha de objetos ocultos con escena sin superposición y leyenda visual', caption: 'Ficha de Buscar Objetos' },
       { src: '/samples/spanish/crossword/crucigrama-con-dibujos-1.webp', alt: 'Crucigrama de 15×15 con pistas de imágenes en lugar de definiciones de texto', caption: 'Crucigrama con Imágenes' },
-      { src: '/samples/spanish/treasure hunt/búsqueda-del-tesoro-1.webp', alt: 'Ficha de búsqueda del tesoro con cuadrícula de coordenadas de 5×5 y pistas direccionales', caption: 'Búsqueda del Tesoro' },
+      { src: '/samples/spanish/treasure%20hunt/búsqueda-del-tesoro-1.webp', alt: 'Ficha de búsqueda del tesoro con cuadrícula de coordenadas de 5×5 y pistas direccionales', caption: 'Búsqueda del Tesoro' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Paquete Búsqueda y Descubrimiento — Los 4 Generadores en Acción',

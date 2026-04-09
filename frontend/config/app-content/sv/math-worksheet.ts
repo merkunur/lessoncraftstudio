@@ -269,12 +269,12 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/math%20worksheet/mattetal%20portrait.webp',
+      primary: '/samples/swedish/math%20worksheet/mattetal-portrait.webp',
       primaryAlt: 'Algebraiskt bildpussel arbetsblad med bilder som föreställer okända variabler i ett system av ekvationer',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/math%20worksheet/mattetal%20landscape.webp',
+        src: '/samples/swedish/math%20worksheet/mattetal-landscape.webp',
         alt: 'Mycket Lätt algebrapussel arbetsblad med två bildsymboler och enbart additionsekvationer',
         caption: 'Mycket Lätt nivå — två bildsymboler i ett enkelt ekvationssystem med enbart addition',
       },
@@ -284,7 +284,7 @@ const content: AppContent = {
         caption: 'Medel nivå — tre symboler i kopplade ekvationer med addition och subtraktion',
       },
       {
-        src: '/samples/swedish/math%20worksheet/worksheet%20-1.webp',
+        src: '/samples/swedish/math%20worksheet/worksheet-1.webp',
         alt: 'Svårt algebrapussel arbetsblad med fyra bildsymboler i ett system av fyra ekvationer',
         caption: 'Svår nivå — fyra simultana okända för avancerad algebraisk problemlösning',
       },

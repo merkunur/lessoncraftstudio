@@ -215,22 +215,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/alphabet train/comboio-do-alfabeto-1.webp',
+      primary: '/samples/portuguese/alphabet%20train/comboio-do-alfabeto-1.webp',
       primaryAlt: 'Atividade de trem do alfabeto mostrando 11 vagões coloridos com letras e imagens-pista para reconhecimento de letras',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/alphabet train/comboio-do-alfabeto-2.webp',
+        src: '/samples/portuguese/alphabet%20train/comboio-do-alfabeto-2.webp',
         alt: 'Atividade colorida de trem do alfabeto com atividade de associação letra-imagem para usuários pequenos',
         caption: 'Formato de vagões de trem com associação letra-imagem',
       },
       {
-        src: '/samples/portuguese/alphabet train/comboio-do-alfabeto-3.webp',
+        src: '/samples/portuguese/alphabet%20train/comboio-do-alfabeto-3.webp',
         alt: 'Atividade de trem do alfabeto com imagens temáticas e múltiplas tarefas de associação de pistas',
         caption: 'Imagens temáticas com número de pistas configurável',
       },
       {
-        src: '/samples/portuguese/alphabet train/comboio-do-alfabeto-4.webp',
+        src: '/samples/portuguese/alphabet%20train/comboio-do-alfabeto-4.webp',
         alt: 'Atividade avançada de trem do alfabeto com 11 pistas para máxima dificuldade em reconhecimento de letras',
         caption: 'Dificuldade completa com 11 pistas para usuários avançados',
       },

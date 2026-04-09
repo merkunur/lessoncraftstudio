@@ -176,13 +176,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/wordsearch/ords%c3%b8gning%201.webp',
+      src: '/samples/danish/wordsearch/ordsøgning-1.webp',
       alt: 'Professionelt additionsarbejdsark der demonstrerer evergreen pædagogisk indhold til tilbagevendende omsætning',
     },
     samples: [
-      { src: '/samples/danish/wordsearch/ords%c3%b8gning%201.webp', alt: 'Ordsøgning — dansk eksempelarbejdsark', caption: 'Ordsøgning eksempel 1' },
-      { src: '/samples/danish/wordsearch/ords%c3%b8gning%202.webp', alt: 'Ordsøgning — dansk eksempel 2', caption: 'Ordsøgning eksempel 2' },
-      { src: '/samples/danish/wordsearch/ords%c3%b8gning%203.webp', alt: 'Ordsøgning — dansk eksempel 3', caption: 'Ordsøgning eksempel 3' },
+      { src: '/samples/danish/wordsearch/ordsøgning-1.webp', alt: 'Ordsøgning — dansk eksempelarbejdsark', caption: 'Ordsøgning eksempel 1' },
+      { src: '/samples/danish/wordsearch/ordsøgning-2.webp', alt: 'Ordsøgning — dansk eksempel 2', caption: 'Ordsøgning eksempel 2' },
+      { src: '/samples/danish/wordsearch/ordsøgning-3.webp', alt: 'Ordsøgning — dansk eksempel 3', caption: 'Ordsøgning eksempel 3' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Sådan generator du matematikarbejdsark til tilbagevendende omsætning',

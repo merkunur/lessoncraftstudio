@@ -84,11 +84,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhakutehtävä joka näyttää markkinoitavan tulostettavan tuotteen suunnittelun' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananhakutehtävä joka näyttää markkinoitavan tulostettavan tuotteen suunnittelun' },
     samples: [
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhaku — markkinointiesimerkki', caption: 'Sananhaku — korkein kaupallinen kysyntä' },
-      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu — Pinterest-markkinointiesimerkki', caption: 'Väritys — visuaalisesti vaikuttava tuloste' },
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlasku — ympärivuotinen markkinointiesimerkki', caption: 'Yhteenlasku — tasainen ympärivuotinen kysyntä' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananhaku — markkinointiesimerkki', caption: 'Sananhaku — korkein kaupallinen kysyntä' },
+      { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Värityssivu — Pinterest-markkinointiesimerkki', caption: 'Väritys — visuaalisesti vaikuttava tuloste' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Yhteenlasku — ympärivuotinen markkinointiesimerkki', caption: 'Yhteenlasku — tasainen ympärivuotinen kysyntä' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Näin luot bingokortteja tulostettavien liiketoimintaasi varten — LessonCraftStudio-demo',

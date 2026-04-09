@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/alphabet train/alphabet-train-11.webp', alt: 'Alphabet train worksheet showing 11 colorful train wagons with letters and matching clue images for letter recognition' },
+    heroImage: { src: '/samples/english/alphabet%20train/alphabet-train-11.webp', alt: 'Alphabet train worksheet showing 11 colorful train wagons with letters and matching clue images for letter recognition' },
     samples: [
-      { src: '/samples/english/alphabet train/alphabet-train-11.webp', alt: 'Colorful alphabet train worksheet with 11 wagons carrying letters and scattered clue images for letter-image matching', caption: 'Alphabet train worksheet with 11 colorful wagons and letter-image matching clues' },
-      { src: '/samples/english/alphabet train/alphabet-train-10.webp', alt: 'Alphabet train worksheet with themed images and multiple clue matching tasks at intermediate difficulty', caption: 'Themed alphabet train with configurable clue count for difficulty scaling' },
-      { src: '/samples/english/alphabet train/alphabet-train-10.webp', alt: 'Advanced alphabet train worksheet with 11 clues for maximum difficulty comprehensive letter recognition', caption: 'Full 11-clue difficulty level for advanced letter-recognition practice' },
+      { src: '/samples/english/alphabet%20train/alphabet-train-11.webp', alt: 'Colorful alphabet train worksheet with 11 wagons carrying letters and scattered clue images for letter-image matching', caption: 'Alphabet train worksheet with 11 colorful wagons and letter-image matching clues' },
+      { src: '/samples/english/alphabet%20train/alphabet-train-10.webp', alt: 'Alphabet train worksheet with themed images and multiple clue matching tasks at intermediate difficulty', caption: 'Themed alphabet train with configurable clue count for difficulty scaling' },
+      { src: '/samples/english/alphabet%20train/alphabet-train-10.webp', alt: 'Advanced alphabet train worksheet with 11 clues for maximum difficulty comprehensive letter recognition', caption: 'Full 11-clue difficulty level for advanced letter-recognition practice' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'How to Create Alphabet Train Worksheets — Complete Tutorial',
@@ -196,7 +196,7 @@ const content: GuideContent = {
     { src: '/image-library/farm animals/bull.webp', alt: 'Bull — themed educational image', caption: 'Bull' },
     { src: '/image-library/farm animals/calf.webp', alt: 'Calf — themed educational image', caption: 'Calf' },
     { src: '/image-library/farm animals/cat.webp', alt: 'Cat — themed educational image', caption: 'Cat' },
-    { src: '/image-library/farm animals/cat%202.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
+    { src: '/image-library/farm animals/cat-2.webp', alt: 'Cat 2 — themed educational image', caption: 'Cat 2' },
   ],
 };
 

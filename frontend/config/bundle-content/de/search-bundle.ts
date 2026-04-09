@@ -196,14 +196,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/find and count/ich-sehe-was-1.webp',
+      primary: '/samples/german/find%20and%20count/ich-sehe-was-1.webp',
       primaryAlt: 'Suchbild-Arbeitsblatt mit thematischen Bildern über ein Raster verteilt für visuelles Scannen und Zählen',
     },
     sampleGallery: [
-      { src: '/samples/german/find and count/ich-sehe-was-1.webp', alt: 'Suchbild-Arbeitsblatt mit versteckten Objekten zum Finden und Zählen', caption: 'Suchen-und-Zählen-Suchbild' },
-      { src: '/samples/german/find objects/finde-das-unpassende-1-v7.webp', alt: 'Suchbild-Arbeitsblatt mit überlappungsfreier Szene und visueller Legende', caption: 'Suchbilder-Arbeitsblatt' },
+      { src: '/samples/german/find%20and%20count/ich-sehe-was-1.webp', alt: 'Suchbild-Arbeitsblatt mit versteckten Objekten zum Finden und Zählen', caption: 'Suchen-und-Zählen-Suchbild' },
+      { src: '/samples/german/find%20objects/finde-das-unpassende-1-v7.webp', alt: 'Suchbild-Arbeitsblatt mit überlappungsfreier Szene und visueller Legende', caption: 'Suchbilder-Arbeitsblatt' },
       { src: '/samples/german/crossword/crossword-worksheet.webp', alt: '15x15-Kreuzworträtsel mit Bild-Hinweisen statt Textdefinitionen', caption: 'Bilderkreuzworträtsel' },
-      { src: '/samples/german/treasure hunt/worksheet.webp', alt: 'Schatzsuche-Arbeitsblatt mit 5x5-Koordinatenraster und Richtungsanweisungen', caption: 'Schatzsuche-Koordinatenraster' },
+      { src: '/samples/german/treasure%20hunt/worksheet.webp', alt: 'Schatzsuche-Arbeitsblatt mit 5x5-Koordinatenraster und Richtungsanweisungen', caption: 'Schatzsuche-Koordinatenraster' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Suchen-&-Finden-Paket — Alle 4 Entdecker-Generatoren in Aktion',

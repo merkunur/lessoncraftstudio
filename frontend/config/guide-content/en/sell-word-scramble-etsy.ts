@@ -176,9 +176,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/word scramble/word-scramble-10.webp', alt: 'Word scramble puzzle worksheet ready for Etsy listing' },
+    heroImage: { src: '/samples/english/word%20scramble/word-scramble-10.webp', alt: 'Word scramble puzzle worksheet ready for Etsy listing' },
     samples: [
-      { src: '/samples/english/word scramble/word-scramble-11.webp', alt: 'Themed word scramble worksheet with answer key for Etsy', caption: 'A themed word scramble puzzle exported at 300 DPI for Etsy product listing' },
+      { src: '/samples/english/word%20scramble/word-scramble-11.webp', alt: 'Themed word scramble worksheet with answer key for Etsy', caption: 'A themed word scramble puzzle exported at 300 DPI for Etsy product listing' },
       { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search companion product for Etsy puzzle bundle', caption: 'Word search puzzles pair naturally with word scrambles in cross-format Etsy bundles' },
     ],
     youtubeId: 'Hc3g5VsSHEU',

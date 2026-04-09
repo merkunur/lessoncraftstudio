@@ -213,7 +213,7 @@ const content: StartContent = {
     samples: [
       { src: '/samples/french/sudoku/sudoku-en-images-1.webp', alt: 'Fiche de puzzle Sudoku pour intérieur de livre d\'activités KDP', caption: 'Sudoku — Catégorie Phare KDP' },
       { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés pour livre d\'activités Amazon KDP', caption: 'Mots Cachés — Catégorie très demandé KDP' },
-      { src: '/samples/french/math puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche de puzzle maths pour intérieur de cahier KDP', caption: 'Puzzle Maths — Niche KDP Intemporelle' },
+      { src: '/samples/french/math%20puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche de puzzle maths pour intérieur de cahier KDP', caption: 'Puzzle Maths — Niche KDP Intemporelle' },
       { src: '/samples/french/crossword/mots-croisés-en-images-1.webp', alt: 'Fiche de mots croisés pour livre d\'activités KDP', caption: 'Mots Croisés — Format Classique de Livre d\'Activités' },
     ],
     youtubeId: 'bqVioFbkYbA',

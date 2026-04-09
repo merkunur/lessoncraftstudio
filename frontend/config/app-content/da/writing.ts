@@ -254,12 +254,12 @@ const content: AppContent = {
         caption: 'Spor-tilstand med pil-stregrækkefølge — nummererede retningspilar viser præcis, hvordan bogstavet skal overtegnes',
       },
       {
-        src: '/samples/danish/writing/writing%20custom.webp',
+        src: '/samples/danish/writing/writing-custom.webp',
         alt: 'Skrivemotorik-opgave i tonende sporing-tilstand med bogstaver, der progressivt tones ud for selvstændig bogstavskrivning',
         caption: 'Tonende Sporing-tilstand — bogstaver tones progressivt ud for at opbygge selvstændig skrivemotorik',
       },
       {
-        src: '/samples/danish/writing/writing%20beginning%20letter.webp',
+        src: '/samples/danish/writing/writing-beginning-letter.webp',
         alt: 'Skriveøvelse i guidet kopiering-tilstand med kursiv skrifttypestil på trelinjes-guider',
         caption: 'Kursiv Guidet Kopiering — svage kursive konturer på trelinjesystem til flydende skriveskriftsøvelse',
       },

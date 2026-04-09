@@ -225,22 +225,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/prepositions/voorzetsels%201.webp',
+      primary: '/samples/dutch/prepositions/voorzetsels-1.webp',
       primaryAlt: 'Voorzetsels werkblad met kleurrijke afbeeldingen die ruimtelijke relaties tonen tussen voorwerpen en geometrische vormen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/prepositions/voorzetsels%201.webp',
+        src: '/samples/dutch/prepositions/voorzetsels-1.webp',
         alt: 'Invuloefening voorzetsels werkblad met dierenthema en geometrische vormen',
         caption: 'Invuloefening — gebruikers vullen zinnen aan met het juiste voorzetsel',
       },
       {
-        src: '/samples/dutch/prepositions/voorzetsels%202.webp',
+        src: '/samples/dutch/prepositions/voorzetsels-2.webp',
         alt: 'Meerkeuzevragen voorzetsels werkblad met voertuigenthema en ruimtelijke beschrijvingen',
         caption: 'Meerkeuzevragen — gebruikers identificeren de afbeelding die bij de ruimtelijke beschrijving past',
       },
       {
-        src: '/samples/dutch/prepositions/voorzetsels%203.webp',
+        src: '/samples/dutch/prepositions/voorzetsels-3.webp',
         alt: 'Voorzetsels werkblad met alle acht ruimtelijke voorzetsels en antwoordblad',
         caption: 'Volledig werkblad met 8 oefeningen — uitgebreide herhaling van alle ruimtelijke voorzetsels',
       },

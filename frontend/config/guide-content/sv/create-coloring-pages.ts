@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Målarbild skapad från tematiska bilder med gråskalekonvertering för tryckfärdiga målarblad' },
+    heroImage: { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Målarbild skapad från tematiska bilder med gråskalekonvertering för tryckfärdiga målarblad' },
     samples: [
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Tematisk målarbild med djurillustrationer arrangerade på fri arbetsyta', caption: 'Målarbild skapad med tematiska bilder från biblioteket med fri arbetsyteplacering' },
-      { src: '/samples/swedish/draw%20and%20color/rita%20och%20f%C3%A4rgl%C3%A4gg%201.jpeg', alt: 'Rita och färglägg arbetsblad som kompanjon till målarbilder', caption: 'Rita och färglägg — avancerad kreativ kompanjon för mer komplexa konstnärliga produkter' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Tematisk målarbild med djurillustrationer arrangerade på fri arbetsyta', caption: 'Målarbild skapad med tematiska bilder från biblioteket med fri arbetsyteplacering' },
+      { src: '/samples/swedish/draw%20and%20color/rita-och-färglägg-1.jpeg', alt: 'Rita och färglägg arbetsblad som kompanjon till målarbilder', caption: 'Rita och färglägg — avancerad kreativ kompanjon för mer komplexa konstnärliga produkter' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Hur du skapar målarbilder från tematiska bilder — Komplett guide',

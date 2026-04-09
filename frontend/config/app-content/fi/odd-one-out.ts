@@ -229,22 +229,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/odd%20one%20out/l%c3%b6yd%c3%a4%20outo%20lintu%201.webp',
+      primary: '/samples/finnish/odd%20one%20out/löydä-outo-lintu-1.webp',
       primaryAlt: 'Kumpi ei kuulu -työlehti neljällä kuvalla per harjoitusrivi, värikkäillä temaattisilla kuvituksilla ja lokalisoidulla Etsi Kumpi Ei Kuulu -otsikolla',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/odd%20one%20out/l%c3%b6yd%c3%a4%20outo%20lintu%202.webp',
+        src: '/samples/finnish/odd%20one%20out/löydä-outo-lintu-2.webp',
         alt: 'Samankaltaisen tilan kumpi ei kuulu -työlehti kolmella eläimellä ja yhdellä ruokatuotteella per rivi',
         caption: 'Samankaltainen tila — kolme kuvaa Teemasta A ja yksi poikkeava kohde Teemasta B',
       },
       {
-        src: '/samples/finnish/odd%20one%20out/l%c3%b6yd%c3%a4%20outo%20lintu%203.webp',
+        src: '/samples/finnish/odd%20one%20out/löydä-outo-lintu-3.webp',
         alt: 'Identtisen tilan kumpi ei kuulu -työlehti kolmella identtisellä kuvalla ja yhdellä erilaisella kuvalla per rivi',
         caption: 'Identtinen tila — kolme klonia samasta kuvasta ja yksi erilainen kuva',
       },
       {
-        src: '/samples/finnish/odd%20one%20out/l%c3%b6yd%c3%a4%20outo%20lintu%201%20answer-key.webp',
+        src: '/samples/finnish/odd%20one%20out/löydä-outo-lintu-1-answer-key.webp',
         alt: 'Kumpi ei kuulu -vastausavain punaisilla ympyröillä poikkeavan kohteen ympärillä jokaisella harjoitusrivillä',
         caption: 'Automaattisesti luotu vastausavain — punaiset ympyrät merkitsevät poikkeavan kohteen jokaisella rivillä',
       },

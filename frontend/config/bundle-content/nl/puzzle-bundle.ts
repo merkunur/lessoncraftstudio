@@ -194,14 +194,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%201.webp',
+      primary: '/samples/dutch/missing%20pieces/ontbrekende-stukjes-1.webp',
       primaryAlt: 'Ontbrekende stukjes puzzelwerkblad met rastersegmenten verwijderd voor ruimtelijk redeneren uitdaging',
     },
     sampleGallery: [
-      { src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%201.webp', alt: 'Ontbrekende stukjes puzzel met afbeelding rastersegmenten verwijderd', caption: 'Ontbrekende Stukjes Puzzel' },
-      { src: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%201.webp', alt: 'Welke hoort er niet bij werkblad met rijen vergelijkbare afbeeldingen en één afwijkend', caption: 'Welke Hoort Er Niet Bij Werkblad' },
-      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: '4×4 plaatjes Sudoku puzzel met thematische afbeeldingen in plaats van cijfers', caption: 'Plaatjes Sudoku Puzzel' },
-      { src: '/samples/dutch/picture%20path/afbeeldingspad%201.webp', alt: 'Afbeeldingspad doolhof met thematische afbeeldingsroute door raster', caption: 'Afbeeldingspad Doolhof' },
+      { src: '/samples/dutch/missing%20pieces/ontbrekende-stukjes-1.webp', alt: 'Ontbrekende stukjes puzzel met afbeelding rastersegmenten verwijderd', caption: 'Ontbrekende Stukjes Puzzel' },
+      { src: '/samples/dutch/odd%20one%20out/vind-de-vreemde-eend-1.webp', alt: 'Welke hoort er niet bij werkblad met rijen vergelijkbare afbeeldingen en één afwijkend', caption: 'Welke Hoort Er Niet Bij Werkblad' },
+      { src: '/samples/dutch/sudoku/plaatjes-sudoku-1.webp', alt: '4×4 plaatjes Sudoku puzzel met thematische afbeeldingen in plaats van cijfers', caption: 'Plaatjes Sudoku Puzzel' },
+      { src: '/samples/dutch/picture%20path/afbeeldingspad-1.webp', alt: 'Afbeeldingspad doolhof met thematische afbeeldingsroute door raster', caption: 'Afbeeldingspad Doolhof' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Puzzels & Logica Pakket — Bekijk Alle 4 Generators in Actie',

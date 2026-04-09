@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/wordsearch/woordzoeker%201.webp',
+      primary: '/samples/dutch/wordsearch/woordzoeker-1.webp',
       primaryAlt: 'Woordzoeker werkblad met verborgen woorden ingebed in een letterraster en thematische afbeeldingsaanwijzingen voor woordenschat puzzeloefening',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/wordsearch/woordzoeker%201.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-1.webp',
         alt: 'Woordzoeker werkblad in staand formaat met 12×12 letterraster en thematische afbeeldingsaanwijzingen',
         caption: 'Staand formaat — 12×12 raster met thematische afbeeldingsaanwijzingen en woordenlijst',
       },
       {
-        src: '/samples/dutch/wordsearch/woordzoeker%202.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-2.webp',
         alt: 'Woordzoeker werkblad met groter raster en diagonale woorden ingeschakeld',
         caption: 'Groter raster met diagonale en achterwaartse woorden ingeschakeld',
       },
       {
-        src: '/samples/dutch/wordsearch/woordzoeker%203.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-3.webp',
         alt: 'Woordzoeker werkblad met aangepaste woordenlijst modus zonder afbeeldingen voor tekst-only puzzels',
         caption: 'Aangepaste Woordenlijst modus — tekst-only woordzoeker zonder afbeeldingsaanwijzingen',
       },

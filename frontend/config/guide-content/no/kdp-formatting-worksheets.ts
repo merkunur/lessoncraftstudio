@@ -190,11 +190,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/math%20worksheet/matematikkoppgave%202.webp', alt: 'Mattearbeidsark som viser rutenettoppsett og avstand formatert for Amazon KDP trykkspesifikasjoner' },
+    heroImage: { src: '/samples/norwegian/math%20worksheet/matematikkoppgave-2.webp', alt: 'Mattearbeidsark som viser rutenettoppsett og avstand formatert for Amazon KDP trykkspesifikasjoner' },
     samples: [
-      { src: '/samples/norwegian/math%20worksheet/matematikkoppgave%201.webp', alt: 'Mattearbeidsark med presis rutenettavstand som demonstrerer KDP margin- og oppsettkrav', caption: 'Mattearbeidsark-oppsett — rutenettbasert formatering med tilstrekkelig cellestørrelse for komfortabel håndskrift innenfor KDP marginspesifikasjoner' },
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk puslespillrutenett som viser bokstavavstand formatert for KDP-trykk', caption: 'Ordsøkrutenett — konsekvent bokstavavstand ved 0,3-tommer celler sikrer komfortabel sirkling og lesbarhet i KDP trykte bøker' },
-      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%202.webp', alt: 'Addisjonsarbeidsark som demonstrerer rent enkeltside KDP-oppsett', caption: 'Addisjonsarbeidsark — rent enkeltoperasjonsoppsett med tydelige svarfelt som demonstrerer profesjonell KDP interiørformatering' },
+      { src: '/samples/norwegian/math%20worksheet/matematikkoppgave-1.webp', alt: 'Mattearbeidsark med presis rutenettavstand som demonstrerer KDP margin- og oppsettkrav', caption: 'Mattearbeidsark-oppsett — rutenettbasert formatering med tilstrekkelig cellestørrelse for komfortabel håndskrift innenfor KDP marginspesifikasjoner' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøk puslespillrutenett som viser bokstavavstand formatert for KDP-trykk', caption: 'Ordsøkrutenett — konsekvent bokstavavstand ved 0,3-tommer celler sikrer komfortabel sirkling og lesbarhet i KDP trykte bøker' },
+      { src: '/samples/norwegian/addition/gøy-addisjon-2.webp', alt: 'Addisjonsarbeidsark som demonstrerer rent enkeltside KDP-oppsett', caption: 'Addisjonsarbeidsark — rent enkeltoperasjonsoppsett med tydelige svarfelt som demonstrerer profesjonell KDP interiørformatering' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Slik lager du trykkeklare mattearbeidsark for Amazon KDP — formateringsveiledning',

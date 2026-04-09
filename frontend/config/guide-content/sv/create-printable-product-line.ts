@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/matching/Matchningsspel.jpeg', alt: 'Matchningsarbetsblad som demonstrerar konsekvent produktformat för en utskriftsbar produktlinje' },
+    heroImage: { src: '/samples/swedish/matching/matchningsspel.jpeg', alt: 'Matchningsarbetsblad som demonstrerar konsekvent produktformat för en utskriftsbar produktlinje' },
     samples: [
-      { src: '/samples/swedish/matching/Matchningsspel.jpeg', alt: 'Matchningsarbetsblad med konsekvent format för produktlinjebyggande', caption: 'Matchningsarbetsblad bibehåller samma professionella format över alla teman — grunden för en visuellt konsekvent produktlinje' },
-      { src: '/samples/swedish/addition/addition_%C3%B6vning.jpeg', alt: 'Additionsarbetsblad som representerar matteprodukklinje med progressiv svårighet', caption: 'Mattearbetsblad vid flera svårighetsnivåer skapar progressivt djup inom din produktlinje' },
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Ordsökningspussel som visar visuell konsistens över tematiska variationer', caption: 'Ordsökningar över olika teman demonstrerar hur en produktlinje bibehåller visuell sammanhållning' },
+      { src: '/samples/swedish/matching/matchningsspel.jpeg', alt: 'Matchningsarbetsblad med konsekvent format för produktlinjebyggande', caption: 'Matchningsarbetsblad bibehåller samma professionella format över alla teman — grunden för en visuellt konsekvent produktlinje' },
+      { src: '/samples/swedish/addition/addition-övning.jpeg', alt: 'Additionsarbetsblad som representerar matteprodukklinje med progressiv svårighet', caption: 'Mattearbetsblad vid flera svårighetsnivåer skapar progressivt djup inom din produktlinje' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Ordsökningspussel som visar visuell konsistens över tematiska variationer', caption: 'Ordsökningar över olika teman demonstrerar hur en produktlinje bibehåller visuell sammanhållning' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Hur du skapar matchningsarbetsblad för en konsekvent utskriftsbar produktlinje',

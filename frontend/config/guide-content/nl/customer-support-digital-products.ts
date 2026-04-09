@@ -186,11 +186,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad als voorbeeld van digitaal product met goede klantenservice' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekerpuzzel werkblad als voorbeeld van digitaal product met goede klantenservice' },
     samples: [
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker werkblad met duidelijke lay-out die supportvragen voorkomt', caption: 'Woordzoeker met duidelijke instructies en lay-out — goed productontwerp vermindert supportverzoeken' },
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optelwerkblad met antwoordsleutel voor preventieve klantenservice', caption: 'Optelwerkblad met inbegrepen antwoordsleutel — voorkomt de meest gestelde supportvraag' },
-      { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat als laag-support digitaal product voor verkopers', caption: 'Kleurplaten genereren minimale supportverzoeken dankzij het universeel begrepen format' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoeker werkblad met duidelijke lay-out die supportvragen voorkomt', caption: 'Woordzoeker met duidelijke instructies en lay-out — goed productontwerp vermindert supportverzoeken' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optelwerkblad met antwoordsleutel voor preventieve klantenservice', caption: 'Optelwerkblad met inbegrepen antwoordsleutel — voorkomt de meest gestelde supportvraag' },
+      { src: '/samples/dutch/coloring/coloring-portrait-1.webp', alt: 'Kleurplaat als laag-support digitaal product voor verkopers', caption: 'Kleurplaten genereren minimale supportverzoeken dankzij het universeel begrepen format' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Klantenservice voor Digitale Producten — Best Practices voor Printable Verkopers',

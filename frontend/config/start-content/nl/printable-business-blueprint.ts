@@ -213,12 +213,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp', alt: 'Rekenpuzzel werkblad voorbeeld gemaakt met LessonCraftStudio generator' },
+    heroImage: { src: '/samples/dutch/math%20puzzle/wiskundepuzzels-1.webp', alt: 'Rekenpuzzel werkblad voorbeeld gemaakt met LessonCraftStudio generator' },
     samples: [
-      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp', alt: 'Rekenpuzzel werkblad dat instelbare uitvoervariatie toont', caption: 'Rekenpuzzel — Instelbare Moeilijkheid' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker werkblad met thematische woordenlijst', caption: 'Woordzoeker — Thematische Puzzel' },
-      { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat werkblad met thematische illustraties', caption: 'Kleurplaat — Visuele Aantrekkingskracht' },
-      { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Koppelwerkblad dat puur visueel internationaal formaat demonstreert', caption: 'Koppelen — Werkt in Elke Taal' },
+      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels-1.webp', alt: 'Rekenpuzzel werkblad dat instelbare uitvoervariatie toont', caption: 'Rekenpuzzel — Instelbare Moeilijkheid' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoeker werkblad met thematische woordenlijst', caption: 'Woordzoeker — Thematische Puzzel' },
+      { src: '/samples/dutch/coloring/coloring-portrait-1.webp', alt: 'Kleurplaat werkblad met thematische illustraties', caption: 'Kleurplaat — Visuele Aantrekkingskracht' },
+      { src: '/samples/dutch/matching/zoek-de-paren-1.webp', alt: 'Koppelwerkblad dat puur visueel internationaal formaat demonstreert', caption: 'Koppelen — Werkt in Elke Taal' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Hoe Rekenpuzzel Werkbladen te Maken — LessonCraftStudio Demo',

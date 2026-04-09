@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/draw and color/zeichnen-und-ausmale-3.webp', alt: 'Rasterzeichnung-Arbeitsblatt mit Doppelraster-System, das leeres Übungsraster und teilweise aufgedecktes Hinweisraster mit Schwarz-Weiß-Umrissthema zeigt' },
+    heroImage: { src: '/samples/german/draw%20and%20color/zeichnen-und-ausmale-3.webp', alt: 'Rasterzeichnung-Arbeitsblatt mit Doppelraster-System, das leeres Übungsraster und teilweise aufgedecktes Hinweisraster mit Schwarz-Weiß-Umrissthema zeigt' },
     samples: [
-      { src: '/samples/german/draw and color/zeichnen-und-ausmale-3.webp', alt: 'Rasterzeichnung-Arbeitsblatt mit Doppelraster-System aus Übungsraster und Hinweisraster für Zelle-für-Zelle-Reproduktion', caption: 'Doppelraster-Format: leeres Übungsraster oben und Hinweisraster mit teilweiser Referenz unten für strukturierte Zeichenübungen' },
-      { src: '/samples/german/draw and color/zeichnen-und-ausmale-2.webp', alt: 'Tier-Thema Rasterzeichnung-Arbeitsblatt mit Schwarz-Weiß-Umriss bei mittlerem Hinweisprozentsatz', caption: 'Tier-Schwarz-Weiß-Umrissthema bei 25 % Hinweisen — Nutzer reproduzieren den Umriss aus verstreuten Rasterhinweisen und malen dann ihre Zeichnung aus' },
+      { src: '/samples/german/draw%20and%20color/zeichnen-und-ausmale-3.webp', alt: 'Rasterzeichnung-Arbeitsblatt mit Doppelraster-System aus Übungsraster und Hinweisraster für Zelle-für-Zelle-Reproduktion', caption: 'Doppelraster-Format: leeres Übungsraster oben und Hinweisraster mit teilweiser Referenz unten für strukturierte Zeichenübungen' },
+      { src: '/samples/german/draw%20and%20color/zeichnen-und-ausmale-2.webp', alt: 'Tier-Thema Rasterzeichnung-Arbeitsblatt mit Schwarz-Weiß-Umriss bei mittlerem Hinweisprozentsatz', caption: 'Tier-Schwarz-Weiß-Umrissthema bei 25 % Hinweisen — Nutzer reproduzieren den Umriss aus verstreuten Rasterhinweisen und malen dann ihre Zeichnung aus' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'So erstellen Sie Zeichen- und Symmetrie-Arbeitsblätter — Komplettes Tutorial',

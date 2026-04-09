@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/odd one out/finde-das-andere-2.webp', alt: 'Was-passt-nicht-Arbeitsblatt mit vier Bildern pro Übungsreihe, drei gemeinsamen Elementen und einem unpassenden Element mit Koralle-Bernstein-Türkis-Header' },
+    heroImage: { src: '/samples/german/odd%20one%20out/finde-das-andere-2.webp', alt: 'Was-passt-nicht-Arbeitsblatt mit vier Bildern pro Übungsreihe, drei gemeinsamen Elementen und einem unpassenden Element mit Koralle-Bernstein-Türkis-Header' },
     samples: [
-      { src: '/samples/german/odd one out/finde-das-andere-2.webp', alt: 'Was-passt-nicht-Arbeitsblatt mit Übungskarten mit vier Bildern pro Reihe und gestaltetem Finde-den-Ausreißer-Header', caption: 'Was-passt-nicht-Arbeitsblatt mit Vier-Bilder-Übungsreihen und adaptivem Spaltenlayout' },
-      { src: '/samples/german/odd one out/finde-das-andere-1-answer-key.webp', alt: 'Automatisch generierter Lösungsschlüssel mit roten Kreisumrandungen um das unpassende Element in jeder Übungsreihe', caption: 'Automatisch generierter Lösungsschlüssel mit roter Kreis-Markierung zur Identifizierung des unpassenden Elements in jeder Reihe' },
+      { src: '/samples/german/odd%20one%20out/finde-das-andere-2.webp', alt: 'Was-passt-nicht-Arbeitsblatt mit Übungskarten mit vier Bildern pro Reihe und gestaltetem Finde-den-Ausreißer-Header', caption: 'Was-passt-nicht-Arbeitsblatt mit Vier-Bilder-Übungsreihen und adaptivem Spaltenlayout' },
+      { src: '/samples/german/odd%20one%20out/finde-das-andere-1-answer-key.webp', alt: 'Automatisch generierter Lösungsschlüssel mit roten Kreisumrandungen um das unpassende Element in jeder Übungsreihe', caption: 'Automatisch generierter Lösungsschlüssel mit roter Kreis-Markierung zur Identifizierung des unpassenden Elements in jeder Reihe' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'So erstellen Sie Was-passt-nicht-Rätsel — Komplettes Tutorial',
@@ -198,7 +198,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Spargel — thematisches Lernbild', caption: 'Spargel' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Rote Bete — thematisches Lernbild', caption: 'Rote Bete' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Paprika — thematisches Lernbild', caption: 'Paprika' },
+    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Paprika — thematisches Lernbild', caption: 'Paprika' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Brokkoli — thematisches Lernbild', caption: 'Brokkoli' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Kohl — thematisches Lernbild', caption: 'Kohl' },
   ],

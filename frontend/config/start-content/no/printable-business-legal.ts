@@ -214,9 +214,9 @@ const content: StartContent = {
     heroImage: { src: '/samples/norwegian/writing/writing.webp', alt: 'Håndskriftarbeidsark som demonstrerer kommersielt lisensierbart pedagogisk innhold for selgere av utskriftsbare produkter' },
     samples: [
       { src: '/samples/norwegian/writing/writing.webp', alt: 'Håndskriftarbeidsark som viser kommersielt lisensierbart pedagogisk innhold', caption: 'Håndskrift — Kommersielt Lisensierbart Pedagogisk Innhold' },
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøkpuslespill som demonstrerer høyvolum kommersielt produktpotensial', caption: 'Ordsøk — Mest Populære Kommersielle Puslespilltype' },
-      { src: '/samples/norwegian/crossword/bildekryssord%201.webp', alt: 'Kryssordpuslespill som viser flerspråklig kommersiell produktkapabilitet', caption: 'Kryssord — Flerspråklige Kommersielle Produkter' },
-      { src: '/samples/norwegian/math%20puzzle/mattepuslespill%201.webp', alt: 'Matematikkarbeidsark som demonstrerer eviggrønn kommersiell produktgenerering', caption: 'Matematikk — Eviggrønn Kommersiell Produktgenerering' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøkpuslespill som demonstrerer høyvolum kommersielt produktpotensial', caption: 'Ordsøk — Mest Populære Kommersielle Puslespilltype' },
+      { src: '/samples/norwegian/crossword/bildekryssord-1.webp', alt: 'Kryssordpuslespill som viser flerspråklig kommersiell produktkapabilitet', caption: 'Kryssord — Flerspråklige Kommersielle Produkter' },
+      { src: '/samples/norwegian/math%20puzzle/mattepuslespill-1.webp', alt: 'Matematikkarbeidsark som demonstrerer eviggrønn kommersiell produktgenerering', caption: 'Matematikk — Eviggrønn Kommersiell Produktgenerering' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Slik Lager du Håndskriftarbeidsark for din Utskriftsbare Forretning — LessonCraftStudio Demo',

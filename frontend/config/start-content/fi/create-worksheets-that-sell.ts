@@ -213,11 +213,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Ammattimainen yhteenlaskutehtävä luotu LessonCraftStudio-generaattorilla' },
+    heroImage: { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Ammattimainen yhteenlaskutehtävä luotu LessonCraftStudio-generaattorilla' },
     samples: [
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskutehtävä — esimerkkituloste', caption: 'Yhteenlasku — ammattimainen tuloste' },
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhaku — esimerkkituloste', caption: 'Sananhaku — suosittu tehtävätyyppi' },
-      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu — esimerkkituloste', caption: 'Väritys — Etsyn bestsellerikategoria' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Yhteenlaskutehtävä — esimerkkituloste', caption: 'Yhteenlasku — ammattimainen tuloste' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananhaku — esimerkkituloste', caption: 'Sananhaku — suosittu tehtävätyyppi' },
+      { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Värityssivu — esimerkkituloste', caption: 'Väritys — Etsyn bestsellerikategoria' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Näin luot yhteenlaskutehtäviä — LessonCraftStudio-demo',
@@ -228,7 +228,7 @@ const content: StartContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Sonni — teemallinen opetuskuva', caption: 'Sonni' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Vasikka — teemallinen opetuskuva', caption: 'Vasikka' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kissa — teemallinen opetuskuva', caption: 'Kissa' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kissa 2 — teemallinen opetuskuva', caption: 'Kissa 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kissa 2 — teemallinen opetuskuva', caption: 'Kissa 2' },
   ],
 };
 

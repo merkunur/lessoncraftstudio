@@ -244,22 +244,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/missing%20pieces/manglende%20dele%201.webp',
+      primary: '/samples/danish/missing%20pieces/manglende-dele-1.webp',
       primaryAlt: 'Puslespil manglende brikker opgave til print med huller klippet ud af et billede og nummererede brikker at finde',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/missing%20pieces/manglende%20dele%201.webp',
+        src: '/samples/danish/missing%20pieces/manglende-dele-1.webp',
         alt: 'Puslespil med manglende brikker — firkantede huller i farverig illustration til visuel logik i indskoling',
         caption: 'Firkantede brikker — rene geometriske udklip for tydelig visuel identifikation',
       },
       {
-        src: '/samples/danish/missing%20pieces/manglende%20dele%202.webp',
+        src: '/samples/danish/missing%20pieces/manglende-dele-2.webp',
         alt: 'Hvilken brik passer opgave med cirkulære huller og nummererede løsningsalternativer inkl. distraktorer',
         caption: 'Cirkulære brikker — afrundede udklip med distraktorbrikker for øget logik-udfordring',
       },
       {
-        src: '/samples/danish/missing%20pieces/manglende%20dele%203.webp',
+        src: '/samples/danish/missing%20pieces/manglende-dele-3.webp',
         alt: 'Facitliste til puslespil med manglende brikker — gule nummertiketter inde i hvert hul',
         caption: 'Automatisk facit — gule etiketter viser korrekt brik for hvert hul',
       },

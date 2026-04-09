@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/chart%20count/Bilddiagram%201.jpeg', alt: 'Bilddiagram-arbetsblad med utspritt 4×5 bildrutnät och stapeldiagram för räknings- och diagramövning' },
+    heroImage: { src: '/samples/swedish/chart%20count/bilddiagram-1.jpeg', alt: 'Bilddiagram-arbetsblad med utspritt 4×5 bildrutnät och stapeldiagram för räknings- och diagramövning' },
     samples: [
-      { src: '/samples/swedish/chart%20count/Bilddiagram%201.jpeg', alt: 'Bilddiagram-arbetsblad med 20 utspridda ikoner i ett 4×5 rutnät och 6-kolumns stapeldiagram', caption: 'Komplett bilddiagram-arbetsblad med utspritt bildrutnät och stapeldiagram för räkningsövning' },
-      { src: '/samples/swedish/chart%20count/Bilddiagram%20answer_key.jpeg', alt: 'Bilddiagram facit med gulmarkerade celler som visar korrekta antal', caption: 'Autogenererat facit med gulmarkerade celler (#FFC857) som visar korrekt antal för varje bildtyp' },
+      { src: '/samples/swedish/chart%20count/bilddiagram-1.jpeg', alt: 'Bilddiagram-arbetsblad med 20 utspridda ikoner i ett 4×5 rutnät och 6-kolumns stapeldiagram', caption: 'Komplett bilddiagram-arbetsblad med utspritt bildrutnät och stapeldiagram för räkningsövning' },
+      { src: '/samples/swedish/chart%20count/bilddiagram-answer-key.jpeg', alt: 'Bilddiagram facit med gulmarkerade celler som visar korrekta antal', caption: 'Autogenererat facit med gulmarkerade celler (#FFC857) som visar korrekt antal för varje bildtyp' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Hur du skapar räkne- och diagramarbetsblad — Komplett guide',

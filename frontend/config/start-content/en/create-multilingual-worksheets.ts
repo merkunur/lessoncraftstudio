@@ -212,8 +212,8 @@ const content: StartContent = {
     samples: [
       { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Word search puzzle worksheet with language-sensitive vocabulary', caption: 'Word Search — Best Multilingual Demo' },
       { src: '/samples/english/crossword/crossword-worksheet.webp', alt: 'Crossword puzzle with localized clues and answers', caption: 'Crossword — Fully Localized Puzzles' },
-      { src: '/samples/english/word scramble/word-scramble-portrait.webp', alt: 'Word scramble worksheet with language-adapted vocabulary', caption: 'Word Scramble — Language-Sensitive Output' },
-      { src: '/samples/english/alphabet train/alphabet-train-1.webp', alt: 'Alphabet train worksheet showing language-specific letter sets', caption: 'Alphabet Train — Adapted Letter Sets' },
+      { src: '/samples/english/word%20scramble/word-scramble-portrait.webp', alt: 'Word scramble worksheet with language-adapted vocabulary', caption: 'Word Scramble — Language-Sensitive Output' },
+      { src: '/samples/english/alphabet%20train/alphabet-train-1.webp', alt: 'Alphabet train worksheet showing language-specific letter sets', caption: 'Alphabet Train — Adapted Letter Sets' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Worksheets in Multiple Languages — LessonCraftStudio Demo',

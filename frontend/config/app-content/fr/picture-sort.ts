@@ -271,22 +271,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/picture sort/Tri d\'images-1.webp',
+      primary: '/samples/french/picture%20sort/tri-d\'images-1.webp',
       primaryAlt: 'Fiche de tri d\'images à deux catégories avec cadres de catégories thématiques, grille découpée mélangée et en-tête localisé Tri d\'Images',
     },
     sampleGallery: [
       {
-        src: '/samples/french/picture sort/Tri d\'images-1.webp',
+        src: '/samples/french/picture%20sort/tri-d\'images-1.webp',
         alt: 'Fiche de tri en mode thématique avec des images triées dans les catégories gauche et droite',
         caption: 'Mode thématique — catégories remplies automatiquement depuis la bibliothèque d\'images',
       },
       {
-        src: '/samples/french/picture sort/Tri d\'images-2.webp',
+        src: '/samples/french/picture%20sort/tri-d\'images-2.webp',
         alt: 'Fiche de tri en mode manuel avec des images sélectionnées individuellement assignées aux catégories gauche et droite',
         caption: 'Mode manuel — sélectionnez les images et assignez-les aux catégories',
       },
       {
-        src: '/samples/french/picture sort/Tri d\'images-1-answer-key.webp',
+        src: '/samples/french/picture%20sort/tri-d\'images-1-answer-key.webp',
         alt: 'Corrigé de tri d\'images avec images 6 fois plus grandes organisées dans les boîtes de catégories correctes',
         caption: 'Corrigé auto-généré — images 6× plus grandes dans les boîtes de catégories',
       },

@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/treasure%20hunt/Skattjakt%201.jpeg', alt: 'Skattjakt vägfinnararbetsblad med 5×5 koordinatrutnät, utspridda tematiska landmärkesbilder och riktningsledtrådar' },
+    heroImage: { src: '/samples/swedish/treasure%20hunt/skattjakt-1.jpeg', alt: 'Skattjakt vägfinnararbetsblad med 5×5 koordinatrutnät, utspridda tematiska landmärkesbilder och riktningsledtrådar' },
     samples: [
-      { src: '/samples/swedish/treasure%20hunt/Skattjakt%201.jpeg', alt: 'Skattjakt-arbetsblad med grundläggande riktningsledtrådar på 5×5 rutnät', caption: 'Skattjakt med grundläggande riktningsledtrådar på ett 5×5 koordinatrutnät med 6 tematiska landmärkesbilder' },
-      { src: '/samples/swedish/treasure%20hunt/Skattjakt%202.jpeg', alt: 'Skattjakt med kardinalriktningar för avancerat rumsligt resonerande', caption: 'Kardinalriktningsläge med kompassvokabulär för avancerade rumsliga resonerande- och kartläsningsfärdigheter' },
-      { src: '/samples/swedish/treasure%20hunt/Skattjakt%20answer_key.jpeg', alt: 'Autogenererat facit med skattcellen markerad i ljusgult', caption: 'Autogenererat facit med ljusgul markerad skattcell för omedelbar verifiering' },
+      { src: '/samples/swedish/treasure%20hunt/skattjakt-1.jpeg', alt: 'Skattjakt-arbetsblad med grundläggande riktningsledtrådar på 5×5 rutnät', caption: 'Skattjakt med grundläggande riktningsledtrådar på ett 5×5 koordinatrutnät med 6 tematiska landmärkesbilder' },
+      { src: '/samples/swedish/treasure%20hunt/skattjakt-2.jpeg', alt: 'Skattjakt med kardinalriktningar för avancerat rumsligt resonerande', caption: 'Kardinalriktningsläge med kompassvokabulär för avancerade rumsliga resonerande- och kartläsningsfärdigheter' },
+      { src: '/samples/swedish/treasure%20hunt/skattjakt-answer-key.jpeg', alt: 'Autogenererat facit med skattcellen markerad i ljusgult', caption: 'Autogenererat facit med ljusgul markerad skattcell för omedelbar verifiering' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'Hur du skapar skattjakt-arbetsblad — Komplett guide',

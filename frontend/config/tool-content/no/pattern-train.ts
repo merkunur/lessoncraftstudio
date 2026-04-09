@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/pattern%20train/m%c3%b8nstertoget%201.webp',
+      primary: '/samples/norwegian/pattern%20train/mønstertoget-1.webp',
       primaryAlt: 'Mønstertog arbeidsark med tematiske togvogner som viser gjentakende mønstersekvens med en manglende vogn for brukerne å fullføre',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/pattern%20train/m%c3%b8nstertoget%201.webp',
+        src: '/samples/norwegian/pattern%20train/mønstertoget-1.webp',
         alt: 'Mønstertog arbeidsark i AB alternerende mønstermodus med dyrebilder på 11 tematiske togvogner',
         caption: 'AB-mønster med dyretema — brukerne identifiserer den alternerende sekvensen og fyller inn den manglende vognen',
       },
       {
-        src: '/samples/norwegian/pattern%20train/m%c3%b8nstertoget%202.webp',
+        src: '/samples/norwegian/pattern%20train/mønstertoget-2.webp',
         alt: 'Mønstertog arbeidsark i ABC treelementsmønster med tematiske bilder på togvogner',
         caption: 'ABC-mønster — tre roterende objekter generator en mer kompleks gjentakende sekvens',
       },
       {
-        src: '/samples/norwegian/pattern%20train/m%c3%b8nstertoget%203.webp',
+        src: '/samples/norwegian/pattern%20train/mønstertoget-3.webp',
         alt: 'Mønstertog fasit som viser alle 11 vogner utfylt med den korrekte mønstersekvensen',
         caption: 'Fasitvisning — alle 11 vogner utfylt med det korrekte mønsteret for verifikasjon',
       },

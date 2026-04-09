@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/picture%20sort/sortera%20bilder%201.webp',
+      primary: '/samples/swedish/picture%20sort/sortera-bilder-1.webp',
       primaryAlt: 'Tvåkategori bildsortering arbetsblad med streckade kategoriramar överst och blandat utklippsrutnät nedanför med lokaliserad mintgrön Sortera bilder-rubrik',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/picture%20sort/sortera%20bilder%202.webp',
+        src: '/samples/swedish/picture%20sort/sortera-bilder-2.webp',
         alt: 'Temaläge sorteringsarbetsblad med automatiskt fyllda vänster och höger kategorier från bildbiblioteket med blandat utklippsrutnät',
         caption: 'Temaläge — autofyllda kategorier från bildbiblioteket med slumpmässigt utklippsrutnät',
       },
       {
-        src: '/samples/swedish/picture%20sort/sortera%20bilder%203.webp',
+        src: '/samples/swedish/picture%20sort/sortera-bilder-3.webp',
         alt: 'Manuellt läge sorteringsarbetsblad med handvalda bilder tilldelade till vänster och höger kategorier',
         caption: 'Manuellt läge — handvälja bilder och tilldela varje till vänster eller höger kategori',
       },
       {
-        src: '/samples/swedish/picture%20sort/sortera%20bilder%201%20answer-key-2026-01-02.webp',
+        src: '/samples/swedish/picture%20sort/sortera-bilder-1-answer-key-2026-01-02.webp',
         alt: 'Bildsortering facit med 6x större bilder organiserade i korrekta kategorirutor med streckade ramar',
         caption: 'Automatiskt genererat facit — 6× större bilder i kategorirutor med max 2 kolumner per ruta',
       },

@@ -218,22 +218,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/code addition/code-secret-addition-1.webp',
+      primary: '/samples/french/code%20addition/code-secret-addition-1.webp',
       primaryAlt: 'Fiche d\'addition codée avec des symboles-images cachant des nombres secrets dans des puzzles cryptarithmétiques',
     },
     sampleGallery: [
       {
-        src: '/samples/french/code addition/code-secret-addition-1.webp',
+        src: '/samples/french/code%20addition/code-secret-addition-1.webp',
         alt: 'Puzzle de maths à décoder avec des symboles d\'animaux en Mode Classique',
         caption: 'Mode Classique avec thème animaux — chaque symbole cache un nombre unique',
       },
       {
-        src: '/samples/french/code addition/code-secret-addition-2.webp',
+        src: '/samples/french/code%20addition/code-secret-addition-2.webp',
         alt: 'Fiche d\'addition codée en Mode Mot Mystère avec des images de nourriture',
         caption: 'Mode Mot Mystère — résolvez les équations pour épeler un mot secret',
       },
       {
-        src: '/samples/french/code addition/code-secret-addition-3.webp',
+        src: '/samples/french/code%20addition/code-secret-addition-3.webp',
         alt: 'Puzzle cryptarithmétique avec opérandes mixtes et cadre décoratif',
         caption: 'Opérandes mixtes avec décoration de cadre pour un rendu professionnel',
       },

@@ -63,11 +63,11 @@ const content: GuideContent = {
     { appId: 'coloring', title: 'Varityssivugeneraattori', description: 'Laajin ostajakunta. Varityssivut vetoavat vanhempiin, terapeutteihin ja aikuisiin harrastajiin.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Ammattimaiset yhteenlaskutyoarkit luotuna generaattorilla edustamassa tulostettavien tuotteiden laatua 33 generaattorilla' },
+    heroImage: { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Ammattimaiset yhteenlaskutyoarkit luotuna generaattorilla edustamassa tulostettavien tuotteiden laatua 33 generaattorilla' },
     samples: [
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskutyoarkit näyttämässä matematiikka ja numerot -kategorian tulostettavia tuotteita Etsy-kaupoille', caption: 'Matematiikka ja numerot -kategoria: Yhteenlaskutyoarkit vastausavaimella Etsyn digitaalilatauslistauksiin' },
-      { src: '/samples/finnish/wordsearch/sanahaku%203.webp', alt: 'Sananetsintapulmat nayttamassa kirjaimet ja sanat -kategorian tulostettavia tuotteita', caption: 'Kirjaimet ja sanat -kategoria: Sananetsintapulmat temaattisella sanastolla laajaa ostajavetosvoimaa varten' },
-      { src: '/samples/finnish/coloring/coloring%20landscape%201.webp', alt: 'Varityssivut nayttamassa piirto ja taide -kategorian tulostettavia tuotteita', caption: 'Piirto ja taide -kategoria: Varityssivut temaattisilla kuvituksilla laajimmalle ikademografialle' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Yhteenlaskutyoarkit näyttämässä matematiikka ja numerot -kategorian tulostettavia tuotteita Etsy-kaupoille', caption: 'Matematiikka ja numerot -kategoria: Yhteenlaskutyoarkit vastausavaimella Etsyn digitaalilatauslistauksiin' },
+      { src: '/samples/finnish/wordsearch/sanahaku-3.webp', alt: 'Sananetsintapulmat nayttamassa kirjaimet ja sanat -kategorian tulostettavia tuotteita', caption: 'Kirjaimet ja sanat -kategoria: Sananetsintapulmat temaattisella sanastolla laajaa ostajavetosvoimaa varten' },
+      { src: '/samples/finnish/coloring/coloring-landscape-1.webp', alt: 'Varityssivut nayttamassa piirto ja taide -kategorian tulostettavia tuotteita', caption: 'Piirto ja taide -kategoria: Varityssivut temaattisilla kuvituksilla laajimmalle ikademografialle' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Tulostettavien tyoarkkien luominen Etsy-kauppaasi',

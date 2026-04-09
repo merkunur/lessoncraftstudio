@@ -208,22 +208,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/big small/grande-ou-pequeno-1.webp',
+      primary: '/samples/portuguese/big%20small/grande-ou-pequeno-1.webp',
       primaryAlt: 'Atividade de comparação de tamanhos grande e pequeno com imagens temáticas em diferentes tamanhos mostrando um exercício de circundar o maior',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/big small/grande-ou-pequeno-2.webp',
+        src: '/samples/portuguese/big%20small/grande-ou-pequeno-2.webp',
         alt: 'Atividade de comparação de tamanhos em modo circundar o maior com imagens temáticas de animais em diferentes tamanhos',
         caption: 'Modo Circundar o Maior — os usuários identificam a imagem mais grande em cada exercício',
       },
       {
-        src: '/samples/portuguese/big small/grande-ou-pequeno-3.webp',
+        src: '/samples/portuguese/big%20small/grande-ou-pequeno-3.webp',
         alt: 'Atividade de ordenar por tamanho com três imagens numeradas da mais pequena à mais grande',
         caption: 'Numerar 1–2–3 do Menor ao Maior — os usuários ordenam as imagens por tamanho ascendente',
       },
       {
-        src: '/samples/portuguese/big small/grande-ou-pequeno-4.webp',
+        src: '/samples/portuguese/big%20small/grande-ou-pequeno-4.webp',
         alt: 'Atividade de comparação de tamanhos usando o modo imagens idênticas com a mesma imagem em três tamanhos diferentes',
         caption: 'Modo Imagens Idênticas — mesma imagem em diferentes tamanhos para exercícios de perceção pura do tamanho',
       },

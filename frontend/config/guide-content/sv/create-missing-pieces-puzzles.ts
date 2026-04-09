@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/missing%20pieces/Saknade%20bitar%201.jpeg', alt: 'Pusselarbetsblad med hål utstansade från en färgglad illustration och numrerade lösningsalternativ' },
+    heroImage: { src: '/samples/swedish/missing%20pieces/saknade-bitar-1.jpeg', alt: 'Pusselarbetsblad med hål utstansade från en färgglad illustration och numrerade lösningsalternativ' },
     samples: [
-      { src: '/samples/swedish/missing%20pieces/Saknade%20bitar%201.jpeg', alt: 'Saknade bitar-pussel med hål utstansade och numrerade lösningsalternativ', caption: 'Pusselarbetsblad med smart-extraherade bitar och numrerade alternativ inklusive distraktionsbitar' },
-      { src: '/samples/swedish/missing%20pieces/Saknade%20bitar%20answer_key.jpeg', alt: 'Autogenererat facit med gulmarkerade nummeretiketter', caption: 'Autogenererat facit med gulmarkerade etiketter som visar korrekt alternativ för varje hål' },
+      { src: '/samples/swedish/missing%20pieces/saknade-bitar-1.jpeg', alt: 'Saknade bitar-pussel med hål utstansade och numrerade lösningsalternativ', caption: 'Pusselarbetsblad med smart-extraherade bitar och numrerade alternativ inklusive distraktionsbitar' },
+      { src: '/samples/swedish/missing%20pieces/saknade-bitar-answer-key.jpeg', alt: 'Autogenererat facit med gulmarkerade nummeretiketter', caption: 'Autogenererat facit med gulmarkerade etiketter som visar korrekt alternativ för varje hål' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Hur du skapar saknade bitar-pussel — Komplett guide',

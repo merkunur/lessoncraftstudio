@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/cryptogram/bildekryptogram%201.webp',
+      primary: '/samples/norwegian/cryptogram/bildekryptogram-1.webp',
       primaryAlt: 'Kryptogram arbeidsark med bildechiffer som viser tematiske bilder mappet til alfabetbokstaver, som koder en hemmelig setning',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/cryptogram/bildekryptogram%201.webp',
+        src: '/samples/norwegian/cryptogram/bildekryptogram-1.webp',
         alt: 'Kryptogram arbeidsark med tematiske bilder som erstatter bokstaver i en kodet hemmelig setning',
         caption: 'Bildechiffer puslespill — avkod den hemmelige beskjeden ved å identifisere hvilket bilde som representerer hvilken bokstav',
       },
       {
-        src: '/samples/norwegian/cryptogram/bildekryptogram%202.webp',
+        src: '/samples/norwegian/cryptogram/bildekryptogram-2.webp',
         alt: 'Kryptogram arbeidsark med dyretema bilder og Bokstaver å Avsløre tips for støttet vanskelighetsgrad',
         caption: 'Tematisk chiffer med Bokstaver å Avsløre — forhåndsavslørte tilknytninger gir støtting for nybegynnere',
       },
       {
-        src: '/samples/norwegian/cryptogram/bildekryptogram%203.webp',
+        src: '/samples/norwegian/cryptogram/bildekryptogram-3.webp',
         alt: 'Kryptogram fasit med komplett bokstavlegende som viser alle alfabet-til-bilde-tilknytninger i sortert rekkefølge',
         caption: 'Bokstavlegende fasit — hvert alfabetbokstav koblet med sitt tildelte bilde for definitiv løsningsreferanse',
       },

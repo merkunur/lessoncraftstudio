@@ -158,11 +158,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu tulostettavana tuotteena myyntiin Gumroad-kaupassa' },
+    heroImage: { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Värityssivu tulostettavana tuotteena myyntiin Gumroad-kaupassa' },
     samples: [
-      { src: '/samples/finnish/coloring/coloring%20portrait%202.webp', alt: 'Tulostettava värityssivu Gumroad-digitaalituotemyyntiin', caption: 'Värityssivut luovat visuaalisesti houkuttelevia tuotekuvia jotka ohjaavat sosiaalisen median liikennettä Gumroad-kauppaasi' },
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulma Gumroad-kaupan tuotekatalogiin', caption: 'Sananetsintäpulmilla on laaja vetovoima vanhempi- ja ostajayleisöjen keskuudessa — monipuolinen Gumroad-tuotetyyppi' },
-      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistämistehtävätyöarkki Gumroad-tulostettavien liiketoimintaan', caption: 'Yhdistämistehtävät ovat korkean kysynnän opetuksellisia tulostettavia jotka toimivat hyvin yksinään ja paketeissa' },
+      { src: '/samples/finnish/coloring/coloring-portrait-2.webp', alt: 'Tulostettava värityssivu Gumroad-digitaalituotemyyntiin', caption: 'Värityssivut luovat visuaalisesti houkuttelevia tuotekuvia jotka ohjaavat sosiaalisen median liikennettä Gumroad-kauppaasi' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananetsintäpulma Gumroad-kaupan tuotekatalogiin', caption: 'Sananetsintäpulmilla on laaja vetovoima vanhempi- ja ostajayleisöjen keskuudessa — monipuolinen Gumroad-tuotetyyppi' },
+      { src: '/samples/finnish/matching/yhdistä-parit-1.webp', alt: 'Yhdistämistehtävätyöarkki Gumroad-tulostettavien liiketoimintaan', caption: 'Yhdistämistehtävät ovat korkean kysynnän opetuksellisia tulostettavia jotka toimivat hyvin yksinään ja paketeissa' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Värityssivujen luominen Gumroad-tulostettavien kauppaasi',

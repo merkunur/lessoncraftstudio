@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp',
+      primary: '/samples/dutch/math%20worksheet/wiskundeblad-1.webp',
       primaryAlt: 'Algebra beeldpuzzel werkblad met afbeeldingssymbolen als onbekende variabelen in gekoppelde vergelijkingen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp',
+        src: '/samples/dutch/math%20worksheet/wiskundeblad-1.webp',
         alt: 'Visuele algebra puzzel met twee afbeeldingssymbolen en optelvergelijkingen voor beginners',
         caption: 'Heel Makkelijk modus — twee symbolen met eenvoudige optelling',
       },
       {
-        src: '/samples/dutch/math%20worksheet/wiskundeblad%202.webp',
+        src: '/samples/dutch/math%20worksheet/wiskundeblad-2.webp',
         alt: 'Gemiddelde moeilijkheid algebra beeldpuzzel met drie afbeeldingsvariabelen over gekoppelde vergelijkingen',
         caption: 'Gemiddelde moeilijkheid — drie onbekenden in gekoppelde vergelijkingen',
       },
       {
-        src: '/samples/dutch/math%20worksheet/wiskundeblad%203.webp',
+        src: '/samples/dutch/math%20worksheet/wiskundeblad-3.webp',
         alt: 'Moeilijke algebra puzzel werkblad met vier gelijktijdige onbekenden en gemengde bewerkingen',
         caption: 'Moeilijk modus — vier variabelen met optellen en aftrekken',
       },

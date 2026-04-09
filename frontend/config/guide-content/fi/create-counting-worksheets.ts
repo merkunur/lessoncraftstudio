@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/chart%20count/kuvakaavio%201.webp', alt: 'Kuvakaavio-työarkki hajautetulla 4×5 kuvaruudukolla ja pylväsdiagrammilla lasku- ja kaavioharjoitusta varten' },
+    heroImage: { src: '/samples/finnish/chart%20count/kuvakaavio-1.webp', alt: 'Kuvakaavio-työarkki hajautetulla 4×5 kuvaruudukolla ja pylväsdiagrammilla lasku- ja kaavioharjoitusta varten' },
     samples: [
-      { src: '/samples/finnish/chart%20count/kuvakaavio%201.webp', alt: 'Kuvakaavio-työarkki 20 hajautetulla kuvakkeella 4×5 ruudukossa ja 6-sarakkeen pylväsdiagrammilla alla', caption: 'Täydellinen kuvakaavio-työarkki hajautetulla kuvaruudukolla ja pylväsdiagrammilla käyttäjän laskuharjoitusta varten' },
-      { src: '/samples/finnish/chart%20count/kuvakaavio%202.webp', alt: 'Kuvakaavion vastausavain keltakorosteisilla soluilla jotka näyttävät oikeat laskelmat', caption: 'Automaattisesti luotu vastausavain keltakorosteisilla soluilla (#FFC857) jotka näyttävät oikean lukumäärän kullekin kuvatyypille' },
+      { src: '/samples/finnish/chart%20count/kuvakaavio-1.webp', alt: 'Kuvakaavio-työarkki 20 hajautetulla kuvakkeella 4×5 ruudukossa ja 6-sarakkeen pylväsdiagrammilla alla', caption: 'Täydellinen kuvakaavio-työarkki hajautetulla kuvaruudukolla ja pylväsdiagrammilla käyttäjän laskuharjoitusta varten' },
+      { src: '/samples/finnish/chart%20count/kuvakaavio-2.webp', alt: 'Kuvakaavion vastausavain keltakorosteisilla soluilla jotka näyttävät oikeat laskelmat', caption: 'Automaattisesti luotu vastausavain keltakorosteisilla soluilla (#FFC857) jotka näyttävät oikean lukumäärän kullekin kuvatyypille' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Kuinka luot lasku- ja kaaviotyöarkkeja — Täydellinen opas',

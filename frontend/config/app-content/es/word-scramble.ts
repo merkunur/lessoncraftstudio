@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/word scramble/palabras-revueltas-1.webp',
+      primary: '/samples/spanish/word%20scramble/palabras-revueltas-1.webp',
       primaryAlt: 'Ficha de letras revueltas con pistas de imagen y fichas de letras desordenadas mostrando puzzles de ortografía por reordenamiento',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/word scramble/palabras-revueltas-1.webp',
+        src: '/samples/spanish/word%20scramble/palabras-revueltas-1.webp',
         alt: 'Ficha de letras revueltas en dificultad Fácil mostrando la mitad de las letras pre-colocadas',
         caption: 'Dificultad Fácil — la mitad de las letras pre-colocadas como pistas para principiantes en ortografía',
       },
       {
-        src: '/samples/spanish/word scramble/palabras-revueltas-2.webp',
+        src: '/samples/spanish/word%20scramble/palabras-revueltas-2.webp',
         alt: 'Ficha de letras revueltas con código de colores vocales-consonantes mostrando fichas de letras de colores',
         caption: 'Modo Código de Colores — vocales y consonantes en colores diferentes para conciencia fonética',
       },
       {
-        src: '/samples/spanish/word scramble/palabras-revueltas-1-answer-key.webp',
+        src: '/samples/spanish/word%20scramble/palabras-revueltas-1-answer-key.webp',
         alt: 'Clave de respuesta de letras revueltas con todas las letras correctamente reordenadas',
         caption: 'Clave de respuesta — palabras correctamente reordenadas para corrección y auto-verificación fáciles',
       },

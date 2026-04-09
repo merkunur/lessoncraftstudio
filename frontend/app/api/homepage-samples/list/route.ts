@@ -154,7 +154,7 @@ async function checkLanguageStatus(locale: string, language: string): Promise<La
   const appChecks = await Promise.all(
     validAppIds.map(async (appId) => {
       const [hasThumbnail, hasThumbWebp, hasPreviewWebp, hasPdf] = await Promise.all([
-        fileExists(path.join(dir, `${appId}thumbnail.webp`)),
+        fileExists(path.join(dir, `${appId}-thumbnail.webp`)),
         fileExists(path.join(dir, `${appId}-thumbnail_thumb.webp`)),
         fileExists(path.join(dir, `${appId}-thumbnail_preview.webp`)),
         fileExists(path.join(dir, `${appId}-sample.pdf`))

@@ -141,22 +141,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp',
+      src: '/samples/finnish/matching/yhdistä-parit-1.webp',
       alt: 'Yhdistämistehtävätyöarkki jossa näkyy teemojen monipuolisuus kannattavaan markkinarakotutkimukseen opetuksellisissa aiheissa',
     },
     samples: [
       {
-        src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp',
+        src: '/samples/finnish/matching/yhdistä-parit-1.webp',
         alt: 'Temaattinen yhdistämistehtävä joka havainnollistaa markkinarakojen monipuolisuutta opetuksellisissa tulostettavissa',
         caption: 'Yhdistämistehtävät kattavat kymmeniä teemoja mahdollistaen useiden markkinarakojen nopean tutkimisen ja testaamisen',
       },
       {
-        src: '/samples/finnish/wordsearch/sanahaku%201.webp',
+        src: '/samples/finnish/wordsearch/sanahaku-1.webp',
         alt: 'Sananetsintäpulma joka näyttää aiheiden ja kielten välisen markkinarakotestipotentiaalin',
         caption: 'Sananetsinnät validoivat markkinaraon kysynnän eri aiheiden ja kielten läpi minimaalisella tuotantoajalla',
       },
       {
-        src: '/samples/finnish/coloring/coloring%20portrait%201.webp',
+        src: '/samples/finnish/coloring/coloring-portrait-1.webp',
         alt: 'Temaattinen värityssivu joka osoittaa miten visuaaliset markkinaraot muuntuvat myytäviksi tulostettaviksi',
         caption: 'Värityssivut paljastavat mitkä visuaaliset teemat herättävät ostajien kiinnostuksen eri markkinasegmenteissä',
       },

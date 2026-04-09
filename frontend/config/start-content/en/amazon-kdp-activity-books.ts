@@ -215,7 +215,7 @@ const content: StartContent = {
     samples: [
       { src: '/samples/english/sudoku/sudoku-worksheet.webp', alt: 'Sudoku puzzle worksheet for KDP activity book interior', caption: 'Sudoku — Top KDP Puzzle Category' },
       { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Word search puzzle for Amazon KDP activity book', caption: 'Word Search — KDP Best Seller Category' },
-      { src: '/samples/english/math puzzle/math-puzzles.webp', alt: 'Math puzzle worksheet for KDP workbook interior', caption: 'Math Puzzle — Evergreen KDP Niche' },
+      { src: '/samples/english/math%20puzzle/math-puzzles.webp', alt: 'Math puzzle worksheet for KDP workbook interior', caption: 'Math Puzzle — Evergreen KDP Niche' },
       { src: '/samples/english/crossword/crossword-worksheet.webp', alt: 'Crossword puzzle worksheet for KDP activity book', caption: 'Crossword — Classic Activity Book Format' },
     ],
     youtubeId: 'bqVioFbkYbA',

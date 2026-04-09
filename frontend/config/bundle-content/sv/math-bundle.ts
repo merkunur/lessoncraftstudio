@@ -217,16 +217,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/addition/addition-%c3%b6vning.webp',
+      primary: '/samples/swedish/addition/addition-övning.webp',
       primaryAlt: 'Additionsarbetsblad med tematiska bilder som visar visuella räkneuppgifter',
     },
     sampleGallery: [
-      { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Additionsarbetsblad med tematiska djurbilder', caption: 'Additionsarbetsblad' },
-      { src: '/samples/swedish/subtraction/rolig%20subtraktio%201.webp', alt: 'Subtraktionsarbetsblad med stryk-över-räkning', caption: 'Subtraktionsarbetsblad' },
-      { src: '/samples/swedish/code addition/image-addition-worksheet.webp', alt: 'Kodadditionspussel med bokstavsavkodning', caption: 'Kodadditionspussel' },
-      { src: '/samples/swedish/more less/mer%20mindre%201.webp', alt: 'Större-än mindre-än jämförelsearbetsblad', caption: 'Mer eller Mindre Arbetsblad' },
-      { src: '/samples/swedish/math puzzle/mattepussel%201.webp', alt: 'Pusselrutnäts mattepussel med ekvationer', caption: 'Mattepussel Arbetsblad' },
-      { src: '/samples/swedish/math worksheet/mattetal%20portrait.webp', alt: 'Visuellt algebrapussel med bildvariabler', caption: 'Matematik Arbetsblad Pussel' },
+      { src: '/samples/swedish/addition/addition-övning.webp', alt: 'Additionsarbetsblad med tematiska djurbilder', caption: 'Additionsarbetsblad' },
+      { src: '/samples/swedish/subtraction/rolig-subtraktio-1.webp', alt: 'Subtraktionsarbetsblad med stryk-över-räkning', caption: 'Subtraktionsarbetsblad' },
+      { src: '/samples/swedish/code%20addition/image-addition-worksheet.webp', alt: 'Kodadditionspussel med bokstavsavkodning', caption: 'Kodadditionspussel' },
+      { src: '/samples/swedish/more%20less/mer-mindre-1.webp', alt: 'Större-än mindre-än jämförelsearbetsblad', caption: 'Mer eller Mindre Arbetsblad' },
+      { src: '/samples/swedish/math%20puzzle/mattepussel-1.webp', alt: 'Pusselrutnäts mattepussel med ekvationer', caption: 'Mattepussel Arbetsblad' },
+      { src: '/samples/swedish/math%20worksheet/mattetal-portrait.webp', alt: 'Visuellt algebrapussel med bildvariabler', caption: 'Matematik Arbetsblad Pussel' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Matematik Mästarpaket — Se alla 6 generatorer i aktion',

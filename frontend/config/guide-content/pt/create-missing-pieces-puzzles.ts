@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/missing pieces/peças-em-falta-1.webp', alt: 'Atividade de puzzle de quebra-cabeças com buracos recortados de uma ilustração colorida e opções de solução numeradas incluindo distratoras abaixo com cabeçalho turquesa Peças faltantes e enquadramento de moldura dupla teal-rosa' },
+    heroImage: { src: '/samples/portuguese/missing%20pieces/peças-em-falta-1.webp', alt: 'Atividade de puzzle de quebra-cabeças com buracos recortados de uma ilustração colorida e opções de solução numeradas incluindo distratoras abaixo com cabeçalho turquesa Peças faltantes e enquadramento de moldura dupla teal-rosa' },
     samples: [
-      { src: '/samples/portuguese/missing pieces/peças-em-falta-2.webp', alt: 'Atividade de puzzle de peças faltantes mostrando uma imagem com buracos recortados e opções de solução numeradas apresentadas abaixo com cabeçalho de moldura dupla', caption: 'Atividade de puzzle de quebra-cabeças com peças extraídas inteligentemente e opções de solução numeradas incluindo distratoras' },
-      { src: '/samples/portuguese/missing pieces/peças-em-falta-3.webp', alt: 'Chave de respostas autogerada com etiquetas numéricas realçadas a amarelo colocadas dentro de cada buraco mostrando o índice da opção correta', caption: 'Chave de respostas autogerada com etiquetas realçadas a amarelo mostrando a opção correta para cada buraco' },
+      { src: '/samples/portuguese/missing%20pieces/peças-em-falta-2.webp', alt: 'Atividade de puzzle de peças faltantes mostrando uma imagem com buracos recortados e opções de solução numeradas apresentadas abaixo com cabeçalho de moldura dupla', caption: 'Atividade de puzzle de quebra-cabeças com peças extraídas inteligentemente e opções de solução numeradas incluindo distratoras' },
+      { src: '/samples/portuguese/missing%20pieces/peças-em-falta-3.webp', alt: 'Chave de respostas autogerada com etiquetas numéricas realçadas a amarelo colocadas dentro de cada buraco mostrando o índice da opção correta', caption: 'Chave de respostas autogerada com etiquetas realçadas a amarelo mostrando a opção correta para cada buraco' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Como criar puzzles de peças faltantes — Tutorial completo',
@@ -197,7 +197,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Touro — imagem educativa temática', caption: 'Touro' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Bezerro — imagem educativa temática', caption: 'Bezerro' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gato 2 — imagem educativa temática', caption: 'Gato 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Gato 2 — imagem educativa temática', caption: 'Gato 2' },
   ],
 };
 

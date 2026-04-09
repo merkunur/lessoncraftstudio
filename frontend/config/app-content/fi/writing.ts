@@ -259,12 +259,12 @@ const content: AppContent = {
         caption: 'Jäljennä-tila nuoliveto-järjestyksellä — numeroidut suuntanuolet näyttävät tarkan kirjainmuodostussekvenssin',
       },
       {
-        src: '/samples/finnish/writing/writing%20beginning%20letter.webp',
+        src: '/samples/finnish/writing/writing-beginning-letter.webp',
         alt: 'Kirjoitusharjoitustyöarkki häipyvässä jäljennystilassa kirjaimilla jotka progressiivisesti häipyvät jokaisella rivillä',
         caption: 'Häipyvä Jäljennys -tila — kirjaimet häipyvät progressiivisesti itsenäisen kirjoittamisen rakentamiseksi',
       },
       {
-        src: '/samples/finnish/writing/writing%20custom.webp',
+        src: '/samples/finnish/writing/writing-custom.webp',
         alt: 'Kirjoitusharjoitustyöarkki ohjatun kopioinnin tilassa kaunokirjoitusfonttityylillä kolmiviivaohjaimilla',
         caption: 'Kaunokirjoitus Ohjattu Kopiointi — haaleat kaunokirjoitusääriviivat kolmiviivajärjestelmällä',
       },

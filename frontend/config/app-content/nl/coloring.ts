@@ -224,22 +224,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/dutch/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Aangepaste kleurplaat met thematische afbeeldingen op vrije-vorm canvas met decoratieve rand en naamveld voor gebruikers',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/coloring/coloring%20portrait%202.webp',
+        src: '/samples/dutch/coloring/coloring-portrait-2.webp',
         alt: 'Dierenthema kleurplaat met kleurrijke illustraties vrij geschikt op het canvas',
         caption: 'Dierenthema kleurplaat — kleurrijke illustraties vrij geschikt op het canvas',
       },
       {
-        src: '/samples/dutch/coloring/coloring%20portrait%203.webp',
+        src: '/samples/dutch/coloring/coloring-portrait-3.webp',
         alt: 'Kleurplaat met schrijflijnen en naamveld voor gebruikers voor gebruik online',
         caption: 'Klaar voor het winkel — kleurplaat met naamveld en schrijflijnen voor schrijfoefening',
       },
       {
-        src: '/samples/dutch/coloring/coloring%20landscape%201.webp',
+        src: '/samples/dutch/coloring/coloring-landscape-1.webp',
         alt: 'Grijstinten kleurplaat met decoratieve rand klaar voor inkvriendelijk afdrukken',
         caption: 'Grijstintenexport — inkvriendelijke kleurplaat met decoratief randthema',
       },

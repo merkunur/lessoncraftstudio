@@ -212,22 +212,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/bingo/bildebingo%201.webp',
+      primary: '/samples/norwegian/bingo/bildebingo-1.webp',
       primaryAlt: 'Bildebingokort med tematiske bilder i et konfigurerbart rutenett og sirkulære brikker med stiplede kanter nedenfor for matching under bingospill',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/bingo/bildebingo%201.webp',
+        src: '/samples/norwegian/bingo/bildebingo-1.webp',
         alt: 'Bildebingokort med bildefylling som viser fargerike tematiske illustrasjoner i rutenettceller og sirkulære bildebrikker med stiplede kanter',
         caption: 'Bildefyllingsmodus — fargerike illustrasjoner i både kortceller og sirkulære brikker for visuelt bingo',
       },
       {
-        src: '/samples/norwegian/bingo/bildebingo%202.webp',
+        src: '/samples/norwegian/bingo/bildebingo-2.webp',
         alt: 'Bildebingokort med ordfylling som viser lokaliserte bildenavn i rutenettceller og ordbrikker for ordforråds bingo',
         caption: 'Ordfyllingsmodus — lokaliserte bildenavn for ordforrådsbaserte flerspråklige bingoprodukter',
       },
       {
-        src: '/samples/norwegian/bingo/bildebingo%203.webp',
+        src: '/samples/norwegian/bingo/bildebingo-3.webp',
         alt: 'Bingo opropsliste med dynamisk ordrutenett som viser alle spillobjekter organisert i kolonner for spilllederen',
         caption: 'Opropsliste — dynamisk ordrutenett med beregnede kolonner og ensartet skriftstørrelse for spilllederen',
       },

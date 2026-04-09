@@ -178,7 +178,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/portuguese/addition/adição-divertida-2.webp', alt: 'Atividade de adição com tema de animais para loja Etsy de atividades de matemática', caption: 'Atividade de adição com tema de animais — as ilustrações visuais destacam-se nos resultados de pesquisa do Etsy em relação a exercícios de texto simples' },
       { src: '/samples/portuguese/subtraction/subtrações-divertidas-1.webp', alt: 'Atividade de subtração com tema de veículos mostrando formato complementar de matemática', caption: 'Atividade de subtração com tema de veículos — combine com atividades de adição para pacotes de matemática multi-competência' },
-      { src: '/samples/portuguese/code addition/código-secreto-adição-1.webp', alt: 'Puzzle de adição codificada mostrando formato diferenciador para vendedores Etsy', caption: 'Puzzle de adição codificada — formato de resolução de mistérios que diferencia a sua loja no Etsy' },
+      { src: '/samples/portuguese/code%20addition/código-secreto-adição-1.webp', alt: 'Puzzle de adição codificada mostrando formato diferenciador para vendedores Etsy', caption: 'Puzzle de adição codificada — formato de resolução de mistérios que diferencia a sua loja no Etsy' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como criar atividades de matemática para vender no Etsy — Tutorial passo a passo',

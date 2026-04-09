@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Ordsökningspussel som visar flernyckelords pedagogisk utskriftsprodukt för Etsy SEO-optimering' },
+    heroImage: { src: '/samples/swedish/wordsearch/ordletning-portrait.webp', alt: 'Ordsökningspussel som visar flernyckelords pedagogisk utskriftsprodukt för Etsy SEO-optimering' },
     samples: [
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Djurtematiserat ordsökningspussel som demonstrerar temabaserad Etsy-nyckelordsinriktning', caption: 'Ordsökning med djurtema — varje språk- och temvariation riktar sig mot olika Etsy-söknyckelord' },
-      { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Djurtematiserat additionsarbetsblad som riktar sig mot högvolyms Etsy matte-utskriftsnyckelord', caption: 'Additionsarbetsblad med djurtema — riktar sig mot högvolyms matteUtskriftsnyckelord på Etsy' },
-      { src: '/samples/swedish/coloring/coloring%20portrait%201.webp', alt: 'Djurmålarbild som visar temadriven Etsy-nyckelordsstrategi för utskriftssäljare', caption: 'Målarbild med djurtema — temaspecifika nyckelord driver riktad Etsy-söktrafik' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.webp', alt: 'Djurtematiserat ordsökningspussel som demonstrerar temabaserad Etsy-nyckelordsinriktning', caption: 'Ordsökning med djurtema — varje språk- och temvariation riktar sig mot olika Etsy-söknyckelord' },
+      { src: '/samples/swedish/addition/addition-övning.webp', alt: 'Djurtematiserat additionsarbetsblad som riktar sig mot högvolyms Etsy matte-utskriftsnyckelord', caption: 'Additionsarbetsblad med djurtema — riktar sig mot högvolyms matteUtskriftsnyckelord på Etsy' },
+      { src: '/samples/swedish/coloring/coloring-portrait-1.webp', alt: 'Djurmålarbild som visar temadriven Etsy-nyckelordsstrategi för utskriftssäljare', caption: 'Målarbild med djurtema — temaspecifika nyckelord driver riktad Etsy-söktrafik' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hur du skapar ordsökningsarbetsblad för Etsy SEO — flernyckelords produktstrategi',
@@ -207,7 +207,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Tjur — tematisk pedagogisk bild', caption: 'Tjur' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalv — tematisk pedagogisk bild', caption: 'Kalv' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Katt — tematisk pedagogisk bild', caption: 'Katt' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Katt 2 — tematisk pedagogisk bild', caption: 'Katt 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Katt 2 — tematisk pedagogisk bild', caption: 'Katt 2' },
   ],
 };
 

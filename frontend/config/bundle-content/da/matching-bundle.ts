@@ -203,15 +203,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/matching/find%20parrene%201.webp',
+      primary: '/samples/danish/matching/find-parrene-1.webp',
       primaryAlt: 'Matchningsarbejdsark med tematiske billeder der viser parmatchningsøvelse',
     },
     sampleGallery: [
-      { src: '/samples/danish/matching/find%20parrene%201.webp', alt: 'Find Parrene — dansk eksempel', caption: 'Find Parrene' },
-      { src: '/samples/danish/grid%20match/gitterpuslespil%201.webp', alt: 'Gitterpuslespil — dansk eksempel', caption: 'Gitterpuslespil' },
-      { src: '/samples/danish/shadow%20match/g%c3%b8r%20billederne%20hele%201.webp', alt: 'Skyggematching — dansk eksempel', caption: 'Skyggematching' },
-      { src: '/samples/danish/bingo/billedbingo%201.webp', alt: 'Billedbingo — dansk eksempel', caption: 'Billedbingo' },
-      { src: '/samples/danish/picture%20sort/sorter%20billeder%201.webp', alt: 'Sorter Billeder — dansk eksempel', caption: 'Sorter Billeder' },
+      { src: '/samples/danish/matching/find-parrene-1.webp', alt: 'Find Parrene — dansk eksempel', caption: 'Find Parrene' },
+      { src: '/samples/danish/grid%20match/gitterpuslespil-1.webp', alt: 'Gitterpuslespil — dansk eksempel', caption: 'Gitterpuslespil' },
+      { src: '/samples/danish/shadow%20match/gør-billederne-hele-1.webp', alt: 'Skyggematching — dansk eksempel', caption: 'Skyggematching' },
+      { src: '/samples/danish/bingo/billedbingo-1.webp', alt: 'Billedbingo — dansk eksempel', caption: 'Billedbingo' },
+      { src: '/samples/danish/picture%20sort/sorter-billeder-1.webp', alt: 'Sorter Billeder — dansk eksempel', caption: 'Sorter Billeder' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Matchning & Sortering-pakke — Se alle 5 generatorer i aktion',
@@ -222,7 +222,7 @@ const content: BundleContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Tyr — tematisk pædagogisk billede', caption: 'Tyr' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalv — tematisk pædagogisk billede', caption: 'Kalv' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kat — tematisk pædagogisk billede', caption: 'Kat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kat 2 — tematisk pædagogisk billede', caption: 'Kat 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kat 2 — tematisk pædagogisk billede', caption: 'Kat 2' },
     { src: '/image-library/farm%20animals/chick.webp', alt: 'Kylling — tematisk pædagogisk billede', caption: 'Kylling' },
     { src: '/image-library/farm%20animals/chicken.webp', alt: 'Høne — tematisk pædagogisk billede', caption: 'Høne' },
     { src: '/image-library/farm%20animals/cow.webp', alt: 'Ko — tematisk pædagogisk billede', caption: 'Ko' },

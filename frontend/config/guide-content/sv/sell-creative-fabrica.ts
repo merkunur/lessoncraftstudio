@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Utskriftsbar printable för att sälja pedagogiska resurser på Creative Fabrica' },
+    heroImage: { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Utskriftsbar printable för att sälja pedagogiska resurser på Creative Fabrica' },
     samples: [
-      { src: '/samples/swedish/matching/Matchningsspel.jpeg', alt: 'Matchningsarbetsblad aktivitet för Creative Fabrica pedagogiska produkter', caption: 'Tematiska matchningsaktiviteter är högefterfrågade resurser i Creative Fabricas Classroom-sektion' },
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Ordsökningspussel printable för Creative Fabrica marknadsplats', caption: 'Ordsökningspussel attraherar prenumerationsnedladdningar från både säljare och föräldrar' },
-      { src: '/samples/swedish/drawing%20lines/rita%20linjer.jpeg', alt: 'Ritarbetsblad för Creative Fabrica designmarknadsplats', caption: 'Ritarbetsblad passar naturligt i Creative Fabricas designcentrerade marknadsplats' },
+      { src: '/samples/swedish/matching/matchningsspel.jpeg', alt: 'Matchningsarbetsblad aktivitet för Creative Fabrica pedagogiska produkter', caption: 'Tematiska matchningsaktiviteter är högefterfrågade resurser i Creative Fabricas Classroom-sektion' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Ordsökningspussel printable för Creative Fabrica marknadsplats', caption: 'Ordsökningspussel attraherar prenumerationsnedladdningar från både säljare och föräldrar' },
+      { src: '/samples/swedish/drawing%20lines/rita-linjer.jpeg', alt: 'Ritarbetsblad för Creative Fabrica designmarknadsplats', caption: 'Ritarbetsblad passar naturligt i Creative Fabricas designcentrerade marknadsplats' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hur du skapar pedagogiska arbetsblad för Creative Fabrica',

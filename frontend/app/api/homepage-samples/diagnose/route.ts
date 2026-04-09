@@ -128,7 +128,7 @@ export async function GET(request: Request): Promise<NextResponse> {
     const appDiagnoses: AppDiagnosis[] = await Promise.all(
       validAppIds.map(async (appId) => {
         const [thumbnail, thumbWebp, previewWebp, pdf] = await Promise.all([
-          getFileInfo(path.join(homepageDir, `${appId}thumbnail.webp`)),
+          getFileInfo(path.join(homepageDir, `${appId}-thumbnail.webp`)),
           getFileInfo(path.join(homepageDir, `${appId}-thumbnail_thumb.webp`)),
           getFileInfo(path.join(homepageDir, `${appId}-thumbnail_preview.webp`)),
           getFileInfo(path.join(homepageDir, `${appId}-sample.pdf`)),

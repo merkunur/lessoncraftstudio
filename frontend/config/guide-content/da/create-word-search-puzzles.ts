@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/wordsearch/ords%c3%b8gning%201.webp', alt: 'Ordsøgningspuslespil med tematiske billedledetråde der viser ordforrådsord skjult i et bogstavgitter' },
+    heroImage: { src: '/samples/danish/wordsearch/ordsøgning-1.webp', alt: 'Ordsøgningspuslespil med tematiske billedledetråde der viser ordforrådsord skjult i et bogstavgitter' },
     samples: [
-      { src: '/samples/danish/wordsearch/ords%c3%b8gning%201.webp', alt: 'Ordsøgning — dansk eksempelarbejdsark', caption: 'Ordsøgning eksempel 1' },
-      { src: '/samples/danish/wordsearch/ords%c3%b8gning%202.webp', alt: 'Ordsøgning — dansk eksempel 2', caption: 'Ordsøgning eksempel 2' },
-      { src: '/samples/danish/wordsearch/ords%c3%b8gning%203.webp', alt: 'Ordsøgning — dansk eksempel 3', caption: 'Ordsøgning eksempel 3' },
+      { src: '/samples/danish/wordsearch/ordsøgning-1.webp', alt: 'Ordsøgning — dansk eksempelarbejdsark', caption: 'Ordsøgning eksempel 1' },
+      { src: '/samples/danish/wordsearch/ordsøgning-2.webp', alt: 'Ordsøgning — dansk eksempel 2', caption: 'Ordsøgning eksempel 2' },
+      { src: '/samples/danish/wordsearch/ordsøgning-3.webp', alt: 'Ordsøgning — dansk eksempel 3', caption: 'Ordsøgning eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan generator du ordsøgningspuslespil — Komplet vejledning',

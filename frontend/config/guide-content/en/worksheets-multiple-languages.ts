@@ -174,7 +174,7 @@ const content: GuideContent = {
         caption: 'Word search worksheets demonstrate the importance of correct character handling across languages',
       },
       {
-        src: '/samples/english/alphabet train/alphabet-train-10.webp',
+        src: '/samples/english/alphabet%20train/alphabet-train-10.webp',
         alt: 'Alphabet train worksheet showing language-specific letter and character generation',
         caption: 'Alphabet worksheets require language-specific characters including umlauts and accented letters',
       },

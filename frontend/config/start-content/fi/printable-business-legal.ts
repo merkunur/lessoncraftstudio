@@ -217,8 +217,8 @@ const content: StartContent = {
     heroImage: { src: '/samples/finnish/writing/writing.webp', alt: 'Kirjoitustehtävä joka osoittaa kaupallisesti lisensoitavaa opetuksellista sisältöä tulostettavien tuotteiden myyjille' },
     samples: [
       { src: '/samples/finnish/writing/writing.webp', alt: 'Kirjoitusharjoitus — esimerkkitehtävä', caption: 'Kirjoitusharjoitus esimerkki 1' },
-      { src: '/samples/finnish/writing/writing%20custom.webp', alt: 'Kirjoitusharjoitus — esimerkki 2', caption: 'Kirjoitusharjoitus esimerkki 2' },
-      { src: '/samples/finnish/writing/writing%20beginning%20letter.webp', alt: 'Kirjoitusharjoitus — esimerkki 3', caption: 'Kirjoitusharjoitus esimerkki 3' },
+      { src: '/samples/finnish/writing/writing-custom.webp', alt: 'Kirjoitusharjoitus — esimerkki 2', caption: 'Kirjoitusharjoitus esimerkki 2' },
+      { src: '/samples/finnish/writing/writing-beginning-letter.webp', alt: 'Kirjoitusharjoitus — esimerkki 3', caption: 'Kirjoitusharjoitus esimerkki 3' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Näin luot kirjoitustehtäviä tulostettavien liiketoimintaasi varten — LessonCraftStudio demo',

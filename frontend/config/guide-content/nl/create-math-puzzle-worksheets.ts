@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp', alt: 'Rekenpuzzel werkblad met door elkaar gehusselde afbeeldingsstukken en rekenvergelijkingen voor kinderen om op te lossen en samen te stellen' },
+    heroImage: { src: '/samples/dutch/math%20puzzle/wiskundepuzzels-1.webp', alt: 'Rekenpuzzel werkblad met door elkaar gehusselde afbeeldingsstukken en rekenvergelijkingen voor kinderen om op te lossen en samen te stellen' },
     samples: [
-      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp', alt: 'Rekenpuzzel werkblad met dierenthema met rastervergelijkingen en genummerde afbeeldingsfragmenten', caption: 'Rekenpuzzel werkblad — kinderen lossen vergelijkingen op om te bepalen waar elk genummerd afbeeldingsstuk hoort in het raster' },
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optellen werkblad met thematische afbeeldingen als aanvullend product', caption: 'Optellen werkblad — combineer met rekenpuzzels voor uitgebreide rekenpakketten' },
-      { src: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp', alt: 'Rekenwerkblad met antwoordsleutel en opgeloste vergelijkingen', caption: 'Automatische antwoordsleutel met de gereconstrueerde afbeelding op 30% dekking en volledig opgeloste vergelijkingen' },
+      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels-1.webp', alt: 'Rekenpuzzel werkblad met dierenthema met rastervergelijkingen en genummerde afbeeldingsfragmenten', caption: 'Rekenpuzzel werkblad — kinderen lossen vergelijkingen op om te bepalen waar elk genummerd afbeeldingsstuk hoort in het raster' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optellen werkblad met thematische afbeeldingen als aanvullend product', caption: 'Optellen werkblad — combineer met rekenpuzzels voor uitgebreide rekenpakketten' },
+      { src: '/samples/dutch/math%20worksheet/wiskundeblad-1.webp', alt: 'Rekenwerkblad met antwoordsleutel en opgeloste vergelijkingen', caption: 'Automatische antwoordsleutel met de gereconstrueerde afbeelding op 30% dekking en volledig opgeloste vergelijkingen' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Hoe Rekenpuzzel Werkbladen Maken — Complete Handleiding',

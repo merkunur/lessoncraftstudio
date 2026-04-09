@@ -209,12 +209,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Koppelwerkblad dat toolveelzijdigheid en thematische afbeeldingenbibliotheek uitvoer demonstreert' },
+    heroImage: { src: '/samples/dutch/matching/zoek-de-paren-1.webp', alt: 'Koppelwerkblad dat toolveelzijdigheid en thematische afbeeldingenbibliotheek uitvoer demonstreert' },
     samples: [
-      { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Koppelwerkblad met afbeelding-naar-woord koppeling met thematische illustraties', caption: 'Koppelen — Veelzijdige Tool met Meerdere Modi' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzel werkblad dat taalgevoelige generatie demonstreert', caption: 'Woordzoeker — Populairste Puzzel Generator' },
-      { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat die ontwerpkwaliteit toont zonder taalafhankelijkheid', caption: 'Kleurplaat — Universele Visuele Inhoud' },
-      { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: 'Kruiswoordpuzzel die meertalige generatie mogelijkheden demonstreert', caption: 'Kruiswoordpuzzel — Meertalige Puzzel Tool' },
+      { src: '/samples/dutch/matching/zoek-de-paren-1.webp', alt: 'Koppelwerkblad met afbeelding-naar-woord koppeling met thematische illustraties', caption: 'Koppelen — Veelzijdige Tool met Meerdere Modi' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoeker puzzel werkblad dat taalgevoelige generatie demonstreert', caption: 'Woordzoeker — Populairste Puzzel Generator' },
+      { src: '/samples/dutch/coloring/coloring-portrait-1.webp', alt: 'Kleurplaat die ontwerpkwaliteit toont zonder taalafhankelijkheid', caption: 'Kleurplaat — Universele Visuele Inhoud' },
+      { src: '/samples/dutch/crossword/plaatjes-kruiswoord-1.webp', alt: 'Kruiswoordpuzzel die meertalige generatie mogelijkheden demonstreert', caption: 'Kruiswoordpuzzel — Meertalige Puzzel Tool' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Hoe Koppelwerkbladen te Maken voor Je Printable Bedrijf — LessonCraftStudio Demo',

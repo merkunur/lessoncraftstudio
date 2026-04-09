@@ -93,10 +93,10 @@ const content: ToolContent = {
   ],
 
   visuals: {
-    heroImages: { primary: '/samples/finnish/find%20and%20count/min%c3%a4%20n%c3%a4en%201.webp', primaryAlt: 'Etsi ja laske -hakutehtava hajautetuilla kuvilla saadettavassa ruudukossa sinisella otsikkoreunuksella ja neljalla tehtyvatyypin ohjeella ymparoi nelio rasti ja laske' },
+    heroImages: { primary: '/samples/finnish/find%20and%20count/minä-näen-1.webp', primaryAlt: 'Etsi ja laske -hakutehtava hajautetuilla kuvilla saadettavassa ruudukossa sinisella otsikkoreunuksella ja neljalla tehtyvatyypin ohjeella ymparoi nelio rasti ja laske' },
     sampleGallery: [
-      { src: '/samples/finnish/find%20and%20count/min%c3%a4%20n%c3%a4en%201.webp', alt: 'Etsi ja laske -hakutehtava vaaka-tilassa leveanmmalla ruudukkoasettelulla ja hajautetuilla teemakuvilla harhautusesineiden joukossa', caption: 'Piilotetut esineet -tila — klassinen haku ymparoi-, nelio-, rasti- ja laske-tehtyvatyypeilla hajautetulla kuvaruudukolla' },
-      { src: '/samples/finnish/find%20and%20count/min%c3%a4%20n%c3%a4en%202.webp', alt: 'Etsi ja laske -vastausavain punaisilla ympaera-, nelio- ja rastimerkinnoeilla oikeiden kohdekuvien paella ja maeaeraenayttoeilla', caption: 'Automaattisesti generoitu vastausavain — punaiset merkinnaeaemerkitsevat ympaerat, nelioeae, rastit ja laskemissummat kullekin kohdekohteelle' },
+      { src: '/samples/finnish/find%20and%20count/minä-näen-1.webp', alt: 'Etsi ja laske -hakutehtava vaaka-tilassa leveanmmalla ruudukkoasettelulla ja hajautetuilla teemakuvilla harhautusesineiden joukossa', caption: 'Piilotetut esineet -tila — klassinen haku ymparoi-, nelio-, rasti- ja laske-tehtyvatyypeilla hajautetulla kuvaruudukolla' },
+      { src: '/samples/finnish/find%20and%20count/minä-näen-2.webp', alt: 'Etsi ja laske -vastausavain punaisilla ympaera-, nelio- ja rastimerkinnoeilla oikeiden kohdekuvien paella ja maeaeraenayttoeilla', caption: 'Automaattisesti generoitu vastausavain — punaiset merkinnaeaemerkitsevat ympaerat, nelioeae, rastit ja laskemissummat kullekin kohdekohteelle' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Nain teet Etsi ja laske -hakutehtavia Piilotetut esineet -tilalla, Kirjainhalla ja neljalla tehtyvatyypilla — vaiheittainen opas',

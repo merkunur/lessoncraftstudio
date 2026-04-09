@@ -185,10 +185,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/math%20puzzle/matematiikkapulmat%201.webp', alt: 'Matemaattinen pulmatehtävätyöarkki, jossa näytetään sekoitetut kuvapalat matemaattisilla yhtälöillä lasten ratkaistavaksi ja koottavaksi' },
+    heroImage: { src: '/samples/finnish/math%20puzzle/matematiikkapulmat-1.webp', alt: 'Matemaattinen pulmatehtävätyöarkki, jossa näytetään sekoitetut kuvapalat matemaattisilla yhtälöillä lasten ratkaistavaksi ja koottavaksi' },
     samples: [
-      { src: '/samples/finnish/math%20puzzle/matematiikkapulmat%201.webp', alt: 'Matemaattinen pulmatehtävätyöarkki eläinteemalla — ruudukkoyhtälöt ja numeroidut kuvafragmentit', caption: 'Matemaattinen pulmatehtävätyöarkki — lapset ratkaisevat yhtälöitä määrittääkseen mihin kukin numeroitu kuvapala kuuluu ruudukossa' },
-      { src: '/samples/finnish/math%20puzzle/matematiikkapulmat%201.webp', alt: 'Matemaattisen pulmatehtävän vastausavain, jossa näytetään uudelleenkoottu kuva ratkaistuin yhtälöin', caption: 'Automaattinen vastausavain, jossa uudelleenkoottu kuva 30 % läpinäkyvyydellä ja täydelliset ratkaistut yhtälöt' },
+      { src: '/samples/finnish/math%20puzzle/matematiikkapulmat-1.webp', alt: 'Matemaattinen pulmatehtävätyöarkki eläinteemalla — ruudukkoyhtälöt ja numeroidut kuvafragmentit', caption: 'Matemaattinen pulmatehtävätyöarkki — lapset ratkaisevat yhtälöitä määrittääkseen mihin kukin numeroitu kuvapala kuuluu ruudukossa' },
+      { src: '/samples/finnish/math%20puzzle/matematiikkapulmat-1.webp', alt: 'Matemaattisen pulmatehtävän vastausavain, jossa näytetään uudelleenkoottu kuva ratkaistuin yhtälöin', caption: 'Automaattinen vastausavain, jossa uudelleenkoottu kuva 30 % läpinäkyvyydellä ja täydelliset ratkaistut yhtälöt' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Näin luot matemaattisia pulmatehtävätyöarkkeja — Täydellinen opas',

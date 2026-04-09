@@ -210,22 +210,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/addition/optellen%20is%20leuk%201.webp',
+      primary: '/samples/dutch/addition/optellen-is-leuk-1.webp',
       primaryAlt: 'Optelwerkblad met dierenafbeeldingen die beeldgebaseerde rekenopgaven tonen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp',
+        src: '/samples/dutch/addition/optellen-is-leuk-1.webp',
         alt: 'Beeldgebaseerd optelwerkblad met dierenthema in Afbeelding + Afbeelding modus',
         caption: 'Afbeelding + Afbeelding modus met dierenthema',
       },
       {
-        src: '/samples/dutch/addition/optellen%20is%20leuk%202.webp',
+        src: '/samples/dutch/addition/optellen-is-leuk-2.webp',
         alt: 'Optelwerkblad met voedselafbeeldingen in Zoek de Opteller modus',
         caption: 'Zoek de Opteller modus met voedselthema',
       },
       {
-        src: '/samples/dutch/addition/optellen%20is%20leuk%203.webp',
+        src: '/samples/dutch/addition/optellen-is-leuk-3.webp',
         alt: 'Gemengde modus optelwerkblad met voertuigafbeeldingen en decoratief kader',
         caption: 'Gemengde modus met voertuigen en kaderversiering',
       },

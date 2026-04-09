@@ -218,22 +218,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/picture path/camino-de-imágenes-1.webp',
+      primary: '/samples/spanish/picture%20path/camino-de-imágenes-1.webp',
       primaryAlt: 'Ficha de laberinto con camino de imágenes temáticas en una cuadrícula con borde exterior naranja y encabezado Camino de Imágenes autogenerado con texto del título localizado',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/picture path/camino-de-imágenes-2.webp',
+        src: '/samples/spanish/picture%20path/camino-de-imágenes-2.webp',
         alt: 'Ficha del modo Camino de Imágenes con imágenes organizadas en una cuadrícula mostrando el camino correcto desde el inicio hasta el final entre imágenes distractoras',
         caption: 'Modo Camino de Imágenes — los usuarios siguen el camino correcto de imágenes desde el inicio hasta el final entre distractores',
       },
       {
-        src: '/samples/spanish/picture path/camino-de-imágenes-3.webp',
+        src: '/samples/spanish/picture%20path/camino-de-imágenes-3.webp',
         alt: 'Ficha del modo Laberinto Clásico con pasillos de paredes generados por algoritmo LPF e imágenes coleccionables dispersas por el laberinto',
         caption: 'Modo Laberinto Clásico — el algoritmo LPF genere laberintos con paredes e imágenes coleccionables en los pasillos',
       },
       {
-        src: '/samples/spanish/picture path/camino-de-imágenes-1-answer-key.webp',
+        src: '/samples/spanish/picture%20path/camino-de-imágenes-1-answer-key.webp',
         alt: 'Clave de respuesta del laberinto con camino de solución resaltado por círculos rosas a lo largo de la ruta correcta y leyenda de coleccionables',
         caption: 'Clave de respuesta autogenerada — círculos rosas resaltan el camino de solución con leyenda de coleccionables incluida',
       },

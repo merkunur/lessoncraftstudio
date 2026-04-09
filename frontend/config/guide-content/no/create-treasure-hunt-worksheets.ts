@@ -92,11 +92,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/treasure%20hunt/skattejakt%201.webp', alt: 'Skattejaktarbeidsark med 5x5 koordinatrutenett, tematiske landemerkebilder og retningsgivende ledetrader' },
+    heroImage: { src: '/samples/norwegian/treasure%20hunt/skattejakt-1.webp', alt: 'Skattejaktarbeidsark med 5x5 koordinatrutenett, tematiske landemerkebilder og retningsgivende ledetrader' },
     samples: [
-      { src: '/samples/norwegian/treasure%20hunt/skattejakt%201.webp', alt: 'Skattejaktarbeidsark med Grunnleggende retningsledetrader pa 5x5 koordinatrutenett', caption: 'Skattejaktarbeidsark med Grunnleggende retningsledetrader og 6 tematiske landemerkebilder' },
-      { src: '/samples/norwegian/treasure%20hunt/skattejakt%203.webp', alt: 'Skattejaktarbeidsark med Kardinal retningsledetrader for avansert romlig ræsonering', caption: 'Kardinal retningssmodus med kompassvokabular for avansert kartlesingsovelse' },
-      { src: '/samples/norwegian/treasure%20hunt/skattejakt%202.webp', alt: 'Automatisk generert fasit med skattecelle fremhevet i lys gul', caption: 'Automatisk generert fasit med lys gul fremhevet skattecelle for ojeblikkelig verifisering' },
+      { src: '/samples/norwegian/treasure%20hunt/skattejakt-1.webp', alt: 'Skattejaktarbeidsark med Grunnleggende retningsledetrader pa 5x5 koordinatrutenett', caption: 'Skattejaktarbeidsark med Grunnleggende retningsledetrader og 6 tematiske landemerkebilder' },
+      { src: '/samples/norwegian/treasure%20hunt/skattejakt-3.webp', alt: 'Skattejaktarbeidsark med Kardinal retningsledetrader for avansert romlig ræsonering', caption: 'Kardinal retningssmodus med kompassvokabular for avansert kartlesingsovelse' },
+      { src: '/samples/norwegian/treasure%20hunt/skattejakt-2.webp', alt: 'Automatisk generert fasit med skattecelle fremhevet i lys gul', caption: 'Automatisk generert fasit med lys gul fremhevet skattecelle for ojeblikkelig verifisering' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'Hvordan lage skattejaktarbeidsark — komplett veiledning',

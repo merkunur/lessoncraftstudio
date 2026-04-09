@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp',
+      primary: '/samples/danish/find%20and%20count/jeg-ser,-jeg-ser-1.webp',
       primaryAlt: 'Gratis find og tæl tælleøvelse med temabilleder og fire opgavetyper — prøv online med vandmærke',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp',
+        src: '/samples/danish/find%20and%20count/jeg-ser,-jeg-ser-1.webp',
         alt: 'Gratis tælleøvelse med temabilleder og fire opgavetyper — find og tæl online med vandmærke',
         caption: 'Skjulte Objekter-tilstand — klassisk søgning med ring om, firkant, kryds over og tæl-opgaver på et spredt billedgitter',
       },
       {
-        src: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%202.webp',
+        src: '/samples/danish/find%20and%20count/jeg-ser,-jeg-ser-2.webp',
         alt: 'Gratis find og tæl-øvelse i liggende format med bredere gitter og spredte temabilleder',
         caption: 'Liggende layout — bredere gitter med blandede opgavetyper for varieret visuel søgeudfordring',
       },
       {
-        src: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%203.webp',
+        src: '/samples/danish/find%20and%20count/jeg-ser,-jeg-ser-3.webp',
         alt: 'Automatisk facit til find og tæl med røde annoteringer, der viser antal og markerer korrekte genstande',
         caption: 'Automatisk genereret facit — røde annoteringer markerer cirkler, firkanter, kryds og tællesummer for hvert målobjekt',
       },

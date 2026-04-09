@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/word%20guess/gjett%20ordet%201.webp',
+      primary: '/samples/norwegian/word%20guess/gjett-ordet-1.webp',
       primaryAlt: 'Gjett ordet arbeidsark som viser bildeledetråder koblet med bokstavrutenett med hull for stavningsøvelse',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/word%20guess/gjett%20ordet%201.webp',
+        src: '/samples/norwegian/word%20guess/gjett-ordet-1.webp',
         alt: 'Gjett ordet arbeidsark med bildeledetråder og delvis utfylte bokstavrutenett for stavningsøvelse',
         caption: 'Bildebaserte gjett ordet øvelser med progressive ledetrådsnivåer',
       },
       {
-        src: '/samples/norwegian/word%20guess/gjett%20ordet%202.webp',
+        src: '/samples/norwegian/word%20guess/gjett-ordet-2.webp',
         alt: 'Gjett ordet arbeidsark som viser flere vanskelighetsgrader med forskjellige mengder avslørte bokstaver',
         caption: 'Justerbar ledetrådsvanskelighet fra Lett til Ingen Ledetråder',
       },
       {
-        src: '/samples/norwegian/word%20guess/gjett%20ordet%203.webp',
+        src: '/samples/norwegian/word%20guess/gjett-ordet-3.webp',
         alt: 'Gjett ordet fasit med alle korrekte bokstaver utfylt',
         caption: 'Automatisk generert fasit med alle korrekte stavinger',
       },

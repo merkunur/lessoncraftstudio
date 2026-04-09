@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/norwegian/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Tilpasset fargeleggingsbilde med tematiske bilder arrangert på fritt lerret med dekorativ ramme og produktlinjenavnefelt',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/coloring/coloring%20portrait%201.webp',
+        src: '/samples/norwegian/coloring/coloring-portrait-1.webp',
         alt: 'Dyretema fargeleggingsbilde med fargerike illustrasjoner arrangert fritt på lerretet',
         caption: 'Dyretema fargeleggingsbilde — fargerike illustrasjoner arrangert fritt på lerretet',
       },
       {
-        src: '/samples/norwegian/coloring/coloring%20portrait%202.webp',
+        src: '/samples/norwegian/coloring/coloring-portrait-2.webp',
         alt: 'Fargeleggingsbilde med skriveovelseslinjer og navnefelt for produktlinjebruk',
         caption: 'Produktlinjeferdig fargeleggingsbilde — navnefelt og skriveovelseslinjer inkludert',
       },
       {
-        src: '/samples/norwegian/coloring/coloring%20landscape%201.webp',
+        src: '/samples/norwegian/coloring/coloring-landscape-1.webp',
         alt: 'Gråtone fargeleggingsbilde med dekorativ ramme klar for blekkbesparende utskrift',
         caption: 'Gråtoneeksport — blekkbesparende fargeleggingsbilde med dekorativt rammetema',
       },

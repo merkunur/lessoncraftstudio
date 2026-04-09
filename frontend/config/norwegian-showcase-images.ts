@@ -224,12 +224,12 @@ export const norwegianImages: Record<string, NorwegianImageSet> = {
   'drawing-lines': {
     folder: 'drawing lines',
     imgs: [
-      'linjetegningsøvelse-1.webp',
-      'linjetegningsøvelse-2.webp',
-      'linjetegningsøvelse-3.webp',
-      'linjetegningsøvelse-4.webp',
-      'linjetegningsøvelse-5.webp',
-      'linjetegningsøvelse-6.webp',
+      'linjetegningøvelse-1.webp',
+      'linjetegningøvelse-2.webp',
+      'linjetegningøvelse-3.webp',
+      'linjetegningøvelse-4.webp',
+      'linjetegningøvelse-5.webp',
+      'linjetegningøvelse-6.webp',
     ],
     answerKey: '',
   },

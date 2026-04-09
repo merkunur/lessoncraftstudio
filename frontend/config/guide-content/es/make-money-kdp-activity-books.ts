@@ -200,7 +200,7 @@ const content: GuideContent = {
     heroImage: { src: '/samples/spanish/sudoku/sudoku-de-imágenes-1.webp', alt: 'Ficha de puzle de sudoku demostrando contenido de libro de actividades KDP para generación de ingresos' },
     samples: [
       { src: '/samples/spanish/sudoku/sudoku-de-imágenes-1.webp', alt: 'Puzle de sudoku formateado para páginas interiores de libro de actividades KDP', caption: 'Puzles de sudoku — una categoría de libros de actividades consistentemente rentable en Amazon KDP con compradores fieles recurrentes' },
-      { src: '/samples/spanish/math worksheet/hoja-de-matemáticas-1.webp', alt: 'Ficha de matemáticas formateada para páginas interiores de cuaderno KDP', caption: 'Cuadernos de matemáticas — categoría KDP de alta demanda con oportunidades naturales de expansión de catálogo por nivel de grado' },
+      { src: '/samples/spanish/math%20worksheet/hoja-de-matemáticas-1.webp', alt: 'Ficha de matemáticas formateada para páginas interiores de cuaderno KDP', caption: 'Cuadernos de matemáticas — categoría KDP de alta demanda con oportunidades naturales de expansión de catálogo por nivel de grado' },
       { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras para diversificación de catálogo de libros de puzles KDP', caption: 'Libros de sopas de letras — la categoría más grande de libros de puzles en Amazon con fuerte potencial de ingresos por series multivolumen' },
     ],
     youtubeId: 'bqVioFbkYbA',

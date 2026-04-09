@@ -266,22 +266,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/treasure hunt/chasse-au-trésor-1.webp',
+      primary: '/samples/french/treasure%20hunt/chasse-au-trésor-1.webp',
       primaryAlt: 'Fiche chasse au trésor avec grille de coordonnées 5×5, images dispersées, indices directionnels et en-tête thématique Chasse au Trésor',
     },
     sampleGallery: [
       {
-        src: '/samples/french/treasure hunt/chasse-au-trésor-1.webp',
+        src: '/samples/french/treasure%20hunt/chasse-au-trésor-1.webp',
         alt: 'Puzzle chasse au trésor avec 6 images thématiques sur une grille 5×5 et indices en directions simples',
         caption: 'Mode Simple — suivez les indices haut, bas, gauche et droite pour trouver le trésor',
       },
       {
-        src: '/samples/french/treasure hunt/chasse-au-trésor-2.webp',
+        src: '/samples/french/treasure%20hunt/chasse-au-trésor-2.webp',
         alt: 'Puzzle chasse au trésor avec indices en directions cardinales nord, sud, est et ouest',
         caption: 'Mode Cardinal — directions de la boussole pour un raisonnement spatial avancé',
       },
       {
-        src: '/samples/french/treasure hunt/chasse-au-trésor-1-answer-key.webp',
+        src: '/samples/french/treasure%20hunt/chasse-au-trésor-1-answer-key.webp',
         alt: 'Corrigé chasse au trésor avec la case du trésor mise en surbrillance jaune pâle sur la grille de coordonnées',
         caption: 'Corrigé auto-généré — la surbrillance jaune pâle marque la destination du trésor',
       },

@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: 'Kruiswoordpuzzel voor kinderen met beeldaanwijzingen en thematische woordenschat in een kruisend raster' },
+    heroImage: { src: '/samples/dutch/crossword/plaatjes-kruiswoord-1.webp', alt: 'Kruiswoordpuzzel voor kinderen met beeldaanwijzingen en thematische woordenschat in een kruisend raster' },
     samples: [
-      { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: 'Kinderkruiswoordpuzzel met dierenthema met genummerd raster en beeldaanwijzingen', caption: 'Dierenthema kruiswoordpuzzel met beeldaanwijzingen voor woordenschatoefening bij kleuters en groep 3' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekpuzzel met thematische afbeeldingen als aanwijzingen', caption: 'Woordzoeker werkblad — de ideale partner voor kruiswoordpuzzels in bundels' },
-      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Plaatjes sudoku puzzel als voorbeeld van cross-product bundelmogelijkheden', caption: 'Combineer kruiswoordpuzzels met andere puzzeltypen voor complete activiteitenbundels' },
+      { src: '/samples/dutch/crossword/plaatjes-kruiswoord-1.webp', alt: 'Kinderkruiswoordpuzzel met dierenthema met genummerd raster en beeldaanwijzingen', caption: 'Dierenthema kruiswoordpuzzel met beeldaanwijzingen voor woordenschatoefening bij kleuters en groep 3' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekpuzzel met thematische afbeeldingen als aanwijzingen', caption: 'Woordzoeker werkblad — de ideale partner voor kruiswoordpuzzels in bundels' },
+      { src: '/samples/dutch/sudoku/plaatjes-sudoku-1.webp', alt: 'Plaatjes sudoku puzzel als voorbeeld van cross-product bundelmogelijkheden', caption: 'Combineer kruiswoordpuzzels met andere puzzeltypen voor complete activiteitenbundels' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'Hoe Kruiswoordpuzzels Maken voor Kinderen — Complete Handleiding',

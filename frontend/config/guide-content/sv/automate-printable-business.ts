@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/math worksheet/math-worksheet-10.webp',
+      src: '/samples/english/math%20worksheet/math-worksheet-10.webp',
       alt: 'Professionellt mattearbetsblad som demonstrerar snabb automatiserad skapande för utskriftsbar företagseffektivitet',
     },
     samples: [
       {
-        src: '/samples/english/math worksheet/math-worksheet-10.webp',
+        src: '/samples/english/math%20worksheet/math-worksheet-10.webp',
         alt: 'Mattearbetsblad som visar kvaliteten på automatiserad produktion',
         caption: 'Arbetsbladsgenratorer automatiserar det mest tidskrävande steget i utskriftsbar produktion',
       },

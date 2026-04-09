@@ -218,22 +218,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/odd one out/encuentra-el-diferente-1.webp',
+      primary: '/samples/spanish/odd%20one%20out/encuentra-el-diferente-1.webp',
       primaryAlt: 'Ficha del intruso con cuatro imágenes por fila de ejercicio mostrando tres elementos comunes y un elemento intruso con encabezado coral-ámbar-turquesa Encuentra el Diferente',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/odd one out/encuentra-el-diferente-2.webp',
+        src: '/samples/spanish/odd%20one%20out/encuentra-el-diferente-2.webp',
         alt: 'Ficha del intruso en modo Similar con tres imágenes del Tema A y un intruso temático del Tema B por fila de ejercicio',
         caption: 'Modo Similar — tres imágenes del Tema A y un elemento intruso del Tema B para discriminación entre temas',
       },
       {
-        src: '/samples/spanish/odd one out/encuentra-el-diferente-3-v6.webp',
+        src: '/samples/spanish/odd%20one%20out/encuentra-el-diferente-3-v6.webp',
         alt: 'Ficha del intruso en modo Idéntico con tres clones de la misma imagen y una imagen diferente del mismo tema por fila',
         caption: 'Modo Idéntico — tres clones de la misma imagen y una imagen diferente para desafíos de detectar el duplicado',
       },
       {
-        src: '/samples/spanish/odd one out/encuentra-el-diferente-1-answer-key.webp',
+        src: '/samples/spanish/odd%20one%20out/encuentra-el-diferente-1-answer-key.webp',
         alt: 'Clave de respuestas del intruso con contornos de círculo rojo dibujados alrededor del elemento intruso en cada fila de ejercicio con grosor de trazo escalado al tamaño de imagen',
         caption: 'Clave de respuestas autogenerada — marcadores de círculo rojo (trazo = máx(tamañoImagen × 0,04, 3px)) identifican el elemento intruso en cada fila',
       },

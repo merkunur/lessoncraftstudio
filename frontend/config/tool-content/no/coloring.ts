@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/norwegian/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Tilpasset fargeleggingsside laget på fritt arbeidsområde med fargerike tematiske illustrasjoner arrangert i en original komposisjon med dekorativ ramme',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/coloring/coloring%20portrait%201.webp',
+        src: '/samples/norwegian/coloring/coloring-portrait-1.webp',
         alt: 'Dyretema fargeleggingsside med flere illustrasjoner arrangert på fritt arbeidsområde som viser kreative layoutmuligheter',
         caption: 'Dyretema fargeleggingsside — fritt arbeidsområdelayout med flere illustrasjoner arrangert i en unik komposisjon',
       },
       {
-        src: '/samples/norwegian/coloring/coloring%20portrait%202.webp',
+        src: '/samples/norwegian/coloring/coloring-portrait-2.webp',
         alt: 'Produktlinjeklar fargeleggingsside med navnefelt og skriveøvelseslinjer lagt til med ettklikks produktlinjehjelpere',
         caption: 'Produktlinjeaktivitetsark — navnefelt og skriveøvelseslinjer forvandler fargeleggingssider til strukturerte læringsaktiviteter',
       },
       {
-        src: '/samples/norwegian/coloring/coloring%20landscape%201.webp',
+        src: '/samples/norwegian/coloring/coloring-landscape-1.webp',
         alt: 'Gråtone fargeleggingsside-eksport som viser blekkvarsom konvertering fra fargerik komposisjon til KDP-innsider og masseutskrift',
         caption: 'Gråtoneeksport — fargerike komposisjoner konverteres til blekkvarsome fargeleggingssider for KDP-innsider og masseutskrift',
       },

@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/find objects/encontra-o-diferente-1.webp', alt: 'Atividade de cena de objetos ocultos mostrando imagens temáticas dispostas para as crianças encontrarem objetos específicos' },
+    heroImage: { src: '/samples/portuguese/find%20objects/encontra-o-diferente-1.webp', alt: 'Atividade de cena de objetos ocultos mostrando imagens temáticas dispostas para as crianças encontrarem objetos específicos' },
     samples: [
-      { src: '/samples/portuguese/find objects/encontra-o-diferente-2.webp', alt: 'Atividade de objetos ocultos tipo busca e encontra com cena temática para atividade de pesquisa visual', caption: 'Cena de Busca e encontra com imagens temáticas e objetos distratores para prática de pesquisa visual' },
-      { src: '/samples/portuguese/find objects/encontra-o-diferente-3.webp', alt: 'Chave de respostas de atividade de objetos ocultos destacando as localizações dos elementos escondidos', caption: 'Chave de respostas automática gerada para cada atividade de cena de objetos ocultos' },
+      { src: '/samples/portuguese/find%20objects/encontra-o-diferente-2.webp', alt: 'Atividade de objetos ocultos tipo busca e encontra com cena temática para atividade de pesquisa visual', caption: 'Cena de Busca e encontra com imagens temáticas e objetos distratores para prática de pesquisa visual' },
+      { src: '/samples/portuguese/find%20objects/encontra-o-diferente-3.webp', alt: 'Chave de respostas de atividade de objetos ocultos destacando as localizações dos elementos escondidos', caption: 'Chave de respostas automática gerada para cada atividade de cena de objetos ocultos' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Como criar atividades de cenas de objetos ocultos — Tutorial completo',

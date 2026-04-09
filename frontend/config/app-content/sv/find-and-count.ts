@@ -283,12 +283,12 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/find%20and%20count/worksheet%20-1.webp',
+        src: '/samples/swedish/find%20and%20count/worksheet-1.webp',
         alt: 'Dolda objekt sökarbetsblad i stående läge med spridda djurbilder och uppgiftsinstruktioner',
         caption: 'Dolda Objekt-läge — klassisk sökning med ringa in, ruta, stryk över och räkna-uppgifter',
       },
       {
-        src: '/samples/swedish/find%20and%20count/worksheet%20-3.webp',
+        src: '/samples/swedish/find%20and%20count/worksheet-3.webp',
         alt: 'Hitta och räkna sökarbetsblad i liggande läge med bredare rutnätslayout',
         caption: 'Liggande läge — bredare rutnätslayout för fler kolumner och varierad visuell densitet',
       },

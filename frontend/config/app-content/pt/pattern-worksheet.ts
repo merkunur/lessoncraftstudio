@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/pattern worksheet/quebra-cabeças-de-padrões-1.webp',
+      primary: '/samples/portuguese/pattern%20worksheet/quebra-cabeças-de-padrões-1.webp',
       primaryAlt: 'Atividade de padrões com exercícios em grelha mostrando sequências repetitivas de imagens com caixas em branco e opções de escolha múltipla',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/pattern worksheet/quebra-cabeças-de-padrões-2.webp',
+        src: '/samples/portuguese/pattern%20worksheet/quebra-cabeças-de-padrões-2.webp',
         alt: 'Atividade de padrões com exercícios AB em caixa em branco usando imagens de animais num layout em grelha com espaços vazios para os usuários completarem',
         caption: 'Exercícios AB em caixa em branco com tema animais — os usuários identificam o padrão alternante e completam a imagem em falta',
       },
       {
-        src: '/samples/portuguese/pattern worksheet/quebra-cabeças-de-padrões-3.webp',
+        src: '/samples/portuguese/pattern%20worksheet/quebra-cabeças-de-padrões-3.webp',
         alt: 'Atividade de padrões com exercícios ABC em escolha múltipla usando imagens de veículos com três opções de resposta por exercício',
         caption: 'Exercícios ABC em escolha múltipla com tema veículos — os usuários escolhem o elemento correto em falta entre três opções',
       },
       {
-        src: '/samples/portuguese/pattern worksheet/quebra-cabeças-de-padrões-4.webp',
+        src: '/samples/portuguese/pattern%20worksheet/quebra-cabeças-de-padrões-4.webp',
         alt: 'Gabarito da atividade de padrões mostrando todas as caixas em branco preenchidas com os elementos corretos do padrão',
         caption: 'Vista do gabarito — todas as caixas preenchidas com os elementos corretos do padrão para verificação pelo vendedor',
       },

@@ -186,14 +186,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/find and count/je-vois,-je-voi-1.webp',
+      primary: '/samples/french/find%20and%20count/je-vois,-je-voi-1.webp',
       primaryAlt: 'Fiche cherche et compte avec images thématiques dispersées sur une grille pour le balayage visuel et le comptage',
     },
     sampleGallery: [
-      { src: '/samples/french/find and count/je-vois,-je-voi-1.webp', alt: 'Fiche cherche et compte avec objets cachés à localiser et compter', caption: 'Cherche et Compte' },
-      { src: '/samples/french/find objects/Trouve l\'intrus-1.webp', alt: 'Fiche d\'objets cachés avec scène sans chevauchement et légende visuelle', caption: 'Cherche les Objets' },
+      { src: '/samples/french/find%20and%20count/je-vois,-je-voi-1.webp', alt: 'Fiche cherche et compte avec objets cachés à localiser et compter', caption: 'Cherche et Compte' },
+      { src: '/samples/french/find%20objects/trouve-l\'intrus-1.webp', alt: 'Fiche d\'objets cachés avec scène sans chevauchement et légende visuelle', caption: 'Cherche les Objets' },
       { src: '/samples/french/crossword/mots-croisés-en-images-1.webp', alt: 'Mots croisés 15x15 avec indices en images au lieu de définitions textuelles', caption: 'Mots Croisés en Images' },
-      { src: '/samples/french/treasure hunt/chasse-au-trésor-1.webp', alt: 'Fiche chasse au trésor avec grille de coordonnées 5x5 et indices directionnels', caption: 'Chasse au Trésor' },
+      { src: '/samples/french/treasure%20hunt/chasse-au-trésor-1.webp', alt: 'Fiche chasse au trésor avec grille de coordonnées 5x5 et indices directionnels', caption: 'Chasse au Trésor' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Pack Cherche & Trouve — Découvrez les 4 Générateurs en Action',

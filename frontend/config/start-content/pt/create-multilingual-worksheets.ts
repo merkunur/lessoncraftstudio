@@ -220,8 +220,8 @@ const content: StartContent = {
     samples: [
       { src: '/samples/portuguese/wordsearch/caça-palavras-2.webp', alt: 'Atividade de puzzle de caça-palavras com vocabulário sensível ao idioma', caption: 'Caça-Palavras — A Melhor Demo Multilingue' },
       { src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp', alt: 'Puzzle de crucigrama com pistas e respostas localizadas', caption: 'Crucigrama — Puzzles Completamente Localizados' },
-      { src: '/samples/portuguese/word scramble/letras-embaralhadas-1.webp', alt: 'Atividade de palavras desordenadas com vocabulário adaptado ao idioma', caption: 'Palavras Desordenadas — Resultado Sensível ao Idioma' },
-      { src: '/samples/portuguese/alphabet train/comboio-do-alfabeto-1.webp', alt: 'Atividade do comboio do abecedário mostrando conjuntos de letras específicos por idioma', caption: 'Comboio do Abecedário — Conjuntos de Letras Adaptados' },
+      { src: '/samples/portuguese/word%20scramble/letras-embaralhadas-1.webp', alt: 'Atividade de palavras desordenadas com vocabulário adaptado ao idioma', caption: 'Palavras Desordenadas — Resultado Sensível ao Idioma' },
+      { src: '/samples/portuguese/alphabet%20train/comboio-do-alfabeto-1.webp', alt: 'Atividade do comboio do abecedário mostrando conjuntos de letras específicos por idioma', caption: 'Comboio do Abecedário — Conjuntos de Letras Adaptados' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como Criar Atividades de Caça-Palavras em Múltiplos Idiomas — Demo do LessonCraftStudio',

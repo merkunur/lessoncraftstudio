@@ -207,7 +207,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Taureau — image pédagogique thématique', caption: 'Taureau' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Veau — image pédagogique thématique', caption: 'Veau' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Chat — image pédagogique thématique', caption: 'Chat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Chat 2 — image pédagogique thématique', caption: 'Chat 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Chat 2 — image pédagogique thématique', caption: 'Chat 2' },
   ],
 };
 

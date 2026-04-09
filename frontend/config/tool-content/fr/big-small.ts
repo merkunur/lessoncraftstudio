@@ -223,22 +223,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/big small/grand-ou-petit-1.webp',
+      primary: '/samples/french/big%20small/grand-ou-petit-1.webp',
       primaryAlt: 'Fiche de comparaison de tailles grand et petit avec des images thématiques à différentes tailles montrant un exercice entoure le plus grand',
     },
     sampleGallery: [
       {
-        src: '/samples/french/big small/grand-ou-petit-1.webp',
+        src: '/samples/french/big%20small/grand-ou-petit-1.webp',
         alt: 'Fiche de comparaison de tailles en mode entoure le plus grand avec des images thématiques d\'animaux à différentes tailles',
         caption: 'Mode Entoure le Plus Grand — les utilisateurs identifient la plus grande image dans chaque exercice',
       },
       {
-        src: '/samples/french/big small/grand-ou-petit-2.webp',
+        src: '/samples/french/big%20small/grand-ou-petit-2.webp',
         alt: 'Fiche de comparaison de tailles en mode numérotation avec trois images à ordonner du plus petit au plus grand',
         caption: 'Numéroter 1–2–3 du Plus Petit au Plus Grand — les utilisateurs ordonnent les images par taille croissante',
       },
       {
-        src: '/samples/french/big small/grand-ou-petit-3.webp',
+        src: '/samples/french/big%20small/grand-ou-petit-3.webp',
         alt: 'Fiche de comparaison de tailles utilisant le mode images identiques avec la même image à trois tailles différentes',
         caption: 'Mode Images Identiques — même image à différentes tailles pour des exercices de perception pure de la taille',
       },

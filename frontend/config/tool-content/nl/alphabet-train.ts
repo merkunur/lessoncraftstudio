@@ -216,22 +216,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/alphabet%20train/alfabettrein%201.webp',
+      primary: '/samples/dutch/alphabet%20train/alfabettrein-1.webp',
       primaryAlt: 'Alfabettrein werkblad met 11 kleurrijke wagons met letters en bijpassende aanwijzingsafbeeldingen voor letterherkenning',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/alphabet%20train/alfabettrein%201.webp',
+        src: '/samples/dutch/alphabet%20train/alfabettrein-1.webp',
         alt: 'Kleurrijk alfabettrein werkblad met letter-afbeelding koppelactiviteit voor jonge gebruikers',
         caption: 'Treinwagon formaat met letter-afbeelding koppeling',
       },
       {
-        src: '/samples/dutch/alphabet%20train/alfabettrein%202.webp',
+        src: '/samples/dutch/alphabet%20train/alfabettrein-2.webp',
         alt: 'Alfabettrein werkblad met thema-afbeeldingen en meerdere aanwijzingskoppelingstaken',
         caption: 'Thema-afbeeldingen met configureerbaar aanwijzingenaantal',
       },
       {
-        src: '/samples/dutch/alphabet%20train/alfabettrein%203.webp',
+        src: '/samples/dutch/alphabet%20train/alfabettrein-3.webp',
         alt: 'Gevorderd alfabettrein werkblad met 11 aanwijzingen voor maximale moeilijkheid letterherkenning',
         caption: 'Volledige 11-aanwijzingen moeilijkheid voor gevorderde gebruikers',
       },

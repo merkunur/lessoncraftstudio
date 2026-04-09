@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/word%20scramble/bogstavrod%201.webp',
+      primary: '/samples/danish/word%20scramble/bogstavrod-1.webp',
       primaryAlt: 'Gratis blandede bogstaver generator online — anagram-opgaver med temabilleder og automatisk facit',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/word%20scramble/bogstavrod%201.webp',
+        src: '/samples/danish/word%20scramble/bogstavrod-1.webp',
         alt: 'Gratis blandede bogstaver med billedledetråde ved Let sværhed — prøv online',
         caption: 'Let sværhed — halvdelen af bogstaverne forudplaceret som ledetråde for tidlige stavere',
       },
       {
-        src: '/samples/danish/word%20scramble/bogstavrod%202.webp',
+        src: '/samples/danish/word%20scramble/bogstavrod-2.webp',
         alt: 'Gratis anagram-opgaver med vokal-konsonant farvekodning og farvede bogstavbrikker',
         caption: 'Farvekodede tilstand — vokaler og konsonanter i forskellige farver for foniksbevidsthed',
       },
       {
-        src: '/samples/danish/word%20scramble/bogstavrod%203.webp',
+        src: '/samples/danish/word%20scramble/bogstavrod-3.webp',
         alt: 'Gratis blandede bogstaver facit med alle ord korrekt omarrangeret',
         caption: 'Facit — korrekt omarrangerede ord til nem bedømmelse og selvkontrol',
       },

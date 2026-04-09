@@ -271,22 +271,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/missing pieces/pièces-manquantes-1.webp',
+      primary: '/samples/french/missing%20pieces/pièces-manquantes-1.webp',
       primaryAlt: 'Fiche de puzzle pièces manquantes avec des trous découpés dans une image et des options de réponse numérotées incluant des distractrices',
     },
     sampleGallery: [
       {
-        src: '/samples/french/missing pieces/pièces-manquantes-1.webp',
+        src: '/samples/french/missing%20pieces/pièces-manquantes-1.webp',
         alt: 'Puzzle de pièces manquantes avec des trous carrés découpés dans une illustration colorée',
         caption: 'Forme de pièce carrée — découpes géométriques nettes pour une identification visuelle claire',
       },
       {
-        src: '/samples/french/missing pieces/pièces-manquantes-2.webp',
+        src: '/samples/french/missing%20pieces/pièces-manquantes-2.webp',
         alt: 'Puzzle de pièces manquantes avec des trous et des options de réponse numérotées',
         caption: 'Forme de pièce alternative — avec des options distractrices pour un défi supplémentaire',
       },
       {
-        src: '/samples/french/missing pieces/pièces-manquantes-1-answer-key.webp',
+        src: '/samples/french/missing%20pieces/pièces-manquantes-1-answer-key.webp',
         alt: 'Corrigé du puzzle pièces manquantes avec des numéros surlignés en jaune dans chaque trou',
         caption: 'Corrigé auto-généré — les étiquettes jaunes montrent la bonne option pour chaque trou',
       },

@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Printable-produkt redo att säljas på Gumroad butiksfasad' },
+    heroImage: { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Printable-produkt redo att säljas på Gumroad butiksfasad' },
     samples: [
-      { src: '/samples/swedish/matching/Matchningsspel.jpeg', alt: 'Matchningsarbetsblad aktivitet för Gumroad printable-företag', caption: 'Matchningsaktiviteter är högefterfrågade pedagogiska printables som fungerar bra enskilt och i paket' },
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Ordsökningspussel printable för Gumroad-butikskatalog', caption: 'Ordsökningspussel har bred attraktionskraft — en mångsidig Gumroad-produkttyp' },
-      { src: '/samples/swedish/math%20worksheet/mattetal%20landscape.jpeg', alt: 'Mattearbetsblad för Gumroad digital produktförsäljning', caption: 'Mattearbetsblad skapar visuellt övertygande produktbilder som driver trafik till din Gumroad-butik' },
+      { src: '/samples/swedish/matching/matchningsspel.jpeg', alt: 'Matchningsarbetsblad aktivitet för Gumroad printable-företag', caption: 'Matchningsaktiviteter är högefterfrågade pedagogiska printables som fungerar bra enskilt och i paket' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Ordsökningspussel printable för Gumroad-butikskatalog', caption: 'Ordsökningspussel har bred attraktionskraft — en mångsidig Gumroad-produkttyp' },
+      { src: '/samples/swedish/math%20worksheet/mattetal-landscape.jpeg', alt: 'Mattearbetsblad för Gumroad digital produktförsäljning', caption: 'Mattearbetsblad skapar visuellt övertygande produktbilder som driver trafik till din Gumroad-butik' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Hur du skapar målarbilder för din Gumroad printable-butik',

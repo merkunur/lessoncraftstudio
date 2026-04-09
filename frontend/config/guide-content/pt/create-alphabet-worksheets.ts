@@ -183,11 +183,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/alphabet train/comboio-do-alfabeto-1.webp', alt: 'Atividade comboio do alfabeto mostrando 11 vagões de comboio coloridos com letras e imagens de pista correspondentes para reconhecimento de letras' },
+    heroImage: { src: '/samples/portuguese/alphabet%20train/comboio-do-alfabeto-1.webp', alt: 'Atividade comboio do alfabeto mostrando 11 vagões de comboio coloridos com letras e imagens de pista correspondentes para reconhecimento de letras' },
     samples: [
-      { src: '/samples/portuguese/alphabet train/comboio-do-alfabeto-2.webp', alt: 'Atividade comboio do alfabeto colorida com 11 vagões transportando letras e imagens de pista dispersas para emparelhamento letra-imagem', caption: 'Atividade comboio do alfabeto com 11 vagões coloridos e pistas de emparelhamento letra-imagem' },
-      { src: '/samples/portuguese/alphabet train/comboio-do-alfabeto-3.webp', alt: 'Atividade comboio do alfabeto com imagens temáticas e múltiplas tarefas de emparelhamento de pistas a dificuldade intermédia', caption: 'Comboio do alfabeto temático com contagem de pistas configurável para escalamento de dificuldade' },
-      { src: '/samples/portuguese/alphabet train/comboio-do-alfabeto-4.webp', alt: 'Atividade comboio do alfabeto avançada com 11 pistas para dificuldade máxima de reconhecimento abrangente de letras', caption: 'Nível de dificuldade completo com 11 pistas para prática avançada de reconhecimento de letras' },
+      { src: '/samples/portuguese/alphabet%20train/comboio-do-alfabeto-2.webp', alt: 'Atividade comboio do alfabeto colorida com 11 vagões transportando letras e imagens de pista dispersas para emparelhamento letra-imagem', caption: 'Atividade comboio do alfabeto com 11 vagões coloridos e pistas de emparelhamento letra-imagem' },
+      { src: '/samples/portuguese/alphabet%20train/comboio-do-alfabeto-3.webp', alt: 'Atividade comboio do alfabeto com imagens temáticas e múltiplas tarefas de emparelhamento de pistas a dificuldade intermédia', caption: 'Comboio do alfabeto temático com contagem de pistas configurável para escalamento de dificuldade' },
+      { src: '/samples/portuguese/alphabet%20train/comboio-do-alfabeto-4.webp', alt: 'Atividade comboio do alfabeto avançada com 11 pistas para dificuldade máxima de reconhecimento abrangente de letras', caption: 'Nível de dificuldade completo com 11 pistas para prática avançada de reconhecimento de letras' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Como criar atividades comboio do alfabeto — Tutorial completo',
@@ -198,7 +198,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Touro — imagem educativa temática', caption: 'Touro' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Bezerro — imagem educativa temática', caption: 'Bezerro' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gato 2 — imagem educativa temática', caption: 'Gato 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Gato 2 — imagem educativa temática', caption: 'Gato 2' },
   ],
 };
 

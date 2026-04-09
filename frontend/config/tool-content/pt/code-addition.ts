@@ -211,22 +211,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/code addition/código-secreto-adição-1.webp',
+      primary: '/samples/portuguese/code%20addition/código-secreto-adição-1.webp',
       primaryAlt: 'Atividade de adição codificada com puzzles criptaritméticos onde símbolos com imagens escondem números secretos',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/code addition/código-secreto-adição-2.webp',
+        src: '/samples/portuguese/code%20addition/código-secreto-adição-2.webp',
         alt: 'Puzzle decifra o código com símbolos de animais no Modo Clássico',
         caption: 'Modo Clássico com tema de animais — cada símbolo esconde um número único',
       },
       {
-        src: '/samples/portuguese/code addition/código-secreto-adição-3.webp',
+        src: '/samples/portuguese/code%20addition/código-secreto-adição-3.webp',
         alt: 'Atividade de adição codificada no Modo Palavra Revelada com imagens de alimentos',
         caption: 'Modo Palavra Revelada — resolva equações para soletrar uma palavra secreta',
       },
       {
-        src: '/samples/portuguese/code addition/código-secreto-adição-4.webp',
+        src: '/samples/portuguese/code%20addition/código-secreto-adição-4.webp',
         alt: 'Puzzle criptaritmético com parcelas mistas e moldura decorativa',
         caption: 'Parcelas mistas com decoração de moldura para um resultado profissional',
       },

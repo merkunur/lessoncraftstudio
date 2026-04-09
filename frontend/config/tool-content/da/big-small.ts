@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/big%20small/stort%20eller%20lille%201.webp',
+      primary: '/samples/danish/big%20small/stort-eller-lille-1.webp',
       primaryAlt: 'Gratis stor og lille generator med tematiske billeder i forskellige størrelser — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/big%20small/stort%20eller%20lille%201.webp',
+        src: '/samples/danish/big%20small/stort-eller-lille-1.webp',
         alt: 'Størrelsessammenligning arbejdsark i sæt ring om den store-tilstand med tematiske dyrebilleder i forskellige størrelser',
         caption: 'Sæt Ring om den Store-tilstand — brugerne identificerer det største billede i hver øvelse',
       },
       {
-        src: '/samples/danish/big%20small/stort%20eller%20lille%202.webp',
+        src: '/samples/danish/big%20small/stort-eller-lille-2.webp',
         alt: 'Størrelsesordning arbejdsark med tre billeder nummereret fra mindste til største',
         caption: 'Nummerer 1–2–3 Lille til Stor — brugerne ordner billeder efter størrelse',
       },
       {
-        src: '/samples/danish/big%20small/stort%20eller%20lille%203.webp',
+        src: '/samples/danish/big%20small/stort-eller-lille-3.webp',
         alt: 'Størrelsessammenligning facit med korrekte svar markeret og cirklet for øjeblikkelig verifikation',
         caption: 'Facit — korrekte svar markeret og cirklet for øjeblikkelig visuel verifikation',
       },

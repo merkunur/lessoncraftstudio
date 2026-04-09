@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/find%20objects/hitta%20f%c3%b6rem%c3%a5len%201.webp',
+      primary: '/samples/swedish/find%20objects/hitta-föremålen-1.webp',
       primaryAlt: 'Dolda objekt sökarbetsblad med spridda bilder placerade med noll-överlappningsalgoritm, legend längst ner som visar objekt att hitta och dekorativ rubrik',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/find%20objects/hitta%20f%c3%b6rem%c3%a5len%202.webp',
+        src: '/samples/swedish/find%20objects/hitta-föremålen-2.webp',
         alt: 'Sökning dolda objekt-scen med spridda bilder och legend som visar målobjekt längst ner',
         caption: 'Söknings-läge — fri dolda objekt-scen med legendvisning',
       },
       {
-        src: '/samples/swedish/find%20objects/hitta%20den%20udda.webp',
+        src: '/samples/swedish/find%20objects/hitta-den-udda.webp',
         alt: 'Hitta Udda Bilden arbetsblad med parade bilder i rader och oparade objekt att identifiera',
         caption: 'Hitta Udda Bilden-läge — parade bilder med oparade objekt för visuell diskriminering',
       },
       {
-        src: '/samples/swedish/find%20objects/hitta%20f%c3%b6rem%c3%a5len%201%20answer-key.webp',
+        src: '/samples/swedish/find%20objects/hitta-föremålen-1-answer-key.webp',
         alt: 'Dolda objekt arbetsblad facit med röda cirklar ritade runt målobjekt',
         caption: 'Automatiskt genererat facit — röda cirklar markerar dolda och oparade objekt',
       },

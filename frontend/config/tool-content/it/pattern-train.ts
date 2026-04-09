@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/pattern train/treno-dei-modelli-1.webp',
+      primary: '/samples/italian/pattern%20train/treno-dei-modelli-1.webp',
       primaryAlt: 'Scheda treno delle sequenze con vagoni tematici che mostrano una sequenza ripetitiva con un vagone mancante da completare',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/pattern train/treno-dei-modelli-2.webp',
+        src: '/samples/italian/pattern%20train/treno-dei-modelli-2.webp',
         alt: 'Scheda treno delle sequenze in modalità schema AB alternato con immagini di animali su 11 vagoni tematici',
         caption: 'Schema AB con tema animali — gli utenti identificano la sequenza alternata e completano il vagone mancante',
       },
       {
-        src: '/samples/italian/pattern train/treno-dei-modelli-3.webp',
+        src: '/samples/italian/pattern%20train/treno-dei-modelli-3.webp',
         alt: 'Scheda treno delle sequenze in modalità schema ABC a tre elementi con immagini di veicoli sui vagoni tematici',
         caption: 'Schema ABC con tema veicoli — tre elementi rotanti creano una sequenza ripetitiva più complessa',
       },
       {
-        src: '/samples/italian/pattern train/treno-dei-modelli-4.webp',
+        src: '/samples/italian/pattern%20train/treno-dei-modelli-4.webp',
         alt: 'Chiave di risposta treno delle sequenze con tutti gli 11 vagoni riempiti con la sequenza corretta',
         caption: 'Vista chiave di risposta — tutti gli 11 vagoni riempiti con lo schema corretto per la verifica dell\'venditore',
       },

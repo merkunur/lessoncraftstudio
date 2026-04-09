@@ -216,9 +216,9 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/math worksheet/scheda-di-matematica-4.webp', alt: 'Scheda di matematica che dimostra la qualità professionale dell\'output dei generatori' },
+    heroImage: { src: '/samples/italian/math%20worksheet/scheda-di-matematica-4.webp', alt: 'Scheda di matematica che dimostra la qualità professionale dell\'output dei generatori' },
     samples: [
-      { src: '/samples/italian/math worksheet/scheda-di-matematica-4.webp', alt: 'Scheda di matematica con layout professionale e qualità di stampa 300 DPI', caption: 'Scheda di Matematica — Generatore Versatile di Ricavi' },
+      { src: '/samples/italian/math%20worksheet/scheda-di-matematica-4.webp', alt: 'Scheda di matematica con layout professionale e qualità di stampa 300 DPI', caption: 'Scheda di Matematica — Generatore Versatile di Ricavi' },
       { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Scheda puzzle cerca-parole per vendite su Etsy e Amazon KDP', caption: 'Cerca Parole — Categoria Puzzle Più Venduta' },
       { src: '/samples/italian/coloring/coloring-portrait-1.webp', alt: 'Pagina da colorare per pubblicazione libri di attività KDP', caption: 'Pagine da Colorare — Categoria KDP ad Alto Volume' },
       { src: '/samples/italian/sudoku/sudoku-con-immagini-1.webp', alt: 'Scheda puzzle sudoku con attrattiva internazionale universale', caption: 'Sudoku — Attrattiva Universale sul Mercato' },

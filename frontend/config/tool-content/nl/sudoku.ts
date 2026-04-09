@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp',
+      primary: '/samples/dutch/sudoku/plaatjes-sudoku-1.webp',
       primaryAlt: '4×4 plaatjes sudoku werkblad met thematische afbeeldingen in een premium raster met afwisselende blauwe en roze blokkleuren, vetgedrukte centrumlijnverdelers en indigo buitenkader met afgeronde hoeken',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/sudoku/plaatjes%20sudoku%202.webp',
+        src: '/samples/dutch/sudoku/plaatjes-sudoku-2.webp',
         alt: 'Makkelijk moeilijkheidsniveau plaatjes sudoku met 4 lege cellen en 12 ingevulde cellen in een 4×4 raster met afwisselende blokkleuren',
         caption: 'Makkelijk moeilijkheidsniveau — 4 lege cellen voor beginners die rij-en-kolom logica leren',
       },
       {
-        src: '/samples/dutch/sudoku/plaatjes%20sudoku%203.webp',
+        src: '/samples/dutch/sudoku/plaatjes-sudoku-3.webp',
         alt: 'Moeilijk plaatjes sudoku met 8 lege cellen en 8 ingevulde cellen in een 4×4 raster dat meerstaps redeneren vereist',
         caption: 'Moeilijk moeilijkheidsniveau — 8 lege cellen (de helft van het raster) voor meerstaps logisch redeneren',
       },
       {
-        src: '/samples/dutch/sudoku/plaatjes%20sudoku%201%20answer-key.webp',
+        src: '/samples/dutch/sudoku/plaatjes-sudoku-1-answer-key.webp',
         alt: 'Plaatjes sudoku antwoordblad met volledig ingevuld 4×4 raster met alle 16 cellen gevuld met de juiste afbeeldingen',
         caption: 'Automatisch gegenereerd antwoordblad — volledig ingevuld raster met alle 16 cellen die de juiste afbeeldingsplaatsing tonen',
       },

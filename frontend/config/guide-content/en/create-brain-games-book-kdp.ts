@@ -182,10 +182,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/odd one out/find-the-odd-one-out-10.webp', alt: 'Odd-one-out brain teaser puzzle page with themed images for KDP brain games book' },
+    heroImage: { src: '/samples/english/odd%20one%20out/find-the-odd-one-out-10.webp', alt: 'Odd-one-out brain teaser puzzle page with themed images for KDP brain games book' },
     samples: [
-      { src: '/samples/english/odd one out/find-the-odd-one-out-11.webp', alt: 'Odd-one-out puzzle page with rows of themed images for visual discrimination', caption: 'An odd-one-out page with 5 items per row -- the core puzzle type for brain games compilations' },
-      { src: '/samples/english/shadow match/shadow-match-worksheet-1.webp', alt: 'Shadow matching puzzle with colored images and black silhouettes', caption: 'Shadow match puzzle page with auto-generated pixel-accurate silhouettes for spatial awareness challenges' },
+      { src: '/samples/english/odd%20one%20out/find-the-odd-one-out-11.webp', alt: 'Odd-one-out puzzle page with rows of themed images for visual discrimination', caption: 'An odd-one-out page with 5 items per row -- the core puzzle type for brain games compilations' },
+      { src: '/samples/english/shadow%20match/shadow-match-worksheet-1.webp', alt: 'Shadow matching puzzle with colored images and black silhouettes', caption: 'Shadow match puzzle page with auto-generated pixel-accurate silhouettes for spatial awareness challenges' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'How to Create Odd One Out Puzzles',

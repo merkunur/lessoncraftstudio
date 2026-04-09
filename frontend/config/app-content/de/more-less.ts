@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/more less/mehr-weniger-1.webp',
+      primary: '/samples/german/more%20less/mehr-weniger-1.webp',
       primaryAlt: 'Mehr-oder-Weniger-Arbeitsblatt mit bunten Tierbildern im Bild-zu-Bild-Vergleichsmodus',
     },
     sampleGallery: [
       {
-        src: '/samples/german/more less/mehr-weniger-1.webp',
+        src: '/samples/german/more%20less/mehr-weniger-1.webp',
         alt: 'Vergleichs-Arbeitsblatt im Bild-zu-Bild-Modus mit Tierthema',
         caption: 'Bild-zu-Bild-Modus — Nutzer zählen zwei Bildergruppen und vergleichen die Mengen',
       },
       {
-        src: '/samples/german/more less/mehr-weniger-2.webp',
+        src: '/samples/german/more%20less/mehr-weniger-2.webp',
         alt: 'Vergleichs-Arbeitsblatt im Bild-zu-Zahl-Modus mit Essensthema',
         caption: 'Bild-zu-Zahl-Modus — verbindet Bildergruppen mit Ziffern für Brückenbildung',
       },
       {
-        src: '/samples/german/more less/mehr-weniger-3.webp',
+        src: '/samples/german/more%20less/mehr-weniger-3.webp',
         alt: 'Ankreuzen-und-Durchstreichen-Arbeitsblatt mit gemischten Bildern zum visuellen Sortieren',
         caption: 'Ankreuzen-und-Durchstreichen-Modus — Nutzer finden die Mehrheitsgruppe in einer gemischten Bilderbox',
       },

@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Ordsökningsarbetsblad optimerat för Gumroad butikssynlighet och försäljning' },
+    heroImage: { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Ordsökningsarbetsblad optimerat för Gumroad butikssynlighet och försäljning' },
     samples: [
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Ordsökningspussel optimerat för Gumroad butikskatalogtillväxt', caption: 'Ordsökningspussel är bland de mest mångsidiga Gumroad-resurserna — skapa tematiska säsongsvariationer för snabb katalogexpansion' },
-      { src: '/samples/swedish/math%20puzzle/mattepussel%201.jpeg', alt: 'Mattepussel arbetsblad för Gumroad butiksdifferentiering', caption: 'Unika mattepusselformat möter lägre konkurrens på Gumroad — en differentieringsstrategi' },
-      { src: '/samples/swedish/crossword/Bildkorsord%201.jpeg', alt: 'Korsordspussel aktivitet för Gumroad vokabulärresurser', caption: 'Korsordspussel är högefterfrågade vokabuläraktiviteter som säljare söker per ämne och årskurs' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Ordsökningspussel optimerat för Gumroad butikskatalogtillväxt', caption: 'Ordsökningspussel är bland de mest mångsidiga Gumroad-resurserna — skapa tematiska säsongsvariationer för snabb katalogexpansion' },
+      { src: '/samples/swedish/math%20puzzle/mattepussel-1.jpeg', alt: 'Mattepussel arbetsblad för Gumroad butiksdifferentiering', caption: 'Unika mattepusselformat möter lägre konkurrens på Gumroad — en differentieringsstrategi' },
+      { src: '/samples/swedish/crossword/bildkorsord-1.jpeg', alt: 'Korsordspussel aktivitet för Gumroad vokabulärresurser', caption: 'Korsordspussel är högefterfrågade vokabuläraktiviteter som säljare söker per ämne och årskurs' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hur du skapar ordsökningspussel för din Gumroad-butik — optimeringguide',

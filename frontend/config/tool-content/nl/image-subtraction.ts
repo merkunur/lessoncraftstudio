@@ -211,22 +211,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/subtraction/aftrekken%20is%20leuk%201.webp',
+      primary: '/samples/dutch/subtraction/aftrekken-is-leuk-1.webp',
       primaryAlt: 'Aftrekwerkblad met doorstreep-afbeeldingen die visuele min-sommen tonen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%201.webp',
+        src: '/samples/dutch/subtraction/aftrekken-is-leuk-1.webp',
         alt: 'Doorstreep aftrekwerkblad met dierenthema en doorgestreepte afbeeldingen',
         caption: 'Doorstrepen-modus met dierenthema',
       },
       {
-        src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%202.webp',
+        src: '/samples/dutch/subtraction/aftrekken-is-leuk-2.webp',
         alt: 'Aftrekwerkblad met voedselafbeeldingen in Afbeelding min Getal modus',
         caption: 'Afbeelding − Getal modus met voedselthema',
       },
       {
-        src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%203.webp',
+        src: '/samples/dutch/subtraction/aftrekken-is-leuk-3.webp',
         alt: 'Zoek de Aftrekker werkblad met voertuigafbeeldingen en decoratief kader',
         caption: 'Zoek de Aftrekker modus met voertuigen en kader',
       },

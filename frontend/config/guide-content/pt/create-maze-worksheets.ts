@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/picture path/caminho-de-imagen-1.webp', alt: 'Atividade de labirinto mostrando uma atividade de percurso de imagens temática com imagens de início e destino para crianças' },
+    heroImage: { src: '/samples/portuguese/picture%20path/caminho-de-imagen-1.webp', alt: 'Atividade de labirinto mostrando uma atividade de percurso de imagens temática com imagens de início e destino para crianças' },
     samples: [
-      { src: '/samples/portuguese/picture path/caminho-de-imagen-2.webp', alt: 'Atividade de labirinto de percurso de imagens com imagens temáticas para pré-escolar e jardim de infância', caption: 'Modo Percurso de imagens: as crianças seguem um caminho visual desde a imagem de início até à imagem de destino através de decorações temáticas' },
-      { src: '/samples/portuguese/picture path/caminho-de-imagen-3.webp', alt: 'Atividade de labirinto clássico com contagem de colecionáveis e chave de resposta', caption: 'Modo Labirinto clássico com imagens colecionáveis e chave de resposta automática mostrando o caminho de solução e as contagens' },
+      { src: '/samples/portuguese/picture%20path/caminho-de-imagen-2.webp', alt: 'Atividade de labirinto de percurso de imagens com imagens temáticas para pré-escolar e jardim de infância', caption: 'Modo Percurso de imagens: as crianças seguem um caminho visual desde a imagem de início até à imagem de destino através de decorações temáticas' },
+      { src: '/samples/portuguese/picture%20path/caminho-de-imagen-3.webp', alt: 'Atividade de labirinto clássico com contagem de colecionáveis e chave de resposta', caption: 'Modo Labirinto clássico com imagens colecionáveis e chave de resposta automática mostrando o caminho de solução e as contagens' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'Como criar atividades de labirintos — Tutorial completo',

@@ -249,22 +249,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/pattern%20train/kuviojuna%201.webp',
+      primary: '/samples/finnish/pattern%20train/kuviojuna-1.webp',
       primaryAlt: 'Kuviojuna-työarkki temaattisilla junavaunuilla näyttäen AB-toistuvan kuvion yhdellä puuttuvalla vaunulla täydennettäväksi',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/pattern%20train/kuviojuna%202.webp',
+        src: '/samples/finnish/pattern%20train/kuviojuna-2.webp',
         alt: 'Kuviojuna-työarkki AB-vuorottelukuviotilassa eläinkuvilla 11 temaattisessa junavaunussa',
         caption: 'AB-kuvio eläinteemalla — tunnista vuorottelusarja ja täydennä puuttuva vaunu',
       },
       {
-        src: '/samples/finnish/pattern%20train/kuviojuna%203.webp',
+        src: '/samples/finnish/pattern%20train/kuviojuna-3.webp',
         alt: 'Kuviojuna-työarkki ABC-kolmen elementin kuviotilassa ajoneuvokuvilla',
         caption: 'ABC-kuvio ajoneuvoteemalla — kolme kiertävää elementtiä luovat monimutkaisemman sarjan',
       },
       {
-        src: '/samples/finnish/pattern%20train/kuviojuna%201%20answer-key.webp',
+        src: '/samples/finnish/pattern%20train/kuviojuna-1-answer-key.webp',
         alt: 'Kuviojuna-vastauslehti kaikkine 11 vaunuineen täytettyinä oikealla kuviosarjalla',
         caption: 'Vastauslehtinäkymä — kaikki 11 vaunua täytettyinä oikealla kuviolla välittömään varmistukseen',
       },

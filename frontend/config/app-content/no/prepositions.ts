@@ -255,22 +255,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/prepositions/preposisjoner%201.webp',
+      primary: '/samples/norwegian/prepositions/preposisjoner-1.webp',
       primaryAlt: 'Preposisjoner arbeidsark med fargerike bilder som viser romlige relasjoner mellom gjenstander og geometriske former',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/prepositions/preposisjoner%201.webp',
+        src: '/samples/norwegian/prepositions/preposisjoner-1.webp',
         alt: 'Utfyllingsøvelse preposisjoner arbeidsark med dyretema og geometriske former',
         caption: 'Utfyllingsøvelse — brukerne fyller ut setninger med den korrekte preposisjonen',
       },
       {
-        src: '/samples/norwegian/prepositions/preposisjoner%202.webp',
+        src: '/samples/norwegian/prepositions/preposisjoner-2.webp',
         alt: 'Flervalgsspørsmål preposisjoner arbeidsark med kjøretøytema og romlige beskrivelser',
         caption: 'Flervalgsspørsmål — brukerne identifiserer bildet som matcher den romlige beskrivelsen',
       },
       {
-        src: '/samples/norwegian/prepositions/preposisjoner%203.webp',
+        src: '/samples/norwegian/prepositions/preposisjoner-3.webp',
         alt: 'Preposisjoner arbeidsark med alle åtte romlige preposisjoner og fasit',
         caption: 'Komplett arbeidsark med 8 øvelser — omfattende gjennomgang av alle romlige preposisjoner',
       },

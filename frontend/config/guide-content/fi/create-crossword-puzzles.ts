@@ -161,10 +161,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/crossword/kuvaristikko%201.webp', alt: 'Ristisanatehtävä lapsille kuvavihjein näyttäen temaattista sanastoa risteävässä ruudukossa' },
+    heroImage: { src: '/samples/finnish/crossword/kuvaristikko-1.webp', alt: 'Ristisanatehtävä lapsille kuvavihjein näyttäen temaattista sanastoa risteävässä ruudukossa' },
     samples: [
-      { src: '/samples/finnish/crossword/kuvaristikko%201.webp', alt: 'Lasten ristisanatehtävä eläinteemalla näyttäen numeroidun ruudukon ja kuvavihjeet', caption: 'Eläinteemainen ristisanatehtävä kuvavihjein esikoulun ja ensimmäisen luokan sanastoharjoitukseen' },
-      { src: '/samples/finnish/crossword/kuvaristikko%201.webp', alt: 'Ristisanatehtävän vastausavain näyttäen täytetyn ruudukon kaikilla kirjaimilla', caption: 'Automaattinen vastausavain luotu jokaisen ristisanatehtävän rinnalla' },
+      { src: '/samples/finnish/crossword/kuvaristikko-1.webp', alt: 'Lasten ristisanatehtävä eläinteemalla näyttäen numeroidun ruudukon ja kuvavihjeet', caption: 'Eläinteemainen ristisanatehtävä kuvavihjein esikoulun ja ensimmäisen luokan sanastoharjoitukseen' },
+      { src: '/samples/finnish/crossword/kuvaristikko-1.webp', alt: 'Ristisanatehtävän vastausavain näyttäen täytetyn ruudukon kaikilla kirjaimilla', caption: 'Automaattinen vastausavain luotu jokaisen ristisanatehtävän rinnalla' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'Kuinka luot ristisanatehtäviä lapsille — Täydellinen opas',

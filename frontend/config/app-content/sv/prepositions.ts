@@ -269,22 +269,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/prepositions/prepositioner%201.webp',
+      primary: '/samples/swedish/prepositions/prepositioner-1.webp',
       primaryAlt: 'Prepositioner arbetsblad med färgglada bilder som visar rumsliga relationer mellan föremål och geometriska former',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/prepositions/prepositioner%202.webp',
+        src: '/samples/swedish/prepositions/prepositioner-2.webp',
         alt: 'Ifyllningsövning prepositioner arbetsblad med djurtema och geometriska former',
         caption: 'Ifyllningsövning — användarna fyller i meningar med rätt preposition',
       },
       {
-        src: '/samples/swedish/prepositions/prepositioner%203.webp',
+        src: '/samples/swedish/prepositions/prepositioner-3.webp',
         alt: 'Flervalsfrågor prepositioner arbetsblad med fordonstema och rumsliga beskrivningar',
         caption: 'Flervalsfrågor — användarna identifierar bilden som matchar den rumsliga beskrivningen',
       },
       {
-        src: '/samples/swedish/prepositions/prepositioner%204.webp',
+        src: '/samples/swedish/prepositions/prepositioner-4.webp',
         alt: 'Prepositioner arbetsblad med alla åtta rumsliga prepositioner och facit',
         caption: 'Fullständigt arbetsblad med 8 övningar — omfattande repetition av alla rumsliga prepositioner',
       },

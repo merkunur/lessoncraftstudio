@@ -244,22 +244,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/picture%20sort/sorter%20billeder%201.webp',
+      primary: '/samples/danish/picture%20sort/sorter-billeder-1.webp',
       primaryAlt: 'Sorterings-opgave til print med to kategorirammer, blandet udklipsgitter og temabilleder til kategorisering',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/picture%20sort/sorter%20billeder%201.webp',
+        src: '/samples/danish/picture%20sort/sorter-billeder-1.webp',
         alt: 'Sorterings-opgave med dyr til venstre og mad til højre — børn sorterer og grupperer billeder',
         caption: 'Tematilstand — sortere billeder i to kategorier med temabilleder',
       },
       {
-        src: '/samples/danish/picture%20sort/sorter%20billeder%202.webp',
+        src: '/samples/danish/picture%20sort/sorter-billeder-2.webp',
         alt: 'Kategoriserings-opgave til print med et andet temapar og varieret billedantal',
         caption: 'Kategorisering — 104 temaer giver uendelige muligheder for at ordne og sortere',
       },
       {
-        src: '/samples/danish/picture%20sort/sorter%20billeder%203.webp',
+        src: '/samples/danish/picture%20sort/sorter-billeder-3.webp',
         alt: 'Facitliste til sorterings-opgave med billeder sorteret i korrekte kategorigrupper',
         caption: 'Automatisk facit — billeder sorteret i de korrekte kategorier',
       },

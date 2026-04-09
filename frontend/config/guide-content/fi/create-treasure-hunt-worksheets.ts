@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/treasure%20hunt/aarteenetsint%c3%a4%201.webp', alt: 'Aarteenetsintä reitinseuranta-työarkki 5 kertaa 5 koordinaattiruudukolla, 6 levitettyä temaattista kuvaa maamerkkeinä, suuntavihjeet ja aarteenetsintäteemainen sinivihreä otsikko kullanvärisellä Fredoka-kirjasimella' },
+    heroImage: { src: '/samples/finnish/treasure%20hunt/aarteenetsintä-1.webp', alt: 'Aarteenetsintä reitinseuranta-työarkki 5 kertaa 5 koordinaattiruudukolla, 6 levitettyä temaattista kuvaa maamerkkeinä, suuntavihjeet ja aarteenetsintäteemainen sinivihreä otsikko kullanvärisellä Fredoka-kirjasimella' },
     samples: [
-      { src: '/samples/finnish/treasure%20hunt/aarteenetsint%c3%a4%201.webp', alt: 'Aarteenetsintä-työarkki näyttää 5 kertaa 5 koordinaattiruudukon levitetyillä temaattisilla kuvilla ja suuntavihjeohjeet aarteenetsintäteemaisen otsikon alla', caption: 'Aarteenetsintä-työarkki Perussuunnan vihjeillä 5 kertaa 5 koordinaattiruudukolla 6 temaattisella maamerkki-kuvalla' },
-      { src: '/samples/finnish/treasure%20hunt/aarteenetsint%c3%a4%203.webp', alt: 'Aarteenetsintä-työarkki Kardinaalisuunnan vihjeillä käyttäen pohjoinen etelä itä ja länsi 5 kertaa 5 koordinaattiruudukolla', caption: 'Kardinaalitila käyttää kompassisanastoa edistyneeseen avaruudelliseen päättelyyn ja kartanlukutaitoihin' },
-      { src: '/samples/finnish/treasure%20hunt/aarteenetsint%c3%a4%202.webp', alt: 'Automaattisesti luotu vastausavain viimeisellä aarresolulla korostettuna vaaleankeltaisena 5 kertaa 5 koordinaattiruudukolla', caption: 'Automaattisesti luotu vastausavain vaaleankeltaisella korostetulla aarresolulla välitöntä varmistusta varten' },
+      { src: '/samples/finnish/treasure%20hunt/aarteenetsintä-1.webp', alt: 'Aarteenetsintä-työarkki näyttää 5 kertaa 5 koordinaattiruudukon levitetyillä temaattisilla kuvilla ja suuntavihjeohjeet aarteenetsintäteemaisen otsikon alla', caption: 'Aarteenetsintä-työarkki Perussuunnan vihjeillä 5 kertaa 5 koordinaattiruudukolla 6 temaattisella maamerkki-kuvalla' },
+      { src: '/samples/finnish/treasure%20hunt/aarteenetsintä-3.webp', alt: 'Aarteenetsintä-työarkki Kardinaalisuunnan vihjeillä käyttäen pohjoinen etelä itä ja länsi 5 kertaa 5 koordinaattiruudukolla', caption: 'Kardinaalitila käyttää kompassisanastoa edistyneeseen avaruudelliseen päättelyyn ja kartanlukutaitoihin' },
+      { src: '/samples/finnish/treasure%20hunt/aarteenetsintä-2.webp', alt: 'Automaattisesti luotu vastausavain viimeisellä aarresolulla korostettuna vaaleankeltaisena 5 kertaa 5 koordinaattiruudukolla', caption: 'Automaattisesti luotu vastausavain vaaleankeltaisella korostetulla aarresolulla välitöntä varmistusta varten' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'Näin luot aarteenetsintä-työarkkeja — Täydellinen opas',

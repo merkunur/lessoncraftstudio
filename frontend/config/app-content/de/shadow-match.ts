@@ -267,22 +267,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/shadow match/shadow-match-worksheet.webp',
+      primary: '/samples/german/shadow%20match/shadow-match-worksheet.webp',
       primaryAlt: 'Schattenbilder-Zuordnungsblatt mit farbigen Bildern in der oberen Reihe und automatisch generierten schwarzen Silhouetten in der unteren Reihe mit bernsteinfarbener Überschrift',
     },
     sampleGallery: [
       {
-        src: '/samples/german/shadow match/schatten-zuordnen-1.webp',
+        src: '/samples/german/shadow%20match/schatten-zuordnen-1.webp',
         alt: 'Schattenbilder-Zuordnungsblatt mit vier farbigen Bildern und vier schwarzen Silhouetten mit Buchstaben- und Nummernbeschriftungen',
         caption: 'Schattenbild-Zuordnungsmodus — Lernende ordnen Bilder ihren automatisch generierten Silhouetten zu',
       },
       {
-        src: '/samples/german/shadow match/schatten-zuordnen-2.webp',
+        src: '/samples/german/shadow%20match/schatten-zuordnen-2.webp',
         alt: 'Bild-Vervollständigen-Arbeitsblatt mit geteilten Bildhälften, die Lernende durch Zuordnung von ersten und zweiten Hälften wieder zusammenfügen',
         caption: 'Modus Bild Vervollständigen — Lernende ordnen geteilte Bildhälften zu, um Bilder zu vervollständigen',
       },
       {
-        src: '/samples/german/shadow match/schatten-zuordnen-1-answer-key.webp',
+        src: '/samples/german/shadow%20match/schatten-zuordnen-1-answer-key.webp',
         alt: 'Schattenbilder-Zuordnung Lösungsschlüssel mit Originalbildern und Silhouetten und korrekten Buchstabe-zu-Nummer-Zuordnungsbeschriftungen',
         caption: 'Automatisch generierter Lösungsschlüssel — Buchstabe-zu-Nummer-Beschriftungen zeigen die korrekten Zuordnungen',
       },

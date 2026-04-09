@@ -225,22 +225,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/missing%20pieces/manglende%20deler%201.webp',
+      primary: '/samples/norwegian/missing%20pieces/manglende-deler-1.webp',
       primaryAlt: 'Puslespillarbeidsark med hull klippet ut fra en fargerik illustrasjon og nummererte løsningsalternativer inkludert distraktorer med turkis Manglende Biter-overskrift og blågrønn-pink dobbelt ramme',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/missing%20pieces/manglende%20deler%201.webp',
+        src: '/samples/norwegian/missing%20pieces/manglende-deler-1.webp',
         alt: 'Manglende biter puslespill med firkantede hull klippet ut og nummererte løsningsalternativer for visuell identifikasjon',
         caption: 'Firkantede brikker — rene geometriske klipp med nummererte løsningsalternativer inkludert distraktorer',
       },
       {
-        src: '/samples/norwegian/missing%20pieces/manglende%20deler%202.webp',
+        src: '/samples/norwegian/missing%20pieces/manglende-deler-2.webp',
         alt: 'Manglende biter puslespill med sirkulære hull og nummererte løsningsalternativer inkludert distraktor-brikker',
         caption: 'Sirkulære brikker — avrundede klipp med distraktorer som forhindrer eliminering',
       },
       {
-        src: '/samples/norwegian/missing%20pieces/manglende%20deler%203.webp',
+        src: '/samples/norwegian/missing%20pieces/manglende-deler-3.webp',
         alt: 'Manglende biter puslespill fasit med gulmarkerte nummeretiketter plassert inne i hvert hull som viser det korrekte alternativindekset',
         caption: 'Automatisk generert fasit — gulmarkerte etiketter (rgba(255,255,0,0.7)) viser korrekt alternativ for hvert hull',
       },

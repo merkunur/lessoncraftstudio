@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%201.webp', alt: 'Legpuzzel werkblad met gaten uitgesneden uit een kleurrijke illustratie en genummerde oplossingsopties inclusief afleiders eronder met turquoise Ontbrekende Stukjes koptekst en groenblauw-roze dubbele rand omlijsting' },
+    heroImage: { src: '/samples/dutch/missing%20pieces/ontbrekende-stukjes-1.webp', alt: 'Legpuzzel werkblad met gaten uitgesneden uit een kleurrijke illustratie en genummerde oplossingsopties inclusief afleiders eronder met turquoise Ontbrekende Stukjes koptekst en groenblauw-roze dubbele rand omlijsting' },
     samples: [
-      { src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%201.webp', alt: 'Ontbrekende stukjes puzzelwerkblad met gaten en genummerde oplossingsopties met dubbele rand koptekst', caption: 'Legpuzzel werkblad met slim geëxtraheerde stukken en genummerde oplossingsopties inclusief afleiders' },
-      { src: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%201.webp', alt: 'Wat hoort er niet bij werkblad als aanvullende visuele discriminatie activiteit', caption: 'Wat hoort er niet bij werkblad als visuele discriminatiepartner voor ontbrekende stukjes puzzels' },
-      { src: '/samples/dutch/picture%20path/afbeeldingspad%201.webp', alt: 'Afbeeldingspad werkblad als aanvullende visuele waarnemingsactiviteit', caption: 'Afbeeldingspad werkblad als visuele waarnemingspartner voor legpuzzelactiviteiten' },
+      { src: '/samples/dutch/missing%20pieces/ontbrekende-stukjes-1.webp', alt: 'Ontbrekende stukjes puzzelwerkblad met gaten en genummerde oplossingsopties met dubbele rand koptekst', caption: 'Legpuzzel werkblad met slim geëxtraheerde stukken en genummerde oplossingsopties inclusief afleiders' },
+      { src: '/samples/dutch/odd%20one%20out/vind-de-vreemde-eend-1.webp', alt: 'Wat hoort er niet bij werkblad als aanvullende visuele discriminatie activiteit', caption: 'Wat hoort er niet bij werkblad als visuele discriminatiepartner voor ontbrekende stukjes puzzels' },
+      { src: '/samples/dutch/picture%20path/afbeeldingspad-1.webp', alt: 'Afbeeldingspad werkblad als aanvullende visuele waarnemingsactiviteit', caption: 'Afbeeldingspad werkblad als visuele waarnemingspartner voor legpuzzelactiviteiten' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Hoe Ontbrekende Stukjes Puzzels Maken — Complete Handleiding',

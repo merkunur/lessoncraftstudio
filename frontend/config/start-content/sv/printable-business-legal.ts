@@ -223,7 +223,7 @@ const content: StartContent = {
       { src: '/samples/english/writing/writing.webp', alt: 'Skrivarbetsblad som visar kommersiellt licensierbart pedagogiskt innehåll', caption: 'Skrivövning — kommersiellt licensierbart pedagogiskt innehåll' },
       { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsökspussel som demonstrerar potential för kommersiella högvolymprodukter', caption: 'Ordsökning — mest populära kommersiella pusseltypen' },
       { src: '/samples/english/crossword/crossword-worksheet.webp', alt: 'Korsordspussel som visar flerspråkig kommersiell produktkapacitet', caption: 'Korsord — flerspråkiga kommersiella produkter' },
-      { src: '/samples/english/math puzzle/math-puzzles.webp', alt: 'Mattearbetsblad som demonstrerar tidlös kommersiell produktgenerering', caption: 'Matte — tidlös kommersiell produktgenerering' },
+      { src: '/samples/english/math%20puzzle/math-puzzles.webp', alt: 'Mattearbetsblad som demonstrerar tidlös kommersiell produktgenerering', caption: 'Matte — tidlös kommersiell produktgenerering' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Hur du skapar skrivarbetsblad för ditt utskriftsbara företag — LessonCraftStudio demo',

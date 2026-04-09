@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/treasure hunt/caccia-al-tesoro-1.webp',
+      primary: '/samples/italian/treasure%20hunt/caccia-al-tesoro-1.webp',
       primaryAlt: 'Scheda caccia al tesoro con griglia di coordinate 5×5, immagini disperse, indizi direzionali e intestazione a tema tesoro',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/treasure hunt/caccia-al-tesoro-1.webp',
+        src: '/samples/italian/treasure%20hunt/caccia-al-tesoro-1.webp',
         alt: 'Scheda puzzle caccia al tesoro con 6 immagini tematiche su una griglia 5×5 e indizi direzionali Base',
         caption: 'Modalità direzione Base — segui gli indizi su, giù, sinistra e destra per trovare il tesoro',
       },
       {
-        src: '/samples/italian/treasure hunt/caccia-al-tesoro-2.webp',
+        src: '/samples/italian/treasure%20hunt/caccia-al-tesoro-2.webp',
         alt: 'Scheda puzzle caccia al tesoro con indizi direzionali Cardinali usando nord, sud, est e ovest',
         caption: 'Modalità direzione Cardinale — direzioni della bussola per ragionamento spaziale avanzato',
       },
       {
-        src: '/samples/italian/treasure hunt/caccia-al-tesoro-1-answer-key.webp',
+        src: '/samples/italian/treasure%20hunt/caccia-al-tesoro-1-answer-key.webp',
         alt: 'Chiave di risposta caccia al tesoro con la cella del tesoro evidenziata in giallo pallido sulla griglia di coordinate',
         caption: 'Chiave di risposta auto-generata — evidenziazione giallo pallido segna la destinazione del tesoro',
       },

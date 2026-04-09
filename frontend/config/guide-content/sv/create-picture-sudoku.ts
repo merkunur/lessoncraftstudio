@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/sudoku/sudoku_l%C3%A4tt.jpeg', alt: 'Bildsudoku-arbetsblad med tematiska bilder i ett 4×4 logikpussel för unga barn' },
+    heroImage: { src: '/samples/swedish/sudoku/sudoku-lätt.jpeg', alt: 'Bildsudoku-arbetsblad med tematiska bilder i ett 4×4 logikpussel för unga barn' },
     samples: [
-      { src: '/samples/swedish/sudoku/sudoku_l%C3%A4tt.jpeg', alt: 'Bildbaserat 4×4 sudokupussel med djurtema för förskolebarn', caption: 'Enkel svårighet bildsudoku med bondgårdsdjur-tema med fyra tomma celler' },
-      { src: '/samples/swedish/sudoku/sudoku_medel.jpeg', alt: 'Bildsudoku facit som visar det färdigställda 4×4 rutnätet', caption: 'Automatiskt facit genereras tillsammans med varje bildsudoku-pussel' },
+      { src: '/samples/swedish/sudoku/sudoku-lätt.jpeg', alt: 'Bildbaserat 4×4 sudokupussel med djurtema för förskolebarn', caption: 'Enkel svårighet bildsudoku med bondgårdsdjur-tema med fyra tomma celler' },
+      { src: '/samples/swedish/sudoku/sudoku-medel.jpeg', alt: 'Bildsudoku facit som visar det färdigställda 4×4 rutnätet', caption: 'Automatiskt facit genereras tillsammans med varje bildsudoku-pussel' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Hur du skapar bildsudoku — Komplett guide',

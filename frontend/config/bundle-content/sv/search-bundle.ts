@@ -198,14 +198,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/find and count/worksheet.webp',
+      primary: '/samples/swedish/find%20and%20count/worksheet.webp',
       primaryAlt: 'I Spy hitta och räkna arbetsblad med tematiska bilder spridda över ett rutnät för visuell skanning och räkning',
     },
     sampleGallery: [
-      { src: '/samples/swedish/find and count/worksheet.webp', alt: 'I Spy hitta och räkna arbetsblad med gömda objekt att lokalisera och räkna', caption: 'Hitta och Räkna I Spy' },
-      { src: '/samples/swedish/find objects/hitta%20f%c3%b6rem%c3%a5len%201.webp', alt: 'Gömt objekt arbetsblad med nollöverlappande scen och visuell legend', caption: 'Hitta Föremålen Gömt Objekt' },
-      { src: '/samples/swedish/crossword/bildkorsord%201.webp', alt: '15x15 korsordspussel med bildledtrådar istället för textdefinitioner', caption: 'Bildkorsord Pussel' },
-      { src: '/samples/swedish/treasure hunt/skattjakt%201.webp', alt: 'Skattjakt arbetsblad med 5x5 koordinatrutnät och riktningsledtrådar', caption: 'Skattjakt Rutnät' },
+      { src: '/samples/swedish/find%20and%20count/worksheet.webp', alt: 'I Spy hitta och räkna arbetsblad med gömda objekt att lokalisera och räkna', caption: 'Hitta och Räkna I Spy' },
+      { src: '/samples/swedish/find%20objects/hitta-föremålen-1.webp', alt: 'Gömt objekt arbetsblad med nollöverlappande scen och visuell legend', caption: 'Hitta Föremålen Gömt Objekt' },
+      { src: '/samples/swedish/crossword/bildkorsord-1.webp', alt: '15x15 korsordspussel med bildledtrådar istället för textdefinitioner', caption: 'Bildkorsord Pussel' },
+      { src: '/samples/swedish/treasure%20hunt/skattjakt-1.webp', alt: 'Skattjakt arbetsblad med 5x5 koordinatrutnät och riktningsledtrådar', caption: 'Skattjakt Rutnät' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Sök & Hitta-paket — Se alla 4 upptäcktsgeneratorer i aktion',

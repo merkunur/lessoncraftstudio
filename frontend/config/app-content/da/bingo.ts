@@ -241,22 +241,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/bingo/billedbingo%201.webp',
+      primary: '/samples/danish/bingo/billedbingo-1.webp',
       primaryAlt: 'Bingoplade med temabilleder — printklart bingo spil lavet med bingo generator',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/bingo/billedbingo%201.webp',
+        src: '/samples/danish/bingo/billedbingo-1.webp',
         alt: 'Bingoplade med billedudfyldning — farverige temabilleder i gitterfelter og cirkulære brikker til print',
         caption: 'Bingoplade med billeder — farverige illustrationer i felter og cirkulære brikker',
       },
       {
-        src: '/samples/danish/bingo/billedbingo%202.webp',
+        src: '/samples/danish/bingo/billedbingo-2.webp',
         alt: 'Bingoplade med et andet tema — unikke bingoplader fra bingo generator til gruppe og klasse',
         caption: 'Tematisk bingoplade — 104 temaer giver unikke bingo spil for hver gruppe',
       },
       {
-        src: '/samples/danish/bingo/billedbingo%203.webp',
+        src: '/samples/danish/bingo/billedbingo-3.webp',
         alt: 'Bingo opråbsliste med dynamisk ordgitter — spillederens referenceark til bingo spil',
         caption: 'Opråbsliste — dynamisk ordgitter til spillederen i bingo spillet',
       },

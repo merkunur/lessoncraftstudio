@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/word%20scramble/letterzaak%201.webp',
+      primary: '/samples/dutch/word%20scramble/letterzaak-1.webp',
       primaryAlt: 'Letterpuzzel werkblad met afbeeldingsaanwijzingen en gehusselde lettertegels voor letterherschikking spellingpuzzels',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/word%20scramble/letterzaak%201.webp',
+        src: '/samples/dutch/word%20scramble/letterzaak-1.webp',
         alt: 'Letterpuzzel werkblad met afbeeldingsaanwijzingen en gehusselde lettertegels op Makkelijk moeilijkheid',
         caption: 'Makkelijk moeilijkheid — de helft van de letters vooraf geplaatst als aanwijzingen voor beginnende spellers',
       },
       {
-        src: '/samples/dutch/word%20scramble/letterzaak%202.webp',
+        src: '/samples/dutch/word%20scramble/letterzaak-2.webp',
         alt: 'Letterpuzzel werkblad met klinker-medeklinker kleurcodering die gekleurde lettertegels toont',
         caption: 'Kleurcodering — klinkers en medeklinkers in verschillende kleuren voor fonetisch bewustzijn',
       },
       {
-        src: '/samples/dutch/word%20scramble/letterzaak%203.webp',
+        src: '/samples/dutch/word%20scramble/letterzaak-3.webp',
         alt: 'Letterpuzzel antwoordblad met alle letters correct ontwarreld',
         caption: 'Antwoordblad — correct ontwarrelde woorden voor eenvoudige beoordeling en zelfcontrole',
       },

@@ -159,9 +159,9 @@ const content: GuideContent = {
     { pageType: 'start', slug: 'attivita-stampabili-etsy', anchorText: 'Masterclass Attività Stampabili su Etsy' },
     { pageType: 'start', slug: 'libri-attivita-amazon-kdp', anchorText: 'Guida Libri di Attività Amazon KDP' },
     { pageType: 'start', slug: 'guida-licenza-commerciale', anchorText: 'Guida alla Licenza Commerciale' },
-    { pageType: 'app', slug: 'negozificazione-immagini-schede', anchorText: 'Generatore Schede negozificazione Immagini — Dettagli Completi' },
+    { pageType: 'app', slug: 'classificazione-immagini-schede', anchorText: 'Generatore Schede negozificazione Immagini — Dettagli Completi' },
     { pageType: 'app', slug: 'abbinamenti-schede', anchorText: 'Generatore Schede Abbinamento — Dettagli Completi' },
-    { pageType: 'tool', slug: 'generatore-negozificazione-immagini', anchorText: 'Prova il Generatore negozificazione Immagini' },
+    { pageType: 'tool', slug: 'generatore-classificazione-immagini', anchorText: 'Prova il Generatore negozificazione Immagini' },
   ],
 
   toolsRecommended: [
@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/picture sort/negozificazione-immagini-1.webp', alt: 'Scheda di negozificazione a due categorie con cornici a bordo tratteggiato e griglia di ritaglio mescolata per attività di negozificazione' },
+    heroImage: { src: '/samples/italian/picture%20sort/classificazione-immagini-1.webp', alt: 'Scheda di negozificazione a due categorie con cornici a bordo tratteggiato e griglia di ritaglio mescolata per attività di negozificazione' },
     samples: [
-      { src: '/samples/italian/picture sort/negozificazione-immagini-1.webp', alt: 'Scheda negozificazione immagini che mostra due cornici di categoria affiancate e griglia di ritaglio mescolata sotto', caption: 'Scheda di negozificazione a due categorie con cornici di categoria affiancate e griglia di ritaglio mescolata' },
-      { src: '/samples/italian/picture sort/negozificazione-immagini-1-answer-key.webp', alt: 'Chiave di risposta auto-generata con immagini ingrandite negozificate nei riquadri delle categorie corrette', caption: 'Chiave di risposta auto-generata con immagini visualizzate a sei volte la dimensione delle celle della griglia di ritaglio' },
+      { src: '/samples/italian/picture%20sort/classificazione-immagini-1.webp', alt: 'Scheda negozificazione immagini che mostra due cornici di categoria affiancate e griglia di ritaglio mescolata sotto', caption: 'Scheda di negozificazione a due categorie con cornici di categoria affiancate e griglia di ritaglio mescolata' },
+      { src: '/samples/italian/picture%20sort/classificazione-immagini-1-answer-key.webp', alt: 'Chiave di risposta auto-generata con immagini ingrandite negozificate nei riquadri delle categorie corrette', caption: 'Chiave di risposta auto-generata con immagini visualizzate a sei volte la dimensione delle celle della griglia di ritaglio' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'Come Creare Schede di negozificazione per Categorie — Tutorial Completo',

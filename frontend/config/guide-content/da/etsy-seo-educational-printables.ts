@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/wordsearch/ords%c3%b8gning%201.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser multi-nøgleord pædagogisk printable-produkt til Etsy SEO-optimering' },
+    heroImage: { src: '/samples/danish/wordsearch/ordsøgning-1.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser multi-nøgleord pædagogisk printable-produkt til Etsy SEO-optimering' },
     samples: [
-      { src: '/samples/danish/wordsearch/ords%c3%b8gning%201.webp', alt: 'Ordsøgning — dansk eksempelarbejdsark', caption: 'Ordsøgning eksempel 1' },
-      { src: '/samples/danish/wordsearch/ords%c3%b8gning%202.webp', alt: 'Ordsøgning — dansk eksempel 2', caption: 'Ordsøgning eksempel 2' },
-      { src: '/samples/danish/wordsearch/ords%c3%b8gning%203.webp', alt: 'Ordsøgning — dansk eksempel 3', caption: 'Ordsøgning eksempel 3' },
+      { src: '/samples/danish/wordsearch/ordsøgning-1.webp', alt: 'Ordsøgning — dansk eksempelarbejdsark', caption: 'Ordsøgning eksempel 1' },
+      { src: '/samples/danish/wordsearch/ordsøgning-2.webp', alt: 'Ordsøgning — dansk eksempel 2', caption: 'Ordsøgning eksempel 2' },
+      { src: '/samples/danish/wordsearch/ordsøgning-3.webp', alt: 'Ordsøgning — dansk eksempel 3', caption: 'Ordsøgning eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan generator du ordsøgningsarbejdsark til Etsy SEO — Multi-nøgleord produktstrategi',
@@ -207,7 +207,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Tyr — tematisk pædagogisk billede', caption: 'Tyr' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalv — tematisk pædagogisk billede', caption: 'Kalv' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kat — tematisk pædagogisk billede', caption: 'Kat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kat 2 — tematisk pædagogisk billede', caption: 'Kat 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kat 2 — tematisk pædagogisk billede', caption: 'Kat 2' },
   ],
 };
 

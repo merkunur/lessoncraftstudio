@@ -177,11 +177,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside som demonstrerer en bredt appellerende KDP aktivitetsbok-nisje for utgivere' },
+    heroImage: { src: '/samples/norwegian/coloring/coloring-portrait-1.webp', alt: 'Fargeleggingsside som demonstrerer en bredt appellerende KDP aktivitetsbok-nisje for utgivere' },
     samples: [
-      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsbokinnhold som representerer en av de storste KDP aktivitetsbok-nisjene', caption: 'Fargeleggingsboker — en massiv KDP-nisje som spenner over barn, voksne og tematiske utgaver med sterk aret rundt-ettersporsel' },
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsok-puslespill som demonstrerer tematisk undernisje-malretting innenfor puslespillkategorien', caption: 'Tematisk ordsok — undernisje-malretting gjennom dyre-, reise- og hoytidstemaer reduserer konkurranse mens sterk ettersporsel opprettholdes' },
-      { src: '/samples/norwegian/math%20worksheet/matematikkoppgave%201.webp', alt: 'Mattearbeidsark som viser klassetrinnbasert publikumssegmentering for KDP nisjestrategi', caption: 'Mattearbeidshefter — publikumssegmentering etter klassetrinn og operasjonstype generator dusinvis av distinkte undernisjer fra en kategori' },
+      { src: '/samples/norwegian/coloring/coloring-portrait-1.webp', alt: 'Fargeleggingsbokinnhold som representerer en av de storste KDP aktivitetsbok-nisjene', caption: 'Fargeleggingsboker — en massiv KDP-nisje som spenner over barn, voksne og tematiske utgaver med sterk aret rundt-ettersporsel' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsok-puslespill som demonstrerer tematisk undernisje-malretting innenfor puslespillkategorien', caption: 'Tematisk ordsok — undernisje-malretting gjennom dyre-, reise- og hoytidstemaer reduserer konkurranse mens sterk ettersporsel opprettholdes' },
+      { src: '/samples/norwegian/math%20worksheet/matematikkoppgave-1.webp', alt: 'Mattearbeidsark som viser klassetrinnbasert publikumssegmentering for KDP nisjestrategi', caption: 'Mattearbeidshefter — publikumssegmentering etter klassetrinn og operasjonstype generator dusinvis av distinkte undernisjer fra en kategori' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hvordan lage mattearbeidsark for KDP-aktivitetsboker — veiledning for nisjeinnholdsoppretting',

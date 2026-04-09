@@ -122,11 +122,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhakutehtävä KDP-aktiviteettikirjaan luotu LessonCraftStudio-generaattorilla' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananhakutehtävä KDP-aktiviteettikirjaan luotu LessonCraftStudio-generaattorilla' },
     samples: [
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhaku — KDP-aktiviteettikirjaesimerkki', caption: 'Sananhaku — KDP:n myydyin kategoria' },
-      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu — KDP-värityskirjaesimerkki', caption: 'Värityskirja — premium-väripainatus' },
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlasku — KDP-matemaattinen tehtäväkirja', caption: 'Matemaattinen tehtäväkirja — ikiviheä myyjä' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananhaku — KDP-aktiviteettikirjaesimerkki', caption: 'Sananhaku — KDP:n myydyin kategoria' },
+      { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Värityssivu — KDP-värityskirjaesimerkki', caption: 'Värityskirja — premium-väripainatus' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Yhteenlasku — KDP-matemaattinen tehtäväkirja', caption: 'Matemaattinen tehtäväkirja — ikiviheä myyjä' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Näin luot aktiviteettikirjasivuja KDP-julkaisuun — LessonCraftStudio-demo',

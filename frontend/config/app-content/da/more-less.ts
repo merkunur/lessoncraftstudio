@@ -240,22 +240,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/more%20less/mere%20mindre%201.webp',
+      primary: '/samples/danish/more%20less/mere-mindre-1.webp',
       primaryAlt: 'Større end mindre end opgave til print med farverige dyrebilleder og sammenligningssymboler',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/more%20less/mere%20mindre%201.webp',
+        src: '/samples/danish/more%20less/mere-mindre-1.webp',
         alt: 'Opgave om at sammenligne mængder med tilstanden Billede til Billede og dyretema',
         caption: 'Billede til Billede — børn tæller to grupper og afgør, hvilken der har flere eller færre',
       },
       {
-        src: '/samples/danish/more%20less/mere%20mindre%202.webp',
+        src: '/samples/danish/more%20less/mere-mindre-2.webp',
         alt: 'Sammenligne tal opgave med tilstanden Billede til Tal og madtema',
         caption: 'Billede til Tal — sammenlign en gruppe billeder med et tal ved hjælp af større end og mindre end',
       },
       {
-        src: '/samples/danish/more%20less/mere%20mindre%203.webp',
+        src: '/samples/danish/more%20less/mere-mindre-3.webp',
         alt: 'Tjek og Kryds Grupper opgave med blandede billeder til sammenligning af mængder',
         caption: 'Tjek og Kryds Grupper — find gruppen med flere og færre i en kasse med blandede billeder',
       },

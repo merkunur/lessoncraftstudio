@@ -172,10 +172,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%201.webp', alt: 'Subtraksjonsarbeidsark med overkryssede tematiske bilder som viser frataksovelser for barn' },
+    heroImage: { src: '/samples/norwegian/subtraction/moro-med-subtraksjon-1.webp', alt: 'Subtraksjonsarbeidsark med overkryssede tematiske bilder som viser frataksovelser for barn' },
     samples: [
-      { src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%201.webp', alt: 'Bildebasert subtraksjonsarbeidsark med overkryssede dyr for barnehage', caption: 'Barnehage subtraksjonsarbeidsark med Overstrykningsmodus og tematiske bilder' },
-      { src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%201.webp', alt: 'Subtraksjonsarbeidsark med fasit som viser korrekte losninger', caption: 'Automatisk fasit generert sammen med hvert subtraksjonsarbeidsark' },
+      { src: '/samples/norwegian/subtraction/moro-med-subtraksjon-1.webp', alt: 'Bildebasert subtraksjonsarbeidsark med overkryssede dyr for barnehage', caption: 'Barnehage subtraksjonsarbeidsark med Overstrykningsmodus og tematiske bilder' },
+      { src: '/samples/norwegian/subtraction/moro-med-subtraksjon-1.webp', alt: 'Subtraksjonsarbeidsark med fasit som viser korrekte losninger', caption: 'Automatisk fasit generert sammen med hvert subtraksjonsarbeidsark' },
     ],
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'Hvordan lage subtraksjonsarbeidsark — komplett veiledning',

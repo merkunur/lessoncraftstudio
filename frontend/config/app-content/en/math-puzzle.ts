@@ -227,22 +227,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/math puzzle/math-puzzles.webp',
+      primary: '/samples/english/math%20puzzle/math-puzzles.webp',
       primaryAlt: 'Math puzzle worksheet with a colorful image split into grid pieces, each containing an addition problem',
     },
     sampleGallery: [
       {
-        src: '/samples/english/math puzzle/math-puzzles-1.webp',
+        src: '/samples/english/math%20puzzle/math-puzzles-1.webp',
         alt: 'Math puzzle worksheet with 3x3 addition grid using animal theme',
         caption: 'Addition mode — 3×3 grid with 9 puzzle pieces and scrambled answers below',
       },
       {
-        src: '/samples/english/math puzzle/math-puzzles-5.webp',
+        src: '/samples/english/math%20puzzle/math-puzzles-5.webp',
         alt: 'Math puzzle worksheet with 2x3 subtraction grid using nature theme',
         caption: 'Subtraction mode — 2×3 grid for a quick 6-piece puzzle challenge',
       },
       {
-        src: '/samples/english/math puzzle/math-puzzles-10.webp',
+        src: '/samples/english/math%20puzzle/math-puzzles-10.webp',
         alt: 'Math puzzle worksheet with 4x4 mixed operations grid using vehicle theme',
         caption: 'Mixed mode — 4×4 grid with 16 pieces for advanced problem-solving practice',
       },

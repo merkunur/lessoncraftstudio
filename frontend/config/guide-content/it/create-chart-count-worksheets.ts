@@ -188,11 +188,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/chart count/grafico-con-immagini-1.webp', alt: 'Scheda grafico con immagini con griglia 4×5 di immagini sparse che mostra 20 icone di 6 tipi e grafico a barre per conteggio e rappresentazione dati' },
+    heroImage: { src: '/samples/italian/chart%20count/grafico-con-immagini-1.webp', alt: 'Scheda grafico con immagini con griglia 4×5 di immagini sparse che mostra 20 icone di 6 tipi e grafico a barre per conteggio e rappresentazione dati' },
     samples: [
-      { src: '/samples/italian/chart count/grafico-con-immagini-1.webp', alt: 'Scheda grafico con immagini tema animali con 20 icone animali sparse in una griglia 4×5 e grafico a barre 6 colonne per pratica di conteggio', caption: 'Grafico con immagini tema animali — 6 tipi di animali sparsi nella griglia con grafico a barre sotto per pratica di rappresentazione dati' },
-      { src: '/samples/italian/chart count/grafico-con-immagini-1-answer-key.webp', alt: 'Chiave di risposta grafico con immagini con celle evidenziate in giallo che mostrano i conteggi corretti per ciascuno dei 6 tipi di immagine', caption: 'Chiave di risposta auto-generata — celle riempite in giallo (#FFC857) mostrano il conteggio corretto per ciascun tipo di immagine' },
-      { src: '/samples/italian/chart count/grafico-con-immagini-4.webp', alt: 'Scheda grafico con immagini con temi sfondo e bordo decorativi applicati per presentazione marketplace raffinata', caption: 'Grafico con immagini decorato — temi sfondo e bordo con controlli opacità indipendenti per stile professionale' },
+      { src: '/samples/italian/chart%20count/grafico-con-immagini-1.webp', alt: 'Scheda grafico con immagini tema animali con 20 icone animali sparse in una griglia 4×5 e grafico a barre 6 colonne per pratica di conteggio', caption: 'Grafico con immagini tema animali — 6 tipi di animali sparsi nella griglia con grafico a barre sotto per pratica di rappresentazione dati' },
+      { src: '/samples/italian/chart%20count/grafico-con-immagini-1-answer-key.webp', alt: 'Chiave di risposta grafico con immagini con celle evidenziate in giallo che mostrano i conteggi corretti per ciascuno dei 6 tipi di immagine', caption: 'Chiave di risposta auto-generata — celle riempite in giallo (#FFC857) mostrano il conteggio corretto per ciascun tipo di immagine' },
+      { src: '/samples/italian/chart%20count/grafico-con-immagini-4.webp', alt: 'Scheda grafico con immagini con temi sfondo e bordo decorativi applicati per presentazione marketplace raffinata', caption: 'Grafico con immagini decorato — temi sfondo e bordo con controlli opacità indipendenti per stile professionale' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Come Creare Schede Grafici con Immagini con Chiavi di Risposta Automatiche e Griglie di Immagini Sparse — Tutorial Passo-Passo',

@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/drawing lines/prática-de-desenhar-linhas-1.webp',
+      primary: '/samples/portuguese/drawing%20lines/prática-de-desenhar-linhas-1.webp',
       primaryAlt: 'Atividade de traçado de linhas com modelo SVG de curvas a ligar pares de imagens a cores emparelhadas em formato horizontal',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/drawing lines/prática-de-desenhar-linhas-2.webp',
+        src: '/samples/portuguese/drawing%20lines/prática-de-desenhar-linhas-2.webp',
         alt: 'Atividade de traçado de linhas com modelo de curva a ligar pares de imagens de animais a cores em orientação horizontal',
         caption: 'Modelo de curva — traçados fluidos com 4 pares de imagens a cores em orientação horizontal',
       },
       {
-        src: '/samples/portuguese/drawing lines/prática-de-desenhar-linhas-3.webp',
+        src: '/samples/portuguese/drawing%20lines/prática-de-desenhar-linhas-3.webp',
         alt: 'Atividade de traçado de linhas com modelo de diagonal a ligar cinco pares de imagens em orientação vertical',
         caption: 'Modelo de diagonal — linhas em ângulo com 5 pares de imagens para prática de coordenação bilateral',
       },
       {
-        src: '/samples/portuguese/drawing lines/prática-de-desenhar-linhas-4.webp',
+        src: '/samples/portuguese/drawing%20lines/prática-de-desenhar-linhas-4.webp',
         alt: 'Atividade de traçado de linhas com modelo horizontal a ligar pares de imagens de tema natureza em formato vertical',
         caption: 'Modelo horizontal — linhas retas da esquerda para a direita para prática inicial de motricidade fina',
       },

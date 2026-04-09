@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%201.jpeg', alt: 'Alfabetståg-arbetsblad med 11 färgglada tågvagnar med bokstäver och matchande ledtrådsbilder' },
+    heroImage: { src: '/samples/swedish/alphabet%20train/alfabet-tåg-1.jpeg', alt: 'Alfabetståg-arbetsblad med 11 färgglada tågvagnar med bokstäver och matchande ledtrådsbilder' },
     samples: [
-      { src: '/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%201.jpeg', alt: 'Färgglada alfabetståg-arbetsblad med 11 vagnar och bokstav-bild matchning', caption: 'Alfabetståg-arbetsblad med 11 färgglada vagnar och bokstav-bild matchningsuppgifter' },
-      { src: '/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%202.jpeg', alt: 'Alfabetståg med tematiska bilder och flera matchningsuppgifter vid mellannivå', caption: 'Tematiskt alfabetståg med konfigurerbart ledtrådsantal för svårighetsskalning' },
-      { src: '/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%203.jpeg', alt: 'Avancerat alfabetståg med 11 ledtrådar för maximal svårighetsgrad', caption: 'Full 11-ledtrådssvårighet för avancerad bokstavsigenkänningsövning' },
+      { src: '/samples/swedish/alphabet%20train/alfabet-tåg-1.jpeg', alt: 'Färgglada alfabetståg-arbetsblad med 11 vagnar och bokstav-bild matchning', caption: 'Alfabetståg-arbetsblad med 11 färgglada vagnar och bokstav-bild matchningsuppgifter' },
+      { src: '/samples/swedish/alphabet%20train/alfabet-tåg-2.jpeg', alt: 'Alfabetståg med tematiska bilder och flera matchningsuppgifter vid mellannivå', caption: 'Tematiskt alfabetståg med konfigurerbart ledtrådsantal för svårighetsskalning' },
+      { src: '/samples/swedish/alphabet%20train/alfabet-tåg-3.jpeg', alt: 'Avancerat alfabetståg med 11 ledtrådar för maximal svårighetsgrad', caption: 'Full 11-ledtrådssvårighet för avancerad bokstavsigenkänningsövning' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Hur du skapar alfabetståg-arbetsblad — Komplett guide',

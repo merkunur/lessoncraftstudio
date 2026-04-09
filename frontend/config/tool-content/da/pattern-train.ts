@@ -215,22 +215,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/pattern%20train/m%c3%b8nstertoget%201.webp',
+      primary: '/samples/danish/pattern%20train/mønstertoget-1.webp',
       primaryAlt: 'Gratis mønster-opgave generator med tematiske togvogne, der viser gentagende sekvens med en manglende vogn — prøv online med vandmærke',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/pattern%20train/mønstertoget%201.webp',
+        src: '/samples/danish/pattern%20train/mønstertoget-1.webp',
         alt: 'Mønstertog arbejdsark i AB alternerende mønstertilstand med dyrebilleder på 11 tematiske togvogne',
         caption: 'AB-mønster med dyretema — brugerne identificerer den alternerende sekvens og udfylder den manglende vogn',
       },
       {
-        src: '/samples/danish/pattern%20train/mønstertoget%202.webp',
+        src: '/samples/danish/pattern%20train/mønstertoget-2.webp',
         alt: 'Mønstertog arbejdsark i ABC treelementsmønster med tematiske billeder på togvogne',
         caption: 'ABC-mønster — tre roterende objekter generator en mere kompleks gentagende sekvens',
       },
       {
-        src: '/samples/danish/pattern%20train/mønstertoget%203.webp',
+        src: '/samples/danish/pattern%20train/mønstertoget-3.webp',
         alt: 'Mønstertog facit, der viser alle 11 vogne udfyldt med den korrekte mønstersekvens',
         caption: 'Facitvisning — alle 11 vogne udfyldt med det korrekte mønster for verifikation',
       },

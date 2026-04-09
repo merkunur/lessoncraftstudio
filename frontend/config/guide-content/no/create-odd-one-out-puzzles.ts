@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/odd%20one%20out/finn%20den%20rare%201.webp', alt: 'Finn den ulike-arbeidsark med fire bilder per ovelsesrad som viser tre vanlige elementer og en ulik med korall-ravgul-turkis overskrift' },
+    heroImage: { src: '/samples/norwegian/odd%20one%20out/finn-den-rare-1.webp', alt: 'Finn den ulike-arbeidsark med fire bilder per ovelsesrad som viser tre vanlige elementer og en ulik med korall-ravgul-turkis overskrift' },
     samples: [
-      { src: '/samples/norwegian/odd%20one%20out/finn%20den%20rare%201.webp', alt: 'Finn den ulike-arbeidsark som viser ovelseskort med fire bilder per rad og stilisert Finn den ulike-overskrift', caption: 'Finn den ulike-arbeidsark med fire-bilds ovelsesrader og adaptivt kolonneoppsett' },
-      { src: '/samples/norwegian/odd%20one%20out/finn%20den%20rare%202.webp', alt: 'Autogenerert fasit med rode sirkelkonturer tegnet rundt den ulike gjenstanden i hver ovelsesrad', caption: 'Autogenerert fasit med rode sirkelmarkorer som identifiserer den ulike gjenstanden i hver rad' },
+      { src: '/samples/norwegian/odd%20one%20out/finn-den-rare-1.webp', alt: 'Finn den ulike-arbeidsark som viser ovelseskort med fire bilder per rad og stilisert Finn den ulike-overskrift', caption: 'Finn den ulike-arbeidsark med fire-bilds ovelsesrader og adaptivt kolonneoppsett' },
+      { src: '/samples/norwegian/odd%20one%20out/finn-den-rare-2.webp', alt: 'Autogenerert fasit med rode sirkelkonturer tegnet rundt den ulike gjenstanden i hver ovelsesrad', caption: 'Autogenerert fasit med rode sirkelmarkorer som identifiserer den ulike gjenstanden i hver rad' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Hvordan lage finn den ulike-puslespill — komplett veiledning',
@@ -199,7 +199,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Asparges — tematisk pedagogisk bilde', caption: 'Asparges' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Rodbet — tematisk pedagogisk bilde', caption: 'Rodbet' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Paprika — tematisk pedagogisk bilde', caption: 'Paprika' },
+    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Paprika — tematisk pedagogisk bilde', caption: 'Paprika' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Brokkoli — tematisk pedagogisk bilde', caption: 'Brokkoli' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Kal — tematisk pedagogisk bilde', caption: 'Kal' },
   ],

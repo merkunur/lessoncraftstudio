@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/picture path/percorso-di-immagini-1.webp',
+      primary: '/samples/italian/picture%20path/percorso-di-immagini-1.webp',
       primaryAlt: 'Scheda labirinto percorso illustrato con immagini tematiche in una griglia con bordo arancione e intestazione auto-generata Percorso Illustrato',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/picture path/percorso-di-immagini-2.webp',
+        src: '/samples/italian/picture%20path/percorso-di-immagini-2.webp',
         alt: 'Scheda modalità Percorso Illustrato con immagini disposte in griglia che mostrano il percorso corretto dall\'inizio alla fine',
         caption: 'Modalità Percorso Illustrato — gli utenti seguono il percorso immagine corretto dall\'inizio alla fine',
       },
       {
-        src: '/samples/italian/picture path/percorso-di-immagini-3.webp',
+        src: '/samples/italian/picture%20path/percorso-di-immagini-3.webp',
         alt: 'Scheda modalità Labirinto negozico con corridoi e muri e immagini collezionabili sparse',
         caption: 'Modalità Labirinto negozico — l\'algoritmo LPF genera labirinti con muri e collezionabili',
       },
       {
-        src: '/samples/italian/picture path/percorso-di-immagini-1-answer-key.webp',
+        src: '/samples/italian/picture%20path/percorso-di-immagini-1-answer-key.webp',
         alt: 'Chiave di risposta del labirinto con percorso soluzione evidenziato da cerchi rosa lungo il tragitto corretto',
         caption: 'Chiave di risposta auto-generata — percorso soluzione evidenziato con cerchi rosa',
       },

@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Ordsökningspussel lämpligt för att sälja som Etsy digital nedladdning eller samla till Amazon KDP pusselbok' },
+    heroImage: { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Ordsökningspussel lämpligt för att sälja som Etsy digital nedladdning eller samla till Amazon KDP pusselbok' },
     samples: [
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Djurtematiserat ordsökningspussel för Etsy och KDP', caption: 'Ordsökningspussel säljer på båda plattformarna — som enstaka digitala nedladdningar på Etsy och samlade till pusselböcker på KDP' },
-      { src: '/samples/swedish/addition/addition_%C3%B6vning.jpeg', alt: 'Additionsarbetsblad för Etsy digital nedladdning eller KDP aktivitetsbok', caption: 'Mattearbetsblad fungerar som Etsy enstaka produkter och små paket eller samlade till KDP matteaktivitetsböcker' },
-      { src: '/samples/swedish/math%20puzzle/mattepussel%201.jpeg', alt: 'Mattepussel för både Etsy och KDP-försäljning', caption: 'Mattepussel — unika format med lägre konkurrens på båda plattformarna' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Djurtematiserat ordsökningspussel för Etsy och KDP', caption: 'Ordsökningspussel säljer på båda plattformarna — som enstaka digitala nedladdningar på Etsy och samlade till pusselböcker på KDP' },
+      { src: '/samples/swedish/addition/addition-övning.jpeg', alt: 'Additionsarbetsblad för Etsy digital nedladdning eller KDP aktivitetsbok', caption: 'Mattearbetsblad fungerar som Etsy enstaka produkter och små paket eller samlade till KDP matteaktivitetsböcker' },
+      { src: '/samples/swedish/math%20puzzle/mattepussel-1.jpeg', alt: 'Mattepussel för både Etsy och KDP-försäljning', caption: 'Mattepussel — unika format med lägre konkurrens på båda plattformarna' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hur du skapar utskriftsklara arbetsblad för Etsy och Amazon KDP — steg-för-steg-guide',

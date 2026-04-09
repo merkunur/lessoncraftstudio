@@ -255,22 +255,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/big%20small/stort%20eller%20lite%201.webp',
+      primary: '/samples/norwegian/big%20small/stort-eller-lite-1.webp',
       primaryAlt: 'Stort og lite storrelsessammenligningsarbeidsark med tematiske bilder i forskjellige storrelser som viser ring rundt den store ovelse',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/big%20small/stort%20eller%20lite%201.webp',
+        src: '/samples/norwegian/big%20small/stort-eller-lite-1.webp',
         alt: 'Storrelsessammenligningsarbeidsark med forskjellige bilder-modus som viser distinkte objekter i forskjellige storrelser',
         caption: 'Forskjellige Bilder-modus — brukerne sammenligner distinkte objekter for relativ storrelsesbedommelse',
       },
       {
-        src: '/samples/norwegian/big%20small/stort%20eller%20lite%202.webp',
+        src: '/samples/norwegian/big%20small/stort-eller-lite-2.webp',
         alt: 'Storrelsessammenligningsarbeidsark med tre identiske bilder i forskjellige storrelser for mellomstor-identifikasjon',
         caption: '3 Identiske Bilder — tre kopier i forskjellige storrelser muliggjor ring rundt den mellomstore ovelse',
       },
       {
-        src: '/samples/norwegian/big%20small/stort%20eller%20lite%203.webp',
+        src: '/samples/norwegian/big%20small/stort-eller-lite-3.webp',
         alt: 'Storrelsessammenligning fasit med markerte korrekte svar og innrammede bilder',
         caption: 'Fasit — korrekte svar markert og ringet rundt for oyeblikkelig visuell verifisering',
       },

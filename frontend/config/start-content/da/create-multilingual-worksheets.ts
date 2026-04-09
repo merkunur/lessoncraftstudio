@@ -217,11 +217,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/alphabet%20train/alfabettog%201.webp', alt: 'Ordsoegningspuslespil der demonstrerer flersproget arbejdsarksgenerering paa 11 sprog' },
+    heroImage: { src: '/samples/danish/alphabet%20train/alfabettog-1.webp', alt: 'Ordsoegningspuslespil der demonstrerer flersproget arbejdsarksgenerering paa 11 sprog' },
     samples: [
-      { src: '/samples/danish/alphabet%20train/alfabettog%201.webp', alt: 'Alfabettog — dansk eksempelarbejdsark', caption: 'Alfabettog eksempel 1' },
-      { src: '/samples/danish/alphabet%20train/alfabettog%202.webp', alt: 'Alfabettog — dansk eksempel 2', caption: 'Alfabettog eksempel 2' },
-      { src: '/samples/danish/alphabet%20train/alfabettog%203.webp', alt: 'Alfabettog — dansk eksempel 3', caption: 'Alfabettog eksempel 3' },
+      { src: '/samples/danish/alphabet%20train/alfabettog-1.webp', alt: 'Alfabettog — dansk eksempelarbejdsark', caption: 'Alfabettog eksempel 1' },
+      { src: '/samples/danish/alphabet%20train/alfabettog-2.webp', alt: 'Alfabettog — dansk eksempel 2', caption: 'Alfabettog eksempel 2' },
+      { src: '/samples/danish/alphabet%20train/alfabettog-3.webp', alt: 'Alfabettog — dansk eksempel 3', caption: 'Alfabettog eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Saadan laver du ordsoegningspuslespil paa flere sprog — LessonCraftStudio Demo',

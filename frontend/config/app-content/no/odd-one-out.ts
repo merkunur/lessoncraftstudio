@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/odd%20one%20out/finn%20den%20rare%201.webp',
+      primary: '/samples/norwegian/odd%20one%20out/finn-den-rare-1.webp',
       primaryAlt: 'Finn den ulike arbeidsark med fire bilder per ovelsesrad, fargerike tematiske illustrasjoner og lokalisert overskrift',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/odd%20one%20out/finn%20den%20rare%201.webp',
+        src: '/samples/norwegian/odd%20one%20out/finn-den-rare-1.webp',
         alt: 'Lignende modus finn den ulike arbeidsark med tre dyr og ett matobjekt per rad',
         caption: 'Lignende modus — tre bilder fra Tema A og ett ulikt objekt fra Tema B',
       },
       {
-        src: '/samples/norwegian/odd%20one%20out/finn%20den%20rare%202.webp',
+        src: '/samples/norwegian/odd%20one%20out/finn-den-rare-2.webp',
         alt: 'Identisk modus finn den ulike arbeidsark med tre identiske bilder og ett annerledes bilde per rad',
         caption: 'Identisk modus — tre kloner av det samme bildet og ett annerledes bilde',
       },
       {
-        src: '/samples/norwegian/odd%20one%20out/finn%20den%20rare%203.webp',
+        src: '/samples/norwegian/odd%20one%20out/finn-den-rare-3.webp',
         alt: 'Finn den ulike fasit med rode sirkler tegnet rundt det ulike objektet i hver ovelsesrad',
         caption: 'Automatisk generert fasit — rode sirkler markerer det ulike objektet i hver rad',
       },

@@ -180,11 +180,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk puslespillarbeidsark som viser tematisk ordrutenett egnet for Amazon KDP ordsøkbok-interiørsider' },
+    heroImage: { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøk puslespillarbeidsark som viser tematisk ordrutenett egnet for Amazon KDP ordsøkbok-interiørsider' },
     samples: [
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Dyretematisk ordsøkpuslespill formatert for KDP ordsøkbok', caption: 'Tematisk dyreordsøkpuslespill — tematiske ordlister generator engasjerende innhold som utkonkurrerer tilfeldige ordsamlinger i kjøperanmeldelser' },
-      { src: '/samples/norwegian/wordsearch/ordleting%203.webp', alt: 'Mattematisk ordsøkpuslespill for KDP-bok', caption: 'Mattematisk ordsøk — tematiske seksjoner tilfører redaksjonell struktur som skiller profesjonelle ordsøkbøker fra amatørsamlinger' },
-      { src: '/samples/norwegian/crossword/bildekryssord%201.webp', alt: 'Kryssordpuslespill for ledsagende KDP puslespillkatalog', caption: 'Kryssordpuslespill — ledsagende puslespilltype for katalogdiversifisering og krysspromotering med ordsøktitler' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Dyretematisk ordsøkpuslespill formatert for KDP ordsøkbok', caption: 'Tematisk dyreordsøkpuslespill — tematiske ordlister generator engasjerende innhold som utkonkurrerer tilfeldige ordsamlinger i kjøperanmeldelser' },
+      { src: '/samples/norwegian/wordsearch/ordleting-3.webp', alt: 'Mattematisk ordsøkpuslespill for KDP-bok', caption: 'Mattematisk ordsøk — tematiske seksjoner tilfører redaksjonell struktur som skiller profesjonelle ordsøkbøker fra amatørsamlinger' },
+      { src: '/samples/norwegian/crossword/bildekryssord-1.webp', alt: 'Kryssordpuslespill for ledsagende KDP puslespillkatalog', caption: 'Kryssordpuslespill — ledsagende puslespilltype for katalogdiversifisering og krysspromotering med ordsøktitler' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Slik lager du ordsøkpuslespill for Amazon KDP-bøker — trinn-for-trinn veiledning',

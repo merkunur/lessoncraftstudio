@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/picture%20sort/sortera%20bilder%201.webp',
+      primary: '/samples/swedish/picture%20sort/sortera-bilder-1.webp',
       primaryAlt: 'Tvåkategori bildsorteringsarbetsblad med tematiska kategoriramar, blandat utklippsrutnät och lokaliserad Sortera bilder-rubrik',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/picture%20sort/sortera%20bilder%202.webp',
+        src: '/samples/swedish/picture%20sort/sortera-bilder-2.webp',
         alt: 'Temaläge sorteringsarbetsblad med djur till vänster och mat till höger kategorier',
         caption: 'Temaläge — automatiskt fyllda kategorier från bildbiblioteket',
       },
       {
-        src: '/samples/swedish/picture%20sort/sortera%20bilder%203.webp',
+        src: '/samples/swedish/picture%20sort/sortera-bilder-3.webp',
         alt: 'Manuellt läge sorteringsarbetsblad med handvalda bilder tilldelade till vänster och höger kategorier',
         caption: 'Manuellt läge — handvälja bilder och tilldela till kategorier',
       },
       {
-        src: '/samples/swedish/picture%20sort/sortera%20bilder%201%20answer-key-2026-01-02.webp',
+        src: '/samples/swedish/picture%20sort/sortera-bilder-1-answer-key-2026-01-02.webp',
         alt: 'Bildsortering facit med 6x större bilder organiserade i korrekta kategorirutor',
         caption: 'Automatiskt genererat facit — 6× större bilder i kategorirutor',
       },

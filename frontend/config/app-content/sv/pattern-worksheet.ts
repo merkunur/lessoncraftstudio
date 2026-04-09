@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/pattern%20worksheet/m%c3%b6nsterpussel%201.webp',
+      primary: '/samples/swedish/pattern%20worksheet/mönsterpussel-1.webp',
       primaryAlt: 'Mönsterkompletteringsarbetsblad med rutnätsbaserade övningar som visar upprepande bildmönster med tomma rutor och flervalsposter',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/pattern%20worksheet/m%c3%b6nsterpussel%201.webp',
+        src: '/samples/swedish/pattern%20worksheet/mönsterpussel-1.webp',
         alt: 'Mönsterarbetsblad med AB fyll-i-rutan-övningar och djurbilder i rutnätslayout med tomma rutor för användarna att komplettera',
         caption: 'AB tom-ruta-övningar med djurtema — användarna identifierar det alternerande mönstret och fyller i den saknade bilden',
       },
       {
-        src: '/samples/swedish/pattern%20worksheet/m%c3%b6nsterpussel%203.webp',
+        src: '/samples/swedish/pattern%20worksheet/mönsterpussel-3.webp',
         alt: 'Mönsterarbetsblad med ABC flervalsövningar med tematiska bilder och tre svarsalternativ per övning',
         caption: 'ABC flervalsövningar — användarna väljer det korrekta saknade elementet bland tre alternativ',
       },
       {
-        src: '/samples/swedish/pattern%20worksheet/m%c3%b6nsterpussel%201%20answer-key.webp',
+        src: '/samples/swedish/pattern%20worksheet/mönsterpussel-1-answer-key.webp',
         alt: 'Mönsterarbetsblad facit som visar alla tomma positioner fyllda med de korrekta mönsterelementen',
         caption: 'Facit — alla tomma rutor fyllda med korrekta mönsterelement för lärarverifiering',
       },

@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/odd one out/find-the-odd-one-out-10.webp', alt: 'Odd one out worksheet with four images per row showing visual logic puzzle for Etsy digital download' },
+    heroImage: { src: '/samples/english/odd%20one%20out/find-the-odd-one-out-10.webp', alt: 'Odd one out worksheet with four images per row showing visual logic puzzle for Etsy digital download' },
     samples: [
-      { src: '/samples/english/odd one out/find-the-odd-one-out-11.webp', alt: 'Odd one out worksheet showing exercise rows with four images per row', caption: 'Odd one out worksheet with four-image exercise rows and adaptive column layout' },
-      { src: '/samples/english/odd one out/find-the-odd-one-out-10.webp', alt: 'Auto-generated answer key with red circles around odd items', caption: 'Auto-generated answer key with red circle markers identifying the odd item in each row' },
+      { src: '/samples/english/odd%20one%20out/find-the-odd-one-out-11.webp', alt: 'Odd one out worksheet showing exercise rows with four images per row', caption: 'Odd one out worksheet with four-image exercise rows and adaptive column layout' },
+      { src: '/samples/english/odd%20one%20out/find-the-odd-one-out-10.webp', alt: 'Auto-generated answer key with red circles around odd items', caption: 'Auto-generated answer key with red circle markers identifying the odd item in each row' },
     ],
   },
 

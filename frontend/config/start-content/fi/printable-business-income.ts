@@ -221,11 +221,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/math%20worksheet/matematiikkalehti%201.webp', alt: 'Matikkatehtävä joka näyttää ammattimaisen tulosteen laadun tehtävägeneraattoreista' },
+    heroImage: { src: '/samples/finnish/math%20worksheet/matematiikkalehti-1.webp', alt: 'Matikkatehtävä joka näyttää ammattimaisen tulosteen laadun tehtävägeneraattoreista' },
     samples: [
-      { src: '/samples/finnish/math%20worksheet/matematiikkalehti%201.webp', alt: 'Matikkaharjoitus — esimerkkitehtävä', caption: 'Matikkaharjoitus esimerkki 1' },
-      { src: '/samples/finnish/math%20worksheet/matematiikkalehti%202.webp', alt: 'Matikkaharjoitus — esimerkki 2', caption: 'Matikkaharjoitus esimerkki 2' },
-      { src: '/samples/finnish/math%20worksheet/matematiikkalehti%203.webp', alt: 'Matikkaharjoitus — esimerkki 3', caption: 'Matikkaharjoitus esimerkki 3' },
+      { src: '/samples/finnish/math%20worksheet/matematiikkalehti-1.webp', alt: 'Matikkaharjoitus — esimerkkitehtävä', caption: 'Matikkaharjoitus esimerkki 1' },
+      { src: '/samples/finnish/math%20worksheet/matematiikkalehti-2.webp', alt: 'Matikkaharjoitus — esimerkki 2', caption: 'Matikkaharjoitus esimerkki 2' },
+      { src: '/samples/finnish/math%20worksheet/matematiikkalehti-3.webp', alt: 'Matikkaharjoitus — esimerkki 3', caption: 'Matikkaharjoitus esimerkki 3' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Näin luot matikkatehtäviä tulostettavien liiketoimintaasi varten — LessonCraftStudio demo',

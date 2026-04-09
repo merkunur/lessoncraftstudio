@@ -219,10 +219,10 @@ const content: BundleContent = {
       primaryAlt: 'Scheda cerca parole con griglia di vocabolario tematico e chiave di risposta a colori',
     },
     sampleGallery: [
-      { src: '/samples/italian/alphabet train/Treno dell\'alfabeto-1.webp', alt: 'Scheda treno dell\'alfabeto con vagoni lettera-immagine', caption: 'Scheda Treno dell\'Alfabeto' },
+      { src: '/samples/italian/alphabet%20train/treno-dell\'alfabeto-1.webp', alt: 'Scheda treno dell\'alfabeto con vagoni lettera-immagine', caption: 'Scheda Treno dell\'Alfabeto' },
       { src: '/samples/italian/prepositions/preposizioni-1.webp', alt: 'Scheda di preposizioni con relazioni spaziali e immagini', caption: 'Scheda di Preposizioni' },
-      { src: '/samples/italian/word guess/indovina-la-parola-1.webp', alt: 'Scheda indovina la parola con indizi visivi e spazi per lettere', caption: 'Scheda Indovina la Parola' },
-      { src: '/samples/italian/word scramble/lettere-mescolate-1.webp', alt: 'Scheda anagrammi con tessere lettere colorate', caption: 'Scheda Anagrammi' },
+      { src: '/samples/italian/word%20guess/indovina-la-parola-1.webp', alt: 'Scheda indovina la parola con indizi visivi e spazi per lettere', caption: 'Scheda Indovina la Parola' },
+      { src: '/samples/italian/word%20scramble/lettere-mescolate-1.webp', alt: 'Scheda anagrammi con tessere lettere colorate', caption: 'Scheda Anagrammi' },
       { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Griglia cerca parole con parole nascoste', caption: 'Scheda Cerca Parole' },
       { src: '/samples/italian/cryptogram/crittogramma-illustrato-1.webp', alt: 'Puzzle crittogramma con cifratura a immagini', caption: 'Scheda Crittogramma' },
       { src: '/samples/italian/writing/writing.webp', alt: 'Scheda di pratica di scrittura con tratti guidati', caption: 'Scheda di Scrittura' },

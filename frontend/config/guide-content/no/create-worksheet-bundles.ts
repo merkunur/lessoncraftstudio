@@ -106,11 +106,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Mattearbeidsark-produkt klar for pakking til en hoyverdi arbeidsarksamling' },
+    heroImage: { src: '/samples/norwegian/addition/gøy-addisjon-1.webp', alt: 'Mattearbeidsark-produkt klar for pakking til en hoyverdi arbeidsarksamling' },
     samples: [
-      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Addisjonsarbeidsark for mattearbeidsark pakkeopprettelse', caption: 'Mattearbeidsark er blant de mest populaere produktene for pakkeopprettelse' },
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsoek-puslespill for tematisk arbeidsarkpakke', caption: 'Ordsoek-puslespill tilfoyer variasjon til tematiske pakker' },
-      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Matchingsarbeidsark for printable pakkesamling', caption: 'Matchingsaktiviteter komplementerer andre arbeidsarktyper i formatpakker' },
+      { src: '/samples/norwegian/addition/gøy-addisjon-1.webp', alt: 'Addisjonsarbeidsark for mattearbeidsark pakkeopprettelse', caption: 'Mattearbeidsark er blant de mest populaere produktene for pakkeopprettelse' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsoek-puslespill for tematisk arbeidsarkpakke', caption: 'Ordsoek-puslespill tilfoyer variasjon til tematiske pakker' },
+      { src: '/samples/norwegian/matching/finn-parene-1.webp', alt: 'Matchingsarbeidsark for printable pakkesamling', caption: 'Matchingsaktiviteter komplementerer andre arbeidsarktyper i formatpakker' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hvordan lage addisjonsarbeidsark for pakking til hoyverdi samlinger',

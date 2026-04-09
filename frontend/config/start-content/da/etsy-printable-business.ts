@@ -221,11 +221,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Eksempel paa malebillede lavet med LessonCraftStudio-generatoren for Etsy-saelgere' },
+    heroImage: { src: '/samples/danish/coloring/coloring-portrait-1.webp', alt: 'Eksempel paa malebillede lavet med LessonCraftStudio-generatoren for Etsy-saelgere' },
     samples: [
-      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside — dansk eksempelarbejdsark', caption: 'Farvelægningsside eksempel 1' },
-      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Farvelægningsside — dansk eksempel 2', caption: 'Farvelægningsside eksempel 2' },
-      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Farvelægningsside — dansk eksempel 3', caption: 'Farvelægningsside eksempel 3' },
+      { src: '/samples/danish/coloring/coloring-portrait-1.webp', alt: 'Farvelægningsside — dansk eksempelarbejdsark', caption: 'Farvelægningsside eksempel 1' },
+      { src: '/samples/danish/coloring/coloring-portrait-2.webp', alt: 'Farvelægningsside — dansk eksempel 2', caption: 'Farvelægningsside eksempel 2' },
+      { src: '/samples/danish/coloring/coloring-landscape-1.webp', alt: 'Farvelægningsside — dansk eksempel 3', caption: 'Farvelægningsside eksempel 3' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Saadan laver du malebilleder — LessonCraftStudio demo',

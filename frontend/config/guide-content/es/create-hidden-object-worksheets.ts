@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/find objects/encuentra-el-diferente-1.webp', alt: 'Ficha de escena de objetos ocultos mostrando imágenes temáticas dispuestas para que los niños encuentren objetos específicos' },
+    heroImage: { src: '/samples/spanish/find%20objects/encuentra-el-diferente-1.webp', alt: 'Ficha de escena de objetos ocultos mostrando imágenes temáticas dispuestas para que los niños encuentren objetos específicos' },
     samples: [
-      { src: '/samples/spanish/find objects/encuentra-el-diferente-1.webp', alt: 'Ficha de objetos ocultos tipo busca y encuentra con escena temática para actividad de búsqueda visual', caption: 'Escena de Busca y encuentra con imágenes temáticas y objetos distractores para práctica de búsqueda visual' },
-      { src: '/samples/spanish/find objects/encuentra-el-diferente-1.webp', alt: 'Clave de respuestas de ficha de objetos ocultos resaltando las ubicaciones de los elementos escondidos', caption: 'Clave de respuestas automática generada para cada ficha de escena de objetos ocultos' },
+      { src: '/samples/spanish/find%20objects/encuentra-el-diferente-1.webp', alt: 'Ficha de objetos ocultos tipo busca y encuentra con escena temática para actividad de búsqueda visual', caption: 'Escena de Busca y encuentra con imágenes temáticas y objetos distractores para práctica de búsqueda visual' },
+      { src: '/samples/spanish/find%20objects/encuentra-el-diferente-1.webp', alt: 'Clave de respuestas de ficha de objetos ocultos resaltando las ubicaciones de los elementos escondidos', caption: 'Clave de respuestas automática generada para cada ficha de escena de objetos ocultos' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Cómo crear fichas de escenas de objetos ocultos — Tutorial completo',

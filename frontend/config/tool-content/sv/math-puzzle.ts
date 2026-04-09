@@ -212,22 +212,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/math%20puzzle/mattepussel%201.webp',
+      primary: '/samples/swedish/math%20puzzle/mattepussel-1.webp',
       primaryAlt: 'Mattepussel arbetsblad som visar ett pusselstils bildrutnät med additionsekvationer och blandade svarsbitar',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/math%20puzzle/mattepussel%201.webp',
+        src: '/samples/swedish/math%20puzzle/mattepussel-1.webp',
         alt: 'Pussel mattearbetsblad med additionsekvationer i ett färgglatt bildrutnät',
         caption: 'Additionsläge med tematiskt bildpussel',
       },
       {
-        src: '/samples/swedish/math%20puzzle/mattepussel%202.webp',
+        src: '/samples/swedish/math%20puzzle/mattepussel-2.webp',
         alt: 'Mattearbetsblad med subtraktionsekvationer och blandade sifferbitar under rutnätet',
         caption: 'Subtraktionsläge — lös ekvationer för att rekonstruera bilden',
       },
       {
-        src: '/samples/swedish/math%20puzzle/mattepussel%203.webp',
+        src: '/samples/swedish/math%20puzzle/mattepussel-3.webp',
         alt: 'Blandat additions- och subtraktions mattepussel med större rutnät för avancerade användare',
         caption: 'Blandade operationer — addition och subtraktion i ett pussel',
       },

@@ -255,22 +255,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/pattern%20train/m%c3%b8nstertoget%201.webp',
+      primary: '/samples/norwegian/pattern%20train/mønstertoget-1.webp',
       primaryAlt: 'Monstertog-arbeidsark med tematiske togvogner som viser AB gjentatt monster med en manglende vogn som brukerne skal fullføre',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/pattern%20train/m%c3%b8nstertoget%201.webp',
+        src: '/samples/norwegian/pattern%20train/mønstertoget-1.webp',
         alt: 'Monstertog-arbeidsark med AB alternerende monster og dyrebilder over 11 tematiske togvogner',
         caption: 'AB-monster med dyretema — brukerne identifiserer den alternerende sekvensen og fyller ut den manglende vognen',
       },
       {
-        src: '/samples/norwegian/pattern%20train/m%c3%b8nstertoget%202.webp',
+        src: '/samples/norwegian/pattern%20train/mønstertoget-2.webp',
         alt: 'Monstertog-arbeidsark med ABC treelement-monster og tematiske bilder over togvogner',
         caption: 'ABC-monster — tre roterende elementer generator en mer kompleks gjentatt sekvens',
       },
       {
-        src: '/samples/norwegian/pattern%20train/m%c3%b8nstertoget%203.webp',
+        src: '/samples/norwegian/pattern%20train/mønstertoget-3.webp',
         alt: 'Monstertog fasit som viser alle 11 vogner fylt ut med den korrekte monstersekvensen',
         caption: 'Fasit — alle 11 vogner fylt ut med det korrekte monsteret for laererverifisering',
       },

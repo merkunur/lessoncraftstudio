@@ -212,9 +212,9 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/draw and color/grid-drawing-worksheet.webp', alt: 'Draw and color worksheet demonstrating creative range for printable business scaling' },
+    heroImage: { src: '/samples/english/draw%20and%20color/grid-drawing-worksheet.webp', alt: 'Draw and color worksheet demonstrating creative range for printable business scaling' },
     samples: [
-      { src: '/samples/english/draw and color/grid-drawing-worksheet.webp', alt: 'Draw and color worksheet showing theme variety for catalog expansion', caption: 'Draw & Color — Creative Range for Catalog Depth' },
+      { src: '/samples/english/draw%20and%20color/grid-drawing-worksheet.webp', alt: 'Draw and color worksheet showing theme variety for catalog expansion', caption: 'Draw & Color — Creative Range for Catalog Depth' },
       { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Word search puzzle demonstrating high-volume scalability across themes', caption: 'Word Search — Highest Volume Scaling Potential' },
       { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page showing language-independent international scalability', caption: 'Coloring — International Scaling Without Translation' },
       { src: '/samples/english/sudoku/sudoku-worksheet.webp', alt: 'Sudoku puzzle demonstrating platform-agnostic product distribution', caption: 'Sudoku — Platform-Agnostic Distribution' },

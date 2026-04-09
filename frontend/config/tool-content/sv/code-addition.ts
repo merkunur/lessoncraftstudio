@@ -221,12 +221,12 @@ const content: ToolContent = {
         caption: 'Vanligt Läge med djurtema — varje symbol gömmer en unik siffra',
       },
       {
-        src: '/samples/swedish/code%20addition/image-addition-worksheet%20-1.webp',
+        src: '/samples/swedish/code%20addition/image-addition-worksheet-1.webp',
         alt: 'Kodadditions arbetsblad i Ord Avslöjande-läge med matbilder',
         caption: 'Ord Avslöjande-läge — lös ekvationer för att stava ut ett hemligt ord',
       },
       {
-        src: '/samples/swedish/code%20addition/image-addition-worksheet%20-2.webp',
+        src: '/samples/swedish/code%20addition/image-addition-worksheet-2.webp',
         alt: 'Kryptaritmetik pusselarbetsblad med blandade addender och dekorativ ram',
         caption: 'Blandade addender med ramdekorationför produktfärdig utmatning',
       },

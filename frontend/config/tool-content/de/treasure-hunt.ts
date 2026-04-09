@@ -218,17 +218,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/treasure hunt/worksheet.webp',
+      primary: '/samples/german/treasure%20hunt/worksheet.webp',
       primaryAlt: 'Schatzsuche-Wegfindungs-Arbeitsblatt mit 5×5-Koordinatenraster, 6 verteilten thematischen Bildern als Orientierungspunkte, Richtungsanweisungen und schatzsuchenthematischem türkisem Header mit goldenem Titel',
     },
     sampleGallery: [
       {
-        src: '/samples/german/treasure hunt/worksheet.webp',
+        src: '/samples/german/treasure%20hunt/worksheet.webp',
         alt: 'Schatzsuche-Rätsel mit Himmelsrichtungs-Anweisungen (Norden, Süden, Osten, Westen) auf einem 5×5-Koordinatenraster',
         caption: 'Himmelsrichtungen-Modus — Kompassrichtungen für fortgeschrittenes räumliches Denken und Kartenlesekompetenz',
       },
       {
-        src: '/samples/german/treasure hunt/worksheet-1.webp',
+        src: '/samples/german/treasure%20hunt/worksheet-1.webp',
         alt: 'Schatzsuche-Lösungsschlüssel mit finaler Schatzzelle in Blassgelb hervorgehoben auf dem 5×5-Koordinatenraster',
         caption: 'Automatisch generierter Lösungsschlüssel — Blassgelbe Hervorhebung markiert die Schatzzelle zur Selbstkontrolle',
       },

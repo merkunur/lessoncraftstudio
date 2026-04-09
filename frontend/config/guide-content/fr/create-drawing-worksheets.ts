@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/draw and color/dessine-et-colorie-5.webp', alt: 'Fiche de dessin sur grille avec système double grille montrant une grille de pratique vide et une grille d\'indices partiellement révélée avec thème de contours N&B' },
+    heroImage: { src: '/samples/french/draw%20and%20color/dessine-et-colorie-5.webp', alt: 'Fiche de dessin sur grille avec système double grille montrant une grille de pratique vide et une grille d\'indices partiellement révélée avec thème de contours N&B' },
     samples: [
-      { src: '/samples/french/draw and color/dessine-et-colorie-5.webp', alt: 'Fiche de dessin sur grille montrant le système double grille avec grille de pratique et grille d\'indices pour la reproduction cellule par cellule', caption: 'Format double grille : grille de pratique vide en haut et grille d\'indices avec référence partielle en bas pour des exercices de dessin structurés' },
-      { src: '/samples/french/draw and color/dessine-et-colorie-1.webp', alt: 'Fiche de dessin sur grille thème animaux avec contour N&B à pourcentage d\'indices modéré', caption: 'Thème contour N&B animaux à 25 % d\'indices — les utilisateurs reproduisent le contour à partir d\'indices de grille dispersés puis colorient leur dessin' },
+      { src: '/samples/french/draw%20and%20color/dessine-et-colorie-5.webp', alt: 'Fiche de dessin sur grille montrant le système double grille avec grille de pratique et grille d\'indices pour la reproduction cellule par cellule', caption: 'Format double grille : grille de pratique vide en haut et grille d\'indices avec référence partielle en bas pour des exercices de dessin structurés' },
+      { src: '/samples/french/draw%20and%20color/dessine-et-colorie-1.webp', alt: 'Fiche de dessin sur grille thème animaux avec contour N&B à pourcentage d\'indices modéré', caption: 'Thème contour N&B animaux à 25 % d\'indices — les utilisateurs reproduisent le contour à partir d\'indices de grille dispersés puis colorient leur dessin' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Comment créer des fiches de dessin et symétrie — Tutoriel complet',

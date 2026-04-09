@@ -267,22 +267,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/math%20worksheet/matematikkoppgave%201.webp',
+      primary: '/samples/norwegian/math%20worksheet/matematikkoppgave-1.webp',
       primaryAlt: 'Algebraisk bildepuslespill arbeidsark med bilder som forestiller ukjente variabler i et system av ligninger',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/math%20worksheet/matematikkoppgave%201.webp',
+        src: '/samples/norwegian/math%20worksheet/matematikkoppgave-1.webp',
         alt: 'Veldig Lett algebrapuslespill arbeidsark med to bildesymboler og kun addisjonsligninger',
         caption: 'Veldig Lett nivå — to bildesymboler i et enkelt ligningssystem med kun addisjon',
       },
       {
-        src: '/samples/norwegian/math%20worksheet/matematikkoppgave%202.webp',
+        src: '/samples/norwegian/math%20worksheet/matematikkoppgave-2.webp',
         alt: 'Middels algebrapuslespill arbeidsark med tre bildesymboler og blandede operasjoner',
         caption: 'Middels nivå — tre symboler i koblede ligninger med addisjon og subtraksjon',
       },
       {
-        src: '/samples/norwegian/math%20worksheet/matematikkoppgave%203.webp',
+        src: '/samples/norwegian/math%20worksheet/matematikkoppgave-3.webp',
         alt: 'Vanskelig algebrapuslespill arbeidsark med fire bildesymboler i et system av fire ligninger',
         caption: 'Vanskelig nivå — fire samtidige ukjente for avansert algebraisk problemløsning',
       },

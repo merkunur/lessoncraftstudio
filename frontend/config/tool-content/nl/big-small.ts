@@ -216,22 +216,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/big small/groot%20of%20klein%201.webp',
+      primary: '/samples/dutch/big%20small/groot-of-klein-1.webp',
       primaryAlt: 'Groot en klein groottevergelijking werkblad met thematische afbeeldingen op verschillende formaten die de omcirkel de grote oefening tonen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/big small/groot%20of%20klein%202.webp',
+        src: '/samples/dutch/big%20small/groot-of-klein-2.webp',
         alt: 'Groottevergelijking werkblad in omcirkel de grote modus met thematische dierenafbeeldingen op verschillende formaten',
         caption: 'Omcirkel de Grote modus — gebruikers herkennen de grootste afbeelding in elke oefening',
       },
       {
-        src: '/samples/dutch/big small/groot%20of%20klein%203.webp',
+        src: '/samples/dutch/big%20small/groot-of-klein-3.webp',
         alt: 'Grootte-ordening werkblad met drie afbeeldingen genummerd van klein naar groot',
         caption: 'Nummeren 1–2–3 Klein naar Groot — gebruikers ordenen afbeeldingen op grootte van klein naar groot',
       },
       {
-        src: '/samples/dutch/big small/groot%20of%20klein%204.webp',
+        src: '/samples/dutch/big%20small/groot-of-klein-4.webp',
         alt: 'Groottevergelijking werkblad met identieke afbeeldingsmodus waarbij dezelfde afbeelding op drie verschillende formaten wordt getoond',
         caption: 'Identieke Afbeeldingen modus — dezelfde afbeelding op verschillende formaten voor zuivere grootteperceptie oefeningen',
       },

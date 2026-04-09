@@ -225,17 +225,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/shadow%20match/skuggmatchning%201.webp',
+        src: '/samples/swedish/shadow%20match/skuggmatchning-1.webp',
         alt: 'Skuggmatchning arbetsblad som visar fyra färgade bilder matchade med fyra pixelnivå svarta siluetter med A B C D och 1 2 3 4 etiketter',
         caption: 'Skuggmatchning-läge — användarna matchar bilder med deras automatiskt genererade pixelnivå siluetter',
       },
       {
-        src: '/samples/swedish/shadow%20match/skuggmatchning%202.webp',
+        src: '/samples/swedish/shadow%20match/skuggmatchning-2.webp',
         alt: 'Gör den hel arbetsblad med delade bildhalvor som användarna kopplar ihop genom att matcha första och andra halvor märkta A till D och 1 till 4',
         caption: 'Gör Den Hel-läge — användarna matchar delade bildhalvor för att slutföra bilder med horisontella eller vertikala klipp',
       },
       {
-        src: '/samples/swedish/shadow%20match/skuggmatchning%201%20answer%20key.webp',
+        src: '/samples/swedish/shadow%20match/skuggmatchning-1-answer-key.webp',
         alt: 'Skuggmatchning facit som visar originalbilder bredvid siluetter med korrekta bokstav-till-nummer matchningsetiketter som A till 2',
         caption: 'Automatiskt genererat facit — bokstav-till-nummer etiketter visar korrekta matchningar för båda övningslägen',
       },

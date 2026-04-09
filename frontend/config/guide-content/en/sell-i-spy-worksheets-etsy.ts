@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/find objects/spotworks-worksheet-10.webp', alt: 'I-Spy hidden object worksheet with themed images for selling on Etsy' },
+    heroImage: { src: '/samples/english/find%20objects/spotworks-worksheet-10.webp', alt: 'I-Spy hidden object worksheet with themed images for selling on Etsy' },
     samples: [
-      { src: '/samples/english/find objects/spotworks-worksheet-11.webp', alt: 'Hidden object I-Spy worksheet showing themed search scene', caption: 'I-Spy hidden object worksheet with themed images -- visually rich products that stand out in Etsy search results' },
-      { src: '/samples/english/find and count/i-spy-10.webp', alt: 'Find and Count worksheet for visual puzzle Etsy listings', caption: 'Find and Count worksheets add a math dimension to visual puzzles -- children count objects in themed scenes' },
+      { src: '/samples/english/find%20objects/spotworks-worksheet-11.webp', alt: 'Hidden object I-Spy worksheet showing themed search scene', caption: 'I-Spy hidden object worksheet with themed images -- visually rich products that stand out in Etsy search results' },
+      { src: '/samples/english/find%20and%20count/i-spy-10.webp', alt: 'Find and Count worksheet for visual puzzle Etsy listings', caption: 'Find and Count worksheets add a math dimension to visual puzzles -- children count objects in themed scenes' },
       { src: '/samples/english/matching/image-and-custom-word.webp', alt: 'Matching worksheet as cross-sell product for I-Spy Etsy shop', caption: 'Matching worksheets use the same themed images as I-Spy products, creating natural cross-sell opportunities' },
     ],
     youtubeId: '8Y3jrVr1Phs',

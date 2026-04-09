@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/alphabet%20train/alfabettrein%201.webp', alt: 'Alfabettrein werkblad met 11 kleurrijke treinwagons met letters en bijpassende aanwijzingsafbeeldingen voor letterherkenning' },
+    heroImage: { src: '/samples/dutch/alphabet%20train/alfabettrein-1.webp', alt: 'Alfabettrein werkblad met 11 kleurrijke treinwagons met letters en bijpassende aanwijzingsafbeeldingen voor letterherkenning' },
     samples: [
-      { src: '/samples/dutch/alphabet%20train/alfabettrein%201.webp', alt: 'Kleurrijk alfabettrein werkblad met 11 wagons die letters dragen en verspreide aanwijzingsafbeeldingen voor letter-afbeeldingskoppeling', caption: 'Alfabettrein werkblad met 11 kleurrijke wagons en letter-afbeeldingskoppeling aanwijzingen' },
-      { src: '/samples/dutch/writing/writing%20beginning%20letter.webp', alt: 'Schrijfoefening werkblad voor beginletterherkenning als geletterdheidsaanvulling op alfabettreinen', caption: 'Schrijfoefening werkblad als aanvulling op letterherkenning via alfabettreinen' },
-      { src: '/samples/dutch/word%20guess/raad%20het%20woord%201.webp', alt: 'Raad het woord werkblad als progressie van letterherkenning naar woordniveau geletterdheid', caption: 'Van letterherkenning naar woordniveau met raad-het-woord activiteiten' },
+      { src: '/samples/dutch/alphabet%20train/alfabettrein-1.webp', alt: 'Kleurrijk alfabettrein werkblad met 11 wagons die letters dragen en verspreide aanwijzingsafbeeldingen voor letter-afbeeldingskoppeling', caption: 'Alfabettrein werkblad met 11 kleurrijke wagons en letter-afbeeldingskoppeling aanwijzingen' },
+      { src: '/samples/dutch/writing/writing-beginning-letter.webp', alt: 'Schrijfoefening werkblad voor beginletterherkenning als geletterdheidsaanvulling op alfabettreinen', caption: 'Schrijfoefening werkblad als aanvulling op letterherkenning via alfabettreinen' },
+      { src: '/samples/dutch/word%20guess/raad-het-woord-1.webp', alt: 'Raad het woord werkblad als progressie van letterherkenning naar woordniveau geletterdheid', caption: 'Van letterherkenning naar woordniveau met raad-het-woord activiteiten' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Hoe Alfabettrein Werkbladen Maken — Complete Handleiding',

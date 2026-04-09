@@ -186,7 +186,7 @@ const content: GuideContent = {
         caption: 'Les fiches exercices visuellement frappantes créent des images d\'épingles Pinterest naturellement convaincantes',
       },
       {
-        src: '/samples/french/bingo/Loto d\'images-1.webp',
+        src: '/samples/french/bingo/loto-d\'images-1.webp',
         alt: 'Fiche exercice carte de bingo démontrant des designs de produits colorés dignes d\'épingles',
         caption: 'Les produits thématiques et colorés génèrent des taux d\'enregistrement et de clics plus élevés sur Pinterest',
       },

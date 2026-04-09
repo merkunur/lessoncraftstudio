@@ -106,10 +106,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/shadow%20match/fullf%c3%b8r%20bildene%201.webp', alt: 'Skyggematchingsarbeidsark med fargerike bilder og automatisk genererte pikselniva svarte silhuetter' },
+    heroImage: { src: '/samples/norwegian/shadow%20match/fullfør-bildene-1.webp', alt: 'Skyggematchingsarbeidsark med fargerike bilder og automatisk genererte pikselniva svarte silhuetter' },
     samples: [
-      { src: '/samples/norwegian/shadow%20match/fullf%c3%b8r%20bildene%201.webp', alt: 'Skyggematchingsarbeidsark med fire fargerike bilder matchet til fire pikselniva svarte silhuetter', caption: 'Skyggematching-modus med fire fargerike bilder og deres automatisk genererte svarte silhuetter' },
-      { src: '/samples/norwegian/shadow%20match/fullf%c3%b8r%20bildene%202.webp', alt: 'Automatisk generert fasit som viser korrekte bokstav-til-nummer-paringer', caption: 'Automatisk generert fasit med bokstav-til-nummer-paringer for rask verifisering' },
+      { src: '/samples/norwegian/shadow%20match/fullfør-bildene-1.webp', alt: 'Skyggematchingsarbeidsark med fire fargerike bilder matchet til fire pikselniva svarte silhuetter', caption: 'Skyggematching-modus med fire fargerike bilder og deres automatisk genererte svarte silhuetter' },
+      { src: '/samples/norwegian/shadow%20match/fullfør-bildene-2.webp', alt: 'Automatisk generert fasit som viser korrekte bokstav-til-nummer-paringer', caption: 'Automatisk generert fasit med bokstav-til-nummer-paringer for rask verifisering' },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: 'Hvordan lage skyggematchingsarbeidsark — komplett veiledning',

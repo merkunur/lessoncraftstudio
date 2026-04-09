@@ -215,16 +215,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/swedish/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Målarbild arbetsblad med svartvit kontur redo för färgläggning',
     },
     sampleGallery: [
-      { src: '/samples/swedish/big small/2%20identiska%20bilder.webp', alt: 'Storleksjämförelsearbetsblad med tematiska bilder för att ringa in största och minsta', caption: 'Stort & Litet Arbetsblad' },
-      { src: '/samples/swedish/pattern worksheet/m%c3%b6nsterpussel%201.webp', alt: 'Mönsterigenkänningsarbetsblad med fyll-i-luckan-sekvenser', caption: 'Mönster Arbetsblad' },
-      { src: '/samples/swedish/draw and color/rita%20och%20f%c3%a4rgl%c3%a4gg%201.webp', alt: 'Referensbild ritningsarbetsblad med rutnät för att återskapa bilden', caption: 'Rita och Färglägg Arbetsblad' },
-      { src: '/samples/swedish/drawing lines/horizontell.webp', alt: 'Linjespårningsarbetsblad med parade objekt och böjda linjevägar', caption: 'Rita Linjer Arbetsblad' },
-      { src: '/samples/swedish/coloring/coloring%20portrait%201.webp', alt: 'Målarbild med svartvit kontur konverterad från tematisk bild', caption: 'Målarbild' },
-      { src: '/samples/swedish/chart count/worksheet.webp', alt: 'Stapeldiagram räkningsarbetsblad med tematiska bilddatapunkter', caption: 'Diagramräkning Arbetsblad' },
+      { src: '/samples/swedish/big%20small/2-identiska-bilder.webp', alt: 'Storleksjämförelsearbetsblad med tematiska bilder för att ringa in största och minsta', caption: 'Stort & Litet Arbetsblad' },
+      { src: '/samples/swedish/pattern%20worksheet/mönsterpussel-1.webp', alt: 'Mönsterigenkänningsarbetsblad med fyll-i-luckan-sekvenser', caption: 'Mönster Arbetsblad' },
+      { src: '/samples/swedish/draw%20and%20color/rita-och-färglägg-1.webp', alt: 'Referensbild ritningsarbetsblad med rutnät för att återskapa bilden', caption: 'Rita och Färglägg Arbetsblad' },
+      { src: '/samples/swedish/drawing%20lines/horizontell.webp', alt: 'Linjespårningsarbetsblad med parade objekt och böjda linjevägar', caption: 'Rita Linjer Arbetsblad' },
+      { src: '/samples/swedish/coloring/coloring-portrait-1.webp', alt: 'Målarbild med svartvit kontur konverterad från tematisk bild', caption: 'Målarbild' },
+      { src: '/samples/swedish/chart%20count/worksheet.webp', alt: 'Stapeldiagram räkningsarbetsblad med tematiska bilddatapunkter', caption: 'Diagramräkning Arbetsblad' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Visuellt Lärande-paket — Se alla 7 generatorer i aktion',

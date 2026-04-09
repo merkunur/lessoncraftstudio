@@ -164,12 +164,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/math worksheet/math-worksheet-11.webp',
+      src: '/samples/english/math%20worksheet/math-worksheet-11.webp',
       alt: 'Professional math worksheet demonstrating rapid automated creation for printable business efficiency',
     },
     samples: [
       {
-        src: '/samples/english/math worksheet/math-worksheet-10.webp',
+        src: '/samples/english/math%20worksheet/math-worksheet-10.webp',
         alt: 'Math worksheet showing automated production output quality',
         caption: 'Worksheet generators automate the most time-consuming step in printable production',
       },

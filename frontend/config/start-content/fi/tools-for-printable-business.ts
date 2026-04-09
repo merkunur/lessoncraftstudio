@@ -214,11 +214,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistämistehtävä joka näyttää työkalujen monipuolisuuden ja teemakuvakirjaston tulosteen' },
+    heroImage: { src: '/samples/finnish/matching/yhdistä-parit-1.webp', alt: 'Yhdistämistehtävä joka näyttää työkalujen monipuolisuuden ja teemakuvakirjaston tulosteen' },
     samples: [
-      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistämistehtävä — esimerkkitehtävä', caption: 'Yhdistäminen esimerkki 1' },
-      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%202.webp', alt: 'Yhdistämistehtävä — esimerkki 2', caption: 'Yhdistäminen esimerkki 2' },
-      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%203.webp', alt: 'Yhdistämistehtävä — esimerkki 3', caption: 'Yhdistäminen esimerkki 3' },
+      { src: '/samples/finnish/matching/yhdistä-parit-1.webp', alt: 'Yhdistämistehtävä — esimerkkitehtävä', caption: 'Yhdistäminen esimerkki 1' },
+      { src: '/samples/finnish/matching/yhdistä-parit-2.webp', alt: 'Yhdistämistehtävä — esimerkki 2', caption: 'Yhdistäminen esimerkki 2' },
+      { src: '/samples/finnish/matching/yhdistä-parit-3.webp', alt: 'Yhdistämistehtävä — esimerkki 3', caption: 'Yhdistäminen esimerkki 3' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Näin luot yhdistämistehtäviä tulostettavien liiketoimintaasi varten — LessonCraftStudio demo',

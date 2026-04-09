@@ -226,17 +226,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/shadow%20match/schaduw%20koppelen%201.webp',
+        src: '/samples/dutch/shadow%20match/schaduw-koppelen-1.webp',
         alt: 'Schaduw koppelen werkblad met vier gekleurde afbeeldingen gekoppeld aan vier pixelniveau zwarte silhouetten met A B C D en 1 2 3 4 labels',
         caption: 'Schaduw Koppelen-modus — gebruikers koppelen afbeeldingen aan hun automatisch gegenereerde pixelniveau silhouetten',
       },
       {
-        src: '/samples/dutch/shadow%20match/schaduw%20koppelen%202.webp',
+        src: '/samples/dutch/shadow%20match/schaduw-koppelen-2.webp',
         alt: 'Maak het compleet werkblad met gesplitste afbeeldingshelften die gebruikers opnieuw samenvoegen door eerste en tweede helften te koppelen gelabeld A tot D en 1 tot 4',
         caption: 'Maak het Compleet-modus — gebruikers koppelen gesplitste afbeeldingshelften om plaatjes te completeren met horizontale of verticale sneden',
       },
       {
-        src: '/samples/dutch/shadow%20match/schaduw%20koppelen%201%20answer-key.webp',
+        src: '/samples/dutch/shadow%20match/schaduw-koppelen-1-answer-key.webp',
         alt: 'Schaduw koppelen antwoordblad met originele afbeeldingen naast silhouetten en correcte letter-naar-nummer koppelingslabels zoals A naar 2',
         caption: 'Automatisch gegenereerd antwoordblad — letter-naar-nummer-labels tonen correcte koppelingen voor beide oefenmodi',
       },

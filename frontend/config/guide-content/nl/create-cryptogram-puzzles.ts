@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/cryptogram/plaatjes%20cryptogram%201.webp', alt: 'Cryptogram werkblad met plaatjescijfer dat thematische afbeeldingen toont gekoppeld aan alfabetletters die een geheime zin coderen' },
+    heroImage: { src: '/samples/dutch/cryptogram/plaatjes-cryptogram-1.webp', alt: 'Cryptogram werkblad met plaatjescijfer dat thematische afbeeldingen toont gekoppeld aan alfabetletters die een geheime zin coderen' },
     samples: [
-      { src: '/samples/dutch/cryptogram/plaatjes%20cryptogram%201.webp', alt: 'Cryptogram werkblad met thematische afbeeldingen die letters vervangen in een gecodeerde geheime zin', caption: 'Plaatjescijfer puzzel — ontcijfer het geheime bericht door te identificeren welke afbeelding welke letter voorstelt' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoek werkblad met thematische woordenlijst en lettergrid', caption: 'Woordzoek werkblad — combineer met cryptogrammen voor een veelzijdige geletterdheidsproductlijn' },
-      { src: '/samples/dutch/code%20addition/geheime%20code%20optellen%201.webp', alt: 'Geheime code optellen werkblad met cijfergebaseerde rekenopgaven', caption: 'Geheime code werkblad — het cijfermechanisme werkt ook uitstekend in rekenformaten' },
+      { src: '/samples/dutch/cryptogram/plaatjes-cryptogram-1.webp', alt: 'Cryptogram werkblad met thematische afbeeldingen die letters vervangen in een gecodeerde geheime zin', caption: 'Plaatjescijfer puzzel — ontcijfer het geheime bericht door te identificeren welke afbeelding welke letter voorstelt' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoek werkblad met thematische woordenlijst en lettergrid', caption: 'Woordzoek werkblad — combineer met cryptogrammen voor een veelzijdige geletterdheidsproductlijn' },
+      { src: '/samples/dutch/code%20addition/geheime-code-optellen-1.webp', alt: 'Geheime code optellen werkblad met cijfergebaseerde rekenopgaven', caption: 'Geheime code werkblad — het cijfermechanisme werkt ook uitstekend in rekenformaten' },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: 'Hoe Plaatjescryptogram Cijferpuzzels Maken — Stapsgewijze Handleiding',

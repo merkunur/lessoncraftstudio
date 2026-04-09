@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/odd%20one%20out/hitta%20udda%20f%c3%a5geln%201.webp',
+      primary: '/samples/swedish/odd%20one%20out/hitta-udda-fågeln-1.webp',
       primaryAlt: 'Hitta udda bilden arbetsblad med fyra bilder per övningsrad som visar tre vanliga objekt och ett udda objekt med korall-bärnsten-turkos rubrik',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/odd%20one%20out/hitta%20udda%20f%c3%a5geln%202.webp',
+        src: '/samples/swedish/odd%20one%20out/hitta-udda-fågeln-2.webp',
         alt: 'Liknande läge hitta udda bilden arbetsblad med tre bilder från Tema A och en tematisk avvikare från Tema B per övningsrad',
         caption: 'Liknande läge — tre bilder från Tema A och ett udda objekt från Tema B för korsande temadiskriminering',
       },
       {
-        src: '/samples/swedish/odd%20one%20out/hitta%20udda%20f%c3%a5geln%204.webp',
+        src: '/samples/swedish/odd%20one%20out/hitta-udda-fågeln-4.webp',
         alt: 'Identiskt läge hitta udda bilden arbetsblad med tre kloner av samma bild och en annorlunda bild per rad',
         caption: 'Identiskt läge — tre kloner av samma bild och en annorlunda bild för hitta-dubbletten utmaningar',
       },
       {
-        src: '/samples/swedish/odd%20one%20out/hitta%20udda%20f%c3%a5geln%201%20answer-key.webp',
+        src: '/samples/swedish/odd%20one%20out/hitta-udda-fågeln-1-answer-key.webp',
         alt: 'Hitta udda bilden facit med röda cirkelkonturer dragna runt det udda objektet i varje övningsrad med streckbredd skalad till bildstorlek',
         caption: 'Automatiskt genererat facit — röda cirkelmarkeringar (streck = max(imageSize × 0,04, 3px)) identifierar det udda objektet',
       },

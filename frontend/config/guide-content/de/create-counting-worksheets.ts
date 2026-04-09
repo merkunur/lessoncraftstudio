@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/chart count/bilddiagramm-1.webp', alt: 'Bilddiagramm-Arbeitsblatt mit verstreutem 4×5 Bildraster und Balkendiagramm für Zähl- und Diagramm-Übungen' },
+    heroImage: { src: '/samples/german/chart%20count/bilddiagramm-1.webp', alt: 'Bilddiagramm-Arbeitsblatt mit verstreutem 4×5 Bildraster und Balkendiagramm für Zähl- und Diagramm-Übungen' },
     samples: [
-      { src: '/samples/german/chart count/bilddiagramm-1.webp', alt: 'Bilddiagramm-Arbeitsblatt mit 20 verstreuten Symbolen in einem 4×5 Raster und 6-Spalten-Balkendiagramm darunter', caption: 'Vollständiges Bilddiagramm-Arbeitsblatt mit Streubild-Raster und Balkendiagramm für Nutzer-Zählübungen' },
-      { src: '/samples/german/chart count/answer-key.webp', alt: 'Bilddiagramm-Lösungsschlüssel mit gelb markierten Zellen, die korrekte Zählergebnisse anzeigen', caption: 'Automatisch generierter Lösungsschlüssel mit gelb markierten Zellen (#FFC857), die das korrekte Zählergebnis für jeden Bildtyp anzeigen' },
+      { src: '/samples/german/chart%20count/bilddiagramm-1.webp', alt: 'Bilddiagramm-Arbeitsblatt mit 20 verstreuten Symbolen in einem 4×5 Raster und 6-Spalten-Balkendiagramm darunter', caption: 'Vollständiges Bilddiagramm-Arbeitsblatt mit Streubild-Raster und Balkendiagramm für Nutzer-Zählübungen' },
+      { src: '/samples/german/chart%20count/answer-key.webp', alt: 'Bilddiagramm-Lösungsschlüssel mit gelb markierten Zellen, die korrekte Zählergebnisse anzeigen', caption: 'Automatisch generierter Lösungsschlüssel mit gelb markierten Zellen (#FFC857), die das korrekte Zählergebnis für jeden Bildtyp anzeigen' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'So erstellen Sie Zähl- und Diagramm-Arbeitsblätter — Vollständiges Tutorial',

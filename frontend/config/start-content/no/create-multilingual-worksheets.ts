@@ -212,12 +212,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk-puslespillarbeidsark som demonstrerer flerspråklig arbeidsarkgenerering på 11 språk' },
+    heroImage: { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøk-puslespillarbeidsark som demonstrerer flerspråklig arbeidsarkgenerering på 11 språk' },
     samples: [
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk-puslespillarbeidsark med språkavhengig vokabular', caption: 'Ordsøk — Beste Flerspråklige Demo' },
-      { src: '/samples/norwegian/crossword/bildekryssord%201.webp', alt: 'Kryssordpuslespill med lokaliserte ledetråder og svar', caption: 'Bildekryssord — Fullstendig Lokaliserte Puslespill' },
-      { src: '/samples/norwegian/word%20scramble/bokstavblanding%201.webp', alt: 'Bokstavblandingsarbeidsark med språktilpasset vokabular', caption: 'Bokstavblanding — Språkavhengig Produksjon' },
-      { src: '/samples/norwegian/alphabet%20train/alfabettog%201.webp', alt: 'Alfabettog-arbeidsark som viser språkspesifikke bokstavsett', caption: 'Alfabettog — Tilpassede Bokstavsett' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøk-puslespillarbeidsark med språkavhengig vokabular', caption: 'Ordsøk — Beste Flerspråklige Demo' },
+      { src: '/samples/norwegian/crossword/bildekryssord-1.webp', alt: 'Kryssordpuslespill med lokaliserte ledetråder og svar', caption: 'Bildekryssord — Fullstendig Lokaliserte Puslespill' },
+      { src: '/samples/norwegian/word%20scramble/bokstavblanding-1.webp', alt: 'Bokstavblandingsarbeidsark med språktilpasset vokabular', caption: 'Bokstavblanding — Språkavhengig Produksjon' },
+      { src: '/samples/norwegian/alphabet%20train/alfabettog-1.webp', alt: 'Alfabettog-arbeidsark som viser språkspesifikke bokstavsett', caption: 'Alfabettog — Tilpassede Bokstavsett' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Slik Lager du Ordsøk-arbeidsark på Flere Språk — LessonCraftStudio Demo',

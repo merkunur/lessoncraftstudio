@@ -178,9 +178,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/drawing lines/drawing-lines-curve-1.webp', alt: 'Preschool tracing worksheet with themed images showing pre-writing path exercises for KDP workbook' },
+    heroImage: { src: '/samples/english/drawing%20lines/drawing-lines-curve-1.webp', alt: 'Preschool tracing worksheet with themed images showing pre-writing path exercises for KDP workbook' },
     samples: [
-      { src: '/samples/english/drawing lines/drawing-lines-curve-2.webp', alt: 'Line tracing activity for preschool workbook with animal theme', caption: 'Tracing activities develop fine motor control while themed images maintain engagement' },
+      { src: '/samples/english/drawing%20lines/drawing-lines-curve-2.webp', alt: 'Line tracing activity for preschool workbook with animal theme', caption: 'Tracing activities develop fine motor control while themed images maintain engagement' },
       { src: '/samples/english/matching/image-and-custom-word.webp', alt: 'Matching worksheet with themed images for preschool workbook interior', caption: 'Draw-a-line matching activities build visual discrimination and categorization skills' },
     ],
     youtubeId: 'P9q3ymjFnOQ',

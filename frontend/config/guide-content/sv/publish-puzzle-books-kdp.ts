@@ -202,11 +202,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Ordsökningspussel som visar tematiskt ordrutnät lämpligt för Amazon KDP pusselbok-interiörsidor' },
+    heroImage: { src: '/samples/swedish/wordsearch/ordletning-portrait.webp', alt: 'Ordsökningspussel som visar tematiskt ordrutnät lämpligt för Amazon KDP pusselbok-interiörsidor' },
     samples: [
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Djurtematiserat ordsökningspussel formaterat för KDP pusselbok', caption: 'Ordsökning med djurtema — den mest populära pusseltypen för KDP-böcker som riktar sig mot både vuxna och barn' },
-      { src: '/samples/swedish/crossword/bildkorsord%201.webp', alt: 'Korsordspussel med tematiska ledtrådar för KDP pusselbok', caption: 'Korsordspussel — lägger till substantiellt engagemangsvärde i pusselböcker och variationssamlingar' },
-      { src: '/samples/swedish/sudoku/sudoku-l%c3%a4tt.webp', alt: 'Bildsudoku pussel för barns variationspusselbok på KDP', caption: 'Bildsudoku — visuella logikpussel som gör barns variationspusselböcker mer varierade och engagerande' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.webp', alt: 'Djurtematiserat ordsökningspussel formaterat för KDP pusselbok', caption: 'Ordsökning med djurtema — den mest populära pusseltypen för KDP-böcker som riktar sig mot både vuxna och barn' },
+      { src: '/samples/swedish/crossword/bildkorsord-1.webp', alt: 'Korsordspussel med tematiska ledtrådar för KDP pusselbok', caption: 'Korsordspussel — lägger till substantiellt engagemangsvärde i pusselböcker och variationssamlingar' },
+      { src: '/samples/swedish/sudoku/sudoku-lätt.webp', alt: 'Bildsudoku pussel för barns variationspusselbok på KDP', caption: 'Bildsudoku — visuella logikpussel som gör barns variationspusselböcker mer varierade och engagerande' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hur du skapar ordsökningspussel för Amazon KDP pusselböcker — steg-för-steg-guide',

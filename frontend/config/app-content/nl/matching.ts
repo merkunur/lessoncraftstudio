@@ -224,27 +224,27 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/matching/zoek%20de%20paren%201.webp',
+      primary: '/samples/dutch/matching/zoek-de-paren-1.webp',
       primaryAlt: 'Trek-een-lijn verbindingswerkblad met thematische afbeeldingen in twee kolommen met gelokaliseerde Zoek de Paren koptekst en itemnummers',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/matching/zoek%20de%20paren%201.webp',
+        src: '/samples/dutch/matching/zoek-de-paren-1.webp',
         alt: 'Beginletter koppelwerkblad met afbeeldingen links en eerste letters rechts',
         caption: 'Beginletter-modus — gebruikers koppelen afbeeldingen aan hun eerste letters',
       },
       {
-        src: '/samples/dutch/matching/zoek%20de%20paren%202.webp',
+        src: '/samples/dutch/matching/zoek-de-paren-2.webp',
         alt: 'Afbeelding en woord koppelwerkblad met gelabelde paren aan beide zijden',
         caption: 'Afbeelding+Woord-modus — gelabelde afbeeldingsparen voor woordenschatkoppeling',
       },
       {
-        src: '/samples/dutch/matching/zoek%20de%20paren%201%20answer-key.webp',
+        src: '/samples/dutch/matching/zoek-de-paren-1-answer-key.webp',
         alt: 'Antwoordblad van koppelwerkblad met verbindingslijnen tussen correcte paren',
         caption: 'Automatisch gegenereerd antwoordblad — verbindingslijnen tonen correcte koppelingen',
       },
       {
-        src: '/samples/dutch/matching/zoek%20de%20paren%203.webp',
+        src: '/samples/dutch/matching/zoek-de-paren-3.webp',
         alt: 'Koppelwerkblad met dierenthema en zes paren in twee kolommen',
         caption: 'Thematisch koppelwerkblad met 6 paren — klaar voor verkoop op Etsy.nl',
       },

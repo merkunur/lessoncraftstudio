@@ -185,10 +185,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/shadow%20match/t%c3%a4ydenn%c3%a4%20kuvat%202.webp', alt: 'Varjojen yhdistämistyöarkki värikuvilla ja automaattisesti luoduilla pikselitason mustilla silueteilla' },
+    heroImage: { src: '/samples/finnish/shadow%20match/täydennä-kuvat-2.webp', alt: 'Varjojen yhdistämistyöarkki värikuvilla ja automaattisesti luoduilla pikselitason mustilla silueteilla' },
     samples: [
-      { src: '/samples/finnish/shadow%20match/t%c3%a4ydenn%c3%a4%20kuvat%202.webp', alt: 'Varjojen yhdistämistyöarkki neljällä värikuvalla ja neljällä pikselitason mustalla siluetilla kirjain- ja numerotunnisteilla', caption: 'Varjojen yhdistämistila neljällä värikuvalla ja niiden automaattisesti luoduilla mustilla silueteilla' },
-      { src: '/samples/finnish/shadow%20match/t%c3%a4ydenn%c3%a4%20kuvat%203.webp', alt: 'Automaattisesti luotu vastausavain, joka näyttää alkuperäiset kuvat siluettien rinnalla oikeilla kirjain-numero-pareilla', caption: 'Automaattinen vastausavain kirjain-numero-pareilla nopeaan tarkistukseen' },
+      { src: '/samples/finnish/shadow%20match/täydennä-kuvat-2.webp', alt: 'Varjojen yhdistämistyöarkki neljällä värikuvalla ja neljällä pikselitason mustalla siluetilla kirjain- ja numerotunnisteilla', caption: 'Varjojen yhdistämistila neljällä värikuvalla ja niiden automaattisesti luoduilla mustilla silueteilla' },
+      { src: '/samples/finnish/shadow%20match/täydennä-kuvat-3.webp', alt: 'Automaattisesti luotu vastausavain, joka näyttää alkuperäiset kuvat siluettien rinnalla oikeilla kirjain-numero-pareilla', caption: 'Automaattinen vastausavain kirjain-numero-pareilla nopeaan tarkistukseen' },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: 'Näin luot varjojen yhdistämistyöarkkeja — Täydellinen opas',

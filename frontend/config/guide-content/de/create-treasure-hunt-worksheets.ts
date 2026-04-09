@@ -186,11 +186,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/treasure hunt/worksheet.webp', alt: 'Schatzsuche-Pfadfindungs-Arbeitsblatt mit 5 mal 5 Koordinatenraster, 6 verteilten thematischen Orientierungsbildern, Richtungshinweisen und schatzsuchthematischem blaugrünen Header mit goldenem Fredoka-Titel' },
+    heroImage: { src: '/samples/german/treasure%20hunt/worksheet.webp', alt: 'Schatzsuche-Pfadfindungs-Arbeitsblatt mit 5 mal 5 Koordinatenraster, 6 verteilten thematischen Orientierungsbildern, Richtungshinweisen und schatzsuchthematischem blaugrünen Header mit goldenem Fredoka-Titel' },
     samples: [
-      { src: '/samples/german/treasure hunt/worksheet.webp', alt: 'Schatzsuche-Arbeitsblatt mit 5 mal 5 Koordinatenraster mit verteilten thematischen Bildern und Richtungshinweis-Anweisungen unter dem schatzsuchthematischen Header', caption: 'Schatzsuche-Arbeitsblatt mit Grundrichtungs-Hinweisen auf einem 5 mal 5 Koordinatenraster mit 6 thematischen Orientierungsbildern' },
-      { src: '/samples/german/treasure hunt/worksheet-1.webp', alt: 'Schatzsuche-Arbeitsblatt mit Himmelsrichtungs-Hinweisen unter Verwendung von Norden Süden Osten und Westen auf dem 5 mal 5 Koordinatenraster', caption: 'Himmelsrichtungen-Modus mit Kompasswortschatz für fortgeschrittenes räumliches Denken und Kartenlesefähigkeiten' },
-      { src: '/samples/german/treasure hunt/answer-key.webp', alt: 'Automatisch generierter Lösungsschlüssel mit finaler Schatzzelle in blassgelb hervorgehoben auf dem 5 mal 5 Koordinatenraster', caption: 'Automatisch generierter Lösungsschlüssel mit blassgelb hervorgehobener Schatzzelle zur sofortigen Überprüfung' },
+      { src: '/samples/german/treasure%20hunt/worksheet.webp', alt: 'Schatzsuche-Arbeitsblatt mit 5 mal 5 Koordinatenraster mit verteilten thematischen Bildern und Richtungshinweis-Anweisungen unter dem schatzsuchthematischen Header', caption: 'Schatzsuche-Arbeitsblatt mit Grundrichtungs-Hinweisen auf einem 5 mal 5 Koordinatenraster mit 6 thematischen Orientierungsbildern' },
+      { src: '/samples/german/treasure%20hunt/worksheet-1.webp', alt: 'Schatzsuche-Arbeitsblatt mit Himmelsrichtungs-Hinweisen unter Verwendung von Norden Süden Osten und Westen auf dem 5 mal 5 Koordinatenraster', caption: 'Himmelsrichtungen-Modus mit Kompasswortschatz für fortgeschrittenes räumliches Denken und Kartenlesefähigkeiten' },
+      { src: '/samples/german/treasure%20hunt/answer-key.webp', alt: 'Automatisch generierter Lösungsschlüssel mit finaler Schatzzelle in blassgelb hervorgehoben auf dem 5 mal 5 Koordinatenraster', caption: 'Automatisch generierter Lösungsschlüssel mit blassgelb hervorgehobener Schatzzelle zur sofortigen Überprüfung' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'So erstellen Sie Schatzsuche-Arbeitsblätter — Komplettes Tutorial',

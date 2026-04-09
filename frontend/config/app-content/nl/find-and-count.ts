@@ -223,27 +223,27 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%201.webp',
+      primary: '/samples/dutch/find%20and%20count/ik-zie,-ik-zie-1.webp',
       primaryAlt: 'Ik zie ik zie zoek-en-tel werkblad met verstrooide afbeeldingen op een raster, blauw koptekstkader en vier taaktype-instructies',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%202.webp',
+        src: '/samples/dutch/find%20and%20count/ik-zie,-ik-zie-2.webp',
         alt: 'Ik zie ik zie verborgen voorwerp werkblad met verstrooide dierenafbeeldingen en taaktype-instructies',
         caption: 'Verborgen Voorwerp modus — klassiek ik zie ik zie met omcirkel-, vierkant-, doorstreep- en teltaken',
       },
       {
-        src: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%203.webp',
+        src: '/samples/dutch/find%20and%20count/ik-zie,-ik-zie-3.webp',
         alt: 'Ik zie ik zie werkblad met gelokaliseerde Nederlandse afbeeldingsnaamlabels en thema-illustraties',
         caption: 'Nederlandse afbeeldingsnaamlabels — gelokaliseerd via het Beeldwoordenschat-systeem',
       },
       {
-        src: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%201%20answer-key.webp',
+        src: '/samples/dutch/find%20and%20count/ik-zie,-ik-zie-1-answer-key.webp',
         alt: 'Zoek-en-tel antwoordblad met rode cirkel-, vierkant- en kruisannotaties over correcte objecten',
         caption: 'Automatisch gegenereerd antwoordblad — rode annotaties en telweergaven markeren correcte antwoorden',
       },
       {
-        src: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%204.webp',
+        src: '/samples/dutch/find%20and%20count/ik-zie,-ik-zie-4.webp',
         alt: 'Ik zie ik zie werkblad met achtergrondthema en kaderthema voor professionele presentatie',
         caption: 'Professionele indeling met achtergrond- en kaderthema\'s voor marktplaatsvermeldingen',
       },

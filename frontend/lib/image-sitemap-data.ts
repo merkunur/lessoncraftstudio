@@ -40,7 +40,7 @@ export interface ImageSitemapEntry {
 }
 
 // ─── URL normalization ───
-// Showcase paths are pre-encoded (/samples/english/addition/Addition%20Fun%201.webp)
+// Showcase paths are pre-encoded (/samples/english/addition/addition-fun-1.webp)
 // Content paths are raw (/samples/english/addition/addition-fun-1.webp)
 // This normalizes both to properly encoded absolute URLs.
 function toAbsoluteUrl(path: string): string {

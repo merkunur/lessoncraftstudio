@@ -222,22 +222,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/find and count/ich-sehe-was-1.webp',
+      primary: '/samples/german/find%20and%20count/ich-sehe-was-1.webp',
       primaryAlt: 'Suchbild-Suchen-und-Zählen-Arbeitsblatt mit verteilten Bildern auf einem konfigurierbaren Raster mit blauem Header-Rahmen und vier Aufgabentyp-Anweisungen für Einkreisen Umrahmen Durchstreichen und Zählen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/find and count/ich-sehe-was-1.webp',
+        src: '/samples/german/find%20and%20count/ich-sehe-was-1.webp',
         alt: 'Suchbild-Arbeitsblatt im Hochformat mit verteiltem Bildraster und thematischen Bildern zwischen Ablenkungsobjekten',
         caption: 'Suchbild-Modus — klassisches Ich-sehe-was mit Einkreisen-, Umrahmen-, Durchstreich- und Zähl-Aufgabentypen auf einem verteilten Bildraster',
       },
       {
-        src: '/samples/german/find and count/ich-sehe-was-2.webp',
+        src: '/samples/german/find%20and%20count/ich-sehe-was-2.webp',
         alt: 'Suchen-und-Zählen-Arbeitsblatt im Querformat mit breiterem Raster-Layout und verteilten thematischen Bildern',
         caption: 'Querformat-Layout — breiteres Raster für mehr Spalten und anspruchsvollere Suchbild-Szenen',
       },
       {
-        src: '/samples/german/find and count/ich-sehe-was-1-answer-key.webp',
+        src: '/samples/german/find%20and%20count/ich-sehe-was-1-answer-key.webp',
         alt: 'Suchen-und-Zählen-Lösungsschlüssel mit roten Kreis- Rahmen- und Kreuz-Markierungen über korrekten Zielobjekten und Anzahl-Anzeigen',
         caption: 'Automatisch generierter Lösungsschlüssel — rote Markierungen zeigen Kreise, Rahmen, Kreuze und Zählergebnisse für jedes Zielobjekt',
       },

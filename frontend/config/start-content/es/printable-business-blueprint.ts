@@ -220,9 +220,9 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/math puzzle/rompecabezas-matemáticos-1.webp', alt: 'Ejemplo de ficha de rompecabezas matemáticos creada con el generador LessonCraftStudio' },
+    heroImage: { src: '/samples/spanish/math%20puzzle/rompecabezas-matemáticos-1.webp', alt: 'Ejemplo de ficha de rompecabezas matemáticos creada con el generador LessonCraftStudio' },
     samples: [
-      { src: '/samples/spanish/math puzzle/rompecabezas-matemáticos-1.webp', alt: 'Ficha de rompecabezas matemáticos mostrando la variedad de resultados configurables', caption: 'Rompecabezas Matemáticos — Dificultad Configurable' },
+      { src: '/samples/spanish/math%20puzzle/rompecabezas-matemáticos-1.webp', alt: 'Ficha de rompecabezas matemáticos mostrando la variedad de resultados configurables', caption: 'Rompecabezas Matemáticos — Dificultad Configurable' },
       { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Ficha de sopa de letras con lista de palabras temáticas', caption: 'Sopa de Letras — Puzzle Temático' },
       { src: '/samples/spanish/coloring/coloring-portrait-1.webp', alt: 'Ficha para colorear con ilustraciones temáticas', caption: 'Colorear — Atractivo Visual' },
       { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Ficha de asociación con formato internacional puramente visual', caption: 'Asociación — Funciona en Cualquier Idioma' },

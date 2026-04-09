@@ -191,11 +191,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'pedagogiskt utskriftsbart arbetsblad för prisstrategidemonstration på Etsy' },
+    heroImage: { src: '/samples/swedish/addition/addition-övning.webp', alt: 'pedagogiskt utskriftsbart arbetsblad för prisstrategidemonstration på Etsy' },
     samples: [
-      { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Djurtematiserat additionsarbetsblad som visar ingångsnivåprodukt för Etsy', caption: 'Additionsarbetsblad med djurtema — en typisk ingångsnivåprodukt prissatt till $3,99 för ett 10-sidors paket' },
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Ordsökningspussel som demonstrerar premiumprissättning för språkspecifika produkter', caption: 'Ordsökningspussel — språkversioner tar ut premiumpriser med mindre konkurrens på icke-engelska marknader' },
-      { src: '/samples/swedish/sudoku/sudoku-l%c3%a4tt.webp', alt: 'Sudokupussel som visar stegvis svårighetsprissättningsstrategi', caption: 'Sudokupussel — svårighetsbaserad stegning stöder progressiv prissättning inom en enda produktkategori' },
+      { src: '/samples/swedish/addition/addition-övning.webp', alt: 'Djurtematiserat additionsarbetsblad som visar ingångsnivåprodukt för Etsy', caption: 'Additionsarbetsblad med djurtema — en typisk ingångsnivåprodukt prissatt till $3,99 för ett 10-sidors paket' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.webp', alt: 'Ordsökningspussel som demonstrerar premiumprissättning för språkspecifika produkter', caption: 'Ordsökningspussel — språkversioner tar ut premiumpriser med mindre konkurrens på icke-engelska marknader' },
+      { src: '/samples/swedish/sudoku/sudoku-lätt.webp', alt: 'Sudokupussel som visar stegvis svårighetsprissättningsstrategi', caption: 'Sudokupussel — svårighetsbaserad stegning stöder progressiv prissättning inom en enda produktkategori' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hur du skapar utskriftsbara arbetsblad för försäljning på Etsy — Förstå produktvärde och prissättning',
@@ -204,7 +204,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Sparris — tematisk pedagogisk bild', caption: 'Sparris' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Rödbeta — tematisk pedagogisk bild', caption: 'Rödbeta' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Paprika — tematisk pedagogisk bild', caption: 'Paprika' },
+    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Paprika — tematisk pedagogisk bild', caption: 'Paprika' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Broccoli — tematisk pedagogisk bild', caption: 'Broccoli' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Kål — tematisk pedagogisk bild', caption: 'Kål' },
   ],

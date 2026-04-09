@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Matchingarbeidsark med tematiske bilder som viser tegn-en-linje par for forskole' },
+    heroImage: { src: '/samples/norwegian/matching/finn-parene-1.webp', alt: 'Matchingarbeidsark med tematiske bilder som viser tegn-en-linje par for forskole' },
     samples: [
-      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Tegn-en-linje matchingarbeidsark med dyretema for forskole', caption: 'Forskole matchingarbeidsark med dyretema i Bokstavmatchingmodus med 5 par' },
-      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Matchingarbeidsark-fasit som viser koblingslinjer mellom korrekte par', caption: 'Automatisk fasit med horisontale koblingslinjer mellom matchede par' },
+      { src: '/samples/norwegian/matching/finn-parene-1.webp', alt: 'Tegn-en-linje matchingarbeidsark med dyretema for forskole', caption: 'Forskole matchingarbeidsark med dyretema i Bokstavmatchingmodus med 5 par' },
+      { src: '/samples/norwegian/matching/finn-parene-1.webp', alt: 'Matchingarbeidsark-fasit som viser koblingslinjer mellom korrekte par', caption: 'Automatisk fasit med horisontale koblingslinjer mellom matchede par' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Hvordan lage matchingarbeidsark — komplett veiledning',

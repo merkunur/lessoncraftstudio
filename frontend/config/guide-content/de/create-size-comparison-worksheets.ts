@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/big small/big-small-worksheet-worksheet.webp', alt: 'Größenvergleich-Arbeitsblatt mit thematischen Bildern in verschiedenen Größen für Vorschul-Übungen zum Kreise das Große ein' },
+    heroImage: { src: '/samples/german/big%20small/big-small-worksheet-worksheet.webp', alt: 'Größenvergleich-Arbeitsblatt mit thematischen Bildern in verschiedenen Größen für Vorschul-Übungen zum Kreise das Große ein' },
     samples: [
-      { src: '/samples/german/big small/big-small-worksheet-worksheet.webp', alt: 'Groß-und-Klein Größenvergleich-Arbeitsblatt mit thematischen Bildern und fünf Aufgabentypen', caption: 'Größenvergleich-Arbeitsblatt mit thematischen Bildern und automatisch generierten Antwortindikatoren' },
-      { src: '/samples/german/big small/big-small-worksheet-worksheet.webp', alt: 'Kreise das Große ein Arbeitsblatt mit verschiedenen Tierbildern in unterschiedlichen Größen', caption: 'Modus Kreise das Große ein mit thematischen Bildern für visuelle Größenunterscheidungsübung' },
+      { src: '/samples/german/big%20small/big-small-worksheet-worksheet.webp', alt: 'Groß-und-Klein Größenvergleich-Arbeitsblatt mit thematischen Bildern und fünf Aufgabentypen', caption: 'Größenvergleich-Arbeitsblatt mit thematischen Bildern und automatisch generierten Antwortindikatoren' },
+      { src: '/samples/german/big%20small/big-small-worksheet-worksheet.webp', alt: 'Kreise das Große ein Arbeitsblatt mit verschiedenen Tierbildern in unterschiedlichen Größen', caption: 'Modus Kreise das Große ein mit thematischen Bildern für visuelle Größenunterscheidungsübung' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'So erstellen Sie Größenvergleich-Arbeitsblätter — Komplettes Tutorial',

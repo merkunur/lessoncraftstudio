@@ -215,12 +215,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk-arbeidsark eksempel laget med LessonCraftStudio generator' },
+    heroImage: { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøk-arbeidsark eksempel laget med LessonCraftStudio generator' },
     samples: [
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Utskriftsbart ordsøk-arbeidsark med dyretema', caption: 'Ordsøk — Dyretema' },
-      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Addisjonsarbeidsark med bildebaserte matematikkoppgaver', caption: 'Addisjon — Bildebaserte Oppgaver' },
-      { src: '/samples/norwegian/coloring/coloring%20landscape%201.webp', alt: 'Fargeleggingsside med tematiske illustrasjoner', caption: 'Fargelegging — Tematiske Illustrasjoner' },
-      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Koblingsarbeidsark med visuelle paroppgaver', caption: 'Kobling — Visuell Paroppgave' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Utskriftsbart ordsøk-arbeidsark med dyretema', caption: 'Ordsøk — Dyretema' },
+      { src: '/samples/norwegian/addition/gøy-addisjon-1.webp', alt: 'Addisjonsarbeidsark med bildebaserte matematikkoppgaver', caption: 'Addisjon — Bildebaserte Oppgaver' },
+      { src: '/samples/norwegian/coloring/coloring-landscape-1.webp', alt: 'Fargeleggingsside med tematiske illustrasjoner', caption: 'Fargelegging — Tematiske Illustrasjoner' },
+      { src: '/samples/norwegian/matching/finn-parene-1.webp', alt: 'Koblingsarbeidsark med visuelle paroppgaver', caption: 'Kobling — Visuell Paroppgave' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Slik Lager du Ordsøk-arbeidsark — LessonCraftStudio Demo',

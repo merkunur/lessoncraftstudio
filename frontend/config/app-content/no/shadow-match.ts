@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/shadow%20match/fullf%c3%b8r%20bildene%201.webp',
+      primary: '/samples/norwegian/shadow%20match/fullfør-bildene-1.webp',
       primaryAlt: 'Skyggematching arbeidsark med fargede bilder i ovre rad og automatisk genererte svarte silhuetter i nedre rad med ravgul overskrift',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/shadow%20match/fullf%c3%b8r%20bildene%201.webp',
+        src: '/samples/norwegian/shadow%20match/fullfør-bildene-1.webp',
         alt: 'Skyggematching arbeidsark som viser fire fargede bilder matchet med fire svarte silhuetter med bokstav- og nummeretiketter',
         caption: 'Skyggematching-modus — brukerne matcher bilder med sine automatisk genererte silhuetter',
       },
       {
-        src: '/samples/norwegian/shadow%20match/fullf%c3%b8r%20bildene%202.webp',
+        src: '/samples/norwegian/shadow%20match/fullfør-bildene-2.webp',
         alt: 'Gjor det helt arbeidsark med delte bildehalvdeler som brukerne kobler sammen ved å matche forste og andre halvdeler',
         caption: 'Gjor Det Helt-modus — brukerne matcher delte bildehalvdeler for å fullføre bildene',
       },
       {
-        src: '/samples/norwegian/shadow%20match/fullf%c3%b8r%20bildene%203.webp',
+        src: '/samples/norwegian/shadow%20match/fullfør-bildene-3.webp',
         alt: 'Skyggematching fasit som viser originalbilder med silhuetter og korrekte bokstav-til-nummer matchingsetiketter',
         caption: 'Automatisk generert fasit — bokstav-til-nummer etiketter viser korrekte matchinger',
       },

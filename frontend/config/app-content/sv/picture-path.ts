@@ -278,22 +278,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/picture%20path/bildv%c3%a4g%201.webp',
+      primary: '/samples/swedish/picture%20path/bildväg-1.webp',
       primaryAlt: 'Bildväg labyrintarbetsblad med tematiska bilder i ett rutnät med orange rubrikram och automatiskt genererad Bildväg-rubrik',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/picture%20path/bildv%c3%a4g%202.webp',
+        src: '/samples/swedish/picture%20path/bildväg-2.webp',
         alt: 'Bildväg-läge arbetsblad med bilder arrangerade i ett rutnät som visar den korrekta vägen från start till mål',
         caption: 'Bildväg-läge — användarna följer den korrekta bildvägen från start till mål',
       },
       {
-        src: '/samples/swedish/picture%20path/bildv%c3%a4g%203.webp',
+        src: '/samples/swedish/picture%20path/bildväg-3.webp',
         alt: 'Klassisk Labyrint-läge arbetsblad med väggbaserade korridorer och samlingsbilder utspridda genom labyrinten',
         caption: 'Klassisk Labyrint-läge — LPF-algoritmen genererar väggbaserade labyrinter med samlingsbilder',
       },
       {
-        src: '/samples/swedish/picture%20path/bildv%c3%a4g%201%20answer-key.webp',
+        src: '/samples/swedish/picture%20path/bildväg-1-answer-key.webp',
         alt: 'Bildväg labyrint facit med lösningsväg markerad med rosa cirklar längs den korrekta rutten',
         caption: 'Automatiskt genererat facit — lösningsväg markerad med rosa cirklar',
       },

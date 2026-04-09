@@ -213,17 +213,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/finnish/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Varityssivu-tyoarkki mustavalkoisella aariviivakuvalla valmiina varittamiseen',
     },
     sampleGallery: [
-      { src: '/samples/finnish/big%20small/iso%20vai%20pieni%202.webp', alt: 'Kokovertailutyoarkki temaattisilla kuvilla suurimman ja pienimman ympyrointiin', caption: 'Suuri ja Pieni -tyoarkki' },
-      { src: '/samples/finnish/pattern%20train/kuviojuna%201.webp', alt: 'Junavaunun kuviosekvenssityoarkki puuttuvalla kuviolla', caption: 'Kuviojuna-tyoarkki' },
-      { src: '/samples/finnish/pattern%20worksheet/kuvioteht%c3%a4v%c3%a4t%201.webp', alt: 'Kuvionhahmoittamistyoarkki tayta aukko -sekvensseilla', caption: 'Kuviotyoarkki' },
-      { src: '/samples/finnish/draw%20and%20color/piirr%c3%a4%20ja%20v%c3%a4rit%c3%a4%201.webp', alt: 'Viitekuvapiirtamistyoarkki ruudukolla kuvan jaljentamiseen', caption: 'Piirra ja Varita -tyoarkki' },
-      { src: '/samples/finnish/drawing%20lines/viivojen%20piirt%c3%a4misharjoitus%201.webp', alt: 'Viivanjaljennystyoarkki paritetuilla esineilla ja kaarevilla viivapoluilla', caption: 'Viivojen piirtamisen tyoarkki' },
-      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Varityssivu mustavalkoisella aariviivalla temaattisesta kuvasta muunnettuna', caption: 'Varityssivu' },
-      { src: '/samples/finnish/chart%20count/kuvakaavio%201.webp', alt: 'Pylvasdiagrammilaskentatyoarkki temaattisilla kuvadatapisteilla', caption: 'Diagrammilaskenta-tyoarkki' },
+      { src: '/samples/finnish/big%20small/iso-vai-pieni-2.webp', alt: 'Kokovertailutyoarkki temaattisilla kuvilla suurimman ja pienimman ympyrointiin', caption: 'Suuri ja Pieni -tyoarkki' },
+      { src: '/samples/finnish/pattern%20train/kuviojuna-1.webp', alt: 'Junavaunun kuviosekvenssityoarkki puuttuvalla kuviolla', caption: 'Kuviojuna-tyoarkki' },
+      { src: '/samples/finnish/pattern%20worksheet/kuviotehtävät-1.webp', alt: 'Kuvionhahmoittamistyoarkki tayta aukko -sekvensseilla', caption: 'Kuviotyoarkki' },
+      { src: '/samples/finnish/draw%20and%20color/piirrä-ja-väritä-1.webp', alt: 'Viitekuvapiirtamistyoarkki ruudukolla kuvan jaljentamiseen', caption: 'Piirra ja Varita -tyoarkki' },
+      { src: '/samples/finnish/drawing%20lines/viivojen-piirtämisharjoitus-1.webp', alt: 'Viivanjaljennystyoarkki paritetuilla esineilla ja kaarevilla viivapoluilla', caption: 'Viivojen piirtamisen tyoarkki' },
+      { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Varityssivu mustavalkoisella aariviivalla temaattisesta kuvasta muunnettuna', caption: 'Varityssivu' },
+      { src: '/samples/finnish/chart%20count/kuvakaavio-1.webp', alt: 'Pylvasdiagrammilaskentatyoarkki temaattisilla kuvadatapisteilla', caption: 'Diagrammilaskenta-tyoarkki' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Visuaalinen oppiminen -paketti — Katso kaikki 7 generaattoria toiminnassa',

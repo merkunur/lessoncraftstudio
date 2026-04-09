@@ -203,15 +203,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp',
+      primary: '/samples/finnish/matching/yhdistä-parit-1.webp',
       primaryAlt: 'Yhdistelytyoarkki temaattisilla kuvilla pariyhdistelyharjoituksella',
     },
     sampleGallery: [
-      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistelytyoarkki neljalla yhdiistelytilalla ja temaattisilla kuvilla', caption: 'Yhdistelytyoarkki' },
-      { src: '/samples/finnish/grid%20match/ruudukkopalapeli%201.webp', alt: 'Ruudukkoyhdiistelypulma koordinaattipohjaisella yhdistelylla rakenteellisella ruudukolla', caption: 'Ruudukkoyhdistelytyoarkki' },
-      { src: '/samples/finnish/shadow%20match/t%c3%a4ydenn%c3%a4%20kuvat%201.webp', alt: 'Varjoyhdistelytyoarkki siluettiparituksella ja viivapiirrustusmuodolla', caption: 'Varjoyhdistelytyoarkki' },
-      { src: '/samples/finnish/bingo/kuvabingo%201.webp', alt: 'Bingokortti temaattisilla kuvilla satunnaistetussa ruudukkoasettelussa', caption: 'Bingokortti' },
-      { src: '/samples/finnish/picture%20sort/lajittele%20kuvat%201.webp', alt: 'Kuvalajittelutyoarkki kahden kategorian luokitteluharjoituksella', caption: 'Kuvalajittelutyoarkki' },
+      { src: '/samples/finnish/matching/yhdistä-parit-1.webp', alt: 'Yhdistelytyoarkki neljalla yhdiistelytilalla ja temaattisilla kuvilla', caption: 'Yhdistelytyoarkki' },
+      { src: '/samples/finnish/grid%20match/ruudukkopalapeli-1.webp', alt: 'Ruudukkoyhdiistelypulma koordinaattipohjaisella yhdistelylla rakenteellisella ruudukolla', caption: 'Ruudukkoyhdistelytyoarkki' },
+      { src: '/samples/finnish/shadow%20match/täydennä-kuvat-1.webp', alt: 'Varjoyhdistelytyoarkki siluettiparituksella ja viivapiirrustusmuodolla', caption: 'Varjoyhdistelytyoarkki' },
+      { src: '/samples/finnish/bingo/kuvabingo-1.webp', alt: 'Bingokortti temaattisilla kuvilla satunnaistetussa ruudukkoasettelussa', caption: 'Bingokortti' },
+      { src: '/samples/finnish/picture%20sort/lajittele-kuvat-1.webp', alt: 'Kuvalajittelutyoarkki kahden kategorian luokitteluharjoituksella', caption: 'Kuvalajittelutyoarkki' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Yhdistely ja lajittelu -paketti — Katso kaikki 5 generaattoria toiminnassa',
@@ -222,7 +222,7 @@ const content: BundleContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Sonni — temaattinen opetuskuva', caption: 'Sonni' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Vasikka — temaattinen opetuskuva', caption: 'Vasikka' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kissa — temaattinen opetuskuva', caption: 'Kissa' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kissa 2 — temaattinen opetuskuva', caption: 'Kissa 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kissa 2 — temaattinen opetuskuva', caption: 'Kissa 2' },
     { src: '/image-library/farm%20animals/chick.webp', alt: 'Tipu — temaattinen opetuskuva', caption: 'Tipu' },
     { src: '/image-library/farm%20animals/chicken.webp', alt: 'Kana — temaattinen opetuskuva', caption: 'Kana' },
     { src: '/image-library/farm%20animals/cow.webp', alt: 'Lehma — temaattinen opetuskuva', caption: 'Lehma' },

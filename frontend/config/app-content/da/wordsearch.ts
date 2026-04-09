@@ -246,22 +246,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/wordsearch/ords%c3%b8gning%201.webp',
+      primary: '/samples/danish/wordsearch/ordsøgning-1.webp',
       primaryAlt: 'Ordleg med skjulte ord i et bogstavgitter og temabilleder som ledetråde til bogstavjagt',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/wordsearch/ordsøgning%201.webp',
+        src: '/samples/danish/wordsearch/ordsøgning-1.webp',
         alt: 'Ordleg i stående format med 12×12 bogstavgitter og tematiske billedledetråde',
         caption: 'Stående format — 12×12-gitter med temabilleder og ordliste til bogstavjagt',
       },
       {
-        src: '/samples/danish/wordsearch/ordsøgning%202.webp',
+        src: '/samples/danish/wordsearch/ordsøgning-2.webp',
         alt: 'Ordleg med større gitter og diagonale ord aktiveret til mellemtrin',
         caption: 'Større gitter — med diagonal- og baglæns ord aktiveret for øget udfordring',
       },
       {
-        src: '/samples/danish/wordsearch/ordsøgning%203.webp',
+        src: '/samples/danish/wordsearch/ordsøgning-3.webp',
         alt: 'Ordleg farvekodet facit med seks markeringsfarver, der viser fundne ord i bogstavjagten',
         caption: 'Farvekodet facit — hvert ord markeret i en unik farve for nem verifikation',
       },

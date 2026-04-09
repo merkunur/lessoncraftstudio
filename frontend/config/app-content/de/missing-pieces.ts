@@ -272,22 +272,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/missing pieces/fehlende-teile-1.webp',
+      primary: '/samples/german/missing%20pieces/fehlende-teile-1.webp',
       primaryAlt: 'Fehlende-Puzzleteile-Rätsel mit ausgeschnittenen Löchern und nummerierten Lösungsoptionen inklusive Distraktoren',
     },
     sampleGallery: [
       {
-        src: '/samples/german/missing pieces/fehlende-teile-2.webp',
+        src: '/samples/german/missing%20pieces/fehlende-teile-2.webp',
         alt: 'Puzzleteil-Rätsel mit quadratischen Löchern aus einer farbenfrohen Illustration',
         caption: 'Quadrat-Teilform — saubere geometrische Schnitte für klare visuelle Identifikation',
       },
       {
-        src: '/samples/german/missing pieces/fehlende-teile-3.webp',
+        src: '/samples/german/missing%20pieces/fehlende-teile-3.webp',
         alt: 'Puzzleteil-Rätsel mit kreisförmigen Löchern und nummerierten Lösungsoptionen',
         caption: 'Kreis-Teilform — abgerundete Schnitte mit Ablenkungsoptionen für erhöhte Herausforderung',
       },
       {
-        src: '/samples/german/missing pieces/fehlende-teile-1-answer-key.webp',
+        src: '/samples/german/missing%20pieces/fehlende-teile-1-answer-key.webp',
         alt: 'Puzzleteil-Rätsel-Lösungsschlüssel mit gelb hervorgehobenen Nummern in jedem Loch',
         caption: 'Automatisch generierter Lösungsschlüssel — gelbe Beschriftungen zeigen die korrekte Option für jedes Loch',
       },

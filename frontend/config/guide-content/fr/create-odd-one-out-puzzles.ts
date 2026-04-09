@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/odd one out/Trouve l\'intrus-1.webp', alt: 'Fiche trouve l\'intrus avec quatre images par exercice montrant trois éléments communs et un intrus avec en-tête corail-ambre-turquoise' },
+    heroImage: { src: '/samples/french/odd%20one%20out/trouve-l\'intrus-1.webp', alt: 'Fiche trouve l\'intrus avec quatre images par exercice montrant trois éléments communs et un intrus avec en-tête corail-ambre-turquoise' },
     samples: [
-      { src: '/samples/french/odd one out/Trouve l\'intrus-1.webp', alt: 'Fiche trouve l\'intrus montrant des cartes d\'exercices avec quatre images par rangée et en-tête stylisé Trouve l\'Intrus', caption: 'Fiche trouve l\'intrus avec rangées d\'exercices à quatre images et mise en page adaptative en colonnes' },
-      { src: '/samples/french/odd one out/Trouve l\'intrus-1-answer-key.webp', alt: 'Corrigé auto-généré avec contours de cercle rouge dessinés autour de l\'intrus dans chaque rangée d\'exercice', caption: 'Corrigé auto-généré avec marqueurs cercle rouge identifiant l\'intrus dans chaque rangée' },
+      { src: '/samples/french/odd%20one%20out/trouve-l\'intrus-1.webp', alt: 'Fiche trouve l\'intrus montrant des cartes d\'exercices avec quatre images par rangée et en-tête stylisé Trouve l\'Intrus', caption: 'Fiche trouve l\'intrus avec rangées d\'exercices à quatre images et mise en page adaptative en colonnes' },
+      { src: '/samples/french/odd%20one%20out/trouve-l\'intrus-1-answer-key.webp', alt: 'Corrigé auto-généré avec contours de cercle rouge dessinés autour de l\'intrus dans chaque rangée d\'exercice', caption: 'Corrigé auto-généré avec marqueurs cercle rouge identifiant l\'intrus dans chaque rangée' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Comment créer des puzzles trouve l\'intrus — Tutoriel complet',
@@ -201,7 +201,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Asperge — image éducative thématique', caption: 'Asperge' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Betterave — image éducative thématique', caption: 'Betterave' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Poivron — image éducative thématique', caption: 'Poivron' },
+    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Poivron — image éducative thématique', caption: 'Poivron' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Brocoli — image éducative thématique', caption: 'Brocoli' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Chou — image éducative thématique', caption: 'Chou' },
   ],

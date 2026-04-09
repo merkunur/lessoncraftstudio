@@ -233,22 +233,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/math%20puzzle/mattepuslespil%201.webp',
+      primary: '/samples/danish/math%20puzzle/mattepuslespil-1.webp',
       primaryAlt: 'Regnespil til print med farverigt billede opdelt i puslespilsbrikker med matematikopgaver',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/math%20puzzle/mattepuslespil%201.webp',
+        src: '/samples/danish/math%20puzzle/mattepuslespil-1.webp',
         alt: 'Sjove regneopgaver som puslespil — 3×3 gitter med additionsopgaver og dyretema',
         caption: 'Additionstilstand — regnespil med 9 brikker, børnene løser stykker for at kombinere billedet',
       },
       {
-        src: '/samples/danish/math%20puzzle/mattepuslespil%202.webp',
+        src: '/samples/danish/math%20puzzle/mattepuslespil-2.webp',
         alt: 'Regnegåder til print — 2×3 puslespil med subtraktion og naturtema',
         caption: 'Subtraktionstilstand — legende matematikopgaver med 6 brikker til indskoling',
       },
       {
-        src: '/samples/danish/math%20puzzle/mattepuslespil%203.webp',
+        src: '/samples/danish/math%20puzzle/mattepuslespil-3.webp',
         alt: 'Matematik puslespil opgaver — 4×4 gitter med blandede operationer og køretøjstema',
         caption: 'Blandet tilstand — 4×4 regnespil med 16 brikker for avanceret logik og tænkning',
       },

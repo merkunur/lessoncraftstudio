@@ -210,22 +210,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/more%20less/mere%20mindre%201.webp',
+      primary: '/samples/danish/more%20less/mere-mindre-1.webp',
       primaryAlt: 'Gratis større end mindre end generator med billedsammenligningsgrupper — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/more%20less/mere%20mindre%201.webp',
+        src: '/samples/danish/more%20less/mere-mindre-1.webp',
         alt: 'Billede mod Billede sammenligningsarbejdsark med dyretema, der viser to billedgrupper side om side',
         caption: 'Billede mod Billede-tilstand med dyretema',
       },
       {
-        src: '/samples/danish/more%20less/mere%20mindre%202.webp',
+        src: '/samples/danish/more%20less/mere-mindre-2.webp',
         alt: 'Billede mod Tal sammenligningsarbejdsark, der brobygger visuel tælling med skrevne tal',
         caption: 'Billede mod Tal-tilstand — brobygger billeder og tal',
       },
       {
-        src: '/samples/danish/more%20less/mere%20mindre%203.webp',
+        src: '/samples/danish/more%20less/mere-mindre-3.webp',
         alt: 'Tjek og Kryds Grupper arbejdsark med blandede omflyttede billeder til sortering og sammenligning',
         caption: 'Tjek og Kryds Grupper — unik sorterings- og sammenligningstilatand',
       },

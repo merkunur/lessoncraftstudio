@@ -267,22 +267,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/pattern worksheet/pattern-worksheet.webp',
+      primary: '/samples/german/pattern%20worksheet/pattern-worksheet.webp',
       primaryAlt: 'Muster-Arbeitsblatt mit rasterbasierten Übungen, die sich wiederholende Bildmuster mit Lückenfeldern und Multiple-Choice-Optionen zeigen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/pattern worksheet/pattern-answer-key.webp',
+        src: '/samples/german/pattern%20worksheet/pattern-answer-key.webp',
         alt: 'Muster-Arbeitsblatt mit AB-Lückenfeld-Übungen mit Tierbildern in einem Rasterlayout mit leeren Kästchen zum Ausfüllen',
         caption: 'AB-Lückenfeld-Übungen mit Tierthema — Lernende erkennen das abwechselnde Muster und füllen das fehlende Bild ein',
       },
       {
-        src: '/samples/german/pattern worksheet/pattern-worksheet.webp',
+        src: '/samples/german/pattern%20worksheet/pattern-worksheet.webp',
         alt: 'Muster-Arbeitsblatt mit ABC-Multiple-Choice-Übungen mit Fahrzeugbildern und drei Antwortoptionen pro Übung',
         caption: 'ABC-Multiple-Choice-Übungen mit Fahrzeugthema — Lernende wählen das korrekte fehlende Element aus drei Optionen',
       },
       {
-        src: '/samples/german/pattern worksheet/pattern-answer-key.webp',
+        src: '/samples/german/pattern%20worksheet/pattern-answer-key.webp',
         alt: 'Muster-Arbeitsblatt-Lösungsschlüssel mit allen Lücken ausgefüllt mit den korrekten Musterelementen',
         caption: 'Lösungsschlüssel-Ansicht — alle Lücken mit korrekten Musterelementen ausgefüllt zur Überprüfung durch die Lehrkraft',
       },

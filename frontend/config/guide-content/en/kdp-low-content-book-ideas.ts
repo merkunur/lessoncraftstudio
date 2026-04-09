@@ -179,7 +179,7 @@ const content: GuideContent = {
     heroImage: { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Low content coloring book page generated for Amazon KDP publication' },
     samples: [
       { src: '/samples/english/coloring/coloring-portrait-2.webp', alt: 'Coloring page ready for KDP coloring book interior', caption: 'Themed coloring page exported at 300 DPI for KDP book interior' },
-      { src: '/samples/english/drawing lines/drawing-lines-curve-1.webp', alt: 'Drawing line worksheet for KDP tracing book', caption: 'Guided drawing worksheet suitable for KDP tracing book interior' },
+      { src: '/samples/english/drawing%20lines/drawing-lines-curve-1.webp', alt: 'Drawing line worksheet for KDP tracing book', caption: 'Guided drawing worksheet suitable for KDP tracing book interior' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages',

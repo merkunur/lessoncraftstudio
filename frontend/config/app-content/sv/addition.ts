@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/addition/addition-%c3%b6vning.webp',
+      primary: '/samples/swedish/addition/addition-övning.webp',
       primaryAlt: 'Additionsarbetsblad med färgglada djurbilder i läget Bild + Bild',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/addition/bild%20tal.webp',
+        src: '/samples/swedish/addition/bild-tal.webp',
         alt: 'Stående additionsarbetsblad i läget Bild + Tal med djurtema',
         caption: 'Bild + Tal läge — användarna kombinerar bildgrupper med tal för övergångsfärdigheter',
       },
       {
-        src: '/samples/swedish/addition/blandat%20l%c3%a4ge.webp',
+        src: '/samples/swedish/addition/blandat-läge.webp',
         alt: 'Liggande additionsarbetsblad i Blandat Läge med mattema',
         caption: 'Blandat Läge — kombinerar alla övningstyper för varierad, engagerande matteövning',
       },
       {
-        src: '/samples/swedish/addition/hitta%20term.webp',
+        src: '/samples/swedish/addition/hitta-term.webp',
         alt: 'Additionsarbetsblad i läget Hitta Termen med fordonstema',
         caption: 'Hitta Termen läge — användarna upptäcker den saknade gruppen för tidigt algebraiskt tänkande',
       },

@@ -1027,7 +1027,7 @@ class HomepageContentManager {
           imageUrl = `/samples/${langFolder}/${config.app}/${filename}`;
         } else {
           // Fallback to English if no locale-specific sample exists
-          imageUrl = `/samples/english/${config.app}/worksheet.webp`;
+          imageUrl = `/samples/english/%24%7Bconfig.app%7D/worksheet.webp`;
         }
       }
 

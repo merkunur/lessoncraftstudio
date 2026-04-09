@@ -224,22 +224,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/picture%20path/kuvapolku%202.webp',
+      primary: '/samples/finnish/picture%20path/kuvapolku-2.webp',
       primaryAlt: 'Kuvapolku-sokkelo-työlehti temaattisilla kuvilla ruudukossa oranssilla otsikkokehyksellä ja automaattisesti luodulla Kuvapolku-otsikolla',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/picture%20path/kuvapolku%203.webp',
+        src: '/samples/finnish/picture%20path/kuvapolku-3.webp',
         alt: 'Kuvapolku-tilan työlehti kuvilla ruudukossa näyttäen oikean polun alusta loppuun',
         caption: 'Kuvapolku-tila — seuraa oikeaa kuvapolkua alusta loppuun',
       },
       {
-        src: '/samples/finnish/picture%20path/kuvapolku%204.webp',
+        src: '/samples/finnish/picture%20path/kuvapolku-4.webp',
         alt: 'Klassinen Sokkelo -tilan työlehti seinäpohjaisilla käytävillä ja kerättävillä kuvilla pitkin sokkeloa',
         caption: 'Klassinen Sokkelo -tila — LPF-algoritmi luo seinäpohjaisia sokkeloita kerättävineen',
       },
       {
-        src: '/samples/finnish/picture%20path/kuvapolku%202%20answer-key.webp',
+        src: '/samples/finnish/picture%20path/kuvapolku-2-answer-key.webp',
         alt: 'Kuvapolku-sokkelon vastausavain ratkaisupolulla korostettuna vaaleanpunaisilla ympyröillä oikean reitin varrella',
         caption: 'Automaattisesti luotu vastausavain — ratkaisupolku korostettuna vaaleanpunaisilla ympyröillä',
       },

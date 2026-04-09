@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/chart count/grafico-con-immagini-1.webp', alt: 'Scheda di grafici per immagini con griglia 4×5 di immagini sparse e grafico a barre per pratica di conteggio e grafici' },
+    heroImage: { src: '/samples/italian/chart%20count/grafico-con-immagini-1.webp', alt: 'Scheda di grafici per immagini con griglia 4×5 di immagini sparse e grafico a barre per pratica di conteggio e grafici' },
     samples: [
-      { src: '/samples/italian/chart count/grafico-con-immagini-1.webp', alt: 'Scheda di grafici per immagini con 20 icone sparse in una griglia 4×5 e grafico a barre a 6 colonne sotto', caption: 'Scheda completa di grafici per immagini con griglia di immagini sparse e grafico a barre per la pratica di conteggio degli utenti' },
-      { src: '/samples/italian/chart count/grafico-con-immagini-1-answer-key.webp', alt: 'Chiave di risposta del grafico per immagini con celle evidenziate in giallo che mostrano i conteggi corretti', caption: 'Chiave di risposta auto-generata con celle evidenziate in giallo (#FFC857) che mostrano il conteggio corretto per ogni tipo di immagine' },
+      { src: '/samples/italian/chart%20count/grafico-con-immagini-1.webp', alt: 'Scheda di grafici per immagini con 20 icone sparse in una griglia 4×5 e grafico a barre a 6 colonne sotto', caption: 'Scheda completa di grafici per immagini con griglia di immagini sparse e grafico a barre per la pratica di conteggio degli utenti' },
+      { src: '/samples/italian/chart%20count/grafico-con-immagini-1-answer-key.webp', alt: 'Chiave di risposta del grafico per immagini con celle evidenziate in giallo che mostrano i conteggi corretti', caption: 'Chiave di risposta auto-generata con celle evidenziate in giallo (#FFC857) che mostrano il conteggio corretto per ogni tipo di immagine' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Come Creare Schede di Conteggio e Grafici — Tutorial Completo',

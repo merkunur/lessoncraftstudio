@@ -194,7 +194,7 @@ const content: GuideContent = {
     heroImage: { src: '/samples/portuguese/sudoku/sudoku-de-imagens-1.webp', alt: 'Atividade de puzzle de sudoku a demonstrar conteúdo de livros de atividades KDP para geração de receitas' },
     samples: [
       { src: '/samples/portuguese/sudoku/sudoku-de-imagens-2.webp', alt: 'Puzzle de sudoku formatado para páginas interiores de livros de atividades KDP', caption: 'Puzzles de sudoku — uma categoria de livros de atividades consistentemente rentável na Amazon KDP com compradores fiéis recorrentes' },
-      { src: '/samples/portuguese/math worksheet/folha-de-matemática-1.webp', alt: 'Atividade de matemática formatada para páginas interiores de cadernos KDP', caption: 'Cadernos de matemática — categoria KDP de alta procura com oportunidades naturais de expansão do catálogo por nível escolar' },
+      { src: '/samples/portuguese/math%20worksheet/folha-de-matemática-1.webp', alt: 'Atividade de matemática formatada para páginas interiores de cadernos KDP', caption: 'Cadernos de matemática — categoria KDP de alta procura com oportunidades naturais de expansão do catálogo por nível escolar' },
       { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Puzzle de caça-palavras para diversificação do catálogo de livros de puzzles KDP', caption: 'Livros de caça-palavras — a maior categoria de livros de puzzles na Amazon com forte potencial de receitas em séries de múltiplos volumes' },
     ],
     youtubeId: 'bqVioFbkYbA',

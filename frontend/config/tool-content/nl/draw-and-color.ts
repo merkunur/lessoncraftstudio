@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/draw and color/teken%20en%20kleur%201.webp',
+      primary: '/samples/dutch/draw%20and%20color/teken-en-kleur-1.webp',
       primaryAlt: 'Rastertekenen werkblad met dubbel rastersysteem dat leeg oefenraster en gedeeltelijk onthuld hulpraster toont met zwart-wit contourthema',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/draw and color/teken%20en%20kleur%202.webp',
+        src: '/samples/dutch/draw%20and%20color/teken-en-kleur-2.webp',
         alt: 'Rasterteken werkblad met dieren zwart-wit contourthema bij 25% aanwijzingspercentage met oefenraster en hulpraster naast elkaar',
         caption: 'Dierenthema bij 25% aanwijzingen — gebruikers reproduceren de contour vanuit verspreide rasterhints en kleuren daarna in',
       },
       {
-        src: '/samples/dutch/draw and color/teken%20en%20kleur%203.webp',
+        src: '/samples/dutch/draw%20and%20color/teken-en-kleur-3.webp',
         alt: 'Rasterteken werkblad met horizontale symmetrie spiegelmodus met aanwijzingscellen onthuld aan de linkerhelft voor ruimtelijk redeneren oefening',
         caption: 'Horizontale symmetriemodus — aanwijzingscellen spiegelen links-rechts voor ruimtelijk redeneren en bilaterale symmetrie oefening',
       },
       {
-        src: '/samples/dutch/draw and color/teken%20en%20kleur%204.webp',
+        src: '/samples/dutch/draw%20and%20color/teken-en-kleur-4.webp',
         alt: 'Rasterteken werkblad met 10% aanwijzingspercentage dat minimale referentiecellen toont in een groot raster voor reproductie-uitdaging op expertniveau',
         caption: '10% aanwijzingsuitdaging op expertniveau — minimale referentiecellen vereisen precieze observatie en ruimtelijk redeneren',
       },

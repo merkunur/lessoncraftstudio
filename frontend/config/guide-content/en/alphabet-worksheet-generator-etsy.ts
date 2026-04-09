@@ -177,10 +177,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/alphabet train/alphabet-train-10.webp', alt: 'Alphabet train worksheet with colorful letter-themed train cars' },
+    heroImage: { src: '/samples/english/alphabet%20train/alphabet-train-10.webp', alt: 'Alphabet train worksheet with colorful letter-themed train cars' },
     samples: [
-      { src: '/samples/english/alphabet train/alphabet-train-11.webp', alt: 'Alphabet train cut-and-paste activity for preschool letter learning', caption: 'Alphabet train worksheet with themed images on each train car -- letter recognition through visual association' },
-      { src: '/samples/english/alphabet train/alphabet-train-10.webp', alt: 'Train-themed letter recognition worksheet ready for Etsy', caption: 'Professional 300 DPI output ready for Etsy digital download listing' },
+      { src: '/samples/english/alphabet%20train/alphabet-train-11.webp', alt: 'Alphabet train cut-and-paste activity for preschool letter learning', caption: 'Alphabet train worksheet with themed images on each train car -- letter recognition through visual association' },
+      { src: '/samples/english/alphabet%20train/alphabet-train-10.webp', alt: 'Train-themed letter recognition worksheet ready for Etsy', caption: 'Professional 300 DPI output ready for Etsy digital download listing' },
     ],
   },
 

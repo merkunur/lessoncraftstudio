@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/swedish/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Anpassad målarsida skapad på fri arbetsyta med färgglada tematiska illustrationer arrangerade i en originell komposition med dekorativ ram',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/coloring/coloring%20portrait%202.webp',
+        src: '/samples/swedish/coloring/coloring-portrait-2.webp',
         alt: 'Djurtema målarsida med flera illustrationer arrangerade på fri arbetsyta som visar kreativa layoutmöjligheter',
         caption: 'Djurtema målarsida — fri arbetsytelayout med flera illustrationer arrangerade i en unik komposition',
       },
       {
-        src: '/samples/swedish/coloring/coloring%20portrait%203.webp',
+        src: '/samples/swedish/coloring/coloring-portrait-3.webp',
         alt: 'produktlinjesfärdig målarsida med namnfält och skrivövningslinjer tillagda med ettklicks produktlinjeshjälpare',
         caption: 'produktlinjesaktivitetsblad — namnfält och skrivövningslinjer förvandlar målarsidor till strukturerade inlärningsaktiviteter',
       },
       {
-        src: '/samples/swedish/coloring/coloring%20landscape%201.webp',
+        src: '/samples/swedish/coloring/coloring-landscape-1.webp',
         alt: 'Gråskala målarsida export som visar bläckvänlig konvertering från färgglad komposition för KDP-interiörer och volymutskrift',
         caption: 'Gråskaleexport — färgglada kompositioner konverteras till bläckvänliga målarsidor för KDP-interiörer och bulkutskrift',
       },

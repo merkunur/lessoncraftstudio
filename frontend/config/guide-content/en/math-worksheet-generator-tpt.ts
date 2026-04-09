@@ -182,9 +182,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/math-worksheet-10.webp', alt: 'Math worksheet generated for TPT listing showing themed problems with answer key' },
+    heroImage: { src: '/samples/english/math%20worksheet/math-worksheet-10.webp', alt: 'Math worksheet generated for TPT listing showing themed problems with answer key' },
     samples: [
-      { src: '/samples/english/math worksheet/math-worksheet-11.webp', alt: 'Mixed operations math worksheet with themed images ready for TPT', caption: 'A themed math worksheet with professional formatting, multiple operations, and automatic answer key -- ready for TPT listing' },
+      { src: '/samples/english/math%20worksheet/math-worksheet-11.webp', alt: 'Mixed operations math worksheet with themed images ready for TPT', caption: 'A themed math worksheet with professional formatting, multiple operations, and automatic answer key -- ready for TPT listing' },
       { src: '/samples/english/addition/addition-fun-10.webp', alt: 'Addition worksheet for TPT with clean layout and answer key', caption: 'Grade-specific addition worksheet with 300 DPI output quality and themed illustrations' },
     ],
     youtubeId: '-JIawojGNr0',

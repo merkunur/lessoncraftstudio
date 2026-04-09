@@ -221,12 +221,12 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/drawing%20lines/kurva%201.webp',
+        src: '/samples/swedish/drawing%20lines/kurva-1.webp',
         alt: 'Linjespårnings arbetsblad med kurvmall som kopplar samman matchade djurbildpar i liggande orientering',
         caption: 'Kurvmall — flytande linjevägar med 4 färgglada bildpar i liggande orientering',
       },
       {
-        src: '/samples/swedish/drawing%20lines/diagonal%201.webp',
+        src: '/samples/swedish/drawing%20lines/diagonal-1.webp',
         alt: 'Linjespårnings arbetsblad med diagonal mall som kopplar samman fem bildpar i stående orientering',
         caption: 'Diagonal mall — vinklade linjer med 5 bildpar för korsande kroppskordineringsövning',
       },

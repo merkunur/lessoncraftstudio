@@ -210,17 +210,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/dutch/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Kleurplaat werkblad met zwart-wit contourafbeelding klaar voor inkleuren',
     },
     sampleGallery: [
-      { src: '/samples/dutch/big small/groot%20of%20klein%201.webp', alt: 'Groottevergelijking werkblad met thematische afbeeldingen voor het omcirkelen van de grootste en kleinste', caption: 'Groot & Klein Werkblad' },
-      { src: '/samples/dutch/pattern train/patroontje%201.webp', alt: 'Treinwagon patroonreeks werkblad met ontbrekend patroonitem', caption: 'Patroontrein Werkblad' },
-      { src: '/samples/dutch/pattern worksheet/patroonpuzzels%201.webp', alt: 'Patronenherkenning werkblad met invul-reeksen', caption: 'Patronen Werkblad' },
-      { src: '/samples/dutch/draw and color/teken%20en%20kleur%201.webp', alt: 'Referentieafbeelding tekenwerkblad met raster voor het reproduceren van de afbeelding', caption: 'Rastertekenen Werkblad' },
-      { src: '/samples/dutch/drawing lines/lijnen%20tekenen%20oefenen%201.webp', alt: 'Lijntraceer werkblad met gekoppelde objecten en gebogen lijnpaden', caption: 'Lijnen Trekken Werkblad' },
-      { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat met zwart-wit contour geconverteerd vanuit thematische afbeelding', caption: 'Kleurplaat' },
-      { src: '/samples/dutch/chart%20count/plaatjesgrafiek%201.webp', alt: 'Staafdiagram telwerkblad met thematische afbeelding datapunten', caption: 'Telgrafiek Werkblad' },
+      { src: '/samples/dutch/big%20small/groot-of-klein-1.webp', alt: 'Groottevergelijking werkblad met thematische afbeeldingen voor het omcirkelen van de grootste en kleinste', caption: 'Groot & Klein Werkblad' },
+      { src: '/samples/dutch/pattern%20train/patroontje-1.webp', alt: 'Treinwagon patroonreeks werkblad met ontbrekend patroonitem', caption: 'Patroontrein Werkblad' },
+      { src: '/samples/dutch/pattern%20worksheet/patroonpuzzels-1.webp', alt: 'Patronenherkenning werkblad met invul-reeksen', caption: 'Patronen Werkblad' },
+      { src: '/samples/dutch/draw%20and%20color/teken-en-kleur-1.webp', alt: 'Referentieafbeelding tekenwerkblad met raster voor het reproduceren van de afbeelding', caption: 'Rastertekenen Werkblad' },
+      { src: '/samples/dutch/drawing%20lines/lijnen-tekenen-oefenen-1.webp', alt: 'Lijntraceer werkblad met gekoppelde objecten en gebogen lijnpaden', caption: 'Lijnen Trekken Werkblad' },
+      { src: '/samples/dutch/coloring/coloring-portrait-1.webp', alt: 'Kleurplaat met zwart-wit contour geconverteerd vanuit thematische afbeelding', caption: 'Kleurplaat' },
+      { src: '/samples/dutch/chart%20count/plaatjesgrafiek-1.webp', alt: 'Staafdiagram telwerkblad met thematische afbeelding datapunten', caption: 'Telgrafiek Werkblad' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Visueel Leren Pakket — Bekijk Alle 7 Generators in Actie',

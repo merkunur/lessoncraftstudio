@@ -216,12 +216,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Bingokort-arbeidsark som demonstrerer svært delbart utskriftsbart produktdesign' },
+    heroImage: { src: '/samples/norwegian/bingo/bildebingo-1.webp', alt: 'Bingokort-arbeidsark som demonstrerer svært delbart utskriftsbart produktdesign' },
     samples: [
-      { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Bingokort som viser arrangementsdrevet markedsføringspotensial for fester og butikker', caption: 'Bingo — Svært Delbart for Arrangementer og Høytider' },
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøkpuslespill som demonstrerer sterkt markedsplass-SEO-potensial', caption: 'Ordsøk — Mest Søkte Puslespilltype' },
-      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside som viser visuell appell for Pinterest-markedsføring', caption: 'Fargelegging — Pinterest-klar Visuelt Innhold' },
-      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Koblingsarbeidsark som viser temabasert sesongmarkedsføringsallsidighet', caption: 'Kobling — Allsidig Sesongmarkedsføring' },
+      { src: '/samples/norwegian/bingo/bildebingo-1.webp', alt: 'Bingokort som viser arrangementsdrevet markedsføringspotensial for fester og butikker', caption: 'Bingo — Svært Delbart for Arrangementer og Høytider' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøkpuslespill som demonstrerer sterkt markedsplass-SEO-potensial', caption: 'Ordsøk — Mest Søkte Puslespilltype' },
+      { src: '/samples/norwegian/coloring/coloring-portrait-1.webp', alt: 'Fargeleggingsside som viser visuell appell for Pinterest-markedsføring', caption: 'Fargelegging — Pinterest-klar Visuelt Innhold' },
+      { src: '/samples/norwegian/matching/finn-parene-1.webp', alt: 'Koblingsarbeidsark som viser temabasert sesongmarkedsføringsallsidighet', caption: 'Kobling — Allsidig Sesongmarkedsføring' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Slik Lager du Bingokort for din Utskriftsbare Forretning — LessonCraftStudio Demo',

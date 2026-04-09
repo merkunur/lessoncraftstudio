@@ -220,8 +220,8 @@ const content: StartContent = {
     samples: [
       { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Scheda puzzle cerca parole con vocabolario sensibile alla lingua', caption: 'Cerca Parole — Migliore Demo Multilingue' },
       { src: '/samples/italian/crossword/cruciverba-con-immagini-1.webp', alt: 'Puzzle cruciverba con indizi e risposte localizzati', caption: 'Cruciverba — Puzzle Completamente Localizzati' },
-      { src: '/samples/italian/word scramble/lettere-mescolate-1.webp', alt: 'Scheda anagrammi con vocabolario adattato alla lingua', caption: 'Anagrammi — Output Sensibile alla Lingua' },
-      { src: '/samples/italian/alphabet train/Treno dell\'alfabeto-1.webp', alt: 'Scheda treno dell\'alfabeto con set di lettere specifici per lingua', caption: 'Treno dell\'Alfabeto — Set di Lettere Adattati' },
+      { src: '/samples/italian/word%20scramble/lettere-mescolate-1.webp', alt: 'Scheda anagrammi con vocabolario adattato alla lingua', caption: 'Anagrammi — Output Sensibile alla Lingua' },
+      { src: '/samples/italian/alphabet%20train/treno-dell\'alfabeto-1.webp', alt: 'Scheda treno dell\'alfabeto con set di lettere specifici per lingua', caption: 'Treno dell\'Alfabeto — Set di Lettere Adattati' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Schede Cerca Parole in Più Lingue — Demo LessonCraftStudio',

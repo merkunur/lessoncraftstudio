@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekpuzzel met thematische beeldaanwijzingen die woordenschatwoorden verborgen in een letterraster tonen' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekpuzzel met thematische beeldaanwijzingen die woordenschatwoorden verborgen in een letterraster tonen' },
     samples: [
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekpuzzel met dierenthema beeldaanwijzingen voor kinderen', caption: 'Thematische woordzoekpuzzel gemaakt met Woordenschatmodus met dieren beeldaanwijzingen en instelbare rastergrootte' },
-      { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: 'Kruiswoordpuzzel met beeldaanwijzingen als complementair product', caption: 'Kruiswoordpuzzels combineren perfect met woordzoekers voor uitgebreide woordpuzzelbundels' },
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optelwerkblad als voorbeeld van productlijnuitbreiding', caption: 'Breid je catalogus uit met rekenwerkbladen die dezelfde thematische beeldbibliotheek gebruiken' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekpuzzel met dierenthema beeldaanwijzingen voor kinderen', caption: 'Thematische woordzoekpuzzel gemaakt met Woordenschatmodus met dieren beeldaanwijzingen en instelbare rastergrootte' },
+      { src: '/samples/dutch/crossword/plaatjes-kruiswoord-1.webp', alt: 'Kruiswoordpuzzel met beeldaanwijzingen als complementair product', caption: 'Kruiswoordpuzzels combineren perfect met woordzoekers voor uitgebreide woordpuzzelbundels' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optelwerkblad als voorbeeld van productlijnuitbreiding', caption: 'Breid je catalogus uit met rekenwerkbladen die dezelfde thematische beeldbibliotheek gebruiken' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Woordzoekpuzzels Maken — Complete Handleiding',

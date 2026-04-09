@@ -207,15 +207,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/matching/finn%20parene%201.webp',
+      primary: '/samples/norwegian/matching/finn-parene-1.webp',
       primaryAlt: 'Koblingsarbeidsark med tematiske bilder som viser parkoblingsøvelse',
     },
     sampleGallery: [
-      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Finn Parene — norsk eksempel', caption: 'Finn Parene' },
-      { src: '/samples/norwegian/grid%20match/rutenettspuslespill%201.webp', alt: 'Rutenettspuslespill — norsk eksempel', caption: 'Rutenettspuslespill' },
-      { src: '/samples/norwegian/shadow%20match/fullf%c3%b8r%20bildene%201.webp', alt: 'Skyggematching — norsk eksempel', caption: 'Skyggematching' },
-      { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Bildebingo — norsk eksempel', caption: 'Bildebingo' },
-      { src: '/samples/norwegian/picture%20sort/sorter%20bilder%201.webp', alt: 'Sorter Bilder — norsk eksempel', caption: 'Sorter Bilder' },
+      { src: '/samples/norwegian/matching/finn-parene-1.webp', alt: 'Finn Parene — norsk eksempel', caption: 'Finn Parene' },
+      { src: '/samples/norwegian/grid%20match/rutenettspuslespill-1.webp', alt: 'Rutenettspuslespill — norsk eksempel', caption: 'Rutenettspuslespill' },
+      { src: '/samples/norwegian/shadow%20match/fullfør-bildene-1.webp', alt: 'Skyggematching — norsk eksempel', caption: 'Skyggematching' },
+      { src: '/samples/norwegian/bingo/bildebingo-1.webp', alt: 'Bildebingo — norsk eksempel', caption: 'Bildebingo' },
+      { src: '/samples/norwegian/picture%20sort/sorter-bilder-1.webp', alt: 'Sorter Bilder — norsk eksempel', caption: 'Sorter Bilder' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Kobling & Sortering-pakke — Se alle 5 generatorer i aksjon',
@@ -226,7 +226,7 @@ const content: BundleContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Okse — tematisk pedagogisk bilde', caption: 'Okse' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalv — tematisk pedagogisk bilde', caption: 'Kalv' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Katt — tematisk pedagogisk bilde', caption: 'Katt' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Katt 2 — tematisk pedagogisk bilde', caption: 'Katt 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Katt 2 — tematisk pedagogisk bilde', caption: 'Katt 2' },
     { src: '/image-library/farm%20animals/chick.webp', alt: 'Kylling — tematisk pedagogisk bilde', caption: 'Kylling' },
     { src: '/image-library/farm%20animals/chicken.webp', alt: 'Høne — tematisk pedagogisk bilde', caption: 'Høne' },
     { src: '/image-library/farm%20animals/cow.webp', alt: 'Ku — tematisk pedagogisk bilde', caption: 'Ku' },

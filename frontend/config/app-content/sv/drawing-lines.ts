@@ -273,17 +273,17 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/drawing%20lines/kurva%201.webp',
+      primary: '/samples/swedish/drawing%20lines/kurva-1.webp',
       primaryAlt: 'Linjespårningsarbetsblad med kurvad linjemall som kopplar samman matchande djurbildpar i liggande format',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/drawing%20lines/kurva%201.webp',
+        src: '/samples/swedish/drawing%20lines/kurva-1.webp',
         alt: 'Linjespårningsarbetsblad med kurvmall som kopplar samman matchande bildpar i liggande orientering',
         caption: 'Kurvmall — användarna spårar flödande kurvade linjer för att koppla samman matchande bildpar',
       },
       {
-        src: '/samples/swedish/drawing%20lines/diagonal%201.webp',
+        src: '/samples/swedish/drawing%20lines/diagonal-1.webp',
         alt: 'Linjespårningsarbetsblad med diagonalmall som kopplar samman fem bildpar i stående orientering',
         caption: 'Diagonalmall — vinklade linjer med 5 bildpar för korssidig koordinationsövning',
       },

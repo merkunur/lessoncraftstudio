@@ -186,7 +186,7 @@ const content: GuideContent = {
         caption: 'As sopas de letras demonstram a importância da gestão correta de caracteres entre idiomas',
       },
       {
-        src: '/samples/portuguese/alphabet train/comboio-do-alfabeto-1.webp',
+        src: '/samples/portuguese/alphabet%20train/comboio-do-alfabeto-1.webp',
         alt: 'Atividade de comboio do alfabeto mostrando a geração de letras e caracteres específicos de cada idioma',
         caption: 'As atividades de alfabeto requerem caracteres específicos do idioma incluindo tremas e letras acentuadas',
       },

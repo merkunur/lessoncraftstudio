@@ -176,9 +176,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/math-worksheet-10.webp', alt: 'Math worksheet with picture-based addition problems for KDP workbook' },
+    heroImage: { src: '/samples/english/math%20worksheet/math-worksheet-10.webp', alt: 'Math worksheet with picture-based addition problems for KDP workbook' },
     samples: [
-      { src: '/samples/english/math worksheet/math-worksheet-11.webp', alt: 'Picture math worksheet ready for KDP manuscript', caption: 'A themed math worksheet with visual counting problems -- print-ready for KDP book interiors' },
+      { src: '/samples/english/math%20worksheet/math-worksheet-11.webp', alt: 'Picture math worksheet ready for KDP manuscript', caption: 'A themed math worksheet with visual counting problems -- print-ready for KDP book interiors' },
       { src: '/samples/english/addition/addition-fun-10.webp', alt: 'Addition worksheet with answer key for KDP workbook', caption: 'Addition practice worksheet with automatic answer key generation' },
     ],
   },

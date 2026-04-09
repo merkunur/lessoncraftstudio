@@ -268,22 +268,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/big%20small/2%20identiska%20bilder.webp',
+      primary: '/samples/swedish/big%20small/2-identiska-bilder.webp',
       primaryAlt: 'Stort och litet storleksjämförelsearbetsblad med tematiska bilder i olika storlekar som visar ringa in den stora övning',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/big%20small/2%20olika%20bilder.webp',
+        src: '/samples/swedish/big%20small/2-olika-bilder.webp',
         alt: 'Storleksjämförelsearbetsblad med olika bilder-läge som visar distinkta objekt i olika storlekar',
         caption: 'Olika Bilder-läge — användarna jämför distinkta objekt för relativ storleksbedömning',
       },
       {
-        src: '/samples/swedish/big%20small/3%20identiska%20bilder.webp',
+        src: '/samples/swedish/big%20small/3-identiska-bilder.webp',
         alt: 'Storleksjämförelsearbetsblad med tre identiska bilder i olika storlekar för medelstor-identifiering',
         caption: '3 Identiska Bilder — tre kopior i olika storlekar möjliggör ringa in den medelstora övning',
       },
       {
-        src: '/samples/swedish/big%20small/3%20identiska%20bilder%20answer-key.webp',
+        src: '/samples/swedish/big%20small/3-identiska-bilder-answer-key.webp',
         alt: 'Storleksjämförelse facit med markerade korrekta svar och inringade bilder',
         caption: 'Facit — korrekta svar markerade och inringade för omedelbar visuell verifiering',
       },

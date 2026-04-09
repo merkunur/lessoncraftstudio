@@ -267,22 +267,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/missing pieces/pezzi-mancanti-1.webp',
+      primary: '/samples/italian/missing%20pieces/pezzi-mancanti-1.webp',
       primaryAlt: 'Scheda di puzzle pezzi mancanti con lacune ritagliate da un\'immagine e opzioni di soluzione numerate inclusi distrattori',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/missing pieces/pezzi-mancanti-2.webp',
+        src: '/samples/italian/missing%20pieces/pezzi-mancanti-2.webp',
         alt: 'Puzzle di pezzi mancanti con lacune quadrate ritagliate da un\'illustrazione colorata',
         caption: 'Forma di pezzo quadrata — tagli geometrici puliti per identificazione visiva chiara',
       },
       {
-        src: '/samples/italian/missing pieces/pezzi-mancanti-3.webp',
+        src: '/samples/italian/missing%20pieces/pezzi-mancanti-3.webp',
         alt: 'Puzzle di pezzi mancanti con lacune circolari e opzioni di soluzione numerate',
         caption: 'Forma di pezzo circolare — tagli arrotondati con opzioni distrattori per maggiore sfida',
       },
       {
-        src: '/samples/italian/missing pieces/pezzi-mancanti-1-answer-key.webp',
+        src: '/samples/italian/missing%20pieces/pezzi-mancanti-1-answer-key.webp',
         alt: 'Foglio risposte del puzzle di pezzi mancanti con numeri evidenziati in giallo all\'interno di ogni lacuna',
         caption: 'Foglio risposte automatico — etichette gialle mostrano l\'opzione corretta per ogni lacuna',
       },

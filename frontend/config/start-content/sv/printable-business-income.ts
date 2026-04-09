@@ -217,9 +217,9 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/math-worksheet-10.webp', alt: 'Mattearbetsblad som visar professionell outputkvalitet från arbetsbladsgenratorer' },
+    heroImage: { src: '/samples/english/math%20worksheet/math-worksheet-10.webp', alt: 'Mattearbetsblad som visar professionell outputkvalitet från arbetsbladsgenratorer' },
     samples: [
-      { src: '/samples/english/math worksheet/math-worksheet-10.webp', alt: 'Mattearbetsblad med professionell layout och 300 DPI utskriftskvalitet', caption: 'Mattearbetsblad — mångsidig intäktsbyggare' },
+      { src: '/samples/english/math%20worksheet/math-worksheet-10.webp', alt: 'Mattearbetsblad med professionell layout och 300 DPI utskriftskvalitet', caption: 'Mattearbetsblad — mångsidig intäktsbyggare' },
       { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsökspussel för försäljning på Etsy och Amazon KDP', caption: 'Ordsökning — toppsäljande pusselkategori' },
       { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Målarbilder för publicering av KDP-aktivitetsböcker', caption: 'Färgläggning — högvolymkategori på KDP' },
       { src: '/samples/english/sudoku/sudoku-worksheet.webp', alt: 'Sudoku-pussel med universell internationell attraktionskraft', caption: 'Sudoku — universell marknadsattraktionskraft' },

@@ -248,22 +248,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/math%20puzzle/matematiikkapulmat%201.webp',
+      primary: '/samples/finnish/math%20puzzle/matematiikkapulmat-1.webp',
       primaryAlt: 'Matikkapulmapeli tyoarkki varikkäällä kuvalla jaettuna ruudukkopalasiin, joissa jokaisessa on yhteenlaskutehtava',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/math%20puzzle/matematiikkapulmat%202.webp',
+        src: '/samples/finnish/math%20puzzle/matematiikkapulmat-2.webp',
         alt: 'Matikkapulmapeli tyoarkki 3x3 yhteenlaskuruudukolla eläinteemalla',
         caption: 'Yhteenlaskutila — 3x3 ruudukko 9 palapelin palasella ja sekoitetuilla vastauksilla alla',
       },
       {
-        src: '/samples/finnish/math%20puzzle/matematiikkapulmat%203.webp',
+        src: '/samples/finnish/math%20puzzle/matematiikkapulmat-3.webp',
         alt: 'Matikkapulmapeli tyoarkki 2x3 vahennyslasku ruudukolla luontoteemalla',
         caption: 'Vahennyslaskutila — 2x3 ruudukko nopeaan 6 palan pulmahaasteeseen',
       },
       {
-        src: '/samples/finnish/math%20puzzle/matematiikkapulmat%201%20answer-key.webp',
+        src: '/samples/finnish/math%20puzzle/matematiikkapulmat-1-answer-key.webp',
         alt: 'Matikkapulmapeli tyoarkki 4x4 sekalaskutoimitusruudukolla ajoneuvoteemalla',
         caption: 'Sekatila — 4x4 ruudukko 16 palasella edistyneeseen matematiikkaharjoitteluun',
       },

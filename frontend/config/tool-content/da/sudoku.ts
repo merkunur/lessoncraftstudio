@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/sudoku/billede-sudoku%201.webp',
+      primary: '/samples/danish/sudoku/billede-sudoku-1.webp',
       primaryAlt: 'Gratis sudoku generator med 4×4 billedgitter og tre sværhedsgrader — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/sudoku/billede-sudoku%201.webp',
+        src: '/samples/danish/sudoku/billede-sudoku-1.webp',
         alt: 'Let sværheds billedsudoku med 4 tomme celler og 12 udfyldte celler i et 4×4 gitter med alternerende blokfarver',
         caption: 'Let sværhed — 4 tomme celler for begyndere, der lærer række-og-kolonne-logik',
       },
       {
-        src: '/samples/danish/sudoku/billede-sudoku%202.webp',
+        src: '/samples/danish/sudoku/billede-sudoku-2.webp',
         alt: 'Svær sværheds billedsudoku med 8 tomme celler og 8 udfyldte celler i et 4×4 gitter, der kræver flertrins ræsonnement',
         caption: 'Svær sværhed — 8 tomme celler (halvdelen af gitteret) der kræver flertrins logisk ræsonnement',
       },
       {
-        src: '/samples/danish/sudoku/billede-sudoku%203.webp',
+        src: '/samples/danish/sudoku/billede-sudoku-3.webp',
         alt: 'Billedsudoku facit, der viser komplet udfyldt 4×4 gitter med alle 16 celler korrekt udfyldt',
         caption: 'Automatisk genereret facit — komplet udfyldt gitter med alle billeder korrekt placeret',
       },

@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Additionsarbetsblad som visar bildbaserade matteuppgifter lämpliga för Amazon KDP aktivitetsbok-interiörsidor' },
+    heroImage: { src: '/samples/swedish/addition/addition-övning.webp', alt: 'Additionsarbetsblad som visar bildbaserade matteuppgifter lämpliga för Amazon KDP aktivitetsbok-interiörsidor' },
     samples: [
-      { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Djurtematiserat additionsarbetsblad formaterat för KDP matteaktivitetsbok', caption: 'Additionsarbetsblad med djurtema — bildbaserade matteuppgifter som skapar engagerande KDP-boksidor' },
-      { src: '/samples/swedish/subtraction/rolig%20subtraktio%201.webp', alt: 'Subtraktionsarbetsblad för fleroperation KDP mattearbetsbok', caption: 'Subtraktionsarbetsblad — paras med additionssidor för heltäckande matteaktivitetsböcker på Amazon' },
-      { src: '/samples/swedish/math puzzle/mattepussel%201.webp', alt: 'Mattepussel rutnätsarbetsblad som lägger till variation i KDP-aktivitetsböcker', caption: 'Mattepussel rutnät — lägger till engagerande variation bortom standardövningssidor' },
+      { src: '/samples/swedish/addition/addition-övning.webp', alt: 'Djurtematiserat additionsarbetsblad formaterat för KDP matteaktivitetsbok', caption: 'Additionsarbetsblad med djurtema — bildbaserade matteuppgifter som skapar engagerande KDP-boksidor' },
+      { src: '/samples/swedish/subtraction/rolig-subtraktio-1.webp', alt: 'Subtraktionsarbetsblad för fleroperation KDP mattearbetsbok', caption: 'Subtraktionsarbetsblad — paras med additionssidor för heltäckande matteaktivitetsböcker på Amazon' },
+      { src: '/samples/swedish/math%20puzzle/mattepussel-1.webp', alt: 'Mattepussel rutnätsarbetsblad som lägger till variation i KDP-aktivitetsböcker', caption: 'Mattepussel rutnät — lägger till engagerande variation bortom standardövningssidor' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hur du skapar mattearbetsblad för Amazon KDP aktivitetsböcker — steg-för-steg-guide',

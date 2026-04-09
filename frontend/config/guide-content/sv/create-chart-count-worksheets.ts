@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/chart%20count/Bilddiagram%201.jpeg', alt: 'Bilddiagram-arbetsblad med utspritt 4×5 bildrutnät och stapeldiagram för räknings- och diagramövning' },
+    heroImage: { src: '/samples/swedish/chart%20count/bilddiagram-1.jpeg', alt: 'Bilddiagram-arbetsblad med utspritt 4×5 bildrutnät och stapeldiagram för räknings- och diagramövning' },
     samples: [
-      { src: '/samples/swedish/chart%20count/Bilddiagram%201.jpeg', alt: 'Djurtema bilddiagram-arbetsblad med 20 utspridda djurikoner och 6-kolumns stapeldiagram', caption: 'Djurtema bilddiagram — 6 djurtyper utspridda över rutnätet med stapeldiagram nedanför för datarepresentationsövning' },
-      { src: '/samples/swedish/chart%20count/Bilddiagram%20answer_key.jpeg', alt: 'Bilddiagram facit med gulmarkerade celler som visar korrekta antal', caption: 'Autogenererat facit — gulfyllda celler (#FFC857) visar korrekt antal för varje bildtyp' },
-      { src: '/samples/swedish/chart%20count/Bilddiagram%202.jpeg', alt: 'Bilddiagram-arbetsblad med dekorativ bakgrund och ram för professionell presentation', caption: 'Dekorerat bilddiagram — bakgrunds- och ramteman med oberoende opacitetskontroller' },
+      { src: '/samples/swedish/chart%20count/bilddiagram-1.jpeg', alt: 'Djurtema bilddiagram-arbetsblad med 20 utspridda djurikoner och 6-kolumns stapeldiagram', caption: 'Djurtema bilddiagram — 6 djurtyper utspridda över rutnätet med stapeldiagram nedanför för datarepresentationsövning' },
+      { src: '/samples/swedish/chart%20count/bilddiagram-answer-key.jpeg', alt: 'Bilddiagram facit med gulmarkerade celler som visar korrekta antal', caption: 'Autogenererat facit — gulfyllda celler (#FFC857) visar korrekt antal för varje bildtyp' },
+      { src: '/samples/swedish/chart%20count/bilddiagram-2.jpeg', alt: 'Bilddiagram-arbetsblad med dekorativ bakgrund och ram för professionell presentation', caption: 'Dekorerat bilddiagram — bakgrunds- och ramteman med oberoende opacitetskontroller' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Hur du skapar bilddiagram-arbetsblad med automatiskt facit — Steg-för-steg-guide',

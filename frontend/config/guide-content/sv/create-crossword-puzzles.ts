@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/crossword/Bildkorsord%201.jpeg', alt: 'Korsordspussel för barn med bildledtrådar som visar tematisk vokabulär i ett korsande rutnät' },
+    heroImage: { src: '/samples/swedish/crossword/bildkorsord-1.jpeg', alt: 'Korsordspussel för barn med bildledtrådar som visar tematisk vokabulär i ett korsande rutnät' },
     samples: [
-      { src: '/samples/swedish/crossword/Bildkorsord%201.jpeg', alt: 'Barnkorsord med djurtema som visar numrerat rutnät och bildledtrådar', caption: 'Djurtematiserat korsordspussel med bildledtrådar för förskoleklass och årskurs 1 vokabulärövning' },
-      { src: '/samples/swedish/crossword/Bildkorsord%202.jpeg', alt: 'Korsordspussel facit som visar ifyllt rutnät med alla bokstäver', caption: 'Automatiskt facit genereras tillsammans med varje korsordspussel' },
+      { src: '/samples/swedish/crossword/bildkorsord-1.jpeg', alt: 'Barnkorsord med djurtema som visar numrerat rutnät och bildledtrådar', caption: 'Djurtematiserat korsordspussel med bildledtrådar för förskoleklass och årskurs 1 vokabulärövning' },
+      { src: '/samples/swedish/crossword/bildkorsord-2.jpeg', alt: 'Korsordspussel facit som visar ifyllt rutnät med alla bokstäver', caption: 'Automatiskt facit genereras tillsammans med varje korsordspussel' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'Hur du skapar korsordspussel för barn — Komplett guide',

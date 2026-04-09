@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/chart count/bilddiagramm-1.webp',
+      primary: '/samples/german/chart%20count/bilddiagramm-1.webp',
       primaryAlt: 'Bilddiagramm-Arbeitsblatt mit verteiltem Bildraster und Balkendiagramm zum Zählen und grafischen Darstellen von 6 Bildtypen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/chart count/bilddiagramm-2.webp',
+        src: '/samples/german/chart%20count/bilddiagramm-2.webp',
         alt: 'Tierthemen-Bilddiagramm-Arbeitsblatt mit 20 verteilten Tiersymbolen und leerem Balkendiagramm',
         caption: 'Tierthemen-Bilddiagramm — 6 Tierarten verteilt über das Raster mit Balkendiagramm darunter',
       },
       {
-        src: '/samples/german/chart count/bilddiagramm-3.webp',
+        src: '/samples/german/chart%20count/bilddiagramm-3.webp',
         alt: 'Bilddiagramm-Lösungsschlüssel mit gelb hervorgehobenen Zellen, die die korrekten Zählwerte für jeden Bildtyp anzeigen',
         caption: 'Automatischer Lösungsschlüssel — gelb gefüllte Zellen zeigen den korrekten Zählwert für jeden Bildtyp',
       },
       {
-        src: '/samples/german/chart count/answer-key.webp',
+        src: '/samples/german/chart%20count/answer-key.webp',
         alt: 'Bilddiagramm-Arbeitsblatt mit dekorativem Hintergrundthema und Rahmen',
         caption: 'Dekoriertes Bilddiagramm — Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern',
       },

@@ -244,22 +244,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%201.webp',
+      primary: '/samples/danish/find%20objects/find-de-skjulte-objekter-1.webp',
       primaryAlt: 'Find-og-markér opgave til print med gemte genstande spredt over søgebillede og legende med genstande at finde',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%201.webp',
+        src: '/samples/danish/find%20objects/find-de-skjulte-objekter-1.webp',
         alt: 'Observationsleg opgave med gemte genstande spredt over søgebillede til børnehaveklasse',
         caption: 'Søgnings-tilstand — børnene finder og cirkler gemte genstande i søgebilledet',
       },
       {
-        src: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%202.webp',
+        src: '/samples/danish/find%20objects/find-de-skjulte-objekter-2.webp',
         alt: 'Find-og-markér opgave med tematisk søgebillede og varieret antal genstande til indskoling',
         caption: 'Tematisk søgebillede — 104 temaer giver unikke observationsudfordringer',
       },
       {
-        src: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%203.webp',
+        src: '/samples/danish/find%20objects/find-de-skjulte-objekter-3.webp',
         alt: 'Facitliste til find-og-markér opgave med røde cirkler rundt gemte genstande',
         caption: 'Automatisk facit — røde cirkler markerer gemte og uparrede genstande',
       },

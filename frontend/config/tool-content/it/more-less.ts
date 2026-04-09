@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/more less/più-meno-1.webp',
+      primary: '/samples/italian/more%20less/più-meno-1.webp',
       primaryAlt: 'Scheda maggiore minore con gruppi di confronto immagini che mostrano esercizi di maggiore di e minore di',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/more less/più-meno-1.webp',
+        src: '/samples/italian/more%20less/più-meno-1.webp',
         alt: 'Scheda confronto Immagine vs Immagine con tema animali che mostra due gruppi di figure affiancati',
         caption: 'Modalità Immagine vs Immagine con tema animali',
       },
       {
-        src: '/samples/italian/more less/più-meno-2.webp',
+        src: '/samples/italian/more%20less/più-meno-2.webp',
         alt: 'Scheda confronto Immagine vs Numero che collega il conteggio visivo con i numeri scritti',
         caption: 'Modalità Immagine vs Numero — collega figure e numeri',
       },
       {
-        src: '/samples/italian/more less/più-meno-3.webp',
+        src: '/samples/italian/more%20less/più-meno-3.webp',
         alt: 'Scheda Spunta e Croce con immagini mischiate per negozificazione e confronto',
         caption: 'Spunta e Croce — modalità unica di negozificazione e confronto',
       },

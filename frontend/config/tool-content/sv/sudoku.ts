@@ -225,17 +225,17 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/sudoku/sudoku-l%c3%a4tt.webp',
+        src: '/samples/swedish/sudoku/sudoku-lätt.webp',
         alt: 'Lätt svårighet bildsudoku med 4 tomma celler och 12 fyllda celler i ett 4×4 rutnät med alternerande blockfärger',
         caption: 'Lätt svårighet — 4 tomma celler för nybörjare som lär sig rad-och-kolumn-logik',
       },
       {
-        src: '/samples/swedish/sudoku/sudoku-sv%c3%a5r.webp',
+        src: '/samples/swedish/sudoku/sudoku-svår.webp',
         alt: 'Svår svårighet bildsudoku med 8 tomma celler och 8 fyllda celler i ett 4×4 rutnät som kräver flerstegs resonemang',
         caption: 'Svår svårighet — 8 tomma celler (halva rutnätet) som kräver flerstegs logiskt resonemang',
       },
       {
-        src: '/samples/swedish/sudoku/sudoku-l%c3%a4tt%20answer-key.webp',
+        src: '/samples/swedish/sudoku/sudoku-lätt-answer-key.webp',
         alt: 'Bildsudoku facit som visar komplett fyllt 4×4 rutnät med alla 16 celler korrekt ifyllda',
         caption: 'Automatiskt genererat facit — komplett fyllt rutnät med alla bilder korrekt placerade',
       },

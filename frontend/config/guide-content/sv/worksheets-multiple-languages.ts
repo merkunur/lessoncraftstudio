@@ -176,17 +176,17 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+      src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
       alt: 'Ordsökningsarbetsblad som demonstrerar flerspråkig innehållsgenerering med korrekt teckenhantering',
     },
     samples: [
       {
-        src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+        src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
         alt: 'Ordsökningspussel som visar ordförrådsbaserat innehåll som kräver korrekt flerspråkigt teckenstöd',
         caption: 'Ordsökningsarbetsblad demonstrerar vikten av korrekt teckenhantering över språk',
       },
       {
-        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
+        src: '/samples/swedish/addition/addition-övning.webp',
         alt: 'Mattearbetsblad som visar universellt innehåll med språkspecifika instruktioner',
         caption: 'Mattearbetsblad kräver minimal språkanpassning — siffror är universella medan bara instruktioner översätts',
       },

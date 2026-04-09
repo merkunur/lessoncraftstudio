@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+      src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
       alt: 'Professionellt ordsökningsarbetsblad som demonstrerar kommersiellt licensierad utskriftsbar utdata',
     },
     samples: [
       {
-        src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+        src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
         alt: 'Ordsökningspussel skapat med kommersiell licens för multiplattformsförsäljning',
         caption: 'Ordsökningspussel skapade under kommersiell licens kan säljas på valfri plattform',
       },
       {
-        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
+        src: '/samples/swedish/addition/addition-övning.webp',
         alt: 'Additionsarbetsblad genererat med royaltyfri kommersiell licensiering',
         caption: 'En kommersiell licens täcker obegränsad additionsarbetsbladgenerering utan per-produktavgifter',
       },
       {
-        src: '/samples/swedish/coloring/coloring%20portrait%201.webp',
+        src: '/samples/swedish/coloring/coloring-portrait-1.webp',
         alt: 'Målarsida med korrekt licensierad tematisk bildmaterial för kommersiell försäljning',
         caption: 'Kommersiella licenser som inkluderar inbäddad bildmaterial förenklar efterlevnad för visuella produkter',
       },

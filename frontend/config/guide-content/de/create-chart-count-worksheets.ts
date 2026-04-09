@@ -186,11 +186,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/chart count/worksheet.webp', alt: 'Bilddiagramm-Arbeitsblatt mit verteiltem 4×5-Bildraster mit 20 Symbolen aus 6 Typen und Balkendiagramm zum Zählen und Darstellen von Daten' },
+    heroImage: { src: '/samples/german/chart%20count/worksheet.webp', alt: 'Bilddiagramm-Arbeitsblatt mit verteiltem 4×5-Bildraster mit 20 Symbolen aus 6 Typen und Balkendiagramm zum Zählen und Darstellen von Daten' },
     samples: [
-      { src: '/samples/german/chart count/bilddiagramm-1.webp', alt: 'Tierthema-Bilddiagramm-Arbeitsblatt mit 20 verteilten Tiersymbolen in einem 4×5-Raster und 6-Spalten-Balkendiagramm für Zählübungen', caption: 'Tierthema-Bilddiagramm — 6 Tiertypen verteilt über das Raster mit Balkendiagramm darunter für Datendarstellungs-Übung' },
-      { src: '/samples/german/chart count/answer-key.webp', alt: 'Bilddiagramm-Lösungsschlüssel mit gelb hervorgehobenen Zellen, die korrekte Zählergebnisse für jeden der 6 Bildtypen zeigen', caption: 'Automatisch generierter Lösungsschlüssel — gelb gefüllte Zellen (#FFC857) zeigen das korrekte Zählergebnis für jeden Bildtyp' },
-      { src: '/samples/german/chart count/bilddiagramm-4.webp', alt: 'Bilddiagramm-Arbeitsblatt mit dekorativen Hintergrund- und Rahmenthemen für professionelle Marktplatz-Präsentation', caption: 'Dekoriertes Bilddiagramm — Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern für professionelles Styling' },
+      { src: '/samples/german/chart%20count/bilddiagramm-1.webp', alt: 'Tierthema-Bilddiagramm-Arbeitsblatt mit 20 verteilten Tiersymbolen in einem 4×5-Raster und 6-Spalten-Balkendiagramm für Zählübungen', caption: 'Tierthema-Bilddiagramm — 6 Tiertypen verteilt über das Raster mit Balkendiagramm darunter für Datendarstellungs-Übung' },
+      { src: '/samples/german/chart%20count/answer-key.webp', alt: 'Bilddiagramm-Lösungsschlüssel mit gelb hervorgehobenen Zellen, die korrekte Zählergebnisse für jeden der 6 Bildtypen zeigen', caption: 'Automatisch generierter Lösungsschlüssel — gelb gefüllte Zellen (#FFC857) zeigen das korrekte Zählergebnis für jeden Bildtyp' },
+      { src: '/samples/german/chart%20count/bilddiagramm-4.webp', alt: 'Bilddiagramm-Arbeitsblatt mit dekorativen Hintergrund- und Rahmenthemen für professionelle Marktplatz-Präsentation', caption: 'Dekoriertes Bilddiagramm — Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern für professionelles Styling' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Bilddiagramm-Arbeitsblätter erstellen mit automatischen Lösungsschlüsseln und verteilten Bildraster — Schritt-für-Schritt-Anleitung',

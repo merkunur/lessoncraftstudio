@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/portuguese/math worksheet/folha-de-matemática-1.webp',
+      src: '/samples/portuguese/math%20worksheet/folha-de-matemática-1.webp',
       alt: 'Atividade de matemática profissional demonstrando a criação rápida automatizada para eficiência de negócio de imprimíveis',
     },
     samples: [
       {
-        src: '/samples/portuguese/math worksheet/folha-de-matemática-2.webp',
+        src: '/samples/portuguese/math%20worksheet/folha-de-matemática-2.webp',
         alt: 'Atividade de matemática mostrando a qualidade de produção automatizada',
         caption: 'Os geradores de atividades automatizam o passo mais trabalhoso na produção de imprimíveis',
       },

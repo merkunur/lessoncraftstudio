@@ -196,14 +196,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/missing pieces/saknade%20bitar%201.webp',
+      primary: '/samples/swedish/missing%20pieces/saknade-bitar-1.webp',
       primaryAlt: 'Saknade bitar pusselarbetsblad med rutnätssegment borttagna för rumslig resonemangsutmaning',
     },
     sampleGallery: [
-      { src: '/samples/swedish/missing pieces/saknade%20bitar%201.webp', alt: 'Saknade bitar pussel med bildrutnätssegment borttagna', caption: 'Saknade Bitar Pussel' },
-      { src: '/samples/swedish/odd one out/hitta%20udda%20f%c3%a5geln%201.webp', alt: 'Hitta udda bilden arbetsblad med rader av liknande bilder och en annorlunda', caption: 'Hitta Udda Bilden Arbetsblad' },
-      { src: '/samples/swedish/sudoku/sudoku-l%c3%a4tt.webp', alt: '4x4 bildsudoku pussel med tematiska bilder istället för siffror', caption: 'Bildsudoku Pussel' },
-      { src: '/samples/swedish/picture path/bildv%c3%a4g%201.webp', alt: 'Bildväg labyrint med tematisk bildrutt genom rutnät', caption: 'Bildväg Labyrint' },
+      { src: '/samples/swedish/missing%20pieces/saknade-bitar-1.webp', alt: 'Saknade bitar pussel med bildrutnätssegment borttagna', caption: 'Saknade Bitar Pussel' },
+      { src: '/samples/swedish/odd%20one%20out/hitta-udda-fågeln-1.webp', alt: 'Hitta udda bilden arbetsblad med rader av liknande bilder och en annorlunda', caption: 'Hitta Udda Bilden Arbetsblad' },
+      { src: '/samples/swedish/sudoku/sudoku-lätt.webp', alt: '4x4 bildsudoku pussel med tematiska bilder istället för siffror', caption: 'Bildsudoku Pussel' },
+      { src: '/samples/swedish/picture%20path/bildväg-1.webp', alt: 'Bildväg labyrint med tematisk bildrutt genom rutnät', caption: 'Bildväg Labyrint' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Pussel & Logik-paket — Se alla 4 generatorer i aktion',

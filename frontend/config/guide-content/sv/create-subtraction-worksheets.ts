@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/subtraction/subtraktion%201.jpeg', alt: 'Subtraktionsarbetsblad med överkorsade tematiska bilder som visar ta-bort-övningar för barn' },
+    heroImage: { src: '/samples/swedish/subtraction/subtraktion-1.jpeg', alt: 'Subtraktionsarbetsblad med överkorsade tematiska bilder som visar ta-bort-övningar för barn' },
     samples: [
-      { src: '/samples/swedish/subtraction/subtraktion%201.jpeg', alt: 'Bildbaserat subtraktionsarbetsblad med överkorsade djur för förskoleklass', caption: 'Förskoleklass subtraktionsarbetsblad med Korsnings-övningsläge och tematiska bilder' },
-      { src: '/samples/swedish/subtraction/subtraktion%202.jpeg', alt: 'Subtraktionsarbetsblad med facit', caption: 'Automatiskt facit genereras tillsammans med varje subtraktionsarbetsblad' },
+      { src: '/samples/swedish/subtraction/subtraktion-1.jpeg', alt: 'Bildbaserat subtraktionsarbetsblad med överkorsade djur för förskoleklass', caption: 'Förskoleklass subtraktionsarbetsblad med Korsnings-övningsläge och tematiska bilder' },
+      { src: '/samples/swedish/subtraction/subtraktion-2.jpeg', alt: 'Subtraktionsarbetsblad med facit', caption: 'Automatiskt facit genereras tillsammans med varje subtraktionsarbetsblad' },
     ],
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'Hur du skapar subtraktionsarbetsblad — Komplett guide',

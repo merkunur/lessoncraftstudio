@@ -205,9 +205,9 @@ async function processWorksheetUpload(
       success: true,
       message: 'Worksheet uploaded and WebP variants generated successfully',
       paths: {
-        original: `/samples/${language}/${folderName}/sample-${slot}.webp`,
-        thumb: `/samples/${language}/${folderName}/sample-${slot}_thumb.webp`,
-        preview: `/samples/${language}/${folderName}/sample-${slot}_preview.webp`
+        original: `/samples/${language}/%24%7BfolderName%7D/sample-${slot}.webp`,
+        thumb: `/samples/${language}/%24%7BfolderName%7D/sample-${slot}-thumb.webp`,
+        preview: `/samples/${language}/%24%7BfolderName%7D/sample-${slot}-preview.webp`
       }
     };
   } catch (error) {
@@ -294,9 +294,9 @@ async function processAnswerUpload(
       success: true,
       message: 'Answer key uploaded and WebP variants generated successfully',
       paths: {
-        original: `/samples/${language}/${folderName}/sample-${slot}-answer.webp`,
-        thumb: `/samples/${language}/${folderName}/sample-${slot}-answer_thumb.webp`,
-        preview: `/samples/${language}/${folderName}/sample-${slot}-answer_preview.webp`
+        original: `/samples/${language}/%24%7BfolderName%7D/sample-${slot}-answer.webp`,
+        thumb: `/samples/${language}/%24%7BfolderName%7D/sample-${slot}-answer-thumb.webp`,
+        preview: `/samples/${language}/%24%7BfolderName%7D/sample-${slot}-answer-preview.webp`
       }
     };
   } catch (error) {

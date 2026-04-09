@@ -183,7 +183,7 @@ const content: GuideContent = {
         caption: 'Wortsuchrätsel-Arbeitsblätter demonstrieren die Bedeutung korrekter Zeichenbehandlung über Sprachen hinweg',
       },
       {
-        src: '/samples/german/alphabet train/worksheet.webp',
+        src: '/samples/german/alphabet%20train/worksheet.webp',
         alt: 'Alphabet-Zug Arbeitsblatt mit sprachspezifischer Buchstaben- und Zeichengenerierung',
         caption: 'Alphabet-Arbeitsblätter erfordern sprachspezifische Zeichen einschließlich Umlauten und akzentuierten Buchstaben',
       },

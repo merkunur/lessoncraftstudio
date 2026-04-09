@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%203.webp', alt: 'Rutenett-tegnearbeidsark med dobbelt rutenettsystem som viser tomt ovelsesrutenett og delvis avslort ledetradsrutenett med svart-hvitt konturtema' },
+    heroImage: { src: '/samples/norwegian/draw%20and%20color/tegn-og-fargelegg-3.webp', alt: 'Rutenett-tegnearbeidsark med dobbelt rutenettsystem som viser tomt ovelsesrutenett og delvis avslort ledetradsrutenett med svart-hvitt konturtema' },
     samples: [
-      { src: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%203.webp', alt: 'Rutenett-tegnearbeidsark som viser dobbelt-rutenettsystem med ovelsesrutenett og ledetradsrutenett for celle-for-celle reproduksjon', caption: 'Dobbelt-rutenettformat: tomt ovelsesrutenett pa toppen og ledetradsrutenett med delvis referanse nedenfor for strukturerte tegneovelser' },
-      { src: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%202.webp', alt: 'Dyretema rutenett-tegnearbeidsark med svart-hvitt kontur pa moderat ledetradsprosent', caption: 'Dyre svart-hvitt konturtema pa 25 prosent ledetrader — losere reproduserer konturen fra spredte rutenetthint og fargelegger deretter tegningen sin' },
+      { src: '/samples/norwegian/draw%20and%20color/tegn-og-fargelegg-3.webp', alt: 'Rutenett-tegnearbeidsark som viser dobbelt-rutenettsystem med ovelsesrutenett og ledetradsrutenett for celle-for-celle reproduksjon', caption: 'Dobbelt-rutenettformat: tomt ovelsesrutenett pa toppen og ledetradsrutenett med delvis referanse nedenfor for strukturerte tegneovelser' },
+      { src: '/samples/norwegian/draw%20and%20color/tegn-og-fargelegg-2.webp', alt: 'Dyretema rutenett-tegnearbeidsark med svart-hvitt kontur pa moderat ledetradsprosent', caption: 'Dyre svart-hvitt konturtema pa 25 prosent ledetrader — losere reproduserer konturen fra spredte rutenetthint og fargelegger deretter tegningen sin' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Hvordan lage tegne- og symmetriarbeidsark — komplett veiledning',

@@ -155,11 +155,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/sudoku/kuva-sudoku%202.webp', alt: 'Sudokupulmatyöarkki esittelemässä KDP-aktiviteettikirjasisältöä liikevaihdon tuottamiseen' },
+    heroImage: { src: '/samples/finnish/sudoku/kuva-sudoku-2.webp', alt: 'Sudokupulmatyöarkki esittelemässä KDP-aktiviteettikirjasisältöä liikevaihdon tuottamiseen' },
     samples: [
-      { src: '/samples/finnish/sudoku/kuva-sudoku%202.webp', alt: 'Sudokupulma muotoiltuna KDP-aktiviteettikirjan sisäsivuiksi', caption: 'Sudokupulmat — johdonmukaisesti kannattava aktiviteettikirjakategoria Amazon KDP:ssä uskollisten uudelleenosto-ostajien kanssa' },
-      { src: '/samples/finnish/math%20worksheet/matematiikkalehti%201.webp', alt: 'Matematiikkatyöarkki muotoiltuna KDP-työkirjan sisäsivuiksi', caption: 'Matematiikkatyökirjat — korkean kysynnän KDP-kategoria luonnollisilla luokka-astetason katalogin laajennusmahdollisuuksilla' },
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulma KDP-pulmakirjakatalogin monipuolistamiseen', caption: 'Sananetsintäkirjat — suurin pulmakirjakategoria Amazonissa vahvalla moniosaisen sarjan liikevaihtopotentiaalilla' },
+      { src: '/samples/finnish/sudoku/kuva-sudoku-2.webp', alt: 'Sudokupulma muotoiltuna KDP-aktiviteettikirjan sisäsivuiksi', caption: 'Sudokupulmat — johdonmukaisesti kannattava aktiviteettikirjakategoria Amazon KDP:ssä uskollisten uudelleenosto-ostajien kanssa' },
+      { src: '/samples/finnish/math%20worksheet/matematiikkalehti-1.webp', alt: 'Matematiikkatyöarkki muotoiltuna KDP-työkirjan sisäsivuiksi', caption: 'Matematiikkatyökirjat — korkean kysynnän KDP-kategoria luonnollisilla luokka-astetason katalogin laajennusmahdollisuuksilla' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananetsintäpulma KDP-pulmakirjakatalogin monipuolistamiseen', caption: 'Sananetsintäkirjat — suurin pulmakirjakategoria Amazonissa vahvalla moniosaisen sarjan liikevaihtopotentiaalilla' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Kuinka luoda sudoku-aktiviteettikirjoja Amazon KDP:lle — Liikevaihdon rakentamisen opas',

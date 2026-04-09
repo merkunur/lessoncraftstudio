@@ -243,22 +243,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/word%20guess/arvaa%20sana%201.webp',
+      primary: '/samples/finnish/word%20guess/arvaa-sana-1.webp',
       primaryAlt: 'Arvaa sana -tyoarkki kuvavihjeilla ja tyhjilla kirjainruudukoilla hirsipuutyylisissa sanastopulmissa',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/word%20guess/arvaa%20sana%201.webp',
+        src: '/samples/finnish/word%20guess/arvaa-sana-1.webp',
         alt: 'Arvaa sana -tyoarkki kuvavihjeilla Helppo-vaikeustasolla, puolet kirjaimista paljastettu',
         caption: 'Helppo vaikeustaso — puolet kirjaimista ennalta paljastettu vihjeinä aloitteleville lukijoille',
       },
       {
-        src: '/samples/finnish/word%20guess/arvaa%20sana%202.webp',
+        src: '/samples/finnish/word%20guess/arvaa-sana-2.webp',
         alt: 'Arvaa sana -tyoarkki Vaikea-vaikeustasolla minimaalisilla vihjekirjaimilla ja eläinteemalla',
         caption: 'Vaikea vaikeustaso — vain kuudesosa kirjaimista paljastettu edistyneille oikeinkirjoittajille',
       },
       {
-        src: '/samples/finnish/word%20guess/arvaa%20sana%202%20answer-key.webp',
+        src: '/samples/finnish/word%20guess/arvaa-sana-2-answer-key.webp',
         alt: 'Arvaa sana vastausavain kaikilla kirjaimilla taytettyina ja ilman tyhjia soluja',
         caption: 'Vastausavain — kaikki kirjaimet paljastettu helppoon tarkistamiseen ja itsearviointiin',
       },

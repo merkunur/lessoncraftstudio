@@ -155,12 +155,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/math worksheet/wiskundeblad-1.webp',
+      src: '/samples/dutch/math%20worksheet/wiskundeblad-1.webp',
       alt: 'Professioneel rekenwerkblad dat geautomatiseerde productie-efficiëntie demonstreert voor printable bedrijven',
     },
     samples: [
       {
-        src: '/samples/dutch/math worksheet/wiskundeblad-2.webp',
+        src: '/samples/dutch/math%20worksheet/wiskundeblad-2.webp',
         alt: 'Rekenwerkblad dat geautomatiseerde batchproductie-output toont',
         caption: 'Werkbladgeneratoren automatiseren de meest tijdrovende stap in printable productie',
       },

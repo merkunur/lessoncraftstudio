@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/treasure%20hunt/skattejakt%201.webp',
+      primary: '/samples/norwegian/treasure%20hunt/skattejakt-1.webp',
       primaryAlt: 'Skattejakt veifinding arbeidsark med 5 ganger 5 koordinatrutenett, spredte bilder, retningsanvisninger og skattejakt-tematisert overskrift',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/treasure%20hunt/skattejakt%201.webp',
+        src: '/samples/norwegian/treasure%20hunt/skattejakt-1.webp',
         alt: 'Skattejagtpuslespill arbeidsark med 6 tematiske bilder på et 5 ganger 5 rutenett og Grunnleggende retningsanvisninger',
         caption: 'Grunnleggende retningsmodus — folg opp, ned, venstre og hoyre anvisninger for å finne skatten',
       },
       {
-        src: '/samples/norwegian/treasure%20hunt/skattejakt%202.webp',
+        src: '/samples/norwegian/treasure%20hunt/skattejakt-2.webp',
         alt: 'Skattejagtpuslespill arbeidsark med et annet tema og Kompass-retningsanvisninger',
         caption: 'Kompass-retningsmodus — kompassretninger for avansert romlig resonnement',
       },
       {
-        src: '/samples/norwegian/treasure%20hunt/skattejakt%203.webp',
+        src: '/samples/norwegian/treasure%20hunt/skattejakt-3.webp',
         alt: 'Skattejakt fasit med endelig skattecelle markert i blek gult på koordinatrutenettet',
         caption: 'Automatisk generert fasit — blek gul markering viser skattens destinasjon',
       },

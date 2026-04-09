@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/swedish/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Anpassad målarbild med tematiska bilder arrangerade på fri arbetsyta med dekorativ ram och produktlinjesnamnfält',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/coloring/coloring%20portrait%202.webp',
+        src: '/samples/swedish/coloring/coloring-portrait-2.webp',
         alt: 'Djurtema målarbild med färgglada illustrationer arrangerade fritt på arbetsytan',
         caption: 'Djurtema målarbild — färgglada illustrationer arrangerade fritt på arbetsytan',
       },
       {
-        src: '/samples/swedish/coloring/coloring%20portrait%203.webp',
+        src: '/samples/swedish/coloring/coloring-portrait-3.webp',
         alt: 'Målarbild med skrivövningslinjer och namnfält för produktlinjesanvändning',
         caption: 'produktlinjesfärdig målarbild — namnfält och skrivövningslinjer inkluderade',
       },
       {
-        src: '/samples/swedish/coloring/coloring%20landscape%201.webp',
+        src: '/samples/swedish/coloring/coloring-landscape-1.webp',
         alt: 'Gråskala målarbild med dekorativ ram redo för bläckvänlig utskrift',
         caption: 'Gråskaleexport — bläckvänlig målarbild med dekorativt ramtema',
       },

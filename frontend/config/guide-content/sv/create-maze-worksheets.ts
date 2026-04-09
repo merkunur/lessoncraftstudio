@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/picture%20path/Bildlabyrint%201.jpeg', alt: 'Labyrintarbetsblad som visar en tematisk bildvägsaktivitet med start- och slutbilder' },
+    heroImage: { src: '/samples/swedish/picture%20path/bildlabyrint-1.jpeg', alt: 'Labyrintarbetsblad som visar en tematisk bildvägsaktivitet med start- och slutbilder' },
     samples: [
-      { src: '/samples/swedish/picture%20path/Bildlabyrint%201.jpeg', alt: 'Bildväg labyrintarbetsblad med tematiska bilder för förskola och förskoleklass', caption: 'Bildväg-läge: barn följer en visuell väg från startbild till slutbild genom tematiska dekorationer' },
-      { src: '/samples/swedish/picture%20path/Bildlabyrint%202.jpeg', alt: 'Klassisk labyrint med samlarräkning och facit', caption: 'Klassisk labyrint med samlarbilder och automatiskt facit som visar lösningsväg och antal' },
+      { src: '/samples/swedish/picture%20path/bildlabyrint-1.jpeg', alt: 'Bildväg labyrintarbetsblad med tematiska bilder för förskola och förskoleklass', caption: 'Bildväg-läge: barn följer en visuell väg från startbild till slutbild genom tematiska dekorationer' },
+      { src: '/samples/swedish/picture%20path/bildlabyrint-2.jpeg', alt: 'Klassisk labyrint med samlarräkning och facit', caption: 'Klassisk labyrint med samlarbilder och automatiskt facit som visar lösningsväg och antal' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'Hur du skapar labyrintarbetsblad — Komplett guide',

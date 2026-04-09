@@ -176,13 +176,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/matching/find%20parrene%201.webp',
+      src: '/samples/danish/matching/find-parrene-1.webp',
       alt: 'Professionelt matchingsarbejdsark der demonstrerer tydeligt produktdesign der forebygger kundesupportproblemer',
     },
     samples: [
-      { src: '/samples/danish/matching/find%20parrene%201.webp', alt: 'Find Parrene — dansk eksempelarbejdsark', caption: 'Find Parrene eksempel 1' },
-      { src: '/samples/danish/matching/find%20parrene%202.webp', alt: 'Find Parrene — dansk eksempel 2', caption: 'Find Parrene eksempel 2' },
-      { src: '/samples/danish/matching/find%20parrene%203.webp', alt: 'Find Parrene — dansk eksempel 3', caption: 'Find Parrene eksempel 3' },
+      { src: '/samples/danish/matching/find-parrene-1.webp', alt: 'Find Parrene — dansk eksempelarbejdsark', caption: 'Find Parrene eksempel 1' },
+      { src: '/samples/danish/matching/find-parrene-2.webp', alt: 'Find Parrene — dansk eksempel 2', caption: 'Find Parrene eksempel 2' },
+      { src: '/samples/danish/matching/find-parrene-3.webp', alt: 'Find Parrene — dansk eksempel 3', caption: 'Find Parrene eksempel 3' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Kundesupport for digitale produktvirksomheder',

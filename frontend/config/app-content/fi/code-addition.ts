@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/code%20addition/salainen%20koodi%20yhteenlasku%201.webp',
+      primary: '/samples/finnish/code%20addition/salainen-koodi-yhteenlasku-1.webp',
       primaryAlt: 'Koodiyhteenlasku tyoarkki elainkuvilla, jotka piilottavat salaisia numeroita koodimurtamispulmassa',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/code%20addition/salainen%20koodi%20yhteenlasku%201.webp',
+        src: '/samples/finnish/code%20addition/salainen-koodi-yhteenlasku-1.webp',
         alt: 'Koodiyhteenlasku tyoarkki Klassisessa Tilassa temaattisilla elainkuvilla koodisymboleina',
         caption: 'Klassinen Tila — kayttajat murtavat koodin paattelemalla, mitka numerot kuvat edustavat',
       },
       {
-        src: '/samples/finnish/code%20addition/salainen%20koodi%20yhteenlasku%202.webp',
+        src: '/samples/finnish/code%20addition/salainen-koodi-yhteenlasku-2.webp',
         alt: 'Koodiyhteenlasku tyoarkki toisella visuaalisella teemalla kryptaritmeettisilla yhtalöilla',
         caption: 'Monisymbolihaaste — useammat kuvat lisaavat paattelyn monimutkaisuutta',
       },
       {
-        src: '/samples/finnish/code%20addition/salainen%20koodi%20yhteenlasku%201%20answer-key.webp',
+        src: '/samples/finnish/code%20addition/salainen-koodi-yhteenlasku-1-answer-key.webp',
         alt: 'Koodiyhteenlaskupulma tyoarkki varikkäilla teemakuvilla ja yhtalöilla',
         caption: 'Teemapulmat — 104 visuaalista teemaa tekevat jokaisesta tyoarkista ainutlaatuisen ja sitouttavan',
       },

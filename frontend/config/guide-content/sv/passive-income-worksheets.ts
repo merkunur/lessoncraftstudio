@@ -176,17 +176,17 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
+      src: '/samples/swedish/addition/addition-övning.webp',
       alt: 'Professionellt additionsarbetsblad som demonstrerar vintergrönt pedagogiskt innehåll för återkommande intäkt',
     },
     samples: [
       {
-        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
+        src: '/samples/swedish/addition/addition-övning.webp',
         alt: 'Additionsarbetsblad med professionell formatering för marknadsplatsförsäljning',
         caption: 'Mattearbetsblad genererar konsekvent intäkt året runt som vintergröna pedagogiska produkter',
       },
       {
-        src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+        src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
         alt: 'Ordsökningspussel tillgängligt på flera språk för utökad marknadsräckvidd',
         caption: 'Flerspråkiga ordsökningar multiplicerar intäkt genom att nå underservade internationella marknader',
       },

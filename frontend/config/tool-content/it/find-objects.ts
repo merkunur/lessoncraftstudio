@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/find objects/trova-gli-oggetti-nascosti-1.webp',
+      primary: '/samples/italian/find%20objects/trova-gli-oggetti-nascosti-1.webp',
       primaryAlt: 'Scheda Vedo Vedo oggetti nascosti con immagini disperse posizionate usando algoritmo zero-sovrapposizione con legenda in basso e intestazione decorativa Fredoka',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/find objects/trova-gli-oggetti-nascosti-2.webp',
+        src: '/samples/italian/find%20objects/trova-gli-oggetti-nascosti-2.webp',
         alt: 'Scena Vedo Vedo oggetti nascosti con immagini disperse e legenda che mostra gli oggetti bersaglio nella parte inferiore della scheda',
         caption: 'Modalità Vedo Vedo — scena oggetti nascosti a forma libera con posizionamento zero-sovrapposizione e legenda in basso',
       },
       {
-        src: '/samples/italian/find objects/trova-il-diverso-1.webp',
+        src: '/samples/italian/find%20objects/trova-il-diverso-1.webp',
         alt: 'Scheda Trova il Diverso con immagini abbinate in righe ed elementi spaiati da identificare resi al 50 percento più grandi',
         caption: 'Modalità Trova il Diverso — immagini abbinate con elementi spaiati per attività di discriminazione visiva',
       },
       {
-        src: '/samples/italian/find objects/trova-gli-oggetti-nascosti-1-answer-key.webp',
+        src: '/samples/italian/find%20objects/trova-gli-oggetti-nascosti-1-answer-key.webp',
         alt: 'Chiave di risposta della scheda oggetti nascosti con cerchi rossi disegnati attorno agli oggetti bersaglio dimensionati da 3 a 5 pixel più grandi di ogni oggetto',
         caption: 'Chiave di risposta auto-generata — annotazioni a cerchi rossi marcano oggetti nascosti e spaiati per auto-verifica',
       },

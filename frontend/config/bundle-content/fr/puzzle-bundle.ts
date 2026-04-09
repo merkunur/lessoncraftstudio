@@ -184,14 +184,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/missing pieces/pièces-manquantes-1.webp',
+      primary: '/samples/french/missing%20pieces/pièces-manquantes-1.webp',
       primaryAlt: 'Puzzle pièces manquantes avec segments de grille retirés pour un défi de raisonnement spatial',
     },
     sampleGallery: [
-      { src: '/samples/french/missing pieces/pièces-manquantes-1.webp', alt: 'Puzzle pièces manquantes avec segments de grille d\'image retirés', caption: 'Puzzle Pièces Manquantes' },
-      { src: '/samples/french/odd one out/Trouve l\'intrus-1.webp', alt: 'Fiche trouve l\'intrus avec rangées d\'images similaires et un élément différent', caption: 'Fiche Trouve l\'Intrus' },
+      { src: '/samples/french/missing%20pieces/pièces-manquantes-1.webp', alt: 'Puzzle pièces manquantes avec segments de grille d\'image retirés', caption: 'Puzzle Pièces Manquantes' },
+      { src: '/samples/french/odd%20one%20out/trouve-l\'intrus-1.webp', alt: 'Fiche trouve l\'intrus avec rangées d\'images similaires et un élément différent', caption: 'Fiche Trouve l\'Intrus' },
       { src: '/samples/french/sudoku/sudoku-worksheet.webp', alt: 'Puzzle sudoku enfants 4x4 avec images thématiques au lieu de chiffres', caption: 'Puzzle Sudoku Enfants' },
-      { src: '/samples/french/picture path/Chemin d\'images-1.webp', alt: 'Labyrinthe parcours d\'images avec route thématique à travers une grille', caption: 'Labyrinthe Parcours d\'Images' },
+      { src: '/samples/french/picture%20path/chemin-d\'images-1.webp', alt: 'Labyrinthe parcours d\'images avec route thématique à travers une grille', caption: 'Labyrinthe Parcours d\'Images' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Pack Puzzles & Logique — Découvrez les 4 Générateurs en Action',

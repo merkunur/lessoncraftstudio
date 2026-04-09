@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Rekenwerkblad klaar om te bundelen in een waardevolle werkbladcollectie' },
+    heroImage: { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Rekenwerkblad klaar om te bundelen in een waardevolle werkbladcollectie' },
     samples: [
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optellen werkblad voor rekenwerkblad bundelcreatie', caption: 'Rekenwerkbladen behoren tot de populairste producten voor bundels — combineer optellen, aftrekken en getalbegrip voor uitgebreide pakketten' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekpuzzel voor thematische werkblad bundel', caption: 'Woordzoekpuzzels voegen variatie toe aan themabundels en werken over vak-, niveaucategorie- en seizoensbundeltypen' },
-      { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Kleurplaat activiteit voor printable bundelcollectie', caption: 'Kleurplaten vullen andere werkbladtypen aan in formaatbundels — variatie houdt gebruikers betrokken over meerdere sessies' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optellen werkblad voor rekenwerkblad bundelcreatie', caption: 'Rekenwerkbladen behoren tot de populairste producten voor bundels — combineer optellen, aftrekken en getalbegrip voor uitgebreide pakketten' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekpuzzel voor thematische werkblad bundel', caption: 'Woordzoekpuzzels voegen variatie toe aan themabundels en werken over vak-, niveaucategorie- en seizoensbundeltypen' },
+      { src: '/samples/dutch/coloring/coloring-landscape-1.webp', alt: 'Kleurplaat activiteit voor printable bundelcollectie', caption: 'Kleurplaten vullen andere werkbladtypen aan in formaatbundels — variatie houdt gebruikers betrokken over meerdere sessies' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hoe Optellen Werkbladen Maken voor Bundeling in Waardevolle Collecties',

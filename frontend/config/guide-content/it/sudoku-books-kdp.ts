@@ -195,7 +195,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/italian/sudoku/sudoku-con-immagini-1.webp', alt: 'Puzzle sudoku illustrato a tema animali formattato per libro sudoku bambini KDP', caption: 'Sudoku illustrato con tema animali \u2014 le griglie basate su immagini rendono la logica del sudoku accessibile ai bambini dai 3 ai 7 anni che non hanno ancora imparato i numeri' },
       { src: '/samples/italian/sudoku/sudoku-con-immagini-1.webp', alt: 'Scheda puzzle sudoku illustrato per interno libro KDP', caption: 'Scheda sudoku illustrato \u2014 griglie 4x4 con immagini chiare e dimensioni generose delle celle per una risoluzione confortevole da parte dei bambini piccoli' },
-      { src: '/samples/italian/math puzzle/rompicapi-matematici-5.webp', alt: 'Scheda puzzle matematici per catalogo puzzle KDP complementare', caption: 'Puzzle matematici \u2014 i puzzle logici basati sui numeri complementano naturalmente il sudoku nei libri di puzzle varietà e si promuovono in modo incrociato attraverso la tua pagina autore' },
+      { src: '/samples/italian/math%20puzzle/rompicapi-matematici-5.webp', alt: 'Scheda puzzle matematici per catalogo puzzle KDP complementare', caption: 'Puzzle matematici \u2014 i puzzle logici basati sui numeri complementano naturalmente il sudoku nei libri di puzzle varietà e si promuovono in modo incrociato attraverso la tua pagina autore' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Come Creare Puzzle Sudoku Illustrato per Libri Amazon KDP \u2014 Tutorial Passo dopo Passo',

@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/shadow%20match/t%c3%a4ydenn%c3%a4%20kuvat%201.webp',
+      primary: '/samples/finnish/shadow%20match/täydennä-kuvat-1.webp',
       primaryAlt: 'Varjoyhdistely-tehtava varikuvilla ylarivillae ja automaattisesti generoiduilla mustilla silueteilla alarivilla keltaisella otsikolla ja kirjain-numero-tunnisteilla',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/shadow%20match/t%c3%a4ydenn%c3%a4%20kuvat%202.webp',
+        src: '/samples/finnish/shadow%20match/täydennä-kuvat-2.webp',
         alt: 'Varjoyhdistely-tehtava, jossa nelja varikuvaa yhdistetaan neljaan pikselitason mustaan siluettiin A B C D ja 1 2 3 4 tunnisteilla',
         caption: 'Varjoyhdistely-tila — kayttajat yhdistaevaet kuvia automaattisesti generoituihin pikselitason siluetteihin',
       },
       {
-        src: '/samples/finnish/shadow%20match/t%c3%a4ydenn%c3%a4%20kuvat%203.webp',
+        src: '/samples/finnish/shadow%20match/täydennä-kuvat-3.webp',
         alt: 'Taydenna Kuva -tehtava jaetuilla kuvapuoliskoilla, jotka kayttajat yhdistaevaet A-D ja 1-4 tunnisteilla',
         caption: 'Taydenna Kuva -tila — kayttajat yhdistaevaet jaetut kuvapuoliskot kuvan taydentamiseksi vaaka- tai pystyleikkauksilla',
       },
       {
-        src: '/samples/finnish/shadow%20match/t%c3%a4ydenn%c3%a4%20kuvat%201%20answer-key.webp',
+        src: '/samples/finnish/shadow%20match/täydennä-kuvat-1-answer-key.webp',
         alt: 'Varjoyhdistely-vastausavain, jossa alkuperaiset kuvat siluettien vieressa oikeilla kirjain-numero-vastaavuustunnisteilla kuten A to 2',
         caption: 'Automaattisesti generoitu vastausavain — kirjain-numero-tunnisteet nayttavat oikeat vastaavuudet molemmille harjoitustiloille',
       },

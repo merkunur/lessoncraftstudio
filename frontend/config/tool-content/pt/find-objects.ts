@@ -224,22 +224,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/find objects/encontra-o-diferente-1.webp',
+      primary: '/samples/portuguese/find%20objects/encontra-o-diferente-1.webp',
       primaryAlt: 'Atividade de objetos ocultos Eu Vejo com imagens dispersas usando algoritmo sem sobreposição, legenda inferior mostrando objetos a encontrar e cabeçalho decorativo na fonte Fredoka',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/find objects/encontra-o-diferente-2.webp',
+        src: '/samples/portuguese/find%20objects/encontra-o-diferente-2.webp',
         alt: 'Cena de objetos ocultos Eu Vejo com imagens dispersas e legenda mostrando objetos-alvo na parte inferior da atividade',
         caption: 'Modo Eu Vejo — cena de objetos ocultos em forma livre com posicionamento sem sobreposição e legenda inferior',
       },
       {
-        src: '/samples/portuguese/find objects/encontra-o-diferente-3.webp',
+        src: '/samples/portuguese/find%20objects/encontra-o-diferente-3.webp',
         alt: 'Atividade Encontra o Diferente com imagens emparelhadas em linhas e elementos sem par a identificar apresentados 50 por cento maiores',
         caption: 'Modo Encontra o Diferente — imagens emparelhadas com elementos sem par para atividades de discriminação visual',
       },
       {
-        src: '/samples/portuguese/find objects/encontra-o-diferente-4.webp',
+        src: '/samples/portuguese/find%20objects/encontra-o-diferente-4.webp',
         alt: 'Gabarito de atividade de objetos ocultos com círculos vermelhos desenhados à volta dos objetos-alvo de 3 a 5 píxeis maiores que cada objeto',
         caption: 'Gabarito autogerado — anotações de círculos vermelhos marcam objetos ocultos e sem par para autocorreção',
       },

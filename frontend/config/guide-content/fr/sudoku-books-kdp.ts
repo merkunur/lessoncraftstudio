@@ -196,7 +196,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/french/sudoku/sudoku-en-images-1.webp', alt: 'Puzzle sudoku en images thème animaux formaté pour livre sudoku enfants KDP', caption: 'Sudoku en images avec thème animaux — les grilles basées sur les images rendent la logique du sudoku accessible aux enfants de 3 à 7 ans qui n\'ont pas encore appris les chiffres' },
       { src: '/samples/french/sudoku/sudoku-worksheet.webp', alt: 'Fiche de puzzle sudoku en images pour intérieur de livre KDP', caption: 'Fiche de sudoku en images — grilles 4x4 avec images claires et dimensionnement de cellules généreux pour une résolution confortable par les jeunes enfants' },
-      { src: '/samples/french/math puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche de puzzle mathématique pour catalogue de puzzles KDP complémentaire', caption: 'Puzzle mathématique — les puzzles logiques basés sur les chiffres complètent naturellement le sudoku dans les livres de puzzles variés et se promeuvent mutuellement via votre page d\'auteur' },
+      { src: '/samples/french/math%20puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche de puzzle mathématique pour catalogue de puzzles KDP complémentaire', caption: 'Puzzle mathématique — les puzzles logiques basés sur les chiffres complètent naturellement le sudoku dans les livres de puzzles variés et se promeuvent mutuellement via votre page d\'auteur' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Comment créer des puzzles Sudoku en Images pour les livres Amazon KDP — Tutoriel étape par étape',

@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/odd%20one%20out/Hitta%20udda%20bilden%201.jpeg', alt: 'Hitta udda bilden-arbetsblad med fyra bilder per övningsrad och stiliserad rubrik' },
+    heroImage: { src: '/samples/swedish/odd%20one%20out/hitta-udda-bilden-1.jpeg', alt: 'Hitta udda bilden-arbetsblad med fyra bilder per övningsrad och stiliserad rubrik' },
     samples: [
-      { src: '/samples/swedish/odd%20one%20out/Hitta%20udda%20bilden%201.jpeg', alt: 'Hitta udda bilden-arbetsblad med övningskort med fyra bilder per rad', caption: 'Hitta udda bilden-arbetsblad med fyrbildsövningsrader och adaptiv kolumnlayout' },
-      { src: '/samples/swedish/odd%20one%20out/Hitta%20udda%20bilden%20answer_key.jpeg', alt: 'Autogenererat facit med röda cirkelkonturer runt den udda bilden', caption: 'Autogenererat facit med röda cirkelmarkörer som identifierar den udda bilden i varje rad' },
+      { src: '/samples/swedish/odd%20one%20out/hitta-udda-bilden-1.jpeg', alt: 'Hitta udda bilden-arbetsblad med övningskort med fyra bilder per rad', caption: 'Hitta udda bilden-arbetsblad med fyrbildsövningsrader och adaptiv kolumnlayout' },
+      { src: '/samples/swedish/odd%20one%20out/hitta-udda-bilden-answer-key.jpeg', alt: 'Autogenererat facit med röda cirkelkonturer runt den udda bilden', caption: 'Autogenererat facit med röda cirkelmarkörer som identifierar den udda bilden i varje rad' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Hur du skapar Hitta udda bilden-pussel — Komplett guide',

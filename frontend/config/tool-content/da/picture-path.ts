@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/picture%20path/billedsti%201.webp',
+      primary: '/samples/danish/picture%20path/billedsti-1.webp',
       primaryAlt: 'Gratis labyrint generator med tematiske billeder og tre spiltilstande — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/picture%20path/billedsti%201.webp',
+        src: '/samples/danish/picture%20path/billedsti-1.webp',
         alt: 'Billedsti-tilstand arbejdsark med billeder i et gitter, der viser den korrekte vej fra start til mål blandt distraktorbilleder',
         caption: 'Billedsti-tilstand — brugerne følger den korrekte billedvej fra start til mål blandt distraktorer',
       },
       {
-        src: '/samples/danish/picture%20path/billedsti%202.webp',
+        src: '/samples/danish/picture%20path/billedsti-2.webp',
         alt: 'Klassisk Labyrint-tilstand arbejdsark med LPF-algoritmen vægbaserede korridorer og samlingsbilleder spredt gennem labyrinten',
         caption: 'Klassisk Labyrint-tilstand — LPF-algoritmen genererer vægbaserede labyrinter med samlingsbilleder',
       },
       {
-        src: '/samples/danish/picture%20path/billedsti%203.webp',
+        src: '/samples/danish/picture%20path/billedsti-3.webp',
         alt: 'Billedsti labyrint facit med løsningsvej markeret med rosa cirkler langs den korrekte rute og samlingslegende',
         caption: 'Automatisk genereret facit — rosa cirkler markerer løsningsvejen med samlingslegende inkluderet',
       },

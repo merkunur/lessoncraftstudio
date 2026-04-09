@@ -284,12 +284,12 @@ const content: AppContent = {
         caption: 'Spåra-läge med pil-streckordning — numrerade riktningspilar visar exakt bokstavsformningssekvens',
       },
       {
-        src: '/samples/swedish/writing/writing%20beginning%20letter.webp',
+        src: '/samples/swedish/writing/writing-beginning-letter.webp',
         alt: 'Skrivövningsarbetsblad i tonande spårning-läge med bokstäver som progressivt tonas ut över varje rad',
         caption: 'Tonande Spårning-läge — bokstäver tonas progressivt ut för att bygga självständigt skrivande',
       },
       {
-        src: '/samples/swedish/writing/writing%20custom.webp',
+        src: '/samples/swedish/writing/writing-custom.webp',
         alt: 'Skrivövningsarbetsblad i guidad kopiering-läge med kursiv typsnittsstil på trelinjesguider',
         caption: 'Kursiv Guidad Kopiering — svaga kursiva konturer på trelinjesystem för flödande skrivstilsövning',
       },

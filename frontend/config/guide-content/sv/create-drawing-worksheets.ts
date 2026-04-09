@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/draw%20and%20color/rita%20och%20f%C3%A4rgl%C3%A4gg%201.jpeg', alt: 'Rutnätsritningsarbetsblad med dubbelrutnätssystem som visar tomt övningsrutnät och delvis avslöjat ledtrådsrutnät' },
+    heroImage: { src: '/samples/swedish/draw%20and%20color/rita-och-färglägg-1.jpeg', alt: 'Rutnätsritningsarbetsblad med dubbelrutnätssystem som visar tomt övningsrutnät och delvis avslöjat ledtrådsrutnät' },
     samples: [
-      { src: '/samples/swedish/draw%20and%20color/rita%20och%20f%C3%A4rgl%C3%A4gg%201.jpeg', alt: 'Rutnätsritningsarbetsblad som visar dubbelrutnätssystem med övningsrutnät och ledtrådsrutnät', caption: 'Dubbelrutnätsformat: tomt övningsrutnät överst och ledtrådsrutnät med delvis referens nedanför för strukturerade ritövningar' },
-      { src: '/samples/swedish/draw%20and%20color/rita%20och%20f%C3%A4rgl%C3%A4gg%202.jpeg', alt: 'Djurtema rutnätsritning med S/V-kontur vid måttlig ledtrådsprocent', caption: 'Djur S/V-konturtema vid 25% ledtrådar — användare reproducerar konturen från utspridda rutnätsledtrådar sedan färglägger sin ritning' },
+      { src: '/samples/swedish/draw%20and%20color/rita-och-färglägg-1.jpeg', alt: 'Rutnätsritningsarbetsblad som visar dubbelrutnätssystem med övningsrutnät och ledtrådsrutnät', caption: 'Dubbelrutnätsformat: tomt övningsrutnät överst och ledtrådsrutnät med delvis referens nedanför för strukturerade ritövningar' },
+      { src: '/samples/swedish/draw%20and%20color/rita-och-färglägg-2.jpeg', alt: 'Djurtema rutnätsritning med S/V-kontur vid måttlig ledtrådsprocent', caption: 'Djur S/V-konturtema vid 25% ledtrådar — användare reproducerar konturen från utspridda rutnätsledtrådar sedan färglägger sin ritning' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Hur du skapar ritnings- och symmetriarbetsblad — Komplett guide',

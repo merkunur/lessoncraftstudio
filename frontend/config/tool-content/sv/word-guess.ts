@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/word%20guess/gissa%20ordet%201.webp',
+      primary: '/samples/swedish/word%20guess/gissa-ordet-1.webp',
       primaryAlt: 'Gissa ordet arbetsblad som visar bildledtrådar parade med bokstavsrutnät med luckor för stavningsövning',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/word%20guess/gissa%20ordet%201.webp',
+        src: '/samples/swedish/word%20guess/gissa-ordet-1.webp',
         alt: 'Gissa ordet arbetsblad med bildledtrådar och delvis fyllda bokstavsrutnät för stavningsövning',
         caption: 'Bildbaserade gissa ordet övningar med progressiva ledtrådsnivåer',
       },
       {
-        src: '/samples/swedish/word%20guess/gissa%20ordet%202.webp',
+        src: '/samples/swedish/word%20guess/gissa-ordet-2.webp',
         alt: 'Gissa ordet arbetsblad som visar flera svårighetsnivåer med olika mängder avslöjade bokstäver',
         caption: 'Justerbar ledtrådssvårighet från Lätt till Inga Ledtrådar',
       },
       {
-        src: '/samples/swedish/word%20guess/gissa%20ordet%203.webp',
+        src: '/samples/swedish/word%20guess/gissa-ordet-3.webp',
         alt: 'Gissa ordet arbetsblad med tematisk bildsamling och färgglada bokstavsrutnät',
         caption: 'Tematiska samlingar skapar sammanhängande stavningsaktivitetspaket',
       },

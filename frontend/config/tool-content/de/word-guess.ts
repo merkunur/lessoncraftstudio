@@ -218,22 +218,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/word guess/clue-grid-worksheet.webp',
+      primary: '/samples/german/word%20guess/clue-grid-worksheet.webp',
       primaryAlt: 'Wörter-Raten-Arbeitsblatt mit Bild-Hinweisen und Buchstabengittern mit Lücken für Rechtschreibübung',
     },
     sampleGallery: [
       {
-        src: '/samples/german/word guess/clue-grid-worksheet.webp',
+        src: '/samples/german/word%20guess/clue-grid-worksheet.webp',
         alt: 'Wörter-Raten-Arbeitsblatt mit Bild-Hinweisen und teilweise gefüllten Buchstabengittern für Rechtschreibübung',
         caption: 'Bildbasierte Wörter-Raten-Übungen mit progressiven Hinweisstufen',
       },
       {
-        src: '/samples/german/word guess/clue-grid-worksheet.webp',
+        src: '/samples/german/word%20guess/clue-grid-worksheet.webp',
         alt: 'Wörter-Raten-Arbeitsblatt mit verschiedenen Schwierigkeitsstufen und unterschiedlich vielen enthüllten Buchstaben',
         caption: 'Einstellbare Hinweis-Schwierigkeit von Leicht bis Keine Hinweise',
       },
       {
-        src: '/samples/german/word guess/clue-grid-worksheet.webp',
+        src: '/samples/german/word%20guess/clue-grid-worksheet.webp',
         alt: 'Wörter-Raten-Arbeitsblatt mit thematischer Bildersammlung und farbenfrohen Buchstabengittern',
         caption: 'Thematische Sammlungen für zusammenhängende Rechtschreib-Aktivitätspakete',
       },

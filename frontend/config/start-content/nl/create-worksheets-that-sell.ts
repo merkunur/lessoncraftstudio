@@ -214,12 +214,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Professioneel optelwerkblad gemaakt met LessonCraftStudio generator' },
+    heroImage: { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Professioneel optelwerkblad gemaakt met LessonCraftStudio generator' },
     samples: [
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optelwerkblad met thematische afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Afbeeldingsgebaseerde Opgaven' },
-      { src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%201.webp', alt: 'Aftrekwerkblad met visuele getalopgaven', caption: 'Aftrekken — Visuele Rekenoefening' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzelwerkblad met thematische woordenlijst', caption: 'Woordzoeker — Thematische Puzzel' },
-      { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat werkblad met thematische illustraties', caption: 'Kleurplaat — Thematische Illustraties' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optelwerkblad met thematische afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Afbeeldingsgebaseerde Opgaven' },
+      { src: '/samples/dutch/subtraction/aftrekken-is-leuk-1.webp', alt: 'Aftrekwerkblad met visuele getalopgaven', caption: 'Aftrekken — Visuele Rekenoefening' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoeker puzzelwerkblad met thematische woordenlijst', caption: 'Woordzoeker — Thematische Puzzel' },
+      { src: '/samples/dutch/coloring/coloring-portrait-1.webp', alt: 'Kleurplaat werkblad met thematische illustraties', caption: 'Kleurplaat — Thematische Illustraties' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hoe Optelling Werkbladen te Maken — LessonCraftStudio Demo',
@@ -230,7 +230,7 @@ const content: StartContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematische educatieve afbeelding', caption: 'Stier' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalf — thematische educatieve afbeelding', caption: 'Kalf' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kat — thematische educatieve afbeelding', caption: 'Kat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kat 2 — thematische educatieve afbeelding', caption: 'Kat 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kat 2 — thematische educatieve afbeelding', caption: 'Kat 2' },
   ],
 };
 

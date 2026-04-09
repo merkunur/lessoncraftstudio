@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/word guess/adivinha-a-palavra-1.webp',
+      primary: '/samples/portuguese/word%20guess/adivinha-a-palavra-1.webp',
       primaryAlt: 'Atividade de adivinhar palavras mostrando pistas de imagem combinadas com grelhas de letras com espaços em branco para prática de ortografia',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/word guess/adivinha-a-palavra-2.webp',
+        src: '/samples/portuguese/word%20guess/adivinha-a-palavra-2.webp',
         alt: 'Atividade de adivinhar palavras com pistas de imagem e grelhas de letras parcialmente preenchidas para prática de ortografia',
         caption: 'Exercícios de adivinhar palavras com imagens e níveis de pista progressivos',
       },
       {
-        src: '/samples/portuguese/word guess/adivinha-a-palavra-3.webp',
+        src: '/samples/portuguese/word%20guess/adivinha-a-palavra-3.webp',
         alt: 'Atividade de adivinhar palavras mostrando múltiplos níveis de dificuldade com diferentes quantidades de letras reveladas',
         caption: 'Dificuldade de pistas ajustável de Fácil até Sem Pistas',
       },
       {
-        src: '/samples/portuguese/word guess/adivinha-a-palavra-4.webp',
+        src: '/samples/portuguese/word%20guess/adivinha-a-palavra-4.webp',
         alt: 'Gabarito de adivinhar palavras com todas as letras preenchidas mostrando as ortografias corretas',
         caption: 'Gabarito com todas as letras reveladas paro valor percebido fácil',
       },

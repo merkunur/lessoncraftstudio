@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/chart count/gráfico-de-figuras-1.webp', alt: 'Atividade de gráfico pictórico com grelha de 4×5 de imagens dispersas e gráfico de barras para prática de contagem e gráficos' },
+    heroImage: { src: '/samples/portuguese/chart%20count/gráfico-de-figuras-1.webp', alt: 'Atividade de gráfico pictórico com grelha de 4×5 de imagens dispersas e gráfico de barras para prática de contagem e gráficos' },
     samples: [
-      { src: '/samples/portuguese/chart count/gráfico-de-figuras-2.webp', alt: 'Atividade de gráfico pictórico com 20 ícones dispersos numa grelha de 4×5 e gráfico de barras de 6 colunas abaixo', caption: 'Atividade completa de gráfico pictórico com grelha de imagens dispersas e gráfico de barras para prática de contagem do usuário' },
-      { src: '/samples/portuguese/chart count/gráfico-de-figuras-3.webp', alt: 'Chave de resposta de gráfico pictórico com células destacadas a amarelo mostrando as contagens corretas', caption: 'Chave de resposta autogerada com células destacadas a amarelo (#FFC857) mostrando a contagem correta para cada tipo de imagem' },
+      { src: '/samples/portuguese/chart%20count/gráfico-de-figuras-2.webp', alt: 'Atividade de gráfico pictórico com 20 ícones dispersos numa grelha de 4×5 e gráfico de barras de 6 colunas abaixo', caption: 'Atividade completa de gráfico pictórico com grelha de imagens dispersas e gráfico de barras para prática de contagem do usuário' },
+      { src: '/samples/portuguese/chart%20count/gráfico-de-figuras-3.webp', alt: 'Chave de resposta de gráfico pictórico com células destacadas a amarelo mostrando as contagens corretas', caption: 'Chave de resposta autogerada com células destacadas a amarelo (#FFC857) mostrando a contagem correta para cada tipo de imagem' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Como criar atividades de contagem e gráficos — Tutorial completo',

@@ -62,11 +62,11 @@ const content: GuideContent = {
     { appId: 'bingo', title: 'Bingokorttien generaattori', description: 'Luo visuaalisesti kiinnostavia bingokortteja jotka erottuvat sosiaalisen median syötteessä.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/finnish/bingo/kuvabingo%201.webp', alt: 'Ammattimainen bingokortti visuaalisesti houkuttelevana tulostettavana tuotteena sosiaalisen median markkinointiin' },
+    heroImage: { src: '/samples/finnish/bingo/kuvabingo-1.webp', alt: 'Ammattimainen bingokortti visuaalisesti houkuttelevana tulostettavana tuotteena sosiaalisen median markkinointiin' },
     samples: [
-      { src: '/samples/finnish/bingo/kuvabingo%201.webp', alt: 'Bingokortti jaettavana tulostettavana sosiaalisen median sisällöksi', caption: 'Visuaalisesti houkuttelevat tuotteet kuten bingokortit luovat vakuuttavaa sosiaalisen median sisältöä' },
-      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu fotogeneisenä tulostettavana Instagramiin ja Pinterestiin', caption: 'Värityssivut kuvautuvat kauniisti flat-lay-tuotekuvauksiin visuaalisilla alustoilla' },
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulma vahvalla sosiaalisen median vetovoimalla', caption: 'Sananetsinnät houkuttelevat laajaa yleisöä ja menestyvät hyvin sosiaalisen median alustoilla' },
+      { src: '/samples/finnish/bingo/kuvabingo-1.webp', alt: 'Bingokortti jaettavana tulostettavana sosiaalisen median sisällöksi', caption: 'Visuaalisesti houkuttelevat tuotteet kuten bingokortit luovat vakuuttavaa sosiaalisen median sisältöä' },
+      { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Värityssivu fotogeneisenä tulostettavana Instagramiin ja Pinterestiin', caption: 'Värityssivut kuvautuvat kauniisti flat-lay-tuotekuvauksiin visuaalisilla alustoilla' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananetsintäpulma vahvalla sosiaalisen median vetovoimalla', caption: 'Sananetsinnät houkuttelevat laajaa yleisöä ja menestyvät hyvin sosiaalisen median alustoilla' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Tulostettavien työarkkien markkinointi sosiaalisessa mediassa',

@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/alphabet%20train/aakkostjuna%201.webp', alt: 'Aakkosjuna-työarkki 11 värikkäällä junavaunulla, joissa kirjaimia ja vastaavia vihjekuvia kirjaintunnistukseen' },
+    heroImage: { src: '/samples/finnish/alphabet%20train/aakkostjuna-1.webp', alt: 'Aakkosjuna-työarkki 11 värikkäällä junavaunulla, joissa kirjaimia ja vastaavia vihjekuvia kirjaintunnistukseen' },
     samples: [
-      { src: '/samples/finnish/alphabet%20train/aakkostjuna%201.webp', alt: 'Värikäs aakkosjuna-työarkki 11 vaunulla ja kirjain-kuvayhdistämisvihjein', caption: 'Aakkosjuna-työarkki 11 värikkäällä vaunulla ja kirjain-kuvaparittamisvihjeillä' },
-      { src: '/samples/finnish/alphabet%20train/aakkostjuna%202.webp', alt: 'Aakkosjuna-työarkki temaattisilla kuvilla keskitason vaikeustasolla', caption: 'Temaattinen aakkosjuna konfiguroitavalla vihjelukumäärällä vaikeustason skaalaamiseen' },
-      { src: '/samples/finnish/alphabet%20train/aakkostjuna%203.webp', alt: 'Edistynyt aakkosjuna-työarkki 11 vihjeellä maksimivaikeustasolle', caption: 'Täyden 11 vihjeen vaikeustaso edistyneeseen kirjaintunnistusharjoitteluun' },
+      { src: '/samples/finnish/alphabet%20train/aakkostjuna-1.webp', alt: 'Värikäs aakkosjuna-työarkki 11 vaunulla ja kirjain-kuvayhdistämisvihjein', caption: 'Aakkosjuna-työarkki 11 värikkäällä vaunulla ja kirjain-kuvaparittamisvihjeillä' },
+      { src: '/samples/finnish/alphabet%20train/aakkostjuna-2.webp', alt: 'Aakkosjuna-työarkki temaattisilla kuvilla keskitason vaikeustasolla', caption: 'Temaattinen aakkosjuna konfiguroitavalla vihjelukumäärällä vaikeustason skaalaamiseen' },
+      { src: '/samples/finnish/alphabet%20train/aakkostjuna-3.webp', alt: 'Edistynyt aakkosjuna-työarkki 11 vihjeellä maksimivaikeustasolle', caption: 'Täyden 11 vihjeen vaikeustaso edistyneeseen kirjaintunnistusharjoitteluun' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Näin luot aakkosjuna-työarkkeja — Täydellinen opas',
@@ -196,7 +196,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Härkä — temaattinen opetuskuva', caption: 'Härkä' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Vasikka — temaattinen opetuskuva', caption: 'Vasikka' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kissa — temaattinen opetuskuva', caption: 'Kissa' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kissa 2 — temaattinen opetuskuva', caption: 'Kissa 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kissa 2 — temaattinen opetuskuva', caption: 'Kissa 2' },
   ],
 };
 

@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki-resurssi sopiva myyntiin Gumroad-markkinapaikalla' },
+    heroImage: { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Yhteenlaskutyöarkki-resurssi sopiva myyntiin Gumroad-markkinapaikalla' },
     samples: [
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%202.webp', alt: 'Matemaattinen yhteenlaskutyöarkki Gumroad-kaupan resurssiksi', caption: 'Matemaattiset työarkit ovat Gumroadin haituimmista resurssityypeistä' },
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sanakäärmepalapeliaktiviteetti Gumroad-kaupan listaukseen', caption: 'Sanakäärmepalapelit toimivat kaikilla ikäryhmillä Gumroadissa' },
-      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%202.webp', alt: 'Yhdistämisaktiviteettityöarkki Gumroad-myyjille', caption: 'Yhdistämistehtävät ovat monipuolisia Gumroad-resursseja arviointiin ja harjoitteluun' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-2.webp', alt: 'Matemaattinen yhteenlaskutyöarkki Gumroad-kaupan resurssiksi', caption: 'Matemaattiset työarkit ovat Gumroadin haituimmista resurssityypeistä' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sanakäärmepalapeliaktiviteetti Gumroad-kaupan listaukseen', caption: 'Sanakäärmepalapelit toimivat kaikilla ikäryhmillä Gumroadissa' },
+      { src: '/samples/finnish/matching/yhdistä-parit-2.webp', alt: 'Yhdistämisaktiviteettityöarkki Gumroad-myyjille', caption: 'Yhdistämistehtävät ovat monipuolisia Gumroad-resursseja arviointiin ja harjoitteluun' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Näin luot tulostettavia resursseja Gumroadiin — Vaihe vaiheelta -opas',

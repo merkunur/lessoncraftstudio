@@ -213,11 +213,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/addition/sjov%20addition%201.webp', alt: 'Professionelt additionsarbejdsark lavet med LessonCraftStudio-generator' },
+    heroImage: { src: '/samples/danish/addition/sjov-addition-1.webp', alt: 'Professionelt additionsarbejdsark lavet med LessonCraftStudio-generator' },
     samples: [
-      { src: '/samples/danish/addition/sjov%20addition%201.webp', alt: 'Additionsarbejdsark — dansk eksempelarbejdsark', caption: 'Additionsarbejdsark eksempel 1' },
-      { src: '/samples/danish/addition/sjov%20addition%202.webp', alt: 'Additionsarbejdsark — dansk eksempel 2', caption: 'Additionsarbejdsark eksempel 2' },
-      { src: '/samples/danish/addition/sjov%20addition%203.webp', alt: 'Additionsarbejdsark — dansk eksempel 3', caption: 'Additionsarbejdsark eksempel 3' },
+      { src: '/samples/danish/addition/sjov-addition-1.webp', alt: 'Additionsarbejdsark — dansk eksempelarbejdsark', caption: 'Additionsarbejdsark eksempel 1' },
+      { src: '/samples/danish/addition/sjov-addition-2.webp', alt: 'Additionsarbejdsark — dansk eksempel 2', caption: 'Additionsarbejdsark eksempel 2' },
+      { src: '/samples/danish/addition/sjov-addition-3.webp', alt: 'Additionsarbejdsark — dansk eksempel 3', caption: 'Additionsarbejdsark eksempel 3' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Saadan laver du additionsarbejdsark — LessonCraftStudio demo',
@@ -228,7 +228,7 @@ const content: StartContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Tyr — tematisk paedagogisk billede', caption: 'Tyr' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalv — tematisk paedagogisk billede', caption: 'Kalv' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kat — tematisk paedagogisk billede', caption: 'Kat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kat 2 — tematisk paedagogisk billede', caption: 'Kat 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kat 2 — tematisk paedagogisk billede', caption: 'Kat 2' },
   ],
 };
 

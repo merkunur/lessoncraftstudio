@@ -211,22 +211,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/alphabet train/alphabet-train-1.webp',
+      primary: '/samples/english/alphabet%20train/alphabet-train-1.webp',
       primaryAlt: 'Alphabet train worksheet showing 11 colorful wagons with letters and matching clue images for letter recognition',
     },
     sampleGallery: [
       {
-        src: '/samples/english/alphabet train/alphabet-train-1.webp',
+        src: '/samples/english/alphabet%20train/alphabet-train-1.webp',
         alt: 'Colorful alphabet train worksheet with letter-image matching activity for young learners',
         caption: 'Train-wagon format with letter-image matching',
       },
       {
-        src: '/samples/english/alphabet train/alphabet-train-5.webp',
+        src: '/samples/english/alphabet%20train/alphabet-train-5.webp',
         alt: 'Alphabet train worksheet with themed images and multiple clue matching tasks',
         caption: 'Themed images with configurable clue count',
       },
       {
-        src: '/samples/english/alphabet train/alphabet-train-10.webp',
+        src: '/samples/english/alphabet%20train/alphabet-train-10.webp',
         alt: 'Advanced alphabet train worksheet with 11 clues for maximum difficulty letter recognition',
         caption: 'Full 11-clue difficulty for advanced users',
       },

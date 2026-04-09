@@ -227,22 +227,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/alphabet train/alphabet-train-1.webp',
+      primary: '/samples/english/alphabet%20train/alphabet-train-1.webp',
       primaryAlt: 'Alphabet train worksheet with colorful wagons carrying letters and matching animal images',
     },
     sampleGallery: [
       {
-        src: '/samples/english/alphabet train/alphabet-train-1.webp',
+        src: '/samples/english/alphabet%20train/alphabet-train-1.webp',
         alt: 'Alphabet train worksheet with animal theme showing 11 letter wagons and clue images',
         caption: 'Auto Create mode — 11 random letter wagons with animal-themed image clues',
       },
       {
-        src: '/samples/english/alphabet train/alphabet-train-5.webp',
+        src: '/samples/english/alphabet%20train/alphabet-train-5.webp',
         alt: 'Alphabet train worksheet with food theme and 5 clue images for matching',
         caption: 'Manual mode — hand-picked letters with food theme and 5 clues for easier matching',
       },
       {
-        src: '/samples/english/alphabet train/alphabet-train-10.webp',
+        src: '/samples/english/alphabet%20train/alphabet-train-10.webp',
         alt: 'Alphabet train worksheet with vehicle theme and full 11 clues for advanced practice',
         caption: 'Full clue challenge — 11 clues for complete letter-image matching practice',
       },

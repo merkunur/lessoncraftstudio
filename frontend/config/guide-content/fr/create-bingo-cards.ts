@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/bingo/Loto d\'images-1.webp', alt: 'Cartes de bingo thématiques avec images illustrées colorées sur grille et carte d\'appel pour enfants' },
+    heroImage: { src: '/samples/french/bingo/loto-d\'images-1.webp', alt: 'Cartes de bingo thématiques avec images illustrées colorées sur grille et carte d\'appel pour enfants' },
     samples: [
-      { src: '/samples/french/bingo/Loto d\'images-1.webp', alt: 'Carte de bingo à images avec thème animaux montrant une grille 4×4 pour utilisation en ligne', caption: 'Une carte de bingo 4×4 utilisant le thème animaux avec le mode d\'affichage image seule' },
-      { src: '/samples/french/bingo/Loto d\'images-1.webp', alt: 'Carte d\'appel de bingo montrant toutes les images thématiques utilisées dans le jeu de cartes', caption: 'Carte de référence d\'appel montrant toutes les images utilisées dans le jeu de cartes de bingo' },
+      { src: '/samples/french/bingo/loto-d\'images-1.webp', alt: 'Carte de bingo à images avec thème animaux montrant une grille 4×4 pour utilisation en ligne', caption: 'Une carte de bingo 4×4 utilisant le thème animaux avec le mode d\'affichage image seule' },
+      { src: '/samples/french/bingo/loto-d\'images-1.webp', alt: 'Carte d\'appel de bingo montrant toutes les images thématiques utilisées dans le jeu de cartes', caption: 'Carte de référence d\'appel montrant toutes les images utilisées dans le jeu de cartes de bingo' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Comment créer des cartes de bingo avec des images thématiques — Tutoriel complet',

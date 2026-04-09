@@ -215,27 +215,27 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/crossword/bildkorsord%201.webp',
+      primary: '/samples/swedish/crossword/bildkorsord-1.webp',
       primaryAlt: 'Bildkorsord med bildledtrådar bredvid ett 15 gånger 15 korsordsrutnät med numrerade ledtrådspositioner och lokaliserad blå rubrik',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/crossword/bildkorsord%202.webp',
+        src: '/samples/swedish/crossword/bildkorsord-2.webp',
         alt: 'Bildkorsord arbetsblad med tematiska bildledtrådar och 15 gånger 15 korsordsrutnät',
         caption: 'Tematiskt bildkorsord — bilder som ledtrådar med numrerade rutnätspositioner',
       },
       {
-        src: '/samples/swedish/crossword/bildkorsord%203.webp',
+        src: '/samples/swedish/crossword/bildkorsord-3.webp',
         alt: 'Bildkorsord pussel med färgglada illustrationer och korsande ord i rutnätet',
         caption: 'Bildledtrådar — färgglada illustrationer ersätter traditionella textledtrådar',
       },
       {
-        src: '/samples/swedish/crossword/bildkorsord%204.webp',
+        src: '/samples/swedish/crossword/bildkorsord-4.webp',
         alt: 'Bildkorsord med djurtema och bildledtrådar på 15 gånger 15 rutnät',
         caption: 'Tematiskt pussel — djurbilder genererar unika korsordsord per tema',
       },
       {
-        src: '/samples/swedish/crossword/bildkorsord%201%20answer-key.webp',
+        src: '/samples/swedish/crossword/bildkorsord-1-answer-key.webp',
         alt: 'Bildkorsord facit med alla korrekta bokstäver ifyllda i 15 gånger 15 rutnätet',
         caption: 'Automatiskt facit — ifyllt rutnät visar alla korrekta svar för självkontroll',
       },

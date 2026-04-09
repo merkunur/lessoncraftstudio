@@ -278,17 +278,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/shadow%20match/skuggmatchning%201.webp',
+        src: '/samples/swedish/shadow%20match/skuggmatchning-1.webp',
         alt: 'Skuggmatchnings arbetsblad som visar fyra färgade bilder matchade med fyra svarta siluetter med bokstav- och sifferetiketter',
         caption: 'Skuggmatchning-läge — användarna matchar bilder med deras automatiskt genererade siluetter',
       },
       {
-        src: '/samples/swedish/shadow%20match/skuggmatchning%202.webp',
+        src: '/samples/swedish/shadow%20match/skuggmatchning-2.webp',
         alt: 'Gör den hel arbetsblad med delade bildhalvor som användarna kopplar ihop genom att matcha första och andra halvor',
         caption: 'Gör Den Hel-läge — användarna matchar delade bildhalvor för att slutföra bilderna',
       },
       {
-        src: '/samples/swedish/shadow%20match/skuggmatchning%201%20answer%20key.webp',
+        src: '/samples/swedish/shadow%20match/skuggmatchning-1-answer-key.webp',
         alt: 'Skuggmatchning facit som visar originalbilder med siluetter och korrekta bokstav-till-nummer matchningsetiketter',
         caption: 'Automatiskt genererat facit — bokstav-till-nummer etiketter visar korrekta matchningar',
       },

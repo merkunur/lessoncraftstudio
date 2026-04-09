@@ -180,11 +180,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/find and count/i-spy-10.webp', alt: 'Find and count I-Spy worksheet with themed hidden objects and counting task' },
+    heroImage: { src: '/samples/english/find%20and%20count/i-spy-10.webp', alt: 'Find and count I-Spy worksheet with themed hidden objects and counting task' },
     samples: [
-      { src: '/samples/english/find and count/i-spy-11.webp', alt: 'Find and count worksheet page ready for Etsy listing', caption: 'A themed find-and-count I-Spy worksheet exported as a print-ready 300 DPI PDF' },
-      { src: '/samples/english/find and count/i-spy-10.webp', alt: 'I-Spy counting activity with hidden objects in themed scene', caption: 'Hidden Object I-Spy mode with circle task type -- the most popular format on Etsy' },
-      { src: '/samples/english/find and count/i-spy-11.webp', alt: 'Auto-annotated answer key showing target object locations', caption: 'Automatic answer key with annotated target locations -- included with every worksheet' },
+      { src: '/samples/english/find%20and%20count/i-spy-11.webp', alt: 'Find and count worksheet page ready for Etsy listing', caption: 'A themed find-and-count I-Spy worksheet exported as a print-ready 300 DPI PDF' },
+      { src: '/samples/english/find%20and%20count/i-spy-10.webp', alt: 'I-Spy counting activity with hidden objects in themed scene', caption: 'Hidden Object I-Spy mode with circle task type -- the most popular format on Etsy' },
+      { src: '/samples/english/find%20and%20count/i-spy-11.webp', alt: 'Auto-annotated answer key showing target object locations', caption: 'Automatic answer key with annotated target locations -- included with every worksheet' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'How to Create Find and Count Worksheets',

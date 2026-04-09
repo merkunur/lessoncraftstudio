@@ -177,11 +177,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%202.webp', alt: 'Addisjonsarbeidsark som viser bildebaserte matteoppgaver egnet for Amazon KDP aktivitetsbok-interiørsider' },
+    heroImage: { src: '/samples/norwegian/addition/gøy-addisjon-2.webp', alt: 'Addisjonsarbeidsark som viser bildebaserte matteoppgaver egnet for Amazon KDP aktivitetsbok-interiørsider' },
     samples: [
-      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Dyretematisk addisjonsarbeidsark formatert for KDP matte aktivitetsbok', caption: 'Addisjonsarbeidsark med dyretema — bildebaserte matteoppgaver som generator engasjerende KDP aktivitetsboksider' },
-      { src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%202.webp', alt: 'Subtraksjonsarbeidsark for fleroperasjons KDP matte arbeidsbok', caption: 'Subtraksjonsarbeidsark — pares med addisjonssider for å skape omfattende matte aktivitetsbøker på Amazon' },
-      { src: '/samples/norwegian/math%20puzzle/mattepuslespill%202.webp', alt: 'Mattepuslespill rutenett-arbeidsark som tilfører variasjon til KDP aktivitetsbøker', caption: 'Mattepuslespill-rutenett — tilfører engasjerende variasjon til aktivitetsboksider utover standard arbeidsarkdriller' },
+      { src: '/samples/norwegian/addition/gøy-addisjon-1.webp', alt: 'Dyretematisk addisjonsarbeidsark formatert for KDP matte aktivitetsbok', caption: 'Addisjonsarbeidsark med dyretema — bildebaserte matteoppgaver som generator engasjerende KDP aktivitetsboksider' },
+      { src: '/samples/norwegian/subtraction/moro-med-subtraksjon-2.webp', alt: 'Subtraksjonsarbeidsark for fleroperasjons KDP matte arbeidsbok', caption: 'Subtraksjonsarbeidsark — pares med addisjonssider for å skape omfattende matte aktivitetsbøker på Amazon' },
+      { src: '/samples/norwegian/math%20puzzle/mattepuslespill-2.webp', alt: 'Mattepuslespill rutenett-arbeidsark som tilfører variasjon til KDP aktivitetsbøker', caption: 'Mattepuslespill-rutenett — tilfører engasjerende variasjon til aktivitetsboksider utover standard arbeidsarkdriller' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Slik lager du mattearbeidsark for Amazon KDP aktivitetsbøker — trinn-for-trinn veiledning',

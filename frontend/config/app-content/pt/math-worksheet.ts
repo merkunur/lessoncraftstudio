@@ -259,22 +259,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/math worksheet/folha-de-matemática-1.webp',
+      primary: '/samples/portuguese/math%20worksheet/folha-de-matemática-1.webp',
       primaryAlt: 'Atividade de puzzle algébrico ilustrado com símbolos-imagem representando variáveis desconhecidas num sistema de equações',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/math worksheet/folha-de-matemática-2.webp',
+        src: '/samples/portuguese/math%20worksheet/folha-de-matemática-2.webp',
         alt: 'Atividade de puzzle algébrico Muito Fácil com dois símbolos-imagem e equações de só adição',
         caption: 'Nível Muito Fácil — dois símbolos-imagem num sistema de equações simples com só adição',
       },
       {
-        src: '/samples/portuguese/math worksheet/folha-de-matemática-3.webp',
+        src: '/samples/portuguese/math%20worksheet/folha-de-matemática-3.webp',
         alt: 'Atividade de puzzle algébrico Médio com três símbolos-imagem e operações mistas',
         caption: 'Nível Médio — três símbolos em equações interligadas com adição e subtração',
       },
       {
-        src: '/samples/portuguese/math worksheet/folha-de-matemática-4.webp',
+        src: '/samples/portuguese/math%20worksheet/folha-de-matemática-4.webp',
         alt: 'Atividade de puzzle algébrico Difícil com quatro símbolos-imagem num sistema de quatro equações',
         caption: 'Nível Difícil — quatro incógnitas simultâneas para resolução algébrica avançada',
       },

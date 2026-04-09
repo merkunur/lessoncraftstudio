@@ -216,22 +216,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/coloring/coloring%20portrait%201.webp',
+      primary: '/samples/dutch/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Aangepaste kleurplaat gemaakt op vrije-vorm canvas met kleurrijke thematische illustraties geschikt in een originele compositie met decoratieve rand',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/coloring/coloring%20portrait%202.webp',
+        src: '/samples/dutch/coloring/coloring-portrait-2.webp',
         alt: 'Dierenthema kleurplaat met meerdere illustraties geschikt op vrije-vorm canvas die creatieve indelingsmogelijkheden toont',
         caption: 'Dierenthema kleurplaat — vrije-vorm canvas indeling met meerdere illustraties geschikt in een unieke compositie',
       },
       {
-        src: '/samples/dutch/coloring/coloring%20portrait%203.webp',
+        src: '/samples/dutch/coloring/coloring-portrait-3.webp',
         alt: 'Klasklare kleurplaat met naamveld en schrijflijnen toegevoegd met één-klik winkel hulpmiddelen',
         caption: 'Klasactiviteitenblad — naamveld en schrijflijnen transformeren kleurplaten in gestructureerde leeractiviteiten',
       },
       {
-        src: '/samples/dutch/coloring/coloring%20landscape%201.webp',
+        src: '/samples/dutch/coloring/coloring-landscape-1.webp',
         alt: 'Grijstinten kleurplaat export die inkvriendelijke conversie toont van kleurrijke compositie voor KDP-binnenwerken en het printen online',
         caption: 'Grijstintenexport — kleurrijke composities converteren naar inkvriendelijke kleurplaten voor KDP-binnenwerken en bulkprinten',
       },

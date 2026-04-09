@@ -77,11 +77,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulmatyöarkki näyttäen temaattista sanaristikkoa sopivana Amazon KDP -pulmakirjan sisäsivuiksi' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananetsintäpulmatyöarkki näyttäen temaattista sanaristikkoa sopivana Amazon KDP -pulmakirjan sisäsivuiksi' },
     samples: [
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Eläinteemainen sananetsintäpulma muotoiltuna KDP-pulmakirjaksi', caption: 'Eläinteemainen sananetsintä — suosituin pulmatyyppi KDP-kirjoille sekä aikuisten että lasten markkinoilla' },
-      { src: '/samples/finnish/crossword/kuvaristikko%201.webp', alt: 'Ristisanatehtävä temaattisilla vihjeillä KDP-pulmakirjaa varten', caption: 'Ristisanatehtävä — tuo merkittävää sitoutumisarvoa pulmakirjoihin ja sekakokoelmiin Amazonissa' },
-      { src: '/samples/finnish/sudoku/kuva-sudoku%202.webp', alt: 'Kuvasudokupulma lasten sekapulmakirjaa varten KDP:ssä', caption: 'Kuvasudoku — visuaaliset logiikkapulmat jotka tekevät lasten sekapulmakirjoista monipuolisempia ja kiinnostavampia' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Eläinteemainen sananetsintäpulma muotoiltuna KDP-pulmakirjaksi', caption: 'Eläinteemainen sananetsintä — suosituin pulmatyyppi KDP-kirjoille sekä aikuisten että lasten markkinoilla' },
+      { src: '/samples/finnish/crossword/kuvaristikko-1.webp', alt: 'Ristisanatehtävä temaattisilla vihjeillä KDP-pulmakirjaa varten', caption: 'Ristisanatehtävä — tuo merkittävää sitoutumisarvoa pulmakirjoihin ja sekakokoelmiin Amazonissa' },
+      { src: '/samples/finnish/sudoku/kuva-sudoku-2.webp', alt: 'Kuvasudokupulma lasten sekapulmakirjaa varten KDP:ssä', caption: 'Kuvasudoku — visuaaliset logiikkapulmat jotka tekevät lasten sekapulmakirjoista monipuolisempia ja kiinnostavampia' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Kuinka luoda sananetsintäpulmia Amazon KDP -pulmakirjoihin — Vaiheittainen opas',

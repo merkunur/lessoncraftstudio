@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/grid%20match/rutn%c3%a4tspussel%201.webp',
+      primary: '/samples/swedish/grid%20match/rutnätspussel-1.webp',
       primaryAlt: 'Rutnätsmatchning arbetsblad med enda bild uppdelad i plattor, ledtrådsceller synliga och numrerad plattpalett för rumsligt resonemangpussel',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/grid%20match/rutn%c3%a4tspussel%202.webp',
+        src: '/samples/swedish/grid%20match/rutnätspussel-2.webp',
         alt: 'Tre gånger tre rutnätsmatchningspussel med en ledtrådscell synlig och åtta numrerade plattor i blandad palett för matchning',
         caption: '3×3 rutnätspussel — en ledtrådscell synlig, åtta plattor att matcha från numrerad palett',
       },
       {
-        src: '/samples/swedish/grid%20match/rutn%c3%a4tspussel%205.webp',
+        src: '/samples/swedish/grid%20match/rutnätspussel-5.webp',
         alt: 'Fyra gånger fyra avancerat rutnätsmatchningspussel med sexton plattor och minimala ledtrådar för utmanande visuell perceptionsaktivitet',
         caption: '4×4 avancerat pussel — maximal rutnätsstorlek med 16 plattor för utmanande rumsligt resonemang',
       },
       {
-        src: '/samples/swedish/grid%20match/rutn%c3%a4tspussel%201%20answer-key.webp',
+        src: '/samples/swedish/grid%20match/rutnätspussel-1-answer-key.webp',
         alt: 'Rutnätsmatchning facit som visar komplett bild med numrerade gula cirklar överlagrade på varje rutnätscell som anger korrekt plattplacering',
         caption: 'Automatiskt genererat facit — numrerade cirklar (#ffffe0) visar korrekt plattplacering på komplett bild',
       },

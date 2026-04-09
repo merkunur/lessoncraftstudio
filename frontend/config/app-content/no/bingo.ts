@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/bingo/bildebingo%201.webp',
+      primary: '/samples/norwegian/bingo/bildebingo-1.webp',
       primaryAlt: 'Bildebingokort med tematiske bilder i et rutenett og sirkulaere brikker med stiplede kanter nedenfor',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/bingo/bildebingo%201.webp',
+        src: '/samples/norwegian/bingo/bildebingo-1.webp',
         alt: 'Bildebingokort med bildeutfylling som viser fargerike tematiske illustrasjoner i rutenettceller og sirkulaere bildebrikker',
         caption: 'Bildeutfyllingsmodus — fargerike illustrasjoner i både kortceller og sirkulaere brikker',
       },
       {
-        src: '/samples/norwegian/bingo/bildebingo%202.webp',
+        src: '/samples/norwegian/bingo/bildebingo-2.webp',
         alt: 'Bildebingokort med et annet tema og variert rutenettstorrelse',
         caption: 'Tematisk bingokort — 104 temaer gir unike bingoopplevelser for hvert sett',
       },
       {
-        src: '/samples/norwegian/bingo/bildebingo%203.webp',
+        src: '/samples/norwegian/bingo/bildebingo-3.webp',
         alt: 'Bingo oppropsliste med dynamisk ordrutenett som viser alle spillobjekter for spillederen',
         caption: 'Oppropsliste — dynamisk ordrutenett for personen som leder bingospillet',
       },

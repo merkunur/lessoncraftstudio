@@ -210,22 +210,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/code%20addition/hemmelig%20kode%20addition%201.webp',
+      primary: '/samples/danish/code%20addition/hemmelig-kode-addition-1.webp',
       primaryAlt: 'Gratis kodeknækker generator online — hemmelig besked med regnestykker og billedsymboler',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/code%20addition/hemmelig%20kode%20addition%201.webp',
+        src: '/samples/danish/code%20addition/hemmelig-kode-addition-1.webp',
         alt: 'Gratis kodeknækker regneopgaver med dyresymboler — prøv online uden tilmelding',
         caption: 'Normal Tilstand med dyretema — hvert symbol gemmer en unik ciffer',
       },
       {
-        src: '/samples/danish/code%20addition/hemmelig%20kode%20addition%202.webp',
+        src: '/samples/danish/code%20addition/hemmelig-kode-addition-2.webp',
         alt: 'Gratis hemmelig besked regnestykker med Ord Afsløring-tilstand og temabilleder',
         caption: 'Ord Afsløring-tilstand — løs ligninger for at stave et hemmeligt ord',
       },
       {
-        src: '/samples/danish/code%20addition/hemmelig%20kode%20addition%203.webp',
+        src: '/samples/danish/code%20addition/hemmelig-kode-addition-3.webp',
         alt: 'Gratis kodeknækker plusstykker med blandede addender og dekorativ ramme',
         caption: 'Blandede addender med rammedekoration for produktklar output',
       },

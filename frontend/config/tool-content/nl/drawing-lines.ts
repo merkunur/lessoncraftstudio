@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/drawing lines/lijnen%20tekenen%20oefenen%201.webp',
+      primary: '/samples/dutch/drawing%20lines/lijnen-tekenen-oefenen-1.webp',
       primaryAlt: 'Lijntraceer werkblad met SVG bochtensjabloon dat bijpassende kleurrijke afbeeldingsparen verbindt in liggend formaat',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/drawing lines/lijnen%20tekenen%20oefenen%202.webp',
+        src: '/samples/dutch/drawing%20lines/lijnen-tekenen-oefenen-2.webp',
         alt: 'Lijntraceer werkblad met bochtensjabloon dat bijpassende dierenafbeeldingsparen verbindt in liggend formaat',
         caption: 'Bochtensjabloon — vloeiende lijnpaden met 4 kleurrijke afbeeldingsparen in liggend formaat',
       },
       {
-        src: '/samples/dutch/drawing lines/lijnen%20tekenen%20oefenen%203.webp',
+        src: '/samples/dutch/drawing%20lines/lijnen-tekenen-oefenen-3.webp',
         alt: 'Lijntraceer werkblad met diagonaal sjabloon dat vijf afbeeldingsparen verbindt in staand formaat',
         caption: 'Diagonaal sjabloon — schuine lijnen met 5 afbeeldingsparen voor kruiscoördinatie oefening',
       },
       {
-        src: '/samples/dutch/drawing lines/lijnen%20tekenen%20oefenen%204.webp',
+        src: '/samples/dutch/drawing%20lines/lijnen-tekenen-oefenen-4.webp',
         alt: 'Lijntraceer werkblad met horizontaal sjabloon dat natuurthema afbeeldingsparen verbindt in staand formaat',
         caption: 'Horizontaal sjabloon — rechte links-naar-rechts lijnen voor beginner fijne motoriek oefening',
       },

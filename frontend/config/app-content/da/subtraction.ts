@@ -239,22 +239,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/subtraction/sjov%20subtraktion%201.webp',
+      primary: '/samples/danish/subtraction/sjov-subtraktion-1.webp',
       primaryAlt: 'Minusstykker til print med overstregede billeder og automatisk facitliste',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/subtraction/sjov%20subtraktion%201.webp',
+        src: '/samples/danish/subtraction/sjov-subtraktion-1.webp',
         alt: 'Minusstykker med overstregning — diagonale kryds viser forskellen for indskoling',
         caption: 'Overstregning — minusopgaver hvor børnene ser forskellen med diagonale kryds',
       },
       {
-        src: '/samples/danish/subtraction/sjov%20subtraktion%202.webp',
+        src: '/samples/danish/subtraction/sjov-subtraktion-2.webp',
         alt: 'Minusopgaver med billede minus tal til 1. og 2. klasse',
         caption: 'Billede minus Tal — regneopgaver minus for indskoling og mellemtrin',
       },
       {
-        src: '/samples/danish/subtraction/sjov%20subtraktion%203.webp',
+        src: '/samples/danish/subtraction/sjov-subtraktion-3.webp',
         alt: 'Minusstykker med facit hvor børnene finder den manglende forskel',
         caption: 'Find Subtrahenden — minusstykker med facitliste til selvkontrol',
       },

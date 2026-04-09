@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optellen werkblad geschikt voor verkoop op de Gumroad marktplaats' },
+    heroImage: { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optellen werkblad geschikt voor verkoop op de Gumroad marktplaats' },
     samples: [
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Rekenwerkblad voor Gumroad-klasmateriaal', caption: 'Rekenwerkbladen behoren tot de meest gezochte materiaaltypen op Gumroad — verkopers hebben oefenmateriaal nodig voor elke vaardigheid' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekpuzzel activiteit voor Gumroad-winkelvermelding', caption: 'Woordzoekpuzzels werken op alle niveaucategories op Gumroad als woordenschatbouwers, werkhoekactiviteiten en werk voor gevorderde gebruikers' },
-      { src: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp', alt: 'Rekenwerkblad activiteit voor Gumroad-kopers', caption: 'Wiskundewerkbladen zijn veelzijdig Gumroad-materiaal dat verkopers gebruiken voor beoordeling, oefening en herhaling over meerdere vakken' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Rekenwerkblad voor Gumroad-klasmateriaal', caption: 'Rekenwerkbladen behoren tot de meest gezochte materiaaltypen op Gumroad — verkopers hebben oefenmateriaal nodig voor elke vaardigheid' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekpuzzel activiteit voor Gumroad-winkelvermelding', caption: 'Woordzoekpuzzels werken op alle niveaucategories op Gumroad als woordenschatbouwers, werkhoekactiviteiten en werk voor gevorderde gebruikers' },
+      { src: '/samples/dutch/math%20worksheet/wiskundeblad-1.webp', alt: 'Rekenwerkblad activiteit voor Gumroad-kopers', caption: 'Wiskundewerkbladen zijn veelzijdig Gumroad-materiaal dat verkopers gebruiken voor beoordeling, oefening en herhaling over meerdere vakken' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hoe Educatieve Werkbladen Maken voor Gumroad — Stap-voor-Stap Tutorial',

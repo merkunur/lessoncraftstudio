@@ -216,22 +216,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/chart%20count/plaatjesgrafiek%201.webp',
+      primary: '/samples/dutch/chart%20count/plaatjesgrafiek-1.webp',
       primaryAlt: 'Plaatjesgrafiek werkblad met verstrooide 4×5 afbeeldingsraster met 20 pictogrammen van 6 typen en leeg staafdiagram voor gebruikers om gegevens te tellen en grafisch weer te geven',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/chart%20count/plaatjesgrafiek%202.webp',
+        src: '/samples/dutch/chart%20count/plaatjesgrafiek-2.webp',
         alt: 'Dierenthema plaatjesgrafiek werkblad met 20 verstrooide dierenpictogrammen in een 4×5 raster en 6-koloms staafdiagram eronder voor teloefening',
         caption: 'Dierenthema plaatjesgrafiek — 6 diertypen verstrooide over het raster met staafdiagram eronder voor gegevensrepresentatie oefening',
       },
       {
-        src: '/samples/dutch/chart%20count/plaatjesgrafiek%201%20answer-key.webp',
+        src: '/samples/dutch/chart%20count/plaatjesgrafiek-1-answer-key.webp',
         alt: 'Plaatjesgrafiek antwoordblad met geel gemarkeerde cellen die de juiste aantallen per afbeeldingstype tonen in het staafdiagram',
         caption: 'Automatisch gegenereerd antwoordblad — geel gevulde cellen (#FFC857) tonen het juiste aantal voor elk afbeeldingstype',
       },
       {
-        src: '/samples/dutch/chart%20count/plaatjesgrafiek%203.webp',
+        src: '/samples/dutch/chart%20count/plaatjesgrafiek-3.webp',
         alt: 'Plaatjesgrafiek werkblad met decoratief achtergrondthema en kaderthema toegepast met onafhankelijke dekkingsregelaars voor professionele marktplaatspresentatie',
         caption: 'Gedecoreerde plaatjesgrafiek — achtergrond- en kaderthema\'s met onafhankelijke dekkingsregelaars voor professionele productstyling',
       },

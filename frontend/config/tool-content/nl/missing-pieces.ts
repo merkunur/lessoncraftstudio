@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%201.webp',
+      primary: '/samples/dutch/missing%20pieces/ontbrekende-stukjes-1.webp',
       primaryAlt: 'Ontbrekende stukjes puzzelwerkblad met gaten uitgeknipt uit een kleurrijke illustratie en genummerde oplossingsopties inclusief afleiders eronder met turquoise koptekst en groenblauw-roze dubbel kadersysteem',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%202.webp',
+        src: '/samples/dutch/missing%20pieces/ontbrekende-stukjes-2.webp',
         alt: 'Ontbrekende stukjes puzzel met vierkante gaten uitgeknipt uit een kleurrijke illustratie en genummerde oplossingsopties voor visuele identificatie',
         caption: 'Vierkante stukvorm — schone geometrische uitsnijdingen met genummerde oplossingsopties inclusief afleiders',
       },
       {
-        src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%203.webp',
+        src: '/samples/dutch/missing%20pieces/ontbrekende-stukjes-3.webp',
         alt: 'Ontbrekende stukjes puzzel met cirkelvormige gaten en genummerde oplossingsopties inclusief afleidersstukjes voor extra visuele discriminatie uitdaging',
         caption: 'Cirkelvormige stukken — ronde uitsnijdingen met afleideropties die oplossen-door-eliminatie voorkomen',
       },
       {
-        src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%201%20answer-key.webp',
+        src: '/samples/dutch/missing%20pieces/ontbrekende-stukjes-1-answer-key.webp',
         alt: 'Ontbrekende stukjes puzzel antwoordblad met geel gemarkeerde nummerlabels geplaatst in elk gat die de correcte optie-index tonen',
         caption: 'Automatisch gegenereerd antwoordblad — geel gemarkeerde labels (rgba(255,255,0,0.7)) tonen de correcte optie voor elk gat',
       },

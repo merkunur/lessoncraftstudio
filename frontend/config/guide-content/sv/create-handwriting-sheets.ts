@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/word%20guess/Gissa%20Ordet%201.jpeg', alt: 'Skrivövningsarbetsblad som visar progressiva spåra-till-kopiera bokstavsformningsövningar' },
+    heroImage: { src: '/samples/swedish/word%20guess/gissa-ordet-1.jpeg', alt: 'Skrivövningsarbetsblad som visar progressiva spåra-till-kopiera bokstavsformningsövningar' },
     samples: [
-      { src: '/samples/swedish/word%20guess/Gissa%20Ordet%201.jpeg', alt: 'Skrivövningsblad med spårningsrader och streckordningspilar', caption: 'Progressivt skrivövningsarbetsblad med spåra, toningsspårning och guidad kopia rader' },
-      { src: '/samples/swedish/alphabet%20train/alfabet%20t%C3%A5g%201.jpeg', alt: 'Alfabetståg arbetsblad som kompanjon till skrivövning', caption: 'Alfabetståg — kompanjonverktyg som parar bokstavsigenkänning med skrivövning' },
+      { src: '/samples/swedish/word%20guess/gissa-ordet-1.jpeg', alt: 'Skrivövningsblad med spårningsrader och streckordningspilar', caption: 'Progressivt skrivövningsarbetsblad med spåra, toningsspårning och guidad kopia rader' },
+      { src: '/samples/swedish/alphabet%20train/alfabet-tåg-1.jpeg', alt: 'Alfabetståg arbetsblad som kompanjon till skrivövning', caption: 'Alfabetståg — kompanjonverktyg som parar bokstavsigenkänning med skrivövning' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Hur du skapar skrivövningsblad — Komplett guide',

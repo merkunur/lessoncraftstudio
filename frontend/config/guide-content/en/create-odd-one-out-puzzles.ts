@@ -181,10 +181,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/odd one out/find-the-odd-one-out-10.webp', alt: 'Odd one out worksheet with four images per exercise row showing three common items and one odd item with coral-amber-turquoise header' },
+    heroImage: { src: '/samples/english/odd%20one%20out/find-the-odd-one-out-10.webp', alt: 'Odd one out worksheet with four images per exercise row showing three common items and one odd item with coral-amber-turquoise header' },
     samples: [
-      { src: '/samples/english/odd one out/find-the-odd-one-out-11.webp', alt: 'Odd one out worksheet showing exercise cards with four images per row and styled Find the Odd One Out header', caption: 'Odd one out worksheet with four-image exercise rows and adaptive column layout' },
-      { src: '/samples/english/odd one out/find-the-odd-one-out-10.webp', alt: 'Auto-generated answer key with red circle outlines drawn around the odd item in each exercise row', caption: 'Auto-generated answer key with red circle markers identifying the odd item in each row' },
+      { src: '/samples/english/odd%20one%20out/find-the-odd-one-out-11.webp', alt: 'Odd one out worksheet showing exercise cards with four images per row and styled Find the Odd One Out header', caption: 'Odd one out worksheet with four-image exercise rows and adaptive column layout' },
+      { src: '/samples/english/odd%20one%20out/find-the-odd-one-out-10.webp', alt: 'Auto-generated answer key with red circle outlines drawn around the odd item in each exercise row', caption: 'Auto-generated answer key with red circle markers identifying the odd item in each row' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'How to Create Odd One Out Puzzles — Complete Tutorial',
@@ -193,7 +193,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Asparagus — themed educational image', caption: 'Asparagus' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Beetroot — themed educational image', caption: 'Beetroot' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Bell Pepper — themed educational image', caption: 'Bell Pepper' },
+    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Bell Pepper — themed educational image', caption: 'Bell Pepper' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Broccoli — themed educational image', caption: 'Broccoli' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Cabbage — themed educational image', caption: 'Cabbage' },
   ],

@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/grid match/puzzle-a-griglia-1.webp',
+      primary: '/samples/italian/grid%20match/puzzle-a-griglia-1.webp',
       primaryAlt: 'Scheda puzzle a griglia con immagine singola divisa in tessere, celle indizio rivelate e tavolozza tessere numerate per attività di ragionamento spaziale',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/grid match/puzzle-a-griglia-2.webp',
+        src: '/samples/italian/grid%20match/puzzle-a-griglia-2.webp',
         alt: 'Puzzle a griglia tre per tre con una cella indizio visibile e otto tessere numerate nella tavolozza mescolata per abbinamento',
         caption: 'Puzzle griglia 3×3 — una cella indizio rivelata, otto tessere da abbinare dalla tavolozza numerata',
       },
       {
-        src: '/samples/italian/grid match/puzzle-a-griglia-3.webp',
+        src: '/samples/italian/grid%20match/puzzle-a-griglia-3.webp',
         alt: 'Puzzle a griglia avanzato con tessere multiple e indizi minimi per attività di percezione visiva impegnativa',
         caption: 'Puzzle griglia avanzato — dimensione massima con tessere multiple per ragionamento spaziale sfidante',
       },
       {
-        src: '/samples/italian/grid match/puzzle-a-griglia-1-answer-key.webp',
+        src: '/samples/italian/grid%20match/puzzle-a-griglia-1-answer-key.webp',
         alt: 'Chiave di risposta puzzle a griglia che mostra immagine completa con cerchi gialli numerati sovrapposti su ogni cella indicando il posizionamento corretto delle tessere',
         caption: 'Chiave di risposta automatica — cerchi numerati (#ffffe0) mostrano il posizionamento corretto delle tessere sull\'immagine completa',
       },

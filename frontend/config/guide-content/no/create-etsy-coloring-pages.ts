@@ -175,11 +175,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside med tematiske illustrasjoner som viser svart-hvitt strekkunst for salg på Etsy' },
+    heroImage: { src: '/samples/norwegian/coloring/coloring-portrait-1.webp', alt: 'Fargeleggingsside med tematiske illustrasjoner som viser svart-hvitt strekkunst for salg på Etsy' },
     samples: [
-      { src: '/samples/norwegian/coloring/coloring%20portrait%202.webp', alt: 'Dyretematisk fargeleggingsside laget for Etsy digital nedlastingsoppføring', caption: 'Dyre-fargeleggingsside fra tematisk bildebibliotek — ren svart-hvitt strekkunst som generator iøynefallende Etsy-oppføringsbilder' },
-      { src: '/samples/norwegian/coloring/coloring%20portrait%204.webp', alt: 'Naturtematisk fargeleggingsside som viser detaljerte komposisjoner for voksen- og barnemarkeder', caption: 'Natur-fargeleggingsside — allsidig tema som appellerer til både barn og voksne fargeleggingskjøpere på Etsy' },
-      { src: '/samples/norwegian/coloring/coloring%20portrait%203.webp', alt: 'Høytidstematisk fargeleggingsside som demonstrerer sesongprodukt for Etsy-etterspørselstopper', caption: 'Høytids-fargeleggingsside — sesongtemaer driver store etterspørselstopper på Etsy gjennom året' },
+      { src: '/samples/norwegian/coloring/coloring-portrait-2.webp', alt: 'Dyretematisk fargeleggingsside laget for Etsy digital nedlastingsoppføring', caption: 'Dyre-fargeleggingsside fra tematisk bildebibliotek — ren svart-hvitt strekkunst som generator iøynefallende Etsy-oppføringsbilder' },
+      { src: '/samples/norwegian/coloring/coloring-portrait-4.webp', alt: 'Naturtematisk fargeleggingsside som viser detaljerte komposisjoner for voksen- og barnemarkeder', caption: 'Natur-fargeleggingsside — allsidig tema som appellerer til både barn og voksne fargeleggingskjøpere på Etsy' },
+      { src: '/samples/norwegian/coloring/coloring-portrait-3.webp', alt: 'Høytidstematisk fargeleggingsside som demonstrerer sesongprodukt for Etsy-etterspørselstopper', caption: 'Høytids-fargeleggingsside — sesongtemaer driver store etterspørselstopper på Etsy gjennom året' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Slik lager du fargeleggingssider for salg på Etsy — trinn-for-trinn veiledning',

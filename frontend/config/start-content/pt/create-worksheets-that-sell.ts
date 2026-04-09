@@ -236,7 +236,7 @@ const content: StartContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Touro — imagem educativa temática', caption: 'Touro' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Bezerro — imagem educativa temática', caption: 'Bezerro' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Gato — imagem educativa temática', caption: 'Gato' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Gato 2 — imagem educativa temática', caption: 'Gato 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Gato 2 — imagem educativa temática', caption: 'Gato 2' },
   ],
 };
 

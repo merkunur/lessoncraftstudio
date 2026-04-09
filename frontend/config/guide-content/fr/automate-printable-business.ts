@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp',
+      src: '/samples/french/math%20worksheet/feuille-de-mathématique-1.webp',
       alt: 'Fiche de maths professionnelle démontrant la création automatisée rapide pour l\'efficacité du business d\'imprimables',
     },
     samples: [
       {
-        src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp',
+        src: '/samples/french/math%20worksheet/feuille-de-mathématique-1.webp',
         alt: 'Fiche de maths montrant la qualité de production automatisée',
         caption: 'Les générateurs de fiches automatisent l\'étape la plus chronophage de la production d\'imprimables',
       },

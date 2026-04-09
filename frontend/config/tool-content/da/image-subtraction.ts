@@ -210,22 +210,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/subtraction/sjov%20subtraktion%201.webp',
+      primary: '/samples/danish/subtraction/sjov-subtraktion-1.webp',
       primaryAlt: 'Gratis minusstykker generator online — overstregning med temabilleder og automatisk facit',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/subtraction/sjov%20subtraktion%201.webp',
+        src: '/samples/danish/subtraction/sjov-subtraktion-1.webp',
         alt: 'Gratis minusstykker med dyretema — overstregning prøv online uden tilmelding',
         caption: 'Overstregnings-tilstand med dyretema',
       },
       {
-        src: '/samples/danish/subtraction/sjov%20subtraktion%202.webp',
+        src: '/samples/danish/subtraction/sjov-subtraktion-2.webp',
         alt: 'Gratis minusopgaver med Billede minus Tal-tilstand og temabilleder',
         caption: 'Billede − Tal-tilstand med tematiske billeder',
       },
       {
-        src: '/samples/danish/subtraction/sjov%20subtraktion%203.webp',
+        src: '/samples/danish/subtraction/sjov-subtraktion-3.webp',
         alt: 'Gratis minusstykker i Find Subtrahenden-tilstand med dekorativ ramme',
         caption: 'Find Subtrahenden-tilstand med dekorativ ramme',
       },

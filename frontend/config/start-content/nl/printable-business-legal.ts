@@ -212,9 +212,9 @@ const content: StartContent = {
     heroImage: { src: '/samples/dutch/writing/writing.webp', alt: 'Schrijfwerkblad dat commercieel licentieerbare educatieve inhoud demonstreert voor printable bedrijfsverkopers' },
     samples: [
       { src: '/samples/dutch/writing/writing.webp', alt: 'Schrijfwerkblad met commercieel licentieerbare educatieve inhoud', caption: 'Schrijven — Commercieel Licentieerbare Educatieve Inhoud' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzel met hoog volume commercieel productpotentieel', caption: 'Woordzoeker — Populairste Commerciële Puzzeltype' },
-      { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: 'Kruiswoordpuzzel met meertalige commerciële productcapaciteit', caption: 'Kruiswoord — Meertalige Commerciële Producten' },
-      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp', alt: 'Wiskundepuzzel met groenblijvende commerciële productgeneratie', caption: 'Wiskunde — Groenblijvende Commerciële Productgeneratie' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoeker puzzel met hoog volume commercieel productpotentieel', caption: 'Woordzoeker — Populairste Commerciële Puzzeltype' },
+      { src: '/samples/dutch/crossword/plaatjes-kruiswoord-1.webp', alt: 'Kruiswoordpuzzel met meertalige commerciële productcapaciteit', caption: 'Kruiswoord — Meertalige Commerciële Producten' },
+      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels-1.webp', alt: 'Wiskundepuzzel met groenblijvende commerciële productgeneratie', caption: 'Wiskunde — Groenblijvende Commerciële Productgeneratie' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Schrijfwerkbladen Maken voor Je Printable Bedrijf — LessonCraftStudio Demo',

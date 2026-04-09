@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/bingo/plaatjesbingo%201.webp', alt: 'Thematische plaatjesbingokaarten met kleurrijke illustraties in rasterformaat met belkaart voor kinderen' },
+    heroImage: { src: '/samples/dutch/bingo/plaatjesbingo-1.webp', alt: 'Thematische plaatjesbingokaarten met kleurrijke illustraties in rasterformaat met belkaart voor kinderen' },
     samples: [
-      { src: '/samples/dutch/bingo/plaatjesbingo%201.webp', alt: 'Plaatjesbingokaart met dierenthema in 4×4 rasterindeling voor klassikaal gebruik', caption: 'Een 4×4 plaatjesbingokaart met het dierenthema in de modus alleen afbeeldingen' },
-      { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Zoek-de-paren werkblad als aanvullende activiteit bij bingoproducten', caption: 'Zoek-de-paren werkblad — combineer met bingo voor thematische activiteitenbundels' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker werkblad als cross-sell product naast bingokaarten', caption: 'Woordzoeker werkblad — breid je spelformat-catalogus uit naast bingo' },
+      { src: '/samples/dutch/bingo/plaatjesbingo-1.webp', alt: 'Plaatjesbingokaart met dierenthema in 4×4 rasterindeling voor klassikaal gebruik', caption: 'Een 4×4 plaatjesbingokaart met het dierenthema in de modus alleen afbeeldingen' },
+      { src: '/samples/dutch/matching/zoek-de-paren-1.webp', alt: 'Zoek-de-paren werkblad als aanvullende activiteit bij bingoproducten', caption: 'Zoek-de-paren werkblad — combineer met bingo voor thematische activiteitenbundels' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoeker werkblad als cross-sell product naast bingokaarten', caption: 'Woordzoeker werkblad — breid je spelformat-catalogus uit naast bingo' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Hoe Bingokaarten Maken met Thema-Afbeeldingen — Volledige Handleiding',

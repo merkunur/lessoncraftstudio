@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/pattern%20worksheet/m%c3%b8nsterg%c3%a5ter%201.webp',
+      primary: '/samples/norwegian/pattern%20worksheet/mønstergåter-1.webp',
       primaryAlt: 'Mønstergjenkjenning arbeidsark med rutenettbaserte øvelser som viser gjentakende bildemønstre med tomme ruter og flervalgsalternativer for brukerne å fullføre',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/pattern%20worksheet/m%c3%b8nsterg%c3%a5ter%201.webp',
+        src: '/samples/norwegian/pattern%20worksheet/mønstergåter-1.webp',
         alt: 'Mønsterarbeidsark med AB utfyllingsøvelser med dyrebilder i rutenettlayout med tomme ruter for brukerne å fullføre',
         caption: 'AB tom-rute øvelser med dyretema — brukerne identifiserer det alternerende mønsteret og fyller inn det manglende bildet',
       },
       {
-        src: '/samples/norwegian/pattern%20worksheet/m%c3%b8nsterg%c3%a5ter%202.webp',
+        src: '/samples/norwegian/pattern%20worksheet/mønstergåter-2.webp',
         alt: 'Mønsterarbeidsark med ABC flervalgsøvelser med tematiske bilder og tre svaralternativer per øvelse',
         caption: 'ABC flervalgsøvelser — brukerne velger det korrekte manglende objektet blant tre alternativer',
       },
       {
-        src: '/samples/norwegian/pattern%20worksheet/m%c3%b8nsterg%c3%a5ter%203.webp',
+        src: '/samples/norwegian/pattern%20worksheet/mønstergåter-3.webp',
         alt: 'Mønsterarbeidsark fasit som viser alle hull utfylt med riktig mønsterobjekt for verifikasjon',
         caption: 'Fasitvisning — alle hull utfylt med korrekte mønsterobjekter for verifikasjon',
       },

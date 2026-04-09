@@ -218,16 +218,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/alphabet%20train/alfabettog%201.webp',
+      primary: '/samples/norwegian/alphabet%20train/alfabettog-1.webp',
       primaryAlt: 'Ordsøkarbeidsark med tematisk ordforråds rutenett og fargekodede fasit',
     },
     sampleGallery: [
-      { src: '/samples/norwegian/alphabet%20train/alfabettog%201.webp', alt: 'Alfabettog — norsk eksempel', caption: 'Alfabettog' },
-      { src: '/samples/norwegian/prepositions/preposisjoner%201.webp', alt: 'Preposisjonsarbeidsark — norsk eksempel', caption: 'Preposisjonsarbeidsark' },
-      { src: '/samples/norwegian/word%20guess/gjett%20ordet%201.webp', alt: 'Gjett Ordet — norsk eksempel', caption: 'Gjett Ordet' },
-      { src: '/samples/norwegian/word%20scramble/bokstavblanding%201.webp', alt: 'Bokstavblanding — norsk eksempel', caption: 'Bokstavblanding' },
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk — norsk eksempel', caption: 'Ordsøk' },
-      { src: '/samples/norwegian/cryptogram/bildekryptogram%201.webp', alt: 'Bildekryptogram — norsk eksempel', caption: 'Bildekryptogram' },
+      { src: '/samples/norwegian/alphabet%20train/alfabettog-1.webp', alt: 'Alfabettog — norsk eksempel', caption: 'Alfabettog' },
+      { src: '/samples/norwegian/prepositions/preposisjoner-1.webp', alt: 'Preposisjonsarbeidsark — norsk eksempel', caption: 'Preposisjonsarbeidsark' },
+      { src: '/samples/norwegian/word%20guess/gjett-ordet-1.webp', alt: 'Gjett Ordet — norsk eksempel', caption: 'Gjett Ordet' },
+      { src: '/samples/norwegian/word%20scramble/bokstavblanding-1.webp', alt: 'Bokstavblanding — norsk eksempel', caption: 'Bokstavblanding' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøk — norsk eksempel', caption: 'Ordsøk' },
+      { src: '/samples/norwegian/cryptogram/bildekryptogram-1.webp', alt: 'Bildekryptogram — norsk eksempel', caption: 'Bildekryptogram' },
       { src: '/samples/norwegian/writing/writing.webp', alt: 'Skriveøvelse — norsk eksempel', caption: 'Skriveøvelse' },
     ],
     youtubeId: '36keBFzJbPo',

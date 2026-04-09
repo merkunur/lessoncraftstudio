@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/find%20objects/Hitta%20F%C3%B6rem%C3%A5len%201.jpeg', alt: 'Hitta föremålen-scenarbetsblad med tematiska bilder arrangerade för barn att hitta specifika föremål' },
+    heroImage: { src: '/samples/swedish/find%20objects/hitta-föremålen-1.jpeg', alt: 'Hitta föremålen-scenarbetsblad med tematiska bilder arrangerade för barn att hitta specifika föremål' },
     samples: [
-      { src: '/samples/swedish/find%20objects/Hitta%20F%C3%B6rem%C3%A5len%201.jpeg', alt: 'I Spy hitta föremålen-arbetsblad med tematisk scen', caption: 'I Spy hitta föremålen-scen med tematiska bilder och distraktionsobjekt för visuell sökövning' },
-      { src: '/samples/swedish/find%20objects/Hitta%20F%C3%B6rem%C3%A5len%202.jpeg', alt: 'Hitta föremålen facit som markerar platserna för dolda objekt', caption: 'Automatiskt facit genereras för varje hitta föremålen-scenarbetsblad' },
+      { src: '/samples/swedish/find%20objects/hitta-föremålen-1.jpeg', alt: 'I Spy hitta föremålen-arbetsblad med tematisk scen', caption: 'I Spy hitta föremålen-scen med tematiska bilder och distraktionsobjekt för visuell sökövning' },
+      { src: '/samples/swedish/find%20objects/hitta-föremålen-2.jpeg', alt: 'Hitta föremålen facit som markerar platserna för dolda objekt', caption: 'Automatiskt facit genereras för varje hitta föremålen-scenarbetsblad' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Hur du skapar hitta föremålen-scenarbetsblad — Komplett guide',

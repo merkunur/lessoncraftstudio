@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/math puzzle/mathe-rätsel-1.webp',
+      primary: '/samples/german/math%20puzzle/mathe-rätsel-1.webp',
       primaryAlt: 'Mathe-Rätsel-Arbeitsblatt mit einem bunten Bild, aufgeteilt in Rasterteile mit Rechenaufgaben',
     },
     sampleGallery: [
       {
-        src: '/samples/german/math puzzle/mathe-rätsel-2.webp',
+        src: '/samples/german/math%20puzzle/mathe-rätsel-2.webp',
         alt: 'Mathe-Rätsel-Arbeitsblatt mit 3×3-Additions-Raster im Tierthema',
         caption: 'Additions-Modus — 3×3-Raster mit 9 Puzzleteilen und durchmischten Antworten darunter',
       },
       {
-        src: '/samples/german/math puzzle/mathe-rätsel-3.webp',
+        src: '/samples/german/math%20puzzle/mathe-rätsel-3.webp',
         alt: 'Mathe-Rätsel-Arbeitsblatt mit 2×3-Subtraktions-Raster im Naturthema',
         caption: 'Subtraktions-Modus — 2×3-Raster für eine schnelle 6-Teile-Puzzle-Herausforderung',
       },
       {
-        src: '/samples/german/math puzzle/mathe-rätsel-4.webp',
+        src: '/samples/german/math%20puzzle/mathe-rätsel-4.webp',
         alt: 'Mathe-Rätsel-Arbeitsblatt mit 4×4-gemischtem-Raster im Fahrzeugthema',
         caption: 'Gemischter Modus — 4×4-Raster mit 16 Teilen für fortgeschrittenes Problemlösen',
       },

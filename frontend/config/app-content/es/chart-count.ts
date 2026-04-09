@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/chart count/gráfico-de-dibujos-1.webp',
+      primary: '/samples/spanish/chart%20count/gráfico-de-dibujos-1.webp',
       primaryAlt: 'Ficha de gráfico de imágenes con cuadrícula de iconos dispersos y gráfico de barras para que los usuarios cuenten y representen 6 tipos de imágenes',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/chart count/gráfico-de-dibujos-2.webp',
+        src: '/samples/spanish/chart%20count/gráfico-de-dibujos-2.webp',
         alt: 'Ficha de gráfico de imágenes con tema de animales con 20 iconos de animales dispersos y gráfico de barras vacío',
         caption: 'Gráfico de imágenes con tema de animales — 6 tipos de animales dispersos en la cuadrícula con gráfico de barras debajo',
       },
       {
-        src: '/samples/spanish/chart count/gráfico-de-dibujos-3.webp',
+        src: '/samples/spanish/chart%20count/gráfico-de-dibujos-3.webp',
         alt: 'Clave de respuesta del gráfico de imágenes con casillas resaltadas en amarillo mostrando los conteos correctos para cada tipo de imagen',
         caption: 'Clave de respuesta autogenerada — casillas rellenas en amarillo mostrando el conteo correcto para cada tipo de imagen',
       },
       {
-        src: '/samples/spanish/chart count/gráfico-de-dibujos-1-answer-key.webp',
+        src: '/samples/spanish/chart%20count/gráfico-de-dibujos-1-answer-key.webp',
         alt: 'Ficha de gráfico de imágenes con tema de fondo decorativo y marco de borde aplicados',
         caption: 'Gráfico de imágenes decorado — temas de fondo y borde con controles de opacidad independientes',
       },

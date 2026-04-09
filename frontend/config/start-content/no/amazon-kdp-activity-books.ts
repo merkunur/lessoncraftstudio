@@ -215,12 +215,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/sudoku/bilde-sudoku%201.webp', alt: 'Sudoku puslespillarbeidsark eksempel for Amazon KDP aktivitetsbok-publisering' },
+    heroImage: { src: '/samples/norwegian/sudoku/bilde-sudoku-1.webp', alt: 'Sudoku puslespillarbeidsark eksempel for Amazon KDP aktivitetsbok-publisering' },
     samples: [
-      { src: '/samples/norwegian/sudoku/bilde-sudoku%201.webp', alt: 'Sudoku puslespillarbeidsark for KDP aktivitetsbok-innhold', caption: 'Sudoku — Topp KDP Puslespillkategori' },
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk-puslespill for Amazon KDP aktivitetsbok', caption: 'Ordsøk — KDP Bestselgerkategori' },
-      { src: '/samples/norwegian/math%20puzzle/mattepuslespill%201.webp', alt: 'Mattepuslespillarbeidsark for KDP arbeidsbokinnhold', caption: 'Mattepuslespill — Eviggrønn KDP-nisje' },
-      { src: '/samples/norwegian/crossword/bildekryssord%201.webp', alt: 'Bildekryssord puslespillarbeidsark for KDP aktivitetsbok', caption: 'Bildekryssord — Klassisk Aktivitetsbokformat' },
+      { src: '/samples/norwegian/sudoku/bilde-sudoku-1.webp', alt: 'Sudoku puslespillarbeidsark for KDP aktivitetsbok-innhold', caption: 'Sudoku — Topp KDP Puslespillkategori' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøk-puslespill for Amazon KDP aktivitetsbok', caption: 'Ordsøk — KDP Bestselgerkategori' },
+      { src: '/samples/norwegian/math%20puzzle/mattepuslespill-1.webp', alt: 'Mattepuslespillarbeidsark for KDP arbeidsbokinnhold', caption: 'Mattepuslespill — Eviggrønn KDP-nisje' },
+      { src: '/samples/norwegian/crossword/bildekryssord-1.webp', alt: 'Bildekryssord puslespillarbeidsark for KDP aktivitetsbok', caption: 'Bildekryssord — Klassisk Aktivitetsbokformat' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Slik Lager du Sudoku Puslespill-arbeidsark — LessonCraftStudio Demo',

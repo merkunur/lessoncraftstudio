@@ -200,11 +200,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskutehtävä luotu LessonCraftStudio-generaattorilla' },
+    heroImage: { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Yhteenlaskutehtävä luotu LessonCraftStudio-generaattorilla' },
     samples: [
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Kuvapohjainen yhteenlaskutehtävä — esimerkkituloste', caption: 'Yhteenlasku — perusmatematiikan ikiviheä myyjä' },
-      { src: '/samples/finnish/subtraction/hauska%20v%c3%a4hennyslasku%201.webp', alt: 'Kuvapohjainen vähennyslaskutehtävä — esimerkkituloste', caption: 'Vähennyslasku — visuaalinen lähestymistapa abstraktiin käsitteeseen' },
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%202.webp', alt: 'Eläinteemainen yhteenlaskutehtävä — esimerkkituloste', caption: 'Teemoitetut matikkatehtävät erottuvat kilpailijoista' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Kuvapohjainen yhteenlaskutehtävä — esimerkkituloste', caption: 'Yhteenlasku — perusmatematiikan ikiviheä myyjä' },
+      { src: '/samples/finnish/subtraction/hauskaa-vähennyslaskua-1.webp', alt: 'Kuvapohjainen vähennyslaskutehtävä — esimerkkituloste', caption: 'Vähennyslasku — visuaalinen lähestymistapa abstraktiin käsitteeseen' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-2.webp', alt: 'Eläinteemainen yhteenlaskutehtävä — esimerkkituloste', caption: 'Teemoitetut matikkatehtävät erottuvat kilpailijoista' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Näin luot matikkatehtäviä — LessonCraftStudio-demo',

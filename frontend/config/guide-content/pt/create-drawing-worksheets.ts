@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/draw and color/desenha-e-pinta-1.webp', alt: 'Atividade de desenho em grelha com sistema de grelha dupla mostrando grelha de prática vazia e grelha de pistas parcialmente revelada com tema de contorno P/B' },
+    heroImage: { src: '/samples/portuguese/draw%20and%20color/desenha-e-pinta-1.webp', alt: 'Atividade de desenho em grelha com sistema de grelha dupla mostrando grelha de prática vazia e grelha de pistas parcialmente revelada com tema de contorno P/B' },
     samples: [
-      { src: '/samples/portuguese/draw and color/desenha-e-pinta-2.webp', alt: 'Atividade de desenho em grelha mostrando sistema de grelha dupla com grelha de prática e grelha de pistas para reprodução célula por célula', caption: 'Formato de grelha dupla: grelha de prática vazia em cima e grelha de pistas com referência parcial em baixo para exercícios de desenho estruturados' },
-      { src: '/samples/portuguese/draw and color/desenha-e-pinta-3.webp', alt: 'Atividade de desenho em grelha com tema de animais em contorno P/B a percentagem de pistas moderada', caption: 'Tema de contorno P/B de animais a 25% de pistas — os usuários reproduzem o contorno a partir de pistas dispersas na grelha e depois colorem o seu desenho' },
+      { src: '/samples/portuguese/draw%20and%20color/desenha-e-pinta-2.webp', alt: 'Atividade de desenho em grelha mostrando sistema de grelha dupla com grelha de prática e grelha de pistas para reprodução célula por célula', caption: 'Formato de grelha dupla: grelha de prática vazia em cima e grelha de pistas com referência parcial em baixo para exercícios de desenho estruturados' },
+      { src: '/samples/portuguese/draw%20and%20color/desenha-e-pinta-3.webp', alt: 'Atividade de desenho em grelha com tema de animais em contorno P/B a percentagem de pistas moderada', caption: 'Tema de contorno P/B de animais a 25% de pistas — os usuários reproduzem o contorno a partir de pistas dispersas na grelha e depois colorem o seu desenho' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Como criar atividades de desenho e simetria — Tutorial completo',

@@ -194,7 +194,7 @@ const content: GuideContent = {
         caption: 'Kleurplaten passen zich aan elk seizoensthema aan, waardoor ze ideale producten zijn voor jaarronde seizoensmarketing',
       },
       {
-        src: '/samples/dutch/bingo/bingo-card.webp',
+        src: '/samples/dutch/bingo/plaatjesbingo-1.webp',
         alt: 'Bingokaart die seizoensgebonden printable content demonstreert voor feestdagen marktplaatslistings',
         caption: 'Seizoensgebonden bingokaarten zijn consistente topverkopers tijdens feestdagen vraagpieken op alle printable marktplaatsen',
       },

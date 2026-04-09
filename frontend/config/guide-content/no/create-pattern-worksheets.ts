@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/pattern%20worksheet/m%c3%b8nsterg%c3%a5ter%201.webp', alt: 'Monstergjenkjenningsarbeidsark med tematiske bilder som viser visuelle monsterfullforingsovelser for barn' },
+    heroImage: { src: '/samples/norwegian/pattern%20worksheet/mønstergåter-1.webp', alt: 'Monstergjenkjenningsarbeidsark med tematiske bilder som viser visuelle monsterfullforingsovelser for barn' },
     samples: [
-      { src: '/samples/norwegian/pattern%20worksheet/m%c3%b8nsterg%c3%a5ter%201.webp', alt: 'Monstergjenkjenningsarbeidsark med dyretema som viser AB- og ABC-monsterovelser', caption: 'Monstergjenkjenningsarbeidsark med tematiske bilder med flere monstertyper og automatisk fasit' },
-      { src: '/samples/norwegian/pattern%20worksheet/m%c3%b8nsterg%c3%a5ter%201.webp', alt: 'Monsterarbeidsark-fasit som viser fullforte monstre med korrekte bilder fylt inn', caption: 'Automatisk fasit generert sammen med hvert monsterarbeidsark for rask retting' },
+      { src: '/samples/norwegian/pattern%20worksheet/mønstergåter-1.webp', alt: 'Monstergjenkjenningsarbeidsark med dyretema som viser AB- og ABC-monsterovelser', caption: 'Monstergjenkjenningsarbeidsark med tematiske bilder med flere monstertyper og automatisk fasit' },
+      { src: '/samples/norwegian/pattern%20worksheet/mønstergåter-1.webp', alt: 'Monsterarbeidsark-fasit som viser fullforte monstre med korrekte bilder fylt inn', caption: 'Automatisk fasit generert sammen med hvert monsterarbeidsark for rask retting' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'Hvordan lage monstergjenkjenningsarbeidsark — komplett veiledning',

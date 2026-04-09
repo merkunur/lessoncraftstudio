@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/sudoku/sudoku_l%C3%A4tt.jpeg', alt: 'Bildsudoku pusselarbetsblad som visar tematiskt bildrutnät lämpligt för Amazon KDP sudokuboks-interiörsidor' },
+    heroImage: { src: '/samples/swedish/sudoku/sudoku-lätt.jpeg', alt: 'Bildsudoku pusselarbetsblad som visar tematiskt bildrutnät lämpligt för Amazon KDP sudokuboks-interiörsidor' },
     samples: [
-      { src: '/samples/swedish/sudoku/sudoku_l%C3%A4tt.jpeg', alt: 'Djurtematiserat bildsudoku pussel formaterat för KDP barns sudokubok', caption: 'Bildsudoku med djurtema — bildbaserade rutnät gör sudokulogik tillgänglig för barn i åldrarna 3 till 7 som ännu inte lärt sig siffror' },
-      { src: '/samples/swedish/sudoku/sudoku_medel.jpeg', alt: 'Bildsudoku pusselarbetsblad för KDP boks-interiör', caption: 'Bildsudoku arbetsblad — 4x4-rutnät med tydliga bilder och generös cellstorlek för bekvämt lösande av små barn' },
-      { src: '/samples/swedish/sudoku/sudoku_sv%C3%A5r.jpeg', alt: 'Mattepussel arbetsblad för kompanjon KDP-pusselkatalog', caption: 'Svårare bildsudoku — 6x6-rutnät introducerar större utmaning för barn som bemästrat grundläggande 4x4-pussel' },
+      { src: '/samples/swedish/sudoku/sudoku-lätt.jpeg', alt: 'Djurtematiserat bildsudoku pussel formaterat för KDP barns sudokubok', caption: 'Bildsudoku med djurtema — bildbaserade rutnät gör sudokulogik tillgänglig för barn i åldrarna 3 till 7 som ännu inte lärt sig siffror' },
+      { src: '/samples/swedish/sudoku/sudoku-medel.jpeg', alt: 'Bildsudoku pusselarbetsblad för KDP boks-interiör', caption: 'Bildsudoku arbetsblad — 4x4-rutnät med tydliga bilder och generös cellstorlek för bekvämt lösande av små barn' },
+      { src: '/samples/swedish/sudoku/sudoku-svår.jpeg', alt: 'Mattepussel arbetsblad för kompanjon KDP-pusselkatalog', caption: 'Svårare bildsudoku — 6x6-rutnät introducerar större utmaning för barn som bemästrat grundläggande 4x4-pussel' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Hur du skapar bildsudoku-pussel för Amazon KDP-böcker — steg-för-steg-guide',

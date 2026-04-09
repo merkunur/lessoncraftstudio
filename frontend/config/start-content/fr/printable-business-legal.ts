@@ -211,7 +211,7 @@ const content: StartContent = {
       { src: '/samples/french/writing/writing-beginning-letter.webp', alt: 'Fiche d\'écriture montrant du contenu éducatif sous licence commerciale', caption: 'Écriture — Contenu Éducatif sous Licence Commerciale' },
       { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés démontrant le potentiel commercial à gros volume', caption: 'Mots Cachés — Type de Puzzle Commercial le Plus Populaire' },
       { src: '/samples/french/crossword/mots-croisés-en-images-1.webp', alt: 'Mots croisés montrant la capacité de produits commerciaux multilingues', caption: 'Mots Croisés — Produits Commerciaux Multilingues' },
-      { src: '/samples/french/math puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche de maths démontrant la génération de produits commerciaux intemporels', caption: 'Maths — Génération de Produits Commerciaux Intemporels' },
+      { src: '/samples/french/math%20puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche de maths démontrant la génération de produits commerciaux intemporels', caption: 'Maths — Génération de Produits Commerciaux Intemporels' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Comment Créer des Fiches d\'Écriture pour Votre Activité d\'Imprimables — Démo LessonCraftStudio',

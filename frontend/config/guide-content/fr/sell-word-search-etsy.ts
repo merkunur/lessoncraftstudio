@@ -193,7 +193,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés thématique créé pour une annonce de téléchargement numérique Etsy', caption: 'Puzzle de mots cachés avec thème vocabulaire — format à grille qui crée des photos d\'annonce Etsy accrocheuses' },
       { src: '/samples/french/crossword/mots-croisés-en-images-1.webp', alt: 'Puzzle de mots croisés complétant les mots cachés dans une boutique de puzzles Etsy', caption: 'Mots croisés — compagnon naturel de vente croisée avec les annonces de mots cachés dans votre boutique Etsy' },
-      { src: '/samples/french/word scramble/mots-mêlés-1.webp', alt: 'Puzzle de mots mélangés montrant un format complémentaire pour les lots de puzzles Etsy', caption: 'Puzzle de mots mélangés — activité rapide de vocabulaire qui ajoute de la variété aux lots multi-format' },
+      { src: '/samples/french/word%20scramble/mots-mêlés-1.webp', alt: 'Puzzle de mots mélangés montrant un format complémentaire pour les lots de puzzles Etsy', caption: 'Puzzle de mots mélangés — activité rapide de vocabulaire qui ajoute de la variété aux lots multi-format' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Comment créer des mots cachés pour vendre sur Etsy — Tutoriel pas à pas',

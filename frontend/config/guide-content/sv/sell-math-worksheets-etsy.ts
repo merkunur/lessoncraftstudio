@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Additionsarbetsblad med tematiska illustrationer som visar bildbaserade matteuppgifter för försäljning på Etsy' },
+    heroImage: { src: '/samples/swedish/addition/addition-övning.webp', alt: 'Additionsarbetsblad med tematiska illustrationer som visar bildbaserade matteuppgifter för försäljning på Etsy' },
     samples: [
-      { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Djurtematiserat additionsarbetsblad skapat för Etsy digital nedladdningsannons', caption: 'Additionsarbetsblad med djurtema — bildbaserade matteuppgifter som skapar iögonfallande Etsy-annonsfoton' },
-      { src: '/samples/swedish/subtraction/rolig%20subtraktio%201.webp', alt: 'Subtraktionsarbetsblad som kompletterar additionsprodukter i en Etsy mattearbetsbladbutik', caption: 'Subtraktionsarbetsblad — naturlig korsförsäljningskompanjon till additionsannonser i din Etsy-butik' },
-      { src: '/samples/swedish/math puzzle/mattepussel%201.webp', alt: 'Mattepussel rutnätsarbetsblad som visar unikt format som differentierar Etsy-annonser', caption: 'Mattepussel rutnät — unikt format med mindre Etsy-konkurrens än standardarbetsblad' },
+      { src: '/samples/swedish/addition/addition-övning.webp', alt: 'Djurtematiserat additionsarbetsblad skapat för Etsy digital nedladdningsannons', caption: 'Additionsarbetsblad med djurtema — bildbaserade matteuppgifter som skapar iögonfallande Etsy-annonsfoton' },
+      { src: '/samples/swedish/subtraction/rolig-subtraktio-1.webp', alt: 'Subtraktionsarbetsblad som kompletterar additionsprodukter i en Etsy mattearbetsbladbutik', caption: 'Subtraktionsarbetsblad — naturlig korsförsäljningskompanjon till additionsannonser i din Etsy-butik' },
+      { src: '/samples/swedish/math%20puzzle/mattepussel-1.webp', alt: 'Mattepussel rutnätsarbetsblad som visar unikt format som differentierar Etsy-annonser', caption: 'Mattepussel rutnät — unikt format med mindre Etsy-konkurrens än standardarbetsblad' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hur du skapar additionsarbetsblad för försäljning på Etsy — steg-för-steg-guide',

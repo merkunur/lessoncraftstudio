@@ -271,22 +271,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/grid match/puzzle-grille-1.webp',
+      primary: '/samples/french/grid%20match/puzzle-grille-1.webp',
       primaryAlt: 'Fiche de puzzle grille avec tuiles d\'images divisées en grille, cases-indices révélées et palette de tuiles numérotées pour la correspondance',
     },
     sampleGallery: [
       {
-        src: '/samples/french/grid match/puzzle-grille-1.webp',
+        src: '/samples/french/grid%20match/puzzle-grille-1.webp',
         alt: 'Puzzle grille 3×3 avec une case-indice et huit tuiles numérotées dans la palette',
         caption: 'Puzzle grille 3×3 — une case-indice révélée, huit tuiles à associer depuis la palette numérotée',
       },
       {
-        src: '/samples/french/grid match/puzzle-grille-5.webp',
+        src: '/samples/french/grid%20match/puzzle-grille-5.webp',
         alt: 'Puzzle grille 4×4 avancé avec seize tuiles et indices minimaux',
         caption: 'Puzzle 4×4 avancé — taille de grille maximale pour des activités de perception visuelle stimulantes',
       },
       {
-        src: '/samples/french/grid match/puzzle-grille-1-answer-key.webp',
+        src: '/samples/french/grid%20match/puzzle-grille-1-answer-key.webp',
         alt: 'Corrigé du puzzle grille montrant l\'image complète avec des cercles numérotés superposés sur chaque cellule',
         caption: 'Corrigé généré automatiquement — les cercles numérotés montrent le placement correct des tuiles sur l\'image complète',
       },

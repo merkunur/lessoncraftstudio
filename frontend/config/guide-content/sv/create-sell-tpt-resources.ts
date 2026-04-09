@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/addition/addition_%C3%B6vning.jpeg', alt: 'Additionsarbetsblad lämpligt för att sälja på Gumroad marknadsplats' },
+    heroImage: { src: '/samples/swedish/addition/addition-övning.jpeg', alt: 'Additionsarbetsblad lämpligt för att sälja på Gumroad marknadsplats' },
     samples: [
-      { src: '/samples/swedish/addition/addition_%C3%B6vning.jpeg', alt: 'Matteadditionsarbetsblad för Gumroad produktlinjesresurs', caption: 'Mattearbetsblad är bland de mest sökta resurstyperna på Gumroad — säljare behöver standardanpassad övning' },
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Ordsökningspussel aktivitet för Gumroad butikslistning', caption: 'Ordsökningspussel fungerar över alla årskurser på Gumroad som vokabulärbyggare, centraaktiviteter och tidiga-slut-arbete' },
-      { src: '/samples/swedish/matching/Matchningsspel.jpeg', alt: 'Matchningsaktivitet arbetsblad för Gumroad-säljare', caption: 'Matchningsaktiviteter är mångsidiga Gumroad-resurser som säljare använder för utvärdering, övning och repetition' },
+      { src: '/samples/swedish/addition/addition-övning.jpeg', alt: 'Matteadditionsarbetsblad för Gumroad produktlinjesresurs', caption: 'Mattearbetsblad är bland de mest sökta resurstyperna på Gumroad — säljare behöver standardanpassad övning' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Ordsökningspussel aktivitet för Gumroad butikslistning', caption: 'Ordsökningspussel fungerar över alla årskurser på Gumroad som vokabulärbyggare, centraaktiviteter och tidiga-slut-arbete' },
+      { src: '/samples/swedish/matching/matchningsspel.jpeg', alt: 'Matchningsaktivitet arbetsblad för Gumroad-säljare', caption: 'Matchningsaktiviteter är mångsidiga Gumroad-resurser som säljare använder för utvärdering, övning och repetition' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hur du skapar pedagogiska arbetsblad för Gumroad — steg-för-steg-guide',

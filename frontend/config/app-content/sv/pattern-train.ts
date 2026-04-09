@@ -273,12 +273,12 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/pattern%20train/pattern-train-worksheet%20-1.webp',
+        src: '/samples/swedish/pattern%20train/pattern-train-worksheet-1.webp',
         alt: 'Mönstertåg-arbetsblad med AB alternerande mönster och djurbilder över 11 tematiska tågvagnar',
         caption: 'AB-mönster med djurtema — användarna identifierar den alternerande sekvensen och fyller i den saknade vagnen',
       },
       {
-        src: '/samples/swedish/pattern%20train/pattern-train-worksheet%20-2.webp',
+        src: '/samples/swedish/pattern%20train/pattern-train-worksheet-2.webp',
         alt: 'Mönstertåg-arbetsblad med ABC treelement-mönster och tematiska bilder över tågvagnar',
         caption: 'ABC-mönster — tre roterande element skapar en mer komplex upprepande sekvens',
       },

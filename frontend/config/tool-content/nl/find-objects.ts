@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/find%20objects/vind%20de%20verborgen%20voorwerpen%201.webp',
+      primary: '/samples/dutch/find%20objects/vind-de-verborgen-voorwerpen-1.webp',
       primaryAlt: 'Verborgen voorwerp werkblad met vrij verspreide afbeeldingen geplaatst met nul-overlap algoritme, legenda onderaan die toont welke objecten gevonden moeten worden, en decoratieve Fredoka koptekst',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/find%20objects/vind%20de%20verborgen%20voorwerpen%202.webp',
+        src: '/samples/dutch/find%20objects/vind-de-verborgen-voorwerpen-2.webp',
         alt: 'Vind de Verborgen Voorwerpen scène met vrij verspreide afbeeldingen en legenda die doelafbeeldingen toont onderaan het werkblad',
         caption: 'Vind de Verborgen Voorwerpen modus — vrij verspreide zoekscène met nul-overlap plaatsing en legenda-weergave',
       },
       {
-        src: '/samples/dutch/find%20objects/vind%20de%20vreemde%20eend.webp',
+        src: '/samples/dutch/find%20objects/vind-de-vreemde-eend.webp',
         alt: 'Vind de Vreemde Eend werkblad met gekoppelde afbeeldingen in rijen en ongekoppelde items om te identificeren, 50% groter weergegeven',
         caption: 'Vind de Vreemde Eend modus — gekoppelde afbeeldingen met ongekoppelde items voor visuele discriminatie activiteiten',
       },
       {
-        src: '/samples/dutch/find%20objects/vind%20de%20verborgen%20voorwerpen%201%20answer-key.webp',
+        src: '/samples/dutch/find%20objects/vind-de-verborgen-voorwerpen-1-answer-key.webp',
         alt: 'Verborgen voorwerp werkblad antwoordblad met rode cirkels getekend rond doelafbeeldingen, 3 tot 5 pixels groter dan elk object',
         caption: 'Automatisch gegenereerd antwoordblad — rode cirkelannotaties markeren verborgen en ongekoppelde objecten voor zelfcontrole',
       },

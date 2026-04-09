@@ -278,22 +278,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/shadow%20match/t%c3%a4ydenn%c3%a4%20kuvat%201.webp',
+      primary: '/samples/finnish/shadow%20match/täydennä-kuvat-1.webp',
       primaryAlt: 'Varjoyhdistely-työlehti värillisinä kuvina ylärivillä ja automaattisesti luotuina mustina siluetteina alarivillä keltaisella otsikolla',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/shadow%20match/t%c3%a4ydenn%c3%a4%20kuvat%202.webp',
+        src: '/samples/finnish/shadow%20match/täydennä-kuvat-2.webp',
         alt: 'Varjoyhdistely-työlehti, jossa neljä värillistä kuvaa yhdistetään neljään mustaan siluettiin kirjain- ja numerotunnisteilla',
         caption: 'Varjoyhdistely-tila — käyttäjät yhdistävät kuvat automaattisesti luotuihin siluetteihin',
       },
       {
-        src: '/samples/finnish/shadow%20match/t%c3%a4ydenn%c3%a4%20kuvat%203.webp',
+        src: '/samples/finnish/shadow%20match/täydennä-kuvat-3.webp',
         alt: 'Tee Kokonaiseksi -työlehti jaetuilla kuvapuolikkailla, jotka käyttäjät yhdistävät parittamalla ensimmäiset ja toiset puolikkaat',
         caption: 'Tee Kokonaiseksi -tila — käyttäjät yhdistävät jaetut kuvapuolikkaat kuvien täydentämiseksi',
       },
       {
-        src: '/samples/finnish/shadow%20match/t%c3%a4ydenn%c3%a4%20kuvat%201%20answer-key.webp',
+        src: '/samples/finnish/shadow%20match/täydennä-kuvat-1-answer-key.webp',
         alt: 'Varjoyhdistelyn vastausavain, jossa alkuperäiskuvat siluetteineen ja oikeat kirjain-numero-yhdistelymerkinnät',
         caption: 'Automaattisesti luotu vastausavain — kirjain-numero-merkinnät näyttävät oikeat yhdistelmät',
       },

@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityskuva luotu temaattisista kuvista näyttäen harmaasävymuunnoksen tulostusvalmiille väritysarkeille' },
+    heroImage: { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Värityskuva luotu temaattisista kuvista näyttäen harmaasävymuunnoksen tulostusvalmiille väritysarkeille' },
     samples: [
-      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Temaattinen värityskuva eläinkuvituksilla vapaasti sijoitettuna kankaalle', caption: 'Värityskuva luotu kirjaston temaattisilla kuvilla vapaalla kankaan sijoittelulla' },
-      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Harmaasävyvärityskuva tulostusvalmiina puhtailla mustavalkoisilla ääriviivoilla', caption: 'Harmaasävyvienti muuntaa värikäs designit tulostusvalmiiksi värityskuviksi' },
+      { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Temaattinen värityskuva eläinkuvituksilla vapaasti sijoitettuna kankaalle', caption: 'Värityskuva luotu kirjaston temaattisilla kuvilla vapaalla kankaan sijoittelulla' },
+      { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Harmaasävyvärityskuva tulostusvalmiina puhtailla mustavalkoisilla ääriviivoilla', caption: 'Harmaasävyvienti muuntaa värikäs designit tulostusvalmiiksi värityskuviksi' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Kuinka luot värityskuvia temaattisista kuvista — Täydellinen opas',

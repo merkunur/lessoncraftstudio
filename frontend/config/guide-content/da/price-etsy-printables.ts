@@ -191,11 +191,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/addition/sjov%20addition%201.webp', alt: 'Pædagogisk printbart arbejdsark til demonstration af prisstrategi på Etsy' },
+    heroImage: { src: '/samples/danish/addition/sjov-addition-1.webp', alt: 'Pædagogisk printbart arbejdsark til demonstration af prisstrategi på Etsy' },
     samples: [
-      { src: '/samples/danish/addition/sjov%20addition%201.webp', alt: 'Additionsarbejdsark — dansk eksempelarbejdsark', caption: 'Additionsarbejdsark eksempel 1' },
-      { src: '/samples/danish/addition/sjov%20addition%202.webp', alt: 'Additionsarbejdsark — dansk eksempel 2', caption: 'Additionsarbejdsark eksempel 2' },
-      { src: '/samples/danish/addition/sjov%20addition%203.webp', alt: 'Additionsarbejdsark — dansk eksempel 3', caption: 'Additionsarbejdsark eksempel 3' },
+      { src: '/samples/danish/addition/sjov-addition-1.webp', alt: 'Additionsarbejdsark — dansk eksempelarbejdsark', caption: 'Additionsarbejdsark eksempel 1' },
+      { src: '/samples/danish/addition/sjov-addition-2.webp', alt: 'Additionsarbejdsark — dansk eksempel 2', caption: 'Additionsarbejdsark eksempel 2' },
+      { src: '/samples/danish/addition/sjov-addition-3.webp', alt: 'Additionsarbejdsark — dansk eksempel 3', caption: 'Additionsarbejdsark eksempel 3' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sådan generator du printbare arbejdsark til salg på Etsy — Forståelse af produktværdi og prissætning',
@@ -204,7 +204,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Asparges — tematisk pædagogisk billede', caption: 'Asparges' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Rødbede — tematisk pædagogisk billede', caption: 'Rødbede' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Peberfrugt — tematisk pædagogisk billede', caption: 'Peberfrugt' },
+    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Peberfrugt — tematisk pædagogisk billede', caption: 'Peberfrugt' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Broccoli — tematisk pædagogisk billede', caption: 'Broccoli' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Kål — tematisk pædagogisk billede', caption: 'Kål' },
   ],

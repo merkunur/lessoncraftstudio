@@ -211,22 +211,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/more%20less/mer%20mindre%201.webp',
+      primary: '/samples/swedish/more%20less/mer-mindre-1.webp',
       primaryAlt: 'Mer eller mindre arbetsblad med bildjämförelsegrupper som visar större än och mindre än övningar',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/more%20less/mer%20mindre%201.webp',
+        src: '/samples/swedish/more%20less/mer-mindre-1.webp',
         alt: 'Bild mot Bild jämförelsearbetsblad med djurtema som visar två bildgrupper sida vid sida',
         caption: 'Bild mot Bild-läge med djurtema',
       },
       {
-        src: '/samples/swedish/more%20less/mer%20mindre%202.webp',
+        src: '/samples/swedish/more%20less/mer-mindre-2.webp',
         alt: 'Bild mot Tal jämförelsearbetsblad som överbryggar visuell räkning med skrivna siffror',
         caption: 'Bild mot Tal-läge — överbryggar bilder och siffror',
       },
       {
-        src: '/samples/swedish/more%20less/mer%20mindre%203.webp',
+        src: '/samples/swedish/more%20less/mer-mindre-3.webp',
         alt: 'Pricka och Kryssa Grupper arbetsblad med blandade omflyttade bilder för sortering och jämförelse',
         caption: 'Pricka och Kryssa Grupper — unikt sorterings- och jämförelseläge',
       },

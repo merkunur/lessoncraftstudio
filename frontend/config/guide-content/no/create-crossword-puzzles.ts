@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/crossword/bildekryssord%201.webp', alt: 'Kryssordpuslespill for barn med bildeledetrader som viser tematisk ordforrad i et kryssende rutenett' },
+    heroImage: { src: '/samples/norwegian/crossword/bildekryssord-1.webp', alt: 'Kryssordpuslespill for barn med bildeledetrader som viser tematisk ordforrad i et kryssende rutenett' },
     samples: [
-      { src: '/samples/norwegian/crossword/bildekryssord%201.webp', alt: 'Barnekryssordpuslespill med dyretema som viser nummerert rutenett og bildeledetrader', caption: 'Dyretematisk kryssordpuslespill med bildeledetrader for barnehage og 1. trinn ordforradovelse' },
-      { src: '/samples/norwegian/crossword/bildekryssord%201.webp', alt: 'Kryssordpuslespill-fasit som viser utfylt rutenett med alle bokstaver fylt inn', caption: 'Automatisk fasit generert sammen med hvert kryssordpuslespill' },
+      { src: '/samples/norwegian/crossword/bildekryssord-1.webp', alt: 'Barnekryssordpuslespill med dyretema som viser nummerert rutenett og bildeledetrader', caption: 'Dyretematisk kryssordpuslespill med bildeledetrader for barnehage og 1. trinn ordforradovelse' },
+      { src: '/samples/norwegian/crossword/bildekryssord-1.webp', alt: 'Kryssordpuslespill-fasit som viser utfylt rutenett med alle bokstaver fylt inn', caption: 'Automatisk fasit generert sammen med hvert kryssordpuslespill' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'Hvordan lage kryssordpuslespill for barn — komplett veiledning',

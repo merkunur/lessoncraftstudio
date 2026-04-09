@@ -217,10 +217,10 @@ const content: BundleContent = {
       primaryAlt: 'Wortsuche-Arbeitsblatt mit thematischem Vokabelraster und farbkodiertem Lösungsschlüssel',
     },
     sampleGallery: [
-      { src: '/samples/german/alphabet train/worksheet.webp', alt: 'Alphabet-Zug-Arbeitsblatt mit Buchstaben-Bild-Zuordnung in Waggons', caption: 'Alphabet-Zug-Arbeitsblatt' },
+      { src: '/samples/german/alphabet%20train/worksheet.webp', alt: 'Alphabet-Zug-Arbeitsblatt mit Buchstaben-Bild-Zuordnung in Waggons', caption: 'Alphabet-Zug-Arbeitsblatt' },
       { src: '/samples/german/prepositions/prepositions-worksheet.webp', alt: 'Präpositionen-Arbeitsblatt mit räumlichen Beziehungen und Bildern', caption: 'Präpositionen-Arbeitsblatt' },
-      { src: '/samples/german/word guess/clue-grid-worksheet.webp', alt: 'Wörter-Raten-Arbeitsblatt mit Bildhinweisen und Buchstabenlücken', caption: 'Wörter-Raten-Arbeitsblatt' },
-      { src: '/samples/german/word scramble/buchstabensala-1.webp', alt: 'Buchstabensalat-Arbeitsblatt mit farbkodierten Buchstabenplättchen', caption: 'Buchstabensalat-Arbeitsblatt' },
+      { src: '/samples/german/word%20guess/clue-grid-worksheet.webp', alt: 'Wörter-Raten-Arbeitsblatt mit Bildhinweisen und Buchstabenlücken', caption: 'Wörter-Raten-Arbeitsblatt' },
+      { src: '/samples/german/word%20scramble/buchstabensala-1.webp', alt: 'Buchstabensalat-Arbeitsblatt mit farbkodierten Buchstabenplättchen', caption: 'Buchstabensalat-Arbeitsblatt' },
       { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Raster mit versteckten Vokabelwörtern', caption: 'Wortsuche-Arbeitsblatt' },
       { src: '/samples/german/cryptogram/bilder-kryptogramm-1.webp', alt: 'Kryptogramm-Rätsel mit Bild-Chiffre-Verschlüsselung', caption: 'Kryptogramm-Arbeitsblatt' },
       { src: '/samples/german/writing/writing.webp', alt: 'Schreibübungen-Arbeitsblatt mit geführten Buchstabenstrichen', caption: 'Schreibübungen-Arbeitsblatt' },

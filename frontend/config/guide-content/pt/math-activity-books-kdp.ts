@@ -195,7 +195,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/portuguese/addition/adição-divertida-2.webp', alt: 'Atividade de adição temática de animais formatada para livro de atividades de matemática KDP', caption: 'Atividade de adição com tema de animais — problemas de matemática baseados em imagens que criam atrativas páginas de livros de atividades KDP' },
       { src: '/samples/portuguese/subtraction/subtrações-divertidas-1.webp', alt: 'Atividade de subtração para caderno de matemática multi-operação KDP', caption: 'Atividade de subtração — combina com páginas de adição para criar livros de atividades de matemática integrais na Amazon' },
-      { src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-1.webp', alt: 'Grelha de puzzle matemático adicionando variedade a livros de atividades KDP', caption: 'Grelha de puzzle matemático — adiciona variedade atrativa às páginas de livros de atividades para além dos exercícios padrão' },
+      { src: '/samples/portuguese/math%20puzzle/quebra-cabeças-matemático-1.webp', alt: 'Grelha de puzzle matemático adicionando variedade a livros de atividades KDP', caption: 'Grelha de puzzle matemático — adiciona variedade atrativa às páginas de livros de atividades para além dos exercícios padrão' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como criar atividades de matemática para livros de atividades Amazon KDP — Tutorial passo a passo',

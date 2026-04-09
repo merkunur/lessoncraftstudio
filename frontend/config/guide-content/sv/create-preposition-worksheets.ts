@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/prepositions/Prepositioner%201.jpeg', alt: 'Prepositionsarbetsblad som visar bildscener med rumsliga förhållandeövningar' },
+    heroImage: { src: '/samples/swedish/prepositions/prepositioner-1.jpeg', alt: 'Prepositionsarbetsblad som visar bildscener med rumsliga förhållandeövningar' },
     samples: [
-      { src: '/samples/swedish/prepositions/Prepositioner%201.jpeg', alt: 'Fyll-i-luckan prepositionsövningar med bildscener', caption: 'Fyll-i-luckan prepositionsövningar med bildscener som visar rumsliga relationer' },
-      { src: '/samples/swedish/prepositions/Prepositioner%202.jpeg', alt: 'Flerval prepositionsarbetsblad med stödd övning', caption: 'Flerval-läge för stödd nybörjarvänlig övning' },
-      { src: '/samples/swedish/prepositions/Prepositioner%203.jpeg', alt: 'Avancerat prepositionsarbetsblad med formersättning', caption: 'Formersättning multiplicerar visuella kombinationer för produktvariation' },
+      { src: '/samples/swedish/prepositions/prepositioner-1.jpeg', alt: 'Fyll-i-luckan prepositionsövningar med bildscener', caption: 'Fyll-i-luckan prepositionsövningar med bildscener som visar rumsliga relationer' },
+      { src: '/samples/swedish/prepositions/prepositioner-2.jpeg', alt: 'Flerval prepositionsarbetsblad med stödd övning', caption: 'Flerval-läge för stödd nybörjarvänlig övning' },
+      { src: '/samples/swedish/prepositions/prepositioner-3.jpeg', alt: 'Avancerat prepositionsarbetsblad med formersättning', caption: 'Formersättning multiplicerar visuella kombinationer för produktvariation' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Hur du skapar prepositionsarbetsblad — Komplett guide',

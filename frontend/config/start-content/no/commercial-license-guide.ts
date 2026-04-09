@@ -206,12 +206,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk-arbeidsark som demonstrerer kommersiell lisenskvalitet for selgere av utskriftsbare produkter' },
+    heroImage: { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøk-arbeidsark som demonstrerer kommersiell lisenskvalitet for selgere av utskriftsbare produkter' },
     samples: [
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøkpuslespill-arbeidsark klart for kommersielt salg', caption: 'Ordsøk — Topp Kommersiell Selger' },
-      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Addisjons-matematikkarbeidsark med kommersiell lisens', caption: 'Addisjon — Eviggrønn Matematikkgrunnpilar' },
-      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside-arbeidsark for KDP-aktivitetsbøker', caption: 'Fargelegging — Høyt Volum KDP-kategori' },
-      { src: '/samples/norwegian/crossword/bildekryssord%201.webp', alt: 'Kryssordpuslespill som demonstrerer flerspråklig kommersiell verdi', caption: 'Kryssord — Flerspråklig Lisensverdi' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøkpuslespill-arbeidsark klart for kommersielt salg', caption: 'Ordsøk — Topp Kommersiell Selger' },
+      { src: '/samples/norwegian/addition/gøy-addisjon-1.webp', alt: 'Addisjons-matematikkarbeidsark med kommersiell lisens', caption: 'Addisjon — Eviggrønn Matematikkgrunnpilar' },
+      { src: '/samples/norwegian/coloring/coloring-portrait-1.webp', alt: 'Fargeleggingsside-arbeidsark for KDP-aktivitetsbøker', caption: 'Fargelegging — Høyt Volum KDP-kategori' },
+      { src: '/samples/norwegian/crossword/bildekryssord-1.webp', alt: 'Kryssordpuslespill som demonstrerer flerspråklig kommersiell verdi', caption: 'Kryssord — Flerspråklig Lisensverdi' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Slik Lager du Ordsøk-arbeidsark for Kommersielt Salg — LessonCraftStudio Demo',

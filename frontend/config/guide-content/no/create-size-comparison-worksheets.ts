@@ -94,10 +94,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/big%20small/stort%20eller%20lite%201.webp', alt: 'Storrelsessammenligningsarbeidsark med tematiske bilder i forskjellige storrelser' },
+    heroImage: { src: '/samples/norwegian/big%20small/stort-eller-lite-1.webp', alt: 'Storrelsessammenligningsarbeidsark med tematiske bilder i forskjellige storrelser' },
     samples: [
-      { src: '/samples/norwegian/big%20small/stort%20eller%20lite%201.webp', alt: 'Stor og liten storrelsessammenligningsarbeidsark med tematiske bilder', caption: 'Storrelsessammenligningsarbeidsark med tematiske bilder og automatisk genererte svarindikatorer' },
-      { src: '/samples/norwegian/big%20small/stort%20eller%20lite%202.webp', alt: 'Ring rundt den store arbeidsark med identiske dyrebilder i forskjellige storrelser', caption: 'Ring rundt den store-modus med tematiske bilder for visuell storrelsesdiskriminering' },
+      { src: '/samples/norwegian/big%20small/stort-eller-lite-1.webp', alt: 'Stor og liten storrelsessammenligningsarbeidsark med tematiske bilder', caption: 'Storrelsessammenligningsarbeidsark med tematiske bilder og automatisk genererte svarindikatorer' },
+      { src: '/samples/norwegian/big%20small/stort-eller-lite-2.webp', alt: 'Ring rundt den store arbeidsark med identiske dyrebilder i forskjellige storrelser', caption: 'Ring rundt den store-modus med tematiske bilder for visuell storrelsesdiskriminering' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'Hvordan lage storrelsessammenligningsarbeidsark — komplett veiledning',

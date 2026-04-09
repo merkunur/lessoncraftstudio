@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+      src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
       alt: 'Ordsökningsarbetsblad som demonstrerar flerspråkig utskriftsbar verksamhetspotential över internationella marknader',
     },
     samples: [
       {
-        src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+        src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
         alt: 'Ordsökningspussel som visar flerspråkig kapacitet för internationell utskriftsbar försäljning',
         caption: 'Ordsökningsarbetsblad kan genereras på 11 språk, vilket gör dem idealiska för flerspråkig expansion',
       },
@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: 'Visuella matchningsarbetsblad använder bilder som översätts universellt över språk',
       },
       {
-        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
+        src: '/samples/swedish/addition/addition-övning.webp',
         alt: 'Additions mattearbetsblad som demonstrerar universell attraktionskraft över språkbarriärer',
         caption: 'Mattearbetsblad passerar språkbarriärer naturligt eftersom siffror är universella över marknader',
       },

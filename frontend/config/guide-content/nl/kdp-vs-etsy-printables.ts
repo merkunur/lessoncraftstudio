@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekpuzzel werkblad geschikt voor verkoop als Etsy digitale download of compilatie tot Amazon KDP puzzelboek' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekpuzzel werkblad geschikt voor verkoop als Etsy digitale download of compilatie tot Amazon KDP puzzelboek' },
     samples: [
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Thematische woordzoekpuzzel voor Etsy en KDP', caption: 'Woordzoekpuzzels verkopen op beide platforms — als individuele digitale downloads op Etsy en samengesteld tot puzzelboeken op KDP' },
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optelwerkblad voor Etsy digitale download of KDP activiteitenboek', caption: 'Rekenwerkbladen werken als Etsy singles en kleine pakketten of samengesteld tot KDP rekenactiviteitenboeken' },
-      { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Kleurplaat voor verkoop op zowel Etsy als KDP', caption: 'Kleurplaten zijn een topcategorie op beide platforms — individuele downloads op Etsy en kleurboeken op KDP' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Thematische woordzoekpuzzel voor Etsy en KDP', caption: 'Woordzoekpuzzels verkopen op beide platforms — als individuele digitale downloads op Etsy en samengesteld tot puzzelboeken op KDP' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optelwerkblad voor Etsy digitale download of KDP activiteitenboek', caption: 'Rekenwerkbladen werken als Etsy singles en kleine pakketten of samengesteld tot KDP rekenactiviteitenboeken' },
+      { src: '/samples/dutch/coloring/coloring-landscape-1.webp', alt: 'Kleurplaat voor verkoop op zowel Etsy als KDP', caption: 'Kleurplaten zijn een topcategorie op beide platforms — individuele downloads op Etsy en kleurboeken op KDP' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Printbare Werkbladen Maken voor Etsy en Amazon KDP — Stap-voor-Stap Tutorial',

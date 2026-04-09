@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/picture%20sort/sorter%20bilder%201.webp',
+      primary: '/samples/norwegian/picture%20sort/sorter-bilder-1.webp',
       primaryAlt: 'Tokategori bildesorteringsarbeidsark med tematiske kategorirammer, blandet utklippsrutenett og lokalisert Sorter bilder-overskrift',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/picture%20sort/sorter%20bilder%201.webp',
+        src: '/samples/norwegian/picture%20sort/sorter-bilder-1.webp',
         alt: 'Temamodus sorteringsarbeidsark med dyr til venstre og mat til hoyre kategorier',
         caption: 'Temamodus — automatisk utfylte kategorier fra bildebiblioteket',
       },
       {
-        src: '/samples/norwegian/picture%20sort/sorter%20bilder%202.webp',
+        src: '/samples/norwegian/picture%20sort/sorter-bilder-2.webp',
         alt: 'Sorteringsarbeidsark med et annet temapar og variert bildeantall',
         caption: 'Tematisk sortering — 104 temaer gir uendelige kategoripar-kombinasjoner',
       },
       {
-        src: '/samples/norwegian/picture%20sort/sorter%20bilder%203.webp',
+        src: '/samples/norwegian/picture%20sort/sorter-bilder-3.webp',
         alt: 'Bildesortering fasit med 6x storre bilder organisert i korrekte kategorifelt',
         caption: 'Automatisk generert fasit — 6x storre bilder i kategorifelt',
       },

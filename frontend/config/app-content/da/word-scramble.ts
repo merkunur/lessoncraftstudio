@@ -243,22 +243,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/word%20scramble/bogstavrod%201.webp',
+      primary: '/samples/danish/word%20scramble/bogstavrod-1.webp',
       primaryAlt: 'Opgave med blandede bogstaver og billedledetråde — anagram stavningspuslespil til print',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/word%20scramble/bogstavrod%201.webp',
+        src: '/samples/danish/word%20scramble/bogstavrod-1.webp',
         alt: 'Opgaveark med blandede bogstaver i stående format med billedledetråde og bogstavsfliser i uorden',
         caption: 'Stående format — professionelt opgaveark med blandede bogstaver og billedledetråde',
       },
       {
-        src: '/samples/danish/word%20scramble/bogstavrod%202.webp',
+        src: '/samples/danish/word%20scramble/bogstavrod-2.webp',
         alt: 'Anagramopgave med tematiske illustrationer og farvekodede bogstavsfliser til folkeskolen',
         caption: 'Farvekodning — vokaler og konsonanter i forskellige farver for fonikstøtte',
       },
       {
-        src: '/samples/danish/word%20scramble/bogstavrod%203.webp',
+        src: '/samples/danish/word%20scramble/bogstavrod-3.webp',
         alt: 'Facit til blandede bogstaver med alle ord korrekt stavet',
         caption: 'Facit — korrekt stavede ord for nem rettelse og selvkontrol',
       },

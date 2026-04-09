@@ -186,11 +186,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%202.webp', alt: 'Addisjonsarbeidsark med tematiske illustrasjoner som viser bildebaserte matteoppgaver for salg på Etsy' },
+    heroImage: { src: '/samples/norwegian/addition/gøy-addisjon-2.webp', alt: 'Addisjonsarbeidsark med tematiske illustrasjoner som viser bildebaserte matteoppgaver for salg på Etsy' },
     samples: [
-      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Dyretematisk addisjonsarbeidsark laget for Etsy digital nedlastingsoppføring', caption: 'Addisjonsarbeidsark med dyretema — bildebaserte matteoppgaver som generator iøynefallende Etsy-oppføringsbilder' },
-      { src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%202.webp', alt: 'Subtraksjonsarbeidsark som komplementerer addisjonsprodukter i en Etsy mattearbeidsark-butikk', caption: 'Subtraksjonsarbeidsark — naturlig kryssalgskomplement til addisjonsoppføringer i Etsy-butikken din' },
-      { src: '/samples/norwegian/math%20puzzle/mattepuslespill%202.webp', alt: 'Mattepuslespill rutenett-arbeidsark som viser unikt format som differensierer Etsy-oppføringer', caption: 'Mattepuslespill-rutenett — unikt format med mindre Etsy-konkurranse enn standardarbeidsark' },
+      { src: '/samples/norwegian/addition/gøy-addisjon-1.webp', alt: 'Dyretematisk addisjonsarbeidsark laget for Etsy digital nedlastingsoppføring', caption: 'Addisjonsarbeidsark med dyretema — bildebaserte matteoppgaver som generator iøynefallende Etsy-oppføringsbilder' },
+      { src: '/samples/norwegian/subtraction/moro-med-subtraksjon-2.webp', alt: 'Subtraksjonsarbeidsark som komplementerer addisjonsprodukter i en Etsy mattearbeidsark-butikk', caption: 'Subtraksjonsarbeidsark — naturlig kryssalgskomplement til addisjonsoppføringer i Etsy-butikken din' },
+      { src: '/samples/norwegian/math%20puzzle/mattepuslespill-2.webp', alt: 'Mattepuslespill rutenett-arbeidsark som viser unikt format som differensierer Etsy-oppføringer', caption: 'Mattepuslespill-rutenett — unikt format med mindre Etsy-konkurranse enn standardarbeidsark' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hvordan lage addisjonsarbeidsark for salg på Etsy — trinn-for-trinn veiledning',

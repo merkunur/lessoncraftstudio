@@ -179,11 +179,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/coloring/coloring%20portrait%201.webp', alt: 'Målarbild med tematiska illustrationer som visar svartvit linjekonst för försäljning på Etsy' },
+    heroImage: { src: '/samples/swedish/coloring/coloring-portrait-1.webp', alt: 'Målarbild med tematiska illustrationer som visar svartvit linjekonst för försäljning på Etsy' },
     samples: [
-      { src: '/samples/swedish/coloring/coloring%20portrait%201.webp', alt: 'Djurtematiserad målarbild skapad för Etsy digital nedladdningsannons', caption: 'Djurmålarbild från det tematiska bildbiblioteket — ren svartvit linjekonst som skapar iögonfallande Etsy-annonsfoton' },
-      { src: '/samples/swedish/coloring/coloring%20portrait%201.webp', alt: 'Naturtematiserad målarbild som visar detaljerade kompositioner för vuxna och barn', caption: 'Naturmålarbild — mångsidigt tema som tilltalar både barn och vuxna färgläggningsköpare på Etsy' },
-      { src: '/samples/swedish/coloring/coloring%20portrait%201.webp', alt: 'Högtidstematiserad målarbild som demonstrerar säsongsbetonad produkt för Etsys efterfrågetoppar', caption: 'Högtidsmålarbild — säsongsbetonade teman driver stora efterfrågetoppar på Etsy genom hela året' },
+      { src: '/samples/swedish/coloring/coloring-portrait-1.webp', alt: 'Djurtematiserad målarbild skapad för Etsy digital nedladdningsannons', caption: 'Djurmålarbild från det tematiska bildbiblioteket — ren svartvit linjekonst som skapar iögonfallande Etsy-annonsfoton' },
+      { src: '/samples/swedish/coloring/coloring-portrait-1.webp', alt: 'Naturtematiserad målarbild som visar detaljerade kompositioner för vuxna och barn', caption: 'Naturmålarbild — mångsidigt tema som tilltalar både barn och vuxna färgläggningsköpare på Etsy' },
+      { src: '/samples/swedish/coloring/coloring-portrait-1.webp', alt: 'Högtidstematiserad målarbild som demonstrerar säsongsbetonad produkt för Etsys efterfrågetoppar', caption: 'Högtidsmålarbild — säsongsbetonade teman driver stora efterfrågetoppar på Etsy genom hela året' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Hur du skapar målarbilder för försäljning på Etsy — steg-för-steg-guide',

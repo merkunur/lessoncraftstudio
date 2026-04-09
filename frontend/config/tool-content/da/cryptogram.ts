@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/cryptogram/billed-kryptogram%201.webp',
+      primary: '/samples/danish/cryptogram/billed-kryptogram-1.webp',
       primaryAlt: 'Gratis kryptogram generator online — hemmelige beskeder med billedchiffer og temabilleder',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/cryptogram/billed-kryptogram%201.webp',
+        src: '/samples/danish/cryptogram/billed-kryptogram-1.webp',
         alt: 'Gratis kryptogram med hemmelig besked kodet som temabilleder — prøv online',
         caption: 'Billedchiffer puslespil — afkod den hemmelige besked ved at identificere, hvilket billede der repræsenterer hvilket bogstav',
       },
       {
-        src: '/samples/danish/cryptogram/billed-kryptogram%202.webp',
+        src: '/samples/danish/cryptogram/billed-kryptogram-2.webp',
         alt: 'Gratis hemmelig besked kodespil med dyretema og afslørede bogstaver som ledetråd',
         caption: 'Tematisk chiffer med Bogstaver at Afsløre — forudafslørede tilknytninger giver støttning for begyndere',
       },
       {
-        src: '/samples/danish/cryptogram/billed-kryptogram%203.webp',
+        src: '/samples/danish/cryptogram/billed-kryptogram-3.webp',
         alt: 'Gratis kryptogram facit med bogstavlegende — alle alfabet-til-billede-tilknytninger',
         caption: 'Bogstavlegende facit — hvert alfabetsbogstav parret med sit tildelte billede for definitiv løsningsreference',
       },

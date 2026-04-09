@@ -190,11 +190,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp', alt: 'Rekenwerkblad met rasterlay-out en afstand opgemaakt voor Amazon KDP drukspecificaties' },
+    heroImage: { src: '/samples/dutch/math%20worksheet/wiskundeblad-1.webp', alt: 'Rekenwerkblad met rasterlay-out en afstand opgemaakt voor Amazon KDP drukspecificaties' },
     samples: [
-      { src: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp', alt: 'Rekenwerkblad met precieze rasterafstand die KDP marge- en lay-outvereisten demonstreert', caption: 'Rekenwerkblad lay-out — rastergebaseerde opmaak met adequate celgrootte voor comfortabel schrijven binnen KDP-margespecificaties' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekeraster met letterafstand opgemaakt voor KDP druk', caption: 'Woordzoekeraster — consistente letterafstand op 0,3-inch cellen zorgt voor comfortabel omcirkelen en leesbaarheid in KDP-gedrukte boeken' },
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optelwerkblad dat overzichtelijke enkel-pagina KDP-lay-out demonstreert', caption: 'Optelwerkblad — overzichtelijke lay-out voor één bewerking met duidelijke antwoordruimtes die professionele KDP-binnenwerkopmaak demonstreert' },
+      { src: '/samples/dutch/math%20worksheet/wiskundeblad-1.webp', alt: 'Rekenwerkblad met precieze rasterafstand die KDP marge- en lay-outvereisten demonstreert', caption: 'Rekenwerkblad lay-out — rastergebaseerde opmaak met adequate celgrootte voor comfortabel schrijven binnen KDP-margespecificaties' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekeraster met letterafstand opgemaakt voor KDP druk', caption: 'Woordzoekeraster — consistente letterafstand op 0,3-inch cellen zorgt voor comfortabel omcirkelen en leesbaarheid in KDP-gedrukte boeken' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optelwerkblad dat overzichtelijke enkel-pagina KDP-lay-out demonstreert', caption: 'Optelwerkblad — overzichtelijke lay-out voor één bewerking met duidelijke antwoordruimtes die professionele KDP-binnenwerkopmaak demonstreert' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Hoe Drukklare Rekenwerkbladen Maken voor Amazon KDP — Opmaak Tutorial',

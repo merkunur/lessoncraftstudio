@@ -215,16 +215,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/addition/sjov%20addition%201.webp',
+      primary: '/samples/danish/addition/sjov-addition-1.webp',
       primaryAlt: 'Additionsarbejdsark med tematiske billeder, der viser visuelle tælleopgaver',
     },
     sampleGallery: [
-      { src: '/samples/danish/addition/sjov%20addition%201.webp', alt: 'Additionsarbejdsark — dansk eksempel', caption: 'Additionsarbejdsark' },
-      { src: '/samples/danish/subtraction/sjov%20subtraktion%201.webp', alt: 'Subtraktionsarbejdsark — dansk eksempel', caption: 'Subtraktionsarbejdsark' },
-      { src: '/samples/danish/code%20addition/hemmelig%20kode%20addition%201.webp', alt: 'Kodeadditionsarbejdsark — dansk eksempel', caption: 'Kodeadditionsarbejdsark' },
-      { src: '/samples/danish/more%20less/mere%20mindre%201.webp', alt: 'Mere eller Mindre Arbejdsark — dansk eksempel', caption: 'Mere eller Mindre Arbejdsark' },
-      { src: '/samples/danish/math%20puzzle/mattepuslespil%201.webp', alt: 'Matematikpuslespil — dansk eksempel', caption: 'Matematikpuslespil' },
-      { src: '/samples/danish/math%20worksheet/matematikopgave%201.webp', alt: 'Matematikopgave — dansk eksempel', caption: 'Matematikopgave' },
+      { src: '/samples/danish/addition/sjov-addition-1.webp', alt: 'Additionsarbejdsark — dansk eksempel', caption: 'Additionsarbejdsark' },
+      { src: '/samples/danish/subtraction/sjov-subtraktion-1.webp', alt: 'Subtraktionsarbejdsark — dansk eksempel', caption: 'Subtraktionsarbejdsark' },
+      { src: '/samples/danish/code%20addition/hemmelig-kode-addition-1.webp', alt: 'Kodeadditionsarbejdsark — dansk eksempel', caption: 'Kodeadditionsarbejdsark' },
+      { src: '/samples/danish/more%20less/mere-mindre-1.webp', alt: 'Mere eller Mindre Arbejdsark — dansk eksempel', caption: 'Mere eller Mindre Arbejdsark' },
+      { src: '/samples/danish/math%20puzzle/mattepuslespil-1.webp', alt: 'Matematikpuslespil — dansk eksempel', caption: 'Matematikpuslespil' },
+      { src: '/samples/danish/math%20worksheet/matematikopgave-1.webp', alt: 'Matematikopgave — dansk eksempel', caption: 'Matematikopgave' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Matematik Mestringspakke — Se alle 6 generatorer i aktion',

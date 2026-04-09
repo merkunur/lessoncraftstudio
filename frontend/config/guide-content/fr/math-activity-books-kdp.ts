@@ -201,7 +201,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition thème animaux formatée pour livre d\'activités maths KDP', caption: 'Fiche d\'addition avec thème animaux — problèmes de maths basés sur des images créant des pages de livres d\'activités KDP attrayantes' },
       { src: '/samples/french/subtraction/soustractions-amusantes-1.webp', alt: 'Fiche de soustraction pour cahier de maths multi-opérations KDP', caption: 'Fiche de soustraction — se combine avec les pages d\'addition pour créer des livres d\'activités maths complets sur Amazon' },
-      { src: '/samples/french/math puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche puzzle maths en grille ajoutant de la variété aux livres d\'activités KDP', caption: 'Grille de puzzle maths — ajoute une variété attrayante aux pages de livres d\'activités au-delà des exercices standard' },
+      { src: '/samples/french/math%20puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche puzzle maths en grille ajoutant de la variété aux livres d\'activités KDP', caption: 'Grille de puzzle maths — ajoute une variété attrayante aux pages de livres d\'activités au-delà des exercices standard' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Comment créer des fiches de maths pour les livres d\'activités Amazon KDP — Tutoriel étape par étape',

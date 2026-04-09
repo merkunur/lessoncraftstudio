@@ -228,22 +228,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/treasure%20hunt/aarteenetsint%c3%a4%201.webp',
+      primary: '/samples/finnish/treasure%20hunt/aarteenetsintä-1.webp',
       primaryAlt: 'Aarteenetsintä polunetsintä -työlehti 5×5-koordinaattiruudukolla, hajautetuilla kuvilla, suuntavihjeillä ja aarre-aiheisella otsikolla',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/treasure%20hunt/aarteenetsint%c3%a4%201.webp',
+        src: '/samples/finnish/treasure%20hunt/aarteenetsintä-1.webp',
         alt: 'Aarteenetsintä-palapeelityölehti 6 temaattisella kuvalla 5×5-ruudukossa ja Perus-suuntavihjeet',
         caption: 'Perus-suuntatila — seuraa ylös, alas, vasen ja oikea -vihjeitä aarteen löytämiseksi',
       },
       {
-        src: '/samples/finnish/treasure%20hunt/aarteenetsint%c3%a4%202.webp',
+        src: '/samples/finnish/treasure%20hunt/aarteenetsintä-2.webp',
         alt: 'Aarteenetsintä-palapeelityölehti Ilmansuunta-vihjein pohjoinen, etelä, itä ja länsi',
         caption: 'Ilmansuunnat-tila — kompassisuunnat edistyneeseen tilalliseen päättelyyn',
       },
       {
-        src: '/samples/finnish/treasure%20hunt/aarteenetsint%c3%a4%201%20answer-key.webp',
+        src: '/samples/finnish/treasure%20hunt/aarteenetsintä-1-answer-key.webp',
         alt: 'Aarteenetsinnän vastausavain lopullinen aarresolu korostettuna vaaleankeltaisella koordinaattiruudukossa',
         caption: 'Automaattisesti luotu vastausavain — vaaleankeltainen korostus merkitsee aarteen määränpään',
       },

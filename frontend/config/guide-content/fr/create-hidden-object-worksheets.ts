@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/find objects/Trouve l\'intrus-1.webp', alt: 'Fiche de scène objets cachés montrant des images thématiques arrangées pour que les enfants trouvent des objets spécifiques' },
+    heroImage: { src: '/samples/french/find%20objects/trouve-l\'intrus-1.webp', alt: 'Fiche de scène objets cachés montrant des images thématiques arrangées pour que les enfants trouvent des objets spécifiques' },
     samples: [
-      { src: '/samples/french/find objects/Trouve l\'intrus-1.webp', alt: 'Fiche Cherche et Trouve avec scène thématique pour activité de recherche visuelle', caption: 'Scène Cherche et Trouve avec images thématiques et objets de distraction pour la pratique de la recherche visuelle' },
-      { src: '/samples/french/find objects/Trouve l\'intrus-1.webp', alt: 'Corrigé de fiche objets cachés mettant en évidence les emplacements des éléments cachés', caption: 'Corrigé automatique généré pour chaque fiche de scène objets cachés' },
+      { src: '/samples/french/find%20objects/trouve-l\'intrus-1.webp', alt: 'Fiche Cherche et Trouve avec scène thématique pour activité de recherche visuelle', caption: 'Scène Cherche et Trouve avec images thématiques et objets de distraction pour la pratique de la recherche visuelle' },
+      { src: '/samples/french/find%20objects/trouve-l\'intrus-1.webp', alt: 'Corrigé de fiche objets cachés mettant en évidence les emplacements des éléments cachés', caption: 'Corrigé automatique généré pour chaque fiche de scène objets cachés' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Comment créer des fiches de scènes objets cachés — Tutoriel complet',

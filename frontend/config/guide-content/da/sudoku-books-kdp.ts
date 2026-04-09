@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/sudoku/billede-sudoku%201.webp', alt: 'Billedsudoku puslespil-arbejdsark der viser tematisk billedgitter egnet til Amazon KDP sudokubog interiørsider' },
+    heroImage: { src: '/samples/danish/sudoku/billede-sudoku-1.webp', alt: 'Billedsudoku puslespil-arbejdsark der viser tematisk billedgitter egnet til Amazon KDP sudokubog interiørsider' },
     samples: [
-      { src: '/samples/danish/sudoku/billede-sudoku%201.webp', alt: 'Billede-Sudoku — dansk eksempelarbejdsark', caption: 'Billede-Sudoku eksempel 1' },
-      { src: '/samples/danish/sudoku/billede-sudoku%202.webp', alt: 'Billede-Sudoku — dansk eksempel 2', caption: 'Billede-Sudoku eksempel 2' },
-      { src: '/samples/danish/sudoku/billede-sudoku%203.webp', alt: 'Billede-Sudoku — dansk eksempel 3', caption: 'Billede-Sudoku eksempel 3' },
+      { src: '/samples/danish/sudoku/billede-sudoku-1.webp', alt: 'Billede-Sudoku — dansk eksempelarbejdsark', caption: 'Billede-Sudoku eksempel 1' },
+      { src: '/samples/danish/sudoku/billede-sudoku-2.webp', alt: 'Billede-Sudoku — dansk eksempel 2', caption: 'Billede-Sudoku eksempel 2' },
+      { src: '/samples/danish/sudoku/billede-sudoku-3.webp', alt: 'Billede-Sudoku — dansk eksempel 3', caption: 'Billede-Sudoku eksempel 3' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Sådan generator du billedsudoku-puslespil til Amazon KDP-bøger — Trin-for-trin vejledning',

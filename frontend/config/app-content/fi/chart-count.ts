@@ -238,22 +238,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/chart%20count/kuvakaavio%201.webp',
+      primary: '/samples/finnish/chart%20count/kuvakaavio-1.webp',
       primaryAlt: 'Kuvagraafityöarkki hajautetulla kuvaruudukolla ja palkkikaaviolla — laske ja kaavioita 6 kuvatyyppiä',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/chart%20count/kuvakaavio%202.webp',
+        src: '/samples/finnish/chart%20count/kuvakaavio-2.webp',
         alt: 'Eläinteemainen kuvagraafityöarkki 20 hajautetulla eläinkuvakkeella ja tyhjällä palkkikaaviolla',
         caption: 'Eläinteemainen kuvagraafi — 6 eläintyyppiä hajautettuina ruudukkoon palkkikaavion kanssa alla',
       },
       {
-        src: '/samples/finnish/chart%20count/kuvakaavio%203.webp',
+        src: '/samples/finnish/chart%20count/kuvakaavio-3.webp',
         alt: 'Kuvagraafin vastauslehti keltaisilla korostetuilla soluilla näyttäen oikeat lukumäärät kullekin kuvatyypille',
         caption: 'Automaattisesti generoitu vastauslehti — keltaiset solut näyttävät oikean lukumäärän kullekin kuvatyypille',
       },
       {
-        src: '/samples/finnish/chart%20count/kuvakaavio%201%20answer-key.webp',
+        src: '/samples/finnish/chart%20count/kuvakaavio-1-answer-key.webp',
         alt: 'Kuvagraafityöarkki koristekoristeellisella taustateemalla ja kehyksellä',
         caption: 'Koristeltu kuvagraafi — tausta- ja kehysteemat itsenäisillä läpinäkyvyyssäätimillä',
       },

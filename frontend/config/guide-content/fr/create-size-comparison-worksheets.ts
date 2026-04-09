@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/big small/grand-ou-petit-1.webp', alt: 'Fiche de comparaison de tailles avec images thématiques à différentes tailles montrant un exercice entoure le plus grand pour la marché préscolaire' },
+    heroImage: { src: '/samples/french/big%20small/grand-ou-petit-1.webp', alt: 'Fiche de comparaison de tailles avec images thématiques à différentes tailles montrant un exercice entoure le plus grand pour la marché préscolaire' },
     samples: [
-      { src: '/samples/french/big small/grand-ou-petit-1.webp', alt: 'Fiche de comparaison de tailles grand et petit avec images thématiques montrant cinq types de questions', caption: 'Fiche de comparaison de tailles avec images thématiques et indicateurs de réponse auto-générés' },
-      { src: '/samples/french/big small/grand-ou-petit-2.webp', alt: 'Fiche entoure le plus grand avec images animales identiques à différentes tailles', caption: 'Mode Entoure le Plus Grand avec images thématiques pour la pratique de discrimination visuelle des tailles' },
+      { src: '/samples/french/big%20small/grand-ou-petit-1.webp', alt: 'Fiche de comparaison de tailles grand et petit avec images thématiques montrant cinq types de questions', caption: 'Fiche de comparaison de tailles avec images thématiques et indicateurs de réponse auto-générés' },
+      { src: '/samples/french/big%20small/grand-ou-petit-2.webp', alt: 'Fiche entoure le plus grand avec images animales identiques à différentes tailles', caption: 'Mode Entoure le Plus Grand avec images thématiques pour la pratique de discrimination visuelle des tailles' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'Comment créer des fiches de comparaison de tailles — Tutoriel complet',

@@ -221,9 +221,9 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/draw and color/desenha-e-pinta-1.webp', alt: 'Atividade de desenho em grelha demonstrando a gama criativa para escalar um negócio de imprimíveis' },
+    heroImage: { src: '/samples/portuguese/draw%20and%20color/desenha-e-pinta-1.webp', alt: 'Atividade de desenho em grelha demonstrando a gama criativa para escalar um negócio de imprimíveis' },
     samples: [
-      { src: '/samples/portuguese/draw and color/desenha-e-pinta-2.webp', alt: 'Atividade de desenho em grelha mostrando variedade de temas para expansão do catálogo', caption: 'Desenho em Grelha — Gama Criativa para Profundidade do Catálogo' },
+      { src: '/samples/portuguese/draw%20and%20color/desenha-e-pinta-2.webp', alt: 'Atividade de desenho em grelha mostrando variedade de temas para expansão do catálogo', caption: 'Desenho em Grelha — Gama Criativa para Profundidade do Catálogo' },
       { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Puzzle de caça-palavras demonstrando escalabilidade de alto volume em múltiplos temas', caption: 'Caça-Palavras — Maior Potencial de Escalamento em Volume' },
       { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir mostrando escalabilidade internacional sem dependência linguística', caption: 'Colorir — Escalamento Internacional sem Tradução' },
       { src: '/samples/portuguese/sudoku/sudoku-de-imagens-1.webp', alt: 'Puzzle de sudoku demonstrando distribuição de produto agnóstica de plataforma', caption: 'Sudoku — Distribuição Agnóstica de Plataforma' },

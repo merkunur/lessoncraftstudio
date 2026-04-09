@@ -229,12 +229,12 @@ const content: ToolContent = {
         caption: 'Tre øvelsestilstande på ét arbejdsark — Sporing, Tonende Sporing og Guidet Kopiering med per-række-uafhængighed',
       },
       {
-        src: '/samples/danish/writing/writing%20custom.webp',
+        src: '/samples/danish/writing/writing-custom.webp',
         alt: 'Gratis skriveøvelser med pilguided stregrækkefølge og nummererede retninger',
         caption: 'Pilguided stregrækkefølge — nummererede retningspile viser præcis bogstavformationssekvens',
       },
       {
-        src: '/samples/danish/writing/writing%20beginning%20letter.webp',
+        src: '/samples/danish/writing/writing-beginning-letter.webp',
         alt: 'Gratis skrivemotorik i tonende sporingstilstand med bogstaver, der toner ud over rækken',
         caption: 'Tonende Sporingstilstand — bogstaver toner progressivt ud for at bygge selvstændig skrivetillid',
       },

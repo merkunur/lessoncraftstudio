@@ -217,22 +217,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/alphabet train/worksheet.webp',
+      primary: '/samples/german/alphabet%20train/worksheet.webp',
       primaryAlt: 'Alphabet-Zug-Arbeitsblatt mit 11 farbenfrohen Waggons, Buchstaben und Hinweisbildern für Buchstabenerkennung',
     },
     sampleGallery: [
       {
-        src: '/samples/german/alphabet train/worksheet.webp',
+        src: '/samples/german/alphabet%20train/worksheet.webp',
         alt: 'Farbenfroher Alphabet-Zug mit Buchstabe-Bild-Zuordnung für junge Lernende',
         caption: 'Zugwaggon-Format mit Buchstabe-Bild-Zuordnung',
       },
       {
-        src: '/samples/german/alphabet train/worksheet-1.webp',
+        src: '/samples/german/alphabet%20train/worksheet-1.webp',
         alt: 'Alphabet-Zug-Arbeitsblatt mit thematischen Bildern und mehreren Hinweis-Zuordnungsaufgaben',
         caption: 'Thematische Bilder mit einstellbarer Hinweisanzahl',
       },
       {
-        src: '/samples/german/alphabet train/worksheet-2.webp',
+        src: '/samples/german/alphabet%20train/worksheet-2.webp',
         alt: 'Fortgeschrittenes Alphabet-Zug-Arbeitsblatt mit 11 Hinweisen für maximale Schwierigkeit',
         caption: 'Volle 11-Hinweis-Schwierigkeit für fortgeschrittene Nutzer',
       },

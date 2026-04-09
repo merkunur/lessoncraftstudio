@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/shadow match/combine-as-sombras-1.webp',
+      primary: '/samples/portuguese/shadow%20match/combine-as-sombras-1.webp',
       primaryAlt: 'Atividade de associação de sombras com imagens a cores na linha superior e siluetas negras autogeradas na linha inferior com cabeçalho âmbar e etiquetas letra-número para atividade de correspondência',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/shadow match/combine-as-sombras-2.webp',
+        src: '/samples/portuguese/shadow%20match/combine-as-sombras-2.webp',
         alt: 'Atividade de associação de sombras com quatro imagens a cores associadas a quatro siluetas negras geradas a nível de píxel com etiquetas A B C D e 1 2 3 4',
         caption: 'Modo Associação de Sombras — os usuários associam imagens às suas siluetas autogeradas a nível de píxel',
       },
       {
-        src: '/samples/portuguese/shadow match/combine-as-sombras-3.webp',
+        src: '/samples/portuguese/shadow%20match/combine-as-sombras-3.webp',
         alt: 'Atividade Complete a Imagem com metades de imagens divididas que os usuários reconectam associando primeiras e segundas metades etiquetadas A a D e 1 a 4',
         caption: 'Modo Complete a Imagem — os usuários associam metades de imagens divididas para completar as ilustrações com cortes horizontais ou verticais',
       },
       {
-        src: '/samples/portuguese/shadow match/combine-as-sombras-4.webp',
+        src: '/samples/portuguese/shadow%20match/combine-as-sombras-4.webp',
         alt: 'Gabarito de associação de sombras mostrando imagens originais junto a siluetas com etiquetas de correspondência correta letra-número como A a 2',
         caption: 'Gabarito autogerado — etiquetas letra-número mostram as correspondências corretas para ambos os modos de exercício',
       },

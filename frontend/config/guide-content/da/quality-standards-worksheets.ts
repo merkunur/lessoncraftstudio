@@ -175,13 +175,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/crossword/billedkrydsord%201.webp',
+      src: '/samples/danish/crossword/billedkrydsord-1.webp',
       alt: 'Ordsøgningsarbejdsark der demonstrerer professionelle kvalitetsstandarder med rent layout og præcis formatering',
     },
     samples: [
-      { src: '/samples/danish/crossword/billedkrydsord%201.webp', alt: 'Billedkrydsord — dansk eksempelarbejdsark', caption: 'Billedkrydsord eksempel 1' },
-      { src: '/samples/danish/crossword/billedkrydsord%202.webp', alt: 'Billedkrydsord — dansk eksempel 2', caption: 'Billedkrydsord eksempel 2' },
-      { src: '/samples/danish/crossword/billedkrydsord%203.webp', alt: 'Billedkrydsord — dansk eksempel 3', caption: 'Billedkrydsord eksempel 3' },
+      { src: '/samples/danish/crossword/billedkrydsord-1.webp', alt: 'Billedkrydsord — dansk eksempelarbejdsark', caption: 'Billedkrydsord eksempel 1' },
+      { src: '/samples/danish/crossword/billedkrydsord-2.webp', alt: 'Billedkrydsord — dansk eksempel 2', caption: 'Billedkrydsord eksempel 2' },
+      { src: '/samples/danish/crossword/billedkrydsord-3.webp', alt: 'Billedkrydsord — dansk eksempel 3', caption: 'Billedkrydsord eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan opretholder du kvalitetsstandarder for printbare arbejdsark',

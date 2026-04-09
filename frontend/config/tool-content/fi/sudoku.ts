@@ -94,13 +94,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/sudoku/kuva-sudoku%201.webp',
+      primary: '/samples/finnish/sudoku/kuva-sudoku-1.webp',
       primaryAlt: '4x4 kuvasudoku-tehtava teemakuvineen premium-ruudukossa vuorottelevilla sinisilla ja pinkkeilla lohkovareilla, lihavoiduilla keskijakajilla ja indigoreunuksella pyoristetyilla kulmilla',
     },
     sampleGallery: [
-      { src: '/samples/finnish/sudoku/kuva-sudoku%202.webp', alt: 'Helppo vaikeustason kuvasudoku 4 tyhjalla solulla ja 12 taytettynae solulla 4x4-ruudukossa vuorottelevilla lohkovareilla', caption: 'Helppo vaikeus — 4 tyhjaa solua aloittelijoille, jotka opettelevat rivi-ja-sarakelogiikkaa' },
-      { src: '/samples/finnish/sudoku/kuva-sudoku%203.webp', alt: 'Vaikea vaikeustason kuvasudoku 8 tyhjalla solulla ja 8 taytettynae solulla 4x4-ruudukossa monivaiheistapaeattelyae vaatien', caption: 'Vaikea vaikeus — 8 tyhjaa solua (puolet ruudukosta) monivaiheista loogista paeaettelyae vaatien' },
-      { src: '/samples/finnish/sudoku/kuva-sudoku%201%20answer-key.webp', alt: 'Kuvasudokun vastausavain nayttaen tayden 4x4-ruudukon kaikki 16 solua oikein taytettyna', caption: 'Automaattisesti generoitu vastausavain — taysi ruudukko kaikki kuvat oikein sijoitettuina' },
+      { src: '/samples/finnish/sudoku/kuva-sudoku-2.webp', alt: 'Helppo vaikeustason kuvasudoku 4 tyhjalla solulla ja 12 taytettynae solulla 4x4-ruudukossa vuorottelevilla lohkovareilla', caption: 'Helppo vaikeus — 4 tyhjaa solua aloittelijoille, jotka opettelevat rivi-ja-sarakelogiikkaa' },
+      { src: '/samples/finnish/sudoku/kuva-sudoku-3.webp', alt: 'Vaikea vaikeustason kuvasudoku 8 tyhjalla solulla ja 8 taytettynae solulla 4x4-ruudukossa monivaiheistapaeattelyae vaatien', caption: 'Vaikea vaikeus — 8 tyhjaa solua (puolet ruudukosta) monivaiheista loogista paeaettelyae vaatien' },
+      { src: '/samples/finnish/sudoku/kuva-sudoku-1-answer-key.webp', alt: 'Kuvasudokun vastausavain nayttaen tayden 4x4-ruudukon kaikki 16 solua oikein taytettyna', caption: 'Automaattisesti generoitu vastausavain — taysi ruudukko kaikki kuvat oikein sijoitettuina' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Nain teet 4x4 kuvasudoku-tehtavia kolmella vaikeustasolla ja automaattisilla vastausavaimilla — vaiheittainen opas',

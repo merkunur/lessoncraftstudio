@@ -213,12 +213,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker werkblad voorbeeld gemaakt met LessonCraftStudio generator' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoeker werkblad voorbeeld gemaakt met LessonCraftStudio generator' },
     samples: [
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker printbaar werkblad met dierenthema', caption: 'Woordzoeker — Dierenthema' },
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optelwerkblad met afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Afbeeldingsgebaseerde Opgaven' },
-      { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat werkblad met thematische illustraties', caption: 'Kleurplaat — Thematische Illustraties' },
-      { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Koppelwerkblad met visuele paar activiteiten', caption: 'Koppelen — Visuele Paar Activiteit' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoeker printbaar werkblad met dierenthema', caption: 'Woordzoeker — Dierenthema' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optelwerkblad met afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Afbeeldingsgebaseerde Opgaven' },
+      { src: '/samples/dutch/coloring/coloring-portrait-1.webp', alt: 'Kleurplaat werkblad met thematische illustraties', caption: 'Kleurplaat — Thematische Illustraties' },
+      { src: '/samples/dutch/matching/zoek-de-paren-1.webp', alt: 'Koppelwerkblad met visuele paar activiteiten', caption: 'Koppelen — Visuele Paar Activiteit' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Woordzoeker Werkbladen te Maken — LessonCraftStudio Demo',

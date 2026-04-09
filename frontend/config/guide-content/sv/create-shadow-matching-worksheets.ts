@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/shadow%20match/Skuggmatchning%201.jpeg', alt: 'Skuggmatchningsarbetsblad med färgbilder och autogenererade pixelnivå svarta silhuetter' },
+    heroImage: { src: '/samples/swedish/shadow%20match/skuggmatchning-1.jpeg', alt: 'Skuggmatchningsarbetsblad med färgbilder och autogenererade pixelnivå svarta silhuetter' },
     samples: [
-      { src: '/samples/swedish/shadow%20match/Skuggmatchning%201.jpeg', alt: 'Skuggmatchning med fyra färgbilder och fyra svarta silhuetter med etiketter', caption: 'Skuggmatchningsläge med fyra färgbilder och deras autogenererade svarta silhuetter' },
-      { src: '/samples/swedish/shadow%20match/Skuggmatchning%20answer_key.jpeg', alt: 'Autogenererat facit med originalbild bredvid silhuett', caption: 'Autogenererat facit med bokstav-till-siffra-kopplingar för snabb verifiering' },
+      { src: '/samples/swedish/shadow%20match/skuggmatchning-1.jpeg', alt: 'Skuggmatchning med fyra färgbilder och fyra svarta silhuetter med etiketter', caption: 'Skuggmatchningsläge med fyra färgbilder och deras autogenererade svarta silhuetter' },
+      { src: '/samples/swedish/shadow%20match/skuggmatchning-answer-key.jpeg', alt: 'Autogenererat facit med originalbild bredvid silhuett', caption: 'Autogenererat facit med bokstav-till-siffra-kopplingar för snabb verifiering' },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: 'Hur du skapar skuggmatchningsarbetsblad — Komplett guide',

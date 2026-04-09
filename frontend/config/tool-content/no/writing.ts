@@ -231,12 +231,12 @@ const content: ToolContent = {
         caption: 'Tre øvelsesmoduser på ett arbeidsark — Sporing, Tonende Sporing og Guidet Kopiering med per-rad-uavhengighet',
       },
       {
-        src: '/samples/norwegian/writing/writing%20custom.webp',
+        src: '/samples/norwegian/writing/writing-custom.webp',
         alt: 'Skriveøvelser arbeidsark i sporingsmodus med trykk pil-skrifttype som viser nummererte strekrekkefølgeretninger',
         caption: 'Pilguided strekrekkefølge — nummererte retningspiler viser presis bokstavformasjonssekvens',
       },
       {
-        src: '/samples/norwegian/writing/writing%20beginning%20letter.webp',
+        src: '/samples/norwegian/writing/writing-beginning-letter.webp',
         alt: 'Skriveøvelser arbeidsark i tonende sporingsmodus med bokstaver som progressivt toner ut over hver rad',
         caption: 'Tonende Sporingsmodus — bokstaver toner progressivt ut for å bygge selvstendig skrivetillit',
       },

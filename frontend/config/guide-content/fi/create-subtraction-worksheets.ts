@@ -185,10 +185,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/subtraction/hauskaa%20v%c3%a4hennyslaskua%201.webp', alt: 'Vähennyslaskutyöarkki yliviivatuilla temaattisilla kuvilla' },
+    heroImage: { src: '/samples/finnish/subtraction/hauskaa-vähennyslaskua-1.webp', alt: 'Vähennyslaskutyöarkki yliviivatuilla temaattisilla kuvilla' },
     samples: [
-      { src: '/samples/finnish/subtraction/hauskaa%20v%c3%a4hennyslaskua%201.webp', alt: 'Kuvapohjainen vähennyslaskutyöarkki yliviivatuilla eläimillä päiväkoti-ikäisille', caption: 'Päiväkoti-vähennyslaskutyöarkki yliviivaustilalla temaattisilla kuvilla' },
-      { src: '/samples/finnish/subtraction/hauskaa%20v%c3%a4hennyslaskua%201.webp', alt: 'Vähennyslaskutyöarkki vastausavaimella oikeilla ratkaisuilla', caption: 'Automaattinen vastausavain jokaiselle vähennyslaskutyöarkille' },
+      { src: '/samples/finnish/subtraction/hauskaa-vähennyslaskua-1.webp', alt: 'Kuvapohjainen vähennyslaskutyöarkki yliviivatuilla eläimillä päiväkoti-ikäisille', caption: 'Päiväkoti-vähennyslaskutyöarkki yliviivaustilalla temaattisilla kuvilla' },
+      { src: '/samples/finnish/subtraction/hauskaa-vähennyslaskua-1.webp', alt: 'Vähennyslaskutyöarkki vastausavaimella oikeilla ratkaisuilla', caption: 'Automaattinen vastausavain jokaiselle vähennyslaskutyöarkille' },
     ],
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'Näin luot vähennyslaskutyöarkkeja — Täydellinen opas',

@@ -181,8 +181,8 @@ const content: GuideContent = {
     },
     samples: [
       { src: '/samples/finnish/writing/writing.webp', alt: 'Kirjoitustyöarkki — alkuperäinen ohjeteksti ja luova asettelu', caption: 'Kirjoitustyöarkit sisältävät merkittävää alkuperäistä luovaa ilmaisua ohjetekstissä ja muotoilussa' },
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulma — temaattinen kuvitus ja luova sisällön järjestely', caption: 'Sananetsintäpulmat havainnollistavat tekijänoikeudella suojattavaa sanavarastoelementtien luovaa järjestelyä' },
-      { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityskuva — alkuperäinen temaattinen kuvitusmuotoilu', caption: 'Värityskuvilla on vahvat tekijänoikeusasemat visuaalisen alkuperäisyytensä ansiosta' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananetsintäpulma — temaattinen kuvitus ja luova sisällön järjestely', caption: 'Sananetsintäpulmat havainnollistavat tekijänoikeudella suojattavaa sanavarastoelementtien luovaa järjestelyä' },
+      { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Värityskuva — alkuperäinen temaattinen kuvitusmuotoilu', caption: 'Värityskuvilla on vahvat tekijänoikeusasemat visuaalisen alkuperäisyytensä ansiosta' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Tekijänoikeuden perusteet tulostettavien myyjille',

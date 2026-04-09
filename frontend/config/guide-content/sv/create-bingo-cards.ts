@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/bingo/Bildlotto%201.jpeg', alt: 'Tematiska bildbingokort som visar färgglada illustrerade rutnät med uppropskort för barn' },
+    heroImage: { src: '/samples/swedish/bingo/bildlotto-1.jpeg', alt: 'Tematiska bildbingokort som visar färgglada illustrerade rutnät med uppropskort för barn' },
     samples: [
-      { src: '/samples/swedish/bingo/Bildlotto%201.jpeg', alt: 'Bildbingokort med djurtema som visar 4×4 rutnätslayout för produktlinjesanvändning', caption: 'Ett 4×4 bildbingokort med djurtema i bilder-bara visningsläge' },
-      { src: '/samples/swedish/bingo/Bildlotto%202.jpeg', alt: 'Bingo uppropskort som visar alla tematiska bilder som används i kortuppsättningen', caption: 'Uppropskort som visar alla bilder som används i bingokortuppsättningen' },
+      { src: '/samples/swedish/bingo/bildlotto-1.jpeg', alt: 'Bildbingokort med djurtema som visar 4×4 rutnätslayout för produktlinjesanvändning', caption: 'Ett 4×4 bildbingokort med djurtema i bilder-bara visningsläge' },
+      { src: '/samples/swedish/bingo/bildlotto-2.jpeg', alt: 'Bingo uppropskort som visar alla tematiska bilder som används i kortuppsättningen', caption: 'Uppropskort som visar alla bilder som används i bingokortuppsättningen' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Hur du skapar bingokort med tematiska bilder — Komplett guide',

@@ -188,11 +188,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/treasure hunt/caccia-al-tesoro-1.webp', alt: 'Scheda caccia al tesoro con griglia di coordinate 5×5, 6 immagini tematiche sparse come punti di riferimento, indizi direzionali e intestazione teal a tema tesoro con titolo dorato in Fredoka' },
+    heroImage: { src: '/samples/italian/treasure%20hunt/caccia-al-tesoro-1.webp', alt: 'Scheda caccia al tesoro con griglia di coordinate 5×5, 6 immagini tematiche sparse come punti di riferimento, indizi direzionali e intestazione teal a tema tesoro con titolo dorato in Fredoka' },
     samples: [
-      { src: '/samples/italian/treasure hunt/caccia-al-tesoro-1.webp', alt: 'Scheda caccia al tesoro che mostra griglia di coordinate 5×5 con immagini tematiche sparse e istruzioni degli indizi direzionali sotto l\'intestazione a tema tesoro', caption: 'Scheda caccia al tesoro con indizi a direzione Base su griglia di coordinate 5×5 con 6 immagini tematiche di riferimento' },
-      { src: '/samples/italian/treasure hunt/caccia-al-tesoro-2.webp', alt: 'Scheda caccia al tesoro con indizi a direzione Cardinale usando nord sud est e ovest sulla griglia di coordinate 5×5', caption: 'Modalità direzione Cardinale che usa vocabolario della bussola per ragionamento spaziale avanzato e competenze di lettura delle mappe' },
-      { src: '/samples/italian/treasure hunt/caccia-al-tesoro-1-answer-key.webp', alt: 'Chiave di risposta auto-generata con cella finale del tesoro evidenziata in giallo pallido sulla griglia di coordinate 5×5', caption: 'Chiave di risposta auto-generata con cella del tesoro evidenziata in giallo pallido per verifica istantanea' },
+      { src: '/samples/italian/treasure%20hunt/caccia-al-tesoro-1.webp', alt: 'Scheda caccia al tesoro che mostra griglia di coordinate 5×5 con immagini tematiche sparse e istruzioni degli indizi direzionali sotto l\'intestazione a tema tesoro', caption: 'Scheda caccia al tesoro con indizi a direzione Base su griglia di coordinate 5×5 con 6 immagini tematiche di riferimento' },
+      { src: '/samples/italian/treasure%20hunt/caccia-al-tesoro-2.webp', alt: 'Scheda caccia al tesoro con indizi a direzione Cardinale usando nord sud est e ovest sulla griglia di coordinate 5×5', caption: 'Modalità direzione Cardinale che usa vocabolario della bussola per ragionamento spaziale avanzato e competenze di lettura delle mappe' },
+      { src: '/samples/italian/treasure%20hunt/caccia-al-tesoro-1-answer-key.webp', alt: 'Chiave di risposta auto-generata con cella finale del tesoro evidenziata in giallo pallido sulla griglia di coordinate 5×5', caption: 'Chiave di risposta auto-generata con cella del tesoro evidenziata in giallo pallido per verifica istantanea' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'Come Creare Schede Caccia al Tesoro — Tutorial Completo',

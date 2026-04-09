@@ -190,11 +190,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Sudoku puzzelwerkblad dat KDP activiteitenboekinhoud demonstreert voor omzetgeneratie' },
+    heroImage: { src: '/samples/dutch/sudoku/plaatjes-sudoku-1.webp', alt: 'Sudoku puzzelwerkblad dat KDP activiteitenboekinhoud demonstreert voor omzetgeneratie' },
     samples: [
-      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Sudoku puzzel opgemaakt voor KDP activiteitenboek binnenpagina\'s', caption: 'Sudoku puzzels — een consistent winstgevende activiteitenboek categorie op Amazon KDP met loyale herhaalaankopers' },
-      { src: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp', alt: 'Rekenwerkblad opgemaakt voor KDP werkboek binnenpagina\'s', caption: 'Rekenwerkboeken — KDP-categorie met hoge vraag en natuurlijke niveaucategorie catalogusuitbreidingsmogelijkheden' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekerpuzzel voor KDP puzzelboek catalogusdiversificatie', caption: 'Woordzoekerboeken — de grootste puzzelboekcategorie op Amazon met sterk potentieel voor meerdelige serie-omzet' },
+      { src: '/samples/dutch/sudoku/plaatjes-sudoku-1.webp', alt: 'Sudoku puzzel opgemaakt voor KDP activiteitenboek binnenpagina\'s', caption: 'Sudoku puzzels — een consistent winstgevende activiteitenboek categorie op Amazon KDP met loyale herhaalaankopers' },
+      { src: '/samples/dutch/math%20worksheet/wiskundeblad-1.webp', alt: 'Rekenwerkblad opgemaakt voor KDP werkboek binnenpagina\'s', caption: 'Rekenwerkboeken — KDP-categorie met hoge vraag en natuurlijke niveaucategorie catalogusuitbreidingsmogelijkheden' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekerpuzzel voor KDP puzzelboek catalogusdiversificatie', caption: 'Woordzoekerboeken — de grootste puzzelboekcategorie op Amazon met sterk potentieel voor meerdelige serie-omzet' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Hoe Sudoku Activiteitenboeken Maken voor Amazon KDP — Omzetopbouw Tutorial',

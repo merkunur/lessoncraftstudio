@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/bingo/Loto d\'images-1.webp',
+      src: '/samples/french/bingo/loto-d\'images-1.webp',
       alt: 'Carte de bingo démontrant un produit imprimable saisonnier idéal pour les campagnes de marketing de fêtes',
     },
     samples: [
       {
-        src: '/samples/french/bingo/Loto d\'images-1.webp',
+        src: '/samples/french/bingo/loto-d\'images-1.webp',
         alt: 'Carte de bingo montrant un produit imprimable saisonnier pour les événements de fêtes et célébrations',
         caption: 'Les cartes de bingo s\'adaptent à chaque thème saisonnier, en faisant des produits idéaux pour le marketing saisonnier tout au long de l\'année',
       },
@@ -204,7 +204,7 @@ const content: GuideContent = {
     { src: '/image-library/christmas/angel.webp', alt: 'Ange — image éducative thématique', caption: 'Ange' },
     { src: '/image-library/christmas/bell.webp', alt: 'Cloche — image éducative thématique', caption: 'Cloche' },
     { src: '/image-library/christmas/candle.webp', alt: 'Bougie — image éducative thématique', caption: 'Bougie' },
-    { src: '/image-library/christmas/candy%20cane.webp', alt: 'Sucre d\'orge — image éducative thématique', caption: 'Sucre d\'orge' },
+    { src: '/image-library/christmas/candy-cane.webp', alt: 'Sucre d\'orge — image éducative thématique', caption: 'Sucre d\'orge' },
     { src: '/image-library/christmas/chimney.webp', alt: 'Cheminée — image éducative thématique', caption: 'Cheminée' },
   ],
 };

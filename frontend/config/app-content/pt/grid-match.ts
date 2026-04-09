@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/grid match/quebra-cabeça-de-grade-1.webp',
+      primary: '/samples/portuguese/grid%20match/quebra-cabeça-de-grade-1.webp',
       primaryAlt: 'Atividade de puzzle de quadrícula com peças de imagens divididas numa grelha, caselas-dica reveladas e paleta de peças numeradas para associação',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/grid match/quebra-cabeça-de-grade-2.webp',
+        src: '/samples/portuguese/grid%20match/quebra-cabeça-de-grade-2.webp',
         alt: 'Puzzle de quadrícula 3×3 com uma casela-dica e oito peças numeradas na paleta',
         caption: 'Puzzle de quadrícula 3×3 — uma casela-dica revelada, oito peças por associar da paleta numerada',
       },
       {
-        src: '/samples/portuguese/grid match/quebra-cabeça-de-grade-3.webp',
+        src: '/samples/portuguese/grid%20match/quebra-cabeça-de-grade-3.webp',
         alt: 'Puzzle de quadrícula 4×4 avançado com dezasseis peças e dicas mínimas',
         caption: 'Puzzle 4×4 avançado — tamanho máximo de grelha para atividades estimulantes de perceção visual',
       },
       {
-        src: '/samples/portuguese/grid match/quebra-cabeça-de-grade-4.webp',
+        src: '/samples/portuguese/grid%20match/quebra-cabeça-de-grade-4.webp',
         alt: 'Gabarito do puzzle de quadrícula mostrando a imagem completa com círculos numerados sobrepostos em cada célula',
         caption: 'Gabarito autogerado — os círculos numerados mostram a colocação correta das peças na imagem completa',
       },

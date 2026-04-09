@@ -209,17 +209,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/treasure hunt/caça-ao-tesouro-1.webp',
+      primary: '/samples/portuguese/treasure%20hunt/caça-ao-tesouro-1.webp',
       primaryAlt: 'Atividade de caça ao tesouro com grelha de coordenadas 5 por 5, 6 imagens temáticas distribuídas como pontos de referência, pistas direcionais e cabeçalho temático de tesouro verde-azulado com título dourado',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/treasure hunt/caça-ao-tesouro-2.webp',
+        src: '/samples/portuguese/treasure%20hunt/caça-ao-tesouro-2.webp',
         alt: 'Puzzle de caça ao tesouro com pistas de direção Cardinal usando norte, sul, este e oeste numa grelha de coordenadas 5 por 5',
         caption: 'Modo de direção Cardinal — direções de bússola para raciocínio espacial avançado e competências de leitura de mapas',
       },
       {
-        src: '/samples/portuguese/treasure hunt/caça-ao-tesouro-3.webp',
+        src: '/samples/portuguese/treasure%20hunt/caça-ao-tesouro-3.webp',
         alt: 'Gabarito de caça ao tesouro com a célula final do tesouro realçada em amarelo pálido na grelha de coordenadas 5 por 5',
         caption: 'Gabarito autogerado — o realce em amarelo pálido marca o destino do tesouro para autocorreção',
       },

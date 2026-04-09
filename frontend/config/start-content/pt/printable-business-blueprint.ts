@@ -220,9 +220,9 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-1.webp', alt: 'Exemplo de atividade de quebra-cabeças matemáticos criada com o gerador LessonCraftStudio' },
+    heroImage: { src: '/samples/portuguese/math%20puzzle/quebra-cabeças-matemático-1.webp', alt: 'Exemplo de atividade de quebra-cabeças matemáticos criada com o gerador LessonCraftStudio' },
     samples: [
-      { src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-2.webp', alt: 'Atividade de quebra-cabeças matemáticos mostrando a variedade de resultados configuráveis', caption: 'Quebra-Cabeças Matemáticos — Dificuldade Configurável' },
+      { src: '/samples/portuguese/math%20puzzle/quebra-cabeças-matemático-2.webp', alt: 'Atividade de quebra-cabeças matemáticos mostrando a variedade de resultados configuráveis', caption: 'Quebra-Cabeças Matemáticos — Dificuldade Configurável' },
       { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Atividade de caça-palavras com lista de palavras temáticas', caption: 'Caça-Palavras — Puzzle Temático' },
       { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Atividade para colorir com ilustrações temáticas', caption: 'Colorir — Apelo Visual' },
       { src: '/samples/portuguese/matching/encontre-os-pares-1.webp', alt: 'Atividade de associação com formato internacional puramente visual', caption: 'Associação — Funciona em Qualquer Idioma' },

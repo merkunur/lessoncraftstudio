@@ -190,14 +190,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/missing pieces/missing-pieces.webp',
+      primary: '/samples/english/missing%20pieces/missing-pieces.webp',
       primaryAlt: 'Missing pieces puzzle worksheet with grid segments removed for spatial reasoning challenge',
     },
     sampleGallery: [
-      { src: '/samples/english/missing pieces/missing-pieces.webp', alt: 'Missing pieces puzzle with image grid segments removed', caption: 'Missing Pieces Puzzle' },
-      { src: '/samples/english/odd one out/find-the-odd-one-out.webp', alt: 'Odd one out worksheet with rows of similar images and one different', caption: 'Odd One Out Worksheet' },
+      { src: '/samples/english/missing%20pieces/missing-pieces.webp', alt: 'Missing pieces puzzle with image grid segments removed', caption: 'Missing Pieces Puzzle' },
+      { src: '/samples/english/odd%20one%20out/find-the-odd-one-out.webp', alt: 'Odd one out worksheet with rows of similar images and one different', caption: 'Odd One Out Worksheet' },
       { src: '/samples/english/sudoku/sudoku-worksheet.webp', alt: '4x4 picture Sudoku puzzle with themed images instead of numbers', caption: 'Picture Sudoku Puzzle' },
-      { src: '/samples/english/picture path/picture-pathway.webp', alt: 'Picture path maze with themed image route through grid', caption: 'Picture Path Maze' },
+      { src: '/samples/english/picture%20path/picture-pathway.webp', alt: 'Picture path maze with themed image route through grid', caption: 'Picture Path Maze' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Puzzles & Logic Bundle — See All 4 Generators in Action',

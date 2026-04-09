@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/pattern worksheet/puzzle-di-schemi-1.webp',
+      primary: '/samples/italian/pattern%20worksheet/puzzle-di-schemi-1.webp',
       primaryAlt: 'Scheda di pattern con esercizi a griglia che mostrano sequenze ripetitive di immagini con caselle vuote e opzioni di scelta multipla',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/pattern worksheet/puzzle-di-schemi-2.webp',
+        src: '/samples/italian/pattern%20worksheet/puzzle-di-schemi-2.webp',
         alt: 'Scheda di pattern con esercizi AB in casella vuota usando immagini di animali in un layout a griglia con spazi vuoti da completare',
         caption: 'Esercizi AB in casella vuota con tema animali — gli utenti identificano il pattern alternante e completano l\'immagine mancante',
       },
       {
-        src: '/samples/italian/pattern worksheet/puzzle-di-schemi-3.webp',
+        src: '/samples/italian/pattern%20worksheet/puzzle-di-schemi-3.webp',
         alt: 'Scheda di pattern con esercizi ABC in scelta multipla usando immagini di veicoli con tre opzioni di risposta per esercizio',
         caption: 'Esercizi ABC in scelta multipla con tema veicoli — gli utenti scelgono l\'elemento corretto mancante tra tre opzioni',
       },
       {
-        src: '/samples/italian/pattern worksheet/puzzle-di-schemi-4.webp',
+        src: '/samples/italian/pattern%20worksheet/puzzle-di-schemi-4.webp',
         alt: 'Scheda risposte della scheda di pattern che mostra tutte le caselle vuote riempite con gli elementi corretti del pattern',
         caption: 'Vista risposte — tutte le caselle riempite con gli elementi corretti del pattern per la verifica dell\'venditore',
       },

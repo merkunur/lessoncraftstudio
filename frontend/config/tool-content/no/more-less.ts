@@ -203,22 +203,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/more%20less/mer%20mindre%201.webp',
+      primary: '/samples/norwegian/more%20less/mer-mindre-1.webp',
       primaryAlt: 'Mer eller mindre arbeidsark med bildesammenligningsgrupper som viser storre enn og mindre enn ovelser',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/more%20less/mer%20mindre%201.webp',
+        src: '/samples/norwegian/more%20less/mer-mindre-1.webp',
         alt: 'Bilde mot Bilde sammenligningsarbeidsark med dyretema som viser to bildegrupper side om side',
         caption: 'Bilde mot Bilde-modus med dyretema',
       },
       {
-        src: '/samples/norwegian/more%20less/mer%20mindre%202.webp',
+        src: '/samples/norwegian/more%20less/mer-mindre-2.webp',
         alt: 'Bilde mot Tall sammenligningsarbeidsark som brobygning mellom visuell telling og skrevne tall',
         caption: 'Bilde mot Tall-modus — brobygning mellom bilder og tall',
       },
       {
-        src: '/samples/norwegian/more%20less/mer%20mindre%203.webp',
+        src: '/samples/norwegian/more%20less/mer-mindre-3.webp',
         alt: 'Sjekk og Kryss Grupper arbeidsark med blandede omroerte bilder for sortering og sammenligning',
         caption: 'Sjekk og Kryss Grupper — unik sorterings- og sammenligningsmoduls',
       },

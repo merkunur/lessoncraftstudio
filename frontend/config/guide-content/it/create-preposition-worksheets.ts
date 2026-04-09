@@ -199,7 +199,7 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/around%20the%20house/alarm%20clock.webp', alt: 'Sveglia — immagine educativa tematica', caption: 'Sveglia' },
+    { src: '/image-library/around%20the%20house/alarm-clock.webp', alt: 'Sveglia — immagine educativa tematica', caption: 'Sveglia' },
     { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Poltrona — immagine educativa tematica', caption: 'Poltrona' },
     { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Vasca da Bagno — immagine educativa tematica', caption: 'Vasca da Bagno' },
     { src: '/image-library/around%20the%20house/bed.webp', alt: 'Letto — immagine educativa tematica', caption: 'Letto' },

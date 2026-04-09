@@ -222,7 +222,7 @@ const content: StartContent = {
       { src: '/samples/italian/writing/writing.webp', alt: 'Scheda di scrittura che mostra contenuti educativi commercialmente licenziabili', caption: 'Scrittura — Contenuti Educativi Commercialmente Licenziabili' },
       { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Crucipuzzle che dimostra il potenziale commerciale ad alto volume', caption: 'Crucipuzzle — Tipo di Puzzle Commerciale Più Popolare' },
       { src: '/samples/italian/crossword/cruciverba-con-immagini-1.webp', alt: 'Cruciverba che mostra la capacità di prodotto commerciale multilingue', caption: 'Cruciverba — Prodotti Commerciali Multilingue' },
-      { src: '/samples/italian/math puzzle/rompicapi-matematici-1.webp', alt: 'Scheda di matematica che dimostra la generazione di prodotti commerciali sempreverdi', caption: 'Matematica — Generazione di Prodotti Commerciali Sempreverdi' },
+      { src: '/samples/italian/math%20puzzle/rompicapi-matematici-1.webp', alt: 'Scheda di matematica che dimostra la generazione di prodotti commerciali sempreverdi', caption: 'Matematica — Generazione di Prodotti Commerciali Sempreverdi' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Come Creare Schede di Scrittura per la Tua Attività di Stampabili — Demo LessonCraftStudio',

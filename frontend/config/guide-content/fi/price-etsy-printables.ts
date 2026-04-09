@@ -71,11 +71,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%202.webp', alt: 'Opetuksellinen tulostettava työarkki hinnoittelustrategian havainnollistamiseen Etsyssä' },
+    heroImage: { src: '/samples/finnish/addition/hauska-yhteenlasku-2.webp', alt: 'Opetuksellinen tulostettava työarkki hinnoittelustrategian havainnollistamiseen Etsyssä' },
     samples: [
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki näyttäen sisääntulohinnoittelutuotetta Etsyssä', caption: 'Eläinteemainen yhteenlaskutyöarkki — tyypillinen sisääntulotuote hinnoiteltu 3,99 dollariin 10 sivun paketille' },
-      { src: '/samples/finnish/wordsearch/sanahaku%202.webp', alt: 'Sananetsintäpulma esittelemässä premium-hinnoittelua kielikohtaisille tuotteille', caption: 'Sananetsintäpulma — kieliversiot tukevat premium-hinnoittelua vähemmän kilpailulla ei-englanninkielisillä markkinoilla' },
-      { src: '/samples/finnish/sudoku/kuva-sudoku%203.webp', alt: 'Sudokupulma näyttäen vaikeusasteeseen perustuvaa hinnoittelustrategiaa', caption: 'Sudokupulma — vaikeusasteeseen perustuva porrastus tukee asteittaista hinnoittelua yksittäisen tuotekategorian sisällä' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki näyttäen sisääntulohinnoittelutuotetta Etsyssä', caption: 'Eläinteemainen yhteenlaskutyöarkki — tyypillinen sisääntulotuote hinnoiteltu 3,99 dollariin 10 sivun paketille' },
+      { src: '/samples/finnish/wordsearch/sanahaku-2.webp', alt: 'Sananetsintäpulma esittelemässä premium-hinnoittelua kielikohtaisille tuotteille', caption: 'Sananetsintäpulma — kieliversiot tukevat premium-hinnoittelua vähemmän kilpailulla ei-englanninkielisillä markkinoilla' },
+      { src: '/samples/finnish/sudoku/kuva-sudoku-3.webp', alt: 'Sudokupulma näyttäen vaikeusasteeseen perustuvaa hinnoittelustrategiaa', caption: 'Sudokupulma — vaikeusasteeseen perustuva porrastus tukee asteittaista hinnoittelua yksittäisen tuotekategorian sisällä' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Kuinka luoda tulostettavia työarkkeja myytäväksi Etsyssä — Tuotteen arvon ja hinnoittelun ymmärtäminen',
@@ -84,7 +84,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Parsa — temaattinen opetuskuva', caption: 'Parsa' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Punajuuri — temaattinen opetuskuva', caption: 'Punajuuri' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Paprika — temaattinen opetuskuva', caption: 'Paprika' },
+    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Paprika — temaattinen opetuskuva', caption: 'Paprika' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Parsakaali — temaattinen opetuskuva', caption: 'Parsakaali' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Kaali — temaattinen opetuskuva', caption: 'Kaali' },
   ],

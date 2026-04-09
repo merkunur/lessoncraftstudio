@@ -185,7 +185,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Animal themed word search puzzle created for Etsy digital download listing', caption: 'Word search puzzle with animal vocabulary theme — grid-based format that creates eye-catching Etsy listing photos' },
       { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Crossword puzzle complementing word search products in an Etsy puzzle shop', caption: 'Crossword puzzle — natural cross-sell companion to word search listings in your Etsy shop' },
-      { src: '/samples/english/word scramble/word-scramble-10.webp', alt: 'Word scramble puzzle showing complementary format for Etsy puzzle bundles', caption: 'Word scramble puzzle — quick vocabulary activity that adds variety to multi-format bundles' },
+      { src: '/samples/english/word%20scramble/word-scramble-10.webp', alt: 'Word scramble puzzle showing complementary format for Etsy puzzle bundles', caption: 'Word scramble puzzle — quick vocabulary activity that adds variety to multi-format bundles' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles for Selling on Etsy — Step-by-Step Tutorial',

@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%201.webp', alt: 'Skjulte genstande scene-arbejdsark der viser tematiske billeder arrangeret for børn til at finde specifikke genstande' },
+    heroImage: { src: '/samples/danish/find%20objects/find-de-skjulte-objekter-1.webp', alt: 'Skjulte genstande scene-arbejdsark der viser tematiske billeder arrangeret for børn til at finde specifikke genstande' },
     samples: [
-      { src: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%201.webp', alt: 'Find de Skjulte Objekter — dansk eksempelarbejdsark', caption: 'Find de Skjulte Objekter eksempel 1' },
-      { src: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%202.webp', alt: 'Find de Skjulte Objekter — dansk eksempel 2', caption: 'Find de Skjulte Objekter eksempel 2' },
-      { src: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%203.webp', alt: 'Find de Skjulte Objekter — dansk eksempel 3', caption: 'Find de Skjulte Objekter eksempel 3' },
+      { src: '/samples/danish/find%20objects/find-de-skjulte-objekter-1.webp', alt: 'Find de Skjulte Objekter — dansk eksempelarbejdsark', caption: 'Find de Skjulte Objekter eksempel 1' },
+      { src: '/samples/danish/find%20objects/find-de-skjulte-objekter-2.webp', alt: 'Find de Skjulte Objekter — dansk eksempel 2', caption: 'Find de Skjulte Objekter eksempel 2' },
+      { src: '/samples/danish/find%20objects/find-de-skjulte-objekter-3.webp', alt: 'Find de Skjulte Objekter — dansk eksempel 3', caption: 'Find de Skjulte Objekter eksempel 3' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Sådan generator du skjulte genstande scene-arbejdsark — Komplet vejledning',

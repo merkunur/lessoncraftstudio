@@ -232,22 +232,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/code%20addition/geheime%20code%20optellen%201.webp',
+      primary: '/samples/dutch/code%20addition/geheime-code-optellen-1.webp',
       primaryAlt: 'Gecodeerd optellen werkblad met dierenafbeeldingen die geheime nummers verbergen in een codekraak-puzzel',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/code%20addition/geheime%20code%20optellen%202.webp',
+        src: '/samples/dutch/code%20addition/geheime-code-optellen-2.webp',
         alt: 'Gecodeerd optellen werkblad in Klassieke Modus met thematische dierenafbeeldingen als codesymbolen',
         caption: 'Klassieke Modus — gebruikers kraken de code door te achterhalen welk nummer elke afbeelding voorstelt',
       },
       {
-        src: '/samples/dutch/code%20addition/geheime%20code%20optellen%203.webp',
+        src: '/samples/dutch/code%20addition/geheime-code-optellen-3.webp',
         alt: 'Gecodeerd optellen werkblad met ander visueel thema dat cryptaritmetische vergelijkingen met afbeeldingen toont',
         caption: 'Multi-symbool uitdaging — meer afbeeldingen verhogen de complexiteit van de deductie',
       },
       {
-        src: '/samples/dutch/code%20addition/geheime%20code%20optellen%204.webp',
+        src: '/samples/dutch/code%20addition/geheime-code-optellen-4.webp',
         alt: 'Gecodeerde optellen puzzel met kleurrijke thematische afbeeldingen en vergelijkingen',
         caption: 'Thematische puzzels — 104 visuele thema\'s maken elk werkblad uniek en boeiend',
       },

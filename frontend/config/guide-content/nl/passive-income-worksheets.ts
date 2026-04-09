@@ -181,7 +181,7 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/math puzzle/wiskundepuzzels-1.webp',
+      src: '/samples/dutch/math%20puzzle/wiskundepuzzels-1.webp',
       alt: 'Wiskundepuzzel werkblad voorbeeld voor passief inkomen met printables',
     },
     samples: [

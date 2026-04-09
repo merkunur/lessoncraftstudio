@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/chart%20count/kuvakaavio%201.webp', alt: 'Kuvakaavio-työarkki hajautetulla 4×5 kuvaruudukolla jossa 20 kuvaketta 6 tyypistä ja pylväsdiagrammi käyttäjien laskentaa ja kaavioiden piirtämistä varten' },
+    heroImage: { src: '/samples/finnish/chart%20count/kuvakaavio-1.webp', alt: 'Kuvakaavio-työarkki hajautetulla 4×5 kuvaruudukolla jossa 20 kuvaketta 6 tyypistä ja pylväsdiagrammi käyttäjien laskentaa ja kaavioiden piirtämistä varten' },
     samples: [
-      { src: '/samples/finnish/chart%20count/kuvakaavio%201.webp', alt: 'Eläinteemainen kuvakaavio-työarkki 20 hajautetulla eläinkuvakkeella 4×5 ruudukossa ja 6-sarakkeen pylväsdiagrammilla laskuharjoitusta varten', caption: 'Eläinteemainen kuvakaavio — 6 eläintyyppiä hajautettuna ruudukkoon pylväsdiagrammilla alla tiedon esittämisen harjoittelua varten' },
-      { src: '/samples/finnish/chart%20count/kuvakaavio%202.webp', alt: 'Kuvakaavion vastausavain keltakorosteisilla soluilla jotka näyttävät oikeat laskelmat kullekin 6 kuvatyypille', caption: 'Automaattisesti luotu vastausavain — keltaiset solut (#FFC857) näyttävät oikean lukumäärän kullekin kuvatyypille' },
-      { src: '/samples/finnish/chart%20count/kuvakaavio%203.webp', alt: 'Kuvakaavio-työarkki koristeellisilla tausta- ja kehysteemoilla viimeistellyyn markkinapaikkailmeeseen', caption: 'Koristeltu kuvakaavio — tausta- ja kehysteemat itsenäisillä läpinäkyvyyssäätimillä ammattimaiseen tyylittelyyn' },
+      { src: '/samples/finnish/chart%20count/kuvakaavio-1.webp', alt: 'Eläinteemainen kuvakaavio-työarkki 20 hajautetulla eläinkuvakkeella 4×5 ruudukossa ja 6-sarakkeen pylväsdiagrammilla laskuharjoitusta varten', caption: 'Eläinteemainen kuvakaavio — 6 eläintyyppiä hajautettuna ruudukkoon pylväsdiagrammilla alla tiedon esittämisen harjoittelua varten' },
+      { src: '/samples/finnish/chart%20count/kuvakaavio-2.webp', alt: 'Kuvakaavion vastausavain keltakorosteisilla soluilla jotka näyttävät oikeat laskelmat kullekin 6 kuvatyypille', caption: 'Automaattisesti luotu vastausavain — keltaiset solut (#FFC857) näyttävät oikean lukumäärän kullekin kuvatyypille' },
+      { src: '/samples/finnish/chart%20count/kuvakaavio-3.webp', alt: 'Kuvakaavio-työarkki koristeellisilla tausta- ja kehysteemoilla viimeistellyyn markkinapaikkailmeeseen', caption: 'Koristeltu kuvakaavio — tausta- ja kehysteemat itsenäisillä läpinäkyvyyssäätimillä ammattimaiseen tyylittelyyn' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Kuinka luot kuvakaavio-työarkkeja automaattisilla vastausavaimilla ja hajautetuilla kuvaruudukoilla — Vaiheittainen opas',

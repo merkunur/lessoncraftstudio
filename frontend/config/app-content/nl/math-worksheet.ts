@@ -229,22 +229,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp',
+      primary: '/samples/dutch/math%20worksheet/wiskundeblad-1.webp',
       primaryAlt: 'Algebra afbeeldingspuzzel werkblad met plaatjes die onbekende variabelen voorstellen in een stelsel van vergelijkingen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/math%20worksheet/wiskundeblad%202.webp',
+        src: '/samples/dutch/math%20worksheet/wiskundeblad-2.webp',
         alt: 'Heel Makkelijk algebra puzzel werkblad met twee afbeeldingssymbolen en alleen optelvergelijkingen',
         caption: 'Heel Makkelijk niveau — twee afbeeldingssymbolen in een eenvoudig vergelijkingenstelsel met alleen optellen',
       },
       {
-        src: '/samples/dutch/math%20worksheet/wiskundeblad%203.webp',
+        src: '/samples/dutch/math%20worksheet/wiskundeblad-3.webp',
         alt: 'Gemiddeld algebra puzzel werkblad met drie afbeeldingssymbolen en gemengde bewerkingen',
         caption: 'Gemiddeld niveau — drie symbolen in gekoppelde vergelijkingen met optellen en aftrekken',
       },
       {
-        src: '/samples/dutch/math%20worksheet/wiskundeblad%204.webp',
+        src: '/samples/dutch/math%20worksheet/wiskundeblad-4.webp',
         alt: 'Moeilijk algebra puzzel werkblad met vier afbeeldingssymbolen in een stelsel van vier vergelijkingen',
         caption: 'Moeilijk niveau — vier gelijktijdige onbekenden voor gevorderd algebraïsch probleemoplossen',
       },

@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/math%20worksheet/mattetal%20landscape.jpeg', alt: 'Mattearbetsblad som visar rutnätslayout och avstånd formaterat för Amazon KDP tryckspecifikationer' },
+    heroImage: { src: '/samples/swedish/math%20worksheet/mattetal-landscape.jpeg', alt: 'Mattearbetsblad som visar rutnätslayout och avstånd formaterat för Amazon KDP tryckspecifikationer' },
     samples: [
-      { src: '/samples/swedish/math%20worksheet/mattetal%20landscape.jpeg', alt: 'Mattearbetsblad med exakt rutnätsavstånd som demonstrerar KDP marginal- och layoutkrav', caption: 'Mattearbetsblad layout — rutnätsbaserad formatering med tillräcklig cellstorlek för bekväm handskrift inom KDP-marginalspecifikationer' },
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.jpeg', alt: 'Ordsökningspussel-rutnät med bokstavsavstånd formaterat för KDP-tryck', caption: 'Ordsökningsrutnät — konsekvent bokstavsavstånd vid 0,3-tums celler säkerställer bekväm inringning och läsbarhet i KDP-tryckta böcker' },
-      { src: '/samples/swedish/addition/addition_%C3%B6vning.jpeg', alt: 'Additionsarbetsblad som demonstrerar ren ensids KDP-layout', caption: 'Additionsarbetsblad — ren enoperationslayout med tydliga svarsutrymmen som demonstrerar professionell KDP-interiörformatering' },
+      { src: '/samples/swedish/math%20worksheet/mattetal-landscape.jpeg', alt: 'Mattearbetsblad med exakt rutnätsavstånd som demonstrerar KDP marginal- och layoutkrav', caption: 'Mattearbetsblad layout — rutnätsbaserad formatering med tillräcklig cellstorlek för bekväm handskrift inom KDP-marginalspecifikationer' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.jpeg', alt: 'Ordsökningspussel-rutnät med bokstavsavstånd formaterat för KDP-tryck', caption: 'Ordsökningsrutnät — konsekvent bokstavsavstånd vid 0,3-tums celler säkerställer bekväm inringning och läsbarhet i KDP-tryckta böcker' },
+      { src: '/samples/swedish/addition/addition-övning.jpeg', alt: 'Additionsarbetsblad som demonstrerar ren ensids KDP-layout', caption: 'Additionsarbetsblad — ren enoperationslayout med tydliga svarsutrymmen som demonstrerar professionell KDP-interiörformatering' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Hur du skapar tryckfärdiga mattearbetsblad för Amazon KDP — formateringsguide',

@@ -214,22 +214,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/pattern%20train/kuviojuna%201.webp',
+      primary: '/samples/finnish/pattern%20train/kuviojuna-1.webp',
       primaryAlt: 'Kuviosarjajuna-työkirja temaattisilla junavaunuilla, jotka näyttävät toistuvan kuviosekvenssin yhden puuttuvan vaunun kanssa käyttäjien täydennettäväksi',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/pattern%20train/kuviojuna%202.webp',
+        src: '/samples/finnish/pattern%20train/kuviojuna-2.webp',
         alt: 'Kuviosarjajuna-työkirja AB-vuorottelukuviotilassa eläinkuvilla 11 temaattisessa junavaunussa',
         caption: 'AB-kuvio eläinteemalla — tunnista vuorotteleva sekvenssi ja täydennä puuttuva vaunu',
       },
       {
-        src: '/samples/finnish/pattern%20train/kuviojuna%203.webp',
+        src: '/samples/finnish/pattern%20train/kuviojuna-3.webp',
         alt: 'Kuviosarjajuna-työkirja ABC-kolmielementtikuviolla temaattisilla kuvilla junavaunuissa',
         caption: 'ABC-kuvio — kolme kiertävää esinettä luovat monimutkaisemman toistuvan sekvenssin',
       },
       {
-        src: '/samples/finnish/pattern%20train/kuviojuna%204.webp',
+        src: '/samples/finnish/pattern%20train/kuviojuna-4.webp',
         alt: 'Kuviosarjajunan ratkaisuavain, joka näyttää kaikki 11 vaunua täytettyinä oikealla kuviosekvenssillä',
         caption: 'Ratkaisuavainnäkymä — kaikki 11 vaunua täytettyinä oikealla kuviolla varmistusta varten',
       },

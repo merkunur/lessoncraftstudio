@@ -196,7 +196,7 @@ const content: GuideContent = {
     heroImage: { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Recurso de sopa de letras optimizado para visibilidad y ventas en tienda Hotmart' },
     samples: [
       { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras optimizada para crecimiento de catálogo de tienda Hotmart', caption: 'Las sopas de letras están entre los recursos Hotmart más versátiles — cree variaciones temáticas estacionales para expansión rápida del catálogo' },
-      { src: '/samples/spanish/math puzzle/rompecabezas-matemáticos-3.webp', alt: 'Ficha de puzle matemático para diferenciación de tienda Hotmart', caption: 'Los formatos únicos de puzles matemáticos enfrentan menor competencia en Hotmart que las fichas estándar — una estrategia de diferenciación para categorías saturadas' },
+      { src: '/samples/spanish/math%20puzzle/rompecabezas-matemáticos-3.webp', alt: 'Ficha de puzle matemático para diferenciación de tienda Hotmart', caption: 'Los formatos únicos de puzles matemáticos enfrentan menor competencia en Hotmart que las fichas estándar — una estrategia de diferenciación para categorías saturadas' },
       { src: '/samples/spanish/crossword/crucigrama-con-dibujos-1.webp', alt: 'Actividad de crucigrama para recursos de vocabulario Hotmart', caption: 'Los crucigramas son actividades de vocabulario de alta demanda que los vendedores buscan por asignatura y nivel de grado en Hotmart' },
     ],
     youtubeId: '36keBFzJbPo',

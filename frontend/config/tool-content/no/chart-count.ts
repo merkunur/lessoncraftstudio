@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/chart%20count/bildediagram%201.webp',
+      primary: '/samples/norwegian/chart%20count/bildediagram-1.webp',
       primaryAlt: 'Bildediagram arbeidsark med spredt 4×5 bilderutenett som viser 20 ikoner fra 6 typer og tomt søylediagram for brukerne å telle og diagrammere data',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/chart%20count/bildediagram%201.webp',
+        src: '/samples/norwegian/chart%20count/bildediagram-1.webp',
         alt: 'Dyretema bildediagram arbeidsark med 20 spredte dyreikoner i et 4×5-rutenett og 6-kolonne søylediagram nedenfor for telleøvelse',
         caption: 'Dyretema bildediagram — 6 dyretyper spredt i rutenettet med søylediagram nedenfor for datarepresentasjonsøvelse',
       },
       {
-        src: '/samples/norwegian/chart%20count/bildediagram%202.webp',
+        src: '/samples/norwegian/chart%20count/bildediagram-2.webp',
         alt: 'Bildediagram arbeidsark med dekorativt bakgrunns- og rammetema brukt med uavhengige gjennomsiktighetskontroller',
         caption: 'Dekorert bildediagram — bakgrunns- og rammetemaer med uavhengige gjennomsiktighetskontroller for profesjonell produktstyling',
       },
       {
-        src: '/samples/norwegian/chart%20count/bildediagram%203.webp',
+        src: '/samples/norwegian/chart%20count/bildediagram-3.webp',
         alt: 'Bildediagram fasit med gulmarkerte celler som viser korrekte antall for hver av de 6 bildetypene i søylediagrammet',
         caption: 'Automatisk generert fasit — gulutfylte celler (#FFC857) viser det korrekte antallet for hver bildetype',
       },

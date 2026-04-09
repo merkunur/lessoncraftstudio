@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/treasure hunt/chasse-au-trésor-1.webp', alt: 'Fiche de parcours fléché chasse au trésor avec grille de coordonnées 5×5, 6 images thématiques dispersées comme repères, indices directionnels et en-tête bleu sarcelle avec titre doré Fredoka' },
+    heroImage: { src: '/samples/french/treasure%20hunt/chasse-au-trésor-1.webp', alt: 'Fiche de parcours fléché chasse au trésor avec grille de coordonnées 5×5, 6 images thématiques dispersées comme repères, indices directionnels et en-tête bleu sarcelle avec titre doré Fredoka' },
     samples: [
-      { src: '/samples/french/treasure hunt/chasse-au-trésor-1.webp', alt: 'Fiche de chasse au trésor montrant la grille de coordonnées 5×5 avec images thématiques dispersées et instructions d\'indices directionnels sous l\'en-tête sur le thème du trésor', caption: 'Fiche de chasse au trésor avec indices en direction basique sur une grille de coordonnées 5×5 avec 6 images-repères thématiques' },
-      { src: '/samples/french/treasure hunt/chasse-au-trésor-2.webp', alt: 'Fiche de chasse au trésor avec indices en direction cardinale utilisant nord sud est et ouest sur la grille de coordonnées 5×5', caption: 'Mode direction cardinale utilisant le vocabulaire de boussole pour le raisonnement spatial avancé et les compétences de lecture de carte' },
-      { src: '/samples/french/treasure hunt/chasse-au-trésor-1-answer-key.webp', alt: 'Corrigé automatique avec cellule finale du trésor surlignée en jaune pâle sur la grille de coordonnées 5×5', caption: 'Corrigé automatique avec cellule du trésor surlignée en jaune pâle pour une vérification instantanée' },
+      { src: '/samples/french/treasure%20hunt/chasse-au-trésor-1.webp', alt: 'Fiche de chasse au trésor montrant la grille de coordonnées 5×5 avec images thématiques dispersées et instructions d\'indices directionnels sous l\'en-tête sur le thème du trésor', caption: 'Fiche de chasse au trésor avec indices en direction basique sur une grille de coordonnées 5×5 avec 6 images-repères thématiques' },
+      { src: '/samples/french/treasure%20hunt/chasse-au-trésor-2.webp', alt: 'Fiche de chasse au trésor avec indices en direction cardinale utilisant nord sud est et ouest sur la grille de coordonnées 5×5', caption: 'Mode direction cardinale utilisant le vocabulaire de boussole pour le raisonnement spatial avancé et les compétences de lecture de carte' },
+      { src: '/samples/french/treasure%20hunt/chasse-au-trésor-1-answer-key.webp', alt: 'Corrigé automatique avec cellule finale du trésor surlignée en jaune pâle sur la grille de coordonnées 5×5', caption: 'Corrigé automatique avec cellule du trésor surlignée en jaune pâle pour une vérification instantanée' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'Comment créer des fiches de chasse au trésor — Tutoriel complet',

@@ -238,22 +238,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/pattern%20worksheet/kuvioteht%c3%a4v%c3%a4t%201.webp',
+      primary: '/samples/finnish/pattern%20worksheet/kuviotehtävät-1.webp',
       primaryAlt: 'Kuvion täydennystyöarkki ruudukkoperusteisilla harjoituksilla näyttäen toistuvat kuvakuviot tyhjin ruuduin ja monivalintavaihtoehdoin',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/pattern%20worksheet/kuvioteht%c3%a4v%c3%a4t%202.webp',
+        src: '/samples/finnish/pattern%20worksheet/kuviotehtävät-2.webp',
         alt: 'Kuviotyöarkki AB-tyhjän täydennys -harjoituksilla eläinkuvilla ruudukkossa tyhjin ruuduin',
         caption: 'AB-tyhjän täydennys eläinteemalla — tunnista vuorottelukuvio ja täydennä puuttuva kuva',
       },
       {
-        src: '/samples/finnish/pattern%20worksheet/kuvioteht%c3%a4v%c3%a4t%203.webp',
+        src: '/samples/finnish/pattern%20worksheet/kuviotehtävät-3.webp',
         alt: 'Kuviotyöarkki ABC-monivalintaharjoituksilla ajoneuvokuvilla kolmella vastausvaihtoehdolla',
         caption: 'ABC-monivalinta ajoneuvoteemalla — valitse oikea puuttuva elementti kolmesta vaihtoehdosta',
       },
       {
-        src: '/samples/finnish/pattern%20worksheet/kuvioteht%c3%a4v%c3%a4t%201%20answer-key.webp',
+        src: '/samples/finnish/pattern%20worksheet/kuviotehtävät-1-answer-key.webp',
         alt: 'Kuviotyöarkin vastauslehti kaikki tyhjät paikat täytettyinä oikeilla kuvioelementeillä',
         caption: 'Vastauslehtinäkymä — kaikki tyhjät täytettyinä oikeilla kuvioelementeillä välittömään varmistukseen',
       },

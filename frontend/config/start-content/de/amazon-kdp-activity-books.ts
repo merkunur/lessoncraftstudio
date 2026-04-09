@@ -223,7 +223,7 @@ const content: StartContent = {
     samples: [
       { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt für KDP-Aktivitätsbuch-Innenteil', caption: 'Sudoku — Top KDP-Rätselkategorie' },
       { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Rätsel für Amazon KDP Aktivitätsbuch', caption: 'Wortsuche — KDP-Verkaufsschlager-Kategorie' },
-      { src: '/samples/german/math puzzle/mathe-rätsel-1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt für KDP-Arbeitsbuch-Innenteil', caption: 'Mathe-Rätsel — Zeitlose KDP-Nische' },
+      { src: '/samples/german/math%20puzzle/mathe-rätsel-1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt für KDP-Arbeitsbuch-Innenteil', caption: 'Mathe-Rätsel — Zeitlose KDP-Nische' },
       { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kreuzworträtsel-Arbeitsblatt für KDP-Aktivitätsbuch', caption: 'Kreuzworträtsel — Klassisches Aktivitätsbuch-Format' },
     ],
     youtubeId: 'bqVioFbkYbA',

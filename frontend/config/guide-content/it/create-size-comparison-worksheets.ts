@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/big small/grande-o-piccolo-1.webp', alt: 'Scheda di confronto dimensioni con immagini tematiche a dimensioni diverse che mostra l\'esercizio cerchia il più grande per l\'età prescolare' },
+    heroImage: { src: '/samples/italian/big%20small/grande-o-piccolo-1.webp', alt: 'Scheda di confronto dimensioni con immagini tematiche a dimensioni diverse che mostra l\'esercizio cerchia il più grande per l\'età prescolare' },
     samples: [
-      { src: '/samples/italian/big small/grande-o-piccolo-1.webp', alt: 'Scheda confronto dimensioni grande e piccolo con immagini tematiche che mostra cinque tipi di domanda', caption: 'Scheda di confronto dimensioni con immagini tematiche e indicatori di risposta auto-generati' },
-      { src: '/samples/italian/big small/grande-o-piccolo-2.webp', alt: 'Scheda cerchia il più grande con immagini animali identiche a dimensioni diverse', caption: 'Modalità Cerchia il Più Grande con immagini tematiche per la pratica di discriminazione dimensionale visiva' },
+      { src: '/samples/italian/big%20small/grande-o-piccolo-1.webp', alt: 'Scheda confronto dimensioni grande e piccolo con immagini tematiche che mostra cinque tipi di domanda', caption: 'Scheda di confronto dimensioni con immagini tematiche e indicatori di risposta auto-generati' },
+      { src: '/samples/italian/big%20small/grande-o-piccolo-2.webp', alt: 'Scheda cerchia il più grande con immagini animali identiche a dimensioni diverse', caption: 'Modalità Cerchia il Più Grande con immagini tematiche per la pratica di discriminazione dimensionale visiva' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'Come Creare Schede di Confronto Dimensioni — Tutorial Completo',

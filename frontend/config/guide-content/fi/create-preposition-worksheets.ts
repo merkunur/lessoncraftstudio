@@ -189,18 +189,18 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/prepositions/prepositiot%201.webp', alt: 'Prepositiotyöarkki kuvakohtauksilla ja avaruudellisten suhteiden harjoituksilla' },
+    heroImage: { src: '/samples/finnish/prepositions/prepositiot-1.webp', alt: 'Prepositiotyöarkki kuvakohtauksilla ja avaruudellisten suhteiden harjoituksilla' },
     samples: [
-      { src: '/samples/finnish/prepositions/prepositiot%201.webp', alt: 'Prepositiotyöarkki täytä tyhjät -harjoituksilla värikkäiden kuvakohtausten kanssa', caption: 'Täytä tyhjät -prepositioharjoitukset kuvakohtauksilla' },
-      { src: '/samples/finnish/prepositions/prepositiot%202.webp', alt: 'Prepositiotyöarkki monivalintaharjoituksilla ohjattua harjoittelua varten', caption: 'Monivalintatila ohjattua aloittelijaystävällistä harjoittelua varten' },
-      { src: '/samples/finnish/prepositions/prepositiot%203.webp', alt: 'Edistynyt prepositiotyöarkki muodonvaihdolla uniikkien kohtausyhdistelmien luomiseksi', caption: 'Muodonvaihto moninkertaistaa visuaaliset yhdistelmät tuotevaihtelua varten' },
+      { src: '/samples/finnish/prepositions/prepositiot-1.webp', alt: 'Prepositiotyöarkki täytä tyhjät -harjoituksilla värikkäiden kuvakohtausten kanssa', caption: 'Täytä tyhjät -prepositioharjoitukset kuvakohtauksilla' },
+      { src: '/samples/finnish/prepositions/prepositiot-2.webp', alt: 'Prepositiotyöarkki monivalintaharjoituksilla ohjattua harjoittelua varten', caption: 'Monivalintatila ohjattua aloittelijaystävällistä harjoittelua varten' },
+      { src: '/samples/finnish/prepositions/prepositiot-3.webp', alt: 'Edistynyt prepositiotyöarkki muodonvaihdolla uniikkien kohtausyhdistelmien luomiseksi', caption: 'Muodonvaihto moninkertaistaa visuaaliset yhdistelmät tuotevaihtelua varten' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Näin luot prepositiotyöarkkeja — Täydellinen opas',
   },
 
   themeImages: [
-    { src: '/image-library/around%20the%20house/alarm%20clock.webp', alt: 'Herätyskello — temaattinen opetuskuva', caption: 'Herätyskello' },
+    { src: '/image-library/around%20the%20house/alarm-clock.webp', alt: 'Herätyskello — temaattinen opetuskuva', caption: 'Herätyskello' },
     { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Nojatuoli — temaattinen opetuskuva', caption: 'Nojatuoli' },
     { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Kylpyamme — temaattinen opetuskuva', caption: 'Kylpyamme' },
     { src: '/image-library/around%20the%20house/bed.webp', alt: 'Sänky — temaattinen opetuskuva', caption: 'Sänky' },

@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/grid%20match/rasterpuzzel%201.webp',
+      primary: '/samples/dutch/grid%20match/rasterpuzzel-1.webp',
       primaryAlt: 'Rasterpuzzel werkblad met afbeeldingstegels verdeeld in een raster, aanwijzingscellen zichtbaar, en genummerd tegelpalet voor ruimtelijk redeneren puzzelactiviteit',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/grid%20match/rasterpuzzel%202.webp',
+        src: '/samples/dutch/grid%20match/rasterpuzzel-2.webp',
         alt: 'Drie bij drie rasterpuzzel met één aanwijzingscel zichtbaar en acht genummerde tegels in geschud palet voor koppeling',
         caption: '3×3 rasterpuzzel — één aanwijzingscel zichtbaar, acht tegels om te koppelen vanuit het genummerde palet',
       },
       {
-        src: '/samples/dutch/grid%20match/rasterpuzzel%203.webp',
+        src: '/samples/dutch/grid%20match/rasterpuzzel-3.webp',
         alt: 'Rasterpuzzel met thematische afbeelding en instelbare moeilijkheidsgraad via aanwijzingscellen en rastergrootte',
         caption: 'Thematische rasterpuzzel — instelbare rastergrootte en aanwijzingscellen voor gedifferentieerde puzzelsets',
       },
       {
-        src: '/samples/dutch/grid%20match/rasterpuzzel%201%20answer-key.webp',
+        src: '/samples/dutch/grid%20match/rasterpuzzel-1-answer-key.webp',
         alt: 'Rasterpuzzel antwoordblad met volledige afbeelding en genummerde gele cirkels over elke rastercel die correcte tegelplaatsing aangeven',
         caption: 'Automatisch gegenereerd antwoordblad — genummerde cirkels (#ffffe0) tonen correcte tegelplaatsing op volledige afbeelding',
       },

@@ -215,9 +215,9 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/math worksheet/worksheet.webp', alt: 'Mathe-Arbeitsblatt zeigt professionelle Ausgabequalität der Arbeitsblatt-Generatoren' },
+    heroImage: { src: '/samples/german/math%20worksheet/worksheet.webp', alt: 'Mathe-Arbeitsblatt zeigt professionelle Ausgabequalität der Arbeitsblatt-Generatoren' },
     samples: [
-      { src: '/samples/german/math worksheet/worksheet.webp', alt: 'Mathe-Arbeitsblatt mit professionellem Layout und 300 DPI Druckqualität', caption: 'Mathe-Arbeitsblatt — Vielseitiger Umsatzbringer' },
+      { src: '/samples/german/math%20worksheet/worksheet.webp', alt: 'Mathe-Arbeitsblatt mit professionellem Layout und 300 DPI Druckqualität', caption: 'Mathe-Arbeitsblatt — Vielseitiger Umsatzbringer' },
       { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt für Etsy- und Amazon KDP-Verkauf', caption: 'Wortsuche — Meistverkaufte Rätselkategorie' },
       { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Malvorlage für KDP-Aktivitätsbuch-Veröffentlichung', caption: 'Malvorlagen — Umsatzstarke KDP-Kategorie' },
       { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt mit universellem internationalen Potenzial', caption: 'Sudoku — Universelle Marktattraktivität' },

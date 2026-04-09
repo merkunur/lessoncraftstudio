@@ -189,18 +189,18 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/prepositions/pr%c3%a6positioner%201.webp', alt: 'Præpositionsarbejdsark der viser billedscener med rumlige relationsøvelser til positionsords-øvelse' },
+    heroImage: { src: '/samples/danish/prepositions/præpositioner-1.webp', alt: 'Præpositionsarbejdsark der viser billedscener med rumlige relationsøvelser til positionsords-øvelse' },
     samples: [
-      { src: '/samples/danish/prepositions/pr%c3%a6positioner%201.webp', alt: 'Præpositionsarbejdsark — dansk eksempelarbejdsark', caption: 'Præpositionsarbejdsark eksempel 1' },
-      { src: '/samples/danish/prepositions/pr%c3%a6positioner%202.webp', alt: 'Præpositionsarbejdsark — dansk eksempel 2', caption: 'Præpositionsarbejdsark eksempel 2' },
-      { src: '/samples/danish/prepositions/pr%c3%a6positioner%203.webp', alt: 'Præpositionsarbejdsark — dansk eksempel 3', caption: 'Præpositionsarbejdsark eksempel 3' },
+      { src: '/samples/danish/prepositions/præpositioner-1.webp', alt: 'Præpositionsarbejdsark — dansk eksempelarbejdsark', caption: 'Præpositionsarbejdsark eksempel 1' },
+      { src: '/samples/danish/prepositions/præpositioner-2.webp', alt: 'Præpositionsarbejdsark — dansk eksempel 2', caption: 'Præpositionsarbejdsark eksempel 2' },
+      { src: '/samples/danish/prepositions/præpositioner-3.webp', alt: 'Præpositionsarbejdsark — dansk eksempel 3', caption: 'Præpositionsarbejdsark eksempel 3' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Sådan generator du præpositionsarbejdsark — Komplet vejledning',
   },
 
   themeImages: [
-    { src: '/image-library/around%20the%20house/alarm%20clock.webp', alt: 'Vækkeur — tematisk pædagogisk billede', caption: 'Vækkeur' },
+    { src: '/image-library/around%20the%20house/alarm-clock.webp', alt: 'Vækkeur — tematisk pædagogisk billede', caption: 'Vækkeur' },
     { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Lænestol — tematisk pædagogisk billede', caption: 'Lænestol' },
     { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Badekar — tematisk pædagogisk billede', caption: 'Badekar' },
     { src: '/image-library/around%20the%20house/bed.webp', alt: 'Seng — tematisk pædagogisk billede', caption: 'Seng' },

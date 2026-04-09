@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/pattern%20worksheet/m%c3%b8nsterg%c3%a5ter%201.webp',
+      primary: '/samples/norwegian/pattern%20worksheet/mønstergåter-1.webp',
       primaryAlt: 'Monsterfullforelsesarbeidsark med rutenettbaserte ovelser som viser gjentatte bildemonstre med tomme felt og flervalgsposter',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/pattern%20worksheet/m%c3%b8nsterg%c3%a5ter%201.webp',
+        src: '/samples/norwegian/pattern%20worksheet/mønstergåter-1.webp',
         alt: 'Monsterarbeidsark med AB utfyll-feltet-ovelser og dyrebilder i rutenettlayout med tomme felt som brukerne skal fullføre',
         caption: 'AB tomt-felt-ovelser med dyretema — brukerne identifiserer det alternerende monsteret og fyller ut det manglende bildet',
       },
       {
-        src: '/samples/norwegian/pattern%20worksheet/m%c3%b8nsterg%c3%a5ter%202.webp',
+        src: '/samples/norwegian/pattern%20worksheet/mønstergåter-2.webp',
         alt: 'Monsterarbeidsark med ABC flervalgsovelser med tematiske bilder og tre svaralternativer per ovelse',
         caption: 'ABC flervalgsovelser — brukerne velger det korrekte manglende elementet blant tre alternativer',
       },
       {
-        src: '/samples/norwegian/pattern%20worksheet/m%c3%b8nsterg%c3%a5ter%203.webp',
+        src: '/samples/norwegian/pattern%20worksheet/mønstergåter-3.webp',
         alt: 'Monsterarbeidsark fasit som viser alle tomme posisjoner fylt ut med de korrekte monsterelementene',
         caption: 'Fasit — alle tomme felt fylt ut med korrekte monsterelementer for laererverifisering',
       },

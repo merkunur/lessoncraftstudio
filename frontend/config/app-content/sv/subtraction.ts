@@ -265,22 +265,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/subtraction/rolig%20subtraktio%201.webp',
+      primary: '/samples/swedish/subtraction/rolig-subtraktio-1.webp',
       primaryAlt: 'Subtraktionsarbetsblad med överstrukna bilder som visar den borttagna mängden',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/subtraction/rolig%20subtraktio%202.webp',
+        src: '/samples/swedish/subtraction/rolig-subtraktio-2.webp',
         alt: 'Subtraktionsarbetsblad i Överstrykning läge med diagonala kryss över borttagna bilder',
         caption: 'Överstrykning läge — diagonala kryss visar vilka element som subtraheras',
       },
       {
-        src: '/samples/swedish/subtraction/rolig%20subtraktio%203.webp',
+        src: '/samples/swedish/subtraction/rolig-subtraktio-3.webp',
         alt: 'Subtraktionsarbetsblad i Bild minus Tal läge med grupper bilder och tal',
         caption: 'Bild − Tal läge — kombinerar grupper bilder med tal för övergångsfärdigheter',
       },
       {
-        src: '/samples/swedish/subtraction/rolig%20subtraktio%204.webp',
+        src: '/samples/swedish/subtraction/rolig-subtraktio-4.webp',
         alt: 'Subtraktionsarbetsblad i Hitta Subtrahenden läge som utmanar användarna att hitta det saknade värdet',
         caption: 'Hitta Subtrahenden läge — användarna bestämmer hur många som tagits bort',
       },

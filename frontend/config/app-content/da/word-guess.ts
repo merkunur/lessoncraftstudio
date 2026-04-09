@@ -238,22 +238,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/word%20guess/g%c3%a6t%20ordet%201.webp',
+      primary: '/samples/danish/word%20guess/gæt-ordet-1.webp',
       primaryAlt: 'Galge-opgave til print med billedledetråde og tomme bogstavsgitre i hængespil-stil',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/word%20guess/gæt%20ordet%201.webp',
+        src: '/samples/danish/word%20guess/gæt-ordet-1.webp',
         alt: 'Galge-opgave med billedledetråde på Let sværhedsgrad med halvdelen af bogstaverne afsløret',
         caption: 'Let sværhedsgrad — halvdelen af bogstaverne vises som ledetråde for børnehaveklasse og indskoling',
       },
       {
-        src: '/samples/danish/word%20guess/gæt%20ordet%202.webp',
+        src: '/samples/danish/word%20guess/gæt-ordet-2.webp',
         alt: 'Galge-opgave på Svær sværhedsgrad med minimale ledetrådsbogstaver og dyretema',
         caption: 'Svær sværhedsgrad — kun en sjettedel af bogstaverne afsløret for mellemtrin',
       },
       {
-        src: '/samples/danish/word%20guess/gæt%20ordet%203.webp',
+        src: '/samples/danish/word%20guess/gæt-ordet-3.webp',
         alt: 'Galge-opgave facit med alle bogstaver udfyldt og ingen tomme celler',
         caption: 'Facit — alle bogstaver afsløret for nem rettelse og selvkontrol',
       },

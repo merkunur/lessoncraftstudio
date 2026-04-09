@@ -144,11 +144,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityskuva temaattisilla kuvituksilla näyttäen MV-viivagrafiikkaa Etsy-myyntiin' },
+    heroImage: { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Värityskuva temaattisilla kuvituksilla näyttäen MV-viivagrafiikkaa Etsy-myyntiin' },
     samples: [
-      { src: '/samples/finnish/coloring/coloring%20portrait%202.webp', alt: 'Eläinteemainen värityskuva luotu Etsy-digitaaliseksi latauslistaukseksi', caption: 'Eläinvärityskuva temaattisesta kuvakirjastosta — puhdas MV-viivagrafiikka joka luo huomiota herättäviä Etsy-listauskuvia' },
-      { src: '/samples/finnish/coloring/coloring%20portrait%204.webp', alt: 'Luontoteemainen värityskuva yksityiskohtaisilla sommitelmilla aikuisten ja lasten markkinoille', caption: 'Luontovärityskuva — monipuolinen teema joka vetoaa sekä lasten että aikuisten väritysostajiin Etsyssä' },
-      { src: '/samples/finnish/coloring/coloring%20portrait%203.webp', alt: 'Juhlapyhäteemainen värityskuva näyttäen kausiluonteisen tuotteen Etsyn kysyntähuippuihin', caption: 'Juhlapyhävärityskuva — kausiluonteiset teemat tuottavat suuria kysyntähuippuja Etsyssä läpi vuoden' },
+      { src: '/samples/finnish/coloring/coloring-portrait-2.webp', alt: 'Eläinteemainen värityskuva luotu Etsy-digitaaliseksi latauslistaukseksi', caption: 'Eläinvärityskuva temaattisesta kuvakirjastosta — puhdas MV-viivagrafiikka joka luo huomiota herättäviä Etsy-listauskuvia' },
+      { src: '/samples/finnish/coloring/coloring-portrait-4.webp', alt: 'Luontoteemainen värityskuva yksityiskohtaisilla sommitelmilla aikuisten ja lasten markkinoille', caption: 'Luontovärityskuva — monipuolinen teema joka vetoaa sekä lasten että aikuisten väritysostajiin Etsyssä' },
+      { src: '/samples/finnish/coloring/coloring-portrait-3.webp', alt: 'Juhlapyhäteemainen värityskuva näyttäen kausiluonteisen tuotteen Etsyn kysyntähuippuihin', caption: 'Juhlapyhävärityskuva — kausiluonteiset teemat tuottavat suuria kysyntähuippuja Etsyssä läpi vuoden' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Kuinka luot värityskuvia Etsy-myyntiin — Vaiheittainen opas',

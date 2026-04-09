@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/picture sort/Tri d\'images-1.webp', alt: 'Fiche de tri à deux catégories avec cadres en pointillés et grille de découpe mélangée pour activités de classification' },
+    heroImage: { src: '/samples/french/picture%20sort/tri-d\'images-1.webp', alt: 'Fiche de tri à deux catégories avec cadres en pointillés et grille de découpe mélangée pour activités de classification' },
     samples: [
-      { src: '/samples/french/picture sort/Tri d\'images-1.webp', alt: 'Fiche de tri d\'images montrant deux cadres de catégorie côte à côte et une grille de découpe mélangée en dessous', caption: 'Fiche de tri à deux catégories avec cadres côte à côte et grille de découpe mélangée' },
-      { src: '/samples/french/picture sort/Tri d\'images-1-answer-key.webp', alt: 'Corrigé auto-généré avec images agrandies triées dans les boîtes de catégorie correctes', caption: 'Corrigé auto-généré avec images affichées à six fois la taille des cellules de la grille' },
+      { src: '/samples/french/picture%20sort/tri-d\'images-1.webp', alt: 'Fiche de tri d\'images montrant deux cadres de catégorie côte à côte et une grille de découpe mélangée en dessous', caption: 'Fiche de tri à deux catégories avec cadres côte à côte et grille de découpe mélangée' },
+      { src: '/samples/french/picture%20sort/tri-d\'images-1-answer-key.webp', alt: 'Corrigé auto-généré avec images agrandies triées dans les boîtes de catégorie correctes', caption: 'Corrigé auto-généré avec images affichées à six fois la taille des cellules de la grille' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'Comment créer des fiches de tri par catégories — Tutoriel complet',

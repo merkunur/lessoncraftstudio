@@ -116,9 +116,9 @@ async function processImageUpload(
   const dir = path.join(SAMPLES_BASE, language, 'homepage');
   await ensureDirectoryExists(dir);
 
-  const originalPath = path.join(dir, `${appId}thumbnail.webp`);
-  const thumbPath = path.join(dir, `${appId}-thumbnail_thumb.webp`);
-  const previewPath = path.join(dir, `${appId}-thumbnail_preview.webp`);
+  const originalPath = path.join(dir, `${appId}-thumbnail.webp`);
+  const thumbPath = path.join(dir, `${appId}-thumbnail-thumb.webp`);
+  const previewPath = path.join(dir, `${appId}-thumbnail-preview.webp`);
 
   // Check if files exist
   let originalExists = false;
@@ -132,7 +132,7 @@ async function processImageUpload(
   if (originalExists && !overwrite) {
     return {
       success: false,
-      error: `File already exists: ${appId}thumbnail.webp. Set overwrite=true to replace.`
+      error: `File already exists: ${appId}-thumbnail.webp. Set overwrite=true to replace.`
     };
   }
 
@@ -187,9 +187,9 @@ async function processImageUpload(
       success: true,
       message: 'Image uploaded and WebP variants generated successfully',
       paths: {
-        original: `/samples/${language}/homepage/${appId}thumbnail.webp`,
-        thumb: `/samples/${language}/homepage/${appId}-thumbnail_thumb.webp`,
-        preview: `/samples/${language}/homepage/${appId}-thumbnail_preview.webp`
+        original: `/samples/${language}/homepage/${appId}-thumbnail.webp`,
+        thumb: `/samples/${language}/homepage/${appId}-thumbnail-thumb.webp`,
+        preview: `/samples/${language}/homepage/${appId}-thumbnail-preview.webp`
       },
       sizes: {
         original: origStats?.size || 0,
@@ -269,8 +269,8 @@ async function processHeroImageUpload(
   await ensureDirectoryExists(dir);
 
   const originalPath = path.join(dir, `hero-${orientation}.webp`);
-  const thumbPath = path.join(dir, `hero-${orientation}_thumb.webp`);
-  const previewPath = path.join(dir, `hero-${orientation}_preview.webp`);
+  const thumbPath = path.join(dir, `hero-${orientation}-thumb.webp`);
+  const previewPath = path.join(dir, `hero-${orientation}-preview.webp`);
 
   // Check if files exist
   let originalExists = false;
@@ -340,8 +340,8 @@ async function processHeroImageUpload(
       message: `Hero ${orientation} image uploaded and WebP variants generated successfully`,
       paths: {
         original: `/samples/${language}/homepage/hero-${orientation}.webp`,
-        thumb: `/samples/${language}/homepage/hero-${orientation}_thumb.webp`,
-        preview: `/samples/${language}/homepage/hero-${orientation}_preview.webp`
+        thumb: `/samples/${language}/homepage/hero-${orientation}-thumb.webp`,
+        preview: `/samples/${language}/homepage/hero-${orientation}-preview.webp`
       },
       sizes: {
         original: origStats?.size || 0,

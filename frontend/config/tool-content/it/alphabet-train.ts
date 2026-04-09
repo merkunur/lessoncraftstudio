@@ -216,22 +216,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/alphabet train/Treno dell\'alfabeto-1.webp',
+      primary: '/samples/italian/alphabet%20train/treno-dell\'alfabeto-1.webp',
       primaryAlt: 'Scheda treno dell\'alfabeto con 11 vagoni colorati con lettere e immagini indizio per il riconoscimento delle lettere',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/alphabet train/Treno dell\'alfabeto-1.webp',
+        src: '/samples/italian/alphabet%20train/treno-dell\'alfabeto-1.webp',
         alt: 'Scheda colorata con treno dell\'alfabeto e attività di abbinamento lettera-immagine per giovani utenti',
         caption: 'Formato vagoni del treno con abbinamento lettera-immagine',
       },
       {
-        src: '/samples/italian/alphabet train/Treno dell\'alfabeto-2.webp',
+        src: '/samples/italian/alphabet%20train/treno-dell\'alfabeto-2.webp',
         alt: 'Scheda treno dell\'alfabeto con immagini tematiche e compiti di abbinamento con indizi multipli',
         caption: 'Immagini tematiche con numero di indizi configurabile',
       },
       {
-        src: '/samples/italian/alphabet train/Treno dell\'alfabeto-3.webp',
+        src: '/samples/italian/alphabet%20train/treno-dell\'alfabeto-3.webp',
         alt: 'Scheda avanzata treno dell\'alfabeto con 11 indizi per la massima difficoltà nel riconoscimento lettere',
         caption: '11 indizi per la massima difficoltà per utenti avanzati',
       },

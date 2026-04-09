@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad met meerdere zoekwoorden educatief printable product voor Etsy-SEO optimalisatie' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekerpuzzel werkblad met meerdere zoekwoorden educatief printable product voor Etsy-SEO optimalisatie' },
     samples: [
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Dierenthema woordzoekerpuzzel werkblad dat themagebonden Etsy-zoekwoordtargeting demonstreert', caption: 'Woordzoeker met dierenthema — elke taal- en themavariatie target verschillende Etsy-zoekwoorden' },
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Dierenthema optelwerkblad gericht op hoog-volume Etsy reken-printable zoekwoorden', caption: 'Optelwerkblad met dierenthema — target hoog-volume reken-printable zoekwoorden op Etsy' },
-      { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Kleurplaat die themagestuurde Etsy-zoekwoordstrategie voor printable verkopers toont', caption: 'Kleurplaat — themaspecifieke zoekwoorden genereren gericht Etsy-zoekverkeer' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Dierenthema woordzoekerpuzzel werkblad dat themagebonden Etsy-zoekwoordtargeting demonstreert', caption: 'Woordzoeker met dierenthema — elke taal- en themavariatie target verschillende Etsy-zoekwoorden' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Dierenthema optelwerkblad gericht op hoog-volume Etsy reken-printable zoekwoorden', caption: 'Optelwerkblad met dierenthema — target hoog-volume reken-printable zoekwoorden op Etsy' },
+      { src: '/samples/dutch/coloring/coloring-landscape-1.webp', alt: 'Kleurplaat die themagestuurde Etsy-zoekwoordstrategie voor printable verkopers toont', caption: 'Kleurplaat — themaspecifieke zoekwoorden genereren gericht Etsy-zoekverkeer' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Woordzoeker Werkbladen Maken voor Etsy-SEO — Multi-Zoekwoord Productstrategie',
@@ -200,7 +200,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematische educatieve afbeelding', caption: 'Stier' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalf — thematische educatieve afbeelding', caption: 'Kalf' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kat — thematische educatieve afbeelding', caption: 'Kat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kat 2 — thematische educatieve afbeelding', caption: 'Kat 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kat 2 — thematische educatieve afbeelding', caption: 'Kat 2' },
   ],
 };
 

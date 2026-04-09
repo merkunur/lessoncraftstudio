@@ -213,12 +213,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/draw%20and%20color/teken%20en%20kleur%201.webp', alt: 'Teken en kleur werkblad dat creatief bereik demonstreert voor het opschalen van een printable bedrijf' },
+    heroImage: { src: '/samples/dutch/draw%20and%20color/teken-en-kleur-1.webp', alt: 'Teken en kleur werkblad dat creatief bereik demonstreert voor het opschalen van een printable bedrijf' },
     samples: [
-      { src: '/samples/dutch/draw%20and%20color/teken%20en%20kleur%201.webp', alt: 'Teken en kleur werkblad met themavariatie voor catalogusuitbreiding', caption: 'Teken en Kleur — Creatief Bereik voor Catalogusdiepte' },
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzel met hoog volume schaalbaarheid over thema\'s', caption: 'Woordzoeker — Hoogste Volume Opschalingspotentieel' },
-      { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat met taalonafhankelijke internationale schaalbaarheid', caption: 'Kleurplaat — Internationaal Opschalen Zonder Vertaling' },
-      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Sudoku puzzel met platformonafhankelijke productdistributie', caption: 'Sudoku — Platformonafhankelijke Distributie' },
+      { src: '/samples/dutch/draw%20and%20color/teken-en-kleur-1.webp', alt: 'Teken en kleur werkblad met themavariatie voor catalogusuitbreiding', caption: 'Teken en Kleur — Creatief Bereik voor Catalogusdiepte' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoeker puzzel met hoog volume schaalbaarheid over thema\'s', caption: 'Woordzoeker — Hoogste Volume Opschalingspotentieel' },
+      { src: '/samples/dutch/coloring/coloring-portrait-1.webp', alt: 'Kleurplaat met taalonafhankelijke internationale schaalbaarheid', caption: 'Kleurplaat — Internationaal Opschalen Zonder Vertaling' },
+      { src: '/samples/dutch/sudoku/plaatjes-sudoku-1.webp', alt: 'Sudoku puzzel met platformonafhankelijke productdistributie', caption: 'Sudoku — Platformonafhankelijke Distributie' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Teken en Kleur Werkbladen Maken voor Je Printable Bedrijf — LessonCraftStudio Demo',

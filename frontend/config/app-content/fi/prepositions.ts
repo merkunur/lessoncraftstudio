@@ -229,22 +229,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/prepositions/prepositiot%201.webp',
+      primary: '/samples/finnish/prepositions/prepositiot-1.webp',
       primaryAlt: 'Prepositiot tyoarkki varikkäillä kuvilla, jotka nayttavat paikkasuhteita esineiden ja geometristen muotojen valilla',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/prepositions/prepositiot%201.webp',
+        src: '/samples/finnish/prepositions/prepositiot-1.webp',
         alt: 'Tayttoharjoitus prepositiot tyoarkki eläinteemalla ja geometrisilla muodoilla',
         caption: 'Tayttoharjoitus -tila — kayttajat tayttavat lauseita oikealla prepositiolla',
       },
       {
-        src: '/samples/finnish/prepositions/prepositiot%202.webp',
+        src: '/samples/finnish/prepositions/prepositiot-2.webp',
         alt: 'Monivalintakysymys prepositiot tyoarkki ajoneuvoteemalla ja paikkakuvauksilla',
         caption: 'Monivalintakysymys -tila — kayttajat tunnistavat kuvan, joka vastaa paikallista kuvausta',
       },
       {
-        src: '/samples/finnish/prepositions/prepositiot%201%20answer-key.webp',
+        src: '/samples/finnish/prepositions/prepositiot-1-answer-key.webp',
         alt: 'Prepositiot tyoarkki kaikilla kahdeksalla paikkasanalla ja vastausavaimella',
         caption: 'Taysin 8 harjoituksen tyoarkki — kattava kertaus kaikista paikkasanoista',
       },

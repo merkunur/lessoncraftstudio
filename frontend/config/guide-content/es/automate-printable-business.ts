@@ -175,12 +175,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/math worksheet/hoja-de-matemáticas-3.webp',
+      src: '/samples/spanish/math%20worksheet/hoja-de-matemáticas-3.webp',
       alt: 'Ficha de matemáticas profesional demostrando la creación rápida automatizada para eficiencia de negocio de imprimibles',
     },
     samples: [
       {
-        src: '/samples/spanish/math worksheet/hoja-de-matemáticas-3.webp',
+        src: '/samples/spanish/math%20worksheet/hoja-de-matemáticas-3.webp',
         alt: 'Ficha de matemáticas mostrando la calidad de producción automatizada',
         caption: 'Los generadores de fichas automatizan el paso más laborioso en la producción de imprimibles',
       },

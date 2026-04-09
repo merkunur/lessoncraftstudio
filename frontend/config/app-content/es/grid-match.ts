@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/grid match/puzzle-de-cuadrícula-1.webp',
+      primary: '/samples/spanish/grid%20match/puzzle-de-cuadrícula-1.webp',
       primaryAlt: 'Ficha de puzzle de cuadrícula con casillas de imágenes divididas en cuadrícula, casillas-pista reveladas y paleta de casillas numeradas para la correspondencia',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/grid match/puzzle-de-cuadrícula-2.webp',
+        src: '/samples/spanish/grid%20match/puzzle-de-cuadrícula-2.webp',
         alt: 'Puzzle de cuadrícula 3×3 con una casilla-pista y ocho casillas numeradas en la paleta',
         caption: 'Puzzle de cuadrícula 3×3 — una casilla-pista revelada, ocho casillas por asociar desde la paleta numerada',
       },
       {
-        src: '/samples/spanish/grid match/puzzle-de-cuadrícula-3.webp',
+        src: '/samples/spanish/grid%20match/puzzle-de-cuadrícula-3.webp',
         alt: 'Puzzle de cuadrícula 4×4 avanzado con dieciséis casillas y pistas mínimas',
         caption: 'Puzzle 4×4 avanzado — tamaño máximo de cuadrícula para actividades estimulantes de percepción visual',
       },
       {
-        src: '/samples/spanish/grid match/puzzle-de-cuadrícula-1-answer-key.webp',
+        src: '/samples/spanish/grid%20match/puzzle-de-cuadrícula-1-answer-key.webp',
         alt: 'Clave de respuesta del puzzle de cuadrícula mostrando la imagen completa con círculos numerados superpuestos en cada celda',
         caption: 'Clave de respuesta generada automáticamente — los círculos numerados muestran la colocación correcta de las casillas en la imagen completa',
       },

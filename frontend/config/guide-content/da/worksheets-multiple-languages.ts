@@ -176,13 +176,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/word%20scramble/bogstavrod%201.webp',
+      src: '/samples/danish/word%20scramble/bogstavrod-1.webp',
       alt: 'Ordsoegnings-arbejdsark der demonstrerer flersproget indholdsgenerering med korrekt tegnhåndtering',
     },
     samples: [
-      { src: '/samples/danish/word%20scramble/bogstavrod%201.webp', alt: 'Bogstavrod — dansk eksempelarbejdsark', caption: 'Bogstavrod eksempel 1' },
-      { src: '/samples/danish/word%20scramble/bogstavrod%202.webp', alt: 'Bogstavrod — dansk eksempel 2', caption: 'Bogstavrod eksempel 2' },
-      { src: '/samples/danish/word%20scramble/bogstavrod%203.webp', alt: 'Bogstavrod — dansk eksempel 3', caption: 'Bogstavrod eksempel 3' },
+      { src: '/samples/danish/word%20scramble/bogstavrod-1.webp', alt: 'Bogstavrod — dansk eksempelarbejdsark', caption: 'Bogstavrod eksempel 1' },
+      { src: '/samples/danish/word%20scramble/bogstavrod-2.webp', alt: 'Bogstavrod — dansk eksempel 2', caption: 'Bogstavrod eksempel 2' },
+      { src: '/samples/danish/word%20scramble/bogstavrod-3.webp', alt: 'Bogstavrod — dansk eksempel 3', caption: 'Bogstavrod eksempel 3' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Sådan generator du flersprogede alfabetarbejdsark',

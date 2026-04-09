@@ -212,12 +212,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Koblingsarbeidsark som demonstrerer verktøyallsidighet og temabasert bildebibliotekresultat' },
+    heroImage: { src: '/samples/norwegian/matching/finn-parene-1.webp', alt: 'Koblingsarbeidsark som demonstrerer verktøyallsidighet og temabasert bildebibliotekresultat' },
     samples: [
-      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Koblingsarbeidsark som viser bilde-til-ord kobling med temabaserte illustrasjoner', caption: 'Kobling — Allsidig Verktøy med Flere Moduser' },
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøkpuslespill-arbeidsark som demonstrerer språksensitiv generering', caption: 'Ordsøk — Mest Populære Puslespillgenerator' },
-      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside som viser designkvalitet uten språkavhengighet', caption: 'Fargelegging — Universelt Visuelt Innhold' },
-      { src: '/samples/norwegian/crossword/bildekryssord%201.webp', alt: 'Kryssordpuslespill som demonstrerer flerspråklige genereringsevner', caption: 'Kryssord — Flerspråklig Puslespillverktøy' },
+      { src: '/samples/norwegian/matching/finn-parene-1.webp', alt: 'Koblingsarbeidsark som viser bilde-til-ord kobling med temabaserte illustrasjoner', caption: 'Kobling — Allsidig Verktøy med Flere Moduser' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøkpuslespill-arbeidsark som demonstrerer språksensitiv generering', caption: 'Ordsøk — Mest Populære Puslespillgenerator' },
+      { src: '/samples/norwegian/coloring/coloring-portrait-1.webp', alt: 'Fargeleggingsside som viser designkvalitet uten språkavhengighet', caption: 'Fargelegging — Universelt Visuelt Innhold' },
+      { src: '/samples/norwegian/crossword/bildekryssord-1.webp', alt: 'Kryssordpuslespill som demonstrerer flerspråklige genereringsevner', caption: 'Kryssord — Flerspråklig Puslespillverktøy' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Slik Lager du Koblingsarbeidsark for din Utskriftsbare Forretning — LessonCraftStudio Demo',

@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/find and count/vedo-vedo-1.webp',
+      primary: '/samples/italian/find%20and%20count/vedo-vedo-1.webp',
       primaryAlt: 'Scheda Vedo Vedo cerca e conta con immagini sparse su griglia configurabile con intestazione blu e istruzioni per quattro tipi di attività cerchia quadrato barra e conta',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/find and count/vedo-vedo-2.webp',
+        src: '/samples/italian/find%20and%20count/vedo-vedo-2.webp',
         alt: 'Scheda Vedo Vedo in modalità Oggetti Nascosti con griglia di immagini sparse e oggetti bersaglio tra distrattori tematici',
         caption: 'Modalità Oggetti Nascosti — Vedo Vedo negozico con tipi cerchia, quadrato, barra e conta su griglia di immagini sparse',
       },
       {
-        src: '/samples/italian/find and count/vedo-vedo-3.webp',
+        src: '/samples/italian/find%20and%20count/vedo-vedo-3.webp',
         alt: 'Scheda Vedo Vedo con tema diverso e layout griglia variato per attività di ricerca visiva e conteggio',
         caption: 'Griglia con densità variabile — la dimensione della griglia controlla la difficoltà da facile (5×5) a impegnativo (10×10)',
       },
       {
-        src: '/samples/italian/find and count/vedo-vedo-1-answer-key.webp',
+        src: '/samples/italian/find%20and%20count/vedo-vedo-1-answer-key.webp',
         alt: 'Chiave di risposta Vedo Vedo con annotazioni rosse cerchio quadrato e croce sugli oggetti bersaglio corretti e conteggi quantità',
         caption: 'Chiave di risposta auto-generata — annotazioni rosse indicano cerchi, quadrati, croci e totali di conteggio per ogni oggetto bersaglio',
       },

@@ -276,22 +276,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+      primary: '/samples/swedish/wordsearch/ordletning-portrait.webp',
       primaryAlt: 'Ordletararbetsblad med gömda ord i ett bokstavsrutnät och bildledtrådar som visar ordförrådspussel',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+        src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
         alt: 'Ordletararbetsblad i stående format med 12×12 bokstavsrutnät och tematiska bildledtrådar',
         caption: 'Stående format — 12×12-rutnät med tematiska bildledtrådar och ordlista',
       },
       {
-        src: '/samples/swedish/wordsearch/ordletning%20landscape.webp',
+        src: '/samples/swedish/wordsearch/ordletning-landscape.webp',
         alt: 'Ordletararbetsblad i liggande format med större rutnät och diagonala ord aktiverade',
         caption: 'Liggande format — bredare rutnät med diagonal- och bakåtvända ord aktiverade',
       },
       {
-        src: '/samples/swedish/wordsearch/ordletning%20portrait%20answer-key.webp',
+        src: '/samples/swedish/wordsearch/ordletning-portrait-answer-key.webp',
         alt: 'Ordletar färgkodat facit med sex markeringsfärger som visar hittade ord',
         caption: 'Färgkodat facit — varje ord markerat i en unik färg för enkel verifiering',
       },

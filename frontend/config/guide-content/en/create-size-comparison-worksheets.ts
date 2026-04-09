@@ -181,10 +181,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/big small/big-small-different-images.webp', alt: 'Size comparison worksheet with themed images at different sizes showing circle the big one exercise for preschool' },
+    heroImage: { src: '/samples/english/big%20small/big-small-different-images.webp', alt: 'Size comparison worksheet with themed images at different sizes showing circle the big one exercise for preschool' },
     samples: [
-      { src: '/samples/english/big small/big-small-identical-images.webp', alt: 'Big and small size comparison worksheet with themed images showing five question types', caption: 'Size comparison worksheet with themed images and auto-generated answer indicators' },
-      { src: '/samples/english/big small/big-small-different-images.webp', alt: 'Circle the big one worksheet with identical animal images at different sizes', caption: 'Circle the Big One mode with themed images for visual size discrimination practice' },
+      { src: '/samples/english/big%20small/big-small-identical-images.webp', alt: 'Big and small size comparison worksheet with themed images showing five question types', caption: 'Size comparison worksheet with themed images and auto-generated answer indicators' },
+      { src: '/samples/english/big%20small/big-small-different-images.webp', alt: 'Circle the big one worksheet with identical animal images at different sizes', caption: 'Circle the Big One mode with themed images for visual size discrimination practice' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'How to Create Size Comparison Worksheets — Complete Tutorial',

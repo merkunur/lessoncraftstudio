@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/chart%20count/billediagram%201.webp',
+      primary: '/samples/danish/chart%20count/billediagram-1.webp',
       primaryAlt: 'Gratis tælleopgaver generator online — billeddiagram med spredte ikoner og søjlediagram til tælleøvelse',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/chart%20count/billediagram%201.webp',
+        src: '/samples/danish/chart%20count/billediagram-1.webp',
         alt: 'Gratis tælleopgaver med dyretema — 20 spredte ikoner og søjlediagram prøv online',
         caption: 'Dyretema billeddiagram — 6 dyretyper spredt i gitteret med søjlediagram nedenfor til datarepræsentationsøvelse',
       },
       {
-        src: '/samples/danish/chart%20count/billediagram%202.webp',
+        src: '/samples/danish/chart%20count/billediagram-2.webp',
         alt: 'Gratis tælleopgaver med dekorativt baggrunds- og rammetema — prøv uden tilmelding',
         caption: 'Dekoreret billeddiagram — baggrunds- og rammetemaer med uafhængige gennemsigtighedskontroller for professionel produktstyling',
       },
       {
-        src: '/samples/danish/chart%20count/billediagram%203.webp',
+        src: '/samples/danish/chart%20count/billediagram-3.webp',
         alt: 'Gratis tælleopgaver facit med gulmarkerede celler i søjlediagrammet',
         caption: 'Automatisk genereret facit — guludfyldte celler (#FFC857) viser det korrekte antal for hver billedtype',
       },

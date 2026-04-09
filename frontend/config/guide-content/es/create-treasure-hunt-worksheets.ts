@@ -188,11 +188,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/treasure hunt/búsqueda-del-tesoro-1.webp', alt: 'Ficha de búsqueda del tesoro con cuadrícula de coordenadas de 5 por 5, 6 imágenes temáticas dispersas como puntos de referencia, pistas direccionales y encabezado temático verde azulado con título dorado en Fredoka' },
+    heroImage: { src: '/samples/spanish/treasure%20hunt/búsqueda-del-tesoro-1.webp', alt: 'Ficha de búsqueda del tesoro con cuadrícula de coordenadas de 5 por 5, 6 imágenes temáticas dispersas como puntos de referencia, pistas direccionales y encabezado temático verde azulado con título dorado en Fredoka' },
     samples: [
-      { src: '/samples/spanish/treasure hunt/búsqueda-del-tesoro-1.webp', alt: 'Ficha de búsqueda del tesoro mostrando cuadrícula de coordenadas de 5 por 5 con imágenes temáticas dispersas e instrucciones de pistas direccionales debajo del encabezado temático', caption: 'Ficha de búsqueda del tesoro con pistas de dirección Básica en una cuadrícula de coordenadas de 5 por 5 con 6 imágenes de referencia temáticas' },
-      { src: '/samples/spanish/treasure hunt/búsqueda-del-tesoro-2.webp', alt: 'Ficha de búsqueda del tesoro con pistas de dirección Cardinal usando norte sur este y oeste en la cuadrícula de coordenadas de 5 por 5', caption: 'Modo de dirección Cardinal usando vocabulario de brújula para razonamiento espacial avanzado y habilidades de lectura de mapas' },
-      { src: '/samples/spanish/treasure hunt/búsqueda-del-tesoro-1-answer-key.webp', alt: 'Clave de respuestas autogenerada con celda del tesoro final resaltada en amarillo pálido en la cuadrícula de coordenadas de 5 por 5', caption: 'Clave de respuestas autogenerada con celda del tesoro resaltada en amarillo pálido para verificación instantánea' },
+      { src: '/samples/spanish/treasure%20hunt/búsqueda-del-tesoro-1.webp', alt: 'Ficha de búsqueda del tesoro mostrando cuadrícula de coordenadas de 5 por 5 con imágenes temáticas dispersas e instrucciones de pistas direccionales debajo del encabezado temático', caption: 'Ficha de búsqueda del tesoro con pistas de dirección Básica en una cuadrícula de coordenadas de 5 por 5 con 6 imágenes de referencia temáticas' },
+      { src: '/samples/spanish/treasure%20hunt/búsqueda-del-tesoro-2.webp', alt: 'Ficha de búsqueda del tesoro con pistas de dirección Cardinal usando norte sur este y oeste en la cuadrícula de coordenadas de 5 por 5', caption: 'Modo de dirección Cardinal usando vocabulario de brújula para razonamiento espacial avanzado y habilidades de lectura de mapas' },
+      { src: '/samples/spanish/treasure%20hunt/búsqueda-del-tesoro-1-answer-key.webp', alt: 'Clave de respuestas autogenerada con celda del tesoro final resaltada en amarillo pálido en la cuadrícula de coordenadas de 5 por 5', caption: 'Clave de respuestas autogenerada con celda del tesoro resaltada en amarillo pálido para verificación instantánea' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'Cómo crear fichas de búsqueda del tesoro — Tutorial completo',

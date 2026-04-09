@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/prepositions/preposisjoner%201.webp',
+      primary: '/samples/norwegian/prepositions/preposisjoner-1.webp',
       primaryAlt: 'Preposisjoner arbeidsark som viser bildescener med romlige relasjonsøvelser for stedsordøvelse',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/prepositions/preposisjoner%201.webp',
+        src: '/samples/norwegian/prepositions/preposisjoner-1.webp',
         alt: 'Preposisjoner arbeidsark med utfyllingsøvelser med fargerike bildescener',
         caption: 'Utfylling preposisjonsøvelser med bildescener',
       },
       {
-        src: '/samples/norwegian/prepositions/preposisjoner%202.webp',
+        src: '/samples/norwegian/prepositions/preposisjoner-2.webp',
         alt: 'Preposisjoner arbeidsark med flervalgs romlige relasjonsøvelser',
         caption: 'Flervalgsmodus for nybegynnervennlig øvelse',
       },
       {
-        src: '/samples/norwegian/prepositions/preposisjoner%203.webp',
+        src: '/samples/norwegian/prepositions/preposisjoner-3.webp',
         alt: 'Avansert preposisjoner arbeidsark med formerstatning og flere øvelser per side',
         caption: 'Formerstatning generator unike scenekombinasjoner',
       },

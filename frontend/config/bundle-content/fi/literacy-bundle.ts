@@ -213,16 +213,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/wordsearch/sanahaku%201.webp',
+      primary: '/samples/finnish/wordsearch/sanahaku-1.webp',
       primaryAlt: 'Sanahakutyoarkki temaattisella sanastoristikolla ja varikoroitetuilla vastausavaimilla',
     },
     sampleGallery: [
-      { src: '/samples/finnish/alphabet%20train/aakkostjuna%201.webp', alt: 'Aakkosjunatyoarkki kirjain-kuva-parituksella', caption: 'Aakkosjunatyoarkki' },
-      { src: '/samples/finnish/prepositions/prepositiot%201.webp', alt: 'Prepositiotyoarkki paikallisilla suhteilla ja kuvilla', caption: 'Prepositiotyoarkki' },
-      { src: '/samples/finnish/word%20guess/arvaa%20sana%201.webp', alt: 'Arvaa sana -tyoarkki kuvavihjeilla ja kirjainaukoilla', caption: 'Arvaa sana -tyoarkki' },
-      { src: '/samples/finnish/word%20scramble/kirjainsekoitus%202.webp', alt: 'Kirjainsekoitustyoarkki varikoroitetuilla kirjainlaatoilla', caption: 'Kirjainsekoitustyoarkki' },
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sanahakuristikko piilotetuilla sanastosanoilla', caption: 'Sanahakutyoarkki' },
-      { src: '/samples/finnish/cryptogram/kuvakryptogrammi%201.webp', alt: 'Kryptogrammipulma kuvasalakirjoituskoodauksella', caption: 'Kryptogrammityoarkki' },
+      { src: '/samples/finnish/alphabet%20train/aakkostjuna-1.webp', alt: 'Aakkosjunatyoarkki kirjain-kuva-parituksella', caption: 'Aakkosjunatyoarkki' },
+      { src: '/samples/finnish/prepositions/prepositiot-1.webp', alt: 'Prepositiotyoarkki paikallisilla suhteilla ja kuvilla', caption: 'Prepositiotyoarkki' },
+      { src: '/samples/finnish/word%20guess/arvaa-sana-1.webp', alt: 'Arvaa sana -tyoarkki kuvavihjeilla ja kirjainaukoilla', caption: 'Arvaa sana -tyoarkki' },
+      { src: '/samples/finnish/word%20scramble/kirjainsekoitus-2.webp', alt: 'Kirjainsekoitustyoarkki varikoroitetuilla kirjainlaatoilla', caption: 'Kirjainsekoitustyoarkki' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sanahakuristikko piilotetuilla sanastosanoilla', caption: 'Sanahakutyoarkki' },
+      { src: '/samples/finnish/cryptogram/kuvakryptogrammi-1.webp', alt: 'Kryptogrammipulma kuvasalakirjoituskoodauksella', caption: 'Kryptogrammityoarkki' },
       { src: '/samples/finnish/writing/writing.webp', alt: 'Kasialasta kirjoitusharjoitustyoarkki ohjatuilla piirroilla', caption: 'Kirjoitusharjoitustyoarkki' },
     ],
     youtubeId: '36keBFzJbPo',

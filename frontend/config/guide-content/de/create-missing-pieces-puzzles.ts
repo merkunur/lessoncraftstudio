@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/missing pieces/fehlende-teile-1.webp', alt: 'Puzzle-Arbeitsblatt mit Löchern in einer farbenfrohen Illustration und nummerierten Lösungsoptionen einschließlich Ablenkungsteilen darunter mit türkisfarbener Kopfzeile und türkis-pinkem Dual-Rahmen' },
+    heroImage: { src: '/samples/german/missing%20pieces/fehlende-teile-1.webp', alt: 'Puzzle-Arbeitsblatt mit Löchern in einer farbenfrohen Illustration und nummerierten Lösungsoptionen einschließlich Ablenkungsteilen darunter mit türkisfarbener Kopfzeile und türkis-pinkem Dual-Rahmen' },
     samples: [
-      { src: '/samples/german/missing pieces/fehlende-teile-1.webp', alt: 'Fehlende-Teile-Rätsel-Arbeitsblatt mit einem Bild mit herausgeschnittenen Löchern und nummerierten Lösungsoptionen unter der Dual-Rahmen-Kopfzeile', caption: 'Puzzle-Arbeitsblatt mit intelligent extrahierten Teilen und nummerierten Lösungsoptionen einschließlich Ablenkungsteilen' },
-      { src: '/samples/german/missing pieces/fehlende-teile-1-answer-key.webp', alt: 'Automatisch erstellter Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen in jedem Loch, die den korrekten Optionsindex anzeigen', caption: 'Automatisch erstellter Lösungsschlüssel mit gelb hervorgehobenen Beschriftungen für jedes Loch' },
+      { src: '/samples/german/missing%20pieces/fehlende-teile-1.webp', alt: 'Fehlende-Teile-Rätsel-Arbeitsblatt mit einem Bild mit herausgeschnittenen Löchern und nummerierten Lösungsoptionen unter der Dual-Rahmen-Kopfzeile', caption: 'Puzzle-Arbeitsblatt mit intelligent extrahierten Teilen und nummerierten Lösungsoptionen einschließlich Ablenkungsteilen' },
+      { src: '/samples/german/missing%20pieces/fehlende-teile-1-answer-key.webp', alt: 'Automatisch erstellter Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen in jedem Loch, die den korrekten Optionsindex anzeigen', caption: 'Automatisch erstellter Lösungsschlüssel mit gelb hervorgehobenen Beschriftungen für jedes Loch' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'So erstellen Sie Fehlende-Teile-Rätsel — Komplette Anleitung',
@@ -200,7 +200,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Stier — thematisches Lernbild', caption: 'Stier' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalb — thematisches Lernbild', caption: 'Kalb' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Katze — thematisches Lernbild', caption: 'Katze' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Katze 2 — thematisches Lernbild', caption: 'Katze 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Katze 2 — thematisches Lernbild', caption: 'Katze 2' },
   ],
 };
 

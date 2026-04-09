@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/math%20worksheet/matematiikkalehti%202.webp', alt: 'Matemaattinen työarkki jossa näkyy ristikkoasettelu ja välitys muotoiltuna Amazon KDP:n painospesifikaatioita varten' },
+    heroImage: { src: '/samples/finnish/math%20worksheet/matematiikkalehti-2.webp', alt: 'Matemaattinen työarkki jossa näkyy ristikkoasettelu ja välitys muotoiltuna Amazon KDP:n painospesifikaatioita varten' },
     samples: [
-      { src: '/samples/finnish/math%20worksheet/matematiikkalehti%201.webp', alt: 'Matemaattinen työarkki tarkalla ristikkovälityksellä KDP-marginaali- ja asetteluvaatimusten mukaisesti', caption: 'Matemaattisen työarkin asettelu — ristikkopohjainen muotoilu riittävällä solukoolla mukavaa käsikirjoitusta varten KDP-marginaalispesifikaatioiden mukaisesti' },
-      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulmaristikko kirjainvälityksellä KDP-painomuotoilua varten', caption: 'Sananetsintäristikko — johdonmukainen kirjainvälitys 0,3 tuuman soluilla varmistaa mukavan ympyröinnin ja luettavuuden KDP-painetuissa kirjoissa' },
-      { src: '/samples/finnish/addition/hauska%20yhteenlasku%202.webp', alt: 'Yhteenlaskutyöarkki puhtaalla yksisivuisella KDP-asettelulla', caption: 'Yhteenlaskutyöarkki — puhdas yhden operaation asettelu selkein vastaustiloin ammattimaista KDP-sisäsivumuotoilua varten' },
+      { src: '/samples/finnish/math%20worksheet/matematiikkalehti-1.webp', alt: 'Matemaattinen työarkki tarkalla ristikkovälityksellä KDP-marginaali- ja asetteluvaatimusten mukaisesti', caption: 'Matemaattisen työarkin asettelu — ristikkopohjainen muotoilu riittävällä solukoolla mukavaa käsikirjoitusta varten KDP-marginaalispesifikaatioiden mukaisesti' },
+      { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Sananetsintäpulmaristikko kirjainvälityksellä KDP-painomuotoilua varten', caption: 'Sananetsintäristikko — johdonmukainen kirjainvälitys 0,3 tuuman soluilla varmistaa mukavan ympyröinnin ja luettavuuden KDP-painetuissa kirjoissa' },
+      { src: '/samples/finnish/addition/hauska-yhteenlasku-2.webp', alt: 'Yhteenlaskutyöarkki puhtaalla yksisivuisella KDP-asettelulla', caption: 'Yhteenlaskutyöarkki — puhdas yhden operaation asettelu selkein vastaustiloin ammattimaista KDP-sisäsivumuotoilua varten' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Painovalmiiden matematiikan työarkkien luominen Amazon KDP:lle — Muotoiluopas',

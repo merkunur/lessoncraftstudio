@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/odd one out/find-the-odd-one-out.webp',
+      primary: '/samples/english/odd%20one%20out/find-the-odd-one-out.webp',
       primaryAlt: 'Odd one out worksheet with four images per exercise row, colorful themed illustrations, and localized Find the Odd One Out header',
     },
     sampleGallery: [
       {
-        src: '/samples/english/odd one out/find-the-odd-one-out-1.webp',
+        src: '/samples/english/odd%20one%20out/find-the-odd-one-out-1.webp',
         alt: 'Similar mode odd one out worksheet with three animals and one food item per row',
         caption: 'Similar mode — three images from Theme A and one odd item from Theme B',
       },
       {
-        src: '/samples/english/odd one out/find-the-odd-one-out-5.webp',
+        src: '/samples/english/odd%20one%20out/find-the-odd-one-out-5.webp',
         alt: 'Identical mode odd one out worksheet with three identical images and one different image per row',
         caption: 'Identical mode — three clones of the same image and one different image',
       },
       {
-        src: '/samples/english/odd one out/find-the-odd-one-out-answer-key.webp',
+        src: '/samples/english/odd%20one%20out/find-the-odd-one-out-answer-key.webp',
         alt: 'Odd one out answer key with red circles drawn around the odd item in each exercise row',
         caption: 'Auto-generated answer key — red circles mark the odd item in each row',
       },

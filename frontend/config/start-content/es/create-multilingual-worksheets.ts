@@ -220,8 +220,8 @@ const content: StartContent = {
     samples: [
       { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Ficha de puzzle de sopa de letras con vocabulario sensible al idioma', caption: 'Sopa de Letras — La Mejor Demo Multilingüe' },
       { src: '/samples/spanish/crossword/crucigrama-con-dibujos-1.webp', alt: 'Puzzle de crucigrama con pistas y respuestas localizadas', caption: 'Crucigrama — Puzzles Completamente Localizados' },
-      { src: '/samples/spanish/word scramble/palabras-revueltas-1.webp', alt: 'Ficha de palabras desordenadas con vocabulario adaptado al idioma', caption: 'Palabras Desordenadas — Resultado Sensible al Idioma' },
-      { src: '/samples/spanish/alphabet train/tren-del-alfabeto-1.webp', alt: 'Ficha de tren del abecedario mostrando conjuntos de letras específicos por idioma', caption: 'Tren del Abecedario — Conjuntos de Letras Adaptados' },
+      { src: '/samples/spanish/word%20scramble/palabras-revueltas-1.webp', alt: 'Ficha de palabras desordenadas con vocabulario adaptado al idioma', caption: 'Palabras Desordenadas — Resultado Sensible al Idioma' },
+      { src: '/samples/spanish/alphabet%20train/tren-del-alfabeto-1.webp', alt: 'Ficha de tren del abecedario mostrando conjuntos de letras específicos por idioma', caption: 'Tren del Abecedario — Conjuntos de Letras Adaptados' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Cómo Crear Fichas de Sopa de Letras en Múltiples Idiomas — Demo de LessonCraftStudio',

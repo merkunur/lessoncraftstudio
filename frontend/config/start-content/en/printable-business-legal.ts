@@ -212,7 +212,7 @@ const content: StartContent = {
       { src: '/samples/english/writing/writing.webp', alt: 'Writing worksheet showing commercially licensable educational content', caption: 'Writing — Commercially Licensable Educational Content' },
       { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Word search puzzle demonstrating high-volume commercial product potential', caption: 'Word Search — Most Popular Commercial Puzzle Type' },
       { src: '/samples/english/crossword/crossword-worksheet.webp', alt: 'Crossword puzzle showing multilingual commercial product capability', caption: 'Crossword — Multilingual Commercial Products' },
-      { src: '/samples/english/math puzzle/math-puzzles.webp', alt: 'Math worksheet demonstrating evergreen commercial product generation', caption: 'Math — Evergreen Commercial Product Generation' },
+      { src: '/samples/english/math%20puzzle/math-puzzles.webp', alt: 'Math worksheet demonstrating evergreen commercial product generation', caption: 'Math — Evergreen Commercial Product Generation' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'How to Create Writing Worksheets for Your Printable Business — LessonCraftStudio Demo',

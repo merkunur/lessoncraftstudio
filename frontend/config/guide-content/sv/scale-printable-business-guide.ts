@@ -193,10 +193,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Professionellt additionsarbetsblad som demonstrerar produktkvaliteten som stöder skalbar utskriftsbar företagstillväxt' },
+    heroImage: { src: '/samples/swedish/addition/addition-övning.webp', alt: 'Professionellt additionsarbetsblad som demonstrerar produktkvaliteten som stöder skalbar utskriftsbar företagstillväxt' },
     samples: [
-      { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Additionsarbetsblad med tematiserade bilder som visar produktdiversitet för katalogskalning', caption: 'Tematiska arbetsbladsvariationer demonstrerar hur ett produktkoncept skalar till flera listningar över teman, årskurser och språk' },
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Ordsökningspussel som visar flerspråkig skalningspotential', caption: 'Ordsökningspussel skapade på 11 språk multiplicerar din katalog utan att multiplicera kreativ ansträngning — samma koncept når internationella marknader' },
+      { src: '/samples/swedish/addition/addition-övning.webp', alt: 'Additionsarbetsblad med tematiserade bilder som visar produktdiversitet för katalogskalning', caption: 'Tematiska arbetsbladsvariationer demonstrerar hur ett produktkoncept skalar till flera listningar över teman, årskurser och språk' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.webp', alt: 'Ordsökningspussel som visar flerspråkig skalningspotential', caption: 'Ordsökningspussel skapade på 11 språk multiplicerar din katalog utan att multiplicera kreativ ansträngning — samma koncept når internationella marknader' },
       { src: '/samples/swedish/matching/matchningsspel.webp', alt: 'Matchningsarbetsblad som demonstrerar systematisk katalogexpansion genom temavariationer', caption: 'Matchningsarbetsblad över teman visar systematisk produktlinjeförlängning — varje nytt tema adderar produkter med beprövade format och befintliga bildtillgångar' },
     ],
     youtubeId: '1uZubAOGIkM',

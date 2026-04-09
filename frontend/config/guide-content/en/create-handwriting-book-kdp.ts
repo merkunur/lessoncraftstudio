@@ -185,7 +185,7 @@ const content: GuideContent = {
     heroImage: { src: '/samples/english/writing/writing-beginning-letter.webp', alt: 'Handwriting practice worksheet showing progressive trace-to-copy letter formation for KDP book interior' },
     samples: [
       { src: '/samples/english/writing/writing.webp', alt: 'Letter tracing page with stroke order arrows for KDP handwriting book', caption: 'Progressive letter tracing with numbered stroke order guides and practice lines' },
-      { src: '/samples/english/alphabet train/alphabet-train-10.webp', alt: 'Alphabet train worksheet complementing handwriting practice in KDP books', caption: 'Alphabet train activities reinforce letter recognition alongside handwriting practice' },
+      { src: '/samples/english/alphabet%20train/alphabet-train-10.webp', alt: 'Alphabet train worksheet complementing handwriting practice in KDP books', caption: 'Alphabet train activities reinforce letter recognition alongside handwriting practice' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'How to Create Writing Worksheets',

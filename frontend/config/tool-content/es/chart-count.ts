@@ -213,22 +213,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/chart count/gráfico-de-dibujos-1.webp',
+      primary: '/samples/spanish/chart%20count/gráfico-de-dibujos-1.webp',
       primaryAlt: 'Ficha de gráfico pictórico con cuadrícula 4×5 de imágenes dispersas mostrando 20 iconos de 6 tipos y gráfico de barras vacío para que los usuarios cuenten y grafiquen datos',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/chart count/gráfico-de-dibujos-2.webp',
+        src: '/samples/spanish/chart%20count/gráfico-de-dibujos-2.webp',
         alt: 'Ficha de gráfico pictórico con tema de animales con 20 iconos de animales dispersos en cuadrícula 4×5 y gráfico de barras de 6 columnas debajo para práctica de conteo',
         caption: 'Gráfico pictórico con tema de animales — 6 tipos de animales dispersos en la cuadrícula con gráfico de barras debajo para práctica de representación de datos',
       },
       {
-        src: '/samples/spanish/chart count/gráfico-de-dibujos-3.webp',
+        src: '/samples/spanish/chart%20count/gráfico-de-dibujos-3.webp',
         alt: 'Clave de respuestas del gráfico pictórico con celdas resaltadas en amarillo mostrando conteos correctos para cada uno de los 6 tipos de imágenes en el gráfico de barras',
         caption: 'Clave de respuestas autogenerada — celdas amarillas (#FFC857) muestran el conteo correcto para cada tipo de imagen',
       },
       {
-        src: '/samples/spanish/chart count/gráfico-de-dibujos-1-answer-key.webp',
+        src: '/samples/spanish/chart%20count/gráfico-de-dibujos-1-answer-key.webp',
         alt: 'Ficha de gráfico pictórico con fondos y bordes decorativos temáticos aplicados usando controles de opacidad independientes para presentación pulida en mercados',
         caption: 'Gráfico pictórico decorado — fondos y bordes temáticos con controles de opacidad independientes para estilo de producto profesional',
       },

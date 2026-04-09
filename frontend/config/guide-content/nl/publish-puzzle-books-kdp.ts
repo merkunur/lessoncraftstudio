@@ -195,11 +195,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad met thematisch woordraster geschikt voor Amazon KDP puzzelboek binnenpagina\'s' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekerpuzzel werkblad met thematisch woordraster geschikt voor Amazon KDP puzzelboek binnenpagina\'s' },
     samples: [
-      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Dierenthema woordzoekerpuzzel opgemaakt voor KDP puzzelboek', caption: 'Woordzoeker met dierenthema — het populairste puzzeltype voor KDP-boeken gericht op zowel volwassenen als kinderen' },
-      { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: 'Kruiswoordpuzzel met thematische aanwijzingen voor KDP puzzelboek', caption: 'Kruiswoordpuzzel — voegt substantiële betrokkenheidswaarde toe aan puzzelboeken en variatiecollecties op Amazon' },
-      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Plaatjessudoku puzzel voor kindervariatie puzzelboek op KDP', caption: 'Plaatjessudoku — visuele logicapuzzels die kindervariatiepuzzelboeken diverser en boeiender maken' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Dierenthema woordzoekerpuzzel opgemaakt voor KDP puzzelboek', caption: 'Woordzoeker met dierenthema — het populairste puzzeltype voor KDP-boeken gericht op zowel volwassenen als kinderen' },
+      { src: '/samples/dutch/crossword/plaatjes-kruiswoord-1.webp', alt: 'Kruiswoordpuzzel met thematische aanwijzingen voor KDP puzzelboek', caption: 'Kruiswoordpuzzel — voegt substantiële betrokkenheidswaarde toe aan puzzelboeken en variatiecollecties op Amazon' },
+      { src: '/samples/dutch/sudoku/plaatjes-sudoku-1.webp', alt: 'Plaatjessudoku puzzel voor kindervariatie puzzelboek op KDP', caption: 'Plaatjessudoku — visuele logicapuzzels die kindervariatiepuzzelboeken diverser en boeiender maken' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Woordzoekerpuzzels Maken voor Amazon KDP Puzzelboeken — Stapsgewijze Tutorial',

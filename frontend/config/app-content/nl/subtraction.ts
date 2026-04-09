@@ -220,22 +220,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/subtraction/aftrekken%20is%20leuk%201.webp',
+      primary: '/samples/dutch/subtraction/aftrekken-is-leuk-1.webp',
       primaryAlt: 'Aftrekwerkblad met doorgestreepte afbeeldingen die de weggenomen hoeveelheid visualiseren',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%202.webp',
+        src: '/samples/dutch/subtraction/aftrekken-is-leuk-2.webp',
         alt: 'Aftrekwerkblad in Doorstrepen modus met diagonale kruisen over weggenomen afbeeldingen',
         caption: 'Doorstrepen modus — diagonale kruisen tonen welke elementen worden afgetrokken',
       },
       {
-        src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%203.webp',
+        src: '/samples/dutch/subtraction/aftrekken-is-leuk-3.webp',
         alt: 'Aftrekwerkblad in Afbeelding min Getal modus met groepen afbeeldingen en getallen',
         caption: 'Afbeelding − Getal modus — combineert groepen afbeeldingen met getallen voor overgangsvaardigheden',
       },
       {
-        src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%204.webp',
+        src: '/samples/dutch/subtraction/aftrekken-is-leuk-4.webp',
         alt: 'Aftrekwerkblad in Vind de Aftrekker modus die gebruikers uitdaagt de ontbrekende waarde te vinden',
         caption: 'Vind de Aftrekker modus — gebruikers bepalen hoeveel er zijn weggenomen',
       },

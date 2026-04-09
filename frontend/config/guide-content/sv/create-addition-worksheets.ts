@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/addition/addition_%C3%B6vning.jpeg', alt: 'Additionsarbetsblad med tematiska bilder som visar visuella räkningsövningar för barn' },
+    heroImage: { src: '/samples/swedish/addition/addition-övning.jpeg', alt: 'Additionsarbetsblad med tematiska bilder som visar visuella räkningsövningar för barn' },
     samples: [
-      { src: '/samples/swedish/addition/addition_%C3%B6vning.jpeg', alt: 'Bildbaserat additionsarbetsblad med djurtema för förskoleklass', caption: 'Förskoleklass additionsarbetsblad med bondgårdsdjur-tema i Bild + Bild-övningsläge' },
-      { src: '/samples/swedish/addition/bild%20tal.jpeg', alt: 'Additionsarbetsblad med facit som visar korrekta lösningar', caption: 'Automatiskt facit genereras tillsammans med varje additionsarbetsblad' },
+      { src: '/samples/swedish/addition/addition-övning.jpeg', alt: 'Bildbaserat additionsarbetsblad med djurtema för förskoleklass', caption: 'Förskoleklass additionsarbetsblad med bondgårdsdjur-tema i Bild + Bild-övningsläge' },
+      { src: '/samples/swedish/addition/bild-tal.jpeg', alt: 'Additionsarbetsblad med facit som visar korrekta lösningar', caption: 'Automatiskt facit genereras tillsammans med varje additionsarbetsblad' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hur du skapar additionsarbetsblad — Komplett guide',

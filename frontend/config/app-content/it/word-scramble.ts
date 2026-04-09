@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/word scramble/lettere-mescolate-1.webp',
+      primary: '/samples/italian/word%20scramble/lettere-mescolate-1.webp',
       primaryAlt: 'Scheda di lettere mescolate con indizi immagine e tessere di lettere mescolate che mostrano puzzle di ortografia con riordino',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/word scramble/lettere-mescolate-2.webp',
+        src: '/samples/italian/word%20scramble/lettere-mescolate-2.webp',
         alt: 'Scheda di lettere mescolate in difficoltà Facile che mostra metà delle lettere pre-posizionate',
         caption: 'Difficoltà Facile — metà delle lettere pre-posizionate come indizi per principianti in ortografia',
       },
       {
-        src: '/samples/italian/word scramble/lettere-mescolate-3.webp',
+        src: '/samples/italian/word%20scramble/lettere-mescolate-3.webp',
         alt: 'Scheda di lettere mescolate con codice colori vocali-consonanti che mostra tessere di lettere colorate',
         caption: 'Modalità Codice Colori — vocali e consonanti in colori diversi per consapevolezza fonetica',
       },
       {
-        src: '/samples/italian/word scramble/lettere-mescolate-4.webp',
+        src: '/samples/italian/word%20scramble/lettere-mescolate-4.webp',
         alt: 'Foglio risposte di lettere mescolate con tutte le lettere correttamente riordinate',
         caption: 'Foglio Risposte — parole correttamente riordinate per verifica e autoverifica facili',
       },

@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Ordsøgningspuslespil-arbejdsark egnet til salg som Etsy digital download eller kompilering til Amazon KDP puslespilbog' },
+    heroImage: { src: '/samples/danish/coloring/coloring-portrait-1.webp', alt: 'Ordsøgningspuslespil-arbejdsark egnet til salg som Etsy digital download eller kompilering til Amazon KDP puslespilbog' },
     samples: [
-      { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside — dansk eksempelarbejdsark', caption: 'Farvelægningsside eksempel 1' },
-      { src: '/samples/danish/coloring/coloring%20portrait%202.webp', alt: 'Farvelægningsside — dansk eksempel 2', caption: 'Farvelægningsside eksempel 2' },
-      { src: '/samples/danish/coloring/coloring%20landscape%201.webp', alt: 'Farvelægningsside — dansk eksempel 3', caption: 'Farvelægningsside eksempel 3' },
+      { src: '/samples/danish/coloring/coloring-portrait-1.webp', alt: 'Farvelægningsside — dansk eksempelarbejdsark', caption: 'Farvelægningsside eksempel 1' },
+      { src: '/samples/danish/coloring/coloring-portrait-2.webp', alt: 'Farvelægningsside — dansk eksempel 2', caption: 'Farvelægningsside eksempel 2' },
+      { src: '/samples/danish/coloring/coloring-landscape-1.webp', alt: 'Farvelægningsside — dansk eksempel 3', caption: 'Farvelægningsside eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan generator du printbare arbejdsark til Etsy og Amazon KDP — Trin-for-trin vejledning',

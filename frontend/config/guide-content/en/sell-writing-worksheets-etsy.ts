@@ -181,8 +181,8 @@ const content: GuideContent = {
     heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Handwriting practice worksheet with progressive tracing modes for selling on Etsy' },
     samples: [
       { src: '/samples/english/writing/writing-beginning-letter.webp', alt: 'Letter tracing worksheet with stroke-order arrows for Etsy handwriting product', caption: 'Handwriting worksheet with stroke-order arrows and progressive tracing rows -- a premium feature that differentiates your Etsy products' },
-      { src: '/samples/english/alphabet train/alphabet-train-10.webp', alt: 'Alphabet train worksheet as companion product to handwriting Etsy listings', caption: 'Alphabet train worksheets complement handwriting products by teaching letter recognition through themed activities' },
-      { src: '/samples/english/drawing lines/drawing-lines-curve-1.webp', alt: 'Pre-writing line tracing worksheet for handwriting readiness', caption: 'Line tracing worksheets build the fine motor control needed before letter writing -- ideal as Level 1 of a handwriting program' },
+      { src: '/samples/english/alphabet%20train/alphabet-train-10.webp', alt: 'Alphabet train worksheet as companion product to handwriting Etsy listings', caption: 'Alphabet train worksheets complement handwriting products by teaching letter recognition through themed activities' },
+      { src: '/samples/english/drawing%20lines/drawing-lines-curve-1.webp', alt: 'Pre-writing line tracing worksheet for handwriting readiness', caption: 'Line tracing worksheets build the fine motor control needed before letter writing -- ideal as Level 1 of a handwriting program' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'How to Create Writing Worksheets',

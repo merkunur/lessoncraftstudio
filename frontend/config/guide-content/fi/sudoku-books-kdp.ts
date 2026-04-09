@@ -62,11 +62,11 @@ const content: GuideContent = {
     { appId: 'wordsearch', title: 'Sananetsintägeneraattori', description: 'Tuottaa sananetsintapulmia jotka sopivat monipulmakirjoihin sudoku-pulmien rinnalle.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/finnish/sudoku/kuva-sudoku%202.webp', alt: 'Kuvasudoku-pulmatyoarkki temaattisella kuvaristikolla Amazon KDP:n sudokukirjan sisasivuille' },
+    heroImage: { src: '/samples/finnish/sudoku/kuva-sudoku-2.webp', alt: 'Kuvasudoku-pulmatyoarkki temaattisella kuvaristikolla Amazon KDP:n sudokukirjan sisasivuille' },
     samples: [
-      { src: '/samples/finnish/sudoku/kuva-sudoku%201.webp', alt: 'Eläinteemainen kuvasudoku KDP:n lasten sudokukirjaan', caption: 'Kuvasudoku elainteemalla — kuvapohjaiset ristikot tekevat sudokulogiikan saavutettavaksi 3–7-vuotiaille' },
-      { src: '/samples/finnish/sudoku/kuva-sudoku%202.webp', alt: 'Kuvasudoku-pulmatyoarkki KDP-kirjan sisasivulle', caption: 'Kuvasudoku-tyoarkki — 4x4-ristikot selkeilla kuvilla ja mukavalla solukoolla nuorille ratkijoille' },
-      { src: '/samples/finnish/math%20puzzle/matematiikkapulmat%203.webp', alt: 'Matemaattinen pulmatyoarkki KDP-pulmakatalogin taydentajaksi', caption: 'Matemaattinen pulma — numeropohjainen logiikkapeli taydentaa sudokukirjoja luontevasti monipulmakirjoissa' },
+      { src: '/samples/finnish/sudoku/kuva-sudoku-1.webp', alt: 'Eläinteemainen kuvasudoku KDP:n lasten sudokukirjaan', caption: 'Kuvasudoku elainteemalla — kuvapohjaiset ristikot tekevat sudokulogiikan saavutettavaksi 3–7-vuotiaille' },
+      { src: '/samples/finnish/sudoku/kuva-sudoku-2.webp', alt: 'Kuvasudoku-pulmatyoarkki KDP-kirjan sisasivulle', caption: 'Kuvasudoku-tyoarkki — 4x4-ristikot selkeilla kuvilla ja mukavalla solukoolla nuorille ratkijoille' },
+      { src: '/samples/finnish/math%20puzzle/matematiikkapulmat-3.webp', alt: 'Matemaattinen pulmatyoarkki KDP-pulmakatalogin taydentajaksi', caption: 'Matemaattinen pulma — numeropohjainen logiikkapeli taydentaa sudokukirjoja luontevasti monipulmakirjoissa' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Kuvasudoku-pulmien luominen Amazon KDP -kirjoihin — Vaihe vaiheelta -opas',

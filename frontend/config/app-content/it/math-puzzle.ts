@@ -253,22 +253,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/math puzzle/rompicapi-matematici-1.webp',
+      primary: '/samples/italian/math%20puzzle/rompicapi-matematici-1.webp',
       primaryAlt: 'Scheda di puzzle matematico con un\'immagine colorata divisa in pezzi di griglia, ciascuno con un problema di addizione',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/math puzzle/rompicapi-matematici-2.webp',
+        src: '/samples/italian/math%20puzzle/rompicapi-matematici-2.webp',
         alt: 'Scheda di puzzle matematico con griglia 3×3 di addizione e tema animali',
         caption: 'Modalità Addizione — griglia 3×3 con 9 pezzi di puzzle e risposte mescolate sotto',
       },
       {
-        src: '/samples/italian/math puzzle/rompicapi-matematici-3.webp',
+        src: '/samples/italian/math%20puzzle/rompicapi-matematici-3.webp',
         alt: 'Scheda di puzzle matematico con griglia 2×3 di sottrazione e tema natura',
         caption: 'Modalità Sottrazione — griglia 2×3 per una sfida rapida di 6 pezzi',
       },
       {
-        src: '/samples/italian/math puzzle/rompicapi-matematici-4.webp',
+        src: '/samples/italian/math%20puzzle/rompicapi-matematici-4.webp',
         alt: 'Scheda di puzzle matematico con griglia 4×4 di operazioni miste e tema veicoli',
         caption: 'Modalità Mista — griglia 4×4 con 16 pezzi per pratica avanzata di risoluzione problemi',
       },

@@ -265,22 +265,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/picture%20path/bildesti%201.webp',
+      primary: '/samples/norwegian/picture%20path/bildesti-1.webp',
       primaryAlt: 'Bildesti labyrintarbeidsark med tematiske bilder i et rutenett med oransje overskriftsramme og automatisk generert Bildesti-overskrift',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/picture%20path/bildesti%201.webp',
+        src: '/samples/norwegian/picture%20path/bildesti-1.webp',
         alt: 'Bildesti-modus arbeidsark med bilder arrangert i et rutenett som viser den korrekte veien fra start til mål',
         caption: 'Bildesti-modus — brukerne folger den korrekte bildeveien fra start til mål',
       },
       {
-        src: '/samples/norwegian/picture%20path/bildesti%202.webp',
+        src: '/samples/norwegian/picture%20path/bildesti-2.webp',
         alt: 'Klassisk Labyrint-modus arbeidsark med veggbaserte korridorer og samlingsbilder spredt gjennom labyrinten',
         caption: 'Klassisk Labyrint-modus — LPF-algoritmen genererer veggbaserte labyrinter med samlingsbilder',
       },
       {
-        src: '/samples/norwegian/picture%20path/bildesti%203.webp',
+        src: '/samples/norwegian/picture%20path/bildesti-3.webp',
         alt: 'Bildesti labyrint fasit med losningsvei markert med rosa sirkler langs den korrekte ruten',
         caption: 'Automatisk generert fasit — losningsvei markert med rosa sirkler',
       },

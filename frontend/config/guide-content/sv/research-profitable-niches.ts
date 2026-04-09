@@ -186,12 +186,12 @@ const content: GuideContent = {
         caption: 'Matchningsarbetsblad spänner dussintals teman, vilket låter dig utforska och testa flera nischer snabbt',
       },
       {
-        src: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+        src: '/samples/swedish/wordsearch/ordletning-portrait.webp',
         alt: 'Ordsökningspussel som visar nischtest potential på flera språk',
         caption: 'Ordsökningar validerar nischefterfrågan över ämnen och språk med minimal produktionstid',
       },
       {
-        src: '/samples/swedish/coloring/coloring%20portrait%201.webp',
+        src: '/samples/swedish/coloring/coloring-portrait-1.webp',
         alt: 'Tematisk målarsida som demonstrerar hur visuella nischer översätts till säljbara utskriftsbara produkter',
         caption: 'Målarsidor avslöjar vilka visuella teman som attraherar köparintresse över olika marknadssegment',
       },

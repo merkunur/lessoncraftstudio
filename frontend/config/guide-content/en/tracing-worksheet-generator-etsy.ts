@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/drawing lines/drawing-lines-curve-1.webp', alt: 'Tracing worksheet with dotted line paths between themed images for fine motor skill development' },
+    heroImage: { src: '/samples/english/drawing%20lines/drawing-lines-curve-1.webp', alt: 'Tracing worksheet with dotted line paths between themed images for fine motor skill development' },
     samples: [
-      { src: '/samples/english/drawing lines/drawing-lines-curve-2.webp', alt: 'Tracing worksheet page with curved dotted lines connecting animal images', caption: 'A themed tracing worksheet with 4-5 image pairs connected by dotted guide lines -- ready for Etsy listing' },
-      { src: '/samples/english/drawing lines/drawing-lines-curve-1.webp', alt: 'Pre-writing tracing activity showing multiple line types for preschool children', caption: 'Purely visual tracing activity that works worldwide -- no text, no translation needed' },
+      { src: '/samples/english/drawing%20lines/drawing-lines-curve-2.webp', alt: 'Tracing worksheet page with curved dotted lines connecting animal images', caption: 'A themed tracing worksheet with 4-5 image pairs connected by dotted guide lines -- ready for Etsy listing' },
+      { src: '/samples/english/drawing%20lines/drawing-lines-curve-1.webp', alt: 'Pre-writing tracing activity showing multiple line types for preschool children', caption: 'Purely visual tracing activity that works worldwide -- no text, no translation needed' },
     ],
     youtubeId: 'P9q3ymjFnOQ',
     videoTitle: 'How to Create Tracing Worksheets',

@@ -215,16 +215,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/wordsearch/ordletning%20portrait.webp',
+      primary: '/samples/swedish/wordsearch/ordletning-portrait.webp',
       primaryAlt: 'Ordsökningsarbetsblad med tematiskt ordförrådsrutnät och färgkodat facit',
     },
     sampleGallery: [
-      { src: '/samples/swedish/alphabet train/alfabet%c3%a5g%20portrait.webp', alt: 'Alfabetståg arbetsblad med bokstav-bild-matchande vagnar', caption: 'Alfabetståg Arbetsblad' },
-      { src: '/samples/swedish/prepositions/prepositioner%201.webp', alt: 'Prepositionsarbetsblad som visar rumsliga relationer med bilder', caption: 'Prepositioner Arbetsblad' },
-      { src: '/samples/swedish/word guess/gissa%20ordet%201.webp', alt: 'Gissa ordet arbetsblad med bildledtrådar och bokstavsplatser', caption: 'Gissa Ordet Arbetsblad' },
-      { src: '/samples/swedish/word scramble/ordmix%20portrait.webp', alt: 'Ordmix arbetsblad med färgkodade bokstavsbrickor', caption: 'Ordmix Arbetsblad' },
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Ordsökningsrutnät med gömda ordförrådsord', caption: 'Ordsökning Arbetsblad' },
-      { src: '/samples/swedish/cryptogram/bildkryptogram%201.webp', alt: 'Kryptogrampussel med bildchifferkodning', caption: 'Kryptogram Arbetsblad' },
+      { src: '/samples/swedish/alphabet%20train/alfabetståg-portrait.webp', alt: 'Alfabetståg arbetsblad med bokstav-bild-matchande vagnar', caption: 'Alfabetståg Arbetsblad' },
+      { src: '/samples/swedish/prepositions/prepositioner-1.webp', alt: 'Prepositionsarbetsblad som visar rumsliga relationer med bilder', caption: 'Prepositioner Arbetsblad' },
+      { src: '/samples/swedish/word%20guess/gissa-ordet-1.webp', alt: 'Gissa ordet arbetsblad med bildledtrådar och bokstavsplatser', caption: 'Gissa Ordet Arbetsblad' },
+      { src: '/samples/swedish/word%20scramble/ordmix-portrait.webp', alt: 'Ordmix arbetsblad med färgkodade bokstavsbrickor', caption: 'Ordmix Arbetsblad' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.webp', alt: 'Ordsökningsrutnät med gömda ordförrådsord', caption: 'Ordsökning Arbetsblad' },
+      { src: '/samples/swedish/cryptogram/bildkryptogram-1.webp', alt: 'Kryptogrampussel med bildchifferkodning', caption: 'Kryptogram Arbetsblad' },
       { src: '/samples/swedish/writing/writing.webp', alt: 'Handstilspraktik arbetsblad med guidade bokstavsstreck', caption: 'Skrivövning Arbetsblad' },
     ],
     youtubeId: '36keBFzJbPo',

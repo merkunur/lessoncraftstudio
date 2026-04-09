@@ -224,27 +224,27 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/find%20objects/vind%20de%20verborgen%20voorwerpen%201.webp',
+      primary: '/samples/dutch/find%20objects/vind-de-verborgen-voorwerpen-1.webp',
       primaryAlt: 'Verborgen voorwerp werkblad met vrij verspreide afbeeldingen geplaatst met nul-overlap algoritme, legenda onderaan die toont welke objecten gevonden moeten worden, en decoratieve koptekst',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/find%20objects/vind%20de%20verborgen%20voorwerpen%202.webp',
+        src: '/samples/dutch/find%20objects/vind-de-verborgen-voorwerpen-2.webp',
         alt: 'Vind de Verborgen Voorwerpen scène met vrij verspreide afbeeldingen en legenda die doelafbeeldingen toont onderaan',
         caption: 'Vind de Verborgen Voorwerpen modus — vrij verspreide zoekscène met legenda-weergave',
       },
       {
-        src: '/samples/dutch/find%20objects/vind%20de%20vreemde%20eend.webp',
+        src: '/samples/dutch/find%20objects/vind-de-vreemde-eend.webp',
         alt: 'Vind de Vreemde Eend werkblad met gekoppelde afbeeldingen in rijen en ongekoppelde items om te identificeren',
         caption: 'Vind de Vreemde Eend modus — gekoppelde afbeeldingen met ongekoppelde items voor visuele discriminatie',
       },
       {
-        src: '/samples/dutch/find%20objects/vind%20de%20verborgen%20voorwerpen%201%20answer-key.webp',
+        src: '/samples/dutch/find%20objects/vind-de-verborgen-voorwerpen-1-answer-key.webp',
         alt: 'Verborgen voorwerp werkblad antwoordblad met rode cirkels getekend rond doelafbeeldingen',
         caption: 'Automatisch gegenereerd antwoordblad — rode cirkels markeren verborgen en ongekoppelde objecten',
       },
       {
-        src: '/samples/dutch/find%20objects/vind%20de%20vreemde%20eend%20-1.webp',
+        src: '/samples/dutch/find%20objects/vind-de-vreemde-eend-1.webp',
         alt: 'Vind de Vreemde Eend werkblad met boerderijdieren thema en grotere afbeeldingen voor duidelijke vergelijking',
         caption: 'Vind de Vreemde Eend met thema-afbeeldingen — 50% grotere afbeeldingen voor duidelijke visuele vergelijking',
       },

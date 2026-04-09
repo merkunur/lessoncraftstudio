@@ -175,12 +175,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/italian/math worksheet/scheda-di-matematica-4.webp',
+      src: '/samples/italian/math%20worksheet/scheda-di-matematica-4.webp',
       alt: 'Scheda di matematica professionale che dimostra la creazione automatizzata rapida per l\'efficienza del business di stampabili',
     },
     samples: [
       {
-        src: '/samples/italian/math worksheet/scheda-di-matematica-4.webp',
+        src: '/samples/italian/math%20worksheet/scheda-di-matematica-4.webp',
         alt: 'Scheda di matematica che mostra la qualità dell\'output della produzione automatizzata',
         caption: 'I generatori di schede automatizzano il passaggio più dispendioso nella produzione di stampabili',
       },

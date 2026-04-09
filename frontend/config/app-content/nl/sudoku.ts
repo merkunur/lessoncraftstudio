@@ -227,27 +227,27 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp',
+      primary: '/samples/dutch/sudoku/plaatjes-sudoku-1.webp',
       primaryAlt: '4×4 plaatjes sudoku werkblad met thematische afbeeldingen in een premium raster met afwisselende blokkleuren en automatisch gegenereerde Plaatjes Sudoku koptekst',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/sudoku/plaatjes%20sudoku%202.webp',
+        src: '/samples/dutch/sudoku/plaatjes-sudoku-2.webp',
         alt: 'Makkelijk moeilijkheidsniveau plaatjes sudoku met 4 lege cellen en 12 ingevulde cellen in een 4×4 raster',
         caption: 'Makkelijk moeilijkheidsniveau — 4 lege cellen voor beginners die rij-en-kolom logica leren',
       },
       {
-        src: '/samples/dutch/sudoku/plaatjes%20sudoku%203.webp',
+        src: '/samples/dutch/sudoku/plaatjes-sudoku-3.webp',
         alt: 'Moeilijk plaatjes sudoku met 8 lege cellen en 8 ingevulde cellen in een 4×4 raster',
         caption: 'Moeilijk moeilijkheidsniveau — 8 lege cellen die meerstaps logisch redeneren vereisen',
       },
       {
-        src: '/samples/dutch/sudoku/plaatjes%20sudoku%201%20answer-key.webp',
+        src: '/samples/dutch/sudoku/plaatjes-sudoku-1-answer-key.webp',
         alt: 'Plaatjes sudoku antwoordblad met volledig ingevuld 4×4 raster met alle 16 cellen gevuld',
         caption: 'Automatisch gegenereerd antwoordblad — volledig ingevuld raster met alle afbeeldingen geplaatst',
       },
       {
-        src: '/samples/dutch/sudoku/plaatjes%20sudoku%204.webp',
+        src: '/samples/dutch/sudoku/plaatjes-sudoku-4.webp',
         alt: 'Plaatjes sudoku werkblad met achtergrondthema en kaderthema voor professionele presentatie',
         caption: 'Professionele indeling met achtergrond- en kaderthema\'s voor marktplaatsvermeldingen',
       },

@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/cryptogram/plaatjes%20cryptogram%201.webp',
+      primary: '/samples/dutch/cryptogram/plaatjes-cryptogram-1.webp',
       primaryAlt: 'Cryptogram werkblad met plaatjescijfer waarbij thematische afbeeldingen aan alfabetletters zijn gekoppeld en een geheime zin coderen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/cryptogram/plaatjes%20cryptogram%201.webp',
+        src: '/samples/dutch/cryptogram/plaatjes-cryptogram-1.webp',
         alt: 'Cryptogram werkblad met thematische afbeeldingen die letters vervangen in een gecodeerde geheime zin',
         caption: 'Plaatjescijfer puzzel — decodeer de geheime boodschap door te identificeren welke afbeelding welke letter voorstelt',
       },
       {
-        src: '/samples/dutch/cryptogram/plaatjes%20cryptogram%202.webp',
+        src: '/samples/dutch/cryptogram/plaatjes-cryptogram-2.webp',
         alt: 'Cryptogram werkblad met dierenthema afbeeldingen en Letters Onthullen hints voor ondersteunde moeilijkheid',
         caption: 'Thematische cijfer met Letters Onthullen — vooraf opgeloste koppelingen bieden ondersteuning voor beginners',
       },
       {
-        src: '/samples/dutch/cryptogram/plaatjes%20cryptogram%201%20answer-key.webp',
+        src: '/samples/dutch/cryptogram/plaatjes-cryptogram-1-answer-key.webp',
         alt: 'Cryptogram antwoordblad met volledige letterlegenda die alle alfabet-naar-afbeelding koppelingen in gesorteerde volgorde toont',
         caption: 'Letterlegenda antwoordblad — elke alfabetletter gekoppeld aan de toegewezen afbeelding voor definitieve oplossingsreferentie',
       },

@@ -212,22 +212,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/missing pieces/missing-pieces.webp',
+      primary: '/samples/english/missing%20pieces/missing-pieces.webp',
       primaryAlt: 'Jigsaw puzzle worksheet with holes cut from a colorful illustration and numbered solution options including distractors below with turquoise Missing Pieces header and teal-pink dual border framing',
     },
     sampleGallery: [
       {
-        src: '/samples/english/missing pieces/missing-pieces-1.webp',
+        src: '/samples/english/missing%20pieces/missing-pieces-1.webp',
         alt: 'Missing pieces puzzle with square-shaped holes cut from a colorful illustration and numbered solution options for visual identification',
         caption: 'Square piece shape — clean geometric cuts with numbered solution options including distractors',
       },
       {
-        src: '/samples/english/missing pieces/missing-pieces-5.webp',
+        src: '/samples/english/missing%20pieces/missing-pieces-5.webp',
         alt: 'Missing pieces puzzle with circular holes and numbered solution options including distractor pieces for added visual discrimination challenge',
         caption: 'Circle piece shape — rounded cuts with distractor options that prevent solve-by-elimination',
       },
       {
-        src: '/samples/english/missing pieces/missing-pieces-answer-key.webp',
+        src: '/samples/english/missing%20pieces/missing-pieces-answer-key.webp',
         alt: 'Missing pieces puzzle answer key with yellow-highlighted number labels placed inside each hole showing the correct option index',
         caption: 'Auto-generated answer key — yellow-highlighted labels (rgba(255,255,0,0.7)) show correct option for each hole',
       },

@@ -216,12 +216,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/coloring/coloring%20landscape%201.webp', alt: 'Fargeleggingsside laget med LessonCraftStudio generator for Etsy-selgere' },
+    heroImage: { src: '/samples/norwegian/coloring/coloring-landscape-1.webp', alt: 'Fargeleggingsside laget med LessonCraftStudio generator for Etsy-selgere' },
     samples: [
-      { src: '/samples/norwegian/coloring/coloring%20landscape%201.webp', alt: 'Fargeleggingsside for Etsy utskriftsbar butikk', caption: 'Fargelegging — Etsy Toppkategori' },
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Utskriftsbart ordsøk-arbeidsark for Etsy-oppføring', caption: 'Ordsøk — Høyt Søkevolum' },
-      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Addisjonsarbeidsark med bildebaserte matematikkoppgaver', caption: 'Addisjon — Eviggrønn Matematikkategori' },
-      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Koblingsarbeidsark for internasjonale Etsy-kjøpere', caption: 'Kobling — Tekstfri Visuell Aktivitet' },
+      { src: '/samples/norwegian/coloring/coloring-landscape-1.webp', alt: 'Fargeleggingsside for Etsy utskriftsbar butikk', caption: 'Fargelegging — Etsy Toppkategori' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Utskriftsbart ordsøk-arbeidsark for Etsy-oppføring', caption: 'Ordsøk — Høyt Søkevolum' },
+      { src: '/samples/norwegian/addition/gøy-addisjon-1.webp', alt: 'Addisjonsarbeidsark med bildebaserte matematikkoppgaver', caption: 'Addisjon — Eviggrønn Matematikkategori' },
+      { src: '/samples/norwegian/matching/finn-parene-1.webp', alt: 'Koblingsarbeidsark for internasjonale Etsy-kjøpere', caption: 'Kobling — Tekstfri Visuell Aktivitet' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Slik Lager du Fargeleggingssider — LessonCraftStudio Demo',

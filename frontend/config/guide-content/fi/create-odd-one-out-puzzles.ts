@@ -67,10 +67,10 @@ const content: GuideContent = {
     { appId: 'pattern-worksheet', title: 'Kuviotyöarkkigeneraattori', description: 'Peräkkäisen hahmontunnistuksen kumppani. Kuviot laajentavat kategorointitaitoja sekventiaaliseen analyysiin.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/finnish/odd%20one%20out/l%c3%b6yd%c3%a4%20outo%20lintu%202.webp', alt: 'Etsi erilainen -työarkki neljällä kuvalla per harjoitusrivi joista kolme yhteistä ja yksi erilainen' },
+    heroImage: { src: '/samples/finnish/odd%20one%20out/löydä-outo-lintu-2.webp', alt: 'Etsi erilainen -työarkki neljällä kuvalla per harjoitusrivi joista kolme yhteistä ja yksi erilainen' },
     samples: [
-      { src: '/samples/finnish/odd%20one%20out/l%c3%b6yd%c3%a4%20outo%20lintu%202.webp', alt: 'Etsi erilainen -työarkki neljän kuvan harjoitusrivein ja mukautuvalla sarakeasettelulla', caption: 'Etsi erilainen -työarkki neljän kuvan harjoitusrivein ja mukautuvalla sarakeasettelulla' },
-      { src: '/samples/finnish/odd%20one%20out/l%c3%b6yd%c3%a4%20outo%20lintu%203.webp', alt: 'Automaattisesti luotu vastausavain punaisilla ympyrämerkinnöillä erilaisen kuvan ympärillä jokaisella rivillä', caption: 'Automaattisesti luotu vastausavain punaisilla ympyrämerkinnöillä jotka tunnistavat erilaisen kuvan jokaisella rivillä' },
+      { src: '/samples/finnish/odd%20one%20out/löydä-outo-lintu-2.webp', alt: 'Etsi erilainen -työarkki neljän kuvan harjoitusrivein ja mukautuvalla sarakeasettelulla', caption: 'Etsi erilainen -työarkki neljän kuvan harjoitusrivein ja mukautuvalla sarakeasettelulla' },
+      { src: '/samples/finnish/odd%20one%20out/löydä-outo-lintu-3.webp', alt: 'Automaattisesti luotu vastausavain punaisilla ympyrämerkinnöillä erilaisen kuvan ympärillä jokaisella rivillä', caption: 'Automaattisesti luotu vastausavain punaisilla ympyrämerkinnöillä jotka tunnistavat erilaisen kuvan jokaisella rivillä' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Kuinka luot etsi erilainen -pulmiä — Täydellinen opas',
@@ -78,7 +78,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/vegetables/asparagus.webp', alt: 'Parsa — temaattinen opetuksellinen kuva', caption: 'Parsa' },
     { src: '/image-library/vegetables/beetroot.webp', alt: 'Punajuuri — temaattinen opetuksellinen kuva', caption: 'Punajuuri' },
-    { src: '/image-library/vegetables/bell%20pepper.webp', alt: 'Paprika — temaattinen opetuksellinen kuva', caption: 'Paprika' },
+    { src: '/image-library/vegetables/bell-pepper.webp', alt: 'Paprika — temaattinen opetuksellinen kuva', caption: 'Paprika' },
     { src: '/image-library/vegetables/broccoli.webp', alt: 'Parsakaali — temaattinen opetuksellinen kuva', caption: 'Parsakaali' },
     { src: '/image-library/vegetables/cabbage.webp', alt: 'Kaali — temaattinen opetuksellinen kuva', caption: 'Kaali' },
   ],

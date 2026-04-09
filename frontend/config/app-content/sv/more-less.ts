@@ -268,17 +268,17 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/more%20less/mer%20mindre%201.webp',
+      primary: '/samples/swedish/more%20less/mer-mindre-1.webp',
       primaryAlt: 'Mer eller Mindre arbetsblad med färgglada djurbilder i läget Bild till Bild',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/more%20less/mer%20mindre%202.webp',
+        src: '/samples/swedish/more%20less/mer-mindre-2.webp',
         alt: 'Jämförelsearbetsblad med läget Bild till Bild och djurtema',
         caption: 'Bild till Bild — användarna räknar två grupper bilder och jämför mängder',
       },
       {
-        src: '/samples/swedish/more%20less/mer%20mindre%203.webp',
+        src: '/samples/swedish/more%20less/mer-mindre-3.webp',
         alt: 'Jämförelsearbetsblad med läget Bild till Tal och mattema',
         caption: 'Bild till Tal — kombinerar grupper bilder med tal för att koppla samman färdigheter',
       },

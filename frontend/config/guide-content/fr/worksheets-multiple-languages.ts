@@ -186,7 +186,7 @@ const content: GuideContent = {
         caption: 'Les fiches de mots cachés démontrent l\'importance d\'une gestion correcte des caractères dans toutes les langues',
       },
       {
-        src: '/samples/french/alphabet train/Train de l\'alphabet-1.webp',
+        src: '/samples/french/alphabet%20train/train-de-l\'alphabet-1.webp',
         alt: 'Fiche de train alphabétique montrant la génération de lettres et caractères spécifiques à chaque langue',
         caption: 'Les fiches d\'alphabet nécessitent des caractères spécifiques à la langue, y compris les trémas et les lettres accentuées',
       },

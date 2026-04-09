@@ -222,22 +222,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/draw and color/teken%20en%20kleur%201.webp',
+      primary: '/samples/dutch/draw%20and%20color/teken-en-kleur-1.webp',
       primaryAlt: 'Rastertekenen werkblad met dubbel rastersysteem dat oefenraster en hulpraster toont met zwart-wit contourthema',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/draw and color/teken%20en%20kleur%202.webp',
+        src: '/samples/dutch/draw%20and%20color/teken-en-kleur-2.webp',
         alt: 'Rasterteken werkblad met dieren zwart-wit contourthema bij 25% aanwijzingspercentage met oefenraster en hulpraster',
         caption: 'Dierenthema bij 25% aanwijzingen — gebruikers reproduceren de contour vanuit verspreide rasterhints',
       },
       {
-        src: '/samples/dutch/draw and color/teken%20en%20kleur%203.webp',
+        src: '/samples/dutch/draw%20and%20color/teken-en-kleur-3.webp',
         alt: 'Rasterteken werkblad met horizontale symmetrie spiegelmodus met aanwijzingscellen gespiegeld links naar rechts',
         caption: 'Horizontale symmetriemodus — aanwijzingscellen spiegelen links-rechts voor ruimtelijk redeneren oefening',
       },
       {
-        src: '/samples/dutch/draw and color/teken%20en%20kleur%204.webp',
+        src: '/samples/dutch/draw%20and%20color/teken-en-kleur-4.webp',
         alt: 'Rasterteken werkblad met 10% aanwijzingspercentage dat minimale referentiecellen toont voor uitdaging op expertniveau',
         caption: '10% aanwijzingsuitdaging — minimale referentiecellen voor rastertekenen op expertniveau',
       },

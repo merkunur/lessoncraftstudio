@@ -227,22 +227,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/picture path/Chemin d\'images-1.webp',
+      primary: '/samples/french/picture%20path/chemin-d\'images-1.webp',
       primaryAlt: 'Fiche labyrinthe chemin d\'images avec des illustrations thématiques dans une grille avec bordure extérieure orange et en-tête Chemin d\'Images auto-généré avec titre localisé',
     },
     sampleGallery: [
       {
-        src: '/samples/french/picture path/Chemin d\'images-1.webp',
+        src: '/samples/french/picture%20path/chemin-d\'images-1.webp',
         alt: 'Mode Chemin d\'Images avec des images arrangées dans une grille montrant le chemin correct du départ à l\'arrivée parmi les images distractrices',
         caption: 'Mode Chemin d\'Images — les utilisateurs suivent le chemin correct d\'images du départ à l\'arrivée parmi les distractrices',
       },
       {
-        src: '/samples/french/picture path/Chemin d\'images-2.webp',
+        src: '/samples/french/picture%20path/chemin-d\'images-2.webp',
         alt: 'Mode Labyrinthe Classique avec des corridors à murs générés par l\'algorithme LPF et des images à collectionner réparties dans le labyrinthe',
         caption: 'Labyrinthe Classique — l\'algorithme LPF génère des labyrinthes à murs avec objets à collectionner dans les corridors',
       },
       {
-        src: '/samples/french/picture path/Chemin d\'images-1-answer-key.webp',
+        src: '/samples/french/picture%20path/chemin-d\'images-1-answer-key.webp',
         alt: 'Corrigé du labyrinthe chemin d\'images avec le chemin de solution mis en évidence par des cercles roses le long du parcours correct et légende des objets à collectionner',
         caption: 'Corrigé auto-généré — cercles roses sur le chemin de solution avec légende des objets à collectionner incluse',
       },

@@ -186,7 +186,7 @@ const content: GuideContent = {
     heroImage: { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Kids activity book page showing themed coloring activity for KDP' },
     samples: [
       { src: '/samples/english/coloring/coloring-portrait-2.webp', alt: 'Coloring page with themed outline for kids activity book', caption: 'Themed coloring pages form the foundation of every kids activity book -- 25 to 35 pages per book' },
-      { src: '/samples/english/find and count/i-spy-10.webp', alt: 'Find-and-count I-Spy scene with themed hidden objects', caption: 'Find-and-count I-Spy scenes with themed objects and counting tasks -- the most engaging activity type for children' },
+      { src: '/samples/english/find%20and%20count/i-spy-10.webp', alt: 'Find-and-count I-Spy scene with themed hidden objects', caption: 'Find-and-count I-Spy scenes with themed objects and counting tasks -- the most engaging activity type for children' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages',

@@ -193,10 +193,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Ordsökningsarbetsblad som demonstrerar tematiskt nischinnehåll för utskriftsbara företag' },
+    heroImage: { src: '/samples/swedish/wordsearch/ordletning-portrait.webp', alt: 'Ordsökningsarbetsblad som demonstrerar tematiskt nischinnehåll för utskriftsbara företag' },
     samples: [
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Tematiskt ordsökningspussel som visar nischtillämpning över ämnen', caption: 'Ordsökningspussel anpassas till alla nischteman — djur, högtider, ämnen och säsongsämnen fungerar alla med samma produktformat' },
-      { src: '/samples/swedish/coloring/coloring%20portrait%202.webp', alt: 'Målarsida som demonstrerar visuell nischproduktmångstidighet', caption: 'Målarsidor är bland de mest mångsidiga nischprodukterna och tilltalar över åldersgrupper och gäller för praktiskt taget alla visuella teman' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.webp', alt: 'Tematiskt ordsökningspussel som visar nischtillämpning över ämnen', caption: 'Ordsökningspussel anpassas till alla nischteman — djur, högtider, ämnen och säsongsämnen fungerar alla med samma produktformat' },
+      { src: '/samples/swedish/coloring/coloring-portrait-2.webp', alt: 'Målarsida som demonstrerar visuell nischproduktmångstidighet', caption: 'Målarsidor är bland de mest mångsidiga nischprodukterna och tilltalar över åldersgrupper och gäller för praktiskt taget alla visuella teman' },
       { src: '/samples/swedish/matching/matchningsspel.webp', alt: 'Matchningsarbetsblad som visar pedagogisk nischproduktvariation', caption: 'Matchningsaktiviteter fungerar över pedagogiska nischer från ordförråd till matte — en enda produkttyp som validerar nischefterfrågan snabbt' },
     ],
     youtubeId: '36keBFzJbPo',

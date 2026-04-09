@@ -215,22 +215,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/pattern%20worksheet/m%c3%b8nsterg%c3%a5der%201.webp',
+      primary: '/samples/danish/pattern%20worksheet/mønstergåder-1.webp',
       primaryAlt: 'Gratis logiske rækkefølger generator med gitterbaserede øvelser — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/pattern%20worksheet/mønstergåder%201.webp',
+        src: '/samples/danish/pattern%20worksheet/mønstergåder-1.webp',
         alt: 'Mønsterarbejdsark med AB udfyldningsøvelser med dyrebilleder i gitterlayout med tomme ruder for brugerne at fuldende',
         caption: 'AB tom-rude øvelser med dyretema — brugerne identificerer det alternerende mønster og udfylder det manglende billede',
       },
       {
-        src: '/samples/danish/pattern%20worksheet/mønstergåder%202.webp',
+        src: '/samples/danish/pattern%20worksheet/mønstergåder-2.webp',
         alt: 'Mønsterarbejdsark med ABC flervalsøvelser med tematiske billeder og tre svarmuligheder per øvelse',
         caption: 'ABC flervalsøvelser — brugerne vælger det korrekte manglende objekt blandt tre alternativer',
       },
       {
-        src: '/samples/danish/pattern%20worksheet/mønstergåder%203.webp',
+        src: '/samples/danish/pattern%20worksheet/mønstergåder-3.webp',
         alt: 'Mønsterarbejdsark facit, der viser alle huller udfyldt med det rigtige mønsterobjekt for verifikation',
         caption: 'Facitvisning — alle huller udfyldt med korrekte mønsterobjekter for verifikation',
       },

@@ -207,10 +207,10 @@ const content: BundleContent = {
       primaryAlt: 'Fiche de mots cachés avec grille de vocabulaire thématique et corrigé à six couleurs',
     },
     sampleGallery: [
-      { src: '/samples/french/alphabet train/Train de l\'alphabet-1.webp', alt: 'Fiche train alphabet avec wagons associant lettres et images', caption: 'Fiche Train Alphabet' },
+      { src: '/samples/french/alphabet%20train/train-de-l\'alphabet-1.webp', alt: 'Fiche train alphabet avec wagons associant lettres et images', caption: 'Fiche Train Alphabet' },
       { src: '/samples/french/prepositions/prépositions-1.webp', alt: 'Fiche de prépositions montrant les relations spatiales avec des images', caption: 'Fiche de Prépositions' },
-      { src: '/samples/french/word guess/devine-le-mot-1.webp', alt: 'Fiche deviner les mots avec indices visuels et espaces de lettres', caption: 'Fiche Deviner les Mots' },
-      { src: '/samples/french/word scramble/mots-mêlés-1.webp', alt: 'Fiche de mots mélangés avec tuiles de lettres codées par couleur', caption: 'Fiche Mots Mélangés' },
+      { src: '/samples/french/word%20guess/devine-le-mot-1.webp', alt: 'Fiche deviner les mots avec indices visuels et espaces de lettres', caption: 'Fiche Deviner les Mots' },
+      { src: '/samples/french/word%20scramble/mots-mêlés-1.webp', alt: 'Fiche de mots mélangés avec tuiles de lettres codées par couleur', caption: 'Fiche Mots Mélangés' },
       { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Grille de mots cachés avec vocabulaire caché', caption: 'Fiche Mots Cachés' },
       { src: '/samples/french/cryptogram/cryptogramme-en-images-1.webp', alt: 'Puzzle cryptogramme avec chiffrement par images', caption: 'Fiche Cryptogramme' },
       { src: '/samples/french/writing/writing.webp', alt: 'Fiche d\'écriture manuscrite avec tracé guidé des lettres', caption: 'Fiche d\'Écriture' },

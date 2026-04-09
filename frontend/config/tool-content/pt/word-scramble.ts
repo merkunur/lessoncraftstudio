@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/word scramble/letras-embaralhadas-1.webp',
+      primary: '/samples/portuguese/word%20scramble/letras-embaralhadas-1.webp',
       primaryAlt: 'Atividade de palavras embaralhadas com imagens e peças de letras embaralhadas para puzzles de ortografia por reorganização',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/word scramble/letras-embaralhadas-2.webp',
+        src: '/samples/portuguese/word%20scramble/letras-embaralhadas-2.webp',
         alt: 'Atividade de palavras embaralhadas com imagens e peças de letras embaralhadas em dificuldade Fácil',
         caption: 'Dificuldade Fácil — metade das letras pré-posicionadas como pistas para usuários principiantes',
       },
       {
-        src: '/samples/portuguese/word scramble/letras-embaralhadas-3.webp',
+        src: '/samples/portuguese/word%20scramble/letras-embaralhadas-3.webp',
         alt: 'Atividade de palavras embaralhadas com código de cores vogais-consoantes mostrando peças de letras coloridas',
         caption: 'Modo com código de cores — vogais e consoantes em cores diferentes para consciência fonética',
       },
       {
-        src: '/samples/portuguese/word scramble/letras-embaralhadas-4.webp',
+        src: '/samples/portuguese/word%20scramble/letras-embaralhadas-4.webp',
         alt: 'Gabarito de palavras embaralhadas com todas as letras corretamente desembaralhadas',
         caption: 'Gabarito — palavras corretamente desembaralhadas paro valor percebido e autoverificação fáceis',
       },

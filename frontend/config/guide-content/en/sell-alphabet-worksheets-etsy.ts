@@ -178,9 +178,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/alphabet train/alphabet-train-10.webp', alt: 'Alphabet train worksheet with colorful letter cars for selling on Etsy' },
+    heroImage: { src: '/samples/english/alphabet%20train/alphabet-train-10.webp', alt: 'Alphabet train worksheet with colorful letter cars for selling on Etsy' },
     samples: [
-      { src: '/samples/english/alphabet train/alphabet-train-11.webp', alt: 'Colorful alphabet train worksheet showing letter-image matching activity', caption: 'Alphabet train worksheets feature colorful train cars with letter-image matching -- visually distinctive products that stand out on Etsy' },
+      { src: '/samples/english/alphabet%20train/alphabet-train-11.webp', alt: 'Colorful alphabet train worksheet showing letter-image matching activity', caption: 'Alphabet train worksheets feature colorful train cars with letter-image matching -- visually distinctive products that stand out on Etsy' },
       { src: '/samples/english/writing/writing.webp', alt: 'Letter tracing worksheet with stroke-order arrows as companion alphabet product', caption: 'Letter tracing worksheets with stroke-order arrows complement alphabet train products by teaching letter formation' },
       { src: '/samples/english/matching/image-and-custom-word.webp', alt: 'Letter matching worksheet for alphabet recognition assessment', caption: 'Matching worksheets test letter recognition through interactive puzzles -- the third pillar of a complete alphabet product line' },
     ],

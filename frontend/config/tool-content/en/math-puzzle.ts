@@ -207,22 +207,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/math puzzle/math-puzzles.webp',
+      primary: '/samples/english/math%20puzzle/math-puzzles.webp',
       primaryAlt: 'Math puzzle worksheet showing a jigsaw-style image grid with addition equations and scrambled answer pieces',
     },
     sampleGallery: [
       {
-        src: '/samples/english/math puzzle/math-puzzles-1.webp',
+        src: '/samples/english/math%20puzzle/math-puzzles-1.webp',
         alt: 'Jigsaw math puzzle worksheet with addition equations in a colorful image grid',
         caption: 'Addition mode with themed image puzzle',
       },
       {
-        src: '/samples/english/math puzzle/math-puzzles-5.webp',
+        src: '/samples/english/math%20puzzle/math-puzzles-5.webp',
         alt: 'Math puzzle worksheet with subtraction equations and scrambled number pieces below the grid',
         caption: 'Subtraction mode — solve equations to reconstruct the picture',
       },
       {
-        src: '/samples/english/math puzzle/math-puzzles-10.webp',
+        src: '/samples/english/math%20puzzle/math-puzzles-10.webp',
         alt: 'Mixed addition and subtraction math puzzle with a larger grid for advanced learners',
         caption: 'Mixed operations — addition and subtraction in one puzzle',
       },

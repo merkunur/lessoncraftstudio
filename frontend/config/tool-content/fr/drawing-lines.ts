@@ -224,22 +224,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/drawing lines/pratique-de-tracer-des-lignes-1.webp',
+      primary: '/samples/french/drawing%20lines/pratique-de-tracer-des-lignes-1.webp',
       primaryAlt: 'Fiche de graphisme avec modèle de courbe SVG reliant des paires d\'images colorées assorties en format paysage',
     },
     sampleGallery: [
       {
-        src: '/samples/french/drawing lines/pratique-de-tracer-des-lignes-1.webp',
+        src: '/samples/french/drawing%20lines/pratique-de-tracer-des-lignes-1.webp',
         alt: 'Fiche de tracé de lignes avec modèle de courbe reliant des paires d\'images colorées d\'animaux en orientation paysage',
         caption: 'Modèle de courbe — tracés fluides avec 4 paires d\'images colorées en orientation paysage',
       },
       {
-        src: '/samples/french/drawing lines/pratique-de-tracer-des-lignes-2.webp',
+        src: '/samples/french/drawing%20lines/pratique-de-tracer-des-lignes-2.webp',
         alt: 'Fiche de tracé de lignes avec modèle de diagonale reliant cinq paires d\'images en orientation portrait',
         caption: 'Modèle de diagonale — lignes en angle avec 5 paires d\'images pour la pratique de la coordination croisée',
       },
       {
-        src: '/samples/french/drawing lines/pratique-de-tracer-des-lignes-3.webp',
+        src: '/samples/french/drawing%20lines/pratique-de-tracer-des-lignes-3.webp',
         alt: 'Fiche de tracé de lignes avec modèle horizontal reliant des paires d\'images thème nature en format portrait',
         caption: 'Modèle horizontal — lignes droites de gauche à droite pour la pratique de motricité fine débutante',
       },

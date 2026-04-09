@@ -185,7 +185,7 @@ const content: GuideContent = {
         caption: 'Le schede di ricerca parole dimostrano l\'importanza della gestione corretta dei caratteri nelle diverse lingue',
       },
       {
-        src: '/samples/italian/alphabet train/Treno dell\'alfabeto-1.webp',
+        src: '/samples/italian/alphabet%20train/treno-dell\'alfabeto-1.webp',
         alt: 'Scheda treno dell\'alfabeto che mostra la generazione di lettere e caratteri specifici per lingua',
         caption: 'Le schede sull\'alfabeto richiedono caratteri specifici per lingua inclusi umlaut e lettere accentate',
       },

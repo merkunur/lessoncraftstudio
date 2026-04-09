@@ -268,22 +268,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/code addition/codice-segreto-addizione-1.webp',
+      primary: '/samples/italian/code%20addition/codice-segreto-addizione-1.webp',
       primaryAlt: 'Scheda di addizione codificata con immagini di animali che nascondono numeri segreti in un puzzle da decifrare',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/code addition/codice-segreto-addizione-2.webp',
+        src: '/samples/italian/code%20addition/codice-segreto-addizione-2.webp',
         alt: 'Scheda di addizione codificata in Modalità negozica con immagini tematiche di animali come simboli-codice',
         caption: 'Modalità negozica — gli utenti decifrano il codice deducendo quale numero rappresenta ogni immagine',
       },
       {
-        src: '/samples/italian/code addition/codice-segreto-addizione-3.webp',
+        src: '/samples/italian/code%20addition/codice-segreto-addizione-3.webp',
         alt: 'Scheda di addizione codificata con tema visivo diverso che mostra equazioni crittaritmetiche basate su immagini',
         caption: 'Sfida multi-simbolo — più immagini aumentano la complessità della deduzione',
       },
       {
-        src: '/samples/italian/code addition/codice-segreto-addizione-4.webp',
+        src: '/samples/italian/code%20addition/codice-segreto-addizione-4.webp',
         alt: 'Puzzle di addizione codificata con immagini tematiche colorate ed equazioni',
         caption: 'Puzzle tematici — 104 temi visivi rendono ogni scheda unica e coinvolgente',
       },

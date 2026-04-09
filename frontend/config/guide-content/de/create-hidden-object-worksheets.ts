@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/find objects/finde-das-unpassende-1-v7.webp', alt: 'Suchbilder-Szenen-Arbeitsblatt mit thematischen Bildern, in denen Kinder bestimmte Objekte finden sollen' },
+    heroImage: { src: '/samples/german/find%20objects/finde-das-unpassende-1-v7.webp', alt: 'Suchbilder-Szenen-Arbeitsblatt mit thematischen Bildern, in denen Kinder bestimmte Objekte finden sollen' },
     samples: [
-      { src: '/samples/german/find objects/finde-das-unpassende-1-v7.webp', alt: 'Ich-sehe-was-Suchbilder-Arbeitsblatt mit thematischer Szene für visuelle Suchaktivität', caption: 'Ich-sehe-was-Suchbilder-Szene mit thematischen Bildern und Ablenkerbildern für visuelle Suchübungen' },
-      { src: '/samples/german/find objects/finde-das-unpassende-1-v7.webp', alt: 'Suchbilder-Arbeitsblatt-Lösungsschlüssel mit hervorgehobenen Positionen versteckter Objekte', caption: 'Automatischer Lösungsschlüssel für jedes Suchbilder-Szenen-Arbeitsblatt generiert' },
+      { src: '/samples/german/find%20objects/finde-das-unpassende-1-v7.webp', alt: 'Ich-sehe-was-Suchbilder-Arbeitsblatt mit thematischer Szene für visuelle Suchaktivität', caption: 'Ich-sehe-was-Suchbilder-Szene mit thematischen Bildern und Ablenkerbildern für visuelle Suchübungen' },
+      { src: '/samples/german/find%20objects/finde-das-unpassende-1-v7.webp', alt: 'Suchbilder-Arbeitsblatt-Lösungsschlüssel mit hervorgehobenen Positionen versteckter Objekte', caption: 'Automatischer Lösungsschlüssel für jedes Suchbilder-Szenen-Arbeitsblatt generiert' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Wie Sie Suchbilder-Szenen-Arbeitsblätter erstellen — Komplette Anleitung',

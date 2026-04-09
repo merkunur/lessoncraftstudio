@@ -222,7 +222,7 @@ const content: StartContent = {
       { src: '/samples/portuguese/writing/writing-custom.webp', alt: 'Atividade de escrita mostrando conteúdo educativo com licença comercial', caption: 'Escrita — Conteúdo Educativo com Licença Comercial' },
       { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Sopa de letras demonstrando o potencial de produto comercial de alto volume', caption: 'Sopa de Letras — Tipo de Puzzle Comercial Mais Popular' },
       { src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp', alt: 'Palavras cruzadas mostrando a capacidade de produto comercial multilingue', caption: 'Palavras Cruzadas — Produtos Comerciais Multilingues' },
-      { src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-1.webp', alt: 'Atividade de matemática demonstrando a geração de produto comercial permanente', caption: 'Matemática — Geração de Produto Comercial Permanente' },
+      { src: '/samples/portuguese/math%20puzzle/quebra-cabeças-matemático-1.webp', alt: 'Atividade de matemática demonstrando a geração de produto comercial permanente', caption: 'Matemática — Geração de Produto Comercial Permanente' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Como Criar Atividades de Escrita para o Seu Negócio de Imprimíveis — Demo do LessonCraftStudio',

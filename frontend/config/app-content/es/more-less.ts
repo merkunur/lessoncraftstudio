@@ -258,22 +258,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/more less/más-menos-1.webp',
+      primary: '/samples/spanish/more%20less/más-menos-1.webp',
       primaryAlt: 'Ficha Más o Menos con imágenes coloridas de animales mostrando el modo Imagen contra Imagen',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/more less/más-menos-1.webp',
+        src: '/samples/spanish/more%20less/más-menos-1.webp',
         alt: 'Ficha de comparación en modo Imagen contra Imagen con tema de animales',
         caption: 'Modo Imagen contra Imagen — los usuarios cuentan dos grupos de imágenes y comparan cantidades',
       },
       {
-        src: '/samples/spanish/more less/más-menos-2.webp',
+        src: '/samples/spanish/more%20less/más-menos-2.webp',
         alt: 'Ficha de comparación en modo Imagen contra Número con tema de comida',
         caption: 'Modo Imagen contra Número — empareja grupos de imágenes con números para conectar habilidades',
       },
       {
-        src: '/samples/spanish/more less/más-menos-3.webp',
+        src: '/samples/spanish/more%20less/más-menos-3.webp',
         alt: 'Ficha de Marcar y Tachar Grupos con imágenes mezcladas para clasificación visual',
         caption: 'Modo Marcar y Tachar Grupos — los usuarios encuentran el grupo mayoritario en una caja de imágenes mezcladas',
       },

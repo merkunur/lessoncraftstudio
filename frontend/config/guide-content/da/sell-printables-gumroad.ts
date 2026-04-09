@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/draw%20and%20color/tegn%20og%20farvl%c3%a6g%201.webp', alt: 'Farvelægningsside printable-produkt klar til salg på Gumroad butiksfront' },
+    heroImage: { src: '/samples/danish/draw%20and%20color/tegn-og-farvlæg-1.webp', alt: 'Farvelægningsside printable-produkt klar til salg på Gumroad butiksfront' },
     samples: [
-      { src: '/samples/danish/draw%20and%20color/tegn%20og%20farvl%c3%a6g%201.webp', alt: 'Tegn og Farvlæg — dansk eksempelarbejdsark', caption: 'Tegn og Farvlæg eksempel 1' },
-      { src: '/samples/danish/draw%20and%20color/tegn%20og%20farvl%c3%a6g%202.webp', alt: 'Tegn og Farvlæg — dansk eksempel 2', caption: 'Tegn og Farvlæg eksempel 2' },
-      { src: '/samples/danish/draw%20and%20color/tegn%20og%20farvl%c3%a6g%203.webp', alt: 'Tegn og Farvlæg — dansk eksempel 3', caption: 'Tegn og Farvlæg eksempel 3' },
+      { src: '/samples/danish/draw%20and%20color/tegn-og-farvlæg-1.webp', alt: 'Tegn og Farvlæg — dansk eksempelarbejdsark', caption: 'Tegn og Farvlæg eksempel 1' },
+      { src: '/samples/danish/draw%20and%20color/tegn-og-farvlæg-2.webp', alt: 'Tegn og Farvlæg — dansk eksempel 2', caption: 'Tegn og Farvlæg eksempel 2' },
+      { src: '/samples/danish/draw%20and%20color/tegn-og-farvlæg-3.webp', alt: 'Tegn og Farvlæg — dansk eksempel 3', caption: 'Tegn og Farvlæg eksempel 3' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Sådan generator du farvelægningssider til din Gumroad printable butik',

@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/big small/grande-o-piccolo-1.webp',
+      primary: '/samples/italian/big%20small/grande-o-piccolo-1.webp',
       primaryAlt: 'Scheda di confronto dimensioni grande e piccolo con immagini tematiche in diverse dimensioni che mostra un esercizio di cerchiare il più grande',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/big small/grande-o-piccolo-2.webp',
+        src: '/samples/italian/big%20small/grande-o-piccolo-2.webp',
         alt: 'Scheda di confronto dimensioni in modalità cerchiare il più grande con immagini tematiche di animali in diverse dimensioni',
         caption: 'Modalità Cerchiare il più Grande — gli utenti identificano l\'immagine più grande in ogni esercizio',
       },
       {
-        src: '/samples/italian/big small/grande-o-piccolo-3.webp',
+        src: '/samples/italian/big%20small/grande-o-piccolo-3.webp',
         alt: 'Scheda di confronto dimensioni in modalità numerazione con tre immagini da ordinare dal più piccolo al più grande',
         caption: 'Numerare 1–2–3 dal più Piccolo al più Grande — gli utenti ordinano le immagini per dimensione ascendente',
       },
       {
-        src: '/samples/italian/big small/grande-o-piccolo-4.webp',
+        src: '/samples/italian/big%20small/grande-o-piccolo-4.webp',
         alt: 'Scheda di confronto dimensioni con modalità immagini identiche con la stessa immagine in tre dimensioni diverse',
         caption: 'Modalità Immagini Identiche — stessa immagine in diverse dimensioni per esercizi di percezione pura della dimensione',
       },

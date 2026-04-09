@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/find%20objects/finn%20de%20skjulte%20objektene%201.webp', alt: 'Finn-objekter scenearbeidsark som viser tematiske bilder arrangert for barn til a finne spesifikke objekter' },
+    heroImage: { src: '/samples/norwegian/find%20objects/finn-de-skjulte-objektene-1.webp', alt: 'Finn-objekter scenearbeidsark som viser tematiske bilder arrangert for barn til a finne spesifikke objekter' },
     samples: [
-      { src: '/samples/norwegian/find%20objects/finn%20de%20skjulte%20objektene%201.webp', alt: 'Finn og sok finn-objekter-arbeidsark med tematisk scene for visuell sokeaktivitet', caption: 'Finn og sok finn-objekter-scene med tematiske bilder og distraktorobjekter for visuell sokepraksis' },
-      { src: '/samples/norwegian/find%20objects/finn%20de%20skjulte%20objektene%201.webp', alt: 'Finn-objekter arbeidsark-fasit som fremhever plasseringer av gjemte elementer', caption: 'Automatisk fasit generert for hvert finn-objekter scenearbeidsark' },
+      { src: '/samples/norwegian/find%20objects/finn-de-skjulte-objektene-1.webp', alt: 'Finn og sok finn-objekter-arbeidsark med tematisk scene for visuell sokeaktivitet', caption: 'Finn og sok finn-objekter-scene med tematiske bilder og distraktorobjekter for visuell sokepraksis' },
+      { src: '/samples/norwegian/find%20objects/finn-de-skjulte-objektene-1.webp', alt: 'Finn-objekter arbeidsark-fasit som fremhever plasseringer av gjemte elementer', caption: 'Automatisk fasit generert for hvert finn-objekter scenearbeidsark' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Hvordan lage finn-objekter scenearbeidsark — komplett veiledning',

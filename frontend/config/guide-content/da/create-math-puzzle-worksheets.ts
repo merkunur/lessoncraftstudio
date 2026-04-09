@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/math%20puzzle/mattepuslespil%201.webp', alt: 'Matematikpuslespil-arbejdsark der viser omrokkerede billedstykker med matematikligninger for børn at løse og samle' },
+    heroImage: { src: '/samples/danish/math%20puzzle/mattepuslespil-1.webp', alt: 'Matematikpuslespil-arbejdsark der viser omrokkerede billedstykker med matematikligninger for børn at løse og samle' },
     samples: [
-      { src: '/samples/danish/math%20puzzle/mattepuslespil%201.webp', alt: 'Matematikpuslespil — dansk eksempelarbejdsark', caption: 'Matematikpuslespil eksempel 1' },
-      { src: '/samples/danish/math%20puzzle/mattepuslespil%202.webp', alt: 'Matematikpuslespil — dansk eksempel 2', caption: 'Matematikpuslespil eksempel 2' },
-      { src: '/samples/danish/math%20puzzle/mattepuslespil%203.webp', alt: 'Matematikpuslespil — dansk eksempel 3', caption: 'Matematikpuslespil eksempel 3' },
+      { src: '/samples/danish/math%20puzzle/mattepuslespil-1.webp', alt: 'Matematikpuslespil — dansk eksempelarbejdsark', caption: 'Matematikpuslespil eksempel 1' },
+      { src: '/samples/danish/math%20puzzle/mattepuslespil-2.webp', alt: 'Matematikpuslespil — dansk eksempel 2', caption: 'Matematikpuslespil eksempel 2' },
+      { src: '/samples/danish/math%20puzzle/mattepuslespil-3.webp', alt: 'Matematikpuslespil — dansk eksempel 3', caption: 'Matematikpuslespil eksempel 3' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Sådan generator du matematikpuslespil-arbejdsark — Komplet vejledning',

@@ -173,12 +173,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/math worksheet/worksheet.webp',
+      src: '/samples/german/math%20worksheet/worksheet.webp',
       alt: 'Professionelles Mathe-Arbeitsblatt zur Demonstration schneller automatisierter Erstellung für Druckvorlagen-Geschäftseffizienz',
     },
     samples: [
       {
-        src: '/samples/german/math worksheet/worksheet.webp',
+        src: '/samples/german/math%20worksheet/worksheet.webp',
         alt: 'Mathe-Arbeitsblatt zeigt die Ausgabequalität automatisierter Produktion',
         caption: 'Arbeitsblatt-Generatoren automatisieren den zeitintensivsten Schritt in der Druckvorlagen-Produktion',
       },

@@ -219,8 +219,8 @@ const content: StartContent = {
     samples: [
       { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt mit sprachsensitivem Vokabular', caption: 'Wortsuche — Beste mehrsprachige Demonstration' },
       { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kreuzworträtsel mit lokalisierten Hinweisen und Antworten', caption: 'Kreuzworträtsel — Vollständig lokalisierte Rätsel' },
-      { src: '/samples/german/word scramble/buchstabensala-1.webp', alt: 'Buchstabensalat-Arbeitsblatt mit sprachangepasstem Vokabular', caption: 'Buchstabensalat — Sprachsensitive Ausgabe' },
-      { src: '/samples/german/alphabet train/worksheet.webp', alt: 'Buchstabenzug-Arbeitsblatt zeigt sprachspezifische Zeichensätze', caption: 'Buchstabenzug — Angepasste Zeichensätze' },
+      { src: '/samples/german/word%20scramble/buchstabensala-1.webp', alt: 'Buchstabensalat-Arbeitsblatt mit sprachangepasstem Vokabular', caption: 'Buchstabensalat — Sprachsensitive Ausgabe' },
+      { src: '/samples/german/alphabet%20train/worksheet.webp', alt: 'Buchstabenzug-Arbeitsblatt zeigt sprachspezifische Zeichensätze', caption: 'Buchstabenzug — Angepasste Zeichensätze' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Arbeitsblätter in mehreren Sprachen erstellen — LessonCraftStudio Demo',

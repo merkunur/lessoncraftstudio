@@ -221,12 +221,12 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/chart%20count/worksheet%20-1.webp',
+        src: '/samples/swedish/chart%20count/worksheet-1.webp',
         alt: 'Djurtema bilddiagram arbetsblad med 20 spridda djurikoner i ett 4×5-rutnät och 6-kolumns stapeldiagram nedanför för räkningsövning',
         caption: 'Djurtema bilddiagram — 6 djurtyper spridda i rutnätet med stapeldiagram nedanför för datarepresentationsövning',
       },
       {
-        src: '/samples/swedish/chart%20count/worksheet%20-3.webp',
+        src: '/samples/swedish/chart%20count/worksheet-3.webp',
         alt: 'Bilddiagram facit med gulmarkerade celler som visar korrekta antal för var och en av de 6 bildtyperna i stapeldiagrammet',
         caption: 'Automatiskt genererat facit — gulfyllda celler (#FFC857) visar det korrekta antalet för varje bildtyp',
       },

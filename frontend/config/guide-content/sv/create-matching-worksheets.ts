@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/matching/Matchningsspel.jpeg', alt: 'Matchningsarbetsblad med tematiska bilder som visar dra-en-linje-par för förskola' },
+    heroImage: { src: '/samples/swedish/matching/matchningsspel.jpeg', alt: 'Matchningsarbetsblad med tematiska bilder som visar dra-en-linje-par för förskola' },
     samples: [
-      { src: '/samples/swedish/matching/Matchningsspel.jpeg', alt: 'Dra-en-linje matchningsarbetsblad med djurtema för förskola', caption: 'Förskolematchningsarbetsblad med djurtema i Bokstavsmatchningsläge med 5 par' },
-      { src: '/samples/swedish/matching/Matchningsspel%20beginning%20letter.jpeg', alt: 'Matchningsarbetsblad facit som visar kopplingslinjer', caption: 'Automatiskt facit med horisontella kopplingslinjer mellan matchade par' },
+      { src: '/samples/swedish/matching/matchningsspel.jpeg', alt: 'Dra-en-linje matchningsarbetsblad med djurtema för förskola', caption: 'Förskolematchningsarbetsblad med djurtema i Bokstavsmatchningsläge med 5 par' },
+      { src: '/samples/swedish/matching/matchningsspel-beginning-letter.jpeg', alt: 'Matchningsarbetsblad facit som visar kopplingslinjer', caption: 'Automatiskt facit med horisontella kopplingslinjer mellan matchade par' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Hur du skapar matchningsarbetsblad — Komplett guide',

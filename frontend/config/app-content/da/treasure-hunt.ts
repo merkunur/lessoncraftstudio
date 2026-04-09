@@ -241,22 +241,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/treasure%20hunt/skattejagt%201.webp',
+      primary: '/samples/danish/treasure%20hunt/skattejagt-1.webp',
       primaryAlt: 'Skattejagt til print med 5 gange 5 koordinatgitter, spredte billeder, ledetråde og sporleg-overskrift',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/treasure%20hunt/skattejagt%201.webp',
+        src: '/samples/danish/treasure%20hunt/skattejagt-1.webp',
         alt: 'Skattejagt til print med 6 tematiske billeder på et 5 gange 5 gitter og ledetråde med grundlæggende retninger',
         caption: 'Grundlæggende sporleg — følg ledetrådene op, ned, venstre og højre for at finde skatten',
       },
       {
-        src: '/samples/danish/treasure%20hunt/skattejagt%202.webp',
+        src: '/samples/danish/treasure%20hunt/skattejagt-2.webp',
         alt: 'Skattejagt-opgaveark med et andet tema og kompas-ledetråde nord, syd, øst og vest',
         caption: 'Kompas-sporleg — kompasretninger for avanceret rumligt ræsonnement i indskoling og mellemtrin',
       },
       {
-        src: '/samples/danish/treasure%20hunt/skattejagt%203.webp',
+        src: '/samples/danish/treasure%20hunt/skattejagt-3.webp',
         alt: 'Skattejagt facit med den endelige skattecelle markeret i bleggu på koordinatgitteret',
         caption: 'Automatisk facit — bleggu markering viser hvor skatten er gemt efter sporleget',
       },

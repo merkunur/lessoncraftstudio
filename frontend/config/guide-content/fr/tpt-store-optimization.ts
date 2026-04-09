@@ -196,7 +196,7 @@ const content: GuideContent = {
     heroImage: { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Fiche de mots cachés optimisée pour la visibilité et les ventes sur une boutique Gumroad' },
     samples: [
       { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés optimisé pour la croissance du catalogue d\'une boutique Gumroad', caption: 'Les puzzles de mots cachés sont parmi les ressources Gumroad les plus polyvalentes — créez des variations saisonnières thématiques pour une expansion rapide du catalogue' },
-      { src: '/samples/french/math puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche de puzzle maths pour la différenciation sur une boutique Gumroad', caption: 'Les formats de puzzles mathématiques uniques font face à une concurrence plus faible sur Gumroad que les fiches standard — une stratégie de différenciation pour les catégories encombrées' },
+      { src: '/samples/french/math%20puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche de puzzle maths pour la différenciation sur une boutique Gumroad', caption: 'Les formats de puzzles mathématiques uniques font face à une concurrence plus faible sur Gumroad que les fiches standard — une stratégie de différenciation pour les catégories encombrées' },
       { src: '/samples/french/crossword/mots-croisés-en-images-1.webp', alt: 'Activité de mots croisés pour les ressources de vocabulaire Gumroad', caption: 'Les mots croisés sont des activités de vocabulaire très demandées que les vendeurs recherchent par matière et niveau scolaire sur Gumroad' },
     ],
     youtubeId: '36keBFzJbPo',

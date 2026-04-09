@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/find and count/veo-veo-1.webp',
+      primary: '/samples/spanish/find%20and%20count/veo-veo-1.webp',
       primaryAlt: 'Ficha yo espío busca y encuentra con imágenes dispersas en una cuadrícula, borde de encabezado azul e instrucciones de cuatro tipos de tarea',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/find and count/veo-veo-1.webp',
+        src: '/samples/spanish/find%20and%20count/veo-veo-1.webp',
         alt: 'Ficha yo espío de objeto oculto en modo retrato con imágenes de animales dispersas e instrucciones de tarea',
         caption: 'Modo Objeto Oculto — yo espío clásico con tareas de rodear, cuadrado, tachar y contar',
       },
       {
-        src: '/samples/spanish/find and count/veo-veo-2.webp',
+        src: '/samples/spanish/find%20and%20count/veo-veo-2.webp',
         alt: 'Ficha busque y cuenta yo espío en modo paisaje con diseño de cuadrícula más ancho',
         caption: 'Modo paisaje — cuadrícula más ancha para más columnas y densidad visual variada',
       },
       {
-        src: '/samples/spanish/find and count/veo-veo-1-answer-key.webp',
+        src: '/samples/spanish/find%20and%20count/veo-veo-1-answer-key.webp',
         alt: 'Clave de respuesta busque y cuenta con anotaciones rojas de círculo, cuadrado y cruz sobre los objetos correctos',
         caption: 'Clave de respuesta autogenerada — anotaciones rojas y conteos marcan las respuestas correctas',
       },

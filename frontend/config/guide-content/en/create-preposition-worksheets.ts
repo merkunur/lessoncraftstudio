@@ -192,7 +192,7 @@ const content: GuideContent = {
   },
 
   themeImages: [
-    { src: '/image-library/around%20the%20house/alarm%20clock.webp', alt: 'Alarm Clock — themed educational image', caption: 'Alarm Clock' },
+    { src: '/image-library/around%20the%20house/alarm-clock.webp', alt: 'Alarm Clock — themed educational image', caption: 'Alarm Clock' },
     { src: '/image-library/around%20the%20house/armchair.webp', alt: 'Armchair — themed educational image', caption: 'Armchair' },
     { src: '/image-library/around%20the%20house/bathtub.webp', alt: 'Bathtub — themed educational image', caption: 'Bathtub' },
     { src: '/image-library/around%20the%20house/bed.webp', alt: 'Bed — themed educational image', caption: 'Bed' },

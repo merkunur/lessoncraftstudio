@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Ordsökningspussel med tematiska bildledtrådar som visar ordförrådsord gömda i ett bokstavsrutnät' },
+    heroImage: { src: '/samples/swedish/wordsearch/ordletning-portrait.webp', alt: 'Ordsökningspussel med tematiska bildledtrådar som visar ordförrådsord gömda i ett bokstavsrutnät' },
     samples: [
-      { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Ordsökningspussel med djurtema och bildledtrådar för barn', caption: 'Tematiskt ordsökningspussel i Ordförrådsläge med djurbildledtrådar och konfigurerbar rutnätsstorlek' },
-      { src: '/samples/swedish/wordsearch/ordletning%20landscape.webp', alt: 'Ordsökningsfacit med färgkodad ordmarkering', caption: 'Färgkodat facit där varje gömt ord markeras i en distinkt färg för enkel rättning' },
+      { src: '/samples/swedish/wordsearch/ordletning-portrait.webp', alt: 'Ordsökningspussel med djurtema och bildledtrådar för barn', caption: 'Tematiskt ordsökningspussel i Ordförrådsläge med djurbildledtrådar och konfigurerbar rutnätsstorlek' },
+      { src: '/samples/swedish/wordsearch/ordletning-landscape.webp', alt: 'Ordsökningsfacit med färgkodad ordmarkering', caption: 'Färgkodat facit där varje gömt ord markeras i en distinkt färg för enkel rättning' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hur du skapar ordsökningspussel — Komplett guide',

@@ -185,7 +185,7 @@ const content: GuideContent = {
         caption: 'Las fichas de sopa de letras demuestran la importancia del manejo correcto de caracteres entre idiomas',
       },
       {
-        src: '/samples/spanish/alphabet train/tren-del-alfabeto-1.webp',
+        src: '/samples/spanish/alphabet%20train/tren-del-alfabeto-1.webp',
         alt: 'Ficha de tren del abecedario mostrando generación de letras y caracteres específicos del idioma',
         caption: 'Las fichas de abecedario requieren caracteres específicos del idioma incluyendo diéresis y letras acentuadas',
       },

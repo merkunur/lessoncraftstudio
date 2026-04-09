@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/draw and color/dibuja-y-colorea-1.webp',
+      primary: '/samples/spanish/draw%20and%20color/dibuja-y-colorea-1.webp',
       primaryAlt: 'Ficha de dibujo en cuadrícula con sistema de doble cuadrícula mostrando cuadrícula de práctica y cuadrícula de pistas con tema de contornos en blanco y negro',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/draw and color/dibuja-y-colorea-2.webp',
+        src: '/samples/spanish/draw%20and%20color/dibuja-y-colorea-2.webp',
         alt: 'Ficha de dibujo en cuadrícula con tema animales de contornos en blanco y negro al 25 % de porcentaje de pistas mostrando cuadrícula de práctica y cuadrícula de pistas',
         caption: 'Tema animales al 25 % de pistas — los usuarios reproducen el contorno a partir de pistas dispersas en la cuadrícula',
       },
       {
-        src: '/samples/spanish/draw and color/dibuja-y-colorea-5.webp',
+        src: '/samples/spanish/draw%20and%20color/dibuja-y-colorea-5.webp',
         alt: 'Ficha de dibujo en cuadrícula usando modo simetría espejo horizontal con celdas de pistas reflejadas de izquierda a derecha',
         caption: 'Modo simetría horizontal — las celdas de pistas se reflejan de izquierda a derecha para práctica de razonamiento espacial',
       },
       {
-        src: '/samples/spanish/draw and color/dibuja-y-colorea-10.webp',
+        src: '/samples/spanish/draw%20and%20color/dibuja-y-colorea-10.webp',
         alt: 'Ficha de dibujo en cuadrícula con 10 % de porcentaje de pistas mostrando celdas de referencia mínimas para un desafío de nivel experto',
         caption: 'Desafío 10 % de pistas — celdas de referencia mínimas para reproducción en cuadrícula de nivel experto',
       },

@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk-puslespill med tematisk ordforrådsrutenett som viser skjulte ord for salg på Etsy' },
+    heroImage: { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøk-puslespill med tematisk ordforrådsrutenett som viser skjulte ord for salg på Etsy' },
     samples: [
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Dyretematisk ordsøk-puslespill laget for Etsy digital nedlastingsoppføring', caption: 'Ordsøk-puslespill med dyreordforråd — rutenettbasert format som generator iøynefallende Etsy-oppføringsbilder' },
-      { src: '/samples/norwegian/crossword/bildekryssord%201.webp', alt: 'Kryssord som komplementerer ordsøk-produkter i en Etsy puslespillbutikk', caption: 'Kryssord — naturlig kryssalgskomplement til ordsøk-oppføringer i Etsy-butikken din' },
-      { src: '/samples/norwegian/word%20scramble/bokstavblanding%201.webp', alt: 'Ordblanding-puslespill som viser komplementært format for Etsy puslespillpakker', caption: 'Ordblanding — rask ordforrådsaktivitet som tilfører variasjon til flerformat-pakker' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Dyretematisk ordsøk-puslespill laget for Etsy digital nedlastingsoppføring', caption: 'Ordsøk-puslespill med dyreordforråd — rutenettbasert format som generator iøynefallende Etsy-oppføringsbilder' },
+      { src: '/samples/norwegian/crossword/bildekryssord-1.webp', alt: 'Kryssord som komplementerer ordsøk-produkter i en Etsy puslespillbutikk', caption: 'Kryssord — naturlig kryssalgskomplement til ordsøk-oppføringer i Etsy-butikken din' },
+      { src: '/samples/norwegian/word%20scramble/bokstavblanding-1.webp', alt: 'Ordblanding-puslespill som viser komplementært format for Etsy puslespillpakker', caption: 'Ordblanding — rask ordforrådsaktivitet som tilfører variasjon til flerformat-pakker' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Slik lager du ordsøk-puslespill for salg på Etsy — trinn-for-trinn veiledning',

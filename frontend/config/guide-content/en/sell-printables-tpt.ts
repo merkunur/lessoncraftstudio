@@ -177,9 +177,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/math-worksheet-10.webp', alt: 'Math worksheet generated for Teachers Pay Teachers store listing' },
+    heroImage: { src: '/samples/english/math%20worksheet/math-worksheet-10.webp', alt: 'Math worksheet generated for Teachers Pay Teachers store listing' },
     samples: [
-      { src: '/samples/english/math worksheet/math-worksheet-11.webp', alt: 'Addition worksheet ready for TPT listing with answer key', caption: 'A professional math worksheet exported at 300 DPI for TPT product listing' },
+      { src: '/samples/english/math%20worksheet/math-worksheet-11.webp', alt: 'Addition worksheet ready for TPT listing with answer key', caption: 'A professional math worksheet exported at 300 DPI for TPT product listing' },
       { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle formatted for TPT educational marketplace', caption: 'Themed word search puzzle ready for TPT listing with automatic answer key' },
     ],
     youtubeId: '36keBFzJbPo',

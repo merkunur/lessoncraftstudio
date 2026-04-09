@@ -226,12 +226,12 @@ const content: ToolContent = {
         caption: 'Tre övningslägen på ett arbetsblad — Spåra, Tonande Spårning och Guidad Kopiering med per-rad-oberoende',
       },
       {
-        src: '/samples/swedish/writing/writing%20beginning%20letter.webp',
+        src: '/samples/swedish/writing/writing-beginning-letter.webp',
         alt: 'Skrivövnings arbetsblad i spåra-läge med tryck pil-typsnitt som visar numrerade streckordningsriktningar',
         caption: 'Pilguidad streckordning — numrerade riktningspilar visar exakt bokstavsformationssekvens',
       },
       {
-        src: '/samples/swedish/writing/writing%20custom.webp',
+        src: '/samples/swedish/writing/writing-custom.webp',
         alt: 'Skrivövnings arbetsblad i tonande spårning-läge med bokstäver som progressivt tonar ut över varje rad',
         caption: 'Tonande Spårning-läge — bokstäver tonar progressivt ut för att bygga självständigt skrivförtroende',
       },

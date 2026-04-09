@@ -217,17 +217,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%201.webp',
+      primary: '/samples/dutch/find%20and%20count/ik-zie,-ik-zie-1.webp',
       primaryAlt: 'Ik zie ik zie zoek-en-tel werkblad met verstrooide afbeeldingen op een instelbaar raster met blauw koptekstkader en vier taaktype-instructies voor omcirkel vierkant doorstrepen en tel',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%202.webp',
+        src: '/samples/dutch/find%20and%20count/ik-zie,-ik-zie-2.webp',
         alt: 'Ik zie ik zie verborgen voorwerp werkblad met verstrooide thema-afbeeldingen tussen afleidingsobjecten en gemengde taaktypen',
         caption: 'Verborgen Voorwerp modus — klassiek ik zie ik zie met omcirkel-, vierkant-, doorstreep- en teltaken op een verstrooide afbeeldingsraster',
       },
       {
-        src: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%201%20answer-key.webp',
+        src: '/samples/dutch/find%20and%20count/ik-zie,-ik-zie-1-answer-key.webp',
         alt: 'Zoek-en-tel antwoordblad met rode cirkel-, vierkant- en kruisannotaties over correcte doelobjecten en telweergaven',
         caption: 'Automatisch gegenereerd antwoordblad — rode annotaties markeren cirkels, vierkanten, kruisen en teltotalen voor elk doelobject',
       },

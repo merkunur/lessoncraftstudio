@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%201.webp', alt: 'Aftrekwerkblad met doorgestreepte thematische afbeeldingen die wegneemoefeningen voor kinderen tonen' },
+    heroImage: { src: '/samples/dutch/subtraction/aftrekken-is-leuk-1.webp', alt: 'Aftrekwerkblad met doorgestreepte thematische afbeeldingen die wegneemoefeningen voor kinderen tonen' },
     samples: [
-      { src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%201.webp', alt: 'Afbeeldingsgebaseerd aftrekwerkblad met doorgestreepte dieren voor groep 3', caption: 'Groep 3 aftrekwerkblad in de Doorstrepen oefenmodus met thematische afbeeldingen' },
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optellen werkblad als voorbeeld van bundelmogelijkheid met aftrekken', caption: 'Combineer optellen en aftrekken werkbladen voor waardevolle rekenbundels' },
-      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp', alt: 'Rekenpuzzel werkblad als aanvulling op aftrekwerkbladen', caption: 'Breid je rekencatalogus uit met puzzelformaat variaties' },
+      { src: '/samples/dutch/subtraction/aftrekken-is-leuk-1.webp', alt: 'Afbeeldingsgebaseerd aftrekwerkblad met doorgestreepte dieren voor groep 3', caption: 'Groep 3 aftrekwerkblad in de Doorstrepen oefenmodus met thematische afbeeldingen' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optellen werkblad als voorbeeld van bundelmogelijkheid met aftrekken', caption: 'Combineer optellen en aftrekken werkbladen voor waardevolle rekenbundels' },
+      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels-1.webp', alt: 'Rekenpuzzel werkblad als aanvulling op aftrekwerkbladen', caption: 'Breid je rekencatalogus uit met puzzelformaat variaties' },
     ],
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'Hoe Maak Je Aftrekwerkbladen — Complete Handleiding',

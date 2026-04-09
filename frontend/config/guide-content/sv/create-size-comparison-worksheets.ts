@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/big%20small/stort%20och%20litet%201.jpeg', alt: 'Storleksjämförelsearbetsblad med tematiska bilder i olika storlekar' },
+    heroImage: { src: '/samples/swedish/big%20small/stort-och-litet-1.jpeg', alt: 'Storleksjämförelsearbetsblad med tematiska bilder i olika storlekar' },
     samples: [
-      { src: '/samples/swedish/big%20small/stort%20och%20litet%201.jpeg', alt: 'Stort och litet arbetsblad med tematiska bilder och frågetyper', caption: 'Storleksjämförelsearbetsblad med tematiska bilder och autogenererade svarsindikatorer' },
-      { src: '/samples/swedish/big%20small/stort%20och%20litet%202.jpeg', alt: 'Ringa in den stora arbetsblad med identiska djurbilder i olika storlekar', caption: 'Ringa in den stora-läge med tematiska bilder för visuell storleksdiskrimineringsövning' },
+      { src: '/samples/swedish/big%20small/stort-och-litet-1.jpeg', alt: 'Stort och litet arbetsblad med tematiska bilder och frågetyper', caption: 'Storleksjämförelsearbetsblad med tematiska bilder och autogenererade svarsindikatorer' },
+      { src: '/samples/swedish/big%20small/stort-och-litet-2.jpeg', alt: 'Ringa in den stora arbetsblad med identiska djurbilder i olika storlekar', caption: 'Ringa in den stora-läge med tematiska bilder för visuell storleksdiskrimineringsövning' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'Hur du skapar storleksjämförelsearbetsblad — Komplett guide',

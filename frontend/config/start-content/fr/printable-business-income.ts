@@ -205,9 +205,9 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp', alt: 'Fiche de maths démontrant la qualité de sortie professionnelle des générateurs de fiches' },
+    heroImage: { src: '/samples/french/math%20worksheet/feuille-de-mathématique-1.webp', alt: 'Fiche de maths démontrant la qualité de sortie professionnelle des générateurs de fiches' },
     samples: [
-      { src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp', alt: 'Fiche de maths montrant une mise en page professionnelle et une qualité d\'impression 300 DPI', caption: 'Fiche de maths — Générateur de revenus polyvalent' },
+      { src: '/samples/french/math%20worksheet/feuille-de-mathématique-1.webp', alt: 'Fiche de maths montrant une mise en page professionnelle et une qualité d\'impression 300 DPI', caption: 'Fiche de maths — Générateur de revenus polyvalent' },
       { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés pour vente sur Etsy et Amazon KDP', caption: 'Mots cachés — Catégorie de puzzles la plus vendue' },
       { src: '/samples/french/coloring/coloring-portrait-1.webp', alt: 'Page de coloriage pour publication de livres d\'activités KDP', caption: 'Coloriage — Catégorie KDP à fort volume' },
       { src: '/samples/french/sudoku/sudoku-worksheet.webp', alt: 'Puzzle Sudoku avec attrait international universel', caption: 'Sudoku — Attrait universel sur tous les marchés' },

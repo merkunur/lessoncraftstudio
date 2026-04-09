@@ -190,11 +190,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optelwerkblad met op afbeeldingen gebaseerde rekenopgaven geschikt voor Amazon KDP activiteitenboek binnenpagina\'s' },
+    heroImage: { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optelwerkblad met op afbeeldingen gebaseerde rekenopgaven geschikt voor Amazon KDP activiteitenboek binnenpagina\'s' },
     samples: [
-      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Dierenthema optelwerkblad opgemaakt voor KDP reken activiteitenboek', caption: 'Optelwerkblad met dierenthema — op afbeeldingen gebaseerde rekenopgaven die boeiende KDP activiteitenboekpagina\'s creëren' },
-      { src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%201.webp', alt: 'Aftrekwerkblad voor multi-bewerking KDP rekenwerkboek', caption: 'Aftrekwerkblad — gecombineerd met optelpagina\'s voor uitgebreide reken activiteitenboeken op Amazon' },
-      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp', alt: 'Rekenpuzzel rasterwerkblad dat variatie toevoegt aan KDP activiteitenboeken', caption: 'Rekenpuzzelraster — voegt boeiende variatie toe aan activiteitenboekpagina\'s voorbij standaard werkbladdrills' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Dierenthema optelwerkblad opgemaakt voor KDP reken activiteitenboek', caption: 'Optelwerkblad met dierenthema — op afbeeldingen gebaseerde rekenopgaven die boeiende KDP activiteitenboekpagina\'s creëren' },
+      { src: '/samples/dutch/subtraction/aftrekken-is-leuk-1.webp', alt: 'Aftrekwerkblad voor multi-bewerking KDP rekenwerkboek', caption: 'Aftrekwerkblad — gecombineerd met optelpagina\'s voor uitgebreide reken activiteitenboeken op Amazon' },
+      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels-1.webp', alt: 'Rekenpuzzel rasterwerkblad dat variatie toevoegt aan KDP activiteitenboeken', caption: 'Rekenpuzzelraster — voegt boeiende variatie toe aan activiteitenboekpagina\'s voorbij standaard werkbladdrills' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hoe Rekenwerkbladen Maken voor Amazon KDP Activiteitenboeken — Stapsgewijze Tutorial',

@@ -225,7 +225,7 @@ const content: StartContent = {
     samples: [
       { src: '/samples/portuguese/sudoku/sudoku-de-imagens-2.webp', alt: 'Atividade de puzzle de Sudoku para interior de livro de atividades KDP', caption: 'Sudoku — Categoria Top de Puzzles no KDP' },
       { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Puzzle de sopa de letras para livro de atividades na Amazon KDP', caption: 'Sopa de Letras — Categoria de Mais Vendidos no KDP' },
-      { src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-1.webp', alt: 'Atividade de puzzle de matemática para interior de caderno KDP', caption: 'Puzzle de Matemática — Nicho Permanente no KDP' },
+      { src: '/samples/portuguese/math%20puzzle/quebra-cabeças-matemático-1.webp', alt: 'Atividade de puzzle de matemática para interior de caderno KDP', caption: 'Puzzle de Matemática — Nicho Permanente no KDP' },
       { src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp', alt: 'Atividade de puzzle de palavras cruzadas para livro de atividades KDP', caption: 'Palavras Cruzadas — Formato Clássico de Livro de Atividades' },
     ],
     youtubeId: 'bqVioFbkYbA',

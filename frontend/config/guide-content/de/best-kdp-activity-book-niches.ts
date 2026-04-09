@@ -198,7 +198,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Ausmalbuch-Inhalt als Beispiel für eine der größten KDP-Aktivitätsbuch-Nischen', caption: 'Ausmalbücher — eine riesige KDP-Nische, die Kinder, Erwachsene und thematische Ausgaben mit starker Ganzjahresnachfrage umfasst' },
       { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuchrätsel als Beispiel für thematische Unter-Nischen-Ausrichtung innerhalb der Rätselkategorie', caption: 'Thematische Wortsuche — Unter-Nischen-Ausrichtung durch Tier-, Reise- und Feiertagsthemen reduziert Wettbewerb bei gleichbleibend starker Nachfrage' },
-      { src: '/samples/german/math worksheet/worksheet.webp', alt: 'Mathe-Arbeitsblatt zeigt Zielgruppen-Segmentierung nach Altersgruppe für KDP-Nischenstrategie', caption: 'Mathe-Arbeitshefte — Zielgruppen-Segmentierung nach Altersgruppe und Rechenart schafft Dutzende eigenständige Unter-Nischen aus einer Kategorie' },
+      { src: '/samples/german/math%20worksheet/worksheet.webp', alt: 'Mathe-Arbeitsblatt zeigt Zielgruppen-Segmentierung nach Altersgruppe für KDP-Nischenstrategie', caption: 'Mathe-Arbeitshefte — Zielgruppen-Segmentierung nach Altersgruppe und Rechenart schafft Dutzende eigenständige Unter-Nischen aus einer Kategorie' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Mathe-Arbeitsblätter für KDP-Aktivitätsbücher erstellen — Tutorial zur Nischen-Inhaltserstellung',

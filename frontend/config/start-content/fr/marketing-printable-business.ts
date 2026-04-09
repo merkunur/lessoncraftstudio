@@ -210,9 +210,9 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/bingo/Loto d\'images-1.webp', alt: 'Carte de bingo démontrant un design de produit imprimable hautement partageable' },
+    heroImage: { src: '/samples/french/bingo/loto-d\'images-1.webp', alt: 'Carte de bingo démontrant un design de produit imprimable hautement partageable' },
     samples: [
-      { src: '/samples/french/bingo/Loto d\'images-1.webp', alt: 'Carte de bingo montrant le potentiel marketing événementiel pour fêtes et groupes', caption: 'Bingo — Hautement partageable pour événements et fêtes' },
+      { src: '/samples/french/bingo/loto-d\'images-1.webp', alt: 'Carte de bingo montrant le potentiel marketing événementiel pour fêtes et groupes', caption: 'Bingo — Hautement partageable pour événements et fêtes' },
       { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle mots cachés démontrant un fort potentiel SEO de marketplace', caption: 'Mots cachés — Type de puzzle le plus recherché' },
       { src: '/samples/french/coloring/coloring-portrait-1.webp', alt: 'Page de coloriage montrant l\'attrait visuel pour le marketing Pinterest', caption: 'Coloriage — Contenu visuel prêt pour Pinterest' },
       { src: '/samples/french/matching/trouve-les-paires-1.webp', alt: 'Fiche d\'association montrant la polyvalence du marketing saisonnier thématique', caption: 'Association — Marketing saisonnier polyvalent' },

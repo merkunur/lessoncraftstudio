@@ -267,22 +267,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/word scramble/buchstabensala-1.webp',
+      primary: '/samples/german/word%20scramble/buchstabensala-1.webp',
       primaryAlt: 'Buchstabensalat-Arbeitsblatt mit Bild-Hinweisen und gemischten Buchstabenplättchen für deutsche Buchstaben-Umstell-Rechtschreibrätsel',
     },
     sampleGallery: [
       {
-        src: '/samples/german/word scramble/buchstabensala-1.webp',
+        src: '/samples/german/word%20scramble/buchstabensala-1.webp',
         alt: 'Buchstabensalat-Arbeitsblatt mit Bild-Hinweisen auf Stufe Leicht mit der Hälfte der Buchstaben vorplatziert',
         caption: 'Schwierigkeitsstufe Leicht — die Hälfte der Buchstaben vorplatziert als Hinweise für Leseanfänger',
       },
       {
-        src: '/samples/german/word scramble/buchstabensala-2.webp',
+        src: '/samples/german/word%20scramble/buchstabensala-2.webp',
         alt: 'Buchstabensalat-Arbeitsblatt mit Vokal-Konsonanten-Farbcodierung und farbigen Buchstabenplättchen',
         caption: 'Farbcodierungsmodus — Vokale und Konsonanten in verschiedenen Farben für phonologisches Bewusstsein',
       },
       {
-        src: '/samples/german/word scramble/buchstabensala-1-answer-key.webp',
+        src: '/samples/german/word%20scramble/buchstabensala-1-answer-key.webp',
         alt: 'Buchstabensalat-Lösungsschlüssel mit allen Buchstaben korrekt entwirrt',
         caption: 'Lösungsschlüssel — korrekt entworrene Wörter für einfache Korrektur und Selbstkontrolle',
       },

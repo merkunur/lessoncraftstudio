@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/cryptogram/plaatjes%20cryptogram%201.webp',
+      primary: '/samples/dutch/cryptogram/plaatjes-cryptogram-1.webp',
       primaryAlt: 'Cryptogram werkblad met beeldcijfer dat afbeeldingen aan alfabetletters koppelt om een geheime zin te coderen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/cryptogram/plaatjes%20cryptogram%201.webp',
+        src: '/samples/dutch/cryptogram/plaatjes-cryptogram-1.webp',
         alt: 'Cryptogram werkblad met thematische afbeeldingen die letters vervangen in een gecodeerde zin',
         caption: 'Plaatjes cryptogram puzzel — ontcijfer de geheime boodschap door te achterhalen welk plaatje welke letter voorstelt',
       },
       {
-        src: '/samples/dutch/cryptogram/plaatjes%20cryptogram%202.webp',
+        src: '/samples/dutch/cryptogram/plaatjes-cryptogram-2.webp',
         alt: 'Cryptogram werkblad met dierenthema en Letters Onthullen hints weergegeven',
         caption: 'Dierenthema met Letters Onthullen — vooraf opgeloste koppelingen bieden ondersteuning voor beginners',
       },
       {
-        src: '/samples/dutch/cryptogram/plaatjes%20cryptogram%201%20answer-key.webp',
+        src: '/samples/dutch/cryptogram/plaatjes-cryptogram-1-answer-key.webp',
         alt: 'Cryptogram antwoordblad met complete letterlegende die alle alfabet-naar-afbeelding koppelingen toont',
         caption: 'Antwoordblad met letterlegende — elke alfabetletter gekoppeld aan de toegewezen afbeelding in alfabetische volgorde',
       },

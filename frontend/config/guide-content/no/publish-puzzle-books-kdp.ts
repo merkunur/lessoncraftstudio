@@ -195,11 +195,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk puslespillarbeidsark som viser tematisk ordrutenett egnet for Amazon KDP puslespillbok-interiørsider' },
+    heroImage: { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsøk puslespillarbeidsark som viser tematisk ordrutenett egnet for Amazon KDP puslespillbok-interiørsider' },
     samples: [
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Dyretematisk ordsøkpuslespill formatert for KDP puslespillbok', caption: 'Ordsøk med dyretema — den mest populære puslespilltypen for KDP-bøker rettet mot både voksne og barns markeder' },
-      { src: '/samples/norwegian/crossword/bildekryssord%201.webp', alt: 'Kryssordpuslespill med tematiske ledetråder for KDP puslespillbok', caption: 'Kryssordpuslespill — tilfører substansiell engasjementsverdi til puslespillbøker og varierte samlinger på Amazon' },
-      { src: '/samples/norwegian/sudoku/bilde-sudoku%202.webp', alt: 'Bildesudoku-puslespill for barns variert puslespillbok på KDP', caption: 'Bildesudoku — visuelle logikkpuslespill som gjør barns varierte puslespillbøker mer mangfoldige og engasjerende' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Dyretematisk ordsøkpuslespill formatert for KDP puslespillbok', caption: 'Ordsøk med dyretema — den mest populære puslespilltypen for KDP-bøker rettet mot både voksne og barns markeder' },
+      { src: '/samples/norwegian/crossword/bildekryssord-1.webp', alt: 'Kryssordpuslespill med tematiske ledetråder for KDP puslespillbok', caption: 'Kryssordpuslespill — tilfører substansiell engasjementsverdi til puslespillbøker og varierte samlinger på Amazon' },
+      { src: '/samples/norwegian/sudoku/bilde-sudoku-2.webp', alt: 'Bildesudoku-puslespill for barns variert puslespillbok på KDP', caption: 'Bildesudoku — visuelle logikkpuslespill som gjør barns varierte puslespillbøker mer mangfoldige og engasjerende' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Slik lager du ordsøkpuslespill for Amazon KDP puslespillbøker — trinn-for-trinn veiledning',

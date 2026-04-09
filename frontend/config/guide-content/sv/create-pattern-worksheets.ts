@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/pattern%20worksheet/m%C3%B6nster%20arbetsblad%201.jpeg', alt: 'Mönsterigenkänningsarbetsblad med tematiska bilder och mönsterkompletteringsövningar' },
+    heroImage: { src: '/samples/swedish/pattern%20worksheet/mönster-arbetsblad-1.jpeg', alt: 'Mönsterigenkänningsarbetsblad med tematiska bilder och mönsterkompletteringsövningar' },
     samples: [
-      { src: '/samples/swedish/pattern%20worksheet/m%C3%B6nster%20arbetsblad%201.jpeg', alt: 'Mönsterigenkänningsarbetsblad med djurtema som visar AB och ABC mönsterövningar', caption: 'Mönsterigenkänningsarbetsblad med tematiska bilder och flera mönstertyper med automatiskt facit' },
-      { src: '/samples/swedish/pattern%20worksheet/m%C3%B6nster%20arbetsblad%202.jpeg', alt: 'Mönsterarbetsblad facit som visar färdigställda mönster', caption: 'Automatiskt facit genereras tillsammans med varje mönsterarbetsblad för snabb rättning' },
+      { src: '/samples/swedish/pattern%20worksheet/mönster-arbetsblad-1.jpeg', alt: 'Mönsterigenkänningsarbetsblad med djurtema som visar AB och ABC mönsterövningar', caption: 'Mönsterigenkänningsarbetsblad med tematiska bilder och flera mönstertyper med automatiskt facit' },
+      { src: '/samples/swedish/pattern%20worksheet/mönster-arbetsblad-2.jpeg', alt: 'Mönsterarbetsblad facit som visar färdigställda mönster', caption: 'Automatiskt facit genereras tillsammans med varje mönsterarbetsblad för snabb rättning' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'Hur du skapar mönsterigenkänningsarbetsblad — Komplett guide',

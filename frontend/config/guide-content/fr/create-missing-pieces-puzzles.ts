@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/missing pieces/pièces-manquantes-1.webp', alt: 'Fiche puzzle jigsaw avec trous découpés dans une illustration colorée et options de solution numérotées incluant des distracteurs en dessous avec en-tête turquoise Missing Pieces et cadrage double bordure bleu sarcelle et rose' },
+    heroImage: { src: '/samples/french/missing%20pieces/pièces-manquantes-1.webp', alt: 'Fiche puzzle jigsaw avec trous découpés dans une illustration colorée et options de solution numérotées incluant des distracteurs en dessous avec en-tête turquoise Missing Pieces et cadrage double bordure bleu sarcelle et rose' },
     samples: [
-      { src: '/samples/french/missing pieces/pièces-manquantes-1.webp', alt: 'Fiche puzzle pièces manquantes montrant une image avec des trous découpés et des options de solution numérotées affichées en dessous avec en-tête à double bordure', caption: 'Fiche puzzle jigsaw avec pièces extraites intelligemment et options de solution numérotées incluant des distracteurs' },
-      { src: '/samples/french/missing pieces/pièces-manquantes-1-answer-key.webp', alt: 'Corrigé auto-généré avec étiquettes numérotées surlignées en jaune placées à l\'intérieur de chaque trou montrant l\'index correct de l\'option', caption: 'Corrigé auto-généré avec étiquettes surlignées en jaune montrant l\'option correcte pour chaque trou' },
+      { src: '/samples/french/missing%20pieces/pièces-manquantes-1.webp', alt: 'Fiche puzzle pièces manquantes montrant une image avec des trous découpés et des options de solution numérotées affichées en dessous avec en-tête à double bordure', caption: 'Fiche puzzle jigsaw avec pièces extraites intelligemment et options de solution numérotées incluant des distracteurs' },
+      { src: '/samples/french/missing%20pieces/pièces-manquantes-1-answer-key.webp', alt: 'Corrigé auto-généré avec étiquettes numérotées surlignées en jaune placées à l\'intérieur de chaque trou montrant l\'index correct de l\'option', caption: 'Corrigé auto-généré avec étiquettes surlignées en jaune montrant l\'option correcte pour chaque trou' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Comment créer des puzzles pièces manquantes — Tutoriel complet',
@@ -203,7 +203,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Taureau — image éducative thématique', caption: 'Taureau' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Veau — image éducative thématique', caption: 'Veau' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Chat — image éducative thématique', caption: 'Chat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Chat 2 — image éducative thématique', caption: 'Chat 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Chat 2 — image éducative thématique', caption: 'Chat 2' },
   ],
 };
 

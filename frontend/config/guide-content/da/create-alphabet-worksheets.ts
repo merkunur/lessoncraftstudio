@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/alphabet%20train/alfabettog%201.webp', alt: 'Alfabettog-arbejdsark med 11 farverige togvogne med bogstaver og matchende ledetrådbilleder' },
+    heroImage: { src: '/samples/danish/alphabet%20train/alfabettog-1.webp', alt: 'Alfabettog-arbejdsark med 11 farverige togvogne med bogstaver og matchende ledetrådbilleder' },
     samples: [
-      { src: '/samples/danish/alphabet%20train/alfabettog%201.webp', alt: 'Alfabettog — dansk eksempelarbejdsark', caption: 'Alfabettog eksempel 1' },
-      { src: '/samples/danish/alphabet%20train/alfabettog%202.webp', alt: 'Alfabettog — dansk eksempel 2', caption: 'Alfabettog eksempel 2' },
-      { src: '/samples/danish/alphabet%20train/alfabettog%203.webp', alt: 'Alfabettog — dansk eksempel 3', caption: 'Alfabettog eksempel 3' },
+      { src: '/samples/danish/alphabet%20train/alfabettog-1.webp', alt: 'Alfabettog — dansk eksempelarbejdsark', caption: 'Alfabettog eksempel 1' },
+      { src: '/samples/danish/alphabet%20train/alfabettog-2.webp', alt: 'Alfabettog — dansk eksempel 2', caption: 'Alfabettog eksempel 2' },
+      { src: '/samples/danish/alphabet%20train/alfabettog-3.webp', alt: 'Alfabettog — dansk eksempel 3', caption: 'Alfabettog eksempel 3' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Sådan generator du alfabettog-arbejdsark — Komplet guide',
@@ -204,7 +204,7 @@ const content: GuideContent = {
     { src: '/image-library/farm%20animals/bull.webp', alt: 'Tyr — tematisk pædagogisk billede', caption: 'Tyr' },
     { src: '/image-library/farm%20animals/calf.webp', alt: 'Kalv — tematisk pædagogisk billede', caption: 'Kalv' },
     { src: '/image-library/farm%20animals/cat.webp', alt: 'Kat — tematisk pædagogisk billede', caption: 'Kat' },
-    { src: '/image-library/farm%20animals/cat%202.webp', alt: 'Kat 2 — tematisk pædagogisk billede', caption: 'Kat 2' },
+    { src: '/image-library/farm%20animals/cat-2.webp', alt: 'Kat 2 — tematisk pædagogisk billede', caption: 'Kat 2' },
   ],
 };
 

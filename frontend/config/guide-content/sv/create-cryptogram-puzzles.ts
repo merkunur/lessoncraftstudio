@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/cryptogram/Bildkryptogram%201.jpeg', alt: 'Kryptogram-arbetsblad med bildchiffer som visar tematiska bilder mappade till alfabetsbokstäver' },
+    heroImage: { src: '/samples/swedish/cryptogram/bildkryptogram-1.jpeg', alt: 'Kryptogram-arbetsblad med bildchiffer som visar tematiska bilder mappade till alfabetsbokstäver' },
     samples: [
-      { src: '/samples/swedish/cryptogram/Bildkryptogram%201.jpeg', alt: 'Kryptogram med tematiska bilder som ersätter bokstäver i en kodad hemlig fras', caption: 'Bildchifferpussel — avkoda det hemliga meddelandet genom att identifiera vilken bild representerar vilken bokstav' },
-      { src: '/samples/swedish/cryptogram/Bildkryptogram%202.jpeg', alt: 'Kryptogram med tematiska bilder och Bokstäver att avslöja-ledtrådar', caption: 'Tematiskt chiffer med Bokstäver att avslöja — förlösta mappningar ger stöd för nybörjare' },
-      { src: '/samples/swedish/cryptogram/Bildkryptogram%20answer_key.jpeg', alt: 'Kryptogram facit med komplett bokstavslegend', caption: 'Bokstavslegend-facit — varje alfabetsbokstav parad med sin tilldelade bild för definitiv lösningsreferens' },
+      { src: '/samples/swedish/cryptogram/bildkryptogram-1.jpeg', alt: 'Kryptogram med tematiska bilder som ersätter bokstäver i en kodad hemlig fras', caption: 'Bildchifferpussel — avkoda det hemliga meddelandet genom att identifiera vilken bild representerar vilken bokstav' },
+      { src: '/samples/swedish/cryptogram/bildkryptogram-2.jpeg', alt: 'Kryptogram med tematiska bilder och Bokstäver att avslöja-ledtrådar', caption: 'Tematiskt chiffer med Bokstäver att avslöja — förlösta mappningar ger stöd för nybörjare' },
+      { src: '/samples/swedish/cryptogram/bildkryptogram-answer-key.jpeg', alt: 'Kryptogram facit med komplett bokstavslegend', caption: 'Bokstavslegend-facit — varje alfabetsbokstav parad med sin tilldelade bild för definitiv lösningsreferens' },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: 'Hur du skapar bildkryptogram-chifferpussel — Steg-för-steg-guide',

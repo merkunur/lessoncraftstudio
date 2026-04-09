@@ -112,10 +112,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsoek-puslespill med tematiske bildeledetrader som viser vokabularord skjult i et bokstavrutenett' },
+    heroImage: { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsoek-puslespill med tematiske bildeledetrader som viser vokabularord skjult i et bokstavrutenett' },
     samples: [
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsoek-puslespill med dyretema bildeledetrader for barn', caption: 'Tematisk ordsoek-puslespill med Vokabularmodus og dyrebildeledetrader' },
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsoek-fasit med fargekodede ordmarkeringer', caption: 'Fargekodet fasit der hvert skjult ord er fremhevet i en distinkt farge' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsoek-puslespill med dyretema bildeledetrader for barn', caption: 'Tematisk ordsoek-puslespill med Vokabularmodus og dyrebildeledetrader' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsoek-fasit med fargekodede ordmarkeringer', caption: 'Fargekodet fasit der hvert skjult ord er fremhevet i en distinkt farge' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hvordan lage ordsoek-puslespill — komplett veiledning',

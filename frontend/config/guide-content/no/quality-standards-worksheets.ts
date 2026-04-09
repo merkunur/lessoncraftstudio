@@ -36,11 +36,11 @@ const content: GuideContent = {
     { appId: 'addition', title: 'Addisjonsarbeidsark-generator', description: 'Produserer mattearbeidsark med verifiserte fasiter — innholdsnoyaktighet garantert gjennom automatisk beregning.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsoek-arbeidsark som demonstrerer profesjonelle kvalitetsstandarder med rent layout' },
+    heroImage: { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsoek-arbeidsark som demonstrerer profesjonelle kvalitetsstandarder med rent layout' },
     samples: [
-      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsoek med profesjonell utskriftsklar formatering og presis rutenettjustering', caption: 'Profesjonelt ordsoek-output demonstrerer rent layout, lesbar typografi og presis rutenettjustering' },
-      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Addisjonsarbeidsark som viser kvalitetsstandarder for talljustering og fasitnoyaktighet', caption: 'Mattearbeidsark krever presis justering, tydelig typografi og verifiserte fasiter for profesjonell kvalitet' },
-      { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside som demonstrerer visuell kvalitet med konsistent linjetykkelse', caption: 'Visuelle produkter krever konsistent linjetykkelse, gratoneoptimalisering og profesjonell utskriftskvalitet' },
+      { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Ordsoek med profesjonell utskriftsklar formatering og presis rutenettjustering', caption: 'Profesjonelt ordsoek-output demonstrerer rent layout, lesbar typografi og presis rutenettjustering' },
+      { src: '/samples/norwegian/addition/gøy-addisjon-1.webp', alt: 'Addisjonsarbeidsark som viser kvalitetsstandarder for talljustering og fasitnoyaktighet', caption: 'Mattearbeidsark krever presis justering, tydelig typografi og verifiserte fasiter for profesjonell kvalitet' },
+      { src: '/samples/norwegian/coloring/coloring-portrait-1.webp', alt: 'Fargeleggingsside som demonstrerer visuell kvalitet med konsistent linjetykkelse', caption: 'Visuelle produkter krever konsistent linjetykkelse, gratoneoptimalisering og profesjonell utskriftskvalitet' },
     ],
   },
 };

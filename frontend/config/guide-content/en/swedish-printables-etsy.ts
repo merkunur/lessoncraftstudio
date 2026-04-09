@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Swedish word search puzzle generated with LessonCraftStudio showing Swedish vocabulary with special characters' },
+    heroImage: { src: '/samples/swedish/wordsearch/worksheet-1.webp', alt: 'Swedish word search puzzle generated with LessonCraftStudio showing Swedish vocabulary with special characters' },
     samples: [
-      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Swedish word search worksheet ready for Etsy listing', caption: 'A themed Swedish word search puzzle with native vocabulary and automatic answer key' },
-      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Swedish crossword puzzle with image clues', caption: 'Swedish crossword puzzle using image-based clues with correct special character handling' },
+      { src: '/samples/swedish/wordsearch/worksheet-2.webp', alt: 'Swedish word search worksheet ready for Etsy listing', caption: 'A themed Swedish word search puzzle with native vocabulary and automatic answer key' },
+      { src: '/samples/swedish/crossword/bildkorsord-1.webp', alt: 'Swedish crossword puzzle with image clues', caption: 'Swedish crossword puzzle using image-based clues with correct special character handling' },
     ],
   },
 

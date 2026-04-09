@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Dutch word search puzzle generated with LessonCraftStudio showing Dutch vocabulary in themed grid' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Dutch word search puzzle generated with LessonCraftStudio showing Dutch vocabulary in themed grid' },
     samples: [
-      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Dutch word search worksheet ready for Etsy listing', caption: 'A themed Dutch word search puzzle with native vocabulary and automatic answer key' },
-      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Dutch crossword puzzle with image clues', caption: 'Dutch crossword puzzle using image-based clues for clear visual communication' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-2.webp', alt: 'Dutch word search worksheet ready for Etsy listing', caption: 'A themed Dutch word search puzzle with native vocabulary and automatic answer key' },
+      { src: '/samples/dutch/crossword/plaatjes-kruiswoord-1.webp', alt: 'Dutch crossword puzzle with image clues', caption: 'Dutch crossword puzzle using image-based clues for clear visual communication' },
     ],
   },
 

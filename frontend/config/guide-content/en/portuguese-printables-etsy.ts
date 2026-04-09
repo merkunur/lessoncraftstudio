@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Portuguese word search puzzle (caca-palavras) with themed vocabulary for Etsy and Amazon BR' },
+    heroImage: { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Portuguese word search puzzle (caca-palavras) with themed vocabulary for Etsy and Amazon BR' },
     samples: [
-      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Portuguese word search puzzle showing themed Portuguese vocabulary in grid', caption: 'A Portuguese caca-palavras generated with native vocabulary including accented characters, tildes, and cedillas' },
-      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Portuguese crossword puzzle with picture clues', caption: 'Picture crossword (palavras cruzadas) with Portuguese answer words -- image clues make creation accessible to all sellers' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-2.webp', alt: 'Portuguese word search puzzle showing themed Portuguese vocabulary in grid', caption: 'A Portuguese caca-palavras generated with native vocabulary including accented characters, tildes, and cedillas' },
+      { src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp', alt: 'Portuguese crossword puzzle with picture clues', caption: 'Picture crossword (palavras cruzadas) with Portuguese answer words -- image clues make creation accessible to all sellers' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

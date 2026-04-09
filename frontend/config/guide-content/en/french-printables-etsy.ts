@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'French word search puzzle with accented characters and themed vocabulary for Etsy and Amazon FR' },
+    heroImage: { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'French word search puzzle with accented characters and themed vocabulary for Etsy and Amazon FR' },
     samples: [
-      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'French word search puzzle showing themed French vocabulary with accents in grid', caption: 'A French word search puzzle (mots meles) generated with native vocabulary including properly accented characters' },
-      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'French crossword puzzle with picture clues', caption: 'Picture crossword (mots croises) with French answer words -- image clues make creation accessible to non-French speakers' },
+      { src: '/samples/french/wordsearch/worksheet.webp', alt: 'French word search puzzle showing themed French vocabulary with accents in grid', caption: 'A French word search puzzle (mots meles) generated with native vocabulary including properly accented characters' },
+      { src: '/samples/french/crossword/crossword-worksheet.webp', alt: 'French crossword puzzle with picture clues', caption: 'Picture crossword (mots croises) with French answer words -- image clues make creation accessible to non-French speakers' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

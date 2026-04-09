@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Spanish word search puzzle (sopa de letras) with themed vocabulary for Etsy and Amazon' },
+    heroImage: { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Spanish word search puzzle (sopa de letras) with themed vocabulary for Etsy and Amazon' },
     samples: [
-      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Spanish word search puzzle showing themed Spanish vocabulary in grid', caption: 'A Spanish sopa de letras generated with native vocabulary including accented characters and the n with tilde' },
-      { src: '/samples/english/addition/addition-fun-10.webp', alt: 'Addition worksheet with Spanish language instructions', caption: 'Math worksheet with Spanish-language instructions -- numbers are universal but proper formatting adds professional polish' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-2.webp', alt: 'Spanish word search puzzle showing themed Spanish vocabulary in grid', caption: 'A Spanish sopa de letras generated with native vocabulary including accented characters and the n with tilde' },
+      { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Addition worksheet with Spanish language instructions', caption: 'Math worksheet with Spanish-language instructions -- numbers are universal but proper formatting adds professional polish' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

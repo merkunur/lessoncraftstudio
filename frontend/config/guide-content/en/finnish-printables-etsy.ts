@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Finnish word search puzzle generated with LessonCraftStudio showing Finnish compound word vocabulary' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku-1.webp', alt: 'Finnish word search puzzle generated with LessonCraftStudio showing Finnish compound word vocabulary' },
     samples: [
-      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Finnish word search worksheet ready for Etsy listing', caption: 'A themed Finnish word search puzzle featuring compound words with automatic answer key' },
-      { src: '/samples/english/cryptogram/cryptogram-worksheet-10.webp', alt: 'Finnish cryptogram puzzle with compound words', caption: 'Finnish cryptogram puzzle -- long compound words create a uniquely engaging cipher experience' },
+      { src: '/samples/finnish/wordsearch/sanahaku-2.webp', alt: 'Finnish word search worksheet ready for Etsy listing', caption: 'A themed Finnish word search puzzle featuring compound words with automatic answer key' },
+      { src: '/samples/finnish/cryptogram/kuvakryptogrammi-1.webp', alt: 'Finnish cryptogram puzzle with compound words', caption: 'Finnish cryptogram puzzle -- long compound words create a uniquely engaging cipher experience' },
     ],
   },
 

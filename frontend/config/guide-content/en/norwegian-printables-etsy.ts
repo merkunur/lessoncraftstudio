@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Norwegian word search puzzle generated with LessonCraftStudio showing Norwegian vocabulary with special characters' },
+    heroImage: { src: '/samples/norwegian/wordsearch/ordleting-1.webp', alt: 'Norwegian word search puzzle generated with LessonCraftStudio showing Norwegian vocabulary with special characters' },
     samples: [
-      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Norwegian word search worksheet ready for Etsy listing', caption: 'A themed Norwegian word search puzzle with native Bokmal vocabulary and automatic answer key' },
-      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Norwegian crossword puzzle with image clues', caption: 'Norwegian crossword puzzle using image-based clues with correct special character handling' },
+      { src: '/samples/norwegian/wordsearch/ordleting-2.webp', alt: 'Norwegian word search worksheet ready for Etsy listing', caption: 'A themed Norwegian word search puzzle with native Bokmal vocabulary and automatic answer key' },
+      { src: '/samples/norwegian/crossword/bildekryssord-1.webp', alt: 'Norwegian crossword puzzle with image clues', caption: 'Norwegian crossword puzzle using image-based clues with correct special character handling' },
     ],
   },
 

@@ -217,7 +217,7 @@ export default async function ComparePage({
                 <img
                   key={i}
                   src={encodeImagePath(src)}
-                  alt={`LessonCraftStudio sample worksheet ${i + 1}`}
+                  alt={`${content.hero.title} - printable worksheet sample ${i + 1}`}
                   width={2480}
                   height={3508}
                   className="w-full h-auto rounded-lg shadow-md"

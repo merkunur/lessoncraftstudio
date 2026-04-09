@@ -1102,17 +1102,31 @@ export default async function AppDetailPage({
     ],
   };
 
-  // HowTo JSON-LD (from howItWorks steps)
+  // HowTo JSON-LD (from howItWorks steps) — includes step images for rich result eligibility
+  const howToStepImages = content?.visuals?.sampleGallery
+    || (heroImages?.map(img => ({ src: img.src, alt: img.alt })) ?? []);
   const howToJsonLd = content?.howItWorks?.steps?.length ? {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
     name: content.howItWorks.title,
-    step: content.howItWorks.steps.map((s: { title: string; description: string }, i: number) => ({
-      '@type': 'HowToStep',
-      position: i + 1,
-      name: s.title,
-      text: s.description,
-    })),
+    step: content.howItWorks.steps.map((s: { title: string; description: string }, i: number) => {
+      const stepImg = howToStepImages.length > 0 ? howToStepImages[i % howToStepImages.length] : null;
+      return {
+        '@type': 'HowToStep',
+        position: i + 1,
+        name: s.title,
+        text: s.description,
+        ...(stepImg?.src && {
+          image: {
+            '@type': 'ImageObject',
+            url: `${baseUrl}${encodeImagePath(stepImg.src)}`,
+            caption: stepImg.alt || s.title,
+            width: 2480,
+            height: 3508,
+          },
+        }),
+      };
+    }),
   } : null;
 
   // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal

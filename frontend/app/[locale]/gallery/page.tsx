@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import type { SupportedLocale } from '@/config/product-page-slugs';
 import { ALL_APPS, APP_CATEGORIES } from '@/config/products';
-import type { AppId } from '@/config/products';
+import type { AppId, CategoryId } from '@/config/products';
 import { getSlugForLocale } from '@/config/product-page-slugs';
 import { getLocalizedAppName } from '@/config/app-translations';
 import { ogLocaleMap, getHreflangCode, generateImageGallerySchema } from '@/lib/schema-generator';
@@ -254,7 +254,7 @@ export default function GalleryPage({
                       <div className="rounded-lg overflow-hidden shadow-md border border-gray-200 group-hover:shadow-lg transition-shadow">
                         <img
                           src={encodeImagePath(img.src)}
-                          alt={`${img.name} printable worksheet sample`}
+                          alt={`${img.name} printable worksheet sample - ${ALL_APPS[img.appId]?.category ? APP_CATEGORIES[ALL_APPS[img.appId].category as CategoryId]?.name + ' - ' : ''}free trial generator by LessonCraftStudio`}
                           width={2480}
                           height={3508}
                           className="w-full h-auto"

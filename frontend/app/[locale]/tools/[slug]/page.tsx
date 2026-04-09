@@ -314,18 +314,33 @@ export default async function ToolPage({
     });
   }
 
-  // HowTo schema (from tutorial steps)
+  // HowTo schema (from tutorial steps) — includes step images for rich result eligibility
   if (content?.tutorial?.steps && content.tutorial.steps.length > 0) {
+    const toolHowToImages: { src: string; alt: string }[] = heroImages?.map(img => ({ src: img.src, alt: img.alt }))
+      || content?.visuals?.sampleGallery
+      || [];
     schemas.push({
       "@context": "https://schema.org",
       "@type": "HowTo",
       "name": content.tutorial.title || `How to use ${localizedName}`,
-      "step": content.tutorial.steps.map((s: { title: string; description: string }, i: number) => ({
-        "@type": "HowToStep",
-        "position": i + 1,
-        "name": s.title,
-        "text": s.description,
-      })),
+      "step": content.tutorial.steps.map((s: { title: string; description: string }, i: number) => {
+        const stepImg = toolHowToImages.length > 0 ? toolHowToImages[i % toolHowToImages.length] : null;
+        return {
+          "@type": "HowToStep",
+          "position": i + 1,
+          "name": s.title,
+          "text": s.description,
+          ...(stepImg?.src && {
+            "image": {
+              "@type": "ImageObject",
+              "url": `${baseUrl}${encodeImagePath(stepImg.src)}`,
+              "caption": stepImg.alt || s.title,
+              "width": 2480,
+              "height": 3508,
+            },
+          }),
+        };
+      }),
     });
   }
 

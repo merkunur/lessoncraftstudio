@@ -213,18 +213,33 @@ export default async function CornerstonePage({
 
     const schemas: object[] = [webPageSchema, articleSchema, breadcrumbSchema];
     if (content.actionSteps?.length) {
+      const startHowToImages: { src: string; alt: string }[] = showcaseConfig?.hero?.images?.map(img => ({ src: img.src, alt: img.alt }))
+        || content?.visuals?.samples
+        || [];
       schemas.push({
         '@context': 'https://schema.org',
         '@type': 'HowTo',
         '@id': `${pageUrl}#howto`,
         name: content.hero.title,
         description: content.hero.description,
-        step: content.actionSteps.map((s, i) => ({
-          '@type': 'HowToStep',
-          position: i + 1,
-          name: s.step,
-          text: s.description,
-        })),
+        step: content.actionSteps.map((s, i) => {
+          const stepImg = startHowToImages.length > 0 ? startHowToImages[i % startHowToImages.length] : null;
+          return {
+            '@type': 'HowToStep',
+            position: i + 1,
+            name: s.step,
+            text: s.description,
+            ...(stepImg?.src && {
+              image: {
+                '@type': 'ImageObject',
+                url: `${baseUrl}${encodeImagePath(stepImg.src)}`,
+                caption: stepImg.alt || s.step,
+                width: 2480,
+                height: 3508,
+              },
+            }),
+          };
+        }),
       });
     }
     if (content.faq?.length) {

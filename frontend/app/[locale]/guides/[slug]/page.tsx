@@ -213,18 +213,33 @@ export default async function GuidePage({
 
     const schemas: object[] = [webPageSchema, articleSchema, breadcrumbSchema];
     if (content.tutorial?.length) {
+      const guideHowToImages: { src: string; alt: string }[] = showcaseConfig?.hero?.images?.map(img => ({ src: img.src, alt: img.alt }))
+        || content?.visuals?.samples
+        || [];
       schemas.push({
         '@context': 'https://schema.org',
         '@type': 'HowTo',
         '@id': `${pageUrl}#howto`,
         name: content.hero.title,
         description: content.hero.description,
-        step: content.tutorial.map((step, i) => ({
-          '@type': 'HowToStep',
-          position: i + 1,
-          name: step.heading,
-          text: step.content,
-        })),
+        step: content.tutorial.map((step, i) => {
+          const stepImg = guideHowToImages.length > 0 ? guideHowToImages[i % guideHowToImages.length] : null;
+          return {
+            '@type': 'HowToStep',
+            position: i + 1,
+            name: step.heading,
+            text: step.content,
+            ...(stepImg?.src && {
+              image: {
+                '@type': 'ImageObject',
+                url: `${baseUrl}${encodeImagePath(stepImg.src)}`,
+                caption: stepImg.alt || step.heading,
+                width: 2480,
+                height: 3508,
+              },
+            }),
+          };
+        }),
       });
     }
     if (content.faq?.length) {

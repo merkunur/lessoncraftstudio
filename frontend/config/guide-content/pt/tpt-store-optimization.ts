@@ -187,11 +187,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Recurso de atividades de caça-palavras otimizado para visibilidade e vendas na loja Hotmart' },
+    heroImage: { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Recurso de atividades de caça-palavras otimizado para visibilidade e vendas na loja Hotmart' },
     samples: [
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Puzzle de caça-palavras otimizado para crescimento de catálogo de loja Hotmart', caption: 'Os caças-palavras estão entre os recursos Hotmart mais versáteis — crie variações temáticas sazonais para expansão rápida do catálogo' },
-      { src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp', alt: 'Atividade de puzzle de matemática para diferenciação de loja Hotmart', caption: 'Formatos únicos de puzzles de matemática enfrentam menor concorrência na Hotmart do que atividades standard — uma estratégia de diferenciação para categorias com muita concorrência' },
-      { src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp', alt: 'Atividade de palavras cruzadas para recursos de vocabulário Hotmart', caption: 'As palavras cruzadas são atividades de vocabulário de alta procura que os vendedores pesquisam por disciplina e nível escolar na Hotmart' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-2.webp', alt: 'Puzzle de caça-palavras otimizado para crescimento de catálogo de loja Hotmart', caption: 'Os caças-palavras estão entre os recursos Hotmart mais versáteis — crie variações temáticas sazonais para expansão rápida do catálogo' },
+      { src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-1.webp', alt: 'Atividade de puzzle de matemática para diferenciação de loja Hotmart', caption: 'Formatos únicos de puzzles de matemática enfrentam menor concorrência na Hotmart do que atividades standard — uma estratégia de diferenciação para categorias com muita concorrência' },
+      { src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp', alt: 'Atividade de palavras cruzadas para recursos de vocabulário Hotmart', caption: 'As palavras cruzadas são atividades de vocabulário de alta procura que os vendedores pesquisam por disciplina e nível escolar na Hotmart' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como criar caças-palavras para a sua loja Hotmart — Tutorial de otimização',

@@ -255,22 +255,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/more%20less/Mer%20Mindre%201.webp',
+      primary: '/samples/norwegian/more%20less/mer%20mindre%201.webp',
       primaryAlt: 'Mer eller Mindre arbeidsark med fargerike dyrebilder i modusen Bilde til Bilde',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/more%20less/Mer%20Mindre%201.webp',
+        src: '/samples/norwegian/more%20less/mer%20mindre%201.webp',
         alt: 'Sammenligningsarbeidsark med modusen Bilde til Bilde og dyretema',
         caption: 'Bilde til Bilde — brukerne teller to grupper bilder og sammenligner mengder',
       },
       {
-        src: '/samples/norwegian/more%20less/Mer%20Mindre%202.webp',
+        src: '/samples/norwegian/more%20less/mer%20mindre%202.webp',
         alt: 'Sammenligningsarbeidsark med modusen Bilde til Tall og mattema',
         caption: 'Bilde til Tall — kombinerer grupper av bilder med tall for å koble ferdigheter sammen',
       },
       {
-        src: '/samples/norwegian/more%20less/Mer%20Mindre%203.webp',
+        src: '/samples/norwegian/more%20less/mer%20mindre%203.webp',
         alt: 'Sjekk og Kryss Grupper arbeidsark med blandede bilder til visuell sortering',
         caption: 'Sjekk og Kryss Grupper — brukerne finner majoritetsgruppen i en boks med blandede bilder',
       },

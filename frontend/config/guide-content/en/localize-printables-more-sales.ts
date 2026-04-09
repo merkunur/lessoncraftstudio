@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Printable product localized into multiple languages for international sales' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Printable product localized into multiple languages for international sales' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle ready for localization into 10 languages', caption: 'One word search concept becomes 11 products across all supported languages' },
-      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle for multi-language localization', caption: 'Crossword puzzles with image clues localize seamlessly across all 11 languages' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Word search puzzle ready for localization into 10 languages', caption: 'One word search concept becomes 11 products across all supported languages' },
+      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Crossword puzzle for multi-language localization', caption: 'Crossword puzzles with image clues localize seamlessly across all 11 languages' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

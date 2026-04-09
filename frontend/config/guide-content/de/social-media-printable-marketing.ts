@@ -170,22 +170,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/bingo/bilder-bingo 1.webp',
+      src: '/samples/german/bingo/bilder-bingo-1.webp',
       alt: 'Professionelle Bingo-Karte als Beispiel für visuell ansprechende Druckvorlagen-Produkte, ideal für Social-Media-Marketing',
     },
     samples: [
       {
-        src: '/samples/german/bingo/bilder-bingo 1.webp',
+        src: '/samples/german/bingo/bilder-bingo-1.webp',
         alt: 'Bingo-Karte als teilbares Druckvorlagen-Produkt für Social-Media-Inhalte',
         caption: 'Visuell ansprechende Produkte wie Bingo-Karten erzeugen überzeugende Social-Media-Inhalte, die Engagement generieren',
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: '/samples/german/coloring/coloring-portrait-1.webp',
         alt: 'Ausmalseite als fotogenes Druckvorlagen-Produkt für Instagram und Pinterest',
         caption: 'Ausmalseiten lassen sich wunderbar für Flat-Lay-Produktpräsentationen auf visuellen Plattformen fotografieren',
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuchrätsel als beliebter Druckvorlagen-Produkttyp mit starker Social-Media-Anziehungskraft',
         caption: 'Wortsuchrätsel ziehen breites Publikums-Engagement an und funktionieren gut über Social-Media-Plattformen hinweg',
       },

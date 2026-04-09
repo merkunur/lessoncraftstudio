@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir imprimível pronta para venda na loja da Hotmart' },
+    heroImage: { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir imprimível pronta para venda na loja da Hotmart' },
     samples: [
-      { src: '/samples/portuguese/coloring/coloring landscape 2.webp', alt: 'Página para colorir imprimível para vendas de produtos digitais na Hotmart', caption: 'As páginas para colorir criam imagens de produto visualmente convincentes que geram tráfego nas redes sociais para a sua loja na Hotmart' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Atividade de sopa de letras imprimível para catálogo de loja na Hotmart', caption: 'As sopas de letras têm apelo alargado a audiências de pais e vendedores — um tipo versátil de produto na Hotmart' },
-      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Atividade de atividade de correspondência para negócio de imprimíveis na Hotmart', caption: 'As atividades de correspondência são imprimíveis educativos de alta procura que funcionam bem como produtos individuais e em pacotes' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-2.webp', alt: 'Página para colorir imprimível para vendas de produtos digitais na Hotmart', caption: 'As páginas para colorir criam imagens de produto visualmente convincentes que geram tráfego nas redes sociais para a sua loja na Hotmart' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Atividade de sopa de letras imprimível para catálogo de loja na Hotmart', caption: 'As sopas de letras têm apelo alargado a audiências de pais e vendedores — um tipo versátil de produto na Hotmart' },
+      { src: '/samples/portuguese/matching/encontre-os-pares-1.webp', alt: 'Atividade de atividade de correspondência para negócio de imprimíveis na Hotmart', caption: 'As atividades de correspondência são imprimíveis educativos de alta procura que funcionam bem como produtos individuais e em pacotes' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Como criar páginas para colorir para a sua loja de imprimíveis na Hotmart',

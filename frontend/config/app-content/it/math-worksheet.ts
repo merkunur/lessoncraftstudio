@@ -259,22 +259,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/math worksheet/Scheda di Matematica 1.webp',
+      primary: '/samples/italian/math worksheet/scheda-di-matematica-1.webp',
       primaryAlt: 'Scheda di puzzle algebrico illustrato con simboli-immagine che rappresentano variabili incognite in un sistema di equazioni',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/math worksheet/Scheda di Matematica 2.webp',
+        src: '/samples/italian/math worksheet/scheda-di-matematica-2.webp',
         alt: 'Scheda di puzzle algebrico Molto Facile con due simboli-immagine ed equazioni di sola addizione',
         caption: 'Livello Molto Facile — due simboli-immagine in un sistema di equazioni semplice con sola addizione',
       },
       {
-        src: '/samples/italian/math worksheet/Scheda di Matematica 3.webp',
+        src: '/samples/italian/math worksheet/scheda-di-matematica-3.webp',
         alt: 'Scheda di puzzle algebrico Medio con tre simboli-immagine e operazioni miste',
         caption: 'Livello Medio — tre simboli in equazioni interconnesse con addizione e sottrazione',
       },
       {
-        src: '/samples/italian/math worksheet/Scheda di Matematica 4.webp',
+        src: '/samples/italian/math worksheet/scheda-di-matematica-4.webp',
         alt: 'Scheda di puzzle algebrico Difficile con quattro simboli-immagine in un sistema di quattro equazioni',
         caption: 'Livello Difficile — quattro incognite simultanee per risoluzione algebrica avanzata',
       },

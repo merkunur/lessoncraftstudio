@@ -203,9 +203,9 @@ const content: BundleContent = {
     },
     sampleGallery: [
       { src: '/samples/swedish/find and count/worksheet.webp', alt: 'I Spy hitta och räkna arbetsblad med gömda objekt att lokalisera och räkna', caption: 'Hitta och Räkna I Spy' },
-      { src: '/samples/swedish/find objects/hitta%20f%C3%B6rem%C3%A5len%201.webp', alt: 'Gömt objekt arbetsblad med nollöverlappande scen och visuell legend', caption: 'Hitta Föremålen Gömt Objekt' },
-      { src: '/samples/swedish/crossword/Bildkorsord%201.webp', alt: '15x15 korsordspussel med bildledtrådar istället för textdefinitioner', caption: 'Bildkorsord Pussel' },
-      { src: '/samples/swedish/treasure hunt/Skattjakt%201.webp', alt: 'Skattjakt arbetsblad med 5x5 koordinatrutnät och riktningsledtrådar', caption: 'Skattjakt Rutnät' },
+      { src: '/samples/swedish/find objects/hitta%20f%c3%b6rem%c3%a5len%201.webp', alt: 'Gömt objekt arbetsblad med nollöverlappande scen och visuell legend', caption: 'Hitta Föremålen Gömt Objekt' },
+      { src: '/samples/swedish/crossword/bildkorsord%201.webp', alt: '15x15 korsordspussel med bildledtrådar istället för textdefinitioner', caption: 'Bildkorsord Pussel' },
+      { src: '/samples/swedish/treasure hunt/skattjakt%201.webp', alt: 'Skattjakt arbetsblad med 5x5 koordinatrutnät och riktningsledtrådar', caption: 'Skattjakt Rutnät' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Sök & Hitta-paket — Se alla 4 upptäcktsgeneratorer i aktion',

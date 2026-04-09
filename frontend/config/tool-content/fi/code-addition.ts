@@ -207,22 +207,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/code%20addition/Salainen%20Koodi%20Yhteenlasku%201.webp',
+      primary: '/samples/finnish/code%20addition/salainen%20koodi%20yhteenlasku%201.webp',
       primaryAlt: 'Koodiyhteenlaskutehtäväarkki, jossa näkyy kryptaritmeettisiä palapelejä kuvasymbolien piilottamilla salaisilla numeroilla',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/code%20addition/Salainen%20Koodi%20Yhteenlasku%201.webp',
+        src: '/samples/finnish/code%20addition/salainen%20koodi%20yhteenlasku%201.webp',
         alt: 'Koodinmurtaja-matematiikkapalapeli eläinsymboleilla Normaalitilassa',
         caption: 'Normaalitila eläinteemalla — jokainen symboli piilottaa uniikin numeron',
       },
       {
-        src: '/samples/finnish/code%20addition/Salainen%20Koodi%20Yhteenlasku%202.webp',
+        src: '/samples/finnish/code%20addition/salainen%20koodi%20yhteenlasku%202.webp',
         alt: 'Koodiyhteenlaskutehtäväarkki Sanan Paljastus -tilassa ruokakuvilla',
         caption: 'Sanan Paljastus -tila — ratkaise yhtälöt kirjoittaaksesi salainen sana',
       },
       {
-        src: '/samples/finnish/code%20addition/Salainen%20Koodi%20Yhteenlasku%203.webp',
+        src: '/samples/finnish/code%20addition/salainen%20koodi%20yhteenlasku%203.webp',
         alt: 'Kryptaritmeettinen palapeliarkki sekoitetuilla yhteenlaskettavilla ja koristeellisella kehyksellä',
         caption: 'Sekoitetut yhteenlaskettavat kehyskoristeella tuotevalmiiseen tulostukseen',
       },

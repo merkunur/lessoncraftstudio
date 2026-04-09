@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Bilder-Sudoku-Rätselarbeitsblatt mit thematischem Bildraster, geeignet für Amazon KDP Sudoku-Buch-Innenseiten' },
+    heroImage: { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: 'Bilder-Sudoku-Rätselarbeitsblatt mit thematischem Bildraster, geeignet für Amazon KDP Sudoku-Buch-Innenseiten' },
     samples: [
-      { src: '/samples/german/sudoku/Bilder-Sudoku 1.webp', alt: 'Tierthema Bilder-Sudoku-Rätsel formatiert für KDP Kinder-Sudoku-Buch', caption: 'Bilder-Sudoku mit Tierthema — bildbasierte Raster machen Sudoku-Logik für Kinder im Alter von 3 bis 7 zugänglich, die Zahlen noch nicht gelernt haben' },
-      { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Bilder-Sudoku-Rätselarbeitsblatt für KDP-Buchinnenseiten', caption: 'Bilder-Sudoku-Arbeitsblatt — 4×4-Raster mit klaren Bildern und großzügiger Zellengröße für bequemes Lösen durch kleine Kinder' },
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 2.webp', alt: 'Mathe-Rätsel-Arbeitsblatt als Begleitung für KDP-Rätselkatalog', caption: 'Mathe-Rätsel — zahlenbasierte Logikrätsel ergänzen Sudoku natürlich in Mischrätselbüchern und bewerben sich quer über Ihre Autorenseite' },
+      { src: '/samples/german/sudoku/bilder-sudoku-1.webp', alt: 'Tierthema Bilder-Sudoku-Rätsel formatiert für KDP Kinder-Sudoku-Buch', caption: 'Bilder-Sudoku mit Tierthema — bildbasierte Raster machen Sudoku-Logik für Kinder im Alter von 3 bis 7 zugänglich, die Zahlen noch nicht gelernt haben' },
+      { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: 'Bilder-Sudoku-Rätselarbeitsblatt für KDP-Buchinnenseiten', caption: 'Bilder-Sudoku-Arbeitsblatt — 4×4-Raster mit klaren Bildern und großzügiger Zellengröße für bequemes Lösen durch kleine Kinder' },
+      { src: '/samples/german/math puzzle/mathe-rätsel-2.webp', alt: 'Mathe-Rätsel-Arbeitsblatt als Begleitung für KDP-Rätselkatalog', caption: 'Mathe-Rätsel — zahlenbasierte Logikrätsel ergänzen Sudoku natürlich in Mischrätselbüchern und bewerben sich quer über Ihre Autorenseite' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Bilder-Sudoku-Rätsel für Amazon KDP-Bücher erstellen — Schritt-für-Schritt-Anleitung',

@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/word scramble/Word Scramble 10.webp', alt: 'Word scramble puzzle with shuffled letter tiles and image clues generated for KDP book interior' },
+    heroImage: { src: '/samples/english/word scramble/word-scramble-10.webp', alt: 'Word scramble puzzle with shuffled letter tiles and image clues generated for KDP book interior' },
     samples: [
-      { src: '/samples/english/word scramble/Word Scramble 11.webp', alt: 'Word scramble puzzle page with image clues ready for KDP manuscript', caption: 'A word scramble puzzle page featuring shuffled letter tiles alongside image clues, exported as a 300 DPI print-ready PDF' },
-      { src: '/samples/english/word scramble/Word Scramble 10.webp', alt: 'Word scramble answer key showing correct letter arrangements', caption: 'Automatic answer key showing the correct word for each image clue' },
+      { src: '/samples/english/word scramble/word-scramble-11.webp', alt: 'Word scramble puzzle page with image clues ready for KDP manuscript', caption: 'A word scramble puzzle page featuring shuffled letter tiles alongside image clues, exported as a 300 DPI print-ready PDF' },
+      { src: '/samples/english/word scramble/word-scramble-10.webp', alt: 'Word scramble answer key showing correct letter arrangements', caption: 'Automatic answer key showing the correct word for each image clue' },
     ],
     youtubeId: 'Hc3g5VsSHEU',
     videoTitle: 'How to Create Word Scramble Puzzles',

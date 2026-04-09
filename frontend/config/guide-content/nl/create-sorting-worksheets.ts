@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%201.webp', alt: 'Tweecategorie sorteerwerkblad met stippelrand categoriekaders en geschud knipgrid voor classificatieactiviteiten' },
+    heroImage: { src: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%201.webp', alt: 'Tweecategorie sorteerwerkblad met stippelrand categoriekaders en geschud knipgrid voor classificatieactiviteiten' },
     samples: [
-      { src: '/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%201.webp', alt: 'Plaatjes sorteren werkblad met twee naast elkaar geplaatste categoriekaders en geschud knipgrid eronder', caption: 'Tweecategorie sorteerwerkblad met naast-elkaar categoriekaders en geschud knipgrid' },
-      { src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp', alt: 'Koppelwerkblad als classificatiepartner voor sorteerwerkbladen', caption: 'Koppelwerkblad — classificatiepartner die bundelt met sorteerwerkbladen' },
-      { src: '/samples/dutch/big%20small/Groot%20of%20Klein%201.webp', alt: 'Groot of Klein werkblad voor groottevergelijking en sorteervaardigheden', caption: 'Groot of Klein werkblad — groottevergelijking als aanvullende sorteeractiviteit' },
+      { src: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%201.webp', alt: 'Plaatjes sorteren werkblad met twee naast elkaar geplaatste categoriekaders en geschud knipgrid eronder', caption: 'Tweecategorie sorteerwerkblad met naast-elkaar categoriekaders en geschud knipgrid' },
+      { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Koppelwerkblad als classificatiepartner voor sorteerwerkbladen', caption: 'Koppelwerkblad — classificatiepartner die bundelt met sorteerwerkbladen' },
+      { src: '/samples/dutch/big%20small/groot%20of%20klein%201.webp', alt: 'Groot of Klein werkblad voor groottevergelijking en sorteervaardigheden', caption: 'Groot of Klein werkblad — groottevergelijking als aanvullende sorteeractiviteit' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'Hoe Maak Je Sorteerwerkbladen met Categorieën — Complete Handleiding',

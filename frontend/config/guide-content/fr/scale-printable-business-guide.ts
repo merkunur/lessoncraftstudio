@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition professionnelle démontrant la qualité de produit qui soutient la croissance d\'une activité d\'imprimables évolutive' },
+    heroImage: { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition professionnelle démontrant la qualité de produit qui soutient la croissance d\'une activité d\'imprimables évolutive' },
     samples: [
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition avec images thématiques montrant la diversité de produits pour le développement du catalogue', caption: 'Les variations de fiches thématiques démontrent comment un concept de produit se décline en multiples fiches produit à travers thèmes, niveaux et langues' },
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Mots cachés montrant le potentiel de développement multilingue', caption: 'Les mots cachés créés dans 11 langues multiplient votre catalogue sans multiplier l\'effort créatif — le même concept atteint les marchés internationaux' },
-      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'association démontrant l\'expansion systématique du catalogue par variations thématiques', caption: 'Les fiches d\'association à travers les thèmes montrent l\'extension systématique de gamme — chaque nouveau thème ajoute des produits utilisant des formats éprouvés et des ressources visuelles existantes' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition avec images thématiques montrant la diversité de produits pour le développement du catalogue', caption: 'Les variations de fiches thématiques démontrent comment un concept de produit se décline en multiples fiches produit à travers thèmes, niveaux et langues' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Mots cachés montrant le potentiel de développement multilingue', caption: 'Les mots cachés créés dans 11 langues multiplient votre catalogue sans multiplier l\'effort créatif — le même concept atteint les marchés internationaux' },
+      { src: '/samples/french/matching/trouve-les-paires-1.webp', alt: 'Fiche d\'association démontrant l\'expansion systématique du catalogue par variations thématiques', caption: 'Les fiches d\'association à travers les thèmes montrent l\'extension systématique de gamme — chaque nouveau thème ajoute des produits utilisant des formats éprouvés et des ressources visuelles existantes' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Comment Créer des Pages de Coloriage avec Dessin et Coloriage — Démonstration de la Gamme Créative pour le Développement du Catalogue',

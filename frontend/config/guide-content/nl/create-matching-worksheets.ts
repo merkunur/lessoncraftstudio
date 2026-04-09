@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp', alt: 'Koppelwerkblad met thematische afbeeldingen en trek-een-lijn paren voor kleuters' },
+    heroImage: { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Koppelwerkblad met thematische afbeeldingen en trek-een-lijn paren voor kleuters' },
     samples: [
-      { src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp', alt: 'Trek-een-lijn koppelwerkblad met dierenthema voor kleuters', caption: 'Kleuter koppelwerkblad met dierenthema in Letterkoppelingmodus met 5 paren' },
-      { src: '/samples/dutch/bingo/Plaatjesbingo%201.webp', alt: 'Plaatjesbingo kaart met thematische afbeeldingen voor kleuters', caption: 'Thematische bingokaart die gecombineerd kan worden met koppelwerkbladen voor leerbundels' },
-      { src: '/samples/dutch/shadow%20match/Schaduw%20Koppelen%201.webp', alt: 'Schaduw koppelwerkblad met silhouetten voor visuele discriminatie', caption: 'Schaduwkoppelwerkblad als aanvulling op standaard koppelactiviteiten' },
+      { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Trek-een-lijn koppelwerkblad met dierenthema voor kleuters', caption: 'Kleuter koppelwerkblad met dierenthema in Letterkoppelingmodus met 5 paren' },
+      { src: '/samples/dutch/bingo/plaatjesbingo%201.webp', alt: 'Plaatjesbingo kaart met thematische afbeeldingen voor kleuters', caption: 'Thematische bingokaart die gecombineerd kan worden met koppelwerkbladen voor leerbundels' },
+      { src: '/samples/dutch/shadow%20match/schaduw%20koppelen%201.webp', alt: 'Schaduw koppelwerkblad met silhouetten voor visuele discriminatie', caption: 'Schaduwkoppelwerkblad als aanvulling op standaard koppelactiviteiten' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Hoe Zoek de Paren Werkbladen Maken — Complete Handleiding',

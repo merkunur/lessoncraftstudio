@@ -200,11 +200,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda stampabile educativa con problemi di matematica basati su immagini per vendere su Etsy in più categorie' },
+    heroImage: { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda stampabile educativa con problemi di matematica basati su immagini per vendere su Etsy in più categorie' },
     samples: [
-      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione a tema animali per un negozio Etsy diversificato di stampabili educativi', caption: 'Scheda di addizione con tema animali — uno dei tanti prodotti di matematica che puoi creare per il tuo negozio Etsy' },
-      { src: '/samples/italian/wordsearch/Cerca Parole 2.webp', alt: 'Scheda puzzle cerca parole che mostra un prodotto stampabile educativo basato sulla lingua per Etsy', caption: 'Puzzle cerca parole — formato sensibile alla lingua che si moltiplica in 11 mercati linguistici su Etsy' },
-      { src: '/samples/italian/coloring/coloring portrait 5.webp', alt: 'Pagina da colorare stampabile che mostra un prodotto di apprendimento visivo per negozio educativo Etsy', caption: 'Pagina da colorare — la demografia di acquirenti più ampia di qualsiasi categoria di stampabili educativi su Etsy' },
+      { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda di addizione a tema animali per un negozio Etsy diversificato di stampabili educativi', caption: 'Scheda di addizione con tema animali — uno dei tanti prodotti di matematica che puoi creare per il tuo negozio Etsy' },
+      { src: '/samples/italian/wordsearch/cerca-parole-2.webp', alt: 'Scheda puzzle cerca parole che mostra un prodotto stampabile educativo basato sulla lingua per Etsy', caption: 'Puzzle cerca parole — formato sensibile alla lingua che si moltiplica in 11 mercati linguistici su Etsy' },
+      { src: '/samples/italian/coloring/coloring-portrait-5.webp', alt: 'Pagina da colorare stampabile che mostra un prodotto di apprendimento visivo per negozio educativo Etsy', caption: 'Pagina da colorare — la demografia di acquirenti più ampia di qualsiasi categoria di stampabili educativi su Etsy' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Stampabili Educativi per Vendere su Etsy — Strategia Negozio Multi-Categoria',

@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/shadow match/Abbina le Ombre 1.webp',
+      primary: '/samples/italian/shadow match/abbina-le-ombre-1.webp',
       primaryAlt: 'Scheda di abbinamento ombre con immagini colorate nella riga superiore e silhouette nere auto-generate nella riga inferiore con intestazione ambra',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/shadow match/Abbina le Ombre 2.webp',
+        src: '/samples/italian/shadow match/abbina-le-ombre-2.webp',
         alt: 'Scheda di abbinamento ombre mostrando quattro immagini colorate associate a quattro silhouette nere con etichette di lettere e numeri',
         caption: 'Modalità Abbinamento Ombre — gli utenti associano le immagini alle loro silhouette auto-generate',
       },
       {
-        src: '/samples/italian/shadow match/Abbina le Ombre 3.webp',
+        src: '/samples/italian/shadow match/abbina-le-ombre-3.webp',
         alt: 'Scheda Completa l\'Immagine con metà di immagini divise che gli utenti riconnettono associando prime e seconde metà',
         caption: 'Modalità Completa l\'Immagine — gli utenti associano le metà delle immagini per completare le illustrazioni',
       },
       {
-        src: '/samples/italian/shadow match/Abbina le Ombre 4.webp',
+        src: '/samples/italian/shadow match/abbina-le-ombre-4.webp',
         alt: 'Foglio risposte di abbinamento ombre mostrando le immagini originali con silhouette ed etichette di corrispondenza lettera-numero corrette',
         caption: 'Risposte auto-generate — le etichette lettera-numero mostrano le corrispondenze corrette',
       },

@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Math worksheet product ready for bundling into a high-value worksheet collection' },
+    heroImage: { src: '/samples/english/addition/addition-fun-10.webp', alt: 'Math worksheet product ready for bundling into a high-value worksheet collection' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 11.webp', alt: 'Addition worksheet for math worksheet bundle creation', caption: 'Math worksheets are among the most popular products for bundle creation — combine addition, subtraction, and number sense for comprehensive bundles' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle for themed worksheet bundle', caption: 'Word search puzzles add variety to themed bundles and work across subject, grade, and seasonal bundle types' },
-      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet activity for printable bundle collection', caption: 'Matching activities complement other worksheet types in format bundles — variety keeps solvers engaged across multiple sessions' },
+      { src: '/samples/english/addition/addition-fun-11.webp', alt: 'Addition worksheet for math worksheet bundle creation', caption: 'Math worksheets are among the most popular products for bundle creation — combine addition, subtraction, and number sense for comprehensive bundles' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle for themed worksheet bundle', caption: 'Word search puzzles add variety to themed bundles and work across subject, grade, and seasonal bundle types' },
+      { src: '/samples/english/matching/image-and-custom-word.webp', alt: 'Matching worksheet activity for printable bundle collection', caption: 'Matching activities complement other worksheet types in format bundles — variety keeps solvers engaged across multiple sessions' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Addition Worksheets for Bundling into High-Value Collections',

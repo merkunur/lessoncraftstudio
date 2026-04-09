@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di matematica pronta per il bundling in una collezione di schede ad alto valore' },
+    heroImage: { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda di matematica pronta per il bundling in una collezione di schede ad alto valore' },
     samples: [
-      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione per la creazione di bundle di schede di matematica', caption: 'Le schede di matematica sono tra i prodotti più popolari per la creazione di bundle — combina addizione, sottrazione e senso numerico per bundle completi' },
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole per bundle tematico di schede', caption: 'I puzzle cerca parole aggiungono varietà ai bundle tematici e funzionano attraverso tipi di bundle per materia, livello e stagione' },
-      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Attività di abbinamento per collezione di bundle stampabili', caption: 'Le attività di abbinamento completano altri tipi di schede nei bundle per formato — la varietà mantiene gli utenti coinvolti attraverso più sessioni' },
+      { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda di addizione per la creazione di bundle di schede di matematica', caption: 'Le schede di matematica sono tra i prodotti più popolari per la creazione di bundle — combina addizione, sottrazione e senso numerico per bundle completi' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Puzzle cerca parole per bundle tematico di schede', caption: 'I puzzle cerca parole aggiungono varietà ai bundle tematici e funzionano attraverso tipi di bundle per materia, livello e stagione' },
+      { src: '/samples/italian/matching/trova-le-coppie-1.webp', alt: 'Attività di abbinamento per collezione di bundle stampabili', caption: 'Le attività di abbinamento completano altri tipi di schede nei bundle per formato — la varietà mantiene gli utenti coinvolti attraverso più sessioni' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Come Creare Schede di Addizione per il Bundling in Collezioni ad Alto Valore',

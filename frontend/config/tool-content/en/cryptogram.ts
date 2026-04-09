@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/cryptogram/cryptogram_worksheet.webp',
+      primary: '/samples/english/cryptogram/cryptogram-worksheet.webp',
       primaryAlt: 'Cryptogram worksheet with picture cipher showing themed images mapped to alphabet letters encoding a secret phrase',
     },
     sampleGallery: [
       {
-        src: '/samples/english/cryptogram/cryptogram_worksheet.webp',
+        src: '/samples/english/cryptogram/cryptogram-worksheet.webp',
         alt: 'Cryptogram worksheet with themed images replacing letters in an encoded secret phrase',
         caption: 'Picture cipher puzzle — decode the secret message by identifying which image represents which letter',
       },
       {
-        src: '/samples/english/cryptogram/cryptogram_worksheet (5).webp',
+        src: '/samples/english/cryptogram/cryptogram-worksheet-5.webp',
         alt: 'Cryptogram worksheet with animal theme images and Letters to Reveal hints for scaffolded difficulty',
         caption: 'Themed cipher with Letters to Reveal — pre-solved mappings provide scaffolding for beginners',
       },
       {
-        src: '/samples/english/cryptogram/cryptogram_answer_key.webp',
+        src: '/samples/english/cryptogram/cryptogram-answer-key.webp',
         alt: 'Cryptogram answer key with complete letter legend showing all alphabet-to-image mappings in sorted order',
         caption: 'Letter legend answer key — every alphabet letter paired with its assigned image for definitive solution reference',
       },

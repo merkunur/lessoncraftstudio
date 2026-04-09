@@ -212,12 +212,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda cerca parole che dimostra la qualità dell\'output con licenza commerciale per venditori di stampabili' },
+    heroImage: { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Scheda cerca parole che dimostra la qualità dell\'output con licenza commerciale per venditori di stampabili' },
     samples: [
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole pronto per la vendita commerciale', caption: 'Cerca Parole — Top Venditore Commerciale' },
-      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di matematica addizione con licenza commerciale', caption: 'Addizione — Fondamentale Matematica Sempreverde' },
-      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare per libri di attività KDP', caption: 'Colorare — Categoria KDP Alto Volume' },
-      { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Puzzle cruciverba che dimostra il valore commerciale multilingue', caption: 'Cruciverba — Valore Licenza Multilingue' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Puzzle cerca parole pronto per la vendita commerciale', caption: 'Cerca Parole — Top Venditore Commerciale' },
+      { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda di matematica addizione con licenza commerciale', caption: 'Addizione — Fondamentale Matematica Sempreverde' },
+      { src: '/samples/italian/coloring/coloring-portrait-1.webp', alt: 'Pagina da colorare per libri di attività KDP', caption: 'Colorare — Categoria KDP Alto Volume' },
+      { src: '/samples/italian/crossword/cruciverba-con-immagini-1.webp', alt: 'Puzzle cruciverba che dimostra il valore commerciale multilingue', caption: 'Cruciverba — Valore Licenza Multilingue' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Schede Cerca Parole per la Vendita Commerciale — Demo LessonCraftStudio',

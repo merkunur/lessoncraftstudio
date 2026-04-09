@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku puzzle with themed images formatted for KDP book interior' },
+    heroImage: { src: '/samples/english/sudoku/sudoku-easy.webp', alt: 'Picture sudoku puzzle with themed images formatted for KDP book interior' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku hard.webp', alt: 'Picture sudoku puzzle page with 4x4 image grid ready for KDP', caption: 'A themed picture sudoku puzzle exported as a print-ready PDF for KDP book interior' },
-      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku answer key showing completed grid', caption: 'Automatic answer key with all cells filled -- verified to have exactly one solution' },
+      { src: '/samples/english/sudoku/sudoku-hard.webp', alt: 'Picture sudoku puzzle page with 4x4 image grid ready for KDP', caption: 'A themed picture sudoku puzzle exported as a print-ready PDF for KDP book interior' },
+      { src: '/samples/english/sudoku/sudoku-easy.webp', alt: 'Picture sudoku answer key showing completed grid', caption: 'Automatic answer key with all cells filled -- verified to have exactly one solution' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'How to Create Sudoku Puzzles',

@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+      src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp',
       alt: 'Ficha de sopa de letras que demuestra la generación de contenido multilingüe con manejo correcto de caracteres',
     },
     samples: [
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp',
         alt: 'Puzle de sopa de letras mostrando contenido basado en vocabulario que requiere soporte correcto de caracteres multilingües',
         caption: 'Las fichas de sopa de letras demuestran la importancia del manejo correcto de caracteres entre idiomas',
       },
       {
-        src: '/samples/spanish/alphabet train/Tren del Alfabeto 1.webp',
+        src: '/samples/spanish/alphabet train/tren-del-alfabeto-1.webp',
         alt: 'Ficha de tren del abecedario mostrando generación de letras y caracteres específicos del idioma',
         caption: 'Las fichas de abecedario requieren caracteres específicos del idioma incluyendo diéresis y letras acentuadas',
       },
       {
-        src: '/samples/spanish/matching/Encuentra Parejas 1.webp',
+        src: '/samples/spanish/matching/encuentra-parejas-1.webp',
         alt: 'Ficha de emparejamiento mostrando producción multilingüe con elementos visuales y de texto',
         caption: 'Las fichas de emparejamiento combinan elementos visuales con vocabulario específico del idioma para mercados internacionales',
       },

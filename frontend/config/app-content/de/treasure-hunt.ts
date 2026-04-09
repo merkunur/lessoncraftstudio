@@ -272,12 +272,12 @@ const content: AppContent = {
         caption: 'Grundrichtungen-Modus — oben, unten, links und rechts folgen, um den Schatz zu finden',
       },
       {
-        src: '/samples/german/treasure hunt/worksheet (1).webp',
+        src: '/samples/german/treasure hunt/worksheet-1.webp',
         alt: 'Schatzsuche-Rätsel mit Himmelsrichtungs-Anweisungen (Norden, Süden, Osten, Westen)',
         caption: 'Himmelsrichtungen-Modus — Kompassrichtungen für fortgeschrittenes räumliches Denken',
       },
       {
-        src: '/samples/german/treasure hunt/answer_key.webp',
+        src: '/samples/german/treasure hunt/answer-key.webp',
         alt: 'Schatzsuche-Lösungsschlüssel mit finaler Schatzzelle in Blassgelb hervorgehoben auf dem Koordinatenraster',
         caption: 'Automatisch generierter Lösungsschlüssel — Blassgelbe Hervorhebung markiert die Schatzzelle',
       },

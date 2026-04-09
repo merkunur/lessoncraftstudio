@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/chart count/Gráfico de Figuras 1.webp',
+      primary: '/samples/portuguese/chart count/gráfico-de-figuras-1.webp',
       primaryAlt: 'Atividade de gráfico pictórico com grelha de ícones dispersos e gráfico de barras para os usuários contarem e representarem 6 tipos de imagens',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/chart count/Gráfico de Figuras 2.webp',
+        src: '/samples/portuguese/chart count/gráfico-de-figuras-2.webp',
         alt: 'Atividade de gráfico pictórico com tema de animais com 20 ícones de animais dispersos e gráfico de barras vazio',
         caption: 'Gráfico pictórico com tema de animais — 6 tipos de animais dispersos na grelha com gráfico de barras abaixo',
       },
       {
-        src: '/samples/portuguese/chart count/Gráfico de Figuras 3.webp',
+        src: '/samples/portuguese/chart count/gráfico-de-figuras-3.webp',
         alt: 'Gabarito do gráfico pictórico com células destacadas a amarelo mostrando as contagens corretas para cada tipo de imagem',
         caption: 'Gabarito autogerado — células preenchidas a amarelo mostrando a contagem correta para cada tipo de imagem',
       },
       {
-        src: '/samples/portuguese/chart count/Gráfico de Figuras 4.webp',
+        src: '/samples/portuguese/chart count/gráfico-de-figuras-4.webp',
         alt: 'Atividade de gráfico pictórico com tema de fundo decorativo e moldura de borda aplicados',
         caption: 'Gráfico pictórico decorado — temas de fundo e borda com controlos de opacidade independentes',
       },

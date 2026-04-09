@@ -264,22 +264,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/coloring/coloring landscape 1.webp',
+      primary: '/samples/italian/coloring/coloring-landscape-1.webp',
       primaryAlt: 'Pagina da colorare personalizzata con immagini tematiche organizzate su canvas a forma libera con cornice decorativa e campo nome per il negozio',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/coloring/coloring landscape 2.webp',
+        src: '/samples/italian/coloring/coloring-landscape-2.webp',
         alt: 'Pagina da colorare con tema animali e illustrazioni a colori organizzate liberamente sul canvas',
         caption: 'Pagina da colorare con tema animali — illustrazioni a colori organizzate liberamente sul canvas',
       },
       {
-        src: '/samples/italian/coloring/coloring landscape 3.webp',
+        src: '/samples/italian/coloring/coloring-landscape-3.webp',
         alt: 'Pagina da colorare con righe di scrittura e campo nome per uso online',
         caption: 'Pagina da colorare pronta per il negozio — campo nome e righe di pratica di scrittura inclusi',
       },
       {
-        src: '/samples/italian/coloring/coloring portrait 1.webp',
+        src: '/samples/italian/coloring/coloring-portrait-1.webp',
         alt: 'Pagina da colorare in scala di grigi con cornice decorativa pronta per stampa economica in inchiostro',
         caption: 'Esportazione in scala di grigi — pagina da colorare economica in inchiostro con tema di cornice decorativa',
       },

@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/prepositions/Pr%C3%A6positioner%201.webp', alt: 'Præpositionsarbejdsark der viser billedscener med rumlige relationsøvelser til positionsords-øvelse' },
+    heroImage: { src: '/samples/danish/prepositions/pr%c3%a6positioner%201.webp', alt: 'Præpositionsarbejdsark der viser billedscener med rumlige relationsøvelser til positionsords-øvelse' },
     samples: [
-      { src: '/samples/danish/prepositions/Pr%C3%A6positioner%201.webp', alt: 'Præpositionsarbejdsark — dansk eksempelarbejdsark', caption: 'Præpositionsarbejdsark eksempel 1' },
-      { src: '/samples/danish/prepositions/Pr%C3%A6positioner%202.webp', alt: 'Præpositionsarbejdsark — dansk eksempel 2', caption: 'Præpositionsarbejdsark eksempel 2' },
-      { src: '/samples/danish/prepositions/Pr%C3%A6positioner%203.webp', alt: 'Præpositionsarbejdsark — dansk eksempel 3', caption: 'Præpositionsarbejdsark eksempel 3' },
+      { src: '/samples/danish/prepositions/pr%c3%a6positioner%201.webp', alt: 'Præpositionsarbejdsark — dansk eksempelarbejdsark', caption: 'Præpositionsarbejdsark eksempel 1' },
+      { src: '/samples/danish/prepositions/pr%c3%a6positioner%202.webp', alt: 'Præpositionsarbejdsark — dansk eksempel 2', caption: 'Præpositionsarbejdsark eksempel 2' },
+      { src: '/samples/danish/prepositions/pr%c3%a6positioner%203.webp', alt: 'Præpositionsarbejdsark — dansk eksempel 3', caption: 'Præpositionsarbejdsark eksempel 3' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Sådan generator du præpositionsarbejdsark — Komplet vejledning',

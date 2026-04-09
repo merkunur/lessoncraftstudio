@@ -210,22 +210,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/subtraction/Subtrações Divertidas 1.webp',
+      primary: '/samples/portuguese/subtraction/subtrações-divertidas-1.webp',
       primaryAlt: 'Atividade de subtração com imagens para riscar mostrando exercícios de matemática visuais',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/subtraction/Subtrações Divertidas 1.webp',
+        src: '/samples/portuguese/subtraction/subtrações-divertidas-1.webp',
         alt: 'Atividade de subtração no modo Riscar Imagens com tema de animais mostrando imagens riscadas',
         caption: 'Modo Riscar Imagens com tema de animais',
       },
       {
-        src: '/samples/portuguese/subtraction/Subtrações Divertidas 2.webp',
+        src: '/samples/portuguese/subtraction/subtrações-divertidas-2.webp',
         alt: 'Atividade de subtração com imagens de alimentos no modo Imagem menos Número',
         caption: 'Modo Imagem − Número com tema de alimentos',
       },
       {
-        src: '/samples/portuguese/subtraction/Subtrações Divertidas 4.webp',
+        src: '/samples/portuguese/subtraction/subtrações-divertidas-4.webp',
         alt: 'Atividade de Encontrar o Subtraendo com imagens de veículos e moldura decorativa',
         caption: 'Modo Encontrar o Subtraendo com veículos e moldura',
       },

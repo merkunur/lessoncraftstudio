@@ -177,12 +177,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/swedish/addition/addition_%C3%B6vning.webp',
+      src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
       alt: 'Professionella additionsarbetsblad som representerar den utskriftskvalitet som är möjlig med alla 33 generatorer',
     },
     samples: [
       {
-        src: '/samples/swedish/addition/addition_%C3%B6vning.webp',
+        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
         alt: 'Additionsarbetsblad som visar Matematik och Tal-kategori produkter för Etsy-butiker',
         caption: 'Matematik och Tal: Additionsarbetsblad med facit redo för Etsy digital nedladdningsannonser',
       },

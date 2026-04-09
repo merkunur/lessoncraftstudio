@@ -235,22 +235,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/addition/Sjov%20Addition%201.webp',
+      primary: '/samples/danish/addition/sjov%20addition%201.webp',
       primaryAlt: 'Plusstykker til print med farverige dyrebilleder i tilstanden Billede + Billede',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/addition/Sjov%20Addition%201.webp',
+        src: '/samples/danish/addition/sjov%20addition%201.webp',
         alt: 'Plusstykker til print i tilstanden Billede + Tal med dyretema',
         caption: 'Billede + Tal tilstand — børnene kombinerer billedgrupper med tal til indskoling',
       },
       {
-        src: '/samples/danish/addition/Sjov%20Addition%202.webp',
+        src: '/samples/danish/addition/sjov%20addition%202.webp',
         alt: 'Plusstykker til print i Blandet Tilstand med madtema',
         caption: 'Blandet Tilstand — kombinerer alle øvelsestyper for varieret regneopgaver',
       },
       {
-        src: '/samples/danish/addition/Sjov%20Addition%203.webp',
+        src: '/samples/danish/addition/sjov%20addition%203.webp',
         alt: 'Plusstykker i tilstanden Find Leddet med køretøjstema',
         caption: 'Find Leddet tilstand — børnene finder den manglende gruppe for tidlig algebraisk tænkning',
       },

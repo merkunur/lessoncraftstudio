@@ -172,22 +172,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/matching/Trouve les Paires 1.webp',
+      src: '/samples/french/matching/trouve-les-paires-1.webp',
       alt: 'Fiche d\'association professionnelle démontrant la qualité produit qui génère des avis positifs',
     },
     samples: [
       {
-        src: '/samples/french/matching/Trouve les Paires 1.webp',
+        src: '/samples/french/matching/trouve-les-paires-1.webp',
         alt: 'Fiche d\'association montrant la qualité visuelle qui génère des avis positifs',
         caption: 'Des fiches d\'association de haute qualité génèrent naturellement des avis positifs grâce à leur attrait visuel et leur valeur éducative',
       },
       {
-        src: '/samples/french/coloring/coloring portrait 1.webp',
+        src: '/samples/french/coloring/coloring-portrait-1.webp',
         alt: 'Page de coloriage démontrant la qualité de design professionnelle qui motive les retours acheteurs',
         caption: 'Les pages de coloriage professionnelles génèrent des avis car les acheteurs peuvent immédiatement voir et apprécier la qualité du design',
       },
       {
-        src: '/samples/french/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/mots-caches-1.webp',
         alt: 'Grille de mots cachés montrant le format de produit populaire qui génère un volume élevé d\'avis',
         caption: 'Les mots cachés génèrent un volume de ventes élevé et des taux d\'avis positifs constants à travers les groupes d\'âge',
       },

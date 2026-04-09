@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés adapté à la vente comme téléchargement numérique Etsy ou compilation en livre de puzzles Amazon KDP' },
+    heroImage: { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés adapté à la vente comme téléchargement numérique Etsy ou compilation en livre de puzzles Amazon KDP' },
     samples: [
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés thématique animaux pour Etsy et KDP', caption: 'Les puzzles de mots cachés se vendent sur les deux plateformes — comme téléchargements numériques individuels sur Etsy et compilés en livres de puzzles sur KDP' },
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition pour téléchargement numérique Etsy ou livre d\'activités KDP', caption: 'Les fiches de mathématiques fonctionnent comme pages individuelles et petits packs Etsy ou compilées en livres d\'activités mathématiques KDP' },
-      { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Page de coloriage pour vente sur Etsy et KDP', caption: 'Les pages de coloriage sont une catégorie phare sur les deux plateformes — téléchargements individuels sur Etsy et livres de coloriage sur KDP' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés thématique animaux pour Etsy et KDP', caption: 'Les puzzles de mots cachés se vendent sur les deux plateformes — comme téléchargements numériques individuels sur Etsy et compilés en livres de puzzles sur KDP' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition pour téléchargement numérique Etsy ou livre d\'activités KDP', caption: 'Les fiches de mathématiques fonctionnent comme pages individuelles et petits packs Etsy ou compilées en livres d\'activités mathématiques KDP' },
+      { src: '/samples/french/coloring/coloring-portrait-1.webp', alt: 'Page de coloriage pour vente sur Etsy et KDP', caption: 'Les pages de coloriage sont une catégorie phare sur les deux plateformes — téléchargements individuels sur Etsy et livres de coloriage sur KDP' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Comment créer des fiches imprimables pour Etsy et Amazon KDP — Tutoriel étape par étape',

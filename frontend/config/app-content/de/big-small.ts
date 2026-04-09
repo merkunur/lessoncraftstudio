@@ -267,22 +267,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/big small/big-small-worksheet_worksheet.webp',
+      primary: '/samples/german/big small/big-small-worksheet-worksheet.webp',
       primaryAlt: 'Groß-Klein-Größenvergleich-Arbeitsblatt mit thematischen Bildern in verschiedenen Größen im Kreise-das-Große-ein-Modus',
     },
     sampleGallery: [
       {
-        src: '/samples/german/big small/big-small-worksheet_worksheet.webp',
+        src: '/samples/german/big small/big-small-worksheet-worksheet.webp',
         alt: 'Größenvergleich-Arbeitsblatt im Kreise-das-Große-ein-Modus mit thematischen Tierbildern in verschiedenen Größen',
         caption: 'Kreise das Große ein — Lernende identifizieren das größte Bild in jeder Übung',
       },
       {
-        src: '/samples/german/big small/big-small-worksheet_answer_key.webp',
+        src: '/samples/german/big small/big-small-worksheet-answer-key.webp',
         alt: 'Größenvergleich-Arbeitsblatt im Nummerierungsmodus mit drei Bildern zur Sortierung vom Kleinsten zum Größten',
         caption: 'Nummeriere 1–2–3 Klein nach Groß — Lernende ordnen Bilder nach Größe vom Kleinsten zum Größten',
       },
       {
-        src: '/samples/german/big small/big-small-worksheet_worksheet.webp',
+        src: '/samples/german/big small/big-small-worksheet-worksheet.webp',
         alt: 'Größenvergleich-Arbeitsblatt im Identische-Bilder-Modus mit demselben Bild in drei verschiedenen Größen',
         caption: 'Identische-Bilder-Modus — dasselbe Bild in verschiedenen Größen für reine Größenwahrnehmungs-Übungen',
       },

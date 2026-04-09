@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Yhdistämistyöarkki, joka osoittaa johdonmukaisen tuoteformaatin tulostettavalle tuotelinjalle' },
+    heroImage: { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistämistyöarkki, joka osoittaa johdonmukaisen tuoteformaatin tulostettavalle tuotelinjalle' },
     samples: [
-      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Yhdistämistyöarkki, joka näyttää johdonmukaisen formaatin eri teemoilla tuotelinjan rakentamiseen', caption: 'Yhdistämistyöarkit ylläpitävät saman ammattimaisen formaatin kaikilla teemoilla — visuaalisesti johdonmukaisen tuotelinjan perusta' },
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki, joka edustaa matemaattista tuotelinjaa progressiivisilla vaikeustasoilla', caption: 'Matemaattiset työarkit useilla vaikeustasoilla luovat progressiivisen syvyyden tuotelinjassa' },
+      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistämistyöarkki, joka näyttää johdonmukaisen formaatin eri teemoilla tuotelinjan rakentamiseen', caption: 'Yhdistämistyöarkit ylläpitävät saman ammattimaisen formaatin kaikilla teemoilla — visuaalisesti johdonmukaisen tuotelinjan perusta' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki, joka edustaa matemaattista tuotelinjaa progressiivisilla vaikeustasoilla', caption: 'Matemaattiset työarkit useilla vaikeustasoilla luovat progressiivisen syvyyden tuotelinjassa' },
       { src: '/samples/finnish/coloring/coloring%20portrait%202.webp', alt: 'Värityskuva, joka osoittaa visuaalisen johdonmukaisuuden eri temaattisissa tuotevariaatioissa', caption: 'Värityskuvat eri teemoilla osoittavat, miten tuotelinja ylläpitää visuaalista koheesiota tarjoten vaihtelua' },
     ],
     youtubeId: 'y3ghkjt_67s',

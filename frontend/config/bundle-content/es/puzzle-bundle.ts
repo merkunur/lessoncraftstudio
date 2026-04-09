@@ -196,14 +196,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/missing pieces/Piezas Perdidas 1.webp',
+      primary: '/samples/spanish/missing pieces/piezas-perdidas-1.webp',
       primaryAlt: 'Ficha de puzzle de piezas faltantes con segmentos de cuadrícula eliminados para desafío de razonamiento espacial',
     },
     sampleGallery: [
-      { src: '/samples/spanish/missing pieces/Piezas Perdidas 1.webp', alt: 'Puzzle de piezas faltantes con segmentos de cuadrícula de imagen eliminados', caption: 'Puzzle de Piezas Faltantes' },
-      { src: '/samples/spanish/odd one out/Encuentra el Diferente 1.webp', alt: 'Ficha de encuentra el diferente con filas de imágenes similares y una diferente', caption: 'Ficha Encuentra el Diferente' },
-      { src: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp', alt: 'Puzzle de sudoku 4×4 con imágenes temáticas en lugar de números', caption: 'Puzzle de Sudoku de Imágenes' },
-      { src: '/samples/spanish/picture path/Camino de Imágenes 1.webp', alt: 'Laberinto de recorrido de imágenes con ruta temática a través de cuadrícula', caption: 'Laberinto de Recorrido de Imágenes' },
+      { src: '/samples/spanish/missing pieces/piezas-perdidas-1.webp', alt: 'Puzzle de piezas faltantes con segmentos de cuadrícula de imagen eliminados', caption: 'Puzzle de Piezas Faltantes' },
+      { src: '/samples/spanish/odd one out/encuentra-el-diferente-1.webp', alt: 'Ficha de encuentra el diferente con filas de imágenes similares y una diferente', caption: 'Ficha Encuentra el Diferente' },
+      { src: '/samples/spanish/sudoku/sudoku-de-imágenes-1.webp', alt: 'Puzzle de sudoku 4×4 con imágenes temáticas en lugar de números', caption: 'Puzzle de Sudoku de Imágenes' },
+      { src: '/samples/spanish/picture path/camino-de-imágenes-1.webp', alt: 'Laberinto de recorrido de imágenes con ruta temática a través de cuadrícula', caption: 'Laberinto de Recorrido de Imágenes' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Paquete Puzzles y Lógica — Los 4 Generadores en Acción',

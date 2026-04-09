@@ -191,7 +191,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Djurtematiserat ordsökningspussel formaterat för KDP ordsökningsbok', caption: 'Tematiskt djurordsökningspussel — tematiska ordlistor skapar engagerande innehåll som överträffar slumpmässiga ordsamlingar' },
       { src: '/samples/swedish/wordsearch/ordletning%20landscape.webp', alt: 'Mattematiserat ordsökningspussel för KDP-bok', caption: 'Mattematiserad ordsökning — tematiska sektioner lägger till redaktionell struktur som skiljer professionella böcker' },
-      { src: '/samples/swedish/crossword/Bildkorsord%201.webp', alt: 'Korsordspussel för kompanjon KDP-pusselkatalog', caption: 'Korsordspussel — kompanjonpusseltyp för katalogdiversifiering och korsmarknadsföring' },
+      { src: '/samples/swedish/crossword/bildkorsord%201.webp', alt: 'Korsordspussel för kompanjon KDP-pusselkatalog', caption: 'Korsordspussel — kompanjonpusseltyp för katalogdiversifiering och korsmarknadsföring' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hur du skapar ordsökningspussel för Amazon KDP-böcker — steg-för-steg-guide',

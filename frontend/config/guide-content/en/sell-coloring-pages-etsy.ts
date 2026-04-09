@@ -180,10 +180,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Professional coloring page created with LessonCraftStudio for selling on Etsy' },
+    heroImage: { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Professional coloring page created with LessonCraftStudio for selling on Etsy' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Printable coloring page ready for Etsy digital download', caption: 'A themed coloring page exported as a 300 DPI print-ready PDF for Etsy listings' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page bundle layout for Etsy shop', caption: 'Multiple coloring pages from a themed collection bundled for higher average order value' },
+      { src: '/samples/english/coloring/coloring-portrait-2.webp', alt: 'Printable coloring page ready for Etsy digital download', caption: 'A themed coloring page exported as a 300 DPI print-ready PDF for Etsy listings' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page bundle layout for Etsy shop', caption: 'Multiple coloring pages from a themed collection bundled for higher average order value' },
     ],
   },
 

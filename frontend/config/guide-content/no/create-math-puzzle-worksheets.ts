@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/math%20puzzle/Mattepuslespill%201.webp', alt: 'Mattepuslespill-arbeidsark som viser stokrede bildebiter med mattelikninger for barn a lose og sette sammen igjen' },
+    heroImage: { src: '/samples/norwegian/math%20puzzle/mattepuslespill%201.webp', alt: 'Mattepuslespill-arbeidsark som viser stokrede bildebiter med mattelikninger for barn a lose og sette sammen igjen' },
     samples: [
-      { src: '/samples/norwegian/math%20puzzle/Mattepuslespill%201.webp', alt: 'Mattepuslespill-arbeidsark med dyretema som viser rutenettlikninger og nummererte bildefragmenter', caption: 'Mattepuslespill-arbeidsark — barn loser likninger for a bestemme hvor hver nummererte bildebit horer hjemme i rutenettet' },
-      { src: '/samples/norwegian/math%20puzzle/Mattepuslespill%201.webp', alt: 'Mattepuslespill-fasit som viser rekonstruert bilde med loste likninger', caption: 'Automatisk fasit som viser det rekonstruerte bildet pa 30 prosent gjennomsiktighet med komplett loste likninger' },
+      { src: '/samples/norwegian/math%20puzzle/mattepuslespill%201.webp', alt: 'Mattepuslespill-arbeidsark med dyretema som viser rutenettlikninger og nummererte bildefragmenter', caption: 'Mattepuslespill-arbeidsark — barn loser likninger for a bestemme hvor hver nummererte bildebit horer hjemme i rutenettet' },
+      { src: '/samples/norwegian/math%20puzzle/mattepuslespill%201.webp', alt: 'Mattepuslespill-fasit som viser rekonstruert bilde med loste likninger', caption: 'Automatisk fasit som viser det rekonstruerte bildet pa 30 prosent gjennomsiktighet med komplett loste likninger' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Hvordan lage mattepuslespill-arbeidsark — komplett veiledning',

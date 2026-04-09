@@ -215,16 +215,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+      primary: '/samples/spanish/wordsearch/sopa-de-letras-1.webp',
       primaryAlt: 'Ficha de sopa de letras con cuadrícula de vocabulario temático y clave de respuesta codificada por colores',
     },
     sampleGallery: [
-      { src: '/samples/spanish/alphabet train/Tren del Alfabeto 1.webp', alt: 'Ficha de tren del abecedario con vagones de asociación letra-imagen', caption: 'Ficha Tren del Abecedario' },
-      { src: '/samples/spanish/prepositions/Preposiciones 1.webp', alt: 'Ficha de preposiciones mostrando relaciones espaciales con imágenes', caption: 'Ficha de Preposiciones' },
-      { src: '/samples/spanish/word guess/Adivina la Palabra 1.webp', alt: 'Ficha de adivinar palabras con pistas de imágenes y espacios para letras', caption: 'Ficha de Adivinar Palabras' },
-      { src: '/samples/spanish/word scramble/Palabras Revueltas 1.webp', alt: 'Ficha de letras revueltas con fichas de letras codificadas por color', caption: 'Ficha de Letras Revueltas' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Cuadrícula de sopa de letras con palabras de vocabulario ocultas', caption: 'Ficha de Sopa de Letras' },
-      { src: '/samples/spanish/cryptogram/Criptograma de Dibujos 1.webp', alt: 'Puzzle de criptograma con cifrado de imágenes', caption: 'Ficha de Criptograma' },
+      { src: '/samples/spanish/alphabet train/tren-del-alfabeto-1.webp', alt: 'Ficha de tren del abecedario con vagones de asociación letra-imagen', caption: 'Ficha Tren del Abecedario' },
+      { src: '/samples/spanish/prepositions/preposiciones-1.webp', alt: 'Ficha de preposiciones mostrando relaciones espaciales con imágenes', caption: 'Ficha de Preposiciones' },
+      { src: '/samples/spanish/word guess/adivina-la-palabra-1.webp', alt: 'Ficha de adivinar palabras con pistas de imágenes y espacios para letras', caption: 'Ficha de Adivinar Palabras' },
+      { src: '/samples/spanish/word scramble/palabras-revueltas-1.webp', alt: 'Ficha de letras revueltas con fichas de letras codificadas por color', caption: 'Ficha de Letras Revueltas' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Cuadrícula de sopa de letras con palabras de vocabulario ocultas', caption: 'Ficha de Sopa de Letras' },
+      { src: '/samples/spanish/cryptogram/criptograma-de-dibujos-1.webp', alt: 'Puzzle de criptograma con cifrado de imágenes', caption: 'Ficha de Criptograma' },
       { src: '/samples/spanish/writing/writing.webp', alt: 'Ficha de práctica de escritura con trazos de letras guiados', caption: 'Ficha de Escritura' },
     ],
     youtubeId: '36keBFzJbPo',

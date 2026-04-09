@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda cerca parole che dimostra contenuti tematici di nicchia per attività di stampabili' },
+    heroImage: { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Scheda cerca parole che dimostra contenuti tematici di nicchia per attività di stampabili' },
     samples: [
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole tematico che mostra l\'applicazione della nicchia su diversi argomenti', caption: 'I puzzle cerca parole si adattano a qualsiasi tema di nicchia — animali, festività, materie e temi stagionali funzionano tutti con lo stesso formato di prodotto' },
-      { src: '/samples/italian/coloring/coloring portrait 2.webp', alt: 'Pagina da colorare che dimostra la versatilità del prodotto di nicchia visivo', caption: 'Le pagine da colorare sono tra i prodotti di nicchia più versatili, attraendo tutte le fasce d\'età e applicandosi a praticamente qualsiasi tema visivo' },
-      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento che mostra la varietà del prodotto di nicchia educativo', caption: 'Le attività di abbinamento funzionano in nicchie educative dal vocabolario alla matematica — un singolo tipo di prodotto che valida rapidamente la domanda della nicchia' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Puzzle cerca parole tematico che mostra l\'applicazione della nicchia su diversi argomenti', caption: 'I puzzle cerca parole si adattano a qualsiasi tema di nicchia — animali, festività, materie e temi stagionali funzionano tutti con lo stesso formato di prodotto' },
+      { src: '/samples/italian/coloring/coloring-portrait-2.webp', alt: 'Pagina da colorare che dimostra la versatilità del prodotto di nicchia visivo', caption: 'Le pagine da colorare sono tra i prodotti di nicchia più versatili, attraendo tutte le fasce d\'età e applicandosi a praticamente qualsiasi tema visivo' },
+      { src: '/samples/italian/matching/trova-le-coppie-1.webp', alt: 'Scheda di abbinamento che mostra la varietà del prodotto di nicchia educativo', caption: 'Le attività di abbinamento funzionano in nicchie educative dal vocabolario alla matematica — un singolo tipo di prodotto che valida rapidamente la domanda della nicchia' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Puzzle Cerca Parole per Qualsiasi Tema di Nicchia',

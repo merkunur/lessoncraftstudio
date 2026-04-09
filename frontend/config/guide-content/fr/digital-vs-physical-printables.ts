@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/addition/Addition Amusant 1.webp',
+      src: '/samples/french/addition/addition-amusant-1.webp',
       alt: 'Fiche d\'addition professionnelle démontrant la création de produits imprimables numériques pour les formats téléchargement numérique et impression physique',
     },
     samples: [
       {
-        src: '/samples/french/addition/Addition Amusant 1.webp',
+        src: '/samples/french/addition/addition-amusant-1.webp',
         alt: 'Fiche d\'addition montrant un produit imprimable numérique adapté au téléchargement et à l\'impression physique',
         caption: 'Les fiches de maths fonctionnent bien en téléchargements numériques et comme pages de cahiers imprimés',
       },
       {
-        src: '/samples/french/coloring/coloring portrait 1.webp',
+        src: '/samples/french/coloring/coloring-portrait-1.webp',
         alt: 'Page de coloriage démontrant un type de produit populaire aux formats numérique et physique',
         caption: 'Les pages de coloriage sont des très demandés aux formats téléchargement numérique et livre en impression à la demande',
       },
       {
-        src: '/samples/french/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/mots-caches-1.webp',
         alt: 'Puzzle de mots cachés montrant un produit idéal pour la vente hybride numérique et physique',
         caption: 'Les mots cachés se vendent individuellement en téléchargements numériques et compilés en livres de puzzles physiques',
       },

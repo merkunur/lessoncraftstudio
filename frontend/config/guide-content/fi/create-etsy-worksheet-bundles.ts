@@ -140,11 +140,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%202.webp', alt: 'Yhteenlaskutyöarkki joka näyttää opetuksellisten tulostettavien pakettien ydinkomponentin Etsy-myyjille' },
+    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%202.webp', alt: 'Yhteenlaskutyöarkki joka näyttää opetuksellisten tulostettavien pakettien ydinkomponentin Etsy-myyjille' },
     samples: [
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki matematiikkapaketin komponenttina Etsyyn', caption: 'Yhteenlaskutyöarkki eläinteemalla — ydinkomponentti Etsy-matematiikkapaketeille' },
-      { src: '/samples/finnish/subtraction/Hauskaa%20V%C3%A4hennyslaskua%201.webp', alt: 'Eläinteemainen vähennystyöarkki täydentäen yhteenlaskua Etsy-matematiikkapaketeissa', caption: 'Vähennystyöarkki eläinteemalla — täydentää yhteenlaskutyöarkkeja kokonaisissa matematiikkapaketeissa' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Eläin-sananetsintäpulma lisäten aineiden välistä vaihtelua Etsy-työarkkipaketteihin', caption: 'Sananetsintäpulma eläinteemalla — lisää lukutaidon arvoa aineiden välisiin teemapaketteihin' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki matematiikkapaketin komponenttina Etsyyn', caption: 'Yhteenlaskutyöarkki eläinteemalla — ydinkomponentti Etsy-matematiikkapaketeille' },
+      { src: '/samples/finnish/subtraction/hauskaa%20v%c3%a4hennyslaskua%201.webp', alt: 'Eläinteemainen vähennystyöarkki täydentäen yhteenlaskua Etsy-matematiikkapaketeissa', caption: 'Vähennystyöarkki eläinteemalla — täydentää yhteenlaskutyöarkkeja kokonaisissa matematiikkapaketeissa' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Eläin-sananetsintäpulma lisäten aineiden välistä vaihtelua Etsy-työarkkipaketteihin', caption: 'Sananetsintäpulma eläinteemalla — lisää lukutaidon arvoa aineiden välisiin teemapaketteihin' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Kuinka luot yhteenlaskutyöarkkeja Etsy-paketteihin — Monituotepaketti strategia',

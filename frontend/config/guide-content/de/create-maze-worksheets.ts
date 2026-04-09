@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/picture path/Bilderpfad 1.webp', alt: 'Labyrinth-Arbeitsblatt mit einem thematischen Bilderpfad-Aktivität mit Start- und Zielbildern für Kinder' },
+    heroImage: { src: '/samples/german/picture path/bilderpfad-1.webp', alt: 'Labyrinth-Arbeitsblatt mit einem thematischen Bilderpfad-Aktivität mit Start- und Zielbildern für Kinder' },
     samples: [
-      { src: '/samples/german/picture path/Bilderpfad 1.webp', alt: 'Bilderpfad-Labyrinth-Arbeitsblatt mit thematischen Bildern für Vorschule und Kindergarten', caption: 'Bilderpfad-Modus: Kinder folgen einem visuellen Pfad vom Startbild zum Zielbild durch thematische Dekorationen' },
-      { src: '/samples/german/picture path/Bilderpfad 1.webp', alt: 'Klassisches Labyrinth-Arbeitsblatt mit Sammelbild-Zählung und Lösungsschlüssel', caption: 'Klassisches Labyrinth mit Sammelbildern und automatischem Lösungsschlüssel, der den Lösungspfad und Zählungen zeigt' },
+      { src: '/samples/german/picture path/bilderpfad-1.webp', alt: 'Bilderpfad-Labyrinth-Arbeitsblatt mit thematischen Bildern für Vorschule und Kindergarten', caption: 'Bilderpfad-Modus: Kinder folgen einem visuellen Pfad vom Startbild zum Zielbild durch thematische Dekorationen' },
+      { src: '/samples/german/picture path/bilderpfad-1.webp', alt: 'Klassisches Labyrinth-Arbeitsblatt mit Sammelbild-Zählung und Lösungsschlüssel', caption: 'Klassisches Labyrinth mit Sammelbildern und automatischem Lösungsschlüssel, der den Lösungspfad und Zählungen zeigt' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'Labyrinth-Arbeitsblätter erstellen — Vollständiges Tutorial',

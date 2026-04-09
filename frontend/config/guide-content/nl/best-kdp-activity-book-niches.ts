@@ -193,8 +193,8 @@ const content: GuideContent = {
     heroImage: { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Kleurplaat werkblad dat een breed-aantrekkelijke KDP activiteitenboek niche demonstreert voor uitgevers' },
     samples: [
       { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Kleurboekinhoud dat een van de grootste KDP activiteitenboek niches vertegenwoordigt', caption: 'Kleurboeken — een enorme KDP-niche die kinder-, volwassen- en thematische edities omspant met sterke jaar-rond vraag' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoekerpuzzel die thematische sub-nichetargeting demonstreert binnen de puzzelcategorie', caption: 'Thematische woordzoekers — sub-nichetargeting door dieren-, reis- en feestdagenthema\'s vermindert concurrentie terwijl sterke vraag behouden blijft' },
-      { src: '/samples/dutch/math%20worksheet/Wiskundeblad%201.webp', alt: 'Rekenwerkblad dat niveaucategorie doelgroepsegmentatie toont voor KDP-nichestrategie', caption: 'Rekenwerkboeken — doelgroepsegmentatie per niveaucategorie en bewerkingstype creëert tientallen aparte sub-niches uit één categorie' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekerpuzzel die thematische sub-nichetargeting demonstreert binnen de puzzelcategorie', caption: 'Thematische woordzoekers — sub-nichetargeting door dieren-, reis- en feestdagenthema\'s vermindert concurrentie terwijl sterke vraag behouden blijft' },
+      { src: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp', alt: 'Rekenwerkblad dat niveaucategorie doelgroepsegmentatie toont voor KDP-nichestrategie', caption: 'Rekenwerkboeken — doelgroepsegmentatie per niveaucategorie en bewerkingstype creëert tientallen aparte sub-niches uit één categorie' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hoe Rekenwerkbladen Maken voor KDP Activiteitenboeken — Niche Inhoudcreatie Tutorial',

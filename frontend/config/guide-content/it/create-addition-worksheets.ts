@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione con immagini tematiche che mostra esercizi di conteggio visivo per bambini' },
+    heroImage: { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda di addizione con immagini tematiche che mostra esercizi di conteggio visivo per bambini' },
     samples: [
-      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione basata su immagini con tema animali per la scuola dell\'infanzia', caption: 'Scheda di addizione per la scuola dell\'infanzia con tema animali della fattoria in modalità Immagine + Immagine' },
-      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione con foglio risposte che mostra le soluzioni corrette', caption: 'Foglio risposte automatico generato insieme a ogni scheda di addizione' },
+      { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda di addizione basata su immagini con tema animali per la scuola dell\'infanzia', caption: 'Scheda di addizione per la scuola dell\'infanzia con tema animali della fattoria in modalità Immagine + Immagine' },
+      { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda di addizione con foglio risposte che mostra le soluzioni corrette', caption: 'Foglio risposte automatico generato insieme a ogni scheda di addizione' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Come Creare Schede di Addizione — Tutorial Completo',

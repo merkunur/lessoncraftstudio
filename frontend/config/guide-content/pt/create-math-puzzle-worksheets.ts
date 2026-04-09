@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp', alt: 'Atividade de puzzle matemático mostrando peças de imagem desordenadas com equações matemáticas para as crianças resolverem e reconstruírem' },
+    heroImage: { src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-1.webp', alt: 'Atividade de puzzle matemático mostrando peças de imagem desordenadas com equações matemáticas para as crianças resolverem e reconstruírem' },
     samples: [
-      { src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 2.webp', alt: 'Atividade de puzzle matemático com tema de animais mostrando equações de grelha e fragmentos de imagem numerados', caption: 'Atividade de puzzle matemático — as crianças resolvem equações para determinar onde pertence cada peça de imagem numerada na grelha' },
-      { src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 3.webp', alt: 'Chave de respostas do puzzle matemático mostrando a imagem reconstruída com equações resolvidas', caption: 'Chave de respostas automática mostrando a imagem reconstruída a 30% de opacidade com as equações completas resolvidas' },
+      { src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-2.webp', alt: 'Atividade de puzzle matemático com tema de animais mostrando equações de grelha e fragmentos de imagem numerados', caption: 'Atividade de puzzle matemático — as crianças resolvem equações para determinar onde pertence cada peça de imagem numerada na grelha' },
+      { src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-3.webp', alt: 'Chave de respostas do puzzle matemático mostrando a imagem reconstruída com equações resolvidas', caption: 'Chave de respostas automática mostrando a imagem reconstruída a 30% de opacidade com as equações completas resolvidas' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Como criar atividades de puzzles matemáticos — Tutorial completo',

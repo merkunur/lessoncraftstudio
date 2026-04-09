@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/missing%20pieces/Manglende%20Deler%201.webp', alt: 'Puslespillarbeidsark med hull klippet fra en fargerik illustrasjon og nummererte losningsalternativer inkludert distraktorer nedenfor med turkis Manglende biter-overskrift og dobbel rammeinnramming' },
+    heroImage: { src: '/samples/norwegian/missing%20pieces/manglende%20deler%201.webp', alt: 'Puslespillarbeidsark med hull klippet fra en fargerik illustrasjon og nummererte losningsalternativer inkludert distraktorer nedenfor med turkis Manglende biter-overskrift og dobbel rammeinnramming' },
     samples: [
-      { src: '/samples/norwegian/missing%20pieces/Manglende%20Deler%201.webp', alt: 'Manglende biter-puslespillarbeidsark som viser et bilde med hull klippet ut og nummererte losningsalternativer vist nedenfor med dobbel rammeoverskrift', caption: 'Puslespillarbeidsark med smart-utvunnede biter og nummererte losningsalternativer inkludert distraktorer' },
-      { src: '/samples/norwegian/missing%20pieces/Manglende%20Deler%202.webp', alt: 'Autogenerert fasit med gulmarkerte nummeretiketter plassert inne i hvert hull som viser korrekt alternativindeks', caption: 'Autogenerert fasit med gulmarkerte etiketter som viser korrekt alternativ for hvert hull' },
+      { src: '/samples/norwegian/missing%20pieces/manglende%20deler%201.webp', alt: 'Manglende biter-puslespillarbeidsark som viser et bilde med hull klippet ut og nummererte losningsalternativer vist nedenfor med dobbel rammeoverskrift', caption: 'Puslespillarbeidsark med smart-utvunnede biter og nummererte losningsalternativer inkludert distraktorer' },
+      { src: '/samples/norwegian/missing%20pieces/manglende%20deler%202.webp', alt: 'Autogenerert fasit med gulmarkerte nummeretiketter plassert inne i hvert hull som viser korrekt alternativindeks', caption: 'Autogenerert fasit med gulmarkerte etiketter som viser korrekt alternativ for hvert hull' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Hvordan lage manglende biter-puslespill — komplett veiledning',

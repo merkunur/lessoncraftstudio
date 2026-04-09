@@ -253,22 +253,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp',
+      primary: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-1.webp',
       primaryAlt: 'Atividade de puzzle matemático com uma imagem colorida dividida em peças de quadrícula, cada uma com um problema de adição',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 2.webp',
+        src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-2.webp',
         alt: 'Atividade de puzzle matemático com quadrícula 3×3 de adição e tema de animais',
         caption: 'Modo Adição — quadrícula 3×3 com 9 peças de puzzle e respostas desordenadas abaixo',
       },
       {
-        src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 3.webp',
+        src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-3.webp',
         alt: 'Atividade de puzzle matemático com quadrícula 2×3 de subtração e tema de natureza',
         caption: 'Modo Subtração — quadrícula 2×3 para um desafio rápido de 6 peças',
       },
       {
-        src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 4.webp',
+        src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-4.webp',
         alt: 'Atividade de puzzle matemático com quadrícula 4×4 de operações mistas e tema de veículos',
         caption: 'Modo Misto — quadrícula 4×4 com 16 peças para prática avançada de resolução de problemas',
       },

@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 1.webp',
+      src: '/samples/english/addition/addition-fun-1.webp',
       alt: 'Professionellt additionsarbetsblad som demonstrerar digitalt utskriftsbart produktskapande för både digital nedladdning och fysiska utskriftsformat',
     },
     samples: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/english/addition/addition-fun-1.webp',
         alt: 'Additionsarbetsblad som visar digital utskriftsbar produkt lämplig för både nedladdning och fysisk utskrift',
         caption: 'Mattearbetsblad fungerar bra som digitala nedladdningar och som sidor i tryckta arbetsböcker',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/english/coloring/coloring-portrait-1.webp',
         alt: 'Målarbild som demonstrerar produkttyp populär i både digitalt och fysiskt format',
         caption: 'Målarbilder är toppensäljare i både digitalt nedladdnings- och print-on-demand-bokformat',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/english/wordsearch/wordsearch-portrait.webp',
         alt: 'Ordsökspussel som visar produkt ideal för hybrid digital och fysisk försäljning',
         caption: 'Ordsökspussel säljs individuellt som digitala nedladdningar och samlade i fysiska pusselböcker',
       },

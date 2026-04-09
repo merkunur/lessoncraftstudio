@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/matching/Trouve les Paires 1.webp',
+      src: '/samples/french/matching/trouve-les-paires-1.webp',
       alt: 'Fiche d\'association professionnelle démontrant un design produit clair qui prévient les problèmes de support client',
     },
     samples: [
       {
-        src: '/samples/french/matching/Trouve les Paires 1.webp',
+        src: '/samples/french/matching/trouve-les-paires-1.webp',
         alt: 'Fiche d\'association montrant une mise en page claire et des instructions qui réduisent les questions des acheteurs',
         caption: 'Un design de fiche clair et des descriptions de produits complètes préviennent les demandes de support courantes',
       },
       {
-        src: '/samples/french/addition/Addition Amusant 1.webp',
+        src: '/samples/french/addition/addition-amusant-1.webp',
         alt: 'Fiche d\'addition avec un formatage professionnel qui fixe des attentes précises pour les acheteurs',
         caption: 'Un formatage professionnel et des spécifications détaillées éliminent les problèmes de décalage d\'attentes',
       },
       {
-        src: '/samples/french/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/mots-caches-1.webp',
         alt: 'Puzzle de mots cachés avec contenu thématique démontrant la clarté produit pour les acheteurs',
         caption: 'Les produits riches en contenu bénéficient le plus d\'une documentation complète et d\'un support self-service',
       },

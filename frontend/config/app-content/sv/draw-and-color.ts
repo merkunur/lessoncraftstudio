@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/draw%20and%20color/Rita%20och%20F%C3%A4rgl%C3%A4gg%201.webp',
+      primary: '/samples/swedish/draw%20and%20color/rita%20och%20f%c3%a4rgl%c3%a4gg%201.webp',
       primaryAlt: 'Rutritningsarbetsblad med dubbelt rutnätssystem som visar övningsrutnät och ledtrådsrutnät med svartvitt konturtema',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/draw%20and%20color/Rita%20och%20F%C3%A4rgl%C3%A4gg%201.webp',
+        src: '/samples/swedish/draw%20and%20color/rita%20och%20f%c3%a4rgl%c3%a4gg%201.webp',
         alt: 'Rutnätsritningsarbetsblad med djur svartvitt konturtema som visar övningsrutnät och ledtrådsrutnät',
         caption: 'Djurtema — användarna reproducerar konturen cell-för-cell från ledtrådsrutnätets ledtrådar',
       },
       {
-        src: '/samples/swedish/draw%20and%20color/Rita%20och%20F%C3%A4rgl%C3%A4gg%203.webp',
+        src: '/samples/swedish/draw%20and%20color/rita%20och%20f%c3%a4rgl%c3%a4gg%203.webp',
         alt: 'Rutnätsritningsarbetsblad med horisontellt symmetrispegelläge och ledtrådsceller speglade vänster-till-höger',
         caption: 'Horisontellt symmetriläge — ledtrådsceller speglas vänster-till-höger för rumsligt resonemang',
       },
       {
-        src: '/samples/swedish/draw%20and%20color/Rita%20och%20F%C3%A4rgl%C3%A4gg%205.webp',
+        src: '/samples/swedish/draw%20and%20color/rita%20och%20f%c3%a4rgl%c3%a4gg%205.webp',
         alt: 'Rutnätsritningsarbetsblad med låg ledtrådsprocent som visar minimala referensceller för expertutmaning',
         caption: 'Låg ledtrådsprocent — minimala referensceller för expertnivå rutnätsreproduktion',
       },

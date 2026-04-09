@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/bingo/Loto d\'Images 1.webp',
+      src: '/samples/french/bingo/Loto d\'images-1.webp',
       alt: 'Carton de bingo professionnel démontrant des produits imprimables visuellement attrayants idéaux pour le marketing sur les réseaux sociaux',
     },
     samples: [
       {
-        src: '/samples/french/bingo/Loto d\'Images 1.webp',
+        src: '/samples/french/bingo/Loto d\'images-1.webp',
         alt: 'Carton de bingo montrant un produit imprimable très partageable pour le contenu sur les réseaux sociaux',
         caption: 'Les produits visuellement attrayants comme les cartons de bingo créent du contenu percutant pour les réseaux sociaux qui génère de l\'engagement',
       },
       {
-        src: '/samples/french/coloring/coloring portrait 1.webp',
+        src: '/samples/french/coloring/coloring-portrait-1.webp',
         alt: 'Page de coloriage démontrant un produit imprimable photogénique pour Instagram et Pinterest',
         caption: 'Les pages de coloriage se photographient magnifiquement pour les vitrines flat-lay de produits sur les plateformes visuelles',
       },
       {
-        src: '/samples/french/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/mots-caches-1.webp',
         alt: 'Puzzle de mots cachés montrant un type de produit imprimable populaire avec un fort attrait sur les réseaux sociaux',
         caption: 'Les mots cachés attirent un large engagement de l\'audience et performent bien sur les plateformes de réseaux sociaux',
       },

@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/word%20guess/G%C3%A6t%20Ordet%201.webp',
+      primary: '/samples/danish/word%20guess/g%c3%a6t%20ordet%201.webp',
       primaryAlt: 'Gratis galge-opgave generator online — gæt ordet med temaord, billeder og automatisk facit',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/word%20guess/Gæt%20Ordet%201.webp',
+        src: '/samples/danish/word%20guess/gæt%20ordet%201.webp',
         alt: 'Gratis galge-opgaver med billedledetråde og delvist udfyldte bogstavsgitre — prøv online',
         caption: 'Billedbaserede gæt ordet øvelser med progressive ledetrådsniveauer',
       },
       {
-        src: '/samples/danish/word%20guess/Gæt%20Ordet%202.webp',
+        src: '/samples/danish/word%20guess/gæt%20ordet%202.webp',
         alt: 'Gratis gæt ordet-opgaver med flere sværhedsgrader og forskellige afslørede bogstaver',
         caption: 'Justerbar ledetrådssværhed fra Let til Ingen Ledetråde',
       },
       {
-        src: '/samples/danish/word%20guess/Gæt%20Ordet%203.webp',
+        src: '/samples/danish/word%20guess/gæt%20ordet%203.webp',
         alt: 'Gratis galge-opgave facit med alle korrekte bogstaver udfyldt',
         caption: 'Automatisk genereret facit med alle korrekte stavninger',
       },

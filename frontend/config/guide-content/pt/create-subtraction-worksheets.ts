@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/subtraction/Subtrações Divertidas 1.webp', alt: 'Atividade de subtração com imagens temáticas riscadas mostrando exercícios de tirar para crianças' },
+    heroImage: { src: '/samples/portuguese/subtraction/subtrações-divertidas-1.webp', alt: 'Atividade de subtração com imagens temáticas riscadas mostrando exercícios de tirar para crianças' },
     samples: [
-      { src: '/samples/portuguese/subtraction/Subtrações Divertidas 2.webp', alt: 'Atividade de subtração baseada em imagens com animais riscados para jardim de infância', caption: 'Atividade de subtração de jardim de infância usando o modo de exercício Riscar com imagens temáticas' },
-      { src: '/samples/portuguese/subtraction/Subtrações Divertidas 3.webp', alt: 'Atividade de subtração com chave de respostas mostrando as soluções corretas', caption: 'Chave de respostas automática gerada junto com cada atividade de subtração' },
+      { src: '/samples/portuguese/subtraction/subtrações-divertidas-2.webp', alt: 'Atividade de subtração baseada em imagens com animais riscados para jardim de infância', caption: 'Atividade de subtração de jardim de infância usando o modo de exercício Riscar com imagens temáticas' },
+      { src: '/samples/portuguese/subtraction/subtrações-divertidas-3.webp', alt: 'Atividade de subtração com chave de respostas mostrando as soluções corretas', caption: 'Chave de respostas automática gerada junto com cada atividade de subtração' },
     ],
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'Como criar atividades de subtração — Tutorial completo',

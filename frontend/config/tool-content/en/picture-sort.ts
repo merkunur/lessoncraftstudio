@@ -212,22 +212,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/picture sort/Picture Sort.webp',
+      primary: '/samples/english/picture sort/picture-sort.webp',
       primaryAlt: 'Two-category picture sorting worksheet with dashed-border category frames at top and shuffled cutout grid below with localized mint green Picture Sort header',
     },
     sampleGallery: [
       {
-        src: '/samples/english/picture sort/Picture Sort (1).webp',
+        src: '/samples/english/picture sort/picture-sort-1.webp',
         alt: 'Theme mode sorting worksheet with auto-populated left and right categories from the image library with shuffled cutout grid',
         caption: 'Theme mode — auto-populated categories from the image library with randomized cutout grid',
       },
       {
-        src: '/samples/english/picture sort/Picture Sort (5).webp',
+        src: '/samples/english/picture sort/picture-sort-5.webp',
         alt: 'Manual mode sorting worksheet with hand-selected images assigned to left and right categories for curriculum-aligned sorting',
         caption: 'Manual mode — hand-select images and assign each to the left or right category',
       },
       {
-        src: '/samples/english/picture sort/Picture Sort answer_key.webp',
+        src: '/samples/english/picture sort/picture-sort-answer-key.webp',
         alt: 'Picture sort answer key with 6x larger images organized into correct category boxes with dashed borders and FAFAFA fill',
         caption: 'Auto-generated answer key — 6× larger images in category boxes with max 2 columns per box',
       },

@@ -187,11 +187,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividade de matemática pronta para agrupamento num pacote de atividades de alto valor' },
+    heroImage: { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade de matemática pronta para agrupamento num pacote de atividades de alto valor' },
     samples: [
-      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Atividade de adição para criação de pacotes de atividades de matemática', caption: 'Atividades de matemática estão entre os produtos mais populares para criação de pacotes — combine adição, subtração e sentido numérico para pacotes abrangentes' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Puzzle de caça-palavras para pacote temático de atividades', caption: 'Puzzles de caça-palavras acrescentam variedade a pacotes temáticos e funcionam em pacotes por disciplina, nível escolar e sazonais' },
-      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Atividade de associação para coleção de pacotes imprimíveis', caption: 'Atividades de associação complementam outros tipos de atividades em pacotes por formato — a variedade mantém os usuários envolvidos ao longo de múltiplas sessões' },
+      { src: '/samples/portuguese/addition/adição-divertida-2.webp', alt: 'Atividade de adição para criação de pacotes de atividades de matemática', caption: 'Atividades de matemática estão entre os produtos mais populares para criação de pacotes — combine adição, subtração e sentido numérico para pacotes abrangentes' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Puzzle de caça-palavras para pacote temático de atividades', caption: 'Puzzles de caça-palavras acrescentam variedade a pacotes temáticos e funcionam em pacotes por disciplina, nível escolar e sazonais' },
+      { src: '/samples/portuguese/matching/encontre-os-pares-1.webp', alt: 'Atividade de associação para coleção de pacotes imprimíveis', caption: 'Atividades de associação complementam outros tipos de atividades em pacotes por formato — a variedade mantém os usuários envolvidos ao longo de múltiplas sessões' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como criar atividades de adição para agrupamento em coleções de alto valor',

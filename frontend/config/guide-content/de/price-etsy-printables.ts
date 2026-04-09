@@ -188,11 +188,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/addition_worksheet.webp', alt: 'Praktisches druckbares Arbeitsblatt zur Demonstration der Preisstrategie auf Etsy' },
+    heroImage: { src: '/samples/german/addition/addition-worksheet.webp', alt: 'Praktisches druckbares Arbeitsblatt zur Demonstration der Preisstrategie auf Etsy' },
     samples: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Tier-thematisches Additions-Arbeitsblatt als Einstiegs-Preisprodukt für Etsy', caption: 'Additions-Arbeitsblatt mit Tierthema — ein typisches Einstiegsprodukt zu $3,99 für ein 10-Seiten-Paket' },
+      { src: '/samples/german/addition/additionsspa-1.webp', alt: 'Tier-thematisches Additions-Arbeitsblatt als Einstiegs-Preisprodukt für Etsy', caption: 'Additions-Arbeitsblatt mit Tierthema — ein typisches Einstiegsprodukt zu $3,99 für ein 10-Seiten-Paket' },
       { src: '/samples/german/wordsearch/worksheet.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt zur Demonstration der Premium-Preisgestaltung für sprachspezifische Produkte', caption: 'Wortsuche-Rätsel — Sprachversionen erzielen Premium-Preise mit weniger Wettbewerb in nicht-englischen Märkten' },
-      { src: '/samples/german/sudoku/Bilder-Sudoku 1.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt zur Veranschaulichung der schwierigkeitsbasierten Preisstrategie', caption: 'Sudoku-Rätsel — schwierigkeitsbasierte Staffelung unterstützt progressive Preisgestaltung innerhalb einer einzelnen Produktkategorie' },
+      { src: '/samples/german/sudoku/bilder-sudoku-1.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt zur Veranschaulichung der schwierigkeitsbasierten Preisstrategie', caption: 'Sudoku-Rätsel — schwierigkeitsbasierte Staffelung unterstützt progressive Preisgestaltung innerhalb einer einzelnen Produktkategorie' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Druckbare Arbeitsblätter für den Etsy-Verkauf erstellen — Produktwert und Preisgestaltung verstehen',

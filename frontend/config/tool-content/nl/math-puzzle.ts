@@ -212,22 +212,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/math%20puzzle/Wiskundepuzzels%201.webp',
+      primary: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp',
       primaryAlt: 'Rekenpuzzel werkblad met een legpuzzel-stijl afbeeldingraster met optelsommen en gehusselde antwoordstukjes',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/math%20puzzle/Wiskundepuzzels%201.webp',
+        src: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp',
         alt: 'Legpuzzel rekenwerkblad met optelsommen in een kleurrijk afbeeldingraster',
         caption: 'Optellen modus met thematische beeldpuzzel',
       },
       {
-        src: '/samples/dutch/math%20puzzle/Wiskundepuzzels%202.webp',
+        src: '/samples/dutch/math%20puzzle/wiskundepuzzels%202.webp',
         alt: 'Rekenpuzzel werkblad met aftreksommen en gehusselde getalstukjes onder het raster',
         caption: 'Aftrekken modus — los vergelijkingen op om het plaatje te reconstrueren',
       },
       {
-        src: '/samples/dutch/math%20puzzle/Wiskundepuzzels%203.webp',
+        src: '/samples/dutch/math%20puzzle/wiskundepuzzels%203.webp',
         alt: 'Gemengde optellen en aftrekken rekenpuzzel met een groter raster voor gevorderde gebruikers',
         caption: 'Gemengde bewerkingen — optellen en aftrekken in één puzzel',
       },

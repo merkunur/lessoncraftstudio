@@ -174,22 +174,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/Worter suchen 1.webp',
+      src: '/samples/german/wordsearch/worter-suchen-1.webp',
       alt: 'Professionelles Wortsuchrätsel-Arbeitsblatt zur Demonstration der Lead-Magnet-Qualität für E-Mail-Marketing-Kampagnen',
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuchrätsel-Arbeitsblatt ideal für E-Mail-Lead-Magnete, die Druckvorlagen-Käufer anziehen',
         caption: 'Wortsuchrätsel sind überzeugende Lead-Magnete, die Ihre Zielkäufer-Zielgruppe anziehen',
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: '/samples/german/coloring/coloring-portrait-1.webp',
         alt: 'Ausmalseite zeigt visuell ansprechendes Produkt für E-Mail-Kampagnen-Werbung',
         caption: 'Visuell beeindruckende Produkte erzielen höhere Klickraten in E-Mail-Kampagnen',
       },
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: '/samples/german/addition/additionsspa-1.webp',
         alt: 'Additions-Arbeitsblatt demonstriert immergrüne Inhalte für automatisierte E-Mail-Sequenzen',
         caption: 'Immergrüne Mathe-Inhalte treiben automatisierte saisonale E-Mail-Kampagnen das ganze Jahr über an',
       },

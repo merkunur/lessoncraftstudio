@@ -227,12 +227,12 @@ const content: ToolContent = {  seo: {
         caption: 'Zugwaggon-Format mit Buchstabe-Bild-Zuordnung',
       },
       {
-        src: '/samples/german/alphabet train/worksheet (1).webp',
+        src: '/samples/german/alphabet train/worksheet-1.webp',
         alt: 'Alphabet-Zug-Arbeitsblatt mit thematischen Bildern und mehreren Hinweis-Zuordnungsaufgaben',
         caption: 'Thematische Bilder mit einstellbarer Hinweisanzahl',
       },
       {
-        src: '/samples/german/alphabet train/worksheet (2).webp',
+        src: '/samples/german/alphabet train/worksheet-2.webp',
         alt: 'Fortgeschrittenes Alphabet-Zug-Arbeitsblatt mit 11 Hinweisen für maximale Schwierigkeit',
         caption: 'Volle 11-Hinweis-Schwierigkeit für fortgeschrittene Nutzer',
       },

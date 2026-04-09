@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp', alt: 'Puslespils-arbejdsark med huller skåret fra en farverig illustration og nummererede løsningsmuligheder inklusive distraktorer nedenfor med turkis Manglende brikker overskrift og blågrøn-pink dobbelt kantindraming' },
+    heroImage: { src: '/samples/danish/missing%20pieces/manglende%20dele%201.webp', alt: 'Puslespils-arbejdsark med huller skåret fra en farverig illustration og nummererede løsningsmuligheder inklusive distraktorer nedenfor med turkis Manglende brikker overskrift og blågrøn-pink dobbelt kantindraming' },
     samples: [
-      { src: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp', alt: 'Manglende Dele — dansk eksempelarbejdsark', caption: 'Manglende Dele eksempel 1' },
-      { src: '/samples/danish/missing%20pieces/Manglende%20Dele%202.webp', alt: 'Manglende Dele — dansk eksempel 2', caption: 'Manglende Dele eksempel 2' },
-      { src: '/samples/danish/missing%20pieces/Manglende%20Dele%203.webp', alt: 'Manglende Dele — dansk eksempel 3', caption: 'Manglende Dele eksempel 3' },
+      { src: '/samples/danish/missing%20pieces/manglende%20dele%201.webp', alt: 'Manglende Dele — dansk eksempelarbejdsark', caption: 'Manglende Dele eksempel 1' },
+      { src: '/samples/danish/missing%20pieces/manglende%20dele%202.webp', alt: 'Manglende Dele — dansk eksempel 2', caption: 'Manglende Dele eksempel 2' },
+      { src: '/samples/danish/missing%20pieces/manglende%20dele%203.webp', alt: 'Manglende Dele — dansk eksempel 3', caption: 'Manglende Dele eksempel 3' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Sådan generator du manglende brikker-puslespil — Komplet vejledning',

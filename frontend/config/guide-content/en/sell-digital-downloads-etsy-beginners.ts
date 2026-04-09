@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page printable ready for selling as Etsy digital download' },
+    heroImage: { src: '/samples/english/coloring/coloring-portrait-2.webp', alt: 'Coloring page printable ready for selling as Etsy digital download' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Printable coloring page for Etsy digital download listing', caption: 'Coloring page exported as print-ready PDF -- the most popular digital download category on Etsy' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search worksheet for Etsy digital product listing', caption: 'Word search puzzle with themed vocabulary and automatic answer key for instant digital delivery' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Printable coloring page for Etsy digital download listing', caption: 'Coloring page exported as print-ready PDF -- the most popular digital download category on Etsy' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search worksheet for Etsy digital product listing', caption: 'Word search puzzle with themed vocabulary and automatic answer key for instant digital delivery' },
     ],
   },
 

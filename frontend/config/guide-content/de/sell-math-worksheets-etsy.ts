@@ -186,11 +186,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/addition_worksheet.webp', alt: 'Additions-Arbeitsblatt mit thematischen Illustrationen, das bildbasierte Mathe-Aufgaben zum Verkauf auf Etsy zeigt' },
+    heroImage: { src: '/samples/german/addition/addition-worksheet.webp', alt: 'Additions-Arbeitsblatt mit thematischen Illustrationen, das bildbasierte Mathe-Aufgaben zum Verkauf auf Etsy zeigt' },
     samples: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Tier-thematisches Additions-Arbeitsblatt, erstellt für Etsy digitalen Download', caption: 'Additions-Arbeitsblatt mit Tier-Thema — bildbasierte Mathe-Aufgaben, die auffällige Etsy-Angebotsfotos erzeugen' },
-      { src: '/samples/german/subtraction/worksheet (1).webp', alt: 'Subtraktions-Arbeitsblatt als Ergänzung zu Additions-Produkten in einem Etsy-Mathe-Arbeitsblatt-Shop', caption: 'Subtraktions-Arbeitsblatt — natürlicher Cross-Sell-Begleiter zu Additions-Angeboten in Ihrem Etsy-Shop' },
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 2.webp', alt: 'Mathe-Rätsel-Gitter-Arbeitsblatt, das ein einzigartiges Format zeigt, das Etsy-Angebote gestuft', caption: 'Mathe-Rätsel-Gitter — einzigartiges Format mit weniger Etsy-Konkurrenz als Standard-Arbeitsblätter' },
+      { src: '/samples/german/addition/additionsspa-1.webp', alt: 'Tier-thematisches Additions-Arbeitsblatt, erstellt für Etsy digitalen Download', caption: 'Additions-Arbeitsblatt mit Tier-Thema — bildbasierte Mathe-Aufgaben, die auffällige Etsy-Angebotsfotos erzeugen' },
+      { src: '/samples/german/subtraction/worksheet-1.webp', alt: 'Subtraktions-Arbeitsblatt als Ergänzung zu Additions-Produkten in einem Etsy-Mathe-Arbeitsblatt-Shop', caption: 'Subtraktions-Arbeitsblatt — natürlicher Cross-Sell-Begleiter zu Additions-Angeboten in Ihrem Etsy-Shop' },
+      { src: '/samples/german/math puzzle/mathe-rätsel-2.webp', alt: 'Mathe-Rätsel-Gitter-Arbeitsblatt, das ein einzigartiges Format zeigt, das Etsy-Angebote gestuft', caption: 'Mathe-Rätsel-Gitter — einzigartiges Format mit weniger Etsy-Konkurrenz als Standard-Arbeitsblätter' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Additions-Arbeitsblätter zum Verkauf auf Etsy erstellen — Schritt-für-Schritt-Anleitung',

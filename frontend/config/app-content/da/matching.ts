@@ -239,22 +239,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/matching/Find%20Parrene%201.webp',
+      primary: '/samples/danish/matching/find%20parrene%201.webp',
       primaryAlt: 'Forbind-opgave til print med temabilleder i to kolonner og lokaliseret Find Parrene-overskrift til parringsleg',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/matching/Find%20Parrene%201.webp',
+        src: '/samples/danish/matching/find%20parrene%201.webp',
         alt: 'Forbind-opgave med begyndelsesbogstav — billeder til venstre og bogstaver til højre til børnehaveklasse',
         caption: 'Begyndelsesbogstav-tilstand — børnene forbinder billeder med streger til det rigtige bogstav',
       },
       {
-        src: '/samples/danish/matching/Find%20Parrene%202.webp',
+        src: '/samples/danish/matching/find%20parrene%202.webp',
         alt: 'Parring opgaveark med billede og ord — mærkede par på begge sider til indskoling',
         caption: 'Billede+Ord-tilstand — mærkede billedpar til ordforrådsparring',
       },
       {
-        src: '/samples/danish/matching/Find%20Parrene%203.webp',
+        src: '/samples/danish/matching/find%20parrene%203.webp',
         alt: 'Facitliste til forbind-opgave med streger tegnet mellem korrekte par',
         caption: 'Automatisk facit — forbindelseslinjer viser korrekte parringsresultater',
       },

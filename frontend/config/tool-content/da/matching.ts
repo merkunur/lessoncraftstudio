@@ -215,22 +215,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/matching/Find%20Parrene%201.webp',
+      primary: '/samples/danish/matching/find%20parrene%201.webp',
       primaryAlt: 'Gratis forbind-opgaver med temabilleder i to kolonner, lokaliseret Find Par-overskrift, artikelnummer og punktmarkeringer — prøv online med vandmærke',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/matching/Find%20Parrene%201.webp',
+        src: '/samples/danish/matching/find%20parrene%201.webp',
         alt: 'Gratis forbind-opgaver med begyndelsesbogstav — billeder til venstre og bogstaver til højre for foniksøvelse',
         caption: 'Begyndelsesbogstav-tilstand — brugerne matcher billeder med deres første bogstaver med store eller små bogstaver',
       },
       {
-        src: '/samples/danish/matching/Find%20Parrene%202.webp',
+        src: '/samples/danish/matching/find%20parrene%202.webp',
         alt: 'Gratis forbind-opgaver med billede og ord — mærkede par på begge sider til ordforråds parring',
         caption: 'Billede+Ord-tilstand — mærkede billedpar på begge sider til ordforråds matchning og ordgenkendelse',
       },
       {
-        src: '/samples/danish/matching/Find%20Parrene%203.webp',
+        src: '/samples/danish/matching/find%20parrene%203.webp',
         alt: 'Automatisk facit til forbind-opgaver med streger mellem korrekte par til øjeblikkelig verifikation',
         caption: 'Automatisk genereret facit — forbindelseslinjer (#555) mellem korrekte par for øjeblikkelig verifikation',
       },

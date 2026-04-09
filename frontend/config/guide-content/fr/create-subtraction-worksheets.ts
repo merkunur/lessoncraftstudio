@@ -185,10 +185,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/subtraction/Soustractions Amusantes 1.webp', alt: 'Fiche de soustraction avec images thématiques barrées montrant des exercices de retrancher pour enfants' },
+    heroImage: { src: '/samples/french/subtraction/soustractions-amusantes-1.webp', alt: 'Fiche de soustraction avec images thématiques barrées montrant des exercices de retrancher pour enfants' },
     samples: [
-      { src: '/samples/french/subtraction/Soustractions Amusantes 1.webp', alt: 'Fiche de soustraction avec images barrées et thème animalier pour la grande section', caption: 'Fiche de soustraction grande section utilisant le mode Barrer avec des images thématiques' },
-      { src: '/samples/french/subtraction/Soustractions Amusantes 1.webp', alt: 'Fiche de soustraction avec corrigé montrant les solutions correctes', caption: 'Corrigé automatique généré avec chaque fiche de soustraction' },
+      { src: '/samples/french/subtraction/soustractions-amusantes-1.webp', alt: 'Fiche de soustraction avec images barrées et thème animalier pour la grande section', caption: 'Fiche de soustraction grande section utilisant le mode Barrer avec des images thématiques' },
+      { src: '/samples/french/subtraction/soustractions-amusantes-1.webp', alt: 'Fiche de soustraction avec corrigé montrant les solutions correctes', caption: 'Corrigé automatique généré avec chaque fiche de soustraction' },
     ],
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'Comment créer des fiches de soustraction — Tutoriel complet',

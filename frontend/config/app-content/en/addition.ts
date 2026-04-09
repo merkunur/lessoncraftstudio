@@ -230,22 +230,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/addition/addition_worksheet portrait.webp',
+      primary: '/samples/english/addition/addition-worksheet-portrait.webp',
       primaryAlt: 'Addition worksheet with colorful animal images showing Image + Image exercise mode',
     },
     sampleGallery: [
       {
-        src: '/samples/english/addition/addition_worksheet portrait.webp',
+        src: '/samples/english/addition/addition-worksheet-portrait.webp',
         alt: 'Portrait addition worksheet with Image + Image mode using animal theme',
         caption: 'Image + Image mode — count two picture groups and write the sum',
       },
       {
-        src: '/samples/english/addition/addition_worksheet landscape.webp',
+        src: '/samples/english/addition/addition-worksheet-landscape.webp',
         alt: 'Landscape addition worksheet with Image + Number mode using food theme',
         caption: 'Image + Number mode — pairs picture groups with numerals for bridging skills',
       },
       {
-        src: '/samples/english/addition/find addend.webp',
+        src: '/samples/english/addition/find-addend.webp',
         alt: 'Addition worksheet in Find the Addend mode with vehicle theme',
         caption: 'Find the Addend mode — figure out the missing group for an added logic challenge',
       },

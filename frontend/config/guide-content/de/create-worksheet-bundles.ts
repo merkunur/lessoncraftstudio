@@ -190,11 +190,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Mathe-Arbeitsblatt-Produkt bereit zur Bündelung in eine hochwertige Arbeitsblatt-Sammlung' },
+    heroImage: { src: '/samples/german/addition/additionsspa-1.webp', alt: 'Mathe-Arbeitsblatt-Produkt bereit zur Bündelung in eine hochwertige Arbeitsblatt-Sammlung' },
     samples: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additionsarbeitsblatt für Mathe-Arbeitsblatt-Paketerstellung', caption: 'Mathe-Arbeitsblätter gehören zu den beliebtesten Produkten für die Paketerstellung — kombinieren Sie Addition, Subtraktion und Zahlenverständnis für umfassende Pakete' },
+      { src: '/samples/german/addition/additionsspa-1.webp', alt: 'Additionsarbeitsblatt für Mathe-Arbeitsblatt-Paketerstellung', caption: 'Mathe-Arbeitsblätter gehören zu den beliebtesten Produkten für die Paketerstellung — kombinieren Sie Addition, Subtraktion und Zahlenverständnis für umfassende Pakete' },
       { src: '/samples/german/wordsearch/worksheet.webp', alt: 'Wortsuche-Rätsel für thematisches Arbeitsblatt-Paket', caption: 'Wortsuche-Rätsel bringen Abwechslung in Themenpakete und funktionieren über Fach-, Altersgruppen- und saisonale Pakettypen hinweg' },
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt-Aktivität für druckbare Paketsammlung', caption: 'Zuordnungsaktivitäten ergänzen andere Arbeitsblatttypen in Formatpaketen — Abwechslung hält Nutzer über mehrere Übungseinheiten hinweg beschäftigt' },
+      { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Zuordnungs-Arbeitsblatt-Aktivität für druckbare Paketsammlung', caption: 'Zuordnungsaktivitäten ergänzen andere Arbeitsblatttypen in Formatpaketen — Abwechslung hält Nutzer über mehrere Übungseinheiten hinweg beschäftigt' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'So erstellen Sie Additions-Arbeitsblätter zur Bündelung in hochwertige Sammlungen',

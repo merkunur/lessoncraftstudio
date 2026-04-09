@@ -243,22 +243,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/crossword/Billedkrydsord%201.webp',
+      primary: '/samples/danish/crossword/billedkrydsord%201.webp',
       primaryAlt: 'Krydsord med billedledetråde på et 15×15 gitter med vandret og lodret ordplacering og automatisk facit',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/crossword/Billedkrydsord%201.webp',
+        src: '/samples/danish/crossword/billedkrydsord%201.webp',
         alt: 'Krydsord med tematiske billedledetråde ved siden af et 15×15 kryds og tværs-gitter',
         caption: 'Krydsord med billedledetråde — billeder erstatter traditionelle tekstledetråde på et 15×15 gitter',
       },
       {
-        src: '/samples/danish/crossword/Billedkrydsord%202.webp',
+        src: '/samples/danish/crossword/billedkrydsord%202.webp',
         alt: 'Krydsord med et andet tema og varierede billedledetråde til print',
         caption: 'Tematisk krydsord — 104 temaer giver unikke kryds og tværs-puslespil for hvert sæt',
       },
       {
-        src: '/samples/danish/crossword/Billedkrydsord%203.webp',
+        src: '/samples/danish/crossword/billedkrydsord%203.webp',
         alt: 'Krydsord facit med alle korrekte bogstaver udfyldt i gitteret',
         caption: 'Automatisk genereret facit — udfyldt gitter viser alle korrekte svar',
       },

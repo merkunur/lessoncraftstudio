@@ -182,10 +182,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/pattern worksheet/pattern_worksheet (10).webp', alt: 'Pattern recognition worksheet with themed images showing AB and ABC pattern exercises for Etsy printable products' },
+    heroImage: { src: '/samples/english/pattern worksheet/pattern-worksheet-10.webp', alt: 'Pattern recognition worksheet with themed images showing AB and ABC pattern exercises for Etsy printable products' },
     samples: [
-      { src: '/samples/english/pattern worksheet/pattern_worksheet (11).webp', alt: 'Pattern worksheet with ocean animal theme showing fill-in-the-blank pattern exercises', caption: 'Themed pattern recognition worksheet with per-exercise configuration and 300 DPI print-ready output for Etsy listings' },
-      { src: '/samples/english/pattern worksheet/pattern_worksheet (10).webp', alt: 'Pattern worksheet answer key with completed patterns showing correct image placement', caption: 'Automatic answer key generated alongside each worksheet -- a critical selling point for Etsy buyers' },
+      { src: '/samples/english/pattern worksheet/pattern-worksheet-11.webp', alt: 'Pattern worksheet with ocean animal theme showing fill-in-the-blank pattern exercises', caption: 'Themed pattern recognition worksheet with per-exercise configuration and 300 DPI print-ready output for Etsy listings' },
+      { src: '/samples/english/pattern worksheet/pattern-worksheet-10.webp', alt: 'Pattern worksheet answer key with completed patterns showing correct image placement', caption: 'Automatic answer key generated alongside each worksheet -- a critical selling point for Etsy buyers' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'How to Create Pattern Worksheets',

@@ -175,11 +175,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividades imprimíveis educativas mostrando produtos para uma nova loja Etsy' },
+    heroImage: { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividades imprimíveis educativas mostrando produtos para uma nova loja Etsy' },
     samples: [
-      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Atividade de adição com animais demonstrando produto de lançamento para loja Etsy', caption: 'Atividades de adição com animais — produto de lançamento ideal com alta procura e fotos de anúncio atrativas' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Caça-palavras mostrando multiplicação linguística para anúncios Etsy', caption: 'Caça-palavras — disponível em 11 línguas para multiplicar a contagem de anúncios do Etsy' },
-      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir mostrando produto visual para loja Etsy diversificada', caption: 'Página para colorir — apela ao público comprador mais amplo de qualquer categoria de imprimíveis' },
+      { src: '/samples/portuguese/addition/adição-divertida-2.webp', alt: 'Atividade de adição com animais demonstrando produto de lançamento para loja Etsy', caption: 'Atividades de adição com animais — produto de lançamento ideal com alta procura e fotos de anúncio atrativas' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Caça-palavras mostrando multiplicação linguística para anúncios Etsy', caption: 'Caça-palavras — disponível em 11 línguas para multiplicar a contagem de anúncios do Etsy' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir mostrando produto visual para loja Etsy diversificada', caption: 'Página para colorir — apela ao público comprador mais amplo de qualquer categoria de imprimíveis' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como abrir uma loja Etsy de imprimíveis do zero — Tutorial completo',

@@ -215,22 +215,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp',
+      primary: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp',
       primaryAlt: 'Addisjons arbeidsark med dyrebilder som viser bildebaserte matematikkovelser',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp',
+        src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp',
         alt: 'Bildeaddisjon arbeidsark med dyretema som viser Bilde + Bilde-modus',
         caption: 'Bilde + Bilde-modus med dyretema',
       },
       {
-        src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%202.webp',
+        src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%202.webp',
         alt: 'Addisjons arbeidsark med Bilde + Tall-modus og tematiske bilder',
         caption: 'Bilde + Tall-modus med tematiske bilder',
       },
       {
-        src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%203.webp',
+        src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%203.webp',
         alt: 'Blandet modus addisjons arbeidsark med dekorativ ramme',
         caption: 'Blandet modus med dekorativ ramme',
       },

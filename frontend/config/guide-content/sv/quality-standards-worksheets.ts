@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/english/wordsearch/wordsearch-portrait.webp',
       alt: 'Ordsökspussel som demonstrerar professionella kvalitetsstandarder med ren layout och precis formatering',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/english/wordsearch/wordsearch-portrait.webp',
         alt: 'Ordsökspussel som visar professionell tryckfärdig formatering och kvalitetsrutmjustering',
         caption: 'Professionell ordsöksoutput demonstrerar ren layout, läsbar typografi och precis rutmjustering',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/english/addition/addition-fun-1.webp',
         alt: 'Additionsarbetsblad som visar kvalitetsstandarder för sifferjustering och facitnoggrannhet',
         caption: 'Mattearbetsblad kräver precis justering, tydlig typografi och verifierade facit för professionell kvalitet',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/english/coloring/coloring-portrait-1.webp',
         alt: 'Målarbild som demonstrerar visuella kvalitetsstandarder med konsekventa linjevikter och utskriftsoptimering',
         caption: 'Visuella produkter kräver konsekventa linjevikter, gråskaleoptimering och professionell utskriftskvalitet',
       },

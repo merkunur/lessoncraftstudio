@@ -210,12 +210,12 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/addition/addition_%C3%B6vning.webp',
+      primary: '/samples/swedish/addition/addition-%c3%b6vning.webp',
       primaryAlt: 'Additions arbetsblad med djurbilder som visar bildbaserade matteövningar',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/addition/addition_%C3%B6vning.webp',
+        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
         alt: 'Bildadditions arbetsblad med djurtema som visar Bild + Bild-läge',
         caption: 'Bild + Bild-läge med djurtema',
       },
@@ -225,7 +225,7 @@ const content: ToolContent = {
         caption: 'Hitta Term-läge med mattema',
       },
       {
-        src: '/samples/swedish/addition/blandat%20l%C3%A4ge.webp',
+        src: '/samples/swedish/addition/blandat%20l%c3%a4ge.webp',
         alt: 'Blandat läge additions arbetsblad med fordonsbilder och dekorativ ram',
         caption: 'Blandat läge med fordon och ramdekorati',
       },

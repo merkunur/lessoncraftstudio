@@ -213,17 +213,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/coloring/coloring portrait 1.webp',
+      primary: '/samples/german/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Malvorlage mit Schwarz-Weiß-Umrissbild zum Ausmalen',
     },
     sampleGallery: [
-      { src: '/samples/german/big small/big-small-worksheet_worksheet.webp', alt: 'Größenvergleichs-Arbeitsblatt mit thematischen Bildern zum Einkreisen des Größten und Kleinsten', caption: 'Groß-&-Klein-Arbeitsblatt' },
-      { src: '/samples/german/pattern train/Musterzug 1.webp', alt: 'Zugwaggon-Musterfolge-Arbeitsblatt mit fehlendem Musterelement', caption: 'Muster-Zug-Arbeitsblatt' },
-      { src: '/samples/german/pattern worksheet/pattern_worksheet.webp', alt: 'Mustererkennung-Arbeitsblatt mit Lückentext-Folgen', caption: 'Muster-Arbeitsblatt' },
-      { src: '/samples/german/draw and color/Zeichnen und Ausmale 1.webp', alt: 'Referenzbild-Zeichen-Arbeitsblatt mit Raster zur Bildreproduktion', caption: 'Rasterzeichnen-Arbeitsblatt' },
-      { src: '/samples/german/drawing lines/Linien Zeichnen Üben 1.webp', alt: 'Linien-Nachzieh-Arbeitsblatt mit gepaarten Objekten und geschwungenen Linien', caption: 'Linien-Ziehen-Arbeitsblatt' },
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlage mit Schwarz-Weiß-Umriss aus thematischem Bild konvertiert', caption: 'Malvorlage' },
-      { src: '/samples/german/chart count/Bilddiagramm 1.webp', alt: 'Balkendiagramm-Zähl-Arbeitsblatt mit thematischen Bild-Datenpunkten', caption: 'Bilddiagramm-Arbeitsblatt' },
+      { src: '/samples/german/big small/big-small-worksheet-worksheet.webp', alt: 'Größenvergleichs-Arbeitsblatt mit thematischen Bildern zum Einkreisen des Größten und Kleinsten', caption: 'Groß-&-Klein-Arbeitsblatt' },
+      { src: '/samples/german/pattern train/musterzug-1.webp', alt: 'Zugwaggon-Musterfolge-Arbeitsblatt mit fehlendem Musterelement', caption: 'Muster-Zug-Arbeitsblatt' },
+      { src: '/samples/german/pattern worksheet/pattern-worksheet.webp', alt: 'Mustererkennung-Arbeitsblatt mit Lückentext-Folgen', caption: 'Muster-Arbeitsblatt' },
+      { src: '/samples/german/draw and color/zeichnen-und-ausmale-1.webp', alt: 'Referenzbild-Zeichen-Arbeitsblatt mit Raster zur Bildreproduktion', caption: 'Rasterzeichnen-Arbeitsblatt' },
+      { src: '/samples/german/drawing lines/linien-zeichnen-üben-1.webp', alt: 'Linien-Nachzieh-Arbeitsblatt mit gepaarten Objekten und geschwungenen Linien', caption: 'Linien-Ziehen-Arbeitsblatt' },
+      { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Malvorlage mit Schwarz-Weiß-Umriss aus thematischem Bild konvertiert', caption: 'Malvorlage' },
+      { src: '/samples/german/chart count/bilddiagramm-1.webp', alt: 'Balkendiagramm-Zähl-Arbeitsblatt mit thematischen Bild-Datenpunkten', caption: 'Bilddiagramm-Arbeitsblatt' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Visuelles-Lernen-Paket — Alle 7 Generatoren in Aktion',

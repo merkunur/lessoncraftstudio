@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Atividade de associação demonstrando a versatilidade da ferramenta e o resultado da biblioteca de imagens temáticas' },
+    heroImage: { src: '/samples/portuguese/matching/encontre-os-pares-1.webp', alt: 'Atividade de associação demonstrando a versatilidade da ferramenta e o resultado da biblioteca de imagens temáticas' },
     samples: [
-      { src: '/samples/portuguese/matching/Encontre os Pares 2.webp', alt: 'Atividade de associação mostrando emparelhamento imagem-palavra com ilustrações temáticas', caption: 'Associação — Ferramenta Versátil com Múltiplos Modos' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Atividade de puzzle de sopa de letras demonstrando geração sensível à língua', caption: 'Sopa de Letras — O Gerador de Puzzles Mais Popular' },
-      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir mostrando qualidade de design sem dependência linguística', caption: 'Colorir — Conteúdo Visual Universal' },
-      { src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp', alt: 'Puzzle de palavras cruzadas demonstrando capacidades de geração multilingue', caption: 'Palavras Cruzadas — Ferramenta de Puzzles Multilingue' },
+      { src: '/samples/portuguese/matching/encontre-os-pares-2.webp', alt: 'Atividade de associação mostrando emparelhamento imagem-palavra com ilustrações temáticas', caption: 'Associação — Ferramenta Versátil com Múltiplos Modos' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Atividade de puzzle de sopa de letras demonstrando geração sensível à língua', caption: 'Sopa de Letras — O Gerador de Puzzles Mais Popular' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir mostrando qualidade de design sem dependência linguística', caption: 'Colorir — Conteúdo Visual Universal' },
+      { src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp', alt: 'Puzzle de palavras cruzadas demonstrando capacidades de geração multilingue', caption: 'Palavras Cruzadas — Ferramenta de Puzzles Multilingue' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Como Criar Atividades de Associação para o Seu Negócio de Imprimíveis — Demonstração LessonCraftStudio',

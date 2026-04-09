@@ -220,12 +220,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: 'Bingo-Karte Arbeitsblatt das hochgradig teilbares Druckvorlagen-Produktdesign demonstriert' },
+    heroImage: { src: '/samples/german/bingo/bilder-bingo-1.webp', alt: 'Bingo-Karte Arbeitsblatt das hochgradig teilbares Druckvorlagen-Produktdesign demonstriert' },
     samples: [
-      { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: 'Bingo-Karte zeigt ereignisgesteuertes Marketing-Potenzial für Partys und Shop', caption: 'Bingo — Hochgradig teilbar für Veranstaltungen und Feiertage' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel demonstriert starkes Marktplatz-SEO-Potenzial', caption: 'Wortsuche — Meistgesuchter Rätseltyp' },
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlage zeigt visuelle Anziehungskraft für Pinterest-Marketing', caption: 'Malvorlagen — Pinterest-fertige visuelle Inhalte' },
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt zeigt thematische saisonale Marketing-Vielseitigkeit', caption: 'Zuordnung — Vielseitiges saisonales Marketing' },
+      { src: '/samples/german/bingo/bilder-bingo-1.webp', alt: 'Bingo-Karte zeigt ereignisgesteuertes Marketing-Potenzial für Partys und Shop', caption: 'Bingo — Hochgradig teilbar für Veranstaltungen und Feiertage' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuchrätsel demonstriert starkes Marktplatz-SEO-Potenzial', caption: 'Wortsuche — Meistgesuchter Rätseltyp' },
+      { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Malvorlage zeigt visuelle Anziehungskraft für Pinterest-Marketing', caption: 'Malvorlagen — Pinterest-fertige visuelle Inhalte' },
+      { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Zuordnungs-Arbeitsblatt zeigt thematische saisonale Marketing-Vielseitigkeit', caption: 'Zuordnung — Vielseitiges saisonales Marketing' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Bingo-Karten für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo',

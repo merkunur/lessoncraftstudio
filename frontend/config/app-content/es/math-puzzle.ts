@@ -253,22 +253,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 1.webp',
+      primary: '/samples/spanish/math puzzle/rompecabezas-matemáticos-1.webp',
       primaryAlt: 'Ficha de puzzle matemático con una imagen colorida dividida en piezas de cuadrícula, cada una con un problema de suma',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 2.webp',
+        src: '/samples/spanish/math puzzle/rompecabezas-matemáticos-2.webp',
         alt: 'Ficha de puzzle matemático con cuadrícula 3×3 de suma y tema de animales',
         caption: 'Modo Suma — cuadrícula 3×3 con 9 piezas de puzzle y respuestas desordenadas debajo',
       },
       {
-        src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 3.webp',
+        src: '/samples/spanish/math puzzle/rompecabezas-matemáticos-3.webp',
         alt: 'Ficha de puzzle matemático con cuadrícula 2×3 de resta y tema de naturaleza',
         caption: 'Modo Resta — cuadrícula 2×3 para un desafío rápido de 6 piezas',
       },
       {
-        src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 4.webp',
+        src: '/samples/spanish/math puzzle/rompecabezas-matemáticos-4.webp',
         alt: 'Ficha de puzzle matemático con cuadrícula 4×4 de operaciones mixtas y tema de vehículos',
         caption: 'Modo Mixto — cuadrícula 4×4 con 16 piezas para práctica avanzada de resolución de problemas',
       },

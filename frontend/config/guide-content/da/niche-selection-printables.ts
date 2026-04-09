@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp', alt: 'Ordsoegning der demonstrerer tematisk nicheindhold til printable-virksomheder' },
+    heroImage: { src: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp', alt: 'Ordsoegning der demonstrerer tematisk nicheindhold til printable-virksomheder' },
     samples: [
-      { src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp', alt: 'Jeg Ser, Jeg Ser — dansk eksempelarbejdsark', caption: 'Jeg Ser, Jeg Ser eksempel 1' },
-      { src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%202.webp', alt: 'Jeg Ser, Jeg Ser — dansk eksempel 2', caption: 'Jeg Ser, Jeg Ser eksempel 2' },
-      { src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%203.webp', alt: 'Jeg Ser, Jeg Ser — dansk eksempel 3', caption: 'Jeg Ser, Jeg Ser eksempel 3' },
+      { src: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp', alt: 'Jeg Ser, Jeg Ser — dansk eksempelarbejdsark', caption: 'Jeg Ser, Jeg Ser eksempel 1' },
+      { src: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%202.webp', alt: 'Jeg Ser, Jeg Ser — dansk eksempel 2', caption: 'Jeg Ser, Jeg Ser eksempel 2' },
+      { src: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%203.webp', alt: 'Jeg Ser, Jeg Ser — dansk eksempel 3', caption: 'Jeg Ser, Jeg Ser eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan generator du ordsoegning til ethvert nichetema',

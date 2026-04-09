@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/odd%20one%20out/Hitta%20Udda%20F%C3%A5geln%201.webp',
+      primary: '/samples/swedish/odd%20one%20out/hitta%20udda%20f%c3%a5geln%201.webp',
       primaryAlt: 'Hitta udda bilden arbetsblad med fyra bilder per övningsrad, färgglada tematiska illustrationer och lokaliserad rubrik',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/odd%20one%20out/Hitta%20Udda%20F%C3%A5geln%202.webp',
+        src: '/samples/swedish/odd%20one%20out/hitta%20udda%20f%c3%a5geln%202.webp',
         alt: 'Liknande läge hitta udda bilden arbetsblad med tre djur och ett matföremål per rad',
         caption: 'Liknande läge — tre bilder från Tema A och ett udda objekt från Tema B',
       },
       {
-        src: '/samples/swedish/odd%20one%20out/Hitta%20Udda%20F%C3%A5geln%204.webp',
+        src: '/samples/swedish/odd%20one%20out/hitta%20udda%20f%c3%a5geln%204.webp',
         alt: 'Identiskt läge hitta udda bilden arbetsblad med tre identiska bilder och en annorlunda bild per rad',
         caption: 'Identiskt läge — tre kloner av samma bild och en annorlunda bild',
       },
       {
-        src: '/samples/swedish/odd%20one%20out/Hitta%20Udda%20F%C3%A5geln%201%20answer-key.webp',
+        src: '/samples/swedish/odd%20one%20out/hitta%20udda%20f%c3%a5geln%201%20answer-key.webp',
         alt: 'Hitta udda bilden facit med röda cirklar ritade runt det udda objektet i varje övningsrad',
         caption: 'Automatiskt genererat facit — röda cirklar markerar det udda objektet i varje rad',
       },

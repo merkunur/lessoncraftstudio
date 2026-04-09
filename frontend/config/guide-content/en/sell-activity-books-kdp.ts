@@ -177,10 +177,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Mixed activity book pages showing coloring, puzzles, and worksheets for KDP' },
+    heroImage: { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Mixed activity book pages showing coloring, puzzles, and worksheets for KDP' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page from a themed activity book', caption: 'Themed coloring page generated for a mixed-activity book compilation' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle from an activity book', caption: 'Themed word search puzzle with answer key -- one of many activity types in a compilation' },
+      { src: '/samples/english/coloring/coloring-portrait-2.webp', alt: 'Coloring page from a themed activity book', caption: 'Themed coloring page generated for a mixed-activity book compilation' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle from an activity book', caption: 'Themed word search puzzle with answer key -- one of many activity types in a compilation' },
     ],
   },
 

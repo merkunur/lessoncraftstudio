@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/drawing%20lines/Linjetegning%C3%B8velse%201.webp',
+      primary: '/samples/norwegian/drawing%20lines/linjetegning%c3%b8velse%201.webp',
       primaryAlt: 'Linjesporingsarbeidsark med kurvet linjemal som forbinder matchende dyrebildepar i liggende format',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/drawing%20lines/Linjetegning%C3%B8velse%201.webp',
+        src: '/samples/norwegian/drawing%20lines/linjetegning%c3%b8velse%201.webp',
         alt: 'Linjesporingsarbeidsark med kurvemal som forbinder matchende bildepar i liggende orientering',
         caption: 'Kurvemal — brukerne sporer flytende kurvede linjer for å forbinde matchende bildepar',
       },
       {
-        src: '/samples/norwegian/drawing%20lines/Linjetegning%C3%B8velse%202.webp',
+        src: '/samples/norwegian/drawing%20lines/linjetegning%c3%b8velse%202.webp',
         alt: 'Linjesporingsarbeidsark med diagonalmal som forbinder fem bildepar i stående orientering',
         caption: 'Diagonalmal — vinklede linjer med 5 bildepar for tversidig koordinasjonovelse',
       },
       {
-        src: '/samples/norwegian/drawing%20lines/Linjetegning%C3%B8velse%204.webp',
+        src: '/samples/norwegian/drawing%20lines/linjetegning%c3%b8velse%204.webp',
         alt: 'Linjesporingsarbeidsark med horisontal mal som forbinder bildepar med rette linjer i stående format',
         caption: 'Horisontal mal — rette venstre-til-hoyre-linjer med tematiske bilder',
       },

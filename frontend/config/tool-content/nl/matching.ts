@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp',
+      primary: '/samples/dutch/matching/zoek%20de%20paren%201.webp',
       primaryAlt: 'Trek-een-lijn koppelwerkblad met thematische afbeeldingen in twee kolommen met gelokaliseerde Zoek de Paren koptekst, itemnummers en decoratieve opsommingstekens',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/matching/Zoek%20de%20Paren%202.webp',
+        src: '/samples/dutch/matching/zoek%20de%20paren%202.webp',
         alt: 'Afbeelding en woord koppelwerkblad met gelabelde paren aan beide zijden voor woordenschatversterking',
         caption: 'Afbeelding+Woord modus — gelabelde afbeeldingsparen aan beide zijden voor woordenschatkoppeling en woordherkenning',
       },
       {
-        src: '/samples/dutch/matching/Zoek%20de%20Paren%203.webp',
+        src: '/samples/dutch/matching/zoek%20de%20paren%203.webp',
         alt: 'Thematisch koppelwerkblad met dierenafbeeldingen en zes paren in twee kolommen',
         caption: 'Beginletter modus — gebruikers koppelen afbeeldingen aan hun eerste letters met hoofdletters of kleine letters',
       },
       {
-        src: '/samples/dutch/matching/Zoek%20de%20Paren%201%20answer_key.webp',
+        src: '/samples/dutch/matching/zoek%20de%20paren%201%20answer-key.webp',
         alt: 'Koppelwerkblad antwoordblad met horizontale verbindingslijnen getekend tussen correcte paren voor directe antwoordverificatie',
         caption: 'Automatisch gegenereerd antwoordblad — verbindingslijnen (#555) tussen correcte paren voor directe verificatie',
       },

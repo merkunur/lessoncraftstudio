@@ -181,22 +181,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/math puzzle/Wiskundepuzzels 1.webp',
+      src: '/samples/dutch/math puzzle/wiskundepuzzels-1.webp',
       alt: 'Wiskundepuzzel werkblad voorbeeld voor passief inkomen met printables',
     },
     samples: [
       {
-        src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
+        src: '/samples/dutch/addition/optellen-is-leuk-1.webp',
         alt: 'Optelwerkblad voor passief inkomen verkoop',
         caption: 'Professioneel optelwerkblad — gegenereerd met de gratis proefversie met watermerk',
       },
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-1.webp',
         alt: 'Woordzoeker puzzel voor passief inkomen op Etsy',
         caption: 'Thematische woordzoeker — een van de best verkopende werkbladtypen voor passief inkomen',
       },
       {
-        src: '/samples/dutch/crossword/Plaatjes Kruiswoord 1.webp',
+        src: '/samples/dutch/crossword/plaatjes-kruiswoord-1.webp',
         alt: 'Doolhof werkblad voor passief inkomen catalogus',
         caption: 'Doolhof werkblad — populair bij kinderen en consistent verkopend op alle platformen',
       },
@@ -207,7 +207,7 @@ const content: GuideContent = {
 
   themeImages: [
     {
-      src: '/image-library/dinosaurs/tyrannosaurus rex.webp',
+      src: '/image-library/dinosaurs/tyrannosaurus-rex.webp',
       alt: 'Tyrannosaurus illustratie voor dinosaurus werkbladen',
       caption: 'Tyrannosaurus — het populairste dinosaurusthema voor kinderwerkbladen',
     },

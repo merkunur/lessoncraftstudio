@@ -264,22 +264,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/coloring/coloring portrait 1.webp',
+      primary: '/samples/spanish/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Página para colorear personalizada con imágenes temáticas organizadas en lienzo de formato libre con borde decorativo y campo de nombre para venta en línea',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/coloring/coloring portrait 2.webp',
+        src: '/samples/spanish/coloring/coloring-portrait-2.webp',
         alt: 'Página para colorear con tema de animales e ilustraciones coloridas organizadas libremente en el lienzo',
         caption: 'Página para colorear con tema de animales — ilustraciones coloridas organizadas libremente en el lienzo',
       },
       {
-        src: '/samples/spanish/coloring/coloring portrait 3.webp',
+        src: '/samples/spanish/coloring/coloring-portrait-3.webp',
         alt: 'Página para colorear con líneas de caligrafía y campo de nombre para uso comercial',
         caption: 'Página para colorear lista para la clase — campo de nombre y líneas de práctica de caligrafía incluidos',
       },
       {
-        src: '/samples/spanish/coloring/coloring landscape 1.webp',
+        src: '/samples/spanish/coloring/coloring-landscape-1.webp',
         alt: 'Página para colorear en escala de grises con borde decorativo lista para impresión de ahorro de tinta',
         caption: 'Exportación en escala de grises — página para colorear de ahorro de tinta con tema de borde decorativo',
       },

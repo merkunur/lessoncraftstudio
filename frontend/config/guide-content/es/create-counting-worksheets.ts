@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/chart count/Gráfico de Dibujos 1.webp', alt: 'Ficha de gráfico pictórico con cuadrícula de 4×5 de imágenes dispersas y gráfico de barras para práctica de conteo y gráficos' },
+    heroImage: { src: '/samples/spanish/chart count/gráfico-de-dibujos-1.webp', alt: 'Ficha de gráfico pictórico con cuadrícula de 4×5 de imágenes dispersas y gráfico de barras para práctica de conteo y gráficos' },
     samples: [
-      { src: '/samples/spanish/chart count/Gráfico de Dibujos 1.webp', alt: 'Ficha de gráfico pictórico con 20 iconos dispersos en una cuadrícula de 4×5 y gráfico de barras de 6 columnas debajo', caption: 'Ficha completa de gráfico pictórico con cuadrícula de imágenes dispersas y gráfico de barras para práctica de conteo del usuario' },
-      { src: '/samples/spanish/chart count/Gráfico de Dibujos 1 answer_key.webp', alt: 'Clave de respuestas de gráfico pictórico con celdas resaltadas en amarillo mostrando los conteos correctos', caption: 'Clave de respuestas autogenerada con celdas resaltadas en amarillo (#FFC857) mostrando el conteo correcto para cada tipo de imagen' },
+      { src: '/samples/spanish/chart count/gráfico-de-dibujos-1.webp', alt: 'Ficha de gráfico pictórico con 20 iconos dispersos en una cuadrícula de 4×5 y gráfico de barras de 6 columnas debajo', caption: 'Ficha completa de gráfico pictórico con cuadrícula de imágenes dispersas y gráfico de barras para práctica de conteo del usuario' },
+      { src: '/samples/spanish/chart count/gráfico-de-dibujos-1-answer-key.webp', alt: 'Clave de respuestas de gráfico pictórico con celdas resaltadas en amarillo mostrando los conteos correctos', caption: 'Clave de respuestas autogenerada con celdas resaltadas en amarillo (#FFC857) mostrando el conteo correcto para cada tipo de imagen' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Cómo crear fichas de conteo y gráficos — Tutorial completo',

@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/picture path/Picture Pathway.webp',
+      primary: '/samples/english/picture path/picture-pathway.webp',
       primaryAlt: 'Picture pathway maze worksheet with themed images in a grid featuring orange header border and auto-generated Picture Pathway header',
     },
     sampleGallery: [
       {
-        src: '/samples/english/picture path/Picture Pathway (1).webp',
+        src: '/samples/english/picture path/picture-pathway-1.webp',
         alt: 'Picture Pathway mode worksheet with images arranged in a grid showing the correct path from start to finish',
         caption: 'Picture Pathway mode — follow the correct image path from start to finish',
       },
       {
-        src: '/samples/english/picture path/Picture Pathway (5).webp',
+        src: '/samples/english/picture path/picture-pathway-5.webp',
         alt: 'Classic Maze mode worksheet with wall-based corridors and collectible images scattered throughout',
         caption: 'Classic Maze mode — LPF algorithm generates wall-based mazes with collectibles',
       },
       {
-        src: '/samples/english/picture path/Picture Pathway answer_key.webp',
+        src: '/samples/english/picture path/picture-pathway-answer-key.webp',
         alt: 'Picture path maze answer key with solution path highlighted by pink circles along the correct route',
         caption: 'Auto-generated answer key — solution path highlighted with pink circles',
       },

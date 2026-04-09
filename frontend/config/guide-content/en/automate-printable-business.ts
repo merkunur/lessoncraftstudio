@@ -164,22 +164,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/math worksheet/Math Worksheet 11.webp',
+      src: '/samples/english/math worksheet/math-worksheet-11.webp',
       alt: 'Professional math worksheet demonstrating rapid automated creation for printable business efficiency',
     },
     samples: [
       {
-        src: '/samples/english/math worksheet/Math Worksheet 10.webp',
+        src: '/samples/english/math worksheet/math-worksheet-10.webp',
         alt: 'Math worksheet showing automated production output quality',
         caption: 'Worksheet generators automate the most time-consuming step in printable production',
       },
       {
-        src: '/samples/english/addition/Addition Fun 10.webp',
+        src: '/samples/english/addition/addition-fun-10.webp',
         alt: 'Addition worksheet demonstrating batch production with theme variations',
         caption: 'Batch production of themed variations multiplies catalog output efficiently',
       },
       {
-        src: '/samples/english/wordsearch/Word Search 10.webp',
+        src: '/samples/english/wordsearch/word-search-10.webp',
         alt: 'Word search puzzle showing systematic content creation across themes',
         caption: 'Systematic variation across themes and languages scales catalog growth',
       },

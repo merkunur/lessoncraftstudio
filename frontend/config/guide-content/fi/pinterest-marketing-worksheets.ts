@@ -146,7 +146,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivutyöarkki näyttäen visuaalista vaikutusta Pinterest-pin-suunnitteluun', caption: 'Visuaalisesti näyttävät työarkit luovat luonnostaan houkuttelevia Pinterest-pin-kuvia' },
       { src: '/samples/finnish/bingo/kuvabingo%201.webp', alt: 'Bingo-korttityöarkki esittelemässä värikästä pin-kelpoista tuotesuunnittelua', caption: 'Värikylläiset, temaattiset tuotteet tuottavat korkeampia tallennusasteita ja klikkauksia Pinterestissä' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma näyttäen monipuolista tuotetyyppiä Pinterest-markkinointiin', caption: 'Monipuoliset tuotetyypit tukevat useita pin-variaatioita laajempaan hakunäkyvyyteen' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulma näyttäen monipuolista tuotetyyppiä Pinterest-markkinointiin', caption: 'Monipuoliset tuotetyypit tukevat useita pin-variaatioita laajempaan hakunäkyvyyteen' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Pinterest-markkinointistrategia tulostettavien työarkkien yrityksille',

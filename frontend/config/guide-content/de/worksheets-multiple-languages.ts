@@ -173,12 +173,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/Worter suchen 1.webp',
+      src: '/samples/german/wordsearch/worter-suchen-1.webp',
       alt: 'Wortsuche-Arbeitsblatt als Demonstration mehrsprachiger Inhaltsgenerierung mit korrekter Zeichenbehandlung',
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuchrätsel mit vokabelbasiertem Inhalt, der korrekte mehrsprachige Zeichenunterstützung erfordert',
         caption: 'Wortsuchrätsel-Arbeitsblätter demonstrieren die Bedeutung korrekter Zeichenbehandlung über Sprachen hinweg',
       },
@@ -188,7 +188,7 @@ const content: GuideContent = {
         caption: 'Alphabet-Arbeitsblätter erfordern sprachspezifische Zeichen einschließlich Umlauten und akzentuierten Buchstaben',
       },
       {
-        src: '/samples/german/matching/Paare Finden 1.webp',
+        src: '/samples/german/matching/paare-finden-1.webp',
         alt: 'Zuordnungs-Arbeitsblatt mit mehrsprachiger Produktion aus visuellen und Textelementen',
         caption: 'Zuordnungsarbeitsblätter kombinieren visuelle Elemente mit sprachspezifischem Vokabular für internationale Märkte',
       },

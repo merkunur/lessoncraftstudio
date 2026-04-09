@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/wordsearch/Mots Caches 1.webp',
+      primary: '/samples/french/wordsearch/mots-caches-1.webp',
       primaryAlt: 'Fiche mots cachés avec grille de lettres et indices images montrant un puzzle de recherche de mots',
     },
     sampleGallery: [
       {
-        src: '/samples/french/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/mots-caches-1.webp',
         alt: 'Fiche mots cachés en format portrait avec grille 12×12 et indices images thématiques',
         caption: 'Format portrait — grille 12×12 avec indices images thématiques et liste de mots',
       },
       {
-        src: '/samples/french/wordsearch/Mots Cachés 2.webp',
+        src: '/samples/french/wordsearch/mots-cachés-2.webp',
         alt: 'Fiche mots cachés en format paysage avec grille large et mots en diagonale activés',
         caption: 'Format paysage — grille élargie avec mots en diagonale et inversés activés',
       },
       {
-        src: '/samples/french/wordsearch/Mots Cachés 3.webp',
+        src: '/samples/french/wordsearch/mots-cachés-3.webp',
         alt: 'Fiche mots cachés utilisant le mode liste de mots personnalisée sans images',
         caption: 'Mode Liste de Mots Personnalisée — mots cachés textuels sans indices images',
       },

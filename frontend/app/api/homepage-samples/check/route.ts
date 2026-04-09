@@ -107,11 +107,11 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
         landscapeOriginal, landscapeThumb, landscapePreview
       ] = await Promise.all([
         checkFileStatus(path.join(dir, 'hero-portrait.webp')),
-        checkFileStatus(path.join(dir, 'hero-portrait_thumb.webp')),
-        checkFileStatus(path.join(dir, 'hero-portrait_preview.webp')),
+        checkFileStatus(path.join(dir, 'hero-portrait-thumb.webp')),
+        checkFileStatus(path.join(dir, 'hero-portrait-preview.webp')),
         checkFileStatus(path.join(dir, 'hero-landscape.webp')),
-        checkFileStatus(path.join(dir, 'hero-landscape_thumb.webp')),
-        checkFileStatus(path.join(dir, 'hero-landscape_preview.webp'))
+        checkFileStatus(path.join(dir, 'hero-landscape-thumb.webp')),
+        checkFileStatus(path.join(dir, 'hero-landscape-preview.webp'))
       ]);
 
       const heroResult: HeroCheckResult = {
@@ -147,7 +147,7 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
 
     // Check all file types
     const [thumbnail, thumbWebp, previewWebp, pdf] = await Promise.all([
-      checkFileStatus(path.join(dir, `${appId}-thumbnail.webp`)),
+      checkFileStatus(path.join(dir, `${appId}thumbnail.webp`)),
       checkFileStatus(path.join(dir, `${appId}-thumbnail_thumb.webp`)),
       checkFileStatus(path.join(dir, `${appId}-thumbnail_preview.webp`)),
       checkFileStatus(path.join(dir, `${appId}-sample.pdf`))

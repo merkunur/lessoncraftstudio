@@ -187,8 +187,8 @@ const content: GuideContent = {
     heroImage: { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Kleurplaat gemaakt van thema-afbeeldingen met grijswaardenconversie voor printklare kleurbladen' },
     samples: [
       { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Thematische kleurplaat met dierenillustraties gerangschikt op een vrij canvas', caption: 'Kleurplaat gemaakt met thema-afbeeldingen uit de bibliotheek met vrije canvasplaatsing' },
-      { src: '/samples/dutch/draw%20and%20color/Teken%20en%20Kleur%201.webp', alt: 'Teken en kleur activiteitenblad met creatieve oefeningen', caption: 'Teken en kleur werkblad als aanvulling op kleurplaten in bundels' },
-      { src: '/samples/dutch/drawing%20lines/Lijnen%20Tekenen%20Oefenen%201.webp', alt: 'Lijnen tekenen oefenwerkblad voor fijne motoriek ontwikkeling', caption: 'Lijnen trekken werkblad combineert goed met kleurplaten in activiteitenpakketten' },
+      { src: '/samples/dutch/draw%20and%20color/teken%20en%20kleur%201.webp', alt: 'Teken en kleur activiteitenblad met creatieve oefeningen', caption: 'Teken en kleur werkblad als aanvulling op kleurplaten in bundels' },
+      { src: '/samples/dutch/drawing%20lines/lijnen%20tekenen%20oefenen%201.webp', alt: 'Lijnen tekenen oefenwerkblad voor fijne motoriek ontwikkeling', caption: 'Lijnen trekken werkblad combineert goed met kleurplaten in activiteitenpakketten' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Hoe Kleurplaten Maken van Thema-Afbeeldingen — Complete Handleiding',

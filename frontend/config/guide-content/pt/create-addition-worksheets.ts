@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividade de adição com imagens temáticas mostrando exercícios de contagem visual para crianças' },
+    heroImage: { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade de adição com imagens temáticas mostrando exercícios de contagem visual para crianças' },
     samples: [
-      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Atividade de adição baseada em imagens com tema de animais para jardim de infância', caption: 'Atividade de adição de jardim de infância usando o tema de animais da quinta com modo de exercício Imagem + Imagem' },
-      { src: '/samples/portuguese/addition/Adição Divertida 3.webp', alt: 'Atividade de adição com chave de resposta mostrando as soluções corretas', caption: 'Chave de resposta automática gerada juntamente com cada atividade de adição' },
+      { src: '/samples/portuguese/addition/adição-divertida-2.webp', alt: 'Atividade de adição baseada em imagens com tema de animais para jardim de infância', caption: 'Atividade de adição de jardim de infância usando o tema de animais da quinta com modo de exercício Imagem + Imagem' },
+      { src: '/samples/portuguese/addition/adição-divertida-3.webp', alt: 'Atividade de adição com chave de resposta mostrando as soluções corretas', caption: 'Chave de resposta automática gerada juntamente com cada atividade de adição' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como criar atividades de adição — Tutorial completo',

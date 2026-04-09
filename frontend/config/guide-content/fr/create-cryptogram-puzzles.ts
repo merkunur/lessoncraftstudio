@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/cryptogram/Cryptogramme en Images 1.webp', alt: 'Fiche de cryptogramme avec chiffrement en images montrant des images thématiques associées aux lettres de l\'alphabet encodant une phrase secrète' },
+    heroImage: { src: '/samples/french/cryptogram/cryptogramme-en-images-1.webp', alt: 'Fiche de cryptogramme avec chiffrement en images montrant des images thématiques associées aux lettres de l\'alphabet encodant une phrase secrète' },
     samples: [
-      { src: '/samples/french/cryptogram/Cryptogramme en Images 1.webp', alt: 'Fiche de cryptogramme avec des images thématiques remplaçant les lettres dans une phrase secrète encodée', caption: 'Puzzle chiffré en images — décodez le message secret en identifiant quelle image représente quelle lettre' },
-      { src: '/samples/french/cryptogram/Cryptogramme en Images 2.webp', alt: 'Fiche de cryptogramme avec des images thématiques et des indices Lettres à révéler pour une difficulté étayée', caption: 'Chiffrement thématique avec Lettres à révéler — les correspondances pré-résolues fournissent un étayage pour les débutants' },
-      { src: '/samples/french/cryptogram/Cryptogramme en Images 1 answer_key.webp', alt: 'Corrigé de cryptogramme avec légende complète de lettres montrant toutes les correspondances alphabet-image dans l\'ordre', caption: 'Corrigé avec légende de lettres — chaque lettre de l\'alphabet associée à son image attribuée pour une référence de solution définitive' },
+      { src: '/samples/french/cryptogram/cryptogramme-en-images-1.webp', alt: 'Fiche de cryptogramme avec des images thématiques remplaçant les lettres dans une phrase secrète encodée', caption: 'Puzzle chiffré en images — décodez le message secret en identifiant quelle image représente quelle lettre' },
+      { src: '/samples/french/cryptogram/cryptogramme-en-images-2.webp', alt: 'Fiche de cryptogramme avec des images thématiques et des indices Lettres à révéler pour une difficulté étayée', caption: 'Chiffrement thématique avec Lettres à révéler — les correspondances pré-résolues fournissent un étayage pour les débutants' },
+      { src: '/samples/french/cryptogram/cryptogramme-en-images-1-answer-key.webp', alt: 'Corrigé de cryptogramme avec légende complète de lettres montrant toutes les correspondances alphabet-image dans l\'ordre', caption: 'Corrigé avec légende de lettres — chaque lettre de l\'alphabet associée à son image attribuée pour une référence de solution définitive' },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: 'Comment créer des puzzles cryptogrammes chiffrés en images — Tutoriel étape par étape',

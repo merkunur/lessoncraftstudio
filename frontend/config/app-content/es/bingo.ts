@@ -264,22 +264,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/bingo/Bingo de Imágenes 1.webp',
+      primary: '/samples/spanish/bingo/bingo-de-imágenes-1.webp',
       primaryAlt: 'Tarjeta de bingo con imágenes temáticas en una cuadrícula y fichas circulares con bordes discontinuos debajo',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/bingo/Bingo de Imágenes 2.webp',
+        src: '/samples/spanish/bingo/bingo-de-imágenes-2.webp',
         alt: 'Tarjeta de bingo con relleno de imagen mostrando ilustraciones temáticas coloridas en las celdas y fichas circulares con imágenes',
         caption: 'Modo relleno de imagen — ilustraciones coloridas en las celdas y las fichas circulares',
       },
       {
-        src: '/samples/spanish/bingo/Bingo de Imágenes 3.webp',
+        src: '/samples/spanish/bingo/bingo-de-imágenes-3.webp',
         alt: 'Tarjeta de bingo con relleno de palabras mostrando nombres localizados de imágenes en las celdas y fichas con palabras',
         caption: 'Modo relleno de palabras — nombres localizados de imágenes para bingo basado en vocabulario',
       },
       {
-        src: '/samples/spanish/bingo/Bingo de Imágenes 1 callout.webp',
+        src: '/samples/spanish/bingo/bingo-de-imágenes-1-callout.webp',
         alt: 'Hoja de cantado de bingo con cuadrícula dinámica de palabras mostrando todos los elementos del juego para el cantador',
         caption: 'Hoja de cantado — cuadrícula dinámica de palabras para la persona que dirige el juego de bingo',
       },

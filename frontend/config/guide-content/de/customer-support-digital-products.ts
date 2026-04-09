@@ -174,22 +174,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/matching/Paare Finden 1.webp',
+      src: '/samples/german/matching/paare-finden-1.webp',
       alt: 'Professionelles Zuordnungsarbeitsblatt mit klarem Produktdesign zur Vermeidung von Kundensupport-Problemen',
     },
     samples: [
       {
-        src: '/samples/german/matching/Paare Finden 1.webp',
+        src: '/samples/german/matching/paare-finden-1.webp',
         alt: 'Zuordnungsarbeitsblatt mit übersichtlichem Layout und Anweisungen zur Reduzierung von Käuferfragen',
         caption: 'Klares Arbeitsblattdesign und umfassende Produktbeschreibungen verhindern häufige Supportanfragen',
       },
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: '/samples/german/addition/additionsspa-1.webp',
         alt: 'Additionsarbeitsblatt mit professioneller Formatierung für genaue Käufererwartungen',
         caption: 'Professionelle Formatierung und detaillierte Spezifikationen eliminieren Erwartungsabweichungen',
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuchrätsel mit thematischem Inhalt zur Demonstration von Produktklarheit für Käufer',
         caption: 'Inhaltsreiche Produkte profitieren am meisten von umfassender Dokumentation und Self-Service-Support',
       },

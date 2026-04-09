@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/pattern worksheet/Puzzle di Schemi 1.webp', alt: 'Scheda di riconoscimento sequenze con immagini tematiche che mostra esercizi di completamento di sequenze visive per bambini' },
+    heroImage: { src: '/samples/italian/pattern worksheet/puzzle-di-schemi-1.webp', alt: 'Scheda di riconoscimento sequenze con immagini tematiche che mostra esercizi di completamento di sequenze visive per bambini' },
     samples: [
-      { src: '/samples/italian/pattern worksheet/Puzzle di Schemi 1.webp', alt: 'Scheda di riconoscimento sequenze con tema animali che mostra esercizi con sequenze AB e ABC', caption: 'Scheda di riconoscimento sequenze con immagini tematiche, più tipi di sequenza e chiave di risposta automatica' },
-      { src: '/samples/italian/pattern worksheet/Puzzle di Schemi 1.webp', alt: 'Chiave di risposta della scheda di sequenze che mostra le sequenze completate con le immagini corrette inserite', caption: 'Chiave di risposta automatica generata insieme a ogni scheda di sequenze per una verifica rapida' },
+      { src: '/samples/italian/pattern worksheet/puzzle-di-schemi-1.webp', alt: 'Scheda di riconoscimento sequenze con tema animali che mostra esercizi con sequenze AB e ABC', caption: 'Scheda di riconoscimento sequenze con immagini tematiche, più tipi di sequenza e chiave di risposta automatica' },
+      { src: '/samples/italian/pattern worksheet/puzzle-di-schemi-1.webp', alt: 'Chiave di risposta della scheda di sequenze che mostra le sequenze completate con le immagini corrette inserite', caption: 'Chiave di risposta automatica generata insieme a ogni scheda di sequenze per una verifica rapida' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'Come Creare Schede di Riconoscimento di Sequenze Logiche — Tutorial Completo',

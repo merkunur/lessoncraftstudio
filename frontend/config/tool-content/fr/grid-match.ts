@@ -227,22 +227,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/grid match/Puzzle Grille 1.webp',
+      primary: '/samples/french/grid match/puzzle-grille-1.webp',
       primaryAlt: 'Fiche de puzzle grille avec image unique divisée en tuiles, cases-indices révélées et palette de tuiles numérotées pour une activité de raisonnement spatial',
     },
     sampleGallery: [
       {
-        src: '/samples/french/grid match/Puzzle Grille 1.webp',
+        src: '/samples/french/grid match/puzzle-grille-1.webp',
         alt: 'Puzzle grille 3×3 avec une case-indice visible et huit tuiles numérotées dans la palette mélangée pour l\'association',
         caption: 'Puzzle grille 3×3 — une case-indice révélée, huit tuiles à associer depuis la palette numérotée',
       },
       {
-        src: '/samples/french/grid match/Puzzle Grille 5.webp',
+        src: '/samples/french/grid match/puzzle-grille-5.webp',
         alt: 'Puzzle grille 4×4 avancé avec seize tuiles et indices minimaux pour une activité de perception visuelle stimulante',
         caption: 'Puzzle 4×4 avancé — taille de grille maximale avec 16 tuiles pour un raisonnement spatial stimulant',
       },
       {
-        src: '/samples/french/grid match/Puzzle Grille 1 answer_key.webp',
+        src: '/samples/french/grid match/puzzle-grille-1-answer-key.webp',
         alt: 'Corrigé du puzzle grille montrant l\'image complète avec des cercles numérotés jaunes superposés sur chaque cellule indiquant le placement correct des tuiles',
         caption: 'Corrigé auto-généré — les cercles numérotés (#ffffe0) montrent le placement correct des tuiles sur l\'image complète',
       },

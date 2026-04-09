@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'German word search puzzle with umlauts and themed vocabulary for Etsy and Amazon DE' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'German word search puzzle with umlauts and themed vocabulary for Etsy and Amazon DE' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'German word search puzzle showing themed German vocabulary in grid', caption: 'A German word search puzzle generated with native vocabulary including umlauts and compound words' },
-      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'German crossword puzzle with picture clues', caption: 'Picture crossword with German answer words -- image clues bypass the need for written German' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'German word search puzzle showing themed German vocabulary in grid', caption: 'A German word search puzzle generated with native vocabulary including umlauts and compound words' },
+      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'German crossword puzzle with picture clues', caption: 'Picture crossword with German answer words -- image clues bypass the need for written German' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

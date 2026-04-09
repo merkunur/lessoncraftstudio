@@ -218,22 +218,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/shadow%20match/Schaduw Koppelen 1.webp',
+      primary: '/samples/dutch/shadow%20match/schaduw-koppelen-1.webp',
       primaryAlt: 'Schaduw koppelen werkblad met gekleurde afbeeldingen in bovenste rij en automatisch gegenereerde zwarte silhouetten in onderste rij met amberkleurige koptekst',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/shadow%20match/Schaduw%20Koppelen%201.webp',
+        src: '/samples/dutch/shadow%20match/schaduw%20koppelen%201.webp',
         alt: 'Schaduw koppelen werkblad met vier gekleurde afbeeldingen gekoppeld aan vier zwarte silhouetten met letter- en nummerlabels',
         caption: 'Schaduw Koppelen-modus — gebruikers koppelen afbeeldingen aan hun automatisch gegenereerde silhouetten',
       },
       {
-        src: '/samples/dutch/shadow%20match/Schaduw%20Koppelen%202.webp',
+        src: '/samples/dutch/shadow%20match/schaduw%20koppelen%202.webp',
         alt: 'Maak het compleet werkblad met gesplitste afbeeldingshelften die gebruikers opnieuw samenvoegen door eerste en tweede helften te koppelen',
         caption: 'Maak het Compleet-modus — gebruikers koppelen gesplitste afbeeldingshelften om plaatjes te completeren',
       },
       {
-        src: '/samples/dutch/shadow%20match/Schaduw%20Koppelen%201%20answer-key.webp',
+        src: '/samples/dutch/shadow%20match/schaduw%20koppelen%201%20answer-key.webp',
         alt: 'Schaduw koppelen antwoordblad met originele afbeeldingen naast silhouetten en correcte letter-naar-nummer-koppelingslabels',
         caption: 'Automatisch gegenereerd antwoordblad — letter-naar-nummer-labels tonen correcte koppelingen',
       },

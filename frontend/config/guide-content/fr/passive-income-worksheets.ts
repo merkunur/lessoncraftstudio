@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/addition/Addition Amusant 1.webp',
+      src: '/samples/french/addition/addition-amusant-1.webp',
       alt: 'Fiche d\'addition professionnelle démontrant un contenu éducatif durable pour des revenus récurrents',
     },
     samples: [
       {
-        src: '/samples/french/addition/Addition Amusant 1.webp',
+        src: '/samples/french/addition/addition-amusant-1.webp',
         alt: 'Fiche d\'addition montrant une mise en forme de qualité professionnelle pour la vente sur les marketplaces',
         caption: 'Les fiches de mathématiques génèrent des revenus constants tout au long de l\'année en tant que produits éducatifs durables',
       },
       {
-        src: '/samples/french/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/mots-caches-1.webp',
         alt: 'Puzzle de mots cachés disponible en plusieurs langues pour une portée de marché élargie',
         caption: 'Les mots cachés multi-langues multiplient les revenus en atteignant des marchés internationaux sous-exploités',
       },
       {
-        src: '/samples/french/matching/Trouve les Paires 1.webp',
+        src: '/samples/french/matching/trouve-les-paires-1.webp',
         alt: 'Fiche d\'association thématique démontrant la profondeur du catalogue grâce à la versatilité des thèmes',
         caption: 'Les activités d\'association thématiques construisent la profondeur du catalogue qui stimule la découvrabilité composée',
       },

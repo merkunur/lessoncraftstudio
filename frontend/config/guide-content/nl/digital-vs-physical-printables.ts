@@ -182,10 +182,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoekpuzzel werkblad als voorbeeld van printable content die zowel digitaal als fysiek verkocht kan worden' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekpuzzel werkblad als voorbeeld van printable content die zowel digitaal als fysiek verkocht kan worden' },
     samples: [
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoekpuzzel werkblad voor digitale download of gedrukt boek', caption: 'Woordzoekpuzzels verkopen uitstekend in beide formaten — als individuele downloads op Etsy en als samengestelde puzzelboeken op KDP' },
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Rekenoptelwerkblad geschikt voor digitale en fysieke verkoop', caption: 'Rekenwerkbladen werken als Etsy losse pagina\'s en pakketten of samengesteld tot KDP rekenactiviteitenboeken' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekpuzzel werkblad voor digitale download of gedrukt boek', caption: 'Woordzoekpuzzels verkopen uitstekend in beide formaten — als individuele downloads op Etsy en als samengestelde puzzelboeken op KDP' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Rekenoptelwerkblad geschikt voor digitale en fysieke verkoop', caption: 'Rekenwerkbladen werken als Etsy losse pagina\'s en pakketten of samengesteld tot KDP rekenactiviteitenboeken' },
       { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Kleurplaat geschikt voor verkoop in digitaal en fysiek formaat', caption: 'Kleurplaten zijn een topcategorie op beide platforms — individuele downloads op Etsy en kleurboeken op KDP' },
     ],
     youtubeId: '36keBFzJbPo',

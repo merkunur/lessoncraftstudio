@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/draw%20and%20color/Tegn%20og%20Fargelegg%201.webp', alt: 'Tegn og fargelegg-arbeidsark som demonstrerer kreativt spekter for skalering av utskriftsbar forretning' },
+    heroImage: { src: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%201.webp', alt: 'Tegn og fargelegg-arbeidsark som demonstrerer kreativt spekter for skalering av utskriftsbar forretning' },
     samples: [
-      { src: '/samples/norwegian/draw%20and%20color/Tegn%20og%20Fargelegg%201.webp', alt: 'Tegn og fargelegg-arbeidsark som viser temavariasjon for katalogutvidelse', caption: 'Tegn og Fargelegg — Kreativt Spekter for Katalogdybde' },
-      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsøkpuslespill som demonstrerer høyvolum skalerbarhet på tvers av temaer', caption: 'Ordsøk — Høyest Volum Skaleringspotensial' },
+      { src: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%201.webp', alt: 'Tegn og fargelegg-arbeidsark som viser temavariasjon for katalogutvidelse', caption: 'Tegn og Fargelegg — Kreativt Spekter for Katalogdybde' },
+      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøkpuslespill som demonstrerer høyvolum skalerbarhet på tvers av temaer', caption: 'Ordsøk — Høyest Volum Skaleringspotensial' },
       { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside som viser språkuavhengig internasjonal skalerbarhet', caption: 'Fargelegging — Internasjonal Skalering Uten Oversettelse' },
-      { src: '/samples/norwegian/sudoku/Bilde-Sudoku%202.webp', alt: 'Sudoku-puslespill som demonstrerer plattformagnostisk produktdistribusjon', caption: 'Sudoku — Plattformagnostisk Distribusjon' },
+      { src: '/samples/norwegian/sudoku/bilde-sudoku%202.webp', alt: 'Sudoku-puslespill som demonstrerer plattformagnostisk produktdistribusjon', caption: 'Sudoku — Plattformagnostisk Distribusjon' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Slik Lager du Tegn og Fargelegg-arbeidsark for din Utskriftsbare Forretning — LessonCraftStudio Demo',

@@ -130,8 +130,8 @@ const content: StartContent = {
     heroImage: { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivuesimerkki Etsy-myyjille luotu LessonCraftStudio-generaattorilla' },
     samples: [
       { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu — Etsy-myyntiesimerkki', caption: 'Väritys — Etsyn suosituin kategoria' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananhaku — Etsy-myyntiesimerkki', caption: 'Sananhaku — vahva hakuvolyymi' },
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlasku — Etsy-myyntiesimerkki', caption: 'Yhteenlasku — ikiviheä myyjä' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhaku — Etsy-myyntiesimerkki', caption: 'Sananhaku — vahva hakuvolyymi' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlasku — Etsy-myyntiesimerkki', caption: 'Yhteenlasku — ikiviheä myyjä' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Näin luot värityssivuja — LessonCraftStudio-demo',

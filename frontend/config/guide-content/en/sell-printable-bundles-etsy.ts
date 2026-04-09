@@ -178,11 +178,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Worksheet bundle showing multiple printable activity types for selling on Etsy' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Worksheet bundle showing multiple printable activity types for selling on Etsy' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle worksheet for inclusion in Etsy printable bundle', caption: 'Word search puzzles are a high-demand bundle component -- themed vocabulary grids that buyers across all age groups enjoy' },
-      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet with themed illustrations for educational bundle', caption: 'Image-based addition worksheets add academic value to themed bundles and appeal to homeschool buyers' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page printable for diverse activity bundle on Etsy', caption: 'Coloring pages provide visual variety in bundles and create eye-catching listing thumbnails' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Word search puzzle worksheet for inclusion in Etsy printable bundle', caption: 'Word search puzzles are a high-demand bundle component -- themed vocabulary grids that buyers across all age groups enjoy' },
+      { src: '/samples/english/addition/addition-fun-10.webp', alt: 'Addition worksheet with themed illustrations for educational bundle', caption: 'Image-based addition worksheets add academic value to themed bundles and appeal to homeschool buyers' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page printable for diverse activity bundle on Etsy', caption: 'Coloring pages provide visual variety in bundles and create eye-catching listing thumbnails' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

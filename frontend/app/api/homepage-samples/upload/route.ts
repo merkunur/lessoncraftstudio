@@ -116,7 +116,7 @@ async function processImageUpload(
   const dir = path.join(SAMPLES_BASE, language, 'homepage');
   await ensureDirectoryExists(dir);
 
-  const originalPath = path.join(dir, `${appId}-thumbnail.webp`);
+  const originalPath = path.join(dir, `${appId}thumbnail.webp`);
   const thumbPath = path.join(dir, `${appId}-thumbnail_thumb.webp`);
   const previewPath = path.join(dir, `${appId}-thumbnail_preview.webp`);
 
@@ -132,7 +132,7 @@ async function processImageUpload(
   if (originalExists && !overwrite) {
     return {
       success: false,
-      error: `File already exists: ${appId}-thumbnail.webp. Set overwrite=true to replace.`
+      error: `File already exists: ${appId}thumbnail.webp. Set overwrite=true to replace.`
     };
   }
 
@@ -187,7 +187,7 @@ async function processImageUpload(
       success: true,
       message: 'Image uploaded and WebP variants generated successfully',
       paths: {
-        original: `/samples/${language}/homepage/${appId}-thumbnail.webp`,
+        original: `/samples/${language}/homepage/${appId}thumbnail.webp`,
         thumb: `/samples/${language}/homepage/${appId}-thumbnail_thumb.webp`,
         preview: `/samples/${language}/homepage/${appId}-thumbnail_preview.webp`
       },

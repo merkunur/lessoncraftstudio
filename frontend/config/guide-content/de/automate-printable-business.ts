@@ -183,12 +183,12 @@ const content: GuideContent = {
         caption: 'Arbeitsblatt-Generatoren automatisieren den zeitintensivsten Schritt in der Druckvorlagen-Produktion',
       },
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: '/samples/german/addition/additionsspa-1.webp',
         alt: 'Additions-Arbeitsblatt demonstriert Stapelverarbeitung mit Themenvariationen',
         caption: 'Stapelverarbeitung thematischer Variationen multipliziert die Katalogproduktion effizient',
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuchrätsel zeigt systematische Inhaltserstellung über Themen hinweg',
         caption: 'Systematische Variation über Themen und Sprachen skaliert das Katalogwachstum',
       },

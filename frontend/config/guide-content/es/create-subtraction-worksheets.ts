@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/subtraction/Restas Divertidas 1.webp', alt: 'Ficha de restas con imágenes temáticas tachadas mostrando ejercicios de quitar para niños' },
+    heroImage: { src: '/samples/spanish/subtraction/restas-divertidas-1.webp', alt: 'Ficha de restas con imágenes temáticas tachadas mostrando ejercicios de quitar para niños' },
     samples: [
-      { src: '/samples/spanish/subtraction/Restas Divertidas 1.webp', alt: 'Ficha de restas basada en imágenes con animales tachados para jardín de infantes', caption: 'Ficha de restas de jardín de infantes usando el modo de ejercicio Tachar con imágenes temáticas' },
-      { src: '/samples/spanish/subtraction/Restas Divertidas 1.webp', alt: 'Ficha de restas con clave de respuestas mostrando las soluciones correctas', caption: 'Clave de respuestas automática generada junto con cada ficha de restas' },
+      { src: '/samples/spanish/subtraction/restas-divertidas-1.webp', alt: 'Ficha de restas basada en imágenes con animales tachados para jardín de infantes', caption: 'Ficha de restas de jardín de infantes usando el modo de ejercicio Tachar con imágenes temáticas' },
+      { src: '/samples/spanish/subtraction/restas-divertidas-1.webp', alt: 'Ficha de restas con clave de respuestas mostrando las soluciones correctas', caption: 'Clave de respuestas automática generada junto con cada ficha de restas' },
     ],
     youtubeId: 'til2mrWMUxk',
     videoTitle: 'Cómo crear fichas de restas — Tutorial completo',

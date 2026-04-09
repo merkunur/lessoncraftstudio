@@ -250,22 +250,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/picture%20path/Billedsti%201.webp',
+      primary: '/samples/danish/picture%20path/billedsti%201.webp',
       primaryAlt: 'Labyrint til print med temabilleder i et gitter — børn følger den rigtige vej fra start til mål',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/picture%20path/Billedsti%201.webp',
+        src: '/samples/danish/picture%20path/billedsti%201.webp',
         alt: 'Labyrint til print med billedsti — børn følger den korrekte vej fra start til mål i et billedgitter',
         caption: 'Billedsti-tilstand — følg den rigtige billedvej fra start til mål',
       },
       {
-        src: '/samples/danish/picture%20path/Billedsti%202.webp',
+        src: '/samples/danish/picture%20path/billedsti%202.webp',
         alt: 'Klassisk labyrint til print med vægbaserede korridorer og samlingsbilleder',
         caption: 'Klassisk Labyrint — vægbaseret labyrint genereret med LPF-algoritmen',
       },
       {
-        src: '/samples/danish/picture%20path/Billedsti%203.webp',
+        src: '/samples/danish/picture%20path/billedsti%203.webp',
         alt: 'Facitliste til labyrint med løsningsvej markeret med rosa cirkler langs den korrekte sti',
         caption: 'Automatisk facit — løsningsvejen markeret med rosa cirkler',
       },

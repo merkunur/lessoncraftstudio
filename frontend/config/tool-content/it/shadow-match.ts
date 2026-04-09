@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/shadow match/Abbina le Ombre 1.webp',
+      primary: '/samples/italian/shadow match/abbina-le-ombre-1.webp',
       primaryAlt: 'Scheda abbinamento ombre con immagini colorate nella riga superiore e silhouette nere generate automaticamente nella riga inferiore con intestazione ambra e etichette lettera-numero per attività di abbinamento',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/shadow match/Abbina le Ombre 2.webp',
+        src: '/samples/italian/shadow match/abbina-le-ombre-2.webp',
         alt: 'Scheda abbinamento ombre con quattro immagini colorate abbinate a quattro silhouette nere pixel-level con etichette A B C D e 1 2 3 4',
         caption: 'Modalità Abbinamento Ombre — gli utenti abbinano le immagini alle silhouette pixel-level generate automaticamente',
       },
       {
-        src: '/samples/italian/shadow match/Abbina le Ombre 3 answer-key.webp',
+        src: '/samples/italian/shadow match/abbina-le-ombre-3-answer-key.webp',
         alt: 'Chiave di risposta abbinamento ombre che mostra immagini originali accanto alle silhouette con etichette di abbinamento lettera-numero corrette come A a 2',
         caption: 'Chiave di risposta automatica — le etichette lettera-numero mostrano gli abbinamenti corretti per entrambe le modalità',
       },
       {
-        src: '/samples/italian/shadow match/Abbina le Ombre 4.webp',
+        src: '/samples/italian/shadow match/abbina-le-ombre-4.webp',
         alt: 'Scheda completa l\'immagine con metà di immagini divise che gli utenti ricollegano abbinando prime e seconde metà etichettate A fino a D e 1 fino a 4',
         caption: 'Modalità Completa l\'Immagine — gli utenti abbinano le metà divise per completare le immagini con tagli orizzontali o verticali',
       },

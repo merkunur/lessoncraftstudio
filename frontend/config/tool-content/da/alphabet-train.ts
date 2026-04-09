@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
+      primary: '/samples/danish/alphabet%20train/alfabettog%201.webp',
       primaryAlt: 'Gratis alfabet generator online — ABC-øvelser med togvogne, temabilleder og automatisk facit',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
+        src: '/samples/danish/alphabet%20train/alfabettog%201.webp',
         alt: 'Gratis ABC-opgaver med farverigt alfabettog og bogstav-billede matchning — prøv online',
         caption: 'Togvognsformat med bogstav-billede matchning',
       },
       {
-        src: '/samples/danish/alphabet%20train/Alfabettog%202.webp',
+        src: '/samples/danish/alphabet%20train/alfabettog%202.webp',
         alt: 'Gratis alfabet-opgaver med temabilleder og konfigurerbare ledetråde — prøv gratis',
         caption: 'Tematiske billeder med konfigurerbart ledetrådsantal',
       },
       {
-        src: '/samples/danish/alphabet%20train/Alfabettog%203.webp',
+        src: '/samples/danish/alphabet%20train/alfabettog%203.webp',
         alt: 'Gratis bogstavgenkendelse med 11 ledetråde for avancerede ABC-øvelser',
         caption: 'Komplet 11-ledetråds sværhed for avancerede brugere',
       },

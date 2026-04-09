@@ -288,7 +288,7 @@ const content: AppContent = {
         caption: 'Manuellt läge — handvälja bilder och tilldela till kategorier',
       },
       {
-        src: '/samples/swedish/picture%20sort/sortera%20bilder%201%20answer_key_2026-01-02.webp',
+        src: '/samples/swedish/picture%20sort/sortera%20bilder%201%20answer-key-2026-01-02.webp',
         alt: 'Bildsortering facit med 6x större bilder organiserade i korrekta kategorirutor',
         caption: 'Automatiskt genererat facit — 6× större bilder i kategorirutor',
       },

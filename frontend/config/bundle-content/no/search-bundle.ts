@@ -200,14 +200,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
+      primary: '/samples/norwegian/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp',
       primaryAlt: 'Jeg Ser Jeg Ser finn og tell-arbeidsark med tematiske bilder spredt over et rutenett for visuell skanning og telling',
     },
     sampleGallery: [
-      { src: '/samples/norwegian/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp', alt: 'Jeg Ser Jeg Ser finn og tell-arbeidsark med skjulte objekter å finne og telle', caption: 'Finn og Tell Jeg Ser Jeg Ser' },
-      { src: '/samples/norwegian/find%20objects/Finn%20de%20Skjulte%20Objektene%201.webp', alt: 'Arbeidsark med skjulte objekter med null-overlappingsscene og visuell forklaring', caption: 'Finn Objekter Skjulte Objekter' },
-      { src: '/samples/norwegian/crossword/Bildekryssord%201.webp', alt: '15x15 kryssordpuslespill med bildebaserte ledetråder i stedet for tekstdefinisjoner', caption: 'Bildekryssord Puslespill' },
-      { src: '/samples/norwegian/treasure%20hunt/Skattejakt%201.webp', alt: 'Skattejaktarbeidsark med 5x5 koordinatrutenett og retningsanvisninger', caption: 'Skattejakt Rutenett' },
+      { src: '/samples/norwegian/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp', alt: 'Jeg Ser Jeg Ser finn og tell-arbeidsark med skjulte objekter å finne og telle', caption: 'Finn og Tell Jeg Ser Jeg Ser' },
+      { src: '/samples/norwegian/find%20objects/finn%20de%20skjulte%20objektene%201.webp', alt: 'Arbeidsark med skjulte objekter med null-overlappingsscene og visuell forklaring', caption: 'Finn Objekter Skjulte Objekter' },
+      { src: '/samples/norwegian/crossword/bildekryssord%201.webp', alt: '15x15 kryssordpuslespill med bildebaserte ledetråder i stedet for tekstdefinisjoner', caption: 'Bildekryssord Puslespill' },
+      { src: '/samples/norwegian/treasure%20hunt/skattejakt%201.webp', alt: 'Skattejaktarbeidsark med 5x5 koordinatrutenett og retningsanvisninger', caption: 'Skattejakt Rutenett' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Søk & Finn-pakke — Se Alle 4 Oppdagelsesgeneratorer i Aksjon',

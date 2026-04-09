@@ -216,9 +216,9 @@ const content: StartContent = {
     heroImage: { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat werkblad voorbeeld gemaakt met LessonCraftStudio generator voor Etsy verkopers' },
     samples: [
       { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat werkblad voor Etsy printable winkel', caption: 'Kleurplaat — Etsy Top Categorie' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker printbaar werkblad voor Etsy vermelding', caption: 'Woordzoeker — Hoog Zoekvolume' },
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optelwerkblad met afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Groenblijvende Rekencategorie' },
-      { src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp', alt: 'Koppelwerkblad voor internationale Etsy-kopers', caption: 'Koppelen — Puur Visuele Activiteit' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker printbaar werkblad voor Etsy vermelding', caption: 'Woordzoeker — Hoog Zoekvolume' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optelwerkblad met afbeeldingsgebaseerde rekenopgaven', caption: 'Optelling — Groenblijvende Rekencategorie' },
+      { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Koppelwerkblad voor internationale Etsy-kopers', caption: 'Koppelen — Puur Visuele Activiteit' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Hoe Kleurplaat Werkbladen te Maken — LessonCraftStudio Demo',

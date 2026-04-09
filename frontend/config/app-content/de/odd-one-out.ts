@@ -267,22 +267,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/odd one out/Finde das Andere 1.webp',
+      primary: '/samples/german/odd one out/finde-das-andere-1.webp',
       primaryAlt: 'Was-passt-nicht-Arbeitsblatt mit vier Bildern pro Übungsreihe, farbenfrohen thematischen Illustrationen und lokalisiertem Finde-den-Ausreißer-Header',
     },
     sampleGallery: [
       {
-        src: '/samples/german/odd one out/Finde das Andere 2.webp',
+        src: '/samples/german/odd one out/finde-das-andere-2.webp',
         alt: 'Ähnlich-Modus-Was-passt-nicht-Arbeitsblatt mit drei Tierbildern und einem Lebensmittelbild pro Reihe',
         caption: 'Ähnlich-Modus — drei Bilder aus Thema A und ein Ausreißer aus Thema B',
       },
       {
-        src: '/samples/german/odd one out/Finde das Andere 3.webp',
+        src: '/samples/german/odd one out/finde-das-andere-3.webp',
         alt: 'Identisch-Modus-Was-passt-nicht-Arbeitsblatt mit drei identischen Bildern und einem abweichenden Bild pro Reihe',
         caption: 'Identisch-Modus — drei Klone desselben Bildes und ein abweichendes Bild',
       },
       {
-        src: '/samples/german/odd one out/Finde das Andere 1 answer-key.webp',
+        src: '/samples/german/odd one out/finde-das-andere-1-answer-key.webp',
         alt: 'Was-passt-nicht-Lösungsschlüssel mit roten Kreisen um den Ausreißer in jeder Übungsreihe',
         caption: 'Automatisch generierter Lösungsschlüssel — rote Kreise markieren den Ausreißer in jeder Reihe',
       },

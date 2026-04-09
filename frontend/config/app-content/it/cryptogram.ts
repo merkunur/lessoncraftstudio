@@ -258,22 +258,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/cryptogram/Crittogramma Illustrato 1.webp',
+      primary: '/samples/italian/cryptogram/crittogramma-illustrato-1.webp',
       primaryAlt: 'Scheda crittogramma con cifra per immagini che mostra immagini associate alle lettere dell\'alfabeto codificando una frase segreta',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/cryptogram/Crittogramma Illustrato 2.webp',
+        src: '/samples/italian/cryptogram/crittogramma-illustrato-2.webp',
         alt: 'Scheda crittogramma con immagini tematiche che sostituiscono le lettere in una frase codificata',
         caption: 'Puzzle con cifra per immagini — decifra il messaggio segreto identificando quale immagine rappresenta quale lettera',
       },
       {
-        src: '/samples/italian/cryptogram/Crittogramma Illustrato 3.webp',
+        src: '/samples/italian/cryptogram/crittogramma-illustrato-3.webp',
         alt: 'Scheda crittogramma con tema animali e indizi Lettere da Rivelare presentati',
         caption: 'Tema animali con Lettere da Rivelare — le corrispondenze pre-risolte guidano i principianti',
       },
       {
-        src: '/samples/italian/cryptogram/Crittogramma Illustrato 4.webp',
+        src: '/samples/italian/cryptogram/crittogramma-illustrato-4.webp',
         alt: 'Foglio risposte del crittogramma con legenda delle lettere completa che mostra tutte le corrispondenze alfabeto-immagine',
         caption: 'Foglio risposte con legenda delle lettere — ogni lettera dell\'alfabeto abbinata alla sua immagine in ordine alfabetico',
       },

@@ -243,22 +243,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/chart%20count/Billediagram%201.webp',
+      primary: '/samples/danish/chart%20count/billediagram%201.webp',
       primaryAlt: 'Tælleopgaver til print med billedgitter og søjlediagram til børnehaveklasse og indskoling',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/chart%20count/Billediagram%201.webp',
+        src: '/samples/danish/chart%20count/billediagram%201.webp',
         alt: 'Tælleaktiviteter børnehaveklasse — dyretema med 20 spredte ikoner og tomt søjlediagram',
         caption: 'Dyretema tælleopgave — børnene tæller 6 dyretyper og fylder søjlediagrammet ud',
       },
       {
-        src: '/samples/danish/chart%20count/Billediagram%202.webp',
+        src: '/samples/danish/chart%20count/billediagram%202.webp',
         alt: 'Øvelser tælle og diagram med temabilleder til indskoling',
         caption: 'Tematisk tælleopgave — 104 temaer giver unikke øvelser med tælle og sortere',
       },
       {
-        src: '/samples/danish/chart%20count/Billediagram%203.webp',
+        src: '/samples/danish/chart%20count/billediagram%203.webp',
         alt: 'Tælleopgaver facit med gulmarkerede celler der viser korrekte streger i søjlediagrammet',
         caption: 'Automatisk facit — gulmarkerede celler viser det korrekte antal for hver billedtype',
       },

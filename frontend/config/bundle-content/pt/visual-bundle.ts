@@ -215,17 +215,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/coloring/coloring landscape 1.webp',
+      primary: '/samples/portuguese/coloring/coloring-landscape-1.webp',
       primaryAlt: 'Página para colorir com contorno de imagem a preto e branco pronta para colorir',
     },
     sampleGallery: [
-      { src: '/samples/portuguese/big small/Grande ou Pequeno 1.webp', alt: 'Atividade de comparação de tamanhos com imagens temáticas para rodear o maior e o menor', caption: 'Atividade Grande e Pequeno' },
-      { src: '/samples/portuguese/pattern train/Comboio de Padrões 1.webp', alt: 'Atividade de sequência de padrões em vagões de comboio com elemento em falta', caption: 'Atividade Comboio de Padrões' },
-      { src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 1.webp', alt: 'Atividade de reconhecimento de padrões com sequências para completar espaços em branco', caption: 'Atividade de Padrões' },
-      { src: '/samples/portuguese/draw and color/Desenha e Pinta 1.webp', alt: 'Atividade de desenho com imagem de referência e grelha para reproduzir a imagem', caption: 'Atividade Desenho em Quadrícula' },
-      { src: '/samples/portuguese/drawing lines/Prática de Desenhar Linhas 1.webp', alt: 'Atividade de traçado de linhas com objetos emparelhados e caminhos de linhas curvas', caption: 'Atividade de Grafomotricidade' },
-      { src: '/samples/portuguese/coloring/coloring landscape 2.webp', alt: 'Página para colorir com contorno a preto e branco convertido de imagem temática', caption: 'Página para Colorir' },
-      { src: '/samples/portuguese/chart count/Gráfico de Figuras 1.webp', alt: 'Atividade de contagem com gráfico de barras com pontos de dados de imagens temáticas', caption: 'Atividade Gráficos de Contagem' },
+      { src: '/samples/portuguese/big small/grande-ou-pequeno-1.webp', alt: 'Atividade de comparação de tamanhos com imagens temáticas para rodear o maior e o menor', caption: 'Atividade Grande e Pequeno' },
+      { src: '/samples/portuguese/pattern train/comboio-de-padrões-1.webp', alt: 'Atividade de sequência de padrões em vagões de comboio com elemento em falta', caption: 'Atividade Comboio de Padrões' },
+      { src: '/samples/portuguese/pattern worksheet/quebra-cabeças-de-padrões-1.webp', alt: 'Atividade de reconhecimento de padrões com sequências para completar espaços em branco', caption: 'Atividade de Padrões' },
+      { src: '/samples/portuguese/draw and color/desenha-e-pinta-1.webp', alt: 'Atividade de desenho com imagem de referência e grelha para reproduzir a imagem', caption: 'Atividade Desenho em Quadrícula' },
+      { src: '/samples/portuguese/drawing lines/prática-de-desenhar-linhas-1.webp', alt: 'Atividade de traçado de linhas com objetos emparelhados e caminhos de linhas curvas', caption: 'Atividade de Grafomotricidade' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-2.webp', alt: 'Página para colorir com contorno a preto e branco convertido de imagem temática', caption: 'Página para Colorir' },
+      { src: '/samples/portuguese/chart count/gráfico-de-figuras-1.webp', alt: 'Atividade de contagem com gráfico de barras com pontos de dados de imagens temáticas', caption: 'Atividade Gráficos de Contagem' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Pacote Aprendizagem Visual — Os 7 Geradores em Ação',

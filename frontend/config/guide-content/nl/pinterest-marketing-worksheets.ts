@@ -183,22 +183,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+      src: '/samples/dutch/wordsearch/woordzoeker-1.webp',
       alt: 'Woordzoeker werkblad voorbeeld voor Pinterest marketing',
     },
     samples: [
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 2.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-2.webp',
         alt: 'Woordzoekpuzzel met dierenthema als Pinterest-pin voorbeeld',
         caption: 'Woordzoekpuzzels zijn ideaal als visuele Pinterest-content',
       },
       {
-        src: '/samples/dutch/coloring/coloring portrait 1.webp',
+        src: '/samples/dutch/coloring/coloring-portrait-1.webp',
         alt: 'Kleurplaat voorbeeld geschikt voor Pinterest promotie',
         caption: 'Kleurplaten behoren tot de meest gezochte printable categorieën op Pinterest',
       },
       {
-        src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
+        src: '/samples/dutch/addition/optellen-is-leuk-1.webp',
         alt: 'Rekenwerkblad voorbeeld voor Pinterest marketing van educatieve printables',
         caption: 'Rekenwerkbladen trekken ouders en verkopers aan via Pinterest-zoekresultaten',
       },

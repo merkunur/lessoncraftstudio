@@ -183,11 +183,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/treasure hunt/Caça ao Tesouro 1.webp', alt: 'Atividade de caça ao tesouro com grelha de coordenadas 5 por 5, 6 imagens temáticas dispersas como marcos, pistas direcionais e cabeçalho temático azul-esverdeado com título dourado Fredoka' },
+    heroImage: { src: '/samples/portuguese/treasure hunt/caça-ao-tesouro-1.webp', alt: 'Atividade de caça ao tesouro com grelha de coordenadas 5 por 5, 6 imagens temáticas dispersas como marcos, pistas direcionais e cabeçalho temático azul-esverdeado com título dourado Fredoka' },
     samples: [
-      { src: '/samples/portuguese/treasure hunt/Caça ao Tesouro 2.webp', alt: 'Atividade de caça ao tesouro mostrando grelha de coordenadas 5 por 5 com imagens temáticas dispersas e instruções de pistas direcionais abaixo do cabeçalho temático', caption: 'Atividade de caça ao tesouro com pistas de direção básica numa grelha de coordenadas 5 por 5 com 6 imagens de marcos temáticos' },
-      { src: '/samples/portuguese/treasure hunt/Caça ao Tesouro 3.webp', alt: 'Atividade de caça ao tesouro com pistas de direção cardinal utilizando norte sul este e oeste na grelha de coordenadas 5 por 5', caption: 'Modo de direção cardinal utilizando vocabulário de bússola para raciocínio espacial avançado e competências de leitura de mapas' },
-      { src: '/samples/portuguese/treasure hunt/Caça ao Tesouro 4.webp', alt: 'Chave de respostas autogerada com célula final do tesouro destacada em amarelo pálido na grelha de coordenadas 5 por 5', caption: 'Chave de respostas autogerada com célula do tesouro destacada em amarelo pálido para verificação instantânea' },
+      { src: '/samples/portuguese/treasure hunt/caça-ao-tesouro-2.webp', alt: 'Atividade de caça ao tesouro mostrando grelha de coordenadas 5 por 5 com imagens temáticas dispersas e instruções de pistas direcionais abaixo do cabeçalho temático', caption: 'Atividade de caça ao tesouro com pistas de direção básica numa grelha de coordenadas 5 por 5 com 6 imagens de marcos temáticos' },
+      { src: '/samples/portuguese/treasure hunt/caça-ao-tesouro-3.webp', alt: 'Atividade de caça ao tesouro com pistas de direção cardinal utilizando norte sul este e oeste na grelha de coordenadas 5 por 5', caption: 'Modo de direção cardinal utilizando vocabulário de bússola para raciocínio espacial avançado e competências de leitura de mapas' },
+      { src: '/samples/portuguese/treasure hunt/caça-ao-tesouro-4.webp', alt: 'Chave de respostas autogerada com célula final do tesouro destacada em amarelo pálido na grelha de coordenadas 5 por 5', caption: 'Chave de respostas autogerada com célula do tesouro destacada em amarelo pálido para verificação instantânea' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'Como criar atividades de caça ao tesouro — Tutorial completo',

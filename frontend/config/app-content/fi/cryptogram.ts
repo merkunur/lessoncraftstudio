@@ -248,22 +248,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/cryptogram/Kuvakryptogrammi%201.webp',
+      primary: '/samples/finnish/cryptogram/kuvakryptogrammi%201.webp',
       primaryAlt: 'Kryptogrammi-työarkki kuvakoodilla, joka näyttää kuvat yhdistettyinä aakkosten kirjaimiin salaiseksi lauseeksi',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/cryptogram/Kuvakryptogrammi%201.webp',
+        src: '/samples/finnish/cryptogram/kuvakryptogrammi%201.webp',
         alt: 'Kryptogrammi-työarkki temaattisilla kuvilla, jotka korvaavat kirjaimet koodatussa lauseessa',
         caption: 'Kuvakoodipulma — pura salainen viesti tunnistamalla, mikä kuva edustaa mitäkin kirjainta',
       },
       {
-        src: '/samples/finnish/cryptogram/Kuvakryptogrammi%202.webp',
+        src: '/samples/finnish/cryptogram/kuvakryptogrammi%202.webp',
         alt: 'Kryptogrammi-työarkki eläinteemalla ja Kirjaimia Paljastettavaksi -vihjeet näkyvissä',
         caption: 'Eläinteema Kirjaimia Paljastettavaksi -tuella — paljastetut yhdistelmät tukevat aloittelijoita',
       },
       {
-        src: '/samples/finnish/cryptogram/Kuvakryptogrammi%201%20answer_key.webp',
+        src: '/samples/finnish/cryptogram/kuvakryptogrammi%201%20answer-key.webp',
         alt: 'Kryptogrammi-vastauslehti täydellisellä kirjainlegendalla, joka näyttää kaikki aakkos-kuva-yhdistelmät',
         caption: 'Vastauslehti kirjainlegendalla — jokainen aakkoskirjain paritettuina kuvansa kanssa aakkosjärjestyksessä',
       },

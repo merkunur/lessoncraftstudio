@@ -266,22 +266,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/alphabet train/Train de l\'Alphabet 1.webp',
+      primary: '/samples/french/alphabet train/Train de l\'alphabet-1.webp',
       primaryAlt: 'Fiche train alphabet avec des wagons colorés portant des lettres et des images d\'animaux correspondantes',
     },
     sampleGallery: [
       {
-        src: '/samples/french/alphabet train/Train de l\'Alphabet 1.webp',
+        src: '/samples/french/alphabet train/Train de l\'alphabet-1.webp',
         alt: 'Fiche train alphabet avec thème animaux montrant 11 wagons-lettres et des images-indices',
         caption: 'Mode Création Automatique — 11 wagons-lettres aléatoires avec des indices d\'images sur le thème des animaux',
       },
       {
-        src: '/samples/french/alphabet train/Train de l\'Alphabet 2.webp',
+        src: '/samples/french/alphabet train/Train de l\'alphabet-2.webp',
         alt: 'Fiche train alphabet avec thème nourriture et 5 images-indices pour l\'association',
         caption: 'Mode Manuel — lettres choisies avec thème nourriture et 5 indices pour une association plus facile',
       },
       {
-        src: '/samples/french/alphabet train/Train de l\'Alphabet 3.webp',
+        src: '/samples/french/alphabet train/Train de l\'alphabet-3.webp',
         alt: 'Fiche train alphabet avec thème véhicules et 11 indices complets pour un entraînement avancé',
         caption: 'Défi indices complet — 11 indices pour une pratique complète d\'association lettre-image',
       },

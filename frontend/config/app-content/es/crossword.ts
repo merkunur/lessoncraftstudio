@@ -264,22 +264,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp',
+      primary: '/samples/spanish/crossword/crucigrama-con-dibujos-1.webp',
       primaryAlt: 'Crucigrama con imágenes con pistas visuales en una cuadrícula de 15 por 15 con encabezado localizado Crucigrama Ilustrado y posiciones de pista numeradas',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp',
+        src: '/samples/spanish/crossword/crucigrama-con-dibujos-1.webp',
         alt: 'Crucigrama con imágenes con pistas visuales temáticas junto a una cuadrícula de crucigrama de 15 por 15',
         caption: 'Crucigrama con imágenes — las pistas visuales sustituyen las pistas de texto tradicionales en una cuadrícula de 15×15',
       },
       {
-        src: '/samples/spanish/crossword/Crucigrama con Dibujos 3.webp',
+        src: '/samples/spanish/crossword/crucigrama-con-dibujos-3.webp',
         alt: 'Crucigrama con lista de palabras personalizadas con pistas de texto y cuadrícula de crucigrama completada',
         caption: 'Modo Lista de Palabras Personalizadas — crucigramas tradicionales con pistas de texto y su propio vocabulario',
       },
       {
-        src: '/samples/spanish/crossword/Crucigrama con Dibujos 1 answer_key.webp',
+        src: '/samples/spanish/crossword/crucigrama-con-dibujos-1-answer-key.webp',
         alt: 'Clave de respuestas del crucigrama con todas las letras correctas rellenadas en la cuadrícula',
         caption: 'Clave de respuestas autogenerada — la cuadrícula completada muestra todas las respuestas correctas',
       },

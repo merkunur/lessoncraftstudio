@@ -201,11 +201,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche imprimable éducative montrant des problèmes de maths basés sur des images pour la vente sur Etsy dans plusieurs catégories' },
+    heroImage: { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche imprimable éducative montrant des problèmes de maths basés sur des images pour la vente sur Etsy dans plusieurs catégories' },
     samples: [
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition thème animal pour une boutique Etsy d\'imprimables éducatifs diversifiée', caption: 'Fiche d\'addition avec thème animal — un des dizaines de produits de maths que vous pouvez créer pour votre boutique Etsy' },
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche de mots cachés montrant un imprimable éducatif basé sur la langue pour Etsy', caption: 'Mots cachés — format sensible à la langue qui se multiplie sur 11 marchés linguistiques sur Etsy' },
-      { src: '/samples/french/coloring/coloring portrait 5.webp', alt: 'Page de coloriage imprimable montrant un produit d\'apprentissage visuel pour une boutique Etsy éducative', caption: 'Page de coloriage — le profil d\'acheteurs le plus large de toutes les catégories d\'imprimables éducatifs sur Etsy' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition thème animal pour une boutique Etsy d\'imprimables éducatifs diversifiée', caption: 'Fiche d\'addition avec thème animal — un des dizaines de produits de maths que vous pouvez créer pour votre boutique Etsy' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Fiche de mots cachés montrant un imprimable éducatif basé sur la langue pour Etsy', caption: 'Mots cachés — format sensible à la langue qui se multiplie sur 11 marchés linguistiques sur Etsy' },
+      { src: '/samples/french/coloring/coloring-portrait-5.webp', alt: 'Page de coloriage imprimable montrant un produit d\'apprentissage visuel pour une boutique Etsy éducative', caption: 'Page de coloriage — le profil d\'acheteurs le plus large de toutes les catégories d\'imprimables éducatifs sur Etsy' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Comment créer des imprimables éducatifs pour la vente sur Etsy — Stratégie de boutique multi-catégorie',

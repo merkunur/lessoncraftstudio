@@ -190,11 +190,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Druckbare Malvorlage bereit zum Verkauf im Gumroad-Storefront' },
+    heroImage: { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Druckbare Malvorlage bereit zum Verkauf im Gumroad-Storefront' },
     samples: [
-      { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Druckbare Malvorlage für den digitalen Produktverkauf auf Gumroad', caption: 'Malvorlagen erzeugen visuell überzeugende Produktbilder, die Social-Media-Traffic zu Ihrem Gumroad-Shop leiten' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Druckvorlage für den Gumroad-Shop-Katalog', caption: 'Wortsuchrätsel haben breite Anziehungskraft bei Eltern- und Käufer-Publikum — ein vielseitiger Gumroad-Produkttyp' },
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt-Aktivität für das Gumroad-Druckvorlagen-Geschäft', caption: 'Zuordnungsaktivitäten sind gefragte Lern-Druckvorlagen, die als Einzelprodukte und in Paketen gut funktionieren' },
+      { src: '/samples/german/coloring/coloring-portrait-2.webp', alt: 'Druckbare Malvorlage für den digitalen Produktverkauf auf Gumroad', caption: 'Malvorlagen erzeugen visuell überzeugende Produktbilder, die Social-Media-Traffic zu Ihrem Gumroad-Shop leiten' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuchrätsel-Druckvorlage für den Gumroad-Shop-Katalog', caption: 'Wortsuchrätsel haben breite Anziehungskraft bei Eltern- und Käufer-Publikum — ein vielseitiger Gumroad-Produkttyp' },
+      { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Zuordnungs-Arbeitsblatt-Aktivität für das Gumroad-Druckvorlagen-Geschäft', caption: 'Zuordnungsaktivitäten sind gefragte Lern-Druckvorlagen, die als Einzelprodukte und in Paketen gut funktionieren' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Malvorlagen für Ihren Gumroad-Druckvorlagen-Shop erstellen',

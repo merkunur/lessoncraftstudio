@@ -210,22 +210,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/addition/Addizione Divertente 1.webp',
+      primary: '/samples/italian/addition/addizione-divertente-1.webp',
       primaryAlt: 'Scheda di addizione con immagini colorate di animali nella modalità Immagine + Immagine',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/addition/Addizione Divertente 1.webp',
+        src: '/samples/italian/addition/addizione-divertente-1.webp',
         alt: 'Scheda di addizione con immagini a tema animali nella modalità Immagine + Immagine',
         caption: 'Modalità Immagine + Immagine con tema animali',
       },
       {
-        src: '/samples/italian/addition/Addizione Divertente 2.webp',
+        src: '/samples/italian/addition/addizione-divertente-2.webp',
         alt: 'Scheda di addizione con immagini di cibo nella modalità Trova il Sommando',
         caption: 'Modalità Trova il Sommando con tema cibo',
       },
       {
-        src: '/samples/italian/addition/Addizione Divertente 3.webp',
+        src: '/samples/italian/addition/addizione-divertente-3.webp',
         alt: 'Scheda di addizione in Modalità Mista con immagini di veicoli e cornice decorativa',
         caption: 'Modalità Mista con veicoli e cornice decorativa',
       },

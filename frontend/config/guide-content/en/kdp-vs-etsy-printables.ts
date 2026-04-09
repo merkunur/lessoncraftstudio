@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle worksheet suitable for selling as Etsy digital download or compiling into Amazon KDP puzzle book' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle worksheet suitable for selling as Etsy digital download or compiling into Amazon KDP puzzle book' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Animal themed word search puzzle for Etsy and KDP', caption: 'Word search puzzles sell on both platforms — as individual digital downloads on Etsy and compiled into puzzle books on KDP' },
-      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet for Etsy digital download or KDP activity book', caption: 'Math worksheets work as Etsy singles and small packs or compiled into KDP math activity books' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page for both Etsy and KDP selling', caption: 'Coloring pages are a top category on both platforms — individual downloads on Etsy and coloring books on KDP' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Animal themed word search puzzle for Etsy and KDP', caption: 'Word search puzzles sell on both platforms — as individual digital downloads on Etsy and compiled into puzzle books on KDP' },
+      { src: '/samples/english/addition/addition-fun-10.webp', alt: 'Addition worksheet for Etsy digital download or KDP activity book', caption: 'Math worksheets work as Etsy singles and small packs or compiled into KDP math activity books' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page for both Etsy and KDP selling', caption: 'Coloring pages are a top category on both platforms — individual downloads on Etsy and coloring books on KDP' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Printable Worksheets for Etsy and Amazon KDP — Step-by-Step Tutorial',

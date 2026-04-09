@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación demostrando la versatilidad de la herramienta y el resultado de la biblioteca de imágenes temáticas' },
+    heroImage: { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Ficha de asociación demostrando la versatilidad de la herramienta y el resultado de la biblioteca de imágenes temáticas' },
     samples: [
-      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación mostrando emparejamiento imagen-palabra con ilustraciones temáticas', caption: 'Asociación — Herramienta Versátil con Múltiples Modos' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Ficha de puzzle de sopa de letras demostrando generación sensible al idioma', caption: 'Sopa de Letras — El Generador de Puzzles Más Popular' },
-      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear mostrando calidad de diseño sin dependencia de idioma', caption: 'Colorear — Contenido Visual Universal' },
-      { src: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp', alt: 'Puzzle de crucigrama demostrando capacidades de generación multilingüe', caption: 'Crucigrama — Herramienta de Puzzles Multilingüe' },
+      { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Ficha de asociación mostrando emparejamiento imagen-palabra con ilustraciones temáticas', caption: 'Asociación — Herramienta Versátil con Múltiples Modos' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Ficha de puzzle de sopa de letras demostrando generación sensible al idioma', caption: 'Sopa de Letras — El Generador de Puzzles Más Popular' },
+      { src: '/samples/spanish/coloring/coloring-portrait-1.webp', alt: 'Página para colorear mostrando calidad de diseño sin dependencia de idioma', caption: 'Colorear — Contenido Visual Universal' },
+      { src: '/samples/spanish/crossword/crucigrama-con-dibujos-1.webp', alt: 'Puzzle de crucigrama demostrando capacidades de generación multilingüe', caption: 'Crucigrama — Herramienta de Puzzles Multilingüe' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Cómo Crear Fichas de Asociación para Su Negocio de Imprimibles — Demo de LessonCraftStudio',

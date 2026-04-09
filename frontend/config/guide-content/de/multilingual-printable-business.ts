@@ -173,22 +173,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/Worter suchen 1.webp',
+      src: '/samples/german/wordsearch/worter-suchen-1.webp',
       alt: 'Wortsuche-Arbeitsblatt zeigt das Potenzial eines mehrsprachigen Druckvorlagen-Geschäfts auf internationalen Märkten',
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuche-Rätsel-Arbeitsblatt zeigt Mehrsprachigkeitsfähigkeit für internationalen Druckvorlagen-Verkauf',
         caption: 'Wortsuche-Arbeitsblätter können in 11 Sprachen generiert werden — ideal für mehrsprachige Expansion',
       },
       {
-        src: '/samples/german/matching/Paare Finden 1.webp',
+        src: '/samples/german/matching/paare-finden-1.webp',
         alt: 'Zuordnungs-Arbeitsblatt mit visuellen Themen, die über Sprachmärkte hinweg funktionieren',
         caption: 'Visuelle Zuordnungs-Arbeitsblätter verwenden Bilder, die sich universell über Sprachen übertragen',
       },
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: '/samples/german/addition/additionsspa-1.webp',
         alt: 'Additions-Mathe-Arbeitsblatt zeigt universelle Attraktivität über Sprachbarrieren hinweg',
         caption: 'Mathe-Arbeitsblätter überwinden Sprachbarrieren natürlich, da Zahlen marktübergreifend universell sind',
       },

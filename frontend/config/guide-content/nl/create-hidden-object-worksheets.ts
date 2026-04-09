@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/find%20objects/Vind%20de%20Verborgen%20Voorwerpen%201.webp', alt: 'Zoek voorwerpen scènewerkblad met thematische afbeeldingen voor kinderen om specifieke objecten te vinden' },
+    heroImage: { src: '/samples/dutch/find%20objects/vind%20de%20verborgen%20voorwerpen%201.webp', alt: 'Zoek voorwerpen scènewerkblad met thematische afbeeldingen voor kinderen om specifieke objecten te vinden' },
     samples: [
-      { src: '/samples/dutch/find%20objects/Vind%20de%20Verborgen%20Voorwerpen%201.webp', alt: 'I Spy zoek voorwerpen werkblad met thematische scène voor visuele zoekactiviteit', caption: 'I Spy zoek voorwerpen scène met thematische afbeeldingen en afleidingsobjecten voor visuele zoekoefening' },
-      { src: '/samples/dutch/find%20and%20count/Ik%20zie%2C%20ik%20zie%201.webp', alt: 'Zoek en tel werkblad gecombineerd met visuele zoekactiviteit', caption: 'Zoek en tel activiteit als aanvulling op zoek voorwerpen werkbladen' },
-      { src: '/samples/dutch/treasure%20hunt/Schattenjacht%201.webp', alt: 'Schattenjacht werkblad met thematische zoekactiviteit', caption: 'Schattenjacht werkblad als visuele zoek-en-vind variatie' },
+      { src: '/samples/dutch/find%20objects/vind%20de%20verborgen%20voorwerpen%201.webp', alt: 'I Spy zoek voorwerpen werkblad met thematische scène voor visuele zoekactiviteit', caption: 'I Spy zoek voorwerpen scène met thematische afbeeldingen en afleidingsobjecten voor visuele zoekoefening' },
+      { src: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%201.webp', alt: 'Zoek en tel werkblad gecombineerd met visuele zoekactiviteit', caption: 'Zoek en tel activiteit als aanvulling op zoek voorwerpen werkbladen' },
+      { src: '/samples/dutch/treasure%20hunt/schattenjacht%201.webp', alt: 'Schattenjacht werkblad met thematische zoekactiviteit', caption: 'Schattenjacht werkblad als visuele zoek-en-vind variatie' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Hoe Zoek Voorwerpen Scène Werkbladen Maken — Complete Handleiding',

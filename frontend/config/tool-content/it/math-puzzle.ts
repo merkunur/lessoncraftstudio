@@ -212,22 +212,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/math puzzle/Rompicapi Matematici 1.webp',
+      primary: '/samples/italian/math puzzle/rompicapi-matematici-1.webp',
       primaryAlt: 'Puzzle matematico con griglia jigsaw contenente equazioni di addizione e pezzi mescolati con risposte',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/math puzzle/Rompicapi Matematici 2.webp',
+        src: '/samples/italian/math puzzle/rompicapi-matematici-2.webp',
         alt: 'Puzzle matematico jigsaw con equazioni di addizione in una griglia di immagini colorata',
         caption: 'Modalità addizione con puzzle a immagine tematica',
       },
       {
-        src: '/samples/italian/math puzzle/Rompicapi Matematici 3.webp',
+        src: '/samples/italian/math puzzle/rompicapi-matematici-3.webp',
         alt: 'Puzzle matematico con equazioni di sottrazione e pezzi numerati mescolati sotto la griglia',
         caption: 'Modalità sottrazione — risolvi le equazioni per ricostruire l\'immagine',
       },
       {
-        src: '/samples/italian/math puzzle/Rompicapi Matematici 4.webp',
+        src: '/samples/italian/math puzzle/rompicapi-matematici-4.webp',
         alt: 'Puzzle matematico misto con addizione e sottrazione in una griglia più grande per utenti avanzati',
         caption: 'Operazioni miste — addizione e sottrazione in un unico puzzle',
       },

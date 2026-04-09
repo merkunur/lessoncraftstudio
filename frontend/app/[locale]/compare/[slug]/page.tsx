@@ -48,7 +48,7 @@ export async function generateMetadata({
       : undefined;
 
     // Use representative sample worksheet images for og:image
-    const sampleImageUrl = `${baseUrl}${encodeImagePath(imgUrl('wordsearch', 'Word Search 1.webp', locale))}`;
+    const sampleImageUrl = `${baseUrl}${encodeImagePath(imgUrl('wordsearch', 'word-search-1.webp', locale))}`;
 
     return {
       title,
@@ -102,9 +102,9 @@ export default async function ComparePage({
 
     // Representative sample images for this comparison page
     const compareSampleImages = [
-      imgUrl('wordsearch', 'Word Search 1.webp', locale),
-      imgUrl('addition', 'Addition Fun 1.webp', locale),
-      imgUrl('coloring', 'coloring portrait 1.webp', locale),
+      imgUrl('wordsearch', 'word-search-1.webp', locale),
+      imgUrl('addition', 'addition-fun-1.webp', locale),
+      imgUrl('coloring', 'coloring-portrait-1.webp', locale),
     ];
     const primarySampleUrl = `${baseUrl}${encodeImagePath(compareSampleImages[0])}`;
 

@@ -255,22 +255,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/alphabet%20train/Alfabettog%201.webp',
+      primary: '/samples/norwegian/alphabet%20train/alfabettog%201.webp',
       primaryAlt: 'Alfabettog arbeidsark med fargerike togvogner som bærer bokstaver og matchende dyrebilder',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/alphabet%20train/Alfabettog%201.webp',
+        src: '/samples/norwegian/alphabet%20train/alfabettog%201.webp',
         alt: 'Alfabettog arbeidsark med dyretema og 11 bokstavvogner med ledetrådbilder',
         caption: 'Automatisk Oppretting — 11 tilfeldige bokstavvogner med dyretema ledetråder',
       },
       {
-        src: '/samples/norwegian/alphabet%20train/Alfabettog%202.webp',
+        src: '/samples/norwegian/alphabet%20train/alfabettog%202.webp',
         alt: 'Alfabettog arbeidsark med mattema og 5 ledetrådbilder til kobling',
         caption: 'Manuell modus — håndvalgte bokstaver med mattema og 5 ledetråder for enklere kobling',
       },
       {
-        src: '/samples/norwegian/alphabet%20train/Alfabettog%203.webp',
+        src: '/samples/norwegian/alphabet%20train/alfabettog%203.webp',
         alt: 'Alfabettog arbeidsark med kjøretøytema og alle 11 ledetråder for avansert øving',
         caption: 'Full ledetrådutfordring — 11 ledetråder for komplett bokstav-bildekobling øving',
       },

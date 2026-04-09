@@ -182,10 +182,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Mixed activity book pages showing coloring, word search, and maze activities generated for KDP' },
+    heroImage: { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Mixed activity book pages showing coloring, word search, and maze activities generated for KDP' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page generated for KDP activity book interior', caption: 'A themed coloring page exported at 300 DPI for KDP activity book manuscript' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle page for mixed activity book', caption: 'A themed word search puzzle with automatic answer key for activity book compilation' },
+      { src: '/samples/english/coloring/coloring-portrait-2.webp', alt: 'Coloring page generated for KDP activity book interior', caption: 'A themed coloring page exported at 300 DPI for KDP activity book manuscript' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle page for mixed activity book', caption: 'A themed word search puzzle with automatic answer key for activity book compilation' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages',

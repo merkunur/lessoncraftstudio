@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/big small/big-small-different images.webp', alt: 'Size comparison worksheet showing big and small objects for preschool learners' },
+    heroImage: { src: '/samples/english/big small/big-small-different-images.webp', alt: 'Size comparison worksheet showing big and small objects for preschool learners' },
     samples: [
-      { src: '/samples/english/big small/big-small identical images.webp', alt: 'Big and small worksheet with circle the biggest question type', caption: 'Circle the biggest -- the most popular size comparison question type for pre-K worksheets' },
-      { src: '/samples/english/big small/big-small-different images.webp', alt: 'Size comparison worksheet with order by size activity', caption: 'Order by size worksheets develop sequencing skills alongside visual discrimination' },
+      { src: '/samples/english/big small/big-small-identical-images.webp', alt: 'Big and small worksheet with circle the biggest question type', caption: 'Circle the biggest -- the most popular size comparison question type for pre-K worksheets' },
+      { src: '/samples/english/big small/big-small-different-images.webp', alt: 'Size comparison worksheet with order by size activity', caption: 'Order by size worksheets develop sequencing skills alongside visual discrimination' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'How to Create Big & Small Worksheets',

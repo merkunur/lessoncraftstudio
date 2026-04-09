@@ -220,8 +220,8 @@ const content: BundleContent = {
     },
     sampleGallery: [
       { src: '/samples/swedish/big small/2%20identiska%20bilder.webp', alt: 'Storleksjämförelsearbetsblad med tematiska bilder för att ringa in största och minsta', caption: 'Stort & Litet Arbetsblad' },
-      { src: '/samples/swedish/pattern worksheet/M%C3%B6nsterpussel%201.webp', alt: 'Mönsterigenkänningsarbetsblad med fyll-i-luckan-sekvenser', caption: 'Mönster Arbetsblad' },
-      { src: '/samples/swedish/draw and color/Rita%20och%20F%C3%A4rgl%C3%A4gg%201.webp', alt: 'Referensbild ritningsarbetsblad med rutnät för att återskapa bilden', caption: 'Rita och Färglägg Arbetsblad' },
+      { src: '/samples/swedish/pattern worksheet/m%c3%b6nsterpussel%201.webp', alt: 'Mönsterigenkänningsarbetsblad med fyll-i-luckan-sekvenser', caption: 'Mönster Arbetsblad' },
+      { src: '/samples/swedish/draw and color/rita%20och%20f%c3%a4rgl%c3%a4gg%201.webp', alt: 'Referensbild ritningsarbetsblad med rutnät för att återskapa bilden', caption: 'Rita och Färglägg Arbetsblad' },
       { src: '/samples/swedish/drawing lines/horizontell.webp', alt: 'Linjespårningsarbetsblad med parade objekt och böjda linjevägar', caption: 'Rita Linjer Arbetsblad' },
       { src: '/samples/swedish/coloring/coloring%20portrait%201.webp', alt: 'Målarbild med svartvit kontur konverterad från tematisk bild', caption: 'Målarbild' },
       { src: '/samples/swedish/chart count/worksheet.webp', alt: 'Stapeldiagram räkningsarbetsblad med tematiska bilddatapunkter', caption: 'Diagramräkning Arbetsblad' },

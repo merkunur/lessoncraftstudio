@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/find and count/Vejo, Vejo 1.webp',
+      primary: '/samples/portuguese/find and count/vejo,-vejo-1.webp',
       primaryAlt: 'Atividade eu vejo encontra e conta com imagens dispersas numa grelha, moldura de cabeçalho azul e instruções de quatro tipos de tarefa',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/find and count/Vejo, Vejo 1.webp',
+        src: '/samples/portuguese/find and count/vejo,-vejo-1.webp',
         alt: 'Atividade eu vejo de objeto escondido em modo retrato com imagens de animais dispersas e instruções de tarefa',
         caption: 'Modo Objeto Escondido — eu vejo clássico com tarefas de circular, quadrado, riscar e contar',
       },
       {
-        src: '/samples/portuguese/find and count/Vejo, Vejo 2.webp',
+        src: '/samples/portuguese/find and count/vejo,-vejo-2.webp',
         alt: 'Atividade encontra e conta eu vejo em modo paisagem com layout de grelha mais largo',
         caption: 'Modo paisagem — grelha mais larga para mais colunas e densidade visual variada',
       },
       {
-        src: '/samples/portuguese/find and count/Vejo, Vejo 1 answer_key.webp',
+        src: '/samples/portuguese/find and count/vejo,-vejo-1-answer-key.webp',
         alt: 'Gabarito encontra e conta com anotações vermelhas de círculo, quadrado e cruz sobre os objetos corretos',
         caption: 'Gabarito autogerado — anotações vermelhas e contagens marcam as respostas corretas',
       },

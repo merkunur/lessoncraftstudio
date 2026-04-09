@@ -190,11 +190,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Professional printable worksheet generated with LessonCraftStudio showing themed word search puzzle' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Professional printable worksheet generated with LessonCraftStudio showing themed word search puzzle' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search worksheet with themed images and print-ready formatting', caption: 'A themed word search puzzle generated in under 30 seconds with automatic answer key' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page generated from LessonCraftStudio image library', caption: 'Professional coloring page from the 3,000+ image library ready for Etsy listing' },
-      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition math worksheet with themed images and answer key', caption: 'Themed math worksheet with auto-generated answer key for commercial sale' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Word search worksheet with themed images and print-ready formatting', caption: 'A themed word search puzzle generated in under 30 seconds with automatic answer key' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page generated from LessonCraftStudio image library', caption: 'Professional coloring page from the 3,000+ image library ready for Etsy listing' },
+      { src: '/samples/english/addition/addition-fun-10.webp', alt: 'Addition math worksheet with themed images and answer key', caption: 'Themed math worksheet with auto-generated answer key for commercial sale' },
     ],
   },
 

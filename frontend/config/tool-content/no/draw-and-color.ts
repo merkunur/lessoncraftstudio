@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/draw%20and%20color/Tegn%20og%20Fargelegg%201.webp',
+      primary: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%201.webp',
       primaryAlt: 'Tegn og fargelegg rutenetttegning arbeidsark med dobbeltrutenettssystem som viser tomt øvelsesrutenett og delvis avslørt ledetrådsrutenett med svart-hvitt konturtema',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/draw%20and%20color/Tegn%20og%20Fargelegg%201.webp',
+        src: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%201.webp',
         alt: 'Rutenetttegning arbeidsark med dyr svart-hvitt konturtema som viser øvelsesrutenett og ledetrådsrutenett side om side',
         caption: 'Dyretema — brukerne reproduserer konturen fra rutenettledetråder og fargelegger deretter tegningen sin',
       },
       {
-        src: '/samples/norwegian/draw%20and%20color/Tegn%20og%20Fargelegg%202.webp',
+        src: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%202.webp',
         alt: 'Rutenetttegning arbeidsark med horisontal symmetri speilmodus med ledetrådsceller avslørt på den venstre halvdelen for romlig vurdering',
         caption: 'Horisontal symmetrimodus — ledetrådsceller speiler venstre-høyre for romlig vurdering og bilateral symmetriøvelse',
       },
       {
-        src: '/samples/norwegian/draw%20and%20color/Tegn%20og%20Fargelegg%203.webp',
+        src: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%203.webp',
         alt: 'Rutenetttegning arbeidsark med lav ledetrådsprosent som viser minimale referanseceller i et stort rutenett for ekspertnivå reproduksjonsutfordring',
         caption: 'Lav ledetrådsprosent ekspertutfordring — minimale referanseceller krever presis observasjon og romlig vurdering',
       },

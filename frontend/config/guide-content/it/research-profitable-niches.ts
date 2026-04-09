@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/italian/matching/Trova le Coppie 1.webp',
+      src: '/samples/italian/matching/trova-le-coppie-1.webp',
       alt: 'Scheda di abbinamento che mostra la versatilità tematica per l\'esplorazione di nicchie redditizie attraverso argomenti educativi',
     },
     samples: [
       {
-        src: '/samples/italian/matching/Trova le Coppie 1.webp',
+        src: '/samples/italian/matching/trova-le-coppie-1.webp',
         alt: 'Scheda di abbinamento a tema che dimostra la diversità delle nicchie tra argomenti di stampabili educativi',
         caption: 'Le schede di abbinamento coprono decine di temi, permettendoti di esplorare e testare più nicchie rapidamente',
       },
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
+        src: '/samples/italian/wordsearch/cerca-parole-1.webp',
         alt: 'Puzzle di parole intrecciate che mostra il potenziale di test delle nicchie tra materie in più lingue',
         caption: 'Le parole intrecciate validano la domanda delle nicchie attraverso materie e lingue con tempi di produzione minimi',
       },
       {
-        src: '/samples/italian/coloring/coloring portrait 1.webp',
+        src: '/samples/italian/coloring/coloring-portrait-1.webp',
         alt: 'Pagina da colorare a tema che dimostra come le nicchie visive si traducono in prodotti stampabili vendibili',
         caption: 'Le pagine da colorare rivelano quali temi visivi attraggono l\'interesse degli acquirenti tra diversi segmenti di mercato',
       },

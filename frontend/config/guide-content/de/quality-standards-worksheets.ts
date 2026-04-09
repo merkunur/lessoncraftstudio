@@ -173,22 +173,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/Worter suchen 1.webp',
+      src: '/samples/german/wordsearch/worter-suchen-1.webp',
       alt: 'Wortsuchrätsel-Arbeitsblatt mit professionellen Qualitätsstandards, sauberem Layout und präziser Formatierung',
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuchrätsel mit professioneller druckfertiger Formatierung und präziser Rasterausrichtung',
         caption: 'Professionelle Wortsuchrätsel-Ausgabe demonstriert sauberes Layout, lesbare Typografie und präzise Rasterausrichtung',
       },
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: '/samples/german/addition/additionsspa-1.webp',
         alt: 'Additions-Arbeitsblatt mit Qualitätsstandards für Zahlenausrichtung und Lösungsschlüssel-Genauigkeit',
         caption: 'Mathe-Arbeitsblätter erfordern präzise Ausrichtung, klare Typografie und überprüfte Lösungsschlüssel für professionelle Qualität',
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: '/samples/german/coloring/coloring-portrait-1.webp',
         alt: 'Ausmalseite mit visuellen Qualitätsstandards, konsistenten Linienstärken und Druckoptimierung',
         caption: 'Visuelle Produkte erfordern konsistente Linienstärken, Graustufen-Optimierung und professionelle Druckqualität',
       },

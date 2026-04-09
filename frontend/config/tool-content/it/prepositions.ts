@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/prepositions/Preposizioni 1.webp',
+      primary: '/samples/italian/prepositions/preposizioni-1.webp',
       primaryAlt: 'Scheda preposizioni che mostra scene illustrate con esercizi sulle relazioni spaziali per la pratica delle parole di posizione',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/prepositions/Preposizioni 1.webp',
+        src: '/samples/italian/prepositions/preposizioni-1.webp',
         alt: 'Scheda preposizioni con esercizi di riempimento spazi vuoti usando scene illustrate colorate',
         caption: 'Esercizi di riempimento spazi vuoti sulle preposizioni con scene illustrate',
       },
       {
-        src: '/samples/italian/prepositions/Preposizioni 2.webp',
+        src: '/samples/italian/prepositions/preposizioni-2.webp',
         alt: 'Scheda preposizioni con esercizi a scelta multipla sulle relazioni spaziali',
         caption: 'Modalità scelta multipla per pratica adatta ai principianti',
       },
       {
-        src: '/samples/italian/prepositions/Preposizioni 3.webp',
+        src: '/samples/italian/prepositions/preposizioni-3.webp',
         alt: 'Scheda preposizioni avanzata con sostituzione forme e più esercizi per pagina',
         caption: 'La sostituzione forme crea combinazioni di scene uniche',
       },

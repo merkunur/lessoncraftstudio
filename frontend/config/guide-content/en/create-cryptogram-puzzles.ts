@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/cryptogram/cryptogram_worksheet (10).webp', alt: 'Cryptogram worksheet with picture cipher showing themed images mapped to alphabet letters encoding a secret phrase' },
+    heroImage: { src: '/samples/english/cryptogram/cryptogram-worksheet-10.webp', alt: 'Cryptogram worksheet with picture cipher showing themed images mapped to alphabet letters encoding a secret phrase' },
     samples: [
-      { src: '/samples/english/cryptogram/cryptogram_worksheet (11).webp', alt: 'Cryptogram worksheet with themed images replacing letters in an encoded secret phrase', caption: 'Picture cipher puzzle — decode the secret message by identifying which image represents which letter' },
-      { src: '/samples/english/cryptogram/cryptogram_worksheet (10).webp', alt: 'Cryptogram worksheet with themed images and Letters to Reveal hints for scaffolded difficulty', caption: 'Themed cipher with Letters to Reveal — pre-solved mappings provide scaffolding for beginners' },
-      { src: '/samples/english/cryptogram/cryptogram_worksheet (11).webp', alt: 'Cryptogram answer key with complete letter legend showing all alphabet-to-image mappings in sorted order', caption: 'Letter legend answer key — every alphabet letter paired with its assigned image for definitive solution reference' },
+      { src: '/samples/english/cryptogram/cryptogram-worksheet-11.webp', alt: 'Cryptogram worksheet with themed images replacing letters in an encoded secret phrase', caption: 'Picture cipher puzzle — decode the secret message by identifying which image represents which letter' },
+      { src: '/samples/english/cryptogram/cryptogram-worksheet-10.webp', alt: 'Cryptogram worksheet with themed images and Letters to Reveal hints for scaffolded difficulty', caption: 'Themed cipher with Letters to Reveal — pre-solved mappings provide scaffolding for beginners' },
+      { src: '/samples/english/cryptogram/cryptogram-worksheet-11.webp', alt: 'Cryptogram answer key with complete letter legend showing all alphabet-to-image mappings in sorted order', caption: 'Letter legend answer key — every alphabet letter paired with its assigned image for definitive solution reference' },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: 'How to Create Picture Cryptogram Cipher Puzzles — Step-by-Step Tutorial',

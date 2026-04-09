@@ -179,11 +179,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear con ilustraciones temáticas mostrando arte lineal B/N para vender en Etsy' },
+    heroImage: { src: '/samples/spanish/coloring/coloring-portrait-1.webp', alt: 'Página para colorear con ilustraciones temáticas mostrando arte lineal B/N para vender en Etsy' },
     samples: [
-      { src: '/samples/spanish/coloring/coloring portrait 2.webp', alt: 'Página para colorear temática de animales creada para anuncio de descargue digital en Etsy', caption: 'Página para colorear de animales de la biblioteca de imágenes temáticas — arte lineal B/N limpio que cree fotos de anuncios atractivas en Etsy' },
-      { src: '/samples/spanish/coloring/coloring portrait 4.webp', alt: 'Página para colorear temática de naturaleza mostrando composiciones detalladas para mercados adultos e infantiles', caption: 'Página para colorear de naturaleza — tema versátil que atrae tanto a compradores infantiles como de coloreo para adultos en Etsy' },
-      { src: '/samples/spanish/coloring/coloring portrait 3.webp', alt: 'Página para colorear temática festiva demostrando producto estacional para picos de demanda en Etsy', caption: 'Página para colorear festiva — los temas estacionales impulsan grandes picos de demanda en Etsy a lo largo del año' },
+      { src: '/samples/spanish/coloring/coloring-portrait-2.webp', alt: 'Página para colorear temática de animales creada para anuncio de descargue digital en Etsy', caption: 'Página para colorear de animales de la biblioteca de imágenes temáticas — arte lineal B/N limpio que cree fotos de anuncios atractivas en Etsy' },
+      { src: '/samples/spanish/coloring/coloring-portrait-4.webp', alt: 'Página para colorear temática de naturaleza mostrando composiciones detalladas para mercados adultos e infantiles', caption: 'Página para colorear de naturaleza — tema versátil que atrae tanto a compradores infantiles como de coloreo para adultos en Etsy' },
+      { src: '/samples/spanish/coloring/coloring-portrait-3.webp', alt: 'Página para colorear temática festiva demostrando producto estacional para picos de demanda en Etsy', caption: 'Página para colorear festiva — los temas estacionales impulsan grandes picos de demanda en Etsy a lo largo del año' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Cómo crear páginas para colorear para vender en Etsy — Tutorial paso a paso',

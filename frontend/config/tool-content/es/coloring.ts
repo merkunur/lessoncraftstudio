@@ -214,22 +214,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/coloring/coloring portrait 1.webp',
+      primary: '/samples/spanish/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Página para colorear personalizada creada en lienzo libre con ilustraciones temáticas a color organizadas en una composición original con borde decorativo',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/coloring/coloring portrait 2.webp',
+        src: '/samples/spanish/coloring/coloring-portrait-2.webp',
         alt: 'Página para colorear temática de animales con múltiples ilustraciones organizadas en lienzo libre mostrando posibilidades de diseño creativo',
         caption: 'Página para colorear con tema de animales — diseño de lienzo libre con múltiples ilustraciones organizadas en una composición única',
       },
       {
-        src: '/samples/spanish/coloring/coloring portrait 3.webp',
+        src: '/samples/spanish/coloring/coloring-portrait-3.webp',
         alt: 'Página para colorear lista para venta en línea con campo de nombre y líneas de práctica de escritura añadidas usando asistentes del mercado con un solo clic',
         caption: 'Hoja de actividades para venta en línea — campo de nombre y líneas de escritura transforman páginas para colorear en actividades de aprendizaje estructuradas',
       },
       {
-        src: '/samples/spanish/coloring/coloring landscape 1.webp',
+        src: '/samples/spanish/coloring/coloring-landscape-1.webp',
         alt: 'Exportación en escala de grises de página para colorear mostrando conversión con ahorro de tinta desde composición a color para interiores de KDP e impresión en volumen',
         caption: 'Exportación en escala de grises — composiciones a color se convierten en páginas para colorear con ahorro de tinta para interiores de KDP e impresión en volumen',
       },

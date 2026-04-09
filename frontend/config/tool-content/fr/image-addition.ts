@@ -216,22 +216,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/addition/Addition Amusant 1.webp',
+      primary: '/samples/french/addition/addition-amusant-1.webp',
       primaryAlt: 'Fiche d\'addition avec des images d\'animaux montrant des exercices de maths basés sur les images',
     },
     sampleGallery: [
       {
-        src: '/samples/french/addition/Addition Amusant 1.webp',
+        src: '/samples/french/addition/addition-amusant-1.webp',
         alt: 'Fiche d\'addition avec thème animaux en mode Image + Image',
         caption: 'Mode Image + Image avec thème animaux',
       },
       {
-        src: '/samples/french/addition/Addition Amusant 2.webp',
+        src: '/samples/french/addition/addition-amusant-2.webp',
         alt: 'Fiche d\'addition avec images de nourriture en mode Trouver le Terme Manquant',
         caption: 'Mode Trouver le Terme Manquant avec thème nourriture',
       },
       {
-        src: '/samples/french/addition/Addition Amusant 4.webp',
+        src: '/samples/french/addition/addition-amusant-4.webp',
         alt: 'Fiche d\'addition en mode mixte avec images de véhicules et cadre décoratif',
         caption: 'Mode mixte avec véhicules et cadre décoratif',
       },

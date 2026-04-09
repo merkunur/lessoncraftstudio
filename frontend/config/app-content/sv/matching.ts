@@ -274,22 +274,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/matching/Matchningsspel.webp',
+      primary: '/samples/swedish/matching/matchningsspel.webp',
       primaryAlt: 'Dra-ett-streck matchnings arbetsblad med tematiska bilder arrangerade i två kolumner med lokaliserad Para ihop-rubrik och artikelnummer',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/matching/Matchningsspel%20beginning%20letter.webp',
+        src: '/samples/swedish/matching/matchningsspel%20beginning%20letter.webp',
         alt: 'Begynnelsebokstav matchnings arbetsblad med bilder till vänster och första bokstäver till höger',
         caption: 'Begynnelsebokstav-läge — användarna matchar bilder med deras första bokstäver',
       },
       {
-        src: '/samples/swedish/matching/Matchningsspel%20bild%20och%20ord.webp',
+        src: '/samples/swedish/matching/matchningsspel%20bild%20och%20ord.webp',
         alt: 'Bild och ord matchnings arbetsblad med märkta par på båda sidor',
         caption: 'Bild+Ord-läge — märkta bildpar för vokabulärmatchning',
       },
       {
-        src: '/samples/swedish/matching/Matchningsspel%20answer_key.webp',
+        src: '/samples/swedish/matching/matchningsspel%20answer-key.webp',
         alt: 'Matchnings arbetsblad facit med kopplingslinjer dragna mellan korrekta par',
         caption: 'Automatiskt genererat facit — kopplingslinjer visar korrekta matchningar',
       },

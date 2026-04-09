@@ -216,12 +216,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt das die Vielseitigkeit des Werkzeugs und thematische Bildbibliotheks-Ausgabe demonstriert' },
+    heroImage: { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Zuordnungs-Arbeitsblatt das die Vielseitigkeit des Werkzeugs und thematische Bildbibliotheks-Ausgabe demonstriert' },
     samples: [
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt mit Bild-zu-Wort-Zuordnung und thematischen Illustrationen', caption: 'Zuordnung — Vielseitiges Werkzeug mit mehreren Modi' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Arbeitsblatt das sprachsensible Generierung demonstriert', caption: 'Wortsuchrätsel — Beliebtester Rätselgenerator' },
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Ausmalseite die Designqualität ohne Sprachabhängigkeit zeigt', caption: 'Ausmalen — Universelle visuelle Inhalte' },
-      { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel das mehrsprachige Generierungsfähigkeiten demonstriert', caption: 'Kreuzworträtsel — Mehrsprachiges Rätselwerkzeug' },
+      { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Zuordnungs-Arbeitsblatt mit Bild-zu-Wort-Zuordnung und thematischen Illustrationen', caption: 'Zuordnung — Vielseitiges Werkzeug mit mehreren Modi' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuchrätsel-Arbeitsblatt das sprachsensible Generierung demonstriert', caption: 'Wortsuchrätsel — Beliebtester Rätselgenerator' },
+      { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Ausmalseite die Designqualität ohne Sprachabhängigkeit zeigt', caption: 'Ausmalen — Universelle visuelle Inhalte' },
+      { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kreuzworträtsel das mehrsprachige Generierungsfähigkeiten demonstriert', caption: 'Kreuzworträtsel — Mehrsprachiges Rätselwerkzeug' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Zuordnungs-Arbeitsblätter für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo',

@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp', alt: 'Crucigrama para niños con pistas de imágenes mostrando vocabulario temático en una cuadrícula con intersecciones' },
+    heroImage: { src: '/samples/spanish/crossword/crucigrama-con-dibujos-1.webp', alt: 'Crucigrama para niños con pistas de imágenes mostrando vocabulario temático en una cuadrícula con intersecciones' },
     samples: [
-      { src: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp', alt: 'Crucigrama infantil con tema de animales mostrando cuadrícula numerada y pistas de imágenes', caption: 'Crucigrama temático de animales con pistas de imágenes para práctica de vocabulario de jardín de infantes y primer grado' },
-      { src: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp', alt: 'Clave de respuestas del crucigrama mostrando la cuadrícula completa con todas las letras rellenadas', caption: 'Clave de respuestas automática generada junto con cada crucigrama' },
+      { src: '/samples/spanish/crossword/crucigrama-con-dibujos-1.webp', alt: 'Crucigrama infantil con tema de animales mostrando cuadrícula numerada y pistas de imágenes', caption: 'Crucigrama temático de animales con pistas de imágenes para práctica de vocabulario de jardín de infantes y primer grado' },
+      { src: '/samples/spanish/crossword/crucigrama-con-dibujos-1.webp', alt: 'Clave de respuestas del crucigrama mostrando la cuadrícula completa con todas las letras rellenadas', caption: 'Clave de respuestas automática generada junto con cada crucigrama' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'Cómo crear crucigramas para niños — Tutorial completo',

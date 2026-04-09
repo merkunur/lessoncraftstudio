@@ -227,22 +227,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/find and count/Je vois, je voi 1.webp',
+      primary: '/samples/french/find and count/je-vois,-je-voi-1.webp',
       primaryAlt: 'Fiche cherche et compte Je Vois Je Vois avec images dispersées dans une grille configurable, bordure bleue d\'en-tête et consignes de quatre types de tâches entourer encadrer barrer et compter',
     },
     sampleGallery: [
       {
-        src: '/samples/french/find and count/Je vois, je voi 1.webp',
+        src: '/samples/french/find and count/je-vois,-je-voi-1.webp',
         alt: 'Fiche objets cachés Je Vois Je Vois en mode portrait avec images d\'animaux dispersées et consignes de tâches',
         caption: 'Mode Objets Cachés — Je Vois Je Vois classique avec tâches entourer, encadrer, barrer et compter sur une grille d\'images dispersées',
       },
       {
-        src: '/samples/french/find and count/Je vois, je voi 2.webp',
+        src: '/samples/french/find and count/je-vois,-je-voi-2.webp',
         alt: 'Fiche cherche et compte avec un thème différent et disposition variée de la grille',
         caption: 'Thème varié — disposition de grille différente avec objets cibles distribués aléatoirement parmi les distracteurs',
       },
       {
-        src: '/samples/french/find and count/Je vois, je voi 1 answer_key.webp',
+        src: '/samples/french/find and count/je-vois,-je-voi-1-answer-key.webp',
         alt: 'Corrigé cherche et compte avec annotations rouges cercle carré et croix sur les objets corrects et affichages de quantités',
         caption: 'Corrigé auto-généré — annotations rouges marquant cercles, carrés, croix et totaux de comptage pour chaque objet cible',
       },

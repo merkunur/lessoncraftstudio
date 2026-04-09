@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/find objects/Trova gli Oggetti Nascosti 1.webp',
+      primary: '/samples/italian/find objects/trova-gli-oggetti-nascosti-1.webp',
       primaryAlt: 'Scheda Cerca e Trova con immagini sparse posizionate con algoritmo senza sovrapposizioni, legenda in fondo che mostra gli oggetti da trovare e intestazione decorativa',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/find objects/Trova gli Oggetti Nascosti 2.webp',
+        src: '/samples/italian/find objects/trova-gli-oggetti-nascosti-2.webp',
         alt: 'Scena Cerca e Trova con immagini sparse e legenda che mostra gli oggetti bersaglio in fondo',
         caption: 'Modalità Cerca e Trova — scena di oggetti nascosti in formato libero con legenda',
       },
       {
-        src: '/samples/italian/find objects/Trova gli Oggetti Nascosti 3.webp',
+        src: '/samples/italian/find objects/trova-gli-oggetti-nascosti-3.webp',
         alt: 'Scheda Trova l\'Intruso con immagini appaiate in righe ed elementi spaiati da identificare',
         caption: 'Modalità Trova l\'Intruso — immagini appaiate con elementi spaiati per discriminazione visiva',
       },
       {
-        src: '/samples/italian/find objects/Trova gli Oggetti Nascosti 1 answer_key.webp',
+        src: '/samples/italian/find objects/trova-gli-oggetti-nascosti-1-answer-key.webp',
         alt: 'Chiave di risposta della scheda cerca oggetti con cerchi rossi disegnati attorno agli oggetti bersaglio',
         caption: 'Chiave di risposta auto-generata — cerchi rossi segnano gli oggetti nascosti e spaiati',
       },

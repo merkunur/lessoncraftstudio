@@ -165,7 +165,7 @@ const content: GuideContent = {
         caption: 'Skrivearbeidsark inneholder betydelig originalt kreativt uttrykk i sin instruksjonstekst og design',
       },
       {
-        src: '/samples/norwegian/wordsearch/Ordleting%201.webp',
+        src: '/samples/norwegian/wordsearch/ordleting%201.webp',
         alt: 'Ordsok-puslespill med tematiske bilder som demonstrerer kreativt arrangement av pedagogisk innhold',
         caption: 'Ordsok-puslespill demonstrerer opphavsrettslig beskyttbart kreativt arrangement av ordforradselementer',
       },

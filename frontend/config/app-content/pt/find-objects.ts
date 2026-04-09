@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/find objects/Encontra os Objetos Escondidos 1.webp',
+      primary: '/samples/portuguese/find objects/encontra-os-objetos-escondidos-1.webp',
       primaryAlt: 'Atividade de objetos ocultos Eu Vejo com imagens dispersas usando algoritmo sem sobreposição, legenda inferior mostrando objetos a encontrar e cabeçalho decorativo',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/find objects/Encontra os Objetos Escondidos 1.webp',
+        src: '/samples/portuguese/find objects/encontra-os-objetos-escondidos-1.webp',
         alt: 'Cena de objetos ocultos Eu Vejo com imagens dispersas e legenda mostrando objetos-alvo na parte inferior',
         caption: 'Modo Eu Vejo — cena de objetos ocultos em forma livre com legenda',
       },
       {
-        src: '/samples/portuguese/find objects/Encontra o Diferente (1).webp',
+        src: '/samples/portuguese/find objects/encontra-o-diferente-1.webp',
         alt: 'Atividade Encontra o Diferente com imagens emparelhadas em linhas e elementos sem par a identificar',
         caption: 'Modo Encontra o Diferente — imagens emparelhadas com elementos sem par para discriminação visual',
       },
       {
-        src: '/samples/portuguese/find objects/Encontra os Objetos Escondidos 1 answer_key.webp',
+        src: '/samples/portuguese/find objects/encontra-os-objetos-escondidos-1-answer-key.webp',
         alt: 'Gabarito de atividade de objetos ocultos com círculos vermelhos desenhados à volta dos objetos-alvo',
         caption: 'Gabarito autogerado — círculos vermelhos marcam objetos ocultos e sem par',
       },

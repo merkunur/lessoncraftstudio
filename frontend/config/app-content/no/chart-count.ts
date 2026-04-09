@@ -271,22 +271,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/chart%20count/Bildediagram%201.webp',
+      primary: '/samples/norwegian/chart%20count/bildediagram%201.webp',
       primaryAlt: 'Bildediagram arbeidsark med spredt bilderutenett og sojlediagram der brukerne teller og diagrammerer 6 bildetyper',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/chart%20count/Bildediagram%201.webp',
+        src: '/samples/norwegian/chart%20count/bildediagram%201.webp',
         alt: 'Dyretema bildediagram arbeidsark med 20 spredte dyreikoner og tomt sojlediagram',
         caption: 'Dyretema bildediagram — 6 dyretyper spredt over rutenettet med sojlediagram nedenfor',
       },
       {
-        src: '/samples/norwegian/chart%20count/Bildediagram%202.webp',
+        src: '/samples/norwegian/chart%20count/bildediagram%202.webp',
         alt: 'Bildediagram arbeidsark med et annet tema og fargerike illustrasjoner',
         caption: 'Tematisk bildediagram — 104 temaer gir unike telleutfordringer for hvert arbeidsark',
       },
       {
-        src: '/samples/norwegian/chart%20count/Bildediagram%203.webp',
+        src: '/samples/norwegian/chart%20count/bildediagram%203.webp',
         alt: 'Bildediagram fasit med gulmarkerte celler som viser korrekte antall for hver bildetype',
         caption: 'Automatisk generert fasit — gulfylte celler viser det korrekte antallet for hver bildetype',
       },

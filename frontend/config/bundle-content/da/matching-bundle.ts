@@ -203,15 +203,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/matching/Find%20Parrene%201.webp',
+      primary: '/samples/danish/matching/find%20parrene%201.webp',
       primaryAlt: 'Matchningsarbejdsark med tematiske billeder der viser parmatchningsøvelse',
     },
     sampleGallery: [
-      { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Find Parrene — dansk eksempel', caption: 'Find Parrene' },
-      { src: '/samples/danish/grid%20match/Gitterpuslespil%201.webp', alt: 'Gitterpuslespil — dansk eksempel', caption: 'Gitterpuslespil' },
-      { src: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%201.webp', alt: 'Skyggematching — dansk eksempel', caption: 'Skyggematching' },
-      { src: '/samples/danish/bingo/Billedbingo%201.webp', alt: 'Billedbingo — dansk eksempel', caption: 'Billedbingo' },
-      { src: '/samples/danish/picture%20sort/Sorter%20Billeder%201.webp', alt: 'Sorter Billeder — dansk eksempel', caption: 'Sorter Billeder' },
+      { src: '/samples/danish/matching/find%20parrene%201.webp', alt: 'Find Parrene — dansk eksempel', caption: 'Find Parrene' },
+      { src: '/samples/danish/grid%20match/gitterpuslespil%201.webp', alt: 'Gitterpuslespil — dansk eksempel', caption: 'Gitterpuslespil' },
+      { src: '/samples/danish/shadow%20match/g%c3%b8r%20billederne%20hele%201.webp', alt: 'Skyggematching — dansk eksempel', caption: 'Skyggematching' },
+      { src: '/samples/danish/bingo/billedbingo%201.webp', alt: 'Billedbingo — dansk eksempel', caption: 'Billedbingo' },
+      { src: '/samples/danish/picture%20sort/sorter%20billeder%201.webp', alt: 'Sorter Billeder — dansk eksempel', caption: 'Sorter Billeder' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Matchning & Sortering-pakke — Se alle 5 generatorer i aktion',

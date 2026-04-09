@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%201.webp',
+      primary: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%201.webp',
       primaryAlt: 'Twee-categorieën sorteer werkblad met stippelrand categoriekaders bovenaan en geschud uitknipraster onderaan met gelokaliseerde mintgroene Afbeeldingen Sorteren koptekst',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%202.webp',
+        src: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%202.webp',
         alt: 'Themamodus sorteer werkblad met automatisch gevulde linker- en rechtercategorieën uit de afbeeldingenbibliotheek met geschud uitknipraster',
         caption: 'Themamodus — automatisch gevulde categorieën uit de afbeeldingenbibliotheek met willekeurig uitknipraster',
       },
       {
-        src: '/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%203.webp',
+        src: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%203.webp',
         alt: 'Handmatige modus sorteer werkblad met individueel geselecteerde afbeeldingen toegewezen aan linker- en rechtercategorieën voor lesstof-gerelateerd sorteren',
         caption: 'Handmatige modus — individueel geselecteerde afbeeldingen toegewezen aan linker- en rechtercategorie',
       },
       {
-        src: '/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%201%20answer_key.webp',
+        src: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%201%20answer-key.webp',
         alt: 'Sorteer antwoordblad met 6× grotere afbeeldingen georganiseerd in juiste categorievakken met stippelranden en FAFAFA-vulling',
         caption: 'Automatisch gegenereerd antwoordblad — 6× grotere afbeeldingen in categorievakken met max 2 kolommen per vak',
       },

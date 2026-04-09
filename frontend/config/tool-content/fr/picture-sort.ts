@@ -227,22 +227,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/picture sort/Tri d\'Images 1.webp',
+      primary: '/samples/french/picture sort/Tri d\'images-1.webp',
       primaryAlt: 'Fiche de tri d\'images à deux catégories avec cadres de catégories à bordure pointillée en haut et grille découpée mélangée en dessous avec en-tête localisé vert menthe Tri d\'Images',
     },
     sampleGallery: [
       {
-        src: '/samples/french/picture sort/Tri d\'Images 1.webp',
+        src: '/samples/french/picture sort/Tri d\'images-1.webp',
         alt: 'Fiche de tri en mode thématique avec catégories gauche et droite remplies automatiquement depuis la bibliothèque d\'images et grille découpée mélangée',
         caption: 'Mode thématique — catégories remplies automatiquement depuis la bibliothèque d\'images avec grille découpée mélangée',
       },
       {
-        src: '/samples/french/picture sort/Tri d\'Images 2.webp',
+        src: '/samples/french/picture sort/Tri d\'images-2.webp',
         alt: 'Fiche de tri en mode manuel avec images sélectionnées individuellement assignées aux catégories gauche et droite pour un tri aligné sur le programme',
         caption: 'Mode manuel — sélectionnez les images et assignez-les à la catégorie gauche ou droite',
       },
       {
-        src: '/samples/french/picture sort/Tri d\'Images 1 answer_key.webp',
+        src: '/samples/french/picture sort/Tri d\'images-1-answer-key.webp',
         alt: 'Corrigé de tri d\'images avec images 6 fois plus grandes organisées dans les boîtes de catégories correctes avec bordures pointillées et remplissage FAFAFA',
         caption: 'Corrigé auto-généré — images 6× plus grandes dans les boîtes de catégories avec maximum 2 colonnes par boîte',
       },

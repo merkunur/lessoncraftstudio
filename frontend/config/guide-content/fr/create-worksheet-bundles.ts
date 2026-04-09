@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche de maths prête à être regroupée dans un pack de fiches à forte valeur' },
+    heroImage: { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche de maths prête à être regroupée dans un pack de fiches à forte valeur' },
     samples: [
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition pour la création de packs de fiches de maths', caption: 'Les fiches de maths font partie des produits les plus populaires pour la création de packs — combinez addition, soustraction et numération pour des packs complets' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition pour la création de packs de fiches de maths', caption: 'Les fiches de maths font partie des produits les plus populaires pour la création de packs — combinez addition, soustraction et numération pour des packs complets' },
       { src: '/samples/french/wordsearch/worksheet.webp', alt: 'Mots cachés pour pack de fiches thématique', caption: 'Les mots cachés ajoutent de la variété aux packs thématiques et fonctionnent dans les packs par matière, par niveau et saisonniers' },
-      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'association pour collection de packs imprimables', caption: 'Les activités d\'association complètent d\'autres types de fiches dans les packs par format — la variété maintient l\'engagement des utilisateurs sur plusieurs séances' },
+      { src: '/samples/french/matching/trouve-les-paires-1.webp', alt: 'Fiche d\'association pour collection de packs imprimables', caption: 'Les activités d\'association complètent d\'autres types de fiches dans les packs par format — la variété maintient l\'engagement des utilisateurs sur plusieurs séances' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Comment créer des fiches d\'addition pour les regrouper en collections à forte valeur',

@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet generated for Etsy showing themed image-to-word matching pairs' },
+    heroImage: { src: '/samples/english/matching/image-and-custom-word.webp', alt: 'Matching worksheet generated for Etsy showing themed image-to-word matching pairs' },
     samples: [
-      { src: '/samples/english/matching/image and word.webp', alt: 'Matching worksheet with beginning letter match mode for preschool', caption: 'A themed matching worksheet with image-to-letter pairs ready for Etsy listing' },
-      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet answer key showing correct connections', caption: 'Automatic answer key included with every matching worksheet' },
+      { src: '/samples/english/matching/image-and-word.webp', alt: 'Matching worksheet with beginning letter match mode for preschool', caption: 'A themed matching worksheet with image-to-letter pairs ready for Etsy listing' },
+      { src: '/samples/english/matching/image-and-custom-word.webp', alt: 'Matching worksheet answer key showing correct connections', caption: 'Automatic answer key included with every matching worksheet' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'How to Create Matching Worksheets',

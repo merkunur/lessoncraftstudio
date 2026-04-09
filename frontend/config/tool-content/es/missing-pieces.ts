@@ -218,22 +218,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/missing pieces/Piezas Perdidas 1.webp',
+      primary: '/samples/spanish/missing pieces/piezas-perdidas-1.webp',
       primaryAlt: 'Ficha de rompecabezas con huecos recortados de una ilustración colorida y opciones de solución numeradas incluyendo distractoras debajo con encabezado turquesa Piezas Faltantes y doble borde decorativo turquesa-rosa',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/missing pieces/Piezas Perdidas 2.webp',
+        src: '/samples/spanish/missing pieces/piezas-perdidas-2.webp',
         alt: 'Puzzle de piezas faltantes con huecos cuadrados recortados de una ilustración colorida y opciones de solución numeradas para identificación visual',
         caption: 'Forma de pieza cuadrada — cortes geométricos limpios con opciones de solución numeradas incluyendo distractoras',
       },
       {
-        src: '/samples/spanish/missing pieces/Piezas Perdidas 3.webp',
+        src: '/samples/spanish/missing pieces/piezas-perdidas-3.webp',
         alt: 'Puzzle de piezas faltantes con huecos circulares y opciones de solución numeradas incluyendo piezas distractoras para desafío de discriminación visual',
         caption: 'Forma de pieza circular — cortes redondeados con opciones distractoras que impiden resolver por eliminación',
       },
       {
-        src: '/samples/spanish/missing pieces/Piezas Perdidas 1 answer_key.webp',
+        src: '/samples/spanish/missing pieces/piezas-perdidas-1-answer-key.webp',
         alt: 'Clave de respuestas del puzzle de piezas faltantes con etiquetas numéricas resaltadas en amarillo colocadas dentro de cada hueco mostrando el índice de opción correcto',
         caption: 'Clave de respuestas autogenerada — etiquetas amarillas (rgba(255,255,0,0.7)) muestran la opción correcta para cada hueco',
       },

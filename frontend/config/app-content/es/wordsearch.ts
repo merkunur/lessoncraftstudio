@@ -265,22 +265,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+      primary: '/samples/spanish/wordsearch/sopa-de-letras-1.webp',
       primaryAlt: 'Ficha de sopa de letras con palabras ocultas en una cuadrícula de letras y pistas de imagen mostrando un puzzle de vocabulario',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp',
         alt: 'Ficha de sopa de letras en formato vertical con cuadrícula 12×12 y pistas de imagen temáticas',
         caption: 'Formato vertical — cuadrícula 12×12 con pistas de imagen temáticas y lista de palabras',
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 2.webp',
+        src: '/samples/spanish/wordsearch/sopa-de-letras-2.webp',
         alt: 'Ficha de sopa de letras en formato horizontal con cuadrícula más grande y palabras en diagonal activadas',
         caption: 'Formato horizontal — cuadrícula más amplia con palabras en diagonal e invertidas activadas',
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 3.webp',
+        src: '/samples/spanish/wordsearch/sopa-de-letras-3.webp',
         alt: 'Ficha de sopa de letras usando el modo lista de palabras personalizada sin imágenes',
         caption: 'Modo Lista de Palabras Personalizada — sopa de letras de solo texto sin pistas de imagen',
       },

@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/sudoku/Sudoku de Imagens 1.webp', alt: 'Atividade de sudoku com imagens mostrando um puzzle de lógica 4×4 com imagens temáticas para aprendizes jovens' },
+    heroImage: { src: '/samples/portuguese/sudoku/sudoku-de-imagens-1.webp', alt: 'Atividade de sudoku com imagens mostrando um puzzle de lógica 4×4 com imagens temáticas para aprendizes jovens' },
     samples: [
-      { src: '/samples/portuguese/sudoku/Sudoku de Imagens 2.webp', alt: 'Puzzle de sudoku 4×4 baseado em imagens com tema de animais para crianças de pré-escolar', caption: 'Sudoku com imagens de dificuldade fácil usando o tema de animais da quinta com quatro células em branco' },
-      { src: '/samples/portuguese/sudoku/Sudoku de Imagens 3.webp', alt: 'Chave de respostas de sudoku com imagens mostrando a grelha completa de 4×4 com todas as imagens preenchidas', caption: 'Chave de respostas automática gerada junto com cada puzzle de sudoku com imagens' },
+      { src: '/samples/portuguese/sudoku/sudoku-de-imagens-2.webp', alt: 'Puzzle de sudoku 4×4 baseado em imagens com tema de animais para crianças de pré-escolar', caption: 'Sudoku com imagens de dificuldade fácil usando o tema de animais da quinta com quatro células em branco' },
+      { src: '/samples/portuguese/sudoku/sudoku-de-imagens-3.webp', alt: 'Chave de respostas de sudoku com imagens mostrando a grelha completa de 4×4 com todas as imagens preenchidas', caption: 'Chave de respostas automática gerada junto com cada puzzle de sudoku com imagens' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Como criar sudoku com imagens — Tutorial completo',

@@ -207,15 +207,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/matching/Finn%20Parene%201.webp',
+      primary: '/samples/norwegian/matching/finn%20parene%201.webp',
       primaryAlt: 'Koblingsarbeidsark med tematiske bilder som viser parkoblingsøvelse',
     },
     sampleGallery: [
-      { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Finn Parene — norsk eksempel', caption: 'Finn Parene' },
-      { src: '/samples/norwegian/grid%20match/Rutenettspuslespill%201.webp', alt: 'Rutenettspuslespill — norsk eksempel', caption: 'Rutenettspuslespill' },
-      { src: '/samples/norwegian/shadow%20match/Fullf%C3%B8r%20Bildene%201.webp', alt: 'Skyggematching — norsk eksempel', caption: 'Skyggematching' },
+      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Finn Parene — norsk eksempel', caption: 'Finn Parene' },
+      { src: '/samples/norwegian/grid%20match/rutenettspuslespill%201.webp', alt: 'Rutenettspuslespill — norsk eksempel', caption: 'Rutenettspuslespill' },
+      { src: '/samples/norwegian/shadow%20match/fullf%c3%b8r%20bildene%201.webp', alt: 'Skyggematching — norsk eksempel', caption: 'Skyggematching' },
       { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Bildebingo — norsk eksempel', caption: 'Bildebingo' },
-      { src: '/samples/norwegian/picture%20sort/Sorter%20Bilder%201.webp', alt: 'Sorter Bilder — norsk eksempel', caption: 'Sorter Bilder' },
+      { src: '/samples/norwegian/picture%20sort/sorter%20bilder%201.webp', alt: 'Sorter Bilder — norsk eksempel', caption: 'Sorter Bilder' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Kobling & Sortering-pakke — Se alle 5 generatorer i aksjon',

@@ -214,22 +214,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/draw and color/Dibuja y Colorea 1.webp',
+      primary: '/samples/spanish/draw and color/dibuja-y-colorea-1.webp',
       primaryAlt: 'Ficha de dibujo en cuadrícula con sistema de cuadrícula doble mostrando cuadrícula de práctica vacía y cuadrícula de pistas parcialmente revelada con tema de contornos en blanco y negro',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/draw and color/Dibuja y Colorea 2.webp',
+        src: '/samples/spanish/draw and color/dibuja-y-colorea-2.webp',
         alt: 'Ficha de dibujo en cuadrícula con tema de contornos de animales en blanco y negro al 25% de porcentaje de pistas mostrando cuadrícula de práctica y cuadrícula de pistas lado a lado',
         caption: 'Tema de animales al 25% de pistas — los usuarios reproducen el contorno a partir de pistas dispersas en la cuadrícula y luego colorean su dibujo',
       },
       {
-        src: '/samples/spanish/draw and color/Dibuja y Colorea 5.webp',
+        src: '/samples/spanish/draw and color/dibuja-y-colorea-5.webp',
         alt: 'Ficha de dibujo en cuadrícula usando modo de simetría de espejo horizontal con celdas de pistas reveladas en la mitad izquierda para práctica de razonamiento espacial',
         caption: 'Modo de simetría horizontal — las celdas de pistas se reflejan de izquierda a derecha para práctica de razonamiento espacial y simetría bilateral',
       },
       {
-        src: '/samples/spanish/draw and color/Dibuja y Colorea 10.webp',
+        src: '/samples/spanish/draw and color/dibuja-y-colorea-10.webp',
         alt: 'Ficha de dibujo en cuadrícula con 10% de porcentaje de pistas mostrando celdas de referencia mínimas en una cuadrícula grande para desafío de reproducción de nivel experto',
         caption: 'Desafío experto al 10% de pistas — celdas de referencia mínimas exigen observación precisa y razonamiento espacial',
       },

@@ -219,12 +219,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Esempio di scheda cerca parole creata con il generatore LessonCraftStudio' },
+    heroImage: { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Esempio di scheda cerca parole creata con il generatore LessonCraftStudio' },
     samples: [
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda stampabile cerca parole con tema animali', caption: 'Cerca Parole — Tema Animali' },
-      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione con problemi matematici basati su immagini', caption: 'Addizione — Problemi Basati su Immagini' },
-      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Scheda pagina da colorare con illustrazioni tematiche', caption: 'Pagina da Colorare — Illustrazioni Tematiche' },
-      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento con attività di coppie visive', caption: 'Abbinamento — Attività di Coppie Visive' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Scheda stampabile cerca parole con tema animali', caption: 'Cerca Parole — Tema Animali' },
+      { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda di addizione con problemi matematici basati su immagini', caption: 'Addizione — Problemi Basati su Immagini' },
+      { src: '/samples/italian/coloring/coloring-portrait-1.webp', alt: 'Scheda pagina da colorare con illustrazioni tematiche', caption: 'Pagina da Colorare — Illustrazioni Tematiche' },
+      { src: '/samples/italian/matching/trova-le-coppie-1.webp', alt: 'Scheda di abbinamento con attività di coppie visive', caption: 'Abbinamento — Attività di Coppie Visive' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Schede Cerca Parole — Demo LessonCraftStudio',

@@ -196,11 +196,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/math worksheet/Scheda di Matematica 4.webp', alt: 'Scheda di matematica che mostra il layout a griglia e la spaziatura formattati per le specifiche di stampa Amazon KDP' },
+    heroImage: { src: '/samples/italian/math worksheet/scheda-di-matematica-4.webp', alt: 'Scheda di matematica che mostra il layout a griglia e la spaziatura formattati per le specifiche di stampa Amazon KDP' },
     samples: [
-      { src: '/samples/italian/math worksheet/Scheda di Matematica 1.webp', alt: 'Scheda di matematica con spaziatura precisa della griglia che dimostra i requisiti di margini e layout KDP', caption: 'Layout scheda di matematica — formattazione basata su griglia con dimensionamento adeguato delle celle per una scrittura confortevole entro le specifiche dei margini KDP' },
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Griglia di puzzle cerca parole che mostra la spaziatura delle lettere formattata per la stampa KDP', caption: 'Griglia cerca parole — spaziatura uniforme delle lettere a celle da 0.3 pollici garantisce una cerchiatura confortevole e leggibilità nei libri stampati KDP' },
-      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione che dimostra un layout a pagina singola pulito per KDP', caption: 'Scheda di addizione — layout a operazione singola pulito con spazi per le risposte chiari che dimostra la formattazione professionale degli interni KDP' },
+      { src: '/samples/italian/math worksheet/scheda-di-matematica-1.webp', alt: 'Scheda di matematica con spaziatura precisa della griglia che dimostra i requisiti di margini e layout KDP', caption: 'Layout scheda di matematica — formattazione basata su griglia con dimensionamento adeguato delle celle per una scrittura confortevole entro le specifiche dei margini KDP' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Griglia di puzzle cerca parole che mostra la spaziatura delle lettere formattata per la stampa KDP', caption: 'Griglia cerca parole — spaziatura uniforme delle lettere a celle da 0.3 pollici garantisce una cerchiatura confortevole e leggibilità nei libri stampati KDP' },
+      { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda di addizione che dimostra un layout a pagina singola pulito per KDP', caption: 'Scheda di addizione — layout a operazione singola pulito con spazi per le risposte chiari che dimostra la formattazione professionale degli interni KDP' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Come Creare Schede di Matematica Pronte per la Stampa per Amazon KDP — Tutorial di Formattazione',

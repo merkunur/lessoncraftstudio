@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel für Kinder mit Bildhinweisen und thematischem Vokabular in einem Kreuzungsraster' },
+    heroImage: { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kreuzworträtsel für Kinder mit Bildhinweisen und thematischem Vokabular in einem Kreuzungsraster' },
     samples: [
-      { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kinder-Kreuzworträtsel mit Tiere-Thema, nummerierten Rasterfeldern und Bildhinweisen', caption: 'Kreuzworträtsel mit Tiere-Thema und Bildhinweisen für Kindergarten- und Erstklassmarkt-Vokabelübung' },
-      { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel-Lösungsschlüssel mit ausgefülltem Raster und allen eingetragenen Buchstaben', caption: 'Automatischer Lösungsschlüssel, der zusammen mit jedem Kreuzworträtsel generiert wird' },
+      { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kinder-Kreuzworträtsel mit Tiere-Thema, nummerierten Rasterfeldern und Bildhinweisen', caption: 'Kreuzworträtsel mit Tiere-Thema und Bildhinweisen für Kindergarten- und Erstklassmarkt-Vokabelübung' },
+      { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kreuzworträtsel-Lösungsschlüssel mit ausgefülltem Raster und allen eingetragenen Buchstaben', caption: 'Automatischer Lösungsschlüssel, der zusammen mit jedem Kreuzworträtsel generiert wird' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'Kreuzworträtsel für Kinder erstellen — Komplette Anleitung',

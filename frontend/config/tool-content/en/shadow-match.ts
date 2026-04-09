@@ -227,7 +227,7 @@ const content: ToolContent = {
         caption: 'Make It Whole mode — users match split image halves to complete pictures with horizontal or vertical cuts',
       },
       {
-        src: '/samples/english/shadow match/shadow-match-horizontal answer-key.webp',
+        src: '/samples/english/shadow match/shadow-match-horizontal-answer-key.webp',
         alt: 'Shadow match answer key showing original images alongside silhouettes with correct letter-to-number match labels like A to 2',
         caption: 'Auto-generated answer key — letter-to-number labels show correct matches for both exercise modes',
       },

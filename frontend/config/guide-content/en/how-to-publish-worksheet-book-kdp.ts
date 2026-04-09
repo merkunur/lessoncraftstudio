@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Worksheet book page ready for Amazon KDP publication' },
+    heroImage: { src: '/samples/english/addition/addition-fun-10.webp', alt: 'Worksheet book page ready for Amazon KDP publication' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 11.webp', alt: 'Addition worksheet formatted for KDP book interior', caption: 'Addition worksheet with professional formatting ready for KDP manuscript upload' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle page for KDP publication', caption: 'Word search puzzle with auto-generated answer key for KDP puzzle book' },
+      { src: '/samples/english/addition/addition-fun-11.webp', alt: 'Addition worksheet formatted for KDP book interior', caption: 'Addition worksheet with professional formatting ready for KDP manuscript upload' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle page for KDP publication', caption: 'Word search puzzle with auto-generated answer key for KDP puzzle book' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Addition Worksheets',

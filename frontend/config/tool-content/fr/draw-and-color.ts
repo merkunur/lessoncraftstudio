@@ -222,22 +222,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/draw and color/Dessine et Colorie 1.webp',
+      primary: '/samples/french/draw and color/dessine-et-colorie-1.webp',
       primaryAlt: 'Fiche de dessin sur quadrillage avec système de double grille montrant grille de pratique vierge et grille d\'indices partiellement révélée avec thème contours N&B',
     },
     sampleGallery: [
       {
-        src: '/samples/french/draw and color/Dessine et Colorie 1.webp',
+        src: '/samples/french/draw and color/dessine-et-colorie-1.webp',
         alt: 'Fiche de dessin sur grille avec thème animaux contours N&B à 25 % de pourcentage d\'indices montrant grille de pratique et grille d\'indices côte à côte',
         caption: 'Thème animaux à 25 % d\'indices — les utilisateurs reproduisent le contour à partir d\'indices dispersés sur la grille puis colorient leur dessin',
       },
       {
-        src: '/samples/french/draw and color/Dessine et Colorie 2.webp',
+        src: '/samples/french/draw and color/dessine-et-colorie-2.webp',
         alt: 'Fiche de dessin sur grille utilisant le mode symétrie miroir horizontal avec cellules d\'indices révélées sur la moitié gauche pour la pratique du raisonnement spatial',
         caption: 'Mode symétrie horizontale — les cellules d\'indices se reflètent de gauche à droite pour la pratique du raisonnement spatial et de la symétrie bilatérale',
       },
       {
-        src: '/samples/french/draw and color/Dessine et Colorie 3.webp',
+        src: '/samples/french/draw and color/dessine-et-colorie-3.webp',
         alt: 'Fiche de dessin sur grille avec 10 % de pourcentage d\'indices montrant des cellules de référence minimales dans une grande grille pour un défi de reproduction de niveau expert',
         caption: 'Défi expert à 10 % d\'indices — cellules de référence minimales exigeant une observation précise et un raisonnement spatial',
       },

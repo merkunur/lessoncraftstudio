@@ -225,22 +225,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/find%20objects/Finn%20de%20Skjulte%20Objektene%201.webp',
+      primary: '/samples/norwegian/find%20objects/finn%20de%20skjulte%20objektene%201.webp',
       primaryAlt: 'Skjulte objekter søkearbeidsark med spredte bilder plassert med null-overlappingsalgoritme, legende i bunnen med objekter å finne og dekorativ Fredoka-overskrift',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/find%20objects/Finn%20de%20Skjulte%20Objektene%201.webp',
+        src: '/samples/norwegian/find%20objects/finn%20de%20skjulte%20objektene%201.webp',
         alt: 'Søking skjulte objekter-scene med spredte bilder og legende som viser målobjekter i bunnen av arbeidsarket',
         caption: 'Søking-modus — fri skjulte objekter-scene med null-overlapping plassering og bunnlegende',
       },
       {
-        src: '/samples/norwegian/find%20objects/Finn%20de%20Skjulte%20Objektene%202.webp',
+        src: '/samples/norwegian/find%20objects/finn%20de%20skjulte%20objektene%202.webp',
         alt: 'Finn den Ulike arbeidsark med parrede bilder i rader og uparrede objekter å identifisere gjengitt 50 prosent større',
         caption: 'Finn den Ulike-modus — parrede bilder med uparrede objekter for visuelle skjelningsaktiviteter',
       },
       {
-        src: '/samples/norwegian/find%20objects/Finn%20de%20Skjulte%20Objektene%203.webp',
+        src: '/samples/norwegian/find%20objects/finn%20de%20skjulte%20objektene%203.webp',
         alt: 'Skjulte objekter arbeidsark fasit med røde sirkler tegnet rundt målobjekter dimensjonert 3 til 5 piksler større',
         caption: 'Automatisk generert fasit — røde sirkelannoteringer markerer skjulte og uparrede objekter for selvkontroll',
       },

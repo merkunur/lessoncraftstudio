@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 1.webp', alt: 'Atividade de reconhecimento de padrões com imagens temáticas mostrando exercícios de completar padrões visuais para crianças' },
+    heroImage: { src: '/samples/portuguese/pattern worksheet/quebra-cabeças-de-padrões-1.webp', alt: 'Atividade de reconhecimento de padrões com imagens temáticas mostrando exercícios de completar padrões visuais para crianças' },
     samples: [
-      { src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 2.webp', alt: 'Atividade de reconhecimento de padrões com tema de animais mostrando exercícios de padrões AB e ABC', caption: 'Atividade de reconhecimento de padrões usando imagens temáticas com múltiplos tipos de padrões e chave de respostas automática' },
-      { src: '/samples/portuguese/pattern worksheet/Quebra-cabeças de Padrões 3.webp', alt: 'Chave de respostas de atividade de padrões mostrando os padrões completados com as imagens corretas', caption: 'Chave de respostas automática gerada junto com cada atividade de padrões paro valor percebido rápida' },
+      { src: '/samples/portuguese/pattern worksheet/quebra-cabeças-de-padrões-2.webp', alt: 'Atividade de reconhecimento de padrões com tema de animais mostrando exercícios de padrões AB e ABC', caption: 'Atividade de reconhecimento de padrões usando imagens temáticas com múltiplos tipos de padrões e chave de respostas automática' },
+      { src: '/samples/portuguese/pattern worksheet/quebra-cabeças-de-padrões-3.webp', alt: 'Chave de respostas de atividade de padrões mostrando os padrões completados com as imagens corretas', caption: 'Chave de respostas automática gerada junto com cada atividade de padrões paro valor percebido rápida' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'Como criar atividades de reconhecimento de padrões — Tutorial completo',

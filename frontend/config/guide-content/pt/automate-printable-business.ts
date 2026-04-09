@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/portuguese/math worksheet/Folha de Matemática 1.webp',
+      src: '/samples/portuguese/math worksheet/folha-de-matemática-1.webp',
       alt: 'Atividade de matemática profissional demonstrando a criação rápida automatizada para eficiência de negócio de imprimíveis',
     },
     samples: [
       {
-        src: '/samples/portuguese/math worksheet/Folha de Matemática 2.webp',
+        src: '/samples/portuguese/math worksheet/folha-de-matemática-2.webp',
         alt: 'Atividade de matemática mostrando a qualidade de produção automatizada',
         caption: 'Os geradores de atividades automatizam o passo mais trabalhoso na produção de imprimíveis',
       },
       {
-        src: '/samples/portuguese/addition/Adição Divertida 1.webp',
+        src: '/samples/portuguese/addition/adição-divertida-1.webp',
         alt: 'Atividade de soma demonstrando produção em lote com variações de tema',
         caption: 'A produção em lote de variações temáticas multiplica a produção do catálogo eficientemente',
       },
       {
-        src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
+        src: '/samples/portuguese/wordsearch/caça-palavras-1.webp',
         alt: 'Sopa de letras mostrando criação sistemática de conteúdo através de temas',
         caption: 'A variação sistemática através de temas e idiomas escala o crescimento do catálogo',
       },

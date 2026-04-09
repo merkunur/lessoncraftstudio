@@ -259,22 +259,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/prepositions/Preposições 1.webp',
+      primary: '/samples/portuguese/prepositions/preposições-1.webp',
       primaryAlt: 'Atividade de preposições com imagens coloridas mostrando relações espaciais entre objetos e formas geométricas',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/prepositions/Preposições 2.webp',
+        src: '/samples/portuguese/prepositions/preposições-2.webp',
         alt: 'Atividade de preposições preencher a lacuna com tema de animais e formas geométricas',
         caption: 'Modo Preencher a Lacuna — os usuários completam as frases com a preposição correta',
       },
       {
-        src: '/samples/portuguese/prepositions/Preposições 3.webp',
+        src: '/samples/portuguese/prepositions/preposições-3.webp',
         alt: 'Atividade de preposições escolha múltipla com tema de veículos mostrando descrições espaciais',
         caption: 'Modo Escolha Múltipla — os usuários identificam a imagem que corresponde à descrição espacial',
       },
       {
-        src: '/samples/portuguese/prepositions/Preposições 4.webp',
+        src: '/samples/portuguese/prepositions/preposições-4.webp',
         alt: 'Atividade de preposições completa com as oito preposições espaciais e gabarito',
         caption: 'Atividade completa de 8 exercícios — revisão exaustiva de todas as preposições espaciais',
       },

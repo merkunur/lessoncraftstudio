@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/odd one out/Trova il Diverso 1.webp',
+      primary: '/samples/italian/odd one out/trova-il-diverso-1-v10.webp',
       primaryAlt: 'Scheda trova l\'intruso con quattro immagini per riga di esercizio, illustrazioni tematiche colorate e intestazione localizzata Trova l\'Intruso',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/odd one out/Trova il Diverso 2.webp',
+        src: '/samples/italian/odd one out/trova-il-diverso-2.webp',
         alt: 'Scheda trova l\'intruso in modalità Simile con tre animali e un cibo per riga',
         caption: 'Modalità Simile — tre immagini dal Tema A e un elemento intruso dal Tema B',
       },
       {
-        src: '/samples/italian/odd one out/Trova il Diverso 3.webp',
+        src: '/samples/italian/odd one out/trova-il-diverso-3.webp',
         alt: 'Scheda trova l\'intruso in modalità Identica con tre immagini identiche e una diversa per riga',
         caption: 'Modalità Identica — tre cloni della stessa immagine e un\'immagine diversa',
       },
       {
-        src: '/samples/italian/odd one out/Trova il Diverso 1 answer-key.webp',
+        src: '/samples/italian/odd one out/trova-il-diverso-1-answer-key.webp',
         alt: 'Foglio risposte trova l\'intruso con cerchi rossi tracciati attorno all\'elemento intruso in ogni riga di esercizio',
         caption: 'Foglio risposte autogenerato — i cerchi rossi segnano l\'elemento intruso in ogni riga',
       },

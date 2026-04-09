@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/prepositions/Prépositions 1.webp', alt: 'Fiche de prépositions montrant des scènes illustrées avec des exercices de relations spatiales pour la pratique des mots de position' },
+    heroImage: { src: '/samples/french/prepositions/prépositions-1.webp', alt: 'Fiche de prépositions montrant des scènes illustrées avec des exercices de relations spatiales pour la pratique des mots de position' },
     samples: [
-      { src: '/samples/french/prepositions/Prépositions 1.webp', alt: 'Fiche de prépositions avec des exercices texte à trous utilisant des scènes illustrées colorées montrant des relations spatiales', caption: 'Exercices de prépositions texte à trous avec scènes illustrées' },
-      { src: '/samples/french/prepositions/Prépositions 2.webp', alt: 'Fiche de prépositions avec des exercices choix multiples de relations spatiales pour une pratique guidée', caption: 'Mode choix multiples pour une pratique guidée adaptée aux débutants' },
-      { src: '/samples/french/prepositions/Prépositions 3.webp', alt: 'Fiche de prépositions avancée avec remplacement de formes créant des combinaisons de scènes uniques', caption: 'Le remplacement de formes multiplie les combinaisons visuelles pour la variété des produits' },
+      { src: '/samples/french/prepositions/prépositions-1.webp', alt: 'Fiche de prépositions avec des exercices texte à trous utilisant des scènes illustrées colorées montrant des relations spatiales', caption: 'Exercices de prépositions texte à trous avec scènes illustrées' },
+      { src: '/samples/french/prepositions/prépositions-2.webp', alt: 'Fiche de prépositions avec des exercices choix multiples de relations spatiales pour une pratique guidée', caption: 'Mode choix multiples pour une pratique guidée adaptée aux débutants' },
+      { src: '/samples/french/prepositions/prépositions-3.webp', alt: 'Fiche de prépositions avancée avec remplacement de formes créant des combinaisons de scènes uniques', caption: 'Le remplacement de formes multiplie les combinaisons visuelles pour la variété des produits' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Comment créer des fiches de prépositions — Tutoriel complet',

@@ -218,22 +218,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/shadow match/Empareja las Sombras 1.webp',
+      primary: '/samples/spanish/shadow match/empareja-las-sombras-1.webp',
       primaryAlt: 'Ficha de asociación de sombras con imágenes a color en la fila superior y siluetas negras autogeneradas en la fila inferior con encabezado ámbar y etiquetas letra-número para actividad de asociación',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/shadow match/Empareja las Sombras 4.webp',
+        src: '/samples/spanish/shadow match/empareja-las-sombras-4.webp',
         alt: 'Ficha de asociación de sombras con cuatro imágenes a color asociadas a cuatro siluetas negras generadas a nivel de píxel con etiquetas A B C D y 1 2 3 4',
         caption: 'Modo Asociación de Sombras — los usuarios asocian imágenes con sus siluetas autogeneradas a nivel de píxel',
       },
       {
-        src: '/samples/spanish/shadow match/Empareja las Sombras 3.webp',
+        src: '/samples/spanish/shadow match/empareja-las-sombras-3.webp',
         alt: 'Ficha Completa la Imagen con mitades de imagen dividida que los usuarios reconectan asociando primeras y segundas mitades etiquetadas A a D y 1 a 4',
         caption: 'Modo Completa la Imagen — los usuarios asocian mitades de imagen dividida para completar imágenes con cortes horizontales o verticales',
       },
       {
-        src: '/samples/spanish/shadow match/Empareja las Sombras 1 answer-key.webp',
+        src: '/samples/spanish/shadow match/empareja-las-sombras-1-answer-key.webp',
         alt: 'Clave de respuestas de asociación de sombras mostrando imágenes originales junto a siluetas con etiquetas de coincidencia correcta letra-número como A a 2',
         caption: 'Clave de respuestas autogenerada — etiquetas letra-número muestran las coincidencias correctas para ambos modos de ejercicio',
       },

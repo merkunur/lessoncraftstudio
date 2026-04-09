@@ -213,12 +213,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/bingo/Plaatjesbingo%201.webp', alt: 'Bingokaart werkblad dat zeer deelbaar printable productontwerp demonstreert' },
+    heroImage: { src: '/samples/dutch/bingo/plaatjesbingo%201.webp', alt: 'Bingokaart werkblad dat zeer deelbaar printable productontwerp demonstreert' },
     samples: [
-      { src: '/samples/dutch/bingo/Plaatjesbingo%201.webp', alt: 'Bingokaart met evenementgedreven marketingpotentieel voor feesten en winkels', caption: 'Bingo — Zeer Deelbaar voor Evenementen en Feestdagen' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker puzzel met sterk marktplaats-SEO-potentieel', caption: 'Woordzoeker — Meest Gezocht Puzzeltype' },
+      { src: '/samples/dutch/bingo/plaatjesbingo%201.webp', alt: 'Bingokaart met evenementgedreven marketingpotentieel voor feesten en winkels', caption: 'Bingo — Zeer Deelbaar voor Evenementen en Feestdagen' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzel met sterk marktplaats-SEO-potentieel', caption: 'Woordzoeker — Meest Gezocht Puzzeltype' },
       { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat met visuele aantrekkingskracht voor Pinterest-marketing', caption: 'Kleurplaat — Pinterest-Klare Visuele Content' },
-      { src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp', alt: 'Koppelwerkblad met seizoensgebonden thema marketing veelzijdigheid', caption: 'Koppelen — Veelzijdige Seizoensmarketing' },
+      { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Koppelwerkblad met seizoensgebonden thema marketing veelzijdigheid', caption: 'Koppelen — Veelzijdige Seizoensmarketing' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Bingokaarten Maken voor Je Printable Bedrijf — LessonCraftStudio Demo',

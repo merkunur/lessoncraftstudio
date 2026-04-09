@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare stampabile pronta per la vendita nella vetrina Gumroad' },
+    heroImage: { src: '/samples/italian/coloring/coloring-portrait-1.webp', alt: 'Pagina da colorare stampabile pronta per la vendita nella vetrina Gumroad' },
     samples: [
-      { src: '/samples/italian/coloring/coloring portrait 2.webp', alt: 'Pagina da colorare stampabile per vendite di prodotti digitali su Gumroad', caption: 'Le pagine da colorare creano immagini prodotto visivamente accattivanti che generano traffico dai social media al tuo negozio Gumroad' },
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole stampabile per il catalogo del negozio Gumroad', caption: 'I puzzle cerca parole hanno ampio appeal tra genitori e venditori — un tipo di prodotto versatile per Gumroad' },
-      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di attività di abbinamento per attività di stampabili Gumroad', caption: 'Le attività di abbinamento sono stampabili educativi ad alta domanda che funzionano bene come prodotti singoli e nei bundle' },
+      { src: '/samples/italian/coloring/coloring-portrait-2.webp', alt: 'Pagina da colorare stampabile per vendite di prodotti digitali su Gumroad', caption: 'Le pagine da colorare creano immagini prodotto visivamente accattivanti che generano traffico dai social media al tuo negozio Gumroad' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Puzzle cerca parole stampabile per il catalogo del negozio Gumroad', caption: 'I puzzle cerca parole hanno ampio appeal tra genitori e venditori — un tipo di prodotto versatile per Gumroad' },
+      { src: '/samples/italian/matching/trova-le-coppie-1.webp', alt: 'Scheda di attività di abbinamento per attività di stampabili Gumroad', caption: 'Le attività di abbinamento sono stampabili educativi ad alta domanda che funzionano bene come prodotti singoli e nei bundle' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Come Creare Pagine da Colorare per il Tuo Negozio di Stampabili Gumroad',

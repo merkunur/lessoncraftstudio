@@ -222,22 +222,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/wordsearch/Ordleting%201.webp',
+      primary: '/samples/norwegian/wordsearch/ordleting%201.webp',
       primaryAlt: 'Ordsøk arbeidsark med skjulte ord innebygd i et bokstavrutenett og tematiske bildeledetråder for ordforråds­puslespill',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/wordsearch/Ordleting%201.webp',
+        src: '/samples/norwegian/wordsearch/ordleting%201.webp',
         alt: 'Ordsøk arbeidsark i stående layout med 12×12 bokstavrutenett og tematiske bildeledetråder',
         caption: 'Stående layout — 12×12 rutenett med tematiske bildeledetråder og ordliste',
       },
       {
-        src: '/samples/norwegian/wordsearch/Ordleting%202.webp',
+        src: '/samples/norwegian/wordsearch/ordleting%202.webp',
         alt: 'Ordsøk arbeidsark med større rutenett og diagonale ord aktivert',
         caption: 'Større rutenett — med diagonale og baklengs ord aktivert for økt vanskelighetsgrad',
       },
       {
-        src: '/samples/norwegian/wordsearch/Ordleting%203.webp',
+        src: '/samples/norwegian/wordsearch/ordleting%203.webp',
         alt: 'Ordsøk fasit med fargekodede markeringer som viser hvert funnet ord',
         caption: 'Fargekodede fasit — seks syklende farger for øyeblikkelig visuell verifikasjon',
       },

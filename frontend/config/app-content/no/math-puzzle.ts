@@ -261,22 +261,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/math%20puzzle/Mattepuslespill%201.webp',
+      primary: '/samples/norwegian/math%20puzzle/mattepuslespill%201.webp',
       primaryAlt: 'Mattepuslespill arbeidsark med et fargerikt bilde delt opp i rutenettbrikker, hver med en addisjonsoppgave',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/math%20puzzle/Mattepuslespill%201.webp',
+        src: '/samples/norwegian/math%20puzzle/mattepuslespill%201.webp',
         alt: 'Mattepuslespill arbeidsark med 3×3 addisjonsrutenett og dyretema',
         caption: 'Addisjonsmodus — 3×3 rutenett med 9 puslespillbrikker og blandede svar nedenfor',
       },
       {
-        src: '/samples/norwegian/math%20puzzle/Mattepuslespill%202.webp',
+        src: '/samples/norwegian/math%20puzzle/mattepuslespill%202.webp',
         alt: 'Mattepuslespill arbeidsark med 2×3 subtraksjonsrutenett og naturtema',
         caption: 'Subtraksjonsmodus — 2×3 rutenett for en rask puslespillutfordring med 6 brikker',
       },
       {
-        src: '/samples/norwegian/math%20puzzle/Mattepuslespill%203.webp',
+        src: '/samples/norwegian/math%20puzzle/mattepuslespill%203.webp',
         alt: 'Mattepuslespill arbeidsark med 4×4 blandet operasjonsrutenett og kjøretøytema',
         caption: 'Blandet modus — 4×4 rutenett med 16 brikker for avansert matematikkøving',
       },

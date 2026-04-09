@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Coloriage imprimable pour vendre des ressources éducatives sur le marketplace Creative Fabrica' },
+    heroImage: { src: '/samples/french/coloring/coloring-portrait-1.webp', alt: 'Coloriage imprimable pour vendre des ressources éducatives sur le marketplace Creative Fabrica' },
     samples: [
-      { src: '/samples/french/coloring/coloring portrait 2.webp', alt: 'Coloriage imprimable pour la section Classroom de Creative Fabrica', caption: 'Les coloriages créent un pont entre craft et éducation sur Creative Fabrica — séduisant à la fois le public designer et vendeur' },
-      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'association pour les produits éducatifs Creative Fabrica', caption: 'Les activités d\'association thématiques sont des ressources très demandées dans la section Classroom de Creative Fabrica' },
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés imprimable pour le marketplace Creative Fabrica', caption: 'Les puzzles de mots cachés attirent des téléchargements par abonnement tant des entrepreneurs que des parents sur Creative Fabrica' },
+      { src: '/samples/french/coloring/coloring-portrait-2.webp', alt: 'Coloriage imprimable pour la section Classroom de Creative Fabrica', caption: 'Les coloriages créent un pont entre craft et éducation sur Creative Fabrica — séduisant à la fois le public designer et vendeur' },
+      { src: '/samples/french/matching/trouve-les-paires-1.webp', alt: 'Fiche d\'association pour les produits éducatifs Creative Fabrica', caption: 'Les activités d\'association thématiques sont des ressources très demandées dans la section Classroom de Creative Fabrica' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés imprimable pour le marketplace Creative Fabrica', caption: 'Les puzzles de mots cachés attirent des téléchargements par abonnement tant des entrepreneurs que des parents sur Creative Fabrica' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Comment créer des fiches éducatives pour Creative Fabrica',

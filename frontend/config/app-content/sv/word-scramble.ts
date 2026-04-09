@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/word%20scramble/Ordmix%20portrait.webp',
+      primary: '/samples/swedish/word%20scramble/ordmix%20portrait.webp',
       primaryAlt: 'Ordmix-arbetsblad med bildledtrådar och blandade bokstavsplattor som visar bokstavsomflyttning stavningspussel',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/word%20scramble/Ordmix%20portrait.webp',
+        src: '/samples/swedish/word%20scramble/ordmix%20portrait.webp',
         alt: 'Ordmix-arbetsblad i stående format med bildledtrådar och blandade bokstavsplattor',
         caption: 'Stående format — professionellt ordmix-arbetsblad med bildledtrådar',
       },
       {
-        src: '/samples/swedish/word%20scramble/Ordmix%20landscape.webp',
+        src: '/samples/swedish/word%20scramble/ordmix%20landscape.webp',
         alt: 'Ordmix-arbetsblad i liggande format med tematiska illustrationer',
         caption: 'Liggande format — bredare layout för fler pussel per sida',
       },
       {
-        src: '/samples/swedish/word%20scramble/Ordmix%20portrait%20answer-key.webp',
+        src: '/samples/swedish/word%20scramble/ordmix%20portrait%20answer-key.webp',
         alt: 'Ordmix facit med alla bokstäver korrekt omflyttade',
         caption: 'Facit — korrekt omflyttade ord för enkel rättning och självkontroll',
       },

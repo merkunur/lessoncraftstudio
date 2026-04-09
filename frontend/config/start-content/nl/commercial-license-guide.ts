@@ -205,12 +205,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker werkblad dat commerciële licentie uitvoerkwaliteit demonstreert voor printable verkopers' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker werkblad dat commerciële licentie uitvoerkwaliteit demonstreert voor printable verkopers' },
     samples: [
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker puzzel werkblad klaar voor commerciële verkoop', caption: 'Woordzoeker — Top Commerciële Verkoper' },
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optelling rekenwerkblad met commerciële licentie', caption: 'Optelling — Groenblijvende Rekenstandaard' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzel werkblad klaar voor commerciële verkoop', caption: 'Woordzoeker — Top Commerciële Verkoper' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optelling rekenwerkblad met commerciële licentie', caption: 'Optelling — Groenblijvende Rekenstandaard' },
       { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat werkblad voor KDP activiteitenboeken', caption: 'Kleurplaat — Hoog-Volume KDP Categorie' },
-      { src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201.webp', alt: 'Kruiswoordpuzzel die meertalige commerciële waarde demonstreert', caption: 'Kruiswoordpuzzel — Meertalige Licentiewaarde' },
+      { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: 'Kruiswoordpuzzel die meertalige commerciële waarde demonstreert', caption: 'Kruiswoordpuzzel — Meertalige Licentiewaarde' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Woordzoeker Werkbladen te Maken voor Commerciële Verkoop — LessonCraftStudio Demo',

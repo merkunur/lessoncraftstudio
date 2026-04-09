@@ -178,11 +178,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Educational printable worksheet ready for selling on Gumroad storefront' },
+    heroImage: { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Educational printable worksheet ready for selling on Gumroad storefront' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page printable for Gumroad digital product listing', caption: 'Coloring pages create visually compelling Gumroad product covers that drive social media traffic' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle for Gumroad printable store catalog', caption: 'Word search puzzles appeal to parents and puzzle enthusiasts -- a versatile Gumroad product type' },
-      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Math worksheet for educational Gumroad printable business', caption: 'Image-based math worksheets add academic credibility to your Gumroad printable catalog' },
+      { src: '/samples/english/coloring/coloring-portrait-2.webp', alt: 'Coloring page printable for Gumroad digital product listing', caption: 'Coloring pages create visually compelling Gumroad product covers that drive social media traffic' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle for Gumroad printable store catalog', caption: 'Word search puzzles appeal to parents and puzzle enthusiasts -- a versatile Gumroad product type' },
+      { src: '/samples/english/addition/addition-fun-10.webp', alt: 'Math worksheet for educational Gumroad printable business', caption: 'Image-based math worksheets add academic credibility to your Gumroad printable catalog' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

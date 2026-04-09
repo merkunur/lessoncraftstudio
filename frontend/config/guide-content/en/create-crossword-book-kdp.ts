@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Picture crossword puzzle with image clues formatted for KDP book interior' },
+    heroImage: { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Picture crossword puzzle with image clues formatted for KDP book interior' },
     samples: [
-      { src: '/samples/english/crossword/crossword_worksheet (11).webp', alt: 'Picture crossword puzzle page with 15x15 grid and image clues', caption: 'A themed picture crossword puzzle with image clues exported as a print-ready PDF for KDP' },
-      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword answer key showing completed grid', caption: 'Automatic answer key with all entries filled -- generated alongside every puzzle' },
+      { src: '/samples/english/crossword/crossword-worksheet-11.webp', alt: 'Picture crossword puzzle page with 15x15 grid and image clues', caption: 'A themed picture crossword puzzle with image clues exported as a print-ready PDF for KDP' },
+      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Crossword answer key showing completed grid', caption: 'Automatic answer key with all entries filled -- generated alongside every puzzle' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'How to Create Crossword Puzzles',

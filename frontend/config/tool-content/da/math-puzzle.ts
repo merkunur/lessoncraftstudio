@@ -215,22 +215,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp',
+      primary: '/samples/danish/math%20puzzle/mattepuslespil%201.webp',
       primaryAlt: 'Gratis regnespil generator online — matematik-puslespil med billeder og automatisk facit',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/math%20puzzle/Mattepuslespil%201.webp',
+        src: '/samples/danish/math%20puzzle/mattepuslespil%201.webp',
         alt: 'Gratis regnespil med additionsligninger i et farverigt billedgitter — prøv online',
         caption: 'Additionstilstand med tematisk billedpuslespil',
       },
       {
-        src: '/samples/danish/math%20puzzle/Mattepuslespil%202.webp',
+        src: '/samples/danish/math%20puzzle/mattepuslespil%202.webp',
         alt: 'Gratis regnegåder med subtraktionsligninger og blandede puslespilsbrikker',
         caption: 'Subtraktionstilstand — løs ligninger for at rekonstruere billedet',
       },
       {
-        src: '/samples/danish/math%20puzzle/Mattepuslespil%203.webp',
+        src: '/samples/danish/math%20puzzle/mattepuslespil%203.webp',
         alt: 'Gratis regnespil med blandede regnearter og større gitter — prøv uden tilmelding',
         caption: 'Blandede operationer — addition og subtraktion i ét puslespil',
       },

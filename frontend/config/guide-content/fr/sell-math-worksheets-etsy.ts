@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition avec illustrations thématiques montrant des problèmes de maths basés sur les images pour vendre sur Etsy' },
+    heroImage: { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition avec illustrations thématiques montrant des problèmes de maths basés sur les images pour vendre sur Etsy' },
     samples: [
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition thème animaux créée pour annonce de téléchargement numérique Etsy', caption: 'Fiche d\'addition avec thème animal — problèmes de maths basés sur les images qui créent des photos d\'annonces Etsy accrocheuses' },
-      { src: '/samples/french/subtraction/Soustractions Amusantes 1.webp', alt: 'Fiche de soustraction complément des produits d\'addition dans une boutique Etsy de fiches de maths', caption: 'Fiche de soustraction — compagnon naturel de vente croisée des annonces d\'addition dans votre boutique Etsy' },
-      { src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 1.webp', alt: 'Fiche de puzzle maths en grille montrant un format unique qui différencie les annonces Etsy', caption: 'Grille de puzzle maths — format unique avec moins de concurrence Etsy que les fiches standard' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition thème animaux créée pour annonce de téléchargement numérique Etsy', caption: 'Fiche d\'addition avec thème animal — problèmes de maths basés sur les images qui créent des photos d\'annonces Etsy accrocheuses' },
+      { src: '/samples/french/subtraction/soustractions-amusantes-1.webp', alt: 'Fiche de soustraction complément des produits d\'addition dans une boutique Etsy de fiches de maths', caption: 'Fiche de soustraction — compagnon naturel de vente croisée des annonces d\'addition dans votre boutique Etsy' },
+      { src: '/samples/french/math puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche de puzzle maths en grille montrant un format unique qui différencie les annonces Etsy', caption: 'Grille de puzzle maths — format unique avec moins de concurrence Etsy que les fiches standard' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Comment créer des fiches d\'addition pour vendre sur Etsy — Tutoriel pas à pas',

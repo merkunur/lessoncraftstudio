@@ -218,27 +218,27 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%201.webp',
+      primary: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%201.webp',
       primaryAlt: 'Twee-categorieën sorteer werkblad met thematische categoriekaders, geschud uitknipraster en gelokaliseerde Afbeeldingen Sorteren koptekst',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%202.webp',
+        src: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%202.webp',
         alt: 'Sorteer werkblad met thematische afbeeldingen in twee categoriekaders en een geschud uitknipraster met gemengde plaatjes',
         caption: 'Themamodus — automatisch gevulde categorieën uit de afbeeldingenbibliotheek',
       },
       {
-        src: '/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%203.webp',
+        src: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%203.webp',
         alt: 'Sorteer werkblad met handmatig geselecteerde afbeeldingen toegewezen aan linker- en rechtercategorie',
         caption: 'Handmatige modus — individuele afbeeldingen toegewezen aan categorieën',
       },
       {
-        src: '/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%201%20answer_key.webp',
+        src: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%201%20answer-key.webp',
         alt: 'Sorteer antwoordblad met 6 keer grotere afbeeldingen georganiseerd in juiste categorievakken',
         caption: 'Automatisch gegenereerd antwoordblad — 6× grotere afbeeldingen in categorievakken',
       },
       {
-        src: '/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%204.webp',
+        src: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%204.webp',
         alt: 'Sorteer werkblad met vierde thematische variant die de diversiteit van categoriecombinaties toont',
         caption: 'Thematische variatie — 104 beeldcollecties voor eindeloze categorieparen',
       },

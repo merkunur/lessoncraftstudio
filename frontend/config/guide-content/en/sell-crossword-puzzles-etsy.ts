@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Picture crossword puzzle with image clues for selling on Etsy' },
+    heroImage: { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Picture crossword puzzle with image clues for selling on Etsy' },
     samples: [
-      { src: '/samples/english/crossword/crossword_worksheet (11).webp', alt: 'Printable picture crossword ready for Etsy digital download', caption: 'A themed picture crossword with image clues -- print-ready for Etsy listings' },
-      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle answer key showing completed grid', caption: 'Automatic answer key included with every crossword puzzle' },
+      { src: '/samples/english/crossword/crossword-worksheet-11.webp', alt: 'Printable picture crossword ready for Etsy digital download', caption: 'A themed picture crossword with image clues -- print-ready for Etsy listings' },
+      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Crossword puzzle answer key showing completed grid', caption: 'Automatic answer key included with every crossword puzzle' },
     ],
   },
 

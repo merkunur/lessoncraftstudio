@@ -186,11 +186,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/cryptogram/Bilder-Kryptogramm 1.webp', alt: 'Kryptogramm-Arbeitsblatt mit Bildchiffre — thematische Bilder den Alphabetbuchstaben zugeordnet zur Codierung einer Geheimphrase' },
+    heroImage: { src: '/samples/german/cryptogram/bilder-kryptogramm-1.webp', alt: 'Kryptogramm-Arbeitsblatt mit Bildchiffre — thematische Bilder den Alphabetbuchstaben zugeordnet zur Codierung einer Geheimphrase' },
     samples: [
-      { src: '/samples/german/cryptogram/Bilder-Kryptogramm 1.webp', alt: 'Kryptogramm-Arbeitsblatt mit thematischen Bildern, die Buchstaben in einer codierten Geheimphrase ersetzen', caption: 'Bildchiffre-Rätsel — entschlüsseln Sie die Geheimbotschaft, indem Sie erkennen, welches Bild welchen Buchstaben darstellt' },
-      { src: '/samples/german/cryptogram/Bilder-Kryptogramm 2.webp', alt: 'Kryptogramm-Arbeitsblatt mit thematischen Bildern und Aufzudeckende-Buchstaben-Hinweisen für abgestufte Schwierigkeit', caption: 'Thematische Chiffre mit Aufzudeckenden Buchstaben — vorgelöste Zuordnungen bieten Hilfestellung für Anfänger' },
-      { src: '/samples/german/cryptogram/Bilder-Kryptogramm 3.webp', alt: 'Kryptogramm-Lösungsschlüssel mit vollständiger Buchstabenlegende aller Alphabet-Bild-Zuordnungen in alphabetischer Reihenfolge', caption: 'Buchstabenlegenden-Lösungsschlüssel — jeder Buchstabe des Alphabets gepaart mit seinem zugewiesenen Bild als definitive Lösungsreferenz' },
+      { src: '/samples/german/cryptogram/bilder-kryptogramm-1.webp', alt: 'Kryptogramm-Arbeitsblatt mit thematischen Bildern, die Buchstaben in einer codierten Geheimphrase ersetzen', caption: 'Bildchiffre-Rätsel — entschlüsseln Sie die Geheimbotschaft, indem Sie erkennen, welches Bild welchen Buchstaben darstellt' },
+      { src: '/samples/german/cryptogram/bilder-kryptogramm-2.webp', alt: 'Kryptogramm-Arbeitsblatt mit thematischen Bildern und Aufzudeckende-Buchstaben-Hinweisen für abgestufte Schwierigkeit', caption: 'Thematische Chiffre mit Aufzudeckenden Buchstaben — vorgelöste Zuordnungen bieten Hilfestellung für Anfänger' },
+      { src: '/samples/german/cryptogram/bilder-kryptogramm-3.webp', alt: 'Kryptogramm-Lösungsschlüssel mit vollständiger Buchstabenlegende aller Alphabet-Bild-Zuordnungen in alphabetischer Reihenfolge', caption: 'Buchstabenlegenden-Lösungsschlüssel — jeder Buchstabe des Alphabets gepaart mit seinem zugewiesenen Bild als definitive Lösungsreferenz' },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: 'Bildchiffre-Kryptogramm-Rätsel erstellen — Schritt-für-Schritt-Anleitung',

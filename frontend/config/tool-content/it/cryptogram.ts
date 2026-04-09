@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/cryptogram/Crittogramma Illustrato 1.webp',
+      primary: '/samples/italian/cryptogram/crittogramma-illustrato-1.webp',
       primaryAlt: 'Scheda crittogramma con cifrario illustrato che mostra immagini tematiche associate alle lettere dell\'alfabeto per codificare una frase segreta',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/cryptogram/Crittogramma Illustrato 1.webp',
+        src: '/samples/italian/cryptogram/crittogramma-illustrato-1.webp',
         alt: 'Scheda crittogramma con immagini tematiche che sostituiscono le lettere in una frase segreta codificata',
         caption: 'Puzzle cifrario illustrato — decodifica il messaggio segreto identificando quale immagine rappresenta quale lettera',
       },
       {
-        src: '/samples/italian/cryptogram/Crittogramma Illustrato 3.webp',
+        src: '/samples/italian/cryptogram/crittogramma-illustrato-3.webp',
         alt: 'Scheda crittogramma con immagini a tema animali e suggerimenti Lettere da Rivelare per difficoltà guidata',
         caption: 'Cifrario tematico con Lettere da Rivelare — associazioni pre-risolte forniscono supporto per principianti',
       },
       {
-        src: '/samples/italian/cryptogram/Crittogramma Illustrato 2 answer_key.webp',
+        src: '/samples/italian/cryptogram/crittogramma-illustrato-2-answer-key.webp',
         alt: 'Chiave di risposta crittogramma con legenda lettere completa che mostra tutte le associazioni alfabeto-immagine in ordine',
         caption: 'Chiave di risposta con legenda lettere — ogni lettera dell\'alfabeto abbinata alla sua immagine assegnata per riferimento definitivo',
       },

@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/math%20worksheet/Matematikkoppgave%201.webp',
+      primary: '/samples/norwegian/math%20worksheet/matematikkoppgave%201.webp',
       primaryAlt: 'Algebra bildepuslespill arbeidsark med bildesymboler som ukjente variabler i koblede ligninger',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/math%20worksheet/Matematikkoppgave%201.webp',
+        src: '/samples/norwegian/math%20worksheet/matematikkoppgave%201.webp',
         alt: 'Visuelt algebrapuslespill med to bildesymboler og addisjonsligninger for nybegynnere',
         caption: 'Veldig Lett-modus — to symboler med enkel addisjon',
       },
       {
-        src: '/samples/norwegian/math%20worksheet/Matematikkoppgave%202.webp',
+        src: '/samples/norwegian/math%20worksheet/matematikkoppgave%202.webp',
         alt: 'Middels vanskelighetsgrad algebra bildepuslespill med tre bildevariabler i koblede ligninger',
         caption: 'Middels vanskelighetsgrad — tre ukjente i koblede ligninger',
       },
       {
-        src: '/samples/norwegian/math%20worksheet/Matematikkoppgave%203.webp',
+        src: '/samples/norwegian/math%20worksheet/matematikkoppgave%203.webp',
         alt: 'Vanskelig algebrapuslespill arbeidsark med fire samtidige ukjente og blandede operasjoner',
         caption: 'Vanskelig-modus — fire variabler med addisjon og subtraksjon',
       },

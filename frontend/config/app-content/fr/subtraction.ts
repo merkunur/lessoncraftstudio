@@ -261,22 +261,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/subtraction/Soustractions Amusantes 1.webp',
+      primary: '/samples/french/subtraction/soustractions-amusantes-1.webp',
       primaryAlt: 'Fiche de soustraction montrant la visualisation barrée avec des croix diagonales sur les images soustraites',
     },
     sampleGallery: [
       {
-        src: '/samples/french/subtraction/Soustractions Amusantes 1.webp',
+        src: '/samples/french/subtraction/soustractions-amusantes-1.webp',
         alt: 'Fiche de soustraction en mode Barrer avec des croix sur les images soustraites',
         caption: 'Mode Barrer — des croix diagonales montrent quels éléments sont soustraits',
       },
       {
-        src: '/samples/french/subtraction/Soustractions Amusantes 2.webp',
+        src: '/samples/french/subtraction/soustractions-amusantes-2.webp',
         alt: 'Fiche de soustraction en mode Image moins Nombre avec groupes d\'images et chiffres',
         caption: 'Mode Image − Nombre — associe des groupes d\'images à des chiffres',
       },
       {
-        src: '/samples/french/subtraction/Soustractions Amusantes 3.webp',
+        src: '/samples/french/subtraction/soustractions-amusantes-3.webp',
         alt: 'Fiche de soustraction en mode Trouver le Nombre à Soustraire',
         caption: 'Mode Trouver le Nombre à Soustraire — les utilisateurs déterminent combien ont été retirés',
       },

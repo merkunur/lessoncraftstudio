@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/picture path/Chemin d\'Images 1.webp', alt: 'Fiche labyrinthe montrant une activité de parcours en images thématique avec images de départ et d\'arrivée pour enfants' },
+    heroImage: { src: '/samples/french/picture path/Chemin d\'images-1.webp', alt: 'Fiche labyrinthe montrant une activité de parcours en images thématique avec images de départ et d\'arrivée pour enfants' },
     samples: [
-      { src: '/samples/french/picture path/Chemin d\'Images 1.webp', alt: 'Fiche labyrinthe parcours en images avec images thématiques pour marché préscolaire et CP', caption: 'Mode Parcours en Images : les enfants suivent un chemin visuel de l\'image de départ à l\'image d\'arrivée à travers des décorations thématiques' },
-      { src: '/samples/french/picture path/Chemin d\'Images 1.webp', alt: 'Fiche labyrinthe classique avec comptage de collectables et corrigé', caption: 'Mode Labyrinthe Classique avec images collectables et corrigé automatique montrant le chemin solution et les totaux' },
+      { src: '/samples/french/picture path/Chemin d\'images-1.webp', alt: 'Fiche labyrinthe parcours en images avec images thématiques pour marché préscolaire et CP', caption: 'Mode Parcours en Images : les enfants suivent un chemin visuel de l\'image de départ à l\'image d\'arrivée à travers des décorations thématiques' },
+      { src: '/samples/french/picture path/Chemin d\'images-1.webp', alt: 'Fiche labyrinthe classique avec comptage de collectables et corrigé', caption: 'Mode Labyrinthe Classique avec images collectables et corrigé automatique montrant le chemin solution et les totaux' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'Comment créer des fiches labyrinthes — Tutoriel complet',

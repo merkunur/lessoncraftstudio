@@ -227,12 +227,12 @@ const content: ToolContent = {
         caption: 'Tre modalità di pratica in una scheda — Traccia, Traccia Sfumata e Copia Guidata con indipendenza per riga',
       },
       {
-        src: '/samples/italian/writing/writing beginning letter.webp',
+        src: '/samples/italian/writing/writing-beginning-letter.webp',
         alt: 'Scheda scrittura in modalità traccia con font stampatello con frecce che mostra direzioni numerate per l\'ordine dei tratti',
         caption: 'Ordine tratti guidato da frecce — frecce direzionali numerate mostrano l\'esatta sequenza di formazione delle lettere',
       },
       {
-        src: '/samples/italian/writing/writing custom.webp',
+        src: '/samples/italian/writing/writing-custom.webp',
         alt: 'Scheda scrittura in modalità traccia sfumata con lettere che sfumano progressivamente lungo ogni riga',
         caption: 'Modalità Traccia Sfumata — le lettere sfumano progressivamente per sviluppare la fiducia nella scrittura autonoma',
       },

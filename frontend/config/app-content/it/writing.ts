@@ -265,12 +265,12 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/writing/writing beginning letter.webp',
+      primary: '/samples/italian/writing/writing-beginning-letter.webp',
       primaryAlt: 'Scheda di pratica di scrittura a mano con modalità tracciamento, tracciamento progressivo e copia guidata mostrando lettere con frecce dell\'ordine dei tratti',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/writing/writing custom.webp',
+        src: '/samples/italian/writing/writing-custom.webp',
         alt: 'Scheda di scrittura in modalità tracciamento con font stampatello con frecce mostrando direzioni numerate dell\'ordine dei tratti',
         caption: 'Modalità Tracciamento con ordine dei tratti tramite frecce — frecce direzionali numerate mostrano la sequenza esatta di formazione delle lettere',
       },
@@ -280,7 +280,7 @@ const content: AppContent = {
         caption: 'Modalità Tracciamento Progressivo — le lettere sfumano progressivamente per sviluppare la sicurezza nella scrittura autonoma',
       },
       {
-        src: '/samples/italian/writing/writing beginning letter.webp',
+        src: '/samples/italian/writing/writing-beginning-letter.webp',
         alt: 'Scheda di scrittura in modalità copia guidata con stile corsivo su sistema a tre linee guida',
         caption: 'Copia Guidata Corsiva — contorni tenui in corsivo sul sistema a tre linee guida per pratica di scrittura corsiva',
       },

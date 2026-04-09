@@ -141,17 +141,17 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp',
+      src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp',
       alt: 'Yhdistämistehtävätyöarkki jossa näkyy teemojen monipuolisuus kannattavaan markkinarakotutkimukseen opetuksellisissa aiheissa',
     },
     samples: [
       {
-        src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp',
+        src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp',
         alt: 'Temaattinen yhdistämistehtävä joka havainnollistaa markkinarakojen monipuolisuutta opetuksellisissa tulostettavissa',
         caption: 'Yhdistämistehtävät kattavat kymmeniä teemoja mahdollistaen useiden markkinarakojen nopean tutkimisen ja testaamisen',
       },
       {
-        src: '/samples/finnish/wordsearch/Sanahaku%201.webp',
+        src: '/samples/finnish/wordsearch/sanahaku%201.webp',
         alt: 'Sananetsintäpulma joka näyttää aiheiden ja kielten välisen markkinarakotestipotentiaalin',
         caption: 'Sananetsinnät validoivat markkinaraon kysynnän eri aiheiden ja kielten läpi minimaalisella tuotantoajalla',
       },

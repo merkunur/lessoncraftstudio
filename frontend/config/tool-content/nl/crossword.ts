@@ -212,17 +212,17 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201.webp',
+      primary: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp',
       primaryAlt: 'Plaatjes kruiswoordpuzzel met afbeeldingsaanwijzingen naast een 15×15 kruiswoordraster met genummerde aanwijzingsposities en gelokaliseerde blauwe koptekst',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%202.webp',
+        src: '/samples/dutch/crossword/plaatjes%20kruiswoord%202.webp',
         alt: 'Plaatjes kruiswoordpuzzel met thematische afbeeldingsaanwijzingen naast een 15×15 kruiswoordraster',
         caption: 'Plaatjes kruiswoordpuzzel — afbeeldingsaanwijzingen vervangen traditionele tekstaanwijzingen op een 15×15 raster',
       },
       {
-        src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201%20answer_key.webp',
+        src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201%20answer-key.webp',
         alt: 'Kruiswoordpuzzel antwoordblad met alle correcte letters ingevuld in het 15×15 raster',
         caption: 'Automatisch gegenereerd antwoordblad — ingevuld raster toont alle correcte antwoorden voor zelfcontrole',
       },

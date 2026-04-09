@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda addizione che mostra problemi matematici basati su immagini adatti alle pagine interne di libri di attività Amazon KDP' },
+    heroImage: { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda addizione che mostra problemi matematici basati su immagini adatti alle pagine interne di libri di attività Amazon KDP' },
     samples: [
-      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda addizione a tema animali formattata per libro attività matematica KDP', caption: 'Scheda addizione con tema animali — problemi matematici basati su immagini che creano pagine coinvolgenti per libri di attività KDP' },
-      { src: '/samples/italian/subtraction/Sottrazioni Divertenti 2.webp', alt: 'Scheda sottrazione per quaderno matematica multi-operazione KDP', caption: 'Scheda sottrazione — si abbina alle pagine di addizione per creare libri di attività matematica completi su Amazon' },
-      { src: '/samples/italian/math puzzle/Rompicapi Matematici 1.webp', alt: 'Griglia puzzle matematici che aggiunge varietà ai libri di attività KDP', caption: 'Griglia puzzle matematici — aggiunge coinvolgente varietà alle pagine dei libri di attività oltre gli esercizi standard' },
+      { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda addizione a tema animali formattata per libro attività matematica KDP', caption: 'Scheda addizione con tema animali — problemi matematici basati su immagini che creano pagine coinvolgenti per libri di attività KDP' },
+      { src: '/samples/italian/subtraction/sottrazioni-divertenti-2.webp', alt: 'Scheda sottrazione per quaderno matematica multi-operazione KDP', caption: 'Scheda sottrazione — si abbina alle pagine di addizione per creare libri di attività matematica completi su Amazon' },
+      { src: '/samples/italian/math puzzle/rompicapi-matematici-1.webp', alt: 'Griglia puzzle matematici che aggiunge varietà ai libri di attività KDP', caption: 'Griglia puzzle matematici — aggiunge coinvolgente varietà alle pagine dei libri di attività oltre gli esercizi standard' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Come Creare Schede Matematiche per Libri di Attività Amazon KDP — Tutorial Passo dopo Passo',

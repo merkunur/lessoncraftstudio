@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/grid match/Puzzle a Griglia 1.webp',
+      primary: '/samples/italian/grid match/puzzle-a-griglia-1.webp',
       primaryAlt: 'Scheda di puzzle a griglia con pezzi di immagini divisi in una griglia, caselle-indizio rivelate e palette di pezzi numerati per l\'abbinamento',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/grid match/Puzzle a Griglia 2.webp',
+        src: '/samples/italian/grid match/puzzle-a-griglia-2.webp',
         alt: 'Puzzle a griglia 3×3 con una casella-indizio e otto pezzi numerati nella palette',
         caption: 'Puzzle a griglia 3×3 — una casella-indizio rivelata, otto pezzi da abbinare dalla palette numerata',
       },
       {
-        src: '/samples/italian/grid match/Puzzle a Griglia 3.webp',
+        src: '/samples/italian/grid match/puzzle-a-griglia-3.webp',
         alt: 'Puzzle a griglia 4×4 avanzato con sedici pezzi e indizi minimi',
         caption: 'Puzzle 4×4 avanzato — dimensione massima di griglia per attività stimolanti di percezione visiva',
       },
       {
-        src: '/samples/italian/grid match/Puzzle a Griglia 4.webp',
+        src: '/samples/italian/grid match/puzzle-a-griglia-4.webp',
         alt: 'Foglio risposte del puzzle a griglia mostrando l\'immagine completa con cerchi numerati sovrapposti su ogni cella',
         caption: 'Foglio risposte auto-generato — i cerchi numerati mostrano il posizionamento corretto dei pezzi nell\'immagine completa',
       },

@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/treasure%20hunt/Skattejakt%201.webp',
+      primary: '/samples/norwegian/treasure%20hunt/skattejakt%201.webp',
       primaryAlt: 'Skattejakt veifinnende arbeidsark med 5 ganger 5 koordinatrutenett, 6 spredte tematiske bilder som landemerker, retningsledetråder og skattejakt-tematisert tealoverskrift med gyllen tittel',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/treasure%20hunt/Skattejakt%201.webp',
+        src: '/samples/norwegian/treasure%20hunt/skattejakt%201.webp',
         alt: 'Skattejakt puslespill arbeidsark med retningsledetråder på et 5 ganger 5 koordinatrutenett med tematiske landemerker',
         caption: 'Retningsledetråder — sekvensielle bevegelsesinstruksjoner fører til den skjulte skatten',
       },
       {
-        src: '/samples/norwegian/treasure%20hunt/Skattejakt%202.webp',
+        src: '/samples/norwegian/treasure%20hunt/skattejakt%202.webp',
         alt: 'Skattejakt arbeidsark med kardinale retninger nord sør øst vest på 5 ganger 5 rutenett',
         caption: 'Kardinalmodus — kompassretninger for avansert romlig resonnement og kartferdigheter',
       },
       {
-        src: '/samples/norwegian/treasure%20hunt/Skattejakt%203.webp',
+        src: '/samples/norwegian/treasure%20hunt/skattejakt%203.webp',
         alt: 'Skattejakt fasit med endelig skattecelle markert i lysegul på 5 ganger 5 koordinatrutenettet',
         caption: 'Automatisk fasit — lysegul markering viser skattedestinasjonen for selvkontroll',
       },

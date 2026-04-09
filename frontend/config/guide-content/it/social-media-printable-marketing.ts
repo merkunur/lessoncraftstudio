@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/italian/bingo/tombola 1.webp',
+      src: '/samples/italian/bingo/tombola-1.webp',
       alt: 'Carta da bingo professionale che dimostra prodotti stampabili visivamente accattivanti ideali per il marketing sui social media',
     },
     samples: [
       {
-        src: '/samples/italian/bingo/tombola 1.webp',
+        src: '/samples/italian/bingo/tombola-1.webp',
         alt: 'Carta da bingo che mostra un prodotto stampabile altamente condivisibile per contenuti social media',
         caption: 'Prodotti visivamente accattivanti come le carte bingo creano contenuti social coinvolgenti che generano engagement',
       },
       {
-        src: '/samples/italian/coloring/coloring portrait 1.webp',
+        src: '/samples/italian/coloring/coloring-portrait-1.webp',
         alt: 'Pagina da colorare che dimostra un prodotto stampabile fotogenico per Instagram e Pinterest',
         caption: 'Le pagine da colorare si fotografano magnificamente per le vetrine prodotti flat lay sulle piattaforme visive',
       },
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
+        src: '/samples/italian/wordsearch/cerca-parole-1.webp',
         alt: 'Puzzle di parole intrecciate che mostra un tipo di prodotto stampabile popolare con forte appeal sui social media',
         caption: 'Le parole intrecciate attirano un ampio coinvolgimento del pubblico e performano bene sulle piattaforme social media',
       },

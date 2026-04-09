@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/grid match/Grid Match.webp',
+      primary: '/samples/english/grid match/grid-match.webp',
       primaryAlt: 'Grid match picture puzzle worksheet with image tiles divided into a grid, clue cells revealed, and numbered tile palette for matching',
     },
     sampleGallery: [
       {
-        src: '/samples/english/grid match/Grid Match (1).webp',
+        src: '/samples/english/grid match/grid-match-1.webp',
         alt: 'Three by three grid match puzzle with one clue cell and eight numbered tiles in palette',
         caption: '3×3 grid puzzle — one clue cell revealed, eight tiles to match from numbered palette',
       },
       {
-        src: '/samples/english/grid match/Grid Match (5).webp',
+        src: '/samples/english/grid match/grid-match-5.webp',
         alt: 'Four by four advanced grid match puzzle with sixteen tiles and minimal clues',
         caption: '4×4 advanced puzzle — maximum grid size for challenging visual perception activities',
       },
       {
-        src: '/samples/english/grid match/Grid Match answer_key.webp',
+        src: '/samples/english/grid match/grid-match-answer-key.webp',
         alt: 'Grid match answer key showing complete image with numbered circles overlaid on each grid cell',
         caption: 'Auto-generated answer key — numbered circles show correct tile placement on complete image',
       },

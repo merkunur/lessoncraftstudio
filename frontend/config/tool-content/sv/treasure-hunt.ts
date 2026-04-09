@@ -216,27 +216,27 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/treasure hunt/Skattjakt%201.webp',
+      primary: '/samples/swedish/treasure hunt/skattjakt%201.webp',
       primaryAlt: 'Skattjakt vägfinnande arbetsblad med 5 gånger 5 koordinatrutnät, 6 spridda tematiska bilder som landmärken, riktningsledtrådar och skattjakt-tematiserad tealrubrik med gyllene titel',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/treasure hunt/Skattjakt%202.webp',
+        src: '/samples/swedish/treasure hunt/skattjakt%202.webp',
         alt: 'Skattjakt pussel arbetsblad med riktningsledtrådar på ett 5 gånger 5 koordinatrutnät med tematiska landmärken',
         caption: 'Riktningsledtrådar — sekventiella rörelseinstruktioner leder till den gömda skatten',
       },
       {
-        src: '/samples/swedish/treasure hunt/Skattjakt%203.webp',
+        src: '/samples/swedish/treasure hunt/skattjakt%203.webp',
         alt: 'Skattjakt arbetsblad med kardinala riktningar norr söder öster väster på 5 gånger 5 rutnät',
         caption: 'Kardinalläge — kompassriktningar för avancerat rumsligt resonemang och kartfärdigheter',
       },
       {
-        src: '/samples/swedish/treasure hunt/Skattjakt%204.webp',
+        src: '/samples/swedish/treasure hunt/skattjakt%204.webp',
         alt: 'Skattjakt pussel med djurtema och spridda landmärkesbilder på koordinatrutnät',
         caption: 'Tematiskt pussel — djurbilder som landmärken gör rutnätet engagerande för unga lösare',
       },
       {
-        src: '/samples/swedish/treasure hunt/Skattjakt%201%20answer_key.webp',
+        src: '/samples/swedish/treasure hunt/skattjakt%201%20answer-key.webp',
         alt: 'Skattjakt facit med slutlig skattcell markerad i ljusgult på 5 gånger 5 koordinatrutnätet',
         caption: 'Automatiskt facit — ljusgul markering visar skattdestinationen för självkontroll',
       },

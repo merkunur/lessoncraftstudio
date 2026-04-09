@@ -194,14 +194,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp',
+      primary: '/samples/danish/missing%20pieces/manglende%20dele%201.webp',
       primaryAlt: 'Manglende brikker puslespilarbejdsark med gittersegmenter fjernet for rumlig ræsonnementudfordring',
     },
     sampleGallery: [
-      { src: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp', alt: 'Manglende Dele — dansk eksempel', caption: 'Manglende Dele' },
-      { src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp', alt: 'Find den Ulige — dansk eksempel', caption: 'Find den Ulige' },
-      { src: '/samples/danish/sudoku/Billede-Sudoku%201.webp', alt: 'Billede-Sudoku — dansk eksempel', caption: 'Billede-Sudoku' },
-      { src: '/samples/danish/picture%20path/Billedsti%201.webp', alt: 'Billedsti — dansk eksempel', caption: 'Billedsti' },
+      { src: '/samples/danish/missing%20pieces/manglende%20dele%201.webp', alt: 'Manglende Dele — dansk eksempel', caption: 'Manglende Dele' },
+      { src: '/samples/danish/odd%20one%20out/find%20den%20ulige%201.webp', alt: 'Find den Ulige — dansk eksempel', caption: 'Find den Ulige' },
+      { src: '/samples/danish/sudoku/billede-sudoku%201.webp', alt: 'Billede-Sudoku — dansk eksempel', caption: 'Billede-Sudoku' },
+      { src: '/samples/danish/picture%20path/billedsti%201.webp', alt: 'Billedsti — dansk eksempel', caption: 'Billedsti' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Puslespil & Logik-pakke — Se alle 4 generatorer i aktion',

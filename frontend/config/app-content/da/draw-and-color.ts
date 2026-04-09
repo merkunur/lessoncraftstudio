@@ -241,22 +241,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.webp',
+      primary: '/samples/danish/draw%20and%20color/tegn%20og%20farvl%c3%a6g%201.webp',
       primaryAlt: 'Tegneaktivitet opgave til print — dobbelt gittersystem med øvelsesgitter og ledetrådsgitter for trin-for-trin tegning',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%201.webp',
+        src: '/samples/danish/draw%20and%20color/tegn%20og%20farvlæg%201.webp',
         alt: 'Tegne- og farvelægningsopgave med dyretema — kreativt opgaveark med trin-for-trin tegning',
         caption: 'Dyretema tegneaktivitet — børnene tegner konturen celle-for-celle fra ledetrådsgitteret',
       },
       {
-        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%202.webp',
+        src: '/samples/danish/draw%20and%20color/tegn%20og%20farvlæg%202.webp',
         alt: 'Kunst opgaveark med horisontal symmetritilstand — kreativ tegneaktivitet til indskoling',
         caption: 'Horisontal symmetritilstand — kreativt opgaveark med spejling for rumligt ræsonnement',
       },
       {
-        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%203.webp',
+        src: '/samples/danish/draw%20and%20color/tegn%20og%20farvlæg%203.webp',
         alt: 'Tegneaktivitet med lav ledetrådsprocent — udfordrende kunst opgaveark til mellemtrin',
         caption: 'Lav ledetrådsprocent — minimale ledetråde for avanceret trin-for-trin tegning',
       },

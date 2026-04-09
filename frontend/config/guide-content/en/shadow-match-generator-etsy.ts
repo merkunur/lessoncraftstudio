@@ -177,10 +177,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Shadow matching worksheet with colorful pictures and auto-generated silhouettes' },
+    heroImage: { src: '/samples/english/shadow match/shadow-match-worksheet-1.webp', alt: 'Shadow matching worksheet with colorful pictures and auto-generated silhouettes' },
     samples: [
       { src: '/samples/english/shadow match/shadow-match-horizontal.webp', alt: 'Horizontal shadow match worksheet ready for Etsy listing', caption: 'Shadow match worksheet with horizontal layout -- pictures on left, silhouettes on right' },
-      { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Vertical shadow match layout for variety in bundles', caption: 'Vertical layout variation for visual diversity in product bundles' },
+      { src: '/samples/english/shadow match/shadow-match-worksheet-1.webp', alt: 'Vertical shadow match layout for variety in bundles', caption: 'Vertical layout variation for visual diversity in product bundles' },
     ],
   },
 

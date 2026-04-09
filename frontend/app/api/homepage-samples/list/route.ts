@@ -154,7 +154,7 @@ async function checkLanguageStatus(locale: string, language: string): Promise<La
   const appChecks = await Promise.all(
     validAppIds.map(async (appId) => {
       const [hasThumbnail, hasThumbWebp, hasPreviewWebp, hasPdf] = await Promise.all([
-        fileExists(path.join(dir, `${appId}-thumbnail.webp`)),
+        fileExists(path.join(dir, `${appId}thumbnail.webp`)),
         fileExists(path.join(dir, `${appId}-thumbnail_thumb.webp`)),
         fileExists(path.join(dir, `${appId}-thumbnail_preview.webp`)),
         fileExists(path.join(dir, `${appId}-sample.pdf`))
@@ -180,11 +180,11 @@ async function checkLanguageStatus(locale: string, language: string): Promise<La
     hasLandscape, hasLandscapeThumb, hasLandscapePreview
   ] = await Promise.all([
     fileExists(path.join(dir, 'hero-portrait.webp')),
-    fileExists(path.join(dir, 'hero-portrait_thumb.webp')),
-    fileExists(path.join(dir, 'hero-portrait_preview.webp')),
+    fileExists(path.join(dir, 'hero-portrait-thumb.webp')),
+    fileExists(path.join(dir, 'hero-portrait-preview.webp')),
     fileExists(path.join(dir, 'hero-landscape.webp')),
-    fileExists(path.join(dir, 'hero-landscape_thumb.webp')),
-    fileExists(path.join(dir, 'hero-landscape_preview.webp'))
+    fileExists(path.join(dir, 'hero-landscape-thumb.webp')),
+    fileExists(path.join(dir, 'hero-landscape-preview.webp'))
   ]);
 
   const heroComplete = hasPortrait && hasPortraitThumb && hasPortraitPreview &&
@@ -216,7 +216,7 @@ async function checkLanguageStatus(locale: string, language: string): Promise<La
     const seoRecords = await prisma.productSample.findMany({
       where: {
         locale,
-        filename: { endsWith: '-thumbnail.webp' }
+        filename: { endsWith: 'thumbnail.webp' }
       },
       select: {
         appId: true,

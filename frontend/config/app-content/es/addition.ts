@@ -255,22 +255,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/addition/Suma Divertida 1.webp',
+      primary: '/samples/spanish/addition/suma-divertida-1.webp',
       primaryAlt: 'Ficha de suma con imágenes coloridas de animales en modo Imagen + Imagen',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: '/samples/spanish/addition/suma-divertida-1.webp',
         alt: 'Ficha de suma vertical en modo Imagen + Imagen con tema de animales',
         caption: 'Modo Imagen + Imagen — los usuarios cuentan dos grupos de imágenes y escriben la suma',
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 2.webp',
+        src: '/samples/spanish/addition/suma-divertida-2.webp',
         alt: 'Ficha de suma horizontal en modo Imagen + Número con tema de comida',
         caption: 'Modo Imagen + Número — combine grupos de imágenes con números para habilidades de transición',
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 3.webp',
+        src: '/samples/spanish/addition/suma-divertida-3.webp',
         alt: 'Ficha de suma en modo Encontrar el Sumando con tema de vehículos',
         caption: 'Modo Encontrar el Sumando — los usuarios descubren el grupo que falta para álgebra temprana',
       },

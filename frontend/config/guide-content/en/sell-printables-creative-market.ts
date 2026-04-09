@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Premium coloring page designed for Creative Market listing' },
+    heroImage: { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Premium coloring page designed for Creative Market listing' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Printable coloring page bundle for Creative Market shop', caption: 'High-quality coloring pages with photographic designs command premium prices on Creative Market' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle collection for Creative Market', caption: 'Multi-language word search bundles are unique products that stand out on the platform' },
+      { src: '/samples/english/coloring/coloring-portrait-2.webp', alt: 'Printable coloring page bundle for Creative Market shop', caption: 'High-quality coloring pages with photographic designs command premium prices on Creative Market' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle collection for Creative Market', caption: 'Multi-language word search bundles are unique products that stand out on the platform' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages',

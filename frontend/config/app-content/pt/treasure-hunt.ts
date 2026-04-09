@@ -253,22 +253,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/treasure hunt/Caça ao Tesouro 1.webp',
+      primary: '/samples/portuguese/treasure hunt/caça-ao-tesouro-1.webp',
       primaryAlt: 'Atividade de caça ao tesouro com quadrícula de coordenadas 5 por 5, imagens distribuídas, pistas direcionais e cabeçalho temático de tesouro',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/treasure hunt/Caça ao Tesouro 1.webp',
+        src: '/samples/portuguese/treasure hunt/caça-ao-tesouro-1.webp',
         alt: 'Atividade de puzzle de caça ao tesouro com 6 imagens temáticas numa quadrícula 5 por 5 e pistas direcionais Básicas',
         caption: 'Modo de direção Básica — segue pistas de cima, baixo, esquerda e direita para encontrar o tesouro',
       },
       {
-        src: '/samples/portuguese/treasure hunt/Caça ao Tesouro 2.webp',
+        src: '/samples/portuguese/treasure hunt/caça-ao-tesouro-2.webp',
         alt: 'Atividade de puzzle de caça ao tesouro com pistas de direção Cardinal usando norte, sul, leste e oeste',
         caption: 'Modo de direção Cardinal — direções de bússola para raciocínio espacial avançado',
       },
       {
-        src: '/samples/portuguese/treasure hunt/Caça ao Tesouro 1 answer_key.webp',
+        src: '/samples/portuguese/treasure hunt/caça-ao-tesouro-1-answer-key.webp',
         alt: 'Gabarito de caça ao tesouro com a célula final do tesouro realçada em amarelo pálido na quadrícula de coordenadas',
         caption: 'Gabarito autogerado — o realce em amarelo pálido marca o destino do tesouro',
       },

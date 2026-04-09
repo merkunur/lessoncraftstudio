@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Caça-palavras mostrando grelha de palavras temática adequada para páginas interiores de livros de puzzles Amazon KDP' },
+    heroImage: { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Caça-palavras mostrando grelha de palavras temática adequada para páginas interiores de livros de puzzles Amazon KDP' },
     samples: [
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Caça-palavras temático formatado para livro de puzzles KDP', caption: 'Caça-palavras com tema — o tipo de puzzle mais popular para livros KDP que serve tanto o mercado de adultos como infantil' },
-      { src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp', alt: 'Palavras cruzadas com pistas temáticas para livro de puzzles KDP', caption: 'Palavras cruzadas — acrescenta valor substancial de envolvimento a livros de puzzles e coleções de variedade na Amazon' },
-      { src: '/samples/portuguese/sudoku/Sudoku de Imagens 1.webp', alt: 'Sudoku com imagens para livro de puzzles de variedade infantil na KDP', caption: 'Sudoku com imagens — puzzles de lógica visual que tornam os livros de variedade de puzzles infantis mais diversos e atrativos' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-2.webp', alt: 'Caça-palavras temático formatado para livro de puzzles KDP', caption: 'Caça-palavras com tema — o tipo de puzzle mais popular para livros KDP que serve tanto o mercado de adultos como infantil' },
+      { src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp', alt: 'Palavras cruzadas com pistas temáticas para livro de puzzles KDP', caption: 'Palavras cruzadas — acrescenta valor substancial de envolvimento a livros de puzzles e coleções de variedade na Amazon' },
+      { src: '/samples/portuguese/sudoku/sudoku-de-imagens-1.webp', alt: 'Sudoku com imagens para livro de puzzles de variedade infantil na KDP', caption: 'Sudoku com imagens — puzzles de lógica visual que tornam os livros de variedade de puzzles infantis mais diversos e atrativos' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como criar caça-palavras para livros de puzzles Amazon KDP — Tutorial passo a passo',

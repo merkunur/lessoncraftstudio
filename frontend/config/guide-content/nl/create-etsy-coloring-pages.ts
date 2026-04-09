@@ -175,11 +175,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/coloring/coloring portrait 1.webp', alt: 'Kleurplaat met thema-illustraties in zwart-wit lijntekeningen voor verkoop op Etsy' },
+    heroImage: { src: '/samples/dutch/coloring/coloring-portrait-1.webp', alt: 'Kleurplaat met thema-illustraties in zwart-wit lijntekeningen voor verkoop op Etsy' },
     samples: [
-      { src: '/samples/dutch/coloring/coloring portrait 2.webp', alt: 'Dierenthema kleurplaat gemaakt voor Etsy digitale download vermelding', caption: 'Kleurplaat met dierenthema uit de thematische beeldbibliotheek — schone zwart-wit lijntekeningen die opvallende Etsy-vermeldingsfoto\'s maken' },
-      { src: '/samples/dutch/coloring/coloring portrait 4.webp', alt: 'Natuur thema kleurplaat met gedetailleerde composities voor volwassenen- en kindermarkt', caption: 'Natuur kleurplaat — veelzijdig thema dat zowel kinderen als volwassen kleurliefhebbers op Etsy aanspreekt' },
-      { src: '/samples/dutch/coloring/coloring portrait 3.webp', alt: 'Feestdagen thema kleurplaat die seizoensproduct toont voor Etsy vraagpieken', caption: 'Feestdagen kleurplaat — seizoensthema\'s sturen grote vraagpieken op Etsy gedurende het hele jaar' },
+      { src: '/samples/dutch/coloring/coloring-portrait-2.webp', alt: 'Dierenthema kleurplaat gemaakt voor Etsy digitale download vermelding', caption: 'Kleurplaat met dierenthema uit de thematische beeldbibliotheek — schone zwart-wit lijntekeningen die opvallende Etsy-vermeldingsfoto\'s maken' },
+      { src: '/samples/dutch/coloring/coloring-portrait-4.webp', alt: 'Natuur thema kleurplaat met gedetailleerde composities voor volwassenen- en kindermarkt', caption: 'Natuur kleurplaat — veelzijdig thema dat zowel kinderen als volwassen kleurliefhebbers op Etsy aanspreekt' },
+      { src: '/samples/dutch/coloring/coloring-portrait-3.webp', alt: 'Feestdagen thema kleurplaat die seizoensproduct toont voor Etsy vraagpieken', caption: 'Feestdagen kleurplaat — seizoensthema\'s sturen grote vraagpieken op Etsy gedurende het hele jaar' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Hoe Kleurplaten Maken voor Verkoop op Etsy — Stapsgewijze Tutorial',

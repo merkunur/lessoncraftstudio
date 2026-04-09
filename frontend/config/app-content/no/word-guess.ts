@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/word%20guess/Gjett%20Ordet%201.webp',
+      primary: '/samples/norwegian/word%20guess/gjett%20ordet%201.webp',
       primaryAlt: 'Gjett ordet-arbeidsark med bildeledetråder og tomme bokstavrutenett i hangman-stil',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/word%20guess/Gjett%20Ordet%201.webp',
+        src: '/samples/norwegian/word%20guess/gjett%20ordet%201.webp',
         alt: 'Gjett ordet-arbeidsark med bildeledetråder på Lett vanskelighetsgrad med halvparten av bokstavene avslørt',
         caption: 'Lett vanskelighetsgrad — halvparten av bokstavene vises som ledetråder for begynnende lesere',
       },
       {
-        src: '/samples/norwegian/word%20guess/Gjett%20Ordet%202.webp',
+        src: '/samples/norwegian/word%20guess/gjett%20ordet%202.webp',
         alt: 'Gjett ordet-arbeidsark på Vanskelig vanskelighetsgrad med minimale ledetrådsbokstaver og dyretema',
         caption: 'Vanskelig vanskelighetsgrad — kun en sjettedel av bokstavene avslørt for avanserte stavere',
       },
       {
-        src: '/samples/norwegian/word%20guess/Gjett%20Ordet%203.webp',
+        src: '/samples/norwegian/word%20guess/gjett%20ordet%203.webp',
         alt: 'Gjett ordet-fasit med alle bokstaver fylt ut og ingen tomme celler',
         caption: 'Fasit — alle bokstaver avslørt for enkel retting og selvkontroll',
       },

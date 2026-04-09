@@ -212,22 +212,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/odd%20one%20out/Finn%20den%20Rare%201.webp',
+      primary: '/samples/norwegian/odd%20one%20out/finn%20den%20rare%201.webp',
       primaryAlt: 'Finn den ulike arbeidsark med fire bilder per øvelsesrad som viser tre vanlige objekter og ett ulikt objekt med korall-ravgul-turkis overskrift',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/odd%20one%20out/Finn%20den%20Rare%201.webp',
+        src: '/samples/norwegian/odd%20one%20out/finn%20den%20rare%201.webp',
         alt: 'Lignende modus finn den ulike arbeidsark med tre bilder fra Tema A og en tematisk avviker fra Tema B per øvelsesrad',
         caption: 'Lignende modus — tre bilder fra Tema A og ett ulikt objekt fra Tema B for kryssende temaskjelning',
       },
       {
-        src: '/samples/norwegian/odd%20one%20out/Finn%20den%20Rare%202.webp',
+        src: '/samples/norwegian/odd%20one%20out/finn%20den%20rare%202.webp',
         alt: 'Identisk modus finn den ulike arbeidsark med tre kloner av det samme bildet og ett annerledes bilde per rad',
         caption: 'Identisk modus — tre kloner av det samme bildet og ett annerledes bilde for finn-dublett utfordringer',
       },
       {
-        src: '/samples/norwegian/odd%20one%20out/Finn%20den%20Rare%203.webp',
+        src: '/samples/norwegian/odd%20one%20out/finn%20den%20rare%203.webp',
         alt: 'Finn den ulike fasit med røde sirkelkonturer tegnet rundt det ulike objektet i hver øvelsesrad med strekbredde skalert til bildestørrelse',
         caption: 'Automatisk generert fasit — røde sirkelmarkeringer (strek = max(imageSize × 0,04, 3px)) identifiserer det ulike objektet',
       },

@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsökspussel som demonstrerar flerspråkig arbetsbladsgenerering på 11 språk' },
+    heroImage: { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsökspussel som demonstrerar flerspråkig arbetsbladsgenerering på 11 språk' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsökspussel med språkkänsligt ordförråd', caption: 'Ordsökning — Bästa flerspråkiga demon' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Korsordspussel med lokaliserade ledtrådar och svar', caption: 'Korsord — Helt lokaliserade pussel' },
-      { src: '/samples/english/word scramble/word scramble portrait.webp', alt: 'Ordförvrängningsarbetsblad med språkanpassat ordförråd', caption: 'Ordförvrängning — Språkkänslig output' },
-      { src: '/samples/english/alphabet train/Alphabet Train 1.webp', alt: 'Alfabetstågsarbetsblad som visar språkspecifika bokstavsuppsättningar', caption: 'Alfabetståg — Anpassade bokstavsuppsättningar' },
+      { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsökspussel med språkkänsligt ordförråd', caption: 'Ordsökning — Bästa flerspråkiga demon' },
+      { src: '/samples/english/crossword/crossword-worksheet.webp', alt: 'Korsordspussel med lokaliserade ledtrådar och svar', caption: 'Korsord — Helt lokaliserade pussel' },
+      { src: '/samples/english/word scramble/word-scramble-portrait.webp', alt: 'Ordförvrängningsarbetsblad med språkanpassat ordförråd', caption: 'Ordförvrängning — Språkkänslig output' },
+      { src: '/samples/english/alphabet train/alphabet-train-1.webp', alt: 'Alfabetstågsarbetsblad som visar språkspecifika bokstavsuppsättningar', caption: 'Alfabetståg — Anpassade bokstavsuppsättningar' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hur du skapar ordsökspussel på flera språk — LessonCraftStudio Demo',

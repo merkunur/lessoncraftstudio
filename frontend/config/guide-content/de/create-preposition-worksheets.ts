@@ -186,11 +186,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/prepositions/prepositions_worksheet.webp', alt: 'Präpositionen-Arbeitsblatt mit Bildszenen und räumlichen Beziehungsübungen für Positionswort-Übung' },
+    heroImage: { src: '/samples/german/prepositions/prepositions-worksheet.webp', alt: 'Präpositionen-Arbeitsblatt mit Bildszenen und räumlichen Beziehungsübungen für Positionswort-Übung' },
     samples: [
-      { src: '/samples/german/prepositions/prepositions_worksheet.webp', alt: 'Präpositionen-Arbeitsblatt mit Lückentext-Übungen und farbenfrohen Bildszenen, die räumliche Beziehungen zeigen', caption: 'Lückentext-Präpositionsübungen mit Bildszenen' },
-      { src: '/samples/german/prepositions/prepositions_answer_key.webp', alt: 'Präpositionen-Arbeitsblatt mit Multiple-Choice räumlichen Beziehungsübungen für angeleitetes Üben', caption: 'Multiple-Choice-Modus für angeleitetes anfängerfreundliches Üben' },
-      { src: '/samples/german/prepositions/prepositions_worksheet.webp', alt: 'Fortgeschrittenes Präpositionen-Arbeitsblatt mit Formaustausch für einzigartige Szenenkombinationen', caption: 'Formaustausch vervielfacht visuelle Kombinationen für Produktvielfalt' },
+      { src: '/samples/german/prepositions/prepositions-worksheet.webp', alt: 'Präpositionen-Arbeitsblatt mit Lückentext-Übungen und farbenfrohen Bildszenen, die räumliche Beziehungen zeigen', caption: 'Lückentext-Präpositionsübungen mit Bildszenen' },
+      { src: '/samples/german/prepositions/prepositions-answer-key.webp', alt: 'Präpositionen-Arbeitsblatt mit Multiple-Choice räumlichen Beziehungsübungen für angeleitetes Üben', caption: 'Multiple-Choice-Modus für angeleitetes anfängerfreundliches Üben' },
+      { src: '/samples/german/prepositions/prepositions-worksheet.webp', alt: 'Fortgeschrittenes Präpositionen-Arbeitsblatt mit Formaustausch für einzigartige Szenenkombinationen', caption: 'Formaustausch vervielfacht visuelle Kombinationen für Produktvielfalt' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Präpositionen-Arbeitsblätter erstellen — Komplettes Tutorial',

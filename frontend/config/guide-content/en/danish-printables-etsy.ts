@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Danish word search puzzle generated with LessonCraftStudio showing Danish vocabulary with special characters' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Danish word search puzzle generated with LessonCraftStudio showing Danish vocabulary with special characters' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Danish word search worksheet ready for Etsy listing', caption: 'A themed Danish word search puzzle with native vocabulary and automatic answer key' },
-      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Danish crossword puzzle with image clues', caption: 'Danish crossword puzzle using image-based clues for visual clarity' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Danish word search worksheet ready for Etsy listing', caption: 'A themed Danish word search puzzle with native vocabulary and automatic answer key' },
+      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Danish crossword puzzle with image clues', caption: 'Danish crossword puzzle using image-based clues for visual clarity' },
     ],
   },
 

@@ -193,12 +193,12 @@ const content: GuideContent = {
         caption: 'Schrijfwerkbladen bevatten substantieel originele creatieve expressie in hun instructietekst en ontwerp',
       },
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-1.webp',
         alt: 'Woordzoekpuzzel met thematische beelden die creatieve rangschikking van educatieve inhoud demonstreert',
         caption: 'Woordzoekpuzzels demonstreren beschermbare creatieve rangschikking van woordenschatelementen',
       },
       {
-        src: '/samples/dutch/coloring/coloring portrait 1.webp',
+        src: '/samples/dutch/coloring/coloring-portrait-1.webp',
         alt: 'Kleurplaat met origineel thematisch illustratieontwerp',
         caption: 'Kleurplaten hebben sterke auteursrechtposities vanwege de visuele originaliteit van hun ontwerpen',
       },

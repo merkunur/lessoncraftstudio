@@ -213,17 +213,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp',
+      primary: '/samples/danish/big%20small/stort%20eller%20lille%201.webp',
       primaryAlt: 'Malebillede arbejdsark med sort-hvid kontur klar til farvelægning',
     },
     sampleGallery: [
-      { src: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp', alt: 'Stort eller Lille — dansk eksempel', caption: 'Stort eller Lille' },
-      { src: '/samples/danish/pattern%20train/M%C3%B8nstertoget%201.webp', alt: 'Mønstertoget — dansk eksempel', caption: 'Mønstertoget' },
-      { src: '/samples/danish/pattern%20worksheet/M%C3%B8nsterg%C3%A5der%201.webp', alt: 'Mønstergåder — dansk eksempel', caption: 'Mønstergåder' },
-      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.webp', alt: 'Tegn og Farvlæg — dansk eksempel', caption: 'Tegn og Farvlæg' },
-      { src: '/samples/danish/drawing%20lines/Linjetegnings%C3%B8velse%201.webp', alt: 'Linjetegningsøvelse — dansk eksempel', caption: 'Linjetegningsøvelse' },
+      { src: '/samples/danish/big%20small/stort%20eller%20lille%201.webp', alt: 'Stort eller Lille — dansk eksempel', caption: 'Stort eller Lille' },
+      { src: '/samples/danish/pattern%20train/m%c3%b8nstertoget%201.webp', alt: 'Mønstertoget — dansk eksempel', caption: 'Mønstertoget' },
+      { src: '/samples/danish/pattern%20worksheet/m%c3%b8nsterg%c3%a5der%201.webp', alt: 'Mønstergåder — dansk eksempel', caption: 'Mønstergåder' },
+      { src: '/samples/danish/draw%20and%20color/tegn%20og%20farvl%c3%a6g%201.webp', alt: 'Tegn og Farvlæg — dansk eksempel', caption: 'Tegn og Farvlæg' },
+      { src: '/samples/danish/drawing%20lines/linjetegnings%c3%b8velse%201.webp', alt: 'Linjetegningsøvelse — dansk eksempel', caption: 'Linjetegningsøvelse' },
       { src: '/samples/danish/coloring/coloring%20portrait%201.webp', alt: 'Farvelægningsside — dansk eksempel', caption: 'Farvelægningsside' },
-      { src: '/samples/danish/chart%20count/Billediagram%201.webp', alt: 'Billediagram — dansk eksempel', caption: 'Billediagram' },
+      { src: '/samples/danish/chart%20count/billediagram%201.webp', alt: 'Billediagram — dansk eksempel', caption: 'Billediagram' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Visuel Indlæring-pakke — Se alle 7 generatorer i aktion',

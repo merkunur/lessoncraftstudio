@@ -215,22 +215,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/subtraction/Moro%20med%20Subtraksjon%201.webp',
+      primary: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%201.webp',
       primaryAlt: 'Subtraksjons arbeidsark med overstrykning bilder som viser visuelle fjerne-matematikkovelser',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/subtraction/Moro%20med%20Subtraksjon%201.webp',
+        src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%201.webp',
         alt: 'Overstrykning subtraksjons arbeidsark med dyretema som viser overstrekede bilder',
         caption: 'Overstrykning-modus med dyretema',
       },
       {
-        src: '/samples/norwegian/subtraction/Moro%20med%20Subtraksjon%202.webp',
+        src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%202.webp',
         alt: 'Subtraksjons arbeidsark med Bilde minus Tall-modus og tematiske bilder',
         caption: 'Bilde − Tall-modus med tematiske bilder',
       },
       {
-        src: '/samples/norwegian/subtraction/Moro%20med%20Subtraksjon%203.webp',
+        src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%203.webp',
         alt: 'Finn Subtrahenden arbeidsark med dekorativ ramme',
         caption: 'Finn Subtrahenden-modus med dekorativ ramme',
       },

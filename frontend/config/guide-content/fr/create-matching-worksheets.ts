@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'association avec images thématiques montrant des paires à relier pour la marché préscolaire' },
+    heroImage: { src: '/samples/french/matching/trouve-les-paires-1.webp', alt: 'Fiche d\'association avec images thématiques montrant des paires à relier pour la marché préscolaire' },
     samples: [
-      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'association trace une ligne avec thème animaux pour la marché préscolaire', caption: 'Fiche d\'association pour la marché préscolaire utilisant le thème animaux avec le mode Association de lettres et 5 paires' },
-      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Corrigé de fiche d\'association montrant les lignes de liaison entre les paires correctes', caption: 'Corrigé automatique avec lignes de liaison horizontales entre les paires associées' },
+      { src: '/samples/french/matching/trouve-les-paires-1.webp', alt: 'Fiche d\'association trace une ligne avec thème animaux pour la marché préscolaire', caption: 'Fiche d\'association pour la marché préscolaire utilisant le thème animaux avec le mode Association de lettres et 5 paires' },
+      { src: '/samples/french/matching/trouve-les-paires-1.webp', alt: 'Corrigé de fiche d\'association montrant les lignes de liaison entre les paires correctes', caption: 'Corrigé automatique avec lignes de liaison horizontales entre les paires associées' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Comment créer des fiches d\'association pour la marché préscolaire — Tutoriel complet',

@@ -206,22 +206,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/more%20less/Enemm%C3%A4n%20V%C3%A4hemm%C3%A4n%201.webp',
+      primary: '/samples/finnish/more%20less/enemm%c3%a4n%20v%c3%a4hemm%c3%a4n%201.webp',
       primaryAlt: 'Enemmän vai vähemmän -tehtäväarkki kuvavertailuryhmillä, joka näyttää suurempi kuin ja pienempi kuin -harjoituksia',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/more%20less/Enemm%C3%A4n%20V%C3%A4hemm%C3%A4n%201.webp',
+        src: '/samples/finnish/more%20less/enemm%c3%a4n%20v%c3%a4hemm%c3%a4n%201.webp',
         alt: 'Kuva vs. Kuva -vertailutehtäväarkki eläinteemalla, jossa kaksi kuvaryhmää rinnakkain',
         caption: 'Kuva vs. Kuva -tila eläinteemalla',
       },
       {
-        src: '/samples/finnish/more%20less/Enemm%C3%A4n%20V%C3%A4hemm%C3%A4n%202.webp',
+        src: '/samples/finnish/more%20less/enemm%c3%a4n%20v%c3%a4hemm%c3%a4n%202.webp',
         alt: 'Kuva vs. Numero -vertailutehtäväarkki, joka yhdistää visuaalisen laskemisen kirjoitettuihin lukuihin',
         caption: 'Kuva vs. Numero -tila — yhdistää kuvat ja numerot',
       },
       {
-        src: '/samples/finnish/more%20less/Enemm%C3%A4n%20V%C3%A4hemm%C3%A4n%203.webp',
+        src: '/samples/finnish/more%20less/enemm%c3%a4n%20v%c3%a4hemm%c3%a4n%203.webp',
         alt: 'Tarkista ja Rastita Ryhmät -tehtäväarkki sekoitetuilla kuvilla lajittelua ja vertailua varten',
         caption: 'Tarkista ja Rastita Ryhmät — ainutlaatuinen lajittelu- ja vertailutila',
       },

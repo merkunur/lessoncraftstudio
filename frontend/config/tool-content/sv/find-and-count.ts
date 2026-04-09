@@ -225,12 +225,12 @@ const content: ToolContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/find%20and%20count/worksheet%20(1).webp',
+        src: '/samples/swedish/find%20and%20count/worksheet%20-1.webp',
         alt: 'Sökarbetsblad i liggande läge med bredare rutnätslayout och spridda tematiska bilder bland distraktorobjekt',
         caption: 'Dolda Objekt-läge — klassisk sökning med ringa in, ruta, stryk över och räkna-uppgifter på ett spritt bildrutnät',
       },
       {
-        src: '/samples/swedish/find%20and%20count/answer_key.webp',
+        src: '/samples/swedish/find%20and%20count/answer-key.webp',
         alt: 'Hitta och räkna facit med röda cirkel-, rut- och korsannoteringer över korrekta målobjekt och kvantitetsvisningar',
         caption: 'Automatiskt genererat facit — röda annoteringer markerar cirklar, rutor, kors och räknesummor för varje målobjekt',
       },

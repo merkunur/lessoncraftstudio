@@ -222,12 +222,12 @@ const content: ToolContent = {
         caption: 'Durchstreich-Modus mit Tierthema',
       },
       {
-        src: '/samples/german/subtraction/worksheet (1).webp',
+        src: '/samples/german/subtraction/worksheet-1.webp',
         alt: 'Subtraktions-Arbeitsblatt im Bild − Zahl-Modus mit Essensbildern',
         caption: 'Bild − Zahl-Modus mit Essensthema',
       },
       {
-        src: '/samples/german/subtraction/worksheet (2).webp',
+        src: '/samples/german/subtraction/worksheet-2.webp',
         alt: 'Subtrahend-finden-Arbeitsblatt mit Fahrzeugbildern und dekorativem Rahmen',
         caption: 'Subtrahend-finden-Modus mit Fahrzeugen und Rahmen',
       },

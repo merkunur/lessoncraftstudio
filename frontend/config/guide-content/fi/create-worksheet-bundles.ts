@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Matemaattinen työarkkituote valmiina paketoitavaksi korkea-arvoiseen työarkkikoelmaan' },
+    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Matemaattinen työarkkituote valmiina paketoitavaksi korkea-arvoiseen työarkkikoelmaan' },
     samples: [
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki matemaattisen työarkkipaketin luomiseen', caption: 'Matemaattiset työarkit ovat suosituimpia tuotteita pakettien luomiseen' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sanakäärmepalapeli temaattiseen työarkkipakettiin', caption: 'Sanakäärmeet lisäävät vaihtelua temaattisiin paketteihin' },
-      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Yhdistämistyöarkki tulostettavaan pakettikoelmaan', caption: 'Yhdistämistehtävät täydentävät muita työarkkityyppejä paketeissa' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki matemaattisen työarkkipaketin luomiseen', caption: 'Matemaattiset työarkit ovat suosituimpia tuotteita pakettien luomiseen' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sanakäärmepalapeli temaattiseen työarkkipakettiin', caption: 'Sanakäärmeet lisäävät vaihtelua temaattisiin paketteihin' },
+      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistämistyöarkki tulostettavaan pakettikoelmaan', caption: 'Yhdistämistehtävät täydentävät muita työarkkityyppejä paketeissa' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Näin luot yhteenlaskutyöarkkeja korkea-arvoisten koelmien paketointiin',

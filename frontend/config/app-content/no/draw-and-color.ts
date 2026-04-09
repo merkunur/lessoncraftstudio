@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/draw%20and%20color/Tegn%20og%20Fargelegg%201.webp',
+      primary: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%201.webp',
       primaryAlt: 'Rutenetttegningsarbeidsark med dobbelt rutenettsystem som viser ovelsesrutenett og ledetrådsrutenett med svart-hvitt konturtema',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/draw%20and%20color/Tegn%20og%20Fargelegg%201.webp',
+        src: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%201.webp',
         alt: 'Rutenetttegningsarbeidsark med dyr svart-hvitt konturtema som viser ovelsesrutenett og ledetrådsrutenett',
         caption: 'Dyretema — brukerne reproduserer konturen celle-for-celle fra ledetrådsrutenettets ledetråder',
       },
       {
-        src: '/samples/norwegian/draw%20and%20color/Tegn%20og%20Fargelegg%202.webp',
+        src: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%202.webp',
         alt: 'Rutenetttegningsarbeidsark med horisontalt symmetrispeilmodus og ledetrådsceller speilet venstre-til-hoyre',
         caption: 'Horisontal symmetrimodus — ledetrådsceller speiles venstre-til-hoyre for romlig resonnement',
       },
       {
-        src: '/samples/norwegian/draw%20and%20color/Tegn%20og%20Fargelegg%203.webp',
+        src: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%203.webp',
         alt: 'Rutenetttegningsarbeidsark med lav ledetrådsprosent som viser minimale referanseceller for ekspertutfordring',
         caption: 'Lav ledetrådsprosent — minimale referanseceller for ekspertnivå rutenettreproduksjon',
       },

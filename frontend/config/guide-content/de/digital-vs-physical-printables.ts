@@ -173,22 +173,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/addition/Additionsspa 1.webp',
+      src: '/samples/german/addition/additionsspa-1.webp',
       alt: 'Professionelles Additions-Arbeitsblatt, das die Erstellung digitaler Druckprodukte für sowohl digitale Downloads als auch physische Druckformate demonstriert',
     },
     samples: [
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: '/samples/german/addition/additionsspa-1.webp',
         alt: 'Additions-Arbeitsblatt als digitales Druckprodukt für Download und physischen Druck geeignet',
         caption: 'Mathe-Arbeitsblätter funktionieren gut als digitale Downloads und als Seiten in gedruckten Arbeitsbüchern',
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: '/samples/german/coloring/coloring-portrait-1.webp',
         alt: 'Ausmalbild als Produkttyp beliebt in digitalen und physischen Formaten',
         caption: 'Ausmalbilder sind Verkaufsschlager in digitalen Download- und Print-on-Demand-Buchformaten',
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wörtersuche-Rätsel als Produkt ideal für hybrides digitales und physisches Verkaufsmodell',
         caption: 'Wörtersuchen verkaufen sich einzeln als digitale Downloads und zusammengestellt in physischen Rätselbüchern',
       },

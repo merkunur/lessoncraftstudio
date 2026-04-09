@@ -225,12 +225,12 @@ const content: ToolContent = {
         caption: 'Tres modos de práctica en una ficha — Trazar, Trazo Progresivo y Copia Guiada con independencia por fila',
       },
       {
-        src: '/samples/spanish/writing/writing beginning letter.webp',
+        src: '/samples/spanish/writing/writing-beginning-letter.webp',
         alt: 'Ficha de escritura en modo trazar con fuente imprenta con flechas mostrando direcciones numeradas del orden de trazos',
         caption: 'Orden de trazos guiado con flechas — flechas direccionales numeradas muestran la secuencia exacta de formación de cada letra',
       },
       {
-        src: '/samples/spanish/writing/writing custom.webp',
+        src: '/samples/spanish/writing/writing-custom.webp',
         alt: 'Ficha de escritura en modo trazo progresivo con letras que se desvanecen gradualmente a lo largo de cada fila',
         caption: 'Modo Trazo Progresivo — las letras se desvanecen gradualmente para desarrollar la confianza en la escritura independiente',
       },

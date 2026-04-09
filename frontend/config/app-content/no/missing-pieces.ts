@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/missing%20pieces/Manglende%20Deler%201.webp',
+      primary: '/samples/norwegian/missing%20pieces/manglende%20deler%201.webp',
       primaryAlt: 'Manglende biter puslespillarbeidsark med hull klippet ut av et bilde og nummererte losningsalternativer inkl. distraktorer',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/missing%20pieces/Manglende%20Deler%201.webp',
+        src: '/samples/norwegian/missing%20pieces/manglende%20deler%201.webp',
         alt: 'Manglende biter-puslespill med firkantede hull klippet ut av en fargerik illustrasjon',
         caption: 'Firkantede biter — rene geometriske utklipp for tydelig visuell identifikasjon',
       },
       {
-        src: '/samples/norwegian/missing%20pieces/Manglende%20Deler%202.webp',
+        src: '/samples/norwegian/missing%20pieces/manglende%20deler%202.webp',
         alt: 'Manglende biter-puslespill med sirkulaere hull og nummererte losningsalternativer',
         caption: 'Sirkulaere biter — avrundede utklipp med distraktoralternativer for okt utfordring',
       },
       {
-        src: '/samples/norwegian/missing%20pieces/Manglende%20Deler%203.webp',
+        src: '/samples/norwegian/missing%20pieces/manglende%20deler%203.webp',
         alt: 'Manglende biter puslespill fasit med gulmarkerte numre inne i hvert hull',
         caption: 'Automatisk generert fasit — gule etiketter viser korrekt alternativ for hvert hull',
       },

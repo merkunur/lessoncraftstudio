@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt mit thematischen Bildern im Linie-ziehen-Format für die Vorschule' },
+    heroImage: { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Zuordnungs-Arbeitsblatt mit thematischen Bildern im Linie-ziehen-Format für die Vorschule' },
     samples: [
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Linie-ziehen-Zuordnungs-Arbeitsblatt mit Tierthema für die Vorschule', caption: 'Vorschul-Zuordnungs-Arbeitsblatt mit dem Tierthema im Buchstaben-Zuordnungsmodus mit 5 Paaren' },
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Lösungsschlüssel für Zuordnungs-Arbeitsblatt mit Verbindungslinien zwischen korrekten Paaren', caption: 'Automatischer Lösungsschlüssel mit horizontalen Verbindungslinien zwischen zugeordneten Paaren' },
+      { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Linie-ziehen-Zuordnungs-Arbeitsblatt mit Tierthema für die Vorschule', caption: 'Vorschul-Zuordnungs-Arbeitsblatt mit dem Tierthema im Buchstaben-Zuordnungsmodus mit 5 Paaren' },
+      { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Lösungsschlüssel für Zuordnungs-Arbeitsblatt mit Verbindungslinien zwischen korrekten Paaren', caption: 'Automatischer Lösungsschlüssel mit horizontalen Verbindungslinien zwischen zugeordneten Paaren' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'So erstellen Sie Zuordnungs-Arbeitsblätter — Komplettes Tutorial',

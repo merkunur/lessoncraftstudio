@@ -202,11 +202,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras mostrando cuadrícula de palabras temática adecuada para páginas interiores de libros de puzles Amazon KDP' },
+    heroImage: { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras mostrando cuadrícula de palabras temática adecuada para páginas interiores de libros de puzles Amazon KDP' },
     samples: [
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras temática de animales formateada para libro de puzles KDP', caption: 'Sopa de letras con tema de animales — el tipo de puzle más popular para libros KDP que sirve tanto al mercado de adultos como infantil' },
-      { src: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp', alt: 'Crucigrama con pistas temáticas para libro de puzles KDP', caption: 'Crucigrama — añada valor de compromiso sustancial a libros de puzles y colecciones de variedad en Amazon' },
-      { src: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp', alt: 'Sudoku con imágenes para libro de puzles de variedad infantil en KDP', caption: 'Sudoku con imágenes — puzles de lógica visual que hacen los libros de variedad de puzles infantiles más diversos y atractivos' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras temática de animales formateada para libro de puzles KDP', caption: 'Sopa de letras con tema de animales — el tipo de puzle más popular para libros KDP que sirve tanto al mercado de adultos como infantil' },
+      { src: '/samples/spanish/crossword/crucigrama-con-dibujos-1.webp', alt: 'Crucigrama con pistas temáticas para libro de puzles KDP', caption: 'Crucigrama — añada valor de compromiso sustancial a libros de puzles y colecciones de variedad en Amazon' },
+      { src: '/samples/spanish/sudoku/sudoku-de-imágenes-1.webp', alt: 'Sudoku con imágenes para libro de puzles de variedad infantil en KDP', caption: 'Sudoku con imágenes — puzles de lógica visual que hacen los libros de variedad de puzles infantiles más diversos y atractivos' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Cómo crear sopas de letras para libros de puzles Amazon KDP — Tutorial paso a paso',

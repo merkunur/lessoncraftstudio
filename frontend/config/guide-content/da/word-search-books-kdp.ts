@@ -187,11 +187,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser tematisk ordgitter egnet til Amazon KDP ordsøgningsbog interiørsider' },
+    heroImage: { src: '/samples/danish/wordsearch/ords%c3%b8gning%201.webp', alt: 'Ordsøgningspuslespil-arbejdsark der viser tematisk ordgitter egnet til Amazon KDP ordsøgningsbog interiørsider' },
     samples: [
-      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp', alt: 'Ordsøgning — dansk eksempelarbejdsark', caption: 'Ordsøgning eksempel 1' },
-      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%202.webp', alt: 'Ordsøgning — dansk eksempel 2', caption: 'Ordsøgning eksempel 2' },
-      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%203.webp', alt: 'Ordsøgning — dansk eksempel 3', caption: 'Ordsøgning eksempel 3' },
+      { src: '/samples/danish/wordsearch/ords%c3%b8gning%201.webp', alt: 'Ordsøgning — dansk eksempelarbejdsark', caption: 'Ordsøgning eksempel 1' },
+      { src: '/samples/danish/wordsearch/ords%c3%b8gning%202.webp', alt: 'Ordsøgning — dansk eksempel 2', caption: 'Ordsøgning eksempel 2' },
+      { src: '/samples/danish/wordsearch/ords%c3%b8gning%203.webp', alt: 'Ordsøgning — dansk eksempel 3', caption: 'Ordsøgning eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan generator du ordsøgningspuslespil til Amazon KDP-bøger — Trin-for-trin vejledning',

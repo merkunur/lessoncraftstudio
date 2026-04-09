@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras con pistas de imágenes temáticas mostrando palabras de vocabulario ocultas en una cuadrícula de letras' },
+    heroImage: { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras con pistas de imágenes temáticas mostrando palabras de vocabulario ocultas en una cuadrícula de letras' },
     samples: [
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras con pistas de imágenes de tema de animales para niños', caption: 'Sopa de letras temática usando el Modo vocabulario con pistas de imágenes de animales y tamaño de cuadrícula configurable' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Clave de respuestas de sopa de letras con resaltado de palabras codificado por colores', caption: 'Clave de respuestas codificada por colores donde cada palabra oculta se resalta en un color distinto para facilitar la valor percibido' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras con pistas de imágenes de tema de animales para niños', caption: 'Sopa de letras temática usando el Modo vocabulario con pistas de imágenes de animales y tamaño de cuadrícula configurable' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Clave de respuestas de sopa de letras con resaltado de palabras codificado por colores', caption: 'Clave de respuestas codificada por colores donde cada palabra oculta se resalta en un color distinto para facilitar la valor percibido' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Cómo crear sopas de letras — Tutorial completo',

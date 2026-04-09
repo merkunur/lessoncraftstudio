@@ -190,11 +190,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Druckbare Malvorlage zum Verkauf von Lernressourcen auf dem Creative Fabrica-Marktplatz' },
+    heroImage: { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Druckbare Malvorlage zum Verkauf von Lernressourcen auf dem Creative Fabrica-Marktplatz' },
     samples: [
-      { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Druckbare Malvorlage für den Creative Fabrica-Bildungsmarkt-Bereich', caption: 'Malvorlagen überbrücken die Lücke zwischen Craft und Bildung auf Creative Fabrica — sie sprechen sowohl Designer- als auch Käuferpublikum an' },
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt-Aktivität für Creative Fabrica-Bildungsprodukte', caption: 'Thematische Zuordnungsaktivitäten sind stark nachgefragte Ressourcen im Creative Fabrica-Bildungsmarkt-Bereich' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel-Druckvorlage für den Creative Fabrica-Marktplatz', caption: 'Wortsuchrätsel ziehen Abo-Downloads von Käufer und Eltern auf Creative Fabrica an' },
+      { src: '/samples/german/coloring/coloring-portrait-2.webp', alt: 'Druckbare Malvorlage für den Creative Fabrica-Bildungsmarkt-Bereich', caption: 'Malvorlagen überbrücken die Lücke zwischen Craft und Bildung auf Creative Fabrica — sie sprechen sowohl Designer- als auch Käuferpublikum an' },
+      { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Zuordnungs-Arbeitsblatt-Aktivität für Creative Fabrica-Bildungsprodukte', caption: 'Thematische Zuordnungsaktivitäten sind stark nachgefragte Ressourcen im Creative Fabrica-Bildungsmarkt-Bereich' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Rätsel-Druckvorlage für den Creative Fabrica-Marktplatz', caption: 'Wortsuchrätsel ziehen Abo-Downloads von Käufer und Eltern auf Creative Fabrica an' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'So erstellen Sie Lern-Arbeitsblätter für Creative Fabrica',

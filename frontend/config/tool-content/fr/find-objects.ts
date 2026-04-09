@@ -227,22 +227,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/find objects/Trouve l\'Intrus 1.webp',
+      primary: '/samples/french/find objects/Trouve l\'intrus-1.webp',
       primaryAlt: 'Fiche objets cachés Je Vois Je Vois avec images dispersées par algorithme sans chevauchement montrant légende en bas avec objets à trouver et en-tête décoratif Fredoka',
     },
     sampleGallery: [
       {
-        src: '/samples/french/find objects/Trouve l\'Intrus 1.webp',
+        src: '/samples/french/find objects/Trouve l\'intrus-1.webp',
         alt: 'Scène Je Vois Je Vois avec images dispersées et légende montrant les objets cibles en bas de la fiche',
         caption: 'Mode Je Vois Je Vois — scène d\'objets cachés en placement libre avec légende et algorithme sans chevauchement',
       },
       {
-        src: '/samples/french/find objects/Trouve l\'Intrus 2.webp',
+        src: '/samples/french/find objects/Trouve l\'intrus-2-v9.webp',
         alt: 'Fiche Trouve l\'Intrus avec images appariées en rangées et éléments non appariés à identifier rendus 50 pour cent plus grands',
         caption: 'Mode Trouve l\'Intrus — images appariées avec éléments non appariés pour activités de discrimination visuelle',
       },
       {
-        src: '/samples/french/find objects/Trouve l\'Intrus 1 answer_key.webp',
+        src: '/samples/french/find objects/Trouve l\'intrus-1-answer-key-v8.webp',
         alt: 'Corrigé de fiche objets cachés avec cercles rouges dessinés autour des objets cibles dimensionnés 3 à 5 pixels plus grands que chaque objet',
         caption: 'Corrigé auto-généré — annotations en cercles rouges marquant les objets cachés et non appariés pour auto-correction',
       },

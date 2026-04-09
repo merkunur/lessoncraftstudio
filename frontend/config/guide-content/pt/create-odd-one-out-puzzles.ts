@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/odd one out/Encontra o Diferente 1.webp', alt: 'Atividade de intruso com quatro imagens por fila de exercício mostrando três elementos comuns e um elemento intruso com cabeçalho coral-âmbar-turquesa' },
+    heroImage: { src: '/samples/portuguese/odd one out/encontra-o-diferente-1-v1.webp', alt: 'Atividade de intruso com quatro imagens por fila de exercício mostrando três elementos comuns e um elemento intruso com cabeçalho coral-âmbar-turquesa' },
     samples: [
-      { src: '/samples/portuguese/odd one out/Encontra o Diferente 2.webp', alt: 'Atividade de intruso mostrando cartões de exercício com quatro imagens por fila e cabeçalho estilizado Encontra o intruso', caption: 'Atividade de intruso com filas de quatro imagens por exercício e esquema de colunas adaptativo' },
-      { src: '/samples/portuguese/odd one out/Encontra o Diferente 3.webp', alt: 'Chave de respostas autogerada com contornos de círculo vermelho desenhados à volta do elemento intruso em cada fila de exercício', caption: 'Chave de respostas autogerada com marcadores de círculo vermelho identificando o elemento intruso em cada fila' },
+      { src: '/samples/portuguese/odd one out/encontra-o-diferente-2-v2.webp', alt: 'Atividade de intruso mostrando cartões de exercício com quatro imagens por fila e cabeçalho estilizado Encontra o intruso', caption: 'Atividade de intruso com filas de quatro imagens por exercício e esquema de colunas adaptativo' },
+      { src: '/samples/portuguese/odd one out/encontra-o-diferente-3-v3.webp', alt: 'Chave de respostas autogerada com contornos de círculo vermelho desenhados à volta do elemento intruso em cada fila de exercício', caption: 'Chave de respostas autogerada com marcadores de círculo vermelho identificando o elemento intruso em cada fila' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Como criar atividades de intruso — Tutorial completo',

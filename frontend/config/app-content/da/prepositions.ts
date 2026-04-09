@@ -240,22 +240,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/prepositions/Pr%C3%A6positioner%201.webp',
+      primary: '/samples/danish/prepositions/pr%c3%a6positioner%201.webp',
       primaryAlt: 'Rumlig orientering opgave til print med forholdsord — over, under, ved siden af — og temabilleder med geometriske former',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/prepositions/Præpositioner%201.webp',
+        src: '/samples/danish/prepositions/præpositioner%201.webp',
         alt: 'Udfyldningsøvelse om forholdsord og rumlig orientering med dyretema og geometriske former',
         caption: 'Udfyldningsøvelse — børn skriver det korrekte forholdsord (over, under, ved siden af)',
       },
       {
-        src: '/samples/danish/prepositions/Præpositioner%202.webp',
+        src: '/samples/danish/prepositions/præpositioner%202.webp',
         alt: 'Flervalgsspørgsmål om retningsbegreber med køretøjstema og rumlige beskrivelser',
         caption: 'Flervalgsspørgsmål — børn identificerer billedet, der matcher den rumlige orientering',
       },
       {
-        src: '/samples/danish/prepositions/Præpositioner%203.webp',
+        src: '/samples/danish/prepositions/præpositioner%203.webp',
         alt: 'Opgave om rumlig orientering med alle otte forholdsord og automatisk facit',
         caption: 'Komplet opgaveark med 8 forholdsord — omfattende øvelse i rumlig orientering',
       },

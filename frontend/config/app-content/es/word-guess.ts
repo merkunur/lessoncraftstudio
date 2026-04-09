@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/word guess/Adivina la Palabra 1.webp',
+      primary: '/samples/spanish/word guess/adivina-la-palabra-1.webp',
       primaryAlt: 'Ficha de adivinar palabras con pistas de imagen y cuadrículas de letras vacías mostrando puzzles de vocabulario estilo ahorcado',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/word guess/Adivina la Palabra 1.webp',
+        src: '/samples/spanish/word guess/adivina-la-palabra-1.webp',
         alt: 'Ficha de adivinar palabras en dificultad Fácil mostrando la mitad de las letras reveladas',
         caption: 'Dificultad Fácil — la mitad de las letras pre-reveladas como pistas para lectores principiantes',
       },
       {
-        src: '/samples/spanish/word guess/Adivina la Palabra 2.webp',
+        src: '/samples/spanish/word guess/adivina-la-palabra-2.webp',
         alt: 'Ficha de adivinar palabras en dificultad Difícil con mínimas letras-pista y tema de animales',
         caption: 'Dificultad Difícil — solo un sexto de las letras reveladas para usuarios avanzados en ortografía',
       },
       {
-        src: '/samples/spanish/word guess/Adivina la Palabra 1 answer-key.webp',
+        src: '/samples/spanish/word guess/adivina-la-palabra-1-answer-key.webp',
         alt: 'Clave de respuesta de adivinar palabras con todas las letras rellenas y ninguna casilla vacía',
         caption: 'Clave de respuesta — todas las letras reveladas para corrección y auto-verificación fáciles',
       },

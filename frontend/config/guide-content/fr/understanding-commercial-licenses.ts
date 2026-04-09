@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/wordsearch/Mots Caches 1.webp',
+      src: '/samples/french/wordsearch/mots-caches-1.webp',
       alt: 'Fiche de mots cachés professionnelle démontrant une production d\'imprimables sous licence commerciale',
     },
     samples: [
       {
-        src: '/samples/french/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/mots-caches-1.webp',
         alt: 'Mots cachés créés avec une licence commerciale pour la vente multi-plateforme',
         caption: 'Les mots cachés créés sous licence commerciale peuvent être vendus sur n\'importe quelle plateforme',
       },
       {
-        src: '/samples/french/addition/Addition Amusant 1.webp',
+        src: '/samples/french/addition/addition-amusant-1.webp',
         alt: 'Fiche d\'addition générée avec une licence commerciale libre de droits',
         caption: 'Une licence commerciale couvre la génération illimitée de fiches d\'addition sans frais par produit',
       },
       {
-        src: '/samples/french/coloring/coloring portrait 1.webp',
+        src: '/samples/french/coloring/coloring-portrait-1.webp',
         alt: 'Page de coloriage avec imagerie thématique correctement licenciée pour la vente commerciale',
         caption: 'Les licences commerciales incluant l\'imagerie intégrée simplifient la conformité pour les produits visuels',
       },

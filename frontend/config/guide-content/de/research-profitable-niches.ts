@@ -173,22 +173,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/matching/Paare Finden 1.webp',
+      src: '/samples/german/matching/paare-finden-1.webp',
       alt: 'Zuordnungsarbeitsblatt zeigt Themenvielseitigkeit für profitable Nischenrecherche über Bildungsthemen',
     },
     samples: [
       {
-        src: '/samples/german/matching/Paare Finden 1.webp',
+        src: '/samples/german/matching/paare-finden-1.webp',
         alt: 'Thematisches Zuordnungsarbeitsblatt demonstriert Nischenvielfalt über Lernmaterialthemen',
         caption: 'Zuordnungsarbeitsblätter umfassen Dutzende von Themen und ermöglichen schnelles Erkunden und Testen mehrerer Nischen',
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuchrätsel zeigt fächerübergreifendes Nischentestpotenzial in mehreren Sprachen',
         caption: 'Wortsuchrätsel validieren Nischennachfrage über Fächer und Sprachen mit minimaler Produktionszeit',
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: '/samples/german/coloring/coloring-portrait-1.webp',
         alt: 'Thematisches Ausmalbild demonstriert, wie visuelle Nischen in verkaufbare Druckvorlagen umgesetzt werden',
         caption: 'Ausmalbilder zeigen, welche visuellen Themen Käuferinteresse über verschiedene Marktsegmente anziehen',
       },

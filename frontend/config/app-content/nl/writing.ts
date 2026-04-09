@@ -234,12 +234,12 @@ const content: AppContent = {
         caption: 'Overtrekmodus met pijlgeleide streekvolgorde — genummerde richtingspijlen tonen de exacte lettervormingsvolgorde',
       },
       {
-        src: '/samples/dutch/writing/writing beginning letter.webp',
+        src: '/samples/dutch/writing/writing-beginning-letter.webp',
         alt: 'Schrijfoefeningen werkblad in vervagend overtrekken modus met letters die geleidelijk vervagen over elke rij',
         caption: 'Vervagend Overtrekken — letters vervagen geleidelijk om het zelfvertrouwen bij zelfstandig schrijven op te bouwen',
       },
       {
-        src: '/samples/dutch/writing/writing custom.webp',
+        src: '/samples/dutch/writing/writing-custom.webp',
         alt: 'Schrijfoefeningen werkblad in begeleid kopiëren modus met schoonschrift lettertype op drielijnige geleideregels',
         caption: 'Schoonschrift Begeleid Kopiëren — vage schoonschriftomtrekken op drielijnig geleidesysteem voor vloeiend schrift oefenen',
       },

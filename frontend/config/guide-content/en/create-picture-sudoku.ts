@@ -181,10 +181,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku worksheet with themed images showing a 4x4 logic puzzle for the younger audience' },
+    heroImage: { src: '/samples/english/sudoku/sudoku-easy.webp', alt: 'Picture sudoku worksheet with themed images showing a 4x4 logic puzzle for the younger audience' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku hard.webp', alt: 'Image-based 4x4 sudoku puzzle with animal theme for preschool children', caption: 'Easy difficulty picture sudoku using the farm animals theme with four blank cells' },
-      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku answer key showing the completed 4x4 grid with all images filled in', caption: 'Automatic answer key generated alongside each picture sudoku puzzle' },
+      { src: '/samples/english/sudoku/sudoku-hard.webp', alt: 'Image-based 4x4 sudoku puzzle with animal theme for preschool children', caption: 'Easy difficulty picture sudoku using the farm animals theme with four blank cells' },
+      { src: '/samples/english/sudoku/sudoku-easy.webp', alt: 'Picture sudoku answer key showing the completed 4x4 grid with all images filled in', caption: 'Automatic answer key generated alongside each picture sudoku puzzle' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'How to Create Picture Sudoku — Complete Tutorial',

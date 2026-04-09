@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/math worksheet/Feuille de Mathématique 1.webp',
+      src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp',
       alt: 'Fiche de maths professionnelle démontrant la création automatisée rapide pour l\'efficacité du business d\'imprimables',
     },
     samples: [
       {
-        src: '/samples/french/math worksheet/Feuille de Mathématique 1.webp',
+        src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp',
         alt: 'Fiche de maths montrant la qualité de production automatisée',
         caption: 'Les générateurs de fiches automatisent l\'étape la plus chronophage de la production d\'imprimables',
       },
       {
-        src: '/samples/french/addition/Addition Amusant 1.webp',
+        src: '/samples/french/addition/addition-amusant-1.webp',
         alt: 'Fiche d\'addition démontrant la production par lots avec variations de thème',
         caption: 'La production par lots de variations thématiques multiplie efficacement la production du catalogue',
       },
       {
-        src: '/samples/french/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/mots-caches-1.webp',
         alt: 'Puzzle de mots mêlés montrant la création systématique de contenu à travers les thèmes',
         caption: 'La variation systématique à travers les thèmes et les langues accélère la croissance du catalogue',
       },

@@ -244,22 +244,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/shadow%20match/G%C3%B8r%20Billederne%20Hele%201.webp',
+      primary: '/samples/danish/shadow%20match/g%c3%b8r%20billederne%20hele%201.webp',
       primaryAlt: 'Skyggeleg opgave til print med farvede billeder og sorte silhuetter til parring i børnehaveklasse',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%201.webp',
+        src: '/samples/danish/shadow%20match/gør%20billederne%20hele%201.webp',
         alt: 'Skygge-parring opgave med fire farvede billeder og fire sorte silhuetter til forbindelse i børnehaveklasse',
         caption: 'Skygge-parring — børnene forbinder billeder med deres automatisk genererede silhuetter',
       },
       {
-        src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%202.webp',
+        src: '/samples/danish/shadow%20match/gør%20billederne%20hele%202.webp',
         alt: 'Gør den hel opgave med delte billedhalvdele som børnene kobler sammen til indskoling',
         caption: 'Gør Den Hel-tilstand — børnene matcher delte billedhalvdele for at fuldende figurerne',
       },
       {
-        src: '/samples/danish/shadow%20match/Gør%20Billederne%20Hele%203.webp',
+        src: '/samples/danish/shadow%20match/gør%20billederne%20hele%203.webp',
         alt: 'Facitliste til skyggeleg med originalbilleder, silhuetter og korrekte bogstav-til-nummer parringsetiketter',
         caption: 'Automatisk facit — bogstav-til-nummer etiketter viser korrekte skygge-parringer',
       },

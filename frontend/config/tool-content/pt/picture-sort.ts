@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/picture sort/Classificação de Imagens 1.webp',
+      primary: '/samples/portuguese/picture sort/classificação-de-imagens-1.webp',
       primaryAlt: 'Atividade de classificação de imagens a duas categorias com molduras de categoria com borda tracejada em cima e grelha de recortes misturada em baixo com cabeçalho verde-menta localizado',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/picture sort/Classificação de Imagens 2.webp',
+        src: '/samples/portuguese/picture sort/classificação-de-imagens-2.webp',
         alt: 'Atividade de classificação em modo de tema com categorias esquerda e direita preenchidas automaticamente a partir da biblioteca de imagens com grelha de recortes misturada',
         caption: 'Modo de tema — categorias preenchidas automaticamente a partir da biblioteca de imagens com grelha de recortes aleatorizada',
       },
       {
-        src: '/samples/portuguese/picture sort/Classificação de Imagens 3.webp',
+        src: '/samples/portuguese/picture sort/classificação-de-imagens-3.webp',
         alt: 'Atividade de classificação em modo manual com imagens selecionadas individualmente e atribuídas às categorias esquerda e direita para classificação alinhada com o catálogo de produtos',
         caption: 'Modo manual — selecione imagens individualmente e atribua cada uma à categoria esquerda ou direita',
       },
       {
-        src: '/samples/portuguese/picture sort/Classificação de Imagens 4.webp',
+        src: '/samples/portuguese/picture sort/classificação-de-imagens-4.webp',
         alt: 'Gabarito de classificação de imagens com imagens 6× maiores organizadas nas caixas de categorias corretas com bordas tracejadas e preenchimento FAFAFA',
         caption: 'Gabarito autogerado — imagens 6× maiores em caixas de categorias com máximo de 2 colunas por caixa',
       },

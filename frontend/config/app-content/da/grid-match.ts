@@ -245,22 +245,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/grid%20match/Gitterpuslespil%201.webp',
+      primary: '/samples/danish/grid%20match/gitterpuslespil%201.webp',
       primaryAlt: 'Tegne-på-gitter opgave til print med billedfliser opdelt i et gitter, ledetrådsceller synlige og nummereret flisepalette til kopiering',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/grid%20match/Gitterpuslespil%201.webp',
+        src: '/samples/danish/grid%20match/gitterpuslespil%201.webp',
         alt: 'Tegne-på-gitter opgave med 3x3 gitter, én ledetrådscelle og otte nummererede fliser til rumsans i indskoling',
         caption: '3×3 gitteropgave — én ledetrådscelle synlig, otte fliser at kopiere fra nummereret palette',
       },
       {
-        src: '/samples/danish/grid%20match/Gitterpuslespil%202.webp',
+        src: '/samples/danish/grid%20match/gitterpuslespil%202.webp',
         alt: 'Gitteropgave med tematisk billede og varieret gitterstørrelse til pixel art kopiering',
         caption: 'Tematisk gitteropgave — 104 temaer giver unikke tegne- og kopieringsudfordringer',
       },
       {
-        src: '/samples/danish/grid%20match/Gitterpuslespil%203.webp',
+        src: '/samples/danish/grid%20match/gitterpuslespil%203.webp',
         alt: 'Facitliste til gitteropgave med komplet billede og nummererede cirkler på hver celle',
         caption: 'Automatisk facit — nummererede cirkler viser korrekt fliseplacering på komplet billede',
       },

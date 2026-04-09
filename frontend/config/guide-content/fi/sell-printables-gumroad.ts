@@ -161,8 +161,8 @@ const content: GuideContent = {
     heroImage: { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu tulostettavana tuotteena myyntiin Gumroad-kaupassa' },
     samples: [
       { src: '/samples/finnish/coloring/coloring%20portrait%202.webp', alt: 'Tulostettava värityssivu Gumroad-digitaalituotemyyntiin', caption: 'Värityssivut luovat visuaalisesti houkuttelevia tuotekuvia jotka ohjaavat sosiaalisen median liikennettä Gumroad-kauppaasi' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma Gumroad-kaupan tuotekatalogiin', caption: 'Sananetsintäpulmilla on laaja vetovoima vanhempi- ja ostajayleisöjen keskuudessa — monipuolinen Gumroad-tuotetyyppi' },
-      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Yhdistämistehtävätyöarkki Gumroad-tulostettavien liiketoimintaan', caption: 'Yhdistämistehtävät ovat korkean kysynnän opetuksellisia tulostettavia jotka toimivat hyvin yksinään ja paketeissa' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulma Gumroad-kaupan tuotekatalogiin', caption: 'Sananetsintäpulmilla on laaja vetovoima vanhempi- ja ostajayleisöjen keskuudessa — monipuolinen Gumroad-tuotetyyppi' },
+      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistämistehtävätyöarkki Gumroad-tulostettavien liiketoimintaan', caption: 'Yhdistämistehtävät ovat korkean kysynnän opetuksellisia tulostettavia jotka toimivat hyvin yksinään ja paketeissa' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Värityssivujen luominen Gumroad-tulostettavien kauppaasi',

@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page generated for KDP book interior showing themed outline design' },
+    heroImage: { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page generated for KDP book interior showing themed outline design' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Coloring page ready for KDP manuscript', caption: 'A themed coloring page exported as a print-ready 300 DPI PDF for KDP book interior' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Grayscale coloring page with shading depth', caption: 'Grayscale export mode provides shading and depth for premium adult coloring books' },
+      { src: '/samples/english/coloring/coloring-portrait-2.webp', alt: 'Coloring page ready for KDP manuscript', caption: 'A themed coloring page exported as a print-ready 300 DPI PDF for KDP book interior' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Grayscale coloring page with shading depth', caption: 'Grayscale export mode provides shading and depth for premium adult coloring books' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages',

@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/draw%20and%20color/Rita%20och%20F%C3%A4rgl%C3%A4gg%201.webp',
+      primary: '/samples/swedish/draw%20and%20color/rita%20och%20f%c3%a4rgl%c3%a4gg%201.webp',
       primaryAlt: 'Rita och färglägg rutnätsritning arbetsblad med dubbelrutnätssystem som visar tomt övningsrutnät och delvis avslöjat ledtrådsrutnät med svartvitt konturtema',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/draw%20and%20color/Rita%20och%20F%C3%A4rgl%C3%A4gg%202.webp',
+        src: '/samples/swedish/draw%20and%20color/rita%20och%20f%c3%a4rgl%c3%a4gg%202.webp',
         alt: 'Rutnätsritning arbetsblad med djur svartvitt konturtema vid 25% ledtrådsprocent som visar övningsrutnät och ledtrådsrutnät sida vid sida',
         caption: 'Djurtema vid 25% ledtrådar — användarna reproducerar konturen från spridda rutnätstips sedan färglägger sin ritning',
       },
       {
-        src: '/samples/swedish/draw%20and%20color/Rita%20och%20F%C3%A4rgl%C3%A4gg%204.webp',
+        src: '/samples/swedish/draw%20and%20color/rita%20och%20f%c3%a4rgl%c3%a4gg%204.webp',
         alt: 'Rutnätsritning arbetsblad med horisontellt symmetri spegelläge med ledtrådsceller avslöjade på den vänstra halvan för rumsligt resonemang',
         caption: 'Horisontellt symmetriläge — ledtrådsceller speglar vänster-höger för rumsligt resonemang och bilateral symmetriövning',
       },
       {
-        src: '/samples/swedish/draw%20and%20color/Rita%20och%20F%C3%A4rgl%C3%A4gg%206.webp',
+        src: '/samples/swedish/draw%20and%20color/rita%20och%20f%c3%a4rgl%c3%a4gg%206.webp',
         alt: 'Rutnätsritning arbetsblad med 10% ledtrådsprocent som visar minimala referensceller i ett stort rutnät för expertnivå reproduktionsutmaning',
         caption: '10% ledtråds expertutmaning — minimala referensceller kräver exakt observation och rumsligt resonemang',
       },

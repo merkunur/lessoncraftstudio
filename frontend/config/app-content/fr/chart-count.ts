@@ -276,12 +276,12 @@ const content: AppContent = {
         caption: 'Graphique à images thème animaux — 6 types d\'animaux dispersés dans la grille avec diagramme à barres en dessous',
       },
       {
-        src: '/samples/french/chart count/worksheet (1).webp',
+        src: '/samples/french/chart count/worksheet-1.webp',
         alt: 'Corrigé graphique à images avec cases surlignées en jaune montrant les décomptes corrects pour chaque type d\'image',
         caption: 'Corrigé auto-généré — cases remplies en jaune montrant le décompte correct pour chaque type d\'image',
       },
       {
-        src: '/samples/french/chart count/worksheet (2).webp',
+        src: '/samples/french/chart count/worksheet-2.webp',
         alt: 'Fiche graphique à images avec thème de fond décoratif et cadre de bordure appliqués',
         caption: 'Graphique à images décoré — thèmes de fond et de bordure avec contrôles d\'opacité indépendants',
       },

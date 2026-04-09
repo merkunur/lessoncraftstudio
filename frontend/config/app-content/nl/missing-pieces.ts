@@ -223,32 +223,32 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/missing%20pieces/Ontbrekende%20Stukjes%201.webp',
+      primary: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%201.webp',
       primaryAlt: 'Ontbrekende stukjes puzzelwerkblad met gaten uitgeknipt uit een afbeelding en genummerde oplossingsopties inclusief afleiders',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/missing%20pieces/Ontbrekende%20Stukjes%202.webp',
+        src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%202.webp',
         alt: 'Ontbrekende stukjes puzzel met vierkante gaten uitgeknipt uit een kleurrijke illustratie',
         caption: 'Vierkante stukvorm — schone geometrische uitsnijdingen voor duidelijke visuele identificatie',
       },
       {
-        src: '/samples/dutch/missing%20pieces/Ontbrekende%20Stukjes%203.webp',
+        src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%203.webp',
         alt: 'Ontbrekende stukjes puzzel met cirkelvormige gaten en genummerde oplossingsopties',
         caption: 'Cirkelvormige stukken — ronde uitsnijdingen met afleideropties voor extra uitdaging',
       },
       {
-        src: '/samples/dutch/missing%20pieces/Ontbrekende%20Stukjes%201%20answer_key.webp',
+        src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%201%20answer-key.webp',
         alt: 'Ontbrekende stukjes puzzel antwoordblad met geel gemarkeerde nummers in elk gat',
         caption: 'Automatisch gegenereerd antwoordblad — gele labels tonen de juiste optie voor elk gat',
       },
       {
-        src: '/samples/dutch/missing%20pieces/Ontbrekende%20Stukjes%204.webp',
+        src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%204.webp',
         alt: 'Ontbrekende stukjes puzzel met meerdere gaten en afleidersstukjes voor gevorderde moeilijkheid',
         caption: 'Meervoudige ontbrekende stukjes met afleiders — ruimtelijk redeneren en visuele discriminatie',
       },
       {
-        src: '/samples/dutch/missing%20pieces/Ontbrekende%20Stukjes%205.webp',
+        src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%205.webp',
         alt: 'Ontbrekende stukjes puzzel werkblad met dubbel kadersysteem en thematische achtergrond',
         caption: 'Professionele indeling met dubbel kadersysteem en thematische achtergrond voor marktplaatsvermeldingen',
       },

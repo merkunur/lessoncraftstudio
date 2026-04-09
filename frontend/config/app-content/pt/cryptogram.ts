@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/cryptogram/Criptograma Ilustrado 1.webp',
+      primary: '/samples/portuguese/cryptogram/criptograma-ilustrado-1.webp',
       primaryAlt: 'Atividade de criptograma com cifra por imagens mostrando imagens associadas a letras do alfabeto codificando uma frase secreta',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/cryptogram/Criptograma Ilustrado 2.webp',
+        src: '/samples/portuguese/cryptogram/criptograma-ilustrado-2.webp',
         alt: 'Atividade de criptograma com imagens temáticas substituindo as letras numa frase codificada',
         caption: 'Puzzle de cifra por imagens — decifre a mensagem secreta identificando qual imagem representa qual letra',
       },
       {
-        src: '/samples/portuguese/cryptogram/Criptograma Ilustrado 3.webp',
+        src: '/samples/portuguese/cryptogram/criptograma-ilustrado-3.webp',
         alt: 'Atividade de criptograma com tema de animais e pistas de Letras a Revelar apresentadas',
         caption: 'Tema de animais com Letras a Revelar — as correspondências pré-resolvidas orientam os iniciantes',
       },
       {
-        src: '/samples/portuguese/cryptogram/Criptograma Ilustrado 4.webp',
+        src: '/samples/portuguese/cryptogram/criptograma-ilustrado-4.webp',
         alt: 'Gabarito do criptograma com legenda de letras completa mostrando todas as correspondências alfabeto-imagem',
         caption: 'Gabarito com legenda de letras — cada letra do alfabeto emparelhada com a sua imagem em ordem alfabética',
       },

@@ -217,10 +217,10 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananhakupulmatehtävä joka demonstroi monikielistä tehtävien luomista 11 kielellä' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhakupulmatehtävä joka demonstroi monikielistä tehtävien luomista 11 kielellä' },
     samples: [
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananhaku — esimerkkitehtävä', caption: 'Sananhaku — monikielinen demonstraatio' },
-      { src: '/samples/finnish/crossword/Kuvaristikko%201.webp', alt: 'Ristisana — esimerkkitehtävä', caption: 'Ristisana — kielitietoinen tuloste' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhaku — esimerkkitehtävä', caption: 'Sananhaku — monikielinen demonstraatio' },
+      { src: '/samples/finnish/crossword/kuvaristikko%201.webp', alt: 'Ristisana — esimerkkitehtävä', caption: 'Ristisana — kielitietoinen tuloste' },
       { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu — kieliriippumaton', caption: 'Väritys — universaali kansainvälinen tuote' },
     ],
     youtubeId: '36keBFzJbPo',

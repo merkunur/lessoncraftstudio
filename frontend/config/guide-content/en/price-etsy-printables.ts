@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Educational printable worksheet for pricing strategy demonstration on Etsy' },
+    heroImage: { src: '/samples/english/addition/addition-fun-10.webp', alt: 'Educational printable worksheet for pricing strategy demonstration on Etsy' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 11.webp', alt: 'Animal themed addition worksheet showing entry-tier pricing product for Etsy', caption: 'Addition worksheet with animal theme — a typical entry-tier product priced at $3.99 for a 10-page pack' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle worksheet demonstrating premium pricing for language-specific products', caption: 'Word search puzzle — language versions command premium pricing with less competition in non-English markets' },
-      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Sudoku puzzle worksheet showing tiered difficulty pricing strategy', caption: 'Sudoku puzzle — difficulty-based tiering supports progressive pricing within a single product category' },
+      { src: '/samples/english/addition/addition-fun-11.webp', alt: 'Animal themed addition worksheet showing entry-tier pricing product for Etsy', caption: 'Addition worksheet with animal theme — a typical entry-tier product priced at $3.99 for a 10-page pack' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle worksheet demonstrating premium pricing for language-specific products', caption: 'Word search puzzle — language versions command premium pricing with less competition in non-English markets' },
+      { src: '/samples/english/sudoku/sudoku-easy.webp', alt: 'Sudoku puzzle worksheet showing tiered difficulty pricing strategy', caption: 'Sudoku puzzle — difficulty-based tiering supports progressive pricing within a single product category' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Printable Worksheets for Selling on Etsy — Understanding Product Value and Pricing',

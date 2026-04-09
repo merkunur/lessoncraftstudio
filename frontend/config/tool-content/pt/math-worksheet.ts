@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/math worksheet/Folha de Matemática 1.webp',
+      primary: '/samples/portuguese/math worksheet/folha-de-matemática-1.webp',
       primaryAlt: 'Atividade de puzzle algébrico ilustrado com símbolos-imagem representando variáveis desconhecidas em equações interligadas',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/math worksheet/Folha de Matemática 2.webp',
+        src: '/samples/portuguese/math worksheet/folha-de-matemática-2.webp',
         alt: 'Puzzle algébrico visual com dois símbolos-imagem e equações de adição para principiantes',
         caption: 'Modo Muito Fácil — dois símbolos com adição simples',
       },
       {
-        src: '/samples/portuguese/math worksheet/Folha de Matemática 3.webp',
+        src: '/samples/portuguese/math worksheet/folha-de-matemática-3.webp',
         alt: 'Puzzle algébrico com imagens de dificuldade média com três variáveis em equações interligadas',
         caption: 'Dificuldade Médio — três incógnitas em equações interligadas',
       },
       {
-        src: '/samples/portuguese/math worksheet/Folha de Matemática 4.webp',
+        src: '/samples/portuguese/math worksheet/folha-de-matemática-4.webp',
         alt: 'Atividade de puzzles algébricos difícil com quatro incógnitas simultâneas e operações mistas',
         caption: 'Modo Difícil — quatro variáveis com adição e subtração',
       },

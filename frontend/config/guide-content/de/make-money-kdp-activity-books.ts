@@ -194,11 +194,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt als Beispiel für KDP-Aktivitätsbuch-Inhalte zur Umsatzgenerierung' },
+    heroImage: { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt als Beispiel für KDP-Aktivitätsbuch-Inhalte zur Umsatzgenerierung' },
     samples: [
-      { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-Rätsel formatiert für KDP-Aktivitätsbuch-Innenseiten', caption: 'Sudoku-Rätsel — eine durchgehend profitable Aktivitätsbuch-Kategorie auf Amazon KDP mit treuen Wiederholungskäufern' },
+      { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: 'Sudoku-Rätsel formatiert für KDP-Aktivitätsbuch-Innenseiten', caption: 'Sudoku-Rätsel — eine durchgehend profitable Aktivitätsbuch-Kategorie auf Amazon KDP mit treuen Wiederholungskäufern' },
       { src: '/samples/german/math worksheet/worksheet.webp', alt: 'Mathe-Arbeitsblatt formatiert für KDP-Arbeitsheft-Innenseiten', caption: 'Mathe-Arbeitshefte — stark nachgefragte KDP-Kategorie mit natürlichen Altersgruppen-Erweiterungsmöglichkeiten' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel für KDP-Rätselbuch-Katalog-Diversifizierung', caption: 'Wortsuchbücher — die größte Rätselbuch-Kategorie auf Amazon mit starkem Potenzial für Mehrbänder-Serieneinnahmen' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuchrätsel für KDP-Rätselbuch-Katalog-Diversifizierung', caption: 'Wortsuchbücher — die größte Rätselbuch-Kategorie auf Amazon mit starkem Potenzial für Mehrbänder-Serieneinnahmen' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Wie Sie Sudoku-Aktivitätsbücher für Amazon KDP erstellen — Tutorial zur Umsatzsteigerung',

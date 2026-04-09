@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/big small/Grande ou Pequeno 1.webp', alt: 'Atividade de comparação de tamanhos com imagens temáticas a diferentes tamanhos mostrando exercício de rodeia o grande para pré-escolar' },
+    heroImage: { src: '/samples/portuguese/big small/grande-ou-pequeno-1.webp', alt: 'Atividade de comparação de tamanhos com imagens temáticas a diferentes tamanhos mostrando exercício de rodeia o grande para pré-escolar' },
     samples: [
-      { src: '/samples/portuguese/big small/Grande ou Pequeno 2.webp', alt: 'Atividade de comparação de tamanhos grande e pequeno com imagens temáticas mostrando cinco tipos de perguntas', caption: 'Atividade de comparação de tamanhos com imagens temáticas e indicadores de resposta autogerados' },
-      { src: '/samples/portuguese/big small/Grande ou Pequeno 3.webp', alt: 'Atividade de rodeia o grande com imagens idênticas de animais a diferentes tamanhos', caption: 'Modo Rodeia o grande com imagens temáticas para prática de discriminação visual de tamanhos' },
+      { src: '/samples/portuguese/big small/grande-ou-pequeno-2.webp', alt: 'Atividade de comparação de tamanhos grande e pequeno com imagens temáticas mostrando cinco tipos de perguntas', caption: 'Atividade de comparação de tamanhos com imagens temáticas e indicadores de resposta autogerados' },
+      { src: '/samples/portuguese/big small/grande-ou-pequeno-3.webp', alt: 'Atividade de rodeia o grande com imagens idênticas de animais a diferentes tamanhos', caption: 'Modo Rodeia o grande com imagens temáticas para prática de discriminação visual de tamanhos' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'Como criar atividades de comparação de tamanhos — Tutorial completo',

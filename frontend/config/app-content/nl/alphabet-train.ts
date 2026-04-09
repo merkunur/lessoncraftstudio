@@ -225,22 +225,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/alphabet%20train/Alfabettrein%201.webp',
+      primary: '/samples/dutch/alphabet%20train/alfabettrein%201.webp',
       primaryAlt: 'Alfabettrein werkblad met kleurrijke wagons die letters en bijpassende dierenafbeeldingen dragen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/alphabet%20train/Alfabettrein%201.webp',
+        src: '/samples/dutch/alphabet%20train/alfabettrein%201.webp',
         alt: 'Alfabettrein werkblad met dierenthema en 11 letterwagons met aanwijzingsafbeeldingen',
         caption: 'Automatisch Aanmaken — 11 willekeurige letterwagons met dierenthema aanwijzingen',
       },
       {
-        src: '/samples/dutch/alphabet%20train/Alfabettrein%202.webp',
+        src: '/samples/dutch/alphabet%20train/alfabettrein%202.webp',
         alt: 'Alfabettrein werkblad met voedselthema en 5 aanwijzingsafbeeldingen voor koppeling',
         caption: 'Handmatige modus — handgekozen letters met voedselthema en 5 aanwijzingen voor eenvoudiger koppelen',
       },
       {
-        src: '/samples/dutch/alphabet%20train/Alfabettrein%203.webp',
+        src: '/samples/dutch/alphabet%20train/alfabettrein%203.webp',
         alt: 'Alfabettrein werkblad met voertuigenthema en alle 11 aanwijzingen voor gevorderde oefening',
         caption: 'Volledige aanwijzingsuitdaging — 11 aanwijzingen voor complete letter-afbeeldingskoppeling oefening',
       },

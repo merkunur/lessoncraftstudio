@@ -243,22 +243,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/find%20and%20count/Min%C3%A4%20n%C3%A4en%201.webp',
+      primary: '/samples/finnish/find%20and%20count/min%c3%a4%20n%c3%a4en%201.webp',
       primaryAlt: 'Etsi ja Löydä etsi-ja-laske-työlehti hajautetuilla kuvilla ruudukossa, sinisellä otsikkokehyksellä ja neljän tehtävätyypin ohjeilla',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/find%20and%20count/Min%C3%A4%20n%C3%A4en%201.webp',
+        src: '/samples/finnish/find%20and%20count/min%c3%a4%20n%c3%a4en%201.webp',
         alt: 'Piilotettu esine -työlehti pystytilassa hajautetuilla eläinkuvilla ja tehtäväohjeilla',
         caption: 'Piilotettu Esine -tila — klassinen Etsi ja Löydä ympyröi-, neliö-, ruksaa- ja laskentatehtävillä',
       },
       {
-        src: '/samples/finnish/find%20and%20count/Min%C3%A4%20n%C3%A4en%202.webp',
+        src: '/samples/finnish/find%20and%20count/min%c3%a4%20n%c3%a4en%202.webp',
         alt: 'Etsi-ja-laske-työlehti vaakatilassa leveämmällä ruudukkoasettelulla',
         caption: 'Vaakatila — leveämpi ruudukkoasettelu useammilla sarakkeilla ja vaihtelevalla visuaalisella tiheydellä',
       },
       {
-        src: '/samples/finnish/find%20and%20count/Min%C3%A4%20n%C3%A4en%201%20answer_key.webp',
+        src: '/samples/finnish/find%20and%20count/min%c3%a4%20n%c3%a4en%201%20answer-key.webp',
         alt: 'Etsi-ja-laske-vastausavain punaisilla ympyrä-, neliö- ja ruksimerkinnöillä oikeiden kohteiden yli',
         caption: 'Automaattisesti luotu vastausavain — punaiset merkinnät ja lukumäärät osoittavat oikeat vastaukset',
       },

@@ -195,10 +195,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Educatief printable werkblad met op afbeeldingen gebaseerde rekenopgaven voor het verkopen op Etsy over meerdere categorieën' },
+    heroImage: { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Educatief printable werkblad met op afbeeldingen gebaseerde rekenopgaven voor het verkopen op Etsy over meerdere categorieën' },
     samples: [
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Dierenthema optelwerkblad voor een gediversifieerde educatieve printable Etsy-winkel', caption: 'Optelwerkblad met dierenthema — een van tientallen rekenproducten die je kunt maken voor je Etsy-winkel' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad met taalgebaseerde educatieve printable voor Etsy', caption: 'Woordzoekerpuzzel — taalgevoelig formaat dat vermenigvuldigt over 11 taalmarkten op Etsy' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Dierenthema optelwerkblad voor een gediversifieerde educatieve printable Etsy-winkel', caption: 'Optelwerkblad met dierenthema — een van tientallen rekenproducten die je kunt maken voor je Etsy-winkel' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad met taalgebaseerde educatieve printable voor Etsy', caption: 'Woordzoekerpuzzel — taalgevoelig formaat dat vermenigvuldigt over 11 taalmarkten op Etsy' },
       { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Kleurplaat printable met visueel leerproduct voor educatieve Etsy-winkel', caption: 'Kleurplaat — breedste kopersdemografie van elke educatieve printable-categorie op Etsy' },
     ],
     youtubeId: '36keBFzJbPo',

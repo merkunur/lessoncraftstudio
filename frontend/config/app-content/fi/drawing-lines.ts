@@ -233,22 +233,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/drawing%20lines/Viivojen%20Piirt%C3%A4misharjoitus%201.webp',
+      primary: '/samples/finnish/drawing%20lines/viivojen%20piirt%c3%a4misharjoitus%201.webp',
       primaryAlt: 'Viivapiirrustustyöarkki kaariviivamalleilla yhdistäen vastaavat eläinkuvaparit vaakamuodossa',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/drawing%20lines/Viivojen%20Piirt%C3%A4misharjoitus%202.webp',
+        src: '/samples/finnish/drawing%20lines/viivojen%20piirt%c3%a4misharjoitus%202.webp',
         alt: 'Viivanjäljennystyöarkki kaarimallilla yhdistäen vastaavat eläinkuvaparit vaakamuodossa',
         caption: 'Kaarimalli — jäljennä sujuvia kaarteisia viivoja yhdistääksesi vastaavat kuvaparit',
       },
       {
-        src: '/samples/finnish/drawing%20lines/Viivojen%20Piirt%C3%A4misharjoitus%203.webp',
+        src: '/samples/finnish/drawing%20lines/viivojen%20piirt%c3%a4misharjoitus%203.webp',
         alt: 'Viivanjäljennystyöarkki diagonaalimallilla yhdistäen viisi kuvaparia pystymuodossa',
         caption: 'Diagonaalimalli — kulmikkaat viivat 5 kuvaparilla kehon ylittävän koordinaation harjoitteluun',
       },
       {
-        src: '/samples/finnish/drawing%20lines/Viivojen%20Piirt%C3%A4misharjoitus%204.webp',
+        src: '/samples/finnish/drawing%20lines/viivojen%20piirt%c3%a4misharjoitus%204.webp',
         alt: 'Viivanjäljennystyöarkki vaakamallilla yhdistäen luontoteemaiset kuvaparit pystymuodossa',
         caption: 'Vaakamalli — suorat vasemmalta oikealle -viivat luontoteeman kuvilla',
       },

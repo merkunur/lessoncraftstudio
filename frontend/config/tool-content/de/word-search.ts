@@ -218,12 +218,12 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/wordsearch/Worter suchen 1.webp',
+      primary: '/samples/german/wordsearch/worter-suchen-1.webp',
       primaryAlt: 'Wortsuche-Arbeitsblatt mit versteckten Wörtern in einem Buchstabengitter und thematischen Bild-Hinweisen für Vokabel-Rätselübung',
     },
     sampleGallery: [
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuche-Arbeitsblatt im Hochformat mit 12×12-Buchstabengitter und thematischen Bild-Hinweisen',
         caption: 'Hochformat — 12×12-Gitter mit thematischen Bild-Hinweisen und Wortliste',
       },
@@ -233,7 +233,7 @@ const content: ToolContent = {
         caption: 'Querformat — breiteres Gitter mit aktivierten Diagonal- und Rückwärts-Wörtern',
       },
       {
-        src: '/samples/german/wordsearch/answer_key.webp',
+        src: '/samples/german/wordsearch/answer-key.webp',
         alt: 'Wortsuche-Arbeitsblatt im benutzerdefinierten Wortlisten-Modus ohne Bilder für reine Text-Rätsel',
         caption: 'Benutzerdefinierter Wortlisten-Modus — reine Text-Wortsuche ohne Bild-Hinweise',
       },

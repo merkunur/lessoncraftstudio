@@ -223,17 +223,17 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/bingo/bingo_card.webp',
+      primary: '/samples/english/bingo/bingo-card.webp',
       primaryAlt: 'Picture bingo card with themed images in a grid layout and circular chips with dashed borders below',
     },
     sampleGallery: [
       {
-        src: '/samples/english/bingo/bingo_card_1.webp',
+        src: '/samples/english/bingo/bingo-card-1.webp',
         alt: 'Picture bingo card with image fill showing colorful themed illustrations in grid cells and circular image chips',
         caption: 'Image fill mode — colorful illustrations in both card cells and circular chips',
       },
       {
-        src: '/samples/english/bingo/bingo_card_1 word.webp',
+        src: '/samples/english/bingo/bingo-card-1-word.webp',
         alt: 'Picture bingo card with word fill showing localized image names in grid cells and word chips',
         caption: 'Word fill mode — localized image names for vocabulary-based bingo',
       },

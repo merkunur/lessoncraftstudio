@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { generateHomepageSchemas, getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { encodeImagePath } from '@/lib/encode-image-path';
 import {
   HomepageHero,
   AppCategories,
@@ -14,6 +15,21 @@ import {
 } from '@/components/homepage';
 import { homepageFaqData } from '@/components/homepage/HomepageFAQ';
 import { generateFAQSchema } from '@/lib/schema-generator';
+
+// Locale-specific hero worksheet images for og:image (addition is the most visually representative)
+const homepageOgImages: Record<string, string> = {
+  en: '/samples/english/addition/addition-fun-1.webp',
+  de: '/samples/german/addition/additionsspa-1.webp',
+  fr: '/samples/french/addition/addition-amusant-1.webp',
+  es: '/samples/spanish/addition/suma-divertida-1.webp',
+  pt: '/samples/portuguese/addition/adição-divertida-1.webp',
+  it: '/samples/italian/addition/addizione-divertente-1.webp',
+  nl: '/samples/dutch/addition/optellen-is-leuk-1.webp',
+  sv: '/samples/swedish/addition/addition-övning.webp',
+  da: '/samples/danish/addition/sjov-addition-1.webp',
+  no: '/samples/norwegian/addition/gøy-addisjon-1.webp',
+  fi: '/samples/english/addition/addition-fun-1.webp',
+};
 
 // Localized SEO metadata for entrepreneur audience (Etsy, KDP, printables business)
 const homepageMetadata: Record<string, { title: string; description: string; keywords: string; ogAlt: string }> = {
@@ -119,18 +135,27 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       siteName: 'LessonCraftStudio',
       locale: ogLocaleMap[locale] || locale,
       alternateLocale: locales.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
-      images: [{
-        url: `${baseUrl}/opengraph-image.png`,
-        width: 1200,
-        height: 630,
-        alt: localizedMeta.ogAlt
-      }]
+      images: [
+        {
+          url: `${baseUrl}${encodeImagePath(homepageOgImages[locale] || homepageOgImages.en)}`,
+          width: 2480,
+          height: 3508,
+          type: 'image/webp',
+          alt: localizedMeta.ogAlt,
+        },
+        {
+          url: `${baseUrl}/api/og?locale=${locale}&type=homepage&title=${encodeURIComponent(localizedMeta.title)}`,
+          width: 1200,
+          height: 630,
+          alt: localizedMeta.ogAlt,
+        },
+      ]
     },
     twitter: {
       card: 'summary_large_image',
       title: localizedMeta.title,
       description: localizedMeta.description,
-      images: [`${baseUrl}/opengraph-image.png`]
+      images: [`${baseUrl}${encodeImagePath(homepageOgImages[locale] || homepageOgImages.en)}`]
     }
   };
 }

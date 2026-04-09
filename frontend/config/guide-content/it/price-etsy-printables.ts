@@ -190,11 +190,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda stampabile educativa per dimostrazione strategia prezzi su Etsy' },
+    heroImage: { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda stampabile educativa per dimostrazione strategia prezzi su Etsy' },
     samples: [
-      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione a tema animali che mostra un prodotto entry-level per Etsy', caption: 'Scheda di addizione con tema animali — un tipico prodotto entry-level prezzato a 3,99€ per un pacchetto da 10 pagine' },
-      { src: '/samples/italian/wordsearch/Cerca Parole 2.webp', alt: 'Puzzle cerca parole che dimostra prezzi premium per prodotti specifici per lingua', caption: 'Puzzle cerca parole — le versioni in altre lingue hanno prezzi premium con meno concorrenza nei mercati non anglofoni' },
-      { src: '/samples/italian/sudoku/Sudoku con Immagini 3.webp', alt: 'Puzzle sudoku che mostra la strategia di prezzi a livelli per difficoltà', caption: 'Puzzle sudoku — i livelli di difficoltà supportano prezzi progressivi all\'interno di una singola categoria di prodotto' },
+      { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda di addizione a tema animali che mostra un prodotto entry-level per Etsy', caption: 'Scheda di addizione con tema animali — un tipico prodotto entry-level prezzato a 3,99€ per un pacchetto da 10 pagine' },
+      { src: '/samples/italian/wordsearch/cerca-parole-2.webp', alt: 'Puzzle cerca parole che dimostra prezzi premium per prodotti specifici per lingua', caption: 'Puzzle cerca parole — le versioni in altre lingue hanno prezzi premium con meno concorrenza nei mercati non anglofoni' },
+      { src: '/samples/italian/sudoku/sudoku-con-immagini-3.webp', alt: 'Puzzle sudoku che mostra la strategia di prezzi a livelli per difficoltà', caption: 'Puzzle sudoku — i livelli di difficoltà supportano prezzi progressivi all\'interno di una singola categoria di prodotto' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Come Creare Schede Stampabili da Vendere su Etsy — Capire il Valore del Prodotto e i Prezzi',

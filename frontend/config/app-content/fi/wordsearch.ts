@@ -256,22 +256,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/wordsearch/Sanahaku%201.webp',
+      primary: '/samples/finnish/wordsearch/sanahaku%201.webp',
       primaryAlt: 'Sanahaku tyoarkki piilotetuilla sanoilla kirjainruudukossa ja teemakohtaisilla kuvavihjeilla',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/wordsearch/Sanahaku%201.webp',
+        src: '/samples/finnish/wordsearch/sanahaku%201.webp',
         alt: 'Sanahaku tyoarkki 12x12 ruudukolla eläinteemalla ja sana- ja kuvavihjeilla',
         caption: 'Nayta Sanat ja Kuvat -tila — sanat ja kuvat nakyyvat vihjeinä ruudukon vierella',
       },
       {
-        src: '/samples/finnish/wordsearch/Sanahaku%202.webp',
+        src: '/samples/finnish/wordsearch/sanahaku%202.webp',
         alt: 'Sanahaku tyoarkki 16x16 ruudukolla diagonaalisilla sanoilla ja ruokateemalla',
         caption: 'Suurempi ruudukko diagonaaleilla — haastavampi pulma kokeneille kayttajille',
       },
       {
-        src: '/samples/finnish/wordsearch/Sanahaku%201%20answer_key.webp',
+        src: '/samples/finnish/wordsearch/sanahaku%201%20answer-key.webp',
         alt: 'Sanahaku värikoodattu vastausavain jossa jokainen sana on korostettu eri varilla',
         caption: 'Värikoodattu vastausavain — jokainen piilotettu sana korostettu kiertavalla varilla',
       },

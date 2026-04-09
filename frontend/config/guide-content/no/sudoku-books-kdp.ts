@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/sudoku/Bilde-Sudoku%202.webp', alt: 'Bildesudoku-puslespillarbeidsark som viser tematisk bilderutenett egnet for Amazon KDP sudokubok-interiørsider' },
+    heroImage: { src: '/samples/norwegian/sudoku/bilde-sudoku%202.webp', alt: 'Bildesudoku-puslespillarbeidsark som viser tematisk bilderutenett egnet for Amazon KDP sudokubok-interiørsider' },
     samples: [
-      { src: '/samples/norwegian/sudoku/Bilde-Sudoku%201.webp', alt: 'Dyretema bildesudoku-puslespill formatert for KDP barnesudoku-bok', caption: 'Bildesudoku med dyretema — bildebaserte rutenett gjør sudokulogikk tilgjengelig for barn i alderen 3 til 7 som ennå ikke har lært tall' },
-      { src: '/samples/norwegian/sudoku/Bilde-Sudoku%202.webp', alt: 'Bildesudoku-puslespillarbeidsark for KDP bokinteriør', caption: 'Bildesudoku-arbeidsark — 4x4 rutenett med tydelige bilder og generøs cellestørrelse for komfortabel løsning av små barn' },
-      { src: '/samples/norwegian/math%20puzzle/Mattepuslespill%203.webp', alt: 'Mattepuslespill-arbeidsark for komplementær KDP-puslespillkatalog', caption: 'Mattepuslespill — tallbaserte logikkpuslespill komplementerer sudoku naturlig i varierte puslespillbøker og krysspromoterer gjennom forfattersiden din' },
+      { src: '/samples/norwegian/sudoku/bilde-sudoku%201.webp', alt: 'Dyretema bildesudoku-puslespill formatert for KDP barnesudoku-bok', caption: 'Bildesudoku med dyretema — bildebaserte rutenett gjør sudokulogikk tilgjengelig for barn i alderen 3 til 7 som ennå ikke har lært tall' },
+      { src: '/samples/norwegian/sudoku/bilde-sudoku%202.webp', alt: 'Bildesudoku-puslespillarbeidsark for KDP bokinteriør', caption: 'Bildesudoku-arbeidsark — 4x4 rutenett med tydelige bilder og generøs cellestørrelse for komfortabel løsning av små barn' },
+      { src: '/samples/norwegian/math%20puzzle/mattepuslespill%203.webp', alt: 'Mattepuslespill-arbeidsark for komplementær KDP-puslespillkatalog', caption: 'Mattepuslespill — tallbaserte logikkpuslespill komplementerer sudoku naturlig i varierte puslespillbøker og krysspromoterer gjennom forfattersiden din' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Slik lager du bildesudoku-puslespill for Amazon KDP-bøker — Trinn-for-trinn-veiledning',

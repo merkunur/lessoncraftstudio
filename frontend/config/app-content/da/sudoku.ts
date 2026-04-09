@@ -246,22 +246,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/sudoku/Billede-Sudoku%201.webp',
+      primary: '/samples/danish/sudoku/billede-sudoku%201.webp',
       primaryAlt: 'Sudoku til print med billeder — 4×4 gitter med tematiske illustrationer, justerbar sværhedsgrad og automatisk facit',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/sudoku/Billede-Sudoku%201.webp',
+        src: '/samples/danish/sudoku/billede-sudoku%201.webp',
         alt: 'Sudoku til print med billeder — let sværhedsgrad med 4 tomme celler i et 4×4 gitter',
         caption: 'Let sværhedsgrad — 4 tomme celler, perfekt til børnehaveklasse og tidlig indskoling',
       },
       {
-        src: '/samples/danish/sudoku/Billede-Sudoku%202.webp',
+        src: '/samples/danish/sudoku/billede-sudoku%202.webp',
         alt: 'Sudoku med billeder i et andet tema og middel sværhedsgrad til indskoling',
         caption: 'Tematisk sudoku med billeder — 104 temaer giver unikke sudoku-opgaver for hvert sæt',
       },
       {
-        src: '/samples/danish/sudoku/Billede-Sudoku%203.webp',
+        src: '/samples/danish/sudoku/billede-sudoku%203.webp',
         alt: 'Sudoku facit med komplet udfyldt 4×4 gitter, der viser alle 16 celler med korrekte billeder',
         caption: 'Automatisk facit — komplet udfyldt sudoku-gitter med alle billeder placeret',
       },

@@ -228,7 +228,7 @@ const content: ToolContent = {
         caption: 'Himmelsrichtungen-Modus — Kompassrichtungen für fortgeschrittenes räumliches Denken und Kartenlesekompetenz',
       },
       {
-        src: '/samples/german/treasure hunt/worksheet (1).webp',
+        src: '/samples/german/treasure hunt/worksheet-1.webp',
         alt: 'Schatzsuche-Lösungsschlüssel mit finaler Schatzzelle in Blassgelb hervorgehoben auf dem 5×5-Koordinatenraster',
         caption: 'Automatisch generierter Lösungsschlüssel — Blassgelbe Hervorhebung markiert die Schatzzelle zur Selbstkontrolle',
       },

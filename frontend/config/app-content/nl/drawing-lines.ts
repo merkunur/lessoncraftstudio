@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/drawing lines/Lijnen%20Tekenen%20Oefenen%201.webp',
+      primary: '/samples/dutch/drawing lines/lijnen%20tekenen%20oefenen%201.webp',
       primaryAlt: 'Lijnen trekken werkblad met gebogen lijnsjabloon dat bijpassende afbeeldingsparen van dieren verbindt in liggend formaat',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/drawing lines/Lijnen%20Tekenen%20Oefenen%202.webp',
+        src: '/samples/dutch/drawing lines/lijnen%20tekenen%20oefenen%202.webp',
         alt: 'Lijntraceer werkblad met bochtensjabloon dat bijpassende afbeeldingsparen van dieren verbindt in liggend formaat',
         caption: 'Bochtensjabloon — gebruikers traceren vloeiende gebogen lijnen om bijpassende afbeeldingsparen te verbinden',
       },
       {
-        src: '/samples/dutch/drawing lines/Lijnen%20Tekenen%20Oefenen%203.webp',
+        src: '/samples/dutch/drawing lines/lijnen%20tekenen%20oefenen%203.webp',
         alt: 'Lijntraceer werkblad met diagonaal sjabloon dat vijf afbeeldingsparen verbindt in staand formaat',
         caption: 'Diagonaal sjabloon — schuine lijnen met 5 afbeeldingsparen voor kruiscoördinatie oefening',
       },
       {
-        src: '/samples/dutch/drawing lines/Lijnen%20Tekenen%20Oefenen%204.webp',
+        src: '/samples/dutch/drawing lines/lijnen%20tekenen%20oefenen%204.webp',
         alt: 'Lijntraceer werkblad met horizontaal sjabloon dat natuurthema afbeeldingsparen verbindt in staand formaat',
         caption: 'Horizontaal sjabloon — rechte links-naar-rechts lijnen met natuurthema afbeeldingen',
       },

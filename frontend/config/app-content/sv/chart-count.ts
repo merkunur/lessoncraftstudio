@@ -278,17 +278,17 @@ const content: AppContent = {
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/chart%20count/worksheet%20(1).webp',
+        src: '/samples/swedish/chart%20count/worksheet%20-1.webp',
         alt: 'Djurtema bilddiagram arbetsblad med 20 spridda djurikoner och tomt stapeldiagram',
         caption: 'Djurtema bilddiagram — 6 djurtyper spridda över rutnätet med stapeldiagram nedanför',
       },
       {
-        src: '/samples/swedish/chart%20count/worksheet%20(2).webp',
+        src: '/samples/swedish/chart%20count/worksheet%20-2.webp',
         alt: 'Bilddiagram facit med gulmarkerade celler som visar korrekta antal för varje bildtyp',
         caption: 'Automatiskt genererat facit — gulfyllda celler visar det korrekta antalet för varje bildtyp',
       },
       {
-        src: '/samples/swedish/chart%20count/answer_key.webp',
+        src: '/samples/swedish/chart%20count/answer-key.webp',
         alt: 'Bilddiagram arbetsblad med dekorativt bakgrundstema och ramkant applicerad',
         caption: 'Dekorerat bilddiagram — bakgrunds- och ramteman med oberoende opacitetskontroller',
       },

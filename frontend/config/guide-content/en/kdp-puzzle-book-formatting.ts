@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'KDP puzzle book interior page showing formatted word search grid with proper margins' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'KDP puzzle book interior page showing formatted word search grid with proper margins' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle formatted for 8.5 x 11 KDP interior', caption: 'Word search grid with KDP-compliant margins and 300 DPI export quality' },
-      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle formatted for KDP book interior', caption: 'Crossword grid with clue section fitting within KDP safe content area' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Word search puzzle formatted for 8.5 x 11 KDP interior', caption: 'Word search grid with KDP-compliant margins and 300 DPI export quality' },
+      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Crossword puzzle formatted for KDP book interior', caption: 'Crossword grid with clue section fitting within KDP safe content area' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

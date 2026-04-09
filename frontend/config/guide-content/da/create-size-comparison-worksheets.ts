@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp', alt: 'Størrelsessammenlignings-arbejdsark med tematiske billeder i forskellige størrelser der viser cirkel den store øvelse til førskole' },
+    heroImage: { src: '/samples/danish/big%20small/stort%20eller%20lille%201.webp', alt: 'Størrelsessammenlignings-arbejdsark med tematiske billeder i forskellige størrelser der viser cirkel den store øvelse til førskole' },
     samples: [
-      { src: '/samples/danish/big%20small/Stort%20eller%20Lille%201.webp', alt: 'Stort eller Lille — dansk eksempelarbejdsark', caption: 'Stort eller Lille eksempel 1' },
-      { src: '/samples/danish/big%20small/Stort%20eller%20Lille%202.webp', alt: 'Stort eller Lille — dansk eksempel 2', caption: 'Stort eller Lille eksempel 2' },
-      { src: '/samples/danish/big%20small/Stort%20eller%20Lille%203.webp', alt: 'Stort eller Lille — dansk eksempel 3', caption: 'Stort eller Lille eksempel 3' },
+      { src: '/samples/danish/big%20small/stort%20eller%20lille%201.webp', alt: 'Stort eller Lille — dansk eksempelarbejdsark', caption: 'Stort eller Lille eksempel 1' },
+      { src: '/samples/danish/big%20small/stort%20eller%20lille%202.webp', alt: 'Stort eller Lille — dansk eksempel 2', caption: 'Stort eller Lille eksempel 2' },
+      { src: '/samples/danish/big%20small/stort%20eller%20lille%203.webp', alt: 'Stort eller Lille — dansk eksempel 3', caption: 'Stort eller Lille eksempel 3' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'Sådan generator du størrelsessammenlignings-arbejdsark — Komplet vejledning',

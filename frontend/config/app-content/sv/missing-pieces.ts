@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/missing%20pieces/Saknade%20Bitar%201.webp',
+      primary: '/samples/swedish/missing%20pieces/saknade%20bitar%201.webp',
       primaryAlt: 'Saknade bitar pusselarbetsblad med hål utklippta från en bild och numrerade lösningsalternativ inklusive distraktorer',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/missing%20pieces/Saknade%20Bitar%202.webp',
+        src: '/samples/swedish/missing%20pieces/saknade%20bitar%202.webp',
         alt: 'Saknade bitar-pussel med fyrkantiga hål utklippta från en färgglad illustration',
         caption: 'Fyrkantiga bitar — rena geometriska klipp för tydlig visuell identifiering',
       },
       {
-        src: '/samples/swedish/missing%20pieces/Saknade%20Bitar%205.webp',
+        src: '/samples/swedish/missing%20pieces/saknade%20bitar%205.webp',
         alt: 'Saknade bitar-pussel med cirkulära hål och numrerade lösningsalternativ',
         caption: 'Cirkulära bitar — rundade klipp med distraktoralternativ för ökad utmaning',
       },
       {
-        src: '/samples/swedish/missing%20pieces/Saknade%20Bitar%201%20answer_key.webp',
+        src: '/samples/swedish/missing%20pieces/saknade%20bitar%201%20answer-key.webp',
         alt: 'Saknade bitar pussel facit med gulmarkerade nummer inuti varje hål',
         caption: 'Automatiskt genererat facit — gula etiketter visar korrekt alternativ för varje hål',
       },

@@ -206,15 +206,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/matching/Encuentra Parejas 1.webp',
+      primary: '/samples/spanish/matching/encuentra-parejas-1.webp',
       primaryAlt: 'Ficha de asociación con imágenes temáticas mostrando ejercicio de emparejamiento',
     },
     sampleGallery: [
-      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación con cuatro modos de emparejamiento e imágenes temáticas', caption: 'Ficha de Asociación' },
-      { src: '/samples/spanish/grid match/Puzzle de Cuadrícula 1.webp', alt: 'Puzzle de cuadrícula con asociación basada en coordenadas sobre cuadrícula estructurada', caption: 'Ficha Puzzle de Cuadrícula' },
-      { src: '/samples/spanish/shadow match/Empareja las Sombras 1.webp', alt: 'Ficha de asociación de sombras con emparejamiento de siluetas y formato de trazar líneas', caption: 'Ficha de Discriminación Visual' },
-      { src: '/samples/spanish/bingo/Bingo de Imágenes 1.webp', alt: 'Tarjeta de bingo con imágenes temáticas en cuadrícula de disposición aleatoria', caption: 'Tarjeta de Bingo' },
-      { src: '/samples/spanish/picture sort/Clasificación de Imágenes 1.webp', alt: 'Ficha de clasificación de imágenes con ejercicio de categorización en dos grupos', caption: 'Ficha de Clasificación de Imágenes' },
+      { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Ficha de asociación con cuatro modos de emparejamiento e imágenes temáticas', caption: 'Ficha de Asociación' },
+      { src: '/samples/spanish/grid match/puzzle-de-cuadrícula-1.webp', alt: 'Puzzle de cuadrícula con asociación basada en coordenadas sobre cuadrícula estructurada', caption: 'Ficha Puzzle de Cuadrícula' },
+      { src: '/samples/spanish/shadow match/empareja-las-sombras-1.webp', alt: 'Ficha de asociación de sombras con emparejamiento de siluetas y formato de trazar líneas', caption: 'Ficha de Discriminación Visual' },
+      { src: '/samples/spanish/bingo/bingo-de-imágenes-1.webp', alt: 'Tarjeta de bingo con imágenes temáticas en cuadrícula de disposición aleatoria', caption: 'Tarjeta de Bingo' },
+      { src: '/samples/spanish/picture sort/clasificación-de-imágenes-1.webp', alt: 'Ficha de clasificación de imágenes con ejercicio de categorización en dos grupos', caption: 'Ficha de Clasificación de Imágenes' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Paquete Asociación y Clasificación — Los 5 Generadores en Acción',

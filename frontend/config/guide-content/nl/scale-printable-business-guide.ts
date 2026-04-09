@@ -64,11 +64,11 @@ const content: GuideContent = {
     { appId: 'crossword', title: 'Kruiswoordpuzzel Generator', description: 'Maak kruiswoordpuzzels met afbeeldingen. Voegt een puzzelcategorie toe aan je productlijn.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: 'Woordzoeker werkblad als voorbeeld van schaalbaar printable product' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoeker werkblad als voorbeeld van schaalbaar printable product' },
     samples: [
-      { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: 'Schaalbaar werkblad product voorbeeld', caption: 'Werkblad generators maken het mogelijk om snel grote productcatalogi op te bouwen' },
-      { src: '/samples/dutch/addition/Optellen is Leuk 1.webp', alt: 'Optellen werkblad voor productlijn uitbreiding', caption: 'Rekenwerkbladen vormen een solide basis voor een schaalbaar printable bedrijf' },
-      { src: '/samples/dutch/crossword/Plaatjes Kruiswoord 1.webp', alt: 'Kruiswoordpuzzel als aanvullend product', caption: 'Puzzels toevoegen aan je productlijn vergroot je marktbereik en omzet' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Schaalbaar werkblad product voorbeeld', caption: 'Werkblad generators maken het mogelijk om snel grote productcatalogi op te bouwen' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optellen werkblad voor productlijn uitbreiding', caption: 'Rekenwerkbladen vormen een solide basis voor een schaalbaar printable bedrijf' },
+      { src: '/samples/dutch/crossword/plaatjes-kruiswoord-1.webp', alt: 'Kruiswoordpuzzel als aanvullend product', caption: 'Puzzels toevoegen aan je productlijn vergroot je marktbereik en omzet' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Schaal Je Een Printable Bedrijf Op — Stap-voor-Stap',

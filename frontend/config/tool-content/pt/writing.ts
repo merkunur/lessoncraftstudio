@@ -216,12 +216,12 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/writing/writing beginning letter.webp',
+      primary: '/samples/portuguese/writing/writing-beginning-letter.webp',
       primaryAlt: 'Atividade de prática de escrita com modos traçado, traçado progressivo e cópia guiada mostrando letras com ordem de traços guiada por setas',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/writing/writing custom.webp',
+        src: '/samples/portuguese/writing/writing-custom.webp',
         alt: 'Atividade de prática de escrita com três modos progressivos de prática e integração de imagens temáticas',
         caption: 'Três modos de prática numa atividade — Traçado, Traçado Progressivo e Cópia Guiada com independência por fila',
       },
@@ -231,7 +231,7 @@ const content: ToolContent = {
         caption: 'Ordem de traços guiada por setas — setas direcionais numeradas mostram a sequência exata de formação de cada letra',
       },
       {
-        src: '/samples/portuguese/writing/writing beginning letter.webp',
+        src: '/samples/portuguese/writing/writing-beginning-letter.webp',
         alt: 'Atividade de escrita em modo traçado progressivo com letras a desvanecer progressivamente ao longo de cada fila',
         caption: 'Modo Traçado Progressivo — as letras desvanecem progressivamente para desenvolver a confiança na escrita autónoma',
       },

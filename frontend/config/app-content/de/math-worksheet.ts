@@ -274,7 +274,7 @@ const content: AppContent = {
         caption: 'Sehr Leicht — zwei Bildsymbole in einem einfachen Gleichungssystem mit reiner Addition',
       },
       {
-        src: '/samples/german/math worksheet/answer_key.webp',
+        src: '/samples/german/math worksheet/answer-key.webp',
         alt: 'Mittel-Algebra-Rätsel-Arbeitsblatt mit drei Bildsymbolen und gemischten Operationen',
         caption: 'Mittel — drei Symbole in verknüpften Gleichungen mit Addition und Subtraktion',
       },

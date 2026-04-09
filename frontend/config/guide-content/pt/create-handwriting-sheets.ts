@@ -183,9 +183,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/writing/writing beginning letter.webp', alt: 'Atividade de prática de escrita com exercícios progressivos de traçar a cópia para a formação de letras para crianças' },
+    heroImage: { src: '/samples/portuguese/writing/writing-beginning-letter.webp', alt: 'Atividade de prática de escrita com exercícios progressivos de traçar a cópia para a formação de letras para crianças' },
     samples: [
-      { src: '/samples/portuguese/writing/writing custom.webp', alt: 'Atividade de prática de escrita com linhas de traçar e setas de ordem de traços para a formação de letras', caption: 'Atividade de escrita progressiva com linhas de traçar, traçar progressivo e cópia guiada para a prática de letras' },
+      { src: '/samples/portuguese/writing/writing-custom.webp', alt: 'Atividade de prática de escrita com linhas de traçar e setas de ordem de traços para a formação de letras', caption: 'Atividade de escrita progressiva com linhas de traçar, traçar progressivo e cópia guiada para a prática de letras' },
       { src: '/samples/portuguese/writing/writing.webp', alt: 'Atividade de escrita com imagens temáticas combinadas com prática de traçar letras', caption: 'Atividade de prática de escrita temática que combina traçar de letras com imagens da biblioteca visual' },
     ],
     youtubeId: '0b4WglqyXu0',

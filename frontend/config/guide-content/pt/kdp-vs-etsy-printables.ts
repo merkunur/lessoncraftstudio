@@ -187,11 +187,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Atividade de sopa de letras adequada para vender como transferência digital no Etsy ou compilar em livro de puzzles Amazon KDP' },
+    heroImage: { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Atividade de sopa de letras adequada para vender como transferência digital no Etsy ou compilar em livro de puzzles Amazon KDP' },
     samples: [
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Sopa de letras temática de animais para Etsy e KDP', caption: 'Os puzzles de sopas de letras vendem-se em ambas as plataformas — como transferências digitais individuais no Etsy e compilados em livros de puzzles no KDP' },
-      { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividade de somas para transferência digital Etsy ou livro de atividades KDP', caption: 'As atividades de matemática funcionam como atividades individuais e pequenos pacotes no Etsy ou compiladas em livros de atividades de matemática KDP' },
-      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir para venda tanto no Etsy como no KDP', caption: 'As páginas para colorir são uma categoria principal em ambas as plataformas — transferências individuais no Etsy e livros para colorir no KDP' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-2.webp', alt: 'Sopa de letras temática de animais para Etsy e KDP', caption: 'Os puzzles de sopas de letras vendem-se em ambas as plataformas — como transferências digitais individuais no Etsy e compilados em livros de puzzles no KDP' },
+      { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade de somas para transferência digital Etsy ou livro de atividades KDP', caption: 'As atividades de matemática funcionam como atividades individuais e pequenos pacotes no Etsy ou compiladas em livros de atividades de matemática KDP' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir para venda tanto no Etsy como no KDP', caption: 'As páginas para colorir são uma categoria principal em ambas as plataformas — transferências individuais no Etsy e livros para colorir no KDP' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como criar atividades imprimíveis para Etsy e Amazon KDP — Tutorial passo a passo',

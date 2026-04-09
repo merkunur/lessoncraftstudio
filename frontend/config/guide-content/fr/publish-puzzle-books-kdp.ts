@@ -202,11 +202,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche de puzzle mots cachés avec grille thématique adaptée aux pages intérieures de livres de puzzles Amazon KDP' },
+    heroImage: { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Fiche de puzzle mots cachés avec grille thématique adaptée aux pages intérieures de livres de puzzles Amazon KDP' },
     samples: [
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle mots cachés thème animaux formaté pour livre de puzzles KDP', caption: 'Mots cachés thème animaux — le type de puzzle le plus populaire pour les livres KDP ciblant aussi bien les adultes que les enfants' },
-      { src: '/samples/french/crossword/Mots Croisés en Images 1.webp', alt: 'Mots croisés avec indices thématiques pour livre de puzzles KDP', caption: 'Mots croisés — ajoute une valeur d\'engagement substantielle aux livres de puzzles et collections variées sur Amazon' },
-      { src: '/samples/french/sudoku/sudoku_worksheet.webp', alt: 'Puzzle sudoku illustré pour livre de puzzles variés enfants sur KDP', caption: 'Sudoku illustré — puzzles de logique visuelle qui rendent les livres de puzzles variés enfants plus diversifiés et engageants' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle mots cachés thème animaux formaté pour livre de puzzles KDP', caption: 'Mots cachés thème animaux — le type de puzzle le plus populaire pour les livres KDP ciblant aussi bien les adultes que les enfants' },
+      { src: '/samples/french/crossword/mots-croisés-en-images-1.webp', alt: 'Mots croisés avec indices thématiques pour livre de puzzles KDP', caption: 'Mots croisés — ajoute une valeur d\'engagement substantielle aux livres de puzzles et collections variées sur Amazon' },
+      { src: '/samples/french/sudoku/sudoku-worksheet.webp', alt: 'Puzzle sudoku illustré pour livre de puzzles variés enfants sur KDP', caption: 'Sudoku illustré — puzzles de logique visuelle qui rendent les livres de puzzles variés enfants plus diversifiés et engageants' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Comment créer des mots cachés pour les livres de puzzles Amazon KDP — Tutoriel étape par étape',

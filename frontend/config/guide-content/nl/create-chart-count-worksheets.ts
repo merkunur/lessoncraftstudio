@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/chart%20count/Plaatjesgrafiek%201.webp', alt: 'Plaatjesgrafiek werkblad met verspreid 4×5 beeldraster met 20 iconen van 6 types en staafdiagram voor gebruikers om gegevens te tellen en grafieken te maken' },
+    heroImage: { src: '/samples/dutch/chart%20count/plaatjesgrafiek%201.webp', alt: 'Plaatjesgrafiek werkblad met verspreid 4×5 beeldraster met 20 iconen van 6 types en staafdiagram voor gebruikers om gegevens te tellen en grafieken te maken' },
     samples: [
-      { src: '/samples/dutch/chart%20count/Plaatjesgrafiek%201.webp', alt: 'Dierenthema plaatjesgrafiek werkblad met 20 verspreide dierenticonen in een 4×5 raster en 6-koloms staafdiagram voor teloefening', caption: 'Dierenthema plaatjesgrafiek — 6 diersoorten verspreid over het raster met staafdiagram eronder voor gegevensrepresentatie oefening' },
-      { src: '/samples/dutch/find%20and%20count/Ik%20zie%2C%20ik%20zie%201.webp', alt: 'Zoek en tel werkblad met verspreide afbeeldingen als aanvullende telactiviteit bij plaatjesgrafieken', caption: 'Zoek en tel werkblad — aanvullende telactiviteit die visuele scanvaardigheden oefent voor plaatjesgrafieken' },
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Rekenwerkblad met optelsommen als aanvullend rekenmateriaal bij plaatjesgrafiek activiteiten', caption: 'Optellen werkblad — aanvullend rekenmateriaal dat getalvaardigheden versterkt voor staafdiagram invullen' },
+      { src: '/samples/dutch/chart%20count/plaatjesgrafiek%201.webp', alt: 'Dierenthema plaatjesgrafiek werkblad met 20 verspreide dierenticonen in een 4×5 raster en 6-koloms staafdiagram voor teloefening', caption: 'Dierenthema plaatjesgrafiek — 6 diersoorten verspreid over het raster met staafdiagram eronder voor gegevensrepresentatie oefening' },
+      { src: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%201.webp', alt: 'Zoek en tel werkblad met verspreide afbeeldingen als aanvullende telactiviteit bij plaatjesgrafieken', caption: 'Zoek en tel werkblad — aanvullende telactiviteit die visuele scanvaardigheden oefent voor plaatjesgrafieken' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Rekenwerkblad met optelsommen als aanvullend rekenmateriaal bij plaatjesgrafiek activiteiten', caption: 'Optellen werkblad — aanvullend rekenmateriaal dat getalvaardigheden versterkt voor staafdiagram invullen' },
     ],
   },
 

@@ -91,13 +91,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/wordsearch/Sanahaku%201.webp',
+      primary: '/samples/finnish/wordsearch/sanahaku%201.webp',
       primaryAlt: 'Sananhakutehtäväarkki piilotetuilla sanoilla kirjainruudukossa ja teemakuvavihjein sanastopalapeliharjoitteluun',
     },
     sampleGallery: [
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananhakutehtäväarkki pystymallissa 12×12 kirjainruudukolla ja teemakuvavihjein', caption: 'Pystymalli — 12×12 ruudukko teemakuvavihjein ja sanalistan kanssa' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%202.webp', alt: 'Sananhakutehtäväarkki vaakamallissa suuremmalla ruudukolla ja vinottaisilla sanoilla', caption: 'Vaakamalli — leveämpi ruudukko vinottaisin ja käänteisin sanoin' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%203.webp', alt: 'Sananhakutehtäväarkki mukautetulla sanalistalla ilman kuvia tekstipohjaisiin palapeleihin', caption: 'Mukautettu Sanalista -tila — tekstipohjainen sananhaku ilman kuvavihjeitä' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhakutehtäväarkki pystymallissa 12×12 kirjainruudukolla ja teemakuvavihjein', caption: 'Pystymalli — 12×12 ruudukko teemakuvavihjein ja sanalistan kanssa' },
+      { src: '/samples/finnish/wordsearch/sanahaku%202.webp', alt: 'Sananhakutehtäväarkki vaakamallissa suuremmalla ruudukolla ja vinottaisilla sanoilla', caption: 'Vaakamalli — leveämpi ruudukko vinottaisin ja käänteisin sanoin' },
+      { src: '/samples/finnish/wordsearch/sanahaku%203.webp', alt: 'Sananhakutehtäväarkki mukautetulla sanalistalla ilman kuvia tekstipohjaisiin palapeleihin', caption: 'Mukautettu Sanalista -tila — tekstipohjainen sananhaku ilman kuvavihjeitä' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Näin Luot Piilotettujen Sanojen Ruudukkoetsintätehtäviä — Vaihe Vaiheelta Opas',

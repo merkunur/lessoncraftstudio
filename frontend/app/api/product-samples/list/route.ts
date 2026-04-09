@@ -174,7 +174,7 @@ function isAnswerKey(filename: string): boolean {
 
 /**
  * Get the base name of a file without extension.
- * E.g. "sample-1.webp" → "sample-1", "addition_worksheet portrait.webp" → "addition_worksheet portrait"
+ * E.g. "sample-1.webp" → "sample-1", "addition-worksheet-portrait.webp" → "addition_worksheet portrait"
  */
 function getBaseName(filename: string): string {
   const lastDot = filename.lastIndexOf('.');
@@ -185,7 +185,7 @@ function getBaseName(filename: string): string {
  * Try to find a matching answer key for a given worksheet filename.
  * Matching strategies:
  * 1. sample-N.webp → sample-N-answer.webp
- * 2. {name}.webp → {name} answer key.webp, {name}_answer_key.webp
+ * 2. {name}.webp → {name} answer key.webp, {name}_answer-key.webp
  * 3. Fuzzy: any answer key WebP that shares significant words with the worksheet
  */
 function findAnswerKey(worksheetFilename: string, answerKeyFiles: string[]): string | undefined {

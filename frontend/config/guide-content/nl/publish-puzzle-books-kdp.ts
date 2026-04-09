@@ -195,11 +195,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad met thematisch woordraster geschikt voor Amazon KDP puzzelboek binnenpagina\'s' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad met thematisch woordraster geschikt voor Amazon KDP puzzelboek binnenpagina\'s' },
     samples: [
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Dierenthema woordzoekerpuzzel opgemaakt voor KDP puzzelboek', caption: 'Woordzoeker met dierenthema — het populairste puzzeltype voor KDP-boeken gericht op zowel volwassenen als kinderen' },
-      { src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201.webp', alt: 'Kruiswoordpuzzel met thematische aanwijzingen voor KDP puzzelboek', caption: 'Kruiswoordpuzzel — voegt substantiële betrokkenheidswaarde toe aan puzzelboeken en variatiecollecties op Amazon' },
-      { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Plaatjessudoku puzzel voor kindervariatie puzzelboek op KDP', caption: 'Plaatjessudoku — visuele logicapuzzels die kindervariatiepuzzelboeken diverser en boeiender maken' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Dierenthema woordzoekerpuzzel opgemaakt voor KDP puzzelboek', caption: 'Woordzoeker met dierenthema — het populairste puzzeltype voor KDP-boeken gericht op zowel volwassenen als kinderen' },
+      { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: 'Kruiswoordpuzzel met thematische aanwijzingen voor KDP puzzelboek', caption: 'Kruiswoordpuzzel — voegt substantiële betrokkenheidswaarde toe aan puzzelboeken en variatiecollecties op Amazon' },
+      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Plaatjessudoku puzzel voor kindervariatie puzzelboek op KDP', caption: 'Plaatjessudoku — visuele logicapuzzels die kindervariatiepuzzelboeken diverser en boeiender maken' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Woordzoekerpuzzels Maken voor Amazon KDP Puzzelboeken — Stapsgewijze Tutorial',
@@ -209,7 +209,7 @@ const content: GuideContent = {
     { src: '/image-library/space/asteroid.webp', alt: 'Asteroïde — thematische educatieve afbeelding', caption: 'Asteroïde' },
     { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — thematische educatieve afbeelding', caption: 'Astronaut' },
     { src: '/image-library/space/comet.webp', alt: 'Komeet — thematische educatieve afbeelding', caption: 'Komeet' },
-    { src: '/image-library/space/Earth.webp', alt: 'Aarde — thematische educatieve afbeelding', caption: 'Aarde' },
+    { src: '/image-library/space/earth.webp', alt: 'Aarde — thematische educatieve afbeelding', caption: 'Aarde' },
     { src: '/image-library/space/galaxy.webp', alt: 'Sterrenstelsel — thematische educatieve afbeelding', caption: 'Sterrenstelsel' },
   ],
 };

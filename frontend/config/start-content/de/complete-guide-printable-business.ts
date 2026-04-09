@@ -218,12 +218,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Arbeitsblatt-Beispiel erstellt mit dem LessonCraftStudio Generator' },
+    heroImage: { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Arbeitsblatt-Beispiel erstellt mit dem LessonCraftStudio Generator' },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Druckbares Wortsuche-Arbeitsblatt mit Tierthema', caption: 'Wortsuche — Tierthema' },
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additions-Arbeitsblatt mit bildbasierten Matheaufgaben', caption: 'Addition — Bildbasierte Aufgaben' },
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlagen-Arbeitsblatt mit thematischen Illustrationen', caption: 'Malvorlage — Thematische Illustrationen' },
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt mit visuellen Paar-Aktivitäten', caption: 'Zuordnung — Visuelle Paar-Aktivität' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Druckbares Wortsuche-Arbeitsblatt mit Tierthema', caption: 'Wortsuche — Tierthema' },
+      { src: '/samples/german/addition/additionsspa-1.webp', alt: 'Additions-Arbeitsblatt mit bildbasierten Matheaufgaben', caption: 'Addition — Bildbasierte Aufgaben' },
+      { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Malvorlagen-Arbeitsblatt mit thematischen Illustrationen', caption: 'Malvorlage — Thematische Illustrationen' },
+      { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Zuordnungs-Arbeitsblatt mit visuellen Paar-Aktivitäten', caption: 'Zuordnung — Visuelle Paar-Aktivität' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Arbeitsblätter erstellen — LessonCraftStudio Demo',

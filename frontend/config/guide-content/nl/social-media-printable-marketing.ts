@@ -182,11 +182,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/coloring/coloring portrait 1.webp', alt: 'Kleurplaat printable geschikt voor social media marketing en promotie van educatieve printable producten' },
+    heroImage: { src: '/samples/dutch/coloring/coloring-portrait-1.webp', alt: 'Kleurplaat printable geschikt voor social media marketing en promotie van educatieve printable producten' },
     samples: [
-      { src: '/samples/dutch/coloring/coloring portrait 1.webp', alt: 'Kleurplaat voorbeeld voor Instagram en Facebook promotie van printable producten', caption: 'Kleurplaten zijn het meest deelbare format op social media dankzij hun visuele aantrekkingskracht' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: 'Woordzoekerpuzzel werkblad voor social media productdemonstratie en TikTok video content', caption: 'Woordzoekerpuzzels lenen zich uitstekend voor engaging video content op TikTok en Instagram Reels' },
-      { src: '/samples/dutch/matching/Zoek de Paren 1.webp', alt: 'Matchingwerkblad educatieve printable voor social media marketing campagnes', caption: 'Matchingwerkbladen tonen direct educatieve waarde in een enkele social media afbeelding' },
+      { src: '/samples/dutch/coloring/coloring-portrait-1.webp', alt: 'Kleurplaat voorbeeld voor Instagram en Facebook promotie van printable producten', caption: 'Kleurplaten zijn het meest deelbare format op social media dankzij hun visuele aantrekkingskracht' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoekerpuzzel werkblad voor social media productdemonstratie en TikTok video content', caption: 'Woordzoekerpuzzels lenen zich uitstekend voor engaging video content op TikTok en Instagram Reels' },
+      { src: '/samples/dutch/matching/zoek-de-paren-1.webp', alt: 'Matchingwerkblad educatieve printable voor social media marketing campagnes', caption: 'Matchingwerkbladen tonen direct educatieve waarde in een enkele social media afbeelding' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Social Media Marketing Strategie voor Printable Verkopers — Instagram, Facebook en TikTok',

@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/addition/Suma Divertida 1.webp',
+      src: '/samples/spanish/addition/suma-divertida-1.webp',
       alt: 'Fichas de sumas profesionales creadas con el Generador de fichas de sumas, representando la calidad de producto imprimible alcanzable con los 33 generadores',
     },
     samples: [
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: '/samples/spanish/addition/suma-divertida-1.webp',
         alt: 'Fichas de sumas mostrando productos imprimibles de la categoría Matemáticas y números para tiendas Etsy',
         caption: 'Categoría Matemáticas y números: fichas de sumas con claves de respuestas listas para anuncios de descargue digital en Etsy',
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp',
         alt: 'Sopas de letras mostrando productos imprimibles de la categoría Letras y palabras para tiendas Etsy',
         caption: 'Categoría Letras y palabras: sopas de letras con vocabulario temático para amplio atractivo de compradores',
       },
       {
-        src: '/samples/spanish/coloring/coloring landscape 1.webp',
+        src: '/samples/spanish/coloring/coloring-landscape-1.webp',
         alt: 'Páginas para colorear mostrando productos imprimibles de la categoría Dibujo y arte para tiendas Etsy',
         caption: 'Categoría Dibujo y arte: páginas para colorear con ilustraciones temáticas para el grupo demográfico de edades más amplio',
       },

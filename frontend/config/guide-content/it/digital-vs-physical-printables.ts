@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/italian/addition/Addizione Divertente 1.webp',
+      src: '/samples/italian/addition/addizione-divertente-1.webp',
       alt: 'Scheda di addizione professionale che dimostra la creazione di prodotti stampabili digitali per formati download digitale e stampa fisica',
     },
     samples: [
       {
-        src: '/samples/italian/addition/Addizione Divertente 1.webp',
+        src: '/samples/italian/addition/addizione-divertente-1.webp',
         alt: 'Scheda di addizione che mostra un prodotto stampabile digitale adatto sia al download che alla stampa fisica',
         caption: 'Le schede di matematica funzionano bene come download digitali e come pagine in quaderni stampati',
       },
       {
-        src: '/samples/italian/coloring/coloring portrait 1.webp',
+        src: '/samples/italian/coloring/coloring-portrait-1.webp',
         alt: 'Pagina da colorare che dimostra un tipo di prodotto popolare sia in formato digitale che fisico',
         caption: 'Le pagine da colorare sono tra i prodotti più venduti sia in formato download digitale che in libri stampati su richiesta',
       },
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
+        src: '/samples/italian/wordsearch/cerca-parole-1.webp',
         alt: 'Crucipuzzle che mostra un prodotto ideale per la vendita ibrida digitale e fisica',
         caption: 'I crucipuzzle si vendono singolarmente come download digitali e compilati in libri di puzzle fisici',
       },

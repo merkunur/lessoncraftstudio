@@ -180,10 +180,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page generated for Etsy listing showing themed outline ready for printing' },
+    heroImage: { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page generated for Etsy listing showing themed outline ready for printing' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page outline ready for Etsy digital download', caption: 'A themed coloring page exported as a 300 DPI PDF for Etsy listing' },
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Detailed coloring page with clean outlines for printing', caption: 'Clean outlines with well-defined coloring areas suitable for all ages' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page outline ready for Etsy digital download', caption: 'A themed coloring page exported as a 300 DPI PDF for Etsy listing' },
+      { src: '/samples/english/coloring/coloring-portrait-2.webp', alt: 'Detailed coloring page with clean outlines for printing', caption: 'Clean outlines with well-defined coloring areas suitable for all ages' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'How to Create Coloring Pages',

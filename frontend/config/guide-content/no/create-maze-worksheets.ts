@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/picture%20path/Bildesti%201.webp', alt: 'Labyrintarbeidsark som viser en tematisk bildestiaktivitet med start- og sluttbilder for barn' },
+    heroImage: { src: '/samples/norwegian/picture%20path/bildesti%201.webp', alt: 'Labyrintarbeidsark som viser en tematisk bildestiaktivitet med start- og sluttbilder for barn' },
     samples: [
-      { src: '/samples/norwegian/picture%20path/Bildesti%201.webp', alt: 'Bildesti-labyrintarbeidsark med tematiske bilder for forskole og barnehage', caption: 'Bildesti-modus: barn folger en visuell sti fra startbilde til sluttbilde gjennom tematiske dekorasjoner' },
-      { src: '/samples/norwegian/picture%20path/Bildesti%201.webp', alt: 'Klassisk labyrintarbeidsark med samlbar telling og fasit', caption: 'Klassisk labyrint-modus med samlbare bilder og automatisk fasit som viser losningssti og tellinger' },
+      { src: '/samples/norwegian/picture%20path/bildesti%201.webp', alt: 'Bildesti-labyrintarbeidsark med tematiske bilder for forskole og barnehage', caption: 'Bildesti-modus: barn folger en visuell sti fra startbilde til sluttbilde gjennom tematiske dekorasjoner' },
+      { src: '/samples/norwegian/picture%20path/bildesti%201.webp', alt: 'Klassisk labyrintarbeidsark med samlbar telling og fasit', caption: 'Klassisk labyrint-modus med samlbare bilder og automatisk fasit som viser losningssti og tellinger' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'Hvordan lage labyrintarbeidsark — komplett veiledning',

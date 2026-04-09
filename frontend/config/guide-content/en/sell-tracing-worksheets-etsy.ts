@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/drawing lines/drawing_lines_curve 1.webp', alt: 'Tracing worksheet with SVG line template and themed images ready for Etsy' },
+    heroImage: { src: '/samples/english/drawing lines/drawing-lines-curve-1.webp', alt: 'Tracing worksheet with SVG line template and themed images ready for Etsy' },
     samples: [
-      { src: '/samples/english/drawing lines/drawing_lines_curve 2.webp', alt: 'Tracing path worksheet with themed images for fine motor practice', caption: 'A tracing worksheet with themed image endpoints exported at 300 DPI for Etsy' },
-      { src: '/samples/english/big small/big-small-different images.webp', alt: 'Big and small comparison worksheet companion product', caption: 'Big-small worksheets complement tracing activities in fine motor development bundles' },
+      { src: '/samples/english/drawing lines/drawing-lines-curve-2.webp', alt: 'Tracing path worksheet with themed images for fine motor practice', caption: 'A tracing worksheet with themed image endpoints exported at 300 DPI for Etsy' },
+      { src: '/samples/english/big small/big-small-different-images.webp', alt: 'Big and small comparison worksheet companion product', caption: 'Big-small worksheets complement tracing activities in fine motor development bundles' },
     ],
     youtubeId: 'P9q3ymjFnOQ',
     videoTitle: 'How to Create Tracing Worksheets',

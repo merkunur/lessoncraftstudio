@@ -218,27 +218,27 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%201.webp',
+      primary: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%201.webp',
       primaryAlt: 'Welke hoort er niet bij werkblad met vier afbeeldingen per oefeningrij, kleurrijke thema-illustraties en gelokaliseerde Vind de Vreemde Eend koptekst',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%202.webp',
+        src: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%202.webp',
         alt: 'Vergelijkbaar modus welke hoort er niet bij werkblad met drie dieren en één voedselitem per rij',
         caption: 'Vergelijkbaar modus — drie afbeeldingen uit Thema A en één vreemd item uit Thema B',
       },
       {
-        src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%203.webp',
+        src: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%203.webp',
         alt: 'Identiek modus welke hoort er niet bij werkblad met drie identieke afbeeldingen en één afwijkende afbeelding per rij',
         caption: 'Identiek modus — drie klonen van dezelfde afbeelding en één ander item',
       },
       {
-        src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%201%20answer-key.webp',
+        src: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%201%20answer-key.webp',
         alt: 'Welke hoort er niet bij antwoordblad met rode cirkels rond het vreemde item in elke oefeningrij',
         caption: 'Automatisch gegenereerd antwoordblad — rode cirkels markeren het vreemde item in elke rij',
       },
       {
-        src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%204.webp',
+        src: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%204.webp',
         alt: 'Welke hoort er niet bij werkblad met achtergrondthema en kaderthema voor professionele presentatie',
         caption: 'Professionele indeling met achtergrond- en kaderthema\'s voor marktplaatsvermeldingen',
       },

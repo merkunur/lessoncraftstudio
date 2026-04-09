@@ -275,22 +275,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/crossword/crossword_worksheet.webp',
+      primary: '/samples/german/crossword/crossword-worksheet.webp',
       primaryAlt: 'Bilderkreuzworträtsel mit Bildhinweisen auf 15×15-Raster, lokalisiertem Bilderkreuzworträtsel-Header und nummerierten Hinweispositionen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/crossword/crossword_worksheet.webp',
+        src: '/samples/german/crossword/crossword-worksheet.webp',
         alt: 'Bilderkreuzworträtsel mit thematischen Bildhinweisen neben einem 15×15-Kreuzwortraster',
         caption: 'Bilderkreuzworträtsel — Bildhinweise ersetzen traditionelle Text-Hinweise auf einem 15×15-Raster',
       },
       {
-        src: '/samples/german/crossword/crossword_worksheet.webp',
+        src: '/samples/german/crossword/crossword-worksheet.webp',
         alt: 'Benutzerdefiniertes Wortlisten-Kreuzworträtsel mit Text-Hinweisen und ausgefülltem Raster',
         caption: 'Benutzerdefinierter Wortlisten-Modus — traditionelle Text-Hinweis-Kreuzworträtsel mit eigenem Vokabular',
       },
       {
-        src: '/samples/german/crossword/crossword_answer_key.webp',
+        src: '/samples/german/crossword/crossword-answer-key.webp',
         alt: 'Kreuzworträtsel-Lösungsschlüssel mit allen korrekten Buchstaben im ausgefüllten Raster',
         caption: 'Automatisch generierter Lösungsschlüssel — ausgefülltes Raster zeigt alle korrekten Antworten',
       },

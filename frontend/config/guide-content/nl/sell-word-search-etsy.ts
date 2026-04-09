@@ -186,11 +186,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker puzzel met thematisch woordenschatraster voor verkoop op Etsy' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzel met thematisch woordenschatraster voor verkoop op Etsy' },
     samples: [
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Dierenthema woordzoeker puzzel gemaakt voor Etsy digitale download vermelding', caption: 'Woordzoeker puzzel met dierenthema — rasterformaat dat opvallende Etsy-vermeldingsfoto\'s maakt' },
-      { src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201.webp', alt: 'Kruiswoordpuzzel als aanvulling op woordzoekerproducten in een Etsy puzzelwinkel', caption: 'Kruiswoordpuzzel — natuurlijke cross-sell partner voor woordzoekervermeldingen in je Etsy-winkel' },
-      { src: '/samples/dutch/word%20scramble/Letterzaak%201.webp', alt: 'Letterpuzzel met aanvullend formaat voor Etsy puzzelbundels', caption: 'Letterpuzzel — snelle woordenschatactiviteit die variatie toevoegt aan multi-formaat bundels' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Dierenthema woordzoeker puzzel gemaakt voor Etsy digitale download vermelding', caption: 'Woordzoeker puzzel met dierenthema — rasterformaat dat opvallende Etsy-vermeldingsfoto\'s maakt' },
+      { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: 'Kruiswoordpuzzel als aanvulling op woordzoekerproducten in een Etsy puzzelwinkel', caption: 'Kruiswoordpuzzel — natuurlijke cross-sell partner voor woordzoekervermeldingen in je Etsy-winkel' },
+      { src: '/samples/dutch/word%20scramble/letterzaak%201.webp', alt: 'Letterpuzzel met aanvullend formaat voor Etsy puzzelbundels', caption: 'Letterpuzzel — snelle woordenschatactiviteit die variatie toevoegt aan multi-formaat bundels' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Woordzoeker Puzzels Maken voor Verkoop op Etsy — Stapsgewijze Tutorial',

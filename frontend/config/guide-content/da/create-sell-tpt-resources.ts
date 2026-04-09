@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Additionsarbejdsark-ressource egnet til salg på Gumroad markedsplads' },
+    heroImage: { src: '/samples/danish/matching/find%20parrene%201.webp', alt: 'Additionsarbejdsark-ressource egnet til salg på Gumroad markedsplads' },
     samples: [
-      { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Find Parrene — dansk eksempelarbejdsark', caption: 'Find Parrene eksempel 1' },
-      { src: '/samples/danish/matching/Find%20Parrene%202.webp', alt: 'Find Parrene — dansk eksempel 2', caption: 'Find Parrene eksempel 2' },
-      { src: '/samples/danish/matching/Find%20Parrene%203.webp', alt: 'Find Parrene — dansk eksempel 3', caption: 'Find Parrene eksempel 3' },
+      { src: '/samples/danish/matching/find%20parrene%201.webp', alt: 'Find Parrene — dansk eksempelarbejdsark', caption: 'Find Parrene eksempel 1' },
+      { src: '/samples/danish/matching/find%20parrene%202.webp', alt: 'Find Parrene — dansk eksempel 2', caption: 'Find Parrene eksempel 2' },
+      { src: '/samples/danish/matching/find%20parrene%203.webp', alt: 'Find Parrene — dansk eksempel 3', caption: 'Find Parrene eksempel 3' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sådan generator du pædagogiske arbejdsark til Gumroad — Trin-for-trin vejledning',

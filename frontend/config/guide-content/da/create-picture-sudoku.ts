@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/sudoku/Billede-Sudoku%201.webp', alt: 'Billedsudoku-arbejdsark med tematiske billeder der viser et 4x4 logikpuslespil til det yngre publikum' },
+    heroImage: { src: '/samples/danish/sudoku/billede-sudoku%201.webp', alt: 'Billedsudoku-arbejdsark med tematiske billeder der viser et 4x4 logikpuslespil til det yngre publikum' },
     samples: [
-      { src: '/samples/danish/sudoku/Billede-Sudoku%201.webp', alt: 'Billede-Sudoku — dansk eksempelarbejdsark', caption: 'Billede-Sudoku eksempel 1' },
-      { src: '/samples/danish/sudoku/Billede-Sudoku%202.webp', alt: 'Billede-Sudoku — dansk eksempel 2', caption: 'Billede-Sudoku eksempel 2' },
-      { src: '/samples/danish/sudoku/Billede-Sudoku%203.webp', alt: 'Billede-Sudoku — dansk eksempel 3', caption: 'Billede-Sudoku eksempel 3' },
+      { src: '/samples/danish/sudoku/billede-sudoku%201.webp', alt: 'Billede-Sudoku — dansk eksempelarbejdsark', caption: 'Billede-Sudoku eksempel 1' },
+      { src: '/samples/danish/sudoku/billede-sudoku%202.webp', alt: 'Billede-Sudoku — dansk eksempel 2', caption: 'Billede-Sudoku eksempel 2' },
+      { src: '/samples/danish/sudoku/billede-sudoku%203.webp', alt: 'Billede-Sudoku — dansk eksempel 3', caption: 'Billede-Sudoku eksempel 3' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Sådan generator du billedsudoku — Komplet vejledning',

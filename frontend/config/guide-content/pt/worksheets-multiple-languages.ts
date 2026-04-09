@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
+      src: '/samples/portuguese/wordsearch/caça-palavras-1.webp',
       alt: 'Atividade de sopa de letras demonstrando a geração de conteúdo multilingue com gestão correta de caracteres',
     },
     samples: [
       {
-        src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp',
+        src: '/samples/portuguese/wordsearch/caça-palavras-2.webp',
         alt: 'Sopa de letras mostrando conteúdo baseado em vocabulário que requer suporte correto de caracteres multilingues',
         caption: 'As sopas de letras demonstram a importância da gestão correta de caracteres entre idiomas',
       },
       {
-        src: '/samples/portuguese/alphabet train/Comboio do Alfabeto 1.webp',
+        src: '/samples/portuguese/alphabet train/comboio-do-alfabeto-1.webp',
         alt: 'Atividade de comboio do alfabeto mostrando a geração de letras e caracteres específicos de cada idioma',
         caption: 'As atividades de alfabeto requerem caracteres específicos do idioma incluindo tremas e letras acentuadas',
       },
       {
-        src: '/samples/portuguese/matching/Encontre os Pares 1.webp',
+        src: '/samples/portuguese/matching/encontre-os-pares-1.webp',
         alt: 'Atividade de correspondência mostrando produção multilingue com elementos visuais e textuais',
         caption: 'As atividades de correspondência combinam elementos visuais com vocabulário específico do idioma para mercados internacionais',
       },

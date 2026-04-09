@@ -173,22 +173,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/bingo/bilder-bingo 1.webp',
+      src: '/samples/german/bingo/bilder-bingo-1.webp',
       alt: 'Bingokarten-Arbeitsblatt als Beispiel für ein saisonales Druckvorlagen-Produkt für Feiertags-Marketingkampagnen',
     },
     samples: [
       {
-        src: '/samples/german/bingo/bilder-bingo 1.webp',
+        src: '/samples/german/bingo/bilder-bingo-1.webp',
         alt: 'Bingokarte als saisonales Druckvorlagen-Produkt für Feiertagsveranstaltungen und Feiern',
         caption: 'Bingokarten passen sich an jedes saisonale Thema an und sind damit ideale Produkte für ganzjähriges saisonales Marketing',
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: '/samples/german/coloring/coloring-portrait-1.webp',
         alt: 'Malvorlage als saisonaler Druckvorlagen-Inhalt für Feiertags-Marktplatz-Listings',
         caption: 'Saisonale Malvorlagen sind konstante Top-Verkäufer während der Feiertags-Nachfragespitzen auf allen Druckvorlagen-Marktplätzen',
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuchrätsel als saisonale Vokabel-Druckvorlage für Feiertags-Marketing',
         caption: 'Thematische Wortsuchaufgaben verbinden saisonale Attraktivität mit praktischem Wert für starke saisonale Marktplatzleistung',
       },

@@ -164,7 +164,7 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/writing/writing beginning letter.webp',
+      src: '/samples/english/writing/writing-beginning-letter.webp',
       alt: 'Professional writing worksheet demonstrating original creative design elements that are copyrightable',
     },
     samples: [
@@ -174,12 +174,12 @@ const content: GuideContent = {
         caption: 'Writing worksheets contain substantial original creative expression in their instructional text and design',
       },
       {
-        src: '/samples/english/wordsearch/Word Search 10.webp',
+        src: '/samples/english/wordsearch/word-search-10.webp',
         alt: 'Word search puzzle with themed imagery demonstrating creative arrangement of educational content',
         caption: 'Word search puzzles demonstrate copyrightable creative arrangement of vocabulary elements',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/english/coloring/coloring-portrait-1.webp',
         alt: 'Coloring page with original themed illustration design',
         caption: 'Coloring pages have strong copyright positions due to the visual originality of their designs',
       },

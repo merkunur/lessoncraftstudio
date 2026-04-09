@@ -151,10 +151,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%202.webp', alt: 'Sanakäärmepalapeliworksheet monitermisenä tulostettavana tuotteena Etsy SEO -optimointiin' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%202.webp', alt: 'Sanakäärmepalapeliworksheet monitermisenä tulostettavana tuotteena Etsy SEO -optimointiin' },
     samples: [
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Eläinteemainen sanakäärmepalapeli teemapohjaiseen Etsy-avainsanakohdentamiseen', caption: 'Sanakäärme eläinteemalla — jokainen teema- ja kielivariaatio kohdistuu eri Etsy-hakuavainsanoihin' },
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki suurivolyymisiin Etsy-matemaattisen tulostettavan avainsanoihin', caption: 'Yhteenlaskutyöarkki eläinteemalla — kohdistuu suurivolyymisiin matemaattisen tulostettavan avainsanoihin' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Eläinteemainen sanakäärmepalapeli teemapohjaiseen Etsy-avainsanakohdentamiseen', caption: 'Sanakäärme eläinteemalla — jokainen teema- ja kielivariaatio kohdistuu eri Etsy-hakuavainsanoihin' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki suurivolyymisiin Etsy-matemaattisen tulostettavan avainsanoihin', caption: 'Yhteenlaskutyöarkki eläinteemalla — kohdistuu suurivolyymisiin matemaattisen tulostettavan avainsanoihin' },
       { src: '/samples/finnish/coloring/coloring%20portrait%202.webp', alt: 'Eläinvärityskuva teemapohjaiseen Etsy-avainsanastrategiaan tulostettaville myyjille', caption: 'Värityskuva eläinteemalla — teemakohtaiset avainsanat ohjaavat kohdennettua Etsy-hakuliikennettä' },
     ],
     youtubeId: '36keBFzJbPo',

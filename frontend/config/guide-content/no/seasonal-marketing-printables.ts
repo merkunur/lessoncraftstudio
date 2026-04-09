@@ -43,7 +43,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Bingokort som viser sesongbasert printable-produkt for hoytidsarrangementer', caption: 'Bingokort tilpasser seg til hvert sesongbasert tema for helars sesongmarkedsforing' },
       { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside for sesongbaserte markedsplassoppforinger', caption: 'Sesongbaserte fargeleggingssider er konsekvent toppselgere under hoytidsettersporselstopper' },
-      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek med sesongbasert vokabular for hoytidsmarkedsforing', caption: 'Tematiske ordsoek kombinerer sesongappell med pedagogisk verdi' },
+      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsoek med sesongbasert vokabular for hoytidsmarkedsforing', caption: 'Tematiske ordsoek kombinerer sesongappell med pedagogisk verdi' },
     ],
   },
 };

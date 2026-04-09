@@ -208,12 +208,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Atividade de sopa de letras que demonstra a qualidade de saída de licença comercial para vendedores de imprimíveis' },
+    heroImage: { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Atividade de sopa de letras que demonstra a qualidade de saída de licença comercial para vendedores de imprimíveis' },
     samples: [
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Atividade de puzzle de sopa de letras pronta para venda comercial', caption: 'Sopa de Letras — Líder de Vendas Comerciais' },
-      { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividade de matemática de soma com licença comercial', caption: 'Soma — Básico Permanente de Matemática' },
-      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Atividade de página para colorir para livros de atividades KDP', caption: 'Colorir — Categoria de Alto Volume na KDP' },
-      { src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp', alt: 'Puzzle de palavras cruzadas que demonstra o valor comercial multilingue', caption: 'Palavras Cruzadas — Valor de Licença Multilingue' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-2.webp', alt: 'Atividade de puzzle de sopa de letras pronta para venda comercial', caption: 'Sopa de Letras — Líder de Vendas Comerciais' },
+      { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade de matemática de soma com licença comercial', caption: 'Soma — Básico Permanente de Matemática' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Atividade de página para colorir para livros de atividades KDP', caption: 'Colorir — Categoria de Alto Volume na KDP' },
+      { src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp', alt: 'Puzzle de palavras cruzadas que demonstra o valor comercial multilingue', caption: 'Palavras Cruzadas — Valor de Licença Multilingue' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como Criar Atividades de Sopa de Letras para Venda Comercial — Demo do LessonCraftStudio',

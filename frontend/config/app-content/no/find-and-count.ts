@@ -265,22 +265,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
+      primary: '/samples/norwegian/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp',
       primaryAlt: 'Finn og tell sokearbeidsark med spredte bilder på et rutenett, blå overskriftsramme og fire oppgaveinstruksjoner',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
+        src: '/samples/norwegian/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp',
         alt: 'Skjulte objekter sokearbeidsark i stående modus med spredte dyrebilder og oppgaveinstruksjoner',
         caption: 'Skjulte Objekter-modus — klassisk soking med ring rundt, firkant, strek over og tell-oppgaver',
       },
       {
-        src: '/samples/norwegian/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%202.webp',
+        src: '/samples/norwegian/find%20and%20count/jeg%20ser%2c%20jeg%20ser%202.webp',
         alt: 'Finn og tell sokearbeidsark med et annet tema og variert rutenettethet',
         caption: 'Tematisk sokearbeidsark — 104 temaer gir unike sokescener for hvert arbeidsark',
       },
       {
-        src: '/samples/norwegian/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%203.webp',
+        src: '/samples/norwegian/find%20and%20count/jeg%20ser%2c%20jeg%20ser%203.webp',
         alt: 'Finn og tell fasit med rode sirkel-, firkant- og korsannoteringer over korrekte objekter',
         caption: 'Automatisk generert fasit — rode annoteringer og mengdevisninger markerer korrekte svar',
       },

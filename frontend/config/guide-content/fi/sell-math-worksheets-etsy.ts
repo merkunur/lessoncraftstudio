@@ -146,11 +146,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%202.webp', alt: 'Yhteenlaskutyöarkki temaattisilla kuvituksilla kuvapohjaisilla matemaattisilla tehtävillä myyntiin Etsyssä' },
+    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%202.webp', alt: 'Yhteenlaskutyöarkki temaattisilla kuvituksilla kuvapohjaisilla matemaattisilla tehtävillä myyntiin Etsyssä' },
     samples: [
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki Etsy-digitaalilatauslistaukseen', caption: 'Yhteenlaskutyöarkki eläinteemalla — kuvapohjaiset matemaattiset tehtävät tuottavat näyttäviä Etsy-listauskuvia' },
-      { src: '/samples/finnish/subtraction/Hauskaa%20V%C3%A4hennyslaskua%202.webp', alt: 'Vähennyslaskutyöarkki täydentämässä yhteenlaskutuotteita Etsy-matemaattikaupassa', caption: 'Vähennyslaskutyöarkki — luonnollinen ristikkäismyyntikaveriks yhteenlaskulistauksille kaupassasi' },
-      { src: '/samples/finnish/math%20puzzle/Matematiikkapulmat%202.webp', alt: 'Matemaattinen pulmatehtävä ainutlaatuisella formaatilla Etsy-listausten erilaistamiseen', caption: 'Matemaattinen pulmatehtävä — ainutlaatuinen formaatti vähemmällä Etsy-kilpailulla kuin standardityöarkit' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki Etsy-digitaalilatauslistaukseen', caption: 'Yhteenlaskutyöarkki eläinteemalla — kuvapohjaiset matemaattiset tehtävät tuottavat näyttäviä Etsy-listauskuvia' },
+      { src: '/samples/finnish/subtraction/hauskaa%20v%c3%a4hennyslaskua%202.webp', alt: 'Vähennyslaskutyöarkki täydentämässä yhteenlaskutuotteita Etsy-matemaattikaupassa', caption: 'Vähennyslaskutyöarkki — luonnollinen ristikkäismyyntikaveriks yhteenlaskulistauksille kaupassasi' },
+      { src: '/samples/finnish/math%20puzzle/matematiikkapulmat%202.webp', alt: 'Matemaattinen pulmatehtävä ainutlaatuisella formaatilla Etsy-listausten erilaistamiseen', caption: 'Matemaattinen pulmatehtävä — ainutlaatuinen formaatti vähemmällä Etsy-kilpailulla kuin standardityöarkit' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Yhteenlaskutyöarkkien luominen myyntiin Etsyssä — Vaihe vaiheelta -opas',

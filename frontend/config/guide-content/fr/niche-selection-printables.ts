@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche de mots cachés démontrant le contenu de niche thématique pour les activités d\'imprimables' },
+    heroImage: { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Fiche de mots cachés démontrant le contenu de niche thématique pour les activités d\'imprimables' },
     samples: [
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés thématique montrant l\'application de niche à travers les sujets', caption: 'Les puzzles de mots cachés s\'adaptent à n\'importe quel thème de niche — animaux, fêtes, matières et sujets saisonniers fonctionnent tous avec le même format de produit' },
-      { src: '/samples/french/coloring/coloring portrait 2.webp', alt: 'Page de coloriage démontrant la polyvalence des produits de niche visuels', caption: 'Les pages de coloriage sont parmi les produits de niche les plus polyvalents, plaisant à travers les tranches d\'âge et s\'appliquant à pratiquement n\'importe quel thème visuel' },
-      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'appariement montrant la variété des produits de niche éducatifs', caption: 'Les activités d\'appariement fonctionnent à travers les niches éducatives du vocabulaire aux maths — un seul type de produit qui valide rapidement la demande de niche' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés thématique montrant l\'application de niche à travers les sujets', caption: 'Les puzzles de mots cachés s\'adaptent à n\'importe quel thème de niche — animaux, fêtes, matières et sujets saisonniers fonctionnent tous avec le même format de produit' },
+      { src: '/samples/french/coloring/coloring-portrait-2.webp', alt: 'Page de coloriage démontrant la polyvalence des produits de niche visuels', caption: 'Les pages de coloriage sont parmi les produits de niche les plus polyvalents, plaisant à travers les tranches d\'âge et s\'appliquant à pratiquement n\'importe quel thème visuel' },
+      { src: '/samples/french/matching/trouve-les-paires-1.webp', alt: 'Fiche d\'appariement montrant la variété des produits de niche éducatifs', caption: 'Les activités d\'appariement fonctionnent à travers les niches éducatives du vocabulaire aux maths — un seul type de produit qui valide rapidement la demande de niche' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Comment Créer des Puzzles de Mots Cachés pour N\'importe Quel Thème de Niche',

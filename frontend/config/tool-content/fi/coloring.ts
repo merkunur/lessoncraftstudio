@@ -96,13 +96,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/coloring/coloring portrait 1.webp',
+      primary: '/samples/finnish/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Mukautettu värityssivu vapaalla kankaalla värikkäillä temaattisilla kuvituksilla järjestettynä alkuperäiseen koostumukseen koristeellisella kehyksellä',
     },
     sampleGallery: [
-      { src: '/samples/finnish/coloring/coloring portrait 1.webp', alt: 'Eläinteemainen värityssivu useilla kuvituksilla vapaalla kankaalla, osoittaen luovia asettelumahdollisuuksia', caption: 'Eläinteemainen värityssivu — vapaan kankaan asettelu useilla kuvituksilla ainutlaatuisessa koostumuksessa' },
-      { src: '/samples/finnish/coloring/coloring portrait 2.webp', alt: 'Tuotevalmis värityssivu nimikentällä ja kirjoitusharjoitusriveillä yhden napsautuksen tuotelinjan apuvälineillä', caption: 'Tuotelinjan aktiviteettiarkki — nimikenttä ja kirjoitusharjoitusrivit muuttavat värityssivut jäsennellyiksi oppimisaktiviteeteiksi' },
-      { src: '/samples/finnish/coloring/coloring landscape 1.webp', alt: 'Harmaasävyvärityssivun vienti musteystävällisellä muunnoksella värikkäästä koostumuksesta KDP-sisäsivuihin ja massatulostukseen', caption: 'Harmaasävyvienti — värilliset koostumukset muunnetaan musteystävällisiksi värityssivuiksi KDP-sisäsivuihin ja massatulostukseen' },
+      { src: '/samples/finnish/coloring/coloring-portrait-1.webp', alt: 'Eläinteemainen värityssivu useilla kuvituksilla vapaalla kankaalla, osoittaen luovia asettelumahdollisuuksia', caption: 'Eläinteemainen värityssivu — vapaan kankaan asettelu useilla kuvituksilla ainutlaatuisessa koostumuksessa' },
+      { src: '/samples/finnish/coloring/coloring-portrait-2.webp', alt: 'Tuotevalmis värityssivu nimikentällä ja kirjoitusharjoitusriveillä yhden napsautuksen tuotelinjan apuvälineillä', caption: 'Tuotelinjan aktiviteettiarkki — nimikenttä ja kirjoitusharjoitusrivit muuttavat värityssivut jäsennellyiksi oppimisaktiviteeteiksi' },
+      { src: '/samples/finnish/coloring/coloring-landscape-1.webp', alt: 'Harmaasävyvärityssivun vienti musteystävällisellä muunnoksella värikkäästä koostumuksesta KDP-sisäsivuihin ja massatulostukseen', caption: 'Harmaasävyvienti — värilliset koostumukset muunnetaan musteystävällisiksi värityssivuiksi KDP-sisäsivuihin ja massatulostukseen' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Näin Teet Mukautettuja Värityssivuja Vapaalla Kankaalla, Vapaapiirtolla ja Harmaasävyviennillä — Vaiheittainen Opas',

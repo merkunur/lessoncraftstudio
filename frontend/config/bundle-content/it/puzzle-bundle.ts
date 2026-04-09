@@ -195,14 +195,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/missing pieces/Pezzi Mancanti 1.webp',
+      primary: '/samples/italian/missing pieces/pezzi-mancanti-1.webp',
       primaryAlt: 'Puzzle pezzi mancanti con segmenti di griglia rimossi per sfida di ragionamento spaziale',
     },
     sampleGallery: [
-      { src: '/samples/italian/missing pieces/Pezzi Mancanti 1.webp', alt: 'Puzzle pezzi mancanti con segmenti di griglia di immagini rimossi', caption: 'Puzzle Pezzi Mancanti' },
-      { src: '/samples/italian/odd one out/Trova il Diverso 1.webp', alt: 'Scheda trova l\'intruso con righe di immagini simili e una diversa', caption: 'Scheda Trova l\'Intruso' },
-      { src: '/samples/italian/sudoku/Sudoku con Immagini 1.webp', alt: 'Puzzle sudoku 4x4 con immagini tematiche al posto dei numeri', caption: 'Puzzle Sudoku con Immagini' },
-      { src: '/samples/italian/picture path/Percorso di Immagini 1.webp', alt: 'Labirinto percorso di immagini con tragitto tematico attraverso la griglia', caption: 'Labirinto Percorso di Immagini' },
+      { src: '/samples/italian/missing pieces/pezzi-mancanti-1.webp', alt: 'Puzzle pezzi mancanti con segmenti di griglia di immagini rimossi', caption: 'Puzzle Pezzi Mancanti' },
+      { src: '/samples/italian/odd one out/trova-il-diverso-1-v10.webp', alt: 'Scheda trova l\'intruso con righe di immagini simili e una diversa', caption: 'Scheda Trova l\'Intruso' },
+      { src: '/samples/italian/sudoku/sudoku-con-immagini-1.webp', alt: 'Puzzle sudoku 4x4 con immagini tematiche al posto dei numeri', caption: 'Puzzle Sudoku con Immagini' },
+      { src: '/samples/italian/picture path/percorso-di-immagini-1.webp', alt: 'Labirinto percorso di immagini con tragitto tematico attraverso la griglia', caption: 'Labirinto Percorso di Immagini' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Pacchetto Puzzle e Logica — Guarda Tutti i 4 Generatori in Azione',

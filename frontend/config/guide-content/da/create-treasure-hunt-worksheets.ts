@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/treasure%20hunt/Skattejagt%201.webp', alt: 'Skattejagt stifølgnings-arbejdsark med 5 gange 5 koordinatgitter, 6 spredte tematiske billeder som landemærker, retningsledetråde og skattejagt-tematiseret blågrøn overskrift med gylden Fredoka titel' },
+    heroImage: { src: '/samples/danish/treasure%20hunt/skattejagt%201.webp', alt: 'Skattejagt stifølgnings-arbejdsark med 5 gange 5 koordinatgitter, 6 spredte tematiske billeder som landemærker, retningsledetråde og skattejagt-tematiseret blågrøn overskrift med gylden Fredoka titel' },
     samples: [
-      { src: '/samples/danish/treasure%20hunt/Skattejagt%201.webp', alt: 'Skattejagt — dansk eksempelarbejdsark', caption: 'Skattejagt eksempel 1' },
-      { src: '/samples/danish/treasure%20hunt/Skattejagt%202.webp', alt: 'Skattejagt — dansk eksempel 2', caption: 'Skattejagt eksempel 2' },
-      { src: '/samples/danish/treasure%20hunt/Skattejagt%203.webp', alt: 'Skattejagt — dansk eksempel 3', caption: 'Skattejagt eksempel 3' },
+      { src: '/samples/danish/treasure%20hunt/skattejagt%201.webp', alt: 'Skattejagt — dansk eksempelarbejdsark', caption: 'Skattejagt eksempel 1' },
+      { src: '/samples/danish/treasure%20hunt/skattejagt%202.webp', alt: 'Skattejagt — dansk eksempel 2', caption: 'Skattejagt eksempel 2' },
+      { src: '/samples/danish/treasure%20hunt/skattejagt%203.webp', alt: 'Skattejagt — dansk eksempel 3', caption: 'Skattejagt eksempel 3' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'Sådan generator du skattejagt-arbejdsark — Komplet vejledning',

@@ -182,11 +182,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividade de adição como componente central de pacotes de atividades educativas para o Etsy' },
+    heroImage: { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade de adição como componente central de pacotes de atividades educativas para o Etsy' },
     samples: [
-      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Atividade de adição com tema de animais como componente de pacote de matemática para o Etsy', caption: 'Atividade de adição com tema de animais — um componente-chave para pacotes por disciplina de matemática no Etsy' },
-      { src: '/samples/portuguese/subtraction/Subtrações Divertidas 1.webp', alt: 'Atividade de subtração com tema de animais complementando adição em pacotes de matemática Etsy', caption: 'Atividade de subtração com tema de animais — emparelha com atividades de adição para pacotes completos de matemática' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Caça-palavras de animais acrescentando variedade multicategoria a pacotes de atividades Etsy', caption: 'Caça-palavras com tema de animais — acrescenta valor de literacia a pacotes temáticos multicategoria' },
+      { src: '/samples/portuguese/addition/adição-divertida-2.webp', alt: 'Atividade de adição com tema de animais como componente de pacote de matemática para o Etsy', caption: 'Atividade de adição com tema de animais — um componente-chave para pacotes por disciplina de matemática no Etsy' },
+      { src: '/samples/portuguese/subtraction/subtrações-divertidas-1.webp', alt: 'Atividade de subtração com tema de animais complementando adição em pacotes de matemática Etsy', caption: 'Atividade de subtração com tema de animais — emparelha com atividades de adição para pacotes completos de matemática' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Caça-palavras de animais acrescentando variedade multicategoria a pacotes de atividades Etsy', caption: 'Caça-palavras com tema de animais — acrescenta valor de literacia a pacotes temáticos multicategoria' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como criar atividades de adição para pacotes Etsy — Estratégia de pacotes multiproduto',

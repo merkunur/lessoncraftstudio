@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition professionnelle démontrant la qualité qui soutient les stratégies de tarification premium' },
+    heroImage: { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition professionnelle démontrant la qualité qui soutient les stratégies de tarification premium' },
     samples: [
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition avec images thématiques soutenant une tarification premium', caption: 'Le formatage professionnel et les images thématiques justifient des prix plus élevés — les acheteurs paient plus pour la qualité et l\'attrait visuel' },
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés démontrant la différenciation par les caractéristiques pour la tarification', caption: 'Les puzzles de mots cachés avec images thématiques commandent des prix plus élevés que les versions basiques texte seul sur toutes les plateformes' },
-      { src: '/samples/french/coloring/coloring portrait 2.webp', alt: 'Page de coloriage montrant la qualité qui soutient une tarification compétitive', caption: 'Les pages de coloriage de haute qualité démontrent comment la qualité du produit permet directement une tarification premium dans des catégories concurrentielles' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition avec images thématiques soutenant une tarification premium', caption: 'Le formatage professionnel et les images thématiques justifient des prix plus élevés — les acheteurs paient plus pour la qualité et l\'attrait visuel' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés démontrant la différenciation par les caractéristiques pour la tarification', caption: 'Les puzzles de mots cachés avec images thématiques commandent des prix plus élevés que les versions basiques texte seul sur toutes les plateformes' },
+      { src: '/samples/french/coloring/coloring-portrait-2.webp', alt: 'Page de coloriage montrant la qualité qui soutient une tarification compétitive', caption: 'Les pages de coloriage de haute qualité démontrent comment la qualité du produit permet directement une tarification premium dans des catégories concurrentielles' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Comment créer des fiches de maths rapidement — Production efficace pour de meilleures marges bénéficiaires',

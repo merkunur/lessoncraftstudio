@@ -213,12 +213,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsökningsarbetsblad som visar outputkvaliteten hos kommersiell licens för säljare av utskriftsbara produkter' },
+    heroImage: { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsökningsarbetsblad som visar outputkvaliteten hos kommersiell licens för säljare av utskriftsbara produkter' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsökspussel redo för kommersiell försäljning', caption: 'Ordsökning — toppsäljande kommersiell produkt' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsmattearbetsblad med kommersiell licens', caption: 'Addition — ständig matteprodukt' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Målarbildsarbetsblad för KDP-aktivitetsböcker', caption: 'Färgläggning — högvolymkategori på KDP' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Korsordspussel som visar flerspråkigt kommersiellt värde', caption: 'Korsord — flerspråkigt licensvärde' },
+      { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsökspussel redo för kommersiell försäljning', caption: 'Ordsökning — toppsäljande kommersiell produkt' },
+      { src: '/samples/english/addition/addition-fun-1.webp', alt: 'Additionsmattearbetsblad med kommersiell licens', caption: 'Addition — ständig matteprodukt' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Målarbildsarbetsblad för KDP-aktivitetsböcker', caption: 'Färgläggning — högvolymkategori på KDP' },
+      { src: '/samples/english/crossword/crossword-worksheet.webp', alt: 'Korsordspussel som visar flerspråkigt kommersiellt värde', caption: 'Korsord — flerspråkigt licensvärde' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hur du skapar ordsökningsarbetsblad för kommersiell försäljning — LessonCraftStudio demo',

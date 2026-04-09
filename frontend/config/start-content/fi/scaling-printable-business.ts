@@ -214,11 +214,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%201.webp', alt: 'Piirrä ja väritä -tehtävä joka osoittaa luovan tarjonnan tulostettavien liiketoiminnan skaalaamiseen' },
+    heroImage: { src: '/samples/finnish/draw%20and%20color/piirr%c3%a4%20ja%20v%c3%a4rit%c3%a4%201.webp', alt: 'Piirrä ja väritä -tehtävä joka osoittaa luovan tarjonnan tulostettavien liiketoiminnan skaalaamiseen' },
     samples: [
-      { src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%201.webp', alt: 'Piirrä ja Väritä — esimerkkitehtävä', caption: 'Piirrä ja Väritä esimerkki 1' },
-      { src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%202.webp', alt: 'Piirrä ja Väritä — esimerkki 2', caption: 'Piirrä ja Väritä esimerkki 2' },
-      { src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%203.webp', alt: 'Piirrä ja Väritä — esimerkki 3', caption: 'Piirrä ja Väritä esimerkki 3' },
+      { src: '/samples/finnish/draw%20and%20color/piirr%c3%a4%20ja%20v%c3%a4rit%c3%a4%201.webp', alt: 'Piirrä ja Väritä — esimerkkitehtävä', caption: 'Piirrä ja Väritä esimerkki 1' },
+      { src: '/samples/finnish/draw%20and%20color/piirr%c3%a4%20ja%20v%c3%a4rit%c3%a4%202.webp', alt: 'Piirrä ja Väritä — esimerkki 2', caption: 'Piirrä ja Väritä esimerkki 2' },
+      { src: '/samples/finnish/draw%20and%20color/piirr%c3%a4%20ja%20v%c3%a4rit%c3%a4%203.webp', alt: 'Piirrä ja Väritä — esimerkki 3', caption: 'Piirrä ja Väritä esimerkki 3' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Näin luot Piirrä ja Väritä -tehtäviä tulostettavien liiketoimintaasi varten — LessonCraftStudio demo',

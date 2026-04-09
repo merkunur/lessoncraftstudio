@@ -187,11 +187,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche de puzzle de mots cachés montrant une grille thématique adaptée aux pages intérieures d\'un livre de mots cachés Amazon KDP' },
+    heroImage: { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Fiche de puzzle de mots cachés montrant une grille thématique adaptée aux pages intérieures d\'un livre de mots cachés Amazon KDP' },
     samples: [
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés thématique animaux formaté pour un livre de mots cachés KDP', caption: 'Puzzle de mots cachés thématique animaux — les listes de mots thématiques créent un contenu engageant qui surpasse les collections de mots aléatoires dans les avis des acheteurs' },
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés thématique cuisine pour livre KDP', caption: 'Mots cachés thématique cuisine — les sections thématiques ajoutent une structure éditoriale qui distingue les livres de mots cachés professionnels des compilations amateurs' },
-      { src: '/samples/french/crossword/Mots Croisés en Images 1.webp', alt: 'Puzzle de mots croisés pour catalogue de puzzles KDP compagnon', caption: 'Puzzle de mots croisés — type de puzzle compagnon pour la diversification du catalogue et la promotion croisée avec les titres de mots cachés' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés thématique animaux formaté pour un livre de mots cachés KDP', caption: 'Puzzle de mots cachés thématique animaux — les listes de mots thématiques créent un contenu engageant qui surpasse les collections de mots aléatoires dans les avis des acheteurs' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés thématique cuisine pour livre KDP', caption: 'Mots cachés thématique cuisine — les sections thématiques ajoutent une structure éditoriale qui distingue les livres de mots cachés professionnels des compilations amateurs' },
+      { src: '/samples/french/crossword/mots-croisés-en-images-1.webp', alt: 'Puzzle de mots croisés pour catalogue de puzzles KDP compagnon', caption: 'Puzzle de mots croisés — type de puzzle compagnon pour la diversification du catalogue et la promotion croisée avec les titres de mots cachés' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Comment créer des puzzles de mots cachés pour les livres Amazon KDP — Tutoriel étape par étape',

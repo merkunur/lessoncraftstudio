@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlage aus thematischen Bildern mit Graustufen-Umwandlung für druckfertige Malblätter' },
+    heroImage: { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Malvorlage aus thematischen Bildern mit Graustufen-Umwandlung für druckfertige Malblätter' },
     samples: [
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Thematische Malvorlage mit Tierillustrationen auf freier Leinwand angeordnet', caption: 'Malvorlage erstellt mit thematischen Bildern aus der Bibliothek mit freier Leinwand-Platzierung' },
-      { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Graustufen-Malvorlage druckfertig mit sauberen Schwarz-Weiß-Umrissen', caption: 'Graustufen-Export wandelt farbenfrohe Designs in druckfertige Malvorlagen um' },
+      { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Thematische Malvorlage mit Tierillustrationen auf freier Leinwand angeordnet', caption: 'Malvorlage erstellt mit thematischen Bildern aus der Bibliothek mit freier Leinwand-Platzierung' },
+      { src: '/samples/german/coloring/coloring-portrait-2.webp', alt: 'Graustufen-Malvorlage druckfertig mit sauberen Schwarz-Weiß-Umrissen', caption: 'Graustufen-Export wandelt farbenfrohe Designs in druckfertige Malvorlagen um' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'So erstellen Sie Malvorlagen aus thematischen Bildern — Komplettes Tutorial',

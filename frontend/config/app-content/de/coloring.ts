@@ -269,22 +269,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/coloring/coloring portrait 1.webp',
+      primary: '/samples/german/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Individuelle Malvorlage mit thematischen Schwarzweiß-Umrisszeichnungen auf freier Arbeitsfläche mit dekorativem Rahmen und Shop-Namensfeld',
     },
     sampleGallery: [
       {
-        src: '/samples/german/coloring/coloring portrait 2.webp',
+        src: '/samples/german/coloring/coloring-portrait-2.webp',
         alt: 'Tierthemen-Malvorlage mit Schwarzweiß-Umrisszeichnungen auf freier Arbeitsfläche arrangiert',
         caption: 'Tierthemen-Malvorlage — Umrisszeichnungen frei auf der Arbeitsfläche arrangiert',
       },
       {
-        src: '/samples/german/coloring/coloring portrait 3.webp',
+        src: '/samples/german/coloring/coloring-portrait-3.webp',
         alt: 'Malvorlage mit Handschrift-Übungslinien und Namensfeld für den Shop-Einsatz',
         caption: 'Klassenraumfertige Malvorlage — Namensfeld und Handschrift-Übungslinien integriert',
       },
       {
-        src: '/samples/german/coloring/coloring landscape 1.webp',
+        src: '/samples/german/coloring/coloring-landscape-1.webp',
         alt: 'Graustufen-Malvorlage mit dekorativem Rahmen für tintenschonenden Druck',
         caption: 'Graustufen-Export — tintenschonende Malvorlage mit dekorativem Rahmenthema',
       },

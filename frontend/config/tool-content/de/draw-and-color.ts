@@ -218,22 +218,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/draw and color/Zeichnen und Ausmale 1.webp',
+      primary: '/samples/german/draw and color/zeichnen-und-ausmale-1.webp',
       primaryAlt: 'Rasterzeichnen-Arbeitsblatt mit dualem Rastersystem aus leerem Übungsraster und teilweise sichtbarem Hinweisraster mit S&W-Umriss-Thema',
     },
     sampleGallery: [
       {
-        src: '/samples/german/draw and color/Zeichnen und Ausmale 2.webp',
+        src: '/samples/german/draw and color/zeichnen-und-ausmale-2.webp',
         alt: 'Rasterzeichnen-Arbeitsblatt mit Tier-S&W-Umriss-Thema bei 25 % Hinweisprozent mit Übungsraster und Hinweisraster nebeneinander',
         caption: 'Tierthema bei 25 % Hinweisen — Lernende reproduzieren den Umriss aus verstreuten Rasterhinweisen und malen dann ihre Zeichnung aus',
       },
       {
-        src: '/samples/german/draw and color/Zeichnen und Ausmale 3.webp',
+        src: '/samples/german/draw and color/zeichnen-und-ausmale-3.webp',
         alt: 'Rasterzeichnen-Arbeitsblatt mit Horizontal-Symmetrie-Spiegelmodus und Hinweiszellen auf der linken Hälfte für räumliches Denken',
         caption: 'Horizontal-Symmetrie-Modus — Hinweiszellen spiegeln links-rechts für räumliches Denken und bilaterale Symmetrieübungen',
       },
       {
-        src: '/samples/german/draw and color/Zeichnen und Ausmale 4.webp',
+        src: '/samples/german/draw and color/zeichnen-und-ausmale-4.webp',
         alt: 'Rasterzeichnen-Arbeitsblatt mit 10 % Hinweisprozent und minimalen Referenzzellen in einem großen Raster für Expertenniveau-Reproduktion',
         caption: '10 % Hinweis-Experten-Herausforderung — minimale Referenzzellen erfordern präzise Beobachtung und räumliches Denken',
       },

@@ -209,12 +209,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker puzzel werkblad dat meertalige werkbladgeneratie in 11 talen demonstreert' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzel werkblad dat meertalige werkbladgeneratie in 11 talen demonstreert' },
     samples: [
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker puzzel werkblad met taalgevoelige woordenschat', caption: 'Woordzoeker — Beste Meertalige Demo' },
-      { src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201.webp', alt: 'Kruiswoordpuzzel met gelokaliseerde aanwijzingen en antwoorden', caption: 'Kruiswoordpuzzel — Volledig Gelokaliseerde Puzzels' },
-      { src: '/samples/dutch/word scramble/Letterzaak%201.webp', alt: 'Woordscramble werkblad met taal-aangepaste woordenschat', caption: 'Woordscramble — Taalgevoelige Uitvoer' },
-      { src: '/samples/dutch/alphabet train/Alfabettrein%201.webp', alt: 'Alfabet trein werkblad met taalspecifieke lettersets', caption: 'Alfabet Trein — Aangepaste Lettersets' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzel werkblad met taalgevoelige woordenschat', caption: 'Woordzoeker — Beste Meertalige Demo' },
+      { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: 'Kruiswoordpuzzel met gelokaliseerde aanwijzingen en antwoorden', caption: 'Kruiswoordpuzzel — Volledig Gelokaliseerde Puzzels' },
+      { src: '/samples/dutch/word scramble/letterzaak%201.webp', alt: 'Woordscramble werkblad met taal-aangepaste woordenschat', caption: 'Woordscramble — Taalgevoelige Uitvoer' },
+      { src: '/samples/dutch/alphabet train/alfabettrein%201.webp', alt: 'Alfabet trein werkblad met taalspecifieke lettersets', caption: 'Alfabet Trein — Aangepaste Lettersets' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Woordzoeker Werkbladen te Maken in Meerdere Talen — LessonCraftStudio Demo',

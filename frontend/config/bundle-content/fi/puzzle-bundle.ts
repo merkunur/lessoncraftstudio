@@ -194,14 +194,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%201.webp',
+      primary: '/samples/finnish/missing%20pieces/puuttuvat%20palat%201.webp',
       primaryAlt: 'Puuttuvien palojen pulmatyoarkki ruudukkosegmenteilla poistettuna avaruudellisen paattelyn haasteeksi',
     },
     sampleGallery: [
-      { src: '/samples/finnish/missing%20pieces/Puuttuvat%20Palat%201.webp', alt: 'Puuttuvien palojen pulma kuvaruudukkosegmenteilla poistettuna', caption: 'Puuttuvien Palojen pulma' },
-      { src: '/samples/finnish/odd%20one%20out/L%C3%B6yd%C3%A4%20Outo%20Lintu%201.webp', alt: 'Etsi erilainen -tyoarkki riveilla samanlaisia kuvia ja yksi erilainen', caption: 'Etsi Erilainen -tyoarkki' },
-      { src: '/samples/finnish/sudoku/Kuva-Sudoku%202.webp', alt: '4x4 kuvasudoku-pulma temaattisilla kuvilla lukujen sijaan', caption: 'Kuvasudoku-pulma' },
-      { src: '/samples/finnish/picture%20path/Kuvapolku%202.webp', alt: 'Kuvapolkulabyrintti temaattisella kuvareitilla ruudukon lapi', caption: 'Kuvapolku-labyrintti' },
+      { src: '/samples/finnish/missing%20pieces/puuttuvat%20palat%201.webp', alt: 'Puuttuvien palojen pulma kuvaruudukkosegmenteilla poistettuna', caption: 'Puuttuvien Palojen pulma' },
+      { src: '/samples/finnish/odd%20one%20out/l%c3%b6yd%c3%a4%20outo%20lintu%201.webp', alt: 'Etsi erilainen -tyoarkki riveilla samanlaisia kuvia ja yksi erilainen', caption: 'Etsi Erilainen -tyoarkki' },
+      { src: '/samples/finnish/sudoku/kuva-sudoku%202.webp', alt: '4x4 kuvasudoku-pulma temaattisilla kuvilla lukujen sijaan', caption: 'Kuvasudoku-pulma' },
+      { src: '/samples/finnish/picture%20path/kuvapolku%202.webp', alt: 'Kuvapolkulabyrintti temaattisella kuvareitilla ruudukon lapi', caption: 'Kuvapolku-labyrintti' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Pulmat ja logiikka -paketti — Katso kaikki 4 generaattoria toiminnassa',

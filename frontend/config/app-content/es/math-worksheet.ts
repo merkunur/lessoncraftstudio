@@ -259,22 +259,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp',
+      primary: '/samples/spanish/math worksheet/hoja-de-matemáticas-3.webp',
       primaryAlt: 'Ficha de puzzle algebraico ilustrado con símbolos-imagen representando variables desconocidas en un sistema de ecuaciones',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/math worksheet/Hoja de Matemáticas 1.webp',
+        src: '/samples/spanish/math worksheet/hoja-de-matemáticas-1.webp',
         alt: 'Ficha de puzzle algebraico Muy Fácil con dos símbolos-imagen y ecuaciones de solo suma',
         caption: 'Nivel Muy Fácil — dos símbolos-imagen en un sistema de ecuaciones simple con solo suma',
       },
       {
-        src: '/samples/spanish/math worksheet/Hoja de Matemáticas 2.webp',
+        src: '/samples/spanish/math worksheet/hoja-de-matemáticas-2.webp',
         alt: 'Ficha de puzzle algebraico Medio con tres símbolos-imagen y operaciones mixtas',
         caption: 'Nivel Medio — tres símbolos en ecuaciones vinculadas con suma y resta',
       },
       {
-        src: '/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp',
+        src: '/samples/spanish/math worksheet/hoja-de-matemáticas-3.webp',
         alt: 'Ficha de puzzle algebraico Difícil con cuatro símbolos-imagen en un sistema de cuatro ecuaciones',
         caption: 'Nivel Difícil — cuatro incógnitas simultáneas para resolución algebraica avanzada',
       },

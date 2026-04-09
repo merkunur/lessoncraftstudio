@@ -267,22 +267,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/missing pieces/Piezas Perdidas 1.webp',
+      primary: '/samples/spanish/missing pieces/piezas-perdidas-1.webp',
       primaryAlt: 'Ficha de puzzle de piezas faltantes con huecos recortados de una imagen y opciones de solución numeradas incluyendo distractoras',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/missing pieces/Piezas Perdidas 2.webp',
+        src: '/samples/spanish/missing pieces/piezas-perdidas-2.webp',
         alt: 'Puzzle de piezas faltantes con huecos cuadrados recortados de una ilustración colorida',
         caption: 'Forma de pieza cuadrada — cortes geométricos limpios para identificación visual clara',
       },
       {
-        src: '/samples/spanish/missing pieces/Piezas Perdidas 3.webp',
+        src: '/samples/spanish/missing pieces/piezas-perdidas-3.webp',
         alt: 'Puzzle de piezas faltantes con huecos circulares y opciones de solución numeradas',
         caption: 'Forma de pieza circular — cortes redondeados con opciones distractoras para mayor desafío',
       },
       {
-        src: '/samples/spanish/missing pieces/Piezas Perdidas 1 answer_key.webp',
+        src: '/samples/spanish/missing pieces/piezas-perdidas-1-answer-key.webp',
         alt: 'Clave de respuestas del puzzle de piezas faltantes con números resaltados en amarillo dentro de cada hueco',
         caption: 'Clave de respuestas automática — etiquetas amarillas muestran la opción correcta para cada hueco',
       },

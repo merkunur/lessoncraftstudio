@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Risorsa scheda cerca parole ottimizzata per la visibilità e le vendite nel negozio Gumroad' },
+    heroImage: { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Risorsa scheda cerca parole ottimizzata per la visibilità e le vendite nel negozio Gumroad' },
     samples: [
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole ottimizzato per la crescita del catalogo nel negozio Gumroad', caption: 'I puzzle cerca parole sono tra le risorse Gumroad più versatili — crea variazioni stagionali tematiche per un\'espansione rapida del catalogo' },
-      { src: '/samples/italian/math puzzle/Rompicapi Matematici 5.webp', alt: 'Scheda puzzle matematico per la differenziazione nel negozio Gumroad', caption: 'I formati unici di puzzle matematici affrontano minore concorrenza su Gumroad rispetto alle schede standard — una strategia di differenziazione per categorie affollate' },
-      { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Attività cruciverba per risorse di vocabolario Gumroad', caption: 'I cruciverba sono attività di vocabolario ad alta domanda che i venditori cercano per materia e livello scolastico su Gumroad' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Puzzle cerca parole ottimizzato per la crescita del catalogo nel negozio Gumroad', caption: 'I puzzle cerca parole sono tra le risorse Gumroad più versatili — crea variazioni stagionali tematiche per un\'espansione rapida del catalogo' },
+      { src: '/samples/italian/math puzzle/rompicapi-matematici-5.webp', alt: 'Scheda puzzle matematico per la differenziazione nel negozio Gumroad', caption: 'I formati unici di puzzle matematici affrontano minore concorrenza su Gumroad rispetto alle schede standard — una strategia di differenziazione per categorie affollate' },
+      { src: '/samples/italian/crossword/cruciverba-con-immagini-1.webp', alt: 'Attività cruciverba per risorse di vocabolario Gumroad', caption: 'I cruciverba sono attività di vocabolario ad alta domanda che i venditori cercano per materia e livello scolastico su Gumroad' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Puzzle Cerca Parole per il Tuo Negozio Gumroad — Tutorial di Ottimizzazione',

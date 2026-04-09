@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/grid%20match/Gitterpuslespil%201.webp',
+      primary: '/samples/danish/grid%20match/gitterpuslespil%201.webp',
       primaryAlt: 'Gratis gitteropgave med tegne og kopiere på gitter — prøv online med vandmærke',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/grid%20match/Gitterpuslespil%201.webp',
+        src: '/samples/danish/grid%20match/gitterpuslespil%201.webp',
         alt: 'Gratis 3x3 gitteropgave med én ledetrådscelle og otte nummererede fliser til kopiere-øvelse',
         caption: '3×3 gitterpuslespil — én ledetrådscelle synlig, otte fliser at matche fra nummereret palet',
       },
       {
-        src: '/samples/danish/grid%20match/Gitterpuslespil%202.webp',
+        src: '/samples/danish/grid%20match/gitterpuslespil%202.webp',
         alt: 'Gratis 4x4 avanceret gitteropgave med pixel art-lignende fliser til udfordrende tegne-øvelse',
         caption: '4×4 avanceret puslespil — maksimal gitterstørrelse med 16 fliser for udfordrende rumligt ræsonnement',
       },
       {
-        src: '/samples/danish/grid%20match/Gitterpuslespil%203.webp',
+        src: '/samples/danish/grid%20match/gitterpuslespil%203.webp',
         alt: 'Automatisk facit til gitteropgave med nummererede gule cirkler, der viser korrekt flisplacering',
         caption: 'Automatisk genereret facit — nummererede cirkler (#ffffe0) viser korrekt flisplacering på komplet billede',
       },

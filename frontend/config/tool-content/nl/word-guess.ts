@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/word%20guess/Raad%20het%20Woord%201.webp',
+      primary: '/samples/dutch/word%20guess/raad%20het%20woord%201.webp',
       primaryAlt: 'Raad het woord werkblad met afbeeldingsaanwijzingen gekoppeld aan letterrasters met lege plekken voor spellingoefening',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/word%20guess/Raad%20het%20Woord%201.webp',
+        src: '/samples/dutch/word%20guess/raad%20het%20woord%201.webp',
         alt: 'Raad het woord werkblad met afbeeldingsaanwijzingen en gedeeltelijk gevulde letterrasters voor spellingoefening',
         caption: 'Beeldgebaseerde raad-het-woord oefeningen met progressieve aanwijzingsniveaus',
       },
       {
-        src: '/samples/dutch/word%20guess/Raad%20het%20Woord%202.webp',
+        src: '/samples/dutch/word%20guess/raad%20het%20woord%202.webp',
         alt: 'Raad het woord werkblad met meerdere moeilijkheidsniveaus en verschillende hoeveelheden onthulde letters',
         caption: 'Instelbare aanwijzingsmoeilijkheid van Makkelijk tot Geen Aanwijzingen',
       },
       {
-        src: '/samples/dutch/word%20guess/Raad%20het%20Woord%203.webp',
+        src: '/samples/dutch/word%20guess/raad%20het%20woord%203.webp',
         alt: 'Raad het woord werkblad met thematische beeldcollectie en kleurrijke letterrasters',
         caption: 'Thematische collecties creëren samenhangende spellingactiviteitenpakketten',
       },

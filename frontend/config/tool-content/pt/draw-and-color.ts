@@ -209,22 +209,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/draw and color/Desenha e Pinta 1.webp',
+      primary: '/samples/portuguese/draw and color/desenha-e-pinta-1.webp',
       primaryAlt: 'Atividade de desenho em grelha com sistema de grelha dupla mostrando grelha de prática vazia e grelha de pistas parcialmente revelada com tema de contornos a preto e branco',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/draw and color/Desenha e Pinta 2.webp',
+        src: '/samples/portuguese/draw and color/desenha-e-pinta-2.webp',
         alt: 'Atividade de desenho em grelha com tema de contornos de animais a preto e branco a 25 % de percentagem de pistas mostrando grelha de prática e grelha de pistas lado a lado',
         caption: 'Tema animais a 25 % de pistas — os usuários reproduzem o contorno a partir de pistas dispersas na grelha e depois colorem o seu desenho',
       },
       {
-        src: '/samples/portuguese/draw and color/Desenha e Pinta 3.webp',
+        src: '/samples/portuguese/draw and color/desenha-e-pinta-3.webp',
         alt: 'Atividade de desenho em grelha usando modo de simetria espelho horizontal com células de pistas refletidas da esquerda para a direita para prática de raciocínio espacial',
         caption: 'Modo simetria horizontal — as células de pistas refletem-se da esquerda para a direita para prática de raciocínio espacial e simetria bilateral',
       },
       {
-        src: '/samples/portuguese/draw and color/Desenha e Pinta 4.webp',
+        src: '/samples/portuguese/draw and color/desenha-e-pinta-4.webp',
         alt: 'Atividade de desenho em grelha com 10 % de percentagem de pistas mostrando células de referência mínimas numa grelha grande para desafio de reprodução de nível perito',
         caption: 'Desafio perito a 10 % de pistas — células de referência mínimas exigem observação precisa e raciocínio espacial',
       },

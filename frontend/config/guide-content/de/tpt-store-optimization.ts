@@ -190,11 +190,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Arbeitsblatt optimiert für Gumroad Shop-Sichtbarkeit und Verkäufe' },
+    heroImage: { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Arbeitsblatt optimiert für Gumroad Shop-Sichtbarkeit und Verkäufe' },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel optimiert für Gumroad-Shop-Katalogwachstum', caption: 'Wortsuche-Rätsel gehören zu den vielseitigsten Gumroad-Materialien — erstellen Sie thematische saisonale Variationen für schnelle Katalogexpansion' },
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 3.webp', alt: 'Mathe-Rätsel-Arbeitsblatt für Gumroad-Shop-Abstufung', caption: 'Einzigartige Mathe-Rätsel-Formate haben weniger Wettbewerb auf Gumroad als Standard-Arbeitsblätter — eine Abstufungsstrategie für überfüllte Kategorien' },
-      { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel-Aktivität für Gumroad-Vokabel-Materialien', caption: 'Kreuzworträtsel sind stark nachgefragte Vokabelaktivitäten, die Käufer nach Fach und Altersgruppe auf Gumroad suchen' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Rätsel optimiert für Gumroad-Shop-Katalogwachstum', caption: 'Wortsuche-Rätsel gehören zu den vielseitigsten Gumroad-Materialien — erstellen Sie thematische saisonale Variationen für schnelle Katalogexpansion' },
+      { src: '/samples/german/math puzzle/mathe-rätsel-3.webp', alt: 'Mathe-Rätsel-Arbeitsblatt für Gumroad-Shop-Abstufung', caption: 'Einzigartige Mathe-Rätsel-Formate haben weniger Wettbewerb auf Gumroad als Standard-Arbeitsblätter — eine Abstufungsstrategie für überfüllte Kategorien' },
+      { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kreuzworträtsel-Aktivität für Gumroad-Vokabel-Materialien', caption: 'Kreuzworträtsel sind stark nachgefragte Vokabelaktivitäten, die Käufer nach Fach und Altersgruppe auf Gumroad suchen' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Rätsel für Ihren Gumroad-Shop erstellen — Optimierungs-Tutorial',

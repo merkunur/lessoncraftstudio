@@ -205,12 +205,12 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/matching/Matchningsspel.webp',
+      primary: '/samples/swedish/matching/matchningsspel.webp',
       primaryAlt: 'Matchningsarbetsblad med tematiska bilder som visar parmatchningsövning',
     },
     sampleGallery: [
-      { src: '/samples/swedish/matching/Matchningsspel.webp', alt: 'Matchningsarbetsblad med fyra matchningslägen och tematiska bilder', caption: 'Matchning Arbetsblad' },
-      { src: '/samples/swedish/grid match/Rutn%C3%A4tspussel%201.webp', alt: 'Rutnätsmatchningspussel med koordinatbaserad matchning på strukturerat rutnät', caption: 'Rutnätsmatchning Arbetsblad' },
+      { src: '/samples/swedish/matching/matchningsspel.webp', alt: 'Matchningsarbetsblad med fyra matchningslägen och tematiska bilder', caption: 'Matchning Arbetsblad' },
+      { src: '/samples/swedish/grid match/rutn%c3%a4tspussel%201.webp', alt: 'Rutnätsmatchningspussel med koordinatbaserad matchning på strukturerat rutnät', caption: 'Rutnätsmatchning Arbetsblad' },
       { src: '/samples/swedish/shadow match/skuggmatchning%201.webp', alt: 'Skuggmatchningsarbetsblad med siluettparning och dra-linje-format', caption: 'Skuggmatchning Arbetsblad' },
       { src: '/samples/swedish/bingo/bildbingo%201.webp', alt: 'Bingokort med tematiska bilder i slumpmässig rutnätslayout', caption: 'Bingokort' },
       { src: '/samples/swedish/picture sort/sortera%20bilder%201.webp', alt: 'Bildsorteringsarbetsblad med tvåkategori-klassificeringsövning', caption: 'Bildsortering Arbetsblad' },

@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp',
+      primary: '/samples/danish/wordsearch/ords%c3%b8gning%201.webp',
       primaryAlt: 'Gratis ordleg generator online — bogstavjagt med temabilleder og automatisk facit',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/wordsearch/Ordsøgning%201.webp',
+        src: '/samples/danish/wordsearch/ordsøgning%201.webp',
         alt: 'Gratis ordleg med 12x12 bogstavgitter og tematiske billedledetråde — prøv online',
         caption: 'Stående layout — 12×12 gitter med tematiske billedledetråde og ordliste',
       },
       {
-        src: '/samples/danish/wordsearch/Ordsøgning%202.webp',
+        src: '/samples/danish/wordsearch/ordsøgning%202.webp',
         alt: 'Gratis bogstavjagt med større gitter og diagonale ord — prøv uden tilmelding',
         caption: 'Større gitter — med diagonale og baglæns ord aktiveret for øget sværhed',
       },
       {
-        src: '/samples/danish/wordsearch/Ordsøgning%203.webp',
+        src: '/samples/danish/wordsearch/ordsøgning%203.webp',
         alt: 'Gratis ordleg facit med farvekodede markeringer for hvert fundet ord',
         caption: 'Farvekodede facit — seks cyklende farver til øjeblikkelig visuel verifikation',
       },

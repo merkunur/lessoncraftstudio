@@ -39,11 +39,11 @@ const content: GuideContent = {
     { appId: 'coloring', title: 'Fargeleggingssider-generator', description: 'Fargeleggingssider lager overbevisende lead magnets fordi de er visuelt tiltrekkende og ojeblikkelig brukbare.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Profesjonelt ordsoek-arbeidsark som demonstrerer lead magnet-kvalitet for e-postmarkedsforing' },
+    heroImage: { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Profesjonelt ordsoek-arbeidsark som demonstrerer lead magnet-kvalitet for e-postmarkedsforing' },
     samples: [
-      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek-arbeidsark ideelt for e-post lead magnets', caption: 'Ordsoek lager overbevisende lead magnets som tiltrekker malgruppen din' },
+      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsoek-arbeidsark ideelt for e-post lead magnets', caption: 'Ordsoek lager overbevisende lead magnets som tiltrekker malgruppen din' },
       { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside for visuelt tiltrekkende e-postkampanjer', caption: 'Visuelt slående produkter driver hoyere klikkrater i e-postkampanjer' },
-      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Addisjonsarbeidsark for evergreen e-postsekvenser', caption: 'Evergreen matteinnhold driver automatiserte sesongbaserte e-postkampanjer aret rundt' },
+      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Addisjonsarbeidsark for evergreen e-postsekvenser', caption: 'Evergreen matteinnhold driver automatiserte sesongbaserte e-postkampanjer aret rundt' },
     ],
   },
 };

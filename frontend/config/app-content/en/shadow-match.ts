@@ -237,7 +237,7 @@ const content: AppContent = {
         caption: 'Make It Whole mode — match split image halves to complete pictures',
       },
       {
-        src: '/samples/english/shadow match/shadow-match-horizontal answer-key.webp',
+        src: '/samples/english/shadow match/shadow-match-horizontal-answer-key.webp',
         alt: 'Shadow match answer key showing original images with silhouettes and correct letter-to-number match labels',
         caption: 'Auto-generated answer key — letter-to-number labels show correct matches',
       },

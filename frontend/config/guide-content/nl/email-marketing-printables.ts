@@ -183,22 +183,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
+      src: '/samples/dutch/addition/optellen-is-leuk-1.webp',
       alt: 'E-mail marketing strategie voor printable verkopers — bouw een winstgevende e-maillijst op',
     },
     samples: [
       {
-        src: '/samples/dutch/addition/Optellen is Leuk 2.webp',
+        src: '/samples/dutch/addition/optellen-is-leuk-2.webp',
         alt: 'Voorbeeld werkblad voor e-mail leadmagneet — optellen werkblad met aantrekkelijk ontwerp',
         caption: 'Dit type werkblad is ideaal als leadmagneet voor je e-maillijst',
       },
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-1.webp',
         alt: 'Woordzoeker als gratis proefversie met watermerk voor e-mail aanmelding',
         caption: 'Woordzoekers zijn populaire leadmagneten die veel aanmeldingen genereren',
       },
       {
-        src: '/samples/dutch/coloring/coloring portrait 1.webp',
+        src: '/samples/dutch/coloring/coloring-portrait-1.webp',
         alt: 'Kleurplaat als onderdeel van een e-mail welkomstpakket voor nieuwe abonnees',
         caption: 'Kleurplaten werken uitstekend als bonusmateriaal in je welkomstreeks',
       },

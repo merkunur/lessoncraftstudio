@@ -279,12 +279,12 @@ const content: AppContent = {
         caption: 'Nachspur-Modus mit Strichrichtungspfeilen — nummerierte Richtungspfeile zeigen die exakte Buchstabenformierung',
       },
       {
-        src: '/samples/german/writing/writing beginning letter.webp',
+        src: '/samples/german/writing/writing-beginning-letter.webp',
         alt: 'Schreibübungen-Arbeitsblatt im Verblassenden-Nachspur-Modus mit schrittweise verblassenden Buchstaben über jede Zeile',
         caption: 'Verblassender-Nachspur-Modus — Buchstaben verblassen schrittweise, um eigenständiges Schreiben zu fördern',
       },
       {
-        src: '/samples/german/writing/writing custom.webp',
+        src: '/samples/german/writing/writing-custom.webp',
         alt: 'Schreibübungen-Arbeitsblatt im Geführten-Abschrift-Modus mit Schreibschrift auf dem Dreizeilen-Führungssystem',
         caption: 'Schreibschrift Geführte Abschrift — blasse Schreibschriftumrisse auf dem Dreizeilen-Führungssystem für fließende Schriftübungen',
       },

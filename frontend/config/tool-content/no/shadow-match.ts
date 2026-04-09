@@ -225,22 +225,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/shadow%20match/Fullfør%20Bildene%201.webp',
+      primary: '/samples/norwegian/shadow%20match/fullfør%20bildene%201.webp',
       primaryAlt: 'Skyggematching arbeidsark med fargede bilder i øverste rad og automatisk genererte svarte silhuetter i nederste rad med ravgul overskrift og bokstav-nummer-etiketter',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/shadow%20match/Fullfør%20Bildene%201.webp',
+        src: '/samples/norwegian/shadow%20match/fullfør%20bildene%201.webp',
         alt: 'Skyggematching arbeidsark som viser fire fargede bilder matchet med fire pikselnivå svarte silhuetter med A B C D og 1 2 3 4 etiketter',
         caption: 'Skyggematching-modus — brukerne matcher bilder med deres automatisk genererte pikselnivå silhuetter',
       },
       {
-        src: '/samples/norwegian/shadow%20match/Fullfør%20Bildene%202.webp',
+        src: '/samples/norwegian/shadow%20match/fullfør%20bildene%202.webp',
         alt: 'Gjør bildet helt arbeidsark med delte bildehalvdeler som brukerne kobler sammen ved å matche første og andre halvdeler merket A til D og 1 til 4',
         caption: 'Gjør Bildet Helt-modus — brukerne matcher delte bildehalvdeler for å fullføre bilder med horisontale eller vertikale klipp',
       },
       {
-        src: '/samples/norwegian/shadow%20match/Fullfør%20Bildene%203.webp',
+        src: '/samples/norwegian/shadow%20match/fullfør%20bildene%203.webp',
         alt: 'Skyggematching fasit som viser originalbilder ved siden av silhuetter med korrekte bokstav-til-nummer matchingsetiketter som A til 2',
         caption: 'Automatisk generert fasit — bokstav-til-nummer etiketter viser korrekte matchinger for begge øvelsesmoduser',
       },

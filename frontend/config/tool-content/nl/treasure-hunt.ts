@@ -217,17 +217,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/treasure%20hunt/Schattenjacht%201.webp',
+      primary: '/samples/dutch/treasure%20hunt/schattenjacht%201.webp',
       primaryAlt: 'Schattenjacht padzoek werkblad met 5×5 coördinatenraster, 6 verspreide thematische afbeeldingen als oriëntatiepunten, richtingsaanwijzingen en schattenjacht-thema blauwgroene koptekst met gouden titel',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/treasure%20hunt/Schattenjacht%202.webp',
+        src: '/samples/dutch/treasure%20hunt/schattenjacht%202.webp',
         alt: 'Schattenjacht puzzelwerkblad met Kompas richtingsaanwijzingen: noord, zuid, oost en west op een 5×5 coördinatenraster',
         caption: 'Kompasmodus — kompasrichtingen voor gevorderde ruimtelijke oriëntatie en kaartleesvaardigheden',
       },
       {
-        src: '/samples/dutch/treasure%20hunt/Schattenjacht%201%20answer_key.webp',
+        src: '/samples/dutch/treasure%20hunt/schattenjacht%201%20answer-key.webp',
         alt: 'Schattenjacht antwoordblad met uiteindelijke schatcel gemarkeerd in lichtgeel op het 5×5 coördinatenraster',
         caption: 'Automatisch gegenereerd antwoordblad — lichtgele markering toont de schatbestemming voor zelfcontrole',
       },

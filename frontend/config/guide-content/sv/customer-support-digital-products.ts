@@ -176,17 +176,17 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/swedish/matching/Matchningsspel.webp',
+      src: '/samples/swedish/matching/matchningsspel.webp',
       alt: 'Professionellt matchningsarbetsblad som demonstrerar tydlig produktdesign som förebygger kundsupportproblem',
     },
     samples: [
       {
-        src: '/samples/swedish/matching/Matchningsspel.webp',
+        src: '/samples/swedish/matching/matchningsspel.webp',
         alt: 'Matchningsarbetsblad med tydlig layout och instruktioner som minskar köparfrågor',
         caption: 'Tydlig arbetsbladdesign och heltäckande produktbeskrivningar förebygger vanliga supportförfrågningar',
       },
       {
-        src: '/samples/swedish/addition/addition_%C3%B6vning.webp',
+        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
         alt: 'Additionsarbetsblad med professionell formatering som sätter korrekta köparförväntningar',
         caption: 'Professionell formatering och detaljerade specifikationer eliminerar förväntningskonflikter',
       },

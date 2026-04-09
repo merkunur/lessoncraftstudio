@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%201.webp', alt: 'Vreemde eend werkblad met vier afbeeldingen per oefeningrij met drie gemeenschappelijke items en één vreemd item met koraal-amber-turquoise koptekst' },
+    heroImage: { src: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%201.webp', alt: 'Vreemde eend werkblad met vier afbeeldingen per oefeningrij met drie gemeenschappelijke items en één vreemd item met koraal-amber-turquoise koptekst' },
     samples: [
-      { src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%201.webp', alt: 'Vreemde eend werkblad met oefeningskaarten met vier afbeeldingen per rij en gestileerde Vind de Vreemde Eend koptekst', caption: 'Vreemde eend werkblad met vier-afbeelding oefeningrijen en adaptieve kolomindeling' },
-      { src: '/samples/dutch/missing%20pieces/Ontbrekende%20Stukjes%201.webp', alt: 'Ontbrekende stukjes werkblad als voorbeeld van aanvullend visueel discriminatiemateriaal', caption: 'Ontbrekende stukjes werkblad — aanvullend visueel discriminatieproduct' },
-      { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Plaatjes sudoku werkblad als voorbeeld van visueel puzzelproduct', caption: 'Plaatjes sudoku werkblad — visueel puzzelproduct voor bundeling' },
+      { src: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%201.webp', alt: 'Vreemde eend werkblad met oefeningskaarten met vier afbeeldingen per rij en gestileerde Vind de Vreemde Eend koptekst', caption: 'Vreemde eend werkblad met vier-afbeelding oefeningrijen en adaptieve kolomindeling' },
+      { src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%201.webp', alt: 'Ontbrekende stukjes werkblad als voorbeeld van aanvullend visueel discriminatiemateriaal', caption: 'Ontbrekende stukjes werkblad — aanvullend visueel discriminatieproduct' },
+      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Plaatjes sudoku werkblad als voorbeeld van visueel puzzelproduct', caption: 'Plaatjes sudoku werkblad — visueel puzzelproduct voor bundeling' },
     ],
     youtubeId: '0R6WFUfY7Mk',
     videoTitle: 'Hoe Vreemde Eend Puzzels Maken — Complete Handleiding',
@@ -197,7 +197,7 @@ const content: GuideContent = {
   themeImages: [
     { src: '/image-library/space/astronaut.webp', alt: 'Astronaut — thematische educatieve afbeelding', caption: 'Astronaut' },
     { src: '/image-library/space/comet.webp', alt: 'Komeet — thematische educatieve afbeelding', caption: 'Komeet' },
-    { src: '/image-library/space/Earth.webp', alt: 'Aarde — thematische educatieve afbeelding', caption: 'Aarde' },
+    { src: '/image-library/space/earth.webp', alt: 'Aarde — thematische educatieve afbeelding', caption: 'Aarde' },
     { src: '/image-library/space/moon.webp', alt: 'Maan — thematische educatieve afbeelding', caption: 'Maan' },
     { src: '/image-library/space%20bw/rocket.webp', alt: 'Raket — thematische educatieve afbeelding', caption: 'Raket' },
   ],

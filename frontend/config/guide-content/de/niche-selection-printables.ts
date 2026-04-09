@@ -190,11 +190,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Arbeitsblatt zur Demonstration thematischer Nischeninhalte für Druckvorlagen-Geschäfte' },
+    heroImage: { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuchrätsel-Arbeitsblatt zur Demonstration thematischer Nischeninhalte für Druckvorlagen-Geschäfte' },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Thematisches Wortsuchrätsel zur Nischenanwendung über verschiedene Themen', caption: 'Wortsuchrätsel passen sich an jedes Nischenthema an — Tiere, Feiertage, Schulfächer und saisonale Themen funktionieren alle mit demselben Produktformat' },
-      { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Malvorlage zur Demonstration visueller Nischenprodukt-Vielseitigkeit', caption: 'Malvorlagen gehören zu den vielseitigsten Nischenprodukten — sie sprechen über Altersgruppen hinweg an und lassen sich auf praktisch jedes visuelle Thema anwenden' },
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt zur Darstellung der Bildungsnischen-Produktvielfalt', caption: 'Zuordnungsaktivitäten funktionieren über Bildungsnischen hinweg von Vokabeln bis Mathe — ein einzelner Produkttyp, der die Nischennachfrage schnell validiert' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Thematisches Wortsuchrätsel zur Nischenanwendung über verschiedene Themen', caption: 'Wortsuchrätsel passen sich an jedes Nischenthema an — Tiere, Feiertage, Schulfächer und saisonale Themen funktionieren alle mit demselben Produktformat' },
+      { src: '/samples/german/coloring/coloring-portrait-2.webp', alt: 'Malvorlage zur Demonstration visueller Nischenprodukt-Vielseitigkeit', caption: 'Malvorlagen gehören zu den vielseitigsten Nischenprodukten — sie sprechen über Altersgruppen hinweg an und lassen sich auf praktisch jedes visuelle Thema anwenden' },
+      { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Zuordnungs-Arbeitsblatt zur Darstellung der Bildungsnischen-Produktvielfalt', caption: 'Zuordnungsaktivitäten funktionieren über Bildungsnischen hinweg von Vokabeln bis Mathe — ein einzelner Produkttyp, der die Nischennachfrage schnell validiert' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'So erstellen Sie Wortsuchrätsel für jedes Nischenthema',

@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/alphabet%20train/Alfabettog%201.webp',
+      primary: '/samples/norwegian/alphabet%20train/alfabettog%201.webp',
       primaryAlt: 'Alfabettog arbeidsark som viser 11 fargerike vogner med bokstaver og matchende ledetrådsbilder for bokstavgjenkjenning',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/alphabet%20train/Alfabettog%201.webp',
+        src: '/samples/norwegian/alphabet%20train/alfabettog%201.webp',
         alt: 'Fargerikt alfabettog arbeidsark med bokstav-bilde matchingsaktivitet for unge brukere',
         caption: 'Togvognformat med bokstav-bilde matching',
       },
       {
-        src: '/samples/norwegian/alphabet%20train/Alfabettog%202.webp',
+        src: '/samples/norwegian/alphabet%20train/alfabettog%202.webp',
         alt: 'Alfabettog arbeidsark med tematiske bilder og flere ledetrådsmatchingsoppgaver',
         caption: 'Tematiske bilder med konfigurerbart ledetrådsantall',
       },
       {
-        src: '/samples/norwegian/alphabet%20train/Alfabettog%203.webp',
+        src: '/samples/norwegian/alphabet%20train/alfabettog%203.webp',
         alt: 'Avansert alfabettog arbeidsark med 11 ledetråder for maksimal vanskelighetsgrad bokstavgjenkjenning',
         caption: 'Komplett 11-ledetråds vanskelighetsgrad for avanserte brukere',
       },

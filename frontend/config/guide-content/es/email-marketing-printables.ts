@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+      src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp',
       alt: 'Ficha profesional de sopa de letras demostrando calidad de lead magnet para campañas de email marketing',
     },
     samples: [
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp',
         alt: 'Ficha de sopa de letras ideal para lead magnets de email que atraen compradores de imprimibles',
         caption: 'Las sopas de letras son lead magnets atractivos que atraen a su audiencia compradora objetivo',
       },
       {
-        src: '/samples/spanish/coloring/coloring portrait 1.webp',
+        src: '/samples/spanish/coloring/coloring-portrait-1.webp',
         alt: 'Página para colorear mostrando producto visualmente atractivo para promoción en campañas de email',
         caption: 'Los productos visualmente impactantes impulsan mayores tasas de clics en campañas de email',
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: '/samples/spanish/addition/suma-divertida-1.webp',
         alt: 'Ficha de suma demostrando contenido perenne para secuencias de email automatizadas',
         caption: 'El contenido de matemáticas perenne impulsa campañas de email estacionales automatizadas todo el año',
       },

@@ -210,22 +210,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/addition/Sjov%20Addition%201.webp',
+      primary: '/samples/danish/addition/sjov%20addition%201.webp',
       primaryAlt: 'Gratis plusstykker generator online — billedbaserede plusopgaver med dyretema og automatisk facit',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/addition/Sjov%20Addition%201.webp',
+        src: '/samples/danish/addition/sjov%20addition%201.webp',
         alt: 'Gratis plusstykker med dyretema — Billede + Billede-tilstand prøv online',
         caption: 'Billede + Billede-tilstand med dyretema',
       },
       {
-        src: '/samples/danish/addition/Sjov%20Addition%202.webp',
+        src: '/samples/danish/addition/sjov%20addition%202.webp',
         alt: 'Gratis plusopgaver med Billede + Tal-tilstand og tematiske billeder',
         caption: 'Billede + Tal-tilstand med tematiske billeder',
       },
       {
-        src: '/samples/danish/addition/Sjov%20Addition%203.webp',
+        src: '/samples/danish/addition/sjov%20addition%203.webp',
         alt: 'Gratis plusstykker i blandet tilstand med dekorativ ramme — prøv uden tilmelding',
         caption: 'Blandet tilstand med dekorativ ramme',
       },

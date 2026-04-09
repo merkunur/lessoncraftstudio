@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp', alt: 'Ficha de matemáticas mostrando diseño de cuadrícula y espaciado formateado para especificaciones de impresión de Amazon KDP' },
+    heroImage: { src: '/samples/spanish/math worksheet/hoja-de-matemáticas-3.webp', alt: 'Ficha de matemáticas mostrando diseño de cuadrícula y espaciado formateado para especificaciones de impresión de Amazon KDP' },
     samples: [
-      { src: '/samples/spanish/math worksheet/Hoja de Matemáticas 1.webp', alt: 'Ficha de matemáticas con espaciado preciso de cuadrícula demostrando requisitos de márgenes y diseño KDP', caption: 'Diseño de ficha de matemáticas — formateo basado en cuadrícula con tamaño de celdas adecuado para escritura a mano cómoda dentro de las especificaciones de márgenes KDP' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Cuadrícula de sopa de letras mostrando espaciado de letras formateado para impresión KDP', caption: 'Cuadrícula de sopa de letras — espaciado de letras consistente a celdas de 0,3 pulgadas asegura un rodeo y legibilidad cómodos en libros impresos KDP' },
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas demostrando diseño limpio de página única KDP', caption: 'Ficha de sumas — diseño limpio de operación única con espacios de respuesta claros que demuestra formateo interior profesional KDP' },
+      { src: '/samples/spanish/math worksheet/hoja-de-matemáticas-1.webp', alt: 'Ficha de matemáticas con espaciado preciso de cuadrícula demostrando requisitos de márgenes y diseño KDP', caption: 'Diseño de ficha de matemáticas — formateo basado en cuadrícula con tamaño de celdas adecuado para escritura a mano cómoda dentro de las especificaciones de márgenes KDP' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Cuadrícula de sopa de letras mostrando espaciado de letras formateado para impresión KDP', caption: 'Cuadrícula de sopa de letras — espaciado de letras consistente a celdas de 0,3 pulgadas asegura un rodeo y legibilidad cómodos en libros impresos KDP' },
+      { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de sumas demostrando diseño limpio de página única KDP', caption: 'Ficha de sumas — diseño limpio de operación única con espacios de respuesta claros que demuestra formateo interior profesional KDP' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Cómo crear fichas de matemáticas listas para imprimir para Amazon KDP — Tutorial de formateo',

@@ -184,10 +184,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Printbaar werkblad klaar voor verkoop op Gumroad winkelpagina' },
+    heroImage: { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Printbaar werkblad klaar voor verkoop op Gumroad winkelpagina' },
     samples: [
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Printbaar optellen werkblad voor Gumroad digitale productverkoop', caption: 'Rekenwerkbladen creëren educatieve waarde die direct omzet in Gumroad-producten' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker puzzel printable voor Gumroad winkelcatalogus', caption: 'Woordzoekpuzzels hebben brede aantrekkingskracht bij ouder- en verkoperpublieken — een veelzijdig Gumroad-producttype' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Printbaar optellen werkblad voor Gumroad digitale productverkoop', caption: 'Rekenwerkbladen creëren educatieve waarde die direct omzet in Gumroad-producten' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzel printable voor Gumroad winkelcatalogus', caption: 'Woordzoekpuzzels hebben brede aantrekkingskracht bij ouder- en verkoperpublieken — een veelzijdig Gumroad-producttype' },
       { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Kleurplaat activiteit voor Gumroad printable bedrijf', caption: 'Kleurplaten zijn visueel aantrekkelijke producten die social media verkeer naar je Gumroad-winkel genereren' },
     ],
     youtubeId: 'ZdpCr2txHcc',

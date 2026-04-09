@@ -220,12 +220,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsöksarbetsblad skapat med LessonCraftStudio-generator' },
+    heroImage: { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsöksarbetsblad skapat med LessonCraftStudio-generator' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Utskriftsbart ordsöksarbetsblad med djurtema', caption: 'Ordsökning — Djurtema' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsarbetsblad med bildbaserade matteproblem', caption: 'Addition — Bildbaserade problem' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Målarsidesarbetsblad med tematiska illustrationer', caption: 'Målarbilder — Tematiska illustrationer' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchningsarbetsblad med visuella paraktiviteter', caption: 'Matchning — Visuell paraktivitet' },
+      { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Utskriftsbart ordsöksarbetsblad med djurtema', caption: 'Ordsökning — Djurtema' },
+      { src: '/samples/english/addition/addition-fun-1.webp', alt: 'Additionsarbetsblad med bildbaserade matteproblem', caption: 'Addition — Bildbaserade problem' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Målarsidesarbetsblad med tematiska illustrationer', caption: 'Målarbilder — Tematiska illustrationer' },
+      { src: '/samples/english/matching/matching-portrait.webp', alt: 'Matchningsarbetsblad med visuella paraktiviteter', caption: 'Matchning — Visuell paraktivitet' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Så skapar du ordsöksarbetsblad — LessonCraftStudio demo',

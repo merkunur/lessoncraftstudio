@@ -207,22 +207,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/code addition/Code Breaker Addition 1.webp',
+      primary: '/samples/english/code addition/code-breaker-addition-1.webp',
       primaryAlt: 'Code addition worksheet showing cryptarithmetic puzzles with image symbols hiding secret numbers',
     },
     sampleGallery: [
       {
-        src: '/samples/english/code addition/Code Breaker Addition 1.webp',
+        src: '/samples/english/code addition/code-breaker-addition-1.webp',
         alt: 'Code breaker math puzzle with animal symbols in Regular Mode',
         caption: 'Regular Mode with animal theme — each symbol hides a unique number',
       },
       {
-        src: '/samples/english/code addition/Code Breaker Addition 2.webp',
+        src: '/samples/english/code addition/code-breaker-addition-2.webp',
         alt: 'Code addition worksheet in Word Reveal Mode with food images',
         caption: 'Word Reveal Mode — solve equations to spell a secret word',
       },
       {
-        src: '/samples/english/code addition/Code Breaker Addition 3.webp',
+        src: '/samples/english/code addition/code-breaker-addition-3.webp',
         alt: 'Cryptarithmetic puzzle worksheet with mixed addends and decorative border',
         caption: 'Mixed addends with border decoration for product-ready output',
       },

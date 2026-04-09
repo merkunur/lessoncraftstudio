@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/grid match/Quebra-Cabeça de Grade 1.webp',
+      primary: '/samples/portuguese/grid match/quebra-cabeça-de-grade-1.webp',
       primaryAlt: 'Atividade de puzzle de quadrícula com imagem dividida em peças, caselas-dica reveladas e paleta de peças numeradas para atividade de raciocínio espacial',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/grid match/Quebra-Cabeça de Grade 2.webp',
+        src: '/samples/portuguese/grid match/quebra-cabeça-de-grade-2.webp',
         alt: 'Puzzle de quadrícula 3×3 com uma casela-dica visível e oito peças numeradas na paleta misturada para associar',
         caption: 'Puzzle de quadrícula 3×3 — uma casela-dica revelada, oito peças por associar da paleta numerada',
       },
       {
-        src: '/samples/portuguese/grid match/Quebra-Cabeça de Grade 3.webp',
+        src: '/samples/portuguese/grid match/quebra-cabeça-de-grade-3.webp',
         alt: 'Puzzle de quadrícula avançado 4×4 com dezasseis peças e dicas mínimas para atividade desafiante de perceção visual',
         caption: 'Puzzle avançado 4×4 — tamanho máximo de grelha com 16 peças para raciocínio espacial desafiante',
       },
       {
-        src: '/samples/portuguese/grid match/Quebra-Cabeça de Grade 4.webp',
+        src: '/samples/portuguese/grid match/quebra-cabeça-de-grade-4.webp',
         alt: 'Gabarito do puzzle de quadrícula mostrando a imagem completa com círculos amarelos numerados sobrepostos em cada célula indicando a colocação correta das peças',
         caption: 'Gabarito autogerado — círculos numerados (#ffffe0) mostram a colocação correta das peças na imagem completa',
       },

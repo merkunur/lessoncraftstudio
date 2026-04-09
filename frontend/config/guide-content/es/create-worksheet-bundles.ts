@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de matemáticas lista para agrupar en un paquete de fichas de alto valor' },
+    heroImage: { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de matemáticas lista para agrupar en un paquete de fichas de alto valor' },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de suma para creación de paquetes de fichas de matemáticas', caption: 'Las fichas de matemáticas están entre los productos más populares para creación de paquetes — combine suma, resta y sentido numérico para paquetes integrales' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras para paquete temático de fichas', caption: 'Las sopas de letras añaden variedad a los paquetes temáticos y funcionan en paquetes por materia, nivel escolar y estacionales' },
-      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación para colección de paquetes imprimibles', caption: 'Las actividades de asociación complementan otros tipos de fichas en paquetes por formato — la variedad mantiene a los usuarios comprometidos a lo largo de múltiples sesiones' },
+      { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de suma para creación de paquetes de fichas de matemáticas', caption: 'Las fichas de matemáticas están entre los productos más populares para creación de paquetes — combine suma, resta y sentido numérico para paquetes integrales' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras para paquete temático de fichas', caption: 'Las sopas de letras añaden variedad a los paquetes temáticos y funcionan en paquetes por materia, nivel escolar y estacionales' },
+      { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Ficha de asociación para colección de paquetes imprimibles', caption: 'Las actividades de asociación complementan otros tipos de fichas en paquetes por formato — la variedad mantiene a los usuarios comprometidos a lo largo de múltiples sesiones' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Cómo crear fichas de suma para agrupar en colecciones de alto valor',

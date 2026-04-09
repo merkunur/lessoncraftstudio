@@ -185,10 +185,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sanakäärmepalapeli temaattisilla kuvavihjelmillä, jossa sanastosanat on piilotettu kirjainruudukkoon' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sanakäärmepalapeli temaattisilla kuvavihjelmillä, jossa sanastosanat on piilotettu kirjainruudukkoon' },
     samples: [
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Temaattinen sanakäärmepalapeli eläinkuvavihjelmillä ja mukautettavalla ruudukkokoolla', caption: 'Temaattinen sanakäärmepalapeli sanastotilassa eläinkuvavihjelmillä ja konfiguroitavalla ruudukkokoolla' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sanakäärmeen värikoodattu vastausavain jokaisen sanan korostuksella', caption: 'Värikoodattu vastausavain, jossa jokainen piilotettu sana on korostettu eri värillä' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Temaattinen sanakäärmepalapeli eläinkuvavihjelmillä ja mukautettavalla ruudukkokoolla', caption: 'Temaattinen sanakäärmepalapeli sanastotilassa eläinkuvavihjelmillä ja konfiguroitavalla ruudukkokoolla' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sanakäärmeen värikoodattu vastausavain jokaisen sanan korostuksella', caption: 'Värikoodattu vastausavain, jossa jokainen piilotettu sana on korostettu eri värillä' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Näin luot sanakäärmepalapelejä — Täydellinen opas',

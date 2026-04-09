@@ -149,10 +149,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%203.webp', alt: 'Ruudukkopiirustustyöarkki kaksoisruudukolla näyttäen tyhjän harjoitusruudukon ja osittain paljastetun vihjekuvan MV-ääriviivateemalla' },
+    heroImage: { src: '/samples/finnish/draw%20and%20color/piirr%c3%a4%20ja%20v%c3%a4rit%c3%a4%203.webp', alt: 'Ruudukkopiirustustyöarkki kaksoisruudukolla näyttäen tyhjän harjoitusruudukon ja osittain paljastetun vihjekuvan MV-ääriviivateemalla' },
     samples: [
-      { src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%203.webp', alt: 'Ruudukkopiirustustyöarkki kaksoisruudukolla harjoitusruudukon ja vihjekuvan kanssa solukohtaiseen jäljentämiseen', caption: 'Kaksoisruudukkomuoto: tyhjä harjoitusruudukko ylhäällä ja vihjekuva osittaisella viitteellä alla strukturoiduille piirustusharjoituksille' },
-      { src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%202.webp', alt: 'Eläinteemainen ruudukkopiirustustyöarkki MV-ääriviivalla kohtalaisella vihjeprosentilla', caption: 'Eläimen MV-ääriviivateema 25% vihjeillä — käyttäjät jäljentävät ääriviivan hajautetuista ruudukkovihjeistä ja värittävät piirustuksensa' },
+      { src: '/samples/finnish/draw%20and%20color/piirr%c3%a4%20ja%20v%c3%a4rit%c3%a4%203.webp', alt: 'Ruudukkopiirustustyöarkki kaksoisruudukolla harjoitusruudukon ja vihjekuvan kanssa solukohtaiseen jäljentämiseen', caption: 'Kaksoisruudukkomuoto: tyhjä harjoitusruudukko ylhäällä ja vihjekuva osittaisella viitteellä alla strukturoiduille piirustusharjoituksille' },
+      { src: '/samples/finnish/draw%20and%20color/piirr%c3%a4%20ja%20v%c3%a4rit%c3%a4%202.webp', alt: 'Eläinteemainen ruudukkopiirustustyöarkki MV-ääriviivalla kohtalaisella vihjeprosentilla', caption: 'Eläimen MV-ääriviivateema 25% vihjeillä — käyttäjät jäljentävät ääriviivan hajautetuista ruudukkovihjeistä ja värittävät piirustuksensa' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Kuinka luot piirustus- ja symmetriatyöarkkeja — Täydellinen opas',

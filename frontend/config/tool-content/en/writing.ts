@@ -218,12 +218,12 @@ const content: ToolContent = {
         caption: 'Three practice modes on one worksheet — Trace, Fading Trace, and Guided Copy with per-row independence',
       },
       {
-        src: '/samples/english/writing/writing beginning letter.webp',
+        src: '/samples/english/writing/writing-beginning-letter.webp',
         alt: 'Handwriting worksheet in trace mode with print arrow font showing numbered stroke-order directions',
         caption: 'Arrow-guided stroke order — numbered directional arrows show exact letter formation sequence',
       },
       {
-        src: '/samples/english/writing/writing custom.webp',
+        src: '/samples/english/writing/writing-custom.webp',
         alt: 'Handwriting worksheet in fading trace mode with letters progressively fading across each row',
         caption: 'Fading Trace mode — letters progressively fade out to build independent writing confidence',
       },

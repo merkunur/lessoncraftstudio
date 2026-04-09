@@ -219,16 +219,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp',
+      primary: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp',
       primaryAlt: 'Addisjonsarbeidsark med tematiske bilder som viser visuelle telleoppgaver',
     },
     sampleGallery: [
-      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Addisjonsarbeidsark — norsk eksempel', caption: 'Addisjonsarbeidsark' },
-      { src: '/samples/norwegian/subtraction/Moro%20med%20Subtraksjon%201.webp', alt: 'Subtraksjonsarbeidsark — norsk eksempel', caption: 'Subtraksjonsarbeidsark' },
-      { src: '/samples/norwegian/code%20addition/Hemmelig%20Kode%20Addisjon%201.webp', alt: 'Kodeaddisjonsarbeidsark — norsk eksempel', caption: 'Kodeaddisjonsarbeidsark' },
-      { src: '/samples/norwegian/more%20less/Mer%20Mindre%201.webp', alt: 'Mer eller Mindre Arbeidsark — norsk eksempel', caption: 'Mer eller Mindre Arbeidsark' },
-      { src: '/samples/norwegian/math%20puzzle/Mattepuslespill%201.webp', alt: 'Mattepuslespill — norsk eksempel', caption: 'Mattepuslespill' },
-      { src: '/samples/norwegian/math%20worksheet/Matematikkoppgave%201.webp', alt: 'Matematikkoppgave — norsk eksempel', caption: 'Matematikkoppgave' },
+      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Addisjonsarbeidsark — norsk eksempel', caption: 'Addisjonsarbeidsark' },
+      { src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%201.webp', alt: 'Subtraksjonsarbeidsark — norsk eksempel', caption: 'Subtraksjonsarbeidsark' },
+      { src: '/samples/norwegian/code%20addition/hemmelig%20kode%20addisjon%201.webp', alt: 'Kodeaddisjonsarbeidsark — norsk eksempel', caption: 'Kodeaddisjonsarbeidsark' },
+      { src: '/samples/norwegian/more%20less/mer%20mindre%201.webp', alt: 'Mer eller Mindre Arbeidsark — norsk eksempel', caption: 'Mer eller Mindre Arbeidsark' },
+      { src: '/samples/norwegian/math%20puzzle/mattepuslespill%201.webp', alt: 'Mattepuslespill — norsk eksempel', caption: 'Mattepuslespill' },
+      { src: '/samples/norwegian/math%20worksheet/matematikkoppgave%201.webp', alt: 'Matematikkoppgave — norsk eksempel', caption: 'Matematikkoppgave' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Matematikk Mestringspakke — Se alle 6 generatorer i aksjon',

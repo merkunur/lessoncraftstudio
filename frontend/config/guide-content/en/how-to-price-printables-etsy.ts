@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Printable worksheet bundle showing pricing tiers for Etsy sellers' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Printable worksheet bundle showing pricing tiers for Etsy sellers' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search worksheet bundle priced for Etsy', caption: 'Word search bundles at $9.99 to $14.99 represent the revenue-maximizing price range on Etsy' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page mega bundle for Etsy shop', caption: 'Mega bundles with 100+ pages justify premium pricing and generate the highest per-listing revenue' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Word search worksheet bundle priced for Etsy', caption: 'Word search bundles at $9.99 to $14.99 represent the revenue-maximizing price range on Etsy' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page mega bundle for Etsy shop', caption: 'Mega bundles with 100+ pages justify premium pricing and generate the highest per-listing revenue' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

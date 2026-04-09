@@ -249,22 +249,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
+      primary: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp',
       primaryAlt: 'Find-og-tæl opgave til print med spredte billeder på et gitter, blå overskriftsramme og fire tælleøvelse-instruktioner',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
+        src: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp',
         alt: 'Tælleøvelse opgave med spredte dyrebilleder og ring om, firkant, streg over og tæl-instruktioner til børnehaveklasse',
         caption: 'Søgnings-tilstand — børnene finder og tæller genstande med fire opgavetyper',
       },
       {
-        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%202.webp',
+        src: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%202.webp',
         alt: 'Find-og-tæl opgave med tematisk søgebillede og varieret gittertæthed til indskoling',
         caption: 'Tematisk tælleøvelse — 104 temaer giver unikke søge- og tællescener',
       },
       {
-        src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%203.webp',
+        src: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%203.webp',
         alt: 'Facitliste til find-og-tæl opgave med røde cirkel-, firkant- og korsannoteringer og antal-visninger',
         caption: 'Automatisk facit — røde annoteringer og antal-visninger markerer korrekte svar',
       },

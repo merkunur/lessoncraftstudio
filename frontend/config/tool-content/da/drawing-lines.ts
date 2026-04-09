@@ -215,22 +215,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/drawing%20lines/Linjetegnings%C3%B8velse%201.webp',
+      primary: '/samples/danish/drawing%20lines/linjetegnings%c3%b8velse%201.webp',
       primaryAlt: 'Gratis overtegne-øvelse med stiplede linjer og farverige billedpar — prøv skrivemotorik-generatoren online med vandmærke',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%201.webp',
+        src: '/samples/danish/drawing%20lines/linjetegningsøvelse%201.webp',
         alt: 'Gratis overtegne-øvelse med kurveskabelon og stiplede linjer, der forbinder matchede dyrebilledpar',
         caption: 'Kurveskabelon — flydende linjestier med 4 farverige billedpar i liggende orientering',
       },
       {
-        src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%202.webp',
+        src: '/samples/danish/drawing%20lines/linjetegningsøvelse%202.webp',
         alt: 'Gratis finmotorik-øvelse med diagonal skabelon og stiplede linjer, der forbinder fem billedpar',
         caption: 'Diagonal skabelon — vinklede linjer med 5 billedpar for krydsende kropskoordineringsøvelse',
       },
       {
-        src: '/samples/danish/drawing%20lines/Linjetegningsøvelse%204.webp',
+        src: '/samples/danish/drawing%20lines/linjetegningsøvelse%204.webp',
         alt: 'Gratis overtegne-øvelse med vertikal skabelon og stiplede linjer til begynder finmotorik',
         caption: 'Vertikal skabelon — oppefra-og-ned linjer for begynder finmotorisk øvelse',
       },

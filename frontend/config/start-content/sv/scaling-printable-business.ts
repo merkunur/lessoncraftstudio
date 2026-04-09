@@ -222,12 +222,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Rita och färglägg-arbetsblad som demonstrerar kreativt utbud för skalning av utskriftsbart företag' },
+    heroImage: { src: '/samples/english/draw and color/grid-drawing-worksheet.webp', alt: 'Rita och färglägg-arbetsblad som demonstrerar kreativt utbud för skalning av utskriftsbart företag' },
     samples: [
-      { src: '/samples/english/draw and color/grid-drawing_worksheet.webp', alt: 'Rita och färglägg-arbetsblad som visar temavariation för katalogexpansion', caption: 'Rita och färglägg — kreativt utbud för katalogdjup' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsökspussel som demonstrerar högvolymskalbarhet över teman', caption: 'Ordsökning — högsta volympotential för skalning' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Målarbilder som visar språkoberoende internationell skalbarhet', caption: 'Målarbilder — internationell skalning utan översättning' },
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudokupussel som demonstrerar plattformsoberoende produktdistribution', caption: 'Sudoku — plattformsoberoende distribution' },
+      { src: '/samples/english/draw and color/grid-drawing-worksheet.webp', alt: 'Rita och färglägg-arbetsblad som visar temavariation för katalogexpansion', caption: 'Rita och färglägg — kreativt utbud för katalogdjup' },
+      { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsökspussel som demonstrerar högvolymskalbarhet över teman', caption: 'Ordsökning — högsta volympotential för skalning' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Målarbilder som visar språkoberoende internationell skalbarhet', caption: 'Målarbilder — internationell skalning utan översättning' },
+      { src: '/samples/english/sudoku/sudoku-worksheet.webp', alt: 'Sudokupussel som demonstrerar plattformsoberoende produktdistribution', caption: 'Sudoku — plattformsoberoende distribution' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Hur du skapar rita och färglägg-arbetsblad för ditt utskriftsbara företag — LessonCraftStudio demo',

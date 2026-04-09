@@ -202,15 +202,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp',
+      primary: '/samples/dutch/matching/zoek%20de%20paren%201.webp',
       primaryAlt: 'Koppelwerkblad met thematische afbeeldingen die paar-koppeloefening tonen',
     },
     sampleGallery: [
-      { src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp', alt: 'Koppelwerkblad met vier koppelmodi en thematische afbeeldingen', caption: 'Koppelwerkblad' },
-      { src: '/samples/dutch/grid%20match/Rasterpuzzel%201.webp', alt: 'Rasterpuzzel met coördinaatgebaseerd koppelen op gestructureerd raster', caption: 'Rasterpuzzel Werkblad' },
-      { src: '/samples/dutch/shadow%20match/Schaduw%20Koppelen%201.webp', alt: 'Schaduw koppelen werkblad met silhouet koppeling en trek-een-lijn formaat', caption: 'Schaduw Koppelen Werkblad' },
-      { src: '/samples/dutch/bingo/Plaatjesbingo%201.webp', alt: 'Bingokaart met thematische afbeeldingen in willekeurige rasterindeling', caption: 'Plaatjesbingo Kaart' },
-      { src: '/samples/dutch/picture%20sort/Afbeeldingen%20Sorteren%201.webp', alt: 'Sorteer werkblad met twee-categorieën classificatie oefening', caption: 'Sorteer Werkblad' },
+      { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Koppelwerkblad met vier koppelmodi en thematische afbeeldingen', caption: 'Koppelwerkblad' },
+      { src: '/samples/dutch/grid%20match/rasterpuzzel%201.webp', alt: 'Rasterpuzzel met coördinaatgebaseerd koppelen op gestructureerd raster', caption: 'Rasterpuzzel Werkblad' },
+      { src: '/samples/dutch/shadow%20match/schaduw%20koppelen%201.webp', alt: 'Schaduw koppelen werkblad met silhouet koppeling en trek-een-lijn formaat', caption: 'Schaduw Koppelen Werkblad' },
+      { src: '/samples/dutch/bingo/plaatjesbingo%201.webp', alt: 'Bingokaart met thematische afbeeldingen in willekeurige rasterindeling', caption: 'Plaatjesbingo Kaart' },
+      { src: '/samples/dutch/picture%20sort/afbeeldingen%20sorteren%201.webp', alt: 'Sorteer werkblad met twee-categorieën classificatie oefening', caption: 'Sorteer Werkblad' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Matchen & Sorteren Pakket — Bekijk Alle 5 Generators in Actie',

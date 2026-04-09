@@ -220,12 +220,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividade profissional de adição criada com o gerador LessonCraftStudio' },
+    heroImage: { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade profissional de adição criada com o gerador LessonCraftStudio' },
     samples: [
-      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Atividade de adição com problemas de matemática baseados em imagens temáticas', caption: 'Adição — Problemas Baseados em Imagens' },
-      { src: '/samples/portuguese/subtraction/Subtrações Divertidas 1.webp', alt: 'Atividade de subtração com problemas numéricos visuais', caption: 'Subtração — Prática de Matemática Visual' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Atividade de sopa de letras com lista de palavras temáticas', caption: 'Sopa de Letras — Puzzle Temático' },
-      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Atividade para colorir com ilustrações temáticas', caption: 'Colorir — Ilustrações Temáticas' },
+      { src: '/samples/portuguese/addition/adição-divertida-2.webp', alt: 'Atividade de adição com problemas de matemática baseados em imagens temáticas', caption: 'Adição — Problemas Baseados em Imagens' },
+      { src: '/samples/portuguese/subtraction/subtrações-divertidas-1.webp', alt: 'Atividade de subtração com problemas numéricos visuais', caption: 'Subtração — Prática de Matemática Visual' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Atividade de sopa de letras com lista de palavras temáticas', caption: 'Sopa de Letras — Puzzle Temático' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Atividade para colorir com ilustrações temáticas', caption: 'Colorir — Ilustrações Temáticas' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como Criar Atividades de Adição — Demo do LessonCraftStudio',

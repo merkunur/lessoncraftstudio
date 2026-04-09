@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare creata da immagini tematiche che mostra la conversione in scala di grigi per schede da colorare pronte per la stampa' },
+    heroImage: { src: '/samples/italian/coloring/coloring-portrait-1.webp', alt: 'Pagina da colorare creata da immagini tematiche che mostra la conversione in scala di grigi per schede da colorare pronte per la stampa' },
     samples: [
-      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare tematica con illustrazioni di animali disposte su un canvas a composizione libera', caption: 'Pagina da colorare creata usando immagini tematiche dalla libreria con posizionamento su canvas a composizione libera' },
-      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare in scala di grigi pronta per la stampa con contorni in bianco e nero puliti', caption: 'L\'esportazione in scala di grigi converte i design colorati in pagine da colorare pronte per la stampa' },
+      { src: '/samples/italian/coloring/coloring-portrait-1.webp', alt: 'Pagina da colorare tematica con illustrazioni di animali disposte su un canvas a composizione libera', caption: 'Pagina da colorare creata usando immagini tematiche dalla libreria con posizionamento su canvas a composizione libera' },
+      { src: '/samples/italian/coloring/coloring-portrait-1.webp', alt: 'Pagina da colorare in scala di grigi pronta per la stampa con contorni in bianco e nero puliti', caption: 'L\'esportazione in scala di grigi converte i design colorati in pagine da colorare pronte per la stampa' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Come Creare Pagine da Colorare da Immagini Tematiche \— Tutorial Completo',

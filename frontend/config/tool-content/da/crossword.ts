@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/crossword/Billedkrydsord%201.webp',
+      primary: '/samples/danish/crossword/billedkrydsord%201.webp',
       primaryAlt: 'Gratis krydsord generator online — billedkrydsord med ledetråde og automatisk facit',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/crossword/Billedkrydsord%201.webp',
+        src: '/samples/danish/crossword/billedkrydsord%201.webp',
         alt: 'Gratis krydsord med tematiske billedledetråde og 15x15 gitter — prøv online',
         caption: 'Tematisk billedkrydsord — billeder som ledetråde med nummererede gitterpositioner',
       },
       {
-        src: '/samples/danish/crossword/Billedkrydsord%202.webp',
+        src: '/samples/danish/crossword/billedkrydsord%202.webp',
         alt: 'Gratis kryds og tværs med farverige billedledetråde og krydsende ord',
         caption: 'Billedledetråde — farverige illustrationer erstatter traditionelle tekstledetråde',
       },
       {
-        src: '/samples/danish/crossword/Billedkrydsord%203.webp',
+        src: '/samples/danish/crossword/billedkrydsord%203.webp',
         alt: 'Gratis krydsord facit med alle korrekte bogstaver udfyldt i gitteret',
         caption: 'Automatisk facit — udfyldt gitter viser alle korrekte svar til selvkontrol',
       },

@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Exemplo de atividade para colorir criada com o gerador LessonCraftStudio para vendedores do Etsy' },
+    heroImage: { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Exemplo de atividade para colorir criada com o gerador LessonCraftStudio para vendedores do Etsy' },
     samples: [
-      { src: '/samples/portuguese/coloring/coloring landscape 2.webp', alt: 'Atividade para colorir para loja de imprimíveis no Etsy', caption: 'Página para Colorir — Categoria Top no Etsy' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Atividade imprimível de sopa de letras para anúncio no Etsy', caption: 'Sopa de Letras — Alto Volume de Pesquisa' },
-      { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividade de soma com problemas de matemática baseados em imagens', caption: 'Soma — Categoria de Matemática Permanente' },
-      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Atividade de associação para compradores internacionais do Etsy', caption: 'Associação — Atividade Visual sem Texto' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-2.webp', alt: 'Atividade para colorir para loja de imprimíveis no Etsy', caption: 'Página para Colorir — Categoria Top no Etsy' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Atividade imprimível de sopa de letras para anúncio no Etsy', caption: 'Sopa de Letras — Alto Volume de Pesquisa' },
+      { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade de soma com problemas de matemática baseados em imagens', caption: 'Soma — Categoria de Matemática Permanente' },
+      { src: '/samples/portuguese/matching/encontre-os-pares-1.webp', alt: 'Atividade de associação para compradores internacionais do Etsy', caption: 'Associação — Atividade Visual sem Texto' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Como Criar Atividades para Colorir — Demo do LessonCraftStudio',

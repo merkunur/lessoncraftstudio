@@ -266,22 +266,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/sudoku/Sudoku de Imagens 1.webp',
+      primary: '/samples/portuguese/sudoku/sudoku-de-imagens-1.webp',
       primaryAlt: 'Atividade de sudoku com imagens 4×4 com ilustrações temáticas numa quadrícula premium com cores de bloco alternadas e cabeçalho Sudoku de Imagens',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/sudoku/Sudoku de Imagens 2.webp',
+        src: '/samples/portuguese/sudoku/sudoku-de-imagens-2.webp',
         alt: 'Sudoku com imagens de dificuldade Fácil com 4 células vazias e 12 células preenchidas numa quadrícula 4×4',
         caption: 'Dificuldade Fácil — 4 células vazias para principiantes que aprendem lógica de linhas e colunas',
       },
       {
-        src: '/samples/portuguese/sudoku/Sudoku de Imagens 3.webp',
+        src: '/samples/portuguese/sudoku/sudoku-de-imagens-3.webp',
         alt: 'Sudoku com imagens de dificuldade Difícil com 8 células vazias e 8 células preenchidas numa quadrícula 4×4',
         caption: 'Dificuldade Difícil — 8 células vazias que requerem raciocínio lógico em vários passos',
       },
       {
-        src: '/samples/portuguese/sudoku/Sudoku de Imagens 1 answer_key.webp',
+        src: '/samples/portuguese/sudoku/sudoku-de-imagens-1-answer-key.webp',
         alt: 'Gabarito de sudoku com imagens mostrando a quadrícula 4×4 completa com as 16 células preenchidas',
         caption: 'Gabarito automático — quadrícula completa com todas as imagens colocadas',
       },

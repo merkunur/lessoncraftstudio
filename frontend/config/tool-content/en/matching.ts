@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/matching/matching portrait.webp',
+      primary: '/samples/english/matching/matching-portrait.webp',
       primaryAlt: 'Draw-a-line matching worksheet with themed images arranged in two columns with localized Match Up header, item numbers, and decorative bullet dots',
     },
     sampleGallery: [
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/english/matching/matching-portrait.webp',
         alt: 'Beginning letter matching worksheet with images on the left and their first letters on the right for phonics practice',
         caption: 'Beginning Letter mode — users match images to their first letters with uppercase or lowercase display',
       },
       {
-        src: '/samples/english/matching/image and word.webp',
+        src: '/samples/english/matching/image-and-word.webp',
         alt: 'Image and word matching worksheet with labeled pairs on both sides for vocabulary reinforcement activities',
         caption: 'Image+Word mode — labeled image pairs on both sides for vocabulary matching and word recognition',
       },
       {
-        src: '/samples/english/matching/matching portrait answer_key.webp',
+        src: '/samples/english/matching/matching-portrait-answer-key.webp',
         alt: 'Matching worksheet answer key with horizontal connecting lines drawn between correct pairs for instant answer verification',
         caption: 'Auto-generated answer key — connecting lines (#555) between correct pairs for instant verification',
       },

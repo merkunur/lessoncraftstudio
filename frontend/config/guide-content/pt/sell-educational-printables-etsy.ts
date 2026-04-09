@@ -195,11 +195,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividade imprimível educativa mostrando problemas de matemática com imagens para vender no Etsy em múltiplas categorias' },
+    heroImage: { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade imprimível educativa mostrando problemas de matemática com imagens para vender no Etsy em múltiplas categorias' },
     samples: [
-      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Atividade de adição com tema de animais para loja Etsy diversificada de imprimíveis educativos', caption: 'Atividade de adição com tema de animais — um dos dezenas de produtos de matemática que pode criar para a loja Etsy' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Caça-palavras mostrando imprimível educativo baseado em língua para Etsy', caption: 'Caça-palavras — formato sensível à língua que multiplica em 11 mercados linguísticos no Etsy' },
-      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir mostrando produto de aprendizagem visual para loja educativa Etsy', caption: 'Página para colorir — a demografia de compradores mais ampla de qualquer categoria de imprimível educativo no Etsy' },
+      { src: '/samples/portuguese/addition/adição-divertida-2.webp', alt: 'Atividade de adição com tema de animais para loja Etsy diversificada de imprimíveis educativos', caption: 'Atividade de adição com tema de animais — um dos dezenas de produtos de matemática que pode criar para a loja Etsy' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Caça-palavras mostrando imprimível educativo baseado em língua para Etsy', caption: 'Caça-palavras — formato sensível à língua que multiplica em 11 mercados linguísticos no Etsy' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir mostrando produto de aprendizagem visual para loja educativa Etsy', caption: 'Página para colorir — a demografia de compradores mais ampla de qualquer categoria de imprimível educativo no Etsy' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como criar imprimíveis educativos para vender no Etsy — Estratégia de loja multicategoria',

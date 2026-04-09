@@ -187,22 +187,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/matching/Zoek de Paren 1.webp',
+      src: '/samples/dutch/matching/zoek-de-paren-1.webp',
       alt: 'Professioneel combinatiepuzzel werkblad dat de productkwaliteit demonstreert die positieve kopersreviews verdient',
     },
     samples: [
       {
-        src: '/samples/dutch/matching/Zoek de Paren 1.webp',
+        src: '/samples/dutch/matching/zoek-de-paren-1.webp',
         alt: 'Combinatiepuzzel werkblad dat visuele kwaliteit toont die positieve kopersreviews stimuleert',
         caption: 'Hoogwaardige combinatiepuzzel werkbladen verdienen natuurlijk positieve reviews door visuele aantrekkingskracht en educatieve waarde',
       },
       {
-        src: '/samples/dutch/coloring/coloring portrait 1.webp',
+        src: '/samples/dutch/coloring/coloring-portrait-1.webp',
         alt: 'Kleurplaat die professionele ontwerpkwaliteit demonstreert die kopers motiveert feedback te geven',
         caption: 'Professionele kleurplaten genereren reviews omdat kopers de ontwerpkwaliteit direct kunnen zien en waarderen',
       },
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-1.webp',
         alt: 'Woordzoekpuzzel in het populaire productformaat dat hoog reviewvolume genereert',
         caption: 'Woordzoekers genereren hoog verkoopvolume en consistent positieve reviewpercentages over alle leeftijdsgroepen',
       },

@@ -212,22 +212,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/word guess/clue-grid_worksheet.webp',
+      primary: '/samples/english/word guess/clue-grid-worksheet.webp',
       primaryAlt: 'Word guess worksheet showing image clues paired with letter grids containing blanks for spelling practice',
     },
     sampleGallery: [
       {
-        src: '/samples/english/word guess/clue-grid_worksheet.webp',
+        src: '/samples/english/word guess/clue-grid-worksheet.webp',
         alt: 'Word guess worksheet with image clues and partially filled letter grids for spelling practice',
         caption: 'Image-based word guess exercises with progressive clue levels',
       },
       {
-        src: '/samples/english/word guess/clue-grid_worksheet (2).webp',
+        src: '/samples/english/word guess/clue-grid-worksheet-2.webp',
         alt: 'Word guess worksheet showing multiple difficulty levels with different amounts of revealed letters',
         caption: 'Adjustable clue difficulty from Easy to No Clues',
       },
       {
-        src: '/samples/english/word guess/clue-grid_worksheet (4).webp',
+        src: '/samples/english/word guess/clue-grid-worksheet-4.webp',
         alt: 'Word guess worksheet with themed image collection and colorful letter grids',
         caption: 'Themed collections create cohesive spelling activity packs',
       },

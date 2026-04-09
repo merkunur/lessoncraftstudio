@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/draw and color/Dibuja y Colorea 5.webp', alt: 'Ficha de dibujo en cuadrícula con sistema de doble cuadrícula mostrando cuadrícula de práctica vacía y cuadrícula de pistas parcialmente revelada con tema de contorno B/N' },
+    heroImage: { src: '/samples/spanish/draw and color/dibuja-y-colorea-5.webp', alt: 'Ficha de dibujo en cuadrícula con sistema de doble cuadrícula mostrando cuadrícula de práctica vacía y cuadrícula de pistas parcialmente revelada con tema de contorno B/N' },
     samples: [
-      { src: '/samples/spanish/draw and color/Dibuja y Colorea 5.webp', alt: 'Ficha de dibujo en cuadrícula mostrando sistema de doble cuadrícula con cuadrícula de práctica y cuadrícula de pistas para reproducción celda por celda', caption: 'Formato de doble cuadrícula: cuadrícula de práctica vacía arriba y cuadrícula de pistas con referencia parcial abajo para ejercicios de dibujo estructurados' },
-      { src: '/samples/spanish/draw and color/Dibuja y Colorea 2.webp', alt: 'Ficha de dibujo en cuadrícula con tema de animales en contorno B/N a porcentaje de pistas moderado', caption: 'Tema de contorno B/N de animales al 25% de pistas — los usuarios reproducen el contorno a partir de pistas dispersas en la cuadrícula y luego colorean su dibujo' },
+      { src: '/samples/spanish/draw and color/dibuja-y-colorea-5.webp', alt: 'Ficha de dibujo en cuadrícula mostrando sistema de doble cuadrícula con cuadrícula de práctica y cuadrícula de pistas para reproducción celda por celda', caption: 'Formato de doble cuadrícula: cuadrícula de práctica vacía arriba y cuadrícula de pistas con referencia parcial abajo para ejercicios de dibujo estructurados' },
+      { src: '/samples/spanish/draw and color/dibuja-y-colorea-2.webp', alt: 'Ficha de dibujo en cuadrícula con tema de animales en contorno B/N a porcentaje de pistas moderado', caption: 'Tema de contorno B/N de animales al 25% de pistas — los usuarios reproducen el contorno a partir de pistas dispersas en la cuadrícula y luego colorean su dibujo' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Cómo crear fichas de dibujo y simetría — Tutorial completo',

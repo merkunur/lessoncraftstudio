@@ -209,22 +209,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/addition/Adição Divertida 1.webp',
+      primary: '/samples/portuguese/addition/adição-divertida-1.webp',
       primaryAlt: 'Atividade de adição com imagens de animais mostrando exercícios de matemática baseados em imagens',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/addition/Adição Divertida 1.webp',
+        src: '/samples/portuguese/addition/adição-divertida-1.webp',
         alt: 'Atividade de adição com tema de animais no modo Imagem + Imagem',
         caption: 'Modo Imagem + Imagem com tema de animais',
       },
       {
-        src: '/samples/portuguese/addition/Adição Divertida 1.webp',
+        src: '/samples/portuguese/addition/adição-divertida-1.webp',
         alt: 'Atividade de adição com imagens de alimentos no modo Encontrar o Parcela',
         caption: 'Modo Encontrar o Parcela com tema de alimentos',
       },
       {
-        src: '/samples/portuguese/addition/Adição Divertida 4.webp',
+        src: '/samples/portuguese/addition/adição-divertida-4.webp',
         alt: 'Atividade de adição em modo misto com imagens de veículos e moldura decorativa',
         caption: 'Modo misto com veículos e moldura decorativa',
       },

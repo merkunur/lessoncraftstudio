@@ -208,22 +208,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/coloring/coloring landscape 1.webp',
+      primary: '/samples/portuguese/coloring/coloring-landscape-1.webp',
       primaryAlt: 'Página para colorir personalizada criada em canvas de forma livre com ilustrações temáticas a cores organizadas numa composição original com borda decorativa',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/coloring/coloring landscape 2.webp',
+        src: '/samples/portuguese/coloring/coloring-landscape-2.webp',
         alt: 'Página para colorir com tema de animais e múltiplas ilustrações organizadas em canvas de forma livre mostrando possibilidades de design criativo',
         caption: 'Página para colorir com tema de animais — design de canvas de forma livre com múltiplas ilustrações organizadas numa composição única',
       },
       {
-        src: '/samples/portuguese/coloring/coloring landscape 3.webp',
+        src: '/samples/portuguese/coloring/coloring-landscape-3.webp',
         alt: 'Página para colorir pronta para a loja com campo de nome e linhas de prática de caligrafia adicionadas usando auxiliares de loja com um único clique',
         caption: 'Atividade de atividade para a loja — campo de nome e linhas de caligrafia transformam páginas para colorir em atividades de aprendizagem estruturadas',
       },
       {
-        src: '/samples/portuguese/coloring/coloring portrait 1.webp',
+        src: '/samples/portuguese/coloring/coloring-portrait-1.webp',
         alt: 'Exportação em escala de cinzentos de página para colorir mostrando conversão económica em tinta desde composição a cores para interiores de KDP e impressão online',
         caption: 'Exportação em escala de cinzentos — composições a cores convertem-se em páginas para colorir económicas em tinta para interiores de KDP e impressão em volume',
       },

@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/matching/Finn%20Parene%201.webp',
+      primary: '/samples/norwegian/matching/finn%20parene%201.webp',
       primaryAlt: 'Tegn-en-strek koblings arbeidsark med tematiske bilder arrangert i to kolonner med lokalisert Finn Par-overskrift, artikkelnummer og dekorative punktmarkeringer',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/matching/Finn%20Parene%201.webp',
+        src: '/samples/norwegian/matching/finn%20parene%201.webp',
         alt: 'Begynnelsesbokstav koblings arbeidsark med bilder til venstre og deres første bokstaver til høyre for fonikkøvelse',
         caption: 'Begynnelsesbokstav-modus — brukerne matcher bilder med deres første bokstaver med store eller små bokstaver',
       },
       {
-        src: '/samples/norwegian/matching/Finn%20Parene%202.webp',
+        src: '/samples/norwegian/matching/finn%20parene%202.webp',
         alt: 'Bilde og ord koblings arbeidsark med merkede par på begge sider for ordforrådsforsterkningsaktiviteter',
         caption: 'Bilde+Ord-modus — merkede bildepar på begge sider for ordforråds kobling og ordgjenkjenning',
       },
       {
-        src: '/samples/norwegian/matching/Finn%20Parene%203.webp',
+        src: '/samples/norwegian/matching/finn%20parene%203.webp',
         alt: 'Koblings arbeidsark fasit med horisontale forbindelseslinjer tegnet mellom korrekte par for øyeblikkelig svarverifikasjon',
         caption: 'Automatisk generert fasit — forbindelseslinjer (#555) mellom korrekte par for øyeblikkelig verifikasjon',
       },

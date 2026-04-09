@@ -164,22 +164,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/bingo/bingo_card_1.webp',
+      src: '/samples/english/bingo/bingo-card-1.webp',
       alt: 'Bingo card worksheet demonstrating a seasonal printable product ideal for holiday marketing campaigns',
     },
     samples: [
       {
-        src: '/samples/english/bingo/bingo_card_1 word.webp',
+        src: '/samples/english/bingo/bingo-card-1-word.webp',
         alt: 'Bingo card showing a seasonal printable product for holiday events and celebrations',
         caption: 'Bingo cards adapt to every seasonal theme, making them ideal products for year-round seasonal marketing',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/english/coloring/coloring-portrait-1.webp',
         alt: 'Coloring page demonstrating seasonal printable content for holiday marketplace listings',
         caption: 'Seasonal coloring pages are consistent top sellers during holiday demand peaks across all printable marketplaces',
       },
       {
-        src: '/samples/english/wordsearch/Word Search 10.webp',
+        src: '/samples/english/wordsearch/word-search-10.webp',
         alt: 'Word search puzzle showing seasonal vocabulary building printable for holiday marketing',
         caption: 'Themed word searches combine seasonal appeal with educational value for strong seasonal marketplace performance',
       },

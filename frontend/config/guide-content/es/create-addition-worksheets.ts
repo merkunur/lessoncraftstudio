@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas con imágenes temáticas mostrando ejercicios de conteo visual para niños' },
+    heroImage: { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de sumas con imágenes temáticas mostrando ejercicios de conteo visual para niños' },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas basada en imágenes con tema de animales para jardín de infantes', caption: 'Ficha de sumas de jardín de infantes usando el tema de animales de granja con modo de ejercicio Imagen + Imagen' },
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas con clave de respuestas mostrando las soluciones correctas', caption: 'Clave de respuestas automática generada junto con cada ficha de sumas' },
+      { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de sumas basada en imágenes con tema de animales para jardín de infantes', caption: 'Ficha de sumas de jardín de infantes usando el tema de animales de granja con modo de ejercicio Imagen + Imagen' },
+      { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de sumas con clave de respuestas mostrando las soluciones correctas', caption: 'Clave de respuestas automática generada junto con cada ficha de sumas' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Cómo crear fichas de sumas — Tutorial completo',

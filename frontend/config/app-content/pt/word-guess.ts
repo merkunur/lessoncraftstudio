@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/word guess/Adivinha a Palavra 1.webp',
+      primary: '/samples/portuguese/word guess/adivinha-a-palavra-1.webp',
       primaryAlt: 'Atividade de adivinhar palavras com pistas de imagem e grelhas de letras vazias mostrando puzzles de vocabulário estilo forca',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/word guess/Adivinha a Palavra 2.webp',
+        src: '/samples/portuguese/word guess/adivinha-a-palavra-2.webp',
         alt: 'Atividade de adivinhar palavras em dificuldade Fácil mostrando metade das letras reveladas',
         caption: 'Dificuldade Fácil — metade das letras pré-reveladas como pistas para leitores iniciantes',
       },
       {
-        src: '/samples/portuguese/word guess/Adivinha a Palavra 3.webp',
+        src: '/samples/portuguese/word guess/adivinha-a-palavra-3.webp',
         alt: 'Atividade de adivinhar palavras em dificuldade Difícil com mínimas letras-pista e tema de animais',
         caption: 'Dificuldade Difícil — apenas um sexto das letras reveladas para usuários avançados em ortografia',
       },
       {
-        src: '/samples/portuguese/word guess/Adivinha a Palavra 4.webp',
+        src: '/samples/portuguese/word guess/adivinha-a-palavra-4.webp',
         alt: 'Gabarito de adivinhar palavras com todas as letras preenchidas e nenhuma casilla vazia',
         caption: 'Gabarito — todas as letras reveladas paro valor percebido e autoverificação fáceis',
       },

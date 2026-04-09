@@ -216,17 +216,17 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/crossword/Cruciverba con Immagini 1.webp',
+      primary: '/samples/italian/crossword/cruciverba-con-immagini-1.webp',
       primaryAlt: 'Cruciverba con immagini con indizi illustrati accanto a una griglia 15 per 15 con posizioni numerate e intestazione blu localizzata',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/crossword/Cruciverba con Immagini 2.webp',
+        src: '/samples/italian/crossword/cruciverba-con-immagini-2.webp',
         alt: 'Cruciverba con immagini a tema con griglia 15 per 15 e indizi immagine colorati',
         caption: 'Cruciverba con immagini a tema — indizi illustrati con posizioni numerate nella griglia',
       },
       {
-        src: '/samples/italian/crossword/Cruciverba con Immagini 1 answer_key.webp',
+        src: '/samples/italian/crossword/cruciverba-con-immagini-1-answer-key.webp',
         alt: 'Chiave di risposta del cruciverba con tutte le lettere corrette compilate nella griglia 15 per 15',
         caption: 'Chiave di risposta generata automaticamente — griglia compilata con tutte le risposte per auto-verifica',
       },

@@ -206,16 +206,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/addition/Addition Amusant 1.webp',
+      primary: '/samples/french/addition/addition-amusant-1.webp',
       primaryAlt: 'Fiche d\'addition avec images thématiques montrant des exercices de comptage visuel',
     },
     sampleGallery: [
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition avec des images thématiques d\'animaux', caption: 'Fiche d\'Addition' },
-      { src: '/samples/french/subtraction/Soustractions Amusantes 1.webp', alt: 'Fiche de soustraction avec comptage par barrage', caption: 'Fiche de Soustraction' },
-      { src: '/samples/french/code addition/Code Secret Addition 1.webp', alt: 'Puzzle d\'addition codée avec décodage de lettres', caption: 'Puzzle Addition Codée' },
-      { src: '/samples/french/more less/Plus Moins 1.webp', alt: 'Fiche de comparaison plus grand que plus petit que', caption: 'Fiche Plus ou Moins' },
-      { src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 1.webp', alt: 'Puzzle-grille mathématique avec équations', caption: 'Fiche Puzzle Maths' },
-      { src: '/samples/french/math worksheet/Feuille de Mathématique 1.webp', alt: 'Puzzle d\'algèbre visuelle avec variables images', caption: 'Puzzle Algébrique Illustré' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition avec des images thématiques d\'animaux', caption: 'Fiche d\'Addition' },
+      { src: '/samples/french/subtraction/soustractions-amusantes-1.webp', alt: 'Fiche de soustraction avec comptage par barrage', caption: 'Fiche de Soustraction' },
+      { src: '/samples/french/code addition/code-secret-addition-1.webp', alt: 'Puzzle d\'addition codée avec décodage de lettres', caption: 'Puzzle Addition Codée' },
+      { src: '/samples/french/more less/plus-moins-1.webp', alt: 'Fiche de comparaison plus grand que plus petit que', caption: 'Fiche Plus ou Moins' },
+      { src: '/samples/french/math puzzle/casse-têtes-mathématiques-1.webp', alt: 'Puzzle-grille mathématique avec équations', caption: 'Fiche Puzzle Maths' },
+      { src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp', alt: 'Puzzle d\'algèbre visuelle avec variables images', caption: 'Puzzle Algébrique Illustré' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Pack Maîtrise Maths — Découvrez les 6 Générateurs en Action',

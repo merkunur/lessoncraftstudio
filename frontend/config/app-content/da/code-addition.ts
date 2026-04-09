@@ -237,22 +237,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.webp',
+      primary: '/samples/danish/code%20addition/hemmelig%20kode%20addition%201.webp',
       primaryAlt: 'Hemmelig besked med regnestykker til print — kodeknækker opgave med temabilleder',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%201.webp',
+        src: '/samples/danish/code%20addition/hemmelig%20kode%20addition%201.webp',
         alt: 'Kodeopgave matematik med dyrebilleder som hemmelige symboler i en regnegåde',
         caption: 'Kodeknækker tilstand — børnene løser plusstykker for at knække den skjulte kode',
       },
       {
-        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%202.webp',
+        src: '/samples/danish/code%20addition/hemmelig%20kode%20addition%202.webp',
         alt: 'Hemmelig kode plusstykker med flere billedsymboler og skjult besked',
         caption: 'Flersymbol regnegåde — flere billeder øger udfordringen i at dechifrere koden',
       },
       {
-        src: '/samples/danish/code%20addition/Hemmelig%20Kode%20Addition%203.webp',
+        src: '/samples/danish/code%20addition/hemmelig%20kode%20addition%203.webp',
         alt: 'Regnegåde arbejdsark med farverige temabilleder og hemmelig besked',
         caption: 'Tematiske kodeopgaver — 104 temaer gør hver regnegåde unik og engagerende',
       },

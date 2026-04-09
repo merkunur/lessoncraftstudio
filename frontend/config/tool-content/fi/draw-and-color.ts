@@ -96,13 +96,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%201.webp',
+      primary: '/samples/finnish/draw%20and%20color/piirr%c3%a4%20ja%20v%c3%a4rit%c3%a4%201.webp',
       primaryAlt: 'Piirrä ja väritä -ruudukkopiirrostehtäväarkki kaksoisruudukkojärjestelmällä, jossa tyhjä harjoitteluruudukko ja osittain paljastettu vihjeruudukko mustavalkoisella ääriviivateemalla',
     },
     sampleGallery: [
-      { src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%201.webp', alt: 'Ruudukkopiirrostehtäväarkki eläinten mustavalkoinen ääriviivateemalla, jossa harjoitteluruudukko ja vihjeruudukko vierekkäin', caption: 'Eläinteema — käyttäjät toistavat ääriviivan ruudukkövihjeistä ja värittävät sitten piirustuksensa' },
-      { src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%202.webp', alt: 'Ruudukkopiirrostehtäväarkki vaakasuoralla symmetrian peilitilalla vihjesolut paljasteettuna vasemmalla puoliskolla tilallista arviointia varten', caption: 'Vaakasuora symmetriatila — vihjesolut peilaavat vasen-oikea tilallista arviointia ja bilateraalista symmetriaharjoitusta varten' },
-      { src: '/samples/finnish/draw%20and%20color/Piirr%C3%A4%20ja%20V%C3%A4rit%C3%A4%203.webp', alt: 'Ruudukkopiirrostehtäväarkki matalalla vihjemäärällä, jossa minimaalisia viitesoluja suuressa ruudukossa asiantuntijatason toistohaasteeksi', caption: 'Matala vihjemäärä -asiantuntijahaaste — minimaaliset viitesolut vaativat tarkkaa havainnointia ja tilallista arviointia' },
+      { src: '/samples/finnish/draw%20and%20color/piirr%c3%a4%20ja%20v%c3%a4rit%c3%a4%201.webp', alt: 'Ruudukkopiirrostehtäväarkki eläinten mustavalkoinen ääriviivateemalla, jossa harjoitteluruudukko ja vihjeruudukko vierekkäin', caption: 'Eläinteema — käyttäjät toistavat ääriviivan ruudukkövihjeistä ja värittävät sitten piirustuksensa' },
+      { src: '/samples/finnish/draw%20and%20color/piirr%c3%a4%20ja%20v%c3%a4rit%c3%a4%202.webp', alt: 'Ruudukkopiirrostehtäväarkki vaakasuoralla symmetrian peilitilalla vihjesolut paljasteettuna vasemmalla puoliskolla tilallista arviointia varten', caption: 'Vaakasuora symmetriatila — vihjesolut peilaavat vasen-oikea tilallista arviointia ja bilateraalista symmetriaharjoitusta varten' },
+      { src: '/samples/finnish/draw%20and%20color/piirr%c3%a4%20ja%20v%c3%a4rit%c3%a4%203.webp', alt: 'Ruudukkopiirrostehtäväarkki matalalla vihjemäärällä, jossa minimaalisia viitesoluja suuressa ruudukossa asiantuntijatason toistohaasteeksi', caption: 'Matala vihjemäärä -asiantuntijahaaste — minimaaliset viitesolut vaativat tarkkaa havainnointia ja tilallista arviointia' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Näin Teet Ruudukkopiirrostehtäviä Säädettävällä Vihjemäärällä ja Symmetriatilalla — Vaiheittainen Opas',

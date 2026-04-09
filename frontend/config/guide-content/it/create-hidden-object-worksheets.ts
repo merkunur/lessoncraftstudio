@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/find objects/Trova gli Oggetti Nascosti 1.webp', alt: 'Scheda con scena di oggetti nascosti che mostra immagini tematiche disposte per far trovare ai bambini oggetti specifici' },
+    heroImage: { src: '/samples/italian/find objects/trova-gli-oggetti-nascosti-1.webp', alt: 'Scheda con scena di oggetti nascosti che mostra immagini tematiche disposte per far trovare ai bambini oggetti specifici' },
     samples: [
-      { src: '/samples/italian/find objects/Trova gli Oggetti Nascosti 1.webp', alt: 'Scheda Cerca e Trova con scena tematica per attività di ricerca visiva', caption: 'Scena Cerca e Trova con immagini tematiche e oggetti distrattori per la pratica di ricerca visiva' },
-      { src: '/samples/italian/find objects/Trova gli Oggetti Nascosti 1.webp', alt: 'Chiave di risposta della scheda con oggetti nascosti che evidenzia le posizioni degli oggetti nascosti', caption: 'Chiave di risposta automatica generata per ogni scheda con scena di oggetti nascosti' },
+      { src: '/samples/italian/find objects/trova-gli-oggetti-nascosti-1.webp', alt: 'Scheda Cerca e Trova con scena tematica per attività di ricerca visiva', caption: 'Scena Cerca e Trova con immagini tematiche e oggetti distrattori per la pratica di ricerca visiva' },
+      { src: '/samples/italian/find objects/trova-gli-oggetti-nascosti-1.webp', alt: 'Chiave di risposta della scheda con oggetti nascosti che evidenzia le posizioni degli oggetti nascosti', caption: 'Chiave di risposta automatica generata per ogni scheda con scena di oggetti nascosti' },
     ],
     youtubeId: '8Y3jrVr1Phs',
     videoTitle: 'Come Creare Schede con Scene di Oggetti Nascosti — Tutorial Completo',

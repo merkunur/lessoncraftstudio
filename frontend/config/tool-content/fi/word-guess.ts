@@ -91,13 +91,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/word%20guess/Arvaa%20Sana%201.webp',
+      primary: '/samples/finnish/word%20guess/arvaa%20sana%201.webp',
       primaryAlt: 'Sananarvaustehtäväarkki kuvavihjein ja kirjainruudukoilla, joissa tyhjiä kohtia oikeinkirjoitusharjoittelua varten',
     },
     sampleGallery: [
-      { src: '/samples/finnish/word%20guess/Arvaa%20Sana%201.webp', alt: 'Sananarvaustehtäväarkki kuvavihjein ja osittain täytetyillä kirjainruudukoilla', caption: 'Kuvapohjaiset sananarvausharjoitukset progressiivisilla vihjetasoilla' },
-      { src: '/samples/finnish/word%20guess/Arvaa%20Sana%202.webp', alt: 'Sananarvaustehtäväarkki useilla vaikeustasoilla eri määrillä paljastettuja kirjaimia', caption: 'Säädettävä vihjeen vaikeus Helposta Ei Vihjeitä -tilaan' },
-      { src: '/samples/finnish/word%20guess/Arvaa%20Sana%203.webp', alt: 'Sananarvaustehtäväarkki teemakuvakokoelmalla ja värikkäillä kirjainruudukoilla', caption: 'Teemakokoelmat luovat yhtenäisiä oikeinkirjoitusaktiviteettipaketteja' },
+      { src: '/samples/finnish/word%20guess/arvaa%20sana%201.webp', alt: 'Sananarvaustehtäväarkki kuvavihjein ja osittain täytetyillä kirjainruudukoilla', caption: 'Kuvapohjaiset sananarvausharjoitukset progressiivisilla vihjetasoilla' },
+      { src: '/samples/finnish/word%20guess/arvaa%20sana%202.webp', alt: 'Sananarvaustehtäväarkki useilla vaikeustasoilla eri määrillä paljastettuja kirjaimia', caption: 'Säädettävä vihjeen vaikeus Helposta Ei Vihjeitä -tilaan' },
+      { src: '/samples/finnish/word%20guess/arvaa%20sana%203.webp', alt: 'Sananarvaustehtäväarkki teemakuvakokoelmalla ja värikkäillä kirjainruudukoilla', caption: 'Teemakokoelmat luovat yhtenäisiä oikeinkirjoitusaktiviteettipaketteja' },
     ],
     youtubeId: 'DSwX_p4dRNM',
     videoTitle: 'Näin Luot Sananarvaustehtäviä — Video-opas',

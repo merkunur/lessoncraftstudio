@@ -94,10 +94,10 @@ const content: ToolContent = {
   ],
 
   visuals: {
-    heroImages: { primary: '/samples/finnish/treasure%20hunt/Aarteenetsint%C3%A4%201.webp', primaryAlt: 'Aarteenetsintae polunetsintaetehtava 5x5-koordinaattiruudukolla, 6 hajautetulla teemakuvalla maamerkkeinaeae, suuntavihjeilla ja aarteenetsintae-teemaisella teal-otsikolla kultaisella otsikolla' },
+    heroImages: { primary: '/samples/finnish/treasure%20hunt/aarteenetsint%c3%a4%201.webp', primaryAlt: 'Aarteenetsintae polunetsintaetehtava 5x5-koordinaattiruudukolla, 6 hajautetulla teemakuvalla maamerkkeinaeae, suuntavihjeilla ja aarteenetsintae-teemaisella teal-otsikolla kultaisella otsikolla' },
     sampleGallery: [
-      { src: '/samples/finnish/treasure%20hunt/Aarteenetsint%C3%A4%201.webp', alt: 'Aarteenetsintaepalapelitehtava kardinaalisuuntavihjeilla pohjoinen etela ita lansi 5x5-koordinaattiruudukossa', caption: 'Kardinaalitila — kompassisuunnat edentyneeseen avaruudelliseen paeaettelyyn ja kartanlukutaitoihin' },
-      { src: '/samples/finnish/treasure%20hunt/Aarteenetsint%C3%A4%201%20answer_key.webp', alt: 'Aarteenetsinnaevaen vastausavain viimeisella aarresolulla korostettuna vaaleankeltaisella 5x5-koordinaattiruudukossa', caption: 'Automaattisesti generoitu vastausavain — vaaleankeltainen korostus merkitsee aarteen maaeraenpaen itsetarkistukseen' },
+      { src: '/samples/finnish/treasure%20hunt/aarteenetsint%c3%a4%201.webp', alt: 'Aarteenetsintaepalapelitehtava kardinaalisuuntavihjeilla pohjoinen etela ita lansi 5x5-koordinaattiruudukossa', caption: 'Kardinaalitila — kompassisuunnat edentyneeseen avaruudelliseen paeaettelyyn ja kartanlukutaitoihin' },
+      { src: '/samples/finnish/treasure%20hunt/aarteenetsint%c3%a4%201%20answer-key.webp', alt: 'Aarteenetsinnaevaen vastausavain viimeisella aarresolulla korostettuna vaaleankeltaisella 5x5-koordinaattiruudukossa', caption: 'Automaattisesti generoitu vastausavain — vaaleankeltainen korostus merkitsee aarteen maaeraenpaen itsetarkistukseen' },
     ],
     youtubeId: 'flHiBXsYLLA',
     videoTitle: 'Nain teet aarteenetsintae polunetsintaetehtavia suuntavihjeilla, kahdella suuntatyypilla ja automaattisilla vastausavaimilla — vaiheittainen opas',

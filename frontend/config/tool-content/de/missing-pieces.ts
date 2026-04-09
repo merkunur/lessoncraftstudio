@@ -222,22 +222,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/missing pieces/Fehlende Teile 1.webp',
+      primary: '/samples/german/missing pieces/fehlende-teile-1.webp',
       primaryAlt: 'Jigsaw-Puzzle-Arbeitsblatt mit ausgeschnittenen Löchern aus einer farbenfrohen Illustration und nummerierten Lösungsoptionen inklusive Ablenkungsteilen darunter mit türkisfarbenem Fehlende-Puzzleteile-Header und blaugrün-pinkem Doppelrahmen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/missing pieces/Fehlende Teile 2.webp',
+        src: '/samples/german/missing pieces/fehlende-teile-2.webp',
         alt: 'Puzzleteil-Rätsel mit quadratförmigen Löchern aus einer farbenfrohen Illustration und nummerierten Lösungsoptionen für visuelle Identifikation',
         caption: 'Quadrat-Teilform — saubere geometrische Schnitte mit nummerierten Lösungsoptionen inklusive Ablenkungsteilen',
       },
       {
-        src: '/samples/german/missing pieces/Fehlende Teile 3.webp',
+        src: '/samples/german/missing pieces/fehlende-teile-3.webp',
         alt: 'Puzzleteil-Rätsel mit kreisförmigen Löchern und nummerierten Lösungsoptionen inklusive Ablenkungsteilen für erhöhte visuelle Unterscheidungsherausforderung',
         caption: 'Kreis-Teilform — abgerundete Schnitte mit Ablenkungsoptionen, die das Lösen durch Ausschlussverfahren verhindern',
       },
       {
-        src: '/samples/german/missing pieces/Fehlende Teile 1 answer_key.webp',
+        src: '/samples/german/missing pieces/fehlende-teile-1-answer-key.webp',
         alt: 'Puzzleteil-Rätsel-Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen in jedem Loch, die den korrekten Optionsindex anzeigen',
         caption: 'Automatisch generierter Lösungsschlüssel — gelb hervorgehobene Beschriftungen (rgba(255,255,0,0.7)) zeigen die korrekte Option für jedes Loch',
       },

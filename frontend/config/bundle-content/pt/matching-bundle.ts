@@ -205,15 +205,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/matching/Encontre os Pares 1.webp',
+      primary: '/samples/portuguese/matching/encontre-os-pares-1.webp',
       primaryAlt: 'Atividade de associação com imagens temáticas mostrando exercício de emparelhamento',
     },
     sampleGallery: [
-      { src: '/samples/portuguese/matching/Encontre os Pares 2.webp', alt: 'Atividade de associação com quatro modos de emparelhamento e imagens temáticas', caption: 'Atividade de Associação' },
-      { src: '/samples/portuguese/grid match/Quebra-Cabeça de Grade 1.webp', alt: 'Puzzle de grelha com associação baseada em coordenadas sobre grelha estruturada', caption: 'Atividade Puzzle de Quadrícula' },
-      { src: '/samples/portuguese/shadow match/Combine as Sombras 1.webp', alt: 'Atividade de associação de sombras com emparelhamento de silhuetas e formato de traçar linhas', caption: 'Atividade de Discriminação Visual' },
-      { src: '/samples/portuguese/bingo/Bingo de Imagenes 1.webp', alt: 'Cartela de bingo com imagens temáticas em grelha de disposição aleatória', caption: 'Cartela de Bingo' },
-      { src: '/samples/portuguese/picture sort/Classificação de Imagens 1.webp', alt: 'Atividade de classificação de imagens com exercício de categorização em dois grupos', caption: 'Atividade de Classificação de Imagens' },
+      { src: '/samples/portuguese/matching/encontre-os-pares-2.webp', alt: 'Atividade de associação com quatro modos de emparelhamento e imagens temáticas', caption: 'Atividade de Associação' },
+      { src: '/samples/portuguese/grid match/quebra-cabeça-de-grade-1.webp', alt: 'Puzzle de grelha com associação baseada em coordenadas sobre grelha estruturada', caption: 'Atividade Puzzle de Quadrícula' },
+      { src: '/samples/portuguese/shadow match/combine-as-sombras-1.webp', alt: 'Atividade de associação de sombras com emparelhamento de silhuetas e formato de traçar linhas', caption: 'Atividade de Discriminação Visual' },
+      { src: '/samples/portuguese/bingo/bingo-de-imagenes-1.webp', alt: 'Cartela de bingo com imagens temáticas em grelha de disposição aleatória', caption: 'Cartela de Bingo' },
+      { src: '/samples/portuguese/picture sort/classificação-de-imagens-1.webp', alt: 'Atividade de classificação de imagens com exercício de categorização em dois grupos', caption: 'Atividade de Classificação de Imagens' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Pacote Associação e Classificação — Os 5 Geradores em Ação',

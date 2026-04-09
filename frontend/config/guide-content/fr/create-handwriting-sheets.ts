@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/writing/writing beginning letter.webp', alt: 'Fiche d\'écriture manuscrite montrant des exercices progressifs de tracé et copie de lettres pour enfants' },
+    heroImage: { src: '/samples/french/writing/writing-beginning-letter.webp', alt: 'Fiche d\'écriture manuscrite montrant des exercices progressifs de tracé et copie de lettres pour enfants' },
     samples: [
-      { src: '/samples/french/writing/writing beginning letter.webp', alt: 'Fiche d\'écriture avec lignes de tracé et flèches d\'ordre des traits pour la formation des lettres', caption: 'Fiche d\'écriture progressive avec lignes de tracé, tracé progressif et copie guidée pour la pratique des lettres' },
-      { src: '/samples/french/writing/writing beginning letter.webp', alt: 'Fiche d\'écriture avec images thématiques associées à la pratique du tracé de lettres', caption: 'Fiche d\'écriture thématique associant le tracé de lettres aux visuels de la bibliothèque d\'images' },
+      { src: '/samples/french/writing/writing-beginning-letter.webp', alt: 'Fiche d\'écriture avec lignes de tracé et flèches d\'ordre des traits pour la formation des lettres', caption: 'Fiche d\'écriture progressive avec lignes de tracé, tracé progressif et copie guidée pour la pratique des lettres' },
+      { src: '/samples/french/writing/writing-beginning-letter.webp', alt: 'Fiche d\'écriture avec images thématiques associées à la pratique du tracé de lettres', caption: 'Fiche d\'écriture thématique associant le tracé de lettres aux visuels de la bibliothèque d\'images' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Comment créer des fiches d\'écriture — Tutoriel complet',

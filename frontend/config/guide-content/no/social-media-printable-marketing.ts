@@ -42,7 +42,7 @@ const content: GuideContent = {
     samples: [
       { src: '/samples/norwegian/bingo/bildebingo%201.webp', alt: 'Bingokort med hoy delingsverdi for sosiale medier-innhold', caption: 'Visuelt tiltrekkende produkter som bingokort lager naturlig overbevisende sosiale medier-innhold' },
       { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside for Instagram og Pinterest-presentasjon', caption: 'Fargeleggingssider fotograferes vakkert for flat-lay produktvisning pa visuelle plattformer' },
-      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek med sterk sosiale medier-appell', caption: 'Ordsoek tiltrekker bredt publikumsengasjement pa tvers av sosiale medier-plattformer' },
+      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsoek med sterk sosiale medier-appell', caption: 'Ordsoek tiltrekker bredt publikumsengasjement pa tvers av sosiale medier-plattformer' },
     ],
   },
 };

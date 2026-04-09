@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/prepositions/Voorzetsels%201.webp', alt: 'Voorzetsels werkblad met afbeeldingsscènes en ruimtelijke relatieoefeningen voor positiewoorden oefening' },
+    heroImage: { src: '/samples/dutch/prepositions/voorzetsels%201.webp', alt: 'Voorzetsels werkblad met afbeeldingsscènes en ruimtelijke relatieoefeningen voor positiewoorden oefening' },
     samples: [
-      { src: '/samples/dutch/prepositions/Voorzetsels%201.webp', alt: 'Voorzetsels werkblad met invuloefeningen en kleurrijke afbeeldingsscènes die ruimtelijke relaties tonen', caption: 'Invuloefening voorzetsels oefeningen met afbeeldingsscènes' },
-      { src: '/samples/dutch/alphabet%20train/Alfabettrein%201.webp', alt: 'Alfabettrein werkblad met letter-afbeelding koppelingsoefeningen voor geletterdheid', caption: 'Alfabettrein werkblad als aanvullend taalproduct' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker werkblad met woordenschatoefeningen voor taalontwikkeling', caption: 'Woordzoeker werkblad voor woordenschatuitbreiding' },
+      { src: '/samples/dutch/prepositions/voorzetsels%201.webp', alt: 'Voorzetsels werkblad met invuloefeningen en kleurrijke afbeeldingsscènes die ruimtelijke relaties tonen', caption: 'Invuloefening voorzetsels oefeningen met afbeeldingsscènes' },
+      { src: '/samples/dutch/alphabet%20train/alfabettrein%201.webp', alt: 'Alfabettrein werkblad met letter-afbeelding koppelingsoefeningen voor geletterdheid', caption: 'Alfabettrein werkblad als aanvullend taalproduct' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker werkblad met woordenschatoefeningen voor taalontwikkeling', caption: 'Woordzoeker werkblad voor woordenschatuitbreiding' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Hoe Voorzetsels Werkbladen Maken — Complete Handleiding',

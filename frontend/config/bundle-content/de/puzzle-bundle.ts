@@ -194,14 +194,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/missing pieces/Fehlende Teile 1.webp',
+      primary: '/samples/german/missing pieces/fehlende-teile-1.webp',
       primaryAlt: 'Fehlende-Puzzleteile-Rätsel mit entfernten Rastersegmenten für räumliches Denken',
     },
     sampleGallery: [
-      { src: '/samples/german/missing pieces/Fehlende Teile 1.webp', alt: 'Fehlende-Puzzleteile-Rätsel mit entfernten Bild-Rastersegmenten', caption: 'Fehlende-Puzzleteile-Rätsel' },
-      { src: '/samples/german/odd one out/Finde das Andere 1.webp', alt: 'Was-passt-nicht-Arbeitsblatt mit Reihen ähnlicher Bilder und einem abweichenden Element', caption: 'Was-passt-nicht-Arbeitsblatt' },
-      { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: '4x4-Kinder-Sudoku-Rätsel mit thematischen Bildern statt Zahlen', caption: 'Kinder-Sudoku-Rätsel' },
-      { src: '/samples/german/picture path/Bilderpfad 1.webp', alt: 'Bilderpfad-Labyrinth mit thematischer Bildroute durch ein Raster', caption: 'Bilderpfad-Labyrinth' },
+      { src: '/samples/german/missing pieces/fehlende-teile-1.webp', alt: 'Fehlende-Puzzleteile-Rätsel mit entfernten Bild-Rastersegmenten', caption: 'Fehlende-Puzzleteile-Rätsel' },
+      { src: '/samples/german/odd one out/finde-das-andere-1.webp', alt: 'Was-passt-nicht-Arbeitsblatt mit Reihen ähnlicher Bilder und einem abweichenden Element', caption: 'Was-passt-nicht-Arbeitsblatt' },
+      { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: '4x4-Kinder-Sudoku-Rätsel mit thematischen Bildern statt Zahlen', caption: 'Kinder-Sudoku-Rätsel' },
+      { src: '/samples/german/picture path/bilderpfad-1.webp', alt: 'Bilderpfad-Labyrinth mit thematischer Bildroute durch ein Raster', caption: 'Bilderpfad-Labyrinth' },
     ],
     youtubeId: 'gb-xE_Ay4fc',
     videoTitle: 'Rätsel-&-Logik-Paket — Alle 4 Generatoren in Aktion',

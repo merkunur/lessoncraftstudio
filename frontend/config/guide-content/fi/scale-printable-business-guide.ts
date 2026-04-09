@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Ammattimainen yhteenlaskutyöarkki esittelemässä tuotteen laatua joka tukee skaalautuvaa tulostettavien liiketoiminnan kasvua' },
+    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Ammattimainen yhteenlaskutyöarkki esittelemässä tuotteen laatua joka tukee skaalautuvaa tulostettavien liiketoiminnan kasvua' },
     samples: [
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki temaattisilla kuvilla näyttäen tuotemonipuolisuutta katalogin skaalaukseen', caption: 'Temaattiset työarkkivariaatiot osoittavat miten yksi tuotekonsepti skaalautuu useiksi listauksiksi teemojen, luokka-asteiden ja kielten välillä' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma näyttäen monikielisen skaalauksen potentiaalin', caption: 'Sananetsinnät luotuina 11 kielellä moninkertaistavat katalogisi moninkertaistamatta luovaa vaivaa — sama konsepti tavoittaa kansainväliset markkinat' },
-      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Yhdistämistyöarkki esittelemässä järjestelmällistä katalogin laajentamista teemavaihtelun kautta', caption: 'Yhdistämistyöarkit teemojen poikki näyttävät järjestelmällisen tuotelinjan laajentamisen — jokainen uusi teema lisää tuotteita hyödyntäen todistettuja formaatteja ja olemassa olevia kuva-aineistoja' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki temaattisilla kuvilla näyttäen tuotemonipuolisuutta katalogin skaalaukseen', caption: 'Temaattiset työarkkivariaatiot osoittavat miten yksi tuotekonsepti skaalautuu useiksi listauksiksi teemojen, luokka-asteiden ja kielten välillä' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulma näyttäen monikielisen skaalauksen potentiaalin', caption: 'Sananetsinnät luotuina 11 kielellä moninkertaistavat katalogisi moninkertaistamatta luovaa vaivaa — sama konsepti tavoittaa kansainväliset markkinat' },
+      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistämistyöarkki esittelemässä järjestelmällistä katalogin laajentamista teemavaihtelun kautta', caption: 'Yhdistämistyöarkit teemojen poikki näyttävät järjestelmällisen tuotelinjan laajentamisen — jokainen uusi teema lisää tuotteita hyödyntäen todistettuja formaatteja ja olemassa olevia kuva-aineistoja' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Näin luot värityskuvia Piirrä ja väritä -työkalulla — Luovan valikoiman esittely katalogin skaalaukseen',

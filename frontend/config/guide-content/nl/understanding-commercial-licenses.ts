@@ -181,22 +181,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+      src: '/samples/dutch/wordsearch/woordzoeker-1.webp',
       alt: 'Professioneel woordzoeker werkblad dat commercieel gelicentieerde printable uitvoer demonstreert',
     },
     samples: [
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-1.webp',
         alt: 'Woordzoekpuzzel gemaakt met commerciële licentie voor multiplatform verkoop',
         caption: 'Woordzoekpuzzels gemaakt onder commerciële licentie kunnen op elk platform worden verkocht',
       },
       {
-        src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
+        src: '/samples/dutch/addition/optellen-is-leuk-1.webp',
         alt: 'Optellen werkblad gegenereerd met royaltyvrije commerciële licentie',
         caption: 'Eén commerciële licentie dekt onbeperkte optellen werkbladgeneratie zonder kosten per product',
       },
       {
-        src: '/samples/dutch/coloring/coloring portrait 1.webp',
+        src: '/samples/dutch/coloring/coloring-portrait-1.webp',
         alt: 'Kleurplaat met correct gelicentieerde thematische afbeeldingen voor commerciële verkoop',
         caption: 'Commerciële licenties die ingebedde beelden bevatten vereenvoudigen de naleving voor visuele producten',
       },

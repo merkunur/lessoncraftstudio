@@ -269,12 +269,12 @@ const content: AppContent = {
         caption: 'Durchstreich-Modus — diagonale X-Markierungen zeigen, welche Bilder abgezogen werden',
       },
       {
-        src: '/samples/german/subtraction/worksheet (1).webp',
+        src: '/samples/german/subtraction/worksheet-1.webp',
         alt: 'Subtraktions-Arbeitsblatt im Bild − Zahl-Modus mit Bildergruppen und Ziffern',
         caption: 'Bild − Zahl-Modus — kombiniert Bildergruppen mit Ziffern für Brückenbildung',
       },
       {
-        src: '/samples/german/subtraction/worksheet (2).webp',
+        src: '/samples/german/subtraction/worksheet-2.webp',
         alt: 'Subtraktions-Arbeitsblatt im Subtrahend-finden-Modus',
         caption: 'Subtrahend-finden-Modus — Nutzer ermitteln, wie viele weggenommen wurden',
       },

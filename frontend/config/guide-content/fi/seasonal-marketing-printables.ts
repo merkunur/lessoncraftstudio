@@ -160,7 +160,7 @@ const content: GuideContent = {
         caption: 'Kausiluonteiset värityssivut ovat johdonmukaisesti myydyimpiä tuotteita juhlapyhien kysynnän huippujen aikana',
       },
       {
-        src: '/samples/finnish/wordsearch/Sanahaku%201.webp',
+        src: '/samples/finnish/wordsearch/sanahaku%201.webp',
         alt: 'Sananetsintäpulma kausiluonteisella sanastolla juhlapyhämarkkinointiin',
         caption: 'Temaattiset sananetsinnät yhdistävät kausiluonteisen vetovoiman opetukselliseen arvoon vahvaan markkinapaikkasuoritukseen',
       },

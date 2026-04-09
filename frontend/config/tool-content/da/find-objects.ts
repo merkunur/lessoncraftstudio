@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp',
+      primary: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%201.webp',
       primaryAlt: 'Gratis find og markér søgebillede med gemte genstande og observationsleg — prøv online med vandmærke',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp',
+        src: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%201.webp',
         alt: 'Gratis søgebillede med gemte genstande og legende der viser målobjekter — prøv find og markér online',
         caption: 'Søgning-tilstand — fri skjulte objekter-scene med nul-overlapning placering og bundlegende',
       },
       {
-        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%202.webp',
+        src: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%202.webp',
         alt: 'Gratis observationsleg med parrede billeder og uparrede objekter — prøv find og markér online',
         caption: 'Find den Underlige-tilstand — parrede billeder med uparrede objekter til visuelle skelnelsesaktiviteter',
       },
       {
-        src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%203.webp',
+        src: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%203.webp',
         alt: 'Automatisk facit til find og markér med røde cirkler rundt om gemte genstande',
         caption: 'Automatisk genereret facit — røde cirkelannoteringer markerer skjulte og uparrede objekter til selvkontrol',
       },

@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividade de adição profissional demonstrando a qualidade do produto que suporta o crescimento escalável de negócios de imprimíveis' },
+    heroImage: { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade de adição profissional demonstrando a qualidade do produto que suporta o crescimento escalável de negócios de imprimíveis' },
     samples: [
-      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Atividade de adição com imagens temáticas mostrando diversidade de produtos para escalabilidade do catálogo', caption: 'Variações temáticas de atividades demonstram como um conceito de produto escala para múltiplas publicações em temas, níveis e idiomas' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Caça-palavras mostrando o potencial de escalabilidade multilingue', caption: 'Caça-palavras criados em 11 idiomas multiplicam o seu catálogo sem multiplicar o esforço criativo — o mesmo conceito chega a mercados internacionais' },
-      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Atividade de correspondência demonstrando expansão sistemática do catálogo através de variações de tema', caption: 'Atividades de correspondência em vários temas mostram extensão sistemática da linha de produtos — cada novo tema adiciona produtos usando formatos comprovados e recursos de imagem existentes' },
+      { src: '/samples/portuguese/addition/adição-divertida-2.webp', alt: 'Atividade de adição com imagens temáticas mostrando diversidade de produtos para escalabilidade do catálogo', caption: 'Variações temáticas de atividades demonstram como um conceito de produto escala para múltiplas publicações em temas, níveis e idiomas' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Caça-palavras mostrando o potencial de escalabilidade multilingue', caption: 'Caça-palavras criados em 11 idiomas multiplicam o seu catálogo sem multiplicar o esforço criativo — o mesmo conceito chega a mercados internacionais' },
+      { src: '/samples/portuguese/matching/encontre-os-pares-1.webp', alt: 'Atividade de correspondência demonstrando expansão sistemática do catálogo através de variações de tema', caption: 'Atividades de correspondência em vários temas mostram extensão sistemática da linha de produtos — cada novo tema adiciona produtos usando formatos comprovados e recursos de imagem existentes' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Como criar páginas para colorir com Desenho e Colorir — Demonstrando amplitude criativa para escalabilidade do catálogo',

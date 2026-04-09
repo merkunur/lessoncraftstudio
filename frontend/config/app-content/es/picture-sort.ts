@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/picture sort/Clasificación de Imágenes 1.webp',
+      primary: '/samples/spanish/picture sort/clasificación-de-imágenes-1.webp',
       primaryAlt: 'Ficha de clasificación de imágenes a dos categorías con marcos de categoría temáticos, cuadrícula de recortes mezclada y encabezado localizado Clasificación de Imágenes',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/picture sort/Clasificación de Imágenes 2.webp',
+        src: '/samples/spanish/picture sort/clasificación-de-imágenes-2.webp',
         alt: 'Ficha de clasificación en modo de tema con imágenes clasificadas en las categorías izquierda y derecha',
         caption: 'Modo de tema — categorías rellenadas automáticamente desde la biblioteca de imágenes',
       },
       {
-        src: '/samples/spanish/picture sort/Clasificación de Imágenes 3.webp',
+        src: '/samples/spanish/picture sort/clasificación-de-imágenes-3.webp',
         alt: 'Ficha de clasificación en modo manual con imágenes seleccionadas individualmente asignadas a las categorías izquierda y derecha',
         caption: 'Modo manual — seleccione imágenes y asígnalas a las categorías',
       },
       {
-        src: '/samples/spanish/picture sort/Clasificación de Imágenes 1 answer_key.webp',
+        src: '/samples/spanish/picture sort/clasificación-de-imágenes-1-answer-key.webp',
         alt: 'Clave de respuestas de clasificación de imágenes con imágenes 6 veces más grandes organizadas en las cajas de categorías correctas',
         caption: 'Clave de respuestas auto-generada — imágenes 6× más grandes en cajas de categorías',
       },

@@ -225,22 +225,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/grid%20match/Rutenettspuslespill%201.webp',
+      primary: '/samples/norwegian/grid%20match/rutenettspuslespill%201.webp',
       primaryAlt: 'Rutenettkobling arbeidsark med enkelt bilde delt inn i fliser, ledetrådsceller synlige og nummerert flisepalett for romlig resonnementspuslespill',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/grid%20match/Rutenettspuslespill%201.webp',
+        src: '/samples/norwegian/grid%20match/rutenettspuslespill%201.webp',
         alt: 'Tre ganger tre rutenettkobling puslespill med én ledetrådscelle synlig og åtte nummererte fliser i blandet palett for matching',
         caption: '3×3 rutenettspuslespill — én ledetrådscelle synlig, åtte fliser å matche fra nummerert palett',
       },
       {
-        src: '/samples/norwegian/grid%20match/Rutenettspuslespill%202.webp',
+        src: '/samples/norwegian/grid%20match/rutenettspuslespill%202.webp',
         alt: 'Fire ganger fire avansert rutenettkobling puslespill med seksten fliser og minimale ledetråder for utfordrende visuell persepsjonsaktivitet',
         caption: '4×4 avansert puslespill — maksimal rutenettstørrelse med 16 fliser for utfordrende romlig resonnement',
       },
       {
-        src: '/samples/norwegian/grid%20match/Rutenettspuslespill%203.webp',
+        src: '/samples/norwegian/grid%20match/rutenettspuslespill%203.webp',
         alt: 'Rutenettkobling fasit som viser komplett bilde med nummererte gule sirkler overlagt på hver rutenettcelle som angir korrekt flisplassering',
         caption: 'Automatisk generert fasit — nummererte sirkler (#ffffe0) viser korrekt flisplassering på komplett bilde',
       },

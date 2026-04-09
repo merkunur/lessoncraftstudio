@@ -184,10 +184,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/draw%20and%20color/Teken%20en%20Kleur%201.webp', alt: 'Rastertekenwerkblad met dubbel rastersysteem dat leeg oefenraster en gedeeltelijk zichtbaar aanwijzingenraster toont met zwart-wit contourthema' },
+    heroImage: { src: '/samples/dutch/draw%20and%20color/teken%20en%20kleur%201.webp', alt: 'Rastertekenwerkblad met dubbel rastersysteem dat leeg oefenraster en gedeeltelijk zichtbaar aanwijzingenraster toont met zwart-wit contourthema' },
     samples: [
-      { src: '/samples/dutch/draw%20and%20color/Teken%20en%20Kleur%201.webp', alt: 'Rastertekenwerkblad met dubbel rastersysteem met oefenraster en aanwijzingenraster voor cel-voor-cel reproductie', caption: 'Dubbel rasterformaat: leeg oefenraster bovenaan en aanwijzingenraster met gedeeltelijke referentie onderaan voor gestructureerde tekenoefeningen' },
-      { src: '/samples/dutch/drawing%20lines/Lijnen%20Tekenen%20Oefenen%201.webp', alt: 'Lijntekenwerkblad met oefenlijnen voor fijne motoriekontwikkeling', caption: 'Lijntekenoefening — fijne motoriekpartner die potloodcontrole bouwt voor betere rasterreproductie' },
+      { src: '/samples/dutch/draw%20and%20color/teken%20en%20kleur%201.webp', alt: 'Rastertekenwerkblad met dubbel rastersysteem met oefenraster en aanwijzingenraster voor cel-voor-cel reproductie', caption: 'Dubbel rasterformaat: leeg oefenraster bovenaan en aanwijzingenraster met gedeeltelijke referentie onderaan voor gestructureerde tekenoefeningen' },
+      { src: '/samples/dutch/drawing%20lines/lijnen%20tekenen%20oefenen%201.webp', alt: 'Lijntekenwerkblad met oefenlijnen voor fijne motoriekontwikkeling', caption: 'Lijntekenoefening — fijne motoriekpartner die potloodcontrole bouwt voor betere rasterreproductie' },
       { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Kleurplaat met landschapsthema in zwart-wit contourstijl', caption: 'Kleurplaat met landschapsthema — breidt de teken-dan-kleuren workflow uit met speciale kleuraktiviteiten' },
     ],
     youtubeId: '1uZubAOGIkM',

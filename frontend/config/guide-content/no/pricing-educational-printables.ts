@@ -53,10 +53,10 @@ const content: GuideContent = {
     { appId: 'wordsearch', title: 'Ordsoek-generator', description: 'Ordsoek med tematiske bildeledetrader kommanderer hoyere priser enn grunnleggende tekst-kun-versjoner pa alle plattformer.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Profesjonelt addisjonsarbeidsark som demonstrerer kvalitet som stotter premium prissetting' },
+    heroImage: { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Profesjonelt addisjonsarbeidsark som demonstrerer kvalitet som stotter premium prissetting' },
     samples: [
-      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Addisjonsarbeidsark med tematiske bilder som stotter premium prissetting', caption: 'Profesjonell formatering og tematiske bilder rettferdiggjor hoyere prispunkter' },
-      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek som demonstrerer funksjonsdifferensiering for prissetting', caption: 'Ordsoek med tematiske bilder kommanderer hoyere priser enn grunnleggende tekst-kun-versjoner' },
+      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Addisjonsarbeidsark med tematiske bilder som stotter premium prissetting', caption: 'Profesjonell formatering og tematiske bilder rettferdiggjor hoyere prispunkter' },
+      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsoek som demonstrerer funksjonsdifferensiering for prissetting', caption: 'Ordsoek med tematiske bilder kommanderer hoyere priser enn grunnleggende tekst-kun-versjoner' },
       { src: '/samples/norwegian/coloring/coloring%20portrait%202.webp', alt: 'Fargeleggingsside som viser kvalitet som stotter konkurransedyktig prissetting', caption: 'Hoyekvalitets fargeleggingssider demonstrerer hvordan produktkvalitet direkte muliggjor premium prissetting' },
     ],
     youtubeId: '-JIawojGNr0',

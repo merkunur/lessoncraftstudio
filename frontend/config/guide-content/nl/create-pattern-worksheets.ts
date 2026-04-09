@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/pattern%20train/Patroontje%201.webp', alt: 'Patroonherkenning werkblad met thema-afbeeldingen die visuele patroonvoltooiing oefeningen voor kinderen tonen' },
+    heroImage: { src: '/samples/dutch/pattern%20train/patroontje%201.webp', alt: 'Patroonherkenning werkblad met thema-afbeeldingen die visuele patroonvoltooiing oefeningen voor kinderen tonen' },
     samples: [
-      { src: '/samples/dutch/pattern%20train/Patroontje%201.webp', alt: 'Patroontreinen werkblad met dierenthema die AB en ABC patroonoefeningen toont', caption: 'Patroontreinen werkblad met thema-afbeeldingen met meerdere patroontypen en automatische antwoordsleutel' },
-      { src: '/samples/dutch/pattern%20worksheet/Patroonpuzzels%201.webp', alt: 'Patroonwerkblad met meerdere oefeningen en thematische afbeeldingen', caption: 'Patroonherkenning werkblad met gevarieerde oefeningen en automatische antwoordsleutel voor snel nakijken' },
-      { src: '/samples/dutch/big%20small/Groot%20of%20Klein%201.webp', alt: 'Groot of klein werkblad met visuele vergelijkingsoefeningen', caption: 'Groot-klein vergelijking werkblad — een uitstekende aanvulling op patroonwerkbladen voor visuele leerbundels' },
+      { src: '/samples/dutch/pattern%20train/patroontje%201.webp', alt: 'Patroontreinen werkblad met dierenthema die AB en ABC patroonoefeningen toont', caption: 'Patroontreinen werkblad met thema-afbeeldingen met meerdere patroontypen en automatische antwoordsleutel' },
+      { src: '/samples/dutch/pattern%20worksheet/patroonpuzzels%201.webp', alt: 'Patroonwerkblad met meerdere oefeningen en thematische afbeeldingen', caption: 'Patroonherkenning werkblad met gevarieerde oefeningen en automatische antwoordsleutel voor snel nakijken' },
+      { src: '/samples/dutch/big%20small/groot%20of%20klein%201.webp', alt: 'Groot of klein werkblad met visuele vergelijkingsoefeningen', caption: 'Groot-klein vergelijking werkblad — een uitstekende aanvulling op patroonwerkbladen voor visuele leerbundels' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'Hoe Maak Je Patroonherkenning Werkbladen — Complete Handleiding',

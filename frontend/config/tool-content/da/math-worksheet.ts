@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
+      primary: '/samples/danish/math%20worksheet/matematikopgave%201.webp',
       primaryAlt: 'Gratis regneopgaver generator online — algebra billedpuslespil med automatisk facit',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
+        src: '/samples/danish/math%20worksheet/matematikopgave%201.webp',
         alt: 'Gratis regneopgaver med to billedsymboler og additionsligninger — prøv online',
         caption: 'Meget Let-tilstand — to symboler med simpel addition',
       },
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp',
+        src: '/samples/danish/math%20worksheet/matematikopgave%202.webp',
         alt: 'Gratis regneopgaver i middel sværhed med tre billedvariabler i koblede ligninger',
         caption: 'Middel sværhed — tre ukendte i koblede ligninger',
       },
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp',
+        src: '/samples/danish/math%20worksheet/matematikopgave%203.webp',
         alt: 'Gratis regneopgaver med fire simultane ukendte og blandede operationer — prøv gratis',
         caption: 'Svær-tilstand — fire variabler med addition og subtraktion',
       },

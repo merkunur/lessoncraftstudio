@@ -271,22 +271,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/word guess/Devine le Mot 1.webp',
+      primary: '/samples/french/word guess/devine-le-mot-1.webp',
       primaryAlt: 'Fiche deviner les mots avec indices images et grilles de lettres vides montrant des puzzles de vocabulaire style pendu',
     },
     sampleGallery: [
       {
-        src: '/samples/french/word guess/Devine le Mot 1.webp',
+        src: '/samples/french/word guess/devine-le-mot-1.webp',
         alt: 'Fiche deviner les mots en difficulté Facile montrant la moitié des lettres révélées avec thème animaux',
         caption: 'Difficulté Facile — la moitié des lettres pré-révélées pour les lecteurs débutants',
       },
       {
-        src: '/samples/french/word guess/Devine le Mot 2.webp',
+        src: '/samples/french/word guess/devine-le-mot-2.webp',
         alt: 'Fiche deviner les mots en difficulté Difficile avec un minimum de lettres-indices et thème animaux',
         caption: 'Difficulté Difficile — seulement un sixième des lettres révélées pour les orthographeurs avancés',
       },
       {
-        src: '/samples/french/word guess/Devine le Mot 3.webp',
+        src: '/samples/french/word guess/devine-le-mot-3.webp',
         alt: 'Corrigé deviner les mots avec toutes les lettres remplies et aucune case vide',
         caption: 'Corrigé — toutes les lettres révélées pour une correction et auto-vérification faciles',
       },

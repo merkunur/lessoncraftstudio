@@ -156,11 +156,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/matching/Zoek de Paren 1.webp', alt: 'Koppelen werkblad als onderdeel van productlijn' },
+    heroImage: { src: '/samples/dutch/matching/zoek-de-paren-1.webp', alt: 'Koppelen werkblad als onderdeel van productlijn' },
     samples: [
-      { src: '/samples/dutch/matching/Zoek de Paren 1.webp', alt: 'Koppelen werkblad in productlijn context', caption: 'Koppelen activiteiten vormen een veelzijdig onderdeel van elke educatieve productlijn' },
-      { src: '/samples/dutch/addition/Optellen is Leuk 1.webp', alt: 'Optellen werkblad als kern van rekenproductlijn', caption: 'Rekenwerkbladen zijn de basis van de meest winstgevende educatieve productlijnen' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: 'Woordzoeker als aanvullend product in productlijn', caption: 'Woordzoekers voegen variatie toe aan je productlijn en trekken nieuwe kopers aan' },
+      { src: '/samples/dutch/matching/zoek-de-paren-1.webp', alt: 'Koppelen werkblad in productlijn context', caption: 'Koppelen activiteiten vormen een veelzijdig onderdeel van elke educatieve productlijn' },
+      { src: '/samples/dutch/addition/optellen-is-leuk-1.webp', alt: 'Optellen werkblad als kern van rekenproductlijn', caption: 'Rekenwerkbladen zijn de basis van de meest winstgevende educatieve productlijnen' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoeker als aanvullend product in productlijn', caption: 'Woordzoekers voegen variatie toe aan je productlijn en trekken nieuwe kopers aan' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Bouw Je een Winstgevende Printable Productlijn Op',

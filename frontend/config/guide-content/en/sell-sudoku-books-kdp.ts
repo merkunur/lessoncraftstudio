@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku puzzle with themed images for KDP book publishing' },
+    heroImage: { src: '/samples/english/sudoku/sudoku-easy.webp', alt: 'Picture sudoku puzzle with themed images for KDP book publishing' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku hard.webp', alt: 'Picture sudoku puzzle page ready for KDP manuscript', caption: 'A 4x4 picture sudoku puzzle using themed images -- print-ready for KDP book interiors' },
-      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku answer key showing completed grid', caption: 'Automatic answer key showing the correct image placement in every cell' },
+      { src: '/samples/english/sudoku/sudoku-hard.webp', alt: 'Picture sudoku puzzle page ready for KDP manuscript', caption: 'A 4x4 picture sudoku puzzle using themed images -- print-ready for KDP book interiors' },
+      { src: '/samples/english/sudoku/sudoku-easy.webp', alt: 'Picture sudoku answer key showing completed grid', caption: 'Automatic answer key showing the correct image placement in every cell' },
     ],
   },
 

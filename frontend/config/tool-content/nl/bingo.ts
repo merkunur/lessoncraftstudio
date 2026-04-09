@@ -220,22 +220,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/bingo/Plaatjesbingo%201.webp',
+      primary: '/samples/dutch/bingo/plaatjesbingo%201.webp',
       primaryAlt: 'Plaatjesbingokaart met thematische afbeeldingen in een configureerbaar raster en ronde fiches met gestreepte randen eronder voor koppelen tijdens bingospel',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/bingo/Plaatjesbingo%202.webp',
+        src: '/samples/dutch/bingo/plaatjesbingo%202.webp',
         alt: 'Plaatjesbingokaart met afbeeldingsvulling die kleurrijke thematische illustraties toont in rastervakjes en ronde afbeeldingsfiches met gestreepte randen',
         caption: 'Afbeeldingsvulling — kleurrijke illustraties in zowel kaartvakjes als ronde fiches voor visuele bingo',
       },
       {
-        src: '/samples/dutch/bingo/Plaatjesbingo%203.webp',
+        src: '/samples/dutch/bingo/plaatjesbingo%203.webp',
         alt: 'Plaatjesbingokaart met woordvulling die gelokaliseerde afbeeldingsnamen toont in rastervakjes en woordfiches voor woordenschat-bingo',
         caption: 'Woordvulling — gelokaliseerde afbeeldingsnamen voor woordenschat-gebaseerde meertalige bingoproducten',
       },
       {
-        src: '/samples/dutch/bingo/Plaatjesbingo%201%20callout.webp',
+        src: '/samples/dutch/bingo/plaatjesbingo%201%20callout.webp',
         alt: 'Bingo-afroepblad met dynamisch woordraster dat alle spelitems toont georganiseerd in kolommen voor de afroeper',
         caption: 'Afroepblad — dynamisch woordraster met berekende kolommen en uniforme lettergrootte voor de afroeper',
       },

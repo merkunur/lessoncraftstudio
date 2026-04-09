@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/pattern worksheet/Patroonpuzzels%201.webp',
+      primary: '/samples/dutch/pattern worksheet/patroonpuzzels%201.webp',
       primaryAlt: 'Patronen werkblad met rastergebaseerde oefeningen die herhalende afbeeldingspatronen tonen met lege vakken en meerkeuze-opties',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/pattern worksheet/Patroonpuzzels%202.webp',
+        src: '/samples/dutch/pattern worksheet/patroonpuzzels%202.webp',
         alt: 'Patronen werkblad met AB-invuloefeningen met dierenafbeeldingen in een rasterindeling met lege vakken voor gebruikers om te voltooien',
         caption: 'AB-invuloefeningen met dierenthema — gebruikers herkennen het afwisselende patroon en vullen de ontbrekende afbeelding in',
       },
       {
-        src: '/samples/dutch/pattern worksheet/Patroonpuzzels%203.webp',
+        src: '/samples/dutch/pattern worksheet/patroonpuzzels%203.webp',
         alt: 'Patronen werkblad met ABC-meerkeuze-oefeningen met voertuigafbeeldingen met drie antwoordopties per oefening',
         caption: 'ABC-meerkeuze-oefeningen met voertuigenthema — gebruikers kiezen het juiste ontbrekende item uit drie opties',
       },
       {
-        src: '/samples/dutch/pattern worksheet/Patroonpuzzels%201%20answer_key.webp',
+        src: '/samples/dutch/pattern worksheet/patroonpuzzels%201%20answer-key.webp',
         alt: 'Patronen werkblad antwoordblad met alle lege posities gevuld met de juiste patroonitems',
         caption: 'Antwoordblad weergave — alle lege posities gevuld met de juiste patroonitems voor verificatie door de verkoper',
       },

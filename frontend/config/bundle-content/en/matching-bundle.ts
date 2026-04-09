@@ -198,15 +198,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/matching/matching portrait.webp',
+      primary: '/samples/english/matching/matching-portrait.webp',
       primaryAlt: 'Matching worksheet with themed images showing pair-matching exercise',
     },
     sampleGallery: [
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matching worksheet with four matching modes and themed images', caption: 'Matching Worksheet' },
-      { src: '/samples/english/grid match/Grid Match.webp', alt: 'Grid match puzzle with coordinate-based matching on structured grid', caption: 'Grid Match Worksheet' },
+      { src: '/samples/english/matching/matching-portrait.webp', alt: 'Matching worksheet with four matching modes and themed images', caption: 'Matching Worksheet' },
+      { src: '/samples/english/grid match/grid-match.webp', alt: 'Grid match puzzle with coordinate-based matching on structured grid', caption: 'Grid Match Worksheet' },
       { src: '/samples/english/shadow match/shadow-match-worksheet.webp', alt: 'Shadow match worksheet with silhouette pairing and draw-line format', caption: 'Shadow Match Worksheet' },
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingo card with themed images in randomized grid layout', caption: 'Bingo Card' },
-      { src: '/samples/english/picture sort/Picture Sort.webp', alt: 'Picture sort worksheet with two-category classification exercise', caption: 'Picture Sort Worksheet' },
+      { src: '/samples/english/bingo/bingo-card.webp', alt: 'Bingo card with themed images in randomized grid layout', caption: 'Bingo Card' },
+      { src: '/samples/english/picture sort/picture-sort.webp', alt: 'Picture sort worksheet with two-category classification exercise', caption: 'Picture Sort Worksheet' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Matching & Sorting Bundle — See All 5 Generators in Action',

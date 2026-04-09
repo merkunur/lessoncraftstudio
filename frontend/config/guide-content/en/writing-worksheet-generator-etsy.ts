@@ -180,7 +180,7 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/writing/writing.webp', alt: 'Handwriting tracing worksheet with guided letter practice generated for Etsy sellers' },
     samples: [
-      { src: '/samples/english/writing/writing beginning letter.webp', alt: 'Trace mode handwriting worksheet with dotted letter outlines', caption: 'Trace mode worksheet showing fully guided letter outlines for beginner handwriting practice' },
+      { src: '/samples/english/writing/writing-beginning-letter.webp', alt: 'Trace mode handwriting worksheet with dotted letter outlines', caption: 'Trace mode worksheet showing fully guided letter outlines for beginner handwriting practice' },
       { src: '/samples/english/writing/writing.webp', alt: 'Fading trace handwriting worksheet with progressive difficulty', caption: 'Fading Trace mode with letters progressively fading across the practice row for intermediate learners' },
     ],
     youtubeId: '0b4WglqyXu0',

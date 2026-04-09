@@ -220,22 +220,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/bingo/tombola 1.webp',
+      primary: '/samples/italian/bingo/tombola-1.webp',
       primaryAlt: 'Cartella bingo illustrata con immagini tematiche in una griglia configurabile e gettoni circolari con bordi tratteggiati sotto per l\'abbinamento durante il gioco',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/bingo/tombola 2.webp',
+        src: '/samples/italian/bingo/tombola-2.webp',
         alt: 'Cartella bingo illustrata con riempimento immagine che mostra illustrazioni tematiche colorate nelle celle della griglia e gettoni circolari con bordi tratteggiati',
         caption: 'Modalità immagine — illustrazioni colorate nelle celle della cartella e nei gettoni circolari per bingo visivo',
       },
       {
-        src: '/samples/italian/bingo/tombola 3.webp',
+        src: '/samples/italian/bingo/tombola-3.webp',
         alt: 'Cartella bingo con diverse configurazioni di griglia e temi decorativi di sfondo e bordo per un aspetto professionale',
         caption: 'Griglia configurabile — dimensioni da 3×3 a 5×5 con temi di sfondo e bordo indipendenti',
       },
       {
-        src: '/samples/italian/bingo/tombola 1 callout.webp',
+        src: '/samples/italian/bingo/tombola-1-callout.webp',
         alt: 'Foglio di richiamo bingo con griglia di parole dinamica che mostra tutti gli elementi del gioco organizzati in colonne per chi conduce il gioco',
         caption: 'Foglio di richiamo — griglia di parole dinamica con colonne calcolate e dimensione carattere uniforme',
       },

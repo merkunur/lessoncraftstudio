@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/coloring/coloring portrait 1.webp',
+      src: '/samples/english/coloring/coloring-portrait-1.webp',
       alt: 'Professionell målarbok som demonstrerar visuellt slående Pinterest-pin-innehåll för säljare av utskriftsbara produkter',
     },
     samples: [
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/english/coloring/coloring-portrait-1.webp',
         alt: 'Målarbok som visar visuell påverkan för Pinterest-pin-design',
         caption: 'Visuellt slående arbetsblad skapar naturligt övertygande Pinterest-pin-bilder',
       },
       {
-        src: '/samples/english/bingo/bingo_card.webp',
+        src: '/samples/english/bingo/bingo-card.webp',
         alt: 'Bingokort som demonstrerar färgglada pin-värdiga produktdesigner',
         caption: 'Färgglada, tematiska produkter genererar högre sparfrekvenser och klickfrekvenser på Pinterest',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/english/wordsearch/wordsearch-portrait.webp',
         alt: 'Ordsökspussel som visar mångsidig produkttyp för Pinterest-marknadsföring',
         caption: 'Mångsidiga produkttyper stödjer flera pin-varianter för bredare söktäckning',
       },

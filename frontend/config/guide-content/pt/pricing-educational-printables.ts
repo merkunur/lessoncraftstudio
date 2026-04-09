@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividade de adição profissional a demonstrar a qualidade que suporta estratégias de preços premium' },
+    heroImage: { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade de adição profissional a demonstrar a qualidade que suporta estratégias de preços premium' },
     samples: [
-      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Atividade de adição com imagens temáticas a suportar preços premium', caption: 'A formatação profissional e as imagens temáticas justificam pontos de preço mais altos — os compradores pagam mais por qualidade e apelo visual' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Caça-palavras a demonstrar diferenciação de características para preços', caption: 'Os caça-palavras com imagens temáticas exigem preços mais altos do que as versões básicas de apenas texto em todas as plataformas' },
-      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir a mostrar a qualidade que suporta preços competitivos', caption: 'As páginas para colorir de alta qualidade demonstram como a qualidade do produto permite diretamente preços premium em categorias competitivas' },
+      { src: '/samples/portuguese/addition/adição-divertida-2.webp', alt: 'Atividade de adição com imagens temáticas a suportar preços premium', caption: 'A formatação profissional e as imagens temáticas justificam pontos de preço mais altos — os compradores pagam mais por qualidade e apelo visual' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Caça-palavras a demonstrar diferenciação de características para preços', caption: 'Os caça-palavras com imagens temáticas exigem preços mais altos do que as versões básicas de apenas texto em todas as plataformas' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir a mostrar a qualidade que suporta preços competitivos', caption: 'As páginas para colorir de alta qualidade demonstram como a qualidade do produto permite diretamente preços premium em categorias competitivas' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Como criar atividades de matemática rapidamente — Produção eficiente para melhores margens de lucro',

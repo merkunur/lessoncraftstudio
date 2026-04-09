@@ -253,22 +253,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/subtraction/Restas Divertidas 2.webp',
+      primary: '/samples/spanish/subtraction/restas-divertidas-2.webp',
       primaryAlt: 'Ficha de resta mostrando la visualización de tachado con cruces diagonales sobre las imágenes restadas',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/subtraction/Restas Divertidas 2.webp',
+        src: '/samples/spanish/subtraction/restas-divertidas-2.webp',
         alt: 'Ficha de resta en modo Tachar con cruces sobre las imágenes restadas',
         caption: 'Modo Tachar — cruces diagonales muestran qué elementos se restan',
       },
       {
-        src: '/samples/spanish/subtraction/Restas Divertidas 4.webp',
+        src: '/samples/spanish/subtraction/restas-divertidas-4.webp',
         alt: 'Ficha de resta en modo Imagen menos Número con grupos de imágenes y números',
         caption: 'Modo Imagen − Número — asocia grupos de imágenes con números para habilidades de transición',
       },
       {
-        src: '/samples/spanish/subtraction/Restas Divertidas 3.webp',
+        src: '/samples/spanish/subtraction/restas-divertidas-3.webp',
         alt: 'Ficha de resta en modo Encontrar el Sustraendo desafiando a los usuarios a encontrar el valor faltante',
         caption: 'Modo Encontrar el Sustraendo — los usuarios determinan cuántos se quitaron',
       },

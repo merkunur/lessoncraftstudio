@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/prepositions/Preposizioni 1.webp',
+      primary: '/samples/italian/prepositions/preposizioni-1.webp',
       primaryAlt: 'Scheda di preposizioni con immagini colorate che mostrano relazioni spaziali tra oggetti e forme geometriche',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/prepositions/Preposizioni 2.webp',
+        src: '/samples/italian/prepositions/preposizioni-2.webp',
         alt: 'Scheda di preposizioni completa la frase con tema animali e forme geometriche',
         caption: 'Modalità Completa la Frase — gli utenti completano le frasi con la preposizione corretta',
       },
       {
-        src: '/samples/italian/prepositions/Preposizioni 3.webp',
+        src: '/samples/italian/prepositions/preposizioni-3.webp',
         alt: 'Scheda di preposizioni scelta multipla con tema veicoli che mostra descrizioni spaziali',
         caption: 'Modalità Scelta Multipla — gli utenti identificano l\'immagine che corrisponde alla descrizione spaziale',
       },
       {
-        src: '/samples/italian/prepositions/Preposizioni 4.webp',
+        src: '/samples/italian/prepositions/preposizioni-4.webp',
         alt: 'Scheda di preposizioni completa con le otto preposizioni spaziali e chiave di risposta',
         caption: 'Scheda completa di 8 esercizi — ripasso esaustivo di tutte le preposizioni spaziali',
       },

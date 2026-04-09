@@ -216,12 +216,12 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/alphabet%20train/alfabet%C3%A5g%20portrait.webp',
+      primary: '/samples/swedish/alphabet%20train/alfabet%c3%a5g%20portrait.webp',
       primaryAlt: 'Alfabetståg arbetsblad som visar 11 färgglada vagnar med bokstäver och matchande ledtrådsbilder för bokstavsigenkänning',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/alphabet%20train/alfabet%C3%A5g%20portrait.webp',
+        src: '/samples/swedish/alphabet%20train/alfabet%c3%a5g%20portrait.webp',
         alt: 'Färgglatt alfabetståg arbetsblad med bokstav-bild matchningsaktivitet för unga användare',
         caption: 'Tågvagnsformat med bokstav-bild matchning',
       },
@@ -231,7 +231,7 @@ const content: ToolContent = {
         caption: 'Tematiska bilder med konfigurerbart ledtrådsantal',
       },
       {
-        src: '/samples/swedish/alphabet%20train/worksheet%20(1).webp',
+        src: '/samples/swedish/alphabet%20train/worksheet%20-1.webp',
         alt: 'Avancerat alfabetståg arbetsblad med 11 ledtrådar för maximal svårighets bokstavsigenkänning',
         caption: 'Fullständig 11-ledtråds svårighet för avancerade användare',
       },

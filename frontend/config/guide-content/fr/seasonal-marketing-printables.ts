@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/bingo/Loto d\'Images 1.webp',
+      src: '/samples/french/bingo/Loto d\'images-1.webp',
       alt: 'Carte de bingo démontrant un produit imprimable saisonnier idéal pour les campagnes de marketing de fêtes',
     },
     samples: [
       {
-        src: '/samples/french/bingo/Loto d\'Images 1.webp',
+        src: '/samples/french/bingo/Loto d\'images-1.webp',
         alt: 'Carte de bingo montrant un produit imprimable saisonnier pour les événements de fêtes et célébrations',
         caption: 'Les cartes de bingo s\'adaptent à chaque thème saisonnier, en faisant des produits idéaux pour le marketing saisonnier tout au long de l\'année',
       },
       {
-        src: '/samples/french/coloring/coloring portrait 1.webp',
+        src: '/samples/french/coloring/coloring-portrait-1.webp',
         alt: 'Page de coloriage démontrant du contenu imprimable saisonnier pour les fiches produit de fêtes',
         caption: 'Les pages de coloriage saisonnières sont des vendeurs réguliers parmi les meilleurs pendant les pics de demande de fêtes sur toutes les places de marché d\'imprimables',
       },
       {
-        src: '/samples/french/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/mots-caches-1.webp',
         alt: 'Puzzle de mots mêlés montrant un imprimable de construction de vocabulaire saisonnier pour le marketing de fêtes',
         caption: 'Les mots mêlés thématiques combinent attrait saisonnier et valeur éducative pour de solides performances saisonnières sur les places de marché',
       },

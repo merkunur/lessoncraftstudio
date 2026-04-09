@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/wordsearch/Mots Caches 1.webp',
+      src: '/samples/french/wordsearch/mots-caches-1.webp',
       alt: 'Fiche de mots cachés démontrant la génération de contenu multilingue avec une gestion correcte des caractères',
     },
     samples: [
       {
-        src: '/samples/french/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/mots-caches-1.webp',
         alt: 'Puzzle de mots cachés montrant du contenu basé sur le vocabulaire nécessitant un support correct des caractères multilingues',
         caption: 'Les fiches de mots cachés démontrent l\'importance d\'une gestion correcte des caractères dans toutes les langues',
       },
       {
-        src: '/samples/french/alphabet train/Train de l\'Alphabet 1.webp',
+        src: '/samples/french/alphabet train/Train de l\'alphabet-1.webp',
         alt: 'Fiche de train alphabétique montrant la génération de lettres et caractères spécifiques à chaque langue',
         caption: 'Les fiches d\'alphabet nécessitent des caractères spécifiques à la langue, y compris les trémas et les lettres accentuées',
       },
       {
-        src: '/samples/french/matching/Trouve les Paires 1.webp',
+        src: '/samples/french/matching/trouve-les-paires-1.webp',
         alt: 'Fiche d\'association montrant la production multilingue avec des éléments visuels et textuels',
         caption: 'Les fiches d\'association combinent des éléments visuels avec du vocabulaire spécifique à la langue pour les marchés internationaux',
       },

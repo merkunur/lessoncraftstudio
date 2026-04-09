@@ -191,11 +191,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche imprimable éducative pour démonstration de stratégie de tarification sur Etsy' },
+    heroImage: { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche imprimable éducative pour démonstration de stratégie de tarification sur Etsy' },
     samples: [
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition thème animaux montrant un produit d\'entrée de gamme pour Etsy', caption: 'Fiche d\'addition avec thème animaux — un produit d\'entrée de gamme typique tarifé à 3,99 $ pour un pack de 10 pages' },
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche de mots cachés démontrant la tarification premium pour les produits spécifiques par langue', caption: 'Puzzle de mots cachés — les versions linguistiques commandent une tarification premium avec moins de concurrence sur les marchés non anglophones' },
-      { src: '/samples/french/sudoku/Sudoku en Images 2.webp', alt: 'Fiche de puzzle sudoku montrant la stratégie de tarification par difficulté progressive', caption: 'Puzzle sudoku — la tarification par paliers de difficulté soutient une tarification progressive au sein d\'une même catégorie de produit' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition thème animaux montrant un produit d\'entrée de gamme pour Etsy', caption: 'Fiche d\'addition avec thème animaux — un produit d\'entrée de gamme typique tarifé à 3,99 $ pour un pack de 10 pages' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Fiche de mots cachés démontrant la tarification premium pour les produits spécifiques par langue', caption: 'Puzzle de mots cachés — les versions linguistiques commandent une tarification premium avec moins de concurrence sur les marchés non anglophones' },
+      { src: '/samples/french/sudoku/sudoku-en-images-2.webp', alt: 'Fiche de puzzle sudoku montrant la stratégie de tarification par difficulté progressive', caption: 'Puzzle sudoku — la tarification par paliers de difficulté soutient une tarification progressive au sein d\'une même catégorie de produit' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Comment créer des fiches imprimables à vendre sur Etsy — Comprendre la valeur produit et la tarification',

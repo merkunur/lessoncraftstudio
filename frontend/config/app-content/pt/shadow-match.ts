@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/shadow match/Combine as Sombras 1.webp',
+      primary: '/samples/portuguese/shadow match/combine-as-sombras-1.webp',
       primaryAlt: 'Atividade de associação de sombras com imagens coloridas na linha superior e siluetas negras autogeradas na linha inferior com cabeçalho âmbar',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/shadow match/Combine as Sombras 2.webp',
+        src: '/samples/portuguese/shadow match/combine-as-sombras-2.webp',
         alt: 'Atividade de associação de sombras mostrando quatro imagens coloridas associadas a quatro siluetas negras com etiquetas de letras e números',
         caption: 'Modo Associação de Sombras — os usuários associam imagens às suas siluetas autogeradas',
       },
       {
-        src: '/samples/portuguese/shadow match/Combine as Sombras 3.webp',
+        src: '/samples/portuguese/shadow match/combine-as-sombras-3.webp',
         alt: 'Atividade Complete a Imagem com metades de imagens divididas que os usuários reconectam associando primeiras e segundas metades',
         caption: 'Modo Complete a Imagem — os usuários associam metades de imagens para completar as ilustrações',
       },
       {
-        src: '/samples/portuguese/shadow match/Combine as Sombras 4.webp',
+        src: '/samples/portuguese/shadow match/combine-as-sombras-4.webp',
         alt: 'Gabarito de associação de sombras mostrando as imagens originais com siluetas e etiquetas de correspondência letra-número corretas',
         caption: 'Gabarito autogerado — as etiquetas letra-número mostram as correspondências corretas',
       },

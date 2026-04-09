@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas mostrando un componente clave de paquetes de imprimibles educativos para vendedores de Etsy' },
+    heroImage: { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de sumas mostrando un componente clave de paquetes de imprimibles educativos para vendedores de Etsy' },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas con tema de animales como componente de paquete de matemáticas para Etsy', caption: 'Ficha de sumas con tema de animales — un componente clave para paquetes por asignatura de matemáticas en Etsy' },
-      { src: '/samples/spanish/subtraction/Restas Divertidas 1.webp', alt: 'Ficha de restas con tema de animales complementando sumas en paquetes de matemáticas Etsy', caption: 'Ficha de restas con tema de animales — se empareja con fichas de sumas para paquetes completos de matemáticas' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras de animales añadiendo variedad multi-categoría a paquetes de fichas Etsy', caption: 'Sopa de letras con tema de animales — añada valor de lectoescritura a paquetes temáticos multi-categoría' },
+      { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de sumas con tema de animales como componente de paquete de matemáticas para Etsy', caption: 'Ficha de sumas con tema de animales — un componente clave para paquetes por asignatura de matemáticas en Etsy' },
+      { src: '/samples/spanish/subtraction/restas-divertidas-1.webp', alt: 'Ficha de restas con tema de animales complementando sumas en paquetes de matemáticas Etsy', caption: 'Ficha de restas con tema de animales — se empareja con fichas de sumas para paquetes completos de matemáticas' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras de animales añadiendo variedad multi-categoría a paquetes de fichas Etsy', caption: 'Sopa de letras con tema de animales — añada valor de lectoescritura a paquetes temáticos multi-categoría' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Cómo crear fichas de sumas para paquetes Etsy — Estrategia de paquetes multi-producto',

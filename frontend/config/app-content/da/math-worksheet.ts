@@ -239,22 +239,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
+      primary: '/samples/danish/math%20worksheet/matematikopgave%201.webp',
       primaryAlt: 'Regneopgaver til print med billeder som variabler og automatisk facitliste',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%201.webp',
+        src: '/samples/danish/math%20worksheet/matematikopgave%201.webp',
         alt: 'Regneopgaver generator — let niveau med to billedsymboler og additionsopgaver',
         caption: 'Meget Let niveau — regneopgaver på mål med to symboler og kun addition',
       },
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%202.webp',
+        src: '/samples/danish/math%20worksheet/matematikopgave%202.webp',
         alt: 'Matematik arbejdsark til print med tre symboler og blandede regnearter',
         caption: 'Middel niveau — regneopgaver med tre symboler, addition og subtraktion',
       },
       {
-        src: '/samples/danish/math%20worksheet/Matematikopgave%203.webp',
+        src: '/samples/danish/math%20worksheet/matematikopgave%203.webp',
         alt: 'Opgavegenerator matematik — svært niveau med fire ukendte og facit',
         caption: 'Svær niveau — fire simultane ukendte til hovedregning for mellemtrin',
       },

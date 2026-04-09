@@ -200,8 +200,8 @@ const content: GuideContent = {
     heroImage: { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityskuva, joka edustaa laaja-alaista KDP-aktiviteettikirjan nicheä julkaisijoille' },
     samples: [
       { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityskirjan sisältö — yksi suurimmista KDP-aktiviteettikirjan nicheistä', caption: 'Värityskirjat — valtava KDP-niche, joka kattaa lapset, aikuiset ja temaattiset painokset vahvalla ympärivuotisella kysynnällä' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma temaattisella ala-niche-kohdennuksella pulmakategoriassa', caption: 'Temaattinen sananetsintä — ala-niche-kohdentaminen eläin-, matka- ja juhlapyhäteemoilla vähentää kilpailua ylläpitäen vahvan kysynnän' },
-      { src: '/samples/finnish/math%20worksheet/Matematiikkalehti%201.webp', alt: 'Matemaattinen työarkki — luokkatason kohderyhmäsegmentointi KDP-niche-strategialle', caption: 'Matemaattiset harjoituskirjat — kohderyhmäsegmentointi luokkatason ja operaatiotyypin mukaan luo kymmeniä erillisiä ala-nichejä yhdestä kategoriasta' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulma temaattisella ala-niche-kohdennuksella pulmakategoriassa', caption: 'Temaattinen sananetsintä — ala-niche-kohdentaminen eläin-, matka- ja juhlapyhäteemoilla vähentää kilpailua ylläpitäen vahvan kysynnän' },
+      { src: '/samples/finnish/math%20worksheet/matematiikkalehti%201.webp', alt: 'Matemaattinen työarkki — luokkatason kohderyhmäsegmentointi KDP-niche-strategialle', caption: 'Matemaattiset harjoituskirjat — kohderyhmäsegmentointi luokkatason ja operaatiotyypin mukaan luo kymmeniä erillisiä ala-nichejä yhdestä kategoriasta' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Näin luot matemaattisia työarkkeja KDP-aktiviteettikirjoihin — Niche-sisällönluontiopas',

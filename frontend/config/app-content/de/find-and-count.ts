@@ -272,22 +272,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/find and count/Ich sehe was 1.webp',
+      primary: '/samples/german/find and count/ich-sehe-was-1.webp',
       primaryAlt: 'Suchbild-Arbeitsblatt mit verteilten Bildern in einem Raster, blauem Header-Rahmen und vier Aufgabentyp-Anweisungen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/find and count/Ich sehe was 1.webp',
+        src: '/samples/german/find and count/ich-sehe-was-1.webp',
         alt: 'Suchbild-Ich-sehe-was-Arbeitsblatt im Hochformat mit verteilten Tierbildern und Aufgabenanweisungen',
         caption: 'Suchbild-Modus — klassisches Ich-sehe-was mit Einkreisen-, Umrahmen-, Durchstreichen- und Zählen-Aufgaben',
       },
       {
-        src: '/samples/german/find and count/Ich sehe was 2.webp',
+        src: '/samples/german/find and count/ich-sehe-was-2.webp',
         alt: 'Suchbild-Suchen-und-Zählen-Arbeitsblatt im Querformat mit breiterem Raster-Layout',
         caption: 'Querformat-Modus — breiteres Raster-Layout für mehr Spalten und variierte visuelle Dichte',
       },
       {
-        src: '/samples/german/find and count/Ich sehe was 1 answer_key.webp',
+        src: '/samples/german/find and count/ich-sehe-was-1-answer-key.webp',
         alt: 'Suchbild-Lösungsschlüssel mit roten Kreis-, Rahmen- und Kreuz-Markierungen über korrekten Objekten',
         caption: 'Automatisch generierter Lösungsschlüssel — rote Markierungen und Anzahl-Anzeigen kennzeichnen korrekte Antworten',
       },

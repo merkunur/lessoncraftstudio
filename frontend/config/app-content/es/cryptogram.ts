@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/cryptogram/Criptograma de Dibujos 1.webp',
+      primary: '/samples/spanish/cryptogram/criptograma-de-dibujos-1.webp',
       primaryAlt: 'Ficha de criptograma con cifrado por imágenes mostrando imágenes asociadas a letras del alfabeto codificando una frase secreta',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/cryptogram/Criptograma de Dibujos 1.webp',
+        src: '/samples/spanish/cryptogram/criptograma-de-dibujos-1.webp',
         alt: 'Ficha de criptograma con imágenes temáticas reemplazando las letras en una frase codificada',
         caption: 'Puzzle de cifrado por imágenes — descifra el mensaje secreto identificando qué imagen representa qué letra',
       },
       {
-        src: '/samples/spanish/cryptogram/Criptograma de Dibujos 2.webp',
+        src: '/samples/spanish/cryptogram/criptograma-de-dibujos-2.webp',
         alt: 'Ficha de criptograma con tema de animales y pistas de Letras a Revelar mostradas',
         caption: 'Tema de animales con Letras a Revelar — las correspondencias pre-resueltas guían a los principiantes',
       },
       {
-        src: '/samples/spanish/cryptogram/Criptograma de Dibujos 1 answer_key.webp',
+        src: '/samples/spanish/cryptogram/criptograma-de-dibujos-1-answer-key.webp',
         alt: 'Clave de respuesta del criptograma con leyenda de letras completa mostrando todas las correspondencias alfabeto-imagen',
         caption: 'Clave de respuesta con leyenda de letras — cada letra del alfabeto emparejada con su imagen en orden alfabético',
       },

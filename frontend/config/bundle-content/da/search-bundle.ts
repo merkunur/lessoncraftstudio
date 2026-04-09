@@ -196,14 +196,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
+      primary: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp',
       primaryAlt: 'I Spy find og tæl arbejdsark med tematiske billeder spredt over et gitter for visuel scanning og tælling',
     },
     sampleGallery: [
-      { src: '/samples/danish/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp', alt: 'Jeg Ser, Jeg Ser — dansk eksempel', caption: 'Jeg Ser, Jeg Ser' },
-      { src: '/samples/danish/find%20objects/Find%20de%20Skjulte%20Objekter%201.webp', alt: 'Find de Skjulte Objekter — dansk eksempel', caption: 'Find de Skjulte Objekter' },
-      { src: '/samples/danish/crossword/Billedkrydsord%201.webp', alt: 'Billedkrydsord — dansk eksempel', caption: 'Billedkrydsord' },
-      { src: '/samples/danish/treasure%20hunt/Skattejagt%201.webp', alt: 'Skattejagt — dansk eksempel', caption: 'Skattejagt' },
+      { src: '/samples/danish/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp', alt: 'Jeg Ser, Jeg Ser — dansk eksempel', caption: 'Jeg Ser, Jeg Ser' },
+      { src: '/samples/danish/find%20objects/find%20de%20skjulte%20objekter%201.webp', alt: 'Find de Skjulte Objekter — dansk eksempel', caption: 'Find de Skjulte Objekter' },
+      { src: '/samples/danish/crossword/billedkrydsord%201.webp', alt: 'Billedkrydsord — dansk eksempel', caption: 'Billedkrydsord' },
+      { src: '/samples/danish/treasure%20hunt/skattejagt%201.webp', alt: 'Skattejagt — dansk eksempel', caption: 'Skattejagt' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Søg & Find-pakke — Se alle 4 opdagelsesgeneratorer i aktion',

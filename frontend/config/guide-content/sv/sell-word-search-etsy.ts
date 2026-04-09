@@ -192,8 +192,8 @@ const content: GuideContent = {
     heroImage: { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Ordsökningspussel med tematiskt ordförrådsrutnät som visar gömda ord för försäljning på Etsy' },
     samples: [
       { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Djurtematiserat ordsökningspussel skapat för Etsy digital nedladdningsannons', caption: 'Ordsökningspussel med djurordförråd — rutnätsbaserat format som skapar iögonfallande Etsy-annonsfoton' },
-      { src: '/samples/swedish/crossword/Bildkorsord%201.webp', alt: 'Korsordspussel som kompletterar ordsökningsprodukter i en Etsy pusselbutik', caption: 'Korsordspussel — naturlig korsförsäljningskompanjon till ordsökningsannonser i din Etsy-butik' },
-      { src: '/samples/swedish/word scramble/Ordmix%20portrait.webp', alt: 'Ordmixpussel som visar kompletterande format för Etsy-pusselpaket', caption: 'Ordmixpussel — snabb ordförrådsaktivitet som lägger till variation i flerformatspaket' },
+      { src: '/samples/swedish/crossword/bildkorsord%201.webp', alt: 'Korsordspussel som kompletterar ordsökningsprodukter i en Etsy pusselbutik', caption: 'Korsordspussel — naturlig korsförsäljningskompanjon till ordsökningsannonser i din Etsy-butik' },
+      { src: '/samples/swedish/word scramble/ordmix%20portrait.webp', alt: 'Ordmixpussel som visar kompletterande format för Etsy-pusselpaket', caption: 'Ordmixpussel — snabb ordförrådsaktivitet som lägger till variation i flerformatspaket' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hur du skapar ordsökningspussel för försäljning på Etsy — steg-för-steg-guide',

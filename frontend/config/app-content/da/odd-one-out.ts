@@ -244,22 +244,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp',
+      primary: '/samples/danish/odd%20one%20out/find%20den%20ulige%201.webp',
       primaryAlt: 'Hvad passer ikke opgave til print med fire billeder per række til logisk tænkning og klassifikation',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%201.webp',
+        src: '/samples/danish/odd%20one%20out/find%20den%20ulige%201.webp',
         alt: 'Logisk tænkning opgave med tre dyr og ét madobjekt — find den der ikke hører til',
         caption: 'Lignende tilstand — tre billeder fra ét tema og ét, der passer ikke, fra et andet',
       },
       {
-        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%202.webp',
+        src: '/samples/danish/odd%20one%20out/find%20den%20ulige%202.webp',
         alt: 'Klassifikation opgaveark med tre identiske billeder og ét anderledes billede per række',
         caption: 'Identisk tilstand — tre ens billeder og ét, der ikke hører til',
       },
       {
-        src: '/samples/danish/odd%20one%20out/Find%20den%20Ulige%203.webp',
+        src: '/samples/danish/odd%20one%20out/find%20den%20ulige%203.webp',
         alt: 'Facitliste til hvad passer ikke opgave med røde cirkler rundt det billede, der ikke passer',
         caption: 'Automatisk facit — røde cirkler markerer det billede, der passer ikke, i hver række',
       },

@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Recurso de fichas de sumas adecuado para vender en el marketplace Hotmart' },
+    heroImage: { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Recurso de fichas de sumas adecuado para vender en el marketplace Hotmart' },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas de matemáticas para recurso del mercado Hotmart', caption: 'Las fichas de matemáticas están entre los tipos de recursos más buscados en Hotmart — los vendedores necesitan práctica alineada con estándares para cada habilidad' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Actividad de sopa de letras para anuncio de tienda Hotmart', caption: 'Las sopas de letras funcionan en todos los niveles de grado en Hotmart como constructores de vocabulario, actividades de centros y trabajo para los que terminan temprano' },
-      { src: '/samples/spanish/matching/Encuentra Parejas 2.webp', alt: 'Ficha de actividad de asociación para emprendedores Hotmart', caption: 'Las actividades de asociación son recursos Hotmart versátiles que los vendedores usan para evaluación, práctica y repaso en múltiples asignaturas' },
+      { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de sumas de matemáticas para recurso del mercado Hotmart', caption: 'Las fichas de matemáticas están entre los tipos de recursos más buscados en Hotmart — los vendedores necesitan práctica alineada con estándares para cada habilidad' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Actividad de sopa de letras para anuncio de tienda Hotmart', caption: 'Las sopas de letras funcionan en todos los niveles de grado en Hotmart como constructores de vocabulario, actividades de centros y trabajo para los que terminan temprano' },
+      { src: '/samples/spanish/matching/encuentra-parejas-2.webp', alt: 'Ficha de actividad de asociación para emprendedores Hotmart', caption: 'Las actividades de asociación son recursos Hotmart versátiles que los vendedores usan para evaluación, práctica y repaso en múltiples asignaturas' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Cómo crear fichas educativas para Hotmart — Tutorial paso a paso',

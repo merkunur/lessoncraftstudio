@@ -191,9 +191,9 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/german/wordsearch/worksheet.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt als mehrsprachiges praktisches Druckvorlagen-Produkt für Etsy SEO Optimierung' },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Tierthematisches Wortsuche-Rätsel-Arbeitsblatt zur Demonstration themenbasierter Etsy-Keyword-Ausrichtung', caption: 'Wortsuche mit Tierthema — jede Sprach- und Themenvariante zielt auf verschiedene Etsy-Suchbegriffe ab' },
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Tierthematisches Additions-Arbeitsblatt für volumenreiche Etsy-Mathe-Druckvorlagen-Keywords', caption: 'Additions-Arbeitsblatt mit Tierthema — zielt auf volumenreiche Mathe-Druckvorlagen-Keywords auf Etsy ab' },
-      { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Tier-Malvorlage zur Demonstration themengesteuerter Etsy-Keyword-Strategie für Druckvorlagen-Verkäufer', caption: 'Malvorlage mit Tierthema — themenspezifische Keywords bringen gezielten Etsy-Suchtraffic' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Tierthematisches Wortsuche-Rätsel-Arbeitsblatt zur Demonstration themenbasierter Etsy-Keyword-Ausrichtung', caption: 'Wortsuche mit Tierthema — jede Sprach- und Themenvariante zielt auf verschiedene Etsy-Suchbegriffe ab' },
+      { src: '/samples/german/addition/additionsspa-1.webp', alt: 'Tierthematisches Additions-Arbeitsblatt für volumenreiche Etsy-Mathe-Druckvorlagen-Keywords', caption: 'Additions-Arbeitsblatt mit Tierthema — zielt auf volumenreiche Mathe-Druckvorlagen-Keywords auf Etsy ab' },
+      { src: '/samples/german/coloring/coloring-portrait-2.webp', alt: 'Tier-Malvorlage zur Demonstration themengesteuerter Etsy-Keyword-Strategie für Druckvorlagen-Verkäufer', caption: 'Malvorlage mit Tierthema — themenspezifische Keywords bringen gezielten Etsy-Suchtraffic' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Arbeitsblätter für Etsy SEO erstellen — Multi-Keyword-Produktstrategie',

@@ -232,22 +232,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/cryptogram/cryptogram_worksheet.webp',
+      primary: '/samples/english/cryptogram/cryptogram-worksheet.webp',
       primaryAlt: 'Cryptogram worksheet with picture cipher showing images mapped to alphabet letters encoding a secret phrase',
     },
     sampleGallery: [
       {
-        src: '/samples/english/cryptogram/cryptogram_worksheet.webp',
+        src: '/samples/english/cryptogram/cryptogram-worksheet.webp',
         alt: 'Cryptogram worksheet with themed images replacing letters in an encoded phrase',
         caption: 'Picture cipher puzzle — decode the secret message by identifying which image represents which letter',
       },
       {
-        src: '/samples/english/cryptogram/cryptogram_worksheet (5).webp',
+        src: '/samples/english/cryptogram/cryptogram-worksheet-5.webp',
         alt: 'Cryptogram worksheet with animal theme images and Letters to Reveal hints shown',
         caption: 'Animal theme with Letters to Reveal — pre-solved mappings provide scaffolding for beginners',
       },
       {
-        src: '/samples/english/cryptogram/cryptogram_answer_key.webp',
+        src: '/samples/english/cryptogram/cryptogram-answer-key.webp',
         alt: 'Cryptogram answer key with complete letter legend showing all alphabet-to-image mappings',
         caption: 'Answer key with letter legend — every alphabet letter paired with its assigned image in sorted order',
       },

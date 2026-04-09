@@ -212,22 +212,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/bingo/Bingo de Imagenes 1.webp',
+      primary: '/samples/portuguese/bingo/bingo-de-imagenes-1.webp',
       primaryAlt: 'Cartela de bingo com imagens temáticas numa grelha configurável e atividades circulares com bordas tracejadas abaixo para associação durante o jogo de bingo',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/bingo/Bingo de Imagenes 2.webp',
+        src: '/samples/portuguese/bingo/bingo-de-imagenes-2.webp',
         alt: 'Cartela de bingo com preenchimento de imagem mostrando ilustrações temáticas a cores nas células da grelha e atividades circulares com imagens e bordas tracejadas',
         caption: 'Modo de preenchimento de imagem — ilustrações a cores nas células da cartela e atividades circulares para bingo visual',
       },
       {
-        src: '/samples/portuguese/bingo/Bingo de Imagenes 3.webp',
+        src: '/samples/portuguese/bingo/bingo-de-imagenes-3.webp',
         alt: 'Cartela de bingo com preenchimento de palavra mostrando nomes localizados de imagens nas células da grelha e atividades com palavras para bingo de vocabulário',
         caption: 'Modo de preenchimento de palavra — nomes localizados de imagens para produtos de bingo de vocabulário multilingue',
       },
       {
-        src: '/samples/portuguese/bingo/Bingo de Imagenes 4.webp',
+        src: '/samples/portuguese/bingo/bingo-de-imagenes-4.webp',
         alt: 'Folha de chamada de bingo com grelha dinâmica de palavras mostrando todos os elementos do jogo organizados em colunas para o chamador',
         caption: 'Folha de chamada — grelha dinâmica de palavras com colunas calculadas e tamanho de fonte uniforme para o chamador',
       },

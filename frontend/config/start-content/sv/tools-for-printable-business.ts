@@ -218,12 +218,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchningsarbetsblad som visar verktygsmångsidighet och tematiserad bildbiblioteksoutput' },
+    heroImage: { src: '/samples/english/matching/matching-portrait.webp', alt: 'Matchningsarbetsblad som visar verktygsmångsidighet och tematiserad bildbiblioteksoutput' },
     samples: [
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchningsarbetsblad med bild-till-ord-matchning med tematiserade illustrationer', caption: 'Matchning — mångsidigt verktyg med flera lägen' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsökspussel som visar språkkänslig generering', caption: 'Ordsökning — mest populära pusselgenratorn' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Målarbilder som visar designkvalitet utan språkberoende', caption: 'Färgläggning — universellt visuellt innehåll' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Korsordspussel som visar flerspråkiga genereringsmöjligheter', caption: 'Korsord — flerspråkigt pusselverktyg' },
+      { src: '/samples/english/matching/matching-portrait.webp', alt: 'Matchningsarbetsblad med bild-till-ord-matchning med tematiserade illustrationer', caption: 'Matchning — mångsidigt verktyg med flera lägen' },
+      { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsökspussel som visar språkkänslig generering', caption: 'Ordsökning — mest populära pusselgenratorn' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Målarbilder som visar designkvalitet utan språkberoende', caption: 'Färgläggning — universellt visuellt innehåll' },
+      { src: '/samples/english/crossword/crossword-worksheet.webp', alt: 'Korsordspussel som visar flerspråkiga genereringsmöjligheter', caption: 'Korsord — flerspråkigt pusselverktyg' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Hur du skapar matchningsarbetsblad för ditt utskriftsbara företag — LessonCraftStudio demo',

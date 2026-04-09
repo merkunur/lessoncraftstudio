@@ -271,22 +271,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/picture path/Chemin d\'Images 1.webp',
+      primary: '/samples/french/picture path/Chemin d\'images-1.webp',
       primaryAlt: 'Fiche labyrinthe chemin d\'images avec des illustrations thématiques dans une grille avec bordure extérieure orange et en-tête Chemin d\'Images auto-généré',
     },
     sampleGallery: [
       {
-        src: '/samples/french/picture path/Chemin d\'Images 1.webp',
+        src: '/samples/french/picture path/Chemin d\'images-1.webp',
         alt: 'Mode Chemin d\'Images avec des images arrangées dans une grille montrant le chemin correct du départ à l\'arrivée',
         caption: 'Mode Chemin d\'Images — les utilisateurs suivent le chemin correct d\'images du départ à l\'arrivée',
       },
       {
-        src: '/samples/french/picture path/Chemin d\'Images 2.webp',
+        src: '/samples/french/picture path/Chemin d\'images-2.webp',
         alt: 'Mode Labyrinthe Classique avec des corridors à murs et des images à collectionner réparties dans le labyrinthe',
         caption: 'Labyrinthe Classique — l\'algorithme LPF génère des labyrinthes à murs avec objets à collectionner',
       },
       {
-        src: '/samples/french/picture path/Chemin d\'Images 1 answer_key.webp',
+        src: '/samples/french/picture path/Chemin d\'images-1-answer-key.webp',
         alt: 'Corrigé du labyrinthe chemin d\'images avec le chemin de solution mis en évidence par des cercles roses le long du parcours correct',
         caption: 'Corrigé auto-généré — chemin de solution mis en évidence avec des cercles roses',
       },

@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/shadow match/Trouve l\'Ombre 1.webp', alt: 'Fiche de correspondance d\'ombres avec images colorées et silhouettes noires au niveau pixel pour activité de perception visuelle' },
+    heroImage: { src: '/samples/french/shadow match/Trouve l\'ombre-1.webp', alt: 'Fiche de correspondance d\'ombres avec images colorées et silhouettes noires au niveau pixel pour activité de perception visuelle' },
     samples: [
-      { src: '/samples/french/shadow match/Trouve l\'Ombre 1.webp', alt: 'Fiche de correspondance d\'ombres montrant quatre images colorées associées à quatre silhouettes noires au niveau pixel avec étiquettes lettres et chiffres', caption: 'Mode Correspondance d\'Ombres avec quatre images colorées et leurs silhouettes noires générées automatiquement' },
-      { src: '/samples/french/shadow match/Trouve l\'Ombre 1 answer-key.webp', alt: 'Corrigé généré automatiquement montrant les images originales à côté des silhouettes avec les étiquettes de correspondance lettre-chiffre', caption: 'Corrigé généré automatiquement avec correspondances lettre-chiffre pour vérification rapide' },
+      { src: '/samples/french/shadow match/Trouve l\'ombre-1.webp', alt: 'Fiche de correspondance d\'ombres montrant quatre images colorées associées à quatre silhouettes noires au niveau pixel avec étiquettes lettres et chiffres', caption: 'Mode Correspondance d\'Ombres avec quatre images colorées et leurs silhouettes noires générées automatiquement' },
+      { src: '/samples/french/shadow match/Trouve l\'ombre-1-answer-key.webp', alt: 'Corrigé généré automatiquement montrant les images originales à côté des silhouettes avec les étiquettes de correspondance lettre-chiffre', caption: 'Corrigé généré automatiquement avec correspondances lettre-chiffre pour vérification rapide' },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: 'Comment créer des fiches de correspondance d\'ombres — Tutoriel complet',

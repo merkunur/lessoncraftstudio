@@ -203,15 +203,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/matching/Paare Finden 1.webp',
+      primary: '/samples/german/matching/paare-finden-1.webp',
       primaryAlt: 'Zuordnungs-Arbeitsblatt mit thematischen Bildern und Paar-Zuordnungsübung',
     },
     sampleGallery: [
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt mit vier Modi und thematischen Bildern', caption: 'Zuordnungs-Arbeitsblatt' },
-      { src: '/samples/german/grid match/Raster-Puzzle 1.webp', alt: 'Raster-Puzzle mit koordinatenbasierter Zuordnung auf strukturiertem Raster', caption: 'Raster-Puzzle-Arbeitsblatt' },
+      { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Zuordnungs-Arbeitsblatt mit vier Modi und thematischen Bildern', caption: 'Zuordnungs-Arbeitsblatt' },
+      { src: '/samples/german/grid match/raster-puzzle-1.webp', alt: 'Raster-Puzzle mit koordinatenbasierter Zuordnung auf strukturiertem Raster', caption: 'Raster-Puzzle-Arbeitsblatt' },
       { src: '/samples/german/shadow match/shadow-match-worksheet.webp', alt: 'Schattenbilder-Arbeitsblatt mit Silhouetten-Zuordnung und Linienzieh-Format', caption: 'Schattenbilder-Arbeitsblatt' },
-      { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: 'Bingo-Karte mit thematischen Bildern in zufälligem Raster-Layout', caption: 'Bingo-Karte' },
-      { src: '/samples/german/picture sort/Bilder Sortieren 1.webp', alt: 'Bilder-Sortieren-Arbeitsblatt mit Zwei-Kategorien-Klassifikationsübung', caption: 'Bilder-Sortieren-Arbeitsblatt' },
+      { src: '/samples/german/bingo/bilder-bingo-1.webp', alt: 'Bingo-Karte mit thematischen Bildern in zufälligem Raster-Layout', caption: 'Bingo-Karte' },
+      { src: '/samples/german/picture sort/bilder-sortieren-1.webp', alt: 'Bilder-Sortieren-Arbeitsblatt mit Zwei-Kategorien-Klassifikationsübung', caption: 'Bilder-Sortieren-Arbeitsblatt' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Zuordnung-&-Sortierung-Paket — Alle 5 Generatoren in Aktion',

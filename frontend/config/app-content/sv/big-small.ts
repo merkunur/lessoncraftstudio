@@ -283,7 +283,7 @@ const content: AppContent = {
         caption: '3 Identiska Bilder — tre kopior i olika storlekar möjliggör ringa in den medelstora övning',
       },
       {
-        src: '/samples/swedish/big%20small/3%20identiska%20bilder%20answer_key.webp',
+        src: '/samples/swedish/big%20small/3%20identiska%20bilder%20answer-key.webp',
         alt: 'Storleksjämförelse facit med markerade korrekta svar och inringade bilder',
         caption: 'Facit — korrekta svar markerade och inringade för omedelbar visuell verifiering',
       },

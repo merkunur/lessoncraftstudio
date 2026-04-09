@@ -266,22 +266,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
+      primary: '/samples/portuguese/wordsearch/caça-palavras-1.webp',
       primaryAlt: 'Atividade de caça-palavras com palavras ocultas numa grelha de letras e pistas de imagem mostrando um puzzle de vocabulário',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp',
+        src: '/samples/portuguese/wordsearch/caça-palavras-2.webp',
         alt: 'Atividade de caça-palavras em formato vertical com grelha 12×12 e pistas de imagem temáticas',
         caption: 'Formato vertical — grelha 12×12 com pistas de imagem temáticas e lista de palavras',
       },
       {
-        src: '/samples/portuguese/wordsearch/Caça-Palavras 3.webp',
+        src: '/samples/portuguese/wordsearch/caça-palavras-3.webp',
         alt: 'Atividade de caça-palavras em formato horizontal com grelha maior e palavras em diagonal ativadas',
         caption: 'Formato horizontal — grelha mais ampla com palavras em diagonal e invertidas ativadas',
       },
       {
-        src: '/samples/portuguese/wordsearch/Caça-Palavras 4.webp',
+        src: '/samples/portuguese/wordsearch/caça-palavras-4.webp',
         alt: 'Atividade de caça-palavras usando o modo lista de palavras personalizada sem imagens',
         caption: 'Modo Lista de Palavras Personalizada — caça-palavras de texto apenas sem pistas de imagem',
       },

@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividade imprimível educativa para demonstração de estratégia de preços no Etsy' },
+    heroImage: { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade imprimível educativa para demonstração de estratégia de preços no Etsy' },
     samples: [
-      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Atividade de adição temática de animais mostrando produto de preços de nível de entrada para Etsy', caption: 'Atividade de adição com tema de animais — um produto típico de nível de entrada com preço de $3,99 por um pacote de 10 páginas' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Atividade de caça-palavras demonstrando preços premium para produtos específicos de língua', caption: 'Caça-palavras — as versões noutras línguas têm preços premium com menos concorrência em mercados não ingleses' },
-      { src: '/samples/portuguese/sudoku/Sudoku de Imagens 1.webp', alt: 'Atividade de puzzle de sudoku mostrando estratégia de preços escalonados por dificuldade', caption: 'Puzzle de sudoku — os níveis de dificuldade sustentam preços progressivos dentro de uma única categoria de produto' },
+      { src: '/samples/portuguese/addition/adição-divertida-2.webp', alt: 'Atividade de adição temática de animais mostrando produto de preços de nível de entrada para Etsy', caption: 'Atividade de adição com tema de animais — um produto típico de nível de entrada com preço de $3,99 por um pacote de 10 páginas' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Atividade de caça-palavras demonstrando preços premium para produtos específicos de língua', caption: 'Caça-palavras — as versões noutras línguas têm preços premium com menos concorrência em mercados não ingleses' },
+      { src: '/samples/portuguese/sudoku/sudoku-de-imagens-1.webp', alt: 'Atividade de puzzle de sudoku mostrando estratégia de preços escalonados por dificuldade', caption: 'Puzzle de sudoku — os níveis de dificuldade sustentam preços progressivos dentro de uma única categoria de produto' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como criar atividades imprimíveis para vender no Etsy — Compreender o valor do produto e os preços',

@@ -38,11 +38,11 @@ const content: GuideContent = {
     { appId: 'wordsearch', title: 'Ordsoek-generator', description: 'Ordsoek-puslespill genererer hoyt salgsvolum og konsekvent positive anmeldelsesrater pa tvers av aldersgrupper.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Profesjonelt matchingsarbeidsark som demonstrerer produktkvalitet som driver positive kjoperanmeldelser' },
+    heroImage: { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Profesjonelt matchingsarbeidsark som demonstrerer produktkvalitet som driver positive kjoperanmeldelser' },
     samples: [
-      { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Matchingsarbeidsark som viser visuell kvalitet som driver positive anmeldelser', caption: 'Hoyekvalitets matchingsarbeidsark driver naturlig positive anmeldelser gjennom visuell appell' },
+      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Matchingsarbeidsark som viser visuell kvalitet som driver positive anmeldelser', caption: 'Hoyekvalitets matchingsarbeidsark driver naturlig positive anmeldelser gjennom visuell appell' },
       { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside som demonstrerer profesjonell designkvalitet', caption: 'Profesjonelle fargeleggingssider genererer anmeldelser fordi kjopere umiddelbart ser og setter pris pa designkvaliteten' },
-      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek-puslespill med hoyt salgsvolum og konsekvent positive anmeldelser', caption: 'Ordsoek genererer hoyt salgsvolum og konsekvent positive anmeldelsesrater' },
+      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsoek-puslespill med hoyt salgsvolum og konsekvent positive anmeldelser', caption: 'Ordsoek genererer hoyt salgsvolum og konsekvent positive anmeldelsesrater' },
     ],
   },
 };

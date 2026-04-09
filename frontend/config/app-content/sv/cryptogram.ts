@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/cryptogram/Bildkryptogram%201.webp',
+      primary: '/samples/swedish/cryptogram/bildkryptogram%201.webp',
       primaryAlt: 'Kryptogramarbetsblad med bildchiffer som visar bilder mappade till alfabetets bokstäver som kodar en hemlig fras',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/cryptogram/Bildkryptogram%201.webp',
+        src: '/samples/swedish/cryptogram/bildkryptogram%201.webp',
         alt: 'Kryptogramarbetsblad med tematiska bilder som ersätter bokstäver i en kodad fras',
         caption: 'Bildchifferpussel — avkoda det hemliga meddelandet genom att identifiera vilken bild som representerar vilken bokstav',
       },
       {
-        src: '/samples/swedish/cryptogram/Bildkryptogram%203.webp',
+        src: '/samples/swedish/cryptogram/bildkryptogram%203.webp',
         alt: 'Kryptogramarbetsblad med djurtema och Bokstäver att Avslöja ledtrådar visade',
         caption: 'Djurtema med Bokstäver att Avslöja — förlösta kopplingar ger stöd för nybörjare',
       },
       {
-        src: '/samples/swedish/cryptogram/Bildkryptogram%201%20answer_key.webp',
+        src: '/samples/swedish/cryptogram/bildkryptogram%201%20answer-key.webp',
         alt: 'Kryptogram facit med komplett bokstavslegend som visar alla alfabet-till-bild-kopplingar',
         caption: 'Facit med bokstavslegend — varje alfabetsbokstav parad med sin tilldelade bild i sorterad ordning',
       },

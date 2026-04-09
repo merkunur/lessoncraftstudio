@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/sudoku/Sudoku con Immagini 1.webp', alt: 'Scheda di sudoku con immagini che mostra un puzzle logico 4x4 con immagini tematiche per piccoli utenti' },
+    heroImage: { src: '/samples/italian/sudoku/sudoku-con-immagini-1.webp', alt: 'Scheda di sudoku con immagini che mostra un puzzle logico 4x4 con immagini tematiche per piccoli utenti' },
     samples: [
-      { src: '/samples/italian/sudoku/Sudoku con Immagini 1.webp', alt: 'Puzzle sudoku 4x4 basato su immagini con tema animali per bambini in età prescolare', caption: 'Sudoku con immagini a difficoltà facile con tema animali della fattoria e quattro caselle vuote' },
-      { src: '/samples/italian/sudoku/Sudoku con Immagini 1.webp', alt: 'Chiave di risposta del sudoku con immagini che mostra la griglia 4x4 completa con tutte le immagini inserite', caption: 'Chiave di risposta automatica generata insieme a ogni puzzle di sudoku con immagini' },
+      { src: '/samples/italian/sudoku/sudoku-con-immagini-1.webp', alt: 'Puzzle sudoku 4x4 basato su immagini con tema animali per bambini in età prescolare', caption: 'Sudoku con immagini a difficoltà facile con tema animali della fattoria e quattro caselle vuote' },
+      { src: '/samples/italian/sudoku/sudoku-con-immagini-1.webp', alt: 'Chiave di risposta del sudoku con immagini che mostra la griglia 4x4 completa con tutte le immagini inserite', caption: 'Chiave di risposta automatica generata insieme a ogni puzzle di sudoku con immagini' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Come Creare Sudoku con Immagini — Tutorial Completo',

@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/pattern%20train/pattern_train_worksheet.webp',
+      primary: '/samples/english/pattern%20train/pattern-train-worksheet.webp',
       primaryAlt: 'Mönstertåg arbetsblad med tematiska tågvagnar som visar upprepande mönstersekvens med en saknad vagn för användarna att slutföra',
     },
     sampleGallery: [
       {
-        src: '/samples/english/pattern%20train/pattern_train_worksheet%20(1).webp',
+        src: '/samples/english/pattern%20train/pattern-train-worksheet%20-1.webp',
         alt: 'Mönstertåg arbetsblad i AB alternerande mönsterläge med djurbilder på 11 tematiska tågvagnar',
         caption: 'AB-mönster med djurtema — användarna identifierar den alternerande sekvensen och fyller i den saknade vagnen',
       },
       {
-        src: '/samples/english/pattern%20train/pattern_train_worksheet%20(5).webp',
+        src: '/samples/english/pattern%20train/pattern-train-worksheet%20-5.webp',
         alt: 'Mönstertåg arbetsblad i ABC treelementsmönster med fordonsbilder på tematiska tågvagnar',
         caption: 'ABC-mönster med fordonstema — tre roterande objekt skapar en mer komplex upprepande sekvens',
       },
       {
-        src: '/samples/english/pattern%20train/pattern_train_answer_key.webp',
+        src: '/samples/english/pattern%20train/pattern-train-answer-key.webp',
         alt: 'Mönstertåg facit som visar alla 11 vagnar fyllda med den korrekta mönstersekvensen',
         caption: 'Facitvy — alla 11 vagnar fyllda med det korrekta mönstret för lärarverifiering',
       },

@@ -243,22 +243,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp',
+      primary: '/samples/danish/cryptogram/billed-kryptogram%201.webp',
       primaryAlt: 'Hemmelig besked til print med billedchiffer, der viser billeder mappet til bogstaver for at kode en hemmelig kode',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp',
+        src: '/samples/danish/cryptogram/billed-kryptogram%201.webp',
         alt: 'Kryptogram med tematiske billeder, der erstatter bogstaver i en kodet hemmelig besked til print',
         caption: 'Hemmelig besked — dechifrere den kodede besked ved at identificere, hvilket billede der repræsenterer hvilket bogstav',
       },
       {
-        src: '/samples/danish/cryptogram/Billed-Kryptogram%202.webp',
+        src: '/samples/danish/cryptogram/billed-kryptogram%202.webp',
         alt: 'Kodespil med dyretema og Bogstaver at Afsløre ledetråde for indskoling',
         caption: 'Dyretema med Bogstaver at Afsløre — frigivne koblinger giver støtte til begyndere',
       },
       {
-        src: '/samples/danish/cryptogram/Billed-Kryptogram%203.webp',
+        src: '/samples/danish/cryptogram/billed-kryptogram%203.webp',
         alt: 'Kryptogram facit med komplet bogstavslegende, der viser alle alfabet-til-billede-koblinger',
         caption: 'Facit med bogstavslegende — hvert alfabetbogstav parret med sit tildelte billede i sorteret rækkefølge',
       },

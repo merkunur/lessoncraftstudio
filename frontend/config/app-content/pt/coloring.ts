@@ -264,22 +264,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/coloring/coloring landscape 1.webp',
+      primary: '/samples/portuguese/coloring/coloring-landscape-1.webp',
       primaryAlt: 'Página para colorir personalizada com imagens temáticas organizadas em canvas de forma livre com borda decorativa e campo de nome para a loja',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/coloring/coloring landscape 2.webp',
+        src: '/samples/portuguese/coloring/coloring-landscape-2.webp',
         alt: 'Página para colorir com tema de animais e ilustrações coloridas organizadas livremente no canvas',
         caption: 'Página para colorir com tema de animais — ilustrações coloridas organizadas livremente no canvas',
       },
       {
-        src: '/samples/portuguese/coloring/coloring landscape 3.webp',
+        src: '/samples/portuguese/coloring/coloring-landscape-3.webp',
         alt: 'Página para colorir com linhas de caligrafia e campo de nome para uso online',
         caption: 'Página para colorir pronta para a loja — campo de nome e linhas de prática de caligrafia incluídos',
       },
       {
-        src: '/samples/portuguese/coloring/coloring portrait 1.webp',
+        src: '/samples/portuguese/coloring/coloring-portrait-1.webp',
         alt: 'Página para colorir em escala de cinzentos com borda decorativa pronta para impressão económica em tinta',
         caption: 'Exportação em escala de cinzentos — página para colorir económica em tinta com tema de borda decorativa',
       },

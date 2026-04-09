@@ -180,8 +180,8 @@ const content: GuideContent = {
     heroImage: { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu tulostettavana opetuksellisena resurssina myyntiin Creative Fabrica -markkinapaikalla' },
     samples: [
       { src: '/samples/finnish/coloring/coloring%20portrait%202.webp', alt: 'Tulostettava värityssivu Creative Fabrican Learning-osiolle', caption: 'Värityssivut yhdistävät käsityön ja koulutuksen Creative Fabricassa — vetoavat sekä suunnittelija- että ostajayleisöihin' },
-      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Yhdistämistehtävätyöarkki Creative Fabrican opetuksellisille tuotteille', caption: 'Temaattiset yhdistämisaktiviteetit ovat korkean kysynnän resursseja Creative Fabrican Learning-osiossa' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma tulostettavana Creative Fabrica -markkinapaikalle', caption: 'Sananetsintäpulmat houkuttelevat tilauslatauksia ostajilta Creative Fabricassa' },
+      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistämistehtävätyöarkki Creative Fabrican opetuksellisille tuotteille', caption: 'Temaattiset yhdistämisaktiviteetit ovat korkean kysynnän resursseja Creative Fabrican Learning-osiossa' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulma tulostettavana Creative Fabrica -markkinapaikalle', caption: 'Sananetsintäpulmat houkuttelevat tilauslatauksia ostajilta Creative Fabricassa' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Opetuksellisten työarkkien luominen Creative Fabricaan',

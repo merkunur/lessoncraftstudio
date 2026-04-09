@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/subtraction/Soustractions Amusantes 1.webp',
+      primary: '/samples/french/subtraction/soustractions-amusantes-1.webp',
       primaryAlt: 'Fiche de soustraction avec images barrées montrant des exercices visuels de soustraction',
     },
     sampleGallery: [
       {
-        src: '/samples/french/subtraction/Soustractions Amusantes 1.webp',
+        src: '/samples/french/subtraction/soustractions-amusantes-1.webp',
         alt: 'Fiche de soustraction en mode Barrer avec thème animaux et images barrées',
         caption: 'Mode Barrer avec thème animaux',
       },
       {
-        src: '/samples/french/subtraction/Soustractions Amusantes 2.webp',
+        src: '/samples/french/subtraction/soustractions-amusantes-2.webp',
         alt: 'Fiche de soustraction avec images de nourriture en mode Image moins Nombre',
         caption: 'Mode Image − Nombre avec thème nourriture',
       },
       {
-        src: '/samples/french/subtraction/Soustractions Amusantes 3.webp',
+        src: '/samples/french/subtraction/soustractions-amusantes-3.webp',
         alt: 'Fiche Trouver le Nombre à Soustraire avec images de véhicules et cadre décoratif',
         caption: 'Mode Trouver le Nombre à Soustraire avec véhicules et cadre',
       },

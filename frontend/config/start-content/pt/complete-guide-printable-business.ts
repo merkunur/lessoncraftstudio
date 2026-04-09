@@ -219,12 +219,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Exemplo de atividade de sopa de letras criada com o gerador LessonCraftStudio' },
+    heroImage: { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Exemplo de atividade de sopa de letras criada com o gerador LessonCraftStudio' },
     samples: [
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Atividade imprimível de sopa de letras com tema de animais', caption: 'Sopa de Letras — Tema Animais' },
-      { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Atividade de soma com problemas de matemática baseados em imagens', caption: 'Soma — Problemas Baseados em Imagens' },
-      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Atividade para colorir com ilustrações temáticas', caption: 'Colorir — Ilustrações Temáticas' },
-      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Atividade de associação com atividades de pares visuais', caption: 'Associação — Atividade de Pares Visuais' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-2.webp', alt: 'Atividade imprimível de sopa de letras com tema de animais', caption: 'Sopa de Letras — Tema Animais' },
+      { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Atividade de soma com problemas de matemática baseados em imagens', caption: 'Soma — Problemas Baseados em Imagens' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Atividade para colorir com ilustrações temáticas', caption: 'Colorir — Ilustrações Temáticas' },
+      { src: '/samples/portuguese/matching/encontre-os-pares-1.webp', alt: 'Atividade de associação com atividades de pares visuais', caption: 'Associação — Atividade de Pares Visuais' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como Criar Atividades de Sopa de Letras — Demonstração LessonCraftStudio',

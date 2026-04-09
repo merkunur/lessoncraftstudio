@@ -185,10 +185,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad met meerdere zoekwoorden educatief printable product voor Etsy-SEO optimalisatie' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad met meerdere zoekwoorden educatief printable product voor Etsy-SEO optimalisatie' },
     samples: [
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Dierenthema woordzoekerpuzzel werkblad dat themagebonden Etsy-zoekwoordtargeting demonstreert', caption: 'Woordzoeker met dierenthema — elke taal- en themavariatie target verschillende Etsy-zoekwoorden' },
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Dierenthema optelwerkblad gericht op hoog-volume Etsy reken-printable zoekwoorden', caption: 'Optelwerkblad met dierenthema — target hoog-volume reken-printable zoekwoorden op Etsy' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Dierenthema woordzoekerpuzzel werkblad dat themagebonden Etsy-zoekwoordtargeting demonstreert', caption: 'Woordzoeker met dierenthema — elke taal- en themavariatie target verschillende Etsy-zoekwoorden' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Dierenthema optelwerkblad gericht op hoog-volume Etsy reken-printable zoekwoorden', caption: 'Optelwerkblad met dierenthema — target hoog-volume reken-printable zoekwoorden op Etsy' },
       { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Kleurplaat die themagestuurde Etsy-zoekwoordstrategie voor printable verkopers toont', caption: 'Kleurplaat — themaspecifieke zoekwoorden genereren gericht Etsy-zoekverkeer' },
     ],
     youtubeId: '36keBFzJbPo',

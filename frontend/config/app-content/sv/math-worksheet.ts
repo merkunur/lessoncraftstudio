@@ -284,7 +284,7 @@ const content: AppContent = {
         caption: 'Medel nivå — tre symboler i kopplade ekvationer med addition och subtraktion',
       },
       {
-        src: '/samples/swedish/math%20worksheet/worksheet%20(1).webp',
+        src: '/samples/swedish/math%20worksheet/worksheet%20-1.webp',
         alt: 'Svårt algebrapussel arbetsblad med fyra bildsymboler i ett system av fyra ekvationer',
         caption: 'Svår nivå — fyra simultana okända för avancerad algebraisk problemlösning',
       },

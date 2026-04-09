@@ -190,11 +190,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt als Beispiel für konsistentes Produktformat einer Druckvorlagen-Produktlinie' },
+    heroImage: { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Zuordnungs-Arbeitsblatt als Beispiel für konsistentes Produktformat einer Druckvorlagen-Produktlinie' },
     samples: [
-      { src: '/samples/german/matching/Paare Finden 1.webp', alt: 'Zuordnungs-Arbeitsblatt mit konsistentem Format über verschiedene Themen für den Produktlinien-Aufbau', caption: 'Zuordnungs-Arbeitsblätter behalten dasselbe professionelle Format über jedes Thema bei — die Grundlage einer visuell konsistenten Produktlinie' },
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additions-Arbeitsblatt als Beispiel für Mathe-Produktlinie mit progressiven Schwierigkeitsstufen', caption: 'Mathe-Arbeitsblätter auf mehreren Schwierigkeitsstufen schaffen progressive Tiefe innerhalb Ihrer Produktlinie — von einstellig bis zu fortgeschrittenen Operationen' },
-      { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Malvorlage zeigt visuelle Konsistenz über thematische Produktvariationen', caption: 'Malvorlagen über verschiedene Themen demonstrieren, wie eine Produktlinie visuelle Kohärenz bewahrt und gleichzeitig Käufern Vielfalt bietet' },
+      { src: '/samples/german/matching/paare-finden-1.webp', alt: 'Zuordnungs-Arbeitsblatt mit konsistentem Format über verschiedene Themen für den Produktlinien-Aufbau', caption: 'Zuordnungs-Arbeitsblätter behalten dasselbe professionelle Format über jedes Thema bei — die Grundlage einer visuell konsistenten Produktlinie' },
+      { src: '/samples/german/addition/additionsspa-1.webp', alt: 'Additions-Arbeitsblatt als Beispiel für Mathe-Produktlinie mit progressiven Schwierigkeitsstufen', caption: 'Mathe-Arbeitsblätter auf mehreren Schwierigkeitsstufen schaffen progressive Tiefe innerhalb Ihrer Produktlinie — von einstellig bis zu fortgeschrittenen Operationen' },
+      { src: '/samples/german/coloring/coloring-portrait-2.webp', alt: 'Malvorlage zeigt visuelle Konsistenz über thematische Produktvariationen', caption: 'Malvorlagen über verschiedene Themen demonstrieren, wie eine Produktlinie visuelle Kohärenz bewahrt und gleichzeitig Käufern Vielfalt bietet' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'So erstellen Sie Zuordnungs-Arbeitsblätter für eine konsistente Druckvorlagen-Produktlinie',

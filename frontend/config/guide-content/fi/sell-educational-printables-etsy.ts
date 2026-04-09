@@ -162,10 +162,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%202.webp', alt: 'Opetuksellinen tulostettava työarkki kuvapohjaisilla matemaattisilla tehtävillä myyntiin Etsyssä useiden kategorioiden kautta' },
+    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%202.webp', alt: 'Opetuksellinen tulostettava työarkki kuvapohjaisilla matemaattisilla tehtävillä myyntiin Etsyssä useiden kategorioiden kautta' },
     samples: [
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki monipuoliselle opetukselliselle Etsy-kaupalle', caption: 'Yhteenlaskutyöarkki eläinteemalla — yksi kymmenistä matematiikkatuotteista jotka voit luoda Etsy-kauppaasi' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%202.webp', alt: 'Sananetsintäpulma joka näyttää kielipohjaisen opetuksellisen tulostettavan Etsyyn', caption: 'Sananetsintäpulma — kieliriippuvainen formaatti joka kertautuu 11 kielimarkkina Etsyssä' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki monipuoliselle opetukselliselle Etsy-kaupalle', caption: 'Yhteenlaskutyöarkki eläinteemalla — yksi kymmenistä matematiikkatuotteista jotka voit luoda Etsy-kauppaasi' },
+      { src: '/samples/finnish/wordsearch/sanahaku%202.webp', alt: 'Sananetsintäpulma joka näyttää kielipohjaisen opetuksellisen tulostettavan Etsyyn', caption: 'Sananetsintäpulma — kieliriippuvainen formaatti joka kertautuu 11 kielimarkkina Etsyssä' },
       { src: '/samples/finnish/coloring/coloring%20portrait%205.webp', alt: 'Värityssivu tulostettavana visuaalisen oppimisen tuotteena Etsyn opetukselliselle kaupalle', caption: 'Värityssivu — laajin ostajakunnan kategoria Etsyn opetuksellisissa tulostettavissa' },
     ],
     youtubeId: '36keBFzJbPo',

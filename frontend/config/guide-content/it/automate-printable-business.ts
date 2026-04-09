@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/italian/math worksheet/Scheda di Matematica 4.webp',
+      src: '/samples/italian/math worksheet/scheda-di-matematica-4.webp',
       alt: 'Scheda di matematica professionale che dimostra la creazione automatizzata rapida per l\'efficienza del business di stampabili',
     },
     samples: [
       {
-        src: '/samples/italian/math worksheet/Scheda di Matematica 4.webp',
+        src: '/samples/italian/math worksheet/scheda-di-matematica-4.webp',
         alt: 'Scheda di matematica che mostra la qualità dell\'output della produzione automatizzata',
         caption: 'I generatori di schede automatizzano il passaggio più dispendioso nella produzione di stampabili',
       },
       {
-        src: '/samples/italian/addition/Addizione Divertente 1.webp',
+        src: '/samples/italian/addition/addizione-divertente-1.webp',
         alt: 'Scheda di addizione che dimostra la produzione batch con variazioni di tema',
         caption: 'La produzione batch di variazioni tematiche moltiplica la produzione del catalogo in modo efficiente',
       },
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
+        src: '/samples/italian/wordsearch/cerca-parole-1.webp',
         alt: 'Crucipuzzle che mostra la creazione sistematica di contenuti tra temi diversi',
         caption: 'La variazione sistematica tra temi e lingue scala la crescita del catalogo',
       },

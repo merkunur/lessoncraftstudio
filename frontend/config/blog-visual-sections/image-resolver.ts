@@ -27,7 +27,7 @@ interface LocaleImageSet {
 /** Get the locale-specific image set for an app, or fall back to English */
 function getImageSet(appKey: string, locale: string): { folder: string; imgs: string[]; answerKey: string } {
   const en = appData[appKey];
-  if (!en) return { folder: 'addition', imgs: ['Addition Fun 10.webp'], answerKey: 'Addition Fun 10 answer_key.webp' };
+  if (!en) return { folder: 'addition', imgs: ['addition-fun-10.webp'], answerKey: 'addition-fun-10-answer-key.webp' };
 
   let localeSet: LocaleImageSet | undefined;
   if (locale === 'de') localeSet = germanImages[appKey];

@@ -217,17 +217,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/treasure hunt/Caccia al Tesoro 1.webp',
+      primary: '/samples/italian/treasure hunt/caccia-al-tesoro-1.webp',
       primaryAlt: 'Scheda caccia al tesoro con griglia 5 per 5 di coordinate, 6 immagini tematiche disperse come punti di riferimento, indizi direzionali e intestazione a tema tesoro teal con titolo dorato',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/treasure hunt/Caccia al Tesoro 2.webp',
+        src: '/samples/italian/treasure hunt/caccia-al-tesoro-2.webp',
         alt: 'Scheda puzzle caccia al tesoro con indizi a direzione Cardinale nord sud est ovest su griglia 5 per 5 di coordinate',
         caption: 'Modalità direzione Cardinale — direzioni della bussola per ragionamento spaziale avanzato e competenze cartografiche',
       },
       {
-        src: '/samples/italian/treasure hunt/Caccia al Tesoro 1 answer_key.webp',
+        src: '/samples/italian/treasure hunt/caccia-al-tesoro-1-answer-key.webp',
         alt: 'Chiave di risposta caccia al tesoro con cella del tesoro finale evidenziata in giallo pallido sulla griglia 5 per 5 di coordinate',
         caption: 'Chiave di risposta generata automaticamente — evidenziazione giallo pallido segna la destinazione del tesoro per auto-verifica',
       },

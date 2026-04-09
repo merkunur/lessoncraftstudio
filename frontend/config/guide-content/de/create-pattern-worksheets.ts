@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/pattern worksheet/pattern_worksheet.webp', alt: 'Mustererkennung-Arbeitsblatt mit thematischen Bildern und visuellen Muster-Vervollständigungs-Übungen für Kinder' },
+    heroImage: { src: '/samples/german/pattern worksheet/pattern-worksheet.webp', alt: 'Mustererkennung-Arbeitsblatt mit thematischen Bildern und visuellen Muster-Vervollständigungs-Übungen für Kinder' },
     samples: [
-      { src: '/samples/german/pattern worksheet/pattern_worksheet.webp', alt: 'Mustererkennung-Arbeitsblatt mit Tier-Thema und AB- sowie ABC-Musterübungen', caption: 'Mustererkennung-Arbeitsblatt mit thematischen Bildern, mehreren Mustertypen und automatischem Lösungsschlüssel' },
-      { src: '/samples/german/pattern worksheet/pattern_worksheet.webp', alt: 'Muster-Arbeitsblatt Lösungsschlüssel mit vollständigen Mustern und eingesetzten korrekten Bildern', caption: 'Automatischer Lösungsschlüssel, der zusammen mit jedem Muster-Arbeitsblatt generiert wird, für schnelle Korrektur' },
+      { src: '/samples/german/pattern worksheet/pattern-worksheet.webp', alt: 'Mustererkennung-Arbeitsblatt mit Tier-Thema und AB- sowie ABC-Musterübungen', caption: 'Mustererkennung-Arbeitsblatt mit thematischen Bildern, mehreren Mustertypen und automatischem Lösungsschlüssel' },
+      { src: '/samples/german/pattern worksheet/pattern-worksheet.webp', alt: 'Muster-Arbeitsblatt Lösungsschlüssel mit vollständigen Mustern und eingesetzten korrekten Bildern', caption: 'Automatischer Lösungsschlüssel, der zusammen mit jedem Muster-Arbeitsblatt generiert wird, für schnelle Korrektur' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'So erstellen Sie Mustererkennung-Arbeitsblätter — Vollständiges Tutorial',

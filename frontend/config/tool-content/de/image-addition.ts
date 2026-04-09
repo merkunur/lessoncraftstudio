@@ -211,22 +211,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/addition/Additionsspa 1.webp',
+      primary: '/samples/german/addition/additionsspa-1.webp',
       primaryAlt: 'Additions-Arbeitsblatt mit bunten Tierbildern im Bild + Bild-Übungsmodus',
     },
     sampleGallery: [
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: '/samples/german/addition/additionsspa-1.webp',
         alt: 'Bild-Additions-Arbeitsblatt mit Tierthema im Bild + Bild-Modus',
         caption: 'Bild + Bild-Modus mit Tierthema',
       },
       {
-        src: '/samples/german/addition/Additionsspa 2.webp',
+        src: '/samples/german/addition/additionsspa-2.webp',
         alt: 'Additions-Arbeitsblatt mit Essensbildern im Summand-finden-Modus',
         caption: 'Summand-finden-Modus mit Essensthema',
       },
       {
-        src: '/samples/german/addition/Additionsspa 3.webp',
+        src: '/samples/german/addition/additionsspa-3.webp',
         alt: 'Gemischter-Modus-Additions-Arbeitsblatt mit Fahrzeugbildern und dekorativem Rahmen',
         caption: 'Gemischter Modus mit Fahrzeugen und Rahmendekoration',
       },

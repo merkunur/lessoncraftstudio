@@ -187,11 +187,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/addition/Adição Divertida 1.webp', alt: 'Recurso de atividades de adição adequado para vender no marketplace Hotmart' },
+    heroImage: { src: '/samples/portuguese/addition/adição-divertida-1.webp', alt: 'Recurso de atividades de adição adequado para vender no marketplace Hotmart' },
     samples: [
-      { src: '/samples/portuguese/addition/Adição Divertida 2.webp', alt: 'Atividade de adição de matemática para recurso de loja Hotmart', caption: 'As atividades de matemática estão entre os tipos de recursos mais pesquisados na Hotmart — os vendedores precisam de prática alinhada com padrões para cada competência' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Atividade de caça-palavras para anúncio de loja Hotmart', caption: 'Os caças-palavras funcionam em todos os níveis escolares na Hotmart como construtores de vocabulário, atividades de centros e trabalho para quem termina cedo' },
-      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Atividade de atividade de correspondência para vendedores Hotmart', caption: 'As atividades de correspondência são recursos Hotmart versáteis que os vendedores usam para avaliação, prática e revisão em múltiplas disciplinas' },
+      { src: '/samples/portuguese/addition/adição-divertida-2.webp', alt: 'Atividade de adição de matemática para recurso de loja Hotmart', caption: 'As atividades de matemática estão entre os tipos de recursos mais pesquisados na Hotmart — os vendedores precisam de prática alinhada com padrões para cada competência' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Atividade de caça-palavras para anúncio de loja Hotmart', caption: 'Os caças-palavras funcionam em todos os níveis escolares na Hotmart como construtores de vocabulário, atividades de centros e trabalho para quem termina cedo' },
+      { src: '/samples/portuguese/matching/encontre-os-pares-1.webp', alt: 'Atividade de atividade de correspondência para vendedores Hotmart', caption: 'As atividades de correspondência são recursos Hotmart versáteis que os vendedores usam para avaliação, prática e revisão em múltiplas disciplinas' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como criar atividades educativas para Hotmart — Tutorial passo a passo',

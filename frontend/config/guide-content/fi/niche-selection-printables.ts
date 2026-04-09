@@ -142,11 +142,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintätyöarkki esittelemässä temaattista markkinarakosisältöä tulostettaville yrityksille' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintätyöarkki esittelemässä temaattista markkinarakosisältöä tulostettaville yrityksille' },
     samples: [
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Temaattinen sananetsintäpulma näyttäen markkinaraon soveltamisen eri aiheisiin', caption: 'Sananetsintäpulmat mukautuvat mihin tahansa markkinarakoteemaan — eläimet, juhlapyhät, aineet ja kausiaiheet kaikki toimivat samalla tuotemuodolla' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Temaattinen sananetsintäpulma näyttäen markkinaraon soveltamisen eri aiheisiin', caption: 'Sananetsintäpulmat mukautuvat mihin tahansa markkinarakoteemaan — eläimet, juhlapyhät, aineet ja kausiaiheet kaikki toimivat samalla tuotemuodolla' },
       { src: '/samples/finnish/coloring/coloring%20portrait%202.webp', alt: 'Värityssivu esittelemässä visuaalisen markkinarakotuotteen monipuolisuutta', caption: 'Värityssivut ovat monipuolisimpia markkinarakotuotteita vetoamalla eri ikäryhmiin ja soveltuen käytännössä mihin tahansa visuaaliseen teemaan' },
-      { src: '/samples/finnish/matching/Yhdist%C3%A4%20Parit%201.webp', alt: 'Yhdistämistyöarkki näyttäen opetuksellisen markkinarakotuotevalikoiman', caption: 'Yhdistämisaktiviteetit toimivat opetuksellisissa markkinaraoissa sanastosta matematiikkaan — yksi tuotetyyppi joka validoi markkinaraon kysynnän nopeasti' },
+      { src: '/samples/finnish/matching/yhdist%c3%a4%20parit%201.webp', alt: 'Yhdistämistyöarkki näyttäen opetuksellisen markkinarakotuotevalikoiman', caption: 'Yhdistämisaktiviteetit toimivat opetuksellisissa markkinaraoissa sanastosta matematiikkaan — yksi tuotetyyppi joka validoi markkinaraon kysynnän nopeasti' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Kuinka luoda sananetsintäpulmia mihin tahansa markkinarakoteemaan',

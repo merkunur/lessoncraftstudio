@@ -178,8 +178,8 @@ const content: GuideContent = {
   visuals: {
     heroImage: { src: '/samples/english/shadow match/shadow-match-horizontal.webp', alt: 'Shadow matching worksheet with colored images and auto-generated black silhouettes for Etsy digital download' },
     samples: [
-      { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Shadow match worksheet ready for Etsy listing with colored images and silhouettes', caption: 'Shadow Match mode with four colored images and their auto-generated pixel-level black silhouettes' },
-      { src: '/samples/english/shadow match/shadow-match-worksheet (1).webp', alt: 'Auto-generated answer key for shadow matching worksheet', caption: 'Automatic answer key with correct match pairings for quick verification' },
+      { src: '/samples/english/shadow match/shadow-match-worksheet-1.webp', alt: 'Shadow match worksheet ready for Etsy listing with colored images and silhouettes', caption: 'Shadow Match mode with four colored images and their auto-generated pixel-level black silhouettes' },
+      { src: '/samples/english/shadow match/shadow-match-worksheet-1.webp', alt: 'Auto-generated answer key for shadow matching worksheet', caption: 'Automatic answer key with correct match pairings for quick verification' },
     ],
   },
 

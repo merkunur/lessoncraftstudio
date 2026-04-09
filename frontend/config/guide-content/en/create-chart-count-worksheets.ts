@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/chart count/chart count.webp', alt: 'Picture graph worksheet with scattered 4×5 image grid showing 20 icons from 6 types and bar chart for solvers to count and graph data' },
+    heroImage: { src: '/samples/english/chart count/chart-count.webp', alt: 'Picture graph worksheet with scattered 4×5 image grid showing 20 icons from 6 types and bar chart for solvers to count and graph data' },
     samples: [
-      { src: '/samples/english/chart count/Picture Graph 10.webp', alt: 'Animal theme picture graph worksheet with 20 scattered animal icons in a 4×5 grid and 6-column bar chart for counting practice', caption: 'Animal theme picture graph — 6 animal types scattered across the grid with bar chart below for data representation practice' },
-      { src: '/samples/english/chart count/chart count.webp', alt: 'Picture graph answer key with yellow highlighted cells showing correct counts for each of the 6 image types', caption: 'Auto-generated answer key — yellow-filled cells (#FFC857) show the correct count for each image type' },
-      { src: '/samples/english/chart count/Picture Graph 10.webp', alt: 'Picture graph worksheet with decorative background and border themes applied for polished marketplace presentation', caption: 'Decorated picture graph — background and border themes with independent opacity controls for professional styling' },
+      { src: '/samples/english/chart count/picture-graph-10.webp', alt: 'Animal theme picture graph worksheet with 20 scattered animal icons in a 4×5 grid and 6-column bar chart for counting practice', caption: 'Animal theme picture graph — 6 animal types scattered across the grid with bar chart below for data representation practice' },
+      { src: '/samples/english/chart count/chart-count.webp', alt: 'Picture graph answer key with yellow highlighted cells showing correct counts for each of the 6 image types', caption: 'Auto-generated answer key — yellow-filled cells (#FFC857) show the correct count for each image type' },
+      { src: '/samples/english/chart count/picture-graph-10.webp', alt: 'Picture graph worksheet with decorative background and border themes applied for polished marketplace presentation', caption: 'Decorated picture graph — background and border themes with independent opacity controls for professional styling' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'How to Create Picture Graph Worksheets with Auto Answer Keys and Scattered Image Grids — Step-by-Step Tutorial',

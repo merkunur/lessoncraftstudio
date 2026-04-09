@@ -216,11 +216,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Profesjonelt addisjonsarbeidsark laget med LessonCraftStudio generator' },
+    heroImage: { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Profesjonelt addisjonsarbeidsark laget med LessonCraftStudio generator' },
     samples: [
-      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Addisjonsarbeidsark med tematiske bildebaserte matematikkoppgaver', caption: 'Addisjon — Bildebaserte Oppgaver' },
-      { src: '/samples/norwegian/subtraction/Moro%20med%20Subtraksjon%201.webp', alt: 'Subtraksjonsarbeidsark med visuelle talloppgaver', caption: 'Subtraksjon — Visuell Matematikkøving' },
-      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsøk-puslespillarbeidsark med tematisk ordliste', caption: 'Ordsøk — Tematisk Puslespill' },
+      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Addisjonsarbeidsark med tematiske bildebaserte matematikkoppgaver', caption: 'Addisjon — Bildebaserte Oppgaver' },
+      { src: '/samples/norwegian/subtraction/moro%20med%20subtraksjon%201.webp', alt: 'Subtraksjonsarbeidsark med visuelle talloppgaver', caption: 'Subtraksjon — Visuell Matematikkøving' },
+      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk-puslespillarbeidsark med tematisk ordliste', caption: 'Ordsøk — Tematisk Puslespill' },
       { src: '/samples/norwegian/coloring/coloring%20landscape%201.webp', alt: 'Fargeleggingsside med tematiske illustrasjoner', caption: 'Fargelegging — Tematiske Illustrasjoner' },
     ],
     youtubeId: '6O5aCzHkh8M',

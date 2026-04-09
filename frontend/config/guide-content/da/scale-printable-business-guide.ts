@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.webp', alt: 'Professionelt additionsarbejdsark der demonstrerer den produktkvalitet der understøtter skalerbar printable virksomhedsvækst' },
+    heroImage: { src: '/samples/danish/draw%20and%20color/tegn%20og%20farvl%c3%a6g%201.webp', alt: 'Professionelt additionsarbejdsark der demonstrerer den produktkvalitet der understøtter skalerbar printable virksomhedsvækst' },
     samples: [
-      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.webp', alt: 'Tegn og Farvlæg — dansk eksempelarbejdsark', caption: 'Tegn og Farvlæg eksempel 1' },
-      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%202.webp', alt: 'Tegn og Farvlæg — dansk eksempel 2', caption: 'Tegn og Farvlæg eksempel 2' },
-      { src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%203.webp', alt: 'Tegn og Farvlæg — dansk eksempel 3', caption: 'Tegn og Farvlæg eksempel 3' },
+      { src: '/samples/danish/draw%20and%20color/tegn%20og%20farvl%c3%a6g%201.webp', alt: 'Tegn og Farvlæg — dansk eksempelarbejdsark', caption: 'Tegn og Farvlæg eksempel 1' },
+      { src: '/samples/danish/draw%20and%20color/tegn%20og%20farvl%c3%a6g%202.webp', alt: 'Tegn og Farvlæg — dansk eksempel 2', caption: 'Tegn og Farvlæg eksempel 2' },
+      { src: '/samples/danish/draw%20and%20color/tegn%20og%20farvl%c3%a6g%203.webp', alt: 'Tegn og Farvlæg — dansk eksempel 3', caption: 'Tegn og Farvlæg eksempel 3' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Sådan generator du farvelægningssider med tegn og farvelæg — Demonstration af kreativt udvalg til katalogskalering',

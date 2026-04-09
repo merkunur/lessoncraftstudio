@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Printable worksheet designed for international market sales across multiple countries' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Printable worksheet designed for international market sales across multiple countries' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle for international marketplace listing', caption: 'Word search puzzles with native vocabulary for any of 11 supported languages' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page ready for international printable markets', caption: 'Coloring pages with localized labels for global marketplace distribution' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Word search puzzle for international marketplace listing', caption: 'Word search puzzles with native vocabulary for any of 11 supported languages' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page ready for international printable markets', caption: 'Coloring pages with localized labels for global marketplace distribution' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

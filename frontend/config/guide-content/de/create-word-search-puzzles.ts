@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel mit thematischen Bildhinweisen, die Vokabelwörter in einem Buchstabengitter zeigen' },
+    heroImage: { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuchrätsel mit thematischen Bildhinweisen, die Vokabelwörter in einem Buchstabengitter zeigen' },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel mit Tierthema-Bildhinweisen für Kinder', caption: 'Thematisches Wortsuchrätsel im Vokabelmodus mit Tier-Bildhinweisen und konfigurierbarer Rastergröße' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Lösungsschlüssel mit farbcodierter Worthervorhebung', caption: 'Farbcodierter Lösungsschlüssel, bei dem jedes versteckte Wort in einer eigenen Farbe hervorgehoben wird' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuchrätsel mit Tierthema-Bildhinweisen für Kinder', caption: 'Thematisches Wortsuchrätsel im Vokabelmodus mit Tier-Bildhinweisen und konfigurierbarer Rastergröße' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Lösungsschlüssel mit farbcodierter Worthervorhebung', caption: 'Farbcodierter Lösungsschlüssel, bei dem jedes versteckte Wort in einer eigenen Farbe hervorgehoben wird' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuchrätsel erstellen — Komplettes Tutorial',

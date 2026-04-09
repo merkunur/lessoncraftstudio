@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition avec images thématiques montrant des exercices de comptage visuel pour enfants' },
+    heroImage: { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition avec images thématiques montrant des exercices de comptage visuel pour enfants' },
     samples: [
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition avec images et thème animalier pour la grande section', caption: 'Fiche d\'addition grande section utilisant le thème animaux de la ferme avec le mode d\'exercice Image + Image' },
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition avec corrigé montrant les solutions correctes', caption: 'Corrigé automatique généré avec chaque fiche d\'addition' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition avec images et thème animalier pour la grande section', caption: 'Fiche d\'addition grande section utilisant le thème animaux de la ferme avec le mode d\'exercice Image + Image' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition avec corrigé montrant les solutions correctes', caption: 'Corrigé automatique généré avec chaque fiche d\'addition' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Comment créer des fiches d\'addition — Tutoriel complet',

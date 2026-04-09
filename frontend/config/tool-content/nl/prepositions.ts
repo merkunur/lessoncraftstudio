@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/prepositions/Voorzetsels%201.webp',
+      primary: '/samples/dutch/prepositions/voorzetsels%201.webp',
       primaryAlt: 'Voorzetsels werkblad met afbeeldingsscènes en ruimtelijke relatie-oefeningen voor positiewoorden oefening',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/prepositions/Voorzetsels%201.webp',
+        src: '/samples/dutch/prepositions/voorzetsels%201.webp',
         alt: 'Voorzetsels werkblad met invuloefeningen met kleurrijke afbeeldingsscènes',
         caption: 'Invuloefening voorzetsels met afbeeldingsscènes',
       },
       {
-        src: '/samples/dutch/prepositions/Voorzetsels%202.webp',
+        src: '/samples/dutch/prepositions/voorzetsels%202.webp',
         alt: 'Voorzetsels werkblad met meerkeuze ruimtelijke relatie-oefeningen',
         caption: 'Meerkeuze modus voor beginnersvriendelijke oefening',
       },
       {
-        src: '/samples/dutch/prepositions/Voorzetsels%203.webp',
+        src: '/samples/dutch/prepositions/voorzetsels%203.webp',
         alt: 'Gevorderd voorzetsels werkblad met vormvervanging en meerdere oefeningen per pagina',
         caption: 'Vormvervanging creëert unieke scènecombinaties',
       },

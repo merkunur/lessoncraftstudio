@@ -181,10 +181,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet with themed images showing draw-a-line pairs for preschool' },
+    heroImage: { src: '/samples/english/matching/image-and-custom-word.webp', alt: 'Matching worksheet with themed images showing draw-a-line pairs for preschool' },
     samples: [
-      { src: '/samples/english/matching/image and word.webp', alt: 'Draw-a-line matching worksheet with animal theme for preschool', caption: 'Preschool matching worksheet using the animals theme with Letter matching mode and 5 pairs' },
-      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet answer key showing connecting lines between correct pairs', caption: 'Automatic answer key with horizontal connecting lines between matched pairs' },
+      { src: '/samples/english/matching/image-and-word.webp', alt: 'Draw-a-line matching worksheet with animal theme for preschool', caption: 'Preschool matching worksheet using the animals theme with Letter matching mode and 5 pairs' },
+      { src: '/samples/english/matching/image-and-custom-word.webp', alt: 'Matching worksheet answer key showing connecting lines between correct pairs', caption: 'Automatic answer key with horizontal connecting lines between matched pairs' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'How to Create Matching Worksheets — Complete Tutorial',

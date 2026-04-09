@@ -220,12 +220,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha profesional de suma creada con el generador LessonCraftStudio' },
+    heroImage: { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha profesional de suma creada con el generador LessonCraftStudio' },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de suma con problemas de matemáticas basados en imágenes temáticas', caption: 'Suma — Problemas Basados en Imágenes' },
-      { src: '/samples/spanish/subtraction/Restas Divertidas 1.webp', alt: 'Ficha de resta con problemas numéricos visuales', caption: 'Resta — Práctica de Matemáticas Visual' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Ficha de sopa de letras con lista de palabras temáticas', caption: 'Sopa de Letras — Puzzle Temático' },
-      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Ficha para colorear con ilustraciones temáticas', caption: 'Colorear — Ilustraciones Temáticas' },
+      { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de suma con problemas de matemáticas basados en imágenes temáticas', caption: 'Suma — Problemas Basados en Imágenes' },
+      { src: '/samples/spanish/subtraction/restas-divertidas-1.webp', alt: 'Ficha de resta con problemas numéricos visuales', caption: 'Resta — Práctica de Matemáticas Visual' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Ficha de sopa de letras con lista de palabras temáticas', caption: 'Sopa de Letras — Puzzle Temático' },
+      { src: '/samples/spanish/coloring/coloring-portrait-1.webp', alt: 'Ficha para colorear con ilustraciones temáticas', caption: 'Colorear — Ilustraciones Temáticas' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Cómo Crear Fichas de Suma — Demo de LessonCraftStudio',

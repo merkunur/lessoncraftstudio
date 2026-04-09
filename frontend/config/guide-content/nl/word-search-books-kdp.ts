@@ -180,11 +180,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad met thematisch woordraster geschikt voor Amazon KDP woordzoekerboek binnenpagina\'s' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad met thematisch woordraster geschikt voor Amazon KDP woordzoekerboek binnenpagina\'s' },
     samples: [
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Dierenthema woordzoekerpuzzel opgemaakt voor KDP woordzoekerboek', caption: 'Thematische dieren woordzoekerpuzzel — thematische woordenlijsten creëren boeiende inhoud die beter presteert dan willekeurige woordverzamelingen in kopersrecensies' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Voedselthema woordzoekerpuzzel voor KDP boek', caption: 'Thematische woordzoeker — thematische secties voegen redactionele structuur toe die professionele woordzoekerboeken onderscheidt van amateurcompilaties' },
-      { src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201.webp', alt: 'Kruiswoordpuzzel voor begeleidende KDP puzzelcatalogus', caption: 'Kruiswoordpuzzel — begeleidend puzzeltype voor catalogusdiversificatie en cross-promotie met woordzoekertitels' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Dierenthema woordzoekerpuzzel opgemaakt voor KDP woordzoekerboek', caption: 'Thematische dieren woordzoekerpuzzel — thematische woordenlijsten creëren boeiende inhoud die beter presteert dan willekeurige woordverzamelingen in kopersrecensies' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Voedselthema woordzoekerpuzzel voor KDP boek', caption: 'Thematische woordzoeker — thematische secties voegen redactionele structuur toe die professionele woordzoekerboeken onderscheidt van amateurcompilaties' },
+      { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: 'Kruiswoordpuzzel voor begeleidende KDP puzzelcatalogus', caption: 'Kruiswoordpuzzel — begeleidend puzzeltype voor catalogusdiversificatie en cross-promotie met woordzoekertitels' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Woordzoekerpuzzels Maken voor Amazon KDP Boeken — Stapsgewijze Tutorial',

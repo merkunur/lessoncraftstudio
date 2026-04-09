@@ -201,11 +201,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Pædagogisk printable-arbejdsark der viser billedbaserede matematikopgaver til salg på Etsy på tværs af flere kategorier' },
+    heroImage: { src: '/samples/danish/matching/find%20parrene%201.webp', alt: 'Pædagogisk printable-arbejdsark der viser billedbaserede matematikopgaver til salg på Etsy på tværs af flere kategorier' },
     samples: [
-      { src: '/samples/danish/matching/Find%20Parrene%201.webp', alt: 'Find Parrene — dansk eksempelarbejdsark', caption: 'Find Parrene eksempel 1' },
-      { src: '/samples/danish/matching/Find%20Parrene%202.webp', alt: 'Find Parrene — dansk eksempel 2', caption: 'Find Parrene eksempel 2' },
-      { src: '/samples/danish/matching/Find%20Parrene%203.webp', alt: 'Find Parrene — dansk eksempel 3', caption: 'Find Parrene eksempel 3' },
+      { src: '/samples/danish/matching/find%20parrene%201.webp', alt: 'Find Parrene — dansk eksempelarbejdsark', caption: 'Find Parrene eksempel 1' },
+      { src: '/samples/danish/matching/find%20parrene%202.webp', alt: 'Find Parrene — dansk eksempel 2', caption: 'Find Parrene eksempel 2' },
+      { src: '/samples/danish/matching/find%20parrene%203.webp', alt: 'Find Parrene — dansk eksempel 3', caption: 'Find Parrene eksempel 3' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Sådan generator du pædagogiske printables til salg på Etsy — Multi-kategori butiksstrategi',

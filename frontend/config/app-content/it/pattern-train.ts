@@ -264,22 +264,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/pattern train/Treno dei Modelli 1.webp',
+      primary: '/samples/italian/pattern train/treno-dei-modelli-1.webp',
       primaryAlt: 'Scheda treno dei modelli con vagoni tematici che mostrano un pattern ripetitivo AB con un vagone vuoto da completare',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/pattern train/Treno dei Modelli 2.webp',
+        src: '/samples/italian/pattern train/treno-dei-modelli-2.webp',
         alt: 'Scheda treno dei modelli in modalità pattern AB alternante con immagini di animali in 11 vagoni tematici',
         caption: 'Pattern AB con tema animali — gli utenti identificano la sequenza alternante e completano il vagone mancante',
       },
       {
-        src: '/samples/italian/pattern train/Treno dei Modelli 3.webp',
+        src: '/samples/italian/pattern train/treno-dei-modelli-3.webp',
         alt: 'Scheda treno dei modelli in modalità pattern ABC a tre elementi con immagini di veicoli in vagoni tematici',
         caption: 'Pattern ABC con tema veicoli — tre elementi in rotazione creano una sequenza ripetitiva più complessa',
       },
       {
-        src: '/samples/italian/pattern train/Treno dei Modelli 4.webp',
+        src: '/samples/italian/pattern train/treno-dei-modelli-4.webp',
         alt: 'Scheda risposte del treno dei modelli che mostra tutti gli 11 vagoni riempiti con la sequenza corretta del pattern',
         caption: 'Vista risposte — tutti gli 11 vagoni riempiti con il pattern corretto per la verifica dell\'venditore',
       },

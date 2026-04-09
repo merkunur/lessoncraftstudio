@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/bingo/Bingo de Imagenes 1.webp', alt: 'Cartão de bingo a demonstrar design de produto imprimível altamente partilhável' },
+    heroImage: { src: '/samples/portuguese/bingo/bingo-de-imagenes-1.webp', alt: 'Cartão de bingo a demonstrar design de produto imprimível altamente partilhável' },
     samples: [
-      { src: '/samples/portuguese/bingo/Bingo de Imagenes 2.webp', alt: 'Cartão de bingo mostrando potencial de marketing para festas e salas de aula', caption: 'Bingo — Altamente Partilhável para Eventos e Feriados' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Sopa de letras a demonstrar forte potencial de SEO em marketplace', caption: 'Sopa de Letras — Tipo de Puzzle Mais Pesquisado' },
-      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir mostrando apelo visual para marketing no Pinterest', caption: 'Colorir — Conteúdo Visual Pronto para o Pinterest' },
-      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Atividade de associação mostrando versatilidade de marketing sazonal temático', caption: 'Associação — Marketing Sazonal Versátil' },
+      { src: '/samples/portuguese/bingo/bingo-de-imagenes-2.webp', alt: 'Cartão de bingo mostrando potencial de marketing para festas e salas de aula', caption: 'Bingo — Altamente Partilhável para Eventos e Feriados' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Sopa de letras a demonstrar forte potencial de SEO em marketplace', caption: 'Sopa de Letras — Tipo de Puzzle Mais Pesquisado' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir mostrando apelo visual para marketing no Pinterest', caption: 'Colorir — Conteúdo Visual Pronto para o Pinterest' },
+      { src: '/samples/portuguese/matching/encontre-os-pares-1.webp', alt: 'Atividade de associação mostrando versatilidade de marketing sazonal temático', caption: 'Associação — Marketing Sazonal Versátil' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Como Criar Cartões de Bingo para o Seu Negócio de Imprimíveis — Demo do LessonCraftStudio',

@@ -222,22 +222,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/find objects/Finde das Unpassende 1.webp',
+      primary: '/samples/german/find objects/finde-das-unpassende-1-v7.webp',
       primaryAlt: 'Suchbild-Arbeitsblatt mit verteilten Bildern durch überlappungsfreien Algorithmus, Legende am unteren Rand mit Suchobjekten und dekorativem Fredoka-Header',
     },
     sampleGallery: [
       {
-        src: '/samples/german/find objects/Finde das Unpassende 2.webp',
+        src: '/samples/german/find objects/finde-das-unpassende-2.webp',
         alt: 'Ich-sehe-was-Suchszene mit verteilten Bildern und Legende am unteren Rand, die Suchobjekte zeigt',
         caption: 'Ich-sehe-was-Modus — Suchszene mit frei verteilten Objekten und überlappungsfreier Platzierung und Legenden-Anzeige',
       },
       {
-        src: '/samples/german/find objects/Finde das Unpassende (1).webp',
+        src: '/samples/german/find objects/finde-das-unpassende-1.webp',
         alt: 'Welches-passt-nicht-Arbeitsblatt mit gepaarten Bildern in Reihen und unpaaren Elementen, 50 Prozent größer gerendert',
         caption: 'Welches-passt-nicht-Modus — gepaarte Bilder mit unpaaren Elementen für visuelle Unterscheidungs-Aktivitäten',
       },
       {
-        src: '/samples/german/find objects/Finde das Unpassende 1 answer_key.webp',
+        src: '/samples/german/find objects/finde-das-unpassende-1-answer-key.webp',
         alt: 'Suchbild-Lösungsschlüssel mit roten Kreisen um die Suchobjekte, 3 bis 5 Pixel größer als jedes Objekt',
         caption: 'Automatisch generierter Lösungsschlüssel — rote Kreis-Markierungen um versteckte und unpaare Objekte zur Selbstkontrolle',
       },

@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search worksheet demonstrating themed niche content for printable businesses' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search worksheet demonstrating themed niche content for printable businesses' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Themed word search puzzle showing niche application across topics', caption: 'Word search puzzles adapt to any niche theme — animals, holidays, subjects, and seasonal topics all work with the same product format' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page demonstrating visual niche product versatility', caption: 'Coloring pages are among the most versatile niche products, appealing across age ranges and applying to virtually any visual theme' },
-      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet showing educational niche product variety', caption: 'Matching activities work across educational niches from vocabulary to math — a single product type that validates niche demand quickly' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Themed word search puzzle showing niche application across topics', caption: 'Word search puzzles adapt to any niche theme — animals, holidays, subjects, and seasonal topics all work with the same product format' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page demonstrating visual niche product versatility', caption: 'Coloring pages are among the most versatile niche products, appealing across age ranges and applying to virtually any visual theme' },
+      { src: '/samples/english/matching/image-and-custom-word.webp', alt: 'Matching worksheet showing educational niche product variety', caption: 'Matching activities work across educational niches from vocabulary to math — a single product type that validates niche demand quickly' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles for Any Niche Theme',

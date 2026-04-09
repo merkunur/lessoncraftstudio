@@ -186,7 +186,7 @@ const content: GuideContent = {
         caption: 'Ordsökningspussel skapade under kommersiell licens kan säljas på valfri plattform',
       },
       {
-        src: '/samples/swedish/addition/addition_%C3%B6vning.webp',
+        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
         alt: 'Additionsarbetsblad genererat med royaltyfri kommersiell licensiering',
         caption: 'En kommersiell licens täcker obegränsad additionsarbetsbladgenerering utan per-produktavgifter',
       },

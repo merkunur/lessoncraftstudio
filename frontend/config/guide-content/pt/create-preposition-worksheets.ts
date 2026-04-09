@@ -171,11 +171,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/prepositions/Preposições 1.webp', alt: 'Atividade de preposições mostrando cenas de imagens com exercícios de relações espaciais para prática de palavras de posição' },
+    heroImage: { src: '/samples/portuguese/prepositions/preposições-1.webp', alt: 'Atividade de preposições mostrando cenas de imagens com exercícios de relações espaciais para prática de palavras de posição' },
     samples: [
-      { src: '/samples/portuguese/prepositions/Preposições 2.webp', alt: 'Atividade de preposições com exercícios de preencher espaços usando cenas de imagens coloridas mostrando relações espaciais', caption: 'Exercícios de preposições para preencher espaços com cenas de imagens' },
-      { src: '/samples/portuguese/prepositions/Preposições 3.webp', alt: 'Atividade de preposições com exercícios de escolha múltipla de relações espaciais para prática guiada', caption: 'Modo de escolha múltipla para prática guiada adequada a principiantes' },
-      { src: '/samples/portuguese/prepositions/Preposições 4.webp', alt: 'Atividade avançada de preposições com substituição de formas criando combinações de cenas únicas', caption: 'A substituição de formas multiplica as combinações visuais para variedade de produtos' },
+      { src: '/samples/portuguese/prepositions/preposições-2.webp', alt: 'Atividade de preposições com exercícios de preencher espaços usando cenas de imagens coloridas mostrando relações espaciais', caption: 'Exercícios de preposições para preencher espaços com cenas de imagens' },
+      { src: '/samples/portuguese/prepositions/preposições-3.webp', alt: 'Atividade de preposições com exercícios de escolha múltipla de relações espaciais para prática guiada', caption: 'Modo de escolha múltipla para prática guiada adequada a principiantes' },
+      { src: '/samples/portuguese/prepositions/preposições-4.webp', alt: 'Atividade avançada de preposições com substituição de formas criando combinações de cenas únicas', caption: 'A substituição de formas multiplica as combinações visuais para variedade de produtos' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Como criar atividades de preposições — Tutorial completo',

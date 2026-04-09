@@ -75,10 +75,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Ammattimainen yhteenlaskutyöarkki esittelemässä premium-hinnoittelua tukevaa laatua' },
+    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Ammattimainen yhteenlaskutyöarkki esittelemässä premium-hinnoittelua tukevaa laatua' },
     samples: [
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki temaattisilla kuvilla tukemassa premium-hinnoittelua', caption: 'Ammattimainen muotoilu ja temaattiset kuvat oikeuttavat korkeammat hintapisteet' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma esittelemässä ominaisuusdifferentiointia hinnoittelua varten', caption: 'Sananetsintäpulmat temaattisilla kuvilla myyvät korkeammalla hinnalla kuin pelkät tekstiversiot kaikilla alustoilla' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki temaattisilla kuvilla tukemassa premium-hinnoittelua', caption: 'Ammattimainen muotoilu ja temaattiset kuvat oikeuttavat korkeammat hintapisteet' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulma esittelemässä ominaisuusdifferentiointia hinnoittelua varten', caption: 'Sananetsintäpulmat temaattisilla kuvilla myyvät korkeammalla hinnalla kuin pelkät tekstiversiot kaikilla alustoilla' },
       { src: '/samples/finnish/coloring/coloring%20portrait%202.webp', alt: 'Värityssivu näyttäen laatua joka tukee kilpailukykyistä hinnoittelua', caption: 'Korkealaatuiset värityssivut osoittavat miten tuotteen laatu mahdollistaa suoraan premium-hinnoittelun kilpailluissa kategorioissa' },
     ],
     youtubeId: '-JIawojGNr0',

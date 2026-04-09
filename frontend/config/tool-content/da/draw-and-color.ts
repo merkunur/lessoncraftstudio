@@ -215,22 +215,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvl%C3%A6g%201.webp',
+      primary: '/samples/danish/draw%20and%20color/tegn%20og%20farvl%c3%a6g%201.webp',
       primaryAlt: 'Gratis tegne og farvelægge aktivitet med dobbeltgitter og temabilleder — prøv online med vandmærke',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%201.webp',
+        src: '/samples/danish/draw%20and%20color/tegn%20og%20farvlæg%201.webp',
         alt: 'Gratis tegneaktivitet med dyretema og konturer til kreativ farvelægning — prøv online',
         caption: 'Dyretema — brugerne reproducerer konturen fra gitterledetråde og farvelægger derefter deres tegning',
       },
       {
-        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%202.webp',
+        src: '/samples/danish/draw%20and%20color/tegn%20og%20farvlæg%202.webp',
         alt: 'Gratis tegne og farvelægge med horisontal symmetri — kreativ tegneaktivitet med spejltilstand',
         caption: 'Horisontal symmetritilstand — ledetrådsceller spejler venstre-højre for rumlig vurdering og bilateral symmetriøvelse',
       },
       {
-        src: '/samples/danish/draw%20and%20color/Tegn%20og%20Farvlæg%203.webp',
+        src: '/samples/danish/draw%20and%20color/tegn%20og%20farvlæg%203.webp',
         alt: 'Gratis kreativ tegneaktivitet med lav ledetrådsprocent til udfordrende trin-for-trin tegning',
         caption: 'Lav ledetrådsprocent ekspertudfordring — minimale referenceceller kræver præcis observation og rumlig vurdering',
       },

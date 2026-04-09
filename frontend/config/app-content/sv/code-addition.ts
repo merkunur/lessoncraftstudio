@@ -272,22 +272,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/code%20addition/image_addition_worksheet.webp',
+      primary: '/samples/swedish/code%20addition/image-addition-worksheet.webp',
       primaryAlt: 'Kodadditions arbetsblad med djurbilder som döljer hemliga nummer i ett kodknäckningspussel',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/code%20addition/image_addition_worksheet%20(1).webp',
+        src: '/samples/swedish/code%20addition/image-addition-worksheet%20-1.webp',
         alt: 'Kodadditions arbetsblad i Klassiskt Läge med tematiska djurbilder som kodsymboler',
         caption: 'Klassiskt Läge — användarna knäcker koden genom att ta reda på vilket nummer varje bild föreställer',
       },
       {
-        src: '/samples/swedish/code%20addition/image_addition_worksheet%20(2).webp',
+        src: '/samples/swedish/code%20addition/image-addition-worksheet%20-2.webp',
         alt: 'Kodadditions arbetsblad med annat visuellt tema som visar kryptaritmetiska ekvationer med bilder',
         caption: 'Flersymbolsutmaning — fler bilder ökar komplexiteten i deduktionen',
       },
       {
-        src: '/samples/swedish/code%20addition/image_addition_worksheet%20(3).webp',
+        src: '/samples/swedish/code%20addition/image-addition-worksheet%20-3.webp',
         alt: 'Kodadditionspussel med färgglada tematiska bilder och ekvationer',
         caption: 'Tematiska pussel — 104 visuella teman gör varje arbetsblad unikt och engagerande',
       },

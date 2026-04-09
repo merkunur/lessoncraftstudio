@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Page de coloriage créée à partir d\'images thématiques montrant la conversion en niveaux de gris pour des fiches de coloriage prêtes à imprimer' },
+    heroImage: { src: '/samples/french/coloring/coloring-portrait-1.webp', alt: 'Page de coloriage créée à partir d\'images thématiques montrant la conversion en niveaux de gris pour des fiches de coloriage prêtes à imprimer' },
     samples: [
-      { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Page de coloriage thématique avec illustrations d\'animaux disposées sur un canevas libre', caption: 'Page de coloriage créée à partir d\'images thématiques de la bibliothèque avec placement libre sur le canevas' },
-      { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Page de coloriage en niveaux de gris prête à imprimer avec des contours noir et blanc nets', caption: 'L\'export niveaux de gris convertit les designs colorés en pages de coloriage prêtes à imprimer' },
+      { src: '/samples/french/coloring/coloring-portrait-1.webp', alt: 'Page de coloriage thématique avec illustrations d\'animaux disposées sur un canevas libre', caption: 'Page de coloriage créée à partir d\'images thématiques de la bibliothèque avec placement libre sur le canevas' },
+      { src: '/samples/french/coloring/coloring-portrait-1.webp', alt: 'Page de coloriage en niveaux de gris prête à imprimer avec des contours noir et blanc nets', caption: 'L\'export niveaux de gris convertit les designs colorés en pages de coloriage prêtes à imprimer' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Comment créer des pages de coloriage à partir d\'images thématiques — Tutoriel complet',

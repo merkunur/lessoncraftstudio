@@ -220,9 +220,9 @@ const content: StartContent = {
     heroImage: { src: '/samples/spanish/writing/writing.webp', alt: 'Ficha de escritura que demuestra contenido imprimible con licencia comercial para vendedores de imprimibles' },
     samples: [
       { src: '/samples/spanish/writing/writing.webp', alt: 'Ficha de escritura mostrando contenido imprimible con licencia comercial', caption: 'Escritura — contenido imprimible con Licencia Comercial' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras demostrando el potencial de producto comercial de alto volumen', caption: 'Sopa de Letras — Tipo de Puzle Comercial Más Popular' },
-      { src: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp', alt: 'Crucigrama mostrando la capacidad de producto comercial multilingüe', caption: 'Crucigrama — Productos Comerciales Multilingües' },
-      { src: '/samples/spanish/math puzzle/Rompecabezas Matemáticos 1.webp', alt: 'Ficha de matemáticas demostrando la generación de producto comercial perenne', caption: 'Matemáticas — Generación de Producto Comercial Perenne' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras demostrando el potencial de producto comercial de alto volumen', caption: 'Sopa de Letras — Tipo de Puzle Comercial Más Popular' },
+      { src: '/samples/spanish/crossword/crucigrama-con-dibujos-1.webp', alt: 'Crucigrama mostrando la capacidad de producto comercial multilingüe', caption: 'Crucigrama — Productos Comerciales Multilingües' },
+      { src: '/samples/spanish/math puzzle/rompecabezas-matemáticos-1.webp', alt: 'Ficha de matemáticas demostrando la generación de producto comercial perenne', caption: 'Matemáticas — Generación de Producto Comercial Perenne' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Cómo Crear Fichas de Escritura para Su Negocio de Imprimibles — Demo de LessonCraftStudio',

@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/prepositions/Preposiciones 1.webp', alt: 'Ficha de preposiciones mostrando escenas de imágenes con ejercicios de relaciones espaciales para práctica de palabras de posición' },
+    heroImage: { src: '/samples/spanish/prepositions/preposiciones-1.webp', alt: 'Ficha de preposiciones mostrando escenas de imágenes con ejercicios de relaciones espaciales para práctica de palabras de posición' },
     samples: [
-      { src: '/samples/spanish/prepositions/Preposiciones 1.webp', alt: 'Ficha de preposiciones con ejercicios de completar espacios usando escenas de imágenes coloridas mostrando relaciones espaciales', caption: 'Ejercicios de preposiciones para completar espacios con escenas de imágenes' },
-      { src: '/samples/spanish/prepositions/Preposiciones 2.webp', alt: 'Ficha de preposiciones con ejercicios de opción múltiple de relaciones espaciales para práctica guiada', caption: 'Modo de opción múltiple para práctica guiada apta para principiantes' },
-      { src: '/samples/spanish/prepositions/Preposiciones 3.webp', alt: 'Ficha avanzada de preposiciones con reemplazo de formas creando combinaciones de escenas únicas', caption: 'El reemplazo de formas multiplica las combinaciones visuales para variedad de productos' },
+      { src: '/samples/spanish/prepositions/preposiciones-1.webp', alt: 'Ficha de preposiciones con ejercicios de completar espacios usando escenas de imágenes coloridas mostrando relaciones espaciales', caption: 'Ejercicios de preposiciones para completar espacios con escenas de imágenes' },
+      { src: '/samples/spanish/prepositions/preposiciones-2.webp', alt: 'Ficha de preposiciones con ejercicios de opción múltiple de relaciones espaciales para práctica guiada', caption: 'Modo de opción múltiple para práctica guiada apta para principiantes' },
+      { src: '/samples/spanish/prepositions/preposiciones-3.webp', alt: 'Ficha avanzada de preposiciones con reemplazo de formas creando combinaciones de escenas únicas', caption: 'El reemplazo de formas multiplica las combinaciones visuales para variedad de productos' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'Cómo crear fichas de preposiciones — Tutorial completo',

@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/treasure hunt/Treasure Hunt 1.webp',
+      primary: '/samples/english/treasure hunt/treasure-hunt-1.webp',
       primaryAlt: 'Treasure hunt path-finding worksheet with 5 by 5 coordinate grid, scattered images, directional clues, and treasure-themed header',
     },
     sampleGallery: [
       {
-        src: '/samples/english/treasure hunt/Treasure Hunt 1.webp',
+        src: '/samples/english/treasure hunt/treasure-hunt-1.webp',
         alt: 'Treasure hunt puzzle worksheet with 6 themed images on a 5 by 5 grid and Basic directional clues',
         caption: 'Basic direction mode — follow up, down, left, and right clues to find the treasure',
       },
       {
-        src: '/samples/english/treasure hunt/north south.webp',
+        src: '/samples/english/treasure hunt/north-south.webp',
         alt: 'Treasure hunt puzzle worksheet with Cardinal direction clues using north, south, east, and west',
         caption: 'Cardinal direction mode — compass directions for advanced spatial reasoning',
       },
       {
-        src: '/samples/english/treasure hunt/Treasure Hunt 1 answer_key.webp',
+        src: '/samples/english/treasure hunt/treasure-hunt-1-answer-key.webp',
         alt: 'Treasure hunt answer key with final treasure cell highlighted in pale yellow on the coordinate grid',
         caption: 'Auto-generated answer key — pale yellow highlight marks the treasure destination',
       },

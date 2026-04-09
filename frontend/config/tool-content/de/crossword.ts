@@ -217,17 +217,17 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/crossword/crossword_worksheet.webp',
+      primary: '/samples/german/crossword/crossword-worksheet.webp',
       primaryAlt: 'Bilderkreuzworträtsel mit Bildhinweisen neben einem 15×15-Kreuzwortraster mit nummerierten Hinweispositionen und lokalisiertem blauen Header',
     },
     sampleGallery: [
       {
-        src: '/samples/german/crossword/crossword_worksheet.webp',
+        src: '/samples/german/crossword/crossword-worksheet.webp',
         alt: 'Benutzerdefiniertes Wortlisten-Kreuzworträtsel mit Text-Hinweisen und Kreuzwortraster im WORT-Hinweis-Format',
         caption: 'Benutzerdefinierter Wortlisten-Modus — traditionelle Text-Hinweis-Kreuzworträtsel mit eigenem Vokabular',
       },
       {
-        src: '/samples/german/crossword/crossword_worksheet.webp',
+        src: '/samples/german/crossword/crossword-worksheet.webp',
         alt: 'Kreuzworträtsel-Lösungsschlüssel mit allen korrekten Buchstaben im ausgefüllten 15×15-Raster',
         caption: 'Automatisch generierter Lösungsschlüssel — ausgefülltes Raster zeigt alle korrekten Antworten zur Selbstüberprüfung',
       },

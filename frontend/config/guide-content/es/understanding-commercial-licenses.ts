@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+      src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp',
       alt: 'Ficha profesional de sopa de letras que demuestra la producción imprimible con licencia comercial',
     },
     samples: [
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp',
         alt: 'Sopa de letras creada con licencia comercial para venta multiplataforma',
         caption: 'Las sopas de letras creadas con licencia comercial pueden venderse en cualquier plataforma',
       },
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: '/samples/spanish/addition/suma-divertida-1.webp',
         alt: 'Ficha de suma generada con licencia comercial libre de regalías',
         caption: 'Una licencia comercial cubre la generación ilimitada de fichas de suma sin cargos por producto',
       },
       {
-        src: '/samples/spanish/coloring/coloring portrait 1.webp',
+        src: '/samples/spanish/coloring/coloring-portrait-1.webp',
         alt: 'Página para colorear con imágenes temáticas debidamente licenciadas para venta comercial',
         caption: 'Las licencias comerciales que incluyen imágenes integradas simplifican el cumplimiento para productos visuales',
       },

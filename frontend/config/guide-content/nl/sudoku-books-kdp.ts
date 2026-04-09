@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Plaatjessudoku puzzelwerkblad met thematisch afbeeldingsraster geschikt voor Amazon KDP sudokuboek binnenpagina\'s' },
+    heroImage: { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Plaatjessudoku puzzelwerkblad met thematisch afbeeldingsraster geschikt voor Amazon KDP sudokuboek binnenpagina\'s' },
     samples: [
-      { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Dierenthema plaatjessudoku puzzel opgemaakt voor KDP kindersudokuboek', caption: 'Plaatjessudoku met dierenthema — afbeeldingsgebaseerde rasters maken sudokulogica toegankelijk voor kinderen van 3 tot 7 jaar die nog geen cijfers kennen' },
-      { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Plaatjessudoku puzzelwerkblad voor KDP boek interieur', caption: 'Plaatjessudoku werkblad — 4×4 rasters met duidelijke afbeeldingen en ruime celgrootte voor comfortabel oplossen door jonge kinderen' },
-      { src: '/samples/dutch/math%20puzzle/Wiskundepuzzels%201.webp', alt: 'Rekenpuzzel werkblad voor aanvullende KDP puzzelcatalogus', caption: 'Rekenpuzzel — op getallen gebaseerde logicapuzzels vullen sudoku op natuurlijke wijze aan in variatiepuzzelboeken en cross-promoten via je auteurspagina' },
+      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Dierenthema plaatjessudoku puzzel opgemaakt voor KDP kindersudokuboek', caption: 'Plaatjessudoku met dierenthema — afbeeldingsgebaseerde rasters maken sudokulogica toegankelijk voor kinderen van 3 tot 7 jaar die nog geen cijfers kennen' },
+      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Plaatjessudoku puzzelwerkblad voor KDP boek interieur', caption: 'Plaatjessudoku werkblad — 4×4 rasters met duidelijke afbeeldingen en ruime celgrootte voor comfortabel oplossen door jonge kinderen' },
+      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp', alt: 'Rekenpuzzel werkblad voor aanvullende KDP puzzelcatalogus', caption: 'Rekenpuzzel — op getallen gebaseerde logicapuzzels vullen sudoku op natuurlijke wijze aan in variatiepuzzelboeken en cross-promoten via je auteurspagina' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Hoe Plaatjessudoku Puzzels Maken voor Amazon KDP Boeken — Stap-voor-Stap Tutorial',

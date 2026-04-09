@@ -150,11 +150,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Ammattimainen yhteenlaskutyöarkki sekä digitaaliseen lataukseen että fyysiseen tulostukseen' },
+    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Ammattimainen yhteenlaskutyöarkki sekä digitaaliseen lataukseen että fyysiseen tulostukseen' },
     samples: [
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki sekä digitaaliseen lataukseen että fyysiseen tulostukseen', caption: 'Matemaattiset työarkit toimivat hyvin sekä digitaalisina latauksina että painettujen työkirjojen sivuina' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskutyöarkki sekä digitaaliseen lataukseen että fyysiseen tulostukseen', caption: 'Matemaattiset työarkit toimivat hyvin sekä digitaalisina latauksina että painettujen työkirjojen sivuina' },
       { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityskuva sekä digitaaliseen että fyysiseen muotoon', caption: 'Värityskuvat ovat suosituimpia sekä digitaalisissa latauksissa että fyysisissä kirjoissa' },
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sanakäärmepalapeli sekä digitaaliseen lataukseen että fyysiseen kirjaan', caption: 'Sanakäärmeet myyvät yksittäin digitaalisina ja koottuna fyysisiksi palapelikirjoiksi' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sanakäärmepalapeli sekä digitaaliseen lataukseen että fyysiseen kirjaan', caption: 'Sanakäärmeet myyvät yksittäin digitaalisina ja koottuna fyysisiksi palapelikirjoiksi' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Näin luot digitaalisia ja fyysisiä tulostettavia tuotteita',

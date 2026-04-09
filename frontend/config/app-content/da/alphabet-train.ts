@@ -234,22 +234,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
+      primary: '/samples/danish/alphabet%20train/alfabettog%201.webp',
       primaryAlt: 'Alfabet-opgave med farverige togvogne, der bærer bogstaver og matchende temabilleder til bogstavgenkendelse',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
+        src: '/samples/danish/alphabet%20train/alfabettog%201.webp',
         alt: 'ABC-opgave med dyretema og 11 bogstavsvogne med ledetrådsbilleder til børnehaveklasse',
         caption: 'Automatisk Oprettelse — 11 tilfældige bogstavsvogne med dyretema ledetråde til bogstavgenkendelse',
       },
       {
-        src: '/samples/danish/alphabet%20train/Alfabettog%202.webp',
+        src: '/samples/danish/alphabet%20train/alfabettog%202.webp',
         alt: 'Alfabet-opgave med madtema og 5 ledetrådsbilleder til kobling for 1. klasse',
         caption: 'Manuel tilstand — håndvalgte bogstaver med madtema og 5 ledetråde for enklere kobling',
       },
       {
-        src: '/samples/danish/alphabet%20train/Alfabettog%203.webp',
+        src: '/samples/danish/alphabet%20train/alfabettog%203.webp',
         alt: 'Alfabet-opgave med køretøjstema og alle 11 ledetråde for avanceret ABC-øvelse',
         caption: 'Fuld ledetrådsudfordring — 11 ledetråde for komplet bogstav-billedkobling øvelse',
       },

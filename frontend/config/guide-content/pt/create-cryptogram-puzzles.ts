@@ -183,11 +183,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/cryptogram/Criptograma Ilustrado 1.webp', alt: 'Atividade de criptograma com cifrado de imagens mostrando imagens temáticas associadas a letras do alfabeto codificando uma frase secreta' },
+    heroImage: { src: '/samples/portuguese/cryptogram/criptograma-ilustrado-1.webp', alt: 'Atividade de criptograma com cifrado de imagens mostrando imagens temáticas associadas a letras do alfabeto codificando uma frase secreta' },
     samples: [
-      { src: '/samples/portuguese/cryptogram/Criptograma Ilustrado 2.webp', alt: 'Atividade de criptograma com imagens temáticas substituindo letras numa frase secreta codificada', caption: 'Puzzle de cifrado com imagens — decifre a mensagem secreta identificando qual imagem representa qual letra' },
-      { src: '/samples/portuguese/cryptogram/Criptograma Ilustrado 3.webp', alt: 'Atividade de criptograma com imagens temáticas e pistas de Letras a Revelar para dificuldade progressiva', caption: 'Cifrado temático com Letras a Revelar — correspondências pré-resolvidas fornecem estruturação para principiantes' },
-      { src: '/samples/portuguese/cryptogram/Criptograma Ilustrado 4.webp', alt: 'Chave de respostas de criptograma com legenda de letras completa mostrando todas as correspondências alfabeto-imagem por ordem', caption: 'Chave de respostas com legenda de letras — cada letra do alfabeto emparelhada com a sua imagem atribuída como referência de solução definitiva' },
+      { src: '/samples/portuguese/cryptogram/criptograma-ilustrado-2.webp', alt: 'Atividade de criptograma com imagens temáticas substituindo letras numa frase secreta codificada', caption: 'Puzzle de cifrado com imagens — decifre a mensagem secreta identificando qual imagem representa qual letra' },
+      { src: '/samples/portuguese/cryptogram/criptograma-ilustrado-3.webp', alt: 'Atividade de criptograma com imagens temáticas e pistas de Letras a Revelar para dificuldade progressiva', caption: 'Cifrado temático com Letras a Revelar — correspondências pré-resolvidas fornecem estruturação para principiantes' },
+      { src: '/samples/portuguese/cryptogram/criptograma-ilustrado-4.webp', alt: 'Chave de respostas de criptograma com legenda de letras completa mostrando todas as correspondências alfabeto-imagem por ordem', caption: 'Chave de respostas com legenda de letras — cada letra do alfabeto emparelhada com a sua imagem atribuída como referência de solução definitiva' },
     ],
     youtubeId: '9U0BIIjCnco',
     videoTitle: 'Como criar puzzles de criptogramas com cifrado de imagens — Tutorial passo a passo',

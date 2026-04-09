@@ -211,12 +211,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/math%20worksheet/Matematikkoppgave%202.webp', alt: 'Matematikkarbeidsark som demonstrerer profesjonell resultatkvalitet fra arbeidsarkgeneratorer' },
+    heroImage: { src: '/samples/norwegian/math%20worksheet/matematikkoppgave%202.webp', alt: 'Matematikkarbeidsark som demonstrerer profesjonell resultatkvalitet fra arbeidsarkgeneratorer' },
     samples: [
-      { src: '/samples/norwegian/math%20worksheet/Matematikkoppgave%202.webp', alt: 'Matematikkarbeidsark som viser profesjonell layout og 300 DPI utskriftskvalitet', caption: 'Matematikkarbeidsark — Allsidig Inntektsbygger' },
-      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsøkpuslespill-arbeidsark for Etsy og Amazon KDP-salg', caption: 'Ordsøk — Toppselgende Puslespillkategori' },
+      { src: '/samples/norwegian/math%20worksheet/matematikkoppgave%202.webp', alt: 'Matematikkarbeidsark som viser profesjonell layout og 300 DPI utskriftskvalitet', caption: 'Matematikkarbeidsark — Allsidig Inntektsbygger' },
+      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøkpuslespill-arbeidsark for Etsy og Amazon KDP-salg', caption: 'Ordsøk — Toppselgende Puslespillkategori' },
       { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside for KDP-aktivitetsbokpublisering', caption: 'Fargelegging — Høyt Volum KDP-kategori' },
-      { src: '/samples/norwegian/sudoku/Bilde-Sudoku%202.webp', alt: 'Sudoku-puslespillarbeidsark med universell internasjonal appell', caption: 'Sudoku — Universell Markedsappell' },
+      { src: '/samples/norwegian/sudoku/bilde-sudoku%202.webp', alt: 'Sudoku-puslespillarbeidsark med universell internasjonal appell', caption: 'Sudoku — Universell Markedsappell' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Slik Lager du Matematikkarbeidsark for din Utskriftsbare Forretning — LessonCraftStudio Demo',

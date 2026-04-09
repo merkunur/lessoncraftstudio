@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Educatief printable werkblad voor prijsstrategiedemonstratie op Etsy' },
+    heroImage: { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Educatief printable werkblad voor prijsstrategiedemonstratie op Etsy' },
     samples: [
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Dierenthema optelwerkblad als instapniveau prijsproduct voor Etsy', caption: 'Optelwerkblad met dierenthema — een typisch instapniveauproduct geprijsd op €3,99 voor een pakket van 10 pagina\'s' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad dat premiumprijzen demonstreert voor taalspecifieke producten', caption: 'Woordzoekerpuzzel — taalversies beheersen premiumprijzen met minder concurrentie op niet-Engelstalige markten' },
-      { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Sudoku puzzelwerkblad dat gelaagde moeilijkheidsprijsstrategie toont', caption: 'Sudoku-puzzel — op moeilijkheid gebaseerde gelaagdheid ondersteunt progressieve prijsstelling binnen een enkele productcategorie' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Dierenthema optelwerkblad als instapniveau prijsproduct voor Etsy', caption: 'Optelwerkblad met dierenthema — een typisch instapniveauproduct geprijsd op €3,99 voor een pakket van 10 pagina\'s' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoekerpuzzel werkblad dat premiumprijzen demonstreert voor taalspecifieke producten', caption: 'Woordzoekerpuzzel — taalversies beheersen premiumprijzen met minder concurrentie op niet-Engelstalige markten' },
+      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Sudoku puzzelwerkblad dat gelaagde moeilijkheidsprijsstrategie toont', caption: 'Sudoku-puzzel — op moeilijkheid gebaseerde gelaagdheid ondersteunt progressieve prijsstelling binnen een enkele productcategorie' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hoe Printbare Werkbladen Maken voor Verkoop op Etsy — Productwaarde en Prijsstelling Begrijpen',

@@ -228,7 +228,7 @@ const content: ToolContent = {
         caption: 'Sehr Leicht — zwei Symbole mit einfacher Addition',
       },
       {
-        src: '/samples/german/math worksheet/answer_key.webp',
+        src: '/samples/german/math worksheet/answer-key.webp',
         alt: 'Algebra-Bilderrätsel mittlerer Schwierigkeit mit drei Bildvariablen in verknüpften Gleichungen',
         caption: 'Mittlere Schwierigkeit — drei Unbekannte in verknüpften Gleichungen',
       },

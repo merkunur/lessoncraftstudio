@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Professional KDP interior template showing worksheet page with headers and page numbers' },
+    heroImage: { src: '/samples/english/addition/addition-fun-10.webp', alt: 'Professional KDP interior template showing worksheet page with headers and page numbers' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 11.webp', alt: 'Addition worksheet formatted with KDP template headers and footers', caption: 'Addition worksheet integrated into a professional KDP interior template with header and page numbering' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search page with KDP template formatting', caption: 'Word search puzzle page showing consistent template design with section header' },
+      { src: '/samples/english/addition/addition-fun-11.webp', alt: 'Addition worksheet formatted with KDP template headers and footers', caption: 'Addition worksheet integrated into a professional KDP interior template with header and page numbering' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search page with KDP template formatting', caption: 'Word search puzzle page showing consistent template design with section header' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Mattepusselarbetsblad skapat med LessonCraftStudio-genrator' },
+    heroImage: { src: '/samples/english/math puzzle/math-puzzles.webp', alt: 'Mattepusselarbetsblad skapat med LessonCraftStudio-genrator' },
     samples: [
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Mattepusselarbetsblad som visar konfigurerbar utdatavariation', caption: 'Mattepussel — Konfigurerbar svårighet' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsöksarbetsblad med tematiserad ordlista', caption: 'Ordsök — Tematiserat pussel' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Målarsidearbetsblad med tematiserade illustrationer', caption: 'Målarsida — Visuell attraktion' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchningsarbetsblad som demonstrerar visuellt internationellt format', caption: 'Matchning — Fungerar på alla språk' },
+      { src: '/samples/english/math puzzle/math-puzzles.webp', alt: 'Mattepusselarbetsblad som visar konfigurerbar utdatavariation', caption: 'Mattepussel — Konfigurerbar svårighet' },
+      { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsöksarbetsblad med tematiserad ordlista', caption: 'Ordsök — Tematiserat pussel' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Målarsidearbetsblad med tematiserade illustrationer', caption: 'Målarsida — Visuell attraktion' },
+      { src: '/samples/english/matching/matching-portrait.webp', alt: 'Matchningsarbetsblad som demonstrerar visuellt internationellt format', caption: 'Matchning — Fungerar på alla språk' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Hur man skapar mattepusselarbetsblad — LessonCraftStudio-demo',

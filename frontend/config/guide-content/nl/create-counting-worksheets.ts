@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/chart%20count/Plaatjesgrafiek%201.webp', alt: 'Plaatjesgrafiek werkblad met verstrooide 4×5 afbeeldingsraster en staafdiagram voor tel- en grafiekoefening' },
+    heroImage: { src: '/samples/dutch/chart%20count/plaatjesgrafiek%201.webp', alt: 'Plaatjesgrafiek werkblad met verstrooide 4×5 afbeeldingsraster en staafdiagram voor tel- en grafiekoefening' },
     samples: [
-      { src: '/samples/dutch/chart%20count/Plaatjesgrafiek%201.webp', alt: 'Plaatjesgrafiek werkblad met 20 verstrooide iconen in een 4×5 raster en 6-koloms staafdiagram eronder', caption: 'Compleet plaatjesgrafiek werkblad met verstrooide afbeeldingsraster en staafdiagram voor teloefening' },
-      { src: '/samples/dutch/find%20and%20count/Ik%20zie%2C%20ik%20zie%201.webp', alt: 'Zoek en tel werkblad als aanvulling op grafiek activiteiten', caption: 'Zoek en tel werkbladen combineren perfect met plaatjesgrafieken voor uitgebreide datavaardigheden bundels' },
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optellen werkblad als volgende stap na tellen en grafieken', caption: 'Optellen werkbladen als natuurlijke opvolger van tel- en grafiekactiviteiten' },
+      { src: '/samples/dutch/chart%20count/plaatjesgrafiek%201.webp', alt: 'Plaatjesgrafiek werkblad met 20 verstrooide iconen in een 4×5 raster en 6-koloms staafdiagram eronder', caption: 'Compleet plaatjesgrafiek werkblad met verstrooide afbeeldingsraster en staafdiagram voor teloefening' },
+      { src: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%201.webp', alt: 'Zoek en tel werkblad als aanvulling op grafiek activiteiten', caption: 'Zoek en tel werkbladen combineren perfect met plaatjesgrafieken voor uitgebreide datavaardigheden bundels' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optellen werkblad als volgende stap na tellen en grafieken', caption: 'Optellen werkbladen als natuurlijke opvolger van tel- en grafiekactiviteiten' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Hoe Tel- en Grafiekwerkbladen Maken — Complete Handleiding',

@@ -221,17 +221,17 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/bingo/bilder-bingo 1.webp',
+      primary: '/samples/german/bingo/bilder-bingo-1.webp',
       primaryAlt: 'Bilder-Bingo-Karte mit thematischen Bildern in einem konfigurierbaren Rasterlayout und runden Chips mit gestrichelten Rändern darunter für die Zuordnung beim Bingo-Spiel',
     },
     sampleGallery: [
       {
-        src: '/samples/german/bingo/bilder-bingo 2.webp',
+        src: '/samples/german/bingo/bilder-bingo-2.webp',
         alt: 'Bilder-Bingo-Karte mit Bild-Füllung, die farbenfrohe thematische Illustrationen in Rasterzellen und runde Bild-Chips mit gestrichelten Rändern zeigt',
         caption: 'Bild-Füllung — farbenfrohe Illustrationen in Kartenzellen und runden Chips für visuelles Bingo',
       },
       {
-        src: '/samples/german/bingo/bilder-bingo 3.webp',
+        src: '/samples/german/bingo/bilder-bingo-3.webp',
         alt: 'Bilder-Bingo-Karte mit Wort-Füllung, die lokalisierte Bildnamen in Rasterzellen und Wort-Chips für Vokabel-Bingo zeigt',
         caption: 'Wort-Füllung — lokalisierte Bildnamen für vokabelbasierte mehrsprachige Bingo-Produkte',
       },

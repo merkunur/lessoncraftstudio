@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle generated for KDP book interior showing themed vocabulary grid' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle generated for KDP book interior showing themed vocabulary grid' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle page ready for KDP manuscript', caption: 'A themed word search puzzle exported as a print-ready PDF for KDP book interior' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search answer key with highlighted words', caption: 'Automatic answer key showing word positions in the grid' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Word search puzzle page ready for KDP manuscript', caption: 'A themed word search puzzle exported as a print-ready PDF for KDP book interior' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search answer key with highlighted words', caption: 'Automatic answer key showing word positions in the grid' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

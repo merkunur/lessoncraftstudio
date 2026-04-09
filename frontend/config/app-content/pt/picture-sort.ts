@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/picture sort/Classificação de Imagens 1.webp',
+      primary: '/samples/portuguese/picture sort/classificação-de-imagens-1.webp',
       primaryAlt: 'Atividade de classificação de imagens a duas categorias com molduras de categoria temáticas, grelha de recortes misturada e cabeçalho localizado Classificação de Imagens',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/picture sort/Classificação de Imagens 2.webp',
+        src: '/samples/portuguese/picture sort/classificação-de-imagens-2.webp',
         alt: 'Atividade de classificação em modo de tema com imagens classificadas nas categorias esquerda e direita',
         caption: 'Modo de tema — categorias preenchidas automaticamente a partir da biblioteca de imagens',
       },
       {
-        src: '/samples/portuguese/picture sort/Classificação de Imagens 3.webp',
+        src: '/samples/portuguese/picture sort/classificação-de-imagens-3.webp',
         alt: 'Atividade de classificação em modo manual com imagens selecionadas individualmente atribuídas às categorias esquerda e direita',
         caption: 'Modo manual — selecione imagens e atribua-as às categorias',
       },
       {
-        src: '/samples/portuguese/picture sort/Classificação de Imagens 1 answer_key.webp',
+        src: '/samples/portuguese/picture sort/classificação-de-imagens-1-answer-key.webp',
         alt: 'Gabarito de classificação de imagens com imagens 6 vezes maiores organizadas nas caixas de categorias corretas',
         caption: 'Gabarito autogerado — imagens 6× maiores em caixas de categorias',
       },

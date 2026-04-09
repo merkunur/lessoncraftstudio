@@ -213,12 +213,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Sudoku puzzel werkblad voorbeeld voor Amazon KDP activiteitenboek publicatie' },
+    heroImage: { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Sudoku puzzel werkblad voorbeeld voor Amazon KDP activiteitenboek publicatie' },
     samples: [
-      { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Sudoku puzzel werkblad voor KDP activiteitenboek binnenwerk', caption: 'Sudoku — Top KDP Puzzelcategorie' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker puzzel voor Amazon KDP activiteitenboek', caption: 'Woordzoeker — KDP Bestseller Categorie' },
-      { src: '/samples/dutch/math%20puzzle/Wiskundepuzzels%201.webp', alt: 'Rekenpuzzel werkblad voor KDP werkboek binnenwerk', caption: 'Rekenpuzzel — Groenblijvende KDP Niche' },
-      { src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201.webp', alt: 'Kruiswoordpuzzel werkblad voor KDP activiteitenboek', caption: 'Kruiswoordpuzzel — Klassiek Activiteitenboek Formaat' },
+      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Sudoku puzzel werkblad voor KDP activiteitenboek binnenwerk', caption: 'Sudoku — Top KDP Puzzelcategorie' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzel voor Amazon KDP activiteitenboek', caption: 'Woordzoeker — KDP Bestseller Categorie' },
+      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp', alt: 'Rekenpuzzel werkblad voor KDP werkboek binnenwerk', caption: 'Rekenpuzzel — Groenblijvende KDP Niche' },
+      { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: 'Kruiswoordpuzzel werkblad voor KDP activiteitenboek', caption: 'Kruiswoordpuzzel — Klassiek Activiteitenboek Formaat' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Hoe Sudoku Puzzel Werkbladen te Maken — LessonCraftStudio Demo',

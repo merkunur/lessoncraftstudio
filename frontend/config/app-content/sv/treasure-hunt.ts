@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/treasure%20hunt/Skattjakt%201.webp',
+      primary: '/samples/swedish/treasure%20hunt/skattjakt%201.webp',
       primaryAlt: 'Skattjakt vägfinnande arbetsblad med 5 gånger 5 koordinatrutnät, spridda bilder, riktningsanvisningar och skattjakttemad rubrik',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/treasure%20hunt/Skattjakt%202.webp',
+        src: '/samples/swedish/treasure%20hunt/skattjakt%202.webp',
         alt: 'Skattjaktpussel arbetsblad med 6 tematiska bilder på ett 5 gånger 5 rutnät och Grundläggande riktningsanvisningar',
         caption: 'Grundläggande riktningsläge — följ upp, ner, vänster och höger anvisningar för att hitta skatten',
       },
       {
-        src: '/samples/swedish/treasure%20hunt/Skattjakt%204.webp',
+        src: '/samples/swedish/treasure%20hunt/skattjakt%204.webp',
         alt: 'Skattjaktpussel arbetsblad med Kompass-riktningsanvisningar med norr, söder, öster och väster',
         caption: 'Kompass-riktningsläge — kompassriktningar för avancerat rumsligt resonemang',
       },
       {
-        src: '/samples/swedish/treasure%20hunt/Skattjakt%201%20answer_key.webp',
+        src: '/samples/swedish/treasure%20hunt/skattjakt%201%20answer-key.webp',
         alt: 'Skattjakt facit med slutlig skattcell markerad i blekgult på koordinatrutnätet',
         caption: 'Automatiskt genererat facit — blekgul markering visar skattens destination',
       },

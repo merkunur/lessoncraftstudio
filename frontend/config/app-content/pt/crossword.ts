@@ -265,22 +265,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp',
+      primary: '/samples/portuguese/crossword/palavras-cruzadas-1.webp',
       primaryAlt: 'Palavras cruzadas com imagens com pistas visuais numa grelha de 15 por 15 com cabeçalho localizado Palavras Cruzadas Ilustradas e posições de pista numeradas',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp',
+        src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp',
         alt: 'Palavras cruzadas com imagens com pistas visuais temáticas junto a uma grelha de palavras cruzadas de 15 por 15',
         caption: 'Palavras cruzadas com imagens — as pistas visuais substituem as pistas de texto tradicionais numa grelha de 15×15',
       },
       {
-        src: '/samples/portuguese/crossword/Palavras Cruzadas 3.webp',
+        src: '/samples/portuguese/crossword/palavras-cruzadas-3.webp',
         alt: 'Palavras cruzadas com lista de palavras personalizadas com pistas de texto e grelha de palavras cruzadas preenchida',
         caption: 'Modo Lista de Palavras Personalizadas — palavras cruzadas tradicionais com pistas de texto e o seu próprio vocabulário',
       },
       {
-        src: '/samples/portuguese/crossword/Palavras Cruzadas 1 answer_key.webp',
+        src: '/samples/portuguese/crossword/palavras-cruzadas-1-answer-key.webp',
         alt: 'Gabarito das palavras cruzadas com todas as letras corretas preenchidas na grelha',
         caption: 'Gabarito autogerado — a grelha preenchida mostra todas as respostas corretas',
       },

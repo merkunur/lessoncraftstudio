@@ -273,12 +273,12 @@ const content: AppContent = {
         caption: 'Auto-Erstellen-Modus — 11 zufällige Buchstaben-Waggons mit tierischen Bildhinweisen',
       },
       {
-        src: '/samples/german/alphabet train/worksheet (1).webp',
+        src: '/samples/german/alphabet train/worksheet-1.webp',
         alt: 'Alphabet-Zug-Arbeitsblatt im Essensthema mit 5 Hinweisbildern zur Zuordnung',
         caption: 'Manueller Modus — ausgewählte Buchstaben mit Essensthema und 5 Hinweisen für einfachere Zuordnung',
       },
       {
-        src: '/samples/german/alphabet train/worksheet (2).webp',
+        src: '/samples/german/alphabet train/worksheet-2.webp',
         alt: 'Alphabet-Zug-Arbeitsblatt im Fahrzeugthema mit vollen 11 Hinweisen für fortgeschrittene Übung',
         caption: 'Volle Hinweis-Herausforderung — 11 Hinweise für komplette Buchstabe-Bild-Zuordnungsübung',
       },

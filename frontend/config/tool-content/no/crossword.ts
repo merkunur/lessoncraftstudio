@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/crossword/Bildekryssord%201.webp',
+      primary: '/samples/norwegian/crossword/bildekryssord%201.webp',
       primaryAlt: 'Bildekryssord med bildeledetråder ved siden av et 15 ganger 15 kryssordrutenett med nummererte ledetrådsposisjoner og lokalisert blå overskrift',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/crossword/Bildekryssord%201.webp',
+        src: '/samples/norwegian/crossword/bildekryssord%201.webp',
         alt: 'Bildekryssord arbeidsark med tematiske bildeledetråder og 15 ganger 15 kryssordrutenett',
         caption: 'Tematisk bildekryssord — bilder som ledetråder med nummererte rutenettposisjoner',
       },
       {
-        src: '/samples/norwegian/crossword/Bildekryssord%202.webp',
+        src: '/samples/norwegian/crossword/bildekryssord%202.webp',
         alt: 'Bildekryssord puslespill med fargerike illustrasjoner og kryssende ord i rutenettet',
         caption: 'Bildeledetråder — fargerike illustrasjoner erstatter tradisjonelle tekstledetråder',
       },
       {
-        src: '/samples/norwegian/crossword/Bildekryssord%203.webp',
+        src: '/samples/norwegian/crossword/bildekryssord%203.webp',
         alt: 'Bildekryssord fasit med alle korrekte bokstaver utfylt i 15 ganger 15 rutenettet',
         caption: 'Automatisk fasit — utfylt rutenett viser alle korrekte svar for selvkontroll',
       },

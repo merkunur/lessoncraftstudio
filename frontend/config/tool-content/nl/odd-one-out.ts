@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%201.webp',
+      primary: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%201.webp',
       primaryAlt: 'Welke hoort er niet bij werkblad met vier afbeeldingen per oefeningrij die drie gemeenschappelijke items en één vreemd item tonen met koraalrood-amber-turquoise koptekst Vind de Vreemde Eend',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%202.webp',
+        src: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%202.webp',
         alt: 'Vergelijkbaar modus welke hoort er niet bij werkblad met drie afbeeldingen uit Thema A en één thematische buitenstaander uit Thema B per oefeningrij',
         caption: 'Vergelijkbaar modus — drie afbeeldingen uit Thema A en één vreemd item uit Thema B voor cross-thema discriminatie',
       },
       {
-        src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%203.webp',
+        src: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%203.webp',
         alt: 'Identiek modus welke hoort er niet bij werkblad met drie klonen van dezelfde afbeelding en één afwijkende afbeelding uit hetzelfde thema per rij',
         caption: 'Identiek modus — drie klonen van dezelfde afbeelding en één ander item voor zoek-het-verschil uitdagingen',
       },
       {
-        src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%201%20answer-key.webp',
+        src: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%201%20answer-key.webp',
         alt: 'Welke hoort er niet bij antwoordblad met rode cirkelomtrekken getekend rond het vreemde item in elke oefeningrij met streekbreedte geschaald naar afbeeldingsgrootte',
         caption: 'Automatisch gegenereerd antwoordblad — rode cirkelmarkeringen (streek = max(imageSize × 0,04, 3px)) identificeren het vreemde item in elke rij',
       },

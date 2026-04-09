@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/draw and color/Desenha e Pinta 1.webp',
+      primary: '/samples/portuguese/draw and color/desenha-e-pinta-1.webp',
       primaryAlt: 'Atividade de desenho em grelha com sistema de grelha dupla mostrando grelha de prática e grelha de pistas com tema de contornos a preto e branco',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/draw and color/Desenha e Pinta 2.webp',
+        src: '/samples/portuguese/draw and color/desenha-e-pinta-2.webp',
         alt: 'Atividade de desenho em grelha com tema animais de contornos a preto e branco a 25 % de percentagem de pistas mostrando grelha de prática e grelha de pistas',
         caption: 'Tema animais a 25 % de pistas — os usuários reproduzem o contorno a partir de pistas dispersas na grelha',
       },
       {
-        src: '/samples/portuguese/draw and color/Desenha e Pinta 3.webp',
+        src: '/samples/portuguese/draw and color/desenha-e-pinta-3.webp',
         alt: 'Atividade de desenho em grelha usando modo simetria espelho horizontal com células de pistas refletidas da esquerda para a direita',
         caption: 'Modo simetria horizontal — as células de pistas refletem-se da esquerda para a direita para prática de raciocínio espacial',
       },
       {
-        src: '/samples/portuguese/draw and color/Desenha e Pinta 4.webp',
+        src: '/samples/portuguese/draw and color/desenha-e-pinta-4.webp',
         alt: 'Atividade de desenho em grelha com 10 % de percentagem de pistas mostrando células de referência mínimas para um desafio de nível perito',
         caption: 'Desafio 10 % de pistas — células de referência mínimas para reprodução em grelha de nível perito',
       },

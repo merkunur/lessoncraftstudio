@@ -275,12 +275,12 @@ const content: AppContent = {
         caption: 'Modo Trazado con orden de trazos flechado — flechas direccionales numeradas muestran la secuencia exacta de formación de letras',
       },
       {
-        src: '/samples/spanish/writing/writing beginning letter.webp',
+        src: '/samples/spanish/writing/writing-beginning-letter.webp',
         alt: 'Ficha de escritura en modo trazado progresivo con letras desvaneciéndose progresivamente a lo largo de cada fila',
         caption: 'Modo Trazado Progresivo — las letras se desvanecen progresivamente para desarrollar la confianza en la escritura autónoma',
       },
       {
-        src: '/samples/spanish/writing/writing custom.webp',
+        src: '/samples/spanish/writing/writing-custom.webp',
         alt: 'Ficha de escritura en modo copia guiada con estilo cursiva sobre sistema de tres líneas guía',
         caption: 'Copia Guiada Cursiva — contornos tenues en cursiva sobre el sistema de tres líneas guía para práctica de escritura cursiva',
       },

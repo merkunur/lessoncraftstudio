@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp', alt: 'Palavra cruzada para crianças com pistas de imagens mostrando vocabulário temático numa grelha com intersecções' },
+    heroImage: { src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp', alt: 'Palavra cruzada para crianças com pistas de imagens mostrando vocabulário temático numa grelha com intersecções' },
     samples: [
-      { src: '/samples/portuguese/crossword/Palavras Cruzadas 2.webp', alt: 'Palavra cruzada infantil com tema de animais mostrando grelha numerada e pistas de imagens', caption: 'Palavra cruzada temática de animais com pistas de imagens para prática de vocabulário de jardim de infância e primeiro ano' },
-      { src: '/samples/portuguese/crossword/Palavras Cruzadas 3.webp', alt: 'Chave de respostas da palavra cruzada mostrando a grelha completa com todas as letras preenchidas', caption: 'Chave de respostas automática gerada junto com cada palavra cruzada' },
+      { src: '/samples/portuguese/crossword/palavras-cruzadas-2.webp', alt: 'Palavra cruzada infantil com tema de animais mostrando grelha numerada e pistas de imagens', caption: 'Palavra cruzada temática de animais com pistas de imagens para prática de vocabulário de jardim de infância e primeiro ano' },
+      { src: '/samples/portuguese/crossword/palavras-cruzadas-3.webp', alt: 'Chave de respostas da palavra cruzada mostrando a grelha completa com todas as letras preenchidas', caption: 'Chave de respostas automática gerada junto com cada palavra cruzada' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'Como criar palavras cruzadas para crianças — Tutorial completo',

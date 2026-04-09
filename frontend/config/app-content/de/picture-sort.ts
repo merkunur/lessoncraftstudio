@@ -267,22 +267,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/picture sort/Bilder Sortieren 1.webp',
+      primary: '/samples/german/picture sort/bilder-sortieren-1.webp',
       primaryAlt: 'Zwei-Kategorien-Sortier-Arbeitsblatt mit thematischen Kategorierahmen, gemischtem Ausschneidegitter und lokalisiertem Bilder-Sortieren-Header',
     },
     sampleGallery: [
       {
-        src: '/samples/german/picture sort/Bilder Sortieren 2.webp',
+        src: '/samples/german/picture sort/bilder-sortieren-2.webp',
         alt: 'Themen-Modus-Sortier-Arbeitsblatt mit Tieren links und Lebensmitteln rechts als Kategorien',
         caption: 'Themen-Modus — automatisch befüllte Kategorien aus der Bildbibliothek',
       },
       {
-        src: '/samples/german/picture sort/Bilder Sortieren 3.webp',
+        src: '/samples/german/picture sort/bilder-sortieren-3.webp',
         alt: 'Manueller-Modus-Sortier-Arbeitsblatt mit handausgewählten Bildern, die linker und rechter Kategorie zugewiesen sind',
         caption: 'Manueller Modus — Bilder von Hand auswählen und Kategorien zuweisen',
       },
       {
-        src: '/samples/german/picture sort/Bilder Sortieren 1 answer_key.webp',
+        src: '/samples/german/picture sort/bilder-sortieren-1-answer-key.webp',
         alt: 'Bilder-Sortieren-Lösungsschlüssel mit 6-fach größeren Bildern in korrekten Kategorieboxen angeordnet',
         caption: 'Automatisch generierter Lösungsschlüssel — 6× größere Bilder in Kategorieboxen',
       },

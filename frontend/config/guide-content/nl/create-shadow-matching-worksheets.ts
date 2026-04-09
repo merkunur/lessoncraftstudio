@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/shadow%20match/Schaduw%20Koppelen%201.webp', alt: 'Schaduw koppelen werkblad met gekleurde afbeeldingen en automatisch gegenereerde pixelniveau zwarte silhouetten voor visuele waarneming koppelactiviteit' },
+    heroImage: { src: '/samples/dutch/shadow%20match/schaduw%20koppelen%201.webp', alt: 'Schaduw koppelen werkblad met gekleurde afbeeldingen en automatisch gegenereerde pixelniveau zwarte silhouetten voor visuele waarneming koppelactiviteit' },
     samples: [
-      { src: '/samples/dutch/shadow%20match/Schaduw%20Koppelen%201.webp', alt: 'Schaduw koppelen werkblad met vier gekleurde afbeeldingen gekoppeld aan vier pixelniveau zwarte silhouetten met letter- en cijferlabels', caption: 'Schaduw Koppelen modus met vier gekleurde afbeeldingen en hun automatisch gegenereerde zwarte silhouetten' },
-      { src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp', alt: 'Koppelwerkblad met visuele paarkoppeling voor aanvullende visuele waarnemingsactiviteit', caption: 'Koppelwerkblad als aanvulling op schaduw koppelen voor een complete visuele waarnemingslijn' },
-      { src: '/samples/dutch/grid%20match/Rasterpuzzel%201.webp', alt: 'Rasterpuzzel werkblad met rastergebaseerde visuele koppelactiviteit', caption: 'Rasterpuzzel werkblad voor aanvullende visuele discriminatie oefeningen' },
+      { src: '/samples/dutch/shadow%20match/schaduw%20koppelen%201.webp', alt: 'Schaduw koppelen werkblad met vier gekleurde afbeeldingen gekoppeld aan vier pixelniveau zwarte silhouetten met letter- en cijferlabels', caption: 'Schaduw Koppelen modus met vier gekleurde afbeeldingen en hun automatisch gegenereerde zwarte silhouetten' },
+      { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Koppelwerkblad met visuele paarkoppeling voor aanvullende visuele waarnemingsactiviteit', caption: 'Koppelwerkblad als aanvulling op schaduw koppelen voor een complete visuele waarnemingslijn' },
+      { src: '/samples/dutch/grid%20match/rasterpuzzel%201.webp', alt: 'Rasterpuzzel werkblad met rastergebaseerde visuele koppelactiviteit', caption: 'Rasterpuzzel werkblad voor aanvullende visuele discriminatie oefeningen' },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: 'Hoe Schaduw Koppelen Werkbladen Maken — Complete Handleiding',

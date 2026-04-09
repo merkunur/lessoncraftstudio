@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/french/matching/Trouve les Paires 1.webp',
+      src: '/samples/french/matching/trouve-les-paires-1.webp',
       alt: 'Fiche d\'association montrant la polyvalence thématique pour l\'exploration de niches rentables à travers les sujets éducatifs',
     },
     samples: [
       {
-        src: '/samples/french/matching/Trouve les Paires 1.webp',
+        src: '/samples/french/matching/trouve-les-paires-1.webp',
         alt: 'Fiche d\'association thématique démontrant la diversité des niches à travers les sujets d\'imprimables éducatifs',
         caption: 'Les fiches d\'association couvrent des dizaines de thèmes, vous permettant d\'explorer et tester plusieurs niches rapidement',
       },
       {
-        src: '/samples/french/wordsearch/Mots Caches 1.webp',
+        src: '/samples/french/wordsearch/mots-caches-1.webp',
         alt: 'Mots cachés montrant le potentiel de test de niches multi-sujets et multilingues',
         caption: 'Les mots cachés valident la demande de niches à travers les matières et les langues avec un temps de production minimal',
       },
       {
-        src: '/samples/french/coloring/coloring portrait 1.webp',
+        src: '/samples/french/coloring/coloring-portrait-1.webp',
         alt: 'Coloriage thématique démontrant comment les niches visuelles se traduisent en produits imprimables vendables',
         caption: 'Les coloriages révèlent quels thèmes visuels attirent l\'intérêt des acheteurs à travers les segments de marché',
       },

@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Sopa de letras com pistas de imagens temáticas mostrando palavras de vocabulário ocultas numa grelha de letras' },
+    heroImage: { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Sopa de letras com pistas de imagens temáticas mostrando palavras de vocabulário ocultas numa grelha de letras' },
     samples: [
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Sopa de letras com pistas de imagens de tema de animais para crianças', caption: 'Sopa de letras temática usando o Modo vocabulário com pistas de imagens de animais e tamanho de grelha configurável' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 3.webp', alt: 'Chave de respostas de sopa de letras com destaque de palavras codificado por cores', caption: 'Chave de respostas codificada por cores onde cada palavra oculta é destacada numa cor distinta para facilitar o valor percebido' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-2.webp', alt: 'Sopa de letras com pistas de imagens de tema de animais para crianças', caption: 'Sopa de letras temática usando o Modo vocabulário com pistas de imagens de animais e tamanho de grelha configurável' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-3.webp', alt: 'Chave de respostas de sopa de letras com destaque de palavras codificado por cores', caption: 'Chave de respostas codificada por cores onde cada palavra oculta é destacada numa cor distinta para facilitar o valor percebido' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como criar sopa de letras — Tutorial completo',

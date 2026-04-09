@@ -177,11 +177,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlage mit thematischen Illustrationen in S/W-Linienkunst zum Verkauf auf Etsy' },
+    heroImage: { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Malvorlage mit thematischen Illustrationen in S/W-Linienkunst zum Verkauf auf Etsy' },
     samples: [
-      { src: '/samples/german/coloring/coloring portrait 2.webp', alt: 'Tier-Malvorlage erstellt für Etsy-Digitaldownload-Angebot', caption: 'Tier-Malvorlage aus der thematischen Bildbibliothek — saubere S/W-Linienkunst für auffällige Etsy-Angebotsfotos' },
-      { src: '/samples/german/coloring/coloring portrait 4.webp', alt: 'Natur-Malvorlage mit detaillierten Kompositionen für Erwachsenen- und Kindermarkt', caption: 'Natur-Malvorlage — vielseitiges Thema, das sowohl Kinder- als auch Erwachsenen-Malvorlagen-Käufer auf Etsy anspricht' },
-      { src: '/samples/german/coloring/coloring portrait 3.webp', alt: 'Feiertags-Malvorlage als saisonales Produkt für Etsy-Nachfragespitzen', caption: 'Feiertags-Malvorlage — saisonale Themen erzeugen große Nachfragespitzen auf Etsy im Jahresverlauf' },
+      { src: '/samples/german/coloring/coloring-portrait-2.webp', alt: 'Tier-Malvorlage erstellt für Etsy-Digitaldownload-Angebot', caption: 'Tier-Malvorlage aus der thematischen Bildbibliothek — saubere S/W-Linienkunst für auffällige Etsy-Angebotsfotos' },
+      { src: '/samples/german/coloring/coloring-portrait-4.webp', alt: 'Natur-Malvorlage mit detaillierten Kompositionen für Erwachsenen- und Kindermarkt', caption: 'Natur-Malvorlage — vielseitiges Thema, das sowohl Kinder- als auch Erwachsenen-Malvorlagen-Käufer auf Etsy anspricht' },
+      { src: '/samples/german/coloring/coloring-portrait-3.webp', alt: 'Feiertags-Malvorlage als saisonales Produkt für Etsy-Nachfragespitzen', caption: 'Feiertags-Malvorlage — saisonale Themen erzeugen große Nachfragespitzen auf Etsy im Jahresverlauf' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Malvorlagen für den Verkauf auf Etsy erstellen — Schritt-für-Schritt-Anleitung',

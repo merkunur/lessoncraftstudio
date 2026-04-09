@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear imprimible para vender recursos educativos en el marketplace Creative Fabrica' },
+    heroImage: { src: '/samples/spanish/coloring/coloring-portrait-1.webp', alt: 'Página para colorear imprimible para vender recursos educativos en el marketplace Creative Fabrica' },
     samples: [
-      { src: '/samples/spanish/coloring/coloring portrait 2.webp', alt: 'Página para colorear imprimible para sección Classroom de Creative Fabrica', caption: 'Las páginas para colorear tienden un puente entre manualidades y educación en Creative Fabrica — atrayendo tanto a audiencias de diseñadores como de vendedores' },
-      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Actividad de asociación para productos educativos de Creative Fabrica', caption: 'Las actividades de asociación temáticas son recursos de alta demanda en la sección Classroom de Creative Fabrica' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras imprimible para marketplace Creative Fabrica', caption: 'Las sopas de letras atraen descargue de suscripción tanto de emprendedores como de padres en Creative Fabrica' },
+      { src: '/samples/spanish/coloring/coloring-portrait-2.webp', alt: 'Página para colorear imprimible para sección Classroom de Creative Fabrica', caption: 'Las páginas para colorear tienden un puente entre manualidades y educación en Creative Fabrica — atrayendo tanto a audiencias de diseñadores como de vendedores' },
+      { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Actividad de asociación para productos educativos de Creative Fabrica', caption: 'Las actividades de asociación temáticas son recursos de alta demanda en la sección Classroom de Creative Fabrica' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras imprimible para marketplace Creative Fabrica', caption: 'Las sopas de letras atraen descargue de suscripción tanto de emprendedores como de padres en Creative Fabrica' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Cómo crear fichas educativas para Creative Fabrica',

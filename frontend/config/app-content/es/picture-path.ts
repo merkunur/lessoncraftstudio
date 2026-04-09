@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/picture path/Camino de Imágenes 1.webp',
+      primary: '/samples/spanish/picture path/camino-de-imágenes-1.webp',
       primaryAlt: 'Ficha de laberinto con imágenes temáticas en una cuadrícula con borde naranja y encabezado Camino de Imágenes generado automáticamente',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/picture path/Camino de Imágenes 2.webp',
+        src: '/samples/spanish/picture path/camino-de-imágenes-2.webp',
         alt: 'Ficha del modo Camino de Imágenes con imágenes organizadas en una cuadrícula mostrando el camino correcto desde el inicio hasta el final',
         caption: 'Modo Camino de Imágenes — los usuarios siguen el camino correcto de imágenes desde el inicio hasta el final',
       },
       {
-        src: '/samples/spanish/picture path/Camino de Imágenes 3.webp',
+        src: '/samples/spanish/picture path/camino-de-imágenes-3.webp',
         alt: 'Ficha del modo Laberinto Clásico con pasillos de paredes e imágenes coleccionables dispersas por todo el laberinto',
         caption: 'Modo Laberinto Clásico — el algoritmo LPF genere laberintos con paredes e imágenes coleccionables',
       },
       {
-        src: '/samples/spanish/picture path/Camino de Imágenes 1 answer_key.webp',
+        src: '/samples/spanish/picture path/camino-de-imágenes-1-answer-key.webp',
         alt: 'Clave de respuesta del laberinto con el camino de solución resaltado por círculos rosas a lo largo de la ruta correcta',
         caption: 'Clave de respuesta generada automáticamente — el camino de solución resaltado con círculos rosas',
       },

@@ -269,12 +269,12 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/alphabet%20train/alfabetst%C3%A5g%20portrait.webp',
+      primary: '/samples/swedish/alphabet%20train/alfabetst%c3%a5g%20portrait.webp',
       primaryAlt: 'Alfabetståg arbetsblad med färgglada vagnar som bär bokstäver och matchande djurbilder',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/alphabet%20train/alfabetst%C3%A5g%20landscape.webp',
+        src: '/samples/swedish/alphabet%20train/alfabetst%c3%a5g%20landscape.webp',
         alt: 'Alfabetståg arbetsblad med djurtema och 11 bokstavsvagnar med ledtrådsbilder',
         caption: 'Automatiskt Skapande — 11 slumpmässiga bokstavsvagnar med djurtema ledtrådar',
       },
@@ -284,7 +284,7 @@ const content: AppContent = {
         caption: 'Manuellt läge — handvalda bokstäver med mattema och 5 ledtrådar för enklare koppling',
       },
       {
-        src: '/samples/swedish/alphabet%20train/worksheet%20(1).webp',
+        src: '/samples/swedish/alphabet%20train/worksheet%20-1.webp',
         alt: 'Alfabetståg arbetsblad med fordonstema och alla 11 ledtrådar för avancerad övning',
         caption: 'Fullständig ledtrådsutmaning — 11 ledtrådar för komplett bokstav-bildkoppling övning',
       },

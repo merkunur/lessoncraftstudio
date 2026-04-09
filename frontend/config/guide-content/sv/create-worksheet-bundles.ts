@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/addition/addition_%C3%B6vning.webp', alt: 'Mattearbetsblad redo för paketering i en högvärdig arbetsbladsamling' },
+    heroImage: { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Mattearbetsblad redo för paketering i en högvärdig arbetsbladsamling' },
     samples: [
-      { src: '/samples/swedish/addition/addition_%C3%B6vning.webp', alt: 'Additionsarbetsblad för mattearbetsbladpaket', caption: 'Mattearbetsblad är bland de mest populära produkterna för paketskapande — kombinera addition, subtraktion och talförståelse för heltäckande paket' },
+      { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Additionsarbetsblad för mattearbetsbladpaket', caption: 'Mattearbetsblad är bland de mest populära produkterna för paketskapande — kombinera addition, subtraktion och talförståelse för heltäckande paket' },
       { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Ordsökningspussel för tematiskt arbetsbladpaket', caption: 'Ordsökningspussel adderar variation till temapaket och fungerar över ämnes-, årskurs- och säsongspakettyper' },
-      { src: '/samples/swedish/matching/Matchningsspel.webp', alt: 'Matchningsarbetsbladaktivitet för utskriftsbar paketsamling', caption: 'Matchningsaktiviteter kompletterar andra arbetsbladtyper i formatpaket — variation håller användare engagerade över flera sessioner' },
+      { src: '/samples/swedish/matching/matchningsspel.webp', alt: 'Matchningsarbetsbladaktivitet för utskriftsbar paketsamling', caption: 'Matchningsaktiviteter kompletterar andra arbetsbladtyper i formatpaket — variation håller användare engagerade över flera sessioner' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hur du skapar additionsarbetsblad för paketering i högvärdiga samlingar',

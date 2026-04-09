@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/picture%20sort/Sorter%20Billeder%201.webp', alt: 'To-kategori sorteringsarbejdsark med stiplede kategorirammer og blandet udklipsgitter til klassifikationsaktiviteter' },
+    heroImage: { src: '/samples/danish/picture%20sort/sorter%20billeder%201.webp', alt: 'To-kategori sorteringsarbejdsark med stiplede kategorirammer og blandet udklipsgitter til klassifikationsaktiviteter' },
     samples: [
-      { src: '/samples/danish/picture%20sort/Sorter%20Billeder%201.webp', alt: 'Sorter Billeder — dansk eksempelarbejdsark', caption: 'Sorter Billeder eksempel 1' },
-      { src: '/samples/danish/picture%20sort/Sorter%20Billeder%202.webp', alt: 'Sorter Billeder — dansk eksempel 2', caption: 'Sorter Billeder eksempel 2' },
-      { src: '/samples/danish/picture%20sort/Sorter%20Billeder%203.webp', alt: 'Sorter Billeder — dansk eksempel 3', caption: 'Sorter Billeder eksempel 3' },
+      { src: '/samples/danish/picture%20sort/sorter%20billeder%201.webp', alt: 'Sorter Billeder — dansk eksempelarbejdsark', caption: 'Sorter Billeder eksempel 1' },
+      { src: '/samples/danish/picture%20sort/sorter%20billeder%202.webp', alt: 'Sorter Billeder — dansk eksempel 2', caption: 'Sorter Billeder eksempel 2' },
+      { src: '/samples/danish/picture%20sort/sorter%20billeder%203.webp', alt: 'Sorter Billeder — dansk eksempel 3', caption: 'Sorter Billeder eksempel 3' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'Sådan generator du kategorisorteringsarbejdsark — Komplet vejledning',

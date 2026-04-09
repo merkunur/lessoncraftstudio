@@ -266,22 +266,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/bingo/Loto d\'Images 1.webp',
+      primary: '/samples/french/bingo/Loto d\'images-1.webp',
       primaryAlt: 'Carte bingo à images avec des illustrations thématiques dans une grille et des jetons circulaires avec bordures en pointillés en dessous',
     },
     sampleGallery: [
       {
-        src: '/samples/french/bingo/Loto d\'Images 1.webp',
+        src: '/samples/french/bingo/Loto d\'images-1.webp',
         alt: 'Carte bingo à images en mode remplissage images montrant des illustrations thématiques colorées dans les cases et des jetons circulaires à images',
         caption: 'Mode remplissage par images — illustrations colorées dans les cases et les jetons circulaires',
       },
       {
-        src: '/samples/french/bingo/Loto d\'Images 2.webp',
+        src: '/samples/french/bingo/Loto d\'images-2.webp',
         alt: 'Carte bingo à images en mode remplissage par mots montrant les noms localisés des images dans les cases et les jetons à mots',
         caption: 'Mode remplissage par mots — noms localisés des images pour un bingo basé sur le vocabulaire',
       },
       {
-        src: '/samples/french/bingo/Loto d\'Images 3.webp',
+        src: '/samples/french/bingo/Loto d\'images-3.webp',
         alt: 'Feuille d\'appel bingo avec grille dynamique de mots montrant tous les éléments du jeu pour le meneur',
         caption: 'Feuille d\'appel — grille dynamique de mots pour le meneur de jeu',
       },

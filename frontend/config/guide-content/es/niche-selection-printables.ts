@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Ficha de sopa de letras demostrando contenido de nicho temático para negocios de imprimibles' },
+    heroImage: { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Ficha de sopa de letras demostrando contenido de nicho temático para negocios de imprimibles' },
     samples: [
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras temática mostrando aplicación de nicho en diferentes temas', caption: 'Las sopas de letras se adaptan a cualquier tema de nicho — animales, festividades, materias y temas estacionales funcionan todos con el mismo formato de producto' },
-      { src: '/samples/spanish/coloring/coloring portrait 2.webp', alt: 'Página para colorear demostrando la versatilidad de productos de nicho visual', caption: 'Las páginas para colorear están entre los productos de nicho más versátiles, atrayendo a todas las edades y aplicándose a prácticamente cualquier tema visual' },
-      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación mostrando la variedad de productos de nicho educativo', caption: 'Las actividades de asociación funcionan en nichos educativos desde vocabulario hasta matemáticas — un solo tipo de producto que valida la demanda de nicho rápidamente' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras temática mostrando aplicación de nicho en diferentes temas', caption: 'Las sopas de letras se adaptan a cualquier tema de nicho — animales, festividades, materias y temas estacionales funcionan todos con el mismo formato de producto' },
+      { src: '/samples/spanish/coloring/coloring-portrait-2.webp', alt: 'Página para colorear demostrando la versatilidad de productos de nicho visual', caption: 'Las páginas para colorear están entre los productos de nicho más versátiles, atrayendo a todas las edades y aplicándose a prácticamente cualquier tema visual' },
+      { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Ficha de asociación mostrando la variedad de productos de nicho educativo', caption: 'Las actividades de asociación funcionan en nichos educativos desde vocabulario hasta matemáticas — un solo tipo de producto que valida la demanda de nicho rápidamente' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Cómo crear sopas de letras para cualquier tema de nicho',

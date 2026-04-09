@@ -203,12 +203,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search worksheet demonstrating commercial license output quality for printable sellers' },
+    heroImage: { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Word search worksheet demonstrating commercial license output quality for printable sellers' },
     samples: [
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Word search puzzle worksheet ready for commercial sale', caption: 'Word Search — Top Commercial Seller' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Addition math worksheet with commercial license', caption: 'Addition — Evergreen Math Staple' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page worksheet for KDP activity books', caption: 'Coloring — High-Volume KDP Category' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Crossword puzzle demonstrating multilingual commercial value', caption: 'Crossword — Multilingual License Value' },
+      { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Word search puzzle worksheet ready for commercial sale', caption: 'Word Search — Top Commercial Seller' },
+      { src: '/samples/english/addition/addition-fun-1.webp', alt: 'Addition math worksheet with commercial license', caption: 'Addition — Evergreen Math Staple' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page worksheet for KDP activity books', caption: 'Coloring — High-Volume KDP Category' },
+      { src: '/samples/english/crossword/crossword-worksheet.webp', alt: 'Crossword puzzle demonstrating multilingual commercial value', caption: 'Crossword — Multilingual License Value' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Worksheets for Commercial Sale — LessonCraftStudio Demo',

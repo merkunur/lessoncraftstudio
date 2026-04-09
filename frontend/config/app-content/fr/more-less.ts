@@ -261,22 +261,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/more less/Plus Moins 1.webp',
+      primary: '/samples/french/more less/plus-moins-1.webp',
       primaryAlt: 'Fiche Plus ou Moins avec des images colorées d\'animaux en mode Image contre Image',
     },
     sampleGallery: [
       {
-        src: '/samples/french/more less/Plus Moins 1.webp',
+        src: '/samples/french/more less/plus-moins-1.webp',
         alt: 'Fiche de comparaison en mode Image contre Image avec thème animaux',
         caption: 'Mode Image contre Image — les utilisateurs comptent deux groupes d\'images et comparent les quantités',
       },
       {
-        src: '/samples/french/more less/Plus Moins 2.webp',
+        src: '/samples/french/more less/plus-moins-2.webp',
         alt: 'Fiche de comparaison en mode Image contre Nombre avec thème nourriture',
         caption: 'Mode Image contre Nombre — associe des groupes d\'images à des chiffres',
       },
       {
-        src: '/samples/french/more less/Plus Moins 3.webp',
+        src: '/samples/french/more less/plus-moins-3.webp',
         alt: 'Fiche Cocher et Barrer les Groupes avec images mélangées pour le tri visuel',
         caption: 'Mode Cocher et Barrer — les utilisateurs trouvent le groupe majoritaire dans une boîte d\'images mélangées',
       },

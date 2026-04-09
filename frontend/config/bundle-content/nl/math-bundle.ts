@@ -209,16 +209,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp',
+      primary: '/samples/dutch/addition/optellen%20is%20leuk%201.webp',
       primaryAlt: 'Optelwerkblad met thematische afbeeldingen die visuele telopgaven tonen',
     },
     sampleGallery: [
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optelwerkblad met thematische dierenafbeeldingen', caption: 'Optelling Werkblad' },
-      { src: '/samples/dutch/subtraction/Aftrekken%20is%20Leuk%201.webp', alt: 'Aftrekwerkblad met doorstrepen telmethode', caption: 'Aftrekken Werkblad' },
-      { src: '/samples/dutch/code%20addition/Geheime%20Code%20Optellen%201.webp', alt: 'Code-optelling puzzel met letterdecodering', caption: 'Code-Optelling Puzzel' },
-      { src: '/samples/dutch/more%20less/Meer%20Minder%201.webp', alt: 'Groter dan kleiner dan vergelijkingswerkblad', caption: 'Meer of Minder Werkblad' },
-      { src: '/samples/dutch/math%20puzzle/Wiskundepuzzels%201.webp', alt: 'Legpuzzel-raster rekenpuzzel met vergelijkingen', caption: 'Rekenpuzzel Werkblad' },
-      { src: '/samples/dutch/math%20worksheet/Wiskundeblad%201.webp', alt: 'Visuele algebra puzzel met afbeeldingsvariabelen', caption: 'Rekenwerkblad Puzzel' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optelwerkblad met thematische dierenafbeeldingen', caption: 'Optelling Werkblad' },
+      { src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%201.webp', alt: 'Aftrekwerkblad met doorstrepen telmethode', caption: 'Aftrekken Werkblad' },
+      { src: '/samples/dutch/code%20addition/geheime%20code%20optellen%201.webp', alt: 'Code-optelling puzzel met letterdecodering', caption: 'Code-Optelling Puzzel' },
+      { src: '/samples/dutch/more%20less/meer%20minder%201.webp', alt: 'Groter dan kleiner dan vergelijkingswerkblad', caption: 'Meer of Minder Werkblad' },
+      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp', alt: 'Legpuzzel-raster rekenpuzzel met vergelijkingen', caption: 'Rekenpuzzel Werkblad' },
+      { src: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp', alt: 'Visuele algebra puzzel met afbeeldingsvariabelen', caption: 'Rekenwerkblad Puzzel' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Wiskunde Meester Pakket — Bekijk Alle 6 Generators in Actie',

@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/bingo/tombola 1.webp', alt: 'Cartelle bingo con immagini tematiche che mostrano griglia colorata illustrata con scheda del conduttore per bambini' },
+    heroImage: { src: '/samples/italian/bingo/tombola-1.webp', alt: 'Cartelle bingo con immagini tematiche che mostrano griglia colorata illustrata con scheda del conduttore per bambini' },
     samples: [
-      { src: '/samples/italian/bingo/tombola 1.webp', alt: 'Cartella bingo con immagini a tema animali che mostra layout griglia 4×4 per uso online', caption: 'Una cartella bingo con immagini 4×4 usando il tema animali con modalità solo immagini' },
-      { src: '/samples/italian/bingo/tombola 1.webp', alt: 'Scheda del conduttore bingo che mostra tutte le immagini tematiche usate nel set di cartelle', caption: 'Scheda di riferimento del conduttore che mostra tutte le immagini usate nel set di cartelle bingo' },
+      { src: '/samples/italian/bingo/tombola-1.webp', alt: 'Cartella bingo con immagini a tema animali che mostra layout griglia 4×4 per uso online', caption: 'Una cartella bingo con immagini 4×4 usando il tema animali con modalità solo immagini' },
+      { src: '/samples/italian/bingo/tombola-1.webp', alt: 'Scheda del conduttore bingo che mostra tutte le immagini tematiche usate nel set di cartelle', caption: 'Scheda di riferimento del conduttore che mostra tutte le immagini usate nel set di cartelle bingo' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Come Creare Cartelle Bingo con Immagini Tematiche — Tutorial Completo',

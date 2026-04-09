@@ -88,8 +88,8 @@ export async function GET(): Promise<NextResponse> {
     for (const lang of LANGUAGES) {
       const heroDir = path.join(SAMPLES_BASE, lang, 'homepage');
       const [hasPortrait, hasLandscape] = await Promise.all([
-        fileExists(path.join(heroDir, 'hero-portrait_preview.webp')),
-        fileExists(path.join(heroDir, 'hero-landscape_preview.webp')),
+        fileExists(path.join(heroDir, 'hero-portrait-preview.webp')),
+        fileExists(path.join(heroDir, 'hero-landscape-preview.webp')),
       ]);
       checks.heroImagesStatus[lang] = { hasPortrait, hasLandscape };
     }

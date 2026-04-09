@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/picture%20sort/Lajittele%20Kuvat%201.webp',
+      primary: '/samples/finnish/picture%20sort/lajittele%20kuvat%201.webp',
       primaryAlt: 'Kahden kategorian kuvalajittelu-tehtava katkoviivareunoilla varustetuilla kategoriakehyksilla ylhaaella ja sekoitetulla leikkausruudukolla alapuolella lokalisoidulla mintunvihreaellae Lajittele kuvat -otsikolla',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/picture%20sort/Lajittele%20Kuvat%202.webp',
+        src: '/samples/finnish/picture%20sort/lajittele%20kuvat%202.webp',
         alt: 'Teematilan lajittelutehtava automaattisesti taeyttyilla vasemmalla ja oikealla kategorioilla kuvakirjastosta sekoitetulla leikkausruudukolla',
         caption: 'Teematila — automaattisesti taeytetyt kategoriat kuvakirjastosta satunnaisella leikkausruudukolla',
       },
       {
-        src: '/samples/finnish/picture%20sort/Lajittele%20Kuvat%203.webp',
+        src: '/samples/finnish/picture%20sort/lajittele%20kuvat%203.webp',
         alt: 'Manuaalitilan lajittelutehtava kasin valituilla kuvilla osoitettuina vasemmalle ja oikealle kategorioille',
         caption: 'Manuaalitila — valitse kuvat kasin ja osoita kukin vasemmalle tai oikealle kategoriaan',
       },
       {
-        src: '/samples/finnish/picture%20sort/Lajittele%20Kuvat%201%20answer_key.webp',
+        src: '/samples/finnish/picture%20sort/lajittele%20kuvat%201%20answer-key.webp',
         alt: 'Kuvalajittelun vastausavain 6-kertaisilla kuvilla jarjestettyina oikeisiin kategoriaruutuihin katkoviivareunoilla',
         caption: 'Automaattisesti generoitu vastausavain — 6-kertaiset kuvat kategoriaruuduissa max 2 saraketta per ruutu',
       },

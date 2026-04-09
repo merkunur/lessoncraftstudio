@@ -234,12 +234,12 @@ const content: AppContent = {
         caption: 'Trace mode with arrow stroke order — numbered directional arrows show exact letter formation sequence',
       },
       {
-        src: '/samples/english/writing/writing beginning letter.webp',
+        src: '/samples/english/writing/writing-beginning-letter.webp',
         alt: 'Handwriting worksheet in fading trace mode with letters progressively fading across each row',
         caption: 'Fading Trace mode — letters progressively fade out to build independent writing confidence',
       },
       {
-        src: '/samples/english/writing/writing custom.webp',
+        src: '/samples/english/writing/writing-custom.webp',
         alt: 'Handwriting worksheet in guided copy mode with cursive font style on three-line guides',
         caption: 'Cursive Guided Copy — faint cursive outlines on three-line guide system for flowing script practice',
       },

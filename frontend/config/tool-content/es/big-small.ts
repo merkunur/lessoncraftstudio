@@ -214,22 +214,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/big small/Grande o Pequeño 1.webp',
+      primary: '/samples/spanish/big small/grande-o-pequeño-1.webp',
       primaryAlt: 'Ficha de comparación de tamaños de grande y pequeño con imágenes temáticas en diferentes tamaños mostrando un ejercicio de rodea el grande',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/big small/Grande o Pequeño 2.webp',
+        src: '/samples/spanish/big small/grande-o-pequeño-2.webp',
         alt: 'Ficha de comparación de tamaños en modo rodea el grande con imágenes temáticas de animales en diferentes tamaños',
         caption: 'Modo Rodea el Grande — los usuarios identifican la imagen más grande en cada ejercicio',
       },
       {
-        src: '/samples/spanish/big small/Grande o Pequeño 3.webp',
+        src: '/samples/spanish/big small/grande-o-pequeño-3.webp',
         alt: 'Ficha de ordenar por tamaño con tres imágenes numeradas de la más pequeña a la más grande',
         caption: 'Numera 1–2–3 de Pequeño a Grande — los usuarios ordenan las imágenes por tamaño de menor a mayor',
       },
       {
-        src: '/samples/spanish/big small/Grande o Pequeño 4.webp',
+        src: '/samples/spanish/big small/grande-o-pequeño-4.webp',
         alt: 'Ficha de comparación de tamaños en modo imágenes idénticas con la misma imagen en tres tamaños diferentes',
         caption: 'Modo Imágenes Idénticas — la misma imagen en diferentes tamaños para ejercicios de percepción de tamaño pura',
       },

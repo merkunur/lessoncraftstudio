@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page printable for selling educational resources on Creative Fabrica marketplace' },
+    heroImage: { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page printable for selling educational resources on Creative Fabrica marketplace' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 2.webp', alt: 'Printable coloring page for Creative Fabrica Learning section', caption: 'Coloring pages bridge the gap between craft and education on Creative Fabrica — appealing to both designer and buyer audiences' },
-      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet activity for Creative Fabrica educational products', caption: 'Themed matching activities are high-demand resources in Creative Fabrica\'s Learning section' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle printable for Creative Fabrica marketplace', caption: 'Word search puzzles attract subscription downloads from both buyers on Creative Fabrica' },
+      { src: '/samples/english/coloring/coloring-portrait-2.webp', alt: 'Printable coloring page for Creative Fabrica Learning section', caption: 'Coloring pages bridge the gap between craft and education on Creative Fabrica — appealing to both designer and buyer audiences' },
+      { src: '/samples/english/matching/image-and-custom-word.webp', alt: 'Matching worksheet activity for Creative Fabrica educational products', caption: 'Themed matching activities are high-demand resources in Creative Fabrica\'s Learning section' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle printable for Creative Fabrica marketplace', caption: 'Word search puzzles attract subscription downloads from both buyers on Creative Fabrica' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'How to Create Educational Worksheets for Creative Fabrica',

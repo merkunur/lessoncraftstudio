@@ -169,11 +169,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir com ilustrações temáticas mostrando arte P&B para vender no Etsy' },
+    heroImage: { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir com ilustrações temáticas mostrando arte P&B para vender no Etsy' },
     samples: [
-      { src: '/samples/portuguese/coloring/coloring landscape 2.webp', alt: 'Página para colorir com tema de animais para anúncio Etsy de download digital', caption: 'Página para colorir com animais — arte P&B limpa que cria fotos de anúncio atrativas no Etsy' },
-      { src: '/samples/portuguese/coloring/coloring landscape 3.webp', alt: 'Página para colorir com tema de natureza mostrando composições para mercados adulto e infantil', caption: 'Página para colorir de natureza — tema versátil que apela tanto a crianças como a adultos no Etsy' },
-      { src: '/samples/portuguese/coloring/coloring portrait 1.webp', alt: 'Página para colorir com tema de festividades demonstrando produto sazonal para picos de procura', caption: 'Página para colorir de festividades — temas sazonais geram grandes picos de procura no Etsy' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-2.webp', alt: 'Página para colorir com tema de animais para anúncio Etsy de download digital', caption: 'Página para colorir com animais — arte P&B limpa que cria fotos de anúncio atrativas no Etsy' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-3.webp', alt: 'Página para colorir com tema de natureza mostrando composições para mercados adulto e infantil', caption: 'Página para colorir de natureza — tema versátil que apela tanto a crianças como a adultos no Etsy' },
+      { src: '/samples/portuguese/coloring/coloring-portrait-1.webp', alt: 'Página para colorir com tema de festividades demonstrando produto sazonal para picos de procura', caption: 'Página para colorir de festividades — temas sazonais geram grandes picos de procura no Etsy' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Como criar páginas para colorir para vender no Etsy — Tutorial passo a passo',

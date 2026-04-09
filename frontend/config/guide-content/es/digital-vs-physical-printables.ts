@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/spanish/addition/Suma Divertida 1.webp',
+      src: '/samples/spanish/addition/suma-divertida-1.webp',
       alt: 'Ficha de sumas profesional que demuestra la creación de productos imprimibles digitales para formatos de descargue digital e impresión física',
     },
     samples: [
       {
-        src: '/samples/spanish/addition/Suma Divertida 1.webp',
+        src: '/samples/spanish/addition/suma-divertida-1.webp',
         alt: 'Ficha de sumas mostrando producto imprimible digital adecuado tanto para descargue como para impresión física',
         caption: 'Las fichas de matemáticas funcionan bien como descargue digitales y como páginas en cuadernos impresos',
       },
       {
-        src: '/samples/spanish/coloring/coloring portrait 1.webp',
+        src: '/samples/spanish/coloring/coloring-portrait-1.webp',
         alt: 'Página para colorear demostrando tipo de producto popular en formatos tanto digital como físico',
         caption: 'Las páginas para colorear son las más vendidas tanto en descargue digital como en formato de libro impreso bajo demanda',
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp',
         alt: 'Sopa de letras mostrando producto ideal para venta híbrida digital y física',
         caption: 'Las sopas de letras se venden individualmente como descargue digitales y compiladas en libros de puzzles físicos',
       },

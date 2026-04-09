@@ -47,11 +47,11 @@ const content: GuideContent = {
     { appId: 'matching', title: 'Matchingsarbeidsark-generator', description: 'Lag tematiske matchingsaktiviteter som bygger katalogdybde gjennom temaalsidighet.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Profesjonelt addisjonsarbeidsark som demonstrerer evergreen pedagogisk innhold for tilbakevendende omsetning' },
+    heroImage: { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Profesjonelt addisjonsarbeidsark som demonstrerer evergreen pedagogisk innhold for tilbakevendende omsetning' },
     samples: [
-      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Addisjonsarbeidsark med profesjonell formatering for markedsplassalg', caption: 'Mattearbeidsark genererer konsekvent helarsomsetning som evergreen pedagogiske produkter' },
-      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsoek tilgjengelig pa flere sprak for utvidet markedsrekkevidde', caption: 'Flerspraklige ordsoek multipliserer omsetning ved a na underbetjente internasjonale markeder' },
-      { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Tematisk matchingsarbeidsark som demonstrerer katalogdybde', caption: 'Tematiske matchingsaktiviteter bygger katalogdybde som driver sammensatt oppdagbarhet' },
+      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Addisjonsarbeidsark med profesjonell formatering for markedsplassalg', caption: 'Mattearbeidsark genererer konsekvent helarsomsetning som evergreen pedagogiske produkter' },
+      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsoek tilgjengelig pa flere sprak for utvidet markedsrekkevidde', caption: 'Flerspraklige ordsoek multipliserer omsetning ved a na underbetjente internasjonale markeder' },
+      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Tematisk matchingsarbeidsark som demonstrerer katalogdybde', caption: 'Tematiske matchingsaktiviteter bygger katalogdybde som driver sammensatt oppdagbarhet' },
     ],
   },
 };

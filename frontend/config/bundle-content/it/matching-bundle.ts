@@ -205,15 +205,15 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/matching/Trova le Coppie 1.webp',
+      primary: '/samples/italian/matching/trova-le-coppie-1.webp',
       primaryAlt: 'Scheda di abbinamento con immagini tematiche che mostra esercizio di accoppiamento',
     },
     sampleGallery: [
-      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento con quattro modalità e immagini tematiche', caption: 'Scheda Abbinamento' },
-      { src: '/samples/italian/grid match/Puzzle a Griglia 1.webp', alt: 'Puzzle griglia abbinamento con coordinate su griglia strutturata', caption: 'Scheda Griglia Abbinamento' },
-      { src: '/samples/italian/shadow match/Abbina le Ombre 1.webp', alt: 'Scheda abbinamento ombre con accoppiamento silhouette e formato linee da tracciare', caption: 'Scheda Abbinamento Ombre' },
-      { src: '/samples/italian/bingo/tombola 1.webp', alt: 'Cartella bingo con immagini tematiche in layout griglia casuale', caption: 'Cartella Bingo' },
-      { src: '/samples/italian/picture sort/negozificazione Immagini 1.webp', alt: 'Scheda negozificazione immagini con esercizio di categorizzazione a due gruppi', caption: 'Scheda negozificazione Immagini' },
+      { src: '/samples/italian/matching/trova-le-coppie-1.webp', alt: 'Scheda di abbinamento con quattro modalità e immagini tematiche', caption: 'Scheda Abbinamento' },
+      { src: '/samples/italian/grid match/puzzle-a-griglia-1.webp', alt: 'Puzzle griglia abbinamento con coordinate su griglia strutturata', caption: 'Scheda Griglia Abbinamento' },
+      { src: '/samples/italian/shadow match/abbina-le-ombre-1.webp', alt: 'Scheda abbinamento ombre con accoppiamento silhouette e formato linee da tracciare', caption: 'Scheda Abbinamento Ombre' },
+      { src: '/samples/italian/bingo/tombola-1.webp', alt: 'Cartella bingo con immagini tematiche in layout griglia casuale', caption: 'Cartella Bingo' },
+      { src: '/samples/italian/picture sort/negozificazione-immagini-1.webp', alt: 'Scheda negozificazione immagini con esercizio di categorizzazione a due gruppi', caption: 'Scheda negozificazione Immagini' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Pacchetto Abbinamento e negozificazione — Guarda Tutti i 5 Generatori in Azione',

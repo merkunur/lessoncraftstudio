@@ -198,14 +198,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/find and count/Vejo, Vejo 1.webp',
+      primary: '/samples/portuguese/find and count/vejo,-vejo-1.webp',
       primaryAlt: 'Atividade I Spy de encontre e conte com imagens temáticas dispersas numa grelha para exploração visual e contagem',
     },
     sampleGallery: [
-      { src: '/samples/portuguese/find and count/Vejo, Vejo 2.webp', alt: 'Atividade I Spy de encontre e conte com objetos escondidos para localizar e contar', caption: 'Encontre e Conte I Spy' },
-      { src: '/samples/portuguese/find objects/Encontra o Diferente (1).webp', alt: 'Atividade de objetos escondidos com cena sem sobreposição e legenda visual', caption: 'Atividade de Procura Objetos' },
-      { src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp', alt: 'Palavras cruzadas de 15×15 com pistas de imagens em vez de definições de texto', caption: 'Palavras Cruzadas com Imagens' },
-      { src: '/samples/portuguese/treasure hunt/Caça ao Tesouro 1.webp', alt: 'Atividade de caça ao tesouro com grelha de coordenadas de 5×5 e pistas direcionais', caption: 'Caça ao Tesouro' },
+      { src: '/samples/portuguese/find and count/vejo,-vejo-2.webp', alt: 'Atividade I Spy de encontre e conte com objetos escondidos para localizar e contar', caption: 'Encontre e Conte I Spy' },
+      { src: '/samples/portuguese/find objects/encontra-o-diferente-1.webp', alt: 'Atividade de objetos escondidos com cena sem sobreposição e legenda visual', caption: 'Atividade de Procura Objetos' },
+      { src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp', alt: 'Palavras cruzadas de 15×15 com pistas de imagens em vez de definições de texto', caption: 'Palavras Cruzadas com Imagens' },
+      { src: '/samples/portuguese/treasure hunt/caça-ao-tesouro-1.webp', alt: 'Atividade de caça ao tesouro com grelha de coordenadas de 5×5 e pistas direcionais', caption: 'Caça ao Tesouro' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Pacote Procura e Encontra — Os 4 Geradores em Ação',

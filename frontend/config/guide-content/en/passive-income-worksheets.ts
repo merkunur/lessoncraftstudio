@@ -164,22 +164,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 10.webp',
+      src: '/samples/english/addition/addition-fun-10.webp',
       alt: 'Professional addition worksheet demonstrating evergreen educational content for recurring revenue',
     },
     samples: [
       {
-        src: '/samples/english/addition/Addition Fun 11.webp',
+        src: '/samples/english/addition/addition-fun-11.webp',
         alt: 'Addition worksheet showing professional quality formatting for marketplace sales',
         caption: 'Math worksheets generate consistent year-round revenue as evergreen educational products',
       },
       {
-        src: '/samples/english/wordsearch/Word Search 10.webp',
+        src: '/samples/english/wordsearch/word-search-10.webp',
         alt: 'Word search puzzle available in multiple languages for expanded market reach',
         caption: 'Multi-language word searches multiply revenue by reaching underserved international markets',
       },
       {
-        src: '/samples/english/matching/image and custom word.webp',
+        src: '/samples/english/matching/image-and-custom-word.webp',
         alt: 'Themed matching worksheet demonstrating catalog depth through theme versatility',
         caption: 'Themed matching activities build catalog depth that drives compounding discoverability',
       },

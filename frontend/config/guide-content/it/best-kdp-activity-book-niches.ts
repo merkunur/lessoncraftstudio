@@ -196,11 +196,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare che dimostra una nicchia di libri di attività KDP ad ampio appeal per gli editori' },
+    heroImage: { src: '/samples/italian/coloring/coloring-portrait-1.webp', alt: 'Pagina da colorare che dimostra una nicchia di libri di attività KDP ad ampio appeal per gli editori' },
     samples: [
-      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Contenuto di libro da colorare che rappresenta una delle più grandi nicchie di libri di attività KDP', caption: 'Libri da colorare — una nicchia KDP enorme che comprende bambini, adulti ed edizioni tematiche con forte domanda tutto l\'anno' },
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole che dimostra il targeting di sotto-nicchie tematiche all\'interno della categoria puzzle', caption: 'Cerca parole tematici — il targeting di sotto-nicchie attraverso temi animali, viaggi e festività riduce la concorrenza mantenendo una forte domanda' },
-      { src: '/samples/italian/math worksheet/Scheda di Matematica 1.webp', alt: 'Scheda di matematica che mostra la segmentazione del pubblico per livello scolastico per la strategia di nicchie KDP', caption: 'Quaderni di matematica — la segmentazione del pubblico per livello scolastico e tipo di operazione crea dozzine di sotto-nicchie distinte da una sola categoria' },
+      { src: '/samples/italian/coloring/coloring-portrait-1.webp', alt: 'Contenuto di libro da colorare che rappresenta una delle più grandi nicchie di libri di attività KDP', caption: 'Libri da colorare — una nicchia KDP enorme che comprende bambini, adulti ed edizioni tematiche con forte domanda tutto l\'anno' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Puzzle cerca parole che dimostra il targeting di sotto-nicchie tematiche all\'interno della categoria puzzle', caption: 'Cerca parole tematici — il targeting di sotto-nicchie attraverso temi animali, viaggi e festività riduce la concorrenza mantenendo una forte domanda' },
+      { src: '/samples/italian/math worksheet/scheda-di-matematica-1.webp', alt: 'Scheda di matematica che mostra la segmentazione del pubblico per livello scolastico per la strategia di nicchie KDP', caption: 'Quaderni di matematica — la segmentazione del pubblico per livello scolastico e tipo di operazione crea dozzine di sotto-nicchie distinte da una sola categoria' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Come Creare Schede di Matematica per Libri di Attività KDP — Tutorial sulla Creazione di Contenuti di Nicchia',

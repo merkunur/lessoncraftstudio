@@ -218,17 +218,17 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/big%20small/Stort%20eller%20Lite%201.webp',
+      primary: '/samples/norwegian/big%20small/stort%20eller%20lite%201.webp',
       primaryAlt: 'Fargeleggingsside arbeidsark med svart-hvit kontur klar for fargelegging',
     },
     sampleGallery: [
-      { src: '/samples/norwegian/big%20small/Stort%20eller%20Lite%201.webp', alt: 'Stort eller Lite — norsk eksempel', caption: 'Stort eller Lite' },
-      { src: '/samples/norwegian/pattern%20train/M%C3%B8nstertoget%201.webp', alt: 'Mønstertoget — norsk eksempel', caption: 'Mønstertoget' },
-      { src: '/samples/norwegian/pattern%20worksheet/M%C3%B8nsterg%C3%A5ter%201.webp', alt: 'Mønstergåter — norsk eksempel', caption: 'Mønstergåter' },
-      { src: '/samples/norwegian/draw%20and%20color/Tegn%20og%20Fargelegg%201.webp', alt: 'Tegn og Fargelegg — norsk eksempel', caption: 'Tegn og Fargelegg' },
-      { src: '/samples/norwegian/drawing%20lines/Linjetegnings%C3%B8velse%201.webp', alt: 'Linjetegningsøvelse — norsk eksempel', caption: 'Linjetegningsøvelse' },
+      { src: '/samples/norwegian/big%20small/stort%20eller%20lite%201.webp', alt: 'Stort eller Lite — norsk eksempel', caption: 'Stort eller Lite' },
+      { src: '/samples/norwegian/pattern%20train/m%c3%b8nstertoget%201.webp', alt: 'Mønstertoget — norsk eksempel', caption: 'Mønstertoget' },
+      { src: '/samples/norwegian/pattern%20worksheet/m%c3%b8nsterg%c3%a5ter%201.webp', alt: 'Mønstergåter — norsk eksempel', caption: 'Mønstergåter' },
+      { src: '/samples/norwegian/draw%20and%20color/tegn%20og%20fargelegg%201.webp', alt: 'Tegn og Fargelegg — norsk eksempel', caption: 'Tegn og Fargelegg' },
+      { src: '/samples/norwegian/drawing%20lines/linjetegnings%c3%b8velse%201.webp', alt: 'Linjetegningsøvelse — norsk eksempel', caption: 'Linjetegningsøvelse' },
       { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside — norsk eksempel', caption: 'Fargeleggingsside' },
-      { src: '/samples/norwegian/chart%20count/Bildediagram%201.webp', alt: 'Bildediagram — norsk eksempel', caption: 'Bildediagram' },
+      { src: '/samples/norwegian/chart%20count/bildediagram%201.webp', alt: 'Bildediagram — norsk eksempel', caption: 'Bildediagram' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Visuell Læring-pakke — Se alle 7 generatorer i aksjon',

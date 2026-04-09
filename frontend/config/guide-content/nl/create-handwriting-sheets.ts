@@ -187,8 +187,8 @@ const content: GuideContent = {
     heroImage: { src: '/samples/dutch/writing/writing%20beginning%20letter.webp', alt: 'Schrijfoefening werkblad met progressieve overtrek-naar-kopiëren lettervorming voor kinderen' },
     samples: [
       { src: '/samples/dutch/writing/writing%20beginning%20letter.webp', alt: 'Schrijfoefenblad met overtrekrijen en streekrichting-pijlen voor lettervorming', caption: 'Progressief schrijfwerkblad met overtrekken, vervagend overtrekken en begeleid kopiëren rijen' },
-      { src: '/samples/dutch/alphabet%20train/Alfabettrein%201.webp', alt: 'Alfabet trein werkblad voor letterherkenning en schrijfoefening', caption: 'Alfabet trein werkblad als aanvulling op schrijfoefeningen voor complete letterherkenning' },
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optellen werkblad met thematische afbeeldingen voor basisschoolkinderen', caption: 'Thematisch rekenwerkblad dat goed combineert met schrijfproducten in leerbundels' },
+      { src: '/samples/dutch/alphabet%20train/alfabettrein%201.webp', alt: 'Alfabet trein werkblad voor letterherkenning en schrijfoefening', caption: 'Alfabet trein werkblad als aanvulling op schrijfoefeningen voor complete letterherkenning' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optellen werkblad met thematische afbeeldingen voor basisschoolkinderen', caption: 'Thematisch rekenwerkblad dat goed combineert met schrijfproducten in leerbundels' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Schrijfoefeningen Maken — Complete Handleiding',

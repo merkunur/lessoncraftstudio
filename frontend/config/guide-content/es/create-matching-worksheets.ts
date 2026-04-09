@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación con imágenes temáticas mostrando pares de trazar líneas para preescolar' },
+    heroImage: { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Ficha de asociación con imágenes temáticas mostrando pares de trazar líneas para preescolar' },
     samples: [
-      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación de trazar líneas con tema de animales para preescolar', caption: 'Ficha de asociación para preescolar usando el tema de animales con modo de Asociación de letras y 5 pares' },
-      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Clave de respuestas de ficha de asociación mostrando líneas de conexión entre pares correctos', caption: 'Clave de respuestas automática con líneas de conexión horizontales entre pares asociados' },
+      { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Ficha de asociación de trazar líneas con tema de animales para preescolar', caption: 'Ficha de asociación para preescolar usando el tema de animales con modo de Asociación de letras y 5 pares' },
+      { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Clave de respuestas de ficha de asociación mostrando líneas de conexión entre pares correctos', caption: 'Clave de respuestas automática con líneas de conexión horizontales entre pares asociados' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Cómo crear fichas de asociación — Tutorial completo',

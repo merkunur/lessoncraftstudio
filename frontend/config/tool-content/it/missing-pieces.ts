@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/missing pieces/Pezzi Mancanti 1.webp',
+      primary: '/samples/italian/missing pieces/pezzi-mancanti-1.webp',
       primaryAlt: 'Scheda puzzle pezzi mancanti con buchi ritagliati da un\'illustrazione colorata e opzioni di risposta numerate inclusi distrattori sotto con intestazione turchese Pezzi Mancanti e doppia cornice verde acqua-rosa',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/missing pieces/Pezzi Mancanti 2.webp',
+        src: '/samples/italian/missing pieces/pezzi-mancanti-2.webp',
         alt: 'Puzzle pezzi mancanti con buchi quadrati ritagliati da un\'illustrazione colorata e opzioni di risposta numerate per identificazione visiva',
         caption: 'Forma pezzo quadrato — tagli geometrici puliti con opzioni di risposta numerate inclusi distrattori',
       },
       {
-        src: '/samples/italian/missing pieces/Pezzi Mancanti 3.webp',
+        src: '/samples/italian/missing pieces/pezzi-mancanti-3.webp',
         alt: 'Puzzle pezzi mancanti con buchi e opzioni di risposta numerate inclusi pezzi distrattori per sfida aggiuntiva di discriminazione visiva',
         caption: 'Più pezzi mancanti — opzioni distrattore che impediscono la risoluzione per eliminazione',
       },
       {
-        src: '/samples/italian/missing pieces/Pezzi Mancanti 1 answer_key.webp',
+        src: '/samples/italian/missing pieces/pezzi-mancanti-1-answer-key.webp',
         alt: 'Chiave di risposta puzzle pezzi mancanti con etichette numerate evidenziate in giallo posizionate all\'interno di ogni buco mostrando l\'indice dell\'opzione corretta',
         caption: 'Chiave di risposta auto-generata — etichette evidenziate in giallo (rgba(255,255,0,0.7)) mostrano l\'opzione corretta per ogni buco',
       },

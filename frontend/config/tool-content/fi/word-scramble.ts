@@ -91,13 +91,13 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/word%20scramble/Kirjainsekoitus%201.webp',
+      primary: '/samples/finnish/word%20scramble/kirjainsekoitus%201.webp',
       primaryAlt: 'Kirjainsekoitustehtäväarkki kuvavihjein ja sekoitetuilla kirjainlaatoilla kirjainjärjestelypalapelejä varten',
     },
     sampleGallery: [
-      { src: '/samples/finnish/word%20scramble/Kirjainsekoitus%201.webp', alt: 'Kirjainsekoitustehtäväarkki kuvavihjein ja sekoitetuilla kirjainlaatoilla Helppo-vaikeustasolla', caption: 'Helppo vaikeustaso — puolet kirjaimista esisijoitettuna vihjeiksi' },
-      { src: '/samples/finnish/word%20scramble/Kirjainsekoitus%202.webp', alt: 'Kirjainsekoitustehtäväarkki vokaali-konsonantti-värikoodauksella värillisinä kirjainlaattoina', caption: 'Värikoodaustila — vokaalit ja konsonantit eri väreillä fonetiikkatietoisuuteen' },
-      { src: '/samples/finnish/word%20scramble/Kirjainsekoitus%201%20answer-key.webp', alt: 'Kirjainsekoituksen vastausavain kaikki kirjaimet oikein järjestettynä', caption: 'Vastausavain — oikein järjestetyt sanat helppoon tarkistamiseen' },
+      { src: '/samples/finnish/word%20scramble/kirjainsekoitus%201.webp', alt: 'Kirjainsekoitustehtäväarkki kuvavihjein ja sekoitetuilla kirjainlaatoilla Helppo-vaikeustasolla', caption: 'Helppo vaikeustaso — puolet kirjaimista esisijoitettuna vihjeiksi' },
+      { src: '/samples/finnish/word%20scramble/kirjainsekoitus%202.webp', alt: 'Kirjainsekoitustehtäväarkki vokaali-konsonantti-värikoodauksella värillisinä kirjainlaattoina', caption: 'Värikoodaustila — vokaalit ja konsonantit eri väreillä fonetiikkatietoisuuteen' },
+      { src: '/samples/finnish/word%20scramble/kirjainsekoitus%201%20answer-key.webp', alt: 'Kirjainsekoituksen vastausavain kaikki kirjaimet oikein järjestettynä', caption: 'Vastausavain — oikein järjestetyt sanat helppoon tarkistamiseen' },
     ],
     youtubeId: 'Hc3g5VsSHEU',
     videoTitle: 'Näin Luot Kirjainjärjestely-Kirjainsekoitustehtäviä — Video-opas',

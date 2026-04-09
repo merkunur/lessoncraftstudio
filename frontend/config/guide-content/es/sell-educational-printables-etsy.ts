@@ -201,11 +201,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha imprimible educativa mostrando problemas de matemáticas basados en imágenes para vender en Etsy en múltiples categorías' },
+    heroImage: { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha imprimible educativa mostrando problemas de matemáticas basados en imágenes para vender en Etsy en múltiples categorías' },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de sumas con tema de animales para una tienda diversificada de imprimibles educativos en Etsy', caption: 'Ficha de sumas con tema de animales — uno de docenas de productos de matemáticas que puede crear para su tienda Etsy' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 2.webp', alt: 'Ficha de sopa de letras mostrando imprimible educativo basado en lenguaje para Etsy', caption: 'Sopa de letras — formato sensible al idioma que se multiplica en 11 mercados lingüísticos en Etsy' },
-      { src: '/samples/spanish/coloring/coloring portrait 5.webp', alt: 'Página para colorear imprimible mostrando producto de aprendizaje visual para tienda educativa en Etsy', caption: 'Página para colorear — la demografía de compradores más amplia de cualquier categoría de imprimibles educativos en Etsy' },
+      { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de sumas con tema de animales para una tienda diversificada de imprimibles educativos en Etsy', caption: 'Ficha de sumas con tema de animales — uno de docenas de productos de matemáticas que puede crear para su tienda Etsy' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-2.webp', alt: 'Ficha de sopa de letras mostrando imprimible educativo basado en lenguaje para Etsy', caption: 'Sopa de letras — formato sensible al idioma que se multiplica en 11 mercados lingüísticos en Etsy' },
+      { src: '/samples/spanish/coloring/coloring-portrait-5.webp', alt: 'Página para colorear imprimible mostrando producto de aprendizaje visual para tienda educativa en Etsy', caption: 'Página para colorear — la demografía de compradores más amplia de cualquier categoría de imprimibles educativos en Etsy' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Cómo crear imprimibles educativos para vender en Etsy — Estrategia de tienda multicategoría',

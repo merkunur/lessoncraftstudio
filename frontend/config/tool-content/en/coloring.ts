@@ -207,22 +207,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/coloring/coloring portrait 1.webp',
+      primary: '/samples/english/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Custom coloring page created on free-form canvas with colorful themed illustrations arranged in an original composition with decorative border',
     },
     sampleGallery: [
       {
-        src: '/samples/english/coloring/coloring portrait 2.webp',
+        src: '/samples/english/coloring/coloring-portrait-2.webp',
         alt: 'Animal themed coloring page with multiple illustrations arranged on free-form canvas showing creative layout possibilities',
         caption: 'Animal theme coloring page — free-form canvas layout with multiple illustrations arranged in a unique composition',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 3.webp',
+        src: '/samples/english/coloring/coloring-portrait-3.webp',
         alt: 'Print-ready coloring page with name field and handwriting practice lines added using one-click name and date helpers',
         caption: 'Structured activity sheet — name field and handwriting lines transform coloring pages into structured coloring activities',
       },
       {
-        src: '/samples/english/coloring/coloring landscape 1.webp',
+        src: '/samples/english/coloring/coloring-landscape-1.webp',
         alt: 'Grayscale coloring page export showing ink-friendly conversion from colorful composition for KDP interiors and bulk printing',
         caption: 'Grayscale export — colorful compositions convert to ink-friendly coloring pages for KDP interiors and bulk printing',
       },

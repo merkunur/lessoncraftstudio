@@ -188,8 +188,8 @@ const content: GuideContent = {
     heroImage: { src: '/samples/norwegian/coloring/coloring%20portrait%201.webp', alt: 'Fargeleggingsside utskriftsprodukt for salg av pedagogiske ressurser på Creative Fabrica-markedsplassen' },
     samples: [
       { src: '/samples/norwegian/coloring/coloring%20portrait%202.webp', alt: 'Utskriftsbar fargeleggingsside for Creative Fabrica Learning-seksjonen', caption: 'Fargeleggingssider bygger bro mellom håndverk og utdanning på Creative Fabrica — appellerer til både designer- og kjøperpublikum' },
-      { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Matchingarbeidsark-aktivitet for Creative Fabrica pedagogiske produkter', caption: 'Tematiserte matchingaktiviteter er høyetterspørselsressurser i Creative Fabricas Learning-seksjon' },
-      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsøk-puslespill utskriftsprodukt for Creative Fabrica-markedsplassen', caption: 'Ordsøk-puslespill tiltrekker abonnementsnedlastinger fra begge kjøperpublikummene på Creative Fabrica' },
+      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Matchingarbeidsark-aktivitet for Creative Fabrica pedagogiske produkter', caption: 'Tematiserte matchingaktiviteter er høyetterspørselsressurser i Creative Fabricas Learning-seksjon' },
+      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk-puslespill utskriftsprodukt for Creative Fabrica-markedsplassen', caption: 'Ordsøk-puslespill tiltrekker abonnementsnedlastinger fra begge kjøperpublikummene på Creative Fabrica' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Slik lager du pedagogiske arbeidsark for Creative Fabrica',

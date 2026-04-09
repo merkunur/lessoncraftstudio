@@ -188,8 +188,8 @@ const content: GuideContent = {
     heroImage: { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Kleurplaat printable voor het verkopen van educatief materiaal op de Creative Fabrica marktplaats' },
     samples: [
       { src: '/samples/dutch/coloring/coloring%20landscape%201.webp', alt: 'Printbare kleurplaat voor Creative Fabrica Classroom-sectie', caption: 'Kleurplaten overbruggen de kloof tussen knutselen en onderwijs op Creative Fabrica — aantrekkelijk voor zowel ontwerpers als verkopers' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker puzzel printable voor Creative Fabrica marktplaats', caption: 'Woordzoekpuzzels trekken abonnementsdownloads aan van zowel onderwijzers als ouders op Creative Fabrica' },
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optellen werkblad voor educatieve producten op Creative Fabrica', caption: 'Rekenwerkbladen met aantrekkelijke thema\'s presteren sterk in Creative Fabrica\'s Classroom-sectie' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzel printable voor Creative Fabrica marktplaats', caption: 'Woordzoekpuzzels trekken abonnementsdownloads aan van zowel onderwijzers als ouders op Creative Fabrica' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optellen werkblad voor educatieve producten op Creative Fabrica', caption: 'Rekenwerkbladen met aantrekkelijke thema\'s presteren sterk in Creative Fabrica\'s Classroom-sectie' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hoe Educatieve Werkbladen Maken voor Creative Fabrica',

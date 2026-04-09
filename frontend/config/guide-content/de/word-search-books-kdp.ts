@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuchrätsel-Arbeitsblatt mit thematischem Wortgitter geeignet für Amazon-KDP-Wortsuchbuch-Innenseiten' },
+    heroImage: { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuchrätsel-Arbeitsblatt mit thematischem Wortgitter geeignet für Amazon-KDP-Wortsuchbuch-Innenseiten' },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Thematisches Tier-Wortsuchrätsel formatiert für KDP-Wortsuchbuch', caption: 'Thematisches Tier-Wortsuchrätsel — thematische Wortlisten schaffen ansprechende Inhalte, die zufällige Wortsammlungen in Käuferbewertungen übertreffen' },
-      { src: '/samples/german/wordsearch/answer_key.webp', alt: 'Essen-thematisches Wortsuchrätsel für KDP-Buch', caption: 'Essen-thematische Wortsuche — thematische Abschnitte verleihen redaktionelle Struktur, die professionelle Wortsuchbücher von Amateurkompilationen unterscheidet' },
-      { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel als Begleit-Rätseltyp für KDP-Rätselkatalog', caption: 'Kreuzworträtsel — Begleit-Rätseltyp für Katalogdiversifizierung und Cross-Promotion mit Wortsuchtiteln' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Thematisches Tier-Wortsuchrätsel formatiert für KDP-Wortsuchbuch', caption: 'Thematisches Tier-Wortsuchrätsel — thematische Wortlisten schaffen ansprechende Inhalte, die zufällige Wortsammlungen in Käuferbewertungen übertreffen' },
+      { src: '/samples/german/wordsearch/answer-key.webp', alt: 'Essen-thematisches Wortsuchrätsel für KDP-Buch', caption: 'Essen-thematische Wortsuche — thematische Abschnitte verleihen redaktionelle Struktur, die professionelle Wortsuchbücher von Amateurkompilationen unterscheidet' },
+      { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kreuzworträtsel als Begleit-Rätseltyp für KDP-Rätselkatalog', caption: 'Kreuzworträtsel — Begleit-Rätseltyp für Katalogdiversifizierung und Cross-Promotion mit Wortsuchtiteln' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuchrätsel für Amazon-KDP-Bücher erstellen — Schritt-für-Schritt-Anleitung',

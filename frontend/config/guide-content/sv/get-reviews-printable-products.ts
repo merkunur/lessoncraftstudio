@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/matching/matching portrait.webp',
+      src: '/samples/english/matching/matching-portrait.webp',
       alt: 'Professionellt matchningsarbetsblad som demonstrerar produktkvaliteten som förtjänar positiva köparrecensioner',
     },
     samples: [
       {
-        src: '/samples/english/matching/matching portrait.webp',
+        src: '/samples/english/matching/matching-portrait.webp',
         alt: 'Matchningsarbetsblad som visar visuell kvalitet som driver positiva köparrecensioner',
         caption: 'Högkvalitativa matchningsarbetsblad förtjänar naturligt positiva recensioner genom visuell attraktionskraft och pedagogiskt värde',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/english/coloring/coloring-portrait-1.webp',
         alt: 'Målarbild som demonstrerar professionell designkvalitet som motiverar köparfeedback',
         caption: 'Professionella målarbilder genererar recensioner eftersom köpare omedelbart kan se och uppskatta designkvaliteten',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/english/wordsearch/wordsearch-portrait.webp',
         alt: 'Ordsökspussel som visar det populära produktformatet som genererar hög recensionsvolym',
         caption: 'Ordsökspussel genererar hög försäljningsvolym och konsekventa positiva recensionsfrekvenser i alla åldersgrupper',
       },

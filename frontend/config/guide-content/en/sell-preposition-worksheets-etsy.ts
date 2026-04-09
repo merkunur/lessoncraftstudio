@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/prepositions/prepositions_worksheet (10).webp', alt: 'Preposition worksheet showing spatial relationships with photographic images' },
+    heroImage: { src: '/samples/english/prepositions/prepositions-worksheet-10.webp', alt: 'Preposition worksheet showing spatial relationships with photographic images' },
     samples: [
-      { src: '/samples/english/prepositions/prepositions_worksheet (11).webp', alt: 'ESL preposition worksheet with in on under activities', caption: 'Spatial preposition worksheet using photographic images for clear visual communication' },
-      { src: '/samples/english/prepositions/prepositions_worksheet (10).webp', alt: 'Multilingual preposition worksheet example', caption: 'The same preposition concept generated in multiple languages for international Etsy sales' },
+      { src: '/samples/english/prepositions/prepositions-worksheet-11.webp', alt: 'ESL preposition worksheet with in on under activities', caption: 'Spatial preposition worksheet using photographic images for clear visual communication' },
+      { src: '/samples/english/prepositions/prepositions-worksheet-10.webp', alt: 'Multilingual preposition worksheet example', caption: 'The same preposition concept generated in multiple languages for international Etsy sales' },
     ],
     youtubeId: 'ifIXbViR5_o',
     videoTitle: 'How to Create Preposition Worksheets',

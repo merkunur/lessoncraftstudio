@@ -173,17 +173,17 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp',
+      src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp',
       alt: 'Profesjonelle addisjonsarbeidsark laget med addisjonsarbeidsark-generatoren, som representerer den printbare produktkvaliteten oppnåelig med alle 33 generatorer',
     },
     samples: [
       {
-        src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp',
+        src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp',
         alt: 'Addisjonsarbeidsark som viser Matte og Tall-kategori printbare produkter for Etsy-butikker',
         caption: 'Matte og Tall-kategori: Addisjonsarbeidsark med fasit klare for Etsy digital nedlastingsoppføringer',
       },
       {
-        src: '/samples/norwegian/wordsearch/Ordleting%203.webp',
+        src: '/samples/norwegian/wordsearch/ordleting%203.webp',
         alt: 'Ordsøk-puslespill som viser Bokstaver og Ord-kategori printbare produkter for Etsy-butikker',
         caption: 'Bokstaver og Ord-kategori: Ordsøk-puslespill med tematisk ordforråd for bred kjøperappell',
       },

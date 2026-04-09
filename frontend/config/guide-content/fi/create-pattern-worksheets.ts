@@ -68,10 +68,10 @@ const content: GuideContent = {
     { appId: 'odd-one-out', title: 'Etsi erilainen -generaattori', description: 'Kategorointikumppani. Etsi erilainen kehittää luokittelutaitoja jotka tukevat kuvioiden tunnistamista ja ryhmittelyä.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/finnish/pattern%20worksheet/Kuvioteht%C3%A4v%C3%A4t%201.webp', alt: 'Kuvioiden tunnistustyöarkki temaattisilla kuvilla näyttäen visuaaliset kuvioiden täyttöharjoitukset lapsille' },
+    heroImage: { src: '/samples/finnish/pattern%20worksheet/kuvioteht%c3%a4v%c3%a4t%201.webp', alt: 'Kuvioiden tunnistustyöarkki temaattisilla kuvilla näyttäen visuaaliset kuvioiden täyttöharjoitukset lapsille' },
     samples: [
-      { src: '/samples/finnish/pattern%20worksheet/Kuvioteht%C3%A4v%C3%A4t%201.webp', alt: 'Kuviotyöarkki eläinteemalla näyttäen AB- ja ABC-kuvioharjoituksia', caption: 'Kuvioiden tunnistustyöarkki temaattisilla kuvilla useilla kuviotyypeillä ja automaattisella vastausavaimella' },
-      { src: '/samples/finnish/pattern%20worksheet/Kuvioteht%C3%A4v%C3%A4t%201.webp', alt: 'Kuviotyöarkin vastausavain näyttäen täytetyt kuviot oikeine kuvineen', caption: 'Automaattinen vastausavain luotu jokaisen kuviotyöarkin rinnalla nopeaan tarkistukseen' },
+      { src: '/samples/finnish/pattern%20worksheet/kuvioteht%c3%a4v%c3%a4t%201.webp', alt: 'Kuviotyöarkki eläinteemalla näyttäen AB- ja ABC-kuvioharjoituksia', caption: 'Kuvioiden tunnistustyöarkki temaattisilla kuvilla useilla kuviotyypeillä ja automaattisella vastausavaimella' },
+      { src: '/samples/finnish/pattern%20worksheet/kuvioteht%c3%a4v%c3%a4t%201.webp', alt: 'Kuviotyöarkin vastausavain näyttäen täytetyt kuviot oikeine kuvineen', caption: 'Automaattinen vastausavain luotu jokaisen kuviotyöarkin rinnalla nopeaan tarkistukseen' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'Kuinka luot kuvioiden tunnistustyöarkkeja — Täydellinen opas',

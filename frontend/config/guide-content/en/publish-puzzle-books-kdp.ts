@@ -191,11 +191,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle worksheet showing themed word grid suitable for Amazon KDP puzzle book interior pages' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle worksheet showing themed word grid suitable for Amazon KDP puzzle book interior pages' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Animal themed word search puzzle formatted for KDP puzzle book', caption: 'Word search with animal theme — the most popular puzzle type for KDP books targeting both adult and kids markets' },
-      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle with themed clues for KDP puzzle book', caption: 'Crossword puzzle — adds substantial engagement value to puzzle books and variety collections on Amazon' },
-      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Picture sudoku puzzle for kids variety puzzle book on KDP', caption: 'Picture sudoku — visual logic puzzles that make kids variety puzzle books more diverse and engaging' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Animal themed word search puzzle formatted for KDP puzzle book', caption: 'Word search with animal theme — the most popular puzzle type for KDP books targeting both adult and kids markets' },
+      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Crossword puzzle with themed clues for KDP puzzle book', caption: 'Crossword puzzle — adds substantial engagement value to puzzle books and variety collections on Amazon' },
+      { src: '/samples/english/sudoku/sudoku-easy.webp', alt: 'Picture sudoku puzzle for kids variety puzzle book on KDP', caption: 'Picture sudoku — visual logic puzzles that make kids variety puzzle books more diverse and engaging' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles for Amazon KDP Puzzle Books — Step-by-Step Tutorial',

@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/word scramble/Lettere Mescolate 1.webp',
+      primary: '/samples/italian/word scramble/lettere-mescolate-1.webp',
       primaryAlt: 'Scheda parole mescolate con indizi immagine e tessere lettere mescolate per puzzle di riordino spelling',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/word scramble/Lettere Mescolate 1.webp',
+        src: '/samples/italian/word scramble/lettere-mescolate-1.webp',
         alt: 'Scheda parole mescolate con indizi immagine e tessere lettere mescolate a difficoltà Facile',
         caption: 'Difficoltà Facile — metà delle lettere pre-posizionate come indizi per principianti',
       },
       {
-        src: '/samples/italian/word scramble/Lettere Mescolate 2.webp',
+        src: '/samples/italian/word scramble/lettere-mescolate-2.webp',
         alt: 'Scheda parole mescolate con codifica colore vocali-consonanti che mostra tessere lettere colorate',
         caption: 'Modalità codifica colore — vocali e consonanti in colori diversi per consapevolezza fonetica',
       },
       {
-        src: '/samples/italian/word scramble/Lettere Mescolate 4.webp',
+        src: '/samples/italian/word scramble/lettere-mescolate-4.webp',
         alt: 'Foglio risposte parole mescolate con tutte le lettere correttamente riordinate',
         caption: 'Foglio risposte — parole correttamente riordinate per verifica e autoverifica rapida',
       },

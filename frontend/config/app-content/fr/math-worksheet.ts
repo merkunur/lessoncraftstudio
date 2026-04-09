@@ -266,22 +266,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/math worksheet/Feuille de Mathématique 1.webp',
+      primary: '/samples/french/math worksheet/feuille-de-mathématique-1.webp',
       primaryAlt: 'Fiche de puzzle algébrique illustré avec des symboles-images représentant des variables inconnues dans un système d\'équations',
     },
     sampleGallery: [
       {
-        src: '/samples/french/math worksheet/Feuille de Mathématique 1.webp',
+        src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp',
         alt: 'Puzzle algébrique Très Facile avec deux symboles-images et des équations en addition uniquement',
         caption: 'Niveau Très Facile — deux symboles-images dans un système d\'équations simple en addition',
       },
       {
-        src: '/samples/french/math worksheet/Feuille de Mathématique 2.webp',
+        src: '/samples/french/math worksheet/feuille-de-mathématique-2.webp',
         alt: 'Puzzle algébrique Moyen avec trois symboles-images et des opérations mixtes',
         caption: 'Niveau Moyen — trois symboles dans des équations liées avec addition et soustraction',
       },
       {
-        src: '/samples/french/math worksheet/Feuille de Mathématique 3.webp',
+        src: '/samples/french/math worksheet/feuille-de-mathématique-3.webp',
         alt: 'Puzzle algébrique Difficile avec quatre symboles-images dans un système à quatre équations',
         caption: 'Niveau Difficile — quatre inconnues simultanées pour une résolution algébrique avancée',
       },

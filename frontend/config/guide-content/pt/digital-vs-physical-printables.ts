@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/portuguese/addition/Adição Divertida 1.webp',
+      src: '/samples/portuguese/addition/adição-divertida-1.webp',
       alt: 'Atividade de adição profissional que demonstra a criação de produtos imprimíveis digitais para formatos de download digital e impressão física',
     },
     samples: [
       {
-        src: '/samples/portuguese/addition/Adição Divertida 2.webp',
+        src: '/samples/portuguese/addition/adição-divertida-2.webp',
         alt: 'Atividade de adição mostrando produto imprimível digital adequado tanto para download como para impressão física',
         caption: 'As atividades de matemática funcionam bem como descargas digitais e como páginas em cadernos impressos',
       },
       {
-        src: '/samples/portuguese/coloring/coloring landscape 1.webp',
+        src: '/samples/portuguese/coloring/coloring-landscape-1.webp',
         alt: 'Página para colorir demonstrando tipo de produto popular em formatos digital e físico',
         caption: 'As páginas para colorir são as mais vendidas tanto em download digital como em formato de livro impresso a pedido',
       },
       {
-        src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
+        src: '/samples/portuguese/wordsearch/caça-palavras-1.webp',
         alt: 'Sopa de letras mostrando produto ideal para venda híbrida digital e física',
         caption: 'As sopas de letras vendem-se individualmente como descargas digitais e compiladas em livros de puzzles físicos',
       },

@@ -213,16 +213,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/alphabet%20train/Alfabettog%201.webp',
+      primary: '/samples/danish/alphabet%20train/alfabettog%201.webp',
       primaryAlt: 'Ordsøgningsarbejdsark med tematisk ordforråds gitter og farvekodede facit',
     },
     sampleGallery: [
-      { src: '/samples/danish/alphabet%20train/Alfabettog%201.webp', alt: 'Alfabettog — dansk eksempel', caption: 'Alfabettog' },
-      { src: '/samples/danish/prepositions/Pr%C3%A6positioner%201.webp', alt: 'Præpositionsarbejdsark — dansk eksempel', caption: 'Præpositionsarbejdsark' },
-      { src: '/samples/danish/word%20guess/G%C3%A6t%20Ordet%201.webp', alt: 'Gæt Ordet — dansk eksempel', caption: 'Gæt Ordet' },
-      { src: '/samples/danish/word%20scramble/Bogstavrod%201.webp', alt: 'Bogstavrod — dansk eksempel', caption: 'Bogstavrod' },
-      { src: '/samples/danish/wordsearch/Ords%C3%B8gning%201.webp', alt: 'Ordsøgning — dansk eksempel', caption: 'Ordsøgning' },
-      { src: '/samples/danish/cryptogram/Billed-Kryptogram%201.webp', alt: 'Billed-Kryptogram — dansk eksempel', caption: 'Billed-Kryptogram' },
+      { src: '/samples/danish/alphabet%20train/alfabettog%201.webp', alt: 'Alfabettog — dansk eksempel', caption: 'Alfabettog' },
+      { src: '/samples/danish/prepositions/pr%c3%a6positioner%201.webp', alt: 'Præpositionsarbejdsark — dansk eksempel', caption: 'Præpositionsarbejdsark' },
+      { src: '/samples/danish/word%20guess/g%c3%a6t%20ordet%201.webp', alt: 'Gæt Ordet — dansk eksempel', caption: 'Gæt Ordet' },
+      { src: '/samples/danish/word%20scramble/bogstavrod%201.webp', alt: 'Bogstavrod — dansk eksempel', caption: 'Bogstavrod' },
+      { src: '/samples/danish/wordsearch/ords%c3%b8gning%201.webp', alt: 'Ordsøgning — dansk eksempel', caption: 'Ordsøgning' },
+      { src: '/samples/danish/cryptogram/billed-kryptogram%201.webp', alt: 'Billed-Kryptogram — dansk eksempel', caption: 'Billed-Kryptogram' },
       { src: '/samples/danish/writing/writing.webp', alt: 'Skriveøvelse — dansk eksempel', caption: 'Skriveøvelse' },
     ],
     youtubeId: '36keBFzJbPo',

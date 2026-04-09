@@ -173,22 +173,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/matching/Paare Finden 1.webp',
+      src: '/samples/german/matching/paare-finden-1.webp',
       alt: 'Professionelles Zuordnungsarbeitsblatt, das die Produktqualität demonstriert, die positive Käuferbewertungen verdient',
     },
     samples: [
       {
-        src: '/samples/german/matching/Paare Finden 1.webp',
+        src: '/samples/german/matching/paare-finden-1.webp',
         alt: 'Zuordnungsarbeitsblatt, das visuelle Qualität zeigt, die positive Käuferbewertungen antreibt',
         caption: 'Hochwertige Zuordnungsarbeitsblätter verdienen natürlich positive Bewertungen durch visuelle Attraktivität und praktischen Wert',
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: '/samples/german/coloring/coloring-portrait-1.webp',
         alt: 'Malvorlage, die professionelle Designqualität demonstriert, die Käuferfeedback motiviert',
         caption: 'Professionelle Malvorlagen generieren Bewertungen, weil Käufer die Designqualität sofort sehen und schätzen können',
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wörtersuchrätsel, das das beliebte Produktformat zeigt, das hohes Bewertungsvolumen generiert',
         caption: 'Wörtersuchrätsel generieren hohes Verkaufsvolumen und konsistente positive Bewertungsraten über Altersgruppen hinweg',
       },

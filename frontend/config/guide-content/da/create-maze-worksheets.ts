@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/picture%20path/Billedsti%201.webp', alt: 'Labyrint-arbejdsark der viser en tematisk billedsti-aktivitet med start- og slutbilleder for børn' },
+    heroImage: { src: '/samples/danish/picture%20path/billedsti%201.webp', alt: 'Labyrint-arbejdsark der viser en tematisk billedsti-aktivitet med start- og slutbilleder for børn' },
     samples: [
-      { src: '/samples/danish/picture%20path/Billedsti%201.webp', alt: 'Billedsti — dansk eksempelarbejdsark', caption: 'Billedsti eksempel 1' },
-      { src: '/samples/danish/picture%20path/Billedsti%202.webp', alt: 'Billedsti — dansk eksempel 2', caption: 'Billedsti eksempel 2' },
-      { src: '/samples/danish/picture%20path/Billedsti%203.webp', alt: 'Billedsti — dansk eksempel 3', caption: 'Billedsti eksempel 3' },
+      { src: '/samples/danish/picture%20path/billedsti%201.webp', alt: 'Billedsti — dansk eksempelarbejdsark', caption: 'Billedsti eksempel 1' },
+      { src: '/samples/danish/picture%20path/billedsti%202.webp', alt: 'Billedsti — dansk eksempel 2', caption: 'Billedsti eksempel 2' },
+      { src: '/samples/danish/picture%20path/billedsti%203.webp', alt: 'Billedsti — dansk eksempel 3', caption: 'Billedsti eksempel 3' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'Sådan generator du labyrint-arbejdsark — Komplet vejledning',

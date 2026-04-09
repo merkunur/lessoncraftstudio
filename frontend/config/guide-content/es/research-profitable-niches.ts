@@ -158,11 +158,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación para investigar nichos de productos imprimibles educativos' },
+    heroImage: { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Ficha de asociación para investigar nichos de productos imprimibles educativos' },
     samples: [
-      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación para investigar nichos de productos imprimibles educativos', caption: 'Ejemplo de ficha de asociación — un tipo de producto con demanda consistente en múltiples nichos temáticos' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras para validar nichos de imprimibles educativos', caption: 'Ejemplo de sopa de letras — investiga la demanda en nichos como animales, espacio y estaciones del año' },
-      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear para explorar nichos de mercado de imprimibles', caption: 'Ejemplo de página para colorear — un nicho perenne con múltiples subtemas para expansión' },
+      { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Ficha de asociación para investigar nichos de productos imprimibles educativos', caption: 'Ejemplo de ficha de asociación — un tipo de producto con demanda consistente en múltiples nichos temáticos' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras para validar nichos de imprimibles educativos', caption: 'Ejemplo de sopa de letras — investiga la demanda en nichos como animales, espacio y estaciones del año' },
+      { src: '/samples/spanish/coloring/coloring-portrait-1.webp', alt: 'Página para colorear para explorar nichos de mercado de imprimibles', caption: 'Ejemplo de página para colorear — un nicho perenne con múltiples subtemas para expansión' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Cómo investigar nichos rentables de imprimibles — proceso paso a paso',

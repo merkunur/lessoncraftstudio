@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/prepositions/Prepositioner%201.webp',
+      primary: '/samples/swedish/prepositions/prepositioner%201.webp',
       primaryAlt: 'Prepositioner arbetsblad som visar bildscener med rumsliga relationsövningar för lägesordsövning',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/prepositions/Prepositioner%201.webp',
+        src: '/samples/swedish/prepositions/prepositioner%201.webp',
         alt: 'Prepositioner arbetsblad med fyll-i-luckan övningar med färgglada bildscener',
         caption: 'Fyll-i-luckan prepositionsövningar med bildscener',
       },
       {
-        src: '/samples/swedish/prepositions/Prepositioner%202.webp',
+        src: '/samples/swedish/prepositions/prepositioner%202.webp',
         alt: 'Prepositioner arbetsblad med flerval rumsliga relationsövningar',
         caption: 'Flerval-läge för nybörjarvänlig övning',
       },
       {
-        src: '/samples/swedish/prepositions/Prepositioner%203.webp',
+        src: '/samples/swedish/prepositions/prepositioner%203.webp',
         alt: 'Avancerat prepositioner arbetsblad med formersättning och flera övningar per sida',
         caption: 'Formersättning skapar unika scenkombinationer',
       },

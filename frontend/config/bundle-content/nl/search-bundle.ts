@@ -196,14 +196,14 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/find%20and%20count/Ik%20zie%2C%20ik%20zie%201.webp',
+      primary: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%201.webp',
       primaryAlt: 'Ik zie ik zie zoek en tel werkblad met thematische afbeeldingen verspreid over een raster voor visueel scannen en tellen',
     },
     sampleGallery: [
-      { src: '/samples/dutch/find%20and%20count/Ik%20zie%2C%20ik%20zie%201.webp', alt: 'Ik zie ik zie zoek en tel werkblad met verborgen voorwerpen om te lokaliseren en tellen', caption: 'Zoek & Tel Ik Zie Ik Zie' },
-      { src: '/samples/dutch/find%20objects/Vind%20de%20Verborgen%20Voorwerpen%201.webp', alt: 'Verborgen voorwerp werkblad met nul-overlap scène en visuele legenda', caption: 'Zoek Voorwerpen Verborgen Voorwerp' },
-      { src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201.webp', alt: '15×15 kruiswoordpuzzel met afbeeldingsaanwijzingen in plaats van tekstdefinities', caption: 'Plaatjes Kruiswoordpuzzel' },
-      { src: '/samples/dutch/treasure%20hunt/Schattenjacht%201.webp', alt: 'Schattenjacht werkblad met 5×5 coördinatenraster en richtingsaanwijzingen', caption: 'Schattenjacht Raster' },
+      { src: '/samples/dutch/find%20and%20count/ik%20zie%2c%20ik%20zie%201.webp', alt: 'Ik zie ik zie zoek en tel werkblad met verborgen voorwerpen om te lokaliseren en tellen', caption: 'Zoek & Tel Ik Zie Ik Zie' },
+      { src: '/samples/dutch/find%20objects/vind%20de%20verborgen%20voorwerpen%201.webp', alt: 'Verborgen voorwerp werkblad met nul-overlap scène en visuele legenda', caption: 'Zoek Voorwerpen Verborgen Voorwerp' },
+      { src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp', alt: '15×15 kruiswoordpuzzel met afbeeldingsaanwijzingen in plaats van tekstdefinities', caption: 'Plaatjes Kruiswoordpuzzel' },
+      { src: '/samples/dutch/treasure%20hunt/schattenjacht%201.webp', alt: 'Schattenjacht werkblad met 5×5 coördinatenraster en richtingsaanwijzingen', caption: 'Schattenjacht Raster' },
     ],
     youtubeId: '0cOPi7eajLs',
     videoTitle: 'Zoeken & Vinden Pakket — Bekijk Alle 4 Ontdekkings Generators in Actie',

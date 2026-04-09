@@ -218,22 +218,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/chart%20count/Plaatjesgrafiek%201.webp',
+      primary: '/samples/dutch/chart%20count/plaatjesgrafiek%201.webp',
       primaryAlt: 'Plaatjesgrafiek werkblad met verstrooide afbeeldingsraster en staafdiagram voor gebruikers om 6 afbeeldingstypen te tellen en grafisch weer te geven',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/chart%20count/Plaatjesgrafiek%202.webp',
+        src: '/samples/dutch/chart%20count/plaatjesgrafiek%202.webp',
         alt: 'Plaatjesgrafiek werkblad met 20 verstrooide thematische pictogrammen en leeg staafdiagram',
         caption: 'Thematische plaatjesgrafiek — 6 afbeeldingstypen verstrooide over het raster met staafdiagram eronder',
       },
       {
-        src: '/samples/dutch/chart%20count/Plaatjesgrafiek%201%20answer_key.webp',
+        src: '/samples/dutch/chart%20count/plaatjesgrafiek%201%20answer-key.webp',
         alt: 'Plaatjesgrafiek antwoordblad met geel gemarkeerde cellen die de juiste aantallen per afbeeldingstype tonen',
         caption: 'Automatisch gegenereerd antwoordblad — geel gevulde cellen tonen het juiste aantal voor elk afbeeldingstype',
       },
       {
-        src: '/samples/dutch/chart%20count/Plaatjesgrafiek%203.webp',
+        src: '/samples/dutch/chart%20count/plaatjesgrafiek%203.webp',
         alt: 'Plaatjesgrafiek werkblad met decoratief achtergrondthema en kaderthema toegepast',
         caption: 'Gedecoreerde plaatjesgrafiek — achtergrond- en kaderthema\'s met onafhankelijke dekkingsregelaars',
       },

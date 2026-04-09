@@ -231,7 +231,7 @@ const content: ToolContent = {
         caption: 'Medel svårighet — tre okända i sammankopplade ekvationer',
       },
       {
-        src: '/samples/swedish/math%20worksheet/worksheet%20(1).webp',
+        src: '/samples/swedish/math%20worksheet/worksheet%20-1.webp',
         alt: 'Svårt algebrapussel arbetsblad med fyra simultana okända och blandade operationer',
         caption: 'Svår-läge — fyra variabler med addition och subtraktion',
       },

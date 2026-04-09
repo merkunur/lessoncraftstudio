@@ -163,11 +163,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Atividade de associação para pesquisar nichos de produtos imprimíveis educativos' },
+    heroImage: { src: '/samples/portuguese/matching/encontre-os-pares-1.webp', alt: 'Atividade de associação para pesquisar nichos de produtos imprimíveis educativos' },
     samples: [
-      { src: '/samples/portuguese/matching/Encontre os Pares 2.webp', alt: 'Atividade de associação para pesquisar nichos de produtos imprimíveis educativos', caption: 'Exemplo de atividade de associação — um tipo de produto com procura consistente em múltiplos nichos temáticos' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Caça-palavras para validar nichos de imprimíveis educativos', caption: 'Exemplo de caça-palavras — pesquise a procura em nichos como animais, espaço e estações do ano' },
-      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir para explorar nichos de mercado de imprimíveis', caption: 'Exemplo de página para colorir — um nicho perene com múltiplos subtemas para expansão' },
+      { src: '/samples/portuguese/matching/encontre-os-pares-2.webp', alt: 'Atividade de associação para pesquisar nichos de produtos imprimíveis educativos', caption: 'Exemplo de atividade de associação — um tipo de produto com procura consistente em múltiplos nichos temáticos' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Caça-palavras para validar nichos de imprimíveis educativos', caption: 'Exemplo de caça-palavras — pesquise a procura em nichos como animais, espaço e estações do ano' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir para explorar nichos de mercado de imprimíveis', caption: 'Exemplo de página para colorir — um nicho perene com múltiplos subtemas para expansão' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como pesquisar nichos rentáveis de imprimíveis — processo passo a passo',

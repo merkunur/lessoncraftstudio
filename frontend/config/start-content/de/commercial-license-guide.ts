@@ -211,12 +211,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Arbeitsblatt zeigt die Ausgabequalität der kommerziellen Lizenz für Druckvorlagen-Verkäufer' },
+    heroImage: { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Arbeitsblatt zeigt die Ausgabequalität der kommerziellen Lizenz für Druckvorlagen-Verkäufer' },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt bereit für den kommerziellen Verkauf', caption: 'Wortsuche — Top-Verkäufer kommerziell' },
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additions-Mathe-Arbeitsblatt mit kommerzieller Lizenz', caption: 'Addition — Ganzjähriger Mathe-Grundpfeiler' },
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Ausmalbilder-Arbeitsblatt für KDP-Aktivitätsbücher', caption: 'Ausmalbilder — Volumenstärkste KDP-Kategorie' },
-      { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel zeigt den Wert der mehrsprachigen kommerziellen Lizenz', caption: 'Kreuzworträtsel — Mehrsprachiger Lizenzwert' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt bereit für den kommerziellen Verkauf', caption: 'Wortsuche — Top-Verkäufer kommerziell' },
+      { src: '/samples/german/addition/additionsspa-1.webp', alt: 'Additions-Mathe-Arbeitsblatt mit kommerzieller Lizenz', caption: 'Addition — Ganzjähriger Mathe-Grundpfeiler' },
+      { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Ausmalbilder-Arbeitsblatt für KDP-Aktivitätsbücher', caption: 'Ausmalbilder — Volumenstärkste KDP-Kategorie' },
+      { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kreuzworträtsel zeigt den Wert der mehrsprachigen kommerziellen Lizenz', caption: 'Kreuzworträtsel — Mehrsprachiger Lizenzwert' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Arbeitsblätter für den kommerziellen Verkauf erstellen — LessonCraftStudio Demo',

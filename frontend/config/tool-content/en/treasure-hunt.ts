@@ -208,17 +208,17 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/treasure hunt/Treasure Hunt 1.webp',
+      primary: '/samples/english/treasure hunt/treasure-hunt-1.webp',
       primaryAlt: 'Treasure hunt path-finding worksheet with 5 by 5 coordinate grid, 6 scattered themed images as landmarks, directional clues, and treasure-themed teal header with golden title',
     },
     sampleGallery: [
       {
-        src: '/samples/english/treasure hunt/Treasure Hunt 1.webp',
+        src: '/samples/english/treasure hunt/treasure-hunt-1.webp',
         alt: 'Treasure hunt puzzle worksheet with Cardinal direction clues using north south east and west on a 5 by 5 coordinate grid',
         caption: 'Cardinal direction mode — compass directions for advanced spatial reasoning and map-reading skills',
       },
       {
-        src: '/samples/english/treasure hunt/north south.webp',
+        src: '/samples/english/treasure hunt/north-south.webp',
         alt: 'Treasure hunt answer key with final treasure cell highlighted in pale yellow on the 5 by 5 coordinate grid',
         caption: 'Auto-generated answer key — pale yellow highlight marks the treasure destination for self-checking',
       },

@@ -176,11 +176,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle worksheet showing themed word grid suitable for Amazon KDP word search book interior pages' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle worksheet showing themed word grid suitable for Amazon KDP word search book interior pages' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Animal themed word search puzzle formatted for KDP word search book', caption: 'Themed animal word search puzzle — themed word lists create engaging content that outperforms random word collections in buyer reviews' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Food themed word search puzzle for KDP book', caption: 'Food themed word search — themed sections add editorial structure that distinguishes professional word search books from amateur compilations' },
-      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle for companion KDP puzzle catalog', caption: 'Crossword puzzle — companion puzzle type for catalog diversification and cross-promotion with word search titles' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Animal themed word search puzzle formatted for KDP word search book', caption: 'Themed animal word search puzzle — themed word lists create engaging content that outperforms random word collections in buyer reviews' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Food themed word search puzzle for KDP book', caption: 'Food themed word search — themed sections add editorial structure that distinguishes professional word search books from amateur compilations' },
+      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Crossword puzzle for companion KDP puzzle catalog', caption: 'Crossword puzzle — companion puzzle type for catalog diversification and cross-promotion with word search titles' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles for Amazon KDP Books — Step-by-Step Tutorial',

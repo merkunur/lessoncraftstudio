@@ -223,22 +223,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/word guess/Devine le Mot 1.webp',
+      primary: '/samples/french/word guess/devine-le-mot-1.webp',
       primaryAlt: 'Fiche deviner les mots montrant des indices images associés à des grilles de lettres contenant des cases vides pour la pratique d\'orthographe',
     },
     sampleGallery: [
       {
-        src: '/samples/french/word guess/Devine le Mot 1.webp',
+        src: '/samples/french/word guess/devine-le-mot-1.webp',
         alt: 'Fiche deviner les mots avec indices images et grilles de lettres partiellement remplies pour la pratique d\'orthographe',
         caption: 'Exercices deviner les mots avec indices images et niveaux d\'indices progressifs',
       },
       {
-        src: '/samples/french/word guess/Devine le Mot 2.webp',
+        src: '/samples/french/word guess/devine-le-mot-2.webp',
         alt: 'Fiche deviner les mots montrant plusieurs niveaux de difficulté avec différentes quantités de lettres révélées',
         caption: 'Difficulté ajustable de Facile à Sans Indices',
       },
       {
-        src: '/samples/french/word guess/Devine le Mot 3.webp',
+        src: '/samples/french/word guess/devine-le-mot-3.webp',
         alt: 'Fiche deviner les mots avec collection d\'images thématiques et grilles de lettres colorées',
         caption: 'Les collections thématiques créent des packs d\'activités d\'orthographe cohérents',
       },

@@ -214,22 +214,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/alphabet train/Tren del Alfabeto 1.webp',
+      primary: '/samples/spanish/alphabet train/tren-del-alfabeto-1.webp',
       primaryAlt: 'Ficha de tren del abecedario mostrando 11 vagones coloridos con letras e imágenes pista para reconocimiento de letras',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/alphabet train/Tren del Alfabeto 1.webp',
+        src: '/samples/spanish/alphabet train/tren-del-alfabeto-1.webp',
         alt: 'Ficha colorida de tren del abecedario con actividad de asociación imagen-letra para usuarios pequeños',
         caption: 'Formato de vagones de tren con asociación imagen-letra',
       },
       {
-        src: '/samples/spanish/alphabet train/Tren del Alfabeto 2.webp',
+        src: '/samples/spanish/alphabet train/tren-del-alfabeto-2.webp',
         alt: 'Ficha de tren del abecedario con imágenes temáticas y múltiples tareas de asociación de pistas',
         caption: 'Imágenes temáticas con número de pistas configurable',
       },
       {
-        src: '/samples/spanish/alphabet train/Tren del Alfabeto 3.webp',
+        src: '/samples/spanish/alphabet train/tren-del-alfabeto-3.webp',
         alt: 'Ficha avanzada de tren del abecedario con 11 pistas para máxima dificultad en reconocimiento de letras',
         caption: 'Dificultad completa con 11 pistas para usuarios avanzados',
       },

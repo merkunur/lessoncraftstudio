@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/chart%20count/Billediagram%201.webp', alt: 'Billedgraf-arbejdsark med spredt 4×5 billedgitter og søjlediagram til tælle- og graføvelse' },
+    heroImage: { src: '/samples/danish/chart%20count/billediagram%201.webp', alt: 'Billedgraf-arbejdsark med spredt 4×5 billedgitter og søjlediagram til tælle- og graføvelse' },
     samples: [
-      { src: '/samples/danish/chart%20count/Billediagram%201.webp', alt: 'Billediagram — dansk eksempelarbejdsark', caption: 'Billediagram eksempel 1' },
-      { src: '/samples/danish/chart%20count/Billediagram%202.webp', alt: 'Billediagram — dansk eksempel 2', caption: 'Billediagram eksempel 2' },
-      { src: '/samples/danish/chart%20count/Billediagram%203.webp', alt: 'Billediagram — dansk eksempel 3', caption: 'Billediagram eksempel 3' },
+      { src: '/samples/danish/chart%20count/billediagram%201.webp', alt: 'Billediagram — dansk eksempelarbejdsark', caption: 'Billediagram eksempel 1' },
+      { src: '/samples/danish/chart%20count/billediagram%202.webp', alt: 'Billediagram — dansk eksempel 2', caption: 'Billediagram eksempel 2' },
+      { src: '/samples/danish/chart%20count/billediagram%203.webp', alt: 'Billediagram — dansk eksempel 3', caption: 'Billediagram eksempel 3' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Sådan generator du tælle- og grafarbejdsark — Komplet vejledning',

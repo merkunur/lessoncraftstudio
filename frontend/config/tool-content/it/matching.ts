@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/matching/Trova le Coppie 1.webp',
+      primary: '/samples/italian/matching/trova-le-coppie-1.webp',
       primaryAlt: 'Scheda di abbinamento traccia-una-linea con immagini tematiche disposte in due colonne con intestazione localizzata "Trova le Coppie!", numeri elemento e punti decorativi',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/matching/Trova le Coppie 2.webp',
+        src: '/samples/italian/matching/trova-le-coppie-2.webp',
         alt: 'Scheda di abbinamento con immagini a sinistra e lettere iniziali a destra per pratica fonetica in italiano',
         caption: 'Modalità Lettera Iniziale — gli utenti abbinano le immagini alle loro lettere iniziali con visualizzazione maiuscola o minuscola',
       },
       {
-        src: '/samples/italian/matching/Trova le Coppie 3.webp',
+        src: '/samples/italian/matching/trova-le-coppie-3.webp',
         alt: 'Scheda di abbinamento immagine e parola con coppie etichettate su entrambi i lati per attività di rinforzo del vocabolario',
         caption: 'Modalità Immagine+Parola — coppie di immagini etichettate su entrambi i lati per abbinamento vocabolario e riconoscimento parole',
       },
       {
-        src: '/samples/italian/matching/Trova le Coppie 4 answer_key.webp',
+        src: '/samples/italian/matching/trova-le-coppie-4-answer-key.webp',
         alt: 'Chiave di risposta della scheda di abbinamento con linee di collegamento orizzontali disegnate tra le coppie corrette per verifica istantanea',
         caption: 'Chiave di risposta generata automaticamente — linee di collegamento (#555) tra le coppie corrette per verifica istantanea',
       },

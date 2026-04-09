@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/pattern worksheet/Puzzle di Schemi 1.webp',
+      primary: '/samples/italian/pattern worksheet/puzzle-di-schemi-1.webp',
       primaryAlt: 'Scheda di riconoscimento sequenze con esercizi a griglia che mostrano sequenze ripetitive di immagini con caselle vuote e opzioni a scelta multipla da completare',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/pattern worksheet/Puzzle di Schemi 2.webp',
+        src: '/samples/italian/pattern worksheet/puzzle-di-schemi-2.webp',
         alt: 'Scheda sequenze con esercizi AB a casella vuota usando immagini di animali in un layout a griglia con spazi vuoti da completare',
         caption: 'Esercizi AB a casella vuota con tema animali — gli utenti identificano lo schema alternato e inseriscono l\'immagine mancante',
       },
       {
-        src: '/samples/italian/pattern worksheet/Puzzle di Schemi 3.webp',
+        src: '/samples/italian/pattern worksheet/puzzle-di-schemi-3.webp',
         alt: 'Scheda sequenze con esercizi ABC a scelta multipla usando immagini di veicoli con tre opzioni di risposta per esercizio',
         caption: 'Esercizi ABC a scelta multipla con tema veicoli — gli utenti scelgono l\'elemento mancante corretto tra tre opzioni',
       },
       {
-        src: '/samples/italian/pattern worksheet/Puzzle di Schemi 4.webp',
+        src: '/samples/italian/pattern worksheet/puzzle-di-schemi-4.webp',
         alt: 'Scheda sequenze con esercizi a difficoltà mista che combinano diversi tipi di schema e modalità di domanda sulla stessa pagina',
         caption: 'Esercizi a difficoltà mista — configurazione per esercizio combina tipi di schema e modalità diverse su una singola pagina',
       },

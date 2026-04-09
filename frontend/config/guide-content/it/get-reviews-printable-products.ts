@@ -175,22 +175,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/italian/matching/Trova le Coppie 1.webp',
+      src: '/samples/italian/matching/trova-le-coppie-1.webp',
       alt: 'Scheda professionale di abbinamento che dimostra la qualità del prodotto che ottiene recensioni positive dagli acquirenti',
     },
     samples: [
       {
-        src: '/samples/italian/matching/Trova le Coppie 1.webp',
+        src: '/samples/italian/matching/trova-le-coppie-1.webp',
         alt: 'Scheda di abbinamento che mostra la qualità visiva che genera recensioni positive dagli acquirenti',
         caption: 'Le schede di abbinamento di alta qualità ottengono naturalmente recensioni positive grazie all\'attrattiva visiva e al valore educativo',
       },
       {
-        src: '/samples/italian/coloring/coloring portrait 1.webp',
+        src: '/samples/italian/coloring/coloring-portrait-1.webp',
         alt: 'Pagina da colorare che dimostra la qualità di design professionale che motiva il feedback degli acquirenti',
         caption: 'Le pagine da colorare professionali generano recensioni perché gli acquirenti possono vedere e apprezzare immediatamente la qualità del design',
       },
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
+        src: '/samples/italian/wordsearch/cerca-parole-1.webp',
         alt: 'Puzzle di parole intrecciate che mostra il formato di prodotto popolare che genera un alto volume di recensioni',
         caption: 'Le parole intrecciate generano un alto volume di vendite e tassi di recensione positiva costanti in tutte le fasce d\'età',
       },

@@ -264,22 +264,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/bingo/Bingo de Imagenes 1.webp',
+      primary: '/samples/portuguese/bingo/bingo-de-imagenes-1.webp',
       primaryAlt: 'Cartela de bingo com imagens temáticas numa grade e atividades circulares com bordas tracejadas abaixo',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/bingo/Bingo de Imagenes 2.webp',
+        src: '/samples/portuguese/bingo/bingo-de-imagenes-2.webp',
         alt: 'Cartela de bingo com preenchimento de imagens mostrando ilustrações temáticas coloridas nas células e atividades circulares com imagens',
         caption: 'Modo preenchimento de imagens — ilustrações coloridas nas células e nas atividades circulares',
       },
       {
-        src: '/samples/portuguese/bingo/Bingo de Imagenes 3.webp',
+        src: '/samples/portuguese/bingo/bingo-de-imagenes-3.webp',
         alt: 'Cartela de bingo com preenchimento de palavras mostrando nomes localizados de imagens nas células e atividades com palavras',
         caption: 'Modo preenchimento de palavras — nomes localizados de imagens para bingo baseado em vocabulário',
       },
       {
-        src: '/samples/portuguese/bingo/Bingo de Imagenes 4.webp',
+        src: '/samples/portuguese/bingo/bingo-de-imagenes-4.webp',
         alt: 'Folha de chamada de bingo com grade dinâmica de palavras mostrando todos os elementos do jogo para o chamador',
         caption: 'Folha de chamada — grade dinâmica de palavras para a pessoa que dirige o jogo de bingo',
       },

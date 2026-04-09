@@ -228,22 +228,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%201.webp',
+      primary: '/samples/finnish/find%20objects/l%c3%b6yd%c3%a4%20piilotetut%20esineet%201.webp',
       primaryAlt: 'Piiloesineiden Etsi ja Löydä -työlehti hajautetuilla kuvilla päällekkäisyyttä välttävällä algoritmilla sijoitettuna, legenda alaosassa näyttäen etsittävät esineet ja koristeellinen otsikko',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%202.webp',
+        src: '/samples/finnish/find%20objects/l%c3%b6yd%c3%a4%20piilotetut%20esineet%202.webp',
         alt: 'Etsi ja Löydä -piiloesineiden kohtaus hajautetuilla kuvilla ja legendalla näyttäen kohdeobjektit alaosassa',
         caption: 'Etsi ja Löydä -tila — vapaasti hajautettu piiloesineiden kohtaus legendanäytöllä',
       },
       {
-        src: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%203.webp',
+        src: '/samples/finnish/find%20objects/l%c3%b6yd%c3%a4%20piilotetut%20esineet%203.webp',
         alt: 'Kumpi Ei Kuulu -työlehti paritetuilla kuvilla riveissä ja parittomilla kohteilla tunnistettavaksi',
         caption: 'Kumpi Ei Kuulu -tila — paritettuja kuvia parittomilla kohteilla visuaaliseen erotteluun',
       },
       {
-        src: '/samples/finnish/find%20objects/L%C3%B6yd%C3%A4%20Piilotetut%20Esineet%201%20answer_key.webp',
+        src: '/samples/finnish/find%20objects/l%c3%b6yd%c3%a4%20piilotetut%20esineet%201%20answer-key.webp',
         alt: 'Piiloesineiden työlehden vastausavain punaisilla ympyröillä kohdeobjektien ympärillä',
         caption: 'Automaattisesti luotu vastausavain — punaiset ympyrät merkitsevät piiloesineet ja parittomat kohteet',
       },

@@ -185,12 +185,12 @@ const content: GuideContent = {
         caption: 'Las fichas de escritura contienen expresión creativa original sustancial en su texto instructivo y diseño',
       },
       {
-        src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp',
+        src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp',
         alt: 'Puzle de sopa de letras con imágenes temáticas demostrando arreglo creativo de contenido imprimible',
         caption: 'Los puzles de sopa de letras demuestran arreglo creativo protegible de elementos de vocabulario',
       },
       {
-        src: '/samples/spanish/coloring/coloring portrait 1.webp',
+        src: '/samples/spanish/coloring/coloring-portrait-1.webp',
         alt: 'Página para colorear con diseño de ilustración temática original',
         caption: 'Las páginas para colorear tienen posiciones fuertes de derechos de autor debido a la originalidad visual de sus diseños',
       },

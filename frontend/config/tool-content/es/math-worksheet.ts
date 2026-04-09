@@ -215,22 +215,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp',
+      primary: '/samples/spanish/math worksheet/hoja-de-matemáticas-3.webp',
       primaryAlt: 'Ficha de puzzle de álgebra con símbolos de imágenes como variables desconocidas en ecuaciones enlazadas',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/math worksheet/Hoja de Matemáticas 1.webp',
+        src: '/samples/spanish/math worksheet/hoja-de-matemáticas-1.webp',
         alt: 'Puzzle de álgebra visual con dos símbolos de imágenes y ecuaciones de suma para principiantes',
         caption: 'Modo Muy Fácil — dos símbolos con suma sencilla',
       },
       {
-        src: '/samples/spanish/math worksheet/Hoja de Matemáticas 2.webp',
+        src: '/samples/spanish/math worksheet/hoja-de-matemáticas-2.webp',
         alt: 'Puzzle de álgebra con imágenes de dificultad intermedia con tres variables en ecuaciones enlazadas',
         caption: 'Dificultad Intermedio — tres incógnitas en ecuaciones enlazadas',
       },
       {
-        src: '/samples/spanish/math worksheet/Hoja de Matemáticas 3.webp',
+        src: '/samples/spanish/math worksheet/hoja-de-matemáticas-3.webp',
         alt: 'Ficha de puzzles de álgebra difícil con cuatro incógnitas simultáneas y operaciones mixtas',
         caption: 'Modo Difícil — cuatro variables con suma y resta',
       },

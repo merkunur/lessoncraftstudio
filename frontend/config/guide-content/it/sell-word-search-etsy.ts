@@ -188,11 +188,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Cerca parole con griglia di vocabolario tematico che mostra parole nascoste per la vendita su Etsy' },
+    heroImage: { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Cerca parole con griglia di vocabolario tematico che mostra parole nascoste per la vendita su Etsy' },
     samples: [
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Cerca parole a tema animali creata per inserzione di download digitale Etsy', caption: 'Cerca parole con tema vocabolario animali — formato basato su griglia che crea foto accattivanti per le inserzioni Etsy' },
-      { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Cruciverba che completa i prodotti cerca parole in un negozio Etsy di puzzle', caption: 'Cruciverba — compagno naturale di cross-selling per le inserzioni di cerca parole nel tuo negozio Etsy' },
-      { src: '/samples/italian/word scramble/Lettere Mescolate 1.webp', alt: 'Anagramma che mostra formato complementare per bundle di puzzle Etsy', caption: 'Anagramma — attività rapida di vocabolario che aggiunge varietà ai bundle multi-formato' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Cerca parole a tema animali creata per inserzione di download digitale Etsy', caption: 'Cerca parole con tema vocabolario animali — formato basato su griglia che crea foto accattivanti per le inserzioni Etsy' },
+      { src: '/samples/italian/crossword/cruciverba-con-immagini-1.webp', alt: 'Cruciverba che completa i prodotti cerca parole in un negozio Etsy di puzzle', caption: 'Cruciverba — compagno naturale di cross-selling per le inserzioni di cerca parole nel tuo negozio Etsy' },
+      { src: '/samples/italian/word scramble/lettere-mescolate-1.webp', alt: 'Anagramma che mostra formato complementare per bundle di puzzle Etsy', caption: 'Anagramma — attività rapida di vocabolario che aggiunge varietà ai bundle multi-formato' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Come Creare Cerca Parole per la Vendita su Etsy — Tutorial Passo dopo Passo',

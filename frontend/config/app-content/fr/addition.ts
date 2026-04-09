@@ -261,22 +261,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/addition/Addition Amusant 1.webp',
+      primary: '/samples/french/addition/addition-amusant-1.webp',
       primaryAlt: 'Fiche d\'addition avec des images colorées d\'animaux en mode Image + Image',
     },
     sampleGallery: [
       {
-        src: '/samples/french/addition/Addition Amusant 1.webp',
+        src: '/samples/french/addition/addition-amusant-1.webp',
         alt: 'Fiche d\'addition portrait en mode Image + Image avec thème animaux',
         caption: 'Mode Image + Image — les utilisateurs comptent deux groupes d\'images et écrivent la somme',
       },
       {
-        src: '/samples/french/addition/Addition Amusant 2.webp',
+        src: '/samples/french/addition/addition-amusant-2.webp',
         alt: 'Fiche d\'addition paysage en mode Image + Nombre avec thème nourriture',
         caption: 'Mode Image + Nombre — associe des groupes d\'images à des chiffres',
       },
       {
-        src: '/samples/french/addition/Addition Amusant 4.webp',
+        src: '/samples/french/addition/addition-amusant-4.webp',
         alt: 'Fiche d\'addition en mode Trouver l\'Addende avec thème véhicules',
         caption: 'Mode Trouver l\'Addende — les utilisateurs trouvent le groupe manquant pour l\'algèbre précoce',
       },

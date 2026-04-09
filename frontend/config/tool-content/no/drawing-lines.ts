@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/drawing%20lines/Linjetegnings%C3%B8velse%201.webp',
+      primary: '/samples/norwegian/drawing%20lines/linjetegnings%c3%b8velse%201.webp',
       primaryAlt: 'Linjesporing arbeidsark med SVG-kurvemal som forbinder matchede fargerike bildepar i liggende format',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/drawing%20lines/Linjetegnings%C3%B8velse%201.webp',
+        src: '/samples/norwegian/drawing%20lines/linjetegnings%c3%b8velse%201.webp',
         alt: 'Linjesporing arbeidsark med kurvemal som forbinder matchede dyrebildepar i liggende orientering',
         caption: 'Kurvemal — flytende linjestier med 4 fargerike bildepar i liggende orientering',
       },
       {
-        src: '/samples/norwegian/drawing%20lines/Linjetegnings%C3%B8velse%202.webp',
+        src: '/samples/norwegian/drawing%20lines/linjetegnings%c3%b8velse%202.webp',
         alt: 'Linjesporing arbeidsark med diagonal mal som forbinder fem bildepar i stående orientering',
         caption: 'Diagonal mal — vinklede linjer med 5 bildepar for kryssende kroppskoordineringsøvelse',
       },
       {
-        src: '/samples/norwegian/drawing%20lines/Linjetegnings%C3%B8velse%204.webp',
+        src: '/samples/norwegian/drawing%20lines/linjetegnings%c3%b8velse%204.webp',
         alt: 'Linjesporing arbeidsark med vertikal mal som forbinder naturtema bildepar i stående format',
         caption: 'Vertikal mal — ovenfra-og-ned linjer for nybegynner finmotorisk øvelse',
       },

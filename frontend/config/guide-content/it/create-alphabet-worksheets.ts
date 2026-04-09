@@ -188,11 +188,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/alphabet train/Treno dell\'Alfabeto 1.webp', alt: 'Scheda treno dell\'alfabeto con 11 vagoni del treno colorati con lettere e immagini indizio abbinate per il riconoscimento delle lettere' },
+    heroImage: { src: '/samples/italian/alphabet train/Treno dell\'alfabeto-1.webp', alt: 'Scheda treno dell\'alfabeto con 11 vagoni del treno colorati con lettere e immagini indizio abbinate per il riconoscimento delle lettere' },
     samples: [
-      { src: '/samples/italian/alphabet train/Treno dell\'Alfabeto 1.webp', alt: 'Colorata scheda treno dell\'alfabeto con 11 vagoni che trasportano lettere e immagini indizio sparse per l\'abbinamento lettera-immagine', caption: 'Scheda treno dell\'alfabeto con 11 vagoni colorati e indizi abbinamento lettera-immagine' },
-      { src: '/samples/italian/alphabet train/Treno dell\'Alfabeto 4.webp', alt: 'Scheda treno dell\'alfabeto con immagini tematiche e compiti di abbinamento multipli a difficoltà intermedia', caption: 'Treno dell\'alfabeto tematico con numero di indizi configurabile per scala di difficoltà' },
-      { src: '/samples/italian/alphabet train/Treno dell\'Alfabeto 4.webp', alt: 'Scheda treno dell\'alfabeto avanzata con 11 indizi per riconoscimento lettere completo a massima difficoltà', caption: 'Livello di difficoltà completo con 11 indizi per pratica avanzata di riconoscimento lettere' },
+      { src: '/samples/italian/alphabet train/Treno dell\'alfabeto-1.webp', alt: 'Colorata scheda treno dell\'alfabeto con 11 vagoni che trasportano lettere e immagini indizio sparse per l\'abbinamento lettera-immagine', caption: 'Scheda treno dell\'alfabeto con 11 vagoni colorati e indizi abbinamento lettera-immagine' },
+      { src: '/samples/italian/alphabet train/Treno dell\'alfabeto-4.webp', alt: 'Scheda treno dell\'alfabeto con immagini tematiche e compiti di abbinamento multipli a difficoltà intermedia', caption: 'Treno dell\'alfabeto tematico con numero di indizi configurabile per scala di difficoltà' },
+      { src: '/samples/italian/alphabet train/Treno dell\'alfabeto-4.webp', alt: 'Scheda treno dell\'alfabeto avanzata con 11 indizi per riconoscimento lettere completo a massima difficoltà', caption: 'Livello di difficoltà completo con 11 indizi per pratica avanzata di riconoscimento lettere' },
     ],
     youtubeId: '_dDQegRq9JQ',
     videoTitle: 'Come Creare Schede Treno dell\'Alfabeto — Tutorial Completo',

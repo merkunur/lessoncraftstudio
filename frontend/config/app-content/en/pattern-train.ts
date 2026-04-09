@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/pattern train/pattern_train_worksheet.webp',
+      primary: '/samples/english/pattern train/pattern-train-worksheet.webp',
       primaryAlt: 'Pattern train worksheet with themed train wagons showing AB repeating pattern with one missing wagon to complete',
     },
     sampleGallery: [
       {
-        src: '/samples/english/pattern train/pattern_train_worksheet (1).webp',
+        src: '/samples/english/pattern train/pattern-train-worksheet-1.webp',
         alt: 'Pattern train worksheet in AB alternating pattern mode with animal images across 11 themed train wagons',
         caption: 'AB pattern with animal theme — identify the alternating sequence and fill in the missing wagon',
       },
       {
-        src: '/samples/english/pattern train/pattern_train_worksheet (5).webp',
+        src: '/samples/english/pattern train/pattern-train-worksheet-5.webp',
         alt: 'Pattern train worksheet in ABC three-element pattern mode with vehicle images across themed train wagons',
         caption: 'ABC pattern with vehicle theme — three rotating items create a more complex repeating sequence',
       },
       {
-        src: '/samples/english/pattern train/pattern_train_answer_key.webp',
+        src: '/samples/english/pattern train/pattern-train-answer-key.webp',
         alt: 'Pattern train answer key showing all 11 wagons filled with the correct pattern sequence',
         caption: 'Answer key view — all 11 wagons filled with the correct pattern for instant verification',
       },

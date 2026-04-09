@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/math worksheet/Math Worksheet 10.webp',
+      src: '/samples/english/math worksheet/math-worksheet-10.webp',
       alt: 'Professionellt mattearbetsblad som demonstrerar snabb automatiserad skapande för utskriftsbar företagseffektivitet',
     },
     samples: [
       {
-        src: '/samples/english/math worksheet/Math Worksheet 10.webp',
+        src: '/samples/english/math worksheet/math-worksheet-10.webp',
         alt: 'Mattearbetsblad som visar kvaliteten på automatiserad produktion',
         caption: 'Arbetsbladsgenratorer automatiserar det mest tidskrävande steget i utskriftsbar produktion',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/english/addition/addition-fun-1.webp',
         alt: 'Additionsarbetsblad som demonstrerar batchproduktion med temavariationer',
         caption: 'Batchproduktion av temavariationer multiplicerar katalogproduktionen effektivt',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/english/wordsearch/wordsearch-portrait.webp',
         alt: 'Ordsökspussel som visar systematiskt innehållsskapande över teman',
         caption: 'Systematisk variation över teman och språk skalar katalogtillväxt',
       },

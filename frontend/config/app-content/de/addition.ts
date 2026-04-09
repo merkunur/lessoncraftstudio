@@ -261,22 +261,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/addition/Additionsspa 1.webp',
+      primary: '/samples/german/addition/additionsspa-1.webp',
       primaryAlt: 'Additions-Arbeitsblatt mit bunten Tierbildern im Bild + Bild-Übungsmodus',
     },
     sampleGallery: [
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: '/samples/german/addition/additionsspa-1.webp',
         alt: 'Hochformat-Additions-Arbeitsblatt im Bild + Bild-Modus mit Tierthema',
         caption: 'Bild + Bild-Modus — Nutzer zählen zwei Bildergruppen und schreiben die Summe',
       },
       {
-        src: '/samples/german/addition/Additionsspa 2.webp',
+        src: '/samples/german/addition/additionsspa-2.webp',
         alt: 'Querformat-Additions-Arbeitsblatt im Bild + Zahl-Modus mit Essensthema',
         caption: 'Bild + Zahl-Modus — verbindet Bildergruppen mit Ziffern für Brückenbildung',
       },
       {
-        src: '/samples/german/addition/Additionsspa 3.webp',
+        src: '/samples/german/addition/additionsspa-3.webp',
         alt: 'Additions-Arbeitsblatt im Summand-finden-Modus mit Fahrzeugthema',
         caption: 'Summand-finden-Modus — Nutzer ermitteln die fehlende Gruppe für frühe Algebra',
       },

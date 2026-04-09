@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/danish/sudoku/Billede-Sudoku%201.webp', alt: 'Sudoku-puslespil-arbejdsark der demonstrerer KDP aktivitetsbogindhold til omsætningsgenerering' },
+    heroImage: { src: '/samples/danish/sudoku/billede-sudoku%201.webp', alt: 'Sudoku-puslespil-arbejdsark der demonstrerer KDP aktivitetsbogindhold til omsætningsgenerering' },
     samples: [
-      { src: '/samples/danish/sudoku/Billede-Sudoku%201.webp', alt: 'Billede-Sudoku — dansk eksempelarbejdsark', caption: 'Billede-Sudoku eksempel 1' },
-      { src: '/samples/danish/sudoku/Billede-Sudoku%202.webp', alt: 'Billede-Sudoku — dansk eksempel 2', caption: 'Billede-Sudoku eksempel 2' },
-      { src: '/samples/danish/sudoku/Billede-Sudoku%203.webp', alt: 'Billede-Sudoku — dansk eksempel 3', caption: 'Billede-Sudoku eksempel 3' },
+      { src: '/samples/danish/sudoku/billede-sudoku%201.webp', alt: 'Billede-Sudoku — dansk eksempelarbejdsark', caption: 'Billede-Sudoku eksempel 1' },
+      { src: '/samples/danish/sudoku/billede-sudoku%202.webp', alt: 'Billede-Sudoku — dansk eksempel 2', caption: 'Billede-Sudoku eksempel 2' },
+      { src: '/samples/danish/sudoku/billede-sudoku%203.webp', alt: 'Billede-Sudoku — dansk eksempel 3', caption: 'Billede-Sudoku eksempel 3' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Sådan generator du sudoku-aktivitetsbøger til Amazon KDP — Omsætningsopbyggende vejledning',

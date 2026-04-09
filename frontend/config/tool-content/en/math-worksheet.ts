@@ -212,22 +212,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/math worksheet/Math Worksheet 10.webp',
+      primary: '/samples/english/math worksheet/math-worksheet-10.webp',
       primaryAlt: 'Algebra picture puzzle worksheet with image symbols as unknown variables in linked equations',
     },
     sampleGallery: [
       {
-        src: '/samples/english/math worksheet/Math Worksheet 1.webp',
+        src: '/samples/english/math worksheet/math-worksheet-1.webp',
         alt: 'Visual algebra puzzle with two image symbols and addition equations for beginners',
         caption: 'Very Easy mode — two symbols with simple addition',
       },
       {
-        src: '/samples/english/math worksheet/Math Worksheet 5.webp',
+        src: '/samples/english/math worksheet/math-worksheet-5.webp',
         alt: 'Medium difficulty algebra picture puzzle with three image variables across linked equations',
         caption: 'Medium difficulty — three unknowns in linked equations',
       },
       {
-        src: '/samples/english/math worksheet/Math Worksheet 10.webp',
+        src: '/samples/english/math worksheet/math-worksheet-10.webp',
         alt: 'Hard algebra puzzle worksheet with four simultaneous unknowns and mixed operations',
         caption: 'Hard mode — four variables with addition and subtraction',
       },

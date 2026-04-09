@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/portuguese/bingo/Bingo de Imagenes 1.webp',
+      src: '/samples/portuguese/bingo/bingo-de-imagenes-1.webp',
       alt: 'Cartão de bingo a demonstrar um produto imprimível sazonal ideal para campanhas de marketing de festividades',
     },
     samples: [
       {
-        src: '/samples/portuguese/bingo/Bingo de Imagenes 2.webp',
+        src: '/samples/portuguese/bingo/bingo-de-imagenes-2.webp',
         alt: 'Cartão de bingo a mostrar um produto imprimível sazonal para eventos de festividades e celebrações',
         caption: 'Os cartões de bingo adaptam-se a todos os temas sazonais, tornando-os produtos ideais para marketing sazonal ao longo do ano',
       },
       {
-        src: '/samples/portuguese/coloring/coloring landscape 1.webp',
+        src: '/samples/portuguese/coloring/coloring-landscape-1.webp',
         alt: 'Página para colorir a demonstrar conteúdo imprimível sazonal para anúncios de festividades no marketplace',
         caption: 'As páginas para colorir sazonais são consistentemente os melhores vendedores durante os picos de procura de festividades em todos os marketplaces de imprimíveis',
       },
       {
-        src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
+        src: '/samples/portuguese/wordsearch/caça-palavras-1.webp',
         alt: 'Puzzle de sopa de letras a mostrar imprimível sazonal de desenvolvimento de vocabulário para marketing de festividades',
         caption: 'As sopas de letras temáticas combinam apelo sazonal com valor educativo para um forte desempenho sazonal no marketplace',
       },

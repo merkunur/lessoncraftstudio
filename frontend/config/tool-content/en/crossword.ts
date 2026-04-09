@@ -207,17 +207,17 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/crossword/crossword_worksheet.webp',
+      primary: '/samples/english/crossword/crossword-worksheet.webp',
       primaryAlt: 'Picture crossword puzzle with image clues alongside a 15 by 15 crossword grid with numbered clue positions and localized blue header',
     },
     sampleGallery: [
       {
-        src: '/samples/english/crossword/crossword_worksheet (1).webp',
+        src: '/samples/english/crossword/crossword-worksheet-1.webp',
         alt: 'Custom word list crossword with text clues and crossword grid showing WORD clue format input method',
         caption: 'Custom Word List mode — traditional text-clue crosswords with your own vocabulary',
       },
       {
-        src: '/samples/english/crossword/crossword_worksheet (5).webp',
+        src: '/samples/english/crossword/crossword-worksheet-5.webp',
         alt: 'Crossword puzzle answer key with all correct letters filled into the 15 by 15 grid cells',
         caption: 'Auto-generated answer key — filled grid shows all correct answers for self-checking',
       },

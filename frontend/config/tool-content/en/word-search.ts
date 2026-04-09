@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/wordsearch/wordsearch portrait.webp',
+      primary: '/samples/english/wordsearch/wordsearch-portrait.webp',
       primaryAlt: 'Word search worksheet with hidden words embedded in a letter grid and themed image clues for vocabulary puzzle practice',
     },
     sampleGallery: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/english/wordsearch/wordsearch-portrait.webp',
         alt: 'Word search worksheet in portrait layout with 12x12 letter grid and themed image clues',
         caption: 'Portrait layout — 12×12 grid with themed image clues and word list',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch landscape.webp',
+        src: '/samples/english/wordsearch/wordsearch-landscape.webp',
         alt: 'Word search worksheet in landscape layout with larger grid and diagonal words enabled',
         caption: 'Landscape layout — wider grid with diagonal and reverse words enabled',
       },
       {
-        src: '/samples/english/wordsearch/custom word list.webp',
+        src: '/samples/english/wordsearch/custom-word-list.webp',
         alt: 'Word search worksheet using custom word list mode without images for text-only puzzles',
         caption: 'Custom Word List mode — text-only word search without image clues',
       },

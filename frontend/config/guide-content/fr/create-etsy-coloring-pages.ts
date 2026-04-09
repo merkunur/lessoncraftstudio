@@ -179,11 +179,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Page de coloriage avec illustrations thématiques montrant le dessin au trait N&B pour vendre sur Etsy' },
+    heroImage: { src: '/samples/french/coloring/coloring-portrait-1.webp', alt: 'Page de coloriage avec illustrations thématiques montrant le dessin au trait N&B pour vendre sur Etsy' },
     samples: [
-      { src: '/samples/french/coloring/coloring portrait 2.webp', alt: 'Page de coloriage thème animaux créée pour une annonce Etsy en téléchargement numérique', caption: 'Coloriage animaux de la bibliothèque d\'images thématiques — dessin au trait N&B net pour des photos d\'annonces Etsy accrocheuses' },
-      { src: '/samples/french/coloring/coloring portrait 4.webp', alt: 'Page de coloriage thème nature montrant des compositions détaillées pour les marchés adulte et enfants', caption: 'Coloriage nature — thème polyvalent qui attire à la fois les acheteurs de coloriages enfants et adultes sur Etsy' },
-      { src: '/samples/french/coloring/coloring portrait 3.webp', alt: 'Page de coloriage thème fêtes démontrant un produit saisonnier pour les pics de demande Etsy', caption: 'Coloriage fêtes — les thèmes saisonniers génèrent des pics de demande majeurs sur Etsy tout au long de l\'année' },
+      { src: '/samples/french/coloring/coloring-portrait-2.webp', alt: 'Page de coloriage thème animaux créée pour une annonce Etsy en téléchargement numérique', caption: 'Coloriage animaux de la bibliothèque d\'images thématiques — dessin au trait N&B net pour des photos d\'annonces Etsy accrocheuses' },
+      { src: '/samples/french/coloring/coloring-portrait-4.webp', alt: 'Page de coloriage thème nature montrant des compositions détaillées pour les marchés adulte et enfants', caption: 'Coloriage nature — thème polyvalent qui attire à la fois les acheteurs de coloriages enfants et adultes sur Etsy' },
+      { src: '/samples/french/coloring/coloring-portrait-3.webp', alt: 'Page de coloriage thème fêtes démontrant un produit saisonnier pour les pics de demande Etsy', caption: 'Coloriage fêtes — les thèmes saisonniers génèrent des pics de demande majeurs sur Etsy tout au long de l\'année' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Comment créer des pages de coloriage pour vendre sur Etsy — Tutoriel pas à pas',

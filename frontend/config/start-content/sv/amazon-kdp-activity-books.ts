@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-pussel arbetsblad exempel för Amazon KDP aktivitetsbok-publicering' },
+    heroImage: { src: '/samples/english/sudoku/sudoku-worksheet.webp', alt: 'Sudoku-pussel arbetsblad exempel för Amazon KDP aktivitetsbok-publicering' },
     samples: [
-      { src: '/samples/english/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-pussel arbetsblad för KDP aktivitetsbok-interiör', caption: 'Sudoku — topp KDP-pusselkategori' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsökspussel för Amazon KDP aktivitetsbok', caption: 'Ordsök — KDP bästsäljarkategori' },
-      { src: '/samples/english/math puzzle/Math Puzzles.webp', alt: 'Mattepussel arbetsblad för KDP arbetsbok-interiör', caption: 'Mattepussel — vintergrönt KDP-nisch' },
-      { src: '/samples/english/crossword/crossword_worksheet.webp', alt: 'Korsordspussel arbetsblad för KDP aktivitetsbok', caption: 'Korsord — klassiskt aktivitetsbokformat' },
+      { src: '/samples/english/sudoku/sudoku-worksheet.webp', alt: 'Sudoku-pussel arbetsblad för KDP aktivitetsbok-interiör', caption: 'Sudoku — topp KDP-pusselkategori' },
+      { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsökspussel för Amazon KDP aktivitetsbok', caption: 'Ordsök — KDP bästsäljarkategori' },
+      { src: '/samples/english/math puzzle/math-puzzles.webp', alt: 'Mattepussel arbetsblad för KDP arbetsbok-interiör', caption: 'Mattepussel — vintergrönt KDP-nisch' },
+      { src: '/samples/english/crossword/crossword-worksheet.webp', alt: 'Korsordspussel arbetsblad för KDP aktivitetsbok', caption: 'Korsord — klassiskt aktivitetsbokformat' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Hur man skapar Sudoku-pussel arbetsblad — LessonCraftStudio demo',

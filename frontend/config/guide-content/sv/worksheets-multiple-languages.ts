@@ -186,12 +186,12 @@ const content: GuideContent = {
         caption: 'Ordsökningsarbetsblad demonstrerar vikten av korrekt teckenhantering över språk',
       },
       {
-        src: '/samples/swedish/addition/addition_%C3%B6vning.webp',
+        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
         alt: 'Mattearbetsblad som visar universellt innehåll med språkspecifika instruktioner',
         caption: 'Mattearbetsblad kräver minimal språkanpassning — siffror är universella medan bara instruktioner översätts',
       },
       {
-        src: '/samples/swedish/matching/Matchningsspel.webp',
+        src: '/samples/swedish/matching/matchningsspel.webp',
         alt: 'Matchningsarbetsblad som visar flerspråkig produktion med visuella och textelement',
         caption: 'Matchningsarbetsblad kombinerar visuella element med språkspecifikt ordförråd för internationella marknader',
       },

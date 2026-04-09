@@ -270,22 +270,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/code%20addition/Hemmelig%20Kode%20Addisjon%201.webp',
+      primary: '/samples/norwegian/code%20addition/hemmelig%20kode%20addisjon%201.webp',
       primaryAlt: 'Kodeaddisjons arbeidsark med dyrebilder som skjuler hemmelige numre i et kodeknekningspuslespill',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/code%20addition/Hemmelig%20Kode%20Addisjon%201.webp',
+        src: '/samples/norwegian/code%20addition/hemmelig%20kode%20addisjon%201.webp',
         alt: 'Kodeaddisjons arbeidsark i Klassisk Modus med tematiske dyrebilder som kodesymboler',
         caption: 'Klassisk Modus — brukerne knekker koden ved å finne ut hvilket nummer hvert bilde forestiller',
       },
       {
-        src: '/samples/norwegian/code%20addition/Hemmelig%20Kode%20Addisjon%202.webp',
+        src: '/samples/norwegian/code%20addition/hemmelig%20kode%20addisjon%202.webp',
         alt: 'Kodeaddisjons arbeidsark med annet visuelt tema som viser kryptaritmetiske ligninger med bilder',
         caption: 'Flersymbolsutfordring — flere bilder øker kompleksiteten i deduksjonen',
       },
       {
-        src: '/samples/norwegian/code%20addition/Hemmelig%20Kode%20Addisjon%203.webp',
+        src: '/samples/norwegian/code%20addition/hemmelig%20kode%20addisjon%203.webp',
         alt: 'Kodeaddisjonspuslespill med fargerike tematiske bilder og ligninger',
         caption: 'Tematiske puslespill — 104 visuelle temaer gjør hvert arbeidsark unikt og engasjerende',
       },

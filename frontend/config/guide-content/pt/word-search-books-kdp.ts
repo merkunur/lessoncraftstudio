@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Atividade de caça-palavras mostrando grelha de palavras temática adequada para páginas interiores de livros de caça-palavras Amazon KDP' },
+    heroImage: { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Atividade de caça-palavras mostrando grelha de palavras temática adequada para páginas interiores de livros de caça-palavras Amazon KDP' },
     samples: [
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Puzzle de caça-palavras temático de animais formatado para livro de caça-palavras KDP', caption: 'Puzzle de caça-palavras temático de animais — as listas de palavras temáticas criam conteúdo envolvente que supera coleções de palavras aleatórias nas avaliações dos compradores' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 3.webp', alt: 'Puzzle de caça-palavras temático de alimentação para livro KDP', caption: 'Caça-palavras temático de alimentação — as secções temáticas acrescentam estrutura editorial que distingue livros de caça-palavras profissionais de compilações amadoras' },
-      { src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp', alt: 'Puzzle de palavras cruzadas para catálogo complementar de puzzles KDP', caption: 'Puzzle de palavras cruzadas — tipo de puzzle complementar para diversificação de catálogo e promoção cruzada com títulos de caça-palavras' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-2.webp', alt: 'Puzzle de caça-palavras temático de animais formatado para livro de caça-palavras KDP', caption: 'Puzzle de caça-palavras temático de animais — as listas de palavras temáticas criam conteúdo envolvente que supera coleções de palavras aleatórias nas avaliações dos compradores' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-3.webp', alt: 'Puzzle de caça-palavras temático de alimentação para livro KDP', caption: 'Caça-palavras temático de alimentação — as secções temáticas acrescentam estrutura editorial que distingue livros de caça-palavras profissionais de compilações amadoras' },
+      { src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp', alt: 'Puzzle de palavras cruzadas para catálogo complementar de puzzles KDP', caption: 'Puzzle de palavras cruzadas — tipo de puzzle complementar para diversificação de catálogo e promoção cruzada com títulos de caça-palavras' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Como criar puzzles de caça-palavras para livros Amazon KDP — Tutorial passo a passo',

@@ -51,18 +51,18 @@ export async function GET(request: NextRequest): Promise<NextResponse> {
 
     // Check if hero images exist (server-side, reliable check)
     const [hasPortrait, hasLandscape] = await Promise.all([
-      fileExists(path.join(homepageDir, 'hero-portrait_preview.webp')),
-      fileExists(path.join(homepageDir, 'hero-landscape_preview.webp')),
+      fileExists(path.join(homepageDir, 'hero-portrait-preview.webp')),
+      fileExists(path.join(homepageDir, 'hero-landscape-preview.webp')),
     ]);
 
     const result: HeroImageStatus = {
       hasPortrait,
       hasLandscape,
       portraitUrl: hasPortrait
-        ? `/samples/${language}/homepage/hero-portrait_preview.webp`
+        ? `/samples/${language}/homepage/hero-portrait-preview.webp`
         : '',
       landscapeUrl: hasLandscape
-        ? `/samples/${language}/homepage/hero-landscape_preview.webp`
+        ? `/samples/${language}/homepage/hero-landscape-preview.webp`
         : '',
       language,
     };

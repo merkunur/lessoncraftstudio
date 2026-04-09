@@ -215,16 +215,16 @@ const content: BundleContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp',
+      primary: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp',
       primaryAlt: 'Yhteenlaskutyoarkki temaattisilla kuvilla, jotka nayttavat visuaalisia laskentatehtavia',
     },
     sampleGallery: [
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutyoarkki temaattisilla elainten kuvilla', caption: 'Yhteenlaskutyoarkki' },
-      { src: '/samples/finnish/subtraction/Hauskaa%20V%C3%A4hennyslaskua%201.webp', alt: 'Vahennyslaskutyoarkki yliviivauslaskennalla', caption: 'Vahennyslaskutyoarkki' },
-      { src: '/samples/finnish/code%20addition/Salainen%20Koodi%20Yhteenlasku%201.webp', alt: 'Koodiyhteenlaskupulma kirjainten purkamisella', caption: 'Koodiyhteenlaskupulma' },
-      { src: '/samples/finnish/more%20less/Enemm%C3%A4n%20V%C3%A4hemm%C3%A4n%201.webp', alt: 'Suurempi vai pienempi -vertailutyoarkki', caption: 'Suurempi vai Pienempi -tyoarkki' },
-      { src: '/samples/finnish/math%20puzzle/Matematiikkapulmat%201.webp', alt: 'Palapeliruudukko-matematiikkapulma yhtaloineen', caption: 'Matematiikkapulma' },
-      { src: '/samples/finnish/math%20worksheet/Matematiikkalehti%202.webp', alt: 'Visuaalinen algebrapulma kuvamuuttujilla', caption: 'Matematiikan tyoarkkipulma' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskutyoarkki temaattisilla elainten kuvilla', caption: 'Yhteenlaskutyoarkki' },
+      { src: '/samples/finnish/subtraction/hauskaa%20v%c3%a4hennyslaskua%201.webp', alt: 'Vahennyslaskutyoarkki yliviivauslaskennalla', caption: 'Vahennyslaskutyoarkki' },
+      { src: '/samples/finnish/code%20addition/salainen%20koodi%20yhteenlasku%201.webp', alt: 'Koodiyhteenlaskupulma kirjainten purkamisella', caption: 'Koodiyhteenlaskupulma' },
+      { src: '/samples/finnish/more%20less/enemm%c3%a4n%20v%c3%a4hemm%c3%a4n%201.webp', alt: 'Suurempi vai pienempi -vertailutyoarkki', caption: 'Suurempi vai Pienempi -tyoarkki' },
+      { src: '/samples/finnish/math%20puzzle/matematiikkapulmat%201.webp', alt: 'Palapeliruudukko-matematiikkapulma yhtaloineen', caption: 'Matematiikkapulma' },
+      { src: '/samples/finnish/math%20worksheet/matematiikkalehti%202.webp', alt: 'Visuaalinen algebrapulma kuvamuuttujilla', caption: 'Matematiikan tyoarkkipulma' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Matematiikan mestaripaketti — Katso kaikki 6 generaattoria toiminnassa',

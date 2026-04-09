@@ -185,10 +185,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/crossword/Mots Croisés en Images 1.webp', alt: 'Mots croisés pour enfants avec indices en images montrant du vocabulaire thématique dans une grille croisée' },
+    heroImage: { src: '/samples/french/crossword/mots-croisés-en-images-1.webp', alt: 'Mots croisés pour enfants avec indices en images montrant du vocabulaire thématique dans une grille croisée' },
     samples: [
-      { src: '/samples/french/crossword/Mots Croisés en Images 1.webp', alt: 'Mots croisés pour enfants avec thème animaux montrant grille numérotée et indices en images', caption: 'Mots croisés thématiques avec indices en images pour la pratique du vocabulaire en marché préscolaire et au CP' },
-      { src: '/samples/french/crossword/Mots Croisés en Images 1.webp', alt: 'Corrigé de mots croisés montrant la grille complétée avec toutes les lettres remplies', caption: 'Corrigé automatique généré avec chaque mot croisé' },
+      { src: '/samples/french/crossword/mots-croisés-en-images-1.webp', alt: 'Mots croisés pour enfants avec thème animaux montrant grille numérotée et indices en images', caption: 'Mots croisés thématiques avec indices en images pour la pratique du vocabulaire en marché préscolaire et au CP' },
+      { src: '/samples/french/crossword/mots-croisés-en-images-1.webp', alt: 'Corrigé de mots croisés montrant la grille complétée avec toutes les lettres remplies', caption: 'Corrigé automatique généré avec chaque mot croisé' },
     ],
     youtubeId: 'b3WKDrzif-w',
     videoTitle: 'Comment créer des mots croisés pour enfants — Tutoriel complet',

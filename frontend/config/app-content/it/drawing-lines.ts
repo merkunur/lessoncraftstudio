@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/drawing lines/Pratica del Disegno di Linee 2.webp',
+      primary: '/samples/italian/drawing lines/pratica-del-disegno-di-linee-2.webp',
       primaryAlt: 'Scheda pregrafismo con modello di linea curva che collega coppie di immagini di animali abbinate in formato orizzontale',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/drawing lines/Pratica del Disegno di Linee 3.webp',
+        src: '/samples/italian/drawing lines/pratica-del-disegno-di-linee-3.webp',
         alt: 'Scheda di tracciamento linee con modello di curva che collega coppie di immagini di animali abbinate in orientamento orizzontale',
         caption: 'Modello di curva — gli utenti tracciano linee curve fluide per collegare le coppie di immagini abbinate',
       },
       {
-        src: '/samples/italian/drawing lines/Pratica del Disegno di Linee 4.webp',
+        src: '/samples/italian/drawing lines/pratica-del-disegno-di-linee-4.webp',
         alt: 'Scheda di tracciamento linee con modello di diagonale che collega cinque coppie di immagini in orientamento verticale',
         caption: 'Modello di diagonale — linee angolate con 5 coppie di immagini per pratica di coordinazione bilaterale',
       },
       {
-        src: '/samples/italian/drawing lines/Pratica del Disegno di Linee 5.webp',
+        src: '/samples/italian/drawing lines/pratica-del-disegno-di-linee-5.webp',
         alt: 'Scheda di tracciamento linee con modello orizzontale che collega coppie di immagini a tema natura in formato verticale',
         caption: 'Modello orizzontale — linee rette da sinistra a destra con immagini a tema natura',
       },

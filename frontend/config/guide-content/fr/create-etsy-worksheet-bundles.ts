@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition illustrant un composant essentiel des lots d\'imprimables pédagogiques pour vendeurs Etsy' },
+    heroImage: { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition illustrant un composant essentiel des lots d\'imprimables pédagogiques pour vendeurs Etsy' },
     samples: [
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition thème animaux comme composant de lot de maths pour Etsy', caption: 'Fiche d\'addition thème animaux — un composant essentiel pour les lots de maths par matière sur Etsy' },
-      { src: '/samples/french/subtraction/Soustractions Amusantes 1.webp', alt: 'Fiche de soustraction thème animaux complétant l\'addition dans les lots de maths Etsy', caption: 'Fiche de soustraction thème animaux — se combine avec les fiches d\'addition pour des lots de maths complets' },
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés thème animaux ajoutant de la variété multi-catégories aux lots de fiches Etsy', caption: 'Puzzle de mots cachés thème animaux — ajoute de la valeur en lecture aux lots thématiques multi-catégories' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition thème animaux comme composant de lot de maths pour Etsy', caption: 'Fiche d\'addition thème animaux — un composant essentiel pour les lots de maths par matière sur Etsy' },
+      { src: '/samples/french/subtraction/soustractions-amusantes-1.webp', alt: 'Fiche de soustraction thème animaux complétant l\'addition dans les lots de maths Etsy', caption: 'Fiche de soustraction thème animaux — se combine avec les fiches d\'addition pour des lots de maths complets' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés thème animaux ajoutant de la variété multi-catégories aux lots de fiches Etsy', caption: 'Puzzle de mots cachés thème animaux — ajoute de la valeur en lecture aux lots thématiques multi-catégories' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Comment créer des fiches d\'addition pour les lots Etsy — Stratégie de lots multi-produits',

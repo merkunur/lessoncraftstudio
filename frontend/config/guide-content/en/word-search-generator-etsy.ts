@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search puzzle generated for Etsy printable listing showing themed vocabulary grid' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search puzzle generated for Etsy printable listing showing themed vocabulary grid' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search printable ready for Etsy digital download listing', caption: 'A themed word search puzzle exported as a 300 DPI print-ready PDF for Etsy' },
-      { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search answer key with highlighted solutions', caption: 'Automatic answer key included with every generated puzzle' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Word search printable ready for Etsy digital download listing', caption: 'A themed word search puzzle exported as a 300 DPI print-ready PDF for Etsy' },
+      { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search answer key with highlighted solutions', caption: 'Automatic answer key included with every generated puzzle' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

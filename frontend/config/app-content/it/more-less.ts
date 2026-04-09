@@ -258,22 +258,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/more less/Più Meno 1.webp',
+      primary: '/samples/italian/more less/più-meno-1.webp',
       primaryAlt: 'Scheda Più o Meno con immagini colorate di animali nella modalità Immagine contro Immagine',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/more less/Più Meno 2.webp',
+        src: '/samples/italian/more less/più-meno-2.webp',
         alt: 'Scheda di confronto nella modalità Immagine contro Immagine con tema animali',
         caption: 'Modalità Immagine contro Immagine — gli utenti contano due gruppi di immagini e confrontano le quantità',
       },
       {
-        src: '/samples/italian/more less/Più Meno 3.webp',
+        src: '/samples/italian/more less/più-meno-3.webp',
         alt: 'Scheda di confronto nella modalità Immagine contro Numero con tema cibi',
         caption: 'Modalità Immagine contro Numero — abbina gruppi di immagini a numeri per competenze di transizione',
       },
       {
-        src: '/samples/italian/more less/Più Meno 4.webp',
+        src: '/samples/italian/more less/più-meno-4.webp',
         alt: 'Scheda Segna e Cancella Gruppi con immagini miste per la negozificazione visiva',
         caption: 'Modalità Segna e Cancella Gruppi — gli utenti trovano il gruppo maggioritario in un riquadro di immagini miste',
       },

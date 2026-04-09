@@ -178,9 +178,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Printable picture bingo card set generated for Etsy shop listing with themed images' },
+    heroImage: { src: '/samples/english/bingo/bingo-card.webp', alt: 'Printable picture bingo card set generated for Etsy shop listing with themed images' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Picture bingo card with themed images ready for Etsy listing', caption: 'A unique picture bingo card from a 30-card set -- every card has a different image arrangement' },
+      { src: '/samples/english/bingo/bingo-card.webp', alt: 'Picture bingo card with themed images ready for Etsy listing', caption: 'A unique picture bingo card from a 30-card set -- every card has a different image arrangement' },
       { src: '/samples/english/bingo/callout.webp', alt: 'Bingo caller sheet showing all themed images with labels', caption: 'Caller sheet included with every bingo set -- displays all images used across the cards' },
     ],
     youtubeId: 'd6AOiDXoK1c',

@@ -187,10 +187,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/chart%20count/Bildediagram%202.webp', alt: 'Bildediagram-arbeidsark med spredt 4x5 bilderutenett og stolpediagram for telle- og graferingsovelse' },
+    heroImage: { src: '/samples/norwegian/chart%20count/bildediagram%202.webp', alt: 'Bildediagram-arbeidsark med spredt 4x5 bilderutenett og stolpediagram for telle- og graferingsovelse' },
     samples: [
-      { src: '/samples/norwegian/chart%20count/Bildediagram%202.webp', alt: 'Bildediagram-arbeidsark med 20 spredte ikoner i et 4x5 rutenett og 6-kolonne stolpediagram nedenfor', caption: 'Komplett bildediagram-arbeidsark med spredt bilderutenett og stolpediagram for loser-telleovelse' },
-      { src: '/samples/norwegian/chart%20count/Bildediagram%203.webp', alt: 'Bildediagram-fasit med gulmarkerte celler som viser korrekte tellinger', caption: 'Autogenerert fasit med gulmarkerte celler (#FFC857) som viser korrekt telling for hver bildetype' },
+      { src: '/samples/norwegian/chart%20count/bildediagram%202.webp', alt: 'Bildediagram-arbeidsark med 20 spredte ikoner i et 4x5 rutenett og 6-kolonne stolpediagram nedenfor', caption: 'Komplett bildediagram-arbeidsark med spredt bilderutenett og stolpediagram for loser-telleovelse' },
+      { src: '/samples/norwegian/chart%20count/bildediagram%203.webp', alt: 'Bildediagram-fasit med gulmarkerte celler som viser korrekte tellinger', caption: 'Autogenerert fasit med gulmarkerte celler (#FFC857) som viser korrekt telling for hver bildetype' },
     ],
     youtubeId: 'CDgIihDQX6U',
     videoTitle: 'Hvordan lage telle- og graferingsarbeidsark — komplett veiledning',

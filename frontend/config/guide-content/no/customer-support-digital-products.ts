@@ -88,22 +88,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/norwegian/matching/Finn%20Parene%201.webp',
+      src: '/samples/norwegian/matching/finn%20parene%201.webp',
       alt: 'Profesjonelt matchingsarbeidsark som demonstrerer tydelig produktdesign som forhindrer kundestotte-henvendelser',
     },
     samples: [
       {
-        src: '/samples/norwegian/matching/Finn%20Parene%201.webp',
+        src: '/samples/norwegian/matching/finn%20parene%201.webp',
         alt: 'Matchingsarbeidsark som viser tydelig layout og instruksjoner som reduserer kjopersporsmal',
         caption: 'Tydelig arbeidsarkdesign og omfattende produktbeskrivelser forhindrer vanlige stottehenvendelser',
       },
       {
-        src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp',
+        src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp',
         alt: 'Addisjonsarbeidsark med profesjonell formatering som setter noyaktige kjoperforventninger',
         caption: 'Profesjonell formatering og detaljerte spesifikasjoner eliminerer forventningsfeil',
       },
       {
-        src: '/samples/norwegian/wordsearch/Ordleting%201.webp',
+        src: '/samples/norwegian/wordsearch/ordleting%201.webp',
         alt: 'Ordsoek-puslespill med tematisk innhold som demonstrerer produktklarhet for kjopere',
         caption: 'Innholdsrike produkter drar storst nytte av omfattende dokumentasjon og selvbetjeningsstotte',
       },

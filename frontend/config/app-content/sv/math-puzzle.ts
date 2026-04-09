@@ -263,17 +263,17 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/math%20puzzle/Mattepussel%201.webp',
+      primary: '/samples/swedish/math%20puzzle/mattepussel%201.webp',
       primaryAlt: 'Mattepussel arbetsblad med en färgglad bild uppdelad i rutnätsbitar, var och en med en additionsuppgift',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/math%20puzzle/Mattepussel%202.webp',
+        src: '/samples/swedish/math%20puzzle/mattepussel%202.webp',
         alt: 'Mattepussel arbetsblad med 3×3 additionsrutnät och djurtema',
         caption: 'Additionsläge — 3×3 rutnät med 9 pusselbitar och blandade svar nedanför',
       },
       {
-        src: '/samples/swedish/math%20puzzle/Mattepussel%203.webp',
+        src: '/samples/swedish/math%20puzzle/mattepussel%203.webp',
         alt: 'Mattepussel arbetsblad med 2×3 subtraktionsrutnät och naturtema',
         caption: 'Subtraktionsläge — 2×3 rutnät för en snabb pusselutmaning med 6 bitar',
       },

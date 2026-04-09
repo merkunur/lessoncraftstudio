@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir imprimível para vender recursos educativos no marketplace Creative Fabrica' },
+    heroImage: { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir imprimível para vender recursos educativos no marketplace Creative Fabrica' },
     samples: [
-      { src: '/samples/portuguese/coloring/coloring landscape 2.webp', alt: 'Página para colorir imprimível para a secção Classroom da Creative Fabrica', caption: 'As páginas para colorir fazem a ponte entre artesanato e educação na Creative Fabrica — apelando a audiências de designers e vendedores' },
-      { src: '/samples/portuguese/matching/Encontre os Pares 1.webp', alt: 'Atividade de atividade de correspondência para produtos educativos na Creative Fabrica', caption: 'As atividades de correspondência temáticas são recursos de grande procura na secção Classroom da Creative Fabrica' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Puzzle de caça-palavras imprimível para o marketplace Creative Fabrica', caption: 'Os puzzles de caça-palavras atraem transferências por subscrição de vendedores e pais na Creative Fabrica' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-2.webp', alt: 'Página para colorir imprimível para a secção Classroom da Creative Fabrica', caption: 'As páginas para colorir fazem a ponte entre artesanato e educação na Creative Fabrica — apelando a audiências de designers e vendedores' },
+      { src: '/samples/portuguese/matching/encontre-os-pares-1.webp', alt: 'Atividade de atividade de correspondência para produtos educativos na Creative Fabrica', caption: 'As atividades de correspondência temáticas são recursos de grande procura na secção Classroom da Creative Fabrica' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Puzzle de caça-palavras imprimível para o marketplace Creative Fabrica', caption: 'Os puzzles de caça-palavras atraem transferências por subscrição de vendedores e pais na Creative Fabrica' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Como criar atividades educativas para a Creative Fabrica',

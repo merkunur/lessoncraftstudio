@@ -229,22 +229,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201.webp',
+      primary: '/samples/dutch/crossword/plaatjes%20kruiswoord%201.webp',
       primaryAlt: 'Plaatjes kruiswoordpuzzel met afbeeldingsaanwijzingen op een 15×15 raster met gelokaliseerde Plaatjes Kruiswoordpuzzel koptekst en genummerde aanwijzingsposities',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%202.webp',
+        src: '/samples/dutch/crossword/plaatjes%20kruiswoord%202.webp',
         alt: 'Plaatjes kruiswoordpuzzel met thematische afbeeldingsaanwijzingen naast een 15×15 kruiswoordraster',
         caption: 'Plaatjes kruiswoordpuzzel — afbeeldingsaanwijzingen vervangen traditionele tekstaanwijzingen op een 15×15 raster',
       },
       {
-        src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%203.webp',
+        src: '/samples/dutch/crossword/plaatjes%20kruiswoord%203.webp',
         alt: 'Plaatjes kruiswoordpuzzel met een ander thema en kleurrijke afbeeldingsaanwijzingen',
         caption: 'Themagestuurde generatie — elk thema produceert unieke kruiswoordpuzzels met verschillende afbeeldingsaanwijzingen',
       },
       {
-        src: '/samples/dutch/crossword/Plaatjes%20Kruiswoord%201%20answer_key.webp',
+        src: '/samples/dutch/crossword/plaatjes%20kruiswoord%201%20answer-key.webp',
         alt: 'Kruiswoordpuzzel antwoordblad met alle correcte letters ingevuld in het raster',
         caption: 'Automatisch gegenereerd antwoordblad — ingevuld raster toont alle correcte antwoorden',
       },

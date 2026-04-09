@@ -173,22 +173,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/wordsearch/Woordzoeker%201.webp',
+      src: '/samples/dutch/wordsearch/woordzoeker%201.webp',
       alt: 'Woordzoeker werkblad dat het potentieel van een meertalig printable bedrijf demonstreert over internationale markten',
     },
     samples: [
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker%201.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker%201.webp',
         alt: 'Woordzoekerpuzzel werkblad met meertalige mogelijkheden voor internationale printable verkopen',
         caption: 'Woordzoekerpuzzels kunnen worden gegenereerd in 11 talen, ideaal voor meertalige uitbreiding',
       },
       {
-        src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp',
+        src: '/samples/dutch/matching/zoek%20de%20paren%201.webp',
         alt: 'Koppelwerkblad met visuele thema\'s die werken over taalmarkten',
         caption: 'Visuele koppelwerkbladen gebruiken afbeeldingen die universeel vertalen over talen',
       },
       {
-        src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp',
+        src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp',
         alt: 'Optelwerkblad dat universele aantrekkingskracht demonstreert over taalbarrières',
         caption: 'Rekenwerkbladen doorbreken taalbarrières natuurlijk omdat cijfers universeel zijn over markten',
       },

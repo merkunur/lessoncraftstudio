@@ -291,7 +291,7 @@ const content: AppContent = {
         caption: 'Liggande format — bredare rutnät med diagonal- och bakåtvända ord aktiverade',
       },
       {
-        src: '/samples/swedish/wordsearch/ordletning%20portrait%20answer_key.webp',
+        src: '/samples/swedish/wordsearch/ordletning%20portrait%20answer-key.webp',
         alt: 'Ordletar färgkodat facit med sex markeringsfärger som visar hittade ord',
         caption: 'Färgkodat facit — varje ord markerat i en unik färg för enkel verifiering',
       },

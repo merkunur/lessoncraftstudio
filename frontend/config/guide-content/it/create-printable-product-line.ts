@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento che dimostra il formato coerente per una linea di prodotti stampabili' },
+    heroImage: { src: '/samples/italian/matching/trova-le-coppie-1.webp', alt: 'Scheda di abbinamento che dimostra il formato coerente per una linea di prodotti stampabili' },
     samples: [
-      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento con formato coerente tra i temi per la costruzione di linee di prodotti', caption: 'Le schede di abbinamento mantengono lo stesso formato professionale con qualsiasi tema — il fondamento di una linea di prodotti visivamente coerente' },
-      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione che rappresenta una linea di matematica con livelli di difficoltà progressivi', caption: 'Le schede di matematica a più livelli di difficoltà creano profondità progressiva nella tua linea — da una cifra a operazioni avanzate' },
-      { src: '/samples/italian/coloring/coloring portrait 2.webp', alt: 'Pagina da colorare che mostra coerenza visiva tra variazioni tematiche', caption: 'Le pagine da colorare in diversi temi dimostrano come una linea di prodotti mantiene coesione visiva offrendo varietà agli acquirenti' },
+      { src: '/samples/italian/matching/trova-le-coppie-1.webp', alt: 'Scheda di abbinamento con formato coerente tra i temi per la costruzione di linee di prodotti', caption: 'Le schede di abbinamento mantengono lo stesso formato professionale con qualsiasi tema — il fondamento di una linea di prodotti visivamente coerente' },
+      { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda di addizione che rappresenta una linea di matematica con livelli di difficoltà progressivi', caption: 'Le schede di matematica a più livelli di difficoltà creano profondità progressiva nella tua linea — da una cifra a operazioni avanzate' },
+      { src: '/samples/italian/coloring/coloring-portrait-2.webp', alt: 'Pagina da colorare che mostra coerenza visiva tra variazioni tematiche', caption: 'Le pagine da colorare in diversi temi dimostrano come una linea di prodotti mantiene coesione visiva offrendo varietà agli acquirenti' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Come Creare Schede di Abbinamento per una Linea di Prodotti Stampabili Coerente',

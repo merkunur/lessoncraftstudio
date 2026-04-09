@@ -225,22 +225,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
+      primary: '/samples/norwegian/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp',
       primaryAlt: 'Finn og tell søkearbeidsark med spredte bilder på et konfigurerbart rutenett med blå overskriftramme og fire oppgaveinstruksjoner',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%201.webp',
+        src: '/samples/norwegian/find%20and%20count/jeg%20ser%2c%20jeg%20ser%201.webp',
         alt: 'Søkearbeidsark med spredte tematiske bilder og fire oppgavetyper inkludert ring rundt, firkant, kryss over og tell',
         caption: 'Skjulte Objekter-modus — klassisk søking med ring rundt, firkant, kryss over og tell-oppgaver på et spredt bilderutenett',
       },
       {
-        src: '/samples/norwegian/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%202.webp',
+        src: '/samples/norwegian/find%20and%20count/jeg%20ser%2c%20jeg%20ser%202.webp',
         alt: 'Søkearbeidsark i liggende modus med bredere rutenettlayout og spredte tematiske bilder blant distraktorobjekter',
         caption: 'Liggende layout — bredere rutenett med blandede oppgavetyper for variert visuell søkeutfordring',
       },
       {
-        src: '/samples/norwegian/find%20and%20count/Jeg%20ser%2C%20jeg%20ser%203.webp',
+        src: '/samples/norwegian/find%20and%20count/jeg%20ser%2c%20jeg%20ser%203.webp',
         alt: 'Finn og tell fasit med røde sirkel-, firkant- og kryssannoteringer over korrekte målobjekter og kvantitetsvisninger',
         caption: 'Automatisk generert fasit — røde annoteringer markerer sirkler, firkanter, kryss og tellesummer for hvert målobjekt',
       },

@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/chart count/Grafico con Immagini 1.webp',
+      primary: '/samples/italian/chart count/grafico-con-immagini-1.webp',
       primaryAlt: 'Scheda grafico a immagini con griglia di icone sparse e grafico a barre per gli utenti da contare e rappresentare 6 tipi di immagini',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/chart count/Grafico con Immagini 2.webp',
+        src: '/samples/italian/chart count/grafico-con-immagini-2.webp',
         alt: 'Scheda grafico a immagini con tema animali con 20 icone di animali sparse e grafico a barre vuoto',
         caption: 'Grafico a immagini tema animali — 6 tipi di animali sparsi nella griglia con grafico a barre sottostante',
       },
       {
-        src: '/samples/italian/chart count/Grafico con Immagini 3.webp',
+        src: '/samples/italian/chart count/grafico-con-immagini-3.webp',
         alt: 'Chiave di valore percepito del grafico a immagini con celle evidenziate in giallo che mostrano i conteggi corretti per ogni tipo di immagine',
         caption: 'Chiave di valore percepito auto-generata — celle riempite di giallo che mostrano il conteggio corretto per ogni tipo di immagine',
       },
       {
-        src: '/samples/italian/chart count/Grafico con Immagini 4.webp',
+        src: '/samples/italian/chart count/grafico-con-immagini-4.webp',
         alt: 'Scheda grafico a immagini con tema di sfondo decorativo e cornice di bordo applicati',
         caption: 'Grafico a immagini decorato — temi di sfondo e bordo con controlli di opacità indipendenti',
       },

@@ -221,22 +221,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/picture%20path/Afbeeldingspad%201.webp',
+      primary: '/samples/dutch/picture%20path/afbeeldingspad%201.webp',
       primaryAlt: 'Afbeeldingspad doolhof werkblad met thematische afbeeldingen in een raster met oranje koptekstkader en automatisch gegenereerde Afbeeldingspad koptekst met gelokaliseerde titel',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/picture%20path/Afbeeldingspad%202.webp',
+        src: '/samples/dutch/picture%20path/afbeeldingspad%202.webp',
         alt: 'Afbeeldingspad modus werkblad met afbeeldingen geschikt in een raster dat het juiste pad van start tot finish toont tussen afleidingsafbeeldingen',
         caption: 'Afbeeldingspad modus — gebruikers volgen het juiste afbeeldingspad van start tot finish tussen afleidingen',
       },
       {
-        src: '/samples/dutch/picture%20path/Afbeeldingspad%203.webp',
+        src: '/samples/dutch/picture%20path/afbeeldingspad%203.webp',
         alt: 'Klassiek Doolhof modus werkblad met LPF-algoritme wandgebaseerde gangen en verzamelobjecten verspreid door het labyrint',
         caption: 'Klassiek Doolhof modus — LPF-algoritme genereert wandgebaseerde doolhoven met verzamelobjecten langs gangen',
       },
       {
-        src: '/samples/dutch/picture%20path/Afbeeldingspad%201%20answer_key.webp',
+        src: '/samples/dutch/picture%20path/afbeeldingspad%201%20answer-key.webp',
         alt: 'Afbeeldingspad doolhof antwoordblad met oplossingspad gemarkeerd door roze cirkels langs de juiste route en verzamelobject-legende',
         caption: 'Automatisch gegenereerd antwoordblad — roze cirkels markeren het oplossingspad met verzamelobject-legende inbegrepen',
       },

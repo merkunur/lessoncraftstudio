@@ -174,11 +174,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Caça-palavras com grelha temática para vender no Etsy' },
+    heroImage: { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Caça-palavras com grelha temática para vender no Etsy' },
     samples: [
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 2.webp', alt: 'Caça-palavras com tema de animais para loja Etsy de puzzles', caption: 'Caça-palavras com tema de animais — disponível em 11 línguas para multiplicação de anúncios no Etsy' },
-      { src: '/samples/portuguese/crossword/Palavras Cruzadas 1.webp', alt: 'Palavras cruzadas temáticas mostrando formato complementar de puzzle', caption: 'Palavras cruzadas temáticas — combine com caça-palavras para pacotes multi-formato premium' },
-      { src: '/samples/portuguese/word scramble/Letras Embaralhadas 1.webp', alt: 'Anagrama mostrando formato adicional de puzzle de palavras para Etsy', caption: 'Anagramas — formato acessível que adiciona variedade aos pacotes de puzzles de palavras' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-2.webp', alt: 'Caça-palavras com tema de animais para loja Etsy de puzzles', caption: 'Caça-palavras com tema de animais — disponível em 11 línguas para multiplicação de anúncios no Etsy' },
+      { src: '/samples/portuguese/crossword/palavras-cruzadas-1.webp', alt: 'Palavras cruzadas temáticas mostrando formato complementar de puzzle', caption: 'Palavras cruzadas temáticas — combine com caça-palavras para pacotes multi-formato premium' },
+      { src: '/samples/portuguese/word scramble/letras-embaralhadas-1.webp', alt: 'Anagrama mostrando formato adicional de puzzle de palavras para Etsy', caption: 'Anagramas — formato acessível que adiciona variedade aos pacotes de puzzles de palavras' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Como criar caça-palavras para vender no Etsy — Tutorial passo a passo',

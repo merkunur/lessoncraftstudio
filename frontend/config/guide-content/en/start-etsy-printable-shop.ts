@@ -169,22 +169,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/addition/Addition Fun 10.webp',
+      src: '/samples/english/addition/addition-fun-10.webp',
       alt: 'Professional addition worksheets created with the Addition Worksheet Generator, representing the printable product quality achievable across all 33 generators',
     },
     samples: [
       {
-        src: '/samples/english/addition/Addition Fun 11.webp',
+        src: '/samples/english/addition/addition-fun-11.webp',
         alt: 'Addition worksheets showing math and number category printable products for Etsy shops',
         caption: 'Math and Number category: Addition worksheets with answer keys ready for Etsy digital download listings',
       },
       {
-        src: '/samples/english/wordsearch/Word Search 10.webp',
+        src: '/samples/english/wordsearch/word-search-10.webp',
         alt: 'Word search puzzles showing letters and words category printable products for Etsy shops',
         caption: 'Letters and Words category: Word search puzzles with themed vocabulary for broad buyer appeal',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/english/coloring/coloring-portrait-1.webp',
         alt: 'Coloring pages showing drawing and art category printable products for Etsy shops',
         caption: 'Drawing and Art category: Coloring pages with themed illustrations for the widest age demographic',
       },

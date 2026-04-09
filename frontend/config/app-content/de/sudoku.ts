@@ -268,22 +268,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/sudoku/sudoku_worksheet.webp',
+      primary: '/samples/german/sudoku/sudoku-worksheet.webp',
       primaryAlt: '4×4-Bilder-Sudoku-Arbeitsblatt mit thematischen Bildern in einem Premium-Raster mit abwechselnden Blockfarben und automatisch generiertem Bilder-Sudoku-Header',
     },
     sampleGallery: [
       {
-        src: '/samples/german/sudoku/Bilder-Sudoku 1.webp',
+        src: '/samples/german/sudoku/bilder-sudoku-1.webp',
         alt: 'Leichter Schwierigkeitsgrad Bilder-Sudoku mit 4 leeren Zellen und 12 gefüllten Zellen im 4×4-Raster',
         caption: 'Leicht — 4 leere Zellen für Einsteiger, die Zeilen-und-Spalten-Logik erlernen',
       },
       {
-        src: '/samples/german/sudoku/Bilder-Sudoku 2.webp',
+        src: '/samples/german/sudoku/bilder-sudoku-2.webp',
         alt: 'Schwerer Schwierigkeitsgrad Bilder-Sudoku mit 8 leeren Zellen und 8 gefüllten Zellen im 4×4-Raster',
         caption: 'Schwer — 8 leere Zellen, die mehrstufiges logisches Schlussfolgern erfordern',
       },
       {
-        src: '/samples/german/sudoku/sudoku_answer_key.webp',
+        src: '/samples/german/sudoku/sudoku-answer-key.webp',
         alt: 'Bilder-Sudoku-Lösungsschlüssel mit vollständig gefülltem 4×4-Raster und allen 16 Zellen belegt',
         caption: 'Automatisch generierter Lösungsschlüssel — vollständig gefülltes Raster mit allen Bildern platziert',
       },

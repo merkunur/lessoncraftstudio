@@ -160,10 +160,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananetsintäpulma-työarkki sopiva myytäväksi Etsyn digitaalisena latauksena tai koottavaksi Amazon KDP -pulmakirjaksi' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananetsintäpulma-työarkki sopiva myytäväksi Etsyn digitaalisena latauksena tai koottavaksi Amazon KDP -pulmakirjaksi' },
     samples: [
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Eläinaiheinen sananetsintäpulma Etsylle ja KDP:lle', caption: 'Sananetsintäpulmat myyvät molemmilla alustoilla — yksittäisinä digitaalisina latauksina Etsyssä ja koottuna pulmakirjoina KDP:ssä' },
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%202.webp', alt: 'Yhteenlaskutyöarkki Etsyn digitaaliseksi lataukseksi tai KDP-aktiviteettikirjaksi', caption: 'Matematiikkatyöarkit toimivat Etsyn yksittäisinä ja pieninä paketteina tai koottuina KDP-aktiviteettikirjoina' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Eläinaiheinen sananetsintäpulma Etsylle ja KDP:lle', caption: 'Sananetsintäpulmat myyvät molemmilla alustoilla — yksittäisinä digitaalisina latauksina Etsyssä ja koottuna pulmakirjoina KDP:ssä' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%202.webp', alt: 'Yhteenlaskutyöarkki Etsyn digitaaliseksi lataukseksi tai KDP-aktiviteettikirjaksi', caption: 'Matematiikkatyöarkit toimivat Etsyn yksittäisinä ja pieninä paketteina tai koottuina KDP-aktiviteettikirjoina' },
       { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu molempien Etsyn ja KDP:n myyntiin', caption: 'Värityssivut ovat suosituin kategoria molemmilla alustoilla — yksittäiset lataukset Etsyssä ja värityskirjat KDP:ssä' },
     ],
     youtubeId: '36keBFzJbPo',

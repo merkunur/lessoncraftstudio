@@ -220,12 +220,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/math puzzle/Rompicapi Matematici 1.webp', alt: 'Esempio di scheda puzzle matematici creata con il generatore LessonCraftStudio' },
+    heroImage: { src: '/samples/italian/math puzzle/rompicapi-matematici-1.webp', alt: 'Esempio di scheda puzzle matematici creata con il generatore LessonCraftStudio' },
     samples: [
-      { src: '/samples/italian/math puzzle/Rompicapi Matematici 1.webp', alt: 'Scheda puzzle matematici che mostra la varietà di output configurabile', caption: 'Puzzle Matematici — Difficoltà Configurabile' },
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda cerca parole con lista di parole tematiche', caption: 'Cerca Parole — Puzzle Tematico' },
-      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Scheda pagina da colorare con illustrazioni tematiche', caption: 'Pagina da Colorare — Attrattiva Visiva' },
-      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento che dimostra il formato internazionale solo visivo', caption: 'Abbinamento — Funziona in Qualsiasi Lingua' },
+      { src: '/samples/italian/math puzzle/rompicapi-matematici-1.webp', alt: 'Scheda puzzle matematici che mostra la varietà di output configurabile', caption: 'Puzzle Matematici — Difficoltà Configurabile' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Scheda cerca parole con lista di parole tematiche', caption: 'Cerca Parole — Puzzle Tematico' },
+      { src: '/samples/italian/coloring/coloring-portrait-1.webp', alt: 'Scheda pagina da colorare con illustrazioni tematiche', caption: 'Pagina da Colorare — Attrattiva Visiva' },
+      { src: '/samples/italian/matching/trova-le-coppie-1.webp', alt: 'Scheda di abbinamento che dimostra il formato internazionale solo visivo', caption: 'Abbinamento — Funziona in Qualsiasi Lingua' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Come Creare Schede Puzzle Matematici — Demo LessonCraftStudio',

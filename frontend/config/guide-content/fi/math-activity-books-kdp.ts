@@ -148,11 +148,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%202.webp', alt: 'Yhteenlaskutyöarkki näyttäen kuvapohjaisia matematiikkathtäviä sopivia Amazon KDP -aktiviteettikirjan sisäsivuiksi' },
+    heroImage: { src: '/samples/finnish/addition/hauska%20yhteenlasku%202.webp', alt: 'Yhteenlaskutyöarkki näyttäen kuvapohjaisia matematiikkathtäviä sopivia Amazon KDP -aktiviteettikirjan sisäsivuiksi' },
     samples: [
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki muotoiltuna KDP-matematiikka-aktiviteettikirjaksi', caption: 'Eläinteemainen yhteenlaskutyöarkki — kuvapohjaiset matematiikkatehtävät jotka luovat kiinnostavia KDP-aktiviteettikirjasivuja' },
-      { src: '/samples/finnish/subtraction/Hauskaa%20V%C3%A4hennyslaskua%202.webp', alt: 'Vähennyslaskutyöarkki monioperaatioista KDP-matematiikkatyökirjaa varten', caption: 'Vähennyslaskutyöarkki — sopii yhteen yhteenlaskusivujen kanssa kattavien matematiikka-aktiviteettikirjojen luomiseksi Amazoniin' },
-      { src: '/samples/finnish/math%20puzzle/Matematiikkapulmat%202.webp', alt: 'Matematiikkapulmaristikkotyöarkki tuomassa vaihtelua KDP-aktiviteettikirjoihin', caption: 'Matematiikkapulmaristikko — tuo kiinnostavaa vaihtelua aktiviteettikirjasivuille standardiharjoitusten rinnalle' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Eläinteemainen yhteenlaskutyöarkki muotoiltuna KDP-matematiikka-aktiviteettikirjaksi', caption: 'Eläinteemainen yhteenlaskutyöarkki — kuvapohjaiset matematiikkatehtävät jotka luovat kiinnostavia KDP-aktiviteettikirjasivuja' },
+      { src: '/samples/finnish/subtraction/hauskaa%20v%c3%a4hennyslaskua%202.webp', alt: 'Vähennyslaskutyöarkki monioperaatioista KDP-matematiikkatyökirjaa varten', caption: 'Vähennyslaskutyöarkki — sopii yhteen yhteenlaskusivujen kanssa kattavien matematiikka-aktiviteettikirjojen luomiseksi Amazoniin' },
+      { src: '/samples/finnish/math%20puzzle/matematiikkapulmat%202.webp', alt: 'Matematiikkapulmaristikkotyöarkki tuomassa vaihtelua KDP-aktiviteettikirjoihin', caption: 'Matematiikkapulmaristikko — tuo kiinnostavaa vaihtelua aktiviteettikirjasivuille standardiharjoitusten rinnalle' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Kuinka luoda matematiikkatyöarkkeja Amazon KDP -aktiviteettikirjoihin — Vaiheittainen opas',

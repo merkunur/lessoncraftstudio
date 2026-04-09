@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Ejemplo de ficha para colorear creada con el generador LessonCraftStudio para vendedores de Etsy' },
+    heroImage: { src: '/samples/spanish/coloring/coloring-portrait-1.webp', alt: 'Ejemplo de ficha para colorear creada con el generador LessonCraftStudio para vendedores de Etsy' },
     samples: [
-      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Ficha para colorear para tienda de imprimibles en Etsy', caption: 'Página para Colorear — Categoría Top en Etsy' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Ficha imprimible de sopa de letras para publicación en Etsy', caption: 'Sopa de Letras — Alto Volumen de Búsqueda' },
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de suma con problemas de matemáticas basados en imágenes', caption: 'Suma — Categoría de Matemáticas Permanente' },
-      { src: '/samples/spanish/matching/Encuentra Parejas 1.webp', alt: 'Ficha de asociación para compradores internacionales de Etsy', caption: 'Asociación — Actividad Visual sin Texto' },
+      { src: '/samples/spanish/coloring/coloring-portrait-1.webp', alt: 'Ficha para colorear para tienda de imprimibles en Etsy', caption: 'Página para Colorear — Categoría Top en Etsy' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Ficha imprimible de sopa de letras para publicación en Etsy', caption: 'Sopa de Letras — Alto Volumen de Búsqueda' },
+      { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de suma con problemas de matemáticas basados en imágenes', caption: 'Suma — Categoría de Matemáticas Permanente' },
+      { src: '/samples/spanish/matching/encuentra-parejas-1.webp', alt: 'Ficha de asociación para compradores internacionales de Etsy', caption: 'Asociación — Actividad Visual sin Texto' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Cómo Crear Fichas para Colorear — Demo de LessonCraftStudio',

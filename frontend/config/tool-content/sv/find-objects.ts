@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/find%20objects/hitta%20f%C3%B6rem%C3%A5len%201.webp',
+      primary: '/samples/swedish/find%20objects/hitta%20f%c3%b6rem%c3%a5len%201.webp',
       primaryAlt: 'Dolda objekt sökarbetsblad med spridda bilder placerade med noll-överlappningsalgoritm, legend längst ner med objekt att hitta och dekorativ Fredoka-rubrik',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/find%20objects/hitta%20f%C3%B6rem%C3%A5len%202.webp',
+        src: '/samples/swedish/find%20objects/hitta%20f%c3%b6rem%c3%a5len%202.webp',
         alt: 'Sökning dolda objekt-scen med spridda bilder och legend som visar målobjekt längst ner på arbetsbladet',
         caption: 'Sökning-läge — fri dolda objekt-scen med noll-överlappning placering och bottenlegend',
       },
       {
-        src: '/samples/swedish/find%20objects/Hitta%20den%20Udda.webp',
+        src: '/samples/swedish/find%20objects/hitta%20den%20udda.webp',
         alt: 'Hitta Udda Bilden arbetsblad med parade bilder i rader och oparade objekt att identifiera renderade 50 procent större',
         caption: 'Hitta Udda Bilden-läge — parade bilder med oparade objekt för visuella diskrimineringsaktiviteter',
       },
       {
-        src: '/samples/swedish/find%20objects/hitta%20f%C3%B6rem%C3%A5len%201%20answer_key.webp',
+        src: '/samples/swedish/find%20objects/hitta%20f%c3%b6rem%c3%a5len%201%20answer-key.webp',
         alt: 'Dolda objekt arbetsblad facit med röda cirklar ritade runt målobjekt dimensionerade 3 till 5 pixlar större',
         caption: 'Automatiskt genererat facit — röda cirkelannoteringer markerar dolda och oparade objekt för självkontroll',
       },

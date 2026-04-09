@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/swedish/matching/Matchningsspel.webp',
+      src: '/samples/swedish/matching/matchningsspel.webp',
       alt: 'Matchningsarbetsblad som visar temamångfald för lönsam nischutforskning över pedagogiska ämnen',
     },
     samples: [
       {
-        src: '/samples/swedish/matching/Matchningsspel.webp',
+        src: '/samples/swedish/matching/matchningsspel.webp',
         alt: 'Tematiskt matchningsarbetsblad som demonstrerar nischdiversitet över pedagogiska utskriftsbara ämnen',
         caption: 'Matchningsarbetsblad spänner dussintals teman, vilket låter dig utforska och testa flera nischer snabbt',
       },

@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/big%20small/Stort%20eller%20Lite%201.webp',
+      primary: '/samples/norwegian/big%20small/stort%20eller%20lite%201.webp',
       primaryAlt: 'Stor og liten størrelsessammenligning arbeidsark med tematiske bilder i forskjellige størrelser som viser sett ring rundt den store øvelse',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/big%20small/Stort%20eller%20Lite%201.webp',
+        src: '/samples/norwegian/big%20small/stort%20eller%20lite%201.webp',
         alt: 'Størrelsessammenligning arbeidsark i sett ring rundt den store-modus med tematiske dyrebilder i forskjellige størrelser',
         caption: 'Sett Ring rundt den Store-modus — brukerne identifiserer det største bildet i hver øvelse',
       },
       {
-        src: '/samples/norwegian/big%20small/Stort%20eller%20Lite%202.webp',
+        src: '/samples/norwegian/big%20small/stort%20eller%20lite%202.webp',
         alt: 'Størrelsesordning arbeidsark med tre bilder nummerert fra minste til største',
         caption: 'Nummerer 1–2–3 Liten til Stor — brukerne ordner bilder etter størrelse',
       },
       {
-        src: '/samples/norwegian/big%20small/Stort%20eller%20Lite%203.webp',
+        src: '/samples/norwegian/big%20small/stort%20eller%20lite%203.webp',
         alt: 'Størrelsessammenligning fasit med korrekte svar markert og sirklet for øyeblikkelig verifikasjon',
         caption: 'Fasit — korrekte svar markert og sirklet for øyeblikkelig visuell verifikasjon',
       },

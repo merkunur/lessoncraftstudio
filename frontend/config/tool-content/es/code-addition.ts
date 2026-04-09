@@ -209,22 +209,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/code addition/Código Secreto Suma 1.webp',
+      primary: '/samples/spanish/code addition/código-secreto-suma-1.webp',
       primaryAlt: 'Ficha de suma codificada con puzzles criptaritméticos donde símbolos con imágenes esconden números secretos',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/code addition/Código Secreto Suma 1.webp',
+        src: '/samples/spanish/code addition/código-secreto-suma-1.webp',
         alt: 'Puzzle descifra el código con símbolos de animales en Modo Regular',
         caption: 'Modo Regular con tema de animales — cada símbolo esconde un número único',
       },
       {
-        src: '/samples/spanish/code addition/Código Secreto Suma 2.webp',
+        src: '/samples/spanish/code addition/código-secreto-suma-2.webp',
         alt: 'Ficha de suma codificada en Modo Descubrir Palabra con imágenes de comida',
         caption: 'Modo Descubrir Palabra — resuelve ecuaciones para deletrear una palabra secreta',
       },
       {
-        src: '/samples/spanish/code addition/Código Secreto Suma 3.webp',
+        src: '/samples/spanish/code addition/código-secreto-suma-3.webp',
         alt: 'Puzzle criptaritmético con sumandos mixtos y borde decorativo',
         caption: 'Sumandos mixtos con decoración de borde para un resultado profesional',
       },

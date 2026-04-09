@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/pattern%20worksheet/M%C3%B6nsterpussel.webp',
+      primary: '/samples/swedish/pattern%20worksheet/m%c3%b6nsterpussel.webp',
       primaryAlt: 'Mönsterigenkännings arbetsblad med rutnätsbaserade övningar som visar upprepande bildmönster med tomma rutor och flervals alternativ för användarna att slutföra',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/pattern%20worksheet/M%C3%B6nsterpussel%201.webp',
+        src: '/samples/swedish/pattern%20worksheet/m%c3%b6nsterpussel%201.webp',
         alt: 'Mönsterarbetsblad med AB fyll-i-luckan övningar med djurbilder i rutnätslayout med tomma rutor för användarna att slutföra',
         caption: 'AB tom-ruta övningar med djurtema — användarna identifierar det alternerande mönstret och fyller i den saknade bilden',
       },
       {
-        src: '/samples/swedish/pattern%20worksheet/M%C3%B6nsterpussel%203.webp',
+        src: '/samples/swedish/pattern%20worksheet/m%c3%b6nsterpussel%203.webp',
         alt: 'Mönsterarbetsblad med ABC flervals övningar med fordonsbilder med tre svarsalternativ per övning',
         caption: 'ABC flervals övningar med fordonstema — användarna väljer det korrekta saknade objektet bland tre alternativ',
       },
       {
-        src: '/samples/swedish/pattern%20worksheet/M%C3%B6nsterpussel%201%20answer_key.webp',
+        src: '/samples/swedish/pattern%20worksheet/m%c3%b6nsterpussel%201%20answer-key.webp',
         alt: 'Mönsterarbetsblad facit som visar alla luckor ifyllda med rätt mönsterobjekt för verifiering',
         caption: 'Facitvy — alla luckor fyllda med korrekta mönsterobjekt för lärarverifiering',
       },

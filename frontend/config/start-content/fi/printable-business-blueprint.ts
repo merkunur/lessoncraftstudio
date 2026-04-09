@@ -212,10 +212,10 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananhakutehtävä luotu LessonCraftStudio-generaattorilla' },
+    heroImage: { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhakutehtävä luotu LessonCraftStudio-generaattorilla' },
     samples: [
-      { src: '/samples/finnish/wordsearch/Sanahaku%201.webp', alt: 'Sananhakutehtävä — esimerkkituloste', caption: 'Sananhaku — suosituin aloitustuote' },
-      { src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp', alt: 'Yhteenlaskutehtävä — esimerkkituloste', caption: 'Yhteenlasku — ikiviheä matemaattinen myyjä' },
+      { src: '/samples/finnish/wordsearch/sanahaku%201.webp', alt: 'Sananhakutehtävä — esimerkkituloste', caption: 'Sananhaku — suosituin aloitustuote' },
+      { src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp', alt: 'Yhteenlaskutehtävä — esimerkkituloste', caption: 'Yhteenlasku — ikiviheä matemaattinen myyjä' },
       { src: '/samples/finnish/coloring/coloring%20portrait%201.webp', alt: 'Värityssivu — esimerkkituloste', caption: 'Väritys — Etsyn bestsellerikategoria' },
     ],
     youtubeId: '36keBFzJbPo',

@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/bingo/Billedbingo%201.webp',
+      primary: '/samples/danish/bingo/billedbingo%201.webp',
       primaryAlt: 'Gratis bingoplade med temabilleder og cirkulære brikker — lav bingoplader online med vandmærke',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/bingo/Billedbingo%201.webp',
+        src: '/samples/danish/bingo/billedbingo%201.webp',
         alt: 'Gratis bingoplade med billedfyldning og farverige temabilleder i gitterceller — prøv bingo online',
         caption: 'Billedfyldningstilstand — farverige illustrationer i både kortceller og cirkulære brikker for visuelt bingo',
       },
       {
-        src: '/samples/danish/bingo/Billedbingo%202.webp',
+        src: '/samples/danish/bingo/billedbingo%202.webp',
         alt: 'Gratis bingoplade med ordfyldning og lokaliserede billednavne — lav ordforråds bingo online',
         caption: 'Ordfyldningstilstand — lokaliserede billednavne til ordforrådsbaserede flersprogede bingoprodukter',
       },
       {
-        src: '/samples/danish/bingo/Billedbingo%203.webp',
+        src: '/samples/danish/bingo/billedbingo%203.webp',
         alt: 'Gratis bingo opråbsliste med dynamisk ordgitter til spillelederen — prøv online',
         caption: 'Opråbsliste — dynamisk ordgitter med beregnede kolonner og ensartet skriftstørrelse for spillelederen',
       },

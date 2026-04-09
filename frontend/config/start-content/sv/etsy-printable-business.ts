@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Exempel på målarblad skapat med LessonCraftStudio-generatorn för Etsy-säljare' },
+    heroImage: { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Exempel på målarblad skapat med LessonCraftStudio-generatorn för Etsy-säljare' },
     samples: [
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Målarbild för Etsy utskriftsbar butik', caption: 'Målarbilder — Etsy toppkategori' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsökspussel utskriftsbart arbetsblad för Etsy-listning', caption: 'Ordsök — Hög sökvolym' },
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsarbetsblad med bildbaserade matteproblem', caption: 'Addition — Vintergrönt mattekategori' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchningsarbetsblad för internationella Etsy-köpare', caption: 'Matchning — Textfri visuell aktivitet' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Målarbild för Etsy utskriftsbar butik', caption: 'Målarbilder — Etsy toppkategori' },
+      { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsökspussel utskriftsbart arbetsblad för Etsy-listning', caption: 'Ordsök — Hög sökvolym' },
+      { src: '/samples/english/addition/addition-fun-1.webp', alt: 'Additionsarbetsblad med bildbaserade matteproblem', caption: 'Addition — Vintergrönt mattekategori' },
+      { src: '/samples/english/matching/matching-portrait.webp', alt: 'Matchningsarbetsblad för internationella Etsy-köpare', caption: 'Matchning — Textfri visuell aktivitet' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Hur du skapar målarblad — LessonCraftStudio demo',

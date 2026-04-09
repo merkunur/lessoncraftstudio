@@ -218,22 +218,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/prepositions/prepositions_worksheet.webp',
+      primary: '/samples/german/prepositions/prepositions-worksheet.webp',
       primaryAlt: 'Präpositionen-Arbeitsblatt mit Bildszenen und räumlichen Beziehungsübungen für Positionswörter-Training',
     },
     sampleGallery: [
       {
-        src: '/samples/german/prepositions/prepositions_worksheet.webp',
+        src: '/samples/german/prepositions/prepositions-worksheet.webp',
         alt: 'Präpositionen-Arbeitsblatt mit Lückentext-Übungen und farbenfrohen Bildszenen',
         caption: 'Lückentext-Präpositionsübungen mit Bildszenen',
       },
       {
-        src: '/samples/german/prepositions/prepositions_answer_key.webp',
+        src: '/samples/german/prepositions/prepositions-answer-key.webp',
         alt: 'Präpositionen-Arbeitsblatt mit Multiple-Choice-Übungen für räumliche Beziehungen',
         caption: 'Multiple-Choice-Modus für anfängerfreundliche Übung',
       },
       {
-        src: '/samples/german/prepositions/prepositions_worksheet.webp',
+        src: '/samples/german/prepositions/prepositions-worksheet.webp',
         alt: 'Fortgeschrittenes Präpositionen-Arbeitsblatt mit Formenaustausch und mehreren Übungen pro Seite',
         caption: 'Formenaustausch erzeugt einzigartige Szenen-Kombinationen',
       },

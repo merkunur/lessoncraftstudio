@@ -223,22 +223,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/matching/Trouve les Paires 1.webp',
+      primary: '/samples/french/matching/trouve-les-paires-1.webp',
       primaryAlt: 'Fiche d\'association avec images thématiques disposées en deux colonnes avec en-tête localisé \" Trouve les Paires ! \", numéros d\'éléments et puces décoratives',
     },
     sampleGallery: [
       {
-        src: '/samples/french/matching/Trouve les Paires 1.webp',
+        src: '/samples/french/matching/trouve-les-paires-1.webp',
         alt: 'Fiche d\'association par lettre initiale avec images à gauche et premières lettres à droite pour la pratique phonétique',
         caption: 'Mode Lettre Initiale — les utilisateurs associent les images à leur première lettre avec affichage majuscules ou minuscules',
       },
       {
-        src: '/samples/french/matching/Trouve les Paires 2.webp',
+        src: '/samples/french/matching/trouve-les-paires-2.webp',
         alt: 'Fiche d\'association image et mot avec paires étiquetées des deux côtés pour des activités de renforcement du vocabulaire',
         caption: 'Mode Image+Mot — paires d\'images étiquetées des deux côtés pour l\'association de vocabulaire et la reconnaissance des mots',
       },
       {
-        src: '/samples/french/matching/Trouve les Paires 3 answer_key.webp',
+        src: '/samples/french/matching/trouve-les-paires-3-answer-key.webp',
         alt: 'Corrigé de fiche d\'association avec lignes de liaison horizontales tracées entre les bonnes correspondances pour vérification instantanée',
         caption: 'Corrigé auto-généré — lignes de liaison (#555) entre les bonnes correspondances pour une vérification instantanée',
       },

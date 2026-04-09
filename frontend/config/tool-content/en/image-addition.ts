@@ -201,22 +201,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/addition/Addition Fun 1.webp',
+      primary: '/samples/english/addition/addition-fun-1.webp',
       primaryAlt: 'Addition worksheet with animal images showing picture-based math exercises',
     },
     sampleGallery: [
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/english/addition/addition-fun-1.webp',
         alt: 'Image addition worksheet with animal theme showing Image + Image mode',
         caption: 'Image + Image mode with animal theme',
       },
       {
-        src: '/samples/english/addition/addition_worksheet portrait.webp',
+        src: '/samples/english/addition/addition-worksheet-portrait.webp',
         alt: 'Addition worksheet using food images in Find Addend mode',
         caption: 'Find Addend mode with food theme',
       },
       {
-        src: '/samples/english/addition/image and number.webp',
+        src: '/samples/english/addition/image-and-number.webp',
         alt: 'Mixed mode addition worksheet with vehicle images and decorative border',
         caption: 'Mixed mode with vehicles and border decoration',
       },

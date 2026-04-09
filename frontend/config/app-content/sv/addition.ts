@@ -260,7 +260,7 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/addition/addition_%C3%B6vning.webp',
+      primary: '/samples/swedish/addition/addition-%c3%b6vning.webp',
       primaryAlt: 'Additionsarbetsblad med färgglada djurbilder i läget Bild + Bild',
     },
     sampleGallery: [
@@ -270,7 +270,7 @@ const content: AppContent = {
         caption: 'Bild + Tal läge — användarna kombinerar bildgrupper med tal för övergångsfärdigheter',
       },
       {
-        src: '/samples/swedish/addition/blandat%20l%C3%A4ge.webp',
+        src: '/samples/swedish/addition/blandat%20l%c3%a4ge.webp',
         alt: 'Liggande additionsarbetsblad i Blandat Läge med mattema',
         caption: 'Blandat Läge — kombinerar alla övningstyper för varierad, engagerande matteövning',
       },

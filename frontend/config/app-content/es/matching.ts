@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/matching/Encuentra Parejas 1.webp',
+      primary: '/samples/spanish/matching/encuentra-parejas-1.webp',
       primaryAlt: 'Ficha de asociación con imágenes temáticas dispuestas en dos columnas con encabezado localizado ¡Asocia! y números de elemento',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/matching/Encuentra Parejas 1.webp',
+        src: '/samples/spanish/matching/encuentra-parejas-1.webp',
         alt: 'Ficha de asociación por letra inicial con imágenes a la izquierda y primeras letras a la derecha',
         caption: 'Modo Letra Inicial — los usuarios asocian imágenes con su primera letra',
       },
       {
-        src: '/samples/spanish/matching/Encuentra Parejas 2.webp',
+        src: '/samples/spanish/matching/encuentra-parejas-2.webp',
         alt: 'Ficha de asociación imagen y palabra con pares etiquetados en ambos lados',
         caption: 'Modo Imagen+Palabra — pares de imágenes etiquetadas para asociación de vocabulario',
       },
       {
-        src: '/samples/spanish/matching/Encuentra Parejas 1 answer_key.webp',
+        src: '/samples/spanish/matching/encuentra-parejas-1-answer-key.webp',
         alt: 'Clave de respuesta de ficha de asociación con líneas de conexión trazadas entre las correspondencias correctas',
         caption: 'Clave de respuesta generada automáticamente — las líneas de conexión muestran las asociaciones correctas',
       },

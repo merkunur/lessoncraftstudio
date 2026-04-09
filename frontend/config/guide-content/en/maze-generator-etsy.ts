@@ -177,10 +177,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/picture path/Picture Pathway (10).webp', alt: 'Picture pathway maze worksheet with themed grid navigation' },
+    heroImage: { src: '/samples/english/picture path/picture-pathway-10.webp', alt: 'Picture pathway maze worksheet with themed grid navigation' },
     samples: [
-      { src: '/samples/english/picture path/Picture Pathway (11).webp', alt: 'Picture Pathway game mode showing grid-based image sequence navigation', caption: 'Picture Pathway mode -- children follow a sequence of themed images through the grid' },
-      { src: '/samples/english/picture path/Picture Pathway (10).webp', alt: 'Picture path worksheet ready for Etsy listing', caption: 'A themed picture path puzzle exported at 300 DPI for print-ready Etsy products' },
+      { src: '/samples/english/picture path/picture-pathway-11.webp', alt: 'Picture Pathway game mode showing grid-based image sequence navigation', caption: 'Picture Pathway mode -- children follow a sequence of themed images through the grid' },
+      { src: '/samples/english/picture path/picture-pathway-10.webp', alt: 'Picture path worksheet ready for Etsy listing', caption: 'A themed picture path puzzle exported at 300 DPI for print-ready Etsy products' },
     ],
   },
 

@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/big small/Grande o Pequeño 1.webp', alt: 'Ficha de comparación de tamaños con imágenes temáticas a diferentes tamaños mostrando ejercicio de rodea el grande para preescolar' },
+    heroImage: { src: '/samples/spanish/big small/grande-o-pequeño-1.webp', alt: 'Ficha de comparación de tamaños con imágenes temáticas a diferentes tamaños mostrando ejercicio de rodea el grande para preescolar' },
     samples: [
-      { src: '/samples/spanish/big small/Grande o Pequeño 1.webp', alt: 'Ficha de comparación de tamaños grande y pequeño con imágenes temáticas mostrando cinco tipos de preguntas', caption: 'Ficha de comparación de tamaños con imágenes temáticas e indicadores de respuesta autogenerados' },
-      { src: '/samples/spanish/big small/Grande o Pequeño 2.webp', alt: 'Ficha de rodea el grande con imágenes idénticas de animales a diferentes tamaños', caption: 'Modo Rodea el grande con imágenes temáticas para práctica de discriminación visual de tamaños' },
+      { src: '/samples/spanish/big small/grande-o-pequeño-1.webp', alt: 'Ficha de comparación de tamaños grande y pequeño con imágenes temáticas mostrando cinco tipos de preguntas', caption: 'Ficha de comparación de tamaños con imágenes temáticas e indicadores de respuesta autogenerados' },
+      { src: '/samples/spanish/big small/grande-o-pequeño-2.webp', alt: 'Ficha de rodea el grande con imágenes idénticas de animales a diferentes tamaños', caption: 'Modo Rodea el grande con imágenes temáticas para práctica de discriminación visual de tamaños' },
     ],
     youtubeId: 'S2s2U6Nb7FI',
     videoTitle: 'Cómo crear fichas de comparación de tamaños — Tutorial completo',

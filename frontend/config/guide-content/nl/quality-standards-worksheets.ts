@@ -183,22 +183,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
+      src: '/samples/dutch/addition/optellen-is-leuk-1.webp',
       alt: 'Kwaliteitsnormen voor professionele werkbladen — complete gids',
     },
     samples: [
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-1.webp',
         alt: 'Voorpublicatie kwaliteitscontrolechecklist voor werkbladen',
         caption: 'Een systematische checklist garandeert dat elk werkblad voldoet aan je professionele kwaliteitsnormen',
       },
       {
-        src: '/samples/dutch/coloring/coloring portrait 1.webp',
+        src: '/samples/dutch/coloring/coloring-portrait-1.webp',
         alt: 'Vergelijking van correcte en onjuiste marges bij werkbladen',
         caption: 'Correcte marges van minimaal 12 mm voorkomen afgesneden inhoud op alle printertypen',
       },
       {
-        src: '/samples/dutch/matching/Zoek de Paren 1.webp',
+        src: '/samples/dutch/matching/zoek-de-paren-1.webp',
         alt: 'Typografienormen per leeftijdsgroep voor werkbladen',
         caption: 'Leeftijdsgeschikte lettergroottes zijn essentieel voor leesbaarheid en bruikbaarheid',
       },

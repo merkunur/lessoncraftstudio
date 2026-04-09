@@ -217,22 +217,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/chart count/Bilddiagramm 1.webp',
+      primary: '/samples/german/chart count/bilddiagramm-1.webp',
       primaryAlt: 'Bilddiagramm-Arbeitsblatt mit verteiltem 4×5-Bildraster mit 20 Symbolen aus 6 Typen und leerem Balkendiagramm für Nutzer zum Zählen und Darstellen von Daten',
     },
     sampleGallery: [
       {
-        src: '/samples/german/chart count/Bilddiagramm 2.webp',
+        src: '/samples/german/chart count/bilddiagramm-2.webp',
         alt: 'Tierthemen-Bilddiagramm-Arbeitsblatt mit 20 verteilten Tiersymbolen im 4×5-Raster und 6-Spalten-Balkendiagramm darunter für Zählübungen',
         caption: 'Tierthemen-Bilddiagramm — 6 Tierarten verteilt im Raster mit Balkendiagramm darunter für Datendarstellungsübungen',
       },
       {
-        src: '/samples/german/chart count/Bilddiagramm 3.webp',
+        src: '/samples/german/chart count/bilddiagramm-3.webp',
         alt: 'Bilddiagramm-Lösungsschlüssel mit gelb hervorgehobenen Zellen, die die korrekten Zählungen für jeden der 6 Bildtypen im Balkendiagramm zeigen',
         caption: 'Automatisch generierter Lösungsschlüssel — gelb gefüllte Zellen (#FFC857) zeigen die korrekte Zählung für jeden Bildtyp',
       },
       {
-        src: '/samples/german/chart count/answer_key.webp',
+        src: '/samples/german/chart count/answer-key.webp',
         alt: 'Bilddiagramm-Arbeitsblatt mit dekorativen Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern für polierte Marktplatz-Präsentation',
         caption: 'Dekoriertes Bilddiagramm — Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern für professionelle Produktgestaltung',
       },

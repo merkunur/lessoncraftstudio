@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optelwerkblad met thema-illustraties voor het verkopen op Etsy' },
+    heroImage: { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optelwerkblad met thema-illustraties voor het verkopen op Etsy' },
     samples: [
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Dierenthema optelwerkblad gemaakt voor Etsy digitale download vermelding', caption: 'Optelwerkblad met dierenthema — op afbeeldingen gebaseerde rekensommen die opvallende Etsy-vermeldingsfoto\'s maken' },
-      { src: '/samples/dutch/subtraction/Aftrekken%20is%20Leuk%201.webp', alt: 'Aftrekwerkblad als aanvulling op optelproducten in een Etsy-rekenwerkbladwinkel', caption: 'Aftrekwerkblad — natuurlijke cross-sell partner voor optel-vermeldingen in je Etsy-winkel' },
-      { src: '/samples/dutch/math%20puzzle/Wiskundepuzzels%201.webp', alt: 'Rekenpuzzel rasterwerkblad met uniek formaat dat Etsy-vermeldingen onderscheidt', caption: 'Rekenpuzzel raster — uniek formaat met minder Etsy-concurrentie dan standaard werkbladen' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Dierenthema optelwerkblad gemaakt voor Etsy digitale download vermelding', caption: 'Optelwerkblad met dierenthema — op afbeeldingen gebaseerde rekensommen die opvallende Etsy-vermeldingsfoto\'s maken' },
+      { src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%201.webp', alt: 'Aftrekwerkblad als aanvulling op optelproducten in een Etsy-rekenwerkbladwinkel', caption: 'Aftrekwerkblad — natuurlijke cross-sell partner voor optel-vermeldingen in je Etsy-winkel' },
+      { src: '/samples/dutch/math%20puzzle/wiskundepuzzels%201.webp', alt: 'Rekenpuzzel rasterwerkblad met uniek formaat dat Etsy-vermeldingen onderscheidt', caption: 'Rekenpuzzel raster — uniek formaat met minder Etsy-concurrentie dan standaard werkbladen' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hoe Optelwerkbladen Maken voor Verkoop op Etsy — Stapsgewijze Tutorial',

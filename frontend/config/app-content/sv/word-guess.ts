@@ -273,22 +273,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/word guess/Gissa%20Ordet%201.webp',
+      primary: '/samples/swedish/word guess/gissa%20ordet%201.webp',
       primaryAlt: 'Gissa ordet-arbetsblad med bildledtrådar och tomma bokstavsrutnät i hänga gubbe-stil',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/word guess/Gissa%20Ordet%201.webp',
+        src: '/samples/swedish/word guess/gissa%20ordet%201.webp',
         alt: 'Gissa ordet-arbetsblad med bildledtrådar på Enkelt svårighetsnivå med hälften av bokstäverna avslöjade',
         caption: 'Enkelt svårighetsnivå — hälften av bokstäverna visas som ledtrådar för framväxande läsare',
       },
       {
-        src: '/samples/swedish/word guess/Gissa%20Ordet%202.webp',
+        src: '/samples/swedish/word guess/gissa%20ordet%202.webp',
         alt: 'Gissa ordet-arbetsblad på Svårt svårighetsnivå med minimala ledtrådsbokstäver och djurtema',
         caption: 'Svårt svårighetsnivå — bara en sjättedel av bokstäverna avslöjade för avancerade stavare',
       },
       {
-        src: '/samples/swedish/word guess/Gissa%20Ordet%201%20answer-key.webp',
+        src: '/samples/swedish/word guess/gissa%20ordet%201%20answer-key.webp',
         alt: 'Gissa ordet-facit med alla bokstäver ifyllda och inga tomma celler',
         caption: 'Facit — alla bokstäver avslöjade för enkel rättning och självkontroll',
       },

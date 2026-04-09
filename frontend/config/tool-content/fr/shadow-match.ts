@@ -227,22 +227,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/shadow match/Trouve l\'Ombre 1.webp',
+      primary: '/samples/french/shadow match/Trouve l\'ombre-1.webp',
       primaryAlt: 'Fiche de discrimination visuelle avec images en couleur dans la rangée du haut et silhouettes noires auto-générées dans la rangée du bas avec en-tête ambre et étiquettes lettre-numéro pour activité de correspondance',
     },
     sampleGallery: [
       {
-        src: '/samples/french/shadow match/Trouve l\'Ombre 1.webp',
+        src: '/samples/french/shadow match/Trouve l\'ombre-1.webp',
         alt: 'Fiche Trouve l\'Ombre montrant quatre images en couleur associées à quatre silhouettes noires au niveau des pixels avec étiquettes A B C D et 1 2 3 4',
         caption: 'Mode Trouve l\'Ombre — les utilisateurs associent les images à leurs silhouettes auto-générées au niveau des pixels',
       },
       {
-        src: '/samples/french/shadow match/Trouve l\'Ombre 2.webp',
+        src: '/samples/french/shadow match/Trouve l\'ombre-2.webp',
         alt: 'Fiche Reconstitue l\'Image avec des moitiés d\'images séparées que les utilisateurs reconnectent en associant premières et secondes moitiés étiquetées A à D et 1 à 4',
         caption: 'Mode Reconstitue l\'Image — les utilisateurs associent les moitiés d\'images pour compléter les illustrations avec coupes horizontales ou verticales',
       },
       {
-        src: '/samples/french/shadow match/Trouve l\'Ombre 1 answer-key.webp',
+        src: '/samples/french/shadow match/Trouve l\'ombre-1-answer-key.webp',
         alt: 'Corrigé de discrimination visuelle montrant les images originales avec silhouettes et étiquettes de correspondance lettre-numéro correctes comme A vers 2',
         caption: 'Corrigé auto-généré — les étiquettes lettre-numéro indiquent les correspondances correctes pour les deux modes d\'exercice',
       },

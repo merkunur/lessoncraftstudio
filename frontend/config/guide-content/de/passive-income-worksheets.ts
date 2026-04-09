@@ -173,22 +173,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/addition/Additionsspa 1.webp',
+      src: '/samples/german/addition/additionsspa-1.webp',
       alt: 'Professionelles Additions-Arbeitsblatt als Beispiel für immergrünen Bildungsinhalt für wiederkehrenden Umsatz',
     },
     samples: [
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: '/samples/german/addition/additionsspa-1.webp',
         alt: 'Additions-Arbeitsblatt mit professioneller Formatierung für Marktplatzverkauf',
         caption: 'Mathe-Arbeitsblätter generieren konsistenten ganzjährigen Umsatz als immergrüne Bildungsprodukte',
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuche-Rätsel in mehreren Sprachen verfügbar für erweiterte Marktreichweite',
         caption: 'Mehrsprachige Wortsuchen multiplizieren den Umsatz durch Erreichen unterversorgter internationaler Märkte',
       },
       {
-        src: '/samples/german/matching/Paare Finden 1.webp',
+        src: '/samples/german/matching/paare-finden-1.webp',
         alt: 'Thematisches Zuordnungs-Arbeitsblatt als Beispiel für Katalogtiefe durch Themenvielseitigkeit',
         caption: 'Thematische Zuordnungsaktivitäten bauen Katalogtiefe auf, die zusammensetzende Auffindbarkeit antreibt',
       },

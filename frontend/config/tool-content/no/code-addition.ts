@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/code%20addition/Hemmelig%20Kode%20Addisjon%201.webp',
+      primary: '/samples/norwegian/code%20addition/hemmelig%20kode%20addisjon%201.webp',
       primaryAlt: 'Kodeaddisjons arbeidsark som viser kryptaritmetikkpuslespill med bildesymboler som gjemmer hemmelige siffer',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/code%20addition/Hemmelig%20Kode%20Addisjon%201.webp',
+        src: '/samples/norwegian/code%20addition/hemmelig%20kode%20addisjon%201.webp',
         alt: 'Kodeknekker matematikkpuslespill med dyresymboler i Normal Modus',
         caption: 'Normal Modus med dyretema — hvert symbol gjemmer en unik siffer',
       },
       {
-        src: '/samples/norwegian/code%20addition/Hemmelig%20Kode%20Addisjon%202.webp',
+        src: '/samples/norwegian/code%20addition/hemmelig%20kode%20addisjon%202.webp',
         alt: 'Kodeaddisjons arbeidsark med Ord Avsloring-modus og tematiske bilder',
         caption: 'Ord Avsloring-modus — los ligninger for å stave et hemmelig ord',
       },
       {
-        src: '/samples/norwegian/code%20addition/Hemmelig%20Kode%20Addisjon%203.webp',
+        src: '/samples/norwegian/code%20addition/hemmelig%20kode%20addisjon%203.webp',
         alt: 'Kryptaritmetikk puslespillarbeidsark med blandede addender og dekorativ ramme',
         caption: 'Blandede addender med rammedekorasjon for produktklar utdata',
       },

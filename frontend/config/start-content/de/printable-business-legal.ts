@@ -219,9 +219,9 @@ const content: StartContent = {
     heroImage: { src: '/samples/german/writing/writing.webp', alt: 'Schreibübungs-Arbeitsblatt als Beispiel für kommerziell lizenzierbare lehrreiche Inhalte für Druckvorlagen-Verkäufer' },
     samples: [
       { src: '/samples/german/writing/writing.webp', alt: 'Schreibübungs-Arbeitsblatt mit kommerziell lizenzierbarem lehrreichem Inhalt', caption: 'Schreibübungen — Kommerziell lizenzierbare lehrreiche Inhalte' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel als Beispiel für kommerzielles Produktpotenzial bei hohem Volumen', caption: 'Wortsuche — Beliebtester kommerzieller Rätseltyp' },
-      { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel als Beispiel für mehrsprachige kommerzielle Produktfähigkeit', caption: 'Kreuzworträtsel — Mehrsprachige kommerzielle Produkte' },
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Mathe-Arbeitsblatt als Beispiel für zeitlose kommerzielle Produktgenerierung', caption: 'Mathe — Zeitlose kommerzielle Produktgenerierung' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Rätsel als Beispiel für kommerzielles Produktpotenzial bei hohem Volumen', caption: 'Wortsuche — Beliebtester kommerzieller Rätseltyp' },
+      { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kreuzworträtsel als Beispiel für mehrsprachige kommerzielle Produktfähigkeit', caption: 'Kreuzworträtsel — Mehrsprachige kommerzielle Produkte' },
+      { src: '/samples/german/math puzzle/mathe-rätsel-1.webp', alt: 'Mathe-Arbeitsblatt als Beispiel für zeitlose kommerzielle Produktgenerierung', caption: 'Mathe — Zeitlose kommerzielle Produktgenerierung' },
     ],
     youtubeId: '0b4WglqyXu0',
     videoTitle: 'Schreibübungs-Arbeitsblätter für Ihr Druckvorlagen-Geschäft erstellen — LessonCraftStudio Demo',

@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de suma profesional demostrando la calidad que respalda estrategias de precios premium' },
+    heroImage: { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de suma profesional demostrando la calidad que respalda estrategias de precios premium' },
     samples: [
-      { src: '/samples/spanish/addition/Suma Divertida 1.webp', alt: 'Ficha de suma con imágenes temáticas respaldando precios premium', caption: 'El formato profesional y las imágenes temáticas justifican precios más altos — los compradores pagan más por calidad y atractivo visual' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras demostrando diferenciación de características para precios', caption: 'Las sopas de letras con imágenes temáticas exigen precios más altos que las versiones básicas de solo texto en todas las plataformas' },
-      { src: '/samples/spanish/coloring/coloring portrait 2.webp', alt: 'Página de colorear mostrando calidad que respalda precios competitivos', caption: 'Las páginas de colorear de alta calidad demuestran cómo la calidad del producto permite directamente precios premium en categorías competitivas' },
+      { src: '/samples/spanish/addition/suma-divertida-1.webp', alt: 'Ficha de suma con imágenes temáticas respaldando precios premium', caption: 'El formato profesional y las imágenes temáticas justifican precios más altos — los compradores pagan más por calidad y atractivo visual' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras demostrando diferenciación de características para precios', caption: 'Las sopas de letras con imágenes temáticas exigen precios más altos que las versiones básicas de solo texto en todas las plataformas' },
+      { src: '/samples/spanish/coloring/coloring-portrait-2.webp', alt: 'Página de colorear mostrando calidad que respalda precios competitivos', caption: 'Las páginas de colorear de alta calidad demuestran cómo la calidad del producto permite directamente precios premium en categorías competitivas' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Cómo crear fichas de matemáticas rápidamente — Producción eficiente para mejores márgenes de beneficio',

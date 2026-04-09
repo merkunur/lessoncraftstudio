@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/word%20scramble/Bokstavblanding%201.webp',
+      primary: '/samples/norwegian/word%20scramble/bokstavblanding%201.webp',
       primaryAlt: 'Bokstavblanding-arbeidsark med bildeledetråder og blandede bokstavfliser som viser bokstavomstokking stavingspuslespill',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/word%20scramble/Bokstavblanding%201.webp',
+        src: '/samples/norwegian/word%20scramble/bokstavblanding%201.webp',
         alt: 'Bokstavblanding-arbeidsark i stående format med bildeledetråder og blandede bokstavfliser',
         caption: 'Stående format — profesjonelt bokstavblanding-arbeidsark med bildeledetråder',
       },
       {
-        src: '/samples/norwegian/word%20scramble/Bokstavblanding%202.webp',
+        src: '/samples/norwegian/word%20scramble/bokstavblanding%202.webp',
         alt: 'Bokstavblanding-arbeidsark med tematiske illustrasjoner og fargekodede bokstavfliser',
         caption: 'Fargekoding — vokaler og konsonanter i forskjellige farger for fonikkstøtte',
       },
       {
-        src: '/samples/norwegian/word%20scramble/Bokstavblanding%203.webp',
+        src: '/samples/norwegian/word%20scramble/bokstavblanding%203.webp',
         alt: 'Bokstavblanding fasit med alle bokstaver korrekt omstokket',
         caption: 'Fasit — korrekt omstokkede ord for enkel retting og selvkontroll',
       },

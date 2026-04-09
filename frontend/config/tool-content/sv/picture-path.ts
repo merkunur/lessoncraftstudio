@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/picture%20path/bildv%C3%A4g%201.webp',
+      primary: '/samples/swedish/picture%20path/bildv%c3%a4g%201.webp',
       primaryAlt: 'Bildväg labyrintarbetsblad med tematiska bilder i ett rutnät med orange rubrikram och automatiskt genererad Bildväg-rubrik med lokaliserad titel',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/picture%20path/bildv%C3%A4g%202.webp',
+        src: '/samples/swedish/picture%20path/bildv%c3%a4g%202.webp',
         alt: 'Bildväg-läge arbetsblad med bilder i ett rutnät som visar den korrekta vägen från start till mål bland distraktorbilder',
         caption: 'Bildväg-läge — användarna följer den korrekta bildvägen från start till mål bland distraktorer',
       },
       {
-        src: '/samples/swedish/picture%20path/bildv%C3%A4g%203.webp',
+        src: '/samples/swedish/picture%20path/bildv%c3%a4g%203.webp',
         alt: 'Klassisk Labyrint-läge arbetsblad med LPF-algoritmen väggbaserade korridorer och samlingsbilder utspridda genom labyrinten',
         caption: 'Klassisk Labyrint-läge — LPF-algoritmen genererar väggbaserade labyrinter med samlingsbilder',
       },
       {
-        src: '/samples/swedish/picture%20path/bildv%C3%A4g%201%20answer_key.webp',
+        src: '/samples/swedish/picture%20path/bildv%c3%a4g%201%20answer-key.webp',
         alt: 'Bildväg labyrint facit med lösningsväg markerad med rosa cirklar längs den korrekta rutten och samlingslegend',
         caption: 'Automatiskt genererat facit — rosa cirklar markerar lösningsvägen med samlingslegend inkluderad',
       },

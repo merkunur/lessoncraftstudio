@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt mit durcheinander gewürfelten Bildteilen und Rechenaufgaben, die Kinder lösen und zusammensetzen' },
+    heroImage: { src: '/samples/german/math puzzle/mathe-rätsel-1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt mit durcheinander gewürfelten Bildteilen und Rechenaufgaben, die Kinder lösen und zusammensetzen' },
     samples: [
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt mit Tierthema, das Rastergleichungen und nummerierte Bildfragmente zeigt', caption: 'Mathe-Rätsel-Arbeitsblatt — Kinder lösen Gleichungen, um zu bestimmen, wohin jedes nummerierte Bildteil im Raster gehört' },
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Mathe-Rätsel-Lösungsschlüssel mit rekonstruiertem Bild und gelösten Gleichungen', caption: 'Automatischer Lösungsschlüssel mit dem rekonstruierten Bild bei 30 % Deckkraft und vollständig gelösten Gleichungen' },
+      { src: '/samples/german/math puzzle/mathe-rätsel-1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt mit Tierthema, das Rastergleichungen und nummerierte Bildfragmente zeigt', caption: 'Mathe-Rätsel-Arbeitsblatt — Kinder lösen Gleichungen, um zu bestimmen, wohin jedes nummerierte Bildteil im Raster gehört' },
+      { src: '/samples/german/math puzzle/mathe-rätsel-1.webp', alt: 'Mathe-Rätsel-Lösungsschlüssel mit rekonstruiertem Bild und gelösten Gleichungen', caption: 'Automatischer Lösungsschlüssel mit dem rekonstruierten Bild bei 30 % Deckkraft und vollständig gelösten Gleichungen' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Mathe-Rätsel-Arbeitsblätter erstellen — Vollständiges Tutorial',

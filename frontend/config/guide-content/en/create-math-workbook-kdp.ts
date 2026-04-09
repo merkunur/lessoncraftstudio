@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/math worksheet/Math Worksheet 10.webp', alt: 'Math worksheet with progressive difficulty problems formatted for KDP workbook interior' },
+    heroImage: { src: '/samples/english/math worksheet/math-worksheet-10.webp', alt: 'Math worksheet with progressive difficulty problems formatted for KDP workbook interior' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 10.webp', alt: 'Addition worksheet page with graded problems ready for KDP manuscript', caption: 'An addition worksheet page with progressive difficulty exported as a print-ready PDF for KDP' },
-      { src: '/samples/english/subtraction/cross out.webp', alt: 'Subtraction worksheet with answer key', caption: 'A subtraction worksheet with automatic answer key -- every problem solution verified' },
+      { src: '/samples/english/addition/addition-fun-10.webp', alt: 'Addition worksheet page with graded problems ready for KDP manuscript', caption: 'An addition worksheet page with progressive difficulty exported as a print-ready PDF for KDP' },
+      { src: '/samples/english/subtraction/cross-out.webp', alt: 'Subtraction worksheet with answer key', caption: 'A subtraction worksheet with automatic answer key -- every problem solution verified' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'How to Create Math Worksheets',

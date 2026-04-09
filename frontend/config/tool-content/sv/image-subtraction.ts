@@ -210,22 +210,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/subtraction/Rolig%20Subtraktio%201.webp',
+      primary: '/samples/swedish/subtraction/rolig%20subtraktio%201.webp',
       primaryAlt: 'Subtraktions arbetsblad med stryk-över bilder som visar visuella ta-bort matteövningar',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/subtraction/Rolig%20Subtraktio%201.webp',
+        src: '/samples/swedish/subtraction/rolig%20subtraktio%201.webp',
         alt: 'Stryk Över subtraktions arbetsblad med djurtema som visar överstrukna bilder',
         caption: 'Stryk Över-läge med djurtema',
       },
       {
-        src: '/samples/swedish/subtraction/Rolig%20Subtraktio%202.webp',
+        src: '/samples/swedish/subtraction/rolig%20subtraktio%202.webp',
         alt: 'Subtraktions arbetsblad med mattema i Bild minus Tal-läge',
         caption: 'Bild − Tal-läge med mattema',
       },
       {
-        src: '/samples/swedish/subtraction/Rolig%20Subtraktio%203.webp',
+        src: '/samples/swedish/subtraction/rolig%20subtraktio%203.webp',
         alt: 'Hitta Subtrahend arbetsblad med fordonsbilder och dekorativ ram',
         caption: 'Hitta Subtrahend-läge med fordon och ram',
       },

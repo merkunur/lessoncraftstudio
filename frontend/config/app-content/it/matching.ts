@@ -262,22 +262,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/matching/Trova le Coppie 1.webp',
+      primary: '/samples/italian/matching/trova-le-coppie-1.webp',
       primaryAlt: 'Scheda di abbinamento con immagini tematiche disposte in due colonne con intestazione localizzata Collega! e numeri degli elementi',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/matching/Trova le Coppie 2.webp',
+        src: '/samples/italian/matching/trova-le-coppie-2.webp',
         alt: 'Scheda di abbinamento per lettera iniziale con immagini a sinistra e prime lettere a destra',
         caption: 'Modalità Lettera Iniziale — gli utenti abbinano immagini con la loro prima lettera',
       },
       {
-        src: '/samples/italian/matching/Trova le Coppie 3.webp',
+        src: '/samples/italian/matching/trova-le-coppie-3.webp',
         alt: 'Scheda di abbinamento immagine e parola con coppie con didascalia su entrambi i lati',
         caption: 'Modalità Immagine+Parola — coppie di immagini con didascalia per abbinamento di vocabolario',
       },
       {
-        src: '/samples/italian/matching/Trova le Coppie 4.webp',
+        src: '/samples/italian/matching/trova-le-coppie-4.webp',
         alt: 'Foglio risposte della scheda di abbinamento con linee di collegamento tracciate tra le corrispondenze corrette',
         caption: 'Foglio risposte autogenerato — le linee di collegamento mostrano le corrispondenze corrette',
       },

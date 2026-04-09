@@ -222,22 +222,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/picture sort/Bilder Sortieren 1.webp',
+      primary: '/samples/german/picture sort/bilder-sortieren-1.webp',
       primaryAlt: 'Zwei-Kategorien-Sortier-Arbeitsblatt mit gestrichelt umrandeten Kategorierahmen oben und gemischtem Ausschneidegitter unten mit lokalisiertem mintgrünem Bilder-Sortieren-Header',
     },
     sampleGallery: [
       {
-        src: '/samples/german/picture sort/Bilder Sortieren 2.webp',
+        src: '/samples/german/picture sort/bilder-sortieren-2.webp',
         alt: 'Themen-Modus-Sortier-Arbeitsblatt mit automatisch befüllten linken und rechten Kategorien aus der Bildbibliothek mit gemischtem Ausschneidegitter',
         caption: 'Themen-Modus — automatisch befüllte Kategorien aus der Bildbibliothek mit zufälligem Ausschneidegitter',
       },
       {
-        src: '/samples/german/picture sort/Bilder Sortieren 3.webp',
+        src: '/samples/german/picture sort/bilder-sortieren-3.webp',
         alt: 'Manueller-Modus-Sortier-Arbeitsblatt mit handausgewählten Bildern, die linker und rechter Kategorie für lehrplanorientierte Sortierung zugewiesen sind',
         caption: 'Manueller Modus — Bilder von Hand auswählen und der linken oder rechten Kategorie zuweisen',
       },
       {
-        src: '/samples/german/picture sort/Bilder Sortieren 1 answer_key.webp',
+        src: '/samples/german/picture sort/bilder-sortieren-1-answer-key.webp',
         alt: 'Bilder-Sortieren-Lösungsschlüssel mit 6-fach größeren Bildern in korrekten Kategorieboxen mit gestrichelten Rändern und FAFAFA-Füllung',
         caption: 'Automatisch generierter Lösungsschlüssel — 6× größere Bilder in Kategorieboxen mit maximal 2 Spalten pro Box',
       },

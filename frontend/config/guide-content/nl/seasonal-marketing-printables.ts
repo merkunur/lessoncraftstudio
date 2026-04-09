@@ -184,22 +184,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/coloring/coloring portrait 2.webp',
+      src: '/samples/dutch/coloring/coloring-portrait-2.webp',
       alt: 'Kleurplaat werkblad dat een seizoensgebonden printable product demonstreert ideaal voor feestdagenmarketingcampagnes',
     },
     samples: [
       {
-        src: '/samples/dutch/coloring/coloring portrait 2.webp',
+        src: '/samples/dutch/coloring/coloring-portrait-2.webp',
         alt: 'Kleurplaat die een seizoensgebonden printable product toont voor feestdagenevenementen en vieringen',
         caption: 'Kleurplaten passen zich aan elk seizoensthema aan, waardoor ze ideale producten zijn voor jaarronde seizoensmarketing',
       },
       {
-        src: '/samples/dutch/bingo/bingo_card.webp',
+        src: '/samples/dutch/bingo/bingo-card.webp',
         alt: 'Bingokaart die seizoensgebonden printable content demonstreert voor feestdagen marktplaatslistings',
         caption: 'Seizoensgebonden bingokaarten zijn consistente topverkopers tijdens feestdagen vraagpieken op alle printable marktplaatsen',
       },
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-1.webp',
         alt: 'Woordzoekpuzzel die seizoensgebonden woordenschatopbouwende printable toont voor feestdagenmarketing',
         caption: 'Thematische woordzoekers combineren seizoensaantrekkingskracht met educatieve waarde voor sterke marktplaatsprestaties',
       },
@@ -210,7 +210,7 @@ const content: GuideContent = {
 
   themeImages: [
     { src: '/image-library/christmas/tree.webp', alt: 'Kerstboom — thematische educatieve afbeelding', caption: 'Kerstboom' },
-    { src: '/image-library/christmas/Santa.webp', alt: 'Kerstman — thematische educatieve afbeelding', caption: 'Kerstman' },
+    { src: '/image-library/christmas/santa.webp', alt: 'Kerstman — thematische educatieve afbeelding', caption: 'Kerstman' },
     { src: '/image-library/christmas/reindeer.webp', alt: 'Rendier — thematische educatieve afbeelding', caption: 'Rendier' },
     { src: '/image-library/christmas/snowman.webp', alt: 'Sneeuwpop — thematische educatieve afbeelding', caption: 'Sneeuwpop' },
     { src: '/image-library/christmas/present.webp', alt: 'Cadeau — thematische educatieve afbeelding', caption: 'Cadeau' },

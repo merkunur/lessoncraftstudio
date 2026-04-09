@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Ressource de fiches d\'addition adaptée à la vente sur le marketplace Gumroad' },
+    heroImage: { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Ressource de fiches d\'addition adaptée à la vente sur le marketplace Gumroad' },
     samples: [
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition mathématique pour ressource de produits Gumroad', caption: 'Les fiches de maths figurent parmi les types de ressources les plus recherchés sur Gumroad — les vendeurs ont besoin de pratique conforme aux programmes pour chaque compétence' },
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Activité puzzle de mots cachés pour fiche boutique Gumroad', caption: 'Les puzzles de mots cachés fonctionnent à tous les niveaux scolaires sur Gumroad comme activités d\'enrichissement du vocabulaire, ateliers et travail d\'approfondissement' },
-      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'activité d\'association pour les entrepreneurs Gumroad', caption: 'Les activités d\'association sont des ressources Gumroad polyvalentes que les vendeurs utilisent pour l\'évaluation, la pratique et la révision dans plusieurs matières' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition mathématique pour ressource de produits Gumroad', caption: 'Les fiches de maths figurent parmi les types de ressources les plus recherchés sur Gumroad — les vendeurs ont besoin de pratique conforme aux programmes pour chaque compétence' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Activité puzzle de mots cachés pour fiche boutique Gumroad', caption: 'Les puzzles de mots cachés fonctionnent à tous les niveaux scolaires sur Gumroad comme activités d\'enrichissement du vocabulaire, ateliers et travail d\'approfondissement' },
+      { src: '/samples/french/matching/trouve-les-paires-1.webp', alt: 'Fiche d\'activité d\'association pour les entrepreneurs Gumroad', caption: 'Les activités d\'association sont des ressources Gumroad polyvalentes que les vendeurs utilisent pour l\'évaluation, la pratique et la révision dans plusieurs matières' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Comment créer des fiches pédagogiques pour Gumroad — Tutoriel étape par étape',

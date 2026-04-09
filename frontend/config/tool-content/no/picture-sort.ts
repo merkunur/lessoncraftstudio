@@ -212,22 +212,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/picture%20sort/Sorter%20Bilder%201.webp',
+      primary: '/samples/norwegian/picture%20sort/sorter%20bilder%201.webp',
       primaryAlt: 'Tokategori bildesortering arbeidsark med stiplede kategorirammer øverst og blandet utklippsrutenett nedenfor med lokalisert mintgrønn Sorter bilder-overskrift',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/picture%20sort/Sorter%20Bilder%201.webp',
+        src: '/samples/norwegian/picture%20sort/sorter%20bilder%201.webp',
         alt: 'Temamodus sorteringsarbeidsark med automatisk utfylte venstre og høyre kategorier fra bildebiblioteket med blandet utklippsrutenett',
         caption: 'Temamodus — autoutfylte kategorier fra bildebiblioteket med tilfeldig utklippsrutenett',
       },
       {
-        src: '/samples/norwegian/picture%20sort/Sorter%20Bilder%202.webp',
+        src: '/samples/norwegian/picture%20sort/sorter%20bilder%202.webp',
         alt: 'Manuell modus sorteringsarbeidsark med håndvalgte bilder tildelt til venstre og høyre kategorier',
         caption: 'Manuell modus — håndvelg bilder og tildel hver til venstre eller høyre kategori',
       },
       {
-        src: '/samples/norwegian/picture%20sort/Sorter%20Bilder%203.webp',
+        src: '/samples/norwegian/picture%20sort/sorter%20bilder%203.webp',
         alt: 'Bildesortering fasit med 6x større bilder organisert i korrekte kategoribokser med stiplede rammer',
         caption: 'Automatisk generert fasit — 6× større bilder i kategoribokser med maks 2 kolonner per boks',
       },

@@ -212,22 +212,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/prepositions/prepositions_worksheet (1).webp',
+      primary: '/samples/english/prepositions/prepositions-worksheet-1.webp',
       primaryAlt: 'Prepositions worksheet showing image scenes with spatial relationship exercises for position word practice',
     },
     sampleGallery: [
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (1).webp',
+        src: '/samples/english/prepositions/prepositions-worksheet-1.webp',
         alt: 'Prepositions worksheet with fill-in-the-blank exercises using colorful image scenes',
         caption: 'Fill-in-the-blank preposition exercises with image scenes',
       },
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (5).webp',
+        src: '/samples/english/prepositions/prepositions-worksheet-5.webp',
         alt: 'Prepositions worksheet with multiple choice spatial relationship exercises',
         caption: 'Multiple choice mode for beginner-friendly practice',
       },
       {
-        src: '/samples/english/prepositions/prepositions_worksheet (10).webp',
+        src: '/samples/english/prepositions/prepositions-worksheet-10.webp',
         alt: 'Advanced prepositions worksheet with shape replacement and multiple exercises per page',
         caption: 'Shape replacement creates unique scene combinations',
       },

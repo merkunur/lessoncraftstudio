@@ -278,22 +278,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/crossword/Mots Croisés en Images 1.webp',
+      primary: '/samples/french/crossword/mots-croisés-en-images-1.webp',
       primaryAlt: 'Puzzle de mots croisés en images avec indices visuels sur une grille 15×15 avec en-tête localisé Mots Croisés en Images et positions d\'indices numérotées',
     },
     sampleGallery: [
       {
-        src: '/samples/french/crossword/Mots Croisés en Images 1.webp',
+        src: '/samples/french/crossword/mots-croisés-en-images-1.webp',
         alt: 'Puzzle de mots croisés en images avec indices visuels thématiques à côté d\'une grille de mots croisés 15×15',
         caption: 'Mots croisés en images — les indices visuels remplacent les définitions textuelles sur une grille 15×15',
       },
       {
-        src: '/samples/french/crossword/Mots Croisés en Images 2 .webp',
+        src: '/samples/french/crossword/mots-croisés-en-images-2.webp',
         alt: 'Puzzle de mots croisés en images avec un thème différent et des mots variés dans la grille',
         caption: 'Thème varié — chaque thème génère des mots croisés uniques avec des mots différents',
       },
       {
-        src: '/samples/french/crossword/Mots Croisés en Images 1 answer_key.webp',
+        src: '/samples/french/crossword/mots-croisés-en-images-1-answer-key.webp',
         alt: 'Corrigé du puzzle de mots croisés avec toutes les lettres correctes remplies dans la grille',
         caption: 'Corrigé auto-généré — la grille remplie affiche toutes les réponses correctes',
       },

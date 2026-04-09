@@ -201,9 +201,9 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/addition/addition_%C3%B6vning.webp', alt: 'pedagogiskt utskriftsbart arbetsblad som visar bildbaserade matteuppgifter för försäljning på Etsy över flera kategorier' },
+    heroImage: { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'pedagogiskt utskriftsbart arbetsblad som visar bildbaserade matteuppgifter för försäljning på Etsy över flera kategorier' },
     samples: [
-      { src: '/samples/swedish/addition/addition_%C3%B6vning.webp', alt: 'Djurtematiserat additionsarbetsblad för en diversifierad pedagogisk Etsy-butik', caption: 'Additionsarbetsblad med djurtema — en av dussintals matteprodukter du kan skapa' },
+      { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Djurtematiserat additionsarbetsblad för en diversifierad pedagogisk Etsy-butik', caption: 'Additionsarbetsblad med djurtema — en av dussintals matteprodukter du kan skapa' },
       { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Ordsökningspussel som visar språkbaserad pedagogisk utskrift för Etsy', caption: 'Ordsökningspussel — språkberoende format som multipliceras över 11 språkmarknader' },
       { src: '/samples/swedish/coloring/coloring%20portrait%201.webp', alt: 'Målarbild som visar visuellt lärande-produkt för Etsy pedagogisk butik', caption: 'Målarbild — bredaste köpardemografin av alla pedagogiska utskriftskategorier' },
     ],

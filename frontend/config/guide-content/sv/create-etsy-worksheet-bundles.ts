@@ -192,10 +192,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/swedish/addition/addition_%C3%B6vning.webp', alt: 'Additionsarbetsblad som visar en kärnkomponent i pedagogiska utskriftspaket för Etsy-säljare' },
+    heroImage: { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Additionsarbetsblad som visar en kärnkomponent i pedagogiska utskriftspaket för Etsy-säljare' },
     samples: [
-      { src: '/samples/swedish/addition/addition_%C3%B6vning.webp', alt: 'Djurtematiserat additionsarbetsblad som matte-paketkomponent för Etsy', caption: 'Additionsarbetsblad med djurtema — en kärnkomponent för matte-ämnespaket på Etsy' },
-      { src: '/samples/swedish/subtraction/Rolig%20Subtraktio%201.webp', alt: 'Djurtematiserat subtraktionsarbetsblad som kompletterar addition i Etsy-mattepaket', caption: 'Subtraktionsarbetsblad med djurtema — paras med additionsarbetsblad för kompletta mattepaket' },
+      { src: '/samples/swedish/addition/addition-%c3%b6vning.webp', alt: 'Djurtematiserat additionsarbetsblad som matte-paketkomponent för Etsy', caption: 'Additionsarbetsblad med djurtema — en kärnkomponent för matte-ämnespaket på Etsy' },
+      { src: '/samples/swedish/subtraction/rolig%20subtraktio%201.webp', alt: 'Djurtematiserat subtraktionsarbetsblad som kompletterar addition i Etsy-mattepaket', caption: 'Subtraktionsarbetsblad med djurtema — paras med additionsarbetsblad för kompletta mattepaket' },
       { src: '/samples/swedish/wordsearch/ordletning%20portrait.webp', alt: 'Djur-ordsökningspussel som lägger till korskategorivariation till Etsy-arbetsbladspaket', caption: 'Ordsökningspussel med djurtema — lägger till läsvärde till korskategori-temapaket' },
     ],
     youtubeId: '6O5aCzHkh8M',

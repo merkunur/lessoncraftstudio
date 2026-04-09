@@ -193,11 +193,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Page de coloriage imprimable prête à vendre sur une vitrine Gumroad' },
+    heroImage: { src: '/samples/french/coloring/coloring-portrait-1.webp', alt: 'Page de coloriage imprimable prête à vendre sur une vitrine Gumroad' },
     samples: [
-      { src: '/samples/french/coloring/coloring portrait 2.webp', alt: 'Page de coloriage imprimable pour la vente de produits numériques sur Gumroad', caption: 'Les pages de coloriage créent des images produits visuellement attrayantes qui génèrent du trafic via les réseaux sociaux vers votre boutique Gumroad' },
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés imprimable pour le catalogue d\'une boutique Gumroad', caption: 'Les puzzles de mots cachés ont un large attrait auprès des parents et des vendeurs — un type de produit polyvalent sur Gumroad' },
-      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'associations pour une activité d\'imprimables sur Gumroad', caption: 'Les activités d\'associations sont des imprimables éducatifs très demandés qui fonctionnent bien en produits individuels et en lots' },
+      { src: '/samples/french/coloring/coloring-portrait-2.webp', alt: 'Page de coloriage imprimable pour la vente de produits numériques sur Gumroad', caption: 'Les pages de coloriage créent des images produits visuellement attrayantes qui génèrent du trafic via les réseaux sociaux vers votre boutique Gumroad' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés imprimable pour le catalogue d\'une boutique Gumroad', caption: 'Les puzzles de mots cachés ont un large attrait auprès des parents et des vendeurs — un type de produit polyvalent sur Gumroad' },
+      { src: '/samples/french/matching/trouve-les-paires-1.webp', alt: 'Fiche d\'associations pour une activité d\'imprimables sur Gumroad', caption: 'Les activités d\'associations sont des imprimables éducatifs très demandés qui fonctionnent bien en produits individuels et en lots' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Comment créer des pages de coloriage pour votre boutique Gumroad d\'imprimables',

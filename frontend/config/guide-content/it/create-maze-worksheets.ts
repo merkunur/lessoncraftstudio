@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/picture path/Percorso di Immagini 1.webp', alt: 'Scheda labirinto che mostra un\'attività di percorso illustrato tematico con immagini di partenza e arrivo per bambini' },
+    heroImage: { src: '/samples/italian/picture path/percorso-di-immagini-1.webp', alt: 'Scheda labirinto che mostra un\'attività di percorso illustrato tematico con immagini di partenza e arrivo per bambini' },
     samples: [
-      { src: '/samples/italian/picture path/Percorso di Immagini 1.webp', alt: 'Scheda labirinto percorso illustrato con immagini tematiche per età prescolare e scuola dell\'infanzia', caption: 'Modalità Percorso Illustrato: i bambini seguono un percorso visivo dall\'immagine di partenza all\'immagine di arrivo attraverso decorazioni tematiche' },
-      { src: '/samples/italian/picture path/Percorso di Immagini 1.webp', alt: 'Scheda labirinto negozico con conteggio collezionabili e chiave di risposta', caption: 'Modalità Labirinto negozico con immagini collezionabili e chiave di risposta automatica che mostra il percorso soluzione e i conteggi' },
+      { src: '/samples/italian/picture path/percorso-di-immagini-1.webp', alt: 'Scheda labirinto percorso illustrato con immagini tematiche per età prescolare e scuola dell\'infanzia', caption: 'Modalità Percorso Illustrato: i bambini seguono un percorso visivo dall\'immagine di partenza all\'immagine di arrivo attraverso decorazioni tematiche' },
+      { src: '/samples/italian/picture path/percorso-di-immagini-1.webp', alt: 'Scheda labirinto negozico con conteggio collezionabili e chiave di risposta', caption: 'Modalità Labirinto negozico con immagini collezionabili e chiave di risposta automatica che mostra il percorso soluzione e i conteggi' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'Come Creare Schede Labirinti — Tutorial Completo',

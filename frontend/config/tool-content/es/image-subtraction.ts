@@ -208,22 +208,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/subtraction/Restas Divertidas 1.webp',
+      primary: '/samples/spanish/subtraction/restas-divertidas-1.webp',
       primaryAlt: 'Ficha de resta con imágenes para tachar mostrando ejercicios de matemáticas visuales',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/subtraction/Restas Divertidas 1.webp',
+        src: '/samples/spanish/subtraction/restas-divertidas-1.webp',
         alt: 'Ficha de resta en modo Tachar Imágenes con tema de animales mostrando imágenes tachadas',
         caption: 'Modo Tachar Imágenes con tema de animales',
       },
       {
-        src: '/samples/spanish/subtraction/Restas Divertidas 2.webp',
+        src: '/samples/spanish/subtraction/restas-divertidas-2.webp',
         alt: 'Ficha de resta con imágenes de comida en modo Imagen menos Número',
         caption: 'Modo Imagen − Número con tema de comida',
       },
       {
-        src: '/samples/spanish/subtraction/Restas Divertidas 4.webp',
+        src: '/samples/spanish/subtraction/restas-divertidas-4.webp',
         alt: 'Ficha de Encontrar el Sustraendo con imágenes de vehículos y borde decorativo',
         caption: 'Modo Encontrar el Sustraendo con vehículos y borde',
       },

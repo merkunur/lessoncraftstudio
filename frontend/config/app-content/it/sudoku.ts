@@ -266,22 +266,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/sudoku/Sudoku con Immagini 1.webp',
+      primary: '/samples/italian/sudoku/sudoku-con-immagini-1.webp',
       primaryAlt: 'Scheda di sudoku 4×4 con immagini tematiche in una griglia premium con colori alternati nei blocchi e intestazione autogenerata Sudoku con Immagini',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/sudoku/Sudoku con Immagini 2.webp',
+        src: '/samples/italian/sudoku/sudoku-con-immagini-2.webp',
         alt: 'Sudoku con immagini di difficoltà facile con 4 celle vuote e 12 celle riempite in una griglia 4×4',
         caption: 'Difficoltà facile — 4 celle vuote per principianti che imparano la logica righe-colonne',
       },
       {
-        src: '/samples/italian/sudoku/Sudoku con Immagini 3.webp',
+        src: '/samples/italian/sudoku/sudoku-con-immagini-3.webp',
         alt: 'Sudoku con immagini di difficoltà difficile con 8 celle vuote e 8 celle riempite in una griglia 4×4',
         caption: 'Difficoltà difficile — 8 celle vuote che richiedono ragionamento logico a più passaggi',
       },
       {
-        src: '/samples/italian/sudoku/Sudoku con Immagini 1 answer_key.webp',
+        src: '/samples/italian/sudoku/sudoku-con-immagini-1-answer-key.webp',
         alt: 'Foglio risposte del sudoku con immagini che mostra la griglia 4×4 completa con tutte le 16 celle riempite',
         caption: 'Foglio risposte autogenerato — griglia completa con tutte le immagini posizionate',
       },

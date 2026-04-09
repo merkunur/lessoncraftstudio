@@ -164,22 +164,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/coloring/coloring portrait 2.webp',
+      src: '/samples/english/coloring/coloring-portrait-2.webp',
       alt: 'Professional coloring page worksheet demonstrating visually striking Pinterest pin content for printable sellers',
     },
     samples: [
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/english/coloring/coloring-portrait-1.webp',
         alt: 'Coloring page worksheet showing visual impact for Pinterest pin design',
         caption: 'Visually striking worksheets create naturally compelling Pinterest pin images',
       },
       {
-        src: '/samples/english/bingo/bingo_card_1.webp',
+        src: '/samples/english/bingo/bingo-card-1.webp',
         alt: 'Bingo card worksheet demonstrating colorful pin-worthy product designs',
         caption: 'Colorful, themed products generate higher save rates and click-through on Pinterest',
       },
       {
-        src: '/samples/english/wordsearch/Word Search 10.webp',
+        src: '/samples/english/wordsearch/word-search-10.webp',
         alt: 'Word search puzzle showing versatile product type for Pinterest marketing',
         caption: 'Versatile product types support multiple pin variants for broader search coverage',
       },

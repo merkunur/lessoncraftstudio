@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/more less/Mehr Weniger 1.webp',
+      primary: '/samples/german/more less/mehr-weniger-1.webp',
       primaryAlt: 'Mehr-oder-Weniger-Arbeitsblatt mit Bildergruppen-Vergleich für Größer-als- und Kleiner-als-Übungen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/more less/Mehr Weniger 1.webp',
+        src: '/samples/german/more less/mehr-weniger-1.webp',
         alt: 'Bild-zu-Bild-Vergleichs-Arbeitsblatt mit Tierthema und zwei Bildergruppen nebeneinander',
         caption: 'Bild-zu-Bild-Modus mit Tierthema',
       },
       {
-        src: '/samples/german/more less/Mehr Weniger 2.webp',
+        src: '/samples/german/more less/mehr-weniger-2.webp',
         alt: 'Bild-zu-Zahl-Vergleichs-Arbeitsblatt, das visuelles Zählen mit geschriebenen Ziffern verbindet',
         caption: 'Bild-zu-Zahl-Modus — verbindet Bilder und Ziffern',
       },
       {
-        src: '/samples/german/more less/Mehr Weniger 3.webp',
+        src: '/samples/german/more less/mehr-weniger-3.webp',
         alt: 'Ankreuzen-und-Durchstreichen-Arbeitsblatt mit gemischten durcheinander geworfenen Bildern zum Sortieren und Vergleichen',
         caption: 'Ankreuzen und Durchstreichen — einzigartiger Sortier- und Vergleichsmodus',
       },

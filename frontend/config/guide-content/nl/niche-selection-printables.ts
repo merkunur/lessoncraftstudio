@@ -353,11 +353,11 @@ De belangrijkste les: ga niet breed, ga diep. Een micro-niche met honderd produc
     { appId: 'addition', title: 'Optellen Werkblad Generator', description: 'Genereer rekenactiviteiten met thematische afbeeldingen. Combineer rekenen met aantrekkelijke thema\'s voor een unieke niche positionering.' },
   ],
   visuals: {
-    heroImage: { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: 'Woordzoeker werkblad als voorbeeld van niche content voor printable bedrijven' },
+    heroImage: { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Woordzoeker werkblad als voorbeeld van niche content voor printable bedrijven' },
     samples: [
-      { src: '/samples/dutch/wordsearch/Woordzoeker 1.webp', alt: 'Thematische woordzoeker puzzel als niche product voorbeeld', caption: 'Woordzoeker puzzels passen bij elk niche thema — dieren, feestdagen, vakken en seizoensgebonden onderwerpen' },
-      { src: '/samples/dutch/coloring/coloring portrait 2.webp', alt: 'Kleurplaat als voorbeeld van visueel niche product', caption: 'Kleurplaten zijn een van de meest veelzijdige niche producten, geschikt voor alle leeftijden en thema\'s' },
-      { src: '/samples/dutch/matching/Zoek de Paren 1.webp', alt: 'Koppelen werkblad als voorbeeld van educatief niche product', caption: 'Koppelen activiteiten werken in educatieve niches van woordenschat tot rekenen' },
+      { src: '/samples/dutch/wordsearch/woordzoeker-1.webp', alt: 'Thematische woordzoeker puzzel als niche product voorbeeld', caption: 'Woordzoeker puzzels passen bij elk niche thema — dieren, feestdagen, vakken en seizoensgebonden onderwerpen' },
+      { src: '/samples/dutch/coloring/coloring-portrait-2.webp', alt: 'Kleurplaat als voorbeeld van visueel niche product', caption: 'Kleurplaten zijn een van de meest veelzijdige niche producten, geschikt voor alle leeftijden en thema\'s' },
+      { src: '/samples/dutch/matching/zoek-de-paren-1.webp', alt: 'Koppelen werkblad als voorbeeld van educatief niche product', caption: 'Koppelen activiteiten werken in educatieve niches van woordenschat tot rekenen' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Hoe Maak Je Woordzoeker Puzzels voor Elk Niche Thema',

@@ -176,12 +176,12 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/swedish/addition/addition_%C3%B6vning.webp',
+      src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
       alt: 'Professionellt additionsarbetsblad som demonstrerar vintergrönt pedagogiskt innehåll för återkommande intäkt',
     },
     samples: [
       {
-        src: '/samples/swedish/addition/addition_%C3%B6vning.webp',
+        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
         alt: 'Additionsarbetsblad med professionell formatering för marknadsplatsförsäljning',
         caption: 'Mattearbetsblad genererar konsekvent intäkt året runt som vintergröna pedagogiska produkter',
       },
@@ -191,7 +191,7 @@ const content: GuideContent = {
         caption: 'Flerspråkiga ordsökningar multiplicerar intäkt genom att nå underservade internationella marknader',
       },
       {
-        src: '/samples/swedish/matching/Matchningsspel.webp',
+        src: '/samples/swedish/matching/matchningsspel.webp',
         alt: 'Tematiskt matchningsarbetsblad som demonstrerar katalogdjup genom temamångfald',
         caption: 'Tematiska matchningsaktiviteter bygger katalogdjup som driver ackumulerande upptäckbarhet',
       },

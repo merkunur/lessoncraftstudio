@@ -181,22 +181,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
+      src: '/samples/dutch/addition/optellen-is-leuk-1.webp',
       alt: 'Optellen werkblad als voorbeeld van geprijsd printable product',
     },
     samples: [
       {
-        src: '/samples/dutch/addition/Optellen is Leuk 1.webp',
+        src: '/samples/dutch/addition/optellen-is-leuk-1.webp',
         alt: 'Professioneel werkblad met winstgevende prijsstrategie',
         caption: 'Professionele werkbladen rechtvaardigen hogere prijzen dankzij kwaliteit en thematische afbeeldingen',
       },
       {
-        src: '/samples/dutch/wordsearch/Woordzoeker 1.webp',
+        src: '/samples/dutch/wordsearch/woordzoeker-1.webp',
         alt: 'Woordzoeker puzzel als bundel product',
         caption: 'Bundels van werkbladen genereren hogere gemiddelde bestellingen dan individuele producten',
       },
       {
-        src: '/samples/dutch/coloring/coloring portrait 1.webp',
+        src: '/samples/dutch/coloring/coloring-portrait-1.webp',
         alt: 'Kleurplaat als aanvullend product in bundel',
         caption: 'Kleurplaten zijn uitstekende aanvullende producten voor waardevollere bundels',
       },

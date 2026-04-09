@@ -221,12 +221,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Professionellt additionsarbetsblad skapat med LessonCraftStudio-generator' },
+    heroImage: { src: '/samples/english/addition/addition-fun-1.webp', alt: 'Professionellt additionsarbetsblad skapat med LessonCraftStudio-generator' },
     samples: [
-      { src: '/samples/english/addition/Addition Fun 1.webp', alt: 'Additionsarbetsblad med tematiska bildbaserade matteuppgifter', caption: 'Addition — Bildbaserade uppgifter' },
-      { src: '/samples/english/subtraction/Subtraction Fun 1.webp', alt: 'Subtraktionsarbetsblad med visuella taluppgifter', caption: 'Subtraktion — Visuell matteovning' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsokspussel-arbetsblad med tematisk ordlista', caption: 'Ordsokning — Tematiskt pussel' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Malarbilds-arbetsblad med tematiska illustrationer', caption: 'Malarbild — Tematiska illustrationer' },
+      { src: '/samples/english/addition/addition-fun-1.webp', alt: 'Additionsarbetsblad med tematiska bildbaserade matteuppgifter', caption: 'Addition — Bildbaserade uppgifter' },
+      { src: '/samples/english/subtraction/subtraction-fun-1.webp', alt: 'Subtraktionsarbetsblad med visuella taluppgifter', caption: 'Subtraktion — Visuell matteovning' },
+      { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsokspussel-arbetsblad med tematisk ordlista', caption: 'Ordsokning — Tematiskt pussel' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Malarbilds-arbetsblad med tematiska illustrationer', caption: 'Malarbild — Tematiska illustrationer' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Sa skapar du additionsarbetsblad — LessonCraftStudio demo',

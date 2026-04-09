@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Risorsa scheda di addizione adatta alla vendita sul marketplace Gumroad' },
+    heroImage: { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Risorsa scheda di addizione adatta alla vendita sul marketplace Gumroad' },
     samples: [
-      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda di addizione matematica per risorsa per il negozio Gumroad', caption: 'Le schede di matematica sono tra i tipi di risorse più cercati su Gumroad — i venditori hanno bisogno di pratica allineata agli standard per ogni competenza' },
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Attività puzzle cerca parole per inserzione negozio Gumroad', caption: 'I puzzle cerca parole funzionano in tutti i livelli scolastici su Gumroad come costruttori di vocabolario, attività per centri e lavoro per utenti che finiscono prima' },
-      { src: '/samples/italian/matching/Trova le Coppie 2.webp', alt: 'Scheda attività di abbinamento per imprenditori Gumroad', caption: 'Le attività di abbinamento sono risorse Gumroad versatili che i venditori usano per valutazione, pratica e ripasso in più materie' },
+      { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda di addizione matematica per risorsa per il negozio Gumroad', caption: 'Le schede di matematica sono tra i tipi di risorse più cercati su Gumroad — i venditori hanno bisogno di pratica allineata agli standard per ogni competenza' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Attività puzzle cerca parole per inserzione negozio Gumroad', caption: 'I puzzle cerca parole funzionano in tutti i livelli scolastici su Gumroad come costruttori di vocabolario, attività per centri e lavoro per utenti che finiscono prima' },
+      { src: '/samples/italian/matching/trova-le-coppie-2.webp', alt: 'Scheda attività di abbinamento per imprenditori Gumroad', caption: 'Le attività di abbinamento sono risorse Gumroad versatili che i venditori usano per valutazione, pratica e ripasso in più materie' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Come Creare Schede Educative per Gumroad — Tutorial Passo dopo Passo',

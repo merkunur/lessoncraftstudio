@@ -219,12 +219,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Professionelles Additions-Arbeitsblatt erstellt mit dem LessonCraftStudio Generator' },
+    heroImage: { src: '/samples/german/addition/additionsspa-1.webp', alt: 'Professionelles Additions-Arbeitsblatt erstellt mit dem LessonCraftStudio Generator' },
     samples: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Additions-Arbeitsblatt mit thematischen bildbasierten Matheaufgaben', caption: 'Addition — Bildbasierte Aufgaben' },
+      { src: '/samples/german/addition/additionsspa-1.webp', alt: 'Additions-Arbeitsblatt mit thematischen bildbasierten Matheaufgaben', caption: 'Addition — Bildbasierte Aufgaben' },
       { src: '/samples/german/subtraction/worksheet.webp', alt: 'Subtraktions-Arbeitsblatt mit visuellen Zahlenaufgaben', caption: 'Subtraktion — Visuelle Matheübung' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt mit thematischer Wortliste', caption: 'Wortsuche — Thematisches Rätsel' },
-      { src: '/samples/german/coloring/coloring portrait 1.webp', alt: 'Malvorlagen-Arbeitsblatt mit thematischen Illustrationen', caption: 'Malvorlage — Thematische Illustrationen' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt mit thematischer Wortliste', caption: 'Wortsuche — Thematisches Rätsel' },
+      { src: '/samples/german/coloring/coloring-portrait-1.webp', alt: 'Malvorlagen-Arbeitsblatt mit thematischen Illustrationen', caption: 'Malvorlage — Thematische Illustrationen' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Additions-Arbeitsblätter erstellen — LessonCraftStudio Demo',

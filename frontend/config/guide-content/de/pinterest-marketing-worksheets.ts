@@ -174,22 +174,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/coloring/coloring portrait 1.webp',
+      src: '/samples/german/coloring/coloring-portrait-1.webp',
       alt: 'Professionelle Ausmalseite als Arbeitsblatt, die visuell ansprechende Pinterest-Pin-Inhalte für Druckvorlagen-Verkäufer demonstriert',
     },
     samples: [
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: '/samples/german/coloring/coloring-portrait-1.webp',
         alt: 'Ausmalseiten-Arbeitsblatt zeigt visuelle Wirkung für Pinterest-Pin-Design',
         caption: 'Visuell beeindruckende Arbeitsblätter schaffen natürlich überzeugende Pinterest-Pin-Bilder',
       },
       {
-        src: '/samples/german/bingo/bilder-bingo 1.webp',
+        src: '/samples/german/bingo/bilder-bingo-1.webp',
         alt: 'Bingo-Karten-Arbeitsblatt demonstriert farbenfrohe Pin-würdige Produktdesigns',
         caption: 'Farbenfrohe, thematische Produkte generieren höhere Speicherungsraten und Klickraten auf Pinterest',
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuchrätsel zeigt vielseitigen Produkttyp für Pinterest-Marketing',
         caption: 'Vielseitige Produkttypen unterstützen mehrere Pin-Varianten für breitere Suchabdeckung',
       },

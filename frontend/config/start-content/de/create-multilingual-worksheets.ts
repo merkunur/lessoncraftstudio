@@ -215,11 +215,11 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt zeigt mehrsprachige Arbeitsblatt-Generierung in 11 Sprachen' },
+    heroImage: { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt zeigt mehrsprachige Arbeitsblatt-Generierung in 11 Sprachen' },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt mit sprachsensitivem Vokabular', caption: 'Wortsuche — Beste mehrsprachige Demonstration' },
-      { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel mit lokalisierten Hinweisen und Antworten', caption: 'Kreuzworträtsel — Vollständig lokalisierte Rätsel' },
-      { src: '/samples/german/word scramble/Buchstabensala 1.webp', alt: 'Buchstabensalat-Arbeitsblatt mit sprachangepasstem Vokabular', caption: 'Buchstabensalat — Sprachsensitive Ausgabe' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Rätsel-Arbeitsblatt mit sprachsensitivem Vokabular', caption: 'Wortsuche — Beste mehrsprachige Demonstration' },
+      { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kreuzworträtsel mit lokalisierten Hinweisen und Antworten', caption: 'Kreuzworträtsel — Vollständig lokalisierte Rätsel' },
+      { src: '/samples/german/word scramble/buchstabensala-1.webp', alt: 'Buchstabensalat-Arbeitsblatt mit sprachangepasstem Vokabular', caption: 'Buchstabensalat — Sprachsensitive Ausgabe' },
       { src: '/samples/german/alphabet train/worksheet.webp', alt: 'Buchstabenzug-Arbeitsblatt zeigt sprachspezifische Zeichensätze', caption: 'Buchstabenzug — Angepasste Zeichensätze' },
     ],
     youtubeId: '36keBFzJbPo',

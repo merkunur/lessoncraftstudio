@@ -209,12 +209,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/math%20worksheet/Wiskundeblad%201.webp', alt: 'Rekenwerkblad dat professionele uitvoerkwaliteit demonstreert van werkblad generators' },
+    heroImage: { src: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp', alt: 'Rekenwerkblad dat professionele uitvoerkwaliteit demonstreert van werkblad generators' },
     samples: [
-      { src: '/samples/dutch/math%20worksheet/Wiskundeblad%201.webp', alt: 'Rekenwerkblad met professionele indeling en 300 DPI printkwaliteit', caption: 'Rekenwerkblad — Veelzijdige Omzetbouwer' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Woordzoeker puzzel werkblad voor Etsy en Amazon KDP verkoop', caption: 'Woordzoeker — Best-Verkopende Puzzelcategorie' },
+      { src: '/samples/dutch/math%20worksheet/wiskundeblad%201.webp', alt: 'Rekenwerkblad met professionele indeling en 300 DPI printkwaliteit', caption: 'Rekenwerkblad — Veelzijdige Omzetbouwer' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Woordzoeker puzzel werkblad voor Etsy en Amazon KDP verkoop', caption: 'Woordzoeker — Best-Verkopende Puzzelcategorie' },
       { src: '/samples/dutch/coloring/coloring%20portrait%201.webp', alt: 'Kleurplaat voor KDP activiteitenboek publicatie', caption: 'Kleurplaat — Hoog-Volume KDP Categorie' },
-      { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Sudoku puzzel werkblad met universele internationale aantrekkingskracht', caption: 'Sudoku — Universele Marktaantrekkingskracht' },
+      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Sudoku puzzel werkblad met universele internationale aantrekkingskracht', caption: 'Sudoku — Universele Marktaantrekkingskracht' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Hoe Rekenwerkbladen te Maken voor Je Printable Bedrijf — LessonCraftStudio Demo',

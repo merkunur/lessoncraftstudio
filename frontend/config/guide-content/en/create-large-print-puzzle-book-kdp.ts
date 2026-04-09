@@ -182,10 +182,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Large print word search puzzle with oversized grid designed for senior readers on KDP' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Large print word search puzzle with oversized grid designed for senior readers on KDP' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Large print word search with 12x12 grid and big font word list', caption: 'A 12x12 word search grid with 8 themed words -- large enough for comfortable solving by seniors with vision impairment' },
-      { src: '/samples/english/sudoku/sudoku_easy.webp', alt: 'Large format picture sudoku puzzle for senior cognitive exercise', caption: 'Picture sudoku at 6x6 grid size with familiar themed images -- ideal for large print brain exercise books' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Large print word search with 12x12 grid and big font word list', caption: 'A 12x12 word search grid with 8 themed words -- large enough for comfortable solving by seniors with vision impairment' },
+      { src: '/samples/english/sudoku/sudoku-easy.webp', alt: 'Large format picture sudoku puzzle for senior cognitive exercise', caption: 'Picture sudoku at 6x6 grid size with familiar themed images -- ideal for large print brain exercise books' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

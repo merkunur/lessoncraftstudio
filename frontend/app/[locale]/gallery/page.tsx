@@ -18,39 +18,39 @@ export const revalidate = 86400; // 24h
 
 // Hero image filename mapping — first sample for each app
 const appHeroFilenames: Record<string, string> = {
-  'addition': 'Addition Fun 1.webp',
-  'subtraction': 'Subtraction Fun 1.webp',
-  'code-addition': 'Code Breaker Addition 1.webp',
-  'more-less': 'More Less (10).webp',
-  'math-puzzle': 'Math Puzzles.webp',
-  'math-worksheet': 'Math Worksheet 10.webp',
-  'alphabet-train': 'Alphabet Train 1.webp',
-  'prepositions': 'prepositions_worksheet (1).webp',
-  'word-guess': 'clue-grid_worksheet.webp',
-  'word-scramble': 'word scramble portrait.webp',
-  'wordsearch': 'Word Search 1.webp',
-  'cryptogram': 'cryptogram_worksheet.webp',
+  'addition': 'addition-fun-1.webp',
+  'subtraction': 'subtraction-fun-1.webp',
+  'code-addition': 'code-breaker-addition-1.webp',
+  'more-less': 'more-less-10.webp',
+  'math-puzzle': 'math-puzzles.webp',
+  'math-worksheet': 'math-worksheet-10.webp',
+  'alphabet-train': 'alphabet-train-1.webp',
+  'prepositions': 'prepositions-worksheet-1.webp',
+  'word-guess': 'clue-grid-worksheet.webp',
+  'word-scramble': 'word-scramble-portrait.webp',
+  'wordsearch': 'word-search-1.webp',
+  'cryptogram': 'cryptogram-worksheet.webp',
   'writing': 'writing.webp',
-  'big-small': 'big-small-worksheet_worksheet.webp',
-  'pattern-train': 'pattern_train_worksheet.webp',
-  'pattern-worksheet': 'pattern_worksheet.webp',
-  'draw-and-color': 'grid-drawing_worksheet.webp',
-  'drawing-lines': 'drawing_lines_horizontal.webp',
-  'coloring': 'coloring portrait 1.webp',
-  'chart-count': 'chart count.webp',
-  'matching': 'matching portrait.webp',
-  'grid-match': 'Grid Match.webp',
+  'big-small': 'big-small-worksheet-worksheet.webp',
+  'pattern-train': 'pattern-train-worksheet.webp',
+  'pattern-worksheet': 'pattern-worksheet.webp',
+  'draw-and-color': 'grid-drawing-worksheet.webp',
+  'drawing-lines': 'drawing-lines-horizontal.webp',
+  'coloring': 'coloring-portrait-1.webp',
+  'chart-count': 'chart-count.webp',
+  'matching': 'matching-portrait.webp',
+  'grid-match': 'grid-match.webp',
   'shadow-match': 'shadow-match-worksheet.webp',
-  'bingo': 'bingo_card.webp',
-  'picture-sort': 'Picture Sort.webp',
-  'missing-pieces': 'Missing Pieces.webp',
-  'odd-one-out': 'Find the Odd One Out.webp',
-  'sudoku': 'sudoku_worksheet.webp',
-  'picture-path': 'Picture Pathway.webp',
-  'find-and-count': 'find and count portrait.webp',
-  'find-objects': 'spotworks_worksheet.webp',
-  'crossword': 'crossword_worksheet.webp',
-  'treasure-hunt': 'Treasure Hunt 1.webp',
+  'bingo': 'bingo-card.webp',
+  'picture-sort': 'picture-sort.webp',
+  'missing-pieces': 'missing-pieces.webp',
+  'odd-one-out': 'find-the-odd-one-out.webp',
+  'sudoku': 'sudoku-worksheet.webp',
+  'picture-path': 'picture-pathway.webp',
+  'find-and-count': 'find-and-count-portrait.webp',
+  'find-objects': 'spotworks-worksheet.webp',
+  'crossword': 'crossword-worksheet.webp',
+  'treasure-hunt': 'treasure-hunt-1.webp',
 };
 
 // Folder mapping — app ID to samples folder name
@@ -130,7 +130,7 @@ export async function generateMetadata({
   const locale = params.locale as SupportedLocale;
   const title = galleryTitles[locale] || galleryTitles.en;
   const description = galleryDescriptions[locale] || galleryDescriptions.en;
-  const primaryImage = `${baseUrl}${encodeImagePath(imgUrl('wordsearch', 'Word Search 1.webp', locale))}`;
+  const primaryImage = `${baseUrl}${encodeImagePath(imgUrl('wordsearch', 'word-search-1.webp', locale))}`;
 
   const alternateUrls: Record<string, string> = {};
   for (const loc of SUPPORTED_LOCALES) {

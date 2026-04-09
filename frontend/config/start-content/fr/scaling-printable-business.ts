@@ -210,12 +210,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/draw and color/Dessine et Colorie 1.webp', alt: 'Fiche de dessin et coloriage démontrant l\'étendue créative pour la croissance d\'une activité d\'imprimables' },
+    heroImage: { src: '/samples/french/draw and color/dessine-et-colorie-1.webp', alt: 'Fiche de dessin et coloriage démontrant l\'étendue créative pour la croissance d\'une activité d\'imprimables' },
     samples: [
-      { src: '/samples/french/draw and color/Dessine et Colorie 1.webp', alt: 'Fiche de dessin et coloriage montrant la variété des thèmes pour l\'expansion du catalogue', caption: 'Dessin et coloriage — Étendue créative pour la profondeur du catalogue' },
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle mots cachés démontrant le potentiel de croissance à haut volume à travers les thèmes', caption: 'Mots cachés — Plus fort potentiel de croissance en volume' },
-      { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Page de coloriage montrant l\'évolutivité internationale sans dépendance linguistique', caption: 'Coloriage — Croissance internationale sans traduction' },
-      { src: '/samples/french/sudoku/Sudoku en Images 1.webp', alt: 'Puzzle sudoku démontrant la distribution de produits agnostique des plateformes', caption: 'Sudoku — Distribution agnostique des plateformes' },
+      { src: '/samples/french/draw and color/dessine-et-colorie-1.webp', alt: 'Fiche de dessin et coloriage montrant la variété des thèmes pour l\'expansion du catalogue', caption: 'Dessin et coloriage — Étendue créative pour la profondeur du catalogue' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle mots cachés démontrant le potentiel de croissance à haut volume à travers les thèmes', caption: 'Mots cachés — Plus fort potentiel de croissance en volume' },
+      { src: '/samples/french/coloring/coloring-portrait-1.webp', alt: 'Page de coloriage montrant l\'évolutivité internationale sans dépendance linguistique', caption: 'Coloriage — Croissance internationale sans traduction' },
+      { src: '/samples/french/sudoku/sudoku-en-images-1.webp', alt: 'Puzzle sudoku démontrant la distribution de produits agnostique des plateformes', caption: 'Sudoku — Distribution agnostique des plateformes' },
     ],
     youtubeId: '1uZubAOGIkM',
     videoTitle: 'Comment créer des fiches de dessin et coloriage pour votre activité d\'imprimables — Démo LessonCraftStudio',

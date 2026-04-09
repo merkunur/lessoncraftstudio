@@ -258,22 +258,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp',
+      primary: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp',
       primaryAlt: 'Addisjonsarbeidsark med fargerike dyrebilder i modusen Bilde + Bilde',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp',
+        src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp',
         alt: 'Stående addisjonsarbeidsark i modusen Bilde + Tall med dyretema',
         caption: 'Bilde + Tall modus — brukerne kombinerer bildegrupper med tall for overgangsferdigheter',
       },
       {
-        src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%202.webp',
+        src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%202.webp',
         alt: 'Liggende addisjonsarbeidsark i Blandet Modus med mattema',
         caption: 'Blandet Modus — kombinerer alle øvelsestyper for variert, engasjerende matematikkøving',
       },
       {
-        src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%203.webp',
+        src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%203.webp',
         alt: 'Addisjonsarbeidsark i modusen Finn Leddet med kjøretøytema',
         caption: 'Finn Leddet modus — brukerne oppdager den manglende gruppen for tidlig algebraisk tenkning',
       },

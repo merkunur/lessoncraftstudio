@@ -266,22 +266,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/matching/Trouve les Paires 1.webp',
+      primary: '/samples/french/matching/trouve-les-paires-1.webp',
       primaryAlt: 'Fiche d\'association avec images thématiques disposées en deux colonnes avec en-tête localisé Trouve les Paires et numéros d\'éléments',
     },
     sampleGallery: [
       {
-        src: '/samples/french/matching/Trouve les Paires 1.webp',
+        src: '/samples/french/matching/trouve-les-paires-1.webp',
         alt: 'Fiche d\'association par lettre initiale avec images à gauche et premières lettres à droite',
         caption: 'Mode Lettre Initiale — les utilisateurs associent les images à leur première lettre',
       },
       {
-        src: '/samples/french/matching/Trouve les Paires 2.webp',
+        src: '/samples/french/matching/trouve-les-paires-2.webp',
         alt: 'Fiche d\'association image et mot avec paires étiquetées des deux côtés',
         caption: 'Mode Image+Mot — paires d\'images étiquetées pour l\'association de vocabulaire',
       },
       {
-        src: '/samples/french/matching/Trouve les Paires 3 answer_key.webp',
+        src: '/samples/french/matching/trouve-les-paires-3-answer-key.webp',
         alt: 'Corrigé de fiche d\'association avec lignes de liaison tracées entre les bonnes correspondances',
         caption: 'Corrigé généré automatiquement — les lignes de liaison montrent les bonnes associations',
       },

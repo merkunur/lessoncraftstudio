@@ -215,12 +215,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/math%20puzzle/Mattepuslespill%201.webp', alt: 'Mattepuslespillarbeidsark eksempel laget med LessonCraftStudio generator' },
+    heroImage: { src: '/samples/norwegian/math%20puzzle/mattepuslespill%201.webp', alt: 'Mattepuslespillarbeidsark eksempel laget med LessonCraftStudio generator' },
     samples: [
-      { src: '/samples/norwegian/math%20puzzle/Mattepuslespill%201.webp', alt: 'Mattepuslespillarbeidsark som viser konfigurerbar variasjon', caption: 'Mattepuslespill — Konfigurerbar Vanskelighetsgrad' },
-      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Ordsøk-arbeidsark med tematisk ordliste', caption: 'Ordsøk — Tematisk Puslespill' },
+      { src: '/samples/norwegian/math%20puzzle/mattepuslespill%201.webp', alt: 'Mattepuslespillarbeidsark som viser konfigurerbar variasjon', caption: 'Mattepuslespill — Konfigurerbar Vanskelighetsgrad' },
+      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Ordsøk-arbeidsark med tematisk ordliste', caption: 'Ordsøk — Tematisk Puslespill' },
       { src: '/samples/norwegian/coloring/coloring%20landscape%201.webp', alt: 'Fargeleggingsside med tematiske illustrasjoner', caption: 'Fargelegging — Visuell Appell' },
-      { src: '/samples/norwegian/matching/Finn%20Parene%201.webp', alt: 'Koblingsarbeidsark som demonstrerer visuelt internasjonalt format', caption: 'Kobling — Fungerer på Alle Språk' },
+      { src: '/samples/norwegian/matching/finn%20parene%201.webp', alt: 'Koblingsarbeidsark som demonstrerer visuelt internasjonalt format', caption: 'Kobling — Fungerer på Alle Språk' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Slik Lager du Mattepuslespill-arbeidsark — LessonCraftStudio Demo',

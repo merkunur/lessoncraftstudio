@@ -186,12 +186,12 @@ const content: GuideContent = {
         caption: 'Ordsökningsarbetsblad kan genereras på 11 språk, vilket gör dem idealiska för flerspråkig expansion',
       },
       {
-        src: '/samples/swedish/matching/Matchningsspel.webp',
+        src: '/samples/swedish/matching/matchningsspel.webp',
         alt: 'Matchningsarbetsblad med visuella teman som fungerar över språkmarknader',
         caption: 'Visuella matchningsarbetsblad använder bilder som översätts universellt över språk',
       },
       {
-        src: '/samples/swedish/addition/addition_%C3%B6vning.webp',
+        src: '/samples/swedish/addition/addition-%c3%b6vning.webp',
         alt: 'Additions mattearbetsblad som demonstrerar universell attraktionskraft över språkbarriärer',
         caption: 'Mattearbetsblad passerar språkbarriärer naturligt eftersom siffror är universella över marknader',
       },

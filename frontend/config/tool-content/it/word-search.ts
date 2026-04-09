@@ -217,22 +217,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/wordsearch/Cerca Parole 1.webp',
+      primary: '/samples/italian/wordsearch/cerca-parole-1.webp',
       primaryAlt: 'Scheda cerca parole con parole nascoste incorporate in una griglia di lettere e indizi immagine tematici per pratica puzzle vocabolario',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 1.webp',
+        src: '/samples/italian/wordsearch/cerca-parole-1.webp',
         alt: 'Scheda cerca parole in formato verticale con griglia di lettere 12×12 e indizi immagine tematici',
         caption: 'Layout verticale — griglia 12×12 con indizi immagine tematici e lista parole',
       },
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 2.webp',
+        src: '/samples/italian/wordsearch/cerca-parole-2.webp',
         alt: 'Scheda cerca parole con griglia più grande e parole diagonali abilitate',
         caption: 'Layout orizzontale — griglia più ampia con parole diagonali e inverse abilitate',
       },
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 4.webp',
+        src: '/samples/italian/wordsearch/cerca-parole-4.webp',
         alt: 'Scheda cerca parole con modalità lista parole personalizzata senza immagini per puzzle solo testo',
         caption: 'Modalità Lista Parole Personalizzata — cerca parole solo testo senza indizi immagine',
       },

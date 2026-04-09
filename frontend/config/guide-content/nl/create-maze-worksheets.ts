@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/picture%20path/Afbeeldingspad%201.webp', alt: 'Doolhof werkblad met een thematische afbeeldingspad activiteit met start- en eindafbeeldingen voor kinderen' },
+    heroImage: { src: '/samples/dutch/picture%20path/afbeeldingspad%201.webp', alt: 'Doolhof werkblad met een thematische afbeeldingspad activiteit met start- en eindafbeeldingen voor kinderen' },
     samples: [
-      { src: '/samples/dutch/picture%20path/Afbeeldingspad%201.webp', alt: 'Afbeeldingspad doolhof werkblad met thematische afbeeldingen voor kleuters en basisschool', caption: 'Afbeeldingspad modus: kinderen volgen een visueel pad van startafbeelding naar eindafbeelding door thematische decoraties' },
-      { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Plaatjes sudoku werkblad als aanvullend puzzelproduct bij doolhoven', caption: 'Plaatjes Sudoku: combineer met doolhoven voor uitgebreide puzzel activiteitenbundels' },
-      { src: '/samples/dutch/missing%20pieces/Ontbrekende%20Stukjes%201.webp', alt: 'Ontbrekende stukjes puzzel werkblad als crossproduct met doolhof werkbladen', caption: 'Ontbrekende Stukjes puzzel: vergroot je puzzelcatalogus door verschillende puzzeltypen te combineren' },
+      { src: '/samples/dutch/picture%20path/afbeeldingspad%201.webp', alt: 'Afbeeldingspad doolhof werkblad met thematische afbeeldingen voor kleuters en basisschool', caption: 'Afbeeldingspad modus: kinderen volgen een visueel pad van startafbeelding naar eindafbeelding door thematische decoraties' },
+      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Plaatjes sudoku werkblad als aanvullend puzzelproduct bij doolhoven', caption: 'Plaatjes Sudoku: combineer met doolhoven voor uitgebreide puzzel activiteitenbundels' },
+      { src: '/samples/dutch/missing%20pieces/ontbrekende%20stukjes%201.webp', alt: 'Ontbrekende stukjes puzzel werkblad als crossproduct met doolhof werkbladen', caption: 'Ontbrekende Stukjes puzzel: vergroot je puzzelcatalogus door verschillende puzzeltypen te combineren' },
     ],
     youtubeId: 'Sl1o0uPBDCg',
     videoTitle: 'Hoe Doolhof Werkbladen Maken — Complete Handleiding',

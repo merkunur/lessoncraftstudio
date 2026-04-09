@@ -278,22 +278,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/crossword/Bildkorsord%201.webp',
+      primary: '/samples/swedish/crossword/bildkorsord%201.webp',
       primaryAlt: 'Bildkorsordspussel med bildledtrådar på ett 15 gånger 15 rutnät med lokaliserad Bildkorsord-rubrik och numrerade ledtrådspositioner',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/crossword/Bildkorsord%202.webp',
+        src: '/samples/swedish/crossword/bildkorsord%202.webp',
         alt: 'Bildkorsordspussel med tematiska bildledtrådar bredvid ett 15 gånger 15 korssordsrutnät',
         caption: 'Bildkorsord — bildledtrådar ersätter traditionella textledtrådar på ett 15×15 rutnät',
       },
       {
-        src: '/samples/swedish/crossword/Bildkorsord%203.webp',
+        src: '/samples/swedish/crossword/bildkorsord%203.webp',
         alt: 'Anpassad ordlista korsord med textledtrådar och ifyllt korssordsrutnät',
         caption: 'Anpassad Ordlista-läge — traditionella textledtråds-korsord med din egen vokabulär',
       },
       {
-        src: '/samples/swedish/crossword/Bildkorsord%201%20answer_key.webp',
+        src: '/samples/swedish/crossword/bildkorsord%201%20answer-key.webp',
         alt: 'Korsordspussel facit med alla korrekta bokstäver ifyllda i rutnätet',
         caption: 'Automatiskt genererat facit — ifyllt rutnät visar alla korrekta svar',
       },

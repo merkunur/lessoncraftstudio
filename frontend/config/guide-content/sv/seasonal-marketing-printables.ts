@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/bingo/bingo_card.webp',
+      src: '/samples/english/bingo/bingo-card.webp',
       alt: 'Bingokort som demonstrerar en säsongsanpassad utskriftsbar produkt ideal för högtidsmarknadsföringskampanjer',
     },
     samples: [
       {
-        src: '/samples/english/bingo/bingo_card.webp',
+        src: '/samples/english/bingo/bingo-card.webp',
         alt: 'Bingokort som visar en säsongsanpassad utskriftsbar produkt för högtidsevenemang och firanden',
         caption: 'Bingokort anpassas till varje säsongstema, vilket gör dem ideala produkter för marknadsföring året runt',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/english/coloring/coloring-portrait-1.webp',
         alt: 'Målarbild som demonstrerar säsongsanpassat utskriftsbart innehåll för högtidsmarknadsplatslistningar',
         caption: 'Säsongsanpassade målarbilder är konsekventa toppensäljare under högtidsefterfrågetoppar på alla marknadsplatser',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/english/wordsearch/wordsearch-portrait.webp',
         alt: 'Ordsökspussel som visar säsongsanpassad ordförrådbyggande utskriftsbar produkt för högtidsmarknadsföring',
         caption: 'Tematiska ordsökspussel kombinerar säsongsattraktionskraft med pedagogiskt värde för stark marknadsplatsprestanda',
       },

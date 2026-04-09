@@ -176,13 +176,13 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/danish/bingo/Billedbingo%201.webp',
+      src: '/samples/danish/bingo/billedbingo%201.webp',
       alt: 'Matchingsarbejdsark der viser tema-alsidighed til profitabel nicheudforskning på tværs af pædagogiske emner',
     },
     samples: [
-      { src: '/samples/danish/bingo/Billedbingo%201.webp', alt: 'Billedbingo — dansk eksempelarbejdsark', caption: 'Billedbingo eksempel 1' },
-      { src: '/samples/danish/bingo/Billedbingo%202.webp', alt: 'Billedbingo — dansk eksempel 2', caption: 'Billedbingo eksempel 2' },
-      { src: '/samples/danish/bingo/Billedbingo%203.webp', alt: 'Billedbingo — dansk eksempel 3', caption: 'Billedbingo eksempel 3' },
+      { src: '/samples/danish/bingo/billedbingo%201.webp', alt: 'Billedbingo — dansk eksempelarbejdsark', caption: 'Billedbingo eksempel 1' },
+      { src: '/samples/danish/bingo/billedbingo%202.webp', alt: 'Billedbingo — dansk eksempel 2', caption: 'Billedbingo eksempel 2' },
+      { src: '/samples/danish/bingo/billedbingo%203.webp', alt: 'Billedbingo — dansk eksempel 3', caption: 'Billedbingo eksempel 3' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Sådan undersøger du profitable printable-nicher med arbejdsarkgeneratorer',

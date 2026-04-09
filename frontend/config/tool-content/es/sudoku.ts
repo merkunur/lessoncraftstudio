@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/sudoku/Sudoku de Imágenes 1.webp',
+      primary: '/samples/spanish/sudoku/sudoku-de-imágenes-1.webp',
       primaryAlt: 'Ficha de sudoku con imágenes 4×4 con ilustraciones temáticas en una cuadrícula premium con colores de bloque alternos en azul y rosa, divisores centrales en negrita y borde exterior índigo con esquinas redondeadas',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/sudoku/Sudoku de Imágenes 2.webp',
+        src: '/samples/spanish/sudoku/sudoku-de-imágenes-2.webp',
         alt: 'Sudoku con imágenes de dificultad Fácil con 4 celdas vacías y 12 celdas rellenadas en una cuadrícula 4×4 con colores de bloque alternos',
         caption: 'Dificultad Fácil — 4 celdas vacías para principiantes que aprenden lógica de filas y columnas',
       },
       {
-        src: '/samples/spanish/sudoku/Sudoku de Imágenes 3.webp',
+        src: '/samples/spanish/sudoku/sudoku-de-imágenes-3.webp',
         alt: 'Sudoku con imágenes de dificultad Difícil con 8 celdas vacías y 8 celdas rellenadas en una cuadrícula 4×4 que requiere razonamiento en varios pasos',
         caption: 'Dificultad Difícil — 8 celdas vacías (la mitad de la cuadrícula) que requieren razonamiento lógico en varios pasos',
       },
       {
-        src: '/samples/spanish/sudoku/Sudoku de Imágenes 1 answer_key.webp',
+        src: '/samples/spanish/sudoku/sudoku-de-imágenes-1-answer-key.webp',
         alt: 'Clave de respuestas de sudoku con imágenes mostrando la cuadrícula 4×4 completa con las 16 celdas rellenadas con las imágenes correctas',
         caption: 'Clave de respuestas autogenerada — cuadrícula completa con las 16 celdas mostrando la colocación correcta de imágenes',
       },

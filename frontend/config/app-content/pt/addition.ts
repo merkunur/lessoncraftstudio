@@ -255,22 +255,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/addition/Adição Divertida 1.webp',
+      primary: '/samples/portuguese/addition/adição-divertida-1.webp',
       primaryAlt: 'Atividade de adição com imagens coloridas de animais no modo Imagem + Imagem',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/addition/Adição Divertida 2.webp',
+        src: '/samples/portuguese/addition/adição-divertida-2.webp',
         alt: 'Atividade de adição vertical no modo Imagem + Imagem com tema de animais',
         caption: 'Modo Imagem + Imagem — os usuários contam dois grupos de imagens e escrevem a soma',
       },
       {
-        src: '/samples/portuguese/addition/Adição Divertida 3.webp',
+        src: '/samples/portuguese/addition/adição-divertida-3.webp',
         alt: 'Atividade de adição horizontal no modo Imagem + Número com tema de alimentos',
         caption: 'Modo Imagem + Número — combina grupos de imagens com números para competências de transição',
       },
       {
-        src: '/samples/portuguese/addition/Adição Divertida 4.webp',
+        src: '/samples/portuguese/addition/adição-divertida-4.webp',
         alt: 'Atividade de adição no modo Encontrar o Parcela com tema de veículos',
         caption: 'Modo Encontrar o Parcela — os usuários descobrem o grupo que falta para álgebra precoce',
       },

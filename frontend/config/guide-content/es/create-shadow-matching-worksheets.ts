@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/shadow match/Empareja las Sombras 2.webp', alt: 'Ficha de asociación de sombras con imágenes a color y siluetas negras autogeneradas a nivel de píxel para actividad de percepción visual' },
+    heroImage: { src: '/samples/spanish/shadow match/empareja-las-sombras-2.webp', alt: 'Ficha de asociación de sombras con imágenes a color y siluetas negras autogeneradas a nivel de píxel para actividad de percepción visual' },
     samples: [
-      { src: '/samples/spanish/shadow match/Empareja las Sombras 2.webp', alt: 'Ficha de asociación de sombras mostrando cuatro imágenes a color emparejadas con cuatro siluetas negras a nivel de píxel con etiquetas de letras y números', caption: 'Modo Asociación de sombras con cuatro imágenes a color y sus siluetas negras autogeneradas' },
-      { src: '/samples/spanish/shadow match/Empareja las Sombras 1 answer-key.webp', alt: 'Clave de respuestas autogenerada mostrando imágenes originales junto a siluetas con etiquetas correctas de emparejamiento letra a número', caption: 'Clave de respuestas autogenerada con emparejamientos letra a número para verificación rápida' },
+      { src: '/samples/spanish/shadow match/empareja-las-sombras-2.webp', alt: 'Ficha de asociación de sombras mostrando cuatro imágenes a color emparejadas con cuatro siluetas negras a nivel de píxel con etiquetas de letras y números', caption: 'Modo Asociación de sombras con cuatro imágenes a color y sus siluetas negras autogeneradas' },
+      { src: '/samples/spanish/shadow match/empareja-las-sombras-1-answer-key.webp', alt: 'Clave de respuestas autogenerada mostrando imágenes originales junto a siluetas con etiquetas correctas de emparejamiento letra a número', caption: 'Clave de respuestas autogenerada con emparejamientos letra a número para verificación rápida' },
     ],
     youtubeId: 'TYvUXJeMI98',
     videoTitle: 'Cómo crear fichas de discriminación visual con sombras — Tutorial completo',

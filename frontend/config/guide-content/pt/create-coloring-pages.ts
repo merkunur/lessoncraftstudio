@@ -183,10 +183,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir criada a partir de imagens temáticas mostrando a conversão para escala de cinza para atividades para colorir prontas para imprimir' },
+    heroImage: { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir criada a partir de imagens temáticas mostrando a conversão para escala de cinza para atividades para colorir prontas para imprimir' },
     samples: [
-      { src: '/samples/portuguese/coloring/coloring landscape 2.webp', alt: 'Página para colorir temática com ilustrações de animais dispostas numa tela de forma livre', caption: 'Página para colorir criada usando imagens temáticas da biblioteca com colocação em tela de forma livre' },
-      { src: '/samples/portuguese/coloring/coloring landscape 3.webp', alt: 'Página para colorir em escala de cinza pronta para imprimir com contornos limpos a preto e branco', caption: 'A exportação em escala de cinza converte designs coloridos em páginas para colorir prontas para imprimir' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-2.webp', alt: 'Página para colorir temática com ilustrações de animais dispostas numa tela de forma livre', caption: 'Página para colorir criada usando imagens temáticas da biblioteca com colocação em tela de forma livre' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-3.webp', alt: 'Página para colorir em escala de cinza pronta para imprimir com contornos limpos a preto e branco', caption: 'A exportação em escala de cinza converte designs coloridos em páginas para colorir prontas para imprimir' },
     ],
     youtubeId: 'ZdpCr2txHcc',
     videoTitle: 'Como criar páginas para colorir a partir de imagens temáticas — Tutorial completo',

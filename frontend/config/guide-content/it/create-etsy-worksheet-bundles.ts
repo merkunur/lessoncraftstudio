@@ -191,11 +191,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda addizione che mostra un componente fondamentale dei pacchetti stampabili educativi per venditori Etsy' },
+    heroImage: { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda addizione che mostra un componente fondamentale dei pacchetti stampabili educativi per venditori Etsy' },
     samples: [
-      { src: '/samples/italian/addition/Addizione Divertente 1.webp', alt: 'Scheda addizione a tema animali come componente bundle matematica per Etsy', caption: 'Scheda addizione con tema animali — un componente fondamentale per bundle di matematica per materia su Etsy' },
-      { src: '/samples/italian/subtraction/Sottrazioni Divertenti 1.webp', alt: 'Scheda sottrazione a tema animali che complementa l\'addizione nei bundle matematica Etsy', caption: 'Scheda sottrazione con tema animali — si abbina alle schede di addizione per bundle di matematica completi' },
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole animali che aggiunge varietà cross-categoria ai pacchetti schede Etsy', caption: 'Puzzle cerca parole con tema animali — aggiunge valore di alfabetizzazione ai bundle a tema cross-categoria' },
+      { src: '/samples/italian/addition/addizione-divertente-1.webp', alt: 'Scheda addizione a tema animali come componente bundle matematica per Etsy', caption: 'Scheda addizione con tema animali — un componente fondamentale per bundle di matematica per materia su Etsy' },
+      { src: '/samples/italian/subtraction/sottrazioni-divertenti-1.webp', alt: 'Scheda sottrazione a tema animali che complementa l\'addizione nei bundle matematica Etsy', caption: 'Scheda sottrazione con tema animali — si abbina alle schede di addizione per bundle di matematica completi' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Puzzle cerca parole animali che aggiunge varietà cross-categoria ai pacchetti schede Etsy', caption: 'Puzzle cerca parole con tema animali — aggiunge valore di alfabetizzazione ai bundle a tema cross-categoria' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Come Creare Schede Addizione per Bundle Etsy — Strategia Bundle Multi-Prodotto',

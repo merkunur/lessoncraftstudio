@@ -174,22 +174,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/german/wordsearch/Worter suchen 1.webp',
+      src: '/samples/german/wordsearch/worter-suchen-1.webp',
       alt: 'Professionelles Wortsuche-Arbeitsblatt als Beispiel für kommerziell lizenzierte Druckvorlagen-Ausgabe',
     },
     samples: [
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuche-Rätsel erstellt mit kommerzieller Lizenz für plattformübergreifenden Verkauf',
         caption: 'Unter kommerzieller Lizenz erstellte Wortsuchrätsel können auf jeder Plattform verkauft werden',
       },
       {
-        src: '/samples/german/addition/Additionsspa 1.webp',
+        src: '/samples/german/addition/additionsspa-1.webp',
         alt: 'Additions-Arbeitsblatt generiert mit lizenzgebührenfreier kommerzieller Lizenzierung',
         caption: 'Eine kommerzielle Lizenz deckt unbegrenzte Additions-Arbeitsblattgenerierung ohne Pro-Produkt-Gebühren ab',
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: '/samples/german/coloring/coloring-portrait-1.webp',
         alt: 'Ausmalseite mit ordnungsgemäß lizenziertem Themenbild für den kommerziellen Verkauf',
         caption: 'Kommerzielle Lizenzen, die eingebettete Bilder enthalten, vereinfachen die Konformität für visuelle Produkte',
       },

@@ -216,22 +216,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/word%20scramble/Ordmix%20portrait.webp',
+      primary: '/samples/swedish/word%20scramble/ordmix%20portrait.webp',
       primaryAlt: 'Ordmix arbetsblad med bildledtrådar och blandade bokstavsbrickor för bokstavsomflyttning stavningspussel',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/word%20scramble/Ordmix%20portrait.webp',
+        src: '/samples/swedish/word%20scramble/ordmix%20portrait.webp',
         alt: 'Ordmix arbetsblad med bildledtrådar och blandade bokstavsbrickor vid Lätt svårighet',
         caption: 'Lätt svårighet — hälften av bokstäverna förplacerade som ledtrådar för tidiga stavare',
       },
       {
-        src: '/samples/swedish/word%20scramble/Ordmix%20custom.webp',
+        src: '/samples/swedish/word%20scramble/ordmix%20custom.webp',
         alt: 'Ordmix arbetsblad med vokal-konsonant färgkodning som visar färgade bokstavsbrickor',
         caption: 'Färgkodat läge — vokaler och konsonanter i olika färger för fonicsmedvetenhet',
       },
       {
-        src: '/samples/swedish/word%20scramble/Ordmix%20portrait%20answer-key.webp',
+        src: '/samples/swedish/word%20scramble/ordmix%20portrait%20answer-key.webp',
         alt: 'Ordmix facit med alla bokstäver korrekt omordnade',
         caption: 'Facit — korrekt omordnade ord för enkel bedömning och självkontroll',
       },

@@ -215,22 +215,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/treasure%20hunt/Skattejagt%201.webp',
+      primary: '/samples/danish/treasure%20hunt/skattejagt%201.webp',
       primaryAlt: 'Gratis skattejagt generator med 5 gange 5 koordinatgitter og tematiske ledetråde — prøv online med vandmærke, ingen tilmelding',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/treasure%20hunt/Skattejagt%201.webp',
+        src: '/samples/danish/treasure%20hunt/skattejagt%201.webp',
         alt: 'Skattejagt puslespil arbejdsark med retningsledetråde på et 5 gange 5 koordinatgitter med tematiske landemærker',
         caption: 'Retningsledetråde — sekventielle bevægelsesinstruktioner fører til den skjulte skat',
       },
       {
-        src: '/samples/danish/treasure%20hunt/Skattejagt%202.webp',
+        src: '/samples/danish/treasure%20hunt/skattejagt%202.webp',
         alt: 'Skattejagt arbejdsark med kardinale retninger nord syd øst vest på 5 gange 5 gitter',
         caption: 'Kardinaltilstand — kompasretninger for avanceret rumligt ræsonnement og kortfærdigheder',
       },
       {
-        src: '/samples/danish/treasure%20hunt/Skattejagt%203.webp',
+        src: '/samples/danish/treasure%20hunt/skattejagt%203.webp',
         alt: 'Skattejagt facit med endelig skattecelle markeret i lysegul på 5 gange 5 koordinatgitteret',
         caption: 'Automatisk facit — lysegul markering viser skattedestinationen til selvkontrol',
       },

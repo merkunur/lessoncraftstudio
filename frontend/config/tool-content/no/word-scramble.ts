@@ -220,22 +220,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/word%20scramble/Bokstavblanding%201.webp',
+      primary: '/samples/norwegian/word%20scramble/bokstavblanding%201.webp',
       primaryAlt: 'Bokstavblanding arbeidsark med bildeledetråder og blandede bokstavbrikker for bokstavomstilling stavepuslespill',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/word%20scramble/Bokstavblanding%201.webp',
+        src: '/samples/norwegian/word%20scramble/bokstavblanding%201.webp',
         alt: 'Bokstavblanding arbeidsark med bildeledetråder og blandede bokstavbrikker ved Lett vanskelighetsgrad',
         caption: 'Lett vanskelighetsgrad — halvparten av bokstavene forhåndsplassert som ledetråder for tidlige stavere',
       },
       {
-        src: '/samples/norwegian/word%20scramble/Bokstavblanding%202.webp',
+        src: '/samples/norwegian/word%20scramble/bokstavblanding%202.webp',
         alt: 'Bokstavblanding arbeidsark med vokal-konsonant fargekoding som viser fargede bokstavbrikker',
         caption: 'Fargekodingsmodus — vokaler og konsonanter i forskjellige farger for fonikkbevissthet',
       },
       {
-        src: '/samples/norwegian/word%20scramble/Bokstavblanding%203.webp',
+        src: '/samples/norwegian/word%20scramble/bokstavblanding%203.webp',
         alt: 'Bokstavblanding fasit med alle bokstaver korrekt omorganisert',
         caption: 'Fasit — korrekt omorganiserte ord for enkel bedømmelse og selvkontroll',
       },

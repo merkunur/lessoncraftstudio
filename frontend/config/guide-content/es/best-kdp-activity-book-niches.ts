@@ -197,11 +197,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Página para colorear demostrando un nicho de libros de actividades KDP de amplio atractivo para editores' },
+    heroImage: { src: '/samples/spanish/coloring/coloring-portrait-1.webp', alt: 'Página para colorear demostrando un nicho de libros de actividades KDP de amplio atractivo para editores' },
     samples: [
-      { src: '/samples/spanish/coloring/coloring portrait 1.webp', alt: 'Contenido de libro para colorear representando uno de los nichos más grandes de libros de actividades KDP', caption: 'Libros para colorear — un nicho masivo de KDP que abarca niños, adultos y ediciones temáticas con fuerte demanda durante todo el año' },
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras demostrando segmentación de sub-nichos temáticos dentro de la categoría de puzles', caption: 'Sopas de letras temáticas — la segmentación por sub-nichos con temas de animales, viajes y festividades reduce la competencia manteniendo fuerte demanda' },
-      { src: '/samples/spanish/math worksheet/Hoja de Matemáticas 1.webp', alt: 'Ficha de matemáticas mostrando segmentación de audiencia por nivel de grado para estrategia de nichos KDP', caption: 'Cuadernos de matemáticas — la segmentación de audiencia por nivel de grado y tipo de operación cree docenas de sub-nichos distintos desde una categoría' },
+      { src: '/samples/spanish/coloring/coloring-portrait-1.webp', alt: 'Contenido de libro para colorear representando uno de los nichos más grandes de libros de actividades KDP', caption: 'Libros para colorear — un nicho masivo de KDP que abarca niños, adultos y ediciones temáticas con fuerte demanda durante todo el año' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras demostrando segmentación de sub-nichos temáticos dentro de la categoría de puzles', caption: 'Sopas de letras temáticas — la segmentación por sub-nichos con temas de animales, viajes y festividades reduce la competencia manteniendo fuerte demanda' },
+      { src: '/samples/spanish/math worksheet/hoja-de-matemáticas-1.webp', alt: 'Ficha de matemáticas mostrando segmentación de audiencia por nivel de grado para estrategia de nichos KDP', caption: 'Cuadernos de matemáticas — la segmentación de audiencia por nivel de grado y tipo de operación cree docenas de sub-nichos distintos desde una categoría' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Cómo crear fichas de matemáticas para libros de actividades KDP — Tutorial de creación de contenido por nichos',

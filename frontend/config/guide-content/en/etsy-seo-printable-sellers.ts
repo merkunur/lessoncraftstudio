@@ -182,10 +182,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Etsy listing optimized for search with keyword-rich title and professional photos' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Etsy listing optimized for search with keyword-rich title and professional photos' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search worksheet listing optimized for Etsy SEO', caption: 'A well-optimized Etsy listing with keyword-rich title, all 13 tags, and 10 professional photos' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Coloring page bundle with SEO-optimized listing', caption: 'Coloring page bundles with descriptive titles and value-focused photos convert at higher rates in Etsy search' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Word search worksheet listing optimized for Etsy SEO', caption: 'A well-optimized Etsy listing with keyword-rich title, all 13 tags, and 10 professional photos' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Coloring page bundle with SEO-optimized listing', caption: 'Coloring page bundles with descriptive titles and value-focused photos convert at higher rates in Etsy search' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

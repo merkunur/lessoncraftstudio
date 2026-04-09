@@ -216,12 +216,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/math worksheet/Folha de Matemática 1.webp', alt: 'Atividade de matemática que demonstra a qualidade profissional de resultado dos geradores de atividades' },
+    heroImage: { src: '/samples/portuguese/math worksheet/folha-de-matemática-1.webp', alt: 'Atividade de matemática que demonstra a qualidade profissional de resultado dos geradores de atividades' },
     samples: [
-      { src: '/samples/portuguese/math worksheet/Folha de Matemática 2.webp', alt: 'Atividade de matemática com design profissional e qualidade de impressão de 300 PPP', caption: 'Atividade de Matemática — Construtor de Rendimentos Versátil' },
-      { src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp', alt: 'Atividade de caça-palavras para vendas no Etsy e Amazon KDP', caption: 'Caça-Palavras — Categoria de Puzzles Mais Vendida' },
-      { src: '/samples/portuguese/coloring/coloring landscape 1.webp', alt: 'Página para colorir para publicação de livros de atividades no KDP', caption: 'Colorir — Categoria de Grande Volume no KDP' },
-      { src: '/samples/portuguese/sudoku/Sudoku de Imagens 1.webp', alt: 'Atividade de Sudoku com apelo universal internacional', caption: 'Sudoku — Apelo Universal no Mercado' },
+      { src: '/samples/portuguese/math worksheet/folha-de-matemática-2.webp', alt: 'Atividade de matemática com design profissional e qualidade de impressão de 300 PPP', caption: 'Atividade de Matemática — Construtor de Rendimentos Versátil' },
+      { src: '/samples/portuguese/wordsearch/caça-palavras-1.webp', alt: 'Atividade de caça-palavras para vendas no Etsy e Amazon KDP', caption: 'Caça-Palavras — Categoria de Puzzles Mais Vendida' },
+      { src: '/samples/portuguese/coloring/coloring-landscape-1.webp', alt: 'Página para colorir para publicação de livros de atividades no KDP', caption: 'Colorir — Categoria de Grande Volume no KDP' },
+      { src: '/samples/portuguese/sudoku/sudoku-de-imagens-1.webp', alt: 'Atividade de Sudoku com apelo universal internacional', caption: 'Sudoku — Apelo Universal no Mercado' },
     ],
     youtubeId: '-JIawojGNr0',
     videoTitle: 'Como Criar Atividades de Matemática para o Teu Negócio de Imprimíveis — Demo LessonCraftStudio',

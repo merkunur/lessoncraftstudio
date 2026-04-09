@@ -164,22 +164,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/Word Search 10.webp',
+      src: '/samples/english/wordsearch/word-search-10.webp',
       alt: 'Word search worksheet demonstrating multilingual printable business potential across international markets',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/Word Search 11.webp',
+        src: '/samples/english/wordsearch/word-search-11.webp',
         alt: 'Word search puzzle worksheet showing multi-language capability for international printable sales',
         caption: 'Word search worksheets can be generated in 11 languages, making them ideal for multilingual expansion',
       },
       {
-        src: '/samples/english/matching/image and custom word.webp',
+        src: '/samples/english/matching/image-and-custom-word.webp',
         alt: 'Matching worksheet with visual themes that work across language markets',
         caption: 'Visual matching worksheets use images that translate universally across languages',
       },
       {
-        src: '/samples/english/addition/Addition Fun 10.webp',
+        src: '/samples/english/addition/addition-fun-10.webp',
         alt: 'Addition math worksheet demonstrating universal appeal across language barriers',
         caption: 'Math worksheets cross language barriers naturally since numbers are universal across markets',
       },

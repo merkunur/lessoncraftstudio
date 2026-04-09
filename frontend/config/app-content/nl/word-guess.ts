@@ -223,22 +223,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/word%20guess/Raad%20het%20Woord%201.webp',
+      primary: '/samples/dutch/word%20guess/raad%20het%20woord%201.webp',
       primaryAlt: 'Woordraadsel werkblad met afbeeldingsaanwijzingen en lege letterrasters die raad-het-woord woordenschatpuzzels tonen',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/word%20guess/Raad%20het%20Woord%201.webp',
+        src: '/samples/dutch/word%20guess/raad%20het%20woord%201.webp',
         alt: 'Woordraadsel werkblad met afbeeldingsaanwijzingen op Makkelijk niveau met de helft van de letters onthuld',
         caption: 'Makkelijk niveau — de helft van de letters vooraf onthuld als aanwijzingen voor beginnende lezers',
       },
       {
-        src: '/samples/dutch/word%20guess/Raad%20het%20Woord%202.webp',
+        src: '/samples/dutch/word%20guess/raad%20het%20woord%202.webp',
         alt: 'Woordraadsel werkblad op Moeilijk niveau met minimale aanwijzingsletters en dierenthema',
         caption: 'Moeilijk niveau — slechts een zesde van de letters onthuld voor gevorderde spellers',
       },
       {
-        src: '/samples/dutch/word%20guess/Raad%20het%20Woord%203.webp',
+        src: '/samples/dutch/word%20guess/raad%20het%20woord%203.webp',
         alt: 'Woordraadsel antwoordblad met alle letters ingevuld en geen lege vakjes',
         caption: 'Antwoordblad — alle letters onthuld voor eenvoudig nakijken en zelfcontrole',
       },

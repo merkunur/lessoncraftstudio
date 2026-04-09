@@ -188,10 +188,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/picture sort/negozificazione Immagini 1.webp', alt: 'Scheda di negozificazione a due categorie con cornici a bordo tratteggiato e griglia di ritaglio mescolata per attività di negozificazione' },
+    heroImage: { src: '/samples/italian/picture sort/negozificazione-immagini-1.webp', alt: 'Scheda di negozificazione a due categorie con cornici a bordo tratteggiato e griglia di ritaglio mescolata per attività di negozificazione' },
     samples: [
-      { src: '/samples/italian/picture sort/negozificazione Immagini 1.webp', alt: 'Scheda negozificazione immagini che mostra due cornici di categoria affiancate e griglia di ritaglio mescolata sotto', caption: 'Scheda di negozificazione a due categorie con cornici di categoria affiancate e griglia di ritaglio mescolata' },
-      { src: '/samples/italian/picture sort/negozificazione Immagini 1 answer_key.webp', alt: 'Chiave di risposta auto-generata con immagini ingrandite negozificate nei riquadri delle categorie corrette', caption: 'Chiave di risposta auto-generata con immagini visualizzate a sei volte la dimensione delle celle della griglia di ritaglio' },
+      { src: '/samples/italian/picture sort/negozificazione-immagini-1.webp', alt: 'Scheda negozificazione immagini che mostra due cornici di categoria affiancate e griglia di ritaglio mescolata sotto', caption: 'Scheda di negozificazione a due categorie con cornici di categoria affiancate e griglia di ritaglio mescolata' },
+      { src: '/samples/italian/picture sort/negozificazione-immagini-1-answer-key.webp', alt: 'Chiave di risposta auto-generata con immagini ingrandite negozificate nei riquadri delle categorie corrette', caption: 'Chiave di risposta auto-generata con immagini visualizzate a sei volte la dimensione delle celle della griglia di ritaglio' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'Come Creare Schede di negozificazione per Categorie — Tutorial Completo',

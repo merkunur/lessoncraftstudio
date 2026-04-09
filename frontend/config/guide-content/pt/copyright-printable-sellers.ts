@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/portuguese/writing/writing beginning letter.webp',
+      src: '/samples/portuguese/writing/writing-beginning-letter.webp',
       alt: 'Atividade profissional de escrita demonstrando elementos de design criativo original protegíveis por direitos de autor',
     },
     samples: [
       {
-        src: '/samples/portuguese/writing/writing custom.webp',
+        src: '/samples/portuguese/writing/writing-custom.webp',
         alt: 'Atividade de escrita mostrando texto instrutivo original e escolhas criativas de design',
         caption: 'As atividades de escrita contêm expressão criativa original substancial no seu texto instrutivo e design',
       },
       {
-        src: '/samples/portuguese/wordsearch/Caça-Palavras 1.webp',
+        src: '/samples/portuguese/wordsearch/caça-palavras-1.webp',
         alt: 'Puzzle de sopa de letras com imagens temáticas demonstrando arranjo criativo de conteúdo educativo',
         caption: 'Os puzzles de sopa de letras demonstram arranjo criativo protegível de elementos de vocabulário',
       },
       {
-        src: '/samples/portuguese/coloring/coloring landscape 1.webp',
+        src: '/samples/portuguese/coloring/coloring-landscape-1.webp',
         alt: 'Página para colorir com design de ilustração temática original',
         caption: 'As páginas para colorir têm posições fortes de direitos de autor devido à originalidade visual dos seus designs',
       },

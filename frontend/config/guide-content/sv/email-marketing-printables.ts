@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/wordsearch/wordsearch portrait.webp',
+      src: '/samples/english/wordsearch/wordsearch-portrait.webp',
       alt: 'Professionellt ordsökspussel som demonstrerar lead magnet-kvalitet för e-postmarknadsföringskampanjer',
     },
     samples: [
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/english/wordsearch/wordsearch-portrait.webp',
         alt: 'Ordsökspussel idealt för e-post lead magnets som attraherar köpare av utskriftsbara produkter',
         caption: 'Ordsökspussel skapar övertygande lead magnets som attraherar din målköparpublik',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/english/coloring/coloring-portrait-1.webp',
         alt: 'Målarbok som visar visuellt tilltalande produkt för e-postkampanjspromotion',
         caption: 'Visuellt slående produkter driver högre klickfrekvenser i e-postkampanjer',
       },
       {
-        src: '/samples/english/addition/Addition Fun 1.webp',
+        src: '/samples/english/addition/addition-fun-1.webp',
         alt: 'Additionsarbetsblad som demonstrerar vintergrönt innehåll för automatiserade e-postsekvenser',
         caption: 'Vintergrönt matteinnehåll driver automatiserade säsongs-e-postkampanjer året runt',
       },

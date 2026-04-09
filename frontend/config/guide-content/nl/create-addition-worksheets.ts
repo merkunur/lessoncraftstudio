@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optellen werkblad met thematische afbeeldingen voor visuele teloefeningen voor kinderen' },
+    heroImage: { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optellen werkblad met thematische afbeeldingen voor visuele teloefeningen voor kinderen' },
     samples: [
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Beeldgebaseerd optellen werkblad met dierenthema voor groep 3', caption: 'Groep 3 optellen werkblad met boerderijdieren thema in Afbeelding + Afbeelding oefenmodus' },
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optellen werkblad met antwoordsleutel die correcte oplossingen toont', caption: 'Automatische antwoordsleutel gegenereerd bij elk optellen werkblad' },
-      { src: '/samples/dutch/subtraction/Aftrekken%20is%20Leuk%201.webp', alt: 'Aftrekken werkblad als aanvulling op optellen oefenmateriaal', caption: 'Aftrekken werkbladen als aanvulling op je optellen productlijn' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Beeldgebaseerd optellen werkblad met dierenthema voor groep 3', caption: 'Groep 3 optellen werkblad met boerderijdieren thema in Afbeelding + Afbeelding oefenmodus' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optellen werkblad met antwoordsleutel die correcte oplossingen toont', caption: 'Automatische antwoordsleutel gegenereerd bij elk optellen werkblad' },
+      { src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%201.webp', alt: 'Aftrekken werkblad als aanvulling op optellen oefenmateriaal', caption: 'Aftrekken werkbladen als aanvulling op je optellen productlijn' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hoe Optellen Werkbladen Maken — Complete Handleiding',

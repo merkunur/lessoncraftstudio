@@ -211,22 +211,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/subtraction/Sottrazioni Divertenti 1.webp',
+      primary: '/samples/italian/subtraction/sottrazioni-divertenti-1.webp',
       primaryAlt: 'Scheda di sottrazione con modalità Cancella che mostra immagini barrate per esercizi visivi',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/subtraction/Sottrazioni Divertenti 1.webp',
+        src: '/samples/italian/subtraction/sottrazioni-divertenti-1.webp',
         alt: 'Scheda di sottrazione Cancella con tema animali e immagini barrate',
         caption: 'Modalità Cancella con tema animali',
       },
       {
-        src: '/samples/italian/subtraction/Sottrazioni Divertenti 2.webp',
+        src: '/samples/italian/subtraction/sottrazioni-divertenti-2.webp',
         alt: 'Scheda di sottrazione nella modalità Immagine − Numero con immagini di cibo',
         caption: 'Modalità Immagine − Numero con tema cibo',
       },
       {
-        src: '/samples/italian/subtraction/Sottrazioni Divertenti 3.webp',
+        src: '/samples/italian/subtraction/sottrazioni-divertenti-3.webp',
         alt: 'Scheda Trova il Sottraendo con immagini di veicoli e cornice decorativa',
         caption: 'Modalità Trova il Sottraendo con veicoli e cornice',
       },

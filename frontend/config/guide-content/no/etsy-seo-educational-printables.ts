@@ -185,10 +185,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/norwegian/wordsearch/Ordleting%202.webp', alt: 'Ordsøk-puslespill arbeidsark som viser flersøkeord pedagogisk printable-produkt for Etsy SEO-optimalisering' },
+    heroImage: { src: '/samples/norwegian/wordsearch/ordleting%202.webp', alt: 'Ordsøk-puslespill arbeidsark som viser flersøkeord pedagogisk printable-produkt for Etsy SEO-optimalisering' },
     samples: [
-      { src: '/samples/norwegian/wordsearch/Ordleting%201.webp', alt: 'Dyretematisk ordsøk-puslespill arbeidsark som demonstrerer temabasert Etsy søkeordmålretting', caption: 'Ordsøk med dyretema — hver språk- og temavariasjon retter seg mot forskjellige Etsy-søkeord' },
-      { src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp', alt: 'Dyretematisk addisjonsarbeidsark som retter seg mot høyvolums Etsy matte printable søkeord', caption: 'Addisjonsarbeidsark med dyretema — retter seg mot høyvolums matte printable søkeord på Etsy' },
+      { src: '/samples/norwegian/wordsearch/ordleting%201.webp', alt: 'Dyretematisk ordsøk-puslespill arbeidsark som demonstrerer temabasert Etsy søkeordmålretting', caption: 'Ordsøk med dyretema — hver språk- og temavariasjon retter seg mot forskjellige Etsy-søkeord' },
+      { src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp', alt: 'Dyretematisk addisjonsarbeidsark som retter seg mot høyvolums Etsy matte printable søkeord', caption: 'Addisjonsarbeidsark med dyretema — retter seg mot høyvolums matte printable søkeord på Etsy' },
       { src: '/samples/norwegian/coloring/coloring%20portrait%202.webp', alt: 'Dyre-fargeleggingsside som viser temadrevet Etsy søkeordstrategi for printable-selgere', caption: 'Fargeleggingsside med dyretema — temaspesifikke søkeord driver målrettet Etsy-søketrafikk' },
     ],
     youtubeId: '36keBFzJbPo',

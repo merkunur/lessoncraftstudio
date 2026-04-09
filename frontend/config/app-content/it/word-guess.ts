@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/word guess/Indovina la Parola 1.webp',
+      primary: '/samples/italian/word guess/indovina-la-parola-1.webp',
       primaryAlt: 'Scheda indovina la parola con indizi immagine e griglie di lettere vuote che mostrano puzzle di vocabolario stile impiccato',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/word guess/Indovina la Parola 2.webp',
+        src: '/samples/italian/word guess/indovina-la-parola-2.webp',
         alt: 'Scheda indovina la parola in difficoltà Facile che mostra metà delle lettere rivelate',
         caption: 'Difficoltà Facile — metà delle lettere pre-rivelate come indizi per lettori principianti',
       },
       {
-        src: '/samples/italian/word guess/Indovina la Parola 3.webp',
+        src: '/samples/italian/word guess/indovina-la-parola-3.webp',
         alt: 'Scheda indovina la parola in difficoltà Difficile con minime lettere-indizio e tema animali',
         caption: 'Difficoltà Difficile — solo un sesto delle lettere rivelate per utenti avanzati in ortografia',
       },
       {
-        src: '/samples/italian/word guess/Indovina la Parola 4.webp',
+        src: '/samples/italian/word guess/indovina-la-parola-4.webp',
         alt: 'Foglio risposte indovina la parola con tutte le lettere compilate e nessuna casella vuota',
         caption: 'Foglio risposte — tutte le lettere rivelate per verifica e autoverifica facili',
       },

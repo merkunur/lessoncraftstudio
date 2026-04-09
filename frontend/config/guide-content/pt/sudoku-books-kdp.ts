@@ -186,11 +186,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/portuguese/sudoku/Sudoku de Imagens 1.webp', alt: 'Puzzle de sudoku com imagens mostrando grelha temática de imagens adequada para páginas interiores de livros de sudoku Amazon KDP' },
+    heroImage: { src: '/samples/portuguese/sudoku/sudoku-de-imagens-1.webp', alt: 'Puzzle de sudoku com imagens mostrando grelha temática de imagens adequada para páginas interiores de livros de sudoku Amazon KDP' },
     samples: [
-      { src: '/samples/portuguese/sudoku/Sudoku de Imagens 2.webp', alt: 'Sudoku com imagens temático de animais formatado para livro de sudoku infantil KDP', caption: 'Sudoku com imagens com tema de animais — grelhas baseadas em imagens tornam a lógica do sudoku acessível a crianças dos 3 aos 7 anos que ainda não aprenderam os números' },
-      { src: '/samples/portuguese/sudoku/Sudoku de Imagens 3.webp', alt: 'Atividade de sudoku com imagens para interior de livro KDP', caption: 'Atividade de sudoku com imagens — grelhas de 4×4 com imagens claras e tamanho de células generoso para resolução confortável por crianças pequenas' },
-      { src: '/samples/portuguese/math puzzle/Quebra-Cabeças Matemático 1.webp', alt: 'Atividade de puzzle matemático para catálogo complementar de puzzles KDP', caption: 'Puzzle matemático — puzzles de lógica baseados em números complementam o sudoku naturalmente em livros de puzzles de variedade e promovem-se cruzadamente através da sua página de autor' },
+      { src: '/samples/portuguese/sudoku/sudoku-de-imagens-2.webp', alt: 'Sudoku com imagens temático de animais formatado para livro de sudoku infantil KDP', caption: 'Sudoku com imagens com tema de animais — grelhas baseadas em imagens tornam a lógica do sudoku acessível a crianças dos 3 aos 7 anos que ainda não aprenderam os números' },
+      { src: '/samples/portuguese/sudoku/sudoku-de-imagens-3.webp', alt: 'Atividade de sudoku com imagens para interior de livro KDP', caption: 'Atividade de sudoku com imagens — grelhas de 4×4 com imagens claras e tamanho de células generoso para resolução confortável por crianças pequenas' },
+      { src: '/samples/portuguese/math puzzle/quebra-cabeças-matemático-1.webp', alt: 'Atividade de puzzle matemático para catálogo complementar de puzzles KDP', caption: 'Puzzle matemático — puzzles de lógica baseados em números complementam o sudoku naturalmente em livros de puzzles de variedade e promovem-se cruzadamente através da sua página de autor' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Como criar puzzles de sudoku com imagens para livros Amazon KDP — Tutorial passo a passo',

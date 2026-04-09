@@ -257,22 +257,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/spanish/odd one out/Encuentra el Diferente 1.webp',
+      primary: '/samples/spanish/odd one out/encuentra-el-diferente-1.webp',
       primaryAlt: 'Ficha del intruso con cuatro imágenes por fila de ejercicio, ilustraciones temáticas coloridas y encabezado localizado Encuentra el Diferente',
     },
     sampleGallery: [
       {
-        src: '/samples/spanish/odd one out/Encuentra el Diferente 2.webp',
+        src: '/samples/spanish/odd one out/encuentra-el-diferente-2.webp',
         alt: 'Ficha del intruso en modo Similar con tres animales y un alimento por fila',
         caption: 'Modo Similar — tres imágenes del Tema A y un elemento intruso del Tema B',
       },
       {
-        src: '/samples/spanish/odd one out/Encuentra el Diferente 3.webp',
+        src: '/samples/spanish/odd one out/encuentra-el-diferente-3-v6.webp',
         alt: 'Ficha del intruso en modo Idéntico con tres imágenes idénticas y una diferente por fila',
         caption: 'Modo Idéntico — tres clones de la misma imagen y una imagen diferente',
       },
       {
-        src: '/samples/spanish/odd one out/Encuentra el Diferente 1 answer-key.webp',
+        src: '/samples/spanish/odd one out/encuentra-el-diferente-1-answer-key.webp',
         alt: 'Clave de respuestas del intruso con círculos rojos dibujados alrededor del elemento intruso en cada fila de ejercicio',
         caption: 'Clave de respuestas autogenerada — los círculos rojos marcan el elemento intruso en cada fila',
       },

@@ -185,11 +185,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Optelwerkblad als kerncomponent van educatieve printable bundels voor Etsy-verkopers' },
+    heroImage: { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Optelwerkblad als kerncomponent van educatieve printable bundels voor Etsy-verkopers' },
     samples: [
-      { src: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp', alt: 'Dierenthema optelwerkblad als rekenbundelcomponent voor Etsy', caption: 'Optelwerkblad met dierenthema — een kerncomponent voor reken-vakbundels op Etsy' },
-      { src: '/samples/dutch/subtraction/Aftrekken%20is%20Leuk%201.webp', alt: 'Dierenthema aftrekwerkblad als aanvulling op optellen in Etsy-rekenbundels', caption: 'Aftrekwerkblad met dierenthema — gecombineerd met optelwerkbladen voor complete rekenbundels' },
-      { src: '/samples/dutch/wordsearch/Woordzoeker%201.webp', alt: 'Dieren woordzoekerpuzzel die cross-categorie variatie toevoegt aan Etsy werkblad bundels', caption: 'Woordzoekerpuzzel met dierenthema — voegt taalwaarde toe aan cross-categorie themabundels' },
+      { src: '/samples/dutch/addition/optellen%20is%20leuk%201.webp', alt: 'Dierenthema optelwerkblad als rekenbundelcomponent voor Etsy', caption: 'Optelwerkblad met dierenthema — een kerncomponent voor reken-vakbundels op Etsy' },
+      { src: '/samples/dutch/subtraction/aftrekken%20is%20leuk%201.webp', alt: 'Dierenthema aftrekwerkblad als aanvulling op optellen in Etsy-rekenbundels', caption: 'Aftrekwerkblad met dierenthema — gecombineerd met optelwerkbladen voor complete rekenbundels' },
+      { src: '/samples/dutch/wordsearch/woordzoeker%201.webp', alt: 'Dieren woordzoekerpuzzel die cross-categorie variatie toevoegt aan Etsy werkblad bundels', caption: 'Woordzoekerpuzzel met dierenthema — voegt taalwaarde toe aan cross-categorie themabundels' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Hoe Optelwerkbladen Maken voor Etsy Bundels — Multi-Product Bundelstrategie',

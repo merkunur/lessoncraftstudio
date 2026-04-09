@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/french/math worksheet/Feuille de Mathématique 1.webp',
+      primary: '/samples/french/math worksheet/feuille-de-mathématique-1.webp',
       primaryAlt: 'Fiche de puzzle algébrique illustré avec des symboles-images représentant des variables inconnues dans des équations liées',
     },
     sampleGallery: [
       {
-        src: '/samples/french/math worksheet/Feuille de Mathématique 1.webp',
+        src: '/samples/french/math worksheet/feuille-de-mathématique-1.webp',
         alt: 'Puzzle algébrique visuel avec deux symboles-images et des équations d\'addition pour débutants',
         caption: 'Mode Très Facile — deux symboles en addition simple',
       },
       {
-        src: '/samples/french/math worksheet/Feuille de Mathématique 2.webp',
+        src: '/samples/french/math worksheet/feuille-de-mathématique-2.webp',
         alt: 'Puzzle algébrique illustré de difficulté Moyen avec trois variables-images dans des équations liées',
         caption: 'Difficulté Moyen — trois inconnues dans des équations liées',
       },
       {
-        src: '/samples/french/math worksheet/Feuille de Mathématique 3.webp',
+        src: '/samples/french/math worksheet/feuille-de-mathématique-3.webp',
         alt: 'Fiche de puzzle algébrique Difficile avec quatre inconnues simultanées et opérations mixtes',
         caption: 'Mode Difficile — quatre variables avec addition et soustraction',
       },

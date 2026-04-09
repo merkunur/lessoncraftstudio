@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés avec indices visuels thématiques montrant des mots de vocabulaire cachés dans une grille de lettres' },
+    heroImage: { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés avec indices visuels thématiques montrant des mots de vocabulaire cachés dans une grille de lettres' },
     samples: [
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés avec thème animalier et indices en images pour enfants', caption: 'Puzzle de mots cachés thématique utilisant le Mode vocabulaire avec indices en images d\'animaux et taille de grille configurable' },
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Corrigé de mots cachés avec surbrillance colorée par mot', caption: 'Corrigé avec code couleur où chaque mot caché est surligné dans une couleur distincte pour une valeur perçue facile' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés avec thème animalier et indices en images pour enfants', caption: 'Puzzle de mots cachés thématique utilisant le Mode vocabulaire avec indices en images d\'animaux et taille de grille configurable' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Corrigé de mots cachés avec surbrillance colorée par mot', caption: 'Corrigé avec code couleur où chaque mot caché est surligné dans une couleur distincte pour une valeur perçue facile' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Comment créer des puzzles de mots cachés — Tutoriel complet',

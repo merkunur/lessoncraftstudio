@@ -267,22 +267,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/draw and color/Zeichnen und Ausmale 1.webp',
+      primary: '/samples/german/draw and color/zeichnen-und-ausmale-1.webp',
       primaryAlt: 'Rasterzeichnen-Arbeitsblatt mit dualem Rastersystem, das Übungsraster und Hinweisraster mit S&W-Umriss-Thema zeigt',
     },
     sampleGallery: [
       {
-        src: '/samples/german/draw and color/Zeichnen und Ausmale 2.webp',
+        src: '/samples/german/draw and color/zeichnen-und-ausmale-2.webp',
         alt: 'Rasterzeichnen-Arbeitsblatt mit Tier-S&W-Umriss-Thema bei 25% Hinweisprozent, das Übungsraster und Hinweisraster zeigt',
         caption: 'Tierthema bei 25% Hinweisen — Lernende reproduzieren den Umriss aus verstreuten Rasterhinweisen',
       },
       {
-        src: '/samples/german/draw and color/Zeichnen und Ausmale 3.webp',
+        src: '/samples/german/draw and color/zeichnen-und-ausmale-3.webp',
         alt: 'Rasterzeichnen-Arbeitsblatt im horizontalen Symmetrie-Spiegelmodus mit von links nach rechts gespiegelten Hinweiszellen',
         caption: 'Horizontaler Symmetriemodus — Hinweiszellen spiegeln von links nach rechts für räumliches Denken',
       },
       {
-        src: '/samples/german/draw and color/Zeichnen und Ausmale 4.webp',
+        src: '/samples/german/draw and color/zeichnen-und-ausmale-4.webp',
         alt: 'Rasterzeichnen-Arbeitsblatt mit 10% Hinweisprozent, das minimale Referenzzellen für Experten-Herausforderung zeigt',
         caption: '10% Hinweis-Herausforderung — minimale Referenzzellen für Raster-Reproduktion auf Expertenniveau',
       },

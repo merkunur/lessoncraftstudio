@@ -260,22 +260,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/find%20objects/Finn%20de%20Skjulte%20Objektene%201.webp',
+      primary: '/samples/norwegian/find%20objects/finn%20de%20skjulte%20objektene%201.webp',
       primaryAlt: 'Skjulte objekter sokearbeidsark med spredte bilder plassert med null-overlappalgoritme, legende nederst som viser objekter å finne og dekorativ overskrift',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/find%20objects/Finn%20de%20Skjulte%20Objektene%201.webp',
+        src: '/samples/norwegian/find%20objects/finn%20de%20skjulte%20objektene%201.webp',
         alt: 'Soking skjulte objekter-scene med spredte bilder og legende som viser målobjekter nederst',
         caption: 'Sokings-modus — fri skjulte objekter-scene med legendevisning',
       },
       {
-        src: '/samples/norwegian/find%20objects/Finn%20de%20Skjulte%20Objektene%202.webp',
+        src: '/samples/norwegian/find%20objects/finn%20de%20skjulte%20objektene%202.webp',
         alt: 'Skjulte objekter arbeidsark med et annet tema og variert objektantall',
         caption: 'Tematisk sokescene — 104 temaer gir unike skjulte objekter-utfordringer',
       },
       {
-        src: '/samples/norwegian/find%20objects/Finn%20de%20Skjulte%20Objektene%203.webp',
+        src: '/samples/norwegian/find%20objects/finn%20de%20skjulte%20objektene%203.webp',
         alt: 'Skjulte objekter arbeidsark fasit med rode sirkler tegnet rundt målobjekter',
         caption: 'Automatisk generert fasit — rode sirkler markerer skjulte og uparrede objekter',
       },

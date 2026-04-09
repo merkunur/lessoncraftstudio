@@ -188,11 +188,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras con cuadrícula de vocabulario temático mostrando palabras ocultas para vender en Etsy' },
+    heroImage: { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras con cuadrícula de vocabulario temático mostrando palabras ocultas para vender en Etsy' },
     samples: [
-      { src: '/samples/spanish/wordsearch/Sopa de Letras 1.webp', alt: 'Sopa de letras con tema de animales creada para anuncio de descargue digital en Etsy', caption: 'Sopa de letras con tema de vocabulario animal — formato basado en cuadrícula que cree fotos de anuncio llamativas en Etsy' },
-      { src: '/samples/spanish/crossword/Crucigrama con Dibujos 1.webp', alt: 'Crucigrama complementando productos de sopas de letras en una tienda Etsy de puzles', caption: 'Crucigrama — compañero natural de venta cruzada para anuncios de sopas de letras en su tienda Etsy' },
-      { src: '/samples/spanish/word scramble/Palabras Revueltas 2.webp', alt: 'Puzle de anagramas mostrando formato complementario para paquetes de puzles en Etsy', caption: 'Anagrama — actividad rápida de vocabulario que añada variedad a paquetes multiformato' },
+      { src: '/samples/spanish/wordsearch/sopa-de-letras-1.webp', alt: 'Sopa de letras con tema de animales creada para anuncio de descargue digital en Etsy', caption: 'Sopa de letras con tema de vocabulario animal — formato basado en cuadrícula que cree fotos de anuncio llamativas en Etsy' },
+      { src: '/samples/spanish/crossword/crucigrama-con-dibujos-1.webp', alt: 'Crucigrama complementando productos de sopas de letras en una tienda Etsy de puzles', caption: 'Crucigrama — compañero natural de venta cruzada para anuncios de sopas de letras en su tienda Etsy' },
+      { src: '/samples/spanish/word scramble/palabras-revueltas-2.webp', alt: 'Puzle de anagramas mostrando formato complementario para paquetes de puzles en Etsy', caption: 'Anagrama — actividad rápida de vocabulario que añada variedad a paquetes multiformato' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Cómo crear sopas de letras para vender en Etsy — Tutorial paso a paso',

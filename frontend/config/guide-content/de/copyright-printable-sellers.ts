@@ -183,12 +183,12 @@ const content: GuideContent = {
         caption: 'Schreibübungs-Arbeitsblätter enthalten umfangreiche originelle kreative Ausdrucksform in ihrem Anleitungstext und Design',
       },
       {
-        src: '/samples/german/wordsearch/Worter suchen 1.webp',
+        src: '/samples/german/wordsearch/worter-suchen-1.webp',
         alt: 'Wortsuchrätsel mit thematischen Bildern, das die kreative Anordnung von Bildungsinhalten demonstriert',
         caption: 'Wortsuchrätsel demonstrieren urheberrechtlich schutzfähige kreative Anordnung von Vokabelelementen',
       },
       {
-        src: '/samples/german/coloring/coloring portrait 1.webp',
+        src: '/samples/german/coloring/coloring-portrait-1.webp',
         alt: 'Ausmalseite mit originellem thematischem Illustrationsdesign',
         caption: 'Ausmalseiten haben aufgrund der visuellen Originalität ihrer Designs starke Urheberrechtspositionen',
       },

@@ -222,12 +222,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingokort som visar mycket delbar utskriftsbar produktdesign' },
+    heroImage: { src: '/samples/english/bingo/bingo-card.webp', alt: 'Bingokort som visar mycket delbar utskriftsbar produktdesign' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card.webp', alt: 'Bingokort som visar eventdriven marknadsföringspotential för fester och butiker', caption: 'Bingo — mycket delbar för evenemang och helger' },
-      { src: '/samples/english/wordsearch/wordsearch portrait.webp', alt: 'Ordsökspussel som visar stark marknadsplats-SEO-potential', caption: 'Ordsökning — mest sökta pusseltypen' },
-      { src: '/samples/english/coloring/coloring portrait 1.webp', alt: 'Målarbilder som visar visuell attraktionskraft för Pinterest-marknadsföring', caption: 'Färgläggning — Pinterest-redo visuellt innehåll' },
-      { src: '/samples/english/matching/matching portrait.webp', alt: 'Matchningsarbetsblad som visar tematiserad säsongsmarknadsföring', caption: 'Matchning — mångsidig säsongsmarknadsföring' },
+      { src: '/samples/english/bingo/bingo-card.webp', alt: 'Bingokort som visar eventdriven marknadsföringspotential för fester och butiker', caption: 'Bingo — mycket delbar för evenemang och helger' },
+      { src: '/samples/english/wordsearch/wordsearch-portrait.webp', alt: 'Ordsökspussel som visar stark marknadsplats-SEO-potential', caption: 'Ordsökning — mest sökta pusseltypen' },
+      { src: '/samples/english/coloring/coloring-portrait-1.webp', alt: 'Målarbilder som visar visuell attraktionskraft för Pinterest-marknadsföring', caption: 'Färgläggning — Pinterest-redo visuellt innehåll' },
+      { src: '/samples/english/matching/matching-portrait.webp', alt: 'Matchningsarbetsblad som visar tematiserad säsongsmarknadsföring', caption: 'Matchning — mångsidig säsongsmarknadsföring' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'Hur du skapar bingokort för ditt utskriftsbara företag — LessonCraftStudio demo',

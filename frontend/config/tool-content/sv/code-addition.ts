@@ -211,22 +211,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/code%20addition/image_addition_worksheet.webp',
+      primary: '/samples/swedish/code%20addition/image-addition-worksheet.webp',
       primaryAlt: 'Kodadditions arbetsblad som visar kryptaritmetikpussel med bildsymboler som gömmer hemliga siffror',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/code%20addition/image_addition_worksheet.webp',
+        src: '/samples/swedish/code%20addition/image-addition-worksheet.webp',
         alt: 'Kodknäckar mattepussel med djursymboler i Vanligt Läge',
         caption: 'Vanligt Läge med djurtema — varje symbol gömmer en unik siffra',
       },
       {
-        src: '/samples/swedish/code%20addition/image_addition_worksheet%20(1).webp',
+        src: '/samples/swedish/code%20addition/image-addition-worksheet%20-1.webp',
         alt: 'Kodadditions arbetsblad i Ord Avslöjande-läge med matbilder',
         caption: 'Ord Avslöjande-läge — lös ekvationer för att stava ut ett hemligt ord',
       },
       {
-        src: '/samples/swedish/code%20addition/image_addition_worksheet%20(2).webp',
+        src: '/samples/swedish/code%20addition/image-addition-worksheet%20-2.webp',
         alt: 'Kryptaritmetik pusselarbetsblad med blandade addender och dekorativ ram',
         caption: 'Blandade addender med ramdekorationför produktfärdig utmatning',
       },

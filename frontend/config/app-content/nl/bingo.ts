@@ -225,32 +225,32 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/bingo/Plaatjesbingo%201.webp',
+      primary: '/samples/dutch/bingo/plaatjesbingo%201.webp',
       primaryAlt: 'Plaatjesbingokaart met thematische afbeeldingen in een rasterindeling en ronde fiches met gestreepte randen eronder',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/bingo/Plaatjesbingo%202.webp',
+        src: '/samples/dutch/bingo/plaatjesbingo%202.webp',
         alt: 'Plaatjesbingokaart met afbeeldingsvulling die kleurrijke thematische illustraties toont in rastervakjes en ronde afbeeldingsfiches',
         caption: 'Afbeeldingsvulling — kleurrijke illustraties in zowel kaartvakjes als ronde fiches',
       },
       {
-        src: '/samples/dutch/bingo/Plaatjesbingo%203.webp',
+        src: '/samples/dutch/bingo/plaatjesbingo%203.webp',
         alt: 'Plaatjesbingokaart met thematische afbeeldingen in een configureerbaar raster met achtergrond- en kaderthema',
         caption: 'Configureerbaar raster met achtergrond- en kaderthema voor professionele vormgeving',
       },
       {
-        src: '/samples/dutch/bingo/Plaatjesbingo%201%20callout.webp',
+        src: '/samples/dutch/bingo/plaatjesbingo%201%20callout.webp',
         alt: 'Bingo-afroepblad met dynamisch woordraster dat alle spelitems toont voor de afroeper',
         caption: 'Afroepblad — dynamisch woordraster voor de persoon die het bingospel leidt',
       },
       {
-        src: '/samples/dutch/bingo/Plaatjesbingo%202%20callout%20(1).webp',
+        src: '/samples/dutch/bingo/plaatjesbingo%202%20callout%20-1.webp',
         alt: 'Tweede bingo-afroepblad met alle unieke woorden uit de afbeeldingenpool in een gecentreerd raster',
         caption: 'Afroepblad met uniforme lettergrootte en kolommen berekend op de langste woordlengte',
       },
       {
-        src: '/samples/dutch/bingo/Plaatjesbingo%204.webp',
+        src: '/samples/dutch/bingo/plaatjesbingo%204.webp',
         alt: 'Plaatjesbingokaart met vierde thematische variant die de diversiteit van de 104 beschikbare beeldcollecties toont',
         caption: 'Thematische variatie — 104 beeldcollecties voor eindeloze bingocombinaties',
       },

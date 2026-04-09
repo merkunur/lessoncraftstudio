@@ -178,10 +178,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Bilingual word search worksheet showing dual-language vocabulary for Etsy sales' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Bilingual word search worksheet showing dual-language vocabulary for Etsy sales' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle for bilingual worksheet set', caption: 'Word search puzzles in two languages create effective bilingual learning products' },
-      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching worksheet for bilingual vocabulary building', caption: 'Matching worksheets connect vocabulary across languages for ESL learners' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Word search puzzle for bilingual worksheet set', caption: 'Word search puzzles in two languages create effective bilingual learning products' },
+      { src: '/samples/english/matching/image-and-custom-word.webp', alt: 'Matching worksheet for bilingual vocabulary building', caption: 'Matching worksheets connect vocabulary across languages for ESL learners' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles',

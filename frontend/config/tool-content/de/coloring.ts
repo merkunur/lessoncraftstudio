@@ -217,22 +217,22 @@ const content: ToolContent = {  seo: {
 
   visuals: {
     heroImages: {
-      primary: '/samples/german/coloring/coloring portrait 1.webp',
+      primary: '/samples/german/coloring/coloring-portrait-1.webp',
       primaryAlt: 'Individuelle Malvorlage auf freier Arbeitsfläche mit Schwarzweiß-Umrisszeichnungen in origineller Komposition mit dekorativem Rahmen',
     },
     sampleGallery: [
       {
-        src: '/samples/german/coloring/coloring portrait 2.webp',
+        src: '/samples/german/coloring/coloring-portrait-2.webp',
         alt: 'Tierthemen-Malvorlage mit mehreren Illustrationen auf freier Arbeitsfläche arrangiert für kreative Layoutmöglichkeiten',
         caption: 'Tierthemen-Malvorlage — Freiform-Layout mit mehreren Illustrationen in einzigartiger Komposition',
       },
       {
-        src: '/samples/german/coloring/coloring portrait 3.webp',
+        src: '/samples/german/coloring/coloring-portrait-3.webp',
         alt: 'Produkterstellungsfertige Malvorlage mit Namensfeld und Handschrift-Übungslinien durch Ein-Klick-Shop-Helfer',
         caption: 'Shop-Aktivitätsblatt — Namensfeld und Handschrift-Linien verwandeln Malvorlagen in strukturierte Lernaktivitäten',
       },
       {
-        src: '/samples/german/coloring/coloring landscape 1.webp',
+        src: '/samples/german/coloring/coloring-landscape-1.webp',
         alt: 'Graustufen-Malvorlagen-Export mit tintenschonender Konvertierung für KDP-Innenteile und Shopdruck',
         caption: 'Graustufen-Export — farbenfrohe Kompositionen werden in tintenschonende Malvorlagen für KDP-Innenteile und Massendruck umgewandelt',
       },

@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/picture sort/Bilder Sortieren 1.webp', alt: 'Zwei-Kategorien-Sortier-Arbeitsblatt mit gestrichelten Kategorierahmen und gemischtem Ausschneideraster für Klassifizierungsaktivitäten' },
+    heroImage: { src: '/samples/german/picture sort/bilder-sortieren-1.webp', alt: 'Zwei-Kategorien-Sortier-Arbeitsblatt mit gestrichelten Kategorierahmen und gemischtem Ausschneideraster für Klassifizierungsaktivitäten' },
     samples: [
-      { src: '/samples/german/picture sort/Bilder Sortieren 1.webp', alt: 'Bilder-Sortieren-Arbeitsblatt mit zwei nebeneinander liegenden Kategorierahmen und gemischtem Ausschneideraster darunter', caption: 'Zwei-Kategorien-Sortier-Arbeitsblatt mit nebeneinander liegenden Kategorierahmen und gemischtem Ausschneideraster' },
-      { src: '/samples/german/picture sort/Bilder Sortieren 1 answer_key.webp', alt: 'Automatisch generierter Lösungsschlüssel mit vergrößerten Bildern in den richtigen Kategorieboxen sortiert', caption: 'Automatisch generierter Lösungsschlüssel mit Bildern in sechsfacher Ausschneideraster-Zellgröße' },
+      { src: '/samples/german/picture sort/bilder-sortieren-1.webp', alt: 'Bilder-Sortieren-Arbeitsblatt mit zwei nebeneinander liegenden Kategorierahmen und gemischtem Ausschneideraster darunter', caption: 'Zwei-Kategorien-Sortier-Arbeitsblatt mit nebeneinander liegenden Kategorierahmen und gemischtem Ausschneideraster' },
+      { src: '/samples/german/picture sort/bilder-sortieren-1-answer-key.webp', alt: 'Automatisch generierter Lösungsschlüssel mit vergrößerten Bildern in den richtigen Kategorieboxen sortiert', caption: 'Automatisch generierter Lösungsschlüssel mit Bildern in sechsfacher Ausschneideraster-Zellgröße' },
     ],
     youtubeId: '9kzmlABtNVQ',
     videoTitle: 'So erstellen Sie Kategoriesortierung-Arbeitsblätter — Komplettes Tutorial',

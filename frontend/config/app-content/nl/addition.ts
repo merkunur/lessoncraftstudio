@@ -225,22 +225,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/dutch/addition/Optellen%20is%20Leuk%201.webp',
+      primary: '/samples/dutch/addition/optellen%20is%20leuk%201.webp',
       primaryAlt: 'Optelwerkblad met kleurrijke dierenafbeeldingen in Afbeelding + Afbeelding modus',
     },
     sampleGallery: [
       {
-        src: '/samples/dutch/addition/Optellen%20is%20Leuk%202.webp',
+        src: '/samples/dutch/addition/optellen%20is%20leuk%202.webp',
         alt: 'Staand optelwerkblad in Afbeelding + Afbeelding modus met dierenthema',
         caption: 'Afbeelding + Afbeelding modus — gebruikers tellen twee groepen afbeeldingen en schrijven de som op',
       },
       {
-        src: '/samples/dutch/addition/Optellen%20is%20Leuk%203.webp',
+        src: '/samples/dutch/addition/optellen%20is%20leuk%203.webp',
         alt: 'Liggend optelwerkblad in Afbeelding + Getal modus met voedselthema',
         caption: 'Afbeelding + Getal modus — combineert groepen afbeeldingen met getallen voor overgangsvaardigheden',
       },
       {
-        src: '/samples/dutch/addition/Optellen%20is%20Leuk%204.webp',
+        src: '/samples/dutch/addition/optellen%20is%20leuk%204.webp',
         alt: 'Optelwerkblad in Vind de Optelterm modus met voertuigenthema',
         caption: 'Vind de Optelterm modus — gebruikers ontdekken de ontbrekende groep voor vroeg algebraïsch denken',
       },

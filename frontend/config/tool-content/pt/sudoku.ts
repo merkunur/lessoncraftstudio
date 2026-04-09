@@ -213,22 +213,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/sudoku/Sudoku de Imagens 1.webp',
+      primary: '/samples/portuguese/sudoku/sudoku-de-imagens-1.webp',
       primaryAlt: 'Atividade de sudoku com imagens 4×4 com ilustrações temáticas numa quadrícula premium com cores de bloco alternadas em azul e rosa, divisores centrais a negrito e borda exterior índigo com cantos arredondados',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/sudoku/Sudoku de Imagens 2.webp',
+        src: '/samples/portuguese/sudoku/sudoku-de-imagens-2.webp',
         alt: 'Sudoku com imagens de dificuldade Fácil com 4 células vazias e 12 células preenchidas numa quadrícula 4×4 com cores de bloco alternadas',
         caption: 'Dificuldade Fácil — 4 células vazias para principiantes que aprendem lógica de linhas e colunas',
       },
       {
-        src: '/samples/portuguese/sudoku/Sudoku de Imagens 3.webp',
+        src: '/samples/portuguese/sudoku/sudoku-de-imagens-3.webp',
         alt: 'Sudoku com imagens de dificuldade Difícil com 8 células vazias e 8 células preenchidas numa quadrícula 4×4 que requer raciocínio em vários passos',
         caption: 'Dificuldade Difícil — 8 células vazias (metade da quadrícula) que requerem raciocínio lógico em vários passos',
       },
       {
-        src: '/samples/portuguese/sudoku/Sudoku de Imagens 4.webp',
+        src: '/samples/portuguese/sudoku/sudoku-de-imagens-4.webp',
         alt: 'Gabarito de sudoku com imagens mostrando a quadrícula 4×4 completa com as 16 células preenchidas com as imagens corretas',
         caption: 'Gabarito autogerado — quadrícula completa com as 16 células mostrando a colocação correta de imagens',
       },

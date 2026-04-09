@@ -184,11 +184,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Plaatjessudoku werkblad met thema-afbeeldingen dat een 4x4 logicapuzzel voor jonge gebruikers toont' },
+    heroImage: { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Plaatjessudoku werkblad met thema-afbeeldingen dat een 4x4 logicapuzzel voor jonge gebruikers toont' },
     samples: [
-      { src: '/samples/dutch/sudoku/Plaatjes%20Sudoku%201.webp', alt: 'Beeldgebaseerde 4x4 sudokupuzzel met dierenthema voor kleuterkinderen', caption: 'Makkelijke moeilijkheid plaatjessudoku met het boerderijdieren thema en vier lege cellen' },
-      { src: '/samples/dutch/matching/Zoek%20de%20Paren%201.webp', alt: 'Koppelwerkblad met thema-afbeeldingen als aanvulling op sudoku-activiteiten', caption: 'Koppelwerkblad — ideale aanvulling voor een logicapuzzelbundel samen met plaatjessudoku' },
-      { src: '/samples/dutch/odd%20one%20out/Vind%20de%20Vreemde%20Eend%201.webp', alt: 'Vind de vreemde eend werkblad met visuele logicaoefening voor jonge kinderen', caption: 'Vind de vreemde eend — nog een visuele logica-activiteit die goed combineert met plaatjessudoku' },
+      { src: '/samples/dutch/sudoku/plaatjes%20sudoku%201.webp', alt: 'Beeldgebaseerde 4x4 sudokupuzzel met dierenthema voor kleuterkinderen', caption: 'Makkelijke moeilijkheid plaatjessudoku met het boerderijdieren thema en vier lege cellen' },
+      { src: '/samples/dutch/matching/zoek%20de%20paren%201.webp', alt: 'Koppelwerkblad met thema-afbeeldingen als aanvulling op sudoku-activiteiten', caption: 'Koppelwerkblad — ideale aanvulling voor een logicapuzzelbundel samen met plaatjessudoku' },
+      { src: '/samples/dutch/odd%20one%20out/vind%20de%20vreemde%20eend%201.webp', alt: 'Vind de vreemde eend werkblad met visuele logicaoefening voor jonge kinderen', caption: 'Vind de vreemde eend — nog een visuele logica-activiteit die goed combineert met plaatjessudoku' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Hoe Plaatjessudoku Maken — Complete Handleiding',

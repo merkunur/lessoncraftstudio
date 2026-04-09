@@ -207,22 +207,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp',
+      primary: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp',
       primaryAlt: 'Yhteenlaskutehtäväarkki eläinkuvilla, joka näyttää kuvapohjaisia matematiikkaharjoituksia',
     },
     sampleGallery: [
       {
-        src: '/samples/finnish/addition/Hauska%20Yhteenlasku%201.webp',
+        src: '/samples/finnish/addition/hauska%20yhteenlasku%201.webp',
         alt: 'Kuvayhteenlaskutehtäväarkki eläinteemalla, joka näyttää Kuva + Kuva -tilan',
         caption: 'Kuva + Kuva -tila eläinteemalla',
       },
       {
-        src: '/samples/finnish/addition/Hauska%20Yhteenlasku%202.webp',
+        src: '/samples/finnish/addition/hauska%20yhteenlasku%202.webp',
         alt: 'Yhteenlaskutehtäväarkki ruokakuvilla Etsi Yhteenlaskettava -tilassa',
         caption: 'Etsi Yhteenlaskettava -tila ruokateemalla',
       },
       {
-        src: '/samples/finnish/addition/Hauska%20Yhteenlasku%203.webp',
+        src: '/samples/finnish/addition/hauska%20yhteenlasku%203.webp',
         alt: 'Sekoitetun tilan yhteenlaskutehtäväarkki ajoneuvoilla ja koristeellisella kehyksellä',
         caption: 'Sekoitettu tila ajoneuvoilla ja kehyskoristeella',
       },

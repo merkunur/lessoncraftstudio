@@ -265,22 +265,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/norwegian/sudoku/Bilde-Sudoku%201.webp',
+      primary: '/samples/norwegian/sudoku/bilde-sudoku%201.webp',
       primaryAlt: '4×4 bildesudoku arbeidsark med tematiske bilder i et premiumrutenett med alternerende blokkfarger og automatisk generert Bildesudoku-overskrift',
     },
     sampleGallery: [
       {
-        src: '/samples/norwegian/sudoku/Bilde-Sudoku%201.webp',
+        src: '/samples/norwegian/sudoku/bilde-sudoku%201.webp',
         alt: 'Lett vanskelighetsgrad bildesudoku med 4 tomme celler og 12 utfylte celler i et 4×4-rutenett',
         caption: 'Lett vanskelighetsgrad — 4 tomme celler for nybegynnere som laerer rad-og-kolonne-logikk',
       },
       {
-        src: '/samples/norwegian/sudoku/Bilde-Sudoku%202.webp',
+        src: '/samples/norwegian/sudoku/bilde-sudoku%202.webp',
         alt: 'Bildesudoku med et annet tema og middels vanskelighetsgrad',
         caption: 'Tematisk bildesudoku — 104 temaer gir unike puslespillopplevelser for hvert sett',
       },
       {
-        src: '/samples/norwegian/sudoku/Bilde-Sudoku%203.webp',
+        src: '/samples/norwegian/sudoku/bilde-sudoku%203.webp',
         alt: 'Bildesudoku fasit som viser komplett utfylt 4×4-rutenett med alle 16 celler utfylt',
         caption: 'Automatisk generert fasit — komplett utfylt rutenett med alle bilder plassert',
       },

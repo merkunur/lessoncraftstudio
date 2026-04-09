@@ -155,22 +155,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/norwegian/math%20worksheet/Matematikkoppgave%202.webp',
+      src: '/samples/norwegian/math%20worksheet/matematikkoppgave%202.webp',
       alt: 'Profesjonelt mattearbeidsark som demonstrerer rask automatisert oppretting for printbar virksomhetseffektivitet',
     },
     samples: [
       {
-        src: '/samples/norwegian/math%20worksheet/Matematikkoppgave%202.webp',
+        src: '/samples/norwegian/math%20worksheet/matematikkoppgave%202.webp',
         alt: 'Mattearbeidsark som viser automatisert produksjonskvalitet',
         caption: 'Arbeidsarkgeneratorer automatiserer det mest tidkrevende trinnet i printbar produksjon',
       },
       {
-        src: '/samples/norwegian/addition/G%C3%B8y%20Addisjon%201.webp',
+        src: '/samples/norwegian/addition/g%c3%b8y%20addisjon%201.webp',
         alt: 'Addisjonsarbeidsark som demonstrerer batchproduksjon med temavariasjoner',
         caption: 'Batchproduksjon av tematiske variasjoner multipliserer katalogproduksjonen effektivt',
       },
       {
-        src: '/samples/norwegian/wordsearch/Ordleting%201.webp',
+        src: '/samples/norwegian/wordsearch/ordleting%201.webp',
         alt: 'Ordsok-puslespill som viser systematisk innholdsoppretting pa tvers av temaer',
         caption: 'Systematisk variasjon pa tvers av temaer og sprak skalerer katalogvekst',
       },

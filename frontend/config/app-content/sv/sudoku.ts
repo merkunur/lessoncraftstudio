@@ -278,22 +278,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/swedish/sudoku/sudoku_worksheet.webp',
+      primary: '/samples/swedish/sudoku/sudoku-worksheet.webp',
       primaryAlt: '4×4 bildsudoku arbetsblad med tematiska bilder i ett premiumrutnät med alternerande blockfärger och automatiskt genererad Bildsudoku-rubrik',
     },
     sampleGallery: [
       {
-        src: '/samples/swedish/sudoku/sudoku_l%C3%A4tt.webp',
+        src: '/samples/swedish/sudoku/sudoku-l%c3%a4tt.webp',
         alt: 'Lätt svårighet bildsudoku med 4 tomma celler och 12 fyllda celler i ett 4×4-rutnät',
         caption: 'Lätt svårighet — 4 tomma celler för nybörjare som lär sig rad-och-kolumn-logik',
       },
       {
-        src: '/samples/swedish/sudoku/sudoku_sv%C3%A5r.webp',
+        src: '/samples/swedish/sudoku/sudoku-sv%c3%a5r.webp',
         alt: 'Svår svårighet bildsudoku med 8 tomma celler och 8 fyllda celler i ett 4×4-rutnät',
         caption: 'Svår svårighet — 8 tomma celler som kräver flerstegs logiskt resonemang',
       },
       {
-        src: '/samples/swedish/sudoku/sudoku_l%C3%A4tt%20answer_key.webp',
+        src: '/samples/swedish/sudoku/sudoku-l%c3%a4tt%20answer-key.webp',
         alt: 'Bildsudoku facit som visar komplett fyllt 4×4-rutnät med alla 16 celler ifyllda',
         caption: 'Automatiskt genererat facit — komplett fyllt rutnät med alla bilder placerade',
       },

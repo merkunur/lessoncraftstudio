@@ -176,10 +176,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/bingo/bingo_card_1.webp', alt: 'Printable bingo card set with themed images ready for Etsy listing' },
+    heroImage: { src: '/samples/english/bingo/bingo-card-1.webp', alt: 'Printable bingo card set with themed images ready for Etsy listing' },
     samples: [
-      { src: '/samples/english/bingo/bingo_card_1 word.webp', alt: 'Themed picture bingo card with caller sheet for Etsy', caption: 'A unique bingo card from a 30-card set exported at 300 DPI for Etsy product listing' },
-      { src: '/samples/english/matching/image and custom word.webp', alt: 'Matching game companion product for Etsy party bundle', caption: 'Matching games pair naturally with bingo cards in party activity bundles' },
+      { src: '/samples/english/bingo/bingo-card-1-word.webp', alt: 'Themed picture bingo card with caller sheet for Etsy', caption: 'A unique bingo card from a 30-card set exported at 300 DPI for Etsy product listing' },
+      { src: '/samples/english/matching/image-and-custom-word.webp', alt: 'Matching game companion product for Etsy party bundle', caption: 'Matching games pair naturally with bingo cards in party activity bundles' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'How to Create Bingo Cards',

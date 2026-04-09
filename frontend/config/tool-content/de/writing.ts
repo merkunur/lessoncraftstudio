@@ -228,12 +228,12 @@ const content: ToolContent = {
         caption: 'Drei Übungsmodi auf einem Arbeitsblatt — Nachspuren, Verblassendes Nachspuren und Geführte Abschrift mit zeilenweiser Unabhängigkeit',
       },
       {
-        src: '/samples/german/writing/writing beginning letter.webp',
+        src: '/samples/german/writing/writing-beginning-letter.webp',
         alt: 'Schreibübungen-Arbeitsblatt im Nachspur-Modus mit Druckschrift-Pfeil-Schriftstil und nummerierten Strichrichtungspfeilen',
         caption: 'Pfeilgeführte Strichrichtung — nummerierte Richtungspfeile zeigen die exakte Buchstabenformations-Reihenfolge',
       },
       {
-        src: '/samples/german/writing/writing custom.webp',
+        src: '/samples/german/writing/writing-custom.webp',
         alt: 'Schreibübungen-Arbeitsblatt im Verblassenden-Nachspur-Modus mit progressiv verblassenden Buchstaben über jede Zeile',
         caption: 'Verblassendes Nachspuren — Buchstaben verblassen progressiv zum Aufbau eigenständiger Schreibkompetenz',
       },

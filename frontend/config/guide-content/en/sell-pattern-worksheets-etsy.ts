@@ -177,10 +177,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/pattern worksheet/pattern_worksheet (10).webp', alt: 'Pattern recognition worksheet with themed images showing visual pattern completion exercises for Etsy' },
+    heroImage: { src: '/samples/english/pattern worksheet/pattern-worksheet-10.webp', alt: 'Pattern recognition worksheet with themed images showing visual pattern completion exercises for Etsy' },
     samples: [
-      { src: '/samples/english/pattern worksheet/pattern_worksheet (11).webp', alt: 'Pattern worksheet with animal theme showing AB pattern exercises for preschool', caption: 'AB pattern worksheet using the animals theme -- the most popular format for Etsy pattern listings' },
-      { src: '/samples/english/pattern worksheet/pattern_worksheet (10).webp', alt: 'Pattern worksheet showing multiple pattern types with per-exercise configuration', caption: 'Mixed pattern practice worksheet demonstrating per-exercise configuration across different pattern types' },
+      { src: '/samples/english/pattern worksheet/pattern-worksheet-11.webp', alt: 'Pattern worksheet with animal theme showing AB pattern exercises for preschool', caption: 'AB pattern worksheet using the animals theme -- the most popular format for Etsy pattern listings' },
+      { src: '/samples/english/pattern worksheet/pattern-worksheet-10.webp', alt: 'Pattern worksheet showing multiple pattern types with per-exercise configuration', caption: 'Mixed pattern practice worksheet demonstrating per-exercise configuration across different pattern types' },
     ],
     youtubeId: 'W94X5_RA3ug',
     videoTitle: 'How to Create Pattern Worksheets',

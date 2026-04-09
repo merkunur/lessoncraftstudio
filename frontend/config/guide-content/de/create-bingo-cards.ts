@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: 'Thematische Bilder-Bingo-Karten mit farbenfrohem illustriertem Raster und Kontrollkarte für Kinder' },
+    heroImage: { src: '/samples/german/bingo/bilder-bingo-1.webp', alt: 'Thematische Bilder-Bingo-Karten mit farbenfrohem illustriertem Raster und Kontrollkarte für Kinder' },
     samples: [
-      { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: 'Bilder-Bingo-Karte mit Tier-Thema im 4×4-Rasterlayout für den Produkterstellung', caption: 'Eine 4×4 Bilder-Bingo-Karte mit dem Tier-Thema im Nur-Bilder-Anzeigemodus' },
-      { src: '/samples/german/bingo/bilder-bingo 1.webp', alt: 'Bingo-Kontrollkarte mit allen thematischen Bildern des Kartensets', caption: 'Kontrollreferenzkarte mit allen im Bingo-Karten-Set verwendeten Bildern' },
+      { src: '/samples/german/bingo/bilder-bingo-1.webp', alt: 'Bilder-Bingo-Karte mit Tier-Thema im 4×4-Rasterlayout für den Produkterstellung', caption: 'Eine 4×4 Bilder-Bingo-Karte mit dem Tier-Thema im Nur-Bilder-Anzeigemodus' },
+      { src: '/samples/german/bingo/bilder-bingo-1.webp', alt: 'Bingo-Kontrollkarte mit allen thematischen Bildern des Kartensets', caption: 'Kontrollreferenzkarte mit allen im Bingo-Karten-Set verwendeten Bildern' },
     ],
     youtubeId: 'd6AOiDXoK1c',
     videoTitle: 'So erstellen Sie Bingo-Karten mit thematischen Bildern — Komplettes Tutorial',

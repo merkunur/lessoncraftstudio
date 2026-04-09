@@ -263,22 +263,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/drawing lines/Prática de Desenhar Linhas 1.webp',
+      primary: '/samples/portuguese/drawing lines/prática-de-desenhar-linhas-1.webp',
       primaryAlt: 'Atividade de grafomotricidade com modelo de linha curva a ligar pares de imagens de animais emparelhados em formato horizontal',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/drawing lines/Prática de Desenhar Linhas 2.webp',
+        src: '/samples/portuguese/drawing lines/prática-de-desenhar-linhas-2.webp',
         alt: 'Atividade de traçado de linhas com modelo de curva a ligar pares de imagens de animais emparelhados em orientação horizontal',
         caption: 'Modelo de curva — os usuários traçam linhas curvas fluidas para ligar os pares de imagens emparelhadas',
       },
       {
-        src: '/samples/portuguese/drawing lines/Prática de Desenhar Linhas 3.webp',
+        src: '/samples/portuguese/drawing lines/prática-de-desenhar-linhas-3.webp',
         alt: 'Atividade de traçado de linhas com modelo de diagonal a ligar cinco pares de imagens em orientação vertical',
         caption: 'Modelo de diagonal — linhas em ângulo com 5 pares de imagens para prática de coordenação cruzada',
       },
       {
-        src: '/samples/portuguese/drawing lines/Prática de Desenhar Linhas 4.webp',
+        src: '/samples/portuguese/drawing lines/prática-de-desenhar-linhas-4.webp',
         alt: 'Atividade de traçado de linhas com modelo horizontal a ligar pares de imagens de tema natureza em formato vertical',
         caption: 'Modelo horizontal — linhas retas da esquerda para a direita com imagens de tema natureza',
       },

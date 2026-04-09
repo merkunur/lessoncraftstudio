@@ -212,22 +212,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/grid match/Grid Match.webp',
+      primary: '/samples/english/grid match/grid-match.webp',
       primaryAlt: 'Grid matching worksheet with single image divided into tiles, clue cells revealed, and numbered tile palette for spatial reasoning puzzle activity',
     },
     sampleGallery: [
       {
-        src: '/samples/english/grid match/Grid Match (1).webp',
+        src: '/samples/english/grid match/grid-match-1.webp',
         alt: 'Three by three grid matching puzzle with one clue cell visible and eight numbered tiles in shuffled palette for matching',
         caption: '3×3 grid puzzle — one clue cell revealed, eight tiles to match from the numbered palette',
       },
       {
-        src: '/samples/english/grid match/Grid Match (5).webp',
+        src: '/samples/english/grid match/grid-match-5.webp',
         alt: 'Four by four advanced grid matching puzzle with sixteen tiles and minimal clues for challenging visual perception activity',
         caption: '4×4 advanced puzzle — maximum grid size with 16 tiles for challenging spatial reasoning',
       },
       {
-        src: '/samples/english/grid match/Grid Match answer_key.webp',
+        src: '/samples/english/grid match/grid-match-answer-key.webp',
         alt: 'Grid matching answer key showing complete image with numbered yellow circles overlaid on each grid cell indicating correct tile placement',
         caption: 'Auto-generated answer key — numbered circles (#ffffe0) show correct tile placement on complete image',
       },

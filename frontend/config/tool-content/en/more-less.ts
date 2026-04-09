@@ -207,22 +207,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/english/more less/More Less (10).webp',
+      primary: '/samples/english/more less/more-less-10.webp',
       primaryAlt: 'More or less worksheet with image comparison groups showing greater than and less than exercises',
     },
     sampleGallery: [
       {
-        src: '/samples/english/more less/More Less (10).webp',
+        src: '/samples/english/more less/more-less-10.webp',
         alt: 'Image to Image comparison worksheet with animal theme showing two picture groups side by side',
         caption: 'Image to Image mode with animal theme',
       },
       {
-        src: '/samples/english/more less/More Less (12).webp',
+        src: '/samples/english/more less/more-less-12.webp',
         alt: 'Image to Number comparison worksheet bridging visual counting with written numerals',
         caption: 'Image to Number mode — bridges pictures and numerals',
       },
       {
-        src: '/samples/english/more less/More Less (14).webp',
+        src: '/samples/english/more less/more-less-14.webp',
         alt: 'Check and Cross Groups worksheet with mixed shuffled images for sorting and comparing',
         caption: 'Check & Cross Groups — unique sorting and comparison mode',
       },

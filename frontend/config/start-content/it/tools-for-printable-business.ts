@@ -217,12 +217,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento che dimostra la versatilità dello strumento e l\'output della libreria di immagini a tema' },
+    heroImage: { src: '/samples/italian/matching/trova-le-coppie-1.webp', alt: 'Scheda di abbinamento che dimostra la versatilità dello strumento e l\'output della libreria di immagini a tema' },
     samples: [
-      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Scheda di abbinamento che mostra abbinamento immagine-parola con illustrazioni a tema', caption: 'Abbinamento — Strumento Versatile con Più Modalità' },
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Scheda crucipuzzle che dimostra la generazione sensibile alla lingua', caption: 'Crucipuzzle — Generatore di Puzzle Più Popolare' },
-      { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare che mostra la qualità del design senza dipendenza linguistica', caption: 'Colorare — Contenuto Visivo Universale' },
-      { src: '/samples/italian/crossword/Cruciverba con Immagini 1.webp', alt: 'Cruciverba che dimostra le capacità di generazione multilingue', caption: 'Cruciverba — Strumento Puzzle Multilingue' },
+      { src: '/samples/italian/matching/trova-le-coppie-1.webp', alt: 'Scheda di abbinamento che mostra abbinamento immagine-parola con illustrazioni a tema', caption: 'Abbinamento — Strumento Versatile con Più Modalità' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Scheda crucipuzzle che dimostra la generazione sensibile alla lingua', caption: 'Crucipuzzle — Generatore di Puzzle Più Popolare' },
+      { src: '/samples/italian/coloring/coloring-portrait-1.webp', alt: 'Pagina da colorare che mostra la qualità del design senza dipendenza linguistica', caption: 'Colorare — Contenuto Visivo Universale' },
+      { src: '/samples/italian/crossword/cruciverba-con-immagini-1.webp', alt: 'Cruciverba che dimostra le capacità di generazione multilingue', caption: 'Cruciverba — Strumento Puzzle Multilingue' },
     ],
     youtubeId: 'y3ghkjt_67s',
     videoTitle: 'Come Creare Schede di Abbinamento per la Tua Attività di Stampabili — Demo LessonCraftStudio',

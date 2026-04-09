@@ -258,22 +258,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/more less/Mais Menos 1.webp',
+      primary: '/samples/portuguese/more less/mais-menos-1.webp',
       primaryAlt: 'Atividade Mais ou Menos com imagens coloridas de animais mostrando o modo Imagem contra Imagem',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/more less/Mais Menos 2.webp',
+        src: '/samples/portuguese/more less/mais-menos-2.webp',
         alt: 'Atividade de comparação no modo Imagem contra Imagem com tema de animais',
         caption: 'Modo Imagem contra Imagem — os usuários contam dois grupos de imagens e comparam quantidades',
       },
       {
-        src: '/samples/portuguese/more less/Mais Menos 3.webp',
+        src: '/samples/portuguese/more less/mais-menos-3.webp',
         alt: 'Atividade de comparação no modo Imagem contra Número com tema de alimentos',
         caption: 'Modo Imagem contra Número — associa grupos de imagens a números para competências de transição',
       },
       {
-        src: '/samples/portuguese/more less/Mais Menos 4.webp',
+        src: '/samples/portuguese/more less/mais-menos-4.webp',
         alt: 'Atividade de Marcar e Riscar Grupos com imagens misturadas para classificação visual',
         caption: 'Modo Marcar e Riscar Grupos — os usuários encontram o grupo maioritário numa caixa de imagens misturadas',
       },

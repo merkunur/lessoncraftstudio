@@ -208,12 +208,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Exemple de fiche de mots cachés créée avec le générateur LessonCraftStudio' },
+    heroImage: { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Exemple de fiche de mots cachés créée avec le générateur LessonCraftStudio' },
     samples: [
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Fiche imprimable de mots cachés avec thème animaux', caption: 'Mots Cachés — Thème Animaux' },
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition avec problèmes de maths basés sur des images', caption: 'Addition — Problèmes Basés sur des Images' },
-      { src: '/samples/french/coloring/coloring portrait 1.webp', alt: 'Fiche de coloriage avec illustrations thématiques', caption: 'Coloriage — Illustrations Thématiques' },
-      { src: '/samples/french/matching/Trouve les Paires 1.webp', alt: 'Fiche d\'association avec activités de paires visuelles', caption: 'Association — Activité de Paires Visuelles' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Fiche imprimable de mots cachés avec thème animaux', caption: 'Mots Cachés — Thème Animaux' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition avec problèmes de maths basés sur des images', caption: 'Addition — Problèmes Basés sur des Images' },
+      { src: '/samples/french/coloring/coloring-portrait-1.webp', alt: 'Fiche de coloriage avec illustrations thématiques', caption: 'Coloriage — Illustrations Thématiques' },
+      { src: '/samples/french/matching/trouve-les-paires-1.webp', alt: 'Fiche d\'association avec activités de paires visuelles', caption: 'Association — Activité de Paires Visuelles' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Comment Créer des Fiches de Mots Cachés — Démo LessonCraftStudio',

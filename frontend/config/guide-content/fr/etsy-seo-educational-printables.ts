@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés montrant un produit pédagogique imprimable multilingue pour l\'optimisation SEO Etsy' },
+    heroImage: { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés montrant un produit pédagogique imprimable multilingue pour l\'optimisation SEO Etsy' },
     samples: [
-      { src: '/samples/french/wordsearch/Mots Caches 1.webp', alt: 'Puzzle de mots cachés à thème animalier démontrant le ciblage de mots-clés thématiques sur Etsy', caption: 'Mots cachés avec thème animalier — chaque variation de langue et de thème cible différents mots-clés de recherche Etsy' },
-      { src: '/samples/french/addition/Addition Amusant 1.webp', alt: 'Fiche d\'addition à thème animalier ciblant les mots-clés à fort volume pour les imprimables de maths sur Etsy', caption: 'Fiche d\'addition avec thème animalier — cible les mots-clés de fiches de maths à fort volume sur Etsy' },
-      { src: '/samples/french/coloring/coloring portrait 2.webp', alt: 'Page de coloriage animalier illustrant la stratégie de mots-clés thématiques Etsy pour les vendeurs d\'imprimables', caption: 'Page de coloriage avec thème animalier — les mots-clés thématiques génèrent du trafic de recherche Etsy ciblé' },
+      { src: '/samples/french/wordsearch/mots-caches-1.webp', alt: 'Puzzle de mots cachés à thème animalier démontrant le ciblage de mots-clés thématiques sur Etsy', caption: 'Mots cachés avec thème animalier — chaque variation de langue et de thème cible différents mots-clés de recherche Etsy' },
+      { src: '/samples/french/addition/addition-amusant-1.webp', alt: 'Fiche d\'addition à thème animalier ciblant les mots-clés à fort volume pour les imprimables de maths sur Etsy', caption: 'Fiche d\'addition avec thème animalier — cible les mots-clés de fiches de maths à fort volume sur Etsy' },
+      { src: '/samples/french/coloring/coloring-portrait-2.webp', alt: 'Page de coloriage animalier illustrant la stratégie de mots-clés thématiques Etsy pour les vendeurs d\'imprimables', caption: 'Page de coloriage avec thème animalier — les mots-clés thématiques génèrent du trafic de recherche Etsy ciblé' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Comment Créer des Mots Cachés pour le SEO Etsy — Stratégie Produit Multi-Mots-Clés',

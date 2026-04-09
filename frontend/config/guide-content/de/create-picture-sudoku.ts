@@ -186,10 +186,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Bilder-Sudoku-Arbeitsblatt mit thematischen Bildern, das ein 4×4-Logikrätsel für junge Lerner zeigt' },
+    heroImage: { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: 'Bilder-Sudoku-Arbeitsblatt mit thematischen Bildern, das ein 4×4-Logikrätsel für junge Lerner zeigt' },
     samples: [
-      { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Bildbasiertes 4×4-Sudoku-Rätsel mit Tierthema für Vorschulkinder', caption: 'Bilder-Sudoku mit leichter Schwierigkeit im Bauernhoftiere-Thema mit vier leeren Zellen' },
-      { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Bilder-Sudoku-Lösungsschlüssel mit dem vervollständigten 4×4-Raster und allen ausgefüllten Bildern', caption: 'Automatischer Lösungsschlüssel, der zu jedem Bilder-Sudoku-Rätsel generiert wird' },
+      { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: 'Bildbasiertes 4×4-Sudoku-Rätsel mit Tierthema für Vorschulkinder', caption: 'Bilder-Sudoku mit leichter Schwierigkeit im Bauernhoftiere-Thema mit vier leeren Zellen' },
+      { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: 'Bilder-Sudoku-Lösungsschlüssel mit dem vervollständigten 4×4-Raster und allen ausgefüllten Bildern', caption: 'Automatischer Lösungsschlüssel, der zu jedem Bilder-Sudoku-Rätsel generiert wird' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Bilder-Sudoku erstellen — Vollständiges Tutorial',

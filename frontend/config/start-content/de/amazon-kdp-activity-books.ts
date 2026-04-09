@@ -219,12 +219,12 @@ const content: StartContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt-Beispiel für Amazon KDP Aktivitätsbuch-Veröffentlichung' },
+    heroImage: { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt-Beispiel für Amazon KDP Aktivitätsbuch-Veröffentlichung' },
     samples: [
-      { src: '/samples/german/sudoku/sudoku_worksheet.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt für KDP-Aktivitätsbuch-Innenteil', caption: 'Sudoku — Top KDP-Rätselkategorie' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel für Amazon KDP Aktivitätsbuch', caption: 'Wortsuche — KDP-Verkaufsschlager-Kategorie' },
-      { src: '/samples/german/math puzzle/Mathe-Rätsel 1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt für KDP-Arbeitsbuch-Innenteil', caption: 'Mathe-Rätsel — Zeitlose KDP-Nische' },
-      { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel-Arbeitsblatt für KDP-Aktivitätsbuch', caption: 'Kreuzworträtsel — Klassisches Aktivitätsbuch-Format' },
+      { src: '/samples/german/sudoku/sudoku-worksheet.webp', alt: 'Sudoku-Rätsel-Arbeitsblatt für KDP-Aktivitätsbuch-Innenteil', caption: 'Sudoku — Top KDP-Rätselkategorie' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Rätsel für Amazon KDP Aktivitätsbuch', caption: 'Wortsuche — KDP-Verkaufsschlager-Kategorie' },
+      { src: '/samples/german/math puzzle/mathe-rätsel-1.webp', alt: 'Mathe-Rätsel-Arbeitsblatt für KDP-Arbeitsbuch-Innenteil', caption: 'Mathe-Rätsel — Zeitlose KDP-Nische' },
+      { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kreuzworträtsel-Arbeitsblatt für KDP-Aktivitätsbuch', caption: 'Kreuzworträtsel — Klassisches Aktivitätsbuch-Format' },
     ],
     youtubeId: 'bqVioFbkYbA',
     videoTitle: 'Sudoku-Rätsel-Arbeitsblätter erstellen — LessonCraftStudio Demo',

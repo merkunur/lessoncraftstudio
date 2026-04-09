@@ -181,11 +181,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/english/wordsearch/Word Search 10.webp', alt: 'Word search worksheet resource optimized for Gumroad store visibility and sales' },
+    heroImage: { src: '/samples/english/wordsearch/word-search-10.webp', alt: 'Word search worksheet resource optimized for Gumroad store visibility and sales' },
     samples: [
-      { src: '/samples/english/wordsearch/Word Search 11.webp', alt: 'Word search puzzle optimized for Gumroad store catalog growth', caption: 'Word search puzzles are among the most versatile Gumroad resources — create themed seasonal variations for rapid catalog expansion' },
-      { src: '/samples/english/math puzzle/Math Puzzles (10).webp', alt: 'Math puzzle worksheet for Gumroad store differentiation', caption: 'Unique math puzzle formats face lower competition on Gumroad than standard worksheets — a differentiation strategy for crowded categories' },
-      { src: '/samples/english/crossword/crossword_worksheet (10).webp', alt: 'Crossword puzzle activity for Gumroad vocabulary resources', caption: 'Crossword puzzles are high-demand vocabulary activities that buyers search for by subject and grade level on Gumroad' },
+      { src: '/samples/english/wordsearch/word-search-11.webp', alt: 'Word search puzzle optimized for Gumroad store catalog growth', caption: 'Word search puzzles are among the most versatile Gumroad resources — create themed seasonal variations for rapid catalog expansion' },
+      { src: '/samples/english/math puzzle/math-puzzles-10.webp', alt: 'Math puzzle worksheet for Gumroad store differentiation', caption: 'Unique math puzzle formats face lower competition on Gumroad than standard worksheets — a differentiation strategy for crowded categories' },
+      { src: '/samples/english/crossword/crossword-worksheet-10.webp', alt: 'Crossword puzzle activity for Gumroad vocabulary resources', caption: 'Crossword puzzles are high-demand vocabulary activities that buyers search for by subject and grade level on Gumroad' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'How to Create Word Search Puzzles for Your Gumroad Store — Optimization Tutorial',

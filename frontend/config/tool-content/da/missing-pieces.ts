@@ -219,22 +219,22 @@ const content: ToolContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp',
+      primary: '/samples/danish/missing%20pieces/manglende%20dele%201.webp',
       primaryAlt: 'Gratis manglende brikker puslespil med visuel logik og temabilleder — prøv online med vandmærke',
     },
     sampleGallery: [
       {
-        src: '/samples/danish/missing%20pieces/Manglende%20Dele%201.webp',
+        src: '/samples/danish/missing%20pieces/manglende%20dele%201.webp',
         alt: 'Gratis manglende brikker puslespil med firkantede huller og nummererede brikker til visuel logik',
         caption: 'Firkantede brikker — rene geometriske klip med nummererede løsningsalternativer inklusive distraktorer',
       },
       {
-        src: '/samples/danish/missing%20pieces/Manglende%20Dele%202.webp',
+        src: '/samples/danish/missing%20pieces/manglende%20dele%202.webp',
         alt: 'Gratis manglende brikker puslespil med cirkulære huller og distraktorbrikker til logik-øvelse',
         caption: 'Cirkulære brikker — afrundede klip med distraktorer, der forhindrer eliminering',
       },
       {
-        src: '/samples/danish/missing%20pieces/Manglende%20Dele%203.webp',
+        src: '/samples/danish/missing%20pieces/manglende%20dele%203.webp',
         alt: 'Automatisk facit til manglende brikker med gulmarkerede nummertiketter i hvert hul',
         caption: 'Automatisk genereret facit — gulmarkerede etiketter (rgba(255,255,0,0.7)) viser korrekt alternativ for hvert hul',
       },

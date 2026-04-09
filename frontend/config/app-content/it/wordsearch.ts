@@ -266,22 +266,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/italian/wordsearch/Cerca Parole 1.webp',
+      primary: '/samples/italian/wordsearch/cerca-parole-1.webp',
       primaryAlt: 'Scheda cerca parole con parole nascoste in una griglia di lettere e indizi di immagini che mostrano un puzzle di vocabolario',
     },
     sampleGallery: [
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 2.webp',
+        src: '/samples/italian/wordsearch/cerca-parole-2.webp',
         alt: 'Scheda cerca parole in formato verticale con griglia 12×12 e indizi di immagini tematici',
         caption: 'Formato verticale — griglia 12×12 con indizi di immagini tematici e lista di parole',
       },
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 3.webp',
+        src: '/samples/italian/wordsearch/cerca-parole-3.webp',
         alt: 'Scheda cerca parole in formato orizzontale con griglia più grande e parole in diagonale attivate',
         caption: 'Formato orizzontale — griglia più ampia con parole in diagonale e invertite attivate',
       },
       {
-        src: '/samples/italian/wordsearch/Cerca Parole 4.webp',
+        src: '/samples/italian/wordsearch/cerca-parole-4.webp',
         alt: 'Scheda cerca parole usando la modalità lista di parole personalizzata senza immagini',
         caption: 'Modalità Lista di Parole Personalizzata — cerca parole solo testo senza indizi di immagini',
       },

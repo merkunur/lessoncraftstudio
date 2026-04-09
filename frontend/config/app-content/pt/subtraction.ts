@@ -253,22 +253,22 @@ const content: AppContent = {
 
   visuals: {
     heroImages: {
-      primary: '/samples/portuguese/subtraction/Subtrações Divertidas 1.webp',
+      primary: '/samples/portuguese/subtraction/subtrações-divertidas-1.webp',
       primaryAlt: 'Atividade de subtração mostrando a visualização de riscar com cruzes diagonais sobre as imagens subtraídas',
     },
     sampleGallery: [
       {
-        src: '/samples/portuguese/subtraction/Subtrações Divertidas 2.webp',
+        src: '/samples/portuguese/subtraction/subtrações-divertidas-2.webp',
         alt: 'Atividade de subtração no modo Riscar com cruzes sobre as imagens subtraídas',
         caption: 'Modo Riscar — cruzes diagonais mostram que elementos são subtraídos',
       },
       {
-        src: '/samples/portuguese/subtraction/Subtrações Divertidas 3.webp',
+        src: '/samples/portuguese/subtraction/subtrações-divertidas-3.webp',
         alt: 'Atividade de subtração no modo Imagem menos Número com grupos de imagens e números',
         caption: 'Modo Imagem − Número — associa grupos de imagens a números para competências de transição',
       },
       {
-        src: '/samples/portuguese/subtraction/Subtrações Divertidas 4.webp',
+        src: '/samples/portuguese/subtraction/subtrações-divertidas-4.webp',
         alt: 'Atividade de subtração no modo Encontrar o Subtraendo desafiando os usuários a encontrar o valor em falta',
         caption: 'Modo Encontrar o Subtraendo — os usuários determinam quantos foram retirados',
       },

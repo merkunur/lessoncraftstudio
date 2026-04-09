@@ -192,11 +192,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/italian/coloring/coloring portrait 1.webp', alt: 'Pagina da colorare stampabile per vendere risorse educative sul marketplace Creative Fabrica' },
+    heroImage: { src: '/samples/italian/coloring/coloring-portrait-1.webp', alt: 'Pagina da colorare stampabile per vendere risorse educative sul marketplace Creative Fabrica' },
     samples: [
-      { src: '/samples/italian/coloring/coloring portrait 2.webp', alt: 'Pagina da colorare stampabile per la sezione Classroom di Creative Fabrica', caption: 'Le pagine da colorare colmano il divario tra craft e educazione su Creative Fabrica — attraendo sia il pubblico designer che quello dei venditori' },
-      { src: '/samples/italian/matching/Trova le Coppie 1.webp', alt: 'Attività di abbinamento per prodotti educativi Creative Fabrica', caption: 'Le attività di abbinamento tematiche sono risorse molto richieste nella sezione Classroom di Creative Fabrica' },
-      { src: '/samples/italian/wordsearch/Cerca Parole 1.webp', alt: 'Puzzle cerca parole stampabile per il marketplace Creative Fabrica', caption: 'I puzzle cerca parole attraggono download in abbonamento sia da imprenditori che da genitori su Creative Fabrica' },
+      { src: '/samples/italian/coloring/coloring-portrait-2.webp', alt: 'Pagina da colorare stampabile per la sezione Classroom di Creative Fabrica', caption: 'Le pagine da colorare colmano il divario tra craft e educazione su Creative Fabrica — attraendo sia il pubblico designer che quello dei venditori' },
+      { src: '/samples/italian/matching/trova-le-coppie-1.webp', alt: 'Attività di abbinamento per prodotti educativi Creative Fabrica', caption: 'Le attività di abbinamento tematiche sono risorse molto richieste nella sezione Classroom di Creative Fabrica' },
+      { src: '/samples/italian/wordsearch/cerca-parole-1.webp', alt: 'Puzzle cerca parole stampabile per il marketplace Creative Fabrica', caption: 'I puzzle cerca parole attraggono download in abbonamento sia da imprenditori che da genitori su Creative Fabrica' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Come Creare Schede Educative per Creative Fabrica',

@@ -176,22 +176,22 @@ const content: GuideContent = {
 
   visuals: {
     heroImage: {
-      src: '/samples/english/bingo/bingo_card.webp',
+      src: '/samples/english/bingo/bingo-card.webp',
       alt: 'Professionellt bingokort som demonstrerar visuellt tilltalande utskriftsbara produkter ideala för marknadsföring i sociala medier',
     },
     samples: [
       {
-        src: '/samples/english/bingo/bingo_card.webp',
+        src: '/samples/english/bingo/bingo-card.webp',
         alt: 'Bingokort som visar mycket delbar utskriftsbar produkt för sociala medier-innehåll',
         caption: 'Visuellt tilltalande produkter som bingokort skapar övertygande innehåll för sociala medier som driver engagemang',
       },
       {
-        src: '/samples/english/coloring/coloring portrait 1.webp',
+        src: '/samples/english/coloring/coloring-portrait-1.webp',
         alt: 'Målarbok som demonstrerar fotogenisk utskriftsbar produkt för Instagram och Pinterest',
         caption: 'Målarbilder fotograferas vackert för flat lay-produktvisningar på visuella plattformar',
       },
       {
-        src: '/samples/english/wordsearch/wordsearch portrait.webp',
+        src: '/samples/english/wordsearch/wordsearch-portrait.webp',
         alt: 'Ordsökspussel som visar populär utskriftsbar produkttyp med stark attraktionskraft i sociala medier',
         caption: 'Ordsökspussel attraherar brett publikengagemang och presterar bra på sociala medieplattformar',
       },

@@ -189,11 +189,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/addition/addition_worksheet.webp', alt: 'Additions-Arbeitsblatt als Kernkomponente praktischer Druckvorlagen-Pakete für Etsy-Verkäufer' },
+    heroImage: { src: '/samples/german/addition/addition-worksheet.webp', alt: 'Additions-Arbeitsblatt als Kernkomponente praktischer Druckvorlagen-Pakete für Etsy-Verkäufer' },
     samples: [
-      { src: '/samples/german/addition/Additionsspa 1.webp', alt: 'Tier-thematisiertes Additions-Arbeitsblatt als Mathe-Paket-Komponente für Etsy', caption: 'Additions-Arbeitsblatt mit Tier-Thema — eine Kernkomponente für Mathe-Fachpakete auf Etsy' },
+      { src: '/samples/german/addition/additionsspa-1.webp', alt: 'Tier-thematisiertes Additions-Arbeitsblatt als Mathe-Paket-Komponente für Etsy', caption: 'Additions-Arbeitsblatt mit Tier-Thema — eine Kernkomponente für Mathe-Fachpakete auf Etsy' },
       { src: '/samples/german/subtraction/worksheet.webp', alt: 'Tier-thematisiertes Subtraktions-Arbeitsblatt als Ergänzung zur Addition in Etsy-Mathe-Paketen', caption: 'Subtraktions-Arbeitsblatt mit Tier-Thema — ergänzt Additions-Arbeitsblätter für komplette Mathe-Pakete' },
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Tier-Wortsuche-Rätsel für kategorieübergreifende Vielfalt in Etsy-Arbeitsblatt-Paketen', caption: 'Wortsuche-Rätsel mit Tier-Thema — fügt Lese-Wert zu kategorieübergreifenden Themenpaketen hinzu' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Tier-Wortsuche-Rätsel für kategorieübergreifende Vielfalt in Etsy-Arbeitsblatt-Paketen', caption: 'Wortsuche-Rätsel mit Tier-Thema — fügt Lese-Wert zu kategorieübergreifenden Themenpaketen hinzu' },
     ],
     youtubeId: '6O5aCzHkh8M',
     videoTitle: 'Additions-Arbeitsblätter für Etsy-Pakete erstellen — Multi-Produkt-Paket-Strategie',

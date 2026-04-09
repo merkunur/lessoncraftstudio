@@ -186,11 +186,11 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Wortsuche-Rätsel mit thematischem Vokabular-Gitter, das versteckte Wörter zum Verkauf auf Etsy zeigt' },
+    heroImage: { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Wortsuche-Rätsel mit thematischem Vokabular-Gitter, das versteckte Wörter zum Verkauf auf Etsy zeigt' },
     samples: [
-      { src: '/samples/german/wordsearch/Worter suchen 1.webp', alt: 'Tier-thematisches Wortsuche-Rätsel, erstellt für Etsy digitalen Download', caption: 'Wortsuche-Rätsel mit Tier-Vokabular-Thema — gitterbasiertes Format, das auffällige Etsy-Angebotsfotos erzeugt' },
-      { src: '/samples/german/crossword/crossword_worksheet.webp', alt: 'Kreuzworträtsel als Ergänzung zu Wortsuche-Produkten in einem Etsy-Rätsel-Shop', caption: 'Kreuzworträtsel — natürlicher Cross-Sell-Begleiter zu Wortsuche-Angeboten in Ihrem Etsy-Shop' },
-      { src: '/samples/german/word scramble/Buchstabensala 2.webp', alt: 'Buchstabensalat-Rätsel, das ein ergänzendes Format für Etsy-Rätselbündel zeigt', caption: 'Buchstabensalat-Rätsel — schnelle Vokabelaktivität, die Multi-Format-Bündeln Vielfalt hinzufügt' },
+      { src: '/samples/german/wordsearch/worter-suchen-1.webp', alt: 'Tier-thematisches Wortsuche-Rätsel, erstellt für Etsy digitalen Download', caption: 'Wortsuche-Rätsel mit Tier-Vokabular-Thema — gitterbasiertes Format, das auffällige Etsy-Angebotsfotos erzeugt' },
+      { src: '/samples/german/crossword/crossword-worksheet.webp', alt: 'Kreuzworträtsel als Ergänzung zu Wortsuche-Produkten in einem Etsy-Rätsel-Shop', caption: 'Kreuzworträtsel — natürlicher Cross-Sell-Begleiter zu Wortsuche-Angeboten in Ihrem Etsy-Shop' },
+      { src: '/samples/german/word scramble/buchstabensala-2.webp', alt: 'Buchstabensalat-Rätsel, das ein ergänzendes Format für Etsy-Rätselbündel zeigt', caption: 'Buchstabensalat-Rätsel — schnelle Vokabelaktivität, die Multi-Format-Bündeln Vielfalt hinzufügt' },
     ],
     youtubeId: '36keBFzJbPo',
     videoTitle: 'Wortsuche-Rätsel zum Verkauf auf Etsy erstellen — Schritt-für-Schritt-Anleitung',

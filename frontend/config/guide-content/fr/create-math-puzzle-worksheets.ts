@@ -189,10 +189,10 @@ const content: GuideContent = {
   ],
 
   visuals: {
-    heroImage: { src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 1.webp', alt: 'Fiche de puzzle mathématique montrant des pièces d\'image mélangées avec des équations pour les enfants à résoudre et reconstituer' },
+    heroImage: { src: '/samples/french/math puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche de puzzle mathématique montrant des pièces d\'image mélangées avec des équations pour les enfants à résoudre et reconstituer' },
     samples: [
-      { src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 1.webp', alt: 'Fiche de puzzle mathématique avec thème espace montrant grille d\'équations et fragments d\'image numérotés', caption: 'Fiche de puzzle mathématique — les enfants résolvent les équations pour déterminer où chaque pièce d\'image numérotée appartient dans la grille' },
-      { src: '/samples/french/math puzzle/Casse-Têtes Mathématiques 1.webp', alt: 'Corrigé de puzzle mathématique montrant l\'image reconstituée avec les équations résolues', caption: 'Corrigé automatique montrant l\'image reconstituée à 30 % d\'opacité avec les équations complètement résolues' },
+      { src: '/samples/french/math puzzle/casse-têtes-mathématiques-1.webp', alt: 'Fiche de puzzle mathématique avec thème espace montrant grille d\'équations et fragments d\'image numérotés', caption: 'Fiche de puzzle mathématique — les enfants résolvent les équations pour déterminer où chaque pièce d\'image numérotée appartient dans la grille' },
+      { src: '/samples/french/math puzzle/casse-têtes-mathématiques-1.webp', alt: 'Corrigé de puzzle mathématique montrant l\'image reconstituée avec les équations résolues', caption: 'Corrigé automatique montrant l\'image reconstituée à 30 % d\'opacité avec les équations complètement résolues' },
     ],
     youtubeId: 'n5QO39Lq5l8',
     videoTitle: 'Comment créer des fiches de puzzles mathématiques — Tutoriel complet',

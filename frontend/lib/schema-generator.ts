@@ -286,7 +286,15 @@ export function generateHomepageSchemas(locale: string, baseUrl: string = getBas
       "datePublished": "2024-06-01",
       "dateModified": "2026-02-09",
       "mainEntity": { "@id": `${baseUrl}/${locale}/#software` },
-      "primaryImageOfPage": { "@id": `${baseUrl}/#logo` },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": `${baseUrl}${encodeImagePath(getHomepageScreenshots(locale, baseUrl)[0])}`,
+        "contentUrl": `${baseUrl}${encodeImagePath(getHomepageScreenshots(locale, baseUrl)[0])}`,
+        "caption": pageMeta.name,
+        "width": 2480,
+        "height": 3508,
+        "encodingFormat": "image/webp"
+      },
       "speakable": getSpeakableSpecification()
     };
     schemas.push(webPageSchema);
@@ -851,8 +859,8 @@ export function generateShowcaseImageSchemas(
       name: alt,
       caption: alt,
       encodingFormat: 'image/webp',
-      width: 400,
-      height: 566,
+      width: 2480,
+      height: 3508,
       license: `${baseUrl}/${locale}/license`,
       acquireLicensePage: pageUrl,
       creditText: 'LessonCraftStudio',
@@ -880,4 +888,46 @@ export function generateShowcaseImageSchemas(
   }
 
   return schemas;
+}
+
+/**
+ * Generate ImageGallery JSON-LD schema for sample worksheet gallery sections.
+ * Wraps sample images in a structured gallery for richer Google Image results.
+ */
+export function generateImageGallerySchema(
+  images: Array<{ src: string; alt: string; caption?: string }>,
+  galleryName: string,
+  locale: string,
+  pageUrl: string,
+): object | null {
+  if (!images || images.length === 0) return null;
+  const baseUrl = getBaseUrl();
+
+  const imageObjects = images.map((img, i) => ({
+    '@type': 'ImageObject' as const,
+    contentUrl: `${baseUrl}${encodeImagePath(img.src)}`,
+    name: img.alt,
+    caption: img.caption || img.alt,
+    encodingFormat: 'image/webp',
+    width: 2480,
+    height: 3508,
+    license: `${baseUrl}/${locale}/license`,
+    acquireLicensePage: pageUrl,
+    creditText: 'LessonCraftStudio',
+    creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
+    copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
+    copyrightNotice: '\u00a9 LessonCraftStudio',
+    ...(i === 0 && { representativeOfPage: true }),
+  }));
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ImageGallery',
+    '@id': `${pageUrl}#image-gallery`,
+    name: galleryName,
+    url: `${pageUrl}#samples`,
+    numberOfItems: images.length,
+    image: imageObjects,
+    inLanguage: getHreflangCode(locale),
+  };
 }

@@ -9,7 +9,7 @@ import {
   getIdeaSlugForLocale,
 } from '@/config/idea-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas, generateImageGallerySchema } from '@/lib/schema-generator';
 import { getIdeaFallbackDescription } from '@/lib/localized-meta-fallback';
 import { getIdeaContent } from '@/config/idea-content';
 import { getSectionLabel } from '@/config/section-labels';
@@ -404,16 +404,30 @@ export default async function IdeaPage({
                 name: img.alt,
                 caption: img.caption || img.alt,
                 encodingFormat: 'image/webp',
+                width: 2480,
+                height: 3508,
                 license: `${baseUrl}/${locale}/license`,
                 acquireLicensePage: pageUrl,
                 creditText: 'LessonCraftStudio',
                 creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
                 copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
-                copyrightNotice: '© LessonCraftStudio',
+                copyrightNotice: '\u00a9 LessonCraftStudio',
               }))
             ) }}
           />
         )}
+        {/* ImageGallery schema for theme images */}
+        {(() => {
+          const gallerySchema = generateImageGallerySchema(
+            (content.themeImages || []).slice(0, 6),
+            `${content.hero.title} - Sample Worksheets`,
+            locale,
+            pageUrl,
+          );
+          return gallerySchema ? (
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gallerySchema) }} />
+          ) : null;
+        })()}
         {/* ImageObject schemas for showcase images (hero, tiered, spotlight, gallery) */}
         {(() => {
           const themeUrls = new Set((content.themeImages || []).slice(0, 6).map(img => `${baseUrl}${encodeImagePath(img.src)}`));

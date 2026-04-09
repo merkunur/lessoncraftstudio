@@ -80,6 +80,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       { path: '/contact', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/license', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/about', priority: 0.5, changeFreq: 'monthly' as const },
+      { path: '/gallery', priority: 0.6, changeFreq: 'weekly' as const },
     ];
 
     const routes: MetadataRoute.Sitemap = [];

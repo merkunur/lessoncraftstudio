@@ -10,7 +10,7 @@ import {
   bundlePageSlugs,
 } from '@/config/bundle-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas, generateImageGallerySchema } from '@/lib/schema-generator';
 import { getBundleFallbackDescription } from '@/lib/localized-meta-fallback';
 import { getBundleContent } from '@/config/bundle-content';
 import { getBundleTierComparison } from '@/config/app-content/tier-comparison';
@@ -248,8 +248,8 @@ export default async function BundlePage({
                 name: img.alt,
                 caption: img.caption || img.alt,
                 encodingFormat: 'image/webp',
-                width: 400,
-                height: 566,
+                width: 2480,
+                height: 3508,
                 license: `${baseUrl}/${locale}/license`,
                 acquireLicensePage: pageUrl,
                 creditText: 'LessonCraftStudio',
@@ -260,6 +260,18 @@ export default async function BundlePage({
             ) }}
           />
         )}
+        {/* ImageGallery schema for sample worksheet gallery */}
+        {(() => {
+          const gallerySchema = generateImageGallerySchema(
+            (content.visuals?.sampleGallery || []).slice(0, 6),
+            `${content.hero.title} Sample Worksheets`,
+            locale,
+            pageUrl,
+          );
+          return gallerySchema ? (
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gallerySchema) }} />
+          ) : null;
+        })()}
         {/* ImageObject schemas for showcase images (hero, tiered, spotlight, gallery) */}
         {(() => {
           const galleryUrls = new Set((content.visuals?.sampleGallery || []).slice(0, 6).map((img: { src: string }) => `${baseUrl}${encodeImagePath(img.src)}`));

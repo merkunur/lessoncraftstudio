@@ -9,7 +9,7 @@ import {
   getGuideSlugForLocale,
 } from '@/config/guide-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas, generateImageGallerySchema } from '@/lib/schema-generator';
 import { getGuideFallbackDescription } from '@/lib/localized-meta-fallback';
 import { getGuideContent } from '@/config/guide-content';
 import { getSectionLabel } from '@/config/section-labels';
@@ -272,6 +272,19 @@ export default async function GuidePage({
                 }))
               ) }}
             />
+          ) : null;
+        })()}
+        {/* ImageGallery schema for sample worksheet gallery */}
+        {(() => {
+          const allImages = [...(content.visuals?.samples || []), ...(content.themeImages || [])].slice(0, 6);
+          const gallerySchema = generateImageGallerySchema(
+            allImages,
+            `${content.hero.title} - Sample Worksheets`,
+            locale,
+            pageUrl,
+          );
+          return gallerySchema ? (
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gallerySchema) }} />
           ) : null;
         })()}
         {/* ImageObject schemas for showcase images (hero, tiered, spotlight, gallery) */}

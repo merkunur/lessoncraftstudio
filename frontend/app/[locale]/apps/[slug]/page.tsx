@@ -8,7 +8,7 @@ import {
   getSlugForLocale,
 } from '@/config/product-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, getHreflangCode, generateVideoSchema, generateShowcaseImageSchemas } from '@/lib/schema-generator';
+import { ogLocaleMap, getHreflangCode, generateVideoSchema, generateShowcaseImageSchemas, generateImageGallerySchema } from '@/lib/schema-generator';
 import { getAppFallbackDescription } from '@/lib/localized-meta-fallback';
 import { ALL_APPS, APP_CATEGORIES, type AppId, type CategoryId } from '@/config/products';
 import BuyButton from '@/components/BuyButton';
@@ -1179,18 +1179,30 @@ export default async function AppDetailPage({
                 name: img.alt,
                 caption: img.caption || img.alt,
                 encodingFormat: 'image/webp',
-                width: 400,
-                height: 566,
+                width: 2480,
+                height: 3508,
                 license: `${baseUrl}/${locale}/license`,
                 acquireLicensePage: pageUrl,
                 creditText: 'LessonCraftStudio',
                 creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
                 copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
-                copyrightNotice: '© LessonCraftStudio',
+                copyrightNotice: '\u00a9 LessonCraftStudio',
               }))
             ) }}
           />
         )}
+        {/* ImageGallery schema for sample worksheet gallery */}
+        {(() => {
+          const gallerySchema = generateImageGallerySchema(
+            content.visuals.sampleGallery.slice(0, 6),
+            `${localizedName} Sample Worksheets`,
+            locale,
+            pageUrl,
+          );
+          return gallerySchema ? (
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gallerySchema) }} />
+          ) : null;
+        })()}
         {/* ImageObject schemas for showcase images (hero, tiered, spotlight, gallery) */}
         {(() => {
           const galleryUrls = new Set(content.visuals.sampleGallery.slice(0, 6).map(img => `${baseUrl}${encodeImagePath(img.src)}`));

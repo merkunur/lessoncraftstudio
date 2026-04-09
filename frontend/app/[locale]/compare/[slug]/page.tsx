@@ -9,10 +9,12 @@ import {
   getCompareSlugForLocale,
 } from '@/config/compare-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode, generateImageGallerySchema } from '@/lib/schema-generator';
 import { getCompareContent } from '@/config/compare-content';
 import { getSectionLabel } from '@/config/section-labels';
 import { isValidInternalLink } from '@/lib/resolve-internal-link';
+import { encodeImagePath } from '@/lib/encode-image-path';
+import { imgUrl } from '@/config/showcase-i18n';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -45,6 +47,9 @@ export async function generateMetadata({
       ? [content.seo.primaryKeyword, ...(content.seo.secondaryKeywords || []), ...(content.seo.lsiKeywords || [])]
       : undefined;
 
+    // Use representative sample worksheet images for og:image
+    const sampleImageUrl = `${baseUrl}${encodeImagePath(imgUrl('wordsearch', 'Word Search 1.webp', locale))}`;
+
     return {
       title,
       description,
@@ -62,6 +67,7 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [
+          { url: sampleImageUrl, width: 2480, height: 3508, alt: `${title} - Sample Worksheet` },
           { url: `${baseUrl}/api/og?locale=${locale}&type=compare&title=${encodeURIComponent(title)}`, width: 1200, height: 630, alt: title },
         ],
       },
@@ -69,7 +75,7 @@ export async function generateMetadata({
         card: 'summary_large_image',
         title,
         description,
-        images: [`${baseUrl}/api/og?locale=${locale}&type=compare&title=${encodeURIComponent(title)}`],
+        images: [sampleImageUrl],
       },
     };
   } catch {
@@ -94,6 +100,14 @@ export default async function ComparePage({
     const localeSlug = getCompareSlugForLocale(config.compareId, locale);
     const pageUrl = `${baseUrl}/${locale}/compare/${localeSlug || slug}`;
 
+    // Representative sample images for this comparison page
+    const compareSampleImages = [
+      imgUrl('wordsearch', 'Word Search 1.webp', locale),
+      imgUrl('addition', 'Addition Fun 1.webp', locale),
+      imgUrl('coloring', 'coloring portrait 1.webp', locale),
+    ];
+    const primarySampleUrl = `${baseUrl}${encodeImagePath(compareSampleImages[0])}`;
+
     const articleSchema = {
       '@context': 'https://schema.org',
       '@type': 'Article',
@@ -101,7 +115,7 @@ export default async function ComparePage({
       headline: content.hero.title,
       description: content.hero.description,
       url: pageUrl,
-      image: `${baseUrl}/api/og?locale=${locale}&type=compare&title=${encodeURIComponent(content.hero.title)}`,
+      image: compareSampleImages.map(src => `${baseUrl}${encodeImagePath(src)}`),
       inLanguage: getHreflangCode(locale),
       publisher: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
       author: { '@type': 'Organization', name: 'LessonCraftStudio', url: baseUrl },
@@ -131,20 +145,33 @@ export default async function ComparePage({
       isPartOf: { '@type': 'WebSite', '@id': `${baseUrl}/#website` },
       primaryImageOfPage: {
         '@type': 'ImageObject',
-        url: articleSchema.image,
-        contentUrl: articleSchema.image,
+        url: primarySampleUrl,
+        contentUrl: primarySampleUrl,
         caption: content.hero.title,
-        width: 1200,
-        height: 630,
+        width: 2480,
+        height: 3508,
+        encodingFormat: 'image/webp',
       },
       mainEntity: { '@id': `${pageUrl}#article` },
       inLanguage: getHreflangCode(locale),
     };
 
+    // ImageGallery schema for sample worksheets
+    const gallerySchema = generateImageGallerySchema(
+      compareSampleImages.map(src => ({
+        src,
+        alt: `${content.hero.title} - Sample Worksheet`,
+      })),
+      `${content.hero.title} - LessonCraftStudio Samples`,
+      locale,
+      pageUrl,
+    );
+
     const schemas: object[] = [webPageSchema, articleSchema, breadcrumbSchema];
     if (content.faq?.length) {
       schemas.push(generateFAQSchema(content.faq, locale, pageUrl));
     }
+    if (gallerySchema) schemas.push(gallerySchema);
 
     const linkTypeToPath = (pageType: string) => {
       switch (pageType) {
@@ -183,6 +210,22 @@ export default async function ComparePage({
               <p className="text-lg text-indigo-600 font-medium mb-4">{content.hero.tagline}</p>
             )}
             <p className="text-lg text-gray-600">{content.hero.description}</p>
+            {/* Sample worksheet images — SSR for Google Image discovery */}
+            <div className="grid grid-cols-3 gap-4 mt-8 max-w-lg mx-auto">
+              {compareSampleImages.map((src, i) => (
+                /* eslint-disable-next-line @next/next/no-img-element */
+                <img
+                  key={i}
+                  src={encodeImagePath(src)}
+                  alt={`LessonCraftStudio sample worksheet ${i + 1}`}
+                  width={2480}
+                  height={3508}
+                  className="w-full h-auto rounded-lg shadow-md"
+                  loading={i === 0 ? 'eager' : 'lazy'}
+                  decoding="async"
+                />
+              ))}
+            </div>
           </div>
         </section>
 

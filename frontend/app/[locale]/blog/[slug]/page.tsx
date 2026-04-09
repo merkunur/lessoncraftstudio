@@ -9,7 +9,7 @@ import {
   getBlogSlugForLocale,
 } from '@/config/blog-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, localizedHomeLabel, getHreflangCode, generateImageGallerySchema } from '@/lib/schema-generator';
 import { getBlogContent } from '@/config/blog-content';
 import { getSectionLabel } from '@/config/section-labels';
 import { isValidInternalLink, resolveInternalLinkSlug } from '@/lib/resolve-internal-link';
@@ -73,7 +73,13 @@ export async function generateMetadata({
         locale: ogLocaleMap[locale] || locale,
         alternateLocale: SUPPORTED_LOCALES.filter(l => l !== locale).map(l => ogLocaleMap[l] || l),
         images: [
-          { url: ogImageUrl, width: 1200, height: 630, alt: title },
+          { url: ogImageUrl, width: visualConfig ? 2480 : 1200, height: visualConfig ? 3508 : 630, alt: title },
+          ...(visualConfig ? visualConfig.heroImages.slice(1, 4).map(ref => ({
+            url: `${baseUrl}${resolveBlogImageUrl(ref.appKey, ref.idx, locale)}`,
+            width: 2480,
+            height: 3508,
+            alt: title,
+          })) : []),
         ],
       },
       twitter: {
@@ -140,9 +146,44 @@ export default async function BlogPostPage({
       ],
     };
 
-    const schemas: object[] = [articleSchema, breadcrumbSchema];
+    // WebPage schema with primaryImageOfPage
+    const webPageSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      '@id': `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: content.hero.title,
+      description: content.seo?.metaDescription || content.hero.description,
+      isPartOf: { '@type': 'WebSite', '@id': `${baseUrl}/#website` },
+      primaryImageOfPage: {
+        '@type': 'ImageObject',
+        url: schemaImages[0],
+        contentUrl: schemaImages[0],
+        caption: content.hero.title,
+        width: visualConfig ? 2480 : 1200,
+        height: visualConfig ? 3508 : 630,
+      },
+      mainEntity: { '@id': `${pageUrl}#article` },
+      inLanguage: getHreflangCode(locale),
+    };
+
+    const schemas: object[] = [webPageSchema, articleSchema, breadcrumbSchema];
     if (content.faq?.length) {
       schemas.push(generateFAQSchema(content.faq, locale, pageUrl));
+    }
+    // ImageGallery schema for blog visual images
+    if (visualConfig) {
+      const blogGalleryImages = visualConfig.heroImages.map(ref => ({
+        src: resolveBlogImageUrl(ref.appKey, ref.idx, locale),
+        alt: `${content.hero.title} - Sample Worksheet`,
+      }));
+      const gallerySchema = generateImageGallerySchema(
+        blogGalleryImages,
+        `${content.hero.title} - Sample Worksheets`,
+        locale,
+        pageUrl,
+      );
+      if (gallerySchema) schemas.push(gallerySchema);
     }
 
     // Compute visual section insertion points

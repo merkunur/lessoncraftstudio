@@ -9,7 +9,7 @@ import {
   getStartSlugForLocale,
 } from '@/config/start-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas } from '@/lib/schema-generator';
+import { ogLocaleMap, generateFAQSchema, generateVideoSchema, localizedHomeLabel, getHreflangCode, generateShowcaseImageSchemas, generateImageGallerySchema } from '@/lib/schema-generator';
 import { getStartFallbackDescription } from '@/lib/localized-meta-fallback';
 import { getStartContent } from '@/config/start-content';
 import { getSectionLabel } from '@/config/section-labels';
@@ -263,15 +263,30 @@ export default async function CornerstonePage({
                   name: img.alt,
                   caption: img.caption || img.alt,
                   encodingFormat: 'image/webp',
+                  width: 2480,
+                  height: 3508,
                   license: `${baseUrl}/${locale}/license`,
                   acquireLicensePage: pageUrl,
                   creditText: 'LessonCraftStudio',
                   creator: { '@type': 'Organization', name: 'LessonCraftStudio' },
                   copyrightHolder: { '@type': 'Organization', name: 'LessonCraftStudio' },
-                  copyrightNotice: '© LessonCraftStudio',
+                  copyrightNotice: '\u00a9 LessonCraftStudio',
                 }))
               ) }}
             />
+          ) : null;
+        })()}
+        {/* ImageGallery schema for sample worksheet gallery */}
+        {(() => {
+          const allGalleryImages = [...(content.visuals?.samples || []), ...(content.themeImages || [])].slice(0, 6);
+          const gallerySchema = generateImageGallerySchema(
+            allGalleryImages,
+            `${content.hero.title} - Sample Worksheets`,
+            locale,
+            pageUrl,
+          );
+          return gallerySchema ? (
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gallerySchema) }} />
           ) : null;
         })()}
         {/* ImageObject schemas for showcase images (hero, tiered, spotlight, gallery) */}

@@ -6,6 +6,11 @@ import { guidePageSlugs } from '@/config/guide-page-slugs';
 import { ideaPageSlugs } from '@/config/idea-page-slugs';
 import { blogPageSlugs } from '@/config/blog-page-slugs';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import { ALL_APPS } from '@/config/products';
+import type { AppId } from '@/config/products';
+import { getLocalizedAppName } from '@/config/app-translations';
+import { imgUrl } from '@/config/showcase-i18n';
+import { encodeImagePath } from '@/lib/encode-image-path';
 import {
   getAppImageEntries,
   getBundleImageEntries,
@@ -119,6 +124,65 @@ export async function GET(
         if (images.length === 0) continue;
         urlEntries.push(
           `  <url>\n    <loc>${baseUrl}/${locale}/ideas/${slug}</loc>\n${buildImageXml(images)}\n  </url>`
+        );
+      }
+    }
+  }
+
+  // ID 10: Gallery page (1 page × 11 locales, 33 images each)
+  if (id === 10) {
+    const galleryHeroFiles: Record<string, string> = {
+      'addition': 'Addition Fun 1.webp', 'subtraction': 'Subtraction Fun 1.webp',
+      'code-addition': 'Code Breaker Addition 1.webp', 'more-less': 'More Less (10).webp',
+      'math-puzzle': 'Math Puzzles.webp', 'math-worksheet': 'Math Worksheet 10.webp',
+      'alphabet-train': 'Alphabet Train 1.webp', 'prepositions': 'prepositions_worksheet (1).webp',
+      'word-guess': 'clue-grid_worksheet.webp', 'word-scramble': 'word scramble portrait.webp',
+      'wordsearch': 'Word Search 1.webp', 'cryptogram': 'cryptogram_worksheet.webp',
+      'writing': 'writing.webp', 'big-small': 'big-small-worksheet_worksheet.webp',
+      'pattern-train': 'pattern_train_worksheet.webp', 'pattern-worksheet': 'pattern_worksheet.webp',
+      'draw-and-color': 'grid-drawing_worksheet.webp', 'drawing-lines': 'drawing_lines_horizontal.webp',
+      'coloring': 'coloring portrait 1.webp', 'chart-count': 'chart count.webp',
+      'matching': 'matching portrait.webp', 'grid-match': 'Grid Match.webp',
+      'shadow-match': 'shadow-match-worksheet.webp', 'bingo': 'bingo_card.webp',
+      'picture-sort': 'Picture Sort.webp', 'missing-pieces': 'Missing Pieces.webp',
+      'odd-one-out': 'Find the Odd One Out.webp', 'sudoku': 'sudoku_worksheet.webp',
+      'picture-path': 'Picture Pathway.webp', 'find-and-count': 'find and count portrait.webp',
+      'find-objects': 'spotworks_worksheet.webp', 'crossword': 'crossword_worksheet.webp',
+      'treasure-hunt': 'Treasure Hunt 1.webp',
+    };
+    const galleryFolders: Record<string, string> = {
+      'addition': 'addition', 'subtraction': 'subtraction', 'code-addition': 'code addition',
+      'more-less': 'more less', 'math-puzzle': 'math puzzle', 'math-worksheet': 'math worksheet',
+      'alphabet-train': 'alphabet train', 'prepositions': 'prepositions', 'word-guess': 'word guess',
+      'word-scramble': 'word scramble', 'wordsearch': 'wordsearch', 'cryptogram': 'cryptogram',
+      'writing': 'writing', 'big-small': 'big small', 'pattern-train': 'pattern train',
+      'pattern-worksheet': 'pattern worksheet', 'draw-and-color': 'draw and color',
+      'drawing-lines': 'drawing lines', 'coloring': 'coloring', 'chart-count': 'chart count',
+      'matching': 'matching', 'grid-match': 'grid match', 'shadow-match': 'shadow match',
+      'bingo': 'bingo', 'picture-sort': 'picture sort', 'missing-pieces': 'missing pieces',
+      'odd-one-out': 'odd one out', 'sudoku': 'sudoku', 'picture-path': 'picture path',
+      'find-and-count': 'find and count', 'find-objects': 'find objects', 'crossword': 'crossword',
+      'treasure-hunt': 'treasure hunt',
+    };
+    const appIds = Object.keys(ALL_APPS) as AppId[];
+    for (const locale of allLocales) {
+      const images: ImageSitemapEntry[] = [];
+      for (const appId of appIds) {
+        const folder = galleryFolders[appId] || appId;
+        const filename = galleryHeroFiles[appId];
+        if (!filename) continue;
+        const src = imgUrl(folder, filename, locale);
+        const name = getLocalizedAppName(appId, locale);
+        images.push({
+          loc: `${baseUrl}${encodeImagePath(src)}`,
+          title: `${name} printable worksheet sample`,
+          caption: `${name} printable worksheet sample`,
+          license: `${baseUrl}/${locale}/license`,
+        });
+      }
+      if (images.length > 0) {
+        urlEntries.push(
+          `  <url>\n    <loc>${baseUrl}/${locale}/gallery</loc>\n${buildImageXml(images)}\n  </url>`
         );
       }
     }

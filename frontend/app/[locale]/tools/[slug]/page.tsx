@@ -11,7 +11,7 @@ import {
 } from '@/config/tool-page-slugs';
 import { getSlugForLocale } from '@/config/product-page-slugs';
 import type { SupportedLocale } from '@/config/product-page-slugs';
-import { ogLocaleMap, getHreflangCode, localizedHomeLabel, generateVideoSchema, generateShowcaseImageSchemas } from '@/lib/schema-generator';
+import { ogLocaleMap, getHreflangCode, localizedHomeLabel, generateVideoSchema, generateShowcaseImageSchemas, generateImageGallerySchema } from '@/lib/schema-generator';
 import { getToolFallbackDescription } from '@/lib/localized-meta-fallback';
 import { ALL_APPS, type AppId } from '@/config/products';
 import BuyButton from '@/components/BuyButton';
@@ -360,8 +360,8 @@ export default async function ToolPage({
                 name: img.alt,
                 caption: img.caption || img.alt,
                 encodingFormat: 'image/webp',
-                width: 400,
-                height: 566,
+                width: 2480,
+                height: 3508,
                 license: `${baseUrl}/${locale}/license`,
                 acquireLicensePage: pageUrl,
                 creditText: 'LessonCraftStudio',
@@ -372,6 +372,18 @@ export default async function ToolPage({
             ) }}
           />
         )}
+        {/* ImageGallery schema for sample worksheet gallery */}
+        {(() => {
+          const gallerySchema = generateImageGallerySchema(
+            (content.visuals?.sampleGallery || []).slice(0, 6),
+            `${localizedName} Sample Worksheets`,
+            locale,
+            pageUrl,
+          );
+          return gallerySchema ? (
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(gallerySchema) }} />
+          ) : null;
+        })()}
         {/* ImageObject schemas for showcase images (hero, tiered, spotlight, gallery) */}
         {(() => {
           const galleryUrls = new Set((content.visuals?.sampleGallery || []).slice(0, 6).map((img: { src: string }) => `${baseUrl}${encodeImagePath(img.src)}`));

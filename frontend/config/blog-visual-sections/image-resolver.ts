@@ -3,8 +3,8 @@
  *
  * Uses the same infrastructure as app detail pages:
  * - appData (English filenames) from guide-showcase-configs.ts
- * - Per-language showcase-images configs for de/fr/es/pt/it/nl/sv/da
- * - Falls back to English for no/fi (no showcase-images configs)
+ * - Per-language showcase-images configs for de/fr/es/pt/it/nl/sv/da/no/fi
+ * - Falls back to English only when no locale-specific config exists
  */
 
 import { appData } from '@/config/guide-showcase-configs';
@@ -17,6 +17,8 @@ import { italianImages } from '@/config/italian-showcase-images';
 import { dutchImages } from '@/config/dutch-showcase-images';
 import { swedishImages } from '@/config/swedish-showcase-images';
 import { danishImages } from '@/config/danish-showcase-images';
+import { norwegianImages } from '@/config/norwegian-showcase-images';
+import { finnishImages } from '@/config/finnish-showcase-images';
 
 interface LocaleImageSet {
   folder: string;
@@ -38,12 +40,14 @@ function getImageSet(appKey: string, locale: string): { folder: string; imgs: st
   else if (locale === 'nl') localeSet = dutchImages[appKey];
   else if (locale === 'sv') localeSet = swedishImages[appKey];
   else if (locale === 'da') localeSet = danishImages[appKey];
+  else if (locale === 'no') localeSet = norwegianImages[appKey];
+  else if (locale === 'fi') localeSet = finnishImages[appKey];
 
   if (localeSet) {
     return { folder: localeSet.folder, imgs: localeSet.imgs, answerKey: localeSet.answerKey };
   }
 
-  // English / no / fi — use English appData
+  // English — use English appData
   return { folder: en.folder, imgs: en.imgs, answerKey: en.answerKey };
 }
 
@@ -52,7 +56,7 @@ export function resolveBlogImageUrl(appKey: string, idx: number, locale: string)
   const set = getImageSet(appKey, locale);
   const safeIdx = idx % set.imgs.length;
   // For non-English locales with a showcase config, use that locale; otherwise English
-  const effectiveLocale = (locale !== 'en' && locale !== 'no' && locale !== 'fi' && getImageSet(appKey, locale).imgs !== appData[appKey]?.imgs)
+  const effectiveLocale = (locale !== 'en' && getImageSet(appKey, locale).imgs !== appData[appKey]?.imgs)
     ? locale
     : 'en';
   return imgUrl(set.folder, set.imgs[safeIdx], effectiveLocale);
@@ -61,7 +65,7 @@ export function resolveBlogImageUrl(appKey: string, idx: number, locale: string)
 /** Resolve an answer key image URL for the given locale */
 export function resolveBlogAnswerKeyUrl(appKey: string, locale: string): string {
   const set = getImageSet(appKey, locale);
-  const effectiveLocale = (locale !== 'en' && locale !== 'no' && locale !== 'fi' && getImageSet(appKey, locale).answerKey !== appData[appKey]?.answerKey)
+  const effectiveLocale = (locale !== 'en' && getImageSet(appKey, locale).answerKey !== appData[appKey]?.answerKey)
     ? locale
     : 'en';
   return imgUrl(set.folder, set.answerKey, effectiveLocale);

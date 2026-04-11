@@ -435,6 +435,26 @@ export const toolPageSlugs: ToolSlugConfig[] = [
 ];
 
 /**
+ * Static standalone tool pages (English-only) that live outside the
+ * dynamic /tools/[slug] route. They have their own page.tsx files at
+ * frontend/app/[locale]/tools/<slug>/page.tsx.
+ *
+ * Listed here purely so internal links from blog/guide content
+ * can validate and resolve through isValidInternalLink /
+ * resolveInternalLinkSlug. They are intentionally EXCLUDED from:
+ *   - toolPageSlugs (no sitemap/index/generateStaticParams pollution)
+ *   - middleware redirect tables
+ *   - /en/tools index page tiles
+ */
+export const STATIC_TOOL_SLUGS: readonly string[] = [
+  'kdp-royalty-calculator',
+  'kdp-size-calculator',
+  'niche-finder',
+  'profit-hub',
+  'activity-book-planner',
+];
+
+/**
  * Mapping from toolId to the corresponding appId in product-page-slugs.
  * Most IDs are identical; only mismatches are listed here.
  */
@@ -461,6 +481,10 @@ export function getAppIdForTool(toolId: string): string {
  * Get the slug for a specific tool and locale
  */
 export function getToolSlugForLocale(toolId: string, locale: SupportedLocale): string | undefined {
+  if (STATIC_TOOL_SLUGS.includes(toolId)) {
+    // Static standalone tool pages are English-only; the slug equals the toolId.
+    return locale === 'en' ? toolId : undefined;
+  }
   const config = toolPageSlugs.find(c => c.toolId === toolId);
   if (!config) return undefined;
   return config.slugs[locale] || config.slugs.en; // Fallback to English
@@ -470,6 +494,9 @@ export function getToolSlugForLocale(toolId: string, locale: SupportedLocale): s
  * Get the tool config from any slug (in any language)
  */
 export function getToolConfigBySlug(slug: string): { toolId: string; locale: SupportedLocale } | undefined {
+  if (STATIC_TOOL_SLUGS.includes(slug)) {
+    return { toolId: slug, locale: 'en' };
+  }
   for (const config of toolPageSlugs) {
     for (const [locale, localeSlug] of Object.entries(config.slugs)) {
       if (localeSlug === slug) {

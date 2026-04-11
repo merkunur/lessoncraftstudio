@@ -232,9 +232,12 @@ export default function NicheFinderPage({
             Printable Niche Finder — Discover Profitable Niches for Etsy, KDP &amp; TPT
           </h1>
           <p className="text-base sm:text-lg text-slate-600 max-w-3xl">
-            {stats.total} hand-curated printable niches with demand and competition analysis for
-            Etsy, Amazon KDP, and TPT sellers. Filter by platform, category, language, and
-            opportunity score to find profitable niches you haven&apos;t considered yet.
+            The only free, interactive printable niche research tool with{' '}
+            {stats.total} hand-curated profitable printable niches for Etsy, Amazon KDP, and
+            Teachers Pay Teachers sellers. Filter {stats.hotOpportunities} hot opportunities and{' '}
+            {stats.lowCompetitionGems} low-competition gems by platform, category, language, age
+            group, and opportunity score — then create the products with our 33 generators. No
+            signup, updated monthly, {stats.languageCount} languages covered.
           </p>
         </header>
 
@@ -276,7 +279,7 @@ export default function NicheFinderPage({
               href="/en/apps"
               className="inline-flex items-center gap-2 rounded-lg bg-white text-primary font-semibold px-5 py-3 shadow-sm hover:bg-primary-50 transition whitespace-nowrap"
             >
-              Try free with watermark →
+              Try Free Generators →
             </Link>
           </div>
         </section>
@@ -318,11 +321,15 @@ export default function NicheFinderPage({
             Scores of 3 or below are either crowded or niche-small, and while they can still
             work, you need a distinct edge (brand, audience, format) to break through. Filter the
             tool above by the &ldquo;🔥 Hot Opportunities&rdquo; quick filter to see every niche
-            scoring 4 or 5. For bundle-building strategy and per-niche pricing guidance, our{' '}
+            scoring 4 or 5, or use the &ldquo;💎 Low-Competition Gems&rdquo; preset to surface
+            every low competition printable niche in the database. For bundle-building strategy
+            and per-niche pricing guidance, our{' '}
             <Link href="/en/guides/niche-selection-printables">
               Niche Selection Guide for Printable Businesses
             </Link>{' '}
-            walks through the full framework.
+            walks through the full framework, and our{' '}
+            <Link href="/en/ideas">Niche Ideas library</Link> covers dozens more themed
+            opportunities beyond this tool.
           </p>
 
           <h2>Best Platforms for Selling Printables</h2>
@@ -356,7 +363,13 @@ export default function NicheFinderPage({
             at $8-$15 for a 100+ page paperback. Print-on-demand fulfillment means zero inventory
             and zero shipping work on your end — Amazon handles all of that. You earn a 60%
             royalty on books priced at $9.99 or above (50% below that threshold), minus the per-
-            book printing cost. Before publishing, plug your page count and price into our{' '}
+            book printing cost. The strongest activity book niches for KDP in 2026 are bold-and-
+            easy adult coloring, large-print senior puzzle books, cryptograms for adults, and
+            sudoku compilations — build all four with our{' '}
+            <Link href="/en/apps/coloring-worksheets">Coloring Page Generator</Link>,{' '}
+            <Link href="/en/apps/cryptogram-worksheets">Cryptogram Generator</Link>, and{' '}
+            <Link href="/en/apps/sudoku-worksheets">Sudoku Generator</Link>. Before publishing,
+            plug your page count and price into our{' '}
             <Link href="/en/tools/kdp-royalty-calculator">KDP Royalty Calculator</Link> to verify
             margins, and use the{' '}
             <Link href="/en/tools/kdp-size-calculator">KDP Cover Size Calculator</Link> for exact
@@ -369,12 +382,17 @@ export default function NicheFinderPage({
             single worksheet pack) because their buyer mindset is &ldquo;this saves me hours of
             lesson planning&rdquo;, not &ldquo;this is a cute printable for my kid&rdquo;. Back-
             to-school (August-September) and January (new semester) are the strongest buying
-            windows. For guidance on platform pricing strategy, see{' '}
+            windows. The highest-performing math worksheet niches on TPT are grade-specific
+            packs (addition for kindergarten, multiplication for grade 3, summer review packets),
+            while special-education adaptive worksheets command the top pricing tier. For
+            guidance on platform pricing strategy, see{' '}
             <Link href="/en/guides/pricing-educational-printables">
               Pricing Strategies for Educational Printables
             </Link>
             . Gumroad and Creative Fabrica are strong alternatives for direct-to-customer sales
-            and subscription-based marketplaces respectively.
+            and subscription-based marketplaces respectively — browse our full{' '}
+            <Link href="/en/guides">How-To Guides</Link> library for platform-specific
+            playbooks.
           </p>
 
           <h2>Why Non-English Printables Are a Huge Opportunity</h2>
@@ -406,15 +424,60 @@ export default function NicheFinderPage({
             animal family), package them into a single download or compiled book, and price the
             bundle at 2-3x the single-worksheet price. Parents, teachers, and KDP book buyers all
             perceive &ldquo;more is more&rdquo; as long as the bundle has a clear unifying theme —
-            a random grab-bag does not convert. Seasonal bundles (back-to-school, Christmas,
-            summer, Valentine&apos;s) concentrate demand into 4-week spikes, while evergreen
-            bundles earn steadily year-round. With LessonCraftStudio&apos;s 33 generators, creating
-            a themed 10-worksheet bundle takes minutes rather than hours. For bundle assembly
-            tactics and pricing walkthroughs, see{' '}
+            a random grab-bag does not convert. Seasonal printable niches (back-to-school,
+            Christmas, summer, Valentine&apos;s) concentrate demand into 4-week spikes, while
+            evergreen bundles earn steadily year-round. With LessonCraftStudio&apos;s 33
+            generators, creating a themed 10-worksheet bundle takes minutes rather than hours.
+            For bundle assembly tactics and pricing walkthroughs, see{' '}
             <Link href="/en/guides/create-etsy-worksheet-bundles">
               How to Create Etsy Worksheet Bundles
             </Link>
             .
+          </p>
+
+          <h2>What Makes This Niche Research Tool Different</h2>
+          <p>
+            Most printable niche research lives inside $97 one-time software tools, $9.99/month
+            subscriptions, or $15 static PDF spreadsheets sold on Etsy. Generic &ldquo;50 Etsy
+            niche ideas&rdquo; blog posts go stale the moment they are published, can&apos;t be
+            filtered, and never link to anything you can actually build. This free printable
+            niche research tool is different in five specific ways:
+          </p>
+          <ul>
+            <li>
+              <strong>Free with no signup.</strong> No credit card, no email gate, no trial
+              window. Competitor tools like Publisher Rocket charge $97 one-time; Book Bolt
+              charges $9.99/month. Yours costs nothing and never will.
+            </li>
+            <li>
+              <strong>Interactive, filterable, sortable.</strong> Static blog posts and PDF
+              spreadsheets can&apos;t filter by platform, language, competition level, or
+              seasonality. This tool does all of that instantly, client-side, with no page
+              reloads. Compare any 2-3 niches side-by-side in a single click.
+            </li>
+            <li>
+              <strong>Direct creation links on every niche.</strong> Every niche card that maps
+              to one of our generators has a &ldquo;Create this product&rdquo; button that links
+              straight to the tool that builds it. No other niche research tool does this —
+              competitors leave you to figure out the production step yourself.
+            </li>
+            <li>
+              <strong>11 languages covered natively.</strong> Every competitor we&apos;ve seen
+              tracks English-only niches. This database includes dedicated entries for German,
+              French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and
+              Finnish markets — categories that remain nearly untouched by most sellers.
+            </li>
+            <li>
+              <strong>Updated monthly, marked fresh.</strong> Every niche carries a{' '}
+              <code>lastUpdated</code> date. Competition ratings are re-checked monthly. Stale
+              niche listicles on random blogs won&apos;t tell you which niches got crowded out
+              last quarter — this tool does.
+            </li>
+          </ul>
+          <p>
+            If you find a niche in our database that has changed (competition tightened, demand
+            fell, price range shifted) let us know using the suggest form below the card grid —
+            we review every submission before the next monthly refresh.
           </p>
 
           <h2>Frequently Asked Questions About Printable Niches</h2>

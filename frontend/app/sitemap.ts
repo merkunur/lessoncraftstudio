@@ -145,6 +145,18 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
         },
       },
     });
+    routes.push({
+      url: `${baseUrl}/en/tools/profit-hub`,
+      lastModified: STATIC_CONTENT_DATE,
+      changeFrequency: 'monthly',
+      priority: 0.9,
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/tools/profit-hub`,
+          'x-default': `${baseUrl}/en/tools/profit-hub`,
+        },
+      },
+    });
 
     return routes;
   }

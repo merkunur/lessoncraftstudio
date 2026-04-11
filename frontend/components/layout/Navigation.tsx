@@ -118,6 +118,19 @@ export function Navigation() {
                         <div className="text-xs text-gray-500 mt-0.5">Free Amazon KDP printing cost &amp; profit tool</div>
                       </div>
                     </Link>
+                    <Link
+                      href="/en/tools/kdp-size-calculator"
+                      className="flex items-start gap-3 mx-2 mb-2 px-3 py-2.5 rounded-lg bg-gradient-to-r from-primary-50 to-white ring-1 ring-primary/20 hover:ring-primary transition-colors"
+                    >
+                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F4D0}'}</span>
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2">
+                          <div className="text-sm font-semibold text-gray-900">KDP Cover Size Calculator</div>
+                          <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
+                        </div>
+                        <div className="text-xs text-gray-500 mt-0.5">Spine width, cover dimensions, bleed &amp; margins</div>
+                      </div>
+                    </Link>
                     <div className="border-t border-gray-100 mb-1" aria-hidden="true" />
                     {resourceLinks.map(item => (
                       <Link
@@ -222,6 +235,15 @@ export function Navigation() {
                   >
                     <span aria-hidden="true">{'\u{1F9EE}'}</span>
                     <span>KDP Royalty Calculator</span>
+                    <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
+                  </Link>
+                  <Link
+                    href="/en/tools/kdp-size-calculator"
+                    className="flex items-center gap-2 py-2 text-sm font-semibold text-primary hover:text-primary-700 transition-colors"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    <span aria-hidden="true">{'\u{1F4D0}'}</span>
+                    <span>KDP Cover Size Calculator</span>
                     <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
                   </Link>
                   {resourceLinks.map(item => (

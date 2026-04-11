@@ -109,6 +109,18 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
         },
       },
     });
+    routes.push({
+      url: `${baseUrl}/en/tools/kdp-size-calculator`,
+      lastModified: STATIC_CONTENT_DATE,
+      changeFrequency: 'monthly',
+      priority: 0.8,
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/tools/kdp-size-calculator`,
+          'x-default': `${baseUrl}/en/tools/kdp-size-calculator`,
+        },
+      },
+    });
 
     return routes;
   }

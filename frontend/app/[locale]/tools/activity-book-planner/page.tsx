@@ -16,9 +16,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const title = 'Free KDP Activity Book Planner 2026 | Interior Layout & Page Count Tool';
+  const title = 'Free KDP Activity Book Planner 2026 | Plan Your Book Interior Structure';
   const description =
-    'Plan your Amazon KDP activity book interior visually — drag-and-drop sections, auto-calculate page count, spine width, printing cost & royalty. Free tool for puzzle, workbook & coloring book publishers.';
+    'Plan your Amazon KDP activity book, puzzle book, or workbook structure with our free interactive planner. Drag-and-drop sections, auto-calculate page count, printing cost, spine width & royalty. Pre-built templates included.';
 
   return {
     title,
@@ -31,9 +31,9 @@ export async function generateMetadata(): Promise<Metadata> {
       },
     },
     openGraph: {
-      title: 'Free KDP Activity Book Planner — Structure Your Interior in Minutes',
+      title: 'Free KDP Activity Book Planner — Structure Your Book Before You Create',
       description:
-        'Drag-and-drop KDP interior planner. Map out your activity book, puzzle book, or workbook section-by-section with live page count, spine width, and royalty estimates.',
+        'Drag-and-drop book structure builder for KDP activity books. Auto-calculates page count, spine width, printing cost & royalty. 6 templates, 33 activity types. Free, no signup.',
       url: pageUrl,
       siteName: 'LessonCraftStudio',
       type: 'website',
@@ -43,7 +43,7 @@ export async function generateMetadata(): Promise<Metadata> {
           url: ogImage,
           width: 1200,
           height: 630,
-          alt: 'KDP Activity Book Planner — Free Tool by LessonCraftStudio',
+          alt: 'KDP Activity Book Planner showing drag-and-drop book structure with live page count and printing cost — Free Tool by LessonCraftStudio',
         },
       ],
     },
@@ -51,7 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: 'summary_large_image',
       title: 'Free KDP Activity Book Planner 2026 | LessonCraftStudio',
       description:
-        'Plan every page of your KDP activity book interior — drag, drop, reorder. Live page count, printing cost, and royalty estimates. Free, no signup.',
+        'Plan your KDP activity book structure visually. Drag-and-drop sections, live page count, printing cost & royalty. 6 pre-built templates. Free.',
       images: [ogImage],
     },
     robots: { index: true, follow: true },
@@ -66,42 +66,42 @@ const FAQ_ITEMS: Array<{ question: string; answer: string }> = [
   {
     question: 'What is the best page count for a KDP activity book?',
     answer:
-      'For most activity books, 80–120 pages is the sweet spot. Amazon KDP charges a flat printing cost for black & white books from 24 to 108 pages, so filling a B&W book up to 108 pages costs the same as printing 24 pages. That makes 100 pages a natural target — buyers perceive strong value, you stay inside the flat-rate band, and you earn the 60% royalty tier at any price ≥ $9.99.',
+      'The most popular page count for KDP activity books is 80–120 pages. For black & white books, pages 24–108 have a flat printing cost (no per-page charge), making 100 pages the sweet spot — you maximize content without increasing printing costs. Price at $9.99 or above to earn the 60% royalty rate.',
   },
   {
-    question: 'Do I need to include an answer key in my activity book?',
+    question: 'How should I structure an activity book for Amazon KDP?',
     answer:
-      'Yes — buyers expect answer keys for any math, word search, crossword, cryptogram, sudoku, or logic content. Books with missing answer keys routinely get 1-star reviews. The planner automatically estimates your answer key length at roughly one page per two activity pages that need solutions; you can override this if your solutions are compact. Coloring, drawing, and handwriting pages don\'t need answer keys.',
+      'Start with front matter: title page, copyright page, table of contents, and a "How to Use This Book" introduction. Then organize content sections by activity type, mixing different activities for variety. End with an answer key section for any puzzles or math activities, and optionally a completion certificate. Total page count must be an even number.',
+  },
+  {
+    question: 'Do I need to include an answer key in my KDP activity book?',
+    answer:
+      'Yes, for any book containing puzzles (word search, crossword, sudoku) or math worksheets. Buyers and parents expect answer keys, and books without them receive negative reviews. Place answer keys at the back of the book. Estimate roughly 1 answer key page per 2 activity pages.',
   },
   {
     question: 'What trim size should I use for a KDP activity book?',
     answer:
-      '8.5" × 11" (US Letter) is by far the most popular trim size for activity books, puzzle books, and kids\' workbooks sold in the US. It gives you the most working area for large grids, coloring pages, and math worksheets. A4 (8.27" × 11.69") is the equivalent for European marketplaces. Smaller trims like 6" × 9" work for adult puzzle books but feel cramped for kids\' activity layouts.',
+      '8.5 × 11 inches (US Letter) is the most popular trim size for activity books, workbooks, and coloring books on Amazon KDP. For international markets, 8.27 × 11.69 inches (A4) is the equivalent. Both are large trim sizes. For smaller puzzle books aimed at adults, 6 × 9 inches works well.',
   },
   {
-    question: 'Should my activity book be black & white or color?',
+    question: 'Should I use color or black and white for my activity book?',
     answer:
-      'For most activity books, black & white is the smart choice. A 100-page B&W activity book on 8.5×11 costs just $2.84 to print — roughly one-fifth the cost of premium color. That cost gap lets you price at $9.99 and still clear $3.15+ per sale. Color only makes sense if color is essential to the book\'s value proposition, such as a photo-based coloring book or a visual-learning early reader.',
-  },
-  {
-    question: 'How do I actually create the pages in my book plan?',
-    answer:
-      'Once your outline is complete, use the "Creation Checklist" panel at the bottom of the planner. Every activity section in your book links directly to the matching LessonCraftStudio generator — addition worksheets, word searches, crosswords, mazes, coloring pages, and more. All 33 generators are free to try with a watermark; activating a license removes the watermark for commercial use on KDP.',
+      'Black and white is recommended for most activity books. B&W printing costs $2.84 flat for up to 108 pages on large trim, while premium color costs $1.00 + $0.065 per page — a 100-page color book costs $7.50 vs $2.84 for B&W. The cost difference directly impacts your royalty. Use color only for coloring books or picture books where it\'s essential.',
   },
   {
     question: 'Can I mix different types of activities in one KDP book?',
     answer:
-      'Yes — and you should. Mixed activity books consistently earn better reviews than single-type books because readers enjoy variety and parents see more perceived value per dollar. A typical best-seller balances math (25–35%), word puzzles (20–25%), visual activities (15–20%), creative breaks like coloring (10–15%), and logic challenges (5–15%). The planner\'s content-balance bar shows your mix in real time.',
+      'Yes, and mixed activity books often sell better than single-type books. Combining math worksheets, word puzzles, coloring pages, and visual activities creates a more engaging experience. Adding coloring or drawing pages between challenging sections provides "brain breaks" that buyers appreciate. Use the planner above to build a balanced mix.',
   },
   {
-    question: 'Does the KDP Activity Book Planner save my work?',
+    question: 'How do I create the actual pages for my activity book?',
     answer:
-      'Not yet — this tool runs entirely in your browser with no accounts or storage, so your outline resets on page refresh. When your plan is ready, click "Copy Book Plan" to paste the full table of contents, dimensions, cost, and generator links into a document, spreadsheet, or task manager. We\'re exploring optional save functionality for a future release.',
+      'After planning your book structure with this tool, use LessonCraftStudio\'s 33 printable generators to create each section. Each generator produces professional, 300 DPI print-ready PDFs with themed images and automatic answer keys. You can try all generators free with a watermark before purchasing.',
   },
   {
-    question: 'Is the KDP Activity Book Planner really free?',
+    question: 'What is the printing cost for a 100-page activity book on KDP?',
     answer:
-      'Yes, 100% free with no signup, no email capture, and no usage limits. The planner is a lead-in to LessonCraftStudio\'s worksheet generators — we want KDP publishers to discover that they can create their entire book interior with our tools. The generators themselves are free to try with a watermark; a one-time license removes the watermark for commercial use.',
+      'For a 100-page black & white activity book on 8.5×11 inch (large trim) paper in the US marketplace, the printing cost is a flat $2.84. At a list price of $9.99, your royalty would be ($9.99 × 0.60) − $2.84 = $3.15 per sale. At $14.99, you\'d earn $6.15 per sale. The flat rate applies to all B&W large-trim books with 24–108 pages.',
   },
 ];
 
@@ -221,10 +221,10 @@ export default function ActivityBookPlannerPage({
         {/* Hero headline */}
         <header className="mb-6 max-w-3xl">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold font-display text-slate-900 tracking-tight">
-            KDP Activity Book Planner
+            KDP Activity Book Planner — Plan Your Book Structure Before You Create
           </h1>
           <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed">
-            Plan your Amazon KDP activity book interior in minutes. Drag-and-drop sections, auto-calculate page count, spine width, printing cost, and royalty — then launch the generators you need to create every page.
+            The only tool that helps you architect your Amazon KDP activity book <em>before</em> you create a single page. Drag-and-drop sections, auto-calculate page count, spine width, printing cost, and royalty — then launch the generators you need to build every section.
           </p>
         </header>
 
@@ -274,49 +274,81 @@ export default function ActivityBookPlannerPage({
         <article className="prose prose-slate max-w-none mt-12 prose-headings:font-display prose-h2:text-2xl prose-h2:font-bold prose-h2:text-slate-900 prose-h2:mt-12 prose-h2:mb-3 prose-h3:text-lg prose-h3:font-semibold prose-h3:text-slate-900 prose-h3:mt-6 prose-h3:mb-2 prose-p:text-slate-700 prose-p:leading-relaxed prose-a:text-primary prose-a:font-medium hover:prose-a:underline">
           <h2>How to Structure a KDP Activity Book</h2>
           <p>
-            Every successful KDP activity book follows the same three-part skeleton: <strong>front matter</strong> (title page, copyright, table of contents, "How to use this book"), <strong>content sections</strong> organized into themed chapters, and <strong>back matter</strong> (answer keys, certificate, optional notes pages). The planner above pre-populates the structural pages for you — your job is to fill in the middle with the activity types that match your niche and audience.
+            Learning <strong>how to structure an activity book</strong> is the single most important step before you start creating pages. A clear activity book structure keeps buyers engaged, protects your reviews, and prevents the common trap of publishing a 100-page book that feels like one repetitive exercise. The planner above pre-fills the structural pages for you; your job is to decide which activity types fill the middle and in what order.
           </p>
+
+          <h3>Front Matter, Content Sections & Back Matter</h3>
           <p>
-            The single biggest mistake new KDP publishers make is dumping 100 pages of the <em>same</em> activity type into one book. Readers get bored, reviews suffer, and returns spike. Mix your content: pair math worksheets with coloring breaks, alternate word puzzles with visual logic activities, and always include a certificate or reward page at the end. Books with mixed activity types consistently outsell single-type books by a wide margin, and the content-balance bar in the planner\'s dashboard helps you spot imbalances before you start creating pages.
+            Every successful KDP activity book follows a three-part skeleton. <strong>Front matter</strong> comes first (1–4 pages): a title page, a copyright page with your ISBN placeholder and publisher info, an optional table of contents, and an optional "How to use this book" intro. <strong>Content sections</strong> fill the middle of the book, grouped by activity type and separated by section divider pages when you want clean chapter breaks. <strong>Back matter</strong> closes the book: an answer key section covering any puzzle or math content, and an optional completion certificate — a small detail that buyers repeatedly call out in 5-star reviews. For detailed interior specs, read our{' '}
+            <Link href="/en/guides/kdp-formatting-worksheets">KDP Formatting Guide for Worksheet Books</Link> alongside{' '}
+            <a
+              href="https://kdp.amazon.com/en_US/help/topic/G201834190"
+              target="_blank"
+              rel="nofollow noopener"
+            >
+              KDP&apos;s official formatting guidelines
+            </a>
+            .
           </p>
+
+          <h3>Why Variety Matters in Activity Books</h3>
           <p>
-            Finally, don\'t skip the answer key. Any book with math, crosswords, word searches, cryptograms, sudoku, or logic puzzles <strong>must</strong> include solutions at the back — buyers will 1-star you if they\'re missing. The planner auto-estimates the answer key length based on the activity types in your outline, so you never have to guess.
+            The single biggest mistake new KDP publishers make is dumping 100 pages of the <em>same</em> activity type into one book. Readers get bored, returns spike, and the 1-star reviews start rolling in. Mix your content: pair math worksheets with coloring breaks, alternate word puzzles with visual logic activities, and always cap the book with an answer key plus reward page. A well-balanced mixed activity book typically splits into roughly 25–35% math, 20–25% word puzzles, 15–20% visual activities, 10–15% creative breaks, and 5–15% logic challenges. The planner&apos;s live content-balance bar surfaces imbalances before you create a single page. For niche-specific guidance, see{' '}
+            <Link href="/en/guides/math-activity-books-kdp">How to Create Math Activity Books for Amazon KDP</Link>{' '}
+            and{' '}
+            <Link href="/en/guides/publish-puzzle-books-kdp">How to Publish Puzzle Books on Amazon KDP</Link>.
           </p>
 
           <h2>How Many Pages Should Your Activity Book Have?</h2>
           <p>
-            For most activity books, the sweet spot is <strong>80–120 pages</strong>. Amazon KDP uses a two-tier printing cost system for black & white paperbacks: books from <strong>24 to 108 pages</strong> pay a flat cost ($2.84 for large-trim sizes like 8.5×11 in the US), and books of 110+ pages switch to a fixed + per-page formula. That means a 108-page B&W activity book costs exactly the same to print as a 24-page book — so filling your book up to 108 pages gives you the maximum perceived value without any extra printing cost.
+            The <strong>best page count for a KDP activity book</strong> sits between 80 and 120 pages for the vast majority of niches. Anything under 60 pages feels thin to buyers; anything over 150 starts eroding your royalty through per-page printing costs. Within the 80–120 window, 100 pages is the sweet spot — it hits the maximum perceived value on KDP&apos;s flat-rate printing tier while staying well inside the 60% royalty band at $9.99 and above.
           </p>
+
+          <h3>The 24–108 Page Sweet Spot for B&amp;W Books</h3>
           <p>
-            At a $9.99 price point on Amazon.com, a 100-page B&W large-trim activity book earns $3.15 per sale (60% royalty tier × $9.99 = $5.99 minus $2.84 printing cost). Push the price to $12.99 and your royalty climbs to $4.95. Push to $14.99 and you earn $6.15 per sale — without changing your printing cost at all. Use the{' '}
-            <Link href="/en/tools/kdp-royalty-calculator">KDP Royalty Calculator</Link> to run the full numbers across all 8 Amazon marketplaces.
+            Amazon KDP uses a two-tier printing cost system for black &amp; white paperbacks: books from <strong>24 to 108 pages</strong> pay a flat cost ($2.84 for large-trim sizes like 8.5×11 in the US), and books of 110+ pages switch to a fixed + per-page formula. That means a 108-page B&amp;W activity book costs exactly the same to print as a 24-page book — so filling your book up to 108 pages gives you the maximum perceived value <em>without any extra printing cost</em>. This is why 100 pages is the industry-standard activity book page count: you get full shelf presence, a solid spine, and zero incremental printing cost. Use the{' '}
+            <Link href="/en/tools/kdp-royalty-calculator">KDP Royalty Calculator</Link> to run the numbers across all 8 Amazon marketplaces and{' '}
+            <a
+              href="https://kdp.amazon.com/en_US/help/topic/GVBQ3CMEQW3W2VL6"
+              target="_blank"
+              rel="nofollow noopener"
+            >
+              KDP trim size specifications
+            </a>{' '}
+            to confirm your dimensions.
           </p>
+
+          <h3>Optimal Page Count by Book Type</h3>
           <p>
-            Going above 108 pages is fine — it just means you start paying per-page printing costs. A 200-page B&W book on 8.5×11 in the US costs roughly $4.40 to print ($1.00 fixed + 200 × $0.017). At $14.99, your royalty is still a healthy $4.60 per sale. The tipping point is roughly 300 pages, where the per-page cost starts eroding margin significantly.
+            Different activity book types have different sweet spots. <strong>Kids&apos; mixed activity books</strong> (ages 5–10): 80–100 pages. <strong>Adult puzzle books</strong> (sudoku, crosswords, word search): 100–120 pages so buyers feel they&apos;re getting serious content value. <strong>Preschool workbooks</strong> (ages 3–5): 60–80 pages to keep the book light and non-overwhelming. <strong>Coloring books</strong>: 40–60 pages, since each page takes longer to complete. <strong>Educational workbook bundles</strong>: 120 pages, giving 10–15 pages to each of 8–10 activity types. For niche inspiration before you settle on a count, browse{' '}
+            <Link href="/en/guides/best-kdp-activity-book-niches">Best KDP Activity Book Niches</Link> and our{' '}
+            <Link href="/en/tools/niche-finder">Printable Niche Research Tool</Link>.
           </p>
 
           <h2>Tips for Creating a Best-Selling Activity Book on KDP</h2>
           <p>
-            <strong>Include answer keys for every puzzle and math activity.</strong> This is the number-one complaint in negative reviews of activity books. The planner above auto-estimates your answer key length — don\'t override it to zero unless you have a specific reason.
+            Planning a book is only half the battle — these are the five habits that separate the KDP activity books that earn $3K/month from the ones that sit forgotten at rank #2,000,000.
+          </p>
+
+          <h3>Include Answer Keys for Every Puzzle</h3>
+          <p>
+            Missing answer keys are the single largest driver of 1-star reviews on puzzle and math activity books. Any book with word search, crossword, cryptogram, sudoku, math worksheet, or logic puzzle content <strong>must</strong> include a dedicated answer key section at the back of the book. The planner above auto-estimates your answer key length at roughly one answer-key page per two activity pages that need solutions. Don&apos;t override this to zero unless your solutions are genuinely compact enough to fit inline. Coloring, drawing, and handwriting pages don&apos;t need answer keys — everything else does.
+          </p>
+
+          <h3>Add Brain Breaks Between Challenging Sections</h3>
+          <p>
+            Sprinkle 2–4 coloring or drawing pages throughout your book as "brain breaks" between the hardest sections. Even in a math-heavy workbook, a coloring page every 10–15 pages dramatically raises perceived value and gives the end user a mental reset. This single technique is one of the highest-leverage moves in the category — it adds almost no cost, takes 30 seconds to plan in the outline above, and consistently shows up in positive reviews. Pair this with a themed niche and you have a book that reads like a premium product.
           </p>
           <p>
-            <strong>Add coloring or drawing pages as "brain breaks"</strong> between challenging sections. Even in a hardcore math workbook, two or three coloring pages interspersed throughout the book dramatically raise perceived value and give buyers\' kids a mental reset between worksheet sets.
-          </p>
-          <p>
-            <strong>Theme your book around a specific niche.</strong> "Ocean Animals Math Workbook for Ages 5-8" will outsell "Math Workbook" every time. Use{' '}
-            <Link href="/en/tools/niche-finder">Printable Niche Finder</Link> to pick a theme before you start planning. Theme your activity content, your coloring pages, and your cover around the same niche for compounding SEO and review benefits.
-          </p>
-          <p>
-            <strong>Target a specific age group, not "all ages."</strong> A book that claims to work for everyone ends up appealing to no one. Pick one tight age range (Ages 3-5, Ages 5-8, Ages 7-10, Tweens, Adults) and design every section around that audience. The planner\'s "Suggested for this age group" highlights help you stay focused.
-          </p>
-          <p>
-            <strong>Include a certificate or reward page at the back.</strong> Parents love these. Kids love these. They take 30 seconds to create, and they\'re the cheapest possible way to add value and get a positive review. Most templates above include one by default.
+            Beyond those two habits, three more quick wins round out a best-seller playbook: <strong>theme your book around a tight niche</strong> like "Ocean Animals Math Workbook for Ages 5–8"; <strong>target one age range, not "all ages"</strong>; and <strong>always include a completion certificate or reward page</strong>. If you&apos;re planning a bundle strategy for your catalog, read{' '}
+            <Link href="/en/guides/create-etsy-worksheet-bundles">How to Create Etsy Worksheet Bundles</Link>{' '}
+            next — the same structure thinking applies to multi-book bundles.
           </p>
 
           <h2>From Plan to Finished Book</h2>
           <p>
-            Once your outline is complete, the planner\'s <strong>Creation Checklist</strong> panel shows you exactly which LessonCraftStudio generators to open — each activity section links directly to the matching tool. Create your pages, export them as PDFs, and combine them in the order shown in your outline. Then use the{' '}
-            <Link href="/en/tools/kdp-size-calculator">KDP Cover Size Calculator</Link> to build the wraparound cover from the spine width shown in your dashboard. That\'s it — you\'re ready to upload.
+            Once your outline is complete, the planner&apos;s <strong>Creation Checklist</strong> panel shows you exactly which LessonCraftStudio generators to open — each activity section links directly to the matching tool. Create your pages, export them as PDFs, and combine them in the order shown in your outline. Then use the{' '}
+            <Link href="/en/tools/kdp-size-calculator">KDP Cover &amp; Interior Size Calculator</Link> to build the wraparound cover from the exact spine width shown in your dashboard. That&apos;s it — you&apos;re ready to upload.
           </p>
 
           <p className="text-xs text-slate-500 mt-8">
@@ -332,7 +364,7 @@ export default function ActivityBookPlannerPage({
             . Cross-check your numbers inside your KDP account before uploading.
           </p>
 
-          <h2>Frequently Asked Questions</h2>
+          <h2>Frequently Asked Questions About KDP Activity Books</h2>
         </article>
 
         <div className="mt-6">
@@ -347,7 +379,7 @@ export default function ActivityBookPlannerPage({
           <p className="text-sm text-slate-500 mb-5">
             More free resources for KDP self-publishers and printable sellers.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <Link
               href="/en/tools/kdp-royalty-calculator"
               className="group block bg-white rounded-xl ring-1 ring-slate-200 hover:ring-primary p-5 transition"
@@ -363,7 +395,7 @@ export default function ActivityBookPlannerPage({
               className="group block bg-white rounded-xl ring-1 ring-slate-200 hover:ring-primary p-5 transition"
             >
               <div className="text-2xl mb-2" aria-hidden="true">📐</div>
-              <div className="font-semibold text-slate-900 group-hover:text-primary">KDP Cover Size Calculator</div>
+              <div className="font-semibold text-slate-900 group-hover:text-primary">KDP Cover &amp; Interior Size Calculator</div>
               <p className="text-sm text-slate-500 mt-1">
                 Spine width, full cover dimensions, bleed and margin specs for your trim size.
               </p>
@@ -373,9 +405,19 @@ export default function ActivityBookPlannerPage({
               className="group block bg-white rounded-xl ring-1 ring-slate-200 hover:ring-primary p-5 transition"
             >
               <div className="text-2xl mb-2" aria-hidden="true">🔍</div>
-              <div className="font-semibold text-slate-900 group-hover:text-primary">Printable Niche Finder</div>
+              <div className="font-semibold text-slate-900 group-hover:text-primary">Printable Niche Research Tool</div>
               <p className="text-sm text-slate-500 mt-1">
                 50+ profitable niches for KDP, Etsy, and Gumroad — scored on demand and competition.
+              </p>
+            </Link>
+            <Link
+              href="/en/tools"
+              className="group block bg-white rounded-xl ring-1 ring-slate-200 hover:ring-primary p-5 transition"
+            >
+              <div className="text-2xl mb-2" aria-hidden="true">🔧</div>
+              <div className="font-semibold text-slate-900 group-hover:text-primary">All Free Tools</div>
+              <p className="text-sm text-slate-500 mt-1">
+                Browse every free calculator, planner, and 33 worksheet generators in one place.
               </p>
             </Link>
           </div>

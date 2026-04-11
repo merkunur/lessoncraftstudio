@@ -914,7 +914,13 @@ function TemplateStrip({ onLoad }: { onLoad: (t: BookTemplate) => void }) {
         <div>
           <h2 className="text-sm font-bold text-slate-900">Quick Start Templates</h2>
           <p className="text-xs text-slate-500 mt-0.5">
-            Start from a proven book structure, then customize.
+            Start from a proven book structure, then customize.{' '}
+            <Link
+              href="/en/tools/niche-finder"
+              className="text-primary font-semibold hover:underline"
+            >
+              Not sure what theme to use? Explore profitable niches →
+            </Link>
           </p>
         </div>
       </div>
@@ -1758,12 +1764,20 @@ function LiveDashboard({
             {printingCost == null ? 'Add pages to calculate printing cost.' : 'Enter a valid list price.'}
           </p>
         )}
-        <Link
-          href="/en/tools/kdp-royalty-calculator"
-          className="mt-2 inline-block text-[11px] font-semibold text-primary hover:underline"
-        >
-          Full multi-marketplace calculator →
-        </Link>
+        <div className="mt-3 space-y-1.5 text-[11px]">
+          <Link
+            href="/en/tools/kdp-royalty-calculator"
+            className="block font-semibold text-primary hover:underline"
+          >
+            For multi-marketplace pricing, use the full KDP Royalty Calculator →
+          </Link>
+          <Link
+            href="/en/tools/kdp-size-calculator"
+            className="block font-semibold text-primary hover:underline"
+          >
+            Once you know your page count, get exact cover dimensions with the Size Calculator →
+          </Link>
+        </div>
       </div>
 
       {/* Content balance */}
@@ -1842,20 +1856,27 @@ function CreationChecklist({ sections }: { sections: BookSection[] }) {
     return Array.from(map.values());
   }, [sections]);
 
+  const totalActivityPages = useMemo(
+    () => uniqueActivities.reduce((sum, a) => sum + a.count, 0),
+    [uniqueActivities]
+  );
+
   if (uniqueActivities.length === 0) return null;
 
   return (
     <section className="mt-6 bg-gradient-to-br from-primary-50 to-white ring-1 ring-primary/20 rounded-2xl p-5 shadow-sm">
-      <div className="flex items-start justify-between gap-4 mb-3">
-        <div>
-          <h2 className="text-base font-bold text-slate-900 flex items-center gap-2">
-            <span aria-hidden="true">📋</span>
-            Your Creation Checklist
-          </h2>
-          <p className="text-xs text-slate-600 mt-1">
-            {uniqueActivities.length} generator{uniqueActivities.length === 1 ? '' : 's'} to create the pages in your plan. Click to start — every generator is free to try with a watermark.
-          </p>
-        </div>
+      <div className="mb-4">
+        <h2 className="text-base font-bold text-slate-900 flex items-center gap-2">
+          <span aria-hidden="true">📋</span>
+          Your Creation Checklist
+        </h2>
+        <p className="text-xs text-slate-600 mt-1">
+          You&apos;ve planned{' '}
+          <strong>
+            {uniqueActivities.length} activity type{uniqueActivities.length === 1 ? '' : 's'}
+          </strong>{' '}
+          across <strong>{totalActivityPages} page{totalActivityPages === 1 ? '' : 's'}</strong>. Create each section in minutes with our professional generators — all 33 are free to try with a watermark, no signup required.
+        </p>
       </div>
       <ul className="space-y-2">
         {uniqueActivities.map(({ activity, count }) => (
@@ -1877,12 +1898,18 @@ function CreationChecklist({ sections }: { sections: BookSection[] }) {
                 </div>
               </div>
               <span className="text-primary text-sm font-semibold whitespace-nowrap">
-                Open generator →
+                Create →
               </span>
             </Link>
           </li>
         ))}
       </ul>
+      <Link
+        href="/en/apps"
+        className="mt-4 inline-flex items-center justify-center gap-2 w-full sm:w-auto rounded-lg bg-primary text-white font-bold text-sm px-6 py-3 shadow-sm hover:bg-primary-700 transition"
+      >
+        Try Free Generators →
+      </Link>
     </section>
   );
 }

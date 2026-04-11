@@ -64,7 +64,7 @@ const content: GuideContent = {
   platformTips: [
     {
       heading: 'Calculate Royalties Before Choosing Page Counts',
-      content: 'Never finalize a book\'s page count without running the royalty math at your target price. Every additional page increases printing cost, which comes directly out of your royalty. A 100-page book priced at 8.99 dollars earns a meaningfully different royalty than a 120-page book at the same price. Sometimes reducing your page count by 10 to 20 pages — while still providing excellent value — increases your per-sale profit enough to earn more total revenue even if slightly fewer buyers choose the book. Use KDP\'s printing cost calculator to model scenarios before committing to production.',
+      content: 'Never finalize a book\'s page count without running the royalty math at your target price. Every additional page increases printing cost, which comes directly out of your royalty. A 100-page book priced at 8.99 dollars earns a meaningfully different royalty than a 120-page book at the same price. Sometimes reducing your page count by 10 to 20 pages — while still providing excellent value — increases your per-sale profit enough to earn more total revenue even if slightly fewer buyers choose the book. Use our [free KDP royalty calculator](/tools/kdp-royalty-calculator) to model scenarios before committing to production \u2014 it handles all 8 marketplaces and the 50%/60% royalty tier in one screen, no KDP login required.',
     },
     {
       heading: 'Design for Black-and-White to Maximize Profit',
@@ -79,7 +79,7 @@ const content: GuideContent = {
   monetization: [
     {
       heading: 'Reinvest Early Revenue into Cover Design',
-      content: 'The single best use of your first KDP earnings is professional cover design for your existing and future books. Cover quality is the primary driver of click-through rates in Amazon search results, and a professionally designed cover typically costs 30 to 75 dollars per book. If your early titles are earning 50 to 100 dollars monthly with self-designed covers, investing 200 to 300 dollars in professional covers for your top 4 to 5 titles can increase their click-through rates and sales enough to earn back the investment within 1 to 2 months. As your catalog grows, the compounding effect of better covers across more titles amplifies this return further.',
+      content: 'The single best use of your first KDP earnings is professional cover design for your existing and future books. Before you brief the designer, generate exact spine width, bleed and safe-area dimensions with our [free KDP cover size calculator](/tools/kdp-size-calculator) and hand over the diagram as a single-screenshot spec sheet. Cover quality is the primary driver of click-through rates in Amazon search results, and a professionally designed cover typically costs 30 to 75 dollars per book. If your early titles are earning 50 to 100 dollars monthly with self-designed covers, investing 200 to 300 dollars in professional covers for your top 4 to 5 titles can increase their click-through rates and sales enough to earn back the investment within 1 to 2 months. As your catalog grows, the compounding effect of better covers across more titles amplifies this return further.',
     },
     {
       heading: 'Build Multiple Revenue Tiers from One Content Type',
@@ -155,6 +155,8 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'best-kdp-activity-book-niches', anchorText: 'Best KDP activity book niches in 2026' },
     { pageType: 'guide', slug: 'math-activity-books-kdp', anchorText: 'Create math activity books for KDP' },
     { pageType: 'start', slug: 'amazon-kdp-activity-books', anchorText: 'Amazon KDP activity book business guide' },
+    { pageType: 'tool', slug: 'kdp-royalty-calculator', anchorText: 'Free KDP Royalty Calculator' },
+    { pageType: 'tool', slug: 'kdp-size-calculator', anchorText: 'Free KDP Cover Size Calculator' },
   ],
 
   toolsRecommended: [

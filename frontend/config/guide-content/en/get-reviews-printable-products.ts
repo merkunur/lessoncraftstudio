@@ -137,6 +137,7 @@ const content: GuideContent = {
     { pageType: 'guide', slug: 'customer-support-digital-products', anchorText: 'Customer support for digital products' },
     { pageType: 'guide', slug: 'quality-standards-worksheets', anchorText: 'Quality standards for worksheets that sell' },
     { pageType: 'guide', slug: 'sell-educational-printables-etsy', anchorText: 'Sell educational printables on Etsy' },
+    { pageType: 'tool', slug: 'profit-hub', anchorText: 'Free Printable Profit Hub' },
   ],
 
   toolsRecommended: [

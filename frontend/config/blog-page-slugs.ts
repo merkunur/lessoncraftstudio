@@ -152,6 +152,16 @@ export const blogPageSlugs: BlogSlugConfig[] = [
   { blogId: 'etsy-keyword-research-printables', slugs: { en: 'etsy-keyword-research-printables', de: 'etsy-keyword-recherche-druckvorlagen', fr: 'recherche-mots-cles-etsy-imprimables', es: 'investigacion-palabras-clave-etsy-imprimibles', pt: 'pesquisa-palavras-chave-etsy-imprimiveis', it: 'ricerca-parole-chiave-etsy-stampabili', nl: 'etsy-zoekwoorden-onderzoek-printables', sv: 'etsy-soekords-forskning-printables', da: 'etsy-soegeords-forskning-printables' , no: 'etsy-soekeord-forskning-printables', fi: 'etsy-avainsana-tutkimus-tulosteet' } },
   { blogId: 'printable-product-photography-mockups', slugs: { en: 'printable-product-photography-mockups', de: 'druckvorlagen-produktfotografie-mockups', fr: 'photographie-produit-imprimables-mockups', es: 'fotografia-producto-imprimibles-mockups', pt: 'fotografia-produto-imprimiveis-mockups', it: 'fotografia-prodotto-stampabili-mockup', nl: 'printable-productfotografie-mockups', sv: 'printable-produktfotografering-mockups', da: 'printable-produktfotografering-mockups' , no: 'printable-produktfotografering-mockups', fi: 'tulosteet-tuotekuvaus-mockupit' } },
   { blogId: 'update-old-printable-listings-boost-sales', slugs: { en: 'update-old-printable-listings-boost-sales', de: 'alte-druckvorlagen-listings-aktualisieren-verkauf-steigern', fr: 'mettre-a-jour-anciennes-annonces-imprimables-booster-ventes', es: 'actualizar-anuncios-antiguos-imprimibles-impulsar-ventas', pt: 'atualizar-anuncios-antigos-imprimiveis-impulsionar-vendas', it: 'aggiornare-vecchie-inserzioni-stampabili-aumentare-vendite', nl: 'oude-printable-listings-bijwerken-verkoop-boosten', sv: 'uppdatera-gamla-printable-annonser-oeka-foersaeljning', da: 'opdater-gamle-printable-annoncer-oeg-salg' , no: 'oppdater-gamle-printable-annonser-oek-salg', fi: 'paivita-vanhat-tulosteet-ilmoitukset-kasvata-myyntia' } },
+
+  // === English-Only Free Tool Announcements (4) ===
+  // These blog posts announce the 4 standalone business-calculator tools at
+  // /en/tools/{kdp-royalty-calculator,kdp-size-calculator,niche-finder,profit-hub}.
+  // The tool pages are EN-only (see generateStaticParams in each page.tsx),
+  // so these posts also skip non-EN slugs.
+  { blogId: 'free-kdp-royalty-calculator', slugs: { en: 'free-kdp-royalty-calculator' } },
+  { blogId: 'free-kdp-cover-size-calculator', slugs: { en: 'free-kdp-cover-size-calculator' } },
+  { blogId: 'printable-niche-research-tool', slugs: { en: 'printable-niche-research-tool' } },
+  { blogId: 'printable-profit-calculator', slugs: { en: 'printable-profit-calculator' } },
 ];
 
 /**

@@ -933,12 +933,13 @@ export default function KdpSizeCalculator() {
         <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900">
           KDP Cover &amp; Interior Size Calculator
           <span className="block text-lg sm:text-xl md:text-2xl font-semibold text-slate-600 mt-2">
-            Spine Width · Cover Dimensions · Bleed &amp; Margins
+            Spine Width, Dimensions &amp; Bleed
           </span>
         </h1>
         <p className="mt-4 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
-          Calculate exact cover dimensions, spine width, interior page size, and margins for your
-          Amazon KDP book. Free tool with official 2026 specifications — no signup required.
+          This free <strong>KDP cover size calculator</strong> computes exact cover dimensions,
+          spine width, interior page size, and margin requirements for every Amazon KDP trim
+          size — paperback and hardcover. Interactive diagram, official 2026 formulas, no signup.
         </p>
       </div>
 
@@ -1243,18 +1244,28 @@ export default function KdpSizeCalculator() {
         </section>
 
         {/* ============ RESULTS COLUMN ============ */}
-        <div className="space-y-6" aria-live="polite">
+        <section
+          aria-labelledby="specifications-heading"
+          aria-live="polite"
+          className="space-y-6"
+        >
+          <h2
+            id="specifications-heading"
+            className="sr-only"
+          >
+            Your Cover Specifications
+          </h2>
           {/* Card 1: Cover dimensions */}
-          <section
+          <div
             aria-labelledby="cover-dims-heading"
             className="bg-gradient-to-br from-primary-50 to-white rounded-2xl shadow-sm ring-1 ring-slate-200 p-6"
           >
-            <h2
+            <h3
               id="cover-dims-heading"
               className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-4"
             >
               Cover Dimensions
-            </h2>
+            </h3>
 
             {combinationInvalid ? (
               <div className="text-sm text-red-700 bg-red-50 ring-1 ring-red-200 rounded-lg p-4">
@@ -1354,19 +1365,19 @@ export default function KdpSizeCalculator() {
                 </button>
               </>
             )}
-          </section>
+          </div>
 
           {/* Card 2: Interior page size */}
-          <section
+          <div
             aria-labelledby="interior-heading"
             className="bg-white rounded-2xl shadow-sm ring-1 ring-slate-200 p-6"
           >
-            <h2
+            <h3
               id="interior-heading"
               className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-4"
             >
               Interior Page Size
-            </h2>
+            </h3>
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <div className="text-xs text-slate-500">
@@ -1395,19 +1406,19 @@ export default function KdpSizeCalculator() {
                 (height). The inside / gutter edge has <strong>no bleed</strong>.
               </p>
             )}
-          </section>
+          </div>
 
           {/* Card 3: Margins */}
-          <section
+          <div
             aria-labelledby="margins-heading"
             className="bg-white rounded-2xl shadow-sm ring-1 ring-slate-200 p-6"
           >
-            <h2
+            <h3
               id="margins-heading"
               className="text-xs font-semibold uppercase tracking-wider text-slate-500 mb-4"
             >
               Interior Margins
-            </h2>
+            </h3>
             <div className="grid grid-cols-3 gap-3 mb-4">
               <div>
                 <div className="text-[11px] text-slate-500">Inside (gutter)</div>
@@ -1473,8 +1484,8 @@ export default function KdpSizeCalculator() {
                 })}
               </tbody>
             </table>
-          </section>
-        </div>
+          </div>
+        </section>
       </div>
 
       {/* ============ COVER LAYOUT DIAGRAM ============ */}
@@ -1487,12 +1498,12 @@ export default function KdpSizeCalculator() {
             <div>
               <h2
                 id="cover-diagram-heading"
-                className="text-sm font-semibold text-slate-900"
+                className="font-display text-xl sm:text-2xl font-bold text-slate-900"
               >
-                Cover Layout Diagram
+                KDP Cover Layout Diagram
               </h2>
-              <p className="text-xs text-slate-500 mt-0.5">
-                Proportional preview — spine scales automatically with your page count.
+              <p className="text-sm text-slate-500 mt-0.5">
+                Proportional preview — the spine scales automatically with your page count.
               </p>
             </div>
             <div className="hidden sm:flex items-center gap-3 text-[11px] text-slate-500">
@@ -1531,11 +1542,11 @@ export default function KdpSizeCalculator() {
             <div>
               <h2
                 id="interior-diagram-heading"
-                className="text-sm font-semibold text-slate-900"
+                className="font-display text-xl sm:text-2xl font-bold text-slate-900"
               >
-                Interior Page Layout
+                KDP Interior Page Layout
               </h2>
-              <p className="text-xs text-slate-500 mt-0.5">
+              <p className="text-sm text-slate-500 mt-0.5">
                 Shows gutter, outside margins, and the safe content area.
               </p>
             </div>
@@ -1564,12 +1575,19 @@ export default function KdpSizeCalculator() {
 
       {/* ============ WHITE VS CREAM COMPARISON ============ */}
       {whiteVsCream && !combinationInvalid && (
-        <section className="mt-6 bg-white rounded-2xl shadow-sm ring-1 ring-slate-200 p-6">
-          <h2 className="text-sm font-semibold text-slate-900 mb-1">
-            White vs Cream Paper — Spine Comparison
+        <section
+          aria-labelledby="white-cream-heading"
+          className="mt-6 bg-white rounded-2xl shadow-sm ring-1 ring-slate-200 p-6"
+        >
+          <h2
+            id="white-cream-heading"
+            className="font-display text-xl sm:text-2xl font-bold text-slate-900"
+          >
+            White Paper vs Cream Paper Spine Comparison
           </h2>
-          <p className="text-xs text-slate-500 mb-4">
-            Same page count ({pageCount}), different paper thickness. Cream is slightly thicker.
+          <p className="text-sm text-slate-500 mt-1 mb-4">
+            Same page count ({pageCount}), different paper thickness. Cream is slightly thicker,
+            so it produces a measurably wider spine on the same book.
           </p>
           <div className="grid grid-cols-3 gap-4">
             <div className="rounded-lg bg-slate-50 p-4">
@@ -1609,13 +1627,19 @@ export default function KdpSizeCalculator() {
 
       {/* ============ PIXEL DIMENSIONS ============ */}
       {!combinationInvalid && (
-        <section className="mt-6 bg-white rounded-2xl shadow-sm ring-1 ring-slate-200 p-6">
-          <h2 className="text-sm font-semibold text-slate-900 mb-1">
+        <section
+          aria-labelledby="pixel-dims-heading"
+          className="mt-6 bg-white rounded-2xl shadow-sm ring-1 ring-slate-200 p-6"
+        >
+          <h2
+            id="pixel-dims-heading"
+            className="font-display text-xl sm:text-2xl font-bold text-slate-900"
+          >
             Cover Dimensions in Pixels (300 DPI)
           </h2>
-          <p className="text-xs text-slate-500 mb-4">
+          <p className="text-sm text-slate-500 mt-1 mb-4">
             For designers working in Photoshop, Canva, or Affinity — 300 DPI is KDP&apos;s minimum
-            for print covers.
+            for print covers. Multiply any inch dimension by 300 to get the pixel count.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">

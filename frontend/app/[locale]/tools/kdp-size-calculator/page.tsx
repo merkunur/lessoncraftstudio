@@ -325,6 +325,12 @@ export default function KdpSizeCalculatorPage({
             book where artwork runs to the edge. Skip bleed for standard novels, text-only
             non-fiction, and most workbooks where content sits inside a safe margin. Enabling
             bleed does not affect printing cost — only page count, ink type, and trim size do.
+            For a step-by-step walkthrough of formatting interior files for worksheet books, see
+            our{' '}
+            <Link href="/en/guides/kdp-formatting-worksheets">
+              KDP Formatting Guide for Worksheet Books
+            </Link>
+            .
           </p>
 
           <h3>Page Size with and without Bleed</h3>
@@ -389,10 +395,19 @@ export default function KdpSizeCalculatorPage({
             For activity book sellers on Amazon KDP, 8.5" × 11" is nearly always the right answer
             for the US market and 8.27" × 11.69" (A4) for international. Both give you enough
             canvas for worksheets, puzzles, and illustrations without forcing solvers to squint or
-            flip the book sideways. Once you&apos;ve locked in your trim size, you can create the
-            interior pages in minutes with our{' '}
+            flip the book sideways. If you&apos;re deciding which niche to enter, skim our list of{' '}
+            <Link href="/en/guides/best-kdp-activity-book-niches">
+              best KDP activity book niches
+            </Link>{' '}
+            and the category-specific playbooks for{' '}
+            <Link href="/en/guides/math-activity-books-kdp">math activity books</Link>,{' '}
+            <Link href="/en/guides/publish-puzzle-books-kdp">puzzle books</Link>, and{' '}
+            <Link href="/en/guides/word-search-books-kdp">word search books</Link>. Once
+            you&apos;ve locked in your trim size, create the interior pages in minutes with our{' '}
             <Link href="/en/apps">printable worksheet generators</Link> — 33 apps covering math,
-            puzzles, coloring, and more.
+            puzzles, coloring, and more. Selling on multiple platforms? See{' '}
+            <Link href="/en/guides/kdp-vs-etsy-printables">Amazon KDP vs Etsy for printables</Link>{' '}
+            for the hybrid strategy most full-time sellers use.
           </p>
 
           <p className="text-xs text-slate-500 mt-8">

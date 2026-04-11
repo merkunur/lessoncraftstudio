@@ -95,6 +95,21 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
         });
       }
     }
+
+    // English-only one-off pages (no localized variants yet)
+    routes.push({
+      url: `${baseUrl}/en/tools/kdp-royalty-calculator`,
+      lastModified: STATIC_CONTENT_DATE,
+      changeFrequency: 'monthly',
+      priority: 0.7,
+      alternates: {
+        languages: {
+          en: `${baseUrl}/en/tools/kdp-royalty-calculator`,
+          'x-default': `${baseUrl}/en/tools/kdp-royalty-calculator`,
+        },
+      },
+    });
+
     return routes;
   }
 

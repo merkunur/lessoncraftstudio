@@ -103,7 +103,22 @@ export function Navigation() {
 
               {desktopDropdownOpen && (
                 <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50">
-                  <div className="bg-white rounded-xl shadow-lg border border-gray-200 py-2 w-64">
+                  <div className="bg-white rounded-xl shadow-lg border border-gray-200 py-2 w-72">
+                    {/* Featured tool callout (English-only — calculator is en only) */}
+                    <Link
+                      href="/en/tools/kdp-royalty-calculator"
+                      className="flex items-start gap-3 mx-2 mb-2 px-3 py-2.5 rounded-lg bg-gradient-to-r from-primary-50 to-white ring-1 ring-primary/20 hover:ring-primary transition-colors"
+                    >
+                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F9EE}'}</span>
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2">
+                          <div className="text-sm font-semibold text-gray-900">KDP Royalty Calculator</div>
+                          <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
+                        </div>
+                        <div className="text-xs text-gray-500 mt-0.5">Free Amazon KDP printing cost &amp; profit tool</div>
+                      </div>
+                    </Link>
+                    <div className="border-t border-gray-100 mb-1" aria-hidden="true" />
                     {resourceLinks.map(item => (
                       <Link
                         key={item.key}
@@ -199,6 +214,16 @@ export function Navigation() {
               </button>
               {mobileResourcesOpen && (
                 <div className="pl-4 space-y-1">
+                  {/* Featured tool — KDP calculator (English only) */}
+                  <Link
+                    href="/en/tools/kdp-royalty-calculator"
+                    className="flex items-center gap-2 py-2 text-sm font-semibold text-primary hover:text-primary-700 transition-colors"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    <span aria-hidden="true">{'\u{1F9EE}'}</span>
+                    <span>KDP Royalty Calculator</span>
+                    <span className="text-[9px] font-bold uppercase tracking-wider bg-primary text-white rounded px-1.5 py-0.5">New</span>
+                  </Link>
                   {resourceLinks.map(item => (
                     <Link
                       key={item.key}

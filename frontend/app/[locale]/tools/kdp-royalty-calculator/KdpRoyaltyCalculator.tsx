@@ -563,9 +563,13 @@ export default function KdpRoyaltyCalculator() {
       <div className="mb-8 text-center">
         <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-bold text-slate-900">
           KDP Royalty Calculator
+          <span className="block text-lg sm:text-xl md:text-2xl font-semibold text-slate-600 mt-2">
+            Free Amazon Printing Cost &amp; Profit Tool
+          </span>
         </h1>
-        <p className="mt-3 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
-          Calculate your Amazon KDP printing costs and royalties instantly. Free tool with official 2026 rates.
+        <p className="mt-4 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
+          Calculate Amazon KDP printing costs, royalties, and minimum list price for paperback
+          books across all 8 marketplaces. Instant, no signup, official 2026 rates.
         </p>
       </div>
 
@@ -939,7 +943,19 @@ export default function KdpRoyaltyCalculator() {
             </div>
             {barSegments ? (
               <>
-                <div className="flex h-7 w-full rounded-full overflow-hidden ring-1 ring-slate-200 bg-slate-100">
+                <div
+                  role="img"
+                  aria-label={`Cost breakdown for a ${pageCount}-page ${
+                    inkType === 'bw' ? 'black and white' : inkType === 'standard-color' ? 'standard color' : 'premium color'
+                  } ${trim} trim paperback on ${marketplace.label} priced at ${
+                    listPrice !== null ? formatCurrency(listPrice, currency, intlLocale) : 'list price'
+                  }: Amazon's cut ${formatCurrency(barSegments[0].value, currency, intlLocale)}, printing cost ${formatCurrency(
+                    barSegments[1].value,
+                    currency,
+                    intlLocale
+                  )}, your royalty ${formatCurrency(barSegments[2].value, currency, intlLocale)}.`}
+                  className="flex h-7 w-full rounded-full overflow-hidden ring-1 ring-slate-200 bg-slate-100"
+                >
                   {barSegments.map((seg) => (
                     <div
                       key={seg.label}
@@ -992,9 +1008,9 @@ export default function KdpRoyaltyCalculator() {
           className="w-full flex items-center justify-between text-left"
         >
           <div>
-            <h2 className="text-lg font-bold text-slate-900">Compare all marketplaces</h2>
+            <h2 className="text-lg font-bold text-slate-900">Compare Royalties Across All Amazon Marketplaces</h2>
             <p className="text-sm text-slate-500 mt-0.5">
-              Same book specs, all 8 currency groups side by side.
+              Same book specs, all 8 currency groups side by side. A unique feature most KDP calculators lack.
             </p>
           </div>
           <span className="ml-4 text-primary text-sm font-semibold">
@@ -1047,10 +1063,10 @@ export default function KdpRoyaltyCalculator() {
 
       {/* ============ OPTIMAL PRICE FINDER ============ */}
       <section className="mt-6 bg-white rounded-2xl shadow-sm ring-1 ring-slate-200 p-6">
-        <h2 className="text-lg font-bold text-slate-900">Optimal price finder</h2>
+        <h2 className="text-lg font-bold text-slate-900">Find Your Optimal Book Price</h2>
         <p className="text-sm text-slate-500 mt-0.5">
           Royalty at every list price from the minimum upward. The highlighted row is the
-          first price that earns the 60% royalty tier.
+          first price that earns the 60% royalty tier — where most KDP authors should aim.
         </p>
         {optimalRows.length > 0 ? (
           <div className="mt-5 -mx-2 sm:mx-0 overflow-x-auto">

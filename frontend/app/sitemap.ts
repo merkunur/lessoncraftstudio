@@ -101,7 +101,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       url: `${baseUrl}/en/tools/kdp-royalty-calculator`,
       lastModified: STATIC_CONTENT_DATE,
       changeFrequency: 'monthly',
-      priority: 0.7,
+      priority: 0.8,
       alternates: {
         languages: {
           en: `${baseUrl}/en/tools/kdp-royalty-calculator`,

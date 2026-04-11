@@ -14,6 +14,7 @@ import { getBlogContent } from '@/config/blog-content';
 import { getSectionLabel } from '@/config/section-labels';
 import { isValidInternalLink, resolveInternalLinkSlug } from '@/lib/resolve-internal-link';
 import ReadMoreText from '@/components/ReadMoreText';
+import InlineRichText from '@/components/InlineRichText';
 import { getBlogVisualConfig } from '@/config/blog-visual-sections/blog-visual-map';
 import { getSectionPlacements, buildInsertionMap } from '@/config/blog-visual-sections/section-placement';
 import { BlogVisualSection } from '@/components/blog-showcase';
@@ -226,7 +227,7 @@ export default async function BlogPostPage({
         {content.introduction && (
           <section className="py-10 md:py-14">
             <div className="container mx-auto px-4 max-w-3xl">
-              <ReadMoreText text={content.introduction} locale={locale} className="text-gray-700 leading-relaxed text-lg" preserveWhitespace lines={12} />
+              <InlineRichText text={content.introduction} locale={locale} className="text-gray-700 leading-relaxed text-lg" preserveWhitespace lines={12} />
             </div>
           </section>
         )}
@@ -238,7 +239,7 @@ export default async function BlogPostPage({
               <div key={i}>
                 <div className="container mx-auto px-4 max-w-3xl mb-10">
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">{section.heading}</h2>
-                  <ReadMoreText text={section.content} locale={locale} className="text-gray-700 leading-relaxed" preserveWhitespace lines={15} />
+                  <InlineRichText text={section.content} locale={locale} className="text-gray-700 leading-relaxed" preserveWhitespace lines={15} />
                 </div>
                 {/* Visual sections inserted after this text section */}
                 {visualConfig && insertionMap.afterSection.get(i)?.map((p, vi) => (

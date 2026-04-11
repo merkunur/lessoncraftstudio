@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, type ReactNode } from 'react';
 import { getSectionLabel } from '@/config/section-labels';
 
 export default function ReadMoreText({
@@ -9,12 +9,14 @@ export default function ReadMoreText({
   className = '',
   lines = 8,
   preserveWhitespace = false,
+  children,
 }: {
   text: string;
   locale: string;
   className?: string;
   lines?: number;
   preserveWhitespace?: boolean;
+  children?: ReactNode;
 }) {
   const [expanded, setExpanded] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -41,7 +43,7 @@ export default function ReadMoreText({
         className={`${className} ${preserveWhitespace ? 'whitespace-pre-line' : ''} ${expanded ? '' : clampClass}`}
         style={clampStyle}
       >
-        {text}
+        {children ?? text}
       </div>
       {(isClamped || expanded) && (
         <button

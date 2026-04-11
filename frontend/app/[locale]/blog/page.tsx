@@ -262,6 +262,9 @@ export default async function BlogIndexPage({
   };
 
   for (const config of blogPageSlugs) {
+    // Skip posts that have no slug for the current locale (e.g. EN-only free-tool
+    // announcements when the user is on /de/blog).
+    if (locale !== 'en' && !config.slugs[locale]) continue;
     const cat = blogCategoryMap[config.blogId] || 'how-to';
     grouped[cat].push(config);
   }

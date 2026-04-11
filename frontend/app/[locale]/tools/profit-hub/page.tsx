@@ -16,9 +16,9 @@ export async function generateStaticParams() {
 
 export async function generateMetadata(): Promise<Metadata> {
   const title =
-    'Printable Profit Hub 2026 — Compare Etsy, Gumroad, TPT, Payhip & KDP Fees Side-by-Side';
+    'Free Printable Profit Calculator 2026 | Compare Etsy, Gumroad, TPT, KDP & More';
   const description =
-    'Free multi-platform profit calculator for printable sellers. Enter one price and see your real profit on Etsy, Gumroad, TPT, Payhip, KDP, Creative Market & your own site — all at once. Reverse pricing, bundle compare, Etsy Ads ROI.';
+    'Calculate your real profit per sale across 7 platforms: Etsy, Gumroad, TPT, Payhip, Amazon KDP, Shopify & Creative Market. See all fees side-by-side, find the optimal price, project monthly revenue. Free tool for printable sellers.';
 
   return {
     title,
@@ -31,9 +31,9 @@ export async function generateMetadata(): Promise<Metadata> {
       },
     },
     openGraph: {
-      title: 'Printable Profit Hub — Compare Etsy, Gumroad, TPT, Payhip & KDP Fees',
+      title: 'Printable Profit Hub — Compare Fees on Etsy, Gumroad, TPT, KDP & More',
       description:
-        'Enter one selling price, see your real profit across 7 platforms side-by-side. Reverse pricing, singles-vs-bundle-vs-KDP comparison, monthly projections, Etsy Ads ROI. Free, no signup.',
+        'See your real profit across 7 platforms for digital products and printables. Reverse pricing, bundle comparisons, revenue projections. Free, no signup.',
       url: pageUrl,
       siteName: 'LessonCraftStudio',
       type: 'website',
@@ -43,15 +43,15 @@ export async function generateMetadata(): Promise<Metadata> {
           url: ogImage,
           width: 1200,
           height: 630,
-          alt: 'Printable Profit Hub showing profit comparison bars across Etsy, Gumroad, TPT, Payhip, own website, KDP, and Creative Market — Free Tool by LessonCraftStudio',
+          alt: 'Printable Profit Hub showing profit comparison across Etsy, Gumroad, TPT, Payhip, KDP, Shopify, and Creative Market',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Printable Profit Hub 2026 | LessonCraftStudio',
+      title: 'Printable Profit Hub 2026 | Compare Fees Across 7 Platforms',
       description:
-        'Compare your real profit on Etsy, Gumroad, TPT, Payhip, KDP & more — side by side, instantly. Free tool for printable and digital product sellers.',
+        'Real profit per sale on Etsy vs Gumroad vs TPT vs KDP vs Payhip vs Shopify vs Creative Market. Free, instant, no signup.',
       images: [ogImage],
     },
     robots: { index: true, follow: true },
@@ -64,44 +64,44 @@ export async function generateMetadata(): Promise<Metadata> {
 
 const FAQ_ITEMS: Array<{ question: string; answer: string }> = [
   {
-    question: 'Which platform pays the most for selling printables?',
+    question: 'How much does Etsy take from a digital product sale?',
     answer:
-      'Your own website is mathematically the highest — you only pay ~2.9% + $0.30 Stripe processing, netting ~93% of a $6.99 sale. Payhip Free is second (~88%), Etsy third at ~84% without offsite ads. TPT Basic and Creative Market pay the least (~50%). But raw profit isn\'t the only factor — Etsy and TPT bring you buyers you never had to acquire yourself, while your own site requires you to drive every visitor.',
+      "For US sellers, Etsy charges a $0.20 listing fee (per sale for digital products), a 6.5% transaction fee on the item price, and a payment processing fee of 3% plus $0.25. On a $6.99 digital download, total fees are approximately $1.11, leaving you with $5.88. If the sale comes through Etsy's Offsite Ads program, an additional 15% fee ($1.05) applies, reducing your profit to $4.83.",
   },
   {
-    question: 'Is Etsy Offsite Ads mandatory?',
+    question: 'Which platform has the lowest fees for selling printables?',
     answer:
-      'Only if your shop earns more than $10,000 in the last 365 days. At that threshold, Etsy automatically enrolls you at the lower 12% rate, and you cannot opt out. Shops earning under $10K can opt out at any time in your shop dashboard — if you do, you\'ll never pay the 15% fee. This tool lets you toggle Offsite Ads on or off so you can see the worst-case impact either way.',
+      "Selling on your own website (via Stripe or PayPal) has the lowest per-sale fees: approximately 2.9% plus $0.30 per transaction. Among marketplaces, Payhip's free plan (5% plus payment processing) typically beats Etsy and Gumroad. However, marketplaces like Etsy provide built-in traffic that your own website doesn't. The best choice depends on whether you already have an audience or need marketplace discovery.",
   },
   {
-    question: 'Is TPT Premium worth the $59.95/year upgrade?',
+    question: 'Is it better to sell printables on Etsy or Gumroad?',
     answer:
-      'Yes, for most active sellers. The upgrade jumps you from 55% payout to 80% payout — that\'s 25% more profit on every sale, plus the $0.30 transaction fee gets waived on orders above $3. At even just 30 sales per month of a $6.99 product, the extra profit covers the $59.95 annual fee in the first month and nets you hundreds of dollars extra per year. Use the Subscription Breakeven insight in the projections section to see the math for your exact volume.',
+      'Etsy charges approximately 12-15% in total fees but provides built-in traffic from 95+ million active buyers. Gumroad charges 10% plus $0.50 per transaction but has no marketplace — you must drive your own traffic. For sellers without an existing audience, Etsy is usually better despite higher fees. For sellers with a social media following or email list, Gumroad or Payhip lets you keep more profit per sale.',
   },
   {
-    question: 'Why is Creative Market so much lower than the others?',
+    question: "What is Etsy's offsite ads fee and can I opt out?",
     answer:
-      'Creative Market takes a flat 50% commission on non-exclusive products. It\'s positioned as a premium curated marketplace for design assets — fonts, graphics, mockups, and templates — where the audience is professional designers willing to pay higher prices. For general printables (worksheets, planners, colouring pages), the 50% cut is painful and the audience fit is weaker than Etsy or Gumroad.',
+      'Etsy advertises your listings on Google, Facebook, and Instagram. If a buyer clicks these ads and purchases within 30 days, Etsy charges 15% of the sale price (12% for shops earning over $10,000/year). Shops earning under $10,000/year can opt out of this program. Shops earning over $10,000/year cannot opt out — the fee is mandatory. This can significantly reduce profit on affected sales.',
   },
   {
-    question: 'Does this calculator handle international currencies?',
+    question: 'Should I upgrade to TPT Premium seller account?',
     answer:
-      'Not in this version — all calculations are in US dollars and use US seller fee structures (US Etsy Payments, US Stripe rates, amazon.com KDP royalty thresholds, etc.). For KDP printing and royalty across 8 international marketplaces, use our dedicated KDP Royalty Calculator linked below. A multi-currency version of this tool is on the roadmap.',
+      'TPT Basic sellers keep 55% of each sale with a $0.30 transaction fee. Premium sellers keep 80% for $59.95/year with reduced transaction fees. The upgrade pays for itself quickly: selling just $240 worth of products per year (about $20/month) makes Premium more profitable. If you sell more than 2-3 products per month on TPT, the Premium upgrade is almost always worth it.',
   },
   {
-    question: 'What isn\'t included in the per-sale calculations?',
+    question: 'How do I price my printables to make a profit after fees?',
     answer:
-      'Monthly subscription costs (TPT Premium $59.95/yr, Payhip Plus $29/mo, Payhip Pro $99/mo, Shopify $39/mo) are not subtracted from the per-sale profit figures — they\'re shown separately in the Monthly Projections breakeven insights. We also don\'t model sales tax, VAT, income tax, chargebacks, refunds, or the time you spend on customer service. Always consult a tax professional before making pricing decisions for your business.',
+      'Start with your target profit per sale and work backward. On Etsy, you need to price about 15-20% higher than your desired profit to cover all fees. On Gumroad, add about 12-15%. On TPT Premium, add about 25%. On your own website, add about 5%. Use our reverse pricing calculator above to find the exact price for your target profit on each platform.',
   },
   {
-    question: 'Can I sell the same product on multiple platforms at once?',
+    question: 'Is it more profitable to sell printables individually or as bundles?',
     answer:
-      'Yes, and most successful printable sellers do exactly that. Selling on Etsy plus KDP plus your own website simultaneously is a common strategy — each platform reaches a different audience, and the only overhead is uploading the file and managing prices. The one caveat is Creative Market, which offers a higher commission if you go exclusive (70% instead of 50%). This calculator shows you the per-platform economics so you can decide which ones are worth your listing time.',
+      "Bundles almost always generate more profit per customer than individual sales. A bundle of 10 worksheets at $6.99 earns you more than selling one worksheet at $1.99, and most customers won't buy all 10 individually. Bundles also have lower per-unit fee impact since listing fees and fixed processing charges apply once per transaction. For Amazon KDP, compiling worksheets into a printed book at $9.99+ unlocks the 60% royalty tier.",
   },
   {
-    question: 'How does the reverse pricing calculator work?',
+    question: 'Can I sell the same printable on multiple platforms?',
     answer:
-      'You enter the profit you want to keep per sale (e.g., $5.00), and we compute the minimum selling price needed on each platform to hit that target after all fees. The formulas are closed-form — they solve for price by dividing your target profit (plus any fixed fees) by the proportional fee multiplier. This is the fastest way to set prices when you know your costs: decide what you need to earn, and the tool tells you what to charge.',
+      'Yes, you can sell the same digital product on Etsy, Gumroad, TPT, Payhip, and your own website simultaneously. There are no exclusivity requirements for digital downloads on these platforms. For Amazon KDP, you can sell a compiled book version alongside individual downloads on other platforms. Many successful sellers use a multi-platform strategy to maximize reach and revenue.',
   },
 ];
 
@@ -124,7 +124,7 @@ const webApplicationJsonLd = {
   '@type': 'WebApplication',
   name: 'Printable Profit Hub',
   description:
-    'Free multi-platform pricing and profit calculator for printable and digital product sellers. Compares Etsy, Gumroad, Teachers Pay Teachers, Payhip, own website (Stripe), Amazon KDP, and Creative Market side by side.',
+    'Free multi-platform profit calculator for printable and digital product sellers. Compare real profit per sale across Etsy, Gumroad, TPT, Payhip, Amazon KDP, Shopify, and Creative Market. Includes reverse pricing, bundle comparison, revenue projections, and Etsy Ads ROI calculator.',
   url: pageUrl,
   applicationCategory: 'BusinessApplication',
   operatingSystem: 'Any',
@@ -207,13 +207,14 @@ export default function ProfitHubPage({ params }: { params: { locale: string } }
         {/* Hero */}
         <header className="mb-6 max-w-3xl">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold font-display text-slate-900 tracking-tight">
-            Printable Profit Hub — See Your Real Profit on 7 Platforms at Once
+            Printable Profit Hub — Compare Your Profit Across Etsy, Gumroad, TPT, KDP &amp; More
           </h1>
           <p className="mt-3 text-base sm:text-lg text-slate-600 leading-relaxed">
-            The only free calculator that shows your <em>actual take-home profit</em> on Etsy,
-            Gumroad, Teachers Pay Teachers, Payhip, your own Stripe-powered site, Amazon KDP, and
-            Creative Market — side by side, updated instantly as you type. Built for printable
-            and digital product sellers who are tired of guessing.
+            The only free <strong>Etsy profit calculator</strong> that also compares Gumroad,
+            Teachers Pay Teachers, Payhip, your own Stripe-powered site, Amazon KDP, and Creative
+            Market — side by side, updated instantly as you type. Stop guessing how much Etsy
+            takes per sale. See every fee on every platform, find the optimal price, and project
+            your monthly revenue in one view.
           </p>
         </header>
 
@@ -234,28 +235,30 @@ export default function ProfitHubPage({ params }: { params: { locale: string } }
         {/* The tool */}
         <ProfitHub />
 
-        {/* CTA banner */}
+        {/* CTA banner — monetization bridge: Profit Hub → KDP book creation → generators */}
         <section className="mt-14 rounded-2xl bg-gradient-to-r from-primary to-primary-700 text-white p-6 sm:p-8 shadow-md">
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6">
             <div className="flex-1">
               <h2 className="text-xl sm:text-2xl font-bold flex items-center gap-2">
-                <span aria-hidden="true">🚀</span>
-                Ready to create the products you&apos;re pricing?
+                <span aria-hidden="true">📚</span>
+                Thinking about creating a KDP book?
               </h2>
               <p className="mt-2 text-sm sm:text-base text-white/90 max-w-2xl">
-                Use our{' '}
+                Compile your worksheets into a professional activity book and sell it on Amazon
+                for passive income alongside your Etsy shop. Create math worksheets, word
+                searches, coloring pages, and 30+ activity types in minutes with our{' '}
                 <Link href="/en/apps" className="underline font-semibold hover:text-white">
-                  33 free worksheet generators
+                  free worksheet generators
                 </Link>{' '}
-                to build professional printables for your Etsy shop, KDP book, or Gumroad store.
-                Try every tool free with a watermark — license to remove it for commercial use.
+                — try every tool free with a watermark, license to remove it for commercial KDP
+                use.
               </p>
             </div>
             <Link
               href="/en/apps"
               className="inline-flex items-center gap-2 rounded-lg bg-white text-primary font-semibold px-5 py-3 shadow-sm hover:bg-primary-50 transition whitespace-nowrap"
             >
-              Browse all generators →
+              Create book pages →
             </Link>
           </div>
         </section>
@@ -272,16 +275,33 @@ export default function ProfitHubPage({ params }: { params: { locale: string } }
             left on the table. Multiply by five products, or ten, or fifty, and the difference
             between a hobby and a business becomes obvious. Understanding what each platform
             actually costs you is not optional — it&apos;s the single lever that decides whether
-            your printable shop is a time-sucking side project or a real income stream.
+            your printable shop is a time-sucking side project or a real income stream. Our
+            reverse pricing calculator above makes it trivial to{' '}
+            <Link href="/en/guides/price-etsy-printables">
+              price your Etsy printable worksheets
+            </Link>{' '}
+            for any target profit.
           </p>
+
+          <h3>Understanding Fee Types (Listing, Transaction, Processing, Commission)</h3>
           <p>
-            The trap is that fees on every platform look deceptively small in isolation. Etsy
-            says 6.5% transaction fee. Sure, manageable. But then there&apos;s the $0.20 listing
-            fee that auto-renews on every sale. And the 3% + $0.25 payment processing. And if
-            Offsite Ads is on, another 15% on top. By the time you add up the line items, Etsy is
-            eating ~16% of a $6.99 sale with ads off, or <strong>~31% with ads on</strong>. The
-            Profit Hub above exists to make that total visible on every platform at once, so you
-            can see exactly where your money is going before you list anything.
+            Every platform combines four fee types in a different ratio, and once you can spot
+            them in the wild you&apos;ll never be surprised by a payout again. A <strong>listing
+            fee</strong> is a fixed charge per product (Etsy charges $0.20 and renews it on every
+            digital sale). A <strong>transaction fee</strong> is a percentage of the sale price
+            that the platform keeps as revenue (Etsy is 6.5%, Gumroad is 10%). A{' '}
+            <strong>payment processing fee</strong> is what the card network charges to move
+            money from the buyer to you — almost universally 2.9% + $0.30 from Stripe, PayPal, or
+            Etsy Payments. A <strong>commission</strong> is a flat percentage cut that a
+            marketplace keeps instead of separating out individual fees (TPT Basic keeps 45%,
+            Creative Market keeps 50%). The trap is that fees in isolation look small — Etsy&apos;s
+            6.5% transaction fee sounds fine until you add the listing, processing, and Offsite
+            Ads on top and the combined rate hits ~31%. For a deeper breakdown of how this plays
+            out across the biggest printable marketplaces, read our guide on{' '}
+            <Link href="/en/guides/pricing-educational-printables">
+              pricing strategies for educational printables
+            </Link>
+            .
           </p>
 
           <h2>Etsy Fees Explained for Digital Product Sellers</h2>
@@ -293,25 +313,36 @@ export default function ProfitHubPage({ params }: { params: { locale: string } }
             price. Because digital products have no shipping cost, the transaction fee is
             calculated on just the item price, unlike physical products. The <strong>payment
             processing fee</strong> is 3% of the item price plus $0.25 fixed, handled by Etsy
-            Payments for US sellers (rates differ by country).
+            Payments for US sellers (rates differ by country). Put those together and you can see
+            that on a $10 sale, Etsy takes roughly $1.60 — and that&apos;s before Offsite Ads. If
+            you&apos;re just getting started on the platform, read our guides on how to{' '}
+            <Link href="/en/guides/sell-math-worksheets-etsy">
+              sell math worksheets on Etsy
+            </Link>{' '}
+            and how to{' '}
+            <Link href="/en/guides/sell-word-search-etsy">
+              sell word search puzzles on Etsy
+            </Link>{' '}
+            — both cover the fee math in the context of the specific niches.
           </p>
+
+          <h3>The Offsite Ads Fee Most Sellers Forget</h3>
           <p>
             Then there&apos;s the Offsite Ads bombshell. Etsy runs ads for your shop on Google,
             Facebook, and Instagram automatically. When a buyer clicks one of those ads and
-            purchases your product, Etsy charges you <strong>15% of the sale</strong> — or{' '}
-            <strong>12% if your shop has earned over $10,000 in the past 365 days</strong>. At
-            the $10K threshold, Offsite Ads becomes mandatory — you can&apos;t opt out. Below it,
-            you can toggle it off from your shop dashboard. This tool lets you preview the
-            worst-case Offsite Ads impact with one click, so you can price with the fee baked in
-            rather than be surprised by it. For a deeper dive into Etsy pricing strategy, see{' '}
-            <Link href="/en/tools/kdp-royalty-calculator">our KDP Royalty Calculator</Link>{' '}
-            (which handles the non-Etsy side of hybrid shops) and{' '}
+            purchases your product within 30 days, Etsy charges you <strong>15% of the sale</strong>{' '}
+            — or <strong>12% if your shop has earned over $10,000 in the past 365 days</strong>.
+            At the $10K threshold, Offsite Ads becomes mandatory: you cannot opt out. Below it,
+            you can toggle it off from your shop dashboard. Most sellers forget this fee exists
+            until a payout comes in far smaller than expected. The Profit Hub toggle above lets
+            you preview the worst-case Offsite Ads impact with one click, so you can price with
+            the fee baked in rather than be surprised by it. For the authoritative details, see{' '}
             <a
-              href="https://www.etsy.com/seller-handbook/article/how-our-fees-work/1015196521"
+              href="https://help.etsy.com/hc/en-us/articles/115014483627"
               target="_blank"
               rel="nofollow noopener"
             >
-              Etsy&apos;s official fee documentation
+              Etsy&apos;s seller fee documentation
             </a>
             .
           </p>
@@ -319,74 +350,126 @@ export default function ProfitHubPage({ params }: { params: { locale: string } }
           <h2>Where Should You Sell Your Printables?</h2>
           <p>
             There is no single best platform — only the platform that&apos;s best for a specific
-            goal. Use these rules of thumb when you&apos;re deciding where to list a new product:
+            goal. Each of the five options below attracts a completely different buyer and
+            rewards a completely different seller profile. Most successful printable sellers pick
+            two or three that complement each other rather than betting on one.
           </p>
-          <ul>
-            <li>
-              <strong>Etsy</strong> — Best for discoverability. Etsy has 90 million+ active
-              buyers who are already looking for printables. You&apos;ll pay ~16% in fees without
-              Offsite Ads, but you get organic traffic you don&apos;t have to acquire yourself.
-              This is the default first platform for most printable sellers.
-            </li>
-            <li>
-              <strong>Gumroad</strong> — Best when you already have an audience. At 10% + $0.50
-              per sale, Gumroad is cheaper than Etsy and lets you sell directly to an email list,
-              Twitter following, or newsletter audience. No built-in discovery though — you have
-              to drive every visitor.
-            </li>
-            <li>
-              <strong>Teachers Pay Teachers</strong> — Best for classroom-focused educational
-              content. TPT Basic pays just 55%, but Premium ($59.95/year) pays 80% and waives the
-              transaction fee above $3. If you sell lesson plans and student worksheets, the
-              built-in teacher audience is hard to beat.
-            </li>
-            <li>
-              <strong>Payhip</strong> — Best value on the per-sale math. Free plan is 5% + Stripe
-              processing. Plus ($29/mo) drops to 2%. Pro ($99/mo) drops to 0%. Use the breakeven
-              insights in the projections section to figure out which plan fits your volume.
-            </li>
-            <li>
-              <strong>Own website (Shopify / Stripe / Gumroad-linked)</strong> — Best profit
-              margin at scale. Only 2.9% + $0.30 in Stripe fees means you keep ~93% of every
-              dollar. The tradeoff is hosting costs (~$10-39/month) and the fact that you have to
-              drive 100% of your own traffic.
-            </li>
-            <li>
-              <strong>Amazon KDP</strong> — Best for passive income via compiled books. If your
-              printables can be combined into a paperback or workbook, KDP gives you access to
-              Amazon&apos;s buyer traffic with zero customer service (Amazon handles everything).
-              The royalty is only ~31% after printing costs, but the book sells itself. Use our{' '}
-              <Link href="/en/tools/kdp-royalty-calculator">KDP Royalty Calculator</Link> and{' '}
-              <Link href="/en/tools/kdp-size-calculator">KDP Size Calculator</Link> to plan your
-              first book, and the{' '}
-              <Link href="/en/tools/activity-book-planner">Activity Book Planner</Link> to
-              structure the interior.
-            </li>
-            <li>
-              <strong>Creative Market</strong> — Best for design assets, not general printables.
-              Their 50% commission is painful for worksheets or planners, but their audience of
-              professional designers pays premium prices for fonts, mockups, and templates.
-            </li>
-          </ul>
+
+          <h3>Etsy — Built-in Traffic, Higher Fees</h3>
           <p>
-            The smartest printable sellers don&apos;t pick one platform — they pick two or three
-            that complement each other. Etsy for discovery + KDP for passive income is a
-            particularly strong combination: Etsy sells your high-margin digital downloads to
-            people actively searching for printables, while KDP sells a compiled book version to
-            Amazon shoppers who would never find your Etsy shop. Looking for ideas?{' '}
-            <Link href="/en/tools/niche-finder">Browse our Niche Finder</Link> for 50+ profitable
-            printable niches scored by demand and competition.
+            Etsy is the default first platform for most printable sellers because it has 95
+            million+ active buyers already searching for printables, planners, and worksheets.
+            You&apos;ll pay roughly 12–16% in combined fees (more with Offsite Ads), but you get
+            organic traffic you don&apos;t have to acquire yourself. The platform is saturated,
+            so tight niching and strong SEO matter — read our guide on{' '}
+            <Link href="/en/guides/sell-math-worksheets-etsy">
+              how to sell math worksheets on Etsy
+            </Link>{' '}
+            for niche-specific tactics, and use our{' '}
+            <Link href="/en/tools/niche-finder">Printable Niche Research Tool</Link> to find
+            under-served subcategories with proven demand.
+          </p>
+
+          <h3>Gumroad — Simple but Expensive at Scale</h3>
+          <p>
+            Gumroad charges a flat 10% + $0.50 per sale and requires zero setup — you can list a
+            product in under five minutes. The catch is there&apos;s no marketplace: you must
+            drive every buyer yourself via email list, Twitter, Pinterest, or a newsletter. For
+            sellers who already have an audience, Gumroad lets you keep more than Etsy does. For
+            sellers who don&apos;t, the &ldquo;cheaper fees&rdquo; are meaningless because there&apos;s
+            no traffic to capture. See our full walkthrough on{' '}
+            <Link href="/en/guides/sell-printables-gumroad">
+              how to sell printables on Gumroad
+            </Link>{' '}
+            to decide if it fits your audience stage.
+          </p>
+
+          <h3>TPT — Premium Pricing for Educators</h3>
+          <p>
+            Teachers Pay Teachers is hands-down the best platform for classroom-focused
+            educational content — lesson plans, student worksheets, assessments. TPT Basic pays
+            55% of each sale with a $0.30 transaction fee. TPT Premium at $59.95/year pays 80%
+            and waives the transaction fee on orders above $3 — a massive jump that pays for
+            itself after about 240 dollars in annual sales. The built-in audience of millions of
+            teachers is hard to beat if your content is genuinely classroom-ready. Our guide on{' '}
+            <Link href="/en/guides/create-sell-tpt-resources">
+              how to create and sell TPT resources
+            </Link>{' '}
+            covers everything from product formatting to the Premium upgrade math.
+          </p>
+
+          <h3>Amazon KDP — Passive Income from Compiled Books</h3>
+          <p>
+            If your printables can be compiled into a paperback or workbook, Amazon KDP unlocks a
+            completely different buyer pool — people who never visit Etsy but buy Amazon books by
+            the thousands every day. The royalty rate is 60% on books priced at $9.99+ (50%
+            below that threshold), minus the printing cost. That works out to roughly 30–35% net
+            royalty on a 100-page B&amp;W activity book, but the revenue is pure passive income:
+            Amazon handles printing, shipping, customer service, and returns. Read our deep dive
+            on{' '}
+            <Link href="/en/guides/make-money-kdp-activity-books">
+              how to make money with KDP activity books
+            </Link>{' '}
+            and our comparison of{' '}
+            <Link href="/en/guides/kdp-vs-etsy-printables">
+              Amazon KDP vs Etsy for printable sellers
+            </Link>{' '}
+            — both explain why most sellers should run KDP <em>alongside</em> Etsy, not instead
+            of it. Then use our{' '}
+            <Link href="/en/tools/kdp-royalty-calculator">KDP Royalty Calculator</Link> for the
+            per-marketplace math and the{' '}
+            <Link href="/en/tools/kdp-size-calculator">KDP Cover &amp; Interior Size Calculator</Link>{' '}
+            for exact cover dimensions.
+          </p>
+
+          <h3>Your Own Website — Maximum Profit, You Drive Traffic</h3>
+          <p>
+            A Stripe-powered Shopify store (or any own-site setup) has the absolute lowest fees:
+            2.9% + $0.30 per transaction. On a $6.99 digital download you keep $6.49 — over $0.60
+            more than Etsy. The tradeoff is that no one will find your site by accident. You
+            drive every single visitor yourself through SEO, social, email, or paid ads. Most
+            sellers should launch on Etsy first to build an audience, then migrate repeat buyers
+            to their own site once they have enough volume to justify the hosting fee and the
+            marketing effort. For the complete strategy on running multi-platform operations,
+            read our guide on how to{' '}
+            <Link href="/en/guides/create-etsy-worksheet-bundles">
+              create Etsy worksheet bundles
+            </Link>{' '}
+            — the same bundling logic applies to your own store.
           </p>
 
           <p className="text-xs text-slate-500 mt-8">
             Fee structures on this page are sourced from each platform&apos;s official
-            documentation as of April 2026. Rates change — always cross-check at each
-            platform&apos;s current fee page before making pricing decisions. This tool does not
-            calculate sales tax, VAT, or income tax; always consult a tax professional for
+            documentation as of April 2026:{' '}
+            <a
+              href="https://help.etsy.com/hc/en-us/articles/115014483627"
+              target="_blank"
+              rel="nofollow noopener"
+            >
+              Etsy seller fees
+            </a>
+            ,{' '}
+            <a href="https://gumroad.com/pricing" target="_blank" rel="nofollow noopener">
+              Gumroad pricing
+            </a>
+            ,{' '}
+            <a
+              href="https://help.teacherspayteachers.com/hc/en-us/articles/360044219891"
+              target="_blank"
+              rel="nofollow noopener"
+            >
+              TPT seller fees
+            </a>
+            , and{' '}
+            <a href="https://payhip.com/pricing" target="_blank" rel="nofollow noopener">
+              Payhip pricing
+            </a>
+            . Rates change — always cross-check before making pricing decisions. This tool does
+            not calculate sales tax, VAT, or income tax; always consult a tax professional for
             business advice.
           </p>
 
-          <h2>Frequently Asked Questions</h2>
+          <h2>Frequently Asked Questions About Selling Printables</h2>
         </article>
 
         <div className="mt-6">

@@ -1,5 +1,5 @@
 /**
- * blog-visual-map.ts — Maps all 112 blog posts to their visual section configs.
+ * blog-visual-map.ts — Maps all 212 blog posts to their visual section configs.
  *
  * Uses { appKey, idx } references that resolve to locale-correct filenames
  * at render time via image-resolver.ts. idx refers to the position in the
@@ -241,10 +241,152 @@ const cat4: Record<string, BlogVisualConfig> = {
 };
 
 // ═══════════════════════════════════════════════════════════════
-// MERGED MAP — all 112 blog posts
+// SEO OVERHAUL: Category D — Tool Comparisons & "Best Of" (15)
 // ═══════════════════════════════════════════════════════════════
 
-export const blogVisualMap: Record<string, BlogVisualConfig> = { ...cat1, ...cat2, ...cat3, ...cat4 };
+const seoD: Record<string, BlogVisualConfig> = {
+  'lessoncraftstudio-vs-book-bolt': platformStrategy(['wordsearch', 'addition', 'coloring'], { beforeAfter: { lcsImage: r('wordsearch', 0) } }, 'blue'),
+  'lessoncraftstudio-vs-bookgenie': platformStrategy(['addition', 'crossword', 'sudoku'], { beforeAfter: { lcsImage: r('addition', 0) } }, 'purple'),
+  'best-word-search-generators-kdp': productGuide('wordsearch', 'sky'),
+  'best-kdp-activity-book-tools': platformStrategy(['addition', 'wordsearch', 'coloring'], { bundle: { images: [r('addition', 0), r('wordsearch', 0), r('coloring', 0), r('crossword', 0)], pageCount: 50 } }, 'emerald'),
+  'best-worksheet-generators-etsy': platformStrategy(['addition', 'coloring', 'matching'], { platformMockup: { platform: 'etsy', image: r('addition', 0) } }, 'orange'),
+  'lessoncraftstudio-vs-canva': platformStrategy(['coloring', 'addition', 'wordsearch'], { beforeAfter: { lcsImage: r('coloring', 0) } }, 'pink'),
+  'lessoncraftstudio-vs-tangent-templates': platformStrategy(['addition', 'wordsearch', 'matching'], { beforeAfter: { lcsImage: r('addition', 0) } }, 'amber'),
+  'best-crossword-generators-kdp': productGuide('crossword', 'violet'),
+  'lessoncraftstudio-vs-self-publishing-titans': platformStrategy(['wordsearch', 'sudoku', 'crossword'], { beforeAfter: { lcsImage: r('wordsearch', 0) } }, 'indigo'),
+  'free-vs-paid-worksheet-generators': platformStrategy(['addition', 'wordsearch', 'coloring'], { beforeAfter: { lcsImage: r('addition', 0) } }, 'teal'),
+  'best-coloring-page-generators-kdp': productGuide('coloring', 'rose'),
+  'best-math-worksheet-generators-kdp': productGuide('math-worksheet', 'blue'),
+  'lessoncraftstudio-vs-activity-book-generator': platformStrategy(['math-puzzle', 'wordsearch', 'coloring'], { bundle: { images: [r('math-puzzle', 0), r('wordsearch', 0), r('coloring', 0)], pageCount: 50 } }, 'green'),
+  'best-sudoku-generators-kdp': productGuide('sudoku', 'teal'),
+  'post-generation-editing-advantage': platformStrategy(['addition', 'coloring', 'wordsearch'], { beforeAfter: { lcsImage: r('addition', 0) } }, 'purple'),
+};
+
+// ═══════════════════════════════════════════════════════════════
+// SEO OVERHAUL: Category A — "How to Create [Product]" (20)
+// ═══════════════════════════════════════════════════════════════
+
+const seoA: Record<string, BlogVisualConfig> = {
+  'create-word-search-book-kdp': howToTiers(['wordsearch'], 'sky'),
+  'create-math-workbooks-kdp': howToTiers(['math-worksheet', 'addition'], 'blue'),
+  'make-coloring-books-sell-etsy': howToTiers(['coloring'], 'rose'),
+  'create-activity-books-kids-kdp': howToTiers(['math-puzzle', 'wordsearch', 'coloring'], 'purple'),
+  'make-crossword-puzzle-books-kdp': howToTiers(['crossword'], 'violet'),
+  'create-sudoku-books-kdp': howToTiers(['sudoku'], 'teal'),
+  'make-handwriting-practice-books-kdp': howToTiers(['writing'], 'indigo'),
+  'create-i-spy-books-kdp': howToTiers(['find-and-count', 'find-objects'], 'cyan'),
+  'make-pattern-worksheets-sell-etsy': howToTiers(['pattern-train', 'pattern-worksheet'], 'orange'),
+  'create-matching-activity-books-kdp': howToTiers(['matching', 'shadow-match'], 'emerald'),
+  'make-word-scramble-books-kdp': howToTiers(['word-scramble'], 'rose'),
+  'create-bingo-cards-sell-etsy-tpt': howToTiers(['bingo'], 'red'),
+  'make-cryptogram-puzzle-books-kdp': howToTiers(['cryptogram'], 'amber'),
+  'create-alphabet-tracing-books-kdp': howToTiers(['alphabet-train'], 'green'),
+  'make-preschool-workbooks-sell-etsy': howToTiers(['big-small', 'matching', 'drawing-lines'], 'pink'),
+  'create-multi-language-printables-global': howToTiers(['wordsearch', 'crossword'], 'cyan'),
+  'make-logic-puzzle-books-kdp': howToTiers(['odd-one-out', 'missing-pieces'], 'indigo'),
+  'create-treasure-hunt-printables-sell': howToTiers(['treasure-hunt'], 'amber'),
+  'make-preposition-worksheets-esl-markets': howToTiers(['prepositions'], 'teal'),
+  'create-learning-packet-sell-tpt': howToTiers(['addition', 'wordsearch', 'coloring'], 'emerald'),
+};
+
+// ═══════════════════════════════════════════════════════════════
+// SEO OVERHAUL: Category B — Platform & Business Guides (20)
+// ═══════════════════════════════════════════════════════════════
+
+const seoB: Record<string, BlogVisualConfig> = {
+  'sell-worksheets-etsy-guide-2026': platformStrategy(['addition', 'wordsearch', 'coloring'], { platformMockup: { platform: 'etsy', image: r('addition', 0) } }, 'emerald'),
+  'sell-activity-books-amazon-kdp-guide': platformStrategy(['math-puzzle', 'wordsearch', 'crossword'], { platformMockup: { platform: 'kdp', image: r('math-puzzle', 0) } }, 'blue'),
+  'sell-printables-teachers-pay-teachers-2026': platformStrategy(['addition', 'matching', 'bingo'], { platformMockup: { platform: 'etsy', image: r('matching', 0) } }, 'purple'),
+  'sell-printable-puzzles-gumroad': platformStrategy(['crossword', 'cryptogram', 'sudoku'], { beforeAfter: { lcsImage: r('crossword', 0) } }, 'amber'),
+  'price-kdp-activity-books-maximum-profit': platformStrategy(['addition', 'wordsearch', 'coloring'], { bundle: { images: [r('addition', 0), r('wordsearch', 0), r('coloring', 0), r('addition', 2)], pageCount: 50 } }, 'orange'),
+  'etsy-seo-printable-sellers-guide-2026': platformStrategy(['wordsearch', 'coloring', 'matching'], { platformMockup: { platform: 'etsy', image: r('wordsearch', 0) } }, 'blue'),
+  'amazon-kdp-keywords-activity-books': platformStrategy(['wordsearch', 'math-puzzle', 'crossword'], { platformMockup: { platform: 'kdp', image: r('wordsearch', 0) } }, 'indigo'),
+  'etsy-listings-convert-digital-downloads': platformStrategy(['addition', 'coloring', 'sudoku'], { platformMockup: { platform: 'etsy', image: r('coloring', 0) } }, 'emerald'),
+  'kdp-categories-puzzle-activity-books': platformStrategy(['wordsearch', 'crossword', 'sudoku'], { platformMockup: { platform: 'kdp', image: r('crossword', 0) } }, 'purple'),
+  'bundle-printables-higher-order-value-etsy': platformStrategy(['addition', 'subtraction', 'math-worksheet'], { bundle: { images: [r('addition', 0), r('subtraction', 0), r('math-worksheet', 0), r('addition', 2), r('subtraction', 2)], pageCount: 75 } }, 'pink'),
+  'start-printable-business-no-design-skills-guide': platformStrategy(['addition', 'coloring', 'matching'], { beforeAfter: { lcsImage: r('matching', 0) } }, 'green'),
+  'how-much-money-selling-printables-etsy': platformStrategy(['addition', 'wordsearch', 'coloring'], { bundle: { images: [r('addition', 0), r('wordsearch', 0), r('coloring', 0)], pageCount: 30 } }, 'amber'),
+  'kdp-activity-book-interior-formatting': platformStrategy(['math-puzzle', 'wordsearch', 'coloring'], { platformMockup: { platform: 'kdp', image: r('math-puzzle', 0) } }, 'blue'),
+  'create-mockup-images-etsy-printables': platformStrategy(['coloring', 'addition', 'wordsearch'], { platformMockup: { platform: 'etsy', image: r('coloring', 2) } }, 'rose'),
+  'printable-business-tax-guide-kdp-etsy': platformStrategy(['addition', 'wordsearch', 'coloring'], { beforeAfter: { lcsImage: r('wordsearch', 0) } }, 'indigo'),
+  'scale-printable-business-10-to-500-products': platformStrategy(['addition', 'subtraction', 'wordsearch'], { bundle: { images: [r('addition', 0), r('subtraction', 0), r('wordsearch', 0), r('matching', 0), r('coloring', 0)], pageCount: 100 } }, 'teal'),
+  'seasonal-printables-holiday-demand-planning': platformStrategy(['coloring', 'wordsearch', 'matching'], { bundle: { images: [r('coloring', 0), r('wordsearch', 0), r('matching', 0), r('crossword', 0)], pageCount: 100 } }, 'red'),
+  'get-reviews-etsy-digital-products': platformStrategy(['addition', 'wordsearch', 'coloring'], { platformMockup: { platform: 'etsy', image: r('wordsearch', 0) } }, 'orange'),
+  'kdp-expanded-distribution-activity-books': platformStrategy(['wordsearch', 'crossword', 'sudoku'], { platformMockup: { platform: 'kdp', image: r('wordsearch', 0) } }, 'sky'),
+  'pinterest-traffic-etsy-printable-shop': platformStrategy(['coloring', 'draw-and-color', 'matching'], { platformMockup: { platform: 'etsy', image: r('coloring', 2) } }, 'pink'),
+};
+
+// ═══════════════════════════════════════════════════════════════
+// SEO OVERHAUL: Category C — Niche Ideas & Market Research (20)
+// ═══════════════════════════════════════════════════════════════
+
+const seoC: Record<string, BlogVisualConfig> = {
+  'profitable-kdp-activity-book-niches-2026': nicheSeasonal(['wordsearch', 'math-puzzle', 'coloring', 'crossword'], 'emerald'),
+  'low-competition-printable-niches-etsy-2026': nicheSeasonal(['cryptogram', 'missing-pieces', 'grid-match', 'shadow-match'], 'amber'),
+  'non-english-printable-markets': nicheSeasonal(['wordsearch', 'crossword', 'cryptogram', 'addition'], 'cyan'),
+  'best-selling-word-search-themes-kdp': nicheSeasonal(['wordsearch'], 'sky'),
+  'printable-niches-homeschool-market': nicheSeasonal(['addition', 'writing', 'wordsearch', 'matching'], 'indigo'),
+  'summer-activity-book-niches-seasonal-demand': nicheSeasonal(['coloring', 'wordsearch', 'draw-and-color', 'picture-path'], 'yellow'),
+  'coloring-book-niches-still-sell-2026': nicheSeasonal(['coloring', 'draw-and-color'], 'rose'),
+  'educational-printable-trends-2026': nicheSeasonal(['addition', 'wordsearch', 'coloring', 'matching'], 'blue'),
+  'find-untapped-niches-printable-niche-finder': nicheSeasonal(['cryptogram', 'grid-match', 'treasure-hunt', 'missing-pieces'], 'purple'),
+  'adult-puzzle-book-niches-kdp': nicheSeasonal(['cryptogram', 'wordsearch', 'sudoku', 'crossword'], 'violet'),
+  'special-education-printables-niche': nicheSeasonal(['matching', 'big-small', 'shadow-match', 'drawing-lines'], 'green'),
+  'baby-shower-party-printable-niches-etsy': nicheSeasonal(['bingo', 'treasure-hunt', 'wordsearch', 'coloring'], 'pink'),
+  'math-workbook-niches-grade-level-demand': nicheSeasonal(['addition', 'subtraction', 'math-worksheet', 'math-puzzle'], 'orange'),
+  'religious-faith-based-printable-niches': nicheSeasonal(['coloring', 'wordsearch', 'matching', 'crossword'], 'amber'),
+  'travel-activity-book-niches-kdp': nicheSeasonal(['wordsearch', 'coloring', 'sudoku', 'crossword'], 'teal'),
+  'large-print-puzzle-books-senior-market-kdp': nicheSeasonal(['wordsearch', 'sudoku', 'crossword', 'cryptogram'], 'indigo'),
+  'bilingual-worksheets-growing-niche-etsy': nicheSeasonal(['wordsearch', 'alphabet-train', 'matching', 'prepositions'], 'cyan'),
+  'occupational-therapy-printable-niches': nicheSeasonal(['drawing-lines', 'matching', 'coloring', 'pattern-train'], 'emerald'),
+  'research-kdp-niches-amazon-search': nicheSeasonal(['wordsearch', 'addition', 'coloring', 'crossword'], 'blue'),
+  'printable-games-niche-bingo-treasure-hunts': nicheSeasonal(['bingo', 'treasure-hunt', 'wordsearch', 'crossword'], 'red'),
+};
+
+// ═══════════════════════════════════════════════════════════════
+// SEO OVERHAUL: Category E — Case Studies & Income Reports (10)
+// ═══════════════════════════════════════════════════════════════
+
+const seoE: Record<string, BlogVisualConfig> = {
+  'first-100-dollars-selling-printables-etsy': platformStrategy(['addition', 'wordsearch', 'coloring'], { bundle: { images: [r('addition', 0), r('wordsearch', 0), r('coloring', 0)], pageCount: 30 } }, 'emerald'),
+  'zero-to-100-etsy-sales-printable-seller': platformStrategy(['addition', 'matching', 'coloring'], { platformMockup: { platform: 'etsy', image: r('addition', 0) } }, 'blue'),
+  'created-50-page-kdp-activity-book-one-afternoon': howToTiers(['math-puzzle', 'wordsearch', 'coloring'], 'purple'),
+  '500-month-printable-side-hustle-timeline': platformStrategy(['addition', 'wordsearch', 'coloring'], { bundle: { images: [r('addition', 0), r('wordsearch', 0), r('coloring', 0), r('crossword', 0)], pageCount: 50 } }, 'amber'),
+  'non-designer-printable-business-lessoncraftstudio': platformStrategy(['addition', 'coloring', 'matching'], { beforeAfter: { lcsImage: r('matching', 0) } }, 'green'),
+  'anatomy-best-selling-kdp-activity-book': platformStrategy(['math-puzzle', 'wordsearch', 'crossword'], { platformMockup: { platform: 'kdp', image: r('math-puzzle', 0) } }, 'indigo'),
+  'multi-language-printables-doubled-revenue': platformStrategy(['wordsearch', 'crossword', 'addition'], { beforeAfter: { lcsImage: r('wordsearch', 0) } }, 'cyan'),
+  'first-month-selling-word-search-books-kdp': platformStrategy(['wordsearch', 'wordsearch', 'wordsearch'], { platformMockup: { platform: 'kdp', image: r('wordsearch', 1) } }, 'sky'),
+  '1-to-100-etsy-listings-30-days': howToTiers(['addition', 'subtraction', 'wordsearch'], 'orange'),
+  'kdp-activity-book-earnings-calculator': howToPair(['addition', 'wordsearch'], 'teal'),
+};
+
+// ═══════════════════════════════════════════════════════════════
+// SEO OVERHAUL: Category F — Tips, Tricks & Tactical (15)
+// ═══════════════════════════════════════════════════════════════
+
+const seoF: Record<string, BlogVisualConfig> = {
+  'kdp-trim-sizes-activity-books': howToPair(['addition', 'wordsearch'], 'blue'),
+  'how-many-pages-kdp-activity-book': howToPair(['math-puzzle', 'wordsearch'], 'purple'),
+  'create-answer-keys-printable-worksheets': howToPair(['addition', 'wordsearch'], 'amber'),
+  '300-dpi-vs-150-dpi-print-resolution-sellers': howToPair(['coloring', 'addition'], 'orange'),
+  'format-printable-pdfs-etsy-digital-downloads': howToPair(['addition', 'coloring'], 'emerald'),
+  'us-letter-vs-a4-paper-size-international-sales': howToPair(['addition', 'wordsearch'], 'cyan'),
+  'write-etsy-descriptions-printable-products': howToPair(['wordsearch', 'coloring'], 'pink'),
+  'best-tags-printable-worksheets-etsy': howToPair(['addition', 'matching'], 'sky'),
+  'watermark-free-printable-samples-etsy': howToPair(['addition', 'coloring'], 'teal'),
+  'create-printable-product-series-cross-sells': howToTiers(['addition', 'subtraction', 'math-worksheet'], 'indigo'),
+  'grayscale-vs-color-printables-what-sells-better': howToPair(['coloring', 'addition'], 'rose'),
+  'themed-image-collections-unique-products': howToTiers(['coloring', 'matching', 'find-and-count'], 'green'),
+  'calculate-printable-business-profit-margins': howToPair(['addition', 'wordsearch'], 'amber'),
+  'avoid-copyright-issues-selling-printables': howToPair(['addition', 'coloring'], 'violet'),
+  'automate-printable-workflow-creation-listing': howToTiers(['addition', 'subtraction', 'wordsearch'], 'emerald'),
+};
+
+// ═══════════════════════════════════════════════════════════════
+// MERGED MAP — all 212 blog posts
+// ═══════════════════════════════════════════════════════════════
+
+export const blogVisualMap: Record<string, BlogVisualConfig> = { ...cat1, ...cat2, ...cat3, ...cat4, ...seoD, ...seoA, ...seoB, ...seoC, ...seoE, ...seoF };
 
 export function getBlogVisualConfig(blogId: string): BlogVisualConfig | undefined {
   return blogVisualMap[blogId];

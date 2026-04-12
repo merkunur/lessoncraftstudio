@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'coloring page generator',
+    primaryKeyword: 'coloring book generator for KDP',
     secondaryKeywords: [
-      'coloring page generator',
-      'custom coloring pages maker',
-      'printable coloring page creator',
-      'coloring sheet generator',
+      'coloring page maker KDP Etsy',
+      'create coloring books to sell',
+      'bulk coloring page generator commercial',
+      'themed coloring book creator',
     ],
     lsiKeywords: [
-      'outline',
-      'black and white',
-      'themed coloring',
-      'kids coloring',
-      'adults coloring',
+      'KDP coloring books',
+      '3000+ themed images',
+      'kids and adults coloring',
+      'themed coloring collections',
+      '11 language support',
+      'bulk page generation',
+      'commercial license',
     ],
-    titleTag: 'Coloring Page Generator for Etsy & KDP Sellers',
-    metaDescription: 'Create coloring pages to sell on Etsy, Amazon KDP, and TPT. 3,000+ themed images, 11 languages. Build coloring books fast. Commercial license.',
+    titleTag: 'Coloring Book Generator — KDP & Etsy Ready | LessonCraftStudio',
+    metaDescription: 'Create coloring books for KDP and Etsy. 3,000+ images across 104 themes, kids and adults. Bulk generate pages. Commercial license. Try free trial.',
   },
 
   hero: {

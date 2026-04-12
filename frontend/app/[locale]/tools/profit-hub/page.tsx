@@ -16,9 +16,9 @@ export async function generateStaticParams() {
 
 export async function generateMetadata(): Promise<Metadata> {
   const title =
-    'Free Printable Profit Calculator 2026 | Compare Etsy, Gumroad, TPT, KDP & More';
+    'Printable Profit Hub — Track Your Etsy & KDP Earnings | LessonCraftStudio';
   const description =
-    'Calculate your real profit per sale across 7 platforms: Etsy, Gumroad, TPT, Payhip, Amazon KDP, Shopify & Creative Market. See all fees side-by-side, find the optimal price, project monthly revenue. Free tool for printable sellers.';
+    'Monitor your printable business profits across Etsy, Amazon KDP, Gumroad, TPT, Payhip, Shopify & Creative Market. Calculate margins, compare fees side-by-side, find optimal prices. Free dashboard for printable sellers.';
 
   return {
     title,

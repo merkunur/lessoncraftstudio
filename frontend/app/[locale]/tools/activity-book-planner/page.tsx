@@ -16,9 +16,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const title = 'Free KDP Activity Book Planner 2026 | Plan Your Book Interior Structure';
+  const title = 'Free KDP Activity Book Planner — Plan Your Book Layout | LessonCraftStudio';
   const description =
-    'Plan your Amazon KDP activity book, puzzle book, or workbook structure with our free interactive planner. Drag-and-drop sections, auto-calculate page count, printing cost, spine width & royalty. Pre-built templates included.';
+    'Plan your KDP activity book structure: page count, content mix, difficulty progression. Map out word searches, mazes, coloring pages, and puzzles. Drag-and-drop builder with auto cost calculation. Free planning tool.';
 
   return {
     title,

@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'grid match worksheet generator',
+    primaryKeyword: 'grid match puzzle generator KDP',
     secondaryKeywords: [
-      'grid drawing worksheet generator',
-      'copy the picture worksheet maker',
-      'grid art worksheet maker',
-      'pixel drawing worksheet',
+      'grid drawing worksheet maker Etsy',
+      'copy the picture printables to sell',
+      'pixel art worksheet generator commercial',
+      'visual puzzle book maker KDP',
     ],
     lsiKeywords: [
-      'copy drawing',
-      'grid coordinates',
-      'spatial awareness',
-      'symmetry',
-      'pixel art',
+      'grid copy puzzles KDP',
+      'spatial awareness activities',
+      'zero competition printable niche',
+      'unique puzzle format',
+      'pixel art worksheets',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Grid Match Worksheet Generator for Etsy Sellers',
-    metaDescription: 'Create grid match worksheets to sell as printables. Unique product format with almost zero competition on Etsy. Commercial license. Try free trial.',
+    titleTag: 'Grid Match Puzzle Generator — Zero Competition KDP | LessonCraftStudio',
+    metaDescription: 'Create grid match visual puzzles for KDP and Etsy. Near-zero competition niche, unique format, bulk generate. Commercial license. Try free trial.',
   },
 
   hero: {

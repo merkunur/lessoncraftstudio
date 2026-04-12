@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'missing pieces worksheet generator',
+    primaryKeyword: 'missing pieces puzzle generator KDP',
     secondaryKeywords: [
-      'missing piece worksheet generator',
-      'jigsaw puzzle worksheet maker',
-      'what\'s missing worksheet maker',
-      'visual puzzle worksheet generator',
+      'jigsaw puzzle worksheet maker KDP',
+      'visual logic puzzle printables Etsy',
+      'missing piece book generator commercial',
+      'complete the picture worksheets to sell',
     ],
     lsiKeywords: [
-      'jigsaw',
-      'complete the picture',
-      'visual reasoning',
-      'spatial skills',
-      'puzzle piece',
+      'logic puzzle books KDP',
+      'visual reasoning activities',
+      'jigsaw puzzle worksheets',
+      'unique puzzle niche',
+      'spatial skills printables',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Missing Pieces Worksheet Generator for Etsy Sellers',
-    metaDescription: 'Create missing pieces puzzles to sell on Etsy. Unique visual puzzles that stand out in search results. Commercial license included. Try free trial.',
+    titleTag: 'Missing Pieces Puzzle Generator — Logic Book KDP | LessonCraftStudio',
+    metaDescription: 'Create missing pieces logic puzzles for KDP books and Etsy. Unique visual format, stands out in search. Bulk generate. Commercial license. Try free trial.',
   },
 
   hero: {

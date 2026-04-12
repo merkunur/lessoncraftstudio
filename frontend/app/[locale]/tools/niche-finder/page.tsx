@@ -23,9 +23,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const title = 'Printable Niche Finder 2026 | 50+ Profitable Niches for Etsy, KDP & TPT';
+  const title = 'Free Printable Niche Finder — Discover Profitable Etsy & KDP Niches | LessonCraftStudio';
   const description =
-    'Discover 50+ hand-curated printable niches with demand & competition ratings for Etsy, Amazon KDP, and TPT sellers. Filter by platform, category, language, and opportunity score. Free tool, updated monthly.';
+    'Find low-competition, high-demand niches for your printable business. 50+ curated niches with demand and competition ratings for Etsy, KDP, and TPT. Filter by platform, language, opportunity. Free tool.';
   return {
     title,
     description,

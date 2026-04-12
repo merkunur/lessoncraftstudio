@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'more or less worksheet generator',
+    primaryKeyword: 'quantity comparison worksheet generator KDP',
     secondaryKeywords: [
-      'greater than less than worksheet generator',
-      'comparison worksheet maker',
-      'more and fewer worksheet printable',
-      'quantity comparison maker',
+      'more or less worksheets to sell Etsy',
+      'greater than less than printables KDP',
+      'early math comparison generator',
+      'quantity worksheets commercial license',
     ],
     lsiKeywords: [
-      'greater than',
-      'less than',
-      'equal to',
-      'comparing numbers',
-      'quantity',
+      'early math books KDP',
+      'greater than less than worksheets',
+      'quantity comparison activities',
+      'preschool math printables',
+      'evergreen demand niche',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'More or Less Worksheet Generator for Etsy Sellers',
-    metaDescription: 'Create more-or-less comparison worksheets to sell on Etsy and KDP. Early math printables with evergreen demand. Commercial license. Try free trial.',
+    titleTag: 'More or Less Generator — Early Math KDP Books | LessonCraftStudio',
+    metaDescription: 'Create more-or-less quantity comparison worksheets for KDP early math books and Etsy. Evergreen demand, bulk generate. Commercial license. Try free trial.',
   },
 
   hero: {

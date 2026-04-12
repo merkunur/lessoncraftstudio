@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'pattern train worksheet generator',
+    primaryKeyword: 'pattern recognition book generator KDP',
     secondaryKeywords: [
-      'pattern recognition worksheet generator',
-      'AB pattern worksheet maker',
-      'repeating pattern printable maker',
-      'pattern activity generator',
+      'pattern train worksheet maker Etsy',
+      'AB pattern printables to sell',
+      'repeating pattern activity book KDP',
+      'pattern recognition generator commercial',
     ],
     lsiKeywords: [
-      'AB pattern',
-      'ABC pattern',
-      'repeating pattern',
-      'sequence',
-      'what comes next',
+      'pattern activity books KDP',
+      'AB ABC AABB patterns',
+      'train-themed worksheets',
+      'leveled pattern bundles',
+      'unique visual format',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Pattern Train Worksheet Generator for Printable Sellers',
-    metaDescription: 'Create pattern recognition train worksheets to sell on Etsy and KDP. Unique visual format that stands out. Commercial license included. Try free trial.',
+    titleTag: 'Pattern Train Generator — Leveled KDP Activity Books | LessonCraftStudio',
+    metaDescription: 'Create pattern recognition train worksheets for KDP books and Etsy. AB, ABC, AABB patterns, leveled bundles, unique format. Commercial license. Try free trial.',
   },
 
   hero: {

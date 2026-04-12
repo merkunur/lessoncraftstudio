@@ -2,23 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'drawing lines generator',
+    primaryKeyword: 'tracing worksheet generator for KDP',
     secondaryKeywords: [
-      'line tracing worksheet generator',
-      'pre-writing worksheet maker',
-      'tracing lines printable maker',
-      'fine motor worksheet generator',
+      'line tracing book maker KDP',
+      'fine motor worksheets to sell Etsy',
+      'pre-writing printables commercial',
+      'tracing lines activity generator',
     ],
     lsiKeywords: [
-      'pre-writing',
-      'fine motor skills',
-      'pencil control',
-      'dotted lines',
-      'straight lines',
-      'curved lines',
+      'fine motor skills books KDP',
+      'pencil control worksheets',
+      'preschool tracing activities',
+      'toddler pre-writing pages',
+      '3000+ themed images',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Tracing & Drawing Lines Generator for Etsy Sellers',
-    metaDescription: 'Create line tracing worksheets to sell on Etsy. High demand from parents of preschoolers. 3,000+ themed images. Commercial license. Try free trial.',
+    titleTag: 'Tracing Worksheet Generator — Fine Motor KDP Books | LessonCraftStudio',
+    metaDescription: 'Create line tracing worksheets for KDP fine motor books and Etsy bundles. Preschool niche, 3,000+ themes, bulk generate. Commercial license. Try free trial.',
   },
 
   hero: {

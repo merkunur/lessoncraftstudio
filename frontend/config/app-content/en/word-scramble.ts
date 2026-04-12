@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word scramble generator',
+    primaryKeyword: 'word scramble book generator KDP',
     secondaryKeywords: [
-      'word scramble generator',
-      'jumble word maker',
-      'word scramble worksheet generator',
-      'printable word scramble maker',
+      'word scramble puzzle maker for KDP',
+      'create word scramble books to sell',
+      'jumble word printables Etsy',
+      'vocabulary puzzle generator commercial',
     ],
     lsiKeywords: [
-      'anagram',
-      'jumbled words',
-      'unscramble',
-      'spelling practice',
-      'vocabulary',
+      'KDP word puzzle books',
+      'themed word scramble bundles',
+      'anagram worksheets to sell',
+      'vocabulary puzzles',
+      '11 language support',
+      'bulk puzzle generation',
+      'commercial license',
     ],
-    titleTag: 'Word Scramble Generator for Etsy & KDP Publishers',
-    metaDescription: 'Create word scramble puzzles to sell on Etsy, KDP, and TPT. Fast generation, professional PDFs, commercial license. 11 languages. Try free trial.',
+    titleTag: 'Word Scramble Book Generator — KDP Puzzle Books | LessonCraftStudio',
+    metaDescription: 'Create themed word scramble puzzle books for KDP and Etsy. 11 languages, themed word lists, bulk generate pages. Commercial license. Try free trial.',
   },
 
   hero: {

@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'big & small worksheet generator',
+    primaryKeyword: 'size comparison worksheet generator KDP',
     secondaryKeywords: [
-      'big and small worksheet generator',
-      'size sorting worksheet maker',
-      'bigger smaller worksheet printable',
-      'comparison worksheet generator',
+      'big and small worksheets to sell Etsy',
+      'toddler size sorting printables KDP',
+      'comparison worksheet maker commercial',
+      'preschool math readiness generator',
     ],
     lsiKeywords: [
-      'biggest',
-      'smallest',
-      'size order',
+      'toddler activity books KDP',
+      'size sorting worksheets',
       'measurement readiness',
-      'sorting by size',
+      'preschool math printables',
+      'consistent parent demand',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Big & Small Worksheet Generator for Printable Sellers',
-    metaDescription: 'Create size comparison worksheets to sell on Etsy. Pre-K printables with consistent parent demand. Commercial license included. Try free trial.',
+    titleTag: 'Size Comparison Generator — Toddler KDP Books | LessonCraftStudio',
+    metaDescription: 'Create big-and-small size comparison worksheets for toddler KDP books and Etsy. Consistent demand, bulk generate. Commercial license. Try free trial.',
   },
 
   hero: {

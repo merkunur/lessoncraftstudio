@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'code addition worksheet maker',
+    primaryKeyword: 'crack the code math worksheet generator',
     secondaryKeywords: [
-      'code breaker math worksheet generator',
-      'secret code math worksheets',
-      'decode math puzzle maker',
-      'math code worksheets printable',
+      'code breaker math puzzle maker',
+      'secret code addition worksheets KDP',
+      'decode math puzzle printables',
+      'crack the code worksheets to sell',
     ],
     lsiKeywords: [
-      'crack the code',
-      'number code',
-      'cipher',
-      'puzzle math',
-      'fun math activity',
+      'cipher math puzzles',
+      'KDP puzzle book pages',
+      'unique math printable niche',
+      'low competition Etsy printable',
+      'code-breaking activities',
+      'commercial license',
+      'bulk generation',
     ],
-    titleTag: 'Code Addition Worksheet Maker for Printable Sellers',
-    metaDescription: 'Create unique code-cracking math worksheets to sell on Etsy and KDP. Stand out with a product type most sellers don\'t offer. Try free trial with watermark.',
+    titleTag: 'Code Math Puzzle Generator — Unique KDP Niche | LessonCraftStudio',
+    metaDescription: 'Create crack-the-code math puzzles for KDP and Etsy. A unique low-competition niche most sellers miss. Bulk generate, commercial license. Try free trial.',
   },
 
   hero: {

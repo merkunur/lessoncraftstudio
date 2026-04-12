@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'odd one out worksheet generator',
+    primaryKeyword: 'odd one out puzzle book generator KDP',
     secondaryKeywords: [
-      'odd one out puzzle generator',
-      'which one is different worksheet maker',
-      'classification worksheet maker',
-      'odd one out printable maker',
+      'logic puzzle worksheet maker Etsy',
+      'odd one out printables to sell',
+      'critical thinking book generator KDP',
+      'which is different worksheets commercial',
     ],
     lsiKeywords: [
-      'which doesn\'t belong',
-      'categorization',
-      'logical reasoning',
-      'classification',
-      'critical thinking',
+      'logic puzzle books KDP',
+      'critical thinking activities',
+      'visual classification puzzles',
+      'which doesn\'t belong worksheets',
+      'high parent demand',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Odd One Out Worksheet Generator for Printable Sellers',
-    metaDescription: 'Create odd-one-out logic worksheets to sell on Etsy and KDP. Visual puzzles that parents love. Commercial license included. Try free trial.',
+    titleTag: 'Odd One Out Puzzle Generator — Logic Books KDP | LessonCraftStudio',
+    metaDescription: 'Create odd-one-out logic puzzle books for KDP and Etsy. Critical thinking activities parents love, bulk generate. Commercial license. Try free trial.',
   },
 
   hero: {

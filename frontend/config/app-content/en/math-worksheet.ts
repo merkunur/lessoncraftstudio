@@ -2,23 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'math worksheet generator',
+    primaryKeyword: 'math drill worksheet generator for KDP',
     secondaryKeywords: [
-      'math worksheet maker',
-      'custom math worksheets',
-      'create math worksheets online',
-      'printable math worksheet maker',
+      'bulk math worksheets creator',
+      'KDP math workbook generator',
+      'create math worksheets to sell Etsy',
+      'math printables commercial license',
     ],
     lsiKeywords: [
-      'arithmetic',
-      'mixed operations',
-      'grade level',
-      'difficulty settings',
-      'practice problems',
-      'homework sheets',
+      'addition subtraction multiplication division',
+      'custom number ranges',
+      'mixed operations worksheets',
+      '300 DPI math PDFs',
+      'KDP workbook interior pages',
+      'Etsy math bundles',
+      'auto answer keys',
     ],
-    titleTag: 'Math Worksheet Generator for Etsy & KDP Publishers',
-    metaDescription: 'Generate custom math worksheets to sell on Etsy, Amazon KDP, and TPT. Addition, subtraction, multiplication bundles. Commercial license included.',
+    titleTag: 'Math Drill Worksheet Maker — KDP Workbook Creator | LessonCraftStudio',
+    metaDescription: 'Build math drill worksheets for KDP workbooks. All 4 operations, custom ranges, 300 DPI PDFs. Bulk generate pages with commercial license. Try free trial.',
   },
 
   hero: {

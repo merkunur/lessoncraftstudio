@@ -2,21 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'draw & color worksheet generator',
+    primaryKeyword: 'draw and color activity book generator KDP',
     secondaryKeywords: [
-      'drawing activity worksheet generator',
-      'guided drawing worksheet maker',
-      'draw and color printable maker',
-      'art worksheet generator',
+      'creative activity worksheet maker Etsy',
+      'draw and color printables to sell',
+      'art activity book generator KDP',
+      'guided drawing worksheet commercial',
     ],
     lsiKeywords: [
-      'guided drawing',
-      'step by step drawing',
-      'art activity',
-      'creative worksheet',
+      'creative activity books KDP',
+      'drawing and coloring combined',
+      'art worksheet printables',
+      'kids creative activities',
+      'unique product format',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Draw & Color Worksheet Generator for Printable Sellers',
-    metaDescription: 'Create draw-and-color activity pages to sell on Etsy. Combine drawing and coloring in one product. Commercial license included. Try free trial.',
+    titleTag: 'Draw & Color Activity Generator — Creative KDP Books | LessonCraftStudio',
+    metaDescription: 'Create draw-and-color activity books for KDP and Etsy. Unique creative format, combines drawing and coloring. Commercial license. Try free trial.',
   },
 
   hero: {

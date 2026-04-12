@@ -2,24 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'prepositions worksheet generator',
+    primaryKeyword: 'preposition worksheet generator ESL',
     secondaryKeywords: [
-      'preposition worksheet generator',
-      'spatial preposition printable maker',
-      'positional words worksheet maker',
-      'preposition activities generator',
+      'ESL worksheets generator to sell',
+      'preposition printables KDP Etsy',
+      'language learning worksheets commercial',
+      'positional words activity maker',
     ],
     lsiKeywords: [
-      'in',
-      'on',
-      'under',
-      'beside',
-      'between',
-      'positional words',
-      'spatial concepts',
+      'ESL market printables',
+      'language learning niche',
+      '11 language support',
+      'spatial preposition activities',
+      'bilingual worksheets',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Prepositions Worksheet Generator for Etsy & KDP Sellers',
-    metaDescription: 'Create preposition worksheets to sell on Etsy and KDP. Language learning printables in 11 languages. Commercial license included. Try free trial.',
+    titleTag: 'Preposition Worksheet Generator — ESL & KDP Market | LessonCraftStudio',
+    metaDescription: 'Create preposition worksheets for ESL markets and KDP. 11 languages, visual spatial activities, tap the language learning niche. Commercial license. Try free trial.',
   },
 
   hero: {

@@ -2,23 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'writing worksheet generator',
+    primaryKeyword: 'handwriting practice book generator KDP',
     secondaryKeywords: [
-      'handwriting practice generator',
-      'tracing worksheet maker',
-      'handwriting worksheet generator',
-      'letter tracing maker',
+      'handwriting worksheet generator for KDP',
+      'letter tracing book maker Etsy',
+      'create handwriting books to sell',
+      'writing practice printables commercial',
     ],
     lsiKeywords: [
-      'letter formation',
-      'tracing letters',
-      'penmanship',
-      'print handwriting',
-      'cursive',
-      'fine motor skills',
+      'KDP handwriting tracing books',
+      'letter formation worksheets',
+      'penmanship practice pages',
+      'evergreen parent demand',
+      'preschool writing printables',
+      'bulk page generation',
+      'commercial license',
     ],
-    titleTag: 'Writing Worksheet Generator for Etsy & KDP Sellers',
-    metaDescription: 'Create handwriting and writing practice worksheets to sell on Etsy and KDP. Evergreen demand from parents. Commercial license included. Try free trial.',
+    titleTag: 'Handwriting Practice Book Generator — KDP Ready | LessonCraftStudio',
+    metaDescription: 'Create handwriting and letter tracing books for KDP and Etsy. Evergreen demand, bulk generate pages, 300 DPI PDFs. Commercial license. Try free trial.',
   },
 
   hero: {

@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'matching worksheet generator',
+    primaryKeyword: 'matching activity book generator KDP',
     secondaryKeywords: [
-      'matching worksheet generator',
-      'match the picture worksheet maker',
-      'printable matching activities maker',
-      'create matching worksheets',
+      'matching worksheet maker for KDP',
+      'create matching books to sell Etsy',
+      'picture matching printables commercial',
+      'toddler matching activity generator',
     ],
     lsiKeywords: [
-      'pair up',
-      'connect',
-      'draw lines',
-      'same and different',
-      'preschool matching',
+      'early learning KDP books',
+      '4 matching modes',
+      'image-to-letter matching',
+      'toddler activity bundles',
+      '3000+ themed images',
+      'auto answer keys',
+      'bulk generation',
     ],
-    titleTag: 'Matching Worksheet Generator for Printable Sellers',
-    metaDescription: 'Create matching worksheets to sell on Etsy and Amazon KDP. 3,000+ themed images, auto answer keys. Commercial license. Try free trial with watermark.',
+    titleTag: 'Matching Activity Book Generator — Early Learning KDP | LessonCraftStudio',
+    metaDescription: 'Create matching activity books for KDP and Etsy. 4 matching modes, 3,000+ themes, auto answer keys. Early learning niche. Commercial license. Try free trial.',
   },
 
   hero: {

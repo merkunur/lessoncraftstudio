@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'subtraction worksheet generator',
+    primaryKeyword: 'subtraction worksheet generator for KDP',
     secondaryKeywords: [
-      'subtraction worksheet generator',
-      'create subtraction worksheets',
-      'printable subtraction worksheets maker',
-      'custom subtraction practice sheets',
+      'bulk subtraction worksheets creator',
+      'KDP math workbook subtraction pages',
+      'create subtraction worksheets to sell',
+      'subtraction printables commercial license',
     ],
     lsiKeywords: [
-      'borrowing',
-      'regrouping',
-      'single digit subtraction',
-      'kindergarten subtraction',
-      'visual subtraction',
+      'KDP subtraction workbook',
+      'Etsy math printables',
+      'visual subtraction counting',
+      'borrowing regrouping worksheets',
+      'auto answer keys',
+      '300 DPI print-ready',
+      'bulk generation',
     ],
-    titleTag: 'Subtraction Worksheet Generator for Etsy & KDP Sellers',
-    metaDescription: 'Create subtraction worksheets to sell on Etsy, Amazon KDP, and TPT. Professional 300 DPI PDFs with auto answer keys. Commercial license. Try free trial.',
+    titleTag: 'Subtraction Worksheet Generator — KDP Math Workbooks | LessonCraftStudio',
+    metaDescription: 'Generate subtraction worksheets for KDP math workbooks and Etsy bundles. Visual counting, auto answer keys, 300 DPI PDFs. Commercial license. Try free trial.',
   },
 
   hero: {

@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word guess worksheet generator',
+    primaryKeyword: 'word guess game printable generator',
     secondaryKeywords: [
-      'word guess game generator',
-      'hangman worksheet maker',
-      'vocabulary guessing game printable',
-      'word guess puzzle maker',
+      'hangman worksheet generator KDP',
+      'word guess game printables to sell',
+      'party game printable maker Etsy',
+      'vocabulary guessing game commercial',
     ],
     lsiKeywords: [
-      'hangman',
-      'letter guess',
-      'vocabulary game',
-      'spelling game',
-      'word puzzle',
+      'hangman-style worksheets',
+      'party game printables',
+      'word puzzle books KDP',
+      'low competition printable niche',
+      'themed word games',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Word Guess Worksheet Generator for Printable Sellers',
-    metaDescription: 'Create word guess (hangman-style) worksheets to sell on Etsy. A fun, unique product with low competition. Commercial license. Try free trial.',
+    titleTag: 'Word Guess Game Generator — Party Printables | LessonCraftStudio',
+    metaDescription: 'Create hangman-style word guess game printables for Etsy and KDP. Fun party games, themed sets, low competition niche. Commercial license. Try free trial.',
   },
 
   hero: {

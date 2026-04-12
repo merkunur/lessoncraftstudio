@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'chart count worksheet generator',
+    primaryKeyword: 'counting chart worksheet generator KDP',
     secondaryKeywords: [
-      'chart counting worksheets',
-      'graphing worksheets generator',
-      'counting and graphing printable maker',
-      'tally chart worksheet maker',
+      'chart count worksheets to sell',
+      'preschool counting printables Etsy',
+      'graphing worksheets generator KDP',
+      'tally chart worksheet maker commercial',
     ],
     lsiKeywords: [
-      'tally marks',
-      'bar graph',
-      'pictograph',
-      'data collection',
-      'count and graph',
+      'preschool KDP book pages',
+      'counting charts toddler',
+      'tally marks worksheets',
+      'pictograph activities',
+      'early math printables',
+      'low competition niche',
+      'bulk generation',
     ],
-    titleTag: 'Chart Count Worksheet Generator for Printable Sellers',
-    metaDescription: 'Create chart counting worksheets to sell on Etsy and KDP. A low-competition niche with consistent demand. Commercial license included. Try free trial.',
+    titleTag: 'Counting Chart Generator — Preschool KDP Books | LessonCraftStudio',
+    metaDescription: 'Create counting chart worksheets for preschool KDP books and Etsy bundles. Low-competition niche, bulk generate, commercial license. Try free trial.',
   },
 
   hero: {

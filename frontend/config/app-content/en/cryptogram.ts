@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'cryptogram puzzle generator',
+    primaryKeyword: 'cryptogram puzzle book generator KDP',
     secondaryKeywords: [
-      'cryptogram puzzle generator',
-      'cryptogram worksheet maker',
-      'create cryptogram puzzles',
-      'printable cryptogram generator',
+      'cryptogram generator for KDP publishers',
+      'code-breaking puzzle maker Etsy',
+      'create cryptogram books to sell',
+      'adult puzzle book generator',
     ],
     lsiKeywords: [
-      'cipher',
-      'decode',
-      'secret message',
-      'letter substitution',
-      'code breaking',
+      'cipher puzzles KDP',
+      'letter substitution puzzles',
+      'adult puzzle book niche',
+      'code-breaking activities',
+      'low competition puzzle niche',
+      '11 language support',
+      'bulk generation',
     ],
-    titleTag: 'Cryptogram Puzzle Generator for Printable Sellers',
-    metaDescription: 'Create cryptogram puzzles to sell on Etsy and Amazon KDP. Unique low-competition niche. 11 languages, commercial license included. Try free trial.',
+    titleTag: 'Cryptogram Puzzle Book Generator — Adult KDP Niche | LessonCraftStudio',
+    metaDescription: 'Create code-breaking cryptogram puzzle books for KDP. Tap the adult puzzle market. 11 languages, bulk generate, commercial license. Try free trial.',
   },
 
   hero: {

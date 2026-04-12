@@ -34,10 +34,10 @@ const homepageOgImages: Record<string, string> = {
 // Localized SEO metadata for entrepreneur audience (Etsy, KDP, printables business)
 const homepageMetadata: Record<string, { title: string; description: string; keywords: string; ogAlt: string }> = {
   en: {
-    title: 'Printable Generators for Etsy & KDP Sellers | LessonCraftStudio',
-    description: '33 professional printable generators for Etsy sellers and KDP publishers. Create word searches, math worksheets, coloring books and more. Commercial license. Try free trial.',
-    keywords: 'printable generator for Etsy sellers, KDP worksheet generator, commercial license printables, sell worksheets online, printable business tools, word search maker, coloring page generator',
-    ogAlt: 'LessonCraftStudio - Printable Generators for Etsy & KDP Sellers'
+    title: '33 Printable Generators for KDP Publishers & Etsy Sellers | LessonCraftStudio',
+    description: 'Create KDP activity books and Etsy printable bundles with 33 generators. Word searches, math drills, coloring books, puzzles. One-time $49, commercial license. Try free trial.',
+    keywords: 'KDP activity book generator, printable generator for Etsy sellers, KDP worksheet generator, Book Bolt alternative, create printables to sell, printable business tools, word search maker KDP, coloring book generator',
+    ogAlt: 'LessonCraftStudio - 33 Printable Generators for KDP Publishers & Etsy Sellers'
   },
   de: {
     title: 'Printable-Generatoren für Etsy- & KDP-Verkäufer | LessonCraftStudio',

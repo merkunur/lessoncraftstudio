@@ -2,23 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'crossword puzzle generator',
+    primaryKeyword: 'crossword puzzle book generator KDP',
     secondaryKeywords: [
-      'crossword generator',
-      'picture crossword maker',
-      'custom crossword creator',
-      'printable crossword maker',
+      'image crossword generator for KDP',
+      'create crossword books to sell',
+      'crossword puzzle maker Etsy',
+      'picture crossword printables commercial',
     ],
     lsiKeywords: [
-      'across',
-      'down',
-      'clues',
-      'grid',
-      'picture clues',
-      'educational crossword',
+      'KDP crossword book creator',
+      'image-clue crosswords',
+      'unique crossword format',
+      '11 language crossword',
+      'auto answer keys',
+      'bulk puzzle generation',
+      'commercial license included',
     ],
-    titleTag: 'Crossword Puzzle Generator for Etsy & KDP Sellers',
-    metaDescription: 'Generate crossword puzzles to sell as printables on Etsy and KDP. Professional layouts, auto answer keys, 11 languages. Try free trial.',
+    titleTag: 'Crossword Puzzle Book Generator — KDP Ready | LessonCraftStudio',
+    metaDescription: 'Create image crossword puzzle books for KDP and Etsy. Unique picture-clue format, 11 languages, auto answer keys. Commercial license. Try free trial.',
   },
 
   hero: {

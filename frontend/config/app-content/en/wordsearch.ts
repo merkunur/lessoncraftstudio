@@ -2,24 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'word search generator',
+    primaryKeyword: 'word search puzzle book generator KDP',
     secondaryKeywords: [
-      'word search generator',
-      'word search puzzle maker',
-      'custom word search creator',
-      'printable word search maker',
+      'word search generator for KDP',
+      'create word search books to sell',
+      'bulk word search puzzle maker',
+      'word search printables Etsy commercial',
     ],
     lsiKeywords: [
-      'word find',
-      'hidden words',
-      'vocabulary',
-      'spelling',
-      'puzzle grid',
-      'themed word search',
-      'answer key',
+      'KDP puzzle book creator',
+      '5x5 to 30x30 grids',
+      '11 language word search',
+      '3000+ themed word lists',
+      'non-English puzzle markets',
+      'bulk page generation',
+      'auto answer keys',
     ],
-    titleTag: 'Word Search Generator for Etsy & KDP Sellers',
-    metaDescription: 'Create word search puzzles to sell on Etsy, Amazon KDP, and TPT. 11 languages, 3,000+ themes. Dominate non-English markets. Commercial license.',
+    titleTag: 'Word Search Puzzle Book Generator — KDP & Etsy | LessonCraftStudio',
+    metaDescription: 'Create word search puzzle books for KDP in minutes. 5x5 to 30x30 grids, 11 languages, 3,000+ themes. Bulk generate with commercial license. Try free trial.',
   },
 
   hero: {

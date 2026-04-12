@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'find objects worksheet generator',
+    primaryKeyword: 'I spy book generator for KDP',
     secondaryKeywords: [
-      'find the objects worksheet generator',
-      'I spy worksheet maker',
-      'hidden picture worksheet maker',
-      'seek and find printable maker',
+      'find objects worksheet maker KDP',
+      'I spy printables to sell Etsy',
+      'hidden objects book generator',
+      'seek and find printable maker commercial',
     ],
     lsiKeywords: [
-      'I spy',
-      'seek and find',
-      'visual scanning',
-      'attention to detail',
-      'observation skills',
+      'I spy books KDP',
+      'hidden object worksheets',
+      'visual puzzle niche',
+      'seek and find activities',
+      '3000+ themed images',
+      'strong parent demand',
+      'bulk generation',
     ],
-    titleTag: 'Find Objects Worksheet Generator for Printable Sellers',
-    metaDescription: 'Create I-Spy / find objects worksheets to sell on Etsy and KDP. A visual puzzle niche with strong parent demand. Commercial license. Try free trial.',
+    titleTag: 'I Spy Book Generator — Hidden Object KDP Books | LessonCraftStudio',
+    metaDescription: 'Create I Spy and hidden object books for KDP and Etsy. 3,000+ themed images, strong parent demand, bulk generate. Commercial license. Try free trial.',
   },
 
   hero: {

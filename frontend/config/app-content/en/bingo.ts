@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'bingo card generator',
+    primaryKeyword: 'bingo card generator to sell on Etsy',
     secondaryKeywords: [
-      'bingo card generator',
-      'picture bingo maker',
-      'custom bingo cards',
-      'printable bingo card generator',
+      'picture bingo maker Etsy TPT',
+      'create bingo cards to sell',
+      'party bingo printables commercial',
+      'themed bingo card generator bulk',
     ],
     lsiKeywords: [
-      'bingo game',
-      'bingo board',
-      'classroom bingo',
-      'party bingo',
-      'calling cards',
+      'party game printables',
+      'themed bingo sets',
+      '3000+ image themes',
+      '104 themed collections',
+      'party printable niche',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Picture Bingo Card Generator for Etsy Sellers',
-    metaDescription: 'Create themed bingo cards to sell on Etsy. Classroom games and party activities. 3,000+ images across 104 themes. Commercial license. Try free trial.',
+    titleTag: 'Bingo Card Generator — Party Printables for Etsy | LessonCraftStudio',
+    metaDescription: 'Create themed picture bingo cards to sell on Etsy and TPT. 3,000+ images, 104 themes. Party and game printables niche. Commercial license. Try free trial.',
   },
 
   hero: {

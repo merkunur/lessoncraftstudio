@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'count worksheet generator',
+    primaryKeyword: 'I spy counting book generator KDP',
     secondaryKeywords: [
-      'I spy counting worksheet generator',
-      'find and count printable maker',
-      'seek count worksheet maker',
-      'visual counting worksheet generator',
+      'find and count worksheet maker KDP',
+      'I spy counting printables to sell',
+      'seek and count book generator Etsy',
+      'visual counting printables commercial',
     ],
     lsiKeywords: [
-      'I spy counting',
-      'how many',
-      'tally',
-      'visual discrimination',
-      'number recognition',
+      'I spy counting books KDP',
+      'preschool counting niche',
+      'find and count activities',
+      '3000+ themed images',
+      'high parent demand',
+      'bulk page generation',
+      'commercial license',
     ],
-    titleTag: 'Find & Count Worksheet Generator for Printable Sellers',
-    metaDescription: 'Create find-and-count worksheets to sell on Etsy, KDP, and TPT. Popular with parents. 3,000+ themed images. Commercial license. Try free trial.',
+    titleTag: 'Find & Count Book Generator — I Spy Counting KDP | LessonCraftStudio',
+    metaDescription: 'Create I Spy counting books for KDP and Etsy. Preschool niche with high demand, 3,000+ themes, bulk generate. Commercial license. Try free trial.',
   },
 
   hero: {

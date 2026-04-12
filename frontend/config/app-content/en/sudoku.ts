@@ -2,23 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'sudoku puzzle generator',
+    primaryKeyword: 'sudoku puzzle book generator KDP',
     secondaryKeywords: [
-      'sudoku generator',
-      'sudoku puzzle maker',
-      'picture sudoku maker',
-      'printable sudoku generator',
+      'picture sudoku maker for KDP',
+      'create sudoku books to sell',
+      'kids sudoku book generator Etsy',
+      'sudoku puzzle printables commercial',
     ],
     lsiKeywords: [
-      'logic puzzle',
-      'number puzzle',
-      'easy sudoku',
-      'kids sudoku',
-      '4x4 sudoku',
-      '6x6 sudoku',
+      'KDP puzzle book creator',
+      'picture sudoku for kids',
+      '4x4 6x6 difficulty levels',
+      'auto solutions included',
+      'puzzle book niche',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Sudoku Puzzle Generator for Etsy & KDP Publishers',
-    metaDescription: 'Create sudoku puzzle books to sell on Amazon KDP and Etsy. Multiple difficulty levels, auto solutions. Commercial license included. Try free trial.',
+    titleTag: 'Sudoku Puzzle Book Generator — KDP Ready | LessonCraftStudio',
+    metaDescription: 'Create picture sudoku puzzle books for KDP. Kids to expert difficulty, auto solutions, bulk generate. Puzzle book niche. Commercial license. Try free trial.',
   },
 
   hero: {

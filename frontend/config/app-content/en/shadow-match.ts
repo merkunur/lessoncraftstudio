@@ -2,21 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'shadow match worksheet generator',
+    primaryKeyword: 'shadow matching book generator KDP',
     secondaryKeywords: [
-      'shadow match worksheet generator',
-      'silhouette matching printable maker',
-      'match the shadow worksheet maker',
-      'shadow puzzle maker',
+      'shadow match worksheet maker Etsy',
+      'silhouette matching printables to sell',
+      'toddler activity book generator KDP',
+      'shadow puzzle book maker commercial',
     ],
     lsiKeywords: [
-      'silhouette',
-      'shadow recognition',
-      'visual discrimination',
-      'outline matching',
+      'toddler activity books KDP',
+      'silhouette matching puzzles',
+      'visual discrimination activities',
+      'early learning printables',
+      'eye-catching worksheets',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Shadow Match Worksheet Generator for Printable Sellers',
-    metaDescription: 'Create shadow matching worksheets to sell on Etsy and KDP. Eye-catching visual puzzles with high engagement. Commercial license. Try free trial.',
+    titleTag: 'Shadow Match Book Generator — Toddler KDP Books | LessonCraftStudio',
+    metaDescription: 'Create shadow matching activity books for toddler KDP books and Etsy. Eye-catching puzzles, high engagement. Bulk generate. Commercial license. Try free trial.',
   },
 
   hero: {

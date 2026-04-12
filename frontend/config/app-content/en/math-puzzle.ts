@@ -2,21 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'math puzzle worksheet generator',
+    primaryKeyword: 'math puzzle book generator for KDP',
     secondaryKeywords: [
-      'math puzzle generator',
-      'picture math puzzle worksheets',
-      'math puzzle printable maker',
-      'fun math puzzle generator',
+      'picture math puzzle worksheets to sell',
+      'algebra picture puzzles KDP',
+      'math puzzle printable maker Etsy',
+      'unique math puzzle niche',
     ],
     lsiKeywords: [
-      'picture puzzle',
-      'image clue',
-      'solve and match',
-      'logic puzzle math',
+      'picture algebra puzzles',
+      'KDP puzzle book pages',
+      'image math equations',
+      'low competition printable niche',
+      'critical thinking math',
+      'bulk puzzle generation',
+      'commercial license',
     ],
-    titleTag: 'Math Puzzle Worksheet Generator for Etsy Sellers',
-    metaDescription: 'Create picture-based math puzzles to sell as printables. Unique product format that stands out on Etsy. 300 DPI PDFs, commercial license. Try free trial.',
+    titleTag: 'Math Puzzle Book Generator — Unique KDP Niche | LessonCraftStudio',
+    metaDescription: 'Create picture-based algebra puzzles for KDP puzzle books. A unique niche most sellers miss. Bulk generate, 300 DPI, commercial license. Try free trial.',
   },
 
   hero: {

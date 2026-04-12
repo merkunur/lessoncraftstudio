@@ -2,24 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'addition worksheet generator',
+    primaryKeyword: 'addition worksheet generator for KDP',
     secondaryKeywords: [
-      'addition worksheet generator',
-      'create addition worksheets',
-      'printable addition worksheets maker',
-      'make your own addition worksheets',
+      'bulk addition worksheets creator',
+      'KDP activity book addition pages',
+      'create addition worksheets to sell',
+      'addition printables commercial license',
     ],
     lsiKeywords: [
-      'single digit addition',
-      'kindergarten math',
-      'sums to 10',
-      'sums to 20',
-      'visual counting',
-      'number bonds',
-      'answer key',
+      'KDP math workbook pages',
+      'Etsy math printables',
+      'bulk worksheet generation',
+      'themed math worksheets',
+      'auto answer keys',
+      '300 DPI print-ready',
+      'commercial license included',
     ],
-    titleTag: 'Addition Worksheet Generator for Etsy & KDP Sellers',
-    metaDescription: 'Create professional addition worksheets to sell on Etsy and Amazon KDP. 300 DPI print-ready PDFs with answer keys. Commercial license included. Try free trial.',
+    titleTag: 'Addition Worksheet Generator — KDP Activity Books | LessonCraftStudio',
+    metaDescription: 'Bulk-create addition worksheets for KDP activity books and Etsy bundles. 4 math modes, 104 image themes, auto answer keys. Commercial license. Try free trial.',
   },
 
   hero: {

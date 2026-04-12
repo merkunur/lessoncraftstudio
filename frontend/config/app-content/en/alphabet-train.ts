@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'alphabet train generator',
+    primaryKeyword: 'ABC book generator for KDP',
     secondaryKeywords: [
-      'ABC worksheet generator',
-      'letter recognition worksheet maker',
-      'alphabet activity maker',
-      'printable alphabet worksheets maker',
+      'alphabet train worksheet maker KDP',
+      'letter recognition book generator Etsy',
+      'ABC activity printables to sell',
+      'alphabet book creator commercial',
     ],
     lsiKeywords: [
-      'letter order',
-      'ABC sequence',
-      'upper lowercase',
-      'letter matching',
-      'phonics',
+      'ABC books KDP',
+      'letter recognition activities',
+      'train-themed alphabet',
+      '11 language alphabet',
+      'preschool letter learning',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Alphabet Train Generator for Etsy & KDP Sellers',
-    metaDescription: 'Create alphabet train worksheets to sell on Etsy and KDP. Unique train-themed letter learning products. 11 languages. Commercial license.',
+    titleTag: 'Alphabet Train Generator — ABC Books for KDP | LessonCraftStudio',
+    metaDescription: 'Create alphabet train ABC books for KDP and Etsy. Unique train-themed letter learning, 11 languages, bulk generate. Commercial license. Try free trial.',
   },
 
   hero: {

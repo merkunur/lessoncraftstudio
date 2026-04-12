@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'picture sort worksheet generator',
+    primaryKeyword: 'sorting activity book generator KDP',
     secondaryKeywords: [
-      'category sorting worksheet generator',
-      'picture sorting printable maker',
-      'classify and sort worksheet maker',
-      'grouping worksheet generator',
+      'picture sort worksheet maker Etsy',
+      'categorizing printables to sell',
+      'early learning sorting activities KDP',
+      'classification worksheet generator commercial',
     ],
     lsiKeywords: [
-      'categorize',
-      'group',
-      'classify',
-      'same and different',
-      'sorting activity',
+      'early learning books KDP',
+      'sorting categorizing activities',
+      'picture classification worksheets',
+      '3000+ themed images',
+      'unique activity niche',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Picture Sort Worksheet Generator for Printable Sellers',
-    metaDescription: 'Create picture sorting worksheets to sell on Etsy and KDP. Unique classification activities. 3,000+ themed images. Commercial license. Try free trial.',
+    titleTag: 'Picture Sort Generator — Early Learning KDP Books | LessonCraftStudio',
+    metaDescription: 'Create picture sorting activity books for KDP and Etsy. Unique classification format, 3,000+ themes, bulk generate. Commercial license. Try free trial.',
   },
 
   hero: {

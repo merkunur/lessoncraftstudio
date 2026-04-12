@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'picture path worksheet generator',
+    primaryKeyword: 'picture maze generator for KDP',
     secondaryKeywords: [
-      'picture path worksheet generator',
-      'maze generator for kids',
-      'printable maze maker',
-      'path finding worksheet maker',
+      'maze worksheet maker KDP books',
+      'picture path printables to sell Etsy',
+      'kids maze book generator commercial',
+      'path finding activity maker',
     ],
     lsiKeywords: [
-      'labyrinth',
-      'follow the path',
-      'route finding',
-      'fine motor',
-      'problem solving',
+      'maze books KDP',
+      'picture path activities',
+      'follow the path worksheets',
+      'unique maze format',
+      'auto answer keys',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Picture Path Worksheet Generator for Etsy Sellers',
-    metaDescription: 'Create picture path (maze) worksheets to sell on Etsy. Fun activity printables with auto answer keys. Commercial license included. Try free trial.',
+    titleTag: 'Picture Path Maze Generator — KDP Activity Books | LessonCraftStudio',
+    metaDescription: 'Create picture path maze worksheets for KDP activity books and Etsy. Unique format, auto answer keys, bulk generate. Commercial license. Try free trial.',
   },
 
   hero: {

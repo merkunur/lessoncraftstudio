@@ -16,9 +16,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const title = 'Free KDP Cover Size Calculator 2026 | Spine Width, Trim Size & Bleed Tool';
+  const title = 'Free KDP Cover Size Calculator — Get Exact Cover Dimensions | LessonCraftStudio';
   const description =
-    'Calculate exact Amazon KDP cover dimensions, spine width, interior page size, margins, and bleed settings. All 16 paperback + 5 hardcover trim sizes. Free tool with official formulas — no signup required.';
+    'Calculate exact KDP cover dimensions for any trim size and page count. Get spine width, bleed area, and safe zone measurements. All 16 paperback + 5 hardcover sizes. Download cover template. Free tool.';
   return {
     title,
     description,

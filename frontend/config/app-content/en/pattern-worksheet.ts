@@ -2,21 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'pattern worksheet generator',
+    primaryKeyword: 'pattern worksheet generator for KDP',
     secondaryKeywords: [
-      'complete the pattern worksheet maker',
-      'visual pattern worksheets',
-      'pattern sequence printable',
-      'pattern activities maker',
+      'pattern activity book maker KDP',
+      'complete the pattern printables Etsy',
+      'math readiness worksheets to sell',
+      'pattern sequence generator commercial',
     ],
     lsiKeywords: [
-      'sequence completion',
-      'logical thinking',
-      'visual patterns',
-      'number patterns',
+      'math readiness activities',
+      '5 pattern types',
+      'multiple difficulty levels',
+      'pattern completion worksheets',
+      'logical thinking printables',
+      'bulk generation',
+      'commercial license',
     ],
-    titleTag: 'Pattern Worksheet Generator for Etsy & KDP Sellers',
-    metaDescription: 'Create pattern recognition worksheets to sell on Etsy, KDP, and TPT. 5 pattern types, multiple difficulty levels. Commercial license. Try free trial.',
+    titleTag: 'Pattern Worksheet Generator — Math Readiness KDP | LessonCraftStudio',
+    metaDescription: 'Create pattern activity worksheets for KDP and Etsy. 5 pattern types, multiple difficulty levels, math readiness niche. Commercial license. Try free trial.',
   },
 
   hero: {

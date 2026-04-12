@@ -34,9 +34,18 @@ const productGuideIds = [
   'treasure-hunt-printables-sell', 'picture-sudoku-books-kdp',
   'size-comparison-worksheets-sell', 'more-less-worksheets-sell',
   'odd-one-out-worksheets-sell',
+  // SEO Overhaul: Category D — Tool Comparisons & "Best Of" (15)
+  'lessoncraftstudio-vs-book-bolt', 'lessoncraftstudio-vs-bookgenie',
+  'best-word-search-generators-kdp', 'best-kdp-activity-book-tools',
+  'best-worksheet-generators-etsy', 'lessoncraftstudio-vs-canva',
+  'lessoncraftstudio-vs-tangent-templates', 'best-crossword-generators-kdp',
+  'lessoncraftstudio-vs-self-publishing-titans', 'free-vs-paid-worksheet-generators',
+  'best-coloring-page-generators-kdp', 'best-math-worksheet-generators-kdp',
+  'lessoncraftstudio-vs-activity-book-generator', 'best-sudoku-generators-kdp',
+  'post-generation-editing-advantage',
 ];
 
-// Platform & Business Strategy (30 posts — indices 33-62)
+// Platform & Business Strategy (60 posts — original 30 + SEO overhaul 20 + 10 case studies)
 const platformStrategyIds = [
   'etsy-printable-shop-first-month', 'etsy-seo-printable-sellers-2026',
   'etsy-listing-optimization-worksheets', 'kdp-activity-book-formatting-guide',
@@ -53,9 +62,25 @@ const platformStrategyIds = [
   'printable-mockup-photos-sell-more', 'gumroad-vs-etsy-digital-products',
   'print-on-demand-vs-digital-download', 'customer-service-digital-products',
   'social-media-printable-sellers', 'copyright-printable-sellers-basics',
+  // SEO Overhaul: Category B — Platform & Business Guides (20)
+  'sell-worksheets-etsy-guide-2026', 'sell-activity-books-amazon-kdp-guide',
+  'sell-printables-teachers-pay-teachers-2026', 'sell-printable-puzzles-gumroad',
+  'price-kdp-activity-books-maximum-profit', 'etsy-seo-printable-sellers-guide-2026',
+  'amazon-kdp-keywords-activity-books', 'etsy-listings-convert-digital-downloads',
+  'kdp-categories-puzzle-activity-books', 'bundle-printables-higher-order-value-etsy',
+  'start-printable-business-no-design-skills-guide', 'how-much-money-selling-printables-etsy',
+  'kdp-activity-book-interior-formatting', 'create-mockup-images-etsy-printables',
+  'printable-business-tax-guide-kdp-etsy', 'scale-printable-business-10-to-500-products',
+  'seasonal-printables-holiday-demand-planning', 'get-reviews-etsy-digital-products',
+  'kdp-expanded-distribution-activity-books', 'pinterest-traffic-etsy-printable-shop',
+  // SEO Overhaul: Category E — Case Studies & Income Reports (7 platform-strategy)
+  'first-100-dollars-selling-printables-etsy', 'zero-to-100-etsy-sales-printable-seller',
+  '500-month-printable-side-hustle-timeline',
+  'non-designer-printable-business-lessoncraftstudio', 'anatomy-best-selling-kdp-activity-book',
+  'multi-language-printables-doubled-revenue', 'first-month-selling-word-search-books-kdp',
 ];
 
-// Niche & Seasonal Content (30 posts — indices 63-92)
+// Niche & Seasonal Content (50 posts — original 30 + SEO overhaul 20)
 const nicheSeasonalIds = [
   'best-printables-sell-christmas', 'halloween-printables-sell-october',
   'back-to-school-printable-rush', 'valentines-day-printables-sell',
@@ -72,9 +97,20 @@ const nicheSeasonalIds = [
   'spring-printables-sell-march-april', 'winter-printables-sell-december-january',
   'dinosaur-printables-sell-evergreen', 'farm-animal-printables-sell',
   'ocean-themed-printables-sell', 'food-themed-worksheets-sell',
+  // SEO Overhaul: Category C — Niche Ideas & Market Research (20)
+  'profitable-kdp-activity-book-niches-2026', 'low-competition-printable-niches-etsy-2026',
+  'non-english-printable-markets', 'best-selling-word-search-themes-kdp',
+  'printable-niches-homeschool-market', 'summer-activity-book-niches-seasonal-demand',
+  'coloring-book-niches-still-sell-2026', 'educational-printable-trends-2026',
+  'find-untapped-niches-printable-niche-finder', 'adult-puzzle-book-niches-kdp',
+  'special-education-printables-niche', 'baby-shower-party-printable-niches-etsy',
+  'math-workbook-niches-grade-level-demand', 'religious-faith-based-printable-niches',
+  'travel-activity-book-niches-kdp', 'large-print-puzzle-books-senior-market-kdp',
+  'bilingual-worksheets-growing-niche-etsy', 'occupational-therapy-printable-niches',
+  'research-kdp-niches-amazon-search', 'printable-games-niche-bingo-treasure-hunts',
 ];
 
-// How-To Tutorials (19 posts — indices 93-111)
+// How-To Tutorials (54 posts — original 19 + SEO overhaul 20 how-to + 15 tactical)
 const howToIds = [
   'create-worksheet-bundle-35-minutes', 'format-worksheets-etsy-listing',
   'create-activity-book-kdp-start-finish', 'worksheet-design-tips-sell-more',
@@ -86,6 +122,29 @@ const howToIds = [
   'create-printable-curriculum-packs', '11-languages-sell-globally',
   'etsy-keyword-research-printables', 'printable-product-photography-mockups',
   'update-old-printable-listings-boost-sales',
+  // SEO Overhaul: Category A — "How to Create [Product]" (20)
+  'create-word-search-book-kdp', 'create-math-workbooks-kdp',
+  'make-coloring-books-sell-etsy', 'create-activity-books-kids-kdp',
+  'make-crossword-puzzle-books-kdp', 'create-sudoku-books-kdp',
+  'make-handwriting-practice-books-kdp', 'create-i-spy-books-kdp',
+  'make-pattern-worksheets-sell-etsy', 'create-matching-activity-books-kdp',
+  'make-word-scramble-books-kdp', 'create-bingo-cards-sell-etsy-tpt',
+  'make-cryptogram-puzzle-books-kdp', 'create-alphabet-tracing-books-kdp',
+  'make-preschool-workbooks-sell-etsy', 'create-multi-language-printables-global',
+  'make-logic-puzzle-books-kdp', 'create-treasure-hunt-printables-sell',
+  'make-preposition-worksheets-esl-markets', 'create-learning-packet-sell-tpt',
+  // SEO Overhaul: Category E — Case Studies with how-to category (3)
+  'created-50-page-kdp-activity-book-one-afternoon',
+  '1-to-100-etsy-listings-30-days', 'kdp-activity-book-earnings-calculator',
+  // SEO Overhaul: Category F — Tips, Tricks & Tactical Guides (15)
+  'kdp-trim-sizes-activity-books', 'how-many-pages-kdp-activity-book',
+  'create-answer-keys-printable-worksheets', '300-dpi-vs-150-dpi-print-resolution-sellers',
+  'format-printable-pdfs-etsy-digital-downloads', 'us-letter-vs-a4-paper-size-international-sales',
+  'write-etsy-descriptions-printable-products', 'best-tags-printable-worksheets-etsy',
+  'watermark-free-printable-samples-etsy', 'create-printable-product-series-cross-sells',
+  'grayscale-vs-color-printables-what-sells-better', 'themed-image-collections-unique-products',
+  'calculate-printable-business-profit-margins', 'avoid-copyright-issues-selling-printables',
+  'automate-printable-workflow-creation-listing',
 ];
 
 for (const id of productGuideIds) blogCategoryMap[id] = 'product-guide';

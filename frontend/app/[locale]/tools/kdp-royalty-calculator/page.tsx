@@ -16,9 +16,9 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const title = 'Free KDP Royalty Calculator 2026 | Amazon Printing Cost & Profit Tool';
+  const title = 'Free KDP Royalty Calculator — Estimate Amazon Book Earnings | LessonCraftStudio';
   const description =
-    'Calculate your Amazon KDP printing costs, royalties, and profit per sale instantly. Supports all 8 marketplaces, B&W and color ink, 50%/60% royalty tiers. Free tool with official 2026 rates — no signup required.';
+    'Calculate your Amazon KDP royalties instantly. Enter page count, trim size, and price to see your per-book profit. All 8 marketplaces, B&W and color ink, 50%/60% tiers. Plan your activity book pricing strategy. Free tool.';
   return {
     title,
     description,

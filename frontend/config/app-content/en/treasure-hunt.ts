@@ -2,22 +2,24 @@ import type { AppContent } from '../types';
 
 const content: AppContent = {
   seo: {
-    primaryKeyword: 'treasure hunt worksheet generator',
+    primaryKeyword: 'treasure hunt printable generator Etsy',
     secondaryKeywords: [
-      'scavenger hunt printable maker',
-      'treasure hunt activity generator',
-      'printable treasure hunt maker',
-      'treasure hunt game maker',
+      'scavenger hunt printable maker to sell',
+      'party game worksheet generator',
+      'treasure hunt activity commercial',
+      'printable party games Etsy',
     ],
     lsiKeywords: [
-      'clues',
-      'adventure',
-      'scavenger hunt',
-      'follow the path',
-      'classroom activity',
+      'party printable niche',
+      'scavenger hunt activities',
+      'seasonal treasure hunts',
+      'birthday party printables',
+      'near-zero competition',
+      '11 language support',
+      'commercial license',
     ],
-    titleTag: 'Treasure Hunt Worksheet Generator for Etsy Sellers',
-    metaDescription: 'Create treasure hunt direction worksheets to sell on Etsy. Unique product with almost no competition. 11 languages. Commercial license. Try free trial.',
+    titleTag: 'Treasure Hunt Generator — Party Printables Etsy | LessonCraftStudio',
+    metaDescription: 'Create treasure hunt and scavenger hunt printables for Etsy. Party game niche, near-zero competition, 11 languages. Commercial license. Try free trial.',
   },
 
   hero: {

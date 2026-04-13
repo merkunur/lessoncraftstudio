@@ -13,7 +13,7 @@ const content: BlogContent = {
       'valentine classroom activities sell',
       'love themed worksheets profit',
     ],
-    titleTag: 'Valentine\'s Day Printables: What Sells in Feb | LCS',
+    titleTag: 'Valentine\'s Day Printables: What Sells in Feb | LessonCraftStudio',
     metaDescription: 'Valentine\'s Day printables sell fast in late January through February 14. Discover what products to create, pricing tips, and the ideal listing timeline.',
   },
   hero: {

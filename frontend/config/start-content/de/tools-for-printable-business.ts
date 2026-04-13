@@ -15,7 +15,7 @@ const content: StartContent = {
       'Bildbearbeitung',
       'Marktplatz-Tools',
     ],
-    titleTag: 'Beste Tools für Druckvorlagen-Business | LCS',
+    titleTag: 'Beste Tools für Druckvorlagen-Business | LessonCraftStudio',
     metaDescription: 'Die besten Tools und Software für Ihr Druckvorlagen-Business. Generatoren, PDF-Export, Bildbearbeitung und Marktplatz-Tools im Überblick.',
   },
 

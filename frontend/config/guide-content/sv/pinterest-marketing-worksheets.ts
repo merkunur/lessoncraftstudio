@@ -17,7 +17,7 @@ const content: GuideContent = {
       'pin-optimering vertikalt format Pinterest-algoritm fräscha pins',
       'sökranking sparfrekvens utgående klick publikinsikter pin-mallar',
     ],
-    titleTag: 'Pinterest för printables-säljare | LCS',
+    titleTag: 'Pinterest för printables-säljare | LessonCraftStudio',
     metaDescription: 'Pinterest-strategi för printables-säljare. Driv trafik till din Etsy-butik med pin-optimering, tavlestruktur och nyckelordrika beskrivningar. Komplett guide.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'S2-kotiopetus materiaalit',
       'etäopetus tulosteet',
     ],
-    titleTag: 'Kotiopetustulosteet: kasvava markkina | LCS',
+    titleTag: 'Kotiopetustulosteet: kasvava markkina | LessonCraftStudio',
     metaDescription: 'Kotiopetustulosteet ovat kasvava markkina Suomessa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

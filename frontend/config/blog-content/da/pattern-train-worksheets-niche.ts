@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'mønster-tog arbejdsark niche',
     secondaryKeywords: ['mønster-tog arbejdsark niche Etsy', 'mønster-tog arbejdsark niche online', 'mønster-tog arbejdsark niche forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Mønster-Tog Arbejdsark: En Unik Niche | LCS',
+    titleTag: 'Mønster-Tog Arbejdsark: En Unik Niche | LessonCraftStudio',
     metaDescription: 'Mønster-tog arbejdsark er et nichéformat, hvor barnet udfylder tomme togvogne med det korrekte mønsterelement. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

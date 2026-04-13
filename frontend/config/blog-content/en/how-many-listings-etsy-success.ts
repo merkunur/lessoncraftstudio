@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable shop inventory size',
       'Etsy algorithm listing volume',
     ],
-    titleTag: 'How Many Listings for Etsy Success? | LCS',
+    titleTag: 'How Many Listings for Etsy Success? | LessonCraftStudio',
     metaDescription: 'How many Etsy listings do you actually need for consistent printable sales? Data-backed benchmarks for each income level.',
   },
   hero: {

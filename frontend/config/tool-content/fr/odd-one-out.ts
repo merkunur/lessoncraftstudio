@@ -20,7 +20,7 @@ const content: ToolContent = {
       'raisonnement',
       'corrections',
     ],
-    titleTag: 'Cherche l\'intrus gratuit en ligne | LCS',
+    titleTag: 'Cherche l\'intrus gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur « cherche l\'intrus » gratuit — créez des fiches de raisonnement logique avec images en ligne, sans inscription. Corrections automatiques. Licence commerciale.',
   },
 

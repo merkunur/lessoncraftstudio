@@ -20,7 +20,7 @@ const content: ToolContent = {
       'lettres',
       'solution',
     ],
-    titleTag: 'Générateur cryptogrammes gratuit en ligne | LCS',
+    titleTag: 'Générateur cryptogrammes gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de cryptogrammes gratuit — créez des messages codés avec images thématiques en ligne, sans inscription. Solutions automatiques, PDF 300 DPI. Licence commerciale.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Pinterest-taulut tulostekauppa',
       'visuaalinen markkinointi Pinterest',
     ],
-    titleTag: 'Pinterest-liikenne tulostekauppaan | LCS',
+    titleTag: 'Pinterest-liikenne tulostekauppaan | LessonCraftStudio',
     metaDescription: 'Ohjaa Pinterest-liikennettä tulostekauppaasi. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'passiva intäkter utskriftskostnader förpackning kvalitet',
       'affärsmodell formatval säljarstrategi tillväxtväg printables',
     ],
-    titleTag: 'Digitalt vs fysiskt: printables guide | LCS',
+    titleTag: 'Digitalt vs fysiskt: printables guide | LessonCraftStudio',
     metaDescription: 'Digitala vs fysiska printables: jämför vinstmarginaler, skalbarhet och leverans. Välj rätt format för din printable-verksamhet.',
   },
 

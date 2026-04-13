@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Code',
       'Buchstaben-Substitution',
     ],
-    titleTag: 'Kostenloser Kryptogramm-Generator | LCS',
+    titleTag: 'Kostenloser Kryptogramm-Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Kryptogramm-Generator — Geheimschrift-Rätsel mit Themenbildern sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 

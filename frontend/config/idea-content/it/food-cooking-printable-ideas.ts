@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede cibo e alimentazione da stampare | LCS',
+    titleTag: 'Schede cibo e alimentazione da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede a tema cibo da stampare: conteggio frutta e verdura, colorare alimenti, crucipuzzle cucina e attività di educazione alimentare per bambini.',
     primaryKeyword: 'schede cibo e alimentazione da stampare',
     secondaryKeywords: [

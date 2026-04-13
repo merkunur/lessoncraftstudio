@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Vokabel-Bildkarten Sprachlern-Druckvorlagen',
       'wachsender Sprachlernmarkt DaZ-Nische',
     ],
-    titleTag: 'DaF-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'DaF-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'DaF-Druckvorlagen als profitable Etsy-Nische entdecken. Vokabel-Arbeitsblätter und Sprachübungen für den wachsenden Sprachlernmarkt — Geschäftsideen und Strategien.',
   },
   hero: {

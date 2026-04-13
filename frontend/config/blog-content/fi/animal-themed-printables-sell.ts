@@ -13,7 +13,7 @@ const content: BlogContent = {
       'villieläimet tulostettavia',
       'eläinkuvat generaattori',
     ],
-    titleTag: 'Eläinaiheisia tulostettavia myyntiin | LCS',
+    titleTag: 'Eläinaiheisia tulostettavia myyntiin | LessonCraftStudio',
     metaDescription: 'Eläinteema on lasten suosikkikategoria tulostettavissa tehtävissä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

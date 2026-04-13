@@ -13,7 +13,7 @@ const content: BlogContent = {
       'grilles mots croisés thématiques',
       'mots croisés éducatifs vendre',
     ],
-    titleTag: 'Livres de mots croisés KDP : niche en or | LCS',
+    titleTag: 'Livres de mots croisés KDP : niche en or | LessonCraftStudio',
     metaDescription: 'Les livres de mots croisés sur Amazon KDP sont une niche en or. Formatage, stratégie et conseils pour publier des cahiers rentables en 2026.',
   },
   hero: {

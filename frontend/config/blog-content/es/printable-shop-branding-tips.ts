@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'branding tienda imprimibles consejos',
     secondaryKeywords: ['marca tienda Etsy imprimibles', 'identidad visual tienda imprimibles', 'diferenciar tienda imprimibles marca'],
     lsiKeywords: ['logo tienda Etsy fichas', 'colores marca imprimibles', 'reconocimiento marca productos digitales'],
-    titleTag: 'Branding para su Tienda de Imprimibles | LCS',
+    titleTag: 'Branding para su Tienda de Imprimibles | LessonCraftStudio',
     metaDescription: 'Como crear una marca reconocible para su tienda de imprimibles. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

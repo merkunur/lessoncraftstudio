@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bird Themed Printables to Sell Online | LCS',
+    titleTag: 'Bird Themed Printables to Sell Online | LessonCraftStudio',
     metaDescription: 'Bird themed printable business ideas. Product concepts and strategies for creating and selling bird-themed educational printables on Etsy & KDP.',
 
     primaryKeyword: 'bird themed printables to sell',

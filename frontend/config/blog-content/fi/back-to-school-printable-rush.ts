@@ -13,7 +13,7 @@ const content: BlogContent = {
       'peruskoulu materiaalit Suomi',
       'esikoulu elokuu tulosteet',
     ],
-    titleTag: 'Koulunaloituksen tulostesesonki | LCS',
+    titleTag: 'Koulunaloituksen tulostesesonki | LessonCraftStudio',
     metaDescription: 'Hyödynnä koulunaloituksen myyntipiikki tulostettavilla tehtävillä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

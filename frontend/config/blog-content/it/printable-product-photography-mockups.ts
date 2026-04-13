@@ -17,7 +17,7 @@ const content: BlogContent = {
       'ambientazione',
       'professionale',
     ],
-    titleTag: 'Fotografia Prodotto Materiale Educativo | LCS',
+    titleTag: 'Fotografia Prodotto Materiale Educativo | LessonCraftStudio',
     metaDescription: 'Come fotografare materiale educativo stampabile per le inserzioni. Tecniche e ambientazioni con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

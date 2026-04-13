@@ -13,7 +13,7 @@ const content: BlogContent = {
       'matematik arbejdsark samlepakke',
       'printbar matematik forretning',
     ],
-    titleTag: 'Matematikark-Pakker Der Sælger på Etsy | LCS',
+    titleTag: 'Matematikark-Pakker Der Sælger på Etsy | LessonCraftStudio',
     metaDescription: 'Lær at sammensætte matematikark-pakker der sælger konsistent. Pakkestrategier, prissætning og produktsammensætning for Etsy og KDP.',
   },
   hero: {

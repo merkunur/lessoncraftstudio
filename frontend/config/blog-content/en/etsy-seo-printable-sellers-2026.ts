@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Etsy keyword research worksheets',
       'Etsy listing optimization digital',
     ],
-    titleTag: 'Etsy SEO for Printable Sellers 2026 | LCS',
+    titleTag: 'Etsy SEO for Printable Sellers 2026 | LessonCraftStudio',
     metaDescription: 'The Etsy SEO strategies that work for printable sellers in 2026. Keyword research, listing optimization, and algorithm changes you need to know.',
   },
   hero: {

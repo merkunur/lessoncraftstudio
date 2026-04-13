@@ -13,7 +13,7 @@ const content: BlogContent = {
       'listings necesarios ventas consistentes',
       'tamano tienda Etsy imprimibles',
     ],
-    titleTag: 'Cuantos Listings Necesita en Etsy para el Exito | LCS',
+    titleTag: 'Cuantos Listings Necesita en Etsy para el Exito | LessonCraftStudio',
     metaDescription: 'Descubra cuantos listings necesita realmente en Etsy para generar ventas consistentes de imprimibles. Datos y estrategia basados en tiendas reales.',
   },
   hero: {

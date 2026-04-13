@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable page dimensions',
       'global printable market sizes',
     ],
-    titleTag: 'Letter vs A4: Best Paper Sizes for Printables | LCS',
+    titleTag: 'Letter vs A4: Best Paper Sizes for Printables | LessonCraftStudio',
     metaDescription: 'Letter vs A4: which paper size should you use for printable products? How to offer both sizes and double your market on Etsy, KDP and beyond.',
   },
   hero: {

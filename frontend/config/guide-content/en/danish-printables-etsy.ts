@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Denmark homeschool printables demand',
       'Scandinavian worksheet generator',
     ],
-    titleTag: 'Sell Danish Printables on Etsy | LCS',
+    titleTag: 'Sell Danish Printables on Etsy | LessonCraftStudio',
     metaDescription: 'Sell Danish printables on Etsy step by step. Danish vocabulary with correct special characters in word searches, crosswords, and matching worksheets. Nordic market guide.',
   },
 

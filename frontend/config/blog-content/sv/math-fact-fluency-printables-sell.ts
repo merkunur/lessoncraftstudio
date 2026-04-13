@@ -13,7 +13,7 @@ const content: BlogContent = {
       'addition subtraktion drill arbetsblad',
       'matteträning hemundervisare material',
     ],
-    titleTag: 'Sälj Mattefakta-Övningar Printable | LCS',
+    titleTag: 'Sälj Mattefakta-Övningar Printable | LessonCraftStudio',
     metaDescription: 'Mattefakta-övningar hjälper barn automatisera grundräkning. Stor efterfrågan från föräldrar. Skapa och sälj på Etsy.',
   },
   hero: {

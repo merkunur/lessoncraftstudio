@@ -15,7 +15,7 @@ const content: GuideContent = {
       'picture cipher puzzles',
       'print-ready PDF',
     ],
-    titleTag: 'Cryptogram Generator for KDP Puzzle Books | LCS',
+    titleTag: 'Cryptogram Generator for KDP Puzzle Books | LessonCraftStudio',
     metaDescription: 'Create professional cryptogram puzzle books for Amazon KDP. Picture ciphers, adjustable difficulty, 11 languages, answer keys. Step-by-step KDP workflow. Try free trial.',
   },
 

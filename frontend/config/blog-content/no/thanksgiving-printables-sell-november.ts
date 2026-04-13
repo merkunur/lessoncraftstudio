@@ -8,7 +8,7 @@ const content: BlogContent = {
       'advent arbeidsark barn selge nettbutikk',
     ],
     lsiKeywords: ['sesongbaserte arbeidsark salg', 'adventsaktiviteter oppgaver barn', 'jule-arbeidsark kommersiell lisens'],
-    titleTag: 'Advent- og juleoppgaver: Selg i november | LCS',
+    titleTag: 'Advent- og juleoppgaver: Selg i november | LessonCraftStudio',
     metaDescription: 'Selg advents- og juleoppgaver fra november — Norges største sesong for arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

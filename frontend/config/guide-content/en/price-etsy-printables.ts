@@ -14,7 +14,7 @@ const content: GuideContent = {
       'printable bundle vs individual pricing',
       'competitive pricing analysis Etsy',
     ],
-    titleTag: 'How to Price Etsy Printables Right | LCS',
+    titleTag: 'How to Price Etsy Printables Right | LessonCraftStudio',
     metaDescription: 'How to price Etsy printables for maximum profit. Individual vs bundle pricing, competitive analysis, and strategies that boost your revenue.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'lokalisointi tulosteliiketoiminta',
       'kansainvälinen markkina tulosteet',
     ],
-    titleTag: 'Monikielisten tulosteiden etu | LCS',
+    titleTag: 'Monikielisten tulosteiden etu | LessonCraftStudio',
     metaDescription: 'Hyödynnä monikielisiä tulosteita kilpailuetuna. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

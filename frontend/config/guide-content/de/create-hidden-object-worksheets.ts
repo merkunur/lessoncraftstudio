@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Ich-sehe-was Lösungsschlüssel Themenbilder',
       'Grundschule 300 DPI PDF',
     ],
-    titleTag: 'Suchbilder erstellen | Anleitung | LCS',
+    titleTag: 'Suchbilder erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Suchbildern. Ich-sehe-was und Was-passt-nicht-Modus, Lösungsschlüssel und druckfertige Dateien. Kostenlos testen.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'etsy ad spend digital downloads',
       'etsy advertising cost printable sellers',
     ],
-    titleTag: 'Are Etsy Ads Worth It for Printable Sellers? | LCS',
+    titleTag: 'Are Etsy Ads Worth It for Printable Sellers? | LessonCraftStudio',
     metaDescription: 'Real data on Etsy Ads for printable sellers. When to start, how much to spend, and which listings to advertise. ROI analysis with actual numbers.',
   },
   hero: {

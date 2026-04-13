@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Summer Printable Business Ideas | LCS',
+    titleTag: 'Summer Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Summer printable business ideas for Etsy & KDP. Vacation themes, summer learning concepts, and strategies for the summer demand season.',
 
     primaryKeyword: 'summer printable business ideas',

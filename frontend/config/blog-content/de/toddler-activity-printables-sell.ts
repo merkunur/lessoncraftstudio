@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Kleinkind Aktivitaeten Druckvorlagen Etsy Trend 2026',
     secondaryKeywords: ['Kleinkind Beschaeftigung PDF verkaufen', 'Aktivitaeten 2-3 Jahre Etsy', 'Kleinkind Lernspiele druckbar'],
     lsiKeywords: ['Spielideen Kleinkind drucken', 'Beschaeftigungsmaterial Kleinkinder', 'Busy Toddler Druckvorlagen'],
-    titleTag: 'Kleinkind-Aktivitaeten: Etsy-Trend 2026 | LCS',
+    titleTag: 'Kleinkind-Aktivitaeten: Etsy-Trend 2026 | LessonCraftStudio',
     metaDescription: 'Kleinkind-Aktivitaets-Druckvorlagen: Was auf Etsy.de im Trend liegt 2026. Busy Bags, Sortieraufgaben und Feinmotorik-Uebungen fuer die Juengsten.',
   },
   hero: {

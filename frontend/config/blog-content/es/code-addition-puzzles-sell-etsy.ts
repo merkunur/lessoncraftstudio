@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fichas decodificación matemáticas',
       'puzzles educativos rentables',
     ],
-    titleTag: 'Puzzles Código Suma: Nicho Oculto Etsy | LCS',
+    titleTag: 'Puzzles Código Suma: Nicho Oculto Etsy | LessonCraftStudio',
     metaDescription: 'Los puzzles de código suma son un nicho de baja competencia en Etsy con alta demanda. Aprenda a crear y vender este producto único.',
   },
   hero: {

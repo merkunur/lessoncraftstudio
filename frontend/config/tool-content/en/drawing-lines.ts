@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant line tracing maker',
       'try before you buy tracing tools',
     ],
-    titleTag: 'Free Tracing Worksheet Generator Online | LCS',
+    titleTag: 'Free Tracing Worksheet Generator Online | LessonCraftStudio',
     metaDescription: 'Make tracing worksheets free online with watermark — no signup. 8 SVG line templates, themed image pairs, fine motor skills. Upgrade to sell.',
   },
 

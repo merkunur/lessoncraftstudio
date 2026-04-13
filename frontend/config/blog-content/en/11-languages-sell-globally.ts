@@ -13,7 +13,7 @@ const content: BlogContent = {
       'multilingual educational products',
       'international etsy sales strategy',
     ],
-    titleTag: 'Create Worksheets in 11 Languages, Sell Globally | LCS',
+    titleTag: 'Create Worksheets in 11 Languages, Sell Globally | LessonCraftStudio',
     metaDescription: 'Expand your printable business to 11 languages and reach global buyers. How multilingual worksheets multiply your market 10x with minimal extra work.',
   },
   hero: {

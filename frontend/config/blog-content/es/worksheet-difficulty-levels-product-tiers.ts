@@ -9,7 +9,7 @@ const content: BlogContent = {
       'paso crear fotos listing',
     ],
     lsiKeywords: ['niveles dificultad fichas tips', 'como niveles dificultad', 'productos escalonados facil'],
-    titleTag: 'Niveles de Dificultad en Fichas | LCS',
+    titleTag: 'Niveles de Dificultad en Fichas | LessonCraftStudio',
     metaDescription: 'El mismo tipo de ficha en diferentes niveles de dificultad se convierte en multiples productos. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

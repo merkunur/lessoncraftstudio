@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances FLE',
       'demande fiches fiches FLE',
     ],
-    titleTag: 'FLE : le marché mondial des fiches de français | LCS',
+    titleTag: 'FLE : le marché mondial des fiches de français | LessonCraftStudio',
     metaDescription: 'Le marché du FLE est immense et sous-exploité. Comment vendre des fiches de Français Langue Étrangère mondialement.',
   },
   hero: {

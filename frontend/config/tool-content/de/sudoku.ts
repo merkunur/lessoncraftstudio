@@ -15,7 +15,7 @@ const content: ToolContent = {
       'leichtes Sudoku',
       '4x4 Sudoku',
     ],
-    titleTag: 'Kostenloser Bilder-Sudoku Generator | LCS',
+    titleTag: 'Kostenloser Bilder-Sudoku Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Bilder-Sudoku Generator — Bilder- und Zahlen-Sudoku sofort erstellen, ohne Anmeldung. Einstellbare Schwierigkeit. Lizenz für Etsy & KDP.',
   },
 

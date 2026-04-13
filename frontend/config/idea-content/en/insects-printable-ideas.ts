@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Insect Printable Business Ideas | LCS',
+    titleTag: 'Insect Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Insect themed printable business ideas. Product concepts and strategies for bug and insect-themed educational printables on Etsy & KDP.',
 
     primaryKeyword: 'insect printable business ideas',

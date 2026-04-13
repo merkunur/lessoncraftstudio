@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy SEO 13 taggar annostitlar beskrivning',
       'förskoleklass lågstadiet mellanstadiet pedagogiska printables',
     ],
-    titleTag: 'Starta Etsy-butik för printables | LCS',
+    titleTag: 'Starta Etsy-butik för printables | LessonCraftStudio',
     metaDescription: 'Starta din Etsy-butik för printables steg för steg. Butiksuppsättning, annonsoptimering, prissättning och Etsy SEO. Komplett nybörjarguide för säljare.',
   },
 

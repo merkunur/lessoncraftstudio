@@ -13,7 +13,7 @@ const content: BlogContent = {
       'joulukoristeet tulostettavia',
       'adventtikalenteri tulosteet',
     ],
-    titleTag: 'Parhaat tulosteet joulusesonkiin | LCS',
+    titleTag: 'Parhaat tulosteet joulusesonkiin | LessonCraftStudio',
     metaDescription: 'Joulusesongin myydyimmät tulosteet ja lanseerausstrategia yrittäjälle. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

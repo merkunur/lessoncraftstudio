@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches raisonnement logique maternelle',
       'exercices exclusion logique vendre',
     ],
-    titleTag: 'Fiches intrus : vendre la pensée critique | LCS',
+    titleTag: 'Fiches intrus : vendre la pensée critique | LessonCraftStudio',
     metaDescription: 'Les fiches « trouve l\'intrus » développent la pensée critique et se vendent à prix premium. Comment exploiter cette niche éducative en 2026.',
   },
   hero: {

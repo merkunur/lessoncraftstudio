@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable business efficiency',
       'scale worksheet output',
     ],
-    titleTag: 'Batch-Create Worksheets Efficiently for Etsy | LCS',
+    titleTag: 'Batch-Create Worksheets Efficiently for Etsy | LessonCraftStudio',
     metaDescription: 'Learn the batch production method top Etsy sellers use to create 100+ worksheets per week. Step-by-step workflow for efficient worksheet creation.',
   },
   hero: {

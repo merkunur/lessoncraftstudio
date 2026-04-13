@@ -15,7 +15,7 @@ const content: GuideContent = {
       'word find worksheet PDF',
       'print-ready puzzle download',
     ],
-    titleTag: 'Word Search Generator for Etsy Sellers | LCS',
+    titleTag: 'Word Search Generator for Etsy Sellers | LessonCraftStudio',
     metaDescription: 'Create professional word search puzzles for your Etsy printable shop. 11 languages, 104 themes, 300 DPI PDFs, auto answer keys. Complete Etsy seller workflow inside.',
   },
 

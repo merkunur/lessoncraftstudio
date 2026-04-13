@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'børnehaveklasse arbejdsark marked',
     secondaryKeywords: ['børnehaveklasse arbejdsark marked Etsy', 'børnehaveklasse arbejdsark marked online', 'børnehaveklasse arbejdsark marked forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Børnehaveklasse-Arbejdsark: Markedsanalyse | LCS',
+    titleTag: 'Børnehaveklasse-Arbejdsark: Markedsanalyse | LessonCraftStudio',
     metaDescription: 'Børnehaveklasse-arbejdsark er det mest efterspurgte segment i det danske printable-marked. Forældre til 5-6 årige børn er i en aktiv indkøbsfase, hvor de f',
   },
   hero: {

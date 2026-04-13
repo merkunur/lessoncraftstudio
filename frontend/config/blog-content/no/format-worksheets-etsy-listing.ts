@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'formater arbeidsark riktig Etsy-salg',
     secondaryKeywords: ['filformat arbeidsark Etsy nedlasting', 'papirstørrelse A4 US Letter arbeidsark', 'leveringsformat digitale oppgaver Etsy'],
     lsiKeywords: ['PDF-format arbeidsark salg', 'Etsy filopplasting sjekkliste', 'unngå dårlige anmeldelser format'],
-    titleTag: 'Riktig format for arbeidsark på Etsy | LCS',
+    titleTag: 'Riktig format for arbeidsark på Etsy | LessonCraftStudio',
     metaDescription: 'Feil format gir dårlige anmeldelser. Lær riktig filformat, papirstørrelse og levering for arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

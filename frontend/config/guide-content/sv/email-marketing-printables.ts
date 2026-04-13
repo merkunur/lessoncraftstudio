@@ -17,7 +17,7 @@ const content: GuideContent = {
       'automatiserade sekvenser återaktivering listhygien printables',
       'innehållskalender A/B-testning personalisering Etsy KDP',
     ],
-    titleTag: 'E-postmarknadsföring printable-säljare | LCS',
+    titleTag: 'E-postmarknadsföring printable-säljare | LessonCraftStudio',
     metaDescription: 'E-postmarknadsföring för printable-säljare. Bygg prenumerantlista, skapa lead magnets, automatisera sekvenser och driv återkommande försäljning.',
   },
 

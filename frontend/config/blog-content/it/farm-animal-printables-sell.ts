@@ -17,7 +17,7 @@ const content: BlogContent = {
       'cavallo',
       'pecora',
     ],
-    titleTag: 'Schede Animali Fattoria da Stampare | LCS',
+    titleTag: 'Schede Animali Fattoria da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche sugli animali della fattoria da stampare per bambini. Mucca, gallina, maiale e cavallo con LessonCraftStudio — 33 generatori.',
   },
   hero: {

@@ -8,7 +8,7 @@ const content: BlogContent = {
       'arbeidsark selger inntekt uten hype',
     ],
     lsiKeywords: ['arbeidsark forretning inntekt ærlig', 'Etsy selger inntektsestimat', 'digital produktforretning lønnsomhet'],
-    titleTag: 'Realistisk inntekt fra arbeidsark-forretning | LCS',
+    titleTag: 'Realistisk inntekt fra arbeidsark-forretning | LessonCraftStudio',
     metaDescription: 'Ekte inntektstall for arbeidsark-selgere uten hype. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

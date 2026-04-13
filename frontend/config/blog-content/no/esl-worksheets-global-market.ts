@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg norsk som andrespråk arbeidsark',
     secondaryKeywords: ['norsk andrespråk oppgaver Etsy selge', 'norskkurs arbeidsark lav konkurranse', 'norskopplæring materiell selge på nett'],
     lsiKeywords: ['arbeidsark norsk alfabet æøå', 'voksenopplæring norsk utskrift', 'norskkurs pedagogisk materiell'],
-    titleTag: 'Selg norsk som andrespråk-arbeidsark på nett | LCS',
+    titleTag: 'Selg norsk som andrespråk-arbeidsark på nett | LessonCraftStudio',
     metaDescription: 'Norsk som andrespråk er en nisje med enorm vekst og lav konkurranse. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

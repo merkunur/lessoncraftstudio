@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy Amazon KDP säsongstoppar kvartalsplanering',
       'pysselbok aktivitetsbok arbetsblad skriva ut tema',
     ],
-    titleTag: 'Säsongsmarknadsföring printables | LCS',
+    titleTag: 'Säsongsmarknadsföring printables | LessonCraftStudio',
     metaDescription: 'Planera säsongsmarknadsföring för printables med produktionskalender och tajming. Skolstart, högtider och sommartoppar. Strategi för Etsy- och KDP-säljare.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances dinosaures',
       'demande fiches imprimables dinosaures',
     ],
-    titleTag: 'Imprimables dinosaures : un evergreen | LCS',
+    titleTag: 'Imprimables dinosaures : un evergreen | LessonCraftStudio',
     metaDescription: 'Les dinosaures sont un thème intemporel. Fiches, coloriages et jeux dinosaures se vendent toute l\'année.',
   },
   hero: {

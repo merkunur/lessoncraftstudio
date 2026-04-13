@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'loesungsblaetter verkaeufe verdoppeln sind meisten',
     secondaryKeywords: ['Warum Loesungsblaetter Ihre Druckvorlagen-Verkaeufe verdoppeln Anleitung', 'Druckvorlagen Warum Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Loesungsblaetter: Verkaeufe verdoppeln | LCS',
+    titleTag: 'Loesungsblaetter: Verkaeufe verdoppeln | LessonCraftStudio',
     metaDescription: 'Loesungsblaetter sind das am meisten unterschaetzte Feature. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {

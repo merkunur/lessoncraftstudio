@@ -13,7 +13,7 @@ const content: BlogContent = {
       'grilles mots cachés thématiques',
       'puzzles vocabulaire imprimables',
     ],
-    titleTag: 'Mots cachés imprimables : combien gagner ? | LCS',
+    titleTag: 'Mots cachés imprimables : combien gagner ? | LessonCraftStudio',
     metaDescription: 'Combien peut-on réellement gagner avec des mots cachés imprimables ? Chiffres, stratégies et niches les plus rentables sur Etsy et KDP en 2026.',
   },
   hero: {

@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'skattejakt arbeidsark selge Etsy',
     secondaryKeywords: ['skattejakt oppgaver selge nettbutikk', 'eventyr arbeidsark forretning barn', 'skattejakt puslespill selge Etsy KDP'],
     lsiKeywords: ['skattejakt oppgaver salg', 'eventyrbaserte arbeidsark bedrift', 'Etsy nedlasting pedagogisk'],
-    titleTag: 'Skattejakt-arbeidsark: Selg på nett | LCS',
+    titleTag: 'Skattejakt-arbeidsark: Selg på nett | LessonCraftStudio',
     metaDescription: 'Lag og selg skattejakt-arbeidsark for barn på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

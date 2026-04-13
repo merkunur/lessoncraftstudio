@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'banko plader printbar forretning fest',
     secondaryKeywords: ['sælg printbare bankoplader Etsy', 'banko printables forretningsmuligheder', 'tilpassede bankoplader sælg online'],
     lsiKeywords: ['festspil printbar sælg', 'folkeskole banko sælg Etsy', 'banko generator forretning'],
-    titleTag: 'Printbare Bankoplader: Fest og Forretning | LCS',
+    titleTag: 'Printbare Bankoplader: Fest og Forretning | LessonCraftStudio',
     metaDescription: 'Printbare bankoplader betjener folkeskolen, fester og familieunderholdning — tre separate markeder. Lær at opbygge en banko-forretning.',
   },
   hero: {

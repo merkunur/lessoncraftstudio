@@ -17,7 +17,7 @@ const content: GuideContent = {
       'labyrintarbetsblad tematiska bilder facit automatiskt',
       'kommersiell licens labyrintgenerator 6 rutnätsstorlekar',
     ],
-    titleTag: 'Skapa labyrinter att skriva ut | LCS',
+    titleTag: 'Skapa labyrinter att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa labyrintarbetsblad att skriva ut med 3 spellägen, tematiska bilder och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 

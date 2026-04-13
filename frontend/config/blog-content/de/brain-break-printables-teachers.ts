@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Konzentrationsueungen Druckvorlagen Lehrer kaufen',
     secondaryKeywords: ['Gehirnpause Arbeitsblaetter Grundschule', 'Konzentrationsfoerderung Material PDF', 'Bewegungspause Druckvorlagen Unterricht'],
     lsiKeywords: ['Brain Break Karten drucken', 'Fokus-Uebungen Klasse 1-4', 'Auflockerung Unterricht Material'],
-    titleTag: 'Konzentrationsueungen-Druckvorlagen: Was Lehrer kaufen | LCS',
+    titleTag: 'Konzentrationsueungen-Druckvorlagen: Was Lehrer kaufen | LessonCraftStudio',
     metaDescription: 'Konzentrationsueungen und Gehirnpausen-Druckvorlagen: Warum Lehrer dieses Material aktiv suchen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {

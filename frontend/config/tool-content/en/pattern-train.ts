@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant pattern worksheet generator',
       'try before you buy pattern tools',
     ],
-    titleTag: 'Free Pattern Worksheet Generator Online | LCS',
+    titleTag: 'Free Pattern Worksheet Generator Online | LessonCraftStudio',
     metaDescription: 'Make pattern worksheets free online with watermark — no signup. Train-car sequences, themed images, auto answer keys. Upgrade to sell.',
   },
 

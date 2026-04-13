@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'optimaliser Etsy-annonser arbeidsark',
     secondaryKeywords: ['Etsy annonseoptimalisering oppgaver', 'bedre titler tags Etsy arbeidsark', 'øk salg Etsy digitale nedlastinger'],
     lsiKeywords: ['Etsy konverteringsrate bilder', 'annonsetittel søkeord struktur', 'arbeidsark mockup-bilder Etsy'],
-    titleTag: 'Optimaliser Etsy-annonser for arbeidsark-salg | LCS',
+    titleTag: 'Optimaliser Etsy-annonser for arbeidsark-salg | LessonCraftStudio',
     metaDescription: 'Titler, tags, bilder og pris avgjør om arbeidsarkene dine selger på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

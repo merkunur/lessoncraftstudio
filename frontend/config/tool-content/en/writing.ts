@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant handwriting maker',
       'try before you buy writing tools',
     ],
-    titleTag: 'Free Handwriting Worksheet Generator Online | LCS',
+    titleTag: 'Free Handwriting Worksheet Generator Online | LessonCraftStudio',
     metaDescription: 'Make handwriting worksheets free online with watermark — no signup. 3 practice modes, 5 font styles, stroke guides. Upgrade for commercial license to sell.',
   },
 

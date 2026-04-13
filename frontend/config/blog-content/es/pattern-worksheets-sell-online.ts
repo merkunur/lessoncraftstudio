@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'fichas patrones nicho STEM 2026',
     secondaryKeywords: ['vender fichas patrones online STEM', 'pattern worksheets STEM niche sell', 'fichas secuencias patrones negocio'],
     lsiKeywords: ['fichas reconocimiento patrones niños', 'imprimibles secuencias lógicas vender', 'STEM pattern activities printable'],
-    titleTag: 'Fichas de Patrones: El Nicho STEM Oculto | LCS',
+    titleTag: 'Fichas de Patrones: El Nicho STEM Oculto | LessonCraftStudio',
     metaDescription: 'Las fichas de patrones son el nicho STEM del que nadie habla. Competencia baja, demanda creciente. Estrategias para vender.',
   },
   hero: {

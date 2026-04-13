@@ -15,7 +15,7 @@ const content: GuideContent = {
       'multilingual Etsy shop',
       'localized Etsy listings',
     ],
-    titleTag: 'Non-English Etsy Strategy for Sellers | LCS',
+    titleTag: 'Non-English Etsy Strategy for Sellers | LessonCraftStudio',
     metaDescription: 'Expand your Etsy printable shop to non-English markets. Market sizing, language selection, listing localization, and international SEO. 11 languages supported.',
   },
 

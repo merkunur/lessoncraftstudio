@@ -15,7 +15,7 @@ const content: GuideContent = {
       'KDP low content books',
       'sudoku manuscript formatting',
     ],
-    titleTag: 'Sell Sudoku Books on Amazon KDP | LCS',
+    titleTag: 'Sell Sudoku Books on Amazon KDP | LessonCraftStudio',
     metaDescription: 'How to create and sell picture sudoku books on Amazon KDP. 4x4 image-based grids, 104 themes, 11 languages, KDP formatting guide. Try free trial with watermark.',
   },
 

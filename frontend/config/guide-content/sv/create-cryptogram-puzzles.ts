@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP bildchiffer pusselbok flerspråkig',
       'kommersiell licens kryptogram verktyg facit generator',
     ],
-    titleTag: 'Skapa kryptogram att skriva ut | LCS',
+    titleTag: 'Skapa kryptogram att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa kryptogrampussel med bildchiffer att skriva ut. Justerbar svårighet, flerspråkiga alfabet och facit. Sälj på Etsy och Amazon KDP.',
   },
 

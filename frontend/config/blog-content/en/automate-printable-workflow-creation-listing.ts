@@ -13,7 +13,7 @@ const content: BlogContent = {
       'batch production workflow',
       'digital product business systems',
     ],
-    titleTag: 'How to Automate Your Printable Business Workflow | LCS',
+    titleTag: 'How to Automate Your Printable Business Workflow | LessonCraftStudio',
     metaDescription: 'Automate your printable business from creation to listing. Learn batch creation, template systems, listing tools, and scheduling strategies that save 20+ hours per week.',
   },
   hero: {

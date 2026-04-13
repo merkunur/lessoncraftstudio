@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Spring Printable Business Ideas | LCS',
+    titleTag: 'Spring Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Spring printable business ideas for Etsy & KDP. Flower themes, nature activities, and strategies for the spring season printable market.',
 
     primaryKeyword: 'spring printable business ideas',

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Kundennachrichten Etsy beantworten',
       'Kundenzufriedenheit Druckvorlagen Shop',
     ],
-    titleTag: 'Kundenservice digitale Produkte: 5 Sterne | LCS',
+    titleTag: 'Kundenservice digitale Produkte: 5 Sterne | LessonCraftStudio',
     metaDescription: 'Exzellenter Kundenservice fuer digitale Druckvorlagen. So behalten Sie Ihre 5-Sterne-Bewertung und. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {

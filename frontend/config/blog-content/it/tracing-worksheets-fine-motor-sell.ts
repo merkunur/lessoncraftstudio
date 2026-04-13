@@ -17,7 +17,7 @@ const content: BlogContent = {
       'motricità fine',
       'prescuola',
     ],
-    titleTag: 'Schede Ricalco e Pregrafismo da Stampare | LCS',
+    titleTag: 'Schede Ricalco e Pregrafismo da Stampare | LessonCraftStudio',
     metaDescription: 'Schede di ricalco e pregrafismo da stampare per bambini 4-5 anni. Esercizi di motricità fine e tracciamento con LessonCraftStudio — 33 generatori.',
   },
   hero: {

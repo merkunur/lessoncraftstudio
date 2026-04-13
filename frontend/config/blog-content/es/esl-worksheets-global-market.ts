@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['fichas ELE fichas', 'vender imprimibles fichas', 'mercado global educativos'],
-    titleTag: 'Fichas ELE: Mercado Global de Espanol | LCS',
+    titleTag: 'Fichas ELE: Mercado Global de Espanol | LessonCraftStudio',
     metaDescription: 'El espanol es el segundo idioma mas estudiado del mundo. Mas de 22 millones de estudiantes aprenden espanol como. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

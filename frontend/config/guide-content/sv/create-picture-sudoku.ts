@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pusselbok bildsudoku aktivitetsbok',
       'kommersiell licens pusselverktyg facit tematiska bilder',
     ],
-    titleTag: 'Skapa bildsudoku att skriva ut | LCS',
+    titleTag: 'Skapa bildsudoku att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa bildsudoku att skriva ut med 4x4 bildrutnät, 3 svårighetsnivåer och tematiska bilder. Tryckfärdiga PDF. Sälj på Etsy och Amazon KDP.',
   },
 

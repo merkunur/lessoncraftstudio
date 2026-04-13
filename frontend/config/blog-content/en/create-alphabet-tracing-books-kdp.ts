@@ -13,7 +13,7 @@ const content: BlogContent = {
       'letter practice workbook KDP',
       'alphabet learning book passive income',
     ],
-    titleTag: 'How to Create Alphabet Tracing Books for KDP | LCS',
+    titleTag: 'How to Create Alphabet Tracing Books for KDP | LessonCraftStudio',
     metaDescription: 'Step-by-step guide to creating alphabet tracing books for Amazon KDP. Letter trains, ABC sequencing, image associations, and formatting for preschool buyers.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'untapped digital product niches',
       'printable market gaps 2026',
     ],
-    titleTag: '15 Low-Competition Printable Niches for 2026 | LCS',
+    titleTag: '15 Low-Competition Printable Niches for 2026 | LessonCraftStudio',
     metaDescription: '15 printable niches with low competition and real demand in 2026. Data-backed niche picks for Etsy, KDP, and Gumroad sellers.',
   },
   hero: {

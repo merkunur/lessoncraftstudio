@@ -13,7 +13,7 @@ const content: BlogContent = {
       'korsord generator bok',
       'tryckta pusselböcker seniorer',
     ],
-    titleTag: 'Sälj Korsordsböcker på Amazon KDP | LCS',
+    titleTag: 'Sälj Korsordsböcker på Amazon KDP | LessonCraftStudio',
     metaDescription: 'Korsordsböcker på Amazon KDP ger passiv inkomst. Skapa, formatera och publicera korsordsböcker som säljer till vuxna och seniorer.',
   },
   hero: {

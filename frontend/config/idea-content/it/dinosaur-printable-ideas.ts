@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede dinosauri da stampare per bambini | LCS',
+    titleTag: 'Schede dinosauri da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede sui dinosauri da stampare: colorare, conteggio, crucipuzzle e abbinamento a tema preistorico. Attività educative per bambini 3-8 anni.',
     primaryKeyword: 'schede dinosauri da stampare',
     secondaryKeywords: [

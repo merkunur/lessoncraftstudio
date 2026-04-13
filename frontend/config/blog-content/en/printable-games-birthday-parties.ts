@@ -13,7 +13,7 @@ const content: BlogContent = {
       'party bingo cards sell Etsy',
       'printable party entertainment market',
     ],
-    titleTag: 'Printable Party Games: Birthday Market | LCS',
+    titleTag: 'Printable Party Games: Birthday Market | LessonCraftStudio',
     metaDescription: 'Printable birthday party games are a growing Etsy niche. Learn which party activities sell best, pricing strategies, and how to tap the $500M party market.',
   },
   hero: {

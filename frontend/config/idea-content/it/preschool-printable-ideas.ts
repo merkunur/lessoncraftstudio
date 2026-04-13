@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede scuola dell\'infanzia da stampare | LCS',
+    titleTag: 'Schede scuola dell\'infanzia da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede per la scuola dell\'infanzia da stampare: pregrafismo, colorare, forme, numeri e motricità fine. Attività educative per bambini 3-5 anni.',
     primaryKeyword: 'schede scuola dell\'infanzia da stampare',
     secondaryKeywords: [

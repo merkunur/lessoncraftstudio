@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg finn-den-ulike oppgaver arbeidsark nettbutikk',
     secondaryKeywords: ['finn den ulike arbeidsark Etsy selgere', 'odd one out oppgaver KDP bøker', 'lag finn-den-ulike oppgaver kommersiell lisens'],
     lsiKeywords: ['logikkoppgaver arbeidsark forretning', 'finn den som ikke passer selge', 'visuell eliminering oppgaver barn'],
-    titleTag: 'Selg finn-den-ulike-arbeidsark på nett | LCS',
+    titleTag: 'Selg finn-den-ulike-arbeidsark på nett | LessonCraftStudio',
     metaDescription: 'Finn-den-ulike-oppgaver er universelle og krever ingen leseferdigheter. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

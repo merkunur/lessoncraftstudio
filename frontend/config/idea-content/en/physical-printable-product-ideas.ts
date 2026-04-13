@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Physical Printable Product Ideas | LCS',
+    titleTag: 'Physical Printable Product Ideas | LessonCraftStudio',
     metaDescription: 'Physical printable product business ideas. Strategies for selling printed worksheets, activity books, and physical educational products.',
 
     primaryKeyword: 'physical printable product ideas',

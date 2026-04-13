@@ -13,7 +13,7 @@ const content: BlogContent = {
       'svenska bondgårdsdjur övningar',
       'evergreen djurtema printables',
     ],
-    titleTag: 'Sälj Bondgårdsdjur-Arbetsblad på Etsy | LCS',
+    titleTag: 'Sälj Bondgårdsdjur-Arbetsblad på Etsy | LessonCraftStudio',
     metaDescription: 'Bondgårdsdjur-printables säljer stabilt året runt. Ko, gris, höna och häst engagerar barn. Guide för svenska Etsy-säljare.',
   },
   hero: {

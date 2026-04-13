@@ -20,7 +20,7 @@ const content: ToolContent = {
       'répéter',
       'séquence',
     ],
-    titleTag: 'Générateur suites logiques gratuit en ligne | LCS',
+    titleTag: 'Générateur suites logiques gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de suites logiques gratuit — créez des fiches d\'algorithmes AB, ABC, ABCD avec images en ligne, sans inscription. Solutions automatiques. Licence commerciale.',
   },
 

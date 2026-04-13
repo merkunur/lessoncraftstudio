@@ -14,7 +14,7 @@ const content: GuideContent = {
       'selling rights for printable creators',
       'commercial use terms Etsy KDP',
     ],
-    titleTag: 'Commercial License for Printables Explained | LCS',
+    titleTag: 'Commercial License for Printables Explained | LessonCraftStudio',
     metaDescription: 'Commercial license for printables explained. What it covers, what you can sell, and how licensing works on Etsy, KDP, and direct-sale platforms.',
   },
 

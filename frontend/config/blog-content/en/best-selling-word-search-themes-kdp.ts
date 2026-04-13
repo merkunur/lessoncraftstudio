@@ -13,7 +13,7 @@ const content: BlogContent = {
       'themed puzzle books Amazon',
       'word search niche research',
     ],
-    titleTag: 'Best-Selling Word Search Themes on KDP: Data-Backed Analysis | LCS',
+    titleTag: 'Best-Selling Word Search Themes on KDP: Data-Backed Analysis | LessonCraftStudio',
     metaDescription: 'Which word search themes actually sell on Amazon KDP? Data-backed analysis of top-performing themes, pricing strategies, and how to create themed word search books.',
   },
   hero: {

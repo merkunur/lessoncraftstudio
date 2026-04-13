@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'obtenir avis Etsy imprimables',
     secondaryKeywords: ['avis clients fiches Etsy stratégie', 'augmenter avis boutique Etsy', 'importance avis vendeur imprimables'],
     lsiKeywords: ['étoiles Etsy produits numériques', 'preuve sociale fiches pédagogiques', 'fidélisation clients Etsy'],
-    titleTag: 'Obtenir des avis Etsy pour vos imprimables | LCS',
+    titleTag: 'Obtenir des avis Etsy pour vos imprimables | LessonCraftStudio',
     metaDescription: 'Comment obtenir plus d\'avis positifs sur Etsy pour vos imprimables. Stratégies éthiques qui multiplient vos témoignages clients.',
   },
   hero: {

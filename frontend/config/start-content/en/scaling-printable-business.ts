@@ -15,7 +15,7 @@ const content: StartContent = {
       'full-time digital product income',
       'grow printable business',
     ],
-    titleTag: 'Scale to Full-Time Printable Business | LCS',
+    titleTag: 'Scale to Full-Time Printable Business | LessonCraftStudio',
     metaDescription: 'How to scale from side hustle to full-time printable business. Growth milestones, automation, multi-platform expansion, and revenue strategies.',
   },
 

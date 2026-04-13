@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'frühkindliche Bildung Tierthema Nische',
       'Vorschul-Lieblingsthema ganzjährige Nachfrage',
     ],
-    titleTag: 'Bauernhof-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Bauernhof-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Bauernhof-Druckvorlagen als profitable Etsy-Nische entdecken. Kühe, Schweine und Hühner als Evergreen-Thema — Produktideen und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {

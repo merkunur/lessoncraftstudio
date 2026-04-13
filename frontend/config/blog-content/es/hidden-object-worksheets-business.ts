@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fichas atención visual productos',
       'hidden pictures printables business',
     ],
-    titleTag: 'Fichas Objetos Ocultos: Negocio Escalable | LCS',
+    titleTag: 'Fichas Objetos Ocultos: Negocio Escalable | LessonCraftStudio',
     metaDescription: 'Las fichas de objetos ocultos son un negocio escalable con múltiples públicos. Cree productos únicos para Etsy y KDP. Prueba gratuita con marca de agua.',
   },
   hero: {

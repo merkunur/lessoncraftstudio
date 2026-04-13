@@ -8,7 +8,7 @@ const content: BlogContent = {
       'vanskelighetsgrad arbeidsark pakkestrategi',
     ],
     lsiKeywords: ['arbeidsark nivåer produksjon', 'differensiert arbeidsark salg', 'Etsy pakkestrategi vanskelighetsgrad'],
-    titleTag: 'Vanskelighetsgrader som produktnivåer | LCS',
+    titleTag: 'Vanskelighetsgrader som produktnivåer | LessonCraftStudio',
     metaDescription: 'Del arbeidsark i vanskelighetsgrader og lag flere produkter fra samme base. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

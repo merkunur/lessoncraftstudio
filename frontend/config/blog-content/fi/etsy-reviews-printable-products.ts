@@ -13,7 +13,7 @@ const content: BlogContent = {
       'viiden tähden arvostelut tulosteet',
       'arvostelu pyyntö Etsy',
     ],
-    titleTag: 'Etsy-arvostelut tulosteille | LCS',
+    titleTag: 'Etsy-arvostelut tulosteille | LessonCraftStudio',
     metaDescription: 'Saa lisää arvosteluja tulosteille Etsyssä eettisesti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

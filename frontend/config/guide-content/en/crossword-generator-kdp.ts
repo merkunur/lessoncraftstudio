@@ -15,7 +15,7 @@ const content: GuideContent = {
       'image clue crossword',
       'print-ready PDF',
     ],
-    titleTag: 'Crossword Generator for KDP Books | LCS',
+    titleTag: 'Crossword Generator for KDP Books | LessonCraftStudio',
     metaDescription: 'Create professional crossword puzzle books for Amazon KDP with picture clues. 11 languages, 104 themes, 300 DPI PDFs. Full KDP workflow guide. Try free trial.',
   },
 

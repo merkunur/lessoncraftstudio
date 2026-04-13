@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Schulstart Arbeitsblaetter Eltern',
       'Schultags-Druckvorlagen Geschaeft',
     ],
-    titleTag: 'Schulanfang-Druckvorlagen: Der August-Verkaufsschub | LCS',
+    titleTag: 'Schulanfang-Druckvorlagen: Der August-Verkaufsschub | LessonCraftStudio',
     metaDescription: 'Schulanfang ist die drittstaerkste Verkaufssaison fuer Druckvorlagen. Einschulung, Schultuete, Klasse 1: So nutzen Sie den August-Schub auf Etsy.de.',
   },
   hero: {

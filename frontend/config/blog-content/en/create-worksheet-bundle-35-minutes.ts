@@ -13,7 +13,7 @@ const content: BlogContent = {
       'worksheet production speed',
       'Etsy bundle listing process',
     ],
-    titleTag: 'Create a 50-Worksheet Bundle in 35 Minutes | LCS',
+    titleTag: 'Create a 50-Worksheet Bundle in 35 Minutes | LessonCraftStudio',
     metaDescription: 'Step-by-step walkthrough: create a 50-worksheet bundle in 35 minutes using a generator. Minute-by-minute breakdown for Etsy and KDP sellers.',
   },
   hero: {

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Most Profitable Worksheet Niches on Etsy | LCS',
+    titleTag: 'Most Profitable Worksheet Niches on Etsy | LessonCraftStudio',
     metaDescription: 'Most profitable worksheet niches on Etsy ranked by revenue potential. Demand data, pricing benchmarks, competition analysis, and generator tools for each niche.',
 
     primaryKeyword: 'profitable worksheet niches etsy',

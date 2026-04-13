@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tematiska målarbilder skriva ut',
       'färgläggningsbok print on demand',
     ],
-    titleTag: 'Sälja Målarbilder på Etsy 2026: Guide | LCS',
+    titleTag: 'Sälja Målarbilder på Etsy 2026: Guide | LessonCraftStudio',
     metaDescription: 'Målarbilder säljer till barn och vuxna på Etsy och KDP. Lär dig skapa lönsamma färgläggningsprodukter 2026.',
   },
   hero: {

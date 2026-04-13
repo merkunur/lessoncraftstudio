@@ -13,7 +13,7 @@ const content: BlogContent = {
       'saxövning spårningsblad printable',
       'handmotorik förskola aktivitetsblad',
     ],
-    titleTag: 'Sälj Finmotorik-Arbetsblad Printable | LCS',
+    titleTag: 'Sälj Finmotorik-Arbetsblad Printable | LessonCraftStudio',
     metaDescription: 'Finmotorik-printables som klippövningar, spårning och prickning säljer starkt. Skapa och sälj till föräldrar med förskolebarn.',
   },
   hero: {

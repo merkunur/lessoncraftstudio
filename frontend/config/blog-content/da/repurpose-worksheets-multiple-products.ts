@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'genbrug arbejdsark multiple produkter',
     secondaryKeywords: ['genbrug arbejdsark multiple produkter Etsy', 'genbrug arbejdsark multiple produkter online', 'genbrug arbejdsark multiple produkter forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Genbrug Arbejdsark som Multiple Produkter | LCS',
+    titleTag: 'Genbrug Arbejdsark som Multiple Produkter | LessonCraftStudio',
     metaDescription: 'Et enkelt arbejdsark kan genbruges som enkeltprodukt, del af en pakke, side i en KDP-bog og element i en curriculum-pakke. Denne guide viser dig, hvordan d',
   },
   hero: {

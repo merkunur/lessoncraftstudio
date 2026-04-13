@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Premium-Service maßgeschneiderte Druckvorlagen',
       'Freelance Arbeitsblatt-Erstellung Geschäftsmodell',
     ],
-    titleTag: 'Arbeitsblatt-Service Geschäftsidee | LCS',
+    titleTag: 'Arbeitsblatt-Service Geschäftsidee | LessonCraftStudio',
     metaDescription: 'Individuelle Arbeitsblätter als Premium-Dienstleistung anbieten. Personalisierte Druckvorlagen auf Bestellung erstellen — Geschäftsmodell mit hohen Margen und treuen Kunden.',
   },
   hero: {

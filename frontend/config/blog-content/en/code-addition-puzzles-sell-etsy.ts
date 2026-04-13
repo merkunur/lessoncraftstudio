@@ -13,7 +13,7 @@ const content: BlogContent = {
       'mystery number puzzles',
       'decode math activities sell',
     ],
-    titleTag: 'Code Addition Puzzles: Etsy Bestseller Niche | LCS',
+    titleTag: 'Code Addition Puzzles: Etsy Bestseller Niche | LessonCraftStudio',
     metaDescription: 'Code addition puzzles are a hidden bestseller niche on Etsy. Learn to create and sell these unique math printables that outsell generic worksheets.',
   },
   hero: {

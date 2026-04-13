@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ny Etsy-butik synlighet',
       'komma igång sälja arbetsblad online',
     ],
-    titleTag: 'Starta Etsy Printable-Butik: 30-Dagarsplan | LCS',
+    titleTag: 'Starta Etsy Printable-Butik: 30-Dagarsplan | LessonCraftStudio',
     metaDescription: 'Steg-för-steg-plan för din första månad som printable-säljare på Etsy. Dagliga uppgifter som bygger en lönsam butik.',
   },
   hero: {

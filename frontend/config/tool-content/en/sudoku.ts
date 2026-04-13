@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant picture sudoku maker',
       'try before you buy logic tools',
     ],
-    titleTag: 'Free Picture Sudoku Maker Online | LCS',
+    titleTag: 'Free Picture Sudoku Maker Online | LessonCraftStudio',
     metaDescription: 'Make picture sudoku free online with watermark — no signup. 4x4 image grids, 3 difficulty levels, auto answer keys. Upgrade for commercial license to sell.',
   },
 

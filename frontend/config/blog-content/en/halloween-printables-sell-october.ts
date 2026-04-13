@@ -13,7 +13,7 @@ const content: BlogContent = {
       'halloween activity sheets profit',
       'fall themed worksheets business',
     ],
-    titleTag: 'Halloween Printables That Sell Out Every October | LCS',
+    titleTag: 'Halloween Printables That Sell Out Every October | LessonCraftStudio',
     metaDescription: 'Halloween printables drive massive October sales. Learn which spooky products sell best, pricing tips, and the exact listing timeline for maximum revenue.',
   },
   hero: {

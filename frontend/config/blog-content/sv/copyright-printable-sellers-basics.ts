@@ -13,7 +13,7 @@ const content: BlogContent = {
       'immaterialrätt printable business',
       'piratkopiering skydd arbetsblad',
     ],
-    titleTag: 'Upphovsrätt för Printable-Säljare: Guide | LCS',
+    titleTag: 'Upphovsrätt för Printable-Säljare: Guide | LessonCraftStudio',
     metaDescription: 'Grundläggande upphovsrätt för printable-säljare. Vad du äger, vad du inte får kopiera, och hur du skyddar dina produkter på Etsy.',
   },
   hero: {

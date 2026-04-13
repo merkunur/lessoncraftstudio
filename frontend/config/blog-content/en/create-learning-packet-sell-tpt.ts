@@ -13,7 +13,7 @@ const content: BlogContent = {
       'bundle worksheets sell TPT',
       'educational packet business',
     ],
-    titleTag: 'How to Create Learning Packets to Sell on TPT | LCS',
+    titleTag: 'How to Create Learning Packets to Sell on TPT | LessonCraftStudio',
     metaDescription: 'Create comprehensive learning packets by combining worksheet generators. Curriculum alignment, TPT listing optimization, and bundle pricing strategies.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'math printable business niche',
       'digital download math products',
     ],
-    titleTag: 'Sell Math Worksheets on Etsy: Guide | LCS',
+    titleTag: 'Sell Math Worksheets on Etsy: Guide | LessonCraftStudio',
     metaDescription: 'Sell math worksheets on Etsy step by step. SEO tags, pricing, bundling, and seasonal timing strategies for printable math sellers.',
   },
 

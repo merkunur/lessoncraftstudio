@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede didattiche PDF da scaricare e stampare | LCS',
+    titleTag: 'Schede didattiche PDF da scaricare e stampare | LessonCraftStudio',
     metaDescription: 'Crea schede didattiche in PDF da scaricare e stampare: attività educative pronte all\'uso per bambini. Generatori automatici per matematica, lettere e giochi.',
     primaryKeyword: 'schede didattiche PDF da scaricare',
     secondaryKeywords: [

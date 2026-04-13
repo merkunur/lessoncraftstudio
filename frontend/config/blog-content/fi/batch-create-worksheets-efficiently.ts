@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ajansäästö tuotetuotannossa',
       'pakettihinnoittelu työarkit',
     ],
-    titleTag: 'Luo tehtäväarkkeja eränä tehokkaasti | LCS',
+    titleTag: 'Luo tehtäväarkkeja eränä tehokkaasti | LessonCraftStudio',
     metaDescription: 'Luo kymmeniä tehtäväarkkeja tunnissa massatuotantotekniikalla. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

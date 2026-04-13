@@ -13,7 +13,7 @@ const content: BlogContent = {
       'visual logic worksheets',
       'grid-based learning activities',
     ],
-    titleTag: 'Grid Matching Puzzles: Unique Products | LCS',
+    titleTag: 'Grid Matching Puzzles: Unique Products | LessonCraftStudio',
     metaDescription: 'Grid matching puzzles are a unique product your competitors miss. Learn how to sell these spatial reasoning worksheets on Etsy with zero competition.',
   },
   hero: {

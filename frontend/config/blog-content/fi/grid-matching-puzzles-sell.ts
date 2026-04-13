@@ -13,7 +13,7 @@ const content: BlogContent = {
       'hahmontunnistus ruudukko',
       'ongelmanratkaisu tehtäväarkit',
     ],
-    titleTag: 'Ruudukkoyhdistämispulmat myyntiin | LCS',
+    titleTag: 'Ruudukkoyhdistämispulmat myyntiin | LessonCraftStudio',
     metaDescription: 'Myy ruudukkoyhdistämispulmia — matalan kilpailun niche. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

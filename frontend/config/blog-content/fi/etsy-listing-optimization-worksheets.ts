@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tuotekuvat Etsy-listaus',
       'hakutulossijoitus Etsy',
     ],
-    titleTag: 'Etsy-ilmoitusten optimointi tulosteille | LCS',
+    titleTag: 'Etsy-ilmoitusten optimointi tulosteille | LessonCraftStudio',
     metaDescription: 'Optimoi Etsy-ilmoituksesi tulostettaville tuotteille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

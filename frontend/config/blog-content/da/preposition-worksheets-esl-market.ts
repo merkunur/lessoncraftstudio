@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'præposition arbejdsark DSA marked',
     secondaryKeywords: ['præposition arbejdsark DSA marked Etsy', 'præposition arbejdsark DSA marked online', 'præposition arbejdsark DSA marked forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Præpositions-Arbejdsark: DSA-Markedet | LCS',
+    titleTag: 'Præpositions-Arbejdsark: DSA-Markedet | LessonCraftStudio',
     metaDescription: 'Præpositionsøvelser er en nicheproduktkategori der sælger specifikt til sprogundervisere. I Danmark er DSA-markedet (Dansk som Andetsprog) voksende, og præ',
   },
   hero: {

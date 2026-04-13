@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Shop Wiedererkennungswert',
       'Markenaufbau digitale Downloads',
     ],
-    titleTag: 'Branding fuer Ihren Druckvorlagen-Shop | LCS',
+    titleTag: 'Branding fuer Ihren Druckvorlagen-Shop | LessonCraftStudio',
     metaDescription: 'So bauen Sie eine wiedererkennbare Marke fuer Ihren Druckvorlagen-Shop auf Etsy auf. Farben, Logo, Mockups und konsistenter visueller Stil.',
   },
   hero: {

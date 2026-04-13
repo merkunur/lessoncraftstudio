@@ -13,7 +13,7 @@ const content: BlogContent = {
       'children coloring page demand',
       'coloring niche competition analysis',
     ],
-    titleTag: 'Coloring Book Niches That Still Sell in 2026 | LCS',
+    titleTag: 'Coloring Book Niches That Still Sell in 2026 | LessonCraftStudio',
     metaDescription: 'The coloring book market is saturated — but specific niches still generate strong sales. Data-backed analysis of which coloring niches are profitable in 2026.',
   },
   hero: {

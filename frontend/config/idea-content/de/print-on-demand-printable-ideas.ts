@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'KDP Aktivitätspakete Druckqualität',
       'lagerloses Geschäftsmodell Druckvorlagen',
     ],
-    titleTag: 'Print-on-Demand Druckvorlagen Idee | LCS',
+    titleTag: 'Print-on-Demand Druckvorlagen Idee | LessonCraftStudio',
     metaDescription: 'Print-on-Demand Druckvorlagen als Geschäftsidee entdecken. Gedruckte Arbeitshefte und Aktivitätspakete ohne Lagerhaltung — profitables Modell für KDP und Etsy.',
   },
   hero: {

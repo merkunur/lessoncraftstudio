@@ -14,7 +14,7 @@ const content: GuideContent = {
       '9 Mustertypen Themenbilder Lösungsschlüssel',
       'Grundschule 300 DPI PDF',
     ],
-    titleTag: 'Muster-Arbeitsblätter erstellen | Anleitung | LCS',
+    titleTag: 'Muster-Arbeitsblätter erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Muster-Arbeitsblättern. 9 Mustertypen, thematische Bilder und automatische Lösungsschlüssel. Kostenlos testen.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Low Content Book Amazon',
       'Raetselbuch Seitenaufbau',
     ],
-    titleTag: 'KDP-Aktivitaetsbuch Formatierung Guide | LCS',
+    titleTag: 'KDP-Aktivitaetsbuch Formatierung Guide | LessonCraftStudio',
     metaDescription: 'Schritt-fuer-Schritt Anleitung zur KDP-Aktivitaetsbuch Formatierung. Seitengroessen, Raender, Dateianforderungen und haeufige Fehler vermeiden.',
   },
   hero: {

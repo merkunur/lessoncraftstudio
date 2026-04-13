@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'størrelsessammenligning arbejdsark sælg visuelt',
     secondaryKeywords: ['størrelsessammenligning arbejdsark sælg Etsy', 'størrelsessammenligning arbejdsark sælg online', 'størrelsessammenligning arbejdsark sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Størrelsessammenligning-Arbejdsark: Sælg Visuelt | LCS',
+    titleTag: 'Størrelsessammenligning-Arbejdsark: Sælg Visuelt | LessonCraftStudio',
     metaDescription: 'Størrelsessammenligning-arbejdsark: sælg visuelt tiltalende præmatematik for børn 3-6 år. Lav og sælg på Etsy & KDP med kommerciel licens.',
   },
   hero: {

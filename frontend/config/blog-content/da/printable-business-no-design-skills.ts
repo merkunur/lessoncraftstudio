@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'printable forretning ingen design evner',
     secondaryKeywords: ['printable forretning ingen design evner Etsy', 'printable forretning ingen design evner online', 'printable forretning ingen design evner forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Start Printable-Forretning Uden Design-Evner | LCS',
+    titleTag: 'Start Printable-Forretning Uden Design-Evner | LessonCraftStudio',
     metaDescription: 'Du behøver ikke være grafisk designer for at starte en profitabel printable-forretning. LessonCraftStudios generatorer producerer professionelle arbejdsark',
   },
   hero: {

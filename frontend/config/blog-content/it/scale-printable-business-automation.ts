@@ -17,7 +17,7 @@ const content: BlogContent = {
       'efficiente',
       'scalare',
     ],
-    titleTag: 'Automatizzare Creazione Schede Didattiche | LCS',
+    titleTag: 'Automatizzare Creazione Schede Didattiche | LessonCraftStudio',
     metaDescription: 'Come automatizzare la creazione di schede didattiche con un generatore. Produttività massima con LessonCraftStudio — 33 strumenti, 11 lingue.',
   },
   hero: {

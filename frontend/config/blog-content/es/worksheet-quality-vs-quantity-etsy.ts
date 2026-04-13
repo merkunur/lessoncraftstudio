@@ -13,7 +13,7 @@ const content: BlogContent = {
       'balance calidad cantidad imprimibles',
       'perfeccion vs volumen Etsy',
     ],
-    titleTag: 'Calidad vs Cantidad de Fichas en Etsy | LCS',
+    titleTag: 'Calidad vs Cantidad de Fichas en Etsy | LessonCraftStudio',
     metaDescription: 'Es mejor tener pocos imprimibles perfectos o muchos buenos? Descubra el balance optimo entre calidad y cantidad para maximizar ventas en Etsy.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Amazon math activity niche demand',
       'self-publish educational workbooks',
     ],
-    titleTag: 'Math Activity Books for KDP: Full Guide | LCS',
+    titleTag: 'Math Activity Books for KDP: Full Guide | LessonCraftStudio',
     metaDescription: 'Create math activity books for Amazon KDP. Content planning, formatting specs, niche selection, and publishing strategies for math workbook sellers.',
   },
 

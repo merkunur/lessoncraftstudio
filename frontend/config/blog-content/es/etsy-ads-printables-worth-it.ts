@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy Ads imprimibles vale la pena',
     secondaryKeywords: ['publicidad Etsy fichas educativas', 'Etsy Ads productos digitales retorno', 'anuncios Etsy imprimibles rentable'],
     lsiKeywords: ['presupuesto Etsy Ads imprimibles', 'ROI anuncios Etsy fichas', 'costo publicidad Etsy'],
-    titleTag: 'Etsy Ads para Imprimibles: Vale la Pena? | LCS',
+    titleTag: 'Etsy Ads para Imprimibles: Vale la Pena? | LessonCraftStudio',
     metaDescription: 'Analisis honesto de Etsy Ads para vendedores de imprimibles. Cuando invertir, cuanto gastar y como medir si los anuncios son rentables.',
   },
   hero: {

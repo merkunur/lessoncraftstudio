@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'gratis prøver lead magnet strategi',
     secondaryKeywords: ['gratis prøver lead magnet strategi Etsy', 'gratis prøver lead magnet strategi online', 'gratis prøver lead magnet strategi forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Gratis Prøver som Lead Magnet: Strategi | LCS',
+    titleTag: 'Gratis Prøver som Lead Magnet: Strategi | LessonCraftStudio',
     metaDescription: 'En gratis prøve af dine printable-produkter er den mest effektive lead magnet i branchen. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

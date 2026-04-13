@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Arbeitsblaetter uebersetzen verkaufen',
       'multilingual Printables Business',
     ],
-    titleTag: 'Mehrsprachige Druckvorlagen: Ihr Vorteil | LCS',
+    titleTag: 'Mehrsprachige Druckvorlagen: Ihr Vorteil | LessonCraftStudio',
     metaDescription: 'Warum mehrsprachige Druckvorlagen Ihr unfairer Vorteil auf Etsy sind. So erschliessen Sie mit denselben Inhalten 11 Sprachmaerkte.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digitale Downloads Residualeinkommen',
       'Arbeitsblaetter verkaufen Aufwand',
     ],
-    titleTag: 'Passives Einkommen mit Druckvorlagen: Wahrheit | LCS',
+    titleTag: 'Passives Einkommen mit Druckvorlagen: Wahrheit | LessonCraftStudio',
     metaDescription: 'Ist Druckvorlagen-Verkauf wirklich passives Einkommen? Die ehrliche Antwort: ja und nein. Was passiv ist, was nicht, und wie Sie es maximieren.',
   },
   hero: {

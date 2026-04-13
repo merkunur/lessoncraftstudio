@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'Party-Bingo',
       'Aufrufkarten',
     ],
-    titleTag: 'Kostenloser Bingo-Karten Generator | LCS',
+    titleTag: 'Kostenloser Bingo-Karten Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Bingo-Karten Generator — Bilder-Bingo mit 3.000+ Themenbildern sofort erstellen, ohne Anmeldung. Einzigartige Karten pro Set. Lizenz verfügbar.',
     },
 

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'printable bundle strategi Etsy',
     secondaryKeywords: ['printable bundle strategi Etsy Etsy', 'printable bundle strategi Etsy online', 'printable bundle strategi Etsy forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Printable-Bundle Strategi for Etsy | LCS',
+    titleTag: 'Printable-Bundle Strategi for Etsy | LessonCraftStudio',
     metaDescription: 'Bundle-strategien er den mest effektive måde at øge din gennemsnitlige ordreværdi på Etsy. En velsammensat pakke sælger til 3-5x prisen af et enkeltprodukt',
   },
   hero: {

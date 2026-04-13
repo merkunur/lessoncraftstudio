@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg finn-og-tell-oppgaver på nett',
     secondaryKeywords: ['finn og tell arbeidsark Etsy forretning', 'telleoppgaver barn selge', 'finn-og-tell-ark prissetting pakker'],
     lsiKeywords: ['visuell telling pedagogisk', 'bildetelling arbeidsark salg', 'temabaserte telleoppgaver'],
-    titleTag: 'Selg finn-og-tell-oppgaver for fortjeneste | LCS',
+    titleTag: 'Selg finn-og-tell-oppgaver for fortjeneste | LessonCraftStudio',
     metaDescription: 'Finn-og-tell-oppgaver er en lønnsom nisje med jevn etterspørsel. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

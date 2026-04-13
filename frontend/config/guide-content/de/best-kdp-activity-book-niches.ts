@@ -14,7 +14,7 @@ const content: GuideContent = {
       'saisonale Nische Feiertag Schulanfang immergrün',
       'Nischenvalidierung Test-Titel Katalogstrategie',
     ],
-    titleTag: 'Beste Nischen für KDP-Aktivitätsbücher | LCS',
+    titleTag: 'Beste Nischen für KDP-Aktivitätsbücher | LessonCraftStudio',
     metaDescription: 'Beste Nischen für KDP-Aktivitätsbücher finden: Nachfrage-Analyse, Wettbewerbsbewertung, unterversorgte Kategorien und Nischenvalidierung für profitable Bücher.',
   },
 

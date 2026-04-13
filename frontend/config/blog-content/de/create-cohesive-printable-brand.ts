@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'einheitliche Marke Druckvorlagen Shop Branding',
     secondaryKeywords: ['Einheitliche Marke fuer Ihren Druckvorlagen-Shop Anleitung', 'Druckvorlagen Einheitliche Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Einheitliche Marke fuer Ihren Druckvorlagen-Shop | LCS',
+    titleTag: 'Einheitliche Marke fuer Ihren Druckvorlagen-Shop | LessonCraftStudio',
     metaDescription: 'Wie Sie mit einheitlichem Design, Farben und Logo einen erkennbaren Druckvorlagen-Shop aufbauen. Branding-Guide fuer Etsy.',
   },
   hero: {

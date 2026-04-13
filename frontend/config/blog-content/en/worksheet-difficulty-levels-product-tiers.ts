@@ -13,7 +13,7 @@ const content: BlogContent = {
       'worksheet variation technique',
       'printable SKU multiplication',
     ],
-    titleTag: 'Use Difficulty Levels to Create 3x More Products | LCS',
+    titleTag: 'Use Difficulty Levels to Create 3x More Products | LessonCraftStudio',
     metaDescription: 'Turn one worksheet concept into 3 products using difficulty levels. Sell on Etsy, KDP & TPT with commercial license.',
   },
   hero: {

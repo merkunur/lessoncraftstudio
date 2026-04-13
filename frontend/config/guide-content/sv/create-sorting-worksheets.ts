@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok klassificering aktivitetsbok',
       'kommersiell licens sorteringsverktyg flerspråkig',
     ],
-    titleTag: 'Skapa sorteringsövningar att skriva ut | LCS',
+    titleTag: 'Skapa sorteringsövningar att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa sorteringsarbetsblad att skriva ut med tvåkategori-format, blandat utklippsrutnät och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 

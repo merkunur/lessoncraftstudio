@@ -16,7 +16,7 @@ const content: BundleContent = {
       'trova l\'intruso',
       'schede da stampare',
     ],
-    titleTag: 'Generatori puzzle logici da stampare | LCS',
+    titleTag: 'Generatori puzzle logici da stampare | LessonCraftStudio',
     metaDescription: 'Pacchetto con 4 generatori puzzle logici da stampare: pezzi mancanti, trova l\'intruso, sudoku con immagini e labirinti. Schede visive per bambini.',
   },
 

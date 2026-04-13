@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'prissätta printables på Etsy 2026',
     secondaryKeywords: ['prissättning arbetsblad PDF Etsy', 'digital nedladdning pris strategi', 'prisguide printable-butik SEK'],
     lsiKeywords: ['psykologiska prisgränser SEK', 'paketpris digitala produkter', 'marginal Etsy avgifter printables'],
-    titleTag: 'Prissätta Printables på Etsy: Guide 2026 | LCS',
+    titleTag: 'Prissätta Printables på Etsy: Guide 2026 | LessonCraftStudio',
     metaDescription: 'Prissätt dina printables rätt på Etsy 2026. Datadriven strategi med SEK-prispunkter för arbetsblad, paket och digitala nedladdningar.',
   },
   hero: {

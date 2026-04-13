@@ -15,7 +15,7 @@ const content: BlogContent = {
       'autism worksheets sellers',
       'modified worksheet templates',
     ],
-    titleTag: 'Special Education Printables Niche: High Demand, Low Competition | LCS',
+    titleTag: 'Special Education Printables Niche: High Demand, Low Competition | LessonCraftStudio',
     metaDescription: 'The special education printables niche has strong buyer demand and few quality sellers. Learn which SPED sub-niches sell best on Etsy, KDP, and Gumroad.',
   },
   hero: {

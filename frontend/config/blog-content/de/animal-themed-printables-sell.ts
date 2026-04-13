@@ -9,7 +9,7 @@ const content: BlogContent = {
       'produkt formate fuer tier druckvorlagen',
     ],
     lsiKeywords: ['Tierarten Arbeitsblaetter Grundschule', 'Zoo-Thema Druckvorlagen', 'Bauernhoftiere Raetsel Kinder'],
-    titleTag: 'Tier-Druckvorlagen: Warum sie immer Bestseller sind | LCS',
+    titleTag: 'Tier-Druckvorlagen: Warum sie immer Bestseller sind | LessonCraftStudio',
     metaDescription: 'Tier-Druckvorlagen sind zeitlose Bestseller auf Etsy.de. Warum Tiere immer funktionieren und welche Tier-Nischen am profitabelsten sind.',
   },
   hero: {

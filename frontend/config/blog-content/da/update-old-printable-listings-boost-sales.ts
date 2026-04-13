@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'lister opdatere opdatér gamle listings',
     secondaryKeywords: ['opdater gamle printable lister boost salg Etsy', 'opdater gamle printable lister boost salg online', 'opdater gamle printable lister boost salg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Opdatér Gamle Listings: Boost Dit Salg | LCS',
+    titleTag: 'Opdatér Gamle Listings: Boost Dit Salg | LessonCraftStudio',
     metaDescription: 'Dine ældste Etsy-lister har opbygget søgeautoritet over tid, men deres SEO er muligvis forældet. Ved at opdatere titler, tags, billeder og beskrivelser kan',
   },
   hero: {

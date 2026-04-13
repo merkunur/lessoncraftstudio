@@ -13,7 +13,7 @@ const content: BlogContent = {
       'worksheet listing best practices',
       'Etsy digital product optimization',
     ],
-    titleTag: 'Optimize Etsy Worksheet Listings | LCS',
+    titleTag: 'Optimize Etsy Worksheet Listings | LessonCraftStudio',
     metaDescription: 'Optimize your Etsy worksheet listings for maximum sales. Title formulas, photo strategies, and description templates that convert browsers to buyers.',
   },
   hero: {

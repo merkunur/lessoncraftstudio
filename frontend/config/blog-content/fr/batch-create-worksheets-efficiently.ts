@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode créer',
       'astuces créer fiches',
     ],
-    titleTag: 'Créer des fiches en série efficacement | LCS',
+    titleTag: 'Créer des fiches en série efficacement | LessonCraftStudio',
     metaDescription: 'Techniques de production par lots pour créer des fiches rapidement. Multipliez votre productivité par 5. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

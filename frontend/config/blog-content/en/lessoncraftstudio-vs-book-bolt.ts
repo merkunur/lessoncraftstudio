@@ -14,15 +14,15 @@ const content: BlogContent = {
       'one-time payment worksheet generator',
       'Amazon KDP publishing tools',
     ],
-    titleTag: 'LessonCraftStudio vs Book Bolt: Detailed Comparison for KDP Publishers | LCS',
-    metaDescription: 'Honest comparison of LessonCraftStudio and Book Bolt for KDP publishers. Features, pricing, languages, and editing capabilities compared side by side.',
+    titleTag: 'LessonCraftStudio vs Book Bolt — Which Is Better for KDP Activity Books? | LessonCraftStudio',
+    metaDescription: 'Detailed comparison of LessonCraftStudio and Book Bolt for KDP publishers. Features, pricing, output quality, and which tool fits your workflow. Honest 2026 review.',
   },
   hero: {
     title: 'LessonCraftStudio vs Book Bolt: Which Is Better for KDP Publishers?',
     tagline: 'A feature-by-feature breakdown so you can pick the right tool',
     description: 'Book Bolt is one of the most popular tools for Amazon KDP low-content and activity book publishers. LessonCraftStudio is a newer contender built specifically for printable worksheet generation with post-generation editing, multilingual output, and a one-time pricing model. This comparison breaks down exactly where each tool shines and where it falls short, so you can make an informed decision based on your publishing workflow.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'Choosing between Book Bolt and LessonCraftStudio depends on what kind of products you publish, how many languages you sell in, and whether you prefer a subscription or a one-time purchase. Both tools generate activity book content for Amazon KDP, Etsy, and other marketplaces. But they approach the problem differently. Book Bolt focuses on KDP research and a broad range of low-content interiors. LessonCraftStudio focuses on deep worksheet customization with post-generation editing and a 3,000+ themed image library. Here is the full breakdown.',
   sections: [
     {

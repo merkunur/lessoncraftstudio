@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Picture Path Maze Generator — KDP Activity Books | LessonCraftStudio',
-    metaDescription: 'Create picture path maze worksheets for KDP activity books and Etsy. Unique format, auto answer keys, bulk generate. Commercial license. Try free trial.',
+    titleTag: 'Picture Path Worksheet Generator — Maze-Style KDP Pages | LessonCraftStudio',
+    metaDescription: 'Generate picture path (maze-style) worksheets for KDP activity books. Themed visual paths, multiple layouts. Unique format for Etsy & KDP. Commercial license. Try free.',
   },
 
   hero: {

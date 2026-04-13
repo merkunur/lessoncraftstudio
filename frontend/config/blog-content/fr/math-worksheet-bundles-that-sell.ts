@@ -13,7 +13,7 @@ const content: BlogContent = {
       'regrouper fiches maths rentable',
       'bundles éducatifs téléchargeables',
     ],
-    titleTag: 'Packs de fiches maths qui se vendent | LCS',
+    titleTag: 'Packs de fiches maths qui se vendent | LessonCraftStudio',
     metaDescription: 'Découvrez comment créer des packs de fiches maths rentables sur Etsy et KDP. Composition, tarification et stratégies de vente qui fonctionnent en 2026.',
   },
   hero: {

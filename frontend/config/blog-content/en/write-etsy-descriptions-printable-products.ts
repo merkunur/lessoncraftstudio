@@ -13,7 +13,7 @@ const content: BlogContent = {
       'product description SEO keywords',
       'digital download listing optimization',
     ],
-    titleTag: 'How to Write Etsy Descriptions That Sell Printable Products | LCS',
+    titleTag: 'How to Write Etsy Descriptions That Sell Printable Products | LessonCraftStudio',
     metaDescription: 'Learn to write Etsy descriptions that convert for printable products. Structure, keywords, formatting, and proven techniques from top-selling shops.',
   },
   hero: {

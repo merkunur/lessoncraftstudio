@@ -13,7 +13,7 @@ const content: BlogContent = {
       'puzzles parcours enfants vendre',
       'fiches labyrinthes à imprimer business',
     ],
-    titleTag: 'Fiches labyrinthes images : 5 idées business | LCS',
+    titleTag: 'Fiches labyrinthes images : 5 idées business | LessonCraftStudio',
     metaDescription: 'Les labyrinthes avec images sont un format d\'imprimable à fort engagement. 5 idées business pour vendre ces fiches sur Etsy et KDP en 2026.',
   },
   hero: {

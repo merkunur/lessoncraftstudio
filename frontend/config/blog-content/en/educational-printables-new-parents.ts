@@ -13,7 +13,7 @@ const content: BlogContent = {
       'developmental milestone printables',
       'baby and toddler activity sheets',
     ],
-    titleTag: 'Educational Printables for New Parents | LCS',
+    titleTag: 'Educational Printables for New Parents | LessonCraftStudio',
     metaDescription: 'New parents are anxious first-time buyers with high spending. Learn how to create and sell educational printables that target this high-conversion market.',
   },
   hero: {

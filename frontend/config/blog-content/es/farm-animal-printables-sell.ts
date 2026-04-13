@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles animales fichas', 'vender imprimibles imprimibles', 'granja vender educativos'],
-    titleTag: 'Imprimibles de Animales de Granja | LCS',
+    titleTag: 'Imprimibles de Animales de Granja | LessonCraftStudio',
     metaDescription: 'Los animales de granja (vaca, cerdo, gallina, caballo, oveja) son generalmente el primer tema de animales que los. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

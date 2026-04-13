@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede classe prima da stampare | LCS',
+    titleTag: 'Schede classe prima da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede per la classe prima da stampare: addizione, sottrazione, lettura, scrittura e attività didattiche per bambini di 6-7 anni scuola primaria.',
     primaryKeyword: 'schede classe prima da stampare',
     secondaryKeywords: [

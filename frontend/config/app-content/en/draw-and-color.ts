@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Draw & Color Activity Generator — Creative KDP Books | LessonCraftStudio',
-    metaDescription: 'Create draw-and-color activity books for KDP and Etsy. Unique creative format, combines drawing and coloring. Commercial license. Try free trial.',
+    titleTag: 'Draw & Color Worksheet Generator — KDP Creative Activity Books | LessonCraftStudio',
+    metaDescription: 'Create draw and color worksheets for KDP creative activity books. Combines drawing prompts with coloring. 104 themes. Commercial license included. Try free.',
   },
 
   hero: {

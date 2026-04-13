@@ -15,7 +15,7 @@ const content: GuideContent = {
       'mixed difficulty puzzles',
       'word search crossword sudoku book',
     ],
-    titleTag: 'Create a Puzzle Book for Amazon KDP | LCS',
+    titleTag: 'Create a Puzzle Book for Amazon KDP | LessonCraftStudio',
     metaDescription: 'Create multi-puzzle books for Amazon KDP combining word search, crossword, sudoku, cryptogram, and word scramble. Difficulty progression and manuscript structure. Try free trial.',
   },
 

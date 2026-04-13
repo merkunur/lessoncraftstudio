@@ -17,7 +17,7 @@ const content: BlogContent = {
       'traduzione',
       'scuola internazionale',
     ],
-    titleTag: 'Schede Multilingue da Stampare in 11 Lingue | LCS',
+    titleTag: 'Schede Multilingue da Stampare in 11 Lingue | LessonCraftStudio',
     metaDescription: 'Schede didattiche in 11 lingue per bambini bilingue e scuole internazionali. Create attività multilingue con LessonCraftStudio — 33 generatori pronti.',
   },
   hero: {

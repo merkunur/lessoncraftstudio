@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'KDP vs Etsy hvad tjener mest',
     secondaryKeywords: ['KDP vs Etsy hvad tjener mest Etsy', 'KDP vs Etsy hvad tjener mest online', 'KDP vs Etsy hvad tjener mest forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'KDP vs. Etsy: Hvad Tjener Mest? | LCS',
+    titleTag: 'KDP vs. Etsy: Hvad Tjener Mest? | LessonCraftStudio',
     metaDescription: 'KDP og Etsy er de to mest populære kanaler for printable-sælgere, men de fungerer fundamentalt forskelligt. Etsy sælger digitale downloads. KDP sælger fysi',
   },
   hero: {

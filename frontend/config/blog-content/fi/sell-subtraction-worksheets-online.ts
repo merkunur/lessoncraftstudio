@@ -13,7 +13,7 @@ const content: BlogContent = {
       'matematiikan harjoittelu tulostettavia',
       'digitaaliset lataukset matematiikka',
     ],
-    titleTag: 'Myy vähennyslaskutehtäviä verkossa | LCS',
+    titleTag: 'Myy vähennyslaskutehtäviä verkossa | LessonCraftStudio',
     metaDescription: 'Myy vähennyslaskutyöarkkeja verkossa kannattavasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

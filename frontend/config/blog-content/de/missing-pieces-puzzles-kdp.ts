@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Was fehlt Raetsel Arbeitsblatt',
       'Visuelles Denken Raetsel PDF',
     ],
-    titleTag: 'Fehlende-Teile-Raetsel fuer KDP-Buecher | LCS',
+    titleTag: 'Fehlende-Teile-Raetsel fuer KDP-Buecher | LessonCraftStudio',
     metaDescription: 'So erstellen Sie Fehlende-Teile-Raetsel fuer Amazon KDP Aktivitaetsbuecher. Eine Nische mit minimalem Wettbewerb und hoher Nachfrage.',
   },
   hero: {

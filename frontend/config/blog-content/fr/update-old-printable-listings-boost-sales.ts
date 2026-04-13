@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode mettre',
       'astuces mettre à',
     ],
-    titleTag: 'Mettre à jour vos anciennes fiches Etsy | LCS',
+    titleTag: 'Mettre à jour vos anciennes fiches Etsy | LessonCraftStudio',
     metaDescription: 'Boostez vos ventes en mettant à jour vos anciennes fiches Etsy. Titres, photos, tags et descriptions.',
   },
   hero: {

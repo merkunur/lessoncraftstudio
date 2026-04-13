@@ -15,7 +15,7 @@ const content: GuideContent = {
       'arithmetic practice sheets',
       'difficulty progression math',
     ],
-    titleTag: 'Create a Math Workbook for Amazon KDP | LCS',
+    titleTag: 'Create a Math Workbook for Amazon KDP | LessonCraftStudio',
     metaDescription: 'Create math workbooks for Amazon KDP. Addition, subtraction, mixed operations, graded difficulty, progressive structure. Step-by-step KDP formatting guide. Try free trial.',
   },
 

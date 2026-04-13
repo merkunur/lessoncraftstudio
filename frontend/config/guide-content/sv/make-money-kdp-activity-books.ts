@@ -17,7 +17,7 @@ const content: GuideContent = {
       'flerplattform Etsy Gumroad digital expansion intäkt',
       'KDP rapporter prestationsspårning intäkt per titel',
     ],
-    titleTag: 'Tjäna pengar KDP pysselböcker | LCS',
+    titleTag: 'Tjäna pengar KDP pysselböcker | LessonCraftStudio',
     metaDescription: 'Tjäna pengar med pysselböcker på Amazon KDP. Royaltyberäkningar, prisoptimering, katalogstrategi och säsongsbetonad publicering.',
   },
 

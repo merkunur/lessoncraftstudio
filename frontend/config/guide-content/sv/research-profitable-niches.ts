@@ -17,7 +17,7 @@ const content: GuideContent = {
       'pysselbok pusselbok aktivitetsbok arbetsblad skriva ut',
       'förskoleklass lågstadiet mellanstadiet målgrupp validering',
     ],
-    titleTag: 'Hitta lönsamma nischer printables | LCS',
+    titleTag: 'Hitta lönsamma nischer printables | LessonCraftStudio',
     metaDescription: 'Undersök lönsamma nischer för printables med marknadsplatsdata, nyckelordsanalys och konkurrentforskning. Systematisk metod för Etsy- och KDP-säljare.',
   },
 

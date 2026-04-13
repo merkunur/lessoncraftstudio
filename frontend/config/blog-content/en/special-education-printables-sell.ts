@@ -13,7 +13,7 @@ const content: BlogContent = {
       'occupational therapy printables market',
       'modified worksheets special education',
     ],
-    titleTag: 'Special Ed Printables: High Demand, Low Comp | LCS',
+    titleTag: 'Special Ed Printables: High Demand, Low Comp | LessonCraftStudio',
     metaDescription: 'Special education printables are high demand, low competition. Learn what SPED teachers and parents buy and how to create adaptive worksheets.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Bündelpreisgestaltung wahrgenommener Wert Rabatte',
       'saisonale Preisanpassungen Etsy Gutscheine Strategie',
     ],
-    titleTag: 'Druckvorlagen Preisgestaltung Etsy | LCS',
+    titleTag: 'Druckvorlagen Preisgestaltung Etsy | LessonCraftStudio',
     metaDescription: 'Druckvorlagen Preisgestaltung auf Etsy: Gebuehrenberechnung, dreistufige Preisstruktur, Buendelpreise und saisonale Anpassungen fuer nachhaltige Profitabilitaet.',
   },
 

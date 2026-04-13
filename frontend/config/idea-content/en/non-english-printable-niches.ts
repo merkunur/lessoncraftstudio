@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Non-English Printable Niches (Untapped) | LCS',
+    titleTag: 'Non-English Printable Niches (Untapped) | LessonCraftStudio',
     metaDescription: 'Non-English printable niches for sellers. Untapped multilingual markets, 11-language strategies, and low-competition opportunities in German, French, Spanish, and more.',
 
     primaryKeyword: 'non english printable niches',

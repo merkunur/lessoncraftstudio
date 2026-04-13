@@ -14,7 +14,7 @@ const content: GuideContent = {
       'print-ready worksheet PDFs',
       'math printable business',
     ],
-    titleTag: 'Create Addition Worksheets to Sell on Etsy & KDP | LCS',
+    titleTag: 'Create Addition Worksheets to Sell on Etsy & KDP | LessonCraftStudio',
     metaDescription: 'Learn to create professional addition worksheets that sell. Step-by-step guide with tips for Etsy, KDP, and TPT. Use our generator — try free.',
   },
 

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy ordsökningspussel printable digitala nedladdningar',
       'kommersiell licens pusselverktyg färgkodat facit',
     ],
-    titleTag: 'Skapa ordsök att skriva ut | LCS',
+    titleTag: 'Skapa ordsök att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa ordsökningspussel att skriva ut med bildledtrådar, konfigurerbar svårighet och färgkodat facit. Sälj på Etsy och Amazon KDP.',
   },
 

@@ -18,8 +18,8 @@ const content: AppContent = {
       '300 DPI print-ready',
       'bulk generation',
     ],
-    titleTag: 'Subtraction Worksheet Generator — KDP Math Workbooks | LessonCraftStudio',
-    metaDescription: 'Generate subtraction worksheets for KDP math workbooks and Etsy bundles. Visual counting, auto answer keys, 300 DPI PDFs. Commercial license. Try free trial.',
+    titleTag: 'Subtraction Worksheet Generator — KDP Math Workbook Creator | LessonCraftStudio',
+    metaDescription: 'Create subtraction worksheets for Amazon KDP math workbooks and Etsy digital downloads. Visual counting, themed images, auto answer keys. Commercial license. Try free.',
   },
 
   hero: {

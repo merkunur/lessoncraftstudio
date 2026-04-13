@@ -19,7 +19,7 @@ const content: ToolContent = {  seo: {
       'message caché',
       'énigme',
     ],
-    titleTag: 'Message codé maths gratuit en ligne | LCS',
+    titleTag: 'Message codé maths gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches de message codé maths gratuitement en ligne — sans inscription. Les enfants résolvent des additions pour déchiffrer un code secret. Corrections incluses. Licence commerciale.',
   },
 

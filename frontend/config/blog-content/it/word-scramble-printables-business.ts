@@ -17,7 +17,7 @@ const content: BlogContent = {
       'gioco parole',
       'rimescola',
     ],
-    titleTag: 'Anagrammi per Bambini da Stampare | LCS',
+    titleTag: 'Anagrammi per Bambini da Stampare | LessonCraftStudio',
     metaDescription: 'Anagrammi educativi per bambini da stampare con soluzioni. Giochi di parole e vocabolario per scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {

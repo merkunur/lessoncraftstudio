@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'opret arbejdsark pakke 35 minutter',
     secondaryKeywords: ['opret arbejdsark pakke 35 minutter Etsy', 'opret arbejdsark pakke 35 minutter online', 'opret arbejdsark pakke 35 minutter sælg'],
     lsiKeywords: ['printbar forretning', 'digital download salg', 'Etsy printables'],
-    titleTag: 'Opret en Arbejdsark-Pakke på 35 Minutter | LCS',
+    titleTag: 'Opret en Arbejdsark-Pakke på 35 Minutter | LessonCraftStudio',
     metaDescription: 'De fleste sælgere bruger dage på at sammensætte en arbejdsark-pakke. Men med den rigtige proces og de rigtige værktøjer kan du oprette en professionel, sal',
   },
   hero: {

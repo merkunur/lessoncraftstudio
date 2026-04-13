@@ -17,7 +17,7 @@ const content: BlogContent = {
       'inglese',
       'traduzione',
     ],
-    titleTag: 'Schede Didattiche Multilingue da Stampare | LCS',
+    titleTag: 'Schede Didattiche Multilingue da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche disponibili in più lingue da stampare per bambini. Materiale bilingue e multilingue con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

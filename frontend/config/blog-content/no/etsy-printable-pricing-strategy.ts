@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'prisstrategi arbeidsark Etsy selgere',
     secondaryKeywords: ['prissetting oppgaver digitale nedlastinger', 'riktig pris arbeidsark Etsy', 'arbeidsark pakker prissetting'],
     lsiKeywords: ['verdibasert prising pedagogiske produkter', 'fortjenestemargin digitale produkter', 'Etsy prisoptimalisering'],
-    titleTag: 'Prisstrategi for arbeidsark på Etsy | LCS',
+    titleTag: 'Prisstrategi for arbeidsark på Etsy | LessonCraftStudio',
     metaDescription: 'De fleste arbeidsark-selgere underpriser produktene sine. Lær verdibasert prissetting. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

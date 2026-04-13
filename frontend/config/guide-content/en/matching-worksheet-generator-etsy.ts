@@ -15,7 +15,7 @@ const content: GuideContent = {
       'kindergarten worksheet bundles',
       'Etsy digital download printables',
     ],
-    titleTag: 'Matching Worksheet Generator for Etsy | LCS',
+    titleTag: 'Matching Worksheet Generator for Etsy | LessonCraftStudio',
     metaDescription: 'Create professional matching worksheets for Etsy with 4 matching modes, 104 themes, 11 languages, auto answer keys. Step-by-step Etsy seller guide. Try free trial.',
   },
 

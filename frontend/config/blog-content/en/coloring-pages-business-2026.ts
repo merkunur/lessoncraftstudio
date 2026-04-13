@@ -13,7 +13,7 @@ const content: BlogContent = {
       'coloring printables profitability',
       'coloring page Etsy competition',
     ],
-    titleTag: 'Coloring Pages Business in 2026 | LCS',
+    titleTag: 'Coloring Pages Business in 2026 | LessonCraftStudio',
     metaDescription: 'Is a coloring pages business still profitable in 2026? Market analysis, competition assessment, and strategies for new sellers entering this space.',
   },
   hero: {

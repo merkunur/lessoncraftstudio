@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Amazon Selbstverlag Arbeitsbuch',
       'Mathe Uebungsbuch drucken lassen',
     ],
-    titleTag: 'Mathe-Raetselbuecher fuer Amazon KDP erstellen | LCS',
+    titleTag: 'Mathe-Raetselbuecher fuer Amazon KDP erstellen | LessonCraftStudio',
     metaDescription: 'So erstellen und veroeffentlichen Sie Mathe-Raetselbuecher auf Amazon KDP. Nischenwahl, Formatierung und Marketing-Strategien fuer den deutschen Markt.',
   },
   hero: {

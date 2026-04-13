@@ -13,7 +13,7 @@ const content: BlogContent = {
       'eläintulosteet esikoulu',
       'maaseutu teema tulostettavia',
     ],
-    titleTag: 'Maatilaeläintulosteet myyntiin | LCS',
+    titleTag: 'Maatilaeläintulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy maatilaeläintulosteita ympärivuotisesti kannattavasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

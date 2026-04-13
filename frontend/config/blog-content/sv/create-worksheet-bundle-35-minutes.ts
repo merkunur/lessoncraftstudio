@@ -13,7 +13,7 @@ const content: BlogContent = {
       'generator arbetsblad Etsy-listning',
       'mockup till Etsy-publicering',
     ],
-    titleTag: 'Skapa Arbetsbladspaket på 35 Minuter | LCS',
+    titleTag: 'Skapa Arbetsbladspaket på 35 Minuter | LessonCraftStudio',
     metaDescription: 'Skapa ett komplett 30-sidors arbetsbladspaket på 35 minuter med vår generator. Steg-för-steg från idé till Etsy-listning.',
   },
   hero: {

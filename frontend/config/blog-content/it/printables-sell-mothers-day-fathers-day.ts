@@ -17,7 +17,7 @@ const content: BlogContent = {
       'lavoretto',
       'regalo',
     ],
-    titleTag: 'Schede Festa Mamma e Papà da Stampare | LCS',
+    titleTag: 'Schede Festa Mamma e Papà da Stampare | LessonCraftStudio',
     metaDescription: 'Schede per la Festa della Mamma e del Papà da stampare per bambini. Attività creative per la scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {

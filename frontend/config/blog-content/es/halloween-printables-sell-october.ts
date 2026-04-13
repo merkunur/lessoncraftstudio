@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'halloween imprimibles octubre vender ent convertido',
     secondaryKeywords: ['imprimibles Halloween vender octubre negocio', 'imprimibles Halloween vender octubre Etsy vender', 'imprimibles Halloween vender octubre imprimibles rentable'],
     lsiKeywords: ['imprimibles Halloween fichas', 'vender imprimibles imprimibles', 'vender octubre educativos'],
-    titleTag: 'Imprimibles de Halloween para Vender en Octubre | LCS',
+    titleTag: 'Imprimibles de Halloween para Vender en Octubre | LessonCraftStudio',
     metaDescription: 'Halloween se ha convertido en una celebracion global. En el mundo hispanohablante, la demanda de actividades de Halloween crece cada ano, especialmente ent',
   },
   hero: {

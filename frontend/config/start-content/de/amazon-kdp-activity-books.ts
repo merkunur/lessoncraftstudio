@@ -15,7 +15,7 @@ const content: StartContent = {
       'Keyword-Recherche',
       'Preisstrategie',
     ],
-    titleTag: 'Amazon KDP Aktivitätsbuch-Business starten | LCS',
+    titleTag: 'Amazon KDP Aktivitätsbuch-Business starten | LessonCraftStudio',
     metaDescription: 'Amazon KDP Aktivitätsbuch-Business starten: Formatierung, Cover, Keywords und Preise. Schritt-für-Schritt Anleitung für Print-on-Demand-Verkäufer.',
   },
 

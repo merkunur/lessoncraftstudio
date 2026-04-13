@@ -17,7 +17,7 @@ const content: BlogContent = {
       'SEO',
       'visibilità',
     ],
-    titleTag: 'Parole Chiave per Schede Didattiche Etsy | LCS',
+    titleTag: 'Parole Chiave per Schede Didattiche Etsy | LessonCraftStudio',
     metaDescription: 'Guida alle parole chiave per schede didattiche su Etsy. Come trovare keyword efficaci che portano visibilità con LessonCraftStudio — 33 generatori.',
   },
   hero: {

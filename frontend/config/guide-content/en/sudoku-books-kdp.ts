@@ -14,7 +14,7 @@ const content: GuideContent = {
       'puzzle book difficulty progression',
       'picture sudoku interior formatting',
     ],
-    titleTag: 'Sudoku Puzzle Books for KDP: Guide | LCS',
+    titleTag: 'Sudoku Puzzle Books for KDP: Guide | LessonCraftStudio',
     metaDescription: 'Create sudoku puzzle books for Amazon KDP. Picture sudoku for kids, difficulty levels, formatting specs, and publishing strategies.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'regalias Amazon vs comisiones Etsy',
       'vender fichas educativas online',
     ],
-    titleTag: 'KDP vs Etsy para Imprimibles: Cual Gana Mas | LCS',
+    titleTag: 'KDP vs Etsy para Imprimibles: Cual Gana Mas | LessonCraftStudio',
     metaDescription: 'Comparacion detallada entre Amazon KDP y Etsy para vender imprimibles educativos. Regalias, trafico, competencia y cual es mejor para su negocio.',
   },
   hero: {

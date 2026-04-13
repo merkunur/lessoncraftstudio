@@ -19,7 +19,7 @@ const content: ToolContent = {  seo: {
       'logique',
       'corrections',
     ],
-    titleTag: 'Puzzle maths gratuit en ligne | LCS',
+    titleTag: 'Puzzle maths gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Créez des puzzles mathématiques gratuits en ligne — sans inscription. Les enfants résolvent des calculs pour associer les images. Corrections incluses. Licence commerciale disponible.',
   },
 

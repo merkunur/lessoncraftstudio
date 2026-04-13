@@ -15,7 +15,7 @@ const content: GuideContent = {
       'multilingual preposition activities',
       'language learner resources Etsy',
     ],
-    titleTag: 'Sell Preposition Worksheets on Etsy | LCS',
+    titleTag: 'Sell Preposition Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Create and sell preposition worksheets on Etsy. 8 spatial prepositions, 11 languages, growing ESL market. Multilingual seller guide. Try free trial with watermark.',
   },
 

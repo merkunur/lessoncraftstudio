@@ -14,7 +14,7 @@ const content: GuideContent = {
       'language-specific worksheet production',
       'global Etsy shop multilingual listings',
     ],
-    titleTag: 'Multilingual Worksheets: Sell Globally | LCS',
+    titleTag: 'Multilingual Worksheets: Sell Globally | LessonCraftStudio',
     metaDescription: 'Create multilingual worksheets and sell globally. 11-language support, locale-specific content, and strategies to reach international buyers.',
   },
 

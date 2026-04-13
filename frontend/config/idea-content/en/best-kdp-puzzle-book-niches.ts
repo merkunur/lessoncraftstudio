@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Best KDP Puzzle Book Niches (Low Comp) | LCS',
+    titleTag: 'Best KDP Puzzle Book Niches (Low Comp) | LessonCraftStudio',
     metaDescription: 'Best KDP puzzle book niches with low competition. Demand data, royalty estimates, and generator tools for word search, sudoku, crossword, and cryptogram books.',
 
     primaryKeyword: 'best kdp puzzle book niches',

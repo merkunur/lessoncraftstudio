@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kurpitsa tulostettavia',
       'halloween Suomessa tulosteet',
     ],
-    titleTag: 'Halloween-tulosteet lokakuussa | LCS',
+    titleTag: 'Halloween-tulosteet lokakuussa | LessonCraftStudio',
     metaDescription: 'Myy halloween-tulosteita lokakuun sesongissa kannattavasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

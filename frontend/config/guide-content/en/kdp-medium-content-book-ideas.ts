@@ -15,7 +15,7 @@ const content: GuideContent = {
       'workbook publishing KDP',
       'medium content vs low content',
     ],
-    titleTag: 'Medium Content Book Ideas for KDP | LCS',
+    titleTag: 'Medium Content Book Ideas for KDP | LessonCraftStudio',
     metaDescription: 'Profitable medium content book ideas for Amazon KDP. Puzzle books, activity books, workbooks with higher perceived value and better royalties. LCS as your production tool.',
   },
 

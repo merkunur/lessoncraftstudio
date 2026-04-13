@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fichas ubicación espacial idiomas',
       'preposition activities printable sell',
     ],
-    titleTag: 'Fichas Preposiciones: El Mercado ELE | LCS',
+    titleTag: 'Fichas Preposiciones: El Mercado ELE | LessonCraftStudio',
     metaDescription: 'Las fichas de preposiciones tienen un mercado masivo en ELE con 20M+ estudiantes. Cree productos para este público premium.',
   },
   hero: {

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'mønster arbejdsark sælg online',
     secondaryKeywords: ['mønster arbejdsark sælg online Etsy', 'mønster arbejdsark sælg online online', 'mønster arbejdsark sælg online forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Mønster-Arbejdsark: Sælg Matematisk Tænkning | LCS',
+    titleTag: 'Mønster-Arbejdsark: Sælg Matematisk Tænkning | LessonCraftStudio',
     metaDescription: 'Mønster-arbejdsark træner en af de vigtigste matematiske kompetencer: genkendelse og fortsættelse af mønstre. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

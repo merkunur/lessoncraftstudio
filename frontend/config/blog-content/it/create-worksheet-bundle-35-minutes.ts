@@ -17,7 +17,7 @@ const content: BlogContent = {
       'set',
       'minuti',
     ],
-    titleTag: 'Creare Pacchetto Schede in 35 Minuti | LCS',
+    titleTag: 'Creare Pacchetto Schede in 35 Minuti | LessonCraftStudio',
     metaDescription: 'Come creare un pacchetto di schede didattiche professionali in 35 minuti. Generatore automatico LessonCraftStudio — 33 strumenti, 11 lingue.',
   },
   hero: {

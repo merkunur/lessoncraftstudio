@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kognitiivinen kehitys tehtävät',
       'varhaiskasvatus tulosteet',
     ],
-    titleTag: 'Yhdistämistehtävät taaperoille | LCS',
+    titleTag: 'Yhdistämistehtävät taaperoille | LessonCraftStudio',
     metaDescription: 'Myy yhdistämistehtäviä taaperoiden vanhemmille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

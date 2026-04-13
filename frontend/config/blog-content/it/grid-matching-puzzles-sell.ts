@@ -17,7 +17,7 @@ const content: BlogContent = {
       'ragionamento',
       'puzzle',
     ],
-    titleTag: 'Puzzle Griglia Abbinamento da Stampare | LCS',
+    titleTag: 'Puzzle Griglia Abbinamento da Stampare | LessonCraftStudio',
     metaDescription: 'Puzzle a griglia di abbinamento da stampare per bambini. Esercizi di logica visiva e ragionamento spaziale con LessonCraftStudio — 33 generatori.',
   },
   hero: {

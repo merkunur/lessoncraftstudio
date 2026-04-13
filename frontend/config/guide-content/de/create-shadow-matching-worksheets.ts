@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Silhouetten Halb-Bilder-Modus Lösungsschlüssel',
       'rein visuell 300 DPI PDF',
     ],
-    titleTag: 'Schattenbilder-Zuordnung erstellen | Anleitung | LCS',
+    titleTag: 'Schattenbilder-Zuordnung erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Schattenbilder-Zuordnungen. Pixelgenaue Silhouetten, Halb-Bilder-Modus und Lösungsschlüssel. Kostenlos testen.',
   },
 

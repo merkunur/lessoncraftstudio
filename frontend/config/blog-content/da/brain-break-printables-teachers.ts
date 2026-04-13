@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'hjernepause printables lærere folkeskole',
     secondaryKeywords: ['brain break aktiviteter folkeskole', 'hjernepause arbejdsark printbar', 'aktive pauser folkeskole printbar'],
     lsiKeywords: ['pauseaktivitet undervisning', 'bevægelse i folkeskolen', 'koncentration folkeskole'],
-    titleTag: 'Hjernepause-Printables til Folkeskolen | LCS',
+    titleTag: 'Hjernepause-Printables til Folkeskolen | LessonCraftStudio',
     metaDescription: 'Hjernepause-aktiviteter hjælper elever med at genvinde fokus. Lær at oprette og sælge printbare pauseaktiviteter til folkeskolelærere.',
   },
   hero: {

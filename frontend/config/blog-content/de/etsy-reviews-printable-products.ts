@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Social Proof digitale Downloads',
       'Etsy Rezensionen erhalten',
     ],
-    titleTag: 'Bewertungen fuer Druckvorlagen auf Etsy | LCS',
+    titleTag: 'Bewertungen fuer Druckvorlagen auf Etsy | LessonCraftStudio',
     metaDescription: 'So erhalten Sie mehr Bewertungen fuer Ihre Druckvorlagen auf Etsy. Strategien fuer die erste Bewertung und den Aufbau von Social Proof.',
   },
   hero: {

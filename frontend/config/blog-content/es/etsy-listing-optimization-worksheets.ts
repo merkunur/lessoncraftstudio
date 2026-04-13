@@ -13,7 +13,7 @@ const content: BlogContent = {
       'listing perfecto Etsy fichas PDF',
       'optimizacion tienda Etsy educativa',
     ],
-    titleTag: 'Optimizar Listings de Fichas en Etsy | LCS',
+    titleTag: 'Optimizar Listings de Fichas en Etsy | LessonCraftStudio',
     metaDescription: 'Aprenda a optimizar cada elemento de sus listings de fichas educativas en Etsy. Titulos, fotos, descripciones y precios que convierten visitas en ventas.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'varhaiskasvatus Suomi tulosteet',
       'lapsen kehitys tulostettavia',
     ],
-    titleTag: 'Opetustulosteet uusille vanhemmille | LCS',
+    titleTag: 'Opetustulosteet uusille vanhemmille | LessonCraftStudio',
     metaDescription: 'Tavoita uudet vanhemmat opetuksellisilla tulosteilla myyntiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

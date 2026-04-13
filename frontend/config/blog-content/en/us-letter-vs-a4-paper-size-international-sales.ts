@@ -13,7 +13,7 @@ const content: BlogContent = {
       'paper format compatibility',
       'international digital download sales',
     ],
-    titleTag: 'US Letter vs A4: Paper Size Strategy for International Sales | LCS',
+    titleTag: 'US Letter vs A4: Paper Size Strategy for International Sales | LessonCraftStudio',
     metaDescription: 'Understand US Letter vs A4 paper sizes for printable products. Learn when to offer both formats and how paper size affects your international sales.',
   },
   hero: {

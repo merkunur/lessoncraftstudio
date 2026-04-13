@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant directional puzzle maker',
       'try before you buy adventure tools',
     ],
-    titleTag: 'Free Treasure Hunt Worksheet Generator | LCS',
+    titleTag: 'Free Treasure Hunt Worksheet Generator | LessonCraftStudio',
     metaDescription: 'Make treasure hunt worksheets free online with watermark — no signup. Coordinate grid puzzles, 2 direction modes, 11 languages. Upgrade to sell.',
   },
 

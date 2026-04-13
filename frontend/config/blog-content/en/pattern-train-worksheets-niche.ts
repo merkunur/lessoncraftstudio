@@ -13,7 +13,7 @@ const content: BlogContent = {
       'unique educational printables',
       'pattern sequencing train theme',
     ],
-    titleTag: 'Pattern Train Worksheets: Stand Out | LCS',
+    titleTag: 'Pattern Train Worksheets: Stand Out | LessonCraftStudio',
     metaDescription: 'Pattern train worksheets are a unique product that stands out in Etsy search. Learn how this distinctive format captures attention and drives sales.',
   },
   hero: {

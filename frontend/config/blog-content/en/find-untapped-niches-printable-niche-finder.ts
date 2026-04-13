@@ -13,7 +13,7 @@ const content: BlogContent = {
       'underserved printable markets find',
       'printable competition analysis tool',
     ],
-    titleTag: 'Find Untapped Niches with the Printable Niche Finder | LCS',
+    titleTag: 'Find Untapped Niches with the Printable Niche Finder | LessonCraftStudio',
     metaDescription: 'Learn how to use the LCS Niche Finder tool to identify profitable, low-competition printable niches. Step-by-step walkthrough with real examples.',
   },
   hero: {

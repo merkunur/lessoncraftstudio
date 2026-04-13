@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Trending Printable Products on Etsy (2026) | LCS',
+    titleTag: 'Trending Printable Products on Etsy (2026) | LessonCraftStudio',
     metaDescription: 'Discover the top trending printable products on Etsy in 2026. Niche analysis, product ideas, and strategies for sellers entering the hottest educational printable markets.',
 
     primaryKeyword: 'trending printables etsy 2026',

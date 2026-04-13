@@ -9,7 +9,7 @@ const content: BlogContent = {
       'paso crear fotos listing',
     ],
     lsiKeywords: ['crear libro actividades tips', 'como crear libro', 'inicio fin facil'],
-    titleTag: 'Crear Libro de Actividades KDP Completo | LCS',
+    titleTag: 'Crear Libro de Actividades KDP Completo | LessonCraftStudio',
     metaDescription: 'Publicar un libro de actividades en Amazon KDP puede hacerse en un fin de semana si tiene el contenido listo. Este tutorial paso a paso cubre todo el proce',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'professionale',
       'qualità',
     ],
-    titleTag: 'Come Formattare Schede Didattiche PDF | LCS',
+    titleTag: 'Come Formattare Schede Didattiche PDF | LessonCraftStudio',
     metaDescription: 'Come formattare correttamente schede didattiche in PDF per la stampa. Layout professionale con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

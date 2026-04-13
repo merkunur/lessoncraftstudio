@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Food Themed Printables to Sell | LCS',
+    titleTag: 'Food Themed Printables to Sell | LessonCraftStudio',
     metaDescription: 'Food themed printable business ideas for Etsy & KDP. Kitchen and cooking product concepts and strategies for food-themed printable sellers.',
 
     primaryKeyword: 'food themed printables to sell',

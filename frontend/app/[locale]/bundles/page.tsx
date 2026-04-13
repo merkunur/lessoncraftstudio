@@ -46,8 +46,8 @@ const bundlesContent: Record<string, {
   en: {
     heroTitle: 'Generator Bundles with Commercial License',
     heroDescription: 'Save with category bundles. Get all generators in a category with commercial license to sell on Etsy, KDP & more.',
-    metaTitle: 'Category Bundles | Save Up to 57% on Worksheet Generators',
-    metaDescription: 'Get all worksheet generators in a category for one price. Math, Language, Visual, Matching, Puzzles, and Search bundles. Save up to 57% vs. individual pricing.',
+    metaTitle: 'Generator Bundles — Save Up to 70% | LessonCraftStudio',
+    metaDescription: 'Get all generators in a category for one price. Math, Language, Visual Learning, Creative, or Logic bundles. Save up to 70% vs individual apps. Commercial license included.',
     ctaTitle: 'Try Before You Buy',
     ctaDescription: 'All generators are free to try with watermark. See the quality before purchasing a bundle.',
     ctaButton: 'Try Free Generators',

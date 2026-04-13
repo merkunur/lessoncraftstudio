@@ -13,7 +13,7 @@ const content: BlogContent = {
       'vacation printables kids market',
       'flight activities children printable',
     ],
-    titleTag: 'Travel Activity Printables: Vacation Market | LCS',
+    titleTag: 'Travel Activity Printables: Vacation Market | LessonCraftStudio',
     metaDescription: 'Travel activity printables sell year-round to vacationing families. Learn what parents buy for road trips and flights, pricing tips, and seasonal timing.',
   },
   hero: {

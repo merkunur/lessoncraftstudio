@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Teachers Pay Teachers SEO',
       'TPT listing conversion optimization',
     ],
-    titleTag: 'TPT Store Optimization: Boost Sales | LCS',
+    titleTag: 'TPT Store Optimization: Boost Sales | LessonCraftStudio',
     metaDescription: 'Optimize your TPT store for more sales. Listing SEO, store setup, search ranking strategies, and conversion tips for printable sellers.',
   },
 

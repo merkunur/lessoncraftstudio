@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Kindergarten Printable Business Ideas | LCS',
+    titleTag: 'Kindergarten Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Kindergarten printable business ideas for Etsy & KDP. Age-specific product concepts and strategies for K-grade printable sellers.',
 
     primaryKeyword: 'kindergarten printable business ideas',

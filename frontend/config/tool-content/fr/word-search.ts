@@ -20,7 +20,7 @@ const content: ToolContent = {
       'orthographe',
       'solution',
     ],
-    titleTag: 'Générateur mots mêlés gratuit en ligne | LCS',
+    titleTag: 'Générateur mots mêlés gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de mots mêlés gratuit — créez des grilles avec 3 000+ images thématiques en ligne, sans inscription. Solutions automatiques, PDF 300 DPI. Licence commerciale.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'activity book printing costs Amazon',
       'KDP publishing profit margins',
     ],
-    titleTag: 'KDP Activity Book Earnings: How to Calculate Your Potential | LCS',
+    titleTag: 'KDP Activity Book Earnings: How to Calculate Your Potential | LessonCraftStudio',
     metaDescription: 'Learn how to calculate KDP activity book earnings. Understand printing costs, royalty rates, and realistic revenue projections based on publicly available marketplace data.',
   },
   hero: {

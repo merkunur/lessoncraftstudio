@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Lernspiel Bingo Grundschule',
       'Party Bingo Druckvorlagen',
     ],
-    titleTag: 'Bingo-Karten: Vom Klassenzimmer zum Party-Geschaeft | LCS',
+    titleTag: 'Bingo-Karten: Vom Klassenzimmer zum Party-Geschaeft | LessonCraftStudio',
     metaDescription: 'Wie Sie mit druckbaren Bingo-Karten zwei Maerkte bedienen: Bildung und Party. Zielgruppen, Preise und Strategien fuer Etsy.de.',
   },
   hero: {

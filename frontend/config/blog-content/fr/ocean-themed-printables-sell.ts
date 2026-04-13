@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances thème',
       'demande fiches imprimables thème',
     ],
-    titleTag: 'Imprimables thème océan et mer | LCS',
+    titleTag: 'Imprimables thème océan et mer | LessonCraftStudio',
     metaDescription: 'Les imprimables sur l\'océan et la mer se vendent particulièrement bien en été. Poissons, baleines et fond marin.',
   },
   hero: {

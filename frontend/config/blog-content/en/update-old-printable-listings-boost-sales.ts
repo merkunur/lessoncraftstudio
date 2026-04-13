@@ -13,7 +13,7 @@ const content: BlogContent = {
       'revive stale printable listings',
       'improve etsy listing performance',
     ],
-    titleTag: 'Refresh Old Listings: Boost Printable Sales Fast | LCS',
+    titleTag: 'Refresh Old Listings: Boost Printable Sales Fast | LessonCraftStudio',
     metaDescription: 'Refresh old printable listings to boost sales in 24 hours. Updated photos, better keywords, improved files, and optimization tips for Etsy sellers.',
   },
   hero: {

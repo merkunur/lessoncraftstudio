@@ -17,7 +17,7 @@ const content: BlogContent = {
       'addizioni',
       'sottrazioni',
     ],
-    titleTag: 'Schede Tabelline e Calcolo Mentale | LCS',
+    titleTag: 'Schede Tabelline e Calcolo Mentale | LessonCraftStudio',
     metaDescription: 'Schede tabelline e calcolo mentale da stampare per la scuola primaria. Esercizi di fluenza matematica con LessonCraftStudio — 33 generatori.',
   },
   hero: {

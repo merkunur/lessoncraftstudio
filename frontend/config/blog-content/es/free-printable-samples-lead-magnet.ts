@@ -9,7 +9,7 @@ const content: BlogContent = {
       'paso crear fotos listing',
     ],
     lsiKeywords: ['muestras imprimibles lead tips', 'como muestras imprimibles', 'lead magnet facil'],
-    titleTag: 'Muestras de Imprimibles como Lead Magnet | LCS',
+    titleTag: 'Muestras de Imprimibles como Lead Magnet | LessonCraftStudio',
     metaDescription: 'Ofrecer muestras de sus fichas como lead magnet es la estrategia mas efectiva para construir una lista de email de. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Etsy Stats Suchbegriffe-Bericht Konversion',
       'Kategorie-Attribute saisonales Keyword-Timing',
     ],
-    titleTag: 'Etsy SEO für Druckvorlagen | LCS',
+    titleTag: 'Etsy SEO für Druckvorlagen | LessonCraftStudio',
     metaDescription: 'Etsy SEO fuer Druckvorlagen optimieren: Keyword-Recherche, Titeloptimierung, alle 13 Tags strategisch nutzen und Beschreibungen fuer maximale Suchsichtbarkeit.',
   },
 

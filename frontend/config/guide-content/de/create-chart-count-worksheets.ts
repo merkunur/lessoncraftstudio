@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Lösungsschlüssel 104 Themen',
       'sprachunabhängig 300 DPI PDF',
     ],
-    titleTag: 'Zähl-Diagramm-Arbeitsblätter erstellen | Anleitung | LCS',
+    titleTag: 'Zähl-Diagramm-Arbeitsblätter erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Zähl-Diagramm-Arbeitsblättern. 4x5-Bildraster, automatische Lösungsschlüssel und 104 Themen. Kostenlos testen.',
   },
 

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy Stats konvertering sökanalys butiksoptimering',
       'kodaddition mattepussel talövning jämförelse',
     ],
-    titleTag: 'Sälja mattearbetsblad på Etsy | LCS',
+    titleTag: 'Sälja mattearbetsblad på Etsy | LessonCraftStudio',
     metaDescription: 'Sälj mattearbetsblad på Etsy med 6 generatorer. Etsy SEO, prissättning, paketstrategier och säsongstajming. Steg-för-steg guide för printables-säljare.',
   },
 

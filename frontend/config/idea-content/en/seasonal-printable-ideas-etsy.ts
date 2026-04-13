@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Seasonal Printable Ideas for Etsy Sellers | LCS',
+    titleTag: 'Seasonal Printable Ideas for Etsy Sellers | LessonCraftStudio',
     metaDescription: 'Seasonal printable product ideas for Etsy and KDP sellers. Month-by-month planning calendar, holiday themes, and strategies for capturing year-round seasonal demand.',
 
     primaryKeyword: 'seasonal printable ideas etsy',

@@ -20,7 +20,7 @@ const content: ToolContent = {
       'raisonnement visuel',
       'corrections',
     ],
-    titleTag: 'Pièces manquantes gratuit en ligne | LCS',
+    titleTag: 'Pièces manquantes gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches « pièces manquantes » gratuitement en ligne — sans inscription. Images thématiques, solutions automatiques, PDF 300 DPI. Licence commerciale disponible.',
   },
 

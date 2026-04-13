@@ -15,7 +15,7 @@ const content: ToolContent = {
       'visuelles Denken',
       'räumliche Wahrnehmung',
     ],
-    titleTag: 'Kostenloser Fehlende-Teile Generator | LCS',
+    titleTag: 'Kostenloser Fehlende-Teile Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Fehlende-Teile-Rätsel Generator — Puzzle-Rätsel mit Themenbildern sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 

@@ -9,7 +9,7 @@ const content: BlogContent = {
       'paso crear fotos listing',
     ],
     lsiKeywords: ['investigacion palabras clave tips', 'como investigacion palabras', 'Etsy imprimibles facil'],
-    titleTag: 'Investigacion de Palabras Clave Etsy | LCS',
+    titleTag: 'Investigacion de Palabras Clave Etsy | LessonCraftStudio',
     metaDescription: 'La investigacion de palabras clave es el primer paso antes de crear cualquier producto. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

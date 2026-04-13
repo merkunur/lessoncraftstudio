@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Rastergrößen Lösungsschlüssel druckfertig',
       '300 DPI PDF Themenbilder',
     ],
-    titleTag: 'Mathe-Rätsel erstellen | Anleitung | LCS',
+    titleTag: 'Mathe-Rätsel erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Mathe-Rätseln. Kinder lösen Gleichungen und setzen Bilder zusammen. Rastergrößen und Lösungsschlüssel. Kostenlos testen.',
   },
 

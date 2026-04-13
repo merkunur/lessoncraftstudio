@@ -8,7 +8,7 @@ const content: BlogContent = {
       'spesialisert generator vs designverktøy',
     ],
     lsiKeywords: ['arbeidsark produksjon hastighet', 'arbeidsark verktøy sammenligning', 'Canva vs generator lønnsomhet'],
-    titleTag: 'Arbeidsark-generator vs Canva | LCS',
+    titleTag: 'Arbeidsark-generator vs Canva | LessonCraftStudio',
     metaDescription: 'Sammenlign arbeidsark-generator og Canva for hastighet, kvalitet og lønnsomhet. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

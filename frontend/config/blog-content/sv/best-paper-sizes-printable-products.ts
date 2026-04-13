@@ -13,7 +13,7 @@ const content: BlogContent = {
       'utskriftsformat Europa vs USA',
       'rätt storlek digitala produkter',
     ],
-    titleTag: 'A4 vs Letter: Rätt Format för Printables | LCS',
+    titleTag: 'A4 vs Letter: Rätt Format för Printables | LessonCraftStudio',
     metaDescription: 'Fel pappersstorlek kostar försäljning. Lär dig välja A4 eller Letter för dina printables och nå både svenska och internationella köpare.',
   },
   hero: {

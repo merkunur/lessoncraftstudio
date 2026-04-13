@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'fichas intruso vender pensamiento crítico 2026',
     secondaryKeywords: ['vender fichas intruso Etsy niños', 'odd one out worksheets sell critical thinking', 'fichas cuál no pertenece negocio'],
     lsiKeywords: ['fichas pensamiento crítico infantil', 'imprimibles lógica razonamiento niños', 'odd one out printables business'],
-    titleTag: 'Fichas del Intruso: Vender Pensamiento Crítico | LCS',
+    titleTag: 'Fichas del Intruso: Vender Pensamiento Crítico | LessonCraftStudio',
     metaDescription: 'Las fichas del intruso enseñan pensamiento crítico, una habilidad premium que padres buscan activamente. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

@@ -15,7 +15,7 @@ const content: GuideContent = {
       'amazon.it activity books',
       'Italian market printables',
     ],
-    titleTag: 'Sell Italian Printables Etsy Guide | LCS',
+    titleTag: 'Sell Italian Printables Etsy Guide | LessonCraftStudio',
     metaDescription: 'How to sell Italian printables Etsy and Amazon IT. Word search, crossword, coloring worksheets with accented characters. 11 languages. Try free trial.',
   },
 

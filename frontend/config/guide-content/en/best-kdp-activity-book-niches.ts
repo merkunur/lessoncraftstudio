@@ -14,7 +14,7 @@ const content: GuideContent = {
       'KDP BSR niche validation',
       'self-publishing niche profitability',
     ],
-    titleTag: 'Best KDP Activity Book Niches (2026) | LCS',
+    titleTag: 'Best KDP Activity Book Niches (2026) | LessonCraftStudio',
     metaDescription: 'Find the best KDP activity book niches in 2026. Low-competition categories with strong demand, validated with BSR data and revenue estimates.',
   },
 

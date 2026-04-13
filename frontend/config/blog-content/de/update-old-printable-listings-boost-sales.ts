@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'alte Listings auffrischen Verkaeufe steigern 24 Stunden',
     secondaryKeywords: ['Alte Listings auffrischen Anleitung', 'Druckvorlagen Alte Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Alte Listings auffrischen: Mehr Verkaeufe | LCS',
+    titleTag: 'Alte Listings auffrischen: Mehr Verkaeufe | LessonCraftStudio',
     metaDescription: 'Wie Sie bestehende Etsy-Listings optimieren und in 24 Stunden mehr Verkaeufe erzielen. Titel, Tags, Fotos und Preise anpassen.',
   },
   hero: {

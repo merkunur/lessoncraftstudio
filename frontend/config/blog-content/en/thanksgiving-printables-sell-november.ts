@@ -13,7 +13,7 @@ const content: BlogContent = {
       'gratitude printables november market',
       'november printable sales strategy',
     ],
-    titleTag: 'Thanksgiving Printables: November Sales Max | LCS',
+    titleTag: 'Thanksgiving Printables: November Sales Max | LessonCraftStudio',
     metaDescription: 'Thanksgiving printables drive strong November sales. Learn which products sell, listing timelines, and how to bridge into Christmas revenue.',
   },
   hero: {

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'finmotorik aktiviteter printables',
     secondaryKeywords: ['finmotorik aktiviteter printables Etsy', 'finmotorik aktiviteter printables online', 'finmotorik aktiviteter printables forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Finmotorik-Printables: Et Marked Forældre Elsker | LCS',
+    titleTag: 'Finmotorik-Printables: Et Marked Forældre Elsker | LessonCraftStudio',
     metaDescription: 'Finmotorik-aktiviteter er blandt de mest søgte printable-kategorier for børn 2-6 år. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

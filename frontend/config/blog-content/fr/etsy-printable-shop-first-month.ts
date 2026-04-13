@@ -13,7 +13,7 @@ const content: BlogContent = {
       'premières ventes fiches pédagogiques',
       'nouveau vendeur imprimables attentes',
     ],
-    titleTag: 'Premier mois sur Etsy : à quoi s\'attendre | LCS',
+    titleTag: 'Premier mois sur Etsy : à quoi s\'attendre | LessonCraftStudio',
     metaDescription: 'Ce qui vous attend réellement lors de votre premier mois de vente d\'imprimables sur Etsy. Calendrier, jalons et métriques qui comptent vraiment.',
   },
   hero: {

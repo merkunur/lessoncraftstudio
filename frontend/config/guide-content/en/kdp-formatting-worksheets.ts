@@ -14,7 +14,7 @@ const content: GuideContent = {
       'activity book page layout setup',
       'self-publishing print specifications',
     ],
-    titleTag: 'KDP Formatting Guide for Worksheets | LCS',
+    titleTag: 'KDP Formatting Guide for Worksheets | LessonCraftStudio',
     metaDescription: 'KDP formatting guide for worksheets. Trim sizes, margins, bleed, and PDF specs to publish professional activity books on Amazon KDP.',
   },
 

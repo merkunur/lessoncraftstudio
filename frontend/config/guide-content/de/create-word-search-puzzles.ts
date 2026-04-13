@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Rätselgitter Buchstaben horizontale diagonale Richtungen',
       'Wortsuchrätsel elf Sprachen Etsy KDP Gumroad',
     ],
-    titleTag: 'Suchsel erstellen Anleitung | LCS',
+    titleTag: 'Suchsel erstellen Anleitung | LessonCraftStudio',
     metaDescription: 'Suchsel erstellen: Schritt-für-Schritt-Anleitung mit Bildhinweisen, konfigurierbarer Rastergröße und farbcodiertem Lösungsschlüssel. Druckfertige PDFs in 11 Sprachen.',
   },
 

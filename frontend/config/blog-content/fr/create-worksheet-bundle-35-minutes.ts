@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode créer',
       'astuces créer bundle',
     ],
-    titleTag: 'Créer un bundle de fiches en 35 minutes | LCS',
+    titleTag: 'Créer un bundle de fiches en 35 minutes | LessonCraftStudio',
     metaDescription: 'Tutoriel pas à pas pour créer un bundle d\'imprimables complet en 35 minutes avec des générateurs. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

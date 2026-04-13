@@ -13,7 +13,7 @@ const content: BlogContent = {
       'inventaire optimal Etsy imprimables',
       'quantité produits numériques Etsy',
     ],
-    titleTag: 'Combien de fiches Etsy pour réussir ? | LCS',
+    titleTag: 'Combien de fiches Etsy pour réussir ? | LessonCraftStudio',
     metaDescription: 'Le nombre exact de fiches nécessaires pour atteindre la rentabilité sur Etsy. Données réelles et stratégie de croissance par paliers.',
   },
   hero: {

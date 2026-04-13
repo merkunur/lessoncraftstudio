@@ -20,7 +20,7 @@ const content: ToolContent = {
       'motricité fine',
       'lettres',
     ],
-    titleTag: 'Générateur fiches graphisme gratuit en ligne | LCS',
+    titleTag: 'Générateur fiches graphisme gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de fiches de graphisme et écriture gratuit — créez des exercices de tracé en ligne, sans inscription. 11 langues, PDF 300 DPI. Licence commerciale pour vendeurs.',
   },
 

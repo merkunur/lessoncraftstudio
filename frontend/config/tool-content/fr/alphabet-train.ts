@@ -19,7 +19,7 @@ const content: ToolContent = {  seo: {
       'reconnaissance',
       'ABC',
     ],
-    titleTag: 'Générateur fiches alphabet gratuit en ligne | LCS',
+    titleTag: 'Générateur fiches alphabet gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de fiches d\'alphabet gratuit — créez des exercices de reconnaissance des lettres en ligne, sans inscription. Images thématiques, 11 langues. Licence commerciale.',
   },
 

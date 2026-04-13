@@ -14,7 +14,7 @@ const content: GuideContent = {
       'themed coloring book templates',
       'print-ready coloring PDFs',
     ],
-    titleTag: 'Create Coloring Pages to Sell on Etsy & KDP | LCS',
+    titleTag: 'Create Coloring Pages to Sell on Etsy & KDP | LessonCraftStudio',
     metaDescription: 'Create coloring pages that sell. Themed designs, grayscale export, seasonal timing. Guide for Etsy, KDP, and TPT sellers. Try our tool free.',
   },
 

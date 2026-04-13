@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede italiano per stranieri da stampare | LCS',
+    titleTag: 'Schede italiano per stranieri da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede di italiano per stranieri (L2) da stampare: vocabolario illustrato, crucipuzzle, abbinamento e attività visive per studenti di italiano.',
     primaryKeyword: 'schede italiano per stranieri da stampare',
     secondaryKeywords: [

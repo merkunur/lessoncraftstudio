@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles actividades fichas', 'vender imprimibles imprimibles', 'viaje ninos educativos'],
-    titleTag: 'Imprimibles de Actividades para Viajes | LCS',
+    titleTag: 'Imprimibles de Actividades para Viajes | LessonCraftStudio',
     metaDescription: 'Los viajes largos con ninos son un desafio universal. Los padres buscan actividades portatiles que mantengan a los. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

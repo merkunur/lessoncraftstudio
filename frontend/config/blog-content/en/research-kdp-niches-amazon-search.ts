@@ -15,7 +15,7 @@ const content: BlogContent = {
       'KDP keyword research method',
       'profitable activity book niches',
     ],
-    titleTag: 'How to Research KDP Niches Using Amazon Search: Step-by-Step | LCS',
+    titleTag: 'How to Research KDP Niches Using Amazon Search: Step-by-Step | LessonCraftStudio',
     metaDescription: 'A step-by-step methodology for finding profitable KDP niches using Amazon search data. Learn to analyze demand, competition, and revenue potential before publishing.',
   },
   hero: {

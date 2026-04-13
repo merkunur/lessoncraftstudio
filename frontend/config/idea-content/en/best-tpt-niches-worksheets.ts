@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Best TPT Niches for Worksheet Sellers | LCS',
+    titleTag: 'Best TPT Niches for Worksheet Sellers | LessonCraftStudio',
     metaDescription: 'Best TPT niches for worksheet sellers in 2026. High-demand categories, low-competition sub-niches, and product strategies for Teachers Pay Teachers success.',
 
     primaryKeyword: 'best tpt niches worksheets',

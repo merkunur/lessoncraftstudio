@@ -14,7 +14,7 @@ const content: GuideContent = {
       'vocabulary puzzle templates',
       'multilingual crossword printables',
     ],
-    titleTag: 'Create Crossword Puzzles to Sell Online | LCS',
+    titleTag: 'Create Crossword Puzzles to Sell Online | LessonCraftStudio',
     metaDescription: 'Create crossword puzzles that sell. Picture clues, 11 languages, auto answer keys. Guide for Etsy, KDP, and TPT sellers. Try our tool free.',
   },
 

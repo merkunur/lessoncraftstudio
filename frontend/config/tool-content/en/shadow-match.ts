@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant shadow matching maker',
       'try before you buy matching tools',
     ],
-    titleTag: 'Free Shadow Matching Worksheet Generator | LCS',
+    titleTag: 'Free Shadow Matching Worksheet Generator | LessonCraftStudio',
     metaDescription: 'Make shadow matching worksheets free online with watermark — no signup. Silhouette puzzles, auto answer keys, 104 themes. Upgrade for commercial license.',
   },
 

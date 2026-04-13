@@ -13,7 +13,7 @@ const content: BlogContent = {
       'sudoku books for seniors sell',
       'adult word puzzle market',
     ],
-    titleTag: 'Adult Puzzle Book Niches on KDP: Cryptograms, Sudoku & More | LCS',
+    titleTag: 'Adult Puzzle Book Niches on KDP: Cryptograms, Sudoku & More | LessonCraftStudio',
     metaDescription: 'Adult puzzle books are a growing KDP niche with loyal repeat buyers. Analysis of cryptograms, word searches, sudoku for seniors, and brain training books.',
   },
   hero: {

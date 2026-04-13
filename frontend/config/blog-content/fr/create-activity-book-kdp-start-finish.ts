@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode créer',
       'astuces créer cahier',
     ],
-    titleTag: 'Créer un cahier d\'activités KDP de A à Z | LCS',
+    titleTag: 'Créer un cahier d\'activités KDP de A à Z | LessonCraftStudio',
     metaDescription: 'Guide complet pour créer et publier un cahier d\'activités sur Amazon KDP. De la conception à la vente.',
   },
   hero: {

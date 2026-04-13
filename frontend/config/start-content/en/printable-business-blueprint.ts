@@ -15,7 +15,7 @@ const content: StartContent = {
       'digital product roadmap',
       'printable income blueprint',
     ],
-    titleTag: 'Printable Business Blueprint: Idea to Income | LCS',
+    titleTag: 'Printable Business Blueprint: Idea to Income | LessonCraftStudio',
     metaDescription: 'Your printable business blueprint from idea to income. Step-by-step roadmap covering niche selection, product creation, launch, and scaling strategies.',
   },
 

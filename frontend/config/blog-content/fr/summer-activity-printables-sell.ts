@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances activités',
       'demande fiches imprimables activités',
     ],
-    titleTag: 'Imprimables d\'été : cahiers de vacances | LCS',
+    titleTag: 'Imprimables d\'été : cahiers de vacances | LessonCraftStudio',
     metaDescription: 'Les cahiers de vacances et activités d\'été sont un créneau clé. Comment créer et vendre des imprimables estivaux.',
   },
   hero: {

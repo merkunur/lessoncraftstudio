@@ -13,7 +13,7 @@ const content: BlogContent = {
       'homeschool curriculum digital downloads',
       'homeschool co-op worksheet demand',
     ],
-    titleTag: 'Homeschool Printables: A Growing Market 2026 | LCS',
+    titleTag: 'Homeschool Printables: A Growing Market 2026 | LessonCraftStudio',
     metaDescription: 'The homeschool market grows 8-10% annually. Learn how to sell printables to homeschool families, what they buy, and pricing strategies.',
   },
   hero: {

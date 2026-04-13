@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok visuell perception arbetsbok',
       'kommersiell licens skuggmatchning verktyg facit',
     ],
-    titleTag: 'Skapa skuggmatchning att skriva ut | LCS',
+    titleTag: 'Skapa skuggmatchning att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa skuggmatchningsarbetsblad att skriva ut med silhuetter och delad-bild-läge. Automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 

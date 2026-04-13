@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'førskole printable printables top bestsellere',
     secondaryKeywords: ['førskole printables bestsellere Etsy', 'førskole printables bestsellere online', 'førskole printables bestsellere forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Førskole-Printables: Top Bestsellere | LCS',
+    titleTag: 'Førskole-Printables: Top Bestsellere | LessonCraftStudio',
     metaDescription: 'Førskole-forældre (børn 3-5 år) er det mest aktive købersegment i printable-markedet. De søger aktivt efter aktiviteter der forbereder barnet til børnehave',
   },
   hero: {

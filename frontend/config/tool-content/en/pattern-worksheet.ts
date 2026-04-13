@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant pattern maker',
       'try before you buy sequence tools',
     ],
-    titleTag: 'Free Pattern Recognition Worksheet Generator | LCS',
+    titleTag: 'Free Pattern Recognition Worksheet Generator | LessonCraftStudio',
     metaDescription: 'Make pattern recognition worksheets free online with watermark — no signup. Visual sequences, themed images, answer keys. Upgrade for commercial license.',
   },
 

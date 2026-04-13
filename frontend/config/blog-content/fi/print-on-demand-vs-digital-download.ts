@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digitaalinen jakelu Etsy',
       'fyysiset vs digitaaliset tuotteet',
     ],
-    titleTag: 'Tilauspaino vai digitaalinen lataus? | LCS',
+    titleTag: 'Tilauspaino vai digitaalinen lataus? | LessonCraftStudio',
     metaDescription: 'Vertaile tilauspaino- ja digitaalisen latauksen malleja. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

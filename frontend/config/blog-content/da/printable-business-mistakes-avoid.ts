@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'printable forretning fejl undgå',
     secondaryKeywords: ['printable forretning fejl undgå Etsy', 'printable forretning fejl undgå online', 'printable forretning fejl undgå forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Printable-Forretning: 10 Fejl at Undgå | LCS',
+    titleTag: 'Printable-Forretning: 10 Fejl at Undgå | LessonCraftStudio',
     metaDescription: 'De mest almindelige fejl nye printable-sælgere begår kan koste dig måneder af tabt tid og tusinder af kroner i tabte salg. Denne guide dækker de 10 mest kr',
   },
   hero: {

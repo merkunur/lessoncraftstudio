@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Word Guess Game Generator — Party Printables | LessonCraftStudio',
-    metaDescription: 'Create hangman-style word guess game printables for Etsy and KDP. Fun party games, themed sets, low competition niche. Commercial license. Try free trial.',
+    titleTag: 'Word Guess Worksheet Generator — Hangman-Style KDP Pages | LessonCraftStudio',
+    metaDescription: 'Create hangman-style word guess worksheets for KDP activity books. Image clues, themed vocabulary, auto answer keys. Commercial license included. Try free.',
   },
 
   hero: {

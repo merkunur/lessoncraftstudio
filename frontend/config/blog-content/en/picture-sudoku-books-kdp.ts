@@ -13,7 +13,7 @@ const content: BlogContent = {
       'KDP puzzle book zero competition',
       'kids logic puzzle book publish',
     ],
-    titleTag: 'Picture Sudoku Books for Kids on KDP | LCS',
+    titleTag: 'Picture Sudoku Books for Kids on KDP | LessonCraftStudio',
     metaDescription: 'Picture sudoku books for kids are a KDP niche with near-zero competition. Learn how to publish visual logic puzzle books that earn passive royalties.',
   },
   hero: {

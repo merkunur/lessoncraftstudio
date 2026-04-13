@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Weihnachts-Raetsel PDF verkaufen',
       'Advents-Arbeitsblaetter Kinder',
     ],
-    titleTag: 'Beste Druckvorlagen fuer Weihnachten 2026 verkaufen | LCS',
+    titleTag: 'Beste Druckvorlagen fuer Weihnachten 2026 verkaufen | LessonCraftStudio',
     metaDescription: 'Die profitabelsten Weihnachts-Druckvorlagen 2026: Adventskalender, Nikolaus-Raetsel, Winterthemen. So maximieren Sie Ihre Dezember-Verkaeufe auf Etsy.de.',
   },
   hero: {

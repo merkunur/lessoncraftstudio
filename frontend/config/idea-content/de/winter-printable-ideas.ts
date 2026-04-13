@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'November-Februar saisonale Nachfrage',
       'Kaltwetter-Nische Druckvorlagen Etsy-Shop',
     ],
-    titleTag: 'Winter-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Winter-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Winter-Druckvorlagen als profitable Etsy-Nische entdecken. Schneeflocken, Schneemänner und Pinguine — November-Februar-Strategien für Ihren Druckvorlagen-Shop.',
   },
   hero: {

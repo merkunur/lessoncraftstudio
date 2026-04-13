@@ -13,7 +13,7 @@ const content: BlogContent = {
       'activity book trim size KDP',
       'self-publish activity book Amazon',
     ],
-    titleTag: 'KDP Activity Book Formatting Guide | LCS',
+    titleTag: 'KDP Activity Book Formatting Guide | LessonCraftStudio',
     metaDescription: 'Step-by-step guide to formatting activity books for Amazon KDP. Trim sizes, margins, page counts, and cover specs for puzzle and worksheet books.',
   },
   hero: {

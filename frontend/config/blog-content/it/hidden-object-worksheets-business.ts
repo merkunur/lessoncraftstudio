@@ -17,7 +17,7 @@ const content: BlogContent = {
       'trova',
       'visivo',
     ],
-    titleTag: 'Schede Trova Oggetti Nascosti da Stampare | LCS',
+    titleTag: 'Schede Trova Oggetti Nascosti da Stampare | LessonCraftStudio',
     metaDescription: 'Schede trova gli oggetti nascosti da stampare per bambini. Giochi di osservazione e attenzione visiva con LessonCraftStudio — 33 generatori.',
   },
   hero: {

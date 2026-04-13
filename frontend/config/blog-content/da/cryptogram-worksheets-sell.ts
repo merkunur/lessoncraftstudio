@@ -13,7 +13,7 @@ const content: BlogContent = {
       'chifferskrift arbejdsark printbar',
       'hemmelig besked puslespil børn',
     ],
-    titleTag: 'Sælg Kryptogram-Arbejdsark Online | LCS',
+    titleTag: 'Sælg Kryptogram-Arbejdsark Online | LessonCraftStudio',
     metaDescription: 'Kryptogrammer er en unik niche med lav konkurrence. Lær at oprette og sælge kode-knæknings-arbejdsark der tiltrækker forældre og lærere.',
   },
   hero: {

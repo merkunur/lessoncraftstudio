@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'B2B-Vertrieb Druckvorlagen Premium-Preise',
       'Schullizenz-Geschäftsmodell Jahresvereinbarungen',
     ],
-    titleTag: 'Mengenlizenzen Druckvorlagen Idee | LCS',
+    titleTag: 'Mengenlizenzen Druckvorlagen Idee | LessonCraftStudio',
     metaDescription: 'Mengenlizenzen für Druckvorlagen als Geschäftsidee entdecken. Volumenlizenz-Modell für Schulen und Bildungseinrichtungen mit Premium-Preisen und wiederkehrenden Einnahmen.',
   },
   hero: {

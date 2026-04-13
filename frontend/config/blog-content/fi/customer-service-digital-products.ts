@@ -13,7 +13,7 @@ const content: BlogContent = {
       'usein kysytyt kysymykset tulosteet',
       'palautuskäytäntö digitaaliset',
     ],
-    titleTag: 'Asiakaspalvelu digitaalisille tuotteille | LCS',
+    titleTag: 'Asiakaspalvelu digitaalisille tuotteille | LessonCraftStudio',
     metaDescription: 'Järjestä asiakaspalvelu digitaalisille tuotteille tehokkaasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Bildungsmarkt-Bereich Suchoptimierung Kategorien',
       'geringe Konkurrenz fruehe Teilnehmer Katalog-Skalierung',
     ],
-    titleTag: 'Druckvorlagen auf Creative Fabrica | LCS',
+    titleTag: 'Druckvorlagen auf Creative Fabrica | LessonCraftStudio',
     metaDescription: 'Druckvorlagen auf Creative Fabrica verkaufen: Designer-Konto einrichten, Abo- und Einzelverkauf-Einnahmen nutzen und den Bildungsbereich mit geringer Konkurrenz erschliessen.',
   },
 

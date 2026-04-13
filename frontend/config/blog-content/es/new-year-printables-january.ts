@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles Ano fichas', 'vender imprimibles imprimibles', 'Reyes enero educativos'],
-    titleTag: 'Imprimibles de Ano Nuevo y Dia de Reyes | LCS',
+    titleTag: 'Imprimibles de Ano Nuevo y Dia de Reyes | LessonCraftStudio',
     metaDescription: 'Enero combina el Ano Nuevo con el Dia de Reyes (6 de enero), creando una temporada de ventas que muchos vendedores de imprimibles pasan por alto. Las ficha',
   },
   hero: {

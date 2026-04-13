@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Etsy Tags Angebotsoptimierung',
       'Malvorlagen-Bündel Preisstrategie',
     ],
-    titleTag: 'Ausmalbilder auf Etsy verkaufen | Anleitung | LCS',
+    titleTag: 'Ausmalbilder auf Etsy verkaufen | Anleitung | LessonCraftStudio',
     metaDescription: 'Ausmalbilder auf Etsy verkaufen: 104 Bildthemen, S/W-Export, Etsy-SEO mit allen 13 Tags und saisonale Verkaufsstrategie für Ihren Malvorlagen-Shop. Kostenlos testen.',
   },
 

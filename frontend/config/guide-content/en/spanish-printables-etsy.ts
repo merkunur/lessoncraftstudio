@@ -15,7 +15,7 @@ const content: GuideContent = {
       'amazon.es activity books',
       'Latin American printable market',
     ],
-    titleTag: 'Sell Spanish Printables Etsy Guide | LCS',
+    titleTag: 'Sell Spanish Printables Etsy Guide | LessonCraftStudio',
     metaDescription: 'How to sell Spanish printables Etsy and Amazon. Word search, math, coloring worksheets for 500M+ speakers. 11-language generator. Try free trial.',
   },
 

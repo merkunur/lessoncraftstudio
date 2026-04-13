@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances Saint-Valentin',
       'demande fiches imprimables Saint-Valentin',
     ],
-    titleTag: 'Imprimables Saint-Valentin qui se vendent | LCS',
+    titleTag: 'Imprimables Saint-Valentin qui se vendent | LessonCraftStudio',
     metaDescription: 'Créez et vendez des imprimables de Saint-Valentin. Types de produits, timing et adaptation au marché français.',
   },
   hero: {

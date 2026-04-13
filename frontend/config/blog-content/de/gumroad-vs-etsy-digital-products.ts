@@ -13,7 +13,7 @@ const content: BlogContent = {
       'eigener Shop vs Marktplatz',
       'digitale Produkte Verkaufsplattform',
     ],
-    titleTag: 'Gumroad vs Etsy: Digitale Produkte Vergleich | LCS',
+    titleTag: 'Gumroad vs Etsy: Digitale Produkte Vergleich | LessonCraftStudio',
     metaDescription: 'Gumroad oder Etsy fuer digitale Druckvorlagen? Gebuehren, Traffic, Kontrolle und die richtige Wahl fuer Ihr Geschaeft.',
   },
   hero: {

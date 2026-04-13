@@ -15,7 +15,7 @@ const content: GuideContent = {
       'stroke order guide arrows',
       'fading trace worksheets',
     ],
-    titleTag: 'Writing Worksheet Generator for Etsy | LCS',
+    titleTag: 'Writing Worksheet Generator for Etsy | LessonCraftStudio',
     metaDescription: 'Create handwriting worksheets for Etsy with 3 progressive modes, 5 font styles, arrow stroke guides, and 104 themes. 300 DPI print-ready PDFs. Try free trial with watermark.',
   },
 

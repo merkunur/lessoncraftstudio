@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Marktluecke Arbeitsblaetter',
       'Low Competition Printable Niches',
     ],
-    titleTag: '15 Druckvorlagen-Nischen mit wenig Konkurrenz | LCS',
+    titleTag: '15 Druckvorlagen-Nischen mit wenig Konkurrenz | LessonCraftStudio',
     metaDescription: '15 profitable Druckvorlagen-Nischen mit wenig Konkurrenz auf Etsy.de 2026. Daten-basierte Auswahl fuer den DACH-Markt.',
   },
   hero: {

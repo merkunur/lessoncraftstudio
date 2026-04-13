@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable subtraction bundle',
       'digital math products sell',
     ],
-    titleTag: 'Sell Subtraction Worksheets Online | LCS',
+    titleTag: 'Sell Subtraction Worksheets Online | LessonCraftStudio',
     metaDescription: 'Discover what actually works for selling subtraction worksheets online. Pricing, bundling, and niche strategies for Etsy and KDP sellers.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Transportmittel-Thema Kinder-Druckvorlagen',
       'Evergreen Fahrzeuge-Nische Etsy-Shop',
     ],
-    titleTag: 'Fahrzeuge-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Fahrzeuge-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Fahrzeuge-Druckvorlagen als profitable Etsy-Nische entdecken. Autos, Züge und Flugzeuge als Evergreen-Thema — Produktkonzepte und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {

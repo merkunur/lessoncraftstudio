@@ -17,7 +17,7 @@ const content: BlogContent = {
       'font',
       'professionale',
     ],
-    titleTag: 'Design Schede Didattiche: Consigli Pratici | LCS',
+    titleTag: 'Design Schede Didattiche: Consigli Pratici | LessonCraftStudio',
     metaDescription: 'Consigli di design per creare schede didattiche professionali e accattivanti. Layout e grafica con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

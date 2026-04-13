@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok rumsligt språk flerspråkig',
       'kommersiell licens prepositionsverktyg facit 11 språk',
     ],
-    titleTag: 'Skapa prepositionsövningar att skriva ut | LCS',
+    titleTag: 'Skapa prepositionsövningar att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa prepositionsarbetsblad att skriva ut med scenbilder, två övningslägen och facit. Flerspråkig. Sälj på Etsy och Amazon KDP.',
   },
 

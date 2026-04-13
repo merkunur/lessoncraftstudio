@@ -9,7 +9,7 @@ const content: BlogContent = {
       'mejor uso plataforma',
     ],
     lsiKeywords: ['Gumroad vs analisis', 'comparacion plataformas imprimibles', 'vender fichas online'],
-    titleTag: 'Gumroad vs Etsy: Donde Vender sus Imprimibles | LCS',
+    titleTag: 'Gumroad vs Etsy: Donde Vender sus Imprimibles | LessonCraftStudio',
     metaDescription: 'Comparacion detallada entre Gumroad y Etsy para vender imprimibles. Comisiones, trafico, control y cual es mejor para su negocio.',
   },
   hero: {

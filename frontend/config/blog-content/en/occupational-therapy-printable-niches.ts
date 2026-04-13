@@ -15,7 +15,7 @@ const content: BlogContent = {
       'OT activity sheets market',
       'pediatric therapy printables',
     ],
-    titleTag: 'Occupational Therapy Printable Niches: Fine Motor, Visual Perception & More | LCS',
+    titleTag: 'Occupational Therapy Printable Niches: Fine Motor, Visual Perception & More | LessonCraftStudio',
     metaDescription: 'OT printables are a high-value, low-competition niche. Learn which occupational therapy sub-niches sell best and how to create fine motor and visual perception worksheets.',
   },
   hero: {

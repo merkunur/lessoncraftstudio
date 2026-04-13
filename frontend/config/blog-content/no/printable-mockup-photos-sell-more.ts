@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'mockup-bilder arbeidsark Etsy klikkfrekvens selge mer',
     secondaryKeywords: ['mockup bilder digitale produkter Etsy tips', 'annonsebilder arbeidsark høyere konvertering', 'profesjonelle mockups arbeidsark butikk'],
     lsiKeywords: ['mockup bilder Etsy konvertering', 'annonsebilder digitale produkter', 'klikkfrekvens arbeidsark butikk'],
-    titleTag: 'Mockup-bilder som selger mer arbeidsark | LCS',
+    titleTag: 'Mockup-bilder som selger mer arbeidsark | LessonCraftStudio',
     metaDescription: 'Profesjonelle mockup-bilder dobler klikkfrekvensen på Etsy-annonser. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

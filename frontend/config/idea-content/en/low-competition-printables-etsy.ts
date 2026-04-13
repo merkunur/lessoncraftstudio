@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Low-Competition Printable Ideas for Etsy | LCS',
+    titleTag: 'Low-Competition Printable Ideas for Etsy | LessonCraftStudio',
     metaDescription: 'Low-competition printable ideas for Etsy sellers. Underserved niches with proven demand, realistic pricing, and generator tools to create products fast.',
 
     primaryKeyword: 'low competition printables etsy',

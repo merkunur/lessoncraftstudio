@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Vorschulalter visuelles Lernen Arbeitsblätter',
       'größte Nische Bildungsmarkt Druckvorlagen',
     ],
-    titleTag: 'Vorschul-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Vorschul-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Vorschul-Druckvorlagen als profitable Etsy-Nische entdecken. Größte Nische im Bildungsmarkt für Drei- bis Fünfjährige — Produktideen und Strategien für Verkäufer.',
   },
   hero: {

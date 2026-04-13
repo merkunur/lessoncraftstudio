@@ -13,7 +13,7 @@ const content: BlogContent = {
       'sample pages marketing strategy',
       'printable shop customer acquisition',
     ],
-    titleTag: 'Free Samples as Lead Magnets for Printable Shops | LCS',
+    titleTag: 'Free Samples as Lead Magnets for Printable Shops | LessonCraftStudio',
     metaDescription: 'Use free sample worksheets as lead magnets to build your email list and drive repeat printable sales. Step-by-step strategy for Etsy sellers.',
   },
   hero: {

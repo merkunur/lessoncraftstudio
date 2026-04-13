@@ -15,7 +15,7 @@ const content: GuideContent = {
       'vocabulary puzzle worksheets Etsy',
       'educational word game printables',
     ],
-    titleTag: 'Sell Word Scramble Puzzles on Etsy | LCS',
+    titleTag: 'Sell Word Scramble Puzzles on Etsy | LessonCraftStudio',
     metaDescription: 'How to sell word scramble puzzles on Etsy. 4 difficulty levels, vowel-consonant color coding, themed puzzles from 104 collections, and listing optimization strategies.',
   },
 

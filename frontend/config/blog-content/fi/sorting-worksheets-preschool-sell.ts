@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ryhmittely harjoitukset tulosteet',
       'looginen luokittelu esikoulu',
     ],
-    titleTag: 'Lajittelutehtävät esikoululaisille | LCS',
+    titleTag: 'Lajittelutehtävät esikoululaisille | LessonCraftStudio',
     metaDescription: 'Myy lajittelutehtäviä esikouluikäisten vanhemmille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

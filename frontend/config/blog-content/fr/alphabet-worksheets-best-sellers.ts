@@ -13,7 +13,7 @@ const content: BlogContent = {
       'alphabet maternelle imprimables',
       'activités lettres préscolaire business',
     ],
-    titleTag: 'Fiches alphabet : les bestsellers Etsy | LCS',
+    titleTag: 'Fiches alphabet : les bestsellers Etsy | LessonCraftStudio',
     metaDescription: 'Qu\'est-ce qui différencie les fiches alphabet bestsellers sur Etsy ? Analyse des formats, designs et stratégies qui génèrent le plus de ventes en 2026.',
   },
   hero: {

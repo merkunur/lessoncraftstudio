@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'arbejdsark design tips sælg mere',
     secondaryKeywords: ['arbejdsark design tips sælg mere Etsy', 'arbejdsark design tips sælg mere online', 'arbejdsark design tips sælg mere forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Arbejdsark Design-Tips: Sælg Mere | LCS',
+    titleTag: 'Arbejdsark Design-Tips: Sælg Mere | LessonCraftStudio',
     metaDescription: 'Designkvaliteten af dine arbejdsark afgør om kunder køber eller scroller videre. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

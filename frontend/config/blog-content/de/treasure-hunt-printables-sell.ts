@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Schatzsuche-Druckvorlagen Geburtstags-Markt',
     secondaryKeywords: ['Schatzsuche drucken Kindergeburtstag', 'Schnitzeljagd Vorlagen verkaufen Etsy', 'Schatzsuche PDF erstellen Geschaeft'],
     lsiKeywords: ['Kindergeburtstag Spiele drucken', 'Schatzsuche Raetsel Kinder', 'Schnitzeljagd Aufgaben PDF'],
-    titleTag: 'Schatzsuche-Druckvorlagen: Der Geburtstags-Markt | LCS',
+    titleTag: 'Schatzsuche-Druckvorlagen: Der Geburtstags-Markt | LessonCraftStudio',
     metaDescription: 'So verdienen Sie mit Schatzsuche-Druckvorlagen fuer Kindergeburtstage. Der am schnellsten wachsende Party-Markt auf Etsy.de.',
   },
   hero: {

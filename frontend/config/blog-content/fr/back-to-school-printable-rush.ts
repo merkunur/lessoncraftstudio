@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances rentrée',
       'demande fiches ruée rentrée',
     ],
-    titleTag: 'La ruée de la rentrée : imprimables | LCS',
+    titleTag: 'La ruée de la rentrée : imprimables | LessonCraftStudio',
     metaDescription: 'Maximisez vos ventes d\'imprimables pendant la rentrée scolaire de septembre. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

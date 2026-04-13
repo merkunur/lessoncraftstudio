@@ -13,7 +13,7 @@ const content: BlogContent = {
       'paquetes fichas PDF Etsy',
       'agrupar productos digitales ventas',
     ],
-    titleTag: 'Estrategia de Paquetes de Imprimibles en Etsy | LCS',
+    titleTag: 'Estrategia de Paquetes de Imprimibles en Etsy | LessonCraftStudio',
     metaDescription: 'Como crear y vender paquetes de imprimibles que generan el doble de ingresos por venta. Tipos de bundles, precios y estrategias que funcionan en Etsy.',
   },
   hero: {

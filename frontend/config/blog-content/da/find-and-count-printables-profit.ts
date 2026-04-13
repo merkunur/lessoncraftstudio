@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'find og tæl printables fortjeneste',
     secondaryKeywords: ['find og tæl printables fortjeneste Etsy', 'find og tæl printables fortjeneste online', 'find og tæl printables fortjeneste forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Find-og-Tæl Printables: Profitabel Niche | LCS',
+    titleTag: 'Find-og-Tæl Printables: Profitabel Niche | LessonCraftStudio',
     metaDescription: 'Find-og-tæl aktiviteter er en undervurderet niche med stærk pædagogisk appel. Børn scanner et billede, finder specifikke objekter og tæller dem. Det træner',
   },
   hero: {

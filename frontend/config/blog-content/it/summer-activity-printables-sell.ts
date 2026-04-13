@@ -17,7 +17,7 @@ const content: BlogContent = {
       'compiti',
       'luglio',
     ],
-    titleTag: 'Schede Attività Estive Bambini da Stampare | LCS',
+    titleTag: 'Schede Attività Estive Bambini da Stampare | LessonCraftStudio',
     metaDescription: 'Schede di attività estive da stampare per bambini. Esercizi di ripasso e giochi divertenti per le vacanze con LessonCraftStudio — 33 generatori.',
   },
   hero: {

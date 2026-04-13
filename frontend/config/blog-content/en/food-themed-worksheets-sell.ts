@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fruit vegetable printables market',
       'cooking themed worksheets profit',
     ],
-    titleTag: 'Food Worksheets: Sell Nutrition Printables | LCS',
+    titleTag: 'Food Worksheets: Sell Nutrition Printables | LessonCraftStudio',
     metaDescription: 'Food-themed worksheets sell to parents, teachers, and nutritionists. Learn how to create and price nutrition education printables for this growing niche.',
   },
   hero: {

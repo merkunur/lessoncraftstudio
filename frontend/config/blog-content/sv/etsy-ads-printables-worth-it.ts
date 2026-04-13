@@ -13,7 +13,7 @@ const content: BlogContent = {
       'CPC kostnad per klick printables',
       'organisk vs betald trafik Etsy',
     ],
-    titleTag: 'Etsy Ads för Printables: Värt Pengarna? | LCS',
+    titleTag: 'Etsy Ads för Printables: Värt Pengarna? | LessonCraftStudio',
     metaDescription: 'Är Etsy Ads värt det för printable-säljare? ROI-analys, budgetstrategier och när annonsering lönar sig.',
   },
   hero: {

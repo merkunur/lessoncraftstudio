@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'imprimables multilingue avantage multilingues',
     secondaryKeywords: ['vendre fiches plusieurs langues', 'imprimables multilingues Etsy', 'marché international fiches éducatives'],
     lsiKeywords: ['fiches bilingues vente', 'imprimables français anglais', 'marché mondial imprimables'],
-    titleTag: 'L\'avantage des imprimables multilingues | LCS',
+    titleTag: 'L\'avantage des imprimables multilingues | LessonCraftStudio',
     metaDescription: 'Multipliez vos ventes en proposant des imprimables en plusieurs langues. Le guide du vendeur multilingue sur Etsy et Amazon KDP.',
   },
   hero: {

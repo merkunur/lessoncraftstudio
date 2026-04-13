@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'sammenhængende printable brand opbyg',
     secondaryKeywords: ['sammenhængende printable brand opbyg Etsy', 'sammenhængende printable brand opbyg online', 'sammenhængende printable brand opbyg sælg'],
     lsiKeywords: ['printbar forretning', 'digital download salg', 'Etsy printables'],
-    titleTag: 'Opbyg et Sammenhængende Printable Brand | LCS',
+    titleTag: 'Opbyg et Sammenhængende Printable Brand | LessonCraftStudio',
     metaDescription: 'I et marked med tusindvis af printable-sælgere er dit brand det, der adskiller dig fra mængden. Et sammenhængende brand — med konsistent visuelt design, to',
   },
   hero: {

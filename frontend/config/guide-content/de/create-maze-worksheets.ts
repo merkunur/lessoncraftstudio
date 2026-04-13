@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Themenbilder Lösungsschlüssel druckfertig',
       '3 Spielmodi 300 DPI PDF',
     ],
-    titleTag: 'Labyrinth erstellen | Anleitung | LCS',
+    titleTag: 'Labyrinth erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Labyrinthen. 3 Spielmodi, thematische Bilder und automatische Lösungsschlüssel. Kostenlos testen.',
   },
 

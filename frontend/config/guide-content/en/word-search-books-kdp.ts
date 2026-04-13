@@ -14,7 +14,7 @@ const content: GuideContent = {
       'word puzzle book formatting',
       'themed word search content strategy',
     ],
-    titleTag: 'Word Search Books for KDP: Full Guide | LCS',
+    titleTag: 'Word Search Books for KDP: Full Guide | LessonCraftStudio',
     metaDescription: 'Create word search books for Amazon KDP. Theme selection, difficulty progression, formatting specs, and publishing strategies for word search authors.',
   },
 

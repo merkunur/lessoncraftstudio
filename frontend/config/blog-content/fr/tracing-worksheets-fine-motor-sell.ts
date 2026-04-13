@@ -13,7 +13,7 @@ const content: BlogContent = {
       'pré-écriture fiches vendre',
       'activités motricité fine imprimer',
     ],
-    titleTag: 'Fiches de traçage motricité fine : guide vendeur | LCS',
+    titleTag: 'Fiches de traçage motricité fine : guide vendeur | LessonCraftStudio',
     metaDescription: 'Les fiches de traçage développent la motricité fine et se vendent massivement aux parents et professionnels. Guide complet pour ce marché en 2026.',
   },
   hero: {

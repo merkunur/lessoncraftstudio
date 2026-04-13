@@ -15,7 +15,7 @@ const content: GuideContent = {
       'visual discrimination worksheet',
       'seek and find printable',
     ],
-    titleTag: 'Sell I-Spy Worksheets on Etsy | LCS',
+    titleTag: 'Sell I-Spy Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Create and sell I-Spy hidden object worksheets on Etsy. Visual puzzle niche with strong parent demand for screen-free activities. 104 themes, 11 languages. Step-by-step guide.',
   },
 

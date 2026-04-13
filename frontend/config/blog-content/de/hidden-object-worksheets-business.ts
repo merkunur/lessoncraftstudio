@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Versteckte Gegenstaende finden Arbeitsblatt',
       'Konzentrationsaufgaben drucken',
     ],
-    titleTag: 'Suchbild-Arbeitsblaetter: Skalierbare Produktlinie | LCS',
+    titleTag: 'Suchbild-Arbeitsblaetter: Skalierbare Produktlinie | LessonCraftStudio',
     metaDescription: 'Warum Suchbild-Arbeitsblaetter eine der am besten skalierbaren Produktlinien sind. Themen, Preise und Strategien fuer Etsy.de und KDP.',
   },
   hero: {

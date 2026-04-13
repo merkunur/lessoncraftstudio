@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'print on demand vs digital download',
     secondaryKeywords: ['print on demand vs digital download Etsy', 'print on demand vs digital download online', 'print on demand vs digital download forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Print-on-Demand vs. Digital Download | LCS',
+    titleTag: 'Print-on-Demand vs. Digital Download | LessonCraftStudio',
     metaDescription: 'Print-on-demand (KDP) og digital download (Etsy) er to fundamentalt forskellige forretningsmodeller. Denne guide sammenligner begge modeller specifikt for ',
   },
   hero: {

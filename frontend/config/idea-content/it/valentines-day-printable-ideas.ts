@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede San Valentino da stampare | LCS',
+    titleTag: 'Schede San Valentino da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede di San Valentino da stampare: colorare cuori, crucipuzzle amicizia, conteggio e attività creative a tema amore per bambini 3-8 anni.',
     primaryKeyword: 'schede San Valentino da stampare',
     secondaryKeywords: [

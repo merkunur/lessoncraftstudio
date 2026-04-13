@@ -17,7 +17,7 @@ const content: BlogContent = {
       'layout',
       'stampa',
     ],
-    titleTag: 'Formattazione Libro Attività KDP Bambini | LCS',
+    titleTag: 'Formattazione Libro Attività KDP Bambini | LessonCraftStudio',
     metaDescription: 'Guida alla formattazione di libri di attività per bambini su Amazon KDP. Margini, layout e risoluzione con LessonCraftStudio — 33 generatori.',
   },
   hero: {

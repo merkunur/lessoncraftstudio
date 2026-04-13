@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Christmas Printables to Sell on Etsy | LCS',
+    titleTag: 'Christmas Printables to Sell on Etsy | LessonCraftStudio',
     metaDescription: 'Christmas printable business ideas for Etsy & KDP. Product concepts, release timing, and strategies for the biggest selling season of the year.',
 
     primaryKeyword: 'Christmas printables to sell on Etsy',

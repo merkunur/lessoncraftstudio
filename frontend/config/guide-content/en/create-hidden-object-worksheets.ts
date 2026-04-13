@@ -14,7 +14,7 @@ const content: GuideContent = {
       'hidden object puzzle templates',
       'visual search activity printables',
     ],
-    titleTag: 'Create I Spy Worksheets to Sell on Etsy | LCS',
+    titleTag: 'Create I Spy Worksheets to Sell on Etsy | LessonCraftStudio',
     metaDescription: 'Create I Spy and hidden object worksheets that sell. Themed scenes, zero-overlap layout, answer keys. For Etsy, KDP, and TPT. Try free.',
   },
 

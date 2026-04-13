@@ -17,7 +17,7 @@ const content: BlogContent = {
       'singolo',
       'bundle',
     ],
-    titleTag: 'Prezzo Schede Didattiche da Stampare | LCS',
+    titleTag: 'Prezzo Schede Didattiche da Stampare | LessonCraftStudio',
     metaDescription: 'Guida ai prezzi per schede didattiche da stampare. Quanto costano singoli e pacchetti di esercizi stampabili con LessonCraftStudio — 33 generatori.',
   },
   hero: {

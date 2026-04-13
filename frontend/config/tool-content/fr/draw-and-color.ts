@@ -19,7 +19,7 @@ const content: ToolContent = {
       'créativité',
       'colorier',
     ],
-    titleTag: 'Fiches dessin et coloriage gratuit en ligne | LCS',
+    titleTag: 'Fiches dessin et coloriage gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches de dessin guidé et coloriage gratuitement en ligne — sans inscription. Images thématiques, PDF 300 DPI. Licence commerciale pour Etsy & KDP.',
   },
 

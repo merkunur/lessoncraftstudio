@@ -15,7 +15,7 @@ const content: GuideContent = {
       'plattformübergreifende Lizenzierung Lizenzdokumentation',
       'Lizenzvereinbarung Urheberrecht Wettbewerbsvorteil',
     ],
-    titleTag: 'Kommerzielle Lizenzen für Druckvorlagen | LCS',
+    titleTag: 'Kommerzielle Lizenzen für Druckvorlagen | LessonCraftStudio',
     metaDescription: 'Kommerzielle Lizenzen für Druckvorlagen verstehen: Lizenztypen unterscheiden, häufige Fehler vermeiden und ein Konformitätssystem für Ihr Printable-Business bauen.',
   },
 

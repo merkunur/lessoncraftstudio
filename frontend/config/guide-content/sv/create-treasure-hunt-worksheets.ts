@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok vägfinnare riktningsövning',
       'kommersiell licens skattjakt verktyg flerspråkig facit',
     ],
-    titleTag: 'Skapa skattjakt att skriva ut | LCS',
+    titleTag: 'Skapa skattjakt att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa skattjakt-arbetsblad att skriva ut med 5x5 rutnät, riktningsförflyttningar och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 

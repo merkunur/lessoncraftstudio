@@ -13,7 +13,7 @@ const content: BlogContent = {
       'nyckelord taggar Etsy 2026',
       'synlighet Etsy digitala produkter',
     ],
-    titleTag: 'Etsy SEO för Printable-Säljare 2026 | LCS',
+    titleTag: 'Etsy SEO för Printable-Säljare 2026 | LessonCraftStudio',
     metaDescription: 'Etsy SEO-guide för printable-säljare 2026. Nya algoritmändringar, nyckelordstaktiker och verktyg som fungerar nu.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: StartContent = {
       'tematiska bilder arbetsbladsdesign',
       'tryckfärdiga PDF 300 DPI',
     ],
-    titleTag: 'Skapa arbetsblad som säljer | LCS',
+    titleTag: 'Skapa arbetsblad som säljer | LessonCraftStudio',
     metaDescription: 'Så skapar du professionella arbetsblad som säljer på Etsy och Amazon KDP. Guide om temabilder, facit, paketering och listningsoptimering.',
   },
 

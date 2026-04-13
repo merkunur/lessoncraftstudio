@@ -21,7 +21,7 @@ const content: CompareContent = {
       'answer key generator',
       'multilingual worksheet creator',
     ],
-    titleTag: 'LessonCraftStudio vs Canva for Sellers | LCS',
+    titleTag: 'LessonCraftStudio vs Canva for Sellers | LessonCraftStudio',
     metaDescription: 'LessonCraftStudio vs Canva for printable sellers. 33 puzzle generators vs design templates, auto answer keys vs manual. See which fits your workflow.',
   },
 

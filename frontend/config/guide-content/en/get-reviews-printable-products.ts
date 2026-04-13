@@ -14,7 +14,7 @@ const content: GuideContent = {
       'post-purchase follow up strategy',
       'social proof digital downloads',
     ],
-    titleTag: 'Get More Reviews on Etsy Printables | LCS',
+    titleTag: 'Get More Reviews on Etsy Printables | LessonCraftStudio',
     metaDescription: 'Get more reviews for digital products on Etsy. Ethical strategies to build social proof, improve conversion, and boost your listing visibility.',
   },
 

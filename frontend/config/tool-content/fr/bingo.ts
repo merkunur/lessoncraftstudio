@@ -19,7 +19,7 @@ const content: ToolContent = {  seo: {
       'cartes',
       'tirage',
     ],
-    titleTag: 'Générateur cartes de loto gratuit en ligne | LCS',
+    titleTag: 'Générateur cartes de loto gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de cartes de loto/bingo gratuit — créez des cartes avec 3 000+ images thématiques en ligne, sans inscription. Cartes uniques par set. Licence commerciale.',
     },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'hintaportaat tulosteet',
       'yksittäinen vs paketti Etsy',
     ],
-    titleTag: 'Tulosteiden hinnoittelu Etsyssä | LCS',
+    titleTag: 'Tulosteiden hinnoittelu Etsyssä | LessonCraftStudio',
     metaDescription: 'Optimoi tulosteidesi hinnoittelu Etsyssä strategisesti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

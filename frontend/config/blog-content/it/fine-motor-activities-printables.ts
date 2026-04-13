@@ -17,7 +17,7 @@ const content: BlogContent = {
       'tracciare',
       'impugnatura',
     ],
-    titleTag: 'Attività Motricità Fine da Stampare | LCS',
+    titleTag: 'Attività Motricità Fine da Stampare | LessonCraftStudio',
     metaDescription: 'Attività di motricità fine da stampare per bambini. Pregrafismo, ritaglio e coordinazione occhio-mano con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

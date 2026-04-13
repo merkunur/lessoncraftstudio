@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'zeitlose Erzählthemen Druckvorlagen',
       'Fantasie-Thema Lesekompetenz Nische',
     ],
-    titleTag: 'Märchen-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Märchen-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Märchen-Druckvorlagen als profitable Etsy-Nische entdecken. Zeitlose Erzählthemen mit Prinzessinnen, Drachen und Schlössern — Produktideen und Strategien für Verkäufer.',
   },
   hero: {

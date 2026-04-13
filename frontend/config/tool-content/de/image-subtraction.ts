@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Zehnerübergang',
       'Minusaufgaben',
     ],
-    titleTag: 'Kostenloser Minusaufgaben Generator | LCS',
+    titleTag: 'Kostenloser Minusaufgaben Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Minusaufgaben Generator — Subtraktions-Arbeitsblätter mit Themenbildern sofort erstellen. Ohne Anmeldung. Lizenz für Etsy & KDP.',
   },
 

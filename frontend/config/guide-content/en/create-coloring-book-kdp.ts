@@ -15,7 +15,7 @@ const content: GuideContent = {
       'themed coloring collection',
       'adult coloring book design',
     ],
-    titleTag: 'Create a Coloring Book for Amazon KDP | LCS',
+    titleTag: 'Create a Coloring Book for Amazon KDP | LessonCraftStudio',
     metaDescription: 'Create coloring books for Amazon KDP using the LCS coloring page generator. Themed collections, outline conversion, KDP formatting, cover design. Step-by-step guide. Try free trial.',
   },
 

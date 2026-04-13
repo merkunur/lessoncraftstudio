@@ -13,7 +13,7 @@ const content: BlogContent = {
       'talviaktiviteetit tulostettavia',
       'tammikuun tulostesesonki',
     ],
-    titleTag: 'Uudenvuoden tulosteet tammikuussa | LCS',
+    titleTag: 'Uudenvuoden tulosteet tammikuussa | LessonCraftStudio',
     metaDescription: 'Myy uudenvuoden ja loppiaisen tulosteita tammikuussa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

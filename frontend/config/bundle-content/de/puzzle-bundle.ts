@@ -15,7 +15,7 @@ const content: BundleContent = {
       'Kategorie-Bundle',
       'Bis zu 57% sparen',
     ],
-    titleTag: 'Rätsel-Arbeitsblatt-Bundle | 4 Generatoren | LCS',
+    titleTag: 'Rätsel-Arbeitsblatt-Bundle | 4 Generatoren | LessonCraftStudio',
     metaDescription: 'Rätsel-Bundle mit 4 Generatoren: Muster, Sudoku, Schatzsuche und Was-passt-nicht. Bis zu 57% sparen. Kommerzielle Lizenz inklusive.',
   },
 

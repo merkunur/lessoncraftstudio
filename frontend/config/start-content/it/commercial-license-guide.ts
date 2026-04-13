@@ -16,7 +16,7 @@ const content: StartContent = {
       'generatori',
       'diritti di vendita',
     ],
-    titleTag: 'Guida alla licenza commerciale stampabili | LCS',
+    titleTag: 'Guida alla licenza commerciale stampabili | LessonCraftStudio',
     metaDescription: 'Guida alla licenza commerciale per generatori di schede didattiche: cosa puoi vendere, dove e quale livello scegliere. Prova gratuita con filigrana.',
   },
 

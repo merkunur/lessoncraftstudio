@@ -17,7 +17,7 @@ const content: BlogContent = {
       'soluzioni',
       'tematico',
     ],
-    titleTag: 'Cruciverba Bambini da Stampare con Soluzioni | LCS',
+    titleTag: 'Cruciverba Bambini da Stampare con Soluzioni | LessonCraftStudio',
     metaDescription: 'Cruciverba per bambini da stampare con soluzioni incluse. Parole crociate educative per la scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {

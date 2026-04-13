@@ -13,7 +13,7 @@ const content: BlogContent = {
       'droits créateur imprimables',
       'protection juridique fiches',
     ],
-    titleTag: 'Droit d\'auteur pour vendeurs d\'imprimables | LCS',
+    titleTag: 'Droit d\'auteur pour vendeurs d\'imprimables | LessonCraftStudio',
     metaDescription: 'Protégez vos imprimables avec le droit d\'auteur. Bases juridiques en France, cliparts et que faire en cas de. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

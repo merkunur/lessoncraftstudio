@@ -13,7 +13,7 @@ const content: BlogContent = {
       'asiakastyytyväisyys digitaaliset tuotteet',
       'arvostelut Etsy-kauppa',
     ],
-    titleTag: 'Vastausavain nostaa tulostemyyntiä | LCS',
+    titleTag: 'Vastausavain nostaa tulostemyyntiä | LessonCraftStudio',
     metaDescription: 'Vastausavain nostaa koettua arvoa ja parantaa arvosteluja. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

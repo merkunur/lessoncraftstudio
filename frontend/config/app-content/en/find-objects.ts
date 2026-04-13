@@ -18,8 +18,8 @@ const content: AppContent = {
       'strong parent demand',
       'bulk generation',
     ],
-    titleTag: 'I Spy Book Generator — Hidden Object KDP Books | LessonCraftStudio',
-    metaDescription: 'Create I Spy and hidden object books for KDP and Etsy. 3,000+ themed images, strong parent demand, bulk generate. Commercial license. Try free trial.',
+    titleTag: 'Hidden Objects Worksheet Generator — I Spy KDP Books | LessonCraftStudio',
+    metaDescription: 'Create hidden object (I Spy) worksheets for KDP activity books. Themed scenes, multiple difficulty levels, auto answer keys. Commercial license. Try free.',
   },
 
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'svenska traditioner arbetsblad',
       'nischanalys utskriftsföretag',
     ],
-    titleTag: 'Lönsamma Printable-Nischer 2026 | LCS',
+    titleTag: 'Lönsamma Printable-Nischer 2026 | LessonCraftStudio',
     metaDescription: 'Hitta printable-nischer med låg konkurrens 2026. SFI-material, Lucia-aktiviteter och svenska teman ger svenska säljare en unik fördel.',
   },
   hero: {

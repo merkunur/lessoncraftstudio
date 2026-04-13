@@ -15,7 +15,7 @@ const content: GuideContent = {
       'visual reasoning activity',
       'which one is different worksheet',
     ],
-    titleTag: 'Sell Odd One Out Worksheets on Etsy | LCS',
+    titleTag: 'Sell Odd One Out Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Sell odd one out logic worksheets on Etsy. 2 generation modes, visual-only format, critical thinking niche. Low competition, strong demand. Try free trial.',
   },
 

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'integrazione',
       'vocabolario base',
     ],
-    titleTag: 'Schede Italiano L2 per Stranieri da Stampare | LCS',
+    titleTag: 'Schede Italiano L2 per Stranieri da Stampare | LessonCraftStudio',
     metaDescription: 'Schede di italiano L2 per stranieri da stampare. Esercizi per bambini e adulti non madrelingua con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

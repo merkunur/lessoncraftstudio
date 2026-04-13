@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Paläontologie Urzeit-Thema Druckvorlagen',
       'Evergreen Kinderthema ganzjährige Nachfrage',
     ],
-    titleTag: 'Dinosaurier-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Dinosaurier-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Dinosaurier-Druckvorlagen als profitable Etsy-Nische entdecken. T-Rex bis Stegosaurus — Evergreen-Kinderthema mit ganzjähriger Nachfrage und starkem Wettbewerbsvorteil.',
   },
   hero: {

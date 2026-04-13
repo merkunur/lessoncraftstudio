@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digitale Downloads Etsy Mathematik',
       'Arbeitsblaetter Preisstrategie',
     ],
-    titleTag: 'Additions-Arbeitsblaetter auf Etsy verkaufen | LCS',
+    titleTag: 'Additions-Arbeitsblaetter auf Etsy verkaufen | LessonCraftStudio',
     metaDescription: 'Erfahren Sie, wie Sie Additions-Arbeitsblaetter auf Etsy.de profitabel verkaufen. Preisgestaltung, Bundles und Listing-Strategien fuer den DACH-Markt 2026.',
   },
   hero: {

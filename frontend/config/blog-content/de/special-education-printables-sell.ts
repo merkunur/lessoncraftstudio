@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Dyskalkulie Arbeitsblaetter PDF',
       'differenziertes Material Grundschule',
     ],
-    titleTag: 'Foerdermaterial-Druckvorlagen: Hohe Nachfrage | LCS',
+    titleTag: 'Foerdermaterial-Druckvorlagen: Hohe Nachfrage | LessonCraftStudio',
     metaDescription: 'Foerdermaterial-Druckvorlagen: Eine Premium-Nische mit wenig Konkurrenz. LRS, Dyskalkulie, Inklusion. Wie Sie in den DACH-Foerdermarkt einsteigen.',
   },
   hero: {

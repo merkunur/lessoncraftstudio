@@ -15,7 +15,7 @@ const content: GuideContent = {
       'bundle discount strategy',
       'digital product bundles',
     ],
-    titleTag: 'Sell Worksheet Bundles on Etsy | LCS',
+    titleTag: 'Sell Worksheet Bundles on Etsy | LessonCraftStudio',
     metaDescription: 'Learn how to create and sell profitable printable worksheet bundles on Etsy. Themed bundles, pricing tiers, cross-promotion strategies. Step-by-step guide with 33 generators.',
   },
 

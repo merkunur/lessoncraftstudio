@@ -13,7 +13,7 @@ const content: BlogContent = {
       'mockup réaliste fiches',
       'outils mockup gratuits',
     ],
-    titleTag: 'Photos mockup qui font vendre vos imprimables | LCS',
+    titleTag: 'Photos mockup qui font vendre vos imprimables | LessonCraftStudio',
     metaDescription: 'Créez des photos mockup professionnelles pour vos imprimables. Outils gratuits, techniques et exemples concrets. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

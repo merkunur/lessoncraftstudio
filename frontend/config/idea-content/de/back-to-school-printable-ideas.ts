@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Juli-September saisonale Nachfrage',
       'Back-to-School Arbeitsblätter Etsy-Shop',
     ],
-    titleTag: 'Schulanfang-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Schulanfang-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Schulanfang-Druckvorlagen als profitable Etsy-Nische entdecken. Einschulungs-Produkte mit Schultüten und Schulranzen — saisonale Strategien Juli bis September für Ihren Shop.',
   },
   hero: {

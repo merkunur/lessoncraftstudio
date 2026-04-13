@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk page generation',
       'commercial license',
     ],
-    titleTag: 'Find & Count Book Generator — I Spy Counting KDP | LessonCraftStudio',
-    metaDescription: 'Create I Spy counting books for KDP and Etsy. Preschool niche with high demand, 3,000+ themes, bulk generate. Commercial license. Try free trial.',
+    titleTag: 'Find and Count Worksheet Generator — I Spy Counting for KDP | LessonCraftStudio',
+    metaDescription: 'Create I Spy counting worksheets for KDP preschool books. Find and count themed objects, auto answer keys, 300 DPI PDFs. Commercial license included. Try free.',
   },
 
   hero: {

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'conta',
       'matematica',
     ],
-    titleTag: 'Schede Grafici e Conteggio da Stampare | LCS',
+    titleTag: 'Schede Grafici e Conteggio da Stampare | LessonCraftStudio',
     metaDescription: 'Schede di grafici e conteggio da stampare per la scuola primaria. Esercizi di matematica visiva con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

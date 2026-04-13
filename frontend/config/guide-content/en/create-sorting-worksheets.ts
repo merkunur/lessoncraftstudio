@@ -14,7 +14,7 @@ const content: GuideContent = {
       'cut and sort printable business',
       'early learning classification products',
     ],
-    titleTag: 'Create Sorting Worksheets to Sell | LCS',
+    titleTag: 'Create Sorting Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'Create sorting worksheets that sell. Cut-and-sort format, themed categories, auto answer keys. Build products for Etsy, KDP, and TPT.',
   },
 

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede mondo sottomarino da stampare | LCS',
+    titleTag: 'Schede mondo sottomarino da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede sul mondo sottomarino da stampare: colorare delfini e squali, conteggio pesci, crucipuzzle oceano e attività marine per bambini 3-8 anni.',
     primaryKeyword: 'schede mondo sottomarino da stampare',
     secondaryKeywords: [

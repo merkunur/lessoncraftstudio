@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'bedste papirstørrelse printables letter guide',
     secondaryKeywords: ['A4 vs Letter printbar format', 'papirformat printable Etsy', 'printbar PDF størrelse guide'],
     lsiKeywords: ['printformat valg', 'A4 papir standard', 'PDF dimensioner'],
-    titleTag: 'Bedste Papirstørrelse til Printables | LCS',
+    titleTag: 'Bedste Papirstørrelse til Printables | LessonCraftStudio',
     metaDescription: 'A4 eller Letter? Valg af papirstørrelse påvirker dit salg globalt. Lær hvilket format der sælger bedst i hvert marked.',
   },
   hero: {

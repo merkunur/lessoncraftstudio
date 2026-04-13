@@ -15,7 +15,7 @@ const content: GuideContent = {
       'preschool printable market',
       'toddler activity sheets',
     ],
-    titleTag: 'Shadow Match Generator for Etsy Sellers | LCS',
+    titleTag: 'Shadow Match Generator for Etsy Sellers | LessonCraftStudio',
     metaDescription: 'Create professional shadow matching worksheets for your Etsy shop. Auto-generated silhouettes, Make It Whole mode, 104 themes, 300 DPI. Step-by-step Etsy workflow. Try free trial.',
   },
 

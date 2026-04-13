@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digital product workflow optimization',
       'etsy shop automation tools',
     ],
-    titleTag: 'Scale Your Printable Business Without Burnout | LCS',
+    titleTag: 'Scale Your Printable Business Without Burnout | LessonCraftStudio',
     metaDescription: 'How to scale your printable business with automation, batch workflows, and systems. Go from $500 to $5,000/month without doubling your hours.',
   },
   hero: {

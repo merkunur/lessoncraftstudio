@@ -15,7 +15,7 @@ const content: GuideContent = {
       'immigrant family resources',
       'language learner activity sheets',
     ],
-    titleTag: 'Sell Bilingual Worksheets on Etsy | LCS',
+    titleTag: 'Sell Bilingual Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Create and sell bilingual worksheets on Etsy. Target ESL learners, immigrant families, and bilingual households. 11 languages, dual-language formatting. Try free trial.',
   },
 

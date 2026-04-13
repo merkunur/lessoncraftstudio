@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Amazon vs Etsy Gebuehren',
       'Passive Einnahmen Druckvorlagen',
     ],
-    titleTag: 'KDP vs Etsy: Was verdient mehr? | LCS',
+    titleTag: 'KDP vs Etsy: Was verdient mehr? | LessonCraftStudio',
     metaDescription: 'KDP oder Etsy fuer Druckvorlagen? Ehrlicher Vergleich von Gebuehren, Verdienstpotenzial, Aufwand und idealer Strategie fuer den DACH-Markt.',
   },
   hero: {

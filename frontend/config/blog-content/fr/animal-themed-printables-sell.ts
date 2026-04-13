@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances thème',
       'demande fiches imprimables thème',
     ],
-    titleTag: 'Imprimables thème animaux : un best-seller | LCS',
+    titleTag: 'Imprimables thème animaux : un best-seller | LessonCraftStudio',
     metaDescription: 'Les imprimables sur le thème des animaux sont un best-seller evergreen. Types de fiches et stratégie de vente.',
   },
   hero: {

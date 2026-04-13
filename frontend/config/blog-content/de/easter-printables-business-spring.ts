@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Fruehling Arbeitsblaetter Vorschule',
       'saisonale Druckvorlagen Ostern',
     ],
-    titleTag: 'Oster-Druckvorlagen: Fruehlings-Geschaeftsideen | LCS',
+    titleTag: 'Oster-Druckvorlagen: Fruehlings-Geschaeftsideen | LessonCraftStudio',
     metaDescription: 'Oster-Druckvorlagen fuer den DACH-Markt: Osterhasen-Raetsel, Fruehlings-Mathe und Eiersuche-Aktivitaeten. Ihr Guide fuer die Maerz/April-Saison.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'spring themed worksheets sell',
       'religious easter printables market',
     ],
-    titleTag: 'Easter Printables: Spring Business Ideas | LCS',
+    titleTag: 'Easter Printables: Spring Business Ideas | LessonCraftStudio',
     metaDescription: 'Easter printables convert well in March-April. Learn which spring products sell, how to price bundles, and how to maximize seasonal revenue.',
   },
   hero: {

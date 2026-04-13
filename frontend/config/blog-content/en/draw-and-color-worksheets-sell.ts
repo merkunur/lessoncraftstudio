@@ -13,7 +13,7 @@ const content: BlogContent = {
       'creative art worksheets Etsy',
       'drawing activities printable profit',
     ],
-    titleTag: 'Draw & Color Worksheets: Two Niches in One | LCS',
+    titleTag: 'Draw & Color Worksheets: Two Niches in One | LessonCraftStudio',
     metaDescription: 'Draw and color worksheets combine two bestselling niches into one premium product. Learn how to create and sell these hybrid art activities.',
   },
   hero: {

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'printable spil fødselsdagsfester',
     secondaryKeywords: ['printable spil fødselsdagsfester Etsy', 'printable spil fødselsdagsfester online', 'printable spil fødselsdagsfester forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Printbare Spil til Fødselsdagsfester | LCS',
+    titleTag: 'Printbare Spil til Fødselsdagsfester | LessonCraftStudio',
     metaDescription: 'Printbare festspil til fødselsdagsfester er et stort og undervurderet marked. Forældre planlægger fester og søger efter hurtige, printbare aktiviteter. Ban',
   },
   hero: {

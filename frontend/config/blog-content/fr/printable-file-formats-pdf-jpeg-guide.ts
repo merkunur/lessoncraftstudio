@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode formats',
       'astuces formats fichiers',
     ],
-    titleTag: 'Formats de fichiers pour imprimables : PDF vs JPEG | LCS',
+    titleTag: 'Formats de fichiers pour imprimables : PDF vs JPEG | LessonCraftStudio',
     metaDescription: 'Quel format choisir pour vos imprimables ? PDF, JPEG, PNG : avantages et utilisations de chaque format. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

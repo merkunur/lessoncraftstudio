@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ryhmäaktiviteetit tulosteet',
       'S2-opetus bingopeli',
     ],
-    titleTag: 'Tulostettavat bingokortit myyntiin | LCS',
+    titleTag: 'Tulostettavat bingokortit myyntiin | LessonCraftStudio',
     metaDescription: 'Myy tulostettavia bingokortteja — universaali peli juhliin ja opetukseen. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

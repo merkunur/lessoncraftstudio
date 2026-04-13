@@ -17,7 +17,7 @@ const content: GuideContent = {
       'arbetsblad pysselbok pusselbok skriva ut PDF sälja',
       'Gumroad analys säsongsplanering katalogskalningsstrategi',
     ],
-    titleTag: 'Optimera Gumroad-butik försäljning | LCS',
+    titleTag: 'Optimera Gumroad-butik försäljning | LessonCraftStudio',
     metaDescription: 'Optimera din Gumroad-butik för mer försäljning. Sökrankning, produktbeskrivningar, recensionsbyggande och katalogskalning. Guide för printables-säljare.',
   },
 

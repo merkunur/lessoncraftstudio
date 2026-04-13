@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Best Printable Niches for Etsy in 2026 | LCS',
+    titleTag: 'Best Printable Niches for Etsy in 2026 | LessonCraftStudio',
     metaDescription: 'Discover the best printable niches for Etsy in 2026. Demand estimates, competition analysis, pricing benchmarks, and generator tools for each niche.',
 
     primaryKeyword: 'best printable niches etsy 2026',

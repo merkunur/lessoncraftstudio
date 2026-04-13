@@ -13,7 +13,7 @@ const content: BlogContent = {
       'contenu réseaux sociaux fiches',
       'audience sociale imprimables',
     ],
-    titleTag: 'Réseaux sociaux pour vendeurs d\'imprimables | LCS',
+    titleTag: 'Réseaux sociaux pour vendeurs d\'imprimables | LessonCraftStudio',
     metaDescription: 'Quels réseaux sociaux utiliser pour vos imprimables ? Pinterest, Instagram, TikTok : stratégies par plateforme. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'konversio ilmaisesta maksavaksi',
       'sisältömarkkinointi tulosteet',
     ],
-    titleTag: 'Tulostenäytteet lead magnettina | LCS',
+    titleTag: 'Tulostenäytteet lead magnettina | LessonCraftStudio',
     metaDescription: 'Käytä tulostenäytteitä lead magnettina tehokkaasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

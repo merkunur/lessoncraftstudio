@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Werkzeuge Baustellen-Thema Druckvorlagen',
       'Evergreen Jungen-Lieblingsthema Nische',
     ],
-    titleTag: 'Baustellen-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Baustellen-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Baustellen-Druckvorlagen als profitable Etsy-Nische entdecken. Baufahrzeuge und Werkzeuge als Evergreen-Thema — Produktideen und Wettbewerbsanalyse für Ihren Shop.',
   },
   hero: {

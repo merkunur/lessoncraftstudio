@@ -14,7 +14,7 @@ const content: GuideContent = {
       'fulfillment cost digital products',
       'hybrid printable product strategy',
     ],
-    titleTag: 'Digital vs Physical Printables Compared | LCS',
+    titleTag: 'Digital vs Physical Printables Compared | LessonCraftStudio',
     metaDescription: 'Digital vs physical printables compared. Profit margins, scalability, fulfillment costs, and which format fits your printable business best.',
   },
 

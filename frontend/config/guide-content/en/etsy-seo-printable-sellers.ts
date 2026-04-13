@@ -15,7 +15,7 @@ const content: GuideContent = {
       'etsy tag optimization strategy',
       'conversion rate optimization printables',
     ],
-    titleTag: 'Etsy SEO for Printable Sellers (2026) | LCS',
+    titleTag: 'Etsy SEO for Printable Sellers (2026) | LessonCraftStudio',
     metaDescription: 'Master Etsy SEO for printable worksheet shops. Keyword research, title optimization, tag strategy, listing quality score, conversion tactics. 2026 seller guide.',
   },
 

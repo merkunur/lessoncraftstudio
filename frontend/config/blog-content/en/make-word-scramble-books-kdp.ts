@@ -13,7 +13,7 @@ const content: BlogContent = {
       'KDP activity book word games',
       'scramble puzzle formatting KDP',
     ],
-    titleTag: 'How to Make Word Scramble Books for KDP | LCS',
+    titleTag: 'How to Make Word Scramble Books for KDP | LessonCraftStudio',
     metaDescription: 'Step-by-step guide to creating and selling word scramble puzzle books on Amazon KDP. Themed word lists, difficulty targeting, answer keys, and listing tips.',
   },
   hero: {

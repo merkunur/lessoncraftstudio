@@ -13,7 +13,7 @@ const content: BlogContent = {
       'image library worksheet creation',
       'themed content product strategy',
     ],
-    titleTag: 'Use Themed Image Collections to Create Unique Products | LCS',
+    titleTag: 'Use Themed Image Collections to Create Unique Products | LessonCraftStudio',
     metaDescription: 'Learn how themed image collections help you create unique, differentiated printable products. Turn 104+ themes into hundreds of distinctive product listings.',
   },
   hero: {

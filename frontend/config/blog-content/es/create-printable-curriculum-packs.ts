@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'curriculum paquete crear paquetes imprimible',
     secondaryKeywords: ['crear paquetes curriculum imprimibles paso a paso', 'crear paquetes curriculum imprimibles tutorial', 'crear paquetes curriculum imprimibles guia practica'],
     lsiKeywords: ['crear paquetes curriculum tips', 'como crear paquetes', 'curriculum imprimibles facil'],
-    titleTag: 'Crear Paquetes de Curriculum Imprimible | LCS',
+    titleTag: 'Crear Paquetes de Curriculum Imprimible | LessonCraftStudio',
     metaDescription: 'Un paquete de curriculum completo (200+ paginas cubriendo un grado completo) puede venderse por $19.99 a $39.99, significativamente mas que fichas individu',
   },
   hero: {

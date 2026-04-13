@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok sök och hitta aktivitetsbok',
       'kommersiell licens generator lagerhantering scener',
     ],
-    titleTag: 'Skapa leta-och-hitta arbetsblad | LCS',
+    titleTag: 'Skapa leta-och-hitta arbetsblad | LessonCraftStudio',
     metaDescription: 'Skapa hitta-föremålen-arbetsblad att skriva ut med I Spy och Udda en ut. Bygg scener, generera facit och sälj på Etsy och Amazon KDP.',
   },
 

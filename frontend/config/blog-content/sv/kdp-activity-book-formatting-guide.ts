@@ -13,7 +13,7 @@ const content: BlogContent = {
       'print on demand formatering',
       'upplösning DPI KDP krav',
     ],
-    titleTag: 'Formatera Aktivitetsbok för Amazon KDP | LCS',
+    titleTag: 'Formatera Aktivitetsbok för Amazon KDP | LessonCraftStudio',
     metaDescription: 'Komplett formateringsguide för KDP-aktivitetsböcker. Sidstorlek, marginaler, bleed och filformat som Amazon godkänner.',
   },
   hero: {

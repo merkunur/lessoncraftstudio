@@ -13,7 +13,7 @@ const content: BlogContent = {
       'leikkaus ja liimaus tulosteet',
       'käsityö hienomotoriikka',
     ],
-    titleTag: 'Hienomotoriikka-tulosteet myyntiin | LCS',
+    titleTag: 'Hienomotoriikka-tulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy hienomotoriikka-aktiviteetteja tulosteina kannattavasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

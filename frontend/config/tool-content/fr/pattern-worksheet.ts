@@ -20,7 +20,7 @@ const content: ToolContent = {
       'visuel',
       'corrections',
     ],
-    titleTag: 'Exercices suites logiques gratuit en ligne | LCS',
+    titleTag: 'Exercices suites logiques gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Créez des exercices de suites logiques gratuitement en ligne — sans inscription. Séquences visuelles avec images thématiques, solutions automatiques, PDF 300 DPI. Licence commerciale.',
   },
 

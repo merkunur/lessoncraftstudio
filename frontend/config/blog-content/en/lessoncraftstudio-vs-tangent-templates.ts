@@ -14,15 +14,15 @@ const content: BlogContent = {
       'worksheet template differentiation',
       'printable product uniqueness',
     ],
-    titleTag: 'LessonCraftStudio vs Tangent Templates: Generator vs Templates | LCS',
-    metaDescription: 'Compare LessonCraftStudio\'s unlimited generation with Tangent Templates\' static template packs. Which approach builds a more profitable printable business?',
+    titleTag: 'LessonCraftStudio vs Tangent Templates — Full Comparison for KDP Publishers | LessonCraftStudio',
+    metaDescription: 'Compare LessonCraftStudio and Tangent Templates for KDP book creation. Templates vs generators, pricing, features, and which tool fits your publishing style.',
   },
   hero: {
     title: 'LessonCraftStudio vs Tangent Templates: Generator vs Static Templates',
     tagline: 'Unlimited unique content vs pre-made template customization',
     description: 'Tangent Templates sells pre-made printable template packs that sellers customize and resell on Etsy, Amazon, and other platforms. LessonCraftStudio is a generator that produces unlimited unique worksheet and activity content. These represent two fundamentally different approaches to building a printable business. This comparison explains the trade-offs so you can choose the approach that matches your goals and timeline.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'Template packs and content generators both help printable sellers create products, but they work in opposite ways. Templates give you a polished starting point that you customize. Generators produce unique content from scratch based on your parameters. Each approach has genuine advantages. Templates are faster for your first 10 listings. Generators are faster for your next 200. Understanding this scaling dynamic helps you choose the right tool for your business stage.',
   sections: [
     {

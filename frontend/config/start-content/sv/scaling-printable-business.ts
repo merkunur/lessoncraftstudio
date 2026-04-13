@@ -17,7 +17,7 @@ const content: StartContent = {
       'flerspråkig expansion printable-marknad',
       'återinvesteringsstrategi printable-säljare',
     ],
-    titleTag: 'Skala upp din printable-verksamhet | LCS',
+    titleTag: 'Skala upp din printable-verksamhet | LessonCraftStudio',
     metaDescription: 'Väx från sidoprojekt till heltid med din printable-verksamhet. Katalogexpansion, multiplattform och paketeringsstrategi steg för steg.',
   },
 

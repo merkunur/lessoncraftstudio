@@ -15,7 +15,7 @@ const content: GuideContent = {
       'spatial reasoning printable',
       'coordinate grid worksheet',
     ],
-    titleTag: 'Sell Treasure Hunt Worksheets on Etsy | LCS',
+    titleTag: 'Sell Treasure Hunt Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Sell treasure hunt path-finding worksheets on Etsy. Directional puzzles in 2 modes, 11 languages, adventure theme. Unique low-competition niche. Try free trial.',
   },
 

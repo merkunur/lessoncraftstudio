@@ -13,7 +13,7 @@ const content: BlogContent = {
       'titre fiche Etsy optimisé',
       'recherche Etsy produits éducatifs',
     ],
-    titleTag: 'SEO Etsy pour vendeurs d\'imprimables 2026 | LCS',
+    titleTag: 'SEO Etsy pour vendeurs d\'imprimables 2026 | LessonCraftStudio',
     metaDescription: 'Maîtrisez le SEO Etsy en 2026 pour vos imprimables. Mots-clés, titres, tags et stratégies qui fonctionnent réellement pour les vendeurs français.',
   },
   hero: {

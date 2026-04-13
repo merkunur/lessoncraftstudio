@@ -15,7 +15,7 @@ const content: StartContent = {
       'Etsy digital product business',
       'complete Etsy selling guide',
     ],
-    titleTag: 'Etsy Printable Business Masterclass | LCS',
+    titleTag: 'Etsy Printable Business Masterclass | LessonCraftStudio',
     metaDescription: 'Etsy printable business masterclass for 2026. Complete guide to building a profitable Etsy shop selling educational printables and worksheets.',
   },
 

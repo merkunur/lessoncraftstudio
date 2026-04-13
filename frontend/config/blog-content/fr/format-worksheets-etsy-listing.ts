@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode formater',
       'astuces formater fiches',
     ],
-    titleTag: 'Formater vos fiches pour une fiche Etsy | LCS',
+    titleTag: 'Formater vos fiches pour une fiche Etsy | LessonCraftStudio',
     metaDescription: 'Comment formater vos imprimables pour une fiche Etsy optimale. PDF, dimensions, photos et description.',
   },
   hero: {

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Valentine\'s Day Printables to Sell | LCS',
+    titleTag: 'Valentine\'s Day Printables to Sell | LessonCraftStudio',
     metaDescription: 'Valentine\'s Day printable business ideas. Product concepts, timing strategies, and opportunities for heart-themed printable sellers on Etsy & KDP.',
     primaryKeyword: 'Valentine\'s Day printables to sell',
     secondaryKeywords: [

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'seek count printable activities',
       'number recognition printables sell',
     ],
-    titleTag: 'Find & Count Printables: Profitable Niche | LCS',
+    titleTag: 'Find & Count Printables: Profitable Niche | LessonCraftStudio',
     metaDescription: 'Find and count printables combine visual search with early math — a profitable evergreen niche. Learn how to create and sell these engaging worksheets.',
   },
   hero: {

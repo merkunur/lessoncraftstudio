@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches dénombrement imprimables',
       'graphiques enfants éducatifs',
     ],
-    titleTag: 'Fiches graphiques et comptage : niche inexploitée | LCS',
+    titleTag: 'Fiches graphiques et comptage : niche inexploitée | LessonCraftStudio',
     metaDescription: 'Les fiches de graphiques et comptage sont une catégorie sous-exploitée sur Etsy. Découvrez comment créer et vendre ces imprimables en 2026.',
   },
   hero: {

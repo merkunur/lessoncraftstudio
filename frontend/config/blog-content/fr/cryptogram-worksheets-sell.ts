@@ -13,7 +13,7 @@ const content: BlogContent = {
       'activités décodage imprimables',
       'cryptographie éducative vendre',
     ],
-    titleTag: 'Fiches cryptogrammes : niche premium Etsy | LCS',
+    titleTag: 'Fiches cryptogrammes : niche premium Etsy | LessonCraftStudio',
     metaDescription: 'Les fiches cryptogrammes sont une niche premium peu concurrentielle sur Etsy. Découvrez comment créer et vendre ces puzzles de décodage en 2026.',
   },
   hero: {

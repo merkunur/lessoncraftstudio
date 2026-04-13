@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg sammenligningsoppgaver mer og mindre arbeidsark',
     secondaryKeywords: ['mer-mindre arbeidsark Etsy selgere', 'sammenligningsoppgaver barn selge nett', 'lag mengdeoppgaver kommersiell lisens'],
     lsiKeywords: ['arbeidsark forretning matte', 'selg oppgaver digitalt Etsy', 'matteoppgaver barn nettbutikk'],
-    titleTag: 'Selg mer-og-mindre-arbeidsark på nett | LCS',
+    titleTag: 'Selg mer-og-mindre-arbeidsark på nett | LessonCraftStudio',
     metaDescription: 'Selg sammenligningsoppgaver for barn med mengder og ulikhetstegn. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

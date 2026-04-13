@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Dezember saisonale Nachfragespitze',
       'Winter-Festtags-Nische Arbeitsblätter',
     ],
-    titleTag: 'Weihnachts-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Weihnachts-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Weihnachts-Druckvorlagen als profitable Etsy-Nische entdecken. Adventsprodukte mit Nikolaus, Rentier und Lebkuchen — saisonale Strategien und Timing-Tipps für Ihren Shop.',
   },
   hero: {

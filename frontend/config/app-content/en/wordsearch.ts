@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk page generation',
       'auto answer keys',
     ],
-    titleTag: 'Word Search Puzzle Book Generator — KDP & Etsy | LessonCraftStudio',
-    metaDescription: 'Create word search puzzle books for KDP in minutes. 5x5 to 30x30 grids, 11 languages, 3,000+ themes. Bulk generate with commercial license. Try free trial.',
+    titleTag: 'Word Search Puzzle Book Generator — KDP & Etsy Ready | LessonCraftStudio',
+    metaDescription: 'Create word search puzzle books for Amazon KDP in minutes. 5x5 to 30x30 grids, 11 languages, 104 themes. Bulk generate pages with commercial license. Try free.',
   },
 
   hero: {

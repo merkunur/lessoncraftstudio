@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Etsy digitale Downloads Vergleich',
       'Plattform Wahl Lernmaterial',
     ],
-    titleTag: 'Eduki vs Etsy: Welche Plattform? | LCS',
+    titleTag: 'Eduki vs Etsy: Welche Plattform? | LessonCraftStudio',
     metaDescription: 'Eduki oder Etsy fuer Arbeitsblaetter im DACH-Raum? Gebuehren, Zielgruppen, Verdienstpotenzial und die optimale Zwei-Plattform-Strategie.',
   },
   hero: {

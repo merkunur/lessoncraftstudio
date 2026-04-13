@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Themenbilder Lösungsschlüssel 4 Modi',
       '300 DPI PDF Export',
     ],
-    titleTag: 'Zuordnungs-Arbeitsblätter erstellen | Anleitung | LCS',
+    titleTag: 'Zuordnungs-Arbeitsblätter erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Zuordnungs-Arbeitsblättern. 4 Modi, thematische Bilder und automatische Lösungsschlüssel. Kostenlos testen.',
   },
 

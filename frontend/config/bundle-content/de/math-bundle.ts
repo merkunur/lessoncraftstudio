@@ -15,7 +15,7 @@ const content: BundleContent = {
       'Kategorie-Bundle',
       'Bis zu 57% sparen',
     ],
-    titleTag: 'Mathe-Arbeitsblatt-Bundle | 6 Generatoren | LCS',
+    titleTag: 'Mathe-Arbeitsblatt-Bundle | 6 Generatoren | LessonCraftStudio',
     metaDescription: 'Mathe-Arbeitsblatt-Generatoren-Bundle mit 6 Apps: Addition, Subtraktion, Code-Rätsel, Mathe-Puzzle und mehr. Bis zu 57% sparen. Kommerzielle Lizenz.',
   },
 

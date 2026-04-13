@@ -13,7 +13,7 @@ const content: BlogContent = {
       'alternative Etsy',
       'plateforme vente directe fiches',
     ],
-    titleTag: 'Gumroad vs Etsy pour vos imprimables | LCS',
+    titleTag: 'Gumroad vs Etsy pour vos imprimables | LessonCraftStudio',
     metaDescription: 'Comparaison Gumroad vs Etsy pour vendre des imprimables. Frais, audience, fonctionnalités et stratégie optimale.',
   },
   hero: {

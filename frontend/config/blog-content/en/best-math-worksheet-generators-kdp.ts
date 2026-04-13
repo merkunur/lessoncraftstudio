@@ -15,15 +15,15 @@ const content: BlogContent = {
       'answer key generator math worksheets',
       'educational math printables for sellers',
     ],
-    titleTag: 'Best Math Worksheet Generators for KDP Publishers in 2026 | LCS',
-    metaDescription: 'Compare the best math worksheet generators for KDP and Etsy. 5 specialized generators, auto answer keys, multiple difficulty levels. Find the right math tool for your business.',
+    titleTag: 'Best Math Worksheet Generators for KDP Workbooks — 2026 Comparison | LessonCraftStudio',
+    metaDescription: 'Compare math worksheet generators for KDP workbooks. Operations, difficulty control, image themes, and bulk generation. Find the best tool for math activity books.',
   },
   hero: {
     title: 'Best Math Worksheet Generators for KDP Publishers in 2026',
     tagline: 'Five generators, auto answer keys, and the math niche advantage',
     description: 'Math worksheets are among the most consistently selling printables on Amazon KDP and Etsy. Unlike trendy niches that spike and fade, parents and educators buy math practice materials year-round. This guide reviews the best math worksheet generators available to publishers, comparing features, output quality, and value.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'Math worksheet books have a unique advantage in the printable market: evergreen demand. Addition practice does not go out of style. Multiplication drills are needed every school year. And unlike coloring books where artistic quality is subjective, math worksheets have clear quality signals: correct problems, proper formatting, and included answer keys. The right generator makes it possible to produce professional math workbooks quickly and at scale. This roundup examines the main options available to publishers in 2026.',
   sections: [
     {

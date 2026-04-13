@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Brazilian market printables',
       'lusophone printable products',
     ],
-    titleTag: 'Sell Portuguese Printables Etsy Guide | LCS',
+    titleTag: 'Sell Portuguese Printables Etsy Guide | LessonCraftStudio',
     metaDescription: 'How to sell Portuguese printables Etsy and Amazon BR. Word search, crossword, math worksheets for 260M+ speakers. 11 languages. Try free trial.',
   },
 

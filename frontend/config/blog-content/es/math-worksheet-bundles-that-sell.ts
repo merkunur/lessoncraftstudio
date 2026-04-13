@@ -13,7 +13,7 @@ const content: BlogContent = {
       'bundle pricing imprimibles educativos',
       'fichas descarga digital pack',
     ],
-    titleTag: 'Paquetes Fichas Matemáticas que Venden | LCS',
+    titleTag: 'Paquetes Fichas Matemáticas que Venden | LessonCraftStudio',
     metaDescription: 'Descubra qué paquetes de fichas matemáticas generan más ventas en Etsy y KDP. Estrategias de empaquetado y precios probadas.',
   },
   hero: {

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Erntedank Druckvorlagen November Verkaeufe',
     secondaryKeywords: ['St. Martin Druckvorlagen verkaufen', 'Laternenumzug Arbeitsblaetter', 'November Druckvorlagen DACH'],
     lsiKeywords: ['Herbst Druckvorlagen November', 'Laternen-Material Grundschule', 'Erntedank Arbeitsblaetter Kinder'],
-    titleTag: 'Erntedank-Druckvorlagen: November-Verkaeufe maximieren | LCS',
+    titleTag: 'Erntedank-Druckvorlagen: November-Verkaeufe maximieren | LessonCraftStudio',
     metaDescription: 'Erntedank, St. Martin und Laternenumzug: So nutzen Sie die November-Saison fuer Druckvorlagen im. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {

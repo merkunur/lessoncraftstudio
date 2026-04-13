@@ -8,7 +8,7 @@ const content: BlogContent = {
       'skil deg ut arbeidsark butikk merkevare',
     ],
     lsiKeywords: ['merkevare Etsy butikk arbeidsark', 'gjenkjennelig profil digital butikk', 'branding tips arbeidsark selgere'],
-    titleTag: 'Merkevarebygging for arbeidsark-butikken | LCS',
+    titleTag: 'Merkevarebygging for arbeidsark-butikken | LessonCraftStudio',
     metaDescription: 'Bygg en gjenkjennelig merkevare for arbeidsark-butikken din. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

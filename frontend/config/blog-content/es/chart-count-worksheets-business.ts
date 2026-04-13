@@ -13,7 +13,7 @@ const content: BlogContent = {
       'hojas trabajo gráficos barras pictogramas',
       'material didáctico conteo datos',
     ],
-    titleTag: 'Fichas Gráficos y Conteo: Nicho sin Explotar | LCS',
+    titleTag: 'Fichas Gráficos y Conteo: Nicho sin Explotar | LessonCraftStudio',
     metaDescription: 'Las fichas de gráficos y conteo son una categoría sin explotar en Etsy. Aprenda a posicionarse primero en este nicho rentable.',
   },
   hero: {

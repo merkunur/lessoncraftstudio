@@ -13,7 +13,7 @@ const content: BlogContent = {
       'buyer confidence digital downloads',
       'printable bundle answer sheets',
     ],
-    titleTag: 'Why Answer Keys Double Your Printable Sales | LCS',
+    titleTag: 'Why Answer Keys Double Your Printable Sales | LessonCraftStudio',
     metaDescription: 'Answer keys can double your printable worksheet sales. Learn why buyers demand them and how to create them efficiently for every product.',
   },
   hero: {

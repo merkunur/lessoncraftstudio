@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles actividades fichas', 'vender imprimibles imprimibles', 'verano vender educativos'],
-    titleTag: 'Imprimibles de Actividades de Verano | LCS',
+    titleTag: 'Imprimibles de Actividades de Verano | LessonCraftStudio',
     metaDescription: 'Las vacaciones de verano son un periodo donde muchos padres buscan activamente actividades educativas para sus. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

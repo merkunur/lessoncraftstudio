@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ocean animal printables sell',
       'safari animal activities business',
     ],
-    titleTag: 'Animal Printables: Always Best Sellers | LCS',
+    titleTag: 'Animal Printables: Always Best Sellers | LessonCraftStudio',
     metaDescription: 'Animal-themed printables outsell every other theme. Learn why animals dominate, which sub-themes sell best, and how to build a themed product empire.',
   },
   hero: {

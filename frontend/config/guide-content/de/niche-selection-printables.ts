@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Käuferpersonas Produktmarktfit Preissetzungsmacht',
       'unterversorgte Märkte Nischenstapelung Expansion',
     ],
-    titleTag: 'Nischenauswahl Druckvorlagen-Business | LCS',
+    titleTag: 'Nischenauswahl Druckvorlagen-Business | LessonCraftStudio',
     metaDescription: 'Nischenauswahl fuer Ihr Druckvorlagen-Business: Marktnachfrage recherchieren, Wettbewerb analysieren, Rentabilitaet bewerten und vor der Produkterstellung validieren.',
   },
 

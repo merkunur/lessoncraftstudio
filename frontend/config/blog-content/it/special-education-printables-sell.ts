@@ -17,7 +17,7 @@ const content: BlogContent = {
       'semplificato',
       'adattato',
     ],
-    titleTag: 'Schede Didattiche BES e DSA da Stampare | LCS',
+    titleTag: 'Schede Didattiche BES e DSA da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche per BES e DSA da stampare. Materiale facilitato e adattato per difficoltà di apprendimento con LessonCraftStudio — 33 generatori.',
   },
   hero: {

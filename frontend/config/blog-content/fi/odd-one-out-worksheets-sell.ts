@@ -13,7 +13,7 @@ const content: BlogContent = {
       'luokittelu poissulkeminen tehtävät',
       'visuaalinen erottelu lapsille',
     ],
-    titleTag: 'Etsi erilainen -tulosteet myyntiin | LCS',
+    titleTag: 'Etsi erilainen -tulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy etsi erilainen -tehtäviä verkossa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

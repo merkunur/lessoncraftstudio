@@ -13,7 +13,7 @@ const content: BlogContent = {
       'curriculum bundle creation',
       'educational resource business',
     ],
-    titleTag: 'Create Printable Curriculum Packs for Homeschool | LCS',
+    titleTag: 'Create Printable Curriculum Packs for Homeschool | LessonCraftStudio',
     metaDescription: 'Create and sell printable curriculum packs for homeschool families. Content planning, bundling strategies, and pricing for this growing market.',
   },
   hero: {

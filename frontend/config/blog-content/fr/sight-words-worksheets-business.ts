@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances mots',
       'demande fiches fiches mots',
     ],
-    titleTag: 'Fiches mots outils et mots fréquents | LCS',
+    titleTag: 'Fiches mots outils et mots fréquents | LessonCraftStudio',
     metaDescription: 'Les fiches de mots outils (mots fréquents) sont un créneau clé du CP au CE2. Comment les créer et vendre.',
   },
   hero: {

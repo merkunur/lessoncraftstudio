@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant worksheet generator no account',
       'try before you buy math tools',
     ],
-    titleTag: 'Free Subtraction Worksheet Generator Online | LCS',
+    titleTag: 'Free Subtraction Worksheet Generator Online | LessonCraftStudio',
     metaDescription: 'Make subtraction worksheets free online with watermark — no signup needed. Cross-out mode, 104 themes, answer keys. Upgrade for commercial license.',
   },
 

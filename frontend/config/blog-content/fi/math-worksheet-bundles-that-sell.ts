@@ -13,7 +13,7 @@ const content: BlogContent = {
       'matematiikkaharjoitukset tulostettavia',
       'Etsy pakettimyynti strategia',
     ],
-    titleTag: 'Matematiikkapaketit jotka myyvät | LCS',
+    titleTag: 'Matematiikkapaketit jotka myyvät | LessonCraftStudio',
     metaDescription: 'Rakenna matematiikkatyöarkkipaketteja jotka myyvät. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

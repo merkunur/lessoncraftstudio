@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'hvor mange lister Etsy succes',
     secondaryKeywords: ['hvor mange lister Etsy succes Etsy', 'hvor mange lister Etsy succes online', 'hvor mange lister Etsy succes forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Hvor Mange Lister til Etsy-Succes? | LCS',
+    titleTag: 'Hvor Mange Lister til Etsy-Succes? | LessonCraftStudio',
     metaDescription: 'Et af de mest stillede spørgsmål fra nye Etsy-sælgere er: hvor mange lister har jeg brug for? Svaret afhænger af din niche, prisklasse og SEO-kvalitet — me',
   },
   hero: {

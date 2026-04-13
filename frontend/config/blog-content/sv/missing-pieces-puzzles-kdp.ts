@@ -13,7 +13,7 @@ const content: BlogContent = {
       'problemlösning arbetsblad barn',
       'nischprodukt pusselbok KDP',
     ],
-    titleTag: 'Sälj Saknade-Bitar-Pusselbok på KDP | LCS',
+    titleTag: 'Sälj Saknade-Bitar-Pusselbok på KDP | LessonCraftStudio',
     metaDescription: 'Saknade-bitar-pussel utvecklar logik och observation. Skapa och publicera en unik nischpusselbok på Amazon KDP.',
   },
   hero: {

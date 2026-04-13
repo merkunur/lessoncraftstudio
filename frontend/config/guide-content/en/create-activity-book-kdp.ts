@@ -15,7 +15,7 @@ const content: GuideContent = {
       'variety workbook pages',
       'print-ready activity PDF',
     ],
-    titleTag: 'Create an Activity Book for Amazon KDP | LCS',
+    titleTag: 'Create an Activity Book for Amazon KDP | LessonCraftStudio',
     metaDescription: 'Create mixed activity books for Amazon KDP with 33 generators. Combine word search, coloring, math, mazes, and matching. Step-by-step KDP workflow. Try free trial.',
   },
 

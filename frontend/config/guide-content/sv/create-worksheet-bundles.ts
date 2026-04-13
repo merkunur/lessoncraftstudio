@@ -17,7 +17,7 @@ const content: GuideContent = {
       'multiplattform paketlistningar Etsy KDP Gumroad',
       'prestandaspårning plattformsoberoende paketeringsstrategi',
     ],
-    titleTag: 'Skapa arbetsblad-paket som säljer | LCS',
+    titleTag: 'Skapa arbetsblad-paket som säljer | LessonCraftStudio',
     metaDescription: 'Skapa arbetsblad-paket som säljer. Pakettyper, prissättning, värdestackning och listningsoptimering. Fungerar på Etsy, Amazon KDP och Gumroad.',
   },
 

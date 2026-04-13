@@ -13,7 +13,7 @@ const content: BlogContent = {
       'long-tail keywords digital downloads',
       'etsy tag optimization strategy',
     ],
-    titleTag: 'Etsy Keyword Research for Printables: Guide | LCS',
+    titleTag: 'Etsy Keyword Research for Printables: Guide | LessonCraftStudio',
     metaDescription: 'Beginner\'s guide to Etsy keyword research for printable sellers. Find profitable keywords, use all 13 tags, and rank higher in Etsy search.',
   },
   hero: {

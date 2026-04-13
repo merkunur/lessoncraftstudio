@@ -16,7 +16,7 @@ const content: StartContent = {
       'schede didattiche',
       'download digitali',
     ],
-    titleTag: 'Come vendere stampabili su Etsy: guida | LCS',
+    titleTag: 'Come vendere stampabili su Etsy: guida | LessonCraftStudio',
     metaDescription: 'Come vendere stampabili educativi su Etsy: configurazione negozio, SEO inserzioni, strategia di prezzo e scalabilità del catalogo. Guida passo dopo passo.',
   },
 

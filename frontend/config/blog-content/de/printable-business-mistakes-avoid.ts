@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Printable Business Anfaengerfehler',
       'Druckvorlagen Shop Probleme',
     ],
-    titleTag: '10 Fehler die Druckvorlagen-Anfaenger vermeiden | LCS',
+    titleTag: '10 Fehler die Druckvorlagen-Anfaenger vermeiden | LessonCraftStudio',
     metaDescription: 'Die 10 haeufigsten Fehler neuer Druckvorlagen-Verkaeufer auf Etsy.de — und wie Sie sie von Anfang an vermeiden.',
   },
   hero: {

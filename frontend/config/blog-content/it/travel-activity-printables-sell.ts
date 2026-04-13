@@ -17,7 +17,7 @@ const content: BlogContent = {
       'passatempo',
       'intrattenimento',
     ],
-    titleTag: 'Attività Viaggio Bambini da Stampare | LCS',
+    titleTag: 'Attività Viaggio Bambini da Stampare | LessonCraftStudio',
     metaDescription: 'Attività da stampare per bambini in viaggio. Giochi e passatempi per auto, treno e aereo con soluzioni — LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

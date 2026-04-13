@@ -14,7 +14,7 @@ const content: GuideContent = {
       'code-breaking worksheet templates',
       'difficulty-tiered puzzle printables',
     ],
-    titleTag: 'Create Cryptogram Puzzles to Sell Online | LCS',
+    titleTag: 'Create Cryptogram Puzzles to Sell Online | LessonCraftStudio',
     metaDescription: 'Create cryptogram puzzles that sell. Picture ciphers, difficulty tiers, 11 languages. Guide for Etsy, KDP, and TPT sellers. Try our tool free.',
   },
 

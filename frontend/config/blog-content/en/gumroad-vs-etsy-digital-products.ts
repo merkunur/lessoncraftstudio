@@ -13,7 +13,7 @@ const content: BlogContent = {
       'gumroad marketplace digital downloads',
       'etsy vs gumroad for printables',
     ],
-    titleTag: 'Gumroad vs Etsy for Digital Products | LCS',
+    titleTag: 'Gumroad vs Etsy for Digital Products | LessonCraftStudio',
     metaDescription: 'Gumroad vs Etsy for selling digital products: fees, traffic, features, and revenue compared. Which platform is better for printable sellers in 2026?',
   },
   hero: {

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Underwater Printables to Sell | LCS',
+    titleTag: 'Underwater Printables to Sell | LessonCraftStudio',
     metaDescription: 'Underwater themed printable business ideas. Deep sea and marine product concepts and strategies for Etsy & KDP printable sellers.',
 
     primaryKeyword: 'underwater printables to sell',

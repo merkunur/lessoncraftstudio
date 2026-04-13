@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fichas laberintos preescolar imprimibles',
       'maze worksheets themed printable',
     ],
-    titleTag: 'Fichas Laberintos con Imágenes: 5 Ideas Negocio | LCS',
+    titleTag: 'Fichas Laberintos con Imágenes: 5 Ideas Negocio | LessonCraftStudio',
     metaDescription: 'Los laberintos con imágenes generan 5 oportunidades de negocio diferentes. Estrategias para Etsy, KDP y fiestas. Prueba gratuita con marca de agua.',
   },
   hero: {

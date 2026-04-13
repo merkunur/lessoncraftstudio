@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Halloween Printable Business Ideas | LCS',
+    titleTag: 'Halloween Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Halloween printable business ideas for Etsy & KDP. Spooky product concepts, release timing, and strategies for the October demand spike.',
 
     primaryKeyword: 'Halloween printable business ideas',

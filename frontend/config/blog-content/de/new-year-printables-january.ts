@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Neujahrs-Druckvorlagen Januar Neustart',
     secondaryKeywords: ['Neujahrsvorsaetze Kinder Arbeitsblaetter', 'Januar Druckvorlagen Etsy', 'Winter Raetsel Kinder PDF'],
     lsiKeywords: ['Neues Jahr Aktivitaeten Kinder', 'Januar Lernmaterial Grundschule', 'Winterferien Beschaeftigung'],
-    titleTag: 'Neujahrs-Druckvorlagen: Januar-Neustart nutzen | LCS',
+    titleTag: 'Neujahrs-Druckvorlagen: Januar-Neustart nutzen | LessonCraftStudio',
     metaDescription: 'Neujahrs-Druckvorlagen: Wie Sie die Januar-Neustart-Motivation nutzen. Vorsaetze-Arbeitsblaetter, Winterraetsel und Ziel-Pakete fuer Etsy.de.',
   },
   hero: {

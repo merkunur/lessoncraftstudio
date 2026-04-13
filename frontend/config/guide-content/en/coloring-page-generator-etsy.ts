@@ -15,7 +15,7 @@ const content: GuideContent = {
       'digital download Etsy listing',
       'themed coloring sheets printable',
     ],
-    titleTag: 'Coloring Page Generator for Etsy Listings | LCS',
+    titleTag: 'Coloring Page Generator for Etsy Listings | LessonCraftStudio',
     metaDescription: 'Create professional coloring pages for your Etsy shop with 3,000+ themed images and 104 collections. Step-by-step listing guide. Try the free trial today.',
   },
 

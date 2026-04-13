@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'liste email activité imprimables',
     secondaryKeywords: ['email marketing vendeurs fiches', 'newsletter boutique Etsy imprimables', 'construire liste email imprimables'],
     lsiKeywords: ['lead magnet fiches gratuites', 'email séquence vente imprimables', 'convertir abonnés en acheteurs'],
-    titleTag: 'Construire une liste email pour vos imprimables | LCS',
+    titleTag: 'Construire une liste email pour vos imprimables | LessonCraftStudio',
     metaDescription: 'Construisez une liste email qui vend vos imprimables. Lead magnets, séquences et stratégies de conversion pour vendeurs de fiches.',
   },
   hero: {

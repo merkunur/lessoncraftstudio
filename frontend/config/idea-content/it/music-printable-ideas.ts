@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede musica da stampare per bambini | LCS',
+    titleTag: 'Schede musica da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede a tema musica da stampare: colorare strumenti musicali, crucipuzzle, abbinamento note e attività ritmiche per bambini della scuola primaria.',
     primaryKeyword: 'schede musica da stampare',
     secondaryKeywords: [

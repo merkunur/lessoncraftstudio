@@ -20,7 +20,7 @@ const content: ToolContent = {
       'comparer',
       'quantités',
     ],
-    titleTag: 'Plus grand plus petit gratuit en ligne | LCS',
+    titleTag: 'Plus grand plus petit gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches de comparaison de nombres gratuitement en ligne — sans inscription. Images thématiques, corrections automatiques, PDF 300 DPI. Licence commerciale.',
   },
 

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Themenbilder Lösungsschlüssel druckfertig',
       '104 Themen 300 DPI PDF',
     ],
-    titleTag: 'Suchen & Zählen Arbeitsblätter erstellen | Anleitung | LCS',
+    titleTag: 'Suchen & Zählen Arbeitsblätter erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Suchen-und-Zählen-Arbeitsblättern. Bilddiagramme, Lösungsschlüssel und 104 Themen. Kostenlos testen.',
   },
 

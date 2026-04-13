@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant sorting worksheet generator',
       'try before you buy sorting tools',
     ],
-    titleTag: 'Free Sorting Worksheet Generator Online | LCS',
+    titleTag: 'Free Sorting Worksheet Generator Online | LessonCraftStudio',
     metaDescription: 'Make sorting sheets free online with watermark — no signup. Category sorting with themed images, auto answer keys, 104 themes. Upgrade for commercial use.',
   },
 

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'logisches Denken',
       'Klassifizieren',
     ],
-    titleTag: 'Kostenloser Was-passt-nicht Generator | LCS',
+    titleTag: 'Kostenloser Was-passt-nicht Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Was-passt-nicht Generator — Logik-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Wortspiel Druckvorlagen Kinder',
       'Ratespiel Arbeitsblaetter Grundschule',
     ],
-    titleTag: 'Wort-Ratespiel-Arbeitsblaetter verkaufen | LCS',
+    titleTag: 'Wort-Ratespiel-Arbeitsblaetter verkaufen | LessonCraftStudio',
     metaDescription: 'Wie Sie Wort-Ratespiel-Arbeitsblaetter auf Etsy.de profitabel verkaufen. Zielgruppen, Produktvarianten und Preisstrategien fuer den DACH-Markt.',
   },
   hero: {

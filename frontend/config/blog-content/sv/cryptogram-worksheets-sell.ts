@@ -13,7 +13,7 @@ const content: BlogContent = {
       'bokstavsigenkänning kryptogram',
       'unika nischprodukter Etsy',
     ],
-    titleTag: 'Sälj Kryptogram-Arbetsblad på Etsy | LCS',
+    titleTag: 'Sälj Kryptogram-Arbetsblad på Etsy | LessonCraftStudio',
     metaDescription: 'Kryptogram-arbetsblad är en nisch med låg konkurrens och växande efterfrågan. Kombinera logik med bokstäver och sälj på Etsy.',
   },
   hero: {

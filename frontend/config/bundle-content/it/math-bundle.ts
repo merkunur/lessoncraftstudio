@@ -16,7 +16,7 @@ const content: BundleContent = {
       'scuola primaria',
       'schede da stampare',
     ],
-    titleTag: 'Generatori schede matematica da stampare | LCS',
+    titleTag: 'Generatori schede matematica da stampare | LessonCraftStudio',
     metaDescription: 'Pacchetto con 6 generatori di schede matematiche da stampare: addizione, sottrazione, puzzle codificati, confronto numeri e algebra visiva per bambini.',
   },
 

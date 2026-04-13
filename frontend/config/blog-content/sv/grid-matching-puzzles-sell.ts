@@ -13,7 +13,7 @@ const content: BlogContent = {
       'rutnätsmatchning nischprodukt Etsy',
       'logik pussel förskola grundskola',
     ],
-    titleTag: 'Sälj Rutnätspussel-Arbetsblad på Etsy | LCS',
+    titleTag: 'Sälj Rutnätspussel-Arbetsblad på Etsy | LessonCraftStudio',
     metaDescription: 'Rutnätsmatchning-pussel utvecklar logiskt tänkande. Skapa och sälj logikpussel som nischprodukt på Etsy med låg konkurrens.',
   },
   hero: {

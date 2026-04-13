@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok matchning aktivitetsbok',
       'kommersiell licens arbetsbladsverktyg flerspråkig',
     ],
-    titleTag: 'Skapa matchningsövningar att skriva ut | LCS',
+    titleTag: 'Skapa matchningsövningar att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa matchningsarbetsblad att skriva ut med 4 lägen, tematiska bilder och automatiskt facit. Exportera PDF. Sälj på Etsy och Amazon KDP.',
   },
 

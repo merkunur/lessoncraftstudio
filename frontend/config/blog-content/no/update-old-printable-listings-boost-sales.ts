@@ -8,7 +8,7 @@ const content: BlogContent = {
       'øk salg gamle arbeidsark Etsy',
     ],
     lsiKeywords: ['arbeidsark annonse-optimalisering', 'Etsy søkeord forbedring', 'forny arbeidsark annonser'],
-    titleTag: 'Oppdater gamle Etsy-annonser: Øk salget | LCS',
+    titleTag: 'Oppdater gamle Etsy-annonser: Øk salget | LessonCraftStudio',
     metaDescription: 'Gi gamle Etsy-annonser nytt liv med oppdaterte bilder og søkeord. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

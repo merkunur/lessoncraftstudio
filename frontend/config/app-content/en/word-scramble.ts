@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk puzzle generation',
       'commercial license',
     ],
-    titleTag: 'Word Scramble Book Generator — KDP Puzzle Books | LessonCraftStudio',
-    metaDescription: 'Create themed word scramble puzzle books for KDP and Etsy. 11 languages, themed word lists, bulk generate pages. Commercial license. Try free trial.',
+    titleTag: 'Word Scramble Generator — KDP Puzzle Books & Etsy Bundles | LessonCraftStudio',
+    metaDescription: 'Generate themed word scramble puzzles for KDP books and Etsy bundles. 104 image themes, 11 languages, auto answer keys. Commercial license. Try free.',
   },
 
   hero: {

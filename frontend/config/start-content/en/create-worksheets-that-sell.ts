@@ -15,7 +15,7 @@ const content: StartContent = {
       'professional printable creation',
       'sellable worksheet design',
     ],
-    titleTag: 'Create Professional Worksheets That Sell | LCS',
+    titleTag: 'Create Professional Worksheets That Sell | LessonCraftStudio',
     metaDescription: 'How to create worksheets that sell on Etsy, KDP & Gumroad. Quality standards, themed images, answer keys, pricing, and listing optimization.',
   },
 

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok ritning symmetri aktivitetsbok',
       'S/V konturer kommersiell licens 100+ teman',
     ],
-    titleTag: 'Skapa ritövningar att skriva ut | LCS',
+    titleTag: 'Skapa ritövningar att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa ritnings- och symmetriarbetsblad att skriva ut. Dubbelrutnät, justerbar svårighet och S/V-konturer. Sälj på Etsy och Amazon KDP.',
   },
 

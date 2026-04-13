@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'gratis prøveark lead magnet arbeidsark',
     secondaryKeywords: ['prøveark markedsføring arbeidsark-selgere', 'lead magnet pedagogiske oppgaver', 'gi bort prøveark selg pakker'],
     lsiKeywords: ['e-postliste arbeidsark salg', 'Pinterest prøveark trafikk', 'gratis smaksprøve konvertering'],
-    titleTag: 'Bruk gratis prøveark som lead magnet | LCS',
+    titleTag: 'Bruk gratis prøveark som lead magnet | LessonCraftStudio',
     metaDescription: 'Gi bort ett prøveark og selg hele pakken. Den mest effektive strategien for arbeidsark-selgere. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'vanliga frågor printable-kunder',
       'nedladdningsproblem Etsy support',
     ],
-    titleTag: 'Kundservice för Printable-Butiker på Etsy | LCS',
+    titleTag: 'Kundservice för Printable-Butiker på Etsy | LessonCraftStudio',
     metaDescription: 'Bra kundservice ger femstjärniga recensioner på Etsy. Mallsvar, vanliga frågor och tips för din printable-butik.',
   },
   hero: {

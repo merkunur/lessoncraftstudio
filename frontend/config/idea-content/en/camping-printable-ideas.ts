@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Camping Printable Business Ideas | LCS',
+    titleTag: 'Camping Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Camping printable business ideas for Etsy & KDP. Outdoor and nature product concepts and strategies for camping-themed printable sellers.',
 
     primaryKeyword: 'camping printable business ideas',

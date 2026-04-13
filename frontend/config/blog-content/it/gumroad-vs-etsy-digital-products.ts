@@ -17,7 +17,7 @@ const content: BlogContent = {
       'Etsy',
       'online',
     ],
-    titleTag: 'Dove Vendere Schede Didattiche Online | LCS',
+    titleTag: 'Dove Vendere Schede Didattiche Online | LessonCraftStudio',
     metaDescription: 'Confronto tra piattaforme per vendere schede didattiche online. Gumroad vs Etsy per materiale educativo con LessonCraftStudio — 33 generatori.',
   },
   hero: {

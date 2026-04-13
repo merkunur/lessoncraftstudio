@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Katalogökonomie Schwungradeffekt mehrere Titel',
       'Multi-Plattform Etsy Gumroad Expansion',
     ],
-    titleTag: 'Mit KDP-Aktivitätsbüchern Geld verdienen | LCS',
+    titleTag: 'Mit KDP-Aktivitätsbüchern Geld verdienen | LessonCraftStudio',
     metaDescription: 'Mit KDP-Aktivitätsbüchern Geld verdienen: Tantiemen-Berechnung, Preisoptimierung, Katalogaufbau und saisonales Timing für wachsende monatliche Amazon-Einnahmen.',
   },
 

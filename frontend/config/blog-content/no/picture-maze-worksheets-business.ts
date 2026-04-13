@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg bildelabyrint arbeidsark forretning Etsy KDP',
     secondaryKeywords: ['bildelabyrint oppgaver Etsy selgere', 'labyrint arbeidsark barn KDP bøker', 'lag bildelabyrint oppgaver kommersiell lisens'],
     lsiKeywords: ['labyrint arbeidsark forretning', 'bildesti oppgaver barn selge', 'visuelt attraktive arbeidsark nisje'],
-    titleTag: 'Selg bildelabyrint-arbeidsark som forretning | LCS',
+    titleTag: 'Selg bildelabyrint-arbeidsark som forretning | LessonCraftStudio',
     metaDescription: 'Bygg en forretning med bildelabyrint-arbeidsark for barn. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: StartContent = {
       'Kindle Direct Publishing nybörjare',
       'publicera barnbok Amazon Sverige',
     ],
-    titleTag: 'Sälja aktivitetsböcker på Amazon KDP | LCS',
+    titleTag: 'Sälja aktivitetsböcker på Amazon KDP | LessonCraftStudio',
     metaDescription: 'Komplett guide till att publicera och sälja aktivitetsböcker på Amazon KDP. Formatering, omslagsdesign, nyckelord och prissättning steg för steg.',
   },
 

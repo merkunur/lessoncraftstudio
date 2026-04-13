@@ -15,7 +15,7 @@ const content: StartContent = {
       'Marktforschung',
       'Kundenbedürfnisse',
     ],
-    titleTag: 'Arbeitsblätter erstellen die sich verkaufen | LCS',
+    titleTag: 'Arbeitsblätter erstellen die sich verkaufen | LessonCraftStudio',
     metaDescription: 'Lernen Sie, Arbeitsblätter zu erstellen, die sich auf Etsy und KDP verkaufen. Design-Tipps, Marktforschung und Qualitätsstandards für Verkäufer.',
   },
 

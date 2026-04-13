@@ -17,7 +17,7 @@ const content: GuideContent = {
       'flerplattforms försäljning tvärplattforms printable-verksamhet',
       'arbetsblad pysselbok pusselbok målarbild marknadsplats',
     ],
-    titleTag: 'KDP vs Etsy: var sälja printables | LCS',
+    titleTag: 'KDP vs Etsy: var sälja printables | LessonCraftStudio',
     metaDescription: 'KDP vs Etsy jämförelse för printable-säljare. Avgifter, marginaler, trafikmekanik och flerplattformsstrategi. Välj rätt plattform.',
   },
 

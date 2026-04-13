@@ -13,7 +13,7 @@ const content: BlogContent = {
       'precio correcto fichas Etsy',
       'valor percibido productos digitales',
     ],
-    titleTag: 'Estrategia de Precios para Imprimibles en Etsy | LCS',
+    titleTag: 'Estrategia de Precios para Imprimibles en Etsy | LessonCraftStudio',
     metaDescription: 'Como fijar precios que maximicen sus ventas e ingresos en Etsy. Rangos recomendados, psicologia de precios y errores comunes que debe evitar.',
   },
   hero: {

@@ -14,15 +14,15 @@ const content: BlogContent = {
       'activity workbook generator',
       'print-on-demand content tools',
     ],
-    titleTag: 'Best KDP Activity Book Tools in 2026: Complete Roundup | LCS',
-    metaDescription: 'Compare the best tools for creating Amazon KDP activity books in 2026. LessonCraftStudio, Book Bolt, Self Publishing Titans, BookGenie, and Canva reviewed.',
+    titleTag: 'Best KDP Activity Book Tools — 2026 Roundup & Comparison | LessonCraftStudio',
+    metaDescription: 'The definitive 2026 guide to KDP activity book creation tools. Compare generators, design tools, and publishing platforms. Features, pricing, pros, and cons.',
   },
   hero: {
     title: 'Best KDP Activity Book Tools in 2026: A Publisher\'s Roundup',
     tagline: 'Every major tool compared for features, pricing, and output quality',
     description: 'Activity books are one of the most profitable categories on Amazon KDP, but your tools determine how fast you can produce content, how unique it looks, and how many niches you can cover. This roundup compares the five most popular tools for creating KDP activity books in 2026: LessonCraftStudio, Book Bolt, Self Publishing Titans, BookGenie, and Canva. Each tool takes a different approach, and the right choice depends on your specific publishing strategy.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'The activity book market on Amazon KDP has matured significantly. Generic, low-effort books no longer sell well. Buyers expect themed content, professional formatting, answer keys, and variety. The tools you use directly impact whether your books meet these expectations or get lost in a sea of identical-looking publications. This guide covers each major tool honestly, including limitations, so you can build a toolkit that matches your publishing goals.',
   sections: [
     {

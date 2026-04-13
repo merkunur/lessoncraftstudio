@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'instant chart worksheet generator',
       'try before you buy counting tools',
     ],
-    titleTag: 'Free Counting Chart Worksheet Generator | LCS',
+    titleTag: 'Free Counting Chart Worksheet Generator | LessonCraftStudio',
     metaDescription: 'Make picture graph worksheets free online with watermark — no signup needed. 6 image types, auto answer keys, 104 themes. Upgrade for commercial license.',
     },
 

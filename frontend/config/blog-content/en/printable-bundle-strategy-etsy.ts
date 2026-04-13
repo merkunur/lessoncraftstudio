@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digital product bundle pricing',
       'printable product packaging',
     ],
-    titleTag: 'Printable Bundles That Actually Sell | LCS',
+    titleTag: 'Printable Bundles That Actually Sell | LessonCraftStudio',
     metaDescription: 'How to create printable bundles that actually sell on Etsy. Bundle types, pricing psychology, and the packaging strategies that drive purchases.',
   },
   hero: {

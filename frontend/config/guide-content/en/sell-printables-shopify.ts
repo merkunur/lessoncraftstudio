@@ -15,7 +15,7 @@ const content: GuideContent = {
       'shopify digital downloads app',
       'no marketplace fees',
     ],
-    titleTag: 'Sell Printable Worksheets on Shopify | LCS',
+    titleTag: 'Sell Printable Worksheets on Shopify | LessonCraftStudio',
     metaDescription: 'Build your own Shopify store for printable worksheets. Digital product setup, SEO, email marketing, zero marketplace fees. Step-by-step guide. Try free trial.',
   },
 

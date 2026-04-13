@@ -13,7 +13,7 @@ const content: BlogContent = {
       'hauska matematiikka tulostettavia',
       'ongelmanratkaisu tehtäväarkit',
     ],
-    titleTag: 'Koodiyhteenlaskupulmat Etsyssä | LCS',
+    titleTag: 'Koodiyhteenlaskupulmat Etsyssä | LessonCraftStudio',
     metaDescription: 'Myy koodiyhteenlaskupulmia — erottuva tuote matalalla kilpailulla. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

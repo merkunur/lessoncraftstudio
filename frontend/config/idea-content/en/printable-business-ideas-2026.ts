@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printable Business Ideas for 2026 | LCS',
+    titleTag: 'Printable Business Ideas for 2026 | LessonCraftStudio',
     metaDescription: 'Printable business ideas for 2026. Trending niches, emerging formats, and revenue strategies for Etsy, KDP, and Gumroad printable sellers.',
 
     primaryKeyword: 'printable business ideas 2026',

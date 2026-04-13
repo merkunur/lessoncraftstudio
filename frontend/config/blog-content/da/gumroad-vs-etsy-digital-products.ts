@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Gumroad vs Etsy digitale produkter',
     secondaryKeywords: ['Gumroad vs Etsy digitale produkter Etsy', 'Gumroad vs Etsy digitale produkter online', 'Gumroad vs Etsy digitale produkter forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Gumroad vs. Etsy for Digitale Produkter | LCS',
+    titleTag: 'Gumroad vs. Etsy for Digitale Produkter | LessonCraftStudio',
     metaDescription: 'Etsy og Gumroad er de to mest populære platforme for digitale produkter, men de tjener forskellige formål. Etsy giver adgang til et kæmpestort marked. Gumr',
   },
   hero: {

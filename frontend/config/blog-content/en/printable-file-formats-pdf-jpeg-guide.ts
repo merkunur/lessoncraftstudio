@@ -13,7 +13,7 @@ const content: BlogContent = {
       'etsy digital download format',
       'printable image quality settings',
     ],
-    titleTag: 'Printable File Formats: PDF vs JPEG Guide | LCS',
+    titleTag: 'Printable File Formats: PDF vs JPEG Guide | LessonCraftStudio',
     metaDescription: 'PDF vs JPEG for printable products: which format sells better, prints better, and works for Etsy and KDP? Complete guide for printable sellers.',
   },
   hero: {

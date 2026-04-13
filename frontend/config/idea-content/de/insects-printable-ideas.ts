@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Naturwissenschaft Entomologie Druckvorlagen',
       'Frühling-Sommer saisonale Insekten-Nische',
     ],
-    titleTag: 'Insekten-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Insekten-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Insekten-Druckvorlagen als profitable Etsy-Nische entdecken. Schmetterlinge, Marienkäfer und Bienen — Produktideen und Wettbewerbsanalyse für Ihren Druckvorlagen-Shop.',
   },
   hero: {

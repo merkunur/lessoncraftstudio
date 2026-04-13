@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Produktfotografie digitale Downloads',
       'Listing Fotos Konversion steigern',
     ],
-    titleTag: 'Mockup-Fotos: 3x mehr Druckvorlagen verkaufen | LCS',
+    titleTag: 'Mockup-Fotos: 3x mehr Druckvorlagen verkaufen | LessonCraftStudio',
     metaDescription: 'Wie professionelle Mockup-Fotos Ihre Druckvorlagen-Verkaeufe verdreifachen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {

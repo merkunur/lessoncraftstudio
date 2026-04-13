@@ -17,7 +17,7 @@ const content: GuideContent = {
       'print-on-demand pusselkatalog serie volymnumrering royalty',
       'pusselrutnät avstånd trimstorlek facit bakmaterial',
     ],
-    titleTag: 'Publicera pusselböcker på KDP | LCS',
+    titleTag: 'Publicera pusselböcker på KDP | LessonCraftStudio',
     metaDescription: 'Publicera pusselböcker på Amazon KDP med ordsökning, korsord och sudoku. Formatering, variationsböcker, seriestrategi och nyckelordsoptimering steg för steg.',
   },
 

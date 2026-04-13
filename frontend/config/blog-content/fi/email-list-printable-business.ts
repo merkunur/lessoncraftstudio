@@ -13,7 +13,7 @@ const content: BlogContent = {
       'konversio sähköpostilista',
       'asiakassuhde tulostekauppa',
     ],
-    titleTag: 'Sähköpostilista tulosteliiketoiminnalle | LCS',
+    titleTag: 'Sähköpostilista tulosteliiketoiminnalle | LessonCraftStudio',
     metaDescription: 'Rakenna sähköpostilista tulostekaupallesi tehokkaasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

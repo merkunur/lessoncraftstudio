@@ -15,7 +15,7 @@ const content: GuideContent = {
       'freie Leinwand 300 DPI druckfertig',
       '3.100 Illustrationen Freihand-Werkzeug',
     ],
-    titleTag: 'Ausmalbilder erstellen Schritt für Schritt | LCS',
+    titleTag: 'Ausmalbilder erstellen Schritt für Schritt | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Ausmalbildern. 3.100+ thematische Bilder, Graustufen-Export und freie Leinwand. Kostenlos testen.',
   },
 

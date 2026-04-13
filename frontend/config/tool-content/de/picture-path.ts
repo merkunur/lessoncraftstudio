@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Feinmotorik',
       'Problemlösung',
     ],
-    titleTag: 'Kostenloser Bilderpfad-Generator | LCS',
+    titleTag: 'Kostenloser Bilderpfad-Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Bilderpfad-Generator — Labyrinthe und Bild-Pfad-Rätsel sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'saisonale Nachfrage Schulanfang Mathe-Übung',
       'digitaler Download Lösungsschlüssel druckfertig',
     ],
-    titleTag: 'Mathe-Arbeitsblätter auf Etsy verkaufen | LCS',
+    titleTag: 'Mathe-Arbeitsblätter auf Etsy verkaufen | LessonCraftStudio',
     metaDescription: 'Mathe-Arbeitsblätter auf Etsy verkaufen: Etsy-SEO mit allen 13 Tags, Angebotsoptimierung, Preisgestaltung und Buendelstrategien fuer sechs Mathe-Generatoren.',
   },
 

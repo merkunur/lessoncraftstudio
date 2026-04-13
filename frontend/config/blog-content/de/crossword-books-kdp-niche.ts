@@ -13,7 +13,7 @@ const content: BlogContent = {
       'KDP Raetselbuch Nische 2026',
       'Amazon Kreuzwortraetsel veroeffentlichen',
     ],
-    titleTag: 'Kreuzwortraetsel-Buecher auf KDP: Nische 2026 | LCS',
+    titleTag: 'Kreuzwortraetsel-Buecher auf KDP: Nische 2026 | LessonCraftStudio',
     metaDescription: 'So veroeffentlichen Sie Kreuzwortraetsel-Buecher auf Amazon KDP mit wenig Konkurrenz. Nischenanalyse, Erstellung und Marketing fuer Amazon.de.',
   },
   hero: {

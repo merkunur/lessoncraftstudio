@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'bedste printables sælg jul december',
     secondaryKeywords: ['jul printables Etsy bestseller', 'jule arbejdsark sælg online', 'december printbar salg strategi'],
     lsiKeywords: ['julesæson printbar', 'advent printables salg', 'juleferie aktiviteter sælg'],
-    titleTag: 'Juleprintables Der Sælger: December Guide | LCS',
+    titleTag: 'Juleprintables Der Sælger: December Guide | LessonCraftStudio',
     metaDescription: 'Julen er årets største salgsperiode for printables. Lær hvilke juleprodukter der sælger bedst og hvornår du skal liste dem.',
   },
   hero: {

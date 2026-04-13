@@ -13,7 +13,7 @@ const content: BlogContent = {
       'worksheet illustration strategy',
       'themed printable product line',
     ],
-    titleTag: 'How Themed Images Help Sell More Worksheets | LCS',
+    titleTag: 'How Themed Images Help Sell More Worksheets | LessonCraftStudio',
     metaDescription: 'Themed images make worksheets sell 2-3x more. Learn which themes sell best, how to use images effectively, and how to build themed product lines.',
   },
   hero: {

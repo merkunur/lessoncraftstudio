@@ -14,7 +14,7 @@ const content: GuideContent = {
       'sprachspezifische Alphabete 11 Sprachen',
       'Grundschule Lösungsschlüssel 300 DPI',
     ],
-    titleTag: 'Kryptogramm erstellen | Anleitung | LCS',
+    titleTag: 'Kryptogramm erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Kryptogrammen. Bildchiffre-Mechanik, Schwierigkeitsregler 0-10 und 11 Sprachen. Kostenlos testen.',
   },
 

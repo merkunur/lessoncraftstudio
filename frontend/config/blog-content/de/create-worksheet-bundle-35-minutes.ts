@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Arbeitsblaetter Paket 35 Minuten erstellen',
     secondaryKeywords: ['Arbeitsblatt Bundle schnell erstellen', '50 Arbeitsblaetter Generator', 'Druckvorlagen Paket effizient produzieren'],
     lsiKeywords: ['Arbeitsblaetter Massenproduktion', 'Bundle erstellen Etsy Anleitung', 'Arbeitsblatt-Generator Workflow'],
-    titleTag: '50 Arbeitsblaetter-Paket in 35 Minuten erstellen | LCS',
+    titleTag: '50 Arbeitsblaetter-Paket in 35 Minuten erstellen | LessonCraftStudio',
     metaDescription: 'Schritt-fuer-Schritt-Anleitung: Wie Sie mit dem Arbeitsblatt-Generator ein 50-seitiges Bundle in 35 Minuten erstellen. Von der Idee zum Etsy-Listing.',
   },
   hero: {

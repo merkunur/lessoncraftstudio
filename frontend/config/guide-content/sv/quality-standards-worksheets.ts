@@ -16,7 +16,7 @@ const content: GuideContent = {
       'utfallsinställningar pappersstorlekskompatibilitet visuell konsekvens',
       'recensionsbetyg köparförtroende produktionschecklista kvalitetssäkring',
     ],
-    titleTag: 'Kvalitetskrav arbetsblad att sälja | LCS',
+    titleTag: 'Kvalitetskrav arbetsblad att sälja | LessonCraftStudio',
     metaDescription: 'Kvalitetsstandarder för arbetsblad du säljer på Etsy och KDP. Upplösning, marginaler, typografi, facit och utskriftstestning. Komplett checklista för säljare.',
   },
 

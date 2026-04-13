@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Produktlebenszyklus organische Entdeckung Sprachexpansion',
       'skalierbares Umsatzmodell Katalogeffekte Produktportfolio',
     ],
-    titleTag: 'Nebeneinkommen mit Arbeitsblättern | LCS',
+    titleTag: 'Nebeneinkommen mit Arbeitsblättern | LessonCraftStudio',
     metaDescription: 'Nebeneinkommen mit Arbeitsblättern aufbauen: Immergrüne Kataloge, Multiplattform-Vertrieb und Sprachexpansion für wiederkehrenden Umsatz auf Etsy und KDP.',
   },
 

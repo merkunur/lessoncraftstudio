@@ -15,7 +15,7 @@ const content: GuideContent = {
       'amazon.de activity books',
       'DACH market printables',
     ],
-    titleTag: 'Sell German Printables Etsy Guide | LCS',
+    titleTag: 'Sell German Printables Etsy Guide | LessonCraftStudio',
     metaDescription: 'How to sell German printables Etsy and Amazon DE. Word search, crossword, math worksheets with umlauts. 11-language generator. Try free trial.',
   },
 

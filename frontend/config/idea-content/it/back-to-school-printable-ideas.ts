@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede rientro a scuola da stampare | LCS',
+    titleTag: 'Schede rientro a scuola da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede rientro a scuola da stampare: attività di preparazione per settembre, conteggio materiale scolastico, pregrafismo e giochi educativi per bambini.',
     primaryKeyword: 'schede rientro a scuola da stampare',
     secondaryKeywords: [

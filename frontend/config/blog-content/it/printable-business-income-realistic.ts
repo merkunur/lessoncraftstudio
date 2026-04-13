@@ -17,7 +17,7 @@ const content: BlogContent = {
       'tempo',
       'risultati',
     ],
-    titleTag: 'Guadagni Realistici Schede Didattiche | LCS',
+    titleTag: 'Guadagni Realistici Schede Didattiche | LessonCraftStudio',
     metaDescription: 'Quanto si guadagna realmente vendendo schede didattiche online. Dati concreti e aspettative realistiche con LessonCraftStudio — 33 generatori.',
   },
   hero: {

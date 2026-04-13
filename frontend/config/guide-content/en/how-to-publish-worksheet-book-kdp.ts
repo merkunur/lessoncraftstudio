@@ -15,7 +15,7 @@ const content: GuideContent = {
       'KDP categories keywords',
       'book pricing royalties',
     ],
-    titleTag: 'How to Publish a Worksheet Book on KDP | LCS',
+    titleTag: 'How to Publish a Worksheet Book on KDP | LessonCraftStudio',
     metaDescription: 'Step-by-step guide to publishing your first worksheet book on Amazon KDP. Account setup, manuscript upload, cover, categories, keywords, pricing, preview, and publish.',
   },
 

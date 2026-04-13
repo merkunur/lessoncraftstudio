@@ -15,7 +15,7 @@ const content: BlogContent = {
       'printable party games business',
       'game worksheet printable profit',
     ],
-    titleTag: 'Printable Games Niche: Bingo, Treasure Hunts & Party Games That Sell | LCS',
+    titleTag: 'Printable Games Niche: Bingo, Treasure Hunts & Party Games That Sell | LessonCraftStudio',
     metaDescription: 'Printable games — bingo, treasure hunts, and party games — are a high-conversion niche. Learn which game types sell best and how to create them efficiently.',
   },
   hero: {

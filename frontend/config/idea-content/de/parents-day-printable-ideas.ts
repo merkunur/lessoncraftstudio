@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Mai-Juni saisonale Nachfrage doppelt',
       'Familienfest-Thema Druckvorlagen Nische',
     ],
-    titleTag: 'Elterntag-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Elterntag-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Elterntag-Druckvorlagen als profitable Etsy-Nische entdecken. Muttertag und Vatertag als doppeltes Verkaufsfenster — saisonale Produktideen und Strategien für Shops.',
   },
   hero: {

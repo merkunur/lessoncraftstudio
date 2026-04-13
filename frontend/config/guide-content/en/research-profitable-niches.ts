@@ -14,7 +14,7 @@ const content: GuideContent = {
       'niche profitability scoring',
       'keyword-based niche validation',
     ],
-    titleTag: 'Research Profitable Printable Niches | LCS',
+    titleTag: 'Research Profitable Printable Niches | LessonCraftStudio',
     metaDescription: 'Research profitable printable niches with proven methods. Market analysis, competition scoring, and demand validation for Etsy and KDP sellers.',
   },
 

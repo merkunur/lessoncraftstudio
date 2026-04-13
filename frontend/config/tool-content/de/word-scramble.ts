@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Wortschatz',
       'durcheinander',
     ],
-    titleTag: 'Kostenloser Buchstabensalat-Generator | LCS',
+    titleTag: 'Kostenloser Buchstabensalat-Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Buchstabensalat-Generator — Schüttelwörter-Rätsel mit Themenbildern sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'etsy buyer communication printables',
       'customer experience digital downloads',
     ],
-    titleTag: 'Customer Service for Digital Products | LCS',
+    titleTag: 'Customer Service for Digital Products | LessonCraftStudio',
     metaDescription: 'Customer service strategies for digital product sellers. Handle refunds, download issues, and complaints to keep your 5-star rating on Etsy.',
   },
   hero: {

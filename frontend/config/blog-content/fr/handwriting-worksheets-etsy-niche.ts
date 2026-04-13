@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches calligraphie enfants',
       'exercices écriture cursive vendre',
     ],
-    titleTag: 'Fiches d\'écriture sur Etsy : tendances 2026 | LCS',
+    titleTag: 'Fiches d\'écriture sur Etsy : tendances 2026 | LessonCraftStudio',
     metaDescription: 'Les fiches d\'écriture sont l\'un des imprimables les plus recherchés sur Etsy. Tendances 2026, formats qui se vendent et stratégies pour ce marché en croissance.',
   },
   hero: {

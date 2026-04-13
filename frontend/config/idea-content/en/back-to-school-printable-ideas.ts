@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Back to School Printables to Sell | LCS',
+    titleTag: 'Back to School Printables to Sell | LessonCraftStudio',
     metaDescription: 'Back to school printable ideas for Etsy & KDP. Product concepts, July-September timing, and strategies for the biggest educational demand window.',
 
     primaryKeyword: 'back to school printables to sell',

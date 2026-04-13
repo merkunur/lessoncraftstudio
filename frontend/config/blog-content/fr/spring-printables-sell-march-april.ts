@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances printemps',
       'demande fiches imprimables printemps',
     ],
-    titleTag: 'Imprimables de printemps : mars-avril | LCS',
+    titleTag: 'Imprimables de printemps : mars-avril | LessonCraftStudio',
     metaDescription: 'Les imprimables de printemps se vendent bien de mars à mai. Fleurs, jardinage, insectes et renouveau de la nature.',
   },
   hero: {

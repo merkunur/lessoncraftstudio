@@ -13,7 +13,7 @@ const content: BlogContent = {
       'toddler worksheet business Etsy',
       'preschool curriculum printable sell',
     ],
-    titleTag: 'How to Make Preschool Workbooks to Sell on Etsy | LCS',
+    titleTag: 'How to Make Preschool Workbooks to Sell on Etsy | LessonCraftStudio',
     metaDescription: 'Create comprehensive preschool workbooks by combining multiple generators. Size comparison, patterns, matching, and tracing in one product that sells on Etsy.',
   },
   hero: {

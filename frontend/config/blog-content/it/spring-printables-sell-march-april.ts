@@ -17,7 +17,7 @@ const content: BlogContent = {
       'aprile',
       'natura',
     ],
-    titleTag: 'Schede Didattiche Primavera da Stampare | LCS',
+    titleTag: 'Schede Didattiche Primavera da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche di primavera da stampare per bambini. Fiori, farfalle e attività primaverili con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

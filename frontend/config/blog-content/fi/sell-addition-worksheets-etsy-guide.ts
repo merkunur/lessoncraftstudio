@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Etsy digitaalinen lataus matematiikka',
       'tehtäväarkkien hinnoittelu Etsy',
     ],
-    titleTag: 'Myy yhteenlaskutehtäviä Etsyssä | LCS',
+    titleTag: 'Myy yhteenlaskutehtäviä Etsyssä | LessonCraftStudio',
     metaDescription: 'Myy yhteenlaskutehtäviä Etsyssä: hinnoittelu ja strategiat. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

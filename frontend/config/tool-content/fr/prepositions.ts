@@ -21,7 +21,7 @@ const content: ToolContent = {
       'à côté',
       'entre',
     ],
-    titleTag: 'Fiches repérage spatial gratuit en ligne | LCS',
+    titleTag: 'Fiches repérage spatial gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de fiches de repérage spatial gratuit — exercices de prépositions avec images en ligne, sans inscription. Corrections automatiques, 11 langues. Licence commerciale.',
   },
 

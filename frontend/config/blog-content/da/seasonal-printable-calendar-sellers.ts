@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'sæsonkalender printable sælgere',
     secondaryKeywords: ['sæsonkalender printable sælgere Etsy', 'sæsonkalender printable sælgere online', 'sæsonkalender printable sælgere forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Sæsonkalender for Printable-Sælgere i Danmark | LCS',
+    titleTag: 'Sæsonkalender for Printable-Sælgere i Danmark | LessonCraftStudio',
     metaDescription: 'En sæsonkalender er dit vigtigste planlægningsværktøj som printable-sælger. Denne guide giver dig den komplette danske sæsonkalender med alle vigtige datoe',
   },
   hero: {

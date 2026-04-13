@@ -13,7 +13,7 @@ const content: BlogContent = {
       'visuelle Suchmaschine Druckvorlagen',
       'Pinterest Business Konto Tipps',
     ],
-    titleTag: 'Pinterest-Traffic fuer Ihren Druckvorlagen-Shop | LCS',
+    titleTag: 'Pinterest-Traffic fuer Ihren Druckvorlagen-Shop | LessonCraftStudio',
     metaDescription: 'Wie Sie Pinterest nutzen, um kostenlosen Traffic zu Ihrem Druckvorlagen-Shop auf Etsy zu leiten. Pin-Design, Boards und Content-Strategie.',
   },
   hero: {

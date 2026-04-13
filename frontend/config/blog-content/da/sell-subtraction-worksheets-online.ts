@@ -13,7 +13,7 @@ const content: BlogContent = {
       'matematik digital download salg',
       'subtraktion øvelsesark prissætning',
     ],
-    titleTag: 'Sælg Subtraktions-Arbejdsark Online: Guide | LCS',
+    titleTag: 'Sælg Subtraktions-Arbejdsark Online: Guide | LessonCraftStudio',
     metaDescription: 'Subtraktions-arbejdsark er et eviggrønt produkt med stabil efterspørgsel. Lær at oprette, prissætte og sælge dem profitabelt på Etsy og KDP.',
   },
   hero: {

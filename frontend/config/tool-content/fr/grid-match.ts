@@ -20,7 +20,7 @@ const content: ToolContent = {
       'symétrie',
       'repérage spatial',
     ],
-    titleTag: 'Dessin sur quadrillage gratuit en ligne | LCS',
+    titleTag: 'Dessin sur quadrillage gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches de reproduction sur quadrillage gratuitement en ligne — sans inscription. Images thématiques, corrections automatiques, PDF imprimables. Licence commerciale.',
   },
 

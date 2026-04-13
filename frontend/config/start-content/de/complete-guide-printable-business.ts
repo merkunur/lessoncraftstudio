@@ -15,7 +15,7 @@ const content: StartContent = {
       'Marktplatzwahl',
       'erste Verkäufe',
     ],
-    titleTag: 'Druckvorlagen-Business starten | Komplett-Anleitung | LCS',
+    titleTag: 'Druckvorlagen-Business starten | Komplett-Anleitung | LessonCraftStudio',
     metaDescription: 'Komplette Anleitung zum Start eines Druckvorlagen-Business. Von der Produkterstellung bis zum ersten Verkauf auf Etsy, KDP oder eigenem Shop.',
   },
 

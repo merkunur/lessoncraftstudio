@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches calcul téléchargeables',
       'soustraction avec retenue fiches',
     ],
-    titleTag: 'Vendre des fiches de soustraction en ligne | LCS',
+    titleTag: 'Vendre des fiches de soustraction en ligne | LessonCraftStudio',
     metaDescription: 'Apprenez à vendre des fiches de soustraction en ligne. Niches rentables, stratégies de packs et plateformes idéales pour maximiser vos ventes en 2026.',
   },
   hero: {

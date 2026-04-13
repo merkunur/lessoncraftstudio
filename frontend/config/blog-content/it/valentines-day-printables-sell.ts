@@ -17,7 +17,7 @@ const content: BlogContent = {
       'febbraio',
       '14 febbraio',
     ],
-    titleTag: 'Schede San Valentino da Stampare Bambini | LCS',
+    titleTag: 'Schede San Valentino da Stampare Bambini | LessonCraftStudio',
     metaDescription: 'Schede didattiche di San Valentino da stampare per bambini. Attività su amore e amicizia per la scuola con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

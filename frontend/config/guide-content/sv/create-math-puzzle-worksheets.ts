@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok mattepussel aktivitetsbok',
       'kommersiell licens pussel-generator facit automatiskt',
     ],
-    titleTag: 'Skapa mattepussel att skriva ut | LCS',
+    titleTag: 'Skapa mattepussel att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa mattepussel att skriva ut där barn löser ekvationer och återställer bilder. Rutnätsstorlekar, automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 

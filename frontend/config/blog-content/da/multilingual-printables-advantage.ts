@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'flersprogede printables fordele',
     secondaryKeywords: ['flersprogede printables fordele Etsy', 'flersprogede printables fordele online', 'flersprogede printables fordele forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Flersprogede Printables: Din Konkurrencefordel | LCS',
+    titleTag: 'Flersprogede Printables: Din Konkurrencefordel | LessonCraftStudio',
     metaDescription: 'Flersprogede printables giver dig en massiv konkurrencefordel. Mens de fleste sælgere kun tilbyder engelske produkter, kan du med LessonCraftStudios 11 spr',
   },
   hero: {

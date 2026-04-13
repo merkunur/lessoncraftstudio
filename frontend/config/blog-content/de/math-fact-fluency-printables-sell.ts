@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Kopfrechnen Druckvorlagen verkaufen Lehrer Eltern',
     secondaryKeywords: ['Einmaleins Arbeitsblaetter Etsy', 'Mathe Uebungen Grundschule PDF', 'Rechentraining Druckvorlagen Geschaeft'],
     lsiKeywords: ['Kopfrechnen ueben Kinder PDF', 'Rechenflaeche Grundschule Material', 'Mathe Automatisierung Arbeitsblaetter'],
-    titleTag: 'Kopfrechnen-Druckvorlagen: Lehrer & Eltern | LCS',
+    titleTag: 'Kopfrechnen-Druckvorlagen: Lehrer & Eltern | LessonCraftStudio',
     metaDescription: 'Kopfrechnen-Druckvorlagen verkaufen: Warum Einmaleins und Grundrechenarten ganzjaehrig gefragt sind. Produkte fuer Lehrer UND Eltern.',
   },
   hero: {

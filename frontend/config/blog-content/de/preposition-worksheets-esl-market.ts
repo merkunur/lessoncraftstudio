@@ -13,7 +13,7 @@ const content: BlogContent = {
       'DaZ Material verkaufen Etsy',
       'Sprachfoerderung Druckvorlagen',
     ],
-    titleTag: 'Praepositionen-Arbeitsblaetter: DaF-Markt | LCS',
+    titleTag: 'Praepositionen-Arbeitsblaetter: DaF-Markt | LessonCraftStudio',
     metaDescription: 'So bedienen Sie den wachsenden DaF/DaZ-Markt mit Praepositionen-Arbeitsblaettern. Zielgruppen, Preise und Verkaufsstrategien fuer Etsy und Eduki.',
   },
   hero: {

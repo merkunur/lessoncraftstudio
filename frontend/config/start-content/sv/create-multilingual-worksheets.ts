@@ -17,7 +17,7 @@ const content: StartContent = {
       'internationell expansion printable-företag',
       'lokaliserat pedagogiskt innehåll',
     ],
-    titleTag: 'Flerspråkiga arbetsblad: sälj på 11 språk | LCS',
+    titleTag: 'Flerspråkiga arbetsblad: sälj på 11 språk | LessonCraftStudio',
     metaDescription: 'Skapa och sälj arbetsblad på 11 språk utan översättningsarbete. Nå köpare på Etsy.de, Amazon.fr och globala marknader.',
   },
 

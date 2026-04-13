@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Schritt fuer Schritt zeichnen Arbeitsblatt',
       'Kreativitaet foerdern Druckvorlagen',
     ],
-    titleTag: 'Zeichnen und Ausmalen: Zwei Nischen kombinieren | LCS',
+    titleTag: 'Zeichnen und Ausmalen: Zwei Nischen kombinieren | LessonCraftStudio',
     metaDescription: 'So kombinieren Sie Zeichnen und Ausmalen zu einem Premium-Produkt. Warum das Kombi-Format auf Etsy.de hoehere Preise erzielt.',
   },
   hero: {

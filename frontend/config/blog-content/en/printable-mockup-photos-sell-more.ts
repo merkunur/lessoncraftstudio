@@ -13,7 +13,7 @@ const content: BlogContent = {
       'product photography digital downloads',
       'mockup templates printable sellers',
     ],
-    titleTag: 'Mockup Photos Help You Sell 3x More Printables | LCS',
+    titleTag: 'Mockup Photos Help You Sell 3x More Printables | LessonCraftStudio',
     metaDescription: 'How mockup photos help printable sellers sell 3x more on Etsy. Step-by-step guide to creating mockups that convert browsers into buyers.',
   },
   hero: {

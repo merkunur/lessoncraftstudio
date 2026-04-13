@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede spazio da stampare per bambini | LCS',
+    titleTag: 'Schede spazio da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede a tema spazio da stampare: colorare pianeti e razzi, conteggio stelle, crucipuzzle sistema solare e attività STEM per bambini 4-9 anni.',
     primaryKeyword: 'schede spazio da stampare',
     secondaryKeywords: [

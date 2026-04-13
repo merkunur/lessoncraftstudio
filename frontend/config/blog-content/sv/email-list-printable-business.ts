@@ -13,7 +13,7 @@ const content: BlogContent = {
       'segmentering printable-kunder',
       'egen kundlista oberoende Etsy',
     ],
-    titleTag: 'E-postlista för Printable-Verksamhet | LCS',
+    titleTag: 'E-postlista för Printable-Verksamhet | LessonCraftStudio',
     metaDescription: 'Bygg en e-postlista för din printable-verksamhet. Leadmagneter, segmentering och strategier som ger återkommande kunder.',
   },
   hero: {

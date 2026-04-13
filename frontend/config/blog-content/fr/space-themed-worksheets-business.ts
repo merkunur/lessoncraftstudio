@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances thème',
       'demande fiches fiches thème',
     ],
-    titleTag: 'Fiches thème espace : un créneau en croissance | LCS',
+    titleTag: 'Fiches thème espace : un créneau en croissance | LessonCraftStudio',
     metaDescription: 'Les fiches sur le thème de l\'espace (planètes, fusées, astronautes) sont un créneau en croissance pour les. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

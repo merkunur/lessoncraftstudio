@@ -15,7 +15,7 @@ const content: BundleContent = {
       'complete sorting generator package',
       'matching worksheet seller toolkit',
     ],
-    titleTag: 'Matching & Sorting Bundle for Etsy | LCS',
+    titleTag: 'Matching & Sorting Bundle for Etsy | LessonCraftStudio',
     metaDescription: 'Get all 5 matching and sorting generators in one bundle. Matching, shadow match, grid match, bingo & more. $149 one-time.',
   },
 

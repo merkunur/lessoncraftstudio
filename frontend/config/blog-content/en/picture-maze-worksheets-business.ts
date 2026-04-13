@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kids maze books sell KDP',
       'labyrinth worksheets profit',
     ],
-    titleTag: 'Picture Maze Worksheets: 5 Business Ideas | LCS',
+    titleTag: 'Picture Maze Worksheets: 5 Business Ideas | LessonCraftStudio',
     metaDescription: 'Five business ideas for picture maze worksheets. From Etsy packs to KDP books, discover how to monetize this evergreen puzzle format.',
   },
   hero: {

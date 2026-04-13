@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'dsa arbejdsark voksende globalt marked',
     secondaryKeywords: ['DSA arbejdsark globalt marked Etsy', 'DSA arbejdsark globalt marked online', 'DSA arbejdsark globalt marked forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'DSA-Arbejdsark: Et Voksende Globalt Marked | LCS',
+    titleTag: 'DSA-Arbejdsark: Et Voksende Globalt Marked | LessonCraftStudio',
     metaDescription: 'Dansk som Andetsprog (DSA) og ESL (English as a Second Language) er en af de hurtigst voksende nicher for printable-produkter. Med stigende immigration og ',
   },
   hero: {

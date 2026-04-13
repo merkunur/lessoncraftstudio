@@ -15,7 +15,7 @@ const content: StartContent = {
       'E-Mail-Marketing',
       'SEO',
     ],
-    titleTag: 'Marketing für Druckvorlagen-Business | Strategien | LCS',
+    titleTag: 'Marketing für Druckvorlagen-Business | Strategien | LessonCraftStudio',
     metaDescription: 'Effektive Marketing-Strategien für Ihr Druckvorlagen-Business. Pinterest, Social Media, E-Mail und SEO für mehr Traffic und Verkäufe.',
   },
 

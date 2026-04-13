@@ -8,7 +8,7 @@ const content: BlogContent = {
       'arbeidsark forretning inntektsforventning',
     ],
     lsiKeywords: ['digital nedlasting inntekt realistisk', 'arbeidsark selger hva forvente', 'Etsy passiv inntekt myte'],
-    titleTag: 'Passiv inntekt fra arbeidsark: Sannheten | LCS',
+    titleTag: 'Passiv inntekt fra arbeidsark: Sannheten | LessonCraftStudio',
     metaDescription: 'Er passiv inntekt fra arbeidsark realistisk? Et ærlig bilde av hva som kreves. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

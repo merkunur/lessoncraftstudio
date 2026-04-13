@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'First Grade Printables to Sell | LCS',
+    titleTag: 'First Grade Printables to Sell | LessonCraftStudio',
     metaDescription: 'First grade printable ideas for Etsy & KDP. Grade-specific product concepts and strategies for primary school printable sellers.',
 
     primaryKeyword: 'first grade printables to sell',

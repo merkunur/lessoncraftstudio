@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'gitter matchning puslespil sælg',
     secondaryKeywords: ['gitter matchning puslespil sælg Etsy', 'gitter matchning puslespil sælg online', 'gitter matchning puslespil sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Gitter-Matchning Puslespil: Unik Niche | LCS',
+    titleTag: 'Gitter-Matchning Puslespil: Unik Niche | LessonCraftStudio',
     metaDescription: 'Gitter-matchning puslespil er et nichepuslespilformat, hvor børn matcher billeder i et gitter. Formatet kombinerer logisk tænkning med visuelt genkendelse ',
   },
   hero: {

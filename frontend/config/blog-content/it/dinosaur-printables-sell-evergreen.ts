@@ -17,7 +17,7 @@ const content: BlogContent = {
       'paleontologia',
       'bambini',
     ],
-    titleTag: 'Schede Didattiche Dinosauri da Stampare | LCS',
+    titleTag: 'Schede Didattiche Dinosauri da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche a tema dinosauri da stampare per bambini. Attività educative preistoriche con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

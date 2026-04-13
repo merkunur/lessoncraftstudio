@@ -17,7 +17,7 @@ const content: StartContent = {
       'moms EU digitala tjänster',
       'plattformsvillkor Etsy Amazon KDP',
     ],
-    titleTag: 'Juridik och skatt för printable-säljare | LCS',
+    titleTag: 'Juridik och skatt för printable-säljare | LessonCraftStudio',
     metaDescription: 'Juridik och skatt för printable-säljare i Sverige. Företagsform, moms på digitala produkter, avdrag och immaterialrätt förklarat.',
   },
 

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'skalbara processer tidsbesparande verktyg produktskapande hastighet',
       'produktionssystem Etsy KDP Gumroad digital försäljning automatisering',
     ],
-    titleTag: 'Automatisera din printable-verksamhet | LCS',
+    titleTag: 'Automatisera din printable-verksamhet | LessonCraftStudio',
     metaDescription: 'Så effektiviserar du din verksamhet med utskriftsbara produkter. Batchproduktion, mallsystem och arbetsflöden för att sälja mer på Etsy och Amazon KDP.',
   },
 

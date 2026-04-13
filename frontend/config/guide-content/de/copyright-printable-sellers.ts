@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Fair Use Gemeinfreiheit abgeleitete Werke kreative Ausdrucksform',
       'Marktplatz IP-Schutz Content-Scraping Konformität',
     ],
-    titleTag: 'Urheberrecht für Druckvorlagen-Verkäufer | LCS',
+    titleTag: 'Urheberrecht für Druckvorlagen-Verkäufer | LessonCraftStudio',
     metaDescription: 'Urheberrecht für Druckvorlagen-Verkäufer verstehen: Schutzfähige Elemente, Registrierung, DMCA-Durchsetzung und Vermeidung von Verletzungen im Printable-Business.',
   },
 

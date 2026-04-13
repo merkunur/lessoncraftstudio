@@ -16,7 +16,7 @@ const content: StartContent = {
       'libri educativi',
       'bambini',
     ],
-    titleTag: 'Pubblicare quaderni attività su Amazon KDP | LCS',
+    titleTag: 'Pubblicare quaderni attività su Amazon KDP | LessonCraftStudio',
     metaDescription: 'Come pubblicare quaderni di attività per bambini su Amazon KDP: formattazione interni, copertina, parole chiave e pricing. Guida passo dopo passo.',
   },
 

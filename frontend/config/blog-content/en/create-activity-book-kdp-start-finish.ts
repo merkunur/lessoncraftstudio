@@ -13,7 +13,7 @@ const content: BlogContent = {
       'activity book manuscript upload',
       'amazon self-publishing printables',
     ],
-    titleTag: 'Create a KDP Activity Book: Start to Finish | LCS',
+    titleTag: 'Create a KDP Activity Book: Start to Finish | LessonCraftStudio',
     metaDescription: 'Complete guide to creating and publishing a KDP activity book. From content generation to manuscript upload, cover design, and first sales.',
   },
   hero: {

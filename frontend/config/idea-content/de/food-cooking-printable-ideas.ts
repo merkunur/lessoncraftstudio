@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Ernährungs-Thema Druckvorlagen ganzjährig',
       'Kochen Hauswirtschaft Nische Etsy-Shop',
     ],
-    titleTag: 'Essen-und-Kochen-Druckvorlagen Nische | LCS',
+    titleTag: 'Essen-und-Kochen-Druckvorlagen Nische | LessonCraftStudio',
     metaDescription: 'Essen-und-Kochen-Druckvorlagen als profitable Etsy-Nische entdecken. Koch- und Lebensmittelthemen als ganzjährige Nische — Produktideen und Strategien für Verkäufer.',
   },
   hero: {

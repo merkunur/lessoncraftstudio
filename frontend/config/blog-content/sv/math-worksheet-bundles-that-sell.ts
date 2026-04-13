@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'sälja mattepaket arbetsblad Etsy',
     secondaryKeywords: ['matte-arbetsblad bundle strategi', 'prissätta mattepaket printable', 'lönsamma matteblad paket Etsy'],
     lsiKeywords: ['paketpris psykologi SEK', 'additionspaket subtraktionspaket', 'årskurspaket matte printable'],
-    titleTag: 'Sälj Mattepaket på Etsy: Paketstrategi | LCS',
+    titleTag: 'Sälj Mattepaket på Etsy: Paketstrategi | LessonCraftStudio',
     metaDescription: 'Skapa mattepaket som säljer på Etsy. Paketstrategier och prissättning som tredubblar ditt ordervärde 2026.',
   },
   hero: {

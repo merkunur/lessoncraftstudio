@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fichas adivinanza letras educativo',
       'word guess game printable business',
     ],
-    titleTag: 'Fichas Adivinar Palabras: Ingresos Reales | LCS',
+    titleTag: 'Fichas Adivinar Palabras: Ingresos Reales | LessonCraftStudio',
     metaDescription: 'Convierta el juego de adivinar palabras en un producto digital rentable. Estrategias para Etsy, KDP y fiestas. Prueba gratuita con marca de agua.',
   },
   hero: {

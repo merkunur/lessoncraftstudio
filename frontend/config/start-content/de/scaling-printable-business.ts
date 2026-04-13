@@ -15,7 +15,7 @@ const content: StartContent = {
       'Produktlinien erweitern',
       'Outsourcing',
     ],
-    titleTag: 'Druckvorlagen-Business skalieren | Wachstum | LCS',
+    titleTag: 'Druckvorlagen-Business skalieren | Wachstum | LessonCraftStudio',
     metaDescription: 'So skalieren Sie Ihr Druckvorlagen-Business: Automatisierung, neue Märkte, Produktlinien erweitern und Outsourcing-Strategien.',
   },
 

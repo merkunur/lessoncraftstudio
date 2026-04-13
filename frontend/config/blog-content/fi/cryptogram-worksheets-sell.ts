@@ -13,7 +13,7 @@ const content: BlogContent = {
       'looginen ajattelu tulosteet',
       'ongelmanratkaisu tehtävät',
     ],
-    titleTag: 'Salakirjoitustehtävät myyntiin | LCS',
+    titleTag: 'Salakirjoitustehtävät myyntiin | LessonCraftStudio',
     metaDescription: 'Myy salakirjoitustyöarkkeja — ainutlaatuinen ongelmanratkaisuniche. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

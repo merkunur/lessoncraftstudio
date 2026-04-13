@@ -13,7 +13,7 @@ const content: BlogContent = {
       'worksheet pricing strategy',
       'Etsy digital download math',
     ],
-    titleTag: 'Sell Addition Worksheets on Etsy: Guide | LCS',
+    titleTag: 'Sell Addition Worksheets on Etsy: Guide | LessonCraftStudio',
     metaDescription: 'Learn how to sell addition worksheets on Etsy profitably. Pricing, bundling, and listing strategies that work in 2026. Try the free trial generator.',
   },
   hero: {

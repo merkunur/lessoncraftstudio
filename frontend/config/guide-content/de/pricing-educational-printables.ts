@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Unterbepreisung vermeiden nachhaltige Preisgestaltung',
       'Plattformgebühren Etsy KDP Gumroad Vergleich',
     ],
-    titleTag: 'Druckvorlagen Preise kalkulieren | LCS',
+    titleTag: 'Druckvorlagen Preise kalkulieren | LessonCraftStudio',
     metaDescription: 'Druckvorlagen Preise richtig kalkulieren: Preispsychologie, Wettbewerbsanalyse, Plattformgebuehren und Gewinnmargen-Optimierung fuer Etsy, Amazon KDP und Gumroad.',
   },
 

@@ -8,7 +8,7 @@ const content: BlogContent = {
       'sesongbaserte oppgaver nyttår kommersiell lisens',
     ],
     lsiKeywords: ['sesongprodukter arbeidsark forretning', 'januar salgsmulighet oppgaver', 'norsk vinterferie arbeidsark'],
-    titleTag: 'Selg nyttårs-arbeidsark i januar | LCS',
+    titleTag: 'Selg nyttårs-arbeidsark i januar | LessonCraftStudio',
     metaDescription: 'Utnytt januar og vinterferie med nyttårs-arbeidsark som selger. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

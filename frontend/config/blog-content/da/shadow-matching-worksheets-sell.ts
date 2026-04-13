@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'skyggematching arbejdsark sælg visuelle puslespil',
     secondaryKeywords: ['skyggematching arbejdsark sælg Etsy', 'skyggematching arbejdsark sælg online', 'skyggematching arbejdsark sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Skyggematching-Arbejdsark: Sælg Visuelle Puslespil | LCS',
+    titleTag: 'Skyggematching-Arbejdsark: Sælg Visuelle Puslespil | LessonCraftStudio',
     metaDescription: 'Skyggematching er et visuelt puslespilformat, hvor barnet matcher objekter med deres silhouetter. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

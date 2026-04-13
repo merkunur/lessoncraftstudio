@@ -13,7 +13,7 @@ const content: BlogContent = {
       'classroom bingo sell Etsy',
       'bingo generator business',
     ],
-    titleTag: 'Printable Bingo Cards: Party Business | LCS',
+    titleTag: 'Printable Bingo Cards: Party Business | LessonCraftStudio',
     metaDescription: 'Printable bingo cards serve classrooms, parties, and events — three separate markets. Learn how to build a bingo business across buyer segments.',
   },
   hero: {

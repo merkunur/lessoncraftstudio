@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles tematica fichas', 'vender imprimibles imprimibles', 'mar vender educativos'],
-    titleTag: 'Imprimibles del Oceano y Animales Marinos | LCS',
+    titleTag: 'Imprimibles del Oceano y Animales Marinos | LessonCraftStudio',
     metaDescription: 'El oceano y la vida marina combinan educacion cientifica con temas visualmente atractivos. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

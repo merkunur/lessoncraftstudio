@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'dinosaur printables sælg eviggrønt',
     secondaryKeywords: ['dinosaur printables sælg eviggrønt Etsy', 'dinosaur printables sælg eviggrønt online', 'dinosaur printables sælg eviggrønt forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Dinosaur-Printables: Et Eviggrønt Marked | LCS',
+    titleTag: 'Dinosaur-Printables: Et Eviggrønt Marked | LessonCraftStudio',
     metaDescription: 'Dinosaurer er det mest konsistente tema for børne-printables. Drenges fascination af dinosaurer er alders- og kulturuafhængig — det er et marked der aldrig',
   },
   hero: {

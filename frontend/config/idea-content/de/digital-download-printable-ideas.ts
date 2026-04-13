@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'lagerloses Druckvorlagen-Geschäftsmodell',
       'skalierbares Einkommen digitale Produkte',
     ],
-    titleTag: 'Digitale Downloads Druckvorlagen Nische | LCS',
+    titleTag: 'Digitale Downloads Druckvorlagen Nische | LessonCraftStudio',
     metaDescription: 'Digitale Downloads als Druckvorlagen-Nische entdecken. Arbeitsblatt-PDFs mit höchsten Gewinnmargen erstellen — lagerloses Geschäftsmodell mit Sofortlieferung auf Etsy.',
   },
   hero: {

@@ -15,7 +15,7 @@ const content: GuideContent = {
       'graph paper notebook',
       'dot grid journal KDP',
     ],
-    titleTag: 'Low Content Book Ideas for KDP (2026) | LCS',
+    titleTag: 'Low Content Book Ideas for KDP (2026) | LessonCraftStudio',
     metaDescription: 'Profitable low content book ideas for Amazon KDP in 2026. Coloring books, tracing books, graph paper, dot grid journals. Use LCS generators to create interiors fast.',
   },
 

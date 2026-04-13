@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'gedruckte Hefte Direktvertrieb Etsy',
       'physische Produkte höhere Margen Nische',
     ],
-    titleTag: 'Physische Druckvorlagen-Produkte Idee | LCS',
+    titleTag: 'Physische Druckvorlagen-Produkte Idee | LessonCraftStudio',
     metaDescription: 'Physische Druckvorlagen-Produkte als Premium-Geschäftsidee entdecken. Laminierte Arbeitsblätter und gebundene Hefte mit höheren Margen als digitale Downloads.',
   },
   hero: {

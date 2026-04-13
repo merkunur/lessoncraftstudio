@@ -13,7 +13,7 @@ const content: BlogContent = {
       'caligrafía niños imprimibles mercado',
       'worksheets escritura descarga digital',
     ],
-    titleTag: 'Fichas de Escritura en Etsy: Tendencias 2026 | LCS',
+    titleTag: 'Fichas de Escritura en Etsy: Tendencias 2026 | LessonCraftStudio',
     metaDescription: 'Las fichas de escritura son tendencia en Etsy en 2026. Descubra qué tipos se venden mejor y cómo posicionarse. Prueba gratuita con marca de agua.',
   },
   hero: {

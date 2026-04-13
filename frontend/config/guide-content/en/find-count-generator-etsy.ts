@@ -15,7 +15,7 @@ const content: GuideContent = {
       'visual search counting worksheet',
       'letter spotting activity',
     ],
-    titleTag: 'Find & Count Generator for Etsy Sellers | LCS',
+    titleTag: 'Find & Count Generator for Etsy Sellers | LessonCraftStudio',
     metaDescription: 'Create find-and-count I-Spy worksheets for Etsy. 2 activity modes, 4 task types, 104 themes, 11 languages, auto answer keys. Step-by-step Etsy seller guide.',
   },
 

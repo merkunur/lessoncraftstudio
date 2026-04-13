@@ -13,7 +13,7 @@ const content: BlogContent = {
       'SEO-virheet Etsy-kauppa',
       'tuotevalikoiman virheet',
     ],
-    titleTag: 'Tulosteliiketoiminnan 10 virhettä | LCS',
+    titleTag: 'Tulosteliiketoiminnan 10 virhettä | LessonCraftStudio',
     metaDescription: 'Vältä 10 yleisintä virhettä tulosteliiketoiminnassa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

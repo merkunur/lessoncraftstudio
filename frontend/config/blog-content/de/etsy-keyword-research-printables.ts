@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy Keyword Recherche Druckvorlagen Anfaenger',
     secondaryKeywords: ['Etsy-Keyword-Recherche fuer Druckvorlagen Anleitung', 'Druckvorlagen Etsy-Keyword-Recherche Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Etsy-Keyword-Recherche: Anfaenger-Guide | LCS',
+    titleTag: 'Etsy-Keyword-Recherche: Anfaenger-Guide | LessonCraftStudio',
     metaDescription: 'Etsy-Keyword-Recherche fuer Druckvorlagen: Wie Sie die richtigen Keywords finden, Ihre Tags optimieren und mehr Kaeufer erreichen.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Buchstabencode Arbeitsblaetter PDF',
       'Geheimcode Raetsel Grundschule',
     ],
-    titleTag: 'Kryptogramm-Arbeitsblaetter: Premium-Nische | LCS',
+    titleTag: 'Kryptogramm-Arbeitsblaetter: Premium-Nische | LessonCraftStudio',
     metaDescription: 'Warum Kryptogramm-Arbeitsblaetter auf Etsy.de Premium-Preise erzielen. Erstellung, Zielgruppen und Verkaufsstrategien fuer den DACH-Markt.',
   },
   hero: {

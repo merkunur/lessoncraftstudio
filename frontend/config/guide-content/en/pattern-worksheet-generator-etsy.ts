@@ -15,7 +15,7 @@ const content: GuideContent = {
       'AB ABC pattern worksheets',
       'print-ready educational printables',
     ],
-    titleTag: 'Pattern Worksheet Generator for Etsy | LCS',
+    titleTag: 'Pattern Worksheet Generator for Etsy | LessonCraftStudio',
     metaDescription: 'Create pattern recognition worksheets that sell on Etsy. 9 pattern types, 2 question modes, 104 themes, auto answer keys. Step-by-step Etsy listing guide.',
   },
 

@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'valentinsdag arbeidsark selge Etsy hjertetema',
     secondaryKeywords: ['valentinsdag oppgaver selge nettbutikk', 'hjerte-tema arbeidsark forretning', 'valentinsdag ordleting matte-oppgaver selge'],
     lsiKeywords: ['sesongbaserte arbeidsark salg', 'valentinsdag oppgaver barn', 'hjerte arbeidsark kommersiell lisens'],
-    titleTag: 'Valentinsdag-arbeidsark: Selg hjertetema | LCS',
+    titleTag: 'Valentinsdag-arbeidsark: Selg hjertetema | LessonCraftStudio',
     metaDescription: 'Selg valentinsdag-arbeidsark med hjertetema og ordleting på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'skaler arbeidsark forretning automatisering effektivitet',
     secondaryKeywords: ['automatiser arbeidsark produksjon skalering', 'skaler digital produktforretning smartere', 'arbeidsark forretning automatisering tips'],
     lsiKeywords: ['skalering arbeidsark butikk', 'automatisering digital produktforretning', 'effektiv produksjon arbeidsark'],
-    titleTag: 'Skaler arbeidsark-forretningen med automatisering | LCS',
+    titleTag: 'Skaler arbeidsark-forretningen med automatisering | LessonCraftStudio',
     metaDescription: 'Automatiser produksjon og publisering for å skalere arbeidsark-forretningen. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

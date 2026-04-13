@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'hjemmeundervisning printables voksende marked',
     secondaryKeywords: ['hjemmeundervisning printables voksende marked Etsy', 'hjemmeundervisning printables voksende marked online', 'hjemmeundervisning printables voksende marked forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Hjemmeundervisning-Printables: Et Voksende Marked | LCS',
+    titleTag: 'Hjemmeundervisning-Printables: Et Voksende Marked | LessonCraftStudio',
     metaDescription: 'Hjemmeundervisning vokser globalt, og danske familier der vælger hjemmeundervisning har brug for strukturerede materialer. Denne niche har dedikerede, beta',
   },
   hero: {

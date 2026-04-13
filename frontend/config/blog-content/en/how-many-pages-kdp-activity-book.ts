@@ -13,7 +13,7 @@ const content: BlogContent = {
       'KDP printing cost per page',
       'activity book buyer expectations',
     ],
-    titleTag: 'How Many Pages Should a KDP Activity Book Have? | LCS',
+    titleTag: 'How Many Pages Should a KDP Activity Book Have? | LessonCraftStudio',
     metaDescription: 'Find the optimal page count for your KDP activity book. Learn how page count affects printing cost, pricing, reviews, and sales across every activity type.',
   },
   hero: {

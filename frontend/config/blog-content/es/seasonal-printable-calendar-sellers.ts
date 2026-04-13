@@ -13,7 +13,7 @@ const content: BlogContent = {
       'meses altas ventas Etsy fichas',
       'estacionalidad productos digitales',
     ],
-    titleTag: 'Calendario Estacional para Vendedores de Imprimibles | LCS',
+    titleTag: 'Calendario Estacional para Vendedores de Imprimibles | LessonCraftStudio',
     metaDescription: 'Planifique su inventario de imprimibles segun las temporadas de mayor demanda. Calendario mes a mes para maximizar ventas todo el ano.',
   },
   hero: {

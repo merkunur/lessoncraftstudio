@@ -8,7 +8,7 @@ const content: BlogContent = {
       'lag havtema arbeidsark kommersiell lisens',
     ],
     lsiKeywords: ['temabaserte arbeidsark hav', 'havdyr oppgaver barn selge', 'sommeroppgaver arbeidsark forretning'],
-    titleTag: 'Selg havtema-arbeidsark på nett | LCS',
+    titleTag: 'Selg havtema-arbeidsark på nett | LessonCraftStudio',
     metaDescription: 'Havtema-arbeidsark med fisk, hvaler og korallrev selger hele året. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

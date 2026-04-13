@@ -15,15 +15,15 @@ const content: BlogContent = {
       'puzzle book generator for publishers',
       'printable activity content creation',
     ],
-    titleTag: 'LessonCraftStudio vs Activity Book Generator: Honest Comparison | LCS',
-    metaDescription: 'Compare LessonCraftStudio (33 generators, $49 one-time) vs Amber Jalink\'s Activity Book Generator. Side-by-side feature breakdown for KDP and Etsy publishers.',
+    titleTag: 'LessonCraftStudio vs Activity Book Generator — Which Creates Better KDP Books? | LessonCraftStudio',
+    metaDescription: 'Compare LessonCraftStudio with Amber Jalink\'s Activity Book Generator. Features, image quality, generator types, and value for KDP publishers.',
   },
   hero: {
     title: 'LessonCraftStudio vs Activity Book Generator: Which Creates Better Activity Books?',
     tagline: '33 specialized generators vs one all-in-one tool',
     description: 'Amber Jalink\'s Activity Book Generator is a well-known name in the KDP publishing space. LessonCraftStudio offers a different approach with 33 individual generators. This comparison examines what each tool does best, where they fall short, and which fits different publishing strategies.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'Activity books are one of the most profitable categories in KDP and Etsy publishing. They combine multiple content types: coloring pages, mazes, word searches, math puzzles, and more into a single product that commands higher prices than single-type books. Creating these multi-activity books efficiently requires the right tools. Two popular options are Amber Jalink\'s Activity Book Generator (ABG) and LessonCraftStudio (LCS). Both serve KDP publishers, but they take fundamentally different approaches to content creation. This guide compares them based on actual capabilities, not marketing claims.',
   sections: [
     {

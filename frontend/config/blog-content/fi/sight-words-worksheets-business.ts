@@ -13,7 +13,7 @@ const content: BlogContent = {
       'frekvenssisanat harjoitukset',
       'alkuopetus lukeminen tulostettavia',
     ],
-    titleTag: 'Sanantunnistus-tulosteet myyntiin | LCS',
+    titleTag: 'Sanantunnistus-tulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy sanantunnistustyöarkkeja: ikivihreä markkina. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

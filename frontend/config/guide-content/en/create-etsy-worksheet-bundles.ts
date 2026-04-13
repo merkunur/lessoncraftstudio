@@ -14,7 +14,7 @@ const content: GuideContent = {
       'digital product bundle strategy',
       'printable pack pricing tiers',
     ],
-    titleTag: 'Create Worksheet Bundles for Etsy Sellers | LCS',
+    titleTag: 'Create Worksheet Bundles for Etsy Sellers | LessonCraftStudio',
     metaDescription: 'Create worksheet bundles that sell on Etsy. Bundle sizing, pricing tiers, theme selection, and listing tips. Works for KDP and TPT too. Try free.',
   },
 

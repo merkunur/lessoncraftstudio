@@ -13,7 +13,7 @@ const content: BlogContent = {
       'marché enseignants France imprimables',
       'Mieux Enseigner revenus fiches',
     ],
-    titleTag: 'La Salle des Maîtres vs Etsy pour vos fiches | LCS',
+    titleTag: 'La Salle des Maîtres vs Etsy pour vos fiches | LessonCraftStudio',
     metaDescription: 'Comparaison entre La Salle des Maîtres, Mieux Enseigner et Etsy pour vendre vos fiches pédagogiques. Avantages et stratégie.',
   },
   hero: {

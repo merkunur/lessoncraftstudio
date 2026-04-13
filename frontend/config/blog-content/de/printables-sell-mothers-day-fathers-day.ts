@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Muttertag Vatertag Druckvorlagen verkaufen',
     secondaryKeywords: ['Muttertag Arbeitsblaetter Etsy', 'Vatertag Geschenk Druckvorlagen', 'Mai Druckvorlagen Geschaeft'],
     lsiKeywords: ['Muttertagsgeschenk Kinder basteln', 'Vatertag Steckbrief Kind', 'Elterntag Druckvorlagen DACH'],
-    titleTag: 'Muttertag & Vatertag Druckvorlagen verkaufen | LCS',
+    titleTag: 'Muttertag & Vatertag Druckvorlagen verkaufen | LessonCraftStudio',
     metaDescription: 'Muttertag- und Vatertag-Druckvorlagen: Zwei Verkaufsspitzen im Mai. Geschenk-Steckbriefe, Gutscheinhefte und Aktivitaetspakete.',
   },
   hero: {

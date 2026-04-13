@@ -13,7 +13,7 @@ const content: BlogContent = {
       'trafik avgifter kontroll jämförelse',
       'printable-försäljning plattformsstrategi',
     ],
-    titleTag: 'Gumroad vs Etsy: Bäst för Printables? | LCS',
+    titleTag: 'Gumroad vs Etsy: Bäst för Printables? | LessonCraftStudio',
     metaDescription: 'Gumroad vs Etsy för printable-säljare. Jämför avgifter, trafik och kontroll. Vilken plattform passar din verksamhet?',
   },
   hero: {

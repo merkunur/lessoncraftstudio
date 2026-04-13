@@ -13,7 +13,7 @@ const content: BlogContent = {
       'beach themed printables sell',
       'underwater printables kids market',
     ],
-    titleTag: 'Ocean Printables: Summer Sales Wave | LCS',
+    titleTag: 'Ocean Printables: Summer Sales Wave | LessonCraftStudio',
     metaDescription: 'Ocean-themed printables surge in summer and sell year-round. Learn which sea animal products convert, pricing tips, and how to build your lineup.',
   },
   hero: {

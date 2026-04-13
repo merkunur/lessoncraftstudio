@@ -8,7 +8,7 @@ const content: BlogContent = {
       'lag bursdagspakker oppgaver kommersiell lisens',
     ],
     lsiKeywords: ['bursdagsfest arbeidsark forretning', 'barneselskap aktiviteter selge', 'temabasert bursdagspakke oppgaver'],
-    titleTag: 'Selg bursdagsspill og arbeidsark for fester | LCS',
+    titleTag: 'Selg bursdagsspill og arbeidsark for fester | LessonCraftStudio',
     metaDescription: 'Foreldre søker ferdigpakkede aktiviteter til barneselskaper som bingo og skattejakt. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

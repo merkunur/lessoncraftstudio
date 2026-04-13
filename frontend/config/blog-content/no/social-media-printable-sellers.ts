@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'sosiale medier arbeidsark selgere strategi',
     secondaryKeywords: ['Pinterest markedsføring arbeidsark Etsy', 'sosiale medier for Etsy-selgere', 'Instagram TikTok arbeidsark forretning'],
     lsiKeywords: ['arbeidsark salg sosiale kanaler', 'trafikk Etsy-butikk Pinterest', 'digital nedlasting markedsføring'],
-    titleTag: 'Sosiale medier for arbeidsark-selgere | LCS',
+    titleTag: 'Sosiale medier for arbeidsark-selgere | LessonCraftStudio',
     metaDescription: 'Hvilke sosiale medier fungerer best for arbeidsark-selgere? Pinterest, Instagram og TikTok sammenlignet. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

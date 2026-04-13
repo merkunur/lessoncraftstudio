@@ -17,7 +17,7 @@ const content: BlogContent = {
       'riconoscimento',
       'serie',
     ],
-    titleTag: 'Schede Sequenze e Pattern da Stampare | LCS',
+    titleTag: 'Schede Sequenze e Pattern da Stampare | LessonCraftStudio',
     metaDescription: 'Schede di sequenze e pattern da stampare per bambini. Esercizi di logica e riconoscimento per scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'sidnumrering förmaterial innehållsförteckning facit',
       'KDP uppladdningsfel avvisning felsökning provtryck',
     ],
-    titleTag: 'KDP-formatering pysselbok guide | LCS',
+    titleTag: 'KDP-formatering pysselbok guide | LessonCraftStudio',
     metaDescription: 'KDP formateringsguide: trimstorlekar, marginaler, PDF-export vid 300 DPI och omslagsdimensioner. Undvik avvisningar vid publicering av pysselböcker.',
   },
 

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'delfino',
       'stella marina',
     ],
-    titleTag: 'Schede Didattiche Mare e Oceano da Stampare | LCS',
+    titleTag: 'Schede Didattiche Mare e Oceano da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche a tema mare e oceano da stampare per bambini. Pesci, balene, delfini e creature marine con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

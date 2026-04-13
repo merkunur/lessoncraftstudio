@@ -13,7 +13,7 @@ const content: BlogContent = {
       'produit numérique vs physique',
       'avantages téléchargement digital',
     ],
-    titleTag: 'Print on Demand vs téléchargement numérique | LCS',
+    titleTag: 'Print on Demand vs téléchargement numérique | LessonCraftStudio',
     metaDescription: 'POD ou téléchargement numérique ? Comparaison des deux modèles pour vendre vos imprimables avec marges et stratégie.',
   },
   hero: {

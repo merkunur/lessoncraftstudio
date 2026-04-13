@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Halloween Weihnachten Schulanfang Sommerlernen',
       'Veröffentlichungszeitpunkt Quartalsplanung Trendanalyse',
     ],
-    titleTag: 'Saisonales Marketing für Druckvorlagen | LCS',
+    titleTag: 'Saisonales Marketing für Druckvorlagen | LessonCraftStudio',
     metaDescription: 'Saisonales Marketing für Druckvorlagen planen: Produktionskalender, optimales Timing, saisonale Keywords und Strategien für Hauptverkaufszeiten auf Etsy und KDP.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'KDP children activity book layout',
       'Amazon activity book best practices',
     ],
-    titleTag: 'Anatomy of a Best-Selling KDP Activity Book | LCS',
+    titleTag: 'Anatomy of a Best-Selling KDP Activity Book | LessonCraftStudio',
     metaDescription: 'What makes top-selling KDP activity books succeed? Analysis of structure, variety, formatting, and pricing patterns from publicly available Amazon marketplace data.',
   },
   hero: {

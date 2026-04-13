@@ -8,7 +8,7 @@ const content: BlogContent = {
       'visuelt attraktive arbeidsark Etsy',
     ],
     lsiKeywords: ['arbeidsark design forretning', 'arbeidsark layout optimalisering', 'Etsy konvertering design'],
-    titleTag: 'Arbeidsark-designtips som øker salget | LCS',
+    titleTag: 'Arbeidsark-designtips som øker salget | LessonCraftStudio',
     metaDescription: 'Designprinsipper som øker salget av arbeidsark på Etsy: layout, farger og temabilder. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

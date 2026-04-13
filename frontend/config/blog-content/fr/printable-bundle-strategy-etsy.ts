@@ -13,7 +13,7 @@ const content: BlogContent = {
       'pack thématique imprimables',
       'augmenter panier moyen Etsy',
     ],
-    titleTag: 'Stratégie bundles imprimables sur Etsy | LCS',
+    titleTag: 'Stratégie bundles imprimables sur Etsy | LessonCraftStudio',
     metaDescription: 'Créez des bundles d\'imprimables qui multiplient votre panier moyen sur Etsy. Types de bundles, pricing et stratégies de conversion.',
   },
   hero: {

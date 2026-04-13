@@ -17,7 +17,7 @@ const content: BlogContent = {
       'numeri',
       'quantità',
     ],
-    titleTag: 'Schede Maggiore Minore Uguale da Stampare | LCS',
+    titleTag: 'Schede Maggiore Minore Uguale da Stampare | LessonCraftStudio',
     metaDescription: 'Schede maggiore, minore e uguale da stampare per la scuola primaria. Esercizi di confronto numeri e quantità con LessonCraftStudio — 33 generatori.',
   },
   hero: {

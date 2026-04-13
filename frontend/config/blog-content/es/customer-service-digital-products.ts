@@ -9,7 +9,7 @@ const content: BlogContent = {
       'errores comunes evitarlos',
     ],
     lsiKeywords: ['servicio al tips', 'negocio imprimibles servicio', 'productos digitales imprimibles'],
-    titleTag: 'Servicio al Cliente para Productos Digitales | LCS',
+    titleTag: 'Servicio al Cliente para Productos Digitales | LessonCraftStudio',
     metaDescription: 'El servicio al cliente en productos digitales es diferente al de productos fisicos. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

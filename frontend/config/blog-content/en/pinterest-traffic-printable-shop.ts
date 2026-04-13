@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Pinterest Etsy printable traffic',
       'visual marketing printables',
     ],
-    titleTag: 'Pinterest Traffic for Printable Shops | LCS',
+    titleTag: 'Pinterest Traffic for Printable Shops | LessonCraftStudio',
     metaDescription: 'Drive traffic to your printable shop with Pinterest. Pin strategy, board organization, and content tips that actually convert to Etsy sales.',
   },
   hero: {

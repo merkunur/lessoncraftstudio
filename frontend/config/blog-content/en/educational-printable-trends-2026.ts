@@ -13,7 +13,7 @@ const content: BlogContent = {
       'worksheet demand shifting',
       'printable industry forecast',
     ],
-    titleTag: 'Educational Printable Trends for 2026: What\'s Growing & Declining | LCS',
+    titleTag: 'Educational Printable Trends for 2026: What\'s Growing & Declining | LessonCraftStudio',
     metaDescription: 'Market analysis of educational printable trends for 2026. What\'s growing, what\'s declining, and where the emerging opportunities are for printable sellers.',
   },
   hero: {

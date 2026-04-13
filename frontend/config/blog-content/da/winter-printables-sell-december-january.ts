@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'vinter printables sælg december januar',
     secondaryKeywords: ['vinter printables sælg december januar Etsy', 'vinter printables sælg december januar online', 'vinter printables sælg december januar forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Vinter-Printables: December-Januar Guide | LCS',
+    titleTag: 'Vinter-Printables: December-Januar Guide | LessonCraftStudio',
     metaDescription: 'Vintertemaer strækker sig ud over julesæsonen. Snemænd, is, vinterdyr og vinteraktiviteter sælger fra november til februar. Denne guide viser dig, hvordan ',
   },
   hero: {

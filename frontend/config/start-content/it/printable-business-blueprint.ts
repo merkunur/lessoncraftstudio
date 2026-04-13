@@ -16,7 +16,7 @@ const content: StartContent = {
       'nicchia',
       'lancio prodotti',
     ],
-    titleTag: 'Come pianificare un business di stampabili | LCS',
+    titleTag: 'Come pianificare un business di stampabili | LessonCraftStudio',
     metaDescription: 'Come pianificare il tuo business di stampabili educativi: scelta nicchia, mappatura catalogo, timeline di lancio e obiettivi realistici. Piano pratico.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digital product mockup creation',
       'printable photography conversion',
     ],
-    titleTag: 'Product Photos for Printables: Mockup Tips | LCS',
+    titleTag: 'Product Photos for Printables: Mockup Tips | LessonCraftStudio',
     metaDescription: 'Create stunning product photos for printable listings. Mockup templates, flat lay tips, and listing image strategies that increase Etsy sales.',
   },
   hero: {

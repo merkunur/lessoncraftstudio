@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable product value add',
       'automated worksheet production',
     ],
-    titleTag: 'How Auto Answer Keys Add Value to Your Printable Worksheets | LCS',
+    titleTag: 'How Auto Answer Keys Add Value to Your Printable Worksheets | LessonCraftStudio',
     metaDescription: 'Learn how auto-generated answer keys save hours and boost your printable sales. See why buyers pay more for worksheets that include complete answer keys.',
   },
   hero: {

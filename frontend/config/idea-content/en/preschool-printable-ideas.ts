@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Preschool Printables to Sell on Etsy | LCS',
+    titleTag: 'Preschool Printables to Sell on Etsy | LessonCraftStudio',
     metaDescription: 'Preschool printable ideas for Etsy & KDP. Age-appropriate product concepts and strategies for the preschool educational printable market.',
 
     primaryKeyword: 'preschool printables to sell on Etsy',

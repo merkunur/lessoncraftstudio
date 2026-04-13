@@ -8,7 +8,7 @@ const content: BlogContent = {
       'start digital produktforretning nybegynner',
     ],
     lsiKeywords: ['arbeidsark forretning uten design', 'generator profesjonelle oppgaver', 'selg digitalt uten grafisk kompetanse'],
-    titleTag: 'Start arbeidsark-forretning uten designkunnskaper | LCS',
+    titleTag: 'Start arbeidsark-forretning uten designkunnskaper | LessonCraftStudio',
     metaDescription: 'Du trenger ikke designferdigheter for å lage profesjonelle arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

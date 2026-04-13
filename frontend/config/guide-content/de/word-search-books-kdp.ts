@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Großdruck Senioren barrierefreies Format',
       'Wortsuchbuch-Serie Wiederholungskauf Katalog',
     ],
-    titleTag: 'Suchsel-Bücher für Amazon KDP erstellen | LCS',
+    titleTag: 'Suchsel-Bücher für Amazon KDP erstellen | LessonCraftStudio',
     metaDescription: 'Suchsel-Bücher für Amazon KDP erstellen: Thematische Wortlisten kuratieren, Gittergrößen wählen, Großdruck-Formate und mehrbändige Serien für mehr KDP-Einnahmen.',
   },
 

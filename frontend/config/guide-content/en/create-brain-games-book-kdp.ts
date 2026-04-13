@@ -15,7 +15,7 @@ const content: GuideContent = {
       'visual reasoning activities',
       'print-ready brain teasers',
     ],
-    titleTag: 'Create a Brain Games Book for KDP | LCS',
+    titleTag: 'Create a Brain Games Book for KDP | LessonCraftStudio',
     metaDescription: 'Create professional brain games puzzle books for Amazon KDP. Odd-one-out, shadow match, grid match, and missing pieces puzzles. All ages, visual-only format. Try free trial.',
   },
 

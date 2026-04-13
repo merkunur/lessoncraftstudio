@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fathers day activity sheets sell online',
       'parent gift printables profit',
     ],
-    titleTag: 'Mother\'s & Father\'s Day Printables That Sell | LCS',
+    titleTag: 'Mother\'s & Father\'s Day Printables That Sell | LessonCraftStudio',
     metaDescription: 'Mother\'s Day and Father\'s Day printables sell in May-June. Discover which products teachers and parents buy, pricing strategies, and creation timeline.',
   },
   hero: {

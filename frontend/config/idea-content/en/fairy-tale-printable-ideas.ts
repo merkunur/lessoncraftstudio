@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Fairy Tale Printables to Sell | LCS',
+    titleTag: 'Fairy Tale Printables to Sell | LessonCraftStudio',
     metaDescription: 'Fairy tale printable business ideas for Etsy & KDP. Storybook themed product concepts and strategies for fairy tale printable sellers.',
 
     primaryKeyword: 'fairy tale printables to sell',

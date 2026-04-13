@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede animali della fattoria da stampare | LCS',
+    titleTag: 'Schede animali della fattoria da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede sugli animali della fattoria da stampare: colorare, conteggio, abbinamento e crucipuzzle con mucche, galline e maiali per bambini 3-7 anni.',
     primaryKeyword: 'schede animali della fattoria da stampare',
     secondaryKeywords: [

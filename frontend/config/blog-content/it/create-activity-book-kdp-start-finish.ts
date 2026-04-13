@@ -17,7 +17,7 @@ const content: BlogContent = {
       'esercizi',
       'giochi',
     ],
-    titleTag: 'Creare Libro Attività Bambini da Stampare | LCS',
+    titleTag: 'Creare Libro Attività Bambini da Stampare | LessonCraftStudio',
     metaDescription: 'Come creare un libro di attività per bambini da stampare. Guida completa alla realizzazione con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

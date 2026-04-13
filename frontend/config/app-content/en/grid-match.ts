@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Grid Match Puzzle Generator — Zero Competition KDP | LessonCraftStudio',
-    metaDescription: 'Create grid match visual puzzles for KDP and Etsy. Near-zero competition niche, unique format, bulk generate. Commercial license. Try free trial.',
+    titleTag: 'Grid Match Puzzle Generator — Unique KDP Activity Pages | LessonCraftStudio',
+    metaDescription: 'Generate grid matching puzzles for KDP books. A unique visual format your competitors don\'t have. 104 themes, answer keys included. Commercial license. Try free.',
   },
 
   hero: {

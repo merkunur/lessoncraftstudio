@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Print-on-Demand Tantiemen Preisstrategie',
       'Schwierigkeitsstufen Addition Subtraktion',
     ],
-    titleTag: 'Mathe-Aktivitätsbücher für Amazon KDP | LCS',
+    titleTag: 'Mathe-Aktivitätsbücher für Amazon KDP | LessonCraftStudio',
     metaDescription: 'Mathe-Aktivitätsbücher für Amazon KDP erstellen: Manuskript-Formatierung, Cover-Design, Keyword-Optimierung und Preisstrategien für maximale Tantiemen pro Verkauf.',
   },
 

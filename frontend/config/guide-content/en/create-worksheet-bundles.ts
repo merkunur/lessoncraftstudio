@@ -14,7 +14,7 @@ const content: GuideContent = {
       'digital product packaging for sellers',
       'increase average order value with bundles',
     ],
-    titleTag: 'Create Worksheet Bundles to Sell | LCS',
+    titleTag: 'Create Worksheet Bundles to Sell | LessonCraftStudio',
     metaDescription: 'Create worksheet bundles that boost revenue. Bundle sizing, pricing tiers, theme selection, and packaging for Etsy, KDP, and TPT sellers.',
   },
 

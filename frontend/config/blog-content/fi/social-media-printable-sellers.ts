@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Instagram tulostekauppa',
       'Facebook-ryhmät tulostemyyjät',
     ],
-    titleTag: 'Some-strategia tulostemyyjälle | LCS',
+    titleTag: 'Some-strategia tulostemyyjälle | LessonCraftStudio',
     metaDescription: 'Some-strategia tulostemyyjille: Pinterest ja Instagram. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

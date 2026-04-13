@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable product reviews tips',
       'customer feedback etsy shop',
     ],
-    titleTag: 'Get Etsy Reviews for Printable Products | LCS',
+    titleTag: 'Get Etsy Reviews for Printable Products | LessonCraftStudio',
     metaDescription: 'Proven strategies to get more Etsy reviews for your printable products. From follow-up messages to packaging — build social proof that drives sales.',
   },
   hero: {

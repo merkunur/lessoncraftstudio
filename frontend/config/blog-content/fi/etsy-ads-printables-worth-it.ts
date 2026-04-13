@@ -13,7 +13,7 @@ const content: BlogContent = {
       'klikkaushinta tulosteet',
       'orgaaninen vs maksettu Etsy',
     ],
-    titleTag: 'Etsy-mainokset tulosteille: kannattaako? | LCS',
+    titleTag: 'Etsy-mainokset tulosteille: kannattaako? | LessonCraftStudio',
     metaDescription: 'Ovatko Etsy-mainokset kannattavia tulosteille? ROI-analyysi. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

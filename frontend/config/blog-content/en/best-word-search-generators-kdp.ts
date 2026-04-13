@@ -14,15 +14,15 @@ const content: BlogContent = {
       'automated word search maker',
       'bulk word search generation',
     ],
-    titleTag: 'Best Word Search Generators for KDP Publishers in 2026 | LCS',
-    metaDescription: 'Compare the top word search generators for Amazon KDP. Features, pricing, and output quality reviewed for LessonCraftStudio, Book Bolt, PuzzleWiz, and more.',
+    titleTag: 'Best Word Search Generators for KDP Publishers — 2026 Comparison | LessonCraftStudio',
+    metaDescription: 'Compare the top word search generators for KDP puzzle books. Features, grid options, language support, and output quality. Find the best tool for your publishing business.',
   },
   hero: {
     title: 'Best Word Search Generators for KDP Publishers in 2026',
     tagline: 'A practical roundup of tools that actually produce sellable word search books',
     description: 'Word search puzzle books remain one of the most profitable niches on Amazon KDP. They are evergreen, appeal to all ages, and buyers purchase them repeatedly. But your word search generator directly impacts your output quality, production speed, and ability to differentiate from thousands of competing listings. This guide compares the top word search generators available in 2026, with honest assessments of each tool\'s strengths and limitations.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'The word search niche on Amazon KDP is competitive but still profitable for publishers who differentiate through themes, quality, and volume. Your choice of generator affects everything: how fast you can produce books, how unique your content looks, whether you can target international markets, and how professional the final product appears. This roundup covers the most capable word search generators available today, including their pricing, feature sets, and ideal use cases.',
   sections: [
     {

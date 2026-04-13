@@ -15,7 +15,7 @@ const content: GuideContent = {
       'word find puzzles',
       'print-ready PDF',
     ],
-    titleTag: 'Word Search Generator for KDP Books | LCS',
+    titleTag: 'Word Search Generator for KDP Books | LessonCraftStudio',
     metaDescription: 'Create professional word search puzzle books for Amazon KDP. 11 languages, 3,000+ themes, auto answer keys. Step-by-step KDP workflow. Try free trial.',
   },
 

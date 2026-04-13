@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable design conversion',
       'worksheet layout spacing',
     ],
-    titleTag: '8 Worksheet Design Tips That Help You Sell More | LCS',
+    titleTag: '8 Worksheet Design Tips That Help You Sell More | LessonCraftStudio',
     metaDescription: '8 practical worksheet design tips that increase sales. Font choices, spacing, image placement, and layout tricks from top-selling printable shops.',
   },
   hero: {

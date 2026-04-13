@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles San fichas', 'vender imprimibles imprimibles', 'del Amor educativos'],
-    titleTag: 'Imprimibles de San Valentin para Vender | LCS',
+    titleTag: 'Imprimibles de San Valentin para Vender | LessonCraftStudio',
     metaDescription: 'San Valentin en Espana, Dia del Amor y la Amistad en Mexico (14 febrero) y en Colombia (tercer sabado de. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

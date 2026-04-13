@@ -13,7 +13,7 @@ const content: BlogContent = {
       'puzzles cuadrícula lógica preescolar',
       'grid puzzles educational printable',
     ],
-    titleTag: 'Puzzles Cuadrícula: Productos Únicos Sin Competencia | LCS',
+    titleTag: 'Puzzles Cuadrícula: Productos Únicos Sin Competencia | LessonCraftStudio',
     metaDescription: 'Los puzzles de cuadrícula son productos únicos sin competencia directa en Etsy. Aprenda a posicionarse primero. Prueba gratuita con marca de agua.',
   },
   hero: {

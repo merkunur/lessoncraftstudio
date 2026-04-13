@@ -17,7 +17,7 @@ const content: BlogContent = {
       'risposte',
       'autonomia',
     ],
-    titleTag: 'Schede con Soluzioni da Stampare | LCS',
+    titleTag: 'Schede con Soluzioni da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche con chiave di correzione inclusa per studio autonomo. Create esercizi con soluzioni usando LessonCraftStudio — 33 generatori.',
   },
   hero: {

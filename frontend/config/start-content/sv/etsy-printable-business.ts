@@ -17,7 +17,7 @@ const content: StartContent = {
       'arbetsbladsverktyg för Etsy-säljare',
       'bygga Etsy-butik printables från noll',
     ],
-    titleTag: 'Sälja printables på Etsy: komplett guide | LCS',
+    titleTag: 'Sälja printables på Etsy: komplett guide | LessonCraftStudio',
     metaDescription: 'Lär dig sälja printables på Etsy steg för steg. Butiksuppställning, SEO-optimering, prissättning och skalning för arbetsbladsförsäljare.',
   },
 

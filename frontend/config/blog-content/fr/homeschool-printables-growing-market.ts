@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances IEF',
       'demande fiches imprimables IEF',
     ],
-    titleTag: 'IEF : un marché en croissance pour les imprimables | LCS',
+    titleTag: 'IEF : un marché en croissance pour les imprimables | LessonCraftStudio',
     metaDescription: 'L\'instruction en famille (IEF) est un marché croissant en France. Comment créer des imprimables adaptés aux familles IEF.',
   },
   hero: {

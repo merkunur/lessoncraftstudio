@@ -17,7 +17,7 @@ const content: BlogContent = {
       'pipistrello',
       'strega',
     ],
-    titleTag: 'Schede Didattiche Halloween da Stampare | LCS',
+    titleTag: 'Schede Didattiche Halloween da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche di Halloween da stampare per bambini. Attività educative per scuola primaria e infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {

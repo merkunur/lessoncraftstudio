@@ -15,7 +15,7 @@ const content: ToolContent = {
       'räumliche Begriffe',
       'DaF/DaZ',
     ],
-    titleTag: 'Kostenloser Präpositionen-Generator | LCS',
+    titleTag: 'Kostenloser Präpositionen-Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Präpositionen-Generator — Ortsangaben-Arbeitsblätter sofort erstellen, ohne Anmeldung. 11 Sprachen. Lösungen inklusive. Lizenz verfügbar.',
   },
 

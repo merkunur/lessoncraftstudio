@@ -13,7 +13,7 @@ const content: BlogContent = {
       'sequencing activities printable',
       'AB pattern worksheets Etsy',
     ],
-    titleTag: 'Pattern Recognition Worksheets to Sell Online | LCS',
+    titleTag: 'Pattern Recognition Worksheets to Sell Online | LessonCraftStudio',
     metaDescription: 'Pattern recognition worksheets are the STEM printable niche nobody\'s talking about. Why this underserved category has strong demand and premium pricing.',
   },
   hero: {

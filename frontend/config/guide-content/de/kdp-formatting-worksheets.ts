@@ -14,7 +14,7 @@ const content: GuideContent = {
       'PDF-Export Schriften einbetten Graustufen Druck',
       'Titelei Lösungsteil Seitennummerierung Zusammenstellung',
     ],
-    titleTag: 'KDP Formatierung Arbeitsblätter | LCS',
+    titleTag: 'KDP Formatierung Arbeitsblätter | LessonCraftStudio',
     metaDescription: 'KDP Formatierung fuer Arbeitsblaetter: Beschnittgroessen, Seitenraender, PDF-Export bei 300 DPI, Cover-Masse und Fehlerbehebung bei Upload-Ablehnungen Schritt fuer Schritt.',
   },
 

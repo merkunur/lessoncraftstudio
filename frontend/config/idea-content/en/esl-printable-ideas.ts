@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'ESL Printable Business Ideas for Etsy | LCS',
+    titleTag: 'ESL Printable Business Ideas for Etsy | LessonCraftStudio',
     metaDescription: 'ESL printable business ideas for Etsy & KDP. Language learning product concepts and strategies for ESL and ELL printable sellers.',
 
     primaryKeyword: 'ESL printable business ideas',

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances éducation',
       'demande fiches imprimables éducation',
     ],
-    titleTag: 'Imprimables éducation spécialisée (ULIS/ASH) | LCS',
+    titleTag: 'Imprimables éducation spécialisée (ULIS/ASH) | LessonCraftStudio',
     metaDescription: 'Vendez des imprimables pour l\'éducation spécialisée. Fiches adaptées ULIS, ASH et besoins particuliers.',
   },
   hero: {

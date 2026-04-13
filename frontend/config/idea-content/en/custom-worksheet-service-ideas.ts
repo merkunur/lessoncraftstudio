@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Custom Worksheet Service Business Ideas | LCS',
+    titleTag: 'Custom Worksheet Service Business Ideas | LessonCraftStudio',
     metaDescription: 'Custom worksheet service business ideas. Service models, pricing, and strategies for offering made-to-order printable creation services.',
 
     primaryKeyword: 'custom worksheet service business ideas',

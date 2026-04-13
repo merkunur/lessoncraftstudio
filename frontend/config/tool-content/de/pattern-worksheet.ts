@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Zahlenmuster',
       'Reihe ergänzen',
     ],
-    titleTag: 'Kostenloser Mustererkennungs-Generator | LCS',
+    titleTag: 'Kostenloser Mustererkennungs-Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Mustererkennungs-Generator — Muster-Arbeitsblätter mit visuellen Sequenzen sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 

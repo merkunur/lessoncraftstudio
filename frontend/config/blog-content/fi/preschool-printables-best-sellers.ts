@@ -13,7 +13,7 @@ const content: BlogContent = {
       'päiväkoti-ikäisten tehtävät',
       'kehitystehtävät 4-6-vuotiaille',
     ],
-    titleTag: 'Esikoulutulosteet: myydyimmät | LCS',
+    titleTag: 'Esikoulutulosteet: myydyimmät | LessonCraftStudio',
     metaDescription: 'Esikoulutulosteet ovat myydyimpiä tuotteita. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy printable butik første måned',
     secondaryKeywords: ['Etsy printable butik første måned Etsy', 'Etsy printable butik første måned online', 'Etsy printable butik første måned forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Din Første Måned som Etsy Printable-Sælger | LCS',
+    titleTag: 'Din Første Måned som Etsy Printable-Sælger | LessonCraftStudio',
     metaDescription: 'Din første måned på Etsy sætter kursen for hele din forretning. De beslutninger du tager nu — niche, produkter, priser, listing-optimering — afgør om du op',
   },
   hero: {

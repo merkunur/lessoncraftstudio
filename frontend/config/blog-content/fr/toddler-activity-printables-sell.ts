@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances activités',
       'demande fiches imprimables activités',
     ],
-    titleTag: 'Imprimables pour tout-petits (2-4 ans) | LCS',
+    titleTag: 'Imprimables pour tout-petits (2-4 ans) | LessonCraftStudio',
     metaDescription: 'Vendez des imprimables pour tout-petits. Activités simples, colorées et adaptées aux 2-4 ans.',
   },
   hero: {

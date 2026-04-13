@@ -13,7 +13,7 @@ const content: BlogContent = {
       'coloriage Noël vente',
       'cahier activités Noël',
     ],
-    titleTag: 'Imprimables de Noël qui se vendent | LCS',
+    titleTag: 'Imprimables de Noël qui se vendent | LessonCraftStudio',
     metaDescription: 'Quels imprimables de Noël se vendent le mieux ? Types, timing et stratégie pour maximiser vos ventes de fin d\'année.',
   },
   hero: {

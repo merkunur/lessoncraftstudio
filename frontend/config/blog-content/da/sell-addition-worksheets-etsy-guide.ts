@@ -13,7 +13,7 @@ const content: BlogContent = {
       'prisstrategi arbejdsark',
       'Etsy digital download matematik',
     ],
-    titleTag: 'Sælg Additions-Arbejdsark på Etsy: Guide | LCS',
+    titleTag: 'Sælg Additions-Arbejdsark på Etsy: Guide | LessonCraftStudio',
     metaDescription: 'Lær at sælge additions-arbejdsark på Etsy med fortjeneste. Prissætning, bundling og listingstrategier der virker i 2026.',
   },
   hero: {

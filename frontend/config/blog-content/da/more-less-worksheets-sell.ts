@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'mere mindre arbejdsark sælg',
     secondaryKeywords: ['mere mindre arbejdsark sælg Etsy', 'mere mindre arbejdsark sælg online', 'mere mindre arbejdsark sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Mere-Mindre Arbejdsark: Sælg Sammenligningsøvelser | LCS',
+    titleTag: 'Mere-Mindre Arbejdsark: Sælg Sammenligningsøvelser | LessonCraftStudio',
     metaDescription: 'Mere-mindre arbejdsark (talsammenligning) er en grundlæggende matematikkompetence for børnehaveklasse og 1. klasse. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

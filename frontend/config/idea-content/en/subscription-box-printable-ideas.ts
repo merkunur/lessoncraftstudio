@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Printable Subscription Box Business Ideas | LCS',
+    titleTag: 'Printable Subscription Box Business Ideas | LessonCraftStudio',
     metaDescription: 'Printable subscription box business ideas. Recurring revenue models, content planning, and strategies for printable subscription sellers.',
 
     primaryKeyword: 'printable subscription box business ideas',

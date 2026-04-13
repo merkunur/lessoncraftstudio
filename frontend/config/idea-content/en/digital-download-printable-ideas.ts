@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Digital Download Printable Business | LCS',
+    titleTag: 'Digital Download Printable Business | LessonCraftStudio',
     metaDescription: 'Digital download printable business ideas. Product concepts, platforms, and strategies for selling instant-download educational printables.',
 
     primaryKeyword: 'digital download printable business',

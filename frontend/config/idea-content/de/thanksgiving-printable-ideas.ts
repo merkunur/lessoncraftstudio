@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'November saisonale Nachfragespitze',
       'Herbst-Feiertag Druckvorlagen-Nische',
     ],
-    titleTag: 'Erntedank-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Erntedank-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Erntedank-Druckvorlagen als profitable Etsy-Nische entdecken. Thanksgiving-Produktideen und November-Timing-Strategien — Nischentipps für deutschsprachige Verkäufer.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'recensioner driver Etsy-försäljning',
       'uppföljning efter köp Etsy',
     ],
-    titleTag: 'Få Fler Recensioner på Etsy Printables | LCS',
+    titleTag: 'Få Fler Recensioner på Etsy Printables | LessonCraftStudio',
     metaDescription: 'Få fler femstjärniga recensioner för dina printables på Etsy. Strategier som uppmuntrar positiv feedback och driver försäljning.',
   },
   hero: {

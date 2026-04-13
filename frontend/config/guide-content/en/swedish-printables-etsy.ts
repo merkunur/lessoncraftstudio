@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Sweden homeschool printables market',
       'Nordic educational printables Etsy',
     ],
-    titleTag: 'Sell Swedish Printables on Etsy | LCS',
+    titleTag: 'Sell Swedish Printables on Etsy | LessonCraftStudio',
     metaDescription: 'Sell Swedish printables on Etsy step by step. Swedish vocabulary with correct characters in word searches, crosswords, and writing worksheets. Target amazon.se buyers.',
   },
 

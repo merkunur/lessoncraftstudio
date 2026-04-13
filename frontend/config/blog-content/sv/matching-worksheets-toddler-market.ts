@@ -13,7 +13,7 @@ const content: BlogContent = {
       'visuell matchning utveckling barn',
       'enkel arbetsbladstyp hög efterfrågan',
     ],
-    titleTag: 'Sälj Matchningsblad för Småbarn på Etsy | LCS',
+    titleTag: 'Sälj Matchningsblad för Småbarn på Etsy | LessonCraftStudio',
     metaDescription: 'Matchningsarbetsblad för barn 2-5 år säljer starkt på Etsy. Enkel produkt med hög efterfrågan. Guide för nya säljare.',
   },
   hero: {

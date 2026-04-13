@@ -13,7 +13,7 @@ const content: BlogContent = {
       'PDF export settings printables',
       'digital download file optimization',
     ],
-    titleTag: 'How to Format PDFs for Etsy Digital Downloads | LCS',
+    titleTag: 'How to Format PDFs for Etsy Digital Downloads | LessonCraftStudio',
     metaDescription: 'Learn the exact PDF settings for Etsy digital downloads. Page size, margins, fonts, compression, and file size optimization for printable products.',
   },
   hero: {

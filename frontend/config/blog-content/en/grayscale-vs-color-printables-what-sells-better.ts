@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ink cost printable products',
       'printable product production cost',
     ],
-    titleTag: 'Grayscale vs Color Printables: What Sells Better? | LCS',
+    titleTag: 'Grayscale vs Color Printables: What Sells Better? | LessonCraftStudio',
     metaDescription: 'Compare grayscale vs color printables for KDP and Etsy. Learn how ink type affects production cost, buyer preferences, printing expenses, and your profit margins.',
   },
   hero: {

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'opbyg mailliste din printable forretning liste',
     secondaryKeywords: ['email liste printbar forretning opbyg Etsy', 'email liste printbar forretning opbyg online', 'email liste printbar forretning opbyg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Opbyg en E-mailliste til Din Printable-Forretning | LCS',
+    titleTag: 'Opbyg en E-mailliste til Din Printable-Forretning | LessonCraftStudio',
     metaDescription: 'En e-mailliste er den eneste markedsføringskanal du ejer fuldstændigt. Etsy kan ændre sin algoritme, Pinterest kan begrænse din rækkevidde, men din e-maill',
   },
   hero: {

@@ -8,7 +8,7 @@ const content: BlogContent = {
       'bruk temabilder selg flere oppgaver',
     ],
     lsiKeywords: ['arbeidsark bilder salg', 'temabaserte oppgaver forretning', 'visuelt distinkte arbeidsark'],
-    titleTag: 'Temabilder i arbeidsark: Selg 2-3x mer | LCS',
+    titleTag: 'Temabilder i arbeidsark: Selg 2-3x mer | LessonCraftStudio',
     metaDescription: 'Arbeidsark med temabilder selger 2-3 ganger bedre enn generiske. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

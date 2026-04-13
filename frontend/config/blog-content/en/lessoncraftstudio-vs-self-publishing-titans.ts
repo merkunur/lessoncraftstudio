@@ -15,15 +15,15 @@ const content: BlogContent = {
       'low content book creation software',
       'printable business tools for publishers',
     ],
-    titleTag: 'LessonCraftStudio vs Self Publishing Titans: Full Comparison | LCS',
-    metaDescription: 'Compare LessonCraftStudio ($49 one-time) vs Self Publishing Titans ($10-25/mo subscription). 33 generators, no recurring fees, commercial license included.',
+    titleTag: 'LessonCraftStudio vs Self Publishing Titans — Tools Comparison 2026 | LessonCraftStudio',
+    metaDescription: 'Compare LessonCraftStudio with Self Publishing Titans for KDP publishing. Generators, research tools, pricing models, and which platform suits your needs.',
   },
   hero: {
     title: 'LessonCraftStudio vs Self Publishing Titans: Which KDP Tool Is Right for You?',
     tagline: 'One-time payment vs monthly subscription for your publishing business',
     description: 'Self Publishing Titans offers a suite of KDP research and creation tools on a monthly subscription. LessonCraftStudio gives you 33 worksheet and activity generators for a single $49 payment. This comparison breaks down features, pricing, and long-term value so you can make the right choice for your publishing workflow.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'If you publish activity books, puzzle books, or educational printables on Amazon KDP or Etsy, you have likely come across Self Publishing Titans. It is one of the more established names in the KDP tools space, offering keyword research, niche analysis, and a set of interior generators. LessonCraftStudio takes a different approach: instead of a subscription model, it offers 33 specialized generators for a one-time $49 payment with a full commercial license. Both tools serve publishers, but their philosophies differ significantly. This guide compares them honestly so you can decide which fits your business.',
   sections: [
     {

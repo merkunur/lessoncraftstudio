@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Pinterest SEO imprimables éducatifs',
       'audience Pinterest enseignants parents',
     ],
-    titleTag: 'Pinterest : trafic pour votre boutique imprimables | LCS',
+    titleTag: 'Pinterest : trafic pour votre boutique imprimables | LessonCraftStudio',
     metaDescription: 'Utilisez Pinterest pour générer du trafic vers votre boutique d\'imprimables. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

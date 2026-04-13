@@ -15,7 +15,7 @@ const content: StartContent = {
       'digital product tax requirements',
       'seller legal basics',
     ],
-    titleTag: 'Printable Business Taxes & Legal Basics | LCS',
+    titleTag: 'Printable Business Taxes & Legal Basics | LessonCraftStudio',
     metaDescription: 'Printable business taxes and legal basics. Business structure, sales tax, income reporting, and compliance for printable sellers.',
   },
 

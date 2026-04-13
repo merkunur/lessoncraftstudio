@@ -13,7 +13,7 @@ const content: BlogContent = {
       'generadores fichas automaticos',
       'emprender imprimibles principiantes',
     ],
-    titleTag: 'Negocio de Imprimibles sin Saber Disenar | LCS',
+    titleTag: 'Negocio de Imprimibles sin Saber Disenar | LessonCraftStudio',
     metaDescription: 'Inicie un negocio de imprimibles educativos sin experiencia en diseno grafico. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

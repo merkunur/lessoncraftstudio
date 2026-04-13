@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'búsqueda tesoro imprimible mercado cumpleaños 2026',
     secondaryKeywords: ['vender búsqueda tesoro imprimible Etsy', 'treasure hunt printables birthday market', 'imprimibles búsqueda tesoro fiestas negocio'],
     lsiKeywords: ['fichas pistas tesoro cumpleaños', 'juego búsqueda imprimible vender', 'treasure hunt party printable sell'],
-    titleTag: 'Búsqueda del Tesoro Imprimible: Mercado Cumpleaños | LCS',
+    titleTag: 'Búsqueda del Tesoro Imprimible: Mercado Cumpleaños | LessonCraftStudio',
     metaDescription: 'Las búsquedas del tesoro imprimibles dominan el mercado de fiestas de cumpleaños. Cree productos que los padres adoran. Prueba gratuita con marca de agua.',
   },
   hero: {

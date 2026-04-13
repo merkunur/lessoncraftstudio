@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede invernali da stampare per bambini | LCS',
+    titleTag: 'Schede invernali da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede invernali da stampare: colorare pupazzi di neve e pinguini, crucipuzzle inverno, conteggio e attività Carnevale per bambini 3-8 anni.',
     primaryKeyword: 'schede invernali da stampare',
     secondaryKeywords: [

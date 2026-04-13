@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Giochi per feste da stampare per bambini | LCS',
+    titleTag: 'Giochi per feste da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea giochi per feste e compleanni da stampare: tombola, crucipuzzle, colorare e attività a tema. Pacchetti di giochi stampabili per bambini 3-10 anni.',
     primaryKeyword: 'giochi per feste da stampare',
     secondaryKeywords: [

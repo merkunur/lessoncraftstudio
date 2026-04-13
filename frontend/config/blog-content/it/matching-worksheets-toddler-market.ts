@@ -17,7 +17,7 @@ const content: BlogContent = {
       'prescuola',
       'visivo',
     ],
-    titleTag: 'Schede Abbinamento Bambini Piccoli | LCS',
+    titleTag: 'Schede Abbinamento Bambini Piccoli | LessonCraftStudio',
     metaDescription: 'Schede di abbinamento per bambini piccoli da stampare con immagini. Esercizi di associazione visiva per prescuola con LessonCraftStudio — 33 generatori.',
   },
   hero: {

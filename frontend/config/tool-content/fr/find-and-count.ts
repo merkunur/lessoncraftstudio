@@ -20,7 +20,7 @@ const content: ToolContent = {
       'discrimination visuelle',
       'corrections',
     ],
-    titleTag: 'Générateur cherche et compte gratuit en ligne | LCS',
+    titleTag: 'Générateur cherche et compte gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur « cherche et compte » gratuit — créez des fiches de dénombrement avec images thématiques en ligne, sans inscription. Corrections automatiques. Licence commerciale.',
   },
 

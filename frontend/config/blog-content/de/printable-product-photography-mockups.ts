@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Produktfotos Druckvorlagen Mockups Etsy Tipps',
     secondaryKeywords: ['Produktfotos fuer Druckvorlagen Anleitung', 'Druckvorlagen Produktfotos Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Druckvorlagen-Mockups: Tipps fuer Etsy | LCS',
+    titleTag: 'Druckvorlagen-Mockups: Tipps fuer Etsy | LessonCraftStudio',
     metaDescription: 'Professionelle Mockups fuer Ihre Etsy-Druckvorlagen: Kostenlose Tools, beste Perspektiven und Lifestyle-Fotos die verkaufen.',
   },
   hero: {

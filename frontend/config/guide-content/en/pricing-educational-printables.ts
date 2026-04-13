@@ -14,7 +14,7 @@ const content: GuideContent = {
       'bundle pricing psychology',
       'cross-platform pricing strategy',
     ],
-    titleTag: 'Pricing Educational Printables Guide | LCS',
+    titleTag: 'Pricing Educational Printables Guide | LessonCraftStudio',
     metaDescription: 'Pricing guide for educational printables. Individual, bundle, and tiered pricing frameworks for Etsy, KDP, and direct-sale printable sellers.',
   },
 

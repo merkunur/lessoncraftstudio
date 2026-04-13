@@ -15,7 +15,7 @@ const content: GuideContent = {
       'preschool literacy printables',
       'multilingual alphabet worksheets',
     ],
-    titleTag: 'Alphabet Worksheet Generator for Etsy | LCS',
+    titleTag: 'Alphabet Worksheet Generator for Etsy | LessonCraftStudio',
     metaDescription: 'Create professional alphabet train worksheets for your Etsy shop. Train-themed letter learning, 11 languages with accented characters, 300 DPI. Etsy strategy included. Try free trial.',
   },
 

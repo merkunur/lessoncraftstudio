@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'sociale medier printable sælgere',
     secondaryKeywords: ['sociale medier printable sælgere Etsy', 'sociale medier printable sælgere online', 'sociale medier printable sælgere forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Sociale Medier for Printable-Sælgere | LCS',
+    titleTag: 'Sociale Medier for Printable-Sælgere | LessonCraftStudio',
     metaDescription: 'Sociale medier er den mest effektive gratis markedsføringskanal for printable-sælgere. Pinterest, Instagram og Facebook kan drive tusindvis af besøgende ti',
   },
   hero: {

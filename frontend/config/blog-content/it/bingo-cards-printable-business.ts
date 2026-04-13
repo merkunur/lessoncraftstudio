@@ -17,7 +17,7 @@ const content: BlogContent = {
       'gioco',
       'festa',
     ],
-    titleTag: 'Cartelle Tombola da Stampare per Bambini | LCS',
+    titleTag: 'Cartelle Tombola da Stampare per Bambini | LessonCraftStudio',
     metaDescription: 'Cartelle tombola personalizzate da stampare per bambini e feste. Crea tombola educativa con immagini usando LessonCraftStudio — 33 generatori.',
   },
   hero: {

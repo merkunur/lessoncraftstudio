@@ -15,7 +15,7 @@ const content: GuideContent = {
       'holiday bingo printable business',
       'unique bingo card sets for sellers',
     ],
-    titleTag: 'Sell Printable Bingo Cards on Etsy | LCS',
+    titleTag: 'Sell Printable Bingo Cards on Etsy | LessonCraftStudio',
     metaDescription: 'How to sell printable bingo cards on Etsy. Unique cards per set, caller sheets, holiday themes, birthday themes, and batch generation strategies for bingo card sellers.',
   },
 

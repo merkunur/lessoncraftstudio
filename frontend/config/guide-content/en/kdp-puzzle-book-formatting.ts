@@ -15,7 +15,7 @@ const content: GuideContent = {
       'manuscript formatting Amazon',
       'print-ready PDF setup',
     ],
-    titleTag: 'KDP Puzzle Book Formatting Guide | LCS',
+    titleTag: 'KDP Puzzle Book Formatting Guide | LessonCraftStudio',
     metaDescription: 'Complete KDP puzzle book formatting guide. Trim sizes, margins, bleed, page count rules, cover dimensions, spine width calculation. Get your manuscript accepted first time.',
   },
 

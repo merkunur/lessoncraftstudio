@@ -17,7 +17,7 @@ const content: BlogContent = {
       'dentro',
       'fuori',
     ],
-    titleTag: 'Schede Preposizioni Italiano da Stampare | LCS',
+    titleTag: 'Schede Preposizioni Italiano da Stampare | LessonCraftStudio',
     metaDescription: 'Schede sulle preposizioni italiane da stampare per bambini e italiano L2. Esercizi su sopra, sotto, dentro e fuori con LessonCraftStudio — 33 generatori.',
   },
   hero: {

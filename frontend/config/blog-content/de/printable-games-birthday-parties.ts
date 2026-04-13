@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Party Aktivitaeten PDF Download',
       'Kindergeburtstag Material Etsy.de',
     ],
-    titleTag: 'Druckbare Partyspiele: Der Geburtstags-Markt | LCS',
+    titleTag: 'Druckbare Partyspiele: Der Geburtstags-Markt | LessonCraftStudio',
     metaDescription: 'Druckbare Partyspiele fuer Kindergeburtstage: Schatzsuchen, Bingo, Raetselrallyes. Wie Sie den ganzjaehrigen Geburtstags-Markt auf Etsy.de nutzen.',
   },
   hero: {

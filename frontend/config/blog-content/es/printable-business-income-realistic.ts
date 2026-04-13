@@ -13,7 +13,7 @@ const content: BlogContent = {
       'rentabilidad tienda Etsy imprimibles',
       'ingresos pasivos productos digitales',
     ],
-    titleTag: 'Ingresos Realistas de un Negocio de Imprimibles | LCS',
+    titleTag: 'Ingresos Realistas de un Negocio de Imprimibles | LessonCraftStudio',
     metaDescription: 'Cuanto puede ganar realmente vendiendo imprimibles educativos. Datos honestos sobre ingresos por mes, plataforma y nivel de dedicacion.',
   },
   hero: {

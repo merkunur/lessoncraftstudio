@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok storleksordning aktivitetsbok',
       'kommersiell licens storleksverktyg 5 frågetyper facit',
     ],
-    titleTag: 'Skapa storleksövningar att skriva ut | LCS',
+    titleTag: 'Skapa storleksövningar att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa storleksjämförelsearbetsblad att skriva ut med 5 frågetyper och visuell nolltext-output. Sälj världen över på Etsy och Amazon KDP.',
   },
 

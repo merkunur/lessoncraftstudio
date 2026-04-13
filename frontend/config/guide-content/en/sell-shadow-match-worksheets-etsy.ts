@@ -15,7 +15,7 @@ const content: GuideContent = {
       'shadow puzzle printable',
       'make it whole worksheets',
     ],
-    titleTag: 'Sell Shadow Match Worksheets on Etsy | LCS',
+    titleTag: 'Sell Shadow Match Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Sell shadow matching worksheets on Etsy. Visual discrimination niche, preschool market, 2 generation modes, auto silhouettes. Low competition. Try free trial.',
   },
 

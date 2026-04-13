@@ -8,7 +8,7 @@ const content: BlogContent = {
       'multipliser inntekt arbeidsark smart gjenbruk',
     ],
     lsiKeywords: ['arbeidsark gjenbruksstrategi', 'produktlinje fra ett arbeidsark', 'enkeltark pakker KDP sesong'],
-    titleTag: 'Gjenbruk arbeidsark til flere produkter | LCS',
+    titleTag: 'Gjenbruk arbeidsark til flere produkter | LessonCraftStudio',
     metaDescription: 'Ett arbeidsark kan bli fem produkter med smart gjenbruk. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

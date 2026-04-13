@@ -15,7 +15,7 @@ const content: BlogContent = {
       'travel boredom buster printable',
       'holiday activity book children',
     ],
-    titleTag: 'Travel Activity Book Niches for KDP: Airport, Road Trip & Vacation | LCS',
+    titleTag: 'Travel Activity Book Niches for KDP: Airport, Road Trip & Vacation | LessonCraftStudio',
     metaDescription: 'Travel activity books are a fast-growing KDP niche. Discover which sub-niches — airport, road trip, vacation — sell best and how to create them efficiently.',
   },
   hero: {

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Essen Arbeitsblaetter Ernaehrungsbildung Nische',
     secondaryKeywords: ['Ernaehrung Arbeitsblaetter Etsy', 'Gesundes Essen Kinder Raetsel PDF', 'Lebensmittel Druckvorlagen verkaufen'],
     lsiKeywords: ['Obst Gemuese Zuordnung', 'Ernaehrungspyramide Arbeitsblaetter', 'Kochen Kinder Lernmaterial'],
-    titleTag: 'Essen-Arbeitsblaetter: Ernaehrungsbildung als Nische | LCS',
+    titleTag: 'Essen-Arbeitsblaetter: Ernaehrungsbildung als Nische | LessonCraftStudio',
     metaDescription: 'Essen-Arbeitsblaetter: Ernaehrungsbildung als Nische. Marktanalyse, Produkte und Strategien fuer Verkaeufer im DACH-Raum auf Etsy.de.',
   },
   hero: {

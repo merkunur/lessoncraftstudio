@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Druckvorlagen bewerben Plattformen',
       'Online Marketing Arbeitsblaetter',
     ],
-    titleTag: 'Social Media fuer Druckvorlagen-Verkaeufer 2026 | LCS',
+    titleTag: 'Social Media fuer Druckvorlagen-Verkaeufer 2026 | LessonCraftStudio',
     metaDescription: 'Welche Social-Media-Plattformen sich fuer Druckvorlagen-Verkaeufer lohnen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {

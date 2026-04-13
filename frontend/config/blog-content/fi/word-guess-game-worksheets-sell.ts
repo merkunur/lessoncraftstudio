@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kielitaito pelit tulostettavia',
       'interaktiiviset sanapulmat',
     ],
-    titleTag: 'Sana-arvauspeli tulostettavina | LCS',
+    titleTag: 'Sana-arvauspeli tulostettavina | LessonCraftStudio',
     metaDescription: 'Myy sana-arvauspelejä tulostettavina Etsyssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

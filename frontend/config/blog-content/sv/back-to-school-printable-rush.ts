@@ -13,7 +13,7 @@ const content: BlogContent = {
       'årskurs 1 mattepaket sälja',
       'skolstart Sverige vecka 33',
     ],
-    titleTag: 'Skolstarts-Rushen: Sälj Printables Augusti | LCS',
+    titleTag: 'Skolstarts-Rushen: Sälj Printables Augusti | LessonCraftStudio',
     metaDescription: 'Skolstarten ger 30% av årsintäkten för printable-säljare. Planera din Etsy-butik för höstterminens rush med rätt timing och produkter.',
   },
   hero: {

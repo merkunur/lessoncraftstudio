@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Druckvorlagen Geschaeft effizienter',
       'Printable Business Wachstum',
     ],
-    titleTag: 'Druckvorlagen-Geschaeft skalieren ohne Burnout | LCS',
+    titleTag: 'Druckvorlagen-Geschaeft skalieren ohne Burnout | LessonCraftStudio',
     metaDescription: 'So skalieren Sie Ihr Druckvorlagen-Geschaeft ohne Burnout. Automatisierung, Outsourcing und Systeme fuer. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {

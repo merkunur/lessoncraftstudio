@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'flerspråklige arbeidsark selge 11 språk fordel',
     secondaryKeywords: ['selg arbeidsark flere språk Etsy', 'flerspråklig produktlinje digital butikk', 'lag oppgaver 11 språk kommersiell lisens'],
     lsiKeywords: ['arbeidsark internasjonalt marked', 'selg digitale produkter globalt', 'flerspråklig innholdsstrategi'],
-    titleTag: 'Flerspråklige arbeidsark: 11 språk, 11 markeder | LCS',
+    titleTag: 'Flerspråklige arbeidsark: 11 språk, 11 markeder | LessonCraftStudio',
     metaDescription: 'Selg arbeidsark på 11 språk og nå markeder andre selgere ignorerer. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

@@ -15,7 +15,7 @@ const content: GuideContent = {
       'skalierbare Support-Systeme Feedback-Schleifen',
       'Musterverfolgung proaktive Dokumentation',
     ],
-    titleTag: 'Kundensupport für digitale Druckvorlagen | LCS',
+    titleTag: 'Kundensupport für digitale Druckvorlagen | LessonCraftStudio',
     metaDescription: 'Kundensupport für digitale Druckvorlagen: Problemprävention, Antwortvorlagen, Rückerstattungen und skalierbare Support-Systeme für Ihren Printable-Shop auf Etsy.',
   },
 

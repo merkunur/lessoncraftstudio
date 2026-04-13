@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Best Coloring Book Niches for KDP | LCS',
+    titleTag: 'Best Coloring Book Niches for KDP | LessonCraftStudio',
     metaDescription: 'Best coloring book niches for Amazon KDP. Sub-niche demand data, competition analysis, royalty estimates, and the generator tools to create each book type.',
 
     primaryKeyword: 'best coloring book niches kdp',

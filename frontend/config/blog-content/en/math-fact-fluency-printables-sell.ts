@@ -13,7 +13,7 @@ const content: BlogContent = {
       'math drill printables profit',
       'math fact speed tests printable',
     ],
-    titleTag: 'Math Fact Fluency Printables: Sell to All | LCS',
+    titleTag: 'Math Fact Fluency Printables: Sell to All | LessonCraftStudio',
     metaDescription: 'Math fact fluency printables sell to teachers AND parents. Learn to create timed tests, practice sheets, and math games that generate revenue.',
   },
   hero: {

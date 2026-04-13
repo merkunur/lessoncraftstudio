@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances Pâques',
       'demande fiches imprimables Pâques',
     ],
-    titleTag: 'Imprimables de Pâques : le créneau du printemps | LCS',
+    titleTag: 'Imprimables de Pâques : le créneau du printemps | LessonCraftStudio',
     metaDescription: 'Vendez des imprimables de Pâques. Coloriages, chasses aux œufs et activités printanières qui se vendent.',
   },
   hero: {

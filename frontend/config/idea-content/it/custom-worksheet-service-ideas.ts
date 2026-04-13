@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Creare schede personalizzate da stampare | LCS',
+    titleTag: 'Creare schede personalizzate da stampare | LessonCraftStudio',
     metaDescription: 'Come creare schede didattiche personalizzate da stampare con generatori automatici. Temi, nomi e contenuti su misura per ogni esigenza educativa.',
     primaryKeyword: 'creare schede personalizzate da stampare',
     secondaryKeywords: [

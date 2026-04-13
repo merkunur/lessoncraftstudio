@@ -17,7 +17,7 @@ const content: BlogContent = {
       'parole nascoste',
       'griglia',
     ],
-    titleTag: 'Crucipuzzle da Stampare per Bambini | LCS',
+    titleTag: 'Crucipuzzle da Stampare per Bambini | LessonCraftStudio',
     metaDescription: 'Crucipuzzle e cerca parole da stampare per bambini. Giochi di vocabolario tematici per scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {

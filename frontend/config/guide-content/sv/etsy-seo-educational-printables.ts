@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy Stats söktermer konkurrentanalys optimering',
       'kategori attribut digitala nedladdningar printables',
     ],
-    titleTag: 'Etsy SEO för arbetsblad guide 2026 | LCS',
+    titleTag: 'Etsy SEO för arbetsblad guide 2026 | LessonCraftStudio',
     metaDescription: 'Etsy SEO-guide 2026 för arbetsblad-säljare. Nyckelordsresearch, titeloptimering, 13 taggar och rankningsfaktorer. Sälj fler printables.',
   },
 

@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg rutenett-koblingsoppgaver på nett',
     secondaryKeywords: ['rutenett puslespill arbeidsark Etsy', 'visuell logikk-oppgaver selge', 'koblingsoppgaver rutenett forretning'],
     lsiKeywords: ['logisk tenkning barn puslespill', 'rutenett-matching pedagogisk', 'mønstergjenkjenning oppgaver'],
-    titleTag: 'Selg rutenett-koblingsoppgaver på nett | LCS',
+    titleTag: 'Selg rutenett-koblingsoppgaver på nett | LessonCraftStudio',
     metaDescription: 'Rutenett-koblingsoppgaver er en lønnsom nisje med visuell logikk. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

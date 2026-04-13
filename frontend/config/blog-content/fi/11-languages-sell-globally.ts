@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Etsy kansainvälinen myynti',
       'kieliversiot tulostettavat tuotteet',
     ],
-    titleTag: 'Myy tulostettavia 11 kielellä | LCS',
+    titleTag: 'Myy tulostettavia 11 kielellä | LessonCraftStudio',
     metaDescription: 'Laajenna tulosteliiketoimintasi 11 kielelle ja avaa uusia markkinoita. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fichas matemáticas descarga digital',
       'negocio resta preescolar primaria',
     ],
-    titleTag: 'Vender Fichas de Resta en Línea: Guía | LCS',
+    titleTag: 'Vender Fichas de Resta en Línea: Guía | LessonCraftStudio',
     metaDescription: 'Descubra cómo vender fichas de resta en línea con éxito. Estrategias para Etsy, KDP y Hotmart. Prueba gratuita con marca de agua del generador.',
   },
   hero: {

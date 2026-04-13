@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'saisonale Sportrotation ganzjährige Nische',
       'Bewegungs-Thema Kinder-Druckvorlagen Etsy',
     ],
-    titleTag: 'Sport-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Sport-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Sport-Druckvorlagen als profitable Etsy-Nische entdecken. Ganzjährige Nachfrage durch saisonale Sportrotation — Produktkonzepte und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {

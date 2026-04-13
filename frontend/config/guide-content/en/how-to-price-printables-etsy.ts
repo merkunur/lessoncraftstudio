@@ -15,7 +15,7 @@ const content: GuideContent = {
       'psychological pricing tactics',
       'printable profit margins',
     ],
-    titleTag: 'How to Price Printable Worksheets on Etsy | LCS',
+    titleTag: 'How to Price Printable Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Comprehensive pricing strategy for printable worksheets on Etsy. Singles vs bundles, market research, psychological pricing, testing methods. Seller guide with real numbers.',
   },
 

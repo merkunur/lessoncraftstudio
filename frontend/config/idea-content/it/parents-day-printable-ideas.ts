@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede festa mamma e papà da stampare | LCS',
+    titleTag: 'Schede festa mamma e papà da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede per la festa della mamma e del papà da stampare: lavoretti, biglietti, colorare e attività creative per bambini. San Giuseppe e maggio.',
     primaryKeyword: 'schede festa della mamma da stampare',
     secondaryKeywords: [

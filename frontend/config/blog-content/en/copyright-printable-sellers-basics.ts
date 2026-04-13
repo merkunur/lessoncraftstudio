@@ -13,7 +13,7 @@ const content: BlogContent = {
       'copyright infringement digital products',
       'protect printable designs copyright',
     ],
-    titleTag: 'Copyright Basics Every Printable Seller Must Know | LCS',
+    titleTag: 'Copyright Basics Every Printable Seller Must Know | LessonCraftStudio',
     metaDescription: 'Copyright essentials for printable sellers: what you can use, what you can\'t, and how to protect your own designs from theft. Avoid costly legal mistakes.',
   },
   hero: {

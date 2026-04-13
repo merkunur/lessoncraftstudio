@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'consejos diseno fichas vender mas',
     secondaryKeywords: ['consejos diseno fichas vender mas paso a paso', 'consejos diseno fichas vender mas tutorial', 'consejos diseno fichas vender mas guia practica'],
     lsiKeywords: ['consejos diseno fichas tips', 'como consejos diseno', 'vender mas facil'],
-    titleTag: 'Consejos de Diseno para Fichas que Venden | LCS',
+    titleTag: 'Consejos de Diseno para Fichas que Venden | LessonCraftStudio',
     metaDescription: 'El diseno de sus fichas no necesita ser artistico, pero debe ser funcional y atractivo. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

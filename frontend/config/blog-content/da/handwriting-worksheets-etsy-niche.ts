@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'håndskrifttræning håndskrifttrænin håndskrift arbejdsark profitabel',
     secondaryKeywords: ['håndskrift arbejdsark Etsy niche Etsy', 'håndskrift arbejdsark Etsy niche online', 'håndskrift arbejdsark Etsy niche forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Håndskrift-Arbejdsark: En Profitabel Etsy-Niche | LCS',
+    titleTag: 'Håndskrift-Arbejdsark: En Profitabel Etsy-Niche | LessonCraftStudio',
     metaDescription: 'Håndskrifttræning er en grundpille i børns uddannelse. Det danske marked har en unik fordel: de danske bogstaver æ, ø og å kræver specifik håndskrifttrænin',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Eintragsvorlagen Dateiorganisation Prozessstandardisierung',
       'skalierbare Prozesse Katalogverwaltung betriebliche Effizienz',
     ],
-    titleTag: 'Druckvorlagen-Business automatisieren | LCS',
+    titleTag: 'Druckvorlagen-Business automatisieren | LessonCraftStudio',
     metaDescription: 'Druckvorlagen-Business automatisieren: Stapelverarbeitung, Vorlagensysteme und standardisierte Workflows, die Stunden sparen und den Output vervielfachen.',
   },
 

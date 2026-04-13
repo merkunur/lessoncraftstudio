@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk page generation',
       'commercial license',
     ],
-    titleTag: 'Coloring Book Generator — KDP & Etsy Ready | LessonCraftStudio',
-    metaDescription: 'Create coloring books for KDP and Etsy. 3,000+ images across 104 themes, kids and adults. Bulk generate pages. Commercial license. Try free trial.',
+    titleTag: 'Coloring Page Generator — Create KDP Coloring Books in Minutes | LessonCraftStudio',
+    metaDescription: 'Generate coloring pages for KDP coloring books and Etsy digital downloads. 3,000+ images across 104 themes. Upload your own art. Commercial license. Try free.',
   },
 
   hero: {

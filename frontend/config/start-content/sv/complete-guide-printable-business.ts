@@ -17,7 +17,7 @@ const content: StartContent = {
       'kommersiell licens arbetsblad',
       'sälja PDF-arbetsblad online',
     ],
-    titleTag: 'Starta printable-verksamhet: komplett guide | LCS',
+    titleTag: 'Starta printable-verksamhet: komplett guide | LessonCraftStudio',
     metaDescription: 'Steg-för-steg-guide till att starta en printable-verksamhet. Välj nisch, skapa professionella arbetsblad och sälj på Etsy och Amazon KDP.',
   },
 

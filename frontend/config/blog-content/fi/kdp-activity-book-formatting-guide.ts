@@ -13,7 +13,7 @@ const content: BlogContent = {
       'bleed-asetukset KDP',
       'PDF-vaatimukset Amazon-julkaisu',
     ],
-    titleTag: 'KDP-aktiviteettikirjan muotoiluopas | LCS',
+    titleTag: 'KDP-aktiviteettikirjan muotoiluopas | LessonCraftStudio',
     metaDescription: 'Muotoile aktiviteettikirja KDP:n vaatimusten mukaisesti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

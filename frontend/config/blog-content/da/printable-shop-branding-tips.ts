@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'printable butik branding tips',
     secondaryKeywords: ['printable butik branding tips Etsy', 'printable butik branding tips online', 'printable butik branding tips forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Branding-Tips til Din Printable-Butik | LCS',
+    titleTag: 'Branding-Tips til Din Printable-Butik | LessonCraftStudio',
     metaDescription: 'Branding er det, der adskiller succesfulde printable-sælgere fra mængden. Denne guide giver dig konkrete branding-tips specifikt for printable-butikker — f',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Februar saisonale Nachfragespitze',
       'Valentinstag-Nische Druckvorlagen Etsy-Shop',
     ],
-    titleTag: 'Valentinstag-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Valentinstag-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Valentinstag-Druckvorlagen als profitable Etsy-Nische entdecken. Herzen, Freundschaft und Liebesbriefe — saisonale Produktideen und Februar-Strategien für Ihren Shop.',
   },
   hero: {

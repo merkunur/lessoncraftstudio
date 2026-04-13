@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy søgeordsresearch printables',
     secondaryKeywords: ['Etsy søgeordsresearch printables Etsy', 'Etsy søgeordsresearch printables online', 'Etsy søgeordsresearch printables forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Etsy Søgeordsresearch for Printables | LCS',
+    titleTag: 'Etsy Søgeordsresearch for Printables | LessonCraftStudio',
     metaDescription: 'Søgeordsresearch er fundamentet for Etsy-succes. De rigtige søgeord placerer dine produkter foran købeklare kunder. De forkerte søgeord spildner din tid og',
   },
   hero: {

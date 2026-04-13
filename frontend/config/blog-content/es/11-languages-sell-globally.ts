@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'vender imprimibles 11 idiomas globalmente',
     secondaryKeywords: ['vender imprimibles 11 idiomas globalmente paso a paso', 'vender imprimibles 11 idiomas globalmente tutorial', 'vender imprimibles 11 idiomas globalmente guia practica'],
     lsiKeywords: ['vender imprimibles 11 tips', 'como vender imprimibles', 'idiomas globalmente facil'],
-    titleTag: 'Vender Imprimibles en 11 Idiomas | LCS',
+    titleTag: 'Vender Imprimibles en 11 Idiomas | LessonCraftStudio',
     metaDescription: 'La capacidad de crear imprimibles en 11 idiomas transforma un negocio local en uno global. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

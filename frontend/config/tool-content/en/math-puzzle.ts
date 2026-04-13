@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'instant math puzzle maker',
       'try before you buy puzzle tools',
     ],
-    titleTag: 'Free Math Puzzle Maker Online | LCS',
+    titleTag: 'Free Math Puzzle Maker Online | LessonCraftStudio',
     metaDescription: 'Make math puzzles free online with watermark — no signup. Grid-based picture puzzles, auto answer keys, 104 themes. Upgrade for commercial license to sell.',
     },
 

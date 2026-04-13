@@ -17,7 +17,7 @@ const content: BlogContent = {
       'universo',
       'sistema solare',
     ],
-    titleTag: 'Schede Didattiche Tema Spazio da Stampare | LCS',
+    titleTag: 'Schede Didattiche Tema Spazio da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche a tema spazio da stampare per bambini. Pianeti, astronauti, stelle e sistema solare con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

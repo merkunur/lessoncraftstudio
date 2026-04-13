@@ -13,7 +13,7 @@ const content: BlogContent = {
       'todellinen työmäärä tulosteet',
       'automatisoitu digitaalinen myynti',
     ],
-    titleTag: 'Passiivinen tulo tulosteilla: totuus | LCS',
+    titleTag: 'Passiivinen tulo tulosteilla: totuus | LessonCraftStudio',
     metaDescription: 'Onko tulosteiden myynti oikeasti passiivista tuloa? Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

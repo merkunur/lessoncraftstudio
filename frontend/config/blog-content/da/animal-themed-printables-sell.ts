@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'dyretema printable printables profitabel produktlinje sælg online',
     secondaryKeywords: ['dyr arbejdsark sælg Etsy', 'dyretema puslespil forretning', 'dyr printbar produktlinje'],
     lsiKeywords: ['dyreillustration arbejdsark', 'bondegårdsdyr printbar', 'havdyr arbejdsark salg'],
-    titleTag: 'Dyretema Printables: Sælg Online Guide | LCS',
+    titleTag: 'Dyretema Printables: Sælg Online Guide | LessonCraftStudio',
     metaDescription: 'Dyretema er den mest populære printable-kategori for børn. Lær at oprette en profitabel dyretema-produktlinje til Etsy og KDP.',
   },
   hero: {

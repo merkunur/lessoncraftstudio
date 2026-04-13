@@ -13,7 +13,7 @@ const content: BlogContent = {
       'maahanmuuttajien kielioppi',
       'paikallissijat harjoittelu tulostettavia',
     ],
-    titleTag: 'Paikkasanatehtävät S2-markkinoille | LCS',
+    titleTag: 'Paikkasanatehtävät S2-markkinoille | LessonCraftStudio',
     metaDescription: 'Myy paikallissijatehtäviä S2-oppijoille verkossa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

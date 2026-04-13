@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy Amazon KDP Gumroad multiplattform intäkt',
       'pysselbok pusselbok aktivitetsbok kommersiell licens',
     ],
-    titleTag: 'Passiv inkomst med arbetsblad | LCS',
+    titleTag: 'Passiv inkomst med arbetsblad | LessonCraftStudio',
     metaDescription: 'Bygg passiv inkomst genom att sälja arbetsblad på Etsy och Amazon KDP. Vintergröna kataloger, multiplattformsstrategi och språkexpansion för hållbar intäkt.',
   },
 

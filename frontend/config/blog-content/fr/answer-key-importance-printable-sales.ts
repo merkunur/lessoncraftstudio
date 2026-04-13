@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode importance',
       'astuces importance corrigés',
     ],
-    titleTag: 'Pourquoi les corrigés boostent vos ventes | LCS',
+    titleTag: 'Pourquoi les corrigés boostent vos ventes | LessonCraftStudio',
     metaDescription: 'Les corrigés sont essentiels pour les ventes d\'imprimables. Pourquoi et comment les créer efficacement. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

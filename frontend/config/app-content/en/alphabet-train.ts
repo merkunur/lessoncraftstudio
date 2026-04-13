@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Alphabet Train Generator — ABC Books for KDP | LessonCraftStudio',
-    metaDescription: 'Create alphabet train ABC books for KDP and Etsy. Unique train-themed letter learning, 11 languages, bulk generate. Commercial license. Try free trial.',
+    titleTag: 'Alphabet Worksheet Generator — ABC KDP Books for Kids | LessonCraftStudio',
+    metaDescription: 'Generate alphabet train worksheets for KDP ABC books. Letter recognition with themed images, engaging train format. 11 languages. Commercial license. Try free.',
   },
 
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'code breaking worksheets sell',
       'educational cryptograms printable',
     ],
-    titleTag: 'Cryptogram Worksheets: Premium Etsy Niche | LCS',
+    titleTag: 'Cryptogram Worksheets: Premium Etsy Niche | LessonCraftStudio',
     metaDescription: 'Cryptogram worksheets are a premium printable niche with minimal competition. Learn why sellers charge 2-3x more than standard worksheets.',
   },
   hero: {

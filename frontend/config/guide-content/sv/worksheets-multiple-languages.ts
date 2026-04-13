@@ -17,7 +17,7 @@ const content: GuideContent = {
       'textlängdsvariation sammansatta ord kulturell anpassning lokalisering',
       'batchproduktion flerspråkig skriva ut PDF pysselbok pusselbok',
     ],
-    titleTag: 'Flerspråkiga arbetsblad att sälja | LCS',
+    titleTag: 'Flerspråkiga arbetsblad att sälja | LessonCraftStudio',
     metaDescription: 'Skapa arbetsblad på flera språk att sälja på Etsy och KDP. Produktionsarbetsflöden, teckenhantering, kvalitetssäkring och marknadsplatsoptimering.',
   },
 

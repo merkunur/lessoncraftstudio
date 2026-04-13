@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Bewertungs-Nachverfolgung Feedbackschleife Kundenerfahrung',
       'Bewertungsvolumen Marktplatz-Ranking authentisches Feedback',
     ],
-    titleTag: 'Bewertungen für Druckvorlagen erhalten | LCS',
+    titleTag: 'Bewertungen für Druckvorlagen erhalten | LessonCraftStudio',
     metaDescription: 'Bewertungen für Druckvorlagen-Produkte erhalten: Authentisches Käuferfeedback verdienen, sozialen Beweis aufbauen und Marktplatz-Rankings auf Etsy verbessern.',
   },
 

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'sälja bokstavsövningar på Etsy',
     secondaryKeywords: ['alfabet arbetsblad skriva ut', 'ABC övningsblad förskoleklass', 'bokstavsspårning printable sälja'],
     lsiKeywords: ['svenska alfabetet å ä ö', 'förskola bokstavsinlärning material', 'handskrivningsövningar barn PDF'],
-    titleTag: 'Sälja Bokstavsövningar på Etsy 2026 | LCS',
+    titleTag: 'Sälja Bokstavsövningar på Etsy 2026 | LessonCraftStudio',
     metaDescription: 'Skapa och sälj alfabet-arbetsblad på Etsy. Svenska ABC-övningar med å, ä, ö är en underexploaterad nisch med hög efterfrågan.',
   },
   hero: {

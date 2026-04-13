@@ -13,7 +13,7 @@ const content: BlogContent = {
       'toddler matching games sell Etsy',
       'toddler screen free activities printable',
     ],
-    titleTag: 'Toddler Activity Printables: Hot on Etsy 2026 | LCS',
+    titleTag: 'Toddler Activity Printables: Hot on Etsy 2026 | LessonCraftStudio',
     metaDescription: 'Toddler activity printables are trending on Etsy in 2026. Discover which products sell, pricing tips, and how to create toddler worksheets.',
   },
   hero: {

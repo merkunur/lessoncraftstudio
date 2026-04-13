@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant word scramble maker',
       'try before you buy literacy tools',
     ],
-    titleTag: 'Free Word Scramble Generator Online | LCS',
+    titleTag: 'Free Word Scramble Generator Online | LessonCraftStudio',
     metaDescription: 'Make word scramble worksheets free online with watermark — no signup. Image clues, shuffled letters, 4 difficulty levels. Upgrade for commercial license.',
   },
 

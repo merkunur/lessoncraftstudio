@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Ferienaktivitäten Bildungsthema Arbeitsblätter',
       'Mai-August saisonale Nachfrage Lernmaterial',
     ],
-    titleTag: 'Sommer-Lern-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Sommer-Lern-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Sommer-Lern-Druckvorlagen als profitable Etsy-Nische entdecken. Intensives Kauffenster von Mai bis August — Ferienarbeitsblätter gegen Sommerlernverlust für Ihren Shop.',
   },
   hero: {

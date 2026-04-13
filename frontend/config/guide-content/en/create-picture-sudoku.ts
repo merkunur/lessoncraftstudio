@@ -14,7 +14,7 @@ const content: GuideContent = {
       'kids logic puzzle product niche',
       'visual sudoku 4x4 grid activities',
     ],
-    titleTag: 'Create Picture Sudoku Puzzles to Sell | LCS',
+    titleTag: 'Create Picture Sudoku Puzzles to Sell | LessonCraftStudio',
     metaDescription: 'Create picture sudoku puzzles kids love. Three difficulty levels, themed images, auto answer keys. Sell on Etsy, KDP, and TPT.',
   },
 

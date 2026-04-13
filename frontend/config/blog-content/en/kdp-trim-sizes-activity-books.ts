@@ -13,7 +13,7 @@ const content: BlogContent = {
       'KDP interior formatting dimensions',
       'print-on-demand book sizing',
     ],
-    titleTag: 'KDP Trim Sizes for Activity Books: Which Size Sells Best | LCS',
+    titleTag: 'KDP Trim Sizes for Activity Books: Which Size Sells Best | LessonCraftStudio',
     metaDescription: 'Compare all KDP trim sizes for activity books. Learn which dimensions sell best, how trim size affects pricing, and which size fits your niche perfectly.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'arvostelut laatu tulosteet',
       'tuotevalikoima strategia Etsy',
     ],
-    titleTag: 'Laatu vai määrä Etsy-tulosteissa? | LCS',
+    titleTag: 'Laatu vai määrä Etsy-tulosteissa? | LessonCraftStudio',
     metaDescription: 'Laatu vai listausten määrä Etsyssä? Molemmat ratkaisevat. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'katalogtillväxt intäkt per produkt skalningsflaskhals',
       'pysselbok pusselbok arbetsblad flerspråkig expansion skriva ut',
     ],
-    titleTag: 'Skala upp printable-verksamhet | LCS',
+    titleTag: 'Skala upp printable-verksamhet | LessonCraftStudio',
     metaDescription: 'Skala din printable-verksamhet med batchproduktion, multiplattformsexpansion och flerspråkiga marknader. Från sidoprojekt till hållbar inkomst på Etsy och KDP.',
   },
 

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'tag',
       'ottimizzazione',
     ],
-    titleTag: 'Ottimizzare Inserzioni Schede su Etsy | LCS',
+    titleTag: 'Ottimizzare Inserzioni Schede su Etsy | LessonCraftStudio',
     metaDescription: 'Come ottimizzare titoli, foto e tag delle inserzioni di schede didattiche su Etsy. Consigli pratici e testati con LessonCraftStudio — 33 generatori.',
   },
   hero: {

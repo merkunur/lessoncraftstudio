@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Grundschul-Oberstufe anspruchsvolle Arbeitsblätter',
       'Drittklässler-Nische Druckvorlagen Etsy-Shop',
     ],
-    titleTag: '3.-Klasse-Druckvorlagen Nische Etsy | LCS',
+    titleTag: '3.-Klasse-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: '3.-Klasse-Druckvorlagen als profitable Etsy-Nische entdecken. Multiplikation, Leseverständnis und Schreibübungen — Produktideen und Strategien für Verkäufer.',
   },
   hero: {

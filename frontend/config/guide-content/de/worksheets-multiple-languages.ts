@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Stapelverarbeitung Produktions-Workflow kulturelle Anpassung',
       'zusammengesetzte Wörter internationaler Druckvorlagen-Markt',
     ],
-    titleTag: 'Arbeitsblätter mehrsprachig erstellen | LCS',
+    titleTag: 'Arbeitsblätter mehrsprachig erstellen | LessonCraftStudio',
     metaDescription: 'Arbeitsblätter in mehreren Sprachen erstellen: Produktions-Workflows, Zeichensatz-Handhabung, Qualitätssicherung und Listing-Optimierung für jeden Zielmarkt.',
   },
 

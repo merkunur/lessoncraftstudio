@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tyska franska marknaden Etsy',
       'internationell försäljning låg konkurrens',
     ],
-    titleTag: 'Flerspråkiga Printables: Konkurrensfördel | LCS',
+    titleTag: 'Flerspråkiga Printables: Konkurrensfördel | LessonCraftStudio',
     metaDescription: 'Flerspråkiga printables öppnar nya marknader med låg konkurrens. Svenska säljare har en naturlig fördel med skandinaviska språk.',
   },
   hero: {

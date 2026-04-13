@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Construction Printables to Sell | LCS',
+    titleTag: 'Construction Printables to Sell | LessonCraftStudio',
     metaDescription: 'Construction themed printable business ideas. Building and vehicle product concepts and strategies for Etsy & KDP printable sellers.',
 
     primaryKeyword: 'construction printables to sell',

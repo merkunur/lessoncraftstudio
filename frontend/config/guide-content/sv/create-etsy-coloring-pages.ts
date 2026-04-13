@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP målarbok korsningspotential publicera',
       'Etsy Stats sökanalys butiksoptimering printables',
     ],
-    titleTag: 'Sälja målarbilder på Etsy guide | LCS',
+    titleTag: 'Sälja målarbilder på Etsy guide | LessonCraftStudio',
     metaDescription: 'Komplett guide: sälja målarbilder på Etsy. Butiksuppsättning, SEO-optimering, prissättning och säsongsstrategi. Från 104 teman till lönsam butik.',
   },
 

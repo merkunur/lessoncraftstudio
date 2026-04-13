@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['fichas kindergarten fichas', 'vender imprimibles fichas', 'grado mercado educativos'],
-    titleTag: 'Fichas para Primer Grado: Mercado en Crecimiento | LCS',
+    titleTag: 'Fichas para Primer Grado: Mercado en Crecimiento | LessonCraftStudio',
     metaDescription: 'La etapa de kindergarten a primer grado es un momento critico donde los ninos formalizan el aprendizaje de lectura,. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

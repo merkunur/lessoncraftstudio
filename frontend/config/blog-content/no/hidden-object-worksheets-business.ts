@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg finn-objekter-oppgaver som forretning',
     secondaryKeywords: ['finn gjenstander arbeidsark Etsy', 'skjulte objekter oppgaver selge', 'finn-objekter puslespill forretning'],
     lsiKeywords: ['visuell søking barn oppgaver', 'observasjonsoppgaver pedagogisk', 'finn-og-finn arbeidsark salg'],
-    titleTag: 'Selg finn-objekter-oppgaver som forretning | LCS',
+    titleTag: 'Selg finn-objekter-oppgaver som forretning | LessonCraftStudio',
     metaDescription: 'Finn-objekter-oppgaver er en engasjerende nisje for alle aldersgrupper. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

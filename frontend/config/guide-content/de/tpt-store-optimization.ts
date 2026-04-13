@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Produktvorschau Miniaturansicht Listing-Optimierung',
       'Eduki Analytik saisonale Planung Katalogskalierung',
     ],
-    titleTag: 'Eduki Shop Optimierung Anleitung | LCS',
+    titleTag: 'Eduki Shop Optimierung Anleitung | LessonCraftStudio',
     metaDescription: 'Eduki Shop Optimierung Anleitung: Suchalgorithmus verstehen, Vorschauen verbessern, Bewertungen aufbauen und Ihren Eduki-Shop für mehr Verkäufe optimieren.',
   },
 

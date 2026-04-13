@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Verbinde die Paare PDF Kinder',
       'Vorschule Uebungsmaterial verkaufen',
     ],
-    titleTag: 'Zuordnungs-Arbeitsblaetter: Der Kleinkind-Markt | LCS',
+    titleTag: 'Zuordnungs-Arbeitsblaetter: Der Kleinkind-Markt | LessonCraftStudio',
     metaDescription: 'So bedienen Sie den wachsenden Kleinkind-Markt mit Zuordnungs-Arbeitsblaettern. Zielgruppen, Preise und Strategien fuer Etsy.de 2026.',
   },
   hero: {

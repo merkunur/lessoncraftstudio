@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'kommerciel licens printables forklaret',
     secondaryKeywords: ['kommerciel licens printables forklaret Etsy', 'kommerciel licens printables forklaret online', 'kommerciel licens printables forklaret sælg'],
     lsiKeywords: ['printbar forretning', 'digital download salg', 'Etsy printables'],
-    titleTag: 'Kommerciel Licens til Printables: Hvad Du Skal Vide | LCS',
+    titleTag: 'Kommerciel Licens til Printables: Hvad Du Skal Vide | LessonCraftStudio',
     metaDescription: 'En kommerciel licens er fundamentet for enhver printable-forretning. Uden den rigtige licens risikerer du DMCA-takedowns, retssager og tab af din Etsy-buti',
   },
   hero: {

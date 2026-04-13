@@ -13,7 +13,7 @@ const content: BlogContent = {
       'adult puzzle book KDP niche',
       'cryptogram formatting self publishing',
     ],
-    titleTag: 'How to Make Cryptogram Puzzle Books for KDP | LCS',
+    titleTag: 'How to Make Cryptogram Puzzle Books for KDP | LessonCraftStudio',
     metaDescription: 'Create and sell cryptogram puzzle books on Amazon KDP. Code-breaking puzzles, difficulty settings, adult puzzle market targeting, and formatting guide.',
   },
   hero: {

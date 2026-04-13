@@ -13,7 +13,7 @@ const content: BlogContent = {
       'long-tail keyword strategy',
       'Etsy listing optimization tags',
     ],
-    titleTag: 'Best Tags for Printable Worksheets on Etsy: Complete Tag Strategy | LCS',
+    titleTag: 'Best Tags for Printable Worksheets on Etsy: Complete Tag Strategy | LessonCraftStudio',
     metaDescription: 'Master Etsy tags for printable worksheets. Learn to fill all 13 tag slots with high-converting long-tail keywords that drive targeted traffic to your listings.',
   },
   hero: {

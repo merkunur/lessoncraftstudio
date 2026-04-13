@@ -17,7 +17,7 @@ const content: BlogContent = {
       'inserzioni',
       'clic',
     ],
-    titleTag: 'Promuovere Schede Didattiche su Etsy | LCS',
+    titleTag: 'Promuovere Schede Didattiche su Etsy | LessonCraftStudio',
     metaDescription: 'Come promuovere schede didattiche su Etsy con la pubblicità. Strategie per aumentare visibilità e vendite con LessonCraftStudio — 33 generatori.',
   },
   hero: {

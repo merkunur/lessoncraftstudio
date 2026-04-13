@@ -13,7 +13,7 @@ const content: BlogContent = {
       'säsongstoppar oktober printables',
       'spöktema färgläggning pussel',
     ],
-    titleTag: 'Sälj Halloween-Printables i Oktober | LCS',
+    titleTag: 'Sälj Halloween-Printables i Oktober | LessonCraftStudio',
     metaDescription: 'Halloween-printables har kort men intensiv säljsäsong. Maximera försäljningen september-oktober med rätt timing och produkter.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'instant coloring page maker',
       'try before you buy coloring tools',
     ],
-    titleTag: 'Free Coloring Page Maker with Images | LCS',
+    titleTag: 'Free Coloring Page Maker with Images | LessonCraftStudio',
     metaDescription: 'Make coloring pages free online with watermark — no signup. Themed image outlines, 104 collections, 300 DPI export. Upgrade for commercial license to sell.',
     },
 

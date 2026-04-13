@@ -13,7 +13,7 @@ const content: BlogContent = {
       'astronaut printables kids market',
       'STEM space printables profit',
     ],
-    titleTag: 'Space-Themed Worksheets for Printable Business | LCS',
+    titleTag: 'Space-Themed Worksheets for Printable Business | LessonCraftStudio',
     metaDescription: 'Space-themed worksheets tap STEM demand and kid fascination. Learn how to build a space printable product line that sells to parents and teachers.',
   },
   hero: {

@@ -14,15 +14,15 @@ const content: BlogContent = {
       'worksheet generation tool review',
       'printable creation platform',
     ],
-    titleTag: 'LessonCraftStudio vs BookGenie: Which Generator Is Better? | LCS',
-    metaDescription: 'Detailed comparison of LessonCraftStudio and BookGenie for KDP publishers. Generator range, language support, image library, and pricing compared.',
+    titleTag: 'LessonCraftStudio vs BookGenie — Feature Comparison for KDP Publishers | LessonCraftStudio',
+    metaDescription: 'Compare LessonCraftStudio and BookGenie for creating KDP activity books. Side-by-side features, pricing, generator types, and output quality. 2026 comparison.',
   },
   hero: {
     title: 'LessonCraftStudio vs BookGenie: Full Comparison for Publishers',
     tagline: 'Generator range, multilingual support, and image library compared',
     description: 'BookGenie is a well-known puzzle and activity book generator for Amazon KDP publishers. LessonCraftStudio offers a broader generator range with 33 specialized tools, native support for 11 languages, and an integrated image library of 3,000+ illustrations. This comparison covers the specific differences that matter for your publishing business, including generator types, customization depth, output quality, and total cost of ownership.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'Both BookGenie and LessonCraftStudio generate activity book content for Amazon KDP and other print-on-demand platforms. They share a similar goal: help publishers create unique, sellable content quickly. But they differ in important ways. BookGenie focuses on a curated set of puzzle types. LessonCraftStudio offers a wider range of generators with deeper customization, multilingual output, and post-generation editing. This comparison walks through every major difference so you can decide which tool fits your workflow.',
   sections: [
     {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'educational puzzle books publish',
       'crossword book royalties Amazon',
     ],
-    titleTag: 'Crossword Books on KDP: Low-Competition | LCS',
+    titleTag: 'Crossword Books on KDP: Low-Competition | LessonCraftStudio',
     metaDescription: 'Crossword puzzle books are a low-competition KDP goldmine. Learn how to create, format, and publish crossword activity books for consistent royalties.',
   },
   hero: {

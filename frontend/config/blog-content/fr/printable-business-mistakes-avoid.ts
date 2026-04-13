@@ -9,7 +9,7 @@ const content: BlogContent = {
       'erreurs mentalité',
     ],
     lsiKeywords: ['échecs vendeurs fiches', 'problèmes boutique Etsy débutant', 'conseils éviter erreurs'],
-    titleTag: '10 erreurs d\'imprimables à éviter | LCS',
+    titleTag: '10 erreurs d\'imprimables à éviter | LessonCraftStudio',
     metaDescription: 'Les 10 erreurs les plus courantes des vendeurs d\'imprimables et comment les corriger rapidement pour booster vos ventes.',
   },
   hero: {

@@ -15,7 +15,7 @@ const content: GuideContent = {
       'language arts puzzle book',
       'KDP manuscript word puzzles',
     ],
-    titleTag: 'Create a Word Puzzle Book for KDP | LCS',
+    titleTag: 'Create a Word Puzzle Book for KDP | LessonCraftStudio',
     metaDescription: 'Create professional word puzzle books for Amazon KDP. Word search, crossword, word scramble, cryptogram, and word guess puzzles. 11 languages, step-by-step workflow. Try free trial.',
   },
 

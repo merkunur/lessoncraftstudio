@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede di Halloween da stampare per bambini | LCS',
+    titleTag: 'Schede di Halloween da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede di Halloween da stampare: colorare zucche e fantasmi, crucipuzzle spaventosi, conteggio e labirinti a tema Halloween per bambini 3-8 anni.',
     primaryKeyword: 'schede di Halloween da stampare',
     secondaryKeywords: [

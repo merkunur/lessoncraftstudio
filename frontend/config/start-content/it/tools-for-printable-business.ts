@@ -16,7 +16,7 @@ const content: StartContent = {
       'stampabili',
       'strumenti online',
     ],
-    titleTag: 'Strumenti per creare stampabili educativi | LCS',
+    titleTag: 'Strumenti per creare stampabili educativi | LessonCraftStudio',
     metaDescription: 'Strumenti essenziali per creare stampabili educativi professionali: generatori di schede, formattazione PDF e gestione catalogo. Guida pratica completa.',
   },
 

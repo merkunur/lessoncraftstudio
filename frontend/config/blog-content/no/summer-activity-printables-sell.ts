@@ -8,7 +8,7 @@ const content: BlogContent = {
       'sommer-tema oppgaver Etsy KDP',
     ],
     lsiKeywords: ['sesongbaserte arbeidsark salg', 'sommerferie oppgaver barn', 'ferie arbeidsark kommersiell lisens'],
-    titleTag: 'Sommer-arbeidsark: Selg hele sommeren | LCS',
+    titleTag: 'Sommer-arbeidsark: Selg hele sommeren | LessonCraftStudio',
     metaDescription: 'Selg sommeraktiviteter og ferieoppgaver i 8 uker norsk sommerferie. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

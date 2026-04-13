@@ -17,7 +17,7 @@ const content: BlogContent = {
       'insetti',
       'scuola infanzia',
     ],
-    titleTag: 'Schede Didattiche Animali da Stampare | LCS',
+    titleTag: 'Schede Didattiche Animali da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche a tema animali da stampare per bambini. Fattoria, savana, oceano e insetti con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'preschool printable product niche',
       'find the odd one out activity business',
     ],
-    titleTag: 'Create Odd One Out Worksheets to Sell | LCS',
+    titleTag: 'Create Odd One Out Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'Create odd one out worksheets that sell. Two puzzle modes, themed images, auto answer keys. Build products for Etsy, KDP, and TPT.',
   },
 

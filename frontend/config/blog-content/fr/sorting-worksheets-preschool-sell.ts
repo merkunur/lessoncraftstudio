@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches catégorisation maternelle',
       'tri logique enfants imprimables',
     ],
-    titleTag: 'Fiches de tri maternelle : niche durable | LCS',
+    titleTag: 'Fiches de tri maternelle : niche durable | LessonCraftStudio',
     metaDescription: 'Les fiches de tri pour la maternelle sont une niche pérenne à forte demande. Découvrez comment créer et vendre ces imprimables en 2026.',
   },
   hero: {

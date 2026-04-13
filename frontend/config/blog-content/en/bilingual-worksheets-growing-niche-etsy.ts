@@ -15,7 +15,7 @@ const content: BlogContent = {
       'dual language activity sheets',
       'multilingual worksheet generator',
     ],
-    titleTag: 'Bilingual Worksheets: A Growing Niche for Printable Sellers | LCS',
+    titleTag: 'Bilingual Worksheets: A Growing Niche for Printable Sellers | LessonCraftStudio',
     metaDescription: 'The bilingual worksheet market is growing 40% year-over-year with low competition. Learn how to create and sell dual-language printables on Etsy and KDP.',
   },
   hero: {

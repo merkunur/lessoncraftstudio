@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches plus grand plus petit vendre',
       'comparaison grandeur préscolaire',
     ],
-    titleTag: 'Fiches comparaison de tailles : marché tout-petits | LCS',
+    titleTag: 'Fiches comparaison de tailles : marché tout-petits | LessonCraftStudio',
     metaDescription: 'Les fiches de comparaison de tailles ciblent le marché des tout-petits avec une demande constante. Créez et vendez ces imprimables en 2026.',
   },
   hero: {

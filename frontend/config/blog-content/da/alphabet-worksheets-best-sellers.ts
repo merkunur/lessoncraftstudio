@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'alfabet arbejdsark bestsellere printbar',
     secondaryKeywords: ['sælg alfabet arbejdsark Etsy', 'bogstavøvelser printbar forretning', 'alfabet printables sælg online'],
     lsiKeywords: ['bogstavtræning printbar salg', 'ABC øvelsesark Etsy', 'alfabet produktlinje'],
-    titleTag: 'Alfabet-Arbejdsark Bestsellere: Guide | LCS',
+    titleTag: 'Alfabet-Arbejdsark Bestsellere: Guide | LessonCraftStudio',
     metaDescription: 'Alfabet-arbejdsark er en af de mest søgte printable-kategorier. Lær hvilke produkter der sælger bedst og hvordan du opretter en profitabel produktlinje.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'crucigramas educativos vocabulario niños',
       'KDP libros puzzles palabras rentable',
     ],
-    titleTag: 'Libros Crucigramas KDP: Baja Competencia | LCS',
+    titleTag: 'Libros Crucigramas KDP: Baja Competencia | LessonCraftStudio',
     metaDescription: 'Los libros de crucigramas para niños en KDP son un nicho de baja competencia con altos márgenes. Guía completa para publicar.',
   },
   hero: {

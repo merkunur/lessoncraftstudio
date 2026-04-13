@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable seller brand consistency',
       'digital product shop design',
     ],
-    titleTag: 'Brand Your Printable Shop on Etsy | LCS',
+    titleTag: 'Brand Your Printable Shop on Etsy | LessonCraftStudio',
     metaDescription: 'How to brand your printable shop to stand out on Etsy. Logo, colors, mockups, and consistent styling that converts browsers into repeat buyers.',
   },
   hero: {

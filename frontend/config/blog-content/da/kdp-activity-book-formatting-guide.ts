@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'KDP aktivitetsbog formatering guide',
     secondaryKeywords: ['KDP aktivitetsbog formatering guide Etsy', 'KDP aktivitetsbog formatering guide online', 'KDP aktivitetsbog formatering guide forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'KDP Aktivitetsbog Formatering: Komplet Guide | LCS',
+    titleTag: 'KDP Aktivitetsbog Formatering: Komplet Guide | LessonCraftStudio',
     metaDescription: 'Korrekt formatering er afgørende for KDP-bøger. Forkerte marger, lav opløsning eller forkert sidestørrelse resulterer i afvisning eller dårlige anmeldelser',
   },
   hero: {

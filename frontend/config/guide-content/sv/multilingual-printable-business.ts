@@ -17,7 +17,7 @@ const content: GuideContent = {
       'flerspråkig produktportfölj konkurrensfördel underservade',
       'tvärspråkliga intäktsströmmar plattformsinternationalisering',
     ],
-    titleTag: 'Flerspråkig printable-verksamhet guide | LCS',
+    titleTag: 'Flerspråkig printable-verksamhet guide | LessonCraftStudio',
     metaDescription: 'Bygg en flerspråkig printable-verksamhet. Vilka språkmarknader att prioritera, intäktsmultiplikation och stegvis expansion till internationella marknader.',
   },
 

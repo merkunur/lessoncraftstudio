@@ -13,7 +13,7 @@ const content: BlogContent = {
       'standard qualité imprimables Etsy',
       'optimiser production fiches exercices',
     ],
-    titleTag: 'Qualité vs quantité : fiches Etsy imprimables | LCS',
+    titleTag: 'Qualité vs quantité : fiches Etsy imprimables | LessonCraftStudio',
     metaDescription: 'Faut-il privilégier la qualité ou la quantité de fiches sur Etsy ? La réponse nuancée qui maximise vos ventes d\'imprimables.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode meilleurs',
       'astuces meilleurs formats',
     ],
-    titleTag: 'Meilleurs formats papier pour imprimables | LCS',
+    titleTag: 'Meilleurs formats papier pour imprimables | LessonCraftStudio',
     metaDescription: 'A4 ou Letter ? Les formats papier optimaux pour vos imprimables selon le marché cible. L\'A4 est standard en France.',
   },
   hero: {

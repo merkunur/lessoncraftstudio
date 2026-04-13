@@ -15,7 +15,7 @@ const content: BlogContent = {
       'elementary math workbook market',
       'math drill book Amazon',
     ],
-    titleTag: 'Math Workbook Niches by Grade Level: KDP Demand Analysis | LCS',
+    titleTag: 'Math Workbook Niches by Grade Level: KDP Demand Analysis | LessonCraftStudio',
     metaDescription: 'Grade-by-grade demand analysis for math workbooks on KDP and Etsy. Discover which grade levels and math topics sell best for printable publishers.',
   },
   hero: {

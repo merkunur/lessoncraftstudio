@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg preposisjonsoppgaver språklæring arbeidsark',
     secondaryKeywords: ['preposisjoner arbeidsark Etsy selgere', 'språkoppgaver norskkurs marked ESL', 'lag preposisjonsoppgaver kommersiell lisens'],
     lsiKeywords: ['språklæring arbeidsark forretning', 'ESL oppgaver selge nett', 'preposisjoner bilder arbeidsark'],
-    titleTag: 'Selg preposisjonsoppgaver for språklæring | LCS',
+    titleTag: 'Selg preposisjonsoppgaver for språklæring | LessonCraftStudio',
     metaDescription: 'Preposisjonsoppgaver med bilder treffer norskkurs- og ESL-markedet. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

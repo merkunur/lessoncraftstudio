@@ -14,7 +14,7 @@ const content: StartContent = {
       'Amazon self-publishing business',
       'KDP worksheet book business',
     ],
-    titleTag: 'Amazon KDP Activity Book Business Guide | LCS',
+    titleTag: 'Amazon KDP Activity Book Business Guide | LessonCraftStudio',
     metaDescription: 'Complete guide to building an Amazon KDP activity book business. Publishing, formatting, niche selection, and scaling strategies for KDP sellers.',
   },
 

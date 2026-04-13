@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode 11',
       'astuces 11 langues',
     ],
-    titleTag: '11 langues pour vendre mondialement | LCS',
+    titleTag: '11 langues pour vendre mondialement | LessonCraftStudio',
     metaDescription: 'Vendez vos imprimables en 11 langues pour toucher le monde entier. Stratégie multilingue complète.',
   },
   hero: {

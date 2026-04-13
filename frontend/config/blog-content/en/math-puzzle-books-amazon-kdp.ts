@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Amazon self-publish activity books',
       'math book royalties KDP',
     ],
-    titleTag: 'Math Puzzle Books for Amazon KDP | LCS',
+    titleTag: 'Math Puzzle Books for Amazon KDP | LessonCraftStudio',
     metaDescription: 'Step-by-step guide to creating and publishing math puzzle books on Amazon KDP. Formatting, pricing, and keyword strategies for beginners.',
   },
   hero: {

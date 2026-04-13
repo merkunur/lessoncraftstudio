@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg bildesudoku bøker KDP aktivitetsbøker barn',
     secondaryKeywords: ['bildesudoku arbeidsark KDP selgere', 'sudoku med bilder barn Etsy butikk', 'lag bildesudoku oppgaver kommersiell lisens'],
     lsiKeywords: ['sudoku arbeidsark forretning', 'bildesudoku KDP nisje barn', 'aktivitetsbøker barn Amazon'],
-    titleTag: 'Selg bildesudoku-bøker på KDP | LCS',
+    titleTag: 'Selg bildesudoku-bøker på KDP | LessonCraftStudio',
     metaDescription: 'Bildesudoku for barn er en undervurdert KDP-nisje med lav konkurranse. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

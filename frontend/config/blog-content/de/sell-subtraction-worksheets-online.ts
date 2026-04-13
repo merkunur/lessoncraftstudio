@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Rechenaufgaben minus PDF',
       'digitale Mathe-Materialien verkaufen',
     ],
-    titleTag: 'Subtraktions-Arbeitsblaetter online verkaufen | LCS',
+    titleTag: 'Subtraktions-Arbeitsblaetter online verkaufen | LessonCraftStudio',
     metaDescription: 'So verkaufen Sie Subtraktions-Arbeitsblaetter profitabel auf Etsy.de und Eduki. Produktideen, Preise und Strategien fuer den DACH-Markt.',
   },
   hero: {

@@ -18,8 +18,8 @@ const content: AppContent = {
       'auto answer keys',
       'bulk generation',
     ],
-    titleTag: 'Matching Activity Book Generator — Early Learning KDP | LessonCraftStudio',
-    metaDescription: 'Create matching activity books for KDP and Etsy. 4 matching modes, 3,000+ themes, auto answer keys. Early learning niche. Commercial license. Try free trial.',
+    titleTag: 'Matching Worksheet Generator — Early Learning KDP Books | LessonCraftStudio',
+    metaDescription: 'Create matching worksheets for KDP early learning books. 4 matching modes, 104 themes, auto answer keys. 11 languages. Commercial license included. Try free.',
   },
 
   hero: {

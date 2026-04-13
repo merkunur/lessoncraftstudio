@@ -17,7 +17,7 @@ const content: BlogContent = {
       'particolare',
       'unico',
     ],
-    titleTag: 'Schede Didattiche Originali da Stampare | LCS',
+    titleTag: 'Schede Didattiche Originali da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche originali e creative per bambini da stampare. Scopri attività educative uniche con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

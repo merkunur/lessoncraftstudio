@@ -13,7 +13,7 @@ const content: BlogContent = {
       'activity book bestseller rank',
       'KDP royalty calculator activity books',
     ],
-    titleTag: '15 Profitable KDP Activity Book Niches for 2026 | LCS',
+    titleTag: '15 Profitable KDP Activity Book Niches for 2026 | LessonCraftStudio',
     metaDescription: '15 profitable KDP activity book niches for 2026 with demand data, competition analysis, and royalty estimates. Find your next bestselling niche.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'dino matte ordsök pussel',
       'evergreen produktlinje Etsy',
     ],
-    titleTag: 'Sälj Dinosaurie-Printables: Evergreen Nisch | LCS',
+    titleTag: 'Sälj Dinosaurie-Printables: Evergreen Nisch | LessonCraftStudio',
     metaDescription: 'Dinosaurie-printables säljer året runt. Skapa dino-arbetsblad och aktiviteter som barn älskar och föräldrar köper på Etsy.',
   },
   hero: {

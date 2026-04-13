@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digital product business pitfalls',
       'printable seller fails avoid',
     ],
-    titleTag: '10 Printable Business Mistakes Beginners Make | LCS',
+    titleTag: '10 Printable Business Mistakes Beginners Make | LessonCraftStudio',
     metaDescription: '10 costly mistakes printable business beginners make and how to avoid each one. From pricing too low to ignoring SEO — real fixes from real sellers.',
   },
   hero: {

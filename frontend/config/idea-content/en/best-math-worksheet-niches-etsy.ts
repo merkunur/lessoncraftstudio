@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Best Math Worksheet Niches for Etsy | LCS',
+    titleTag: 'Best Math Worksheet Niches for Etsy | LessonCraftStudio',
     metaDescription: 'Discover the most profitable math worksheet niches for Etsy sellers. Niche analysis, product ideas, and strategies for building a math printable business on Etsy, KDP, and Gumroad.',
 
     primaryKeyword: 'best math worksheet niches etsy',

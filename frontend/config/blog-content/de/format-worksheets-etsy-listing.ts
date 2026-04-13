@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Arbeitsblaetter Etsy Listing formatieren',
     secondaryKeywords: ['Arbeitsblaetter fuer das perfekte Etsy-Listing formatieren Anleitung', 'Druckvorlagen Arbeitsblaetter Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Arbeitsblaetter fuer Etsy-Listings formatieren | LCS',
+    titleTag: 'Arbeitsblaetter fuer Etsy-Listings formatieren | LessonCraftStudio',
     metaDescription: 'So formatieren Sie Ihre Arbeitsblaetter fuer ein professionelles Etsy-Listing: PDF-Erstellung, Mockups und Listing-Optimierung.',
   },
   hero: {

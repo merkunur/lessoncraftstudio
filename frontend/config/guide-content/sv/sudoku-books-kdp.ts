@@ -17,7 +17,7 @@ const content: GuideContent = {
       'sudoku serie volymer upprepade köp lojala lösare katalog',
       'pusselbok Amazon nyckelord kategorier royaltyberäkning',
     ],
-    titleTag: 'Sudokuböcker för Amazon KDP | LCS',
+    titleTag: 'Sudokuböcker för Amazon KDP | LessonCraftStudio',
     metaDescription: 'Skapa sudokuböcker för KDP med bildsudoku för barn och siffersudoku för vuxna. Svårighetsgradering, formatering och seriebyggande strategi steg för steg.',
   },
 

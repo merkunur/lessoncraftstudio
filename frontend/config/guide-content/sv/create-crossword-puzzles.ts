@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy korsord printable digitala nedladdningar',
       'kommersiell licens pusselverktyg facit automatiskt',
     ],
-    titleTag: 'Skapa korsord att skriva ut för barn | LCS',
+    titleTag: 'Skapa korsord att skriva ut för barn | LessonCraftStudio',
     metaDescription: 'Skapa korsordspussel för barn med bildledtrådar att skriva ut. Välj teman, generera korsande rutnät och facit. Sälj på Etsy och Amazon KDP.',
   },
 

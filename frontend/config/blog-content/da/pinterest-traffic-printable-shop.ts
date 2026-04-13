@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Pinterest trafik printable butik',
     secondaryKeywords: ['Pinterest trafik printable butik Etsy', 'Pinterest trafik printable butik online', 'Pinterest trafik printable butik forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Pinterest-Trafik til Din Printable-Butik | LCS',
+    titleTag: 'Pinterest-Trafik til Din Printable-Butik | LessonCraftStudio',
     metaDescription: 'Pinterest er den mest effektive gratis trafikkilde for printable-sælgere. Platformen fungerer som en visuel søgemaskine, og printable-produkter er visuelt ',
   },
   hero: {

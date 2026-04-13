@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Transportation Printable Business Ideas | LCS',
+    titleTag: 'Transportation Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Transportation printable business ideas. Vehicle-themed product concepts and strategies for Etsy & KDP printable sellers.',
 
     primaryKeyword: 'transportation printable business ideas',

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ensimmäiset myynnit Etsy',
       'tulostekauppa perustaminen',
     ],
-    titleTag: 'Etsy-kaupan ensimmäinen kuukausi | LCS',
+    titleTag: 'Etsy-kaupan ensimmäinen kuukausi | LessonCraftStudio',
     metaDescription: 'Avaa Etsy-kauppa tulosteille ja myy 30 päivässä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

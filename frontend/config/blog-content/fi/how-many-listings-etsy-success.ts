@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tuotevalikoiman laajuus',
       'myynnin käynnistyminen Etsy',
     ],
-    titleTag: 'Montako ilmoitusta Etsy-menestykseen? | LCS',
+    titleTag: 'Montako ilmoitusta Etsy-menestykseen? | LessonCraftStudio',
     metaDescription: 'Montako Etsy-ilmoitusta tarvitset menestykseen? Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

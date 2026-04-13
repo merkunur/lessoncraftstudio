@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'Zehnerübergang',
       'Rechenaufgaben',
     ],
-    titleTag: 'Kostenloser Plusaufgaben Generator Online | LCS',
+    titleTag: 'Kostenloser Plusaufgaben Generator Online | LessonCraftStudio',
     metaDescription: 'Kostenloser Plusaufgaben Generator — Additions-Arbeitsblätter mit Bildern sofort erstellen, ohne Anmeldung. 300 DPI PDF. Lizenz für Etsy & KDP.',
     },
 

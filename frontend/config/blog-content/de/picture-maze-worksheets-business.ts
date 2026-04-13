@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Labyrinth Vorlagen drucken',
       'Wegefinden Arbeitsblaetter Kinder',
     ],
-    titleTag: 'Bilder-Labyrinth-Arbeitsblaetter: 5 Ideen | LCS',
+    titleTag: 'Bilder-Labyrinth-Arbeitsblaetter: 5 Ideen | LessonCraftStudio',
     metaDescription: '5 profitable Geschaeftsideen mit Bilder-Labyrinth-Arbeitsblaettern. Von Etsy-Paketen bis KDP-Buecher — so monetarisieren Sie Labyrinthe.',
   },
   hero: {

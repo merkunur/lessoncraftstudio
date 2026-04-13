@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode niveaux',
       'astuces niveaux difficulté',
     ],
-    titleTag: 'Niveaux de difficulté et gammes de produits | LCS',
+    titleTag: 'Niveaux de difficulté et gammes de produits | LessonCraftStudio',
     metaDescription: 'Créez des gammes de produits avec plusieurs niveaux de difficulté. Multipliez vos produits sans nouveau contenu. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

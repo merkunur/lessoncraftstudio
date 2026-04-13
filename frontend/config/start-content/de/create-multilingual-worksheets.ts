@@ -15,7 +15,7 @@ const content: StartContent = {
       'internationale Märkte',
       'DACH-Raum',
     ],
-    titleTag: 'Mehrsprachige Arbeitsblätter erstellen | Anleitung | LCS',
+    titleTag: 'Mehrsprachige Arbeitsblätter erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Anleitung zum Erstellen mehrsprachiger Arbeitsblätter in 11 Sprachen. Internationale Märkte erschließen und auf Etsy und KDP verkaufen.',
   },
 

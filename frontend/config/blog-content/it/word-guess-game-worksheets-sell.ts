@@ -17,7 +17,7 @@ const content: BlogContent = {
       'gioco',
       'linguistica',
     ],
-    titleTag: 'Gioco Indovina la Parola da Stampare | LCS',
+    titleTag: 'Gioco Indovina la Parola da Stampare | LessonCraftStudio',
     metaDescription: 'Gioco indovina la parola da stampare per bambini. Esercizi di lessico e vocabolario per scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {

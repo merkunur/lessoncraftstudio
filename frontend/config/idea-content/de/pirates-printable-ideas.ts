@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Seeräuber-Thema Druckvorlagen ganzjährig',
       'Abenteuer-Nische Kinder Etsy-Shop',
     ],
-    titleTag: 'Piraten-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Piraten-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Piraten-Druckvorlagen als profitable Etsy-Nische entdecken. Schatzkarten und Piratenschiffe als Abenteuer-Thema — Produktideen und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {

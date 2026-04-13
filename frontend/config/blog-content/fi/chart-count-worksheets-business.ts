@@ -13,7 +13,7 @@ const content: BlogContent = {
       'diagrammit esikoulu',
       'laskentatehtävät kuvilla',
     ],
-    titleTag: 'Kaaviolaskutehtävät myyntiin | LCS',
+    titleTag: 'Kaaviolaskutehtävät myyntiin | LessonCraftStudio',
     metaDescription: 'Myy kaaviolaskutehtäviä — visuaalinen matematiikkaniche erottuu. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

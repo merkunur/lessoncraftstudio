@@ -14,8 +14,8 @@ import { encodeImagePath } from '@/lib/encode-image-path';
 // ============================================================
 const appsMetadata: Record<string, { title: string; description: string; keywords: string }> = {
   en: {
-    title: '33 KDP & Etsy Printable Generators — Browse All Tools | LessonCraftStudio',
-    description: 'Browse 33 generators built for KDP publishers and Etsy sellers. Word search, math, coloring, puzzle books. Bulk create, 300 DPI, 11 languages. Commercial license.',
+    title: '33 Printable Generators for KDP Publishers & Etsy Sellers | LessonCraftStudio',
+    description: 'Browse 33 professional printable generators. Create word searches, math worksheets, coloring pages, puzzles, and more. Bulk generate KDP-ready PDFs. Commercial license. Try free.',
     keywords: 'KDP activity book generators, Etsy printable tools, KDP worksheet generators, Book Bolt alternative, word search generator KDP, coloring book generator, math worksheet generator, commercial license',
   },
   de: {

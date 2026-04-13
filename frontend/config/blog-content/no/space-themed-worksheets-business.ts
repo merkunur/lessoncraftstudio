@@ -8,7 +8,7 @@ const content: BlogContent = {
       'romtema arbeidsark barn Etsy KDP',
     ],
     lsiKeywords: ['romfart oppgaver barn salg', 'evergreen arbeidsark nisje', 'temabaserte oppgaver kommersiell lisens'],
-    titleTag: 'Romfart-arbeidsark som forretning | LCS',
+    titleTag: 'Romfart-arbeidsark som forretning | LessonCraftStudio',
     metaDescription: 'Romfart-tema arbeidsark med planeter og astronauter selger hele året. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

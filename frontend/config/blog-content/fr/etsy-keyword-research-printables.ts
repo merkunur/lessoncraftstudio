@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode recherche',
       'astuces recherche mots-clés',
     ],
-    titleTag: 'Recherche de mots-clés Etsy pour imprimables | LCS',
+    titleTag: 'Recherche de mots-clés Etsy pour imprimables | LessonCraftStudio',
     metaDescription: 'Comment trouver les meilleurs mots-clés Etsy pour vos imprimables. Outils, techniques et exemples.',
   },
   hero: {

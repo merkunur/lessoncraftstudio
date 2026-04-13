@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Vorschule',
       '1. Klasse',
     ],
-    titleTag: 'Kostenloser Schreibübungen-Generator | LCS',
+    titleTag: 'Kostenloser Schreibübungen-Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Schreibübungen-Generator — Nachspurübungen mit eigenen Wörtern sofort erstellen, ohne Anmeldung. 11 Sprachen. Lizenz für Etsy & KDP.',
   },
 

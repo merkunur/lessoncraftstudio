@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Cross-Selling Kreuzworträtsel Buchstabensalat Kryptogramm',
       'saisonales Timing Etsy SEO 13 Tags Rätsel',
     ],
-    titleTag: 'Suchsel auf Etsy verkaufen | LCS',
+    titleTag: 'Suchsel auf Etsy verkaufen | LessonCraftStudio',
     metaDescription: 'Suchsel auf Etsy verkaufen: Etsy-SEO fuer Wortraetsel, mehrsprachige Angebote in 11 Sprachen, Buendelstrategien und saisonales Timing fuer Ihren Raetsel-Shop.',
   },
 

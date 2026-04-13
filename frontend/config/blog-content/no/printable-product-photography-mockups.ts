@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'produktfotografering mockups arbeidsark Etsy guide',
     secondaryKeywords: ['lag mockup bilder arbeidsark gratis verktøy', 'produktbilder digitale nedlastinger steg for steg', 'mockup maler arbeidsark Etsy selgere'],
     lsiKeywords: ['mockup arbeidsark uten kamera', 'produktbilder gratis verktøy Etsy', 'annonsebilder digital butikk'],
-    titleTag: 'Produktfotografering og mockups for arbeidsark | LCS',
+    titleTag: 'Produktfotografering og mockups for arbeidsark | LessonCraftStudio',
     metaDescription: 'Lag profesjonelle mockup-bilder for arbeidsark uten kamera eller fotostudio. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

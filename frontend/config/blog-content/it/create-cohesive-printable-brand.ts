@@ -17,7 +17,7 @@ const content: BlogContent = {
       'grafica',
       'professionale',
     ],
-    titleTag: 'Creare Stile Coerente per Schede | LCS',
+    titleTag: 'Creare Stile Coerente per Schede | LessonCraftStudio',
     metaDescription: 'Come creare uno stile grafico coerente per le tue schede didattiche. Template professionali con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

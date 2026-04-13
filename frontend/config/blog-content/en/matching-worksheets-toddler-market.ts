@@ -13,7 +13,7 @@ const content: BlogContent = {
       'early learning worksheets market',
       'matching games printable Etsy',
     ],
-    titleTag: 'Matching Worksheets: Toddler Market Guide | LCS',
+    titleTag: 'Matching Worksheets: Toddler Market Guide | LessonCraftStudio',
     metaDescription: 'Matching worksheets dominate the toddler printable market. Learn how to create and sell these high-demand early learning activities on Etsy.',
   },
   hero: {

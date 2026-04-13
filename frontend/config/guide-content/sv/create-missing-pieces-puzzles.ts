@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pusselbok pysselbok visuell logik',
       'kommersiell licens saknade bitar-verktyg facit',
     ],
-    titleTag: 'Skapa saknade bitar-pussel att skriva ut | LCS',
+    titleTag: 'Skapa saknade bitar-pussel att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa saknade bitar-pussel att skriva ut med 6 bitformer, distraktionsbitar och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 

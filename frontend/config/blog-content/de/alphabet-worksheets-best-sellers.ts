@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Alphabet Arbeitsblatt Grundschule',
       'Buchstabeneinfuehrung Material verkaufen',
     ],
-    titleTag: 'Alphabet-Arbeitsblaetter: Was Bestseller unterscheidet | LCS',
+    titleTag: 'Alphabet-Arbeitsblaetter: Was Bestseller unterscheidet | LessonCraftStudio',
     metaDescription: 'Was Alphabet-Arbeitsblatt-Bestseller von der Masse unterscheidet. 5 Erfolgsfaktoren fuer den DACH-Markt auf Etsy.de und Eduki.',
   },
   hero: {

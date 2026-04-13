@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tally chart printable activities',
       'math graphing printables',
     ],
-    titleTag: 'Chart & Count Worksheets: Untapped Niche | LCS',
+    titleTag: 'Chart & Count Worksheets: Untapped Niche | LessonCraftStudio',
     metaDescription: 'Chart and count worksheets are an untapped printable product category. Learn why this niche has low competition and consistent demand year-round.',
   },
   hero: {

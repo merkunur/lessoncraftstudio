@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'påsken printable påskeæg påskeprintables din forårs',
     secondaryKeywords: ['påske printables forretning forår Etsy', 'påske printables forretning forår online', 'påske printables forretning forår forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Påskeprintables: Din Forårs-Forretning | LCS',
+    titleTag: 'Påskeprintables: Din Forårs-Forretning | LessonCraftStudio',
     metaDescription: 'Påsken er en af de mest profitable sæsoner for printable-sælgere i Danmark. Danske påsketraditioner — påskefrokost, påskeæg, påskehare — giver unikke produ',
   },
   hero: {

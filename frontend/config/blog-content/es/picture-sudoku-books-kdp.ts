@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'sudoku imágenes niños KDP sin competencia 2026',
     secondaryKeywords: ['libros sudoku imágenes Amazon KDP niños', 'picture sudoku books KDP no competition', 'sudoku visual preescolar negocio KDP'],
     lsiKeywords: ['sudoku infantil imágenes bajo contenido', 'libros puzzles visuales KDP niños', 'sudoku pictures kids activity book'],
-    titleTag: 'Sudoku con Imágenes para Niños: Nicho KDP | LCS',
+    titleTag: 'Sudoku con Imágenes para Niños: Nicho KDP | LessonCraftStudio',
     metaDescription: 'El sudoku con imágenes para niños es un nicho KDP prácticamente vacío. Publique antes que nadie. Prueba gratuita con marca de agua.',
   },
   hero: {

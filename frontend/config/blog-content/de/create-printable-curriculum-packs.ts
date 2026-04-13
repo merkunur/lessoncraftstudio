@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Lehrplan Pakete Druckvorlagen Homeschool erstellen',
     secondaryKeywords: ['Lehrplan-Pakete fuer Homeschool-Familien erstellen Anleitung', 'Druckvorlagen Lehrplan-Pakete Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Lehrplan-Pakete fuer Homeschool-Familien erstellen | LCS',
+    titleTag: 'Lehrplan-Pakete fuer Homeschool-Familien erstellen | LessonCraftStudio',
     metaDescription: 'So erstellen Sie strukturierte Lehrplan-Pakete fuer Homeschool-Familien. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {

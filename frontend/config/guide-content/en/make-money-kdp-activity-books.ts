@@ -14,7 +14,7 @@ const content: GuideContent = {
       'KDP activity book pricing strategy',
       'passive income self-publishing',
     ],
-    titleTag: 'Make Money with KDP Activity Books | LCS',
+    titleTag: 'Make Money with KDP Activity Books | LessonCraftStudio',
     metaDescription: 'How to make money with KDP activity books. Realistic revenue expectations, pricing strategies, and scaling tactics for Amazon publishers.',
   },
 

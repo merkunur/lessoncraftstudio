@@ -17,7 +17,7 @@ const content: BlogContent = {
       'feste',
       'dicembre',
     ],
-    titleTag: 'Schede Didattiche Natale da Stampare | LCS',
+    titleTag: 'Schede Didattiche Natale da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche di Natale da stampare per bambini. Attività natalizie per scuola primaria e infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {

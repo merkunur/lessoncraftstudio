@@ -14,7 +14,7 @@ const content: GuideContent = {
       'print-ready PDF quality checks',
       'digital product quality assurance',
     ],
-    titleTag: 'Quality Standards for Printable Worksheets | LCS',
+    titleTag: 'Quality Standards for Printable Worksheets | LessonCraftStudio',
     metaDescription: 'Quality standards for printable worksheets that sell. Design checklist, professional benchmarks, and quality criteria for Etsy and KDP sellers.',
   },
 

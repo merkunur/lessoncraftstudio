@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy SEO arbeidsark-selgere 2026',
     secondaryKeywords: ['Etsy søkemotor optimalisering oppgaver', 'rangering Etsy digitale nedlastinger', 'Etsy algoritme arbeidsark synlighet'],
     lsiKeywords: ['Etsy tittel tags rangering', 'søkeordoptimalisering digitale produkter', 'Etsy Star Seller pedagogisk'],
-    titleTag: 'Etsy SEO for arbeidsark-selgere i 2026 | LCS',
+    titleTag: 'Etsy SEO for arbeidsark-selgere i 2026 | LessonCraftStudio',
     metaDescription: 'Oppdatert Etsy SEO-guide for arbeidsark-selgere: titler, tags, bilder og konvertering. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

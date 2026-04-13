@@ -13,7 +13,7 @@ const content: BlogContent = {
       'gömda föremål pussel printable',
       'visuell uppmärksamhet arbetsblad',
     ],
-    titleTag: 'Sälj Sök-och-Hitta-Arbetsblad på Etsy | LCS',
+    titleTag: 'Sälj Sök-och-Hitta-Arbetsblad på Etsy | LessonCraftStudio',
     metaDescription: 'Sök-och-hitta-arbetsblad fängslar barn 4-8 år. Skapa dolda objekt-printables och sälj på Etsy eller som KDP-bok.',
   },
   hero: {

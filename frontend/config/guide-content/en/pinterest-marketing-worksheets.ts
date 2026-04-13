@@ -14,7 +14,7 @@ const content: GuideContent = {
       'pin design for product traffic',
       'Pinterest to Etsy sales funnel',
     ],
-    titleTag: 'Pinterest Marketing for Printables | LCS',
+    titleTag: 'Pinterest Marketing for Printables | LessonCraftStudio',
     metaDescription: 'Pinterest marketing for printable sellers. Pin strategies, board SEO, and traffic tactics that drive sales to your Etsy and Gumroad shops.',
   },
 

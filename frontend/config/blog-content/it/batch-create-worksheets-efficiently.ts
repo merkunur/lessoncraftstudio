@@ -17,7 +17,7 @@ const content: BlogContent = {
       'personalizzare',
       'template',
     ],
-    titleTag: 'Creare Schede Didattiche Veloci Online | LCS',
+    titleTag: 'Creare Schede Didattiche Veloci Online | LessonCraftStudio',
     metaDescription: 'Come creare schede didattiche in serie con un generatore automatico. Produce esercizi professionali in minuti con LessonCraftStudio — 33 strumenti.',
   },
   hero: {

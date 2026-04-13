@@ -13,7 +13,7 @@ const content: BlogContent = {
       'batch create printable listings',
       'Etsy printable scaling strategy',
     ],
-    titleTag: '1 to 100 Etsy Listings in 30 Days: A Scaling Strategy | LCS',
+    titleTag: '1 to 100 Etsy Listings in 30 Days: A Scaling Strategy | LessonCraftStudio',
     metaDescription: 'How to scale from 1 to 100 Etsy printable listings in 30 days. Batch creation strategies, efficiency tips, and the data behind why listing volume drives revenue.',
   },
   hero: {

@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Shadow Match Book Generator — Toddler KDP Books | LessonCraftStudio',
-    metaDescription: 'Create shadow matching activity books for toddler KDP books and Etsy. Eye-catching puzzles, high engagement. Bulk generate. Commercial license. Try free trial.',
+    titleTag: 'Shadow Matching Worksheet Generator — Toddler KDP Books | LessonCraftStudio',
+    metaDescription: 'Create shadow matching worksheets for KDP toddler activity books. 104 themed image sets, auto answer keys. Best-selling preschool format. Commercial license. Try free.',
   },
 
   hero: {

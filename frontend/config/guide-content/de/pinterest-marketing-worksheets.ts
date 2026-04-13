@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Pinterest Analytics Rich Pins Speicherungsrate',
       'saisonales Pinnen Hochformat Pin-Vorlagen',
     ],
-    titleTag: 'Pinterest Marketing für Druckvorlagen | LCS',
+    titleTag: 'Pinterest Marketing für Druckvorlagen | LessonCraftStudio',
     metaDescription: 'Pinterest Marketing für Druckvorlagen-Verkäufer: Pin-Optimierung, Board-Strategie, keyword-reiche Inhalte und saisonale Planung für langfristigen Shop-Traffic.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'pääsiäismuna tulostettavia',
       'kevätjuhlat aktiviteetit',
     ],
-    titleTag: 'Pääsiäistulosteet kevätsesonkiin | LCS',
+    titleTag: 'Pääsiäistulosteet kevätsesonkiin | LessonCraftStudio',
     metaDescription: 'Myy pääsiäistulostettavia keväällä — merkittävä sesonkimahdollisuus. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

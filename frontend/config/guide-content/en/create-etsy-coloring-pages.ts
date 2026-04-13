@@ -14,7 +14,7 @@ const content: GuideContent = {
       'seasonal coloring page listings',
       'digital download coloring business',
     ],
-    titleTag: 'Sell Coloring Pages on Etsy: Complete Guide | LCS',
+    titleTag: 'Sell Coloring Pages on Etsy: Complete Guide | LessonCraftStudio',
     metaDescription: 'Sell coloring pages on Etsy with confidence. SEO, pricing, seasonal timing, and listing tips. Use our generator to create pages fast — try free.',
   },
 

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'farvelægningssider forretning 2026',
     secondaryKeywords: ['farvelægningssider forretning 2026 Etsy', 'farvelægningssider forretning 2026 online', 'farvelægningssider forretning 2026 sælg'],
     lsiKeywords: ['printbar forretning', 'digital download salg', 'Etsy printables'],
-    titleTag: 'Farvelægningssider som Forretning i 2026 | LCS',
+    titleTag: 'Farvelægningssider som Forretning i 2026 | LessonCraftStudio',
     metaDescription: 'Farvelægningssider er det mest søgte printable-produkt på Etsy, men det er også det mest konkurrenceprægede. I 2026 kræver succes i farvelægningsnichen spe',
   },
   hero: {

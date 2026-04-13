@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Fry sight words printables Etsy',
       'kindergarten sight words sell online',
     ],
-    titleTag: 'Sight Words Worksheets: Build a Literacy Biz | LCS',
+    titleTag: 'Sight Words Worksheets: Build a Literacy Biz | LessonCraftStudio',
     metaDescription: 'Sight word worksheets are a perennial best seller. Learn how to build a literacy printable business around Dolch and Fry word lists on Etsy and KDP.',
   },
   hero: {

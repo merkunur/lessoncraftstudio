@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'publiser mattepuslespillbøker Amazon KDP',
     secondaryKeywords: ['mattebok KDP passiv inntekt', 'aktivitetsbok matte Amazon selge', 'puslespillbok KDP royalty nisje'],
     lsiKeywords: ['lavinnholdsbok KDP formatering', 'bildesudoku kodeaddisjon bok', 'Amazon selvpublisering matteoppgaver'],
-    titleTag: 'Mattepuslespillbøker på Amazon KDP | LCS',
+    titleTag: 'Mattepuslespillbøker på Amazon KDP | LessonCraftStudio',
     metaDescription: 'Publiser mattepuslespillbøker på KDP for passiv inntekt. Nisjevalg, formatering og royalty. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

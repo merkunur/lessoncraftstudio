@@ -15,7 +15,7 @@ const content: GuideContent = {
       'educational marketplace pricing',
       'TPT follower growth tactics',
     ],
-    titleTag: 'Sell Printables on Teachers Pay Teachers | LCS',
+    titleTag: 'Sell Printables on Teachers Pay Teachers | LessonCraftStudio',
     metaDescription: 'Complete guide to selling printables on Teachers Pay Teachers. Store setup, listing optimization, TPT-specific pricing, seasonal sales, and follower building strategies.',
   },
 

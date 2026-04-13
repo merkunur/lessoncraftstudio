@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'fichas tren patrones producto único 2026',
     secondaryKeywords: ['fichas tren patrones nicho único Etsy', 'pattern train worksheets unique product', 'fichas vagones patrones vender online'],
     lsiKeywords: ['tren secuencias imprimible niños', 'fichas vagones completar patrón', 'unique pattern worksheets train theme'],
-    titleTag: 'Fichas Tren de Patrones: Producto Único | LCS',
+    titleTag: 'Fichas Tren de Patrones: Producto Único | LessonCraftStudio',
     metaDescription: 'Las fichas de tren de patrones son un producto único sin competencia directa. Posiciónese como el único vendedor. Prueba gratuita con marca de agua.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'misure',
       'prescuola',
     ],
-    titleTag: 'Schede Grande e Piccolo da Stampare | LCS',
+    titleTag: 'Schede Grande e Piccolo da Stampare | LessonCraftStudio',
     metaDescription: 'Schede di confronto grande e piccolo da stampare per bambini. Esercizi su dimensioni per scuola dell\'infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {

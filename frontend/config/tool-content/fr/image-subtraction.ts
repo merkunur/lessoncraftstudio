@@ -20,7 +20,7 @@ const content: ToolContent = {
       'retenue',
       'différence',
     ],
-    titleTag: 'Générateur fiches de soustraction gratuit en ligne | LCS',
+    titleTag: 'Générateur fiches de soustraction gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de fiches de soustraction gratuit — exercices avec images barrées en ligne, sans inscription. Corrections automatiques, PDF 300 DPI. Licence commerciale disponible.',
   },
 

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'digital educational product business',
       'multi-category printable shop strategy',
     ],
-    titleTag: 'Sell Educational Printables on Etsy | LCS',
+    titleTag: 'Sell Educational Printables on Etsy | LessonCraftStudio',
     metaDescription: 'Sell educational printables on Etsy from scratch. Niche selection, listing optimization, pricing, and first-sale strategies for beginners.',
   },
 

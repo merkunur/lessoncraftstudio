@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'småbørn aktivitet printables sælg',
     secondaryKeywords: ['småbørn aktivitet printables sælg Etsy', 'småbørn aktivitet printables sælg online', 'småbørn aktivitet printables sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Småbørns-Printables: Et Voksende Marked | LCS',
+    titleTag: 'Småbørns-Printables: Et Voksende Marked | LessonCraftStudio',
     metaDescription: 'Småbørnsaktiviteter (2-3 år) er en af de hurtigst voksende printable-kategorier. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

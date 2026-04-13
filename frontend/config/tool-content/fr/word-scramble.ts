@@ -19,7 +19,7 @@ const content: ToolContent = {
       'vocabulaire',
       'solution',
     ],
-    titleTag: 'Générateur lettres mélangées gratuit en ligne | LCS',
+    titleTag: 'Générateur lettres mélangées gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de lettres mélangées gratuit — créez des fiches d\'anagrammes avec images thématiques en ligne, sans inscription. Solutions automatiques. Licence commerciale.',
   },
 

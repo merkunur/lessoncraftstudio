@@ -15,7 +15,7 @@ const content: StartContent = {
       'Skalierung',
       'Zeitplan',
     ],
-    titleTag: 'Druckvorlagen-Business Bauplan | Schritt für Schritt | LCS',
+    titleTag: 'Druckvorlagen-Business Bauplan | Schritt für Schritt | LessonCraftStudio',
     metaDescription: 'Der komplette Bauplan für Ihr Druckvorlagen-Business. Geschäftsmodell, Einnahmequellen, Skalierung und Zeitplan für nachhaltigen Erfolg.',
   },
 

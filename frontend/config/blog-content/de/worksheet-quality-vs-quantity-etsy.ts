@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digitale Produkte Optimierung',
       'Etsy Konversion verbessern',
     ],
-    titleTag: 'Qualitaet vs. Quantitaet auf Etsy | LCS',
+    titleTag: 'Qualitaet vs. Quantitaet auf Etsy | LessonCraftStudio',
     metaDescription: 'Brauchen Sie 500 Listings oder 50 perfekte? Die richtige Balance zwischen Qualitaet und Quantitaet fuer Ihren Druckvorlagen-Shop auf Etsy.',
   },
   hero: {

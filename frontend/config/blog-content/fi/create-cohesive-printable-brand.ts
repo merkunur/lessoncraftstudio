@@ -13,7 +13,7 @@ const content: BlogContent = {
       'värimaailma brändi tulosteet',
       'tunnistettavuus verkkokaupassa',
     ],
-    titleTag: 'Rakenna yhtenäinen tulostebrandi | LCS',
+    titleTag: 'Rakenna yhtenäinen tulostebrandi | LessonCraftStudio',
     metaDescription: 'Rakenna tunnistettava brändi tulostekaupallesi erottuvalla ilmeellä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

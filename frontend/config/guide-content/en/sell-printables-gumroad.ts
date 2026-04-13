@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Gumroad payment processing digital products',
       'Gumroad storefront optimization',
     ],
-    titleTag: 'Sell Printables on Gumroad: Full Guide | LCS',
+    titleTag: 'Sell Printables on Gumroad: Full Guide | LessonCraftStudio',
     metaDescription: 'Sell printables on Gumroad. Store setup, pricing, payment processing, and marketing strategies for going direct-to-consumer with digital products.',
   },
 

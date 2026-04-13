@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Druckvorlagen Nebeneinkommen',
       'Online Geschaeft Einnahmen realistisch',
     ],
-    titleTag: 'Druckvorlagen-Geschaeft: Realistische Einnahmen | LCS',
+    titleTag: 'Druckvorlagen-Geschaeft: Realistische Einnahmen | LessonCraftStudio',
     metaDescription: 'Realistische Einnahmen im Druckvorlagen-Geschaeft: Ehrliche Zahlen nach Monaten, Plattformen und Nischen. Verkaufen Sie auf Etsy & KDP mit Lizenz.',
   },
   hero: {

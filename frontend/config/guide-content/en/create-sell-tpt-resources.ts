@@ -14,7 +14,7 @@ const content: GuideContent = {
       'educational resource marketplace tips',
       'Teachers Pay Teachers pricing guide',
     ],
-    titleTag: 'Create and Sell TPT Resources: Guide | LCS',
+    titleTag: 'Create and Sell TPT Resources: Guide | LessonCraftStudio',
     metaDescription: 'Create and sell TPT resources step by step. Store setup, listing optimization, pricing, and marketing strategies for new TPT sellers.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'sanaristikko KDP kirja',
       'kielitaito-harjoitukset tulostettavia',
     ],
-    titleTag: 'Sanaristikot tulostettavina myyntiin | LCS',
+    titleTag: 'Sanaristikot tulostettavina myyntiin | LessonCraftStudio',
     metaDescription: 'Myy sanaristikkoja tulostettavina: ikivihreä kategoria. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

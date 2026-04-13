@@ -17,7 +17,7 @@ const content: BlogContent = {
       'accessibile',
       'intuitivo',
     ],
-    titleTag: 'Creare Schede Senza Saper Disegnare | LCS',
+    titleTag: 'Creare Schede Senza Saper Disegnare | LessonCraftStudio',
     metaDescription: 'Come creare schede didattiche professionali senza competenze di design. Generatore automatico intuitivo LessonCraftStudio — 33 strumenti, 11 lingue.',
   },
   hero: {

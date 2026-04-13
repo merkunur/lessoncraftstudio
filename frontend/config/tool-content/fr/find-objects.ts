@@ -20,7 +20,7 @@ const content: ToolContent = {
       'trouver',
       'repérer',
     ],
-    titleTag: 'Générateur cherche et trouve gratuit en ligne | LCS',
+    titleTag: 'Générateur cherche et trouve gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur « cherche et trouve » gratuit — créez des fiches d\'observation avec images thématiques en ligne, sans inscription. Solutions automatiques. Licence commerciale.',
   },
 

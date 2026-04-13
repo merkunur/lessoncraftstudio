@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'printables sælg mors dag fars dag',
     secondaryKeywords: ['printables sælg mors dag fars dag Etsy', 'printables sælg mors dag fars dag online', 'printables sælg mors dag fars dag forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Mors Dag og Fars Dag Printables: Guide | LCS',
+    titleTag: 'Mors Dag og Fars Dag Printables: Guide | LessonCraftStudio',
     metaDescription: 'Mors dag og fars dag er to årlige salgsmuligheder for printable-sælgere. Børn opretter gaver, lærere forbereder klasseaktiviteter, og forældre køber festak',
   },
   hero: {

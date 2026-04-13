@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Malvorlagen Markt Analyse 2026',
       'Ausmalbild erstellen und verkaufen',
     ],
-    titleTag: 'Malvorlagen-Geschaeft 2026: Noch profitabel? | LCS',
+    titleTag: 'Malvorlagen-Geschaeft 2026: Noch profitabel? | LessonCraftStudio',
     metaDescription: 'Ist das Malvorlagen-Geschaeft 2026 noch profitabel? Ehrliche Analyse: Wo Potenzial liegt, wo Uebersaettigung droht, und welche Nischen funktionieren.',
   },
   hero: {

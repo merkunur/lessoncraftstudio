@@ -17,7 +17,7 @@ const content: GuideContent = {
       'flerspråkiga pussel svenska engelska tyska franska',
       'Amazon KDP korsningspotential pusselbokserie',
     ],
-    titleTag: 'Sälja ordpussel på Etsy | LCS',
+    titleTag: 'Sälja ordpussel på Etsy | LessonCraftStudio',
     metaDescription: 'Sälj ordpussel på Etsy med 4 pusselgeneratorer. Etsy SEO, prissättning, paketering med korsord och ordmix. Guide och tips för printables-säljare.',
   },
 

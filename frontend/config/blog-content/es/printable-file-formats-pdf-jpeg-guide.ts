@@ -9,7 +9,7 @@ const content: BlogContent = {
       'paso crear fotos listing',
     ],
     lsiKeywords: ['formatos archivo imprimibles tips', 'como formatos archivo', 'JPEG guia facil'],
-    titleTag: 'Formatos PDF vs JPEG para Imprimibles | LCS',
+    titleTag: 'Formatos PDF vs JPEG para Imprimibles | LessonCraftStudio',
     metaDescription: 'PDF o JPEG? Esta es una pregunta comun entre vendedores nuevos de imprimibles. La respuesta corta es: PDF para fichas imprimibles y JPEG para previsualizac',
   },
   hero: {

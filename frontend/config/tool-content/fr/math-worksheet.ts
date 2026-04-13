@@ -20,7 +20,7 @@ const content: ToolContent = {
       'opérations',
       'calcul mental',
     ],
-    titleTag: 'Générateur fiches de maths gratuit en ligne | LCS',
+    titleTag: 'Générateur fiches de maths gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de fiches de maths gratuit — créez des exercices personnalisés en ligne, sans inscription. Corrections automatiques, PDF 300 DPI. Licence commerciale pour Etsy & KDP.',
   },
 

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'Italia',
       'educativo',
     ],
-    titleTag: 'Eduki vs Etsy: Vendere Schede in Italia | LCS',
+    titleTag: 'Eduki vs Etsy: Vendere Schede in Italia | LessonCraftStudio',
     metaDescription: 'Confronto Eduki vs Etsy per vendere schede didattiche in Italia. Pubblico, commissioni e vantaggi per venditori con LessonCraftStudio — 33 generatori.',
   },
   hero: {

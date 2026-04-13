@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede insetti da stampare per bambini | LCS',
+    titleTag: 'Schede insetti da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede sugli insetti da stampare: colorare farfalle e coccinelle, conteggio api, crucipuzzle e ciclo vita della farfalla per bambini 3-8 anni.',
     primaryKeyword: 'schede insetti da stampare',
     secondaryKeywords: [

@@ -15,7 +15,7 @@ const content: BundleContent = {
       'complete art generator package',
       'visual worksheet seller toolkit',
     ],
-    titleTag: 'Visual Worksheet Bundle for Sellers | LCS',
+    titleTag: 'Visual Worksheet Bundle for Sellers | LessonCraftStudio',
     metaDescription: 'Get all 7 visual and art generators in one bundle. Coloring, drawing, patterns, charts & more to sell on Etsy & KDP. Commercial license included. $149 one-time.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'jeux observation enfants vendre',
       'fiches attention visuelle imprimables',
     ],
-    titleTag: 'Fiches objets cachés : produits évolutifs | LCS',
+    titleTag: 'Fiches objets cachés : produits évolutifs | LessonCraftStudio',
     metaDescription: 'Les fiches d\'objets cachés se déclinent en une ligne de produits évolutive. Créez, vendez et développez ce business sur Etsy et KDP en 2026.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ruokasanasto S2-opetus',
       'ruokakuvat tehtävissä',
     ],
-    titleTag: 'Ruoka-aiheiset tulosteet myyntiin | LCS',
+    titleTag: 'Ruoka-aiheiset tulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy ruoka-aiheisia työarkkeja — universaali teema myyjille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

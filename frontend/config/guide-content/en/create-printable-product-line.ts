@@ -14,7 +14,7 @@ const content: GuideContent = {
       'cohesive product branding for sellers',
       'worksheet product line expansion',
     ],
-    titleTag: 'Build a Printable Product Line | LCS',
+    titleTag: 'Build a Printable Product Line | LessonCraftStudio',
     metaDescription: 'Build a cohesive printable product line that drives repeat purchases. Catalog planning, branding, and cross-selling for Etsy and KDP.',
   },
 

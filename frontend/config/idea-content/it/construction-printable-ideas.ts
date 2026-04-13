@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede cantiere da stampare per bambini | LCS',
+    titleTag: 'Schede cantiere da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede a tema cantiere da stampare: attività con escavatori, gru e veicoli da costruzione. Conteggio, colorare e abbinamento per bambini 3-7 anni.',
     primaryKeyword: 'schede cantiere da stampare',
     secondaryKeywords: [

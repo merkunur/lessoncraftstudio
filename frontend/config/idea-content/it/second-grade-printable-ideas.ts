@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede classe seconda da stampare | LCS',
+    titleTag: 'Schede classe seconda da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede per la classe seconda da stampare: addizione con riporto, sottrazione, comprensione del testo e grammatica. Esercizi per bambini 7-8 anni.',
     primaryKeyword: 'schede classe seconda da stampare',
     secondaryKeywords: [

@@ -15,7 +15,7 @@ const content: GuideContent = {
       'sprachsensitive Buchstaben 11 Sprachen',
       'Lösungsschlüssel 300 DPI',
     ],
-    titleTag: 'Alphabet-Arbeitsblätter erstellen | Anleitung | LCS',
+    titleTag: 'Alphabet-Arbeitsblätter erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Alphabet-Arbeitsblättern. 11 Zug-Waggons, sprachsensitive Buchstabenzuordnung und Lösungsschlüssel. Kostenlos testen.',
   },
 

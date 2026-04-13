@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Was-gehoert-nicht-dazu Arbeitsblaetter verkaufen',
     secondaryKeywords: ['Was passt nicht Arbeitsblaetter Etsy', 'Odd One Out Druckvorlagen Geschaeft', 'Ausschlusslogik Raetsel Kinder'],
     lsiKeywords: ['Intruder finden Arbeitsblatt PDF', 'Kritisches Denken Kinder ueben', 'Logik Raetsel Vorschule'],
-    titleTag: 'Was-gehoert-nicht-dazu: Kritisches Denken verkaufen | LCS',
+    titleTag: 'Was-gehoert-nicht-dazu: Kritisches Denken verkaufen | LessonCraftStudio',
     metaDescription: 'Warum \"Was-gehoert-nicht-dazu\"-Arbeitsblaetter kritisches Denken foerdern und sich auf Etsy.de profitabel verkaufen. Nische, Preise, Strategien.',
   },
   hero: {

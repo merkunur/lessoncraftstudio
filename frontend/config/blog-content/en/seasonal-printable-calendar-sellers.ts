@@ -13,7 +13,7 @@ const content: BlogContent = {
       'holiday printable schedule',
       'printable business planning calendar',
     ],
-    titleTag: 'Seasonal Sales Calendar for Sellers | LCS',
+    titleTag: 'Seasonal Sales Calendar for Sellers | LessonCraftStudio',
     metaDescription: 'The seasonal printable sales calendar every seller needs. Know exactly when to create, list, and promote products for maximum sales all year.',
   },
   hero: {

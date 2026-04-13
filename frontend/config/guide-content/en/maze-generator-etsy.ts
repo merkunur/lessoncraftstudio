@@ -15,7 +15,7 @@ const content: GuideContent = {
       'kids activity book mazes',
       'themed maze worksheets',
     ],
-    titleTag: 'Maze & Picture Path Generator for Etsy | LCS',
+    titleTag: 'Maze & Picture Path Generator for Etsy | LessonCraftStudio',
     metaDescription: 'Create professional maze and picture path worksheets for your Etsy shop. 3 game modes, LPF maze algorithm, 104 themes, 300 DPI. Etsy listing strategy included. Try free trial.',
   },
 

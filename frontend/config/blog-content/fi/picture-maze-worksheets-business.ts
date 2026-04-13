@@ -13,7 +13,7 @@ const content: BlogContent = {
       'visuaalinen navigointi tehtävät',
       'sokkelot kaikille ikäryhmille',
     ],
-    titleTag: 'Kuvasokkelot liiketoimintana | LCS',
+    titleTag: 'Kuvasokkelot liiketoimintana | LessonCraftStudio',
     metaDescription: 'Myy kuvasokkelo-tehtäviä ikivihreänä tuotteena. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

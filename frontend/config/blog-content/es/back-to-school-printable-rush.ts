@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles regreso fichas', 'vender imprimibles imprimibles', 'clases temporada educativos'],
-    titleTag: 'Imprimibles de Regreso a Clases: La Fiebre | LCS',
+    titleTag: 'Imprimibles de Regreso a Clases: La Fiebre | LessonCraftStudio',
     metaDescription: 'El regreso a clases no es una fecha unica en el mundo hispanohablante. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

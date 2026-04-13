@@ -16,7 +16,7 @@ const content: StartContent = {
       'chiavi di risposta',
       'layout professionale',
     ],
-    titleTag: 'Come creare schede didattiche professionali | LCS',
+    titleTag: 'Come creare schede didattiche professionali | LessonCraftStudio',
     metaDescription: 'Come creare schede didattiche professionali da stampare: layout, chiavi di risposta automatiche, immagini tematiche e bundle. Guida pratica completa.',
   },
 

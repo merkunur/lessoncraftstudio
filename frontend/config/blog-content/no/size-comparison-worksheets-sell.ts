@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'stor og liten oppgaver selge Etsy',
     secondaryKeywords: ['størrelsessammenligning arbeidsark forretning', 'stor liten oppgaver barnehage selge', 'sammenligning arbeidsark Etsy nettbutikk'],
     lsiKeywords: ['størrelse oppgaver barn salg', 'barnehage arbeidsark bedrift', 'Etsy nedlasting pedagogisk'],
-    titleTag: 'Stor og liten-oppgaver: Selg på nett | LCS',
+    titleTag: 'Stor og liten-oppgaver: Selg på nett | LessonCraftStudio',
     metaDescription: 'Lag og selg stor-og-liten-oppgaver for barn på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Plattformdiversifizierung Katalogwachstum Skalierungsengpass',
       'Prozessdokumentation Kundenlebenszeitwert mehrsprachige Expansion',
     ],
-    titleTag: 'Druckvorlagen-Business skalieren | LCS',
+    titleTag: 'Druckvorlagen-Business skalieren | LessonCraftStudio',
     metaDescription: 'Druckvorlagen-Business skalieren Anleitung: Stapelproduktion, Multiplattform-Expansion, Katalogwachstum und Automatisierung für nachhaltigen Umsatz auf Etsy.',
   },
 

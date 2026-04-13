@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fichas completar dibujo niños',
       'missing pieces activity book children',
     ],
-    titleTag: 'Puzzles Piezas Faltantes para Libros KDP | LCS',
+    titleTag: 'Puzzles Piezas Faltantes para Libros KDP | LessonCraftStudio',
     metaDescription: 'Los puzzles de piezas faltantes son un nicho sin explotar en Amazon KDP. Cree libros de actividades únicos. Prueba gratuita con marca de agua.',
   },
   hero: {

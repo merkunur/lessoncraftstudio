@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode recycler',
       'astuces recycler fiches',
     ],
-    titleTag: 'Recycler vos fiches en plusieurs produits | LCS',
+    titleTag: 'Recycler vos fiches en plusieurs produits | LessonCraftStudio',
     metaDescription: 'Transformez une fiche en 5 produits différents. Fiches individuelles, bundles, cahiers KDP et plus.',
   },
   hero: {

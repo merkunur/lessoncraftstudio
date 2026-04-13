@@ -17,7 +17,7 @@ const content: BundleContent = {
       'scuola dell\'infanzia',
       'schede da stampare',
     ],
-    titleTag: 'Generatori schede abbinamento da stampare | LCS',
+    titleTag: 'Generatori schede abbinamento da stampare | LessonCraftStudio',
     metaDescription: 'Pacchetto con 5 generatori di schede da stampare: abbinamento, griglia, ombre, bingo e classificazione. Attività visive per bambini scuola dell\'infanzia.',
   },
 

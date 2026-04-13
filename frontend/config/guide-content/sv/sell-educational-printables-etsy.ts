@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy SEO taggar titel beskrivning konvertering',
       'mattearbetsblad ordsökning målarbilder matchning pussel',
     ],
-    titleTag: 'Sälja arbetsblad på Etsy — guide | LCS',
+    titleTag: 'Sälja arbetsblad på Etsy — guide | LessonCraftStudio',
     metaDescription: 'Sälj pedagogiska arbetsblad på Etsy. Flerkategori-butiksstrategi, Etsy SEO med alla 13 taggar, paketering och prissättning. Komplett guide för säljare.',
   },
 

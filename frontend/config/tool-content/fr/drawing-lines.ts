@@ -21,7 +21,7 @@ const content: ToolContent = {
       'motricité fine',
       'pointillés',
     ],
-    titleTag: 'Générateur graphisme maternelle gratuit en ligne | LCS',
+    titleTag: 'Générateur graphisme maternelle gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de fiches de graphisme gratuit — créez des exercices de tracé et lignes en ligne, sans inscription. Images thématiques, PDF 300 DPI. Licence commerciale incluse.',
   },
 

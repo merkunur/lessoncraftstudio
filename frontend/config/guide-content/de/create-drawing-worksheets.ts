@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Vorschule Grundschule Feinmotorik',
       'textfreie Ausgabe 300 DPI PDF',
     ],
-    titleTag: 'Zeichenübungen erstellen | Anleitung | LCS',
+    titleTag: 'Zeichenübungen erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Zeichenübungen. Doppelraster-System, drei Symmetriemodi und einstellbarer Hinweisprozentsatz. Kostenlos testen.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable business milestones',
       'digital product sales journey',
     ],
-    titleTag: 'Zero to 100 Etsy Sales: A Hypothetical Printable Seller Journey | LCS',
+    titleTag: 'Zero to 100 Etsy Sales: A Hypothetical Printable Seller Journey | LessonCraftStudio',
     metaDescription: 'Follow a hypothetical printable seller from first listing to 100th sale. Milestones, mistakes, and strategies based on real marketplace patterns.',
   },
   hero: {

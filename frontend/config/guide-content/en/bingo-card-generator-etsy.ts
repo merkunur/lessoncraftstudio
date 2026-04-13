@@ -15,7 +15,7 @@ const content: GuideContent = {
       'holiday bingo cards',
       'baby shower bingo',
     ],
-    titleTag: 'Bingo Card Generator for Etsy Sellers | LCS',
+    titleTag: 'Bingo Card Generator for Etsy Sellers | LessonCraftStudio',
     metaDescription: 'Create printable bingo card sets for your Etsy shop. Picture bingo from 3x3 to 5x5, caller sheets, ZIP batch export, 104 themes. Step-by-step Etsy workflow.',
   },
 

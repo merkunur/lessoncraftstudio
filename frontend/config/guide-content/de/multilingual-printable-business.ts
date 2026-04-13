@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Übersetzungs-Workflow unterversorgte Sprachmärkte',
       'mehrsprachiges Produktportfolio grenzüberschreitender Verkauf',
     ],
-    titleTag: 'Mehrsprachige Druckvorlagen verkaufen | LCS',
+    titleTag: 'Mehrsprachige Druckvorlagen verkaufen | LessonCraftStudio',
     metaDescription: 'Mehrsprachige Druckvorlagen verkaufen: Sprachpriorisierung, internationale Marktanalyse und Expansionsstrategien für deutlich mehr Umsatz auf Etsy und KDP.',
   },
 

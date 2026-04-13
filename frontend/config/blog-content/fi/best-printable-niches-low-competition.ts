@@ -13,7 +13,7 @@ const content: BlogContent = {
       'erityisopetus tulostettavat',
       'suomenkieliset tulosteet kilpailuetu',
     ],
-    titleTag: 'Tulosteiden nichet matalalla kilpailulla | LCS',
+    titleTag: 'Tulosteiden nichet matalalla kilpailulla | LessonCraftStudio',
     metaDescription: 'Löydä tulostekategoriat joissa kilpailu on matalaa mutta kysyntä vakaata. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

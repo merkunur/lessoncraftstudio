@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'instant letter worksheet generator',
       'try before you buy literacy tools',
     ],
-    titleTag: 'Free Alphabet Worksheet Generator Online | LCS',
+    titleTag: 'Free Alphabet Worksheet Generator Online | LessonCraftStudio',
     metaDescription: 'Make alphabet worksheets free online with watermark — no signup. Train-car letter learning, themed images, 11 languages. Upgrade for commercial license.',
     },
 

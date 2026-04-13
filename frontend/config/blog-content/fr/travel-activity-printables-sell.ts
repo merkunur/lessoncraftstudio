@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances activités',
       'demande fiches imprimables activités',
     ],
-    titleTag: 'Imprimables activités de voyage enfants | LCS',
+    titleTag: 'Imprimables activités de voyage enfants | LessonCraftStudio',
     metaDescription: 'Les imprimables d\'activités de voyage pour enfants se vendent avant chaque période de vacances. Un créneau saisonnier rentable.',
   },
   hero: {

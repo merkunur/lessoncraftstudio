@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg mønstertog arbeidsark nisje lav konkurranse',
     secondaryKeywords: ['mønstertog oppgaver Etsy selgere', 'mønster tog arbeidsark KDP bøker', 'lag mønstertog oppgaver kommersiell lisens'],
     lsiKeywords: ['mønsteroppgaver arbeidsark forretning', 'tog-tema oppgaver barn selge', 'visuell mønsterlæring arbeidsark'],
-    titleTag: 'Selg mønstertog-arbeidsark: nisje med potensial | LCS',
+    titleTag: 'Selg mønstertog-arbeidsark: nisje med potensial | LessonCraftStudio',
     metaDescription: 'Mønstertog-oppgaver kombinerer mønsterlæring med togtema og har lav konkurranse. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

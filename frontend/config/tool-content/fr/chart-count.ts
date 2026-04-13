@@ -19,7 +19,7 @@ const content: ToolContent = {  seo: {
       'dénombrer',
       'données',
     ],
-    titleTag: 'Fiches dénombrement et diagrammes gratuit en ligne | LCS',
+    titleTag: 'Fiches dénombrement et diagrammes gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches de dénombrement et diagrammes gratuitement en ligne — sans inscription. Images thématiques, corrections automatiques, PDF imprimables. Licence commerciale disponible.',
   },
 

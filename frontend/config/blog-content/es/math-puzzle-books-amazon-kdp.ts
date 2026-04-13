@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Amazon KDP imprimibles matemáticas',
       'libros ejercicios niños bajo contenido',
     ],
-    titleTag: 'Libros Puzzles Matemáticos Amazon KDP | LCS',
+    titleTag: 'Libros Puzzles Matemáticos Amazon KDP | LessonCraftStudio',
     metaDescription: 'Publique libros de puzzles matemáticos en Amazon KDP con márgenes altos. Guía paso a paso para crear, publicar y posicionar.',
   },
   hero: {

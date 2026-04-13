@@ -13,7 +13,7 @@ const content: BlogContent = {
       'French worksheets sell online',
       'Spanish activity books KDP',
     ],
-    titleTag: 'Non-English Printable Markets: The Untapped Opportunity | LCS',
+    titleTag: 'Non-English Printable Markets: The Untapped Opportunity | LessonCraftStudio',
     metaDescription: 'German, French, and Spanish printable markets have massive demand with minimal competition. Learn how to sell printables in 11 languages and multiply your revenue.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'pysselbok pusselbok aktivitetsbok skriva ut PDF',
       'prissättningsramverk underprissättning hållbar prissättning',
     ],
-    titleTag: 'Prissätta arbetsblad att sälja | LCS',
+    titleTag: 'Prissätta arbetsblad att sälja | LessonCraftStudio',
     metaDescription: 'Prissättningsstrategier för utskriftsbara arbetsblad på Etsy och KDP. Konkurrensanalys, paketprissättning, prispsykologi och vinstmarginalberäkning.',
   },
 

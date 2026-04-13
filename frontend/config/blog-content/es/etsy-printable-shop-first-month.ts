@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ventas digitales primer mes Etsy',
       'nuevo vendedor productos digitales',
     ],
-    titleTag: 'Primer Mes Vendiendo Imprimibles en Etsy | LCS',
+    titleTag: 'Primer Mes Vendiendo Imprimibles en Etsy | LessonCraftStudio',
     metaDescription: 'Expectativas realistas para su primer mes vendiendo imprimibles en Etsy. Cronograma, hitos y las metricas que realmente importan para nuevos vendedores.',
   },
   hero: {

@@ -18,8 +18,8 @@ const content: AppContent = {
       '300 DPI print-ready',
       'commercial license included',
     ],
-    titleTag: 'Addition Worksheet Generator — KDP Activity Books | LessonCraftStudio',
-    metaDescription: 'Bulk-create addition worksheets for KDP activity books and Etsy bundles. 4 math modes, 104 image themes, auto answer keys. Commercial license. Try free trial.',
+    titleTag: 'Addition Worksheet Generator — Bulk Create KDP Activity Book Pages | LessonCraftStudio',
+    metaDescription: 'Generate professional addition worksheets for KDP activity books and Etsy bundles. 4 math modes, 104 image themes, auto answer keys. Commercial license included. Try free.',
   },
 
   hero: {

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Einordnen',
       'Sortierübung',
     ],
-    titleTag: 'Kostenloser Sortier-Arbeitsblatt Maker | LCS',
+    titleTag: 'Kostenloser Sortier-Arbeitsblatt Maker | LessonCraftStudio',
     metaDescription: 'Kostenloser Sortier-Arbeitsblatt Generator — Klassifikations-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 

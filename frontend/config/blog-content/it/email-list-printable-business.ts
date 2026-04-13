@@ -17,7 +17,7 @@ const content: BlogContent = {
       'promozione',
       'risorse',
     ],
-    titleTag: 'Newsletter Materiale Didattico Stampabile | LCS',
+    titleTag: 'Newsletter Materiale Didattico Stampabile | LessonCraftStudio',
     metaDescription: 'Come creare una newsletter per promuovere materiale didattico stampabile. Strategie email per educatori con LessonCraftStudio — 33 generatori.',
   },
   hero: {

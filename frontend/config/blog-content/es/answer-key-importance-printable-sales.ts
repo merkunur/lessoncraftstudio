@@ -9,7 +9,7 @@ const content: BlogContent = {
       'paso crear fotos listing',
     ],
     lsiKeywords: ['importancia hoja respuestas tips', 'como importancia hoja', 'ventas imprimibles facil'],
-    titleTag: 'Hojas de Respuestas: Esenciales para Ventas | LCS',
+    titleTag: 'Hojas de Respuestas: Esenciales para Ventas | LessonCraftStudio',
     metaDescription: 'Las hojas de respuestas son el elemento mas frecuentemente omitido en imprimibles educativos, y su ausencia es una. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

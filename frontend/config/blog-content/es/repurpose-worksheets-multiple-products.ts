@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'multiples ficha producto',
     secondaryKeywords: ['reutilizar fichas multiples productos paso a paso', 'reutilizar fichas multiples productos tutorial', 'reutilizar fichas multiples productos guia practica'],
     lsiKeywords: ['reutilizar fichas multiples tips', 'como reutilizar fichas', 'multiples productos facil'],
-    titleTag: 'Reutilizar Fichas en Multiples Productos | LCS',
+    titleTag: 'Reutilizar Fichas en Multiples Productos | LessonCraftStudio',
     metaDescription: 'El contenido educativo que crea puede venderse en multiples formatos y configuraciones. Una ficha de matematicas puede ser un producto individual, parte de',
   },
   hero: {

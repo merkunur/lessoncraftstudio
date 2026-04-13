@@ -13,7 +13,7 @@ const content: BlogContent = {
       'keskittymisharjoitukset tulostettavia',
       'kotiopetus taukotehtävät',
     ],
-    titleTag: 'Aivotaukotehtävät tulostettavina | LCS',
+    titleTag: 'Aivotaukotehtävät tulostettavina | LessonCraftStudio',
     metaDescription: 'Myy aivotauko-tulostettavia — lyhyet virkistävät tehtävät myyvät hyvin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

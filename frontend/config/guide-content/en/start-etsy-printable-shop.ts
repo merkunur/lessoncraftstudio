@@ -14,7 +14,7 @@ const content: GuideContent = {
       'first printable listing guide',
       'Etsy seller account configuration',
     ],
-    titleTag: 'Start an Etsy Printable Shop: Beginner Guide | LCS',
+    titleTag: 'Start an Etsy Printable Shop: Beginner Guide | LessonCraftStudio',
     metaDescription: 'Start an Etsy printable shop from scratch. Step-by-step setup, first listings, SEO basics, and pricing strategies for new printable sellers.',
   },
 

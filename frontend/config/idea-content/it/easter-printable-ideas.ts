@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede di Pasqua da stampare per bambini | LCS',
+    titleTag: 'Schede di Pasqua da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede di Pasqua da stampare: colorare uova e coniglietti, crucipuzzle pasquali, conteggio primaverile e attività creative per bambini 3-8 anni.',
     primaryKeyword: 'schede di Pasqua da stampare',
     secondaryKeywords: [

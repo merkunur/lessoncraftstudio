@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok mönsteraktivitetsbok barn',
       'kommersiell licens arbetsbladsverktyg facit 9 typer',
     ],
-    titleTag: 'Skapa mönsterövningar att skriva ut | LCS',
+    titleTag: 'Skapa mönsterövningar att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa mönsterarbetsblad att skriva ut med 9 mönstertyper, tematiska bilder och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 

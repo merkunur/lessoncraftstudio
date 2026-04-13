@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Kopiervorlage',
       'Grundschule',
     ],
-    titleTag: 'Kostenloser Mathe-Arbeitsblatt Generator | LCS',
+    titleTag: 'Kostenloser Mathe-Arbeitsblatt Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Mathe-Arbeitsblatt Generator — Rechenaufgaben online erstellen, ohne Anmeldung. 300 DPI PDF. Lizenz für kommerziellen Verkauf.',
   },
 

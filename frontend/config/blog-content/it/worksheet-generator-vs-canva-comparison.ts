@@ -17,7 +17,7 @@ const content: BlogContent = {
       'velocità',
       'qualità',
     ],
-    titleTag: 'Generatore Schede vs Canva: Confronto | LCS',
+    titleTag: 'Generatore Schede vs Canva: Confronto | LessonCraftStudio',
     metaDescription: 'Confronto tra generatore di schede didattiche dedicato e Canva. Velocità, qualità e facilità d\'uso a confronto con LessonCraftStudio — 33 generatori.',
   },
   hero: {

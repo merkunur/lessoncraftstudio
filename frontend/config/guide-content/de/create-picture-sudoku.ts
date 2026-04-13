@@ -14,7 +14,7 @@ const content: GuideContent = {
       '4x4-Bildraster Schwierigkeitsstufen',
       'Lösungsschlüssel Themenbilder 300 DPI',
     ],
-    titleTag: 'Bilder-Sudoku erstellen | Anleitung | LCS',
+    titleTag: 'Bilder-Sudoku erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Bilder-Sudoku. 4x4-Bildraster, drei Schwierigkeitsstufen und automatische Lösungsschlüssel. Kostenlos testen.',
   },
 

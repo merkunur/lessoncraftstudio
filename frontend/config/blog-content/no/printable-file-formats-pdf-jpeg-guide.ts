@@ -8,7 +8,7 @@ const content: BlogContent = {
       'eksportformat arbeidsark digital nedlasting',
     ],
     lsiKeywords: ['arbeidsark filformat guide', 'PDF oppløsning utskrift', 'A4 vs US Letter arbeidsark'],
-    titleTag: 'Filformater for arbeidsark: PDF vs JPEG | LCS',
+    titleTag: 'Filformater for arbeidsark: PDF vs JPEG | LessonCraftStudio',
     metaDescription: 'Velg riktig filformat og papirstørrelse for arbeidsark du selger. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

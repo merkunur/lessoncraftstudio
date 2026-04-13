@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Wimmelbilder mit Zaehlen',
       'Suchen und Zaehlen Arbeitsblatt',
     ],
-    titleTag: 'Finde-und-Zaehle-Druckvorlagen: Profit-Nische | LCS',
+    titleTag: 'Finde-und-Zaehle-Druckvorlagen: Profit-Nische | LessonCraftStudio',
     metaDescription: 'Warum Finde-und-Zaehle-Druckvorlagen eine profitable Nische auf Etsy.de sind. Kombiniert Suchbild mit Mathe — doppelte Zielgruppe, doppeltes Potenzial.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'margini',
       'piattaforma',
     ],
-    titleTag: 'Vendere Schede: KDP o Etsy? Confronto | LCS',
+    titleTag: 'Vendere Schede: KDP o Etsy? Confronto | LessonCraftStudio',
     metaDescription: 'Confronto Amazon KDP vs Etsy per vendere schede didattiche online. Margini, traffico e guadagni reali con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

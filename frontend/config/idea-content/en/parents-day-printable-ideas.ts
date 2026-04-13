@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Parents Day Printables to Sell | LCS',
+    titleTag: 'Parents Day Printables to Sell | LessonCraftStudio',
     metaDescription: 'Parents Day printable ideas for Etsy & KDP. Product concepts for Mother\'s Day, Father\'s Day, and family-themed printable sellers.',
     primaryKeyword: 'Parents Day printables to sell',
     secondaryKeywords: [

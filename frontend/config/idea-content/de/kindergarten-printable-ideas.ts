@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Kindergarten-Altersstufe visuelles Lernen',
       'Übergangsjahr Druckvorlagen starke Nische',
     ],
-    titleTag: 'Kindergarten-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Kindergarten-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Kindergarten-Druckvorlagen als profitable Etsy-Nische entdecken. Frühkindliche Bildung als starke Nische — Produktideen und Wettbewerbsanalyse für Ihren Druckvorlagen-Shop.',
   },
   hero: {

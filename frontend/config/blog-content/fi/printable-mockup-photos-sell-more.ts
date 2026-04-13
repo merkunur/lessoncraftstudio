@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Canva mockup tulosteet',
       'tuotekuvaus Etsy-listaus',
     ],
-    titleTag: 'Mockup-kuvat: myy tulosteita enemmän | LCS',
+    titleTag: 'Mockup-kuvat: myy tulosteita enemmän | LessonCraftStudio',
     metaDescription: 'Käytä mockup-kuvia myydäksesi enemmän tulosteita. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'quantity comparison printables',
       'early math comparison activities',
     ],
-    titleTag: 'More or Less Worksheets: Sell Math Niche | LCS',
+    titleTag: 'More or Less Worksheets: Sell Math Niche | LessonCraftStudio',
     metaDescription: 'More or less worksheets bridge the gap between counting and arithmetic. Learn how to sell these essential early math comparison printables.',
   },
   hero: {

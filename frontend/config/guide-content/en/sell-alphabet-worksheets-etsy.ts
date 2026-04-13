@@ -15,7 +15,7 @@ const content: GuideContent = {
       'pre-k letter recognition',
       'abc printable activities',
     ],
-    titleTag: 'Sell Alphabet Worksheets on Etsy | LCS',
+    titleTag: 'Sell Alphabet Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Create and sell alphabet learning worksheets on Etsy. Train-themed ABC activities, 11 languages with accented characters, pre-K parent market. Step-by-step guide.',
   },
 

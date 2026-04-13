@@ -17,7 +17,7 @@ const content: GuideContent = {
       'automatiskt skydd registreringsfördelar lagstadgade skadestånd Sverige',
       'kreativa val uttryck kontra idéer fakta standardmetoder',
     ],
-    titleTag: 'Upphovsrätt för printable-säljare | LCS',
+    titleTag: 'Upphovsrätt för printable-säljare | LessonCraftStudio',
     metaDescription: 'Upphovsrätt för dig som säljer utskriftsbara produkter. Vilka element som skyddas, hur du hanterar kopiering och DMCA, och vanliga misstag att undvika.',
   },
 

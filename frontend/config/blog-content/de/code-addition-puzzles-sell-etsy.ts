@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Mathe Raetsel PDF verkaufen',
       'kreative Rechenaufgaben Druckvorlagen',
     ],
-    titleTag: 'Code-Additions-Raetsel auf Etsy verkaufen | LCS',
+    titleTag: 'Code-Additions-Raetsel auf Etsy verkaufen | LessonCraftStudio',
     metaDescription: 'Erfahren Sie, wie Code-Additions-Raetsel auf Etsy.de eine profitable Nische sind. Erstellung, Preisgestaltung und Marketing fuer den DACH-Markt.',
   },
   hero: {

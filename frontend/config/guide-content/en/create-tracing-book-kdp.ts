@@ -15,7 +15,7 @@ const content: GuideContent = {
       'SVG tracing templates',
       'KDP paperback formatting',
     ],
-    titleTag: 'Create a Tracing Book for Amazon KDP | LCS',
+    titleTag: 'Create a Tracing Book for Amazon KDP | LessonCraftStudio',
     metaDescription: 'Create professional tracing books for Amazon KDP with 8 SVG line templates. Visual-only format sells worldwide. Step-by-step KDP workflow for toddler and preschool markets. Try free trial.',
   },
 

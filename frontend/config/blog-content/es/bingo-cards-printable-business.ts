@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'tarjetas bingo imprimibles negocio 2026',
     secondaryKeywords: ['vender tarjetas bingo imprimibles Etsy', 'bingo cards printable business profitable', 'negocio bingo imprimible fiestas educación'],
     lsiKeywords: ['bingo educativo imprimible vender', 'tarjetas bingo temáticas negocio', 'printable bingo cards sell online'],
-    titleTag: 'Tarjetas Bingo Imprimibles: Del Aula a la Fiesta | LCS',
+    titleTag: 'Tarjetas Bingo Imprimibles: Del Aula a la Fiesta | LessonCraftStudio',
     metaDescription: 'Las tarjetas de bingo imprimibles sirven para educación, fiestas y eventos. Descubra cómo vender en múltiples nichos. Prueba gratuita con marca de agua.',
   },
   hero: {

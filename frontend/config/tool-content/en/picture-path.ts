@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant path worksheet generator',
       'try before you buy maze tools',
     ],
-    titleTag: 'Free Picture Path Worksheet Generator | LCS',
+    titleTag: 'Free Picture Path Worksheet Generator | LessonCraftStudio',
     metaDescription: 'Make picture path worksheets free online with watermark — no signup. Themed image destinations, auto answer keys, 104 themes. Upgrade to sell.',
   },
 

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'bondegårdsdyr printables eviggrøn niche',
     secondaryKeywords: ['bondegårdsdyr printables sælg Etsy', 'bondegårdsdyr printables sælg online', 'bondegårdsdyr printables sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Bondegårdsdyr-Printables: En Eviggrøn Niche | LCS',
+    titleTag: 'Bondegårdsdyr-Printables: En Eviggrøn Niche | LessonCraftStudio',
     metaDescription: 'Bondegårdsdyr-printables er en eviggrøn niche: det mest populære dyretema for børn 2-5 år. Sælg på Etsy & KDP med kommerciel licens.',
   },
   hero: {

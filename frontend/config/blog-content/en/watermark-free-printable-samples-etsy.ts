@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable conversion optimization',
       'sample-based selling approach',
     ],
-    titleTag: 'Using Watermarked Free Trial Samples as Etsy Marketing Strategy | LCS',
+    titleTag: 'Using Watermarked Free Trial Samples as Etsy Marketing Strategy | LessonCraftStudio',
     metaDescription: 'Learn how watermarked free trial samples boost your Etsy printable sales. Build trust, reduce refunds, and convert browsers into buyers with sample pages.',
   },
   hero: {

@@ -8,7 +8,7 @@ const content: BlogContent = {
       '17. mai arbeidsark selge nettbutikk',
     ],
     lsiKeywords: ['sesongbaserte arbeidsark salg', 'påske oppgaver barn Etsy', 'vår naturtema arbeidsark'],
-    titleTag: 'Vår-arbeidsark: Selg i mars og april | LCS',
+    titleTag: 'Vår-arbeidsark: Selg i mars og april | LessonCraftStudio',
     metaDescription: 'Selg vår-tema arbeidsark med påske og 17. mai-oppgaver i mars og april. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

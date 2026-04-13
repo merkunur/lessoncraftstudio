@@ -9,7 +9,7 @@ const content: BlogContent = {
       'hangman-stil puslespill Etsy KDP',
     ],
     lsiKeywords: ['ordgjetting oppgaver salg', 'ordlek puslespill arbeidsark', 'språkspill kommersiell lisens'],
-    titleTag: 'Ordgjettespill-arbeidsark: Lag og selg | LCS',
+    titleTag: 'Ordgjettespill-arbeidsark: Lag og selg | LessonCraftStudio',
     metaDescription: 'Lag og selg ordgjettespill-arbeidsark på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

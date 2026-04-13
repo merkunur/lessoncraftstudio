@@ -19,7 +19,7 @@ const content: ToolContent = {  seo: {
       'enfants',
       'adultes',
     ],
-    titleTag: 'Générateur coloriages gratuit en ligne | LCS',
+    titleTag: 'Générateur coloriages gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de coloriages gratuit — créez des pages à colorier à partir de 3 000+ images thématiques en ligne, sans inscription. PDF haute résolution. Licence commerciale pour Etsy & KDP.',
     },
 

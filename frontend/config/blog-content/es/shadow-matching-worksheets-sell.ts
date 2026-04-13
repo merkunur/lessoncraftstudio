@@ -13,7 +13,7 @@ const content: BlogContent = {
       'imprimibles asociar siluetas preescolar',
       'shadow matching printables preschool',
     ],
-    titleTag: 'Fichas Asociación Sombras: Por qué Venden Mejor | LCS',
+    titleTag: 'Fichas Asociación Sombras: Por qué Venden Mejor | LessonCraftStudio',
     metaDescription: 'Las fichas de asociación de sombras se venden mejor que las genéricas. Descubra por qué y cómo crear las suyas para Etsy.',
   },
   hero: {

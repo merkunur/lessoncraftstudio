@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'impresion bajo demanda vs descarga digital',
     secondaryKeywords: ['impresion bajo demanda guia', 'impresion bajo demanda vs descarga digital comparar', 'impresion bajo demanda vs descarga digital mejor opcion'],
     lsiKeywords: ['impresion bajo analisis', 'comparacion plataformas imprimibles', 'vender fichas online'],
-    titleTag: 'Impresion Bajo Demanda vs Descarga Digital | LCS',
+    titleTag: 'Impresion Bajo Demanda vs Descarga Digital | LessonCraftStudio',
     metaDescription: 'Comparacion entre vender imprimibles como descarga digital o como producto fisico con impresion bajo demanda.',
   },
   hero: {

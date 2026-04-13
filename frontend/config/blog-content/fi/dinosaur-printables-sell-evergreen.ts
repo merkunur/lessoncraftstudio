@@ -13,7 +13,7 @@ const content: BlogContent = {
       'luonnonhistoria tehtävät',
       'STEM-tulosteet dinosaurusteema',
     ],
-    titleTag: 'Dinosaurustulosteet: ikivihreä tuote | LCS',
+    titleTag: 'Dinosaurustulosteet: ikivihreä tuote | LessonCraftStudio',
     metaDescription: 'Dinosaurustulosteet myyvät ympärivuotisesti — ikivihreä suosikkiteema. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

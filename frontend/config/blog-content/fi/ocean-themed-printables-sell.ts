@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kalat ja merenelävät tehtävät',
       'vesiteema aktiviteetit tulostettavia',
     ],
-    titleTag: 'Meriaiheiset tulosteet myyntiin | LCS',
+    titleTag: 'Meriaiheiset tulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy meriaiheisia tulostettavia kannattavasti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

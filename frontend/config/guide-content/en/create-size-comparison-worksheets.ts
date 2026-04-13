@@ -14,7 +14,7 @@ const content: GuideContent = {
       'early learning printable product niche',
       'visual size discrimination activities',
     ],
-    titleTag: 'Create Size Comparison Worksheets to Sell | LCS',
+    titleTag: 'Create Size Comparison Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'Create size comparison worksheets that sell. Five question types, zero-text output, themed images. Build products for Etsy, KDP, and TPT.',
   },
 

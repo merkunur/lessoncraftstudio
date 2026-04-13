@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances Fête',
       'demande fiches imprimables Fête',
     ],
-    titleTag: 'Imprimables Fête des Mères et Fête des Pères | LCS',
+    titleTag: 'Imprimables Fête des Mères et Fête des Pères | LessonCraftStudio',
     metaDescription: 'Vendez des imprimables pour la Fête des Mères et la Fête des Pères. Cartes, activités et cadeaux personnalisables.',
   },
   hero: {

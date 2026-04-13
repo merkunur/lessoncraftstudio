@@ -15,7 +15,7 @@ const content: GuideContent = {
       'back-to-school worksheet market',
       'teacher and parent buyer persona',
     ],
-    titleTag: 'Sell Kindergarten Worksheets on Etsy | LCS',
+    titleTag: 'Sell Kindergarten Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Sell kindergarten worksheets on Etsy step by step. Math, word search, writing, and patterns for ages 5-6. Dual buyer personas, back-to-school demand, and pricing.',
   },
 

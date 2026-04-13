@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Best Educational Printable Niches to Sell | LCS',
+    titleTag: 'Best Educational Printable Niches to Sell | LessonCraftStudio',
     metaDescription: 'Discover the most profitable educational printable niches for Etsy, KDP, and Gumroad. Niche analysis, product ideas, and strategies for building a sustainable printable business.',
 
     primaryKeyword: 'best educational printable niches',

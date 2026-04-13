@@ -15,7 +15,7 @@ const content: ToolContent = {
       'visuelle Wahrnehmung',
       'Zahlenerkennung',
     ],
-    titleTag: 'Kostenloser Suchen-und-Zählen Generator | LCS',
+    titleTag: 'Kostenloser Suchen-und-Zählen Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Suchen-und-Zählen Generator — Zähl-Arbeitsblätter mit Themenbildern sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Wortraetsel Grundschule verkaufen',
       'Wortsuchgitter erstellen Business',
     ],
-    titleTag: 'Wortsuche-Druckvorlagen: Wie viel verdient man? | LCS',
+    titleTag: 'Wortsuche-Druckvorlagen: Wie viel verdient man? | LessonCraftStudio',
     metaDescription: 'Realistische Einkommenszahlen fuer Wortsuche-Druckvorlagen auf Etsy.de und KDP. Nischen, Preise und Gewinnrechnung fuer den DACH-Markt.',
   },
   hero: {

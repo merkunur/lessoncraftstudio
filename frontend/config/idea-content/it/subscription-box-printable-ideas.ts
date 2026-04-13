@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pacchetti schede mensili da stampare | LCS',
+    titleTag: 'Pacchetti schede mensili da stampare | LessonCraftStudio',
     metaDescription: 'Crea pacchetti mensili di schede da stampare: collezioni tematiche, attività stagionali e materiali didattici nuovi ogni mese per bambini e famiglie.',
     primaryKeyword: 'pacchetti schede mensili da stampare',
     secondaryKeywords: [

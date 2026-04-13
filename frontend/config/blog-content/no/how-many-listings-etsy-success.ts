@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'antall Etsy-annonser arbeidsark suksess',
     secondaryKeywords: ['hvor mange produkter Etsy inntekt', 'Etsy annonseantall vs kvalitet', 'skalering Etsy arbeidsark-butikk'],
     lsiKeywords: ['Etsy butikkstørrelse salgsdata', 'optimalt antall annonser oppgaver', 'arbeidsark portefølje Etsy'],
-    titleTag: 'Hvor mange Etsy-annonser for arbeidsark-suksess? | LCS',
+    titleTag: 'Hvor mange Etsy-annonser for arbeidsark-suksess? | LessonCraftStudio',
     metaDescription: 'Trenger du 100+ annonser for Etsy-suksess med arbeidsark? Vi undersøker hva som faktisk betyr mest. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

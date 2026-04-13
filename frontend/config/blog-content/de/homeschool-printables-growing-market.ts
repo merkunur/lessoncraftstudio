@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Homeschool Curriculum Druckvorlagen',
       'Bildung zu Hause Material',
     ],
-    titleTag: 'Homeschool-Druckvorlagen: Wachsender Markt 2026 | LCS',
+    titleTag: 'Homeschool-Druckvorlagen: Wachsender Markt 2026 | LessonCraftStudio',
     metaDescription: 'Der Homeschool-Druckvorlagen-Markt waechst auch im DACH-Raum. Fernunterricht, Ergaenzungsmaterial und internationale Kaeufer. Marktanalyse und Chancen.',
   },
   hero: {

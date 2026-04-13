@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg håndskrift-arbeidsark Etsy',
     secondaryKeywords: ['skriveark Etsy nisje evergreen', 'bokstavøving oppgaver selge', 'håndskriftøving barn forretning'],
     lsiKeywords: ['sporing bokstaver arbeidsark', 'norsk alfabet skrivetrening', 'finmotorikk skriving salg'],
-    titleTag: 'Selg håndskrift-arbeidsark — stabil Etsy-nisje | LCS',
+    titleTag: 'Selg håndskrift-arbeidsark — stabil Etsy-nisje | LessonCraftStudio',
     metaDescription: 'Håndskrift-arbeidsark er en stabil evergreen-nisje på Etsy med jevn etterspørsel. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

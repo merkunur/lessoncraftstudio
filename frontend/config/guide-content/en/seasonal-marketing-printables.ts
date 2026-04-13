@@ -14,7 +14,7 @@ const content: GuideContent = {
       'seasonal Etsy listing strategy',
       'printable demand cycle planning',
     ],
-    titleTag: 'Seasonal Marketing for Printable Sellers | LCS',
+    titleTag: 'Seasonal Marketing for Printable Sellers | LessonCraftStudio',
     metaDescription: 'Seasonal marketing calendar for printable sellers. Month-by-month release timing, holiday strategies, and demand planning for Etsy and KDP.',
   },
 

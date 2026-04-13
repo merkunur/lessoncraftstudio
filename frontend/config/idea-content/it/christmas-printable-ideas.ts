@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede di Natale da stampare per bambini | LCS',
+    titleTag: 'Schede di Natale da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede di Natale da stampare: tombola natalizia, colorare Babbo Natale, crucipuzzle festivi e attività di conteggio a tema natalizio per bambini.',
     primaryKeyword: 'schede di Natale da stampare',
     secondaryKeywords: [

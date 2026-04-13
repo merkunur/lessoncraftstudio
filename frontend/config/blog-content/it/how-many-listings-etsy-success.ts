@@ -17,7 +17,7 @@ const content: BlogContent = {
       'varietà',
       'obiettivo',
     ],
-    titleTag: 'Quante Schede Servono per Vendere Etsy | LCS',
+    titleTag: 'Quante Schede Servono per Vendere Etsy | LessonCraftStudio',
     metaDescription: 'Quante schede didattiche servono per un catalogo Etsy di successo. Numeri reali e obiettivi con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

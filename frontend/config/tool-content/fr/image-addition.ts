@@ -19,7 +19,7 @@ const content: ToolContent = {  seo: {
       'retenue',
       'somme',
     ],
-    titleTag: 'Générateur fiches d\'addition gratuit en ligne | LCS',
+    titleTag: 'Générateur fiches d\'addition gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de fiches d\'addition gratuit — créez des exercices avec images thématiques en ligne, sans inscription. Corrections automatiques, PDF 300 DPI. Licence commerciale pour Etsy & KDP.',
   },
 

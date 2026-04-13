@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Etsy synlighet fler listningar',
       'skala printable-butik produktportfölj',
     ],
-    titleTag: 'Hur Många Listningar för Etsy-Framgång? | LCS',
+    titleTag: 'Hur Många Listningar för Etsy-Framgång? | LessonCraftStudio',
     metaDescription: 'Hur många Etsy-listningar krävs för stabil printable-försäljning? Datadriven analys visar den kritiska massan.',
   },
   hero: {

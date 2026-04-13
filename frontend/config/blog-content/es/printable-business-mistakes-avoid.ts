@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'errores negocio imprimibles evitar',
     secondaryKeywords: ['errores negocio imprimibles guia', 'errores negocio imprimibles evitar comparar', 'errores negocio imprimibles evitar mejor opcion'],
     lsiKeywords: ['errores negocio analisis', 'comparacion plataformas imprimibles', 'vender fichas online'],
-    titleTag: '10 Errores en Negocios de Imprimibles que Debe Evitar | LCS',
+    titleTag: '10 Errores en Negocios de Imprimibles que Debe Evitar | LessonCraftStudio',
     metaDescription: 'Los 10 errores mas comunes que nuevos vendedores de imprimibles cometen y como evitar cada uno de ellos.',
   },
   hero: {

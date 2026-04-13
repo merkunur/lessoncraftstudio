@@ -14,7 +14,7 @@ const content: GuideContent = {
       '6 Teilformen Lösungsschlüssel',
       'rein visuell 300 DPI PDF',
     ],
-    titleTag: 'Fehlende-Teile-Rätsel erstellen | Anleitung | LCS',
+    titleTag: 'Fehlende-Teile-Rätsel erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Fehlende-Teile-Rätseln. 6 Teilformen, Ablenkungsteile und automatische Lösungsschlüssel. Kostenlos testen.',
   },
 

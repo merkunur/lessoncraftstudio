@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Februar saisonale Verkaeufe',
       'Valentinstag Aktivitaeten Grundschule',
     ],
-    titleTag: 'Valentinstag-Druckvorlagen: Februar-Verkaeufe | LCS',
+    titleTag: 'Valentinstag-Druckvorlagen: Februar-Verkaeufe | LessonCraftStudio',
     metaDescription: 'Valentinstag-Druckvorlagen fuer den DACH-Markt: Freundschafts-Raetsel, Herz-Mathe und Liebes-Wortsuchen. So nutzen Sie die Februar-Saison auf Etsy.de.',
   },
   hero: {

@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Bingo Card Generator — Party Printables for Etsy | LessonCraftStudio',
-    metaDescription: 'Create themed picture bingo cards to sell on Etsy and TPT. 3,000+ images, 104 themes. Party and game printables niche. Commercial license. Try free trial.',
+    titleTag: 'Bingo Card Generator — Printable Bingo for Etsy & KDP | LessonCraftStudio',
+    metaDescription: 'Create themed picture bingo cards for Etsy and KDP. Party games, classroom sets, themed collections. 104 image themes. Commercial license included. Try free.',
   },
 
   hero: {

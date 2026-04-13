@@ -13,7 +13,7 @@ const content: BlogContent = {
       'pedagogiska bingokort förskola',
       'bingo generator verktyg',
     ],
-    titleTag: 'Sälj Bingokort på Etsy: Printable Guide | LCS',
+    titleTag: 'Sälj Bingokort på Etsy: Printable Guide | LessonCraftStudio',
     metaDescription: 'Tematiska bingokort säljer till kalas, förskolor och event. Skapa och sälj utskrivbara bingokort på Etsy med egen printable-verksamhet.',
   },
   hero: {

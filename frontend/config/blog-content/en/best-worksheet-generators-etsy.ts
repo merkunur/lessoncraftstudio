@@ -14,15 +14,15 @@ const content: BlogContent = {
       'bulk worksheet generation for sellers',
       'Etsy printable shop automation',
     ],
-    titleTag: 'Best Worksheet Generators for Etsy Sellers in 2026 | LCS',
-    metaDescription: 'Compare the best worksheet generators for Etsy printable sellers. Features, pricing, and workflow efficiency reviewed for serious digital product sellers.',
+    titleTag: 'Best Worksheet Generators for Etsy Sellers — 2026 Guide | LessonCraftStudio',
+    metaDescription: 'Find the best worksheet generator for your Etsy printable shop. Compare features, pricing, and output quality. Detailed 2026 guide for digital product sellers.',
   },
   hero: {
     title: 'Best Worksheet Generators for Etsy Sellers in 2026',
     tagline: 'Build a profitable printable shop with the right tools',
     description: 'Etsy printable worksheets are a proven digital product category with low overhead and strong repeat demand. But creating worksheets manually in Canva or Google Docs is painfully slow. Dedicated worksheet generators let you produce themed, professional bundles in minutes instead of hours. This guide compares the best generators for Etsy sellers specifically, with a focus on the features that matter for the Etsy marketplace: themed content, bundle creation, visual appeal, and production speed.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'Etsy buyers expect different things than Amazon KDP buyers. On Etsy, visual appeal in the listing preview matters enormously. Buyers browse thumbnail images and click on listings that look polished and professional. This means your worksheet generator needs to produce content that photographs well in mockups and stands out in search results. Speed matters too: Etsy rewards shops with large, active catalogs. The faster you can produce quality listings, the more organic traffic you attract. Here is how the major worksheet generators compare for Etsy sellers.',
   sections: [
     {

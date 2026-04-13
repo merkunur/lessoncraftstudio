@@ -18,8 +18,8 @@ const content: AppContent = {
       'commercial license',
       'bulk generation',
     ],
-    titleTag: 'Code Math Puzzle Generator — Unique KDP Niche | LessonCraftStudio',
-    metaDescription: 'Create crack-the-code math puzzles for KDP and Etsy. A unique low-competition niche most sellers miss. Bulk generate, commercial license. Try free trial.',
+    titleTag: 'Code Addition Puzzle Generator — Unique KDP Activity Pages | LessonCraftStudio',
+    metaDescription: 'Generate crack-the-code addition puzzles for KDP activity books. A unique format competitors don\'t offer. 104 themes, answer keys included. Commercial license. Try free.',
   },
 
   hero: {

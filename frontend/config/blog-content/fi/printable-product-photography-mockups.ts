@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Canva tuotekuvaus',
       'valokuvaus tulostettaville tuotteille',
     ],
-    titleTag: 'Tulosteiden tuotekuvaus ja mockupit | LCS',
+    titleTag: 'Tulosteiden tuotekuvaus ja mockupit | LessonCraftStudio',
     metaDescription: 'Luo ammattimaisia tuotekuvia tulosteille mockupeilla. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

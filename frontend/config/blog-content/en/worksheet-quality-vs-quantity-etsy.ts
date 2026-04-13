@@ -13,7 +13,7 @@ const content: BlogContent = {
       'worksheet listing optimization',
       'printable shop growth strategy',
     ],
-    titleTag: 'Quality vs. Quantity: Etsy Worksheet Strategy | LCS',
+    titleTag: 'Quality vs. Quantity: Etsy Worksheet Strategy | LessonCraftStudio',
     metaDescription: 'Should you list more worksheets or better ones? Data-backed breakdown of the quality vs. quantity debate for Etsy printable sellers in 2026.',
   },
   hero: {

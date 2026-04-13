@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Vorschul-Größenunterscheidung visuell-kognitiv',
       'druckfertige Arbeitsblätter Etsy KDP Gumroad',
     ],
-    titleTag: 'Größenvergleich-Arbeitsblätter erstellen | LCS',
+    titleTag: 'Größenvergleich-Arbeitsblätter erstellen | LessonCraftStudio',
     metaDescription: 'Größenvergleich-Arbeitsblätter erstellen: Schritt-für-Schritt-Anleitung mit 5 Aufgabentypen, 2 Bildmodi und textfreier Ausgabe. Druckfertige PDFs für den Verkauf auf Etsy und KDP.',
   },
 

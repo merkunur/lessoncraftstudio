@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'immergrüner Mathematik-Markt Druckvorlagen',
       'Rechenflüssigkeit Grundschule Nische',
     ],
-    titleTag: 'Mathe-Übungen-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Mathe-Übungen-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Mathe-Übungen-Druckvorlagen als profitable Etsy-Nische entdecken. Einmaleins und Grundrechenarten als immergrüner Markt — ganzjährige Nachfrage für Ihren Shop.',
   },
   hero: {

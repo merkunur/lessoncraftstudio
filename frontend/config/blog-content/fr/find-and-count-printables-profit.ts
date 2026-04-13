@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches comptage visuel maternelle',
       'observation numération vendre',
     ],
-    titleTag: 'Trouver et compter : niche rentable | LCS',
+    titleTag: 'Trouver et compter : niche rentable | LessonCraftStudio',
     metaDescription: 'La niche « trouver et compter » combine observation et numération. Découvrez comment créer et vendre ces imprimables à forte marge en 2026.',
   },
   hero: {

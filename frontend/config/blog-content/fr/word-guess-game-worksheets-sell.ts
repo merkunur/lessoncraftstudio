@@ -13,7 +13,7 @@ const content: BlogContent = {
       'devinettes vocabulaire maternelle',
       'fiches jeu du pendu imprimables',
     ],
-    titleTag: 'Fiches devinettes de mots : jeu en revenus | LCS',
+    titleTag: 'Fiches devinettes de mots : jeu en revenus | LessonCraftStudio',
     metaDescription: 'Transformez les devinettes de mots en produits rentables sur Etsy et KDP. Stratégies, formats et niches pour un business d\'imprimables lucratif en 2026.',
   },
   hero: {

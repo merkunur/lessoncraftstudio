@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'More or Less Generator — Early Math KDP Books | LessonCraftStudio',
-    metaDescription: 'Create more-or-less quantity comparison worksheets for KDP early math books and Etsy. Evergreen demand, bulk generate. Commercial license. Try free trial.',
+    titleTag: 'More or Less Worksheet Generator — Early Math KDP Pages | LessonCraftStudio',
+    metaDescription: 'Create quantity comparison worksheets for KDP early math books. More or less visual exercises, 104 themes, auto answer keys. Commercial license. Try free.',
   },
 
   hero: {

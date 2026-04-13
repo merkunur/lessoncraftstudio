@@ -13,7 +13,7 @@ const content: BlogContent = {
       'pre-k worksheets sell online',
       'preschool homeschool printables',
     ],
-    titleTag: 'Preschool Printables: Best Sellers on Etsy | LCS',
+    titleTag: 'Preschool Printables: Best Sellers on Etsy | LessonCraftStudio',
     metaDescription: 'Preschool printables are Etsy\'s most in-demand educational category. What sells, pricing strategies, and how to build a profitable pre-K product line.',
   },
   hero: {

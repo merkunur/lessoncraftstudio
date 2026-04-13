@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Math Facts Printable Business Ideas | LCS',
+    titleTag: 'Math Facts Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Math facts printable business ideas for Etsy & KDP. Drill format concepts and strategies for math fluency printable sellers.',
 
     primaryKeyword: 'math facts printable business ideas',

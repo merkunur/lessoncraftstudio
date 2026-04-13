@@ -13,7 +13,7 @@ const content: BlogContent = {
       'taukotehtävät matkalle',
       'lomamatka aktiviteetit tulostettavia',
     ],
-    titleTag: 'Matka-aktiviteettitulosteet myyntiin | LCS',
+    titleTag: 'Matka-aktiviteettitulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy tulostettavia matka-aktiviteetteja perheille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

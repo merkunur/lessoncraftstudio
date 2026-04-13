@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Vogelbeobachtung Naturthema Druckvorlagen',
       'Frühling Vogelzug saisonale Nachfrage',
     ],
-    titleTag: 'Vogel-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Vogel-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Vogel-Druckvorlagen als profitable Etsy-Nische entdecken. Eulen, Papageien und Pinguine — Produktideen, saisonale Strategien und Wettbewerbsanalyse für Ihren Druckvorlagen-Shop.',
   },
   hero: {

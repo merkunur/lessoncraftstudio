@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'instant big small maker',
       'try before you buy size tools',
     ],
-    titleTag: 'Free Size Comparison Worksheet Generator | LCS',
+    titleTag: 'Free Size Comparison Worksheet Generator | LessonCraftStudio',
     metaDescription: 'Make size comparison worksheets free online with watermark — no signup. 5 question types, themed images, answer keys. Upgrade to sell.',
     },
 

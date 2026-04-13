@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode utiliser',
       'astuces utiliser images',
     ],
-    titleTag: 'Images thématiques pour vendre vos fiches | LCS',
+    titleTag: 'Images thématiques pour vendre vos fiches | LessonCraftStudio',
     metaDescription: 'Comment utiliser des images thématiques (animaux, espace, nature) pour augmenter l\'attrait de vos fiches. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

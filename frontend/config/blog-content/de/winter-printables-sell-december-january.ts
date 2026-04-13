@@ -9,7 +9,7 @@ const content: BlogContent = {
       'kdp winter buecher',
     ],
     lsiKeywords: ['Winterwald Wortsuche', 'Eiszapfen Mathe Raetsel', 'Schneeflocken Arbeitsblaetter'],
-    titleTag: 'Winter-Druckvorlagen: Beste Saisonprodukte | LCS',
+    titleTag: 'Winter-Druckvorlagen: Beste Saisonprodukte | LessonCraftStudio',
     metaDescription: 'Winter-Druckvorlagen: Marktanalyse, Produkte und Strategien fuer Druckvorlagen-Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und KDP.',
   },
   hero: {

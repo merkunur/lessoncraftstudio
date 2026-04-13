@@ -15,7 +15,7 @@ const content: GuideContent = {
       'zero listing fees platform',
       'audience-driven sales',
     ],
-    titleTag: 'Sell Educational Printables on Gumroad | LCS',
+    titleTag: 'Sell Educational Printables on Gumroad | LessonCraftStudio',
     metaDescription: 'Build a profitable printable business on Gumroad with zero listing fees. Storefront setup, pricing, email marketing, and audience building. 33 generators, 11 languages.',
   },
 

@@ -14,7 +14,7 @@ const content: StartContent = {
       'digital product revenue potential',
       'printable seller earnings',
     ],
-    titleTag: 'How Much Can You Make Selling Printables | LCS',
+    titleTag: 'How Much Can You Make Selling Printables | LessonCraftStudio',
     metaDescription: 'How much can you make selling printables? Realistic income expectations, revenue models, and growth milestones for printable business owners.',
   },
 

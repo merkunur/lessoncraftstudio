@@ -17,7 +17,7 @@ const content: BlogContent = {
       'cucina',
       'alimenti',
     ],
-    titleTag: 'Schede Didattiche Tema Cibo da Stampare | LCS',
+    titleTag: 'Schede Didattiche Tema Cibo da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche a tema cibo e alimenti da stampare per bambini. Frutta, verdura e educazione alimentare con LessonCraftStudio — 33 generatori.',
   },
   hero: {

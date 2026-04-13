@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Safari Animal Printables to Sell | LCS',
+    titleTag: 'Safari Animal Printables to Sell | LessonCraftStudio',
     metaDescription: 'Safari animal printable business ideas. Product concepts, themed bundle strategies, and market opportunities for wild animal printable sellers.',
 
     primaryKeyword: 'safari animal printables to sell',

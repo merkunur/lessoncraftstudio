@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'monatliche Bundles Patreon Gumroad',
       'loyale Abonnenten-Basis Druckvorlagen',
     ],
-    titleTag: 'Druckvorlagen-Abo-Box Geschäftsidee | LCS',
+    titleTag: 'Druckvorlagen-Abo-Box Geschäftsidee | LessonCraftStudio',
     metaDescription: 'Druckvorlagen-Abo-Box als Geschäftsidee für wiederkehrende Einnahmen entdecken. Monatliche Arbeitsblatt-Pakete auf Gumroad und Patreon mit loyaler Abonnenten-Basis.',
   },
   hero: {

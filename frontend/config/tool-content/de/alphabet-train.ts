@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'Vorschule',
       '1. Klasse',
     ],
-    titleTag: 'Kostenloser Alphabet-Generator Online | LCS',
+    titleTag: 'Kostenloser Alphabet-Generator Online | LessonCraftStudio',
     metaDescription: 'Kostenloser Alphabet-Arbeitsblatt Generator — Buchstaben-Übungen mit Themenbildern online erstellen, ohne Anmeldung. Lizenz für Etsy & KDP.',
     },
 

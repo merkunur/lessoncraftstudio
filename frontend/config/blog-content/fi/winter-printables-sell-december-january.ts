@@ -13,7 +13,7 @@ const content: BlogContent = {
       'lumiteema tulostettavia',
       'talviloma aktiviteetit tulosteet',
     ],
-    titleTag: 'Talvitulosteet joulu-tammikuussa | LCS',
+    titleTag: 'Talvitulosteet joulu-tammikuussa | LessonCraftStudio',
     metaDescription: 'Myy talvitulosteita joulu-tammikuun pitkään sesonkiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

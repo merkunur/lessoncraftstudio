@@ -20,7 +20,7 @@ const content: ToolContent = {
       'indices',
       'solution',
     ],
-    titleTag: 'Jeu du pendu gratuit en ligne | LCS',
+    titleTag: 'Jeu du pendu gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches de jeu du pendu gratuitement en ligne — sans inscription. Vocabulaire thématique avec images, solutions automatiques. Licence commerciale pour Etsy & KDP.',
   },
 

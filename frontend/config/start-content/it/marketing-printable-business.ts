@@ -16,7 +16,7 @@ const content: StartContent = {
       'stampabili educativi',
       'vendite online',
     ],
-    titleTag: 'Come promuovere stampabili educativi online | LCS',
+    titleTag: 'Come promuovere stampabili educativi online | LessonCraftStudio',
     metaDescription: 'Come promuovere i tuoi stampabili educativi online: SEO piattaforma, Pinterest, email marketing e calendario stagionale. Strategie pratiche e gratuite.',
   },
 

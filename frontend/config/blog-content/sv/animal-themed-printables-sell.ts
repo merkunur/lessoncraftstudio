@@ -13,7 +13,7 @@ const content: BlogContent = {
       'svenska skogsdjur övningar',
       'bondgårdsdjur arbetsblad barn',
     ],
-    titleTag: 'Sälj Djurtema Arbetsblad på Etsy 2026 | LCS',
+    titleTag: 'Sälj Djurtema Arbetsblad på Etsy 2026 | LessonCraftStudio',
     metaDescription: 'Djurtema printables säljer året runt. Skogsdjur och husdjur är en evergreen-nisch på Etsy med låg konkurrens för svenska säljare.',
   },
   hero: {

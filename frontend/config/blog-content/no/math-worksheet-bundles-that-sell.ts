@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'lag mattepakker som selger på Etsy',
     secondaryKeywords: ['matteoppgave-pakke pakkestrategi Etsy', 'arbeidsark-pakker høyere fortjeneste', 'mattepakker prissetting optimalt innhold'],
     lsiKeywords: ['gjennomsnittlig ordreverdi pakker', 'operasjonspakke klassepakke temapakke', 'pakkerabatt matteoppgaver'],
-    titleTag: 'Mattepakker som selger på Etsy | LCS',
+    titleTag: 'Mattepakker som selger på Etsy | LessonCraftStudio',
     metaDescription: 'Pakker tredobler fortjenesten per salg for matteoppgaver. Strategi, innhold og prissetting. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

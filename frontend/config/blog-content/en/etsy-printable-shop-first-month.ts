@@ -13,7 +13,7 @@ const content: BlogContent = {
       'first sales digital products Etsy',
       'new seller printable business',
     ],
-    titleTag: 'First Month Selling Printables on Etsy | LCS',
+    titleTag: 'First Month Selling Printables on Etsy | LessonCraftStudio',
     metaDescription: 'What to realistically expect in your first month selling printables on Etsy. Timeline, milestones, and the metrics that actually matter.',
   },
   hero: {

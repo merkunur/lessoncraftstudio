@@ -17,7 +17,7 @@ const content: BlogContent = {
       'ricreazione',
       'concentrazione',
     ],
-    titleTag: 'Attività Brevi da Stampare per la Classe | LCS',
+    titleTag: 'Attività Brevi da Stampare per la Classe | LessonCraftStudio',
     metaDescription: 'Attività brevi e giochi veloci da stampare per pause in classe. Esercizi ricreativi per la scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {

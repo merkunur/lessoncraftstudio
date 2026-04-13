@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Vorschule 1. Klasse Addition',
       '300 DPI PDF Export',
     ],
-    titleTag: 'Additions-Arbeitsblätter erstellen | Anleitung | LCS',
+    titleTag: 'Additions-Arbeitsblätter erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Additions-Arbeitsblättern. Themen wählen, Schwierigkeitsgrad einstellen, Lösungsschlüssel generieren. Kostenlos testen.',
   },
 

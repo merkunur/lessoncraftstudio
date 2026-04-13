@@ -18,8 +18,8 @@ const content: AppContent = {
       '11 language support',
       'commercial license',
     ],
-    titleTag: 'Treasure Hunt Generator — Party Printables Etsy | LessonCraftStudio',
-    metaDescription: 'Create treasure hunt and scavenger hunt printables for Etsy. Party game niche, near-zero competition, 11 languages. Commercial license. Try free trial.',
+    titleTag: 'Treasure Hunt Worksheet Generator — Party Printables for Etsy | LessonCraftStudio',
+    metaDescription: 'Generate themed treasure hunt worksheets for Etsy party printables and KDP game books. Seasonal editions, 104 themes. Commercial license included. Try free.',
   },
 
   hero: {

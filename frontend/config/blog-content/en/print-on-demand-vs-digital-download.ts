@@ -13,7 +13,7 @@ const content: BlogContent = {
       'POD worksheet business',
       'digital product delivery models',
     ],
-    titleTag: 'Print on Demand vs Digital Download Printables | LCS',
+    titleTag: 'Print on Demand vs Digital Download Printables | LessonCraftStudio',
     metaDescription: 'Print on demand vs digital downloads: margins, fulfillment, scalability, and customer experience compared. Which model wins for printable sellers?',
   },
   hero: {

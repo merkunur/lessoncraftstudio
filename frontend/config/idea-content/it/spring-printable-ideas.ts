@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede primavera da stampare per bambini | LCS',
+    titleTag: 'Schede primavera da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede primaverili da stampare: colorare fiori e farfalle, conteggio, crucipuzzle natura e attività sul ciclo vitale per bambini della scuola primaria.',
     primaryKeyword: 'schede primavera da stampare',
     secondaryKeywords: [

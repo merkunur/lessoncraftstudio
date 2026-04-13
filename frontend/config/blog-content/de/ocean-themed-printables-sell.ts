@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Ozean Druckvorlagen Sommer Verkaufswelle',
     secondaryKeywords: ['Meerestiere Arbeitsblaetter Etsy', 'Unterwasserwelt Raetsel Kinder PDF', 'Strand Druckvorlagen Sommer'],
     lsiKeywords: ['Ozean Wortsuche Grundschule', 'Hai Delfin Wal Arbeitsblaetter', 'Meer Lernmaterial Kinder'],
-    titleTag: 'Ozean-Druckvorlagen: Die Sommer-Verkaufswelle nutzen | LCS',
+    titleTag: 'Ozean-Druckvorlagen: Die Sommer-Verkaufswelle nutzen | LessonCraftStudio',
     metaDescription: 'Ozean-Druckvorlagen: Marktanalyse, Produkte und Strategien fuer Verkaeufer im DACH-Raum. Die Sommer-Verkaufswelle profitabel nutzen.',
   },
   hero: {

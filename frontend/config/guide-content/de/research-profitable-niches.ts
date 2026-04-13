@@ -14,7 +14,7 @@ const content: GuideContent = {
       'datengestützte Nischenvalidierung Recherche-Workflow',
       'saisonale Nachfrage Trendnischen Rentabilitätsbewertung',
     ],
-    titleTag: 'Profitable Druckvorlagen-Nischen finden | LCS',
+    titleTag: 'Profitable Druckvorlagen-Nischen finden | LessonCraftStudio',
     metaDescription: 'Profitable Nischen fuer Druckvorlagen finden: Marktplatzdaten auswerten, Keyword-Nachfrage quantifizieren und mit systematischer Validierung die richtige Nische waehlen.',
   },
 

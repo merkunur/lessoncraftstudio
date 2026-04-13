@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Arbeitsblaetter Design Tipps mehr Verkaeufe',
     secondaryKeywords: ['8 Design-Tipps fuer mehr Arbeitsblatt-Verkaeufe Anleitung', 'Druckvorlagen 8 Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: '8 Design-Tipps fuer mehr Arbeitsblatt-Verkaeufe | LCS',
+    titleTag: '8 Design-Tipps fuer mehr Arbeitsblatt-Verkaeufe | LessonCraftStudio',
     metaDescription: '8 bewiesene Design-Tipps, die Ihre Arbeitsblatt-Verkaeufe auf Etsy.de steigern. Layout, Schrift, Farben und Weissraum.',
   },
   hero: {

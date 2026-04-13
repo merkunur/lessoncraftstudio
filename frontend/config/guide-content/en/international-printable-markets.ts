@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Latin American printable market',
       'Scandinavian digital products',
     ],
-    titleTag: 'International Printable Markets Guide | LCS',
+    titleTag: 'International Printable Markets Guide | LessonCraftStudio',
     metaDescription: 'Country-by-country analysis of international printable markets. Amazon marketplaces, Etsy international, pricing by region, cultural preferences. 11 languages.',
   },
 

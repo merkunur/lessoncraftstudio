@@ -13,7 +13,7 @@ const content: BlogContent = {
       'road trip activity books children',
       'summer break educational products',
     ],
-    titleTag: 'Summer Activity Book Niches: Timing, Themes & Listing Strategy | LCS',
+    titleTag: 'Summer Activity Book Niches: Timing, Themes & Listing Strategy | LessonCraftStudio',
     metaDescription: 'Summer activity books on KDP generate peak revenue in a 4-month window. Learn the best themes, optimal publishing timing, and listing strategies for summer niches.',
   },
   hero: {

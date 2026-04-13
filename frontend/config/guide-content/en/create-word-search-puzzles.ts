@@ -14,7 +14,7 @@ const content: GuideContent = {
       'multilingual word puzzle products',
       'themed puzzle printable business',
     ],
-    titleTag: 'Create Word Search Puzzles to Sell | LCS',
+    titleTag: 'Create Word Search Puzzles to Sell | LessonCraftStudio',
     metaDescription: 'Create word search puzzles that sell. Themed images, 11 languages, color-coded answer keys. Build products for Etsy, KDP, and TPT.',
   },
 

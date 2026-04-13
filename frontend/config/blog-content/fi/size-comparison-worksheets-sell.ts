@@ -13,7 +13,7 @@ const content: BlogContent = {
       'koon käsitteet tulosteet',
       'visuaalinen vertailu tehtävät',
     ],
-    titleTag: 'Kokovertailutulosteet myyntiin | LCS',
+    titleTag: 'Kokovertailutulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy kokovertailutyöarkkeja: vakaa niche matalalla kilpailulla. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

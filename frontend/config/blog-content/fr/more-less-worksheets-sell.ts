@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches numération préscolaire vendre',
       'comparaison nombres enfants imprimables',
     ],
-    titleTag: 'Fiches plus ou moins : niche maths précoces | LCS',
+    titleTag: 'Fiches plus ou moins : niche maths précoces | LessonCraftStudio',
     metaDescription: 'Les fiches « plus ou moins » couvrent une compétence maths fondamentale en maternelle. Comment vendre ces imprimables dans la niche maths précoces en 2026.',
   },
   hero: {

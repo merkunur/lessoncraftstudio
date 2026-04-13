@@ -14,7 +14,7 @@ const content: GuideContent = {
       'preschool activity templates',
       'visual discrimination printables',
     ],
-    titleTag: 'Create Matching Worksheets to Sell Online | LCS',
+    titleTag: 'Create Matching Worksheets to Sell Online | LessonCraftStudio',
     metaDescription: 'Create matching worksheets that sell. Four modes, auto answer keys, 11 languages. Guide for Etsy, KDP, and TPT sellers. Try our tool free.',
   },
 

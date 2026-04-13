@@ -14,7 +14,7 @@ const content: GuideContent = {
       'early math printable product niche',
       'AB pattern sequence activities',
     ],
-    titleTag: 'Create Pattern Worksheets to Sell | LCS',
+    titleTag: 'Create Pattern Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'Create pattern worksheets buyers want. Nine pattern types, auto answer keys, themed images. Build products for Etsy, KDP, and TPT fast.',
   },
 

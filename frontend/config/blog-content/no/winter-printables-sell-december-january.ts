@@ -8,7 +8,7 @@ const content: BlogContent = {
       'vinter sesongoppgaver Etsy KDP',
     ],
     lsiKeywords: ['sesongbaserte arbeidsark salg', 'vinter oppgaver barn nisje', 'vintertema arbeidsark kommersiell lisens'],
-    titleTag: 'Vinter-arbeidsark: Selg des.–jan. | LCS',
+    titleTag: 'Vinter-arbeidsark: Selg des.–jan. | LessonCraftStudio',
     metaDescription: 'Selg vintertema-arbeidsark med snø, ski og vinterdyr fra november til februar. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

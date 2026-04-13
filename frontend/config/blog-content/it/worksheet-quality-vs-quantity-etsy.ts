@@ -17,7 +17,7 @@ const content: BlogContent = {
       'valore',
       'catalogo',
     ],
-    titleTag: 'Qualità vs Quantità Schede Didattiche | LCS',
+    titleTag: 'Qualità vs Quantità Schede Didattiche | LessonCraftStudio',
     metaDescription: 'Qualità o quantità per schede didattiche su Etsy? L\'equilibrio che massimizza vendite e soddisfazione con LessonCraftStudio — 33 generatori.',
   },
   hero: {

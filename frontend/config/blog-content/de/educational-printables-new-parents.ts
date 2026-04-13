@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Montessori Druckvorlagen verkaufen',
       'Entwicklungsfoerderung Kleinkind Material',
     ],
-    titleTag: 'Lern-Druckvorlagen fuer junge Eltern: Wachsender Markt | LCS',
+    titleTag: 'Lern-Druckvorlagen fuer junge Eltern: Wachsender Markt | LessonCraftStudio',
     metaDescription: 'Lern-Druckvorlagen fuer junge Eltern: Der wachsende Markt fuer fruehkindliche Bildung auf Etsy.de. Produkte, Preise und Einstiegsstrategien.',
   },
   hero: {

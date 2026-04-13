@@ -18,8 +18,8 @@ const content: AppContent = {
       'Etsy math bundles',
       'auto answer keys',
     ],
-    titleTag: 'Math Drill Worksheet Maker — KDP Workbook Creator | LessonCraftStudio',
-    metaDescription: 'Build math drill worksheets for KDP workbooks. All 4 operations, custom ranges, 300 DPI PDFs. Bulk generate pages with commercial license. Try free trial.',
+    titleTag: 'Math Drill Worksheet Maker — KDP Workbook & Etsy Bundle Creator | LessonCraftStudio',
+    metaDescription: 'Build math drill worksheets for Amazon KDP workbooks. Addition, subtraction, multiplication, division. Custom number ranges, 300 DPI PDFs. Commercial license. Try free.',
   },
 
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'återförsäljningsrätt utskrifter',
       'kommersiellt bruk arbetsblad',
     ],
-    titleTag: 'Kommersiell Licens för Printables Förklarat | LCS',
+    titleTag: 'Kommersiell Licens för Printables Förklarat | LessonCraftStudio',
     metaDescription: 'Vad innebär kommersiell licens för printables? Tydlig guide om vad du får sälja, var och hur utan juridisk jargong.',
   },
   hero: {

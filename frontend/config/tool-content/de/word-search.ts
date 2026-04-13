@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Wortsuche',
       'PDF ausdrucken',
     ],
-    titleTag: 'Kostenloser Suchsel-Generator mit Bildern | LCS',
+    titleTag: 'Kostenloser Suchsel-Generator mit Bildern | LessonCraftStudio',
     metaDescription: 'Kostenloser Suchsel-Generator — Wortsuchrätsel mit 3.000+ Bildern online erstellen, ohne Anmeldung. 300 DPI PDF. Lizenz für Etsy & KDP.',
   },
 

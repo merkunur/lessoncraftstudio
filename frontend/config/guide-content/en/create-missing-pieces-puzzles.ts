@@ -14,7 +14,7 @@ const content: GuideContent = {
       'visual discrimination worksheet business',
       'jigsaw puzzle worksheet generator',
     ],
-    titleTag: 'Create Missing Piece Puzzles to Sell | LCS',
+    titleTag: 'Create Missing Piece Puzzles to Sell | LessonCraftStudio',
     metaDescription: 'Learn to create missing piece puzzles buyers love. Six piece shapes, smart extraction, answer keys. Build Etsy and KDP products fast.',
   },
 

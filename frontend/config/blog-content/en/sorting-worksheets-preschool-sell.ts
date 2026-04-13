@@ -13,7 +13,7 @@ const content: BlogContent = {
       'sort and categorize activities',
       'early learning sorting printables',
     ],
-    titleTag: 'Sorting Worksheets: Preschool Niche | LCS',
+    titleTag: 'Sorting Worksheets: Preschool Niche | LessonCraftStudio',
     metaDescription: 'Sorting worksheets are a preschool niche that keeps selling year-round. Learn product ideas, pricing, and listing strategies for Etsy and KDP.',
   },
   hero: {

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'kundeservice digitale produkter etsy',
     secondaryKeywords: ['kundeservice digitale produkter Etsy Etsy', 'kundeservice digitale produkter Etsy online', 'kundeservice digitale produkter Etsy sælg'],
     lsiKeywords: ['printbar forretning', 'digital download salg', 'Etsy printables'],
-    titleTag: 'Kundeservice for Digitale Produkter: Etsy-Guide | LCS',
+    titleTag: 'Kundeservice for Digitale Produkter: Etsy-Guide | LessonCraftStudio',
     metaDescription: 'Kundeservice for digitale produkter på Etsy: den mest undervurderede vækstmotor. Svar hurtigt, løs problemer professionelt og øg dine anmeldelser.',
   },
   hero: {

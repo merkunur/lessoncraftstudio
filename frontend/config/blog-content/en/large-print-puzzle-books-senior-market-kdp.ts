@@ -15,7 +15,7 @@ const content: BlogContent = {
       'easy read puzzles older adults',
       'dementia activity book niche',
     ],
-    titleTag: 'Large Print Puzzle Books for Seniors: A Growing KDP Niche | LCS',
+    titleTag: 'Large Print Puzzle Books for Seniors: A Growing KDP Niche | LessonCraftStudio',
     metaDescription: 'The senior puzzle book market on KDP is growing fast. Learn how to create large print word searches, sudoku, and brain training books for older adults.',
   },
   hero: {

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede pirati da stampare per bambini | LCS',
+    titleTag: 'Schede pirati da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede a tema pirati da stampare: caccia al tesoro, labirinti, crucipuzzle e colorare navi pirata. Attività di avventura per bambini 4-8 anni.',
     primaryKeyword: 'schede pirati da stampare',
     secondaryKeywords: [

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'printable market demand research',
       'profitable niche identification strategy',
     ],
-    titleTag: 'Niche Selection for Printable Sellers | LCS',
+    titleTag: 'Niche Selection for Printable Sellers | LessonCraftStudio',
     metaDescription: 'Choose a profitable niche for your printable business. Market research, competition analysis, and demand validation methods for Etsy and KDP sellers.',
   },
 

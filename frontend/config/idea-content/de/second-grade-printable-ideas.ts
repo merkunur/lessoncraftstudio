@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'altersgerechte Lernmaterialien zweite Klasse',
       'wachsender Grundschulmarkt Druckvorlagen Nische',
     ],
-    titleTag: '2.-Klasse-Druckvorlagen Nische Etsy | LCS',
+    titleTag: '2.-Klasse-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: '2.-Klasse-Druckvorlagen als profitable Etsy-Nische entdecken. Arbeitsblatt-Konzepte für den wachsenden Grundschulmarkt — Produktideen und Verkaufsstrategien.',
   },
   hero: {

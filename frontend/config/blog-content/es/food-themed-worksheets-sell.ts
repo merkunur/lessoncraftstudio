@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['fichas tematica fichas', 'vender imprimibles fichas', 'alimentos vender educativos'],
-    titleTag: 'Fichas de Alimentos y Comida para Vender | LCS',
+    titleTag: 'Fichas de Alimentos y Comida para Vender | LessonCraftStudio',
     metaDescription: 'Las fichas con tematica de alimentos combinan educacion nutritiva con actividades educativas. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

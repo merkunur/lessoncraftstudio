@@ -13,7 +13,7 @@ const content: BlogContent = {
       'visual discrimination puzzles sell',
       'which doesn\'t belong printables',
     ],
-    titleTag: 'Odd One Out Worksheets: Sell Printables | LCS',
+    titleTag: 'Odd One Out Worksheets: Sell Printables | LessonCraftStudio',
     metaDescription: 'Odd one out worksheets sell critical thinking to parents and teachers. Learn how to monetize this premium-priced logical reasoning niche.',
   },
   hero: {

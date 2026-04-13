@@ -13,7 +13,7 @@ const content: BlogContent = {
       'letter worksheets Etsy shop',
       'ABC activities sell online',
     ],
-    titleTag: 'Alphabet Worksheets: Etsy Best Sellers | LCS',
+    titleTag: 'Alphabet Worksheets: Etsy Best Sellers | LessonCraftStudio',
     metaDescription: 'What separates best-selling alphabet worksheets from the rest on Etsy? Discover the strategies top sellers use for letter recognition printables.',
   },
   hero: {

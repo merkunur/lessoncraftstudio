@@ -13,7 +13,7 @@ const content: BlogContent = {
       'first day of school printables',
       'classroom setup worksheets sell',
     ],
-    titleTag: 'Back-to-School Printables: August Sales Rush | LCS',
+    titleTag: 'Back-to-School Printables: August Sales Rush | LessonCraftStudio',
     metaDescription: 'Back-to-school is the #3 printable sales event. Learn which worksheets teachers and parents buy in August, plus the listing timeline for maximum revenue.',
   },
   hero: {

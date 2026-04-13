@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable business financial planning',
       'platform fee comparison sellers',
     ],
-    titleTag: 'How to Calculate Your Printable Business Profit Margins | LCS',
+    titleTag: 'How to Calculate Your Printable Business Profit Margins | LessonCraftStudio',
     metaDescription: 'Learn to calculate exact profit margins for your printable business across Etsy, KDP, and Gumroad. Includes platform fees, production costs, and real margin formulas.',
   },
   hero: {

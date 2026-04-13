@@ -17,7 +17,7 @@ const content: BlogContent = {
       'risoluzione',
       'orientamento',
     ],
-    titleTag: 'Formato Carta e Stampa Schede Didattiche | LCS',
+    titleTag: 'Formato Carta e Stampa Schede Didattiche | LessonCraftStudio',
     metaDescription: 'Guida ai formati carta A4 per stampare schede didattiche perfette. Margini, risoluzione e impostazioni PDF con LessonCraftStudio — 33 generatori.',
   },
   hero: {

@@ -15,7 +15,7 @@ const content: StartContent = {
       'digital product promotion',
       'online marketing printable sellers',
     ],
-    titleTag: 'Market Your Printable Business Online | LCS',
+    titleTag: 'Market Your Printable Business Online | LessonCraftStudio',
     metaDescription: 'How to market your printable business online. SEO, social media, email, Pinterest, and paid advertising strategies for printable sellers.',
   },
 

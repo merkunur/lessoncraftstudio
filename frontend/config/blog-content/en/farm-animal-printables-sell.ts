@@ -13,7 +13,7 @@ const content: BlogContent = {
       'farm animal coloring pages profit',
       'farm unit preschool printables market',
     ],
-    titleTag: 'Farm Animal Printables: Toddler Must-Haves | LCS',
+    titleTag: 'Farm Animal Printables: Toddler Must-Haves | LessonCraftStudio',
     metaDescription: 'Farm animal printables are the #1 toddler and preschool theme. Learn which products sell, pricing strategies, and how to dominate this evergreen niche.',
   },
   hero: {

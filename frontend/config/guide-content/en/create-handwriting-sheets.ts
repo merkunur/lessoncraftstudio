@@ -14,7 +14,7 @@ const content: GuideContent = {
       'progressive handwriting templates',
       'print-ready penmanship PDFs',
     ],
-    titleTag: 'Create Handwriting Worksheets to Sell Online | LCS',
+    titleTag: 'Create Handwriting Worksheets to Sell Online | LessonCraftStudio',
     metaDescription: 'Create handwriting worksheets that sell. Three practice modes, font styles, progressive difficulty. For Etsy, KDP, and TPT. Try our tool free.',
   },
 

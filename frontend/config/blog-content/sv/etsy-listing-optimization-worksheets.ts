@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Etsy beskrivning konvertering',
       'visningar klick försäljning Etsy',
     ],
-    titleTag: 'Optimera Etsy-Listningar för Arbetsblad | LCS',
+    titleTag: 'Optimera Etsy-Listningar för Arbetsblad | LessonCraftStudio',
     metaDescription: 'Optimera dina Etsy-listningar med rätt titlar, taggar och bilder. Dubbla konverteringen för dina arbetsblad och printables.',
   },
   hero: {

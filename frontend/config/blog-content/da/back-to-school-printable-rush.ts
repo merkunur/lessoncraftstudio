@@ -13,7 +13,7 @@ const content: BlogContent = {
       "august salg spike",
       "skolestart produktlancering"
     ],
-    titleTag: "Skolestart-Printables: Augusts Salgsrush | LCS",
+    titleTag: "Skolestart-Printables: Augusts Salgsrush | LessonCraftStudio",
     metaDescription: 'Skolestart i august-september er årets største salgsperiode for printables. Saelg pa Etsy & KDP med kommerciel licens.'
   },
   hero: {

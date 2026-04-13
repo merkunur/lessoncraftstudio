@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches maths créatives',
       'puzzles éducatifs imprimables',
     ],
-    titleTag: 'Puzzles code addition : niche Etsy cachée | LCS',
+    titleTag: 'Puzzles code addition : niche Etsy cachée | LessonCraftStudio',
     metaDescription: 'Les puzzles code addition combinent maths et jeu. Découvrez comment exploiter cette niche Etsy peu concurrentielle pour des ventes régulières en 2026.',
   },
   hero: {

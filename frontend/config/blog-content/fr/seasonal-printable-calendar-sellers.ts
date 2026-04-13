@@ -13,7 +13,7 @@ const content: BlogContent = {
       'rentrée Noël Pâques fiches',
       'anticiper saisons ventes Etsy',
     ],
-    titleTag: 'Calendrier saisonnier pour vendeurs d\'imprimables | LCS',
+    titleTag: 'Calendrier saisonnier pour vendeurs d\'imprimables | LessonCraftStudio',
     metaDescription: 'Planifiez vos créations d\'imprimables selon les saisons. Calendrier complet des pics de ventes en France pour. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

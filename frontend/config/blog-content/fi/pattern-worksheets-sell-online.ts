@@ -13,7 +13,7 @@ const content: BlogContent = {
       'sarjat ja jatkuvuus tehtävät',
       'kuvioharjoitukset esikoulu',
     ],
-    titleTag: 'Kuviotyöarkit verkkomyyntiin | LCS',
+    titleTag: 'Kuviotyöarkit verkkomyyntiin | LessonCraftStudio',
     metaDescription: 'Myy kuviotyöarkkeja verkossa vakaalla kysynnällä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

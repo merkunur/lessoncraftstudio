@@ -13,7 +13,7 @@ const content: BlogContent = {
       'rechtliche Grundlagen Etsy Verkaeufer',
       'Urheberrecht Bilder Arbeitsblaetter',
     ],
-    titleTag: 'Urheberrecht fuer Druckvorlagen-Verkaeufer | LCS',
+    titleTag: 'Urheberrecht fuer Druckvorlagen-Verkaeufer | LessonCraftStudio',
     metaDescription: 'Urheberrecht-Grundlagen fuer Druckvorlagen-Verkaeufer in Deutschland. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {

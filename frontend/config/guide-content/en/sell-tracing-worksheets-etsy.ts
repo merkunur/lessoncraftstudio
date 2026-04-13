@@ -15,7 +15,7 @@ const content: GuideContent = {
       'preschool tracing activity sheets',
       'occupational therapy tracing printables',
     ],
-    titleTag: 'Sell Tracing Worksheets on Etsy | LCS',
+    titleTag: 'Sell Tracing Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'How to sell tracing worksheets on Etsy. 8 SVG line templates, visual-only format for global sales, Pre-K fine motor skills market, parent demand, and OT market strategies.',
   },
 

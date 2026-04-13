@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede sugli uccelli da stampare | LCS',
+    titleTag: 'Schede sugli uccelli da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede sugli uccelli da stampare: attività di conteggio, colorare, abbinamento e crucipuzzle a tema fauna alata per bambini della scuola primaria.',
     primaryKeyword: 'schede sugli uccelli da stampare',
     secondaryKeywords: [

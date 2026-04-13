@@ -13,7 +13,7 @@ const content: BlogContent = {
       'arctic animal printables profit',
       'indoor winter activities printable sell',
     ],
-    titleTag: 'Winter Printables: Best Cold Season Products | LCS',
+    titleTag: 'Winter Printables: Best Cold Season Products | LessonCraftStudio',
     metaDescription: 'Winter printables sell December through March. Learn which non-Christmas winter products have the longest selling window and highest revenue potential.',
   },
   hero: {

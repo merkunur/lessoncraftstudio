@@ -15,7 +15,7 @@ const content: GuideContent = {
       'KDP manuscript formatting',
       'print-ready coloring PDF',
     ],
-    titleTag: 'Coloring Book Generator for Amazon KDP | LCS',
+    titleTag: 'Coloring Book Generator for Amazon KDP | LessonCraftStudio',
     metaDescription: 'Create professional coloring books for Amazon KDP. 3,000+ themed images converted to outlines, 104 collections, grayscale export, 300 DPI. Step-by-step guide.',
   },
 

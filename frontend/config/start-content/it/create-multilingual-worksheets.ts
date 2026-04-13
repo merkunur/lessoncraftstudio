@@ -16,7 +16,7 @@ const content: StartContent = {
       'generatore',
       'traduzione',
     ],
-    titleTag: 'Creare schede didattiche multilingue | LCS',
+    titleTag: 'Creare schede didattiche multilingue | LessonCraftStudio',
     metaDescription: 'Come creare schede didattiche multilingue con generatori in 11 lingue: italiano, inglese, tedesco, francese, spagnolo e altre. Guida passo dopo passo.',
   },
 

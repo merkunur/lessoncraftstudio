@@ -13,7 +13,7 @@ const content: BlogContent = {
       'imprimibles dibujo creativo niños',
       'draw color worksheets business niche',
     ],
-    titleTag: 'Fichas Dibujar y Colorear: Dos Nichos en Uno | LCS',
+    titleTag: 'Fichas Dibujar y Colorear: Dos Nichos en Uno | LessonCraftStudio',
     metaDescription: 'Las fichas de dibujar y colorear combinan dos nichos populares en un producto único. Estrategia para Etsy y KDP. Prueba gratuita con marca de agua.',
   },
   hero: {

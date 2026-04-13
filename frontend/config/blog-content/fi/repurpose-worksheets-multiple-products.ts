@@ -13,7 +13,7 @@ const content: BlogContent = {
       'monikanavainen tuotemyynti',
       'pakettien kokoaminen olemassa olevista',
     ],
-    titleTag: 'Muunna työarkit useiksi tuotteiksi | LCS',
+    titleTag: 'Muunna työarkit useiksi tuotteiksi | LessonCraftStudio',
     metaDescription: 'Muuta yksi tehtäväarkkisetti useiksi eri tuotteiksi. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

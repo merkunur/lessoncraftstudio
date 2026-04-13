@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede animali domestici da stampare | LCS',
+    titleTag: 'Schede animali domestici da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede sugli animali domestici da stampare: colorare cani e gatti, conteggio, abbinamento e crucipuzzle a tema animali da compagnia per bambini.',
     primaryKeyword: 'schede animali domestici da stampare',
     secondaryKeywords: [

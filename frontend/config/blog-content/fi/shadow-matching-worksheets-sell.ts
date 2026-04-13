@@ -13,7 +13,7 @@ const content: BlogContent = {
       'visuaalinen päättely tulosteet',
       'esineiden tunnistus siluetti',
     ],
-    titleTag: 'Varjoyhdistämistehtävät myyntiin | LCS',
+    titleTag: 'Varjoyhdistämistehtävät myyntiin | LessonCraftStudio',
     metaDescription: 'Myy varjoyhdistämistyöarkkeja Etsyssä ja KDP:ssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

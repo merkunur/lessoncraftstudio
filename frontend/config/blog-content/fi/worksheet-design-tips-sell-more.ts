@@ -13,7 +13,7 @@ const content: BlogContent = {
       'asettelu tehtäväarkit',
       'ammattimainen ulkoasu tulosteet',
     ],
-    titleTag: 'Tehtäväarkkien designvinkit | LCS',
+    titleTag: 'Tehtäväarkkien designvinkit | LessonCraftStudio',
     metaDescription: 'Paranna tulosteidesi ulkoasua ja myy enemmän. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

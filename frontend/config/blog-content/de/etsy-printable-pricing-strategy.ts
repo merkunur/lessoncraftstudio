@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Bundle Preisstrategie Etsy',
       'Druckvorlagen Marge optimieren',
     ],
-    titleTag: 'Preisstrategie fuer Druckvorlagen auf Etsy | LCS',
+    titleTag: 'Preisstrategie fuer Druckvorlagen auf Etsy | LessonCraftStudio',
     metaDescription: 'Die Preisstrategie die Ihren Druckvorlagen-Gewinn maximiert. Preispunkte, Bundle-Staffelung und psychologische Preisgestaltung fuer Etsy.de.',
   },
   hero: {

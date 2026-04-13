@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Musikunterricht-Thema Druckvorlagen ganzjährig',
       'Musikalische Früherziehung Nische Etsy-Shop',
     ],
-    titleTag: 'Musik-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Musik-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Musik-Druckvorlagen als profitable Etsy-Nische entdecken. Instrumente und Rhythmus als ganzjähriges Thema — Produktideen und Wettbewerbsanalyse für Ihren Shop.',
   },
   hero: {

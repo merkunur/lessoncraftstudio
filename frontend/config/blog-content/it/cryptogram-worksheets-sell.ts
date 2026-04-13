@@ -17,7 +17,7 @@ const content: BlogContent = {
       'logica',
       'enigma',
     ],
-    titleTag: 'Crittogrammi per Bambini da Stampare | LCS',
+    titleTag: 'Crittogrammi per Bambini da Stampare | LessonCraftStudio',
     metaDescription: 'Crittogrammi e giochi di decodifica per bambini da stampare con soluzioni. Puzzle con messaggi segreti educativi con LessonCraftStudio — 33 generatori.',
   },
   hero: {

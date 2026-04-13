@@ -9,7 +9,7 @@ const content: BlogContent = {
       'saisonale planung',
     ],
     lsiKeywords: ['Urlaubs-Raetsel Kinder', 'Reise-Wortsuche druckbar', 'Beschaeftigung unterwegs Kinder'],
-    titleTag: 'Reise-Aktivitaets-Druckvorlagen: Urlaubs-Eltern-Markt | LCS',
+    titleTag: 'Reise-Aktivitaets-Druckvorlagen: Urlaubs-Eltern-Markt | LessonCraftStudio',
     metaDescription: 'Reise-Aktivitaets-Druckvorlagen verkaufen: Was Eltern fuer Autofahrt, Flug und Wartezeiten kaufen. Produkte, Preise und Saisonstrategien.',
   },
   hero: {

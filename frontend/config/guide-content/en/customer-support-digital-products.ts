@@ -14,7 +14,7 @@ const content: GuideContent = {
       'FAQ template digital products',
       'printable download troubleshooting',
     ],
-    titleTag: 'Customer Support for Digital Products | LCS',
+    titleTag: 'Customer Support for Digital Products | LessonCraftStudio',
     metaDescription: 'Build a customer support system for digital products. Reduce requests, handle refunds, and maintain high seller ratings on Etsy and Gumroad.',
   },
 

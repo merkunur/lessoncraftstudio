@@ -13,7 +13,7 @@ const content: BlogContent = {
       'imprimibles asociación primera infancia',
       'matching activities toddler printable',
     ],
-    titleTag: 'Fichas Asociación: Mercado Infantil 2026 | LCS',
+    titleTag: 'Fichas Asociación: Mercado Infantil 2026 | LessonCraftStudio',
     metaDescription: 'Domine el mercado de fichas de asociación para niños pequeños. Estrategias de producto, precios y plataformas. Prueba gratuita con marca de agua.',
   },
   hero: {

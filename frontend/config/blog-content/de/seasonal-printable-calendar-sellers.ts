@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Weihnachten Arbeitsblaetter Verkauf',
       'saisonale Nachfrage digitale Produkte',
     ],
-    titleTag: 'Saisonaler Verkaufskalender Druckvorlagen | LCS',
+    titleTag: 'Saisonaler Verkaufskalender Druckvorlagen | LessonCraftStudio',
     metaDescription: 'Der Verkaufskalender fuer Druckvorlagen-Verkaeufer. Monat fuer Monat die besten Themen, Keywords und Strategien fuer Spitzenverkaeufe.',
   },
   hero: {

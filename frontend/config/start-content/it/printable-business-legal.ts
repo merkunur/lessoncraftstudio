@@ -16,7 +16,7 @@ const content: StartContent = {
       'fatturazione',
       'proprietà intellettuale',
     ],
-    titleTag: 'Aspetti legali vendita stampabili in Italia | LCS',
+    titleTag: 'Aspetti legali vendita stampabili in Italia | LessonCraftStudio',
     metaDescription: 'Aspetti legali per vendere stampabili in Italia: partita IVA, regime forfettario, IVA al 22%, fatturazione elettronica e tutela della proprietà intellettuale.',
   },
 

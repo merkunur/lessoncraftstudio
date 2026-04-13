@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles educacion fichas', 'vender imprimibles imprimibles', 'NEE vender educativos'],
-    titleTag: 'Imprimibles de Educacion Especial | LCS',
+    titleTag: 'Imprimibles de Educacion Especial | LessonCraftStudio',
     metaDescription: 'Los materiales para educacion especial y necesidades educativas especiales (NEE) representan un nicho de alto valor. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

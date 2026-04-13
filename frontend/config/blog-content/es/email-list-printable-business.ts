@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'lista email negocio imprimibles',
     secondaryKeywords: ['email marketing vendedores imprimibles', 'construir lista suscriptores imprimibles', 'correo electronico tienda Etsy'],
     lsiKeywords: ['lead magnet imprimibles', 'automatizar email vendedores', 'lista email productos digitales'],
-    titleTag: 'Lista de Email para su Negocio de Imprimibles | LCS',
+    titleTag: 'Lista de Email para su Negocio de Imprimibles | LessonCraftStudio',
     metaDescription: 'Como construir una lista de email para vender mas imprimibles. Lead magnets, automatizacion y estrategias que convierten suscriptores.',
   },
   hero: {

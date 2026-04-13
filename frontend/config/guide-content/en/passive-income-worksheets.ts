@@ -14,7 +14,7 @@ const content: GuideContent = {
       'recurring income printable business',
       'multi-platform worksheet sales',
     ],
-    titleTag: 'Passive Income Selling Worksheets | LCS',
+    titleTag: 'Passive Income Selling Worksheets | LessonCraftStudio',
     metaDescription: 'Build passive income selling worksheets. Evergreen catalog strategies, bundle pricing, and realistic revenue expectations for printable sellers.',
   },
 

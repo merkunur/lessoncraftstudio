@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede sport da stampare per bambini | LCS',
+    titleTag: 'Schede sport da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede a tema sport da stampare: colorare calcio e pallacanestro, conteggio, crucipuzzle sportivi e attività motorie per bambini 4-9 anni.',
     primaryKeyword: 'schede sport da stampare',
     secondaryKeywords: [

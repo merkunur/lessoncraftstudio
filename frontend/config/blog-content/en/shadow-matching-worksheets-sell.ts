@@ -13,7 +13,7 @@ const content: BlogContent = {
       'silhouette activities printable',
       'shadow puzzles preschool sell',
     ],
-    titleTag: 'Shadow Matching Worksheets: Outsell Others | LCS',
+    titleTag: 'Shadow Matching Worksheets: Outsell Others | LessonCraftStudio',
     metaDescription: 'Shadow matching worksheets outsell standard matching activities. Learn why silhouette matching is a premium niche and how to capture it.',
   },
   hero: {

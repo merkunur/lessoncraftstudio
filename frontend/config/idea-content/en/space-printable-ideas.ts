@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Space Themed Printables to Sell | LCS',
+    titleTag: 'Space Themed Printables to Sell | LessonCraftStudio',
     metaDescription: 'Space themed printable business ideas for Etsy & KDP. Product concepts and strategies for outer space and astronomy printable sellers.',
 
     primaryKeyword: 'space themed printables to sell',

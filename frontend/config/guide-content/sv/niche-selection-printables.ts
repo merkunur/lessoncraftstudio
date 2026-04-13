@@ -17,7 +17,7 @@ const content: GuideContent = {
       'nischstackning produkt-marknads-passning köparavsikt söktermer',
       'pysselbok pusselbok aktivitetsbok arbetsblad skriva ut',
     ],
-    titleTag: 'Välja nisch för printables att sälja | LCS',
+    titleTag: 'Välja nisch för printables att sälja | LessonCraftStudio',
     metaDescription: 'Välj rätt nisch för din printable-verksamhet. Undersök efterfrågan, analysera konkurrens på Etsy och KDP, validera lönsamhet och planera expansion steg för steg.',
   },
 

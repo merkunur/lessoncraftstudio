@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Nach Kategorien ordnen Arbeitsblatt',
       'Fruehfoerderung Druckvorlagen verkaufen',
     ],
-    titleTag: 'Sortier-Arbeitsblaetter: Die Vorschul-Nische | LCS',
+    titleTag: 'Sortier-Arbeitsblaetter: Die Vorschul-Nische | LessonCraftStudio',
     metaDescription: 'Die Vorschul-Nische fuer Sortier-Arbeitsblaetter: hohe Nachfrage, loyale Kunden. So erstellen und verkaufen Sie Sortiermaterial auf Etsy.de.',
   },
   hero: {

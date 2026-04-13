@@ -18,8 +18,8 @@ const content: AppContent = {
       '11 language support',
       'bulk generation',
     ],
-    titleTag: 'Cryptogram Puzzle Book Generator — Adult KDP Niche | LessonCraftStudio',
-    metaDescription: 'Create code-breaking cryptogram puzzle books for KDP. Tap the adult puzzle market. 11 languages, bulk generate, commercial license. Try free trial.',
+    titleTag: 'Cryptogram Puzzle Generator — Adult KDP Puzzle Books | LessonCraftStudio',
+    metaDescription: 'Create cryptogram code-breaking puzzles for KDP puzzle books. Target the adult puzzle market. 11 languages, auto answer keys. Commercial license included. Try free.',
   },
 
   hero: {

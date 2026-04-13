@@ -16,7 +16,7 @@ const content: BundleContent = {
       'cruciverba',
       'schede da stampare',
     ],
-    titleTag: 'Generatori cerca e trova da stampare | LCS',
+    titleTag: 'Generatori cerca e trova da stampare | LessonCraftStudio',
     metaDescription: 'Pacchetto con 4 generatori cerca e trova da stampare: Vedo Vedo, oggetti nascosti, cruciverba con immagini e caccia al tesoro per bambini 3-8 anni.',
   },
 

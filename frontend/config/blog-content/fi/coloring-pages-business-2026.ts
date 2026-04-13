@@ -13,7 +13,7 @@ const content: BlogContent = {
       'lasten värityskuvat tulostettavia',
       'luontoteemat väritys Suomi',
     ],
-    titleTag: 'Värityssivut liiketoimintana | LCS',
+    titleTag: 'Värityssivut liiketoimintana | LessonCraftStudio',
     metaDescription: 'Rakenna kannattava värityssivuliiketoiminta — ikivihreä kategoria. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

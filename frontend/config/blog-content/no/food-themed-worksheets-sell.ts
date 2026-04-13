@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg mattema-arbeidsark på nett',
     secondaryKeywords: ['mat-tema oppgaver Etsy selge', 'frukt grønnsaker arbeidsark forretning', 'mattema pedagogisk materiell selge'],
     lsiKeywords: ['vokabular mat barn oppgaver', 'sortering kategorisering mat', 'mat-illustrasjoner arbeidsark'],
-    titleTag: 'Selg mattema-arbeidsark på nett | LCS',
+    titleTag: 'Selg mattema-arbeidsark på nett | LessonCraftStudio',
     metaDescription: 'Mat-temaer som frukt og grønnsaker er populære for arbeidsark hele året. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

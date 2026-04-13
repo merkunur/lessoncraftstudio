@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode échantillons',
       'astuces échantillons imprimables',
     ],
-    titleTag: 'Échantillons comme lead magnet | LCS',
+    titleTag: 'Échantillons comme lead magnet | LessonCraftStudio',
     metaDescription: 'Utilisez des échantillons d\'imprimables comme lead magnet pour construire votre liste email. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

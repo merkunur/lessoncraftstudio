@@ -15,7 +15,7 @@ const content: BundleContent = {
       'Kategorie-Bundle',
       'Bis zu 57% sparen',
     ],
-    titleTag: 'Zuordnungs-Arbeitsblatt-Bundle | 5 Generatoren | LCS',
+    titleTag: 'Zuordnungs-Arbeitsblatt-Bundle | 5 Generatoren | LessonCraftStudio',
     metaDescription: 'Zuordnungs-Bundle mit 5 Generatoren: Größenvergleich, Mehr/Weniger, Sortieren, Schattenbilder, Präpositionen. Bis zu 57% sparen.',
   },
 

@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'altersgerechte Lernmaterialien Schulanfänger',
       'Lesen Schreiben Rechnen erste Klasse Nische',
     ],
-    titleTag: '1.-Klasse-Druckvorlagen Nische Etsy | LCS',
+    titleTag: '1.-Klasse-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: '1.-Klasse-Druckvorlagen als profitable Etsy-Nische entdecken. Grundschulmaterial für Erstklässler — Produktkonzepte und Wettbewerbsanalyse für Ihren Druckvorlagen-Shop.',
   },
   hero: {

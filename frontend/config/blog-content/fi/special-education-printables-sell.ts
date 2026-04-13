@@ -13,7 +13,7 @@ const content: BlogContent = {
       'erityistarpeet tehtäväarkit',
       'tukiopetus tulostettavia Suomi',
     ],
-    titleTag: 'Erityisopetustulosteet myyntiin | LCS',
+    titleTag: 'Erityisopetustulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy erityisopetustulosteita: kilpailuton niche Suomessa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

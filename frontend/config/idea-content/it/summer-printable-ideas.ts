@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede estive da stampare per bambini | LCS',
+    titleTag: 'Schede estive da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede estive da stampare: colorare spiaggia e mare, crucipuzzle vacanze, conteggio e attività creative a tema estate per bambini 3-9 anni.',
     primaryKeyword: 'schede estive da stampare',
     secondaryKeywords: [

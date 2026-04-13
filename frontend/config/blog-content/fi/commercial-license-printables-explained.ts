@@ -13,7 +13,7 @@ const content: BlogContent = {
       'jälleenmyyntioikeus tulosteet',
       'lisenssiehdot verkkokauppa',
     ],
-    titleTag: 'Kaupallinen lisenssi tulosteille | LCS',
+    titleTag: 'Kaupallinen lisenssi tulosteille | LessonCraftStudio',
     metaDescription: 'Mitä kaupallinen lisenssi tarkoittaa tulostettaville tuotteille? Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

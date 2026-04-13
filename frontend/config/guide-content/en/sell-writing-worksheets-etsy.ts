@@ -15,7 +15,7 @@ const content: GuideContent = {
       'penmanship printables',
       'pre-writing activity pages',
     ],
-    titleTag: 'Sell Writing Worksheets on Etsy | LCS',
+    titleTag: 'Sell Writing Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Create and sell handwriting practice worksheets on Etsy. 3 progressive modes, 5 fonts, stroke-order arrows. Evergreen parent demand, homeschool market. Step-by-step guide.',
   },
 

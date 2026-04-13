@@ -13,7 +13,7 @@ const content: BlogContent = {
       'word puzzle business Etsy',
       'spelling games worksheets sell',
     ],
-    titleTag: 'Word Scramble Printables: 7 Ideas | LCS',
+    titleTag: 'Word Scramble Printables: 7 Ideas | LessonCraftStudio',
     metaDescription: 'Seven profitable word scramble product ideas for your Etsy shop. From themed packs to KDP books, discover how to monetize this popular puzzle format.',
   },
   hero: {

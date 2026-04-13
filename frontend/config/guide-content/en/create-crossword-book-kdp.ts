@@ -15,7 +15,7 @@ const content: GuideContent = {
       'crossword grid layout',
       'themed crossword puzzles',
     ],
-    titleTag: 'Create a Crossword Book for Amazon KDP | LCS',
+    titleTag: 'Create a Crossword Book for Amazon KDP | LessonCraftStudio',
     metaDescription: 'Create picture crossword puzzle books for Amazon KDP. 15x15 grids, image clues, 4 input methods, themed puzzles, manuscript formatting. Step-by-step KDP workflow. Try free trial.',
   },
 

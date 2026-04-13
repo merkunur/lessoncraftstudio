@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Halloween Aktivitaeten Grundschule',
       'Oktober Druckvorlagen Geschaeft',
     ],
-    titleTag: 'Halloween-Druckvorlagen die sich im Oktober verkaufen | LCS',
+    titleTag: 'Halloween-Druckvorlagen die sich im Oktober verkaufen | LessonCraftStudio',
     metaDescription: 'Halloween-Druckvorlagen fuer den DACH-Markt: Welche Produkte sich wirklich verkaufen, optimale Preise und die besten Nischen fuer Oktober-Verkaeufe.',
   },
   hero: {

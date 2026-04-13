@@ -13,7 +13,7 @@ const content: BlogContent = {
       'sudoku préscolaire sans chiffres',
       'jeux logique déduction enfants vendre',
     ],
-    titleTag: 'Sudoku images enfants : niche KDP | LCS',
+    titleTag: 'Sudoku images enfants : niche KDP | LessonCraftStudio',
     metaDescription: 'Le sudoku images pour enfants est une niche KDP sans concurrence. Publiez des cahiers de puzzles visuels innovants en 2026.',
   },
   hero: {

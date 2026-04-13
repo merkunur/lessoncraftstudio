@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant worksheet generator no account',
       'try before you buy math worksheets',
     ],
-    titleTag: 'Free Math Worksheet Generator Online | LCS',
+    titleTag: 'Free Math Worksheet Generator Online | LessonCraftStudio',
     metaDescription: 'Generate math worksheets free online with watermark — no signup needed. All operations, auto answer keys, 300 DPI export. Upgrade for commercial license.',
   },
 

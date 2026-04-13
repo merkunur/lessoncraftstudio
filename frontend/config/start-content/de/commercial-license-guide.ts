@@ -15,7 +15,7 @@ const content: StartContent = {
       'Weiterverkauf',
       'Lizenzvereinbarung',
     ],
-    titleTag: 'Kommerzielle Lizenz Druckvorlagen | Anleitung | LCS',
+    titleTag: 'Kommerzielle Lizenz Druckvorlagen | Anleitung | LessonCraftStudio',
     metaDescription: 'Alles über kommerzielle Lizenzen für Druckvorlagen. Nutzungsrechte, Verkaufserlaubnis und Lizenzmodelle für Etsy und KDP erklärt.',
   },
 

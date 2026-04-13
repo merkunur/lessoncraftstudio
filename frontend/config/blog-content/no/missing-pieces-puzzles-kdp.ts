@@ -8,7 +8,7 @@ const content: BlogContent = {
       'lag manglende brikker oppgaver kommersiell lisens',
     ],
     lsiKeywords: ['arbeidsark forretning nisje', 'KDP aktivitetsbøker barn', 'Etsy digitale nedlastinger selge'],
-    titleTag: 'Selg manglende brikker-oppgaver på KDP | LCS',
+    titleTag: 'Selg manglende brikker-oppgaver på KDP | LessonCraftStudio',
     metaDescription: 'Bygg en lønnsom KDP-nisje med manglende brikker-oppgaver. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

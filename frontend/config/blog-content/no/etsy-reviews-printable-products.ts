@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'få Etsy-anmeldelser arbeidsark produkter',
     secondaryKeywords: ['Etsy anmeldelser digitale nedlastinger strategi', 'øk antall anmeldelser Etsy oppgaver', 'kundeanmeldelser arbeidsark Etsy'],
     lsiKeywords: ['sosialbevis digitale produkter', 'konverteringsrate Etsy anmeldelser', 'femstjerners anmeldelse arbeidsark'],
-    titleTag: 'Slik får du Etsy-anmeldelser for arbeidsark | LCS',
+    titleTag: 'Slik får du Etsy-anmeldelser for arbeidsark | LessonCraftStudio',
     metaDescription: 'Anmeldelser øker synlighet og konvertering for arbeidsark på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

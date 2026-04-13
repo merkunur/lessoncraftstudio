@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Mehr-oder-Weniger-Arbeitsblaetter verkaufen',
     secondaryKeywords: ['Mengenvergleich Arbeitsblaetter Etsy', 'Mehr weniger Druckvorlagen Geschaeft', 'Groesser kleiner gleich Arbeitsblaetter'],
     lsiKeywords: ['Mengen vergleichen Arbeitsblatt PDF', 'Zahlverstaendnis Vorschule', 'Vergleichszeichen ueben Grundschule'],
-    titleTag: 'Mehr-oder-Weniger-Arbeitsblaetter verkaufen | LCS',
+    titleTag: 'Mehr-oder-Weniger-Arbeitsblaetter verkaufen | LessonCraftStudio',
     metaDescription: 'Wie Sie mit Mehr-oder-Weniger-Arbeitsblaettern den Vorschul- und Grundschulmarkt bedienen. Produktideen und Preise fuer Etsy.de.',
   },
   hero: {

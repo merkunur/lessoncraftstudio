@@ -17,7 +17,7 @@ const content: BlogContent = {
       'prerequisiti',
       'letto-scrittura',
     ],
-    titleTag: 'Schede Prima Elementare da Stampare | LCS',
+    titleTag: 'Schede Prima Elementare da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche per la prima elementare da stampare. Esercizi di letto-scrittura e matematica con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

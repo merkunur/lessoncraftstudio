@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles pausas fichas', 'vender imprimibles imprimibles', 'profesores aula educativos'],
-    titleTag: 'Imprimibles de Pausas Activas para el Aula | LCS',
+    titleTag: 'Imprimibles de Pausas Activas para el Aula | LessonCraftStudio',
     metaDescription: 'Las pausas activas (brain breaks) son actividades cortas de 5-10 minutos disenadas para reactivar la atencion de. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

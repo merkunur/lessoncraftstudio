@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'fichas alfabeto más vendidos diferencia 2026',
     secondaryKeywords: ['vender fichas alfabeto Etsy best seller', 'fichas abecedario imprimibles negocio', 'alphabet worksheets best sellers strategy'],
     lsiKeywords: ['fichas letras preescolar rentables', 'abecedario imprimible vender online', 'alphabet printables what sells best'],
-    titleTag: 'Fichas del Alfabeto: Qué Diferencia a los Más Vendidos | LCS',
+    titleTag: 'Fichas del Alfabeto: Qué Diferencia a los Más Vendidos | LessonCraftStudio',
     metaDescription: 'Descubra qué diferencia a las fichas del alfabeto más vendidas de las que no venden. Estrategias probadas para Etsy y KDP.',
   },
   hero: {

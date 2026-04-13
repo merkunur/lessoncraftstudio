@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'März-April saisonale Nachfragespitze',
       'Frühlings-Feiertag Druckvorlagen-Nische',
     ],
-    titleTag: 'Oster-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Oster-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Oster-Druckvorlagen als profitable Etsy-Nische entdecken. Osterhasen, Eier und Küken — saisonale Strategien für März bis April und Plattformtipps für Ihren Shop.',
   },
   hero: {

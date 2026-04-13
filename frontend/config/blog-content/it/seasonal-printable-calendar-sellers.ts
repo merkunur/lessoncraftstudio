@@ -17,7 +17,7 @@ const content: BlogContent = {
       'scuola',
       'Italia',
     ],
-    titleTag: 'Calendario Schede Stagionali Italiano | LCS',
+    titleTag: 'Calendario Schede Stagionali Italiano | LessonCraftStudio',
     metaDescription: 'Calendario completo di schede didattiche stagionali per la scuola italiana. Pianifica per ogni festività con LessonCraftStudio — 33 generatori.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Druckvorlagen ohne Canva erstellen',
       'Printable Business Quereinsteiger',
     ],
-    titleTag: 'Druckvorlagen-Geschaeft ohne Design-Kenntnisse | LCS',
+    titleTag: 'Druckvorlagen-Geschaeft ohne Design-Kenntnisse | LessonCraftStudio',
     metaDescription: 'So starten Sie ein profitables Druckvorlagen-Geschaeft ohne Grafikdesign-Erfahrung. Generatoren, Vorlagen und der Weg zum ersten Verkauf.',
   },
   hero: {

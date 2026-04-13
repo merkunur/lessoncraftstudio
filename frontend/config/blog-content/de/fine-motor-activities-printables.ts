@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Feinmotorik Druckvorlagen verkaufen Eltern Therapeuten',
     secondaryKeywords: ['Feinmotorik Uebungen PDF Etsy', 'Schwunguebungen Ergotherapie Material', 'Schneide-Uebungen Kinder verkaufen'],
     lsiKeywords: ['Grafomotorik Arbeitsblaetter', 'Handgeschicklichkeit Kinder PDF', 'Ergotherapie Druckvorlagen'],
-    titleTag: 'Feinmotorik-Druckvorlagen: Eltern & Therapeuten | LCS',
+    titleTag: 'Feinmotorik-Druckvorlagen: Eltern & Therapeuten | LessonCraftStudio',
     metaDescription: 'Feinmotorik-Druckvorlagen verkaufen: Schwunguebungen, Schneide-Uebungen und Nachfahr-Blaetter. Zwei Zielgruppen, Premium-Preise, wenig Konkurrenz.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Altersgruppe Fachbereich Kategorisierung Vorschau',
       'Eduki Provisionsmodell digitaler Download',
     ],
-    titleTag: 'Material auf Eduki verkaufen | LCS',
+    titleTag: 'Material auf Eduki verkaufen | LessonCraftStudio',
     metaDescription: 'Unterrichtsmaterial auf Eduki verkaufen: Verkäuferkonto einrichten, Materialien formatieren, Listings optimieren und Preisstrategien fuer den DACH-Bildungsmarktplatz.',
   },
 

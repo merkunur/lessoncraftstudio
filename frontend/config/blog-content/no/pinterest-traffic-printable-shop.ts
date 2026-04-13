@@ -8,7 +8,7 @@ const content: BlogContent = {
       'Pinterest pins arbeidsark selgere tips',
     ],
     lsiKeywords: ['Pinterest Etsy trafikk gratis', 'visuell søkemotor arbeidsark', 'Pinterest strategi digitale produkter'],
-    titleTag: 'Pinterest-trafikk til arbeidsark-butikken | LCS',
+    titleTag: 'Pinterest-trafikk til arbeidsark-butikken | LessonCraftStudio',
     metaDescription: 'Bruk Pinterest til å drive gratis trafikk til Etsy-butikken med arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

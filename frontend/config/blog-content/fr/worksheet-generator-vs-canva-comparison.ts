@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode générateur',
       'astuces générateur fiches',
     ],
-    titleTag: 'Générateur de fiches vs Canva : comparaison | LCS',
+    titleTag: 'Générateur de fiches vs Canva : comparaison | LessonCraftStudio',
     metaDescription: 'Comparez les générateurs de fiches et Canva pour créer des imprimables. Vitesse, qualité et coût. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

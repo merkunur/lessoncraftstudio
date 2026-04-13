@@ -17,7 +17,7 @@ const content: BlogContent = {
       'tombola',
       'caccia al tesoro',
     ],
-    titleTag: 'Giochi da Stampare Feste di Compleanno | LCS',
+    titleTag: 'Giochi da Stampare Feste di Compleanno | LessonCraftStudio',
     metaDescription: 'Giochi da stampare per feste di compleanno bambini. Tombola, caccia al tesoro, quiz e attività di gruppo con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

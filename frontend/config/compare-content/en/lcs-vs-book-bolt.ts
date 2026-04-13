@@ -21,7 +21,7 @@ const content: CompareContent = {
       'Etsy printables tool',
       'multilingual worksheet generator',
     ],
-    titleTag: 'LessonCraftStudio vs Book Bolt for Sellers | LCS',
+    titleTag: 'LessonCraftStudio vs Book Bolt for Sellers | LessonCraftStudio',
     metaDescription: 'LessonCraftStudio vs Book Bolt for printable sellers. 33 generators vs KDP pipeline, $49 one-time vs monthly sub. See which fits your business.',
   },
 

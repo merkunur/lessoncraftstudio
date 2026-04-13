@@ -13,7 +13,7 @@ const content: BlogContent = {
       'pedagogiska printables rastaktivitet',
       'miniaktiviteter barn skriva ut',
     ],
-    titleTag: 'Sälj Hjärnpaus-Printables till Pedagoger | LCS',
+    titleTag: 'Sälj Hjärnpaus-Printables till Pedagoger | LessonCraftStudio',
     metaDescription: 'Hjärnpaus-aktiviteter som pussel och labyrint säljer bra till pedagoger och föräldrar. Skapa och sälj pausaktiviteter på Etsy.',
   },
   hero: {

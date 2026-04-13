@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ELL preposition activities',
       'ESL grammar printables sell',
     ],
-    titleTag: 'Preposition Worksheets for ESL Market | LCS',
+    titleTag: 'Preposition Worksheets for ESL Market | LessonCraftStudio',
     metaDescription: 'Preposition worksheets tap into the global ESL market. Learn how to sell spatial vocabulary printables to language learners worldwide.',
   },
   hero: {

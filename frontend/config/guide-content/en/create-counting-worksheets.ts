@@ -14,7 +14,7 @@ const content: GuideContent = {
       'early math data worksheets',
       'STEM counting printable templates',
     ],
-    titleTag: 'Create Counting Worksheets for Etsy Sellers | LCS',
+    titleTag: 'Create Counting Worksheets for Etsy Sellers | LessonCraftStudio',
     metaDescription: 'Create counting and graphing worksheets for Etsy. Auto answer keys, themed images, dual-skill format. For KDP and TPT too. Try free.',
   },
 

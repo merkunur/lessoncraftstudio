@@ -13,7 +13,7 @@ const content: BlogContent = {
       'svenska skolsystemet arbetsblad',
       'premium utskriftspaket Etsy',
     ],
-    titleTag: 'Skapa Läroplanspaket att Sälja på Etsy | LCS',
+    titleTag: 'Skapa Läroplanspaket att Sälja på Etsy | LessonCraftStudio',
     metaDescription: 'Läroplanspaket efter Lgr22 säljer för 200-500 kr. Skapa kompletta terminspaket och sälj på Etsy med högt ordervärde.',
   },
   hero: {

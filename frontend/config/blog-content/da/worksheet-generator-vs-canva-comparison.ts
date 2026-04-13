@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'arbejdsark generator vs Canva',
     secondaryKeywords: ['arbejdsark generator vs Canva Etsy', 'arbejdsark generator vs Canva online', 'arbejdsark generator vs Canva forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Generator vs. Canva: Hvad er Bedst? | LCS',
+    titleTag: 'Generator vs. Canva: Hvad er Bedst? | LessonCraftStudio',
     metaDescription: 'LessonCraftStudio-generatorer og Canva er to fundamentalt forskellige værktøjer til printable-produktion. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

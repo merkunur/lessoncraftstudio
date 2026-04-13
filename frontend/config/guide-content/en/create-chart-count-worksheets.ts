@@ -14,7 +14,7 @@ const content: GuideContent = {
       'picture graph worksheet templates',
       'early math counting activities',
     ],
-    titleTag: 'Create Counting & Graph Worksheets to Sell | LCS',
+    titleTag: 'Create Counting & Graph Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'Create picture graph worksheets that sell. Auto answer keys, themed images, STEM data skills. For Etsy, KDP, and TPT sellers. Try free.',
   },
 

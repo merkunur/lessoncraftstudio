@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'printable forretning indkomst realistisk',
     secondaryKeywords: ['printable forretning indkomst realistisk Etsy', 'printable forretning indkomst realistisk online', 'printable forretning indkomst realistisk forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Printable-Forretning: Realistiske Indkomsttal | LCS',
+    titleTag: 'Printable-Forretning: Realistiske Indkomsttal | LessonCraftStudio',
     metaDescription: 'Hvad kan du realistisk tjene med en printable-forretning i Danmark? Denne guide giver dig ærlige tal baseret på data fra rigtige sælgere — fra begynder til',
   },
   hero: {

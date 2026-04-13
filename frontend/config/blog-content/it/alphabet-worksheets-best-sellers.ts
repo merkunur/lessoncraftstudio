@@ -17,7 +17,7 @@ const content: BlogContent = {
       'prescuola',
       'scrittura',
     ],
-    titleTag: 'Schede Alfabeto da Stampare per Bambini | LCS',
+    titleTag: 'Schede Alfabeto da Stampare per Bambini | LessonCraftStudio',
     metaDescription: 'Schede dell\'alfabeto da stampare per prescuola e prima elementare. Esercizi di pregrafismo e lettere con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

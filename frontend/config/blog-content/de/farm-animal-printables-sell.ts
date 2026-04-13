@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Bauernhof Druckvorlagen Kleinkind Vorschule',
     secondaryKeywords: ['Bauernhof Arbeitsblaetter Etsy', 'Kuh Schwein Huhn Raetsel PDF', 'Bauernhoftiere Zuordnung Vorschule'],
     lsiKeywords: ['Bauernhof Wortsuche Kinder', 'Tiere auf dem Bauernhof Arbeitsblaetter', 'Landwirtschaft Material Grundschule'],
-    titleTag: 'Bauernhof-Druckvorlagen: Kleinkind-Nische | LCS',
+    titleTag: 'Bauernhof-Druckvorlagen: Kleinkind-Nische | LessonCraftStudio',
     metaDescription: 'Bauernhof-Druckvorlagen: Marktanalyse, Produkte und Strategien fuer Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und Amazon KDP.',
   },
   hero: {

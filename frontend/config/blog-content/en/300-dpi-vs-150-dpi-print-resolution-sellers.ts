@@ -13,7 +13,7 @@ const content: BlogContent = {
       'PDF export resolution settings',
       'print-ready file preparation',
     ],
-    titleTag: '300 DPI vs 150 DPI: Print Resolution Guide for Sellers | LCS',
+    titleTag: '300 DPI vs 150 DPI: Print Resolution Guide for Sellers | LessonCraftStudio',
     metaDescription: 'Understand 300 DPI vs 150 DPI for printable products. Learn KDP resolution requirements, when lower DPI is acceptable, and how to check your file quality.',
   },
   hero: {

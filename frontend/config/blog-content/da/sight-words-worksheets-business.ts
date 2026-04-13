@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'ordgenkendelse arbejdsark dansk forretning',
     secondaryKeywords: ['ordgenkendelse arbejdsark forretning Etsy', 'ordgenkendelse arbejdsark forretning online', 'ordgenkendelse arbejdsark forretning forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Ordgenkendelse-Arbejdsark: Dansk Forretning | LCS',
+    titleTag: 'Ordgenkendelse-Arbejdsark: Dansk Forretning | LessonCraftStudio',
     metaDescription: 'Ordgenkendelse-arbejdsark: en dansk forretning med lav konkurrence. Start med danske ordøvelser og sælg på Etsy & KDP med kommerciel licens.',
   },
   hero: {

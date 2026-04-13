@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant cryptogram maker',
       'try before you buy puzzle generators',
     ],
-    titleTag: 'Free Cryptogram Puzzle Maker Online | LCS',
+    titleTag: 'Free Cryptogram Puzzle Maker Online | LessonCraftStudio',
     metaDescription: 'Make cryptogram puzzles free online with watermark — no signup. Picture cipher encoding, adjustable difficulty, 11 languages. Upgrade to sell.',
   },
 

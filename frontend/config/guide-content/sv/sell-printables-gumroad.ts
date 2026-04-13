@@ -17,7 +17,7 @@ const content: GuideContent = {
       'pysselbok pusselbok arbetsblad skriva ut PDF',
       'produktpaket medlemskap prenumerationer katalogskalning',
     ],
-    titleTag: 'Sälja printables på Gumroad | LCS',
+    titleTag: 'Sälja printables på Gumroad | LessonCraftStudio',
     metaDescription: 'Sälj printables på Gumroad utan månadsavgifter. Butiksuppstart, prisstrategier, e-postmarknadsföring och direkta kundrelationer. Komplett guide för säljare.',
   },
 

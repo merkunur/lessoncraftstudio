@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Etsy listing keyword research',
       'Etsy search optimization strategy',
     ],
-    titleTag: 'Etsy SEO for Printables: Rank Higher | LCS',
+    titleTag: 'Etsy SEO for Printables: Rank Higher | LessonCraftStudio',
     metaDescription: 'Master Etsy SEO for printables. Keyword research, title formulas, tag strategies, and ranking tactics that drive organic traffic to your listings.',
   },
 

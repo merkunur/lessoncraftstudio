@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fichas colorear imprimibles tendencias',
       'coloring business saturation strategy',
     ],
-    titleTag: 'Negocio de Colorear 2026: Sigue Rentable? | LCS',
+    titleTag: 'Negocio de Colorear 2026: Sigue Rentable? | LessonCraftStudio',
     metaDescription: 'Descubra si el negocio de páginas para colorear sigue siendo rentable en 2026. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

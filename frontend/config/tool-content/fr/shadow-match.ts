@@ -20,7 +20,7 @@ const content: ToolContent = {
       'association',
       'discrimination visuelle',
     ],
-    titleTag: 'Jeu d\'ombres gratuit en ligne | LCS',
+    titleTag: 'Jeu d\'ombres gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de jeux d\'ombres gratuit — créez des fiches d\'association silhouettes en ligne, sans inscription. Corrections automatiques, PDF 300 DPI. Licence commerciale.',
   },
 

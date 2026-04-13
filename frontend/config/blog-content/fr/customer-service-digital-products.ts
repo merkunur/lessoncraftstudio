@@ -13,7 +13,7 @@ const content: BlogContent = {
       'répondre messages clients',
       'satisfaction client fiches',
     ],
-    titleTag: 'Service client pour produits numériques | LCS',
+    titleTag: 'Service client pour produits numériques | LessonCraftStudio',
     metaDescription: 'Gérez le service client de vos imprimables efficacement. Réponses types, remboursements et fidélisation client. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

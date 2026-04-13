@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant word search maker',
       'try before you buy puzzle generators',
     ],
-    titleTag: 'Free Word Search Maker with Images | LCS',
+    titleTag: 'Free Word Search Maker with Images | LessonCraftStudio',
     metaDescription: 'Make word search puzzles free online with watermark — no signup. Themed images, adjustable grids 5-30, 11 languages. Upgrade to sell.',
   },
 

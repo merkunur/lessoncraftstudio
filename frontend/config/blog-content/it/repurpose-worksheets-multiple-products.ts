@@ -17,7 +17,7 @@ const content: BlogContent = {
       'diversificare',
       'trasformare',
     ],
-    titleTag: 'Riutilizzare Schede in Più Formati | LCS',
+    titleTag: 'Riutilizzare Schede in Più Formati | LessonCraftStudio',
     metaDescription: 'Come riutilizzare le stesse schede didattiche in più formati e pacchetti. Strategia efficiente con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

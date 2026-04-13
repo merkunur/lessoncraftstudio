@@ -13,7 +13,7 @@ const content: BlogContent = {
       'générateur fiches pédagogiques',
       'vendre fiches exercices sans talent artistique',
     ],
-    titleTag: 'Vendre des imprimables sans compétences design | LCS',
+    titleTag: 'Vendre des imprimables sans compétences design | LessonCraftStudio',
     metaDescription: 'Lancez une activité d\'imprimables même sans compétences en design. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

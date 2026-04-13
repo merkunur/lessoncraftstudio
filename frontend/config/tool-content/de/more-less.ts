@@ -15,7 +15,7 @@ const content: ToolContent = {
       'gleich',
       'Mengen vergleichen',
     ],
-    titleTag: 'Kostenloser Größer-Kleiner Generator | LCS',
+    titleTag: 'Kostenloser Größer-Kleiner Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Größer-Kleiner Generator — Vergleichs-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 

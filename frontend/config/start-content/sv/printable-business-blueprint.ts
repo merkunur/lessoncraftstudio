@@ -17,7 +17,7 @@ const content: StartContent = {
       'produktlinjekarta för entreprenörer',
       'lanseringschecklista digitala produkter',
     ],
-    titleTag: 'Affärsplan för printable-verksamhet | LCS',
+    titleTag: 'Affärsplan för printable-verksamhet | LessonCraftStudio',
     metaDescription: 'Förvandla din printable-idé till en strukturerad affärsplan. Kartlägg produktlinje, välj plattform, sätt priser och lansera steg för steg.',
   },
 

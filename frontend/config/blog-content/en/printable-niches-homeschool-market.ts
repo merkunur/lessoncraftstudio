@@ -13,7 +13,7 @@ const content: BlogContent = {
       'curriculum aligned printables',
       'homeschool co-op printable demand',
     ],
-    titleTag: 'Homeschool Printable Niches: What Parents Actually Buy | LCS',
+    titleTag: 'Homeschool Printable Niches: What Parents Actually Buy | LessonCraftStudio',
     metaDescription: 'The homeschool market spends billions on educational materials. Learn which printable niches homeschool parents buy, how to position your products, and where to sell.',
   },
   hero: {

@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'arbeidsark forretning feil unngå nybegynnere',
     secondaryKeywords: ['vanlige feil arbeidsark selgere Etsy', 'unngå tabber digital produktforretning', 'nybegynnerfeil arbeidsark butikk tips'],
     lsiKeywords: ['arbeidsark selger feil starten', 'Etsy selger vanlige tabber', 'digital produkt forretning tips'],
-    titleTag: 'Arbeidsark-forretning: 10 feil du må unngå | LCS',
+    titleTag: 'Arbeidsark-forretning: 10 feil du må unngå | LessonCraftStudio',
     metaDescription: 'Unngå de 10 vanligste feilene nye arbeidsark-selgere gjør. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Grundschule 11 Sprachen Themenbilder',
       '300 DPI PDF Export Raster',
     ],
-    titleTag: 'Kreuzworträtsel erstellen | Anleitung | LCS',
+    titleTag: 'Kreuzworträtsel erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Kreuzworträtseln. Bildhinweise, Lösungsschlüssel und 11 Sprachen. Themen wählen und PDFs generieren. Kostenlos testen.',
   },
 

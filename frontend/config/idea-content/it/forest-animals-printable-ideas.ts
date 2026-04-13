@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede animali del bosco da stampare | LCS',
+    titleTag: 'Schede animali del bosco da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede sugli animali del bosco da stampare: colorare volpi e ricci, conteggio gufi, abbinamento e crucipuzzle a tema foresta per bambini 3-7 anni.',
     primaryKeyword: 'schede animali del bosco da stampare',
     secondaryKeywords: [

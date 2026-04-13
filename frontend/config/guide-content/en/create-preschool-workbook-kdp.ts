@@ -15,7 +15,7 @@ const content: GuideContent = {
       'toddler activity worksheets',
       'developmental progression workbook',
     ],
-    titleTag: 'Create a Preschool Workbook for KDP | LCS',
+    titleTag: 'Create a Preschool Workbook for KDP | LessonCraftStudio',
     metaDescription: 'Create preschool workbooks for Amazon KDP targeting ages 2-5. Tracing, matching, coloring, patterns, and big/small activities. Developmental progression guide. Try free trial.',
   },
 

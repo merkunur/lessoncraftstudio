@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Picture Sort Generator — Early Learning KDP Books | LessonCraftStudio',
-    metaDescription: 'Create picture sorting activity books for KDP and Etsy. Unique classification format, 3,000+ themes, bulk generate. Commercial license. Try free trial.',
+    titleTag: 'Picture Sort Worksheet Generator — Preschool KDP Activity Pages | LessonCraftStudio',
+    metaDescription: 'Create sorting and categorizing worksheets for KDP preschool books. Themed images, multiple sort modes, auto answer keys. Commercial license included. Try free.',
   },
 
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'estrategia precios fichas',
       'descarga digital Etsy matemáticas',
     ],
-    titleTag: 'Vender Fichas de Suma en Etsy: Guía | LCS',
+    titleTag: 'Vender Fichas de Suma en Etsy: Guía | LessonCraftStudio',
     metaDescription: 'Aprenda a vender fichas de suma en Etsy de forma rentable. Estrategias de precios, paquetes y listados que funcionan en 2026. Prueba gratuita.',
   },
   hero: {

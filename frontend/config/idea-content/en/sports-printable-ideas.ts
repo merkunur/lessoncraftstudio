@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Sports Printable Business Ideas | LCS',
+    titleTag: 'Sports Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Sports printable business ideas for Etsy & KDP. Athletic themed product concepts and strategies for sports-themed printable sellers.',
 
     primaryKeyword: 'sports printable business ideas',

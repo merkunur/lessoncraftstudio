@@ -14,7 +14,7 @@ const content: GuideContent = {
       'fine motor skills printables',
       'art tracing activity templates',
     ],
-    titleTag: 'Create Drawing & Tracing Worksheets to Sell | LCS',
+    titleTag: 'Create Drawing & Tracing Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'Create drawing and tracing worksheets that sell. Grid art, symmetry modes, B&W outlines. Guide for Etsy, KDP, and TPT sellers. Try free.',
   },
 

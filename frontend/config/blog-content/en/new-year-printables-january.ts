@@ -13,7 +13,7 @@ const content: BlogContent = {
       'january classroom printables sell',
       'winter break activity printables profit',
     ],
-    titleTag: 'New Year Printables & Resolution Worksheets to Sell | LCS',
+    titleTag: 'New Year Printables & Resolution Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'New Year printables sell in January when parents and teachers want fresh-start activities. Learn which products convert in this short window.',
   },
   hero: {

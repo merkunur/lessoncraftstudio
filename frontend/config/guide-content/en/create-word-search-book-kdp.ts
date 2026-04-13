@@ -15,7 +15,7 @@ const content: GuideContent = {
       'themed word search collection',
       'answer key formatting',
     ],
-    titleTag: 'Create a Word Search Book for KDP | LCS',
+    titleTag: 'Create a Word Search Book for KDP | LessonCraftStudio',
     metaDescription: 'Step-by-step guide to creating a word search puzzle book for Amazon KDP. Trim sizes, grid configurations, themed collections, answer keys, and cover design. Try free trial.',
   },
 

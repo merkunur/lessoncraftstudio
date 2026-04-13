@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode conseils',
       'astuces conseils design',
     ],
-    titleTag: 'Conseils design pour vendre plus de fiches | LCS',
+    titleTag: 'Conseils design pour vendre plus de fiches | LessonCraftStudio',
     metaDescription: 'Améliorez le design de vos fiches pour augmenter vos ventes. Astuces de mise en page et d\'attrait visuel. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

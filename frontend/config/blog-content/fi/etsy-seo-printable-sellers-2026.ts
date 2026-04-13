@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tunnisteet optimointi Etsy',
       'konversioprosentti ja SEO Etsy',
     ],
-    titleTag: 'Etsy-SEO tulostemyyjille | LCS',
+    titleTag: 'Etsy-SEO tulostemyyjille | LessonCraftStudio',
     metaDescription: 'Optimoi Etsy-SEO tulosteille: avainsanat ja tunnisteet. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

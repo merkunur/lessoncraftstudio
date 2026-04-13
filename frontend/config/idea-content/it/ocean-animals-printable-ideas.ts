@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede animali marini da stampare | LCS',
+    titleTag: 'Schede animali marini da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede sugli animali marini da stampare: colorare pesci e delfini, conteggio creature marine, crucipuzzle oceano e abbinamento per bambini 3-8 anni.',
     primaryKeyword: 'schede animali marini da stampare',
     secondaryKeywords: [

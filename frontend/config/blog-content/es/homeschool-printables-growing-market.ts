@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles educacion fichas', 'vender imprimibles imprimibles', 'casa homeschool educativos'],
-    titleTag: 'Imprimibles para Educacion en Casa | LCS',
+    titleTag: 'Imprimibles para Educacion en Casa | LessonCraftStudio',
     metaDescription: 'La educacion en casa (homeschool) crece a tasas de dos digitos en Mexico, Colombia, Argentina y otros paises. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

@@ -15,7 +15,7 @@ const content: StartContent = {
       'Datenschutz',
       'Steuerpflicht',
     ],
-    titleTag: 'Rechtliches für Druckvorlagen-Business | LCS',
+    titleTag: 'Rechtliches für Druckvorlagen-Business | LessonCraftStudio',
     metaDescription: 'Rechtliche Grundlagen für Ihr Druckvorlagen-Business: Gewerbeanmeldung, Steuern, AGB und Datenschutz für Etsy und eigene Shops.',
   },
 

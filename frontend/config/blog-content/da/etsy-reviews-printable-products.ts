@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy anmeldelser printable produkter',
     secondaryKeywords: ['Etsy anmeldelser printable produkter Etsy', 'Etsy anmeldelser printable produkter online', 'Etsy anmeldelser printable produkter forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Etsy-Anmeldelser: Guide for Printable-Sælgere | LCS',
+    titleTag: 'Etsy-Anmeldelser: Guide for Printable-Sælgere | LessonCraftStudio',
     metaDescription: 'Anmeldelser er den stærkeste sociale bevisform på Etsy. Produkter med 10+ positive anmeldelser konverterer 3-5x bedre end produkter uden anmeldelser. Denne',
   },
   hero: {

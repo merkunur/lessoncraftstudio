@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'STEM-Bildungsthema Weltraum Druckvorlagen',
       'ganzjährige Raumfahrt-Nische Etsy-Shop',
     ],
-    titleTag: 'Weltraum-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Weltraum-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Weltraum-Druckvorlagen als profitable Etsy-Nische entdecken. Planeten, Raketen und Astronauten als ganzjähriges STEM-Thema — Produktideen und Strategien für Shops.',
   },
   hero: {

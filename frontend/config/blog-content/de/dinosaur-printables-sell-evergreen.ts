@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Dinosaurier Druckvorlagen Evergreen Bestseller',
     secondaryKeywords: ['Dino Arbeitsblaetter Etsy', 'Dinosaurier Raetsel Kinder PDF', 'T-Rex Wortsuche verkaufen'],
     lsiKeywords: ['Dinosaurier Wortsuche Grundschule', 'Dino-Mathe Arbeitsblaetter', 'Urzeit Lernmaterial Kinder'],
-    titleTag: 'Dinosaurier-Druckvorlagen: Immergruener Bestseller | LCS',
+    titleTag: 'Dinosaurier-Druckvorlagen: Immergruener Bestseller | LessonCraftStudio',
     metaDescription: 'Dinosaurier-Druckvorlagen: Marktanalyse, Produkte und Strategien fuer Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und Amazon KDP.',
   },
   hero: {

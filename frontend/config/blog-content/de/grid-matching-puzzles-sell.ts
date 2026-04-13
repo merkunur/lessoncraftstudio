@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Koordinaten Raetsel Grundschule',
       'Raster-Zuordnung Arbeitsblatt PDF',
     ],
-    titleTag: 'Gitter-Zuordnungsraetsel: Einzigartige Produkte | LCS',
+    titleTag: 'Gitter-Zuordnungsraetsel: Einzigartige Produkte | LessonCraftStudio',
     metaDescription: 'Warum Gitter-Zuordnungsraetsel auf Etsy.de kaum Konkurrenz haben. Erstellung, Zielgruppen und Verkaufsstrategien fuer einzigartige Druckvorlagen.',
   },
   hero: {

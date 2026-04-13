@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'halloween printables sælg oktober',
     secondaryKeywords: ['halloween printables sælg oktober Etsy', 'halloween printables sælg oktober online', 'halloween printables sælg oktober forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Halloween-Printables: Maksimér Oktober-Salg | LCS',
+    titleTag: 'Halloween-Printables: Maksimér Oktober-Salg | LessonCraftStudio',
     metaDescription: 'Halloween er den næststørste sæson for printable-sælgere efter jul. I Danmark er halloween vokset massivt i popularitet, og danske forældre køber aktivt ha',
   },
   hero: {

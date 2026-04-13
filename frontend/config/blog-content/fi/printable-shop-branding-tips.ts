@@ -13,7 +13,7 @@ const content: BlogContent = {
       'väripaletti tulostekauppa',
       'yhtenäinen tuoteilme Etsy',
     ],
-    titleTag: 'Tulostekaupan brändäysvinkit | LCS',
+    titleTag: 'Tulostekaupan brändäysvinkit | LessonCraftStudio',
     metaDescription: 'Rakenna tunnistettava brändi tulostekaupallesi. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

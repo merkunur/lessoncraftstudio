@@ -14,7 +14,7 @@ const content: GuideContent = {
       'directional reasoning printable products',
       'coordinate grid activity business',
     ],
-    titleTag: 'Create Treasure Hunt Worksheets to Sell | LCS',
+    titleTag: 'Create Treasure Hunt Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'Create treasure hunt worksheets that sell. Directional puzzles, coordinate grids, 11 languages. Build products for Etsy, KDP, and TPT.',
   },
 

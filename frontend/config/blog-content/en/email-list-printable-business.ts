@@ -13,7 +13,7 @@ const content: BlogContent = {
       'email newsletter digital product seller',
       'email marketing ROI printables',
     ],
-    titleTag: 'Build an Email List for Your Printable Business | LCS',
+    titleTag: 'Build an Email List for Your Printable Business | LessonCraftStudio',
     metaDescription: 'How to build an email list for your printable business. Lead magnets, opt-in strategies, and email sequences that turn subscribers into repeat buyers.',
   },
   hero: {

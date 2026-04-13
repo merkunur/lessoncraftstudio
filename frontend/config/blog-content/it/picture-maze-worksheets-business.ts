@@ -17,7 +17,7 @@ const content: BlogContent = {
       'divertente',
       'motricità',
     ],
-    titleTag: 'Labirinti con Immagini da Stampare | LCS',
+    titleTag: 'Labirinti con Immagini da Stampare | LessonCraftStudio',
     metaDescription: 'Labirinti con immagini da stampare per bambini. Percorsi illustrati e divertenti per scuola dell\'infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'März-Mai saisonale Nachfrage Frühling',
       'Natur-Thema Frühjahrssaison Druckvorlagen',
     ],
-    titleTag: 'Frühlings-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Frühlings-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Frühlings-Druckvorlagen als profitable Etsy-Nische entdecken. Saisonale Produktkonzepte von März bis Mai — Blumen, Schmetterlinge und Gartenthemen für Ihren Shop.',
   },
   hero: {

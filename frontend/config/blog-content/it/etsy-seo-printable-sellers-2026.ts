@@ -17,7 +17,7 @@ const content: BlogContent = {
       'algoritmo',
       'ranking',
     ],
-    titleTag: 'SEO Schede Didattiche su Etsy 2026 | LCS',
+    titleTag: 'SEO Schede Didattiche su Etsy 2026 | LessonCraftStudio',
     metaDescription: 'Strategie SEO aggiornate al 2026 per schede didattiche su Etsy. Posizionamento e visibilità con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

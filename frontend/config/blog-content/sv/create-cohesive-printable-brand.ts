@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kundlojalitet printable business',
       'professionell utskriftsverksamhet',
     ],
-    titleTag: 'Bygg Varumärke för Din Printable-Butik | LCS',
+    titleTag: 'Bygg Varumärke för Din Printable-Butik | LessonCraftStudio',
     metaDescription: 'Bygg ett igenkännbart varumärke för din printable-butik på Etsy. Visuell identitet och konsekvent design som skapar återkommande kunder.',
   },
   hero: {

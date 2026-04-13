@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'bogstavmix bogstaverne printables forretningsguide',
     secondaryKeywords: ['bogstavmix printables forretning Etsy', 'bogstavmix printables forretning online', 'bogstavmix printables forretning forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Bogstavmix-Printables: Forretningsguide | LCS',
+    titleTag: 'Bogstavmix-Printables: Forretningsguide | LessonCraftStudio',
     metaDescription: 'Bogstavmix (word scramble) er et populært ordpuslespilformat, hvor bogstaverne i et ord er blandet, og barnet skal. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

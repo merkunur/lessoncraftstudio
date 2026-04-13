@@ -13,7 +13,7 @@ const content: BlogContent = {
       'marges intérieures livre activités',
       'couverture cahier exercices Amazon',
     ],
-    titleTag: 'Formater un cahier d\'activités pour KDP Amazon | LCS',
+    titleTag: 'Formater un cahier d\'activités pour KDP Amazon | LessonCraftStudio',
     metaDescription: 'Guide complet pour formater votre cahier d\'activités pour Amazon KDP. Dimensions, marges, couverture et soumission étape par étape.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'sydänteema tulostettavia',
       'helmikuun sesonkimyynti tulosteet',
     ],
-    titleTag: 'Ystävänpäivätulosteet myyntiin | LCS',
+    titleTag: 'Ystävänpäivätulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy ystävänpäivätulosteita helmikuun sesonkiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

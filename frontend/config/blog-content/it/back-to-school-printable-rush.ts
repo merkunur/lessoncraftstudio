@@ -17,7 +17,7 @@ const content: BlogContent = {
       'inizio anno',
       'primo giorno',
     ],
-    titleTag: 'Schede Rientro a Scuola Settembre | LCS',
+    titleTag: 'Schede Rientro a Scuola Settembre | LessonCraftStudio',
     metaDescription: 'Schede per il rientro a scuola di settembre da stampare per bambini. Attività di accoglienza e ripasso per la scuola primaria con LessonCraftStudio.',
   },
   hero: {

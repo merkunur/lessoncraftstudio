@@ -13,7 +13,7 @@ const content: BlogContent = {
       'jeux de société imprimables vendre',
       'bingo personnalisé événements',
     ],
-    titleTag: 'Cartes bingo imprimables : de la classe à la fête | LCS',
+    titleTag: 'Cartes bingo imprimables : de la classe à la fête | LessonCraftStudio',
     metaDescription: 'Les cartes de bingo imprimables se vendent pour l\'éducation et les événements. De la classe à la fête, exploitez ce marché double en 2026.',
   },
   hero: {

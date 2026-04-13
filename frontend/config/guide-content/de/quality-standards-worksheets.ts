@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Farbkonsistenz Lösungsschlüssel Genauigkeit Dateiformat',
       'Produktionscheckliste Käufervertrauen Drucktest',
     ],
-    titleTag: 'Qualitätsstandards für Arbeitsblätter | LCS',
+    titleTag: 'Qualitätsstandards für Arbeitsblätter | LessonCraftStudio',
     metaDescription: 'Qualitätsstandards für Arbeitsblätter: Auflösung, Seitenränder, Typografie, Lösungsschlüssel und Drucktests, die professionelle Printable-Produkte auszeichnen.',
   },
 

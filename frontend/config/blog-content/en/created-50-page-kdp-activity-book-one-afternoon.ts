@@ -13,7 +13,7 @@ const content: BlogContent = {
       'KDP publishing workflow',
       'worksheet generator book creation',
     ],
-    titleTag: 'How to Create a 50-Page KDP Activity Book in One Afternoon | LCS',
+    titleTag: 'How to Create a 50-Page KDP Activity Book in One Afternoon | LessonCraftStudio',
     metaDescription: 'A hypothetical walkthrough of creating a complete 50-page KDP activity book in a single afternoon using worksheet generators. Step-by-step process and time breakdown.',
   },
   hero: {

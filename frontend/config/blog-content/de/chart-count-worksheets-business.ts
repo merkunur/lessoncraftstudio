@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Zaehlen und Darstellen Arbeitsblaetter',
       'Strichlisten Arbeitsblaetter PDF',
     ],
-    titleTag: 'Diagramm- und Zaehl-Arbeitsblaetter als Geschaeft | LCS',
+    titleTag: 'Diagramm- und Zaehl-Arbeitsblaetter als Geschaeft | LessonCraftStudio',
     metaDescription: 'Wie Sie mit Diagramm- und Zaehl-Arbeitsblaettern ein profitables Geschaeft aufbauen. Nische, Preise und Strategien fuer Etsy.de und Eduki.',
   },
   hero: {

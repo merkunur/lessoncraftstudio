@@ -14,7 +14,7 @@ const content: GuideContent = {
       'alternative printable selling platforms',
       'CF subscription model for sellers',
     ],
-    titleTag: 'Sell Printables on Creative Fabrica | LCS',
+    titleTag: 'Sell Printables on Creative Fabrica | LessonCraftStudio',
     metaDescription: 'Sell printables on Creative Fabrica. Platform setup, pricing, product listing strategy, and how CF compares to Etsy for printable sellers.',
   },
 

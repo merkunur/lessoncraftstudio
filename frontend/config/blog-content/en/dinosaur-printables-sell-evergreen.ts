@@ -13,7 +13,7 @@ const content: BlogContent = {
       'prehistoric animal printables market',
       'dinosaur themed learning activities',
     ],
-    titleTag: 'Dinosaur Printables: Evergreen Best Seller | LCS',
+    titleTag: 'Dinosaur Printables: Evergreen Best Seller | LessonCraftStudio',
     metaDescription: 'Dinosaur printables are an evergreen best seller for kids. Learn why dinos outsell most themes, which products convert, and how to build your lineup.',
   },
   hero: {

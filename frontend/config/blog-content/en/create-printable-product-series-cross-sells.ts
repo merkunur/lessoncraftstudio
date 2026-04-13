@@ -13,7 +13,7 @@ const content: BlogContent = {
       'repeat customer strategy',
       'digital product upselling',
     ],
-    titleTag: 'How to Build Printable Product Series That Cross-Sell | LCS',
+    titleTag: 'How to Build Printable Product Series That Cross-Sell | LessonCraftStudio',
     metaDescription: 'Learn to create printable product series that naturally cross-sell. Themed sets, difficulty progressions, and bundle strategies that multiply your revenue per buyer.',
   },
   hero: {

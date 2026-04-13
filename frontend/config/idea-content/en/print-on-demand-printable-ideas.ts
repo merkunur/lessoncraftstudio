@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Print on Demand Worksheet Business | LCS',
+    titleTag: 'Print on Demand Worksheet Business | LessonCraftStudio',
     metaDescription: 'Print on demand worksheet business ideas. POD models, platforms, and strategies for selling physical printed worksheet products.',
 
     primaryKeyword: 'print on demand worksheet business',

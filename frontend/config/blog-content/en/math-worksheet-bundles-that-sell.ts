@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Etsy math listing optimization',
       'worksheet packaging strategy',
     ],
-    titleTag: 'Math Worksheet Bundles That Sell | LCS',
+    titleTag: 'Math Worksheet Bundles That Sell | LessonCraftStudio',
     metaDescription: 'Learn which math worksheet bundles sell best on Etsy. Pricing, packaging, and listing strategies from sellers earning $500+/month from math bundles.',
   },
   hero: {

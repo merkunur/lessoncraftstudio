@@ -13,7 +13,7 @@ const content: BlogContent = {
       'etsintätehtävät lapsille',
       'visuaalinen hahmotus tehtävät',
     ],
-    titleTag: 'Piilokuva-tehtävät liiketoimintana | LCS',
+    titleTag: 'Piilokuva-tehtävät liiketoimintana | LessonCraftStudio',
     metaDescription: 'Rakenna liiketoiminta piilokuvatehtävillä — kilpailuton niche. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

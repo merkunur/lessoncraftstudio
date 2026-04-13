@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Lückentext Multiple Choice Themenbilder',
       'räumliche Sprache 300 DPI PDF',
     ],
-    titleTag: 'Präpositionen-Arbeitsblätter erstellen | Anleitung | LCS',
+    titleTag: 'Präpositionen-Arbeitsblätter erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Präpositionen-Arbeitsblättern. Lückentext, Multiple Choice und Formaustausch-Modi. Kostenlos testen.',
   },
 

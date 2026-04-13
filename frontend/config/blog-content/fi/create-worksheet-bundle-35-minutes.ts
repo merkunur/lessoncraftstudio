@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Etsy-paketti lanseeraus',
       'tulostepaketin sisältösuunnitelma',
     ],
-    titleTag: 'Tee tehtäväpaketti 35 minuutissa | LCS',
+    titleTag: 'Tee tehtäväpaketti 35 minuutissa | LessonCraftStudio',
     metaDescription: 'Luo tulostettava tehtäväpaketti 35 minuutissa vaihe vaiheelta. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

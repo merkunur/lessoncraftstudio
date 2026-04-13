@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Naturthema Wald Druckvorlagen ganzjährig',
       'Waldtiere Lebensraum Nische Etsy-Shop',
     ],
-    titleTag: 'Waldtiere-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Waldtiere-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Waldtiere-Druckvorlagen als profitable Etsy-Nische entdecken. Bären, Füchse und Eulen als Evergreen-Thema — Produktideen und Wettbewerbsanalyse für Ihren Shop.',
   },
   hero: {

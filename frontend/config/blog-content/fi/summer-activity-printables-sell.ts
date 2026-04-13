@@ -13,7 +13,7 @@ const content: BlogContent = {
       'oppimiskato ehkäisy tulosteet',
       'ulkoaktiviteetit tulostettavia',
     ],
-    titleTag: 'Kesäaktiviteettitulosteet myyntiin | LCS',
+    titleTag: 'Kesäaktiviteettitulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy kesäaktiviteetti-tulosteita lomakauden kysyntään. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

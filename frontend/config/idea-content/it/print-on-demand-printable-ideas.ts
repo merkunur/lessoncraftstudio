@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Quaderni di attività stampabili per bambini | LCS',
+    titleTag: 'Quaderni di attività stampabili per bambini | LessonCraftStudio',
     metaDescription: 'Crea quaderni di attività stampabili per bambini: libri di esercizi, puzzle e schede rilegabili. Formati pronti per la stampa su richiesta e Amazon KDP.',
     primaryKeyword: 'quaderni di attività stampabili per bambini',
     secondaryKeywords: [

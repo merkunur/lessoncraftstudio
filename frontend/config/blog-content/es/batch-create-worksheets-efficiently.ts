@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'crear fichas en lote eficientemente',
     secondaryKeywords: ['crear fichas en lote eficientemente paso a paso', 'crear fichas en lote eficientemente tutorial', 'crear fichas en lote eficientemente guia practica'],
     lsiKeywords: ['crear fichas en tips', 'como crear fichas', 'lote eficientemente facil'],
-    titleTag: 'Crear Fichas en Lote Eficientemente | LCS',
+    titleTag: 'Crear Fichas en Lote Eficientemente | LessonCraftStudio',
     metaDescription: 'La creacion en lote es la estrategia de produccion mas eficiente para vendedores de imprimibles. En lugar de crear un producto completo de principio a fin,',
   },
   hero: {

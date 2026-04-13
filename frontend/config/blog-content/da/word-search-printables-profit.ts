@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ordsøgning KDP bog niche',
       'ordsøgning generator forretning',
     ],
-    titleTag: 'Ordsøgning-Printables med Fortjeneste | LCS',
+    titleTag: 'Ordsøgning-Printables med Fortjeneste | LessonCraftStudio',
     metaDescription: 'Ordsøgning-puslespil sælger hele året på Etsy og KDP. Lær at oprette temabaserede ordsøgninger og opbygge en profitabel printable-forretning.',
   },
   hero: {

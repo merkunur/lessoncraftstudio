@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'fichas más menos matemáticas tempranas 2026',
     secondaryKeywords: ['vender fichas más menos Etsy preescolar', 'more less worksheets sell early math', 'fichas comparación numérica negocio'],
     lsiKeywords: ['fichas mayor menor preescolar', 'imprimibles comparar cantidades niños', 'more less equal worksheets business'],
-    titleTag: 'Fichas Más o Menos: Nicho Matemáticas Tempranas | LCS',
+    titleTag: 'Fichas Más o Menos: Nicho Matemáticas Tempranas | LessonCraftStudio',
     metaDescription: 'Las fichas de más o menos son el puente entre contar y calcular. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

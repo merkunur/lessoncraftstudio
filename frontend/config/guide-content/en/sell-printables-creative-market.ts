@@ -15,7 +15,7 @@ const content: GuideContent = {
       'graphic design audience worksheets',
       'premium printable marketplace',
     ],
-    titleTag: 'Sell Printables on Creative Market | LCS',
+    titleTag: 'Sell Printables on Creative Market | LessonCraftStudio',
     metaDescription: 'Sell printable worksheets on Creative Market. Design-focused audience, higher price points, shop setup guide, category strategy. Step-by-step seller guide. Try free trial.',
   },
 

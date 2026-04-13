@@ -13,7 +13,7 @@ const content: BlogContent = {
       'visual completion worksheets',
       'pattern completion activities',
     ],
-    titleTag: 'Missing Pieces Puzzles for KDP Books | LCS',
+    titleTag: 'Missing Pieces Puzzles for KDP Books | LessonCraftStudio',
     metaDescription: 'Missing pieces puzzles are perfect for KDP activity books. Learn how to create, format, and publish these engaging visual puzzles for passive royalties.',
   },
   hero: {

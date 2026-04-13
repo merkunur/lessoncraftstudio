@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Grundschul-Material Nachfrage',
       'Arbeitsblaetter Klasse 1 2 3 4',
     ],
-    titleTag: 'Grundschul-Arbeitsblaetter-Markt: Wie gross ist er? | LCS',
+    titleTag: 'Grundschul-Arbeitsblaetter-Markt: Wie gross ist er? | LessonCraftStudio',
     metaDescription: 'Wie gross ist der Markt fuer Grundschul-Arbeitsblaetter? Zahlen, Trends und Chancen fuer Druckvorlagen-Verkaeufer im DACH-Raum 2026.',
   },
   hero: {

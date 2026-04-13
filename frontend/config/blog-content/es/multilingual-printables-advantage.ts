@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'ventaja imprimibles multilingues vender multiples idiomas',
     secondaryKeywords: ['vender imprimibles en varios idiomas', 'multiplicar ventas imprimibles idiomas', 'imprimibles 11 idiomas negocio'],
     lsiKeywords: ['mercado multilingue imprimibles', 'fichas educativas multiples idiomas', 'internacionalizar imprimibles'],
-    titleTag: 'La Ventaja de Imprimibles Multilingues | LCS',
+    titleTag: 'La Ventaja de Imprimibles Multilingues | LessonCraftStudio',
     metaDescription: 'Como multiplicar sus ingresos vendiendo imprimibles en multiples idiomas. Acceda a mercados globales con el mismo contenido en 11 idiomas.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Kontrollkarte Rastergrößen druckfertig',
       'Party-Bingo 300 DPI PDF',
     ],
-    titleTag: 'Bingo-Karten erstellen | Anleitung | LCS',
+    titleTag: 'Bingo-Karten erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Bingo-Karten. Rastergrößen wählen, einzigartige Karten mit Kontrollkarten generieren. Kostenlos testen.',
   },
 

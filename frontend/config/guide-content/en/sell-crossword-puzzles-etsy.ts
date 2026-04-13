@@ -15,7 +15,7 @@ const content: GuideContent = {
       'digital download puzzle',
       'etsy printable puzzles',
     ],
-    titleTag: 'Sell Crossword Puzzles on Etsy | LCS',
+    titleTag: 'Sell Crossword Puzzles on Etsy | LessonCraftStudio',
     metaDescription: 'Complete guide to selling picture crossword puzzles on Etsy. Image-clue crosswords, seasonal themes, bundle strategy, 11 languages. Try free trial with watermark.',
   },
 

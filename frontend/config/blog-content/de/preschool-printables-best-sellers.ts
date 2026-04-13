@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Vorschulkinder Lernmaterial verkaufen',
       'Kindergarten Arbeitsblaetter druckbar',
     ],
-    titleTag: 'Vorschul-Druckvorlagen: Die Bestseller auf Etsy | LCS',
+    titleTag: 'Vorschul-Druckvorlagen: Die Bestseller auf Etsy | LessonCraftStudio',
     metaDescription: 'Welche Vorschul-Druckvorlagen sind 2026 Bestseller auf Etsy.de? Schwunguebungen, Zuordnungsspiele und Vorschul-Mathe. Marktanalyse und Produktideen.',
   },
   hero: {

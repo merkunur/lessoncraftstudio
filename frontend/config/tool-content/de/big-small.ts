@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'Größenordnung',
       'Sortieren nach Größe',
     ],
-    titleTag: 'Kostenloser Größenvergleich-Generator | LCS',
+    titleTag: 'Kostenloser Größenvergleich-Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Größenvergleich-Generator — Groß-und-Klein-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
     },
 

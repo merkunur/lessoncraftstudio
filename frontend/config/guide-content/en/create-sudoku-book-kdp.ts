@@ -15,7 +15,7 @@ const content: GuideContent = {
       'difficulty progression puzzles',
       'themed sudoku collection',
     ],
-    titleTag: 'Create a Sudoku Book for Amazon KDP | LCS',
+    titleTag: 'Create a Sudoku Book for Amazon KDP | LessonCraftStudio',
     metaDescription: 'Create picture sudoku puzzle books for Amazon KDP. 4x4 image grids, difficulty progression, themed collections, manuscript formatting. Step-by-step KDP workflow. Try free trial.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'non-English printable demand',
       'multilingual worksheet sales',
     ],
-    titleTag: 'How Multi-Language Printables Could Double Your Revenue | LCS',
+    titleTag: 'How Multi-Language Printables Could Double Your Revenue | LessonCraftStudio',
     metaDescription: 'A hypothetical case study on expanding from English-only to multi-language printables. Marketplace data shows dramatically less competition in non-English markets.',
   },
   hero: {

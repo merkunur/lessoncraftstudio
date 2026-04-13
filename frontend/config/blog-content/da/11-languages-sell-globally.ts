@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'flersprogede printables sælg globalt',
     secondaryKeywords: ['sælg arbejdsark 11 sprog', 'flersproget printbar forretning', 'global printable salg strategi'],
     lsiKeywords: ['international printbar marked', 'oversæt arbejdsark sælg', 'sprog printable indtægt'],
-    titleTag: '11 Sprog: Sælg Printables Globalt | LCS',
+    titleTag: '11 Sprog: Sælg Printables Globalt | LessonCraftStudio',
     metaDescription: 'Med arbejdsark på 11 sprog kan du nå globale markeder. Lær at sælge flersprogede printables og multiplicere din indtægt uden ekstra designarbejde.',
   },
   hero: {

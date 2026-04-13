@@ -9,7 +9,7 @@ const content: BlogContent = {
       'fruehling ganzjaehrigen natur sortiment',
     ],
     lsiKeywords: ['Fruehling Wortsuche PDF', 'Garten Arbeitsblaetter Grundschule', 'Fruehlingstiere Raetsel Kinder'],
-    titleTag: 'Fruehlings-Druckvorlagen: Maerz/April-Hits | LCS',
+    titleTag: 'Fruehlings-Druckvorlagen: Maerz/April-Hits | LessonCraftStudio',
     metaDescription: 'Fruehlings-Druckvorlagen: Marktanalyse, Produkte und Strategien fuer Druckvorlagen-Verkaeufer im DACH-Raum. Profitabel auf Etsy.de und KDP.',
   },
   hero: {

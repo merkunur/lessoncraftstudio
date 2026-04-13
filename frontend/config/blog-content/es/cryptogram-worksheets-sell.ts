@@ -13,7 +13,7 @@ const content: BlogContent = {
       'criptogramas vocabulario educativo',
       'nicho premium imprimibles puzzles',
     ],
-    titleTag: 'Fichas Criptogramas: Nicho Premium Etsy | LCS',
+    titleTag: 'Fichas Criptogramas: Nicho Premium Etsy | LessonCraftStudio',
     metaDescription: 'Los criptogramas son un nicho premium con poca competencia en Etsy. Aprenda a crear y vender este producto de alto valor.',
   },
   hero: {

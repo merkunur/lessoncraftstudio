@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kindergarten literacy printables market',
       'K-1 worksheets business opportunity',
     ],
-    titleTag: 'Kindergarten Worksheets Market on Etsy (2026) | LCS',
+    titleTag: 'Kindergarten Worksheets Market on Etsy (2026) | LessonCraftStudio',
     metaDescription: 'The kindergarten worksheet market is worth millions on Etsy. Discover market size, top products, pricing, and how to compete in this niche.',
   },
   hero: {

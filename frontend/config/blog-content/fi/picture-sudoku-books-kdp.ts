@@ -13,7 +13,7 @@ const content: BlogContent = {
       'esikoululaisten sudoku',
       'pulmakirjat pienille lapsille',
     ],
-    titleTag: 'Kuvasudokukirjat KDP:ssä | LCS',
+    titleTag: 'Kuvasudokukirjat KDP:ssä | LessonCraftStudio',
     metaDescription: 'Julkaise kuvasudokukirjoja Amazon KDP:ssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

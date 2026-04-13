@@ -13,7 +13,7 @@ const content: BlogContent = {
       'treasure hunt clues printable',
       'kids scavenger hunt activities',
     ],
-    titleTag: 'Treasure Hunt Printables: Party Market | LCS',
+    titleTag: 'Treasure Hunt Printables: Party Market | LessonCraftStudio',
     metaDescription: 'Treasure hunt printables tap into the birthday party market. Learn how to create and sell themed scavenger hunt activities for events and celebrations.',
   },
   hero: {

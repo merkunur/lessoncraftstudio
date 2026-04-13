@@ -13,7 +13,7 @@ const content: BlogContent = {
       'language learning printables revenue',
       'English learner worksheets sell',
     ],
-    titleTag: 'How to Make Preposition Worksheets for ESL Markets | LCS',
+    titleTag: 'How to Make Preposition Worksheets for ESL Markets | LessonCraftStudio',
     metaDescription: 'Create and sell preposition worksheets for the growing ESL market. Multi-language support, visual learning aids, and listing strategies for global buyers.',
   },
   hero: {

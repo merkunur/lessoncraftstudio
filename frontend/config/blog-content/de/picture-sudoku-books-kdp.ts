@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Bilder-Sudoku Kinder KDP ohne Konkurrenz',
     secondaryKeywords: ['Bilder-Sudoku Buch Amazon KDP', 'Kinder Sudoku Buch erstellen', 'Bildersudoku Druckvorlagen verkaufen'],
     lsiKeywords: ['Sudoku mit Bildern Kinder', 'Logikraetsel Kinder Buch', 'Raetselbuch Vorschule KDP'],
-    titleTag: 'Bilder-Sudoku fuer Kinder: KDP ohne Konkurrenz | LCS',
+    titleTag: 'Bilder-Sudoku fuer Kinder: KDP ohne Konkurrenz | LessonCraftStudio',
     metaDescription: 'Bilder-Sudoku fuer Kinder ist eine nahezu leere KDP-Nische auf Amazon.de. So erstellen und veroeffentlichen Sie Ihr erstes Buch.',
   },
   hero: {

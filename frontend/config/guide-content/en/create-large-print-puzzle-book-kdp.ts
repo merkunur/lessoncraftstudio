@@ -15,7 +15,7 @@ const content: GuideContent = {
       'KDP accessibility niche',
       'oversized grid puzzles',
     ],
-    titleTag: 'Create Large Print Puzzle Books for KDP | LCS',
+    titleTag: 'Create Large Print Puzzle Books for KDP | LessonCraftStudio',
     metaDescription: 'Create professional large print puzzle books for Amazon KDP. Bigger grids, larger fonts, fewer items per page. High-demand seniors market. Step-by-step workflow. Try free trial.',
   },
 

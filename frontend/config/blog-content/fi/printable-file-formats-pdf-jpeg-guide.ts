@@ -13,7 +13,7 @@ const content: BlogContent = {
       'väriprofiili CMYK RGB',
       'tulostuslaatu tiedostomuoto',
     ],
-    titleTag: 'Tulosteiden tiedostomuodot: opas | LCS',
+    titleTag: 'Tulosteiden tiedostomuodot: opas | LessonCraftStudio',
     metaDescription: 'Valitse oikea tiedostomuoto tulostettaville tuotteille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

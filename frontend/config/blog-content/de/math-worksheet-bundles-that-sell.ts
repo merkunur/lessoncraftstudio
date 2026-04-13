@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Mathe Uebungshefte Grundschule',
       'Produktbuendel Preisgestaltung',
     ],
-    titleTag: 'Mathe-Arbeitsblaetter-Pakete die sich verkaufen | LCS',
+    titleTag: 'Mathe-Arbeitsblaetter-Pakete die sich verkaufen | LessonCraftStudio',
     metaDescription: 'Erfahren Sie, welche Mathe-Arbeitsblatt-Bundles sich auf Etsy.de am besten verkaufen. Zusammenstellung, Preise und Strategien fuer maximalen Umsatz.',
   },
   hero: {

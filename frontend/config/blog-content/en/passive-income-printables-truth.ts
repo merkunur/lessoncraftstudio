@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digital product income effort',
       'realistic passive income printables',
     ],
-    titleTag: 'Passive Income From Printables: The Truth | LCS',
+    titleTag: 'Passive Income From Printables: The Truth | LessonCraftStudio',
     metaDescription: 'Is passive income from printables real? The honest truth about how much work is involved and when a printable business becomes semi-passive.',
   },
   hero: {

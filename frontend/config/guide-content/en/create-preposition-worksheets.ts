@@ -14,7 +14,7 @@ const content: GuideContent = {
       'spatial language printable business',
       'multilingual grammar activity products',
     ],
-    titleTag: 'Create Preposition Worksheets to Sell | LCS',
+    titleTag: 'Create Preposition Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'Create preposition worksheets for ESL and early learning. Two exercise modes, 11 languages, shape replacement. Sell on Etsy, KDP, and TPT.',
   },
 

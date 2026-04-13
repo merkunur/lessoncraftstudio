@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Sommerferien Lernmaterial',
       'Juni Juli Druckvorlagen Geschaeft',
     ],
-    titleTag: 'Sommer-Druckvorlagen: Was Eltern im Juni kaufen | LCS',
+    titleTag: 'Sommer-Druckvorlagen: Was Eltern im Juni kaufen | LessonCraftStudio',
     metaDescription: 'Sommer-Aktivitaets-Druckvorlagen: Was Eltern in den Ferien kaufen. Reise-Raetsel, Ferienbeschaeftigung und Lern-Pakete fuer den DACH-Markt.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'wagons motifs préscolaire',
       'séquences train enfants imprimables',
     ],
-    titleTag: 'Fiches train de motifs : produit unique | LCS',
+    titleTag: 'Fiches train de motifs : produit unique | LessonCraftStudio',
     metaDescription: 'Les fiches train de motifs combinent un thème adoré des enfants avec l\'apprentissage des séquences. Un produit unique et peu concurrentiel en 2026.',
   },
   hero: {

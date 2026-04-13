@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Ausschneide-Sortier-Format motorische Fähigkeiten',
       'mehrsprachige Kopfzeilen elf Sprachen druckfertig',
     ],
-    titleTag: 'Sortier-Arbeitsblätter erstellen | LCS',
+    titleTag: 'Sortier-Arbeitsblätter erstellen | LessonCraftStudio',
     metaDescription: 'Sortier-Arbeitsblätter erstellen: Anleitung mit Zwei-Kategorien-Modus, 4 bis 12 Bildern und automatischen Lösungsschlüsseln. Druckfertige PDFs für Etsy und Amazon KDP.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances Nouvel',
       'demande fiches imprimables Nouvel',
     ],
-    titleTag: 'Imprimables Nouvel An et Galette des Rois | LCS',
+    titleTag: 'Imprimables Nouvel An et Galette des Rois | LessonCraftStudio',
     metaDescription: 'Janvier en France : Nouvel An, Épiphanie et Galette des Rois. Des créneaux uniques pour les imprimables.',
   },
   hero: {

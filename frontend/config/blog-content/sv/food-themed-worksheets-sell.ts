@@ -13,7 +13,7 @@ const content: BlogContent = {
       'mattema matchning sortering',
       'engagerande tema printable-nisch',
     ],
-    titleTag: 'Sälj Mattema-Arbetsblad på Etsy | LCS',
+    titleTag: 'Sälj Mattema-Arbetsblad på Etsy | LessonCraftStudio',
     metaDescription: 'Mattema arbetsblad med frukt, grönsaker och favorittillrätter engagerar barn. Skapa och sälj på Etsy som printables.',
   },
   hero: {

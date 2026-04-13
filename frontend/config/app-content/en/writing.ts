@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk page generation',
       'commercial license',
     ],
-    titleTag: 'Handwriting Practice Book Generator — KDP Ready | LessonCraftStudio',
-    metaDescription: 'Create handwriting and letter tracing books for KDP and Etsy. Evergreen demand, bulk generate pages, 300 DPI PDFs. Commercial license. Try free trial.',
+    titleTag: 'Writing Worksheet Generator — KDP Handwriting Practice Books | LessonCraftStudio',
+    metaDescription: 'Generate writing practice worksheets for KDP handwriting books. Themed prompts, lined pages, multiple formats. 11 languages. Commercial license. Try free.',
   },
 
   hero: {

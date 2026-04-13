@@ -13,7 +13,7 @@ const content: BlogContent = {
       'taaperotoiminta tulostettavia',
       'varhaiskasvatus kehitys tulosteet',
     ],
-    titleTag: 'Taapero-aktiviteetit tulosteina | LCS',
+    titleTag: 'Taapero-aktiviteetit tulosteina | LessonCraftStudio',
     metaDescription: 'Myy taaperoaktiviteetti-tulosteita: kasvava markkina. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

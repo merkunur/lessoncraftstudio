@@ -15,7 +15,7 @@ const content: ToolContent = {
       'visuelle Wahrnehmung',
       'Konzentration',
     ],
-    titleTag: 'Kostenloser Suchbilder-Generator Online | LCS',
+    titleTag: 'Kostenloser Suchbilder-Generator Online | LessonCraftStudio',
     metaDescription: 'Kostenloser Suchbilder-Generator — Versteckte-Objekte-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 

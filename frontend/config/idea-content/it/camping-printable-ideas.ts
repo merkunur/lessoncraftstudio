@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede campeggio da stampare per bambini | LCS',
+    titleTag: 'Schede campeggio da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede a tema campeggio da stampare: attività natura, conteggio con tende e falò, crucipuzzle outdoor e colorare animali del bosco per bambini.',
     primaryKeyword: 'schede campeggio da stampare',
     secondaryKeywords: [

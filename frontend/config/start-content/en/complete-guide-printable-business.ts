@@ -15,7 +15,7 @@ const content: StartContent = {
       'digital product business 2026',
       'sell printables from scratch',
     ],
-    titleTag: 'Start a Printable Business in 2026: Full Guide | LCS',
+    titleTag: 'Start a Printable Business in 2026: Full Guide | LessonCraftStudio',
     metaDescription: 'Complete guide to starting a printable business in 2026. From choosing a niche to making your first sale on Etsy, KDP, or your own store.',
   },
 

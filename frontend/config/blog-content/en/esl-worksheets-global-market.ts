@@ -13,7 +13,7 @@ const content: BlogContent = {
       'English language learner printables',
       'ESL teacher resources sell online',
     ],
-    titleTag: 'ESL Worksheets: The Global Market Opportunity | LCS',
+    titleTag: 'ESL Worksheets: The Global Market Opportunity | LessonCraftStudio',
     metaDescription: 'ESL worksheets tap a global market of 1.5 billion English learners. Learn how to create, price, and sell ESL printables to teachers and parents worldwide.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digital product business earnings',
       'Etsy printable shop revenue',
     ],
-    titleTag: 'Printable Business Income: Realistic | LCS',
+    titleTag: 'Printable Business Income: Realistic | LessonCraftStudio',
     metaDescription: 'How much do printable sellers actually earn? Honest income ranges by experience level, platform, and product type. No hype, just real data.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'temajuhlat aktiviteetit',
       'lastenjuhla-aktiviteetit tulostettavia',
     ],
-    titleTag: 'Tulostettavat pelit juhliin | LCS',
+    titleTag: 'Tulostettavat pelit juhliin | LessonCraftStudio',
     metaDescription: 'Myy tulostettavia pelejä syntymäpäiväjuhliin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

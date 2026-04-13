@@ -17,7 +17,7 @@ const content: BlogContent = {
       'facile',
       'difficile',
     ],
-    titleTag: 'Schede con Livelli di Difficoltà | LCS',
+    titleTag: 'Schede con Livelli di Difficoltà | LessonCraftStudio',
     metaDescription: 'Schede didattiche con livelli di difficoltà graduati da stampare. Esercizi progressivi da facile a difficile con LessonCraftStudio — 33 generatori.',
   },
   hero: {

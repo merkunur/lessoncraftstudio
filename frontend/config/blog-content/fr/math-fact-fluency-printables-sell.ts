@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances fluence',
       'demande fiches fiches fluence',
     ],
-    titleTag: 'Fiches de fluence mathématique à vendre | LCS',
+    titleTag: 'Fiches de fluence mathématique à vendre | LessonCraftStudio',
     metaDescription: 'Les fiches de calcul mental et fluence mathématique sont un best-seller permanent. Comment les créer et vendre.',
   },
   hero: {

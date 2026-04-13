@@ -13,7 +13,7 @@ const content: BlogContent = {
       'visuaalinen päättely lapsille',
       'palapelitehtävät KDP-kirja',
     ],
-    titleTag: 'Puuttuvat palat -kirjat KDP:ssä | LCS',
+    titleTag: 'Puuttuvat palat -kirjat KDP:ssä | LessonCraftStudio',
     metaDescription: 'Julkaise puuttuvat palat -pulmatehtäväkirjoja KDP:ssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

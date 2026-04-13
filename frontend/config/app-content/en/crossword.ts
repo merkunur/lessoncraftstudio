@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk puzzle generation',
       'commercial license included',
     ],
-    titleTag: 'Crossword Puzzle Book Generator — KDP Ready | LessonCraftStudio',
-    metaDescription: 'Create image crossword puzzle books for KDP and Etsy. Unique picture-clue format, 11 languages, auto answer keys. Commercial license. Try free trial.',
+    titleTag: 'Image Crossword Generator — Unique KDP Puzzle Book Pages | LessonCraftStudio',
+    metaDescription: 'Generate image-based crossword puzzles for KDP books. Picture clues replace text — no competitor offers this format. Post-generation editing, answer keys. Try free.',
   },
 
   hero: {

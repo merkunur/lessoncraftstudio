@@ -14,15 +14,15 @@ const content: BlogContent = {
       'automated crossword creation',
       'image clue crossword generator',
     ],
-    titleTag: 'Best Crossword Puzzle Generators for KDP Publishers in 2026 | LCS',
-    metaDescription: 'Compare crossword puzzle generators for Amazon KDP. Image-clue crosswords, multilingual support, and output quality reviewed for serious puzzle book publishers.',
+    titleTag: 'Best Crossword Puzzle Generators for KDP Puzzle Books — 2026 Review | LessonCraftStudio',
+    metaDescription: 'Compare crossword puzzle generators for KDP books. Image crosswords, text crosswords, grid options, and export quality. Find the right tool for your puzzle book business.',
   },
   hero: {
     title: 'Best Crossword Puzzle Generators for KDP Publishers in 2026',
     tagline: 'Image-clue crosswords, multilingual puzzles, and the tools that create them',
     description: 'Crossword puzzle books are a strong evergreen category on Amazon KDP, appealing to adults, seniors, and language learners. But creating crossword puzzles manually is extraordinarily time-consuming: word selection, grid layout, clue writing, and answer key creation for a single puzzle can take 30-60 minutes. Generators compress this to seconds. This roundup compares the best crossword generators for KDP publishers, including a unique option that uses image clues instead of text clues.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'Crossword puzzle books rank among the most searched and most purchased puzzle categories on Amazon. The niche supports dozens of sub-categories: easy crosswords for beginners, large print crosswords for seniors, themed crosswords (sports, movies, history), and multilingual crosswords for language learners. Your generator determines how efficiently you can target these sub-niches and how unique your puzzles look compared to the thousands of competing titles. Here is what each major tool offers.',
   sections: [
     {

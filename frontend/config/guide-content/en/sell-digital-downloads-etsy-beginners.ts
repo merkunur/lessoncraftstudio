@@ -15,7 +15,7 @@ const content: GuideContent = {
       'etsy fees digital products',
       'first 10 sales etsy',
     ],
-    titleTag: 'Sell Digital Downloads on Etsy (Beginners) | LCS',
+    titleTag: 'Sell Digital Downloads on Etsy (Beginners) | LessonCraftStudio',
     metaDescription: 'Complete beginner guide to selling digital downloads on Etsy. Account setup, first listing, file formats, mockups, pricing, and getting your first 10 sales. Try free trial.',
   },
 

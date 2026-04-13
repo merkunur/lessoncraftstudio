@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant word guess maker',
       'try before you buy vocabulary tools',
     ],
-    titleTag: 'Free Word Guess Puzzle Maker Online | LCS',
+    titleTag: 'Free Word Guess Puzzle Maker Online | LessonCraftStudio',
     metaDescription: 'Make word guess puzzles free online with watermark — no signup. Hangman-style format, image clues, 4 difficulty levels. Upgrade for commercial license.',
   },
 

@@ -15,7 +15,7 @@ const content: GuideContent = {
       'printable math activities',
       'worksheet formatting TPT',
     ],
-    titleTag: 'Math Worksheet Generator for TPT Sellers | LCS',
+    titleTag: 'Math Worksheet Generator for TPT Sellers | LessonCraftStudio',
     metaDescription: 'Create professional math worksheets for Teachers Pay Teachers. 4 operation modes, difficulty levels, 11 languages, themed images. Complete TPT seller workflow guide.',
   },
 

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Instagram Pinterest Facebook arbetsblad pysselbok pusselbok',
       'hashtagstrategi publiceringsschema engagemangsgrad profiloptimering',
     ],
-    titleTag: 'Sociala medier för printables-säljare | LCS',
+    titleTag: 'Sociala medier för printables-säljare | LessonCraftStudio',
     metaDescription: 'Marknadsför dina printables med sociala medier. Instagram, Pinterest och Facebook-strategi för arbetsblad-säljare. Visuellt innehåll och publikuppbyggnad.',
   },
 

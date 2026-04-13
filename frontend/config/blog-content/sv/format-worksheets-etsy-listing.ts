@@ -13,7 +13,7 @@ const content: BlogContent = {
       'förhandsvisning Etsy-listning',
       'filformat digital nedladdning Etsy',
     ],
-    titleTag: 'Formatera Arbetsblad för Etsy-Listning | LCS',
+    titleTag: 'Formatera Arbetsblad för Etsy-Listning | LessonCraftStudio',
     metaDescription: 'Formatera arbetsblad professionellt för Etsy. PDF-inställningar, mockup-bilder och förhandsvisningar som konverterar.',
   },
   hero: {

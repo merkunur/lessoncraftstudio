@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Was kommt als nächstes?',
       'Logik',
     ],
-    titleTag: 'Kostenloser Muster-Arbeitsblatt Maker | LCS',
+    titleTag: 'Kostenloser Muster-Arbeitsblatt Maker | LessonCraftStudio',
     metaDescription: 'Kostenloser Muster-Arbeitsblatt Generator — Musterreihen mit Themenbildern sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 

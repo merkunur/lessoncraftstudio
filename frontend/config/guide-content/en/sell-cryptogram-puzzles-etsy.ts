@@ -15,7 +15,7 @@ const content: GuideContent = {
       'low competition Etsy puzzle niche',
       'symbol substitution puzzle worksheets',
     ],
-    titleTag: 'Sell Cryptogram Puzzles on Etsy | LCS',
+    titleTag: 'Sell Cryptogram Puzzles on Etsy | LessonCraftStudio',
     metaDescription: 'Sell cryptogram puzzles on Etsy -- a low-competition niche. Picture cipher puzzles, adjustable difficulty, 11 languages, and Etsy listing strategies for cipher worksheet sellers.',
   },
 

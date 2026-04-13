@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy vs Saxo vs direkte salg',
     secondaryKeywords: ['Etsy vs Saxo vs direkte salg Etsy', 'Etsy vs Saxo vs direkte salg online', 'Etsy vs Saxo vs direkte salg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Etsy vs. Saxo.com vs. Direkte Salg: Sammenligning | LCS',
+    titleTag: 'Etsy vs. Saxo.com vs. Direkte Salg: Sammenligning | LessonCraftStudio',
     metaDescription: 'I Danmark har printable-sælgere tre hovedkanaler: Etsy for digitale downloads, Saxo.com (via KDP) for fysiske bøger, og direkte salg via Gumroad. Denne gui',
   },
   hero: {

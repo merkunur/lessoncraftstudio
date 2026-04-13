@@ -17,7 +17,7 @@ const content: GuideContent = {
       'kommersiell licens arbetsbladsverktyg tryckfärdig PDF',
       'tematiska additionsblad facit automatiskt genererat',
     ],
-    titleTag: 'Skapa additionsuppgifter att skriva ut | LCS',
+    titleTag: 'Skapa additionsuppgifter att skriva ut | LessonCraftStudio',
     metaDescription: 'Steg-för-steg: skapa additionsarbetsblad att skriva ut. Välj tema, ställ in svårighet, generera facit och exportera PDF. Sälj på Etsy och Amazon KDP.',
   },
 

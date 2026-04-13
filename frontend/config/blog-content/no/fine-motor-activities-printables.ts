@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg finmotorikk-arbeidsark på nett',
     secondaryKeywords: ['finmotorikk oppgaver Etsy selge', 'sporingsoppgaver barn forretning', 'håndtrening arbeidsark selge KDP'],
     lsiKeywords: ['øye-hånd-koordinasjon øvelser', 'skrivetrening forberedelse', 'finmotorikk barnehage materiell'],
-    titleTag: 'Selg finmotorikk-arbeidsark for barn | LCS',
+    titleTag: 'Selg finmotorikk-arbeidsark for barn | LessonCraftStudio',
     metaDescription: 'Finmotorikk-oppgaver forbereder barn på skriving og er svært etterspurt. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

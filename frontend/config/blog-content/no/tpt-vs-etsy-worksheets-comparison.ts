@@ -8,7 +8,7 @@ const content: BlogContent = {
       'beste plattform selge arbeidsark Norge',
     ],
     lsiKeywords: ['arbeidsark plattformvalg forretning', 'selge arbeidsark strategi', 'digital nedlasting inntekt Norge'],
-    titleTag: 'Undervisningsbyen vs Etsy: Hvor selge? | LCS',
+    titleTag: 'Undervisningsbyen vs Etsy: Hvor selge? | LessonCraftStudio',
     metaDescription: 'Sammenlign Undervisningsbyen.no og Etsy for salg av arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

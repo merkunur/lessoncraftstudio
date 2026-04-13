@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Oktober saisonale Nachfragespitze',
       'gruseliges Thema Halloween-Saison Nische',
     ],
-    titleTag: 'Halloween-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Halloween-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Halloween-Druckvorlagen als profitable Etsy-Nische entdecken. Kürbis, Gespenster und Hexen — saisonale Produktkonzepte und Oktober-Verkaufsstrategien für Ihren Shop.',
   },
   hero: {

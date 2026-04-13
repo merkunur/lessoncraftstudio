@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tryckt pusselbok passiv inkomst',
       'mattepussel kombination utbildning lek',
     ],
-    titleTag: 'Sälj Mattepusselböcker på Amazon KDP | LCS',
+    titleTag: 'Sälj Mattepusselböcker på Amazon KDP | LessonCraftStudio',
     metaDescription: 'Mattepusselböcker är en vinstgivande KDP-nisch. Skapa och publicera matteböcker med pusselformat som barn och föräldrar köper.',
   },
   hero: {

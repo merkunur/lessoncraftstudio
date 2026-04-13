@@ -15,7 +15,7 @@ const content: GuideContent = {
       'word search crossword sudoku compilation',
       'print-on-demand puzzle publishing',
     ],
-    titleTag: 'Sell Puzzle Books on Amazon KDP | LCS',
+    titleTag: 'Sell Puzzle Books on Amazon KDP | LessonCraftStudio',
     metaDescription: 'Sell multi-type puzzle books on Amazon KDP. Combine word search, crossword, sudoku, and cryptogram formats. Series strategy, formatting, and royalty optimization.',
   },
 

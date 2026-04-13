@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles primavera fichas', 'vender imprimibles imprimibles', 'marzo abril educativos'],
-    titleTag: 'Imprimibles de Primavera para Vender | LCS',
+    titleTag: 'Imprimibles de Primavera para Vender | LessonCraftStudio',
     metaDescription: 'La primavera trae consigo temas de renovacion, naturaleza y crecimiento que se traducen perfectamente en. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

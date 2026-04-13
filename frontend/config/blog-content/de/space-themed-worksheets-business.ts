@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Weltraum Arbeitsblaetter MINT Produktlinie',
     secondaryKeywords: ['Weltraum Raetsel Kinder Etsy', 'Planeten Arbeitsblaetter PDF verkaufen', 'MINT Druckvorlagen Grundschule'],
     lsiKeywords: ['Sonnensystem Arbeitsblaetter', 'Rakete Wortsuche Kinder', 'Astronomie Grundschule Material'],
-    titleTag: 'Weltraum-Arbeitsblaetter: MINT-Premium-Produktlinie | LCS',
+    titleTag: 'Weltraum-Arbeitsblaetter: MINT-Premium-Produktlinie | LessonCraftStudio',
     metaDescription: 'Weltraum-Arbeitsblaetter als MINT-Premium-Produktlinie: Warum Planeten, Raketen und Sterne Premium-Preise erzielen. Marktanalyse und Produktideen.',
   },
   hero: {

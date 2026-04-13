@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable shop first sales',
       'Etsy printable listing optimization',
     ],
-    titleTag: 'Your First $100 Selling Printables on Etsy: A Roadmap | LCS',
+    titleTag: 'Your First $100 Selling Printables on Etsy: A Roadmap | LessonCraftStudio',
     metaDescription: 'A realistic, step-by-step roadmap from zero to your first $100 selling printables on Etsy. Hypothetical scenarios based on marketplace data and seller experiences.',
   },
   hero: {

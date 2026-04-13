@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Etsy SEO Amazon A9 Backend-Keywords Kategorien',
       'plattformübergreifend Umsatz maximieren Strategie',
     ],
-    titleTag: 'KDP vs Etsy Druckvorlagen Vergleich | LCS',
+    titleTag: 'KDP vs Etsy Druckvorlagen Vergleich | LessonCraftStudio',
     metaDescription: 'KDP vs Etsy fuer Druckvorlagen: Systematischer Vergleich von Gebuehren, Traffic, Produktformaten und Multi-Plattform-Strategie fuer maximalen Umsatz als Verkaeufer.',
   },
 

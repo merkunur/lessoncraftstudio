@@ -14,7 +14,7 @@ const content: GuideContent = {
       'literacy worksheet templates',
       'early reading printable business',
     ],
-    titleTag: 'Create Alphabet Worksheets to Sell Online | LCS',
+    titleTag: 'Create Alphabet Worksheets to Sell Online | LessonCraftStudio',
     metaDescription: 'Create alphabet worksheets buyers love. Train-car format, 11 languages, themed bundles. Tips for Etsy, KDP, and TPT sellers. Try our generator free.',
   },
 

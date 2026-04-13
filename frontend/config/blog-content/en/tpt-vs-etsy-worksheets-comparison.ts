@@ -13,7 +13,7 @@ const content: BlogContent = {
       'TPT marketplace vs Etsy marketplace',
       'where to sell educational printables',
     ],
-    titleTag: 'Teachers Pay Teachers vs Etsy: Selling Worksheets | LCS',
+    titleTag: 'Teachers Pay Teachers vs Etsy: Selling Worksheets | LessonCraftStudio',
     metaDescription: 'TPT vs Etsy for selling worksheets: fees, traffic, buyer behavior, and revenue compared. Data-backed analysis to help you choose the right platform.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: StartContent = {
       'obegränsad kommersiell användning arbetsblad',
       'licensvillkor för printable-företag',
     ],
-    titleTag: 'Kommersiell licens: guide för säljare | LCS',
+    titleTag: 'Kommersiell licens: guide för säljare | LessonCraftStudio',
     metaDescription: 'Komplett guide till kommersiella licenser för arbetsbladsförsäljning. Två nivåer förklarade — vad du får sälja på Etsy, Amazon KDP och fler plattformar.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'KDP muotoiluvaatimukset kirjat',
       'matematiikkakirjat Amazon myynti',
     ],
-    titleTag: 'Matematiikkapulmakirjat KDP:ssä | LCS',
+    titleTag: 'Matematiikkapulmakirjat KDP:ssä | LessonCraftStudio',
     metaDescription: 'Julkaise matematiikkapulmakirjoja Amazon KDP:ssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

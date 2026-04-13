@@ -15,7 +15,7 @@ const content: StartContent = {
       'Listings optimieren',
       'Kundenservice',
     ],
-    titleTag: 'Etsy Druckvorlagen-Business starten | Anleitung | LCS',
+    titleTag: 'Etsy Druckvorlagen-Business starten | Anleitung | LessonCraftStudio',
     metaDescription: 'Etsy Druckvorlagen-Business von Null starten. Shop einrichten, Listings optimieren, SEO nutzen und erste Verkäufe erzielen. Schritt-für-Schritt.',
   },
 

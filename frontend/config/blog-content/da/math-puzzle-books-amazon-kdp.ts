@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'matematik puslespil bøger KDP',
     secondaryKeywords: ['matematik puslespil bøger KDP Etsy', 'matematik puslespil bøger KDP online', 'matematik puslespil bøger KDP forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Matematik-Puslespilbøger til Amazon KDP | LCS',
+    titleTag: 'Matematik-Puslespilbøger til Amazon KDP | LessonCraftStudio',
     metaDescription: 'Matematik-puslespilbøger er en voksende KDP-niche der kombinerer matematikøvelse med puslespilunderholdning. Formater som kode-addition, matematikkrydsord ',
   },
   hero: {

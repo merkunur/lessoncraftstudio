@@ -13,7 +13,7 @@ const content: BlogContent = {
       'worksheet content repurposing',
       'maximize printable product output',
     ],
-    titleTag: 'Repurpose One Worksheet Into 5 Products | LCS',
+    titleTag: 'Repurpose One Worksheet Into 5 Products | LessonCraftStudio',
     metaDescription: 'Repurpose worksheets into multiple products for Etsy and KDP. Turn one design into 5 listings that multiply your catalog without extra work.',
   },
   hero: {

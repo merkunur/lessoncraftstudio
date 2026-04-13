@@ -17,7 +17,7 @@ const content: GuideContent = {
       'produkttaggar kategorier sökoptimering omslagsbilder beskrivning',
       'katalogskalning paket tvärkategori typsnitt grafik',
     ],
-    titleTag: 'Sälja printables på Creative Fabrica | LCS',
+    titleTag: 'Sälja printables på Creative Fabrica | LessonCraftStudio',
     metaDescription: 'Sälj arbetsblad och printables på Creative Fabrica. Dubbel intäkt från prenumerationer och enskilda köp. Guide till Classroom-sektionen för säljare.',
   },
 

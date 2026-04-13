@@ -8,7 +8,7 @@ const content: BlogContent = {
       'lag barnehage arbeidsark kommersiell lisens',
     ],
     lsiKeywords: ['barnehageoppgaver forretning', 'småbarn arbeidsark selge', 'norske barnehager aktiviteter selgere'],
-    titleTag: 'Selg barnehage-arbeidsark: bestselgerne | LCS',
+    titleTag: 'Selg barnehage-arbeidsark: bestselgerne | LessonCraftStudio',
     metaDescription: '97 % av norske barn går i barnehage — en stor mulighet for arbeidsark-selgere. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'stratégie prix fiches calcul',
       'téléchargement numérique maths Etsy',
     ],
-    titleTag: 'Vendre des fiches d\'addition sur Etsy | LCS',
+    titleTag: 'Vendre des fiches d\'addition sur Etsy | LessonCraftStudio',
     metaDescription: 'Guide complet pour vendre des fiches d\'addition sur Etsy. Stratégies de prix, bundles et optimisation SEO qui fonctionnent en 2026.',
   },
   hero: {

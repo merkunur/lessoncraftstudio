@@ -13,7 +13,7 @@ const content: BlogContent = {
       'processus systématiser imprimables',
       'déléguer création fiches',
     ],
-    titleTag: 'Scaler votre activité d\'imprimables | LCS',
+    titleTag: 'Scaler votre activité d\'imprimables | LessonCraftStudio',
     metaDescription: 'Automatisez et développez votre activité d\'imprimables. Outils, processus et stratégies pour passer de 500 à 5. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

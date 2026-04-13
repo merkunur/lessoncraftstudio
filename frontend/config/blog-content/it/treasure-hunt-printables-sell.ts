@@ -17,7 +17,7 @@ const content: BlogContent = {
       'avventura',
       'gruppo',
     ],
-    titleTag: 'Caccia al Tesoro da Stampare per Bambini | LCS',
+    titleTag: 'Caccia al Tesoro da Stampare per Bambini | LessonCraftStudio',
     metaDescription: 'Caccia al tesoro pronta da stampare per bambini con indizi e percorsi. Per feste e scuola primaria con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

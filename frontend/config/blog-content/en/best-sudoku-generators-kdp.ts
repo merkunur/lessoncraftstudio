@@ -15,15 +15,15 @@ const content: BlogContent = {
       'kids puzzle book publishing tools',
       'number puzzle generator for Amazon',
     ],
-    titleTag: 'Best Sudoku Generators for KDP Puzzle Books in 2026 | LCS',
-    metaDescription: 'Compare sudoku generators for KDP publishers. Includes picture sudoku for kids, classic number sudoku, and multi-difficulty options. Find the right tool for your puzzle book business.',
+    titleTag: 'Best Sudoku Generators for KDP Puzzle Books — 2026 Review | LessonCraftStudio',
+    metaDescription: 'Compare sudoku generators for KDP puzzle books. Number sudoku, picture sudoku, difficulty levels, and bulk generation. Choose the right tool for your puzzle book business.',
   },
   hero: {
     title: 'Best Sudoku Generators for KDP Puzzle Books in 2026',
     tagline: 'Classic number sudoku, picture sudoku, and the untapped kids market',
     description: 'Sudoku puzzle books are a proven KDP money-maker. Adult sudoku books sell steadily year-round, and kids sudoku is an emerging niche with far less competition. This guide compares the best sudoku generators for publishers, with special attention to picture sudoku for the children\'s market.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'Sudoku books are among the most reliable sellers in the KDP puzzle book category. The format is universally known, the demand is consistent, and production is straightforward once you have the right generator. But not all sudoku generators are equal. Some produce only standard 9x9 grids. Others support multiple grid sizes and difficulty levels. And very few offer picture sudoku, which opens up the entire children\'s puzzle book market. This roundup examines what is available and which tools give publishers the best competitive position.',
   sections: [
     {

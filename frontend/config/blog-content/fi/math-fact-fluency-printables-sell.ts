@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kertotaulut tulostettavia',
       'nopeat laskuharjoitukset tulosteet',
     ],
-    titleTag: 'Päässälaskutulosteet myyntiin | LCS',
+    titleTag: 'Päässälaskutulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy päässälaskutulosteita — jokaisen lapsen perustaito. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

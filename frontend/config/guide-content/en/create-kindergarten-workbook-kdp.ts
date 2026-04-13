@@ -15,7 +15,7 @@ const content: GuideContent = {
       'school-year structure activities',
       'kindergarten math literacy worksheets',
     ],
-    titleTag: 'Create a Kindergarten Workbook for KDP | LCS',
+    titleTag: 'Create a Kindergarten Workbook for KDP | LessonCraftStudio',
     metaDescription: 'Create kindergarten workbooks for Amazon KDP targeting ages 5-6. Addition, word search, writing practice, and pattern activities. Curriculum-aligned structure. Try free trial.',
   },
 

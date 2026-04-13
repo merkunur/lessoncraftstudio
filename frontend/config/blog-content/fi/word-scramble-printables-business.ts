@@ -13,7 +13,7 @@ const content: BlogContent = {
       'oikeinkirjoitus tehtävät tulostettavia',
       'kielipulmat lapsille',
     ],
-    titleTag: 'Kirjainsekoitus-tulosteet myyntiin | LCS',
+    titleTag: 'Kirjainsekoitus-tulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy kirjainsekoitus-tulostettavia: matala kilpailu. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

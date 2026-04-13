@@ -17,7 +17,7 @@ const content: BlogContent = {
       'San Martino',
       'novembre',
     ],
-    titleTag: 'Schede Didattiche Autunno da Stampare | LCS',
+    titleTag: 'Schede Didattiche Autunno da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche d\'autunno da stampare per bambini. Castagne, foglie, vendemmia e San Martino con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

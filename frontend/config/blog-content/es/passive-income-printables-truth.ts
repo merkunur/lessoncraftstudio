@@ -13,7 +13,7 @@ const content: BlogContent = {
       'negocio pasivo fichas educativas',
       'esfuerzo real vender imprimibles',
     ],
-    titleTag: 'Ingresos Pasivos con Imprimibles: La Verdad | LCS',
+    titleTag: 'Ingresos Pasivos con Imprimibles: La Verdad | LessonCraftStudio',
     metaDescription: 'Es realmente pasivo vender imprimibles? La verdad honesta sobre el esfuerzo necesario, los ingresos reales y que tan automatizable es este negocio.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: GuideContent = {
       'kommersiell licens bingoverktyg unika kort generator',
       'uppropskort rutnätsstorlekar 3x3 4x4 5x5 flerspråkig',
     ],
-    titleTag: 'Skapa bingobrickor att skriva ut | LCS',
+    titleTag: 'Skapa bingobrickor att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa tematiska bingobrickor med bilder att skriva ut. Välj rutnätsstorlek, generera unika kort och exportera PDF. Sälj på Etsy och Amazon KDP.',
   },
 

@@ -16,7 +16,7 @@ const content: StartContent = {
       'bundling',
       'stampabili educativi',
     ],
-    titleTag: 'Come far crescere il business stampabili | LCS',
+    titleTag: 'Come far crescere il business stampabili | LessonCraftStudio',
     metaDescription: 'Come far crescere il tuo business di stampabili educativi: espansione catalogo, distribuzione multi-piattaforma, bundling e mercati multilingue.',
   },
 

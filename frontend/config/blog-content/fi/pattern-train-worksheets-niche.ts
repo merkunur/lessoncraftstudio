@@ -13,7 +13,7 @@ const content: BlogContent = {
       'junavaunut kuvioharjoitus',
       'looginen ajattelu juna-tehtävät',
     ],
-    titleTag: 'Kuviojuna tulostettavina: niche | LCS',
+    titleTag: 'Kuviojuna tulostettavina: niche | LessonCraftStudio',
     metaDescription: 'Myy kuviojuna-tehtäväarkkeja matalan kilpailun nichessä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

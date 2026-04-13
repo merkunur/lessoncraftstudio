@@ -15,7 +15,7 @@ const content: StartContent = {
       'digital product creation software',
       'seller toolkit resources',
     ],
-    titleTag: 'Essential Tools for Printable Business | LCS',
+    titleTag: 'Essential Tools for Printable Business | LessonCraftStudio',
     metaDescription: 'Essential tools for printable business owners. Generators, design software, platforms, and resources every printable seller needs to succeed.',
   },
 

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'listing template automation',
       'batch processing worksheets',
     ],
-    titleTag: 'Automate Your Printable Business Fast | LCS',
+    titleTag: 'Automate Your Printable Business Fast | LessonCraftStudio',
     metaDescription: 'Automate your printable business with batch production, listing templates, and workflow tools. Save hours per week and scale output without extra effort.',
   },
 

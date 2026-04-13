@@ -15,7 +15,7 @@ const content: BundleContent = {
       'Kategorie-Bundle',
       'Bis zu 57% sparen',
     ],
-    titleTag: 'Suchspiel-Arbeitsblatt-Bundle | 4 Generatoren | LCS',
+    titleTag: 'Suchspiel-Arbeitsblatt-Bundle | 4 Generatoren | LessonCraftStudio',
     metaDescription: 'Suchspiel-Bundle mit 4 Generatoren: Suchbild, Suchen & Zählen, Labyrinth und Fehlende Teile. Bis zu 57% sparen. Kommerzielle Lizenz.',
   },
 

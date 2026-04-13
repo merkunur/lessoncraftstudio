@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Arbeitsblaetter 11 Sprachen global verkaufen',
     secondaryKeywords: ['Arbeitsblaetter in 11 Sprachen erstellen und global verkaufen Anleitung', 'Druckvorlagen Arbeitsblaetter Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Arbeitsblaetter in 11 Sprachen verkaufen | LCS',
+    titleTag: 'Arbeitsblaetter in 11 Sprachen verkaufen | LessonCraftStudio',
     metaDescription: 'Mit LessonCraftStudio erstellen Sie Arbeitsblaetter in 11 Sprachen. So erschliessen Sie den globalen Markt und verkaufen weltweit.',
   },
   hero: {

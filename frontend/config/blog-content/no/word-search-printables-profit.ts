@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'ordleting arbeidsark fortjeneste Etsy',
     secondaryKeywords: ['ordleting oppgaver selge nettbutikk', 'ordleting puslespill forretning KDP', 'ordleting arbeidsark Etsy inntekt'],
     lsiKeywords: ['ordleting-generator kommersiell lisens', 'ordleting arbeidsark salg', 'ordleting oppgaver alle aldre'],
-    titleTag: 'Ordleting-arbeidsark: Tjen penger | LCS',
+    titleTag: 'Ordleting-arbeidsark: Tjen penger | LessonCraftStudio',
     metaDescription: 'Gjør ordleting-arbeidsark til en lønnsom forretning på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

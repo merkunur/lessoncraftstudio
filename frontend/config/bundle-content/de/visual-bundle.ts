@@ -15,7 +15,7 @@ const content: BundleContent = {
       'Kategorie-Bundle',
       'Bis zu 57% sparen',
     ],
-    titleTag: 'Visuelles-Lernen-Bundle | 7 Generatoren | LCS',
+    titleTag: 'Visuelles-Lernen-Bundle | 7 Generatoren | LessonCraftStudio',
     metaDescription: 'Visuelles-Lernen-Bundle mit 7 Generatoren: Zuordnung, Schwungübungen, Suchbild, Gitterzeichnung und mehr. Bis zu 57% sparen. Kommerzielle Lizenz.',
   },
 

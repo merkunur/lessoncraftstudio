@@ -15,7 +15,7 @@ const content: GuideContent = {
       'picture sudoku grids',
       'print-ready PDF',
     ],
-    titleTag: 'Sudoku Generator for KDP Puzzle Books | LCS',
+    titleTag: 'Sudoku Generator for KDP Puzzle Books | LessonCraftStudio',
     metaDescription: 'Create picture sudoku puzzle books for Amazon KDP. 4x4 image grids, 104 themes, 11 languages, 300 DPI PDFs. Full KDP workflow guide. Try free trial now.',
   },
 

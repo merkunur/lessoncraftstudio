@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede mezzi di trasporto da stampare | LCS',
+    titleTag: 'Schede mezzi di trasporto da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede sui mezzi di trasporto da stampare: colorare auto e treni, conteggio veicoli, crucipuzzle e abbinamento per bambini della scuola primaria.',
     primaryKeyword: 'schede mezzi di trasporto da stampare',
     secondaryKeywords: [

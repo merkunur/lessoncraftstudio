@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['fichas tematica fichas', 'vender imprimibles fichas', 'espacio planetas educativos'],
-    titleTag: 'Fichas de Espacio y Planetas para Vender | LCS',
+    titleTag: 'Fichas de Espacio y Planetas para Vender | LessonCraftStudio',
     metaDescription: 'El espacio exterior es un tema que fascina a ninos de todas las edades. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

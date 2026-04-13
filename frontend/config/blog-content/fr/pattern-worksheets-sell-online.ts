@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches suites logiques enfants',
       'séquences visuelles imprimables',
     ],
-    titleTag: 'Fiches motifs : niche STEM méconnue | LCS',
+    titleTag: 'Fiches motifs : niche STEM méconnue | LessonCraftStudio',
     metaDescription: 'Les fiches de motifs et séquences logiques ciblent la niche STEM avec peu de concurrence. Créez et vendez ces imprimables en 2026.',
   },
   hero: {

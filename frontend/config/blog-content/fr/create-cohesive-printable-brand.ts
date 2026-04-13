@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode créer',
       'astuces créer marque',
     ],
-    titleTag: 'Créer une marque d\'imprimables cohérente | LCS',
+    titleTag: 'Créer une marque d\'imprimables cohérente | LessonCraftStudio',
     metaDescription: 'Construisez une identité visuelle cohérente pour vos imprimables. Couleurs, polices et style unifié. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

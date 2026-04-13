@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'bedste printable nicher lav konkurrence 2026',
     secondaryKeywords: ['profitable printable nicher Etsy', 'lav konkurrence printbar markeder', 'undervurderede printable kategorier'],
     lsiKeywords: ['niche research printbar', 'uudnyttede printable markeder', 'printbar markedsanalyse'],
-    titleTag: 'Bedste Printable Nicher med Lav Konkurrence | LCS',
+    titleTag: 'Bedste Printable Nicher med Lav Konkurrence | LessonCraftStudio',
     metaDescription: 'Undgå overfyldte nicher. Her er de mest profitable printable-kategorier med lav konkurrence i 2026 — inklusiv danske nichér.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'coerenza',
       'fiducia',
     ],
-    titleTag: 'Branding Negozio Schede Didattiche | LCS',
+    titleTag: 'Branding Negozio Schede Didattiche | LessonCraftStudio',
     metaDescription: 'Come creare un branding coerente per il tuo negozio di schede didattiche online. Identità visiva e stile con LessonCraftStudio — 33 generatori.',
   },
   hero: {

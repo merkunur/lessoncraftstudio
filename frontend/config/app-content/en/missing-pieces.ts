@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Missing Pieces Puzzle Generator — Logic Book KDP | LessonCraftStudio',
-    metaDescription: 'Create missing pieces logic puzzles for KDP books and Etsy. Unique visual format, stands out in search. Bulk generate. Commercial license. Try free trial.',
+    titleTag: 'Missing Pieces Puzzle Generator — KDP Logic Activity Pages | LessonCraftStudio',
+    metaDescription: 'Generate missing pieces visual puzzles for KDP activity books. Logic and reasoning format, themed images, auto answer keys. Commercial license. Try free.',
   },
 
   hero: {

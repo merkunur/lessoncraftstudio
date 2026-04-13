@@ -13,7 +13,7 @@ const content: BlogContent = {
       'KDP tamano pagina libro educativo',
       'publicar imprimibles Amazon',
     ],
-    titleTag: 'Formatear Libro de Actividades para Amazon KDP | LCS',
+    titleTag: 'Formatear Libro de Actividades para Amazon KDP | LessonCraftStudio',
     metaDescription: 'Guia paso a paso para formatear y publicar su libro de actividades educativas en Amazon KDP. Tamanos, margenes, portada y configuracion correcta.',
   },
   hero: {

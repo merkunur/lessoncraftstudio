@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Etsy printable price points',
       'pricing educational printables',
     ],
-    titleTag: 'Printable Pricing Strategy for Etsy | LCS',
+    titleTag: 'Printable Pricing Strategy for Etsy | LessonCraftStudio',
     metaDescription: 'The printable pricing strategy that maximizes profit on Etsy. Learn the tiered approach top sellers use for worksheets and educational printables.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'Rechenrätsel',
       'Knobelaufgabe',
     ],
-    titleTag: 'Kostenloser Code-Mathe-Rätsel Ersteller | LCS',
+    titleTag: 'Kostenloser Code-Mathe-Rätsel Ersteller | LessonCraftStudio',
     metaDescription: 'Kostenloser Code-Mathe-Rätsel Generator — Geheimcode-Arbeitsblätter sofort erstellen, ohne Anmeldung. Automatische Lösungen. Lizenz für Etsy & KDP.',
     },
 

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'apertura',
       'avviare',
     ],
-    titleTag: 'Aprire Negozio Schede Didattiche Etsy | LCS',
+    titleTag: 'Aprire Negozio Schede Didattiche Etsy | LessonCraftStudio',
     metaDescription: 'Guida completa per aprire un negozio di schede didattiche su Etsy. Dal primo mese alle prime vendite di stampabili con LessonCraftStudio — 33 generatori.',
   },
   hero: {

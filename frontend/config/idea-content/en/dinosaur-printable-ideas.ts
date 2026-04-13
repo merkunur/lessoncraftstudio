@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Dinosaur Printable Business Ideas | LCS',
+    titleTag: 'Dinosaur Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Dinosaur printable business ideas for Etsy & KDP. Product concepts, bundle strategies, and market analysis for dino-themed printable sellers.',
 
     primaryKeyword: 'dinosaur printable business ideas',

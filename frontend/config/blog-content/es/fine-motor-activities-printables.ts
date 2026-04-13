@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles actividades fichas', 'vender imprimibles imprimibles', 'motricidad fina educativos'],
-    titleTag: 'Imprimibles de Motricidad Fina | LCS',
+    titleTag: 'Imprimibles de Motricidad Fina | LessonCraftStudio',
     metaDescription: 'La motricidad fina es una habilidad fundamental que todos los ninos deben desarrollar antes y durante los primeros. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

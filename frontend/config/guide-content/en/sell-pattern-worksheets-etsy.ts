@@ -15,7 +15,7 @@ const content: GuideContent = {
       'visual pattern recognition digital downloads',
       'pre-K pattern completion worksheets',
     ],
-    titleTag: 'Sell Pattern Worksheets on Etsy | LCS',
+    titleTag: 'Sell Pattern Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Sell pattern worksheets on Etsy step by step. 9 pattern types, 2 question modes, per-exercise config, SEO tags, pricing, and early math market strategy.',
   },
 

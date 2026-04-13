@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances fiches',
       'demande fiches marché fiches',
     ],
-    titleTag: 'Marché des fiches GS et CP en France | LCS',
+    titleTag: 'Marché des fiches GS et CP en France | LessonCraftStudio',
     metaDescription: 'Le marché des fiches pour la Grande Section et le CP. Les exercices qui se vendent et comment les créer.',
   },
   hero: {

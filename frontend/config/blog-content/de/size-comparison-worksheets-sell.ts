@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Groessenvergleich-Arbeitsblaetter Kleinkind-Markt',
     secondaryKeywords: ['Groessenvergleich Arbeitsblaetter verkaufen', 'Gross Klein Arbeitsblaetter Etsy', 'Vergleichen Uebungen Vorschule'],
     lsiKeywords: ['Groessen vergleichen Arbeitsblatt PDF', 'Gross und Klein Vorschule', 'Vergleichsuebungen Kindergarten'],
-    titleTag: 'Groessenvergleich-Arbeitsblaetter: Kleinkind-Markt | LCS',
+    titleTag: 'Groessenvergleich-Arbeitsblaetter: Kleinkind-Markt | LessonCraftStudio',
     metaDescription: 'Warum Groessenvergleich-Arbeitsblaetter den wachsenden Kleinkind-Markt perfekt bedienen. Nische, Preise und Strategien fuer Etsy.de.',
   },
   hero: {

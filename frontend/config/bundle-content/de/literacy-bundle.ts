@@ -15,7 +15,7 @@ const content: BundleContent = {
       'Kategorie-Bundle',
       'Bis zu 57% sparen',
     ],
-    titleTag: 'Sprache-Arbeitsblatt-Bundle | 7 Generatoren | LCS',
+    titleTag: 'Sprache-Arbeitsblatt-Bundle | 7 Generatoren | LessonCraftStudio',
     metaDescription: 'Sprache-Arbeitsblatt-Generatoren-Bundle mit 7 Apps: Suchsel, Kreuzworträtsel, Kryptogramm, Schreibübungen und mehr. Bis zu 57% sparen.',
   },
 

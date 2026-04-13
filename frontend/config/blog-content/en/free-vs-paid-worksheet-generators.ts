@@ -15,15 +15,15 @@ const content: BlogContent = {
       'printable business content creation',
       'activity book creator for sellers',
     ],
-    titleTag: 'Free vs Paid Worksheet Generators for KDP: What You Actually Get | LCS',
-    metaDescription: 'Compare free worksheet generators against paid options for KDP publishing. Understand commercial licenses, output quality, and what hidden costs free tools carry.',
+    titleTag: 'Free vs Paid Worksheet Generators — What KDP Sellers Actually Need | LessonCraftStudio',
+    metaDescription: 'Should you use free worksheet generators or invest in paid tools for your KDP business? Compare features, limitations, output quality, and commercial licensing.',
   },
   hero: {
     title: 'Free vs Paid Worksheet Generators for KDP: What You Actually Get',
     tagline: 'The hidden costs of free tools can outweigh the savings',
     description: 'Every KDP publisher starts the same way: searching for free tools. Free worksheet generators exist, but they come with limitations that matter when you are building a business. This guide compares free and paid options honestly, covering commercial licensing, output quality, customization, and long-term value.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'When you search for worksheet generators online, you will find dozens of free options. Some are browser-based, others are downloadable templates, and a few are surprisingly capable. But here is the question most new publishers skip: can you legally sell what these free tools produce? And even if you can, will the output quality compete with paid alternatives? This comparison looks at what free generators actually deliver versus what a paid tool like LessonCraftStudio offers at $49 one-time. The goal is not to dismiss free tools. It is to help you understand the tradeoffs so you can make a smart decision for your publishing business.',
   sections: [
     {

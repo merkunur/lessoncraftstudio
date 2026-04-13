@@ -17,7 +17,7 @@ const content: BlogContent = {
       'distribuzione',
       'permessi',
     ],
-    titleTag: 'Licenza Uso Schede Didattiche da Stampare | LCS',
+    titleTag: 'Licenza Uso Schede Didattiche da Stampare | LessonCraftStudio',
     metaDescription: 'Guida alla licenza d\'uso per schede didattiche da stampare. Scopri cosa puoi fare con il materiale scaricato da LessonCraftStudio — 33 generatori.',
   },
   hero: {

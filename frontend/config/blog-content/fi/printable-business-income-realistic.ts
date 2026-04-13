@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ensimmäisen vuoden tulot Etsy',
       'tulostemyynti sivutulona',
     ],
-    titleTag: 'Tulosteiden tulot: realistinen kuva | LCS',
+    titleTag: 'Tulosteiden tulot: realistinen kuva | LessonCraftStudio',
     metaDescription: 'Realistiset tulodotukset tulosteliiketoiminnalle. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

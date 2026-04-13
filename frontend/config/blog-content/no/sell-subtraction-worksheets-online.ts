@@ -13,7 +13,7 @@ const content: BlogContent = {
       'barneskole matte regneoppgaver',
       'digital nedlasting minusstykker',
     ],
-    titleTag: 'Selg minusstykker-oppgaver på nett | LCS',
+    titleTag: 'Selg minusstykker-oppgaver på nett | LessonCraftStudio',
     metaDescription: 'Komplett guide til å selge minusstykker-oppgaver på Etsy og andre plattformer. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

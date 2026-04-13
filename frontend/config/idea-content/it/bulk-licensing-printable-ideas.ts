@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Licenze stampabili per scuole e istituti | LCS',
+    titleTag: 'Licenze stampabili per scuole e istituti | LessonCraftStudio',
     metaDescription: 'Crea pacchetti di stampabili con licenza per scuole e organizzazioni educative. Schede didattiche in volume per istituti, centri doposcuola e asili nido.',
     primaryKeyword: 'licenze stampabili per scuole',
     secondaryKeywords: [

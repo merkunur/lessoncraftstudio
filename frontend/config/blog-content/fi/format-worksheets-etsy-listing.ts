@@ -13,7 +13,7 @@ const content: BlogContent = {
       'sivuasettelu työarkit',
       'tulostuslaatu Etsy-tuotteet',
     ],
-    titleTag: 'Muotoile työarkit Etsy-ilmoitukseen | LCS',
+    titleTag: 'Muotoile työarkit Etsy-ilmoitukseen | LessonCraftStudio',
     metaDescription: 'Muotoile tulostettavat työarkit oikein Etsy-myyntiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

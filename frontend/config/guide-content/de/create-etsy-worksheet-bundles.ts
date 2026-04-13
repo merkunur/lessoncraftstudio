@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Wertstapelung Bündelpreisgestaltung',
       'Vorschaubilder Etsy Angebotsoptimierung',
     ],
-    titleTag: 'Arbeitsblatt-Bundles auf Etsy verkaufen | LCS',
+    titleTag: 'Arbeitsblatt-Bundles auf Etsy verkaufen | LessonCraftStudio',
     metaDescription: 'Arbeitsblatt-Bundles auf Etsy verkaufen: Pakettypen, Dateiorganisation, Vorschaubilder und Angebotsoptimierung für höheren Bestellwert. Kostenlos testen.',
   },
 

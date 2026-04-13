@@ -13,7 +13,7 @@ const content: BlogContent = {
       'skrivövningar förskoleklass grundskola',
       'vackert handstil övningsblad vuxna',
     ],
-    titleTag: 'Sälj Handskrivningsövningar på Etsy | LCS',
+    titleTag: 'Sälj Handskrivningsövningar på Etsy | LessonCraftStudio',
     metaDescription: 'Handskrivningsövningar är en snabbväxande nisch på Etsy. Barn och vuxna vill förbättra sin handstil. Sälj printables.',
   },
   hero: {

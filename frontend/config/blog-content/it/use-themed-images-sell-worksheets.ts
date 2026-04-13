@@ -17,7 +17,7 @@ const content: BlogContent = {
       'disegni',
       'visivo',
     ],
-    titleTag: 'Schede con Immagini Tematiche Bambini | LCS',
+    titleTag: 'Schede con Immagini Tematiche Bambini | LessonCraftStudio',
     metaDescription: 'Schede didattiche con immagini tematiche per bambini da stampare. Esercizi illustrati che coinvolgono e motivano con LessonCraftStudio — 33 generatori.',
   },
   hero: {

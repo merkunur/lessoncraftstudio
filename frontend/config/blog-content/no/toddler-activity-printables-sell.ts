@@ -8,7 +8,7 @@ const content: BlogContent = {
       'barnehage aktiviteter arbeidsark selge',
     ],
     lsiKeywords: ['småbarn oppgaver salg', 'enkle arbeidsark barn', 'barnehage arbeidsark kommersiell lisens'],
-    titleTag: 'Småbarn-arbeidsark: Lag og selg | LCS',
+    titleTag: 'Småbarn-arbeidsark: Lag og selg | LessonCraftStudio',
     metaDescription: 'Lag og selg arbeidsark for småbarn (2-4 år) på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

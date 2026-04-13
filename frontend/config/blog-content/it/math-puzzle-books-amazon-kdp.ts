@@ -17,7 +17,7 @@ const content: BlogContent = {
       'logica',
       'giochi',
     ],
-    titleTag: 'Libri Puzzle Matematici Bambini | LCS',
+    titleTag: 'Libri Puzzle Matematici Bambini | LessonCraftStudio',
     metaDescription: 'Libri di puzzle matematici per bambini da stampare con soluzioni. Enigmi e giochi di numeri per scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {

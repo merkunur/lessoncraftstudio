@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Gumroad sökalgoritm titel beskrivning rankning synlighet',
       'arbetsbladspaket prisstrategi lansering butiksmomentum',
     ],
-    titleTag: 'Sälja arbetsblad på Gumroad guide | LCS',
+    titleTag: 'Sälja arbetsblad på Gumroad guide | LessonCraftStudio',
     metaDescription: 'Komplett guide: sälja arbetsblad på Gumroad. Kontouppstart, formatering, listningsoptimering, prissättning och att bygga momentum som säljare.',
   },
 

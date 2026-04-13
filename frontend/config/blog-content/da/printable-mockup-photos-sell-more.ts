@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'printable mockup fotos sælg mere',
     secondaryKeywords: ['printable mockup fotos sælg mere Etsy', 'printable mockup fotos sælg mere online', 'printable mockup fotos sælg mere forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Mockup-Fotos til Printables: Sælg Mere | LCS',
+    titleTag: 'Mockup-Fotos til Printables: Sælg Mere | LessonCraftStudio',
     metaDescription: 'Mockup-fotos er den mest effektive måde at præsentere dine printable-produkter på Etsy. Et ark vist i en realistisk kontekst (på et skrivebord, i et barns ',
   },
   hero: {

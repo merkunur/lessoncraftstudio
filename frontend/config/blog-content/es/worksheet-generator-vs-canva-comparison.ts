@@ -9,7 +9,7 @@ const content: BlogContent = {
       'paso crear fotos listing',
     ],
     lsiKeywords: ['generador fichas vs tips', 'como generador fichas', 'Canva comparacion facil'],
-    titleTag: 'Generador de Fichas vs Canva: Comparacion | LCS',
+    titleTag: 'Generador de Fichas vs Canva: Comparacion | LessonCraftStudio',
     metaDescription: 'Los generadores de fichas especializados y Canva son herramientas complementarias, no competidoras. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

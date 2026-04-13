@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tryckt bok vs digital nedladdning',
       'dubbel plattformsstrategi printables',
     ],
-    titleTag: 'KDP vs Etsy: Vilken Ger Mer Inkomst? | LCS',
+    titleTag: 'KDP vs Etsy: Vilken Ger Mer Inkomst? | LessonCraftStudio',
     metaDescription: 'KDP vs Etsy: vilken plattform ger mer inkomst? Jämförelse av intäkter, avgifter och tillväxtpotential för printable-säljare.',
   },
   hero: {

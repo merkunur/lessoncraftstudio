@@ -17,7 +17,7 @@ const content: BlogContent = {
       'prima elementare',
       'fluenza',
     ],
-    titleTag: 'Schede Parole Frequenti Italiano | LCS',
+    titleTag: 'Schede Parole Frequenti Italiano | LessonCraftStudio',
     metaDescription: 'Schede sulle parole più frequenti in italiano da stampare per bambini. Esercizi di lettura per scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {

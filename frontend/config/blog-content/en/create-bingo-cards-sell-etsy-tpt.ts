@@ -13,7 +13,7 @@ const content: BlogContent = {
       'party game printables Etsy shop',
       'educational bingo cards sell',
     ],
-    titleTag: 'How to Create Bingo Cards to Sell on Etsy | LCS',
+    titleTag: 'How to Create Bingo Cards to Sell on Etsy | LessonCraftStudio',
     metaDescription: 'Learn how to create themed bingo card sets for Etsy and party printable markets. Picture bingo, themed sets, seasonal editions, and listing optimization.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant draw and color maker',
       'try before you buy art tools',
     ],
-    titleTag: 'Free Draw and Color Worksheet Generator | LCS',
+    titleTag: 'Free Draw and Color Worksheet Generator | LessonCraftStudio',
     metaDescription: 'Make draw and color worksheets free online with watermark — no signup. Grid drawing activities, themed images, 300 DPI export. Upgrade to sell.',
   },
 

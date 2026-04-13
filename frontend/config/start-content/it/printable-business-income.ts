@@ -16,7 +16,7 @@ const content: StartContent = {
       'catalogo',
       'prezzi',
     ],
-    titleTag: 'Quanto si guadagna vendendo stampabili | LCS',
+    titleTag: 'Quanto si guadagna vendendo stampabili | LessonCraftStudio',
     metaDescription: 'Quanto si guadagna vendendo stampabili educativi? Analisi onesta delle variabili: dimensione catalogo, prezzi, piattaforme e tempo investito.',
   },
 

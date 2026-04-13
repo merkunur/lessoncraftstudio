@@ -17,7 +17,7 @@ const content: BlogContent = {
       'completo',
       'materie',
     ],
-    titleTag: 'Pacchetti Didattici Completi da Stampare | LCS',
+    titleTag: 'Pacchetti Didattici Completi da Stampare | LessonCraftStudio',
     metaDescription: 'Pacchetti didattici completi da stampare per l\'intero anno scolastico. Crea kit di schede con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

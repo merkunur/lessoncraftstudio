@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'ordbilder arbeidsark selge Etsy',
     secondaryKeywords: ['ordbilder oppgaver forretning nettbutikk', 'sight words arbeidsark bedrift', 'høyfrekvente ord oppgaver selge'],
     lsiKeywords: ['lesetrening arbeidsark salg', 'ordgjenkjenning oppgaver inntekt', 'ordbilder generator kommersiell lisens'],
-    titleTag: 'Ordbilder-arbeidsark som forretning | LCS',
+    titleTag: 'Ordbilder-arbeidsark som forretning | LessonCraftStudio',
     metaDescription: 'Bygg en lønnsom forretning med ordbilder-arbeidsark for barn. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

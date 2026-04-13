@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ajanhallinta tulosteyrittäjä',
       'järjestelmät tulostekauppa',
     ],
-    titleTag: 'Skaalaa tulostekauppa automaatiolla | LCS',
+    titleTag: 'Skaalaa tulostekauppa automaatiolla | LessonCraftStudio',
     metaDescription: 'Skaalaa tulosteliiketoimintasi automaatiolla. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

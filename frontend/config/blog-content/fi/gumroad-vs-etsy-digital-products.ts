@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digitaalisten tuotteiden jakelu',
       'provisiot Gumroad Etsy',
     ],
-    titleTag: 'Gumroad vai Etsy tulosteille? | LCS',
+    titleTag: 'Gumroad vai Etsy tulosteille? | LessonCraftStudio',
     metaDescription: 'Vertaile Gumroadia ja Etsyä tulosteiden myyntiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'formater arbejdsark Etsy listing',
     secondaryKeywords: ['formater arbejdsark Etsy listing Etsy', 'formater arbejdsark Etsy listing online', 'formater arbejdsark Etsy listing forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Formater Arbejdsark til Etsy: Komplet Guide | LCS',
+    titleTag: 'Formater Arbejdsark til Etsy: Komplet Guide | LessonCraftStudio',
     metaDescription: 'Formatering er broen mellem dit arbejdsark og et salg. Et perfekt designet ark sælger ikke, hvis det er dårligt formateret eller mangler listing-billeder. ',
   },
   hero: {

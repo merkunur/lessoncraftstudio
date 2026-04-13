@@ -13,7 +13,7 @@ const content: BlogContent = {
       'mercado imprimibles educativos espanol',
       'oportunidades nicho fichas PDF',
     ],
-    titleTag: 'Mejores Nichos de Imprimibles con Baja Competencia | LCS',
+    titleTag: 'Mejores Nichos de Imprimibles con Baja Competencia | LessonCraftStudio',
     metaDescription: 'Descubra nichos de imprimibles con alta demanda y poca competencia en 2026. Oportunidades especificas para el mercado hispanohablante.',
   },
   hero: {

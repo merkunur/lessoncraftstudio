@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant I Spy maker',
       'try before you buy search tools',
     ],
-    titleTag: 'Free I Spy Worksheet Generator Online | LCS',
+    titleTag: 'Free I Spy Worksheet Generator Online | LessonCraftStudio',
     metaDescription: 'Make I Spy worksheets free online with watermark — no signup. Two activity modes, auto answer keys, 104 themes. Upgrade for commercial license to sell.',
   },
 

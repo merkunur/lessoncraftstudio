@@ -17,7 +17,7 @@ const content: BlogContent = {
       'problemi',
       'soluzioni',
     ],
-    titleTag: 'Errori da Evitare Vendendo Schede Online | LCS',
+    titleTag: 'Errori da Evitare Vendendo Schede Online | LessonCraftStudio',
     metaDescription: 'I 10 errori più comuni nella vendita di schede didattiche online e come evitarli. Consigli pratici per venditori con LessonCraftStudio — 33 generatori.',
   },
   hero: {

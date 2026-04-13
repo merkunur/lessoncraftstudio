@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Compiti delle vacanze da stampare | LCS',
+    titleTag: 'Compiti delle vacanze da stampare | LessonCraftStudio',
     metaDescription: 'Crea compiti delle vacanze da stampare: esercizi estivi di matematica, lettura e scrittura per mantenere le competenze durante le vacanze. Scuola primaria.',
     primaryKeyword: 'compiti delle vacanze da stampare',
     secondaryKeywords: [

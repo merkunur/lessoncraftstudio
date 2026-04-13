@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Veröffentlichungsplan Profiloptimierung Shop-Traffic',
       'Engagement Social Proof Konversionsrate',
     ],
-    titleTag: 'Social Media Marketing für Druckvorlagen | LCS',
+    titleTag: 'Social Media Marketing für Druckvorlagen | LessonCraftStudio',
     metaDescription: 'Social Media Marketing für Druckvorlagen: Plattformauswahl, visuelle Inhalte erstellen, Zielgruppen aufbauen und organischen Traffic zu Ihrem Etsy-Shop leiten.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Buchstaben schreiben lernen Material',
       'Druckschrift Uebungshefte erstellen',
     ],
-    titleTag: 'Handschrift-Arbeitsblaetter auf Etsy 2026 | LCS',
+    titleTag: 'Handschrift-Arbeitsblaetter auf Etsy 2026 | LessonCraftStudio',
     metaDescription: 'Warum Handschrift-Arbeitsblaetter 2026 auf Etsy.de boomen. Produktideen, Preisgestaltung und Strategien fuer den DACH-Bildungsmarkt.',
   },
   hero: {

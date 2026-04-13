@@ -13,7 +13,7 @@ const content: BlogContent = {
       'svenska jultraditioner arbetsblad',
       'advent aktivitetsbok barn',
     ],
-    titleTag: 'Sälj Julprintables på Etsy: Bästa Tipsen | LCS',
+    titleTag: 'Sälj Julprintables på Etsy: Bästa Tipsen | LessonCraftStudio',
     metaDescription: 'Julperioden ger 40% av årsintäkten. Lucia, advent och julpyssel-printables säljer enormt. Guide för svenska Etsy-säljare.',
   },
   hero: {

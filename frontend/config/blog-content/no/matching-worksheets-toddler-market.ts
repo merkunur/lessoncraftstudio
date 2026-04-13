@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg koblingsoppgaver småbarn Etsy',
     secondaryKeywords: ['matching arbeidsark småbarn forretning', 'koblingsark 2-6 år selge', 'parre-oppgaver barn Etsy nisje'],
     lsiKeywords: ['visuell gjenkjenning småbarn', 'skyggekobling bilde-matching', 'første pedagogiske oppgave barn'],
-    titleTag: 'Selg koblingsoppgaver for småbarn på Etsy | LCS',
+    titleTag: 'Selg koblingsoppgaver for småbarn på Etsy | LessonCraftStudio',
     metaDescription: 'Koblingsoppgaver er det første arbeidsarket foreldre kjøper. Stor etterspørsel, lav konkurranse. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

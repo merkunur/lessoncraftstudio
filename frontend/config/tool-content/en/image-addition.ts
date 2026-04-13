@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'no signup worksheet generator',
       'try before you buy printable tools',
     ],
-    titleTag: 'Free Addition Worksheet Generator Online | LCS',
+    titleTag: 'Free Addition Worksheet Generator Online | LessonCraftStudio',
     metaDescription: 'Make addition worksheets free online with watermark — no signup needed. 104 themes, 4 exercise modes, answer keys. Upgrade for commercial license to sell.',
     },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'KDP vs Etsy Download',
       'physisch vs digital verkaufen',
     ],
-    titleTag: 'Print-on-Demand vs. digitaler Download | LCS',
+    titleTag: 'Print-on-Demand vs. digitaler Download | LessonCraftStudio',
     metaDescription: 'Print-on-Demand oder digitaler Download fuer Ihre Druckvorlagen? Margen, Aufwand und die richtige Wahl fuer Ihr Geschaeft.',
   },
   hero: {

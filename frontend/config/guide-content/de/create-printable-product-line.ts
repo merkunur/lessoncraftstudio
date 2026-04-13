@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Komplementärprodukte systematische Erweiterung',
       'Shop-Identität plattformübergreifend Etsy KDP Gumroad',
     ],
-    titleTag: 'Druckvorlagen-Produktlinie erstellen | LCS',
+    titleTag: 'Druckvorlagen-Produktlinie erstellen | LessonCraftStudio',
     metaDescription: 'Druckvorlagen-Produktlinie erstellen: Anleitung zu Branding, Namenskonventionen, Produktsequenzierung und systematischer Katalogerweiterung fuer Etsy, KDP und Gumroad.',
   },
 

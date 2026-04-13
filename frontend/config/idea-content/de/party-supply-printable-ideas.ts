@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'thematische Partypakete Druckvorlagen',
       'ganzjährige Nachfrage Party-Nische Etsy',
     ],
-    titleTag: 'Party-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Party-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Party-Druckvorlagen als profitable Etsy-Nische entdecken. Thematische Geburtstagspakete und Partyspiele — ganzjährige Nachfrage und Produktideen für Verkäufer.',
   },
   hero: {

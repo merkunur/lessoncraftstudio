@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Linien nachfahren Arbeitsblatt',
       'Stifthaltung Uebungen Kinder',
     ],
-    titleTag: 'Nachspur-Arbeitsblaetter: Feinmotorik verkaufen | LCS',
+    titleTag: 'Nachspur-Arbeitsblaetter: Feinmotorik verkaufen | LessonCraftStudio',
     metaDescription: 'So verkaufen Sie Nachspur-Arbeitsblaetter fuer Feinmotorik profitabel. Zielgruppen von Vorschule bis Ergotherapie, Preise und DACH-Strategien.',
   },
   hero: {

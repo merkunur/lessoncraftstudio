@@ -17,7 +17,7 @@ const content: BlogContent = {
       'vagoni',
       'completare',
     ],
-    titleTag: 'Schede Treno Sequenze Logiche da Stampare | LCS',
+    titleTag: 'Schede Treno Sequenze Logiche da Stampare | LessonCraftStudio',
     metaDescription: 'Schede treno con sequenze logiche da stampare per bambini. Esercizi di pattern e logica per prescuola con LessonCraftStudio — 33 generatori.',
   },
   hero: {

@@ -15,7 +15,7 @@ const content: GuideContent = {
       'stroke order tracing worksheets',
       'progressive writing workbook',
     ],
-    titleTag: 'Create a Handwriting Book for KDP | LCS',
+    titleTag: 'Create a Handwriting Book for KDP | LessonCraftStudio',
     metaDescription: 'Create handwriting practice books for Amazon KDP with 3 progressive modes, 5 fonts, and arrow stroke guides. Letter-to-word tracing progression. Try free trial.',
   },
 

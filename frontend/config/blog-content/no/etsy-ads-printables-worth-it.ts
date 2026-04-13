@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy Ads lønnsomt arbeidsark selgere',
     secondaryKeywords: ['Etsy annonsering arbeidsark budsjett', 'Etsy Ads avkastning digitale produkter', 'betalt annonsering Etsy oppgaver'],
     lsiKeywords: ['Etsy annonsekostnad per salg', 'ROAS digitale nedlastinger', 'arbeidsark markedsføring betalt trafikk'],
-    titleTag: 'Er Etsy Ads lønnsomt for arbeidsark-selgere? | LCS',
+    titleTag: 'Er Etsy Ads lønnsomt for arbeidsark-selgere? | LessonCraftStudio',
     metaDescription: 'Finn ut når Etsy Ads lønner seg for arbeidsark-selgere og når du bør spare pengene. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

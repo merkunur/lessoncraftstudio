@@ -17,7 +17,7 @@ const content: GuideContent = {
       'organiska recensioner autentisk feedback marknadsplatsranking',
       'förväntningssättning köparkommunikation efterköpsupplevelse',
     ],
-    titleTag: 'Få recensioner printables Etsy | LCS',
+    titleTag: 'Få recensioner printables Etsy | LessonCraftStudio',
     metaDescription: 'Strategier för att få fler recensioner som printable-säljare. Bygg socialt bevis, tjäna autentisk feedback och lyft din Etsy- och KDP-butik.',
   },
 

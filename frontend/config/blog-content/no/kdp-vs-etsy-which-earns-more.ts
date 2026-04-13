@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'KDP vs Etsy arbeidsark hva tjener mest',
     secondaryKeywords: ['Amazon KDP Etsy sammenligning inntekt', 'beste plattform selge oppgaver', 'KDP passiv inntekt vs Etsy digitale nedlastinger'],
     lsiKeywords: ['trykt bok vs digital nedlasting', 'royalty sammenligning KDP Etsy', 'flerkanalstrategi arbeidsark'],
-    titleTag: 'KDP vs Etsy: Hva tjener mest for arbeidsark? | LCS',
+    titleTag: 'KDP vs Etsy: Hva tjener mest for arbeidsark? | LessonCraftStudio',
     metaDescription: 'KDP gir passiv bokinntekt, Etsy gir høyere fortjeneste per salg. Sammenlign begge plattformer. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

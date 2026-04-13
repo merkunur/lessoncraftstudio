@@ -13,7 +13,7 @@ const content: BlogContent = {
       'isänpäivä marraskuu Suomi',
       'lahja-aktiviteetit tulostettavia',
     ],
-    titleTag: 'Äitienpäivä- ja isänpäivätulosteet | LCS',
+    titleTag: 'Äitienpäivä- ja isänpäivätulosteet | LessonCraftStudio',
     metaDescription: 'Myy tulosteita äitien- ja isänpäiväksi Suomessa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

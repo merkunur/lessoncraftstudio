@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Party Supply Printable Business Ideas | LCS',
+    titleTag: 'Party Supply Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Party supply printable business ideas. Party games, decorations, and activity concepts for Etsy and celebration-focused printable sellers.',
 
     primaryKeyword: 'party supply printable business ideas',

@@ -15,7 +15,7 @@ const content: StartContent = {
       'Produktmix',
       'Umsatzsteigerung',
     ],
-    titleTag: 'Einkommen mit Druckvorlagen aufbauen | LCS',
+    titleTag: 'Einkommen mit Druckvorlagen aufbauen | LessonCraftStudio',
     metaDescription: 'Einkommen mit Druckvorlagen aufbauen: Einnahmequellen, Preisgestaltung und Produktmix für nachhaltiges Wachstum Ihres Printable-Business.',
   },
 

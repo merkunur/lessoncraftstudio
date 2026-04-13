@@ -13,7 +13,7 @@ const content: BlogContent = {
       'hojas trabajo clasificar objetos negocio',
       'sorting activities printable preschool sell',
     ],
-    titleTag: 'Fichas Clasificación Preescolar: Nicho que Perdura | LCS',
+    titleTag: 'Fichas Clasificación Preescolar: Nicho que Perdura | LessonCraftStudio',
     metaDescription: 'Las fichas de clasificación preescolar son un nicho perenne con demanda estable. Estrategias de producto y venta. Prueba gratuita con marca de agua.',
   },
   hero: {

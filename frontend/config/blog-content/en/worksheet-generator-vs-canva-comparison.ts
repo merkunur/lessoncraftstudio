@@ -13,7 +13,7 @@ const content: BlogContent = {
       'worksheet design tool efficiency',
       'automated vs manual worksheet creation',
     ],
-    titleTag: 'Worksheet Generator vs Canva for Printables | LCS',
+    titleTag: 'Worksheet Generator vs Canva for Printables | LessonCraftStudio',
     metaDescription: 'Honest comparison: worksheet generators vs Canva for creating printable products. Speed, quality, features, and cost breakdown for sellers.',
   },
   hero: {

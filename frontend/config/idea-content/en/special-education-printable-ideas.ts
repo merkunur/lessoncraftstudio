@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Special Education Printables to Sell | LCS',
+    titleTag: 'Special Education Printables to Sell | LessonCraftStudio',
     metaDescription: 'Special education printable ideas for Etsy & KDP. Adapted product concepts and strategies for the SPED printable market.',
 
     primaryKeyword: 'special education printables to sell',

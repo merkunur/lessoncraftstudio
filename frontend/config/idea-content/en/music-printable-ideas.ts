@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Music Themed Printables to Sell | LCS',
+    titleTag: 'Music Themed Printables to Sell | LessonCraftStudio',
     metaDescription: 'Music themed printable business ideas. Instrument and music product concepts and strategies for Etsy & KDP printable sellers.',
 
     primaryKeyword: 'music themed printables to sell',

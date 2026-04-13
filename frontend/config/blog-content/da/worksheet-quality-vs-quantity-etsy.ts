@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'arbejdsark kvalitet vs kvantitet Etsy',
     secondaryKeywords: ['arbejdsark kvalitet vs kvantitet Etsy Etsy', 'arbejdsark kvalitet vs kvantitet Etsy online', 'arbejdsark kvalitet vs kvantitet Etsy forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Kvalitet vs. Kvantitet på Etsy | LCS',
+    titleTag: 'Kvalitet vs. Kvantitet på Etsy | LessonCraftStudio',
     metaDescription: 'Den evige debat: skal du prioritere kvalitet eller kvantitet? For printable-sælgere på Etsy er svaret nuanceret. Du behøver begge — men i den rigtige række',
   },
   hero: {

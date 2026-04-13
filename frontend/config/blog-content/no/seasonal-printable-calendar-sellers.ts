@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'sesongkalender arbeidsark selgere lanseringsplan',
     secondaryKeywords: ['sesongprodukter arbeidsark timing Etsy', 'årskalender arbeidsark-selgere lansering', 'sesongbaserte oppgaver planlegging måned'],
     lsiKeywords: ['sesongbasert arbeidsark forretning', 'lanseringsplan digitale produkter', 'årskalender arbeidsark selgere'],
-    titleTag: 'Sesongkalender for arbeidsark-selgere | LCS',
+    titleTag: 'Sesongkalender for arbeidsark-selgere | LessonCraftStudio',
     metaDescription: 'Planlegg arbeidsark-lanseringer måned for måned med denne sesongkalenderen. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

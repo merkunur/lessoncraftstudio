@@ -15,7 +15,7 @@ const content: GuideContent = {
       'manuscript template creation',
       'header footer formatting',
     ],
-    titleTag: 'KDP Interior Templates for Worksheets | LCS',
+    titleTag: 'KDP Interior Templates for Worksheets | LessonCraftStudio',
     metaDescription: 'Create professional KDP interior templates for worksheet books. Page layout, headers, footers, page numbers, front matter, back matter. LCS exports fit KDP requirements.',
   },
 

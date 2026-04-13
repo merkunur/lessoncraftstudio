@@ -13,7 +13,7 @@ const content: BlogContent = {
       'suomen kielen oppiminen tulosteet',
       'kotoutuminen materiaalit',
     ],
-    titleTag: 'S2-tulosteet: globaali markkina | LCS',
+    titleTag: 'S2-tulosteet: globaali markkina | LessonCraftStudio',
     metaDescription: 'S2-tulosteet ovat kasvava globaali markkina myyjille. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

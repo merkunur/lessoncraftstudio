@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'instant bingo card maker',
       'try before you buy bingo tools',
     ],
-    titleTag: 'Free Bingo Card Maker with Pictures | LCS',
+    titleTag: 'Free Bingo Card Maker with Pictures | LessonCraftStudio',
     metaDescription: 'Make picture bingo cards free online with watermark — no signup. Themed images, unique randomized cards, caller sheets. Upgrade for commercial license.',
     },
 

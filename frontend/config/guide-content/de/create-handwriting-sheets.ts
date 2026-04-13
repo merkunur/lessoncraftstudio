@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Strichreihenfolge fünf Schriftarten',
       'Grundschule 1. Klasse 300 DPI',
     ],
-    titleTag: 'Schreibübungen erstellen | Anleitung | LCS',
+    titleTag: 'Schreibübungen erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Schreibübungen. Nachfahr- und Abschreib-Modus, Strichreihenfolge-Pfeile und fünf Schriftarten. Kostenlos testen.',
   },
 

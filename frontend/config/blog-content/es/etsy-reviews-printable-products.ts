@@ -13,7 +13,7 @@ const content: BlogContent = {
       'prueba social tienda imprimibles',
       'mejorar resenas Etsy',
     ],
-    titleTag: 'Resenas en Etsy para Imprimibles: Guia Completa | LCS',
+    titleTag: 'Resenas en Etsy para Imprimibles: Guia Completa | LessonCraftStudio',
     metaDescription: 'Como conseguir resenas positivas para sus imprimibles en Etsy. Estrategias eticas que aumentan la confianza del comprador y las ventas.',
   },
   hero: {

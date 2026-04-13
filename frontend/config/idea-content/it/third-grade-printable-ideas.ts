@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede classe terza da stampare | LCS',
+    titleTag: 'Schede classe terza da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede per la classe terza da stampare: tabelline, divisioni, frazioni, comprensione del testo e grammatica. Esercizi per bambini 8-9 anni.',
     primaryKeyword: 'schede classe terza da stampare',
     secondaryKeywords: [

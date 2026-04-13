@@ -13,7 +13,7 @@ const content: BlogContent = {
       'mots cachés Halloween',
       'cahier activités Halloween',
     ],
-    titleTag: 'Imprimables Halloween : vendre en octobre | LCS',
+    titleTag: 'Imprimables Halloween : vendre en octobre | LessonCraftStudio',
     metaDescription: 'Comment vendre des imprimables Halloween en octobre. Types de produits, timing et stratégie marketing.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: StartContent = {
       'varumärkesbyggande Etsy-butik',
       'organisk trafik marknadsplats arbetsblad',
     ],
-    titleTag: 'Marknadsföra din printable-verksamhet | LCS',
+    titleTag: 'Marknadsföra din printable-verksamhet | LessonCraftStudio',
     metaDescription: 'Marknadsför dina printables effektivt: Etsy-SEO, Pinterest-strategi, e-postmarknadsföring och säsongsplanering för arbetsbladsförsäljare.',
   },
 

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'guidato',
       'prescuola',
     ],
-    titleTag: 'Schede Disegna e Colora da Stampare | LCS',
+    titleTag: 'Schede Disegna e Colora da Stampare | LessonCraftStudio',
     metaDescription: 'Schede disegna e colora da stampare per bambini. Attività di disegno guidato per scuola dell\'infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {

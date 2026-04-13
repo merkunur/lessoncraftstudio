@@ -17,7 +17,7 @@ const content: BlogContent = {
       'board',
       'condivisione',
     ],
-    titleTag: 'Promuovere Schede Didattiche su Pinterest | LCS',
+    titleTag: 'Promuovere Schede Didattiche su Pinterest | LessonCraftStudio',
     metaDescription: 'Come usare Pinterest per promuovere schede didattiche stampabili. Strategie di pin e traffico con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

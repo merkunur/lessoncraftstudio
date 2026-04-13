@@ -13,7 +13,7 @@ const content: BlogContent = {
       'long-tail nyckelord printables',
       'svenska sökord Etsy-butik',
     ],
-    titleTag: 'Nyckelordsresearch för Etsy Printables | LCS',
+    titleTag: 'Nyckelordsresearch för Etsy Printables | LessonCraftStudio',
     metaDescription: 'Komplett guide till nyckelordsresearch för printables på Etsy 2026. Verktyg, strategier och svenska sökord som driver trafik.',
   },
   hero: {

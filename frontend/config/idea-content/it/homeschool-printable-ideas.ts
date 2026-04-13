@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede istruzione parentale da stampare | LCS',
+    titleTag: 'Schede istruzione parentale da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede per istruzione parentale da stampare: matematica, lettere, scienze e attività tematiche per bambini homeschool. Materiale didattico completo.',
     primaryKeyword: 'schede istruzione parentale da stampare',
     secondaryKeywords: [

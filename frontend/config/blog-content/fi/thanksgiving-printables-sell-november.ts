@@ -13,7 +13,7 @@ const content: BlogContent = {
       'isänpäivä marraskuu tulosteet',
       'itsenäisyyspäivä tulostettavia',
     ],
-    titleTag: 'Marraskuun tulosteet myyntiin | LCS',
+    titleTag: 'Marraskuun tulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy tulosteita marraskuussa: pikkujoulu ja isänpäivä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

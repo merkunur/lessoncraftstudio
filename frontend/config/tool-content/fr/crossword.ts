@@ -19,7 +19,7 @@ const content: ToolContent = {  seo: {
       'solution',
       '15×15',
     ],
-    titleTag: 'Générateur mots croisés gratuit en ligne | LCS',
+    titleTag: 'Générateur mots croisés gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de mots croisés gratuit — créez des grilles avec indices images sur 15×15 en ligne, sans inscription. Solutions automatiques, PDF 300 DPI. Licence commerciale.',
   },
 

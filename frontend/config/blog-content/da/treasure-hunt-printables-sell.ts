@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'skattejagt printables sælg',
     secondaryKeywords: ['skattejagt printables sælg Etsy', 'skattejagt printables sælg online', 'skattejagt printables sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Skattejagt-Printables: Fødselsdagsmarkedet | LCS',
+    titleTag: 'Skattejagt-Printables: Fødselsdagsmarkedet | LessonCraftStudio',
     metaDescription: 'Skattejagt-printables er et af de mest profitable festprodukter. Forældre betaler gerne for en professionel, printbar skattejagt der sparer dem timer af pl',
   },
   hero: {

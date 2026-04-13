@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Best Activity Book Niches for Amazon KDP | LCS',
+    titleTag: 'Best Activity Book Niches for Amazon KDP | LessonCraftStudio',
     metaDescription: 'Best activity book niches for Amazon KDP sellers. High-demand categories, keyword strategies, and product ideas for profitable KDP activity book publishing.',
 
     primaryKeyword: 'best activity book niches kdp',

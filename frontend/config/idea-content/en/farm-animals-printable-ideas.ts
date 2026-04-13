@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Farm Animal Printables to Sell on Etsy | LCS',
+    titleTag: 'Farm Animal Printables to Sell on Etsy | LessonCraftStudio',
     metaDescription: 'Farm animal printable business ideas for Etsy & KDP sellers. Product concepts, pricing strategies, and seasonal timing for farm-themed printable products.',
 
     primaryKeyword: 'farm animal printables to sell on Etsy',

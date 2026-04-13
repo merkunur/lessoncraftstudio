@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Best Puzzle Worksheet Niches for Etsy | LCS',
+    titleTag: 'Best Puzzle Worksheet Niches for Etsy | LessonCraftStudio',
     metaDescription: 'Discover the most profitable puzzle worksheet niches for Etsy sellers. Niche analysis covering sudoku, mazes, word puzzles, and logic activities with product ideas and selling strategies.',
 
     primaryKeyword: 'best puzzle niches etsy',

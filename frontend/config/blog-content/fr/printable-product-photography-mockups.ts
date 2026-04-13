@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode photographie',
       'astuces photographie produits',
     ],
-    titleTag: 'Photographie de produits imprimables | LCS',
+    titleTag: 'Photographie de produits imprimables | LessonCraftStudio',
     metaDescription: 'Guide complet de la photographie de produits numériques. Mockups, éclairage et mise en scène. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

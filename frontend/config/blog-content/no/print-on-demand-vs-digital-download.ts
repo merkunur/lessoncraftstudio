@@ -8,7 +8,7 @@ const content: BlogContent = {
       'arbeidsark selge KDP eller Etsy sammenligning',
     ],
     lsiKeywords: ['forretningsmodell arbeidsark selgere', 'KDP digital nedlasting fordeler', 'arbeidsark salgskanal sammenligning'],
-    titleTag: 'Print-on-demand vs digital nedlasting arbeidsark | LCS',
+    titleTag: 'Print-on-demand vs digital nedlasting arbeidsark | LessonCraftStudio',
     metaDescription: 'Sammenlign KDP og Etsy som salgskanal for arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

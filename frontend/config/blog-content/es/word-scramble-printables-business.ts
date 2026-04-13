@@ -13,7 +13,7 @@ const content: BlogContent = {
       'anagramas educativos vocabulario',
       'fichas desorden palabras rentable',
     ],
-    titleTag: 'Anagramas Imprimibles: 7 Ideas Productos | LCS',
+    titleTag: 'Anagramas Imprimibles: 7 Ideas Productos | LessonCraftStudio',
     metaDescription: 'Descubra 7 ideas de productos con anagramas imprimibles para vender en Etsy, KDP y Hotmart. Nicho versátil con múltiples públicos.',
   },
   hero: {

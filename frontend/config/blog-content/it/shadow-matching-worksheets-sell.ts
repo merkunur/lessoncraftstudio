@@ -17,7 +17,7 @@ const content: BlogContent = {
       'prescuola',
       'visivo',
     ],
-    titleTag: 'Schede Abbina l\'Ombra da Stampare | LCS',
+    titleTag: 'Schede Abbina l\'Ombra da Stampare | LessonCraftStudio',
     metaDescription: 'Schede di abbinamento ombre da stampare per bambini piccoli. Esercizi di riconoscimento visivo per la prescuola con LessonCraftStudio — 33 generatori.',
   },
   hero: {

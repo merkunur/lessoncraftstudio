@@ -1,4 +1,4 @@
-export type BlogCategory = 'product-guide' | 'platform-strategy' | 'niche-seasonal' | 'how-to';
+export type BlogCategory = 'product-guide' | 'tool-comparison' | 'platform-strategy' | 'niche-seasonal' | 'how-to';
 
 export interface BlogContent {
   seo: {

@@ -15,15 +15,15 @@ const content: BlogContent = {
       'print ready coloring worksheets',
       'activity book coloring content',
     ],
-    titleTag: 'Best Coloring Page Generators for KDP and Etsy in 2026 | LCS',
-    metaDescription: 'Compare the best coloring page generators for KDP and Etsy publishers. 3,000+ images, 104 themes, commercial license. Find the right tool for your coloring book business.',
+    titleTag: 'Best Coloring Page Generators for KDP & Etsy — 2026 Comparison | LessonCraftStudio',
+    metaDescription: 'Compare the top coloring page generators for KDP coloring books and Etsy digital downloads. Image libraries, customization, export quality. 2026 review.',
   },
   hero: {
     title: 'Best Coloring Page Generators for KDP and Etsy in 2026',
     tagline: 'A publisher\'s guide to coloring book creation tools',
     description: 'Coloring books remain one of the most profitable niches on KDP and Etsy. But creating unique, high-quality coloring pages at scale requires the right tools. This roundup compares the leading coloring page generators available to publishers in 2026, from AI-powered options to template-based tools to LessonCraftStudio\'s image library approach.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'Coloring books consistently rank among the top-selling low-content categories on Amazon KDP and Etsy. The barrier to entry is low, which means competition is fierce. Standing out requires either exceptional art, a well-targeted niche, or production volume that covers enough keyword variations to capture long-tail traffic. The right coloring page generator helps with all three. This roundup examines the main approaches to generating coloring pages for commercial use, their strengths and limitations, and which publishers each option serves best.',
   sections: [
     {

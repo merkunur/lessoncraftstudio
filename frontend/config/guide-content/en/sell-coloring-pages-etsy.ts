@@ -15,7 +15,7 @@ const content: GuideContent = {
       'etsy printable shop',
       'coloring book PDF',
     ],
-    titleTag: 'Sell Coloring Pages on Etsy -- Guide | LCS',
+    titleTag: 'Sell Coloring Pages on Etsy -- Guide | LessonCraftStudio',
     metaDescription: 'Complete guide to selling coloring pages on Etsy. Niche selection, creation with LessonCraftStudio, listing optimization, pricing strategy. Try free trial with watermark.',
   },
 

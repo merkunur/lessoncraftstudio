@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg mønsteroppgaver arbeidsark nettbutikk Etsy',
     secondaryKeywords: ['mønsteroppgaver barn selge digitalt', 'mønstergjenkjenning arbeidsark KDP bøker', 'lag mønsteroppgaver kommersiell lisens'],
     lsiKeywords: ['mønster arbeidsark forretning', 'logisk tenkning oppgaver selge', 'mønstergjenkjenning barn Etsy'],
-    titleTag: 'Selg mønsteroppgaver på nett | LCS',
+    titleTag: 'Selg mønsteroppgaver på nett | LessonCraftStudio',
     metaDescription: 'Mønsteroppgaver for barn er ettertraktet hele året. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

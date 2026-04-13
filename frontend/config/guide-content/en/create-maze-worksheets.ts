@@ -14,7 +14,7 @@ const content: GuideContent = {
       'themed maze activity templates',
       'difficulty-tiered maze printables',
     ],
-    titleTag: 'Create Maze Worksheets to Sell on Etsy & KDP | LCS',
+    titleTag: 'Create Maze Worksheets to Sell on Etsy & KDP | LessonCraftStudio',
     metaDescription: 'Create maze worksheets that sell. Three game modes, themed paths, difficulty tiers. Guide for Etsy, KDP, and TPT sellers. Try our tool free.',
   },
 

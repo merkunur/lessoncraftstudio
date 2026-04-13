@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant I Spy counting maker',
       'try before you buy counting tools',
     ],
-    titleTag: 'Free Find and Count Worksheet Generator | LCS',
+    titleTag: 'Free Find and Count Worksheet Generator | LessonCraftStudio',
     metaDescription: 'Make find-and-count worksheets free online with watermark — no signup. I Spy + Letter Spotting modes, auto answer keys. Upgrade for commercial license.',
   },
 

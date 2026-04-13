@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'tegn og farvelæg arbejdsark sælg',
     secondaryKeywords: ['tegn og farvelæg arbejdsark sælg Etsy', 'tegn og farvelæg arbejdsark sælg online', 'tegn og farvelæg arbejdsark sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Tegn og Farvelæg Arbejdsark: Sælg Kreativitet | LCS',
+    titleTag: 'Tegn og Farvelæg Arbejdsark: Sælg Kreativitet | LessonCraftStudio',
     metaDescription: 'Tegn-og-farvelæg arbejdsark kombinerer instruerede tegneøvelser med fri farvelægning. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

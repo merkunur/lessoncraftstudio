@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant more less maker',
       'try before you buy math tools',
     ],
-    titleTag: 'Free Greater Than Less Than Maker | LCS',
+    titleTag: 'Free Greater Than Less Than Maker | LessonCraftStudio',
     metaDescription: 'Make greater than less than worksheets free online with watermark — no signup. 3 comparison modes, themed images, answer keys. Upgrade to sell.',
   },
 

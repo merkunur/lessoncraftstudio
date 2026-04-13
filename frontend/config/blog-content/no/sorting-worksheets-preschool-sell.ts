@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'sorteringsoppgaver barnehage selge Etsy',
     secondaryKeywords: ['bildesortering arbeidsark forretning', 'sortering oppgaver barn selge nettbutikk', 'barnehage arbeidsark Etsy strategi'],
     lsiKeywords: ['sortering oppgaver salg', 'pedagogiske arbeidsark forretning', 'Etsy digital nedlasting barnehage'],
-    titleTag: 'Sorteringsoppgaver for barnehage: Selg | LCS',
+    titleTag: 'Sorteringsoppgaver for barnehage: Selg | LessonCraftStudio',
     metaDescription: 'Lag og selg sorteringsoppgaver for barnehage på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

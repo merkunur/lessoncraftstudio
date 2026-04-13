@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'spesialundervisning arbeidsark selge Etsy',
     secondaryKeywords: ['tilpassede arbeidsark selge nettbutikk', 'spesialpedagogikk oppgaver forretning', 'arbeidsark tilpasset opplæring Etsy KDP'],
     lsiKeywords: ['tilrettelagte oppgaver barn salg', 'spesialundervisning materialer nisje', 'arbeidsark kommersiell lisens'],
-    titleTag: 'Spesialundervisning-arbeidsark: Selg | LCS',
+    titleTag: 'Spesialundervisning-arbeidsark: Selg | LessonCraftStudio',
     metaDescription: 'Lag og selg tilpassede arbeidsark for spesialundervisning på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Second Grade Printable Business Ideas | LCS',
+    titleTag: 'Second Grade Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Second grade printable business ideas for Etsy & KDP. Grade-specific product concepts and strategies for grade 2 printable sellers.',
 
     primaryKeyword: 'second grade printable business ideas',

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'räumliches Denken',
       'Symmetrie',
     ],
-    titleTag: 'Kostenloser Gitter-Zuordnung Generator | LCS',
+    titleTag: 'Kostenloser Gitter-Zuordnung Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Gitter-Zuordnungsrätsel Ersteller — Abzeichnen-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 

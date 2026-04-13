@@ -15,7 +15,7 @@ const content: GuideContent = {
       'early learning visual comparison',
       'pre-kindergarten worksheet market',
     ],
-    titleTag: 'Sell Size Comparison Worksheets on Etsy | LCS',
+    titleTag: 'Sell Size Comparison Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Create and sell big & small size comparison worksheets on Etsy. 5 question types, pre-K market, 104 themes, 11 languages. Step-by-step seller guide. Try free trial.',
   },
 

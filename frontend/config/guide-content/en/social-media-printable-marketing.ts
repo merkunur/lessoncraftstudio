@@ -14,7 +14,7 @@ const content: GuideContent = {
       'social media sales funnel digital products',
       'organic reach for Etsy shops',
     ],
-    titleTag: 'Social Media Marketing for Printables | LCS',
+    titleTag: 'Social Media Marketing for Printables | LessonCraftStudio',
     metaDescription: 'Social media marketing for printable sellers. Platform strategies, content ideas, and tactics to drive traffic and sales to your printable shop.',
   },
 

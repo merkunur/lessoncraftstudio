@@ -17,7 +17,7 @@ const content: BlogContent = {
       'puzzle',
       'matematica',
     ],
-    titleTag: 'Puzzle Addizione con Codice da Stampare | LCS',
+    titleTag: 'Puzzle Addizione con Codice da Stampare | LessonCraftStudio',
     metaDescription: 'Puzzle matematici con codice segreto da stampare per bambini. Esercizi di addizione e decodifica con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

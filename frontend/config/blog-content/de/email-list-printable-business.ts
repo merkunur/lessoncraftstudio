@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Lead Magnet Arbeitsblaetter',
       'Newsletter Strategie Etsy Shop',
     ],
-    titleTag: 'E-Mail-Liste fuer Druckvorlagen-Geschaeft | LCS',
+    titleTag: 'E-Mail-Liste fuer Druckvorlagen-Geschaeft | LessonCraftStudio',
     metaDescription: 'So bauen Sie eine E-Mail-Liste fuer Ihr Druckvorlagen-Geschaeft auf. Lead Magnets, Newsletter-Strategie und Tools fuer Etsy-Verkaeufer.',
   },
   hero: {

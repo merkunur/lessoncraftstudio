@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances imprimables',
       'demande fiches jeux imprimables',
     ],
-    titleTag: 'Jeux imprimables pour anniversaires | LCS',
+    titleTag: 'Jeux imprimables pour anniversaires | LessonCraftStudio',
     metaDescription: 'Créez et vendez des jeux imprimables pour les fêtes d\'anniversaire. Un créneau evergreen rentable.',
   },
   hero: {

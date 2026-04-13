@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'pakkestrategi arbeidsark Etsy selgere lønnsomhet',
     secondaryKeywords: ['arbeidsark pakker Etsy høyere fortjeneste', 'pakkeprising digitale produkter strategi', 'sett sammen arbeidsark pakker selge'],
     lsiKeywords: ['pakkestrategi digital butikk', 'ordreverdi arbeidsark Etsy', 'pakkeprising lønnsomhet selgere'],
-    titleTag: 'Pakkestrategi for arbeidsark på Etsy | LCS',
+    titleTag: 'Pakkestrategi for arbeidsark på Etsy | LessonCraftStudio',
     metaDescription: 'Pakker tredobler gjennomsnittlig ordreverdi for arbeidsark-selgere. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

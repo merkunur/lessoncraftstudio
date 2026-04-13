@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles actividades fichas', 'vender imprimibles imprimibles', 'pequenos toddler educativos'],
-    titleTag: 'Imprimibles para Ninos de 2-4 Anos | LCS',
+    titleTag: 'Imprimibles para Ninos de 2-4 Anos | LessonCraftStudio',
     metaDescription: 'Los ninos de 2 a 4 anos estan en una etapa critica de desarrollo donde la motricidad fina, el reconocimiento de. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

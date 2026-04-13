@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Summer Learning Printables to Sell | LCS',
+    titleTag: 'Summer Learning Printables to Sell | LessonCraftStudio',
     metaDescription: 'Summer learning printable ideas for Etsy & KDP. Summer slide prevention concepts and strategies for educational printable sellers.',
 
     primaryKeyword: 'summer learning printables to sell',

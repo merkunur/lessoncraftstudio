@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'første måned Etsy arbeidsark-butikk',
     secondaryKeywords: ['start Etsy-butikk oppgaver 30 dager', 'ny Etsy-selger arbeidsark plan', 'første salg Etsy digitale nedlastinger'],
     lsiKeywords: ['Etsy butikkoppsett selger', 'uke-for-uke plan Etsy oppstart', 'arbeidsark-butikk lansering'],
-    titleTag: 'Din første måned som Etsy arbeidsark-selger | LCS',
+    titleTag: 'Din første måned som Etsy arbeidsark-selger | LessonCraftStudio',
     metaDescription: 'Fra null til første salg på 30 dager med arbeidsark på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

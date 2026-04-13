@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant tile matching maker',
       'try before you buy puzzle tools',
     ],
-    titleTag: 'Free Grid Matching Puzzle Maker | LCS',
+    titleTag: 'Free Grid Matching Puzzle Maker | LessonCraftStudio',
     metaDescription: 'Make grid matching puzzles free online with watermark — no signup. Configurable grids, clue cells, auto answer keys, 104 themes. Upgrade for commercial use',
   },
 

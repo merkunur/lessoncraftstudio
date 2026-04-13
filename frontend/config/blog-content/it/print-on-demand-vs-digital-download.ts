@@ -17,7 +17,7 @@ const content: BlogContent = {
       'digitale',
       'confronto',
     ],
-    titleTag: 'Stampa su Richiesta vs Download PDF | LCS',
+    titleTag: 'Stampa su Richiesta vs Download PDF | LessonCraftStudio',
     metaDescription: 'Confronto tra stampa su richiesta e download PDF per schede didattiche. Quale modello di distribuzione scegliere con LessonCraftStudio — 33 generatori.',
   },
   hero: {

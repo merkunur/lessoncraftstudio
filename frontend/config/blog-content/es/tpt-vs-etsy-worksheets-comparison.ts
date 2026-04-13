@@ -9,7 +9,7 @@ const content: BlogContent = {
       'vender plataforma',
     ],
     lsiKeywords: ['Editorial MD analisis', 'comparacion plataformas imprimibles', 'vender fichas online'],
-    titleTag: 'Editorial MD, Hotmart vs Etsy: Donde Vender Fichas | LCS',
+    titleTag: 'Editorial MD, Hotmart vs Etsy: Donde Vender Fichas | LessonCraftStudio',
     metaDescription: 'Comparar Editorial MD Hotmart con Etsy para vender fichas educativas en el mercado hispanohablante.',
   },
   hero: {

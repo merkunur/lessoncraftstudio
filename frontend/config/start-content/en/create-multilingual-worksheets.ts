@@ -15,7 +15,7 @@ const content: StartContent = {
       'international printable market',
       'multi-language product strategy',
     ],
-    titleTag: 'Create Multilingual Worksheets to Sell | LCS',
+    titleTag: 'Create Multilingual Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'How to create worksheets in multiple languages to sell. 11-language support, locale-specific content, and strategies for international markets.',
   },
 

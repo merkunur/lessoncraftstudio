@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'specialundervisning printables dedikeret niche',
     secondaryKeywords: ['specialundervisning printables sælg Etsy', 'specialundervisning printables sælg online', 'specialundervisning printables sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Specialundervisning-Printables: En Dedikeret Niche | LCS',
+    titleTag: 'Specialundervisning-Printables: En Dedikeret Niche | LessonCraftStudio',
     metaDescription: 'Specialundervisning er en nichetype med dedikerede, betalingsvillige købere. Forældre til børn med særlige behov søger målrettet efter tilpassede materiale',
   },
   hero: {

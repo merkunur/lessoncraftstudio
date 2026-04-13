@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Ozean Unterwasserwelt Druckvorlagen ganzjährig',
       'Meeresbiologie-Thema Nische Etsy-Shop',
     ],
-    titleTag: 'Unterwasser-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Unterwasser-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Unterwasser-Druckvorlagen als profitable Etsy-Nische entdecken. Fische, Delfine und Korallenriffe als ganzjähriges Thema — Produktideen und Strategien für Ihren Shop.',
   },
   hero: {

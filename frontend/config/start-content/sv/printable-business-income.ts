@@ -17,7 +17,7 @@ const content: StartContent = {
       'tidsinvestering printable-verksamhet',
       'flera intäktsströmmar digitala produkter',
     ],
-    titleTag: 'Hur mycket tjänar man på printables? | LCS',
+    titleTag: 'Hur mycket tjänar man på printables? | LessonCraftStudio',
     metaDescription: 'Realistiska inkomstförväntningar för printable-säljare. Plattformsavgifter, prissättning, katalogstorlek och faktorerna du kontrollerar.',
   },
 

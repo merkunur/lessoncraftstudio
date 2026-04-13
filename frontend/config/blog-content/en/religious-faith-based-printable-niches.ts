@@ -15,7 +15,7 @@ const content: BlogContent = {
       'Bible verse printable market',
       'religious education materials Etsy',
     ],
-    titleTag: 'Religious & Faith-Based Printable Niches: Sell on Etsy & KDP | LCS',
+    titleTag: 'Religious & Faith-Based Printable Niches: Sell on Etsy & KDP | LessonCraftStudio',
     metaDescription: 'Faith-based printables are a loyal, underserved niche. Learn which religious sub-niches sell best on Etsy and KDP — from VBS activities to Bible journaling.',
   },
   hero: {

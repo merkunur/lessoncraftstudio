@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede autunno e raccolto da stampare | LCS',
+    titleTag: 'Schede autunno e raccolto da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede autunnali da stampare: colorare zucche e foglie, conteggio raccolto, crucipuzzle autunno e attività sulla gratitudine per bambini 3-8 anni.',
     primaryKeyword: 'schede autunno da stampare',
     secondaryKeywords: [

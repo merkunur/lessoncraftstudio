@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Kindergeburtstag',
       'Klassenaktivität',
     ],
-    titleTag: 'Kostenloser Schatzsuche-Generator | LCS',
+    titleTag: 'Kostenloser Schatzsuche-Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Schatzsuche-Generator — Schnitzeljagd-Arbeitsblätter sofort erstellen, ohne Anmeldung. Druckfertige PDFs. Lizenz für Etsy & KDP.',
   },
 

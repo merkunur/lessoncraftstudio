@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tulostekauppa ilman Canvaa',
       'automaattinen tulosteiden luominen',
     ],
-    titleTag: 'Tulostekauppa ilman designtaitoja | LCS',
+    titleTag: 'Tulostekauppa ilman designtaitoja | LessonCraftStudio',
     metaDescription: 'Aloita tulosteliiketoiminta ilman designtaitoja. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

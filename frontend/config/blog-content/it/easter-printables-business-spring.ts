@@ -17,7 +17,7 @@ const content: BlogContent = {
       'pulcino',
       'lavoretti',
     ],
-    titleTag: 'Schede Didattiche Pasqua da Stampare | LCS',
+    titleTag: 'Schede Didattiche Pasqua da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche di Pasqua da stampare per bambini. Attività pasquali per scuola primaria e infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {

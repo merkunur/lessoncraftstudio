@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tekijänoikeuslaki Suomi',
       'alkuperäisen sisällön suojaus',
     ],
-    titleTag: 'Tekijänoikeus tulostemyyjille | LCS',
+    titleTag: 'Tekijänoikeus tulostemyyjille | LessonCraftStudio',
     metaDescription: 'Ymmärrä tekijänoikeuden perusteet tulostemyyjänä ja suojaa työsi. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

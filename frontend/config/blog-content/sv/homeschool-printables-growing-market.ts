@@ -13,7 +13,7 @@ const content: BlogContent = {
       'flerspråkiga lärresurser hemundervisare',
       'internationell hemundervisning trend',
     ],
-    titleTag: 'Sälj Homeschool-Printables Internationellt | LCS',
+    titleTag: 'Sälj Homeschool-Printables Internationellt | LessonCraftStudio',
     metaDescription: 'Hemundervisning-marknaden växer globalt. Nå internationella homeschool-familjer med flerspråkiga printables via Etsy.',
   },
   hero: {

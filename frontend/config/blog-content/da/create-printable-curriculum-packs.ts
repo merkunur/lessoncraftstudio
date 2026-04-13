@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'opret printbar curriculum pakker folkeskole',
     secondaryKeywords: ['opret printbar curriculum pakker folkeskole Etsy', 'opret printbar curriculum pakker folkeskole online', 'opret printbar curriculum pakker folkeskole sælg'],
     lsiKeywords: ['printbar forretning', 'digital download salg', 'Etsy printables'],
-    titleTag: 'Opret Printbare Curriculum-Pakker til Folkeskolen | LCS',
+    titleTag: 'Opret Printbare Curriculum-Pakker til Folkeskolen | LessonCraftStudio',
     metaDescription: 'Curriculum-pakker er de mest værdifulde printable-produkter du kan oprette. En velstruktureret pakke der dækker et helt emne eller klassetrin kan sælges fo',
   },
   hero: {

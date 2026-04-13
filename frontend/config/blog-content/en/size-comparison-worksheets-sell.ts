@@ -13,7 +13,7 @@ const content: BlogContent = {
       'comparison worksheets preschool sell',
       'size ordering activities printable',
     ],
-    titleTag: 'Big & Small Worksheets: Toddler Sales | LCS',
+    titleTag: 'Big & Small Worksheets: Toddler Sales | LessonCraftStudio',
     metaDescription: 'Big and small worksheets are toddler printables that sell year-round. Learn to create and price size comparison activities for early learners.',
   },
   hero: {

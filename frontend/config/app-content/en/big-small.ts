@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Size Comparison Generator — Toddler KDP Books | LessonCraftStudio',
-    metaDescription: 'Create big-and-small size comparison worksheets for toddler KDP books and Etsy. Consistent demand, bulk generate. Commercial license. Try free trial.',
+    titleTag: 'Size Comparison Worksheet Generator — Toddler KDP Books | LessonCraftStudio',
+    metaDescription: 'Generate big and small comparison worksheets for KDP toddler activity books. Themed images, visual learning format, auto answer keys. Commercial license. Try free.',
   },
 
   hero: {

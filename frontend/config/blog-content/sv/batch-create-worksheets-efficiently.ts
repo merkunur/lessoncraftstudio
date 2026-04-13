@@ -13,7 +13,7 @@ const content: BlogContent = {
       'produktivitet printable business',
       'automatisera skapande arbetsblad',
     ],
-    titleTag: 'Batch-Skapa Arbetsblad: 50+ Per Timme | LCS',
+    titleTag: 'Batch-Skapa Arbetsblad: 50+ Per Timme | LessonCraftStudio',
     metaDescription: 'Skapa 50+ professionella arbetsblad per timme med batch-teknik. Spara tid och skala din printable-verksamhet på Etsy och KDP.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Druckvorlagen Sammlungen Gewinn',
       'Arbeitsblatt Pakete zusammenstellen',
     ],
-    titleTag: 'Druckvorlagen-Pakete die sich auf Etsy verkaufen | LCS',
+    titleTag: 'Druckvorlagen-Pakete die sich auf Etsy verkaufen | LessonCraftStudio',
     metaDescription: 'So erstellen Sie Druckvorlagen-Bundles die sich auf Etsy.de verkaufen. Zusammenstellung, Preisgestaltung und die Bundle-Typen mit dem hoechsten Gewinn.',
   },
   hero: {

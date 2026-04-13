@@ -14,7 +14,7 @@ const content: GuideContent = {
       'fair use printable worksheets',
       'DMCA takedown printable sellers',
     ],
-    titleTag: 'Copyright for Printable Sellers Guide | LCS',
+    titleTag: 'Copyright for Printable Sellers Guide | LessonCraftStudio',
     metaDescription: 'Copyright guide for printable sellers. Protect your designs, understand fair use, handle infringement, and avoid legal mistakes on Etsy and KDP.',
   },
 

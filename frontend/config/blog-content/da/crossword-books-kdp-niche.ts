@@ -13,7 +13,7 @@ const content: BlogContent = {
       'krydsord niche marked',
       'Amazon bog puslespil indtægt',
     ],
-    titleTag: 'Krydsordsbøger på KDP: Niche-Guide | LCS',
+    titleTag: 'Krydsordsbøger på KDP: Niche-Guide | LessonCraftStudio',
     metaDescription: 'Krydsordsbøger er en profitabel KDP-niche med stabil efterspørgsel. Lær at oprette, formatere og udgive krydsordsbøger der sælger på Amazon.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'luontoteemat kevät tulostettavia',
       'kausiluonteiset tulosteet kevät',
     ],
-    titleTag: 'Kevättulosteet maalis-huhtikuussa | LCS',
+    titleTag: 'Kevättulosteet maalis-huhtikuussa | LessonCraftStudio',
     metaDescription: 'Myy kevättulosteita maalis-huhtikuun sesonkiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

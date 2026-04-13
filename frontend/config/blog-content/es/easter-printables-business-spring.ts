@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles Semana fichas', 'vender imprimibles imprimibles', 'Pascua primavera educativos'],
-    titleTag: 'Imprimibles de Semana Santa y Pascua | LCS',
+    titleTag: 'Imprimibles de Semana Santa y Pascua | LessonCraftStudio',
     metaDescription: 'Semana Santa y Pascua representan una temporada de ventas significativa en el mundo hispanohablante. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

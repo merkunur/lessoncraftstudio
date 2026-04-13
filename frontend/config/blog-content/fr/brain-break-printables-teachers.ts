@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances pauses',
       'demande fiches fiches pauses',
     ],
-    titleTag: 'Fiches pauses actives pour enseignants | LCS',
+    titleTag: 'Fiches pauses actives pour enseignants | LessonCraftStudio',
     metaDescription: 'Les fiches de pauses actives (brain breaks) sont recherchées par les enseignants. Un créneau de niche rentable.',
   },
   hero: {

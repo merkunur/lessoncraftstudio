@@ -13,7 +13,7 @@ const content: BlogContent = {
       'planeetat tähdet tehtäväarkit',
       'tiede tulostettavia',
     ],
-    titleTag: 'Avaruusteema-tulosteet myyntiin | LCS',
+    titleTag: 'Avaruusteema-tulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy avaruusaiheisia tulostettavia: STEM-trendi kasvaa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

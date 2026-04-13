@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy listing optimering arbejdsark',
     secondaryKeywords: ['Etsy listing optimering arbejdsark Etsy', 'Etsy listing optimering arbejdsark online', 'Etsy listing optimering arbejdsark forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Etsy-Listing Optimering for Arbejdsark | LCS',
+    titleTag: 'Etsy-Listing Optimering for Arbejdsark | LessonCraftStudio',
     metaDescription: 'Din Etsy-listing er din sælger. Den skal tiltrække klik, overbevise om kvalitet og konvertere til salg — alt sammen uden menneskelig interaktion. Denne gui',
   },
   hero: {

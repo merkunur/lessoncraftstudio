@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kirjaintunnistus esikoulu',
       'suomalaiset aakkoset 29 kirjainta',
     ],
-    titleTag: 'Myy aakkostyöarkkeja Etsyssä | LCS',
+    titleTag: 'Myy aakkostyöarkkeja Etsyssä | LessonCraftStudio',
     metaDescription: 'Aakkostyöarkit ovat bestseller-tuote — 29 kirjainta on kilpailuetu. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

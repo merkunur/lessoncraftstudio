@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Identisch-Modus Ähnlich-Modus druckfertig',
       'Lösungsschlüssel 300 DPI PDF',
     ],
-    titleTag: 'Was-passt-nicht-Rätsel erstellen | Anleitung | LCS',
+    titleTag: 'Was-passt-nicht-Rätsel erstellen | Anleitung | LessonCraftStudio',
     metaDescription: 'Schritt-für-Schritt Anleitung zum Erstellen von Was-passt-nicht-Rätseln. Identisch- und Ähnlich-Modus, Pro-Übung-Konfiguration und Lösungsschlüssel. Kostenlos testen.',
   },
 

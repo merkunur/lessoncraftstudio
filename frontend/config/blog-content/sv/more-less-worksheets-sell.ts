@@ -13,7 +13,7 @@ const content: BlogContent = {
       'större mindre övningsblad barn',
       'matte grundbegrepp printable nisch',
     ],
-    titleTag: 'Sälj Mer-Mindre-Arbetsblad på Etsy | LCS',
+    titleTag: 'Sälj Mer-Mindre-Arbetsblad på Etsy | LessonCraftStudio',
     metaDescription: 'Mer-mindre-arbetsblad säljer stabilt för barn 3-6 år. Grundläggande matteövningar som varje barn behöver. Sälj på Etsy.',
   },
   hero: {

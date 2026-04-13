@@ -13,7 +13,7 @@ const content: BlogContent = {
       'spring coloring pages profit',
       'march april printable sales',
     ],
-    titleTag: 'Spring Printables: March & April Sales | LCS',
+    titleTag: 'Spring Printables: March & April Sales | LessonCraftStudio',
     metaDescription: 'Spring printables sell strongly in March-April. Learn which flower, butterfly, and garden themes convert and how to extend into 10 weeks of revenue.',
   },
   hero: {

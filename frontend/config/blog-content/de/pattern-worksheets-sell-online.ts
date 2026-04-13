@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Sequenzen erkennen Vorschule',
       'MINT Foerderung Druckvorlagen',
     ],
-    titleTag: 'Muster-Arbeitsblaetter: Die MINT-Nische | LCS',
+    titleTag: 'Muster-Arbeitsblaetter: Die MINT-Nische | LessonCraftStudio',
     metaDescription: 'Warum Muster-Arbeitsblaetter die MINT-Nische auf Etsy.de sind. Wenig Konkurrenz, hohe Nachfrage, Premium-Preise im DACH-Bildungsmarkt.',
   },
   hero: {

@@ -15,7 +15,7 @@ const content: GuideContent = {
       'mixed format kids workbook',
       'print-ready children activities',
     ],
-    titleTag: 'Create a Kids Activity Book for KDP | LCS',
+    titleTag: 'Create a Kids Activity Book for KDP | LessonCraftStudio',
     metaDescription: 'Create professional kids activity books for Amazon KDP. Coloring, word search, find-and-count, and more. Themed collections for ages 4-10. Step-by-step KDP workflow. Try free trial.',
   },
 

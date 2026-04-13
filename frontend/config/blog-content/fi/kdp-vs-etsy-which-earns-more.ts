@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Etsy-palkkiot digitaaliset tuotteet',
       'monikanavainen myyntistrategia',
     ],
-    titleTag: 'KDP vai Etsy: kumpi tuottaa enemmän? | LCS',
+    titleTag: 'KDP vai Etsy: kumpi tuottaa enemmän? | LessonCraftStudio',
     metaDescription: 'Vertaile KDP:tä ja Etsyä tulostemyyjänä realistisesti. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

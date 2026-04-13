@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'meilleures niches imprimables faible concurrence',
     secondaryKeywords: ['niches rentables fiches Etsy 2026', 'imprimables peu concurrentiels', 'marchés inexploités imprimables éducatifs'],
     lsiKeywords: ['analyse concurrence Etsy fiches', 'créneau porteur imprimables', 'idées niches fiches exercices'],
-    titleTag: 'Meilleures niches imprimables à faible concurrence | LCS',
+    titleTag: 'Meilleures niches imprimables à faible concurrence | LessonCraftStudio',
     metaDescription: 'Découvrez les niches d\'imprimables les moins concurrentielles et les plus rentables en 2026. Analyse du marché français et opportunités.',
   },
   hero: {

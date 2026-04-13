@@ -17,7 +17,7 @@ const content: BlogContent = {
       'smistamento',
       'logica',
     ],
-    titleTag: 'Schede Classificazione da Stampare Bambini | LCS',
+    titleTag: 'Schede Classificazione da Stampare Bambini | LessonCraftStudio',
     metaDescription: 'Schede di classificazione e raggruppamento da stampare per bambini. Esercizi di logica per scuola dell\'infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {

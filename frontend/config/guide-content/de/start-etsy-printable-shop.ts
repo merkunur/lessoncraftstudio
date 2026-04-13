@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Etsy Gebühren Nettoumsatz druckbare Produkte',
       'Bewertungen aufbauen Katalog erweitern Kategorie-Autorität',
     ],
-    titleTag: 'Etsy Druckvorlagen-Shop eröffnen | LCS',
+    titleTag: 'Etsy Druckvorlagen-Shop eröffnen | LessonCraftStudio',
     metaDescription: 'Etsy Druckvorlagen-Shop eröffnen: Schritt-fuer-Schritt-Anleitung von der Kontoerstellung ueber Branding und SEO bis zum 30-Tage-Startplan mit 33 Generatoren.',
   },
 

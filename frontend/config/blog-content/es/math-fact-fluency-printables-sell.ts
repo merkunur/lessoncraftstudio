@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles fluidez fichas', 'vender imprimibles imprimibles', 'operaciones basicas educativos'],
-    titleTag: 'Imprimibles de Fluidez Matematica | LCS',
+    titleTag: 'Imprimibles de Fluidez Matematica | LessonCraftStudio',
     metaDescription: 'La fluidez en operaciones matematicas basicas (suma, resta, multiplicacion, division) es una necesidad universal. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

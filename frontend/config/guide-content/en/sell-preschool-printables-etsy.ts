@@ -15,7 +15,7 @@ const content: GuideContent = {
       'developmental milestone worksheets',
       'parent buyer persona printable market',
     ],
-    titleTag: 'Sell Preschool Printables on Etsy | LCS',
+    titleTag: 'Sell Preschool Printables on Etsy | LessonCraftStudio',
     metaDescription: 'Sell preschool printables on Etsy step by step. Tracing, matching, coloring, patterns for ages 2-5. Parent buyer persona, developmental milestones, and pricing.',
   },
 

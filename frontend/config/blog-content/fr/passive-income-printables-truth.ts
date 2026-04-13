@@ -13,7 +13,7 @@ const content: BlogContent = {
       'automatiser boutique Etsy fiches',
       'effort maintenance imprimables',
     ],
-    titleTag: 'Revenus passifs d\'imprimables : la vérité | LCS',
+    titleTag: 'Revenus passifs d\'imprimables : la vérité | LessonCraftStudio',
     metaDescription: 'Les revenus d\'imprimables sont-ils vraiment passifs ? La vérité sur l\'effort requis, la maintenance et ce que. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

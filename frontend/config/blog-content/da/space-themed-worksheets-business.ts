@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'rum tema arbejdsark forretning',
     secondaryKeywords: ['rum tema arbejdsark forretning Etsy', 'rum tema arbejdsark forretning online', 'rum tema arbejdsark forretning forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Rumtema-Arbejdsark: Forretningsguide | LCS',
+    titleTag: 'Rumtema-Arbejdsark: Forretningsguide | LessonCraftStudio',
     metaDescription: 'Rumtemaer er et af de mest populære temaer for drenge 4-9 år. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

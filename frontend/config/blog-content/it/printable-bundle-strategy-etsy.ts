@@ -17,7 +17,7 @@ const content: BlogContent = {
       'risparmio',
       'completo',
     ],
-    titleTag: 'Strategia Pacchetti Schede Didattiche | LCS',
+    titleTag: 'Strategia Pacchetti Schede Didattiche | LessonCraftStudio',
     metaDescription: 'Come creare pacchetti di schede didattiche che offrono valore. Strategia bundle per materiale educativo con LessonCraftStudio — 33 generatori.',
   },
   hero: {

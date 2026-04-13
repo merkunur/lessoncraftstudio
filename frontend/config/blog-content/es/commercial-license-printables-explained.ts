@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'licencia comercial imprimibles explicada',
     secondaryKeywords: ["que es licencia comercial imprimibles","licencia uso comercial fichas","vender imprimibles con licencia"],
     lsiKeywords: ["derechos uso imprimibles","licencia imprimibles Etsy","uso comercial fichas educativas"],
-    titleTag: 'Licencia Comercial para Imprimibles Explicada | LCS',
+    titleTag: 'Licencia Comercial para Imprimibles Explicada | LessonCraftStudio',
     metaDescription: 'Entienda las licencias comerciales para imprimibles. Que puede y que no puede hacer al comprar y vender fichas educativas con licencia.',
   },
   hero: {

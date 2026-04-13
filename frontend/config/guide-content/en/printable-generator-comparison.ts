@@ -15,7 +15,7 @@ const content: GuideContent = {
       'multi-language printable maker',
       'bulk worksheet creation',
     ],
-    titleTag: 'Best Printable Generators Compared (2026) | LCS',
+    titleTag: 'Best Printable Generators Compared (2026) | LessonCraftStudio',
     metaDescription: 'Compare the best printable generators for Etsy, KDP, and TPT sellers. See how output quality, cost models, and features stack up. 33 generators, one-time payment.',
   },
 

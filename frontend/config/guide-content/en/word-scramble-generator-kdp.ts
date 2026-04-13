@@ -15,7 +15,7 @@ const content: GuideContent = {
       'image clue word puzzles',
       'print-ready puzzle PDF',
     ],
-    titleTag: 'Word Scramble Generator for KDP Books | LCS',
+    titleTag: 'Word Scramble Generator for KDP Books | LessonCraftStudio',
     metaDescription: 'Create professional word scramble puzzle books for Amazon KDP. Shuffled letter tiles, image clues, 4 difficulty levels, 11 languages. Step-by-step KDP workflow. Try free trial.',
   },
 

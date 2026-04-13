@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ristikot aikuisille KDP',
       'sanatehtävät kirjana Amazon',
     ],
-    titleTag: 'Ristikkokirjat KDP-nichena | LCS',
+    titleTag: 'Ristikkokirjat KDP-nichena | LessonCraftStudio',
     metaDescription: 'Julkaise ristikkokirjoja Amazon KDP:ssä — kasvava niche vakaalla kysynnällä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

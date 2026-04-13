@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances animaux',
       'demande fiches imprimables animaux',
     ],
-    titleTag: 'Imprimables animaux de la ferme | LCS',
+    titleTag: 'Imprimables animaux de la ferme | LessonCraftStudio',
     metaDescription: 'Les imprimables sur les animaux de la ferme sont un best-seller maternelle. Types de fiches et stratégie.',
   },
   hero: {

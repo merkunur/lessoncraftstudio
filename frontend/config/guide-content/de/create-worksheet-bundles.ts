@@ -14,7 +14,7 @@ const content: GuideContent = {
       'komplementäre Produkte wahrgenommener Wert',
       'Konversionsrate Umsatz pro Transaktion steigern',
     ],
-    titleTag: 'Arbeitsblatt-Bundles erstellen | LCS',
+    titleTag: 'Arbeitsblatt-Bundles erstellen | LessonCraftStudio',
     metaDescription: 'Arbeitsblatt-Bundles erstellen: Anleitung zu Pakettypen, Preispsychologie, Wert-Stapelung und professioneller Verpackung. Mehr Umsatz pro Transaktion auf Etsy und KDP.',
   },
 

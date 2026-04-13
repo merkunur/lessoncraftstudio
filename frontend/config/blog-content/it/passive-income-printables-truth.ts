@@ -17,7 +17,7 @@ const content: BlogContent = {
       'tempo',
       'impegno',
     ],
-    titleTag: 'Guadagnare con Schede Didattiche: Realtà | LCS',
+    titleTag: 'Guadagnare con Schede Didattiche: Realtà | LessonCraftStudio',
     metaDescription: 'Quanto si guadagna realmente con schede didattiche online. Aspettative realistiche e timeline con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

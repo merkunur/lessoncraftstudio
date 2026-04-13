@@ -13,7 +13,7 @@ const content: BlogContent = {
       'teemoitetut työarkit markkinointi',
       'erottuvuus Etsy-hakutuloksissa',
     ],
-    titleTag: 'Teemakuvat tulosteissa: myy enemmän | LCS',
+    titleTag: 'Teemakuvat tulosteissa: myy enemmän | LessonCraftStudio',
     metaDescription: 'Käytä teemakuvia tehtäväarkeissa ja erotut Etsyssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

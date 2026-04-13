@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP bokstavsigenkänning pysselbok alfabet',
       'kommersiell licens flerspråkig 11 språk bokstavsträning',
     ],
-    titleTag: 'Skapa alfabetsövningar att skriva ut | LCS',
+    titleTag: 'Skapa alfabetsövningar att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa alfabetståg-arbetsblad med bokstavsigenkänning, 11 språk och konfigurerbar svårighet. Exportera PDF att sälja på Etsy och Amazon KDP.',
   },
 

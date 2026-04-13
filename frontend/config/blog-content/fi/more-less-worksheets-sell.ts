@@ -13,7 +13,7 @@ const content: BlogContent = {
       'lukumäärän arviointi tulosteet',
       'esikoulun matemaattinen vertailu',
     ],
-    titleTag: 'Enemmän-vähemmän tulosteet myyntiin | LCS',
+    titleTag: 'Enemmän-vähemmän tulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy enemmän-vähemmän tehtäväarkkeja verkossa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

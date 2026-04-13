@@ -17,7 +17,7 @@ const content: GuideContent = {
       'licensmisstag produktborttagning kontosuspension',
       'licensregister multiplattformslicensiering efterlevnadssystem',
     ],
-    titleTag: 'Kommersiell licens printables | LCS',
+    titleTag: 'Kommersiell licens printables | LessonCraftStudio',
     metaDescription: 'Förstå kommersiella licenser innan du säljer printables. Licenstyper, vanliga misstag och hur korrekt licensiering skyddar din verksamhet på Etsy och KDP.',
   },
 

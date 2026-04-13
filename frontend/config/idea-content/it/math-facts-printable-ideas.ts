@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Tabelline da stampare per bambini | LCS',
+    titleTag: 'Tabelline da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea tabelline e schede operazioni matematiche da stampare: addizione, sottrazione, moltiplicazione e divisione con esercizi per scuola primaria.',
     primaryKeyword: 'tabelline da stampare',
     secondaryKeywords: [

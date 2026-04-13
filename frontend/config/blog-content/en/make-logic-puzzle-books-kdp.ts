@@ -13,7 +13,7 @@ const content: BlogContent = {
       'missing pieces puzzle book publish',
       'brain teaser book passive income',
     ],
-    titleTag: 'How to Make Logic Puzzle Books for KDP | LCS',
+    titleTag: 'How to Make Logic Puzzle Books for KDP | LessonCraftStudio',
     metaDescription: 'Create and sell visual logic puzzle books on Amazon KDP. Odd one out, missing pieces, picture paths, and critical thinking puzzles for children and adults.',
   },
   hero: {

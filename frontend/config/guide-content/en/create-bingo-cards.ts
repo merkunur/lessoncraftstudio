@@ -14,7 +14,7 @@ const content: GuideContent = {
       'party game printable templates',
       'randomized bingo card sets',
     ],
-    titleTag: 'Create Bingo Cards to Sell on Etsy & KDP | LCS',
+    titleTag: 'Create Bingo Cards to Sell on Etsy & KDP | LessonCraftStudio',
     metaDescription: 'Create themed bingo cards that sell. Randomized sets with caller sheets, image clues, and grid sizes. For Etsy, KDP, and TPT. Try our tool free.',
   },
 

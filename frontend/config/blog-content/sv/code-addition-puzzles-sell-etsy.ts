@@ -13,7 +13,7 @@ const content: BlogContent = {
       'nisch mattepussel låg konkurrens',
       'pusselbok barn matte Etsy',
     ],
-    titleTag: 'Sälj Kod-Additionspussel på Etsy | LCS',
+    titleTag: 'Sälj Kod-Additionspussel på Etsy | LessonCraftStudio',
     metaDescription: 'Kod-additionspussel kombinerar matte med kodknäckning. Unik nisch med låg konkurrens. Skapa och sälj gamifierad matte på Etsy.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'puzzle',
       'ragionamento',
     ],
-    titleTag: 'Puzzle Pezzi Mancanti da Stampare | LCS',
+    titleTag: 'Puzzle Pezzi Mancanti da Stampare | LessonCraftStudio',
     metaDescription: 'Puzzle con pezzi mancanti da stampare per bambini. Esercizi di logica visiva e osservazione con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'preschool visual perception products',
       'shadow puzzle printable business',
     ],
-    titleTag: 'Create Shadow Matching Worksheets to Sell | LCS',
+    titleTag: 'Create Shadow Matching Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'Create shadow matching worksheets that sell. Dual modes, pixel-level silhouettes, auto answer keys. Build products for Etsy, KDP, and TPT.',
   },
 

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'KDP Aktivitaetsbuch erstellen Anfang bis Ende',
     secondaryKeywords: ['KDP-Aktivitaetsbuch von Anfang bis Ende erstellen Anleitung', 'Druckvorlagen KDP-Aktivitaetsbuch Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'KDP-Aktivitaetsbuch von Anfang bis Ende erstellen | LCS',
+    titleTag: 'KDP-Aktivitaetsbuch von Anfang bis Ende erstellen | LessonCraftStudio',
     metaDescription: 'Schritt-fuer-Schritt: So erstellen und veroeffentlichen Sie ein Aktivitaetsbuch auf Amazon KDP — von der Idee bis zum Live-Listing.',
   },
   hero: {

@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'licence commerciale imprimables expliquée',
     secondaryKeywords: ['droits commerciaux fiches pédagogiques', 'licence revente imprimables Etsy', 'droits utilisation imprimables'],
     lsiKeywords: ['propriété intellectuelle fiches exercices', 'licence usage commercial éducatif', 'conditions vente imprimables'],
-    titleTag: 'Licence commerciale imprimables expliquée | LCS',
+    titleTag: 'Licence commerciale imprimables expliquée | LessonCraftStudio',
     metaDescription: 'Tout comprendre sur les licences commerciales d\'imprimables. Droits d\'utilisation, revente, modifications et ce que chaque licence autorise.',
   },
   hero: {

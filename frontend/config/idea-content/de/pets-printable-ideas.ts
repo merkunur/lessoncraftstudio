@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Haustier-Lieblingsthema Kinder-Druckvorlagen',
       'ganzjährige Nachfrage Tierliebe Nische',
     ],
-    titleTag: 'Haustier-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Haustier-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Haustier-Druckvorlagen als profitable Etsy-Nische entdecken. Hunde, Katzen und Kleintiere als Evergreen-Thema — Produktideen und Wettbewerbsanalyse für Ihren Shop.',
   },
   hero: {

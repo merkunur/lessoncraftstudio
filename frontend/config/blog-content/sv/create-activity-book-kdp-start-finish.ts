@@ -13,7 +13,7 @@ const content: BlogContent = {
       'print on demand barnbok',
       'Amazon self-publishing Sverige',
     ],
-    titleTag: 'Skapa Aktivitetsbok för Amazon KDP | LCS',
+    titleTag: 'Skapa Aktivitetsbok för Amazon KDP | LessonCraftStudio',
     metaDescription: 'Steg-för-steg: skapa och publicera aktivitetsböcker på Amazon KDP. Formatering, prissättning och marknadsföring för svenska säljare.',
   },
   hero: {

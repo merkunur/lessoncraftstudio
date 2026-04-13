@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'publicités Etsy imprimables rentables',
     secondaryKeywords: ['Etsy Ads fiches pédagogiques', 'publicité payante Etsy produits numériques', 'budget pub Etsy imprimables'],
     lsiKeywords: ['CPC Etsy fiches exercices', 'ROI publicité Etsy', 'promotion payante boutique Etsy'],
-    titleTag: 'Publicités Etsy pour imprimables : rentable ? | LCS',
+    titleTag: 'Publicités Etsy pour imprimables : rentable ? | LessonCraftStudio',
     metaDescription: 'Les publicités Etsy valent-elles le coup pour les imprimables ? Analyse du ROI, budget optimal et quand activer (ou pas) les Etsy Ads.',
   },
   hero: {

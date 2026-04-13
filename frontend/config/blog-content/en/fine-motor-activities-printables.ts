@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tracing worksheets fine motor market',
       'occupational therapy printable activities',
     ],
-    titleTag: 'Fine Motor Activities Printables to Sell | LCS',
+    titleTag: 'Fine Motor Activities Printables to Sell | LessonCraftStudio',
     metaDescription: 'Fine motor printables sell to parents, teachers, AND occupational therapists. Learn to create and price activities for this three-market niche.',
   },
   hero: {

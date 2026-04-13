@@ -15,7 +15,7 @@ const content: BundleContent = {
       'complete logic generator package',
       'puzzle book seller toolkit',
     ],
-    titleTag: 'Logic Puzzle Bundle for KDP Books | LCS',
+    titleTag: 'Logic Puzzle Bundle for KDP Books | LessonCraftStudio',
     metaDescription: 'Get all 4 logic puzzle generators in one bundle. Missing pieces, odd one out, sudoku & picture path. $149 one-time.',
   },
 

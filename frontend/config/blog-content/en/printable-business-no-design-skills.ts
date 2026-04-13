@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable business tools beginners',
       'no design skills digital products',
     ],
-    titleTag: 'Printable Business With Zero Design | LCS',
+    titleTag: 'Printable Business With Zero Design | LessonCraftStudio',
     metaDescription: 'Start a printable business with zero design skills. How worksheet generators eliminate the design barrier and let anyone create professional products.',
   },
   hero: {

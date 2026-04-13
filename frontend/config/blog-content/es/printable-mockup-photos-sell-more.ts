@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'fotos mockup imprimibles vender mas',
     secondaryKeywords: ['fotos mockup imprimibles guia', 'fotos mockup imprimibles vender mas comparar', 'fotos mockup imprimibles vender mas mejor opcion'],
     lsiKeywords: ['fotos mockup analisis', 'comparacion plataformas imprimibles', 'vender fichas online'],
-    titleTag: 'Fotos Mockup que Aumentan sus Ventas de Imprimibles | LCS',
+    titleTag: 'Fotos Mockup que Aumentan sus Ventas de Imprimibles | LessonCraftStudio',
     metaDescription: 'Como crear fotos de mockup profesionales que aumentan las ventas de imprimibles en Etsy y otras plataformas.',
   },
   hero: {

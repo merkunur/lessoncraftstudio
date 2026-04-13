@@ -16,7 +16,7 @@ const content: StartContent = {
       'generatore',
       'business da casa',
     ],
-    titleTag: 'Come creare e vendere stampabili online | LCS',
+    titleTag: 'Come creare e vendere stampabili online | LessonCraftStudio',
     metaDescription: 'Guida completa per creare e vendere stampabili educativi online nel 2026: scelta nicchia, creazione prodotti, piattaforme e strategie di prezzo.',
   },
 

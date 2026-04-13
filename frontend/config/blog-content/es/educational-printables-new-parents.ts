@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles educativos fichas', 'vender imprimibles imprimibles', 'padres primerizos educativos'],
-    titleTag: 'Imprimibles para Padres Primerizos | LCS',
+    titleTag: 'Imprimibles para Padres Primerizos | LessonCraftStudio',
     metaDescription: 'Los padres primerizos son uno de los segmentos de compradores mas activos en imprimibles educativos. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

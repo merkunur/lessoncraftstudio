@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable vocabulary games sell',
       'spelling game worksheets Etsy',
     ],
-    titleTag: 'Word Guess Worksheets: Turn a Game Into $ | LCS',
+    titleTag: 'Word Guess Worksheets: Turn a Game Into $ | LessonCraftStudio',
     metaDescription: 'Word guess worksheets turn the classic guessing game into a printable product. Learn how to create and sell these engaging vocabulary activities.',
   },
   hero: {

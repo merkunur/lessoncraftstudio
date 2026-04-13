@@ -17,7 +17,7 @@ const content: BlogContent = {
       'problemi',
       'aiuto',
     ],
-    titleTag: 'Assistenza Prodotti Didattici Digitali | LCS',
+    titleTag: 'Assistenza Prodotti Didattici Digitali | LessonCraftStudio',
     metaDescription: 'Come gestire l\'assistenza clienti per prodotti didattici digitali. FAQ, supporto e soluzioni con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

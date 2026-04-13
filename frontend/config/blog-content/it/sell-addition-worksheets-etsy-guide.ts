@@ -17,7 +17,7 @@ const content: BlogContent = {
       'numeri',
       'immagini',
     ],
-    titleTag: 'Schede Addizioni Scuola Primaria da Stampare | LCS',
+    titleTag: 'Schede Addizioni Scuola Primaria da Stampare | LessonCraftStudio',
     metaDescription: 'Schede di addizioni da stampare per la scuola primaria. Esercizi con immagini e livelli di difficoltà con LessonCraftStudio — 33 generatori.',
   },
   hero: {

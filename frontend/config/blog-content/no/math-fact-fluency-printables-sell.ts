@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg hoderegning-arbeidsark på nett',
     secondaryKeywords: ['hoderegning øvingsark Etsy selge', 'gangetabell øving arbeidsark forretning', 'tidsbaserte matteoppgaver selge KDP'],
     lsiKeywords: ['automatisering regneferdigheter', 'math fact fluency øvelsesark', 'hoderegning kompetansemål barneskole'],
-    titleTag: 'Selg hoderegning-arbeidsark på nett | LCS',
+    titleTag: 'Selg hoderegning-arbeidsark på nett | LessonCraftStudio',
     metaDescription: 'Hoderegning-oppgaver er evergreen og selger stabilt hele året. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kode-knækning matematik børn',
       'puslespil arbejdsark salg',
     ],
-    titleTag: 'Sælg Kode-Additions-Puslespil på Etsy | LCS',
+    titleTag: 'Sælg Kode-Additions-Puslespil på Etsy | LessonCraftStudio',
     metaDescription: 'Kode-additions-puslespil kombinerer matematik med dekodning. Lær at oprette og sælge dette unikke puslespilformat der skiller sig ud på Etsy.',
   },
   hero: {

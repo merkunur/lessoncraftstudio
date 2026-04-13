@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['fichas palabras fichas', 'vender imprimibles fichas', 'vocabulario visual educativos'],
-    titleTag: 'Fichas de Palabras de Uso Frecuente | LCS',
+    titleTag: 'Fichas de Palabras de Uso Frecuente | LessonCraftStudio',
     metaDescription: 'Las palabras de uso frecuente (o "palabras de alta frecuencia") son fundamentales en el aprendizaje de la lectura. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

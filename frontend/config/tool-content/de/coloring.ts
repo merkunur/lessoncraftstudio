@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'Themen-Malvorlagen',
       'ausmalen',
     ],
-    titleTag: 'Kostenloser Ausmalbilder-Generator | LCS',
+    titleTag: 'Kostenloser Ausmalbilder-Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Ausmalbilder-Generator — Malvorlagen aus 3.000+ Themenbildern sofort erstellen, ohne Anmeldung. Druckfertige PDFs. Lizenz für Etsy & KDP.',
     },
 

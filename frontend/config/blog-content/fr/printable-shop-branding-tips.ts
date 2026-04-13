@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'branding boutique imprimables Etsy',
     secondaryKeywords: ['identité visuelle boutique fiches', 'marque vendeur imprimables', 'se démarquer boutique Etsy'],
     lsiKeywords: ['logo boutique Etsy imprimables', 'cohérence visuelle fiches', 'image de marque produits numériques'],
-    titleTag: 'Branding pour votre boutique d\'imprimables | LCS',
+    titleTag: 'Branding pour votre boutique d\'imprimables | LessonCraftStudio',
     metaDescription: 'Créez une identité de marque forte pour votre boutique d\'imprimables. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

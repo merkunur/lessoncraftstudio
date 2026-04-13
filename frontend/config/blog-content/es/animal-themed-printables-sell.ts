@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles tematica fichas', 'vender imprimibles imprimibles', 'animales vender educativos'],
-    titleTag: 'Imprimibles de Animales para Vender | LCS',
+    titleTag: 'Imprimibles de Animales para Vender | LessonCraftStudio',
     metaDescription: 'Los animales son el tema mas universalmente popular entre ninos de todas las edades y culturas. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

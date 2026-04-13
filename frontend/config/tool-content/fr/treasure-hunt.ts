@@ -20,7 +20,7 @@ const content: ToolContent = {
       'jeu de piste',
       'énigmes',
     ],
-    titleTag: 'Générateur chasse au trésor gratuit en ligne | LCS',
+    titleTag: 'Générateur chasse au trésor gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de chasse au trésor gratuit — créez des fiches de jeux de piste avec images thématiques en ligne, sans inscription. PDF imprimables. Licence commerciale.',
   },
 

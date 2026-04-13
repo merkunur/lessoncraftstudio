@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok visuell diskriminering logik',
       'kommersiell licens hitta udda bilden verktyg facit',
     ],
-    titleTag: 'Skapa hitta udda bilden att skriva ut | LCS',
+    titleTag: 'Skapa hitta udda bilden att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa hitta udda bilden-arbetsblad att skriva ut med Identiskt och Liknande läge och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 

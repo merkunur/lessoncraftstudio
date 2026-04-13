@@ -17,7 +17,7 @@ const content: BlogContent = {
       'numeri',
       'prescuola',
     ],
-    titleTag: 'Schede Trova e Conta da Stampare | LCS',
+    titleTag: 'Schede Trova e Conta da Stampare | LessonCraftStudio',
     metaDescription: 'Schede trova e conta da stampare per bambini della scuola dell\'infanzia. Esercizi di conteggio visivo con LessonCraftStudio — 33 generatori.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'wachsender Homeschool-Markt Druckvorlagen',
       'ganzjährige Nachfrage Eltern-Nische',
     ],
-    titleTag: 'Homeschooling-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Homeschooling-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Homeschooling-Druckvorlagen als profitable Etsy-Nische entdecken. Produktideen für Heimunterricht-Familien mit ganzjähriger Nachfrage und wachsendem Marktpotenzial.',
   },
   hero: {

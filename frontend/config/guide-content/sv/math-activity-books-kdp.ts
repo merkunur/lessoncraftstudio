@@ -17,7 +17,7 @@ const content: GuideContent = {
       'matte arbetsbok svårighetsgradering facit sidantal',
       'KDP granskningsprocess provtryck författarkopior publicera',
     ],
-    titleTag: 'Skapa matte pysselbok KDP guide | LCS',
+    titleTag: 'Skapa matte pysselbok KDP guide | LessonCraftStudio',
     metaDescription: 'Skapa matte pysselböcker för Amazon KDP. Manuskriptformatering, omslagsdesign, nyckelordsoptimering och royaltystrategi. Komplett publiceringsguide.',
   },
 

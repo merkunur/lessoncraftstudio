@@ -13,7 +13,7 @@ const content: BlogContent = {
       'penmanship printables Etsy shop',
       'preschool writing practice sell',
     ],
-    titleTag: 'Handwriting Worksheets on Etsy 2026 | LCS',
+    titleTag: 'Handwriting Worksheets on Etsy 2026 | LessonCraftStudio',
     metaDescription: 'What\'s selling in handwriting worksheets on Etsy in 2026? Discover the top-performing styles, pricing, and listing strategies for this evergreen niche.',
   },
   hero: {

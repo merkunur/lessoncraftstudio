@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles invierno fichas', 'vender imprimibles imprimibles', 'diciembre enero educativos'],
-    titleTag: 'Imprimibles de Invierno para Vender | LCS',
+    titleTag: 'Imprimibles de Invierno para Vender | LessonCraftStudio',
     metaDescription: 'El invierno genera demanda de imprimibles con temas de nieve, frio, animales de invierno y actividades de interior. En el hemisferio norte, diciembre a feb',
   },
   hero: {

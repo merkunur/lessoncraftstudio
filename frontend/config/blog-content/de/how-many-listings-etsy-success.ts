@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digitale Produkte Listing Strategie',
       'Etsy Shop Wachstum Listings',
     ],
-    titleTag: 'Wie viele Listings fuer Etsy-Erfolg? | LCS',
+    titleTag: 'Wie viele Listings fuer Etsy-Erfolg? | LessonCraftStudio',
     metaDescription: 'Die optimale Listing-Anzahl fuer Etsy-Erfolg mit Druckvorlagen. Daten, Algorithmus-Analyse und eine Strategie die funktioniert.',
   },
   hero: {

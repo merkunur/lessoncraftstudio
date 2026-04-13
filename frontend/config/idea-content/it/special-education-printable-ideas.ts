@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede BES e DSA da stampare | LCS',
+    titleTag: 'Schede BES e DSA da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede per BES e DSA da stampare: attività semplificate, supporti visivi e materiali adattati per bambini con bisogni educativi speciali e dislessia.',
     primaryKeyword: 'schede BES e DSA da stampare',
     secondaryKeywords: [

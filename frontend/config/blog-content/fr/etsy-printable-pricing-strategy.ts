@@ -13,7 +13,7 @@ const content: BlogContent = {
       'pricing bundle imprimables',
       'marge bénéficiaire produits numériques',
     ],
-    titleTag: 'Stratégie de prix pour imprimables Etsy | LCS',
+    titleTag: 'Stratégie de prix pour imprimables Etsy | LessonCraftStudio',
     metaDescription: 'Comment fixer vos prix sur Etsy pour maximiser vos revenus d\'imprimables. Fourchettes par type de produit et psychologie des prix.',
   },
   hero: {

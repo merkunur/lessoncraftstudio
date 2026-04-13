@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Anagramm Arbeitsblaetter Kinder',
       'Buchstaben sortieren Uebung',
     ],
-    titleTag: 'Buchstabensalat-Druckvorlagen: 7 Produktideen | LCS',
+    titleTag: 'Buchstabensalat-Druckvorlagen: 7 Produktideen | LessonCraftStudio',
     metaDescription: '7 profitable Produktideen mit Buchstabensalat-Druckvorlagen. Von Etsy-Paketen bis KDP-Buecher — so monetarisieren Sie Woerter-Entwirren-Raetsel.',
   },
   hero: {

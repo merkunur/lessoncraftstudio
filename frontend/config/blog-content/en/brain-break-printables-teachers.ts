@@ -13,7 +13,7 @@ const content: BlogContent = {
       'transition activities printable teachers',
       'calm down corner printables sell',
     ],
-    titleTag: 'Brain Break Printables: A Profitable Niche to Sell | LCS',
+    titleTag: 'Brain Break Printables: A Profitable Niche to Sell | LessonCraftStudio',
     metaDescription: 'Brain break printables are a fast-growing niche for Etsy sellers. Learn which break activities sell, pricing tips, and how to dominate this market.',
   },
   hero: {

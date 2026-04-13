@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'nytår printables januar',
     secondaryKeywords: ['nytår printables januar Etsy', 'nytår printables januar online', 'nytår printables januar forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Nytårs-Printables: Maksimér Januarsalg | LCS',
+    titleTag: 'Nytårs-Printables: Maksimér Januarsalg | LessonCraftStudio',
     metaDescription: 'Januar er en undervurderet salgsperiode for printable-sælgere. Nytårsforsæt driver forældre til at købe læringsmaterialer, og perioden fra januar til faste',
   },
   hero: {

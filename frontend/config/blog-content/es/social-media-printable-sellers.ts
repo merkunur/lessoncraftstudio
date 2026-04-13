@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'redes sociales vendedores imprimibles',
     secondaryKeywords: ['redes sociales vendedores imprimibles guia', 'redes sociales vendedores imprimibles mejores practicas', 'redes sociales vendedores imprimibles estrategia'],
     lsiKeywords: ['redes sociales tips', 'negocio imprimibles redes', 'vendedores imprimibles imprimibles'],
-    titleTag: 'Redes Sociales para Vendedores de Imprimibles | LCS',
+    titleTag: 'Redes Sociales para Vendedores de Imprimibles | LessonCraftStudio',
     metaDescription: 'Las redes sociales son una herramienta de marketing poderosa pero no todas generan el mismo retorno para vendedores de imprimibles. Pinterest es la reina i',
   },
   hero: {

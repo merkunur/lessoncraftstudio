@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Versandkosten Gewinnmarge Bestandsverwaltung Produktionskosten',
       'Hybridmodell Geschäftsmodell-Vergleich passive Einnahmen',
     ],
-    titleTag: 'Digitale vs physische Druckvorlagen | LCS',
+    titleTag: 'Digitale vs physische Druckvorlagen | LessonCraftStudio',
     metaDescription: 'Digitale vs physische Druckvorlagen im Vergleich: Gewinnmargen, Skalierbarkeit, Auftragsabwicklung und die richtige Formatwahl für Ihr Printable-Business.',
   },
 

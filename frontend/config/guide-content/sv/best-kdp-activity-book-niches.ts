@@ -17,7 +17,7 @@ const content: GuideContent = {
       'testtitel 90-dagars försäljning katalogstrategi publicera',
       'tvärkategori hybridnisch tematisk aktivitetsbok undernisch',
     ],
-    titleTag: 'Bästa KDP-nischer pysselbok 2026 | LCS',
+    titleTag: 'Bästa KDP-nischer pysselbok 2026 | LessonCraftStudio',
     metaDescription: 'Hitta de mest lönsamma nischerna för pysselböcker och aktivitetsböcker på Amazon KDP. Nischforskning, konkurrensanalys och underbetjänade kategorier.',
   },
 

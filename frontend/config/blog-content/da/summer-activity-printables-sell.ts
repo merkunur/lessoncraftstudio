@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'sommer aktivitet printables sælg',
     secondaryKeywords: ['sommer aktivitet printables sælg Etsy', 'sommer aktivitet printables sælg online', 'sommer aktivitet printables sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Sommer-Printables: Aktiver Sommersalget | LCS',
+    titleTag: 'Sommer-Printables: Aktiver Sommersalget | LessonCraftStudio',
     metaDescription: 'Sommerferien er en overraskende god salgsperiode for printable-sælgere. Forældre søger aktiviteter til at holde børnene beskæftigede, og læringsmaterialer ',
   },
   hero: {

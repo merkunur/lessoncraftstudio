@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg Halloween-arbeidsark i oktober',
     secondaryKeywords: ['Halloween oppgaver barn Etsy selge', 'sesongbaserte Halloween-ark forretning', 'Halloween aktivitetsark KDP selge'],
     lsiKeywords: ['gresskar spøkelser oppgaver', 'Halloween pedagogisk materiale', 'sesongprodukt oktober salg'],
-    titleTag: 'Selg Halloween-arbeidsark i oktober | LCS',
+    titleTag: 'Selg Halloween-arbeidsark i oktober | LessonCraftStudio',
     metaDescription: 'Halloween-oppgaver selger godt i oktober på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'thematische Illustrationen Schwierigkeitsgrad konfigurieren',
       'druckfertige Mathe-PDFs Etsy KDP Gumroad',
     ],
-    titleTag: 'Subtraktions-Arbeitsblätter erstellen | LCS',
+    titleTag: 'Subtraktions-Arbeitsblätter erstellen | LessonCraftStudio',
     metaDescription: 'Subtraktions-Arbeitsblätter erstellen: Anleitung mit Durchstreichen-Modus, vier Übungstypen und automatischen Lösungsschlüsseln. Druckfertige Mathe-PDFs für Etsy und KDP.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'translate worksheets for profit',
       'non-english printable market',
     ],
-    titleTag: 'Selling Multilingual Printables: Unfair Advantage | LCS',
+    titleTag: 'Selling Multilingual Printables: Unfair Advantage | LessonCraftStudio',
     metaDescription: 'How selling printables in multiple languages opens markets with almost zero competition. 11 languages, one product — 10x your addressable audience.',
   },
   hero: {

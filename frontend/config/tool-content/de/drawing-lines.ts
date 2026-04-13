@@ -15,7 +15,7 @@ const content: ToolContent = {
       'gepunktete Linien',
       'Kurven',
     ],
-    titleTag: 'Kostenloser Schwungübungen-Generator | LCS',
+    titleTag: 'Kostenloser Schwungübungen-Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Schwungübungen-Generator — Nachspurübungen mit Themenbildern sofort erstellen, ohne Anmeldung. Druckfertige PDFs. Lizenz verfügbar.',
   },
 

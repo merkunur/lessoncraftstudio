@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok datakompetens diagram',
       'kommersiell licens bilddiagram-generator 104 teman',
     ],
-    titleTag: 'Skapa räkneövningar att skriva ut | LCS',
+    titleTag: 'Skapa räkneövningar att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa räknearbetsblad med bilddiagram att skriva ut. Automatiskt facit, 104 teman och stapeldiagram. Sälj på Etsy och Amazon KDP.',
   },
 

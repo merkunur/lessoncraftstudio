@@ -15,7 +15,7 @@ const content: GuideContent = {
       'E-Mail-Dienstleister Listenhygiene A/B-Testing',
       'DSGVO-konform Absenderreputation Personalisierung',
     ],
-    titleTag: 'E-Mail-Marketing für Druckvorlagen | LCS',
+    titleTag: 'E-Mail-Marketing für Druckvorlagen | LessonCraftStudio',
     metaDescription: 'E-Mail-Marketing für Druckvorlagen-Business: E-Mail-Liste aufbauen, Lead-Magnete erstellen, automatisierte Sequenzen und DSGVO-konforme Strategien für Etsy und KDP.',
   },
 

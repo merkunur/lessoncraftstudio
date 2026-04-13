@@ -13,7 +13,7 @@ const content: BlogContent = {
       'juhlapyhät tulosteet kalenteri',
       'tuotantoaikataulu tulostekauppa',
     ],
-    titleTag: 'Kausikalenteri tulostemyyjälle | LCS',
+    titleTag: 'Kausikalenteri tulostemyyjälle | LessonCraftStudio',
     metaDescription: 'Suunnittele tulosteiden kausikalenteri myyjänä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

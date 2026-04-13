@@ -13,7 +13,7 @@ const content: BlogContent = {
       'mots mélangés enfants vendre',
       'activités vocabulaire imprimables',
     ],
-    titleTag: 'Anagrammes imprimables : 7 idées de produits | LCS',
+    titleTag: 'Anagrammes imprimables : 7 idées de produits | LessonCraftStudio',
     metaDescription: 'Découvrez 7 idées de produits rentables autour des anagrammes imprimables. Un format de puzzle polyvalent qui se décline sur Etsy, KDP et bien plus.',
   },
   hero: {

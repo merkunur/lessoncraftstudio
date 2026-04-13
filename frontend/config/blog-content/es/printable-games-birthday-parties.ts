@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['juegos imprimibles fichas', 'vender imprimibles juegos', 'fiestas cumpleanos educativos'],
-    titleTag: 'Juegos Imprimibles para Fiestas | LCS',
+    titleTag: 'Juegos Imprimibles para Fiestas | LessonCraftStudio',
     metaDescription: 'Los cumpleanos infantiles son una constante durante todo el ano. Venda en Etsy & KDP con licencia comercial.',
   },
   hero: {

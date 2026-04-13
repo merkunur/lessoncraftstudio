@@ -15,7 +15,7 @@ const content: GuideContent = {
       'amazon.fr activity books',
       'francophone market printables',
     ],
-    titleTag: 'Sell French Printables Etsy Guide | LCS',
+    titleTag: 'Sell French Printables Etsy Guide | LessonCraftStudio',
     metaDescription: 'How to sell French printables Etsy and Amazon FR. Word search, crossword, cryptogram puzzles with accented characters. 11-language generator. Try free trial.',
   },
 

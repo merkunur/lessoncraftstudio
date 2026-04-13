@@ -13,7 +13,7 @@ const content: BlogContent = {
       'visuaalinen hahmotus matematiikka',
       'esikoulu laskeminen kuvista',
     ],
-    titleTag: 'Etsi ja laske -tulosteet myyntiin | LCS',
+    titleTag: 'Etsi ja laske -tulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy etsi ja laske -tulosteita matalan kilpailun nichessä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

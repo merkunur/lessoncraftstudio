@@ -17,7 +17,7 @@ const content: BundleContent = {
       'schede da stampare',
       'multilingue',
     ],
-    titleTag: 'Generatori giochi di parole da stampare | LCS',
+    titleTag: 'Generatori giochi di parole da stampare | LessonCraftStudio',
     metaDescription: 'Pacchetto con 7 generatori di schede linguistiche da stampare in 11 lingue: alfabeto, crucipuzzle, crittogramma, preposizioni e scrittura per bambini.',
   },
 

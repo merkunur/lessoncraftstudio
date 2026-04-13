@@ -13,7 +13,7 @@ const content: BlogContent = {
       'gratis arbetsblad marknadsföring',
       'konvertera besökare till köpare',
     ],
-    titleTag: 'Gratisprov som Leadmagnet för Printables | LCS',
+    titleTag: 'Gratisprov som Leadmagnet för Printables | LessonCraftStudio',
     metaDescription: 'Använd gratis provblad som leadmagnet. Bygg kundlista och driv försäljning till din printable-verksamhet på Etsy.',
   },
   hero: {

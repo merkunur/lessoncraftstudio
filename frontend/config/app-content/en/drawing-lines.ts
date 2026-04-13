@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Tracing Worksheet Generator — Fine Motor KDP Books | LessonCraftStudio',
-    metaDescription: 'Create line tracing worksheets for KDP fine motor books and Etsy bundles. Preschool niche, 3,000+ themes, bulk generate. Commercial license. Try free trial.',
+    titleTag: 'Tracing Worksheet Generator — Fine Motor KDP Activity Pages | LessonCraftStudio',
+    metaDescription: 'Generate line tracing worksheets for KDP fine motor activity books. Themed paths, multiple difficulty levels. Sell on Etsy or KDP. Commercial license. Try free.',
   },
 
   hero: {

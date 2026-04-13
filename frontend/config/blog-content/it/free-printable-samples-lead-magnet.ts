@@ -17,7 +17,7 @@ const content: BlogContent = {
       'provare',
       'filigrana',
     ],
-    titleTag: 'Schede Didattiche Prova Gratuita | LCS',
+    titleTag: 'Schede Didattiche Prova Gratuita | LessonCraftStudio',
     metaDescription: 'Prova gratuitamente le schede didattiche con filigrana prima dell\'acquisto. Campioni da stampare con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

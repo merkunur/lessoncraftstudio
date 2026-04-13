@@ -17,7 +17,7 @@ const content: BlogContent = {
       'numeri',
       'esercizio',
     ],
-    titleTag: 'Schede Sottrazioni Scuola Primaria | LCS',
+    titleTag: 'Schede Sottrazioni Scuola Primaria | LessonCraftStudio',
     metaDescription: 'Schede di sottrazioni da stampare per la scuola primaria. Esercizi con e senza prestito usando LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

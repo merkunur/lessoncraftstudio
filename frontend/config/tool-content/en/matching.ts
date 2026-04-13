@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant matching worksheet generator',
       'try before you buy matching tools',
     ],
-    titleTag: 'Free Matching Worksheet Generator Online | LCS',
+    titleTag: 'Free Matching Worksheet Generator Online | LessonCraftStudio',
     metaDescription: 'Make matching worksheets free online with watermark — no signup. 4 matching modes, auto answer keys, 104 themes. Upgrade for commercial license to sell.',
   },
 

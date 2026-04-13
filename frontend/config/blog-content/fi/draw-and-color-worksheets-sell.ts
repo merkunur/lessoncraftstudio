@@ -13,7 +13,7 @@ const content: BlogContent = {
       'luovuuden kehitys tehtävät',
       'taidekasvatus tulostettavia',
     ],
-    titleTag: 'Piirrä ja väritä -tulosteet myyntiin | LCS',
+    titleTag: 'Piirrä ja väritä -tulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy piirrä ja väritä -tehtäviä — luova niche kasvavalla kysynnällä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

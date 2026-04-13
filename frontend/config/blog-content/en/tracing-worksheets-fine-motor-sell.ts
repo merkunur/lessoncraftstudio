@@ -13,7 +13,7 @@ const content: BlogContent = {
       'pencil control printables',
       'preschool tracing market',
     ],
-    titleTag: 'Tracing Worksheets for Fine Motor Skills to Sell | LCS',
+    titleTag: 'Tracing Worksheets for Fine Motor Skills to Sell | LessonCraftStudio',
     metaDescription: 'Tracing worksheets for fine motor skills are a high-demand printable niche. Learn pricing, product types, and listing strategies for Etsy sellers.',
   },
   hero: {

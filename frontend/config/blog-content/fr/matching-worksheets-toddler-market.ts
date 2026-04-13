@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches correspondance maternelle',
       'association images enfants vendre',
     ],
-    titleTag: 'Fiches d\'association : marché tout-petits | LCS',
+    titleTag: 'Fiches d\'association : marché tout-petits | LessonCraftStudio',
     metaDescription: 'Les fiches d\'association dominent le marché des imprimables pour tout-petits. Stratégies pour créer et vendre ces fiches incontournables en 2026.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'räkneövningar årskurs 1 printable',
       'visuellt lärande matematik barn',
     ],
-    titleTag: 'Sälj Diagram-Räkneblad på Etsy | LCS',
+    titleTag: 'Sälj Diagram-Räkneblad på Etsy | LessonCraftStudio',
     metaDescription: 'Diagram- och räknearbetsblad kombinerar visuellt lärande med matte. Populärt för förskoleklass. Skapa och sälj på Etsy.',
   },
   hero: {

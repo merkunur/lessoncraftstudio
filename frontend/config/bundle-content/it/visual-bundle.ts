@@ -17,7 +17,7 @@ const content: BundleContent = {
       'schede da stampare',
       'scuola dell\'infanzia',
     ],
-    titleTag: 'Generatori schede visive da stampare | LCS',
+    titleTag: 'Generatori schede visive da stampare | LessonCraftStudio',
     metaDescription: 'Pacchetto con 7 generatori di schede visive da stampare: colorare, disegno, sequenze, pregrafismo e grafici. Attività senza testo per bambini.',
   },
 

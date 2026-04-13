@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Mai-August saisonale Nachfrage Sommer',
       'Sommer-Saison Druckvorlagen-Nische Etsy',
     ],
-    titleTag: 'Sommer-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Sommer-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Sommer-Druckvorlagen als profitable Etsy-Nische entdecken. Strand, Ferien und Sonnenschein — saisonale Produktkonzepte und Verkaufsstrategien von Mai bis August.',
   },
   hero: {

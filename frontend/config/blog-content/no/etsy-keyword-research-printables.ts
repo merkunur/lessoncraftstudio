@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy søkeordsforskning arbeidsark selgere',
     secondaryKeywords: ['finn søkeord Etsy oppgaver', 'søkeordanalyse digitale nedlastinger Etsy', 'arbeidsark søkeord lav konkurranse'],
     lsiKeywords: ['Etsy tags optimalisering', 'longtail søkeord pedagogiske produkter', 'søkeordverktøy Etsy selgere'],
-    titleTag: 'Søkeordsforskning for Etsy arbeidsark-selgere | LCS',
+    titleTag: 'Søkeordsforskning for Etsy arbeidsark-selgere | LessonCraftStudio',
     metaDescription: 'Finn søkeordene kundene faktisk bruker for arbeidsark på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

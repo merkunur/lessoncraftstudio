@@ -13,7 +13,7 @@ const content: BlogContent = {
       'association matrice imprimable',
       'fiches repérage spatial vendre',
     ],
-    titleTag: 'Puzzles grille d\'association : produits uniques | LCS',
+    titleTag: 'Puzzles grille d\'association : produits uniques | LessonCraftStudio',
     metaDescription: 'Les puzzles grille d\'association sont des produits uniques et peu concurrentiels. Créez et vendez ces fiches originales sur Etsy et KDP en 2026.',
   },
   hero: {

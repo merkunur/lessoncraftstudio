@@ -17,7 +17,7 @@ const content: BlogContent = {
       'mandala',
       'tematici',
     ],
-    titleTag: 'Disegni da Colorare per Bambini da Stampare | LCS',
+    titleTag: 'Disegni da Colorare per Bambini da Stampare | LessonCraftStudio',
     metaDescription: 'Disegni da colorare per bambini da stampare. Prova gratuita con filigrana, pagine tematiche educative con LessonCraftStudio — 33 generatori.',
   },
   hero: {

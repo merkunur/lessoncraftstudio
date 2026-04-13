@@ -20,7 +20,7 @@ const content: ToolContent = {
       'catégoriser',
       'grouper',
     ],
-    titleTag: 'Fiches tri et classement gratuit en ligne | LCS',
+    titleTag: 'Fiches tri et classement gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches de tri et classement gratuitement en ligne — sans inscription. Images thématiques, corrections automatiques, PDF imprimables. Licence commerciale.',
   },
 

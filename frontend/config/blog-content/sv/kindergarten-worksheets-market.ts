@@ -13,7 +13,7 @@ const content: BlogContent = {
       'förskoleklass övningar Lgr22',
       'förskola grundskola arbetsblad nisch',
     ],
-    titleTag: 'Sälj Förskoleklass-Arbetsblad på Etsy | LCS',
+    titleTag: 'Sälj Förskoleklass-Arbetsblad på Etsy | LessonCraftStudio',
     metaDescription: 'Förskoleklass-arbetsblad är bland de mest sökta printables. Skapa material för 6-åringar och sälj på Etsy.',
   },
   hero: {

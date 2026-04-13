@@ -15,7 +15,7 @@ const content: GuideContent = {
       'printable activity compilation',
       'children activity workbook',
     ],
-    titleTag: 'Sell Activity Books on Amazon KDP | LCS',
+    titleTag: 'Sell Activity Books on Amazon KDP | LessonCraftStudio',
     metaDescription: 'How to create and sell mixed-activity books on Amazon KDP. Combine coloring, puzzles, math worksheets. Age targeting, KDP formatting guide. Try free trial with watermark.',
   },
 

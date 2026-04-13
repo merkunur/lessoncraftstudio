@@ -17,7 +17,7 @@ const content: BlogContent = {
       'inverno',
       'calza',
     ],
-    titleTag: 'Schede Capodanno e Befana da Stampare | LCS',
+    titleTag: 'Schede Capodanno e Befana da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche per Capodanno e Befana da stampare per bambini. Attività di gennaio per la scuola primaria e infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {

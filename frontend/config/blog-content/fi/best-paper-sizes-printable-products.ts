@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Letter-koko USA-markkina',
       'PDF-asetukset tulostus',
     ],
-    titleTag: 'Paras paperikoko tulosteille | LCS',
+    titleTag: 'Paras paperikoko tulosteille | LessonCraftStudio',
     metaDescription: 'A4, Letter vai Half Letter? Valitse oikea paperikoko tulosteillesi. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

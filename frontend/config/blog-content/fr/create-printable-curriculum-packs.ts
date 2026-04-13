@@ -13,7 +13,7 @@ const content: BlogContent = {
       'méthode créer',
       'astuces créer packs',
     ],
-    titleTag: 'Créer des packs curriculum imprimables | LCS',
+    titleTag: 'Créer des packs curriculum imprimables | LessonCraftStudio',
     metaDescription: 'Créez des packs curriculum complets pour un niveau scolaire entier. Le produit premium des imprimables. Vendez sur Etsy & KDP avec licence commerciale.',
   },
   hero: {

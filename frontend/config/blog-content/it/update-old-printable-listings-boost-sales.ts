@@ -17,7 +17,7 @@ const content: BlogContent = {
       'refresh',
       'revisione',
     ],
-    titleTag: 'Aggiornare Schede Didattiche per Vendere | LCS',
+    titleTag: 'Aggiornare Schede Didattiche per Vendere | LessonCraftStudio',
     metaDescription: 'Come aggiornare schede didattiche esistenti per aumentare le vendite. Strategie di refresh con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

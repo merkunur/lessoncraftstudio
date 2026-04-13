@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok stapeldiagram dataövningar',
       'kommersiell licens diagramverktyg 104 teman flerspråkig',
     ],
-    titleTag: 'Skapa bilddiagram att skriva ut | LCS',
+    titleTag: 'Skapa bilddiagram att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa bilddiagram-arbetsblad att skriva ut med automatiskt facit och 104 teman. Steg-för-steg-guide. Sälj på Etsy och Amazon KDP.',
   },
 

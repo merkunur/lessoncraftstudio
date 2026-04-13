@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Etsy Ads Strategie Einsteiger',
       'Etsy Werbekosten digitale Downloads',
     ],
-    titleTag: 'Lohnen sich Etsy-Anzeigen fuer Druckvorlagen? | LCS',
+    titleTag: 'Lohnen sich Etsy-Anzeigen fuer Druckvorlagen? | LessonCraftStudio',
     metaDescription: 'Etsy-Anzeigen fuer Druckvorlagen: Wann sie sich lohnen, wie viel Budget Sie brauchen und welche Fehler Sie vermeiden muessen.',
   },
   hero: {

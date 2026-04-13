@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'språk sälj utskrifter globalt oändliga marknader',
     secondaryKeywords: ['flersprakiga arbetsblad saelj', 'internationell utskriftsfoersaeljning', 'saelj utskrifter flera spraak'],
     lsiKeywords: ['flersprakig foeretagsstrategi', 'globala marknader utskrifter', 'lokalisering digitala produkter'],
-    titleTag: '11 Språk: Sälj Utskrifter Globalt | LCS',
+    titleTag: '11 Språk: Sälj Utskrifter Globalt | LessonCraftStudio',
     metaDescription: 'Nå globala marknader med utskrifter på 11 språk. Strategier för flerspråkig produktskapande och internationell Etsy-försäljning 2026.',
   },
   hero: {

@@ -20,7 +20,7 @@ const content: ToolContent = {  seo: {
       'ranger',
       'comparer',
     ],
-    titleTag: 'Fiches grand petit gratuit en ligne | LCS',
+    titleTag: 'Fiches grand petit gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Créez des fiches de comparaison de tailles gratuitement en ligne — sans inscription. Grand vs petit, tri par taille, corrections automatiques. Licence commerciale disponible.',
     },
 

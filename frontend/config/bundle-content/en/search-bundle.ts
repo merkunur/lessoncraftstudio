@@ -15,7 +15,7 @@ const content: BundleContent = {
       'complete find generator package',
       'I Spy seller toolkit',
     ],
-    titleTag: 'Search & Find Bundle for Sellers | LCS',
+    titleTag: 'Search & Find Bundle for Sellers | LessonCraftStudio',
     metaDescription: 'Get all 4 search and find generators in one bundle. I Spy, find & count, crossword & treasure hunt. Commercial license for Etsy & KDP sellers. $149 one-time.',
   },
 

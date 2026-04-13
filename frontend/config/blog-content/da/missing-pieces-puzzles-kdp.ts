@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'manglende brikker puslespil KDP',
     secondaryKeywords: ['manglende brikker puslespil KDP Etsy', 'manglende brikker puslespil KDP online', 'manglende brikker puslespil KDP forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Manglende Brikker Puslespil: KDP-Guide | LCS',
+    titleTag: 'Manglende Brikker Puslespil: KDP-Guide | LessonCraftStudio',
     metaDescription: 'Manglende brikker puslespil er et visuelt puslespilformat, hvor barnet finder den manglende del af et billede. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

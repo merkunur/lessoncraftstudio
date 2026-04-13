@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Forest Animal Printables to Sell | LCS',
+    titleTag: 'Forest Animal Printables to Sell | LessonCraftStudio',
     metaDescription: 'Forest animal printable business ideas for Etsy & KDP. Woodland theme product concepts, bundling strategies, and market opportunities for sellers.',
 
     primaryKeyword: 'forest animal printables to sell',

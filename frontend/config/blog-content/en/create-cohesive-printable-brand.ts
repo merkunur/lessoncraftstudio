@@ -13,7 +13,7 @@ const content: BlogContent = {
       'etsy shop visual identity',
       'digital product brand recognition',
     ],
-    titleTag: 'Create a Cohesive Brand for Your Printable Shop | LCS',
+    titleTag: 'Create a Cohesive Brand for Your Printable Shop | LessonCraftStudio',
     metaDescription: 'Build a recognizable printable brand on Etsy. Color palette, listing templates, naming conventions, and brand consistency tips for sellers.',
   },
   hero: {

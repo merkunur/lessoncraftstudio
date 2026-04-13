@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles Dia fichas', 'vender imprimibles imprimibles', 'Padre vender educativos'],
-    titleTag: 'Imprimibles para Dia de la Madre y el Padre | LCS',
+    titleTag: 'Imprimibles para Dia de la Madre y el Padre | LessonCraftStudio',
     metaDescription: 'El Dia de la Madre y el Dia del Padre generan demanda de imprimibles con alto componente emocional: tarjetas para imprimir, cuestionarios sobre mama/papa, ',
   },
   hero: {

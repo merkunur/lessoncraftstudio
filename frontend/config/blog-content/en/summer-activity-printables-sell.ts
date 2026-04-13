@@ -13,7 +13,7 @@ const content: BlogContent = {
       'road trip activity printables',
       'summer camp printable activities',
     ],
-    titleTag: 'Summer Activity Printables: What Parents Buy | LCS',
+    titleTag: 'Summer Activity Printables: What Parents Buy | LessonCraftStudio',
     metaDescription: 'Summer activity printables sell from May through August. Learn which products parents buy for road trips, learning, and keeping kids busy.',
   },
   hero: {

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Bulk Licensing Printable Business | LCS',
+    titleTag: 'Bulk Licensing Printable Business | LessonCraftStudio',
     metaDescription: 'Bulk licensing printable business ideas. Institutional sales, site licenses, and wholesale strategies for printable product sellers.',
 
     primaryKeyword: 'bulk licensing printable business',

@@ -15,7 +15,7 @@ const content: ToolContent = {
       'visuelle Unterscheidung',
       'Wahrnehmung',
     ],
-    titleTag: 'Kostenloser Schattenbilder-Generator | LCS',
+    titleTag: 'Kostenloser Schattenbilder-Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Schattenbilder-Generator — Schatten-Zuordnungs-Arbeitsblätter sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 

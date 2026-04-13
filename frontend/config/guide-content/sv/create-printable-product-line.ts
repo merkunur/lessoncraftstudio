@@ -17,7 +17,7 @@ const content: GuideContent = {
       'korsförsäljning katalognavigering butiksorganisation printables',
       'visuell identitet produkthierarki produktekosystem sammanhållning',
     ],
-    titleTag: 'Bygga produktlinje printables Etsy | LCS',
+    titleTag: 'Bygga produktlinje printables Etsy | LessonCraftStudio',
     metaDescription: 'Bygg en sammanhängande produktlinje med utskriftsbara produkter. Varumärkeskonsistens, katalogstrategi och systematisk expansion för Etsy och Amazon KDP.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       "professionelt arbejdsark facit",
       "facitliste conversion"
     ],
-    titleTag: "Facitlister Øger Dit Salg: Hvorfor | LCS",
+    titleTag: "Facitlister Øger Dit Salg: Hvorfor | LessonCraftStudio",
     metaDescription: 'Facitlister er den mest undervurderede faktor i printable-salg. Saelg pa Etsy & KDP med kommerciel licens.'
   },
   hero: {

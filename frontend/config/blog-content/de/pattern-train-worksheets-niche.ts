@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Muster-Zug-Arbeitsblaetter einzigartiges Produkt',
     secondaryKeywords: ['Musterzug Arbeitsblaetter verkaufen', 'Zug Muster Raetsel Etsy', 'Muster-Waggon Druckvorlagen'],
     lsiKeywords: ['Reihenfolge Zug Arbeitsblatt', 'Muster im Zug fortsetzen', 'Logik-Zug Vorschule'],
-    titleTag: 'Muster-Zug-Arbeitsblaetter: Einzigartiges Produkt | LCS',
+    titleTag: 'Muster-Zug-Arbeitsblaetter: Einzigartiges Produkt | LessonCraftStudio',
     metaDescription: 'Warum Muster-Zug-Arbeitsblaetter ein einzigartiges Nischenprodukt mit null Konkurrenz auf Etsy.de sind. Format, Preise und Strategie.',
   },
   hero: {

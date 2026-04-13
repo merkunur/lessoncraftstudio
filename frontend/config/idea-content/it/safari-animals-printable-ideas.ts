@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede animali safari da stampare | LCS',
+    titleTag: 'Schede animali safari da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede sugli animali del safari da stampare: colorare leoni e giraffe, conteggio, abbinamento e crucipuzzle a tema savana per bambini 3-8 anni.',
     primaryKeyword: 'schede animali safari da stampare',
     secondaryKeywords: [

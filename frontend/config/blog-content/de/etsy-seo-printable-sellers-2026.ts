@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digitale Downloads SEO Strategie',
       'Etsy.de Keywords optimieren',
     ],
-    titleTag: 'Etsy SEO fuer Druckvorlagen-Verkaeufer 2026 | LCS',
+    titleTag: 'Etsy SEO fuer Druckvorlagen-Verkaeufer 2026 | LessonCraftStudio',
     metaDescription: 'Aktuelle Etsy SEO Strategien fuer Druckvorlagen-Verkaeufer 2026. Keywords, Tags und Listing-Optimierung fuer mehr Sichtbarkeit auf Etsy.de.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'angepasste Lernmaterialien Arbeitsblätter',
       'unterversorgter SPED-Markt Premium-Nische',
     ],
-    titleTag: 'Förderschul-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Förderschul-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Förderschul-Druckvorlagen als profitable Etsy-Nische entdecken. Angepasste Arbeitsblätter und visuelle Hilfen für den unterversorgten Inklusionsmarkt mit Premium-Preisen.',
   },
   hero: {

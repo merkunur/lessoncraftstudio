@@ -13,7 +13,7 @@ const content: BlogContent = {
       'digitale Downloads Listing Tipps',
       'Etsy.de Verkaufsseite gestalten',
     ],
-    titleTag: 'Etsy-Listing-Optimierung fuer Arbeitsblaetter | LCS',
+    titleTag: 'Etsy-Listing-Optimierung fuer Arbeitsblaetter | LessonCraftStudio',
     metaDescription: 'So optimieren Sie Ihre Etsy-Listings fuer Arbeitsblaetter und Druckvorlagen. Titel, Fotos, Tags und Beschreibungen die verkaufen.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'neue Verkaeufer Tipps Etsy.de',
       'digitale Downloads erster Monat',
     ],
-    titleTag: 'Erster Monat Druckvorlagen auf Etsy | LCS',
+    titleTag: 'Erster Monat Druckvorlagen auf Etsy | LessonCraftStudio',
     metaDescription: 'Was Sie im ersten Monat als Druckvorlagen-Verkaeufer auf Etsy.de realistisch erwarten koennen. Meilensteine, Kennzahlen und worauf es wirklich ankommt.',
   },
   hero: {

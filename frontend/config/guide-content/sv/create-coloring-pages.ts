@@ -17,7 +17,7 @@ const content: GuideContent = {
       'kommersiell licens målarverktyg 104 teman',
       'sälja målarbilder digitala nedladdningar Gumroad',
     ],
-    titleTag: 'Skapa målarbilder att skriva ut | LCS',
+    titleTag: 'Skapa målarbilder att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa målarbilder att skriva ut med 3 100+ tematiska bilder och gråskaleexport. Designa med fri arbetsyta. Sälj på Etsy och Amazon KDP.',
   },
 

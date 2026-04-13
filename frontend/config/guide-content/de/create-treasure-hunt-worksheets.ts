@@ -14,7 +14,7 @@ const content: GuideContent = {
       'thematische Bilder Lösungsschlüssel automatisch',
       'mehrsprachige Arbeitsblätter Etsy KDP Gumroad',
     ],
-    titleTag: 'Schatzsuche-Arbeitsblätter erstellen | LCS',
+    titleTag: 'Schatzsuche-Arbeitsblätter erstellen | LessonCraftStudio',
     metaDescription: 'Schatzsuche-Arbeitsblätter erstellen: Anleitung mit 5x5-Koordinatenraster, zwei Richtungstypen und lokalisierten Hinweisen in 11 Sprachen. Druckfertige PDFs mit Lösungsschlüssel.',
   },
 

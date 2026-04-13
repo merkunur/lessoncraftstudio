@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tidigt lärande material skriva ut',
       'småbarn aktivitetsblad PDF',
     ],
-    titleTag: 'Sälj Printables till Nya Föräldrar | LCS',
+    titleTag: 'Sälj Printables till Nya Föräldrar | LessonCraftStudio',
     metaDescription: 'Nya föräldrar är den mest köpvilliga målgruppen. Sälj pedagogiska printables till förstagångsföräldrar som söker lärresurser.',
   },
   hero: {

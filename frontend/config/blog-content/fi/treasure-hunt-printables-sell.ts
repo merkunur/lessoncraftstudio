@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ulkoaktiviteetit tulostettavia',
       'päiväkoti aarteenetsintä',
     ],
-    titleTag: 'Aarteenetsintätulosteet myyntiin | LCS',
+    titleTag: 'Aarteenetsintätulosteet myyntiin | LessonCraftStudio',
     metaDescription: 'Myy tulostettavia aarteenetsintöjä Etsyssä ja KDP:ssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Underserved Printable Markets Sellers Miss | LCS',
+    titleTag: 'Underserved Printable Markets Sellers Miss | LessonCraftStudio',
     metaDescription: 'Discover underserved printable markets most sellers overlook. Niche gaps, low-competition categories, and untapped buyer segments for Etsy, KDP, and Gumroad.',
 
     primaryKeyword: 'underserved printable markets',

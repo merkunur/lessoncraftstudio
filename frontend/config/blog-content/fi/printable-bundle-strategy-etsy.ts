@@ -13,7 +13,7 @@ const content: BlogContent = {
       'ristiinmyynti tulosteet',
       'tuotevalikoima paketti Etsy',
     ],
-    titleTag: 'Tulosteiden pakettistrategia Etsyssä | LCS',
+    titleTag: 'Tulosteiden pakettistrategia Etsyssä | LessonCraftStudio',
     metaDescription: 'Rakenna tuottavia tulostepaketteja Etsyssä. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

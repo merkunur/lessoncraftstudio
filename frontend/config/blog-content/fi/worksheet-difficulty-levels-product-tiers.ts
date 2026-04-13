@@ -13,7 +13,7 @@ const content: BlogContent = {
       'eriyttäminen tulosteet myynti',
       'progressiivinen vaikeustaso tehtävät',
     ],
-    titleTag: 'Vaikeustasot ja tuoteportaat tulosteille | LCS',
+    titleTag: 'Vaikeustasot ja tuoteportaat tulosteille | LessonCraftStudio',
     metaDescription: 'Käytä vaikeustasoja tulosteiden tuoteportaissa. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

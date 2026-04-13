@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Odd One Out Puzzle Generator — Logic Books KDP | LessonCraftStudio',
-    metaDescription: 'Create odd-one-out logic puzzle books for KDP and Etsy. Critical thinking activities parents love, bulk generate. Commercial license. Try free trial.',
+    titleTag: 'Odd One Out Worksheet Generator — Logic KDP Activity Books | LessonCraftStudio',
+    metaDescription: 'Generate odd one out logic puzzles for KDP activity books. Critical thinking format, themed images, auto answer keys. Commercial license included. Try free.',
   },
 
   hero: {

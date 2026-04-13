@@ -13,7 +13,7 @@ const content: BlogContent = {
       "generator vs manuel design",
       "tidbesparelse printbar"
     ],
-    titleTag: "Batch-Opret Arbejdsark Effektivt | LCS",
+    titleTag: "Batch-Opret Arbejdsark Effektivt | LessonCraftStudio",
     metaDescription: "Lær at oprette 50+ arbejdsark på en time i stedet for en uge. Batch-produktion med generatorer er nøglen til en profitabel printable-forretning."
   },
   hero: {

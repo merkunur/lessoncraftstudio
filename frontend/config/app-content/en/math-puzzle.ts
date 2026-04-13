@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk puzzle generation',
       'commercial license',
     ],
-    titleTag: 'Math Puzzle Book Generator — Unique KDP Niche | LessonCraftStudio',
-    metaDescription: 'Create picture-based algebra puzzles for KDP puzzle books. A unique niche most sellers miss. Bulk generate, 300 DPI, commercial license. Try free trial.',
+    titleTag: 'Math Puzzle Generator — Algebra Picture Puzzles for KDP Books | LessonCraftStudio',
+    metaDescription: 'Create picture algebra puzzles for KDP activity books. Images replace variables in equation systems. Unique format, auto answer keys. Commercial license. Try free.',
   },
 
   hero: {

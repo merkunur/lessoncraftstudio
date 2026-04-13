@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'rejse aktivitet printables sælg',
     secondaryKeywords: ['rejse aktivitet printables sælg Etsy', 'rejse aktivitet printables sælg online', 'rejse aktivitet printables sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Rejse-Printables: Aktiver Ferien | LCS',
+    titleTag: 'Rejse-Printables: Aktiver Ferien | LessonCraftStudio',
     metaDescription: 'Rejse-printables er en sæsonbestemt niche med stærk efterspørgsel i ferieperioder. Forældre downloader aktiviteter før ferien for at holde børnene beskæfti',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'plagio',
       'legale',
     ],
-    titleTag: 'Copyright Materiale Didattico Stampabile | LCS',
+    titleTag: 'Copyright Materiale Didattico Stampabile | LessonCraftStudio',
     metaDescription: 'Guida al diritto d\'autore per materiale didattico stampabile. Proteggi le tue creazioni educative con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

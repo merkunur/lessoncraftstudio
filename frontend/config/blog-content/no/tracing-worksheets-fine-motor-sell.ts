@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'sporingsoppgaver finmotorikk selge Etsy',
     secondaryKeywords: ['strektrening arbeidsark forretning', 'finmotorikk oppgaver selge nettbutikk', 'sporingsark barn Etsy KDP'],
     lsiKeywords: ['sporingsøving arbeidsark salg', 'prikk-til-prikk oppgaver', 'håndskrift forberedelse arbeidsark'],
-    titleTag: 'Sporingsoppgaver for finmotorikk: Selg | LCS',
+    titleTag: 'Sporingsoppgaver for finmotorikk: Selg | LessonCraftStudio',
     metaDescription: 'Lag og selg sporingsoppgaver for finmotorikk på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

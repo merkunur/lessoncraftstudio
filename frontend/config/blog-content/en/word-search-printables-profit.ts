@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable puzzle business revenue',
       'Etsy word search shop earnings',
     ],
-    titleTag: 'Word Search Printables: Earnings Guide | LCS',
+    titleTag: 'Word Search Printables: Earnings Guide | LessonCraftStudio',
     metaDescription: 'How much can you earn selling word search printables? Real income ranges, pricing strategies, and what separates profitable shops from the rest.',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'seek and find printables',
       'I spy printable activities',
     ],
-    titleTag: 'Hidden Object Worksheets: Scalable Business | LCS',
+    titleTag: 'Hidden Object Worksheets: Scalable Business | LessonCraftStudio',
     metaDescription: 'Hidden object worksheets are a scalable printable business. Learn how to build a product line that grows with minimal effort using themed generators.',
   },
   hero: {

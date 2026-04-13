@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'afrikanische Tierwelt Savanne Druckvorlagen',
       'Wildtier-Thema Kinder-Nische Etsy-Shop',
     ],
-    titleTag: 'Safari-Tiere-Druckvorlagen Nische Etsy | LCS',
+    titleTag: 'Safari-Tiere-Druckvorlagen Nische Etsy | LessonCraftStudio',
     metaDescription: 'Safari-Tiere-Druckvorlagen als profitable Etsy-Nische entdecken. Löwe, Elefant und Giraffe als beliebtes Thema — Produktideen und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Schwierigkeitsstufen Leicht Mittel Schwer Progression',
       'dualer Markt Erwachsene Kinder Katalogstrategie',
     ],
-    titleTag: 'Rätselbuch auf Amazon KDP | LCS',
+    titleTag: 'Rätselbuch auf Amazon KDP | LessonCraftStudio',
     metaDescription: 'Raetselbuch auf Amazon KDP veroeffentlichen: Wortsuche, Kreuzwortraetsel und Sudoku formatieren, Variety-Buecher erstellen und Serien fuer langfristigen Umsatz aufbauen.',
   },
 

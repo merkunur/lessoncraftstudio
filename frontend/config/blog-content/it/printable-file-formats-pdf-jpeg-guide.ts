@@ -17,7 +17,7 @@ const content: BlogContent = {
       'DPI',
       'qualità stampa',
     ],
-    titleTag: 'Formato File Schede: PDF vs JPEG Guida | LCS',
+    titleTag: 'Formato File Schede: PDF vs JPEG Guida | LessonCraftStudio',
     metaDescription: 'Guida ai formati file per schede didattiche da stampare. PDF, JPEG, risoluzione e qualità di stampa ottimale con LessonCraftStudio — 33 generatori.',
   },
   hero: {

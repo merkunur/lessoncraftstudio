@@ -14,7 +14,7 @@ const content: GuideContent = {
       'math printable product creation',
       'cross-out subtraction visual worksheets',
     ],
-    titleTag: 'Create Subtraction Worksheets to Sell | LCS',
+    titleTag: 'Create Subtraction Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'Create subtraction worksheets that sell. Cross-out mode, four exercise types, difficulty tiers. Build products for Etsy, KDP, and TPT.',
   },
 

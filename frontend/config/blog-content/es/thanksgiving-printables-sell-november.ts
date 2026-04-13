@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles Accion fichas', 'vender imprimibles imprimibles', 'Muertos noviembre educativos'],
-    titleTag: 'Imprimibles para Noviembre: Gracias y Dia de Muertos | LCS',
+    titleTag: 'Imprimibles para Noviembre: Gracias y Dia de Muertos | LessonCraftStudio',
     metaDescription: 'Noviembre combina dos festividades con alta demanda de imprimibles: el Dia de Muertos en Mexico (1-2 noviembre) y el Dia de Accion de Gracias en Estados Un',
   },
   hero: {

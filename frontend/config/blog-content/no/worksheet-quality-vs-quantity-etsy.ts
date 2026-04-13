@@ -8,7 +8,7 @@ const content: BlogContent = {
       'kvalitet kvantitet arbeidsark forretning',
     ],
     lsiKeywords: ['arbeidsark salg Etsy balanse', 'arbeidsark forretning strategi', 'Etsy annonser optimalisering'],
-    titleTag: 'Kvalitet vs kvantitet: Etsy-strategi | LCS',
+    titleTag: 'Kvalitet vs kvantitet: Etsy-strategi | LessonCraftStudio',
     metaDescription: 'Kvalitet eller kvantitet for arbeidsark på Etsy? Finn riktig balanse for din forretning. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

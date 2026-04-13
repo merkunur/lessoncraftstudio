@@ -13,7 +13,7 @@ const content: BlogContent = {
       'business coloriages à imprimer',
       'niche coloriage Etsy KDP',
     ],
-    titleTag: 'Business coloriage 2026 : encore rentable ? | LCS',
+    titleTag: 'Business coloriage 2026 : encore rentable ? | LessonCraftStudio',
     metaDescription: 'Le business des coloriages imprimables est-il encore rentable en 2026 ? Analyse honnête du marché, niches viables et stratégies qui fonctionnent.',
   },
   hero: {

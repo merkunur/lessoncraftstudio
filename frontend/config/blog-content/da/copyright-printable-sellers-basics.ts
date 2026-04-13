@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'ophavsret printable sælgere grundlæggende',
     secondaryKeywords: ['ophavsret printable sælgere grundlæggende Etsy', 'ophavsret printable sælgere grundlæggende online', 'ophavsret printable sælgere grundlæggende sælg'],
     lsiKeywords: ['printbar forretning', 'digital download salg', 'Etsy printables'],
-    titleTag: 'Ophavsret for Printable-Sælgere: Grundlæggende | LCS',
+    titleTag: 'Ophavsret for Printable-Sælgere: Grundlæggende | LessonCraftStudio',
     metaDescription: 'Ophavsret er det juridiske fundament for din printable-forretning. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

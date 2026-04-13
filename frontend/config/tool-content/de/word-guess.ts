@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Wortschatz-Spiel',
       'Rechtschreibung',
     ],
-    titleTag: 'Kostenloser Wörter-Raten Generator | LCS',
+    titleTag: 'Kostenloser Wörter-Raten Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Wörter-Raten Generator — Wort-Ratespiele mit Themenbildern sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz verfügbar.',
   },
 

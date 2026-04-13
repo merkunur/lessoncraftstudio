@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'instant code math maker',
       'try before you buy puzzle tools',
     ],
-    titleTag: 'Free Code Math Puzzle Maker Online | LCS',
+    titleTag: 'Free Code Math Puzzle Maker Online | LessonCraftStudio',
     metaDescription: 'Make crack-the-code math puzzles free online with watermark — no signup. Word Reveal mode, 11 languages, answer keys. Upgrade for commercial license.',
     },
 

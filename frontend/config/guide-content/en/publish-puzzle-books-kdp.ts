@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Amazon puzzle content variety',
       'self-publish activity books profitably',
     ],
-    titleTag: 'Publish Puzzle Books on KDP: Guide | LCS',
+    titleTag: 'Publish Puzzle Books on KDP: Guide | LessonCraftStudio',
     metaDescription: 'Publish puzzle books on Amazon KDP. Formatting specs, content variety, pricing strategy, and marketing tactics for puzzle book publishers.',
   },
 

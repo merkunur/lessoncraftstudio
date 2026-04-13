@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Pattern Worksheet Generator — Math Readiness KDP | LessonCraftStudio',
-    metaDescription: 'Create pattern activity worksheets for KDP and Etsy. 5 pattern types, multiple difficulty levels, math readiness niche. Commercial license. Try free trial.',
+    titleTag: 'Pattern Worksheet Generator — Early Math KDP Activity Pages | LessonCraftStudio',
+    metaDescription: 'Create pattern recognition worksheets for KDP early math books. Multiple pattern types, 104 themes, auto answer keys. Sell on Etsy or KDP. Commercial license. Try free.',
   },
 
   hero: {

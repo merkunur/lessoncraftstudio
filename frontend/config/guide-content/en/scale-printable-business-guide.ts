@@ -14,7 +14,7 @@ const content: GuideContent = {
       'printable business automation scaling',
       'full-time income selling printables',
     ],
-    titleTag: 'Scale Your Printable Business: Guide | LCS',
+    titleTag: 'Scale Your Printable Business: Guide | LessonCraftStudio',
     metaDescription: 'Scale your printable business from side hustle to full-time income. Multi-platform expansion, automation, and proven growth strategies.',
   },
 

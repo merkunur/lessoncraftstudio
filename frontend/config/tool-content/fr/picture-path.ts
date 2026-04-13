@@ -20,7 +20,7 @@ const content: ToolContent = {
       'motricité fine',
       'concentration',
     ],
-    titleTag: 'Générateur labyrinthes gratuit en ligne | LCS',
+    titleTag: 'Générateur labyrinthes gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de labyrinthes gratuit — créez des labyrinthes avec images thématiques en ligne, sans inscription. Solutions automatiques, PDF 300 DPI. Licence commerciale pour Etsy & KDP.',
   },
 

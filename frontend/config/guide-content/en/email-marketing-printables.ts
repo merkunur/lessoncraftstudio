@@ -14,7 +14,7 @@ const content: GuideContent = {
       'welcome sequence digital products',
       'customer retention email strategy',
     ],
-    titleTag: 'Email Marketing for Printable Sellers | LCS',
+    titleTag: 'Email Marketing for Printable Sellers | LessonCraftStudio',
     metaDescription: 'Email marketing guide for printable sellers. Build your list, automate sequences, and drive repeat purchases independent of marketplace algorithms.',
   },
 

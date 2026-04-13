@@ -17,7 +17,7 @@ const content: BlogContent = {
       'freddo',
       'dicembre',
     ],
-    titleTag: 'Schede Didattiche Inverno da Stampare | LCS',
+    titleTag: 'Schede Didattiche Inverno da Stampare | LessonCraftStudio',
     metaDescription: 'Schede didattiche d\'inverno da stampare per bambini. Natale, neve e attivita invernali per la scuola con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

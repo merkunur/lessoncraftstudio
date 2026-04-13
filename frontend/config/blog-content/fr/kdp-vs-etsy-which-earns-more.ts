@@ -13,7 +13,7 @@ const content: BlogContent = {
       'avantages inconvénients KDP Etsy',
       'diversifier revenus imprimables',
     ],
-    titleTag: 'KDP vs Etsy : lequel rapporte le plus ? | LCS',
+    titleTag: 'KDP vs Etsy : lequel rapporte le plus ? | LessonCraftStudio',
     metaDescription: 'Comparaison détaillée entre Amazon KDP et Etsy pour vendre des imprimables. Revenus, avantages, inconvénients et stratégie optimale.',
   },
   hero: {

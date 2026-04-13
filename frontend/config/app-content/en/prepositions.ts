@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Preposition Worksheet Generator — ESL & KDP Market | LessonCraftStudio',
-    metaDescription: 'Create preposition worksheets for ESL markets and KDP. 11 languages, visual spatial activities, tap the language learning niche. Commercial license. Try free trial.',
+    titleTag: 'Preposition Worksheet Generator — ESL & Language KDP Books | LessonCraftStudio',
+    metaDescription: 'Generate preposition worksheets for ESL and language learning KDP books. 11 languages, visual scenes, auto answer keys. Tap the global ESL market. Try free.',
   },
 
   hero: {

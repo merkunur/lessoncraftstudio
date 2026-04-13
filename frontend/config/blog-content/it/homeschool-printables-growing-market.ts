@@ -17,7 +17,7 @@ const content: BlogContent = {
       'autonomia',
       'programma',
     ],
-    titleTag: 'Materiale Istruzione Parentale da Stampare | LCS',
+    titleTag: 'Materiale Istruzione Parentale da Stampare | LessonCraftStudio',
     metaDescription: 'Materiale didattico per istruzione parentale da stampare. Schede complete per homeschooling con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

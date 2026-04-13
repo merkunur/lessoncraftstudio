@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Arbeitsblatt wiederverwenden 5 Produkte',
     secondaryKeywords: ['Ein Arbeitsblatt in 5 verschiedene Produkte verwandeln Anleitung', 'Druckvorlagen Ein Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Ein Arbeitsblatt in 5 verschiedene Produkte verwandeln | LCS',
+    titleTag: 'Ein Arbeitsblatt in 5 verschiedene Produkte verwandeln | LessonCraftStudio',
     metaDescription: 'So verwandeln Sie ein einzelnes Arbeitsblatt in 5 verschiedene Produkte: Einzelblatt, Bundle, KDP-Buch, Mega-Pack und personalisiert.',
   },
   hero: {

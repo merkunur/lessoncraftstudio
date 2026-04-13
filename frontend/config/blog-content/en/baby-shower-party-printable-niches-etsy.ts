@@ -15,7 +15,7 @@ const content: BlogContent = {
       'birthday party printable market',
       'event printable templates',
     ],
-    titleTag: 'Baby Shower & Party Printable Niches: Sell on Etsy | LCS',
+    titleTag: 'Baby Shower & Party Printable Niches: Sell on Etsy | LessonCraftStudio',
     metaDescription: 'Party printables — bingo, treasure hunts, and games — are a thriving Etsy niche. Learn which baby shower and party sub-niches sell best and how to create them fast.',
   },
   hero: {

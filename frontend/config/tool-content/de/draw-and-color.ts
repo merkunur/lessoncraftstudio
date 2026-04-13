@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Kunstunterricht',
       'kreativ',
     ],
-    titleTag: 'Kostenloser Mal-und-Zeichen Generator | LCS',
+    titleTag: 'Kostenloser Mal-und-Zeichen Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Mal-und-Zeichenvorlagen Ersteller — Kreativ-Arbeitsblätter sofort erstellen, ohne Anmeldung. Druckfertige PDFs. Lizenz für Etsy & KDP.',
   },
 

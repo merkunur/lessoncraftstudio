@@ -13,7 +13,7 @@ const content: BlogContent = {
       'translated worksheets sell online',
       'multilingual educational printables',
     ],
-    titleTag: 'How to Create Multi-Language Printables for Global Sales | LCS',
+    titleTag: 'How to Create Multi-Language Printables for Global Sales | LessonCraftStudio',
     metaDescription: 'Tap into underserved global markets by creating printables in 11 languages. Lower competition, higher margins, and a step-by-step creation workflow.',
   },
   hero: {

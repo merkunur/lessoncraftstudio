@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable seller platform comparison',
       'KDP royalties vs Etsy fees',
     ],
-    titleTag: 'KDP vs Etsy: Which Earns More? | LCS',
+    titleTag: 'KDP vs Etsy: Which Earns More? | LessonCraftStudio',
     metaDescription: 'KDP vs Etsy for printable sellers: honest comparison of earnings, fees, effort, and which platform fits your business model best.',
   },
   hero: {

@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Sudoku Puzzle Book Generator — KDP Ready | LessonCraftStudio',
-    metaDescription: 'Create picture sudoku puzzle books for KDP. Kids to expert difficulty, auto solutions, bulk generate. Puzzle book niche. Commercial license. Try free trial.',
+    titleTag: 'Picture Sudoku Generator — Kids Puzzle Books for KDP | LessonCraftStudio',
+    metaDescription: 'Create picture sudoku puzzles for KDP kids puzzle books. 4x4 image-based grids, 3 difficulty levels, auto answer keys. Unique format. Commercial license. Try free.',
   },
 
   hero: {

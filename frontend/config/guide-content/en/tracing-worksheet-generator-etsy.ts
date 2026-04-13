@@ -15,7 +15,7 @@ const content: GuideContent = {
       'SVG line tracing templates',
       'toddler handwriting readiness',
     ],
-    titleTag: 'Tracing Worksheet Generator for Etsy | LCS',
+    titleTag: 'Tracing Worksheet Generator for Etsy | LessonCraftStudio',
     metaDescription: 'Create professional tracing worksheets for Etsy with 8 SVG line templates, 104 themes, and 300 DPI output. Purely visual format sells worldwide. Step-by-step seller guide.',
   },
 

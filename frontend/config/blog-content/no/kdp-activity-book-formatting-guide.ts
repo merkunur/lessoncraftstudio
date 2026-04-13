@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'KDP aktivitetsbok formatering arbeidsark',
     secondaryKeywords: ['Amazon KDP formateringskrav oppgavebok', 'aktivitetsbok formatering marger størrelse', 'KDP bok avvist formatfeil løsning'],
     lsiKeywords: ['KDP trykt bok spesifikasjoner', 'PDF formatering aktivitetsbok', 'omslag oppløsning KDP krav'],
-    titleTag: 'KDP aktivitetsbok-formatering: Komplett guide | LCS',
+    titleTag: 'KDP aktivitetsbok-formatering: Komplett guide | LessonCraftStudio',
     metaDescription: 'Unngå avvisning på Amazon KDP. Komplett formateringsguide for aktivitetsbøker med arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

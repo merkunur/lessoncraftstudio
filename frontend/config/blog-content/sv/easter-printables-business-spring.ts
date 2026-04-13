@@ -13,7 +13,7 @@ const content: BlogContent = {
       'äggjaktsblad skriva ut barn',
       'säsongsprodukt vår mars april',
     ],
-    titleTag: 'Sälj Påskprintables: Vårens Bästa Nisch | LCS',
+    titleTag: 'Sälj Påskprintables: Vårens Bästa Nisch | LessonCraftStudio',
     metaDescription: 'Påskprintables säljer starkt mars-april. Påskpyssel, äggjaktsblad och vårfärgläggning ger svenska säljare en säsongstopp.',
   },
   hero: {

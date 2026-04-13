@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Zahle-was-du-willst Rabattcodes gestaffelte Preise',
       'Traffic-Generierung Social Media wiederkehrende Einnahmen',
     ],
-    titleTag: 'Druckvorlagen auf Gumroad verkaufen | LCS',
+    titleTag: 'Druckvorlagen auf Gumroad verkaufen | LessonCraftStudio',
     metaDescription: 'Druckvorlagen auf Gumroad verkaufen: Storefront einrichten, flexible Preisoptionen nutzen, E-Mail-Marketing aufbauen und mit Paketen und Mitgliedschaften skalieren.',
   },
 

@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'Denksport',
       'Logik',
     ],
-    titleTag: 'Kostenloser Mathe-Rätsel Ersteller | LCS',
+    titleTag: 'Kostenloser Mathe-Rätsel Ersteller | LessonCraftStudio',
     metaDescription: 'Kostenloser Mathe-Rätsel Ersteller — Bilder-Mathe-Puzzle online erstellen, ohne Anmeldung. Automatische Lösungen. Lizenz für Etsy & KDP.',
     },
 

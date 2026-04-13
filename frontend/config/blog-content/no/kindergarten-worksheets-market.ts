@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg barnehage-arbeidsark på nett',
     secondaryKeywords: ['barnehageoppgaver Etsy selge marked', 'førskole arbeidsark forretning', 'pedagogiske oppgaver barnehage salg'],
     lsiKeywords: ['sporing telling bokstavgjenkjenning', 'klar for skolen oppgaver', 'barnehage lekbasert læring'],
-    titleTag: 'Selg barnehage-arbeidsark — størst etterspørsel | LCS',
+    titleTag: 'Selg barnehage-arbeidsark — størst etterspørsel | LessonCraftStudio',
     metaDescription: 'Barnehage-arbeidsark er det største segmentet for pedagogiske oppgaver. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

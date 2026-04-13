@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Wortschatz Arbeitsblaetter Geschaeft Lese-Lern-Material',
     secondaryKeywords: ['Lesen lernen Arbeitsblaetter verkaufen', 'Grundwortschatz Druckvorlagen Etsy', 'Lesefoerderung Material Geschaeft'],
     lsiKeywords: ['Sichtwort-Training Grundschule', 'Leseuebungen PDF DACH', 'Wortschatz ueben Klasse 1-2'],
-    titleTag: 'Wortschatz-Arbeitsblaetter: Geschaeft mit Lesematerial | LCS',
+    titleTag: 'Wortschatz-Arbeitsblaetter: Geschaeft mit Lesematerial | LessonCraftStudio',
     metaDescription: 'Wortschatz- und Lese-Lern-Arbeitsblaetter verkaufen: Warum der Grundwortschatz-Markt ganzjaehrig profitabel ist. DACH-Marktanalyse und Produktideen.',
   },
   hero: {

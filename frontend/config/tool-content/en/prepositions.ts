@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant prepositions maker',
       'try before you buy ESL tools',
     ],
-    titleTag: 'Free Prepositions Worksheet Generator | LCS',
+    titleTag: 'Free Prepositions Worksheet Generator | LessonCraftStudio',
     metaDescription: 'Make preposition worksheets free online with watermark — no signup. Visual grammar activities, 11 languages, auto answer keys. Upgrade to sell.',
   },
 

@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'valentinsdag printables sælg',
     secondaryKeywords: ['valentinsdag printables sælg Etsy', 'valentinsdag printables sælg online', 'valentinsdag printables sælg forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Valentinsdag-Printables: Februar-Guide | LCS',
+    titleTag: 'Valentinsdag-Printables: Februar-Guide | LessonCraftStudio',
     metaDescription: 'Valentinsdag (14. februar) er en global salgsperiode for printable-sælgere. I Danmark er valentinsdag mindre kommerciel end i USA, men hjertetemaer og kærl',
   },
   hero: {

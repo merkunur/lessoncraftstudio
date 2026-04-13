@@ -17,7 +17,7 @@ const content: BlogContent = {
       'professionale',
       'anteprima',
     ],
-    titleTag: 'Foto Mockup Schede Didattiche | LCS',
+    titleTag: 'Foto Mockup Schede Didattiche | LessonCraftStudio',
     metaDescription: 'Come creare foto mockup professionali per schede didattiche. Presentazione visiva che converte con LessonCraftStudio — 33 generatori, 11 lingue.',
   },
   hero: {

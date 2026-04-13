@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kundnöjdhet arbetsblad recension',
       'kvalitetssignal Etsy listning',
     ],
-    titleTag: 'Facit Ökar Försäljningen med 40% | LCS',
+    titleTag: 'Facit Ökar Försäljningen med 40% | LessonCraftStudio',
     metaDescription: 'Arbetsblad med facit säljer 40% bättre på Etsy. Lär dig varför svarsnyckel höjer upplevt värde och minskar returer för dina printables.',
   },
   hero: {

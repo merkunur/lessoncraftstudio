@@ -15,7 +15,7 @@ const content: GuideContent = {
       'toddler matching activity digital downloads',
       'kindergarten matching games printable',
     ],
-    titleTag: 'Sell Matching Worksheets on Etsy | LCS',
+    titleTag: 'Sell Matching Worksheets on Etsy | LessonCraftStudio',
     metaDescription: 'Sell matching worksheets on Etsy step by step. 4 matching modes, preschool market demand, SEO tags, pricing strategy, and toddler activity niche tactics.',
   },
 

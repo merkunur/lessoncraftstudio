@@ -18,8 +18,8 @@ const content: AppContent = {
       'low competition niche',
       'bulk generation',
     ],
-    titleTag: 'Counting Chart Generator — Preschool KDP Books | LessonCraftStudio',
-    metaDescription: 'Create counting chart worksheets for preschool KDP books and Etsy bundles. Low-competition niche, bulk generate, commercial license. Try free trial.',
+    titleTag: 'Chart Count Worksheet Generator — Preschool KDP Book Pages | LessonCraftStudio',
+    metaDescription: 'Generate counting chart worksheets for preschool KDP books and Etsy bundles. Themed images, multiple layouts, auto answer keys. Commercial license included. Try free.',
   },
 
   hero: {

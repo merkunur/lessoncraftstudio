@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Ocean Animal Printable Business Ideas | LCS',
+    titleTag: 'Ocean Animal Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Ocean animal printable business ideas for Etsy & KDP. Product concepts, bundling strategies, and market analysis for marine-themed printable sellers.',
 
     primaryKeyword: 'ocean animal printable business ideas',

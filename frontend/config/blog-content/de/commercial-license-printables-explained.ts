@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Lizenz Arbeitsblaetter Generator',
       'kommerzielle Rechte digitale Downloads',
     ],
-    titleTag: 'Kommerzielle Lizenz fuer Druckvorlagen erklaert | LCS',
+    titleTag: 'Kommerzielle Lizenz fuer Druckvorlagen erklaert | LessonCraftStudio',
     metaDescription: 'Was eine kommerzielle Lizenz fuer Druckvorlagen bedeutet, wann Sie eine brauchen und worauf Sie beim Verkauf auf Etsy und KDP achten muessen.',
   },
   hero: {

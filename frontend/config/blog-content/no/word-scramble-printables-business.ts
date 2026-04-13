@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'bokstavblanding arbeidsark forretning Etsy',
     secondaryKeywords: ['anagram oppgaver selge nettbutikk', 'bokstavblanding oppgaver Etsy KDP', 'ordpuslespill arbeidsark bedrift'],
     lsiKeywords: ['bokstav-mikser oppgaver salg', 'ordvirvel arbeidsark inntekt', 'språk puslespill kommersiell lisens'],
-    titleTag: 'Bokstavblanding-arbeidsark som forretning | LCS',
+    titleTag: 'Bokstavblanding-arbeidsark som forretning | LessonCraftStudio',
     metaDescription: 'Bygg en lønnsom forretning med bokstavblanding-arbeidsark. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

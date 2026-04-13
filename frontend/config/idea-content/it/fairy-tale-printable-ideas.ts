@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede sulle fiabe da stampare per bambini | LCS',
+    titleTag: 'Schede sulle fiabe da stampare per bambini | LessonCraftStudio',
     metaDescription: 'Crea schede sulle fiabe da stampare: colorare principesse e draghi, crucipuzzle fiabeschi, abbinamento personaggi e attività creative per bambini 3-7 anni.',
     primaryKeyword: 'schede sulle fiabe da stampare',
     secondaryKeywords: [

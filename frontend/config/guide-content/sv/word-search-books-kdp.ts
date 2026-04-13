@@ -17,7 +17,7 @@ const content: GuideContent = {
       'ordsökningsbok serie volymer upprepade köp katalog',
       'pusselbok skriva ut barn vuxna marknad formatering',
     ],
-    titleTag: 'Ordsökningsböcker för Amazon KDP | LCS',
+    titleTag: 'Ordsökningsböcker för Amazon KDP | LessonCraftStudio',
     metaDescription: 'Skapa ordsökningsböcker för KDP med tematiska ordlistor, storskriftsformat och seriestrategi. Rutnätsstorlek, målgrupper och Amazon-nyckelordsoptimering.',
   },
 

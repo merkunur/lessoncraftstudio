@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pirate Printable Business Ideas | LCS',
+    titleTag: 'Pirate Printable Business Ideas | LessonCraftStudio',
     metaDescription: 'Pirate themed printable business ideas. Adventure and treasure product concepts and strategies for Etsy & KDP printable sellers.',
 
     primaryKeyword: 'pirate printable business ideas',

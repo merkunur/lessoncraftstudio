@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg arbeidsark for hjemmeundervisning',
     secondaryKeywords: ['hjemmeundervisning oppgaver Etsy selge', 'hjemmeskole arbeidsark forretning', 'pedagogisk materiell hjemmeundervisning salg'],
     lsiKeywords: ['Kunnskapsløftet hjemmeskole', 'læreplanbaserte oppgaver', 'hjemmeundervisning voksende marked'],
-    titleTag: 'Selg arbeidsark for hjemmeundervisning | LCS',
+    titleTag: 'Selg arbeidsark for hjemmeundervisning | LessonCraftStudio',
     metaDescription: 'Hjemmeundervisning vokser globalt og i Norge. Selg arbeidsark til dette markedet. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

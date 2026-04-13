@@ -13,7 +13,7 @@ const content: BlogContent = {
       'license types digital downloads',
       'printable resale rights',
     ],
-    titleTag: 'Commercial License for Printables Explained | LCS',
+    titleTag: 'Commercial License for Printables Explained | LessonCraftStudio',
     metaDescription: 'What a commercial license for printables actually means. Types of licenses, what you can and cannot do, and how to protect your own printable products.',
   },
   hero: {

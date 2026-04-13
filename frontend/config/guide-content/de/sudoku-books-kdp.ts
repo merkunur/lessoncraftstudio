@@ -14,7 +14,7 @@ const content: GuideContent = {
       'Sudoku-Serie treue Löser Katalogaufbau',
       'Rasterformatierung Seitenlayout Lösungsschlüssel',
     ],
-    titleTag: 'Sudoku-Bücher für Amazon KDP erstellen | LCS',
+    titleTag: 'Sudoku-Bücher für Amazon KDP erstellen | LessonCraftStudio',
     metaDescription: 'Sudoku-Bücher für Amazon KDP erstellen: Bilder-Sudoku für Kinder, Zahlen-Sudoku für Erwachsene, Schwierigkeitsstufen und Serienaufbau für wiederkehrende Käufer.',
   },
 

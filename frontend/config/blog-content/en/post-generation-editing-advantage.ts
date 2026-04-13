@@ -15,15 +15,15 @@ const content: BlogContent = {
       'branding printable worksheets tool',
       'activity book content personalization',
     ],
-    titleTag: 'The Post-Generation Editing Advantage: Why It Changes Everything | LCS',
-    metaDescription: 'Most worksheet generators are generate-and-hope. LessonCraftStudio\'s editing canvas lets you customize after creation. Learn why post-generation editing saves time and improves quality.',
+    titleTag: 'Post-Generation Editing — The Feature No Other Worksheet Generator Offers | LessonCraftStudio',
+    metaDescription: 'Why post-generation editing is LessonCraftStudio\'s biggest advantage. Move, resize, rotate, add text, swap images after generation. No other tool offers this.',
   },
   hero: {
     title: 'The Post-Generation Editing Advantage: Why It Changes Your Workflow',
     tagline: 'Stop regenerating. Start editing.',
     description: 'Every worksheet generator works the same way: configure settings, click generate, and hope the output is what you wanted. If it is not, you regenerate and hope again. LessonCraftStudio breaks this cycle with a post-generation editing canvas that lets you modify worksheets after creation. This feature is unique in the market, and it fundamentally changes how publishers work.',
   },
-  category: 'product-guide',
+  category: 'tool-comparison',
   introduction: 'Here is a scenario every printable publisher knows: you generate a word search, and everything looks great except the word list is positioned where you wanted a header. Or you create a math worksheet and the spacing between problems is slightly too tight for your target age group. Or a coloring page has the right image but you want to add a decorative border. With traditional generators, your only option is to regenerate and hope the random output is closer to what you want. With LessonCraftStudio\'s editing canvas, you simply move what needs moving, resize what needs resizing, and export. No regeneration. No guessing. No wasted time.',
   sections: [
     {

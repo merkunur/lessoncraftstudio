@@ -14,7 +14,7 @@ const content: IdeaContent = {
       'Sommerlager Campingplatz Druckvorlagen',
       'saisonale Outdoor-Nische Ganzjahresrelevanz',
     ],
-    titleTag: 'Camping-Druckvorlagen Nische für Etsy | LCS',
+    titleTag: 'Camping-Druckvorlagen Nische für Etsy | LessonCraftStudio',
     metaDescription: 'Camping-Druckvorlagen als profitable Etsy-Nische entdecken. Outdoor-Themen mit saisonalen Spitzen und Ganzjahresrelevanz — Produktideen und Wettbewerbsanalyse für Verkäufer.',
   },
   hero: {

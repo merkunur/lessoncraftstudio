@@ -14,7 +14,7 @@ const content: GuideContent = {
       'grid-based math worksheet generator',
       'puzzle-reveal math templates',
     ],
-    titleTag: 'Create Math Puzzle Worksheets to Sell | LCS',
+    titleTag: 'Create Math Puzzle Worksheets to Sell | LessonCraftStudio',
     metaDescription: 'Create math puzzle worksheets that sell. Grid sizes, operations, themed reveals. Guide for Etsy, KDP, and TPT sellers. Try our generator free.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'imprimibles desarrollo motor fino',
       'hojas trazado preescolar vendedores',
     ],
-    titleTag: 'Fichas Trazado Motricidad Fina: Guía Vendedores | LCS',
+    titleTag: 'Fichas Trazado Motricidad Fina: Guía Vendedores | LessonCraftStudio',
     metaDescription: 'Las fichas de trazado para motricidad fina tienen demanda creciente. Guía para crear y vender en Etsy, KDP y Hotmart. Prueba gratuita con marca de agua.',
   },
   hero: {

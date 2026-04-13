@@ -13,7 +13,7 @@ const content: BlogContent = {
       'estrategia Pinterest vendedores Etsy',
       'Pinterest SEO imprimibles',
     ],
-    titleTag: 'Pinterest para Vender Imprimibles: Guia Completa | LCS',
+    titleTag: 'Pinterest para Vender Imprimibles: Guia Completa | LessonCraftStudio',
     metaDescription: 'Como usar Pinterest para llevar trafico a su tienda de imprimibles. Estrategia de pines, tableros y SEO en Pinterest para vendedores educativos.',
   },
   hero: {

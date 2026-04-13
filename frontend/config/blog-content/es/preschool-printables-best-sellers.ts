@@ -9,7 +9,7 @@ const content: BlogContent = {
       'adaptaciones culturales region',
     ],
     lsiKeywords: ['imprimibles preescolar fichas', 'vender imprimibles imprimibles', 'mas vendidos educativos'],
-    titleTag: 'Imprimibles de Preescolar que Mas Venden | LCS',
+    titleTag: 'Imprimibles de Preescolar que Mas Venden | LessonCraftStudio',
     metaDescription: 'Los ninos de 3 a 5 anos representan el segmento de mayor demanda en imprimibles educativos. Los padres de preescolares buscan activamente actividades para ',
   },
   hero: {

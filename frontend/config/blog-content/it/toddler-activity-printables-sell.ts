@@ -17,7 +17,7 @@ const content: BlogContent = {
       'primo apprendimento',
       'bambini piccoli',
     ],
-    titleTag: 'Attività Bambini 1-3 Anni da Stampare | LCS',
+    titleTag: 'Attività Bambini 1-3 Anni da Stampare | LessonCraftStudio',
     metaDescription: 'Attività educative per bambini 1-3 anni da stampare. Esercizi di motricità fine e primo apprendimento con LessonCraftStudio — 33 generatori.',
   },
   hero: {

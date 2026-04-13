@@ -13,7 +13,7 @@ const content: BlogContent = {
       'formatage KDP activités',
       'cahiers exercices Amazon.fr',
     ],
-    titleTag: 'Livres de puzzles maths pour Amazon KDP | LCS',
+    titleTag: 'Livres de puzzles maths pour Amazon KDP | LessonCraftStudio',
     metaDescription: 'Comment publier des livres de puzzles maths rentables sur Amazon KDP. Formatage, niches et stratégies de prix pour le marché francophone en 2026.',
   },
   hero: {

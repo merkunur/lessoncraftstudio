@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tematiska räkneblad 3-6 år',
       'bildräkning arbetsblad förskola',
     ],
-    titleTag: 'Sälj Hitta-och-Räkna-Arbetsblad på Etsy | LCS',
+    titleTag: 'Sälj Hitta-och-Räkna-Arbetsblad på Etsy | LessonCraftStudio',
     metaDescription: 'Hitta-och-räkna-arbetsblad säljer starkt för barn 3-6 år. Skapa tematiska räkneblad och sälj på Etsy som printables.',
   },
   hero: {

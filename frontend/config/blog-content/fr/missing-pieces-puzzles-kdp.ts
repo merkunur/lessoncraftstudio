@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches logique visuelle vendre',
       'activités raisonnement spatial imprimables',
     ],
-    titleTag: 'Puzzles pièces manquantes pour KDP | LCS',
+    titleTag: 'Puzzles pièces manquantes pour KDP | LessonCraftStudio',
     metaDescription: 'Les puzzles pièces manquantes sont une niche KDP peu concurrentielle. Apprenez à créer et publier ces cahiers d\'activités visuelles en 2026.',
   },
   hero: {

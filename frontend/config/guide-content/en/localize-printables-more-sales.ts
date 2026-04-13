@@ -15,7 +15,7 @@ const content: GuideContent = {
       'multi-language printable workflow',
       'international product expansion',
     ],
-    titleTag: 'Localize Printables for 3x More Sales | LCS',
+    titleTag: 'Localize Printables for 3x More Sales | LessonCraftStudio',
     metaDescription: 'Step-by-step localization workflow to turn one English printable into 10 language versions. Multiply revenue 3x with LessonCraftStudio\'s 11-language generators.',
   },
 

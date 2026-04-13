@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Pet Themed Printables to Sell on Etsy | LCS',
+    titleTag: 'Pet Themed Printables to Sell on Etsy | LessonCraftStudio',
     metaDescription: 'Pet themed printable business ideas for Etsy & KDP. Product concepts and strategies for dog, cat, and pet-themed printable sellers.',
 
     primaryKeyword: 'pet themed printables to sell on Etsy',

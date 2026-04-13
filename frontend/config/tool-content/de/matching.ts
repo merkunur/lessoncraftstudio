@@ -15,7 +15,7 @@ const content: ToolContent = {
       'Vorschule',
       'Kindergarten',
     ],
-    titleTag: 'Kostenloser Zuordnungs-Arbeitsblatt Maker | LCS',
+    titleTag: 'Kostenloser Zuordnungs-Arbeitsblatt Maker | LessonCraftStudio',
     metaDescription: 'Kostenloser Zuordnungs-Arbeitsblatt Ersteller — Bilder-Zuordnungsübungen sofort erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
   },
 

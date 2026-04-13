@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches dessin pas à pas vendre',
       'coloriage guidé imprimables',
     ],
-    titleTag: 'Fiches dessiner et colorier : 2 niches en 1 | LCS',
+    titleTag: 'Fiches dessiner et colorier : 2 niches en 1 | LessonCraftStudio',
     metaDescription: 'Les fiches dessiner et colorier combinent deux activités en un seul produit. Doublez votre marché avec cette approche hybride en 2026.',
   },
   hero: {

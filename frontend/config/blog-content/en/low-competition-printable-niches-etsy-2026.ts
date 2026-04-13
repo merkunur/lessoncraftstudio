@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable market gap analysis',
       'Etsy search demand vs competition',
     ],
-    titleTag: 'Low-Competition Printable Niches on Etsy for 2026 | LCS',
+    titleTag: 'Low-Competition Printable Niches on Etsy for 2026 | LessonCraftStudio',
     metaDescription: 'Research-backed low-competition printable niches on Etsy for 2026. Learn the methodology to find underserved markets and specific opportunities to enter now.',
   },
   hero: {

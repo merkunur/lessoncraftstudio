@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP skrivarbetsbok handstil bokstavsövning',
       'kommersiell licens typsnittsstilar PDF-export verktyg',
     ],
-    titleTag: 'Skapa skrivövningar att skriva ut | LCS',
+    titleTag: 'Skapa skrivövningar att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa skrivövningsblad att skriva ut med spåra, toningsövning och guidad kopia. Streckordningspilar och PDF-export. Sälj på Etsy och Amazon KDP.',
   },
 

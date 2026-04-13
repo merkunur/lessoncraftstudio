@@ -9,7 +9,7 @@ const content: BlogContent = {
       'paso crear fotos listing',
     ],
     lsiKeywords: ['usar imagenes tematicas tips', 'como usar imagenes', 'vender fichas facil'],
-    titleTag: 'Imagenes Tematicas para Vender Mas Fichas | LCS',
+    titleTag: 'Imagenes Tematicas para Vender Mas Fichas | LessonCraftStudio',
     metaDescription: 'Una ficha de suma con numeros genericos compite con miles de productos identicos. La misma ficha de suma con dinosaurios, unicornios o animales marinos se ',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'etiquetas Etsy fichas PDF',
       'busqueda Etsy productos digitales',
     ],
-    titleTag: 'SEO Etsy para Vendedores de Imprimibles 2026 | LCS',
+    titleTag: 'SEO Etsy para Vendedores de Imprimibles 2026 | LessonCraftStudio',
     metaDescription: 'Estrategias de SEO en Etsy actualizadas para 2026. Aprenda a optimizar titulos, etiquetas y descripciones para vender mas imprimibles educativos.',
   },
   hero: {

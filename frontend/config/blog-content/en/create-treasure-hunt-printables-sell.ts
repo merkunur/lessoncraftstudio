@@ -13,7 +13,7 @@ const content: BlogContent = {
       'themed scavenger hunt sell',
       'birthday party printable business',
     ],
-    titleTag: 'How to Create Treasure Hunt Printables to Sell | LCS',
+    titleTag: 'How to Create Treasure Hunt Printables to Sell | LessonCraftStudio',
     metaDescription: 'Create and sell themed treasure hunt printables for the party market. Seasonal editions, themed hunts, pricing strategies, and Etsy listing optimization.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'pregrafismo',
       'primi concetti',
     ],
-    titleTag: 'Schede Scuola Infanzia da Stampare | LCS',
+    titleTag: 'Schede Scuola Infanzia da Stampare | LessonCraftStudio',
     metaDescription: 'Le migliori schede per la scuola dell\'infanzia da stampare. Attivita educative per bambini 3-5 anni con pregrafismo — LessonCraftStudio, 33 generatori.',
   },
   hero: {

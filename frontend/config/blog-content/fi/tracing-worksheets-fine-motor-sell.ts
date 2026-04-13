@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kynänkäyttö harjoitukset tulosteet',
       'esikoulun piirustusharjoitukset',
     ],
-    titleTag: 'Jäljennystyöarkit tulostettavina | LCS',
+    titleTag: 'Jäljennystyöarkit tulostettavina | LessonCraftStudio',
     metaDescription: 'Myy jäljennystyöarkkeja hienomotoriikan kehittämiseen. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

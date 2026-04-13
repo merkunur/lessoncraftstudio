@@ -15,7 +15,7 @@ const content: GuideContent = {
       'printable math practice',
       'arithmetic worksheet manuscript',
     ],
-    titleTag: 'Sell Math Worksheet Books on KDP | LCS',
+    titleTag: 'Sell Math Worksheet Books on KDP | LessonCraftStudio',
     metaDescription: 'How to create and sell math worksheet books on Amazon KDP. Addition, subtraction, mixed operations. Grade-level targeting, KDP formatting. Try free trial with watermark.',
   },
 

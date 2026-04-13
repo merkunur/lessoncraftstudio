@@ -17,7 +17,7 @@ const content: BlogContent = {
       'senza numeri',
       'visivo',
     ],
-    titleTag: 'Sudoku con Immagini Bambini da Stampare | LCS',
+    titleTag: 'Sudoku con Immagini Bambini da Stampare | LessonCraftStudio',
     metaDescription: 'Sudoku con immagini da stampare per bambini senza numeri. Giochi di logica visiva per prescuola e scuola infanzia con LessonCraftStudio — 33 generatori.',
   },
   hero: {

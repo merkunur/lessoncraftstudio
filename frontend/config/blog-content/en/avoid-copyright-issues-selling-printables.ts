@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable seller legal compliance',
       'image licensing commercial use',
     ],
-    titleTag: 'How to Avoid Copyright Issues When Selling Printables | LCS',
+    titleTag: 'How to Avoid Copyright Issues When Selling Printables | LessonCraftStudio',
     metaDescription: 'Understand copyright basics for printable sellers. Learn about commercial licenses, what you can and cannot sell, and how to protect your business legally.',
   },
   hero: {

@@ -17,7 +17,7 @@ const content: BlogContent = {
       'neonato',
       'motricità',
     ],
-    titleTag: 'Attività Educative 0-3 Anni da Stampare | LCS',
+    titleTag: 'Attività Educative 0-3 Anni da Stampare | LessonCraftStudio',
     metaDescription: 'Attività educative per bambini 0-3 anni da stampare. Schede di sviluppo precoce, motricità fine e primi concetti con LessonCraftStudio — 33 generatori.',
   },
   hero: {

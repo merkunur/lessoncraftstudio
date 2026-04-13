@@ -8,7 +8,7 @@ const content: BlogContent = {
       'ferieoppgaver barn selge på nett',
     ],
     lsiKeywords: ['reise oppgaver barn salg', 'biltur arbeidsark nisje', 'ferie arbeidsark kommersiell lisens'],
-    titleTag: 'Reiseaktiviteter-arbeidsark: Lag og selg | LCS',
+    titleTag: 'Reiseaktiviteter-arbeidsark: Lag og selg | LessonCraftStudio',
     metaDescription: 'Lag og selg reiseaktiviteter og biltur-oppgaver for barn på Etsy. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

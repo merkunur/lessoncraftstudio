@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'kdp aktivitetsbog start slut amazon mest',
     secondaryKeywords: ['opret aktivitetsbog KDP start til slut Etsy', 'opret aktivitetsbog KDP start til slut online', 'opret aktivitetsbog KDP start til slut sælg'],
     lsiKeywords: ['printbar forretning', 'digital download salg', 'Etsy printables'],
-    titleTag: 'Aktivitetsbog til KDP: Start til Slut | LCS',
+    titleTag: 'Aktivitetsbog til KDP: Start til Slut | LessonCraftStudio',
     metaDescription: 'Amazon KDP er en af de mest profitable kanaler for printable-sælgere. Aktivitetsbøger — med arbejdsark, puslespil og farvelægning — sælger konsistent som f',
   },
   hero: {

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'objectifs financiers produits numériques',
       'rentabilité activité fiches exercices',
     ],
-    titleTag: 'Revenus réalistes d\'une activité d\'imprimables | LCS',
+    titleTag: 'Revenus réalistes d\'une activité d\'imprimables | LessonCraftStudio',
     metaDescription: 'Revenus réalistes d\'une activité d\'imprimables : chiffres honnêtes par mois, plateforme et niveau d\'expérience. Vendez sur Etsy & KDP.',
   },
   hero: {

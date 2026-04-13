@@ -17,7 +17,7 @@ const content: BlogContent = {
       'promozione',
       'visibilità',
     ],
-    titleTag: 'Social Media per Schede Didattiche | LCS',
+    titleTag: 'Social Media per Schede Didattiche | LessonCraftStudio',
     metaDescription: 'Come promuovere schede didattiche sui social media. Strategie efficaci per Instagram, Facebook e TikTok con LessonCraftStudio — 33 generatori.',
   },
   hero: {

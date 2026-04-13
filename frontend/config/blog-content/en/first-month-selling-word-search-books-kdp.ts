@@ -13,7 +13,7 @@ const content: BlogContent = {
       'KDP puzzle book publishing',
       'word search niche KDP profitability',
     ],
-    titleTag: 'Your First Month Selling Word Search Books on KDP | LCS',
+    titleTag: 'Your First Month Selling Word Search Books on KDP | LessonCraftStudio',
     metaDescription: 'A hypothetical first month publishing word search books on Amazon KDP. What to publish, how many books, realistic expectations, and strategy based on marketplace data.',
   },
   hero: {

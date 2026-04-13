@@ -13,7 +13,7 @@ const content: BlogContent = {
       'SFI svenska invandrare material',
       'flerspråkiga arbetsblad global',
     ],
-    titleTag: 'Sälj ESL-Arbetsblad Globalt på Etsy | LCS',
+    titleTag: 'Sälj ESL-Arbetsblad Globalt på Etsy | LessonCraftStudio',
     metaDescription: 'ESL-arbetsblad når miljoner köpare globalt. SFI-material ger svenska säljare en unik nisch med noll konkurrens.',
   },
   hero: {

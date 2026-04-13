@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Etsy printable revenue growth',
       'printable business scaling timeline',
     ],
-    titleTag: '$500/Month Printable Side Hustle: A Realistic Timeline | LCS',
+    titleTag: '$500/Month Printable Side Hustle: A Realistic Timeline | LessonCraftStudio',
     metaDescription: 'How long does it take to earn $500/month selling printables? A realistic, month-by-month hypothetical timeline based on marketplace data and seller patterns.',
   },
   hero: {

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'localization strategy printables',
       'multi-language Etsy listings',
     ],
-    titleTag: 'Multilingual Printable Business Guide | LCS',
+    titleTag: 'Multilingual Printable Business Guide | LessonCraftStudio',
     metaDescription: 'Build a multilingual printable business. Expand to international markets, translate products efficiently, and sell printables in 11 languages.',
   },
 

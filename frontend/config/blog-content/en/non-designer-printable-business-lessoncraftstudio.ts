@@ -13,7 +13,7 @@ const content: BlogContent = {
       'printable business tools beginners',
       'automated worksheet creation',
     ],
-    titleTag: 'Build a Printable Business with No Design Skills | LCS',
+    titleTag: 'Build a Printable Business with No Design Skills | LessonCraftStudio',
     metaDescription: 'How a hypothetical non-designer could build a profitable printable business using worksheet generators. No Photoshop, no Illustrator, no design degree needed.',
   },
   hero: {

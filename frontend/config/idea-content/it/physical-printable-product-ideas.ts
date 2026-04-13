@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede didattiche plastificate e rilegabili | LCS',
+    titleTag: 'Schede didattiche plastificate e rilegabili | LessonCraftStudio',
     metaDescription: 'Crea schede didattiche da stampare e plastificare: quaderni rilegati, kit educativi e materiali pronti all\'uso per scuole, asili e famiglie.',
     primaryKeyword: 'schede didattiche plastificate da stampare',
     secondaryKeywords: [

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Visuelles Denken Arbeitsblaetter',
       'Silhouetten Raetsel Kinder',
     ],
-    titleTag: 'Schatten-Zuordnung: Warum sie sich besser verkaufen | LCS',
+    titleTag: 'Schatten-Zuordnung: Warum sie sich besser verkaufen | LessonCraftStudio',
     metaDescription: 'Schatten-Zuordnungs-Arbeitsblaetter erzielen hoehere Preise als Standard-Zuordnungen. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {

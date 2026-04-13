@@ -17,7 +17,7 @@ const content: BlogContent = {
       'sottrazioni',
       'completo',
     ],
-    titleTag: 'Pacchetti Schede Matematica da Stampare | LCS',
+    titleTag: 'Pacchetti Schede Matematica da Stampare | LessonCraftStudio',
     metaDescription: 'Pacchetti completi di schede matematica da stampare per la scuola primaria. Addizioni, sottrazioni e tabelline con LessonCraftStudio — 33 generatori.',
   },
   hero: {

@@ -34,14 +34,17 @@ const productGuideIds = [
   'treasure-hunt-printables-sell', 'picture-sudoku-books-kdp',
   'size-comparison-worksheets-sell', 'more-less-worksheets-sell',
   'odd-one-out-worksheets-sell',
-  // SEO Overhaul: Category D — Tool Comparisons & "Best Of" (15)
+];
+
+// Tool Comparisons & Reviews (15 posts)
+const toolComparisonIds = [
   'lessoncraftstudio-vs-book-bolt', 'lessoncraftstudio-vs-bookgenie',
+  'lessoncraftstudio-vs-self-publishing-titans', 'lessoncraftstudio-vs-canva',
+  'lessoncraftstudio-vs-tangent-templates', 'lessoncraftstudio-vs-activity-book-generator',
   'best-word-search-generators-kdp', 'best-kdp-activity-book-tools',
-  'best-worksheet-generators-etsy', 'lessoncraftstudio-vs-canva',
-  'lessoncraftstudio-vs-tangent-templates', 'best-crossword-generators-kdp',
-  'lessoncraftstudio-vs-self-publishing-titans', 'free-vs-paid-worksheet-generators',
+  'best-worksheet-generators-etsy', 'best-crossword-generators-kdp',
   'best-coloring-page-generators-kdp', 'best-math-worksheet-generators-kdp',
-  'lessoncraftstudio-vs-activity-book-generator', 'best-sudoku-generators-kdp',
+  'best-sudoku-generators-kdp', 'free-vs-paid-worksheet-generators',
   'post-generation-editing-advantage',
 ];
 
@@ -148,6 +151,7 @@ const howToIds = [
 ];
 
 for (const id of productGuideIds) blogCategoryMap[id] = 'product-guide';
+for (const id of toolComparisonIds) blogCategoryMap[id] = 'tool-comparison';
 for (const id of platformStrategyIds) blogCategoryMap[id] = 'platform-strategy';
 for (const id of nicheSeasonalIds) blogCategoryMap[id] = 'niche-seasonal';
 for (const id of howToIds) blogCategoryMap[id] = 'how-to';
@@ -166,6 +170,19 @@ const categoryLabels: Record<BlogCategory, Record<string, string>> = {
     da: 'Produktspecifikke salgsguider',
     no: 'Produktspesifikke salgsguider',
     fi: 'Tuotekohtaiset myyntiopaat',
+  },
+  'tool-comparison': {
+    en: 'Tool Comparisons & Reviews',
+    de: 'Tool-Vergleiche & Bewertungen',
+    fr: 'Comparaisons et avis d\'outils',
+    es: 'Comparaciones y resenas de herramientas',
+    pt: 'Comparacoes e avaliacoes de ferramentas',
+    it: 'Confronti e recensioni di strumenti',
+    nl: 'Toolvergelijkingen & reviews',
+    sv: 'Verktygsjamforelser och recensioner',
+    da: 'Vaerktoejssammenligninger og anmeldelser',
+    no: 'Verktoysammenligninger og anmeldelser',
+    fi: 'Tyokaluvertailut ja arvostelut',
   },
   'platform-strategy': {
     en: 'Platform & Business Strategy',
@@ -310,11 +327,12 @@ export default async function BlogIndexPage({
     postTitles[config.blogId] = content?.hero?.title || blogIdToTitle(config.blogId);
   }
 
-  const categoryOrder: BlogCategory[] = ['product-guide', 'platform-strategy', 'niche-seasonal', 'how-to'];
+  const categoryOrder: BlogCategory[] = ['product-guide', 'tool-comparison', 'platform-strategy', 'niche-seasonal', 'how-to'];
 
   // Group posts by category
   const grouped: Record<BlogCategory, typeof blogPageSlugs> = {
     'product-guide': [],
+    'tool-comparison': [],
     'platform-strategy': [],
     'niche-seasonal': [],
     'how-to': [],

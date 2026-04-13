@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances maternelle',
       'demande fiches imprimables maternelle',
     ],
-    titleTag: 'Imprimables maternelle : les best-sellers | LCS',
+    titleTag: 'Imprimables maternelle : les best-sellers | LessonCraftStudio',
     metaDescription: 'Les imprimables les plus vendus pour la maternelle (PS, MS, GS). Types de fiches, thèmes et stratégie de vente.',
   },
   hero: {

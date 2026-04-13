@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances éducatifs',
       'demande fiches imprimables éducatifs',
     ],
-    titleTag: 'Imprimables pour nouveaux parents | LCS',
+    titleTag: 'Imprimables pour nouveaux parents | LessonCraftStudio',
     metaDescription: 'Vendez des imprimables éducatifs aux nouveaux parents. Activités d\'éveil, développement et premières découvertes.',
   },
   hero: {

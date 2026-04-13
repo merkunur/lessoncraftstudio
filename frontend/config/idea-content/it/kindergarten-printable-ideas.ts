@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Schede ultimo anno infanzia da stampare | LCS',
+    titleTag: 'Schede ultimo anno infanzia da stampare | LessonCraftStudio',
     metaDescription: 'Crea schede per l\'ultimo anno dell\'infanzia da stampare: pregrafismo, prenumerazione, lettere e numeri. Attività per bambini 5-6 anni verso la primaria.',
     primaryKeyword: 'schede ultimo anno infanzia da stampare',
     secondaryKeywords: [

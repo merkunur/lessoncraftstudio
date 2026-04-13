@@ -17,7 +17,7 @@ const content: BlogContent = {
       'lettere',
       'tracciare',
     ],
-    titleTag: 'Schede Pregrafismo e Scrittura da Stampare | LCS',
+    titleTag: 'Schede Pregrafismo e Scrittura da Stampare | LessonCraftStudio',
     metaDescription: 'Schede di pregrafismo e scrittura da stampare per bambini. Esercizi di calligrafia per la scuola primaria con LessonCraftStudio — 33 generatori.',
   },
   hero: {

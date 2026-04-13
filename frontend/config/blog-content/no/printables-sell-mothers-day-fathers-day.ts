@@ -8,7 +8,7 @@ const content: BlogContent = {
       'lag morsdagsaktiviteter arbeidsark kommersiell lisens',
     ],
     lsiKeywords: ['sesongbaserte arbeidsark morsdag farsdag', 'kort aktiviteter barn foreldre', 'norsk morsdag februar farsdag november'],
-    titleTag: 'Selg arbeidsark for morsdag og farsdag | LCS',
+    titleTag: 'Selg arbeidsark for morsdag og farsdag | LessonCraftStudio',
     metaDescription: 'Morsdag og farsdag gir to store salgsmuligheter for arbeidsark-selgere. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

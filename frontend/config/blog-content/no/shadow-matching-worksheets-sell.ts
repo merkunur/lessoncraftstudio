@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'skyggematching oppgaver selge Etsy',
     secondaryKeywords: ['skyggematching arbeidsark selge nettbutikk', 'silhuett-oppgaver forretning barn', 'skyggepuslespill arbeidsark selge tips'],
     lsiKeywords: ['koble skygge oppgaver salg', 'pedagogiske arbeidsark forretning', 'Etsy digital nedlasting barnehage'],
-    titleTag: 'Skyggematching-oppgaver: Selg på nett | LCS',
+    titleTag: 'Skyggematching-oppgaver: Selg på nett | LessonCraftStudio',
     metaDescription: 'Lag og selg skyggematching-oppgaver for barn på Etsy og KDP. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

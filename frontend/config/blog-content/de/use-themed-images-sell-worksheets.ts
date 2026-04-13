@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'bilder themenbilder mehr arbeitsblatt',
     secondaryKeywords: ['Themenbilder fuer mehr Arbeitsblatt-Verkaeufe nutzen Anleitung', 'Druckvorlagen Themenbilder Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'Themenbilder fuer mehr Arbeitsblatt-Verkaeufe nutzen | LCS',
+    titleTag: 'Themenbilder fuer mehr Arbeitsblatt-Verkaeufe nutzen | LessonCraftStudio',
     metaDescription: 'Thematische Bilder verwandeln generische Arbeitsblaetter in Premium-Produkte. Verkaufen Sie auf Etsy & KDP mit gewerblicher Lizenz.',
   },
   hero: {

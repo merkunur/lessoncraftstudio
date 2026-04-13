@@ -17,7 +17,7 @@ const content: GuideContent = {
       'vanliga problem lösningstid professionell kommunikation',
       'skalbara supportsystem mallbibliotek feedbackloopar',
     ],
-    titleTag: 'Kundsupport digitala produkter guide | LCS',
+    titleTag: 'Kundsupport digitala produkter guide | LessonCraftStudio',
     metaDescription: 'Kundsupport för dig som säljer digitala produkter. Svarsmallar, FAQ-system, återbetalningshantering och recensionshantering. Skalbart supportsystem.',
   },
 

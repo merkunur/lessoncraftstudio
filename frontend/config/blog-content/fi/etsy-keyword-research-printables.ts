@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kilpailija-analyysi Etsy',
       'suomenkieliset avainsanat Etsy',
     ],
-    titleTag: 'Etsy-avainsanatutkimus tulosteille | LCS',
+    titleTag: 'Etsy-avainsanatutkimus tulosteille | LessonCraftStudio',
     metaDescription: 'Tee avainsanatutkimus Etsy-tulosteillesi oikein. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

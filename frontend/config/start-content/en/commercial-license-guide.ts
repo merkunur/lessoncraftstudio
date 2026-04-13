@@ -15,7 +15,7 @@ const content: StartContent = {
       'selling rights digital products',
       'commercial use explained',
     ],
-    titleTag: 'Commercial License Guide for Sellers | LCS',
+    titleTag: 'Commercial License Guide for Sellers | LessonCraftStudio',
     metaDescription: 'Commercial license guide for printable sellers. What it covers, selling rights, and how licensing works for Etsy, KDP, and direct-sale sellers.',
   },
 

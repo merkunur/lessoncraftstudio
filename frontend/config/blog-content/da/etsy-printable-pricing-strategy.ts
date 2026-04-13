@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy printable prisstrategi',
     secondaryKeywords: ['Etsy printable prisstrategi Etsy', 'Etsy printable prisstrategi online', 'Etsy printable prisstrategi forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Prisstrategi for Printables på Etsy | LCS',
+    titleTag: 'Prisstrategi for Printables på Etsy | LessonCraftStudio',
     metaDescription: 'Prissætning er den mest impactfulde beslutning i din printable-forretning. Saelg pa Etsy & KDP med kommerciel licens.',
   },
   hero: {

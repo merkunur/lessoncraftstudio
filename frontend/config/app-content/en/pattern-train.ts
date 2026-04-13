@@ -18,8 +18,8 @@ const content: AppContent = {
       'bulk generation',
       'commercial license',
     ],
-    titleTag: 'Pattern Train Generator — Leveled KDP Activity Books | LessonCraftStudio',
-    metaDescription: 'Create pattern recognition train worksheets for KDP books and Etsy. AB, ABC, AABB patterns, leveled bundles, unique format. Commercial license. Try free trial.',
+    titleTag: 'Pattern Train Worksheet Generator — KDP Math Readiness Books | LessonCraftStudio',
+    metaDescription: 'Generate pattern recognition train worksheets for KDP books. 5 pattern types (AB, AAB, ABB, ABC, AABB), themed images. Unique visual format. Commercial license. Try free.',
   },
 
   hero: {

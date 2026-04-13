@@ -13,7 +13,7 @@ const content: BlogContent = {
       'imprimibles buscar palabras ganancias',
       'sopas letras descarga digital vender',
     ],
-    titleTag: 'Sopas de Letras Imprimibles: Cuánto se Gana | LCS',
+    titleTag: 'Sopas de Letras Imprimibles: Cuánto se Gana | LessonCraftStudio',
     metaDescription: 'Descubra cuánto se puede ganar vendiendo sopas de letras imprimibles en Etsy y KDP. Datos reales y estrategias. Prueba gratuita con marca de agua.',
   },
   hero: {

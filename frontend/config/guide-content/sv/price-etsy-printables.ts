@@ -17,7 +17,7 @@ const content: GuideContent = {
       'säsongsrabatt kupongstrategi ordervärde',
       'skriva ut PDF digital nedladdning A4 Letter',
     ],
-    titleTag: 'Prissätta printables på Etsy | LCS',
+    titleTag: 'Prissätta printables på Etsy | LessonCraftStudio',
     metaDescription: 'Prissätt dina printables på Etsy rätt. Avgiftsmatematik, trenivå-prissättning, paketstrategier och konkurrentanalys. Komplett prisguide för Etsy-säljare.',
   },
 

@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances motricité',
       'demande fiches activités motricité',
     ],
-    titleTag: 'Imprimables motricité fine à vendre | LCS',
+    titleTag: 'Imprimables motricité fine à vendre | LessonCraftStudio',
     metaDescription: 'Les activités de motricité fine imprimables sont très demandées. Graphisme, découpage, traçage pour la maternelle.',
   },
   hero: {

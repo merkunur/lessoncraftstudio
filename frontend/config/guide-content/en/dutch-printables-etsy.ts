@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Dutch vocabulary worksheet generator',
       'Netherlands homeschool printables',
     ],
-    titleTag: 'Sell Dutch Printables on Etsy | LCS',
+    titleTag: 'Sell Dutch Printables on Etsy | LessonCraftStudio',
     metaDescription: 'Sell Dutch printables on Etsy step by step. Dutch vocabulary in word searches, crosswords, and math worksheets. Target amazon.nl, Bol.com, and Etsy buyers.',
   },
 

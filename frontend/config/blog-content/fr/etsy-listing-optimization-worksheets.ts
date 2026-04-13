@@ -13,7 +13,7 @@ const content: BlogContent = {
       'photos mockup fiches Etsy',
       'taux conversion boutique Etsy',
     ],
-    titleTag: 'Optimiser vos fiches Etsy d\'imprimables | LCS',
+    titleTag: 'Optimiser vos fiches Etsy d\'imprimables | LessonCraftStudio',
     metaDescription: 'Apprenez à optimiser chaque élément de vos fiches Etsy pour vendre plus d\'imprimables. Titres, photos, descriptions et tags qui convertissent.',
   },
   hero: {

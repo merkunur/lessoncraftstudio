@@ -20,7 +20,7 @@ const content: ToolContent = {
       'paires',
       'corrections',
     ],
-    titleTag: 'Générateur fiches association gratuit en ligne | LCS',
+    titleTag: 'Générateur fiches association gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de fiches d\'association gratuit — créez des jeux de liaison avec images thématiques en ligne, sans inscription. Corrections automatiques, PDF 300 DPI. Licence commerciale.',
   },
 

@@ -14,7 +14,7 @@ const content: GuideContent = {
       'kategorieübergreifende Bündelung Preisstrategie',
       'Mathe Rätsel Malvorlagen diversifizierter Shop',
     ],
-    titleTag: 'Lern-Druckvorlagen auf Etsy verkaufen | LCS',
+    titleTag: 'Lern-Druckvorlagen auf Etsy verkaufen | LessonCraftStudio',
     metaDescription: 'Lern-Druckvorlagen auf Etsy verkaufen: Multi-Kategorie-Shopstrategie mit 33 Generatoren, Etsy-SEO-Optimierung und kategorieuebergreifende Buendelung fuer Anfaenger.',
   },
 

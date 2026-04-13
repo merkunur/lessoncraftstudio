@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'Bilddiagramm',
       'Statistik Grundschule',
     ],
-    titleTag: 'Kostenloses Zähldiagramm erstellen | LCS',
+    titleTag: 'Kostenloses Zähldiagramm erstellen | LessonCraftStudio',
     metaDescription: 'Kostenloses Zähldiagramm-Arbeitsblatt erstellen — Bilddiagramme sofort generieren, ohne Anmeldung. Automatische Lösungen. Lizenz verfügbar.',
     },
 

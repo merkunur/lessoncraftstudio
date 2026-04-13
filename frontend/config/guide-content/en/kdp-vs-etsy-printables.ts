@@ -14,7 +14,7 @@ const content: GuideContent = {
       'print on demand vs digital download',
       'marketplace fee comparison sellers',
     ],
-    titleTag: 'KDP vs Etsy for Printables: Compared | LCS',
+    titleTag: 'KDP vs Etsy for Printables: Compared | LessonCraftStudio',
     metaDescription: 'KDP vs Etsy for printables compared. Fees, traffic, revenue models, and which platform fits your printable business in 2026.',
   },
 

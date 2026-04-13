@@ -13,7 +13,7 @@ const content: BlogContent = {
       'christmas coloring pages sell',
       'december printable demand spike',
     ],
-    titleTag: 'Best Printables to Sell for Christmas 2026 | LCS',
+    titleTag: 'Best Printables to Sell for Christmas 2026 | LessonCraftStudio',
     metaDescription: 'Discover the best-selling Christmas printables for 2026. From coloring pages to math puzzles, learn what sells and how to price holiday products.',
   },
   hero: {

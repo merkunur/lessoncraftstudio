@@ -2,7 +2,7 @@ import type { IdeaContent } from '../types';
 
 const content: IdeaContent = {
   seo: {
-    titleTag: 'Thanksgiving Printables to Sell | LCS',
+    titleTag: 'Thanksgiving Printables to Sell | LessonCraftStudio',
     metaDescription: 'Thanksgiving printable business ideas for Etsy & KDP. Product concepts, November timing, and strategies for fall holiday printable sellers.',
 
     primaryKeyword: 'Thanksgiving printables to sell',

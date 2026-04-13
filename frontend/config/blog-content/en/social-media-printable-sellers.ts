@@ -13,7 +13,7 @@ const content: BlogContent = {
       'instagram for digital products',
       'social media traffic etsy shop',
     ],
-    titleTag: 'Social Media for Printable Sellers: What Works | LCS',
+    titleTag: 'Social Media for Printable Sellers: What Works | LessonCraftStudio',
     metaDescription: 'Social media strategy for printable sellers in 2026. Which platforms drive actual sales, how much time to invest, and what content converts.',
   },
   hero: {

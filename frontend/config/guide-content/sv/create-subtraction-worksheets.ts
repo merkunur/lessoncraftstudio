@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Amazon KDP pysselbok subtraktion matteaktivitetsbok',
       'kommersiell licens arbetsbladsverktyg facit automatiskt',
     ],
-    titleTag: 'Skapa subtraktionsuppgifter att skriva ut | LCS',
+    titleTag: 'Skapa subtraktionsuppgifter att skriva ut | LessonCraftStudio',
     metaDescription: 'Skapa subtraktionsarbetsblad att skriva ut med överkorsade bilder, 4 övningslägen och automatiskt facit. Sälj på Etsy och Amazon KDP.',
   },
 

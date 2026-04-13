@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'PDF vs JPEG Druckvorlagen Format Vergleich',
     secondaryKeywords: ['PDF vs JPEG Anleitung', 'Druckvorlagen PDF Guide', 'Arbeitsblatt Verkauf Tipps'],
     lsiKeywords: ['Druckvorlagen Geschaeft optimieren', 'Etsy Verkaeufer Tipps', 'Arbeitsblaetter professionell erstellen'],
-    titleTag: 'PDF vs JPEG: Welches Format fuer Druckvorlagen? | LCS',
+    titleTag: 'PDF vs JPEG: Welches Format fuer Druckvorlagen? | LessonCraftStudio',
     metaDescription: 'PDF oder JPEG? Welches Dateiformat fuer Etsy-Druckvorlagen, KDP-Buecher und digitale Downloads. Technischer Guide.',
   },
   hero: {

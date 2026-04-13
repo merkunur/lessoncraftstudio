@@ -13,7 +13,7 @@ const content: ToolContent = {  seo: {
       'instant crossword maker',
       'try before you buy crossword generators',
     ],
-    titleTag: 'Free Crossword Maker with Pictures | LCS',
+    titleTag: 'Free Crossword Maker with Pictures | LessonCraftStudio',
     metaDescription: 'Make picture crossword puzzles free online with watermark — no signup. Image clues, 15x15 grid, auto answer keys, 104 themes. Upgrade to sell.',
     },
 

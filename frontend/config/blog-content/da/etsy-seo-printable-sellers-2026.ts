@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'Etsy SEO printable sælgere 2026',
     secondaryKeywords: ['Etsy SEO printable sælgere 2026 Etsy', 'Etsy SEO printable sælgere 2026 online', 'Etsy SEO printable sælgere 2026 forretning'],
     lsiKeywords: ['printbar forretning Danmark', 'digital download salg', 'Etsy printables sælg'],
-    titleTag: 'Etsy SEO for Printable-Sælgere i 2026 | LCS',
+    titleTag: 'Etsy SEO for Printable-Sælgere i 2026 | LessonCraftStudio',
     metaDescription: 'Etsys søgealgoritme udvikler sig konstant, og SEO-strategier der virkede i 2024 er ikke nødvendigvis effektive i 2026. Denne guide dækker de aktuelle best ',
   },
   hero: {

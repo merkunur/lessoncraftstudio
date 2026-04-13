@@ -17,7 +17,7 @@ const content: GuideContent = {
       'Etsy digital leverans flerfilspaket struktur strategi',
       'paket vs enskild annons kannibalisering butiksstrategi',
     ],
-    titleTag: 'Sälja arbetsblad-paket på Etsy | LCS',
+    titleTag: 'Sälja arbetsblad-paket på Etsy | LessonCraftStudio',
     metaDescription: 'Skapa arbetsblad-paket som säljer på Etsy. Pakettyper, prissättning, annonsoptimering och filorganisation. Öka ditt genomsnittliga ordervärde.',
   },
 

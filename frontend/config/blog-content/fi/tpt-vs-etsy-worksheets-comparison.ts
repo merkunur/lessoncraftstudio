@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kohdeyleisö Gumroad Etsy',
       'monikanavainen tulostemyynti',
     ],
-    titleTag: 'Gumroad vai Etsy tehtäväarkeille? | LCS',
+    titleTag: 'Gumroad vai Etsy tehtäväarkeille? | LessonCraftStudio',
     metaDescription: 'Vertaile Gumroadia ja Etsyä tehtäväarkkien myyntiin. Luo ammattimaisia tehtäviä LessonCraftStudiolla — 33 generaattoria, 11 kieltä, kaupallinen lisenssi.',
   },
   hero: {

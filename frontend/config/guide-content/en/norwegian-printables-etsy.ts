@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Norway homeschool printables demand',
       'Scandinavian worksheet generator tools',
     ],
-    titleTag: 'Sell Norwegian Printables on Etsy | LCS',
+    titleTag: 'Sell Norwegian Printables on Etsy | LessonCraftStudio',
     metaDescription: 'Sell Norwegian printables on Etsy step by step. Norwegian vocabulary with correct characters in word searches, crosswords, and math worksheets. Nordic pricing and market guide.',
   },
 

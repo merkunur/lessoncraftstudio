@@ -22,7 +22,7 @@ const content: ToolContent = {
       '4x4',
       '6x6',
     ],
-    titleTag: 'Générateur sudoku images gratuit en ligne | LCS',
+    titleTag: 'Générateur sudoku images gratuit en ligne | LessonCraftStudio',
     metaDescription: 'Générateur de sudoku gratuit — créez des grilles avec images ou chiffres, difficulté réglable, en ligne sans inscription. Solutions automatiques. Licence commerciale pour Etsy & KDP.',
   },
 

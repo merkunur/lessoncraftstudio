@@ -13,7 +13,7 @@ const content: BlogContent = {
       'prissetting arbeidsark pakker',
       'Etsy digital nedlasting plusstykker',
     ],
-    titleTag: 'Selg plusstykker-oppgaver på Etsy: Guide | LCS',
+    titleTag: 'Selg plusstykker-oppgaver på Etsy: Guide | LessonCraftStudio',
     metaDescription: 'Lag og selg plusstykker-oppgaver på Etsy med fortjeneste. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

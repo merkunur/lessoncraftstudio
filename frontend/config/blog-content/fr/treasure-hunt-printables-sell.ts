@@ -13,7 +13,7 @@ const content: BlogContent = {
       'activités anniversaire imprimables',
       'chasse aux indices enfants vendre',
     ],
-    titleTag: 'Chasse au trésor imprimable : marché anniversaire | LCS',
+    titleTag: 'Chasse au trésor imprimable : marché anniversaire | LessonCraftStudio',
     metaDescription: 'Les chasses au trésor imprimables dominent le marché anniversaire sur Etsy. Comment créer et vendre ces kits lucratifs en 2026.',
   },
   hero: {

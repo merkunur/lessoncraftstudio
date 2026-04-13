@@ -14,7 +14,7 @@ const content: ToolContent = {  seo: {
       'Lösung',
       'Unterricht',
     ],
-    titleTag: 'Kostenloser Kreuzworträtsel-Generator | LCS',
+    titleTag: 'Kostenloser Kreuzworträtsel-Generator | LessonCraftStudio',
     metaDescription: 'Kostenloser Kreuzworträtsel-Generator — Bilder-Kreuzworträtsel auf 15×15-Gitter erstellen, ohne Anmeldung. Lösungen inklusive. Lizenz für Etsy & KDP.',
     },
 

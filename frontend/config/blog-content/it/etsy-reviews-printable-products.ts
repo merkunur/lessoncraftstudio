@@ -17,7 +17,7 @@ const content: BlogContent = {
       'soddisfazione',
       'opinioni',
     ],
-    titleTag: 'Recensioni Schede Didattiche Stampabili | LCS',
+    titleTag: 'Recensioni Schede Didattiche Stampabili | LessonCraftStudio',
     metaDescription: 'Come ottenere recensioni positive per schede didattiche stampabili. Strategie per feedback di qualità con LessonCraftStudio — 33 generatori.',
   },
   hero: {

@@ -4,7 +4,7 @@ const content: BlogContent = {
     primaryKeyword: 'selg bondegårdsdyr-arbeidsark på nett',
     secondaryKeywords: ['bondegårdsdyr oppgaver Etsy selge', 'gårdsdyr tema arbeidsark forretning', 'dyrearbeidsark barn selge KDP'],
     lsiKeywords: ['bondegård pedagogisk materiale', 'dyr-tema oppgaver barn', 'evergreen arbeidsark-nisje'],
-    titleTag: 'Selg bondegårdsdyr-arbeidsark på nett | LCS',
+    titleTag: 'Selg bondegårdsdyr-arbeidsark på nett | LessonCraftStudio',
     metaDescription: 'Bondegårdsdyr er et tidløst tema for arbeidsark som selger stabilt hele året. Lag arbeidsark med LessonCraftStudio — 33 generatorer, kommersiell lisens.',
   },
   hero: {

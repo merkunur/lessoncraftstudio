@@ -5,7 +5,7 @@ const content: BlogContent = {
     primaryKeyword: 'fichas comparación tamaños mercado infantil 2026',
     secondaryKeywords: ['vender fichas comparación tamaños Etsy', 'size comparison worksheets sell online', 'fichas grande pequeño preescolar negocio'],
     lsiKeywords: ['fichas conceptos tamaño niños', 'imprimibles grande mediano pequeño', 'size worksheets preschool printable'],
-    titleTag: 'Fichas Comparación Tamaños: Mercado Infantil | LCS',
+    titleTag: 'Fichas Comparación Tamaños: Mercado Infantil | LessonCraftStudio',
     metaDescription: 'Las fichas de comparación de tamaños son esenciales en preescolar con competencia baja. Cree productos para este mercado estable.',
   },
   hero: {

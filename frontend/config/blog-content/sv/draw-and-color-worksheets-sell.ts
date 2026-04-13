@@ -13,7 +13,7 @@ const content: BlogContent = {
       'kreativ motorik arbetsblad förskola',
       'rita måla övningsblad sälja',
     ],
-    titleTag: 'Sälj Rita-och-Färglägg-Arbetsblad på Etsy | LCS',
+    titleTag: 'Sälj Rita-och-Färglägg-Arbetsblad på Etsy | LessonCraftStudio',
     metaDescription: 'Rita-och-färglägg-arbetsblad kombinerar kreativitet med finmotorik. Skapa och sälj skärmfria aktiviteter på Etsy för barn 3-8 år.',
   },
   hero: {

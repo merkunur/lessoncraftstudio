@@ -15,7 +15,7 @@ const content: GuideContent = {
       'Finnish compound words worksheets',
       'Nordic printable seller strategy',
     ],
-    titleTag: 'Sell Finnish Printables on Etsy | LCS',
+    titleTag: 'Sell Finnish Printables on Etsy | LessonCraftStudio',
     metaDescription: 'Sell Finnish printables on Etsy step by step. Finnish vocabulary with long compound words in word searches, crosswords, and cryptograms. Extremely underserved market guide.',
   },
 

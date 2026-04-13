@@ -17,7 +17,7 @@ const content: StartContent = {
       'flerspråkig arbetsbladsgenrator',
       'kommersiell licens arbetsbladsverktyg',
     ],
-    titleTag: 'Verktyg för din printable-verksamhet | LCS',
+    titleTag: 'Verktyg för din printable-verksamhet | LessonCraftStudio',
     metaDescription: 'Rätt verktyg för printable-säljare: arbetsbladsgenratorer, designverktyg och plattformsverktyg. Bygg en professionell verktygslåda.',
   },
 

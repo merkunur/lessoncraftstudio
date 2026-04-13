@@ -13,7 +13,7 @@ const content: BlogContent = {
       'tendances thème',
       'demande fiches fiches thème',
     ],
-    titleTag: 'Fiches thème alimentation et cuisine | LCS',
+    titleTag: 'Fiches thème alimentation et cuisine | LessonCraftStudio',
     metaDescription: 'Les fiches sur le thème de l\'alimentation se vendent bien en octobre (Semaine du Goût) et toute l\'année.',
   },
   hero: {

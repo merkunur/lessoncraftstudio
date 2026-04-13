@@ -13,7 +13,7 @@ const content: BlogContent = {
       'Deutsch lernen Druckvorlagen',
       'Integrationskurs Material verkaufen',
     ],
-    titleTag: 'DaF-Arbeitsblaetter: Die globale Marktchance | LCS',
+    titleTag: 'DaF-Arbeitsblaetter: Die globale Marktchance | LessonCraftStudio',
     metaDescription: 'DaF/DaZ-Arbeitsblaetter verkaufen: Die globale Marktchance fuer deutschsprachige Druckvorlagen-Verkaeufer. Zielgruppen, Produkte und Strategien.',
   },
   hero: {

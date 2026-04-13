@@ -13,7 +13,7 @@ const content: BlogContent = {
       'fiches sur sous devant derrière',
       'repérage spatial prépositions vendre',
     ],
-    titleTag: 'Fiches prépositions : le marché FLE | LCS',
+    titleTag: 'Fiches prépositions : le marché FLE | LessonCraftStudio',
     metaDescription: 'Les fiches de prépositions ciblent un marché FLE mondial. Créez et vendez ces imprimables à un public international en 2026.',
   },
   hero: {

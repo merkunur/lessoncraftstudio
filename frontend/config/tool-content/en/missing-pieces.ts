@@ -14,7 +14,7 @@ const content: ToolContent = {
       'instant missing pieces maker',
       'try before you buy puzzle tools',
     ],
-    titleTag: 'Free Missing Pieces Puzzle Maker | LCS',
+    titleTag: 'Free Missing Pieces Puzzle Maker | LessonCraftStudio',
     metaDescription: 'Make missing pieces puzzles free online with watermark — no signup. Visual observation format, auto answer keys, 104 themes. Upgrade to sell.',
   },
 

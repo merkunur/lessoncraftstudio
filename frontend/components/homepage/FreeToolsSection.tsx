@@ -3,7 +3,7 @@ import Link from 'next/link';
 const freeTools = [
   {
     name: 'KDP Royalty Calculator',
-    description: 'Calculate printing costs and royalties',
+    description: 'Calculate printing costs and royalties across all 8 Amazon marketplaces',
     href: '/en/tools/kdp-royalty-calculator',
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -13,7 +13,7 @@ const freeTools = [
   },
   {
     name: 'KDP Cover Size Calculator',
-    description: 'Get exact cover dimensions',
+    description: 'Get exact cover dimensions, spine width, and bleed measurements',
     href: '/en/tools/kdp-size-calculator',
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -23,7 +23,7 @@ const freeTools = [
   },
   {
     name: 'Activity Book Planner',
-    description: 'Plan your book layout',
+    description: 'Plan your book layout \u2014 page count, content mix, difficulty progression',
     href: '/en/tools/activity-book-planner',
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -33,7 +33,7 @@ const freeTools = [
   },
   {
     name: 'Printable Niche Finder',
-    description: 'Discover profitable niches',
+    description: 'Discover 50 profitable niches filtered by platform, demand, and competition',
     href: '/en/tools/niche-finder',
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -42,8 +42,8 @@ const freeTools = [
     ),
   },
   {
-    name: 'Profit Hub',
-    description: 'Compare platform fees',
+    name: 'Printable Profit Hub',
+    description: 'Compare fees and calculate net profit across Etsy, Gumroad, TPT, and KDP',
     href: '/en/tools/profit-hub',
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">

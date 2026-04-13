@@ -50,13 +50,12 @@ export function Navigation() {
   };
 
   return (
-    <nav className="bg-white border-b border-gray-200 relative z-50">
+    <nav className="bg-white border-b border-gray-100 shadow-sm relative z-50">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-[60px] md:h-[140px]">
+        <div className="flex items-center justify-between h-16 lg:h-[72px]">
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center space-x-2 md:space-x-4 h-full relative z-10">
-            {/* Display LCS logo - size reduced by 20% */}
-            <div className="flex items-center justify-center h-[67px] md:h-[151px] w-auto max-w-[108px] md:max-w-[242px]">
+          <Link href={`/${locale}`} className="flex items-center space-x-2 lg:space-x-3 h-full relative z-10">
+            <div className="flex items-center justify-center h-10 lg:h-11 w-auto">
               <picture>
                 <source srcSet="/logo-lcs.webp" type="image/webp" />
                 <img
@@ -66,17 +65,16 @@ export function Navigation() {
                   fetchPriority="high"
                   width={242}
                   height={313}
-                  className="max-h-[67px] md:max-h-[151px] max-w-[108px] md:max-w-[242px] w-auto h-auto object-contain relative -z-10"
+                  className="max-h-10 lg:max-h-11 w-auto h-auto object-contain"
                 />
               </picture>
             </div>
 
-            {/* LessonCraftStudio text - responsive sizing */}
             <div className="flex flex-col justify-center">
-              <span className="font-display font-bold text-base sm:text-lg md:text-2xl text-gray-900 tracking-tight leading-none">
+              <span className="font-display font-semibold text-base lg:text-lg text-gray-900 tracking-tight leading-none">
                 LessonCraftStudio
               </span>
-              <span className="hidden sm:block text-[10px] md:text-xs text-gray-500 tracking-wide mt-0.5">
+              <span className="hidden lg:block text-[10px] text-gray-400 tracking-wide leading-none">
                 {locale === 'de' ? 'Professioneller Druckvorlagen-Generator' :
                  locale === 'fr' ? "Générateur d'Imprimables Professionnels" :
                  locale === 'es' ? 'Generador de Imprimibles Profesionales' :
@@ -93,12 +91,12 @@ export function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
-            <Link href={`/${locale}/apps`} className="text-gray-600 hover:text-primary transition-colors">
+          <div className="hidden lg:flex items-center space-x-1">
+            <Link href={`/${locale}/apps`} className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors whitespace-nowrap">
               {t('apps')}
             </Link>
 
-            <Link href={`/${locale}/pricing`} className="text-gray-600 hover:text-primary transition-colors">
+            <Link href={`/${locale}/pricing`} className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors whitespace-nowrap">
               {t('pricing')}
             </Link>
 
@@ -108,14 +106,13 @@ export function Navigation() {
               onMouseEnter={handleFreeToolsMouseEnter}
               onMouseLeave={handleFreeToolsMouseLeave}
             >
-              <button className="flex items-center gap-1 text-gray-600 hover:text-primary transition-colors">
+              <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors whitespace-nowrap">
                 {t('tools')}
                 <ChevronDown size={16} className={`transition-transform ${freeToolsDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
 
-              {freeToolsDropdownOpen && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50">
-                  <div className="bg-white rounded-xl shadow-lg border border-gray-200 py-2 w-72">
+              <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50 transition-all duration-150 ${freeToolsDropdownOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-1 pointer-events-none'}`} aria-hidden={!freeToolsDropdownOpen}>
+                  <div className="bg-white rounded-xl shadow-md border border-gray-200 py-2 w-72">
                     <Link
                       href="/en/tools/niche-finder"
                       className="flex items-start gap-3 mx-2 mb-1 px-3 py-2.5 rounded-lg hover:bg-gray-50 transition-colors"
@@ -168,7 +165,6 @@ export function Navigation() {
                     </Link>
                   </div>
                 </div>
-              )}
             </div>
 
             {/* Resources Dropdown */}
@@ -177,14 +173,13 @@ export function Navigation() {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="flex items-center gap-1 text-gray-600 hover:text-primary transition-colors">
+              <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors whitespace-nowrap">
                 {t('resources')}
                 <ChevronDown size={16} className={`transition-transform ${desktopDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
 
-              {desktopDropdownOpen && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50">
-                  <div className="bg-white rounded-xl shadow-lg border border-gray-200 py-2 w-72">
+              <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50 transition-all duration-150 ${desktopDropdownOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-1 pointer-events-none'}`} aria-hidden={!desktopDropdownOpen}>
+                  <div className="bg-white rounded-xl shadow-md border border-gray-200 py-2 w-72">
                     {/* Featured tool callout (English-only — tools are en only) */}
                     <Link
                       href="/en/tools/niche-finder"
@@ -267,19 +262,18 @@ export function Navigation() {
                     ))}
                   </div>
                 </div>
-              )}
             </div>
 
-            <Link href="/member" className="text-gray-600 hover:text-primary transition-colors font-medium">
+            <Link href="/member" className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors whitespace-nowrap">
               {t('memberArea')}
             </Link>
           </div>
 
           {/* Desktop Actions */}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-3">
             <LanguageSelector />
-            <div className="h-6 w-px bg-gray-300" />
-            <div className="flex items-center space-x-2 min-w-[200px] justify-end">
+            <div className="h-5 w-px bg-gray-200" />
+            <div className="flex items-center space-x-2">
               {user ? (
                 <Button variant="ghost" size="sm" onClick={() => {
                   localStorage.removeItem('accessToken');
@@ -304,7 +298,7 @@ export function Navigation() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 text-gray-600 hover:text-gray-900"
+            className="lg:hidden p-2 text-gray-600 hover:text-gray-900"
             aria-label="Toggle menu"
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -314,7 +308,7 @@ export function Navigation() {
 
       {/* Mobile Menu - CSS transition instead of conditional render to avoid CLS */}
       <div
-        className={`md:hidden ${mobileMenuOpen ? 'overflow-visible' : 'overflow-hidden'} transition-[max-height,border-color] duration-300 ease-in-out ${
+        className={`lg:hidden ${mobileMenuOpen ? 'overflow-visible' : 'overflow-hidden'} transition-[max-height,border-color] duration-300 ease-in-out ${
           mobileMenuOpen ? 'max-h-[700px] border-t border-gray-200' : 'max-h-0 border-t border-transparent'
         } bg-white`}
       >

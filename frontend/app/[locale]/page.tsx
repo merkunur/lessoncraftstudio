@@ -12,6 +12,7 @@ import {
   QuickDemo,
   UntappedOpportunity,
   PricingTeaser,
+  FreeToolsSection,
 } from '@/components/homepage';
 import { homepageFaqData } from '@/components/homepage/HomepageFAQ';
 import { generateFAQSchema } from '@/lib/schema-generator';
@@ -205,6 +206,9 @@ export default async function HomePage({ params }: { params: { locale: string } 
 
       {/* Pricing Teaser */}
       <PricingTeaser locale={locale} />
+
+      {/* Free Business Tools */}
+      <FreeToolsSection locale={locale} />
 
       {/* FAQ Section */}
       <HomepageFAQ locale={locale} />

@@ -9,3 +9,4 @@ export { default as SellerSuccessStories } from './SellerSuccessStories';
 export { default as QuickDemo } from './QuickDemo';
 export { default as UntappedOpportunity } from './UntappedOpportunity';
 export { default as PricingTeaser } from './PricingTeaser';
+export { default as FreeToolsSection } from './FreeToolsSection';

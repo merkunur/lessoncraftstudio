@@ -39,8 +39,8 @@ const toolsKeywords: Record<string, string[]> = {
 
 const toolsMetadata: Record<string, { title: string; description: string }> = {
   en: {
-    title: 'Free Worksheet Makers | Try All 33 Generators Online',
-    description: 'Use all 33 worksheet generators free online — word search maker, math generator, crossword creator, and more. No signup. Watermark removed with license.',
+    title: 'Free KDP & Etsy Seller Tools — Calculators, Planners & Niche Research | LessonCraftStudio',
+    description: 'Free tools for KDP publishers and Etsy sellers. KDP royalty calculator, cover size calculator, niche finder, activity book planner, and profit hub. No signup required.',
   },
   de: {
     title: 'Kostenlose Arbeitsblatt-Generatoren | Alle 33 Tools online testen',
@@ -97,8 +97,8 @@ const toolsContent: Record<string, {
   categories: Record<string, string>;
 }> = {
   en: {
-    heroTitle: 'Free Printable Generators',
-    heroSubtitle: 'Try all 33 generators free online. No signup required. Create professional worksheets with watermark.',
+    heroTitle: 'Free Tools for KDP Publishers & Etsy Sellers',
+    heroSubtitle: 'Free calculators, planners, and research tools to grow your printable business. No signup required, no ads, 100% free.',
     exploreMore: 'Explore More',
     howToGuides: 'How-To Guides',
     bundles: 'Bundles',
@@ -270,6 +270,62 @@ export async function generateMetadata({
   };
 }
 
+/* -------------------------------------------------------------------------
+ * 5 free business tools — displayed on the EN locale tools index page
+ * ----------------------------------------------------------------------- */
+const freeBusinessTools = [
+  {
+    name: 'KDP Royalty Calculator',
+    href: '/en/tools/kdp-royalty-calculator',
+    description: 'Calculate your Amazon KDP printing costs, royalties, and minimum list price across all 8 marketplaces. Official 2026 rates.',
+    icon: (
+      <svg className="w-8 h-8 text-indigo-600" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25v-.008Zm0 2.25h.008v.008H8.25v-.008Zm2.25-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008v-.008Zm2.25-6.75h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V18ZM4.5 4.5h15A1.5 1.5 0 0 1 21 6v12a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18V6a1.5 1.5 0 0 1 1.5-1.5Z" />
+      </svg>
+    ),
+  },
+  {
+    name: 'KDP Cover Size Calculator',
+    href: '/en/tools/kdp-size-calculator',
+    description: 'Get exact KDP cover dimensions, spine width, and bleed area for any trim size and page count.',
+    icon: (
+      <svg className="w-8 h-8 text-indigo-600" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 4.5v15m6-15v15m-10.875 0h15.75c.621 0 1.125-.504 1.125-1.125V5.625c0-.621-.504-1.125-1.125-1.125H4.125C3.504 4.5 3 5.004 3 5.625v12.75c0 .621.504 1.125 1.125 1.125Z" />
+      </svg>
+    ),
+  },
+  {
+    name: 'KDP Activity Book Planner',
+    href: '/en/tools/activity-book-planner',
+    description: 'Plan your activity book structure before you create. Map out page count, content mix, and difficulty progression.',
+    icon: (
+      <svg className="w-8 h-8 text-indigo-600" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15a2.25 2.25 0 0 1 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
+      </svg>
+    ),
+  },
+  {
+    name: 'Printable Niche Finder',
+    href: '/en/tools/niche-finder',
+    description: 'Discover 50 curated profitable niches for Etsy, KDP, and TPT. Filter by platform, competition, demand, and language.',
+    icon: (
+      <svg className="w-8 h-8 text-indigo-600" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+      </svg>
+    ),
+  },
+  {
+    name: 'Printable Profit Hub',
+    href: '/en/tools/profit-hub',
+    description: 'Compare fees and calculate your net profit across Etsy, Gumroad, TPT, Amazon KDP, and other platforms.',
+    icon: (
+      <svg className="w-8 h-8 text-indigo-600" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+      </svg>
+    ),
+  },
+];
+
 export default function ToolsListingPage({
   params,
 }: {
@@ -277,24 +333,27 @@ export default function ToolsListingPage({
 }) {
   const locale = params.locale as SupportedLocale;
   const content = toolsContent[locale] || toolsContent.en;
+  const isEnglish = locale === 'en';
 
-  // Group tools by category
+  // Group tools by category (used for non-EN locales)
   const toolsByCategory: Record<string, Array<{ toolId: string; name: string; slug: string; image?: string }>> = {};
 
-  for (const tool of toolPageSlugs) {
-    const wpId = toolToWpApp[tool.toolId] || tool.toolId;
-    const appData = ALL_APPS[wpId as AppId];
-    if (!appData) continue;
+  if (!isEnglish) {
+    for (const tool of toolPageSlugs) {
+      const wpId = toolToWpApp[tool.toolId] || tool.toolId;
+      const appData = ALL_APPS[wpId as AppId];
+      if (!appData) continue;
 
-    const category = appData.category;
-    if (!toolsByCategory[category]) toolsByCategory[category] = [];
+      const category = appData.category;
+      if (!toolsByCategory[category]) toolsByCategory[category] = [];
 
-    const slug = getToolSlugForLocale(tool.toolId, locale) || tool.slugs.en;
-    const name = getLocalizedAppName(wpId, locale);
+      const slug = getToolSlugForLocale(tool.toolId, locale) || tool.slugs.en;
+      const name = getLocalizedAppName(wpId, locale);
 
-    const heroSrc = showcaseConfigs[wpId]?.hero?.images?.[0]?.src;
-    const image = heroSrc ? `https://www.lessoncraftstudio.com${encodeImagePath(heroSrc)}` : undefined;
-    toolsByCategory[category].push({ toolId: tool.toolId, name, slug, image });
+      const heroSrc = showcaseConfigs[wpId]?.hero?.images?.[0]?.src;
+      const image = heroSrc ? `https://www.lessoncraftstudio.com${encodeImagePath(heroSrc)}` : undefined;
+      toolsByCategory[category].push({ toolId: tool.toolId, name, slug, image });
+    }
   }
 
   const breadcrumbJsonLd = {
@@ -306,15 +365,37 @@ export default function ToolsListingPage({
     ],
   };
 
-  const collectionSchema = generateToolsCollectionSchema(locale);
-  const allTools = Object.values(toolsByCategory).flat();
-  const itemListSchema = generateToolsItemListSchema(locale, allTools);
+  // EN: schema for the 5 business tools; non-EN: schema for 33 generators
+  const schemas: Record<string, unknown>[] = [breadcrumbJsonLd];
+
+  if (isEnglish) {
+    schemas.push({
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: 'Free KDP & Etsy Seller Tools',
+      description: 'Free calculators, planners, and research tools for printable sellers.',
+      numberOfItems: freeBusinessTools.length,
+      itemListElement: freeBusinessTools.map((tool, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: tool.name,
+        url: `https://www.lessoncraftstudio.com${tool.href}`,
+      })),
+    });
+  } else {
+    const collectionSchema = generateToolsCollectionSchema(locale);
+    const allTools = Object.values(toolsByCategory).flat();
+    const itemListSchema = generateToolsItemListSchema(locale, allTools);
+    schemas.push(collectionSchema, itemListSchema);
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
+      {schemas.map((schema, i) => (
+        <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
+      ))}
+
+      {/* Hero */}
       <section className="py-12 md:py-20 bg-gradient-to-b from-indigo-50 to-white">
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -326,65 +407,116 @@ export default function ToolsListingPage({
         </div>
       </section>
 
-      <section className="py-12 md:py-16">
-        <div className="container mx-auto px-4 max-w-5xl">
-          {Object.entries(APP_CATEGORIES).map(([catId, catData]) => {
-            const tools = toolsByCategory[catId];
-            if (!tools || tools.length === 0) return null;
-
-            return (
-              <div key={catId} className="mb-12">
-                <h2 className="text-xl font-bold text-gray-900 mb-4">{content.categories[catId] || catData.name}</h2>
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-                  {tools.map(tool => (
-                    <Link
-                      key={tool.toolId}
-                      href={`/${locale}/tools/${tool.slug}`}
-                      className="p-4 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all text-center"
-                    >
-                      <span className="text-sm font-medium text-gray-900">{tool.name}</span>
-                    </Link>
-                  ))}
-                </div>
+      {isEnglish ? (
+        <>
+          {/* 5 Free Business Tools — EN only */}
+          <section className="py-12 md:py-16">
+            <div className="container mx-auto px-4 max-w-5xl">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {freeBusinessTools.map((tool) => (
+                  <Link
+                    key={tool.href}
+                    href={tool.href}
+                    className="group flex flex-col p-6 bg-white border border-gray-200 rounded-xl hover:border-indigo-300 hover:shadow-md transition-all"
+                  >
+                    <div className="mb-4">{tool.icon}</div>
+                    <h2 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-indigo-600 transition-colors">
+                      {tool.name}
+                    </h2>
+                    <p className="text-sm text-gray-600 mb-4 flex-1">
+                      {tool.description}
+                    </p>
+                    <span className="text-sm font-semibold text-indigo-600 group-hover:text-indigo-700 transition-colors">
+                      Try Free &rarr;
+                    </span>
+                  </Link>
+                ))}
               </div>
-            );
-          })}
-        </div>
-      </section>
+            </div>
+          </section>
 
-      <section className="py-8 md:py-12">
-        <div className="container mx-auto px-4 max-w-3xl text-center">
-          <h2 className="text-lg font-semibold text-gray-700 mb-4">
-            {content.exploreMore}
-          </h2>
-          <div className="flex flex-wrap justify-center gap-3">
-            <Link href={`/${locale}/guides`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
-              {content.howToGuides}
-            </Link>
-            <Link href={`/${locale}/bundles`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
-              {content.bundles}
-            </Link>
-            <Link href={`/${locale}/start`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
-              {content.getStarted}
-            </Link>
-          </div>
-        </div>
-      </section>
+          {/* Secondary: Link to 33 generators */}
+          <section className="py-10 md:py-14 bg-white border-t border-gray-100">
+            <div className="container mx-auto px-4 max-w-3xl text-center">
+              <h2 className="text-xl font-bold text-gray-900 mb-3">
+                Looking for worksheet generators?
+              </h2>
+              <p className="text-gray-600 mb-5">
+                Try all 33 printable generators free with watermark &mdash; no signup required.
+              </p>
+              <Link
+                href="/en/apps"
+                className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors"
+              >
+                Browse Generators &rarr;
+              </Link>
+            </div>
+          </section>
+        </>
+      ) : (
+        <>
+          {/* Non-EN: 33 generators grid (existing behavior) */}
+          <section className="py-12 md:py-16">
+            <div className="container mx-auto px-4 max-w-5xl">
+              {Object.entries(APP_CATEGORIES).map(([catId, catData]) => {
+                const tools = toolsByCategory[catId];
+                if (!tools || tools.length === 0) return null;
 
-      <section className="py-12 md:py-16 bg-indigo-600">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-2xl font-bold text-white mb-4">{content.wantMore}</h2>
-          <p className="text-indigo-100 mb-8 max-w-lg mx-auto">
-            {content.wantMoreDesc}
-          </p>
-          <Link
-            href={`/${locale}/apps`}
-            className="inline-flex items-center px-8 py-3 bg-white text-indigo-600 font-semibold rounded-lg hover:bg-indigo-50 transition-colors"
-          >
-            {content.viewAll}
-          </Link>
-        </div>
-      </section>
+                return (
+                  <div key={catId} className="mb-12">
+                    <h2 className="text-xl font-bold text-gray-900 mb-4">{content.categories[catId] || catData.name}</h2>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                      {tools.map(tool => (
+                        <Link
+                          key={tool.toolId}
+                          href={`/${locale}/tools/${tool.slug}`}
+                          className="p-4 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all text-center"
+                        >
+                          <span className="text-sm font-medium text-gray-900">{tool.name}</span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+
+          <section className="py-8 md:py-12">
+            <div className="container mx-auto px-4 max-w-3xl text-center">
+              <h2 className="text-lg font-semibold text-gray-700 mb-4">
+                {content.exploreMore}
+              </h2>
+              <div className="flex flex-wrap justify-center gap-3">
+                <Link href={`/${locale}/guides`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
+                  {content.howToGuides}
+                </Link>
+                <Link href={`/${locale}/bundles`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
+                  {content.bundles}
+                </Link>
+                <Link href={`/${locale}/start`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
+                  {content.getStarted}
+                </Link>
+              </div>
+            </div>
+          </section>
+
+          <section className="py-12 md:py-16 bg-indigo-600">
+            <div className="container mx-auto px-4 text-center">
+              <h2 className="text-2xl font-bold text-white mb-4">{content.wantMore}</h2>
+              <p className="text-indigo-100 mb-8 max-w-lg mx-auto">
+                {content.wantMoreDesc}
+              </p>
+              <Link
+                href={`/${locale}/apps`}
+                className="inline-flex items-center px-8 py-3 bg-white text-indigo-600 font-semibold rounded-lg hover:bg-indigo-50 transition-colors"
+              >
+                {content.viewAll}
+              </Link>
+            </div>
+          </section>
+        </>
+      )}
     </div>
   );
 }

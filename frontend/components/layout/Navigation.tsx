@@ -27,6 +27,9 @@ export function Navigation() {
   const [mobileResourcesOpen, setMobileResourcesOpen] = useState(false);
   const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [desktopDropdownOpen, setDesktopDropdownOpen] = useState(false);
+  const freeToolsTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const [freeToolsDropdownOpen, setFreeToolsDropdownOpen] = useState(false);
+  const [mobileFreeToolsOpen, setMobileFreeToolsOpen] = useState(false);
 
   const handleMouseEnter = () => {
     if (closeTimeoutRef.current) clearTimeout(closeTimeoutRef.current);
@@ -35,6 +38,15 @@ export function Navigation() {
 
   const handleMouseLeave = () => {
     closeTimeoutRef.current = setTimeout(() => setDesktopDropdownOpen(false), 150);
+  };
+
+  const handleFreeToolsMouseEnter = () => {
+    if (freeToolsTimeoutRef.current) clearTimeout(freeToolsTimeoutRef.current);
+    setFreeToolsDropdownOpen(true);
+  };
+
+  const handleFreeToolsMouseLeave = () => {
+    freeToolsTimeoutRef.current = setTimeout(() => setFreeToolsDropdownOpen(false), 150);
   };
 
   return (
@@ -90,9 +102,74 @@ export function Navigation() {
               {t('pricing')}
             </Link>
 
-            <Link href={`/${locale}/tools`} className="text-gray-600 hover:text-primary transition-colors">
-              {t('tools')}
-            </Link>
+            {/* Free Tools Dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={handleFreeToolsMouseEnter}
+              onMouseLeave={handleFreeToolsMouseLeave}
+            >
+              <button className="flex items-center gap-1 text-gray-600 hover:text-primary transition-colors">
+                {t('tools')}
+                <ChevronDown size={16} className={`transition-transform ${freeToolsDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              {freeToolsDropdownOpen && (
+                <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50">
+                  <div className="bg-white rounded-xl shadow-lg border border-gray-200 py-2 w-72">
+                    <Link
+                      href="/en/tools/niche-finder"
+                      className="flex items-start gap-3 mx-2 mb-1 px-3 py-2.5 rounded-lg hover:bg-gray-50 transition-colors"
+                    >
+                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F50D}'}</span>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-sm font-semibold text-gray-900">Printable Niche Finder</div>
+                        <div className="text-xs text-gray-500 mt-0.5">50+ profitable niches for Etsy, KDP &amp; TPT sellers</div>
+                      </div>
+                    </Link>
+                    <Link
+                      href="/en/tools/kdp-royalty-calculator"
+                      className="flex items-start gap-3 mx-2 mb-1 px-3 py-2.5 rounded-lg hover:bg-gray-50 transition-colors"
+                    >
+                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F9EE}'}</span>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-sm font-semibold text-gray-900">KDP Royalty Calculator</div>
+                        <div className="text-xs text-gray-500 mt-0.5">Free Amazon KDP printing cost &amp; profit tool</div>
+                      </div>
+                    </Link>
+                    <Link
+                      href="/en/tools/kdp-size-calculator"
+                      className="flex items-start gap-3 mx-2 mb-1 px-3 py-2.5 rounded-lg hover:bg-gray-50 transition-colors"
+                    >
+                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F4D0}'}</span>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-sm font-semibold text-gray-900">KDP Cover Size Calculator</div>
+                        <div className="text-xs text-gray-500 mt-0.5">Spine width, cover dimensions, bleed &amp; margins</div>
+                      </div>
+                    </Link>
+                    <Link
+                      href="/en/tools/activity-book-planner"
+                      className="flex items-start gap-3 mx-2 mb-1 px-3 py-2.5 rounded-lg hover:bg-gray-50 transition-colors"
+                    >
+                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F4DA}'}</span>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-sm font-semibold text-gray-900">KDP Activity Book Planner</div>
+                        <div className="text-xs text-gray-500 mt-0.5">Plan your interior: sections, pages, costs &amp; royalty</div>
+                      </div>
+                    </Link>
+                    <Link
+                      href="/en/tools/profit-hub"
+                      className="flex items-start gap-3 mx-2 px-3 py-2.5 rounded-lg hover:bg-gray-50 transition-colors"
+                    >
+                      <span className="text-lg mt-0.5" aria-hidden="true">{'\u{1F4B0}'}</span>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-sm font-semibold text-gray-900">Printable Profit Hub</div>
+                        <div className="text-xs text-gray-500 mt-0.5">Compare profit on Etsy, Gumroad, TPT, KDP &amp; 3 more</div>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
 
             {/* Resources Dropdown */}
             <div
@@ -259,13 +336,60 @@ export function Navigation() {
               {t('pricing')}
             </Link>
 
-            <Link
-              href={`/${locale}/tools`}
-              className="block py-2 text-gray-600 hover:text-primary transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              {t('tools')}
-            </Link>
+            {/* Mobile Free Tools Section */}
+            <div>
+              <button
+                onClick={() => setMobileFreeToolsOpen(!mobileFreeToolsOpen)}
+                className="flex items-center justify-between w-full py-2 text-gray-600 hover:text-primary transition-colors"
+              >
+                <span>{t('tools')}</span>
+                <ChevronDown size={16} className={`transition-transform ${mobileFreeToolsOpen ? 'rotate-180' : ''}`} />
+              </button>
+              {mobileFreeToolsOpen && (
+                <div className="pl-4 space-y-1">
+                  <Link
+                    href="/en/tools/niche-finder"
+                    className="flex items-center gap-2 py-2 text-sm text-gray-600 hover:text-primary transition-colors"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    <span aria-hidden="true">{'\u{1F50D}'}</span>
+                    <span>Printable Niche Finder</span>
+                  </Link>
+                  <Link
+                    href="/en/tools/kdp-royalty-calculator"
+                    className="flex items-center gap-2 py-2 text-sm text-gray-600 hover:text-primary transition-colors"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    <span aria-hidden="true">{'\u{1F9EE}'}</span>
+                    <span>KDP Royalty Calculator</span>
+                  </Link>
+                  <Link
+                    href="/en/tools/kdp-size-calculator"
+                    className="flex items-center gap-2 py-2 text-sm text-gray-600 hover:text-primary transition-colors"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    <span aria-hidden="true">{'\u{1F4D0}'}</span>
+                    <span>KDP Cover Size Calculator</span>
+                  </Link>
+                  <Link
+                    href="/en/tools/activity-book-planner"
+                    className="flex items-center gap-2 py-2 text-sm text-gray-600 hover:text-primary transition-colors"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    <span aria-hidden="true">{'\u{1F4DA}'}</span>
+                    <span>KDP Activity Book Planner</span>
+                  </Link>
+                  <Link
+                    href="/en/tools/profit-hub"
+                    className="flex items-center gap-2 py-2 text-sm text-gray-600 hover:text-primary transition-colors"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    <span aria-hidden="true">{'\u{1F4B0}'}</span>
+                    <span>Printable Profit Hub</span>
+                  </Link>
+                </div>
+              )}
+            </div>
 
             {/* Mobile Resources Section */}
             <div>

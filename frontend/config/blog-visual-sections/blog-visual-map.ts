@@ -260,6 +260,8 @@ const seoD: Record<string, BlogVisualConfig> = {
   'lessoncraftstudio-vs-activity-book-generator': platformStrategy(['math-puzzle', 'wordsearch', 'coloring'], { bundle: { images: [r('math-puzzle', 0), r('wordsearch', 0), r('coloring', 0)], pageCount: 50 } }, 'green'),
   'best-sudoku-generators-kdp': productGuide('sudoku', 'teal'),
   'post-generation-editing-advantage': platformStrategy(['addition', 'coloring', 'wordsearch'], { beforeAfter: { lcsImage: r('addition', 0) } }, 'purple'),
+  'lessoncraftstudio-review': platformStrategy(['addition', 'wordsearch', 'coloring'], { beforeAfter: { lcsImage: r('addition', 0) } }, 'emerald'),
+  'best-worksheet-generators-kdp': platformStrategy(['wordsearch', 'addition', 'crossword'], { bundle: { images: [r('wordsearch', 0), r('addition', 0), r('crossword', 0), r('coloring', 0)], pageCount: 50 } }, 'indigo'),
 };
 
 // ═══════════════════════════════════════════════════════════════

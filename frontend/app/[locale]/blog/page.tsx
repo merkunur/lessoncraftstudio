@@ -46,6 +46,7 @@ const toolComparisonIds = [
   'best-coloring-page-generators-kdp', 'best-math-worksheet-generators-kdp',
   'best-sudoku-generators-kdp', 'free-vs-paid-worksheet-generators',
   'post-generation-editing-advantage',
+  'lessoncraftstudio-review', 'best-worksheet-generators-kdp',
 ];
 
 // Platform & Business Strategy (60 posts — original 30 + SEO overhaul 20 + 10 case studies)

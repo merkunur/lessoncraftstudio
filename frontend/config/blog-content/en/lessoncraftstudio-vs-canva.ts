@@ -101,6 +101,8 @@ const content: BlogContent = {
     { slug: 'best-worksheet-generators-etsy', title: 'Best Worksheet Generators for Etsy Sellers' },
     { slug: 'lessoncraftstudio-vs-book-bolt', title: 'LessonCraftStudio vs Book Bolt Comparison' },
     { slug: 'printable-business-no-design-skills', title: 'Start a Printable Business With No Design Skills' },
+    { slug: 'lessoncraftstudio-review', title: 'LessonCraftStudio Review 2026: Worth It?' },
+    { slug: 'best-worksheet-generators-kdp', title: 'Best Worksheet Generators for KDP in 2026' },
   ],
   cta: {
     heading: 'See the Speed Difference Yourself',

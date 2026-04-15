@@ -102,6 +102,8 @@ const content: BlogContent = {
     { slug: 'free-vs-paid-worksheet-generators-kdp', title: 'Free vs Paid Worksheet Generators for KDP' },
     { slug: 'best-coloring-page-generators-kdp-etsy-2026', title: 'Best Coloring Page Generators for KDP and Etsy' },
     { slug: 'post-generation-editing-advantage', title: 'The Post-Generation Editing Advantage' },
+    { slug: 'best-worksheet-generators-kdp', title: 'Best Worksheet Generators for KDP in 2026' },
+    { slug: 'lessoncraftstudio-review', title: 'LessonCraftStudio Review 2026: Worth It?' },
   ],
   cta: {
     heading: 'Try All 5 Math Generators Free',

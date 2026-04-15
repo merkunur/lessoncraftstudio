@@ -97,6 +97,8 @@ const content: BlogContent = {
     { slug: 'lessoncraftstudio-vs-canva', title: 'LessonCraftStudio vs Canva for Printable Sellers' },
     { slug: 'lessoncraftstudio-vs-tangent-templates', title: 'LessonCraftStudio vs Tangent Templates' },
     { slug: 'etsy-printable-pricing-strategy', title: 'Etsy Printable Pricing Strategy' },
+    { slug: 'best-worksheet-generators-kdp', title: 'Best Worksheet Generators for KDP in 2026' },
+    { slug: 'lessoncraftstudio-review', title: 'LessonCraftStudio Review 2026: Worth It?' },
   ],
   cta: {
     heading: 'Build Your Etsy Catalog Faster',

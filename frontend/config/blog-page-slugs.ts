@@ -169,6 +169,8 @@ export const blogPageSlugs: BlogSlugConfig[] = [
   { blogId: 'lessoncraftstudio-vs-activity-book-generator', slugs: { en: 'lessoncraftstudio-vs-activity-book-generator' } },
   { blogId: 'best-sudoku-generators-kdp', slugs: { en: 'best-sudoku-generators-kdp-puzzle-books' } },
   { blogId: 'post-generation-editing-advantage', slugs: { en: 'post-generation-editing-advantage' } },
+  { blogId: 'lessoncraftstudio-review', slugs: { en: 'lessoncraftstudio-review' } },
+  { blogId: 'best-worksheet-generators-kdp', slugs: { en: 'best-worksheet-generators-kdp' } },
 
   // === SEO Overhaul: Category A — "How to Create [Product]" (20) ===
   { blogId: 'create-word-search-book-kdp', slugs: { en: 'create-word-search-book-kdp' } },

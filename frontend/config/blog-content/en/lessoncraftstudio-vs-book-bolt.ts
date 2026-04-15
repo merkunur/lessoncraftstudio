@@ -101,6 +101,8 @@ const content: BlogContent = {
     { slug: 'best-kdp-activity-book-tools', title: 'Best KDP Activity Book Tools in 2026' },
     { slug: 'lessoncraftstudio-vs-canva', title: 'LessonCraftStudio vs Canva for Printable Sellers' },
     { slug: 'lessoncraftstudio-vs-bookgenie', title: 'LessonCraftStudio vs BookGenie Comparison' },
+    { slug: 'lessoncraftstudio-review', title: 'LessonCraftStudio Review 2026: Worth It?' },
+    { slug: 'best-worksheet-generators-kdp', title: 'Best Worksheet Generators for KDP in 2026' },
   ],
   cta: {
     heading: 'Try 33 Generators Before You Decide',

@@ -39,8 +39,8 @@ const toolsKeywords: Record<string, string[]> = {
 
 const toolsMetadata: Record<string, { title: string; description: string }> = {
   en: {
-    title: 'Free KDP & Etsy Seller Tools — Calculators, Planners & Niche Research | LessonCraftStudio',
-    description: 'Free tools for KDP publishers and Etsy sellers. KDP royalty calculator, cover size calculator, niche finder, activity book planner, and profit hub. No signup required.',
+    title: 'Free Tools for KDP & Etsy Sellers — 33 Generators + Calculators | LessonCraftStudio',
+    description: 'Free KDP royalty calculator, cover size calculator, niche finder, activity book planner, profit hub, and 33 free worksheet generators. Try everything free with watermark — no signup required.',
   },
   de: {
     title: 'Kostenlose Arbeitsblatt-Generatoren | Alle 33 Tools online testen',
@@ -335,25 +335,23 @@ export default function ToolsListingPage({
   const content = toolsContent[locale] || toolsContent.en;
   const isEnglish = locale === 'en';
 
-  // Group tools by category (used for non-EN locales)
+  // Group tools by category (used for every locale; EN renders both business tools and the category grid)
   const toolsByCategory: Record<string, Array<{ toolId: string; name: string; slug: string; image?: string }>> = {};
 
-  if (!isEnglish) {
-    for (const tool of toolPageSlugs) {
-      const wpId = toolToWpApp[tool.toolId] || tool.toolId;
-      const appData = ALL_APPS[wpId as AppId];
-      if (!appData) continue;
+  for (const tool of toolPageSlugs) {
+    const wpId = toolToWpApp[tool.toolId] || tool.toolId;
+    const appData = ALL_APPS[wpId as AppId];
+    if (!appData) continue;
 
-      const category = appData.category;
-      if (!toolsByCategory[category]) toolsByCategory[category] = [];
+    const category = appData.category;
+    if (!toolsByCategory[category]) toolsByCategory[category] = [];
 
-      const slug = getToolSlugForLocale(tool.toolId, locale) || tool.slugs.en;
-      const name = getLocalizedAppName(wpId, locale);
+    const slug = getToolSlugForLocale(tool.toolId, locale) || tool.slugs.en;
+    const name = getLocalizedAppName(wpId, locale);
 
-      const heroSrc = showcaseConfigs[wpId]?.hero?.images?.[0]?.src;
-      const image = heroSrc ? `https://www.lessoncraftstudio.com${encodeImagePath(heroSrc)}` : undefined;
-      toolsByCategory[category].push({ toolId: tool.toolId, name, slug, image });
-    }
+    const heroSrc = showcaseConfigs[wpId]?.hero?.images?.[0]?.src;
+    const image = heroSrc ? `https://www.lessoncraftstudio.com${encodeImagePath(heroSrc)}` : undefined;
+    toolsByCategory[category].push({ toolId: tool.toolId, name, slug, image });
   }
 
   const breadcrumbJsonLd = {
@@ -365,29 +363,15 @@ export default function ToolsListingPage({
     ],
   };
 
-  // EN: schema for the 5 business tools; non-EN: schema for 33 generators
   const schemas: Record<string, unknown>[] = [breadcrumbJsonLd];
 
-  if (isEnglish) {
-    schemas.push({
-      '@context': 'https://schema.org',
-      '@type': 'ItemList',
-      name: 'Free KDP & Etsy Seller Tools',
-      description: 'Free calculators, planners, and research tools for printable sellers.',
-      numberOfItems: freeBusinessTools.length,
-      itemListElement: freeBusinessTools.map((tool, i) => ({
-        '@type': 'ListItem',
-        position: i + 1,
-        name: tool.name,
-        url: `https://www.lessoncraftstudio.com${tool.href}`,
-      })),
-    });
-  } else {
-    const collectionSchema = generateToolsCollectionSchema(locale);
-    const allTools = Object.values(toolsByCategory).flat();
-    const itemListSchema = generateToolsItemListSchema(locale, allTools);
-    schemas.push(collectionSchema, itemListSchema);
-  }
+  const collectionSchema = generateToolsCollectionSchema(locale);
+  const generatorTools = Object.values(toolsByCategory).flat();
+  const businessToolsForSchema = isEnglish
+    ? freeBusinessTools.map(t => ({ name: t.name, slug: t.href.replace('/en/tools/', '') }))
+    : [];
+  const itemListSchema = generateToolsItemListSchema(locale, [...businessToolsForSchema, ...generatorTools]);
+  schemas.push(collectionSchema, itemListSchema);
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -435,21 +419,57 @@ export default function ToolsListingPage({
             </div>
           </section>
 
-          {/* Secondary: Link to 33 generators */}
-          <section className="py-10 md:py-14 bg-white border-t border-gray-100">
+          {/* 33 Generator tiles by category */}
+          <section className="py-12 md:py-16 bg-white border-t border-gray-100">
+            <div className="container mx-auto px-4 max-w-5xl">
+              <div className="text-center mb-10">
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3">
+                  33 Free Worksheet Generators
+                </h2>
+                <p className="text-gray-600 max-w-2xl mx-auto">
+                  Try every generator free with watermark &mdash; no signup required. Purchase a license to remove the watermark and unlock commercial use.
+                </p>
+              </div>
+              {Object.entries(APP_CATEGORIES).map(([catId, catData]) => {
+                const tools = toolsByCategory[catId];
+                if (!tools || tools.length === 0) return null;
+
+                return (
+                  <div key={catId} className="mb-10">
+                    <h3 className="text-xl font-bold text-gray-900 mb-4">{content.categories[catId] || catData.name}</h3>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                      {tools.map(tool => (
+                        <Link
+                          key={tool.toolId}
+                          href={`/${locale}/tools/${tool.slug}`}
+                          className="p-4 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all text-center"
+                        >
+                          <span className="text-sm font-medium text-gray-900">{tool.name}</span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+
+          <section className="py-8 md:py-12">
             <div className="container mx-auto px-4 max-w-3xl text-center">
-              <h2 className="text-xl font-bold text-gray-900 mb-3">
-                Looking for worksheet generators?
+              <h2 className="text-lg font-semibold text-gray-700 mb-4">
+                {content.exploreMore}
               </h2>
-              <p className="text-gray-600 mb-5">
-                Try all 33 printable generators free with watermark &mdash; no signup required.
-              </p>
-              <Link
-                href="/en/apps"
-                className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors"
-              >
-                Browse Generators &rarr;
-              </Link>
+              <div className="flex flex-wrap justify-center gap-3">
+                <Link href={`/${locale}/guides`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
+                  {content.howToGuides}
+                </Link>
+                <Link href={`/${locale}/bundles`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
+                  {content.bundles}
+                </Link>
+                <Link href={`/${locale}/start`} className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-700 text-sm rounded-full transition-colors">
+                  {content.getStarted}
+                </Link>
+              </div>
             </div>
           </section>
         </>

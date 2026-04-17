@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the two-category sorting mechanic work?',
-      answer:
-        'Each sorting worksheet has exactly two categories — left and right. The worksheet displays two dashed-border category frames at the top where users sort their images, and a shuffled cutout grid below with all images mixed together. Users cut out the images from the grid and place each one into the correct category frame. The two-category format creates a clear binary classification task that works for any subject — animals vs food, land vs water, living vs nonliving, and thousands of other pairings.',
-    },
-    {
-      question: 'What is the difference between theme mode and manual mode?',
-      answer:
-        'Theme mode lets you pick a theme for the left category and a different theme for the right category. The app automatically selects 4–6 random images per theme from the image library, creating worksheets with 8–12 images total. Manual mode gives you complete control: you hand-select individual images from any theme and assign each one to the left or right category. Theme mode is faster for bulk production; manual mode is ideal for creating specific, curriculum-aligned sorting activities.',
-    },
-    {
-      question: 'How many images can I include on each sorting worksheet?',
-      answer:
-        'Each worksheet supports 4 to 12 total images, with each category holding between 2 and 10 images. Theme mode automatically pulls 4–6 images per theme. Manual mode lets you set exact counts per category. The cutout grid adjusts its column layout (3–4 columns based on count) to maintain clean visual spacing. Fewer images create simpler sorting tasks; more images increase difficulty.',
-    },
-    {
-      question: 'How does the shuffled cutout grid work?',
-      answer:
-        'The cutout grid occupies the bottom 55% of the content area and displays all selected images in randomized order. Images appear in white cells with dashed #666 borders and 4px rounded corners, arranged in 3–4 columns based on the total image count. Each image fills 85% of its cell. Users cut out the images along the dashed lines and sort them into the correct category frame above. The shuffling ensures they must actually classify each image rather than copy a pattern.',
-    },
-    {
-      question: 'How does the auto-generated answer key work?',
-      answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The answer key displays two category boxes (one per category, equal width) with images sorted into their correct group. Answer key images are rendered at 6× the size of the cutout grid cells for clear verification, with a maximum of 2 columns per category box. Each box uses #FAFAFA fill with #444 dashed stroke and 12px border radius. Both versions export separately using four dedicated download buttons.',
-    },
-    {
-      question: 'How does the localized header work?',
-      answer:
-        'Every generated worksheet includes a styled \"Picture Sort\" header with a mint green background (#4DB6AC), white pill container, teal title (#00796B) in Fredoka Bold font, and orange description (#FF7043) in Quicksand font. Portrait worksheets display a 100px header; landscape worksheets use a compact 70px header. The title and description are automatically translated into all 11 supported languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.',
-    },
-    {
-      question: 'Is the Picture Sort Generator language-sensitive?',
-      answer:
-        'Yes. Category labels use localized image names from the Image Library, so switching languages changes the text on the worksheet. For example, a cat image appears as \"Cat\" in English but \"Katze\" in German and \"Chat\" in French. The localized \"Picture Sort\" header also changes with the selected language. The Commercial tier includes 10 colorful themes with English only; Full Access unlocks all 104 themes and all 11 languages for localized category labels.',
-    },
-    {
-      question: 'Can I include name and date fields on sorting worksheets?',
-      answer:
-        'Yes. Check the \"Include Name/Date Fields\" checkbox in the Page Setup panel to add name and date lines to the worksheet. These fields give worksheets a polished, complete appearance and add perceived value to your product listings.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — theme-based and manual category selection, configurable image counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Can I add background themes and border themes to sorting worksheets?',
-      answer:
-        'Yes. The Page Setup panel includes both a background theme selector with an opacity slider (0–1 in 0.05 steps) and a border theme selector with its own independent opacity slider. Background themes add decorative patterns behind the sorting content, while border themes frame the page. Both have separate opacity controls so you can create subtle backgrounds with prominent borders, or any combination that fits your design.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test theme-based and manual category selection, configurable image counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

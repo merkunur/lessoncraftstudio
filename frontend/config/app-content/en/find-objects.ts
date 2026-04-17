@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What are the two activity modes and how do they differ?',
-      answer:
-        'The generator offers two distinct modes. I Spy mode (default) creates free-form hidden object scenes where 1–5 target objects are scattered among 8–12 distractors using a zero-overlap placement algorithm — solvers search the page and circle what they find, guided by a legend at the bottom showing the objects to locate. Odd One Out mode arranges 8–12 paired images in rows with 1–5 unpaired items mixed in — solvers identify the images that don\'t have a matching partner. Images in Odd One Out mode are 50% larger than I Spy mode for clearer visual comparison.',
-    },
-    {
-      question: 'How does the zero-overlap placement algorithm work in I Spy mode?',
-      answer:
-        'Instead of placing images on a fixed grid, I Spy mode uses a findBestPosition() algorithm that tries 50 random positions for each image and selects the placement with the least overlap. When space gets tight, the algorithm adaptively reduces image size to fit more objects without cluttering the scene. This creates natural-looking hidden object scenes where images are scattered organically across the page, making the search experience more engaging than predictable grid-based layouts.',
-    },
-    {
-      question: 'How many hidden objects and distractors can I use in I Spy mode?',
-      answer:
-        'In I Spy mode, you can configure 1–5 hidden objects (the targets solvers need to find) and 8–12 distractor objects (the surrounding images that fill the scene). Start with 1–2 hidden objects and 8 distractors for easier worksheets, and increase to 5 hidden objects among 12 distractors for challenging scenes. The legend at the bottom of the worksheet shows which objects to find.',
-    },
-    {
-      question: 'How does the Odd One Out mode work?',
-      answer:
-        'Odd One Out mode arranges images in rows with paired and unpaired items. Configure 8–12 paired images (each appears twice in the layout) and 1–5 unpaired (odd) items that appear only once. Solvers examine each row and identify the image that doesn\'t have a matching partner. Images render 50% larger than I Spy mode for clearer visual comparison. There is no legend at the bottom since solvers discover the unpaired items through visual analysis rather than a reference list.',
-    },
-    {
-      question: 'What does the legend at the bottom of the worksheet show?',
-      answer:
-        'In I Spy mode, a legend in the 120px bottom margin displays the target objects to find. This visual reference shows each hidden object so solvers know exactly what to look for — making worksheets accessible to pre-readers and multilingual audiences without requiring written instructions. Odd One Out mode does not include a legend since the activity is self-explanatory: find the image without a matching partner.',
-    },
-    {
-      question: 'How does the auto-generated answer key work?',
-      answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the hidden object scene without markings — solvers search and circle objects themselves. The answer key reproduces the identical layout and draws red circles around the correct objects: hidden targets in I Spy mode and unpaired items in Odd One Out mode. Circles are sized 3–5px larger than the object for clear visibility. Both versions export separately using four download buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF.',
-    },
-    {
-      question: 'Can I add name and date fields to the worksheet?',
-      answer:
-        'Yes. A checkbox toggle in the Text & Content panel adds \"Name:\" and \"Date:\" fields to the worksheet. These identification lines make your worksheets look professionally formatted for marketplace listings and add perceived value. Toggle them on for print-ready products or off for activity book pages.',
-    },
-    {
-      question: 'How does the auto-generated header work?',
-      answer:
-        'Every worksheet includes an auto-sizing title rendered in Fredoka font (#4A4A4A dark gray) with animated decorative white pill containers and shadows. The title font size adjusts automatically based on text length: 32px for short titles (under 12 characters), scaling down to 18px for longer titles (over 22 characters). You can also add a description field below the title. The header system ensures professional-looking worksheets regardless of title length.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — both activity modes, configurable hidden object and distractor counts, the zero-overlap placement algorithm, the auto-generated answer key, the full image library, background and border themes, name and date fields, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Is the Find Objects Generator language-sensitive?',
-      answer:
-        'No. The Find Objects Generator is visual-only — it does not load localized image names or use the Image Vocabulary system. Language settings affect only the UI labels (buttons, panel titles, tooltips), NOT the content of the worksheets themselves. This means every generated worksheet works universally across all languages without any localized text on the page, making your products sellable in any market without modifications.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both activity modes, the zero-overlap placement algorithm, configurable object counts, the auto-generated answer key, the full image library, background and border themes, name and date fields, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

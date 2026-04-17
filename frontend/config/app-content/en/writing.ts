@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What are the three practice modes and how do they work?',
-      answer:
-        'Trace mode provides solid letter outlines to trace directly — full visual support for learning new letters. Fading Trace starts with solid letters on the left side of the row and progressively fades them out toward the right, creating a transition from tracing to independent writing within a single row. Guided Copy shows a faint outline of each letter to copy alongside with minimal visual assistance. These three modes create a natural progression from full support to independent writing, and you can mix all three on a single worksheet using per-row independence.',
-    },
-    {
-      question: 'What are the five font styles and when should I use each?',
-      answer:
-        'Print Regular provides standard block letters for general handwriting practice. Print Regular Arrow adds numbered directional arrows showing exact stroke order — ideal for introducing new letters. Print Tracing shows dotted-outline letters designed specifically for tracing exercises. Print Tracing Arrow combines dotted outlines with stroke-order arrows for guided tracing with formation instruction. Cursive (Great Vibes) provides flowing script letters for cursive handwriting practice. Each font serves a different instructional purpose, and you can mix multiple fonts on a single worksheet.',
-    },
-    {
-      question: 'How does the arrow-guided stroke order work?',
-      answer:
-        'The Print Regular Arrow and Print Tracing Arrow font styles overlay numbered directional arrows on each letter. Arrow 1 shows where to begin the first stroke and which direction to move, arrow 2 indicates the second stroke, and so on. The arrows teach the correct formation sequence for every letter — not just what the letter looks like, but precisely how to draw it with proper stroke order and direction. This transforms a basic tracing worksheet into an instructional product that adds perceived value.',
-    },
-    {
-      question: 'How does the Fading Trace mode work?',
-      answer:
-        'Fading Trace mode starts each row with fully visible solid letters on the left side and progressively reduces the opacity of each subsequent letter as the row continues to the right. By the end of the row, the letters are barely visible or gone entirely. This gradual fade-out builds confidence by reducing visual support incrementally — each repetition requires a little more independent recall than the last. It bridges the gap between full tracing and independent writing.',
-    },
-    {
-      question: 'What are pre-writing strokes and who are they for?',
-      answer:
-        'Pre-writing strokes are basic line exercises that develop the fine motor control needed for handwriting: vertical lines (top-to-bottom pull strokes), horizontal lines (left-to-right sweeps), circles (continuous curve practice), and zigzag lines (directional change control). These exercises target the beginner-level products niche — users who are not yet ready for letter formation build pencil grip strength, hand-eye coordination, and the specific muscle movements used in writing. Pre-writing strokes are available in Custom Text mode.',
-    },
-    {
-      question: 'What does per-row independence mean?',
-      answer:
-        'Every row on the worksheet has its own independent settings for practice mode, font style, content source, and letter case. This means Row 1 can be Trace mode with Print Arrow font practicing uppercase A, Row 2 can be Fading Trace with Print Tracing font practicing lowercase a, and Row 3 can be Guided Copy with Cursive font for a complete word — all on the same worksheet. Per-row independence lets you create progressive worksheets that would normally require multiple pages.',
-    },
-    {
-      question: 'What are the content source options for each row?',
-      answer:
-        'Four content sources are available per row. Image Library — Beginning Letter mode practices the first letter of each image name with the image as visual reference. Image Library — Whole File Name mode writes the complete word. Custom Text mode lets you type any word, phrase, or sentence for the row. Empty mode creates blank ruled lines with the three-line guide system for free writing practice.',
-    },
-    {
-      question: 'Why is there no answer key for handwriting worksheets?',
-      answer:
-        'Handwriting worksheets are practice exercises, not puzzles with correct/incorrect solutions. The Trace and Fading Trace modes themselves serve as the guide — users trace directly over or alongside the provided letter forms. There is no hidden answer to reveal. The worksheet IS the reference. This is different from puzzle-based generators like Word Search or Cryptogram where an answer key shows the solution that solvers could not see during the exercise.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all three practice modes, all five font styles, pre-writing strokes, the image library, per-row configuration, custom text input, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Is the Writing generator language-sensitive?',
-      answer:
-        'No. The Writing generator is a visual handwriting practice tool — letter shapes, stroke-order arrows, and practice modes do not change by language. The UI labels translate into all 11 supported languages, and the image library provides localized image names for content sources, but the core handwriting practice functionality is the same regardless of language. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every practice mode, every font style, pre-writing strokes, every content source, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

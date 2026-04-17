@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What is a treasure hunt worksheet and how does the puzzle work?',
-      answer:
-        'A treasure hunt worksheet is a path-finding puzzle on a 5×5 coordinate grid labeled with letter rows (A–E) and number columns (1–5). Six themed images are scattered across the grid as visual landmarks. The worksheet provides 5 instruction lines: a start position (e.g., \"Start at A3\"), exactly 4 directional moves (e.g., \"Move down 2 squares\"), and a final question \"Where is the treasure?\" Solvers follow the sequential clues on the grid to determine which cell contains the treasure.',
-    },
-    {
-      question: 'How does the 5×5 coordinate grid work?',
-      answer:
-        'The grid consists of 25 cells arranged in 5 rows (labeled A through E) and 5 columns (labeled 1 through 5). Each cell is identified by a letter-number coordinate like A1, B3, or E5. Six themed images occupy 6 of the 25 cells as visual landmarks. The start position and all 4 moves stay within grid bounds (rows A–E, columns 1–5), ensuring every puzzle is solvable. This letter-number coordinate system introduces solvers to the grid reference skills used in maps, charts, and mathematics.',
-    },
-    {
-      question: 'What are the two direction types and how do they differ?',
-      answer:
-        'Basic mode uses up, down, left, and right — familiar directional words for beginners building foundational spatial vocabulary. Cardinal mode uses north, south, east, and west — compass directions suited for more advanced solvers. Both modes generate the same 4-move puzzle structure on the same 5×5 grid. The direction type toggle lets you create progressive difficulty: start with Basic direction worksheets and advance to Cardinal direction worksheets using identical themes.',
-    },
-    {
-      question: 'Why does every puzzle have exactly 4 moves?',
-      answer:
-        'The consistent 4-move structure creates a standardized puzzle format that works reliably on the 5×5 grid. Four moves provide enough complexity for meaningful path-finding without overwhelming beginners. Every puzzle follows the same 5-line instruction format: start position, 4 sequential moves, and the \"Where is the treasure?\" question. This consistency makes treasure hunt worksheets easy to package into structured activity sets for sellers.',
-    },
-    {
-      question: 'How are the 6 images used in the puzzle?',
-      answer:
-        'Six themed images are scattered across the 25 cells of the 5×5 grid as visual landmarks. They make the grid visually engaging and help solvers orient themselves while following directional clues. You can populate the grid using three methods: Generate from Theme (default) auto-selects 6 random images from the chosen theme, Manual Image Selection lets you browse the library and click to choose exactly 6 images, and Upload Custom Images lets you add your own JPEG, PNG, GIF, or WebP files.',
-    },
-    {
-      question: 'Is the Treasure Hunt Generator language-sensitive?',
-      answer:
-        'Yes. The Treasure Hunt Generator is language-sensitive in two ways. First, all directional clue text — start instructions, move directions (Basic and Cardinal), square units, and the treasure question — is fully translated into the selected language across all 11 supported languages. Second, image content loaded from the library updates based on the selected locale. Switching languages produces authentic native-language treasure hunt worksheets with localized directions and images. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 languages.',
-    },
-    {
-      question: 'How are the directional clues localized?',
-      answer:
-        'All directional vocabulary is translated into 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Basic directions (up/down/left/right) and Cardinal directions (north/south/east/west) both have complete translations, along with the \"Start at\" instruction, \"Move\" verb, \"square(s)\" unit, and \"Where is the treasure?\" question. For example, in German Basic mode, \"Move down 2 squares\" becomes the German equivalent with native directional vocabulary. The header title and description also translate automatically.',
-    },
-    {
-      question: 'How does the auto-generated answer key work?',
-      answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab, each with separate undo/redo stacks. The worksheet shows the 5×5 grid with scattered images and directional clues — ready for solvers to follow. The answer key reproduces the identical layout and highlights the final treasure cell in pale yellow (rgba(255, 250, 205, 0.8)) with a dark gray stroke, making the destination immediately visible. Both versions export separately using four dedicated download buttons: worksheet.jpeg, answer_key.jpeg, worksheet.pdf, and answer_key.pdf.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — both direction types, the 5×5 coordinate grid, 6-image puzzle generation, the auto-generated answer key, the full image library, background and border themes, all download formats, and grayscale toggle — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Can I add background themes and border themes to treasure hunt worksheets?',
-      answer:
-        'Yes. The Page Setup panel includes both a background theme selector with an opacity slider (0–1 in 0.05 steps) and a border theme selector with its own independent opacity slider. Background themes add decorative patterns behind the coordinate grid and directional instructions, while border themes frame the page. Both have separate opacity controls so you can create subtle backgrounds with prominent borders, or any combination that fits your design. These visual elements increase the perceived quality of your treasure hunt worksheets for marketplace listings.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both direction types, the 5×5 coordinate grid, 6-image puzzle generation, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

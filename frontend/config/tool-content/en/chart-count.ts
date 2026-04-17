@@ -186,16 +186,8 @@ const content: ToolContent = {  seo: {
       answer: 'The image library includes 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, professions, sports, seasons, and dozens more. Export as high-resolution JPEG or print-ready PDF at 300 DPI. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Toggle grayscale for ink-friendly output. Each generation produces four download files: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF.',
     },
     {
-      question: 'Can I sell picture graph worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell picture graph worksheets as digital downloads on Etsy, printed data skills workbooks on Amazon KDP, resources on Gumroad, or through any other sales channel. The dual-canvas generation, auto answer key with yellow-highlighted cells, and 104 themed image collections give you everything needed to create professional products that compete in graphing and data worksheet categories across every major marketplace.',
-    },
-    {
       question: 'Can I upload my own images?',
       answer: 'Yes. Upload custom PNG, JPG, or GIF images using the upload button in the Image Library panel. Your uploaded images become fully movable, resizable canvas objects on the Fabric.js editing surface. Combine uploaded artwork with library illustrations for maximum creative flexibility. Custom uploads are especially useful for subject-specific picture graphs, branded educational content, and niche themes not covered by the built-in library.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to the dual-canvas system, auto answer key, all 104 themes, background and border themes, localized headers, name/date fields, grayscale export, and every download format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 

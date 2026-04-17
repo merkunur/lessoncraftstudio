@@ -178,16 +178,9 @@ const content: ToolContent = {  seo: {
       answer: 'Enabling grayscale converts the puzzle image to black and white. This produces ink-friendly worksheets that cost less to print in bulk. It is especially useful for Amazon KDP workbooks where grayscale interiors have lower printing fees than color.',
     },
     {
-      question: 'Can I use the puzzles for commercial purposes?',
-      answer: 'The free trial with watermark is for personal use only. To sell puzzles on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the puzzles you create. There is no limit on how many puzzles you can generate or sell once licensed. You own the output files and can list them on multiple platforms simultaneously — the same puzzle pack can appear on Etsy, Gumroad, and KDP without additional fees.',
-    },
-    {
       question: 'Do the puzzles work in languages other than English?',
       answer: 'Yes. Math puzzles use only images, numbers, and equations — no text. The puzzles you create work identically in all languages. You can sell the same product to buyers in any country without translation, instantly multiplying your addressable market.',
     },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',    },
     {
       question: 'What can I create with the free version?',
       answer:

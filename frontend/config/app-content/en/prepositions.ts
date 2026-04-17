@@ -146,59 +146,9 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What exercise modes does the Preposition Worksheet Generator offer?',
-      answer:
-        'The generator includes two modes: Fill-in-the-Blank and Multiple Choice. Fill-in-the-Blank presents sentences with a missing preposition to complete (for example, \"The cat is ____ the circle\"). Multiple Choice shows a spatial description and asks the solver to circle the image that matches. Both modes work with all eight prepositions and all themes.',
-    },
-    {
-      question: 'What are the 8 prepositions available?',
-      answer:
-        'The generator supports eight spatial prepositions: in, on top of, under, next to, behind, between, above, and in front of. You select which prepositions to include from a checklist, so you can focus on all eight for comprehensive review or narrow the selection to just two or three for targeted practice. Sellers who create separate worksheet packs for each preposition pair can build a larger catalog from the same tool, giving buyers focused practice options while increasing the total number of product listings in their store.',
-    },
-    {
-      question: 'What is the difference between items and shapes?',
-      answer:
-        'Items are themed illustrations from the image library — animals, vehicles, food, and more — that represent the object being positioned. Shapes are geometric figures (circle, cube, cylinder, heart, hexagon, square, star, triangle) that serve as the spatial reference point. Each exercise positions an item relative to a shape, creating clear spatial relationships like \"The cat is under the cube.\"',
-    },
-    {
-      question: 'How many exercises can I put on each worksheet?',
-      answer:
-        'You can set anywhere from 1 to 8 exercises per worksheet. Fewer exercises create simpler, less cluttered pages ideal for beginner-level products or focused practice. More exercises maximize practice density for review sessions, assessments, or advanced sheets. Varying the exercise count across your product listings also helps you create distinct price tiers — a single-exercise introductory sheet as a low-cost entry point and a full eight-exercise review pack at a premium price.',
-    },
-    {
-      question: 'Is the Preposition Worksheet Generator language-sensitive?',
-      answer:
-        'Yes. Unlike visual-only math apps, preposition worksheets change fundamentally based on the selected language. Each language has its own preposition words, article rules, and grammar patterns. German uses dative contractions (\"im\", \"am\") and gendered articles (dem/der). French applies elision (\"l\'\" before vowels). Spanish uses gendered articles (el/la). Every generated sentence is grammatically correct — not a word-for-word translation. The Commercial tier is English-only; Full Access unlocks all 11 languages.',
-    },
-    {
-      question: 'How does the grammar handling work across languages?',
-      answer:
-        'The generator includes a built-in grammar engine for each of the 11 supported languages. It looks up the correct article based on noun gender (important for German, French, Spanish, Portuguese, Italian), applies dative case rules for German prepositions, handles French elision where articles contract before vowels or silent h, and uses correct plural forms for shape names. The result is naturally flowing sentences in every language, not awkward literal translations.',
-    },
-    {
-      question: 'How does the preposition checklist work?',
-      answer:
-        'The Preposition Checklist panel lets you toggle each of the eight prepositions on or off. Only checked prepositions appear in generated exercises. This gives you precise control over lesson content — check just \"in\" and \"on top of\" for an introductory worksheet, or check all eight for a comprehensive review. The checklist resets each time you generate a new worksheet.',
-    },
-    {
-      question: 'Does the generator create answer keys automatically?',
-      answer:
-        'Yes. Click the Generate Answer Key button to create a solved version of your worksheet. For Fill-in-the-Blank exercises, the answer key shows every blank filled with the correct preposition. For Multiple Choice, it marks the correct image. Export the answer key as a separate JPEG or PDF file alongside the main worksheet.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — both exercise modes, all eight prepositions, the full image library, all shapes, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both exercise modes, every preposition, every theme, every shape, and every export format before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',    },
-    {
-      question: 'Do I need design skills to use this tool?',
-      answer:
-        'No design skills are required. The generator handles all scene composition, preposition labeling, image placement, and visual formatting automatically. You select a theme, choose which prepositions to practice, and the generator produces a complete worksheet with scenes illustrating spatial relationships. The built-in canvas editor lets you customize fonts, colors, and element positioning, but the default layout is already professional and print-ready. ESL content creators without graphic design experience can produce worksheets that look just as polished as those from professional educational publishers, because the generator enforces consistent formatting and visual hierarchy throughout every page it creates.',
-    },
   ],
 
   internalLinks: [

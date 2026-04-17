@@ -190,14 +190,6 @@ const content: ToolContent = {
       question: 'Is the Handwriting generator language-sensitive?',
       answer: 'No. The Handwriting generator is a visual letter practice tool — letter shapes, stroke-order arrows, and practice modes do not change by language. The UI labels translate into all 11 supported languages, and the image library provides localized image names for content sources, but the core handwriting practice functionality is the same regardless of language. This differs from tools like Cryptogram (locale-aware alphabet) or Word Search (locale-aware filler characters).',
     },
-    {
-      question: 'Can I sell worksheets made with this tool commercially?',
-      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Gumroad, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the handwriting worksheets you create.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

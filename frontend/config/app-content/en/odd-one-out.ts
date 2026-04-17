@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the odd one out mechanic work?',
-      answer:
-        'Each exercise displays four images in a horizontal card — three common items and one odd item. Solvers look at the row, identify which image doesn\'t belong, and circle it. The odd item\'s position is randomly shuffled within the row, so it can appear in any of the four slots. Exercises are arranged vertically on the page, with the layout switching to 2 columns when using landscape orientation or portrait with 7 or more exercises.',
-    },
-    {
-      question: 'What is the difference between Identical and Similar modes?',
-      answer:
-        'Identical mode places three clones of the exact same image alongside one different image from the same theme — solvers spot the non-duplicate. Similar mode draws three images from Theme A (e.g., animals) and one image from Theme B (e.g., food) — solvers identify the thematic outlier. Identical mode is easier because solvers compare visual duplicates. Similar mode is harder because all four images are different and the distinction is categorical rather than visual.',
-    },
-    {
-      question: 'How does the per-exercise mode override work?',
-      answer:
-        'Each exercise row includes its own mode dropdown that lets you override the global mode setting. Set the global mode to Similar, then switch individual exercises to Identical — or vice versa. This creates mixed-difficulty worksheets where some exercises are easier (Identical) and others are harder (Similar) on the same page. A \"Clear Selections\" button resets all per-exercise overrides back to the global setting.',
-    },
-    {
-      question: 'How many exercises can I include on one worksheet?',
-      answer:
-        'The exercise count is configurable from 5 to 10, with the default set to 6. Each exercise always contains exactly 4 images (3 common + 1 odd). Fewer exercises create larger image cards with more spacing; more exercises increase content density. The layout automatically adapts — portrait pages with 7+ exercises and all landscape pages use a 2-column layout for optimal spacing.',
-    },
-    {
-      question: 'How does the two-theme system work in Similar mode?',
-      answer:
-        'In Similar mode, you select two themes from the dropdown menus. Theme A provides the three common images for each exercise (e.g., animals), and Theme B provides the single odd item (e.g., food). This guarantees the odd item is always thematically distinct. Choose from any combination of the 104 available themes. In Identical mode, only one theme is needed since both the common clones and the odd image come from the same collection.',
-    },
-    {
-      question: 'How does the auto-generated answer key with red circles work?',
-      answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the exercise cards without any markings — solvers circle the odd item themselves. The answer key reproduces the identical layout and draws a red circle outline around the odd item in each row. The circle\'s stroke width scales dynamically with image size (the larger of imageSize × 0.04 or 3 pixels). Both versions export separately using four dedicated download buttons.',
-    },
-    {
-      question: 'Can I add name and date fields to odd one out worksheets?',
-      answer:
-        'Yes. Toggle the \"Include Name/Date Fields\" checkbox in the Exercise Configuration panel to add name and date lines. These fields position responsively based on the page layout. Name and date fields give worksheets a polished, professional look that buyers expect from premium printable products.',
-    },
-    {
-      question: 'How do exercise numbers work?',
-      answer:
-        'Toggle the \"Include Exercise Numbers\" checkbox in the Exercise Configuration panel to display numerals on the left side of each exercise card. Numbers use a 25px width with a 15px gap from the card content. Exercise numbers add a professional touch and make it easy to reference specific exercises in product descriptions.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — both generation modes, per-exercise overrides, configurable exercise counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, exercise numbers, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Are odd one out worksheets language-sensitive?',
-      answer:
-        'No. Unlike apps that display words on the worksheet, odd one out puzzles are entirely visual — no text appears on the puzzle content itself. The auto-generated header (\"Find the Odd One Out\") translates into all 11 supported languages, but the actual exercises contain only images. This means every worksheet works in any language without modification, making odd one out puzzles ideal for global marketplace sales.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both generation modes, the per-exercise override system, the auto-generated answer key, the full image library, background and border themes, name/date fields, exercise numbers, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

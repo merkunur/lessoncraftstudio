@@ -194,14 +194,6 @@ const content: ToolContent = {
       question: 'What page sizes and export formats are available?',
       answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier, JPEG quality 1.0). Toggle grayscale for ink-friendly output. Each generation produces four download files: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF. All exports are production-ready for digital downloads, printed workbooks, and Etsy or Gumroad listings.',
     },
-    {
-      question: 'Can I sell sorting worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell sorting worksheets as digital downloads on Etsy, printed classification workbooks on Amazon KDP, products on Gumroad, or through any other sales channel. The two selection modes, configurable image counts, auto-generated answer keys with 6× larger images, language-sensitive category labels, custom image uploads, and 104 themed image collections give you everything needed to create professional sorting products that compete in classification and sorting activity categories across every major marketplace.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to both selection modes, configurable image counts from 4 to 12, the auto-generated answer key, all 104 themes, custom image uploads, background and border themes, name/date fields, the localized header in 11 languages, grayscale export, and every download format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

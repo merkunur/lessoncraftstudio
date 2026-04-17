@@ -194,14 +194,6 @@ const content: ToolContent = {
       question: 'What page sizes and export formats are available?',
       answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier, JPEG quality 1.0). Toggle grayscale for ink-friendly output. Each generation produces four download files: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF. All exports are production-ready for digital downloads, printed workbooks, and printed handouts.',
     },
-    {
-      question: 'Can I sell shadow matching worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell shadow matching worksheets as digital downloads on Etsy, printed visual perception workbooks on Amazon KDP, printable resources on Gumroad, or through any other sales channel. The two exercise modes, pixel-level silhouette generation, Fisher-Yates derangement, auto-generated answer keys, toggleable labels, custom image uploads, and 104 themed image collections give you everything needed to create professional products that compete in visual matching categories across every major marketplace.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to both exercise modes, pixel-level silhouette generation, cut direction options, the auto-generated answer key, all 104 themes, custom image uploads, background and border themes, labels toggle, name/date fields, grayscale export, and every download format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

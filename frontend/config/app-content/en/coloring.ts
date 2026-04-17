@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the free-form canvas differ from grid-based generators?',
-      answer:
-        'The Coloring Page Generator uses a completely open canvas with no grids, templates, or slots. You place images anywhere on the page by clicking them in the library, then drag, resize, rotate, and layer them freely. This is fundamentally different from grid-based tools that lock images into fixed positions. The free-form approach gives you full creative control over every page layout, making each coloring page unique and original.',
-    },
-    {
-      question: 'How does the freehand drawing tool work?',
-      answer:
-        'Toggle the Drawing Tool button to switch from Select mode to Drawing mode. Pick a brush color using the color picker and adjust the brush size from 1 to 50 pixels using the slider. Draw directly on the canvas with your mouse or stylus — strokes are rendered as smooth Fabric.js paths. Toggle back to Select mode to move and edit your drawings like any other canvas object. Combine freehand drawing with library images for hybrid coloring pages.',
-    },
-    {
-      question: 'What are the layout helpers and how do I use them?',
-      answer:
-        'Two one-click buttons in the Layout Helpers panel. The Name Field button adds a formatted \"Name: ____________________\" text block near the top of the page. The Handwriting Lines button adds a group of three evenly spaced lines (solid, dashed, solid) near the bottom of the page for handwriting practice. Both helpers create standard canvas objects you can reposition, resize, or delete like any other element.',
-    },
-    {
-      question: 'How does the grayscale export toggle work?',
-      answer:
-        'The grayscale toggle in the Download panel converts your entire coloring page to grayscale at export time. Your canvas remains in full color for easy visual editing — grayscale is only applied to the exported file. This lets you design with colorful images for identification and then produce ink-friendly output for printing. Essential for Amazon KDP coloring book interiors and bulk printing where color ink is unavailable or expensive.',
-    },
-    {
-      question: 'How do I browse and add images from the library?',
-      answer:
-        'Open the Image Library panel, select a theme from the dropdown, or type a search term in the search box. Images appear in a grid — click any image to add it directly to your canvas. The image appears as a movable, resizable canvas object that you can drag, rotate, and layer with other elements. The library contains 3,100+ colorful illustrations across 104 themed collections. You can also upload custom PNG, JPG, or GIF images.',
-    },
-    {
-      question: 'Can I upload my own images?',
-      answer:
-        'Yes. The Image Library panel includes a custom upload button that accepts PNG, JPG, and GIF files. Uploaded images are added to the canvas just like library images — fully movable, resizable, and rotatable. Combine your own artwork with library illustrations for completely original coloring pages. Custom images are particularly useful for brand-specific coloring pages or subject matter not covered by the built-in themes.',
-    },
-    {
-      question: 'How do the decorative border themes work?',
-      answer:
-        'In the Page Setup panel, select a border theme from the border library. The border frames your canvas and adds visual polish to the finished coloring page. Borders are applied as canvas elements that you can see in the editor. They define the visual boundary of the page without interfering with your images, text, or drawings. Different border themes suit different audiences — playful borders for children\'s coloring pages, elegant borders for adult coloring books.',
-    },
-    {
-      question: 'Why is there no answer key for coloring pages?',
-      answer:
-        'Coloring pages are creative activities with no single correct answer — the entire purpose is for users to add their own colors. Unlike math worksheets or letter tracing exercises, there is no right or wrong way to color a page. This makes coloring pages ideal low-preparation products for sellers because you export only the coloring page itself, with no additional answer key file to create.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — the free-form canvas, all drawing tools, the image library, layout helpers, border themes, grayscale export, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Is the Coloring Page Generator language-sensitive?',
-      answer:
-        'No. The Coloring Page Generator is a purely visual app — output consists only of images, drawings, and any text you manually add. Changing the language only affects the UI labels in the generator interface and the image library content labels, not the coloring page output. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages for the interface.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test the free-form canvas, every drawing tool, the full image library, layout helpers, border themes, grayscale export, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

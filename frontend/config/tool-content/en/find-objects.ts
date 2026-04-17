@@ -194,14 +194,6 @@ const content: ToolContent = {
       question: 'What canvas editing tools are available?',
       answer: 'The Fabric.js canvas provides complete control over every element. Drag, resize, rotate, and reposition images, text, and generated content freely. Layer controls manage stacking order with lock/unlock on individual objects. Add custom text with 7 font options (Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, Verdana), adjustable size and color, and text outline width 0–10. Six alignment options plus center-on-page position elements precisely. Zoom from 25% to 300% and undo/redo up to 20 history states.',
     },
-    {
-      question: 'Can I sell hidden object worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell hidden object worksheets as digital downloads on Etsy, printed activity workbooks on Amazon KDP, printable resources on Gumroad, or through any other sales channel. The two activity modes, zero-overlap scene generation, adaptive image sizing, auto-generated answer keys with red circle annotations, the I Spy legend display, custom image uploads, and 104 themed image collections give you everything needed to create professional hidden object products that compete in search-and-find categories across every major marketplace.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to both activity modes, configurable object counts, the zero-overlap algorithm, the auto-generated answer key with red circle annotations, the I Spy legend display, all 104 themes, custom image uploads, background and border themes, name/date fields, grayscale export, and every download format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

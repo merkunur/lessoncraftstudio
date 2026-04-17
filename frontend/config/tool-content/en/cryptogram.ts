@@ -186,14 +186,6 @@ const content: ToolContent = {
       question: 'What does the letter legend answer key show?',
       answer: 'The answer key includes a complete letter legend displaying every alphabet letter paired with its assigned image in sorted alphabetical order. This is the definitive reference for checking solutions — anyone can look up any image to confirm which letter it represents. The answer key also shows the fully decoded phrase for quick verification.',
     },
-    {
-      question: 'Can I sell worksheets made with this tool commercially?',
-      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the cryptogram worksheets you create.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

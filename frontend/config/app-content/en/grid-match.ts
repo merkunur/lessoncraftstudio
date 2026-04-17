@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What grid sizes are available for grid match puzzles?',
-      answer:
-        'The generator supports 2–4 rows and 2–4 columns, configured independently. This creates grids from 2×2 (4 tiles) up to 4×4 (16 tiles). The default is 3×3 (9 tiles). Smaller grids are easier and work well for beginner-level products; larger grids increase difficulty and visual complexity. You can set rows and columns to different values — for example, 2 rows × 4 columns creates a wide rectangular puzzle.',
-    },
-    {
-      question: 'How do clue cells control puzzle difficulty?',
-      answer:
-        'Clue cells are grid positions where the image tile remains visible as a hint. Set 1–5 clue cells using the slider in the Grid Options panel (default is 1). More clues make the puzzle easier because solvers have more reference points. For a 3×3 grid with 1 clue, solvers must match 8 tiles — quite challenging. With 5 clues, only 4 tiles need matching — much more accessible. This single control lets you create graduated difficulty sets from the same image.',
-    },
-    {
-      question: 'How does the grid match puzzle work?',
-      answer:
-        'The worksheet shows a grid where some cells display the actual image tile (clue cells) and remaining cells show \"?\" placeholders. Below or beside the grid, a numbered palette displays all the hidden tiles in shuffled order. Solvers examine the clue cells, study the numbered tiles, and determine which number belongs in each empty grid position. The answer requires spatial reasoning — matching tile content to its correct location in the overall image.',
-    },
-    {
-      question: 'How does the auto-generated answer key work?',
-      answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The answer key displays the complete, uncut image with numbered circles overlaid on each grid cell. Each circle has a yellow background (#ffffe0) with a black outline and shows the palette number that belongs in that position. Numbers correspond to the shuffled tile order from the worksheet, making answer checking straightforward. Both versions export separately using four dedicated download buttons.',
-    },
-    {
-      question: 'Can I use my own images for grid puzzles?',
-      answer:
-        'Yes. The Upload Custom Images panel lets you upload PNG, JPG, or GIF files from your computer. Uploaded images appear in a gallery below the upload area. Click any uploaded image to select it as your puzzle source. This feature is ideal for creating personalized puzzles from photos, custom artwork, or branded images. You can use uploaded images alongside the built-in library — switch between them freely.',
-    },
-    {
-      question: 'How does the layout adapt to portrait and landscape orientations?',
-      answer:
-        'The generator automatically detects your page orientation and repositions elements accordingly. Portrait pages place the grid on top (using 45% of available height) with the numbered palette below and a full-width header. Landscape pages position the grid on the left half (48% of available width) with the palette on the right and a compact header. This ensures grid puzzles look balanced and professional in either orientation without manual layout adjustments.',
-    },
-    {
-      question: 'Can I generate multiple unique puzzles from the same image?',
-      answer:
-        'Yes. Every time you click Generate, the app shuffles tiles using Fisher-Yates randomization, producing a different numbered tile order. Clue cell positions also change between generations. This means you can create multiple distinct puzzle worksheets from a single image without changing any settings — each will have different tile numbers and clue positions, making them unique puzzle experiences.',
-    },
-    {
-      question: 'How does difficulty scaling work across grid sizes and clue counts?',
-      answer:
-        'Difficulty depends on two factors: total tiles (grid size) and visible clues. A 2×2 grid with 3 clues leaves only 1 tile to match — the easiest possible puzzle. A 4×4 grid with 1 clue requires matching 15 tiles — the hardest configuration. Between these extremes, you can create any difficulty level. For graduated workbooks, start with 2×2 grids (3 clues), progress to 3×3 (2 clues), and finish with 4×4 (1 clue) for a natural difficulty curve.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all grid sizes, adjustable clue cells, the auto-generated answer key with numbered overlays, the full image library, background and border themes, custom image uploads, text tools, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Is the Grid Match Puzzle Generator language-sensitive?',
-      answer:
-        'No. Grid Match is purely visual — the puzzle output contains only image tiles and numbers, with no localized word content on the worksheet itself. The app interface (menus, buttons, header text) supports all 11 languages, but the generated puzzle works identically regardless of language selection. This makes grid match puzzles universally sellable across all markets without translation. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all grid sizes, clue cell configurations, the auto-generated answer key with numbered overlays, the full image library, background and border themes, custom image uploads, text tools, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

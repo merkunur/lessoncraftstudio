@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What are the five pattern types and how do they differ?',
-      answer:
-        'AB alternates two items (A-B-A-B) for the simplest repeating pattern. AAB groups two of one item then one of another (A-A-B-A-A-B). ABB reverses that grouping (A-B-B-A-B-B). ABC rotates three different items (A-B-C-A-B-C), requiring solvers to track a longer repeating unit. AABB pairs two of each item (A-A-B-B-A-A-B-B) in an extended cycle. The progression from AB to AABB creates a natural difficulty ladder from simple two-element alternation to complex multi-element sequences.',
-    },
-    {
-      question: 'How does the clue count control difficulty?',
-      answer:
-        'The clue count sets how many of the 11 train wagons show images. The first 3 wagons are always visible to establish the pattern. With 10 clues, only 1 wagon is blank among 10 filled ones — the pattern is highly obvious. With 4 clues, only minimal information is visible and careful reasoning is needed to identify the sequence. This single setting transforms any pattern type from a straightforward exercise into a genuine reasoning challenge, effectively multiplying product variety from each pattern type.',
-    },
-    {
-      question: 'How are the 11 train wagons arranged on the page?',
-      answer:
-        'The train displays 11 wagons across three rows: 5 wagons on the top row, 3 on the middle-left, and 3 on the middle-right. Each wagon holds one image from the repeating pattern sequence. The themed train artwork connects the wagons visually, creating an engaging layout that differs from standard grid-based pattern worksheets. This distinctive format helps products stand out in marketplace search results.',
-    },
-    {
-      question: 'How is the missing wagon position determined?',
-      answer:
-        'The blank wagon is dynamically placed among positions 3 through 10 based on the configured clue count. The first 3 positions are always filled so the solver sees enough of the pattern before encountering the blank. This intelligent placement ensures every puzzle is fair and solvable. Two worksheets with the same pattern type can have different missing positions, adding natural variety to product bundles.',
-    },
-    {
-      question: 'How do I select images for the train wagons?',
-      answer:
-        'Three options are available: theme auto-pick selects coordinated images from the chosen theme automatically, manual selection lets you browse the 104-theme library and pick specific images, and custom upload lets you add your own images. Each theme provides a visually coordinated set — animals, vehicles, food, nature, and dozens more. The pattern type determines how many distinct images are needed: AB uses 2, AAB and ABB use 2, ABC uses 3, and AABB uses 2.',
-    },
-    {
-      question: 'How does the answer key work for pattern train worksheets?',
-      answer:
-        'The answer key lives on a separate canvas tab, showing the complete train with all 11 wagons filled in — including the position that was blank on the worksheet. Both canvases are independently editable, so you can customize the answer key separately. The worksheet and answer key download as separate files, giving buyers a complete product package with verified solutions.',
-    },
-    {
-      question: 'How are pattern train worksheets different from grid-based pattern worksheets?',
-      answer:
-        'Pattern Train displays sequences across a themed train with 11 wagons in a distinctive visual format, while grid-based pattern worksheets use standard rows and columns. The train format is more visually engaging and creates products that stand out in marketplace listings. Pattern Train also features adjustable clue count (4–10) for fine-grained difficulty control and dynamic missing position placement — features not available in standard grid layouts.',
-    },
-    {
-      question: 'Can I use my own custom images on the train?',
-      answer:
-        'Yes. The custom image upload feature lets you add any image to the pattern train exercises. Upload photos, illustrations, or graphics relevant to your specific subject or audience. Custom images work with all five pattern types and appear on the train wagons alongside or instead of library images. This is useful for creating subject-specific worksheets beyond the built-in 104 theme collections.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all five pattern types, adjustable clue count, the image library, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Is the Pattern Train generator language-sensitive?',
-      answer:
-        'No. Pattern Train is a purely visual app — worksheets contain only images on train cars with zero text on the output, so they are identical in every language. Changing the language only affects the UI labels in the generator interface and the image library content language, not the worksheet itself. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages for the interface.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every pattern type, every clue count setting, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

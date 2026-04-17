@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the picture graph worksheet work?',
-      answer:
-        'Each worksheet has two parts. The top section displays a 4×5 grid containing 20 scattered icons from 6 different image types — each type appears 1–5 times, randomly distributed. The bottom section shows a 6-column × 5-row bar chart with columns labeled by each image type and rows numbered 1–5 from bottom to top. Solvers count how many of each image type appear in the grid, then color or fill the corresponding number of cells in the matching column. This covers both data collection (counting) and data representation (graphing) in a single activity.',
-    },
-    {
-      question: 'How does the automatic image selection work?',
-      answer:
-        'Open the Image Library panel and use the Worksheet Image Source dropdown to select a theme. The app randomly picks 6 images from that theme\'s collection. If you prefer manual control, switch to manual mode: browse themes or search by keyword, then click exactly 6 images. Selected images appear in a preview strip where you can click any image to remove it and pick a replacement. With no theme selected, the app draws 6 random images from all available collections. Every mode guarantees exactly 6 image types per worksheet.',
-    },
-    {
-      question: 'How does the auto-generated answer key work?',
-      answer:
-        'When you generate a worksheet, the app simultaneously creates a matching answer key on a separate canvas tab. The answer key shows the same image grid and bar chart, but the correct cells in the chart are filled with yellow (#FFC857) highlighting. Switch between the Worksheet and Answer Key tabs to compare. Download each version independently using the four download buttons: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF. The answer key is generated automatically — no manual counting required.',
-    },
-    {
-      question: 'What is the localized header on each worksheet?',
-      answer:
-        'Every generated worksheet includes a styled header with a yellow pill background (#FFD93D), white inner pill, and orange border frame. The header displays a \"Picture Graph\" title and counting instructions that automatically translate into whichever UI language is active — English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, or Finnish. The header adapts for landscape mode with a compact layout. You do not need to create or format the header manually.',
-    },
-    {
-      question: 'How do the name and date fields work?',
-      answer:
-        'In the Page Setup panel, check the Include Name/Date box to add formatted \"Name: ____\" and \"Date: ____\" fields at the bottom of the worksheet page. The fields use Fredoka font at 18px in #333 color. The worksheet includes identification fields for a professional layout. This makes worksheets immediately print-ready without any additional formatting. Uncheck the box to remove the fields for products that do not need identification lines.',
-    },
-    {
-      question: 'How do background and border themes work?',
-      answer:
-        'The Page Setup panel offers both background themes and border themes loaded from the built-in theme library. Each has an independent opacity slider (0–1, step 0.05), so you can set a subtle background at low opacity while keeping a bold border at full strength, or any combination you prefer. Background themes fill the page area behind the image grid and chart, while border themes frame the outer edge. Together they add decorative polish without interfering with the worksheet content.',
-    },
-    {
-      question: 'How does the grayscale toggle work?',
-      answer:
-        'The grayscale toggle in the Download panel converts your entire worksheet or answer key to grayscale at export time. Your canvas remains in full color for easy visual editing — grayscale is only applied to the exported file. This produces ink-friendly output for bulk printing where color ink is expensive or unavailable, and for Amazon KDP book interiors that require black-and-white pages. The grayscale toggle works independently for both worksheet and answer key exports.',
-    },
-    {
-      question: 'How do I switch between the worksheet and answer key?',
-      answer:
-        'The canvas area has two tabs: Worksheet and Answer Key. Click the Answer Key tab to view the auto-generated solution with yellow-filled chart cells. Click the Worksheet tab to return to the solver version with empty cells. Each tab has its own pair of download buttons (JPEG and PDF), giving you four total download options. Edits to canvas elements like text, background, and borders apply to both tabs — the only difference between them is the bar chart fill state.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — the dual canvas, image grid generation, bar chart creation, auto answer key, image library, background and border themes, name/date fields, grayscale export, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Is the Chart Count Generator language-sensitive?',
-      answer:
-        'No. The Chart Count Generator produces visual counting worksheets where users count images and fill bar chart cells — numbers and pictures are universal. Changing the language only affects the UI labels in the generator interface, the auto-generated header title and instructions, and the image library content labels. The worksheet output itself works identically in every language. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages for the interface.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test the dual canvas, image grid generation, auto answer key, the full image library, background and border themes, name/date fields, grayscale export, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

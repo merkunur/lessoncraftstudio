@@ -186,14 +186,6 @@ const content: ToolContent = {
       question: 'Which languages are supported?',
       answer: 'The tool supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Both the hidden words and the grid filler letters change by language. Each language version uses authentic character frequencies, making every localized puzzle a genuinely different product.',
     },
-    {
-      question: 'Can I sell worksheets made with this tool commercially?',
-      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

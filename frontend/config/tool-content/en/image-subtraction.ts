@@ -161,10 +161,6 @@ const content: ToolContent = {
       answer: 'The generator supports four modes: Cross Out (solvers cross out images to visualize take-away subtraction), Image − Number (a picture group minus a numeral), Find Subtrahend (the minuend and result are shown; the solver determines what was taken away), and Mixed Mode (randomly combines all three styles on one worksheet for maximum variety).',
     },
     {
-      question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create. Many successful sellers create entire Etsy shops focused exclusively on subtraction and math operation worksheets, generating consistent monthly revenue from a focused product catalog. The commercial license covers unlimited worksheet generation across all themes and difficulty levels, making it a one-time investment for ongoing product creation.',
-    },
-    {
       question: 'How does Cross Out mode work?',
       answer: 'In Cross Out mode, the worksheet displays a group of images representing the minuend. The solver crosses out the number being subtracted and counts the remaining images to find the answer. This is the most visual and intuitive way to teach subtraction to young learners. The crossed-out images remain visible on the page, so learners can verify their work by counting both the crossed-out group and the remaining group. This self-checking aspect makes Cross Out mode especially valuable for independent practice and self-guided activities.',
     },
@@ -184,9 +180,6 @@ const content: ToolContent = {
       question: 'Can I generate an answer key?',
       answer: 'Yes. After generating a worksheet, click "Generate Answer Key" to create a matching solution sheet with all answers filled in. For Cross Out worksheets, the answer key clearly shows which images are crossed out. You can download the answer key as a separate JPEG or PDF file.',
     },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',    },
     {
       question: 'What can I create with the free version?',
       answer:

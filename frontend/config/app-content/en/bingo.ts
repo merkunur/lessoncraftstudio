@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What grid sizes are available for bingo cards?',
-      answer:
-        'Rows and columns are independently configurable from 3 to 5, creating grids from 3×3 (9 cells) up to 5×5 (25 cells). The default is 4×4 with 16 cells. You can also create non-square grids like 3×5 (15 cells) or 5×3 (15 cells) for unique bingo card formats. Smaller grids work well for quick-play rounds, while 5×5 grids provide the classic bingo experience with more items to track.',
-    },
-    {
-      question: 'How does batch generation work for multiple bingo cards?',
-      answer:
-        'Set the number of cards from 1 to 10 in the Bingo Card Settings panel. Each card draws a different random selection from the image pool, guaranteeing every card in the batch is unique — essential for bingo where every player needs a different card. The first card appears on the canvas immediately for preview. All generated cards are available through the ZIP batch export for download as individual JPEG files.',
-    },
-    {
-      question: 'How does the ZIP batch export work?',
-      answer:
-        'After generating multiple bingo cards, click the batch export button to download all cards as individual high-resolution JPEG files packaged in a single bingo_cards.zip archive. Each card is named sequentially inside the ZIP for easy organization. This eliminates the need to download cards one at a time — generate a complete set of 10 unique cards and export them all in one click using JSZip compression.',
-    },
-    {
-      question: 'What is the difference between card cell fill and chip fill?',
-      answer:
-        'Card cells and chips each have an independent fill mode: Image or Word. Card cell fill determines what appears in each cell of the bingo grid. Chip fill determines what appears on the circular chips below the card that players use for matching. You can mix modes — image cards with word chips, word cards with image chips, or match both — creating four distinct bingo card styles from one set of images.',
-    },
-    {
-      question: 'What is the call-out sheet and how does it work?',
-      answer:
-        'The call-out sheet is a separate page (accessed via the Call-outs tab) that displays a dynamic word grid of all unique items from the image pool. The caller reads these words aloud while players mark their bingo cards. Columns are calculated based on the longest word length (2–6 columns) with uniform font sizing. The grid is centered on the page and inherits page borders and background from the worksheet canvas. This is NOT an answer key — it is a reference sheet for the person running the bingo game.',
-    },
-    {
-      question: 'What is custom call-out selection?',
-      answer:
-        'Enable the \"Use custom selection\" checkbox in the Bingo Card Settings panel to hand-pick which specific images appear in the call-out pool. When enabled, click images in the Image Library to add them to your custom call-out selection — a live counter shows \"Selected for custom call-outs: X\" as you pick. This gives you precise control over which items appear in the bingo game, useful for curriculum-aligned activities or themed events where you want specific vocabulary.',
-    },
-    {
-      question: 'Is the Picture Bingo Card Generator language-sensitive?',
-      answer:
-        'Yes. When using Word fill mode for card cells or chips, the words displayed are localized image names from the Image Library. Switching the language in Worksheet Settings changes the words on cards, chips, and the call-out sheet. For example, a cat image shows \"Cat\" in English but \"Katze\" in German and \"Chat\" in French. The Commercial tier includes 10 colorful themes with English only; Full Access unlocks all 104 themes and all 11 languages for localized word content.',
-    },
-    {
-      question: 'Why is there no answer key for bingo cards?',
-      answer:
-        'Bingo cards use a call-out sheet instead of an answer key. In bingo, the caller reads items from the call-out sheet while players mark matching items on their unique cards — there is no single \"correct answer\" since every player\'s card has different items in different positions. The call-out sheet serves as the game\'s reference document, listing all possible items the caller can announce during the game.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all grid sizes, batch generation of up to 10 cards, ZIP batch export, both image and word fill modes, the call-out sheet, the full image library, custom call-out selection, background and border themes, text tools, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Can I add background themes and border themes to bingo cards?',
-      answer:
-        'Yes. The Page Setup panel includes both a background theme selector with an opacity slider (0–1 in 0.05 steps) and a border theme selector with its own independent opacity slider. Background themes add decorative patterns behind the bingo grid, while border themes frame the page. The call-out sheet inherits page borders and background from the main canvas. Both have separate opacity controls so you can create subtle backgrounds with prominent borders, or any combination that fits your design.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all grid sizes, batch generation, ZIP export, image and word fill modes, the call-out sheet, the full image library, custom call-out selection, background and border themes, text tools, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

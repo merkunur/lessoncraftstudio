@@ -190,14 +190,6 @@ const content: ToolContent = {
       question: 'What image themes and file formats are available?',
       answer: 'The image library includes 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, professions, sports, seasons, and dozens more. Upload custom PNG, JPG, or GIF images alongside library content. Export as high-resolution JPEG or print-ready PDF at 300 DPI. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Toggle grayscale for ink-friendly output. Each generation produces four files: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF.',
     },
-    {
-      question: 'Can I sell matching worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell matching worksheets as digital downloads on Etsy, printed literacy workbooks on Amazon KDP, printable resources on Gumroad, or through any other sales channel. The four matching modes, auto-generated answer keys with connecting lines, configurable pair counts, and 104 themed image collections give you everything needed to create professional products that compete in matching activity categories across every major marketplace.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to all four matching modes, the auto-generated answer key, configurable pair counts, all 104 themes, background and border themes, item numbers, bullet dots, name/date fields, grayscale export, and every download format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

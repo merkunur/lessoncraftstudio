@@ -146,59 +146,9 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the algebra picture-puzzle format work?',
-      answer:
-        'Each puzzle presents a system of linked equations where images represent unknown variables. For example, a two-symbol puzzle might show: apple + apple = 6, apple + banana = 8. The solver deduces that each apple equals 3 and each banana equals 5. Higher difficulty levels add more symbols and more equations, creating genuine multi-variable algebraic puzzles — all without abstract letter notation.',
-    },
-    {
-      question: 'What do the four difficulty levels mean?',
-      answer:
-        'Very Easy and Easy levels use two image symbols in a small system of equations — ideal for introducing the concept. Medium adds a third symbol with three linked equations, requiring more deduction steps. Hard presents four symbols across four simultaneous equations, challenging solvers to track multiple unknowns. Each level produces a system that the generator\'s solver has verified has exactly one solution. For sellers, this four-tier structure lets you package level-specific sets or progressive bundles that guide users from beginner to advanced, maximizing the number of distinct products you can list.',
-    },
-    {
-      question: 'What math operations are available?',
-      answer:
-        'You can choose Addition Only, which generates equations using only addition, or Addition & Subtraction, which mixes both operations within the same puzzle. Addition Only is ideal for the younger audience, while mixed operations add complexity for advanced solvers and create more varied equation structures. Offering both operation modes in your product listings gives buyers clear differentiation and lets you position separate SKUs for beginner-level products versus advanced multi-operation algebraic challenges.',
-    },
-    {
-      question: 'What number ranges can I set for the puzzles?',
-      answer:
-        'You set a minimum and maximum value for the solutions, with a default range of 0 to 20. Smaller ranges (e.g., 1–5) create simpler puzzles for beginners, while larger ranges produce more challenging arithmetic within the equations. You can also toggle Allow Negative Results for advanced solvers ready for signed number practice.',
-    },
-    {
-      question: 'Does every puzzle really have exactly one solution?',
-      answer:
-        'Yes. The generator includes a built-in algebraic solver that validates every puzzle before placing it on the worksheet. If a randomly generated system would have multiple solutions or no solution, the generator discards it and creates a new one. You never need to manually verify the math — every puzzle is guaranteed to be uniquely solvable. This built-in validation is a major time saver for sellers producing large puzzle batches, because you can generate dozens of worksheets in a single session with complete confidence that every puzzle is mathematically sound and ready for customers.',
-    },
-    {
-      question: 'How do images work as algebraic variables?',
-      answer:
-        'Each image you select from the library (or upload yourself) is assigned to represent one unknown variable in the equation system. The same image always represents the same value within a single puzzle. Solvers see familiar pictures instead of abstract letters, making the concept of variables concrete and accessible even for beginners who have never encountered formal algebra. Buyers consistently respond well to this visual approach, and product listings that highlight the picture-variable concept in their descriptions tend to attract higher click-through rates on Etsy and Gumroad.',
-    },
-    {
-      question: 'Does the generator create answer keys automatically?',
-      answer:
-        'Yes. Click the Generate Answer Key button to create a solved version that reveals the numeric value assigned to every image symbol. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the puzzle worksheet. Including answer keys in every listing adds perceived value for buyers, since they expect ready-made solutions they can use immediately without solving each puzzle themselves.',
-    },
-    {
-      question: 'Are algebra puzzle worksheets language-sensitive?',
-      answer:
-        'No. These worksheets are visual-only — the content uses images and numbers, not words. A puzzle created in any language setting works worldwide. The language option only changes the app\'s interface labels, not the worksheet content, making your products instantly sellable in any market. This language independence is a genuine competitive advantage for sellers, because a single algebra puzzle PDF can be listed on marketplaces in North America, Europe, and Asia without modification or additional production costs.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all four difficulty levels, both operation modes, the full image library, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every difficulty level, every operation mode, every theme, and every export format before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',    },
-    {
-      question: 'Do I need design skills to use this tool?',
-      answer:
-        'No design skills are required. The generator handles all problem generation, layout formatting, and visual composition automatically. You select your operations, set number ranges, choose a theme, and the generator produces clean, professional worksheets with answer keys. The built-in canvas editor allows further customization of fonts, colors, and element positioning, but the default output is already print-ready and marketplace-quality. Sellers without any graphic design background can produce math worksheets that compete with professionally designed products, because the generator enforces consistent spacing, alignment, and typographic hierarchy across every page it creates.',
-    },
   ],
 
   internalLinks: [

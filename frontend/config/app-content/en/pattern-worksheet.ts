@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What are the nine pattern types and how do they differ?',
-      answer:
-        'AB alternates two items (A-B-A-B) for the simplest pattern. AAB groups two of one then one of another (A-A-B-A-A-B). ABB reverses that grouping (A-B-B-A-B-B). ABC rotates three items (A-B-C-A-B-C). AABB pairs two of each (A-A-B-B-A-A-B-B). ABBC places two B\'s between A and C. AABC leads with two A\'s before B and C. ABCC ends with two C\'s after A and B. ABCD rotates four different items for maximum complexity. The progression from 2-image to 4-image patterns creates a natural difficulty ladder spanning beginner-level through advanced early-learner content.',
-    },
-    {
-      question: 'What are the two question modes and how do they work?',
-      answer:
-        'Blank Box mode replaces one item in the pattern with an empty space — the solver must identify the pattern and determine the missing item with no hints. Choose from Options mode presents the blank alongside three answer choices: one correct item and two distractors from different positions in the pattern. Blank Box tests open-ended reasoning; Multiple Choice tests recognition with structured options. Both modes work with all nine pattern types, giving you 18 distinct exercise styles.',
-    },
-    {
-      question: 'How does per-exercise configuration work?',
-      answer:
-        'Each exercise on the page has independent settings for pattern type, question mode, and image theme. You can set Exercise 1 as an AB blank-box with farm animals, Exercise 2 as an ABC multiple-choice with vehicles, and Exercise 3 as an ABCD blank-box with ocean creatures — all on the same page. This means one worksheet can serve as a complete differentiated activity with progressive difficulty built in, rather than needing separate pages for each pattern type or question mode.',
-    },
-    {
-      question: 'What do the Random Start and Random Blank Position settings do?',
-      answer:
-        'Start from Random Element begins the pattern at a random point in the cycle rather than always at the first element — an ABC pattern might start at C-A-B-C instead of A-B-C. Random Blank Position places the missing item at any position in the sequence rather than at a fixed location. Together, these settings prevent solving patterns by rote and ensure every generated worksheet presents a fresh challenge, even when using the same pattern type and theme.',
-    },
-    {
-      question: 'How many exercises can I put on one page?',
-      answer:
-        'You can set 1 to 8 exercises per page, with a default of 5. Fewer exercises per page create larger, clearer grid rows ideal for beginner-level products or focused practice. More exercises create denser worksheets suitable for assessment or review. Combined with per-exercise configuration, 8 exercises on one page can present 8 different pattern types or mix blank-box and multiple-choice modes for comprehensive practice.',
-    },
-    {
-      question: 'How do I select images for each exercise?',
-      answer:
-        'Three options are available per exercise: apply a theme to auto-select coordinated images from the 104-collection library, manually browse and pick specific images, or upload your own custom images. The pattern type determines how many distinct images are needed: AB, AAB, ABB, and AABB use 2 images; ABC, ABBC, AABC, and ABCC use 3 images; and ABCD uses 4 images. Each exercise can use a different theme for maximum visual variety.',
-    },
-    {
-      question: 'How does the answer key work for pattern worksheets?',
-      answer:
-        'The answer key lives on a separate canvas tab, showing the completed worksheet with all blanks filled in with the correct pattern items. For multiple-choice exercises, the correct answer is clearly indicated. Both canvases are independently editable, so you can customize the answer key separately from the worksheet. The worksheet and answer key download as separate files, giving buyers a complete product package with verified solutions.',
-    },
-    {
-      question: 'How is Pattern Worksheet different from Pattern Train?',
-      answer:
-        'Pattern Worksheet uses a standard grid-based layout with 1–8 independently configured exercises per page, nine pattern types (AB through ABCD), and two question modes (blank box and multiple choice). Pattern Train displays a single pattern across 11 themed train wagons in a distinctive visual format with five pattern types (AB through AABB) and adjustable clue count. Pattern Worksheet excels at volume, variety, and mixed-difficulty pages; Pattern Train excels at visual engagement with its unique train car format.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all nine pattern types, both question modes, per-exercise configuration, the image library, random start and random blank position, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Is the Pattern Worksheet generator language-sensitive?',
-      answer:
-        'No. Pattern Worksheet is a purely visual app — worksheets contain only images in grid rows with zero text on the output, so they are identical in every language. Changing the language only affects the UI labels in the generator interface and the image library content language, not the worksheet itself. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages for the interface.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every pattern type, every question mode, every exercise configuration, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

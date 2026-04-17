@@ -194,14 +194,6 @@ const content: ToolContent = {
       question: 'Why is the Find & Count Generator language-sensitive unlike visual-only tools?',
       answer: 'Most worksheet generators produce purely visual puzzles where no text appears on the output. The Find & Count Generator is different — image name labels are rendered directly on the worksheet in the selected language, and Letter Spotting mode uses language-specific first letters and accented alphabets. This means switching languages produces genuinely different worksheets, not just translated instructions. This language sensitivity is what makes multilingual I Spy bundles possible and gives you a product differentiator that English-only tools cannot match.',
     },
-    {
-      question: 'Can I sell I Spy worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell I Spy worksheets as digital downloads on Etsy, printed I Spy workbooks on Amazon KDP, products on Gumroad, or through any other sales channel. The two activity modes, four task types, Letter Spotting with locale-specific alphabets, localized image labels in 11 languages, configurable grid density, auto-generated answer keys with red annotations, custom image uploads, and 104 themed image collections give you everything needed to create professional I Spy products that compete in find-and-count categories across every major marketplace.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to both activity modes, all four task types, Letter Spotting with locale-specific alphabets, configurable grid density, the auto-generated answer key with red annotations, localized image labels in 11 languages, all 104 themes, custom image uploads, background and border themes, name/date fields, grayscale export, and every download format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

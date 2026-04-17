@@ -146,54 +146,9 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What exercise modes does the Subtraction Worksheet Generator offer?',
-      answer:
-        'The generator includes four modes: Cross Out (a full image group with diagonal X marks through the subtracted items), Image − Number (a picture group minus a numeral), Find the Subtrahend (the start and result are shown and solvers determine what was taken away), and Mixed Mode (randomizes all three). Each mode targets a different skill level, from pure visual counting to early algebraic reasoning.',
-    },
-    {
-      question: 'How does the cross-out visualization work?',
-      answer:
-        'In Cross Out mode, the worksheet displays the full starting group of images — for example, eight butterflies. Diagonal X marks are then drawn through the last N images to represent the amount being subtracted. Solvers count the remaining unmarked images to find the answer. This makes the abstract concept of \"taking away\" visible and concrete, which is especially effective for the preschool-age market where visual math products command premium prices.',
-    },
-    {
-      question: 'What number ranges can I set for subtraction problems?',
-      answer:
-        'You can set the maximum minuend from 2 to 20. The generator automatically ensures the subtrahend is always smaller than the minuend, so every problem produces a valid, non-negative answer. This lets you create easy problems like 3 minus 1 for beginners or challenging problems like 18 minus 12 for higher difficulty tiers.',
-    },
-    {
-      question: 'How many images and themes are available?',
-      answer:
-        'The built-in image library contains over 3,100 illustrations organized into 104 themes including animals, vehicles, food, holidays, sports, space, nature, and more. You can also upload your own custom images if you need brand-specific or seasonal artwork.',
-    },
-    {
-      question: 'Does the generator create answer keys automatically?',
-      answer:
-        'Yes. Click the Generate Answer Key button to create a completed version of your worksheet with all correct differences filled in. In Cross Out mode, the answer key retains the crossed-out images and adds the written answer, for professional answer key presentation at a glance. Download it as a separate JPEG or PDF alongside the main worksheet.',
-    },
-    {
-      question: 'Are subtraction worksheets language-sensitive?',
-      answer:
-        'No. Subtraction worksheets are visual-only — the math content uses images, X marks, and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app\'s interface labels, not the worksheet content itself, making your products instantly sellable worldwide without translation.',
-    },
-    {
-      question: 'What is the grayscale export option?',
-      answer:
-        'The download dropdown includes a Grayscale checkbox that converts your entire worksheet and answer key to black-and-white before exporting. This produces ink-friendly versions perfect for high-volume printing, low-cost activity book production on Amazon KDP, or any situation where color printing is not available or too expensive.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature of the generator — all four exercise modes, the full image library, answer key generation, grayscale export, and all page sizes — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',
-    },
-    {
-      question: 'Do I need to install any software?',
-      answer:
-        'No. The Subtraction Worksheet Generator runs entirely in your web browser. There is nothing to download, install, or update. It works on any modern desktop browser including Chrome, Firefox, Safari, and Edge. Just open the page and start creating. Because everything runs client-side, your worksheet designs stay private on your own device and are never uploaded to external servers, which gives sellers full confidence that their product layouts and creative choices remain protected. The browser-based architecture means you can create worksheets from any computer with internet access, and session data persists in your browser tab so you can experiment with different exercise modes, preview results, and refine your designs without losing progress between iterations.',
     },
   ],
 

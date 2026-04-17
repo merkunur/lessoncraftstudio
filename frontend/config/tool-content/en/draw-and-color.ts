@@ -190,14 +190,6 @@ const content: ToolContent = {
       question: 'What file formats and page sizes are available?',
       answer: 'Download as high-resolution JPEG or print-ready PDF at 300 DPI. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Toggle grayscale for ink-friendly output. PDFs are ideal for direct printing and KDP upload; JPEGs work for product mockups and social media previews.',
     },
-    {
-      question: 'Can I sell worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell grid drawing worksheets as digital downloads on Etsy, printed workbooks on Amazon KDP, printable resources on Gumroad, or through any other sales channel. The dual grid format, adjustable clue percentage, symmetry modes, and B&W outline style create a distinctive product that competes strongly in drawing and activity worksheet categories.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to all grid sizes, all clue percentages, all symmetry modes, and every export format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the missing piece puzzle mechanic work?',
-      answer:
-        'The generator takes an image from the library (or your upload) and cuts out 1–5 pieces, leaving white holes with black stroke outlines at the original locations. It then displays 2–6 numbered solution options below or beside the puzzle — the correct pieces plus distractor pieces extracted from other areas of the same image. Solvers examine the holes and the numbered options, then identify which option fills each gap based on color, pattern, and visual detail.',
-    },
-    {
-      question: 'What are the 6 piece shapes available?',
-      answer:
-        'You can choose from square (default), circle, rectangle portrait (80% width, 100% height), rectangle landscape (100% width, 80% height), ellipse portrait (80% rx, 100% ry), and ellipse landscape (100% rx, 80% ry). Each shape creates a different visual challenge. Square and circle offer clean geometric cuts, while rectangle and ellipse variants create elongated or curved shapes that interact differently with the source image.',
-    },
-    {
-      question: 'How do the difficulty settings work?',
-      answer:
-        'Difficulty is controlled by two independent settings. Missing pieces count (1–5) determines how many holes are cut from the image — more pieces means more spatial reasoning. Solution options count (2–6) determines how many numbered choices the solver evaluates — when options exceed missing pieces, the extras are distractors that require careful visual comparison. A puzzle with 1 missing piece and 2 options is easy; 5 missing pieces with 6 options is challenging.',
-    },
-    {
-      question: 'What are distractor pieces and how are they generated?',
-      answer:
-        'Distractor pieces are extra solution options that don\'t match any hole in the puzzle. They\'re extracted from different areas of the same source image using up to 200 placement attempts each, ensuring they don\'t overlap with correct pieces. Distractors prevent solving by elimination alone — the solver must carefully compare colors, patterns, and visual details to distinguish correct options from similar-looking alternatives.',
-    },
-    {
-      question: 'How does the smart piece extraction algorithm work?',
-      answer:
-        'The algorithm uses up to 150 attempts to find pieces with sufficient visual detail. Each candidate piece is analyzed for brightness variance (minimum threshold of 15) to ensure it contains enough color information to be identifiable. Pieces maintain at least 250 pixels of distance from each other to prevent overlap. Piece size is calculated as 12% of the image width with a minimum of 50 pixels. This automated process ensures every puzzle is visually solvable regardless of the source image.',
-    },
-    {
-      question: 'How does the auto-generated answer key work?',
-      answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The answer key displays the same puzzle image with holes but omits the solution options. Instead, yellow-highlighted number labels (rgba(255,255,0,0.7)) are placed inside each hole showing the correct 1-based option index. The font size scales to 60% of the piece size for clear readability. Download the answer key separately using the dedicated Answer Key JPEG and Answer Key PDF buttons.',
-    },
-    {
-      question: 'Are missing pieces puzzles language-sensitive?',
-      answer:
-        'No. Missing Pieces is a purely visual puzzle format with no text content on the worksheet itself — no words, no letters, no locale-dependent elements. The only language-dependent element is the auto-generated header text (\"Missing Pieces\" / \"Find and place the missing pieces!\"), which is localized in all 11 supported languages. The puzzle itself works identically in every language, making it ideal for global markets.',
-    },
-    {
-      question: 'How does the dual border system work?',
-      answer:
-        'Every generated puzzle features two decorative borders. The outer border uses bright teal (#14B8A6) with an 8px stroke, 34px margins, and 12px border radius. The inner border uses hot pink (#EC4899) with a 3px stroke, 46.5px margins, 8px border radius, and a slight offset of 2px right and 3px down. Together they create a polished, professional frame that increases the visual quality of your puzzle worksheets for marketplace listings.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all 6 piece shapes, configurable missing pieces and solution options, the auto-generated answer key, the full image library, background and border themes, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Can I add background themes and border themes to puzzles?',
-      answer:
-        'Yes. The Page Setup panel includes both a background theme selector with an opacity slider (0–1 in 0.05 steps) and a border theme selector with its own independent opacity slider. Background themes add decorative patterns behind the puzzle content, while border themes frame the page. Both have separate opacity controls so you can create subtle backgrounds with prominent borders, or any combination that fits your design.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all 6 piece shapes, configurable difficulty settings, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

@@ -190,14 +190,6 @@ const content: ToolContent = {
       question: 'What file formats and page sizes are available?',
       answer: 'Download as high-resolution JPEG or print-ready PDF at 300 DPI with a 6x rendering multiplier for crisp output. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Toggle grayscale for ink-friendly output. PDFs are ideal for direct printing and KDP upload; JPEGs work for product mockups and social media previews.',
     },
-    {
-      question: 'Can I sell worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell pattern worksheets as digital downloads on Etsy, printed workbooks on Amazon KDP, products on Gumroad, or through any other sales channel. Nine pattern types, two question modes, and per-exercise configuration give you the widest product variety and differentiation available.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to all nine pattern types, both question modes, per-exercise configuration, and every export format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

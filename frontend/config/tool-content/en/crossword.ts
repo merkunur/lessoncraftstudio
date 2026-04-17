@@ -189,14 +189,6 @@ const content: ToolContent = {  seo: {
       question: 'What page sizes and export formats are available?',
       answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, and custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier). Toggle grayscale for ink-friendly output. Each generation produces four download files: worksheet JPEG, answer key JPEG, worksheet PDF, and answer key PDF. All exports are production-ready for digital downloads, printed workbooks, and Etsy or Gumroad listings.',
     },
-    {
-      question: 'Can I sell crossword puzzles made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell crossword puzzles as digital downloads on Etsy, printed crossword workbooks on Amazon KDP, products on Gumroad, or through any other sales channel. The four input methods, auto-generated answer keys with filled grids, language-sensitive word generation in 11 languages, custom word list mode, and 104 themed image collections give you everything needed to create professional crossword products that compete in word puzzle categories across every major marketplace.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to all four input methods, the 15×15 grid generator, the auto-generated answer key with filled grid, all 104 themes, custom image uploads, language selection, background and border themes, grayscale export, and every download format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

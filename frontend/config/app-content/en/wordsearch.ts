@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the word search puzzle work?',
-      answer:
-        'Hidden words are embedded inside a grid of random filler letters. Solvers scan rows, columns, and optionally diagonals to find each word. When found, they circle or highlight the word in the grid. The grid filler letters are randomized each time you generate, so every puzzle is unique even with the same word list. Up to 8 words can be placed in a single grid.',
-    },
-    {
-      question: 'What grid sizes are available?',
-      answer:
-        'You can set rows and columns independently from 5 to 30. The default is 12×12. A 5×5 grid creates a quick, easy puzzle with just 25 cells; a 30×30 grid creates a dense, challenging search with 900 cells. Adjusting grid size is the primary way to control difficulty alongside word direction settings.',
-    },
-    {
-      question: 'What do the diagonal and reverse word direction toggles do?',
-      answer:
-        'The diagonal toggle allows words to be placed along both diagonal axes in addition to horizontal and vertical. The reverse toggle allows words to be placed backwards in every enabled direction. With both enabled, words can appear in eight possible directions. With both disabled, words only appear left-to-right horizontally and top-to-bottom vertically. These toggles let you fine-tune difficulty from simple two-direction grids to complex eight-direction puzzles.',
-    },
-    {
-      question: 'What are the three content sources?',
-      answer:
-        'Image Library mode uses themed illustrations where each image name becomes a hidden word. Manual Edit Mode lets you select images then customize their display names before generating — perfect for alternate vocabulary or simplified spellings. Custom Word List mode skips images entirely and lets you type up to 8 words directly, enabling word search worksheets for any subject without needing matching illustrations.',
-    },
-    {
-      question: 'What are the three display modes?',
-      answer:
-        'Show Words and Images (default) displays both image clues and word labels alongside the grid. Show Only Images displays image clues without text labels, requiring solvers to identify the image and find the word themselves. Show Only Words displays text labels without images, creating a pure text-based word search experience. Each mode controls what appears as clue references beside the grid.',
-    },
-    {
-      question: 'How does the locale-aware alphabet filler work?',
-      answer:
-        'When you select a language, the grid filler characters automatically switch to that language\'s alphabet with weighted frequency distributions. German grids include ä, ö, ü, and ß. French grids include é, è, ç, à, and other accented characters. Swedish grids include å, ä, and ö. This makes puzzles linguistically authentic — the filler letters look natural rather than obviously English-generated.',
-    },
-    {
-      question: 'How does the color-coded answer key work?',
-      answer:
-        'The answer key highlights each found word in one of six cycling colors: pink, blue, green, gold, coral, and lavender. Each word gets a distinct color so they are visually distinguishable even when words cross or overlap in the grid. You can toggle grayscale export for ink-friendly answer key versions. The answer key is generated as a separate downloadable file.',
-    },
-    {
-      question: 'What is the maximum number of words per puzzle?',
-      answer:
-        'You can place up to 8 words or images in a single word search grid. This limit ensures words fit cleanly in the grid without excessive overlap. For larger word counts, create multiple worksheets and package them as a set — this also increases the perceived value of your product bundles.',
-    },
-    {
-      question: 'Is the Word Search generator language-sensitive?',
-      answer:
-        'Yes. Because hidden words are image names in the selected language, changing the language changes the puzzle content entirely. Additionally, the grid filler letters change to match the target language\'s character set with proper frequency weights. The Commercial tier is English-only; Full Access unlocks all 11 languages, making each language version a distinct product with different words and different filler characters.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all three content sources, all display modes, the full image library, adjustable grid sizes, direction controls, color-coded answer keys, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every content source, every grid size, every direction setting, every display mode, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

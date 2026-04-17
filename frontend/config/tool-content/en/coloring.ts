@@ -186,16 +186,8 @@ const content: ToolContent = {  seo: {
       answer: 'The image library includes 104 themed collections with 3,100+ colorful illustrations — animals, food, vehicles, nature, holidays, professions, and dozens more. Upload custom PNG, JPG, or GIF images alongside library content. Export as high-resolution JPEG or print-ready PDF at 300 DPI. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Toggle grayscale for ink-friendly output.',
     },
     {
-      question: 'Can I sell coloring pages made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell coloring pages as digital downloads on Etsy, printed coloring books on Amazon KDP, printable resources on Gumroad, or through any other sales channel. The free-form canvas, freehand drawing, name and date helpers, and 104 themed image collections give you everything needed to create professional products that compete in coloring page categories across every major marketplace.',
-    },
-    {
       question: 'Can I upload my own images?',
       answer: 'Yes. Upload custom PNG, JPG, or GIF images using the upload button in the Image Library panel. Your uploaded images become fully movable, resizable canvas objects just like library images. Combine uploaded artwork with library illustrations and freehand drawings for maximum creative flexibility. Custom uploads are especially useful for branded coloring pages, subject-specific educational content, and niche themes not covered by the built-in library.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to the free-form canvas, all 104 themes, freehand drawing, name and date helpers, grayscale export, and every export format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 

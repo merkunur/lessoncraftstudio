@@ -146,64 +146,9 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the math puzzle format work?',
-      answer:
-        'A selected image is split into a grid of cells. Each cell contains a math problem (addition, subtraction, or mixed). Below the grid, the same image pieces are shown scrambled and numbered. Solvers work through each math problem, then match the answer to the correct scrambled piece — when all pieces are matched correctly, the puzzle is solved and the full image is revealed. This reveal mechanic adds a layer of motivation that standard drill sheets lack, keeping solvers engaged from start to finish rather than abandoning the worksheet halfway through.',
-    },
-    {
-      question: 'What grid sizes are available for the puzzles?',
-      answer:
-        'You can set rows from 2 to 4 and columns from 2 to 4, creating puzzles with anywhere from 4 pieces (2×2) to 16 pieces (4×4). Smaller grids are ideal for the younger age market or quick activities, while larger grids provide more problems and a greater puzzle-solving challenge. This range of grid options also makes it easy to create tiered product bundles — group easy, medium, and hard puzzles into a single listing that appeals to buyers across multiple age groups and skill levels.',
-    },
-    {
-      question: 'What math operations does the Math Puzzle Generator support?',
-      answer:
-        'The generator supports three operation modes: Addition (two numbers that sum to the solution), Subtraction (one number minus another equals the solution), and Addition & Subtraction mixed (both operations randomized across the grid). This lets you target specific skills or create varied practice on a single worksheet. Sellers who offer all three operation modes as separate SKUs or bundle them together into a comprehensive math puzzle collection can cover a wider range of buyer needs and attract both early-level and advanced difficulty buyers.',
-    },
-    {
-      question: 'How are the math problem numbers generated?',
-      answer:
-        'Solutions are a shuffled sequence from 2 to N, where N equals the total number of puzzle pieces (rows × columns). For addition, two operands are generated that sum to the solution value. For subtraction, operands are generated so one minus the other equals the solution. Every answer is unique, ensuring each piece matches exactly one problem.',
-    },
-    {
-      question: 'Do I need a specific image for each puzzle?',
-      answer:
-        'Yes, each puzzle uses one image that gets split into grid cells. You can select any image from the built-in library of 3,100+ illustrations across 104 themes, or upload your own custom image. The generator handles the splitting automatically based on your chosen grid dimensions.',
-    },
-    {
-      question: 'Does the generator create answer keys for puzzles?',
-      answer:
-        'Yes. Click the Generate Answer Key button to create a solved version showing the completed grid with all math answers filled in alongside the fully assembled image. You can preview it on screen and download it as a separate JPEG or PDF file to include in commercial product bundles or parent guides.',
-    },
-    {
-      question: 'Are math puzzle worksheets language-sensitive?',
-      answer:
-        'No. Math puzzle worksheets are visual-only — the content uses images and numbers, not words. A puzzle created in any language setting works worldwide. The language option only changes the app\'s interface labels, not the worksheet content itself, making your products instantly sellable in any market.',
-    },
-    {
-      question: 'Can I upload my own images for the puzzles?',
-      answer:
-        'Absolutely. The Upload Custom Images feature lets you add your own PNG or JPEG files directly into the generator. Your uploaded image will be split into the puzzle grid just like library images, giving you completely unique puzzles for branded products, seasonal content, or niche-specific themes.',
-    },
-    {
-      question: 'Can I export puzzles in grayscale for ink-friendly printing?',
-      answer:
-        'Yes. Toggle the grayscale option before exporting to produce black-and-white versions perfect for bulk printing, homework packets, or activity books where color printing isn\'t practical. Both JPEG and PDF exports support the grayscale toggle. Many Amazon KDP publishers create both a full-color digital edition and a grayscale print edition from the same puzzle set, doubling their product catalog with minimal additional work while reaching buyers who prefer ink-friendly printable formats.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all three operations, all grid sizes, the full image library, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every operation, every grid size, every theme, and every export format before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',
-    },
-    {
-      question: 'Can I use my own images instead of the built-in library?',
-      answer:
-        'Yes. The Upload Custom Images panel lets you add your own PNG or JPEG files directly into the generator. Uploaded images appear alongside library selections and work with all three operation modes. This capability is especially valuable for sellers who purchase commercial clipart sets or create their own illustrations and want to build a distinctive brand identity across multiple products. Custom images integrate seamlessly with the grid layout and answer key generation, so your personalized puzzles export with the same professional quality as those using the built-in library.',
     },
   ],
 

@@ -156,10 +156,6 @@ const content: ToolContent = {  seo: {
       answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
     },
     {
-      question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
-    },
-    {
       question: 'How many image themes are available?',
       answer: 'The image library includes over 100 themed collections covering animals, food, vehicles, sports, nature, holidays, school supplies, and much more. Each theme contains multiple individual images so your worksheets always look varied, even within a single theme. New themes are periodically added to the library to keep the collection fresh and aligned with current seasonal and educational trends. Each theme is carefully illustrated with consistent art style so worksheets look professionally designed.',
     },
@@ -178,10 +174,6 @@ const content: ToolContent = {  seo: {
     {
       question: 'Can I generate an answer key?',
       answer: 'Yes. After generating a worksheet, click "Generate Answer Key" to create a matching solution sheet with all answers filled in. You can download the answer key as a separate JPEG or PDF file. This is especially useful for sellers who want to include answer keys in their products. Buyers on Etsy and Gumroad consistently leave higher ratings for listings that include answer keys, so always generate and bundle them with every worksheet pack you sell.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },
   ],
 

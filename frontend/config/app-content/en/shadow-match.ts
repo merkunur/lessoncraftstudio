@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What are the two exercise modes and how do they differ?',
-      answer:
-        'The generator offers two distinct modes. Shadow Match mode places 4 colored images in the top row and 4 auto-generated black silhouettes in the bottom row — solvers match each image to its shadow by pairing letters (A–D) with numbers (1–4). Make It Whole mode splits 4 images into halves and presents first halves (A–D) and second halves (1–4) separately — solvers match halves to complete each picture. Shadow Match tests silhouette recognition while Make It Whole develops spatial awareness and part-to-whole reasoning.',
-    },
-    {
-      question: 'How are the silhouettes generated?',
-      answer:
-        'Silhouettes are created through real pixel-level image processing, not CSS filters or pre-made shadow assets. The app loads each image onto a canvas, extracts every pixel using getImageData, and converts all pixels with an alpha value greater than 10 to pure black (R=0, G=0, B=0, A=255). This preserves the exact transparency profile of each source image, producing accurate black silhouettes that reflect fine details like ears, tails, handles, and other distinctive outlines.',
-    },
-    {
-      question: 'What are the cut direction options in Make It Whole mode?',
-      answer:
-        'Make It Whole mode offers two cut direction options via radio buttons: Horizontal cuts split images into top and bottom halves, while Vertical cuts split images into left and right halves. The cut direction applies to all 4 images on the worksheet. The layout adapts automatically based on page orientation — landscape pages arrange items in 2 rows × 4 items, while portrait pages use 2 columns × 4 items for optimal visual balance.',
-    },
-    {
-      question: 'How does the derangement algorithm work?',
-      answer:
-        'Both modes use a Fisher-Yates derangement algorithm that guarantees no item appears in its original position. In Shadow Match mode, no silhouette sits directly below its matching image. In Make It Whole mode, no second half appears adjacent to its matching first half. This ensures every worksheet presents a genuine matching challenge — solvers cannot guess correctly based on position alone. The derangement recalculates on every generation, producing different arrangements from the same images.',
-    },
-    {
-      question: 'Can I toggle the A/B/C/D and 1/2/3/4 labels on and off?',
-      answer:
-        'Yes. The \"Show Labels\" checkbox in the Exercise Configuration panel (default ON) controls whether A, B, C, D labels appear on images or first halves and 1, 2, 3, 4 labels appear on silhouettes or second halves. When labels are ON, solvers write letter-number pairs as answers. When labels are OFF, the worksheet becomes a pure visual matching challenge without alphanumeric scaffolding — useful for puzzle books or advanced activities.',
-    },
-    {
-      question: 'Why are there always exactly 4 problems per worksheet?',
-      answer:
-        'The worksheet uses a fixed count of 4 matching problems (SELECT_COUNT = 4). This is not configurable. Four items provide the optimal balance for shadow and split-image matching: enough variety to create a genuine matching challenge with derangement, while keeping each image large enough to study fine details in silhouettes and split halves. The consistent 4-item format also works well for bundled products where every page has predictable content density.',
-    },
-    {
-      question: 'How do the name and date fields work?',
-      answer:
-        'Toggle the \"Include Name/Date Fields\" checkbox in the Exercise Configuration panel to add name and date lines at the bottom of the worksheet. When enabled, the solver can write their name and the date directly on the printed page — adds perceived value and a polished look to your product. When disabled, the worksheet uses the full page area for matching content. This option works with both Shadow Match and Make It Whole modes.',
-    },
-    {
-      question: 'How does the auto-generated answer key work?',
-      answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. In Shadow Match mode, the answer key shows a grid where each cell displays the original image alongside its silhouette with a label like \"A → 2\". In Make It Whole mode, each cell shows the complete original image with its match label. The grid uses 4 columns with consistent spacing. Both versions export separately using four dedicated download buttons: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — both exercise modes, auto-generated silhouettes, cut direction options, the answer key, the full image library, background and border themes, labels toggle, name/date fields, text tools, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Is the Shadow Match Worksheet Generator language-sensitive?',
-      answer:
-        'No. Shadow Match is purely visual — the worksheet output contains only images, silhouettes, and split halves with no localized word content. The app interface (menus, buttons, header text) supports all 11 languages, but the generated worksheet works identically regardless of language selection. This makes shadow match worksheets universally sellable across all markets without translation. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both exercise modes, auto-generated silhouettes, cut direction options, the answer key, the full image library, background and border themes, labels toggle, name/date fields, text tools, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

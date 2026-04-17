@@ -174,10 +174,6 @@ const content: ToolContent = {
       answer: 'Same Images mode uses identical pictures in both groups (for example, 5 cats vs. 7 cats), so the focus is purely on quantity. Different Images mode uses distinct pictures per group (5 cats vs. 7 dogs), adding visual interest and preventing solvers from comparing by appearance rather than counting.',
     },
     {
-      question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create. There is no limit on how many worksheets you can generate or how many platforms you can sell on with a commercial license. You retain full ownership of the worksheets you create, and you can modify, bundle, and reprice them however you choose.',
-    },
-    {
       question: 'Do the worksheets work in languages other than English?',
       answer: 'Yes — and this is a major advantage. Because comparison worksheets use only images, numbers, and symbols, they are completely language-independent. The worksheets you create work identically in all 11 supported languages. You can sell the same product to buyers in any country without translation.',
     },
@@ -185,9 +181,6 @@ const content: ToolContent = {
       question: 'Do I need to install any software?',
       answer: 'No. The generator runs entirely in your web browser. It works on any modern device — Windows, Mac, Chromebook, iPad, or Android tablet. There is nothing to install, no plugins required, and no account to create. Simply open the tool, configure your worksheet settings, and download your finished files. All processing happens locally in your browser, so your worksheets are generated instantly without waiting for server-side rendering or uploads.',
     },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',    },
     {
       question: 'What can I create with the free version?',
       answer:

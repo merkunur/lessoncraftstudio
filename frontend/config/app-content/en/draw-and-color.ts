@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the dual grid system work?',
-      answer:
-        'Every image you select generates two companion grids. The Practice Grid has empty cells with light outlines for drawing the reproduction. The Clue Grid shows a configurable percentage of the reference image — some cells filled with parts of the image, others left blank. Users look at the clue grid, identify which cells show reference content, and reproduce the full image cell-by-cell in the practice grid. The two grids appear together on the worksheet page.',
-    },
-    {
-      question: 'What does the clue percentage control?',
-      answer:
-        'The clue percentage (10%–75%) determines what fraction of the clue grid cells reveal the reference image. At 75%, three-quarters of the cells show the image and users fill in only the remaining quarter. At 25%, only a quarter of cells are visible and the rest must be reconstructed from scattered hints. At 10%, barely any reference is visible for a maximum challenge. Lower clue percentage means harder exercises. This slider is the primary difficulty control and lets you create smooth progressions from easy to expert within a single worksheet pack.',
-    },
-    {
-      question: 'What grid sizes can I configure?',
-      answer:
-        'Rows and columns are independently adjustable from 3 to 10. A 3x3 grid has 9 large cells — easy for beginner-level products. A 10x10 grid has 100 small cells — demanding for advanced-level products. Non-square grids like 4x6 or 8x5 accommodate different image aspect ratios. Grid size and clue percentage create two independent difficulty axes, so a 5x5 grid at 50% clues is moderate while a 10x10 grid at 10% clues is expert-level.',
-    },
-    {
-      question: 'How do the symmetry and mirror modes work?',
-      answer:
-        'Three modes control how clue cells are placed. None (Random) scatters clue cells in arbitrary positions for general drawing practice. Horizontal mirrors clue cells left-to-right — one side is visible and the mirror image must be drawn on the other. Vertical mirrors clue cells top-to-bottom. When Horizontal or Vertical is selected, a part-to-reveal selector lets you choose which half to show as clues (left/right or top/bottom). Mirror modes teach symmetry recognition alongside drawing skills.',
-    },
-    {
-      question: 'Why does this app use B&W outline themes instead of colorful ones?',
-      answer:
-        'Draw & Color uses black & white outline illustrations specifically designed for drawing and coloring activities. Clean outlines are ideal for cell-by-cell reproduction — users can clearly see the lines they need to copy. After completing the drawing, users can color in their reproduction as an additional activity. Colorful images would be harder to reproduce by hand and would not invite coloring afterward. The B&W format also prints perfectly in black-and-white, keeping printing costs low for workbook and bulk printing use.',
-    },
-    {
-      question: 'Why is there no separate answer key for this app?',
-      answer:
-        'The clue grid itself serves as the reference solution. Because the clue grid shows a percentage of the completed image, users can compare their finished practice grid against a fully visible reference at any time by looking at the original source image. There is no need for a separate answer key file — the dual grid format inherently includes the solution reference. This streamlines your product creation workflow because you export one page with both grids rather than managing separate worksheet and answer key files.',
-    },
-    {
-      question: 'How do I select images for the grid drawing exercises?',
-      answer:
-        'Browse 100+ B&W outline theme collections with 3,000+ illustrations organized by category — animals, vehicles, food, nature, professions, holidays, and dozens more. Use the search function to find specific images across all themes. Or upload your own custom image to create grid exercises from any source. Selected images are automatically processed into the dual grid format with your configured clue percentage and symmetry settings.',
-    },
-    {
-      question: 'Can I add name and date fields to the worksheet?',
-      answer:
-        'Yes. Toggle the Include Name/Date Fields option to add identification areas to your worksheet. You can also use the Text Tools panel to add a custom title, instructions, or any other text with fonts including Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. All text elements are fully editable on the canvas — drag, resize, rotate, and reposition as needed.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all grid sizes, all clue percentages, all symmetry modes, the B&W theme library, custom image upload, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Is the Draw & Color generator language-sensitive?',
-      answer:
-        'No. Draw & Color is a purely visual app — worksheets contain only grid images with zero text on the output, so they are identical in every language. Changing the language only affects the UI labels in the generator interface and the image library content labels, not the worksheet itself. The Commercial tier includes 10 B&W themes; Full Access unlocks all 100+ B&W themes and all 11 UI languages for the interface.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every grid size, every clue percentage, every symmetry mode, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

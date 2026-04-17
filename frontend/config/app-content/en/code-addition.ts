@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the code-breaking mechanic work?',
-      answer:
-        'Each image on the worksheet secretly represents a specific number. The worksheet shows addition equations where addends and sums are displayed as images instead of digits. Solvers work through the equations using logic and deduction: if a cat plus a dog equals seven and a cat plus a cat equals six, the cat must be three and the dog must be four. The puzzle requires reasoning across multiple equations simultaneously, building both math fluency and critical thinking.',
-    },
-    {
-      question: 'What is Word Reveal mode?',
-      answer:
-        'Word Reveal mode lets you type a secret word of up to ten letters. The generator creates one equation per letter — each equation\'s sum maps to a specific letter on a decoding chart. Solvers work through the equations, look up each sum on the chart, and spell out the hidden word. Three distractor equations with wrong sums are added automatically, so solvers must verify every answer. It combines addition practice with spelling and vocabulary in a single engaging activity.',
-    },
-    {
-      question: 'How do the image symbols map to numbers?',
-      answer:
-        'When you generate a worksheet, the app randomly assigns a unique number to each image you selected. For example, with three images and a range of 1–10, the cat might be 3, the rocket might be 7, and the star might be 5. The assignment is random each time you generate, so even with the same images and settings, every worksheet produces a different puzzle. The answer key reveals the mapping by overlaying each number on its image.',
-    },
-    {
-      question: 'What number ranges can I set for code addition problems?',
-      answer:
-        'You can set the minimum and maximum values from 1 to 20. The range must be wide enough to provide unique numbers for all your symbols — if you select five symbols, you need at least five distinct numbers in your range. The app validates this automatically and will prompt you to adjust if the range is too narrow.',
-    },
-    {
-      question: 'How many symbols can I use per worksheet?',
-      answer:
-        'You can choose between two and five unique image symbols per worksheet. Fewer symbols create easier puzzles suited for beginner-level products; more symbols create complex challenges that require tracking multiple unknowns across many equations. Adjusting symbol count is the simplest way to scale difficulty without changing the number range.',
-    },
-    {
-      question: 'Is Code Addition language-sensitive?',
-      answer:
-        'Yes — Code Addition is the only language-sensitive app in the Math Mastery category. In Regular Mode, the worksheets are purely visual and work in any language. However, Word Reveal mode uses the selected language\'s alphabet to map sums to letters. German includes Ä, Ö, Ü, and ß; French includes à, â, ç, é, and other accented characters. All eleven supported languages have their correct, complete alphabets built in.',
-    },
-    {
-      question: 'What are distractor letters in Word Reveal mode?',
-      answer:
-        'Distractor letters are three extra equations whose sums do not correspond to any letter in the secret word. They appear on the worksheet alongside the real equations, and their sums point to letters that are not part of the answer. This prevents solvers from simply solving any equation and assuming it reveals a letter — they must solve all equations and cross-reference the decoding chart to identify which sums are distractors and which spell the word.',
-    },
-    {
-      question: 'How does the answer key show solutions?',
-      answer:
-        'The answer key mirrors the worksheet layout and overlays the hidden number directly on top of each image symbol. In Word Reveal mode, the answer key also displays the decoded secret word and marks which equations were distractors. You can export it as a separate JPEG or PDF file, making it easy to include in commercial product bundles or hand out to parents.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — both modes, all symbol counts, the full image library, Word Reveal in all eleven languages, answer key generation, and every export format — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Do I need to install any software?',
-      answer:
-        'No. The Code Addition Worksheet Generator runs entirely in your web browser. There is nothing to download, install, or update. It works on any modern desktop browser including Chrome, Firefox, Safari, and Edge. Just open the page and start creating code-cracking math puzzles.',
-    },
-    {
       question: 'What is your refund policy?',
       answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },

@@ -190,14 +190,6 @@ const content: ToolContent = {
       question: 'What file formats and page sizes are available?',
       answer: 'Download as high-resolution JPEG or print-ready PDF at 300 DPI with a 6x rendering multiplier for crisp output. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Toggle grayscale for ink-friendly output. PDFs are ideal for direct printing and KDP upload; JPEGs work for product mockups and social media.',
     },
-    {
-      question: 'Can I sell worksheets made with this tool commercially?',
-      answer: 'The free trial with watermark is for personal use only. To sell pattern train worksheets on Etsy, Gumroad, Amazon KDP, or any other marketplace, you need a commercial license. The license removes the watermark and grants full resale rights for the worksheets you create.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

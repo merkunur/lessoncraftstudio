@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What are the four matching modes and how do they differ?',
-      answer:
-        'The generator offers four distinct modes. Beginning Letter mode places images on the left and their first letters on the right — solvers match each image to the letter it starts with. Image+Word mode shows labeled image pairs on both sides for vocabulary matching. Image/Word Mixed mode uses per-row dropdown selectors so each side can independently display an image or a word, creating varied difficulty within a single worksheet. Custom Word mode pairs images with your own typed words for spelling, vocabulary, or foreign language exercises. Each mode produces a different learning activity from the same image library.',
-    },
-    {
-      question: 'How does the configurable pair count work?',
-      answer:
-        'In the Worksheet Configuration panel, select 4, 5, or 6 from the maximum pairs dropdown. The default is 6 pairs. Fewer pairs create worksheets with larger images and more spacing — ideal for beginner-level products or worksheets with longer words. More pairs increase difficulty and content density. The pair count applies consistently across all four matching modes.',
-    },
-    {
-      question: 'How does the auto-generated answer key work?',
-      answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the two-column layout without connecting lines — solvers draw their own lines to match pairs. The answer key reproduces the identical layout and adds horizontal connecting lines (#555 color, stroke width 2) between each correct pair. Both versions export separately using four dedicated download buttons: worksheet.jpeg, worksheet.pdf, answer_key.jpeg, and answer_key.pdf.',
-    },
-    {
-      question: 'What are the Beginning Letter sub-modes?',
-      answer:
-        'Beginning Letter mode offers three sub-modes for image selection. \"Random Theme & Images\" picks a random theme and 6 random images from it. \"Random from Chosen Theme\" lets you select a specific theme and then picks random images from that theme. \"Select Specific Images\" opens the Image Library so you can manually pick exactly 6 images. You can also choose between uppercase and lowercase letter display using the letter type radio buttons.',
-    },
-    {
-      question: 'What is the Item Configuration panel?',
-      answer:
-        'The Item Configuration panel appears for Image+Word, Image/Word Mixed, and Custom Word modes. It provides dynamic per-row controls for configuring each matching pair. In Image/Word Mixed mode, dropdown selectors let you choose whether each side of each row displays an image or a word. In Custom Word mode, text fields let you type the matching word for each image. This panel gives you fine-grained control over every individual pair in the worksheet.',
-    },
-    {
-      question: 'How do item numbers and bullet dots work?',
-      answer:
-        'Two toggles in the Worksheet Configuration panel control formatting. \"Include Item Numbers\" (default ON) adds numerals before each pair — useful for structured answer checking and adds perceived value. \"Show Bullets/Dots\" (default ON) adds decorative bullet dots next to items for visual clarity. Both options are independent: you can have numbers only, dots only, both, or neither depending on your worksheet style and target audience.',
-    },
-    {
-      question: 'How does the localized header work?',
-      answer:
-        'Every generated worksheet includes a styled \"Match Up!\" header with a yellow pill background (#FFD700), white inner pill, and coral border frame (#FF7F50, 8px stroke). The title and description text are automatically translated into the selected language — all 11 languages are supported: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. The title uses Fredoka font (weight 700) and the description uses Quicksand (weight 500).',
-    },
-    {
-      question: 'Is the Matching Worksheet Generator language-sensitive?',
-      answer:
-        'Yes. Beginning Letter and Image+Word modes use localized image names from the Image Library, so switching languages changes the words and first letters that appear on the worksheet. For example, a cat image shows \"C\" in English Beginning Letter mode but \"K\" in German (Katze) and \"C\" in French (Chat). The localized \"Match Up!\" header also changes with the selected language. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 languages for localized word content.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all four matching modes, configurable pair counts, the auto-generated answer key, the full image library, background and border themes, name/date fields, item numbers, bullet dots, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Can I add background themes and border themes to matching worksheets?',
-      answer:
-        'Yes. The Page Setup panel includes both a background theme selector with an opacity slider (0–1 in 0.05 steps) and a border theme selector with its own independent opacity slider. Background themes add decorative patterns behind the matching content, while border themes frame the page. Both have separate opacity controls so you can create subtle backgrounds with prominent borders, or any combination that fits your design. These visual elements increase the perceived quality of your matching worksheets for marketplace listings.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all four matching modes, the auto-generated answer key, the full image library, background and border themes, name/date fields, item numbers, bullet dots, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

@@ -146,64 +146,9 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the picture cryptogram cipher work?',
-      answer:
-        'Each alphabet letter is assigned a unique image. Your secret phrase is then displayed as a sequence of images replacing every letter. Solvers look at each image, figure out which letter it represents, and write the letter to reconstruct the original message. Spaces and punctuation are preserved as-is, so word boundaries remain visible. The challenge is building the complete image-to-letter mapping through deduction and pattern recognition.',
-    },
-    {
-      question: 'What does Letters to Reveal (0–10) do?',
-      answer:
-        'Letters to Reveal controls how many letter-to-image mappings are pre-solved on the worksheet as hints. At 0, solvers start with no information and must crack the entire cipher from scratch. At 10, ten mappings are already decoded, providing significant scaffolding. This setting is the primary difficulty control — use higher values for beginners and lower values for advanced solvers. It also serves as a natural tiering axis for leveled product bundles.',
-    },
-    {
-      question: 'What is the difference between Auto-Assign and Manual Assignment?',
-      answer:
-        'Auto-Assign instantly maps random images from the selected theme to all unassigned alphabet letters with one click — fast for batch production. Manual Assignment lets you hand-pick which specific image represents which specific letter, with a visual overview of all current mappings. You can mix both: auto-assign the bulk, then manually swap specific letters for images that better fit your theme or product niche.',
-    },
-    {
-      question: 'Can I encode full sentences, not just single words?',
-      answer:
-        'Yes. The Cryptogram generator encodes entire phrases and sentences, not individual words. Solvers decode a complete readable message, which provides contextual clues — common short words, familiar sentence patterns, and repeated letters all help crack the cipher. This phrase-level encoding makes the puzzle more satisfying and more engaging than single-word challenges.',
-    },
-    {
-      question: 'Can I upload my own images for the cipher?',
-      answer:
-        'Yes. In addition to the 3,100+ built-in illustrations across 104 themes, you can upload custom images and assign them to any alphabet letter. This lets you create cryptograms with branded illustrations, subject-specific diagrams, or any visual content that fits your product niche.',
-    },
-    {
-      question: 'What does the letter legend answer key show?',
-      answer:
-        'The answer key includes a complete letter legend that displays every alphabet letter paired with its assigned image in sorted alphabetical order. This is the definitive reference for checking solutions — anyone can look up any image to confirm which letter it represents. The answer key also shows the fully decoded phrase for quick verification.',
-    },
-    {
-      question: 'What is the difference between Color and B&W themes?',
-      answer:
-        'Theme collections are available in full-color illustrations and black-and-white line art variants (filtered by the _bw suffix). Color themes produce vibrant, visually rich cipher puzzles ideal for digital products and color printing. B&W themes produce ink-friendly worksheets that print cleanly on standard printers and work well in black-and-white puzzle books.',
-    },
-    {
-      question: 'How does the locale-aware alphabet work?',
-      answer:
-        'When you select a language, the available alphabet set automatically adjusts to include that language\'s characters. German adds ä, ö, ü, ß to the standard 26 letters. French adds é, è, ç, à, and other accented characters. Each locale\'s alphabet is defined by the getAlphabetForLocale() function, ensuring the cipher covers every letter that could appear in the secret phrase for that language.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — Auto-Assign, Manual Assignment, custom image upload, Letters to Reveal, all 104 themes, the letter legend answer key, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Is the Cryptogram generator language-sensitive?',
-      answer:
-        'Yes. Because the secret message is in the selected language and the alphabet set changes by locale, every language version produces a genuinely different cipher puzzle. The Commercial tier is English-only; Full Access unlocks all 11 languages. A German cryptogram encodes a German phrase with an expanded alphabet including ä, ö, ü — it is a fundamentally different product from the English version.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test Auto-Assign, Manual Assignment, Letters to Reveal, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',    },
-    {
-      question: 'Do I need design skills to use this tool?',
-      answer:
-        'No design skills are required. The generator handles all puzzle construction, letter substitution, layout, and visual formatting automatically. You type or select a phrase, choose a theme, and the generator produces a complete cryptogram with hint letters, numbered blanks, and a cipher key. The built-in canvas editor lets you customize colors, fonts, and positioning, but the default layout is already professional and print-ready. Sellers without any graphic design experience can produce puzzles that look just as polished as those made by professional designers, because the generator enforces consistent formatting and visual hierarchy throughout every puzzle it creates.',
-    },
   ],
 
   internalLinks: [

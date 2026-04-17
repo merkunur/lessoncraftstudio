@@ -194,14 +194,6 @@ const content: ToolContent = {
       question: 'What page sizes and export formats are available?',
       answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, and custom dimensions. Note that this app does not include the Square (1200×1200) page size found in some other generators. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier, JPEG quality 1.0). Toggle grayscale for ink-friendly output. Each generation produces four download files: sudoku_worksheet JPEG, sudoku_worksheet PDF, sudoku_answer_key JPEG, and sudoku_answer_key PDF. All exports are production-ready for digital downloads, printed workbooks, and Etsy or Gumroad listings.',
     },
-    {
-      question: 'Can I sell picture sudoku worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell picture sudoku worksheets as digital downloads on Etsy, printed logic workbooks on Amazon KDP, products on Gumroad, or through any other sales channel. The three difficulty levels, theme-based and manual image selection, auto-generated answer keys with complete filled grids, custom image uploads, premium grid design, and 104 themed image collections give you everything needed to create professional picture sudoku products that compete in logic puzzle categories across every major marketplace.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to all three difficulty levels, theme-based and manual image selection, the auto-generated answer key with complete filled grid, all 104 themes, custom image uploads, the premium grid design, background and border themes, text tools, grayscale export, and every download format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

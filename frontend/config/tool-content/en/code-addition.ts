@@ -170,10 +170,6 @@ const content: ToolContent = {  seo: {
       answer: 'Symbol Count determines how many different image-symbols appear in your puzzle. Fewer symbols (3–4) make the puzzle easier because there are fewer unknowns to deduce. More symbols (6–8) increase difficulty. In Regular Mode, each symbol must represent a different number within any single question. For sellers building differentiated product bundles, the Symbol Count setting is your primary difficulty lever. A well-structured puzzle pack might include three tiers: easy (3 symbols), medium (5 symbols), and hard (7–8 symbols). Labeling each tier clearly in your product listing helps buyers understand the value and choose the right level. Buyers especially appreciate this kind of scaffolded approach because it saves them planning work.',
     },
     {
-      question: 'Can I sell the worksheets I create?',
-      answer: 'The free trial version with watermark is for personal use only. To sell on Etsy, Amazon KDP, Gumroad, or any other platform, you need a commercial license. The license removes the watermark and grants full rights to sell the puzzles you generate. Once licensed, there are no per-download limits and no royalty fees — you keep 100% of your sales revenue. The license covers all output from this specific tool, so you can generate as many unique puzzles as you need for as many product listings as you want.',
-    },
-    {
       question: 'What languages are supported?',
       answer: 'The generator supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. In Word Reveal Mode, the alphabet automatically adapts to include locale-specific characters like German umlauts and French accents.',
     },
@@ -185,9 +181,6 @@ const content: ToolContent = {  seo: {
       question: 'How is this different from regular addition worksheets?',
       answer: 'Regular addition worksheets show numbers directly. Code addition worksheets hide the numbers behind image symbols, turning each page into a logic puzzle. Solvers must use the results of addition equations to deduce which number each symbol represents. It builds both arithmetic fluency and critical thinking.',
     },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',    },
     {
       question: 'What can I create with the free version?',
       answer:

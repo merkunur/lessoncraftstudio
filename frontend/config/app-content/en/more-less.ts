@@ -146,59 +146,9 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What comparison modes does the More or Less Worksheet Generator offer?',
-      answer:
-        'The generator includes three modes: Image to Image (two picture groups to count and compare), Image to Number (one picture group paired with a numeral), and Check & Cross Groups (a box of mixed images where solvers check the majority group and cross the minority group). Each mode targets a different skill level and comparison challenge. Sellers often package all three modes together in a single product listing, giving buyers a complete comparison set that covers visual counting, number-symbol bridging, and advanced sorting in one download.',
-    },
-    {
-      question: 'What is the Check & Cross Groups mode?',
-      answer:
-        'Check & Cross Groups is a unique exercise type where a single box contains 8–20 images from two different categories shuffled together. Solvers visually sort the images, count each group, then check the group with more and cross the group with less. You can include up to 3 Check & Cross exercises per worksheet. This mode develops visual discrimination and counting skills simultaneously. Because Check & Cross is rarely found in competing worksheet generators, sellers who feature this mode prominently in their product titles and descriptions can differentiate their listings and capture buyers searching for unique math activities.',
-    },
-    {
-      question: 'What number ranges can I set for comparison exercises?',
-      answer:
-        'You can set the minimum and maximum items per group from 1 to 10 for standard comparison modes. For Check & Cross Groups, you can set the total number of images in the box from 8 to 20. These controls let you create easy comparisons for the preschool-age niche or more challenging exercises for the K-2 market. This granular range control enables sellers to build precisely targeted product lines for each age group, such as a toddler pack with ranges of 1–3 and a kindergarten pack with ranges of 4–8, each addressing a distinct buyer segment.',
-    },
-    {
-      question: 'What does the Image Variety setting do?',
-      answer:
-        'Image Variety controls whether both sides of a comparison use the same type of image or different types. Same Images mode compares quantities of identical items (e.g., 5 cats vs 7 cats), focusing purely on number sense. Different Images mode uses distinct items (e.g., 5 cats vs 7 dogs), adding visual complexity. This single toggle creates two different difficulty levels from the same settings.',
-    },
-    {
-      question: 'What are the symbol display options?',
-      answer:
-        'You can choose between Illustration Symbols (colorful, graphical greater-than, less-than, and equal signs) and Normal Symbols (standard text characters >, <, =). Illustration symbols are ideal for beginner-level products where visual cues boost engagement. You can also enable Show Symbols for Circling, which displays comparison symbols for solvers to circle as part of the exercise.',
-    },
-    {
-      question: 'Are comparison worksheets language-sensitive?',
-      answer:
-        'No. More or Less worksheets are visual-only — the comparison content uses images and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app\'s interface labels, not the worksheet content itself, making your products instantly sellable worldwide. This is a significant advantage for sellers targeting international marketplaces, because a single comparison worksheet PDF can be listed on Etsy stores in multiple countries without any translation or localization effort.',
-    },
-    {
-      question: 'Does the generator create answer keys automatically?',
-      answer:
-        'Yes. Click the Generate Answer Key button to create a completed version of your worksheet with all correct comparison symbols filled in. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the main worksheet. Including professionally formatted answer keys with every product listing signals quality and completeness to marketplace buyers, who often filter for resources that include solutions when browsing Etsy or Gumroad.',
-    },
-    {
-      question: 'Can I export worksheets in grayscale for ink-saving printing?',
-      answer:
-        'Yes. Toggle the Grayscale option in the Download panel to convert your colorful worksheets to black-and-white before exporting. This is perfect for ink-saving output while still delivering high-quality comparison practice. Both JPEG and PDF exports support grayscale mode.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature of the generator — all three comparison modes, the full image library, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license. We recommend creating several complete worksheets during your free trial, reviewing the print quality and layout options, and confirming the output meets your marketplace listing standards before committing to the commercial license.',    },
-    {
-      question: 'Do I need design skills to use this tool?',
-      answer:
-        'No design skills are required. The generator handles all comparison layout, image placement, and visual formatting automatically. You choose a theme, set the number range, and the generator produces professional worksheets with the greater-than, less-than, and equal symbols correctly positioned. The canvas editor allows customization, but default output is already print-ready and marketplace-quality. Sellers without design experience can produce polished comparison worksheets immediately.',
-    },
   ],
 
   internalLinks: [

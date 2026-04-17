@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What is a picture crossword and how does it differ from a traditional crossword?',
-      answer:
-        'A picture crossword replaces traditional text clues with image clues. Instead of reading a written definition and filling in the answer, solvers look at a colorful picture and write the word it represents into the crossword grid. The generator places 8 image-derived words on a fixed 15×15 grid with numbered positions linking each image to its starting cell. This format makes crosswords accessible to younger solvers and language learners while still providing the word-placement challenge of traditional crosswords.',
-    },
-    {
-      question: 'Why is the grid fixed at 15×15 cells?',
-      answer:
-        'The 15×15 grid provides enough space for 8 crossing words of varying lengths while maintaining clean visual proportions on both Letter and A4 page sizes. The grid size is optimized for the placement algorithm — larger grids would leave too much empty space with 8 words, while smaller grids would prevent longer words from fitting. The fixed size ensures consistent, professional-looking crossword puzzles across all themes and languages.',
-    },
-    {
-      question: 'How does the puzzle generation algorithm work?',
-      answer:
-        'The algorithm extracts words from your 8 selected image names, removes spaces, and converts to uppercase. It then shuffles the words and sorts them by length (longest first) to maximize grid coverage. Words are placed sequentially on the 15×15 grid, each attempting to cross with already-placed words at shared letters. Only words that successfully fit appear in the final puzzle. Numbered positions mark the start of each word, and the corresponding image clues display alongside the grid with matching numbers.',
-    },
-    {
-      question: 'What are the four input methods?',
-      answer:
-        'Quick Theme Generation (default) auto-selects 8 random images from the chosen theme and generates instantly. Manual Image Name Editing lets you click individual images and rename them before generation — useful for controlling exact vocabulary. Custom Word List with Clues enables a textarea where you enter WORD: clue pairs for traditional text-clue crosswords without images. Upload Custom Images lets you add your own JPEG, PNG, GIF, or WebP files alongside library images. Each method feeds into the same 15×15 grid placement algorithm.',
-    },
-    {
-      question: 'How does the Custom Word List with Clues mode work?',
-      answer:
-        'Enable the Custom Word List with Clues checkbox to switch from picture crosswords to traditional text-clue crosswords. Enter your words and clues in the format WORD: clue text, one per line. You need a minimum of 8 entries. The algorithm places your custom words on the 15×15 grid using the same placement logic, and text clues appear alongside the grid instead of image clues. This mode is ideal for subject-specific vocabulary crosswords, spelling practice, or any crossword where you want to define your own content.',
-    },
-    {
-      question: 'How does Manual Image Name Editing work?',
-      answer:
-        'Enable the Manual Image Name Editing checkbox to take control of the words used in your crossword. Click individual images from the library to select them, then use the editing interface to change each image\'s display name. The edited names become the crossword words that appear in the grid. This lets you simplify compound names, correct vocabulary for your target audience, or customize words while keeping the visual image clues. You need a minimum of 8 images selected before generating.',
-    },
-    {
-      question: 'Is the Picture Crossword Generator language-sensitive?',
-      answer:
-        'Yes. Puzzle words come from localized image names loaded through the Image Vocabulary system. Switching the content language changes the actual words placed in the crossword grid. A cat image generates \"CAT\" in English but \"KATZE\" in German, \"CHAT\" in French, and \"GATTO\" in Italian — creating entirely different crossword puzzles from identical image selections. The localized \"Picture Crossword\" header also changes with the selected language. The Commercial tier includes English content; Full Access unlocks all 11 languages.',
-    },
-    {
-      question: 'How does the auto-generated header work?',
-      answer:
-        'Every generated crossword includes a responsive header with a blue background (#5B9BD5), white pill, and localized title and description. Portrait mode displays a full-width header (220px height); landscape mode uses a compact centered layout (145px height). The title \"Picture Crossword\" renders in Fredoka font with dynamic sizing (48px for short titles down to 28px for longer translations), and the description \"Look at the pictures and fill in the words!\" renders in Quicksand. Both text elements translate automatically into all 11 supported languages. A bright blue border (#4A90E2, 8px stroke, 12px rounded corners) frames the header.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all four input methods, the 15×15 grid generator, the auto-generated answer key, the full image library, background and border themes, all download formats, and grayscale toggle — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'How does the auto-generated answer key work?',
-      answer:
-        'The generator uses a dual-canvas system with a Worksheet tab (the puzzle) and an Answer Key tab (the filled grid). The worksheet shows the empty crossword grid with numbered positions and image or text clues — ready for solvers to fill in. The answer key reproduces the identical layout and fills every cell with the correct letters. Both versions export separately using four dedicated download buttons: crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf, and image-crossword-answer-key.pdf.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all four input methods, the 15×15 grid generator, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

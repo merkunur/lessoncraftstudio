@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What are the five question types and how do they work?',
-      answer:
-        'Circle the Big One prompts identifying the largest image among 2 or 3 options. Circle the Small One targets the smallest image. Circle the Medium One requires identifying the middle-sized image (only available with 3 images per exercise). Number 1–2–3 Small to Big prompts labeling images in ascending size order. Number 1–2–3 Big to Small reverses the order to descending. The circle questions test identification; the numbering questions test sequencing — together they cover the full range of size discrimination skills.',
-    },
-    {
-      question: 'What is the difference between Identical Images and Different Images mode?',
-      answer:
-        'Identical Images mode shows the same picture displayed at different sizes — for example, three copies of a cat at small, medium, and large scales. This isolates pure size perception without other variables. Different Images mode shows distinct objects at different sizes — for example, a dog, a cat, and a bird at different scales. This requires relative size reasoning where unlike items must be compared. The two modes create fundamentally different exercises and effectively double your product variety.',
-    },
-    {
-      question: 'What does the 2 or 3 images per exercise setting control?',
-      answer:
-        'With 2 images per exercise, solvers make a simple bigger/smaller comparison between two items. With 3 images, a medium option is introduced, enabling the Circle the Medium question type and making numbering exercises more challenging with three items to order instead of two. Three-image exercises are harder because three relative sizes must be distinguished rather than just two. Start with 2 images for beginner-level products and progress to 3 for more advanced packs.',
-    },
-    {
-      question: 'How many exercises can I put on one page?',
-      answer:
-        'You can set 1 to 10 exercises per page. The default is 4 exercises. Fewer exercises per page create larger, clearer images ideal for beginner-level products or focused practice. More exercises per page create denser worksheets suitable for advanced packs or review sheets. The optimal count depends on your page size and images per exercise — 4 exercises with 3 images each fills a standard page well, while 8–10 exercises work better with 2 images each.',
-    },
-    {
-      question: 'Why do the worksheets have no text on them?',
-      answer:
-        'Big & Small worksheets are fully visual by design. The exercises contain only images and visual indicators like circles or number boxes — no written words appear on the generated output. This makes worksheets universally usable regardless of language or reading level. The pre-reading niche is fully served without any text. The same worksheet sells worldwide without translation. Instructions can be added as custom text using the text tools if needed.',
-    },
-    {
-      question: 'How does the auto-generated answer key work?',
-      answer:
-        'The answer key creates a solved version of your worksheet where correct answers are visually highlighted and circled. For Circle questions, the correct image is marked. For Numbering questions, the correct size order is displayed. The answer key downloads as a separate file alongside the worksheet. Including answer keys with every product adds perceived value and is expected by buyers on Etsy, Gumroad, and KDP.',
-    },
-    {
-      question: 'Can I upload my own images instead of using the library?',
-      answer:
-        'Yes. The custom image upload feature lets you add any image to your size comparison exercises. Upload photos, illustrations, or graphics relevant to your specific subject or audience. Custom images appear alongside library images on the canvas and work with all five question types and both image modes. This is useful for creating subject-specific worksheets — comparing building sizes, food portions, or any visual concept beyond the built-in theme library.',
-    },
-    {
-      question: 'What page sizes and export formats are available?',
-      answer:
-        'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and fully custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI. Toggle grayscale export for ink-friendly versions. The Square format is ideal for social media or digital products; Letter and A4 are standard for printable worksheets and workbooks.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all five question types, both image modes, the image library, adjustable exercise counts, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Is the Big & Small generator language-sensitive?',
-      answer:
-        'No. Big & Small is a purely visual app — worksheets contain only images with zero text on the output, so they are identical in every language. Changing the language only affects the UI labels in the generator interface, not the worksheet content. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages for the interface.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every question type, every image mode, every exercise configuration, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

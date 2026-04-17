@@ -193,14 +193,6 @@ const content: ToolContent = {  seo: {
       question: 'What page sizes and export formats are available?',
       answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier, JPEG quality 1.0). Toggle grayscale for ink-friendly output. Five download options: worksheet JPEG, call-out JPEG, worksheet PDF, call-out PDF, and ZIP batch export of all generated cards. All exports are production-ready for digital downloads, printed activity books, and Etsy or Gumroad listings.',
     },
-    {
-      question: 'Can I sell bingo cards made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell bingo cards as digital downloads on Etsy, printed activity books on Amazon KDP, products on Gumroad, or through any other sales channel. The configurable grid sizes, batch generation, ZIP export, dual fill modes, dedicated call-out sheets, custom call-out selection, multilingual word fill, and 104 themed image collections give you everything needed to create professional bingo products that compete in printable game categories across every major marketplace.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to all grid sizes, batch generation of up to 10 cards, ZIP export, both fill modes for cells and chips, the call-out sheet, custom call-out selection, all 104 themes, custom image uploads, background and border themes, grayscale export, and every download format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

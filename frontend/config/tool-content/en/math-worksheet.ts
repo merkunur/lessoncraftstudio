@@ -191,13 +191,6 @@ const content: ToolContent = {
       answer: 'Yes. Algebra picture puzzles use only images, numbers, and mathematical operators — no text at all. A single puzzle PDF works identically in every language. You can sell the same product to buyers in any country without translation, instantly multiplying your addressable market.',
     },
     {
-      question: 'Can I use the worksheets for commercial purposes?',
-      answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Gumroad, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',    },
-    {
       question: 'What can I create with the free version?',
       answer:
         'The free version gives you complete access to every feature — all four operations (addition, subtraction, multiplication, division), configurable number ranges, the full theme library, answer key generation, all page sizes, and all export formats. There are no locked features, no registration requirements, and no usage limits. The only difference is a small watermark on downloaded files. This means you can fully evaluate worksheet quality, test different operation combinations and difficulty settings, preview output across multiple themes, and compare configurations before deciding whether to purchase a commercial license for selling math worksheets on Etsy, Amazon KDP, or any other marketplace.',

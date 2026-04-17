@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What are the three game modes and how do they differ?',
-      answer:
-        'The generator offers three distinct modes. Picture Pathway creates a grid of images where solvers follow the correct path from start to finish by identifying path images among distractors. Classic Maze generates wall-based mazes using the LPF algorithm with collectible images, configurable grid sizes (15×15 to 20×20), and 1 to 3 paths with dead-end blocking. Choose the Right Path presents three-path mazes with four directional options where solvers identify the single correct route. Each mode produces a different spatial reasoning challenge from the same image library.',
-    },
-    {
-      question: 'How does the LPF maze algorithm work?',
-      answer:
-        'The Longest Path First (LPF) algorithm is a professional wall-based maze generation system. It uses a corridor-cell structure with dynamic wall placement to create challenging but solvable mazes. Path quality scoring evaluates turns, length, and blockages. Multi-path support generates 1, 2, or 3 paths with automatic dead-end blocking on incorrect routes. You can configure path length minimums and maximums (4–30 cells, defaults 8–12), grid sizes from 15×15 to 20×20, and wall-aware start/end positioning ensures clean entry and exit points.',
-    },
-    {
-      question: 'What are the five image roles and how do I assign them?',
-      answer:
-        'Every image serves a specific role in the maze design. Start Image marks the entry point. End Image marks the destination (1 for Pathway and Classic Maze, 3 for Choose the Right Path). Path Images define the correct route or appear as collectibles. Distractor Images fill non-path cells. Decoration images are placed freely on the canvas. Use the role selector at the top of the Image Library panel to choose a role, then click images to assign them. Dedicated panels below show selected images for each role.',
-    },
-    {
-      question: 'How does wall customization work in Classic Maze and Choose Path modes?',
-      answer:
-        'Both maze modes offer three wall controls. Wall Color uses a color picker to set any color. Wall Thickness adjusts from 1 to 10 pixels (default 3px). Wall Opacity ranges from 10% to 100% (default 100%). These settings let you create thin gray walls for sophisticated puzzle books, thick colorful walls for the younger audience, or semi-transparent walls for layered effects. Settings persist across maze regenerations.',
-    },
-    {
-      question: 'What are the directional options in Choose the Right Path mode?',
-      answer:
-        'Choose the Right Path offers four directional options that determine maze flow: Bottom to Top (default), Top to Bottom, Left to Right, and Right to Left. The direction controls where the start and end positions appear and how paths flow through the grid. Grid sizes range from 15×15 to 20×20. The mode requires 3 End Images (auto-selected from the theme) and generates 1 correct path plus decoy alternatives.',
-    },
-    {
-      question: 'How does the collectible system work in Classic Maze mode?',
-      answer:
-        'Classic Maze scatters collectible images throughout the maze corridors. Configure the number of collectible image types (1, 2, 3, or 4 — default 4), minimum copies per image (1, 2, or 3 — default 1), and maximum copies per image (1–10 — default 10). The answer key includes a collectible legend showing each image and its count along the solution path. Collectibles add counting and observation practice alongside the maze-solving activity.',
-    },
-    {
-      question: 'How does the auto-generated answer key work?',
-      answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The answer key reproduces the exact maze layout and highlights the correct solution path with pink circles placed along the route. Choose the Right Path mode adds a \"✓ CORRECT PATH\" label on the correct route. Classic Maze includes a collectible legend. Download both versions separately using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF.',
-    },
-    {
-      question: 'How does the auto-generated header work?',
-      answer:
-        'Every worksheet includes a styled header with an orange outer border (8px stroke) and 34px margins. The title \"Picture Pathway\" and description \"Follow the path from start to finish!\" are automatically translated into all 11 supported languages. Portrait worksheets display a 240px header; landscape worksheets use a compact 165px layout. The header renders in localized text for English, German (Bilderpfad), French (Chemin d\'Images), Spanish (Camino de Imágenes), and all other supported languages.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all three game modes, the LPF maze algorithm, five image roles, wall customization, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Are Picture Path worksheets language-sensitive?',
-      answer:
-        'No. Unlike word-based generators, Picture Path worksheets are entirely visual. Solvers navigate mazes and follow image paths without reading any text. The auto-generated header translates into 11 languages, but the maze content itself requires no language comprehension. This makes every worksheet instantly usable and sellable in any market worldwide without modification.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all three game modes, the LPF maze algorithm, five image roles, wall customization, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

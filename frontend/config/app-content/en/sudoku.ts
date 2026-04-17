@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does a 4×4 picture sudoku puzzle work?',
-      answer:
-        'A 4×4 picture sudoku uses a grid of 16 cells arranged in 4 rows and 4 columns. Four unique images replace traditional numbers. The rule is the same as classic sudoku: each image must appear exactly once in every row and exactly once in every column. Some cells start filled with images (clues), and the solver fills in the blank cells by using logical elimination — checking which image is missing from each row and column to determine the correct placement.',
-    },
-    {
-      question: 'Why use images instead of numbers for sudoku?',
-      answer:
-        'Images make sudoku accessible to pre-readers and the younger audience who haven\'t mastered numerals. The visual format engages users with colorful themed illustrations while developing the same logical reasoning skills as number-based sudoku. Image-based puzzles are also universally understandable — no language or number system knowledge required — which makes your products sellable worldwide without translation.',
-    },
-    {
-      question: 'What do the three difficulty levels control?',
-      answer:
-        'Difficulty determines how many cells are left blank to solve. Easy removes 4 cells from the 16-cell grid, leaving 12 clues for straightforward solving. Medium removes 6 cells, requiring more careful logical deduction. Hard removes 8 cells — exactly half the grid — demanding multi-step reasoning. The system randomly selects which cells are blanked, so regenerating the same difficulty creates a different puzzle layout every time.',
-    },
-    {
-      question: 'Why does the generator require exactly 4 images?',
-      answer:
-        'A 4×4 sudoku grid uses exactly 4 unique symbols — each appearing 4 times across the 16 cells. Selecting fewer than 4 images would leave the grid incomplete, and selecting more than 4 would violate the sudoku constraint that each symbol appears exactly once per row and column. The app enforces this requirement: theme-based selection automatically picks 4 random images, and manual selection prevents adding a 5th image.',
-    },
-    {
-      question: 'What is the difference between theme-based and manual image selection?',
-      answer:
-        'Theme-based selection lets you pick a theme from the dropdown and the system automatically selects 4 random images from that collection — ideal for rapid puzzle generation. Manual selection opens the full Image Library where you browse 104 themed collections, filter by theme, or search by keyword to hand-pick exactly 4 specific images. You can also upload your own custom images. Both methods result in exactly 4 images used in the puzzle.',
-    },
-    {
-      question: 'How does the answer key work for picture sudoku?',
-      answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the 4×4 grid with blank cells where solvers need to determine the correct images. The answer key shows the exact same grid but with all 16 cells filled — every blank cell is populated with the correct image. Both versions export separately using four dedicated buttons: sudoku_worksheet.jpeg, sudoku_worksheet.pdf, sudoku_answer_key.jpeg, and sudoku_answer_key.pdf.',
-    },
-    {
-      question: 'What makes the grid design premium?',
-      answer:
-        'The sudoku grid features alternating 2×2 block backgrounds in light blue (#F8F9FC) and light pink (#FFF5F7) that help solvers identify block boundaries. Bold center dividers (#7C8DB5, 3px stroke) separate the four quadrants while lighter inner lines (#D1D9E6, 1.5px) define individual cells. An indigo outer border (#667EEA) with 18px rounded corners frames the entire grid, and three multi-layered shadows at varying offsets add professional depth. Images display at 65% of cell size for clear visual separation.',
-    },
-    {
-      question: 'Are the puzzles unique every time I generate one?',
-      answer:
-        'Yes. The app shuffles images randomly before populating the 4×4 grid, and then randomly selects which cells to blank based on the difficulty level. Even with the same 4 images and same difficulty setting, regenerating produces a different valid sudoku arrangement with different blank cell positions. This randomization lets you create large collections of unique puzzles from a small set of themed images.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all three difficulty levels, theme-based and manual image selection, the auto-generated answer key, the full image library, background and border themes, text tools, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Are picture sudoku worksheets language-sensitive?',
-      answer:
-        'No. Picture sudoku is entirely visual — the puzzle grid contains only images, no words or numbers. This makes every worksheet work identically in all 11 supported languages. The only localized element is the auto-generated \"Picture Sudoku\" header text above the grid, which translates automatically when you switch languages. The puzzle itself requires zero modification for different markets, making it ideal for global sales.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all three difficulty levels, theme-based and manual image selection, the auto-generated answer key, the full image library, background and border themes, text tools, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

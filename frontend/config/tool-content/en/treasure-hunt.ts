@@ -190,14 +190,6 @@ const content: ToolContent = {
       question: 'What page sizes and export formats are available?',
       answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Export as high-resolution JPEG (6× multiplier) or print-ready PDF (3× multiplier) at 300 DPI. Toggle grayscale for ink-friendly output. Each generation produces four download files: worksheet JPEG, answer key JPEG, worksheet PDF, and answer key PDF. All exports are production-ready for digital downloads, printed workbooks, and Etsy or Gumroad listings.',
     },
-    {
-      question: 'Can I sell treasure hunt worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell treasure hunt worksheets as digital downloads on Etsy, printed workbooks on Amazon KDP, products on Gumroad, or through any other sales channel. The two direction types, 5×5 coordinate grid, fully localized directional clues in 11 languages, auto-generated answer keys with highlighted treasure cells, three image input methods, and 104 themed image collections give you everything needed to create professional treasure hunt products that compete in activity worksheet categories across every major marketplace.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to both direction types, the 5×5 coordinate grid, 6-image puzzle generation with 4 directional moves, the auto-generated answer key with highlighted treasure cell, all 104 themes, three image input methods, background and border themes, language selection for 11 localized direction sets, grayscale export, and every download format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

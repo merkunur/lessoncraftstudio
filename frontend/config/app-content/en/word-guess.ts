@@ -146,64 +146,9 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the word guessing puzzle work?',
-      answer:
-        'Each puzzle shows an image clue alongside a row of blank letter cells. Solvers study the image to identify what it depicts, then fill in the missing letters to spell the word. Pre-revealed clue letters (controlled by difficulty level) provide scaffolding. It works like hangman but with an image clue instead of a category hint — building visual vocabulary, spelling, and deductive reasoning simultaneously.',
-    },
-    {
-      question: 'What are the four difficulty levels?',
-      answer:
-        'The four levels control how many letters are pre-revealed in the blank grid. No Clues leaves every cell blank for maximum challenge. Easy reveals half the letters. Normal reveals one quarter. Tough reveals one sixth — just enough of a hint to get started. Each level creates a different puzzle experience from the same word, making it easy to build progressive difficulty bundles.',
-    },
-    {
-      question: 'What are the three content sources?',
-      answer:
-        'Image Library mode uses themed illustrations where the image name becomes the word to guess. Manual Edit Mode lets you select images then customize their display names before generating — perfect for simplified spellings or alternate vocabulary. Custom Word List mode skips images entirely and lets you type any words or phrases directly, enabling vocabulary worksheets for any subject without needing matching illustrations.',
-    },
-    {
-      question: 'How does Multi-Word Phrase Support work?',
-      answer:
-        'Words or image names that contain spaces (like \"polar bear\" or \"fire truck\") render as separate word groups on the puzzle grid with clear spacing between them. Solvers work through each word independently while understanding they form a single concept. This works with all three content sources and all four difficulty levels.',
-    },
-    {
-      question: 'Can I choose between uppercase and lowercase letters?',
-      answer:
-        'Yes. The letter case toggle lets you switch between uppercase (default) and lowercase for the guessing grid. Uppercase works well for beginner-level products targeting early readers, while lowercase suits more advanced vocabulary worksheets. The setting applies to both clue letters and the cells solvers fill in.',
-    },
-    {
-      question: 'How does Manual Edit Mode differ from the Image Library?',
-      answer:
-        'In standard Image Library mode, the word to guess is the image\'s built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product niche while still showing the image as a visual clue.',
-    },
-    {
-      question: 'What can I do with Custom Word List mode?',
-      answer:
-        'Custom Word List mode lets you type any words or phrases directly — no images required. This is ideal for themed spelling packs, subject-specific vocabulary (science terms, geography names), foreign language practice, or any custom content. The puzzles show blank letter grids without image clues, so solvers rely on context from worksheet titles, instructions, or prior knowledge to complete them.',
-    },
-    {
-      question: 'Does the generator create answer keys automatically?',
-      answer:
-        'Yes. Click the Generate Answer Key button to create a solved version of your worksheet with every letter cell filled in and no blanks remaining. You can preview the answer key on screen and download it as a separate JPEG or PDF file. Toggle grayscale export for ink-friendly answer key versions ideal for black-and-white activity books.',
-    },
-    {
-      question: 'Is the Word Guess generator language-sensitive?',
-      answer:
-        'Yes. Because the word to guess is the image name in the selected language, changing the language changes the puzzle content entirely. \"Dog\" in English becomes \"Hund\" in German, \"chien\" in French, \"perro\" in Spanish — each with different letters and different letter counts. The Commercial tier is English-only; Full Access unlocks all 11 languages, making each language version a distinct, sellable product.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all three content sources, all four difficulty levels, the full image library, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every content source, every difficulty level, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',    },
-    {
-      question: 'Do I need design skills to use this tool?',
-      answer:
-        'No design skills are required. The generator handles all puzzle construction, blanking patterns, image clue placement, and visual formatting automatically. You choose a theme, select images, and the generator produces a complete word guess puzzle with properly blanked words and visual clues. The built-in canvas editor lets you customize fonts, colors, and element positioning, but the default layout is already professional and print-ready. Sellers without any graphic design experience can produce puzzles that look polished and marketplace-ready, because the generator enforces consistent formatting, alignment, and visual hierarchy throughout every puzzle page it creates.',
-    },
   ],
 
   internalLinks: [

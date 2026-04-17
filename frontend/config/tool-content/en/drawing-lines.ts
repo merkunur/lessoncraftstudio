@@ -190,14 +190,6 @@ const content: ToolContent = {
       question: 'What file formats and page sizes are available?',
       answer: 'Download as high-resolution JPEG or print-ready PDF at 300 DPI. Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Toggle grayscale for ink-friendly output. PDFs are ideal for direct printing and KDP upload; JPEGs work for product mockups and social media previews.',
     },
-    {
-      question: 'Can I sell worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell line tracing worksheets as digital downloads on Etsy, printed workbooks on Amazon KDP, printable resources on Gumroad, or through any other sales channel. The eight distinct templates, 104 colorful themes, auto-fill workflow, and zero-text visual format create strong differentiation and global sellability.',
-    },
-    {
-      question: 'What is the refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to all eight line templates, all 104 image themes, auto-fill, and every export format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

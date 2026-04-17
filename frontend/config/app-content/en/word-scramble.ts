@@ -146,64 +146,9 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'How does the word scramble puzzle work?',
-      answer:
-        'Each puzzle shows an image clue alongside a set of shuffled letter tiles. Solvers study the image to identify what it depicts, then rearrange the scrambled tiles into the correct spelling. Unlike word guess puzzles where users fill in blanks, word scramble gives all the letters but in the wrong order — making it a hands-on letter-rearrangement exercise that builds spelling accuracy and word recognition.',
-    },
-    {
-      question: 'What are the four difficulty levels?',
-      answer:
-        'The four levels control how many clue letters are pre-placed in their correct positions. No Clues (0 letters) shuffles everything for maximum challenge. Easy pre-places half the letters. Normal places one quarter. Tough places one sixth — just enough guidance to get started. Each level creates a different puzzle experience from the same word, making it easy to build progressive difficulty bundles.',
-    },
-    {
-      question: 'What are the three content sources?',
-      answer:
-        'Image Library mode uses themed illustrations where the image name becomes the word to unscramble. Manual Edit Mode lets you select images then customize their display names before generating — perfect for simplified spellings or alternate vocabulary. Custom Word List mode skips images entirely and lets you type up to 8 words directly, enabling vocabulary worksheets for any subject without needing matching illustrations.',
-    },
-    {
-      question: 'How does vowel-consonant color coding work?',
-      answer:
-        'Toggle the Color Coded option to display vowels in one color and consonants in another on the letter tiles. This visual phonics aid helps solvers distinguish vowel and consonant patterns while they unscramble. Select All Black for traditional monochrome tiles when color differentiation is not needed. Color coding is unique to Word Scramble and adds a powerful differentiation dimension for sellers targeting phonics-focused buyers.',
-    },
-    {
-      question: 'Can I choose between uppercase and lowercase letters?',
-      answer:
-        'Yes. The letter case toggle lets you switch between uppercase (default) and lowercase for the scrambled letter tiles. Uppercase is ideal for beginner-level products targeting the younger audience, while lowercase suits more advanced spelling products. The setting applies to both clue letters and scrambled tiles.',
-    },
-    {
-      question: 'How does Manual Edit Mode differ from the Image Library?',
-      answer:
-        'In standard Image Library mode, the word to unscramble is the image\'s built-in name. Manual Edit Mode adds a customization step: after selecting images, you can edit each display name before generating the worksheet. This lets you simplify spellings, use alternate vocabulary, focus on specific phonics patterns, or tailor words to your product\'s theme while still showing the image as a visual clue.',
-    },
-    {
-      question: 'What can I do with Custom Word List mode?',
-      answer:
-        'Custom Word List mode lets you type up to 8 words directly — no images required. This is ideal for niche vocabulary products, subject-specific themes (science terms, geography names), foreign language practice, or any custom content. The puzzles show scrambled letter tiles without image clues, so solvers rely on context from worksheet titles or instructions to solve them.',
-    },
-    {
-      question: 'Does the generator create answer keys automatically?',
-      answer:
-        'Yes. Click the Generate Answer Key button to create a solved version of your worksheet showing the correctly unscrambled word for every puzzle. You can preview the answer key on screen and download it as a separate JPEG or PDF file. Including answer keys in your product bundles adds professional value without any manual assembly.',
-    },
-    {
-      question: 'Is the Word Scramble generator language-sensitive?',
-      answer:
-        'Yes. Because the word to unscramble is the image name in the selected language, changing the language changes the puzzle content entirely. \"Dog\" in English becomes \"Hund\" in German, \"chien\" in French, \"perro\" in Spanish — each with different letters, different letter counts, and completely different scrambled arrangements. The Commercial tier is English-only; Full Access unlocks all 11 languages, making each language version a distinct, sellable product.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all three content sources, all four difficulty levels, the full image library, vowel-consonant color coding, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every content source, every difficulty level, every theme, color coding options, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',    },
-    {
-      question: 'Do I need design skills to use this tool?',
-      answer:
-        'No design skills are required. The generator handles all word scrambling, layout formatting, image placement, and visual composition automatically. You choose a theme, select images, and the generator scrambles the corresponding words into a professional puzzle layout. The built-in canvas editor lets you customize fonts, colors, and element positioning, but the default output is already print-ready. Sellers without graphic design experience can produce word scramble puzzles that look polished and marketplace-quality, because the generator enforces consistent formatting and visual hierarchy across every puzzle page it creates.',
-    },
   ],
 
   internalLinks: [

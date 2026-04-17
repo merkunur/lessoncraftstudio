@@ -146,54 +146,9 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What exercise modes does the Addition Worksheet Generator offer?',
-      answer:
-        'The generator includes four modes: Image + Image (two picture groups to count and add), Image + Number (one picture group plus a numeral), Find the Addend (the sum is shown and solvers find the missing group), and Mixed Mode (randomizes all three). Each mode targets a different difficulty tier, from pure visual counting to logic-based problem solving. Sellers who package all four modes into a single progression bundle can charge premium prices, because buyers receive a complete difficulty range from beginner to advanced without needing separate resources.',
-    },
-    {
-      question: 'What number ranges can I set for addition problems?',
-      answer:
-        'You can set the minimum and maximum items per group from 1 to 10. This lets you create easy problems like 1+1 for the preschool-age niche or challenging sums near 10+10 for the K-2 market. Adjust the range with two simple inputs in the Exercise Configuration panel. This precise control makes it easy to build age-specific product lines — a preschool bundle at 1–3, a kindergarten set at 1–5, and an early-grade pack at 1–10 — each targeting a distinct buyer segment on Etsy or Amazon KDP.',
-    },
-    {
-      question: 'How many images and themes are available?',
-      answer:
-        'The built-in image library contains over 3,100 illustrations organized into 104 themes including animals, vehicles, food, holidays, sports, space, nature, and more. You can also upload your own custom images if you need brand-specific or seasonal artwork. Because all images are high-resolution and professionally curated, they reproduce crisply on both home inkjet printers and professional print services, ensuring your finished products meet the quality expectations of marketplace buyers.',
-    },
-    {
-      question: 'Does the generator create answer keys automatically?',
-      answer:
-        'Yes. Click the Generate Answer Key button to create a completed version of your worksheet with all correct sums filled in. You can preview the answer key on screen and download it as a separate JPEG or PDF file alongside the main worksheet. Including answer keys in your product listings adds perceived value and signals completeness to marketplace buyers. Bundles that include answer keys consistently attract higher review scores and better conversion rates on Etsy and Amazon KDP.',
-    },
-    {
-      question: 'What page sizes and export formats are supported?',
-      answer:
-        'Choose from Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), or any custom dimension. Export as high-resolution JPEG or print-ready PDF. All exports render above 400 DPI, ensuring professional print quality for both home printers and commercial services. The variety of page sizes lets you create products for different regional markets — Letter for North American buyers on Etsy, A4 for European and Australian customers — expanding your potential audience without redesigning content from scratch.',
-    },
-    {
-      question: 'Are addition worksheets language-sensitive?',
-      answer:
-        'No. Addition worksheets are visual-only — the math content uses images and numbers, not words. This means a worksheet created in one language works in every language. The language setting only changes the app\'s interface labels, not the worksheet content itself, making your products instantly sellable worldwide. Sellers who recognize this advantage can list identical PDFs across multiple regional Etsy shops or Amazon KDP marketplaces without any translation effort, effectively multiplying their storefront reach from a single production session.',
-    },
-    {
-      question: 'Can I use my own images instead of the built-in library?',
-      answer:
-        'Absolutely. The Upload Custom Images panel lets you add your own PNG or JPEG files directly into the generator. Uploaded images integrate with all four exercise modes and appear alongside library images, so you can mix custom artwork with built-in illustrations for a unique look. This capability is especially valuable for sellers who purchase commercial clipart sets and want to build a distinctive brand identity that buyers recognize across multiple product listings on Etsy or Amazon KDP.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature of the generator — all four exercise modes, the full image library, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',
-    },
-    {
-      question: 'Do I need to install any software?',
-      answer:
-        'No. The Addition Worksheet Generator runs entirely in your web browser. There is nothing to download, install, or update. It works on any modern desktop browser including Chrome, Firefox, Safari, and Edge. Just open the page and start creating. Because everything runs client-side, your worksheet designs stay private on your own device and are never uploaded to external servers, which gives sellers full confidence that their product layouts and creative choices remain protected.',
     },
   ],
 

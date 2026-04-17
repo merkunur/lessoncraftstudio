@@ -194,14 +194,6 @@ const content: ToolContent = {
       question: 'What page sizes and export formats are available?',
       answer: 'Page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, Square (1200×1200), and custom dimensions. Export as high-resolution JPEG or print-ready PDF at 300 DPI (6× multiplier, JPEG quality 1.0). Toggle grayscale for ink-friendly output. Each generation produces four download files: worksheet JPEG, worksheet PDF, answer key JPEG, and answer key PDF. All exports are production-ready for digital downloads, printed workbooks, and printed handouts.',
     },
-    {
-      question: 'Can I sell maze worksheets made with this tool commercially?',
-      answer: 'Yes. With a commercial license, you have full rights to sell maze worksheets as digital downloads on Etsy, printed maze workbooks on Amazon KDP, printable resources on Gumroad, or through any other sales channel. The three game modes, LPF algorithm, five image roles, wall customization, collectible system, auto-generated answer keys with pink circle solution paths, custom image uploads, and 104 themed image collections give you everything needed to create professional maze products that compete in puzzle and activity categories across every major marketplace.',
-    },
-    {
-      question: 'What is your refund policy?',
-      answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access to all three game modes, the LPF maze algorithm, five image roles, wall customization, the collectible system, the auto-generated answer key with pink circle solution paths, all 104 themes, custom image uploads, background and border themes, name/date fields, grayscale export, and every download format, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
-    },
   ],
 
   internalLinks: [

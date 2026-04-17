@@ -146,59 +146,9 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What is the alphabet train worksheet format?',
-      answer:
-        'Each worksheet features 11 colorful train wagons. Every wagon contains one letter paired with a matching image whose name starts with that letter. Below or beside the train, clue images are displayed for solvers to match to the correct wagon. The format combines letter recognition with visual matching, making it more engaging than standard alphabet drill sheets.',
-    },
-    {
-      question: 'What are the two creation modes?',
-      answer:
-        'Auto Create mode generates a complete worksheet instantly by randomly selecting 11 letters and pairing each with a matching image from your chosen theme. Manual mode displays the full alphabet for the selected language and lets you hand-pick exactly 11 letters, giving you precise control over which letters appear on each worksheet.',
-    },
-    {
-      question: 'How does the clue system work?',
-      answer:
-        'Clues are image hints shown separately from the train wagons. Solvers look at each clue image, identify what it represents, determine its starting letter, and match it to the correct wagon. You can set anywhere from 3 to 11 clues per worksheet — fewer clues make the activity easier, while more clues increase the challenge. For sellers, this adjustable clue range lets you create tiered difficulty packs from one tool — bundle easy, medium, and hard versions together and charge a premium for the complete set.',
-    },
-    {
-      question: 'Why are there always 11 letters per worksheet?',
-      answer:
-        'The train format uses 11 wagons to balance visual impact with readability on a single page. Eleven letters provide substantial coverage without overcrowding, and the odd number prevents solving by simple elimination at the end. Each worksheet covers nearly half the English alphabet, so two complementary worksheets can cover all 26 letters.',
-    },
-    {
-      question: 'Is the Alphabet Train app language-sensitive?',
-      answer:
-        'Yes. Unlike visual-only math apps, the Alphabet Train changes fundamentally based on the selected language. Each language has its own alphabet and letter count — English has 26 letters, German has 29 with Ä/Ö/Ü, Swedish has 29 with Å/Ä/Ö, Spanish has 27 with Ñ. Image labels are translated so each letter pairs with an image whose translated name starts with that letter. The Commercial tier is English-only; Full Access unlocks all 11 languages.',
-    },
-    {
-      question: 'How does the image-to-letter matching work across languages?',
-      answer:
-        'Every image in the library has translated labels for all 11 languages. When you select a language, the generator pairs each letter with an image whose name starts with that letter in that specific language. For example, a dog image pairs with D in English but with H in German (Hund). This ensures linguistically accurate worksheets in every supported language.',
-    },
-    {
-      question: 'What page sizes are available?',
-      answer:
-        'Choose from Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, or Square (1200×1200). All sizes export at 400+ DPI for professional print quality. The Square format works well for social media previews and digital product thumbnails on Etsy.',
-    },
-    {
-      question: 'Does the generator create answer keys automatically?',
-      answer:
-        'Yes. Click the Generate Answer Key button to create a solved version showing every wagon with its correct letter-image pairing and all clues matched. You can preview it on screen and download it as a separate JPEG or PDF file to include in Etsy bundles or KDP appendices. Having a ready-made answer key adds perceived value to your listings and lets you advertise "answer key included" — a detail that Etsy and Gumroad buyers specifically filter for when comparing competing products.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — both creation modes, the full image library, all clue settings, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both creation modes, every clue setting, every theme, and every export format before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',    },
-    {
-      question: 'Do I need design skills to use this tool?',
-      answer:
-        'No design skills are needed. The generator handles all layout, spacing, and visual composition automatically. You choose a creation mode (Theme or Custom Text), select images or type your content, pick a theme and font style, and the generator produces a professional worksheet. The built-in canvas editor lets you drag, resize, and reposition elements if you want to customize further, but the default output is already print-ready. Sellers who have never used design software can produce polished alphabet worksheets that compete with products made by professional graphic designers, because the generator enforces consistent spacing, alignment, and visual hierarchy throughout every worksheet it creates.',
-    },
   ],
 
   internalLinks: [

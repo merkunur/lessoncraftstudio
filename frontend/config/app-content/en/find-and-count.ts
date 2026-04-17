@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What are the two activity modes and how do they differ?',
-      answer:
-        'The generator offers two distinct modes. Hidden Object mode (default) creates classic I Spy scenes — scattered images across a configurable grid where solvers search for up to 4 specific objects and perform assigned tasks (circle, square, cross out, or count). Letter Spotting mode activates a locale-specific alphabet grid and generates I Spy scenes using images that begin with the selected letter. The worksheet header automatically switches between \"I Spy\" and \"Letter Spotting\" (localized in all 11 languages) based on the active mode.',
-    },
-    {
-      question: 'What are the four task types and can I mix them on one worksheet?',
-      answer:
-        'The four task types are circle (draw a circle around the object), square (put a square around the object), cross (cross out the object), and count (count how many instances appear and write the number). Yes, you can assign a different task type to each of the up to 4 target objects on a single worksheet. For example, one worksheet can prompt circling all cats, crossing out all dogs, counting all birds, and putting a square around all fish.',
-    },
-    {
-      question: 'How does Letter Spotting work with different languages?',
-      answer:
-        'Letter Spotting mode displays a locale-specific alphabet grid tailored to each language\'s character set. English shows A–Z (26 letters), German adds Ä, Ö, and Ü (29 letters), Spanish adds Ñ (27 letters), Swedish and Finnish add Å, Ä, and Ö (29 letters), and Danish and Norwegian add Æ, Ø, and Å (29 letters). The grid renders in 7 columns with automatic row adjustment. When you select a letter, the generator shows images starting with that letter in the selected language and fills remaining cells with distractors.',
-    },
-    {
-      question: 'How do localized image name labels work?',
-      answer:
-        'The Find & Count Generator is language-sensitive. Image name labels are rendered in the selected language via the Image Vocabulary system (image-vocabulary.js). For example, a cat image displays \"Cat\" in English, \"Katze\" in German, \"Chat\" in French, and \"Gato\" in Spanish. In Letter Spotting mode, first letters also change with the language — a cat starts with \"C\" in English but \"K\" in German and \"G\" in Spanish. The Commercial tier supports English only; Full Access unlocks all 11 languages.',
-    },
-    {
-      question: 'How does the configurable grid density work?',
-      answer:
-        'In the Page Setup panel, set rows from 5 to 10 and columns from 5 to 10. The default is 6×6 (36 cells). A smaller grid like 5×5 (25 cells) creates easier worksheets with larger images — ideal for beginner-level products. A larger grid like 10×10 (100 cells) creates dense, challenging scenes for advanced-level products. Each cell displays one image at a maximum size of 80px. Target objects appear 1–5 times each, with remaining cells filled by random distractor images from the theme.',
-    },
-    {
-      question: 'Why is there a limit of 4 objects per worksheet?',
-      answer:
-        'The generator enforces a maximum of 4 target objects per worksheet to maintain clear, focused I Spy activities. With 4 objects and 4 different task types, a single worksheet can contain 4 distinct search-and-do tasks — enough variety to challenge solvers without overwhelming them. The Hidden Object Questions panel shows a selected count display and provides a Clear Selection button to reset your choices. This limit ensures every worksheet remains visually scannable and commercially effective.',
-    },
-    {
-      question: 'How does the auto-generated answer key work?',
-      answer:
-        'The generator uses a dual-canvas system with a Worksheet tab and an Answer Key tab. The worksheet shows the scattered image scene without markings — solvers search and complete the tasks themselves. The answer key reproduces the identical layout and overlays red visual annotations: circles around circle-task objects, squares around square-task objects, crosses over cross-task objects, and quantity count displays for count-task objects. Both versions export separately using four dedicated buttons: Worksheet JPEG, Answer Key JPEG, Worksheet PDF, and Answer Key PDF.',
-    },
-    {
-      question: 'Does the worksheet auto-generate on page load?',
-      answer:
-        'Yes. The app automatically generates a complete I Spy worksheet when you open it — using the animals theme, 4 randomly selected images, and randomly assigned task types on a 6×6 grid. This gives you an instant preview of what the tool produces. From there, you can customize the theme, grid dimensions, target objects, task types, and activity mode, then click Generate to rebuild with your settings.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — both activity modes, all four task types, Letter Spotting with locale-specific alphabets, configurable grid dimensions, the auto-generated answer key, the full image library, background and border themes, and all download formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Can I add background themes and border themes to I Spy worksheets?',
-      answer:
-        'Yes. The Page Setup panel includes both a background theme selector with an opacity slider and a border theme selector with its own independent opacity slider. Background themes add decorative patterns behind the I Spy scene, while border themes frame the page. Both have separate opacity controls so you can create subtle backgrounds with prominent borders, or any combination. The auto-generated header uses a blue border (#2196F3) with a yellow inner accent — independent of the page border theme you select.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both activity modes, all four task types, Letter Spotting mode, configurable grid dimensions, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

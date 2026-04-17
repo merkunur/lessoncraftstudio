@@ -146,56 +146,6 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'What are the eight line templates and how do they differ?',
-      answer:
-        'The eight templates cover four line types. Four curve templates create flowing, sweeping paths in landscape orientation with 4 image pairs each — each curve variant offers a different shape for visual variety. Two diagonal templates produce angled lines in portrait orientation with 5 pairs. One horizontal template generates straight left-to-right lines in portrait with 5 pairs. One vertical template creates top-to-bottom lines in portrait with 4 pairs. Each line type targets a different fine motor skill, letting you create progressive difficulty sets.',
-    },
-    {
-      question: 'What line types are available and what skills do they develop?',
-      answer:
-        'Curved lines develop wrist flexibility and fluid movement through sweeping arcs. Diagonal lines build cross-body coordination with angled tracing paths. Horizontal lines reinforce left-to-right directional control — the same tracking direction used in reading and writing. Vertical lines practice top-to-bottom strokes essential for letter formation. Together, these four line types cover the foundational fine motor skills needed for handwriting readiness.',
-    },
-    {
-      question: 'How does image pair matching work on each template?',
-      answer:
-        'Each template places matched image pairs on opposite sides of the line path. One image appears at the start of the line and its match appears at the end. Users trace along the guided line path to connect the matching pictures. Templates hold 4 or 5 pairs depending on the line type — curve and vertical templates use 4 pairs, diagonal and horizontal templates use 5. The matching images provide a visual goal that motivates completion of each line.',
-    },
-    {
-      question: 'How does the auto-fill feature work?',
-      answer:
-        'Auto-fill randomly assigns image pairs from the selected theme or across all available themes at once. Click the auto-fill button and every pair slot on the current template is instantly populated with matched images. This is especially useful for batch creation — select a theme, auto-fill, export, then change themes and repeat to generate dozens of unique worksheets in minutes without manually placing each image.',
-    },
-    {
-      question: 'Why do some templates use landscape and others use portrait?',
-      answer:
-        'Template orientation is driven by the line type. The four curve templates default to landscape format because sweeping curved lines need the wider dimension to arc naturally. Diagonal, horizontal, and vertical templates use portrait format because their line paths are better suited to the taller, narrower page shape. This automatic orientation switching ensures every line type has maximum space for clear, traceable paths.',
-    },
-    {
-      question: 'Why is there no answer key for Drawing Lines worksheets?',
-      answer:
-        'Drawing Lines worksheets do not need a separate answer key because the line path itself provides the guidance. The SVG line template printed on the worksheet shows exactly where to trace — users follow the visible path from one image to its match. The exercise is self-checking: if the drawn line follows the path and reaches the matching image, it is completed correctly.',
-    },
-    {
-      question: 'Can I upload my own images instead of using the library?',
-      answer:
-        'Yes. The custom image upload feature lets you add any image to your line tracing worksheets. Upload photos, illustrations, or graphics relevant to your specific subject or audience. Custom images appear alongside library images and work with all eight templates and the auto-fill feature. This is useful for creating subject-specific worksheets or branded products that go beyond the built-in theme library.',
-    },
-    {
-      question: 'Can I add a name and date field to the worksheet?',
-      answer:
-        'Yes. Toggle the name and date fields on from the Content panel. They appear in Fredoka font at 18px in a dark gray (#333) color. You can also add custom text with the Text Tools panel using any of the available fonts — Arial, Verdana, Baloo 2, Fredoka, Lexend Deca, Nunito, and Quicksand — and reposition them anywhere on the canvas.',
-    },
-    {
-      question: 'Is there a free trial?',
-      answer:
-        'Yes. You can access every feature — all eight line templates, the full image library, auto-fill, all export formats, and the complete canvas editing tools — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
-    },
-    {
-      question: 'Is the Drawing Lines generator language-sensitive?',
-      answer:
-        'No. Drawing Lines is a purely visual app — worksheets contain only images, line paths, and decorative borders with zero text on the output, so they are identical in every language. Changing the language only affects the UI labels and image library content labels in the generator interface, not the worksheet content. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every line template, every image theme, the auto-fill feature, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

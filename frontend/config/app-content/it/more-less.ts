@@ -16,12 +16,12 @@ const content: AppContent = {
       'confrontare',
       'quantita',
     ],
-    titleTag: 'Schede maggiore minore uguale da stampare | Generatore confronto',
+    titleTag: 'Generatore maggiore o minore | LessonCraftStudio',
     metaDescription: 'Create schede di confronto numeri e quantita con immagini tematiche. Soluzioni automatiche, PDF 300 DPI. Prova gratis.',
   },
 
   hero: {
-    title: 'Schede maggiore minore uguale da stampare — Generatore di confronto',
+    title: 'Generatore maggiore o minore — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Trasforma il confronto dei numeri in una scoperta visiva con schede illustrate di maggiore e minore.',
     description:
       'Le schede di confronto maggiore e minore sono essenziali per lo sviluppo del senso numerico, e il mercato italiano su Etsy e Amazon KDP è ancora un terreno vergine per i venditori di stampabili. Con questo generatore crei schede professionali con tre modalità di esercizio: Immagine contro Immagine, Immagine contro Numero e l\'esclusiva modalità Segna e Cancella Gruppi, dove gli utenti analizzano riquadri misti per trovare il gruppo maggioritario. Alterna tra immagini uguali e diverse, scegli tra simboli illustrati e matematici standard, e seleziona tra oltre 3100 illustrazioni in 104 temi. Ogni scheda genera automaticamente un foglio soluzioni. La varietà di modalità permette di creare pacchetti differenziati che si distinguono dalla concorrenza. Esporta PDF e JPEG a oltre 400 DPI nei formati A4, Lettera o personalizzato. Crea pacchetti tematici per Etsy, compila libri di attività per Amazon KDP, o vendi su Eduki e Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

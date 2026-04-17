@@ -16,12 +16,12 @@ const content: AppContent = {
       'dati',
       'classificare',
     ],
-    titleTag: 'Schede di conteggio e grafici da stampare | Generatore',
+    titleTag: 'Generatore schede di conteggio | LessonCraftStudio',
     metaDescription: 'Create schede di conteggio e grafici con immagini tematiche. Soluzioni automatiche, PDF stampabili. Prova gratis.',
   },
 
   hero: {
-    title: 'Schede di conteggio e grafici da stampare — Generatore con immagini',
+    title: 'Generatore schede di conteggio — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Generatore di pittogrammi con canvas doppio — crea griglie di immagini sparse con 6 tipi di immagini, chiavi di valore percepito con grafico a barre generate automaticamente, intestazioni localizzate in 11 lingue e 104 collezioni di immagini tematiche per schede di rappresentazione dati.',
     description:
       'Crea schede di conteggio e grafici a immagini da vendere su Etsy, Amazon KDP o Eduki — l\'unico generatore progettato specificamente per pittogrammi e grafici a barre. Ogni scheda presenta una griglia con 20 immagini di 6 tipi diversi: gli utenti contano e colorano il grafico a barre sottostante. Soluzioni con conteggi corretti generate automaticamente. Scegli tra oltre 3.100 illustrazioni in 104 temi o seleziona manualmente le immagini. Intestazioni localizzate in italiano e altre 10 lingue, campi nome e data, temi di sfondo personalizzabili. Esporta PDF a 300 DPI con licenza commerciale inclusa — scheda e soluzioni in un\'unica sessione. Le schede di conteggio sono un prodotto evergreen che si vende tutto l\'anno — e il mercato italiano su Etsy è completamente vuoto. Nessun venditore offre grafici a immagini in italiano. Posizionati in questa nicchia prima che arrivi la concorrenza. Prova gratis con filigrana.',

@@ -15,12 +15,12 @@ const content: AppContent = {
       'creativita',
       'colorare',
     ],
-    titleTag: 'Schede disegno e colorare da stampare | Generatore di arte',
+    titleTag: 'Generatore disegno e colore | LessonCraftStudio',
     metaDescription: 'Create schede di disegno guidato e colorare con immagini tematiche. PDF 300 DPI stampabili. Prova gratis — licenza commerciale inclusa.',
   },
 
   hero: {
-    title: 'Schede disegno e colorare da stampare — Generatore di arte',
+    title: 'Generatore disegno e colore — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Sistema a griglia doppia — griglia di pratica e griglia indizi affiancate — con percentuale indizi regolabile dal 10 % al 75 %, modalità simmetria orizzontale e verticale e oltre 100 collezioni di contorni in bianco e nero per attività di disegno e colorazione.',
     description:
       'Le schede di disegno su griglia sono tra i prodotti stampabili più richiesti su Etsy e Amazon KDP, e il mercato italiano è ancora quasi vuoto — un\'opportunità concreta per i venditori che entrano adesso. Con questo generatore crei schede professionali dove gli utenti riproducono immagini cella per cella, con griglia indizi e griglia di pratica affiancate. Regola la percentuale di indizi dal 10 % al 75 % per controllare la difficoltà e configura griglie da 3×3 a 10×10. Tre modalità di simmetria aggiungono esercizi di ragionamento spaziale. La libreria integrata include oltre 3000 contorni in bianco e nero in più di 100 collezioni tematiche — ideali per la riproduzione e la colorazione. L\'output è puramente visivo, senza testo: ogni scheda funziona in tutte le 11 lingue senza traduzione, moltiplicando il tuo catalogo. Esporta PDF e JPEG a 300 DPI in formato A4, Lettera o personalizzato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',

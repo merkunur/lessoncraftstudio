@@ -15,12 +15,12 @@ const content: AppContent = {
       'discriminazione visiva',
       'numeri',
     ],
-    titleTag: 'Trova e conta da stampare | Generatore di conteggio',
+    titleTag: 'Generatore cerca e conta | LessonCraftStudio',
     metaDescription: 'Create schede "trova e conta" dove i bambini cercano e contano immagini tematiche. Soluzioni automatiche. Prova gratis.',
   },
 
   hero: {
-    title: 'Trova e conta da stampare — Generatore di conteggio con immagini',
+    title: 'Generatore cerca e conta — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Due modalità di attività in un unico generatore — Cerca Oggetti Nascosti e Cerca Lettere — con quattro tipi di compito mescolabili (cerchia, riquadra, barra, conta), alfabeti specifici per lingua con lettere accentate, etichette immagine localizzate in 11 lingue e chiavi di risposta auto-generate con annotazioni visive.',
     description:
       'Le attività "cerca e conta" combinano il fascino del cerca e trova con esercizi di conteggio, creando un prodotto stampabile perfetto per Etsy e Amazon KDP. Il mercato italiano è ancora quasi vuoto, offrendoti un vantaggio competitivo enorme. Con questo generatore crei schede professionali in pochi minuti: la modalità Oggetti Nascosti sparge immagini su una griglia configurabile con quattro tipi di compito (cerchia, riquadra, barra, conta), mentre la modalità Cerca Lettere genera scene basate sull\'alfabeto italiano con accenti. La chiave di risposta viene generata automaticamente con annotazioni visive precise. Le etichette sono localizzate in 11 lingue, permettendoti di moltiplicare il catalogo per i mercati internazionali. Esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per Etsy, KDP ed Eduki. L\'Accesso Completo include la licenza commerciale e 104 temi con oltre 3100 illustrazioni. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

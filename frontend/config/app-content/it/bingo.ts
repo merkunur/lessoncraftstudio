@@ -18,12 +18,12 @@ const content: AppContent = {
       'classe',
       'festa',
     ],
-    titleTag: 'Creare cartelle bingo | Generatore bingo con immagini',
+    titleTag: 'Generatore di tombola | LessonCraftStudio',
     metaDescription: 'Create cartelle bingo/tombola con 3.000+ immagini tematiche. Cartelle uniche per set, PDF stampabili. Prova gratis — licenza commerciale.',
   },
 
   hero: {
-    title: 'Creare cartelle bingo — Generatore bingo e tombola con immagini',
+    title: 'Generatore di tombola — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Genera da 1 a 10 cartelle di bingo uniche per lotto con griglie configurabili da 3×3 a 5×5 — riempimento immagini o parole per le celle e le fiches circolari, un foglio di richiamo dedicato per il conduttore, esportazione ZIP in lotto di tutte le cartelle, e 104 collezioni di immagini tematiche.',
     description:
       'La tombola è una tradizione italiana profondamente radicata, giocata in famiglia soprattutto durante il periodo natalizio — e su Etsy la nicchia delle cartelle tombola stampabili in italiano è praticamente vuota. Con questo generatore crei cartelle tombola professionali con immagini o parole, configurando griglie da 3×3 a 5×5. Genera da 1 a 10 cartelle uniche per lotto, ciascuna con selezione casuale diversa dal pool di immagini, più un foglio di richiamo per il conduttore. L\'export ZIP in lotto esporta tutte le cartelle come file individuali. Le cartelle con parole sono sensibili alla lingua: cambiare lingua modifica automaticamente i nomi sulle cartelle e sulle fiches. La libreria integrata offre oltre 3100 illustrazioni in 104 temi — animali, Natale, stagioni e molto altro. Aggiungi sfondi, bordi decorativi e testo personalizzato. Esporta PDF e JPEG a 300 DPI nei formati A4, Lettera o personalizzato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',

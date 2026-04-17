@@ -16,12 +16,12 @@ const content: AppContent = {
       'simmetria',
       'orientamento spaziale',
     ],
-    titleTag: 'Disegno su griglia da stampare | Generatore riproduzione',
+    titleTag: 'Generatore schede a griglia | LessonCraftStudio',
     metaDescription: 'Create schede di riproduzione su griglia con immagini tematiche. Soluzioni automatiche, PDF stampabili. Prova gratis.',
   },
 
   hero: {
-    title: 'Disegno su griglia da stampare — Generatore di riproduzione',
+    title: 'Generatore schede a griglia — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Trasforma qualsiasi immagine in un puzzle basato su griglia — dividila in pezzi, rivela caselle-indizio configurabili, mescola i pezzi rimanenti in una palette numerata e genera automaticamente un foglio risposte con cerchi numerati sovrapposti su 104 collezioni di immagini tematiche.',
     description:
       'I puzzle a griglia con immagini sono un formato di prodotto stampabile altamente vendibile su Etsy e Amazon KDP, eppure in italiano la concorrenza è quasi inesistente. Questo generatore ti permette di creare puzzle professionali in cui un\'immagine viene divisa in pezzi e gli utenti devono abbinarli alla posizione corretta. Configura la griglia da 2x2 a 4x4, imposta 1-5 caselle-indizio per regolare la difficoltà e genera set progressivi per costruire un catalogo completo. Il foglio risposte viene creato automaticamente con cerchi numerati, eliminando il lavoro manuale. Ogni puzzle è puramente visivo e funziona in qualsiasi lingua, ideale per vendere su mercati internazionali. Esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per inserzioni Etsy, interni KDP o listini Eduki. L\'Accesso Completo include la licenza commerciale, 104 temi con oltre 3100 illustrazioni e 11 lingue. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

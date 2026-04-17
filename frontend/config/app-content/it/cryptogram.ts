@@ -16,12 +16,12 @@ const content: AppContent = {
       'sostituzione',
       'segreto',
     ],
-    titleTag: 'Messaggi segreti da stampare | Generatore di crittogrammi',
+    titleTag: 'Generatore di crittogrammi | LessonCraftStudio',
     metaDescription: 'Create crittogrammi e messaggi segreti con immagini tematiche e soluzioni automatiche. PDF 300 DPI, 11 lingue. Prova gratis — licenza commerciale.',
   },
 
   hero: {
-    title: 'Messaggi segreti da stampare — Generatore di crittogrammi con immagini',
+    title: 'Generatore di crittogrammi — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Associa ogni lettera dell\'alfabeto a un\'immagine e codifica frasi intere in puzzle visivi cifrati — difficoltà regolabile da zero indizi a guida intensiva con Lettere da Rivelare.',
     description:
       'Genera crittogrammi con immagini da vendere su Etsy e Amazon KDP — un formato esclusivo dove ogni lettera dell\'alfabeto è sostituita da un\'immagine e gli utenti decifrano frasi intere. Il controllo Lettere da Rivelare (0–10) crea difficoltà progressive — da sfide esperte senza indizi a puzzle guidati per principianti. Oltre 3.100 illustrazioni in 104 temi, assegnazione automatica o manuale delle immagini alle lettere. I crittogrammi in italiano codificano frasi con à, è, é, ì, ò, ù nell\'alfabeto — ogni lingua produce un prodotto genuinamente diverso. Foglio risposte con legenda completa, esportazione PDF a oltre 400 DPI e licenza commerciale inclusa. I crittogrammi sono una nicchia redditizia e sotto-servita: su Etsy.it non esistono crittogrammi con immagini in italiano. Su Amazon KDP, i libri di crittogrammi si vendono bene tutto l\'anno. Entra in un mercato senza concorrenza con un prodotto unico. Prova gratis con filigrana.',

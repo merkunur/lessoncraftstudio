@@ -18,12 +18,12 @@ const content: AppContent = {
       'scuola dell\'infanzia',
       'classe prima',
     ],
-    titleTag: 'Schede pregrafismo da stampare | Generatore di prescrittura',
+    titleTag: 'Generatore schede di scrittura | LessonCraftStudio',
     metaDescription: 'Create schede di pregrafismo e prescrittura con parole personalizzate. 11 lingue, PDF 300 DPI. Prova gratis — licenza commerciale per venditori.',
   },
 
   hero: {
-    title: 'Schede pregrafismo da stampare — Generatore di prescrittura',
+    title: 'Generatore schede di scrittura — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Tre modalità di pratica progressive con ordine dei tratti guidato da frecce e guide delle lettere a opacità decrescente — sviluppa la fluidità di scrittura dal tracciamento completo alla scrittura autonoma in un\'unica scheda.',
     description:
       'Il mercato italiano dei stampabili educativi su Etsy e Amazon KDP è ancora un oceano blu: pochissimi venditori offrono schede di scrittura professionali in italiano, mentre la domanda di materiali di pregrafismo e calligrafia cresce ogni anno. Con questo generatore crei schede di scrittura pronte per la vendita in pochi minuti, senza competenze grafiche. Tre modalità di pratica — Tracciamento, Tracciamento Progressivo e Copia Guidata — ti permettono di costruire set differenziati per ogni livello. Cinque stili di font, frecce per l\'ordine dei tratti ed esercizi di pregrafismo moltiplicano le varianti di prodotto. Esporta in PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per inserzioni Etsy, interni KDP o listini Eduki. La licenza commerciale è inclusa nell\'Accesso Completo, che sblocca anche 104 temi con oltre 3100 illustrazioni e 11 lingue. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

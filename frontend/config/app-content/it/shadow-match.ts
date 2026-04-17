@@ -15,12 +15,12 @@ const content: AppContent = {
       'associare',
       'discriminazione visiva',
     ],
-    titleTag: 'Gioco delle ombre da stampare | Generatore associazione sagome',
+    titleTag: 'Generatore delle ombre | LessonCraftStudio',
     metaDescription: 'Create schede di associazione ombre con immagini e sagome tematiche. Soluzioni automatiche, PDF 300 DPI. Prova gratis.',
   },
 
   hero: {
-    title: 'Gioco delle ombre da stampare — Generatore associazione sagome',
+    title: 'Generatore delle ombre — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Due modalità di corrispondenza in un solo generatore — Abbinamento Ombre crea silhouette nere generate automaticamente da qualsiasi immagine, Completa l\'Immagine divide le immagini in metà — entrambe con algoritmo di derangement Fisher-Yates che garantisce zero corrispondenze banali, risposte auto-generate e 104 collezioni di immagini tematiche.',
     description:
       'Le schede "abbina le ombre" sono uno dei formati stampabili più apprezzati dai genitori su Etsy e perfetti per i quaderni di attività su Amazon KDP. Il mercato italiano offre ancora pochissima concorrenza, creando un\'opportunità concreta per il tuo business di stampabili. Questo generatore crea schede professionali con due modalità: Abbinamento Ombre genera silhouette nere automatiche da qualsiasi immagine, mentre Completa l\'Immagine divide le immagini in metà da ricomporre. L\'algoritmo garantisce che nessun elemento appaia nella posizione corretta, creando veri esercizi di corrispondenza ogni volta. Le risposte vengono generate automaticamente, eliminando il lavoro manuale. Ogni scheda è puramente visiva e vendibile su qualsiasi mercato internazionale senza modifiche. Esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per Etsy, KDP ed Eduki. L\'Accesso Completo include la licenza commerciale, 104 temi con oltre 3100 illustrazioni e 11 lingue. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

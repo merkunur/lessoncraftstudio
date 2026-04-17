@@ -586,3 +586,55 @@ nl, sv, da, no, fi) continue on EN fallback.
   placed alongside the existing FR + DE blocks. Targets "generador de
   fichas gratis" / "crear imprimibles en línea".
 - KDP cross-link stays EN-only (no ES calculator pages yet).
+
+---
+
+# Italian (IT) — landed 2026-04-17
+
+IT round mirrors DE/FR/ES. Four atomic commits.
+
+## IT-A — `ctaHeading` on all 33 IT apps
+
+Italian action-phrase mappings:
+
+- `wordsearch.ts` → "Crea crucipuzzle"
+- `addition.ts` → "Crea schede di addizione"
+- `coloring.ts` → "Crea disegni da colorare"
+- `bingo.ts` → "Crea cartelle della tombola"
+- `crossword.ts` → "Crea cruciverba"
+- `sudoku.ts` → "Crea sudoku"
+- `odd-one-out.ts` → "Crea schede dell\'intruso"
+
+Full set in `scripts/add-it-cta-heading.js`.
+
+## IT-B — H1 + titleTag + meta trim
+
+### H1 pattern
+
+`[IT Generator Name] — Crea stampabili da vendere su Etsy e KDP`
+
+All 33 IT H1s rewritten. Generator names use `Generatore di X` /
+`Generatore X` pattern.
+
+### titleTag pattern
+
+`[IT Generator Name] | LessonCraftStudio` — replaces the previous
+descriptor-suffix pattern. All new IT titles verified 40–53 chars
+(down from up-to-64).
+
+### Meta trim
+
+Only `addition.ts` (165 → 147) rewritten. Other 32 IT metas stay as-is.
+
+## IT-C — IT translations of shared commercial + usage FAQs
+
+5 IT commercial + 5 IT usage FAQs added. Price `49 $` (USD).
+
+## IT-D — IT uiStrings backlink + IT tools index intro
+
+- `uiStrings.it` in apps/[slug]/page.tsx:
+  - `pairedToolPrompt`: "Cerchi la versione gratuita nel browser?"
+  - `pairedToolAnchor`: "Prova lo strumento Maker — senza registrazione."
+- Tools index: ~330-word Italian intro gated on `locale === 'it'`,
+  placed alongside the existing ES + FR + DE blocks.
+- KDP cross-link stays EN-only.

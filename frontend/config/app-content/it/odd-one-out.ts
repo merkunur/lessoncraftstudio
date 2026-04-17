@@ -15,12 +15,12 @@ const content: AppContent = {
       'logica',
       'ragionamento',
     ],
-    titleTag: 'Trova l\'intruso da stampare | Generatore di logica',
+    titleTag: 'Generatore dell\'intruso | LessonCraftStudio',
     metaDescription: 'Create schede "trova l\'intruso" con immagini tematiche per il ragionamento logico. Soluzioni automatiche, PDF stampabili. Prova gratis.',
   },
 
   hero: {
-    title: 'Trova l\'intruso da stampare — Generatore di logica con immagini',
+    title: 'Generatore dell\'intruso — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Due modalità di generazione — Identica e Simile — con sostituzione per esercizio, da 3 a 8 esercizi configurabili, fogli risposte autogenerati con marcatori a cerchio rosso e puzzle puramente visivi che funzionano in tutte le 11 lingue senza traduzione.',
     description:
       'Le schede trova l\'intruso sono un formato molto amato dai genitori italiani e rappresentano una nicchia ancora poco presidiata su Etsy e Amazon KDP in lingua italiana. Con questo generatore crei schede professionali dove gli utenti identificano l\'elemento diverso in ogni riga di quattro immagini. Due modalità di generazione — Identica (tre cloni più un intruso dallo stesso tema) e Simile (tre immagini dal Tema A e una dal Tema B) — offrono livelli di difficoltà diversi, combinabili nella stessa scheda. Configura da 3 a 8 esercizi per pagina e personalizza con campi nome, data e numeri di esercizio. Ogni scheda genera un foglio risposte con cerchi rossi automatici sull\'elemento intruso. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. I puzzle sono interamente visivi — funzionano in tutte le 11 lingue senza traduzione. Aggiungi sfondi e bordi decorativi, esporta PDF e JPEG a 300 DPI nei formati A4, Lettera, Quadrato o personalizzato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',

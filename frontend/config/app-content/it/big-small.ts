@@ -16,12 +16,12 @@ const content: AppContent = {
       'ordinare',
       'classificare',
     ],
-    titleTag: 'Schede grande e piccolo da stampare | Generatore dimensioni',
+    titleTag: 'Generatore grande e piccolo | LessonCraftStudio',
     metaDescription: 'Create schede di confronto dimensioni con immagini tematiche. Grande vs. piccolo, ordinare, soluzioni automatiche. Prova gratis.',
   },
 
   hero: {
-    title: 'Schede grande e piccolo da stampare — Generatore di confronto dimensioni',
+    title: 'Generatore grande e piccolo — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Cinque tipi di domande — cerchiare il più grande, cerchiare il più piccolo, cerchiare il medio, numerare dal più piccolo al più grande, numerare dal più grande al più piccolo — con modalità immagini identiche e diverse per la discriminazione visiva delle dimensioni.',
     description:
       'Le schede di confronto dimensioni sono tra le attività più ricercate dai genitori italiani per i bambini in età prescolare, ma su Etsy e Amazon KDP la nicchia in italiano è ancora vuota — un\'occasione perfetta per chi vuole avviare un business di stampabili. Con questo generatore crei schede professionali con cinque tipi di domande: cerchiare il più grande, il più piccolo, il medio, e numerare in ordine crescente o decrescente. Due modalità di immagini — identiche per la percezione pura della dimensione, diverse per il ragionamento relativo — creano esercizi diversificati. Configura da 1 a 10 esercizi per pagina con 2 o 3 immagini ciascuno. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. L\'output è completamente visivo, senza testo — ogni scheda funziona in tutte le 11 lingue senza traduzione. Un foglio risposte automatico evidenzia le risposte corrette. Esporta PDF e JPEG a 300 DPI nei formati A4, Lettera o personalizzato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',

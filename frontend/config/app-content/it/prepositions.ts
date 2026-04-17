@@ -18,12 +18,12 @@ const content: AppContent = {
       'tra',
       'spazio',
     ],
-    titleTag: 'Schede concetti topologici da stampare | Generatore preposizioni',
+    titleTag: 'Generatore di preposizioni | LessonCraftStudio',
     metaDescription: 'Create schede di concetti topologici e preposizioni con immagini tematiche. Soluzioni automatiche, 11 lingue. Prova gratis.',
   },
 
   hero: {
-    title: 'Schede concetti topologici da stampare — Generatore preposizioni',
+    title: 'Generatore di preposizioni — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Otto preposizioni spaziali combinate con esercizi di immagini e forme — costruendo il vocabolario spaziale frase dopo frase.',
     description:
       'L\'italiano è studiato da oltre 2,5 milioni di persone nel mondo, e la domanda di materiali per le certificazioni CILS, CELI e PLIDA cresce ogni anno. Su Eduki e Etsy i materiali di italiano L2 sono ancora pochissimi, creando un\'opportunità unica per venditori di stampabili. Questo generatore crea schede di preposizioni professionali con otto relazioni spaziali — in, su, sotto, accanto a, dietro, tra, sopra, davanti a — attraverso due modalità: Completa la Frase e Scelta Multipla. Le preposizioni articolate italiane (nel, nella, sul, sulla, nello, nell\') vengono generate correttamente, un vantaggio rispetto ai materiali generici. Configura da 1 a 8 esercizi per scheda e scegli tra 104 temi con oltre 3100 illustrazioni. La chiave di risposta è automatica. L\'Accesso Completo include la licenza commerciale e 11 lingue per vendere su mercati internazionali. Esporta PDF a oltre 400 DPI per Eduki, Etsy e Amazon KDP. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

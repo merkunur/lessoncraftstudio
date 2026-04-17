@@ -16,12 +16,12 @@ const content: AppContent = {
       'differenza',
       'soluzioni',
     ],
-    titleTag: 'Schede sottrazioni da stampare | Generatore con soluzioni',
+    titleTag: 'Generatore schede di sottrazione | LessonCraftStudio',
     metaDescription: 'Create schede di sottrazioni con immagini tematiche e soluzioni automatiche. PDF 300 DPI, 11 lingue. Prova gratis — licenza commerciale inclusa.',
   },
 
   hero: {
-    title: 'Schede sottrazioni da stampare — Generatore con immagini e soluzioni',
+    title: 'Generatore schede di sottrazione — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Rendi la sottrazione intuitiva con schede dove i bambini barrano le immagini per trovare la risposta.',
     description:
       'Trasforma la sottrazione in un prodotto vendibile con un generatore progettato per imprenditori di stampabili. Crea schede di sottrazione illustrate con immagini tematiche da oltre 100 categorie — animali, veicoli, cibo, natura — che rendono la matematica coinvolgente e le tue inserzioni irresistibili. Ogni scheda si esporta in PDF 300 DPI pronto per la stampa con soluzioni automatiche, pronta per essere caricata su Etsy, inserita in un quaderno di attività Amazon KDP, o proposta su Eduki. La licenza commerciale è inclusa con ogni scheda. Strategia redditizia: combina addizione e sottrazione in pacchetti — i venditori riportano carrelli medi significativamente più alti con offerte matematiche combinate. Il mercato italiano offre potenziale enorme con concorrenza minima.',

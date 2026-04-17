@@ -17,12 +17,12 @@ const content: AppContent = {
       'temi',
       'bambini',
     ],
-    titleTag: 'Creare disegni da colorare | Generatore di pagine da colorare',
+    titleTag: 'Generatore di pagine da colorare | LessonCraftStudio',
     metaDescription: 'Create disegni da colorare da 3.000+ immagini tematiche. Contorni ad alta risoluzione, PDF stampabili. Prova gratis — vendete su Etsy e Amazon KDP.',
   },
 
   hero: {
-    title: 'Creare disegni da colorare — Generatore di pagine da colorare',
+    title: 'Generatore di pagine da colorare — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Designer di pagine da colorare su canvas a forma libera — esplora 104 collezioni di immagini tematiche, aggiungi disegni a mano libera, includi strumenti per il negozio come campi nome e righe di scrittura, e attiva l\'esportazione in scala di grigi per pagine da colorare economiche in inchiostro.',
     description:
       'Il mercato italiano dei disegni da colorare su Etsy e Amazon KDP è una nicchia ancora poco sfruttata, con una domanda in costante crescita da parte di genitori e famiglie. Con questo generatore crei pagine da colorare professionali su un canvas libero dove posizioni le immagini esattamente dove vuoi, senza griglie né modelli. La libreria integrata offre oltre 3100 illustrazioni in 104 temi: animali, stagioni, festività italiane e molto altro. Aggiungi disegni a mano libera, testo personalizzato e cornici decorative per differenziare i tuoi prodotti dalla concorrenza. L\'esportazione in scala di grigi converte le composizioni in pagine economiche in inchiostro, perfette per libri KDP. Esporta PDF e JPEG a 300 DPI in formato A4, Lettera o personalizzato. Il contenuto è puramente visivo, quindi ogni pagina funziona in tutte le 11 lingue supportate — moltiplica il tuo catalogo senza tradurre nulla. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',

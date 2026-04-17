@@ -16,12 +16,12 @@ const content: AppContent = {
       'trovare',
       'cercare',
     ],
-    titleTag: 'Cerca e trova da stampare | Generatore giochi osservazione',
+    titleTag: 'Generatore cerca e trova | LessonCraftStudio',
     metaDescription: 'Create schede "cerca e trova" con immagini tematiche. Soluzioni automatiche, PDF 300 DPI. Prova gratis — vendete su Etsy e KDP.',
   },
 
   hero: {
-    title: 'Cerca e trova da stampare — Generatore giochi di osservazione',
+    title: 'Generatore cerca e trova — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Due modalità di attività in un unico generatore — scene Cerca e Trova con posizionamento senza sovrapposizioni e Trova l\'Intruso con immagini appaiate in righe — con chiavi di risposta auto-generate, dimensionamento adattivo delle immagini, campi nome e data e una legenda che mostra gli oggetti da trovare.',
     description:
       'I libri di oggetti nascosti e le attività "cerca e trova" sono tra i best seller su Amazon KDP, e il mercato italiano è ancora un oceano blu con pochissima concorrenza. Con questo generatore crei schede professionali di cerca e trova in pochi minuti. Due modalità distinte — Cerca e Trova con posizionamento intelligente senza sovrapposizioni e Trova l\'Intruso con immagini appaiate — ti permettono di costruire un catalogo di prodotti ampio e differenziato. La chiave di risposta viene generata automaticamente, eliminando ore di lavoro manuale. Ogni scheda è puramente visiva e funziona in qualsiasi lingua, perfetta per vendere su mercati internazionali. Scegli tra 104 temi con oltre 3100 illustrazioni ed esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati. L\'Accesso Completo include la licenza commerciale e 11 lingue di interfaccia per Etsy, Amazon KDP ed Eduki. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',

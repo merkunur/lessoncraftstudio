@@ -16,12 +16,12 @@ const content: AppContent = {
       'enigma',
       'scuola primaria',
     ],
-    titleTag: 'Messaggio segreto con addizioni | Generatore schede con codice',
+    titleTag: 'Generatore di messaggi cifrati | LessonCraftStudio',
     metaDescription: 'Create schede dove i bambini risolvono addizioni per decifrare messaggi segreti. Immagini tematiche, soluzioni incluse. Prova gratis.',
   },
 
   hero: {
-    title: 'Messaggio segreto con addizioni — Generatore di schede con codice',
+    title: 'Generatore di messaggi cifrati — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Trasforma l\'addizione in una missione da detective dove ogni immagine nasconde un numero segreto.',
     description:
       'Crea enigmi matematici con codice segreto da vendere su Etsy, Amazon KDP o Eduki — un formato unico che nessun altro generatore offre. Ogni immagine nasconde un numero: gli utenti risolvono equazioni di addizione per decifrare il codice visivo, combinando matematica e logica. La modalità Parola Rivelata intensifica la sfida — ogni equazione risolta rivela una lettera della parola segreta, con supporto nativo per l\'alfabeto italiano (à, è, é, ì, ò, ù). Scegli tra oltre 3.100 immagini in 104 temi, configura intervalli numerici da 1 a 20 ed esporta PDF a oltre 400 DPI con soluzioni automatiche e licenza commerciale inclusa. Il mercato italiano degli stampabili educativi su Etsy è praticamente vergine — i puzzle con codice segreto sono una nicchia inesplorata con forte appeal sia per genitori che per insegnanti. Chi entra ora domina una categoria vuota.',

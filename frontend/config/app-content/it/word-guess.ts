@@ -16,12 +16,12 @@ const content: AppContent = {
       'vocabolario',
       'indizi',
     ],
-    titleTag: 'Gioco dell\'impiccato da stampare | Generatore di indovinelli',
+    titleTag: 'Generatore dell\'impiccato | LessonCraftStudio',
     metaDescription: 'Create schede del gioco dell\'impiccato con vocabolario tematico e immagini. Soluzioni automatiche, PDF stampabili. Prova gratis.',
   },
 
   hero: {
-    title: 'Gioco dell\'impiccato da stampare — Generatore con immagini e soluzioni',
+    title: 'Generatore dell\'impiccato — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'La deduzione stile impiccato incontra gli indizi visivi — quattro livelli di difficoltà trasformano ogni parola in un puzzle gratificante.',
     description:
       'Crea giochi indovina la parola da vendere su Etsy e Amazon KDP — puzzle stile impiccato dove gli utenti vedono un indizio immagine e deducono la parola nascosta riempiendo caselle vuote. Quattro livelli di difficoltà controllano quante lettere sono pre-rivelate, da zero indizi alla modalità facile con metà delle lettere visibili. Tre fonti di contenuto: libreria di oltre 3.100 immagini in 104 temi, modifica manuale o lista personalizzata. Da 1 a 10 puzzle per scheda con lettere maiuscole o minuscole. Le parole in italiano sono genuinamente localizzate — "cane", "gatto", "casa" — rendendo ogni lingua un prodotto unico. Foglio risposte automatico, esportazione PDF a oltre 400 DPI e licenza commerciale inclusa. Il gioco indovina la parola è un formato universalmente amato, perfetto per pacchetti tematici di vocabolario su Etsy o libri di puzzle per KDP. In italiano la concorrenza su Etsy è minima — posizionati ora in questa nicchia. Prova gratis con filigrana.',

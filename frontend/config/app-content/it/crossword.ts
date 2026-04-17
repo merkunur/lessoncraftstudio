@@ -16,12 +16,12 @@ const content: AppContent = {
       'verticale',
       'soluzioni',
     ],
-    titleTag: 'Generatore di cruciverba | Creare con immagini e soluzioni',
+    titleTag: 'Generatore di cruciverba | LessonCraftStudio',
     metaDescription: 'Create cruciverba con indizi in immagini su una griglia 15x15. 4 modalita di inserimento, 104 temi, soluzioni automatiche. Prova gratis — licenza commerciale.',
   },
 
   hero: {
-    title: 'Generatore di cruciverba — Creare con immagini e soluzioni',
+    title: 'Generatore di cruciverba — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Sostituisci gli indizi testuali tradizionali con indizi visivi su una griglia 15×15 — quattro metodi di input (selezione automatica per tema, modifica manuale immagini, lista personalizzata parole con indizi, caricamento immagini personalizzate), foglio risposte auto-generato con griglia compilata e intestazione localizzata "Cruciverba con Immagini" su 104 collezioni di immagini tematiche.',
     description:
       'Crea cruciverba con immagini da vendere su Etsy e Amazon KDP — un formato dove indizi visivi sostituiscono quelli testuali su una griglia 15×15. Otto immagini generano otto parole posizionate automaticamente dall\'algoritmo. Quattro metodi di input: generazione rapida per tema, modifica manuale, lista personalizzata con indizi testuali o caricamento immagini proprie. Il generatore è sensibile alla lingua: un\'immagine di gatto genera "GATTO" in italiano ma "CAT" in inglese — ogni lingua produce un cruciverba completamente diverso dalle stesse immagini. Foglio risposte automatico, intestazione localizzata in italiano e 10 altre lingue, esportazione PDF a 300 DPI con licenza commerciale inclusa. I cruciverba sono un prodotto evergreen amatissimo in Italia — "parole crociate" è una tradizione culturale. Su Etsy.it però i cruciverba con immagini stampabili sono quasi introvabili. Compila libri per KDP o vendi pacchetti tematici su Etsy in un mercato affamato di contenuto. Prova gratis con filigrana.',

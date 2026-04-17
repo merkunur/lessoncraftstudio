@@ -19,12 +19,12 @@ const content: AppContent = {
       'soluzioni',
       'PDF',
     ],
-    titleTag: 'Generatore di crucipuzzle | Creare cerca parole con immagini',
+    titleTag: 'Generatore di crucipuzzle | LessonCraftStudio',
     metaDescription: 'Create crucipuzzle con 3.000+ immagini tematiche in 11 lingue. Griglie personalizzate, soluzioni automatiche, PDF 300 DPI. Prova gratis — licenza commerciale.',
   },
 
   hero: {
-    title: 'Generatore di crucipuzzle — Creare cerca parole con immagini',
+    title: 'Generatore di crucipuzzle — Crea stampabili da vendere su Etsy e KDP',
     tagline: 'Griglie regolabili da 5×5 a 30×30 con controlli per direzioni diagonali e invertite — costruisci il livello di difficoltà perfetto per ogni pubblico.',
     description:
       'Genera crucipuzzle da vendere su Etsy e Amazon KDP — il formato di puzzle che non passa mai di moda e che in italiano si chiama anche "parole nascoste" o "cerca parole". Griglie regolabili da 5×5 a 30×30 con controllo su direzioni diagonali e invertite per calibrare la difficoltà. Tre fonti di contenuto: libreria di oltre 3.100 immagini in 104 temi, modifica manuale o lista personalizzata di parole. Le griglie in italiano includono à, è, é, ì, ò, ù con frequenze naturali — un prodotto genuinamente localizzato che nessun altro generatore offre. Foglio risposte con codice colori, esportazione PDF a oltre 400 DPI e licenza commerciale inclusa. I crucipuzzle sono tra i prodotti stampabili più venduti su Etsy a livello globale, ma in italiano la concorrenza è quasi inesistente. Compila libri di crucipuzzle tematici per KDP o vendi pacchetti singoli su Etsy — il potenziale è enorme in un mercato di 59 milioni di italofoni. Prova gratis con filigrana.',

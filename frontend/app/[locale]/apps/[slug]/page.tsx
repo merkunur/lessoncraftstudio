@@ -299,6 +299,8 @@ const uiStrings: Record<string, {
     pdfExport: 'Øjeblikkelig PDF-eksport',
     watermarkNote: 'Gratisversionen indeholder et vandmærke. Køb for at fjerne det.',
     startCreating: 'Begynd at skabe nu',
+    pairedToolPrompt: 'Leder du efter den gratis browser-version?',
+    pairedToolAnchor: 'Prøv Maker-værktøjet — ingen tilmelding.',
   },
   no: {
     tryFree: 'Prøv gratis (med vannmerke)',

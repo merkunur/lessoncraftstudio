@@ -26,6 +26,8 @@ const content: AppContent = {
       'Lav hemmelig besked med regnestykker til print, der forvandler addition til et detektivopdrag. Hvert billede på arbejdsarket skjuler et hemmeligt nummer — børnene løser plusstykker for at knække koden og dechifrere den skjulte besked. Det er en regnegåde, der kombinerer matematik med logisk tænkning i én engagerende øvelse. Skift til Afslør Ord-tilstanden, og udfordringen vokser: skriv en hemmelig besked på op til ti bogstaver, og hver korrekt løst opgave afslører et bogstav i svaret, mens tre vildledende opgaver med forkerte summer øger spændingen. Det danske marked for kodeopgaver matematik er næsten ubesat. Med 5,8 millioner dansktalende og stigende interesse for printbare aktiviteter på Etsy.dk er \"kodeknækker matematik opgave\" og \"hemmelig kode plusstykker\" søgeord med lav konkurrence og høj købsintention. Generatoren understøtter elleve sprogspecifikke alfabeter — det danske alfabet med æ, ø og å fungerer naturligt, så hemmelige ord som \"gåde\" og \"knække\" vises korrekt. Brug de 104 temaer og mere end 3.100 billeder til at lave regnegåder til børnehaveklasse og indskoling (1.–2. klasse) med talintervaller fra 1 til 20. Vælg to til fem kodesymboler per arbejdsark og eksporter trykklare PDF\'er med mere end 400 DPI med automatisk facit. Prøv gratis med alle funktioner — uden tilmelding, uden kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
+  ctaHeading: 'Lav hemmelige kodemeddelelser',
+
   howItWorks: {
     title: 'Sådan laver du hemmelig besked med regnestykker i 5 trin',
     steps: [

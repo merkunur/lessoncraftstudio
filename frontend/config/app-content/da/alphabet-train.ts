@@ -28,6 +28,8 @@ const content: AppContent = {
       'Lav iøjnefaldende alfabet-opgaver, hvor 11 farverige togvogne ruller hen over siden, hver med et bogstav koblet til en matchende illustration for bogstavgenkendelse. Vælg tilstanden Automatisk Oprettelse for øjeblikkelige tilfældige bogstavsvalg eller den Manuelle tilstand for at vælge præcis 11 bogstaver fra ABC-alfabetet til målrettet øvelse. Tilføj 3 til 11 justerbare ledetråde per arbejdsark — billedledetråde, som brugerne kobler til den rigtige bogstavsvogn — hvilket forvandler passiv bogstavgenkendelse til en aktiv problemløsningsøvelse. Det danske marked med 5,8 millioner dansktalende har minimal konkurrence inden for printbare alfabet-opgaver til folkeskolen. Børnehaveklasse bruger Automatisk Oprettelse med 3–5 ledetråde for enkel bogstavgenkendelse af store bogstaver, mens 1. klasse bruger Manuel tilstand med 8–11 ledetråde for at lære alfabetisk rækkefølge med både store og små bogstaver. Gennemse mere end 3.100 omhyggeligt udvalgte illustrationer i 104 temaer. Fuld Adgang låser op for alle 11 understøttede sprog med egne alfabeter — tysk med Ä/Ö/Ü, dansk med Æ/Ø/Å, spansk med N og flere — hvilket multiplicerer dit produktkatalog elleve gange. Hvert arbejdsark genererer automatisk en facitliste. Eksporter trykklare PDF\'er og JPEG\'er med mere end 300 DPI i Letter-, A4- eller Kvadratformat. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
+  ctaHeading: 'Lav alfabetopgaver',
+
   howItWorks: {
     title: 'Sådan Laver du Alfabet-Opgaver i 5 Trin',
     steps: [

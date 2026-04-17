@@ -27,6 +27,8 @@ const content: AppContent = {
       'Lav regnespil til print, hvor et billede deles op i et gitter af puslespilsbrikker, og hver brik indeholder en matematikopgave. Børnene løser stykkerne og kobler de nummererede svar til de blandede brikker under gitteret — så forvandles regning til et sjovt visuelt mysterium. Det er legende matematikopgaver, der kombinerer logik, tænkning og puslespilsglæde i ét ark. Konfigurer gitterstørrelser fra 2×2 til 4×4 for at lave regnegåder med 4 til 16 brikker, og vælg addition, subtraktion eller blandede operationer. Det danske marked for matematik puslespil opgaver er næsten ubesat. Med 5,8 millioner dansktalende og stigende interesse for printbare regnespil på Etsy.dk er søgeord som \"regnegåder til print\" og \"sjove regneopgaver\" nicher med lav konkurrence. Brug generatoren til at lave legende matematikopgaver til børnehaveklasse (indskoling), 1.–2. klasse og mellemtrin. Gennemse mere end 3.100 illustrationer i 104 temaer som bondegårdsdyr, rummet, dinosaurer og højtider for at gøre hvert puslespil unikt. Hvert arbejdsark genererer en automatisk facitliste med det løste gitter ved siden af det samlede billede. Eksporter trykklare PDF\'er med 400+ DPI i Letter-, A4- eller brugerdefinerede formater. Uanset om du sælger puslespilspakker på Etsy.dk, sammensætter regnegåde-bøger til Amazon KDP, eller laver matematik-stationer — denne regnespil generator leverer professionelle resultater på få minutter. Prøv gratis med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
+  ctaHeading: 'Lav mattegåder',
+
   howItWorks: {
     title: 'Sådan laver du regnespil til print i 5 trin',
     steps: [

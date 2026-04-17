@@ -29,6 +29,8 @@ const content: AppContent = {
       'Lav printbare labyrinter med temabilleder i tre spiltilstande. Billedsti opretter et gitter af billeder, hvor børn følger den rigtige vej fra start til mål. Klassisk Labyrint genererer vægbaserede labyrinter med LPF-algoritmen — konfigurer gitterstørrelser fra 15×15 til 20×20, indstil 1 til 3 veje med blindgyde-blokering, og tilpas vægfarve, tykkelse og opacitet. Vælg den Rigtige Vej præsenterer trevejslabyrinter, hvor børn finder den eneste korrekte sti blandt lokkeduer. Det danske marked med 5,8 millioner dansktalende har meget få printbare labyrinter på Etsy.dk og Amazon KDP — en åben niche for sælgere. Labyrinter er ideelle til børnehaveklasse, hvor børn træner finmotorik og rumlig orientering, til indskoling (0.–3. klasse), hvor problemløsning og logisk tænkning er i fokus, og til mellemtrin (4.–6. klasse), hvor vægbaserede labyrinter med flere veje giver ægte udfordring. Hvert opgaveark genererer automatisk en facitliste med rosa cirkler langs den korrekte løsningsvej. Tildel billeder til fem roller: Start, Mål, Vej, Distraktor og Dekoration. Vælg blandt mere end 3.100 illustrationer i 104 temaer. Labyrinter er rent visuelle — de kræver ingen læsning og fungerer på alle sprog uden oversættelse, hvilket gør dem direkte salgbare globalt. Eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
+  ctaHeading: 'Lav labyrinter',
+
   howItWorks: {
     title: 'Sådan laver du labyrinter til print i 5 trin',
     steps: [

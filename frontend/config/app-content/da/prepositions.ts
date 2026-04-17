@@ -29,6 +29,8 @@ const content: AppContent = {
       'Lav professionelle opgaver om rumlig orientering og forholdsord, hvor børn øver retningsbegreber gennem billede-og-form øvelser. Børnene arbejder med otte forholdsord — i, på, under, ved siden af, bag, mellem, over og foran — i to øvelsestilstande: Udfyldningsøvelser, hvor de skriver det manglende forholdsord, og Flervalgsspørgsmål, hvor de identificerer billedet, der matcher en rumlig beskrivelse. Det danske marked med 5,8 millioner dansktalende har meget få printbare opgaver om rumlig orientering og forholdsord på Etsy.dk og Amazon KDP — en åben niche for sælgere. Opgaverne er ideelle til børnehaveklasse, hvor rumsans og retningsbegreber er en del af den daglige undervisning, til indskoling (0.–3. klasse), hvor rumlig orientering indgår i læringsmålene, og til mellemtrin (4.–6. klasse) med sprogbevidst grammatik på 11 sprog. Vælg hvilke forholdsord du vil inkludere via tjeklisten, konfigurer 1 til 8 øvelser per opgaveark, og vælg blandt mere end 3.100 illustrationer i 104 temaer og 8 geometriske former. Generatoren understøtter 11 sprog med grammatisk korrekte forholdsord — dansk med korrekte bøjninger, tysk med kasussammentrækninger, fransk med elisionsregler — hvilket multiplicerer dit produktkatalog. Hvert opgaveark genererer automatisk en facitliste, og du kan eksportere trykklare PDF\'er med mere end 400 DPI. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
+  ctaHeading: 'Lav forholdsordopgaver',
+
   howItWorks: {
     title: 'Sådan laver du opgaver om rumlig orientering i 5 trin',
     steps: [

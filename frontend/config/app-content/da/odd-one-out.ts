@@ -28,6 +28,8 @@ const content: AppContent = {
       'Lav professionelle opgaver til logisk tænkning, hvor børn finder den, der ikke hører til, i en række af fire billeder. Vælg mellem to tilstande: Identisk tilstand placerer tre ens billeder ved siden af ét, der passer ikke — perfekt til visuel klassifikation for de yngste. Lignende tilstand henter tre billeder fra ét tema og ét fra et andet til temaovergribende logik, hvor børn skal kategorisere og tænke abstrakt. Tilsidesæt tilstanden per øvelse for at blande sværhedsgrader inden for ét opgaveark. Konfigurer 5 til 10 øvelser per side og slå navn- og datofelter til. Hvert opgaveark genererer automatisk en facitliste med røde cirkler rundt det billede, der ikke passer. Det danske marked med 5,8 millioner dansktalende har næsten ingen printbare logikopgaver af typen "hvad passer ikke?" på Etsy.dk og Amazon KDP — en åben niche for sælgere. Opgaverne er ideelle til børnehaveklasse og indskoling (0.–3. klasse), hvor logisk tænkning og klassifikation er en del af læseplanen. Børn i mellemtrin (4.–6. klasse) kan udfordres med Lignende tilstand og subtile temadistinktioner. Fordi opgaverne er rent visuelle — ingen tekst på selve opgavearket — fungerer de på alle sprog uden oversættelse. Vælg blandt mere end 3.100 illustrationer i 104 temaer, tilføj baggrunds- og rammetemaer, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
+  ctaHeading: 'Lav find-den-forkerte-opgaver',
+
   howItWorks: {
     title: 'Sådan laver du "hvad passer ikke?"-opgaver i 5 trin',
     steps: [

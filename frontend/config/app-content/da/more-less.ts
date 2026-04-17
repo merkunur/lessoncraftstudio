@@ -29,6 +29,8 @@ const content: AppContent = {
       'Lav professionelle opgaver om at sammenligne tal og mængder med temabilleder — klar til print som PDF i høj kvalitet. Vælg blandt tre øvelsestilstande: Billede til Billede, hvor børn tæller og afgør, hvilken gruppe der har flere eller færre; Billede til Tal, hvor en gruppe billeder sammenlignes med et tal; og Tjek og Kryds Grupper, hvor børn finder majoritetsgruppen i en kasse med blandede billeder. Skift mellem samme billeder og forskellige billeder, vælg illustrationssymboler eller almindelige matematiske tegn (>, <, =), og vælg blandt mere end 3.100 billeder i 104 temaer. Det danske marked med 5,8 millioner dansktalende byder på lav konkurrence inden for printbare opgaver om at sammenligne mængder. Etsy.dk og Amazon KDP har meget få danske sammenligningsopgaver, hvilket gør det til en attraktiv niche for sælgere. Opgaverne er ideelle til børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse) — tilpas sværhedsgraden med talintervaller fra 1 til 10 og billedvariation. Hvert opgaveark genererer automatisk en facitliste med korrekte sammenligningssymboler. Eksporter trykklare PDF\'er i Letter, A4 eller brugerdefineret format med mere end 400 DPI. Uanset om du sælger temapakker med større end og mindre end opgaver på Etsy.dk, sammensætter sammenligningsbøger til Amazon KDP eller opretter niveauinddelte matematikstationer — generatoren leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
+  ctaHeading: 'Lav opgaver større eller mindre',
+
   howItWorks: {
     title: 'Sådan laver du opgaver om at sammenligne tal i 5 trin',
     steps: [

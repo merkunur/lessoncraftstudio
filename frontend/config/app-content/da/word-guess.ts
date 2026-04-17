@@ -27,6 +27,8 @@ const content: AppContent = {
       'Lav professionelle galge-opgaver, hvor brugerne ser en billedledetråd og gætter det skjulte ord ved at udfylde tomme bogstavsceller — et hængespil-inspireret puslespil, der bygger stavning, ordforråd og deduktiv tænkning samtidig. Vælg mellem tre indholdskilder: det indbyggede billedbibliotek med mere end 3.100 illustrationer i 104 temaer, Manuel Redigeringstilstand, hvor du vælger billeder og tilpasser visningsnavnene, eller Egen Ordliste til tekstbaserede puslespil med valgfrit ordforråd. Fire sværhedsgrader styrer, hvor mange bogstaver der vises som ledetråde — fra ingen ledetråde overhovedet til let tilstand, der viser halvdelen af bogstaverne. Det danske marked med 5,8 millioner dansktalende har næsten ingen konkurrence inden for printbare galge-opgaver og ordgåder til folkeskolen. Børnehaveklasse og indskoling (0.–3. klasse) bruger Let tilstand med billedledetråde og enkle ord, mens mellemtrin (4.–6. klasse) bruger Svær eller Ingen Ledetråde med længere ordforråds-termer. Placer 1 til 10 puslespil per arbejdsark og skift mellem store og små bogstaver. Fuld Adgang låser op for alle 11 understøttede sprog, og fordi generatoren er sprogfølsom, ændres selve målordet efter sprog — \"dog\" på engelsk bliver \"Hund\" på tysk og \"hund\" på dansk. Hvert arbejdsark genererer en automatisk facitliste. Eksporter trykklare PDF\'er og JPEG-billeder med mere end 300 DPI i Letter-, A4-, Kvadrat- eller brugerdefineret format. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',
   },
 
+  ctaHeading: 'Lav hængt mand-opgaver',
+
   howItWorks: {
     title: 'Sådan Laver du Galge-Opgaver i 5 Trin',
     steps: [

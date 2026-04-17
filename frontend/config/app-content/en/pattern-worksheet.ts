@@ -29,6 +29,8 @@ const content: AppContent = {
       'Pattern recognition worksheets build critical thinking skills that parents and educators actively seek -- making them a reliable seller on Etsy and Amazon KDP year-round. This maker creates professional visual pattern activities where learners identify, extend, and complete image sequences using themed illustrations. Choose from 3,000+ images across 104 collections, configure pattern complexity and length, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. Pattern worksheets pair naturally with other early learning formats for comprehensive bundles that command premium prices. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating pattern worksheets',
+
   howItWorks: {
     title: 'How to Create Pattern Worksheets Step by Step',
     steps: [

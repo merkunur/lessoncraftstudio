@@ -29,6 +29,8 @@ const content: AppContent = {
       'Stand out in the math printable market with grid-based picture puzzles that combine calculation with logic — a format most Etsy sellers don\'t offer. This generator creates math puzzle worksheets where students solve arithmetic within visual grids using themed images, producing a distinctive product that catches buyers\' attention and commands higher prices than standard math drills. Generate complete puzzles in under 3 minutes with 300 DPI export, automatic answer keys, and full commercial licensing for Etsy, Amazon KDP, TPT, or any marketplace. Math puzzle books are a growing niche on KDP because they offer something beyond basic practice — and this generator lets you fill that niche without graphic design skills. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating math logic puzzles',
+
   howItWorks: {
     title: 'How the Grid Math Puzzle Generator Works',
     steps: [

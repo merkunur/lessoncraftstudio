@@ -63,6 +63,7 @@ export interface PageVisuals {
 export interface AppContent {
   seo: AppContentSEO;
   hero: AppContentHero;
+  ctaHeading?: string;
   howItWorks: { title: string; steps: HowItWorksStep[] };
   keyFeatures: { title: string; features: KeyFeature[] };
   businessUseCases: { title: string; cases: BusinessUseCase[] };

@@ -29,6 +29,8 @@ const content: AppContent = {
       'Preposition worksheets target the massive ESL and language learning market on Etsy — a niche with consistent demand from teachers, tutors, and parents worldwide. This generator creates professional visual preposition activities where learners identify spatial relationships using themed images. The 11-language support produces genuinely different content per locale, so each language is a distinct sellable product for ESL markets. Choose from 3,000+ themed illustrations across 104 collections and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. ESL printables are one of the fastest-growing niches on Etsy, and preposition worksheets fill a specific gap most sellers overlook. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating prepositions worksheets',
+
   howItWorks: {
     title: 'How to Create Preposition Worksheets Step by Step',
     steps: [

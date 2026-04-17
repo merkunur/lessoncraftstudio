@@ -29,6 +29,8 @@ const content: AppContent = {
       'Pattern recognition worksheets are essential early math products that sell consistently on Etsy -- parents and teachers use them to teach sequencing skills from preschool through first grade. This generator creates unique train-themed pattern activities where each train car displays an image in a repeating sequence, and solvers identify and continue the pattern. Choose from 3,000+ themed illustrations across 104 collections, configure pattern complexity, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The visual train format makes pattern practice engaging and visually distinctive in Etsy search results. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating pattern train worksheets',
+
   howItWorks: {
     title: 'How to Create Pattern Train Worksheets Step by Step',
     steps: [

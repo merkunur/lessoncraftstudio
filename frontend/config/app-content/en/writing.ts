@@ -29,6 +29,8 @@ const content: AppContent = {
       'Handwriting worksheets are evergreen sellers on Etsy and Amazon KDP — parents and homeschool families buy them year-round. This generator creates professional letter practice sheets with three progressive modes: Trace for beginners, Fading Trace that builds confidence, and Guided Copy for near-independent writing. Choose from five font styles including arrow-guided stroke order, and draw content from 3,000+ themed images or type any custom text. Every worksheet exports as a 300 DPI print-ready PDF with full commercial license — no attribution, no royalties, no restrictions. Build complete handwriting workbooks for Amazon KDP or themed practice bundles for Etsy in a fraction of the time manual creation takes. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating handwriting practice sheets',
+
   howItWorks: {
     title: 'How to Create Handwriting Sheets in Under 3 Minutes',
     steps: [

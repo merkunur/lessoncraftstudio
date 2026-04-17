@@ -29,6 +29,8 @@ const content: AppContent = {
       'Sorting and categorization worksheets are essential early learning products that sell consistently on Etsy — parents and teachers use them to teach classification skills from preschool through first grade. This maker creates professional picture sorting activities where solvers place images into correct categories using themed illustrations. Choose from 3,000+ images across 104 collections, configure sorting categories, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The visual format works worldwide without translation, and sorting worksheets pair naturally with matching and pattern activities for comprehensive early learning bundles. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating picture sort worksheets',
+
   howItWorks: {
     title: 'How to Create Sorting Worksheets Step by Step',
     steps: [

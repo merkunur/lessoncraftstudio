@@ -29,6 +29,8 @@ const content: AppContent = {
       'Greater than and less than worksheets are a foundational math product that sells year-round on Etsy — parents, homeschool families, and teachers need them at every early grade level. This creator generates professional visual number comparison worksheets with three distinct modes: Image to Image, Image to Number, and the unique Check & Cross Groups format. Toggle between same-image and different-image comparisons, choose illustration-style or standard math symbols, and pick from 3,000+ themed images across 104 collections. Every worksheet exports as a 300 DPI print-ready PDF with automatic answer keys and full commercial license for Etsy, Amazon KDP, or any marketplace. Build comparison activity books for KDP or themed math bundles for Etsy. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating more-or-less worksheets',
+
   howItWorks: {
     title: 'How to Create Comparison Worksheets Step by Step',
     steps: [

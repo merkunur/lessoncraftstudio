@@ -29,6 +29,8 @@ const content: AppContent = {
       'Turn subtraction into a sellable product with a generator built for printable entrepreneurs. Create image-based subtraction worksheets featuring themed illustrations — animals, vehicles, food, nature, and dozens more — that make math engaging and your listings irresistible. Each worksheet exports as a 300 DPI print-ready PDF with an automatic answer key, ready to upload as a digital download on Etsy, compile into an Amazon KDP activity book, or list on Teachers Pay Teachers. Commercial license is included with every worksheet, so you keep 100% of your revenue with zero attribution required. Sellers who bundle addition and subtraction worksheets together consistently report higher average order values — and you can create both formats in under 3 minutes each. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating subtraction worksheets',
+
   howItWorks: {
     title: 'Generate Professional Subtraction Printables Step by Step',
     steps: [

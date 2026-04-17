@@ -29,6 +29,8 @@ const content: AppContent = {
       'Missing piece puzzles are a distinctive format for Amazon KDP activity books — solvers identify which piece completes an image, building observation and visual discrimination skills that parents actively seek. This generator creates professional missing pieces worksheets with configurable grid sizes and automatic answer keys in under 3 minutes. Choose from 3,000+ themed illustrations across 104 collections to match any niche or seasonal trend. Every puzzle exports as a 300 DPI print-ready PDF with full commercial license for Etsy, Amazon KDP, or any marketplace. The purely visual format works worldwide without translation, and the unique puzzle type faces far less competition than standard worksheets. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating missing pieces puzzles',
+
   howItWorks: {
     title: 'How to Create Missing Piece Puzzles Step by Step',
     steps: [

@@ -29,6 +29,8 @@ const content: AppContent = {
       'Grid matching puzzles offer a unique visual format that stands out from standard worksheets on Etsy — solvers match numbered tiles back to their correct positions in a divided image grid, combining spatial reasoning with observation skills. This generator creates professional grid match puzzles for your printable business with configurable grids from 2x2 to 4x4, adjustable clue cells for difficulty control, and automatic answer keys with numbered overlays. Choose from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with full commercial license. The purely visual format means every puzzle works worldwide without translation. Build themed bundles for Etsy or compile visual perception workbooks for Amazon KDP. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating grid match worksheets',
+
   howItWorks: {
     title: 'How to Create Grid Match Puzzles Step by Step',
     steps: [

@@ -29,6 +29,8 @@ const content: AppContent = {
       'Hangman-style word guess puzzles are a unique format that stands out in crowded Etsy search results — and this creator generates professional vocabulary worksheets for your printable shop in under 3 minutes. Each puzzle shows an image clue and a row of blank letter cells, challenging solvers to deduce the hidden word one letter at a time. Four difficulty levels control how many letters are pre-revealed, creating natural product tiers from beginner to advanced. Choose from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with automatic answer keys. The commercial license covers Etsy, Amazon KDP, TPT, and any marketplace. Built-in 11-language support generates different target words per locale, so a single tool creates sellable products across multiple markets. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating word guess worksheets',
+
   howItWorks: {
     title: 'How to Generate Word Guess Puzzles Step by Step',
     steps: [

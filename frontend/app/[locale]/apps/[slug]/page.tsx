@@ -1497,7 +1497,7 @@ export default async function AppDetailPage({
           <section className="py-12 md:py-16 bg-indigo-600">
             <div className="container mx-auto px-4 text-center">
               <h2 className="text-2xl font-bold text-white mb-4">
-                {content.hero.title}
+                {content.ctaHeading || ui.startCreating || 'Start creating now'}
               </h2>
               <p className="text-indigo-100 mb-8 max-w-lg mx-auto">{content.hero.tagline}</p>
               <TryFreeButton launchUrl={launchUrl} label={ui.tryFree} variant="light" />

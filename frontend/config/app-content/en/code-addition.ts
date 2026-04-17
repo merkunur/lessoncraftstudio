@@ -29,6 +29,8 @@ const content: AppContent = {
       'Most Etsy math printable shops sell the same addition drills everyone else offers. Code addition worksheets give you a competitive edge — they combine arithmetic with secret message decoding, creating a puzzle format that few sellers offer and buyers love. Students solve math problems to decode hidden words, making these worksheets both educational and genuinely fun. Generate unique crack-the-code math puzzles in under 3 minutes, export as 300 DPI print-ready PDFs with answer keys, and list them on Etsy, Amazon KDP, or TPT with the included commercial license. This is one of the lowest-competition niches in the educational printable market, and the combination format lets you price higher than standard math worksheets. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating code-breaking addition puzzles',
+
   howItWorks: {
     title: 'How the Secret Code Generator Works',
     steps: [

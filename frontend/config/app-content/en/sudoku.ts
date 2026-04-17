@@ -29,6 +29,8 @@ const content: AppContent = {
       'Sudoku books are a proven top-seller on Amazon KDP -- and picture sudoku adds visual appeal that standard number versions lack. This generator creates professional 4x4 picture sudoku puzzles where solvers fill blank cells with themed images using row-and-column logic. Three difficulty levels from 4 to 8 blank cells let you build progressive puzzle books from easy to challenging. Choose from 3,000+ themed illustrations across 104 collections to match any niche. Every puzzle exports as a 300 DPI print-ready PDF with automatic answer keys and full commercial license. The purely visual format works worldwide without translation, and the 4x4 grid is perfect for younger solvers -- an audience standard 9x9 sudoku doesn\'t serve. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating sudoku puzzles',
+
   howItWorks: {
     title: 'How to Create Picture Sudoku Puzzles Step by Step',
     steps: [

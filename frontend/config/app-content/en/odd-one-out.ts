@@ -29,6 +29,8 @@ const content: AppContent = {
       'Odd one out puzzles are a universally appealing format that sells well on Etsy and in Amazon KDP activity books — solvers spot the different item in each row, building critical thinking and visual discrimination skills. This maker creates professional find-the-different worksheets with two generation modes: Identical mode for spot-the-difference challenges and Similar mode for cross-theme discrimination puzzles. Configure 5-10 exercises per page and mix difficulty levels within a single worksheet. Choose from 3,000+ themed illustrations across 104 collections and export 300 DPI print-ready PDFs with automatic answer keys that circle the odd item in red. Every worksheet includes full commercial license for Etsy, Amazon KDP, or any marketplace. The purely visual format works worldwide without translation. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating odd-one-out worksheets',
+
   howItWorks: {
     title: 'How to Create Odd One Out Puzzles Step by Step',
     steps: [

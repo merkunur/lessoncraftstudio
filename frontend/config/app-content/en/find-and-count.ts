@@ -29,6 +29,8 @@ const content: AppContent = {
       'Find-and-count worksheets combine the appeal of I Spy with counting practice — a format that sells consistently on Etsy and makes excellent Amazon KDP activity books. This creator generates professional search-and-count worksheets where solvers find specific objects in a scattered scene and complete tasks like circling, counting, or crossing out items. The Letter Spotting mode adds alphabet learning with locale-specific characters including German umlauts and French accents. Choose from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with automatic annotated answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The 11-language support with localized image labels creates distinct products per locale. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating find-and-count pages',
+
   howItWorks: {
     title: 'How to Generate Find and Count Worksheets Step by Step',
     steps: [

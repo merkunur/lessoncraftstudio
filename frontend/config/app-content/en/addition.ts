@@ -29,6 +29,8 @@ const content: AppContent = {
       'Create addition worksheets to sell on Etsy, Amazon KDP, or Teachers Pay Teachers — and generate them in under 3 minutes. This generator builds visual addition problems using themed images that kids love and parents buy. Choose from 3,000+ illustrations organized by theme, set your difficulty level, and export print-ready 300 DPI PDFs with answer keys automatically included. Every worksheet you create comes with a full commercial license — no attribution required, no royalty fees, no restrictions on where you sell. Whether you\'re launching your first Etsy printable shop or expanding an existing KDP activity book catalog, this tool replaces hours of manual design work with professional output that stands out in crowded marketplaces. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating addition worksheets',
+
   howItWorks: {
     title: 'How to Generate Addition Printables in Under 3 Minutes',
     steps: [

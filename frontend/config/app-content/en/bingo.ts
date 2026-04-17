@@ -29,6 +29,8 @@ const content: AppContent = {
       'Bingo cards are one of the most versatile printable products on Etsy -- they sell for parties, classrooms, holidays, and family game nights year-round. This maker creates professional picture bingo cards with themed images, unique randomized layouts for every card, and automatic caller sheets in under 3 minutes. Choose from 3,000+ illustrations across 104 collections to match any seasonal trend, holiday, or interest niche. Every bingo set exports as 300 DPI print-ready PDFs with full commercial license for Etsy, Amazon KDP, or any marketplace. Themed bingo bundles -- Halloween, Christmas, farm animals, ocean life -- consistently rank among top-selling party printables on Etsy. The visual format works worldwide without translation. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating bingo cards',
+
   howItWorks: {
     title: 'How to Create Bingo Cards in Under 3 Minutes',
     steps: [

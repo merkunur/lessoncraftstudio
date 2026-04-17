@@ -29,6 +29,8 @@ const content: AppContent = {
       'Tracing line worksheets tap into the huge pre-writing and fine motor skills niche on Etsy — parents and therapists buy them for toddlers and preschoolers year-round. This generator creates professional line tracing activities where users draw along guided paths to connect matching image pairs. Eight SVG-based templates cover curves, diagonals, horizontal, and vertical lines with 4-5 themed image pairs per page. Choose from 3,000+ illustrations across 104 themed collections to create products that match any seasonal trend or interest niche. Every worksheet is purely visual with zero text, making them universally sellable worldwide. Export 300 DPI print-ready PDFs with full commercial license for Etsy, Amazon KDP, or any marketplace. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating line tracing worksheets',
+
   howItWorks: {
     title: 'How to Create Tracing Worksheets Step by Step',
     steps: [

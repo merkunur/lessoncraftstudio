@@ -29,6 +29,8 @@ const content: AppContent = {
       'Graphing and data worksheets are an underserved niche on Etsy — most sellers focus on basic math, leaving counting chart printables as a low-competition opportunity. This generator creates picture graph and chart count worksheets using themed images where students count, tally, and compare data visually. Export as 300 DPI print-ready PDFs with automatic answer keys and sell them on Etsy, compile them into Amazon KDP data and graphing workbooks, or list on TPT for classroom use. The commercial license covers all platforms with zero restrictions. Tap into the growing demand for STEM-focused early learning printables with a product format that few competing sellers offer. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating counting chart worksheets',
+
   howItWorks: {
     title: 'How the Chart Count Generator Works',
     steps: [

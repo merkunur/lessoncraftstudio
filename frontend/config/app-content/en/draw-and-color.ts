@@ -29,6 +29,8 @@ const content: AppContent = {
       'Draw and color worksheets combine two activities kids love — drawing and coloring — into a single product format that stands out on Etsy. This maker creates professional grid-based drawing activities where learners copy images cell by cell, then color their creation. Choose from 3,000+ themed illustrations across 104 collections as drawing reference images. Every worksheet exports as a 300 DPI print-ready PDF with full commercial license for Etsy, Amazon KDP, or any marketplace. Art activity printables are a growing niche with strong demand from parents seeking screen-free creative activities. Build themed drawing bundles for Etsy or compile art workbooks for Amazon KDP. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',
   },
 
+  ctaHeading: 'Start creating draw-and-color worksheets',
+
   howItWorks: {
     title: 'How to Create Draw and Color Worksheets Step by Step',
     steps: [

@@ -71,49 +71,13 @@ const nextConfig = {
     ];
   },
 
-  // Most redirects are handled in middleware.ts for O(1) Map lookups. BUT
-  // middleware is excluded from /worksheet-generators/* (static-file path),
-  // so redirects here cover that subtree exclusively.
-  //
-  // Why these redirects exist: the 22 worksheet-generator HTML files live
-  // on a protected isolated storage with literal spaces in their names
-  // (e.g. `word guess.html`). Internal links now emit hyphenated URLs
-  // (cleaner for SEO and external backlinks); 301s below rewrite the
-  // clean URL to the actual filesystem path so the static file still
-  // serves. The spaced URLs continue to work too (no file rename).
+  // ALL redirects are handled in middleware.ts for O(1) Map lookups.
+  // /worksheet-generators/* is served directly by nginx and bypasses
+  // Next.js entirely, so adding redirects here for that subtree has no
+  // effect — internal links use the spaced filenames verbatim
+  // (percent-encoded at emission).
   async redirects() {
-    const generatorRenames = [
-      ['alphabet-train', 'alphabet train'],
-      ['big-small', 'big small'],
-      ['chart-count', 'chart count'],
-      ['code-addition', 'code addition'],
-      ['draw-and-color', 'draw and color'],
-      ['drawing-lines', 'drawing lines'],
-      ['find-and-count', 'find and count'],
-      ['find-objects', 'find objects'],
-      ['grid-match', 'grid match'],
-      ['math-puzzle', 'math puzzle'],
-      ['math-worksheet', 'math worksheet'],
-      ['memory-game', 'memory game'],
-      ['missing-pieces', 'missing pieces'],
-      ['more-less', 'more less'],
-      ['odd-one-out', 'odd one out'],
-      ['pattern-complete', 'pattern complete'],
-      ['pattern-train', 'pattern train'],
-      ['pattern-worksheet', 'pattern worksheet'],
-      ['picture-path', 'picture path'],
-      ['picture-sort', 'picture sort'],
-      ['same-different', 'same different'],
-      ['shadow-match', 'shadow match'],
-      ['treasure-hunt', 'treasure hunt'],
-      ['word-guess', 'word guess'],
-      ['word-scramble', 'word scramble'],
-    ];
-    return generatorRenames.map(([hyphen, spaced]) => ({
-      source: `/worksheet-generators/${hyphen}.html`,
-      destination: `/worksheet-generators/${spaced}.html`,
-      permanent: true,
-    }));
+    return [];
   },
 };
 

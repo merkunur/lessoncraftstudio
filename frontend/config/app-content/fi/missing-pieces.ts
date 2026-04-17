@@ -27,6 +27,8 @@ const content: AppContent = {
       'Puuttuvat palat -palapelit ovat erottuva muoto Amazon KDP -aktiviteettikirjoihin — ratkaisijat tunnistavat mikä pala täydentää kuvan, kehittäen havainto- ja visuaalisia erottelutaitoja, joita vanhemmat aktiivisesti etsivät. Tämä generaattori luo ammattimaisia puuttuvien palojen työlehtia säädettävillä ruudukkoko\'oilla ja automaattisilla vastausavaimilla alle 3 minuutissa. Valitse yli 3 000 temaattisesta kuvituksesta 104 kokoelmasta mihin tahansa nicheen tai kausitrenkiin. Jokainen palapeli viedään 300 DPI:n tulostusvalmiina PDF:nä kaupallisella lisenssillä Etsyyn, Amazon KDP:hen tai mille tahansa markkinapaikalle. Puhtaasti visuaalinen muoto toimii maailmanlaajuisesti ilman käännöstä, ja uniikki palapeelityyppi kohtaa paljon vähemmän kilpailua kuin tavalliset työlehdet. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
   },
 
+  ctaHeading: 'Luo puuttuvien palojen tehtäviä',
+
   howItWorks: {
     title: 'Näin luot Puuttuvat Palat -palapeleja vaihe vaiheelta',
     steps: [

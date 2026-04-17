@@ -27,6 +27,8 @@ const content: AppContent = {
       'Etsi ja Löydä- ja piiloesineiden työlehdet ovat kasvava niche Etsyssä ja Amazon KDP:ssä — vanhemmat rakastavat niitä ruutuvapaan viihteen vuoksi ja myyjät rakastavat uusintaostoprosentteja. Tämä tulosteiden tekijä luo ammattimaisia Etsi ja Löydä -kohtauksia päällekkäisyyttä välttävällä sijoittelualgoritmilla, joka hajauttaa esineet luonnollisesti, plus Kumpi Ei Kuulu -tilan vaihteluun. Valitse yli 3 000 temaattisesta kuvituksesta 104 kokoelmasta. Jokainen työlehti luo automaattisen vastausavaimen punaisilla ympyrämerkinnöillä, viedään 300 DPI:n tulostusvalmiina PDF:nä ja sisältää kaupallisen lisenssin. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
   },
 
+  ctaHeading: 'Luo etsintäpelejä',
+
   howItWorks: {
     title: 'Näin luot Etsi ja Löydä -työlehtia alle 3 minuutissa',
     steps: [

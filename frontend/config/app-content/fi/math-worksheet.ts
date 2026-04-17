@@ -28,6 +28,8 @@ const content: AppContent = {
       'Luo sitouttavia algebrallisia kuvapulmapeli tyoarkkeja, joissa kuvat toimivat tuntemattomina muuttujina yhtälöjärjestelmässä. Kayttajat ratkaisevat yhdistettyjä yhtälöitä maaritellakseen jokaisen kuvan numeerisen arvon — muuttaen abstraktin algebran konkreettiseksi, visuaaliseksi ajatteluprosessiksi. Valitse neljan vaikeustason valilta: Erittain Helppo ja Helppo kayttavat kahta symbolia, Keskitaso esittelee kolme symbolia ja Vaikea haastaa kayttajat neljalla samanaikaisella tuntemattomalla. Valitse tehtavat pelkalla yhteenlaskulla tai sekoita yhteen- ja vahennyslaskua edistyneeseen harjoitteluun, ja aseta lukualue tarkasti 0:sta 20:een valinnaisella negatiivisten tulosten kytkimella. Sisäänrakennettu algebrallinen ratkaisija takaa, etta jokaisella pulmalla on tarkalleen yksi oikea ratkaisu. Selaa yli 3 100 kuvitusta 104 teemassa algebrallisiksi symboleiksi. Jokainen tyoarkki luo automaattisen vastausavaimen. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja 400+ DPI:na. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo matematiikkatehtäviä',
+
   howItWorks: {
     title: 'Nain Luot Algebrapulmapeli Tyoarkkeja Viidessa Vaiheessa',
     steps: [

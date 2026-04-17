@@ -27,6 +27,8 @@ const content: AppContent = {
       'Suunnittele ammattimaisia kirjainsekoitus tyoarkkeja, joissa kayttajat nakevat kuvavihjeen ja järjestavat sekoitettuja kirjainlaattoja tavaamaan oikean sanan — kirjainjärjestelypulma, joka rakentaa oikeinkirjoitustarkkuutta, sanantunnistusta ja fonologista tietoisuutta samanaikaisesti. Valitse kolmesta sisaltolahteesta: sisäänrakennettu kuvakirjasto, Manuaalinen Muokkaustila tai Oma Sanalista enintaan 8 omalla sanalla. Nelja vaikeustasoa hallitsevat kuinka monta kirjainta on jo oikeassa paikassa. Vokaali-konsonantti-värikoodaus on ainutlaatuinen Kirjainsekoitukselle: ota kayttoon värilliset laatat, joissa vokaalit nakyyvat yhdessa varissa ja konsonantit toisessa. Aseta 1–10 pulmaa tyoarkkia kohti ja vaihda isojen ja pienten kirjainten valilla. Taysi Paasy avaa kaikki 11 tuettua kieltä. Jokainen tyoarkki luo automaattisen vastausavaimen. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo sekoitettujen kirjainten tehtäviä',
+
   howItWorks: {
     title: 'Nain Luot Kirjainsekoitus Tyoarkkeja Viidessa Vaiheessa',
     steps: [

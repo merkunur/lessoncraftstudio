@@ -28,6 +28,8 @@ const content: AppContent = {
       'Kuvapolku-sokkelot yhdistävät sokkelopalapelien ajattoman vetovoiman temaattisiin kuviin — ratkaisijat navigoivat polkuja tiettyihin määränpäihin luoden mukaansatempaavan muodon, joka myy hyvin Etsyssä ja Amazon KDP -aktiviteettikirjoissa. Tämä generaattori luo ammattimaisia kuvapolku-työlehtia temaattisilla kuvamääränpäillä ja automaattisilla vastausavaimilla alle 3 minuutissa. Valitse yli 3 000 kuvituksesta 104 kokoelmasta. Jokainen sokkelo viedään 300 DPI:n tulostusvalmiina PDF:nä kaupallisella lisenssillä. Sokkelo-aktiviteettikirjat ovat todistettu KDP-kategoria tasaisella kysynnällä, ja kuvapolku-muoto lisää visuaalista vetovoimaa, jota tavallisilla viivasokkeloilla ei ole. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
   },
 
+  ctaHeading: 'Luo labyrintteja',
+
   howItWorks: {
     title: 'Näin luot kuvapolku-sokkeloita vaihe vaiheelta',
     steps: [

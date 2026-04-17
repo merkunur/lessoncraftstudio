@@ -27,6 +27,8 @@ const content: AppContent = {
       'Hahmontunnistustyöarkit rakentavat kriittisen ajattelun taitoja, joita vanhemmat ja kasvattajat aktiivisesti etsivät — tehden niistä luotettavan myyjän Etsyssä ja Amazon KDP:ssä ympäri vuoden. Tämä generaattori luo ammattimaisia visuaalisia kuvioharjoituksia, joissa oppijat tunnistavat, jatkavat ja täydentävät kuvasarjoja temaattisilla kuvituksilla. Valitse yli 3 000 kuvitusta 104 kokoelmasta, konfiguroi kuvion monimutkaisuus ja pituus ja vie 300 DPI tulostusvalmiita PDF-tiedostoja automaattisilla vastauslehdillä. Kuviotyöarkit muodostavat luonnollisia pareja muiden varhaisen oppimisen muotojen kanssa kattaviin paketteihin. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo kuviotehtäviä',
+
   howItWorks: {
     title: 'Näin Luot Kuviotyöarkkeja Vaihe Vaiheelta',
     steps: [

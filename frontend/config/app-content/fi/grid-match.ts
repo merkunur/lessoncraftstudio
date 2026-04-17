@@ -27,6 +27,8 @@ const content: AppContent = {
       'Ruudukkoyhdistämispulmat tarjoavat ainutlaatuisen visuaalisen muodon, joka erottuu standardeista työarkeista Etsyssä — ratkojat yhdistävät numeroidut ruudut takaisin oikeisiin paikkoihinsa jaetussa kuvaruudukossa, yhdistäen spatiaalisen päättelyn havainnointitaitoihin. Tämä generaattori luo ammattimaisia ruudukkoyhdistämispulmia tulostettavaan liiketoimintaasi konfiguroitavilla ruudukoilla 2×2:sta 4×4:ään, säädettävillä vihjesoluilla vaikeuden hallintaan ja automaattisilla vastauslehdillä numeroiduilla päällysteillä. Valitse yli 3 000 kuvitusta 104 kokoelmasta ja vie 300 DPI tulostusvalmiita PDF-tiedostoja täydellä kaupallisella lisenssillä. Puhtaasti visuaalinen muoto tarkoittaa, että jokainen pulma toimii maailmanlaajuisesti ilman käännöstä. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo ruudukkotehtäviä',
+
   howItWorks: {
     title: 'Näin Luot Ruudukkoyhdistämispulmia Vaihe Vaiheelta',
     steps: [

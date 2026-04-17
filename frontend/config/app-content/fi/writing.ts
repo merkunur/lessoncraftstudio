@@ -28,6 +28,8 @@ const content: AppContent = {
       'Suunnittele ammattimaisia kirjoitusharjoitustyöarkkeja kolmella erillisellä harjoitustilalla, jotka luovat luonnollisen oppimisprogression: Jäljennä-tila tarjoaa kiinteät kirjainoppaat, joita aloittelijat seuraavat suoraan, Häipyvä Jäljennys vähentää kirjainnäkyvyyttä progressiivisesti rivin yli itseluottamuksen rakentamiseksi, ja Ohjattu Kopiointi tarjoaa haalean ääriviivan lähes itsenäiseen kirjoittamiseen. Valitse viidestä fonttityylistä — Tulostus Normaali, Tulostus Normaali Nuoli numeroiduilla vetojärjestyksen nuolilla, Tulostus Jäljennys, Tulostus Jäljennys Nuoli ja Kaunokirjoitus (Great Vibes). Jokainen rivi työarkissa voidaan konfiguroida erikseen: sekoita Jäljennä-tila uusille kirjaimille, Häipyvä Jäljennys harjoitelluille kirjaimille ja Ohjattu Kopiointi kertaukseen, kaikki samalla sivulla. Esikirjoitusviivat (pystyviivat, vaakaviivat, ympyrät ja siksak-viivat) lisäävät hienomotorisia lämmittelyjä. Sisältö haetaan sisäänrakennetusta kuvakirjastosta yli 3 100 kuvitusta 104 teemassa. Täysi Pääsy avaa kaikki 104 teemaa ja kaikki 11 käyttöliittymäkieltä. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja noin 300 DPI:llä Letter-, A4- tai mukautetussa koossa. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo kirjoitusharjoituksia',
+
   howItWorks: {
     title: 'Näin Luot Kirjoitusharjoitustyöarkkeja 5 Vaiheessa',
     steps: [

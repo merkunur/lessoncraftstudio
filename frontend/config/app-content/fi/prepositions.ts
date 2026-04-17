@@ -28,6 +28,8 @@ const content: AppContent = {
       'Suunnittele ammattimaisia prepositiot tyoarkkeja, jotka opettavat paikkasuhteita kaytannollisten kuva-ja-muoto-harjoitusten kautta. Kayttajat harjoittelevat kahdeksaa ydinprepositiota — sisalla, paalla, alla, vieressa, takana, valissa, ylapuolella ja edessa — kahdella eri harjoitustilalla: Tayttoharjoitukset, joissa kayttajat kirjoittavat puuttuvan preposition, ja Monivalintakysymykset, joissa kayttajat tunnistavat kuvan, joka vastaa paikallista kuvausta. Valitse mitkä prepositiot sisallyta sisäänrakennetulla tarkistuslistalla ja maarittele 1–8 harjoitusta tyoarkkia kohti. Selaa yli 3 100 kuvitusta 104 teemassa sijoitettaville esineille ja valitse 8 geometrisen muodon (ympyra, kuutio, lieriö, sydan, kuusikulmio, nelio, tahti, kolmio) joukosta. Taysi Paasy avaa kaikki 11 tuettua kieltä kieliopillisesti oikeilla prepositioilla. Jokainen tyoarkki luo automaattisen vastausavaimen. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo sijaintisanatehtäviä',
+
   howItWorks: {
     title: 'Nain Luot Prepositiot Tyoarkkeja Viidessa Vaiheessa',
     steps: [

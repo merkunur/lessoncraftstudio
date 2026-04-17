@@ -27,6 +27,8 @@ const content: AppContent = {
       'Kaaviointi- ja datatyöarkit ovat alikäytetty niche Etsyssä — useimmat myyjät keskittyvät perusmatematiikkaan, jättäen kuvakaaviolaskenta-tulostettavat matalan kilpailun mahdollisuudeksi. Tämä generaattori luo kuvagraafi- ja laskentatyöarkkeja temaattisilla kuvilla, joissa käyttäjät laskevat, merkitsevät ja vertaavat dataa visuaalisesti. Vie 300 DPI tulostusvalmiita PDF-tiedostoja automaattisilla vastauslehdillä ja myy ne Etsyssä, kokoa ne Amazon KDP:n datatyökirjoiksi tai listaa Gumroadissa. Kaupallinen lisenssi kattaa kaikki alustat nolla rajoituksin. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo laskutaulukoita',
+
   howItWorks: {
     title: 'Miten Kuvakaaviolaskenta-Generaattori Toimii',
     steps: [

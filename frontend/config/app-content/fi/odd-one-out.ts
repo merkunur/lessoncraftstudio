@@ -28,6 +28,8 @@ const content: AppContent = {
       'Kumpi ei kuulu -palapelit ovat universaalisti vetoava muoto, joka myy hyvin Etsyssä ja Amazon KDP -aktiviteettikirjoissa — ratkaisijat löytävät erilaisen kohteen jokaiselta riviltä, kehittäen kriittistä ajattelua ja visuaalista erottelukykyä. Tämä tekijä luo ammattimaisia etsi-erilainen-työlehtia kahdella luontitilalla: Identtinen tila spot-the-difference-haasteisiin ja Samankaltainen tila teemojen välisiin erottelupalapeleihin. Valitse yli 3 000 temaattisesta kuvituksesta 104 kokoelmasta ja vie 300 DPI:n tulostusvalmiita PDF-tiedostoja automaattisilla vastausavaimilla, jotka ympyröivät poikkeavan kohteen punaisella. Jokainen työlehti sisältää täyden kaupallisen lisenssin. Puhtaasti visuaalinen muoto toimii maailmanlaajuisesti ilman käännöstä. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
   },
 
+  ctaHeading: 'Luo mikä ei kuulu joukkoon -tehtäviä',
+
   howItWorks: {
     title: 'Näin luot Kumpi Ei Kuulu -palapeleja vaihe vaiheelta',
     steps: [

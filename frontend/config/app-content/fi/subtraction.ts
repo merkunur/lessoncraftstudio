@@ -28,6 +28,8 @@ const content: AppContent = {
       'Luo kuvapohjaisia vahennyslasku tyoarkkeja, jotka tekevat kasentteesta "poistaminen" nakyvaa ja ymmärrettavaa voimakkaan visuaalisen menetelman avulla: yliviivaus. Kayttajat nakevat kuvaryhmaan ja havaitsevat diagonaaliset rastit poistettujen elementtien paalla — mikä tekee abstraktista vahennyslasku-kasitteesta konkreettisen ja intuitiivisen. Valitse neljan harjoitustilan valilta — Yliviivaus, Kuva - Numero, Etsi Vahennettava ja Sekatila — ohjataksesi oppimista esikoulusta toiselle luokalle. Tutustu yli 3 100 kuvitukseen 104 teemassa. Jokainen tyoarkki sisaltaa automaattisen vastausavaimen, ja voit vieda tulostusvalmiita PDF-tiedostoja Letter-, Oletuskoko- (800x1000) tai A4-muodossa yli 400 DPI:na. Sisäänrakennettu harmaa-asteet -painike mahdollistaa musteystävallisten mustavalkoisten versioiden luomisen yhdella napsautuksella. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo vähennyslaskutehtäviä',
+
   howItWorks: {
     title: 'Nain Luot Vahennyslasku Tyoarkkeja Viidessa Vaiheessa',
     steps: [

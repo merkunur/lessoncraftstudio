@@ -30,6 +30,8 @@ const content: AppContent = {
       'Suunnittele ammattimaisia sanahakutyoarkkeja, joissa piilotetut sanat on upotettu satunnaisten tayttökirjainten ruudukkoon ja kayttajat skannaavat riveja, sarakkeita ja diagonaaleja niiden loytamiseksi — klassinen pulmamuoto, joka ei koskaan mene pois muodista. Valitse kolmesta sisaltolahteesta: sisäänrakennettu kuvakirjasto yli 3 100 kuvituksella, Manuaalinen Muokkaustila tai Oma Sanalista enintaan 8 omalla sanalla. Saada ruudukkoa 5x5:sta nopeisiin lämmittelyihin aina 30x30:een todellisiin haasteisiin, ja ota diagonaaliset sanat seka kaanteiset sanat kayttoon tai pois finhieno hallintaan neljan tai kahdeksan mahdollisen sijoitussuunnan yli. Kolme nayttötilaa — sanat plus kuvat, pelkat kuvat tai pelkat sanat — hallitsevat miten vihjeet nakyyvat ruudukon vierella. Taysi Paasy avaa kaikki 11 tuettua kieltä, jossa seka piilotetut sanat etta ruudukon tayttökirjaimet muuttuvat kielen mukaan: suomalaiset ruudukot sisaltavat ä ja ö luonnollisilla frekvensseilla, saksalaiset ruudukot sisaltavat ä, ö ja ü. Värikoodattu vastausavain merkitsee jokaisen loytyneen sanan yhdella kuudesta kiertavasta varista. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na Letter-, A4- tai mukautetussa koossa. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo sanahakuja',
+
   howItWorks: {
     title: 'Nain Luot Sanahakutyoarkkeja Viidessa Vaiheessa',
     steps: [

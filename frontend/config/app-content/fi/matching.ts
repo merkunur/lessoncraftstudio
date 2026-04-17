@@ -27,6 +27,8 @@ const content: AppContent = {
       'Yhdistämistyöarkit ovat esikoulu- ja alkuopetuksen tulostettavien tuotteiden perustuote Etsyssä — ja tämä generaattori antaa sinun luoda ammattimaisia viivanyhdistämisharjoituksia tulostettavaan liiketoimintaasi minuuteissa. Valitse neljästä yhdistämistilasta: Kuva Alkukirjaimeen, Kuva+Sana-parit, sekoitetut Kuva/Sana-rivit ja oma sanayhdistäminen. Konfiguroi 4–6 paria per työarkki ja vie 300 DPI tulostusvalmiita PDF-tiedostoja automaattisilla vastauslehdillä, jotka piirtävät yhdistysviivat oikeiden parien välille. 11 kielen tuki generoi lokalisoitua sanasisältöä, joten jokainen kieli on erillinen myytävä tuote. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo yhdistämistehtäviä',
+
   howItWorks: {
     title: 'Näin Generoit Yhdistämistyöarkkeja Vaihe Vaiheelta',
     steps: [

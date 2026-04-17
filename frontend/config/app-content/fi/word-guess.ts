@@ -27,6 +27,8 @@ const content: AppContent = {
       'Suunnittele ammattimaisia arvaa sana -tyoarkkeja, joissa kayttajat nakevat kuvavihjeen ja arvaavat piilotetun sanan tayttämällä tyhjia kirjainsoluja — hirsipuumainen pulma, joka rakentaa oikeinkirjoitusta, sanastoa ja deduuktiivista ajattelua samanaikaisesti. Valitse kolmesta sisaltolahteesta: sisäänrakennettu kuvakirjasto yli 3 100 kuvituksella, Manuaalinen Muokkaustila mukautetuille sanoille tai Oma Sanalista tekstipohjaisiin pulmiin. Nelja vaikeustasoa hallitsevat kuinka monta kirjainta nakyy vihjeinä. Aseta 1–10 pulmaa tyoarkkia kohti ja vaihda isojen ja pienten kirjainten valilla. Taysi Paasy avaa kaikki 11 tuettua kieltä, ja koska Arvaa Sana on kieliriippuvainen, itse kohdesana muuttuu kielen mukaan — "dog" englanniksi tulee "Hund" saksaksi, "chien" ranskaksi ja "koira" suomeksi. Jokainen tyoarkki luo automaattisen vastausavaimen. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo hirsipuutehtäviä',
+
   howItWorks: {
     title: 'Nain Luot Arvaa Sana -Tyoarkkeja Viidessa Vaiheessa',
     steps: [

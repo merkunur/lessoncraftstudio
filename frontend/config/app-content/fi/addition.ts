@@ -27,6 +27,8 @@ const content: AppContent = {
       'Luo kuvapohjaisia yhteenlaskutyoarkkeja, jotka tekevat varhaisista matematiikkakonsepteista konkreettisia ja hauskoja nuorille kayttajille. Valitse neljan eri harjoitustilan valilta — Kuva + Kuva, Kuva + Numero, Etsi Yhteenlaskettava ja Sekatila — sopiaksesi mihin tahansa tasoon esikoulusta toiselle luokalle. Tutustu yli 3 100 huolellisesti valittuun kuvitukseen 104 teemassa, kuten maatilaelamet, ajoneuvot ja ruoka, tehden jokaisesta laskutehtavasta elavaa. Jokainen tyoarkki sisaltaa automaattisesti luodun vastausavaimen, ja voit vieda tulostusvalmiita PDF-tiedostoja Letter-, A4- tai mukautetussa koossa yli 400 DPI:n tarkkuudella. Riippumatta siita myytkö Etsyssa, julkaisetko aktiviteettikirjoja Amazon KDP:ssa tai jaat tyoarkkeja asiakkaillesi — Yhteenlaskutyoarkkien Generaattori tuottaa ammattimaisia tuloksia muutamassa minuutissa. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo yhteenlaskutehtäviä',
+
   howItWorks: {
     title: 'Nain Luot Yhteenlaskutyoarkkeja Viidessa Vaiheessa',
     steps: [

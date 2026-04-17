@@ -27,6 +27,8 @@ const content: AppContent = {
       'Viivanjäljennystyöarkit kuuluvat valtavaan esikirjoituksen ja hienomotoristen taitojen nicheen Etsyssä — vanhemmat ja terapeutit ostavat niitä taaperoille ja esikouluikäisille ympäri vuoden. Tämä generaattori luo ammattimaisia viivanjäljennysharjoituksia, joissa käyttäjät piirtävät ohjattujen polkujen mukaan yhdistääkseen vastaavat kuvaparit. Kahdeksan SVG-pohjaista mallia kattaa kaaret, diagonaalit, vaakasuorat ja pystysuorat viivat 4–5 temaattisella kuvaparilla per sivu. Valitse yli 3 000 kuvitusta 104 temaattisesta kokoelmasta. Jokainen työarkki on puhtaasti visuaalinen nollatekstillä, mikä tekee niistä universaalisti myytäviä maailmanlaajuisesti. Vie 300 DPI tulostusvalmiita PDF-tiedostoja täydellä kaupallisella lisenssillä. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo kirjoitusmotoriikkaharjoituksia',
+
   howItWorks: {
     title: 'Näin Luot Jäljennystyöarkkeja Vaihe Vaiheelta',
     steps: [

@@ -27,6 +27,8 @@ const content: AppContent = {
       'Piirustus- ja väritystyöarkit yhdistävät kaksi aktiviteettia — piirtämisen ja värittämisen — yhdeksi tuotemuodoksi, joka erottuu Etsyssä. Tämä generaattori luo ammattimaisia ruudukkoperusteisia piirustusharjoituksia, joissa oppijat kopioivat kuvia solu solulta ja sitten värittävät luomuksensa. Valitse yli 3 000 kuvitusta 104 kokoelmasta piirustuksen referenssikuviksi. Jokainen työarkki viedään 300 DPI tulostusvalmiina PDF-tiedostona täydellä kaupallisella lisenssillä. Taideharjoitus-tulostettavat ovat kasvava niche vanhempien keskuudessa, jotka etsivät ruutuvapaita luovia aktiviteetteja. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo piirrä-ja-väritä-tehtäviä',
+
   howItWorks: {
     title: 'Näin Luot Piirustus- ja Väritystyöarkkeja Vaihe Vaiheelta',
     steps: [

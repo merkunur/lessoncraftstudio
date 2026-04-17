@@ -27,6 +27,8 @@ const content: AppContent = {
       'Sudoku-kirjat ovat todistettu myyntivaltti Amazon KDP:ssä — ja kuvasudoku lisää visuaalista vetovoimaa, jota tavallisilla numeroversioilla ei ole. Tämä generaattori luo ammattimaisia 4×4-kuvasudoku-palapeleja, joissa ratkaisijat täyttävät tyhjät solut temaattisilla kuvilla rivi-ja-sarake-logiikalla. Kolme vaikeustasoa 4:stä 8 tyhjään soluun mahdollistavat asteittain vaikeutuvien palapelikirjojen rakentamisen helposta haastavaan. Valitse yli 3 000 temaattisesta kuvituksesta 104 kokoelmasta mihin tahansa nicheen. Jokainen palapeli viedään 300 DPI:n tulostusvalmiina PDF:nä automaattisilla vastausavaimilla ja kaupallisella lisenssillä. Puhtaasti visuaalinen muoto toimii maailmanlaajuisesti ilman käännöstä. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
   },
 
+  ctaHeading: 'Luo sudokuja',
+
   howItWorks: {
     title: 'Näin luot kuvasudoku-palapeleja vaihe vaiheelta',
     steps: [

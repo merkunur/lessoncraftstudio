@@ -27,6 +27,8 @@ const content: AppContent = {
       'Kuvaristikko-palapelit erottuvat jokaisesta muusta tulostettavasta muodosta Etsyssä — värilliset kuvavihjeei korvaavat tylsät tekstimääritelmät, tehden ilmoituksistasi visuaalisesti erottuvia ja vastustamattomia ostajille. Tämä ristikko-palapeelin tekijä luo ammattimaisia ristikkoruudukoita temaattisilla kuvilla vihjeeinä, automaattisilla vastausavaimilla ja 300 DPI:n tulostusvalmiilla vienneillä — kaikki alle 3 minuutissa. Valitse yli 3 000 kuvituksesta 104 teemasta tai lataa omia kuvia. Sisäänrakennettu 11 kielen tuki tuottaa aidosti eri ristikkosanoja per kieli, joten yksi työkalu luo tuotteita englannin, saksan, ranskan, espanjan ja seitsemän muun markkinan tarpeisiin. Jokainen luomasi ristikko sisältää täyden kaupallisen lisenssin. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
   },
 
+  ctaHeading: 'Luo sanaristikoita',
+
   howItWorks: {
     title: 'Näin luot ristikko-palapeleja alle 3 minuutissa',
     steps: [

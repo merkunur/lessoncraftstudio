@@ -28,6 +28,8 @@ const content: AppContent = {
       'Hahmontunnistustyöarkit ovat olennaisia varhaisen matematiikan tuotteita, jotka myyvät johdonmukaisesti Etsyssä — vanhemmat ja kasvattajat käyttävät niitä sarjataitojen opettamiseen esikoulusta ensimmäiselle luokalle. Tämä generaattori luo ainutlaatuisia junateemaisia kuvioharjoituksia, joissa jokainen junavaunu näyttää kuvan toistuvassa sarjassa ja ratkojat tunnistavat ja jatkavat kuviota. Valitse yli 3 000 kuvitusta 104 kokoelmasta, konfiguroi kuvion monimutkaisuus ja vie 300 DPI tulostusvalmiita PDF-tiedostoja automaattisilla vastauslehdillä. Visuaalinen junamuoto tekee kuvioharjoittelusta mukaansatempaavaa ja visuaalisesti erottuvaa Etsyn hakutuloksissa. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo kuvioiden sarjoja',
+
   howItWorks: {
     title: 'Näin Luot Kuviojunatyöarkkeja Vaihe Vaiheelta',
     steps: [

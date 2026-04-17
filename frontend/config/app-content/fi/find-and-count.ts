@@ -27,6 +27,8 @@ const content: AppContent = {
       'Etsi-ja-laske-työlehdet yhdistävät Etsi ja Löydä -muodon vetovoimaan laskentaharjoituksen — formaatti, joka myy tasaisesti Etsyssä ja tekee erinomaisia Amazon KDP -aktiviteettikirjoja. Tämä generaattori luo ammattimaisia etsi-ja-laske-työlehtia, joissa ratkaisijat etsivät tiettyjä esineitä hajautetusta kohtauksesta ja suorittavat tehtäviä kuten ympyröiminen, laskeminen tai ruksiiminen. Kirjainetsintä-tila lisää aakkosoppimisen kielikohtaisilla merkistöillä mukaan lukien saksalaiset umlautit ja ranskan aksenttimerkit. Valitse yli 3 000 temaattisesta kuvituksesta 104 kokoelmasta ja vie 300 DPI:n tulostusvalmiita PDF-tiedostoja automaattisilla merkityillä vastausavaimilla. 11 kielen tuki lokalisoiduilla kuvaetiketeillä luo erillisiä tuotteita per kieli. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
   },
 
+  ctaHeading: 'Luo etsi-ja-laske-tehtäviä',
+
   howItWorks: {
     title: 'Näin luot Etsi ja Laske -työlehtia vaihe vaiheelta',
     steps: [

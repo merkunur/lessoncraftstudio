@@ -27,6 +27,8 @@ const content: AppContent = {
       'Värityssivut ovat yksittäinen korkean kysynnän tulostettava kategoria Etsyssä ja yksi johtavista KDP-nicheistä — ja tämä generaattori antaa sinun luoda ammattimaisia värityssivuja myyntiin ilman piirustustaitoja. Muunna temaattiset kuvat puhtaiksi ääriviivoiksi valmiina värittämiseen, valitse yli 3 000 kuvitusta 104 kokoelmasta ja vie 300 DPI tulostusvalmiita PDF-tiedostoja täydellä kaupallisella lisenssillä. 104 teemakokoelmaa kattavat eläimet, juhlapyhät, ajoneuvot, ruoan, luonnon ja kymmeniä muita — antaen sinulle loputtoman tuotevalikoiman ympärivuotiseen myyntiin. Jokainen värityssivu toimii maailmanlaajuisesti ilman käännöstä. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo värityskuvia',
+
   howItWorks: {
     title: 'Näin Luot Värityssivuja Alle 3 Minuutissa',
     steps: [

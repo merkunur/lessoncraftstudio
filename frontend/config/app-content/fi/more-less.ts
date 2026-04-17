@@ -28,6 +28,8 @@ const content: AppContent = {
       'Luo sitouttavia vertailutyoarkkeja, jotka opettavat kayttajille, kummassa ryhmassa on enemman, kummassa vahemman, ja milloin kaksi ryhmaa on yhta suuria. Valitse kolmesta eri harjoitustilasta — Kuva Kuvaan, Kuva Numeroon ja ainutlaatuinen Merkki ja Rasti Ryhmat -tila, jossa kayttajat analysoivat laatikoita sekoitetuilla kuvilla loytaakseen enemmistöryhman. Vaihda samojen ja eri kuvien valilla vertailuna, valitse kuvitussymbolit tai tavalliset matemaattiset merkit, ja valitse yli 3 100 kuvasta 104 teemassa. Jokainen tyoarkki luo automaattisen vastausavaimen, ja voit vieda tulostusvalmiita PDF-tiedostoja Letter-, A4- tai mukautetussa koossa yli 400 DPI:na. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
+  ctaHeading: 'Luo suurempi tai pienempi -tehtäviä',
+
   howItWorks: {
     title: 'Nain Luot Vertailutyoarkkeja Viidessa Vaiheessa',
     steps: [

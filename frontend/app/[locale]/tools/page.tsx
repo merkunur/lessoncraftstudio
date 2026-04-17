@@ -498,6 +498,28 @@ export default function ToolsListingPage({
           {/* Non-EN: 33 generators grid (existing behavior) */}
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-5xl">
+              {/* FR intro targeting "générateur de fiches gratuit" /
+                  "créer des imprimables en ligne" queries. */}
+              {locale === 'fr' && (
+                <div className="max-w-3xl mx-auto mb-12 space-y-4 text-gray-700 text-base leading-relaxed">
+                  <p>
+                    Les générateurs de fiches gratuits vous permettent de créer des supports imprimables pour la classe, l&apos;instruction en famille ou un usage personnel directement dans le navigateur &mdash; sans installation de logiciel, sans abonnement mensuel. Chacun des 33 générateurs gratuits ci-dessous produit des PDF et JPEG prêts à imprimer, téléchargeables instantanément.
+                  </p>
+                  <p>
+                    Si vous êtes enseignant préparant un cours de soutien, parent planifiant une séquence en homeschooling, ou créateur d&apos;imprimables explorant un nouveau format avant de vous engager, ces outils en ligne sont faits pour vous. Aucune création de compte, aucune fin de période d&apos;essai, aucune limite au nombre de fiches. Choisir un thème, personnaliser la mise en page, exporter &mdash; c&apos;est tout le processus.
+                  </p>
+                  <p>
+                    Le filigrane de la version gratuite est la seule différence avec la version payante. Tailles de grilles, thèmes d&apos;images, niveaux de difficulté, corrigés et résolution PDF sont identiques à ce qu&apos;utilisent les vendeurs sous licence. Le filigrane rend les fiches gratuites inadaptées à la revente commerciale, mais parfaitement utilisables pour des dossiers de classe, des supports de soutien, des compléments de devoirs et des projets personnels.
+                  </p>
+                  <p>
+                    Les 33 générateurs prennent en charge 11 langues : anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois. Les images portent le contenu de la fiche, ce qui permet de traduire automatiquement la plupart des résultats en changeant la langue.
+                  </p>
+                  <p>
+                    Prêt à vous lancer ? Parcourez les catégories ci-dessous. Si vous construisez une gamme d&apos;imprimables pour Etsy ou Amazon KDP et avez besoin de téléchargements sans filigrane avec licence commerciale, vous trouverez dans l&apos;<Link href={`/${locale}/apps`} className="text-indigo-600 hover:text-indigo-700 underline font-medium">espace Applications</Link> les versions sous licence de tous les générateurs ci-dessous.
+                  </p>
+                </div>
+              )}
+
               {/* DE intro targeting "kostenlose Arbeitsblatt-Generatoren" /
                   "Druckvorlagen erstellen online" queries. Other non-EN
                   locales render nothing here until their own rounds. */}

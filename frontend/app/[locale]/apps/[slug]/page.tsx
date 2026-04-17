@@ -173,6 +173,8 @@ const uiStrings: Record<string, {
     pdfExport: 'Export PDF instantané',
     watermarkNote: 'La version gratuite inclut un filigrane. Achetez pour le supprimer.',
     startCreating: 'Commencez maintenant',
+    pairedToolPrompt: 'Vous cherchez la version gratuite dans le navigateur ?',
+    pairedToolAnchor: 'Essayez l\'outil Maker — aucune inscription requise.',
   },
   es: {
     tryFree: 'Probar gratis (con marca de agua)',

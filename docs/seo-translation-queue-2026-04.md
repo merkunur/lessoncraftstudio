@@ -500,3 +500,28 @@ pages without any template edit.
 
 EN fallback continues to cover the 8 remaining locales (es, pt, it, nl,
 sv, da, no, fi) until their rounds.
+
+## FR-D — FR uiStrings backlink + FR tools index intro
+
+### FR uiStrings additions (apps page)
+
+Two FR values added to `uiStrings.fr` in
+`frontend/app/[locale]/apps/[slug]/page.tsx`:
+
+- `pairedToolPrompt: 'Vous cherchez la version gratuite dans le navigateur ?'`
+- `pairedToolAnchor: 'Essayez l\'outil Maker — aucune inscription requise.'`
+
+The reciprocal /fr/apps → /fr/tools backlink section below the FAQ now
+renders in French instead of the EN fallback.
+
+### FR tools index intro
+
+A ~330-word French intro block added to the non-EN branch of
+`frontend/app/[locale]/tools/page.tsx`, gated on `locale === 'fr'`,
+placed immediately before the DE block. Targets "générateur de fiches
+gratuit" / "créer des imprimables en ligne" queries.
+
+### KDP calculator cross-link — NOT added on FR
+
+Same reasoning as DE: calculator pages are English-only. Gate stays
+`locale === 'en'`. Widen the gate when French calculator pages ship.

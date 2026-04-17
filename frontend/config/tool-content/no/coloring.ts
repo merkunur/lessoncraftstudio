@@ -217,6 +217,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'koblings-arbeidsark-skaper', anchorText: 'Koblings Arbeidsark Generator' },
     { pageType: 'tool', slug: 'skyggematching-skaper', anchorText: 'Skyggematching Generator' },
     { pageType: 'tool', slug: 'skriveovelser-skaper', anchorText: 'Skriveøvelser Generator' },
+    {
+      pageType: 'app',
+      slug: 'coloring-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

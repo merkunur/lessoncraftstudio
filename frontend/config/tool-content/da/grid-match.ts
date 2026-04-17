@@ -216,6 +216,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'find-den-underlige-skaber', anchorText: 'Find den Underlige Generator' },
     { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Generator' },
     { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Generator' },
+    {
+      pageType: 'app',
+      slug: 'grid-match-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

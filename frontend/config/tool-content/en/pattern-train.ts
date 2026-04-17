@@ -15,11 +15,11 @@ const content: ToolContent = {
       'try before you buy pattern tools',
     ],
     titleTag: 'Free Pattern Worksheet Generator Online | LessonCraftStudio',
-    metaDescription: 'Make pattern worksheets free online with watermark — no signup. Train-car sequences, themed images, auto answer keys. Upgrade to sell.',
+    metaDescription: 'Make pattern train worksheets free online with watermark — no signup. Train-car sequences, themed images, auto answer keys. Upgrade to sell commercially.',
   },
 
   hero: {
-    title: 'Make Pattern Worksheets Free Online — No Signup',
+    title: 'Make Pattern Worksheets Free Online — No Signup Needed',
     tagline: 'Generate repeating pattern worksheets displayed across 11 themed train wagons with five pattern types, adjustable clue count, and fully visual zero-text output that sells worldwide without translation',
     description: 'Create pattern train worksheets right now — free, instant, no account required. Each worksheet presents a train-car sequence of themed images with a repeating pattern for solvers to identify and continue. Choose from 104 themed collections with 3,000+ illustrations, configure pattern complexity, and get automatic answer keys with every generation. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell pattern worksheets on Etsy or compile early learning workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },

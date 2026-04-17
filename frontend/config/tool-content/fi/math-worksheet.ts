@@ -86,6 +86,11 @@ const content: ToolContent = {
     { pageType: 'app', slug: 'matematiikkatehtavat', anchorText: 'Poista vesileima ja myy kaupallisesti' },
     { pageType: 'tool', slug: 'yhteenlaskutehtavien-tekija', anchorText: 'Ilmainen yhteenlaskugeneraattori' },
     { pageType: 'tool', slug: 'matikkatehtavien-tekija', anchorText: 'Ilmainen matikkapalapeligeneraattori' },
+    {
+      pageType: 'app',
+      slug: 'math-worksheet-puzzles',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

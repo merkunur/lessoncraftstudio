@@ -204,6 +204,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'finn-den-ulike-skaper', anchorText: 'Finn den Ulike Generator' },
     { pageType: 'tool', slug: 'skyggematching-skaper', anchorText: 'Skyggematching Generator' },
     { pageType: 'tool', slug: 'linjeovelser-skaper', anchorText: 'Tegnelinjer Generator' },
+    {
+      pageType: 'app',
+      slug: 'big-small-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

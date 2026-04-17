@@ -213,6 +213,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Generator' },
     { pageType: 'tool', slug: 'suchbilder-ersteller', anchorText: 'Suchbilder-Generator' },
     { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Generator' },
+    {
+      pageType: 'app',
+      slug: 'crossword-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

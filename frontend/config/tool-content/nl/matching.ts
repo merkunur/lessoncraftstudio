@@ -209,6 +209,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'alfabettrein-maker', anchorText: 'Gratis alfabettrein maker' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Gratis woordzoeker maker' },
     { pageType: 'tool', slug: 'optellen-werkblad-generator', anchorText: 'Gratis optelwerkbladen maker' },
+    {
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

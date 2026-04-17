@@ -204,6 +204,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'gerador-atividades-intruso', anchorText: 'Gerador de Atividades do Intruso' },
     { pageType: 'tool', slug: 'gerador-discriminacao-visual', anchorText: 'Gerador de Discriminação Visual' },
     { pageType: 'tool', slug: 'gerador-atividades-grafomotricidade', anchorText: 'Gerador de Atividades de Grafomotricidade' },
+    {
+      pageType: 'app',
+      slug: 'big-small-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

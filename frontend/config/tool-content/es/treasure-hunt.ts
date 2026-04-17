@@ -210,6 +210,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-recorrido-imágenes', anchorText: 'Creador de Laberintos con Imágenes' },
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Emparejamiento' },
     { pageType: 'tool', slug: 'generador-puzzles-matemáticos', anchorText: 'Creador de Rompecabezas Matemáticos' },
+    {
+      pageType: 'app',
+      slug: 'treasure-hunt-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

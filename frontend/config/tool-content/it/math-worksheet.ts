@@ -213,6 +213,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-puzzle-matematici', anchorText: 'Generatore Puzzle Matematici' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede Abbinamento' },
     { pageType: 'tool', slug: 'generatore-pezzi-mancanti', anchorText: 'Generatore Pezzi Mancanti' },
+    {
+      pageType: 'app',
+      slug: 'math-worksheet-puzzles',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

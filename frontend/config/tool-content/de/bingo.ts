@@ -217,6 +217,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
     { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
     { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
+    {
+      pageType: 'app',
+      slug: 'bingo-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

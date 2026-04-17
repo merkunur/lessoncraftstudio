@@ -210,6 +210,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Asociación' },
     { pageType: 'tool', slug: 'generador-discriminación-visual', anchorText: 'Generador de Discriminación Visual' },
     { pageType: 'tool', slug: 'generador-fichas-escritura', anchorText: 'Generador de Fichas de Escritura' },
+    {
+      pageType: 'app',
+      slug: 'coloring-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

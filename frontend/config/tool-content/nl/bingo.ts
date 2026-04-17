@@ -216,6 +216,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Werkblad Generator' },
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Werkblad Generator' },
+    {
+      pageType: 'app',
+      slug: 'bingo-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

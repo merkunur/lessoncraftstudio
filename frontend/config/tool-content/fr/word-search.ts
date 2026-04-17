@@ -219,6 +219,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-fiches-prepositions', anchorText: 'Générateur de Fiches de Prépositions' },
     { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: 'Générateur de Fiches d\'Écriture' },
     { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
+    {
+      pageType: 'app',
+      slug: 'word-search-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

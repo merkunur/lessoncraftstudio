@@ -214,6 +214,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Generator' },
     { pageType: 'tool', slug: 'linien-ziehen-ersteller', anchorText: 'Linien-Ziehen-Generator' },
     { pageType: 'tool', slug: 'praepositionen-Arbeitsblatt-Generator', anchorText: 'Präpositionen-Arbeitsblatt-Generator' },
+    {
+      pageType: 'app',
+      slug: 'writing-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

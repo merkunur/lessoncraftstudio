@@ -220,6 +220,21 @@ const content: AppContent = {
       slug: 'sudoku-boeken-kdp',
       anchorText: 'Gids: sudokuboeken maken en verkopen op Amazon KDP',
     },
+    {
+      pageType: 'tool',
+      slug: 'sudoku-worksheet-maker',
+      anchorText: 'Looking for the free browser version? Try the free maker tool.',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-royalty-calculator',
+      anchorText: 'Calculate KDP royalties for your activity books',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-size-calculator',
+      anchorText: 'Pick the right KDP book size & margins',
+    },
   ],
 
   visuals: {

@@ -216,6 +216,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Parejas' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Creador de Sopas de Letras' },
     { pageType: 'tool', slug: 'generador-páginas-colorear', anchorText: 'Creador de Páginas para Colorear' },
+    {
+      pageType: 'app',
+      slug: 'sudoku-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

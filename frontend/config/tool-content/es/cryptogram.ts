@@ -211,6 +211,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-fichas-preposiciones', anchorText: 'Generador de Fichas de Preposiciones' },
     { pageType: 'tool', slug: 'generador-fichas-escritura', anchorText: 'Generador de Fichas de Escritura' },
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Asociación' },
+    {
+      pageType: 'app',
+      slug: 'cryptogram-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

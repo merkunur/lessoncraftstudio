@@ -209,6 +209,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kruiswoordpuzzel-maker', anchorText: 'Gratis kruiswoordpuzzel maker' },
     { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Gratis schrijfoefeningen maker' },
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Gratis koppelwerkbladen maker' },
+    {
+      pageType: 'app',
+      slug: 'word-search-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

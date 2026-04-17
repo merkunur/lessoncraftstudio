@@ -204,6 +204,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-ejercicios-matemáticas', anchorText: 'Generador de Ejercicios de Matemáticas' },
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Asociación' },
     { pageType: 'tool', slug: 'generador-páginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
+    {
+      pageType: 'app',
+      slug: 'subtraction-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

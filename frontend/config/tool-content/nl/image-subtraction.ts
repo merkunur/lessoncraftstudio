@@ -203,6 +203,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'reken-werkblad-generator', anchorText: 'Gratis rekenwerkbladen maker' },
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Gratis koppelwerkbladen maker' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Gratis kleurplaten maker' },
+    {
+      pageType: 'app',
+      slug: 'subtraction-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

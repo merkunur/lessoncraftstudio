@@ -200,6 +200,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-esercizi-matematica', anchorText: 'Generatore Esercizi Matematica' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede Abbinamento' },
     { pageType: 'tool', slug: 'generatore-schede-grande-piccolo', anchorText: 'Generatore Schede Grande e Piccolo' },
+    {
+      pageType: 'app',
+      slug: 'more-less-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

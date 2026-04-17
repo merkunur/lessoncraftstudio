@@ -212,6 +212,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },
     { pageType: 'tool', slug: 'gerador-discriminacao-visual', anchorText: 'Gerador de Discriminação Visual' },
     { pageType: 'tool', slug: 'gerador-atividades-escrita', anchorText: 'Gerador de Atividades de Escrita' },
+    {
+      pageType: 'app',
+      slug: 'drawing-lines-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

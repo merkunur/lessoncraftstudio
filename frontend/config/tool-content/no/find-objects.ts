@@ -221,6 +221,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'finn-den-ulike-skaper', anchorText: 'Finn den Ulike Generator' },
     { pageType: 'tool', slug: 'koblings-arbeidsark-skaper', anchorText: 'Koblings Arbeidsark Generator' },
     { pageType: 'tool', slug: 'fargeleggingssider-skaper', anchorText: 'Fargeleggingssider Generator' },
+    {
+      pageType: 'app',
+      slug: 'find-objects-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

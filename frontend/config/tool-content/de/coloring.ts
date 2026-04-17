@@ -213,6 +213,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
     { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
     { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Generator' },
+    {
+      pageType: 'app',
+      slug: 'coloring-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

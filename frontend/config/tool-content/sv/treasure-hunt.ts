@@ -212,6 +212,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'bildvaeg-skapare', anchorText: 'Bildväg Generator' },
     { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchning Generator' },
     { pageType: 'tool', slug: 'mattepussel-skapare', anchorText: 'Mattepussel Generator' },
+    {
+      pageType: 'app',
+      slug: 'treasure-hunt-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

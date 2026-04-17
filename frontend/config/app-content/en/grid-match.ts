@@ -19,7 +19,7 @@ const content: AppContent = {
       'commercial license',
     ],
     titleTag: 'Grid Match Puzzle Generator — Unique KDP Activity Pages | LessonCraftStudio',
-    metaDescription: 'Generate grid matching puzzles for KDP books. A unique visual format your competitors don\'t have. 104 themes, answer keys included. Commercial license. Try free.',
+    metaDescription: 'Generate grid matching puzzles for KDP books. A unique visual format your competitors don\'t have. 104 themes, answer keys. Commercial license. Try free.',
   },
 
   hero: {
@@ -217,6 +217,21 @@ const content: AppContent = {
       pageType: 'guide',
       slug: 'create-matching-worksheets',
       anchorText: 'Guide to creating matching and grid worksheets',
+    },
+    {
+      pageType: 'tool',
+      slug: 'grid-match-worksheet-maker',
+      anchorText: 'Looking for the free browser version? Try the free maker tool.',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-royalty-calculator',
+      anchorText: 'Calculate KDP royalties for your activity books',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-size-calculator',
+      anchorText: 'Pick the right KDP book size & margins',
     },
   ],
 

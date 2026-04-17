@@ -212,6 +212,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'varityssivut-luoja', anchorText: 'Värityssivugeneraattori' },
     { pageType: 'tool', slug: 'yhdistamis-tehtava-luoja', anchorText: 'Yhdistämistehtävägeneraattori' },
     { pageType: 'tool', slug: 'yhteenlasku-tehtava-luoja', anchorText: 'Yhteenlaskutehtävägeneraattori' },
+    {
+      pageType: 'app',
+      slug: 'chart-count-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -212,6 +212,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'preposisjoner-arbeidsark-skaper', anchorText: 'Preposisjoner Arbeidsark Generator' },
     { pageType: 'tool', slug: 'skriveovelser-skaper', anchorText: 'Skriveøvelser Generator' },
     { pageType: 'tool', slug: 'koblings-arbeidsark-skaper', anchorText: 'Koblings Arbeidsark Generator' },
+    {
+      pageType: 'app',
+      slug: 'cryptogram-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

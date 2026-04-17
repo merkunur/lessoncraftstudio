@@ -203,6 +203,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'matte-arbetsblad-skapare', anchorText: 'Matte Arbetsblad Generator' },
     { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
     { pageType: 'tool', slug: 'stor-liten-arbetsblad-skapare', anchorText: 'Stor och Liten Arbetsblad Generator' },
+    {
+      pageType: 'app',
+      slug: 'more-less-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

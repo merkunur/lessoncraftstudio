@@ -210,6 +210,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: 'Generador de Fichas del Intruso' },
     { pageType: 'tool', slug: 'generador-discriminación-visual', anchorText: 'Generador de Discriminación Visual' },
     { pageType: 'tool', slug: 'generador-fichas-grafomotricidad', anchorText: 'Generador de Fichas de Grafomotricidad' },
+    {
+      pageType: 'app',
+      slug: 'big-small-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

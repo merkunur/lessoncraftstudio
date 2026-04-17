@@ -204,6 +204,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'matte-arbetsblad-skapare', anchorText: 'Matte Arbetsblad Generator' },
     { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
     { pageType: 'tool', slug: 'saknade-bitar-skapare', anchorText: 'Saknade Bitar Generator' },
+    {
+      pageType: 'app',
+      slug: 'math-puzzle-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

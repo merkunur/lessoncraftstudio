@@ -267,6 +267,21 @@ const content: AppContent = {
       slug: 'skapa-matchnings-arbetsblad',
       anchorText: 'Hur du Skapar Matchnings Arbetsblad som Säljer',
     },
+    {
+      pageType: 'tool',
+      slug: 'matching-worksheet-maker',
+      anchorText: 'Looking for the free browser version? Try the free maker tool.',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-royalty-calculator',
+      anchorText: 'Calculate KDP royalties for your activity books',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-size-calculator',
+      anchorText: 'Pick the right KDP book size & margins',
+    },
   ],
 
   visuals: {

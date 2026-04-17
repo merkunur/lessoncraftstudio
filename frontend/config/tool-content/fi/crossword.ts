@@ -90,6 +90,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'etsi-ja-laske-tyokalu', anchorText: 'Etsi ja laske -generaattori' },
     { pageType: 'tool', slug: 'piilotetut-esineet-tyokalu', anchorText: 'Piilotetut esineet -generaattori' },
     { pageType: 'tool', slug: 'kryptogrammi-tyokalu', anchorText: 'Kryptogrammi-generaattori' },
+    {
+      pageType: 'app',
+      slug: 'crossword-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

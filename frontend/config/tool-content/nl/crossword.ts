@@ -208,6 +208,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'zoek-en-tel-maker', anchorText: 'Gratis zoek en tel maker' },
     { pageType: 'tool', slug: 'zoek-en-vind-maker', anchorText: 'Gratis zoek voorwerpen maker' },
     { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Gratis cryptogram maker' },
+    {
+      pageType: 'app',
+      slug: 'crossword-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

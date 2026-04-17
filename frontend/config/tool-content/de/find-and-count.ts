@@ -218,6 +218,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'bilderpfad-ersteller', anchorText: 'Bilderpfad-Labyrinth-Generator' },
     { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
     { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
+    {
+      pageType: 'app',
+      slug: 'find-and-count-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

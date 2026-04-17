@@ -210,6 +210,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-páginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Asociación' },
     { pageType: 'tool', slug: 'generador-discriminación-visual', anchorText: 'Generador de Discriminación Visual' },
+    {
+      pageType: 'app',
+      slug: 'draw-and-color-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

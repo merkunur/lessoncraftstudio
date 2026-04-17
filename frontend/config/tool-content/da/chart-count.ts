@@ -215,6 +215,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'farvelaegningssider-skaber', anchorText: 'Malebilleder Generator' },
     { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
     { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Generator' },
+    {
+      pageType: 'app',
+      slug: 'chart-count-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

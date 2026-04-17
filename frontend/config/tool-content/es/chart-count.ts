@@ -209,6 +209,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generador-páginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Asociación' },
     { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: 'Generador de Fichas de Suma' },
+    {
+      pageType: 'app',
+      slug: 'chart-count-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

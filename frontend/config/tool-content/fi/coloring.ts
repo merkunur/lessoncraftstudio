@@ -92,6 +92,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'yhdistamis-tehtava-luoja', anchorText: 'Yhdistämistehtävägeneraattori' },
     { pageType: 'tool', slug: 'varjoyhdistamis-luoja', anchorText: 'Varjoyhdistämisgeneraattori' },
     { pageType: 'tool', slug: 'kirjoitusharjoitus-luoja', anchorText: 'Kirjoitusharjoitusgeneraattori' },
+    {
+      pageType: 'app',
+      slug: 'coloring-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

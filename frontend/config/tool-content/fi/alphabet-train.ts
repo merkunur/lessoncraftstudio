@@ -85,6 +85,11 @@ const content: ToolContent = {
     { pageType: 'app', slug: 'aakkosjunatehtavat', anchorText: 'Poista vesileima ja myy kaupallisesti' },
     { pageType: 'tool', slug: 'prepositiotehtavien-tekija', anchorText: 'Ilmainen prepositiotehtävägeneraattori' },
     { pageType: 'tool', slug: 'sananarvaustehtavien-tekija', anchorText: 'Ilmainen sananarvausgeneraattori' },
+    {
+      pageType: 'app',
+      slug: 'alphabet-train-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

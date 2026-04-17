@@ -195,6 +195,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'matematiikkatehtavien-tekija', anchorText: 'Ilmainen matematiikkatehtävägeneraattori' },
     { pageType: 'tool', slug: 'koodiyhteenlaskutehtavien-tekija', anchorText: 'Ilmainen koodiyhteenlaskugeneraattori' },
     { pageType: 'tool', slug: 'enemman-vahemman-tehtavien-tekija', anchorText: 'Ilmainen enemmän tai vähemmän -generaattori' },
+    {
+      pageType: 'app',
+      slug: 'addition-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

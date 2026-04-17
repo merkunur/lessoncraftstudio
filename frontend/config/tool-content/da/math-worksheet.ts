@@ -215,6 +215,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'mattepuslespil-skaber', anchorText: 'Mattepuslespil Generator' },
     { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchnings Arbejdsark Generator' },
     { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Generator' },
+    {
+      pageType: 'app',
+      slug: 'math-worksheet-puzzles',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

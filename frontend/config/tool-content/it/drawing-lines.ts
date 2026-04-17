@@ -213,6 +213,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede di Abbinamento' },
     { pageType: 'tool', slug: 'generatore-discriminazione-visiva', anchorText: 'Generatore Discriminazione Visiva' },
     { pageType: 'tool', slug: 'generatore-schede-scrittura', anchorText: 'Generatore Schede di Scrittura' },
+    {
+      pageType: 'app',
+      slug: 'drawing-lines-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

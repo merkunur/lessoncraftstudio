@@ -211,6 +211,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
     { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
     { pageType: 'tool', slug: 'skyggematchning-skaber', anchorText: 'Skyggematchning Generator' },
+    {
+      pageType: 'app',
+      slug: 'draw-and-color-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

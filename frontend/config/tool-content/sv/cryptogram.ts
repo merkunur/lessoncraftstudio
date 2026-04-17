@@ -208,6 +208,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'prepositioner-arbetsblad-skapare', anchorText: 'Prepositioner Arbetsblad Generator' },
     { pageType: 'tool', slug: 'skrivoevningar-skapare', anchorText: 'Skrivövningar Generator' },
     { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
+    {
+      pageType: 'app',
+      slug: 'cryptogram-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

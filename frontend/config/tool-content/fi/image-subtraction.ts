@@ -199,6 +199,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'koodiyhteenlaskutehtavien-tekija', anchorText: 'Ilmainen koodiyhteenlaskugeneraattori' },
     { pageType: 'tool', slug: 'enemman-vahemman-tehtavien-tekija', anchorText: 'Ilmainen enemmän tai vähemmän -generaattori' },
     { pageType: 'tool', slug: 'matikkatehtavien-tekija', anchorText: 'Ilmainen matikkapalapeligeneraattori' },
+    {
+      pageType: 'app',
+      slug: 'subtraction-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

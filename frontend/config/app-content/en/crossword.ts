@@ -19,7 +19,7 @@ const content: AppContent = {
       'commercial license included',
     ],
     titleTag: 'Image Crossword Generator — Unique KDP Puzzle Book Pages | LessonCraftStudio',
-    metaDescription: 'Generate image-based crossword puzzles for KDP books. Picture clues replace text — no competitor offers this format. Post-generation editing, answer keys. Try free.',
+    metaDescription: 'Generate image-based crossword puzzles for KDP books. Picture clues replace text — a unique format. Post-generation editing, answer keys. Try free.',
   },
 
   hero: {
@@ -217,6 +217,21 @@ const content: AppContent = {
       pageType: 'guide',
       slug: 'publish-puzzle-books-kdp',
       anchorText: 'How to publish puzzle books on Amazon KDP',
+    },
+    {
+      pageType: 'tool',
+      slug: 'crossword-worksheet-maker',
+      anchorText: 'Looking for the free browser version? Try the free maker tool.',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-royalty-calculator',
+      anchorText: 'Calculate KDP royalties for your activity books',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-size-calculator',
+      anchorText: 'Pick the right KDP book size & margins',
     },
   ],
 

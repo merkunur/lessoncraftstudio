@@ -18,7 +18,7 @@ const content: ToolContent = {  seo: {
     },
 
   hero: {
-    title: 'Make Crossword Puzzles with Pictures Free Online',
+    title: 'Make Crossword Puzzles with Pictures Free Online — No Signup Needed',
     tagline: 'Picture crossword puzzle generator with image clues on a fixed 15×15 grid, four input methods (quick theme generation, manual image name editing, custom word list with clues, and upload custom images), auto-generated answer key with filled grid via dual-canvas system, language-sensitive puzzle words in 11 languages through Image Vocabulary, and a localized blue header (#5B9BD5) with Fredoka title and Quicksand description across 104 themed image collections',
     description: 'Create picture crossword puzzles right now — free, instant, no account required. This maker replaces traditional text clues with colorful images, generating 8-word crosswords on a 15x15 grid automatically. Choose from four input methods: auto-select from 104 themed collections, manually edit image names, enter custom word lists, or upload your own images. The 11-language support generates different crossword words per locale. Every feature is unlocked in the free trial including auto-generated answer keys and 300 DPI export. Downloads include a small watermark. Want to sell your crossword puzzles on Etsy or compile puzzle books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },

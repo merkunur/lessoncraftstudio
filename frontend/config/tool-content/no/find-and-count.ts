@@ -221,6 +221,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'bildesti-skaper', anchorText: 'Bildesti Labyrint Generator' },
     { pageType: 'tool', slug: 'koblings-arbeidsark-skaper', anchorText: 'Koblings Arbeidsark Generator' },
     { pageType: 'tool', slug: 'fargeleggingssider-skaper', anchorText: 'Fargeleggingssider Generator' },
+    {
+      pageType: 'app',
+      slug: 'find-and-count-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

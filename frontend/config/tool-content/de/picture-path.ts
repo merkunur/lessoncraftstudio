@@ -218,6 +218,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'suchen-und-zaehlen-ersteller', anchorText: 'Suchen-und-Zählen-Generator' },
     { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
     { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
+    {
+      pageType: 'app',
+      slug: 'picture-path-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -218,6 +218,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
     { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
     { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
+    {
+      pageType: 'app',
+      slug: 'sudoku-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

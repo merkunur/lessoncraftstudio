@@ -218,6 +218,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Générateur de Cryptogramme' },
     { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: 'Générateur de Fiches d\'Écriture' },
     { pageType: 'tool', slug: 'generateur-train-suites-logiques', anchorText: 'Générateur de Train de Suites Logiques' },
+    {
+      pageType: 'app',
+      slug: 'alphabet-train-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

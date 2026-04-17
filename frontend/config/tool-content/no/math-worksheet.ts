@@ -217,6 +217,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'mattepuslespill-skaper', anchorText: 'Mattepuslespill Generator' },
     { pageType: 'tool', slug: 'koblings-arbeidsark-skaper', anchorText: 'Koblings Arbeidsark Generator' },
     { pageType: 'tool', slug: 'manglende-biter-skaper', anchorText: 'Manglende Biter Generator' },
+    {
+      pageType: 'app',
+      slug: 'math-worksheet-puzzles',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

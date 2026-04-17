@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Sorting Worksheets Free Online — No Signup',
+    title: 'Make Sorting Worksheets Free Online — No Signup Needed',
     tagline: 'Two-category sorting worksheet generator with theme-based and manual image selection modes, shuffled cutout grids of 4–12 images in 3–4 auto-adjusting columns, dashed-border category frames for left and right sorting destinations, auto-generated answer keys with 6× larger images in category boxes, localized Picture Sort header in 11 languages, and 104 themed image collections for sorting worksheets that sell worldwide',
     description: 'Create category sorting worksheets right now — free, instant, no account required. Each worksheet presents themed images that solvers sort into correct categories, building classification and critical thinking skills. Choose from 104 themed collections with 3,000+ images and configure sorting categories for different difficulty levels. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell sorting worksheets on Etsy or compile early learning workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },

@@ -213,6 +213,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Welke Hoort Er Niet Bij Maker' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
+    {
+      pageType: 'app',
+      slug: 'pattern-worksheet-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Find and Count Worksheets Free Online — No Signup',
+    title: 'Make Find and Count Worksheets Free Online — No Signup Needed',
     tagline: 'Dual-mode I Spy worksheet generator with Hidden Object mode (scattered image grid with up to 4 target objects) and Letter Spotting mode (locale-specific alphabet grid with accented letters), four mixable task types (circle, square, cross out, count) assignable per target object, localized image name labels in 11 languages via Image Vocabulary system, configurable grid density from 5×5 to 10×10, auto-generated answer keys with red circle/square/cross annotations and quantity count displays, and language-sensitive worksheets where image labels change per locale',
     description: 'Create I Spy counting worksheets right now — free, instant, no account required. Choose between Hidden Object mode with configurable grids and four task types (circle, square, cross out, count), or Letter Spotting mode with locale-specific alphabets including accented characters. Every worksheet generates automatic annotated answer keys. Choose from 104 themed collections with 3,000+ images and 11-language localized labels. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell find-and-count worksheets on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },

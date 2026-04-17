@@ -214,6 +214,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'alphabet-zug-ersteller', anchorText: 'Alphabet-Zug-Generator' },
     { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
     { pageType: 'tool', slug: 'additions-Arbeitsblatt-Generator', anchorText: 'Additions-Arbeitsblatt-Generator' },
+    {
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

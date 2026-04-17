@@ -216,6 +216,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Generator' },
     { pageType: 'tool', slug: 'matchnings-arbetsblad-skapare', anchorText: 'Matchnings Arbetsblad Generator' },
     { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
+    {
+      pageType: 'app',
+      slug: 'find-objects-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

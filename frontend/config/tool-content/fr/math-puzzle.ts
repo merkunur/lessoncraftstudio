@@ -210,6 +210,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generateur-exercices-maths', anchorText: 'Générateur d\'Exercices de Maths' },
     { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
     { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Générateur de Pièces Manquantes' },
+    {
+      pageType: 'app',
+      slug: 'math-puzzle-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

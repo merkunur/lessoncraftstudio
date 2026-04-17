@@ -219,6 +219,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-cryptogramme', anchorText: 'Générateur de Fiches Cryptogramme' },
     { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: 'Générateur de Fiches de Graphisme' },
     { pageType: 'tool', slug: 'generateur-fiches-prepositions', anchorText: 'Générateur de Fiches de Prépositions' },
+    {
+      pageType: 'app',
+      slug: 'writing-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -86,6 +86,11 @@ const content: ToolContent = {
     { pageType: 'app', slug: 'prepositiotehtavat', anchorText: 'Poista vesileima ja myy kaupallisesti' },
     { pageType: 'tool', slug: 'sananhaku-tekija', anchorText: 'Ilmainen sananhakugeneraattori' },
     { pageType: 'tool', slug: 'aakkosjuna-tekija', anchorText: 'Ilmainen aakkosjunageneraattori' },
+    {
+      pageType: 'app',
+      slug: 'prepositions-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -212,6 +212,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-trem-alfabeto', anchorText: 'Gerador de Trem do Alfabeto' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
     { pageType: 'tool', slug: 'gerador-atividades-adicao', anchorText: 'Gerador de Atividades de Adição' },
+    {
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

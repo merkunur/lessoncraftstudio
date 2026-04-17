@@ -19,7 +19,7 @@ const content: AppContent = {
       'commercial license',
     ],
     titleTag: 'Math Puzzle Generator — Algebra Picture Puzzles for KDP Books | LessonCraftStudio',
-    metaDescription: 'Create picture algebra puzzles for KDP activity books. Images replace variables in equation systems. Unique format, auto answer keys. Commercial license. Try free.',
+    metaDescription: 'Create picture algebra puzzles for KDP activity books. Images replace variables in equation systems. Unique format, answer keys. Commercial license. Try free.',
   },
 
   hero: {
@@ -222,6 +222,21 @@ const content: AppContent = {
       pageType: 'guide',
       slug: 'publish-puzzle-books-kdp',
       anchorText: 'Guide to publishing puzzle books on KDP',
+    },
+    {
+      pageType: 'tool',
+      slug: 'math-puzzle-worksheet-maker',
+      anchorText: 'Looking for the free browser version? Try the free maker tool.',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-royalty-calculator',
+      anchorText: 'Calculate KDP royalties for your activity books',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-size-calculator',
+      anchorText: 'Pick the right KDP book size & margins',
     },
   ],
 

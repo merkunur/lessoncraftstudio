@@ -19,7 +19,7 @@ const content: AppContent = {
       'bulk generation',
     ],
     titleTag: 'Cryptogram Puzzle Generator — Adult KDP Puzzle Books | LessonCraftStudio',
-    metaDescription: 'Create cryptogram code-breaking puzzles for KDP puzzle books. Target the adult puzzle market. 11 languages, auto answer keys. Commercial license included. Try free.',
+    metaDescription: 'Create cryptogram code-breaking puzzles for KDP puzzle books. Target the adult puzzle market. 11 languages, auto answer keys. Commercial license. Try free.',
   },
 
   hero: {
@@ -226,6 +226,21 @@ const content: AppContent = {
       pageType: 'bundle',
       slug: 'literacy-language-bundle',
       anchorText: 'Literacy & Language Bundle with all word generators',
+    },
+    {
+      pageType: 'tool',
+      slug: 'cryptogram-worksheet-maker',
+      anchorText: 'Looking for the free browser version? Try the free maker tool.',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-royalty-calculator',
+      anchorText: 'Calculate KDP royalties for your activity books',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-size-calculator',
+      anchorText: 'Pick the right KDP book size & margins',
     },
   ],
 

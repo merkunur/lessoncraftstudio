@@ -216,6 +216,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'find-og-tael-skaber', anchorText: 'Find og Tæl Generator' },
     { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
     { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
+    {
+      pageType: 'app',
+      slug: 'picture-path-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

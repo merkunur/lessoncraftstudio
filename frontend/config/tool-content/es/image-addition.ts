@@ -203,6 +203,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Asociación' },
     { pageType: 'tool', slug: 'generador-busque-cuenta', anchorText: 'Generador de Busque y Cuenta' },
     { pageType: 'tool', slug: 'generador-páginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
+    {
+      pageType: 'app',
+      slug: 'addition-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

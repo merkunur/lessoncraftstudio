@@ -223,6 +223,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Générateur de Fiches Intrus' },
     { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Générateur de Fiches Tri d\'Images' },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
+    {
+      pageType: 'app',
+      slug: 'shadow-match-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -214,6 +214,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-clasificación-imágenes', anchorText: 'Generador de Fichas de Clasificación' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Creador de Sopa de Letras' },
     { pageType: 'tool', slug: 'generador-páginas-colorear', anchorText: 'Creador de Páginas para Colorear' },
+    {
+      pageType: 'app',
+      slug: 'odd-one-out-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

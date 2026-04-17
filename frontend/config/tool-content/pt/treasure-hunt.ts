@@ -205,6 +205,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-percurso-imagens', anchorText: 'Gerador de Percursos com Imagens' },
     { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },
     { pageType: 'tool', slug: 'gerador-puzzles-matematicos', anchorText: 'Gerador de Puzzles Matemáticos' },
+    {
+      pageType: 'app',
+      slug: 'treasure-hunt-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

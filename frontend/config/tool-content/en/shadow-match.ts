@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Shadow Matching Worksheets Free Online — No Signup',
+    title: 'Make Shadow Matching Worksheets Free Online — No Signup Needed',
     tagline: 'Dual-mode shadow matching worksheet generator with pixel-level silhouette creation, Make It Whole split-image halves with horizontal and vertical cut directions, Fisher-Yates derangement guaranteeing no trivial matches, auto-generated answer keys with letter-to-number labels, toggleable A/B/C/D and 1/2/3/4 identifiers, and 104 themed image collections for shadow matching worksheets that sell worldwide',
     description: 'Create shadow matching worksheets right now — free, instant, no account required. Each worksheet presents colorful themed images alongside their silhouettes, and solvers match each image to its correct shadow. This visually striking format builds visual discrimination skills that preschool parents actively seek. Choose from 104 themed collections with 3,000+ images and configure the number of matching pairs. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell shadow matching worksheets on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },

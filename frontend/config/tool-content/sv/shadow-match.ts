@@ -216,6 +216,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Generator' },
     { pageType: 'tool', slug: 'sortera-bilder-skapare', anchorText: 'Sortera Bilder Generator' },
     { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
+    {
+      pageType: 'app',
+      slug: 'shadow-match-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

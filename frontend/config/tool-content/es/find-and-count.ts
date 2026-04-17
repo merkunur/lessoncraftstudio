@@ -214,6 +214,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-recorrido-imágenes', anchorText: 'Generador de Recorrido de Imágenes' },
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Emparejamiento' },
     { pageType: 'tool', slug: 'generador-páginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
+    {
+      pageType: 'app',
+      slug: 'find-and-count-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -90,6 +90,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kuvareitti-tyokalu', anchorText: 'Kuvareitti-labyrintti-generaattori' },
     { pageType: 'tool', slug: 'yhdistamistehtava-tyokalu', anchorText: 'Yhdistamistehtava-generaattori' },
     { pageType: 'tool', slug: 'varitys-tyokalu', anchorText: 'Varitys-generaattori' },
+    {
+      pageType: 'app',
+      slug: 'find-and-count-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

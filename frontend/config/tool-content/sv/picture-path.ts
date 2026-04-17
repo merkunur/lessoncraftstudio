@@ -216,6 +216,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'hitta-och-raekna-skapare', anchorText: 'Hitta och Räkna Generator' },
     { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Generator' },
     { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
+    {
+      pageType: 'app',
+      slug: 'picture-path-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

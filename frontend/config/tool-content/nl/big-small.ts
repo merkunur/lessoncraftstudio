@@ -212,6 +212,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Generator' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'lijnen-trekken-maker', anchorText: 'Lijnen Trekken Werkblad Generator' },
+    {
+      pageType: 'app',
+      slug: 'big-small-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

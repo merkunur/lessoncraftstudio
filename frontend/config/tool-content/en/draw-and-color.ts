@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Draw and Color Worksheets Free Online — No Signup',
+    title: 'Make Draw and Color Worksheets Free Online — No Signup Needed',
     tagline: 'Generate dual-grid drawing worksheets with adjustable clue percentage, three symmetry modes, and purely visual zero-text output that sells worldwide without translation',
     description: 'Create grid-based draw and color worksheets right now — free, instant, no account required. Each worksheet presents a themed image as a reference alongside an empty grid, challenging learners to copy the image cell by cell and then color their creation. Choose from 104 themed collections with 3,000+ illustrations. Every feature is unlocked in the free trial including 300 DPI export and all page sizes. Downloads include a small watermark. Want to sell art activity worksheets on Etsy or compile drawing workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },

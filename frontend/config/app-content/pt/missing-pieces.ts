@@ -255,6 +255,21 @@ const content: AppContent = {
       slug: 'livros-atividades-amazon-kdp',
       anchorText: 'Publicar livros de atividades na Amazon KDP',
     },
+    {
+      pageType: 'tool',
+      slug: 'missing-pieces-worksheet-maker',
+      anchorText: 'Looking for the free browser version? Try the free maker tool.',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-royalty-calculator',
+      anchorText: 'Calculate KDP royalties for your activity books',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-size-calculator',
+      anchorText: 'Pick the right KDP book size & margins',
+    },
   ],
 
   visuals: {

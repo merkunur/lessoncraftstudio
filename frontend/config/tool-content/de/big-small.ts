@@ -213,6 +213,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
     { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
     { pageType: 'tool', slug: 'linien-ziehen-ersteller', anchorText: 'Linien-Ziehen-Generator' },
+    {
+      pageType: 'app',
+      slug: 'big-small-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

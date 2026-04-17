@@ -15,11 +15,11 @@ const content: ToolContent = {
       'try before you buy puzzle generators',
     ],
     titleTag: 'Free Word Search Maker with Images | LessonCraftStudio',
-    metaDescription: 'Make word search puzzles free online with watermark — no signup. Themed images, adjustable grids 5-30, 11 languages. Upgrade to sell.',
+    metaDescription: 'Make word search puzzles free online with watermark — no signup required. Themed images, adjustable grids 5-30, 11 languages. Upgrade to sell commercially.',
   },
 
   hero: {
-    title: 'Make Word Search Puzzles with Images Free Online',
+    title: 'Make Word Search Puzzles with Images Free Online — No Signup Needed',
     tagline: 'Create hidden-word grid puzzles with adjustable sizes, direction controls, and locale-aware fillers in 11 languages',
     description: 'Create custom word search puzzles right now — free, instant, no account required. This maker embeds hidden words in letter grids with themed image clues from 104 collections. Adjust grids from 5x5 to 30x30, toggle diagonal and reverse directions, and choose from three display modes. The 11-language support generates locale-correct filler letters for German, French, Spanish, and more. Every feature is unlocked in the free trial including color-coded answer keys and 300 DPI export. Downloads include a small watermark. Want to sell your word search puzzles on Etsy or compile puzzle books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },

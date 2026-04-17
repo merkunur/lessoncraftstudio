@@ -218,6 +218,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'was-passt-nicht-ersteller', anchorText: 'Was-Passt-Nicht-Generator' },
     { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
     { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
+    {
+      pageType: 'app',
+      slug: 'picture-sort-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

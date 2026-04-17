@@ -213,6 +213,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
     { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
     { pageType: 'tool', slug: 'additions-Arbeitsblatt-Generator', anchorText: 'Additions-Arbeitsblatt-Generator' },
+    {
+      pageType: 'app',
+      slug: 'chart-count-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

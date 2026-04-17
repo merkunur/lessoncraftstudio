@@ -211,6 +211,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'alfabet-tog-skaber', anchorText: 'Alfabet Tog Generator' },
     { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
     { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Generator' },
+    {
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

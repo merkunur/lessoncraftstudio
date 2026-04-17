@@ -217,6 +217,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'alfabet-tog-skaper', anchorText: 'Alfabettog Generator' },
     { pageType: 'tool', slug: 'ordsoek-skaper', anchorText: 'Ordsøk Generator' },
     { pageType: 'tool', slug: 'addisjons-arbeidsark-skaper', anchorText: 'Addisjons Arbeidsark Generator' },
+    {
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

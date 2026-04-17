@@ -209,6 +209,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-atividades-intruso', anchorText: 'Gerador de Atividades do Intruso' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
     { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Gerador de Páginas para Colorir' },
+    {
+      pageType: 'app',
+      slug: 'picture-sort-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

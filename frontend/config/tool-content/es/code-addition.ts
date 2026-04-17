@@ -205,6 +205,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generador-criptogramas', anchorText: 'Generador de Criptogramas' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Generador de Sopa de Letras' },
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Asociación' },
+    {
+      pageType: 'app',
+      slug: 'code-addition-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

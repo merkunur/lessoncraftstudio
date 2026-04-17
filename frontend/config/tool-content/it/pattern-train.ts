@@ -213,6 +213,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-schede-intruso', anchorText: 'Generatore Schede Trova l\'Intruso' },
     { pageType: 'tool', slug: 'generatore-discriminazione-visiva', anchorText: 'Generatore Discriminazione Visiva' },
     { pageType: 'tool', slug: 'generatore-pagine-colorare', anchorText: 'Generatore Pagine da Colorare' },
+    {
+      pageType: 'app',
+      slug: 'pattern-train-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -203,6 +203,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-esercizi-matematica', anchorText: 'Generatore Esercizi Matematica' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede Abbinamento' },
     { pageType: 'tool', slug: 'generatore-pagine-colorare', anchorText: 'Generatore Pagine da Colorare' },
+    {
+      pageType: 'app',
+      slug: 'subtraction-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

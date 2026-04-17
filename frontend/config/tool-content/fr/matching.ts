@@ -219,6 +219,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-train-alphabet', anchorText: 'Générateur de Fiches Train Alphabet' },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: 'Générateur de Fiches d\'Addition' },
+    {
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

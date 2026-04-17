@@ -213,6 +213,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
     { pageType: 'tool', slug: 'lijnen-trekken-maker', anchorText: 'Lijnen Trekken Maker' },
     { pageType: 'tool', slug: 'voorzetsels-werkblad-generator', anchorText: 'Voorzetsels Werkblad Generator' },
+    {
+      pageType: 'app',
+      slug: 'writing-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

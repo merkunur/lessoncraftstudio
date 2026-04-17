@@ -204,6 +204,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-esercizi-matematica', anchorText: 'Generatore Esercizi Matematica' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede Abbinamento' },
     { pageType: 'tool', slug: 'generatore-pezzi-mancanti', anchorText: 'Generatore Pezzi Mancanti' },
+    {
+      pageType: 'app',
+      slug: 'math-puzzle-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -209,6 +209,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'kryptogramm-ersteller', anchorText: 'Kryptogramm-Generator' },
     { pageType: 'tool', slug: 'wortsuche-ersteller', anchorText: 'Wortsuche-Generator' },
     { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
+    {
+      pageType: 'app',
+      slug: 'code-addition-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -204,6 +204,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'cryptogram-maker', anchorText: 'Cryptogram Maker' },
     { pageType: 'tool', slug: 'woordzoeker-maker', anchorText: 'Woordzoeker Maker' },
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelen Werkblad Generator' },
+    {
+      pageType: 'app',
+      slug: 'code-addition-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

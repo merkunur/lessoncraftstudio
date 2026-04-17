@@ -221,6 +221,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'finn-den-ulike-skaper', anchorText: 'Finn den Ulike Generator' },
     { pageType: 'tool', slug: 'bildesortering-skaper', anchorText: 'Bildesortering Generator' },
     { pageType: 'tool', slug: 'fargeleggingssider-skaper', anchorText: 'Fargeleggingssider Generator' },
+    {
+      pageType: 'app',
+      slug: 'shadow-match-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

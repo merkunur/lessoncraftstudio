@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Word Scramble Worksheets Free Online — No Signup',
+    title: 'Make Word Scramble Worksheets Free Online — No Signup Needed',
     tagline: 'Create shuffled-letter-tile spelling puzzles with image clues, color coding, and 4 difficulty levels in 11 languages',
     description: 'Create word scramble worksheets right now — free, instant, no account required. Each puzzle pairs an image clue with shuffled letter tiles that solvers rearrange to spell the correct word. Four difficulty levels control how many letters are pre-placed, and the unique vowel-consonant color coding adds a phonics dimension. Choose from 104 themed image collections and generate in 11 languages. Every feature is unlocked in the free trial including answer keys and 300 DPI export. Downloads include a small watermark. Want to sell your spelling worksheets on Etsy, Amazon KDP, or TPT? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },

@@ -212,6 +212,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'hitta-udda-skapare', anchorText: 'Hitta Udda Bilden Generator' },
     { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Generator' },
     { pageType: 'tool', slug: 'linjer-ovningar-skapare', anchorText: 'Rita Linjer Generator' },
+    {
+      pageType: 'app',
+      slug: 'big-small-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -216,6 +216,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'find-og-tael-skaber', anchorText: 'Find og Tæl Generator' },
     { pageType: 'tool', slug: 'find-genstandene-skaber', anchorText: 'Skjulte Objekter Generator' },
     { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Generator' },
+    {
+      pageType: 'app',
+      slug: 'crossword-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

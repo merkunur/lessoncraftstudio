@@ -246,6 +246,21 @@ const content: AppContent = {
       slug: 'creare-schede-che-vendono',
       anchorText: 'Come creare schede che vendono',
     },
+    {
+      pageType: 'tool',
+      slug: 'math-puzzle-worksheet-maker',
+      anchorText: 'Looking for the free browser version? Try the free maker tool.',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-royalty-calculator',
+      anchorText: 'Calculate KDP royalties for your activity books',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-size-calculator',
+      anchorText: 'Pick the right KDP book size & margins',
+    },
   ],
 
   visuals: {

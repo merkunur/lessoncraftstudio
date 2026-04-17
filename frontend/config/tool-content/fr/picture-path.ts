@@ -223,6 +223,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-cherche-et-compte', anchorText: 'Générateur de Cherche et Compte' },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
+    {
+      pageType: 'app',
+      slug: 'picture-path-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

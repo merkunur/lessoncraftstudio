@@ -223,6 +223,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-parcours-images', anchorText: 'Générateur de Labyrinthes Chemin d\'Images' },
     { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
+    {
+      pageType: 'app',
+      slug: 'find-and-count-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

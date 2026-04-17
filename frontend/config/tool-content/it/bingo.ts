@@ -216,6 +216,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-cerca-parole', anchorText: 'Generatore Cerca Parole' },
     { pageType: 'tool', slug: 'generatore-schede-intruso', anchorText: 'Generatore Schede Intruso' },
     { pageType: 'tool', slug: 'generatore-pagine-colorare', anchorText: 'Generatore Pagine da Colorare' },
+    {
+      pageType: 'app',
+      slug: 'bingo-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

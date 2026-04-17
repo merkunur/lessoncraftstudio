@@ -213,6 +213,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-crittogrammi', anchorText: 'Generatore Crittogrammi' },
     { pageType: 'tool', slug: 'generatore-schede-pregrafismo', anchorText: 'Generatore Schede Pregrafismo' },
     { pageType: 'tool', slug: 'generatore-schede-preposizioni', anchorText: 'Generatore Schede Preposizioni' },
+    {
+      pageType: 'app',
+      slug: 'writing-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

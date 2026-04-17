@@ -211,6 +211,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'hitta-och-raekna-skapare', anchorText: 'Hitta och Räkna Generator' },
     { pageType: 'tool', slug: 'hitta-foeremaalen-skapare', anchorText: 'Hitta Föremålen Generator' },
     { pageType: 'tool', slug: 'kryptogram-skapare', anchorText: 'Kryptogram Generator' },
+    {
+      pageType: 'app',
+      slug: 'crossword-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

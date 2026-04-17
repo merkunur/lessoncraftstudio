@@ -225,6 +225,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
+    {
+      pageType: 'app',
+      slug: 'sudoku-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

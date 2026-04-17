@@ -18,7 +18,7 @@ const content: ToolContent = {  seo: {
     },
 
   hero: {
-    title: 'Make Bingo Cards with Pictures Free Online — No Signup',
+    title: 'Make Bingo Cards with Pictures Free Online — No Signup Needed',
     tagline: 'Picture bingo card generator with configurable grids from 3x3 to 5x5, batch generation of 1–10 unique cards per set, ZIP export of all cards in one download, dual fill modes for cells and circular chips independently, dedicated call-out sheet with dynamic word grid, custom call-out selection with live counter, and 104 themed image collections for picture bingo cards that sell worldwide',
     description: 'Create picture bingo cards right now — free, instant, no account required. Each bingo set generates unique randomized cards with themed images so no two cards are alike — perfect for parties, classrooms, or family game nights. Automatic caller sheets are included with every set. Choose from 104 themed collections covering holidays, animals, seasons, and dozens more. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell bingo cards on Etsy or compile party game packs for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },
@@ -207,6 +207,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'app', slug: 'picture-bingo-worksheets', anchorText: 'Remove watermark and sell commercially' },
     { pageType: 'tool', slug: 'matching-worksheet-maker', anchorText: 'Free matching worksheet generator' },
     { pageType: 'guide', slug: 'create-bingo-cards', anchorText: 'How to create bingo cards to sell' },
+    {
+      pageType: 'app',
+      slug: 'bingo-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

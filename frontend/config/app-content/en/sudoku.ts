@@ -19,7 +19,7 @@ const content: AppContent = {
       'commercial license',
     ],
     titleTag: 'Picture Sudoku Generator — Kids Puzzle Books for KDP | LessonCraftStudio',
-    metaDescription: 'Create picture sudoku puzzles for KDP kids puzzle books. 4x4 image-based grids, 3 difficulty levels, auto answer keys. Unique format. Commercial license. Try free.',
+    metaDescription: 'Create picture sudoku puzzles for KDP kids puzzle books. 4x4 image-based grids, 3 difficulty levels, auto answer keys. Commercial license. Try free.',
   },
 
   hero: {
@@ -217,6 +217,21 @@ const content: AppContent = {
       pageType: 'guide',
       slug: 'sudoku-books-kdp',
       anchorText: 'Guide to creating sudoku books for Amazon KDP',
+    },
+    {
+      pageType: 'tool',
+      slug: 'sudoku-worksheet-maker',
+      anchorText: 'Looking for the free browser version? Try the free maker tool.',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-royalty-calculator',
+      anchorText: 'Calculate KDP royalties for your activity books',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-size-calculator',
+      anchorText: 'Pick the right KDP book size & margins',
     },
   ],
 

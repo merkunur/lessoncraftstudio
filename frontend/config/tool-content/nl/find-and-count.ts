@@ -213,6 +213,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'plaatjespad-maker', anchorText: 'Plaatjespad Doolhof Maker' },
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
+    {
+      pageType: 'app',
+      slug: 'find-and-count-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

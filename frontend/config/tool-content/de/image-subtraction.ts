@@ -208,6 +208,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'mathe-Arbeitsblatt-Generator', anchorText: 'Mathe-Arbeitsblatt-Generator' },
     { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
     { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
+    {
+      pageType: 'app',
+      slug: 'subtraction-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

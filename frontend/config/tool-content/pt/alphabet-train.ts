@@ -211,6 +211,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'gerador-criptogramas', anchorText: 'Gerador de Criptogramas' },
     { pageType: 'tool', slug: 'gerador-atividades-escrita', anchorText: 'Gerador de Atividades de Escrita' },
     { pageType: 'tool', slug: 'gerador-trem-padroes', anchorText: 'Gerador de Trem de Padrões' },
+    {
+      pageType: 'app',
+      slug: 'alphabet-train-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -213,6 +213,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-percorso-immagini', anchorText: 'Generatore Percorso Immagini' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede Abbinamento' },
     { pageType: 'tool', slug: 'generatore-puzzle-matematici', anchorText: 'Generatore Puzzle Matematici' },
+    {
+      pageType: 'app',
+      slug: 'treasure-hunt-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

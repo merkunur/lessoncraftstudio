@@ -215,6 +215,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'sorter-billeder-skaber', anchorText: 'Sortér Billeder Generator' },
     { pageType: 'tool', slug: 'ordsoegning-skaber', anchorText: 'Ordsøgning Generator' },
     { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
+    {
+      pageType: 'app',
+      slug: 'odd-one-out-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

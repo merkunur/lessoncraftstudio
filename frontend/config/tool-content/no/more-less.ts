@@ -195,6 +195,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'matematikk-arbeidsark-skaper', anchorText: 'Matematikk Arbeidsark Generator' },
     { pageType: 'tool', slug: 'koblings-arbeidsark-skaper', anchorText: 'Koblings Arbeidsark Generator' },
     { pageType: 'tool', slug: 'stor-liten-arbeidsark-skaper', anchorText: 'Stor og Liten Arbeidsark Generator' },
+    {
+      pageType: 'app',
+      slug: 'more-less-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

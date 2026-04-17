@@ -207,6 +207,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'koblings-arbeidsark-skaper', anchorText: 'Koblings Arbeidsark Generator' },
     { pageType: 'tool', slug: 'finn-og-tell-skaper', anchorText: 'Finn og Tell Generator' },
     { pageType: 'tool', slug: 'fargeleggingssider-skaper', anchorText: 'Fargeleggingsbilder Generator' },
+    {
+      pageType: 'app',
+      slug: 'addition-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -208,6 +208,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'finn-og-tell-skaper', anchorText: 'Finn og Tell Generator' },
     { pageType: 'tool', slug: 'ordsoek-skaper', anchorText: 'Ordsøk Generator' },
     { pageType: 'tool', slug: 'fargeleggingssider-skaper', anchorText: 'Fargeleggingssider Generator' },
+    {
+      pageType: 'app',
+      slug: 'picture-path-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

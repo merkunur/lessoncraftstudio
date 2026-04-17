@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Handwriting Worksheets Free Online — No Signup',
+    title: 'Make Handwriting Worksheets Free Online — No Signup Needed',
     tagline: 'Create letter practice sheets with three progressive modes, arrow-guided stroke order, and fading letter guides that build handwriting fluency from full tracing to independent writing',
     description: 'Create professional handwriting practice sheets right now — free, instant, no account required. Three progressive modes — Trace, Fading Trace, and Guided Copy — build writing skills from full tracing to independent letter formation. Choose from five font styles including arrow-guided stroke order, and draw content from 104 themed image collections or type any custom text. Every feature is unlocked in the free trial including pre-writing exercises and 300 DPI export. Downloads include a small watermark. Want to sell handwriting worksheets on Etsy or compile workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },

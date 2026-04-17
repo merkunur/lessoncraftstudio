@@ -209,6 +209,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-schede-preposizioni', anchorText: 'Generatore Schede Preposizioni' },
     { pageType: 'tool', slug: 'generatore-schede-scrittura', anchorText: 'Generatore Schede Scrittura' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede Abbinamento' },
+    {
+      pageType: 'app',
+      slug: 'word-search-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

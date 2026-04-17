@@ -204,6 +204,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'reken-werkblad-generator', anchorText: 'Reken Werkblad Generator' },
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelen Werkblad Generator' },
     { pageType: 'tool', slug: 'groot-klein-werkblad-generator', anchorText: 'Groot en Klein Werkblad Generator' },
+    {
+      pageType: 'app',
+      slug: 'more-less-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

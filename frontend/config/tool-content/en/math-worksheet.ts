@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Generate Math Worksheets Free Online — No Signup Needed',
+    title: 'Make Math Worksheets Free Online — No Signup Needed',
     tagline: 'Create visual algebra puzzles with images as variables in under 60 seconds',
     description: 'Create custom math worksheets right now — free, instant, no account required. Configure any combination of operations including addition, subtraction, and picture algebra, set number ranges for precise difficulty control, and generate professional layouts with automatic answer keys. Every feature is unlocked in the free trial including all difficulty levels, 300 DPI PDF export, and the full image library. Downloads include a small watermark. Want to sell your worksheets on Etsy, Amazon KDP, or your own store? Upgrade to a commercial license to remove the watermark and gain unlimited selling rights.',
   },
@@ -208,6 +208,11 @@ const content: ToolContent = {
     { pageType: 'app', slug: 'math-worksheets', anchorText: 'Remove watermark and sell commercially' },
     { pageType: 'tool', slug: 'addition-worksheet-maker', anchorText: 'Free addition worksheet generator' },
     { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP formatting guide for worksheet books' },
+    {
+      pageType: 'app',
+      slug: 'math-worksheet-puzzles',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

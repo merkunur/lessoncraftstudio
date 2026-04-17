@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Picture Path Worksheets Free Online — No Signup',
+    title: 'Make Picture Path Worksheets Free Online — No Signup Needed',
     tagline: 'Three-mode maze worksheet generator with Picture Pathway (image grid path-following), Classic Maze (LPF wall-based algorithm with collectibles and dead-end blocking), and Choose the Right Path (three-path directional mazes), five image roles (Start, End, Path, Distractor, Decoration), customizable wall design with color/thickness/opacity controls, auto-generated answer keys with pink circle solution highlighting and collectible legends, and entirely visual mazes that sell worldwide without translation',
     description: 'Create picture path maze worksheets right now — free, instant, no account required. Each worksheet features paths that solvers navigate to reach themed image destinations, combining maze-solving fun with visual engagement. Choose from 104 themed collections with 3,000+ images to match any niche or seasonal trend. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell maze worksheets on Etsy or compile activity books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },

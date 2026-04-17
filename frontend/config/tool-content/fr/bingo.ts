@@ -222,6 +222,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Générateur de Fiches Intrus' },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
+    {
+      pageType: 'app',
+      slug: 'bingo-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

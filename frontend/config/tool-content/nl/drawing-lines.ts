@@ -213,6 +213,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Schrijfoefeningen Werkblad Generator' },
+    {
+      pageType: 'app',
+      slug: 'drawing-lines-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -213,6 +213,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Matching Werkblad Generator' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
+    {
+      pageType: 'app',
+      slug: 'draw-and-color-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

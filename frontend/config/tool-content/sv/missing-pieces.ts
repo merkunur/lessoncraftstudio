@@ -216,6 +216,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'sortera-bilder-skapare', anchorText: 'Sortera Bilder Generator' },
     { pageType: 'tool', slug: 'ordsoek-skapare', anchorText: 'Ordsök Generator' },
     { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
+    {
+      pageType: 'app',
+      slug: 'missing-pieces-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

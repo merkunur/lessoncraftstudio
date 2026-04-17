@@ -91,6 +91,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'etsi-ero-luoja', anchorText: 'Etsi Ero -generaattori' },
     { pageType: 'tool', slug: 'lajittele-kuvat-luoja', anchorText: 'Lajittele Kuvat -generaattori' },
     { pageType: 'tool', slug: 'yhteenlasku-tehtava-luoja', anchorText: 'Yhteenlaskutehtävägeneraattori' },
+    {
+      pageType: 'app',
+      slug: 'grid-match-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

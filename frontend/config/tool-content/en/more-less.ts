@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Greater Than Less Than Worksheets Free Online',
+    title: 'Make Greater Than Less Than Worksheets Free Online — No Signup Needed',
     tagline: 'Create visual comparison worksheets with three exercise modes in under 60 seconds',
     description: 'Create number comparison worksheets right now — free, instant, no account required. Three exercise modes cover visual and numeric comparison: Image to Image compares picture groups, Image to Number bridges visual and abstract, and Check & Cross Groups mode challenges solvers to find the majority in mixed-image boxes. Toggle between same-image and different-image comparisons and choose illustration-style or standard math symbols. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell math worksheets on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },

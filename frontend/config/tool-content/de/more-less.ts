@@ -209,6 +209,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'mathe-Arbeitsblatt-Generator', anchorText: 'Mathe-Arbeitsblatt-Generator' },
     { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
     { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-und-Klein-Generator' },
+    {
+      pageType: 'app',
+      slug: 'more-less-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

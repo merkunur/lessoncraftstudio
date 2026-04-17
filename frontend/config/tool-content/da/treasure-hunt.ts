@@ -211,6 +211,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'billedsti-skaber', anchorText: 'Billedsti Generator' },
     { pageType: 'tool', slug: 'matchnings-arbejdsark-skaber', anchorText: 'Matchning Generator' },
     { pageType: 'tool', slug: 'matematik-puslespil-skaber', anchorText: 'Matematik Puslespil Generator' },
+    {
+      pageType: 'app',
+      slug: 'treasure-hunt-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

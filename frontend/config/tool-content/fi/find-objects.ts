@@ -89,6 +89,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'etsi-erilainen-tyokalu', anchorText: 'Etsi erilainen -generaattori' },
     { pageType: 'tool', slug: 'yhdistamistehtava-tyokalu', anchorText: 'Yhdistamistehtava-generaattori' },
     { pageType: 'tool', slug: 'varitys-tyokalu', anchorText: 'Varitys-generaattori' },
+    {
+      pageType: 'app',
+      slug: 'find-objects-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

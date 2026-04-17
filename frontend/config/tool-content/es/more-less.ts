@@ -205,6 +205,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-ejercicios-matemáticas', anchorText: 'Generador de Ejercicios de Matemáticas' },
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Asociación' },
     { pageType: 'tool', slug: 'generador-fichas-grande-pequeño', anchorText: 'Generador de Fichas de Grande y Pequeño' },
+    {
+      pageType: 'app',
+      slug: 'more-less-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

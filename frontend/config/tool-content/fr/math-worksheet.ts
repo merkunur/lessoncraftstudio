@@ -215,6 +215,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-puzzle-maths', anchorText: 'Générateur de Puzzles Mathématiques' },
     { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
     { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Générateur de Pièces Manquantes' },
+    {
+      pageType: 'app',
+      slug: 'math-worksheet-puzzles',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

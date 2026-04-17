@@ -217,6 +217,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'wat-hoort-er-niet-bij-maker', anchorText: 'Zoek de Uitzondering Werkblad Generator' },
     { pageType: 'tool', slug: 'plaatjes-sorteren-maker', anchorText: 'Sorteer Werkblad Generator' },
     { pageType: 'tool', slug: 'optellen-werkblad-generator', anchorText: 'Optelling Werkblad Generator' },
+    {
+      pageType: 'app',
+      slug: 'grid-match-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -210,6 +210,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-tren-abecedario', anchorText: 'Generador de Tren del Abecedario' },
     { pageType: 'tool', slug: 'generador-sopa-letras', anchorText: 'Generador de Sopa de Letras' },
     { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: 'Generador de Fichas de Suma' },
+    {
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -198,6 +198,11 @@ const content: ToolContent = {
     { pageType: 'app', slug: 'enemman-vahemman-tehtavat', anchorText: 'Poista vesileima ja myy kaupallisesti' },
     { pageType: 'tool', slug: 'yhteenlaskutehtavien-tekija', anchorText: 'Ilmainen yhteenlaskugeneraattori' },
     { pageType: 'tool', slug: 'vahennyslaskutehtavien-tekija', anchorText: 'Ilmainen vähennyslaskugeneraattori' },
+    {
+      pageType: 'app',
+      slug: 'more-less-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

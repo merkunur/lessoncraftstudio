@@ -223,6 +223,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-tri-images', anchorText: 'Générateur de Fiches de Tri d\'Images' },
     { pageType: 'tool', slug: 'generateur-mots-caches', anchorText: 'Générateur de Mots Cachés' },
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
+    {
+      pageType: 'app',
+      slug: 'odd-one-out-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Pattern Recognition Worksheets Free Online',
+    title: 'Make Pattern Recognition Worksheets Free Online — No Signup Needed',
     tagline: 'Generate grid-based pattern recognition worksheets with nine pattern types, two question modes, per-exercise independent configuration, and fully visual zero-text output that sells worldwide without translation',
     description: 'Create visual pattern recognition worksheets right now — free, instant, no account required. Each worksheet presents image sequences where learners identify, extend, and complete patterns using themed illustrations. Configure pattern complexity and length to target different age groups and skill levels. Choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell pattern worksheets on Etsy or compile cognitive skills workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },
@@ -204,6 +204,11 @@ const content: ToolContent = {
     { pageType: 'app', slug: 'pattern-worksheets', anchorText: 'Remove watermark and sell commercially' },
     { pageType: 'tool', slug: 'pattern-train-maker', anchorText: 'Free pattern train worksheet generator' },
     { pageType: 'guide', slug: 'create-pattern-worksheets', anchorText: 'How to create pattern worksheets to sell' },
+    {
+      pageType: 'app',
+      slug: 'pattern-worksheet-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

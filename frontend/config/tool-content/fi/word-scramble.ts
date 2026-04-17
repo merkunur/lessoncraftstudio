@@ -87,6 +87,11 @@ const content: ToolContent = {
     { pageType: 'app', slug: 'kirjainsekoitustehtavat', anchorText: 'Poista vesileima ja myy kaupallisesti' },
     { pageType: 'tool', slug: 'sananarvaustehtavien-tekija', anchorText: 'Ilmainen sananarvausgeneraattori' },
     { pageType: 'tool', slug: 'sananhaku-tekija', anchorText: 'Ilmainen sananhakugeneraattori' },
+    {
+      pageType: 'app',
+      slug: 'word-scramble-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

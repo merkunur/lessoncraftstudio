@@ -14,11 +14,11 @@ const content: ToolContent = {  seo: {
       'try before you buy size tools',
     ],
     titleTag: 'Free Size Comparison Worksheet Generator | LessonCraftStudio',
-    metaDescription: 'Make size comparison worksheets free online with watermark — no signup. 5 question types, themed images, answer keys. Upgrade to sell.',
+    metaDescription: 'Make size comparison worksheets free online with watermark — no signup. 5 question types, themed images, auto answer keys. Upgrade to sell commercially.',
     },
 
   hero: {
-    title: 'Make Size Comparison Worksheets Free Online — No Signup',
+    title: 'Make Size Comparison Worksheets Free Online — No Signup Needed',
     tagline: 'Generate size comparison worksheets with five question types, two image modes, and fully visual zero-text output that sells worldwide without translation',
     description: 'Create big-and-small worksheets right now — free, instant, no account required. Five question types cover every size discrimination skill: circle the big one, circle the small one, circle the medium, and number ordering in both directions. Two image modes — identical and different — create fundamentally different exercises. Choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell size comparison worksheets on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },

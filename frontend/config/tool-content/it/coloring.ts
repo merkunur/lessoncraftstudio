@@ -212,6 +212,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede Abbinamento' },
     { pageType: 'tool', slug: 'generatore-discriminazione-visiva', anchorText: 'Generatore Discriminazione Visiva' },
     { pageType: 'tool', slug: 'generatore-schede-scrittura', anchorText: 'Generatore Schede Scrittura' },
+    {
+      pageType: 'app',
+      slug: 'coloring-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

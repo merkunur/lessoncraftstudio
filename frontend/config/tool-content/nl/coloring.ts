@@ -212,6 +212,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Gratis koppelwerkbladen maker' },
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Gratis schaduw matching maker' },
     { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Gratis schrijfoefeningen maker' },
+    {
+      pageType: 'app',
+      slug: 'coloring-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

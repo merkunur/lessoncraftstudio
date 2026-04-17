@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Missing Pieces Puzzles Free Online — No Signup',
+    title: 'Make Missing Pieces Puzzles Free Online — No Signup Needed',
     tagline: 'Jigsaw puzzle worksheet generator with 6 piece shapes (square, circle, rectangle portrait/landscape, ellipse portrait/landscape), 1–5 missing pieces with 2–6 solution options including distractors, smart piece extraction using color variance detection and 250px minimum spacing, auto-generated answer keys with yellow-highlighted number labels, dual border framing in teal and hot pink, and 104 themed image collections for jigsaw puzzle worksheets that sell worldwide',
     description: 'Create missing pieces puzzles right now — free, instant, no account required. Each puzzle displays a themed image with sections removed, and solvers identify which piece completes the picture from a set of options. This visual observation format builds spatial reasoning and attention to detail. Configure grid sizes and difficulty, and choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell visual puzzles on Etsy or compile activity books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },

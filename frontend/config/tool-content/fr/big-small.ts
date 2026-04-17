@@ -219,6 +219,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generateur-fiches-intrus', anchorText: 'Générateur de Fiches d\'Intrus' },
     { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Générateur de Fiches de Discrimination Visuelle' },
     { pageType: 'tool', slug: 'generateur-fiches-graphisme', anchorText: 'Générateur de Fiches de Graphisme' },
+    {
+      pageType: 'app',
+      slug: 'big-small-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

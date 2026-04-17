@@ -18,7 +18,7 @@ const content: ToolContent = {  seo: {
     },
 
   hero: {
-    title: 'Make Math Puzzles Free Online — No Signup',
+    title: 'Make Math Puzzles Free Online — No Signup Needed',
     tagline: 'Create jigsaw-style image puzzles with math equations in under 60 seconds',
     description: 'Create grid-based math puzzles right now — free, instant, no account required. Each puzzle splits a themed image into a configurable grid where every cell contains an arithmetic problem. Solvers match numbered answers to scrambled pieces, turning basic math into an engaging visual challenge. Configure grid sizes from 2x2 to 4x4 and choose addition, subtraction, or mixed operations. Every feature is unlocked in the free trial including answer keys, 300 DPI export, and all 104 image themes. Downloads include a small watermark. Want to sell your puzzles on Etsy, Amazon KDP, or your own store? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },

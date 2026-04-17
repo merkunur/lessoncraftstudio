@@ -217,6 +217,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-schede-intruso', anchorText: 'Generatore Schede Intruso' },
     { pageType: 'tool', slug: 'generatore-negozificazione-immagini', anchorText: 'Generatore negozificazione Immagini' },
     { pageType: 'tool', slug: 'generatore-schede-addizione', anchorText: 'Generatore Schede di Addizione' },
+    {
+      pageType: 'app',
+      slug: 'grid-match-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

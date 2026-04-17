@@ -209,6 +209,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-classificacao-imagens', anchorText: 'Gerador de Classificação de Imagens' },
     { pageType: 'tool', slug: 'gerador-caca-palavras', anchorText: 'Gerador de Caça-Palavras' },
     { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Gerador de Páginas para Colorir' },
+    {
+      pageType: 'app',
+      slug: 'odd-one-out-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

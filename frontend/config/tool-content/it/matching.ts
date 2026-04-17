@@ -213,6 +213,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-treno-alfabeto', anchorText: 'Generatore Treno Alfabeto' },
     { pageType: 'tool', slug: 'generatore-cerca-parole', anchorText: 'Generatore Cerca Parole' },
     { pageType: 'tool', slug: 'generatore-schede-addizione', anchorText: 'Generatore Schede Addizione' },
+    {
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

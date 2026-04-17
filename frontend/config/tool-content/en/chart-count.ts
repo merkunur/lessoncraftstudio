@@ -18,7 +18,7 @@ const content: ToolContent = {  seo: {
     },
 
   hero: {
-    title: 'Make Counting Chart Worksheets Free Online — No Signup',
+    title: 'Make Counting Chart Worksheets Free Online — No Signup Needed',
     tagline: 'Picture graph worksheet generator with scattered image grids, auto-generated bar chart answer keys, localized headers in 11 languages, and 104 themed image collections for data representation worksheets that sell worldwide',
     description: 'Create picture graph and counting chart worksheets right now — free, instant, no account required. Each worksheet generates a scattered image grid with 6 themed image types and a bar chart where solvers count and record data visually. The dual-canvas system produces both worksheet and answer key automatically. Choose from 104 themed image collections and export 300 DPI print-ready PDFs. Every feature is unlocked in the free trial. Downloads include a small watermark. Want to sell your worksheets on Etsy, Amazon KDP, or your own store? Upgrade to a commercial license to remove the watermark and gain full selling rights.',
   },

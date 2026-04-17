@@ -212,6 +212,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-schede-intruso', anchorText: 'Generatore Schede Trova l\'Intruso' },
     { pageType: 'tool', slug: 'generatore-discriminazione-visiva', anchorText: 'Generatore Discriminazione Visiva Ombre' },
     { pageType: 'tool', slug: 'generatore-schede-pregrafismo', anchorText: 'Generatore Schede Pregrafismo' },
+    {
+      pageType: 'app',
+      slug: 'big-small-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

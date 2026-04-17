@@ -218,6 +218,21 @@ const content: AppContent = {
       slug: 'math-mastery-bundle',
       anchorText: 'Math Mastery Bundle for all 6 math generators',
     },
+    {
+      pageType: 'tool',
+      slug: 'image-addition-worksheet-maker',
+      anchorText: 'Looking for the free browser version? Try the free maker tool.',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-royalty-calculator',
+      anchorText: 'Calculate KDP royalties for your activity books',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-size-calculator',
+      anchorText: 'Pick the right KDP book size & margins',
+    },
   ],
 
   visuals: {

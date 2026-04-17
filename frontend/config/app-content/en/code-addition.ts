@@ -19,7 +19,7 @@ const content: AppContent = {
       'bulk generation',
     ],
     titleTag: 'Code Addition Puzzle Generator — Unique KDP Activity Pages | LessonCraftStudio',
-    metaDescription: 'Code addition puzzle generator for Etsy and KDP sellers. Crack-the-code math competitors don\'t offer. 104 themes, answer keys. Try free.',
+    metaDescription: 'Code addition puzzle generator for Etsy and KDP sellers. Crack-the-code math competitors don\'t offer. 104 themes, answer keys. Commercial license. Try free.',
   },
 
   hero: {
@@ -216,6 +216,21 @@ const content: AppContent = {
       pageType: 'guide',
       slug: 'math-activity-books-kdp',
       anchorText: 'Guide to creating math activity books for KDP',
+    },
+    {
+      pageType: 'tool',
+      slug: 'code-addition-worksheet-maker',
+      anchorText: 'Looking for the free browser version? Try the free maker tool.',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-royalty-calculator',
+      anchorText: 'Calculate KDP royalties for your activity books',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-size-calculator',
+      anchorText: 'Pick the right KDP book size & margins',
     },
   ],
 

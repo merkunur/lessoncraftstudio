@@ -89,6 +89,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'aakkosjuna-luoja', anchorText: 'Aakkosjunageneraattori' },
     { pageType: 'tool', slug: 'sananhaku-luoja', anchorText: 'Sananhakugeneraattori' },
     { pageType: 'tool', slug: 'yhteenlasku-tehtava-luoja', anchorText: 'Yhteenlaskutehtävägeneraattori' },
+    {
+      pageType: 'app',
+      slug: 'matching-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

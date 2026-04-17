@@ -212,6 +212,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-atividades-preposicoes', anchorText: 'Gerador de Atividades de Preposições' },
     { pageType: 'tool', slug: 'gerador-atividades-escrita', anchorText: 'Gerador de Atividades de Escrita' },
     { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },
+    {
+      pageType: 'app',
+      slug: 'word-scramble-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

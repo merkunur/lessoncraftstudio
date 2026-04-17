@@ -217,6 +217,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-schede-intruso', anchorText: 'Generatore Schede Trova l\'Intruso' },
     { pageType: 'tool', slug: 'generatore-negozificazione-immagini', anchorText: 'Generatore negozificazione Immagini' },
     { pageType: 'tool', slug: 'generatore-pagine-colorare', anchorText: 'Generatore Pagine da Colorare' },
+    {
+      pageType: 'app',
+      slug: 'shadow-match-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

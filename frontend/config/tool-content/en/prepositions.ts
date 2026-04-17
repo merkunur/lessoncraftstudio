@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Prepositions Worksheets Free Online — No Signup',
+    title: 'Make Prepositions Worksheets Free Online — No Signup Needed',
     tagline: 'Create spatial preposition worksheets with two exercise modes in 11 languages',
     description: 'Create visual preposition worksheets right now — free, instant, no account required. Each worksheet presents themed images in spatial relationships, and learners identify the correct preposition — perfect for ESL learners, preschoolers, and language arts practice. The 11-language support produces genuinely different preposition content per locale. Choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell ESL worksheets on Etsy or compile grammar workbooks for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },

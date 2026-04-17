@@ -208,6 +208,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'matematikk-arbeidsark-skaper', anchorText: 'Matematikk Arbeidsark Generator' },
     { pageType: 'tool', slug: 'koblings-arbeidsark-skaper', anchorText: 'Koblings Arbeidsark Generator' },
     { pageType: 'tool', slug: 'manglende-biter-skaper', anchorText: 'Manglende Biter Generator' },
+    {
+      pageType: 'app',
+      slug: 'math-puzzle-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

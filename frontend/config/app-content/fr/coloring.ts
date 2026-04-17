@@ -264,6 +264,21 @@ const content: AppContent = {
       slug: 'creer-pages-coloriage',
       anchorText: 'Créer des pages de coloriage qui se vendent',
     },
+    {
+      pageType: 'tool',
+      slug: 'coloring-worksheet-maker',
+      anchorText: 'Looking for the free browser version? Try the free maker tool.',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-royalty-calculator',
+      anchorText: 'Calculate KDP royalties for your activity books',
+    },
+    {
+      pageType: 'tool',
+      slug: 'kdp-size-calculator',
+      anchorText: 'Pick the right KDP book size & margins',
+    },
   ],
 
   visuals: {

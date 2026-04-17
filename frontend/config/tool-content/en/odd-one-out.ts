@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Odd One Out Worksheets Free Online — No Signup',
+    title: 'Make Odd One Out Worksheets Free Online — No Signup Needed',
     tagline: 'Dual-mode odd one out worksheet generator with Identical mode (3 clones + 1 different from same theme) and Similar mode (3 from Theme A + 1 from Theme B), per-exercise mode override with Clear Selections reset, 5–10 configurable exercises with adaptive 2-column layout, auto-generated answer keys with red circle markers scaled to image size, two-theme system across 104 themed collections, and purely visual puzzles that sell worldwide without translation',
     description: 'Create find-the-different worksheets right now — free, instant, no account required. Two generation modes cover different challenge types: Identical mode places three clones alongside one different image for spot-the-difference, while Similar mode draws from two themes for cross-category discrimination. Configure 5-10 exercises per page and mix modes within a single worksheet. Every worksheet generates automatic answer keys with red circles. Choose from 104 themed collections. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },

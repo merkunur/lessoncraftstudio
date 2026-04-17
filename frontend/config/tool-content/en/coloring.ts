@@ -18,7 +18,7 @@ const content: ToolContent = {  seo: {
     },
 
   hero: {
-    title: 'Make Coloring Pages with Images Free Online — No Signup',
+    title: 'Make Coloring Pages with Images Free Online — No Signup Needed',
     tagline: 'Free-form canvas coloring page generator with freehand drawing, grayscale export, name and date helpers, and 104 themed image collections for professional coloring pages that sell worldwide without translation',
     description: 'Create printable coloring pages right now — free, instant, no account required. Convert themed images into clean outlines ready for coloring with a single click. Choose from 104 themed collections covering animals, holidays, vehicles, food, nature, and dozens more. Every feature is unlocked in the free trial including 300 DPI export and all page sizes. Downloads include a small watermark so you can evaluate quality before purchasing. Want to sell coloring pages on Etsy or compile coloring books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights — zero royalties, zero restrictions.',
   },

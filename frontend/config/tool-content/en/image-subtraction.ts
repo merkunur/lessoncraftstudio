@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Subtraction Worksheets Free Online — No Signup',
+    title: 'Make Subtraction Worksheets Free Online — No Signup Needed',
     tagline: 'Create visual cross-out subtraction worksheets in under 60 seconds',
     description: 'Create image-based subtraction worksheets right now — free, instant, no account required. The unique cross-out visualization shows diagonal X marks through subtracted items, making take-away math concrete and visual. Choose from four exercise modes, 104 themed image collections, and adjustable difficulty from 2 to 20. Every feature is unlocked in the free trial including grayscale export, answer keys, and 300 DPI output. Downloads include a small watermark. Want to sell your worksheets on Etsy, Amazon KDP, or TPT? Upgrade to a commercial license to remove the watermark and sell with zero restrictions.',
   },

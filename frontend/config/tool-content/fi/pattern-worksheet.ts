@@ -212,6 +212,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kumpi-ei-kuulu-joukkoon-luoja', anchorText: 'Kumpi Ei Kuulu Joukkoon -generaattori' },
     { pageType: 'tool', slug: 'varjoyhdistamis-luoja', anchorText: 'Varjoyhdistämisgeneraattori' },
     { pageType: 'tool', slug: 'varityssivut-luoja', anchorText: 'Värityssivugeneraattori' },
+    {
+      pageType: 'app',
+      slug: 'pattern-worksheet-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

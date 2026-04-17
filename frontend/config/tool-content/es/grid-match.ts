@@ -214,6 +214,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-fichas-intruso', anchorText: 'Generador de Fichas del Intruso' },
     { pageType: 'tool', slug: 'generador-clasificación-imágenes', anchorText: 'Generador de Clasificación de Imágenes' },
     { pageType: 'tool', slug: 'generador-fichas-suma', anchorText: 'Generador de Fichas de Suma' },
+    {
+      pageType: 'app',
+      slug: 'grid-match-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

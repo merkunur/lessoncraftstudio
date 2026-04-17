@@ -204,6 +204,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kuvalajittelu-tyokalu', anchorText: 'Kuvalajittelu-generaattori' },
     { pageType: 'tool', slug: 'sanahaku-tyokalu', anchorText: 'Sanahaku-generaattori' },
     { pageType: 'tool', slug: 'varitys-tyokalu', anchorText: 'Varitys-generaattori' },
+    {
+      pageType: 'app',
+      slug: 'missing-pieces-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -215,6 +215,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kryptogram-skaber', anchorText: 'Kryptogram Generator' },
     { pageType: 'tool', slug: 'tegne-linjer-skaber', anchorText: 'Tegne Linjer Generator' },
     { pageType: 'tool', slug: 'forholdsord-arbejdsark-skaber', anchorText: 'Forholdsord Arbejdsark Generator' },
+    {
+      pageType: 'app',
+      slug: 'writing-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -212,6 +212,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-pagine-colorare', anchorText: 'Generatore Pagine da Colorare' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede di Abbinamento' },
     { pageType: 'tool', slug: 'generatore-schede-addizione', anchorText: 'Generatore Schede di Addizione' },
+    {
+      pageType: 'app',
+      slug: 'chart-count-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

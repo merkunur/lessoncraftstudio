@@ -204,6 +204,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'reken-werkblad-generator', anchorText: 'Reken Werkblad Generator' },
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelen Werkblad Generator' },
     { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Ontbrekende Stukjes Maker' },
+    {
+      pageType: 'app',
+      slug: 'math-puzzle-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

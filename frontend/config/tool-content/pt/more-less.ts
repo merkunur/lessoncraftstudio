@@ -200,6 +200,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-exercicios-matematica', anchorText: 'Gerador de Exercícios de Matemática' },
     { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },
     { pageType: 'tool', slug: 'gerador-atividades-grande-pequeno', anchorText: 'Gerador de Atividades de Grande e Pequeno' },
+    {
+      pageType: 'app',
+      slug: 'more-less-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -212,6 +212,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-cerca-e-conta', anchorText: 'Generatore Cerca e Conta' },
     { pageType: 'tool', slug: 'generatore-cerca-oggetti', anchorText: 'Generatore Cerca Oggetti' },
     { pageType: 'tool', slug: 'generatore-crittogrammi', anchorText: 'Generatore Crittogrammi' },
+    {
+      pageType: 'app',
+      slug: 'crossword-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

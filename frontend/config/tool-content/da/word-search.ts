@@ -213,6 +213,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'forholdsord-arbejdsark-skaber', anchorText: 'Forholdsord Arbejdsark Generator' },
     { pageType: 'tool', slug: 'skriveoevelser-skaber', anchorText: 'Skriveøvelser Generator' },
     { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
+    {
+      pageType: 'app',
+      slug: 'word-search-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

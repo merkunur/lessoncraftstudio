@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Grid Matching Puzzles Free Online — No Signup',
+    title: 'Make Grid Matching Puzzles Free Online — No Signup Needed',
     tagline: 'Single-image grid puzzle generator with configurable grid sizes from 2×2 to 4×4, adjustable clue cells for scalable difficulty, Fisher-Yates tile randomization, auto-generated answer keys with numbered circle overlays, and 104 themed image collections for grid matching worksheets that sell worldwide',
     description: 'Create grid matching puzzles right now — free, instant, no account required. Each puzzle divides a themed image into a grid of tiles, reveals configurable clue cells as hints, and shuffles remaining tiles into a numbered palette for solvers to match back. Configure grids from 2x2 to 4x4 and set 1-5 clue cells to control difficulty. The dual-canvas system generates both worksheet and answer key automatically. Choose from 104 themed collections with 3,000+ images. Every feature is unlocked in the free trial including 300 DPI export. Downloads include a small watermark. Want to sell grid puzzles on Etsy or Amazon KDP? Upgrade to a commercial license to remove the watermark and sell commercially.',
   },

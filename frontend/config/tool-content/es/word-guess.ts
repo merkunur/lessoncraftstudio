@@ -210,6 +210,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-criptogramas', anchorText: 'Generador de Criptogramas' },
     { pageType: 'tool', slug: 'generador-fichas-escritura', anchorText: 'Generador de Fichas de Escritura' },
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Asociación' },
+    {
+      pageType: 'app',
+      slug: 'word-guess-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

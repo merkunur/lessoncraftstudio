@@ -91,6 +91,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kuvareitti-tyokalu', anchorText: 'Kuvareitti-generaattori' },
     { pageType: 'tool', slug: 'yhdistamistehtava-tyokalu', anchorText: 'Yhdistamistehtava-generaattori' },
     { pageType: 'tool', slug: 'matemaattinen-palapeli-tyokalu', anchorText: 'Matemaattinen palapeli -generaattori' },
+    {
+      pageType: 'app',
+      slug: 'treasure-hunt-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

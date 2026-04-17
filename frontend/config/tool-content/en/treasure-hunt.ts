@@ -19,7 +19,7 @@ const content: ToolContent = {
   },
 
   hero: {
-    title: 'Make Treasure Hunt Worksheets Free Online — No Signup',
+    title: 'Make Treasure Hunt Worksheets Free Online — No Signup Needed',
     tagline: 'Path-finding treasure hunt worksheet generator with a fixed 5×5 coordinate grid (A–E rows, 1–5 columns), two direction types (Basic: up/down/left/right for pre-K through 1st grade, and Cardinal: north/south/east/west for 2nd grade+), 6 themed landmark images, exactly 4 directional moves per puzzle, auto-generated answer key with pale yellow highlighted treasure cell via dual-canvas system, fully localized directional clues in 11 languages, and a treasure-themed teal header (#2C8C7C) with golden Fredoka title across 104 themed image collections',
     description: 'Create treasure hunt worksheets right now — free, instant, no account required. Each puzzle places themed image landmarks on a coordinate grid, then generates directional clues that lead solvers to hidden treasure. Choose Basic (up/down/left/right) or Cardinal (north/south/east/west) direction modes. The 11-language support translates all directional clues for each locale. Every feature is unlocked in the free trial including automatic answer keys and 300 DPI export. Downloads include a small watermark. Want to sell treasure hunt worksheets on Etsy or compile adventure activity books for Amazon KDP? Upgrade to a commercial license to remove the watermark and sell with full rights.',
   },

@@ -204,6 +204,11 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-crittogrammi', anchorText: 'Generatore di Crittogrammi' },
     { pageType: 'tool', slug: 'generatore-cerca-parole', anchorText: 'Generatore Cerca Parole' },
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede di Abbinamento' },
+    {
+      pageType: 'app',
+      slug: 'code-addition-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

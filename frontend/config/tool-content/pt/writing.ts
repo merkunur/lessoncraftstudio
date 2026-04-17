@@ -212,6 +212,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-criptogramas', anchorText: 'Gerador de Criptogramas' },
     { pageType: 'tool', slug: 'gerador-atividades-grafomotricidade', anchorText: 'Gerador de Atividades de Grafomotricidade' },
     { pageType: 'tool', slug: 'gerador-atividades-preposicoes', anchorText: 'Gerador de Atividades de Preposições' },
+    {
+      pageType: 'app',
+      slug: 'writing-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

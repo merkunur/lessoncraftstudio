@@ -90,6 +90,11 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'etsi-ja-laske-tyokalu', anchorText: 'Etsi ja laske -generaattori' },
     { pageType: 'tool', slug: 'sanahaku-tyokalu', anchorText: 'Sanahaku-generaattori' },
     { pageType: 'tool', slug: 'varitys-tyokalu', anchorText: 'Varitys-generaattori' },
+    {
+      pageType: 'app',
+      slug: 'picture-path-worksheets',
+      anchorText: 'Ready to sell what you make? Get the commercial license.',
+    },
   ],
 
   visuals: {

@@ -1197,10 +1197,8 @@ if (localeParam) {
 }
 
 // ==========================================
-// FEATURE GATING (themes)
+// THEME FILTER (optional ?themes= param for custom bundles)
 // ==========================================
-const FE_THEMES = ['animals', 'fruits', 'vegetables', 'vehicles', 'ocean-life', 'dinosaurs', 'space', 'birds', 'flowers', 'insects-and-bugs'];
-
 const THEME_DB_MAP = {
     'animals': 'animals',
     'fruits': 'fruits',
@@ -1216,17 +1214,12 @@ const THEME_DB_MAP = {
 function toDbTheme(name) { return THEME_DB_MAP[name] || name; }
 
 const allowedThemesParam = urlParams.get('themes');
-const tier = urlParams.get('tier') || 'free';
 
 let themeWhitelist;
-if (allowedThemesParam === 'all') {
-    themeWhitelist = null; // No restriction (OTO1 owner)
-} else if (allowedThemesParam) {
-    themeWhitelist = allowedThemesParam.split(',');
-} else if (tier === 'free') {
-    themeWhitelist = FE_THEMES; // Free/FE users get 10 themes
-} else {
+if (!allowedThemesParam || allowedThemesParam === 'all') {
     themeWhitelist = null;
+} else {
+    themeWhitelist = allowedThemesParam.split(',');
 }
 
 const dbThemeWhitelist = themeWhitelist

@@ -1178,10 +1178,8 @@
     let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
 
     // ==========================================
-    // FEATURE GATING (themes + modes)
+    // THEME FILTER (optional ?themes= param for custom bundles)
     // ==========================================
-    const FE_THEMES = ['animals', 'fruits', 'vegetables', 'vehicles', 'ocean-life', 'dinosaurs', 'space', 'birds', 'flowers', 'insects-and-bugs'];
-
     const THEME_DB_MAP = {
         'animals': 'animals',
         'fruits': 'fruits',
@@ -1197,36 +1195,17 @@
     function toDbTheme(name) { return THEME_DB_MAP[name] || name; }
 
     const allowedThemesParam = urlParams.get('themes');
-    const tier = urlParams.get('tier') || 'free';
 
     let themeWhitelist;
-    if (allowedThemesParam === 'all') {
-        themeWhitelist = null; // No restriction (OTO2 owner)
-    } else if (allowedThemesParam) {
-        themeWhitelist = allowedThemesParam.split(',');
-    } else if (tier === 'free') {
-        themeWhitelist = FE_THEMES; // Free/FE users get 10 themes
-    } else {
+    if (!allowedThemesParam || allowedThemesParam === 'all') {
         themeWhitelist = null;
+    } else {
+        themeWhitelist = allowedThemesParam.split(',');
     }
 
     const dbThemeWhitelist = themeWhitelist
         ? themeWhitelist.map(name => toDbTheme(name))
         : null;
-
-    // Mode gating: parse ?modes= param
-    const modesParam = urlParams.get('modes');
-    let allowedModes;
-    if (modesParam === 'all') {
-        allowedModes = null; // No restriction (OTO1 owner)
-    } else if (modesParam) {
-        allowedModes = modesParam.split(',');
-    } else {
-        // Default: regular mode only (FE users)
-        allowedModes = ['regular'];
-    }
-
-    const isWordRevealUnlocked = !allowedModes || allowedModes.includes('wordreveal');
   </script>
 
   <script>
@@ -4476,17 +4455,6 @@ async function downloadPDF(canvasInstance, baseFileName) {
         const wordRevealOptions = document.getElementById('wordRevealOptions');
         const exerciseCountInput = document.getElementById('exerciseCount');
         const secretWordInput = document.getElementById('secretWord');
-
-        // Mode gating: hide Word Reveal if not unlocked
-        const wordRevealSection = document.querySelector('.word-reveal-section');
-        if (!isWordRevealUnlocked && wordRevealSection) {
-            wordRevealSection.innerHTML = `
-                <div style="padding: 12px; background: rgba(255,165,0,0.1); border: 1px solid rgba(255,165,0,0.3); border-radius: 8px; text-align: center;">
-                    <i class="fas fa-lock" style="color: #ffa500; margin-bottom: 6px; font-size: 18px;"></i>
-                    <p style="color: #ffa500; font-size: 13px; font-weight: 600; margin-bottom: 4px;">Word Reveal Mode</p>
-                    <p style="color: var(--app-text-secondary-dark-theme); font-size: 11px;">Upgrade to unlock this feature</p>
-                </div>`;
-        }
 
         if (wordRevealCheckbox && wordRevealOptions) {
             wordRevealCheckbox.addEventListener('change', () => {

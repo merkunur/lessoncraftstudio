@@ -27,11 +27,8 @@
         let currentLocale = urlParams.get('content') || uiLocale;
 
         // ==========================================
-        // FEATURE GATING (themes & languages)
+        // THEME + LANGUAGE FILTERS (optional ?themes= / ?langs= params for custom bundles)
         // ==========================================
-        const FE_THEMES = ['animals', 'food', 'vehicles', 'fruits', 'colors', 'body-parts', 'clothing', 'school', 'sports', 'nature'];
-
-        // Maps sales-page theme names → DB theme names (DB uses image library folder names)
         const THEME_DB_MAP = {
             'animals': 'animals',
             'food': 'food_bw',
@@ -54,35 +51,23 @@
 
         const allowedThemesParam = urlParams.get('themes');
         const allowedLangsParam = urlParams.get('langs');
-        const tier = urlParams.get('tier') || 'free';
 
-        // Determine theme whitelist
         let themeWhitelist;
-        if (allowedThemesParam === 'all') {
-            themeWhitelist = null; // No restriction
-        } else if (allowedThemesParam) {
-            themeWhitelist = allowedThemesParam.split(',');
-        } else if (tier === 'free') {
-            themeWhitelist = null; // Free users get all themes to try the full funnel
+        if (!allowedThemesParam || allowedThemesParam === 'all') {
+            themeWhitelist = null;
         } else {
-            themeWhitelist = null; // Paid with no param = full access
+            themeWhitelist = allowedThemesParam.split(',');
         }
 
-        // Convert whitelist from sales-page names to DB names for filtering
         const dbThemeWhitelist = themeWhitelist
             ? themeWhitelist.map(name => toDbTheme(name))
             : null;
 
-        // Determine language whitelist
         let langWhitelist;
-        if (allowedLangsParam === 'all') {
+        if (!allowedLangsParam || allowedLangsParam === 'all') {
             langWhitelist = null;
-        } else if (allowedLangsParam) {
-            langWhitelist = allowedLangsParam.split(',');
-        } else if (tier === 'free') {
-            langWhitelist = null; // Free users get all languages to try the full funnel
         } else {
-            langWhitelist = null;
+            langWhitelist = allowedLangsParam.split(',');
         }
 
         // Override locale if restricted by language whitelist

@@ -498,6 +498,28 @@ export default function ToolsListingPage({
           {/* Non-EN: 33 generators grid (existing behavior) */}
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-5xl">
+              {/* PT intro targeting "gerador de atividades grátis" /
+                  "criar imprimíveis online" queries. */}
+              {locale === 'pt' && (
+                <div className="max-w-3xl mx-auto mb-12 space-y-4 text-gray-700 text-base leading-relaxed">
+                  <p>
+                    Os geradores de atividades gratuitos permitem criar materiais imprimíveis para sala de aula, ensino domiciliar ou uso pessoal direto no navegador &mdash; sem instalar software nem assinatura mensal. Cada um dos 33 geradores gratuitos abaixo produz PDF e JPEG prontos para impressão, com download imediato.
+                  </p>
+                  <p>
+                    Se você é professor preparando um reforço, pai ou mãe planejando uma unidade de ensino domiciliar, ou criador de imprimíveis explorando um novo formato antes de se comprometer, estas ferramentas no navegador são para você. Sem criação de conta, sem prazo de teste, sem limite no número de atividades. Escolher um tema, personalizar o layout, exportar &mdash; é todo o processo.
+                  </p>
+                  <p>
+                    A marca d&apos;água da versão gratuita é a única diferença em relação à versão paga. Tamanhos de grade, temas de imagens, níveis de dificuldade, gabaritos e resolução do PDF são idênticos aos que os vendedores licenciados utilizam. A marca d&apos;água torna as atividades gratuitas inadequadas para revenda comercial, mas perfeitamente utilizáveis para pastas de aula, materiais de reforço, complementos de tarefas e projetos pessoais.
+                  </p>
+                  <p>
+                    Os 33 geradores suportam 11 idiomas: inglês, alemão, francês, espanhol, português, italiano, holandês, sueco, dinamarquês, norueguês e finlandês. As imagens carregam o conteúdo da atividade, então a maioria dos resultados se traduz automaticamente ao mudar o idioma.
+                  </p>
+                  <p>
+                    Pronto para começar? Explore as categorias abaixo. Se você está construindo uma linha de imprimíveis para Hotmart, Etsy ou Amazon KDP e precisa de downloads sem marca d&apos;água com licença comercial, na <Link href={`/${locale}/apps`} className="text-indigo-600 hover:text-indigo-700 underline font-medium">área de Aplicações</Link> você encontra as versões licenciadas de todos os geradores abaixo.
+                  </p>
+                </div>
+              )}
+
               {/* IT intro targeting "generatore di schede gratis" /
                   "creare stampabili online" queries. */}
               {locale === 'it' && (

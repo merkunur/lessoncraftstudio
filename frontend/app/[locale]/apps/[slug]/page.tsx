@@ -215,6 +215,8 @@ const uiStrings: Record<string, {
     pdfExport: 'Exportação PDF instantânea',
     watermarkNote: "A versão gratuita inclui marca d\u2019água. Compre para removê-la.",
     startCreating: 'Comece a criar agora',
+    pairedToolPrompt: 'Procurando a versão gratuita no navegador?',
+    pairedToolAnchor: 'Experimente a ferramenta Maker — sem cadastro.',
   },
   it: {
     tryFree: 'Prova gratis (con filigrana)',

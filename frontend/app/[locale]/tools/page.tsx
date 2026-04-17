@@ -498,6 +498,28 @@ export default function ToolsListingPage({
           {/* Non-EN: 33 generators grid (existing behavior) */}
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-5xl">
+              {/* IT intro targeting "generatore di schede gratis" /
+                  "creare stampabili online" queries. */}
+              {locale === 'it' && (
+                <div className="max-w-3xl mx-auto mb-12 space-y-4 text-gray-700 text-base leading-relaxed">
+                  <p>
+                    I generatori di schede gratuiti ti permettono di creare materiali stampabili per la classe, l&apos;istruzione parentale o per uso personale direttamente nel browser &mdash; senza installare software né abbonamenti mensili. Ognuno dei 33 generatori gratuiti qui sotto produce PDF e JPEG pronti per la stampa che puoi scaricare all&apos;istante.
+                  </p>
+                  <p>
+                    Sei un insegnante che prepara una lezione di recupero, un genitore che pianifica una unità di homeschooling o un creatore di stampabili che esplora un nuovo formato prima di impegnarsi? Questi strumenti nel browser sono per te. Nessun account da creare, nessuna scadenza di prova, nessun limite al numero di schede. Scegli un tema, personalizza l&apos;impaginazione, esporta &mdash; è tutto qui.
+                  </p>
+                  <p>
+                    La filigrana sulla versione gratuita è l&apos;unica differenza rispetto alla versione a pagamento. Dimensioni della griglia, temi delle immagini, livelli di difficoltà, fogli delle soluzioni e risoluzione del PDF sono identici a quelli usati dai venditori con licenza. La filigrana rende le schede gratuite inadatte alla rivendita commerciale, ma perfettamente utilizzabili per dossier di classe, materiale di supporto, complementi di compiti e progetti personali.
+                  </p>
+                  <p>
+                    Tutti i 33 generatori supportano 11 lingue: inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese e finlandese. Le immagini portano il contenuto della scheda, quindi la maggior parte dei risultati si traduce automaticamente cambiando la lingua.
+                  </p>
+                  <p>
+                    Pronto a iniziare? Esplora le categorie qui sotto. Se stai costruendo una linea di stampabili per Etsy o Amazon KDP e ti servono download senza filigrana con licenza commerciale, trovi nell&apos;<Link href={`/${locale}/apps`} className="text-indigo-600 hover:text-indigo-700 underline font-medium">area Applicazioni</Link> le versioni con licenza di tutti i generatori qui sotto.
+                  </p>
+                </div>
+              )}
+
               {/* ES intro targeting "generador de fichas gratis" /
                   "crear imprimibles en línea" queries. */}
               {locale === 'es' && (

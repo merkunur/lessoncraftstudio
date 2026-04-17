@@ -234,6 +234,8 @@ const uiStrings: Record<string, {
     pdfExport: 'Esportazione PDF istantanea',
     watermarkNote: 'La versione gratuita include una filigrana. Acquista per rimuoverla.',
     startCreating: 'Inizia a creare ora',
+    pairedToolPrompt: 'Cerchi la versione gratuita nel browser?',
+    pairedToolAnchor: 'Prova lo strumento Maker — senza registrazione.',
   },
   nl: {
     tryFree: 'Gratis proberen (met watermerk)',

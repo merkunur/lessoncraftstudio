@@ -29,6 +29,8 @@ const content: AppContent = {
       'Genere sopas de letras para vender en Etsy, Amazon KDP o Hotmart — el pasatiempo más popular del mundo, ahora con imágenes temáticas que las hacen únicas. Las pistas son imágenes, no texto: los usuarios identifican la imagen, deducen la palabra y la buscan en la cuadrícula. Este formato visual funciona en 11 idiomas, multiplicando su mercado potencial. Seleccione entre más de 3.000 ilustraciones en 104 temas para crear sopas de letras irresistibles. Las sopas de letras son el producto estrella en Amazon KDP — los libros de búsqueda de palabras se venden consistentemente todo el año. Exporte PDFs a 300 DPI con solucionario automático. Licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear sopas de letras',
+
   howItWorks: {
     title: 'Cómo crear sopas de letras profesionales paso a paso',
     steps: [

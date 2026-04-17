@@ -27,6 +27,8 @@ const content: AppContent = {
       'Convierta la resta en un producto vendible con un generador diseñado para emprendedores de imprimibles. Cree fichas de resta ilustradas con imágenes temáticas de más de 100 categorías — animales, vehículos, alimentos, naturaleza — que hacen las matemáticas atractivas y sus anuncios irresistibles. Cada ficha se exporta en PDF 300 DPI listo para imprimir con solucionario automático, lista para subir a Etsy, compilar en un cuadernillo de Amazon KDP, o vender en Hotmart. La licencia comercial está incluida con cada ficha. Estrategia rentable: combine sumas y restas en paquetes — los vendedores reportan ventas promedio significativamente más altas con paquetes matemáticos combinados. El mercado hispano ofrece un potencial enorme con competencia mínima. Pruebe gratis con todas las funciones — sin registro. Las descargas incluyen marca de agua; compre una licencia para eliminarla.',
   },
 
+  ctaHeading: 'Crear fichas de restas',
+
   howItWorks: {
     title: 'Crear fichas de resta profesionales paso a paso',
     steps: [

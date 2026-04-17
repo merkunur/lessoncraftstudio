@@ -27,6 +27,8 @@ const content: AppContent = {
       'Genere fichas de reconocimiento de patrones para vender en Etsy, Amazon KDP o Hotmart. Los niños analizan secuencias de imágenes y seleccionan la opción correcta para completar el patrón — un formato que desarrolla habilidades de razonamiento lógico esenciales. Con más de 3.000 imágenes en 104 temas y dificultad ajustable, cree fichas para diferentes niveles. Las fichas de reconocimiento de patrones tienen alta demanda en Etsy para preescolar, infantil y educación especial. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Formato puramente visual — funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear fichas de patrones',
+
   howItWorks: {
     title: 'Cómo crear fichas de reconocimiento de patrones',
     steps: [

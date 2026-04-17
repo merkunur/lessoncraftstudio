@@ -26,6 +26,8 @@ const content: AppContent = {
       'Genere fichas de emparejar sombras para vender en Etsy, Amazon KDP o Hotmart. Los niños observan imágenes coloridas y las asocian con sus siluetas correspondientes — un ejercicio de percepción visual fundamental para preescolar e infantil. Con más de 3.000 ilustraciones en 104 temas, cree fichas de sombras para cualquier estación o interés. Las fichas de sombras son uno de los formatos más populares en Etsy para educación temprana por su atractivo visual inmediato. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato es puramente visual — cero barreras de idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear fichas de sombras',
+
   howItWorks: {
     title: 'Cómo crear fichas de sombras en minutos',
     steps: [

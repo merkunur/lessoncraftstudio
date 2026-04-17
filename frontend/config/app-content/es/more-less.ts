@@ -27,6 +27,8 @@ const content: AppContent = {
       'Genere fichas de mayor y menor para vender en Etsy, Amazon KDP o Hotmart. Los niños cuentan imágenes temáticas y comparan cantidades usando los signos mayor que (>), menor que (<) e igual (=). Este formato visual hace que la comparación numérica sea concreta y accesible para preescolar e infantil. Con más de 3.000 imágenes en 104 temas, cree fichas para cualquier interés. Las fichas de comparación matemática son un producto con demanda constante en Etsy y Amazon KDP. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear fichas de mayor o menor',
+
   howItWorks: {
     title: 'Cómo crear fichas de mayor y menor paso a paso',
     steps: [

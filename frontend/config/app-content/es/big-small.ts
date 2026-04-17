@@ -28,6 +28,8 @@ const content: AppContent = {
       'Genere fichas de grande y pequeño para vender en Etsy, Amazon KDP o Hotmart. Los niños comparan tamaños de imágenes temáticas — un concepto matemático fundamental para preescolar e infantil. Con más de 3.000 imágenes en 104 temas, cree fichas de comparación visualmente atractivas. Las fichas de conceptos básicos (grande/pequeño, más/menos) son un producto perenne para vendedores de preescolar — los padres y educadores las buscan todo el año. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. El formato puramente visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear fichas de grande y pequeño',
+
   howItWorks: {
     title: 'Cómo crear fichas de comparación de tamaños',
     steps: [

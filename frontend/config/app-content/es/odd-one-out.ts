@@ -26,6 +26,8 @@ const content: AppContent = {
       'Genere fichas de encuentra el intruso para vender en Etsy, Amazon KDP o Hotmart. Los niños observan un grupo de imágenes y determinan cuál no pertenece — un formato que desarrolla razonamiento lógico, clasificación y pensamiento crítico. Con más de 3.000 imágenes en 104 temas y dificultad ajustable, cree fichas para diferentes niveles. Las fichas de encuentra el intruso son muy populares en Etsy para preescolar, infantil y educación especial. Ideales para cuadernillos de lógica en Amazon KDP. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Formato puramente visual — funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear fichas del intruso',
+
   howItWorks: {
     title: 'Cómo crear fichas de encuentra el intruso paso a paso',
     steps: [

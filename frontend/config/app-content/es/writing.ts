@@ -29,6 +29,8 @@ const content: AppContent = {
       'Genere fichas de escritura para vender en Etsy, Amazon KDP o Hotmart. Este generador crea fichas de caligrafía y grafomotricidad donde los niños practican letras, palabras y oraciones con líneas guía. Personalice el contenido, la fuente, el tamaño de las líneas y la dificultad para crear fichas adaptadas a preescolar, infantil y primaria. Las fichas de escritura son un producto perenne con demanda constante — los padres las buscan todo el año para la práctica en casa. Exporte PDFs a 300 DPI con ejemplos de trazado y véndalos con la licencia comercial incluida. Los cuadernillos de caligrafía son un nicho probado en Amazon KDP con ventas consistentes. El mercado hispano ofrece una oportunidad masiva. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear fichas de escritura',
+
   howItWorks: {
     title: 'Cómo crear fichas de escritura en minutos',
     steps: [

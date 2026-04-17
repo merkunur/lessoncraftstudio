@@ -26,6 +26,8 @@ const content: AppContent = {
       'Genere fichas de dibujo y colorear para vender en Etsy, Amazon KDP o Hotmart. Este formato combine dos actividades favoritas: los niños primero dibujan siguiendo guías visuales y luego colorean su creación. Con más de 3.000 imágenes en 104 temas, cree fichas de dibujo para cualquier interés o estación. Las fichas de dibujo y colorear son un producto premium en Etsy porque ofrecen doble valor en una sola página. Ideales para cuadernillos de arte en Amazon KDP. Exporte PDFs a 300 DPI y véndalos con la licencia comercial incluida. El formato funciona en cualquier idioma — las instrucciones son visuales. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear fichas de dibujar y colorear',
+
   howItWorks: {
     title: 'Cómo crear fichas de dibujo y colorear paso a paso',
     steps: [

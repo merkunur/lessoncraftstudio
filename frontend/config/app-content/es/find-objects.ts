@@ -27,6 +27,8 @@ const content: AppContent = {
       'Genere fichas de busca y encuentra para vender en Etsy, Amazon KDP o Hotmart. Las fichas de objetos escondidos son un formato favorito de niños y adultos — los usuarios buscan imágenes específicas dentro de una escena temática compleja. Este generador crea fichas con imágenes de más de 104 categorías, con dificultad ajustable según la cantidad de objetos y la complejidad visual. Los libros de busca y encuentra son un género probado en Amazon KDP con ventas consistentes. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato es puramente visual y funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear fichas de buscar y encontrar',
+
   howItWorks: {
     title: 'Cómo crear fichas de busca y encuentra paso a paso',
     steps: [

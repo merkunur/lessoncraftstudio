@@ -27,6 +27,8 @@ const content: AppContent = {
       'Genere rompecabezas matemáticos de cuadrícula para vender en Etsy, Amazon KDP o Hotmart. Este generador crea puzzles donde los niños resuelven operaciones para completar cuadrículas — un formato más atractivo que las fichas de ejercicios tradicionales. Seleccione imágenes de más de 3.000 ilustraciones en 104 temas para crear rompecabezas visualmente irresistibles que se destacan en los resultados de búsqueda. Exporte PDFs a 300 DPI con solucionario automático y véndalos con licencia comercial. Los rompecabezas matemáticos tienen una ventaja competitiva en Etsy: los compradores los perciben como más divertidos que las fichas estándar y pagan precios más altos. Ideal para cuadernillos de actividades en Amazon KDP. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear rompecabezas matemáticos',
+
   howItWorks: {
     title: 'Crear rompecabezas matemáticos profesionales paso a paso',
     steps: [

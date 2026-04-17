@@ -26,6 +26,8 @@ const content: AppContent = {
       'Cree rompecabezas matemáticos de descifrar código para vender en Etsy, Amazon KDP o Hotmart — un formato único que combine práctica de sumas con descubrimiento de palabras. Los niños resuelven ecuaciones de suma para desbloquear letras y revelar palabras ocultas, lo que convierte cada ficha en un desafío emocionante. El modo Palabra Revelada soporta los 11 idiomas de la interfaz, permitiéndole crear productos para el mercado hispano y otros mercados simultáneamente. Exporte PDFs listos para imprimir a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Los rompecabezas tipo código se destacan en los listados de Etsy porque ofrecen algo diferente a las fichas de matemáticas estándar — los compradores pagan precios premium por formatos creativos. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear fichas de mensajes cifrados',
+
   howItWorks: {
     title: 'Cómo crear rompecabezas de código matemático paso a paso',
     steps: [

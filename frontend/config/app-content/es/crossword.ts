@@ -28,6 +28,8 @@ const content: AppContent = {
       'Genere crucigramas con imágenes como pistas para vender en Etsy, Amazon KDP o Hotmart. En lugar de definiciones escritas, los usuarios ven imágenes temáticas y escriben las palabras correspondientes — un formato innovador que funciona para todas las edades y se vende mejor que los crucigramas tradicionales. Soporte para 11 idiomas permite crear productos para el mercado hispano, europeo y global simultáneamente. Seleccione entre más de 3.000 ilustraciones en 104 temas. Los crucigramas son un clásico perenne con demanda constante en Amazon KDP y Etsy. Exporte PDFs a 300 DPI con solucionario automático y véndalos con licencia comercial. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear crucigramas',
+
   howItWorks: {
     title: 'Cómo crear crucigramas profesionales paso a paso',
     steps: [

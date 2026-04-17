@@ -27,6 +27,8 @@ const content: AppContent = {
       'Genere fichas de adivinar palabras para vender en Etsy, Amazon KDP o Hotmart. Los usuarios ven una imagen temática y adivinan la palabra correspondiente completando las letras — un formato interactivo que combine vocabulario con ortografía. Con soporte para 11 idiomas y más de 3.000 imágenes en 104 temas, puede crear fichas de adivinar palabras para el mercado hispano y otros mercados globales. Ideal para cuadernillos de vocabulario en KDP y paquetes educativos en Etsy. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Los juegos de vocabulario visual son especialmente populares para ELE — un mega-nicho con compradores de alto poder adquisitivo. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear fichas del ahorcado',
+
   howItWorks: {
     title: 'Cómo crear fichas de adivinar palabras paso a paso',
     steps: [

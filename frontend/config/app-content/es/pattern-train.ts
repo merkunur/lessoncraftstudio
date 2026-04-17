@@ -28,6 +28,8 @@ const content: AppContent = {
       'Genere fichas de patrones para vender en Etsy, Amazon KDP o Hotmart. El formato de tren de patrones presenta secuencias de imágenes que los niños deben continuar — una habilidad matemática fundamental que desarrolla el pensamiento lógico. Con más de 3.000 imágenes en 104 temas, cree fichas de patrones visualmente atractivas para cualquier contexto. Las fichas de patrones y secuencias son un producto de alta demanda para preescolar e infantil. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato puramente visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear fichas de secuencias',
+
   howItWorks: {
     title: 'Cómo crear fichas de patrones paso a paso',
     steps: [

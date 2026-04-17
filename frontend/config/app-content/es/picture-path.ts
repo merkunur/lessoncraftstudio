@@ -26,6 +26,8 @@ const content: AppContent = {
       'Genere laberintos ilustrados para vender en Etsy, Amazon KDP o Hotmart. Las fichas de caminos temáticos combinan laberintos con imágenes — los niños navegan caminos entre ilustraciones coloridas, desarrollando coordinación visomotora y planificación espacial. Seleccione entre más de 3.000 imágenes en 104 temas y ajuste la dificultad del laberinto. Los laberintos son un género probado en Amazon KDP con ventas consistentes todo el año, y en Etsy como descargue digital individual. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear laberintos',
+
   howItWorks: {
     title: 'Cómo crear laberintos ilustrados paso a paso',
     steps: [

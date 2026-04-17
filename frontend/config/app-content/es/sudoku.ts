@@ -30,6 +30,8 @@ const content: AppContent = {
       'Genere sudoku con imágenes para vender en Amazon KDP, Etsy o Hotmart. En lugar de números, los niños completan cuadrículas con imágenes temáticas — un formato innovador que hace el sudoku accesible para preescolares y niños pequeños. Con más de 3.000 imágenes en 104 temas, cree sudokus visuales para cualquier interés. Los libros de sudoku son un género perenne en Amazon KDP con ventas consistentes, y el formato con imágenes abra un mercado infantil que el sudoku numérico no alcanza. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear sudokus',
+
   howItWorks: {
     title: 'Cómo crear sudoku con imágenes paso a paso',
     steps: [

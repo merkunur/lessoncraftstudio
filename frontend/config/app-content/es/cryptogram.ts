@@ -27,6 +27,8 @@ const content: AppContent = {
       'Genere criptogramas para vender en Etsy, Amazon KDP o Hotmart. Los criptogramas son pasatiempos donde los usuarios descifran mensajes sustituyendo símbolos por letras — un formato adictivo que engancha tanto a niños como a adultos. Este generador crea criptogramas con imágenes temáticas de más de 104 categorías, añadiendo atractivo visual a cada ficha. Los criptogramas son un nicho de baja competencia en Etsy y KDP con compradores leales que buscan variedad constantemente. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El mercado hispano de pasatiempos imprimibles está prácticamente vacío — esta es su oportunidad. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear criptogramas',
+
   howItWorks: {
     title: 'Cómo crear criptogramas paso a paso',
     steps: [

@@ -28,6 +28,8 @@ const content: AppContent = {
       'Genere fichas de abecedario para vender en Etsy, Amazon KDP o Hotmart. El formato de tren del abecedario presenta cada letra en un vagón con imágenes temáticas correspondientes — una forma divertida y visual de aprender las letras. Con soporte para 11 idiomas y más de 3.000 imágenes en 104 temas, cree fichas de abecedario para el mercado hispano y otros mercados globales. Las fichas de abecedario son un producto perenne con demanda constante para preescolar e infantil. Cuadernillos de abecedario son un nicho probado en Amazon KDP. Exporte PDFs a 300 DPI con alta calidad y véndalos con la licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',
   },
 
+  ctaHeading: 'Crear fichas del abecedario',
+
   howItWorks: {
     title: 'Cómo crear fichas de abecedario paso a paso',
     steps: [

@@ -16,12 +16,12 @@ const content: AppContent = {
       'logica',
       'nadenken',
     ],
-    titleTag: 'Rekenspelletjes printen | Generator rekenpuzzels',
+    titleTag: 'Rekenpuzzel-generator | LessonCraftStudio',
     metaDescription: 'Maak rekenpuzzels met plaatjes waar kinderen sommen oplossen om figuren te combineren. Antwoorden inbegrepen. Gratis proberen.',
   },
 
   hero: {
-    title: 'Rekenspelletjes printen — Generator rekenpuzzels met plaatjes',
+    title: 'Rekenpuzzel-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline: 'Maak leuke rekenpuzzels voor de basisschool waar kinderen sommen oplossen om figuren te combineren — antwoorden inbegrepen.',
     description:
       'Genereer rekenpuzzels in rasterformaat die logisch denken combineren met rekenvaardigheid — een uniek puzzeltype met aanzienlijk minder concurrentie op Etsy dan standaard rekenbladen. Een afbeelding wordt opgesplitst in rasterstukjes die elk een optel- of aftreksomsom bevatten. Gebruikers lossen de sommen op en koppelen de antwoorden aan de door elkaar geschudde puzzelstukjes om het plaatje te onthullen. Configureer rasters van 2×2 tot 4×4 voor 4 tot 16 stukjes, kies optellen, aftrekken of gemengde bewerkingen, en selecteer uit meer dan 3100 illustraties in 104 thema\'s. Het visuele rasterformaat werkt taalonafhankelijk — uw puzzels zijn direct verkoopbaar op Etsy.nl, Amazon KDP, Bol.com en internationale marktplaatsen zonder vertaling. Elk werkblad bevat een automatisch antwoordblad. Exporteer als printklare PDF of JPEG op meer dan 400 DPI. De commerciële licentie verleent u volledige verkooprechten. Probeer alle functies met de gratis proefversie — downloads bevatten een watermerk dat verdwijnt met een licentie.',

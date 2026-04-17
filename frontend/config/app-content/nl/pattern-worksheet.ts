@@ -16,12 +16,12 @@ const content: AppContent = {
       'visueel',
       'logica',
     ],
-    titleTag: 'Oefeningen logische reeksen printen | Generator',
+    titleTag: 'Patroonwerkblad-generator | LessonCraftStudio',
     metaDescription: 'Maak oefeningen logische reeksen met themaplaatjes. Automatische antwoorden, PDF 300 DPI. Gratis proberen.',
   },
 
   hero: {
-    title: 'Oefeningen logische reeksen printen — Generator patroonherkenning',
+    title: 'Patroonwerkblad-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline: 'Maak werkbladen logisch redeneren met negen patroontypen en twee vraagmodi — themaplaatjes, automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Bouw een winstgevend assortiment patroonherkenning werkbladen voor uw Etsy-shop of Amazon KDP-uitgeverij. Kinderen identificeren herhalende reeksen en vullen het ontbrekende item in of kiezen het juiste antwoord uit meerkeuze-opties — een activiteit die wiskundig denken en logisch redeneren ontwikkelt. Negen patroontypen van eenvoudig AB tot complex ABCD bieden u een natuurlijke moeilijkheidsladder van kleuters tot en met groep 4. Twee vraagmodi verdubbelen uw productvariatie: invuloefeningen en meerkeuzevragen. Configureer 1 tot 8 oefeningen per pagina, elk met een eigen patroontype, vraagmodus en thema uit 104 collecties met meer dan 3.100 illustraties. Werkbladen zijn volledig visueel zonder tekst, waardoor ze wereldwijd verkoopbaar zijn zonder vertaling. Ideaal voor de Nederlandse markt via Etsy.nl en Bol.com, maar ook voor internationale Amazon KDP-marktplaatsen. Exporteer printklare PDF\'s en JPEG\'s op hoge DPI. Gratis proefversie met watermerk — koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',

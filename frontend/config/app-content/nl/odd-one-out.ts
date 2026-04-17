@@ -15,12 +15,12 @@ const content: AppContent = {
       'logica',
       'redeneren',
     ],
-    titleTag: 'Welke hoort er niet bij? werkblad printen | Generator logica',
+    titleTag: 'Vind-de-vreemde-generator | LessonCraftStudio',
     metaDescription: 'Maak werkbladen "welke hoort er niet bij?" met themaplaatjes voor logisch redeneren. Automatische antwoorden. Gratis proberen.',
   },
 
   hero: {
-    title: 'Welke hoort er niet bij? werkblad printen — Generator logica',
+    title: 'Vind-de-vreemde-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak werkbladen logisch redeneren waar kinderen de indringer zoeken met themaplaatjes — automatische antwoorden, probeer gratis met watermerk.',
     description:

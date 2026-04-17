@@ -15,12 +15,12 @@ const content: AppContent = {
       'observeren',
       'visueel redeneren',
     ],
-    titleTag: 'Puzzel ontbrekende stukjes printen | Generator visuele logica',
+    titleTag: 'Ontbrekende-stukjes-generator | LessonCraftStudio',
     metaDescription: 'Maak werkbladen "ontbrekende stukjes" met themaplaatjes en automatische antwoorden. PDF 300 DPI printbaar. Gratis proberen.',
   },
 
   hero: {
-    title: 'Puzzel ontbrekende stukjes printen — Generator visuele logica',
+    title: 'Ontbrekende-stukjes-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak werkbladen waar kinderen ontbrekende puzzelstukjes zoeken met themaplaatjes — automatische antwoorden, probeer gratis met watermerk.',
     description:

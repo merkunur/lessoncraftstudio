@@ -16,12 +16,12 @@ const content: AppContent = {
       'substitutie',
       'geheim',
     ],
-    titleTag: 'Geheime berichten printen | Cryptogram generator',
+    titleTag: 'Cryptogram-generator | LessonCraftStudio',
     metaDescription: 'Maak cryptogrammen en geheime berichten met themaplaatjes en automatische antwoorden. PDF 300 DPI, 11 talen. Gratis proberen — commerciële licentie.',
   },
 
   hero: {
-    title: 'Geheime berichten printen — Cryptogram generator met plaatjes',
+    title: 'Cryptogram-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline: 'Maak cryptogrammen en geheime berichten met themaplaatjes — ontcijfer bericht werkbladen met automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Met de Cryptogram Generator maakt u professionele geheimcode-puzzels waarbij kinderen letters ontcijferen aan de hand van afbeeldingsaanwijzingen. Elke alfabetletter wordt gekoppeld aan een unieke illustratie, en de geheime zin verschijnt als een reeks afbeeldingen die ontcijferd moeten worden. Dit unieke puzzelformaat kent zeer weinig concurrentie op Etsy en Amazon KDP, wat u een sterke positie geeft in een groeiende nichemarkt. De instelling Letters Onthullen (0–10) biedt een vloeiende moeilijkheidsgradatie — ideaal voor gedifferentieerde bundels met oplopend niveau. Kies uit 104 thematische collecties met meer dan 3100 illustraties of upload eigen afbeeldingen. Cryptogrammen zijn bijzonder geschikt voor Nederlandse woordenschatopbouw en NT2-materiaal, omdat kinderen woorden ontcijferen door logisch redeneren en patroonherkenning. Alle 11 talen beschikbaar met taalspecifieke alfabetten. Verkoop uw puzzels op Etsy, Amazon KDP of Bol.com met een commerciële licentie. Exporteer printklare PDF\'s en JPEG\'s op meer dan 400 DPI. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',

@@ -18,12 +18,12 @@ const content: AppContent = {
       'verschil',
       'antwoorden',
     ],
-    titleTag: 'Werkbladen aftrekken printen | Generator met antwoorden',
+    titleTag: 'Aftrekwerkblad-generator | LessonCraftStudio',
     metaDescription: 'Maak werkbladen aftrekken met themaplaatjes en automatische antwoorden. PDF 300 DPI, 11 talen. Gratis proberen — commerciële licentie inbegrepen.',
   },
 
   hero: {
-    title: 'Werkbladen aftrekken printen — Generator met themaplaatjes en antwoorden',
+    title: 'Aftrekwerkblad-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline: 'Maak oefenbladen aftrekken voor groep 3/4 met min sommen, themaplaatjes en automatische antwoordbladen — probeer gratis met watermerk.',
     description:
       'Maak van aftrekken een verkoopbaar product met een generator die is ontworpen voor printables-ondernemers. Maak geïllustreerde aftrekwerkbladen met thema-afbeeldingen uit meer dan 100 categorieën — dieren, voertuigen, eten, natuur — die rekenen aantrekkelijk maken en uw Etsy-aanbiedingen onweerstaanbaar. Elk werkblad wordt geëxporteerd als printklare PDF op 300 DPI met automatisch antwoordenblad, klaar om te uploaden op Etsy, samen te voegen in een activiteitenboek voor Amazon KDP of Brave New Books, of aan te bieden op Samen Voor Onderwijs. De commerciële licentie is bij elk werkblad inbegrepen. Winstgevende tip: combineer optellen en aftrekken in bundels — verkopers melden aanzienlijk hogere gemiddelde bestellingen met gecombineerde rekenpakketten. Probeer alle functies met de gratis proefversie met watermerk — zonder account.',

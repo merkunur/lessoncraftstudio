@@ -16,12 +16,12 @@ const content: AppContent = {
       'zoeken',
       'vinden',
     ],
-    titleTag: 'Zoek en vind werkblad printen | Generator observatiespellen',
+    titleTag: 'Zoekplaten-generator | LessonCraftStudio',
     metaDescription: 'Maak zoek-en-vind werkbladen met themaplaatjes. Automatische antwoorden, PDF 300 DPI. Gratis proberen — verkoop op Etsy & KDP.',
   },
 
   hero: {
-    title: 'Zoek en vind werkblad printen — Generator observatiespellen',
+    title: 'Zoekplaten-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak zoek-en-vind werkbladen met verborgen voorwerpen en themaplaatjes — automatische antwoorden, probeer gratis met watermerk.',
     description:

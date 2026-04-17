@@ -17,12 +17,12 @@ const content: AppContent = {
       'thema\'s',
       'kinderen',
     ],
-    titleTag: 'Kleurplaat maken | Generator kleurplaten printen',
+    titleTag: 'Kleurplaten-generator | LessonCraftStudio',
     metaDescription: 'Maak kleurplaten van 3.000+ themaplaatjes. Hoge resolutie contouren, printbare PDF\'s. Gratis proberen — verkoop op Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Kleurplaat maken — Generator kleurplaten printen met themaplaatjes',
+    title: 'Kleurplaten-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline: 'Maak eigen kleurplaten met 3.000+ illustraties in 104 thema\'s — hoge resolutie contouren, printbare PDF\'s, probeer gratis met watermerk.',
     description:
       'Kleurplaten behoren tot de meest gezochte printable producten op Etsy en Amazon KDP. Met deze generator bouwt u een complete productlijn op een vrije-vorm canvas waar u afbeeldingen precies plaatst waar u ze wilt — geen rasters, geen sjablonen, pure creatieve vrijheid. Blader door 3.100+ kleurrijke illustraties verdeeld over 104 thematische collecties en maak in enkele minuten professionele kleurplaten die klaar zijn voor verkoop. Het tekengereedschap voor uit de vrije hand laat u originele illustraties toevoegen die uw producten onderscheiden van de concurrentie. De grijstintenexport zet uw kleurrijke composities om naar inkvriendelijke kleurplaten, essentieel voor Amazon KDP-boekbinnenwerken en Brave New Books-publicaties. Voeg naamvelden en schrijflijnen toe voor extra educatieve waarde die hogere prijzen rechtvaardigt. De Kleurplaten Generator is niet taalgevoelig — de uitvoer is puur visueel, dus werkbladen werken voor elke markt zonder vertaling. Seizoensgebonden thema\'s zoals Sinterklaas, Kerstmis en Pasen bieden piekverkoopkansen op Etsy.nl en Bol.com. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI met commerciële licentie. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',

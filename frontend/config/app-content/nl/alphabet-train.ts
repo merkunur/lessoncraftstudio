@@ -18,12 +18,12 @@ const content: AppContent = {
       'groep 1/2',
       'groep 3',
     ],
-    titleTag: 'Alfabet werkbladen printen | Generator ABC-oefeningen',
+    titleTag: 'Alfabetwerkblad-generator | LessonCraftStudio',
     metaDescription: 'Maak alfabet werkbladen met themaplaatjes voor letterherkenning. Automatische antwoorden, 11 talen. Gratis proberen.',
   },
 
   hero: {
-    title: 'Alfabet werkbladen printen — Generator ABC-oefeningen met plaatjes',
+    title: 'Alfabetwerkblad-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline: 'Maak alfabet werkbladen met letterherkenning en themaplaatjes voor kleuters en groep 1/2/3 — automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Maak professionele alfabet-trein werkbladen die u direct kunt verkopen op Etsy, Amazon KDP, Bol.com en Brave New Books. Elf kleurrijke treinwagons rollen over de pagina, elk met een letter gekoppeld aan een bijpassende illustratie — een formaat dat letterherkenning en lettervolgorde combineert in één visueel aantrekkelijk werkblad. De generator is bijzonder populair voor kleuters en groep 3 van de Nederlandse basisschool, waar kinderen hun eerste letters leren herkennen. Kies de modus Automatisch Aanmaken voor snelle batchproductie of de Handmatige modus om precies 11 letters te selecteren voor gerichte oefening met klinkers, lastige letterparen of specifieke alfabetdelen. Het instelbare aanwijzingensysteem van 3 tot 11 hints biedt u een ingebouwde moeilijkheidsschaal voor gedifferentieerde productbundels. Meer dan 3.100 illustraties in 104 thema\'s zorgen voor eindeloze thematische variatie — van boerderijdieren tot dinosaurussen. Volledige Toegang ontgrendelt alle 11 talen met hun eigen alfabetten en speciale letters, waardoor u elf verkoopbare producten creëert vanuit één workflow. Exporteer printklare PDF\'s en JPEG\'s op meer dan 400 DPI met automatisch antwoordblad. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie. Commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',

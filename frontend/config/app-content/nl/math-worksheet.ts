@@ -17,12 +17,12 @@ const content: AppContent = {
       'antwoorden',
       'PDF',
     ],
-    titleTag: 'Reken werkblad generator | Sommen werkbladen maken',
+    titleTag: 'Rekenwerkblad-generator | LessonCraftStudio',
     metaDescription: 'Maak reken werkbladen op maat met automatische antwoorden. PDF 300 DPI, 11 talen. Gratis proberen — commerciële licentie voor Etsy & KDP.',
   },
 
   hero: {
-    title: 'Reken werkblad generator — Sommen werkbladen maken en printen',
+    title: 'Rekenwerkblad-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline: 'Maak rekenwerkbladen op maat met optellen, aftrekken, vermenigvuldigen en delen — automatische antwoorden, PDF 300 DPI.',
     description:
       'Genereer numerieke rekenbladen met optellen, aftrekken, vermenigvuldigen en delen — puur cijferwerk zonder afbeeldingen, perfect voor groep 4 tot en met 8. Tafels oefenen is een van de meest gezochte rekenthema\'s op de Nederlandse markt, en met deze generator maakt u in minuten professionele oefenbladen die u kunt verkopen op Etsy.nl, Amazon KDP en Bol.com. Configureer het getallenbereik, het aantal opgaven per pagina en de bewerkingstypen om werkbladen te produceren voor elk vaardigheidsniveau — van eenvoudige opteldrills voor beginners tot gemengde bewerkingen met grotere getallen voor gevorderden. Elk werkblad bevat een automatisch gegenereerd antwoordblad en wordt geëxporteerd als printklare PDF of JPEG op meer dan 400 DPI. De commerciële licentie verleent u volledige verkooprechten zonder royalty\'s. Probeer alle functies met de gratis proefversie — downloads bevatten een watermerk dat verdwijnt zodra u een licentie activeert.',

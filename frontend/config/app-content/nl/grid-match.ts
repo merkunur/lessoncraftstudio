@@ -16,12 +16,12 @@ const content: AppContent = {
       'symmetrie',
       'ruimtelijk inzicht',
     ],
-    titleTag: 'Natekenen op raster werkblad printen | Generator rastertekening',
+    titleTag: 'Rasterwerkblad-generator | LessonCraftStudio',
     metaDescription: 'Maak natekenen-op-raster werkbladen met themaplaatjes. Automatische antwoorden, printbare PDF\'s. Gratis proberen.',
   },
 
   hero: {
-    title: 'Natekenen op raster werkblad printen — Generator rastertekening',
+    title: 'Rasterwerkblad-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak raster-koppelpuzzels met instelbare tegels en themaplaatjes — automatische antwoordbladen, probeer gratis met watermerk.',
     description:

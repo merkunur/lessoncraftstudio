@@ -16,12 +16,12 @@ const content: AppContent = {
       'spelling',
       'woordenschat',
     ],
-    titleTag: 'Anagrammen printen | Generator letters door elkaar',
+    titleTag: 'Door-elkaar-letters-generator | LessonCraftStudio',
     metaDescription: 'Maak werkbladen met door elkaar gehusselde letters en themaplaatjes. Automatische antwoorden, printbare PDF\'s. Gratis proberen.',
   },
 
   hero: {
-    title: 'Anagrammen printen — Generator letters door elkaar met plaatjes',
+    title: 'Door-elkaar-letters-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline: 'Maak werkbladen met gehusselde letters en themaplaatjes voor spelling en woordenschat — automatische antwoorden, probeer gratis met watermerk.',
     description:
       'Maak professionele door-elkaar-woorden werkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. De woordkruisel generator husselt lettertegels die gebruikers herschikken tot het juiste woord, begeleid door afbeeldingsaanwijzingen uit meer dan 3.100 illustraties in 104 thema\'s. Vier moeilijkheidsniveaus — van Makkelijk met de helft van de letters op de juiste plek tot Geen Aanwijzingen waar alles gehusseld is — geven u een ingebouwde getrapte productlijn voor bundels op verschillende niveaus. De unieke klinker-medeklinker kleurcodering voegt een fonetische dimensie toe die premium prijzen rechtvaardigt. Kies uit drie inhoudsbronnen: de Afbeeldingenbibliotheek, Handmatige Bewerking of Aangepaste Woordenlijst voor tekst-only puzzels. Volledige Toegang ontgrendelt alle 11 talen — elk met andere woorden, andere letters en compleet andere puzzels — waardoor u elf verkoopbare producten creëert vanuit één workflow. Exporteer printklare PDF\'s en JPEG\'s op meer dan 300 DPI met automatisch antwoordblad. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie. Commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten voor de Nederlandse en internationale markt.',

@@ -19,12 +19,12 @@ const content: AppContent = {
       '4x4',
       '6x6',
     ],
-    titleTag: 'Sudoku printen | Generator sudoku met plaatjes',
+    titleTag: 'Sudoku-generator | LessonCraftStudio',
     metaDescription: 'Maak sudoku\'s met plaatjes of cijfers, instelbare moeilijkheid. Automatische antwoorden, printbare PDF\'s. Gratis proberen — verkoop op Etsy & KDP.',
   },
 
   hero: {
-    title: 'Sudoku printen — Generator sudoku met plaatjes en cijfers',
+    title: 'Sudoku-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak sudoku\'s met plaatjes of cijfers in instelbare moeilijkheid — automatische antwoorden, printbare PDF\'s, probeer gratis met watermerk.',
     description:

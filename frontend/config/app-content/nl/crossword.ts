@@ -16,12 +16,12 @@ const content: AppContent = {
       'verticaal',
       'antwoorden',
     ],
-    titleTag: 'Kruiswoordpuzzel maken | Generator met plaatjes & antwoorden',
+    titleTag: 'Kruiswoordpuzzel-generator | LessonCraftStudio',
     metaDescription: 'Maak kruiswoordpuzzels met aanwijzingen in plaatjes op een 15×15 rooster. 4 invoermodi, 104 thema\'s, automatische antwoorden. Gratis proberen.',
   },
 
   hero: {
-    title: 'Kruiswoordpuzzel maken — Generator met plaatjes en antwoorden',
+    title: 'Kruiswoordpuzzel-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak eigen kruiswoordpuzzels met afbeeldingen als aanwijzingen op een 15×15 rooster — 104 thema\'s, automatisch antwoordblad, probeer gratis met watermerk.',
     description:

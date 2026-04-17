@@ -15,12 +15,12 @@ const content: AppContent = {
       'fijne motoriek',
       'concentratie',
     ],
-    titleTag: 'Doolhof printen | Generator doolhoven',
+    titleTag: 'Doolhof-generator | LessonCraftStudio',
     metaDescription: 'Maak doolhoven met themaplaatjes. Automatische antwoorden, PDF 300 DPI. Gratis proberen — verkoop op Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Doolhof printen — Generator doolhoven met themaplaatjes',
+    title: 'Doolhof-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak doolhoven met plaatjes voor kinderen en kleuters — drie spelmodi, automatische antwoorden, probeer gratis met watermerk.',
     description:

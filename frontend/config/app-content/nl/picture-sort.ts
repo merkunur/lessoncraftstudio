@@ -15,12 +15,12 @@ const content: AppContent = {
       'ordenen',
       'categoriseren',
     ],
-    titleTag: 'Sorteer werkblad printen | Generator categoriseren',
+    titleTag: 'Sorteerwerkblad-generator | LessonCraftStudio',
     metaDescription: 'Maak sorteer- en categoriseer werkbladen met themaplaatjes. Automatische antwoorden, printbare PDF\'s. Gratis proberen.',
   },
 
   hero: {
-    title: 'Sorteer werkblad printen — Generator categoriseren met plaatjes',
+    title: 'Sorteerwerkblad-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak sorteer- en categoriseer werkbladen met themaplaatjes voor kleuters en basisschool — automatische antwoorden, probeer gratis met watermerk.',
     description:

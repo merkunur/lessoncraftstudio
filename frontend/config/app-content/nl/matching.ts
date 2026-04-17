@@ -16,12 +16,12 @@ const content: AppContent = {
       'kleuters',
       'groep 1/2',
     ],
-    titleTag: 'Verbind werkbladen printen | Generator koppelspel',
+    titleTag: 'Koppel-werkblad-generator | LessonCraftStudio',
     metaDescription: 'Maak verbind-werkbladen met themaplaatjes voor kleuters en basisschool. Automatische antwoorden, PDF 300 DPI. Gratis proberen.',
   },
 
   hero: {
-    title: 'Verbind werkbladen printen — Generator koppelspel met plaatjes',
+    title: 'Koppel-werkblad-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak koppelwerkbladen met vier modi en themaplaatjes voor kleuters en groep 1/2 — automatische antwoordbladen, probeer gratis met watermerk.',
     description:

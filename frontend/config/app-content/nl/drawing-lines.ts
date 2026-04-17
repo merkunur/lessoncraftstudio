@@ -16,12 +16,12 @@ const content: AppContent = {
       'fijne motoriek',
       'kleuters',
     ],
-    titleTag: 'Overtrekken werkbladen printen | Generator schrijfmotoriek',
+    titleTag: 'Schrijfmotoriek-generator | LessonCraftStudio',
     metaDescription: 'Maak overtrekken en schrijfmotoriek werkbladen met themaplaatjes. PDF 300 DPI printbaar. Gratis proberen — commerciële licentie inbegrepen.',
   },
 
   hero: {
-    title: 'Overtrekken werkbladen printen — Generator schrijfmotoriek met plaatjes',
+    title: 'Schrijfmotoriek-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline: 'Maak stippellijnen en overtrekken werkbladen voor kleuters met acht lijnsjablonen en 3.000+ themaplaatjes — probeer gratis met watermerk.',
     description:
       'Fijne motoriek werkbladen zijn een van de meest gevraagde printables voor kleuters en jonge kinderen. Met deze generator maakt u professionele trekwerkbladen waarbij kinderen langs begeleide paden tekenen om bijpassende afbeeldingsparen te verbinden. Acht SVG-lijnsjablonen dekken bochten, diagonalen, horizontale en verticale lijnen — elk gericht op een andere motorische vaardigheid die essentieel is voor voorbereidend schrijven. Elk sjabloon plaatst 4 of 5 afbeeldingsparen aan tegenovergestelde zijden van het lijnpad, wat kinderen motiveert om de lijn af te maken. Kies uit 104 thematische collecties met meer dan 3.100 kleurrijke illustraties. Werkbladen zijn volledig visueel zonder tekst, waardoor ze wereldwijd verkoopbaar zijn zonder vertaling. Bijzonder populair op de Nederlandse markt voor ouders die werkbladen kopen voor kleuters en groep 1-2. Ideaal voor Etsy.nl, Bol.com en Amazon KDP fijne motoriek werkboeken. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. Gratis proefversie met watermerk — koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',

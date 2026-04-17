@@ -16,12 +16,12 @@ const content: AppContent = {
       'speurspel',
       'raadsels',
     ],
-    titleTag: 'Speurtocht printen | Generator schattenjacht werkbladen',
+    titleTag: 'Schattenjacht-generator | LessonCraftStudio',
     metaDescription: 'Maak speurtocht- en schattenjacht-werkbladen met themaplaatjes. Printbare PDF\'s. Gratis proberen — verkoop op Etsy & KDP.',
   },
 
   hero: {
-    title: 'Speurtocht printen — Generator schattenjacht werkbladen met plaatjes',
+    title: 'Schattenjacht-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak speurtocht- en schattenjacht-werkbladen met aanwijzingen en themaplaatjes — printbare PDF\'s, probeer gratis met watermerk.',
     description:

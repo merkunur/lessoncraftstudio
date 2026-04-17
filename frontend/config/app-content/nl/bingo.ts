@@ -17,12 +17,12 @@ const content: AppContent = {
       'klas',
       'feest',
     ],
-    titleTag: 'Bingokaarten maken | Generator bingo met plaatjes',
+    titleTag: 'Bingokaart-generator | LessonCraftStudio',
     metaDescription: 'Maak bingokaarten met 3.000+ themaplaatjes. Unieke kaarten per set, printbare PDF\'s. Gratis proberen — commerciële licentie.',
   },
 
   hero: {
-    title: 'Bingokaarten maken — Generator bingo met plaatjes en afroepbladen',
+    title: 'Bingokaart-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak eigen bingokaarten met 3.000+ themaplaatjes — unieke kaarten per set, automatische afroepbladen, probeer gratis met watermerk.',
     description:

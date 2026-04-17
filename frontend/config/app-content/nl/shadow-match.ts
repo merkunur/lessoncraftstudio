@@ -15,12 +15,12 @@ const content: AppContent = {
       'koppelen',
       'visuele discriminatie',
     ],
-    titleTag: 'Schaduwspel werkblad printen | Generator silhouetten koppelen',
+    titleTag: 'Schaduwkoppel-generator | LessonCraftStudio',
     metaDescription: 'Maak schaduwspel werkbladen met plaatjes en silhouetten op thema. Automatische antwoorden, PDF 300 DPI. Gratis proberen.',
   },
 
   hero: {
-    title: 'Schaduwspel werkblad printen — Generator silhouetten koppelen',
+    title: 'Schaduwkoppel-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak schaduwspel werkbladen met plaatjes en automatische silhouetten voor kleuters — twee koppelmodi, probeer gratis met watermerk.',
     description:

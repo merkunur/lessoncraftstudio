@@ -15,12 +15,12 @@ const content: AppContent = {
       'visuele discriminatie',
       'getallen',
     ],
-    titleTag: 'Zoek en tel werkblad printen | Generator teloefeningen',
+    titleTag: 'Zoek-en-tel-generator | LessonCraftStudio',
     metaDescription: 'Maak zoek-en-tel werkbladen waar kinderen themaplaatjes zoeken en tellen. Automatische antwoorden. Gratis proberen.',
   },
 
   hero: {
-    title: 'Zoek en tel werkblad printen — Generator teloefeningen met plaatjes',
+    title: 'Zoek-en-tel-generator — Maak printables om te verkopen op Etsy en KDP',
     tagline:
       'Maak zoek-en-tel werkbladen voor kleuters en basisschool met themaplaatjes — automatische antwoorden, probeer gratis met watermerk.',
     description:

@@ -53,10 +53,14 @@ function getSpeakableSpecification(): object {
  */
 export function generateFAQSchema(faqs: Array<{question: string; answer: string}>, locale: string, pageUrl?: string) {
   const baseUrl = getBaseUrl();
+  // dateModified uses the build time; good enough for crawler freshness
+  // signals since the site rebuilds whenever content changes.
+  const dateModified = new Date().toISOString();
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     ...(pageUrl ? { "@id": `${pageUrl}#faq`, "url": pageUrl } : { "@id": `${baseUrl}/${locale}/#faq`, "url": `${baseUrl}/${locale}` }),
+    "dateModified": dateModified,
     "mainEntity": faqs.map(faq => ({
       "@type": "Question",
       "name": faq.question,

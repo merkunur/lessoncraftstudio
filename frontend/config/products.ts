@@ -13,47 +13,47 @@ export const ALL_APPS = {
   // Math apps (6)
   'addition': { name: 'Addition', category: 'math', htmlFile: 'addition.html' },
   'subtraction': { name: 'Subtraction', category: 'math', htmlFile: 'subtraction.html' },
-  'code-addition': { name: 'Code Addition', category: 'math', htmlFile: 'code addition.html' },
-  'more-less': { name: 'More or Less', category: 'math', htmlFile: 'more less.html' },
-  'math-puzzle': { name: 'Math Puzzle', category: 'math', htmlFile: 'math puzzle.html' },
-  'math-worksheet': { name: 'Math Worksheet', category: 'math', htmlFile: 'math worksheet.html' },
+  'code-addition': { name: 'Code Addition', category: 'math', htmlFile: 'code-addition.html' },
+  'more-less': { name: 'More or Less', category: 'math', htmlFile: 'more-less.html' },
+  'math-puzzle': { name: 'Math Puzzle', category: 'math', htmlFile: 'math-puzzle.html' },
+  'math-worksheet': { name: 'Math Worksheet', category: 'math', htmlFile: 'math-worksheet.html' },
 
   // Literacy apps (7)
-  'alphabet-train': { name: 'Alphabet Train', category: 'literacy', htmlFile: 'alphabet train.html' },
+  'alphabet-train': { name: 'Alphabet Train', category: 'literacy', htmlFile: 'alphabet-train.html' },
   'prepositions': { name: 'Prepositions', category: 'literacy', htmlFile: 'prepositions.html' },
-  'word-guess': { name: 'Word Guess', category: 'literacy', htmlFile: 'word guess.html' },
-  'word-scramble': { name: 'Word Scramble', category: 'literacy', htmlFile: 'word scramble.html' },
+  'word-guess': { name: 'Word Guess', category: 'literacy', htmlFile: 'word-guess.html' },
+  'word-scramble': { name: 'Word Scramble', category: 'literacy', htmlFile: 'word-scramble.html' },
   'wordsearch': { name: 'Word Search', category: 'literacy', htmlFile: 'wordsearch.html' },
   'cryptogram': { name: 'Cryptogram', category: 'literacy', htmlFile: 'cryptogram.html' },
   'writing': { name: 'Writing', category: 'literacy', htmlFile: 'writing.html' },
 
   // Visual apps (7)
-  'big-small': { name: 'Big & Small', category: 'visual', htmlFile: 'big small.html' },
-  'pattern-train': { name: 'Pattern Train', category: 'visual', htmlFile: 'pattern train.html' },
-  'pattern-worksheet': { name: 'Pattern Worksheet', category: 'visual', htmlFile: 'pattern worksheet.html' },
-  'draw-and-color': { name: 'Draw & Color', category: 'visual', htmlFile: 'draw and color.html' },
-  'drawing-lines': { name: 'Drawing Lines', category: 'visual', htmlFile: 'drawing lines.html' },
+  'big-small': { name: 'Big & Small', category: 'visual', htmlFile: 'big-small.html' },
+  'pattern-train': { name: 'Pattern Train', category: 'visual', htmlFile: 'pattern-train.html' },
+  'pattern-worksheet': { name: 'Pattern Worksheet', category: 'visual', htmlFile: 'pattern-worksheet.html' },
+  'draw-and-color': { name: 'Draw & Color', category: 'visual', htmlFile: 'draw-and-color.html' },
+  'drawing-lines': { name: 'Drawing Lines', category: 'visual', htmlFile: 'drawing-lines.html' },
   'coloring': { name: 'Coloring', category: 'visual', htmlFile: 'coloring.html' },
-  'chart-count': { name: 'Chart Count', category: 'visual', htmlFile: 'chart count.html' },
+  'chart-count': { name: 'Chart Count', category: 'visual', htmlFile: 'chart-count.html' },
 
   // Matching apps (5)
   'matching': { name: 'Matching', category: 'matching', htmlFile: 'matching.html' },
-  'grid-match': { name: 'Grid Match', category: 'matching', htmlFile: 'grid match.html' },
-  'shadow-match': { name: 'Shadow Match', category: 'matching', htmlFile: 'shadow match.html' },
+  'grid-match': { name: 'Grid Match', category: 'matching', htmlFile: 'grid-match.html' },
+  'shadow-match': { name: 'Shadow Match', category: 'matching', htmlFile: 'shadow-match.html' },
   'bingo': { name: 'Bingo', category: 'matching', htmlFile: 'bingo.html' },
-  'picture-sort': { name: 'Picture Sort', category: 'matching', htmlFile: 'picture sort.html' },
+  'picture-sort': { name: 'Picture Sort', category: 'matching', htmlFile: 'picture-sort.html' },
 
   // Puzzle apps (4)
-  'missing-pieces': { name: 'Missing Pieces', category: 'puzzle', htmlFile: 'missing pieces.html' },
-  'odd-one-out': { name: 'Odd One Out', category: 'puzzle', htmlFile: 'odd one out.html' },
+  'missing-pieces': { name: 'Missing Pieces', category: 'puzzle', htmlFile: 'missing-pieces.html' },
+  'odd-one-out': { name: 'Odd One Out', category: 'puzzle', htmlFile: 'odd-one-out.html' },
   'sudoku': { name: 'Sudoku', category: 'puzzle', htmlFile: 'sudoku.html' },
-  'picture-path': { name: 'Picture Path', category: 'puzzle', htmlFile: 'picture path.html' },
+  'picture-path': { name: 'Picture Path', category: 'puzzle', htmlFile: 'picture-path.html' },
 
   // Search apps (4)
-  'find-and-count': { name: 'Find & Count', category: 'search', htmlFile: 'find and count.html' },
-  'find-objects': { name: 'Find Objects', category: 'search', htmlFile: 'find objects.html' },
+  'find-and-count': { name: 'Find & Count', category: 'search', htmlFile: 'find-and-count.html' },
+  'find-objects': { name: 'Find Objects', category: 'search', htmlFile: 'find-objects.html' },
   'crossword': { name: 'Crossword', category: 'search', htmlFile: 'crossword.html' },
-  'treasure-hunt': { name: 'Treasure Hunt', category: 'search', htmlFile: 'treasure hunt.html' },
+  'treasure-hunt': { name: 'Treasure Hunt', category: 'search', htmlFile: 'treasure-hunt.html' },
 } as const;
 
 export type AppId = keyof typeof ALL_APPS;

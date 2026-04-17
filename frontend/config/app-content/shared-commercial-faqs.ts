@@ -36,6 +36,33 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Yes. The generator supports 11 languages (English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, Finnish), and each language-specific version counts as a distinct product under your license. Many sellers multiply revenue per theme by exporting the same worksheet in each language and listing them as separate SKUs on Etsy or KDP.',
     },
   ],
+  de: [
+    {
+      question: 'Was umfasst die kommerzielle Lizenz?',
+      answer:
+        'Jedes Arbeitsblatt, das Sie erstellen, kommt mit einer vollständigen kommerziellen Lizenz — ohne Quellennachweis, ohne Lizenzgebühren, ohne Stückzahl-Obergrenze. Sie dürfen die erstellten Arbeitsblätter auf Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, in Ihrem eigenen Shop oder auf jedem anderen Marktplatz verkaufen. Die einmalige Lizenz für 49 $ deckt unbegrenzte kommerzielle Nutzung für einen Verkäufer oder ein Unternehmen ab.',
+    },
+    {
+      question: 'Darf ich Arbeitsblätter auf Etsy, Amazon KDP, Teachers Pay Teachers und Gumroad verkaufen?',
+      answer:
+        'Ja, alle vier Plattformen sind von der kommerziellen Lizenz abgedeckt. Sie können digitale Downloads auf Etsy verkaufen, Arbeitsblätter zu gedruckten Rätsel- und Aktivitätsbüchern für Amazon KDP zusammenstellen, Klassenraum-Bundles auf Teachers Pay Teachers anbieten und Druckvorlagen über Gumroad oder Ihren eigenen Online-Shop vertreiben. Die Lizenz schränkt nicht ein, auf welchem Marktplatz Sie verkaufen.',
+    },
+    {
+      question: 'Wie ist die Rückerstattungsrichtlinie?',
+      answer:
+        'Wir bieten ein 30-tägiges Rückerstattungsfenster. Falls der Generator innerhalb der ersten 30 Tage nicht zu Ihrer Produktlinie passt, schreiben Sie dem Support und wir erstatten den vollen Betrag zurück. Nach 30 Tagen werden Rückerstattungen im Einzelfall bei materiellen Mängeln oder Problemen mit dem Tool geprüft.',
+    },
+    {
+      question: 'Kann ich die Lizenz mit Teammitgliedern oder Mitarbeitern teilen?',
+      answer:
+        'Eine einzelne Lizenz deckt ein Verkäuferkonto oder Unternehmen ab. Wenn Sie Einzelunternehmer sind, deckt die Lizenz Sie und alle virtuellen Assistenten ab, die für Ihr Unternehmen arbeiten. Für Teams ab 3 Personen, die unabhängig voneinander Arbeitsblätter erstellen, kontaktieren Sie den Support wegen Team-Lizenzen — wir bieten rabattierte Mehrplatz-Pakete.',
+    },
+    {
+      question: 'Darf ich dasselbe Arbeitsblatt in 11 Sprachen als separate Produkte verkaufen?',
+      answer:
+        'Ja. Der Generator unterstützt 11 Sprachen (Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch, Finnisch), und jede sprachspezifische Version gilt unter Ihrer Lizenz als eigenständiges Produkt. Viele Verkäufer vervielfachen ihren Umsatz pro Thema, indem sie dasselbe Arbeitsblatt in jeder Sprache exportieren und als separate Angebote auf Etsy oder KDP listen.',
+    },
+  ],
 };
 
 export function getSharedCommercialFAQs(locale: string): FAQ[] {

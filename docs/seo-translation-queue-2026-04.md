@@ -369,3 +369,17 @@ Only `addition.ts` (previously 173 chars) was rewritten to 150 chars.
 New text: "Additions-Generator für Etsy- und KDP-Verkäufer. 4 Mathe-Modi,
 104 Bildthemen, automatische Lösungen, 11 Sprachen. Kostenlos testen mit
 Wasserzeichen." Other 32 DE metas kept as-is.
+
+## DE-C — DE translations of shared commercial + usage FAQs
+
+5 DE commercial FAQs added to `frontend/config/app-content/shared-commercial-faqs.ts`
+and 5 DE usage FAQs added to `frontend/config/tool-content/shared-usage-faqs.ts`.
+Price stated as `49 $` (matches the USD Lemon Squeezy checkout).
+
+Template logic (`getSharedCommercialFAQs(locale)` /
+`getSharedUsageFAQs(locale)`) was already locale-aware with EN fallback —
+once the `de: [...]` entries exist, `/de/apps/*` and `/de/tools/*` pages
+automatically prepend the DE FAQs before the generator-specific ones.
+
+EN fallback remains active for the 9 other non-EN locales (fr, es, pt,
+it, nl, sv, da, no, fi) until their respective rounds land.

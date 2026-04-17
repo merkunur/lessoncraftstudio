@@ -36,6 +36,33 @@ export const sharedUsageFAQs: Record<string, FAQ[]> = {
         'Your current worksheet layout is held in browser memory only. Closing the tab clears it. To preserve a worksheet across sessions, download the PDF and JPEG before closing — re-importing the exact same configuration is not supported in the free browser version. If you frequently create batches of related worksheets, purchasing a license also gives you access to saved templates.',
     },
   ],
+  de: [
+    {
+      question: 'Muss ich mich wirklich nicht registrieren?',
+      answer:
+        'Richtig — Sie können den Generator öffnen, ein Thema wählen, das Seitenlayout anpassen und ein PDF oder JPEG mit Wasserzeichen herunterladen, ohne ein Konto zu erstellen. Keine E-Mail, keine Kreditkarte, keine Testphase. Das Wasserzeichen ist ein kleiner Hinweis in der Ecke; der eigentliche Arbeitsblatt-Inhalt ist identisch mit der bezahlten Version. Eine einmalige Lizenz für 49 $ entfernt das Wasserzeichen und schaltet die kommerziellen Verkaufsrechte frei.',
+    },
+    {
+      question: 'In welchen Dateiformaten kann ich herunterladen?',
+      answer:
+        'Jedes Arbeitsblatt wird als druckfertiges PDF mit 400+ DPI und als hochauflösendes JPEG exportiert. Das PDF bewahrt Vektortext und scharfe Bilder für gestochen scharfen Druck in jeder Größe. Das JPEG eignet sich für schnelle Vorschauen, Social-Media-Posts und Plattformen, die Rasterbilder bevorzugen. Beide Formate werden sofort heruntergeladen, sobald Sie auf Exportieren klicken.',
+    },
+    {
+      question: 'Funktioniert der Generator auf Tablets, Chromebooks oder älteren Browsern?',
+      answer:
+        'Der Generator läuft in jedem modernen Browser: Chrome, Safari, Firefox und Edge — jeweils Version 90 oder neuer. Er funktioniert auf Chromebooks, iPads und Android-Tablets ebenso wie auf Desktops. Ältere Browser (Internet Explorer, Chrome vor Version 90) werden nicht unterstützt, da der Generator moderne Canvas- und Font-Rendering-Funktionen nutzt. Bei Darstellungsproblemen hilft meist ein Browser-Update.',
+    },
+    {
+      question: 'Welche Seitenformate werden unterstützt? Wie drucke ich A4 vs. Letter?',
+      answer:
+        'Das Seitenlayout-Panel bietet Letter Hochformat, Letter Querformat, A4 Hochformat, A4 Querformat, Quadrat und benutzerdefinierte Maße. Wählen Sie die Größe, die zu Ihrem Drucker oder Zielmarkt passt (A4 für die meisten europäischen und asiatischen Märkte, Letter für Nordamerika). Der PDF-Export bewahrt die exakten Maße, sodass das Blatt auf jedem Drucker originalgetreu gedruckt wird.',
+    },
+    {
+      question: 'Werden meine Arbeitsblätter gespeichert, wenn ich den Tab schließe?',
+      answer:
+        'Ihr aktuelles Arbeitsblatt-Layout liegt nur im Browser-Speicher. Beim Schließen des Tabs geht es verloren. Um ein Arbeitsblatt über Sitzungen hinweg zu erhalten, laden Sie das PDF und JPEG vor dem Schließen herunter — das erneute Importieren derselben Konfiguration wird in der kostenlosen Browser-Version nicht unterstützt. Wenn Sie regelmäßig mehrere verwandte Arbeitsblätter erstellen, erhalten Sie mit einer Lizenz auch Zugriff auf gespeicherte Vorlagen.',
+    },
+  ],
 };
 
 export function getSharedUsageFAQs(locale: string): FAQ[] {

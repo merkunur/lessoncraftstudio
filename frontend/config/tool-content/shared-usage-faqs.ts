@@ -279,6 +279,33 @@ export const sharedUsageFAQs: Record<string, FAQ[]> = {
         'Det gjeldende layoutet finnes bare i nettleserens minne. Å lukke fanen fjerner alt. For å bevare et arbeidsark mellom økter, last ned PDF og JPEG før du lukker — å importere samme konfigurasjon på nytt støttes ikke i den gratis nettleserversjonen. Hvis du regelmessig lager satser med relaterte arbeidsark, gir en lisens også tilgang til lagrede maler.',
     },
   ],
+  fi: [
+    {
+      question: 'Eikö rekisteröitymistä todella tarvita?',
+      answer:
+        'Oikein: voit avata generaattorin, valita teeman, muokata sivun asettelua ja ladata vesileimalla varustetun PDF- tai JPEG-tiedoston ilman tilin luomista. Ei sähköpostia, ei luottokorttia, ei kokeilujaksoa. Vesileima on pieni merkintä kulmassa; itse työarkin sisältö on identtinen maksullisen version kanssa. Kertalisenssi 49 $ poistaa vesileiman ja avaa kaupalliset myyntioikeudet.',
+    },
+    {
+      question: 'Mitä tiedostomuotoja voin ladata?',
+      answer:
+        'Jokainen työarkki viedään tulostusvalmiina 400+ DPI:n PDF-tiedostona sekä korkearesoluutioisena JPEG-tiedostona. PDF säilyttää vektoritekstin ja terävät kuvat tarkkaan tulostukseen missä tahansa koossa. JPEG on hyödyllinen nopeisiin esikatseluihin, sosiaalisen median julkaisuihin ja alustoille, jotka suosivat rasterikuvia. Molemmat muodot latautuvat välittömästi Vie-painikkeen klikkauksen jälkeen.',
+    },
+    {
+      question: 'Toimiiko generaattori tabletilla, Chromebookilla tai vanhemmassa selaimessa?',
+      answer:
+        'Generaattori toimii kaikissa nykyaikaisissa selaimissa: Chrome, Safari, Firefox ja Edge, versio 90 tai uudempi. Se toimii Chromebookeilla, iPadeilla ja Android-tableteilla työpöytäkoneiden lisäksi. Vanhempia selaimia (Internet Explorer, Chrome ennen versiota 90) ei tueta, koska generaattori käyttää nykyaikaisia canvas- ja fonttirenderöintiominaisuuksia. Näyttöongelmien kohdalla selaimen päivittäminen yleensä korjaa tilanteen.',
+    },
+    {
+      question: 'Mitä sivukokoja tuetaan? Miten tulostan A4 vs Letter?',
+      answer:
+        'Sivun asettelupaneeli tarjoaa Letter Pysty, Letter Vaaka, A4 Pysty, A4 Vaaka, Neliö ja mukautetut mitat. Valitse koko, joka vastaa tulostintasi tai kohdemarkkinaasi (A4 useimmille Euroopan ja Aasian markkinoille, Letter Pohjois-Amerikkaan). PDF-vienti säilyttää valitut tarkat mitat, jotta tuloste on oikean kokoinen millä tahansa tulostimella.',
+    },
+    {
+      question: 'Tallentuvatko työarkkini, jos suljen välilehden?',
+      answer:
+        'Nykyinen asettelu säilyy vain selaimen muistissa. Välilehden sulkeminen tyhjentää kaiken. Jos haluat säilyttää työarkin istuntojen välillä, lataa PDF ja JPEG ennen sulkemista — saman kokoonpanon tuonti takaisin ei ole tuettu ilmaisessa selainversiossa. Jos luot säännöllisesti eriä toisiinsa liittyviä työarkkeja, lisenssi antaa pääsyn myös tallennettuihin malleihin.',
+    },
+  ],
 };
 
 export function getSharedUsageFAQs(locale: string): FAQ[] {

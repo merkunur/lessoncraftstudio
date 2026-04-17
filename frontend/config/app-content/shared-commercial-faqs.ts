@@ -279,6 +279,33 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Ja. Generatoren støtter 11 språk (engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk, finsk), og hver språkversjon teller som et eget produkt under lisensen din. Mange selgere multipliserer inntektene per tema ved å eksportere det samme arbeidsarket på hvert språk og liste dem som separate produkter på Etsy eller KDP.',
     },
   ],
+  fi: [
+    {
+      question: 'Mitä kaupallinen lisenssi kattaa?',
+      answer:
+        'Jokaisen luomasi työarkin mukana tulee täysi kaupallinen lisenssi — ei attribuutiovelvoitetta, ei rojalteja, ei kappalerajaa. Voit myydä luomiasi työarkkeja Etsyssä, Amazon KDP:ssä, Teachers Pay Teachersissa, Gumroadissa, Creative Marketissa, omassa kaupassasi tai millä tahansa muulla markkinapaikalla. Kertalisenssi 49 $ kattaa rajattoman kaupallisen käytön yhdelle myyjälle tai yritykselle.',
+    },
+    {
+      question: 'Saanko myydä työarkkeja Etsyssä, Amazon KDP:ssä, Teachers Pay Teachersissa ja Gumroadissa?',
+      answer:
+        'Kyllä, kaikki neljä alustaa kuuluvat kaupallisen lisenssin piiriin. Voit myydä digitaalisia latauksia Etsyssä, koota työarkkeja painettuihin pulma- ja tehtäväkirjoihin Amazon KDP:hen, tarjota luokkahuonepaketteja Teachers Pay Teachersissa ja jakaa tulostettavia Gumroadin tai oman verkkokauppasi kautta. Lisenssi ei rajoita sitä, millä markkinapaikalla myyt.',
+    },
+    {
+      question: 'Mikä on palautuskäytäntö?',
+      answer:
+        'Tarjoamme 30 päivän palautusajan. Jos päätät ensimmäisten 30 päivän aikana, että generaattori ei sovi tuotevalikoimaasi, ota yhteyttä tukeen, niin käsittelemme täyden palautuksen. 30 päivän jälkeen palautukset käsitellään tapauskohtaisesti olennaisten vikojen tai työkalun ongelmien osalta.',
+    },
+    {
+      question: 'Voinko jakaa lisenssin tiimin jäsenten tai työntekijöiden kanssa?',
+      answer:
+        'Yksi lisenssi kattaa yhden myyjätilin tai yrityksen. Jos toimit yksityisenä elinkeinonharjoittajana, lisenssi kattaa sinut ja liiketoimintaasi työskentelevät virtuaaliavustajat. Kolmen tai useamman hengen tiimeille, jotka luovat työarkkeja itsenäisesti, ota yhteyttä tukeen tiimilisensseistä — tarjoamme alennettuja monipaikkapaketteja.',
+    },
+    {
+      question: 'Voinko myydä saman työarkin 11 kielellä erillisinä tuotteina?',
+      answer:
+        'Kyllä. Generaattori tukee 11 kieltä (englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska, norja, suomi), ja jokainen kieliversio lasketaan erilliseksi tuotteeksi lisenssisi alla. Monet myyjät moninkertaistavat liikevaihtoa teemaa kohden viemällä saman työarkin jokaisella kielellä ja listaamalla ne erillisinä tuotteina Etsyssä tai KDP:ssä.',
+    },
+  ],
 };
 
 export function getSharedCommercialFAQs(locale: string): FAQ[] {

@@ -17,12 +17,12 @@ const content: AppContent = {
       'Erwachsene',
       'ausmalen',
     ],
-    titleTag: 'Ausmalbilder erstellen | Malvorlagen Generator',
+    titleTag: 'Malvorlagen-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Ausmalbilder aus 3.000+ Themenbildern. Hochauflösende Umrisse, druckfertige PDFs. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Ausmalbilder erstellen — Malvorlagen Generator',
+    title: 'Malvorlagen-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Freier Arbeitsflächen-Designer für Ausmalseiten — durchsuchen Sie 104 thematische Bildsammlungen mit Schwarzweiß-Umrisszeichnungen, fügen Sie Freihand-Zeichnungen hinzu, integrieren Sie Shop-Helfer wie Namensfelder und Schreiblinien, und aktivieren Sie den Graustufen-Export für tintenschonende Malvorlagen.',
     description:
       'Erstellen Sie verkaufsfertige Ausmalbilder mit dem Ausmalbilder-Generator und bauen Sie Ihr Printable-Business auf Etsy, Amazon KDP oder Gumroad auf. Platzieren Sie Bilder aus über 3.100 Schwarzweiß-Umrisszeichnungen in 104 Themen frei auf der Arbeitsfläche — arrangieren, skalieren, drehen und schichten Sie Elemente nach Belieben. Das integrierte Freihand-Zeichenwerkzeug ergänzt Ihre Malvorlagen um eigene Illustrationen mit einstellbarer Pinselfarbe und Pinselgröße. Shop-Helfer fügen Namensfelder und Handschrift-Übungslinien per Klick hinzu, und der Graustufen-Export wandelt farbige Kompositionen in tintenschonende Ausmalseiten um. Da die Ausgabe rein visuell ist, verkaufen Sie dasselbe Produkt weltweit ohne Übersetzung — ein Workflow für jeden Markt. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Oberflächensprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

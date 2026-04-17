@@ -16,12 +16,12 @@ const content: AppContent = {
       'gerade Linien',
       'Kurven',
     ],
-    titleTag: 'Schwungübungen erstellen | Nachspurübungen Generator',
+    titleTag: 'Nachspur-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Schwung- und Nachspurübungen mit Themenbildern. Druckfertige 300 DPI PDFs. Kostenlos testen — kommerzielle Lizenz inklusive.',
   },
 
   hero: {
-    title: 'Schwungübungen erstellen — Nachspurübungen Generator',
+    title: 'Nachspur-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Acht SVG-Linienvorlagen — Kurven, Diagonalen, Horizontal und Vertikal — mit 4–5 Bildpaaren pro Seite für Feinmotorik-Entwicklung durch geführtes Linienziehen.',
     description:
       'Sie möchten Schwungübungen als Druckvorlagen auf Etsy oder Amazon KDP verkaufen? Dieser Generator erstellt professionelle Linien-Ziehen-Arbeitsblätter mit acht SVG-basierten Vorlagen in vier Linientypen: Kurven für fließende Schwungbewegungen, Diagonalen für schräge Strichführung, Horizontallinien für Links-nach-Rechts-Übungen und Vertikallinien für Abwärtsstriche. Jede Vorlage platziert 4 oder 5 zusammengehörige Bildpaare auf gegenüberliegenden Seiten des Linienpfades. Die Auto-Füll-Funktion befüllt Paarplätze sofort aus über 3.100 Illustrationen in 104 Themen. Die Vorlagenauswahl steuert die Seitenausrichtung automatisch — Kurven im Querformat, Geraden im Hochformat. Das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

@@ -17,12 +17,12 @@ const content: AppContent = {
       'Grundschule',
       'Sekundarstufe',
     ],
-    titleTag: 'Mathe Arbeitsblatt Generator | Rechenaufgaben erstellen',
+    titleTag: 'Mathe-Arbeitsblatt-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Mathe-Arbeitsblätter mit eigenen Aufgaben und automatischen Lösungen. 300 DPI PDF-Export. Kostenlos testen — kommerzielle Lizenz inklusive.',
   },
 
   hero: {
-    title: 'Mathe Arbeitsblatt Generator — Rechenaufgaben erstellen',
+    title: 'Mathe-Arbeitsblatt-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Verwandeln Sie frühe Algebra in ein visuelles Abenteuer — Bilder werden zu Variablen in verknüpften Gleichungen, und jedes Rätsel hat garantiert genau eine korrekte Lösung.',
     description:
       'Als Mathe-Arbeitsblatt-Generator für Etsy und KDP Verkäufer liefert dieses Tool ein Produktformat, das sich deutlich von gewöhnlichen Rechenübungen abhebt: Bilder ersetzen Variablen in verknüpften Gleichungssystemen, und Käufer ermitteln durch logisches Denken den Wert jedes Symbols. Vier Schwierigkeitsstufen — von zwei bis vier gleichzeitigen Unbekannten — ermöglichen progressive Arbeitsblatt-Pakete und gestufte Aktivitätsbücher für Amazon KDP. Wählen Sie aus über 3.100 Illustrationen in 104 Themen, platzieren Sie 1 bis 6 Rätsel pro Seite und exportieren Sie druckfertige PDFs mit über 400 DPI inklusive automatischem Lösungsschlüssel. Die gewerbliche Lizenz erlaubt unbegrenzten Verkauf auf Etsy, KDP, Gumroad und Eduki — ideal für den wachsenden DACH-Markt für hochwertige Mathe-Druckvorlagen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

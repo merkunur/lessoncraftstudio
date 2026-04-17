@@ -17,12 +17,12 @@ const content: AppContent = {
       'Vorschule',
       '1. Klasse',
     ],
-    titleTag: 'Schreibübungen erstellen | Schwungübungen Generator',
+    titleTag: 'Schreibübungen-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Schreibübungen und Nachspurblätter mit eigenen Wörtern. 11 Sprachen, 300 DPI PDF. Kostenlos testen — kommerzielle Lizenz für Verkäufer.',
   },
 
   hero: {
-    title: 'Schreibübungen erstellen — Schwungübungen Generator',
+    title: 'Schreibübungen-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Drei progressive Übungsmodi mit nummerierten Strichrichtungspfeilen und verblassender Buchstabenführung — von vollständigem Nachspuren bis zum eigenständigen Schreiben auf einem einzigen Arbeitsblatt.',
     description:
       'Der Schreibübungen-Generator für Etsy-Verkäufer erstellt professionelle Handschrift-Arbeitsblätter mit drei progressiven Übungsmodi — Nachspuren, Verblassendes Nachspuren und Geführte Abschrift — die auf einem einzigen Blatt einen vollständigen Lernfortschritt abbilden. Nummerierte Strichrichtungspfeile zeigen exakt, wie jeder Buchstabe geformt wird, und heben Ihre Produkte von einfachen Nachspurblättern ab, die den Markt überschwemmen. Fünf wählbare Schriftarten, darunter Druck- und Schreibschrift, ermöglichen Ihnen die Erstellung vielfältiger Produktlinien für verschiedene Altersgruppen und Lernstufen. Vorübungen zur Feinmotorik — senkrechte Linien, Kreise und Zickzack-Muster — ergänzen Ihre Pakete um eine zusätzliche Produktkategorie, die auf Etsy.de und Amazon KDP separat verkaufbar ist. Die gewerbliche Lizenz und 104 thematische Bildsammlungen mit über 3.100 Illustrationen liefern Ihnen nahezu unbegrenztes Material für Ihr Printable-Business. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

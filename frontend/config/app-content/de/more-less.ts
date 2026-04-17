@@ -15,12 +15,12 @@ const content: AppContent = {
       'gleich',
       'Mengen vergleichen',
     ],
-    titleTag: 'Mehr oder Weniger Arbeitsblatt erstellen | Vergleich Generator',
+    titleTag: 'Mehr-oder-Weniger-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Mehr-oder-Weniger-Vergleichs-Arbeitsblätter mit Themenbildern. Automatische Lösungen, 300 DPI PDFs. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Mehr oder Weniger Arbeitsblatt erstellen — Vergleich Generator',
+    title: 'Mehr-oder-Weniger-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Verwandeln Sie Zahlenvergleiche in ein visuelles Entdeckungsabenteuer mit bildbasierten Größer-Kleiner-Arbeitsblättern.',
     description:
       'Erstellen Sie Größer-Kleiner-Arbeitsblätter mit dem Mehr-oder-Weniger-Generator und verkaufen Sie professionelle Vergleichs-Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Drei Übungsmodi bieten maximale Produktvielfalt: Bild-zu-Bild zeigt zwei Bildergruppen nebeneinander, Bild-zu-Zahl verbindet Zählen mit abstraktem Zahlenverständnis, und der Ankreuzen-und-Durchstreichen-Modus präsentiert gemischte Bilderboxen mit 8 bis 20 Elementen aus zwei Kategorien. Wechseln Sie zwischen gleichen und verschiedenen Bildern, wählen Sie Illustrations- oder Mathematiksymbole und legen Sie den Zahlenbereich von 1 bis 10 fest. Über 3.100 kuratierte Bilder in 104 Themen liefern abwechslungsreiche Inhalte für jede Nische. Jedes Arbeitsblatt enthält einen automatischen Lösungsschlüssel. Das rein bildbasierte Format funktioniert sprachunabhängig in jedem Land weltweit. Exportieren Sie druckfertige PDFs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

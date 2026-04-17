@@ -19,12 +19,12 @@ const content: AppContent = {
       'PDF',
       'ausdrucken',
     ],
-    titleTag: 'Suchsel erstellen | Wortsuchrätsel Generator mit Bildern',
+    titleTag: 'Suchsel-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Suchsel mit 3.000+ Themenbildern in 11 Sprachen. Eigene Wörter, automatische Lösungen, 300 DPI PDF. Kostenlos testen — verkaufen auf Etsy & KDP.',
   },
 
   hero: {
-    title: 'Suchsel erstellen und auf Etsy & KDP verkaufen',
+    title: 'Suchsel-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Einstellbare Gitter von 5×5 bis 30×30 mit Diagonal- und Rückwärts-Richtungssteuerung — erstellen Sie die perfekte Schwierigkeitsstufe für jede Zielgruppe.',
     description:
       'Der Suchsel-Generator zum Verkaufen auf Etsy und KDP ist Ihr Werkzeug für eines der beliebtesten Rätselformate überhaupt — Wortsuchrätsel verkaufen sich als Einzelblätter, thematische Pakete und komplette Rätselbücher gleichermaßen gut. Stellen Sie die Gittergröße von 5×5 bis 30×30 ein und steuern Sie Diagonal- sowie Rückwärts-Platzierung für präzise Schwierigkeitsstufen. Deutsche Gitter enthalten authentische Füllbuchstaben mit ä, ö, ü und ß, und lange zusammengesetzte Substantive wie "Schmetterling" erzeugen visuell einzigartige Rätsel, die sich klar von englischen Produkten abheben. Mit 11 Sprachen, 104 Bildthemen und über 3.100 Illustrationen erstellen Sie in Minuten professionelle Suchsel für den DACH-Markt und internationale Käufer. Der farbcodierte Lösungsschlüssel wird automatisch generiert. Die gewerbliche Lizenz erlaubt unbegrenzten Verkauf auf Etsy, Amazon KDP, Gumroad und Eduki. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

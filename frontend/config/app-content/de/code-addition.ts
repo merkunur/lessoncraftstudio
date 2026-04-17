@@ -15,12 +15,12 @@ const content: AppContent = {
       'Rechenrätsel',
       'Knobelaufgabe',
     ],
-    titleTag: 'Zahlencode Mathe-Rätsel erstellen | Code-Knacker Generator',
+    titleTag: 'Zahlencode-Mathe-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Mathe-Rätsel, bei denen Kinder Additionsaufgaben lösen und Geheimcodes knacken. Themenbilder, automatische Lösungen. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Zahlencode Mathe-Rätsel erstellen — Code-Knacker Generator',
+    title: 'Zahlencode-Mathe-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Verwandeln Sie Addition in eine Detektiv-Mission, bei der jedes Bild eine geheime Zahl verbirgt.',
     description:
       'Geheimcode-Mathe-Rätsel erstellen und auf Etsy verkaufen — mit diesem Generator produzieren Sie ein Produktformat, das auf deutschsprachigen Marktplätzen praktisch konkurrenzlos ist. Jedes Arbeitsblatt verwandelt Addition in eine Detektiv-Mission: Bilder repräsentieren versteckte Zahlen, und Käufer lösen die Gleichungen, um den Code zu knacken. Im Wort-Entschlüsselungs-Modus verbergen Sie ein Geheimwort mit bis zu zehn Buchstaben — inklusive Ä, Ö, Ü und ß für native deutsche Rätsel. Mit 11 unterstützten Sprachen, 104 Themen und über 3.100 Bildern erstellen Sie in Minuten einzigartige Rätsel-Pakete für Etsy, Amazon KDP oder Eduki. Die gewerbliche Lizenz erlaubt unbegrenzten Verkauf Ihrer erstellten Arbeitsblätter im gesamten DACH-Markt und darüber hinaus. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

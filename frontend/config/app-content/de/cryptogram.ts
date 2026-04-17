@@ -16,12 +16,12 @@ const content: AppContent = {
       'Buchstaben-Substitution',
       'Rätsel',
     ],
-    titleTag: 'Kryptogramm erstellen | Geheimschrift-Rätsel Generator',
+    titleTag: 'Kryptogramm-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Kryptogramm-Rätsel mit Themenbildern und automatischen Lösungen. 300 DPI PDF in 11 Sprachen. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Kryptogramm erstellen — Geheimschrift-Rätsel Generator',
+    title: 'Kryptogramm-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Ordnen Sie jedem Buchstaben ein Bild zu und verschlüsseln Sie ganze Sätze als visuelle Chiffre-Rätsel — einstellbare Schwierigkeit von null Hinweisen bis umfassender Hilfestellung mit Buchstaben aufdecken.',
     description:
       'Der Kryptogramm-Rätsel-Generator für Etsy verkaufen ermöglicht Ihnen die Erstellung professioneller Bilder-Chiffre-Rätsel, bei denen jeder Buchstabe durch ein einzigartiges Bild ersetzt wird. Käufer lieben das Entschlüsseln ganzer Sätze durch Mustererkennung — ein Rätselformat, das sich auf Etsy.de und Amazon KDP klar von Wortsuch- und Kreuzworträtsel-Produkten abhebt. Der einstellbare Hinweisregler (0–10 aufgedeckte Buchstaben) erzeugt gestufte Schwierigkeitsgrade, mit denen Sie aus einem einzigen Design mehrere Produktvarianten generieren können. Für den deutschsprachigen Markt bietet der Generator einen entscheidenden Vorteil: Das erweiterte Alphabet mit ä, ö, ü und ß umfasst 30 Buchstaben statt 26, was visuell reichere und komplexere Chiffren erzeugt — ein Alleinstellungsmerkmal, das kein englischsprachiger Anbieter nachbilden kann. Mit der gewerblichen Lizenz und Unterstützung für 11 Sprachen bauen Sie ein skalierbares Rätsel-Printable-Business auf. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

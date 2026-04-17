@@ -15,12 +15,12 @@ const content: AppContent = {
       'Kindergeburtstag',
       'Klassenaktivität',
     ],
-    titleTag: 'Schatzsuche erstellen | Schnitzeljagd Arbeitsblatt Generator',
+    titleTag: 'Schatzsuche-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Schatzsuche- und Schnitzeljagd-Arbeitsblätter mit Themenbildern. Druckfertige PDFs. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Schatzsuche erstellen — Schnitzeljagd Arbeitsblatt Generator',
+    title: 'Schatzsuche-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Richtungsbasierte Wegfindungs-Rätsel auf einem 5×5-Koordinatenraster generieren — zwei Richtungsvokabulare (Grundrichtungen: oben/unten/links/rechts und Himmelsrichtungen: Norden/Süden/Osten/Westen), vollständig lokalisierte Richtungsanweisungen in 11 Sprachen, automatisch generierter Lösungsschlüssel mit hervorgehobener Schatzposition und schatzsuchenthematische Header über 104 Bildsammlungen.',
     description:
       'Erstellen Sie Schatzsuche-Rätsel mit dem Schatzsuche-Generator und verkaufen Sie diese auf Etsy, Amazon KDP oder Gumroad. Jedes Rätsel platziert 6 thematische Bilder als Orientierungspunkte auf einem 5×5-Koordinatenraster und generiert eine Startposition mit 4 Richtungsbewegungen zur Schatzzelle. Wählen Sie zwischen zwei Richtungsvokabularen: Grundrichtungen (oben/unten/links/rechts) für Einsteiger oder Himmelsrichtungen (Norden/Süden/Osten/Westen) für Fortgeschrittene. Der Generator ist sprachabhängig — ein Sprachwechsel erzeugt automatisch lokalisierte Richtungsanweisungen in allen 11 unterstützten Sprachen, sodass Sie authentische deutsche Schatzsuche-Arbeitsblätter ohne manuelles Übersetzen erstellen. Jedes Rätsel enthält einen automatisch generierten Lösungsschlüssel mit hervorgehobener Schatzzelle. Über 3.100 Illustrationen in 104 Themen liefern abwechslungsreiche Inhalte für jede Nische. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

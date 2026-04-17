@@ -15,12 +15,12 @@ const content: AppContent = {
       'visuelle Wahrnehmung',
       'Konzentration',
     ],
-    titleTag: 'Suchbild erstellen | Versteckte-Objekte Generator',
+    titleTag: 'Wimmelbild-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Suchbilder und Wimmelspiele mit Themenbildern. Automatische Lösungen, 300 DPI PDFs. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Suchbild erstellen — Versteckte-Objekte Generator',
+    title: 'Wimmelbild-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Zwei Aktivitätsmodi in einem Generator — Ich-sehe-was-Suchszenen mit überlappungsfreier Platzierung und Welches-passt-nicht-Reihen mit gepaarten Bildern — mit automatisch generierten Lösungsschlüsseln, adaptiver Bildgrößenanpassung, Namens- und Datumsfeldern und einer Legende am Seitenende.',
     description:
       'Sie möchten Suchbilder erstellen und als Druckvorlagen auf Etsy oder in KDP-Arbeitsbüchern verkaufen? Dieser Generator bietet zwei Aktivitätsmodi: Der Ich-sehe-was-Modus verteilt 1–5 versteckte Objekte unter 8–12 Ablenkungsbildern über die Seite — überlappungsfrei platziert durch einen intelligenten Algorithmus, der 50 Positionen pro Bild testet. Der Was-passt-nicht-Modus ordnet gepaarte Bilder in Reihen an, wobei unpaare Elemente identifiziert werden müssen. Beide Modi generieren automatisch einen Lösungsschlüssel mit roten Markierungen. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand — ein Produkt für jeden Markt weltweit. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

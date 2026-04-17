@@ -15,12 +15,12 @@ const content: AppContent = {
       'visuelle Unterscheidung',
       'Wahrnehmung',
     ],
-    titleTag: 'Schattenbilder-Zuordnung erstellen | Silhouetten-Generator',
+    titleTag: 'Schattenbilder-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Schattenbilder-Zuordnungs-Arbeitsblätter mit Themen-Silhouetten. Automatische Lösungen, 300 DPI PDFs. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Schattenbilder-Zuordnung erstellen — Silhouetten-Generator',
+    title: 'Schattenbilder-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Zwei Zuordnungsmodi in einem Generator — Schattenbild-Zuordnung erstellt automatisch schwarze Silhouetten aus jedem Bild, Bild Vervollständigen teilt Bilder in Hälften — beide mit Fisher-Yates-Derangement für garantiert echte Zuordnungsherausforderungen, automatisch generierten Lösungsschlüsseln und 104 thematischen Bildsammlungen.',
     description:
       'Sie möchten Schattenbilder-Zuordnungs-Arbeitsblätter erstellen und auf Etsy oder als KDP-Arbeitsbücher verkaufen? Dieser Generator bietet zwei Zuordnungsmodi: Der Schattenbild-Modus platziert 4 farbige Bilder neben 4 automatisch generierten schwarzen Silhouetten — erzeugt durch pixelgenaue Bildverarbeitung, die präzise Umrisse erstellt. Der Bildhälften-Modus teilt Bilder horizontal oder vertikal und fordert die Zuordnung der passenden Hälften. Beide Modi verwenden Fisher-Yates-Derangement für garantiert echte Zuordnungsherausforderungen bei jeder Generierung. Der automatische Lösungsschlüssel zeigt jede korrekte Buchstabe-zu-Nummer-Zuordnung an. Die rein visuelle Ausgabe ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

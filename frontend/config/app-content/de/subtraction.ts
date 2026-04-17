@@ -17,12 +17,12 @@ const content: AppContent = {
       'Rechenaufgaben',
       'Lösungsschlüssel',
     ],
-    titleTag: 'Subtraktions-Arbeitsblätter erstellen | Mathe Generator',
+    titleTag: 'Subtraktions-Arbeitsblatt-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Subtraktions-Arbeitsblätter mit Themenbildern und automatischen Lösungen. 300 DPI PDF in 11 Sprachen. Kostenlos testen — verkaufen auf Etsy & KDP.',
   },
 
   hero: {
-    title: 'Subtraktions-Arbeitsblätter erstellen — Mathe Generator mit Lösungen',
+    title: 'Subtraktions-Arbeitsblatt-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Machen Sie Subtraktion greifbar mit bildbasierten Arbeitsblättern, bei denen Kinder Bilder durchstreichen, um die Antwort zu finden.',
     description:
       'Verwandeln Sie Subtraktionsaufgaben in ein verkaufsfähiges Produkt — mit einem Generator, der speziell für Printable-Unternehmer entwickelt wurde. Erstellen Sie bildbasierte Minusaufgaben mit thematischen Illustrationen aus über 100 Kategorien, exportieren Sie als druckfertiges 300-DPI-PDF mit automatischem Lösungsschlüssel und verkaufen Sie auf Etsy, Amazon KDP oder Eduki. Die gewerbliche Lizenz ist bei jedem Arbeitsblatt inklusive. Besonders profitabel: Kombinieren Sie Plus- und Minusaufgaben zu Paketen — Verkäufer berichten von deutlich höheren Durchschnittsbestellwerten bei mathematischen Bundle-Angeboten auf Etsy. Der deutschsprachige Markt bietet enormes Potenzial bei minimaler Konkurrenz. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

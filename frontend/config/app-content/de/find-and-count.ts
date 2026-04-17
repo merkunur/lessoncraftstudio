@@ -15,12 +15,12 @@ const content: AppContent = {
       'visuelle Wahrnehmung',
       'Zahlenerkennung',
     ],
-    titleTag: 'Suchen & Zählen Arbeitsblätter erstellen | Zähl-Generator',
+    titleTag: 'Suchen-und-Zählen-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Suchen-und-Zählen-Arbeitsblätter, bei denen Kinder Themenbilder finden und zählen. Automatische Lösungen. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Suchen & Zählen Arbeitsblätter erstellen — Zähl-Generator',
+    title: 'Suchen-und-Zählen-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Zwei Aktivitätsmodi in einem Generator — Suchbild (Ich sehe was) und Buchstabenerkennung — mit vier mischbaren Aufgabentypen (einkreisen, umrahmen, durchstreichen, zählen), sprachspezifischen Alphabeten mit Umlauten, lokalisierten Bildbezeichnungen in 11 Sprachen und automatisch generierten Lösungsschlüsseln mit visuellen Markierungen.',
     description:
       'Sie möchten Suchen-und-Zählen-Arbeitsblätter erstellen und als druckbare Produkte auf Etsy verkaufen? Dieser Generator bietet zwei Aktivitätsmodi: Der Suchbild-Modus verteilt Bilder über ein konfigurierbares Raster (5×5 bis 10×10) und ermöglicht bis zu 4 Zielobjekte mit individuellen Aufgabentypen — einkreisen, umrahmen, durchstreichen oder zählen. Der Buchstabenerkennung-Modus zeigt ein sprachspezifisches Alphabet-Raster mit deutschen Sonderbuchstaben ÄÖÜ und generiert Suchbilder mit Bildern, die mit dem ausgewählten Buchstaben beginnen. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel mit roten Markierungen und Anzahl-Anzeigen. Der Generator ist sprachabhängig: ein Sprachwechsel ändert die Bildbezeichnungen — \"Cat\" wird zu \"Katze\", Anfangsbuchstaben passen sich an. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

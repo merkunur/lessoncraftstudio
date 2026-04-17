@@ -264,3 +264,108 @@ Further translation-queue entries will be appended by subsequent commits
 frontend/config/app-content/en/` and `git log -p
 frontend/config/tool-content/en/` to see the diff for each string that
 needs propagation.
+
+---
+
+# German (DE) — landed 2026-04-17
+
+DE round propagates the same SEO patterns to `frontend/config/app-content/de/`
+plus the shared-FAQ pools. Four atomic commits. The remaining 9 locales
+(fr, es, pt, it, nl, sv, da, no, fi) follow in their own rounds.
+
+## DE-A — `ctaHeading` on all 33 DE apps
+
+Populates German action-phrase `ctaHeading` values in every
+`frontend/config/app-content/de/*.ts`. Mapping:
+
+- `addition.ts` → "Additions-Arbeitsblätter erstellen"
+- `alphabet-train.ts` → "Alphabet-Arbeitsblätter erstellen"
+- `big-small.ts` → "Groß-und-Klein-Arbeitsblätter erstellen"
+- `bingo.ts` → "Bingo-Karten erstellen"
+- `chart-count.ts` → "Zähl-Arbeitsblätter erstellen"
+- `code-addition.ts` → "Zahlencode-Mathe-Rätsel erstellen"
+- `coloring.ts` → "Malvorlagen erstellen"
+- `crossword.ts` → "Kreuzworträtsel erstellen"
+- `cryptogram.ts` → "Kryptogramme erstellen"
+- `draw-and-color.ts` → "Zeichnen-und-Malen-Arbeitsblätter erstellen"
+- `drawing-lines.ts` → "Schwungübungen erstellen"
+- `find-and-count.ts` → "Suchen-und-Zählen-Arbeitsblätter erstellen"
+- `find-objects.ts` → "Wimmelbilder erstellen"
+- `grid-match.ts` → "Gitter-Arbeitsblätter erstellen"
+- `matching.ts` → "Zuordnungs-Arbeitsblätter erstellen"
+- `math-puzzle.ts` → "Mathe-Rätsel erstellen"
+- `math-worksheet.ts` → "Mathe-Arbeitsblätter erstellen"
+- `missing-pieces.ts` → "Fehlende-Teile-Rätsel erstellen"
+- `more-less.ts` → "Mehr-oder-Weniger-Arbeitsblätter erstellen"
+- `odd-one-out.ts` → "Was-passt-nicht-Arbeitsblätter erstellen"
+- `pattern-train.ts` → "Musterreihen-Arbeitsblätter erstellen"
+- `pattern-worksheet.ts` → "Muster-Arbeitsblätter erstellen"
+- `picture-path.ts` → "Labyrinthe erstellen"
+- `picture-sort.ts` → "Sortier-Arbeitsblätter erstellen"
+- `prepositions.ts` → "Präpositionen-Arbeitsblätter erstellen"
+- `shadow-match.ts` → "Schattenbilder-Arbeitsblätter erstellen"
+- `subtraction.ts` → "Subtraktions-Arbeitsblätter erstellen"
+- `sudoku.ts` → "Sudoku-Rätsel erstellen"
+- `treasure-hunt.ts` → "Schatzsuche-Arbeitsblätter erstellen"
+- `word-guess.ts` → "Wörter-Raten-Arbeitsblätter erstellen"
+- `word-scramble.ts` → "Buchstabensalat erstellen"
+- `wordsearch.ts` → "Suchsel erstellen"
+- `writing.ts` → "Schreibübungen erstellen"
+
+## DE-B — H1 + titleTag + meta trim
+
+### H1 (`hero.title`) pattern
+
+`[DE Generator Name] — Druckvorlagen für Etsy & KDP erstellen`
+
+Full mapping:
+
+| File | New DE H1 |
+|------|-----------|
+| `addition.ts` | Additions-Arbeitsblatt-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `alphabet-train.ts` | Alphabet-Zug-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `big-small.ts` | Groß-und-Klein-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `bingo.ts` | Bingo-Karten-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `chart-count.ts` | Strichlisten-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `code-addition.ts` | Zahlencode-Mathe-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `coloring.ts` | Malvorlagen-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `crossword.ts` | Kreuzworträtsel-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `cryptogram.ts` | Kryptogramm-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `draw-and-color.ts` | Zeichnen-und-Ausmalen-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `drawing-lines.ts` | Nachspur-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `find-and-count.ts` | Suchen-und-Zählen-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `find-objects.ts` | Wimmelbild-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `grid-match.ts` | Gitter-Zeichnungs-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `matching.ts` | Zuordnungs-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `math-puzzle.ts` | Mathe-Rätsel-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `math-worksheet.ts` | Mathe-Arbeitsblatt-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `missing-pieces.ts` | Fehlende-Teile-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `more-less.ts` | Mehr-oder-Weniger-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `odd-one-out.ts` | Was-passt-nicht-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `pattern-train.ts` | Musterreihen-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `pattern-worksheet.ts` | Muster-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `picture-path.ts` | Labyrinth-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `picture-sort.ts` | Sortier-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `prepositions.ts` | Präpositionen-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `shadow-match.ts` | Schattenbilder-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `subtraction.ts` | Subtraktions-Arbeitsblatt-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `sudoku.ts` | Sudoku-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `treasure-hunt.ts` | Schatzsuche-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `word-guess.ts` | Wörter-Raten-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `word-scramble.ts` | Buchstabensalat-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `wordsearch.ts` | Suchsel-Generator — Druckvorlagen für Etsy & KDP erstellen |
+| `writing.ts` | Schreibübungen-Generator — Druckvorlagen für Etsy & KDP erstellen |
+
+### titleTag pattern
+
+`[DE Generator Name] | LessonCraftStudio` — brand-suffix replaces the
+previous descriptor-suffix ("| Mathe Generator" etc). All 33 new DE
+titles verified between 36 and 55 characters — well under the 60-char
+display threshold.
+
+### Meta trim
+
+Only `addition.ts` (previously 173 chars) was rewritten to 150 chars.
+New text: "Additions-Generator für Etsy- und KDP-Verkäufer. 4 Mathe-Modi,
+104 Bildthemen, automatische Lösungen, 11 Sprachen. Kostenlos testen mit
+Wasserzeichen." Other 32 DE metas kept as-is.

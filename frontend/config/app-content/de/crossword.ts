@@ -18,12 +18,12 @@ const content: AppContent = {
       'PDF',
       'ausdrucken',
     ],
-    titleTag: 'Kreuzworträtsel erstellen | Bilder-Rätsel Generator',
+    titleTag: 'Kreuzworträtsel-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Bilder-Kreuzworträtsel auf einem 15×15-Gitter. 4 Eingabemethoden, 104 Themen, automatische Lösungen. Kostenlos testen — kommerzielle Lizenz.',
   },
 
   hero: {
-    title: 'Kreuzworträtsel erstellen — Bilder-Rätsel Generator',
+    title: 'Kreuzworträtsel-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Traditionelle Text-Hinweise durch Bildhinweise ersetzen auf einem festen 15×15-Raster — vier Eingabemethoden (Schnelle Themen-Generierung, Manuelle Bildnamen-Bearbeitung, Benutzerdefinierte Wortliste mit Hinweisen und Eigene Bilder hochladen), automatisch generierter Lösungsschlüssel mit ausgefülltem Raster und ein lokalisierter \"Bilderkreuzworträtsel\"-Header über 104 thematische Bildsammlungen.',
     description:
       'Mit dem Kreuzworträtsel-Generator für Etsy und KDP verkaufen Sie einzigartige Bilderkreuzworträtsel, die sich deutlich von der Konkurrenz abheben. Statt klassischer Texthinweise verwenden Ihre Rätsel farbenfrohe Bildhinweise auf einem festen 15×15-Raster — ein visuelles Format, das auf Produktvorschaubildern sofort ins Auge fällt und höhere Klickraten erzielt. Der Generator unterstützt vier Eingabemethoden, darunter Schnelle Themen-Generierung und Eigene Bilder hochladen, sodass Sie in wenigen Minuten ganze Produktpakete erstellen können. Besonders wertvoll für den DACH-Markt: Das integrierte Bildvokabular-System erzeugt automatisch korrekte deutsche Kreuzwortwörter aus lokalisierten Bildbezeichnungen — ohne manuelles Übersetzen. Mit der gewerblichen Lizenz und Unterstützung für 11 Sprachen erschließen Sie internationale Märkte und bauen ein skalierbares Printable-Business auf. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

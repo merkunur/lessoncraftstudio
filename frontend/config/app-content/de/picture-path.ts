@@ -15,12 +15,12 @@ const content: AppContent = {
       'Feinmotorik',
       'Problemlösung',
     ],
-    titleTag: 'Labyrinth erstellen | Irrgarten Arbeitsblatt Generator',
+    titleTag: 'Labyrinth-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Labyrinthe und Bild-Pfad-Rätsel mit Themenbildern. Automatische Lösungen, 300 DPI PDFs. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Labyrinth erstellen — Irrgarten Arbeitsblatt Generator',
+    title: 'Labyrinth-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Drei Spielmodi in einem Generator — Bilderpfad, Klassisches Labyrinth und Wähle den richtigen Weg — angetrieben vom LPF-Algorithmus (Longest Path First) mit automatisch generierten Lösungsschlüsseln, Wandanpassung und rein visuellem Design, das weltweit ohne Übersetzung funktioniert.',
     description:
       'Sie möchten Labyrinth-Arbeitsblätter als Druckvorlagen auf Etsy oder in KDP-Arbeitsbüchern verkaufen? Dieser Generator bietet drei Spielmodi: Der Bilderpfad-Modus erstellt ein Raster, in dem die korrekte Route über Pfadbilder zwischen Ablenkungsbildern verfolgt wird. Das Klassische Labyrinth generiert wandbasierte Labyrinthe mit dem LPF-Algorithmus und konfigurierbaren Rastergrößen von 15×15 bis 20×20. Der Wähle-den-richtigen-Weg-Modus präsentiert Drei-Pfad-Labyrinthe mit vier Richtungsoptionen. Jeder Modus generiert automatisch einen Lösungsschlüssel mit rosa Kreisen entlang der korrekten Route. Weisen Sie Bildern fünf Rollen zu — Start, Ziel, Pfad, Ablenkung und Dekoration — und durchsuchen Sie über 3.100 Illustrationen in 104 Themen. Das rein visuelle Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

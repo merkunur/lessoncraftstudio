@@ -15,12 +15,12 @@ const content: AppContent = {
       'Zahlenmuster',
       'Reihe ergänzen',
     ],
-    titleTag: 'Muster-Erkennung Arbeitsblätter erstellen | Logik Generator',
+    titleTag: 'Muster-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Muster-Erkennungs-Arbeitsblätter mit visuellen Sequenzen und Themenbildern. Automatische Lösungen, 300 DPI. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Muster-Erkennung Arbeitsblätter erstellen — Logik Generator',
+    title: 'Muster-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Neun Mustertypen von AB bis ABCD — zwei Fragemodi (Lückenfeld und Multiple-Choice) — mit unabhängiger Pro-Übung-Konfiguration für Mustertyp, Fragemodus und Thema auf jeder Seite.',
     description:
       'Erstellen Sie Muster-Erkennung-Arbeitsblätter mit dem Muster-Raster-Generator und verkaufen Sie Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Neun Mustertypen — von AB bis ABCD — und zwei Fragemodi (Lückenfeld und Multiple-Choice) ergeben 18 verschiedene Übungsstile in 104 Themen. Konfigurieren Sie 1 bis 8 Übungen pro Seite, wobei jede Übung unabhängig für Mustertyp, Fragemodus und Thema eingestellt wird. Zufälliger Start und zufällige Lückenposition sorgen für einzigartige Arbeitsblätter bei jeder Generierung. Das rein visuelle Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Lösungsschlüssel wird automatisch generiert. Exportieren Sie druckfertige PDFs und JPEGs. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',

@@ -16,12 +16,12 @@ const content: AppContent = {
       'Was kommt als nächstes?',
       'Logik',
     ],
-    titleTag: 'Muster-Arbeitsblätter erstellen | Musterreihen Generator',
+    titleTag: 'Musterreihen-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Muster-Arbeitsblätter mit AB, ABC, ABCD-Mustern und Themenbildern. Automatische Lösungen. Kostenlos testen — auf Etsy & KDP verkaufen.',
   },
 
   hero: {
-    title: 'Muster-Arbeitsblätter erstellen — Musterreihen Generator',
+    title: 'Musterreihen-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Fünf Mustertypen — AB, AAB, ABB, ABC, AABB — dargestellt auf 11 thematischen Zugwaggons mit einstellbarer Hinweisanzahl von 4 bis 10 für präzise Schwierigkeitskontrolle.',
     description:
       'Erstellen Sie Muster-Übungen mit dem Muster-Zug-Generator und verkaufen Sie einzigartige Arbeitsblätter auf Etsy, Amazon KDP oder Gumroad. Fünf Mustertypen — AB, AAB, ABB, ABC, AABB — erscheinen auf 11 thematischen Zugwaggons, wobei ein Waggon leer bleibt und das fehlende Element bestimmt werden muss. Steuern Sie die Schwierigkeit über die Hinweisanzahl von 4 bis 10. Die Produktmatrix aus fünf Mustertypen und sieben Hinweisstufen erzeugt 35 Schwierigkeitskombinationen — verfügbar in 104 Themen mit über 3.100 Illustrationen. Das textfreie Zug-Format hebt sich sofort von gitterbasierten Konkurrenzprodukten ab und ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Lösungsschlüssel wird automatisch generiert. Exportieren Sie druckfertige PDFs und JPEGs. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',

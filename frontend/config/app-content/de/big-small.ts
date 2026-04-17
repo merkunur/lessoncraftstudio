@@ -15,12 +15,12 @@ const content: AppContent = {
       'Größenordnung',
       'Sortieren nach Größe',
     ],
-    titleTag: 'Größenvergleich-Arbeitsblätter erstellen | Groß & Klein Generator',
+    titleTag: 'Groß-und-Klein-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Größenvergleich-Arbeitsblätter mit Themenbildern. Groß vs. Klein, Sortieren, automatische Lösungen. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Größenvergleich-Arbeitsblätter erstellen — Groß & Klein Generator',
+    title: 'Groß-und-Klein-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Fünf Fragetypen — Kreise das Große ein, Kreise das Kleine ein, Kreise das Mittlere ein, Nummerierung aufsteigend, Nummerierung absteigend — mit identischen und verschiedenen Bildmodi für visuelle Größenunterscheidung.',
     description:
       'Erstellen Sie Größenvergleich-Arbeitsblätter mit dem Groß-Klein-Generator und verkaufen Sie professionelle Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Fünf Fragetypen decken jede Größenunterscheidung ab: Kreise das Große ein, Kreise das Kleine ein, Kreise das Mittlere ein, Nummeriere Klein-nach-Groß und Nummeriere Groß-nach-Klein. Zwei Bildmodi verdoppeln Ihre Produktvielfalt — identische Bilder in verschiedenen Größen oder verschiedene Bilder für relatives Größen-Denken. Konfigurieren Sie 1 bis 10 Übungen pro Seite. Die Inhalte stammen aus über 3.100 Illustrationen in 104 Themen, und ein Lösungsschlüssel wird automatisch generiert. Das textfreie Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',

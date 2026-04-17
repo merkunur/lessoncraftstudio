@@ -19,12 +19,12 @@ const content: AppContent = {
       'Lösungsblatt',
       'Kopiervorlage',
     ],
-    titleTag: 'Additions-Arbeitsblätter erstellen | Mathe Generator',
-    metaDescription: 'Erstellen Sie Additions-Arbeitsblätter mit Bildern in Sekunden. Automatische Lösungsblätter, 300 DPI PDF, 11 Sprachen. Kostenlos testen — kommerzielle Lizenz für Etsy & KDP.',
+    titleTag: 'Additions-Arbeitsblatt-Generator | LessonCraftStudio',
+    metaDescription: 'Additions-Generator für Etsy- und KDP-Verkäufer. 4 Mathe-Modi, 104 Bildthemen, automatische Lösungen, 11 Sprachen. Kostenlos testen mit Wasserzeichen.',
   },
 
   hero: {
-    title: 'Additions-Arbeitsblätter erstellen — Mathe Generator mit Lösungen',
+    title: 'Additions-Arbeitsblatt-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Verwandeln Sie Addition in ein spannendes Abenteuer mit bildbasierten Mathe-Arbeitsblättern.',
     description:
       'Erstellen Sie professionelle Plusaufgaben-Arbeitsblätter und verkaufen Sie diese auf Etsy, Amazon KDP oder Eduki — in weniger als 3 Minuten pro Arbeitsblatt. Dieser Generator erstellt bildbasierte Additionsaufgaben mit über 3.000 thematischen Illustrationen, die Kinder ansprechen und Eltern zum Kauf bewegen. Jedes Arbeitsblatt wird als druckfertiges 300-DPI-PDF mit automatischem Lösungsschlüssel exportiert. Die gewerbliche Lizenz ist inklusive: kein Quellennachweis nötig, keine Gebühren, keine Einschränkungen beim Verkauf. Der deutschsprachige Markt für Mathe-Druckvorlagen auf Etsy ist deutlich weniger umkämpft als der englische — eine echte Chance für Ihr Printable-Business im DACH-Raum mit über 100 Millionen potenziellen Kunden. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

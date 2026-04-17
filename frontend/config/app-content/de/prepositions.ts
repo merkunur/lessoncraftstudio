@@ -18,12 +18,12 @@ const content: AppContent = {
       'Ortsangaben',
       'räumliche Begriffe',
     ],
-    titleTag: 'Präpositionen-Arbeitsblatt erstellen | Ortsangaben Generator',
+    titleTag: 'Präpositionen-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Präpositionen-Arbeitsblätter für räumliche Begriffe mit Themenbildern. Automatische Lösungen, 11 Sprachen. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Präpositionen-Arbeitsblatt erstellen — Ortsangaben Generator',
+    title: 'Präpositionen-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Acht Ortspräpositionen treffen auf Bild-und-Form-Übungen — räumliches Vokabular Satz für Satz aufbauen.',
     description:
       'Sie möchten Präpositionen-Arbeitsblätter für DaF/DaZ auf Eduki oder Etsy verkaufen? Dieser Generator erstellt professionelle Übungen für acht zentrale Ortspräpositionen — in, auf, unter, neben, hinter, zwischen, über und vor — in zwei Übungsmodi: Lückentext-Sätze, in denen die fehlende Präposition eingesetzt wird, und Multiple-Choice-Aufgaben mit räumlichen Bildszenen. Wählen Sie über die Checkliste, welche Präpositionen enthalten sein sollen, und konfigurieren Sie 1 bis 8 Übungen pro Arbeitsblatt. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen, und 8 geometrische Formen dienen als räumliche Bezugspunkte. Die Vollzugriff-Lizenz schaltet alle 11 Sprachen mit grammatisch korrekten Präpositionen frei — Deutsch mit Dativ-Kontraktionen wie \"im\" und \"am\" samt geschlechtsbewussten Artikeln. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

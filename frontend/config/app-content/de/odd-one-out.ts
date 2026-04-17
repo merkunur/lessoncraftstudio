@@ -15,12 +15,12 @@ const content: AppContent = {
       'logisches Denken',
       'Klassifizieren',
     ],
-    titleTag: 'Was-passt-nicht Arbeitsblatt erstellen | Logik Generator',
+    titleTag: 'Was-passt-nicht-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Was-passt-nicht-Arbeitsblätter mit Themenbildern für logisches Denken. Automatische Lösungen, druckfertige PDFs. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Was-passt-nicht Arbeitsblatt erstellen — Logik Generator',
+    title: 'Was-passt-nicht-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Zwei Erzeugungsmodi — Identisch und Ähnlich — mit Modus-Überschreibung pro Übung, 5–10 konfigurierbaren Übungen, automatisch generierten Lösungsschlüsseln mit roten Kreismarkierungen und rein visuellen Rätseln, die in allen 11 Sprachen ohne Übersetzung funktionieren.',
     description:
       'Erstellen Sie Was-passt-nicht-Rätsel mit dem Ausreißer-Generator und verkaufen Sie Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Zwei Erzeugungsmodi bieten unterschiedliche Herausforderungen: Identisch-Modus für Finde-den-Unterschied-Aufgaben und Ähnlich-Modus für thematische Ausreißer-Erkennung. Überschreiben Sie den Modus pro Übung, um Schwierigkeitsgrade auf einer Seite zu mischen. Konfigurieren Sie 5 bis 10 Übungen pro Arbeitsblatt mit automatischem Lösungsschlüssel mit roten Kreismarkierungen. Über 3.100 Illustrationen in 104 Themen liefern abwechslungsreiche Inhalte. Das vollständig visuelle Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',

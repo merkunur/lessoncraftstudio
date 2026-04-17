@@ -15,12 +15,12 @@ const content: AppContent = {
       'visuelles Denken',
       'räumliche Wahrnehmung',
     ],
-    titleTag: 'Fehlende-Teile Rätsel erstellen | Puzzle Generator',
+    titleTag: 'Fehlende-Teile-Generator | LessonCraftStudio',
     metaDescription: 'Erstellen Sie Fehlende-Teile-Rätsel mit Themenbildern und automatischen Lösungen. 300 DPI druckfertige PDFs. Kostenlos testen.',
   },
 
   hero: {
-    title: 'Fehlende-Teile Rätsel erstellen — Puzzle Generator',
+    title: 'Fehlende-Teile-Generator — Druckvorlagen für Etsy & KDP erstellen',
     tagline: 'Erstellen Sie Puzzle-Rätsel im Jigsaw-Stil, bei denen Teile aus Bildern ausgeschnitten werden und die korrekte nummerierte Option identifiziert werden muss — mit 6 Teilformen, 1–5 fehlenden Teilen, 2–6 Lösungsoptionen inklusive Distraktoren, automatisch generierten Lösungsschlüsseln und rein visuellem Design, das in jeder Sprache funktioniert.',
     description:
       'Sie möchten Fehlende-Teile-Rätsel für KDP-Beschäftigungsbücher oder als Etsy-Druckvorlagen erstellen? Dieser Generator erzeugt Puzzle-Rätsel, bei denen ein Bild Löcher aufweist und die richtige nummerierte Option für jede Lücke identifiziert werden muss. Der intelligente Algorithmus findet visuell unterscheidbare Bereiche mit ausreichender Farbvarianz. Wählen Sie aus 6 Teilformen — Quadrat, Kreis, Rechteck und Ellipse in Hoch- und Querformat — und konfigurieren Sie den Schwierigkeitsgrad mit 1–5 fehlenden Teilen und 2–6 Lösungsoptionen inklusive Ablenkungsteilen. Jedes Rätsel enthält einen automatisch generierten Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen. Die rein visuelle Ausgabe ohne sprachabhängige Inhalte ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',

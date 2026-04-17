@@ -144,6 +144,33 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Sì. Il generatore supporta 11 lingue (inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese, finlandese), e ogni versione linguistica conta come prodotto distinto nella tua licenza. Molti venditori moltiplicano i ricavi per tema esportando la stessa scheda in ogni lingua e pubblicandole come prodotti separati su Etsy o KDP.',
     },
   ],
+  pt: [
+    {
+      question: 'O que inclui a licença comercial?',
+      answer:
+        'Cada atividade que você gera vem com uma licença comercial completa: sem exigência de atribuição, sem royalties, sem limite de unidades vendidas. Você pode vender as atividades criadas na Hotmart, Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, sua própria loja ou em qualquer outro marketplace. A licença única de US$ 49 cobre uso comercial ilimitado para um vendedor ou empresa.',
+    },
+    {
+      question: 'Posso vender as atividades na Hotmart, Etsy, Amazon KDP, Teachers Pay Teachers e Gumroad?',
+      answer:
+        'Sim, todas essas plataformas estão cobertas pela licença comercial. Você pode vender downloads digitais na Hotmart e Etsy, compilar atividades em livros de passatempos e atividades impressos para Amazon KDP, oferecer pacotes para a sala de aula no Teachers Pay Teachers e distribuir imprimíveis via Gumroad ou sua própria loja online. A licença não restringe o marketplace de venda.',
+    },
+    {
+      question: 'Qual é a política de reembolso?',
+      answer:
+        'Oferecemos uma janela de reembolso de 30 dias. Se você decidir que o gerador não se encaixa na sua linha de produtos dentro dos primeiros 30 dias, escreva ao suporte e processaremos o reembolso integral. Após 30 dias, os reembolsos são avaliados caso a caso para defeitos materiais ou problemas com a ferramenta.',
+    },
+    {
+      question: 'Posso compartilhar a licença com membros da equipe ou colaboradores?',
+      answer:
+        'Uma única licença cobre uma conta de vendedor ou empresa. Se você trabalha como autônomo, a licença cobre você e os assistentes virtuais que trabalham para o seu negócio. Para equipes de 3 ou mais pessoas gerando atividades de forma independente, entre em contato com o suporte para licenças de equipe: oferecemos pacotes multiusuário com desconto.',
+    },
+    {
+      question: 'Posso vender a mesma atividade em 11 idiomas como produtos distintos?',
+      answer:
+        'Sim. O gerador suporta 11 idiomas (inglês, alemão, francês, espanhol, português, italiano, holandês, sueco, dinamarquês, norueguês, finlandês), e cada versão por idioma conta como um produto distinto sob sua licença. Muitos vendedores multiplicam a receita por tema exportando a mesma atividade em cada idioma e listando-as como produtos separados na Hotmart, Etsy ou KDP.',
+    },
+  ],
 };
 
 export function getSharedCommercialFAQs(locale: string): FAQ[] {

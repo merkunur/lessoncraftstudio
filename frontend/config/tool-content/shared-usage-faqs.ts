@@ -144,6 +144,33 @@ export const sharedUsageFAQs: Record<string, FAQ[]> = {
         'L\'impaginazione attuale rimane solo nella memoria del browser. Chiudere la scheda la cancella. Per conservare una scheda tra sessioni, scarica il PDF e il JPEG prima di chiudere: reimportare la stessa configurazione non è supportato nella versione browser gratuita. Se crei regolarmente lotti di schede correlate, la licenza dà anche accesso ai modelli salvati.',
     },
   ],
+  pt: [
+    {
+      question: 'Realmente não precisa de cadastro?',
+      answer:
+        'Correto: você pode abrir o gerador, escolher um tema, personalizar o layout da página e baixar um PDF ou JPEG com marca d\'água sem criar uma conta. Sem e-mail, sem cartão de crédito, sem período de teste. A marca d\'água é um pequeno rótulo no canto; o conteúdo da atividade é idêntico à versão paga. A licença única de US$ 49 remove a marca d\'água e libera os direitos de venda comercial.',
+    },
+    {
+      question: 'Quais formatos de arquivo posso baixar?',
+      answer:
+        'Cada atividade é exportada como PDF pronto para impressão a 400+ DPI e JPEG em alta resolução. O PDF preserva o texto vetorial e as imagens nítidas para uma impressão limpa em qualquer tamanho. O JPEG é útil para prévias rápidas, postagens em redes sociais e plataformas que preferem imagens raster. Ambos os formatos são baixados instantaneamente após clicar em Exportar.',
+    },
+    {
+      question: 'Funciona em tablet, Chromebook ou navegador mais antigo?',
+      answer:
+        'O gerador funciona em qualquer navegador moderno: Chrome, Safari, Firefox e Edge, versão 90 ou posterior. Funciona em Chromebooks, iPads e tablets Android, além de computadores desktop. Navegadores mais antigos (Internet Explorer, Chrome anterior à 90) não são suportados porque o gerador usa recursos modernos de canvas e renderização de fontes. Se houver problema de exibição, atualizar o navegador geralmente resolve.',
+    },
+    {
+      question: 'Quais tamanhos de página são suportados? Como imprimo em A4 vs Letter?',
+      answer:
+        'O painel de Layout oferece Letter Retrato, Letter Paisagem, A4 Retrato, A4 Paisagem, Quadrado e dimensões personalizadas. Escolha o tamanho que combina com sua impressora ou mercado-alvo (A4 para a maioria dos mercados europeus, latino-americanos e asiáticos; Letter para a América do Norte). A exportação em PDF preserva as dimensões exatas escolhidas para uma impressão fiel em qualquer impressora.',
+    },
+    {
+      question: 'Minhas atividades são salvas se eu fechar a aba?',
+      answer:
+        'O layout atual permanece apenas na memória do navegador. Fechar a aba apaga tudo. Para preservar uma atividade entre sessões, baixe o PDF e o JPEG antes de fechar: reimportar a mesma configuração não é suportado na versão gratuita do navegador. Se você cria lotes de atividades relacionadas com frequência, a licença também dá acesso a modelos salvos.',
+    },
+  ],
 };
 
 export function getSharedUsageFAQs(locale: string): FAQ[] {

@@ -30,6 +30,8 @@ const content: AppContent = {
       'Créez des puzzles mathématiques à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — un format de puzzle captivant où une image complète est divisée en une grille de pièces, chacune contenant un problème d\'addition ou de soustraction. Les utilisateurs résolvent les calculs, puis associent les réponses numérotées aux pièces mélangées affichées sous la grille — transformant l\'arithmétique de routine en un mystère visuel. Configurez des grilles de 2×2 jusqu\'à 4×4 pour créer des puzzles de 4 à 16 pièces, et choisissez addition, soustraction ou opérations mixtes pour s\'adapter à chaque niveau. Puisez dans plus de 3 100 illustrations dans 104 thèmes comme les animaux de la ferme, l\'espace, les dinosaures et les fêtes. Chaque fiche génère un corrigé automatique montrant la grille résolue à côté de l\'image complète. Exportez des PDF et JPEG prêts à imprimer à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d\'activités progressifs pour Amazon KDP ou créiez des ateliers de maths interactifs pour votre classe, le Générateur de Puzzles Mathématiques produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',
   },
 
+  ctaHeading: 'Créer des puzzles mathématiques',
+
   howItWorks: {
     title: 'Comment Créer des Fiches de Puzzles Maths en 5 Étapes',
     steps: [

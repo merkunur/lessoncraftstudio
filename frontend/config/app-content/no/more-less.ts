@@ -16,6 +16,8 @@ const content: AppContent = {
       'Lag engasjerende sammenligningsarbeidsark som lærer brukerne hvilken gruppe som har flere, hvilken som har færre, og når to grupper er like store. Velg blant tre ulike øvelsesmoduser — Bilde til Bilde, Bilde til Tall og den unike modusen Sjekk og Kryss Grupper, der brukerne analyserer bokser med blandede bilder for å finne majoritetsgruppen. Bytt mellom samme bilder og forskjellige bilder som sammenligning, velg illustrasjonssymboler eller vanlige matematiske tegn, og velg blant mer enn 3 100 nøye utvalgte bilder i 104 temaer. Hvert arbeidsark genererer en automatisk fasit, og du kan eksportere trykkeklare PDF-er i Letter-, A4- eller egendefinert format med mer enn 400 DPI. Enten du selger temapakker på Etsy, setter sammen sammenligningsaktivitetsbøker til Amazon KDP eller lager nivåinndelte matematikkstasjoner til produktlinjen din — Mer eller Mindre Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',
   },
 
+  ctaHeading: 'Lag større eller mindre-oppgaver',
+
   howItWorks: {
     title: 'Slik Lager du Sammenligningsarbeidsark i 5 Trinn',
     steps: [

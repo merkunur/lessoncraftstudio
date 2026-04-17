@@ -29,6 +29,8 @@ const content: AppContent = {
       'Lag bildebaserte addisjons arbeidsark som gjør tidlige matematikkonsepter konkrete og engasjerende for unge brukere. Velg mellom fire ulike øvelsesmoduser — Bilde + Bilde, Bilde + Tall, Finn Leddet og Blandet Modus — for å tilpasse til ethvert nivå fra barnehage til 2. trinn. Utforsk mer enn 3 100 nøye utvalgte illustrasjoner i 104 temaer som bondegårdsdyr, kjøretøy og mat for å gjøre hvert regnestykke levende. Hvert arbeidsark inneholder en automatisk generert fasit, og du kan eksportere trykkeklare PDF-er i Letter-, A4- eller egendefinert format med mer enn 400 DPI. Enten du selger på Etsy, utgir aktivitetsbøker på Amazon KDP eller distribuerer arbeidsark til kundene dine — Addisjons Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',
   },
 
+  ctaHeading: 'Lag plusstykker',
+
   howItWorks: {
     title: 'Slik Lager du Addisjons Arbeidsark i 5 Trinn',
     steps: [

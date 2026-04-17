@@ -29,6 +29,8 @@ const content: AppContent = {
       'Lag bildebaserte subtraksjonsarbeidsark som gjør konseptet «fjerne» synlig og forståelig gjennom en kraftfull visuell metode: overstrykning. Brukerne ser en gruppe bilder og observerer diagonale kryss over de fjernede elementene — noe som gjør det abstrakte begrepet subtraksjon konkret og intuitivt. Velg mellom fire øvelsesmoduser — Overstrykning, Bilde − Tall, Finn Subtrahenden og Blandet Modus — for å guide læringen fra barnehage til 2. trinn. Utforsk mer enn 3 100 nøye utvalgte illustrasjoner i 104 temaer som dinosaurer, havdyr og kjøretøy. Hvert arbeidsark inneholder en automatisk generert fasit, og du kan eksportere trykkeklare PDF-er i Letter-, Kort- (800×1000) eller A4-format med mer enn 400 DPI. En innebygd gråtoneknapp gjør det mulig å lage blekkbesparende svart-hvite versjoner med ett klikk. Enten du selger temapakker på Etsy, utgir aktivitetsbøker på Amazon KDP eller skriver ut øvingsark til kundene dine — Subtraksjons Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',
   },
 
+  ctaHeading: 'Lag minusstykker',
+
   howItWorks: {
     title: 'Slik Lager du Subtraksjonsarbeidsark i 5 Trinn',
     steps: [

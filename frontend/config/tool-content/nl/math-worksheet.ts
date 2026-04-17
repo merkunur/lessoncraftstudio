@@ -215,7 +215,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Ontbrekende Stukjes Maker' },
     {
       pageType: 'app',
-      slug: 'math-worksheet-puzzles',
+      slug: 'rekenen-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

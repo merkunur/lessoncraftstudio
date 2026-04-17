@@ -206,7 +206,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede di Abbinamento' },
     {
       pageType: 'app',
-      slug: 'code-addition-worksheets',
+      slug: 'addizioni-immagini-schede',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

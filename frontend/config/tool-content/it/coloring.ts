@@ -214,7 +214,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-schede-scrittura', anchorText: 'Generatore Schede Scrittura' },
     {
       pageType: 'app',
-      slug: 'coloring-worksheets',
+      slug: 'disegni-da-colorare',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

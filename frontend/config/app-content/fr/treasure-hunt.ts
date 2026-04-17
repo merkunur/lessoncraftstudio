@@ -261,7 +261,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'treasure-hunt-worksheet-maker',
+      slug: 'generateur-chasse-au-tresor',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

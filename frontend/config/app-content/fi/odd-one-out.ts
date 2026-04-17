@@ -224,7 +224,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'odd-one-out-worksheet-maker',
+      slug: 'mika-ei-sovi-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

@@ -245,7 +245,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'alphabet-train-worksheet-maker',
+      slug: 'alfabet-tog-skaper',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

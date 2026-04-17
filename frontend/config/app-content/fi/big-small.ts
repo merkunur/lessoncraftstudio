@@ -238,7 +238,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'big-small-worksheet-maker',
+      slug: 'iso-pieni-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

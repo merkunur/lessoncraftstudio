@@ -264,7 +264,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'coloring-worksheet-maker',
+      slug: 'malvorlagen-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

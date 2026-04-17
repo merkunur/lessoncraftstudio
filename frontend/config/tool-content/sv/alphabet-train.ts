@@ -210,7 +210,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'moenstertaag-skapare', anchorText: 'Mönstertåg Generator' },
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
+      slug: 'alfabettag-arbetsblad',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

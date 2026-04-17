@@ -218,7 +218,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'additions-arbejdsark-skaber', anchorText: 'Additions Arbejdsark Generator' },
     {
       pageType: 'app',
-      slug: 'grid-match-worksheets',
+      slug: 'raster-puslespil-arbejdsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

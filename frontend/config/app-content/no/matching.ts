@@ -250,7 +250,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'matching-worksheet-maker',
+      slug: 'koblings-arbeidsark-skaper',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

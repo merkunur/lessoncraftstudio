@@ -252,7 +252,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'odd-one-out-worksheet-maker',
+      slug: 'generador-fichas-intruso',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

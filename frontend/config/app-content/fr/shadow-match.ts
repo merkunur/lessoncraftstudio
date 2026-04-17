@@ -266,7 +266,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'shadow-match-worksheet-maker',
+      slug: 'generateur-discrimination-visuelle',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

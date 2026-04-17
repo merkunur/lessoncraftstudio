@@ -224,7 +224,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'crossword-worksheet-maker',
+      slug: 'kruiswoordpuzzel-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

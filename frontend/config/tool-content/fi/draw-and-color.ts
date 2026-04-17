@@ -94,7 +94,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'varjoyhdistamis-luoja', anchorText: 'Varjoyhdistämisgeneraattori' },
     {
       pageType: 'app',
-      slug: 'draw-and-color-worksheets',
+      slug: 'piirra-varita-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

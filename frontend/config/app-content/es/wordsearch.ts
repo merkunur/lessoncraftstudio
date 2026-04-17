@@ -260,7 +260,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'word-search-worksheet-maker',
+      slug: 'generador-sopa-letras',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

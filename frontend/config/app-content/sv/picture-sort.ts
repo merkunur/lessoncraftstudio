@@ -268,7 +268,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'picture-sort-worksheet-maker',
+      slug: 'sortera-bilder-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

@@ -239,7 +239,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'matching-worksheet-maker',
+      slug: 'matchnings-arbejdsark-skaber',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

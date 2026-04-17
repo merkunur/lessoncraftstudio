@@ -210,7 +210,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-treno-sequenze', anchorText: 'Generatore Treno Sequenze' },
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
+      slug: 'treno-alfabeto-schede',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -212,7 +212,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generateur-pieces-manquantes', anchorText: 'Générateur de Pièces Manquantes' },
     {
       pageType: 'app',
-      slug: 'math-puzzle-worksheets',
+      slug: 'puzzle-maths-fiches',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

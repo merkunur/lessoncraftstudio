@@ -253,7 +253,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'image-subtraction-worksheet-maker',
+      slug: 'subtraksjons-arbeidsark-skaper',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

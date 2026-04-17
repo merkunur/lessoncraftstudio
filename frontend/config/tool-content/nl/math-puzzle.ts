@@ -206,7 +206,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'ontbrekende-stukjes-maker', anchorText: 'Ontbrekende Stukjes Maker' },
     {
       pageType: 'app',
-      slug: 'math-puzzle-worksheets',
+      slug: 'rekenpuzzels-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

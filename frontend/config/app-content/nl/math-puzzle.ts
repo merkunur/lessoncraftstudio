@@ -223,7 +223,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'math-puzzle-worksheet-maker',
+      slug: 'rekenpuzzel-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

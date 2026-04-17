@@ -219,7 +219,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
     {
       pageType: 'app',
-      slug: 'shadow-match-worksheets',
+      slug: 'schaduw-matching-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

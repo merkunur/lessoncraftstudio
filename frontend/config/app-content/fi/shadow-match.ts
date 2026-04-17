@@ -273,7 +273,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'shadow-match-worksheet-maker',
+      slug: 'varjokuva-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

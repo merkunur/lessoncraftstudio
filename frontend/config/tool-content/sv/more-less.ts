@@ -205,7 +205,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'stor-liten-arbetsblad-skapare', anchorText: 'Stor och Liten Arbetsblad Generator' },
     {
       pageType: 'app',
-      slug: 'more-less-worksheets',
+      slug: 'jamforelse-arbetsblad',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

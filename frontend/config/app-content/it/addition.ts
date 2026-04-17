@@ -245,7 +245,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'image-addition-worksheet-maker',
+      slug: 'generatore-schede-addizione',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

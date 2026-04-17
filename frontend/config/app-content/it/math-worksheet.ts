@@ -249,7 +249,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'math-worksheet-maker',
+      slug: 'generatore-esercizi-matematica',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

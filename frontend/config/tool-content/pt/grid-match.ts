@@ -211,7 +211,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-atividades-adicao', anchorText: 'Gerador de Atividades de Adição' },
     {
       pageType: 'app',
-      slug: 'grid-match-worksheets',
+      slug: 'quebra-cabeca-grade-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

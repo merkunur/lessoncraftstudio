@@ -249,7 +249,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'prepositions-worksheet-maker',
+      slug: 'gerador-fichas-preposicoes',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

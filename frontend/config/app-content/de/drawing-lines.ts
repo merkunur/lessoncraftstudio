@@ -263,7 +263,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'drawing-lines-worksheet-maker',
+      slug: 'linien-ziehen-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

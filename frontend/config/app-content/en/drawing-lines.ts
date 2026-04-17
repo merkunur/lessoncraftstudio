@@ -220,7 +220,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'drawing-lines-worksheet-maker',
+      slug: 'drawing-lines-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

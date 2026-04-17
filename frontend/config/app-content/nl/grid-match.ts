@@ -219,7 +219,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'grid-match-worksheet-maker',
+      slug: 'raster-puzzel-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

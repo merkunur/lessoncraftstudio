@@ -206,7 +206,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'groot-klein-werkblad-generator', anchorText: 'Groot en Klein Werkblad Generator' },
     {
       pageType: 'app',
-      slug: 'more-less-worksheets',
+      slug: 'meer-minder-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

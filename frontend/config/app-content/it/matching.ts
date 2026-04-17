@@ -257,7 +257,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'matching-worksheet-maker',
+      slug: 'generatore-schede-abbinamento',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

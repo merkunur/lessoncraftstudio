@@ -258,7 +258,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'drawing-lines-worksheet-maker',
+      slug: 'generatore-schede-pregrafismo',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

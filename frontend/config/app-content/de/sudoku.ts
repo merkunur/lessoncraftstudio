@@ -263,7 +263,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'sudoku-worksheet-maker',
+      slug: 'kinder-sudoku-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

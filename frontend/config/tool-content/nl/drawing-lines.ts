@@ -215,7 +215,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Schrijfoefeningen Werkblad Generator' },
     {
       pageType: 'app',
-      slug: 'drawing-lines-worksheets',
+      slug: 'lijnen-trekken-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

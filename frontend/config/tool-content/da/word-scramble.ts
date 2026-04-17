@@ -217,7 +217,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'matchning-arbejdsark-skaber', anchorText: 'Matchning Arbejdsark Generator' },
     {
       pageType: 'app',
-      slug: 'word-scramble-worksheets',
+      slug: 'bogstavblanding-arbejdsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

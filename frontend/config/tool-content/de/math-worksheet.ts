@@ -216,7 +216,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Generator' },
     {
       pageType: 'app',
-      slug: 'math-worksheet-puzzles',
+      slug: 'mathe-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

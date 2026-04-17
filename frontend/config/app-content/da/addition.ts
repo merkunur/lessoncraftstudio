@@ -235,7 +235,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'image-addition-worksheet-maker',
+      slug: 'additions-arbejdsark-skaber',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

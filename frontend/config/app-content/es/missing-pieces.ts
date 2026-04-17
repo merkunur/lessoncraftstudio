@@ -262,7 +262,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'missing-pieces-worksheet-maker',
+      slug: 'generador-piezas-faltantes',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

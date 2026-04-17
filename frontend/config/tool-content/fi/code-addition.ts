@@ -201,7 +201,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'yhteenlaskutehtavien-tekija', anchorText: 'Ilmainen yhteenlaskugeneraattori' },
     {
       pageType: 'app',
-      slug: 'code-addition-worksheets',
+      slug: 'koodi-yhteenlasku-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

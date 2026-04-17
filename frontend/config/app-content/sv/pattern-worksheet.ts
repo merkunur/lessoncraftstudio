@@ -268,7 +268,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'pattern-worksheet-maker',
+      slug: 'moenster-arbetsblad-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

@@ -197,7 +197,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'enemman-vahemman-tehtavien-tekija', anchorText: 'Ilmainen enemmän tai vähemmän -generaattori' },
     {
       pageType: 'app',
-      slug: 'addition-worksheets',
+      slug: 'yhteenlasku-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

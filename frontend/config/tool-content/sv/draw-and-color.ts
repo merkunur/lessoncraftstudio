@@ -214,7 +214,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'skuggmatchning-skapare', anchorText: 'Skuggmatchning Generator' },
     {
       pageType: 'app',
-      slug: 'draw-and-color-worksheets',
+      slug: 'rutritning-arbetsblad',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -222,7 +222,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'code-addition-worksheet-maker',
+      slug: 'code-optellen-werkblad-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

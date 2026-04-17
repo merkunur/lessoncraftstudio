@@ -210,7 +210,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'image-subtraction-worksheet-maker',
+      slug: 'aftrekken-werkblad-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

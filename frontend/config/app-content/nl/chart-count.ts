@@ -213,7 +213,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'chart-count-worksheet-maker',
+      slug: 'telgrafiek-werkblad-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

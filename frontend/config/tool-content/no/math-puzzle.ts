@@ -210,7 +210,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'manglende-biter-skaper', anchorText: 'Manglende Biter Generator' },
     {
       pageType: 'app',
-      slug: 'math-puzzle-worksheets',
+      slug: 'matematikkgater-arbeidsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -219,7 +219,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'math-worksheet-maker',
+      slug: 'reken-werkblad-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

@@ -251,7 +251,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'image-subtraction-worksheet-maker',
+      slug: 'generateur-fiches-soustraction',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

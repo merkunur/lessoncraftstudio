@@ -216,7 +216,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'schattenbilder-ersteller', anchorText: 'Schattenbilder-Generator' },
     {
       pageType: 'app',
-      slug: 'draw-and-color-worksheets',
+      slug: 'rasterzeichnen-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

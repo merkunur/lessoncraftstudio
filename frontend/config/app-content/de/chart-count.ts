@@ -258,7 +258,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'chart-count-worksheet-maker',
+      slug: 'bilddiagramm-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

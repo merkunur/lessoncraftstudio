@@ -217,7 +217,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
     {
       pageType: 'app',
-      slug: 'shadow-match-worksheets',
+      slug: 'skygge-match-arbejdsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -220,7 +220,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-discrimination-visuelle', anchorText: 'Générateur de Fiches Discrimination Visuelle' },
     {
       pageType: 'app',
-      slug: 'draw-and-color-worksheets',
+      slug: 'dessin-quadrillage-fiches',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

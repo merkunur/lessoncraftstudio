@@ -207,7 +207,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-puzzles-matematicos', anchorText: 'Gerador de Puzzles Matemáticos' },
     {
       pageType: 'app',
-      slug: 'treasure-hunt-worksheets',
+      slug: 'caca-ao-tesouro-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -250,7 +250,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'picture-path-worksheet-maker',
+      slug: 'billedsti-skaber',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

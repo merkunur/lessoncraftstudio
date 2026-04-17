@@ -220,7 +220,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'odd-one-out-worksheet-maker',
+      slug: 'odd-one-out-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

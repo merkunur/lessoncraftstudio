@@ -258,7 +258,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'grid-match-worksheet-maker',
+      slug: 'gerador-puzzle-quadricula',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

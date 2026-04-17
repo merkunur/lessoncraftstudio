@@ -91,7 +91,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'varitys-tyokalu', anchorText: 'Varitys-generaattori' },
     {
       pageType: 'app',
-      slug: 'find-objects-worksheets',
+      slug: 'piilokuvat-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

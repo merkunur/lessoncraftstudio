@@ -216,7 +216,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'mathe-raetsel-ersteller', anchorText: 'Mathe-Rätsel-Generator' },
     {
       pageType: 'app',
-      slug: 'treasure-hunt-worksheets',
+      slug: 'schatzsuche-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

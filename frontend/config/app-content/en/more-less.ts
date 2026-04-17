@@ -219,7 +219,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'more-less-worksheet-maker',
+      slug: 'more-or-less-worksheet-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

@@ -263,7 +263,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'pattern-train-worksheet-maker',
+      slug: 'moenstertaag-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

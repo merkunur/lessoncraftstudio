@@ -258,7 +258,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'math-puzzle-worksheet-maker',
+      slug: 'mattepussel-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

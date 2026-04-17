@@ -200,7 +200,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Gratis kleurplaten maker' },
     {
       pageType: 'app',
-      slug: 'addition-worksheets',
+      slug: 'optellen-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

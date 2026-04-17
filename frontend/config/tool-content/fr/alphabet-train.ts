@@ -220,7 +220,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generateur-train-suites-logiques', anchorText: 'Générateur de Train de Suites Logiques' },
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
+      slug: 'train-alphabet-fiches',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

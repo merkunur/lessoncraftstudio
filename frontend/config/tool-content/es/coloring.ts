@@ -212,7 +212,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generador-fichas-escritura', anchorText: 'Generador de Fichas de Escritura' },
     {
       pageType: 'app',
-      slug: 'coloring-worksheets',
+      slug: 'dibujos-colorear-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

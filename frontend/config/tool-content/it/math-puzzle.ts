@@ -206,7 +206,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generatore-pezzi-mancanti', anchorText: 'Generatore Pezzi Mancanti' },
     {
       pageType: 'app',
-      slug: 'math-puzzle-worksheets',
+      slug: 'puzzle-matematici-schede',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

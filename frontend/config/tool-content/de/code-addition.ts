@@ -211,7 +211,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
     {
       pageType: 'app',
-      slug: 'code-addition-worksheets',
+      slug: 'bilder-additions-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

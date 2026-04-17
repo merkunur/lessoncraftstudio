@@ -213,7 +213,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'matematik-puslespil-skaber', anchorText: 'Matematik Puslespil Generator' },
     {
       pageType: 'app',
-      slug: 'treasure-hunt-worksheets',
+      slug: 'skattejagt-arbejdsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

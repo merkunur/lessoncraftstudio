@@ -206,7 +206,7 @@ const content: ToolContent = {
     { pageType: 'guide', slug: 'create-pattern-worksheets', anchorText: 'How to create pattern worksheets to sell' },
     {
       pageType: 'app',
-      slug: 'pattern-worksheet-worksheets',
+      slug: 'pattern-worksheets',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

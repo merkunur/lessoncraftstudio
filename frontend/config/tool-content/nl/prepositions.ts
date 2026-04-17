@@ -211,7 +211,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelen Werkblad Generator' },
     {
       pageType: 'app',
-      slug: 'prepositions-worksheets',
+      slug: 'voorzetsels-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

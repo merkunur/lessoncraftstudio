@@ -244,7 +244,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'find-objects-worksheet-maker',
+      slug: 'find-genstandene-skaber',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

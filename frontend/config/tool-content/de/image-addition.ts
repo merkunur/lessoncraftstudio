@@ -209,7 +209,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
     {
       pageType: 'app',
-      slug: 'addition-worksheets',
+      slug: 'addition-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -94,7 +94,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kirjoitusharjoitus-luoja', anchorText: 'Kirjoitusharjoitusgeneraattori' },
     {
       pageType: 'app',
-      slug: 'coloring-worksheets',
+      slug: 'varityskuvat-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

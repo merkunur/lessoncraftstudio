@@ -233,7 +233,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'draw-and-color-worksheet-maker',
+      slug: 'piirra-varita-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

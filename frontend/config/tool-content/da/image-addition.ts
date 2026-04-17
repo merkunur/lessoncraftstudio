@@ -204,7 +204,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'farvelaegningssider-skaber', anchorText: 'Malebilleder Generator' },
     {
       pageType: 'app',
-      slug: 'addition-worksheets',
+      slug: 'addition-arbejdsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

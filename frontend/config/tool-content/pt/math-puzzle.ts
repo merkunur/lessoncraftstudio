@@ -209,7 +209,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'gerador-pecas-faltantes', anchorText: 'Gerador de Peças Faltantes' },
     {
       pageType: 'app',
-      slug: 'math-puzzle-worksheets',
+      slug: 'quebra-cabeca-matematica-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

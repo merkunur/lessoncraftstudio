@@ -211,7 +211,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'fehlende-puzzleteile-ersteller', anchorText: 'Fehlende-Puzzleteile-Generator' },
     {
       pageType: 'app',
-      slug: 'math-puzzle-worksheets',
+      slug: 'mathe-raetsel-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

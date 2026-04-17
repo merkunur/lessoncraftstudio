@@ -268,7 +268,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'find-objects-worksheet-maker',
+      slug: 'hitta-foeremaalen-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

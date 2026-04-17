@@ -210,7 +210,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'fargeleggingssider-skaper', anchorText: 'Fargeleggingssider Generator' },
     {
       pageType: 'app',
-      slug: 'picture-path-worksheets',
+      slug: 'bildesti-arbeidsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -249,7 +249,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'alphabet-train-worksheet-maker',
+      slug: 'generador-tren-abecedario',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

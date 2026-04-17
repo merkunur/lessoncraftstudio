@@ -259,7 +259,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'crossword-worksheet-maker',
+      slug: 'generador-crucigramas-imagenes',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

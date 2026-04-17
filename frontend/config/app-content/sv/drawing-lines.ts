@@ -268,7 +268,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'drawing-lines-worksheet-maker',
+      slug: 'linjer-ovningar-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

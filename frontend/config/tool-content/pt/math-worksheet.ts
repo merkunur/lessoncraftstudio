@@ -214,7 +214,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-pecas-faltantes', anchorText: 'Gerador de Peças Faltantes' },
     {
       pageType: 'app',
-      slug: 'math-worksheet-puzzles',
+      slug: 'atividades-matematica-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

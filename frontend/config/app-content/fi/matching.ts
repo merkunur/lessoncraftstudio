@@ -223,7 +223,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'matching-worksheet-maker',
+      slug: 'yhdistamis-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

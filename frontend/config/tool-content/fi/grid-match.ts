@@ -93,7 +93,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'yhteenlasku-tehtava-luoja', anchorText: 'Yhteenlaskutehtävägeneraattori' },
     {
       pageType: 'app',
-      slug: 'grid-match-worksheets',
+      slug: 'ruudukko-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -219,7 +219,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'optellen-werkblad-generator', anchorText: 'Optelling Werkblad Generator' },
     {
       pageType: 'app',
-      slug: 'grid-match-worksheets',
+      slug: 'raster-puzzel-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

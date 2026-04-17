@@ -211,7 +211,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Gerador de Páginas para Colorir' },
     {
       pageType: 'app',
-      slug: 'picture-path-worksheets',
+      slug: 'labirinto-caminhos-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

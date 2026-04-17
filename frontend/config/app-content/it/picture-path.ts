@@ -257,7 +257,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'picture-path-worksheet-maker',
+      slug: 'generatore-percorso-immagini',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

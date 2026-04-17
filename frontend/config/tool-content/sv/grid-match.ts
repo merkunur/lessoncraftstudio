@@ -218,7 +218,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'additions-arbetsblad-skapare', anchorText: 'Additions Arbetsblad Generator' },
     {
       pageType: 'app',
-      slug: 'grid-match-worksheets',
+      slug: 'rutnatsmatching-arbetsblad',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

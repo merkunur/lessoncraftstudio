@@ -212,7 +212,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generador-tren-patrones', anchorText: 'Generador de Tren de Patrones' },
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
+      slug: 'tren-alfabeto-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

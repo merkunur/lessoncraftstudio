@@ -216,7 +216,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
     {
       pageType: 'app',
-      slug: 'pattern-train-worksheets',
+      slug: 'muster-zug-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

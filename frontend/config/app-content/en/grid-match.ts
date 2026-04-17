@@ -220,7 +220,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'grid-match-worksheet-maker',
+      slug: 'grid-match-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

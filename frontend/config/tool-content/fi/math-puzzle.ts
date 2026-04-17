@@ -87,7 +87,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'vahennyslaskutehtavien-tekija', anchorText: 'Ilmainen vähennyslaskugeneraattori' },
     {
       pageType: 'app',
-      slug: 'math-puzzle-worksheets',
+      slug: 'matikkapulmat-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

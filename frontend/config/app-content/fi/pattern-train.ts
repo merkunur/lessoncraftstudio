@@ -244,7 +244,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'pattern-train-worksheet-maker',
+      slug: 'kuviosarja-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

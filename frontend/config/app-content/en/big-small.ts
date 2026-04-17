@@ -220,7 +220,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'big-small-worksheet-maker',
+      slug: 'big-and-small-worksheet-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

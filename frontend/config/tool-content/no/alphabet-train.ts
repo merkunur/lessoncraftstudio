@@ -215,7 +215,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'moenstertog-skaper', anchorText: 'Mønstertog Generator' },
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
+      slug: 'alfabet-tog-arbeidsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

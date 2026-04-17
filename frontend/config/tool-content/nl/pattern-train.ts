@@ -215,7 +215,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
     {
       pageType: 'app',
-      slug: 'pattern-train-worksheets',
+      slug: 'patroontrein-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

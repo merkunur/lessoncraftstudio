@@ -220,7 +220,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'additions-Arbeitsblatt-Generator', anchorText: 'Additions-Arbeitsblatt-Generator' },
     {
       pageType: 'app',
-      slug: 'grid-match-worksheets',
+      slug: 'raster-puzzle-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

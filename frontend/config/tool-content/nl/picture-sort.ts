@@ -219,7 +219,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
     {
       pageType: 'app',
-      slug: 'picture-sort-worksheets',
+      slug: 'sorteer-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

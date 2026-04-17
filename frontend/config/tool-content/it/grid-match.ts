@@ -219,7 +219,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-schede-addizione', anchorText: 'Generatore Schede di Addizione' },
     {
       pageType: 'app',
-      slug: 'grid-match-worksheets',
+      slug: 'griglia-abbinamento-schede',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

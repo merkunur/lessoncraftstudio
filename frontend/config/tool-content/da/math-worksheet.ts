@@ -217,7 +217,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'manglende-brikker-skaber', anchorText: 'Manglende Brikker Generator' },
     {
       pageType: 'app',
-      slug: 'math-worksheet-puzzles',
+      slug: 'matematikopgaver-arbejdsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -218,7 +218,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
     {
       pageType: 'app',
-      slug: 'missing-pieces-worksheets',
+      slug: 'saknade-bitar-arbetsblad',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

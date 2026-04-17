@@ -267,7 +267,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'find-and-count-worksheet-maker',
+      slug: 'suchen-und-zaehlen-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

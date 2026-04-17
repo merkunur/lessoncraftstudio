@@ -248,7 +248,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'math-puzzle-worksheet-maker',
+      slug: 'gerador-puzzles-matematicos',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

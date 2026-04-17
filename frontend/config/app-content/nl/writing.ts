@@ -219,7 +219,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'writing-worksheet-maker',
+      slug: 'schrijfoefeningen-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

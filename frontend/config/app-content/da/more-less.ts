@@ -240,7 +240,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'more-less-worksheet-maker',
+      slug: 'mere-eller-mindre-arbejdsark-skaber',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

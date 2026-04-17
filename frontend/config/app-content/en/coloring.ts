@@ -220,7 +220,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'coloring-worksheet-maker',
+      slug: 'coloring-page-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

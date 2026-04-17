@@ -243,7 +243,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'cryptogram-worksheet-maker',
+      slug: 'kryptogram-skaber',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

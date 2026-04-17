@@ -207,7 +207,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generador-fichas-asociación', anchorText: 'Generador de Fichas de Asociación' },
     {
       pageType: 'app',
-      slug: 'code-addition-worksheets',
+      slug: 'suma-codigo-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

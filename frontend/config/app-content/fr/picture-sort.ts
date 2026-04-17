@@ -266,7 +266,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'picture-sort-worksheet-maker',
+      slug: 'generateur-tri-images',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

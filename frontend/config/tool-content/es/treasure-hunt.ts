@@ -212,7 +212,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-puzzles-matemáticos', anchorText: 'Creador de Rompecabezas Matemáticos' },
     {
       pageType: 'app',
-      slug: 'treasure-hunt-worksheets',
+      slug: 'busqueda-tesoro-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -218,7 +218,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'find-and-count-worksheet-maker',
+      slug: 'zoek-en-tel-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

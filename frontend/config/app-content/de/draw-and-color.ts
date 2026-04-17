@@ -262,7 +262,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'draw-and-color-worksheet-maker',
+      slug: 'rasterzeichnen-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

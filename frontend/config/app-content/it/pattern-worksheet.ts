@@ -258,7 +258,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'pattern-worksheet-maker',
+      slug: 'generatore-schede-sequenze',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

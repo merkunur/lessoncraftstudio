@@ -214,7 +214,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'varityssivut-luoja', anchorText: 'Värityssivugeneraattori' },
     {
       pageType: 'app',
-      slug: 'pattern-worksheet-worksheets',
+      slug: 'kuviot-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

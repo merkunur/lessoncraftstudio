@@ -216,7 +216,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Generator' },
     {
       pageType: 'app',
-      slug: 'drawing-lines-worksheets',
+      slug: 'linien-ziehen-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

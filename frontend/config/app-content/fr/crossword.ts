@@ -273,7 +273,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'crossword-worksheet-maker',
+      slug: 'generateur-mots-croises-images',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

@@ -220,7 +220,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'bingo-worksheet-maker',
+      slug: 'plaatjesbingo-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

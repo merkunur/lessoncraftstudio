@@ -211,7 +211,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gross-klein-ersteller', anchorText: 'Groß-und-Klein-Generator' },
     {
       pageType: 'app',
-      slug: 'more-less-worksheets',
+      slug: 'mehr-weniger-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -258,7 +258,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'bingo-worksheet-maker',
+      slug: 'bingo-karten-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

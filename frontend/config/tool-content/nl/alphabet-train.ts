@@ -210,7 +210,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'patroontrein-maker', anchorText: 'Patroontrein Maker' },
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
+      slug: 'alfabet-trein-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

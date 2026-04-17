@@ -207,7 +207,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generador-piezas-faltantes', anchorText: 'Generador de Piezas Faltantes' },
     {
       pageType: 'app',
-      slug: 'math-puzzle-worksheets',
+      slug: 'rompecabezas-matematicos-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

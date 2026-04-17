@@ -216,7 +216,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-páginas-colorear', anchorText: 'Creador de Páginas para Colorear' },
     {
       pageType: 'app',
-      slug: 'odd-one-out-worksheets',
+      slug: 'encuentra-el-diferente-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

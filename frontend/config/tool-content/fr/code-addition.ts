@@ -212,7 +212,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
     {
       pageType: 'app',
-      slug: 'code-addition-worksheets',
+      slug: 'addition-codee-fiches',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

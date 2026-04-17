@@ -202,7 +202,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-atividades-grande-pequeno', anchorText: 'Gerador de Atividades de Grande e Pequeno' },
     {
       pageType: 'app',
-      slug: 'more-less-worksheets',
+      slug: 'maior-menor-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

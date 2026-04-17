@@ -270,7 +270,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'crossword-worksheet-maker',
+      slug: 'bilderkreuzwortraetsel-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

@@ -87,7 +87,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'sananarvaustehtavien-tekija', anchorText: 'Ilmainen sananarvausgeneraattori' },
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
+      slug: 'aakkoset-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

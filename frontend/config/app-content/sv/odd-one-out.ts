@@ -268,7 +268,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'odd-one-out-worksheet-maker',
+      slug: 'hitta-udda-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

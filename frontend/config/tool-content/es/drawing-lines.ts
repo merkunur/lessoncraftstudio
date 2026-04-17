@@ -213,7 +213,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-fichas-escritura', anchorText: 'Generador de Fichas de Escritura' },
     {
       pageType: 'app',
-      slug: 'drawing-lines-worksheets',
+      slug: 'grafomotricidad-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

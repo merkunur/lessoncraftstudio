@@ -215,7 +215,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelen Werkblad Generator' },
     {
       pageType: 'app',
-      slug: 'word-scramble-worksheets',
+      slug: 'woordkruisel-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

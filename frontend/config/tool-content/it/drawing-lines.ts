@@ -215,7 +215,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-schede-scrittura', anchorText: 'Generatore Schede di Scrittura' },
     {
       pageType: 'app',
-      slug: 'drawing-lines-worksheets',
+      slug: 'pregrafismo-schede',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

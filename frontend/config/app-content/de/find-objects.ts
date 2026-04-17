@@ -262,7 +262,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'find-objects-worksheet-maker',
+      slug: 'suchbilder-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

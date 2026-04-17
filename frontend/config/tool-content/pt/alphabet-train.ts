@@ -213,7 +213,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'gerador-trem-padroes', anchorText: 'Gerador de Trem de Padrões' },
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
+      slug: 'trem-alfabeto-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

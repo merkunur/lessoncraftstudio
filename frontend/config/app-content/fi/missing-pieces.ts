@@ -228,7 +228,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'missing-pieces-worksheet-maker',
+      slug: 'puuttuvat-palat-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

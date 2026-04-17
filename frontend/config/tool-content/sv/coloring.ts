@@ -214,7 +214,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'skrivoevningar-skapare', anchorText: 'Skrivövningar Generator' },
     {
       pageType: 'app',
-      slug: 'coloring-worksheets',
+      slug: 'malarbilder-arbetsblad',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

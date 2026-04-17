@@ -243,7 +243,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'image-subtraction-worksheet-maker',
+      slug: 'generatore-schede-sottrazione',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

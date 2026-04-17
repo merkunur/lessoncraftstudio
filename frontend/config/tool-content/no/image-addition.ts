@@ -209,7 +209,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'fargeleggingssider-skaper', anchorText: 'Fargeleggingsbilder Generator' },
     {
       pageType: 'app',
-      slug: 'addition-worksheets',
+      slug: 'addisjon-arbeidsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

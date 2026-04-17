@@ -205,7 +205,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generador-páginas-colorear', anchorText: 'Generador de Páginas para Colorear' },
     {
       pageType: 'app',
-      slug: 'addition-worksheets',
+      slug: 'suma-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

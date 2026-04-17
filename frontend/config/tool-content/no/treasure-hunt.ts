@@ -206,7 +206,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'mattepuslespill-skaper', anchorText: 'Mattepuslespill Generator' },
     {
       pageType: 'app',
-      slug: 'treasure-hunt-worksheets',
+      slug: 'skattejakt-arbeidsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

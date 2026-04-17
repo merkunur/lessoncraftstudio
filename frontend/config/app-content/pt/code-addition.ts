@@ -252,7 +252,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'code-addition-worksheet-maker',
+      slug: 'gerador-adicao-codificada',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

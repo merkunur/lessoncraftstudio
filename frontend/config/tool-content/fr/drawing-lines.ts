@@ -222,7 +222,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: 'Générateur de Fiches d\'Écriture' },
     {
       pageType: 'app',
-      slug: 'drawing-lines-worksheets',
+      slug: 'graphisme-fiches',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

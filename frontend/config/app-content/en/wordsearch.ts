@@ -225,7 +225,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'word-search-worksheet-maker',
+      slug: 'word-search-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

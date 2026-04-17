@@ -266,7 +266,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'draw-and-color-worksheet-maker',
+      slug: 'generateur-dessin-quadrillage',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

@@ -213,7 +213,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'skriveovelser-skaber', anchorText: 'Skriveøvelser Generator' },
     {
       pageType: 'app',
-      slug: 'drawing-lines-worksheets',
+      slug: 'linjetraening-arbejdsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

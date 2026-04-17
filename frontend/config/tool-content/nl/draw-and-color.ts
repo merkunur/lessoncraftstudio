@@ -215,7 +215,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'schaduw-koppelen-maker', anchorText: 'Schaduw Matching Werkblad Generator' },
     {
       pageType: 'app',
-      slug: 'draw-and-color-worksheets',
+      slug: 'rastertekenen-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

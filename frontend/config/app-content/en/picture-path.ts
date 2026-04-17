@@ -220,7 +220,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'picture-path-worksheet-maker',
+      slug: 'picture-path-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

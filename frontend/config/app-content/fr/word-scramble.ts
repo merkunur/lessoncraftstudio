@@ -266,7 +266,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'word-scramble-worksheet-maker',
+      slug: 'generateur-mots-melanges',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

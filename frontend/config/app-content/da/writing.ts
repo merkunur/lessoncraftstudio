@@ -244,7 +244,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'writing-worksheet-maker',
+      slug: 'skriveovelser-skaber',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

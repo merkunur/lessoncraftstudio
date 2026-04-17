@@ -257,7 +257,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'picture-sort-worksheet-maker',
+      slug: 'gerador-classificacao-imagens',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

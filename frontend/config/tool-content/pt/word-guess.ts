@@ -214,7 +214,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },
     {
       pageType: 'app',
-      slug: 'word-guess-worksheets',
+      slug: 'adivinhar-palavras-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

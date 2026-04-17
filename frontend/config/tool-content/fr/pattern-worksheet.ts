@@ -221,7 +221,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
     {
       pageType: 'app',
-      slug: 'pattern-worksheet-worksheets',
+      slug: 'sequences-logiques-fiches',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

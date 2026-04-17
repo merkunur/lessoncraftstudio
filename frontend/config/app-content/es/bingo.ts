@@ -259,7 +259,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'bingo-worksheet-maker',
+      slug: 'generador-tarjetas-bingo',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

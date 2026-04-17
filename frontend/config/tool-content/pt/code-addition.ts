@@ -209,7 +209,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'gerador-atividades-associacao', anchorText: 'Gerador de Atividades de Associação' },
     {
       pageType: 'app',
-      slug: 'code-addition-worksheets',
+      slug: 'adicao-codigo-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

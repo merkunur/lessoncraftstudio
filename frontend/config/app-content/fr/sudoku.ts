@@ -271,7 +271,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'sudoku-worksheet-maker',
+      slug: 'generateur-sudoku-enfants',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

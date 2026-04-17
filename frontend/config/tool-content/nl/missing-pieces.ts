@@ -219,7 +219,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'kleurplaten-maker', anchorText: 'Kleurplaten Maker' },
     {
       pageType: 'app',
-      slug: 'missing-pieces-worksheets',
+      slug: 'ontbrekende-puzzelstukjes-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

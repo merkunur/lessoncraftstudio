@@ -241,7 +241,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'pattern-train-worksheet-maker',
+      slug: 'moenstertog-skaber',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

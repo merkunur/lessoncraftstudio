@@ -220,7 +220,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'image-addition-worksheet-maker',
+      slug: 'addition-worksheet-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

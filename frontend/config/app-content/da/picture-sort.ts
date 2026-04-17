@@ -244,7 +244,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'picture-sort-worksheet-maker',
+      slug: 'billedsortering-skaber',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

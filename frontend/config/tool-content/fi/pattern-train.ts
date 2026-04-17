@@ -204,7 +204,7 @@ const content: ToolContent = {
   ],
 
   internalLinks: [
-    { pageType: 'app', slug: 'pattern-train-worksheets', anchorText: 'Kuviosarjajuna-työkirjat — täydet tuotetiedot' },
+    { pageType: 'app', slug: 'kuviosarjat-tyoarkit', anchorText: 'Kuviosarjajuna-työkirjat — täydet tuotetiedot' },
     { pageType: 'tool', slug: 'big-small-worksheet-maker', anchorText: 'Iso ja pieni -työkirja-generaattori' },
     { pageType: 'tool', slug: 'pattern-worksheet-maker', anchorText: 'Kuvio-työkirja-generaattori' },
     { pageType: 'tool', slug: 'draw-and-color-maker', anchorText: 'Piirrä ja väritä -generaattori' },

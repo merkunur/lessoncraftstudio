@@ -263,7 +263,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'matching-worksheet-maker',
+      slug: 'zuordnungs-arbeitsblatt-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

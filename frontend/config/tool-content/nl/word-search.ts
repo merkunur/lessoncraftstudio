@@ -211,7 +211,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Gratis koppelwerkbladen maker' },
     {
       pageType: 'app',
-      slug: 'word-search-worksheets',
+      slug: 'woordzoeker-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

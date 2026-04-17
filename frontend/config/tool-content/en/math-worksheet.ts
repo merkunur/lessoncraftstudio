@@ -210,7 +210,7 @@ const content: ToolContent = {
     { pageType: 'guide', slug: 'kdp-formatting-worksheets', anchorText: 'KDP formatting guide for worksheet books' },
     {
       pageType: 'app',
-      slug: 'math-worksheet-puzzles',
+      slug: 'math-worksheets',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

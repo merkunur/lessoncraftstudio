@@ -223,7 +223,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'sudoku-worksheet-maker',
+      slug: 'sudoku-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

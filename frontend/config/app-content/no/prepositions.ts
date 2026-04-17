@@ -245,7 +245,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'prepositions-worksheet-maker',
+      slug: 'preposisjoner-arbeidsark-skaper',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

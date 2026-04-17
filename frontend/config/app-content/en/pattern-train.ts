@@ -220,7 +220,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'pattern-train-worksheet-maker',
+      slug: 'pattern-train-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

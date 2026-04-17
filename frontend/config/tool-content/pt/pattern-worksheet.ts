@@ -207,7 +207,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'gerador-paginas-colorir', anchorText: 'Gerador de Atividades para Colorir' },
     {
       pageType: 'app',
-      slug: 'pattern-worksheet-worksheets',
+      slug: 'fichas-padroes-sequencias',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

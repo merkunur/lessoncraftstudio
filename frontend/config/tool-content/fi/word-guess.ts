@@ -88,7 +88,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'sananhaku-tekija', anchorText: 'Ilmainen sananhakugeneraattori' },
     {
       pageType: 'app',
-      slug: 'word-guess-worksheets',
+      slug: 'hirsipuu-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

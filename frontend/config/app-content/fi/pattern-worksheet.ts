@@ -233,7 +233,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'pattern-worksheet-maker',
+      slug: 'kuvio-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

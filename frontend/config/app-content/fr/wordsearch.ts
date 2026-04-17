@@ -268,7 +268,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'word-search-worksheet-maker',
+      slug: 'generateur-mots-caches',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

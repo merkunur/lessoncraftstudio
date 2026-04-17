@@ -220,7 +220,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'generateur-fiches-ecriture', anchorText: 'Générateur de Fiches d\'Écriture' },
     {
       pageType: 'app',
-      slug: 'coloring-worksheets',
+      slug: 'coloriage-fiches',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

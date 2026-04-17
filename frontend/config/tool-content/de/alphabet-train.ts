@@ -215,7 +215,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'muster-zug-ersteller', anchorText: 'Muster-Zug-Generator' },
     {
       pageType: 'app',
-      slug: 'alphabet-train-worksheets',
+      slug: 'alphabet-zug-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

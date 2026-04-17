@@ -223,7 +223,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'crossword-worksheet-maker',
+      slug: 'kuvaristikko-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

@@ -239,7 +239,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'math-worksheet-maker',
+      slug: 'matematiikka-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

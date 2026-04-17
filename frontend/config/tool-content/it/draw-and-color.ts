@@ -215,7 +215,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-discriminazione-visiva', anchorText: 'Generatore Discriminazione Visiva' },
     {
       pageType: 'app',
-      slug: 'draw-and-color-worksheets',
+      slug: 'disegno-griglia-schede',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

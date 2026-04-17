@@ -214,7 +214,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'schrijfoefeningen-maker', anchorText: 'Gratis schrijfoefeningen maker' },
     {
       pageType: 'app',
-      slug: 'coloring-worksheets',
+      slug: 'kleurplaten-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

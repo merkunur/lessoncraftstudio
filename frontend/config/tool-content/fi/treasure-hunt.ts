@@ -93,7 +93,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'matemaattinen-palapeli-tyokalu', anchorText: 'Matemaattinen palapeli -generaattori' },
     {
       pageType: 'app',
-      slug: 'treasure-hunt-worksheets',
+      slug: 'aarteenetsinta-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

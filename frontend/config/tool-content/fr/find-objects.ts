@@ -225,7 +225,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-pages-coloriage', anchorText: 'Générateur de Pages de Coloriage' },
     {
       pageType: 'app',
-      slug: 'find-objects-worksheets',
+      slug: 'cherche-objets-fiches',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

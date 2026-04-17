@@ -259,7 +259,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'coloring-worksheet-maker',
+      slug: 'gerador-paginas-colorir',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

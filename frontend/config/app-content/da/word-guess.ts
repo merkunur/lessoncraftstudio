@@ -238,7 +238,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'word-guess-worksheet-maker',
+      slug: 'gaet-ordet-skaber',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

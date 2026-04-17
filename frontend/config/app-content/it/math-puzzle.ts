@@ -248,7 +248,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'math-puzzle-worksheet-maker',
+      slug: 'generatore-puzzle-matematici',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

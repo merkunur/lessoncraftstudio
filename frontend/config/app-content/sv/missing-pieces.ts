@@ -268,7 +268,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'missing-pieces-worksheet-maker',
+      slug: 'saknade-bitar-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

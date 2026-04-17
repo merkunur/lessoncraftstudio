@@ -254,7 +254,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'math-worksheet-maker',
+      slug: 'mathe-arbeitsblatt-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

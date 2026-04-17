@@ -250,7 +250,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'alphabet-train-worksheet-maker',
+      slug: 'gerador-trem-alfabeto',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

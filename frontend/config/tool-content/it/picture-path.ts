@@ -219,7 +219,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-pagine-colorare', anchorText: 'Generatore Pagine da Colorare' },
     {
       pageType: 'app',
-      slug: 'picture-path-worksheets',
+      slug: 'percorso-illustrato-schede',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

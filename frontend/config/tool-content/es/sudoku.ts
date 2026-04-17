@@ -218,7 +218,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generador-páginas-colorear', anchorText: 'Creador de Páginas para Colorear' },
     {
       pageType: 'app',
-      slug: 'sudoku-worksheets',
+      slug: 'sudoku-fichas-ninos',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -215,7 +215,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'schreibuebungen-ersteller', anchorText: 'Schreibübungen-Generator' },
     {
       pageType: 'app',
-      slug: 'coloring-worksheets',
+      slug: 'malvorlagen-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

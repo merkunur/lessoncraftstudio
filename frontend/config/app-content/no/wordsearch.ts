@@ -255,7 +255,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'word-search-worksheet-maker',
+      slug: 'ordsoek-skaper',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

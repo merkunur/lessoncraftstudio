@@ -233,7 +233,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'coloring-worksheet-maker',
+      slug: 'varityskuva-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

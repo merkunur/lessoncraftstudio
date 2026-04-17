@@ -215,7 +215,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-schede-abbinamento', anchorText: 'Generatore Schede Abbinamento' },
     {
       pageType: 'app',
-      slug: 'word-scramble-worksheets',
+      slug: 'anagrammi-schede',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

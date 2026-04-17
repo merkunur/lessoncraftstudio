@@ -258,7 +258,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'big-small-worksheet-maker',
+      slug: 'generatore-schede-grande-piccolo',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

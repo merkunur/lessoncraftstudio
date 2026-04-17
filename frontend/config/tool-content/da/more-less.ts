@@ -204,7 +204,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'stor-lille-arbejdsark-skaber', anchorText: 'Stor og Lille Arbejdsark Generator' },
     {
       pageType: 'app',
-      slug: 'more-less-worksheets',
+      slug: 'sammenligningsopgaver-arbejdsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

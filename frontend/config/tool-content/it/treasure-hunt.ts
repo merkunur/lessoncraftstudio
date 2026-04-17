@@ -215,7 +215,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-puzzle-matematici', anchorText: 'Generatore Puzzle Matematici' },
     {
       pageType: 'app',
-      slug: 'treasure-hunt-worksheets',
+      slug: 'caccia-tesoro-schede',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

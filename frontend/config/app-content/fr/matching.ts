@@ -261,7 +261,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'matching-worksheet-maker',
+      slug: 'generateur-fiches-association',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

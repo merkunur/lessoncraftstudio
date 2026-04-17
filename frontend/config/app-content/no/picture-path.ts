@@ -260,7 +260,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'picture-path-worksheet-maker',
+      slug: 'bildesti-skaper',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

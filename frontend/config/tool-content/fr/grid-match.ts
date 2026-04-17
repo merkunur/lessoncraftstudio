@@ -225,7 +225,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-fiches-addition', anchorText: 'Générateur de Fiches d\'Addition' },
     {
       pageType: 'app',
-      slug: 'grid-match-worksheets',
+      slug: 'puzzle-grille-fiches',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

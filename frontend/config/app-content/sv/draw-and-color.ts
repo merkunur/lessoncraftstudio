@@ -268,7 +268,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'draw-and-color-worksheet-maker',
+      slug: 'rita-och-faerglaeg-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

@@ -88,7 +88,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'matikkatehtavien-tekija', anchorText: 'Ilmainen matikkapalapeligeneraattori' },
     {
       pageType: 'app',
-      slug: 'math-worksheet-puzzles',
+      slug: 'matematiikka-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

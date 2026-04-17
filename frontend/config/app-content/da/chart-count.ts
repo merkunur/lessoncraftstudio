@@ -243,7 +243,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'chart-count-worksheet-maker',
+      slug: 'billeddiagram-arbejdsark-skaber',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

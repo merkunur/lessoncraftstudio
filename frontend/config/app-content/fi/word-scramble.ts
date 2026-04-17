@@ -233,7 +233,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'word-scramble-worksheet-maker',
+      slug: 'sekoitetut-sanat-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

@@ -257,7 +257,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'find-and-count-worksheet-maker',
+      slug: 'generatore-cerca-e-conta',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

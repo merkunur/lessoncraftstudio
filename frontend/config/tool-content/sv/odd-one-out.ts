@@ -218,7 +218,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'maelarsidor-skapare', anchorText: 'Målarbilder Generator' },
     {
       pageType: 'app',
-      slug: 'odd-one-out-worksheets',
+      slug: 'hitta-udda-bilden-arbetsblad',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -257,7 +257,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'draw-and-color-worksheet-maker',
+      slug: 'gerador-desenho-quadricula',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

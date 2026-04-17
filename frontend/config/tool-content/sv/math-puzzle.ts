@@ -206,7 +206,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'saknade-bitar-skapare', anchorText: 'Saknade Bitar Generator' },
     {
       pageType: 'app',
-      slug: 'math-puzzle-worksheets',
+      slug: 'mattepussel-arbetsblad',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

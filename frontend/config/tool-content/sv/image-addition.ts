@@ -200,7 +200,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'malarbilder-skapare', anchorText: 'Målarbilder Generator' },
     {
       pageType: 'app',
-      slug: 'addition-worksheets',
+      slug: 'addition-arbetsblad',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

@@ -213,7 +213,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'malebilleder-skaber', anchorText: 'Malebilleder Generator' },
     {
       pageType: 'app',
-      slug: 'pattern-worksheet-worksheets',
+      slug: 'moenstre-arbejdsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

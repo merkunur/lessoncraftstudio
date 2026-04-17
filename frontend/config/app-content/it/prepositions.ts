@@ -250,7 +250,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'prepositions-worksheet-maker',
+      slug: 'generatore-schede-preposizioni',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

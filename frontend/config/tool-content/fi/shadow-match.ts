@@ -218,7 +218,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'varitys-tyokalu', anchorText: 'Varitys-generaattori' },
     {
       pageType: 'app',
-      slug: 'shadow-match-worksheets',
+      slug: 'varjokuvat-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

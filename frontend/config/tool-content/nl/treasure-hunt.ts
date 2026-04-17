@@ -215,7 +215,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'rekenpuzzel-maker', anchorText: 'Rekenpuzzel Werkblad Generator' },
     {
       pageType: 'app',
-      slug: 'treasure-hunt-worksheets',
+      slug: 'schattenjacht-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

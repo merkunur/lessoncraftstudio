@@ -258,7 +258,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'treasure-hunt-worksheet-maker',
+      slug: 'generatore-caccia-tesoro',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

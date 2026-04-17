@@ -264,7 +264,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'writing-worksheet-maker',
+      slug: 'schreibuebungen-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

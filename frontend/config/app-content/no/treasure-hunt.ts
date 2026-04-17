@@ -255,7 +255,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'treasure-hunt-worksheet-maker',
+      slug: 'skattejakt-skaper',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

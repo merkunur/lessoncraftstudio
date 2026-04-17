@@ -216,7 +216,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'koblings-arbeidsark-skaper', anchorText: 'Koblings Arbeidsark Generator' },
     {
       pageType: 'app',
-      slug: 'word-search-worksheets',
+      slug: 'ordsoek-arbeidsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

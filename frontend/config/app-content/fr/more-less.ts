@@ -251,7 +251,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'more-less-worksheet-maker',
+      slug: 'generateur-comparaison-quantites',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

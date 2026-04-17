@@ -222,7 +222,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-fiches-association', anchorText: 'Générateur de Fiches d\'Association' },
     {
       pageType: 'app',
-      slug: 'prepositions-worksheets',
+      slug: 'prepositions-exercices-fiches',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

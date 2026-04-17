@@ -206,7 +206,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'koppelen-werkblad-generator', anchorText: 'Koppelen Werkblad Generator' },
     {
       pageType: 'app',
-      slug: 'code-addition-worksheets',
+      slug: 'visuele-optelsommen-werkbladen',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

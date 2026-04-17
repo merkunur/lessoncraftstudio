@@ -219,7 +219,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'find-objects-worksheet-maker',
+      slug: 'zoek-en-vind-maker',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

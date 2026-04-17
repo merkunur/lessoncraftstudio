@@ -260,7 +260,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'writing-worksheet-maker',
+      slug: 'gerador-fichas-escrita',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

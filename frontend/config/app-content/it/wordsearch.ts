@@ -266,7 +266,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'word-search-worksheet-maker',
+      slug: 'generatore-cerca-parole',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

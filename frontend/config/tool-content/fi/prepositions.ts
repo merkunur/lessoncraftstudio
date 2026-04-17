@@ -88,7 +88,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'aakkosjuna-tekija', anchorText: 'Ilmainen aakkosjunageneraattori' },
     {
       pageType: 'app',
-      slug: 'prepositions-worksheets',
+      slug: 'sijaintisanat-tyoarkit',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

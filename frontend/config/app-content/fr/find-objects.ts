@@ -266,7 +266,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'find-objects-worksheet-maker',
+      slug: 'generateur-cherche-objets',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

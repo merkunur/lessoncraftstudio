@@ -233,7 +233,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'find-and-count-worksheet-maker',
+      slug: 'etsi-laske-generaattori',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

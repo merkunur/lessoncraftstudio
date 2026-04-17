@@ -216,7 +216,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'zuordnungs-Arbeitsblatt-Generator', anchorText: 'Zuordnungs-Arbeitsblatt-Generator' },
     {
       pageType: 'app',
-      slug: 'word-guess-worksheets',
+      slug: 'woerter-raten-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

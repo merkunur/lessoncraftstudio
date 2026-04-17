@@ -257,7 +257,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'code-addition-worksheet-maker',
+      slug: 'bilder-additions-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

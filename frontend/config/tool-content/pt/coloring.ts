@@ -206,7 +206,7 @@ const content: ToolContent = {  seo: {
     { pageType: 'tool', slug: 'gerador-atividades-escrita', anchorText: 'Gerador de Atividades de Escrita' },
     {
       pageType: 'app',
-      slug: 'coloring-worksheets',
+      slug: 'desenhos-colorir-fichas',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

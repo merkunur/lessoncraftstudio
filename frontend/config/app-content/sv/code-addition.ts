@@ -262,7 +262,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'code-addition-worksheet-maker',
+      slug: 'kodadditions-arbetsblad-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

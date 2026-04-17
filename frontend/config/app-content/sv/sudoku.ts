@@ -273,7 +273,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'sudoku-worksheet-maker',
+      slug: 'barn-sudoku-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

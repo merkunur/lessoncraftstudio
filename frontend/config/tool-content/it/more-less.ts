@@ -202,7 +202,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generatore-schede-grande-piccolo', anchorText: 'Generatore Schede Grande e Piccolo' },
     {
       pageType: 'app',
-      slug: 'more-less-worksheets',
+      slug: 'confronto-numeri-schede',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

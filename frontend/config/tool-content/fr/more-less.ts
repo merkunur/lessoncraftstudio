@@ -212,7 +212,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-fiches-grand-petit', anchorText: 'Générateur de Fiches Grand et Petit' },
     {
       pageType: 'app',
-      slug: 'more-less-worksheets',
+      slug: 'comparaison-quantites-fiches',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

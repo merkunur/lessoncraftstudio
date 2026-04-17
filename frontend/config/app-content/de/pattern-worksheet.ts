@@ -262,7 +262,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'pattern-worksheet-maker',
+      slug: 'muster-arbeitsblatt-ersteller',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

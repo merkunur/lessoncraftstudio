@@ -221,7 +221,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'generateur-puzzle-maths', anchorText: 'Générateur de Puzzle Maths' },
     {
       pageType: 'app',
-      slug: 'treasure-hunt-worksheets',
+      slug: 'chasse-au-tresor-fiches',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

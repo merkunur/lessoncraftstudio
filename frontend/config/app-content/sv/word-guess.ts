@@ -268,7 +268,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'word-guess-worksheet-maker',
+      slug: 'gissa-ordet-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

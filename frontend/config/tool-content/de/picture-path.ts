@@ -220,7 +220,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'malvorlagen-ersteller', anchorText: 'Malvorlagen-Generator' },
     {
       pageType: 'app',
-      slug: 'picture-path-worksheets',
+      slug: 'bilderpfad-arbeitsblaetter',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

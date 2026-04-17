@@ -262,7 +262,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'drawing-lines-worksheet-maker',
+      slug: 'generateur-fiches-graphisme',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

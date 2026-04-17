@@ -219,7 +219,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'skyggematching-skaper', anchorText: 'Skyggematching Generator' },
     {
       pageType: 'app',
-      slug: 'draw-and-color-worksheets',
+      slug: 'rutenetttegning-arbeidsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

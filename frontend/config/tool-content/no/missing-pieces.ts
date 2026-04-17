@@ -223,7 +223,7 @@ const content: ToolContent = {
     { pageType: 'tool', slug: 'fargeleggingssider-skaper', anchorText: 'Fargeleggingssider Generator' },
     {
       pageType: 'app',
-      slug: 'missing-pieces-worksheets',
+      slug: 'manglende-biter-arbeidsark',
       anchorText: 'Ready to sell what you make? Get the commercial license.',
     },
   ],

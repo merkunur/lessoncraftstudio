@@ -273,7 +273,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'crossword-worksheet-maker',
+      slug: 'bildkorsord-skapare',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

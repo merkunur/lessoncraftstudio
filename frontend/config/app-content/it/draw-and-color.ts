@@ -257,7 +257,7 @@ const content: AppContent = {
     },
     {
       pageType: 'tool',
-      slug: 'draw-and-color-worksheet-maker',
+      slug: 'generatore-disegno-griglia',
       anchorText: 'Looking for the free browser version? Try the free maker tool.',
     },
     {

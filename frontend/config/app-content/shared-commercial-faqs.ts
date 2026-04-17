@@ -63,6 +63,33 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Ja. Der Generator unterstützt 11 Sprachen (Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch, Finnisch), und jede sprachspezifische Version gilt unter Ihrer Lizenz als eigenständiges Produkt. Viele Verkäufer vervielfachen ihren Umsatz pro Thema, indem sie dasselbe Arbeitsblatt in jeder Sprache exportieren und als separate Angebote auf Etsy oder KDP listen.',
     },
   ],
+  fr: [
+    {
+      question: 'Que comprend la licence commerciale ?',
+      answer:
+        'Chaque fiche générée est accompagnée d\'une licence commerciale complète — aucune attribution requise, aucune redevance, aucune limite d\'unités vendues. Vous pouvez vendre les fiches créées sur Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, votre propre boutique ou toute autre plateforme. La licence unique à 49 $ couvre un usage commercial illimité pour un vendeur ou une entreprise.',
+    },
+    {
+      question: 'Puis-je vendre les fiches sur Etsy, Amazon KDP, Teachers Pay Teachers et Gumroad ?',
+      answer:
+        'Oui, ces quatre plateformes sont couvertes par la licence commerciale. Vous pouvez vendre des téléchargements numériques sur Etsy, compiler des fiches en livres d\'activités ou livres de casse-têtes imprimés pour Amazon KDP, proposer des packs de classe sur Teachers Pay Teachers et distribuer des imprimables via Gumroad ou votre propre boutique en ligne. La licence ne restreint pas la plateforme de vente.',
+    },
+    {
+      question: 'Quelle est votre politique de remboursement ?',
+      answer:
+        'Nous offrons une fenêtre de remboursement de 30 jours. Si le générateur ne correspond pas à votre ligne de produits dans les 30 premiers jours, contactez le support et nous procéderons au remboursement intégral. Après 30 jours, les remboursements sont traités au cas par cas pour les défauts matériels ou les problèmes techniques avec l\'outil.',
+    },
+    {
+      question: 'Puis-je partager la licence avec des membres d\'équipe ou des employés ?',
+      answer:
+        'Une licence unique couvre un compte vendeur ou une entreprise. Si vous êtes entrepreneur individuel, la licence vous couvre ainsi que les assistants virtuels travaillant pour votre activité. Pour les équipes de 3 personnes ou plus créant des fiches indépendamment, contactez le support concernant les licences d\'équipe — nous proposons des forfaits multi-postes à prix réduit.',
+    },
+    {
+      question: 'Puis-je vendre la même fiche en 11 langues comme produits distincts ?',
+      answer:
+        'Oui. Le générateur prend en charge 11 langues (anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien, finnois), et chaque version linguistique compte comme un produit distinct sous votre licence. De nombreux vendeurs multiplient leurs revenus par thème en exportant la même fiche dans chaque langue et en les listant comme produits séparés sur Etsy ou KDP.',
+    },
+  ],
 };
 
 export function getSharedCommercialFAQs(locale: string): FAQ[] {

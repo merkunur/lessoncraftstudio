@@ -63,6 +63,33 @@ export const sharedUsageFAQs: Record<string, FAQ[]> = {
         'Ihr aktuelles Arbeitsblatt-Layout liegt nur im Browser-Speicher. Beim Schließen des Tabs geht es verloren. Um ein Arbeitsblatt über Sitzungen hinweg zu erhalten, laden Sie das PDF und JPEG vor dem Schließen herunter — das erneute Importieren derselben Konfiguration wird in der kostenlosen Browser-Version nicht unterstützt. Wenn Sie regelmäßig mehrere verwandte Arbeitsblätter erstellen, erhalten Sie mit einer Lizenz auch Zugriff auf gespeicherte Vorlagen.',
     },
   ],
+  fr: [
+    {
+      question: 'Vraiment aucune inscription requise ?',
+      answer:
+        'Exact — vous pouvez ouvrir le générateur, choisir un thème, personnaliser la mise en page et télécharger un PDF ou JPEG avec filigrane sans créer de compte. Aucun e-mail, aucune carte bancaire, aucune période d\'essai. Le filigrane est une petite mention dans un coin ; le contenu de la fiche est identique à la version payante. Une licence unique à 49 $ supprime le filigrane et active les droits de vente commerciale.',
+    },
+    {
+      question: 'Quels formats de fichiers puis-je télécharger ?',
+      answer:
+        'Chaque fiche s\'exporte en PDF prêt à l\'impression à 400+ DPI et en JPEG haute résolution. Le PDF conserve le texte vectoriel et les images nettes pour une impression précise à toute taille. Le JPEG est utile pour des aperçus rapides, les publications sur les réseaux sociaux et les plateformes qui préfèrent les images matricielles. Les deux formats se téléchargent instantanément après un clic sur Exporter.',
+    },
+    {
+      question: 'Le générateur fonctionne-t-il sur tablette, Chromebook ou ancien navigateur ?',
+      answer:
+        'Le générateur fonctionne sur tout navigateur moderne : Chrome, Safari, Firefox et Edge — version 90 ou ultérieure. Il fonctionne sur Chromebooks, iPads et tablettes Android ainsi que sur ordinateurs de bureau. Les anciens navigateurs (Internet Explorer, Chrome antérieur à la version 90) ne sont pas pris en charge car le générateur utilise des fonctions modernes de canvas et de rendu de polices. En cas de problème d\'affichage, une mise à jour du navigateur résout généralement la question.',
+    },
+    {
+      question: 'Quels formats de page sont pris en charge ? Comment imprimer en A4 vs Letter ?',
+      answer:
+        'Le panneau Mise en page propose Letter Portrait, Letter Paysage, A4 Portrait, A4 Paysage, Carré et des dimensions personnalisées. Choisissez le format qui correspond à votre imprimante ou au marché ciblé (A4 pour la plupart des marchés européens et asiatiques, Letter pour l\'Amérique du Nord). L\'export PDF conserve exactement les dimensions choisies pour une impression fidèle sur toute imprimante.',
+    },
+    {
+      question: 'Mes fiches sont-elles sauvegardées si je ferme l\'onglet ?',
+      answer:
+        'La mise en page actuelle reste uniquement en mémoire du navigateur. Fermer l\'onglet efface tout. Pour conserver une fiche entre les sessions, téléchargez le PDF et le JPEG avant de fermer — l\'import de la même configuration n\'est pas pris en charge dans la version navigateur gratuite. Si vous créez régulièrement des lots de fiches apparentées, une licence donne aussi accès aux modèles enregistrés.',
+    },
+  ],
 };
 
 export function getSharedUsageFAQs(locale: string): FAQ[] {

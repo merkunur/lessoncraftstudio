@@ -487,3 +487,16 @@ Three FR metas exceeded 160 chars. Rewritten to 150–160 range:
 
 Other 30 FR metas were already within spec and left as-is. Longest FR
 meta is now 160 chars (alphabet-train.ts, pattern-worksheet.ts).
+
+## FR-C — FR translations of shared commercial + usage FAQs
+
+5 FR commercial FAQs added to `shared-commercial-faqs.ts` and 5 FR usage
+FAQs added to `shared-usage-faqs.ts`. Price stated as `49 $` per the
+DE-round decision (matches USD Lemon Squeezy checkout).
+
+Template logic (`getSharedCommercialFAQs(locale)` / `getSharedUsageFAQs(locale)`)
+remained unchanged — FR entries auto-prepend on /fr/apps/* and /fr/tools/*
+pages without any template edit.
+
+EN fallback continues to cover the 8 remaining locales (es, pt, it, nl,
+sv, da, no, fi) until their rounds.

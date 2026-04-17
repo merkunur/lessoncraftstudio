@@ -198,6 +198,33 @@ export const sharedUsageFAQs: Record<string, FAQ[]> = {
         'De huidige pagina-indeling blijft alleen in het geheugen van de browser. Het tabblad sluiten wist alles. Om een werkblad te bewaren tussen sessies, download het PDF en JPEG voordat u sluit — dezelfde configuratie opnieuw importeren wordt niet ondersteund in de gratis browserversie. Als u regelmatig lotten gerelateerde werkbladen maakt, geeft een licentie ook toegang tot opgeslagen sjablonen.',
     },
   ],
+  sv: [
+    {
+      question: 'Behöver jag verkligen inte registrera mig?',
+      answer:
+        'Stämmer: du kan öppna generatorn, välja ett tema, anpassa sidlayouten och ladda ner en PDF eller JPEG med vattenstämpel utan att skapa ett konto. Ingen e-post, inget kreditkort, ingen provperiod. Vattenstämpeln är en liten etikett i hörnet; själva arbetsbladets innehåll är identiskt med den betalda versionen. Engångslicensen på 49 $ tar bort vattenstämpeln och aktiverar kommersiella försäljningsrättigheter.',
+    },
+    {
+      question: 'Vilka filformat kan jag ladda ner?',
+      answer:
+        'Varje arbetsblad exporteras som tryckfärdig PDF på 400+ DPI och som JPEG i hög upplösning. PDF-filen bevarar vektortext och skarpa bilder för ren utskrift i valfri storlek. JPEG:en är praktisk för snabba förhandsvisningar, inlägg på sociala medier och plattformar som föredrar rasterbilder. Båda formaten laddas ner direkt efter klick på Exportera.',
+    },
+    {
+      question: 'Fungerar generatorn på surfplatta, Chromebook eller äldre webbläsare?',
+      answer:
+        'Generatorn fungerar i alla moderna webbläsare: Chrome, Safari, Firefox och Edge, version 90 eller senare. Den fungerar på Chromebooks, iPads och Android-surfplattor förutom datorer. Äldre webbläsare (Internet Explorer, Chrome före version 90) stöds inte eftersom generatorn använder moderna canvas- och typsnittsrenderingsfunktioner. Vid visningsproblem brukar en uppdatering av webbläsaren lösa det.',
+    },
+    {
+      question: 'Vilka sidstorlekar stöds? Hur skriver jag ut på A4 vs Letter?',
+      answer:
+        'Sidlayoutpanelen erbjuder Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat och anpassade mått. Välj den storlek som matchar din skrivare eller målmarknad (A4 för de flesta europeiska och asiatiska marknader, Letter för Nordamerika). PDF-exporten bevarar de exakta mått du valt för en korrekt utskrift på vilken skrivare som helst.',
+    },
+    {
+      question: 'Sparas mina arbetsblad om jag stänger fliken?',
+      answer:
+        'Den aktuella layouten finns endast i webbläsarens minne. Att stänga fliken rensar den. För att bevara ett arbetsblad mellan sessioner, ladda ner PDF och JPEG innan du stänger — att återimportera samma konfiguration stöds inte i den gratis webbläsarversionen. Om du regelbundet skapar satser av relaterade arbetsblad ger en licens också tillgång till sparade mallar.',
+    },
+  ],
 };
 
 export function getSharedUsageFAQs(locale: string): FAQ[] {

@@ -198,6 +198,33 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Ja. De generator ondersteunt 11 talen (Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors, Fins), en elke taalversie telt als een apart product onder uw licentie. Veel verkopers vermenigvuldigen hun omzet per thema door hetzelfde werkblad in elke taal te exporteren en als aparte producten op Etsy of KDP te plaatsen.',
     },
   ],
+  sv: [
+    {
+      question: 'Vad ingår i den kommersiella licensen?',
+      answer:
+        'Varje arbetsblad du genererar kommer med en fullständig kommersiell licens — ingen attribuering krävs, inga royalties, ingen gräns för antal enheter. Du kan sälja de arbetsblad du skapar på Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, din egen butik eller vilken som helst annan marknadsplats. Engångslicensen på 49 $ täcker obegränsad kommersiell användning för en säljare eller ett företag.',
+    },
+    {
+      question: 'Får jag sälja arbetsblad på Etsy, Amazon KDP, Teachers Pay Teachers och Gumroad?',
+      answer:
+        'Ja, alla fyra plattformar täcks av den kommersiella licensen. Du kan sälja digitala nedladdningar på Etsy, sammanställa arbetsblad till tryckta pussel- och aktivitetsböcker för Amazon KDP, erbjuda klasspaket på Teachers Pay Teachers och distribuera utskrifter via Gumroad eller din egen webbutik. Licensen begränsar inte vilken marknadsplats du säljer på.',
+    },
+    {
+      question: 'Vad är återbetalningspolicyn?',
+      answer:
+        'Vi erbjuder ett 30-dagars återbetalningsfönster. Om du under de första 30 dagarna bestämmer att generatorn inte passar din produktlinje, kontakta supporten så behandlar vi en full återbetalning. Efter 30 dagar hanteras återbetalningar från fall till fall för materialfel eller problem med verktyget.',
+    },
+    {
+      question: 'Får jag dela licensen med teammedlemmar eller anställda?',
+      answer:
+        'En licens täcker ett säljarkonto eller ett företag. Om du driver enskild firma täcker licensen dig och de virtuella assistenter som arbetar för din verksamhet. För team med 3 eller fler personer som genererar arbetsblad självständigt, kontakta supporten om teamlicenser — vi erbjuder rabatterade flerplatspaket.',
+    },
+    {
+      question: 'Får jag sälja samma arbetsblad på 11 språk som separata produkter?',
+      answer:
+        'Ja. Generatorn stöder 11 språk (engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska, finska), och varje språkversion räknas som en separat produkt under din licens. Många säljare mångdubblar intäkten per tema genom att exportera samma arbetsblad på varje språk och lista dem som separata produkter på Etsy eller KDP.',
+    },
+  ],
 };
 
 export function getSharedCommercialFAQs(locale: string): FAQ[] {

@@ -278,6 +278,8 @@ const uiStrings: Record<string, {
     pdfExport: 'Direkt PDF-export',
     watermarkNote: 'Gratisversionen innehåller en vattenstämpel. Köp för att ta bort den.',
     startCreating: 'Börja skapa nu',
+    pairedToolPrompt: 'Letar du efter den gratis webbläsarversionen?',
+    pairedToolAnchor: 'Prova Maker-verktyget — ingen registrering.',
   },
   da: {
     tryFree: 'Prøv gratis (med vandmærke)',

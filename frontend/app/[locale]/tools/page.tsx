@@ -498,6 +498,28 @@ export default function ToolsListingPage({
           {/* Non-EN: 33 generators grid (existing behavior) */}
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-5xl">
+              {/* SV intro targeting "gratis arbetsbladsgenerator" /
+                  "skapa utskrifter online" queries. */}
+              {locale === 'sv' && (
+                <div className="max-w-3xl mx-auto mb-12 space-y-4 text-gray-700 text-base leading-relaxed">
+                  <p>
+                    Gratis arbetsbladsgeneratorer låter dig skapa utskrivbart material för klassrum, hemundervisning eller personligt bruk direkt i webbläsaren &mdash; utan programvaruinstallation och utan månadsabonnemang. Var och en av de 33 gratisgeneratorer nedan producerar tryckfärdiga PDF- och JPEG-filer som du kan ladda ner direkt.
+                  </p>
+                  <p>
+                    Är du lärare som förbereder ett stödpass, förälder som planerar en hemundervisningsenhet eller utskriftsskapare som testar ett nytt format innan du bestämmer dig? Dessa webbläsarverktyg är gjorda för dig. Ingen kontoregistrering, ingen utgående provperiod, ingen gräns för antalet arbetsblad. Välj ett tema, anpassa layouten, exportera &mdash; det är hela processen.
+                  </p>
+                  <p>
+                    Vattenstämpeln på gratisversionen är den enda skillnaden jämfört med den betalda versionen. Rutnätsstorlekar, bildteman, svårighetsnivåer, facit och PDF-upplösning är identiska med vad licensierade säljare använder. Vattenstämpeln gör gratisarbetsblad olämpliga för kommersiell vidareförsäljning, men perfekt användbara för klasspärmar, stödmaterial, läxkomplement och personliga projekt.
+                  </p>
+                  <p>
+                    Alla 33 generatorer stöder 11 språk: engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska. Bilderna bär arbetsbladets innehåll, så de flesta resultaten översätts automatiskt när du byter språk.
+                  </p>
+                  <p>
+                    Redo att börja? Utforska kategorierna nedan. Om du bygger en produktlinje med utskrifter för Etsy eller Amazon KDP och behöver nedladdningar utan vattenstämpel med kommersiell licens hittar du i <Link href={`/${locale}/apps`} className="text-indigo-600 hover:text-indigo-700 underline font-medium">Applikationer</Link> de licensierade versionerna av alla generatorer nedan.
+                  </p>
+                </div>
+              )}
+
               {/* NL intro targeting "werkblad generator gratis" /
                   "printables maken online" queries. */}
               {locale === 'nl' && (

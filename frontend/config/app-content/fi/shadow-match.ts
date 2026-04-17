@@ -24,13 +24,13 @@ const content: AppContent = {
     title: 'Varjotehtäväkone — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Kaksi yhdistelytilaa yhdessä generaattorissa — Varjoyhdistely luo automaattisesti mustia siluetteja mistä tahansa kuvasta, Tee Kokonaiseksi jakaa kuvat puolikkaisiin — molemmat Fisher-Yates-sekoituksella, joka takaa ettei triviaaleja osumia synny, automaattisesti luodut vastausavaimet ja 104 temaattista kuvakokoelmaa.',
     description:
-      'Rakenna ammattimaisia varjoyhdistely-työlehtia, joissa käyttäjät yhdistävät värilliset kuvat niiden siluetteihin tai yhdistävät jaetut kuvapuolikkaat. Varjoyhdistely-tila asettaa 4 värillistä kuvaa merkittyinä A, B, C, D yläriville ja 4 automaattisesti luotua mustaa siluettia merkittyinä 1, 2, 3, 4 alariville — siluetit luodaan pikselitason kuvankäsittelyllä, joka muuntaa jokaisen pikselin alfa-arvolla > 10 puhtaan mustaksi, tuottaen tarkat ääriviivat, jotka säilyttävät jokaisen kuvan läpinäkyvyysprofiilin. Tee Kokonaiseksi -tila jakaa kuvat puolikkaisiin vaaka- tai pystysuuntaisella leikkaussuunnalla, merkitsee ensimmäiset puolikkaat A–D ja toiset puolikkaat 1–4 sekä mukauttaa asettelun suunnan mukaan. Molemmat tilat käyttävät Fisher-Yates-sekoitusta takaamaan, ettei mikään kohde näy alkuperäisellä paikallaan, mikä tuottaa aidon yhdistelyhaaasteen joka kerta. Vaihda tunnisteiden näkyvyyttä A/B/C/D- ja 1/2/3/4-merkinnöille, lisää valinnaiset nimi- ja päivämääräkentät tuotelinjakäyttöön ja luo automaattiset vastausavaimet, jotka näyttävät jokaisen oikean kirjain-numero-parin. Varjoyhdistely-työlehtigeneraattori EI ole kieliriippuvainen: tulos on puhtaasti visuaalinen ilman lokalisoitua sanasisältöä itse työlehdellä. Sama varjoyhdistely-työlehti toimii identtisesti kaikilla markkinoilla ilman käännöstä. Täysi pääsy avaa kaikki 104 teemaa yli 3 100 kuvituksella ja kaikki 11 käyttöliittymäkieltä. Lisää taustateemoja ja kehysteemoja itsenäisillä läpinäkyvyyden säätimillä, sisällytä mukautettua tekstiä seitsemällä fonttivaihtoehdolla ja vie tulostusvalmiita PDF-tiedostoja ja JPEG-kuvia 300 DPI:n tarkkuudella Letter-, A4-, neliö- (1200×1200) tai mukautetuissa ko\'oissa. Olitpa myymässä varjopalapelipaketteja Etsyssä, kokoamassa visuaalisen hahmottamisen työkirjoja Amazon KDP:lle tai luomassa pikatoimintoja Gumroadiin — tämä generaattori tuottaa tuotantovalmiin tuloksen minuuteissa. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
+      'Rakenna ammattimaisia varjoyhdistely-työlehtiä, joissa käyttäjät yhdistävät värilliset kuvat niiden siluetteihin tai yhdistävät jaetut kuvapuolikkaat. Varjoyhdistely-tila asettaa 4 värillistä kuvaa merkittyinä A, B, C, D yläriville ja 4 automaattisesti luotua mustaa siluettia merkittyinä 1, 2, 3, 4 alariville — siluetit luodaan pikselitason kuvankäsittelyllä, joka muuntaa jokaisen pikselin alfa-arvolla > 10 puhtaan mustaksi, tuottaen tarkat ääriviivat, jotka säilyttävät jokaisen kuvan läpinäkyvyysprofiilin. Tee Kokonaiseksi -tila jakaa kuvat puolikkaisiin vaaka- tai pystysuuntaisella leikkaussuunnalla, merkitsee ensimmäiset puolikkaat A–D ja toiset puolikkaat 1–4 sekä mukauttaa asettelun suunnan mukaan. Molemmat tilat käyttävät Fisher-Yates-sekoitusta takaamaan, ettei mikään kohde näy alkuperäisellä paikallaan, mikä tuottaa aidon yhdistelyhaaasteen joka kerta. Vaihda tunnisteiden näkyvyyttä A/B/C/D- ja 1/2/3/4-merkinnöille, lisää valinnaiset nimi- ja päivämääräkentät tuotelinjakäyttöön ja luo automaattiset vastausavaimet, jotka näyttävät jokaisen oikean kirjain-numero-parin. Varjoyhdistely-työlehtigeneraattori EI ole kieliriippuvainen: tulos on puhtaasti visuaalinen ilman lokalisoitua sanasisältöä itse työlehdellä. Sama varjoyhdistely-työlehti toimii identtisesti kaikilla markkinoilla ilman käännöstä. Täysi pääsy avaa kaikki 104 teemaa yli 3 100 kuvituksella ja kaikki 11 käyttöliittymäkieltä. Lisää taustateemoja ja kehysteemoja itsenäisillä läpinäkyvyyden säätimillä, sisällytä mukautettua tekstiä seitsemällä fonttivaihtoehdolla ja vie tulostusvalmiita PDF-tiedostoja ja JPEG-kuvia 300 DPI:n tarkkuudella Letter-, A4-, neliö- (1200×1200) tai mukautetuissa ko\'oissa. Olitpa myymässä varjopalapelipaketteja Etsyssä, kokoamassa visuaalisen hahmottamisen työkirjoja Amazon KDP:lle tai luomassa pikatoimintoja Gumroadiin — tämä generaattori tuottaa tuotantovalmiin tuloksen minuuteissa. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
   },
 
   ctaHeading: 'Luo varjotehtäviä',
 
   howItWorks: {
-    title: 'Näin luot varjoyhdistely-työlehtia viidessä vaiheessa',
+    title: 'Näin luot varjoyhdistely-työlehtiä viidessä vaiheessa',
     steps: [
       {
         title: 'Aseta sivuasettelu',
@@ -96,7 +96,7 @@ const content: AppContent = {
       {
         title: 'Tulostusvalmiit PDF- ja JPEG-viennit 300 DPI:llä ja harmaasävyvaihto',
         description:
-          'Lataa varjoyhdistely-työlehtia ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina 300 DPI:n tarkkuudella (6× kerroin, JPEG-laatu 1,0). Neljä erillistä latauspainiketta vie työlehti- ja vastausavaintiedostot erikseen. Sivukoot sisältävät Letter pysty, Letter vaaka, A4 pysty, A4 vaaka, Neliö (1200×1200) ja täysin mukautetut mitat. PDF-suunta tunnistetaan automaattisesti. Vaihda harmaasävy päälle musteystävällisiin versioihin. Jokainen vienti on tuotantovalmis digitaalisiin latauksiin, painettuihin työkirjoihin ja tuotantojakeluun.',
+          'Lataa varjoyhdistely-työlehtiä ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina 300 DPI:n tarkkuudella (6× kerroin, JPEG-laatu 1,0). Neljä erillistä latauspainiketta vie työlehti- ja vastausavaintiedostot erikseen. Sivukoot sisältävät Letter pysty, Letter vaaka, A4 pysty, A4 vaaka, Neliö (1200×1200) ja täysin mukautetut mitat. PDF-suunta tunnistetaan automaattisesti. Vaihda harmaasävy päälle musteystävällisiin versioihin. Jokainen vienti on tuotantovalmis digitaalisiin latauksiin, painettuihin työkirjoihin ja tuotantojakeluun.',
       },
       {
         title: 'Täysi kangasmuokkaus tekstityökaluilla, kohdistuksella ja kerrosten hallinnalla',
@@ -107,12 +107,12 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Näin myyt varjoyhdistely-työlehtia verkossa',
+    title: 'Näin myyt varjoyhdistely-työlehtiä verkossa',
     cases: [
       {
         title: 'Temaattiset varjoyhdistelypakettit Etsyssä',
         description:
-          'Luo temaattisia varjoyhdistelypaketteja 104 kuvakokoelmalla — eläinvarjopalapelit, ajoneuvosiluettiyhdistely, ruokavarjohaasteet ja kymmeniä muita. Jokainen teema tarjoaa kuvituksia erottuvilla ääriviivoilla, jotka tuottavat mukaansatempaavia siluettitoimintoja. Pakkaa 15–20 varjoyhdistely-työlehteä teemaa kohden vastausavaimet mukaan lukien, ja myy 3–7 € per paketti. Sekoita molemmat tilat yhden paketin sisällä: Varjoyhdistely-työlehtia siluettien tunnistamiseen ja Tee Kokonaiseksi -työlehtia tilasuhteiden päättelyyn. Automaattisesti luodut siluetit ja vastausavaimet poistavat tuotannon aikaa vievimmät osat.',
+          'Luo temaattisia varjoyhdistelypaketteja 104 kuvakokoelmalla — eläinvarjopalapelit, ajoneuvosiluettiyhdistely, ruokavarjohaasteet ja kymmeniä muita. Jokainen teema tarjoaa kuvituksia erottuvilla ääriviivoilla, jotka tuottavat mukaansatempaavia siluettitoimintoja. Pakkaa 15–20 varjoyhdistely-työlehteä teemaa kohden vastausavaimet mukaan lukien, ja myy 3–7 € per paketti. Sekoita molemmat tilat yhden paketin sisällä: Varjoyhdistely-työlehtiä siluettien tunnistamiseen ja Tee Kokonaiseksi -työlehtiä tilasuhteiden päättelyyn. Automaattisesti luodut siluetit ja vastausavaimet poistavat tuotannon aikaa vievimmät osat.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -124,19 +124,19 @@ const content: AppContent = {
       {
         title: 'Tuotelinjan pikatoimintoja Gumroadiin',
         description:
-          'Rakenna valmiita varjoyhdistelytoimintoja nimi/päivämääräkentillä ja tulostetuilla vastausavaimilla tuotelinjakäyttöön. Visuaalisia erottelutoimintoja etsivät ostajat arvostavat työlehtia, jotka saapuvat tulostusvalmiina vastausavaimineen. Luo tuotevalikoiman mukaisia sarjoja: eläinvarjoyhdistely luonnontieteisiin, yhteisöauttajasiluetteja yhteiskuntaoppiin, ruokavarjopalapeleitä ravitsemukseen. Tunnistevaihtokytkin mahdollistaa tuettujen (A/B/C/D- ja 1/2/3/4-tunnisteet) ja haaste-versioiden (tunnisteet piilotettu) luomisen samassa tuotteessa tasoitettuja tuotepaketteja varten.',
+          'Rakenna valmiita varjoyhdistelytoimintoja nimi/päivämääräkentillä ja tulostetuilla vastausavaimilla tuotelinjakäyttöön. Visuaalisia erottelutoimintoja etsivät ostajat arvostavat työlehtiä, jotka saapuvat tulostusvalmiina vastausavaimineen. Luo tuotevalikoiman mukaisia sarjoja: eläinvarjoyhdistely luonnontieteisiin, yhteisöauttajasiluetteja yhteiskuntaoppiin, ruokavarjopalapeleitä ravitsemukseen. Tunnistevaihtokytkin mahdollistaa tuettujen (A/B/C/D- ja 1/2/3/4-tunnisteet) ja haaste-versioiden (tunnisteet piilotettu) luomisen samassa tuotteessa tasoitettuja tuotepaketteja varten.',
         platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Kausittaiset varjoyhdistely-kokoelmat',
         description:
-          'Nuo 104 temaattista kuvakokoelmaa kattavat jokaisen kausi- ja juhlapyhätilaisuuden — joulu, halloween, pääsiäinen, ystävänpäivä, koulun alku, kesäloma ja paljon muuta. Siluettitoiminnoilla on erityinen vetovoima halloweenin aikaan, jolloin varjo- ja mysteeriteemat ovat luontaisesti suosittuja. Luo aikarajoitettuja varjoyhdistely-kokoelmia, jotka ajoittuvat huippuostosjaksoihin. Sisällytä sekä Varjoyhdistely- että Tee Kokonaiseksi -työlehtia jokaiseen kausikokoelmaan maksimaalisen arvon ja vaihtelun vuoksi. Kausituotteet oikeuttavat korkeammat hinnat huippuaikoinaan.',
+          'Nuo 104 temaattista kuvakokoelmaa kattavat jokaisen kausi- ja juhlapyhätilaisuuden — joulu, halloween, pääsiäinen, ystävänpäivä, koulun alku, kesäloma ja paljon muuta. Siluettitoiminnoilla on erityinen vetovoima halloweenin aikaan, jolloin varjo- ja mysteeriteemat ovat luontaisesti suosittuja. Luo aikarajoitettuja varjoyhdistely-kokoelmia, jotka ajoittuvat huippuostosjaksoihin. Sisällytä sekä Varjoyhdistely- että Tee Kokonaiseksi -työlehtiä jokaiseen kausikokoelmaan maksimaalisen arvon ja vaihtelun vuoksi. Kausituotteet oikeuttavat korkeammat hinnat huippuaikoinaan.',
         platform: 'Etsy / Amazon KDP / Gumroad (kausittainen)',
       },
       {
         title: 'Sekatila-palapelipaketit premium-paketeiksi',
         description:
-          'Yhdistä molemmat harjoitustilat premium-sekatila-palapelipaketeiksi, jotka esittelevät generaattorin monipuolisuutta. Jokainen paketti sisältää Varjoyhdistely-työlehtia (siluettien tunnistus), Tee Kokonaiseksi -työlehtia vaakaleikkauksilla (ylä/ala kokoaminen) ja Tee Kokonaiseksi -työlehtia pystyleikkauksilla (vasen/oikea kokoaminen) — kolme erillistä aktiviteettityyppiä yhdestä temaattisesta kuvasarjasta. Tämä kolme-yhdessä -lähestymistapa oikeuttaa premium-hinnoittelun 7–12 € per paketti. Vastausavaimet jokaiselle työlehdelle sisältyvät automaattisesti, lisäten ammattimaista viimeistelyä, joka nostaa koettua arvoa.',
+          'Yhdistä molemmat harjoitustilat premium-sekatila-palapelipaketeiksi, jotka esittelevät generaattorin monipuolisuutta. Jokainen paketti sisältää Varjoyhdistely-työlehtiä (siluettien tunnistus), Tee Kokonaiseksi -työlehtiä vaakaleikkauksilla (ylä/ala kokoaminen) ja Tee Kokonaiseksi -työlehtiä pystyleikkauksilla (vasen/oikea kokoaminen) — kolme erillistä aktiviteettityyppiä yhdestä temaattisesta kuvasarjasta. Tämä kolme-yhdessä -lähestymistapa oikeuttaa premium-hinnoittelun 7–12 € per paketti. Vastausavaimet jokaiselle työlehdelle sisältyvät automaattisesti, lisäten ammattimaista viimeistelyä, joka nostaa koettua arvoa.',
         platform: 'Etsy / Amazon KDP (premium-paketit)',
       },
     ],
@@ -194,7 +194,7 @@ const content: AppContent = {
         'Ei. Varjoyhdistely on puhtaasti visuaalinen — työlehden tulos sisältää vain kuvia, siluetteja ja jaettuja puolikkaita ilman lokalisoitua sanasisältöä. Sovelluksen käyttöliittymä (valikot, painikkeet, otsikkoteksti) tukee kaikkia 11 kieltä, mutta luotu työlehti toimii identtisesti kielivalinnasta riippumatta. Tämä tekee varjoyhdistely-työlehdistä universaalisti myytäviä kaikilla markkinoilla ilman käännöstä. Kaupallinen paketti sisältää 10 värikästä teemaa; Täysi pääsy avaa kaikki 104 teemaa ja kaikki 11 käyttöliittymäkieltä.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja varjoyhdistely-työlehtia Etsyssä ja Amazon KDP:ssä?',
+      question: 'Voinko myydä tällä työkalulla luotuja varjoyhdistely-työlehtiä Etsyssä ja Amazon KDP:ssä?',
       answer:
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä varjoyhdistely-työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotelinjaresursseina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kaksi harjoitustilaa, automaattisesti luodut siluetit, sekoitusalgoritmi, automaattiset vastausavaimet ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien visuaalisten yhdistelyttuotteiden tuottamiseen.',
     },
@@ -274,7 +274,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'luo-varjoyhdistely-tyolehtia',
-      anchorText: 'Näin luot myytäviä varjoyhdistely-työlehtia',
+      anchorText: 'Näin luot myytäviä varjoyhdistely-työlehtiä',
     },
   ],
 
@@ -301,7 +301,7 @@ const content: AppContent = {
       },
     ],
     youtubeId: 'TYvUXJeMI98',
-    videoTitle: 'Näin luot varjoyhdistely-työlehtia silueteilla ja jaetuilla kuvilla — Vaihe vaiheelta -opas',
+    videoTitle: 'Näin luot varjoyhdistely-työlehtiä silueteilla ja jaetuilla kuvilla — Vaihe vaiheelta -opas',
   },
 };
 

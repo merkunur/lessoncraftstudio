@@ -25,7 +25,7 @@ const content: AppContent = {
     title: 'Labyrinttigeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Kolme pelitilaa yhdessä generaattorissa — Kuvapolku, Klassinen Sokkelo ja Valitse Oikea Polku — LPF (Pisin Polku Ensin) -sokkelo-algoritmilla, automaattisilla vastausavaimilla, seinien mukauttamisella ja puhtaasti visuaalisella suunnittelulla, joka toimii globaalisti ilman käännöstä.',
     description:
-      'Kuvapolku-sokkelot yhdistävät sokkelopalapelien ajattoman vetovoiman temaattisiin kuviin — ratkaisijat navigoivat polkuja tiettyihin määränpäihin luoden mukaansatempaavan muodon, joka myy hyvin Etsyssä ja Amazon KDP -aktiviteettikirjoissa. Tämä generaattori luo ammattimaisia kuvapolku-työlehtia temaattisilla kuvamääränpäillä ja automaattisilla vastausavaimilla alle 3 minuutissa. Valitse yli 3 000 kuvituksesta 104 kokoelmasta. Jokainen sokkelo viedään 300 DPI:n tulostusvalmiina PDF:nä kaupallisella lisenssillä. Sokkelo-aktiviteettikirjat ovat todistettu KDP-kategoria tasaisella kysynnällä, ja kuvapolku-muoto lisää visuaalista vetovoimaa, jota tavallisilla viivasokkeloilla ei ole. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
+      'Kuvapolku-sokkelot yhdistävät sokkelopalapelien ajattoman vetovoiman temaattisiin kuviin — ratkaisijat navigoivat polkuja tiettyihin määränpäihin luoden mukaansatempaavan muodon, joka myy hyvin Etsyssä ja Amazon KDP -aktiviteettikirjoissa. Tämä generaattori luo ammattimaisia kuvapolku-työlehtiä temaattisilla kuvamääränpäillä ja automaattisilla vastausavaimilla alle 3 minuutissa. Valitse yli 3 000 kuvituksesta 104 kokoelmasta. Jokainen sokkelo viedään 300 DPI:n tulostusvalmiina PDF:nä kaupallisella lisenssillä. Sokkelo-aktiviteettikirjat ovat todistettu KDP-kategoria tasaisella kysynnällä, ja kuvapolku-muoto lisää visuaalista vetovoimaa, jota tavallisilla viivasokkeloilla ei ole. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
   },
 
   ctaHeading: 'Luo labyrintteja',
@@ -97,7 +97,7 @@ const content: AppContent = {
       {
         title: 'Tulostusvalmiit PDF- ja JPEG-viennit 300 DPI:llä ja harmaasävyvaihto',
         description:
-          'Lataa sokkelo-työlehtia ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina 300 DPI:llä 6× kertoimella teräville yksityiskohdille. Sivukoot sisältävät Letter pysty, Letter vaaka, A4 pysty, A4 vaaka, Neliö (1200×1200) ja täysin mukautetut mitat. Vaihda harmaasävy päälle musteystävällisiin versioihin.',
+          'Lataa sokkelo-työlehtiä ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina 300 DPI:llä 6× kertoimella teräville yksityiskohdille. Sivukoot sisältävät Letter pysty, Letter vaaka, A4 pysty, A4 vaaka, Neliö (1200×1200) ja täysin mukautetut mitat. Vaihda harmaasävy päälle musteystävällisiin versioihin.',
       },
       {
         title: 'Täysi kangasmuokkaus tekstityökaluilla, nimi/päivämääräkentillä ja kumoa-historialla',
@@ -125,7 +125,7 @@ const content: AppContent = {
       {
         title: 'Sokkelo-aktiviteettipaketit Gumroadiin',
         description:
-          'Rakenna valmiita sokkelo-työlehtia nimi/päivämääräkentillä ja tulostetuilla vastausavaimilla. Luo temaattisia sarjoja: eläinten elinympäristöpolkutoimintoja, kausittaisia sokkelokokoelmia ja asteittain vaikeutuvia sokkelopaketteja. Klassinen Sokkelo kerättävine kuvineen lisää laskentaharjoitusta polunetsinnän rinnalle.',
+          'Rakenna valmiita sokkelo-työlehtiä nimi/päivämääräkentillä ja tulostetuilla vastausavaimilla. Luo temaattisia sarjoja: eläinten elinympäristöpolkutoimintoja, kausittaisia sokkelokokoelmia ja asteittain vaikeutuvia sokkelopaketteja. Klassinen Sokkelo kerättävine kuvineen lisää laskentaharjoitusta polunetsinnän rinnalle.',
         platform: 'Gumroad (gumroad.com)',
       },
       {
@@ -170,7 +170,7 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — kaikkia kolmea pelitilaa, LPF-sokkeloalgoritmia, viittä kuvaroolia, seinämuokkausta, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, nimi/päivämääräkenttiä ja kaikkia latausmuotoja — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun latauksissa on pieni vesileima. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja sokkelo-työlehtia Etsyssä ja Amazon KDP:ssä?',
+      question: 'Voinko myydä tällä työkalulla luotuja sokkelo-työlehtiä Etsyssä ja Amazon KDP:ssä?',
       answer:
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä sokkelo-työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, digitaalisina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kolme pelitilaa, LPF-algoritmi, 104 temaattista kuvakokoelmaa ja puhtaasti visuaalinen muoto antavat sinulle työkalut alkuperäisten, globaalisti myytävien sokkelotuotteiden tuottamiseen.',
     },
@@ -200,12 +200,12 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'aarteenetsinta-tyolehdat',
-      anchorText: 'Aarteenetsintä-työlehtia seikkailuteemaisiin paketteihin',
+      anchorText: 'Aarteenetsintä-työlehtiä seikkailuteemaisiin paketteihin',
     },
     {
       pageType: 'app',
       slug: 'etsi-esineet-tyolehdat',
-      anchorText: 'Etsi Esineet -työlehtia täydentäviin etsintätoimintoihin',
+      anchorText: 'Etsi Esineet -työlehtiä täydentäviin etsintätoimintoihin',
     },
     {
       pageType: 'app',
@@ -220,7 +220,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'luo-sokkelo-tyolehtia',
-      anchorText: 'Opas myytävien sokkelo-työlehien luomiseen',
+      anchorText: 'Opas myytävien sokkelo-työlehtien luomiseen',
     },
   ],
 
@@ -247,7 +247,7 @@ const content: AppContent = {
       },
     ],
     youtubeId: 'Sl1o0uPBDCg',
-    videoTitle: 'Näin luot sokkelo-työlehtia 3 pelitilalla ja LPF-algoritmilla — Vaihe vaiheelta -opas',
+    videoTitle: 'Näin luot sokkelo-työlehtiä 3 pelitilalla ja LPF-algoritmilla — Vaihe vaiheelta -opas',
   },
 };
 

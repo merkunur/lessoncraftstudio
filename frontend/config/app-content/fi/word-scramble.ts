@@ -22,121 +22,121 @@ const content: AppContent = {
 
   hero: {
     title: 'Sekoitettujen kirjainten kone — Luo tulostettavia Etsy- ja KDP-myyntiin',
-    tagline: 'Sekoitetut kirjainlaatat kohtaavat kuvavihjeet — nelja vaikeustasoa ja vokaali-konsonantti-värikoodaus muuttavat jokaisen sanan kaytannolliseksi oikeinkirjoituspulmaksi.',
+    tagline: 'Sekoitetut kirjainlaatat kohtaavat kuvavihjeet — neljä vaikeustasoa ja vokaali-konsonantti-värikoodaus muuttavat jokaisen sanan käytännölliseksi oikeinkirjoituspulmaksi.',
     description:
-      'Suunnittele ammattimaisia kirjainsekoitus tyoarkkeja, joissa kayttajat nakevat kuvavihjeen ja järjestavat sekoitettuja kirjainlaattoja tavaamaan oikean sanan — kirjainjärjestelypulma, joka rakentaa oikeinkirjoitustarkkuutta, sanantunnistusta ja fonologista tietoisuutta samanaikaisesti. Valitse kolmesta sisaltolahteesta: sisäänrakennettu kuvakirjasto, Manuaalinen Muokkaustila tai Oma Sanalista enintaan 8 omalla sanalla. Nelja vaikeustasoa hallitsevat kuinka monta kirjainta on jo oikeassa paikassa. Vokaali-konsonantti-värikoodaus on ainutlaatuinen Kirjainsekoitukselle: ota kayttoon värilliset laatat, joissa vokaalit nakyyvat yhdessa varissa ja konsonantit toisessa. Aseta 1–10 pulmaa tyoarkkia kohti ja vaihda isojen ja pienten kirjainten valilla. Taysi Paasy avaa kaikki 11 tuettua kieltä. Jokainen tyoarkki luo automaattisen vastausavaimen. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
+      'Suunnittele ammattimaisia kirjainsekoitus työarkkeja, joissa käyttäjät näkevät kuvavihjeen ja järjestävät sekoitettuja kirjainlaattoja tavaamaan oikean sanan — kirjainjärjestelypulma, joka rakentaa oikeinkirjoitustarkkuutta, sanantunnistusta ja fonologista tietoisuutta samanaikaisesti. Valitse kolmesta sisältölähteestä: sisäänrakennettu kuvakirjasto, Manuaalinen Muokkaustila tai Oma Sanalista enintään 8 omalla sanalla. Neljä vaikeustasoa hallitsevat kuinka monta kirjainta on jo oikeassa paikassa. Vokaali-konsonantti-värikoodaus on ainutlaatuinen Kirjainsekoitukselle: ota käyttöön värilliset laatat, joissa vokaalit näkyvät yhdessä värissä ja konsonantit toisessa. Aseta 1–10 pulmaa työarkkia kohti ja vaihda isojen ja pienten kirjainten välillä. Täysi Pääsy avaa kaikki 11 tuettua kieltä. Jokainen työarkki luo automaattisen vastausavaimen. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
   ctaHeading: 'Luo sekoitettujen kirjainten tehtäviä',
 
   howItWorks: {
-    title: 'Nain Luot Kirjainsekoitus Tyoarkkeja Viidessa Vaiheessa',
+    title: 'Näin Luot Kirjainsekoitus Työarkkeja Viidessä Vaiheessa',
     steps: [
       {
         title: 'Aseta sivun asettelu',
         description:
-          'Avaa Sivun Asetukset -paneeli ja valitse koko: Letter Pysty, Letter Vaaka, A4 Pysty, A4 Vaaka, Nelio (1200x1200) tai mukautettu koko. Valitse taustavari, valitse koristeellinen taustateema kuvakirjastosta ja saada lapinakyvyytta. Lisaa yhteensopiva kehys ammattimaiseen ulkoasuun.',
+          'Avaa Sivun Asetukset -paneeli ja valitse koko: Letter Pysty, Letter Vaaka, A4 Pysty, A4 Vaaka, Neliö (1200x1200) tai mukautettu koko. Valitse taustaväri, valitse koristeellinen taustateema kuvakirjastosta ja säädä läpinäkyvyyttä. Lisää yhteensopiva kehys ammattimaiseen ulkoasuun.',
       },
       {
-        title: 'Valitse sisaltolahteesi',
+        title: 'Valitse sisältölähteesi',
         description:
-          'Avaa Sisalto-paneeli ja valitse yksi kolmesta lahteesta. Kuvakirjasto-tila antaa sinun selata 104 teemaa ja valita kuvia — kuvan nimi tulee uudelleen järjestettavaksi sanaksi. Manuaalinen Muokkaustila lisaa mukautusvaiheen: valitse kuvia ja muokkaa niiden nayttönimet. Oma Sanalista ohittaa kuvat ja antaa sinun kirjoittaa enintaan 8 omaa sanaa tai lausetta.',
+          'Avaa Sisältö-paneeli ja valitse yksi kolmesta lähteestä. Kuvakirjasto-tila antaa sinun selata 104 teemaa ja valita kuvia — kuvan nimi tulee uudelleen järjestettäväksi sanaksi. Manuaalinen Muokkaustila lisää mukautusvaiheen: valitse kuvia ja muokkaa niiden näyttönimet. Oma Sanalista ohittaa kuvat ja antaa sinun kirjoittaa enintään 8 omaa sanaa tai lausetta.',
       },
       {
-        title: 'Maarittele vaikeustaso ja pulmien maara',
+        title: 'Määrittele vaikeustaso ja pulmien määrä',
         description:
-          'Valitse yksi neljasta vaikeustasosta, jotka hallitsevat kuinka monta vihjekirjainta on jo oikeassa paikassa sekoitettujen laattojen joukossa. Ei Vihjeitä sekoittaa jokaisen kirjaimen. Helppo asettaa puolet kirjaimista oikeaan paikkaan. Normaali asettaa neljanneksen. Vaikea asettaa vain kuudesosan. Aseta sitten pulmien maara tyoarkkia kohti 1:sta 10:een (oletus: 6).',
+          'Valitse yksi neljästä vaikeustasosta, jotka hallitsevat kuinka monta vihjekirjainta on jo oikeassa paikassa sekoitettujen laattojen joukossa. Ei Vihjeitä sekoittaa jokaisen kirjaimen. Helppo asettaa puolet kirjaimista oikeaan paikkaan. Normaali asettaa neljänneksen. Vaikea asettaa vain kuudesosan. Aseta sitten pulmien määrä työarkkia kohti 1:sta 10:een (oletus: 6).',
       },
       {
         title: 'Aseta kirjainmuoto, värikoodaus ja yksityiskohdat',
         description:
-          'Valitse isojen kirjainten (oletus) ja pienten kirjainten valilla kirjainlaatoissa. Ota kayttoon vokaali-konsonantti-värikoodaus nayttaaksesi vokaalit yhdessa varissa ja konsonantit toisessa — visuaalinen foniiikka-apu, joka on ainutlaatuinen Kirjainsekoitukselle — tai valitse Kaikki Mustat perinteisiin yksivarisiin laattoihin. Kaytta Tyokalut-paneelia lisataksesi otsikon, ohjeita tai mukautettua tekstia seitsemasta fontista.',
+          'Valitse isojen kirjainten (oletus) ja pienten kirjainten välillä kirjainlaatoissa. Ota käyttöön vokaali-konsonantti-värikoodaus näyttääksesi vokaalit yhdessä värissä ja konsonantit toisessa — visuaalinen foniikka-apu, joka on ainutlaatuinen Kirjainsekoitukselle — tai valitse Kaikki Mustat perinteisiin yksivärisiin laattoihin. Käytä Työkalut-paneelia lisätäksesi otsikon, ohjeita tai mukautettua tekstiä seitsemästä fontista.',
       },
       {
         title: 'Luo vastausavain ja lataa',
         description:
-          'Siirry Vastausavain-valilehdelle ja napsauta Luo Vastausavain luodaksesi ratkaistun version, jossa kaikki kirjaimet on järjestetty oikeaan järjestykseen. Ota kayttoon harmaa-astevienti musteystävallisiin versioihin. Vie seka tyoarkki etta vastausavain korkearesoluutioisena JPEG- tai tulostusvalmiina PDF-tiedostona yli 400 DPI:na.',
+          'Siirry Vastausavain-välilehdelle ja napsauta Luo Vastausavain luodaksesi ratkaistun version, jossa kaikki kirjaimet on järjestetty oikeaan järjestykseen. Ota käyttöön harmaa-astevienti musteystävällisiin versioihin. Vie sekä työarkki että vastausavain korkearesoluutioisena JPEG- tai tulostusvalmiina PDF-tiedostona yli 400 DPI:na.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Kirjainsekoitus Tyoarkkien Generaattorin Avainominaisuudet',
+    title: 'Kirjainsekoitus Työarkkien Generaattorin Avainominaisuudet',
     features: [
       {
         title: 'Kuvapohjaiset kirjainjärjestelypulmat sekoitetuilla laatoilla',
         description:
-          'Jokainen pulma nayttaa kuvavihjeen sekoitettujen kirjainlaattojen ryhmän vieressa. Kayttajat tutkivat kuvan, tunnistavat mita se esittaa ja järjestavat laatat uudelleen oikean sanan tavaamisteksi. Ennalta sijoitetut vihjekirjaimet (vaikeustason hallitsemina) tarjoavat tukea. Tama muoto rakentaa oikeinkirjoitustarkkuutta, sanantunnistusta ja fonologista tietoisuutta konkreettisen kirjainmanipulaation kautta.',
+          'Jokainen pulma näyttää kuvavihjeen sekoitettujen kirjainlaattojen ryhmän vieressä. Käyttäjät tutkivat kuvan, tunnistavat mitä se esittää ja järjestävät laatat uudelleen oikean sanan tavaamiseksi. Ennalta sijoitetut vihjekirjaimet (vaikeustason hallitsemina) tarjoavat tukea. Tämä muoto rakentaa oikeinkirjoitustarkkuutta, sanantunnistusta ja fonologista tietoisuutta konkreettisen kirjainmanipulaation kautta.',
       },
       {
-        title: 'Nelja vaikeustasoa saadettavilla vihjekirjaimilla',
+        title: 'Neljä vaikeustasoa säädettävillä vihjekirjaimilla',
         description:
-          'Hallitse tarkalleen kuinka paljon tukea jokainen pulma tarjoaa. Ei Vihjeitä sekoittaa jokaisen kirjaimen maksimaaliseen haasteeseen. Helppo asettaa puolet kirjaimista oikeaan paikkaan. Normaali asettaa neljanneksen. Vaikea asettaa vain kuudesosan — tarpeeksi yhden vihjeen aloittamiseen paljastamatta vastausta.',
+          'Hallitse tarkalleen kuinka paljon tukea jokainen pulma tarjoaa. Ei Vihjeitä sekoittaa jokaisen kirjaimen maksimaaliseen haasteeseen. Helppo asettaa puolet kirjaimista oikeaan paikkaan. Normaali asettaa neljänneksen. Vaikea asettaa vain kuudesosan — tarpeeksi yhden vihjeen aloittamiseen paljastamatta vastausta.',
       },
       {
         title: 'Vokaali-konsonantti-värikoodaus — ainutlaatuinen ominaisuus',
         description:
-          'Ota kayttoon värilliset laatat, joissa vokaalit nakyyvat yhdessa varissa ja konsonantit toisessa — visuaalinen foniiikka-apu, jota mikaan muu generaattori ei tarjoa. Tama auttaa kayttajia tunnistamaan kirjaintyyppeja samalla kun he ratkaisevat pulmaa, lisaten foniikkaulottuvuuden oikeinkirjoitusharjoitteluun. Tai valitse Kaikki Mustat perinteisiin yksivarisiin laattoihin.',
+          'Ota käyttöön värilliset laatat, joissa vokaalit näkyvät yhdessä värissä ja konsonantit toisessa — visuaalinen foniikka-apu, jota mikään muu generaattori ei tarjoa. Tämä auttaa käyttäjiä tunnistamaan kirjaintyyppejä samalla kun he ratkaisevat pulmaa, lisäten foniikkaulottuvuuden oikeinkirjoitusharjoitteluun. Tai valitse Kaikki Mustat perinteisiin yksivärisiin laattoihin.',
       },
       {
-        title: 'Kolme sisaltolahteetta: Kuvakirjasto, Manuaalinen Muokkaus ja Oma Sanalista',
+        title: 'Kolme sisältölähdettä: Kuvakirjasto, Manuaalinen Muokkaus ja Oma Sanalista',
         description:
-          'Kuvakirjasto-lahde hyvaksyy sanoja temaattisista kuvakokoelmista. Manuaalinen Muokkaustila lisaa mukautuskerroksen kuvien nimille. Oma Sanalista luopuu kuvista ja antaa sinun kirjoittaa enintaan 8 omaa sanaa. Kolme lahdetta antaa kolme eri tuotelinjaa samasta generaattorista.',
+          'Kuvakirjasto-lähde hyväksyy sanoja temaattisista kuvakokoelmista. Manuaalinen Muokkaustila lisää mukautuskerroksen kuvien nimille. Oma Sanalista luopuu kuvista ja antaa sinun kirjoittaa enintään 8 omaa sanaa. Kolme lähdettä antaa kolme eri tuotelinjaa samasta generaattorista.',
       },
       {
         title: '104 visuaalista teemaa yli 3 100 kuvalla',
         description:
-          'Tutustu yli 3 100 korkearesoluutioisen kuvituksen kirjastoon 104 teemassa. Jokainen kuva toimii seka visuaalisena vihjeena etta sanastolahteena. Voit myos ladata omia kuvia mukautetuilla nimilla brandatyyn sisaltoon.',
+          'Tutustu yli 3 100 korkearesoluutioisen kuvituksen kirjastoon 104 teemassa. Jokainen kuva toimii sekä visuaalisena vihjeenä että sanastolähteenä. Voit myös ladata omia kuvia mukautetuilla nimillä brändättyyn sisältöön.',
       },
       {
         title: 'Automaattinen vastausavaimen luominen',
         description:
-          'Napsauta yhta painiketta luodaksesi tayden vastausavaimen, jossa kaikki kirjaimet on oikeassa järjestyksessä. Vie vastausavain erillisenä JPEG- tai PDF-tiedostona valinnaisella harmaa-astetoiminnolla.',
+          'Napsauta yhtä painiketta luodaksesi täyden vastausavaimen, jossa kaikki kirjaimet on oikeassa järjestyksessä. Vie vastausavain erillisenä JPEG- tai PDF-tiedostona valinnaisella harmaa-astetoiminnolla.',
       },
       {
-        title: 'Tulostuvalmis vienti 400+ DPI:na harmaa-asteilla',
+        title: 'Tulostusvalmis vienti 400+ DPI:na harmaa-asteilla',
         description:
-          'Lataa tyoarkkeja ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina yli 400 DPI:na. Ota kayttoon harmaa-astevienti musteystävallisiin versioihin. Letter, A4, Nelio ja mukautetut koot ovat kaikki tuettuja.',
+          'Lataa työarkkeja ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina yli 400 DPI:na. Ota käyttöön harmaa-astevienti musteystävällisiin versioihin. Letter, A4, Neliö ja mukautetut koot ovat kaikki tuettuja.',
       },
       {
-        title: 'Taysi piirtoalustamuokkaus kumoa- ja tee uudelleen -toiminnolla',
+        title: 'Täysi piirtoalustamuokkaus kumoa- ja tee uudelleen -toiminnolla',
         description:
-          'Sisaanrakennettu Fabric.js-piirtoalusta antaa sinun vetaa, skaalata, kiertaa ja siirtaa jokaista elementtia. Kaytta tasonhallintaa, justeraustyokaluja ja lukitus/avaus-toimintoja rajattomalla kumoa- ja tee uudelleen -toiminnolla.',
+          'Sisäänrakennettu Fabric.js-piirtoalusta antaa sinun vetää, skaalata, kiertää ja siirtää jokaista elementtiä. Käytä tasonhallintaa, justeraustyökaluja ja lukitus/avaus-toimintoja rajattomalla kumoa- ja tee uudelleen -toiminnolla.',
       },
     ],
   },
 
   businessUseCases: {
-    title: 'Nain Myyat Kirjainsekoitus Tyoarkkeja Verkossa',
+    title: 'Näin Myyt Kirjainsekoitus Työarkkeja Verkossa',
     cases: [
       {
-        title: 'Teemakohtaiset kirjainsekoituspaketit Etsyssa',
+        title: 'Teemakohtaiset kirjainsekoituspaketit Etsyssä',
         description:
-          'Luo 10–20 kirjainsekoitus tyoarkin sarjoja ryhmiteltyina teemoittain ja vaikeustasoittain ja tarjoa niita suorana latauksena Etsyssa. Sisallyta vastausavaimet bonustiedostoina. Värikoodatut kirjainlaatat ovat visuaalisesti sitouttavia ja erottuvat tavallisista oikeinkirjoitusarkeista. Hinnoittele yksittaiset teemapaketit 3–5 euroon ja moniteemaiset paketit 12–18 euroon.',
+          'Luo 10–20 kirjainsekoitus työarkin sarjoja ryhmiteltyinä teemoittain ja vaikeustasoittain ja tarjoa niitä suorana latauksena Etsyssä. Sisällytä vastausavaimet bonustiedostoina. Värikoodatut kirjainlaatat ovat visuaalisesti sitouttavia ja erottuvat tavallisista oikeinkirjoitusarkeista. Hinnoittele yksittäiset teemapaketit 3–5 euroon ja moniteemaiset paketit 12–18 euroon.',
         platform: 'Etsy (etsy.com)',
       },
       {
         title: 'Oikeinkirjoitus-aktiviteettikirjat Amazon KDP:ssa',
         description:
-          'Kokoa 50–100 kirjainsekoituspulmaa painetuksi aktiviteettikirjaksi Amazon KDP -muodossa. Kaytta nousevaa vaikeustasoa aloittamalla Helppo-tilasta yksinkertaisilla sanoilla ja edeten Ei Vihjeitä -tilaan monimutkaisilla sanoilla. Ryhmittele luvut teemoittain vaihtelun saavuttamiseksi. Kirjainsekoituspulmakirjat 4–9-vuotiaille myyvat johdonmukaisesti.',
+          'Kokoa 50–100 kirjainsekoituspulmaa painetuksi aktiviteettikirjaksi Amazon KDP -muodossa. Käytä nousevaa vaikeustasoa aloittamalla Helppo-tilasta yksinkertaisilla sanoilla ja edeten Ei Vihjeitä -tilaan monimutkaisilla sanoilla. Ryhmittele luvut teemoittain vaihtelun saavuttamiseksi. Kirjainsekoituspulmakirjat 4–9-vuotiaille myyvät johdonmukaisesti.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
         title: 'Tasoitetut oikeinkirjoituspaketit Gumroadiin',
         description:
-          'Rakenna tasoitettuja kirjainsekoitussarjoja: Taso 1 (Helppo, 4 pulmaa sivua kohti), Taso 2 (Normaali, 6 pulmaa), Taso 3 (Vaikea, 8 pulmaa) ja Taso 4 (Ei Vihjeitä, 10 pulmaa). Sisallyta seka värikoodatut etta mustavalkoiset versiot lisaarvona. Pakkaa jokainen taso vastausavaimella.',
+          'Rakenna tasoitettuja kirjainsekoitussarjoja: Taso 1 (Helppo, 4 pulmaa sivua kohti), Taso 2 (Normaali, 6 pulmaa), Taso 3 (Vaikea, 8 pulmaa) ja Taso 4 (Ei Vihjeitä, 10 pulmaa). Sisällytä sekä värikoodatut että mustavalkoiset versiot lisäarvona. Pakkaa jokainen taso vastausavaimella.',
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Monikiellset kirjainsekoitustuotteet Täydellä Pääsyllä',
+        title: 'Monikieliset kirjainsekoitustuotteet Täydellä Pääsyllä',
         description:
-          'Taysi Paasy avaa kaikki 11 kieltä, ja koska Kirjainsekoitus on kieliriippuvainen, kohdesana muuttuu kielen mukaan. "Dog" englanniksi tulee "Hund" saksaksi, "chien" ranskaksi ja "koira" suomeksi — jokainen eri kirjaimilla ja eri kirjainjärjestelyhaasteilla. Jokainen kieliversio on erillinen tuote.',
+          'Täysi Pääsy avaa kaikki 11 kieltä, ja koska Kirjainsekoitus on kieliriippuvainen, kohdesana muuttuu kielen mukaan. "Dog" englanniksi tulee "Hund" saksaksi, "chien" ranskaksi ja "koira" suomeksi — jokainen eri kirjaimilla ja eri kirjainjärjestelyhaasteilla. Jokainen kieliversio on erillinen tuote.',
         platform: 'Etsy / Amazon KDP / Gumroad (monikielinen)',
       },
       {
-        title: 'Oikeinkirjoitustyokalu yksityisopetukseen',
+        title: 'Oikeinkirjoitustyökalu yksityisopetukseen',
         description:
-          'Kaytta Omaa Sanalistaa luodaksesi kirjainsekoitus tyoarkkeja mille tahansa sanalistolle. Saada vaikeustasoa ja kaytta värikoodausta foniikkaharjoitteluun. Tulosta raataloityja sarjoja minuuteissa pienille ryhmille tai kokonaisille luokille.',
+          'Käytä Omaa Sanalistaa luodaksesi kirjainsekoitus työarkkeja mille tahansa sanalistolle. Säädä vaikeustasoa ja käytä värikoodausta foniikkaharjoitteluun. Tulosta räätälöityjä sarjoja minuuteissa pienille ryhmille tai kokonaisille luokille.',
         platform: 'Verkko / Yksityisopetus / Kotiopiskelu',
       },
     ],
@@ -146,27 +146,27 @@ const content: AppContent = {
     {
       question: 'Miten kirjainsekoituspulma toimii?',
       answer:
-        'Jokainen pulma nayttaa kuvavihjeen sekoitettujen kirjainlaattojen ryhmän vieressa. Kayttajat tutkivat kuvan, tunnistavat mita se esittaa ja järjestavat sekoitetut kirjaimet oikeaan järjestykseen sanan tavaamisteksi. Ennalta sijoitetut vihjekirjaimet tarjoavat tukea vaikeustason mukaan.',
+        'Jokainen pulma näyttää kuvavihjeen sekoitettujen kirjainlaattojen ryhmän vieressä. Käyttäjät tutkivat kuvan, tunnistavat mitä se esittää ja järjestävät sekoitetut kirjaimet oikeaan järjestykseen sanan tavaamiseksi. Ennalta sijoitetut vihjekirjaimet tarjoavat tukea vaikeustason mukaan.',
     },
     {
       question: 'Mikä on vokaali-konsonantti-värikoodaus?',
       answer:
-        'Kun värikoodaus on kaytossa, vokaalit nakyyvat yhdessa varissa ja konsonantit toisessa kirjainlaatoissa. Tama auttaa kayttajia visuaalisesti tunnistamaan kirjaintyyppeja samalla kun he ratkaisevat pulmaa, lisaten foniikkaulottuvuuden oikeinkirjoitusharjoitteluun. Vaihda Kaikki Mustat -tilaan perinteisiin yksivarisiin laattoihin.',
+        'Kun värikoodaus on käytössä, vokaalit näkyvät yhdessä värissä ja konsonantit toisessa kirjainlaatoissa. Tämä auttaa käyttäjiä visuaalisesti tunnistamaan kirjaintyyppejä samalla kun he ratkaisevat pulmaa, lisäten foniikkaulottuvuuden oikeinkirjoitusharjoitteluun. Vaihda Kaikki Mustat -tilaan perinteisiin yksivärisiin laattoihin.',
     },
     {
       question: 'Onko Kirjainsekoitus-generaattori kieliriippuvainen?',
       answer:
-        'Kylla. Koska sana on kuvan nimi valitulla kielellä, kielen vaihtaminen muuttaa koko pulmasisallon. "Dog" englanniksi tulee "Hund" saksaksi, "koira" suomeksi — jokainen eri kirjaimilla ja eri kirjainjärjestelyhaasteilla. Kaupallinen taso on vain englanti; Taysi Paasy avaa kaikki 11 kieltä.',
+        'Kyllä. Koska sana on kuvan nimi valitulla kielellä, kielen vaihtaminen muuttaa koko pulmasisällön. "Dog" englanniksi tulee "Hund" saksaksi, "koira" suomeksi — jokainen eri kirjaimilla ja eri kirjainjärjestelyhaasteilla. Kaupallinen taso on vain englanti; Täysi Pääsy avaa kaikki 11 kieltä.',
     },
     {
       question: 'Onko saatavilla ilmaista kokeilua?',
       answer:
-        'Kylla. Sinulla on paasy kaikkiin ominaisuuksiin — kaikkiin kolmeen sisaltolahteeseen, kaikkiin neljaan vaikeustasoon, värikoodaukseen, tayteen kuvakirjastoon, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia.',
+        'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — kaikkiin kolmeen sisältölähteeseen, kaikkiin neljään vaikeustasoon, värikoodaukseen, täyteen kuvakirjastoon, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisaltaa?',
+      question: 'Mitä kaupallinen lisenssi sisältää?',
       answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat myyntioikeudet Etsyssa, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eika rajoituksia.',
+        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat myyntioikeudet Etsyssä, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eikä rajoituksia.',
     },
     {
       question: 'Sopivatko kirjainsekoitustehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
@@ -201,7 +201,7 @@ const content: AppContent = {
     {
       question: 'Mikä on palautuskäytäntö?',
       answer:
-        'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia. Voit testata jokaisen sisaltolahteen, jokaisen vaikeustason, jokaisen teeman ja jokaisen vientimuodon ennen ostamista.',
+        'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia. Voit testata jokaisen sisältölähteen, jokaisen vaikeustason, jokaisen teeman ja jokaisen vientimuodon ennen ostamista.',
     },
   ],
 
@@ -209,55 +209,55 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'aakkosjuna-tyoarkit',
-      anchorText: 'Aakkosjuna Tyoarkkien Generaattori',
+      anchorText: 'Aakkosjuna Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'prepositiot-tyoarkit',
-      anchorText: 'Prepositiot Tyoarkkien Generaattori',
+      anchorText: 'Prepositiot Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'arvaa-sana-tyoarkit',
-      anchorText: 'Arvaa Sana Tyoarkkien Generaattori',
+      anchorText: 'Arvaa Sana Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'sanahaku-tyoarkit',
-      anchorText: 'Sanahaku Tyoarkkien Generaattori',
+      anchorText: 'Sanahaku Työarkkien Generaattori',
     },
     {
       pageType: 'bundle',
       slug: 'lukeminen-kieli-paketti',
-      anchorText: 'Lukeminen & Kieli Paketti — Kaikki Kielityokalut',
+      anchorText: 'Lukeminen & Kieli Paketti — Kaikki Kielityökalut',
     },
     {
       pageType: 'guide',
       slug: 'myy-sanapulmia-etsy',
-      anchorText: 'Opas Sanapulmien Myymiseen Etsyssa',
+      anchorText: 'Opas Sanapulmien Myymiseen Etsyssä',
     },
     {
       pageType: 'start',
       slug: 'taysin-opas-tulostettavaan-liiketoimintaan',
-      anchorText: 'Taysin opas tulostettavaan liiketoimintaan',
+      anchorText: 'Täysin opas tulostettavaan liiketoimintaan',
     },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/finnish/word%20scramble/kirjainsekoitus-1.webp',
-      primaryAlt: 'Kirjainsekoitus tyoarkki sekoitetuilla kirjainlaatoilla, kuvavihjeilla ja värikoodatuilla vokaaleilla ja konsonanteilla',
+      primaryAlt: 'Kirjainsekoitus työarkki sekoitetuilla kirjainlaatoilla, kuvavihjeillä ja värikoodatuilla vokaaleilla ja konsonanteilla',
     },
     sampleGallery: [
       {
         src: '/samples/finnish/word%20scramble/kirjainsekoitus-1.webp',
-        alt: 'Kirjainsekoitus tyoarkki Helppo-vaikeustasolla puolilla kirjaimista oikeassa paikassa ja eläinteemalla',
+        alt: 'Kirjainsekoitus työarkki Helppo-vaikeustasolla puolilla kirjaimista oikeassa paikassa ja eläinteemalla',
         caption: 'Helppo vaikeustaso — puolet kirjaimista ennalta sijoitettu oikeaan paikkaan aloitteleville oikeinkirjoittajille',
       },
       {
         src: '/samples/finnish/word%20scramble/kirjainsekoitus-2.webp',
-        alt: 'Kirjainsekoitus tyoarkki vokaali-konsonantti-värikoodauksella ja ruokateemalla',
-        caption: 'Värikoodaus — vokaalit ja konsonantit eri vareissä foniikka-avuksi',
+        alt: 'Kirjainsekoitus työarkki vokaali-konsonantti-värikoodauksella ja ruokateemalla',
+        caption: 'Värikoodaus — vokaalit ja konsonantit eri väreissä foniikka-avuksi',
       },
       {
         src: '/samples/finnish/word%20scramble/kirjainsekoitus-1-answer-key.webp',
@@ -266,7 +266,7 @@ const content: AppContent = {
       },
     ],
     youtubeId: 'j0T52dBBDkE',
-    videoTitle: 'Luo Kirjainsekoitus Tyoarkkeja Värikoodatuilla Laatoilla — Vaihe Vaiheelta Opas',
+    videoTitle: 'Luo Kirjainsekoitus Työarkkeja Värikoodatuilla Laatoilla — Vaihe Vaiheelta Opas',
   },
 };
 

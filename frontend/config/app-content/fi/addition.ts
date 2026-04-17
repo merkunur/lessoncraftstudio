@@ -22,121 +22,121 @@ const content: AppContent = {
 
   hero: {
     title: 'Yhteenlaskugeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
-    tagline: 'Muuta yhteenlasku visuaaliseksi seikkailuksi kuvapohjaisten matematiikkatyoarkkien avulla.',
+    tagline: 'Muuta yhteenlasku visuaaliseksi seikkailuksi kuvapohjaisten matematiikkatyöarkkien avulla.',
     description:
-      'Luo kuvapohjaisia yhteenlaskutyoarkkeja, jotka tekevat varhaisista matematiikkakonsepteista konkreettisia ja hauskoja nuorille kayttajille. Valitse neljan eri harjoitustilan valilta — Kuva + Kuva, Kuva + Numero, Etsi Yhteenlaskettava ja Sekatila — sopiaksesi mihin tahansa tasoon esikoulusta toiselle luokalle. Tutustu yli 3 100 huolellisesti valittuun kuvitukseen 104 teemassa, kuten maatilaelamet, ajoneuvot ja ruoka, tehden jokaisesta laskutehtavasta elavaa. Jokainen tyoarkki sisaltaa automaattisesti luodun vastausavaimen, ja voit vieda tulostusvalmiita PDF-tiedostoja Letter-, A4- tai mukautetussa koossa yli 400 DPI:n tarkkuudella. Riippumatta siita myytkö Etsyssa, julkaisetko aktiviteettikirjoja Amazon KDP:ssa tai jaat tyoarkkeja asiakkaillesi — Yhteenlaskutyoarkkien Generaattori tuottaa ammattimaisia tuloksia muutamassa minuutissa. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
+      'Luo kuvapohjaisia yhteenlaskutyöarkkeja, jotka tekevät varhaisista matematiikkakonsepteista konkreettisia ja hauskoja nuorille käyttäjille. Valitse neljän eri harjoitustilan väliltä — Kuva + Kuva, Kuva + Numero, Etsi Yhteenlaskettava ja Sekatila — sopiaksesi mihin tahansa tasoon esikoulusta toiselle luokalle. Tutustu yli 3 100 huolellisesti valittuun kuvitukseen 104 teemassa, kuten maatilaeläimet, ajoneuvot ja ruoka, tehden jokaisesta laskutehtävästä elävää. Jokainen työarkki sisältää automaattisesti luodun vastausavaimen, ja voit viedä tulostusvalmiita PDF-tiedostoja Letter-, A4- tai mukautetussa koossa yli 400 DPI:n tarkkuudella. Riippumatta siitä myytkö Etsyssä, julkaisetko aktiviteettikirjoja Amazon KDP:ssä tai jaat työarkkeja asiakkaillesi — Yhteenlaskutyöarkkien Generaattori tuottaa ammattimaisia tuloksia muutamassa minuutissa. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
   ctaHeading: 'Luo yhteenlaskutehtäviä',
 
   howItWorks: {
-    title: 'Nain Luot Yhteenlaskutyoarkkeja Viidessa Vaiheessa',
+    title: 'Näin Luot Yhteenlaskutyöarkkeja Viidessä Vaiheessa',
     steps: [
       {
         title: 'Aseta sivun asettelu',
         description:
-          'Avaa Sivun Asetukset -paneeli ja valitse koko: Letter Pysty, Letter Vaaka, A4 Pysty, A4 Vaaka, Nelio tai mukautettu koko. Valitse taustavari, valitse koristeellinen teema kuvakirjastosta ja saada lapinakyvyytta, jotta tehtavat pysyvat luettavina. Lisaa yhteensopiva koristeellinen kehys antaaksesi tyoarkeillesi ammattimaisen, tulostuvalmiin ilmeen. Piirtoalustan esikatselu paivittyy reaaliajassa, joten naet tarkalleen miltä valmis tuotos nayttaa ennen lataamista. Jos myyat Etsyssa tai Amazon KDP:ssa, harkitse seka Letter-versioiden luomista pohjoisamerikkalaisille ostajille etta A4-versioiden luomista eurooppalaisille asiakkaille — nain tuplatat markkina-alueesi minimaalisilla muutoksilla.',
+          'Avaa Sivun Asetukset -paneeli ja valitse koko: Letter Pysty, Letter Vaaka, A4 Pysty, A4 Vaaka, Neliö tai mukautettu koko. Valitse taustaväri, valitse koristeellinen teema kuvakirjastosta ja säädä läpinäkyvyyttä, jotta tehtävät pysyvät luettavina. Lisää yhteensopiva koristeellinen kehys antaaksesi työarkeillesi ammattimaisen, tulostuvalmiin ilmeen. Piirtoalustan esikatselu päivittyy reaaliajassa, joten näet tarkalleen miltä valmis tuotos näyttää ennen lataamista. Jos myyt Etsyssä tai Amazon KDP:ssä, harkitse sekä Letter-versioiden luomista pohjoisamerikkalaisille ostajille että A4-versioiden luomista eurooppalaisille asiakkaille — näin tuplaat markkina-alueesi minimaalisilla muutoksilla.',
       },
       {
-        title: 'Maarittele harjoitustila ja lukualue',
+        title: 'Määrittele harjoitustila ja lukualue',
         description:
-          'Avaa Harjoituksen Maarittely ja valitse yksi neljasta tilasta. Kuva + Kuva nayttaa kaksi kuvaryhmaa laskettavaksi ja yhteenlaskettavaksi. Kuva + Numero yhdistaa kuvaryhmaan numeron. Etsi Yhteenlaskettava nayttaa summan ja yhden ryhman, haastaa kayttajat loytamaan puuttuvan osan. Sekatila yhdistaa kaikki kolme vaihtelevaan harjoitteluun. Aseta minimi- ja maksimimaara elementteja ryhmaa kohti (1–10) ja valitse tehtavien maara sivua kohti (1–10).',
+          'Avaa Harjoituksen Määrittely ja valitse yksi neljästä tilasta. Kuva + Kuva näyttää kaksi kuvaryhmää laskettavaksi ja yhteenlaskettavaksi. Kuva + Numero yhdistää kuvaryhmään numeron. Etsi Yhteenlaskettava näyttää summan ja yhden ryhmän, haastaa käyttäjät löytämään puuttuvan osan. Sekatila yhdistää kaikki kolme vaihtelevaan harjoitteluun. Aseta minimi- ja maksimimäärä elementtejä ryhmää kohti (1–10) ja valitse tehtävien määrä sivua kohti (1–10).',
       },
       {
         title: 'Valitse kuvia teemakirjastosta',
         description:
-          'Avaa Kuvakirjasto-paneeli ja selaa 104 teemaa — elaimista ja ruoasta ajoneuvoihin ja juhlapyhiin. Kaytta hakupalkkia loytaaksesi tiettyja kuvia valittomasti. Napsauta valitaksesi haluamasi kuvat; jokainen tehtava kayttaa valintojasi. Voit myos ladata omia kuvia uniikin ulkoasun luomiseksi, joka vastaa brandiasi tai tuoteteemaasi. Kun luot tuotteita myyntiin, kuvien valinta yhtenaisesta teemasta tuottaa visuaalisesti johdonmukaisia tyoarkkeja, jotka nayttavat paremmilta luetteloiden pienoiskuvissa ja keraavat enemman napsautuksia hakutuloksissa.',
+          'Avaa Kuvakirjasto-paneeli ja selaa 104 teemaa — eläimistä ja ruoasta ajoneuvoihin ja juhlapyhiin. Käytä hakupalkkia löytääksesi tiettyjä kuvia välittömästi. Napsauta valitaksesi haluamasi kuvat; jokainen tehtävä käyttää valintojasi. Voit myös ladata omia kuvia uniikin ulkoasun luomiseksi, joka vastaa brändiäsi tai tuoteteemaasi. Kun luot tuotteita myyntiin, kuvien valinta yhtenäisestä teemasta tuottaa visuaalisesti johdonmukaisia työarkkeja, jotka näyttävät paremmilta luetteloiden pienoiskuvissa ja keräävät enemmän napsautuksia hakutuloksissa.',
       },
       {
-        title: 'Lisaa tekstia, otsikoita ja mukautettuja yksityiskohtia',
+        title: 'Lisää tekstiä, otsikoita ja mukautettuja yksityiskohtia',
         description:
-          'Kaytta Tyokalut-paneelia lisataksesi tyoarkin otsikon, nimi- ja paivamaarakentat, ohjeet tai muun mukautetun tekstin. Valitse seitsemasta selkeasta fontista, mukaan lukien Lexend Deca, Baloo 2, Fredoka ja Quicksand. Saada fonttikokoa, varia ja aariviivaaa optimaalisen luettavuuden saavuttamiseksi. Ota kayttoon tai poista kaytosta tehtavanumerot, plusmerkki kuvaryhmien valilla ja ohjaava vastausalue tarpeen mukaan. Markkinapaikoilla tuotteita luovat myyjat voivat lisata brandinimen tai logon vesileima-tekstina suoraan piirtoalustalle brandi-tunnistettavuuden luomiseksi.',
+          'Käytä Työkalut-paneelia lisätäksesi työarkin otsikon, nimi- ja päivämääräkentät, ohjeet tai muun mukautetun tekstin. Valitse seitsemästä selkeästä fontista, mukaan lukien Lexend Deca, Baloo 2, Fredoka ja Quicksand. Säädä fonttikokoa, väriä ja ääriviivaa optimaalisen luettavuuden saavuttamiseksi. Ota käyttöön tai poista käytöstä tehtävänumerot, plusmerkki kuvaryhmien välillä ja ohjaava vastausalue tarpeen mukaan. Markkinapaikoilla tuotteita luovat myyjät voivat lisätä brändinimen tai logon vesileima-tekstinä suoraan piirtoalustalle brändi-tunnistettavuuden luomiseksi.',
       },
       {
         title: 'Luo vastausavain ja lataa',
         description:
-          'Siirry Vastausavain-valilehdelle ja napsauta Luo Vastausavain luodaksesi automaattisesti taytetyn version tyoarkistasi. Avaa sitten latausvalikko ja vie seka tyoarkki etta vastausavain korkearesoluutioisena JPEG- tai tulostusvalmiina PDF-tiedostona. Jokainen vienti renderoidaan yli 400 DPI:n tarkkuudella, mikä takaa taydellisen tarkkyuuden, tulostatpa kotona, lahetat ammattitulostajalle tai lataat digitaalisena tuotteena Etsyyn tai Amazon KDP:hen.',
+          'Siirry Vastausavain-välilehdelle ja napsauta Luo Vastausavain luodaksesi automaattisesti täytetyn version työarkistasi. Avaa sitten latausvalikko ja vie sekä työarkki että vastausavain korkearesoluutioisena JPEG- tai tulostusvalmiina PDF-tiedostona. Jokainen vienti renderöidään yli 400 DPI:n tarkkuudella, mikä takaa täydellisen tarkkuuden, tulostatpa kotona, lähetät ammattitulostajalle tai lataat digitaalisena tuotteena Etsyyn tai Amazon KDP:hen.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Yhteenlaskutyoarkkien Generaattorin Avainominaisuudet',
+    title: 'Yhteenlaskutyöarkkien Generaattorin Avainominaisuudet',
     features: [
       {
-        title: 'Nelja erilaista harjoitustilaa',
+        title: 'Neljä erilaista harjoitustilaa',
         description:
-          'Valitse tila, joka parhaiten vastaa ostajien tasoa. Kuva + Kuva -tila kayttaa kahta kuvaryhmaa puhtaaseen visuaaliseen laskemiseen — ihanteellinen esikouluikaisille, jotka aloittavat yhteenlaskun. Kuva + Numero -tila yhdistaa kuvia ja numeroita konkreettisen ja abstraktin ajattelun yhdistamiseksi. Etsi Yhteenlaskettava -tila nayttaa summan ja yhden ryhman, kehittaen varhaista algebrallista ajattelua. Sekatila yhdistaa kaikki kolme vaihtelevaan, toistamattomaan harjoitteluun.',
+          'Valitse tila, joka parhaiten vastaa ostajien tasoa. Kuva + Kuva -tila käyttää kahta kuvaryhmää puhtaaseen visuaaliseen laskemiseen — ihanteellinen esikouluikäisille, jotka aloittavat yhteenlaskun. Kuva + Numero -tila yhdistää kuvia ja numeroita konkreettisen ja abstraktin ajattelun yhdistämiseksi. Etsi Yhteenlaskettava -tila näyttää summan ja yhden ryhmän, kehittäen varhaista algebrallista ajattelua. Sekatila yhdistää kaikki kolme vaihtelevaan, toistamattomaan harjoitteluun.',
       },
       {
-        title: 'Saadettavat lukualueet',
+        title: 'Säädettävät lukualueet',
         description:
-          'Aseta minimi- ja maksimimaara elementteja ryhmaa kohti 1:sta 10:een halliten taysin vaikeustasoa. Luo yksinkertaisia tyoarkkeja 1+1:sta 3+3:een nuorimmille, vakioharjoituksia 1–10 esikouluikaisille tai haastavia lukuja lahella kymmentä 1. ja 2. luokkalaisille. Saato vaatii vain yhden napsautuksen, joten voit eritella materiaalia kokonaiselle ryhmalle muutamassa minuutissa. Tama yksityiskohtainen lukualuekontrolli tarkoittaa, etta voit luoda tarkkaan kohdennettuja tuotteita jokaiselle kehitysasteelle, varhaisesta laskemisesta monilukuisen yhteenlaskun hallintaan.',
+          'Aseta minimi- ja maksimimäärä elementtejä ryhmää kohti 1:sta 10:een halliten täysin vaikeustasoa. Luo yksinkertaisia työarkkeja 1+1:sta 3+3:een nuorimmille, vakioharjoituksia 1–10 esikouluikäisille tai haastavia lukuja lähellä kymmentä 1. ja 2. luokkalaisille. Säätö vaatii vain yhden napsautuksen, joten voit eritellä materiaalia kokonaiselle ryhmälle muutamassa minuutissa. Tämä yksityiskohtainen lukualuekontrolli tarkoittaa, että voit luoda tarkkaan kohdennettuja tuotteita jokaiselle kehitysasteelle, varhaisesta laskemisesta monilukuisen yhteenlaskun hallintaan.',
       },
       {
         title: '104 visuaalista teemaa yli 3 100 kuvalla',
         description:
-          'Tutustu kirjastoon, jossa on yli 3 100 huolellisesti valittua kuvitusta 104 teemassa: maatilaelamet, merielaimet, ajoneuvot, avaruus, ruoka, urheilu, dinosaurukset, juhlapyhat ja paljon muuta. Jokainen kuva on korkearesoluutioinen ja suunniteltu teravia, selkeita tulosteita varten. Koska kuvat valittavat matemaattisen sisallon — eivat teksti — tyoarkkisi toimivat moitteettomasti kaikilla kielilla ja kaikilla markkinoilla maailmanlaajuisesti.',
+          'Tutustu kirjastoon, jossa on yli 3 100 huolellisesti valittua kuvitusta 104 teemassa: maatilaeläimet, merieläimet, ajoneuvot, avaruus, ruoka, urheilu, dinosaurukset, juhlapyhät ja paljon muuta. Jokainen kuva on korkearesoluutioinen ja suunniteltu teräviä, selkeitä tulosteita varten. Koska kuvat välittävät matemaattisen sisällön — eivät teksti — työarkkisi toimivat moitteettomasti kaikilla kielillä ja kaikilla markkinoilla maailmanlaajuisesti.',
       },
       {
         title: 'Automaattinen vastausavaimen luominen',
         description:
-          'Napsauta yhta painiketta luodaksesi taysin vastausavaimen, joka toistaa tyoarkkisi asettelun kaikilla vastauksilla taytettyina. Vastausavain-valilehti nayttaa reaaliaikaisen esikatselun, joten voit tarkistaa oikeellisuuden ennen lataamista. Vie vastausavain erillisenä JPEG- tai PDF-tiedostona, mikä tekee sen sisallyttamisen Etsy-tuotepaketteihin, KDP-kirjojen liitteisiin tai Gumroad-digitaalipaketteihin helpoksi ilman mitaan manuaalista tyota.',
+          'Napsauta yhtä painiketta luodaksesi täysin vastausavaimen, joka toistaa työarkkisi asettelun kaikilla vastauksilla täytettyinä. Vastausavain-välilehti näyttää reaaliaikaisen esikatselun, joten voit tarkistaa oikeellisuuden ennen lataamista. Vie vastausavain erillisenä JPEG- tai PDF-tiedostona, mikä tekee sen sisällyttämisen Etsy-tuotepaketteihin, KDP-kirjojen liitteisiin tai Gumroad-digitaalipaketteihin helpoksi ilman mitään manuaalista työtä.',
       },
       {
-        title: 'Tulostuvalmis vienti 400+ DPI:na PDF- ja JPEG-muodossa',
+        title: 'Tulostuvalmis vienti 400+ DPI:nä PDF- ja JPEG-muodossa',
         description:
-          'Lataa tyoarkkeja ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai monisivuisina PDF-dokumentteina. Vientimoottori renderoi 6x-kertoimella, tuottaen yli 400 DPI:n tarkkuuden vakiosivukoossa. Tama takaa teravat viivat ja tekstin kotitulostukseen, ammattitulostukseen tai digitaalisten tuotteiden lataamiseen verkkomarkkinapaikoille. Letter-, A4-, nelio- ja mukautetut koot ovat kaikki tuettuja.',
+          'Lataa työarkkeja ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai monisivuisina PDF-dokumentteina. Vientimoottori renderöi 6x-kertoimella, tuottaen yli 400 DPI:n tarkkuuden vakiosivukoossa. Tämä takaa terävät viivat ja tekstin kotitulostukseen, ammattitulostukseen tai digitaalisten tuotteiden lataamiseen verkkomarkkinapaikoille. Letter-, A4-, neliö- ja mukautetut koot ovat kaikki tuettuja.',
       },
       {
         title: 'Lataa omia kuvia',
         description:
-          'Mene sisaanrakennetun kirjaston ohi lataamalla omia PNG- tai JPEG-kuvia suoraan sovellukseen. Ihanteellinen brandatyille tyoarkeille, mukautetulle clipartille, brandimaskotille tai kausiluonteiselle sisallolle, joka erottaa tulostettavat tuotteesi kilpailijoista. Ladatut kuvat integroituvat saumattomasti kaikkiin harjoitustiloihin, joten sailytat tayden luovan hallinnan.',
+          'Mene sisäänrakennetun kirjaston ohi lataamalla omia PNG- tai JPEG-kuvia suoraan sovellukseen. Ihanteellinen brändätyille työarkeille, mukautetulle clipartille, brändimaskotille tai kausiluonteiselle sisällölle, joka erottaa tulostettavat tuotteesi kilpailijoista. Ladatut kuvat integroituvat saumattomasti kaikkiin harjoitustiloihin, joten säilytät täyden luovan hallinnan.',
       },
       {
-        title: 'Koristeelliset kehykset ja taustateemaaat',
+        title: 'Koristeelliset kehykset ja taustateemat',
         description:
-          'Muuta tyoarkkisi yksinkertaisista ammattimaisiksi koristeellisilla kehyksilla ja taustakuvilla samasta 104 teeman kirjastosta. Saada kehyksen ja taustan lapinakyvyytta toisistaan riippumatta, jotta visuaaliset koristeet rikastuttavat suunnittelua haeritsematta matemaattista sisaltoa. Kausiluonteisen kehyksen yhdistaminen varikkääseen taustaan luo teemapaketteja, jotka saavuttavat korkeampia hintoja Etsyssa.',
+          'Muuta työarkkisi yksinkertaisista ammattimaisiksi koristeellisilla kehyksillä ja taustakuvilla samasta 104 teeman kirjastosta. Säädä kehyksen ja taustan läpinäkyvyyttä toisistaan riippumatta, jotta visuaaliset koristeet rikastuttavat suunnittelua häiritsemättä matemaattista sisältöä. Kausiluonteisen kehyksen yhdistäminen värikkääseen taustaan luo teemapaketteja, jotka saavuttavat korkeampia hintoja Etsyssä.',
       },
       {
-        title: 'Taysi piirtoalustamuokkaus kumoa- ja tee uudelleen -toiminnolla',
+        title: 'Täysi piirtoalustamuokkaus kumoa- ja tee uudelleen -toiminnolla',
         description:
-          'Sisaanrakennettu Fabric.js-piirtoalusta antaa sinun vetaa, skaalata, kiertaa ja siirtaa jokaista sivun elementtia — tekstia, kuvia, tehtavalohkoja, kehyksia ja taustoja. Zoomaa sisaan tarkkaan sijoitteluun ja kaytta rajoittamatonta kumoa- ja tee uudelleen -toimintoa kokeilemiseen vapaasti. Lukitse elementteja paikalleen tai avaa kaikki spontaania uudelleensuunnittelua varten — graafisen suunnitteluohjelman joustavuus tyoarkkigeneraattorin sisalla.',
+          'Sisäänrakennettu Fabric.js-piirtoalusta antaa sinun vetää, skaalata, kiertää ja siirtää jokaista sivun elementtiä — tekstiä, kuvia, tehtävälohkoja, kehyksiä ja taustoja. Zoomaa sisään tarkkaan sijoitteluun ja käytä rajoittamatonta kumoa- ja tee uudelleen -toimintoa kokeilemiseen vapaasti. Lukitse elementtejä paikalleen tai avaa kaikki spontaania uudelleensuunnittelua varten — graafisen suunnitteluohjelman joustavuus työarkkigeneraattorin sisällä.',
       },
     ],
   },
 
   businessUseCases: {
-    title: 'Nain Myyat Yhteenlaskutyoarkkeja Verkossa',
+    title: 'Näin Myyt Yhteenlaskutyöarkkeja Verkossa',
     cases: [
       {
-        title: 'Teemakohtaiset yhteenlaskutyoarkkipaketit Etsyssa',
+        title: 'Teemakohtaiset yhteenlaskutyöarkkipaketit Etsyssä',
         description:
-          'Luo 10–20 yhteenlaskutyoarkin sarjoja ryhmiteltyina teemoittain — maatilaelamet, dinosaurukset, merielaimet, juhlapyhat — ja tarjoa niita suorana latauksena Etsyssa. Sisallyta vastausavain bonustiedostona jokaiseen pakettiin. Teemapaketit houkuttelevat vanhempia, jotka etsivat tiettya aihepiiriä, ja ostajia, jotka tarvitsevat valmista materiaalia. Hinnoittele yksittaiset teemat 3–5 euroon ja megapaketit 12–18 euroon vahvaan keskimaaraiseen tilausarvoon.',
+          'Luo 10–20 yhteenlaskutyöarkin sarjoja ryhmiteltyinä teemoittain — maatilaeläimet, dinosaurukset, merieläimet, juhlapyhät — ja tarjoa niitä suorana latauksena Etsyssä. Sisällytä vastausavain bonustiedostona jokaiseen pakettiin. Teemapaketit houkuttelevat vanhempia, jotka etsivät tiettyä aihepiiriä, ja ostajia, jotka tarvitsevat valmista materiaalia. Hinnoittele yksittäiset teemat 3–5 euroon ja megapaketit 12–18 euroon vahvaan keskimääräiseen tilausarvoon.',
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Matematiikka-aktiviteettikirjat Amazon KDP:ssa',
+        title: 'Matematiikka-aktiviteettikirjat Amazon KDP:ssä',
         description:
-          'Kokoa 50–100 yhteenlaskutyoarkkia painetuksi aktiviteettikirjaksi Amazon KDP -muodossa. Kaytta nousevaa vaikeustasoa — aloita Kuva + Kuva -tilasta matalilla lukualueilla ja etene Sekatilaan lahelle 10:ta — luodaksesi jasennetyn oppimisjatkumon. Lisaa kansilehti, ohjeet ja vastausavainosa loppuun. KDP:n matematiikka-aktiviteettikirjat 3–7-vuotiaille myyvat johdonmukaisesti ymparivuotisesti minimaalisilla mainoskuluilla.',
+          'Kokoa 50–100 yhteenlaskutyöarkkia painetuksi aktiviteettikirjaksi Amazon KDP -muodossa. Käytä nousevaa vaikeustasoa — aloita Kuva + Kuva -tilasta matalilla lukualueilla ja etene Sekatilaan lähelle 10:tä — luodaksesi jäsennetyn oppimisjatkumon. Lisää kansilehti, ohjeet ja vastausavainosa loppuun. KDP:n matematiikka-aktiviteettikirjat 3–7-vuotiaille myyvät johdonmukaisesti ympärivuotisesti minimaalisilla mainoskuluilla.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
         title: 'Tasoitetut matematiikkatuotteet Gumroadiin',
         description:
-          'Luo yhteenlaskusarjoja tasoittain kayttäen neljaa harjoitustilaa luonnollisina tuotetasoina: Taso 1 (Kuva + Kuva, alue 1–3), Taso 2 (Kuva + Numero, alue 1–5), Taso 3 (Etsi Yhteenlaskettava, alue 1–7) ja Taso 4 (Sekatila, alue 1–10). Jokainen taso vastausavaimella ja edistymisen seurantalomakkeella. Gumroadin ostajat maksavat premiumhintoja tasoitetuista tuotteista, joita he voivat kayttaa suoraan useille tasoryhmille.',
+          'Luo yhteenlaskusarjoja tasoittain käyttäen neljää harjoitustilaa luonnollisina tuotetasoina: Taso 1 (Kuva + Kuva, alue 1–3), Taso 2 (Kuva + Numero, alue 1–5), Taso 3 (Etsi Yhteenlaskettava, alue 1–7) ja Taso 4 (Sekatila, alue 1–10). Jokainen taso vastausavaimella ja edistymisen seurantalomakkeella. Gumroadin ostajat maksavat premiumhintoja tasoitetuista tuotteista, joita he voivat käyttää suoraan useille tasoryhmille.',
         platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Digitaaliset tuotteet omassa verkkokaupassa',
         description:
-          'Kaytta generaattoria tuottamaan viikottaisia yhteenlaskutyoarkkipaketteja ja jakele niita oman Shopify-, Gumroad- tai Payhip-kauppasi kautta. Tilausmalli — uusi teemapaketti joka viikko — luo toistuvaa tuloa ja rakentaa uskollisen asiakaskunnan kotiopiskeluperheiden ja tukiopetuskeskusten keskuudessa. Nelja harjoitustilaa ja 104 teemaa tarjoavat riittavasti vaihtelua vuosien ainutlaatuiseen sisaltoon.',
+          'Käytä generaattoria tuottamaan viikottaisia yhteenlaskutyöarkkipaketteja ja jakele niitä oman Shopify-, Gumroad- tai Payhip-kauppasi kautta. Tilausmalli — uusi teemapaketti joka viikko — luo toistuvaa tuloa ja rakentaa uskollisen asiakaskunnan kotiopiskeluperheiden ja tukiopetuskeskusten keskuudessa. Neljä harjoitustilaa ja 104 teemaa tarjoavat riittävästi vaihtelua vuosien ainutlaatuiseen sisältöön.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Harjoitustyoarkit verkossa ja yksityisopetuksessa',
+        title: 'Harjoitustyöarkit verkossa ja yksityisopetuksessa',
         description:
-          'Luo raataloityja yhteenlaskutyoarkkeja jokaiselle kayttajalle nykyisen tason mukaan. Tulosta Kuva + Kuva -tyoarkkeja aloittelijoille ja Etsi Yhteenlaskettava -tyoarkkeja edistyneille kayttajille — kaikki samassa istunnossa. Automaattinen vastausavain saastaa arvoa. Riippumatta siita johdatko tukiopetuskeskusta, opetat esikoulussa tai kotiopiskelat — generaattori korvaa tuntien manuaalisen tyon muutamalla napsautuksella.',
+          'Luo räätälöityjä yhteenlaskutyöarkkeja jokaiselle käyttäjälle nykyisen tason mukaan. Tulosta Kuva + Kuva -työarkkeja aloittelijoille ja Etsi Yhteenlaskettava -työarkkeja edistyneille käyttäjille — kaikki samassa istunnossa. Automaattinen vastausavain säästää arvoa. Riippumatta siitä johdatko tukiopetuskeskusta, opetat esikoulussa tai kotiopiskelet — generaattori korvaa tuntien manuaalisen työn muutamalla napsautuksella.',
         platform: 'Verkko / Yksityisopetus / Kotiopiskelu',
       },
     ],
@@ -144,54 +144,54 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Mitä harjoitustiloja Yhteenlaskutyoarkkien Generaattori tarjoaa?',
+      question: 'Mitä harjoitustiloja Yhteenlaskutyöarkkien Generaattori tarjoaa?',
       answer:
-        'Generaattori sisaltaa nelja tilaa: Kuva + Kuva (kaksi kuvaryhmaa laskettavaksi ja yhteenlaskettavaksi), Kuva + Numero (yksi kuvaryhmä plus numero), Etsi Yhteenlaskettava (summa nakyy ja kayttajat loytavat puuttuvan ryhman) ja Sekatila (yhdistaa kaikki kolme). Jokainen tila kohdistuu eri vaikeustasolle, puhtaasta visuaalisesta laskemisesta varhaiseen algebralliseen ajatteluun. Myyjat, jotka tarjoavat kaikki nelja tilaa tasoitetussa paketissa, voivat pyytaa premiumhintoja, koska ostajat saavat taysin etenemisen aloittelijasta edistyneeseen.',
+        'Generaattori sisältää neljä tilaa: Kuva + Kuva (kaksi kuvaryhmää laskettavaksi ja yhteenlaskettavaksi), Kuva + Numero (yksi kuvaryhmä plus numero), Etsi Yhteenlaskettava (summa näkyy ja käyttäjät löytävät puuttuvan ryhmän) ja Sekatila (yhdistää kaikki kolme). Jokainen tila kohdistuu eri vaikeustasolle, puhtaasta visuaalisesta laskemisesta varhaiseen algebralliseen ajatteluun. Myyjät, jotka tarjoavat kaikki neljä tilaa tasoitetussa paketissa, voivat pyytää premiumhintoja, koska ostajat saavat täyden etenemisen aloittelijasta edistyneeseen.',
     },
     {
-      question: 'Mita lukualueita voin asettaa yhteenlaskutehtaviin?',
+      question: 'Mitä lukualueita voin asettaa yhteenlaskutehtäviin?',
       answer:
-        'Voit asettaa minimi- ja maksimimaaran elementteja ryhmaa kohti 1:sta 10:een. Tama tarkoittaa, etta voit luoda helppoja tehtavia kuten 1+1 esikouluun tai haastavampia lukuja lahelle 10+10 1. ja 2. luokalle. Saato tehdaan kahdella yksinkertaisella kenttävälillä Harjoituksen Maarittely -paneelissa. Tama tarkka hallinta tekee helpoksi luoda tuotelinjoja tasoittain — esikoulupaketti alueella 1–3, alkuopetuspaketti alueella 1–5 ja edistynyt paketti alueella 1–10.',
+        'Voit asettaa minimi- ja maksimimäärän elementtejä ryhmää kohti 1:sta 10:een. Tämä tarkoittaa, että voit luoda helppoja tehtäviä kuten 1+1 esikouluun tai haastavampia lukuja lähelle 10+10 1. ja 2. luokalle. Säätö tehdään kahdella yksinkertaisella kenttävälillä Harjoituksen Määrittely -paneelissa. Tämä tarkka hallinta tekee helpoksi luoda tuotelinjoja tasoittain — esikoulupaketti alueella 1–3, alkuopetuspaketti alueella 1–5 ja edistynyt paketti alueella 1–10.',
     },
     {
       question: 'Kuinka monta kuvaa ja teemaa on saatavilla?',
       answer:
-        'Sisaanrakennettu kuvakirjasto sisaltaa yli 3 100 kuvitusta 104 teemassa, mukaan lukien elaimet, ajoneuvot, ruoka, juhlapyhat, urheilu, avaruus, luonto ja paljon muuta. Voit myos ladata omia kuvia, jos tarvitset brandi- tai kausiluonteisia kuvituksia. Kaikki kuvat ovat korkearesoluutioisia ja tulostuvat teravasti seka kotitulostimilla etta ammattitulostuspalveluissa.',
+        'Sisäänrakennettu kuvakirjasto sisältää yli 3 100 kuvitusta 104 teemassa, mukaan lukien eläimet, ajoneuvot, ruoka, juhlapyhät, urheilu, avaruus, luonto ja paljon muuta. Voit myös ladata omia kuvia, jos tarvitset brändi- tai kausiluonteisia kuvituksia. Kaikki kuvat ovat korkearesoluutioisia ja tulostuvat terävästi sekä kotitulostimilla että ammattitulostuspalveluissa.',
     },
     {
       question: 'Luoko generaattori vastausavaimia automaattisesti?',
       answer:
-        'Kylla. Napsauta Luo Vastausavain -painiketta luodaksesi taytetyn version tyoarkistasi kaikilla oikeilla numeroilla. Voit esikatsella vastausavainta naytolla ja ladata sen erillisenä JPEG- tai PDF-tiedostona tyoarkin ohella. Vastausavainten sisallyttaminen tuotetarjouksiin lisaa koettua arvoa myyjille, jotka odottavat valmiita tulostettavia tuotteita.',
+        'Kyllä. Napsauta Luo Vastausavain -painiketta luodaksesi täytetyn version työarkistasi kaikilla oikeilla numeroilla. Voit esikatsella vastausavainta näytöllä ja ladata sen erillisenä JPEG- tai PDF-tiedostona työarkin ohella. Vastausavainten sisällyttäminen tuotetarjouksiin lisää koettua arvoa myyjille, jotka odottavat valmiita tulostettavia tuotteita.',
     },
     {
       question: 'Mitä sivukokoja ja vientimuotoja tuetaan?',
       answer:
-        'Valitse Letter Pysty, Letter Vaaka, A4 Pysty, A4 Vaaka, Nelio (1200x1200) tai mukautettu koko. Vie korkearesoluutioisena JPEG- tai tulostusvalmiina PDF-tiedostona. Kaikki viennit renderoidaan yli 400 DPI:n tarkkuudella, mikä takaa ammattimaisen tulostuslaadun. Muotojen monimuotoisuus mahdollistaa tuotteiden luomisen eri markkinoille — Letter pohjoisamerikkalaisille ostajille, A4 eurooppalaisille asiakkaille.',
+        'Valitse Letter Pysty, Letter Vaaka, A4 Pysty, A4 Vaaka, Neliö (1200x1200) tai mukautettu koko. Vie korkearesoluutioisena JPEG- tai tulostusvalmiina PDF-tiedostona. Kaikki viennit renderöidään yli 400 DPI:n tarkkuudella, mikä takaa ammattimaisen tulostuslaadun. Muotojen monimuotoisuus mahdollistaa tuotteiden luomisen eri markkinoille — Letter pohjoisamerikkalaisille ostajille, A4 eurooppalaisille asiakkaille.',
     },
     {
-      question: 'Ovatko yhteenlaskutyoarkit kieliriippuvaisia?',
+      question: 'Ovatko yhteenlaskutyöarkit kieliriippuvaisia?',
       answer:
-        'Eivat. Yhteenlaskutyoarkit ovat taysin visuaalisia — matemaattinen sisalto kayttaa kuvia ja numeroita, ei sanoja. Eri kielella luotu tyoarkki toimii kaikilla kielilla. Kieliasetus muuttaa vain sovelluksen kayttoliittymän tunnisteita, ei tyoarkin sisaltoa, mikä tekee tuotteistasi valittomasti myytavia maailmanlaajuisesti ilman kaannöstyota.',
+        'Eivät. Yhteenlaskutyöarkit ovat täysin visuaalisia — matemaattinen sisältö käyttää kuvia ja numeroita, ei sanoja. Eri kielellä luotu työarkki toimii kaikilla kielillä. Kieliasetus muuttaa vain sovelluksen käyttöliittymän tunnisteita, ei työarkin sisältöä, mikä tekee tuotteistasi välittömästi myytäviä maailmanlaajuisesti ilman käännöstyötä.',
     },
     {
-      question: 'Voinko kayttaa omia kuvia sisaanrakennetun kirjaston sijaan?',
+      question: 'Voinko käyttää omia kuvia sisäänrakennetun kirjaston sijaan?',
       answer:
-        'Ehdottomasti. Lataa Omat Kuvat -paneeli antaa sinun ladata omia PNG- tai JPEG-tiedostoja suoraan generaattoriin. Ladatut kuvat integroituvat kaikkiin neljaan harjoitustilaan ja nayttävat kirjastokuvien rinnalla, joten voit yhdistaa mukautettuja kuvituksia sisaanrakennettuun kokoelmaan ainutlaatuisen tuloksen saavuttamiseksi.',
+        'Ehdottomasti. Lataa Omat Kuvat -paneeli antaa sinun ladata omia PNG- tai JPEG-tiedostoja suoraan generaattoriin. Ladatut kuvat integroituvat kaikkiin neljään harjoitustilaan ja näyttävät kirjastokuvien rinnalla, joten voit yhdistää mukautettuja kuvituksia sisäänrakennettuun kokoelmaan ainutlaatuisen tuloksen saavuttamiseksi.',
     },
     {
       question: 'Onko saatavilla ilmaista kokeilua?',
       answer:
-        'Kylla. Sinulla on paasy kaikkiin generaattorin ominaisuuksiin — kaikkiin neljaan harjoitustilaan, tayteen kuvakirjastoon, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista, luottokortin syottamista tai ohjelmiston asentamista. Ilmaisen kokeilun lataukset sisaltavat pienen vesileiman. Kaupallinen lisenssi poistaa vesileiman ja antaa taydet myyntioikeudet.',
+        'Kyllä. Sinulla on pääsy kaikkiin generaattorin ominaisuuksiin — kaikkiin neljään harjoitustilaan, täyteen kuvakirjastoon, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisaltaa?',
+      question: 'Mitä kaupallinen lisenssi sisältää?',
       answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myyda luomiasi tyoarkkeja — Etsyssa, Amazon KDP:ssa, Gumroadissa, omalla verkkosivustollasi tai millä tahansa muulla alustalla. Ei myyntikohtaisia rojalteja, ei kuukausimaksuja eika rajoituksia tyoarkkien maaran tuottamisessa tai myymisessa.',
+        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myydä luomiasi työarkkeja — Etsyssä, Amazon KDP:ssä, Gumroadissa, omalla verkkosivustollasi tai millä tahansa muulla alustalla. Ei myyntikohtaisia rojalteja, ei kuukausimaksuja eikä rajoituksia työarkkien määrän tuottamisessa tai myymisessä.',
     },
     {
-      question: 'Voinko myyda talla tyokalulla luotuja tyoarkkeja Etsyssa ja Amazon KDP:ssa?',
+      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssä?',
       answer:
-        'Kylla. Kaupallisella lisenssilla sinulla on taydet oikeudet myyda yhteenlaskutyoarkkejasi digitaalisina latauksina Etsyssa, painettuina aktiviteettikirjoina Amazon KDP:ssa, koulutuksellisina tulostettavina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Monet myyjat luovat teemapaketteja ja aktiviteettikirjoja, jotka tuottavat johdonmukaista tuloa.',
+        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä yhteenlaskutyöarkkejasi digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssä, koulutuksellisina tulostettavina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Monet myyjät luovat teemapaketteja ja aktiviteettikirjoja, jotka tuottavat johdonmukaista tuloa.',
     },
     {
       question: 'Sopivatko yhteenlaskutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
@@ -211,7 +211,7 @@ const content: AppContent = {
     {
       question: 'Mikä on palautuskäytäntö?',
       answer:
-        'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata jokaisen tilan, jokaisen teeman, jokaisen vientimuodon ja jokaisen sivukoon ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, etta tyokalu vastaa tarpeitasi ennen lisenssin hankkimista.',
+        'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata jokaisen tilan, jokaisen teeman, jokaisen vientimuodon ja jokaisen sivukoon ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu vastaa tarpeitasi ennen lisenssin hankkimista.',
     },
   ],
 
@@ -219,32 +219,32 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'vahennyslasku-tyoarkit',
-      anchorText: 'Vahennyslasku Tyoarkkien Generaattori',
+      anchorText: 'Vähennyslasku Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'koodiyhteenlasku-tyoarkit',
-      anchorText: 'Koodiyhteenlasku Tyoarkkien Generaattori',
+      anchorText: 'Koodiyhteenlasku Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'matikkapulmapeli-tyoarkit',
-      anchorText: 'Matikkapulmapeli Tyoarkkien Generaattori',
+      anchorText: 'Matikkapulmapeli Työarkkien Generaattori',
     },
     {
       pageType: 'bundle',
       slug: 'matematiikan-mestaripaketti',
-      anchorText: 'Matematiikan Mestaripaketti — Kaikki Matematiikkatyokalut',
+      anchorText: 'Matematiikan Mestaripaketti — Kaikki Matematiikkatyökalut',
     },
     {
       pageType: 'guide',
       slug: 'luo-yhteenlaskutyoarkkeja',
-      anchorText: 'Nain Luot Yhteenlaskutyoarkkeja, Jotka Myyvat',
+      anchorText: 'Näin Luot Yhteenlaskutyöarkkeja, Jotka Myyvät',
     },
     {
       pageType: 'guide',
       slug: 'myy-matematiikkatyoarkkeja-etsy',
-      anchorText: 'Opas Matematiikkatyoarkkien Myymiseen Etsyssa',
+      anchorText: 'Opas Matematiikkatyöarkkien Myymiseen Etsyssä',
     },
     {
       pageType: 'idea',
@@ -254,34 +254,34 @@ const content: AppContent = {
     {
       pageType: 'start',
       slug: 'luo-tyoarkkeja-jotka-myyvat',
-      anchorText: 'Luo tyoarkkeja, jotka myyvat',
+      anchorText: 'Luo työarkkeja, jotka myyvät',
     },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/finnish/addition/hauska-yhteenlasku-1.webp',
-      primaryAlt: 'Yhteenlaskutyoarkki varikkäillä elainkuvilla Kuva + Kuva -harjoitustilassa',
+      primaryAlt: 'Yhteenlaskutyöarkki värikkäillä eläinkuvilla Kuva + Kuva -harjoitustilassa',
     },
     sampleGallery: [
       {
         src: '/samples/finnish/addition/hauska-yhteenlasku-1.webp',
-        alt: 'Pystysuuntainen yhteenlaskutyoarkki Kuva + Kuva -tilassa eläinteemalla',
-        caption: 'Kuva + Kuva -tila — laske kaksi kuvaryhmaa ja kirjoita summa',
+        alt: 'Pystysuuntainen yhteenlaskutyöarkki Kuva + Kuva -tilassa eläinteemalla',
+        caption: 'Kuva + Kuva -tila — laske kaksi kuvaryhmää ja kirjoita summa',
       },
       {
         src: '/samples/finnish/addition/hauska-yhteenlasku-2.webp',
-        alt: 'Vaakasuuntainen yhteenlaskutyoarkki Kuva + Numero -tilassa ruokateemalla',
-        caption: 'Kuva + Numero -tila — yhdistaa kuvaryhmat numeroihin siltataitojen kehittamiseksi',
+        alt: 'Vaakasuuntainen yhteenlaskutyöarkki Kuva + Numero -tilassa ruokateemalla',
+        caption: 'Kuva + Numero -tila — yhdistää kuvaryhmät numeroihin siltataitojen kehittämiseksi',
       },
       {
         src: '/samples/finnish/addition/hauska-yhteenlasku-1-answer-key.webp',
-        alt: 'Yhteenlaskutyoarkki Etsi Yhteenlaskettava -tilassa ajoneuvoteemalla',
-        caption: 'Etsi Yhteenlaskettava -tila — kayttajat loytavat puuttuvan ryhman varhaisen algebrallisen ajattelun kehittamiseksi',
+        alt: 'Yhteenlaskutyöarkki Etsi Yhteenlaskettava -tilassa ajoneuvoteemalla',
+        caption: 'Etsi Yhteenlaskettava -tila — käyttäjät löytävät puuttuvan ryhmän varhaisen algebrallisen ajattelun kehittämiseksi',
       },
     ],
     youtubeId: '6O5aCzHkh8M',
-    videoTitle: 'Luo Kuvapohjaiset Yhteenlaskutyoarkit — Vaihe Vaiheelta Opas',
+    videoTitle: 'Luo Kuvapohjaiset Yhteenlaskutyöarkit — Vaihe Vaiheelta Opas',
   },
 };
 

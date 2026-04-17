@@ -25,119 +25,119 @@ const content: AppContent = {
     title: 'Sijaintisanojen generaattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Kahdeksan paikkasanaa kohtaavat kuva-ja-muoto-harjoitukset — rakenna paikkasanastoa lause lauseelta.',
     description:
-      'Suunnittele ammattimaisia prepositiot tyoarkkeja, jotka opettavat paikkasuhteita kaytannollisten kuva-ja-muoto-harjoitusten kautta. Kayttajat harjoittelevat kahdeksaa ydinprepositiota — sisalla, paalla, alla, vieressa, takana, valissa, ylapuolella ja edessa — kahdella eri harjoitustilalla: Tayttoharjoitukset, joissa kayttajat kirjoittavat puuttuvan preposition, ja Monivalintakysymykset, joissa kayttajat tunnistavat kuvan, joka vastaa paikallista kuvausta. Valitse mitkä prepositiot sisallyta sisäänrakennetulla tarkistuslistalla ja maarittele 1–8 harjoitusta tyoarkkia kohti. Selaa yli 3 100 kuvitusta 104 teemassa sijoitettaville esineille ja valitse 8 geometrisen muodon (ympyra, kuutio, lieriö, sydan, kuusikulmio, nelio, tahti, kolmio) joukosta. Taysi Paasy avaa kaikki 11 tuettua kieltä kieliopillisesti oikeilla prepositioilla. Jokainen tyoarkki luo automaattisen vastausavaimen. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
+      'Suunnittele ammattimaisia prepositiot työarkkeja, jotka opettavat paikkasuhteita käytännöllisten kuva-ja-muoto-harjoitusten kautta. Käyttäjät harjoittelevat kahdeksaa ydinprepositiota — sisällä, päällä, alla, vieressä, takana, välissä, yläpuolella ja edessä — kahdella eri harjoitustilalla: Täyttöharjoitukset, joissa käyttäjät kirjoittavat puuttuvan preposition, ja Monivalintakysymykset, joissa käyttäjät tunnistavat kuvan, joka vastaa paikallista kuvausta. Valitse mitkä prepositiot sisällyttää sisäänrakennetulla tarkistuslistalla ja määrittele 1–8 harjoitusta työarkkia kohti. Selaa yli 3 100 kuvitusta 104 teemassa sijoitettaville esineille ja valitse 8 geometrisen muodon (ympyrä, kuutio, lieriö, sydän, kuusikulmio, neliö, tähti, kolmio) joukosta. Täysi Pääsy avaa kaikki 11 tuettua kieltä kieliopillisesti oikeilla prepositioilla. Jokainen työarkki luo automaattisen vastausavaimen. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
   ctaHeading: 'Luo sijaintisanatehtäviä',
 
   howItWorks: {
-    title: 'Nain Luot Prepositiot Tyoarkkeja Viidessa Vaiheessa',
+    title: 'Näin Luot Prepositiot Työarkkeja Viidessä Vaiheessa',
     steps: [
       {
         title: 'Aseta sivun asettelu',
         description:
-          'Avaa Sivun Asetukset -paneeli ja valitse koko: Letter Pysty, Letter Vaaka, A4 Pysty, A4 Vaaka, Nelio (1200x1200) tai mukautettu koko. Valitse taustavari, valitse koristeellinen taustateema kuvakirjastosta ja saada lapinakyvyytta. Lisaa yhteensopiva kehys ammattimaiseen ulkoasuun.',
+          'Avaa Sivun Asetukset -paneeli ja valitse koko: Letter Pysty, Letter Vaaka, A4 Pysty, A4 Vaaka, Neliö (1200x1200) tai mukautettu koko. Valitse taustaväri, valitse koristeellinen taustateema kuvakirjastosta ja säädä läpinäkyvyyttä. Lisää yhteensopiva kehys ammattimaiseen ulkoasuun.',
       },
       {
-        title: 'Valitse harjoitustila ja harjoitusten maara',
+        title: 'Valitse harjoitustila ja harjoitusten määrä',
         description:
-          'Avaa Harjoitusasetukset -paneeli ja valitse toinen kahdesta tilasta. Tayttoharjoitus-tila nayttaa lauseita kuten "Kissa on ____ neliön", joissa kayttajat kirjoittavat oikean preposition tyhjaan kohtaan. Monivalintakysymys-tila nayttaa paikallisen kuvauksen ja pyytaa kayttajia ympyröimaan vastaavan kuvan. Aseta harjoitusten maara tyoarkkia kohti 1:sta 8:aan.',
+          'Avaa Harjoitusasetukset -paneeli ja valitse toinen kahdesta tilasta. Täyttöharjoitus-tila näyttää lauseita kuten "Kissa on ____ neliön", joissa käyttäjät kirjoittavat oikean preposition tyhjään kohtaan. Monivalintakysymys-tila näyttää paikallisen kuvauksen ja pyytää käyttäjiä ympyröimään vastaavan kuvan. Aseta harjoitusten määrä työarkkia kohti 1:sta 8:aan.',
       },
       {
         title: 'Valitse prepositiot tarkistuslistasta',
         description:
-          'Avaa Prepositiot-tarkistuslista ja valitse mitkä kahdeksasta paikkasanasta sisallyta: sisalla, paalla, alla, vieressa, takana, valissa, ylapuolella ja edessa. Sisallyta kaikki kahdeksan kattavaan kertaukseen tai rajaa valinta kahteen tai kolmeen kohdennettua harjoittelua varten. Generaattori kayttaa vain valitsemiasi prepositioita.',
+          'Avaa Prepositiot-tarkistuslista ja valitse mitkä kahdeksasta paikkasanasta sisällyttää: sisällä, päällä, alla, vieressä, takana, välissä, yläpuolella ja edessä. Sisällytä kaikki kahdeksan kattavaan kertaukseen tai rajaa valinta kahteen tai kolmeen kohdennettua harjoittelua varten. Generaattori käyttää vain valitsemiasi prepositioita.',
       },
       {
         title: 'Valitse esineet ja muodot teemakirjastosta',
         description:
-          'Avaa Kuvakirjasto-paneeli ja selaa 104 teemaa esinevuville — sijoitettavat kohteet — ja valitse sitten 8 geometrisen muodon joukosta paikkasanan viitepisteiksi. Kaytta hakupalkkia loytaaksesi tiettyja kuvia. Muokkaa tekstityylia seitsemasta fontista. Ota kayttoon tai poista kaytosta nimi- ja paivamaarakentat ja lataa omia kuvia brandatyihin tyoarkkeihin.',
+          'Avaa Kuvakirjasto-paneeli ja selaa 104 teemaa esinekuville — sijoitettavat kohteet — ja valitse sitten 8 geometrisen muodon joukosta paikkasanan viitepisteiksi. Käytä hakupalkkia löytääksesi tiettyjä kuvia. Muokkaa tekstityyliä seitsemästä fontista. Ota käyttöön tai poista käytöstä nimi- ja päivämääräkentät ja lataa omia kuvia brändätyihin työarkkeihin.',
       },
       {
         title: 'Luo vastausavain ja lataa',
         description:
-          'Siirry Vastausavain-valilehdelle ja napsauta Luo Vastausavain luodaksesi ratkaistun version, jossa jokainen prepositiovastaus on taytetty. Vie seka tyoarkki etta vastausavain korkearesoluutioisena JPEG- tai tulostusvalmiina PDF-tiedostona. Ota kayttoon harmaa-astevienti musteystävallisiin versioihin. Jokainen vienti renderoidaan yli 400 DPI:na.',
+          'Siirry Vastausavain-välilehdelle ja napsauta Luo Vastausavain luodaksesi ratkaistun version, jossa jokainen prepositiovastaus on täytetty. Vie sekä työarkki että vastausavain korkearesoluutioisena JPEG- tai tulostusvalmiina PDF-tiedostona. Ota käyttöön harmaa-astevienti musteystävällisiin versioihin. Jokainen vienti renderöidään yli 400 DPI:na.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Prepositiot Tyoarkkien Generaattorin Avainominaisuudet',
+    title: 'Prepositiot Työarkkien Generaattorin Avainominaisuudet',
     features: [
       {
-        title: '8 paikkasanaa taytta- ja monivalintatiloilla',
+        title: '8 paikkasanaa täyttö- ja monivalintatiloilla',
         description:
-          'Harjoittele kahdeksaa ydinprepositiota — sisalla, paalla, alla, vieressa, takana, valissa, ylapuolella ja edessa — kahdella eri harjoitustyypilla. Tayttoharjoitus-tila esittaa kuva-ja-muoto-lauseita puuttuvalla prepositiolla, rakentaen kirjoitus- ja muistitaitoja. Monivalintakysymys-tila nayttaa paikallisen kuvauksen ja pyytaa kayttajia tunnistamaan vastaavan kuvan. Molempien tilojen kayttaminen eri tyoarkeissa luo luonnollisen etenemisen helposta vaikeaan.',
+          'Harjoittele kahdeksaa ydinprepositiota — sisällä, päällä, alla, vieressä, takana, välissä, yläpuolella ja edessä — kahdella eri harjoitustyypillä. Täyttöharjoitus-tila esittää kuva-ja-muoto-lauseita puuttuvalla prepositiolla, rakentaen kirjoitus- ja muistitaitoja. Monivalintakysymys-tila näyttää paikallisen kuvauksen ja pyytää käyttäjiä tunnistamaan vastaavan kuvan. Molempien tilojen käyttäminen eri työarkeissa luo luonnollisen etenemisen helposta vaikeaan.',
       },
       {
-        title: 'Kielitietoinen kielioppi sija-, elisio- ja artikkeligsaannöillä',
+        title: 'Kielitietoinen kielioppi sija-, elisio- ja artikkelisäännöillä',
         description:
-          'Taysi Paasy avaa kaikki 11 tuettua kieltä, ja jokainen kieli soveltaa omia kielioppisaantojaan prepositiolauseisiin. Saksa kayttaa datiivisijaistentrkaatioita kuten "im" ja "am" sukupuolitietoisilla artikkeleilla. Ranska soveltaa elisiosanntoja. Espanja ja portugali kayttavat sukupuolittuneita artikkeleita. Suomessa kaytetaan oikeita sijamuotoja prepositiolauseissa. Jokainen luotu lause on kieliopillisesti oikea kohdekielella.',
+          'Täysi Pääsy avaa kaikki 11 tuettua kieltä, ja jokainen kieli soveltaa omia kielioppisääntöjään prepositiolauseisiin. Saksa käyttää datiivisijaisia muotoja kuten "im" ja "am" sukupuolitietoisilla artikkeleilla. Ranska soveltaa elisiosääntöjä. Espanja ja portugali käyttävät sukupuolittuneita artikkeleita. Suomessa käytetään oikeita sijamuotoja prepositiolauseissa. Jokainen luotu lause on kieliopillisesti oikea kohdekielellä.',
       },
       {
-        title: 'Esineet + Muodot: kaksi kuvatyyppia paikkakontekstiin',
+        title: 'Esineet + Muodot: kaksi kuvatyyppiä paikkakontekstiin',
         description:
-          'Jokainen harjoitus sijoittaa esineen (temaattisen kuvituksen kuten kissan, auton tai omenan) suhteessa muotoon (ympyra, kuutio, lierö, sydan, kuusikulmio, nelio, tahti tai kolmio). Tama kahden kuvatyypin järjestelmä luo selkeita, yksiselitteisia paikkasuhteita. Esineet tulevat 104 teeman kirjastosta ja 8 geometrista muotoa toimivat myos varhaisena geometrian tutustumisena.',
+          'Jokainen harjoitus sijoittaa esineen (temaattisen kuvituksen kuten kissan, auton tai omenan) suhteessa muotoon (ympyrä, kuutio, lieriö, sydän, kuusikulmio, neliö, tähti tai kolmio). Tämä kahden kuvatyypin järjestelmä luo selkeitä, yksiselitteisiä paikkasuhteita. Esineet tulevat 104 teeman kirjastosta ja 8 geometrista muotoa toimivat myös varhaisena geometrian tutustumisena.',
       },
       {
-        title: 'Saadettava harjoitusmaara 1:sta 8:aan tyoarkkia kohti',
+        title: 'Säädettävä harjoitusmäärä 1:sta 8:aan työarkkia kohti',
         description:
-          'Maarita tarkalleen kuinka monta harjoitusta nakyy jokaisella sivulla, yhdesta kohdistetusta harjoituksesta aloittelijoille kahdeksaan harjoitusta tayteen sivuun kertausta ja arviointia varten. Vahemmat harjoitukset jattavat tilaa suuremmille kuville, ihanteellisia esikoulu- ja alkuopetustuotteille. Useammat harjoitukset maksimoivat harjoittelutiheyden.',
+          'Määritä tarkalleen kuinka monta harjoitusta näkyy jokaisella sivulla, yhdestä kohdistetusta harjoituksesta aloittelijoille kahdeksaan harjoitusta täyteen sivuun kertausta ja arviointia varten. Vähemmät harjoitukset jättävät tilaa suuremmille kuville, ihanteellisia esikoulu- ja alkuopetustuotteille. Useammat harjoitukset maksimoivat harjoittelutiheyden.',
       },
       {
         title: '104 visuaalista teemaa yli 3 100 kuvalla ja 8 geometrista muotoa',
         description:
-          'Selaa yli 3 100 korkearesoluutioisen kuvituksen kirjastoa 104 teemassa. Jokainen teema tarjoaa esinevuvia, jotka sijoitetaan suhteessa yhteen 8 geometrisesta muodosta. Voit myos ladata omia kuvia brandatyihin tyoarkkeihin. Temaattisten esineiden ja geometristen muotojen yhdistelma luo tuhansia ainutlaatuisia harjoituspermutaatioita.',
+          'Selaa yli 3 100 korkearesoluutioisen kuvituksen kirjastoa 104 teemassa. Jokainen teema tarjoaa esinekuvia, jotka sijoitetaan suhteessa yhteen 8 geometrisesta muodosta. Voit myös ladata omia kuvia brändättyihin työarkkeihin. Temaattisten esineiden ja geometristen muotojen yhdistelmä luo tuhansia ainutlaatuisia harjoituspermutaatioita.',
       },
       {
         title: 'Automaattinen vastausavaimen luominen',
         description:
-          'Napsauta yhta painiketta luodaksesi tayden vastausavaimen, joka toistaa tyoarkkisi asettelun jokaisella oikealla prepositiolla taytettyina. Tayttoharjoituksissa vastausavain nayttaa valmiin lauseen. Monivalinnassa se korostaa oikean kuvan. Vie vastausavain erillisenä tiedostona.',
+          'Napsauta yhtä painiketta luodaksesi täyden vastausavaimen, joka toistaa työarkkisi asettelun jokaisella oikealla prepositiolla täytettyinä. Täyttöharjoituksissa vastausavain näyttää valmiin lauseen. Monivalinnassa se korostaa oikean kuvan. Vie vastausavain erillisenä tiedostona.',
       },
       {
-        title: 'Tulostuvalmis vienti 400+ DPI:na harmaa-asteilla',
+        title: 'Tulostusvalmis vienti 400+ DPI:na harmaa-asteilla',
         description:
-          'Lataa tyoarkkeja ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina yli 400 DPI:na. Ota kayttoon harmaa-astevienti musteystävallisiin versioihin. Letter-, A4-, Nelio- ja mukautetut muodot ovat kaikki tuettuja.',
+          'Lataa työarkkeja ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina yli 400 DPI:na. Ota käyttöön harmaa-astevienti musteystävällisiin versioihin. Letter-, A4-, Neliö- ja mukautetut muodot ovat kaikki tuettuja.',
       },
       {
-        title: 'Taysi piirtoalustamuokkaus kumoa- ja tee uudelleen -toiminnolla',
+        title: 'Täysi piirtoalustamuokkaus kumoa- ja tee uudelleen -toiminnolla',
         description:
-          'Sisaanrakennettu Fabric.js-piirtoalusta antaa sinun vetaa, skaalata, kiertaa ja siirtaa jokaista elementtia. Kaytta tasonhallintaa, justeraustyokaluja ja lukitus/avaus-toimintoja enintaan 50 askeleen kumoa- ja tee uudelleen -toiminnolla.',
+          'Sisäänrakennettu Fabric.js-piirtoalusta antaa sinun vetää, skaalata, kiertää ja siirtää jokaista elementtiä. Käytä tasonhallintaa, justeraustyökaluja ja lukitus/avaus-toimintoja enintään 50 askeleen kumoa- ja tee uudelleen -toiminnolla.',
       },
     ],
   },
 
   businessUseCases: {
-    title: 'Nain Myyat Prepositiot Tyoarkkeja Verkossa',
+    title: 'Näin Myyt Prepositiot Työarkkeja Verkossa',
     cases: [
       {
-        title: 'Teemakohtaiset prepositiot tyoarkkipaketit Etsyssa',
+        title: 'Teemakohtaiset prepositiot työarkkipaketit Etsyssä',
         description:
-          'Luo 10–20 prepositiot tyoarkin sarjoja ryhmiteltyina teemoittain ja tarjoa niita suorana latauksena Etsyssa. Yhdista Tayttoharjoituksia ja Monivalintakysymyksia jokaisessa paketissa vaihtelun saavuttamiseksi. Sisallyta vastausavaimet bonustiedostoina. Hinnoittele yksittaiset teemapaketit 3–5 euroon ja moniteemaiset paketit 12–18 euroon.',
+          'Luo 10–20 prepositiot työarkin sarjoja ryhmiteltyinä teemoittain ja tarjoa niitä suorana latauksena Etsyssä. Yhdistä Täyttöharjoituksia ja Monivalintakysymyksiä jokaisessa paketissa vaihtelun saavuttamiseksi. Sisällytä vastausavaimet bonustiedostoina. Hinnoittele yksittäiset teemapaketit 3–5 euroon ja moniteemaiset paketit 12–18 euroon.',
         platform: 'Etsy (etsy.com)',
       },
       {
         title: 'Paikkasanaston aktiviteettikirjat Amazon KDP:ssa',
         description:
-          'Kokoa 50–100 prepositiot tyoarkkia painetuksi aktiviteettikirjaksi Amazon KDP -muodossa. Kaytta nousevaa vaikeustasoa aloittamalla kahdella prepositiolla ja yhdella harjoituksella sivua kohti, ja rakentaen asteittain kaikkiin kahdeksaan prepositioon tihein kahdeksalla harjoituksella. Paikkasanaston tyokirjat 4–8-vuotiaille tayttavat nichen, jossa on vahemman kilpailua.',
+          'Kokoa 50–100 prepositiot työarkkia painetuksi aktiviteettikirjaksi Amazon KDP -muodossa. Käytä nousevaa vaikeustasoa aloittamalla kahdella prepositiolla ja yhdellä harjoituksella sivua kohti, ja rakentaen asteittain kaikkiin kahdeksaan prepositioon tiheinä kahdeksalla harjoituksella. Paikkasanaston työkirjat 4–8-vuotiaille täyttävät nichen, jossa on vähemmän kilpailua.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
         title: 'Tasoitetut kieliasemat Gumroadiin',
         description:
-          'Rakenna prepositiot harjoitussarjoja tasoittain: Taso 1 (Monivalinta, 2 prepositiota, 2 harjoitusta sivua kohti), Taso 2 (Monivalinta, 5 prepositiota, 4 harjoitusta), Taso 3 (Taytto, 5 prepositiota, 6 harjoitusta) ja Taso 4 (Taytto, kaikki 8 prepositiota, 8 harjoitusta). Pakkaa jokainen taso vastausavaimella.',
+          'Rakenna prepositiot harjoitussarjoja tasoittain: Taso 1 (Monivalinta, 2 prepositiota, 2 harjoitusta sivua kohti), Taso 2 (Monivalinta, 5 prepositiota, 4 harjoitusta), Taso 3 (Täyttö, 5 prepositiota, 6 harjoitusta) ja Taso 4 (Täyttö, kaikki 8 prepositiota, 8 harjoitusta). Pakkaa jokainen taso vastausavaimella.',
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Monikiellset prepositiotuotteet Täydellä Pääsyllä',
+        title: 'Monikieliset prepositiotuotteet Täydellä Pääsyllä',
         description:
-          'Taysi Paasy avaa kaikki 11 kieltä kieliopillisesti oikeilla prepositioilla, sijamuodoilla ja artikkelisaannöilla. Luo saksankielisia prepositiot tyoarkkeja "im" ja "am" muodoilla, ranskankielisia tyoarkkeja elisio-saannöilla ja lisaa. Jokainen kieliversio on erillinen tuote — moninkertaistaen tuotekatalogisi.',
+          'Täysi Pääsy avaa kaikki 11 kieltä kieliopillisesti oikeilla prepositioilla, sijamuodoilla ja artikkelisäännöillä. Luo saksankielisiä prepositiot työarkkeja "im" ja "am" muodoilla, ranskankielisiä työarkkeja elisio-säännöillä ja lisää. Jokainen kieliversio on erillinen tuote — moninkertaistaen tuotekatalogisi.',
         platform: 'Etsy / Amazon KDP / Gumroad (monikielinen)',
       },
       {
         title: 'Paikkasanasto verkossa ja yksityisopetuksessa',
         description:
-          'Luo raataloityja prepositiot tyoarkkeja jokaiselle kayttajalle paikkasanaston tason mukaan. Kaytta prepositiot-tarkistuslistaa keskittymaan niihin prepositioihin, joissa kayttajalla on vaikeuksia. Aloita Monivalinnalla aloittelijoille ja siirry Tayttoharjoituksiin kayttajille, jotka ovat valmiita tuottamaan kieltä itsenaisesti.',
+          'Luo räätälöityjä prepositiot työarkkeja jokaiselle käyttäjälle paikkasanaston tason mukaan. Käytä prepositiot-tarkistuslistaa keskittymään niihin prepositioihin, joissa käyttäjällä on vaikeuksia. Aloita Monivalinnalla aloittelijoille ja siirry Täyttöharjoituksiin käyttäjille, jotka ovat valmiita tuottamaan kieltä itsenäisesti.',
         platform: 'Verkko / Yksityisopetus / Kotiopiskelu',
       },
     ],
@@ -145,29 +145,29 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Mitä harjoitustiloja Prepositiot Tyoarkkien Generaattori tarjoaa?',
+      question: 'Mitä harjoitustiloja Prepositiot Työarkkien Generaattori tarjoaa?',
       answer:
-        'Generaattori sisaltaa kaksi tilaa: Tayttoharjoitus ja Monivalintakysymys. Tayttoharjoitus nayttaa lauseita puuttuvalla prepositiolla (esimerkiksi "Kissa on ____ neliön"). Monivalintakysymys nayttaa paikallisen kuvauksen ja pyytaa kayttajia ympyröimaan vastaavan kuvan.',
+        'Generaattori sisältää kaksi tilaa: Täyttöharjoitus ja Monivalintakysymys. Täyttöharjoitus näyttää lauseita puuttuvalla prepositiolla (esimerkiksi "Kissa on ____ neliön"). Monivalintakysymys näyttää paikallisen kuvauksen ja pyytää käyttäjiä ympyröimään vastaavan kuvan.',
     },
     {
-      question: 'Mitka 8 prepositiota ovat saatavilla?',
+      question: 'Mitkä 8 prepositiota ovat saatavilla?',
       answer:
-        'Generaattori tukee kahdeksaa paikkasanaa: sisalla, paalla, alla, vieressa, takana, valissa, ylapuolella ja edessa. Valitset mitkä prepositiot sisallyta tarkistuslistan kautta, joten voit keskittya kaikkiin kahdeksaan tai rajata valinnan kahteen tai kolmeen.',
+        'Generaattori tukee kahdeksaa paikkasanaa: sisällä, päällä, alla, vieressä, takana, välissä, yläpuolella ja edessä. Valitset mitkä prepositiot sisällyttää tarkistuslistan kautta, joten voit keskittyä kaikkiin kahdeksaan tai rajata valinnan kahteen tai kolmeen.',
     },
     {
-      question: 'Onko Prepositiot Tyoarkkien Generaattori kieliriippuvainen?',
+      question: 'Onko Prepositiot Työarkkien Generaattori kieliriippuvainen?',
       answer:
-        'Kylla. Toisin kuin puhtaasti visuaaliset matematiikkasovellukset, prepositiot tyoarkit muuttuvat perustavanlaatuisesti valitun kielen perusteella. Jokaisella kielellä on omat prepositiosanansa, artikkelisaantonsa ja kielioppimuotoisensa. Suomessa kaytetaan oikeita sijamuotoja. Jokainen luotu lause on kieliopillisesti oikea — ei sana sanalta -kaannosta.',
+        'Kyllä. Toisin kuin puhtaasti visuaaliset matematiikkasovellukset, prepositiot työarkit muuttuvat perustavanlaatuisesti valitun kielen perusteella. Jokaisella kielellä on omat prepositiosanansa, artikkelisääntönsä ja kielioppimuotoisensa. Suomessa käytetään oikeita sijamuotoja. Jokainen luotu lause on kieliopillisesti oikea — ei sana sanalta -käännöstä.',
     },
     {
       question: 'Onko saatavilla ilmaista kokeilua?',
       answer:
-        'Kylla. Sinulla on paasy kaikkiin ominaisuuksiin — molempiin harjoitustiloihin, kaikkiin kahdeksaan prepositioon, tayteen kuvakirjastoon, kaikkiin muotoihin, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia.',
+        'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — molempiin harjoitustiloihin, kaikkiin kahdeksaan prepositioon, täyteen kuvakirjastoon, kaikkiin muotoihin, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisaltaa?',
+      question: 'Mitä kaupallinen lisenssi sisältää?',
       answer:
-        'Kaupallinen lisenssi tarjoaa vesileimattomia englanninkielisia vientejä taysilla myyntioikeuksilla. Taysi Paasy -lisenssi lisaa kaikki 11 kieltä kieliopillisesti oikeilla prepositioilla. Molemmat tasot antavat rajoittamattomat myyntioikeudet Etsyssa, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla.',
+        'Kaupallinen lisenssi tarjoaa vesileimattomia englanninkielisiä vientejä täysillä myyntioikeuksilla. Täysi Pääsy -lisenssi lisää kaikki 11 kieltä kieliopillisesti oikeilla prepositioilla. Molemmat tasot antavat rajoittamattomat myyntioikeudet Etsyssä, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla.',
     },
     {
       question: 'Sopivatko tilakäsitetehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
@@ -195,64 +195,64 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'aakkosjuna-tyoarkit',
-      anchorText: 'Aakkosjuna Tyoarkkien Generaattori',
+      anchorText: 'Aakkosjuna Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'arvaa-sana-tyoarkit',
-      anchorText: 'Arvaa Sana Tyoarkkien Generaattori',
+      anchorText: 'Arvaa Sana Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'kirjainsekoitus-tyoarkit',
-      anchorText: 'Kirjainsekoitus Tyoarkkien Generaattori',
+      anchorText: 'Kirjainsekoitus Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'sanahaku-tyoarkit',
-      anchorText: 'Sanahaku Tyoarkkien Generaattori',
+      anchorText: 'Sanahaku Työarkkien Generaattori',
     },
     {
       pageType: 'bundle',
       slug: 'lukeminen-kieli-paketti',
-      anchorText: 'Lukeminen & Kieli Paketti — Kaikki Kielisovellukset Yhdessa',
+      anchorText: 'Lukeminen & Kieli Paketti — Kaikki Kielisovellukset Yhdessä',
     },
     {
       pageType: 'guide',
       slug: 'luo-prepositiot-tyoarkkeja',
-      anchorText: 'Opas Prepositiot Tyoarkkien Luomiseen',
+      anchorText: 'Opas Prepositiot Työarkkien Luomiseen',
     },
     {
       pageType: 'start',
       slug: 'taysin-opas-tulostettavaan-liiketoimintaan',
-      anchorText: 'Taysin Opas Tulostettavan Liiketoiminnan Aloittamiseen',
+      anchorText: 'Täysin Opas Tulostettavan Liiketoiminnan Aloittamiseen',
     },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/finnish/prepositions/prepositiot-1.webp',
-      primaryAlt: 'Prepositiot tyoarkki varikkäillä kuvilla, jotka nayttavat paikkasuhteita esineiden ja geometristen muotojen valilla',
+      primaryAlt: 'Prepositiot työarkki värikkäillä kuvilla, jotka näyttävät paikkasuhteita esineiden ja geometristen muotojen välillä',
     },
     sampleGallery: [
       {
         src: '/samples/finnish/prepositions/prepositiot-1.webp',
-        alt: 'Tayttoharjoitus prepositiot tyoarkki eläinteemalla ja geometrisilla muodoilla',
-        caption: 'Tayttoharjoitus -tila — kayttajat tayttavat lauseita oikealla prepositiolla',
+        alt: 'Täyttöharjoitus prepositiot työarkki eläinteemalla ja geometrisilla muodoilla',
+        caption: 'Täyttöharjoitus -tila — käyttäjät täyttävät lauseita oikealla prepositiolla',
       },
       {
         src: '/samples/finnish/prepositions/prepositiot-2.webp',
-        alt: 'Monivalintakysymys prepositiot tyoarkki ajoneuvoteemalla ja paikkakuvauksilla',
-        caption: 'Monivalintakysymys -tila — kayttajat tunnistavat kuvan, joka vastaa paikallista kuvausta',
+        alt: 'Monivalintakysymys prepositiot työarkki ajoneuvoteemalla ja paikkakuvauksilla',
+        caption: 'Monivalintakysymys -tila — käyttäjät tunnistavat kuvan, joka vastaa paikallista kuvausta',
       },
       {
         src: '/samples/finnish/prepositions/prepositiot-1-answer-key.webp',
-        alt: 'Prepositiot tyoarkki kaikilla kahdeksalla paikkasanalla ja vastausavaimella',
-        caption: 'Taysin 8 harjoituksen tyoarkki — kattava kertaus kaikista paikkasanoista',
+        alt: 'Prepositiot työarkki kaikilla kahdeksalla paikkasanalla ja vastausavaimella',
+        caption: 'Täysin 8 harjoituksen työarkki — kattava kertaus kaikista paikkasanoista',
       },
     ],
     youtubeId: 'ifIXbViR5_o',
-    videoTitle: 'Nain Luot Prepositiot Tyoarkkeja Kuva-ja-Muoto-Harjoituksilla — Vaihe Vaiheelta Opas',
+    videoTitle: 'Näin Luot Prepositiot Työarkkeja Kuva-ja-Muoto-Harjoituksilla — Vaihe Vaiheelta Opas',
   },
 };
 

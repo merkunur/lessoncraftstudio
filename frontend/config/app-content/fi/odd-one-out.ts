@@ -25,7 +25,7 @@ const content: AppContent = {
     title: 'Mikä ei kuulu joukkoon -kone — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Kaksi luontitilaa — Identtinen ja Samankaltainen — harjoituskohtaisella vaikeusylikirjoituksella, 5–10 säädettävällä harjoituksella, automaattisesti luodut vastausavaimet punaisilla ympyrämerkinnöillä ja puhtaasti visuaaliset palapelit, jotka toimivat kaikilla 11 kielellä ilman käännöstä.',
     description:
-      'Kumpi ei kuulu -palapelit ovat universaalisti vetoava muoto, joka myy hyvin Etsyssä ja Amazon KDP -aktiviteettikirjoissa — ratkaisijat löytävät erilaisen kohteen jokaiselta riviltä, kehittäen kriittistä ajattelua ja visuaalista erottelukykyä. Tämä tekijä luo ammattimaisia etsi-erilainen-työlehtia kahdella luontitilalla: Identtinen tila spot-the-difference-haasteisiin ja Samankaltainen tila teemojen välisiin erottelupalapeleihin. Valitse yli 3 000 temaattisesta kuvituksesta 104 kokoelmasta ja vie 300 DPI:n tulostusvalmiita PDF-tiedostoja automaattisilla vastausavaimilla, jotka ympyröivät poikkeavan kohteen punaisella. Jokainen työlehti sisältää täyden kaupallisen lisenssin. Puhtaasti visuaalinen muoto toimii maailmanlaajuisesti ilman käännöstä. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
+      'Kumpi ei kuulu -palapelit ovat universaalisti vetoava muoto, joka myy hyvin Etsyssä ja Amazon KDP -aktiviteettikirjoissa — ratkaisijat löytävät erilaisen kohteen jokaiselta riviltä, kehittäen kriittistä ajattelua ja visuaalista erottelukykyä. Tämä tekijä luo ammattimaisia etsi-erilainen-työlehtiä kahdella luontitilalla: Identtinen tila spot-the-difference-haasteisiin ja Samankaltainen tila teemojen välisiin erottelupalapeleihin. Valitse yli 3 000 temaattisesta kuvituksesta 104 kokoelmasta ja vie 300 DPI:n tulostusvalmiita PDF-tiedostoja automaattisilla vastausavaimilla, jotka ympyröivät poikkeavan kohteen punaisella. Jokainen työlehti sisältää täyden kaupallisen lisenssin. Puhtaasti visuaalinen muoto toimii maailmanlaajuisesti ilman käännöstä. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
   },
 
   ctaHeading: 'Luo mikä ei kuulu joukkoon -tehtäviä',
@@ -77,7 +77,7 @@ const content: AppContent = {
       {
         title: 'Säädettävä harjoitusten lukumäärä 5:stä 10:een per työlehti',
         description:
-          'Aseta harjoitusten lukumäärä 5:stä 10:een, oletus 6. Vähemmän harjoituksia luo työlehtia suuremmilla kuvakorteilla ja enemmän tilaa — ihanteellinen aloitustason tuotteille. Enemmän harjoituksia lisää sisältötiheyttä ja haastetta. Asettelu mukautuu automaattisesti: pystysivut 7+ harjoituksella vaihtavat 2-sarakeasetteluun, ja vaakasivut käyttävät aina 2 saraketta.',
+          'Aseta harjoitusten lukumäärä 5:stä 10:een, oletus 6. Vähemmän harjoituksia luo työlehtiä suuremmilla kuvakorteilla ja enemmän tilaa — ihanteellinen aloitustason tuotteille. Enemmän harjoituksia lisää sisältötiheyttä ja haastetta. Asettelu mukautuu automaattisesti: pystysivut 7+ harjoituksella vaihtavat 2-sarakeasetteluun, ja vaakasivut käyttävät aina 2 saraketta.',
       },
       {
         title: 'Kaksiteemajärjestelmä Teemalla A (Yhteinen) ja Teemalla B (Poikkeava)',
@@ -87,7 +87,7 @@ const content: AppContent = {
       {
         title: 'Automaattisesti luotu vastausavain punaisilla ympyrämerkinnöillä',
         description:
-          'Jokainen kumpi ei kuulu -työlehti luo automaattisesti vastausavaimen erilliselle kangas-välilehdelle. Vastausavain toistaa tarkan työlehtiasettelu ja piirtää punaisen ympyrän poikkeavan kohteen ympärille jokaisella harjoitusrivillä. Ympyrän viivan leveys skaalautuu dynaamisesti kuvakoon mukaan — laskettu suurimmaksi arvoista imageSize × 0,04 tai 3 pikseliä — varmistaen yhtenäisen näkyvyyden kaikilla sivuko\'oilla.',
+          'Jokainen kumpi ei kuulu -työlehti luo automaattisesti vastausavaimen erilliselle kangas-välilehdelle. Vastausavain toistaa tarkan työlehtiäsettelu ja piirtää punaisen ympyrän poikkeavan kohteen ympärille jokaisella harjoitusrivillä. Ympyrän viivan leveys skaalautuu dynaamisesti kuvakoon mukaan — laskettu suurimmaksi arvoista imageSize × 0,04 tai 3 pikseliä — varmistaen yhtenäisen näkyvyyden kaikilla sivuko\'oilla.',
       },
       {
         title: 'Kuvakirjasto 104 temaattisella kokoelmalla ja yli 3 100 kuvituksella',
@@ -97,7 +97,7 @@ const content: AppContent = {
       {
         title: 'Tulostusvalmiit PDF- ja JPEG-viennit 300 DPI:llä ja harmaasävyvaihto',
         description:
-          'Lataa kumpi ei kuulu -työlehtia ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina 300 DPI:n tarkkuudella (6× kerroin). Sivukoot sisältävät Letter pysty, Letter vaaka, A4 pysty, A4 vaaka, Neliö (1200×1200) ja täysin mukautetut mitat. Vaihda harmaasävy päälle musteystävällisiin versioihin.',
+          'Lataa kumpi ei kuulu -työlehtiä ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina 300 DPI:n tarkkuudella (6× kerroin). Sivukoot sisältävät Letter pysty, Letter vaaka, A4 pysty, A4 vaaka, Neliö (1200×1200) ja täysin mukautetut mitat. Vaihda harmaasävy päälle musteystävällisiin versioihin.',
       },
       {
         title: 'Täysi kangasmuokkaus tekstityökaluilla, nimi/päivämääräkentillä ja harjoitusnumeroilla',
@@ -125,7 +125,7 @@ const content: AppContent = {
       {
         title: 'Kriittisen ajattelun tuotteet Gumroadiin',
         description:
-          'Rakenna valmiita kumpi ei kuulu -työlehtia nimi/päivämääräkentillä, harjoitusnumeroilla ja tulostetuilla vastausavaimilla. Luo temaattisia sarjoja: eläinluokitteluhaasteet, ruokaryhmien erottelu, yhteisöauttajien tunnistus ja kausitietoisuuspalapelit. Jokainen sarja sisältää työlehtia ja vastausavaimia sekä PDF- että JPEG-muodossa.',
+          'Rakenna valmiita kumpi ei kuulu -työlehtiä nimi/päivämääräkentillä, harjoitusnumeroilla ja tulostetuilla vastausavaimilla. Luo temaattisia sarjoja: eläinluokitteluhaasteet, ruokaryhmien erottelu, yhteisöauttajien tunnistus ja kausitietoisuuspalapelit. Jokainen sarja sisältää työlehtiä ja vastausavaimia sekä PDF- että JPEG-muodossa.',
         platform: 'Gumroad (gumroad.com)',
       },
       {
@@ -157,7 +157,7 @@ const content: AppContent = {
     {
       question: 'Miten harjoituskohtainen tilan ylikirjoitus toimii?',
       answer:
-        'Jokainen harjoitusrivi sisältää oman tilan pudotusvalikon, joka mahdollistaa globaalin tila-asetuksen ylikirjoituksen. Aseta globaali tila Samankaltaiseksi, vaihda sitten yksittäisiä harjoituksia Identtiseksi — tai päinvastoin. Tämä luo sekaväikeustyölehtia, joissa jotkut harjoitukset ovat helpompia (Identtinen) ja toiset vaikeampia (Samankaltainen) samalla sivulla.',
+        'Jokainen harjoitusrivi sisältää oman tilan pudotusvalikon, joka mahdollistaa globaalin tila-asetuksen ylikirjoituksen. Aseta globaali tila Samankaltaiseksi, vaihda sitten yksittäisiä harjoituksia Identtiseksi — tai päinvastoin. Tämä luo sekaväikeustyölehtiä, joissa jotkut harjoitukset ovat helpompia (Identtinen) ja toiset vaikeampia (Samankaltainen) samalla sivulla.',
     },
     {
       question: 'Montako harjoitusta voin sisällyttää yhteen työlehteen?',
@@ -175,7 +175,7 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — molempia luontitiloja, harjoituskohtaisia ylikirjoituksia, säädettäviä harjoitusmääriä, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, nimi/päivämääräkenttiä, harjoitusnumeroita ja kaikkia latausmuotoja — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun latauksissa on pieni vesileima. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja kumpi ei kuulu -työlehtia Etsyssä ja Amazon KDP:ssä?',
+      question: 'Voinko myydä tällä työkalulla luotuja kumpi ei kuulu -työlehtiä Etsyssä ja Amazon KDP:ssä?',
       answer:
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kumpi ei kuulu -työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kaksi luontitilaa, harjoituskohtaiset ylikirjoitukset ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien visuaalisten erottelutuotteiden tuottamiseen.',
     },
@@ -205,7 +205,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'etsi-esineet-tyolehdat',
-      anchorText: 'Etsi Esineet -työlehtia visuaalisten palapelipaketien vaihteluun',
+      anchorText: 'Etsi Esineet -työlehtiä visuaalisten palapelipaketien vaihteluun',
     },
     {
       pageType: 'app',
@@ -252,7 +252,7 @@ const content: AppContent = {
       },
     ],
     youtubeId: '0R6WFUfY7Mk',
-    videoTitle: 'Näin luot Kumpi Ei Kuulu -työlehtia kahdella tilalla ja automaattisilla vastausavaimilla — Vaihe vaiheelta -opas',
+    videoTitle: 'Näin luot Kumpi Ei Kuulu -työlehtiä kahdella tilalla ja automaattisilla vastausavaimilla — Vaihe vaiheelta -opas',
   },
 };
 

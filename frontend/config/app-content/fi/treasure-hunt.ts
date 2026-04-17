@@ -124,7 +124,7 @@ const content: AppContent = {
       {
         title: 'Monikieliset aarteenetsintäsarjat lokalisoiduilla suunnilla',
         description:
-          'Hyödynnä täysin lokalisoituja suuntavihjeitä luodaksesi aarteenetsintä-työlehtia 11 kielellä. Sama palapelirakenne tuottaa aitoa äidinkielistä sisältöä kielen vaihtuessa — suunnat, ohjeet ja kuvaetiketit päivittyvät automaattisesti. Luo monikielisiä aarteenetsintäpaketteja, joissa jokainen kieliversio käyttää samoja temaattisia kuvia mutta lokalisoituja suuntatekstejä. Myy kielikohtaisia sarjoja tai monikielisiä megapaketteja premium-hintaan.',
+          'Hyödynnä täysin lokalisoituja suuntavihjeitä luodaksesi aarteenetsintä-työlehtiä 11 kielellä. Sama palapelirakenne tuottaa aitoa äidinkielistä sisältöä kielen vaihtuessa — suunnat, ohjeet ja kuvaetiketit päivittyvät automaattisesti. Luo monikielisiä aarteenetsintäpaketteja, joissa jokainen kieliversio käyttää samoja temaattisia kuvia mutta lokalisoituja suuntatekstejä. Myy kielikohtaisia sarjoja tai monikielisiä megapaketteja premium-hintaan.',
         platform: 'Etsy / Gumroad (monikielinen markkina)',
       },
       {
@@ -161,7 +161,7 @@ const content: AppContent = {
     {
       question: 'Onko Aarteenetsintä-generaattori kieliriippuvainen?',
       answer:
-        'Kyllä. Aarteenetsintä-generaattori on kieliriippuvainen kahdella tavalla. Ensinnäkin kaikki suuntavihjetekstit — aloitusohjeet, siirtosuunnat (Perus ja Ilmansuunnat), ruutuyksiköt ja aarrekysymys — on käännetty täysin valitulle kielelle kaikilla 11 tuetulla kielellä. Toiseksi kirjastosta ladattu kuvasisältö päivittyy valitun kielen mukaan. Kielen vaihto tuottaa autenttisia äidinkielisiä aarteenetsintä-työlehtia lokalisoiduilla suunnilla ja kuvilla.',
+        'Kyllä. Aarteenetsintä-generaattori on kieliriippuvainen kahdella tavalla. Ensinnäkin kaikki suuntavihjetekstit — aloitusohjeet, siirtosuunnat (Perus ja Ilmansuunnat), ruutuyksiköt ja aarrekysymys — on käännetty täysin valitulle kielelle kaikilla 11 tuetulla kielellä. Toiseksi kirjastosta ladattu kuvasisältö päivittyy valitun kielen mukaan. Kielen vaihto tuottaa autenttisia äidinkielisiä aarteenetsintä-työlehtiä lokalisoiduilla suunnilla ja kuvilla.',
     },
     {
       question: 'Miten automaattisesti luotu vastausavain toimii?',
@@ -174,7 +174,7 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — molempia suuntatyyppejä, 5×5-koordinaattiruudukkoa, 6 kuvan palapeliluontia, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, kaikkia latausmuotoja ja harmaasävyvaihtoa — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun latauksissa on pieni vesileima. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja aarteenetsintä-työlehtia Etsyssä ja Amazon KDP:ssä?',
+      question: 'Voinko myydä tällä työkalulla luotuja aarteenetsintä-työlehtiä Etsyssä ja Amazon KDP:ssä?',
       answer:
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä aarteenetsintä-työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, omassa kaupassasi Gumroadissa tai millä tahansa muulla myyntikanavalla. Kaksi suuntatyyppiä, 5×5-koordinaattiruudukko, lokalisoidut suuntavihjeet, automaattisesti luodut vastausavaimet ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien polunetsintä-palapeelituotteiden tuottamiseen.',
     },
@@ -209,7 +209,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'etsi-esineet-tyolehdat',
-      anchorText: 'Etsi Esineet -työlehtia täydentäviin etsintätoimintoihin',
+      anchorText: 'Etsi Esineet -työlehtiä täydentäviin etsintätoimintoihin',
     },
     {
       pageType: 'guide',
@@ -251,7 +251,7 @@ const content: AppContent = {
       },
     ],
     youtubeId: 'flHiBXsYLLA',
-    videoTitle: 'Näin luot aarteenetsintä-polunetsintä-työlehtia suuntavihjeillä ja automaattisilla vastausavaimilla — Vaihe vaiheelta -opas',
+    videoTitle: 'Näin luot aarteenetsintä-polunetsintä-työlehtiä suuntavihjeillä ja automaattisilla vastausavaimilla — Vaihe vaiheelta -opas',
   },
 };
 

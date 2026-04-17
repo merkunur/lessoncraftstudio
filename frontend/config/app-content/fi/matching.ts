@@ -214,7 +214,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'aakkosjuna-tyoarkit',
-      anchorText: 'Aakkosjuna Tyoarkkien Generaattori',
+      anchorText: 'Aakkosjuna Työarkkien Generaattori',
     },
     {
       pageType: 'bundle',

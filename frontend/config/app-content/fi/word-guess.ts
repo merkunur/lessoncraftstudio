@@ -22,121 +22,121 @@ const content: AppContent = {
 
   hero: {
     title: 'Hirsipuugeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
-    tagline: 'Hirsipuu-tyylinen paattely kohtaa kuvavihjeet — nelja vaikeustasoa muuttavat jokaisen sanan sitouttavaksi pulmaksi.',
+    tagline: 'Hirsipuu-tyylinen päättely kohtaa kuvavihjeet — neljä vaikeustasoa muuttavat jokaisen sanan sitouttavaksi pulmaksi.',
     description:
-      'Suunnittele ammattimaisia arvaa sana -tyoarkkeja, joissa kayttajat nakevat kuvavihjeen ja arvaavat piilotetun sanan tayttämällä tyhjia kirjainsoluja — hirsipuumainen pulma, joka rakentaa oikeinkirjoitusta, sanastoa ja deduuktiivista ajattelua samanaikaisesti. Valitse kolmesta sisaltolahteesta: sisäänrakennettu kuvakirjasto yli 3 100 kuvituksella, Manuaalinen Muokkaustila mukautetuille sanoille tai Oma Sanalista tekstipohjaisiin pulmiin. Nelja vaikeustasoa hallitsevat kuinka monta kirjainta nakyy vihjeinä. Aseta 1–10 pulmaa tyoarkkia kohti ja vaihda isojen ja pienten kirjainten valilla. Taysi Paasy avaa kaikki 11 tuettua kieltä, ja koska Arvaa Sana on kieliriippuvainen, itse kohdesana muuttuu kielen mukaan — "dog" englanniksi tulee "Hund" saksaksi, "chien" ranskaksi ja "koira" suomeksi. Jokainen tyoarkki luo automaattisen vastausavaimen. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
+      'Suunnittele ammattimaisia arvaa sana -työarkkeja, joissa käyttäjät näkevät kuvavihjeen ja arvaavat piilotetun sanan täyttämällä tyhjiä kirjainsoluja — hirsipuumainen pulma, joka rakentaa oikeinkirjoitusta, sanastoa ja deduktiivista ajattelua samanaikaisesti. Valitse kolmesta sisältölähteestä: sisäänrakennettu kuvakirjasto yli 3 100 kuvituksella, Manuaalinen Muokkaustila mukautetuille sanoille tai Oma Sanalista tekstipohjaisiin pulmiin. Neljä vaikeustasoa hallitsevat kuinka monta kirjainta näkyy vihjeinä. Aseta 1–10 pulmaa työarkkia kohti ja vaihda isojen ja pienten kirjainten välillä. Täysi Pääsy avaa kaikki 11 tuettua kieltä, ja koska Arvaa Sana on kieliriippuvainen, itse kohdesana muuttuu kielen mukaan — "dog" englanniksi tulee "Hund" saksaksi, "chien" ranskaksi ja "koira" suomeksi. Jokainen työarkki luo automaattisen vastausavaimen. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
   ctaHeading: 'Luo hirsipuutehtäviä',
 
   howItWorks: {
-    title: 'Nain Luot Arvaa Sana -Tyoarkkeja Viidessa Vaiheessa',
+    title: 'Näin Luot Arvaa Sana -Työarkkeja Viidessä Vaiheessa',
     steps: [
       {
         title: 'Aseta sivun asettelu',
         description:
-          'Avaa Sivun Asetukset -paneeli ja valitse koko: Letter Pysty, Letter Vaaka, A4 Pysty, A4 Vaaka, Nelio tai mukautettu koko. Valitse taustavari, valitse koristeellinen taustateema kuvakirjastosta ja saada lapinakyvyytta. Lisaa yhteensopiva kehys ammattimaiseen ulkoasuun.',
+          'Avaa Sivun Asetukset -paneeli ja valitse koko: Letter Pysty, Letter Vaaka, A4 Pysty, A4 Vaaka, Neliö tai mukautettu koko. Valitse taustaväri, valitse koristeellinen taustateema kuvakirjastosta ja säädä läpinäkyvyyttä. Lisää yhteensopiva kehys ammattimaiseen ulkoasuun.',
       },
       {
-        title: 'Valitse sisaltolahteesi',
+        title: 'Valitse sisältölähteesi',
         description:
-          'Avaa Sisalto-paneeli ja valitse yksi kolmesta lahteesta. Kuvakirjasto-tila antaa sinun selata 104 teemaa ja valita kuvia — kuvan nimi tulee arvattavaksi sanaksi. Manuaalinen Muokkaustila lisaa mukautusvaiheen: valitse kuvia kirjastosta ja muokkaa sitten jokaisen nayttönimea ennen luomista. Oma Sanalista ohittaa kuvat kokonaan ja antaa sinun kirjoittaa vapaasti sanoja tai lauseita.',
+          'Avaa Sisältö-paneeli ja valitse yksi kolmesta lähteestä. Kuvakirjasto-tila antaa sinun selata 104 teemaa ja valita kuvia — kuvan nimi tulee arvattavaksi sanaksi. Manuaalinen Muokkaustila lisää mukautusvaiheen: valitse kuvia kirjastosta ja muokkaa sitten jokaisen näyttönimeä ennen luomista. Oma Sanalista ohittaa kuvat kokonaan ja antaa sinun kirjoittaa vapaasti sanoja tai lauseita.',
       },
       {
-        title: 'Maarittele vaikeustaso ja pulmien maara',
+        title: 'Määrittele vaikeustaso ja pulmien määrä',
         description:
-          'Valitse yksi neljasta vaikeustasosta, jotka hallitsevat kuinka monta vihjekirjainta nakyy ruudukossa. Ei Vihjeitä nayttaa vain tyhjia soluja maksimaaliseen haasteeseen. Helppo paljastaa puolet kirjaimista. Normaali paljastaa neljanneksen. Vaikea paljastaa kuudesosan. Aseta sitten pulmien maara tyoarkkia kohti 1:sta 10:een.',
+          'Valitse yksi neljästä vaikeustasosta, jotka hallitsevat kuinka monta vihjekirjainta näkyy ruudukossa. Ei Vihjeitä näyttää vain tyhjiä soluja maksimaaliseen haasteeseen. Helppo paljastaa puolet kirjaimista. Normaali paljastaa neljänneksen. Vaikea paljastaa kuudesosan. Aseta sitten pulmien määrä työarkkia kohti 1:sta 10:een.',
       },
       {
-        title: 'Valitse kirjainmuoto ja lisaa yksityiskohtia',
+        title: 'Valitse kirjainmuoto ja lisää yksityiskohtia',
         description:
-          'Vaihda isojen kirjainten (oletus) ja pienten kirjainten valilla kirjainruudukossa kohderyhman mukaan. Kaytta Tyokalut-paneelia lisataksesi tyoarkin otsikon, nimi- ja paivamaarakentat, ohjeet tai mukautetun tekstin. Valitse seitsemasta fontista ja saada kokoa, varia ja aariviivaaa.',
+          'Vaihda isojen kirjainten (oletus) ja pienten kirjainten välillä kirjainruudukossa kohderyhmän mukaan. Käytä Työkalut-paneelia lisätäksesi työarkin otsikon, nimi- ja päivämääräkentät, ohjeet tai mukautetun tekstin. Valitse seitsemästä fontista ja säädä kokoa, väriä ja ääriviivaa.',
       },
       {
         title: 'Luo vastausavain ja lataa',
         description:
-          'Siirry Vastausavain-valilehdelle ja napsauta Luo Vastausavain luodaksesi ratkaistun version, jossa jokainen kirjain on taytetty — ei tyhjia soluja jaa. Ota kayttoon harmaa-astevienti musteystävallisiin versioihin. Vie seka tyoarkki etta vastausavain korkearesoluutioisena JPEG- tai tulostusvalmiina PDF-tiedostona yli 400 DPI:na.',
+          'Siirry Vastausavain-välilehdelle ja napsauta Luo Vastausavain luodaksesi ratkaistun version, jossa jokainen kirjain on täytetty — ei tyhjiä soluja jää. Ota käyttöön harmaa-astevienti musteystävällisiin versioihin. Vie sekä työarkki että vastausavain korkearesoluutioisena JPEG- tai tulostusvalmiina PDF-tiedostona yli 400 DPI:na.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Arvaa Sana Tyoarkkien Generaattorin Avainominaisuudet',
+    title: 'Arvaa Sana Työarkkien Generaattorin Avainominaisuudet',
     features: [
       {
-        title: 'Kuvapohjainen sana-arvaus tyhjalla kirjainruudukolla',
+        title: 'Kuvapohjainen sana-arvaus tyhjällä kirjainruudukolla',
         description:
-          'Jokainen pulma nayttaa kuvavihjeen tyhjien kirjainsolurivejen vieressa, jotka edustavat piilotettua sanaa. Kayttajat tutkivat kuvan, tunnistavat mita se esittaa ja tayttavat puuttuvat kirjaimet — hirsipuumainen paattelyharjoitus, joka rakentaa samanaikaisesti visuaalista sanastoa, oikeinkirjoitustarkkuutta ja kirjain-aani-yhteyttä.',
+          'Jokainen pulma näyttää kuvavihjeen tyhjien kirjainsolurivien vieressä, jotka edustavat piilotettua sanaa. Käyttäjät tutkivat kuvan, tunnistavat mitä se esittää ja täyttävät puuttuvat kirjaimet — hirsipuumainen päättelyharjoitus, joka rakentaa samanaikaisesti visuaalista sanastoa, oikeinkirjoitustarkkuutta ja kirjain-ääni-yhteyttä.',
       },
       {
-        title: 'Nelja vaikeustasoa saadettavilla vihjekirjaimilla',
+        title: 'Neljä vaikeustasoa säädettävillä vihjekirjaimilla',
         description:
-          'Hallitse tarkalleen kuinka paljon tukea jokainen pulma tarjoaa neljalla sisäänrakennetulla vaikeustasolla. Ei Vihjeitä jattaa jokaisen solun tyhjäksi maksimaaliseen haasteeseen. Helppo paljastaa puolet kirjaimista, ihanteellinen aloitteleville lukijoille. Normaali paljastaa neljanneksen tasapainoisen harjoittelun saavuttamiseksi. Vaikea paljastaa vain kuudesosan.',
+          'Hallitse tarkalleen kuinka paljon tukea jokainen pulma tarjoaa neljällä sisäänrakennetulla vaikeustasolla. Ei Vihjeitä jättää jokaisen solun tyhjäksi maksimaaliseen haasteeseen. Helppo paljastaa puolet kirjaimista, ihanteellinen aloitteleville lukijoille. Normaali paljastaa neljänneksen tasapainoisen harjoittelun saavuttamiseksi. Vaikea paljastaa vain kuudesosan.',
       },
       {
-        title: 'Kolme sisaltolahteetta: Kuvakirjasto, Manuaalinen Muokkaus ja Oma Sanalista',
+        title: 'Kolme sisältölähdettä: Kuvakirjasto, Manuaalinen Muokkaus ja Oma Sanalista',
         description:
-          'Kuvakirjasto-lahde hyvaksyy sanoja temaattisista kuvakokoelmista. Manuaalinen Muokkaustila lisaa mukautuskerroksen: valitse kuvia ja muokkaa niiden nayttönimet. Oma Sanalista luopuu kuvista kokonaan ja antaa sinun kirjoittaa mitä tahansa sanoja tai lauseita, mahdollistaen sanastotyoarkit mihin tahansa aiheeseen. Kolme lahdetta antaa kolme taysin erilaista tuotelinjaa samasta generaattorista.',
+          'Kuvakirjasto-lähde hyväksyy sanoja temaattisista kuvakokoelmista. Manuaalinen Muokkaustila lisää mukautuskerroksen: valitse kuvia ja muokkaa niiden näyttönimet. Oma Sanalista luopuu kuvista kokonaan ja antaa sinun kirjoittaa mitä tahansa sanoja tai lauseita, mahdollistaen sanastotyöarkit mihin tahansa aiheeseen. Kolme lähdettä antaa kolme täysin erilaista tuotelinjaa samasta generaattorista.',
       },
       {
         title: 'Monisanaisten lauseiden tuki',
         description:
-          'Sanat tai kuvanimet, jotka sisaltavat välilyöntejä (kuten "jaakarhu" tai "paloauto"), renderoidaan erillisinä sanaryhminä pulmaruudukossa selvälla välistyksellä. Kayttajat ratkaisevat jokaisen sanan itsenaisesti ymmartaen, etta ne muodostavat yhden kasitteen.',
+          'Sanat tai kuvanimet, jotka sisältävät välilyöntejä (kuten "jääkarhu" tai "paloauto"), renderöidään erillisinä sanaryhminä pulmaruudukossa selvällä välistyksellä. Käyttäjät ratkaisevat jokaisen sanan itsenäisesti ymmärtäen, että ne muodostavat yhden käsitteen.',
       },
       {
         title: '104 visuaalista teemaa yli 3 100 kuvalla',
         description:
-          'Tutustu yli 3 100 korkearesoluutioisen kuvituksen kirjastoon 104 teemassa. Jokainen kuva toimii seka visuaalisena vihjeena etta sanastolahteena — kuvan nimi tulee arvattavaksi sanaksi. Voit myos ladata omia kuvia mukautetuilla nimilla brandatyyn tai erikoistuneeseen sisaltoon.',
+          'Tutustu yli 3 100 korkearesoluutioisen kuvituksen kirjastoon 104 teemassa. Jokainen kuva toimii sekä visuaalisena vihjeenä että sanastolähteenä — kuvan nimi tulee arvattavaksi sanaksi. Voit myös ladata omia kuvia mukautetuilla nimillä brändättyyn tai erikoistuneeseen sisältöön.',
       },
       {
         title: 'Automaattinen vastausavaimen luominen',
         description:
-          'Napsauta yhta painiketta luodaksesi tayden vastausavaimen, jossa jokainen kirjainsolu on taytetty — ei tyhjia soluja jaa. Vie vastausavain erillisenä JPEG- tai PDF-tiedostona valinnaisella harmaa-astetoiminnolla musteystävallisiin versioihin.',
+          'Napsauta yhtä painiketta luodaksesi täyden vastausavaimen, jossa jokainen kirjainsolu on täytetty — ei tyhjiä soluja jää. Vie vastausavain erillisenä JPEG- tai PDF-tiedostona valinnaisella harmaa-astetoiminnolla musteystävällisiin versioihin.',
       },
       {
-        title: 'Tulostuvalmis vienti 400+ DPI:na harmaa-asteilla',
+        title: 'Tulostusvalmis vienti 400+ DPI:na harmaa-asteilla',
         description:
-          'Lataa tyoarkkeja ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina yli 400 DPI:na. Ota kayttoon harmaa-astevienti musteystävallisiin versioihin. Letter, A4, Nelio ja mukautetut koot ovat kaikki tuettuja.',
+          'Lataa työarkkeja ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina yli 400 DPI:na. Ota käyttöön harmaa-astevienti musteystävällisiin versioihin. Letter, A4, Neliö ja mukautetut koot ovat kaikki tuettuja.',
       },
       {
-        title: 'Taysi piirtoalustamuokkaus teksti-, muoto- ja kuvatyokaluilla',
+        title: 'Täysi piirtoalustamuokkaus teksti-, muoto- ja kuvatyökaluilla',
         description:
-          'Sisaanrakennettu Fabric.js-piirtoalusta antaa sinun vetaa, skaalata, kiertaa ja siirtaa jokaista elementtia. Lisaa mukautettua tekstia seitsemasta fontista, lisaa muotoja ja koristeellisia elementteja ja kaytta tasonhallintaa tarkkaan pinoamisjarjestykseen. Rajaton kumoa ja tee uudelleen.',
+          'Sisäänrakennettu Fabric.js-piirtoalusta antaa sinun vetää, skaalata, kiertää ja siirtää jokaista elementtiä. Lisää mukautettua tekstiä seitsemästä fontista, lisää muotoja ja koristeellisia elementtejä ja käytä tasonhallintaa tarkkaan pinoamisjärjestykseen. Rajaton kumoa ja tee uudelleen.',
       },
     ],
   },
 
   businessUseCases: {
-    title: 'Nain Myyat Arvaa Sana -Tyoarkkeja Verkossa',
+    title: 'Näin Myyt Arvaa Sana -Työarkkeja Verkossa',
     cases: [
       {
-        title: 'Teemakohtaiset arvaa sana -paketit Etsyssa',
+        title: 'Teemakohtaiset arvaa sana -paketit Etsyssä',
         description:
-          'Luo 10–20 arvaa sana -tyoarkin sarjoja ryhmiteltyina teemoittain ja vaikeustasoittain ja tarjoa niita suorana latauksena Etsyssa. Sisallyta vastausavaimet bonustiedostoina. Kuvapohjainen muoto on visuaalisesti sitouttava ja erottuu tavallisista sanalistoista. Hinnoittele yksittaiset teemapaketit 3–5 euroon ja moniteemaiset paketit 12–18 euroon.',
+          'Luo 10–20 arvaa sana -työarkin sarjoja ryhmiteltyinä teemoittain ja vaikeustasoittain ja tarjoa niitä suorana latauksena Etsyssä. Sisällytä vastausavaimet bonustiedostoina. Kuvapohjainen muoto on visuaalisesti sitouttava ja erottuu tavallisista sanalistoista. Hinnoittele yksittäiset teemapaketit 3–5 euroon ja moniteemaiset paketit 12–18 euroon.',
         platform: 'Etsy (etsy.com)',
       },
       {
         title: 'Sanasto-aktiviteettikirjat Amazon KDP:ssa',
         description:
-          'Kokoa 50–100 arvaa sana -pulmaa painetuksi aktiviteettikirjaksi Amazon KDP -muodossa. Kaytta nousevaa vaikeustasoa — aloita Helppo-tilasta yksinkertaisilla kolmikirjaimisilla sanoilla, etene Normaaliin ja Vaikeaan ja paata Ei Vihjeitä -tilaan monimutkaisilla monisanaisilla lauseilla. Ryhmittele luvut teemoittain. Sanapulmakirjat 4–9-vuotiaille myyvat johdonmukaisesti ymparivuotisesti.',
+          'Kokoa 50–100 arvaa sana -pulmaa painetuksi aktiviteettikirjaksi Amazon KDP -muodossa. Käytä nousevaa vaikeustasoa — aloita Helppo-tilasta yksinkertaisilla kolmikirjaimisilla sanoilla, etene Normaaliin ja Vaikeaan ja päätä Ei Vihjeitä -tilaan monimutkaisilla monisanaisilla lauseilla. Ryhmittele luvut teemoittain. Sanapulmakirjat 4–9-vuotiaille myyvät johdonmukaisesti ympärivuotisesti.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
         title: 'Tasoitetut sanastopaketit Gumroadiin',
         description:
-          'Rakenna tasoitettuja arvaa sana -harjoitussarjoja: Taso 1 (Helppo, 4 pulmaa sivua kohti, yksinkertaiset sanat), Taso 2 (Normaali, 6 pulmaa, keskitason sanat), Taso 3 (Vaikea, 8 pulmaa, pidemmat sanat) ja Taso 4 (Ei Vihjeitä, 10 pulmaa, monisanaiset lauseet). Pakkaa jokainen taso vastausavaimella.',
+          'Rakenna tasoitettuja arvaa sana -harjoitussarjoja: Taso 1 (Helppo, 4 pulmaa sivua kohti, yksinkertaiset sanat), Taso 2 (Normaali, 6 pulmaa, keskitason sanat), Taso 3 (Vaikea, 8 pulmaa, pidemmät sanat) ja Taso 4 (Ei Vihjeitä, 10 pulmaa, monisanaiset lauseet). Pakkaa jokainen taso vastausavaimella.',
         platform: 'Gumroad (gumroad.com)',
       },
       {
-        title: 'Monikiellset sanastotuotteet Täydellä Pääsyllä',
+        title: 'Monikieliset sanastotuotteet Täydellä Pääsyllä',
         description:
-          'Taysi Paasy avaa kaikki 11 kieltä, ja koska Arvaa Sana on kieliriippuvainen, kohdesana muuttuu kielen mukaan. "Dog" englanniksi tulee "Hund" saksaksi, "chien" ranskaksi, "perro" espanjaksi ja "koira" suomeksi. Jokainen kieliversio on aidosti erilainen tuote eri sanoilla, eri kirjainmaarilla ja eri pulmaratkaisuilla.',
+          'Täysi Pääsy avaa kaikki 11 kieltä, ja koska Arvaa Sana on kieliriippuvainen, kohdesana muuttuu kielen mukaan. "Dog" englanniksi tulee "Hund" saksaksi, "chien" ranskaksi, "perro" espanjaksi ja "koira" suomeksi. Jokainen kieliversio on aidosti erilainen tuote eri sanoilla, eri kirjainmäärillä ja eri pulmaratkaisuilla.',
         platform: 'Etsy / Amazon KDP / Gumroad (monikielinen)',
       },
       {
-        title: 'Oikeinkirjoitus- ja sanastotyokalu yksityisopetukseen',
+        title: 'Oikeinkirjoitus- ja sanastotyökalu yksityisopetukseen',
         description:
-          'Kaytta Omaa Sanalistaa luodaksesi arvaa sana -tyoarkkeja mille tahansa sanalistolle — viikon oikeinkirjoitussanat, luonnontieteen termit tai vieraan kielen harjoittelu. Kirjoita sanasi suoraan ilman vastaavia kuvia. Saada vaikeustasoa jokaiselle kayttajalle: Helppo vaikeuksissa oleville oikeinkirjoittajille, Ei Vihjeitä edistyneille kayttajille.',
+          'Käytä Omaa Sanalistaa luodaksesi arvaa sana -työarkkeja mille tahansa sanalistolle — viikon oikeinkirjoitussanat, luonnontieteen termit tai vieraan kielen harjoittelu. Kirjoita sanasi suoraan ilman vastaavia kuvia. Säädä vaikeustasoa jokaiselle käyttäjälle: Helppo vaikeuksissa oleville oikeinkirjoittajille, Ei Vihjeitä edistyneille käyttäjille.',
         platform: 'Verkko / Yksityisopetus / Kotiopiskelu',
       },
     ],
@@ -146,27 +146,27 @@ const content: AppContent = {
     {
       question: 'Miten arvaa sana -pulma toimii?',
       answer:
-        'Jokainen pulma nayttaa kuvavihjeen tyhjien kirjainsolurivejen vieressa. Kayttajat tutkivat kuvan tunnistaakseen mita se esittaa ja tayttavat sitten puuttuvat kirjaimet sanan tavamiseksi. Ennalta paljastetut vihjekirjaimet (vaikeustason hallitsemina) tarjoavat tukea. Se toimii kuten hirsipuu mutta kuvavihjeella kategoriavihjeen sijaan.',
+        'Jokainen pulma näyttää kuvavihjeen tyhjien kirjainsolurivien vieressä. Käyttäjät tutkivat kuvan tunnistaakseen mitä se esittää ja täyttävät sitten puuttuvat kirjaimet sanan tavaamiseksi. Ennalta paljastetut vihjekirjaimet (vaikeustason hallitsemina) tarjoavat tukea. Se toimii kuten hirsipuu mutta kuvavihjeellä kategoriavihjeen sijaan.',
     },
     {
-      question: 'Mitä ovat nelja vaikeustasoa?',
+      question: 'Mitä ovat neljä vaikeustasoa?',
       answer:
-        'Nelja tasoa hallitsevat kuinka monta kirjainta nakyy ennalta ruudukossa. Ei Vihjeitä jattaa jokaisen solun tyhjäksi. Helppo paljastaa puolet kirjaimista. Normaali paljastaa neljanneksen. Vaikea paljastaa kuudesosan. Jokainen taso luo erilaisen pulmaelämyksen samasta sanasta.',
+        'Neljä tasoa hallitsevat kuinka monta kirjainta näkyy ennalta ruudukossa. Ei Vihjeitä jättää jokaisen solun tyhjäksi. Helppo paljastaa puolet kirjaimista. Normaali paljastaa neljänneksen. Vaikea paljastaa kuudesosan. Jokainen taso luo erilaisen pulmaelämyksen samasta sanasta.',
     },
     {
       question: 'Onko Arvaa Sana -generaattori kieliriippuvainen?',
       answer:
-        'Kylla. Koska arvattava sana on kuvan nimi valitulla kielellä, kielen vaihtaminen muuttaa koko pulmasisallon. "Dog" englanniksi tulee "Hund" saksaksi, "chien" ranskaksi, "koira" suomeksi — jokainen eri kirjaimilla ja eri kirjainmaarilla. Kaupallinen taso on vain englanti; Taysi Paasy avaa kaikki 11 kieltä.',
+        'Kyllä. Koska arvattava sana on kuvan nimi valitulla kielellä, kielen vaihtaminen muuttaa koko pulmasisällön. "Dog" englanniksi tulee "Hund" saksaksi, "chien" ranskaksi, "koira" suomeksi — jokainen eri kirjaimilla ja eri kirjainmäärillä. Kaupallinen taso on vain englanti; Täysi Pääsy avaa kaikki 11 kieltä.',
     },
     {
       question: 'Onko saatavilla ilmaista kokeilua?',
       answer:
-        'Kylla. Sinulla on paasy kaikkiin ominaisuuksiin — kaikkiin kolmeen sisaltolahteeseen, kaikkiin neljaan vaikeustasoon, tayteen kuvakirjastoon, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia. Ilmaisen kokeilun lataukset sisaltavat pienen vesileiman.',
+        'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — kaikkiin kolmeen sisältölähteeseen, kaikkiin neljään vaikeustasoon, täyteen kuvakirjastoon, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisaltaa?',
+      question: 'Mitä kaupallinen lisenssi sisältää?',
       answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myyda luomiasi tyoarkkeja Etsyssa, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eika rajoituksia.',
+        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myydä luomiasi työarkkeja Etsyssä, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eikä rajoituksia.',
     },
     {
       question: 'Sopivatko arvaa sana -tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
@@ -201,7 +201,7 @@ const content: AppContent = {
     {
       question: 'Mikä on palautuskäytäntö?',
       answer:
-        'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia. Voit testata jokaisen sisaltolahteen, jokaisen vaikeustason, jokaisen teeman ja jokaisen vientimuodon ennen ostamista.',
+        'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia. Voit testata jokaisen sisältölähteen, jokaisen vaikeustason, jokaisen teeman ja jokaisen vientimuodon ennen ostamista.',
     },
   ],
 
@@ -209,64 +209,64 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'aakkosjuna-tyoarkit',
-      anchorText: 'Aakkosjuna Tyoarkkien Generaattori',
+      anchorText: 'Aakkosjuna Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'prepositiot-tyoarkit',
-      anchorText: 'Prepositiot Tyoarkkien Generaattori',
+      anchorText: 'Prepositiot Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'kirjainsekoitus-tyoarkit',
-      anchorText: 'Kirjainsekoitus Tyoarkkien Generaattori',
+      anchorText: 'Kirjainsekoitus Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'sanahaku-tyoarkit',
-      anchorText: 'Sanahaku Tyoarkkien Generaattori',
+      anchorText: 'Sanahaku Työarkkien Generaattori',
     },
     {
       pageType: 'bundle',
       slug: 'lukeminen-kieli-paketti',
-      anchorText: 'Lukeminen & Kieli Paketti — Kaikki Kielityokalut',
+      anchorText: 'Lukeminen & Kieli Paketti — Kaikki Kielityökalut',
     },
     {
       pageType: 'guide',
       slug: 'myy-sanapulmia-etsy',
-      anchorText: 'Opas Sanapulmien Myymiseen Etsyssa',
+      anchorText: 'Opas Sanapulmien Myymiseen Etsyssä',
     },
     {
       pageType: 'start',
       slug: 'taysin-opas-tulostettavaan-liiketoimintaan',
-      anchorText: 'Taysin opas tulostettavaan liiketoimintaan',
+      anchorText: 'Täysin opas tulostettavaan liiketoimintaan',
     },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/finnish/word%20guess/arvaa-sana-1.webp',
-      primaryAlt: 'Arvaa sana -tyoarkki kuvavihjeilla ja tyhjilla kirjainruudukoilla hirsipuutyylisissa sanastopulmissa',
+      primaryAlt: 'Arvaa sana -työarkki kuvavihjeillä ja tyhjillä kirjainruudukoilla hirsipuutyylisissä sanastopulmissa',
     },
     sampleGallery: [
       {
         src: '/samples/finnish/word%20guess/arvaa-sana-1.webp',
-        alt: 'Arvaa sana -tyoarkki kuvavihjeilla Helppo-vaikeustasolla, puolet kirjaimista paljastettu',
+        alt: 'Arvaa sana -työarkki kuvavihjeillä Helppo-vaikeustasolla, puolet kirjaimista paljastettu',
         caption: 'Helppo vaikeustaso — puolet kirjaimista ennalta paljastettu vihjeinä aloitteleville lukijoille',
       },
       {
         src: '/samples/finnish/word%20guess/arvaa-sana-2.webp',
-        alt: 'Arvaa sana -tyoarkki Vaikea-vaikeustasolla minimaalisilla vihjekirjaimilla ja eläinteemalla',
+        alt: 'Arvaa sana -työarkki Vaikea-vaikeustasolla minimaalisilla vihjekirjaimilla ja eläinteemalla',
         caption: 'Vaikea vaikeustaso — vain kuudesosa kirjaimista paljastettu edistyneille oikeinkirjoittajille',
       },
       {
         src: '/samples/finnish/word%20guess/arvaa-sana-2-answer-key.webp',
-        alt: 'Arvaa sana vastausavain kaikilla kirjaimilla taytettyina ja ilman tyhjia soluja',
+        alt: 'Arvaa sana vastausavain kaikilla kirjaimilla täytettyinä ja ilman tyhjiä soluja',
         caption: 'Vastausavain — kaikki kirjaimet paljastettu helppoon tarkistamiseen ja itsearviointiin',
       },
     ],
     youtubeId: 'DSwX_p4dRNM',
-    videoTitle: 'Luo Arvaa Sana -Tyoarkkeja Kuvavihjeilla — Vaihe Vaiheelta Opas',
+    videoTitle: 'Luo Arvaa Sana -Työarkkeja Kuvavihjeillä — Vaihe Vaiheelta Opas',
   },
 };
 

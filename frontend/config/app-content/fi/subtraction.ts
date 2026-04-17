@@ -23,121 +23,121 @@ const content: AppContent = {
 
   hero: {
     title: 'Vähennyslaskugeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
-    tagline: 'Tee vahennyslasku konkreettiseksi tyoarkeilla, joissa kayttajat yliviivaavat kuvia vastauksen loytamiseksi.',
+    tagline: 'Tee vähennyslasku konkreettiseksi työarkeilla, joissa käyttäjät yliviivaavat kuvia vastauksen löytämiseksi.',
     description:
-      'Luo kuvapohjaisia vahennyslasku tyoarkkeja, jotka tekevat kasentteesta "poistaminen" nakyvaa ja ymmärrettavaa voimakkaan visuaalisen menetelman avulla: yliviivaus. Kayttajat nakevat kuvaryhmaan ja havaitsevat diagonaaliset rastit poistettujen elementtien paalla — mikä tekee abstraktista vahennyslasku-kasitteesta konkreettisen ja intuitiivisen. Valitse neljan harjoitustilan valilta — Yliviivaus, Kuva - Numero, Etsi Vahennettava ja Sekatila — ohjataksesi oppimista esikoulusta toiselle luokalle. Tutustu yli 3 100 kuvitukseen 104 teemassa. Jokainen tyoarkki sisaltaa automaattisen vastausavaimen, ja voit vieda tulostusvalmiita PDF-tiedostoja Letter-, Oletuskoko- (800x1000) tai A4-muodossa yli 400 DPI:na. Sisäänrakennettu harmaa-asteet -painike mahdollistaa musteystävallisten mustavalkoisten versioiden luomisen yhdella napsautuksella. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',
+      'Luo kuvapohjaisia vähennyslasku työarkkeja, jotka tekevät käsitteestä "poistaminen" näkyvää ja ymmärrettävää voimakkaan visuaalisen menetelmän avulla: yliviivaus. Käyttäjät näkevät kuvaryhmän ja havaitsevat diagonaaliset rastit poistettujen elementtien päällä — mikä tekee abstraktista vähennyslasku-käsitteestä konkreettisen ja intuitiivisen. Valitse neljän harjoitustilan väliltä — Yliviivaus, Kuva - Numero, Etsi Vähennettävä ja Sekatila — ohjataksesi oppimista esikoulusta toiselle luokalle. Tutustu yli 3 100 kuvitukseen 104 teemassa. Jokainen työarkki sisältää automaattisen vastausavaimen, ja voit viedä tulostusvalmiita PDF-tiedostoja Letter-, Oletuskoko- (800x1000) tai A4-muodossa yli 400 DPI:na. Sisäänrakennettu harmaa-asteet -painike mahdollistaa musteystävällisten mustavalkoisten versioiden luomisen yhdellä napsautuksella. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',
   },
 
   ctaHeading: 'Luo vähennyslaskutehtäviä',
 
   howItWorks: {
-    title: 'Nain Luot Vahennyslasku Tyoarkkeja Viidessa Vaiheessa',
+    title: 'Näin Luot Vähennyslasku Työarkkeja Viidessä Vaiheessa',
     steps: [
       {
         title: 'Aseta sivun asettelu',
         description:
-          'Avaa Sivun Asetukset -paneeli ja valitse koko: Letter Pysty, Oletuskoko (800x1000) tai A4 Pysty. Valitse taustavari tai valitse koristeellinen teema kuvakirjastosta ja saada lapinakyvyytta, jotta tehtavat pysyvat luettavina. Lisaa yhteensopiva koristeellinen kehys ammattimaiseen ulkoasuun. Jokainen asetus koskee seka tyoarkkia etta vastausavainta, mikä varmistaa johdonmukaisen lopputuotteen.',
+          'Avaa Sivun Asetukset -paneeli ja valitse koko: Letter Pysty, Oletuskoko (800x1000) tai A4 Pysty. Valitse taustaväri tai valitse koristeellinen teema kuvakirjastosta ja säädä läpinäkyvyyttä, jotta tehtävät pysyvät luettavina. Lisää yhteensopiva koristeellinen kehys ammattimaiseen ulkoasuun. Jokainen asetus koskee sekä työarkkia että vastausavainta, mikä varmistaa johdonmukaisen lopputuotteen.',
       },
       {
-        title: 'Maarittele harjoitustila ja lukualue',
+        title: 'Määrittele harjoitustila ja lukualue',
         description:
-          'Avaa Harjoituksen Maarittely ja valitse yksi neljasta tilasta. Yliviivaus-tila nayttaa tayden kuvaryhmaan ja piirtaa diagonaaliset rastit poistettujen elementtien paalle — tunnusomainen visualisointi, joka tekee vahennyslaskusta konkreettisen nuorille kayttajille. Kuva - Numero -tila yhdistaa kuvaryhmaan numeron. Etsi Vahennettava -tila nayttaa alkuryhman ja tuloksen, haastaen kayttajat maarittamaan kuinka monta poistettiin. Sekatila yhdistaa kaikki kolme. Aseta maksimivahennysluku 2:sta 20:een ja valitse tehtavien maara sivua kohti.',
+          'Avaa Harjoituksen Määrittely ja valitse yksi neljästä tilasta. Yliviivaus-tila näyttää täyden kuvaryhmän ja piirtää diagonaaliset rastit poistettujen elementtien päälle — tunnusomainen visualisointi, joka tekee vähennyslaskusta konkreettisen nuorille käyttäjille. Kuva - Numero -tila yhdistää kuvaryhmän numeroon. Etsi Vähennettävä -tila näyttää alkuryhmän ja tuloksen, haastaen käyttäjät määrittämään kuinka monta poistettiin. Sekatila yhdistää kaikki kolme. Aseta maksimivähennysluku 2:sta 20:een ja valitse tehtävien määrä sivua kohti.',
       },
       {
         title: 'Valitse kuvia teemakirjastosta',
         description:
-          'Avaa Kuvakirjasto-paneeli ja selaa 104 teemaa — maatilaeläimista ja ruoasta avaruuteen ja juhlapyhiin. Kaytta hakupalkkia loytaaksesi tiettyja kuvia valittomasti. Napsauta valitaksesi haluamasi kuvat; jokainen tehtava kayttaa niita satunnaisesti vaihtelun saavuttamiseksi. Voit myos ladata omia kuvia uniikin ulkoasun luomiseksi.',
+          'Avaa Kuvakirjasto-paneeli ja selaa 104 teemaa — maatilaeläimistä ja ruoasta avaruuteen ja juhlapyhiin. Käytä hakupalkkia löytääksesi tiettyjä kuvia välittömästi. Napsauta valitaksesi haluamasi kuvat; jokainen tehtävä käyttää niitä satunnaisesti vaihtelun saavuttamiseksi. Voit myös ladata omia kuvia uniikin ulkoasun luomiseksi.',
       },
       {
-        title: 'Lisaa tekstia, otsikoita ja asetuksia',
+        title: 'Lisää tekstiä, otsikoita ja asetuksia',
         description:
-          'Kaytta Tyokalut-paneelia lisataksesi otsikon, nimi- ja paivamaarakentat, ohjeita tai muuta mukautettua tekstia. Valitse kolmesta selkeasta fontista — Lexend Deca, Baloo 2 ja Nunito — ja saada fonttikokoa, varia ja tyyleja optimaalisen luettavuuden saavuttamiseksi. Ota kayttoon tai poista kaytosta tehtavanumerot, ota kayttoon ohjaava vastausalue ja veda-ja-pudota elementteja piirtoalustalla taydellisen asettelun saavuttamiseksi.',
+          'Käytä Työkalut-paneelia lisätäksesi otsikon, nimi- ja päivämääräkentät, ohjeita tai muuta mukautettua tekstiä. Valitse kolmesta selkeästä fontista — Lexend Deca, Baloo 2 ja Nunito — ja säädä fonttikokoa, väriä ja tyylejä optimaalisen luettavuuden saavuttamiseksi. Ota käyttöön tai poista käytöstä tehtävänumerot, ota käyttöön ohjaava vastausalue ja vedä-ja-pudota elementtejä piirtoalustalla täydellisen asettelun saavuttamiseksi.',
       },
       {
         title: 'Luo vastausavain ja lataa',
         description:
-          'Siirry Vastausavain-valilehdelle ja napsauta Luo Vastausavain luodaksesi taytetyn version tyoarkistasi kaikilla oikeilla erotuksilla. Avaa sitten latausvalikko ja vie seka tyoarkki etta vastausavain korkearesoluutioisena JPEG- tai tulostusvalmiina PDF-tiedostona. Merkitse Harmaa-asteet -vaihtoehto tuottaaksesi musteystävallisia mustavalkoisia versioita. Jokainen vienti renderoidaan yli 400 DPI:na.',
+          'Siirry Vastausavain-välilehdelle ja napsauta Luo Vastausavain luodaksesi täytetyn version työarkistasi kaikilla oikeilla erotuksilla. Avaa sitten latausvalikko ja vie sekä työarkki että vastausavain korkearesoluutioisena JPEG- tai tulostusvalmiina PDF-tiedostona. Merkitse Harmaa-asteet -vaihtoehto tuottaaksesi musteystävällisiä mustavalkoisia versioita. Jokainen vienti renderöidään yli 400 DPI:na.',
       },
     ],
   },
 
   keyFeatures: {
-    title: 'Vahennyslasku Tyoarkkien Generaattorin Avainominaisuudet',
+    title: 'Vähennyslasku Työarkkien Generaattorin Avainominaisuudet',
     features: [
       {
-        title: 'Yliviivaus — visuaalinen vahennyslaskumenetelma',
+        title: 'Yliviivaus — visuaalinen vähennyslaskumenetelmä',
         description:
-          'Tunnusomainen ominaisuus, joka erottaa taman generaattorin. Yliviivaus-tilassa nakyy taysi kuvaryhmä, ja diagonaaliset rastit piirretaan viimeisten N elementin paalle visuaalisesti esittamaan vahennystä. Tama muuttaa abstraktin kasitteen "poistaminen" joksikin, jonka kayttajat voivat suoraan nahda ja ymmärtää. Lapsi, joka nakee kahdeksan omenaa, joista kolme on yliviivattu, ymmärtää "8 miinus 3" paljon intuitiivisemmin kuin pelkkia lukuja katsomalla. Yliviivausmerkit näkyvat selvästi seka tyoarkissa etta vastausavaimessa.',
+          'Tunnusomainen ominaisuus, joka erottaa tämän generaattorin. Yliviivaus-tilassa näkyy täysi kuvaryhmä, ja diagonaaliset rastit piirretään viimeisten N elementin päälle visuaalisesti esittämään vähennystä. Tämä muuttaa abstraktin käsitteen "poistaminen" joksikin, jonka käyttäjät voivat suoraan nähdä ja ymmärtää. Lapsi, joka näkee kahdeksan omenaa, joista kolme on yliviivattu, ymmärtää "8 miinus 3" paljon intuitiivisemmin kuin pelkkiä lukuja katsomalla. Yliviivausmerkit näkyvät selvästi sekä työarkissa että vastausavaimessa.',
       },
       {
-        title: 'Nelja erilaista harjoitustilaa',
+        title: 'Neljä erilaista harjoitustilaa',
         description:
-          'Valitse tila, joka parhaiten vastaa ostajien tasoa. Yliviivaus-tila on ihanteellinen aloittelijoille — he laskevat koko ryhman, yliviivatut elementit ja kirjoittavat jaljelle jaavan maaran. Kuva - Numero -tila yhdistaa kuvaryhmaan numeron, muodostaen sillan konkreettisen ja abstraktin ajattelun valille. Etsi Vahennettava -tila nayttaa alkuperaisen ryhman ja tuloksen, kehittaen varhaista algebrallista ajattelua. Sekatila yhdistaa kaikki kolme vaihtelevaan harjoitteluun.',
+          'Valitse tila, joka parhaiten vastaa ostajien tasoa. Yliviivaus-tila on ihanteellinen aloittelijoille — he laskevat koko ryhmän, yliviivatut elementit ja kirjoittavat jäljelle jäävän määrän. Kuva - Numero -tila yhdistää kuvaryhmän numeroon, muodostaen sillan konkreettisen ja abstraktin ajattelun välille. Etsi Vähennettävä -tila näyttää alkuperäisen ryhmän ja tuloksen, kehittäen varhaista algebrallista ajattelua. Sekatila yhdistää kaikki kolme vaihtelevaan harjoitteluun.',
       },
       {
-        title: 'Saadettavat lukualueet 2:sta 20:een',
+        title: 'Säädettävät lukualueet 2:sta 20:een',
         description:
-          'Aseta maksimivahennysluku 2:sta 20:een halliten taysin vaikeustasoa. Generaattori takaa, etta vahennettava on aina pienempi kuin aloitusluku, varmistaen paatevat, ei-negatiiviset vastaukset kaikissa tapauksissa. Luo yksinkertaisia tyoarkkeja maksimilla 5 esikouluun, vakioharjoituksia 10:een asti alkuopetukseen tai haastavampia lukuja 20:een asti 1. ja 2. luokalle.',
+          'Aseta maksimivähennysluku 2:sta 20:een halliten täysin vaikeustasoa. Generaattori takaa, että vähennettävä on aina pienempi kuin aloitusluku, varmistaen päätevät, ei-negatiiviset vastaukset kaikissa tapauksissa. Luo yksinkertaisia työarkkeja maksimilla 5 esikouluun, vakioharjoituksia 10:een asti alkuopetukseen tai haastavampia lukuja 20:een asti 1. ja 2. luokalle.',
       },
       {
         title: '104 visuaalista teemaa yli 3 100 kuvalla',
         description:
-          'Tutustu kirjastoon, jossa on yli 3 100 huolellisesti valittua kuvitusta 104 teemassa: maatilaelamet, merielaimet, ajoneuvot, avaruus, ruoka, urheilu, dinosaurukset, juhlapyhat ja paljon muuta. Koska kuvat valittavat matemaattisen sisallon — eivat teksti — vahennyslaskutyoarkkisi toimivat moitteettomasti kaikilla kielilla ja kaikilla markkinoilla maailmanlaajuisesti.',
+          'Tutustu kirjastoon, jossa on yli 3 100 huolellisesti valittua kuvitusta 104 teemassa: maatilaeläimet, merieläimet, ajoneuvot, avaruus, ruoka, urheilu, dinosaurukset, juhlapyhät ja paljon muuta. Koska kuvat välittävät matemaattisen sisällön — ei teksti — vähennyslaskutyöarkkisi toimivat moitteettomasti kaikilla kielillä ja kaikilla markkinoilla maailmanlaajuisesti.',
       },
       {
         title: 'Automaattinen vastausavaimen luominen',
         description:
-          'Napsauta yhta painiketta luodaksesi tayden vastausavaimen, joka toistaa tyoarkkisi asettelun kaikilla oikeilla erotuksilla taytettyina. Yliviivaus-tilassa vastausavain nayttaa samat yliviivatut kuvat plus kirjoitetun vastauksen. Vie vastausavain erillisenä JPEG- tai PDF-tiedostona tuotepaketteihin.',
+          'Napsauta yhtä painiketta luodaksesi täyden vastausavaimen, joka toistaa työarkkisi asettelun kaikilla oikeilla erotuksilla täytettyinä. Yliviivaus-tilassa vastausavain näyttää samat yliviivatut kuvat plus kirjoitetun vastauksen. Vie vastausavain erillisenä JPEG- tai PDF-tiedostona tuotepaketteihin.',
       },
       {
-        title: 'Tulostuvalmis vienti 400+ DPI:na harmaa-asteilla',
+        title: 'Tulostusvalmis vienti 400+ DPI:na harmaa-asteilla',
         description:
-          'Lataa tyoarkkeja ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai PDF-dokumentteina. Vientimoottori renderoi yli 400 DPI:n tarkkuudella. Sisäänrakennettu harmaa-asteet -painike muuttaa koko tyoarkin mustavalkoiseksi yhdella valinnalla — ihanteellinen mustekulujen alentamiseen tai aktiviteettikirjojen sisasivujen tuottamiseen Amazon KDP:lle.',
+          'Lataa työarkkeja ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai PDF-dokumentteina. Vientimoottori renderöi yli 400 DPI:n tarkkuudella. Sisäänrakennettu harmaa-asteet -painike muuttaa koko työarkin mustavalkoiseksi yhdellä valinnalla — ihanteellinen mustekulujen alentamiseen tai aktiviteettikirjojen sisäsivujen tuottamiseen Amazon KDP:lle.',
       },
       {
         title: 'Lataa omia kuvia',
         description:
-          'Mene sisaanrakennetun kirjaston ohi lataamalla omia PNG- tai JPEG-kuvia suoraan sovellukseen. Ihanteellinen brandatyille tyoarkeille, mukautetulle clipartille tai kausiluonteiselle sisallolle. Ladatut kuvat integroituvat kaikkiin harjoitustiloihin — mukaan lukien Yliviivaus-tila, jossa ne saavat samat diagonaaliset rastit.',
+          'Mene sisäänrakennetun kirjaston ohi lataamalla omia PNG- tai JPEG-kuvia suoraan sovellukseen. Ihanteellinen brändättyille työarkeille, mukautetulle clipartille tai kausiluonteiselle sisällölle. Ladatut kuvat integroituvat kaikkiin harjoitustiloihin — mukaan lukien Yliviivaus-tila, jossa ne saavat samat diagonaaliset rastit.',
       },
       {
-        title: 'Taysi piirtoalustamuokkaus kumoa- ja tee uudelleen -toiminnolla',
+        title: 'Täysi piirtoalustamuokkaus kumoa- ja tee uudelleen -toiminnolla',
         description:
-          'Sisaanrakennettu Fabric.js-piirtoalusta antaa sinun vetaa, skaalata, kiertaa ja siirtaa jokaista sivun elementtia — tekstia, kuvia, tehtavalohkoja, kehyksia ja taustoja. Zoomaa sisaan tarkkaan sijoitteluun ja kaytta 20 askeleen kumouspinoa kokeilemiseen vapaasti. Lukitse elementteja paikalleen tai avaa kaikki spontaania uudelleensuunnittelua varten.',
+          'Sisäänrakennettu Fabric.js-piirtoalusta antaa sinun vetää, skaalata, kiertää ja siirtää jokaista sivun elementtiä — tekstiä, kuvia, tehtävälohkoja, kehyksiä ja taustoja. Zoomaa sisään tarkkaan sijoitteluun ja käytä 20 askeleen kumouspinoa kokeilemiseen vapaasti. Lukitse elementtejä paikalleen tai avaa kaikki spontaania uudelleensuunnittelua varten.',
       },
     ],
   },
 
   businessUseCases: {
-    title: 'Nain Myyat Vahennyslasku Tyoarkkeja Verkossa',
+    title: 'Näin Myyt Vähennyslasku Työarkkeja Verkossa',
     cases: [
       {
-        title: 'Teemakohtaiset vahennyslaskupaketit Etsyssa',
+        title: 'Teemakohtaiset vähennyslaskupaketit Etsyssä',
         description:
-          'Luo 10–20 vahennyslasku tyoarkin sarjoja ryhmiteltyina teemoittain — dinosaurukset, maatilaelamet, merielaimet, juhlapyhat — ja tarjoa niita suorana latauksena Etsyssa. Sisallyta vastausavain seka vari- ja harmaa-asteversiot bonustiedostoina lisaarvon luomiseksi. Yliviivaus on vahva visuaalinen argumentti tuoteminiatyyrissa ja kiinnittaa huomion hakutuloksissa. Hinnoittele yksittaiset teemat 3–5 euroon ja megapaketit 12–18 euroon.',
+          'Luo 10–20 vähennyslasku työarkin sarjoja ryhmiteltyinä teemoittain — dinosaurukset, maatilaeläimet, merieläimet, juhlapyhät — ja tarjoa niitä suorana latauksena Etsyssä. Sisällytä vastausavain sekä väri- ja harmaa-asteversiot bonustiedostoina lisäarvon luomiseksi. Yliviivaus on vahva visuaalinen argumentti tuoteminiatyyrissä ja kiinnittää huomion hakutuloksissa. Hinnoittele yksittäiset teemat 3–5 euroon ja megapaketit 12–18 euroon.',
         platform: 'Etsy (etsy.com)',
       },
       {
-        title: 'Vahennyslasku aktiviteettikirjat Amazon KDP:ssa',
+        title: 'Vähennyslasku aktiviteettikirjat Amazon KDP:ssa',
         description:
-          'Kokoa 50–100 vahennyslasku tyoarkkia painetuksi aktiviteettikirjaksi Amazon KDP -muodossa. Rakenteista kirja nousevalla vaikeustasolla: aloita Yliviivaus-tilasta maksimivahennettavalla 5, etene Kuva - Numero -tilaan 10:lla ja paata Sekatilaan 20:lla. Kaytta harmaa-asteet-vientia tulostusvalmiille sisasivuille. Vahennyslasku aktiviteettikirjat KDP:ssa 4–8-vuotiaille myyvat johdonmukaisesti ymparivuotisesti.',
+          'Kokoa 50–100 vähennyslasku työarkkia painetuksi aktiviteettikirjaksi Amazon KDP -muodossa. Rakenteista kirja nousevalla vaikeustasolla: aloita Yliviivaus-tilasta maksimivähennettävällä 5, etene Kuva - Numero -tilaan 10:llä ja päätä Sekatilaan 20:llä. Käytä harmaa-asteet-vientiä tulostusvalmiille sisäsivuille. Vähennyslasku aktiviteettikirjat KDP:ssa 4–8-vuotiaille myyvät johdonmukaisesti ympärivuotisesti.',
         platform: 'Amazon KDP (kdp.amazon.com)',
       },
       {
         title: 'Tasoitetut matematiikkatuotteet Gumroadiin',
         description:
-          'Luo vahennyslaskusarjoja tasoittain: Taso 1 (Yliviivaus, maksimivahennettava 5), Taso 2 (Kuva - Numero, maksimivahennettava 10), Taso 3 (Etsi Vahennettava, maksimivahennettava 15) ja Taso 4 (Sekatila, maksimivahennettava 20). Jokainen taso vastausavaimella ja edistymisen seurantalomakkeella. Gumroadin ostajat maksavat premiumhintoja tasoitetuista tuotteista.',
+          'Luo vähennyslaskusarjoja tasoittain: Taso 1 (Yliviivaus, maksimivähennettävä 5), Taso 2 (Kuva - Numero, maksimivähennettävä 10), Taso 3 (Etsi Vähennettävä, maksimivähennettävä 15) ja Taso 4 (Sekatila, maksimivähennettävä 20). Jokainen taso vastausavaimella ja edistymisen seurantalomakkeella. Gumroadin ostajat maksavat premiumhintoja tasoitetuista tuotteista.',
         platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Digitaaliset tuotteet omassa verkkokaupassa',
         description:
-          'Kaytta generaattoria tuottamaan viikottaisia vahennyslaskupaketteja ja jakele niita oman Shopify-, Gumroad- tai Payhip-kauppasi kautta. Tilausmalli — uusi teemapaketti joka viikko seka vari- etta harmaa-asteversioina — luo toistuvaa tuloa ja rakentaa uskollisen asiakaskunnan. Nelja harjoitustilaa ja 104 teemaa tarjoavat riittavasti vaihtelua vuosien ainutlaatuiseen sisaltoon.',
+          'Käytä generaattoria tuottamaan viikoittaisia vähennyslaskupaketteja ja jakele niitä oman Shopify-, Gumroad- tai Payhip-kauppasi kautta. Tilausmalli — uusi teemapaketti joka viikko sekä väri- että harmaa-asteversioina — luo toistuvaa tuloa ja rakentaa uskollisen asiakaskunnan. Neljä harjoitustilaa ja 104 teemaa tarjoavat riittävästi vaihtelua vuosien ainutlaatuiseen sisältöön.',
         platform: 'Gumroad / Shopify / Payhip',
       },
       {
-        title: 'Harjoitustyoarkit verkossa ja yksityisopetuksessa',
+        title: 'Harjoitustyöarkit verkossa ja yksityisopetuksessa',
         description:
-          'Luo raataloityja vahennyslaskutyoarkkeja jokaiselle kayttajalle tason mukaan. Tulosta Yliviivaus-tyoarkkeja aloittelijoille, jotka tarvitsevat visuaalista tukea, ja Etsi Vahennettava -tyoarkkeja edistyneille kayttajille — kaikki samassa istunnossa. Automaattinen vastausavain saastaa aikaa ja harmaa-astetila alentaa tulostuskuluja intensiiviseen kayttoon.',
+          'Luo räätälöityjä vähennyslaskutyöarkkeja jokaiselle käyttäjälle tason mukaan. Tulosta Yliviivaus-työarkkeja aloittelijoille, jotka tarvitsevat visuaalista tukea, ja Etsi Vähennettävä -työarkkeja edistyneille käyttäjille — kaikki samassa istunnossa. Automaattinen vastausavain säästää aikaa ja harmaa-astetila alentaa tulostuskuluja intensiiviseen käyttöön.',
         platform: 'Verkko / Yksityisopetus / Kotiopiskelu',
       },
     ],
@@ -145,54 +145,54 @@ const content: AppContent = {
 
   faq: [
     {
-      question: 'Mitä harjoitustiloja Vahennyslasku Tyoarkkien Generaattori tarjoaa?',
+      question: 'Mitä harjoitustiloja Vähennyslasku Työarkkien Generaattori tarjoaa?',
       answer:
-        'Generaattori sisaltaa nelja tilaa: Yliviivaus (taysi kuvaryhmä diagonaalisilla rasteilla poistettujen elementtien paalla), Kuva - Numero (kuvaryhmä miinus numero), Etsi Vahennettava (alkuryhmä ja tulos nakyy, kayttajat maarittelevat poistetun maaran) ja Sekatila (yhdistaa kaikki kolme). Jokainen tila kohdistuu eri taitotasolle.',
+        'Generaattori sisältää neljä tilaa: Yliviivaus (täysi kuvaryhmä diagonaalisilla rasteilla poistettujen elementtien päällä), Kuva - Numero (kuvaryhmä miinus numero), Etsi Vähennettävä (alkuryhmä ja tulos näkyy, käyttäjät määrittelevät poistetun määrän) ja Sekatila (yhdistää kaikki kolme). Jokainen tila kohdistuu eri taitotasolle.',
     },
     {
       question: 'Miten yliviivaus-visualisointi toimii?',
       answer:
-        'Yliviivaus-tilassa tyoarkki nayttaa tayden aloitusryhman — esimerkiksi kahdeksan perhosta. Diagonaaliset rastit piirretaan viimeisten N kuvan paalle edustamaan vahennettavaa maaraa. Kayttajat laskevat jaljella olevat merkkaamattomat kuvat vastauksen loytamiseksi. Tama tekee abstraktista kasitteesta "poistaminen" nakyvaa ja konkreettista.',
+        'Yliviivaus-tilassa työarkki näyttää täyden aloitusryhmän — esimerkiksi kahdeksan perhosta. Diagonaaliset rastit piirretään viimeisten N kuvan päälle edustamaan vähennettävää määrää. Käyttäjät laskevat jäljellä olevat merkkaamattomat kuvat vastauksen löytämiseksi. Tämä tekee abstraktista käsitteestä "poistaminen" näkyvää ja konkreettista.',
     },
     {
-      question: 'Mitä lukualueita voin asettaa vahennyslaskutehtaviin?',
+      question: 'Mitä lukualueita voin asettaa vähennyslaskutehtäviin?',
       answer:
-        'Voit asettaa maksimivahennysluvun 2:sta 20:een. Generaattori varmistaa automaattisesti, etta vahennettava on aina pienempi kuin aloitusluku, takaaen paatevat ja ei-negatiiviset vastaukset. Voit luoda helppoja tehtavia kuten 3 miinus 1 aloittelijoille tai haastavia kuten 18 miinus 12 edistyneille.',
+        'Voit asettaa maksimivähennysluvun 2:sta 20:een. Generaattori varmistaa automaattisesti, että vähennettävä on aina pienempi kuin aloitusluku, takaaen päätevät ja ei-negatiiviset vastaukset. Voit luoda helppoja tehtäviä kuten 3 miinus 1 aloittelijoille tai haastavia kuten 18 miinus 12 edistyneille.',
     },
     {
       question: 'Kuinka monta kuvaa ja teemaa on saatavilla?',
       answer:
-        'Sisaanrakennettu kuvakirjasto sisaltaa yli 3 100 kuvitusta 104 teemassa, mukaan lukien elaimet, ajoneuvot, ruoka, juhlapyhat, urheilu, avaruus, luonto ja paljon muuta. Voit myos ladata omia kuvia brandi- tai kausiluonteisiin kuvituksiin.',
+        'Sisäänrakennettu kuvakirjasto sisältää yli 3 100 kuvitusta 104 teemassa, mukaan lukien eläimet, ajoneuvot, ruoka, juhlapyhät, urheilu, avaruus, luonto ja paljon muuta. Voit myös ladata omia kuvia brändi- tai kausiluonteisiin kuvituksiin.',
     },
     {
       question: 'Luoko generaattori vastausavaimia automaattisesti?',
       answer:
-        'Kylla. Napsauta Luo Vastausavain -painiketta luodaksesi taytetyn version tyoarkistasi kaikilla oikeilla erotuksilla. Yliviivaus-tilassa vastausavain sailyttaa yliviivatut kuvat ja lisaa kirjoitetun vastauksen. Lataa se erillisenä JPEG- tai PDF-tiedostona tyoarkin ohella.',
+        'Kyllä. Napsauta Luo Vastausavain -painiketta luodaksesi täytetyn version työarkistasi kaikilla oikeilla erotuksilla. Yliviivaus-tilassa vastausavain säilyttää yliviivatut kuvat ja lisää kirjoitetun vastauksen. Lataa se erillisenä JPEG- tai PDF-tiedostona työarkin ohella.',
     },
     {
-      question: 'Ovatko vahennyslaskutyoarkit kieliriippuvaisia?',
+      question: 'Ovatko vähennyslaskutyöarkit kieliriippuvaisia?',
       answer:
-        'Eivat. Vahennyslaskutyoarkit ovat taysin visuaalisia — matemaattinen sisalto kayttaa kuvia, rasteja ja numeroita, ei sanoja. Tyoarkki toimii kaikilla kielilla. Kieliasetus muuttaa vain sovelluksen kayttoliittyman tunnisteita, ei tyoarkin sisaltoa.',
+        'Eivät. Vähennyslaskutyöarkit ovat täysin visuaalisia — matemaattinen sisältö käyttää kuvia, rasteja ja numeroita, ei sanoja. Työarkki toimii kaikilla kielillä. Kieliasetus muuttaa vain sovelluksen käyttöliittymän tunnisteita, ei työarkin sisältöä.',
     },
     {
       question: 'Mikä on harmaa-asteet -vientivaihtoehto?',
       answer:
-        'Latausvalikko sisaltaa Harmaa-asteet -valintaruudun, joka muuttaa koko tyoarkin ja vastausavaimen mustavalkoiseksi ennen vientia. Tama tuottaa musteystävallisia versioita, jotka ovat ihanteellisia Amazon KDP:n aktiviteettikirjoille tai tilanteisiin, joissa varitulostus ei ole saatavilla.',
+        'Latausvalikko sisältää Harmaa-asteet -valintaruudun, joka muuttaa koko työarkin ja vastausavaimen mustavalkoiseksi ennen vientiä. Tämä tuottaa musteystävällisiä versioita, jotka ovat ihanteellisia Amazon KDP:n aktiviteettikirjoille tai tilanteisiin, joissa väritulostus ei ole saatavilla.',
     },
     {
       question: 'Onko saatavilla ilmaista kokeilua?',
       answer:
-        'Kylla. Sinulla on paasy kaikkiin ominaisuuksiin — kaikkiin neljaan harjoitustilaan, tayteen kuvakirjastoon, vastausavaimen luomiseen, harmaa-asteviendiin ja kaikkiin sivukokoihin — ilman tilin luomista, luottokortin syottamista tai ohjelmiston asentamista. Ilmaisen kokeilun lataukset sisaltavat pienen vesileiman. Kaupallinen lisenssi poistaa vesileiman.',
+        'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — kaikkiin neljään harjoitustilaan, täyteen kuvakirjastoon, vastausavaimen luomiseen, harmaa-astevientiin ja kaikkiin sivukokoihin — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman. Kaupallinen lisenssi poistaa vesileiman.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisaltaa?',
+      question: 'Mitä kaupallinen lisenssi sisältää?',
       answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myyda luomiasi tyoarkkeja — Etsyssa, Amazon KDP:ssa, Gumroadissa, omalla verkkosivustollasi tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eika rajoituksia.',
+        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myydä luomiasi työarkkeja — Etsyssä, Amazon KDP:ssa, Gumroadissa, omalla verkkosivustollasi tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eikä rajoituksia.',
     },
     {
-      question: 'Voinko myyda talla tyokalulla luotuja tyoarkkeja Etsyssa ja Amazon KDP:ssa?',
+      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssa?',
       answer:
-        'Kylla. Kaupallisella lisenssilla sinulla on taydet oikeudet myyda vahennyslaskutyoarkkejasi digitaalisina latauksina Etsyssa, painettuina aktiviteettikirjoina Amazon KDP:ssa, tulostettavina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Monet myyjat luovat teemapaketteja ja aktiviteettikirjoja, jotka tuottavat johdonmukaista tuloa.',
+        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä vähennyslaskutyöarkkejasi digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssa, tulostettavina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Monet myyjät luovat teemapaketteja ja aktiviteettikirjoja, jotka tuottavat johdonmukaista tuloa.',
     },
     {
       question: 'Sopivatko vähennyslaskutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
@@ -212,7 +212,7 @@ const content: AppContent = {
     {
       question: 'Mikä on palautuskäytäntö?',
       answer:
-        'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata jokaisen tilan, jokaisen teeman, jokaisen vientimuodon ja jokaisen sivukoon ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, etta tyokalu vastaa tarpeitasi ennen lisenssin hankkimista.',
+        'Koska ilmainen kokeilu antaa sinulle pääsyn kaikkiin ominaisuuksiin, emme tarjoa palautuksia kaupallisten lisenssien ostoista. Voit testata jokaisen tilan, jokaisen teeman, jokaisen vientimuodon ja jokaisen sivukoon ennen ostamista. Ilmainen kokeilu on palautuskäytäntö — varmista, että työkalu vastaa tarpeitasi ennen lisenssin hankkimista.',
     },
   ],
 
@@ -220,69 +220,69 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'yhteenlasku-tyoarkit',
-      anchorText: 'Yhteenlasku Tyoarkkien Generaattori',
+      anchorText: 'Yhteenlasku Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'koodiyhteenlasku-tyoarkit',
-      anchorText: 'Koodiyhteenlasku Tyoarkkien Generaattori',
+      anchorText: 'Koodiyhteenlasku Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'matikkapulmapeli-tyoarkit',
-      anchorText: 'Matikkapulmapeli Tyoarkkien Generaattori',
+      anchorText: 'Matikkapulmapeli Työarkkien Generaattori',
     },
     {
       pageType: 'app',
       slug: 'vertailutehtavat-tyoarkit',
-      anchorText: 'Vertailutehtavat Tyoarkkien Generaattori',
+      anchorText: 'Vertailutehtävät Työarkkien Generaattori',
     },
     {
       pageType: 'bundle',
       slug: 'matematiikan-mestaripaketti',
-      anchorText: 'Matematiikan Mestaripaketti — Kaikki Matematiikkatyokalut',
+      anchorText: 'Matematiikan Mestaripaketti — Kaikki Matematiikkatyökalut',
     },
     {
       pageType: 'guide',
       slug: 'luo-vahennyslasku-tyoarkkeja',
-      anchorText: 'Nain Luot Vahennyslaskutyoarkkeja, Jotka Myyvat',
+      anchorText: 'Näin Luot Vähennyslaskutyöarkkeja, Jotka Myyvät',
     },
     {
       pageType: 'guide',
       slug: 'myy-matematiikkatyoarkkeja-etsy',
-      anchorText: 'Opas Matematiikkatyoarkkien Myymiseen Etsyssa',
+      anchorText: 'Opas Matematiikkatyöarkkien Myymiseen Etsyssä',
     },
     {
       pageType: 'start',
       slug: 'luo-tyoarkkeja-jotka-myyvat',
-      anchorText: 'Luo tyoarkkeja, jotka myyvat',
+      anchorText: 'Luo työarkkeja, jotka myyvät',
     },
   ],
 
   visuals: {
     heroImages: {
       primary: '/samples/finnish/subtraction/hauskaa-vähennyslaskua-1.webp',
-      primaryAlt: 'Vahennyslaskutyoarkki yliviivaus-visualisoinnilla, diagonaaliset rastit vahennettyjen kuvien paalla',
+      primaryAlt: 'Vähennyslaskutyöarkki yliviivaus-visualisoinnilla, diagonaaliset rastit vähennettyjen kuvien päällä',
     },
     sampleGallery: [
       {
         src: '/samples/finnish/subtraction/hauskaa-vähennyslaskua-1.webp',
-        alt: 'Vahennyslaskutyoarkki Yliviivaus-tilassa rasteilla vahennettyjen kuvien paalla',
-        caption: 'Yliviivaus-tila — diagonaaliset rastit osoittavat, mitka elementit vahennetaan',
+        alt: 'Vähennyslaskutyöarkki Yliviivaus-tilassa rasteilla vähennettyjen kuvien päällä',
+        caption: 'Yliviivaus-tila — diagonaaliset rastit osoittavat, mitkä elementit vähennetään',
       },
       {
         src: '/samples/finnish/subtraction/hauskaa-vähennyslaskua-2.webp',
-        alt: 'Vahennyslaskutyoarkki Kuva miinus Numero -tilassa kuvaryhmilla ja numeroilla',
-        caption: 'Kuva - Numero -tila — yhdistaa kuvaryhmat numeroihin siltataitojen kehittamiseksi',
+        alt: 'Vähennyslaskutyöarkki Kuva miinus Numero -tilassa kuvaryhmillä ja numeroilla',
+        caption: 'Kuva - Numero -tila — yhdistää kuvaryhmät numeroihin siltataitojen kehittämiseksi',
       },
       {
         src: '/samples/finnish/subtraction/hauskaa-vähennyslaskua-1-answer-key.webp',
-        alt: 'Vahennyslaskutyoarkki Etsi Vahennettava -tilassa, haastaa kayttajat loytamaan puuttuvan arvon',
-        caption: 'Etsi Vahennettava -tila — kayttajat maarittelevat kuinka monta poistettiin',
+        alt: 'Vähennyslaskutyöarkki Etsi Vähennettävä -tilassa, haastaa käyttäjät löytämään puuttuvan arvon',
+        caption: 'Etsi Vähennettävä -tila — käyttäjät määrittelevät kuinka monta poistettiin',
       },
     ],
     youtubeId: 'til2mrWMUxk',
-    videoTitle: 'Luo Vahennyslaskutyoarkkeja Yliviivaus-visualisoinnilla — Vaihe Vaiheelta Opas',
+    videoTitle: 'Luo Vähennyslaskutyöarkkeja Yliviivaus-visualisoinnilla — Vaihe Vaiheelta Opas',
   },
 };
 

@@ -24,13 +24,13 @@ const content: AppContent = {
     title: 'Lajittelugeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Kahden kategorian lajittelu tehokkaassa generaattorissa — teemapohjainen tai manuaalinen kuvavalinta — automaattisilla vastausavaimilla, 4–12 säädettävällä kuvalla, lokalisoidulla "Lajittele kuvat" -otsikolla 11 kielellä ja 104 temaattisella kuvakokoelmalla.',
     description:
-      'Rakenna ammattimaisia lajittelutyölehtia, joissa käyttäjät luokittelevat kuvia kahteen kategoriaan lajittelemalla leikattuja kuvia oikeaan vasempaan tai oikeaan ryhmään. Valitse teematila täyttääksesi kategoriat automaattisesti kuvakirjastosta — valitse vasen teema ja oikea teema, ja sovellus hakee 4–6 satunnaista kuvaa per teema — tai vaihda manuaalitilaan käsinvalitaksesi yksittäisiä kuvia ja määrätäksesi jokaisen kategoriaan. Jokaisella työlehdellä on kaksi katkoviivakehyksellistä kategoriaraamia yläosassa lajittelukohteina ja sekoitettu leikkausruudukko alhaalla sekoitetuilla kuvilla valmiina leikattaviksi ja lajiteltaviksi. Kaksoiskangasjärjestelmä luo sekä työlehti-välilehden että vastausavain-välilehden 6× suuremmilla kuvilla kategorialaatikoissa. Kuvalajittelu-generaattori on kieliriippuvainen: kategoriatunnisteet käyttävät lokalisoituja kuvanimiä, joten kielen vaihto muuttaa työlehden tekstin. Täysi pääsy avaa kaikki 104 teemaa yli 3 100 kuvituksella ja kaikki 11 käyttöliittymäkieltä. Lisää taustateemoja ja kehysteemoja, sisällytä nimi- ja päivämääräkentät ja vie tulostusvalmiita PDF-tiedostoja ja JPEG-kuvia 300 DPI:llä. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
+      'Rakenna ammattimaisia lajittelutyölehtiä, joissa käyttäjät luokittelevat kuvia kahteen kategoriaan lajittelemalla leikattuja kuvia oikeaan vasempaan tai oikeaan ryhmään. Valitse teematila täyttääksesi kategoriat automaattisesti kuvakirjastosta — valitse vasen teema ja oikea teema, ja sovellus hakee 4–6 satunnaista kuvaa per teema — tai vaihda manuaalitilaan käsinvalitaksesi yksittäisiä kuvia ja määrätäksesi jokaisen kategoriaan. Jokaisella työlehdellä on kaksi katkoviivakehyksellistä kategoriaraamia yläosassa lajittelukohteina ja sekoitettu leikkausruudukko alhaalla sekoitetuilla kuvilla valmiina leikattaviksi ja lajiteltaviksi. Kaksoiskangasjärjestelmä luo sekä työlehti-välilehden että vastausavain-välilehden 6× suuremmilla kuvilla kategorialaatikoissa. Kuvalajittelu-generaattori on kieliriippuvainen: kategoriatunnisteet käyttävät lokalisoituja kuvanimiä, joten kielen vaihto muuttaa työlehden tekstin. Täysi pääsy avaa kaikki 104 teemaa yli 3 100 kuvituksella ja kaikki 11 käyttöliittymäkieltä. Lisää taustateemoja ja kehysteemoja, sisällytä nimi- ja päivämääräkentät ja vie tulostusvalmiita PDF-tiedostoja ja JPEG-kuvia 300 DPI:llä. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
   },
 
   ctaHeading: 'Luo lajittelutehtäviä',
 
   howItWorks: {
-    title: 'Näin luot kuvalajittelutyölehtia viidessä vaiheessa',
+    title: 'Näin luot kuvalajittelutyölehtiä viidessä vaiheessa',
     steps: [
       {
         title: 'Aseta sivuasettelu',
@@ -66,12 +66,12 @@ const content: AppContent = {
       {
         title: 'Kahden kategorian lajittelu teemapohjaisella tai manuaalisella kuvavalinnalla',
         description:
-          'Luo lajittelutyölehtia tasan kahdella kategorialla — vasen ja oikea — kahdella erillisellä valintatilalla. Teematila mahdollistaa teeman valinnan kummallekin kategorialle (esim. Eläimet vs Ruoka, Maa vs Vesi, Hedelmät vs Vihannekset), ja sovellus valitsee automaattisesti 4–6 satunnaista kuvaa per teema kuvakirjastosta. Manuaalitila antaa täyden hallinnan: käsinvalitse yksittäisiä kuvia mistä tahansa teemasta ja määrää jokainen vasempaan tai oikeaan kategoriaan. Molemmat tilat tuottavat saman ammattimaisen lajitteluasettelun kategoriaraameineen ja sekoitettuine leikkausruudukkoineen.',
+          'Luo lajittelutyölehtiä tasan kahdella kategorialla — vasen ja oikea — kahdella erillisellä valintatilalla. Teematila mahdollistaa teeman valinnan kummallekin kategorialle (esim. Eläimet vs Ruoka, Maa vs Vesi, Hedelmät vs Vihannekset), ja sovellus valitsee automaattisesti 4–6 satunnaista kuvaa per teema kuvakirjastosta. Manuaalitila antaa täyden hallinnan: käsinvalitse yksittäisiä kuvia mistä tahansa teemasta ja määrää jokainen vasempaan tai oikeaan kategoriaan. Molemmat tilat tuottavat saman ammattimaisen lajitteluasettelun kategoriaraameineen ja sekoitettuine leikkausruudukkoineen.',
       },
       {
         title: 'Säädettävä kuvamäärä 4:stä 12:een 2–10 per kategoria',
         description:
-          'Hallitse lajittelukuvien kokonaismäärää minimistä 4 maksimiin 12 per työlehti, jokaisen kategorian sisältäessä 2–10 kuvaa. Teematila hakee automaattisesti 4–6 kuvaa per teema, tuottaen työlehtia 8–12 kuvalla yhteensä. Manuaalitila mahdollistaa tarkkojen lukumäärien asettamisen per kategoria. Vähemmän kuvia tuottaa yksinkertaisempia lajittelutehtäviä; enemmän kuvia lisää vaikeutta ja sisältötiheyttä. Leikkausruudukko säätää automaattisesti sarakeasetteluaan (3–4 saraketta kokonaismäärän perusteella) ylläpitääkseen selkeää visuaalista välistystä.',
+          'Hallitse lajittelukuvien kokonaismäärää minimistä 4 maksimiin 12 per työlehti, jokaisen kategorian sisältäessä 2–10 kuvaa. Teematila hakee automaattisesti 4–6 kuvaa per teema, tuottaen työlehtiä 8–12 kuvalla yhteensä. Manuaalitila mahdollistaa tarkkojen lukumäärien asettamisen per kategoria. Vähemmän kuvia tuottaa yksinkertaisempia lajittelutehtäviä; enemmän kuvia lisää vaikeutta ja sisältötiheyttä. Leikkausruudukko säätää automaattisesti sarakeasetteluaan (3–4 saraketta kokonaismäärän perusteella) ylläpitääkseen selkeää visuaalista välistystä.',
       },
       {
         title: 'Automaattisesti luotu vastausavain 6× suuremmilla kuvilla kategorialaatikoissa',
@@ -86,17 +86,17 @@ const content: AppContent = {
       {
         title: 'Kuvakirjasto 104 temaattisella kokoelmalla ja yli 3 100 kuvituksella',
         description:
-          'Selaa 104 temaattista kuvakokoelmaa, jotka kattavat eläimet, ruoan, ajoneuvot, luonnon, ammatit, juhlapyhät, urheilun, vuodenajat ja kymmeniä muita. Jokainen teema tarjoaa yhtenäisen värikkäiden kuvitusten sarjan, joka toimii lajittelukategorioina. Teemapohjainen kategoriavalintatoiminto tekee helpoksi luoda lajittelutyölehtia luonnollisilla kategoriapareil la — maaeläimet vs merieläimet, terveellinen ruoka vs epäterveellinen ruoka, kesätavarat vs talvitavarat. Kaupallinen paketti sisältää 10 värikästä teemaa; Täysi pääsy avaa kaikki 104 teemaa.',
+          'Selaa 104 temaattista kuvakokoelmaa, jotka kattavat eläimet, ruoan, ajoneuvot, luonnon, ammatit, juhlapyhät, urheilun, vuodenajat ja kymmeniä muita. Jokainen teema tarjoaa yhtenäisen värikkäiden kuvitusten sarjan, joka toimii lajittelukategorioina. Teemapohjainen kategoriavalintatoiminto tekee helpoksi luoda lajittelutyölehtiä luonnollisilla kategoriapareil la — maaeläimet vs merieläimet, terveellinen ruoka vs epäterveellinen ruoka, kesätavarat vs talvitavarat. Kaupallinen paketti sisältää 10 värikästä teemaa; Täysi pääsy avaa kaikki 104 teemaa.',
       },
       {
         title: 'Nimi- ja päivämääräkentät tuotelinjan vastuullisuuteen',
         description:
-          'Valitse "Sisällytä nimi/päivämäärä -kentät" -valintaruutu Sivuasetukset-paneelissa lisätäksesi nimi- ja päivämäärärivit lajittelutyölehdelle. Nämä kentät varmistavat jäljitettävyyden tuotelinjaympäristöissä ja tekevät työlehdet valmiiksi keräämistä ja arviointia varten ilman lisävalmistelua. Lajittelutoimintoja etsivät ostajat arvostavat työlehtia, jotka saapuvat tuotelinjavalmiina, ja nimi/päivämäärävaihtoehto tekee tuotteistasi houkuttelevampia markkinoilla.',
+          'Valitse "Sisällytä nimi/päivämäärä -kentät" -valintaruutu Sivuasetukset-paneelissa lisätäksesi nimi- ja päivämäärärivit lajittelutyölehdelle. Nämä kentät varmistavat jäljitettävyyden tuotelinjaympäristöissä ja tekevät työlehdet valmiiksi keräämistä ja arviointia varten ilman lisävalmistelua. Lajittelutoimintoja etsivät ostajat arvostavat työlehtiä, jotka saapuvat tuotelinjavalmiina, ja nimi/päivämäärävaihtoehto tekee tuotteistasi houkuttelevampia markkinoilla.',
       },
       {
         title: 'Tulostusvalmiit PDF- ja JPEG-viennit 300 DPI:llä ja harmaasävyvaihto',
         description:
-          'Lataa lajittelutyölehtia ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina 300 DPI:n tarkkuudella JPEG-laadulla 1,0 ja automaattisella suunnalla. Neljä erillistä latauspainiketta vie Työlehti-JPEG, Vastausavain-JPEG, Työlehti-PDF ja Vastausavain-PDF erikseen. Sivukoot sisältävät Letter pysty, Letter vaaka, A4 pysty, A4 vaaka, Neliö (1200×1200) ja täysin mukautetut mitat. Vaihda harmaasävy päälle musteystävällisiin versioihin. Jokainen vienti on tuotantovalmis.',
+          'Lataa lajittelutyölehtiä ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina 300 DPI:n tarkkuudella JPEG-laadulla 1,0 ja automaattisella suunnalla. Neljä erillistä latauspainiketta vie Työlehti-JPEG, Vastausavain-JPEG, Työlehti-PDF ja Vastausavain-PDF erikseen. Sivukoot sisältävät Letter pysty, Letter vaaka, A4 pysty, A4 vaaka, Neliö (1200×1200) ja täysin mukautetut mitat. Vaihda harmaasävy päälle musteystävällisiin versioihin. Jokainen vienti on tuotantovalmis.',
       },
       {
         title: 'Täysi kangasmuokkaus tekstityökaluilla, kohdistuksella ja kerrosten hallinnalla',
@@ -107,12 +107,12 @@ const content: AppContent = {
   },
 
   businessUseCases: {
-    title: 'Näin myyt kuvalajittelutyölehtia verkossa',
+    title: 'Näin myyt kuvalajittelutyölehtiä verkossa',
     cases: [
       {
         title: 'Temaattiset lajittelutyölehtipakettit Etsyssä',
         description:
-          'Luo temaattisia lajittelutoimintapaketteja luonnollisilla kategoripareilla 104 kuvakokoelmasta — eläimet vs ruoka, maa vs vesi, hedelmät vs vihannekset, sisällä vs ulkona ja kymmeniä muita. Jokainen teemaparitus tuottaa useita uniikkeja lajittelutyölehtia vaihtelemalla kuvavalintoja ja -määriä. Pakkaa 10–20 lajittelutyölehteä per paketti vastausavaimet mukaan lukien, ja myy 3–7 € per paketti. Teemapohjainen kategoriavalitsin nopeuttaa työlehtigenerointia selkeillä vasen/oikea-ryhmittelyillä.',
+          'Luo temaattisia lajittelutoimintapaketteja luonnollisilla kategoripareilla 104 kuvakokoelmasta — eläimet vs ruoka, maa vs vesi, hedelmät vs vihannekset, sisällä vs ulkona ja kymmeniä muita. Jokainen teemaparitus tuottaa useita uniikkeja lajittelutyölehtiä vaihtelemalla kuvavalintoja ja -määriä. Pakkaa 10–20 lajittelutyölehteä per paketti vastausavaimet mukaan lukien, ja myy 3–7 € per paketti. Teemapohjainen kategoriavalitsin nopeuttaa työlehtigenerointia selkeillä vasen/oikea-ryhmittelyillä.',
         platform: 'Etsy (etsy.com)',
       },
       {
@@ -124,19 +124,19 @@ const content: AppContent = {
       {
         title: 'Tuotelinjan lajittelutoimintoja Gumroadiin',
         description:
-          'Rakenna valmiita lajitteluasema-työlehtia nimi/päivämääräkentillä ja tulostetuilla vastausavaimilla. Gumroadissa lajittelutoimintoja etsivät ostajat arvostavat tulostusvalmiita työlehtia. Luo tuotevalikoiman mukaisia sarjoja: elollinen vs eloton, terveellinen vs epäterveellinen ruoka, päivä- vs yöeläimet, lämmin vs kylmä vaatetus. Jokainen sarja sisältää työlehtia ja vastausavaimia sekä PDF- että JPEG-muodossa.',
+          'Rakenna valmiita lajitteluasema-työlehtiä nimi/päivämääräkentillä ja tulostetuilla vastausavaimilla. Gumroadissa lajittelutoimintoja etsivät ostajat arvostavat tulostusvalmiita työlehtiä. Luo tuotevalikoiman mukaisia sarjoja: elollinen vs eloton, terveellinen vs epäterveellinen ruoka, päivä- vs yöeläimet, lämmin vs kylmä vaatetus. Jokainen sarja sisältää työlehtiä ja vastausavaimia sekä PDF- että JPEG-muodossa.',
         platform: 'Gumroad (gumroad.com)',
       },
       {
         title: 'Kausittaiset ja juhlapyhälajittelukokoelmat',
         description:
-          'Nuo 104 temaattista kuvakokoelmaa kattavat jokaisen kausi- ja juhlapyhätilaisuuden — joulu, halloween, pääsiäinen, ystävänpäivä, koulun alku, kesäloma ja muut. Luo kausittaisia lajittelutyölehtia, joissa käyttäjät luokittelevat juhlapyhäesineitä kategorioihin: joulukoristeet vs jouluruoka, halloween-asut vs halloween-karkit, kesätoiminnot vs talvitoiminnot. Julkaise halloween-lajittelupaketit syyskuussa, joulukokoelmat lokakuussa ja ystävänpäiväpaketit tammikuussa.',
+          'Nuo 104 temaattista kuvakokoelmaa kattavat jokaisen kausi- ja juhlapyhätilaisuuden — joulu, halloween, pääsiäinen, ystävänpäivä, koulun alku, kesäloma ja muut. Luo kausittaisia lajittelutyölehtiä, joissa käyttäjät luokittelevat juhlapyhäesineitä kategorioihin: joulukoristeet vs jouluruoka, halloween-asut vs halloween-karkit, kesätoiminnot vs talvitoiminnot. Julkaise halloween-lajittelupaketit syyskuussa, joulukokoelmat lokakuussa ja ystävänpäiväpaketit tammikuussa.',
         platform: 'Etsy / Amazon KDP / Gumroad (kausittainen)',
       },
       {
         title: 'Monikieliset lajittelutyölehdet kielikoulutus- ja kaksikielisille markkinoille',
         description:
-          'Hyödynnä kieliriippuvaisia kategoriatunnisteita luodaksesi lajittelutyölehtia 11 kielellä. Samat kuvat tuottavat eri kategoriatunnisteet kielen vaihtuessa — kuvanimet ja "Lajittele kuvat" -otsikko päivittyvät automaattisesti. Luo monikielisiä lajittelupaketteja, joissa jokainen kieliversio käyttää samoja temaattisia kuvia mutta lokalisoitua tekstiä. Tämä on erityisen arvokasta kansainvälisille markkinoille ja kaksikielisille tuotelinjoille. Myy kielikohtaisia paketteja tai monikielisiä megapaketteja premium-hintaan.',
+          'Hyödynnä kieliriippuvaisia kategoriatunnisteita luodaksesi lajittelutyölehtiä 11 kielellä. Samat kuvat tuottavat eri kategoriatunnisteet kielen vaihtuessa — kuvanimet ja "Lajittele kuvat" -otsikko päivittyvät automaattisesti. Luo monikielisiä lajittelupaketteja, joissa jokainen kieliversio käyttää samoja temaattisia kuvia mutta lokalisoitua tekstiä. Tämä on erityisen arvokasta kansainvälisille markkinoille ja kaksikielisille tuotelinjoille. Myy kielikohtaisia paketteja tai monikielisiä megapaketteja premium-hintaan.',
         platform: 'Etsy / Gumroad (monikielinen markkina)',
       },
     ],
@@ -151,7 +151,7 @@ const content: AppContent = {
     {
       question: 'Mikä ero on teematilalla ja manuaalitilalla?',
       answer:
-        'Teematila mahdollistaa teeman valinnan vasemmalle kategorialle ja toisen teeman oikealle kategorialle. Sovellus valitsee automaattisesti 4–6 satunnaista kuvaa per teema kuvakirjastosta, tuottaen työlehtia 8–12 kuvalla yhteensä. Manuaalitila antaa täyden hallinnan: käsinvalitse yksittäisiä kuvia mistä tahansa teemasta ja määrää jokainen vasempaan tai oikeaan kategoriaan. Teematila on nopeampi massamuotantoon; manuaalitila on ihanteellinen spesifisten, räätälöityjen lajittelutoimintojen luomiseen.',
+        'Teematila mahdollistaa teeman valinnan vasemmalle kategorialle ja toisen teeman oikealle kategorialle. Sovellus valitsee automaattisesti 4–6 satunnaista kuvaa per teema kuvakirjastosta, tuottaen työlehtiä 8–12 kuvalla yhteensä. Manuaalitila antaa täyden hallinnan: käsinvalitse yksittäisiä kuvia mistä tahansa teemasta ja määrää jokainen vasempaan tai oikeaan kategoriaan. Teematila on nopeampi massamuotantoon; manuaalitila on ihanteellinen spesifisten, räätälöityjen lajittelutoimintojen luomiseen.',
     },
     {
       question: 'Montako kuvaa voin sisällyttää jokaiselle lajittelutyölehdelle?',
@@ -194,7 +194,7 @@ const content: AppContent = {
         'Kyllä. Sivuasetukset-paneeli sisältää sekä taustateemanvalitsimen läpinäkyvyysliukusäätimellä (0–1 0,05:n välein) että kehysteemanvalitsimen omalla itsenäisellä läpinäkyvyysliukusäätimellään. Taustateemat lisäävät koristeellisia kuvioita lajittelusisällön taakse, kun taas kehysteemat kehystävät sivun. Molemmilla on erilliset läpinäkyvyyden säätimet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja lajittelutyölehtia Etsyssä ja Amazon KDP:ssä?',
+      question: 'Voinko myydä tällä työkalulla luotuja lajittelutyölehtiä Etsyssä ja Amazon KDP:ssä?',
       answer:
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä lajittelutyölehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotelinjaresursseina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kahden kategorian lajittelumekanismi, automaattisesti luodut vastausavaimet ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien lajittelutoimintatuotteiden tuottamiseen.',
     },
@@ -259,7 +259,7 @@ const content: AppContent = {
     {
       pageType: 'guide',
       slug: 'luo-lajittelu-tyolehtia',
-      anchorText: 'Näin luot myytäviä lajittelutyölehtia',
+      anchorText: 'Näin luot myytäviä lajittelutyölehtiä',
     },
     {
       pageType: 'idea',
@@ -301,7 +301,7 @@ const content: AppContent = {
       },
     ],
     youtubeId: '9kzmlABtNVQ',
-    videoTitle: 'Näin luot kuvalajittelutyölehtia kahden kategorian lajittelulla ja automaattisilla vastausavaimilla — Vaihe vaiheelta -opas',
+    videoTitle: 'Näin luot kuvalajittelutyölehtiä kahden kategorian lajittelulla ja automaattisilla vastausavaimilla — Vaihe vaiheelta -opas',
   },
 };
 

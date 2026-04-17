@@ -96,7 +96,7 @@ const content: AppContent = {
       {
         title: 'Tulostusvalmiit PDF- ja JPEG-viennit 300 DPI:llä ja harmaasävyvaihto',
         description:
-          'Lataa sudoku-työlehtia ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina 300 DPI:n tarkkuudella (6× kangaskerroin). Neljä erillistä latauspainiketta vie tiedostot erikseen. Sivukoot sisältävät Letter pysty, Letter vaaka, A4 pysty, A4 vaaka ja täysin mukautetut mitat. Vaihda harmaasävy päälle musteystävällisiin versioihin.',
+          'Lataa sudoku-työlehtiä ja vastausavaimia korkearesoluutioisina JPEG-kuvina tai tulostusvalmiina PDF-dokumentteina 300 DPI:n tarkkuudella (6× kangaskerroin). Neljä erillistä latauspainiketta vie tiedostot erikseen. Sivukoot sisältävät Letter pysty, Letter vaaka, A4 pysty, A4 vaaka ja täysin mukautetut mitat. Vaihda harmaasävy päälle musteystävällisiin versioihin.',
       },
       {
         title: 'Täysi kangasmuokkaus tekstityökaluilla ja 50 tilan kumoa-historialla',
@@ -124,7 +124,7 @@ const content: AppContent = {
       {
         title: 'Tasoitetut logiikka- ja päättelypakettit Gumroadiin',
         description:
-          'Rakenna valmiita logiikka-päättelytyölehtia tulostetuilla vastausavaimilla tuotelinjallesi. Luo niche-kohtaisia sarjoja teemoittain: maatilaeläinten logiikkapalapelit, ruokaryhmien päättelyaktiviteetit, yhteisöauttajien ongelmanratkaisutyölehdet. Jokainen sarja sisältää palapeliä useilla vaikeustasoilla ja vastausavaimia sekä PDF- että JPEG-muodossa.',
+          'Rakenna valmiita logiikka-päättelytyölehtiä tulostetuilla vastausavaimilla tuotelinjallesi. Luo niche-kohtaisia sarjoja teemoittain: maatilaeläinten logiikkapalapelit, ruokaryhmien päättelyaktiviteetit, yhteisöauttajien ongelmanratkaisutyölehdet. Jokainen sarja sisältää palapeliä useilla vaikeustasoilla ja vastausavaimia sekä PDF- että JPEG-muodossa.',
         platform: 'Gumroad (gumroad.com)',
       },
       {
@@ -174,7 +174,7 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — kaikkia kolmea vaikeustasoa, teemapohjaista ja manuaalista kuvavalintaa, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, tekstityökaluja ja kaikkia latausmuotoja — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun latauksissa on pieni vesileima. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja kuvasudoku-työlehtia Etsyssä ja Amazon KDP:ssä?',
+      question: 'Voinko myydä tällä työkalulla luotuja kuvasudoku-työlehtiä Etsyssä ja Amazon KDP:ssä?',
       answer:
         'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kuvasudoku-työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, digitaalisina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kolme vaikeustasoa, 104 temaattista kuvakokoelmaa ja puhtaasti visuaalinen muoto antavat sinulle luovat työkalut alkuperäisten, globaalisti myytävien sudoku-tuotteiden tuottamiseen.',
     },
@@ -251,7 +251,7 @@ const content: AppContent = {
       },
     ],
     youtubeId: 'bqVioFbkYbA',
-    videoTitle: 'Näin luot 4×4-kuvasudoku-työlehtia kolmella vaikeustasolla — Vaihe vaiheelta -opas',
+    videoTitle: 'Näin luot 4×4-kuvasudoku-työlehtiä kolmella vaikeustasolla — Vaihe vaiheelta -opas',
   },
 };
 

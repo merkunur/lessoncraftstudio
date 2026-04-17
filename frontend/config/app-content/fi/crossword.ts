@@ -22,9 +22,9 @@ const content: AppContent = {
 
   hero: {
     title: 'Sanaristikkogeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
-    tagline: 'Korvaa perinteiset tekstivihjeet kuvavihjei llä 15×15-ristikkoruudukossa — neljä syöttötapaa (teeman automaattivalinta, manuaalinen kuvanimieditointi, mukautettu sanalista ja kuvien lataus), automaattisesti luotu vastausavain täytetyllä ruudukolla ja lokalisoitu "Kuvaristikko" -otsikko 104 temaattisessa kuvakokoelmassa.',
+    tagline: 'Korvaa perinteiset tekstivihjeet kuvavihjeillä 15×15-ristikkoruudukossa — neljä syöttötapaa (teeman automaattivalinta, manuaalinen kuvanimieditointi, mukautettu sanalista ja kuvien lataus), automaattisesti luotu vastausavain täytetyllä ruudukolla ja lokalisoitu "Kuvaristikko" -otsikko 104 temaattisessa kuvakokoelmassa.',
     description:
-      'Kuvaristikko-palapelit erottuvat jokaisesta muusta tulostettavasta muodosta Etsyssä — värilliset kuvavihjeei korvaavat tylsät tekstimääritelmät, tehden ilmoituksistasi visuaalisesti erottuvia ja vastustamattomia ostajille. Tämä ristikko-palapeelin tekijä luo ammattimaisia ristikkoruudukoita temaattisilla kuvilla vihjeeinä, automaattisilla vastausavaimilla ja 300 DPI:n tulostusvalmiilla vienneillä — kaikki alle 3 minuutissa. Valitse yli 3 000 kuvituksesta 104 teemasta tai lataa omia kuvia. Sisäänrakennettu 11 kielen tuki tuottaa aidosti eri ristikkosanoja per kieli, joten yksi työkalu luo tuotteita englannin, saksan, ranskan, espanjan ja seitsemän muun markkinan tarpeisiin. Jokainen luomasi ristikko sisältää täyden kaupallisen lisenssin. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
+      'Kuvaristikko-palapelit erottuvat jokaisesta muusta tulostettavasta muodosta Etsyssä — värilliset kuvavihjeet korvaavat tylsät tekstimääritelmät, tehden ilmoituksistasi visuaalisesti erottuvia ja vastustamattomia ostajille. Tämä ristikko-palapelin tekijä luo ammattimaisia ristikkoruudukoita temaattisilla kuvilla vihjeinä, automaattisilla vastausavaimilla ja 300 DPI:n tulostusvalmiilla vienneillä — kaikki alle 3 minuutissa. Valitse yli 3 000 kuvituksesta 104 teemasta tai lataa omia kuvia. Sisäänrakennettu 11 kielen tuki tuottaa aidosti eri ristikkosanoja per kieli, joten yksi työkalu luo tuotteita englannin, saksan, ranskan, espanjan ja seitsemän muun markkinan tarpeisiin. Jokainen luomasi ristikko sisältää täyden kaupallisen lisenssin. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',
   },
 
   ctaHeading: 'Luo sanaristikoita',
@@ -64,7 +64,7 @@ const content: AppContent = {
     title: 'Miksi kuvaristikot myyvät paremmin kuin pelkäteksti-muodot Etsyssä',
     features: [
       {
-        title: 'Kuvaristikko-palapelit kuvavihjei llä kiinteällä 15×15-ruudukolla',
+        title: 'Kuvaristikko-palapelit kuvavihjeillä kiinteällä 15×15-ruudukolla',
         description:
           'Luo ristikko-palapeleja, joissa värilliset kuvat korvaavat perinteiset tekstivihjeet. Kahdeksan kuvaa tuottavat kahdeksan sanaa, jotka algoritmi sijoittaa kiinteälle 15×15-ruudukolle — mustat solut muodostavat taustan värillisillä ääriviivoilla merkiten vastaussoluja. Sijoitusalgoritmi poimii sanat kuvanimistä, lajittelee pituuden mukaan (pisin ensin) optimaaliseen ruudukon kattavuuteen ja sijoittaa sanat risteävillä kirjaimilla.',
       },
@@ -79,19 +79,19 @@ const content: AppContent = {
           'Jokainen kuvaristikko luo automaattisesti vastausavaimen erilliselle kangas-välilehdelle. Vastausavain toistaa tarkan palapeliasettelu ja täyttää ruudukon kaikilla oikeilla vastauksilla näkyvissä soluissa. Ei manuaalista vastausten luontia, ei erillistä tiedostoa — vastausavain pysyy täydellisesti synkronoituna palapelin kanssa.',
       },
       {
-        title: 'Lokalisoidut palapeelisanat 11 kielellä Image Vocabulary -järjestelmän kautta',
+        title: 'Lokalisoidut palapelisanat 11 kielellä Image Vocabulary -järjestelmän kautta',
         description:
-          'Kuvaristikko-generaattori on kieliriippuvainen: palapeelisanat tulevat lokalisoiduista kuvanimistä Image Vocabulary -järjestelmän kautta. Sisältökielen vaihtaminen muuttaa todellisia sanoja ristikkoruudukossa. Esimerkiksi kissakuva tuottaa "KISSA" suomeksi mutta "CAT" englanniksi ja "KATZE" saksaksi — tuottaen täysin eri ristikko-palapeleja samoista kuvista. Kaupallinen paketti sisältää englannin; Täysi pääsy avaa kaikki 11 kieltä lokalisoituihin palapeelisanoihin.',
+          'Kuvaristikko-generaattori on kieliriippuvainen: palapelisanat tulevat lokalisoiduista kuvanimistä Image Vocabulary -järjestelmän kautta. Sisältökielen vaihtaminen muuttaa todellisia sanoja ristikkoruudukossa. Esimerkiksi kissakuva tuottaa "KISSA" suomeksi mutta "CAT" englanniksi ja "KATZE" saksaksi — tuottaen täysin eri ristikko-palapeleja samoista kuvista. Kaupallinen paketti sisältää englannin; Täysi pääsy avaa kaikki 11 kieltä lokalisoituihin palapeelisanoihin.',
       },
       {
-        title: 'Mukautettu sanalista tekstivihjei llä perinteisiin ristikkoihin',
+        title: 'Mukautettu sanalista tekstivihjeillä perinteisiin ristikkoihin',
         description:
           'Aktivoi Mukautettu sanalista vihjeineen -valintaruutu vaihtaaksesi kuvaristikosta perinteiseen tekstivihjeiden ristikkoon. Syötä sanat ja vihjeet SANA: vihjeteksti -muodossa, yksi per rivi, vähintään 8 merkintää. Sama 15×15-ruudukkoalgoritmi sijoittaa mukautetut sanasi optimaaliseen risteämiseen. Tämä tila mahdollistaa sanastoristikkojen, oikeinkirjoitusristikkojen tai aihekohtaisten ristikkojen luomisen myyjän määrittelemällä sisällöllä.',
       },
       {
         title: 'Kuvakirjasto 104 temaattisella kokoelmalla ja yli 3 100 kuvituksella',
         description:
-          'Selaa 104 temaattista kuvakokoelmaa. Jokainen teema tarjoaa yhtenäisen värikkäiden kuvitusten sarjan, joka toimii visuaalisina vihjei nä ristikko-palapeleissäsi. Kaupallinen paketti sisältää 10 värikästä teemaa; Täysi pääsy avaa kaikki 104 teemaa.',
+          'Selaa 104 temaattista kuvakokoelmaa. Jokainen teema tarjoaa yhtenäisen värikkäiden kuvitusten sarjan, joka toimii visuaalisina vihjeinä ristikko-palapeleissäsi. Kaupallinen paketti sisältää 10 värikästä teemaa; Täysi pääsy avaa kaikki 104 teemaa.',
       },
       {
         title: 'Tulostusvalmiit PDF- ja JPEG-viennit 300 DPI:llä ja harmaasävyvaihto',
@@ -151,7 +151,7 @@ const content: AppContent = {
     {
       question: 'Onko Kuvaristikko-generaattori kieliriippuvainen?',
       answer:
-        'Kyllä. Palapeelisanat tulevat lokalisoiduista kuvanimistä Image Vocabulary -järjestelmän kautta. Sisältökielen vaihtaminen muuttaa todellisia sanoja ristikkoruudukossa. Kissakuva tuottaa "KISSA" suomeksi mutta "CAT" englanniksi, "KATZE" saksaksi ja "GATTO" italiaksi — luoden täysin eri ristikko-palapeleja identtisistä kuvavalinnoista. Lokalisoitu "Kuvaristikko" -otsikko vaihtuu myös valitun kielen mukaan.',
+        'Kyllä. Palapelisanat tulevat lokalisoiduista kuvanimistä Image Vocabulary -järjestelmän kautta. Sisältökielen vaihtaminen muuttaa todellisia sanoja ristikkoruudukossa. Kissakuva tuottaa "KISSA" suomeksi mutta "CAT" englanniksi, "KATZE" saksaksi ja "GATTO" italiaksi — luoden täysin eri ristikko-palapeleja identtisistä kuvavalinnoista. Lokalisoitu "Kuvaristikko" -otsikko vaihtuu myös valitun kielen mukaan.',
     },
     {
       question: 'Miten automaattisesti luotu vastausavain toimii?',
@@ -171,7 +171,7 @@ const content: AppContent = {
     {
       question: 'Sopivatko sanaristikkotehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
-        'Sanaristikot sopivat parhaiten alkuopetukseen (1.\u20132. luokka) ja alakouluun (3.\u20136. luokka), kun lapset osaavat kirjoittaa kirjaimia. Kuvavihjeet tekevät tehtävistä saavutettavia jo 1. luokalla.',
+        'Sanaristikot sopivat parhaiten alkuopetukseen (1.–2. luokka) ja alakouluun (3.–6. luokka), kun lapset osaavat kirjoittaa kirjaimia. Kuvavihjeet tekevät tehtävistä saavutettavia jo 1. luokalla.',
     },
     {
       question: 'Noudattavatko sanaristikkotehtävät OPS 2014 -opetussuunnitelmaa?',
@@ -209,7 +209,7 @@ const content: AppContent = {
     {
       pageType: 'app',
       slug: 'sanaristikko-tyolehdat',
-      anchorText: 'Sanaristikko-palapeleja täydentäviin palapeelipaketteihin',
+      anchorText: 'Sanaristikko-palapeleja täydentäviin palapelipaketteihin',
     },
     {
       pageType: 'guide',
@@ -236,13 +236,13 @@ const content: AppContent = {
   visuals: {
     heroImages: {
       primary: '/samples/finnish/crossword/kuvaristikko-1.webp',
-      primaryAlt: 'Kuvaristikko-palapeli kuvavihjei llä 15×15-ruudukossa lokalisoidulla Kuvaristikko-otsikolla ja numeroiduilla vihjepaikoilla',
+      primaryAlt: 'Kuvaristikko-palapeli kuvavihjeillä 15×15-ruudukossa lokalisoidulla Kuvaristikko-otsikolla ja numeroiduilla vihjepaikoilla',
     },
     sampleGallery: [
       {
         src: '/samples/finnish/crossword/kuvaristikko-1.webp',
-        alt: 'Kuvaristikko-palapeli temaattisilla kuvavihjei llä 15×15-ristikkoruudukon vieressä',
-        caption: 'Kuvaristikko — kuvavihjeeet korvaavat perinteiset tekstivihjeet 15×15-ruudukossa',
+        alt: 'Kuvaristikko-palapeli temaattisilla kuvavihjeillä 15×15-ristikkoruudukon vieressä',
+        caption: 'Kuvaristikko — kuvavihjeet korvaavat perinteiset tekstivihjeet 15×15-ruudukossa',
       },
       {
         src: '/samples/finnish/crossword/kuvaristikko-2.webp',
@@ -256,7 +256,7 @@ const content: AppContent = {
       },
     ],
     youtubeId: 'b3WKDrzif-w',
-    videoTitle: 'Näin luot kuvaristikko-palapeleja kuvavihjei llä ja automaattisilla vastausavaimilla — Vaihe vaiheelta -opas',
+    videoTitle: 'Näin luot kuvaristikko-palapeleja kuvavihjeillä ja automaattisilla vastausavaimilla — Vaihe vaiheelta -opas',
   },
 };
 

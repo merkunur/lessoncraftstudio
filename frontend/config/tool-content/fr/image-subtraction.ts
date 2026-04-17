@@ -167,10 +167,6 @@ const content: ToolContent = {
       answer: 'Le générateur prend en charge quatre modes : Barrer (les utilisateurs barrent des images pour visualiser la soustraction), Image − Nombre (un groupe d\'images moins un chiffre), Trouver le Nombre à Soustraire (le diminuende et le résultat sont affichés ; l\'enfant détermine combien ont été retirés) et Mode Mixte (combine aléatoirement les trois styles sur une même fiche pour un maximum de variété).',
     },
     {
-      question: 'Quels formats de fichiers puis-je télécharger ?',
-      answer: 'Vous pouvez télécharger les fiches en images JPEG haute résolution ou en fichiers PDF optimisés pour l\'impression. La fiche et son corrigé assorti sont disponibles dans les deux formats. Les PDF sont idéaux pour l\'impression directe ; les JPEG sont parfaits pour créer des maquettes de produits et des publications sur les réseaux sociaux.',
-    },
-    {
       question: 'Puis-je utiliser les fiches à des fins commerciales ?',
       answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique uniquement. Pour vendre des fiches sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez. De nombreux vendeurs créent des boutiques Etsy entières dédiées aux fiches de soustraction et de maths, générant des revenus mensuels réguliers grâce à un catalogue de produits ciblé. La licence commerciale couvre une génération illimitée de fiches sur tous les thèmes et niveaux de difficulté.',
     },

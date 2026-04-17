@@ -186,10 +186,6 @@ const content: ToolContent = {
       answer: 'Sì — e questo è un grande vantaggio. Poiché le schede di confronto usano solo immagini, numeri e simboli, sono completamente indipendenti dalla lingua. Le schede che crei funzionano in modo identico in tutte le 11 lingue supportate. Puoi vendere lo stesso prodotto ad acquirenti di qualsiasi paese senza traduzione.',
     },
     {
-      question: 'Quali formati di file posso scaricare?',
-      answer: 'Puoi scaricare le schede come immagini JPEG ad alta risoluzione o file PDF ottimizzati per la stampa. Sia la scheda che il relativo foglio risposte sono disponibili in entrambi i formati. I PDF sono ideali per la stampa diretta; i JPEG sono perfetti per creare mockup dei prodotti e post sui social media.',
-    },
-    {
       question: 'Qual è la vostra politica di rimborso?',
       answer: 'Prova prima di acquistare con la nostra prova gratuita — ogni funzionalità è disponibile così puoi valutare completamente lo strumento prima dell\'acquisto. Poiché la prova gratuita ti dà accesso completo, non offriamo rimborsi sugli acquisti di licenze. Assicurati che lo strumento soddisfi le tue esigenze usando la prova gratuita prima di comprare.',
     },

@@ -160,10 +160,6 @@ const content: ToolContent = {  seo: {
       answer: 'Ja. De tool biedt een gratis proefversie met volledige functies — geen registratie, geen creditcard nodig. Je kunt zoveel werkbladen maken, bekijken en downloaden als je wilt. Gratis proefversie downloads bevatten een watermerk. Koop een commerciële licentie om het watermerk te verwijderen en verkooprechten te ontgrendelen.',
     },
     {
-      question: 'Welke bestandsformaten kan ik downloaden?',
-      answer: 'Je kunt werkbladen downloaden als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden. Zowel het werkblad als het bijpassende antwoordblad zijn beschikbaar in beide formaten. PDF\'s zijn ideaal voor direct printen; JPEG\'s werken uitstekend voor het maken van productmockups en social media berichten. Voor KDP-publicatie exporteer je PDF\'s op de hoogste beschikbare resolutie om aan Amazon-printkwaliteitsvereisten te voldoen.',
-    },
-    {
       question: 'Kan ik de werkbladen commercieel gebruiken?',
       answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
     },
@@ -186,10 +182,6 @@ const content: ToolContent = {  seo: {
     {
       question: 'Kan ik een antwoordblad genereren?',
       answer: 'Ja. Na het genereren van een werkblad klik je op "Genereer Antwoordblad" om een bijpassend oplossingenblad te maken met alle antwoorden ingevuld. Je kunt het antwoordblad downloaden als apart JPEG- of PDF-bestand. Dit is bijzonder nuttig voor verkopers en voor verkopers die antwoordbladen willen opnemen in hun producten. Kopers op Etsy en Gumroad laten consistent hogere beoordelingen achter voor vermeldingen die antwoordbladen bevatten.',
-    },
-    {
-      question: 'Welke paginaformaten worden ondersteund?',
-      answer: 'De generator ondersteunt US Letter (staand en liggend), A4 (staand en liggend), Vierkant (1200×1200 px) en volledig aangepaste afmetingen. Het vierkante formaat is ideaal voor social media-inhoud en Amazon KDP-activiteitenboeken. Voor de Nederlandse markt is A4 het meestgebruikte formaat voor werkbladen.',
     },
     {
       question: 'Wat is het restitutiebeleid?',

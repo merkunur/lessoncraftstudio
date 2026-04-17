@@ -185,10 +185,6 @@ const content: ToolContent = {
       answer: 'Kyllä — ja tämä on suuri etu. Koska vertailutehtävät käyttävät vain kuvia, numeroita ja symboleja, ne ovat täysin kieliriippumattomia. Luomasi tehtävät toimivat identtisesti kaikilla 11 tuetulla kielellä.',
     },
     {
-      question: 'Mitä tiedostomuotoja voin ladata?',
-      answer: 'Voit ladata tehtäviä korkearesoluutioisina JPEG-kuvina tai tulostusoptimoiduina PDF-tiedostoina. Molemmat muodot sekä tehtäväarkille että vastausavaimelle.',
-    },
-    {
       question: 'Tarvitseeko minun asentaa ohjelmistoa?',
       answer: 'Ei. Generaattori toimii kokonaan selaimessasi kaikilla moderneilla laitteilla.',
     },

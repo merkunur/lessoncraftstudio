@@ -164,10 +164,6 @@ const content: ToolContent = {
       answer: 'Generatorn stöder fyra lägen: Stryk Över (användarna stryker över bilder för att visualisera ta-bort subtraktion), Bild − Tal (en bildgrupp minus en siffra), Hitta Subtrahend (minuend och resultat visas; barnet avgör vad som togs bort), och Blandat Läge (kombinerar slumpmässigt alla tre stilar på ett arbetsblad för maximal variation).',
     },
     {
-      question: 'Vilka filformat kan jag ladda ner?',
-      answer: 'Du kan ladda ner arbetsblad som högupplösta JPEG-bilder eller utskriftsoptimerade PDF-filer. Både arbetsbladet och dess matchande facit finns tillgängliga i båda format. PDF:er är idealiska för direkt utskrift; JPEG:er fungerar utmärkt för att skapa produktmockups och sociala medier-inlägg.',
-    },
-    {
       question: 'Kan jag använda arbetsbladen för kommersiella ändamål?',
       answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter för arbetsbladen du skapar.',
     },

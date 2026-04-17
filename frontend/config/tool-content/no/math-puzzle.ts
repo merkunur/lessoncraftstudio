@@ -190,10 +190,6 @@ const content: ToolContent = {
       answer: 'Ja. Mattepuslespill bruker kun bilder, tall og ligninger — ingen tekst. Puslespillene du lager fungerer identisk på alle språk. Du kan selge det samme produktet til kjopere i alle land uten oversettelse, noe som direkte multipliserer ditt adresserbare marked.',
     },
     {
-      question: 'Hvilke filformater kan jeg laste ned?',
-      answer: 'Du kan laste ned puslespill som hoyopploste JPEG-bilder eller utskriftsoptimerte PDF-filer. Både puslespillarbeidsarket og den matchende fasiten er tilgjengelige i begge formater. PDF-er er ideelle for direkte utskrift; JPEG-er fungerer utmerket for å lage produktmockups og sosiale medier-innlegg.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer: 'Prov for du kjoper med vår gratis proveversjon — alle funksjoner er tilgjengelige slik at du kan fullt evaluere verktøyet for du kjoper. Fordi den gratis proveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjop. Sorg for at verktøyet passer til behovene dine med den gratis proveversjonen for du kjoper.',
     },

@@ -182,10 +182,6 @@ const content: ToolContent = {
       answer: 'Generaattori tukee 11 kieltä: englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska, norja ja suomi. Sanan Paljastus -tilassa aakkoset mukautuvat automaattisesti sisältämään maakohtaiset merkit kuten suomen Ä/Ö.',
     },
     {
-      question: 'Mitä tiedostomuotoja voin ladata?',
-      answer: 'Voit ladata palapelejä korkearesoluutioisina JPEG-kuvina tai tulostusoptimoiduina PDF-tiedostoina. Sekä palapeliarkki että vastausavain ovat saatavilla molemmissa muodoissa.',
-    },
-    {
       question: 'Tarvitseeko minun asentaa ohjelmistoa?',
       answer: 'Ei. Generaattori toimii kokonaan selaimessasi kaikilla moderneilla laitteilla — Windows, Mac, Chromebook, iPad tai Android-tabletti.',
     },

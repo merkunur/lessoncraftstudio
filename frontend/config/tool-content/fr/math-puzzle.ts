@@ -192,10 +192,6 @@ const content: ToolContent = {  seo: {
       answer: 'Oui. Les puzzles maths n\'utilisent que des images, des nombres et des équations — aucun texte. Les puzzles que vous créez fonctionnent identiquement dans toutes les langues. Vous pouvez vendre le même produit aux acheteurs de n\'importe quel pays sans traduction, multipliant instantanément votre marché accessible.',
     },
     {
-      question: 'Quels formats de fichiers puis-je télécharger ?',
-      answer: 'Vous pouvez télécharger les puzzles en images JPEG haute résolution ou en fichiers PDF optimisés pour l\'impression. La fiche de puzzle et son corrigé assorti sont disponibles dans les deux formats. Les PDF sont idéaux pour l\'impression directe ; les JPEG sont parfaits pour créer des maquettes de produits et des publications sur les réseaux sociaux.',
-    },
-    {
       question: 'Quelle est votre politique de remboursement ?',
       answer: 'Essayez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour que vous puissiez évaluer complètement l\'outil avant d\'acheter. Comme l\'essai gratuit vous donne un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins en utilisant l\'essai gratuit avant d\'acheter.',
     },

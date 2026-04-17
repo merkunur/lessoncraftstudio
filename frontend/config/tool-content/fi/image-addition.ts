@@ -160,10 +160,6 @@ const content: ToolContent = {
       answer: 'Kyllä. Työkalu tarjoaa ilmaisen kokeilun kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia vaaditaan. Voit luoda, esikatsella ja ladata niin monta tehtäväarkkia kuin haluat. Ilmaisen kokeilun lataukset sisältävät vesileiman. Osta kaupallinen lisenssi poistaaksesi vesileiman ja avataksesi myyntioikeudet.',
     },
     {
-      question: 'Mitä tiedostomuotoja voin ladata?',
-      answer: 'Voit ladata tehtäviä korkearesoluutioisina JPEG-kuvina tai tulostusoptimoiduina PDF-tiedostoina. Sekä tehtäväarkki että sen vastaava vastausavain ovat saatavilla molemmissa muodoissa. PDF:t ovat ihanteellisia suoraan tulostamiseen; JPEG:t toimivat erinomaisesti tuotemockup-kuvien ja sosiaalisen median julkaisujen luomiseen. KDP-julkaisuun vie PDF:t korkeimmalla saatavilla olevalla resoluutiolla.',
-    },
-    {
       question: 'Voinko käyttää tehtäviä kaupallisiin tarkoituksiin?',
       answer: 'Ilmainen kokeilu vesileimalla on vain henkilökohtaiseen käyttöön. Myydäksesi tehtäviä Etsyssä, Amazon KDP:ssä, Gumroadissa tai millä tahansa muulla markkinapaikalla tarvitset kaupallisen lisenssin. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet jälleenmyyntioikeudet luomillesi tehtäville.',
     },
@@ -186,10 +182,6 @@ const content: ToolContent = {
     {
       question: 'Voinko luoda vastausavaimen?',
       answer: 'Kyllä. Tehtäväarkin luomisen jälkeen napsauta "Luo vastausavain" luodaksesi vastaavan ratkaisuarkin kaikki vastaukset täytettynä. Voit ladata vastausavaimen erillisenä JPEG- tai PDF-tiedostona. Tämä on erityisen hyödyllistä myyjille, jotka haluavat sisällyttää vastausavaimet tuotteisiinsa.',
-    },
-    {
-      question: 'Mitä sivukokoja tuetaan?',
-      answer: 'Generaattori tukee US Letter (pysty ja vaaka), A4 (pysty ja vaaka), Neliö (1200×1200 px) ja täysin mukautettuja mittoja. Neliöformaatti on ihanteellinen sosiaalisen median sisältöön ja Amazon KDP -aktiviteettikirjoihin.',
     },
     {
       question: 'Mikä on palautuskäytäntönne?',

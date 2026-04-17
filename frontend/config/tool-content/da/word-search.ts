@@ -199,10 +199,6 @@ const content: ToolContent = {
       answer: 'Den gratis prøveversion med vandmærke er kun til personligt brug og produktlinjebrug. For at sælge arbejdsark på Etsy, Gumroad, Amazon KDP eller enhver anden markedsplads har du brug for en kommerciel licens. Den kommercielle licens fjerner vandmærket og giver fulde videresalgsrettigheder.',
     },
     {
-      question: 'Hvilke filformater kan jeg downloade?',
-      answer: 'Download arbejdsark og facit som højopløste JPEG-billeder eller trykoptimerede PDF-filer med 400+ DPI. Understøttede sidestørrelser inkluderer Letter Stående, Letter Liggende, A4 Stående, A4 Liggende, Kvadrat og tilpassede dimensioner. PDF\'er er ideelle til direkte tryk og KDP-upload; JPEG\'er fungerer fremragende til produktmockups og sociale medier.',
-    },
-    {
       question: 'Hvad er jeres tilbagebetalingspolitik?',
       answer: 'Prøv før du køber med vores gratis prøveversion — alle funktioner er tilgængelige, så du kan fuldt evaluere værktøjet, før du køber. Da den gratis prøveversion giver dig fuldstændig adgang, tilbyder vi ikke tilbagebetaling på licenskøb. Sørg for, at værktøjet passer til dine behov med den gratis prøveversion, før du køber.',
     },

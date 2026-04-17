@@ -186,10 +186,6 @@ const content: ToolContent = {  seo: {
       answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
-      question: 'What file formats can I download?',
-      answer: 'You can download worksheets as high-resolution JPEG images or print-optimized PDF files. Both the worksheet and its matching answer key are available in both formats. PDFs are ideal for direct printing and KDP upload; JPEGs work great for product mockups and social media posts.',
-    },
-    {
       question: 'What font options are available?',
       answer: 'The tool offers 7 font families: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial, and Verdana. Each font is clear and readable at worksheet sizes. Choose rounded, playful fonts like Fredoka for younger learners or clean fonts like Lexend Deca for a professional look. The watermarked trial gives you unlimited access to explore all features at your own pace with no time limit — use it as long as you need to evaluate whether the tool fits your production workflow.',
     },

@@ -164,10 +164,6 @@ const content: ToolContent = {
       answer: 'Generaattori tukee neljää tilaa: Yliviivaus (ratkaisijat yliviivaavat kuvia vähennyslaskun visualisoimiseksi), Kuva − Numero (kuvaryhmä miinus numeroluku), Etsi Vähennettävä (minuendi ja tulos näytetään; ratkaisija selvittää mitä poistettiin) ja Sekoitettu tila (yhdistää satunnaisesti kaikki kolme tyyliä yhdelle tehtäväarkille).',
     },
     {
-      question: 'Mitä tiedostomuotoja voin ladata?',
-      answer: 'Voit ladata tehtäviä korkearesoluutioisina JPEG-kuvina tai tulostusoptimoiduina PDF-tiedostoina. Sekä tehtäväarkki että vastausavain ovat saatavilla molemmissa muodoissa.',
-    },
-    {
       question: 'Voinko käyttää tehtäviä kaupallisiin tarkoituksiin?',
       answer: 'Ilmainen kokeilu vesileimalla on vain henkilökohtaiseen käyttöön. Myydäksesi tehtäviä Etsyssä, Amazon KDP:ssä, Gumroadissa tai millä tahansa muulla markkinapaikalla tarvitset kaupallisen lisenssin. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet jälleenmyyntioikeudet.',
     },

@@ -161,10 +161,6 @@ const content: ToolContent = {
       answer: 'The generator supports four modes: Cross Out (solvers cross out images to visualize take-away subtraction), Image − Number (a picture group minus a numeral), Find Subtrahend (the minuend and result are shown; the solver determines what was taken away), and Mixed Mode (randomly combines all three styles on one worksheet for maximum variety).',
     },
     {
-      question: 'What file formats can I download?',
-      answer: 'You can download worksheets as high-resolution JPEG images or print-optimized PDF files. Both the worksheet and its matching answer key are available in both formats. PDFs are ideal for direct printing; JPEGs work great for creating product mockups and social media posts.',
-    },
-    {
       question: 'Can I use the worksheets for commercial purposes?',
       answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create. Many successful sellers create entire Etsy shops focused exclusively on subtraction and math operation worksheets, generating consistent monthly revenue from a focused product catalog. The commercial license covers unlimited worksheet generation across all themes and difficulty levels, making it a one-time investment for ongoing product creation.',
     },

@@ -165,10 +165,6 @@ const content: ToolContent = {
       answer: 'De generator ondersteunt vier modi: Doorstrepen (gebruikers strepen afbeeldingen door om min-sommen te visualiseren), Afbeelding − Getal (een plaatjesgroep min een cijfer), Zoek de Aftrekker (het aftrekgetal en resultaat worden getoond; het kind bepaalt wat werd weggenomen), en Gemengde Modus (combineert alle drie stijlen willekeurig op één werkblad voor maximale afwisseling).',
     },
     {
-      question: 'Welke bestandsformaten kan ik downloaden?',
-      answer: 'Je kunt werkbladen downloaden als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden. Zowel het werkblad als het bijpassende antwoordblad zijn beschikbaar in beide formaten. PDF\'s zijn ideaal voor direct printen; JPEG\'s werken uitstekend voor productmockups en social media berichten.',
-    },
-    {
       question: 'Kan ik de werkbladen commercieel gebruiken?',
       answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt. De licentie dekt onbeperkte werkbladgeneratie over alle thema\'s en moeilijkheidsniveaus.',
     },

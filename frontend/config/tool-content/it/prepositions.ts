@@ -195,10 +195,6 @@ const content: ToolContent = {
       answer: 'La prova gratuita con filigrana è solo per uso personale e didattico. Per vendere le schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
     },
     {
-      question: 'Quali formati di file posso scaricare?',
-      answer: 'Puoi scaricare le schede come immagini JPEG ad alta risoluzione o file PDF ottimizzati per la stampa. Sia la scheda che il foglio risposte corrispondente sono disponibili in entrambi i formati. I PDF sono ideali per la stampa diretta e il caricamento su KDP; i JPEG funzionano benissimo per mockup dei prodotti e post sui social media.',
-    },
-    {
       question: 'Qual è la vostra politica di rimborso?',
       answer: 'Prova prima di acquistare con la nostra prova gratuita — ogni funzionalità è disponibile per permetterti di valutare completamente lo strumento prima dell\'acquisto. Poiché la prova gratuita ti dà accesso completo, non offriamo rimborsi sugli acquisti di licenza. Assicurati che lo strumento soddisfi le tue esigenze usando la prova gratuita prima di acquistare.',
     },

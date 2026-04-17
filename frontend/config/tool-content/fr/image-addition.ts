@@ -162,10 +162,6 @@ const content: ToolContent = {  seo: {
       answer: 'Oui. L\'outil propose un essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Vous pouvez créer, prévisualiser et télécharger autant de fiches que vous le souhaitez. Les téléchargements de l\'essai gratuit incluent un filigrane. Achetez une licence commerciale pour supprimer le filigrane et débloquer les droits de vente.',
     },
     {
-      question: 'Quels formats de fichiers puis-je télécharger ?',
-      answer: 'Vous pouvez télécharger les fiches en images JPEG haute résolution ou en fichiers PDF optimisés pour l\'impression. La fiche et son corrigé assorti sont disponibles dans les deux formats. Les PDF sont idéaux pour l\'impression directe ; les JPEG sont parfaits pour créer des maquettes de produits et des publications sur les réseaux sociaux. Pour la publication KDP, exportez les PDF à la résolution la plus élevée disponible pour répondre aux exigences de qualité d\'impression d\'Amazon.',
-    },
-    {
       question: 'Puis-je utiliser les fiches à des fins commerciales ?',
       answer: 'L\'essai gratuit avec filigrane est réservé à un usage personnel et pédagogique uniquement. Pour vendre des fiches sur Etsy, Gumroad, Amazon KDP ou tout autre marketplace, vous avez besoin d\'une licence commerciale. La licence commerciale supprime le filigrane et accorde les droits complets de revente pour les fiches que vous créez.',
     },
@@ -188,10 +184,6 @@ const content: ToolContent = {  seo: {
     {
       question: 'Puis-je générer un corrigé ?',
       answer: 'Oui. Après avoir généré une fiche, cliquez sur \" Générer le Corrigé \" pour créer une fiche de solutions assortie avec toutes les réponses remplies. Vous pouvez télécharger le corrigé en fichier JPEG ou PDF séparé. C\'est particulièrement utile pour les vendeurs et pour les vendeurs qui souhaitent inclure des corrigés dans leurs produits. Les acheteurs sur Etsy et Gumroad laissent systématiquement de meilleures évaluations pour les listings incluant des corrigés.',
-    },
-    {
-      question: 'Quels formats de page sont pris en charge ?',
-      answer: 'Le générateur prend en charge US Letter (portrait et paysage), A4 (portrait et paysage), Carré (1200×1200 px) et des dimensions entièrement personnalisées. Le format carré est idéal pour le contenu sur les réseaux sociaux et les cahiers d\'activités Amazon KDP.',
     },
     {
       question: 'Quelle est votre politique de remboursement ?',

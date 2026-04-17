@@ -190,10 +190,6 @@ const content: ToolContent = {  seo: {
       answer: 'Sì. I puzzle matematici usano solo immagini, numeri ed equazioni — nessun testo. I puzzle che crei funzionano in modo identico in tutte le lingue. Puoi vendere lo stesso prodotto ad acquirenti di qualsiasi paese senza traduzione, moltiplicando istantaneamente il tuo mercato potenziale.',
     },
     {
-      question: 'Quali formati di file posso scaricare?',
-      answer: 'Puoi scaricare i puzzle come immagini JPEG ad alta risoluzione o file PDF ottimizzati per la stampa. Sia il foglio del puzzle che il foglio delle soluzioni sono disponibili in entrambi i formati. I PDF sono ideali per la stampa diretta; i JPEG sono perfetti per creare mockup dei prodotti e post per i social media.',
-    },
-    {
       question: 'Qual è la vostra politica di rimborso?',
       answer: 'Prova prima di acquistare con la nostra prova gratuita — tutte le funzionalità sono disponibili così puoi valutare completamente lo strumento prima dell\'acquisto. Poiché la prova gratuita ti dà accesso completo, non offriamo rimborsi sugli acquisti di licenze. Assicurati che lo strumento soddisfi le tue esigenze usando la prova gratuita prima di comprare. Questo approccio ti garantisce di poter valutare ogni funzionalità, formato di esportazione e combinazione di temi prima di prendere una decisione d\'acquisto, dandoti completa sicurezza nel tuo investimento.',
     },

@@ -178,10 +178,6 @@ const content: ToolContent = {  seo: {
       answer: 'The generator supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. In Word Reveal Mode, the alphabet automatically adapts to include locale-specific characters like German umlauts and French accents.',
     },
     {
-      question: 'What file formats can I download?',
-      answer: 'You can download puzzles as high-resolution JPEG images or print-optimized PDF files. Both the puzzle worksheet and its matching answer key are available in both formats. Use JPEGs for product mockups and social media; use PDFs as the deliverable in your listings.',
-    },
-    {
       question: 'Do I need to install any software?',
       answer: 'No. The generator runs entirely in your web browser on any modern device — Windows, Mac, Chromebook, iPad, or Android tablet. Nothing to install, no plugins required, and no account to create.',
     },

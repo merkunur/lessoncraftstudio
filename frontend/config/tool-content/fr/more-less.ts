@@ -188,10 +188,6 @@ const content: ToolContent = {
       answer: 'Oui — et c\'est un avantage majeur. Comme les fiches de comparaison n\'utilisent que des images, des nombres et des symboles, elles sont complètement indépendantes de la langue. Les fiches que vous créez fonctionnent identiquement dans les 11 langues prises en charge. Vous pouvez vendre le même produit aux acheteurs de n\'importe quel pays sans traduction.',
     },
     {
-      question: 'Quels formats de fichiers puis-je télécharger ?',
-      answer: 'Vous pouvez télécharger les fiches en images JPEG haute résolution ou en fichiers PDF optimisés pour l\'impression. La fiche et son corrigé assorti sont disponibles dans les deux formats. Les PDF sont idéaux pour l\'impression directe ; les JPEG sont parfaits pour créer des maquettes de produits et des publications sur les réseaux sociaux.',
-    },
-    {
       question: 'Dois-je installer un logiciel ?',
       answer: 'Non. Le générateur fonctionne entièrement dans votre navigateur web. Il est compatible avec tout appareil moderne — Windows, Mac, Chromebook, iPad ou tablette Android. Rien à installer, aucun plugin requis et aucun compte à créer. Ouvrez simplement l\'outil, configurez vos réglages de fiche et téléchargez vos fichiers terminés. Tout le traitement se fait localement dans votre navigateur, donc vos fiches sont générées instantanément sans attendre le rendu côté serveur ni les uploads.',
     },

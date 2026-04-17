@@ -165,10 +165,6 @@ const content: ToolContent = {
       answer: 'Generatoren stotter fire moduser: Overstrykning (brukerne stryker bilder over for å visualisere fjerne-subtraksjon), Bilde − Tall (en bildegruppe minus et tall), Finn Subtrahenden (minuend og resultat vises; barnet avgjor hva som ble fjernet), og Blandet Modus (kombinerer tilfeldig alle tre stiler på ett arbeidsark for maksimal variasjon).',
     },
     {
-      question: 'Hvilke filformater kan jeg laste ned?',
-      answer: 'Du kan laste ned arbeidsark som hoyopploste JPEG-bilder eller utskriftsoptimerte PDF-filer. Både arbeidsarket og den matchende fasiten er tilgjengelige i begge formater. PDF-er er ideelle for direkte utskrift; JPEG-er fungerer utmerket for å lage produktmockups og sosiale medier-innlegg.',
-    },
-    {
       question: 'Kan jeg bruke arbeidsarkene til kommersielle formål?',
       answer: 'Den gratis proveversjonen med vannmerke er kun for personlig bruk og produktlinjebruk. For å selge arbeidsark på Etsy, Gumroad, Amazon KDP eller enhver annen markedsplass trenger du en kommersiell lisens. Den kommersielle lisensen fjerner vannmerket og gir fulle videresalgsrettigheter for arbeidsarkene du lager.',
     },

@@ -193,10 +193,6 @@ const content: ToolContent = {
       answer: 'Den gratis prøveversion med vandmærke er kun til personligt og produktlinjebrug. For at sælge arbejdsark på Etsy.dk, Gumroad, Amazon KDP eller enhver anden markedsplads har du brug for en kommerciel licens. Den kommercielle licens fjerner vandmærket og giver fulde videresalgsrettigheder.',
     },
     {
-      question: 'Hvilke filformater kan jeg downloade?',
-      answer: 'Du kan downloade arbejdsark som højopløste JPEG-billeder eller udskriftsoptimerede PDF-filer. Både arbejdsarket og dets matchende facit er tilgængelige i begge formater. PDF\'er er ideelle til direkte udskrift og KDP-upload; JPEG\'er fungerer fremragende til produktmockups og sociale medie-indlæg.',
-    },
-    {
       question: 'Hvilke skrifttypemuligheder er tilgængelige?',
       answer: 'Værktøjet tilbyder 7 skrifttypefamilier: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial og Verdana. Hver skrifttype er tydelig og læsbar i arbejdsarksformat. Vælg afrundede, legende skrifttyper som Fredoka til yngre brugere eller rene skrifttyper som Lexend Deca for et professionelt udseende.',
     },

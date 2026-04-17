@@ -191,10 +191,6 @@ const content: ToolContent = {
       answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the cryptogram worksheets you create.',
     },
     {
-      question: 'What file formats can I download?',
-      answer: 'Download worksheets and answer keys as high-resolution JPEG images or print-optimized PDF files at 400+ DPI with a 6x rendering multiplier. Supported page sizes include Letter Portrait, Letter Landscape, A4 Portrait, A4 Landscape, and custom dimensions. Toggle grayscale for ink-friendly output. PDFs are ideal for direct printing and KDP upload; JPEGs work great for product mockups and social media posts.',
-    },
-    {
       question: 'What is your refund policy?',
       answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',
     },

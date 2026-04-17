@@ -186,10 +186,6 @@ const content: ToolContent = {
       answer: 'Ja — en dit is een groot voordeel. Omdat vergelijkingswerkbladen alleen afbeeldingen, getallen en symbolen gebruiken, zijn ze volledig taalonafhankelijk. De werkbladen die je maakt werken identiek in alle 11 ondersteunde talen. Je kunt hetzelfde product aan kopers in elk land verkopen zonder vertaling.',
     },
     {
-      question: 'Welke bestandsformaten kan ik downloaden?',
-      answer: 'Je kunt werkbladen downloaden als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden. Zowel het werkblad als het bijpassende antwoordblad zijn beschikbaar in beide formaten. PDF\'s zijn ideaal voor direct printen; JPEG\'s werken uitstekend voor productmockups en social media berichten.',
-    },
-    {
       question: 'Moet ik software installeren?',
       answer: 'Nee. De generator draait volledig in je webbrowser. Het werkt op elk modern apparaat — Windows, Mac, Chromebook, iPad of Android-tablet. Er is niets te installeren, geen plug-ins nodig en geen account aan te maken.',
     },

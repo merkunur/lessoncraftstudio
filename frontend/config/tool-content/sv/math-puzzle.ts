@@ -190,10 +190,6 @@ const content: ToolContent = {
       answer: 'Ja. Mattepussel använder bara bilder, siffror och ekvationer — ingen text. Pusslen du skapar fungerar identiskt på alla språk. Du kan sälja samma produkt till köpare i alla länder utan översättning, vilket direkt multiplicerar din adresserbara marknad.',
     },
     {
-      question: 'Vilka filformat kan jag ladda ner?',
-      answer: 'Du kan ladda ner pussel som högupplösta JPEG-bilder eller utskriftsoptimerade PDF-filer. Både pusselarbetsbladet och dess matchande facit finns tillgängliga i båda format. PDF:er är idealiska för direkt utskrift; JPEG:er fungerar utmärkt för att skapa produktmockups och sociala medier-inlägg.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer: 'Prova innan du köper med vår gratis provversion — alla funktioner är tillgängliga så du kan fullt utvärdera verktyget innan du köper. Eftersom den gratis provversionen ger dig fullständig tillgång erbjuder vi inte återbetalning på licensköp. Se till att verktyget passar dina behov med den gratis provversionen innan du köper.',
     },

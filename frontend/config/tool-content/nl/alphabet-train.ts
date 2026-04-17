@@ -190,10 +190,6 @@ const content: ToolContent = {  seo: {
       answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
     },
     {
-      question: 'Welke bestandsformaten kan ik downloaden?',
-      answer: 'Je kunt werkbladen downloaden als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden. Zowel het werkblad als het bijpassende antwoordblad zijn beschikbaar in beide formaten. PDF\'s zijn ideaal voor direct printen en KDP-upload; JPEG\'s werken uitstekend voor productmockups en social media berichten.',
-    },
-    {
       question: 'Welke lettertypeopties zijn beschikbaar?',
       answer: 'De tool biedt 7 lettertypefamilies: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial en Verdana. Elk lettertype is helder en leesbaar op werkbladformaat. Kies afgeronde, speelse lettertypen zoals Fredoka voor jongere gebruikers of schone lettertypen zoals Lexend Deca voor een professionele uitstraling.',
     },

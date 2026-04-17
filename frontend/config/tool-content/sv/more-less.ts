@@ -185,10 +185,6 @@ const content: ToolContent = {
       answer: 'Ja — och det är en stor fördel. Eftersom jämförelsearbetsblad bara använder bilder, siffror och symboler är de helt språkoberoende. Arbetsbladen du skapar fungerar identiskt på alla 11 stödda språk. Du kan sälja samma produkt till köpare i alla länder utan översättning.',
     },
     {
-      question: 'Vilka filformat kan jag ladda ner?',
-      answer: 'Du kan ladda ner arbetsblad som högupplösta JPEG-bilder eller utskriftsoptimerade PDF-filer. Både arbetsbladet och dess matchande facit finns tillgängliga i båda format. PDF:er är idealiska för direkt utskrift; JPEG:er fungerar utmärkt för att skapa produktmockups och sociala medier-inlägg.',
-    },
-    {
       question: 'Behöver jag installera någon programvara?',
       answer: 'Nej. Generatorn körs helt i din webbläsare. Den fungerar på alla moderna enheter — Windows, Mac, Chromebook, iPad eller Android-surfplatta. Det finns inget att installera, inga tillägg krävs och inget konto att skapa.',
     },

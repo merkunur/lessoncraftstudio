@@ -186,10 +186,6 @@ const content: ToolContent = {  seo: {
       answer: 'Yes. Math puzzles use only images, numbers, and equations — no text. The puzzles you create work identically in all languages. You can sell the same product to buyers in any country without translation, instantly multiplying your addressable market.',
     },
     {
-      question: 'What file formats can I download?',
-      answer: 'You can download puzzles as high-resolution JPEG images or print-optimized PDF files. Both the puzzle worksheet and its matching answer key are available in both formats. PDFs are ideal for direct printing; JPEGs work great for creating product mockups and social media posts.',
-    },
-    {
       question: 'What is your refund policy?',
       answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',    },
     {

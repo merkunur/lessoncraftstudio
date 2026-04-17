@@ -78,7 +78,6 @@ const content: ToolContent = {
     { question: 'Mitä harmaasävyominaisuus tekee?', answer: 'Harmaasävyn ottaminen käyttöön muuttaa palapelin kuvan mustavalkoiseksi. Tämä tuottaa musteeystävällisiä tehtäviä. Erityisen hyödyllistä KDP-työkirjoihin.' },
     { question: 'Voinko käyttää palapelejä kaupallisiin tarkoituksiin?', answer: 'Ilmainen kokeilu vesileimalla on vain henkilökohtaiseen käyttöön. Myydäksesi tarvitset kaupallisen lisenssin.' },
     { question: 'Toimivatko palapelit muilla kielillä?', answer: 'Kyllä. Matikkapalapelit käyttävät vain kuvia, numeroita ja yhtälöitä. Ne toimivat identtisesti kaikilla kielillä ilman käännöstä.' },
-    { question: 'Mitä tiedostomuotoja voin ladata?', answer: 'JPEG-kuvat tai tulostusoptimoidut PDF-tiedostot. Sekä palapeli että vastausavain molemmissa muodoissa.' },
     { question: 'Mikä on palautuskäytäntönne?', answer: 'Kokeile ennen ostoa ilmaisella kokeilullamme. Koska ilmainen kokeilu antaa täyden pääsyn, emme tarjoa palautuksia lisenssiostoista.' },
   ],
 

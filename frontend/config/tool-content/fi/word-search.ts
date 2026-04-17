@@ -79,7 +79,6 @@ const content: ToolContent = {
     { question: 'Miten sananhaku eroaa kirjainsekoituksesta ja sananarvauksesta?', answer: 'Sananhaku on visuaalinen etsintäpalapeli — ratkaisijat löytävät piilotettuja sanoja kirjainruudukosta. Kirjainsekoitus antaa sekoitettuja kirjainlaattoja järjestettäväksi. Sananarvaus näyttää tyhjiä kohtia täydennettäväksi. Jokainen harjoittaa eri kognitiivista taitoa.' },
     { question: 'Mitä kieliä tuetaan?', answer: '11 kieltä: englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska, norja ja suomi. Sekä piilotetut sanat että täytekirjaimet muuttuvat kielittäin.' },
     { question: 'Voinko myydä tehtäviä kaupallisesti?', answer: 'Ilmainen kokeilu vesileimalla on vain henkilökohtaiseen käyttöön. Myydäksesi tarvitset kaupallisen lisenssin.' },
-    { question: 'Mitä tiedostomuotoja voin ladata?', answer: 'JPEG-kuvia tai PDF-tiedostoja 400+ DPI. Letter, A4, Neliö ja mukautetut koot.' },
     { question: 'Mikä on palautuskäytäntönne?', answer: 'Kokeile ennen ostoa ilmaisella kokeilullamme. Koska se antaa täyden pääsyn, emme tarjoa palautuksia lisenssiostoista.' },
   ],
 

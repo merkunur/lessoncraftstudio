@@ -190,10 +190,6 @@ const content: ToolContent = {  seo: {
       answer: 'La prova gratuita con filigrana è solo per uso personale e scolastico. Per vendere schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede che crei.',
     },
     {
-      question: 'Quali formati di file posso scaricare?',
-      answer: 'Puoi scaricare le schede come immagini JPEG ad alta risoluzione o file PDF ottimizzati per la stampa. Sia la scheda che il foglio delle risposte corrispondente sono disponibili in entrambi i formati. I PDF sono ideali per la stampa diretta e il caricamento su KDP; i JPEG funzionano perfettamente per mockup dei prodotti e post sui social media.',
-    },
-    {
       question: 'Quali opzioni di font sono disponibili?',
       answer: 'Lo strumento offre 7 famiglie di font: Lexend Deca, Baloo 2, Nunito, Quicksand, Fredoka, Arial e Verdana. Ogni font è chiaro e leggibile alle dimensioni delle schede. Scegli font arrotondati e giocosi come Fredoka per i più piccoli o font puliti come Lexend Deca per un aspetto professionale. La prova con filigrana ti dà accesso illimitato per esplorare tutte le funzionalità senza limiti di tempo — usala quanto necessario per valutare se lo strumento si adatta al tuo flusso di produzione.',
     },

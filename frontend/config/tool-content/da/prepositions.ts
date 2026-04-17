@@ -194,10 +194,6 @@ const content: ToolContent = {
       answer: 'Den gratis prøveversion med vandmærke er kun til personligt og produktlinjebrug. For at sælge arbejdsark på Etsy.dk, Gumroad, Amazon KDP eller enhver anden markedsplads har du brug for en kommerciel licens. Den kommercielle licens fjerner vandmærket og giver fulde videresalgsrettigheder.',
     },
     {
-      question: 'Hvilke filformater kan jeg downloade?',
-      answer: 'Du kan downloade arbejdsark som højopløste JPEG-billeder eller udskriftsoptimerede PDF-filer. Både arbejdsarket og dets matchende facit er tilgængelige i begge formater. PDF\'er er ideelle til direkte udskrift og KDP-upload; JPEG\'er fungerer fremragende til produktmockups og sociale medie-indlæg.',
-    },
-    {
       question: 'Hvad er returpolitikken?',
       answer: 'Prøv før du køber med vores gratis prøveversion — alle funktioner er tilgængelige, så du kan fuldt evaluere værktøjet, før du køber. Fordi den gratis prøveversion giver dig fuld adgang, tilbyder vi ingen refusioner på licenskøb. Sikr dig, at værktøjet passer til dine behov med den gratis prøveversion, før du køber.',
     },

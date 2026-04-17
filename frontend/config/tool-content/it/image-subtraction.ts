@@ -165,10 +165,6 @@ const content: ToolContent = {
       answer: 'Il generatore supporta quattro modalità: Cancella (gli utenti barrano le immagini per visualizzare la sottrazione), Immagine − Numero (un gruppo di immagini meno una cifra), Trova il Sottraendo (il minuendo e il risultato sono mostrati; il bambino determina quante immagini sono state tolte) e Modalità Mista (combina casualmente tutti e tre gli stili su una singola scheda per la massima varietà).',
     },
     {
-      question: 'Quali formati di file posso scaricare?',
-      answer: 'Puoi scaricare le schede come immagini JPEG ad alta risoluzione o file PDF ottimizzati per la stampa. Sia la scheda che la chiave di valore percepito corrispondente sono disponibili in entrambi i formati. I PDF sono ideali per la stampa diretta e come formato di consegna per i prodotti digitali. I JPEG sono perfetti per mockup dei prodotti, post sui social media e anteprime per il negozio.',
-    },
-    {
       question: 'Posso usare le schede per scopi commerciali?',
       answer: 'La prova gratuita con filigrana è destinata esclusivamente all\'uso personale e didattico. Per vendere schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, è necessaria una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per tutte le schede da te create, senza royalty o canoni mensili.',
     },

@@ -196,10 +196,6 @@ const content: ToolContent = {
       answer: 'Den gratis prøveversjonen med vannmerke er kun til personlig bruk og produktlinjeevaluering. For å selge arbeidsark på Etsy, Gumroad, Amazon KDP eller enhver annen markedsplass trenger du en kommersiell lisens. Den kommersielle lisensen fjerner vannmerket og gir fulle videresalgsrettigheter.',
     },
     {
-      question: 'Hvilke filformater kan jeg laste ned?',
-      answer: 'Last ned arbeidsark og fasit som høyoppløste JPEG-bilder eller utskriftsoptimaliserte PDF-filer med 400+ DPI. Støttede sidestørrelser inkluderer Letter Stående, Letter Liggende, A4 Stående, A4 Liggende, Kvadrat og egendefinerte dimensjoner. PDF-er er ideelle for direkte utskrift og KDP-opplasting; JPEG-er fungerer utmerket til produktmockuper og sosiale medier.',
-    },
-    {
       question: 'Hva er returpolitikken?',
       answer: 'Prøv før du kjøper med vår gratis prøveversjon — alle funksjoner er tilgjengelige, slik at du kan fullstendig evaluere verktøyet før du kjøper. Fordi den gratis prøveversjonen gir deg full tilgang, tilbyr vi ingen refusjoner på lisenskjøp. Sørg for at verktøyet passer til dine behov med den gratis prøveversjonen før du kjøper.',
     },

@@ -195,10 +195,6 @@ const content: ToolContent = {
       answer: 'La prova gratuita con filigrana è solo per uso personale e scolastico. Per vendere schede su Etsy, Gumroad, Amazon KDP o qualsiasi altro marketplace, serve una licenza commerciale. La licenza commerciale rimuove la filigrana e concede pieni diritti di rivendita per le schede crittogramma che crei.',
     },
     {
-      question: 'Quali formati di file posso scaricare?',
-      answer: 'Scarica schede e chiavi di risposta come immagini JPEG ad alta risoluzione o file PDF ottimizzati per la stampa a oltre 400 DPI con moltiplicatore di rendering 6x. Le dimensioni pagina supportate includono Letter Verticale, Letter Orizzontale, A4 Verticale, A4 Orizzontale e dimensioni personalizzate. Attiva la scala di grigi per output ottimizzato per l\'inchiostro. I PDF sono ideali per la stampa diretta e il caricamento su KDP; i JPEG funzionano perfettamente per mockup di prodotti e post sui social media.',
-    },
-    {
       question: 'Qual è la vostra politica di rimborso?',
       answer: 'Prova prima di acquistare con la nostra prova gratuita — ogni funzionalità è disponibile così puoi valutare completamente lo strumento prima dell\'acquisto. Poiché la prova gratuita ti dà accesso completo, non offriamo rimborsi sugli acquisti di licenze. Assicurati che lo strumento soddisfi le tue esigenze usando la prova gratuita prima di acquistare.',
     },

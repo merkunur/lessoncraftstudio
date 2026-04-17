@@ -182,10 +182,6 @@ const content: ToolContent = {  seo: {
       answer: 'De generator ondersteunt 11 talen: Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins. In Woord Onthullen Modus past het alfabet zich automatisch aan om taalspecifieke tekens op te nemen zoals Duitse umlauten en Franse accenten. Nederlandse puzzels gebruiken het volledige Nederlandse alfabet met correcte Nederlandse woorden.',
     },
     {
-      question: 'Welke bestandsformaten kan ik downloaden?',
-      answer: 'Je kunt puzzels downloaden als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden. Zowel het puzzelwerkblad als het bijpassende antwoordblad zijn beschikbaar in beide formaten. Gebruik JPEG\'s voor productmockups en social media; gebruik PDF\'s als het leverbare product in je vermeldingen.',
-    },
-    {
       question: 'Moet ik software installeren?',
       answer: 'Nee. De generator draait volledig in je webbrowser op elk modern apparaat — Windows, Mac, Chromebook, iPad of Android-tablet. Er is niets te installeren, geen plug-ins nodig en geen account aan te maken.',
     },

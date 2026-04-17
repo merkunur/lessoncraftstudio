@@ -184,10 +184,6 @@ const content: ToolContent = {
       answer: 'Ja — og det er en stor fordel. Fordi sammenligningsarbejdsark kun bruger billeder, tal og symboler, er de helt sprogagnostiske. De arbejdsark, du opretter, fungerer identisk på alle 11 understøttede sprog. Du kan sælge det samme produkt til købere i alle lande uden oversættelse.',
     },
     {
-      question: 'Hvilke filformater kan jeg downloade?',
-      answer: 'Du kan downloade arbejdsark som højopløste JPEG-billeder eller udskriftsoptimerede PDF-filer. Både arbejdsarket og dets matchende facit er tilgængelige i begge formater. PDF\'er er ideelle til direkte udskrift; JPEG\'er fungerer fremragende til at oprette produktmockups og sociale medie-indlæg.',
-    },
-    {
       question: 'Skal jeg installere nogen software?',
       answer: 'Nej. Generatoren kører helt i din webbrowser. Den fungerer på alle moderne enheder — Windows, Mac, Chromebook, iPad eller Android-tablet. Der er intet at installere, ingen tilføjelser krævet og ingen konto at oprette.',
     },

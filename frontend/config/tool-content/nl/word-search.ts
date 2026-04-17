@@ -195,10 +195,6 @@ const content: ToolContent = {
       answer: 'De gratis proefversie met watermerk is alleen voor persoonlijk en klassikaal gebruik. Om werkbladen te verkopen op Etsy, Gumroad, Amazon KDP of een ander platform, heb je een commerciële licentie nodig. De commerciële licentie verwijdert het watermerk en verleent volledige doorverkooprechten voor de werkbladen die je maakt.',
     },
     {
-      question: 'Welke bestandsformaten kan ik downloaden?',
-      answer: 'Download werkbladen en antwoordbladen als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden op 400+ DPI. Ondersteunde paginaformaten zijn Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant en aangepaste afmetingen. PDF\'s zijn ideaal voor direct printen en KDP-upload; JPEG\'s werken uitstekend voor productmockups en social media berichten.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer: 'Probeer voordat je koopt met onze gratis proefversie — elke functie is beschikbaar zodat je de tool volledig kunt evalueren vóór aankoop. Omdat de gratis proefversie je volledige toegang geeft, bieden we geen restituties op licentie-aankopen. Zorg ervoor dat de tool aan je behoeften voldoet via de gratis proefversie voordat je koopt.',
     },

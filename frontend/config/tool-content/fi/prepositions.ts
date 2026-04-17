@@ -79,7 +79,6 @@ const content: ToolContent = {
     { question: 'Kuinka monta harjoitusta mahtuu yhdelle sivulle?', answer: '1–8 harjoitusta per tehtäväarkki. Asettelu mukautuu automaattisesti.' },
     { question: 'Voinko ladata omia kuvia?', answer: 'Kyllä. Sekä pääkuville että muodonkorvaksille.' },
     { question: 'Voinko käyttää tehtäviä kaupallisiin tarkoituksiin?', answer: 'Ilmainen kokeilu vesileimalla on vain henkilökohtaiseen käyttöön. Myydäksesi tarvitset kaupallisen lisenssin.' },
-    { question: 'Mitä tiedostomuotoja voin ladata?', answer: 'JPEG-kuvia tai tulostusoptimoituja PDF-tiedostoja. Molemmat sekä tehtäväarkille että vastausavaimelle.' },
     { question: 'Mikä on palautuskäytäntönne?', answer: 'Kokeile ennen ostoa ilmaisella kokeilullamme. Koska se antaa täyden pääsyn, emme tarjoa palautuksia lisenssiostoista.' },
   ],
 

@@ -184,10 +184,6 @@ const content: ToolContent = {  seo: {
       answer: 'Le générateur prend en charge 11 langues : français, anglais, allemand, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois. En Mode Mot Mystère, l\'alphabet s\'adapte automatiquement à la langue sélectionnée pour inclure les caractères spécifiques comme les accents français et les umlauts allemands.',
     },
     {
-      question: 'Quels formats de fichiers puis-je télécharger ?',
-      answer: 'Vous pouvez télécharger les puzzles en images JPEG haute résolution ou en fichiers PDF optimisés pour l\'impression. La fiche de puzzle et son corrigé assorti sont disponibles dans les deux formats. Utilisez les JPEG pour les maquettes de produits et les réseaux sociaux ; utilisez les PDF comme livrable dans vos listings.',
-    },
-    {
       question: 'Dois-je installer un logiciel ?',
       answer: 'Non. Le générateur fonctionne entièrement dans votre navigateur web sur tout appareil moderne — Windows, Mac, Chromebook, iPad ou tablette Android. Rien à installer, aucun plugin requis et aucun compte à créer.',
     },

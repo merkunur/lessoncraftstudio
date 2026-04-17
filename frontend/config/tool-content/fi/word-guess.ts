@@ -79,7 +79,6 @@ const content: ToolContent = {
     { question: 'Voinko ladata omia kuvia?', answer: 'Kyllä. Napsauta "Lataa kuva" käyttääksesi omia PNG- tai JPEG-tiedostojasi kuvavihjeinä.' },
     { question: 'Luoko työkalu vastausavaimia?', answer: 'Kyllä. Työkalu luo erillisen vastausavainarkin oikeine oikeinkirjoituksineen jokaiselle harjoitukselle.' },
     { question: 'Voinko käyttää tehtäviä kaupallisiin tarkoituksiin?', answer: 'Ilmainen kokeilu vesileimalla on vain henkilökohtaiseen käyttöön. Myydäksesi tarvitset kaupallisen lisenssin.' },
-    { question: 'Mitä tiedostomuotoja voin ladata?', answer: 'JPEG-kuvia tai tulostusoptimoituja PDF-tiedostoja. Molemmat sekä tehtäväarkille että vastausavaimelle.' },
     { question: 'Mikä on palautuskäytäntönne?', answer: 'Kokeile ennen ostoa ilmaisella kokeilullamme. Koska se antaa täyden pääsyn, emme tarjoa palautuksia lisenssiostoista.' },
   ],
 

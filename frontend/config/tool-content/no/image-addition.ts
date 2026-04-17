@@ -161,10 +161,6 @@ const content: ToolContent = {
       answer: 'Ja. Verktøyet tilbyr en gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort krevet. Du kan lage, forhåndsvise og laste ned så mange arbeidsark du vil. Nedlastinger fra den gratis proveversjonen inneholder et vannmerke. Kjop en kommersiell lisens for å fjerne vannmerket og låse opp salgsrettigheter.',
     },
     {
-      question: 'Hvilke filformater kan jeg laste ned?',
-      answer: 'Du kan laste ned arbeidsark som hoyopploste JPEG-bilder eller utskriftsoptimerte PDF-filer. Både arbeidsarket og den matchende fasiten er tilgjengelige i begge formater. PDF-er er ideelle for direkte utskrift; JPEG-er fungerer utmerket for å lage produktmockups og sosiale medier-innlegg. For KDP-utgivelse, eksporter PDF-er med den hoyeste tilgjengelige opplasningen for å oppfylle Amazons utskriftskvalitetskrav.',
-    },
-    {
       question: 'Kan jeg bruke arbeidsarkene til kommersielle formål?',
       answer: 'Den gratis proveversjonen med vannmerke er kun for personlig bruk og produktlinjebruk. For å selge arbeidsark på Etsy, Gumroad, Amazon KDP eller enhver annen markedsplass trenger du en kommersiell lisens. Den kommersielle lisensen fjerner vannmerket og gir fulle videresalgsrettigheter for arbeidsarkene du lager.',
     },

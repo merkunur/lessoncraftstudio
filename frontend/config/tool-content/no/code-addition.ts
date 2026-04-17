@@ -182,10 +182,6 @@ const content: ToolContent = {
       answer: 'Generatoren stotter 11 språk: engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk. I Ord Avsloring-modusen tilpasses alfabetet automatisk til å inkludere lokalspesifikke tegn som norsk ÆØÅ, tysk Ä/Ö/Ü og franske aksenter.',
     },
     {
-      question: 'Hvilke filformater kan jeg laste ned?',
-      answer: 'Du kan laste ned puslespill som hoyopploste JPEG-bilder eller utskriftsoptimerte PDF-filer. Både puslespillarbeidsarket og den matchende fasiten er tilgjengelige i begge formater. Bruk JPEG-er for produktmockups og sosiale medier; bruk PDF-er som levering i oppforingene dine.',
-    },
-    {
       question: 'Må jeg installere noen programvare?',
       answer: 'Nei. Generatoren kjorer helt i nettleseren din på alle moderne enheter — Windows, Mac, Chromebook, iPad eller Android-nettbrett. Ingenting å installere, ingen tillegg krevet og ingen konto å opprette.',
     },

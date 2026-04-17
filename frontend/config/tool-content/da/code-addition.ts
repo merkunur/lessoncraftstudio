@@ -180,10 +180,6 @@ const content: ToolContent = {
       answer: 'Generatoren understøtter 11 sprog: engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, dansk, norsk og finsk. I Ord Afsløring-tilstand tilpasses alfabetet automatisk til at inkludere lokalspecifikke tegn som dansk ÆØÅ, tysk Ä/Ö/Ü og franske accenter.',
     },
     {
-      question: 'Hvilke filformater kan jeg downloade?',
-      answer: 'Du kan downloade puslespil som højopløste JPEG-billeder eller udskriftsoptimerede PDF-filer. Både puslespilsarbejdsarket og dets matchende facit er tilgængelige i begge formater. Brug JPEG\'er til produktmockups og sociale medier; brug PDF\'er som levering i dine annoncer.',
-    },
-    {
       question: 'Skal jeg installere nogen software?',
       answer: 'Nej. Generatoren kører helt i din webbrowser på alle moderne enheder — Windows, Mac, Chromebook, iPad eller Android-tablet. Intet at installere, ingen tilføjelser krævet og ingen konto at oprette.',
     },

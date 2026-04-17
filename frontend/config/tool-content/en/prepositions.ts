@@ -191,10 +191,6 @@ const content: ToolContent = {
       answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Gumroad, Amazon KDP, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
     {
-      question: 'What file formats can I download?',
-      answer: 'You can download worksheets as high-resolution JPEG images or print-optimized PDF files. Both the worksheet and its matching answer key are available in both formats. PDFs are ideal for direct printing and KDP upload; JPEGs work great for product mockups and social media posts.',
-    },
-    {
       question: 'What is your refund policy?',
       answer: 'Try before you buy with our free trial — every feature is available so you can fully evaluate the tool before purchasing. Because the free trial gives you complete access, we do not offer refunds on license purchases. Make sure the tool fits your needs using the free trial before buying.',    },
     {

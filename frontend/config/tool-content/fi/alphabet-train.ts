@@ -78,7 +78,6 @@ const content: ToolContent = {
     { question: 'Miten kielikohtainen kuvayhdistys toimii?', answer: 'Työkalu yhdistää jokaisen kuvan kirjaimeen, jolla se alkaa valitulla kielellä. Esimerkiksi koirakuva yhdistyy K:hon suomeksi (Koira), D:hen englanniksi (Dog), H:hon saksaksi (Hund) ja C:hen ranskaksi (Chien).' },
     { question: 'Voinko ladata omia kuvia?', answer: 'Kyllä. Napsauta "Lataa kuva" käyttääksesi omia PNG- tai JPEG-tiedostojasi.' },
     { question: 'Voinko käyttää tehtäviä kaupallisiin tarkoituksiin?', answer: 'Ilmainen kokeilu vesileimalla on vain henkilökohtaiseen käyttöön. Myydäksesi tarvitset kaupallisen lisenssin.' },
-    { question: 'Mitä tiedostomuotoja voin ladata?', answer: 'Korkearesoluutioisia JPEG-kuvia tai tulostusoptimoituja PDF-tiedostoja. Sekä tehtäväarkki että vastausavain molemmissa muodoissa.' },
     { question: 'Mikä on palautuskäytäntönne?', answer: 'Kokeile ennen ostoa ilmaisella kokeilullamme. Koska se antaa täyden pääsyn, emme tarjoa palautuksia lisenssiostoista.' },
   ],
 

@@ -156,10 +156,6 @@ const content: ToolContent = {  seo: {
       answer: 'Yes. The tool offers a free trial with full features — no signup, no credit card required. You can create, preview, and download as many worksheets as you want. Free trial downloads include a watermark. Purchase a commercial license to remove the watermark and unlock selling rights.',
     },
     {
-      question: 'What file formats can I download?',
-      answer: 'You can download worksheets as high-resolution JPEG images or print-optimized PDF files. Both the worksheet and its matching answer key are available in both formats. PDFs are ideal for direct printing; JPEGs work great for creating product mockups and social media posts. For KDP publishing, export PDFs at the highest available resolution to meet Amazon print quality requirements. For social media marketing, the JPEG format produces shareable images that display correctly across Instagram, Pinterest, and Facebook platforms.',
-    },
-    {
       question: 'Can I use the worksheets for commercial purposes?',
       answer: 'The free trial with watermark is for personal use only. To sell worksheets on Etsy, Amazon KDP, Gumroad, or any other marketplace, you need a commercial license. The commercial license removes the watermark and grants full resale rights for the worksheets you create.',
     },
@@ -182,10 +178,6 @@ const content: ToolContent = {  seo: {
     {
       question: 'Can I generate an answer key?',
       answer: 'Yes. After generating a worksheet, click "Generate Answer Key" to create a matching solution sheet with all answers filled in. You can download the answer key as a separate JPEG or PDF file. This is especially useful for sellers who want to include answer keys in their products. Buyers on Etsy and Gumroad consistently leave higher ratings for listings that include answer keys, so always generate and bundle them with every worksheet pack you sell.',
-    },
-    {
-      question: 'What page sizes are supported?',
-      answer: 'The generator supports US Letter (portrait and landscape), A4 (portrait and landscape), Square (1200×1200 px), and fully custom dimensions. Square format is ideal for social media content and Amazon KDP activity books.',
     },
     {
       question: 'What is your refund policy?',

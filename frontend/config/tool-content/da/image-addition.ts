@@ -188,10 +188,6 @@ const content: ToolContent = {
       answer: 'Ja. Efter at have genereret et arbejdsark, klik på \"Generer Facit\" for at oprette et matchende løsningsark med alle svar udfyldt. Du kan downloade facit som en separat JPEG- eller PDF-fil. Dette er særligt nyttigt for sælgere og for sælgere, der vil inkludere facit i deres produkter.',
     },
     {
-      question: 'Hvilke sidestørrelser understøttes?',
-      answer: 'Generatoren understøtter US Letter (stående og liggende), A4 (stående og liggende), Kvadrat (1200×1200 px) og helt brugerdefinerede dimensioner. Kvadratformat er ideelt til sociale medie-indhold og Amazon KDP-aktivitetsbøger.',
-    },
-    {
       question: 'Hvad er returpolitikken?',
       answer: 'Prøv før du køber med vores gratis prøveversion — alle funktioner er tilgængelige, så du kan fuldt evaluere værktøjet, før du køber. Fordi den gratis prøveversion giver dig fuld adgang, tilbyder vi ingen refusioner på licenskøb. Sikr dig, at værktøjet passer til dine behov med den gratis prøveversion, før du køber.',
     },

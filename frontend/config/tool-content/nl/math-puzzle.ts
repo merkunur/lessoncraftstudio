@@ -190,10 +190,6 @@ const content: ToolContent = {  seo: {
       answer: 'Ja. Rekenpuzzels gebruiken alleen afbeeldingen, getallen en vergelijkingen — geen tekst. De puzzels die je maakt werken identiek in alle talen. Je kunt hetzelfde product aan kopers in elk land verkopen zonder vertaling, waardoor je adresseerbare markt onmiddellijk wordt vermenigvuldigd.',
     },
     {
-      question: 'Welke bestandsformaten kan ik downloaden?',
-      answer: 'Je kunt puzzels downloaden als hoge-resolutie JPEG-afbeeldingen of drukgeoptimaliseerde PDF-bestanden. Zowel het puzzelwerkblad als het bijpassende antwoordblad zijn beschikbaar in beide formaten. PDF\'s zijn ideaal voor direct printen; JPEG\'s werken uitstekend voor productmockups en social media berichten.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer: 'Probeer voordat je koopt met onze gratis proefversie — elke functie is beschikbaar zodat je de tool volledig kunt evalueren vóór aankoop. Omdat de gratis proefversie je volledige toegang geeft, bieden we geen restituties op licentie-aankopen. Zorg ervoor dat de tool aan je behoeften voldoet via de gratis proefversie voordat je koopt.',
     },

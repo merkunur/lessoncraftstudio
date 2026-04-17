@@ -182,10 +182,6 @@ const content: ToolContent = {  seo: {
       answer: 'Il generatore supporta 11 lingue: italiano, inglese, tedesco, francese, spagnolo, portoghese, olandese, svedese, danese, norvegese e finlandese. Nella Modalità Rivela Parola l\'alfabeto si adatta automaticamente alla lingua selezionata includendo i caratteri specifici come gli accenti italiani (à, è, é, ì, ò, ù), gli umlaut tedeschi e gli accenti francesi.',
     },
     {
-      question: 'Quali formati di file posso scaricare?',
-      answer: 'Puoi scaricare i puzzle come immagini JPEG ad alta risoluzione o file PDF ottimizzati per la stampa. Sia il foglio di lavoro sia la chiave di valore percepito corrispondente sono disponibili in entrambi i formati. Usa i JPEG per i mockup dei prodotti e i social media; usa i PDF come materiale consegnabile nei tuoi annunci.',
-    },
-    {
       question: 'Devo installare un software?',
       answer: 'No. Il generatore funziona interamente nel tuo browser web su qualsiasi dispositivo moderno — Windows, Mac, Chromebook, iPad o tablet Android. Niente da installare, nessun plugin necessario e nessun account da creare.',
     },

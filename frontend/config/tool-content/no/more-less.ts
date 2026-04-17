@@ -173,10 +173,6 @@ const content: ToolContent = {
       answer: 'Ja — og det er en stor fordel. Fordi sammenligningsarbeidsark kun bruker bilder, tall og symboler, er de helt språkagnostiske. Arbeidsarkene du lager fungerer identisk på alle 11 stoettede språk. Du kan selge det samme produktet til kjopere i alle land uten oversettelse.',
     },
     {
-      question: 'Hvilke filformater kan jeg laste ned?',
-      answer: 'Du kan laste ned arbeidsark som hoyopploste JPEG-bilder eller utskriftsoptimerte PDF-filer. Både arbeidsarket og den matchende fasiten er tilgjengelige i begge formater. PDF-er er ideelle for direkte utskrift; JPEG-er fungerer utmerket for å lage produktmockups og sosiale medier-innlegg.',
-    },
-    {
       question: 'Må jeg installere noen programvare?',
       answer: 'Nei. Generatoren kjorer helt i nettleseren din. Den fungerer på alle moderne enheter — Windows, Mac, Chromebook, iPad eller Android-nettbrett. Det er ingenting å installere, ingen tillegg krevet og ingen konto å opprette.',
     },

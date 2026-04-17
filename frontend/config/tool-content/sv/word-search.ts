@@ -194,10 +194,6 @@ const content: ToolContent = {
       answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter.',
     },
     {
-      question: 'Vilka filformat kan jag ladda ner?',
-      answer: 'Ladda ner arbetsblad och facit som högupplösta JPEG-bilder eller utskriftsoptimerade PDF-filer med 400+ DPI. Stödda sidstorlekar inkluderar Letter Stående, Letter Liggande, A4 Stående, A4 Liggande, Kvadrat och anpassade dimensioner. PDF:er är idealiska för direkt utskrift och KDP-uppladdning; JPEG:er fungerar utmärkt för produktmockups och sociala medier.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer: 'Prova innan du köper med vår gratis provversion — alla funktioner är tillgängliga så du kan fullt utvärdera verktyget innan du köper. Eftersom den gratis provversionen ger dig fullständig tillgång erbjuder vi inte återbetalning på licensköp. Se till att verktyget passar dina behov med den gratis provversionen innan du köper.',
     },

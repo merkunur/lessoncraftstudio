@@ -160,10 +160,6 @@ const content: ToolContent = {
       answer: 'Ja. Verktyget erbjuder en gratis provversion med alla funktioner — ingen registrering, inget kreditkort krävs. Du kan skapa, förhandsgranska och ladda ner så många arbetsblad du vill. Gratis provversion-nedladdningar innehåller en vattenstämpel. Köp en kommersiell licens för att ta bort vattenstämpeln och låsa upp försäljningsrättigheter.',
     },
     {
-      question: 'Vilka filformat kan jag ladda ner?',
-      answer: 'Du kan ladda ner arbetsblad som högupplösta JPEG-bilder eller utskriftsoptimerade PDF-filer. Både arbetsbladet och dess matchande facit finns tillgängliga i båda format. PDF:er är idealiska för direkt utskrift; JPEG:er fungerar utmärkt för att skapa produktmockups och sociala medier-inlägg. För KDP-publicering, exportera PDF:er med högsta tillgängliga upplösning för att uppfylla Amazons utskriftskvalitetskrav.',
-    },
-    {
       question: 'Kan jag använda arbetsbladen för kommersiella ändamål?',
       answer: 'Den gratis provversionen med vattenstämpel är endast för personligt och produktlinjesbruk. För att sälja arbetsblad på Etsy, Gumroad, Amazon KDP eller någon annan marknadsplats behöver du en kommersiell licens. Den kommersiella licensen tar bort vattenstämpeln och ger fulla återförsäljningsrättigheter för arbetsbladen du skapar.',
     },
@@ -186,10 +182,6 @@ const content: ToolContent = {
     {
       question: 'Kan jag generera ett facit?',
       answer: 'Ja. Efter att ha genererat ett arbetsblad, klicka på \"Generera Facit\" för att skapa ett matchande lösningsblad med alla svar ifyllda. Du kan ladda ner facit som en separat JPEG- eller PDF-fil. Detta är särskilt användbart för säljare och för säljare som vill inkludera facit i sina produkter.',
-    },
-    {
-      question: 'Vilka sidstorlekar stöds?',
-      answer: 'Generatorn stöder US Letter (stående och liggande), A4 (stående och liggande), Kvadrat (1200×1200 px) och helt anpassade dimensioner. Kvadratformat är idealiskt för sociala medier-innehåll och Amazon KDP-aktivitetsböcker.',
     },
     {
       question: 'Vad är er återbetalningspolicy?',

@@ -181,10 +181,6 @@ const content: ToolContent = {
       answer: 'Generatorn stöder 11 språk: engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska och finska. I Ord Avslöjande-läge anpassas alfabetet automatiskt till att inkludera lokalspecifika tecken som svenska ÅÄÖ, tyska Ä/Ö/Ü och franska accenter.',
     },
     {
-      question: 'Vilka filformat kan jag ladda ner?',
-      answer: 'Du kan ladda ner pussel som högupplösta JPEG-bilder eller utskriftsoptimerade PDF-filer. Både pusselarbetsbladet och dess matchande facit finns tillgängliga i båda format. Använd JPEG:er för produktmockups och sociala medier; använd PDF:er som leverans i dina annonser.',
-    },
-    {
       question: 'Behöver jag installera någon programvara?',
       answer: 'Nej. Generatorn körs helt i din webbläsare på alla moderna enheter — Windows, Mac, Chromebook, iPad eller Android-surfplatta. Inget att installera, inga tillägg krävs och inget konto att skapa.',
     },

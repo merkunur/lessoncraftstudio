@@ -14,12 +14,12 @@ const content: AppContent = {
       'printbare bingoplader forretningsværktøj',
       'bingo generator kommercielt brug',
     ],
-    titleTag: 'Lav bingoplader | Generator bingo med billeder',
+    titleTag: 'Bingokort-generator | LessonCraftStudio',
     metaDescription: 'Lav bingoplader med 3.000+ temabilleder. Unikke plader per sæt, printklare PDF\'er. Prøv gratis — kommerciel licens.',
   },
 
   hero: {
-    title: 'Lav bingoplader med billeder — bingo generator til print',
+    title: 'Bingokort-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Lav dine egne bingoplader med 3.000+ temabilleder — generer 1–10 unikke plader per sæt, billed- eller ordudfyldning, opråbsliste til spillederen, ZIP batch-eksport og 104 tematiske billedsamlinger.',
     description:
       'Lav professionelle bingoplader med billeder, hvor spillere markerer matchende billeder eller ord på deres unikke bingoplade. Det danske marked med 5,8 millioner dansktalende har lav konkurrence inden for printbare bingo spil på Etsy.dk — en oplagt mulighed for at sælge bingoplader til grupper og klasser. Konfigurer rækker fra 3 til 5 og kolonner fra 3 til 5 uafhængigt, hvilket giver gitre fra 3×3 (9 felter) op til 5×5 (25 felter) med standard 4×4 (16 felter). Vælg billedudfyldning eller ordudfyldning uafhængigt for både kortceller og cirkulære brikker — brikker har stiplede kanter og blandet Fisher-Yates-rækkefølge for autentisk bingospil. Generer 1–10 unikke bingoplader per sæt, hver med et anderledes tilfældigt billedudvalg fra puljen. En dedikeret opråbsliste til spillederen viser et dynamisk ordgitter med kolonner beregnet baseret på længste ordlængde. Bingo generatoren er sprogfølsom: ordudfyldning bruger lokaliserede billednavne, så at skifte sprog ændrer ordene — det samme tema kan generere unikke bingoplader på 11 sprog. Bingoplader er egnede til børnehaveklasse (5–6 år), indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse) — tilpas sværheden med gitterstørrelse og antal billeder. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Batch-eksporter alle bingoplader som individuelle JPEG-billeder i en enkelt ZIP-fil. Uanset om du sælger bingopladepakker på Etsy.dk, sammensætter bingo spil bøger til Amazon KDP eller opretter gruppeaktiviteter — denne bingo generator leverer printklare bingoplader på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

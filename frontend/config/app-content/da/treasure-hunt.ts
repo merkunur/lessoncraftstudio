@@ -14,12 +14,12 @@ const content: AppContent = {
       'børn aktivitet skattejagt print',
       'skattejagt opgave koordinatgitter retning',
     ],
-    titleTag: 'Skattejagt til print | Generator sporleg',
+    titleTag: 'Skattejagt-generator | LessonCraftStudio',
     metaDescription: 'Lav skattejagt- og sporleg-opgaver med temabilleder. Printklare PDF\'er. Prøv gratis — sælg på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Skattejagt til print — sporleg og ledetråde for børn',
+    title: 'Skattejagt-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Lav printbare skattejagt-opgaver med ledetråde på et 5×5 koordinatgitter — to retningstyper (op/ned/venstre/højre og kompas: nord/syd/øst/vest), fuldt lokaliserede sporleg-anvisninger på 11 sprog og automatisk facit med markeret skatteplads.',
     description:
       'Generér printbare skattejagt-opgaver, hvor børn følger ledetråde og spor for at lokalisere en gemt skat på et 5×5 koordinatgitter. Hvert sporleg spreder 6 tematiske billeder over gitteret som vartegn og opretter en startposition og præcis 4 retningsbevægelser, der fører til skattecellen. Med det danske marked på kun 5,8 millioner indbyggere er konkurrencen på Etsy.dk og Amazon KDP markant lavere end på engelsksprogede platforme — og danske forældre søger aktivt efter printbare skattejagt-aktiviteter og sporleg til børn i børnehaveklasse (5-6 år), indskoling 0.-3. klasse og mellemtrin 4.-6. klasse. Vælg mellem to retningstyper: Grundlæggende tilstand bruger op, ned, venstre og højre for de yngste i børnehaveklassen, mens Kompas-tilstand bruger nord, syd, øst og vest for indskoling og mellemtrin. Generatoren er sprogfølsom: at skifte sprog ændrer ledetrådsteksten med autentiske retningsanvisninger — \"Flyt ned 2 felter\" på dansk, \"Move down 2 squares\" på engelsk, \"Gehe 2 Felder nach unten\" på tysk. Hvert sporleg inkluderer en automatisk genereret overskrift med blågrøn baggrund, gylden titel og lokaliseret tekst: \"Skattejagt\" og \"Følg ledetrådene og find skatten!\". Dobbeltlærredssystemet genererer både en opgavefane og en facitfane — facit markerer den endelige skattecelle i bleggu, så du aldrig behøver markere manuelt. Fuld Adgang låser op for alle 104 temaer med over 3.100 illustrationer og alle 11 sprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, og eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Uanset om du sælger skattejagt-pakker på Etsy.dk, sammensætter sporleg-aktivitetsbøger til Amazon KDP eller opretter koordinatgitter-opgaver til Gumroad — denne generator leverer produktionsklare skattejagt-opgaver på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

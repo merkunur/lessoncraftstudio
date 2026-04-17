@@ -14,12 +14,12 @@ const content: AppContent = {
       'gitter logik sudoku print',
       'sudoku opgave børn generator printbar',
     ],
-    titleTag: 'Sudoku til print | Generator med billeder',
+    titleTag: 'Sudoku-generator | LessonCraftStudio',
     metaDescription: 'Lav sudoku med billeder eller tal, justerbar sværhedsgrad. Automatisk facit, printklare PDF\'er. Prøv gratis — sælg på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Sudoku til print — generator med billeder og justerbar sværhedsgrad',
+    title: 'Sudoku-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Lav din egen sudoku med billeder i stedet for tal — tre sværhedsgrader fra 4 til 8 tomme celler i et 4×4 gitter, automatisk facit og 104 tematiske billedsamlinger til sudoku-opgaver, der sælger globalt uden oversættelse.',
     description:
       'Generér printbare sudoku-opgaver med billeder, hvor børn udfylder tomme celler med de korrekte billeder ved hjælp af logik. Hvert sudoku-gitter bruger præcis 4 unikke billeder, der skal vises én gang i hver række og én gang i hver kolonne — de samme regler som klassisk sudoku, men med farverige illustrationer i stedet for tal. Med det danske marked på kun 5,8 millioner indbyggere er konkurrencen på Etsy.dk og Amazon KDP markant lavere end på engelsksprogede platforme — og danske forældre, pædagoger og lærere søger aktivt efter printbare sudoku-opgaver til børnehaveklasse (5-6 år), indskoling 0.-3. klasse og mellemtrin 4.-6. klasse. Udbuddet af billedsudoku på dansk er minimalt, hvilket giver sælgere en klar markedsmulighed. Vælg blandt tre sværhedsgrader: Let fjerner 4 celler (perfekt til børnehaveklasse), Middel fjerner 6 celler (indskoling) og Svær fjerner 8 celler — halvdelen af gitteret (mellemtrin). Vælg billeder gennem temabaseret autovalg fra 104 samlinger, manuelt udvalg fra biblioteket med over 3.100 illustrationer, eller upload egne billeder. Det premiumdesignede gitter har alternerende 2×2-blokfarver, flerlagsede skygger og en indigoblå ramme med afrundede hjørner. Hvert sudoku-opgaveark inkluderer en automatisk genereret overskrift lokaliseret på alle 11 sprog og et dobbeltlærredsfacit med det komplette udfyldte gitter. Fordi sudoku med billeder er helt visuelt — ingen ord på gitteret — fungerer hvert opgaveark identisk på alle sprog, hvilket gør produkterne universelt salgbare. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4 eller brugerdefinerede størrelser. Uanset om du sælger sudoku-pakker på Etsy.dk, sammensætter logikbøger til Amazon KDP eller opretter ræsonnementsaktiviteter til Gumroad — denne generator leverer produktionsklare sudoku-opgaver på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

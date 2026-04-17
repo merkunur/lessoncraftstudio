@@ -17,12 +17,12 @@ const content: AppContent = {
       'børnehaveklasse',
       'facit',
     ],
-    titleTag: 'Find og markér opgave til print | Generator observationslege',
+    titleTag: 'Find og markér-generator | LessonCraftStudio',
     metaDescription: 'Lav find-og-markér opgaver med temabilleder. Automatisk facit, 300 DPI PDF. Prøv gratis — sælg på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Find og markér opgave til print — Generator til observationslege og søgebilleder',
+    title: 'Find og markér-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'To aktivitetstilstande i én generator — Søgning med gemte genstande og nul-overlap placering samt Find den Ulige Billede med parrede billedrækker — med automatisk facit, adaptiv billedstørrelse, navn- og datofelter og en legende, der viser genstande at finde.',
     description:
       'Lav professionelle find-og-markér opgaver til print, hvor børn søger i en billedscene for at finde og cirkle specifikke genstande. Det danske marked for printbare opgaveark (5,8 mio. dansktalende, Etsy.dk, lav konkurrence) er ideelt for sælgere af observationslege til børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse). Vælg mellem to aktivitetstilstande: Søgnings-tilstanden bruger en nul-overlapalgoritme til at sprede 1–5 gemte genstande blandt 8–12 distraktorer over siden — intet gitter, ingen rækker og kolonner, bare en sammenhængende visuel scene. En legende nederst på opgavearket viser børnene præcis, hvilke genstande de skal finde. Find den Ulige Billede-tilstanden arrangerer 8–12 parrede billeder i rækker med 1–5 uparrede genstande blandet ind — børnene identificerer billederne, der ikke har en matchende partner. Dobbeltlærredssystemet genererer både et opgaveark og en facitliste — facit tegner røde cirkler rundt gemte genstande (Søgning) eller uparrede genstande (Find den Ulige Billede), så du aldrig behøver markere dem manuelt. Generatoren er visuel: sproget påvirker brugerfladeetiketter men IKKE opgavearkets indhold, så hvert opgaveark fungerer på ethvert sprog uden lokaliserede billednavne. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, slå navn- og datofelter til, tilpas den automatiske overskrift med 6 skrifttypevalg, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4 eller brugerdefinerede størrelser. Uanset om du sælger søgebillede-pakker på Etsy.dk, sammensætter observationsopgave-bøger til Amazon KDP eller opretter opmærksomhedsaktiviteter til Gumroad — denne generator leverer produktionsklare opgaveark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

@@ -17,12 +17,12 @@ const content: AppContent = {
       'børnehaveklasse',
       'indskoling',
     ],
-    titleTag: 'Sorterings-opgave til print | Kategoriserings-generator',
+    titleTag: 'Sortering-generator | LessonCraftStudio',
     metaDescription: 'Lav sorterings- og kategoriseringsopgaver med temabilleder. Automatisk facit, printklare PDF\'er. Prøv gratis.',
   },
 
   hero: {
-    title: 'Sorterings-opgave til print — kategoriserings-generator',
+    title: 'Sortering-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Lav printbare sorterings- og kategoriseringsopgaver, hvor børn sorterer, grupperer og ordner billeder i to kategorier — temabaseret eller manuelt billedvalg med automatisk facit.',
     description:
       'Lav professionelle sorterings-opgaver til print, hvor børn kategoriserer billeder i to grupper ved at klippe billeder ud og sortere dem i den korrekte venstre eller højre kategori. Vælg tematilstand for automatisk at udfylde kategorier fra billedbiblioteket — for eksempel dyr til venstre og mad til højre — eller skift til manuel tilstand for at håndvælge individuelle billeder. Hvert opgaveark har to stiplede kategorirammer øverst og et blandet udklipsgitter nedenfor med 4–12 billeder klar til at klippes ud og sorteres. Det danske marked med 5,8 millioner dansktalende har næsten ingen printbare sorteringsopgaver på Etsy.dk og Amazon KDP — en åben niche for sælgere. Sorteringsopgaver er ideelle til børnehaveklasse, hvor børn lærer at gruppere og kategorisere i den daglige undervisning, til indskoling (0.–3. klasse), hvor sortere og ordne er en del af læringsmålene, og til mellemtrin (4.–6. klasse) med mere udfordrende kategoridistinktioner. Generatoren er sprogfølsom: kategorietiketter bruger lokaliserede billednavne, så de samme temaer producerer unikke opgaveark på alle 11 sprog. Hvert opgaveark genererer automatisk en facitliste med billeder sorteret i korrekte kategorifelter. Vælg blandt mere end 3.100 illustrationer i 104 temaer, tilføj baggrunds- og rammetemaer, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

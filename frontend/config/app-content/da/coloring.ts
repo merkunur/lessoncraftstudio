@@ -14,12 +14,12 @@ const content: AppContent = {
       'printbare malebilleder forretningsværktøj',
       'malebog generator kommercielt brug',
     ],
-    titleTag: 'Lav malebilleder til print | Generator farvelægning',
+    titleTag: 'Malesider-generator | LessonCraftStudio',
     metaDescription: 'Lav malebilleder fra 3.000+ temabilleder. Højopløselige konturer, printklare PDF\'er. Prøv gratis — sælg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Lav malebilleder til print — farvelægningsbilleder med 3.000+ motiver',
+    title: 'Malesider-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Malebog generator med frit lærred — vælg blandt 104 tematiske billedsamlinger, tegn egne konturer med frihåndstegning, tilføj navnefelt og skriveøvelseslinjer, og eksporter blækvenlige farvelægningsbilleder til print.',
     description:
       'Lav dine egne malebilleder til print på et frit lærred, hvor du placerer billeder præcis, hvor du vil — ingen gitre, ingen skabeloner, ren kreativ frihed. Det danske marked med 5,8 millioner dansktalende byder på lav konkurrence inden for printbare farvelægningsbilleder på Etsy.dk og Amazon KDP. Gennemse det indbyggede billedbibliotek med mere end 3.100 farverige illustrationer i 104 tematiske samlinger — dyr, natur, højtider, køretøjer og snesevis flere. Klik på ethvert billede for at tilføje det til dit lærred, og arranger, ændr størrelse, roter og lagr elementer, indtil din malebog-side ser perfekt ud. Frihåndstegningsværktøjet lader dig skitsere egne konturer direkte på lærredet med justerbar penselfarve og -størrelse — skab helt originale tegninger til farvelægning. Produktlinjehjælpere tilføjer et navnefelt og skriveøvelseslinjer med et enkelt klik, hvilket gør dine malebilleder egnede til børnehaveklasse (5–6 år), indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse). Slå gråtonemuligheden til for at konvertere din farverige komposition til blækvenlige konturer — perfekte til udskrift og malebøger. Tilføj dekorative rammetemaer, brugerdefineret tekst med kontureffekter og upload egne billeder. Generatoren er ikke sprogfølsom — resultatet er rent visuelt, så farvelægningsbillederne ser identiske ud på ethvert sprog. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter-, A4-, Kvadrat- eller brugerdefineret format. Uanset om du sælger malebilledspakker på Etsy.dk, sammensætter malebøger til Amazon KDP eller opretter kreative farvelægningsaktiviteter — denne malebog generator leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

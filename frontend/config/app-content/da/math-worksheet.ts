@@ -17,12 +17,12 @@ const content: AppContent = {
       'facit',
       'PDF',
     ],
-    titleTag: 'Regneopgaver generator | Lav matematikopgaver til print',
+    titleTag: 'Matteopgaver-generator | LessonCraftStudio',
     metaDescription: 'Lav regneopgaver på mål med automatisk facitliste. 300 DPI PDF, 11 sprog. Prøv gratis — kommerciel licens til Etsy & KDP.',
   },
 
   hero: {
-    title: 'Regneopgaver generator — lav matematikopgaver til print med facit',
+    title: 'Matteopgaver-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Lav regneopgaver på mål med billeder som variabler, automatisk facitliste og printklare PDF\'er til folkeskolen.',
     description:
       'Lav regneopgaver til print med denne opgavegenerator matematik, der forvandler abstrakt algebra til et visuelt puslespil. Billeder fungerer som ukendte variabler i et system af ligninger — børnene løser koblede regnearter for at bestemme den numeriske værdi af hvert billede. Det er hovedregning kombineret med logisk tænkning i én engagerende øvelse. Vælg blandt fire sværhedsgrader: Meget Let og Let bruger to symboler, Middel introducerer tre, og Svær udfordrer med fire simultane ukendte. Vælg opgaver med kun addition eller bland addition og subtraktion, og indstil talintervallet præcist fra 0 til 20. Den indbyggede algebraiske løser garanterer, at hvert puslespil har præcis én korrekt løsning. Det danske marked for matematik arbejdsark til print er næsten ubesat. Med 5,8 millioner dansktalende og stigende interesse for printbare regneopgaver på Etsy.dk er søgeord som \"regneopgaver generator\" og \"lav regneopgaver\" nicher med lav konkurrence og høj købsintention. Brug generatoren til at lave regneopgaver på mål til folkeskolen — fra børnehaveklasse (indskoling) til mellemtrin. Udforsk mere end 3.100 illustrationer i 104 temaer som algebraiske symboler, eller upload egne billeder. Hvert arbejdsark genererer en automatisk facitliste, og du eksporterer trykklare PDF\'er med 400+ DPI i Letter-, A4- eller brugerdefinerede formater. Uanset om du sælger matematikpakker på Etsy.dk, sammensætter regnebøger til Amazon KDP, eller laver niveauinddelte regneark — denne regneopgaver generator leverer professionelle resultater på få minutter. Prøv gratis med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

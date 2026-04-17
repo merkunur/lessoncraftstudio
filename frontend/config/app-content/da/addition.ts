@@ -18,12 +18,12 @@ const content: AppContent = {
       'facitliste',
       'svar',
     ],
-    titleTag: 'Plusstykker til print | Generator med facitliste',
+    titleTag: 'Plusstykker-generator | LessonCraftStudio',
     metaDescription: 'Lav plusstykker med temabilleder på få sekunder. Automatisk facitliste, 300 DPI PDF, 11 sprog. Prøv gratis — kommerciel licens til Etsy & KDP.',
   },
 
   hero: {
-    title: 'Plusstykker til print — Generator med temabilleder og facitliste',
+    title: 'Plusstykker-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Lav plusopgaver med billeder til indskoling og børnehaveklasse — prøv gratis med vandmærke.',
     description:
       'Lav plusstykker til print med temabilleder, der gør regneopgaver sjove for børn i børnehaveklasse, 1. klasse og 2. klasse. Vælg mellem fire øvelsestilstande — Billede + Billede, Billede + Tal, Find Leddet og Blandet Tilstand — og tilpas sværhedsgraden til ethvert niveau i indskolingen. Vælg fra mere end 3.100 illustrationer i 104 temaer som bondegårdsdyr, køretøjer og mad, der gør hvert regnestykke levende og engagerende. Hvert arbejdsark får en automatisk genereret facitliste, og du eksporterer trykklare PDF\'er i Letter-, A4- eller brugerdefineret format med mere end 300 DPI. Uanset om du sælger plusstykker på Etsy.dk, udgiver regnebøger på Amazon KDP eller laver opgaver til dine egne børn — generatoren leverer professionelle resultater på få minutter. Det danske marked for printbare plusopgaver er næsten uberørt, og med 5,8 millioner dansktalende er der en reel mulighed for at etablere dig som den førende udbyder. Prøv alle funktioner gratis med vandmærke — ingen tilmelding, intet kreditkort.',

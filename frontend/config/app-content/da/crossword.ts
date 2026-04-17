@@ -16,12 +16,12 @@ const content: AppContent = {
       'lodret',
       'facit',
     ],
-    titleTag: 'Krydsord generator | Lav med billeder og facit',
+    titleTag: 'Krydsord-generator | LessonCraftStudio',
     metaDescription: 'Lav krydsord med billedledetråde på et 15×15 gitter. 4 indtastningsmetoder, 104 temaer, automatisk facit. Prøv gratis — kommerciel licens.',
   },
 
   hero: {
-    title: 'Krydsord Generator — Lav Kryds og Tværs med Billedledetråde og Facit',
+    title: 'Krydsord-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Lav krydsord med billedledetråde på et 15×15 gitter — fire indtastningsmetoder, automatisk facit og 104 temaer til børnehaveklasse, indskoling og mellemtrin.',
     description:
       'Lav professionelle krydsord, hvor farverige billeder erstatter traditionelle tekstledetråde. Otte billeder genererer otte ord på et fast 15×15-gitter — algoritmen udtrækker ord fra billednavne, sorterer efter længde for optimal placering og udfylder gitteret med nummererede ledetrådspositioner vandret og lodret. Vælg blandt fire indtastningsmetoder: Hurtig Temagenerering autovælger 8 tilfældige billeder fra ethvert tema og genererer direkte; Manuel Billednavnsredigering lader dig klikke på individuelle billeder og omdøbe dem; Tilpasset Ordliste med Ledetråde skifter til kryds og tværs med ORD: ledetråd-format; og Upload Egne Billeder lader dig tilføje egne JPEG-, PNG-, GIF- eller WebP-filer. Det danske marked med 5,8 millioner dansktalende byder på minimal konkurrence inden for printbare krydsord til folkeskolen. Børnehaveklasse og indskoling (0.–3. klasse) bruger billedledetråde med enkle temaord, mens mellemtrin (4.–6. klasse) bruger tilpassede ordlister med tekst-ledetråde til sværere ordforråd. Krydsord-generatoren er sprogfølsom: puslespilsord kommer fra lokaliserede billednavne, så at skifte sprog ændrer de faktiske krydsordssvar — et kattebillede genererer \"KAT\" på dansk, men \"CAT\" på engelsk og \"KATZE\" på tysk. Dobbeltlærredssystemet genererer både en puslespilsfane og en facitfane med det udfyldte gitter. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 sprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4 eller brugerdefinerede størrelser. Uanset om du sælger krydsordspakker på Etsy.dk, sammensætter kryds og tværs-bøger til Amazon KDP eller opretter ordforråds-krydsord til Gumroad — denne generator leverer produktionsklare puslespil på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

@@ -17,12 +17,12 @@ const content: AppContent = {
       'indskoling',
       'facit',
     ],
-    titleTag: 'Puslespil manglende brikker til print | Generator visuel logik',
+    titleTag: 'Manglende brikker-generator | LessonCraftStudio',
     metaDescription: 'Lav opgaver med "manglende brikker" med temabilleder og automatisk facit. 300 DPI PDF printklare. Prøv gratis.',
   },
 
   hero: {
-    title: 'Puslespil manglende brikker til print — Generator til visuel logik-opgaver',
+    title: 'Manglende brikker-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Generer puslespil-opgaver, hvor brikker klippes ud fra billeder, og børnene finder den korrekte nummererede brik — med 6 brikformer, 1–5 manglende brikker, 2–6 løsningsalternativer inkl. distraktorer, automatisk facit og visuelt design, der fungerer på alle sprog.',
     description:
       'Lav professionelle puslespil-opgaver med manglende brikker til print, hvor et billede har huller klippet ud, og børnene identificerer, hvilken nummereret brik der udfylder hvert hul. Det danske marked for printbare opgaveark (5,8 mio. dansktalende, Etsy.dk, lav konkurrence) er oplagt for sælgere af visuel logik-opgaver til børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse). Den smarte brikekstraktionsalgoritme finder visuelt distinkte områder med tilstrækkelig farvevarians, hvilket sikrer, at hvert puslespil er løseligt og engagerende. Vælg blandt 6 brikformer — firkant, cirkel, rektangel stående, rektangel liggende, ellipse stående og ellipse liggende — og konfigurer sværhedsgraden med 1–5 manglende brikker og 2–6 løsningsalternativer, der inkluderer distraktorbrikker for at udfordre visuel logik. Hvert puslespil inkluderer et automatisk genereret facit med gulmarkerede nummertiketter placeret inde i hvert hul, der viser det korrekte alternativ. Puslespillene er rent visuelle uden lokalt afhængigt indhold, så hvert puslespil fungerer identisk verden over — samme puslespil kan sælges globalt uden oversættelse. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat eller brugerdefinerede størrelser. Uanset om du sælger puslespil-pakker på Etsy.dk, sammensætter visuel logik-bøger til Amazon KDP eller opretter kritisk tænkning-aktiviteter til Gumroad — denne generator leverer produktionsklare opgaveark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

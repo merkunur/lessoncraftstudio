@@ -17,12 +17,12 @@ const content: AppContent = {
       'børnehaveklasse',
       '1. klasse',
     ],
-    titleTag: 'Skrivemotorik opgaver til print | Generator skriveøvelser',
+    titleTag: 'Skriveøvelses-generator | LessonCraftStudio',
     metaDescription: 'Lav skrivemotorik-opgaver med egne ord. 11 sprog, 300 DPI PDF. Prøv gratis — kommerciel licens til sælgere.',
   },
 
   hero: {
-    title: 'Skrivemotorik Opgaver Generator — Lav Skriveøvelser til Print med Pilguided Stregrækkefølge',
+    title: 'Skriveøvelses-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Tre progressive øvelsestilstande med pilguided stregrækkefølge og tonende bogstavsguider — byg skrivemotorik fra fuld sporing til selvstændig bogstavskrivning.',
     description:
       'Lav professionelle skrivemotorik-opgaver med tre distinkte øvelsestilstande, der generator en naturlig indlæringsprogression: Spor-tilstanden giver solide bogstavsguider, som begyndere overtegner direkte, Tonende Sporing mindsker bogstavssynligheden progressivt hen over rækken for at opbygge selvtillid, og Guidet Kopiering tilbyder en svag kontur til næsten selvstændig bogstavskrivning. Vælg blandt fem skrifttypestile — Print Normal, Print Normal Pil med nummererede stregrækkefølgepilar, Print Sporing, Print Sporing Pil og Kursiv (Great Vibes) — for at matche enhver håndskriftsmetodik. Det danske marked med 5,8 millioner dansktalende har minimal konkurrence inden for printbare skrivemotorik-opgaver til folkeskolen. Børnehaveklasse bruger Spor-tilstand med pil-stregrækkefølge og førskrivningsstreg-øvelser til finmotorik og pennegreb, mens indskoling (0.–3. klasse) bruger Tonende Sporing og Guidet Kopiering til at overtegne bogstaver og opbygge selvstændig skrivning. Hver række på arbejdsarket kan konfigureres individuelt: bland Spor-tilstand for nye bogstaver, Tonende Sporing for øvede bogstaver og Guidet Kopiering for repetition, alt på den samme side. Førskrivningsstreg-øvelser (lodrette linjer, vandrette linjer, cirkler og zigzaglinjer) tilføjer finmotoriske opvarmninger. Indhold hentes fra billedbiblioteket med mere end 3.100 illustrationer i 104 temaer: brug Begyndelsesbogstav-tilstand til at øve det første bogstav, Helt Filnavn-tilstand til hele ord, eller skriv valgfri Egen Tekst. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med ca. 300 DPI. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

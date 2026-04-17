@@ -17,12 +17,12 @@ const content: AppContent = {
       'børnehaveklasse',
       'indskoling',
     ],
-    titleTag: 'Skyggeleg opgave til print | Generator silhuet-parring',
+    titleTag: 'Skyggepar-generator | LessonCraftStudio',
     metaDescription: 'Lav skyggeleg-opgaver med billeder og silhuetter. Automatisk facit, 300 DPI PDF. Prøv gratis.',
   },
 
   hero: {
-    title: 'Skyggeleg opgave til print — Generator til silhuet-parring og skygge-matchning',
+    title: 'Skyggepar-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'To parringstilstande i én generator — Skygge-parring opretter automatisk sorte silhuetter fra ethvert billede, Gør Den Hel deler billeder i halvdele — begge med Fisher-Yates-derangering, der sikrer ingen trivielle matchninger, automatisk facit og 104 tematiske billedsamlinger.',
     description:
       'Lav professionelle skyggeleg-opgaver til print, hvor børn forbinder farvede billeder med deres silhuetter eller genforbinder delte billedhalvdele. Det danske marked for printbare opgaveark (5,8 mio. dansktalende, Etsy.dk, lav konkurrence) er perfekt for sælgere af skygge-parringsøvelser til børnehaveklasse, indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse). Skygge-parring-tilstanden placerer 4 farvede billeder mærket A, B, C, D i den øvre række og 4 automatisk genererede sorte silhuetter mærket 1, 2, 3, 4 i den nedre række — silhuetterne oprettes gennem billedbehandling på pixelniveau, der konverterer hver pixel til rent sort for at bevare hvert billedes præcise konturprofil. Gør Den Hel-tilstanden deler billeder i halvdele med horisontal eller vertikal klipretning, mærker første halvdele A–D og anden halvdele 1–4. Begge tilstande bruger Fisher-Yates-derangering for at garantere, at intet billede vises i sin oprindelige position, hvilket skaber ægte matchningsudfordringer hver gang. Slå vis/skjul etiketter til for A/B/C/D og 1/2/3/4 identifikatorer, tilføj valgfri navn- og datofelter, og generer automatisk facit, der viser hver korrekt bogstav-til-nummer-parring. Resultatet er rent visuelt uden lokaliseret ordindhold, så det samme skyggeleg-opgaveark fungerer identisk på alle markeder uden oversættelse. Fuld Adgang låser op for alle 104 temaer med mere end 3.100 illustrationer og alle 11 brugerfladesprog. Tilføj baggrundstemaer og rammetemaer med uafhængige opacitetskontroller, inkluder brugerdefineret tekst med syv skrifttypemuligheder, og eksporter printklare PDF\'er og JPEG-billeder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller brugerdefinerede størrelser. Uanset om du sælger skyggeleg-pakker på Etsy.dk, sammensætter silhuet-parrings­bøger til Amazon KDP eller opretter figur-matchningsaktiviteter til Gumroad — denne generator leverer produktionsklare opgaveark på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

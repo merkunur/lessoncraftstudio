@@ -14,12 +14,12 @@ const content: AppContent = {
       'printbare tegneøvelser forretningsværktøj',
       'tegneaktivitet generator kommercielt brug',
     ],
-    titleTag: 'Tegne og farvelægge opgave til print | Kreativ generator',
+    titleTag: 'Tegn og mal-generator | LessonCraftStudio',
     metaDescription: 'Lav tegne- og farvelægningsopgaver med temabilleder. 300 DPI PDF printklare. Prøv gratis — kommerciel licens.',
   },
 
   hero: {
-    title: 'Tegneaktivitet opgave til print — kreative tegne- og farvelægningsopgaver',
+    title: 'Tegn og mal-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Kreativ generator til tegne og farvelægge opgaveark — dobbelt gittersystem med øvelsesgitter og ledetrådsgitter, trin-for-trin tegning med justerbar sværhed, og 100+ sort-hvide konturtemaer til kunst opgaveark.',
     description:
       'Lav professionelle tegne- og farvelægningsopgaver, hvor børn reproducerer et referencebillede celle-for-celle fra et ledetrådsgitter til et tomt øvelsesgitter. Det danske marked med 5,8 millioner dansktalende har lav konkurrence inden for kreative opgaveark på Etsy.dk — en oplagt mulighed for printbare tegneaktiviteter. To gitre vises per valgt billede: et Øvelsesgitter med tomme celler, hvor børnene tegner, og et Ledetrådsgitter, der viser en konfigurerbar procent af referencebilledet som visuelle ledetråde. Juster ledetrådsprocenten fra 10% til 75% for trin-for-trin tegning — færre ledetråde skaber sværere kunst opgaveark. Konfigurer gitterdimensioner fra 3×3 (9 celler) til 10×10 (100 celler) med uafhængige række- og kolonnejusteringer. Tre symmetritilstande tilføjer en rumlig dimension: Tilfældig, Horisontal og Vertikal spejling. Indhold hentes fra 100+ sort-hvide konturtemasamlinger med mere end 3.000 illustrationer, specifikt designet til tegning og farvelægning. Tegneaktiviteterne er egnede til børnehaveklasse (5–6 år), indskoling (0.–3. klasse) og mellemtrin (4.–6. klasse) — tilpas sværheden med gitterstørrelse og ledetrådsprocent. Dette er en rent visuel app: opgavearkene indeholder kun gitterbilleder uden tekst, hvilket gør dem universelt brugbare uanset sprog. Fuld Adgang låser op for alle 100+ temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med 300 DPI i Letter-, A4- eller brugerdefineret format. Uanset om du sælger kreative opgaveark på Etsy.dk, sammensætter tegnefærdighedsbøger til Amazon KDP eller opretter kunst opgaveark — denne generator leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

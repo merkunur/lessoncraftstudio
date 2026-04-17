@@ -16,12 +16,12 @@ const content: AppContent = {
       'substitution',
       'hemmelig',
     ],
-    titleTag: 'Hemmelige beskeder til print | Kryptogram generator',
+    titleTag: 'Kryptogram-generator | LessonCraftStudio',
     metaDescription: 'Lav kryptogrammer og hemmelige beskeder med temabilleder og automatisk facit. 300 DPI PDF, 11 sprog. Prøv gratis — kommerciel licens.',
   },
 
   hero: {
-    title: 'Hemmelig Besked Generator — Lav Kryptogrammer til Print med Temabilleder',
+    title: 'Kryptogram-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Map alfabetets bogstaver til billeder og kod hele fraser til visuelle kodespil — justerbar sværhed fra nul ledetråde til kraftigt stilladseret med Bogstaver at Afsløre.',
     description:
       'Forvandl enhver frase eller sætning til et kryptogram, hvor hvert bogstav erstattes af et billede, og brugerne dechifrerer den hemmelige besked ved at udlede, hvilket billede der repræsenterer hvilket bogstav. Hvert puslespil koder en komplet læsbar besked — ikke bare et enkelt ord — hvilket giver løserne tilfredsstillelsen ved at afsløre en hel hemmelig kode gennem mønstergenkendelse og deduktion. Skyderen Bogstaver at Afsløre (0–10) styrer, hvor mange bogstav-til-billede-koblinger der er frigivet som ledetråde, hvilket generator en jævn sværhedsgradient fra nul-ledetråde ekspertudfordringer til kraftigt stilladserede begynderpuslespil. Det danske marked med 5,8 millioner dansktalende har næsten ingen konkurrence inden for printbare kryptogrammer og hemmelige beskeder til folkeskolen. Børnehaveklasse og indskoling (0.–3. klasse) bruger høje afsløringsniveauer med korte, kendte fraser, mens mellemtrin (4.–6. klasse) løser sværere koder med nul afsløringer og længere sætninger. Auto-Tildel henter tilfældige billeder fra enhver af 104 tematiske samlinger (mere end 3.100 illustrationer) for at udfylde utildelte bogstaver direkte, eller brug Manuel Tildeling til at håndplukke specifikke billeder til specifikke bogstaver. Facit inkluderer en komplet bogstavslegende, der viser hvert alfabetbogstav parret med sit tildelte billede i sorteret rækkefølge. Fuld Adgang låser op for alle 11 understøttede sprog, hvor både den hemmelige beskedtekst og det tilgængelige alfabet ændres efter sprog: danske kryptogrammer koder danske fraser med æ, ø, å i alfabetet. Eksporter trykklare PDF\'er og JPEG-billeder med mere end 300 DPI i Letter-, A4- eller brugerdefineret format. Uanset om du sælger tematiske kodespilpakker på Etsy.dk, sammensætter kryptogram-puslespilsbøger til Amazon KDP eller opretter niveauinddelte kodeknækkerstationer til Gumroad — denne generator leverer professionelle resultater på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

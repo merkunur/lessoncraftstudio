@@ -14,12 +14,12 @@ const content: AppContent = {
       'AB ABC ABCD mønster indskoling',
       'mønster-opgaver tog format printbare',
     ],
-    titleTag: 'Mønster-opgaver til print | Generator logiske rækkefølger',
+    titleTag: 'Mønsterrækker-generator | LessonCraftStudio',
     metaDescription: 'Lav mønster-opgaver med AB, ABC, ABCD sekvenser og temabilleder. Automatisk facit. Prøv gratis — sælg på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Mønster-opgaver til print — logiske rækkefølger i togformat',
+    title: 'Mønsterrækker-generator — Lav printables at sælge på Etsy og KDP',
     tagline: 'Lav mønster-opgaver med AB, AAB, ABB, ABC og AABB sekvenser vist over 11 tematiske togvogne — juster antal ledetråde fra 4 til 10 for præcis sværhedskontrol fra børnehaveklasse til mellemtrin.',
     description:
       'Generér printbare mønster-opgaver, hvor børn skal finde den logiske rækkefølge og udfylde den manglende togvogn i en sekvens. Fem mønstertyper dækker hvert trin i den logiske tænkning: AB alternerer to elementer, AAB og ABB introducerer asymmetriske grupperinger, ABC roterer tre elementer, og AABB parrer to af hvert element i en udvidet cyklus. Togformatet arrangerer 11 vogne over tre rækker (5 + 3 + 3), og én vogn efterlades tom — barnet skal ræsonnere sig frem til det manglende mønsterelement. Med det danske marked på kun 5,8 millioner indbyggere er konkurrencen på Etsy.dk og Amazon KDP markant lavere end på engelsksprogede markedspladser. Danske forældre, pædagoger og lærere søger aktivt efter mønster-opgaver til børnehaveklasse (5-6 år), indskoling 0.-3. klasse og mellemtrin 4.-6. klasse — men udbuddet af printbare sekvensøvelser på dansk er minimalt. Juster ledetrådsskyderen fra 4 til 10 for at styre sværheden: 10 ledetråde gør rækkefølgen åbenlys for de yngste i børnehaveklassen, mens kun 4 ledetråde kræver ægte logisk ræsonnement, egnet til indskoling og mellemtrin. Indhold hentes fra det indbyggede billedbibliotek med mere end 3.100 illustrationer i 104 temaer. En separat facitfane viser alle 11 vogne udfyldt med den korrekte mønstersekvens til øjeblikkelig kontrol. Fuld Adgang låser op for alle 104 temaer og alle 11 brugerfladesprog. Eksporter trykklare PDF\'er og JPEG-billeder med høj DPI i Letter-, A4-, Kvadrat- eller brugerdefineret format. Hvert opgaveark er helt visuelt med udelukkende billeder på togvognene og nul tekst på resultatet, hvilket gør produkterne universelt salgbare uden oversættelse. Uanset om du sælger mønster-opgavepakker på Etsy.dk, sammensætter aktivitetsbøger med logiske rækkefølger til Amazon KDP eller bygger niveauinddelte sekvensøvelser til Gumroad — denne generator leverer unikke togformat-produkter på få minutter. Gratis prøveversion med alle funktioner — ingen tilmelding, intet kreditkort. Downloads indeholder et vandmærke; køb en licens for at fjerne det.',

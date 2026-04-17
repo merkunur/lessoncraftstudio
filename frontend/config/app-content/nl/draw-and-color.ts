@@ -193,11 +193,6 @@ const content: AppContent = {
         'Nee. Rastertekenen is een volledig visuele app — werkbladen bevatten uitsluitend rasterafbeeldingen met nul tekst op de uitvoer, dus ze zijn identiek in elke taal. Het wijzigen van de taal beïnvloedt alleen de UI-labels in de generatorinterface en de inhoudslabels van de afbeeldingenbibliotheek, niet het werkblad zelf. Het Commerciële abonnement bevat 10 zwart-wit thema\'s; Volledige Toegang ontgrendelt alle 100+ zwart-wit thema\'s en alle 11 interfacetalen.',
     },
     {
-      question: 'Mag ik werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je rasterteken werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als leermiddelen op Gumroad, of via elk ander verkoopkanaal. Het dubbele rasterformaat, aanpasbaar aanwijzingspercentage, symmetriemodi en zwart-wit contourstijl creëren een onderscheidend product dat sterk concurreert in teken- en activiteiten werkblad categorieën.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden wij geen restitutie aan op aankopen van commerciële licenties. Je kunt elke rastergrootte, elk aanwijzingspercentage, elke symmetriemodus, elk exportformaat en elk paginaformaat testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

@@ -195,11 +195,6 @@ const content: AppContent = {
         'Ja. Het paneel Pagina-instellingen bevat zowel een achtergrondthemaselector met een dekkingsschuifregelaar (0–1 in stappen van 0,05) als een kaderthema-selector met een eigen onafhankelijke dekkingsschuifregelaar. Achtergrondthema\'s voegen decoratieve patronen toe achter de koppelinhoud, terwijl kaderthema\'s de pagina omlijsten. Beide hebben aparte dekkingsregelaars zodat je subtiele achtergronden met prominente kaders kunt creëren, of elke combinatie die bij je ontwerp past. Deze visuele elementen verhogen de waargenomen kwaliteit van je koppelwerkbladen voor marktplaatsvermeldingen.',
     },
     {
-      question: 'Kan ik koppelwerkbladen die met deze tool zijn gemaakt verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je verbindingswerkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De vier koppelmodi, automatisch gegenereerde antwoordbladen en 104 thematische afbeeldingscollecties geven je de creatieve middelen om originele, verkoopbare koppelactiviteitenproducten te produceren.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden wij geen restituties aan op aankopen van commerciële licenties. Je kunt alle vier koppelmodi, het automatisch gegenereerde antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema\'s, naam-/datumvelden, itemnummers, opsommingstekens en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

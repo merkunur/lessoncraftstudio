@@ -186,16 +186,6 @@ const content: AppContent = {
         'Yes. You can access every feature of the generator — all four exercise modes, the full image library, answer key generation, grayscale export, and all page sizes — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
-      question: 'What does the commercial license include?',
-      answer:
-        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many worksheets you produce or sell.',
-    },
-    {
-      question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your subtraction worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as digital products on Gumroad, or through any other sales channel. Many sellers create themed bundles and activity books that generate consistent revenue. Subtraction worksheets pair naturally with addition products, and sellers who offer both as a combined bundle consistently achieve higher average order values. Building themed bundles across multiple difficulty levels creates a product catalog with strong internal cross-selling potential. The visual format with themed images appeals to both parents buying for home practice and tutoring professionals seeking engaging materials for their sessions.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

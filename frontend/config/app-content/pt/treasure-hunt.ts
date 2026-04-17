@@ -189,11 +189,6 @@ const content: AppContent = {
         'Sim. O painel de Configuração de Página inclui tanto um seletor de tema de fundo com um controlo deslizante de opacidade (0–1 em passos de 0,05) como um seletor de tema de moldura com o seu próprio controlo de opacidade independente. Os temas de fundo adicionam padrões decorativos atrás da quadrícula de coordenadas e das instruções direcionais, enquanto os temas de moldura enquadram a página. Ambos têm controlos de opacidade separados para que possa criar fundos subtis com molduras proeminentes, ou qualquer combinação que se ajuste ao seu design. Estes elementos visuais aumentam a qualidade percebida das suas atividades de caça ao tesouro para listagens em marketplaces.',
     },
     {
-      question: 'Posso vender atividades de caça ao tesouro criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de caça ao tesouro como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para loja na Hotmart ou através de qualquer outro canal de venda. Os dois tipos de direção, a quadrícula de coordenadas 5×5, as pistas direcionais localizadas, os gabaritos autogerados e as 104 coleções temáticas de imagens dão-lhe as ferramentas criativas para produzir produtos originais e vendáveis de puzzles de procura de caminho.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licença comercial. Pode testar ambos os tipos de direção, a quadrícula de coordenadas 5×5, a geração de puzzles com 6 imagens, o gabarito autogerado, a biblioteca completa de imagens, temas de fundo e moldura, e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença.',

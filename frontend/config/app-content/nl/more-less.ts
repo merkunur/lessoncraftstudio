@@ -189,16 +189,6 @@ const content: AppContent = {
         'Ja. Je hebt toegang tot alle functies van de generator — alle drie vergelijkingsmodi, de volledige afbeeldingenbibliotheek, antwoordbladgeneratie en alle exportformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
     },
     {
-      question: 'Wat is inbegrepen bij de commerciële licentie?',
-      answer:
-        'De commerciële licentie verwijdert het watermerk van alle downloads en verleent je onbeperkte rechten om de werkbladen die je maakt te verkopen — op Etsy, Amazon KDP, Gumroad, je eigen website of elk ander platform. Er zijn geen royalty\'s per verkoop, geen maandelijkse kosten en geen limiet op het aantal werkbladen dat je produceert of verkoopt.',
-    },
-    {
-      question: 'Kan ik werkbladen die ik met deze tool maak verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je alle rechten om je vergelijkingswerkbladen te verkopen als digitale downloads op Etsy, als activiteitenboeken op Amazon KDP, als leermaterialen op Gumroad of via elk ander verkoopkanaal. Veel verkopers maken themapakketten en activiteitenboeken die consistent omzet genereren. Je kunt vergelijkingswerkbladen ook combineren met andere typen rekenwerkbladen — zoals optellen of aftrekken — om uitgebreide rekenpakketten te bouwen die hogere prijzen aantrekken en kopers aanspreken die op zoek zijn naar alles-in-één materiaal.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot alle functies, bieden we geen restituties op commerciële licentieaankopen. Je kunt elke modus, elk thema, elk exportformaat en elk paginaformaat testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool bij je behoeften past voordat je een licentie aanschaft. We raden aan om tijdens je gratis proefversie meerdere complete werkbladen te maken, de printkwaliteit en lay-outopties te bekijken, en te bevestigen dat de uitvoer voldoet aan je marktplaatsvermeldingsstandaarden voordat je de commerciële licentie koopt.',

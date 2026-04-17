@@ -198,11 +198,6 @@ const content: AppContent = {
         'Nee. Plaatjes sudoku is volledig visueel — het puzzelraster bevat alleen afbeeldingen, geen woorden of cijfers. Dit maakt elk werkblad identiek werkend in alle 11 ondersteunde talen. Het enige gelokaliseerde element is de automatisch gegenereerde "Plaatjes Sudoku" koptekst boven het raster, die automatisch vertaalt wanneer je van taal wisselt. De puzzel zelf vereist nul aanpassing voor verschillende markten, waardoor plaatjes sudoku ideaal is voor wereldwijde verkoop — één bestand, elke markt.',
     },
     {
-      question: 'Kan ik plaatjes sudoku werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je plaatjes sudoku werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De drie moeilijkheidsniveaus, 104 thematische beeldcollecties en het puur visuele formaat geven je de creatieve tools om originele, wereldwijd verkoopbare sudoku-producten te produceren.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden we geen restituties op commerciële licentie-aankopen. Je kunt alle drie moeilijkheidsniveaus, themagebonden en handmatige beeldselectie, het automatisch gegenereerde antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema\'s, teksttools en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

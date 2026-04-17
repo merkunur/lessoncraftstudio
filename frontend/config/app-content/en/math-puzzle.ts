@@ -196,11 +196,6 @@ const content: AppContent = {
         'Yes. You can access every feature — all three operations, all grid sizes, the full image library, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
-      question: 'What does the commercial license include?',
-      answer:
-        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many puzzles you produce or sell. You retain full ownership of every worksheet you generate, and you can list products across multiple marketplaces simultaneously without any additional licensing fees or platform restrictions.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every operation, every grid size, every theme, and every export format before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

@@ -193,11 +193,6 @@ const content: AppContent = {
         'Sim. O painel Configuração de Página inclui um seletor de tema de fundo com um controlo deslizante de opacidade (de 0 a 1 em passos de 0,05) e um seletor de tema de borda com o seu próprio controlo deslizante de opacidade independente. Os temas de fundo adicionam padrões decorativos atrás do conteúdo de classificação, enquanto os temas de borda emolduram a página. Ambos têm controlos de opacidade separados para criar fundos subtis com bordas pronunciadas, ou qualquer combinação que se adeque ao seu design.',
     },
     {
-      question: 'Posso vender atividades de classificação criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de classificação como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. O mecanismo de classificação a duas categorias, os gabaritos autogerados e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de atividades de classificação originais e vendáveis.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar a seleção de categorias temática e manual, o número de imagens configurável, o gabarito autogerado, a biblioteca de imagens completa, os temas de fundo e de borda, os campos de nome/data e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',

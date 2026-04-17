@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. The Find Objects Generator is visual-only — it does not load localized image names or use the Image Vocabulary system. Language settings affect only the UI labels (buttons, panel titles, tooltips), NOT the content of the worksheets themselves. This means every generated worksheet works universally across all languages without any localized text on the page, making your products sellable in any market without modifications.',
     },
     {
-      question: 'Can I sell hidden object worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your hidden object worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as digital products on Gumroad, or through any other sales channel. The two activity modes, zero-overlap scene generation, and 104 themed image collections give you the creative tools to produce original, sellable hidden object products.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both activity modes, the zero-overlap placement algorithm, configurable object counts, the auto-generated answer key, the full image library, background and border themes, name and date fields, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

@@ -195,11 +195,6 @@ const content: AppContent = {
         'Nej. Skrivövning-generatorn är ett visuellt handstilsövningsverktyg — bokstavsformer, streckordningspilar och övningslägen ändras inte efter språk. Gränssnittsetiketterna översätts till alla 11 språk som stöds, och bildbiblioteket ger lokaliserade bildnamn för innehållskällor, men den grundläggande handstilsövningsfunktionaliteten är densamma oavsett språk. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk.',
     },
     {
-      question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina skrivövningsarbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som lärarresurser på Gumroad eller genom valfri annan försäljningskanal. De tre övningslägena, fem typsnittsstilarna, pilguidad streckordning och förskrivningsstreck ger dig stark differentiering i trånga marknadsplatskategorier.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje övningsläge, varje typsnittsstil, förskrivningsstreck, varje innehållskälla, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

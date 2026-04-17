@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nej. Rutmatchning är rent visuellt — pusselresultatet innehåller bara bildplattor och siffror, utan lokaliserat ordinnehåll på själva arbetsbladet. Appgränssnittet (menyer, knappar, rubriktext) stöder alla 11 språk, men det genererade pusslet fungerar identiskt oavsett språkval. Detta gör rutmatchningspussel universellt säljbara på alla marknader utan översättning. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk.',
     },
     {
-      question: 'Kan jag sälja rutmatchningspussel skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina rutmatchningspussel som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De konfigurerbara rutnätsstorlekarna, justerbara ledtrådscellerna, automatiskt genererade facit och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara rutnätspussel-produkter.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla rutnätsstorlekar, ledtrådscellkonfigurationer, det automatiskt genererade facit med numrerade överlägg, hela bildbiblioteket, bakgrunds- och ramteman, uppladdning av egna bilder, textverktyg och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

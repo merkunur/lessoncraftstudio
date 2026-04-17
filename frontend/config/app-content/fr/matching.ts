@@ -192,11 +192,6 @@ const content: AppContent = {
         'Oui. Le panneau Mise en Page inclut à la fois un sélecteur de thème de fond avec un curseur d\'opacité (de 0 à 1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d\'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière le contenu d\'association, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d\'opacité séparés pour créer des fonds subtils avec des bordures bien visibles, ou toute combinaison adaptée à votre design. Ces éléments visuels augmentent la qualité perçue de vos fiches d\'association pour les annonces sur les marketplaces.',
     },
     {
-      question: 'Puis-je vendre les fiches d\'association créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'association en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les quatre modes d\'association, les corrigés générés automatiquement et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits d\'activités d\'association originaux et vendables.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les quatre modes d\'association, le corrigé généré automatiquement, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les champs nom/date, les numéros d\'éléments, les puces décoratives et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil correspond à vos besoins avant d\'acheter une licence.',

@@ -193,11 +193,6 @@ const content: AppContent = {
         'Nein. Anders als bei Apps, die Wörter auf dem Arbeitsblatt anzeigen, sind Was-passt-nicht-Rätsel vollständig visuell — kein Text erscheint auf dem Rätselinhalt selbst. Der automatisch generierte Header (\"Finde den Ausreißer\") übersetzt sich in alle 11 unterstützten Sprachen, aber die eigentlichen Übungen enthalten nur Bilder. Das bedeutet, jedes Arbeitsblatt funktioniert in jeder Sprache ohne Anpassung, was Was-passt-nicht-Rätsel ideal für globale Marktplatz-Verkäufe macht. Ein in Deutschland erstelltes Arbeitsblatt funktioniert identisch für Käufer in Frankreich, den USA, Japan oder Brasilien.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Was-passt-nicht-Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Was-passt-nicht-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die zwei Erzeugungsmodi, Modus-Überschreibung pro Übung und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Produkte zur visuellen Unterscheidung zu erstellen.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Erzeugungsmodi, das Modus-Überschreibungssystem pro Übung, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Name-und-Datum-Felder, Übungsnummern und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Arbeitsblätter wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität, bevor Sie sich für einen Kauf entscheiden.',

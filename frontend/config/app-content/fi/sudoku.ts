@@ -174,11 +174,6 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — kaikkia kolmea vaikeustasoa, teemapohjaista ja manuaalista kuvavalintaa, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, tekstityökaluja ja kaikkia latausmuotoja — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun latauksissa on pieni vesileima. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja kuvasudoku-työlehtiä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kuvasudoku-työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, digitaalisina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kolme vaikeustasoa, 104 temaattista kuvakokoelmaa ja puhtaasti visuaalinen muoto antavat sinulle luovat työkalut alkuperäisten, globaalisti myytävien sudoku-tuotteiden tuottamiseen.',
-    },
-    {
       question: 'Sopivatko sudokutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Pienet kuvasudokut (4×4) sopivat esiopetukseen ja alkuopetukseen, keskikokoiset (6×6) alakoulun alaluokille ja täysikokoiset (9×9) ylemmille luokille. Kuvapohjaiset sudokut eivät vaadi numerotuntemusta.',

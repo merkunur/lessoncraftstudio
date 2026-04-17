@@ -193,11 +193,6 @@ const content: AppContent = {
         'No. A diferencia de aplicaciones que muestran palabras en la ficha, los puzzles del intruso son totalmente visuales — no aparece ningún texto en el contenido del puzzle. El encabezado autogenerado (\"Encuentra el Diferente\") se traduce a los 11 idiomas soportados, pero los ejercicios reales contienen solo imágenes. Esto significa que cada ficha funciona en cualquier idioma sin modificación, haciendo de los puzzles del intruso una opción ideal para ventas en marketplaces globales.',
     },
     {
-      question: '¿Puedo vender fichas del intruso creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene plenos derechos para vender sus fichas del intruso como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart o a través de cualquier otro canal de ventas. Los dos modos de generación, las anulaciones por ejercicio y las 104 colecciones de imágenes temáticas te proporcionan las herramientas creativas para producir productos de discriminación visual originales y vendibles.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Como la prueba gratuita le da acceso a cada función, no ofrecemos reembolsos en compre de licencia comercial. Puede probar ambos modos de generación, el sistema de anulación por ejercicio, la clave de respuestas autogenerada, la biblioteca de imágenes completa, temas de fondo y borde, campos de nombre/fecha, números de ejercicio y todos los formatos de descargue antes de comprar. La prueba gratuita es la política de reembolso — asegúrese de que la herramienta satisface sus necesidades antes de adquirir una licencia.',

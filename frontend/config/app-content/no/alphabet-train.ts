@@ -178,16 +178,6 @@ const content: AppContent = {
         'Ja. Du har tilgang til alle funksjoner — begge opprettelsesmodusene, det komplette bildebiblioteket, alle ledetrådinnstillinger, fasitgenerering og alle eksportformater — uten å opprette en konto, oppgi kredittkort eller installere programvare. Nedlastinger fra den gratis prøveversjonen inneholder et lite vannmerke. En kommersiell lisens fjerner vannmerket og gir fulle salgsrettigheter.',
     },
     {
-      question: 'Hva er inkludert i den kommersielle lisensen?',
-      answer:
-        'Den Kommersielle lisensen tilbyr vannmerkefrie engelske eksporter med fulle salgsrettigheter. Full Tilgang-lisensen legger til alle 11 språk med egne alfabeter, noe som multipliserer produktkatalogen din. Begge lisensnivåene gir ubegrensede rettigheter til å selge på Etsy, Amazon KDP, Gumroad, din egen nettside eller enhver annen plattform — ingen royalties per salg, ingen månedlige avgifter og ingen produksjonsbegrensninger.',
-    },
-    {
-      question: 'Kan jeg selge arbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du alle rettigheter til å selge alfabettog arbeidsarkene dine som digitale nedlastinger på Etsy, som trykte aktivitetsbøker på Amazon KDP, som pedagogiske utskriftsbare produkter på Gumroad, eller via enhver annen salgskanal. Det unike togformatet og den flerspråklige evnen gir deg sterk differensiering i trengte markedsplasskategorier.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste begge opprettelsesmodusene, hver ledetrådinnstilling, hvert tema og hvert eksportformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet oppfyller behovene dine før du anskaffer en lisens.',

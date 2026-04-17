@@ -194,11 +194,6 @@ const content: AppContent = {
         'No. El Puzzle de Cuadrícula es puramente visual — el resultado del puzzle contiene solo casillas de imágenes y números, sin contenido textual localizado en la ficha. La interfaz de la aplicación (menús, botones, texto del encabezado) soporta los 11 idiomas, pero el puzzle generado funciona de forma idéntica independientemente de la selección de idioma. Esto hace que los puzzles de cuadrícula sean universalmente vendibles en todos los mercados sin traducción. La Licencia Comercial incluya 10 temas coloridos; el Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz.',
     },
     {
-      question: '¿Puedo vender puzzles de cuadrícula creados con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus puzzles de cuadrícula como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart, o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, las casillas-pista ajustables, las claves de respuesta generadas automáticamente y las 104 colecciones de imágenes temáticas le dan las herramientas creativas para producir productos de puzzles de cuadrícula originales y vendibles.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Como la prueba gratis le da acceso a todas las funciones, no ofrecemos reembolsos en las compre de licencia comercial. Puede probar todos los tamaños de cuadrícula, las configuraciones de casillas-pista, la clave de respuesta generada automáticamente con los círculos numerados, la biblioteca de imágenes completa, los temas de fondo y de borde, la subida de imágenes personalizadas, las herramientas de texto y todos los formatos de descargue antes de comprar. La prueba gratis es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de adquirir una licencia.',

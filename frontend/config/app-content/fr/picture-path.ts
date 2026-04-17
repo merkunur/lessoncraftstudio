@@ -197,11 +197,6 @@ const content: AppContent = {
         'Non. Contrairement aux générateurs basés sur les mots, les fiches Chemin d\'Images sont entièrement visuelles. Les utilisateurs naviguent dans des labyrinthes et suivent des chemins d\'images sans lire aucun texte. L\'en-tête auto-généré se traduit dans 11 langues, mais le contenu du labyrinthe lui-même ne nécessite aucune compréhension linguistique. Cela rend chaque fiche instantanément utilisable et vendable sur n\'importe quel marché mondial sans modification.',
     },
     {
-      question: 'Puis-je vendre des fiches labyrinthes créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez les droits complets pour vendre vos fiches labyrinthes en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources de classe sur Gumroad ou via tout autre canal de vente. Les trois modes de jeu, l\'algorithme LPF, les 104 collections d\'images thématiques et le format purement visuel vous donnent les outils pour produire des produits labyrinthes originaux et vendables dans le monde entier.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à chaque fonctionnalité, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les trois modes de jeu, l\'algorithme LPF, les cinq rôles d\'images, la personnalisation des murs, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les champs nom/date et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil correspond à vos besoins avant d\'acheter une licence.',

@@ -197,11 +197,6 @@ const content: AppContent = {
         'Ja. Du kan använda alla funktioner — alla tre innehållskällor, alla visningslägen, hela bildbiblioteket, justerbara rutnätsstorlekar, riktningskontroller, färgkodade facit och alla exportformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.',
     },
     {
-      question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina ordletararbetsblad som digitala nedladdningar på Etsy, som tryckta pusselböcker på Amazon KDP, som lärarresurser på Gumroad eller genom valfri annan försäljningskanal. De justerbara rutnätsstorlekarna, riktningskontrollerna och den flerspråkiga kapaciteten ger dig stark differentiering i trånga marknadsplatskategorier.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje innehållskälla, varje rutnätsstorlek, varje riktningsinställning, varje visningsläge, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

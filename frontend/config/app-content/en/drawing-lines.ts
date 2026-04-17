@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. Drawing Lines is a purely visual app — worksheets contain only images, line paths, and decorative borders with zero text on the output, so they are identical in every language. Changing the language only affects the UI labels and image library content labels in the generator interface, not the worksheet content. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages.',
     },
     {
-      question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your line tracing worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as products on Gumroad, or through any other sales channel. The eight line templates, 104 image themes, and fully visual format give you strong differentiation and global sellability in marketplace categories.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every line template, every image theme, the auto-fill feature, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

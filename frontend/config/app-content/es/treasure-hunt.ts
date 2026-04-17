@@ -189,11 +189,6 @@ const content: AppContent = {
         'Sí. El panel de Configuración de Página incluya tanto un selector de tema de fondo con un control deslizante de opacidad (0–1 en pasos de 0,05) como un selector de tema de borde con su propio control de opacidad independiente. Los temas de fondo añaden patrones decorativos detrás de la cuadrícula de coordenadas y las instrucciones direccionales, mientras que los temas de borde enmarcan la página. Ambos tienen controles de opacidad separados para que puedas crear fondos sutiles con bordes prominentes, o cualquier combinación que se ajusta a su diseño. Estos elementos visuales aumentan la calidad percibida de sus fichas de búsqueda del tesoro para listados en marketplaces.',
     },
     {
-      question: '¿Puedo vender fichas de búsqueda del tesoro hechas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de búsqueda del tesoro como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart, o a través de cualquier otro canal de venta. Los dos tipos de dirección, la cuadrícula de coordenadas 5×5, las pistas direccionales localizadas, las claves de respuestas autogeneradas y las 104 colecciones temáticas de imágenes le dan las herramientas creativas para producir productos originales y vendibles de puzzles de búsqueda de caminos.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Dado que la prueba gratuita le da acceso a todas las funciones, no ofrecemos reembolsos en compre de licencias comerciales. Puede probar ambos tipos de dirección, la cuadrícula de coordenadas 5×5, la generación de puzzles con 6 imágenes, la clave de respuestas autogenerada, la biblioteca completa de imágenes, temas de fondo y borde, y todos los formatos de descargue antes de comprar. La prueba gratuita es la política de reembolso — asegúrese de que la herramienta se ajusta a sus necesidades antes de adquirir una licencia.',

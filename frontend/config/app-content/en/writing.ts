@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. The Writing generator is a visual handwriting practice tool — letter shapes, stroke-order arrows, and practice modes do not change by language. The UI labels translate into all 11 supported languages, and the image library provides localized image names for content sources, but the core handwriting practice functionality is the same regardless of language. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages.',
     },
     {
-      question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your handwriting worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as products on Gumroad, or through any other sales channel. The three practice modes, five font styles, arrow stroke order, and pre-writing strokes give you strong differentiation in crowded marketplace categories.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every practice mode, every font style, pre-writing strokes, every content source, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

@@ -188,16 +188,6 @@ const content: AppContent = {
         'Ja. Je hebt toegang tot alle functies — beide modi, alle symboolhoeveelheden, de volledige afbeeldingenbibliotheek, Onthuld Woord in alle elf talen, antwoordsleutelgeneratie en alle exportformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
     },
     {
-      question: 'Wat is inbegrepen bij de commerciële licentie?',
-      answer:
-        'De commerciële licentie verwijdert het watermerk van alle downloads en verleent je onbeperkte rechten om de werkbladen die je maakt te verkopen — op Etsy, Amazon KDP, Gumroad, je eigen website of elk ander platform. Er zijn geen royalty\'s per verkoop, geen maandelijkse kosten en geen limiet op het aantal werkbladen dat je produceert of verkoopt.',
-    },
-    {
-      question: 'Kan ik de werkbladen die ik met deze tool maak verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je alle rechten om je gecodeerde optellen werkbladen te verkopen als digitale downloads op Etsy, als puzzelboeken op Amazon KDP, als educatieve bronnen op Gumroad of via elk ander verkoopkanaal. Het codekraakformaat is een beproefd product omdat het opvalt tussen standaard optelwerkbladen in de zoekresultaten van marktplaatsen.',
-    },
-    {
       question: 'Moet ik software installeren?',
       answer:
         'Nee. De Gecodeerde Optellen Werkbladen Generator draait volledig in je webbrowser. Er is niets om te downloaden, te installeren of bij te werken. Het werkt op elke moderne desktopbrowser, inclusief Chrome, Firefox, Safari en Edge. Open gewoon de pagina en begin met het maken van wiskundige codekraak-puzzels.',

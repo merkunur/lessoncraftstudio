@@ -196,11 +196,6 @@ const content: AppContent = {
         'Ja. Het paneel Pagina-instellingen bevat zowel een achtergrondthema-selector met een dekkingsschuifregelaar (0–1 in stappen van 0,05) als een kaderthema-selector met een eigen onafhankelijke dekkingsschuifregelaar. Achtergrondthema\'s voegen decoratieve patronen toe achter het bingoraster, terwijl kaderthema\'s de pagina omlijsten. Het afroepblad neemt paginakaders en achtergrond over van het hoofdcanvas. Beide hebben aparte dekkingsregelaars zodat je subtiele achtergronden kunt combineren met opvallende kaders, of elke andere combinatie die bij je ontwerp past.',
     },
     {
-      question: 'Kan ik bingokaarten gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je bingokaarten te verkopen als digitale downloads op Etsy, als gedrukte activiteitenboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De configureerbare rasterformaten, batchgeneratie, ZIP-export, dubbele vulmodi, afroepbladen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare bingoproducten op schaal te produceren.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden wij geen restituties aan op aankopen van commerciële licenties. Je kunt alle rasterformaten, batchgeneratie, ZIP-export, afbeeldings- en woordvullingsmodi, het afroepblad, de volledige afbeeldingenbibliotheek, aangepaste afroepselectie, achtergrond- en kaderthema\'s, teksttools en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg dat de tool bij je behoeften past voordat je een licentie aanschaft.',

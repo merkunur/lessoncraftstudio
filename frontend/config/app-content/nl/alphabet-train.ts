@@ -191,16 +191,6 @@ const content: AppContent = {
         'Ja. Je hebt toegang tot alle functies — beide aanmaakmodi, de volledige afbeeldingenbibliotheek, alle aanwijzingsinstellingen, antwoordbladgeneratie en alle exportformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
     },
     {
-      question: 'Wat bevat de commerciële licentie?',
-      answer:
-        'De Commerciële licentie biedt watermerkvrije Engelse exports met volledige verkooprechten. De Volledige Toegang-licentie voegt alle 11 talen met hun eigen alfabetten toe, waardoor je productcatalogus wordt vermenigvuldigd. Beide licentieniveaus verlenen onbeperkte rechten om te verkopen op Etsy.nl, Amazon KDP, Gumroad, Bol.com, je eigen website of elk ander platform — geen royalty\'s per verkoop, geen maandelijkse kosten en geen productielimieten.',
-    },
-    {
-      question: 'Kan ik werkbladen die ik met deze tool maak verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je alle rechten om je alfabettrein werkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte activiteitenboeken op Amazon KDP, als educatieve leermiddelen op Gumroad, via Bol.com of via elk ander verkoopkanaal. Het unieke treinformaat en de meertalige mogelijkheid geven je sterke getrapte productpakketten in drukbezette marktplaatscategorieën.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot alle functies, bieden wij geen restituties aan op aankopen van commerciële licenties. Je kunt beide aanmaakmodi, elke aanwijzingsinstelling, elk thema en elk exportformaat testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft. Deze aanpak garandeert dat je elke functie, elk exportformaat en elke themacombinatie kunt evalueren voordat je een aankoopbeslissing neemt, zodat je volledig vertrouwen hebt in je investering.',

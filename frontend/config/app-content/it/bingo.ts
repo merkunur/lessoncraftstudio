@@ -196,11 +196,6 @@ const content: AppContent = {
         'Sì. Il pannello Impostazione Pagina include un selettore di tema di sfondo con un cursore di opacità (da 0 a 1 in passi di 0,05) e un selettore di tema di bordo con il proprio cursore di opacità indipendente. I temi di sfondo aggiungono pattern decorativi dietro la griglia di bingo, mentre i temi di bordo incorniciano la pagina. Il foglio di richiamo eredita i bordi e lo sfondo dal canvas principale. Entrambi hanno controlli di opacità separati per creare sfondi sottili con bordi prominenti, o qualsiasi combinazione che si adatti al tuo design.',
     },
     {
-      question: 'Posso vendere cartelle di bingo create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue cartelle di bingo come download digitali su Etsy, come quaderni di attività stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Le dimensioni di griglia configurabili, la generazione in lotto, l\'esportazione ZIP, le doppie modalità di riempimento, i fogli di richiamo e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di bingo originali e vendibili su scala.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare tutte le dimensioni di griglia, la generazione in lotto, l\'esportazione ZIP, le modalità di riempimento immagini e parole, il foglio di richiamo, la libreria immagini completa, la selezione personalizzata di richiamo, i temi di sfondo e di bordo, gli strumenti di testo e tutti i formati di download prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento sia adatto alle tue esigenze prima di acquistare una licenza.',

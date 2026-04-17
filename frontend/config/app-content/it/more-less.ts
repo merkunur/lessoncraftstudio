@@ -189,16 +189,6 @@ const content: AppContent = {
         'Sì. Puoi accedere a tutte le funzionalità del generatore — le tre modalità di confronto, la libreria completa di immagini, la generazione delle soluzioni e tutti i formati di esportazione — senza creare un account, inserire carta di credito o installare alcun software. I download della prova gratuita includono una piccola filigrana. Una licenza commerciale rimuove la filigrana e concede pieni diritti di vendita.',
     },
     {
-      question: 'Cosa include la licenza commerciale?',
-      answer:
-        'La licenza commerciale rimuove la filigrana da tutti i download e ti concede diritti illimitati per vendere le schede che crei — su Etsy, Amazon KDP, Gumroad, sul tuo sito o su qualsiasi altra piattaforma. Non ci sono royalty per vendita, nessun canone mensile e nessun limite alla quantità di schede che produci o vendi.',
-    },
-    {
-      question: 'Posso vendere le schede create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di confronto come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Molti venditori creano pacchetti tematici e libri di attività che generano entrate costanti. Puoi anche combinare schede di confronto con altri tipi di schede di matematica — come addizione o sottrazione — per creare pacchetti completi di pratica che raggiungono prezzi più alti e attirano acquirenti in cerca di risorse complete.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare ogni modalità, ogni tema, ogni formato di esportazione e ogni dimensione di pagina prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento si adatti alle tue esigenze prima di acquistare una licenza. Ti consigliamo di creare diverse schede complete durante la tua prova gratuita, verificare la qualità di stampa e le opzioni di layout, e confermare che il risultato soddisfi gli standard dei tuoi annunci prima di acquistare la licenza commerciale.',

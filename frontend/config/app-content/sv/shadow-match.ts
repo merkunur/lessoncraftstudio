@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nej. Skuggmatchning är rent visuellt — arbetsbladets resultat innehåller bara bilder, siluetter och delade halvor utan lokaliserat ordinnehåll. Appgränssnittet (menyer, knappar, rubriktext) stöder alla 11 språk, men det genererade arbetsbladet fungerar identiskt oavsett språkval. Detta gör skuggmatchnings arbetsblad universellt säljbara på alla marknader utan översättning. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk.',
     },
     {
-      question: 'Kan jag sälja skuggmatchnings arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina skuggmatchnings arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De två övningslägena, automatiskt genererade siluetter, derangeringsalgoritmen, autofacit och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara visuella matchningsprodukter.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda övningslägena, automatiskt genererade siluetter, klippriktningsval, facit, hela bildbiblioteket, bakgrunds- och ramteman, etikettväxling, namn/datum-fält, textverktyg och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

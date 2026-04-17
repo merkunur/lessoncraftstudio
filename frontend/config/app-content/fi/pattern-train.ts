@@ -195,11 +195,6 @@ const content: AppContent = {
         'Ei. Kuviojuna on puhtaasti visuaalinen sovellus — työarkit sisältävät vain kuvia junavaunuissa nollatekstillä tuloksessa. Kielen vaihtaminen vaikuttaa vain käyttöliittymäetiketteihin ja kuvakirjaston sisältökieliin. Kaupallinen Paketti sisältää 10 värikästä teemaa; Täysi Pääsy avaa kaikki 104 teemaa ja kaikki 11 käyttöliittymäkieltä.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kuviojunatyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
-    },
-    {
       question: 'Sopivatko kuviotehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Yksinkertaiset AB-kuviot sopivat esiopetukseen (6-vuotiaat), ABC-kuviot alkuopetukseen ja monimutkaisemmat ABCD-kuviot alakouluun. Kuviojunan visuaalinen muoto tekee sarjoittamisesta konkreettista.',

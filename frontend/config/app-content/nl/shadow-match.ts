@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nee. Schaduw Koppelen is puur visueel — de werkbladuitvoer bevat alleen afbeeldingen, silhouetten en gesplitste helften zonder gelokaliseerde woordinhoud. De app-interface (menu\'s, knoppen, koptekst) ondersteunt alle 11 talen, maar het gegenereerde werkblad werkt identiek ongeacht taalselectie. Dit maakt schaduw koppelen werkbladen universeel verkoopbaar op alle markten zonder vertaling. De Commerciële licentie bevat 10 kleurrijke thema\'s; Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 UI-talen.',
     },
     {
-      question: 'Kan ik schaduw koppelen werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je schaduw koppelen werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De twee oefenmodi, automatisch gegenereerde silhouetten, derangement-algoritme, automatische antwoordbladen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare visuele koppelproducten te produceren.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden wij geen restituties aan op aankopen van commerciële licenties. Je kunt beide oefenmodi, automatisch gegenereerde silhouetten, snijrichtingopties, het antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema\'s, labels-schakelaar, naam-/datumvelden, teksttools en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg dat de tool bij je behoeften past voordat je een licentie aanschaft.',

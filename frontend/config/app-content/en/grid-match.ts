@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. Grid Match is purely visual — the puzzle output contains only image tiles and numbers, with no localized word content on the worksheet itself. The app interface (menus, buttons, header text) supports all 11 languages, but the generated puzzle works identically regardless of language selection. This makes grid match puzzles universally sellable across all markets without translation. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages.',
     },
     {
-      question: 'Can I sell grid match puzzles made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your grid match puzzles as digital downloads on Etsy, as printed workbooks on Amazon KDP, as digital products on Gumroad, or through any other sales channel. The configurable grid sizes, adjustable clue cells, auto-generated answer keys, and 104 themed image collections give you the creative tools to produce original, sellable grid puzzle products.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all grid sizes, clue cell configurations, the auto-generated answer key with numbered overlays, the full image library, background and border themes, custom image uploads, text tools, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

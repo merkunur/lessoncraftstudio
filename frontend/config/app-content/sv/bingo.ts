@@ -194,11 +194,6 @@ const content: AppContent = {
         'Ja. Panelen Sidinställningar inkluderar både en bakgrundstema-väljare med ett opacitetsreglage (0–1 i 0,05-steg) och en ramtema-väljare med sitt eget oberoende opacitetsreglage. Bakgrundsteman lägger till dekorativa mönster bakom bingorutnätet, medan ramteman ramar in sidan. Uppropslistan ärver sidramar och bakgrund från huvudarbetsytan. Båda har separata opacitetskontroller så du kan skapa subtila bakgrunder med framträdande ramar, eller valfri kombination som passar din design.',
     },
     {
-      question: 'Kan jag sälja bingokort skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina bingokort som digitala nedladdningar på Etsy, som tryckta aktivitetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De konfigurerbara rutnätsstorlekarna, batch-generering, ZIP-export, dubbla fyllningslägen, uppropslistor och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara bingoprodukter i stor skala.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla rutnätsstorlekar, batch-generering, ZIP-export, bild- och ordfyllningslägen, uppropslistan, hela bildbiblioteket, anpassat uppropsurval, bakgrunds- och ramteman, textverktyg och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

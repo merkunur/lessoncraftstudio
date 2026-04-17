@@ -190,16 +190,6 @@ const content: AppContent = {
         'Sim. Pode aceder a todas as funcionalidades — os quatro níveis de dificuldade, ambos os modos de operação, a biblioteca completa de imagens, a geração de gabaritos e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d\'água. Uma licença comercial remove a marca d\'água e concede direitos completos de venda.',
     },
     {
-      question: 'O que inclui a licença comercial?',
-      answer:
-        'A licença comercial remove a marca d\'água de todos os downloads e concede-lhe direitos ilimitados para vender as atividades que criar — na Hotmart, Etsy, Amazon KDP, no seu próprio site ou em qualquer outra plataforma. Não há royalties por venda, não há taxas mensais e não há limites na quantidade de atividades que produzir ou vender.',
-    },
-    {
-      question: 'Posso vender atividades criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender os seus puzzles algébricos como downloads digitais na Etsy, como livros de atividades impressos na Amazon KDP, como produtos imprimíveis na Hotmart ou através de qualquer outro canal de venda. Muitos vendedores criam pacotes classificados por dificuldade e livros de álgebra progressiva que geram receitas consistentes. Teste todas as funcionalidades com o teste grátis antes de comprar — o teste inclui todos os níveis de dificuldade, temas e formatos de exportação para que possa avaliar a qualidade do produto em primeira mão.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada nível de dificuldade, cada modo de operação, cada tema e cada formato de exportação antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença.',

@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nein. Bilder-Sudoku ist vollständig visuell — das Rätselraster enthält nur Bilder, keine Wörter oder Zahlen. Das bedeutet, jedes Arbeitsblatt funktioniert in allen 11 unterstützten Sprachen identisch. Das einzige lokalisierte Element ist der automatisch generierte \"Bilder-Sudoku\"-Header-Text über dem Raster, der sich beim Sprachenwechsel automatisch übersetzt. Das Rätsel selbst benötigt keinerlei Anpassung für verschiedene Märkte, was es ideal für globale Marktplatz-Verkäufe macht. Ein in Deutschland erstelltes Rätsel verkauft sich identisch in Frankreich, den USA, Japan oder Brasilien.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Bilder-Sudoku-Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Bilder-Sudoku-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die drei Schwierigkeitsgrade, 104 thematische Bildsammlungen und das rein visuelle Format geben Ihnen die kreativen Werkzeuge, um originale, weltweit verkaufbare Sudoku-Produkte zu erstellen.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle drei Schwierigkeitsgrade, themenbasierte und manuelle Bildauswahl, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Textwerkzeuge und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Rätsel wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität.',

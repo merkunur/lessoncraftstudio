@@ -183,11 +183,6 @@ const content: AppContent = {
         'Ja. Du kan bruke alle funksjoner — alle tre innholdskildene, alle visningsmodusene, hele bildebiblioteket, justerbare rutenettstørrelser, retningskontroller, fargekodede fasiter og alle eksportformater — uten å opprette en konto, oppgi kredittkort eller installere programvare. Nedlastinger fra den gratis prøveversjonen inneholder et lite vannmerke. En kommersiell lisens fjerner vannmerket og gir fulle salgsrettigheter.',
     },
     {
-      question: 'Kan jeg selge arbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge ordsøk-arbeidsarkene dine som digitale nedlastinger på Etsy, som trykte puslespillbøker på Amazon KDP, som pedagogiske ressurser på Gumroad eller via enhver annen salgskanal. De justerbare rutenettstørrelsene, retningskontrollene og den flerspråklige kapasiteten gir deg sterk differensiering i trengte markedsplasskategorier.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste hver innholdskilde, hver rutenettstørrelse, hver retningsinnstilling, hver visningsmodus, hvert eksportformat og hvert sideformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet passer til behovene dine før du anskaffer en lisens.',

@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. Unlike word-based generators, Picture Path worksheets are entirely visual. Solvers navigate mazes and follow image paths without reading any text. The auto-generated header translates into 11 languages, but the maze content itself requires no language comprehension. This makes every worksheet instantly usable and sellable in any market worldwide without modification.',
     },
     {
-      question: 'Can I sell maze worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your maze worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as digital products on Gumroad, or through any other sales channel. The three game modes, LPF algorithm, 104 themed image collections, and visual-only format give you the tools to produce original, globally sellable maze products.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all three game modes, the LPF maze algorithm, five image roles, wall customization, the auto-generated answer key, the full image library, background and border themes, name/date fields, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

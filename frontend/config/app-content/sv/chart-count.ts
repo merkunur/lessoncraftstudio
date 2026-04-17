@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nej. Diagramräkning Generatorn producerar visuella räknearbetsblad där användarna räknar bilder och fyller i stapeldiagramceller — siffror och bilder är universella. Att byta språk påverkar bara gränssnittsetiketterna i generatorn, den automatiskt genererade rubrikens titel och instruktioner, samt bildbiblioteksets innehållsetiketter. Arbetsbladets resultat i sig fungerar identiskt på varje språk. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk för gränssnittet.',
     },
     {
-      question: 'Kan jag sälja bilddiagram arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina bilddiagram arbetsblad som digitala nedladdningar på Etsy, som tryckta datafärdighets-arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. Dubbelarbetsyta-genereringen, automatiskt facit och 104 tematiska bildsamlingar ger dig verktygen för att producera originella, säljbara bilddiagram-produkter i stor skala.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa dubbelarbetsytan, bildsrutnätsgenerering, automatiskt facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält, gråskaleexport och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

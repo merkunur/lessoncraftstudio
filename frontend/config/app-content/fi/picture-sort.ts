@@ -194,11 +194,6 @@ const content: AppContent = {
         'Kyllä. Sivuasetukset-paneeli sisältää sekä taustateemanvalitsimen läpinäkyvyysliukusäätimellä (0–1 0,05:n välein) että kehysteemanvalitsimen omalla itsenäisellä läpinäkyvyysliukusäätimellään. Taustateemat lisäävät koristeellisia kuvioita lajittelusisällön taakse, kun taas kehysteemat kehystävät sivun. Molemmilla on erilliset läpinäkyvyyden säätimet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja lajittelutyölehtiä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä lajittelutyölehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotelinjaresursseina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kahden kategorian lajittelumekanismi, automaattisesti luodut vastausavaimet ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien lajittelutoimintatuotteiden tuottamiseen.',
-    },
-    {
       question: 'Sopivatko lajittelutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Lajittelutehtävät sopivat erinomaisesti esiopetukseen (yksinkertainen kahteen ryhmään lajittelu), alkuopetukseen (kolme tai useampi ryhmä) ja alakouluun (monimutkaisemmat luokittelukriteerit). Visuaalinen lajittelu ei vaadi lukutaitoa.',

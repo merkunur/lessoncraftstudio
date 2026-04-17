@@ -183,11 +183,6 @@ const content: AppContent = {
         'Nei. Fargeleggingsbilder Generatoren er en rent visuell app — resultatet består kun av bilder, tegninger og eventuell tekst du manuelt legger til. Å bytte språk påvirker bare brukergrensesnittetiketter i generatoren og bildebiblioteketiketene, ikke fargeleggingsbildets resultat. Kommersiell Pakke inkluderer 10 fargerike temaer; Full Tilgang låser opp alle 104 temaer og alle 11 brukergrensesnittspråk.',
     },
     {
-      question: 'Kan jeg selge fargeleggingsbilder laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge fargeleggingsbildene dine som digitale nedlastinger på Etsy, som trykte fargeleggingsboker på Amazon KDP, som produktlinjeressurser på Gumroad eller via enhver annen salgskanal. Det frie lerretet, frihåndstegningsverktøyet og 104 tematiske bildesamlinger gir deg de kreative verktoyene til å produsere originale, salgbare fargeleggingsbildeprodukter.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste det frie lerretet, hvert tegneverktoy, hele bildebiblioteket, produktlinjehjelperene, rammetemaer, gråtoneeksport og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

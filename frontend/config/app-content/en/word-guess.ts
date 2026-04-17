@@ -196,11 +196,6 @@ const content: AppContent = {
         'Yes. You can access every feature — all three content sources, all four difficulty levels, the full image library, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
-      question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your word guess worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as products on Gumroad, or through any other sales channel. The image-clue puzzle format and multilingual capability give you strong differentiation in crowded marketplace categories. Word guess puzzles fill a unique niche between word search and crossword formats, giving you product variety that most competing sellers overlook. Sellers who create themed bundles organized by difficulty level or vocabulary category build product lines with strong repeat purchase potential. The visual clue format appeals to both literacy learners and puzzle enthusiasts, expanding your addressable buyer audience beyond the educational printable market.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every content source, every difficulty level, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',    },

@@ -193,11 +193,6 @@ const content: AppContent = {
         'No. A diferencia de los generadores basados en palabras, las fichas de Camino de Imágenes son completamente visuales. Los usuarios navegan laberintos y siguen caminos de imágenes sin leer ningún texto. El encabezado generado automáticamente se traduce a 11 idiomas, pero el contenido del laberinto en sí no requiere comprensión lingüística. Esto hace que cada ficha sea utilizable y vendible instantáneamente en cualquier mercado del mundo sin modificación.',
     },
     {
-      question: '¿Puedo vender fichas de laberintos creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene derechos completos para vender sus fichas de laberintos como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los tres modos de juego, el algoritmo LPF, las 104 colecciones temáticas de imágenes y el formato completamente visual le dan las herramientas para producir productos de laberintos originales y vendibles a nivel global.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Dado que la prueba gratis le da acceso a todas las funciones, no ofrecemos reembolsos en compre de licencias comerciales. Puede probar los tres modos de juego, el algoritmo LPF de laberintos, cinco roles de imagen, personalización de paredes, la clave de respuesta automática, la biblioteca completa de imágenes, temas de fondo y borde, campos de nombre/fecha y todos los formatos de descargue antes de comprar. La prueba gratis es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de adquirir una licencia.',

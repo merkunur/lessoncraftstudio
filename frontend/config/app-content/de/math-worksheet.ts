@@ -190,16 +190,6 @@ const content: AppContent = {
         'Ja. Sie können jede Funktion des Generators nutzen — alle vier Schwierigkeitsstufen, beide Operationsmodi, die vollständige Bildbibliothek mit über 3.100 Illustrationen, automatische Lösungsschlüssel-Erstellung und alle Exportformate einschließlich Graustufen — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Der Generator läuft vollständig in Ihrem Webbrowser und funktioniert in jedem modernen Desktop-Browser wie Chrome, Firefox, Safari und Edge. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.',
     },
     {
-      question: 'Was beinhaltet die kommerzielle Lizenz?',
-      answer:
-        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy, Amazon KDP, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter. Sie erhalten eine einmalige Zahlung für lebenslangen Zugang — jedes Arbeitsblatt, das Sie erstellen und verkaufen, ist reiner Gewinn ohne laufende Kosten.',
-    },
-    {
-      question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Algebra-Bilderätsel-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Viele Verkäufer erstellen schwierigkeitsgestufte Pakete und progressive Algebra-Bücher, die konstantes skalierbares Einkommen generieren. Da die Arbeitsblätter rein visuell sind, können Sie dieselben Produkte gleichzeitig auf internationalen Etsy-Marktplätzen in mehreren Ländern anbieten.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jede Schwierigkeitsstufe, jeden Operationsmodus, jeden Zahlenbereich, jedes Thema aus der Bibliothek mit über 3.100 Bildern und jedes Exportformat einschließlich Graustufen vor dem Kauf vollständig testen. Erstellen Sie so viele Testblätter wie Sie möchten, um sicherzustellen, dass der Generator Ihren Anforderungen entspricht. Die kostenlose Testversion ist die Rückgabepolitik — der einzige Unterschied zur Vollversion ist das Wasserzeichen auf den Downloads.',

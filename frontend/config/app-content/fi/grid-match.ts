@@ -184,11 +184,6 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — kaikkia ruudukkokokoja, säädettäviä vihjesoluja, automaattista vastauslehteä numeroiduilla päällysteillä, täyttä kuvakirjastoa, tausta- ja kehysteemoja, omien kuvien latausta, tekstityökaluja ja kaikkia latausmuotoja — ilman tilin luomista, luottokorttia tai ohjelmiston asentamista. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja ruudukkoyhdistämispulmia Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä ruudukkoyhdistämispulmiasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
-    },
-    {
       question: 'Sopivatko ruutupiirrostehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Yksinkertaiset ruudukot sopivat esiopetukseen ja alkuopetukseen, monimutkaisemmat peilaus- ja kopiointitehtävät haastavat alakoulun oppilaita. Ruutupiirros kehittää visuaalista hahmottamista kaikilla ikätasoilla.',
@@ -207,11 +202,6 @@ const content: AppContent = {
       question: 'Sisältyvätkö vastaukset automaattisesti?',
       answer:
         'Kyllä. Jokainen ruutupiirrostehtävä sisältää automaattisesti luodun vastausavaimen, jossa malli on kopioitu valmiiksi ruudukkoon. Vastausavain on erillisellä sivulla.',
-    },
-    {
-      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä ruutupiirrostehtäviä digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
     },
     {
       question: 'Kuinka monella kielellä voin luoda tehtäviä?',

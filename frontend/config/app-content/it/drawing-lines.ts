@@ -194,11 +194,6 @@ const content: AppContent = {
         'No. Il Pregrafismo è un\'applicazione puramente visiva — le schede contengono solo immagini, tracciati di linee e bordi decorativi con zero testo nell\'output, quindi sono identiche in tutte le lingue. Cambiare la lingua influisce solo sulle etichette dell\'interfaccia del generatore e sulle etichette di contenuto della libreria immagini, non sulla scheda stessa. La Licenza Commerciale include 10 temi colorati; l\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia.',
     },
     {
-      question: 'Posso vendere schede create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di tracciamento linee come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Gli otto modelli di linee, i 104 temi di immagini e il formato completamente visivo ti conferiscono una forte differenziazione e vendibilità globale nelle categorie di schede.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare ogni modello di linea, ogni tema di immagini, il riempimento automatico, ogni formato di esportazione e ogni dimensione di pagina prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

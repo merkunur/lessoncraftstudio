@@ -195,11 +195,6 @@ const content: AppContent = {
         'No. Tren de Patrones es una aplicación puramente visual — las fichas contienen solo imágenes en los vagones con cero texto en la salida, por lo que son idénticas en todos los idiomas. Cambiar el idioma solo afecta las etiquetas de la interfaz del generador y las etiquetas de contenido de la biblioteca de imágenes, no la ficha en sí. La Licencia Comercial incluya 10 temas coloridos; el Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz.',
     },
     {
-      question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas tren de patrones como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Los cinco tipos de patrones, el número de pistas ajustable y el formato único en vagones de tren le ofrecen una fuerte diferenciación y vendibilidad global en las categorías de los marketplaces.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Al darte la prueba gratis acceso a todas las funciones, no ofrecemos reembolsos en las compre de licencia comercial. Puede probar cada tipo de patrón, cada ajuste de número de pistas, cada tema, cada formato de exportación y cada formato de página antes de comprar. La prueba gratis es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de adquirir una licencia.',

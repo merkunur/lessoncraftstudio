@@ -184,11 +184,6 @@ const content: AppContent = {
         'Ei. Piirustus ja Väritys on puhtaasti visuaalinen sovellus — työarkit sisältävät vain ruudukkokuvia nollatekstillä tuloksessa. Kaupallinen Paketti sisältää 10 mustavalkoista teemaa; Täysi Pääsy avaa kaikki yli 100 mustavalkoista teemaa ja kaikki 11 käyttöliittymäkieltä.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä ruudukkopiirrustustyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
-    },
-    {
       question: 'Sopivatko piirtämistehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Piirtämistehtävät sopivat kaikille ikäryhmille. Yksinkertaiset vaihe-vaiheelta-ohjeet sopivat esiopetukseen, monimutkaisemmat kuvat alkuopetukseen ja alakouluun. Piirtäminen ja väritys kehittävät hienomotoriikkaa ja luovuutta.',

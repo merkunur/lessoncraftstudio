@@ -191,16 +191,6 @@ const content: AppContent = {
         'Sí. Puede acceder a todas las funciones — ambos modos de ejercicio, las ocho preposiciones, la biblioteca completa de imágenes, todas las formas, la generación de claves de respuesta y todos los formatos de exportación — sin crear una cuenta, ingresar tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratuita incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.',
     },
     {
-      question: '¿Qué incluya la licencia comercial?',
-      answer:
-        'La Licencia Comercial proporciona exportaciones en inglés sin marca de agua con derechos completos de venta. La licencia de Acceso Completo añada los 11 idiomas con preposiciones, artículos y reglas gramaticales correctas, multiplicando su catálogo de productos. Ambos niveles otorgan derechos ilimitados para vender en Etsy, Amazon KDP, Hotmart, su propio sitio web o cualquier otra plataforma — sin regalías por venta, sin cuotas mensuales y sin límites de producción.',
-    },
-    {
-      question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de preposiciones como descargue digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. El formato de imágenes y formas y la capacidad multilingüe le ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Como la prueba gratuita le da acceso a todas las funciones, no ofrecemos reembolsos en compre de licencias comerciales. Puede probar ambos modos de ejercicio, cada preposición, cada tema, cada forma y cada formato de exportación antes de comprar. La prueba gratuita es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de adquirir una licencia.',

@@ -188,16 +188,6 @@ const content: AppContent = {
         'Sí. Puede acceder a todas las funciones — ambos modos, todas las cantidades de símbolos, la biblioteca completa de imágenes, Palabra Revelada en los once idiomas, generación de claves de respuesta y todos los formatos de exportación — sin crear una cuenta, ingresar tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratuita incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.',
     },
     {
-      question: '¿Qué incluya la licencia comercial?',
-      answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, su propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
-    },
-    {
-      question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de suma codificada como descargue digitales en Etsy, como cuadernos de puzzles impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. El formato de descifrar código es un producto probado porque se distingue de las fichas estándar de suma en los resultados de búsqueda de los mercados.',
-    },
-    {
       question: '¿Necesito instalar algún software?',
       answer:
         'No. El Generador de Fichas de Suma Codificada funciona completamente en su navegador web. No hay nada que descargar, instalar ni actualizar. Funciona en cualquier navegador de escritorio moderno, incluyendo Chrome, Firefox, Safari y Edge. Solo abra la página y empiece a crear puzzles matemáticos de descifrar código.',

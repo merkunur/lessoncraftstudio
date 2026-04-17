@@ -195,11 +195,6 @@ const content: AppContent = {
         'No. Il Generatore di Pagine da Colorare è un\'applicazione puramente visiva — l\'output consiste solo in immagini, disegni e qualsiasi testo aggiunto manualmente. Cambiare la lingua influisce solo sulle etichette dell\'interfaccia del generatore e sulle etichette del contenuto della libreria di immagini, non sull\'output della pagina da colorare. La Licenza Commerciale include 10 temi a colori; l\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia.',
     },
     {
-      question: 'Posso vendere pagine da colorare create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue pagine da colorare come download digitali su Etsy, come libri da colorare stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Il canvas a forma libera, lo strumento di disegno a mano libera e le 104 collezioni di immagini tematiche ti offrono gli strumenti creativi per produrre prodotti di pagine da colorare originali e vendibili.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare il canvas a forma libera, ogni strumento di disegno, la libreria di immagini completa, gli strumenti per il negozio, i temi di cornici, l\'esportazione in scala di grigi e tutti i formati di scaricamento prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

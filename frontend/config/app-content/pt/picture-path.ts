@@ -193,11 +193,6 @@ const content: AppContent = {
         'Não. Ao contrário dos geradores baseados em palavras, as atividades de Caminho de Imagens são completamente visuais. Os usuários navegam labirintos e seguem caminhos de imagens sem ler qualquer texto. O cabeçalho gerado automaticamente traduz-se para 11 idiomas, mas o conteúdo do labirinto em si não requer compreensão linguística. Isto torna cada atividade utilizável e vendível instantaneamente em qualquer mercado do mundo sem modificação.',
     },
     {
-      question: 'Posso vender atividades de labirintos criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de labirintos como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. Os três modos de jogo, o algoritmo LPF, as 104 coleções de imagens temáticas e o formato completamente visual dão-lhe as ferramentas para produzir produtos de labirintos originais e vendíveis a nível global.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar os três modos de jogo, o algoritmo LPF de labirintos, cinco funções de imagem, personalização de paredes, o gabarito automático, a biblioteca completa de imagens, temas de fundo e borda, campos de nome/data e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',

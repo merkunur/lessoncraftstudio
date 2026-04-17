@@ -197,11 +197,6 @@ const content: AppContent = {
         'Non. Le générateur de Séquences Logiques est une application purement visuelle — les fiches ne contiennent que des images en lignes de grille avec zéro texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n\'affecte que les étiquettes de l\'interface du générateur et les étiquettes de contenu de la bibliothèque d\'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes colorés ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface.',
     },
     {
-      question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de séquences logiques en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Neuf types de motifs, deux modes de question et la configuration par exercice vous offrent la plus grande variété et différenciation de produits dans les catégories de places de marché.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque type de motif, chaque mode de question, chaque configuration d\'exercice, chaque thème, chaque format d\'export et chaque taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

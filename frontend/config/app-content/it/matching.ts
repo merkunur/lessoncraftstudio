@@ -193,11 +193,6 @@ const content: AppContent = {
         'Sì. Il pannello Impostazioni Pagina include sia un selettore di tema di sfondo con un cursore di opacità (da 0 a 1 con incrementi di 0,05) sia un selettore di tema di bordo con il suo cursore di opacità indipendente. I temi di sfondo aggiungono motivi decorativi dietro il contenuto di abbinamento, mentre i temi di bordo incorniciano la pagina. Entrambi hanno controlli di opacità separati per creare sfondi sottili con bordi marcati, o qualsiasi combinazione che si adatti al tuo design. Questi elementi visivi aumentano la qualità percepita delle tue schede di abbinamento nelle inserzioni dei marketplace.',
     },
     {
-      question: 'Posso vendere schede di abbinamento create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di abbinamento come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Le quattro modalità di abbinamento, i fogli risposte autogenerati e le 104 collezioni di immagini tematiche ti danno gli strumenti creativi per produrre prodotti di attività di abbinamento originali e vendibili.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare le quattro modalità di abbinamento, il foglio risposte autogenerato, la libreria immagini completa, i temi di sfondo e di bordo, i campi nome/data, i numeri degli elementi, i punti decorativi e tutti i formati di download prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

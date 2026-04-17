@@ -197,11 +197,6 @@ const content: AppContent = {
         'Non. Le Générateur de Pages de Coloriage est une application purement visuelle — la sortie se compose uniquement d\'images, de dessins et de tout texte que vous ajoutez manuellement. Changer la langue n\'affecte que les étiquettes de l\'interface du générateur et les étiquettes de contenu de la bibliothèque d\'images, pas la sortie de la page de coloriage. La Licence Commerciale inclut 10 thèmes en couleur ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface.',
     },
     {
-      question: 'Puis-je vendre des pages de coloriage créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos pages de coloriage en téléchargement numérique sur Etsy, en cahiers de coloriage imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Le canevas libre, l\'outil de dessin à main levée et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de pages de coloriage originaux et vendables.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester le canevas libre, chaque outil de dessin, la bibliothèque d\'images complète, les aides pour la vente, les thèmes de bordures, l\'export en niveaux de gris et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

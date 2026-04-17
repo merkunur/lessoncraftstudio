@@ -192,16 +192,6 @@ const content: AppContent = {
         'Oui. Vous pouvez accéder à toutes les fonctionnalités — les quatre niveaux de difficulté, les deux modes d\'opération, la bibliothèque d\'images complète, la génération de corrigés et tous les formats d\'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l\'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.',
     },
     {
-      question: 'Que comprend la licence commerciale ?',
-      answer:
-        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme. Il n\'y a pas de redevances par vente, pas de frais mensuels et aucune limite sur le nombre de fiches que vous produisez ou vendez.',
-    },
-    {
-      question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos puzzles algébriques en téléchargement numérique sur Etsy, en cahiers d\'activités imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. De nombreux vendeurs créent des packs par niveau de difficulté et des cahiers d\'algèbre progressive qui génèrent des revenus réguliers. Testez toutes les fonctionnalités avec l\'essai gratuit avant d\'acheter — l\'essai inclut tous les niveaux, thèmes et formats d\'export pour évaluer la qualité des produits directement.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque niveau de difficulté, chaque mode d\'opération, chaque thème et chaque format d\'export avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

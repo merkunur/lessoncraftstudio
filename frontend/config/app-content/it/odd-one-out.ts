@@ -193,11 +193,6 @@ const content: AppContent = {
         'No. A differenza delle app che mostrano parole sulla scheda, i puzzle trova l\'intruso sono interamente visivi — non compare alcun testo nel contenuto del puzzle. L\'intestazione autogenerata (\"Trova l\'Intruso\") si traduce nelle 11 lingue supportate, ma gli esercizi contengono solo immagini. Questo significa che ogni scheda funziona in qualsiasi lingua senza modifiche, rendendo i puzzle trova l\'intruso ideali per le vendite sui marketplace globali.',
     },
     {
-      question: 'Posso vendere schede trova l\'intruso create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede trova l\'intruso come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse per il negozio su Gumroad o attraverso qualsiasi altro canale di vendita. Le due modalità di generazione, le sostituzioni per esercizio e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di discriminazione visiva originali e vendibili.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare entrambe le modalità di generazione, il sistema di sostituzione per esercizio, il foglio risposte autogenerato, la libreria immagini completa, temi di sfondo e di bordo, campi nome/data, numeri di esercizio e tutti i formati di download prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento sia adatto alle tue esigenze prima di acquistare una licenza.',

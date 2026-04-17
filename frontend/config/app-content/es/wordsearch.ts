@@ -196,11 +196,6 @@ const content: AppContent = {
         'Sí. Puede acceder a todas las funciones — las tres fuentes de contenido, los tres modos de visualización, la biblioteca completa de imágenes, los tamaños de cuadrícula ajustables, los controles de dirección, las claves de respuesta con código de colores y todos los formatos de exportación — sin crear una cuenta, ingresar tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratuita incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.',
     },
     {
-      question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de sopa de letras como descargue digitales en Etsy, como libros de puzzles impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Los tamaños de cuadrícula ajustables, los controles de dirección y la capacidad multilingüe le ofrecen una fuerte diferenciación en categorías de mercado competitivas.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Como la prueba gratuita le da acceso a todas las funciones, no ofrecemos reembolsos en compre de licencias comerciales. Puede probar cada fuente de contenido, cada tamaño de cuadrícula, cada ajuste de dirección, cada modo de visualización, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratuita es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de adquirir una licencia.',

@@ -194,11 +194,6 @@ const content: AppContent = {
         'Ja. Panelen Sidinställningar inkluderar både en bakgrundstema-väljare med ett opacitetsreglage (0–1 i 0,05-steg) och en ramtema-väljare med sitt eget oberoende opacitetsreglage. Bakgrundsteman lägger till dekorativa mönster bakom koordinatrutnätet och riktningsinstruktionerna, medan ramteman ramar in sidan. Båda har separata opacitetskontroller så du kan skapa subtila bakgrunder med framträdande ramar, eller valfri kombination som passar din design. Dessa visuella element ökar den upplevda kvaliteten på dina skattjaktarbetsblad för marknadsplatsannonser.',
     },
     {
-      question: 'Kan jag sälja skattjaktarbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina skattjaktarbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De två riktningstyper, 5×5 koordinatrutnätet, lokaliserade riktningsanvisningar, automatiskt genererade facit och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara vägfinnandepussel-produkter.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda riktningstyper, 5×5 koordinatrutnätet, 6-bilds pusselgenerering, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

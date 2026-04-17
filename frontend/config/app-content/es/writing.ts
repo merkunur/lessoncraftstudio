@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. El Generador de Escritura es una herramienta de práctica visual de escritura manuscrita — las formas de las letras, las flechas del orden de los trazos y los modos de práctica no cambian según el idioma. Las etiquetas de la interfaz se traducen a los 11 idiomas soportados, y la biblioteca de imágenes proporciona nombres de imágenes localizados para las fuentes de contenido, pero la funcionalidad principal de práctica de escritura es la misma independientemente del idioma. La Licencia Comercial incluya 10 temas en color; el Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz.',
     },
     {
-      question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de escritura como descargue digitales en Etsy, como cuadernos de caligrafía impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Los tres modos de práctica, los cinco estilos de fuente, el orden de trazos flechado y los trazos de pre-escritura le ofrecen una fuerte diferenciación en categorías saturadas de las plataformas de venta.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Como la prueba gratuita le da acceso a todas las funciones, no ofrecemos reembolsos en compre de licencias comerciales. Puede probar cada modo de práctica, cada estilo de fuente, los trazos de pre-escritura, cada fuente de contenido, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratuita es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de adquirir una licencia.',

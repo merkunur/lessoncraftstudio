@@ -183,11 +183,6 @@ const content: AppContent = {
         'Nei. Til forskjell fra apper som viser ord på arbeidsarket, er finn den ulike-puslespill helt visuelle — ingen tekst vises på selve puslespillinnholdet. Den automatisk genererte overskriften («Finn den som ikke horer til») oversettes til alle 11 stoettede språk, men de faktiske ovelsene inneholder kun bilder. Dette betyr at hvert arbeidsark fungerer på ethvert språk uten modifikasjon, noe som gjor finn den ulike-puslespill ideelle for global markedsplasssalg.',
     },
     {
-      question: 'Kan jeg selge finn den ulike arbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge finn den ulike arbeidsarkene dine som digitale nedlastinger på Etsy, som trykte arbeidboker på Amazon KDP, som produktlinjeressurser på Gumroad, eller via enhver annen salgskanal. De to genereringsmodusene, per-ovelse-overstyringer og 104 tematiske bildesamlinger gir deg de kreative verktoyene til å produsere originale, salgbare visuelle diskrimineringsprodukter.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste begge genereringsmodusene, per-ovelse-overstyringssystemet, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer, navn/dato-felt, ovelsesnumre og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

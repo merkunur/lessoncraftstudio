@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. Picture sudoku is entirely visual — the puzzle grid contains only images, no words or numbers. This makes every worksheet work identically in all 11 supported languages. The only localized element is the auto-generated \"Picture Sudoku\" header text above the grid, which translates automatically when you switch languages. The puzzle itself requires zero modification for different markets, making it ideal for global sales.',
     },
     {
-      question: 'Can I sell picture sudoku worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your picture sudoku worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as digital products on Gumroad, or through any other sales channel. The three difficulty levels, 104 themed image collections, and visual-only format give you the creative tools to produce original, globally sellable sudoku products.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all three difficulty levels, theme-based and manual image selection, the auto-generated answer key, the full image library, background and border themes, text tools, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

@@ -190,16 +190,6 @@ const content: AppContent = {
         'Ja. Je hebt toegang tot alle functies — alle vier moeilijkheidsniveaus, beide bewerkingsmodi, de volledige afbeeldingenbibliotheek, antwoordbladgeneratie en alle exportformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
     },
     {
-      question: 'Wat bevat de commerciële licentie?',
-      answer:
-        'De commerciële licentie verwijdert het watermerk van alle downloads en verleent je onbeperkte rechten om de werkbladen die je maakt te verkopen — op Etsy.nl, Amazon KDP, Gumroad, Bol.com, je eigen website of elk ander platform. Er zijn geen royalty\'s per verkoop, geen maandelijkse kosten en geen limiet op het aantal werkbladen dat je produceert of verkoopt.',
-    },
-    {
-      question: 'Kan ik werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je algebra puzzel werkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte activiteitenboeken op Amazon KDP, als leermiddelen op Gumroad, of via elk ander verkoopkanaal. Veel verkopers maken op moeilijkheid gerangschikte bundels en progressieve algebraboeken die consistent omzet genereren. Probeer alle functies met de gratis proefversie voordat je koopt — de proefversie bevat alle moeilijkheidsniveaus, thema\'s en exportopties zodat je de productkwaliteit uit eerste hand kunt beoordelen.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot alle functies, bieden wij geen restituties aan op aankopen van commerciële licenties. Je kunt elk moeilijkheidsniveau, elke bewerkingsmodus, elk thema en elk exportformaat testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool bij je behoeften past voordat je een licentie aanschaft.',

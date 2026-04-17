@@ -195,11 +195,6 @@ const content: AppContent = {
         'Nee. De Schrijfoefeningen-generator is een visueel handschrift oefenmiddel — lettervormen, streekordepijlen en oefenmodi veranderen niet per taal. De UI-labels worden vertaald in alle 11 ondersteunde talen, en de afbeeldingenbibliotheek biedt gelokaliseerde afbeeldingsnamen voor inhoudsbronnen, maar de kernfunctionaliteit voor schrijfoefeningen is hetzelfde ongeacht de taal. De Commerciële licentie bevat 10 kleurrijke thema\'s; Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 UI-talen.',
     },
     {
-      question: 'Kan ik werkbladen die ik met deze tool maak verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je alle rechten om je schrijfoefeningen werkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte werkboeken op Amazon KDP, als educatieve leermiddelen op Gumroad, via Bol.com of via elk ander verkoopkanaal. De drie oefenmodi, vijf lettertypes, pijlgeleide streekvolgorde en voorbereidende schrijfbewegingen geven je sterke getrapte productpakketten in drukbezette marktplaatscategorieën.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot alle functies, bieden wij geen restituties aan op aankopen van commerciële licenties. Je kunt elke oefenmodus, elk lettertype, voorbereidende schrijfbewegingen, elke inhoudsbron, elk exportformaat en elk paginaformaat testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

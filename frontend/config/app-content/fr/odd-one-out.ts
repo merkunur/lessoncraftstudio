@@ -197,11 +197,6 @@ const content: AppContent = {
         'Non. Contrairement aux applications qui affichent des mots sur la fiche, les puzzles intrus sont entièrement visuels — aucun texte n\'apparaît sur le contenu du puzzle lui-même. L\'en-tête auto-généré (\" Trouve l\'Intrus \") se traduit dans les 11 langues prises en charge, mais les exercices eux-mêmes ne contiennent que des images. Cela signifie que chaque fiche fonctionne dans n\'importe quelle langue sans modification, rendant les puzzles intrus idéaux pour les ventes sur les marchés mondiaux.',
     },
     {
-      question: 'Puis-je vendre des fiches intrus créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez les droits complets pour vendre vos fiches intrus en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources de classe sur Gumroad ou via tout autre canal de vente. Les deux modes de génération, les remplacements par exercice et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits originaux et vendables de discrimination visuelle.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à chaque fonctionnalité, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux modes de génération, le système de remplacement par exercice, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les champs nom/date, les numéros d\'exercices et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil correspond à vos besoins avant d\'acheter une licence.',

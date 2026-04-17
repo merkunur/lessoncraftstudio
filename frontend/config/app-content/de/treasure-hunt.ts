@@ -188,11 +188,6 @@ const content: AppContent = {
         'Ja. Das Seiten-Panel enthält sowohl einen Hintergrundthema-Wähler mit Deckkraftregler (0–1 in 0,05-Schritten) als auch einen Rahmenthema-Wähler mit eigenem unabhängigem Deckkraftregler. Hintergrundthemen fügen dekorative Muster hinter dem Koordinatenraster und den Richtungsanweisungen hinzu, während Rahmenthemen die Seite umrahmen. Beide haben separate Deckkraftregler, sodass Sie dezente Hintergründe mit markanten Rahmen erstellen können, oder jede Kombination, die zu Ihrem Design passt. Diese visuellen Elemente erhöhen die wahrgenommene Qualität Ihrer Schatzsuche-Arbeitsblätter für Marktplatz-Listings und heben Ihre Produkte von Wettbewerbern mit schlichten Designs ab.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Schatzsuche-Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Schatzsuche-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die zwei Richtungstypen, das 5×5-Koordinatenraster, lokalisierte Richtungsanweisungen in 11 Sprachen, automatisch generierte Lösungsschlüssel und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufbare Wegfindungs-Rätsel-Produkte zu erstellen.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Richtungstypen, das 5×5-Koordinatenraster, die 6-Bilder-Rätselgenerierung, den automatisch generierten Lösungsschlüssel mit hervorgehobener Schatzzelle, die vollständige Bildbibliothek mit 104 thematischen Sammlungen, Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern, die lokalisierten Richtungsanweisungen und alle Download-Formate in 300 DPI vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen.',

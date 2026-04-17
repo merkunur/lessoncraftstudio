@@ -190,16 +190,6 @@ const content: AppContent = {
         'Ja. Du har tilgang til alle funksjoner — alle fire vanskelighetsgradene, begge operasjonsmodusene, det komplette bildebiblioteket, fasitgenerering og alle eksportformater — uten å opprette en konto, oppgi kredittkort eller installere programvare. Nedlastinger fra den gratis prøveversjonen inneholder et lite vannmerke. En kommersiell lisens fjerner vannmerket og gir fulle salgsrettigheter.',
     },
     {
-      question: 'Hva er inkludert i den kommersielle lisensen?',
-      answer:
-        'Den kommersielle lisensen fjerner vannmerket fra alle nedlastinger og gir deg ubegrensede rettigheter til å selge arbeidsarkene du lager — på Etsy, Amazon KDP, Gumroad, din egen nettside eller enhver annen plattform. Det er ingen royalties per salg, ingen månedlige avgifter og ingen begrensning på antall arbeidsark du produserer eller selger.',
-    },
-    {
-      question: 'Kan jeg selge arbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fullstendige rettigheter til å selge algebrapuslespill arbeidsarkene dine som digitale nedlastinger på Etsy, som trykte aktivitetsbøker på Amazon KDP, som utskriftsbare produkter på Gumroad, eller via enhver annen salgskanal. Mange selgere lager vanskelighetsgraderte pakker og progressive algebrabøker som genererer jevne inntekter.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste hver vanskelighetsgrad, hver operasjonsmodus, hvert tema og hvert eksportformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet oppfyller behovene dine før du anskaffer en lisens.',

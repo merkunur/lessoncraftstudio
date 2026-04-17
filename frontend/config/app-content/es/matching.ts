@@ -194,11 +194,6 @@ const content: AppContent = {
         'Sí. El panel Configuración de Página incluya tanto un selector de tema de fondo con un control deslizante de opacidad (de 0 a 1 en pasos de 0,05) como un selector de tema de borde con su propio control deslizante de opacidad independiente. Los temas de fondo añaden patrones decorativos detrás del contenido de asociación, mientras que los temas de borde enmarcan la página. Ambos tienen controles de opacidad separados para crear fondos sutiles con bordes prominentes, o cualquier combinación que se adapte a su diseño. Estos elementos visuales aumentan la calidad percibida de sus fichas de asociación para los anuncios en marketplaces.',
     },
     {
-      question: '¿Puedo vender fichas de asociación creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de asociación como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como productos imprimibles en Hotmart o a través de cualquier otro canal de venta. Los cuatro modos de asociación, las claves de respuesta generadas automáticamente y las 104 colecciones de imágenes temáticas le dan las herramientas creativas para producir productos de actividades de asociación originales y vendibles.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Dado que la prueba gratuita le da acceso a todas las funciones, no ofrecemos reembolsos en las compre de licencia comercial. Puede probar los cuatro modos de asociación, la clave de respuesta generada automáticamente, la biblioteca de imágenes completa, los temas de fondo y de borde, los campos de nombre/fecha, los números de elemento, las viñetas decorativas y todos los formatos de descargue antes de comprar. La prueba gratuita es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de comprar una licencia.',

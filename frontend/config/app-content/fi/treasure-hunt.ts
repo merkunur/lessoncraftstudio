@@ -174,11 +174,6 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — molempia suuntatyyppejä, 5×5-koordinaattiruudukkoa, 6 kuvan palapeliluontia, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, kaikkia latausmuotoja ja harmaasävyvaihtoa — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun latauksissa on pieni vesileima. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja aarteenetsintä-työlehtiä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä aarteenetsintä-työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, omassa kaupassasi Gumroadissa tai millä tahansa muulla myyntikanavalla. Kaksi suuntatyyppiä, 5×5-koordinaattiruudukko, lokalisoidut suuntavihjeet, automaattisesti luodut vastausavaimet ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien polunetsintä-palapeelituotteiden tuottamiseen.',
-    },
-    {
       question: 'Sopivatko aarteenetsintätehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Aarteenetsintätehtävät sopivat kaikille ikäryhmille. Kuvavihjeet sopivat esiopetukseen, kirjalliset vihjeet alkuopetukseen ja monimutkaisemmat rastiradat alakouluun. Pelillisyys motivoi kaikkia ikäryhmiä.',

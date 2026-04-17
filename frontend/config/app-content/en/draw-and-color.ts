@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. Draw & Color is a purely visual app — worksheets contain only grid images with zero text on the output, so they are identical in every language. Changing the language only affects the UI labels in the generator interface and the image library content labels, not the worksheet itself. The Commercial tier includes 10 B&W themes; Full Access unlocks all 100+ B&W themes and all 11 UI languages for the interface.',
     },
     {
-      question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your grid drawing worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as products on Gumroad, or through any other sales channel. The dual grid format, adjustable clue percentage, symmetry modes, and B&W outline style create a distinctive product that competes strongly in drawing and activity worksheet categories.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every grid size, every clue percentage, every symmetry mode, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

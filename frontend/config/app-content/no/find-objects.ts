@@ -183,11 +183,6 @@ const content: AppContent = {
         'Nei. Finn Gjenstandene Generatoren er visuell — den laster ikke lokaliserte bildenavn eller bruker bildeordforrådsystemet. Språkinnstillinger påvirker bare brukergrensesnittetiketter (knapper, paneltitler, verktøytips), IKKE innholdet på arbeidsarkene selv. Dette betyr at hvert genererte arbeidsark fungerer universelt på alle språk uten noen lokalisert tekst på siden, noe som gjor produktene dine salgbare på ethvert marked uten modifikasjoner.',
     },
     {
-      question: 'Kan jeg selge skjulte objekter-arbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge skjulte objekter-arbeidsarkene dine som digitale nedlastinger på Etsy, som trykte arbeidboker på Amazon KDP, som produktlinjeressurser på Gumroad, eller via enhver annen salgskanal. De to aktivitetsmodusene, null-overlapp scenegenerering og 104 tematiske bildesamlinger gir deg de kreative verktoyene til å produsere originale, salgbare skjulte objekter-produkter.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste begge aktivitetsmodusene, null-overlapp plasseringsalgoritmen, konfigurerbare objektantall, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer, navn- og datofelt og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

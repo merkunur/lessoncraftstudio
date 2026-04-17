@@ -197,11 +197,6 @@ const content: AppContent = {
         'Non. Grand & Petit est une application purement visuelle — les fiches ne contiennent que des images avec aucun texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n\'affecte que les libellés de l\'interface du générateur, pas le contenu de la fiche. La Licence Commerciale inclut 10 thèmes en couleur ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface.',
     },
     {
-      question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de comparaison de tailles en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les cinq types de questions, les deux modes d\'images et le format entièrement visuel vous offrent une forte différenciation et une vendabilité mondiale dans les catégories de places de marché.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque type de question, chaque mode d\'images, chaque configuration d\'exercices, chaque format d\'export et chaque format de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

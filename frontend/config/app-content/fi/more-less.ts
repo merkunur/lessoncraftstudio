@@ -185,16 +185,6 @@ const content: AppContent = {
         'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — kaikkiin kolmeen vertailutilaan, täyteen kuvakirjastoon, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman. Kaupallinen lisenssi poistaa vesileiman.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisältää?',
-      answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myydä luomiasi työarkkeja — Etsyssä, Amazon KDP:ssä, Gumroadissa, omalla verkkosivustollasi tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eikä rajoituksia.',
-    },
-    {
-      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä vertailutyöarkkejasi digitaalisina latauksina Etsyssä, aktiviteettikirjoina Amazon KDP:ssä, Gumroadissa tai millä tahansa muulla myyntikanavalla. Voit myös yhdistää vertailutyöarkkeja muihin matematiikkatyöarkkityyppeihin kattavien pakettien rakentamiseksi.',
-    },
-    {
       question: 'Sopivatko lukuvertailutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Kuvapohjaiset vertailut (enemmän vs. vähemmän) sopivat esiopetukseen, numerovertalut (suurempi/pienempi/yhtä suuri) alkuopetukseen ja monimutkaisemmat vertailut alakouluun. Tehtävät mukautuvat lapsen tasoon.',

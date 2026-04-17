@@ -174,11 +174,6 @@ const content: AppContent = {
         'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — kaikkiin kolmeen laskutoimitustilaan, kaikkiin ruudukon kokoihin, täyteen kuvakirjastoon, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisältää?',
-      answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myydä luomiasi työarkkeja — Etsyssä, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eikä rajoituksia.',
-    },
-    {
       question: 'Sopivatko matikkapulmatehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Pienimmät ruudukot (3×3) ja yhteenlasku sopivat alkuopetukseen. Suuremmat ruudukot ja useat laskutoimitukset haastavat alakoulun ylemmät luokat. Kuvapohjaisuus tekee tehtävistä kiinnostavia kaikille ikäryhmille.',
@@ -192,11 +187,6 @@ const content: AppContent = {
       question: 'Miten luon matikkapulmatehtävän nopeasti?',
       answer:
         'Avaa generaattori, valitse ruudukon koko (3×3, 4×4 tai 5×5), valitse laskutoimitukset (yhteenlasku, vähennyslasku tai molemmat), aseta lukualue, valitse teemakuvat ja napsauta Luo. Pulma ja vastausavain syntyvät automaattisesti.',
-    },
-    {
-      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä matikkapulmia digitaalisina latauksina Etsyssä, painettuina pulmakirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
     },
     {
       question: 'Mikä on palautuskäytäntö?',

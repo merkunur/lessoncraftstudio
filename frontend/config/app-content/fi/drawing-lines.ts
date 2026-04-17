@@ -179,11 +179,6 @@ const content: AppContent = {
         'Ei. Viivapiirrustus on puhtaasti visuaalinen sovellus — työarkit sisältävät vain kuvia, viivapolkuja ja koristeellisia kehyksiä nollatekstillä tuloksessa. Kaupallinen Paketti sisältää 10 värikästä teemaa; Täysi Pääsy avaa kaikki 104 teemaa ja kaikki 11 käyttöliittymäkieltä.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä viivanjäljennystyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
-    },
-    {
       question: 'Sopivatko jäljentämistehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Jäljentämistehtävät sopivat erinomaisesti esiopetukseen (kynäotteen kehittäminen, perusviivat), alkuopetukseen (monimutkaisemmat kuviot) ja alakoulun alkuun (tarkat linjat). Tehtävät ovat erityisen hyödyllisiä 5–8-vuotiaille hienomotoriikan kehitysvaiheessa.',

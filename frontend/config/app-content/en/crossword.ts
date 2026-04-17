@@ -196,11 +196,6 @@ const content: AppContent = {
         'The generator uses a dual-canvas system with a Worksheet tab (the puzzle) and an Answer Key tab (the filled grid). The worksheet shows the empty crossword grid with numbered positions and image or text clues — ready for solvers to fill in. The answer key reproduces the identical layout and fills every cell with the correct letters. Both versions export separately using four dedicated download buttons: crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf, and image-crossword-answer-key.pdf.',
     },
     {
-      question: 'Can I sell picture crosswords made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your picture crossword puzzles as digital downloads on Etsy, as printed workbooks on Amazon KDP, as digital products on Gumroad, or through any other sales channel. The four input methods, auto-generated answer keys, language-sensitive word generation, and 104 themed image collections give you the creative tools to produce original, sellable crossword products.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all four input methods, the 15×15 grid generator, the auto-generated answer key, the full image library, background and border themes, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

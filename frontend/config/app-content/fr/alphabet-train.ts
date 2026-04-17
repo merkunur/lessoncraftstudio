@@ -192,16 +192,6 @@ const content: AppContent = {
         'Oui. Vous pouvez accéder à toutes les fonctionnalités — les deux modes de création, la bibliothèque d\'images complète, tous les réglages d\'indices, la génération de corrigés et tous les formats d\'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l\'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.',
     },
     {
-      question: 'Que comprend la licence commerciale ?',
-      answer:
-        'La Licence Commerciale fournit des exports anglais sans filigrane avec droits de vente complets. La licence Accès Complet ajoute les 11 langues avec leurs alphabets natifs, multipliant votre catalogue de produits. Les deux niveaux accordent des droits illimités pour vendre sur Etsy, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme — sans redevances par vente, sans frais mensuels et sans limite de production.',
-    },
-    {
-      question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches train alphabet en téléchargement numérique sur Etsy, en cahiers d\'activités imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Le format train unique et la capacité multilingue vous offrent une forte différenciation dans les catégories de places de marché très concurrentielles.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux modes de création, chaque réglage d\'indices, chaque thème et chaque format d\'export avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

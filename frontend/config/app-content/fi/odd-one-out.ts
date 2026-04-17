@@ -175,11 +175,6 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — molempia luontitiloja, harjoituskohtaisia ylikirjoituksia, säädettäviä harjoitusmääriä, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, nimi/päivämääräkenttiä, harjoitusnumeroita ja kaikkia latausmuotoja — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun latauksissa on pieni vesileima. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja kumpi ei kuulu -työlehtiä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kumpi ei kuulu -työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kaksi luontitilaa, harjoituskohtaiset ylikirjoitukset ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien visuaalisten erottelutuotteiden tuottamiseen.',
-    },
-    {
       question: 'Sopivatko mikä ei kuulu joukkoon -tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Yksinkertaiset kuvavertailut sopivat esiopetukseen (3–6-vuotiaille), monimutkaisemmat luokittelut alkuopetukseen ja abstraktimmat päättelytehtävät alakouluun. Tehtävät kehittävät loogista ajattelua kaikilla tasoilla.',

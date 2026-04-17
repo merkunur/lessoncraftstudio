@@ -193,11 +193,6 @@ const content: AppContent = {
         'Sim. O painel de Configuração de Página inclui um seletor de tema de fundo com um controlo deslizante de opacidade (0–1 em passos de 0,05) e um seletor de tema de borda com o seu próprio controlo deslizante de opacidade independente. Os temas de fundo adicionam padrões decorativos atrás do conteúdo do puzzle, enquanto os temas de borda emolduram a página. Ambos têm controlos de opacidade separados para que possa criar fundos subtis com bordas proeminentes, ou qualquer combinação que se ajuste ao seu design.',
     },
     {
-      question: 'Posso vender puzzles de peças faltantes criados com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender os seus puzzles de peças faltantes como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. As 6 formas de peça, a dificuldade configurável, os gabaritos automáticos e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de puzzles originais e vendíveis.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar as 6 formas de peça, os ajustes de dificuldade configuráveis, o gabarito automático, a biblioteca completa de imagens, os temas de fundo e de borda, e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',

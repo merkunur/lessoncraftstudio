@@ -196,11 +196,6 @@ const content: AppContent = {
         'Yes. The Page Setup panel includes both a background theme selector with an opacity slider (0–1 in 0.05 steps) and a border theme selector with its own independent opacity slider. Background themes add decorative patterns behind the bingo grid, while border themes frame the page. The call-out sheet inherits page borders and background from the main canvas. Both have separate opacity controls so you can create subtle backgrounds with prominent borders, or any combination that fits your design.',
     },
     {
-      question: 'Can I sell bingo cards made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your bingo cards as digital downloads on Etsy, as printed activity books on Amazon KDP, as digital products on Gumroad, or through any other sales channel. The configurable grid sizes, batch generation, ZIP export, dual fill modes, call-out sheets, and 104 themed image collections give you the creative tools to produce original, sellable bingo products at scale.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all grid sizes, batch generation, ZIP export, image and word fill modes, the call-out sheet, the full image library, custom call-out selection, background and border themes, text tools, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

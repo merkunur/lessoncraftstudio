@@ -193,11 +193,6 @@ const content: AppContent = {
         'Ja. Das Seiten-Setup-Panel enthält sowohl einen Hintergrundthema-Wähler mit Deckkraftregler (0–1, Schrittweite 0,05) als auch einen Rahmenthema-Wähler mit eigenem unabhängigem Deckkraftregler. Hintergrundthemen fügen dekorative Muster hinter dem Puzzle-Inhalt hinzu, während Rahmenthemen die Seite umrahmen. Beide haben separate Deckkraftregler, sodass Sie dezente Hintergründe mit prominenten Rahmen kombinieren können, oder jede andere Kombination, die zu Ihrem Design passt. Diese Gestaltungsoptionen erhöhen die visuelle Qualität Ihrer Puzzle-Produkte für Marktplatz-Listings erheblich.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Puzzleteil-Rätsel auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Puzzleteil-Rätsel als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die 6 Teilformen, konfigurierbarer Schwierigkeitsgrad, automatisch generierte Lösungsschlüssel und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Puzzle-Produkte zu erstellen. Jedes Rätsel, das Sie erstellen, gehört Ihnen — unbegrenzt verkaufbar auf beliebig vielen Plattformen.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle 6 Teilformen, konfigurierbare Schwierigkeitseinstellungen, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Rätsel wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität, bevor Sie sich für einen Kauf entscheiden.',

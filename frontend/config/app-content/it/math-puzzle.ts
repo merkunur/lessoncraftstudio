@@ -194,11 +194,6 @@ const content: AppContent = {
         'Sì. Puoi accedere a tutte le funzionalità — le tre operazioni, tutte le dimensioni di griglia, la libreria completa di immagini, la generazione dei fogli delle soluzioni e tutti i formati di esportazione — senza creare un account, inserire una carta di credito o installare alcun software. I download della prova gratuita includono una piccola filigrana. Una licenza commerciale rimuove la filigrana e concede pieni diritti di vendita.',
     },
     {
-      question: 'Cosa include la licenza commerciale?',
-      answer:
-        'La licenza commerciale rimuove la filigrana da tutti i download e ti concede diritti illimitati per vendere le schede che crei — su Etsy, Amazon KDP, Gumroad, sul tuo sito web o su qualsiasi altra piattaforma. Non ci sono royalty per vendita, nessun canone mensile e nessun limite alla quantità di puzzle che produci o vendi. Mantieni la piena proprietà di ogni scheda che generi, e puoi pubblicare prodotti su più piattaforme simultaneamente senza costi o restrizioni di licenza aggiuntivi.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare ogni operazione, ogni dimensione di griglia, ogni tema e ogni formato di esportazione prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

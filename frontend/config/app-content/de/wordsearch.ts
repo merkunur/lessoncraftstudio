@@ -197,11 +197,6 @@ const content: AppContent = {
         'Ja. Sie können jede Funktion nutzen — alle drei Inhaltsquellen, alle Anzeigemodi, die vollständige Bildbibliothek, einstellbare Gittergrößen, Richtungssteuerung, farbcodierte Lösungsschlüssel und alle Exportformate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Wortsuche-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Rätselbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die einstellbaren Gittergrößen, Richtungssteuerungen und die mehrsprachige Fähigkeit mit sprachabhängigen Füllbuchstaben bieten Ihnen starke Differenzierung in belebten Marktplatz-Kategorien.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jede Inhaltsquelle, jede Gittergröße, jede Richtungseinstellung, jeden Anzeigemodus, jeden farbcodierten Lösungsschlüssel, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

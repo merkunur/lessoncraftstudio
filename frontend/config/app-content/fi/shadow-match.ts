@@ -194,11 +194,6 @@ const content: AppContent = {
         'Ei. Varjoyhdistely on puhtaasti visuaalinen — työlehden tulos sisältää vain kuvia, siluetteja ja jaettuja puolikkaita ilman lokalisoitua sanasisältöä. Sovelluksen käyttöliittymä (valikot, painikkeet, otsikkoteksti) tukee kaikkia 11 kieltä, mutta luotu työlehti toimii identtisesti kielivalinnasta riippumatta. Tämä tekee varjoyhdistely-työlehdistä universaalisti myytäviä kaikilla markkinoilla ilman käännöstä. Kaupallinen paketti sisältää 10 värikästä teemaa; Täysi pääsy avaa kaikki 104 teemaa ja kaikki 11 käyttöliittymäkieltä.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja varjoyhdistely-työlehtiä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä varjoyhdistely-työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotelinjaresursseina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kaksi harjoitustilaa, automaattisesti luodut siluetit, sekoitusalgoritmi, automaattiset vastausavaimet ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien visuaalisten yhdistelyttuotteiden tuottamiseen.',
-    },
-    {
       question: 'Sopivatko varjoleikkitehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Varjoleikkitehtävät sopivat erinomaisesti esiopetukseen (3–6-vuotiaille) — ne eivät vaadi lukutaitoa. Siluettien tunnistaminen kehittää visuaalista hahmottamista. Monimutkaisemmat kuvat sopivat alkuopetukseen ja alakoulun alkuun.',

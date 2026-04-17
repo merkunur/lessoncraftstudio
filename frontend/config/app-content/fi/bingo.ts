@@ -194,11 +194,6 @@ const content: AppContent = {
         'Kyllä. Sivuasetukset-paneeli sisältää sekä taustateemanvalitsimen läpinäkyvyysliukusäätimellä (0–1 0,05:n välein) että kehysteemanvalitsimen omalla itsenäisellä läpinäkyvyysliukusäätimellään. Taustateemat lisäävät koristeellisia kuvioita bingoruudukon taakse, kun taas kehysteemat kehystävät sivun. Huutolista perii sivureunat ja taustan pääkankaalta. Molemmilla on erilliset läpinäkyvyyden säätimet, joten voit luoda hienovaraisia taustoja näkyvillä reunoilla tai minkä tahansa yhdistelmän, joka sopii suunnitteluusi.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja bingokortteja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä bingokorttisi digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssä, tuotelinjaresursseina Gumroadissa tai millä tahansa muulla myyntikanavalla. Säädettävät ruudukkokoot, eräluonti, ZIP-vienti, kaksoistäyttötilat, huutolistat ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien bingotuotteiden tuottamiseen laajassa mittakaavassa.',
-    },
-    {
       question: 'Sopivatko bingotehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Kuvabingo sopii erinomaisesti esiopetukseen ja alkuopetukseen — se ei vaadi lukutaitoa, vain kuvatunnistusta. Pelillisyys tekee oppimisesta hauskaa kaikille ikäryhmille aina alakoulun loppuun.',

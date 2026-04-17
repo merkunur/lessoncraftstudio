@@ -195,11 +195,6 @@ const content: AppContent = {
         'Ja. Sie können jede Funktion nutzen — alle drei Übungsmodi, alle fünf Schriftarten, Vorübungen, die Bildbibliothek, die zeilenweise Konfiguration, die Eingabe von eigenem Text und alle Exportformate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Schreibübungen-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Übungshefte auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die drei Übungsmodi, fünf Schriftarten, Strichrichtungspfeile und Vorübungen bieten Ihnen starke Differenzierung in Marktplatz-Kategorien.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jeden Übungsmodus, jede Schriftart, die Vorübungen, jede Inhaltsquelle, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

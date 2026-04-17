@@ -164,11 +164,6 @@ const content: AppContent = {
         'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — kaikkiin kolmeen sisältölähteeseen, kaikkiin neljään vaikeustasoon, täyteen kuvakirjastoon, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisältää?',
-      answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myydä luomiasi työarkkeja Etsyssä, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eikä rajoituksia.',
-    },
-    {
       question: 'Sopivatko arvaa sana -tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Tehtävät sopivat parhaiten alkuopetukseen (1.–2. luokka) ja alakouluun, kun lapset hallitsevat kirjaimet. Kuvavihjeet ja teemakohtaiset sanat helpottavat arvaamista. Lyhyet sanat sopivat nuorimmille.',
@@ -187,11 +182,6 @@ const content: AppContent = {
       question: 'Sisältyvätkö vastaukset automaattisesti?',
       answer:
         'Kyllä. Jokainen tehtäväarkki sisältää automaattisesti luodun vastausavaimen, jossa oikeat sanat on paljastettu. Vastausavain on erillisellä sivulla.',
-    },
-    {
-      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä arvaa sana -tehtäviä digitaalisina latauksina Etsyssä, painettuina pulmakirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
     },
     {
       question: 'Kuinka monella kielellä voin luoda tehtäviä?',

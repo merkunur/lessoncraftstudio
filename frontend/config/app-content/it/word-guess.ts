@@ -194,11 +194,6 @@ const content: AppContent = {
         'Sì. Puoi accedere a tutte le funzionalità — le tre fonti di contenuto, i quattro livelli di difficoltà, la libreria completa di immagini, la generazione dei fogli risposte e tutti i formati di esportazione — senza creare un account, inserire carta di credito o installare alcun software. I download della prova gratuita includono una piccola filigrana. Una licenza commerciale rimuove la filigrana e concede pieni diritti di vendita.',
     },
     {
-      question: 'Posso vendere schede create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede indovina la parola come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Il formato puzzle con indizi immagine e la capacità multilingue ti offrono una forte differenziazione in categorie di mercato molto competitive.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare ogni fonte di contenuto, ogni livello di difficoltà, ogni tema, ogni formato di esportazione e ogni dimensione di pagina prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

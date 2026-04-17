@@ -191,11 +191,6 @@ const content: AppContent = {
         'O gerador usa um sistema de duplo canvas com um aba de Atividade (o puzzle) e um aba de Gabarito (a grelha preenchida). A atividade mostra a grelha de palavras cruzadas vazia com posições numeradas e pistas com imagens ou texto — pronta para os solucionadores a completarem. O gabarito reproduz o layout idêntico e preenche cada célula com as letras corretas. Ambas as versões são exportadas separadamente usando quatro botões de download dedicados: crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf e image-crossword-answer-key.pdf.',
     },
     {
-      question: 'Posso vender palavras cruzadas com imagens feitas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas palavras cruzadas com imagens como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para loja na Hotmart ou através de qualquer outro canal de venda. Os quatro métodos de entrada, os gabaritos autogerados, a geração de palavras sensível ao idioma e as 104 coleções temáticas de imagens fornecem as ferramentas criativas para produzir produtos de palavras cruzadas originais e vendáveis.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar os quatro métodos de entrada, o gerador de grelha 15×15, o gabarito autogerado, a biblioteca completa de imagens, temas de fundo e borda, e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença.',

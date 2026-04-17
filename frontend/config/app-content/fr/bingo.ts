@@ -192,11 +192,6 @@ const content: AppContent = {
         'Oui. Le panneau Mise en Page inclut un sélecteur de thème de fond avec un curseur d\'opacité (0 à 1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d\'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière la grille bingo, tandis que les thèmes de bordure encadrent la page. La feuille d\'appel hérite des bordures et du fond du canevas principal. Les deux ont des contrôles d\'opacité séparés pour créer des fonds subtils avec des bordures prononcées, ou toute combinaison adaptée à votre design.',
     },
     {
-      question: 'Puis-je vendre des cartes bingo créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos cartes bingo en téléchargement numérique sur Etsy, en cahiers d\'activités imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les tailles de grille configurables, la génération par lot, l\'export ZIP, les doubles modes de remplissage, les feuilles d\'appel et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits bingo originaux et vendables à grande échelle.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester toutes les tailles de grille, la génération par lot, l\'export ZIP, les modes remplissage images et mots, la feuille d\'appel, la bibliothèque d\'images complète, la sélection personnalisée des appels, les thèmes de fond et de bordure, les outils texte et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

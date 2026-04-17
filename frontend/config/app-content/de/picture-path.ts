@@ -193,11 +193,6 @@ const content: AppContent = {
         'Nein. Im Gegensatz zu wortbasierten Generatoren sind Bilderpfad-Arbeitsblätter vollständig visuell. Pfade werden navigiert und Bilder werden verfolgt, ohne dass Text gelesen werden muss. Der automatisch generierte Header übersetzt sich in 11 Sprachen, aber der Labyrinth-Inhalt selbst erfordert kein Sprachverständnis. Dies macht jedes Arbeitsblatt sofort nutzbar und verkaufbar in jedem Markt weltweit ohne Anpassung. Ein in Deutschland erstelltes Labyrinth verkauft sich identisch in Frankreich, den USA, Japan oder Brasilien.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Labyrinth-Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Labyrinth-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die drei Spielmodi, der LPF-Algorithmus, 104 thematische Bildsammlungen und das rein visuelle Format geben Ihnen die kreativen Werkzeuge, um originale, weltweit verkaufbare Labyrinth-Produkte zu erstellen.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle drei Spielmodi, den LPF-Labyrinth-Algorithmus, fünf Bildrollen, Wandanpassung, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Namens-/Datumsfelder und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Labyrinthe wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität.',

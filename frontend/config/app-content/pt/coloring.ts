@@ -195,11 +195,6 @@ const content: AppContent = {
         'Não. O Gerador de Páginas para Colorir é uma aplicação puramente visual — a saída consiste apenas em imagens, desenhos e qualquer texto que adicione manualmente. Mudar o idioma apenas afeta as etiquetas da interface do gerador e as etiquetas de conteúdo da biblioteca de imagens, não a saída da página para colorir. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface.',
     },
     {
-      question: 'Posso vender páginas para colorir criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas páginas para colorir como downloads digitais na Etsy, como livros para colorir impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. O canvas de forma livre, a ferramenta de desenho à mão livre e as 104 coleções de imagens temáticas oferecem-lhe as ferramentas criativas para produzir produtos de páginas para colorir originais e vendáveis.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar o canvas de forma livre, cada ferramenta de desenho, a biblioteca de imagens completa, os auxiliares de loja, os temas de bordas, a exportação em escala de cinzentos e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',

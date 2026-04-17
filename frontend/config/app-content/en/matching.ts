@@ -196,11 +196,6 @@ const content: AppContent = {
         'Yes. The Page Setup panel includes both a background theme selector with an opacity slider (0–1 in 0.05 steps) and a border theme selector with its own independent opacity slider. Background themes add decorative patterns behind the matching content, while border themes frame the page. Both have separate opacity controls so you can create subtle backgrounds with prominent borders, or any combination that fits your design. These visual elements increase the perceived quality of your matching worksheets for marketplace listings.',
     },
     {
-      question: 'Can I sell matching worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your matching worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as digital products on Gumroad, or through any other sales channel. The four matching modes, auto-generated answer keys, and 104 themed image collections give you the creative tools to produce original, sellable matching activity products.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test all four matching modes, the auto-generated answer key, the full image library, background and border themes, name/date fields, item numbers, bullet dots, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

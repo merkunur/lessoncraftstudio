@@ -189,16 +189,6 @@ const content: AppContent = {
         'Sì. Puoi accedere a tutte le funzionalità — entrambe le modalità, tutte le quantità di simboli, la libreria completa di immagini, Parola Rivelata in tutte le undici lingue, generazione di chiavi di valore percepito e tutti i formati di esportazione — senza creare un account, inserire carta di credito o installare alcun software. I download della prova gratuita includono una piccola filigrana. Una licenza commerciale rimuove la filigrana e concede pieni diritti di vendita.',
     },
     {
-      question: 'Cosa include la licenza commerciale?',
-      answer:
-        'La licenza commerciale rimuove la filigrana da tutti i download e ti concede diritti illimitati per vendere le schede che crei — su Etsy, Amazon KDP, Gumroad, sul tuo sito o su qualsiasi altra piattaforma. Non ci sono royalty per vendita, nessun costo mensile e nessun limite alla quantità di schede che produci o vendi.',
-    },
-    {
-      question: 'Posso vendere le schede create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di addizione codificata come download digitali su Etsy, come quaderni di puzzle stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Il formato da decifrare è un prodotto collaudato perché si distingue dalle schede standard di esercizi di addizione nei risultati di ricerca dei marketplace.',
-    },
-    {
       question: 'Devo installare qualche software?',
       answer:
         'No. Il Generatore di Schede di Addizione Codificata funziona interamente nel tuo browser web. Non c\'è nulla da scaricare, installare o aggiornare. Funziona su qualsiasi browser desktop moderno, inclusi Chrome, Firefox, Safari ed Edge. Basta aprire la pagina e iniziare a creare puzzle matematici da decifrare.',

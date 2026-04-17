@@ -179,11 +179,6 @@ const content: AppContent = {
         'Ei. Värityssivujen Generaattori on puhtaasti visuaalinen sovellus — tulos koostuu vain kuvista, piirroksista ja mahdollisesti manuaalisesti lisätystä tekstistä. Kielen vaihtaminen vaikuttaa vain käyttöliittymäetiketteihin. Kaupallinen Paketti sisältää 10 värikästä teemaa; Täysi Pääsy avaa kaikki 104 teemaa ja kaikki 11 käyttöliittymäkieltä.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja värityssivuja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä värityssivujasi digitaalisina latauksina Etsyssä, painettuina värityskirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
-    },
-    {
       question: 'Sopivatko väritystehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Väritystehtävät sopivat kaikille ikäryhmille esiopetuksesta alakouluun. Yksinkertaiset ääriviivat sopivat nuorimmille, yksityiskohtaisemmat kuvat haastavat vanhempia lapsia. Väritys kehittää hienomotoriikkaa ja keskittymiskykyä.',
@@ -197,11 +192,6 @@ const content: AppContent = {
       question: 'Miten luon värityskuvan nopeasti?',
       answer:
         'Avaa generaattori, valitse teemakuva yli 3 000 kuvan kirjastosta, aseta ääriviivan paksuus ja napsauta Luo. Generaattori muuntaa kuvan automaattisesti tulostettavaksi värityskuvaksi.',
-    },
-    {
-      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä värityskuvia digitaalisina latauksina Etsyssä, painettuina värityskirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
     },
     {
       question: 'Kuinka monella kielellä voin luoda tehtäviä?',

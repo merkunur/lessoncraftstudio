@@ -188,16 +188,6 @@ const content: AppContent = {
         'Sim. Pode aceder a todas as funcionalidades — ambos os modos, todas as quantidades de símbolos, a biblioteca completa de imagens, Palavra Revelada nos onze idiomas, geração de gabaritos e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d\'água. Uma licença comercial remove a marca d\'água e concede direitos completos de venda.',
     },
     {
-      question: 'O que inclui a licença comercial?',
-      answer:
-        'A licença comercial remove a marca d\'água de todos os downloads e concede-lhe direitos ilimitados para vender as atividades que criar — na Hotmart, Etsy, Amazon KDP, no seu próprio site ou em qualquer outra plataforma. Não há royalties por venda, não há taxas mensais e não há limites na quantidade de atividades que produzir ou vender.',
-    },
-    {
-      question: 'Posso vender atividades criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de adição codificada como downloads digitais na Etsy, como cadernos de puzzles impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. O formato de decifrar código é um produto comprovado porque se destaca das atividades padrão de exercícios de adição nos resultados de pesquisa dos mercados.',
-    },
-    {
       question: 'Preciso de instalar algum software?',
       answer:
         'Não. O Gerador de Atividades de Adição Codificada funciona inteiramente no seu navegador web. Não há nada para baixar, instalar ou atualizar. Funciona em qualquer navegador de desktop moderno, incluindo Chrome, Firefox, Safari e Edge. Basta abrir a página e começar a criar puzzles matemáticos de decifrar código.',

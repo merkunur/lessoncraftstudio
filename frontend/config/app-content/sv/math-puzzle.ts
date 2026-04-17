@@ -194,11 +194,6 @@ const content: AppContent = {
         'Ja. Du har tillgång till alla funktioner — alla tre operationslägen, alla rutnätsstorlekar, det kompletta bildbiblioteket, facitgenerering och alla exportformat — utan att skapa ett konto, ange ett kreditkort eller installera programvara. Nedladdningar från den gratis provversionen innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.',
     },
     {
-      question: 'Vad ingår i den kommersiella licensen?',
-      answer:
-        'Den kommersiella licensen tar bort vattenstämpeln från alla nedladdningar och ger dig obegränsade rättigheter att sälja arbetsbladen du skapar — på Etsy.se, Amazon KDP, Gumroad, din egen webbplats eller vilken annan plattform som helst. Det finns inga royalties per försäljning, inga månadsavgifter och ingen gräns för antalet pussel du producerar eller säljer. Du behåller fullt ägande av varje arbetsblad du genererar.',
-    },
-    {
       question: 'Vad är returpolicyn?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inga återbetalningar på köp av kommersiella licenser. Du kan testa varje operation, varje rutnätsstorlek, varje tema och varje exportformat innan du köper. Den gratis provversionen är returpolicyn — säkerställ att verktyget uppfyller dina behov innan du skaffar en licens.',

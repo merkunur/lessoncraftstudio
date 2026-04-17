@@ -193,11 +193,6 @@ const content: AppContent = {
         'Sì. Il pannello Impostazione Pagina include un selettore di tema di sfondo con un cursore di opacità (da 0 a 1 in passi di 0,05) e un selettore di tema di bordo con il proprio cursore di opacità indipendente. I temi di sfondo aggiungono pattern decorativi dietro il contenuto del puzzle, mentre i temi di bordo incorniciano la pagina. Entrambi hanno controlli di opacità separati per creare sfondi sottili con bordi prominenti, o qualsiasi combinazione che si adatti al tuo design.',
     },
     {
-      question: 'Posso vendere puzzle di pezzi mancanti creati con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere i tuoi puzzle di pezzi mancanti come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Le 6 forme di pezzo, la difficoltà configurabile, i fogli risposte automatici e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di puzzle originali e vendibili.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare tutte le 6 forme di pezzo, le impostazioni di difficoltà configurabili, il foglio risposte automatico, la libreria immagini completa, i temi di sfondo e di bordo e tutti i formati di download prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento sia adatto alle tue esigenze prima di acquistare una licenza.',

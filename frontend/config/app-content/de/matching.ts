@@ -194,11 +194,6 @@ const content: AppContent = {
         'Ja. Das Seiten-Setup-Panel bietet sowohl einen Hintergrundthemen-Wähler mit Deckkraftregler (0–1, Schrittweite 0,05) als auch einen Rahmenthemen-Wähler mit eigenem unabhängigem Deckkraftregler. Hintergrundthemen fügen dekorative Muster hinter dem Zuordnungsinhalt hinzu, während Rahmenthemen die Seite umrahmen. Beide haben separate Deckkraftregler, sodass Sie dezente Hintergründe mit auffälligen Rahmen kombinieren können oder jede andere Kombination, die zu Ihrem Design passt. Diese visuellen Elemente steigern die wahrgenommene Qualität Ihrer Zuordnungs-Arbeitsblätter für Marktplatz-Listings.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Zuordnungs-Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Zuordnungs-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die vier Zuordnungsmodi, automatisch generierte Lösungsschlüssel und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Zuordnungs-Produkte zu produzieren.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle vier Zuordnungsmodi, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Namens-/Datumsfelder, Elementnummern, Aufzählungspunkte und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

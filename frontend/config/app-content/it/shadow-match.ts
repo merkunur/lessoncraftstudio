@@ -193,11 +193,6 @@ const content: AppContent = {
         'No. L\'Abbinamento Ombre è puramente visivo — il risultato della scheda contiene solo immagini, silhouette e metà divise, senza contenuto testuale localizzato. L\'interfaccia dell\'app (menu, pulsanti, testo dell\'intestazione) supporta tutte le 11 lingue, ma la scheda generata funziona in modo identico indipendentemente dalla selezione della lingua. Questo rende le schede di abbinamento ombre universalmente vendibili su tutti i mercati senza traduzione. La Licenza Commerciale include 10 temi colorati; l\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue di interfaccia.',
     },
     {
-      question: 'Posso vendere schede di abbinamento ombre create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di abbinamento ombre come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Le due modalità di esercizio, le silhouette auto-generate, l\'algoritmo di derangement, le risposte automatiche e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di corrispondenza visiva originali e vendibili.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare entrambe le modalità di esercizio, le silhouette auto-generate, le opzioni di direzione di taglio, le risposte, la libreria immagini completa, i temi di sfondo e di bordo, l\'opzione etichette, i campi nome/data, gli strumenti di testo e tutti i formati di download prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento sia adatto alle tue esigenze prima di acquistare una licenza.',

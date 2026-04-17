@@ -194,11 +194,6 @@ const content: AppContent = {
         'No. Il Generatore Cerca Oggetti è solo visivo — non carica nomi di immagini localizzati e non usa il sistema Vocabolario Immagini. Le impostazioni della lingua influiscono solo sulle etichette dell\'interfaccia (pulsanti, titoli pannelli, tooltip), NON sul contenuto delle schede stesse. Questo significa che ogni scheda generata funziona universalmente in tutte le lingue senza alcun testo localizzato sulla pagina, rendendo i tuoi prodotti vendibili in qualsiasi mercato senza modifiche.',
     },
     {
-      question: 'Posso vendere le schede cerca oggetti create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai pieni diritti di vendere le tue schede di ricerca oggetti come download digitali su Etsy, come quaderni stampati su Amazon KDP, come prodotti stampabili su Gumroad o attraverso qualsiasi altro canale di vendita. Le due modalità di attività, la generazione di scene senza sovrapposizioni e le 104 collezioni di immagini tematiche ti danno gli strumenti creativi per produrre prodotti di ricerca oggetti originali e vendibili.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a ogni funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare entrambe le modalità di attività, l\'algoritmo di posizionamento senza sovrapposizioni, i conteggi configurabili degli oggetti, la chiave di risposta auto-generata, la libreria completa di immagini, temi di sfondo e bordo, campi nome e data e tutti i formati di download prima dell\'acquisto. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

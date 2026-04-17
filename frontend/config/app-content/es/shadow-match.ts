@@ -193,11 +193,6 @@ const content: AppContent = {
         'No. La Asociación de Sombras es puramente visual — el resultado de la ficha contiene únicamente imágenes, siluetas y mitades divididas sin contenido textual localizado. La interfaz de la aplicación (menús, botones, texto del encabezado) soporta los 11 idiomas, pero la ficha generada funciona de forma idéntica independientemente de la selección de idioma. Esto hace que las fichas de asociación de sombras sean universalmente vendibles en todos los mercados sin traducción. La Licencia Comercial incluya 10 temas coloridos; el Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz.',
     },
     {
-      question: '¿Puedo vender fichas de asociación de sombras creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de asociación de sombras como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart, o a través de cualquier otro canal de venta. Los dos modos de ejercicio, las siluetas auto-generadas, el algoritmo de derangement, las claves de respuesta automáticas y las 104 colecciones de imágenes temáticas le dan las herramientas creativas para producir productos de correspondencia visual originales y vendibles.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Como la prueba gratis le da acceso a todas las funciones, no ofrecemos reembolsos en las compre de licencia comercial. Puede probar los dos modos de ejercicio, las siluetas auto-generadas, las opciones de dirección de corte, la clave de respuesta, la biblioteca de imágenes completa, los temas de fondo y de borde, la opción de etiquetas, los campos de nombre/fecha, las herramientas de texto y todos los formatos de descargue antes de comprar. La prueba gratis es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de adquirir una licencia.',

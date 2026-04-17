@@ -194,11 +194,6 @@ const content: AppContent = {
         'Ja. Het paneel Pagina-instellingen bevat zowel een achtergrondthema-selector met een dekkingsschuifregelaar (0–1 in stappen van 0,05) als een kaderthema-selector met een eigen onafhankelijke dekkingsschuifregelaar. Achtergrondthema\'s voegen decoratieve patronen toe achter de puzzelinhoud, terwijl kaderthema\'s de pagina omlijsten. Beide hebben aparte dekkingsregelaars zodat je subtiele achtergronden met opvallende kaders kunt combineren, of elke andere combinatie die bij je ontwerp past.',
     },
     {
-      question: 'Kan ik ontbrekende stukjes puzzels gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je ontbrekende stukjes puzzels te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De 6 stukvormen, instelbare moeilijkheid, automatisch gegenereerde antwoordbladen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare puzzelproducten te produceren.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden we geen restituties op commerciële licentie-aankopen. Je kunt alle 6 stukvormen, instelbare moeilijkheidsinstellingen, het automatisch gegenereerde antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema\'s, en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

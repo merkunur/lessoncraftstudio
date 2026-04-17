@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nej. Målarbilder Generatorn är en rent visuell app — resultatet består bara av bilder, ritningar och eventuell text du manuellt lägger till. Att byta språk påverkar bara gränssnittsetiketterna i generatorn och bildbiblioteksetiketterna, inte målarbildens resultat. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk.',
     },
     {
-      question: 'Kan jag sälja målarbilder skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina målarbilder som digitala nedladdningar på Etsy, som tryckta målarböcker på Amazon KDP, som produktlinjesresurser på Gumroad eller genom valfri annan försäljningskanal. Den fria arbetsytan, frihandsritningsverktyget och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara målarbilsprodukter.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa den fria arbetsytan, varje ritverktyg, hela bildbiblioteket, produktlinjeshjälparna, ramteman, gråskaleexport och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

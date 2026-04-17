@@ -195,11 +195,6 @@ const content: AppContent = {
         'Sim. O painel Configuração de Página inclui um seletor de tema de fundo com um controlo deslizante de opacidade (de 0 a 1 em passos de 0,05) e um seletor de tema de borda com o seu próprio controlo deslizante de opacidade independente. Os temas de fundo adicionam padrões decorativos atrás da grade de bingo, enquanto os temas de borda emolduram a página. A folha de chamada herda as bordas e o fundo do canvas principal. Ambos têm controlos de opacidade separados para criar fundos subtis com bordas proeminentes, ou qualquer combinação que se adapte ao seu design.',
     },
     {
-      question: 'Posso vender cartelas de bingo criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas cartelas de bingo como downloads digitais na Etsy, como cadernos de atividades impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. Os tamanhos de grade configuráveis, a geração em lote, a exportação ZIP, os duplos modos de preenchimento, as folhas de chamada e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de bingo originais e vendáveis em escala.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar todos os tamanhos de grade, a geração em lote, a exportação ZIP, os modos de preenchimento de imagens e de palavras, a folha de chamada, a biblioteca de imagens completa, a seleção personalizada de chamada, os temas de fundo e de borda, as ferramentas de texto e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',

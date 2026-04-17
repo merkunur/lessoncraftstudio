@@ -197,11 +197,6 @@ const content: AppContent = {
         'Non. Le sudoku en images est entièrement visuel — la grille du puzzle ne contient que des images, aucun mot ni chiffre. Cela fait fonctionner chaque fiche identiquement dans les 11 langues prises en charge. Le seul élément localisé est le texte d\'en-tête auto-généré \" Sudoku en Images \" au-dessus de la grille, qui se traduit automatiquement quand vous changez de langue. Le puzzle lui-même ne nécessite aucune modification pour différents marchés, ce qui le rend idéal pour les ventes mondiales.',
     },
     {
-      question: 'Puis-je vendre des fiches sudoku en images créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez les droits complets pour vendre vos fiches sudoku en images en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources de classe sur Gumroad ou via tout autre canal de vente. Les trois niveaux de difficulté, les 104 collections d\'images thématiques et le format purement visuel vous donnent les outils créatifs pour produire des produits sudoku originaux et vendables dans le monde entier.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à chaque fonctionnalité, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les trois niveaux de difficulté, la sélection par thème et manuelle, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les outils texte et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil correspond à vos besoins avant d\'acheter une licence.',

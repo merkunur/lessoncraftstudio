@@ -164,11 +164,6 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — molempia aktiviteettitiloja, säädettäviä piilotettujen ja häiriöesineiden lukumääriä, päällekkäisyyttä välttävää sijoittelualgoritmia, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, nimi/päivämääräkenttiä ja kaikkia latausmuotoja — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun latauksissa on pieni vesileima. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja piiloesineiden työlehtia Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä piiloesineiden työlehtiäsi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, digitaalisina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla.',
-    },
-    {
       question: 'Sopivatko etsi ja merkitse -tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Etsi ja merkitse -tehtävät sopivat erinomaisesti esiopetukseen ja alkuopetukseen — ne eivät vaadi lukutaitoa, vain visuaalista havainnointikykyä. Kuvien etsiminen isosta kuvasta on intuitiivista jo pienimmille.',

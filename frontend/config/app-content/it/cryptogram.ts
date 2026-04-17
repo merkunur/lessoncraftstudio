@@ -189,11 +189,6 @@ const content: AppContent = {
         'Sì. Puoi accedere a tutte le funzionalità — Assegnazione Automatica, Assegnazione Manuale, caricamento di immagini personalizzate, Lettere da Rivelare, tutti i 104 temi, la legenda delle lettere del foglio risposte e tutti i formati di esportazione — senza creare un account, inserire una carta di credito o installare alcun software. I download della prova gratuita includono una piccola filigrana. Una licenza commerciale rimuove la filigrana e concede pieni diritti di vendita.',
     },
     {
-      question: 'Posso vendere schede create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede crittogramma come download digitali su Etsy, come libri di puzzle stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Le Lettere da Rivelare regolabili, le collezioni di immagini tematiche e la capacità multilingue ti offrono una forte differenziazione nelle categorie di mercato.',
-    },
-    {
       question: 'Il Generatore di Crittogramma è sensibile alla lingua?',
       answer:
         'Sì. Poiché il messaggio segreto è nella lingua selezionata e il set di lettere dell\'alfabeto cambia in base alla lingua, ogni versione linguistica produce un puzzle cifrato genuinamente diverso. La Licenza Commerciale è solo in inglese; l\'Accesso Completo sblocca tutte le 11 lingue. Un crittogramma in tedesco codifica una frase tedesca con un alfabeto ampliato che include ä, ö, ü — è un prodotto fondamentalmente diverso dalla versione in inglese.',

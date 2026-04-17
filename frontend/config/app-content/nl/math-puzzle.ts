@@ -194,11 +194,6 @@ const content: AppContent = {
         'Ja. Je hebt toegang tot alle functies — alle drie bewerkingsmodi, alle rastergroottes, de volledige afbeeldingenbibliotheek, antwoordbladgeneratie en alle exportformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
     },
     {
-      question: 'Wat bevat de commerciële licentie?',
-      answer:
-        'De commerciële licentie verwijdert het watermerk van alle downloads en verleent je onbeperkte rechten om de werkbladen die je maakt te verkopen — op Etsy.nl, Amazon KDP, Gumroad, Bol.com, je eigen website of elk ander platform. Er zijn geen royalty\'s per verkoop, geen maandelijkse kosten en geen limiet op het aantal puzzels dat je produceert of verkoopt. Je behoudt volledig eigendom van elk werkblad dat je genereert, en je kunt producten op meerdere marktplaatsen tegelijk aanbieden zonder extra licentiekosten of platformbeperkingen.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot alle functies, bieden wij geen restituties aan op aankopen van commerciële licenties. Je kunt elke bewerking, elke rastergrootte, elk thema en elk exportformaat testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool bij je behoeften past voordat je een licentie aanschaft.',

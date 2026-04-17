@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. The Chart Count Generator produces visual counting worksheets where users count images and fill bar chart cells — numbers and pictures are universal. Changing the language only affects the UI labels in the generator interface, the auto-generated header title and instructions, and the image library content labels. The worksheet output itself works identically in every language. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages for the interface.',
     },
     {
-      question: 'Can I sell picture graph worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your picture graph worksheets as digital downloads on Etsy, as printed data skills workbooks on Amazon KDP, as products on Gumroad, or through any other sales channel. The dual-canvas generation, auto answer key, and 104 themed image collections give you the tools to produce original, sellable picture graph products at scale.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test the dual canvas, image grid generation, auto answer key, the full image library, background and border themes, name/date fields, grayscale export, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

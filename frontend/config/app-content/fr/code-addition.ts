@@ -192,16 +192,6 @@ const content: AppContent = {
         'Oui. Vous pouvez accéder à toutes les fonctionnalités — les deux modes, tous les nombres de symboles, la bibliothèque complète, le Mot Mystère dans les onze langues, les corrigés et tous les formats d\'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l\'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane.',
     },
     {
-      question: 'Que comprend la licence commerciale ?',
-      answer:
-        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme. Pas de redevances, pas de frais mensuels, aucune limite.',
-    },
-    {
-      question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'addition codée en téléchargement numérique sur Etsy, en cahiers de puzzles sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal. Le format de décodage se distingue des fiches d\'addition standards dans les résultats de recherche.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Testez avant d\'acheter grâce à notre essai gratuit — toutes les fonctionnalités sont disponibles pour évaluer l\'outil avant d\'acheter. L\'essai gratuit donnant un accès complet, nous n\'offrons pas de remboursement sur les achats de licence. Assurez-vous que l\'outil répond à vos besoins grâce à l\'essai gratuit avant d\'acheter. Cette approche vous permet d\'évaluer chaque fonctionnalité, format d\'exportation et combinaison de thèmes avant de prendre une décision d\'achat, vous donnant une confiance totale dans votre investissement.',

@@ -189,11 +189,6 @@ const content: AppContent = {
         'Ei. Iso ja Pieni on puhtaasti visuaalinen sovellus — työarkit sisältävät vain kuvia nollatekstillä tuloksessa, joten ne ovat identtisiä jokaisella kielellä. Kielen vaihtaminen vaikuttaa vain käyttöliittymäetiketteihin generaattorissa. Kaupallinen Paketti sisältää 10 värikästä teemaa; Täysi Pääsy avaa kaikki 104 teemaa ja kaikki 11 käyttöliittymäkieltä.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kokovertailutyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
-    },
-    {
       question: 'Sopivatko kokovertailutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Kokovertailutehtävät sopivat erinomaisesti esiopetukseen (iso vs. pieni), alkuopetukseen (järjestä koon mukaan) ja alakoulun alkuun (vertaa mittoja). Visuaalinen vertailu on intuitiivista jo pienimmille lapsille.',

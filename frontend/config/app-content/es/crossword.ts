@@ -190,11 +190,6 @@ const content: AppContent = {
         'El generador usa un sistema de doble lienzo con una pestaña de Ficha (el puzzle) y una pestaña de Clave de Respuestas (la cuadrícula completada). La ficha muestra la cuadrícula de crucigrama vacía con posiciones numeradas y pistas con imágenes o texto — lista para que los solucionadores la completen. La clave de respuestas reproduce el diseño idéntico y rellena cada celda con las letras correctas. Ambas versiones se exportan por separado usando cuatro botones de descargue dedicados: crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf e image-crossword-answer-key.pdf.',
     },
     {
-      question: '¿Puedo vender crucigramas con imágenes hechos con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene derechos completos para vender sus crucigramas con imágenes como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los cuatro métodos de entrada, las claves de respuestas autogeneradas, la generación de palabras sensible al idioma y las 104 colecciones temáticas de imágenes le dan las herramientas creativas para producir productos de crucigramas originales y vendibles.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Dado que la prueba gratis le da acceso a todas las funciones, no ofrecemos reembolsos en compre de licencias comerciales. Puede probar los cuatro métodos de entrada, el generador de cuadrícula 15×15, la clave de respuestas autogenerada, la biblioteca completa de imágenes, temas de fondo y borde, y todos los formatos de descargue antes de comprar. La prueba gratis es la política de reembolso — asegúrese de que la herramienta se ajusta a sus necesidades antes de adquirir una licencia.',

@@ -183,11 +183,6 @@ const content: AppContent = {
         'Nei. Skyggematching er rent visuelt — arbeidsarkets resultat inneholder kun bilder, silhuetter og delte halvdeler uten lokalisert ordinnhold. Appgrensesnittet (menyer, knapper, overskriftstekst) stotter alle 11 språk, men det genererte arbeidsarket fungerer identisk uansett språkvalg. Dette gjor skyggematching arbeidsark universelt salgbare på alle markeder uten oversettelse. Kommersiell Pakke inkluderer 10 fargerike temaer; Full Tilgang låser opp alle 104 temaer og alle 11 brukergrensesnittspråk.',
     },
     {
-      question: 'Kan jeg selge skyggematching arbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge skyggematching arbeidsarkene dine som digitale nedlastinger på Etsy, som trykte arbeidboker på Amazon KDP, som produktlinjeressurser på Gumroad, eller via enhver annen salgskanal. De to ovelsesmodusene, automatisk genererte silhuetter, derangeringsalgoritmen, autofasit og 104 tematiske bildesamlinger gir deg de kreative verktoyene til å produsere originale, salgbare visuelle matchingsprodukter.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste begge ovelsesmodusene, automatisk genererte silhuetter, klipperetningsvalg, fasit, hele bildebiblioteket, bakgrunns- og rammetemaer, etikettbryter, navn/dato-felt, tekstverktoy og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

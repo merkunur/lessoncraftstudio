@@ -194,11 +194,6 @@ const content: AppContent = {
         'Ja. Du har tillgång till alla funktioner — alla tre innehållskällor, alla fyra svårighetsnivåer, hela bildbiblioteket, facitgenerering och alla exportformat — utan att skapa ett konto, ange ett kreditkort eller installera programvara. Nedladdningar från den gratis provversionen innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.',
     },
     {
-      question: 'Kan jag sälja arbetsbladen jag skapar med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du alla rättigheter att sälja dina gissa ordet-arbetsblad som digitala nedladdningar på Etsy.se, som tryckta aktivitetsböcker på Amazon KDP, som pedagogiska resurser på Gumroad, eller via vilken annan försäljningskanal som helst. Det bildbaserade pusselformatet och den flerspråkiga kapaciteten ger dig stark differentiering i trånga marknadsplatskategorier.',
-    },
-    {
       question: 'Vad är returpolicyn?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inga återbetalningar på köp av kommersiella licenser. Du kan testa varje innehållskälla, varje svårighetsnivå, varje tema, varje exportformat och varje sidformat innan du köper. Den gratis provversionen är returpolicyn — säkerställ att verktyget uppfyller dina behov innan du skaffar en licens.',

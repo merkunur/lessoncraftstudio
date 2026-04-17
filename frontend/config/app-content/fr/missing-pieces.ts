@@ -197,11 +197,6 @@ const content: AppContent = {
         'Oui. Le panneau Mise en Page comprend un sélecteur de thème de fond avec un curseur d\'opacité (0–1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d\'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière le contenu du puzzle, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d\'opacité séparés pour que vous puissiez créer des fonds subtils avec des bordures proéminentes, ou toute combinaison qui correspond à votre design.',
     },
     {
-      question: 'Puis-je vendre des puzzles pièces manquantes créés avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez les droits complets pour vendre vos puzzles de pièces manquantes en téléchargements numériques sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources de classe sur Gumroad ou via tout autre canal de vente. Les 6 formes de pièces, la difficulté configurable, les corrigés auto-générés et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de puzzles originaux et vendables.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à chaque fonctionnalité, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les 6 formes de pièces, les réglages de difficulté configurables, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil correspond à vos besoins avant d\'acheter une licence.',

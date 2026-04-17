@@ -197,11 +197,6 @@ const content: AppContent = {
         'Non. La Discrimination Visuelle est purement visuelle — le résultat de la fiche contient uniquement des images, des silhouettes et des moitiés divisées sans contenu textuel localisé. L\'interface de l\'application (menus, boutons, texte de l\'en-tête) prend en charge les 11 langues, mais la fiche générée fonctionne de manière identique quel que soit le choix de langue. Cela rend les fiches de discrimination visuelle universellement vendables sur tous les marchés sans traduction. La Licence Commerciale inclut 10 thèmes colorés ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface.',
     },
     {
-      question: 'Puis-je vendre des fiches de discrimination visuelle créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de discrimination visuelle comme téléchargements numériques sur Etsy, comme cahiers imprimés sur Amazon KDP, comme ressources imprimables sur Gumroad, ou via tout autre canal de vente. Les deux modes d\'exercice, les silhouettes auto-générées, l\'algorithme de dérangement, les corrigés automatiques et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de correspondance visuelle originaux et vendables.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à chaque fonctionnalité, nous n\'offrons pas de remboursements sur les achats de licences commerciales. Vous pouvez tester les deux modes d\'exercice, les silhouettes auto-générées, les options de direction de coupe, le corrigé, la bibliothèque d\'images complète, les thèmes de fond et de bordure, la bascule des étiquettes, les champs nom/date, les outils texte et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

@@ -187,16 +187,6 @@ const content: AppContent = {
         'Oui. Vous pouvez accéder à toutes les fonctionnalités du générateur — les quatre modes d\'exercice, la bibliothèque d\'images complète, la génération de corrigés et tous les formats d\'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l\'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.',
     },
     {
-      question: 'Que comprend la licence commerciale ?',
-      answer:
-        'La licence commerciale supprime le filigrane de tous les téléchargements et vous accorde des droits illimités pour vendre les fiches que vous créez — sur Etsy, Amazon KDP, Gumroad, votre propre site web ou toute autre plateforme. Il n\'y a pas de redevances par vente, pas de frais mensuels et aucune limite sur le nombre de fiches que vous produisez ou vendez.',
-    },
-    {
-      question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'addition en téléchargement numérique sur Etsy, en cahiers d\'activités imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. De nombreux vendeurs créent des packs thématiques et des cahiers d\'activités qui génèrent des revenus réguliers.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque mode, chaque thème, chaque format d\'export et chaque taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

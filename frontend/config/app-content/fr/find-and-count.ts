@@ -197,11 +197,6 @@ const content: AppContent = {
         'Oui. Le panneau Mise en Page inclut à la fois un sélecteur de thème de fond avec curseur d\'opacité et un sélecteur de thème de bordure avec son propre curseur d\'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière la scène Je Vois Je Vois, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d\'opacité séparés pour créer des fonds subtils avec des bordures prononcées, ou toute autre combinaison. L\'en-tête auto-généré utilise une bordure bleue (#2196F3) avec un accent intérieur jaune — indépendant du thème de bordure de page que vous sélectionnez.',
     },
     {
-      question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches Je Vois Je Vois et cherche et compte en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les deux modes d\'activité, les quatre types de tâches, le Repérage de Lettres avec alphabets spécifiques à la langue et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits Je Vois Je Vois originaux et vendables.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux modes d\'activité, les quatre types de tâches, le mode Repérage de Lettres, les dimensions de grille configurables, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

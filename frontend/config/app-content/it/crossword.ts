@@ -194,11 +194,6 @@ const content: AppContent = {
         'Il generatore utilizza un sistema a doppio canvas con una scheda Scheda (il puzzle) e una scheda Foglio Risposte (la griglia compilata). La scheda mostra la griglia vuota del cruciverba con posizioni numerate e indizi visivi o testuali — pronta per essere compilata dai risolutori. Il foglio risposte riproduce il layout identico e riempie ogni cella con le lettere corrette. Entrambe le versioni si esportano separatamente usando quattro pulsanti di download dedicati: crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf e image-crossword-answer-key.pdf.',
     },
     {
-      question: 'Posso vendere i cruciverba con immagini creati con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai pieni diritti di vendere i tuoi cruciverba con immagini come download digitali su Etsy, come quaderni stampati su Amazon KDP, come prodotti stampabili su Gumroad o attraverso qualsiasi altro canale di vendita. I quattro metodi di input, i fogli risposte auto-generati, la generazione di parole sensibile alla lingua e le 104 collezioni di immagini tematiche ti danno gli strumenti creativi per produrre prodotti di cruciverba originali e vendibili.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a ogni funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare tutti e quattro i metodi di input, il generatore con griglia 15×15, il foglio risposte auto-generato, la libreria completa di immagini, temi di sfondo e bordo e tutti i formati di download prima dell\'acquisto. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

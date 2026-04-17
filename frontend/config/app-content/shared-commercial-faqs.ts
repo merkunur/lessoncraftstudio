@@ -21,11 +21,6 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Yes, all four platforms are covered under the commercial license. You can sell digital downloads on Etsy, compile worksheets into printed puzzle and activity books for Amazon KDP, offer classroom bundles on Teachers Pay Teachers, and distribute printables via Gumroad or your own ecommerce store. The license does not restrict which marketplace you sell on.',
     },
     {
-      question: 'What is your refund policy?',
-      answer:
-        'We offer a 30-day refund window. If you decide the generator is not the right fit for your product line within the first 30 days, email support and we will process a full refund. After 30 days, refunds are handled case-by-case for material defects or issues with the tool.',
-    },
-    {
       question: 'Can I share the license with team members or employees?',
       answer:
         'A single license covers one seller account or business. If you operate as a sole proprietor, the license covers you and any virtual assistants working under your business. For teams of 3 or more people generating worksheets independently, contact support about team licensing — we offer discounted multi-seat packages.',
@@ -46,11 +41,6 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
       question: 'Darf ich Arbeitsblätter auf Etsy, Amazon KDP, Teachers Pay Teachers und Gumroad verkaufen?',
       answer:
         'Ja, alle vier Plattformen sind von der kommerziellen Lizenz abgedeckt. Sie können digitale Downloads auf Etsy verkaufen, Arbeitsblätter zu gedruckten Rätsel- und Aktivitätsbüchern für Amazon KDP zusammenstellen, Klassenraum-Bundles auf Teachers Pay Teachers anbieten und Druckvorlagen über Gumroad oder Ihren eigenen Online-Shop vertreiben. Die Lizenz schränkt nicht ein, auf welchem Marktplatz Sie verkaufen.',
-    },
-    {
-      question: 'Wie ist die Rückerstattungsrichtlinie?',
-      answer:
-        'Wir bieten ein 30-tägiges Rückerstattungsfenster. Falls der Generator innerhalb der ersten 30 Tage nicht zu Ihrer Produktlinie passt, schreiben Sie dem Support und wir erstatten den vollen Betrag zurück. Nach 30 Tagen werden Rückerstattungen im Einzelfall bei materiellen Mängeln oder Problemen mit dem Tool geprüft.',
     },
     {
       question: 'Kann ich die Lizenz mit Teammitgliedern oder Mitarbeitern teilen?',
@@ -75,11 +65,6 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Oui, ces quatre plateformes sont couvertes par la licence commerciale. Vous pouvez vendre des téléchargements numériques sur Etsy, compiler des fiches en livres d\'activités ou livres de casse-têtes imprimés pour Amazon KDP, proposer des packs de classe sur Teachers Pay Teachers et distribuer des imprimables via Gumroad ou votre propre boutique en ligne. La licence ne restreint pas la plateforme de vente.',
     },
     {
-      question: 'Quelle est votre politique de remboursement ?',
-      answer:
-        'Nous offrons une fenêtre de remboursement de 30 jours. Si le générateur ne correspond pas à votre ligne de produits dans les 30 premiers jours, contactez le support et nous procéderons au remboursement intégral. Après 30 jours, les remboursements sont traités au cas par cas pour les défauts matériels ou les problèmes techniques avec l\'outil.',
-    },
-    {
       question: 'Puis-je partager la licence avec des membres d\'équipe ou des employés ?',
       answer:
         'Une licence unique couvre un compte vendeur ou une entreprise. Si vous êtes entrepreneur individuel, la licence vous couvre ainsi que les assistants virtuels travaillant pour votre activité. Pour les équipes de 3 personnes ou plus créant des fiches indépendamment, contactez le support concernant les licences d\'équipe — nous proposons des forfaits multi-postes à prix réduit.',
@@ -100,11 +85,6 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
       question: '¿Puedo vender las fichas en Etsy, Amazon KDP, Teachers Pay Teachers y Gumroad?',
       answer:
         'Sí, las cuatro plataformas están cubiertas por la licencia comercial. Puede vender descargas digitales en Etsy, compilar fichas en libros de actividades y acertijos impresos para Amazon KDP, ofrecer paquetes para el aula en Teachers Pay Teachers y distribuir imprimibles mediante Gumroad o su propia tienda online. La licencia no restringe el mercado donde vende.',
-    },
-    {
-      question: '¿Cuál es la política de reembolso?',
-      answer:
-        'Ofrecemos un plazo de reembolso de 30 días. Si decide que el generador no encaja con su línea de productos dentro de los primeros 30 días, escriba al soporte y procesaremos el reembolso completo. Después de 30 días, los reembolsos se gestionan caso por caso por defectos materiales o problemas con la herramienta.',
     },
     {
       question: '¿Puedo compartir la licencia con miembros del equipo o empleados?',
@@ -129,11 +109,6 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Sì, tutte e quattro le piattaforme sono coperte dalla licenza commerciale. Puoi vendere download digitali su Etsy, comporre schede in libri di attività e rompicapo stampati per Amazon KDP, offrire pacchetti per la classe su Teachers Pay Teachers e distribuire stampabili tramite Gumroad o il tuo negozio online. La licenza non limita il marketplace su cui vendi.',
     },
     {
-      question: 'Qual è la politica di rimborso?',
-      answer:
-        'Offriamo una finestra di rimborso di 30 giorni. Se decidi che il generatore non è adatto alla tua linea di prodotti entro i primi 30 giorni, scrivi al supporto e procederemo al rimborso completo. Dopo 30 giorni, i rimborsi sono gestiti caso per caso per difetti materiali o problemi con lo strumento.',
-    },
-    {
       question: 'Posso condividere la licenza con membri del team o dipendenti?',
       answer:
         'Una singola licenza copre un account venditore o un\'azienda. Se sei un libero professionista, la licenza copre te e gli assistenti virtuali che lavorano per la tua attività. Per team di 3 o più persone che generano schede in modo indipendente, contatta il supporto per le licenze team: offriamo pacchetti multi-postazione scontati.',
@@ -154,11 +129,6 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
       question: 'Posso vender as atividades na Hotmart, Etsy, Amazon KDP, Teachers Pay Teachers e Gumroad?',
       answer:
         'Sim, todas essas plataformas estão cobertas pela licença comercial. Você pode vender downloads digitais na Hotmart e Etsy, compilar atividades em livros de passatempos e atividades impressos para Amazon KDP, oferecer pacotes para a sala de aula no Teachers Pay Teachers e distribuir imprimíveis via Gumroad ou sua própria loja online. A licença não restringe o marketplace de venda.',
-    },
-    {
-      question: 'Qual é a política de reembolso?',
-      answer:
-        'Oferecemos uma janela de reembolso de 30 dias. Se você decidir que o gerador não se encaixa na sua linha de produtos dentro dos primeiros 30 dias, escreva ao suporte e processaremos o reembolso integral. Após 30 dias, os reembolsos são avaliados caso a caso para defeitos materiais ou problemas com a ferramenta.',
     },
     {
       question: 'Posso compartilhar a licença com membros da equipe ou colaboradores?',
@@ -183,11 +153,6 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Ja, alle vier de platforms zijn gedekt door de commerciële licentie. U kunt digitale downloads verkopen op Etsy, werkbladen bundelen tot gedrukte puzzel- en activiteitenboeken voor Amazon KDP, klaslokaalpakketten aanbieden op Teachers Pay Teachers en printables distribueren via Gumroad of uw eigen webshop. De licentie beperkt niet op welk platform u verkoopt.',
     },
     {
-      question: 'Wat is het retourbeleid?',
-      answer:
-        'We bieden een retourvenster van 30 dagen. Als u binnen de eerste 30 dagen besluit dat de generator niet bij uw productlijn past, neem dan contact op met support en we verwerken de volledige terugbetaling. Na 30 dagen worden retourzendingen per geval beoordeeld voor materiële defecten of problemen met de tool.',
-    },
-    {
       question: 'Mag ik de licentie delen met teamleden of medewerkers?',
       answer:
         'Eén licentie dekt één verkopersaccount of bedrijf. Als u zelfstandig werkt, dekt de licentie u en alle virtuele assistenten die voor uw bedrijf werken. Voor teams van 3 of meer personen die onafhankelijk werkbladen genereren, neem contact op met support voor teamlicenties — we bieden pakketten met meerdere gebruikers tegen een gereduceerd tarief.',
@@ -208,11 +173,6 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
       question: 'Får jag sälja arbetsblad på Etsy, Amazon KDP, Teachers Pay Teachers och Gumroad?',
       answer:
         'Ja, alla fyra plattformar täcks av den kommersiella licensen. Du kan sälja digitala nedladdningar på Etsy, sammanställa arbetsblad till tryckta pussel- och aktivitetsböcker för Amazon KDP, erbjuda klasspaket på Teachers Pay Teachers och distribuera utskrifter via Gumroad eller din egen webbutik. Licensen begränsar inte vilken marknadsplats du säljer på.',
-    },
-    {
-      question: 'Vad är återbetalningspolicyn?',
-      answer:
-        'Vi erbjuder ett 30-dagars återbetalningsfönster. Om du under de första 30 dagarna bestämmer att generatorn inte passar din produktlinje, kontakta supporten så behandlar vi en full återbetalning. Efter 30 dagar hanteras återbetalningar från fall till fall för materialfel eller problem med verktyget.',
     },
     {
       question: 'Får jag dela licensen med teammedlemmar eller anställda?',
@@ -237,11 +197,6 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Ja, alle fire platforme er dækket af den kommercielle licens. Du kan sælge digitale downloads på Etsy, samle arbejdsark i trykte puslespils- og aktivitetsbøger til Amazon KDP, tilbyde klassepakker på Teachers Pay Teachers og distribuere printables via Gumroad eller din egen webshop. Licensen begrænser ikke hvilken markedsplads du sælger på.',
     },
     {
-      question: 'Hvad er tilbagebetalingspolitikken?',
-      answer:
-        'Vi tilbyder et 30-dages tilbagebetalingsvindue. Hvis du inden for de første 30 dage beslutter, at generatoren ikke passer til din produktlinje, så skriv til supporten, og vi behandler en fuld tilbagebetaling. Efter 30 dage håndteres tilbagebetalinger fra sag til sag ved materielle fejl eller problemer med værktøjet.',
-    },
-    {
       question: 'Må jeg dele licensen med teammedlemmer eller medarbejdere?',
       answer:
         'Én licens dækker én sælgerkonto eller virksomhed. Hvis du driver enkeltmandsvirksomhed, dækker licensen dig og eventuelle virtuelle assistenter, der arbejder for din virksomhed. For teams med 3 eller flere personer, der genererer arbejdsark uafhængigt, kontakt supporten om teamlicenser — vi tilbyder rabatterede pakker til flere brugere.',
@@ -264,11 +219,6 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Ja, alle fire plattformer er dekket av den kommersielle lisensen. Du kan selge digitale nedlastinger på Etsy, sette sammen arbeidsark i trykte puslespill- og aktivitetsbøker for Amazon KDP, tilby klasseromssett på Teachers Pay Teachers og distribuere utskrifter via Gumroad eller din egen nettbutikk. Lisensen begrenser ikke hvilken markedsplass du selger på.',
     },
     {
-      question: 'Hva er retningslinjene for refusjon?',
-      answer:
-        'Vi tilbyr et 30-dagers refusjonsvindu. Hvis du innen de første 30 dagene bestemmer at generatoren ikke passer til produktlinjen din, kontakt supporten, og vi behandler full refusjon. Etter 30 dager håndteres refusjoner fra sak til sak ved materielle feil eller problemer med verktøyet.',
-    },
-    {
       question: 'Kan jeg dele lisensen med teammedlemmer eller ansatte?',
       answer:
         'Én lisens dekker én selgerkonto eller bedrift. Hvis du driver enkeltpersonforetak, dekker lisensen deg og virtuelle assistenter som arbeider for virksomheten din. For team på 3 eller flere som genererer arbeidsark uavhengig, kontakt supporten om teamlisenser — vi tilbyr rabatterte flerbrukerpakker.',
@@ -289,11 +239,6 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
       question: 'Saanko myydä työarkkeja Etsyssä, Amazon KDP:ssä, Teachers Pay Teachersissa ja Gumroadissa?',
       answer:
         'Kyllä, kaikki neljä alustaa kuuluvat kaupallisen lisenssin piiriin. Voit myydä digitaalisia latauksia Etsyssä, koota työarkkeja painettuihin pulma- ja tehtäväkirjoihin Amazon KDP:hen, tarjota luokkahuonepaketteja Teachers Pay Teachersissa ja jakaa tulostettavia Gumroadin tai oman verkkokauppasi kautta. Lisenssi ei rajoita sitä, millä markkinapaikalla myyt.',
-    },
-    {
-      question: 'Mikä on palautuskäytäntö?',
-      answer:
-        'Tarjoamme 30 päivän palautusajan. Jos päätät ensimmäisten 30 päivän aikana, että generaattori ei sovi tuotevalikoimaasi, ota yhteyttä tukeen, niin käsittelemme täyden palautuksen. 30 päivän jälkeen palautukset käsitellään tapauskohtaisesti olennaisten vikojen tai työkalun ongelmien osalta.',
     },
     {
       question: 'Voinko jakaa lisenssin tiimin jäsenten tai työntekijöiden kanssa?',

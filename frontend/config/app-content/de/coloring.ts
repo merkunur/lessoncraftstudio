@@ -195,11 +195,6 @@ const content: AppContent = {
         'Nein. Der Malvorlagen-Generator ist eine rein visuelle App — die Ausgabe besteht ausschließlich aus Bildern, Zeichnungen und manuell hinzugefügtem Text. Es wird kein automatischer Text auf der Malvorlage generiert. Das Ändern der Sprache betrifft nur die Oberflächenbeschriftungen des Generators und die Bildbibliotheks-Inhaltsbeschriftungen, nicht die Malvorlagen-Ausgabe. Dasselbe Ausmalblatt kann weltweit ohne Übersetzung oder Anpassung verkauft werden. Die kommerzielle Lizenz umfasst 10 Schwarzweiß-Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen für die Benutzeroberfläche frei.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Malvorlagen auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Malvorlagen als digitale Downloads auf Etsy.de, als gedruckte Ausmalbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die freie Arbeitsfläche, das Freihand-Zeichenwerkzeug und die 104 thematischen Schwarzweiß-Bildsammlungen bieten die kreativen Werkzeuge für originale, verkaufsfertige Malvorlagen-Produkte. Das rein visuelle Format macht Ihre Produkte weltweit ohne Übersetzung verkaufbar — ein einziger Erstellungsworkflow bedient jeden Markt.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können die freie Arbeitsfläche, jedes Zeichenwerkzeug, die vollständige Bildbibliothek mit allen 104 Schwarzweiß-Themen, Shop-Helfer, dekorative Rahmenthemen, Graustufen-Export und alle Download-Formate einschließlich PDF und JPEG vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

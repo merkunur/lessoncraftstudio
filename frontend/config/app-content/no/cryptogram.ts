@@ -178,11 +178,6 @@ const content: AppContent = {
         'Ja. Du kan bruke alle funksjoner — Auto-Tildel, Manuell Tildeling, opplasting av egne bilder, Bokstaver å Avsløre, alle 104 temaer, bokstavlegendens fasit og alle eksportformater — uten å opprette en konto, oppgi kredittkort eller installere programvare. Nedlastinger fra den gratis prøveversjonen inneholder et lite vannmerke. En kommersiell lisens fjerner vannmerket og gir fulle salgsrettigheter.',
     },
     {
-      question: 'Kan jeg selge arbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge kryptogramarbeidsarkene dine som digitale nedlastinger på Etsy, som trykte puslespillboker på Amazon KDP, som pedagogiske ressurser på Gumroad eller via enhver annen salgskanal. De justerbare Bokstaver å Avsløre, tematiske bildesamlinger og den flerspråklige kapasiteten gir deg sterk differensiering i markedsplasskategorier.',
-    },
-    {
       question: 'Er Kryptogram-generatoren språkavhengig?',
       answer:
         'Ja. Fordi den hemmelige meldingen er på det valgte språket, og alfabetet endres etter språk, produserer hver språkversjon et genuint annerledes chifferpuslespill. Kommersiell Pakke er kun engelsk; Full Tilgang låser opp alle 11 språk. Et norsk kryptogram koder en norsk frase med et utvidet alfabet inkl. æ, ø, å — det er et fundamentalt annerledes produkt fra den engelske versjonen.',

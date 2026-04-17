@@ -196,11 +196,6 @@ const content: AppContent = {
         'Não. O Gerador de Escrita é uma ferramenta de prática visual de escrita manuscrita — as formas das letras, as setas da ordem dos traços e os modos de prática não mudam conforme o idioma. As etiquetas da interface traduzem-se para os 11 idiomas suportados, e a biblioteca de imagens fornece nomes de imagens localizados para as fontes de conteúdo, mas a funcionalidade principal de prática de escrita é a mesma independentemente do idioma. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface.',
     },
     {
-      question: 'Posso vender atividades criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de escrita como downloads digitais na Etsy, como cadernos de caligrafia impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. Os três modos de prática, os cinco estilos de fonte, a ordem de traços por setas e os traços de pré-escrita oferecem-lhe uma forte diferenciação em categorias saturadas das plataformas de venda.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada modo de prática, cada estilo de fonte, os traços de pré-escrita, cada fonte de conteúdo, cada formato de exportação e cada tamanho de página antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',

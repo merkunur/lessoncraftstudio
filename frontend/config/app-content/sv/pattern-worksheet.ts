@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nej. Mönsterarbetsblad är en rent visuell app — arbetsbladen innehåller enbart bilder i rutnätsrader med noll text på resultatet, så de är identiska på varje språk. Att byta språk påverkar bara gränssnittsetiketterna i generatorn och bildbiblioteksspråket, inte arbetsbladet i sig. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk.',
     },
     {
-      question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina mönsterarbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som lärarresurser på Gumroad eller genom valfri annan försäljningskanal. Nio mönstertyper, två frågelägen och övningsvis konfiguration ger dig den bredaste produktvariationen och differentieringen i marknadsplatskategorier.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje mönstertyp, varje frågeläge, varje övningskonfiguration, varje tema, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

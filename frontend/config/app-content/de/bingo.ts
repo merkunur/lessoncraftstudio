@@ -189,11 +189,6 @@ const content: AppContent = {
         'Ja. Sie können jede Funktion nutzen — alle Rastergrößen, Stapel-Generierung von bis zu 10 Karten, ZIP-Stapelexport, Bild- und Wort-Füllmodi, das Ansageblatt, die vollständige Bildbibliothek, benutzerdefinierte Ansage-Auswahl, Hintergrund- und Rahmenthemen, Textwerkzeuge und alle Download-Formate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Bingo-Karten auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Bingo-Karten als digitale Downloads auf Etsy.de, als gedruckte Aktivitätsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die konfigurierbaren Rastergrößen, Stapel-Generierung, ZIP-Export, dualen Füllmodi, Ansageblätter und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Bingo-Produkte im großen Maßstab zu produzieren.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle Rastergrößen, Stapel-Generierung, ZIP-Export, Bild- und Wort-Füllmodi, das Ansageblatt, die vollständige Bildbibliothek, benutzerdefinierte Ansage-Auswahl, Hintergrund- und Rahmenthemen, Textwerkzeuge und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

@@ -165,11 +165,6 @@ const content: AppContent = {
         'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — molempiin harjoitustiloihin, kaikkiin kahdeksaan prepositioon, täyteen kuvakirjastoon, kaikkiin muotoihin, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisältää?',
-      answer:
-        'Kaupallinen lisenssi tarjoaa vesileimattomia englanninkielisiä vientejä täysillä myyntioikeuksilla. Täysi Pääsy -lisenssi lisää kaikki 11 kieltä kieliopillisesti oikeilla prepositioilla. Molemmat tasot antavat rajoittamattomat myyntioikeudet Etsyssä, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla.',
-    },
-    {
       question: 'Sopivatko tilakäsitetehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Tilakäsitetehtävät sopivat erinomaisesti esiopetukseen (päällä, alla, vieressä) ja alkuopetukseen (edessä, takana, välissä). Kuvapohjaiset tehtävät tekevät abstrakteista käsitteistä konkreettisia.',

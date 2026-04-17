@@ -183,16 +183,6 @@ const content: AppContent = {
         'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — molempiin tiloihin, kaikkiin symbolimääriin, täyteen kuvakirjastoon, Paljasta Sana -tilaan kaikilla yhdellätoista kielellä, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisältää?',
-      answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myydä luomiasi työarkkeja — Etsyssä, Amazon KDP:ssä, Gumroadissa, omalla verkkosivustollasi tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eikä rajoituksia.',
-    },
-    {
-      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä koodiyhteenlaskutyöarkkejasi digitaalisina latauksina Etsyssä, pulmakirjoina Amazon KDP:ssä, Gumroadissa tai millä tahansa muulla myyntikanavalla. Koodimurtamismuoto on todistetusti tehokas, koska se erottuu tavallisista yhteenlaskutyöarkeista hakutuloksissa.',
-    },
-    {
       question: 'Tarvitseeko ohjelmistoa asentaa?',
       answer:
         'Ei. Koodiyhteenlasku Työarkkien Generaattori toimii täysin selaimessasi. Mitään ei tarvitse ladata, asentaa tai päivittää. Se toimii kaikissa moderneissa selaimissa, mukaan lukien Chrome, Firefox, Safari ja Edge. Avaa sivu ja aloita matemaattisten koodimurtamispulmien luominen.',

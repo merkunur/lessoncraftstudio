@@ -192,11 +192,6 @@ const content: AppContent = {
         'Oui. Vous pouvez accéder à toutes les fonctionnalités — Attribution Automatique, Attribution Manuelle, téléchargement d\'images personnalisées, Lettres à Révéler, les 104 thèmes, la légende des lettres du corrigé et tous les formats d\'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l\'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.',
     },
     {
-      question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches cryptogramme en téléchargement numérique sur Etsy, en cahiers de puzzles imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les Lettres à Révéler ajustables, les collections d\'images thématiques et la capacité multilingue vous offrent une forte différenciation dans les catégories de places de marché.',
-    },
-    {
       question: 'Le Générateur de Cryptogramme est-il sensible à la langue ?',
       answer:
         'Oui. Comme le message secret est dans la langue sélectionnée et que le jeu de lettres de l\'alphabet change selon la langue, chaque version linguistique produit un puzzle chiffré véritablement différent. La Licence Commerciale est en anglais uniquement ; l\'Accès Complet déverrouille les 11 langues. Un cryptogramme allemand encode une phrase allemande avec un alphabet élargi incluant ä, ö, ü — c\'est un produit fondamentalement différent de la version anglaise.',

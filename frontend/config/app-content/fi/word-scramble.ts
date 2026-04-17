@@ -164,11 +164,6 @@ const content: AppContent = {
         'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — kaikkiin kolmeen sisältölähteeseen, kaikkiin neljään vaikeustasoon, värikoodaukseen, täyteen kuvakirjastoon, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisältää?',
-      answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat myyntioikeudet Etsyssä, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eikä rajoituksia.',
-    },
-    {
       question: 'Sopivatko kirjainsekoitustehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kirjainsekoitustehtävät sopivat alkuopetukseen (1.–2. luokka) ja alakouluun. Lyhyet 3–4-kirjaimiset sanat sopivat nuorimmille, pidemmät sanat haastavat vanhempia oppilaita. Kuvavihjeet helpottavat sanan tunnistamista.',
@@ -187,11 +182,6 @@ const content: AppContent = {
       question: 'Sisältyvätkö vastaukset automaattisesti?',
       answer:
         'Kyllä. Jokainen tehtäväarkki sisältää automaattisesti luodun vastausavaimen, jossa sekoitetut kirjaimet on järjestetty oikeaan sanaan. Vastausavain on erillisellä sivulla.',
-    },
-    {
-      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kirjainsekoitustehtäviä digitaalisina latauksina Etsyssä, painettuina pulmakirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
     },
     {
       question: 'Kuinka monella kielellä voin luoda tehtäviä?',

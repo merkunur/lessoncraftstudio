@@ -197,11 +197,6 @@ const content: AppContent = {
         'Non. Le Générateur Cherche Objets est uniquement visuel — il ne charge pas de noms d\'images localisés et n\'utilise pas le système de Vocabulaire d\'Images. Les réglages de langue affectent uniquement les étiquettes de l\'interface (boutons, titres de panneaux, infobulles), PAS le contenu des fiches. Cela signifie que chaque fiche générée fonctionne universellement dans toutes les langues sans texte localisé sur la page, rendant vos produits vendables sur n\'importe quel marché sans modification.',
     },
     {
-      question: 'Puis-je vendre des fiches objets cachés créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'objets cachés en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les deux modes d\'activité, la génération de scènes sans chevauchement et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits d\'objets cachés originaux et vendables.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux modes d\'activité, l\'algorithme de placement sans chevauchement, les quantités d\'objets configurables, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les champs nom et date et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

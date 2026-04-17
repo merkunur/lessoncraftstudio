@@ -194,11 +194,6 @@ const content: AppContent = {
         'No. Il Puzzle a Griglia è puramente visivo — il risultato del puzzle contiene solo pezzi di immagini e numeri, senza contenuto testuale localizzato nella scheda. L\'interfaccia dell\'app (menu, pulsanti, testo dell\'intestazione) supporta tutte le 11 lingue, ma il puzzle generato funziona in modo identico indipendentemente dalla selezione della lingua. Questo rende i puzzle a griglia universalmente vendibili su tutti i mercati senza traduzione. La Licenza Commerciale include 10 temi colorati; l\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue di interfaccia.',
     },
     {
-      question: 'Posso vendere puzzle a griglia creati con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere i tuoi puzzle a griglia come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Le dimensioni di griglia configurabili, le caselle-indizio regolabili, i fogli risposte generati automaticamente e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di puzzle a griglia originali e vendibili.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare tutte le dimensioni di griglia, le configurazioni delle caselle-indizio, il foglio risposte generato automaticamente con i cerchi numerati, la libreria immagini completa, i temi di sfondo e di bordo, il caricamento di immagini personalizzate, gli strumenti di testo e tutti i formati di download prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento sia adatto alle tue esigenze prima di acquistare una licenza.',

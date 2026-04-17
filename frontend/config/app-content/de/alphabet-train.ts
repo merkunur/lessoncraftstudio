@@ -189,16 +189,6 @@ const content: AppContent = {
         'Ja. Sie können jede Funktion des Generators vollständig testen — beide Erstellungsmodi, die vollständige Bildbibliothek mit über 3.100 Illustrationen, alle Hinweiseinstellungen von 3 bis 11, die automatische Lösungsschlüssel-Erstellung, alle Seitengrößen und alle Exportformate einschließlich Graustufen — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Die App läuft vollständig in Ihrem Webbrowser. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte für alle Plattformen.',
     },
     {
-      question: 'Was beinhaltet die kommerzielle Lizenz?',
-      answer:
-        'Die kommerzielle Lizenz bietet wasserzeichenfreie englische Exporte mit vollen Verkaufsrechten — Sie dürfen Ihre Arbeitsblätter auf jeder Plattform verkaufen, in Aktivitätsbücher einbinden und als Teil digitaler Produktpakete anbieten. Die Vollzugriff-Lizenz fügt alle 11 Sprachen mit ihren nativen Alphabeten hinzu und vervielfacht Ihren Produktkatalog um das Elffache. Jede Sprachversion kann als eigenständiges Produkt gelistet werden. Beide Stufen gewähren unbegrenzte Rechte zum Verkauf auf Etsy.de, Amazon KDP, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform — keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter.',
-    },
-    {
-      question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Alphabet-Zug-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Produktionsgrenzen. Das einzigartige Zugformat und die mehrsprachige Fähigkeit mit 11 Sprachen bieten starke Differenzierung in wettbewerbsintensiven Marktplatz-Kategorien. Viele Verkäufer erstellen thematische Pakete und progressive Aktivitätsbücher, die konstantes skalierbares Einkommen generieren.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Erstellungsmodi, jede Hinweiseinstellung von 3 bis 11, alle 104 Themen, jede Seitengröße und jedes Exportformat vor dem Kauf ausgiebig testen. Erstellen Sie beliebig viele Arbeitsblätter mit Wasserzeichen, um sich von der Qualität und der Passung für Ihr Geschäft zu überzeugen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

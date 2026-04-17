@@ -185,16 +185,6 @@ const content: AppContent = {
         'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — kaikkiin neljään harjoitustilaan, täyteen kuvakirjastoon, vastausavaimen luomiseen, harmaa-astevientiin ja kaikkiin sivukokoihin — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman. Kaupallinen lisenssi poistaa vesileiman.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisältää?',
-      answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myydä luomiasi työarkkeja — Etsyssä, Amazon KDP:ssa, Gumroadissa, omalla verkkosivustollasi tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eikä rajoituksia.',
-    },
-    {
-      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssa?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä vähennyslaskutyöarkkejasi digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssa, tulostettavina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Monet myyjät luovat teemapaketteja ja aktiviteettikirjoja, jotka tuottavat johdonmukaista tuloa.',
-    },
-    {
       question: 'Sopivatko vähennyslaskutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Lukualueen säädöllä tehtävät sopivat esiopetuksesta alakoulun loppuun. Yliviivaus-visualisointi auttaa nuorimpia ymmärtämään vähentämisen konkreettisesti, ja suuremmat lukualueet haastavat vanhempia oppilaita.',

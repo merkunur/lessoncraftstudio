@@ -195,11 +195,6 @@ const content: AppContent = {
         'Nee. De Kleurplaten Generator is een puur visuele app — de uitvoer bestaat uitsluitend uit afbeeldingen, tekeningen en eventuele tekst die je handmatig toevoegt. Het wijzigen van de taal beïnvloedt alleen de UI-labels in de generatorinterface en de inhoudslabels van de afbeeldingenbibliotheek, niet de kleurplaat zelf. Het Commerciële abonnement bevat 10 kleurrijke thema\'s; Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen.',
     },
     {
-      question: 'Mag ik kleurplaten gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je kleurplaten te verkopen als digitale downloads op Etsy, als gedrukte kleurboeken op Amazon KDP, als leermiddelen op Gumroad, of via elk ander verkoopkanaal. Het vrije-vorm canvas, het tekengereedschap voor uit de vrije hand en de 104 thematische beeldcollecties geven je de creatieve gereedschappen om originele, verkoopbare kleurplaten producten te maken.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden wij geen restitutie aan op aankopen van commerciële licenties. Je kunt het vrije-vorm canvas, elk tekengereedschap, de volledige afbeeldingenbibliotheek, winkel hulpmiddelen, randthema\'s, grijstintenexport en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

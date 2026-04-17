@@ -197,11 +197,6 @@ const content: AppContent = {
         'Non. Le Générateur d\'Écriture est un outil de pratique d\'écriture visuelle — les formes des lettres, les flèches d\'ordre des traits et les modes de pratique ne changent pas selon la langue. Les étiquettes de l\'interface se traduisent dans les 11 langues prises en charge, et la bibliothèque d\'images fournit des noms d\'images localisés pour les sources de contenu, mais la fonctionnalité principale de pratique d\'écriture est la même quelle que soit la langue. La Licence Commerciale inclut 10 thèmes en couleur ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface.',
     },
     {
-      question: 'Puis-je vendre des fiches d\'écriture créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches d\'écriture en téléchargement numérique sur Etsy, en cahiers d\'écriture imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les trois modes de pratique, les cinq styles de police, l\'ordre des traits fléché et les tracés de pré-écriture vous donnent une forte différenciation dans les catégories saturées des places de marché.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque mode de pratique, chaque style de police, les tracés de pré-écriture, chaque source de contenu, chaque format d\'export et chaque taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

@@ -197,11 +197,6 @@ const content: AppContent = {
         'Non. Le Puzzle Grille est purement visuel — le résultat du puzzle ne contient que des tuiles d\'images et des numéros, sans contenu textuel localisé sur la fiche elle-même. L\'interface de l\'application (menus, boutons, texte d\'en-tête) prend en charge les 11 langues, mais le puzzle généré fonctionne de manière identique quel que soit le choix de la langue. Cela rend les puzzles grille universellement vendables sur tous les marchés sans traduction. La Licence Commerciale inclut 10 thèmes colorés ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface.',
     },
     {
-      question: 'Puis-je vendre des puzzles grille créés avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos puzzles grille sous forme de téléchargements numériques sur Etsy, de cahiers imprimés sur Amazon KDP, de ressources pour la vente sur Gumroad, ou par tout autre canal de vente. Les tailles de grille configurables, les cases-indices ajustables, les corrigés générés automatiquement et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de puzzles grille originaux et vendables.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester toutes les tailles de grille, les configurations de cases-indices, le corrigé généré automatiquement avec les cercles numérotés, la bibliothèque d\'images complète, les thèmes de fond et de bordure, le téléchargement d\'images personnalisées, les outils texte et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil correspond à vos besoins avant d\'acheter une licence.',

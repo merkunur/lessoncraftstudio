@@ -191,16 +191,6 @@ const content: AppContent = {
         'Yes. You can access every feature — both creation modes, the full image library, all clue settings, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
-      question: 'What does the commercial license include?',
-      answer:
-        'The Commercial license provides watermark-free English exports with full selling rights. The Full Access license adds all 11 languages with their native alphabets, multiplying your product catalog. Both tiers grant unlimited rights to sell on Etsy, Amazon KDP, Gumroad, your own store, or any other platform — no per-sale royalties, no monthly fees, and no production limits.',
-    },
-    {
-      question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your alphabet train worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as products on Gumroad, or through any other sales channel. The unique train format and multilingual capability give you strong differentiation in crowded marketplace categories. Alphabet worksheets have strong year-round demand because they target foundational literacy skills that every learner needs. Sellers who combine uppercase and lowercase sets with themed imagery report strong seasonal performance during back-to-school periods and holiday gift-giving seasons. Building a catalog of 10-20 themed alphabet sets gives you consistent passive revenue from a single product category.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both creation modes, every clue setting, every theme, and every export format before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license. This approach ensures you can evaluate every feature, export format, and theme combination before making a purchasing decision, giving you complete confidence in your investment.',    },

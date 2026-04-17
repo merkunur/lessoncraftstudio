@@ -193,11 +193,6 @@ const content: AppContent = {
         'Não. Ao contrário de aplicações que mostram palavras na atividade, os puzzles do intruso são totalmente visuais — não aparece nenhum texto no conteúdo do puzzle. O cabeçalho autogerado (\"Encontra o Diferente\") traduz-se para os 11 idiomas suportados, mas os exercícios contêm apenas imagens. Isto significa que cada atividade funciona em qualquer idioma sem modificação, tornando os puzzles do intruso uma escolha ideal para vendas em marketplaces globais.',
     },
     {
-      question: 'Posso vender atividades do intruso criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades do intruso como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para loja na Hotmart ou através de qualquer outro canal de venda. Os dois modos de geração, as substituições por exercício e as 104 coleções de imagens temáticas proporcionam-lhe as ferramentas criativas para produzir produtos de discriminação visual originais e vendáveis.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licença comercial. Pode testar ambos os modos de geração, o sistema de substituição por exercício, o gabarito autogerado, a biblioteca de imagens completa, temas de fundo e moldura, campos de nome/data, números de exercício e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença.',

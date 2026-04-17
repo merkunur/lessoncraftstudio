@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nei. Diagramtelling Generatoren produserer visuelle tellearbeidsark der brukerne teller bilder og fyller ut sojlediagramceller — tall og bilder er universelle. Å bytte språk påvirker bare brukergrensesnittetiketter i generatoren, den automatisk genererte overskriftens tittel og instruksjoner samt bildebiblioteksets innholdsetiketter. Arbeidsarkets resultat i seg selv fungerer identisk på ethvert språk. Kommersiell Pakke inkluderer 10 fargerike temaer; Full Tilgang låser opp alle 104 temaer og alle 11 brukergrensesnittspråk.',
     },
     {
-      question: 'Kan jeg selge bildediagram arbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge bildediagram arbeidsarkene dine som digitale nedlastinger på Etsy, som trykte dataferdighets-arbeidboker på Amazon KDP, som produktlinjeressurser på Gumroad, eller via enhver annen salgskanal. Dobbeltlerret-genereringen, automatisk fasit og 104 tematiske bildesamlinger gir deg verktoyene til å produsere originale, salgbare bildediagram-produkter i stor skala.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste dobbeltlerretet, bilderutenettgenerering, automatisk fasit, hele bildebiblioteket, bakgrunns- og rammetemaer, navn/dato-felt, gråtoneeksport og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

@@ -186,16 +186,6 @@ const content: AppContent = {
         'Ja. Du har tilgang til alle funksjoner i generatoren — de fire øvelsesmodusene, det komplette bildebiblioteket, fasitgenereringen og alle eksportformatene — uten å opprette en konto, oppgi kredittkort eller installere programvare. Nedlastinger fra den gratis prøveversjonen inneholder et lite vannmerke. En kommersiell lisens fjerner vannmerket og gir fulle salgsrettigheter.',
     },
     {
-      question: 'Hva er inkludert i den kommersielle lisensen?',
-      answer:
-        'Den kommersielle lisensen fjerner vannmerket fra alle nedlastinger og gir deg ubegrensede rettigheter til å selge arbeidsarkene du lager — på Etsy, Amazon KDP, Gumroad, din egen nettside eller enhver annen plattform. Det er ingen royalties per salg, ingen månedlige avgifter og ingen begrensninger på antall arbeidsark du produserer eller selger.',
-    },
-    {
-      question: 'Kan jeg selge arbeidsarkene jeg lager med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du alle rettigheter til å selge addisjons arbeidsarkene dine som digitale nedlastinger på Etsy, som trykte aktivitetsbøker på Amazon KDP, som pedagogiske utskriftsbare produkter på Gumroad, eller via enhver annen salgskanal. Mange selgere lager temapakker og aktivitetsbøker som genererer jevne inntekter.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste hver modus, hvert tema, hvert eksportformat og hvert sideformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet oppfyller behovene dine før du anskaffer en lisens.',

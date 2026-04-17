@@ -197,11 +197,6 @@ const content: AppContent = {
         'Sim. Pode aceder a todas as funcionalidades — as três fontes de conteúdo, os três modos de exibição, a biblioteca completa de imagens, os tamanhos de grelha ajustáveis, os controlos de direção, os gabaritos com código de cores e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d\'água. Uma licença comercial remove a marca d\'água e concede direitos completos de venda.',
     },
     {
-      question: 'Posso vender atividades criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de caça-palavras como downloads digitais na Etsy, como livros de puzzles impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. Os tamanhos de grelha ajustáveis, os controlos de direção e a capacidade multilingue oferecem-lhe uma forte diferenciação em categorias de mercado muito concorridas.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Oferecemos uma garantia de satisfação de 30 dias. Se não estiver satisfeito com a sua compra, contacte a nossa equipa de suporte para solicitar um reembolso completo — sem perguntas. A sua satisfação é a nossa prioridade.',

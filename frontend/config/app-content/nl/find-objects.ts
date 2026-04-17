@@ -195,11 +195,6 @@ const content: AppContent = {
         'Nee. De Zoek Voorwerpen Generator is puur visueel — het laadt geen gelokaliseerde afbeeldingsnamen en gebruikt niet het Beeldwoordenschat-systeem. Taalinstellingen beïnvloeden alleen de UI-labels (knoppen, paneeltitels, tooltips), NIET de inhoud van de werkbladen zelf. Dit betekent dat elk gegenereerd werkblad universeel werkt in alle talen zonder gelokaliseerde tekst op de pagina, waardoor je producten verkoopbaar zijn in elke markt zonder aanpassingen. Beide licentieniveaus — Commercieel en Volledige Toegang — bevatten alle 11 UI-talen omdat taal de werkbladinhoud niet beïnvloedt.',
     },
     {
-      question: 'Kan ik verborgen voorwerp werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je verborgen voorwerp werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De twee activiteitsmodi, het nul-overlap plaatsingsalgoritme en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare verborgen voorwerp producten te produceren.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden we geen restituties op commerciële licentie-aankopen. Je kunt beide activiteitsmodi, het nul-overlap plaatsingsalgoritme, instelbare objectaantallen, het automatisch gegenereerde antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema\'s, naam- en datumvelden en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

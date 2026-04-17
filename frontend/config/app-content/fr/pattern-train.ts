@@ -197,11 +197,6 @@ const content: AppContent = {
         'Non. Train de Suites Logiques est une application purement visuelle — les fiches ne contiennent que des images sur les wagons avec zéro texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n\'affecte que les étiquettes de l\'interface du générateur et les étiquettes de contenu de la bibliothèque d\'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes colorés ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface.',
     },
     {
-      question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches train de suites logiques en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les cinq types de motifs, le nombre d\'indices ajustable et le format unique en wagons de train vous offrent une forte différenciation et une vendabilité mondiale dans les catégories de places de marché.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque type de motif, chaque réglage de nombre d\'indices, chaque thème, chaque format d\'export et chaque taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

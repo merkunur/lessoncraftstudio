@@ -169,11 +169,6 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — kaikkia neljää yhdistämistilaa, konfiguroitavia parimääriä, automaattista vastauslehteä, täyttä kuvakirjastoa, tausta- ja kehysteemoja, nimi/päivämääräkenttiä, kohtanumeroita, merkkipisteitä ja kaikkia latausmuotoja — ilman tilin luomista, luottokorttia tai ohjelmiston asentamista. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja yhdistämistyöarkkeja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä yhdistämistyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
-    },
-    {
       question: 'Sopivatko yhdistämistehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Yhdistämistehtävät sopivat erinomaisesti esiopetukseen ja alkuopetukseen — ne eivät vaadi lukutaitoa, vain visuaalista hahmottamista. Kuvien yhdistäminen on intuitiivista jo 4-vuotiaille. Vaikeampien tehtävien avulla ne sopivat myös alakoulun alaluokille.',

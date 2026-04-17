@@ -183,11 +183,6 @@ const content: AppContent = {
         'Nei. Skriveovelse-generatoren er et visuelt handskriftsovelsesverktoy — bokstavformer, strekrekkefolgepilar og ovelsesmoduser endres ikke etter språk. Brukergrensesnittetiketter oversettes til alle 11 støttede språk, og bildebiblioteket gir lokaliserte bildenavn for innholdskilder, men den grunnleggende handskriftsovelsefunksjonaliteten er den samme uansett språk. Kommersiell Pakke inkluderer 10 fargerike temaer; Full Tilgang låser opp alle 104 temaer og alle 11 brukergrensesnittspråk.',
     },
     {
-      question: 'Kan jeg selge arbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge skriveovelsesarbeidsarkene dine som digitale nedlastinger på Etsy, som trykte arbeidboker på Amazon KDP, som pedagogiske ressurser på Gumroad eller via enhver annen salgskanal. De tre ovelsesmodusene, fem skrifttypestilene, pilguided strekrekkefolge og forskrivningsstreker gir deg sterk differensiering i trengte markedsplasskategorier.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste hver ovelsesmodus, hver skrifttypestil, forskrivningsstreker, hver innholdskilde, hvert eksportformat og hvert sideformat for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

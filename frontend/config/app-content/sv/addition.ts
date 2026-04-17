@@ -186,16 +186,6 @@ const content: AppContent = {
         'Ja. Du har tillgång till alla funktioner i generatorn — de fyra övningslägena, det kompletta bildbiblioteket, facitgenereringen och alla exportformat — utan att skapa ett konto, ange ett kreditkort eller installera programvara. Nedladdningar från den gratis provversionen innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.',
     },
     {
-      question: 'Vad ingår i den kommersiella licensen?',
-      answer:
-        'Den kommersiella licensen tar bort vattenstämpeln från alla nedladdningar och ger dig obegränsade rättigheter att sälja arbetsbladen du skapar — på Etsy.se, Amazon KDP, Gumroad, din egen webbplats eller vilken annan plattform som helst. Det finns inga royalties per försäljning, inga månadsavgifter och inga begränsningar på antalet arbetsblad du producerar eller säljer.',
-    },
-    {
-      question: 'Kan jag sälja arbetsbladen jag skapar med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du alla rättigheter att sälja dina additions arbetsblad som digitala nedladdningar på Etsy.se, som tryckta aktivitetsböcker på Amazon KDP, som pedagogiska utskrivbara produkter på Gumroad, eller via vilken annan försäljningskanal som helst. Många säljare skapar temapaket och aktivitetsböcker som genererar konstanta intäkter.',
-    },
-    {
       question: 'Vad är returpolicyn?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inga återbetalningar på köp av kommersiella licenser. Du kan testa varje läge, varje tema, varje exportformat och varje sidformat innan du köper. Den gratis provversionen är returpolicyn — säkerställ att verktyget uppfyller dina behov innan du skaffar en licens.',

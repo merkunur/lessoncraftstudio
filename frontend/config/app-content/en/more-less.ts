@@ -191,16 +191,6 @@ const content: AppContent = {
         'Yes. You can access every feature of the generator — all three comparison modes, the full image library, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
-      question: 'What does the commercial license include?',
-      answer:
-        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many worksheets you produce or sell.',
-    },
-    {
-      question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your comparison worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, as digital products on Gumroad, or through any other sales channel. Many sellers create themed bundles and activity books that generate consistent revenue. You can also combine comparison worksheets with other math worksheet types — such as addition or subtraction — to build comprehensive math practice bundles that command higher price points and appeal to buyers looking for all-in-one resources.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every mode, every theme, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license. We recommend creating several complete worksheets during your free trial, reviewing the print quality and layout options, and confirming the output meets your marketplace listing standards before committing to the commercial license.',    },

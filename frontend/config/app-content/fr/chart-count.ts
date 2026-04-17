@@ -192,11 +192,6 @@ const content: AppContent = {
         'Non. Le Générateur de Graphique à Images produit des fiches de comptage visuel où les utilisateurs comptent des images et remplissent des cases de diagramme à barres — les nombres et les images sont universels. Changer la langue n\'affecte que les étiquettes de l\'interface du générateur, le titre et les consignes de l\'en-tête auto-généré, et les étiquettes de contenu de la bibliothèque d\'images. La fiche elle-même fonctionne de manière identique dans toutes les langues. La Licence Commerciale inclut 10 thèmes en couleur ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface.',
     },
     {
-      question: 'Puis-je vendre des fiches graphique à images créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches graphique à images en téléchargement numérique sur Etsy, en cahiers de compétences en données imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. La génération double canevas, le corrigé automatique et les 104 collections d\'images thématiques vous donnent les outils pour produire des produits de graphiques à images originaux et vendables à grande échelle.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester le double canevas, la génération de grille d\'images, le corrigé automatique, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les champs nom/date, l\'export en niveaux de gris et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

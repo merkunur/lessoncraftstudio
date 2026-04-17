@@ -193,11 +193,6 @@ const content: AppContent = {
         'No. A differenza dei generatori basati su parole, le schede Picture Path sono interamente visive. gli utenti navigano labirinti e seguono percorsi di immagini senza leggere alcun testo. L\'intestazione auto-generata si traduce in 11 lingue, ma il contenuto del labirinto stesso non richiede comprensione linguistica. Questo rende ogni scheda immediatamente utilizzabile e vendibile in qualsiasi mercato mondiale senza modifiche.',
     },
     {
-      question: 'Posso vendere le schede labirinto create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai pieni diritti di vendere le tue schede labirinto come download digitali su Etsy, come quaderni stampati su Amazon KDP, come prodotti stampabili su Gumroad o attraverso qualsiasi altro canale di vendita. Le tre modalità di gioco, l\'algoritmo LPF, le 104 collezioni di immagini tematiche e il formato puramente visivo ti danno gli strumenti per produrre prodotti di labirinto originali e vendibili a livello globale.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a ogni funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare tutte e tre le modalità di gioco, l\'algoritmo LPF per labirinti, cinque ruoli immagine, personalizzazione dei muri, la chiave di risposta auto-generata, la libreria completa di immagini, temi di sfondo e bordo, campi nome/data e tutti i formati di download prima dell\'acquisto. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

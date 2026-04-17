@@ -174,11 +174,6 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — molempia aktiviteettitiloja, kaikkia neljää tehtävätyyppiä, Kirjainetsintää kielikohtaisilla aakkosilla, säädettäviä ruudukon mittoja, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja ja kaikkia latausmuotoja — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun latauksissa on pieni vesileima. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja Etsi ja Löydä -työlehtä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä Etsi ja Löydä- ja etsi-ja-laske-työlehtiäsi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla.',
-    },
-    {
       question: 'Sopivatko etsi ja laske -tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Etsi ja laske -tehtävät sopivat erinomaisesti esiopetukseen (laskeminen 1–5), alkuopetukseen (laskeminen 1–10) ja alakoulun alkuun. Tehtävät yhdistävät visuaalisen havainnoinnin ja laskemisen konkreettisesti.',
@@ -197,11 +192,6 @@ const content: AppContent = {
       question: 'Sisältyvätkö vastaukset automaattisesti?',
       answer:
         'Kyllä. Jokainen tehtävä sisältää automaattisesti luodun vastausavaimen, jossa oikeat lukumäärät on merkitty. Vastausavain on erillisellä sivulla.',
-    },
-    {
-      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä etsi ja laske -tehtäviä digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
     },
     {
       question: 'Kuinka monella kielellä voin luoda tehtäviä?',

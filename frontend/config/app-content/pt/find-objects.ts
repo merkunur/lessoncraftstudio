@@ -194,11 +194,6 @@ const content: AppContent = {
         'Não. O gerador de objetos ocultos é puramente visual — não carrega nomes de imagem localizados nem usa o sistema de Vocabulário de Imagens. A configuração de idioma afeta apenas as etiquetas da interface (botões, títulos de painéis, tooltips), NÃO o conteúdo das atividades em si. Isto significa que cada atividade gerada funciona universalmente em todos os idiomas sem qualquer texto localizado na página, tornando os seus produtos vendáveis em qualquer mercado sem modificações.',
     },
     {
-      question: 'Posso vender atividades de objetos ocultos criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de objetos ocultos como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para loja na Hotmart, ou através de qualquer outro canal de venda. Os dois modos de atividade, a geração de cenas sem sobreposição e as 104 coleções temáticas de imagens dão-lhe as ferramentas criativas para produzir produtos de objetos ocultos originais e vendáveis.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licença comercial. Pode testar ambos os modos de atividade, o algoritmo de posicionamento sem sobreposição, as quantidades configuráveis de objetos, o gabarito autogerado, a biblioteca completa de imagens, temas de fundo e de moldura, campos de nome e data, e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença.',

@@ -164,11 +164,6 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — kaikkia neljää syöttötapaa, 15×15-ruudukko-generaattoria, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, kaikkia latausmuotoja ja harmaasävyvaihtoa — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun latauksissa on pieni vesileima. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja kuvaristikko-palapeleja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kuvaristikko-palapelisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, digitaalisina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla.',
-    },
-    {
       question: 'Sopivatko sanaristikkotehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Sanaristikot sopivat parhaiten alkuopetukseen (1.–2. luokka) ja alakouluun (3.–6. luokka), kun lapset osaavat kirjoittaa kirjaimia. Kuvavihjeet tekevät tehtävistä saavutettavia jo 1. luokalla.',
@@ -187,11 +182,6 @@ const content: AppContent = {
       question: 'Sisältyvätkö vastaukset automaattisesti?',
       answer:
         'Kyllä. Jokainen sanaristikko sisältää automaattisesti luodun vastausavaimen, jossa kaikki sanat on täytetty ruudukkoon. Vastausavain on erillisellä sivulla.',
-    },
-    {
-      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä sanaristikkotehtäviä digitaalisina latauksina Etsyssä, painettuina pulmakirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
     },
     {
       question: 'Kuinka monella kielellä voin luoda tehtäviä?',

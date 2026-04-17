@@ -186,16 +186,6 @@ const content: AppContent = {
         'Sí. Puede acceder a todas las funciones del generador — los cuatro modos de ejercicio, la biblioteca completa de imágenes, la generación de claves de respuesta y todos los formatos de exportación — sin crear una cuenta, ingresar tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratuita incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.',
     },
     {
-      question: '¿Qué incluya la licencia comercial?',
-      answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, su propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
-    },
-    {
-      question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de suma como descargue digitales en Etsy, como libros de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y libros de actividades que generan ingresos consistentes.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Como la prueba gratuita le da acceso a todas las funciones, no ofrecemos reembolsos en compre de licencias comerciales. Puede probar cada modo, cada tema, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratuita es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de adquirir una licencia. La prueba con marca de agua le da acceso ilimitado para explorar todas las funciones a su propio ritmo sin límite de tiempo — úsala todo el tiempo que necesites para evaluar si la herramienta se ajusta a su flujo de producción.',

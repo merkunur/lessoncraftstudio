@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nee. In tegenstelling tot apps die woorden op het werkblad tonen, zijn welke hoort er niet bij puzzels volledig visueel — er verschijnt geen tekst op de puzzelinhoud zelf. De automatisch gegenereerde koptekst ("Vind de Vreemde Eend") vertaalt naar alle 11 ondersteunde talen, maar de daadwerkelijke oefeningen bevatten alleen afbeeldingen. Dit betekent dat elk werkblad in elke taal werkt zonder aanpassing, waardoor welke hoort er niet bij puzzels ideaal zijn voor wereldwijde marktplaatsverkoop.',
     },
     {
-      question: 'Kan ik welke hoort er niet bij werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je welke hoort er niet bij werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De twee generatiemodi, per-oefening overschrijvingen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare visuele discriminatieproducten te produceren.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden we geen restituties op commerciële licentie-aankopen. Je kunt beide generatiemodi, het per-oefening overschrijvingssysteem, het automatisch gegenereerde antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema\'s, naam-/datumvelden, oefeningnummers en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

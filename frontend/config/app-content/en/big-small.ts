@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. Big & Small is a purely visual app — worksheets contain only images with zero text on the output, so they are identical in every language. Changing the language only affects the UI labels in the generator interface, not the worksheet content. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages for the interface.',
     },
     {
-      question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your size comparison worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as products on Gumroad, or through any other sales channel. The five question types, two image modes, and fully visual format give you strong differentiation and global sellability in marketplace categories.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every question type, every image mode, every exercise configuration, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

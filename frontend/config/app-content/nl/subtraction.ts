@@ -186,16 +186,6 @@ const content: AppContent = {
         'Ja. Je hebt toegang tot alle functies van de generator — de vier oefenmodi, de volledige afbeeldingenbibliotheek, antwoordbladgeneratie, grijswaardenexport en alle paginaformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
     },
     {
-      question: 'Wat bevat de commerciële licentie?',
-      answer:
-        'De commerciële licentie verwijdert het watermerk van alle downloads en verleent je onbeperkte rechten om de werkbladen die je maakt te verkopen — op Etsy.nl, Amazon KDP, Gumroad, Bol.com, je eigen website of elk ander platform. Er zijn geen royalty\'s per verkoop, geen maandelijkse kosten en geen limieten op het aantal werkbladen dat je produceert of verkoopt.',
-    },
-    {
-      question: 'Kan ik werkbladen die ik met deze tool maak verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je alle rechten om je aftrekwerkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte activiteitenboeken op Amazon KDP, als educatieve leermiddelen op Gumroad, via Bol.com of via elk ander verkoopkanaal. Veel verkopers maken themapakketten en activiteitenboeken die consistente inkomsten genereren.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot alle functies, bieden wij geen restituties aan op aankopen van commerciële licenties. Je kunt elke modus, elk thema, elk exportformaat en elk paginaformaat testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

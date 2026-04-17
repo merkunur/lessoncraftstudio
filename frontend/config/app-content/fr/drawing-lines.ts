@@ -193,11 +193,6 @@ const content: AppContent = {
         'Non. Graphisme est une application purement visuelle — les fiches ne contiennent que des images, des tracés de lignes et des bordures décoratives avec zéro texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n\'affecte que les étiquettes de l\'interface du générateur et les étiquettes de contenu de la bibliothèque d\'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes colorés ; l\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface.',
     },
     {
-      question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de tracé de lignes en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les huit modèles de lignes, les 104 thèmes d\'images et le format entièrement visuel vous offrent une forte différenciation et une vendabilité mondiale dans les catégories de fiches.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque modèle de ligne, chaque thème d\'images, le remplissage automatique, chaque format d\'export et chaque taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

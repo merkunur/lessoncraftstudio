@@ -193,11 +193,6 @@ const content: AppContent = {
         'Sì. Il pannello Impostazioni Pagina include sia un selettore tema di sfondo con cursore opacità che un selettore tema di bordo con il proprio cursore opacità indipendente. I temi di sfondo aggiungono motivi decorativi dietro la scena Cerca e Trova, mentre i temi di bordo incorniciano la pagina. Entrambi hanno controlli di opacità separati così puoi creare sfondi discreti con bordi prominenti, o qualsiasi combinazione. L\'intestazione auto-generata usa un bordo blu (#2196F3) con un accento interno giallo — indipendente dal tema di bordo della pagina che selezioni.',
     },
     {
-      question: 'Posso vendere le schede Cerca e Conta create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai pieni diritti di vendere le tue schede Cerca e Conta come download digitali su Etsy, come quaderni stampati su Amazon KDP, come prodotti stampabili su Gumroad o attraverso qualsiasi altro canale di vendita. Le due modalità di attività, quattro tipi di compito, Cerca Lettere con alfabeti specifici per lingua e 104 collezioni di immagini tematiche ti danno gli strumenti creativi per produrre prodotti Cerca e Trova originali e vendibili.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a ogni funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare entrambe le modalità di attività, tutti e quattro i tipi di compito, la modalità Cerca Lettere, le dimensioni griglia configurabili, la chiave di risposta auto-generata, la libreria completa di immagini, temi di sfondo e bordo e tutti i formati di download prima dell\'acquisto. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

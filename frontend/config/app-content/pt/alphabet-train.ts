@@ -191,16 +191,6 @@ const content: AppContent = {
         'Sim. Pode aceder a todas as funcionalidades — ambos os modos de criação, a biblioteca completa de imagens, todos os ajustes de pistas, a geração de gabaritos e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d\'água. Uma licença comercial remove a marca d\'água e concede direitos completos de venda.',
     },
     {
-      question: 'O que inclui a licença comercial?',
-      answer:
-        'A Licença Comercial oferece exportações em inglês sem marca d\'água com direitos completos de venda. A licença Acesso Completo adiciona os 11 idiomas com os seus alfabetos nativos, multiplicando o seu catálogo de produtos. Ambos os níveis concedem direitos ilimitados para vender na Hotmart, Etsy, Amazon KDP, no seu próprio site ou em qualquer outra plataforma — sem royalties por venda, sem taxas mensais e sem limites de produção.',
-    },
-    {
-      question: 'Posso vender atividades criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de trem do alfabeto como downloads digitais na Etsy, como livros de atividades impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. O formato de trem único e a capacidade multilingue oferecem-lhe uma forte diferenciação em categorias de mercado muito concorridas.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar ambos os modos de criação, cada ajuste de pistas, cada tema e cada formato de exportação antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença.',

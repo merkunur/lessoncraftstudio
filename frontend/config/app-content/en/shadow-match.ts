@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. Shadow Match is purely visual — the worksheet output contains only images, silhouettes, and split halves with no localized word content. The app interface (menus, buttons, header text) supports all 11 languages, but the generated worksheet works identically regardless of language selection. This makes shadow match worksheets universally sellable across all markets without translation. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages.',
     },
     {
-      question: 'Can I sell shadow match worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your shadow match worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, on your own store, or through any other sales channel. The two exercise modes, auto-generated silhouettes, derangement algorithm, auto answer keys, and 104 themed image collections give you the creative tools to produce original, sellable visual matching products.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both exercise modes, auto-generated silhouettes, cut direction options, the answer key, the full image library, background and border themes, labels toggle, name/date fields, text tools, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

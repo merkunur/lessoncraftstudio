@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. The Coloring Page Generator is a purely visual app — output consists only of images, drawings, and any text you manually add. Changing the language only affects the UI labels in the generator interface and the image library content labels, not the coloring page output. The Commercial tier includes 10 colorful themes; Full Access unlocks all 104 themes and all 11 UI languages for the interface.',
     },
     {
-      question: 'Can I sell coloring pages made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your coloring pages as digital downloads on Etsy, as printed coloring books on Amazon KDP, as products on Gumroad, or through any other sales channel. The free-form canvas, freehand drawing tool, and 104 themed image collections give you the creative tools to produce original, sellable coloring page products.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test the free-form canvas, every drawing tool, the full image library, layout helpers, border themes, grayscale export, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

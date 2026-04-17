@@ -193,11 +193,6 @@ const content: AppContent = {
         'Sí. El panel de Configuración de Página incluye un selector de tema de fondo con un deslizador de opacidad (de 0 a 1 en pasos de 0,05) y un selector de tema de borde con su propio deslizador de opacidad independiente. Los temas de fondo añaden patrones decorativos detrás del contenido de clasificación, mientras que los temas de borde enmarcan la página. Ambos tienen controles de opacidad separados para que puedas crear fondos sutiles con bordes prominentes, o cualquier combinación que se adapte a su diseño.',
     },
     {
-      question: '¿Puedo vender fichas de clasificación creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de clasificación como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como productos imprimibles en Hotmart, o a través de cualquier otro canal de ventas. El mecanismo de clasificación a dos categorías, las claves de respuestas auto-generadas y las 104 colecciones de imágenes temáticas le dan las herramientas creativas para producir productos de actividades de clasificación originales y vendibles.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Como la prueba gratis le da acceso a cada función, no ofrecemos reembolsos en las compre de licencias comerciales. Puede probar la selección de categorías temática y manual, el número de imágenes configurable, la clave de respuestas auto-generada, la biblioteca de imágenes completa, los temas de fondo y de borde, los campos de nombre/fecha y todos los formatos de descargue antes de comprar. La prueba gratis es la política de reembolso — asegúrese de que la herramienta se adapte a sus necesidades antes de comprar una licencia.',

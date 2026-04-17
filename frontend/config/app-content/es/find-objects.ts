@@ -194,11 +194,6 @@ const content: AppContent = {
         'No. El generador de objetos ocultos es puramente visual — no carga nombres de imagen localizados ni use el sistema de Vocabulario de Imágenes. La configuración de idioma afecta solo a las etiquetas de la interfaz (botones, títulos de paneles, tooltips), NO al contenido de las fichas en sí. Esto significa que cada ficha generada funciona universalmente en todos los idiomas sin ningún texto localizado en la página, haciendo sus productos vendibles en cualquier mercado sin modificaciones.',
     },
     {
-      question: '¿Puedo vender fichas de objetos ocultos creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene plenos derechos para vender sus fichas de objetos ocultos como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart, o a través de cualquier otro canal de ventas. Los dos modos de actividad, la generación de escenas sin superposición y las 104 colecciones temáticas de imágenes le dan las herramientas creativas para producir productos de objetos ocultos originales y vendibles.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Dado que la prueba gratuita le da acceso a todas las funciones, no ofrecemos reembolsos en compre de licencias comerciales. Puede probar ambos modos de actividad, el algoritmo de posicionamiento sin superposición, las cantidades configurables de objetos, la clave de respuestas autogenerada, la biblioteca completa de imágenes, temas de fondo y de borde, campos de nombre y fecha, y todos los formatos de descargue antes de comprar. La prueba gratuita es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de adquirir una licencia.',

@@ -194,11 +194,6 @@ const content: AppContent = {
         'Sim. O painel de Configuração de Página inclui um seletor de tema de fundo com um controlo deslizante de opacidade e um seletor de tema de moldura com o seu próprio controlo deslizante de opacidade independente. Os temas de fundo adicionam padrões decorativos atrás da cena eu vejo, enquanto os temas de moldura enquadram a página. Ambos têm controlos de opacidade separados para que possa criar fundos subtis com molduras proeminentes, ou qualquer combinação. O cabeçalho autogerado usa uma moldura azul (#2196F3) com um acento interior amarelo — independente do tema de moldura de página que selecionar.',
     },
     {
-      question: 'Posso vender atividades eu vejo criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de eu vejo e encontra e conta como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos para loja na Hotmart ou através de qualquer outro canal de venda. Os dois modos de atividade, quatro tipos de tarefa, Identificação de Letras com alfabetos específicos por idioma e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos eu vejo originais e vendáveis.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licença comercial. Pode testar ambos os modos de atividade, os quatro tipos de tarefa, o modo Identificação de Letras, as dimensões de grelha configuráveis, o gabarito autogerado, a biblioteca de imagens completa, os temas de fundo e moldura, e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adapta às suas necessidades antes de adquirir uma licença.',

@@ -193,11 +193,6 @@ const content: AppContent = {
         'Sì. Il pannello Impostazione Pagina include un selettore di tema di sfondo con un cursore di opacità (da 0 a 1 in passi di 0,05) e un selettore di tema di bordo con il proprio cursore di opacità indipendente. I temi di sfondo aggiungono pattern decorativi dietro il contenuto di negozificazione, mentre i temi di bordo incorniciano la pagina. Entrambi hanno controlli di opacità separati per creare sfondi sottili con bordi prominenti, o qualsiasi combinazione che si adatti al tuo design.',
     },
     {
-      question: 'Posso vendere schede di negozificazione create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di negozificazione come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Il meccanismo di negozificazione a due categorie, i fogli risposte autogenerati e le 104 collezioni di immagini tematiche ti forniscono gli strumenti creativi per produrre prodotti di attività di negozificazione originali e vendibili.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare la selezione di categorie tematica e manuale, il numero di immagini configurabile, il foglio risposte autogenerato, la libreria immagini completa, i temi di sfondo e di bordo, i campi nome/data e tutti i formati di download prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento sia adatto alle tue esigenze prima di acquistare una licenza.',

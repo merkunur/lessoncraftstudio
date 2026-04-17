@@ -170,11 +170,6 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — kaikkia kolmea pelitilaa, LPF-sokkeloalgoritmia, viittä kuvaroolia, seinämuokkausta, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja, nimi/päivämääräkenttiä ja kaikkia latausmuotoja — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun latauksissa on pieni vesileima. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja sokkelo-työlehtiä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä sokkelo-työlehtisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, digitaalisina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Kolme pelitilaa, LPF-algoritmi, 104 temaattista kuvakokoelmaa ja puhtaasti visuaalinen muoto antavat sinulle työkalut alkuperäisten, globaalisti myytävien sokkelotuotteiden tuottamiseen.',
-    },
-    {
       question: 'Sopivatko labyrinttitehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Yksinkertaiset polkutehtävät sopivat esiopetukseen (kynäotteen harjoittelu), keskitasoiset labyrintit alkuopetukseen ja monimutkaiset labyrintit alakouluun. Tehtävät kehittävät avaruudellista hahmottamista ja ongelmanratkaisua.',

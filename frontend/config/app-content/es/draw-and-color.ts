@@ -193,11 +193,6 @@ const content: AppContent = {
         'No. Dibujo en Cuadrícula es una aplicación puramente visual — las fichas contienen solo imágenes en cuadrícula con cero texto en la salida, por lo que son idénticas en todos los idiomas. Cambiar el idioma solo afecta las etiquetas de la interfaz del generador y las etiquetas de contenido de la biblioteca de imágenes, no la ficha en sí. La Licencia Comercial incluya 10 temas de contornos en blanco y negro; el Acceso Completo desbloquea todos los 100+ temas de contornos en blanco y negro y los 11 idiomas de interfaz.',
     },
     {
-      question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de dibujo en cuadrícula como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. El formato de doble cuadrícula, el porcentaje de pistas ajustable, los modos de simetría y el estilo de contornos en blanco y negro crean un producto distintivo que compite fuertemente en las categorías de fichas de dibujo y actividades.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Al darte la prueba gratis acceso a todas las funciones, no ofrecemos reembolsos en las compre de licencia comercial. Puede probar cada tamaño de cuadrícula, cada porcentaje de pistas, cada modo de simetría, cada formato de exportación y cada tamaño de página antes de comprar. La prueba gratis es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de adquirir una licencia.',

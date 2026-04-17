@@ -183,11 +183,6 @@ const content: AppContent = {
         'Nei. Rutenettkobling er rent visuelt — puslespillresultatet inneholder kun bildefliser og tall, uten lokalisert ordinnhold på selve arbeidsarket. Appgrensesnittet (menyer, knapper, overskriftstekst) stotter alle 11 språk, men det genererte puslespillet fungerer identisk uansett språkvalg. Dette gjor rutenettskoblingspuslespill universelt salgbare på alle markeder uten oversettelse. Kommersiell Pakke inkluderer 10 fargerike temaer; Full Tilgang låser opp alle 104 temaer og alle 11 brukergrensesnittspråk.',
     },
     {
-      question: 'Kan jeg selge rutenettskoblingspuslespill laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge rutenettskoblingspuslespillene dine som digitale nedlastinger på Etsy, som trykte arbeidboker på Amazon KDP, som produktlinjeressurser på Gumroad, eller via enhver annen salgskanal. De konfigurerbare rutenettstorrelsene, justerbare ledetrådscellene, automatisk genererte fasiter og 104 tematiske bildesamlinger gir deg de kreative verktoyene til å produsere originale, salgbare rutenettspuslespillprodukter.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste alle rutenettstorrelser, ledetrådscellekonfigurasjoner, den automatisk genererte fasiten med nummererte overlegg, hele bildebiblioteket, bakgrunns- og rammetemaer, opplasting av egne bilder, tekstverktoy og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

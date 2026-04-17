@@ -189,11 +189,6 @@ const content: AppContent = {
         'Ja. Du kan använda alla funktioner — Auto-Tilldela, Manuell Tilldelning, uppladdning av egna bilder, Bokstäver att Avslöja, alla 104 teman, bokstavslegendens facit och alla exportformat — utan att skapa ett konto, ange kreditkort eller installera programvara. Gratis provversion-nedladdningar innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.',
     },
     {
-      question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina kryptogramarbetsblad som digitala nedladdningar på Etsy, som tryckta pusselböcker på Amazon KDP, som lärarresurser på Gumroad eller genom valfri annan försäljningskanal. De justerbara Bokstäver att Avslöja, tematiska bildsamlingarna och den flerspråkiga kapaciteten ger dig stark differentiering i marknadsplatskategorier.',
-    },
-    {
       question: 'Är Kryptogram-generatorn språkkänslig?',
       answer:
         'Ja. Eftersom det hemliga meddelandet är på det valda språket och alfabetsuppsättningen ändras efter språk producerar varje språkversion ett genuint annorlunda chifferpussel. Kommersiellt Paket är enbart engelska; Full Access låser upp alla 11 språk. Ett svenskt kryptogram kodar en svensk fras med ett utökat alfabet inklusive å, ä, ö — det är en fundamentalt annorlunda produkt från den engelska versionen.',

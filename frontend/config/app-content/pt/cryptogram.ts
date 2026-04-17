@@ -189,11 +189,6 @@ const content: AppContent = {
         'Sim. Pode aceder a todas as funcionalidades — Atribuição Automática, Atribuição Manual, carregamento de imagens personalizadas, Letras a Revelar, os 104 temas, a legenda de letras do gabarito e todos os formatos de exportação — sem criar uma conta, inserir cartão de crédito ou instalar qualquer software. Os downloads do teste grátis incluem uma pequena marca d\'água. Uma licença comercial remove a marca d\'água e concede direitos completos de venda.',
     },
     {
-      question: 'Posso vender atividades criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de criptograma como downloads digitais na Etsy, como livros de puzzles impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. As Letras a Revelar ajustáveis, as coleções de imagens temáticas e a capacidade multilingue oferecem-lhe uma forte diferenciação em categorias de mercado.',
-    },
-    {
       question: 'O Gerador de Criptograma é sensível ao idioma?',
       answer:
         'Sim. Como a mensagem secreta está no idioma selecionado e o conjunto de letras do alfabeto muda conforme o idioma, cada versão linguística produz um puzzle cifrado verdadeiramente diferente. A Licença Comercial é apenas em inglês; o Acesso Completo desbloqueia os 11 idiomas. Um criptograma em alemão codifica uma frase alemã com um alfabeto ampliado que inclui ä, ö, ü — é um produto fundamentalmente diferente da versão em inglês.',

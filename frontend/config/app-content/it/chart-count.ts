@@ -194,11 +194,6 @@ const content: AppContent = {
         'No. Il Generatore di Grafici di Conteggio produce schede di conteggio visivo dove gli utenti contano immagini e riempiono celle di grafico a barre — i numeri e le immagini sono universali. Cambiare la lingua influisce solo sulle etichette dell\'interfaccia del generatore, sul titolo e sulle istruzioni dell\'intestazione auto-generata, e sulle etichette di contenuto della libreria di immagini. La scheda in sé funziona in modo identico in tutte le lingue. La Licenza Commerciale include 10 temi colorati; l\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia.',
     },
     {
-      question: 'Posso vendere schede grafico a immagini create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede grafico a immagini come download digitali su Etsy, come quaderni di competenze sui dati stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. La generazione con canvas doppio, la chiave di valore percepito automatica e le 104 collezioni di immagini tematiche ti offrono gli strumenti per produrre prodotti di grafici a immagini originali e vendibili su larga scala.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare il canvas doppio, la generazione della griglia di immagini, la chiave di valore percepito automatica, la libreria di immagini completa, i temi di sfondo e bordo, i campi nome/data, l\'esportazione in scala di grigi e tutti i formati di download prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

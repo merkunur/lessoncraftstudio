@@ -194,11 +194,6 @@ const content: AppContent = {
         'Generatorn använder ett dubbelarbetsyte-system med en Arbetsbladsflik (pusslet) och en Facitflik (det ifyllda rutnätet). Arbetsbladet visar det tomma korssordsrutnätet med numrerade positioner och bild- eller textledtrådar — redo för lösare att fylla i. Facit återskapar den identiska layouten och fyller varje cell med de korrekta bokstäverna. Båda versionerna exporteras separat med fyra dedikerade nedladdningsknappar: crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf och image-crossword-answer-key.pdf.',
     },
     {
-      question: 'Kan jag sälja bildkorsord skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina bildkorsordspussel som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De fyra inmatningsmetoderna, automatiskt genererade facit, språkkänslig ordgenerering och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara korsordsprodukter.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla fyra inmatningsmetoder, 15×15 rutnätsgeneratorn, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

@@ -170,11 +170,6 @@ const content: AppContent = {
         'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — kaikkiin neljään vaikeustasoon, molempiin laskutoimitustiloihin, täyteen kuvakirjastoon, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisältää?',
-      answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myydä luomiasi työarkkeja — Etsyssä, Amazon KDP:ssä, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eikä rajoituksia.',
-    },
-    {
       question: 'Sopivatko algebrapulmatehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Algebrapulmat sopivat parhaiten alkuopetuksen loppuun (2. luokka) ja alakouluun (3.–6. luokka). Neljä vaikeustasoa mahdollistaa eriyttämisen: helpoin taso sopii 2. luokalle, vaikein haastaa 5.–6.-luokkalaisia.',
@@ -193,11 +188,6 @@ const content: AppContent = {
       question: 'Sisältyvätkö vastaukset automaattisesti?',
       answer:
         'Kyllä. Jokainen tehtäväarkki sisältää automaattisesti luodun vastausavaimen, joka näyttää jokaisen kuvasymboolin lukuarvon ja laskutoimituksen ratkaisun. Vastausavain vie oman sivunsa.',
-    },
-    {
-      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä algebrapulmatehtäviä digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla. Jokainen luomasi tehtävä on uniikki.',
     },
     {
       question: 'Mikä on palautuskäytäntö?',

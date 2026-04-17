@@ -195,11 +195,6 @@ const content: AppContent = {
         'Sí. El panel Configuración de Página incluye un selector de tema de fondo con un control deslizante de opacidad (0 a 1 en pasos de 0,05) y un selector de tema de borde con su propio control deslizante de opacidad independiente. Los temas de fondo añaden patrones decorativos detrás de la cuadrícula de bingo, mientras que los temas de borde enmarcan la página. La hoja de cantado hereda los bordes y el fondo del lienzo principal. Ambos tienen controles de opacidad separados para crear fondos sutiles con bordes prominentes, o cualquier combinación que se adapte a su diseño.',
     },
     {
-      question: '¿Puedo vender tarjetas de bingo creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus tarjetas de bingo como descargue digitales en Etsy, como cuadernos de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Los tamaños de cuadrícula configurables, la generación por lotes, la exportación ZIP, los dobles modos de relleno, las hojas de cantado y las 104 colecciones de imágenes temáticas le dan las herramientas creativas para producir productos de bingo originales y vendibles a gran escala.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'La prueba gratis le da acceso a todas las funciones, por lo que no ofrecemos reembolsos en las compre de licencia comercial. Puede probar todos los tamaños de cuadrícula, la generación por lotes, la exportación ZIP, los modos de relleno de imagen y de palabras, la hoja de cantado, la biblioteca de imágenes completa, la selección personalizada de cantado, los temas de fondo y de borde, las herramientas de texto y todos los formatos de descargue antes de comprar. La prueba gratis es la política de reembolso — asegúrese de que la herramienta satisface sus necesidades antes de adquirir una licencia.',

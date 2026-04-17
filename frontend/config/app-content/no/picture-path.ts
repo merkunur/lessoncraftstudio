@@ -183,11 +183,6 @@ const content: AppContent = {
         'Nei. Til forskjell fra ordbaserte generatorer er Bildesti arbeidsark helt visuelle. Brukerne navigerer labyrinter og folger bildeveier uten å lese noen tekst. Den automatisk genererte overskriften oversettes til 11 språk, men labyrintinnholdet i seg selv krever ingen språkforståelse. Dette gjor at hvert arbeidsark direkte kan brukes og selges på ethvert marked i verden uten modifikasjon.',
     },
     {
-      question: 'Kan jeg selge labyrintarbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge labyrintarbeidsarkene dine som digitale nedlastinger på Etsy, som trykte arbeidboker på Amazon KDP, som produktlinjeressurser på Gumroad, eller via enhver annen salgskanal. De tre spillmodusene, LPF-algoritmen, 104 tematiske bildesamlinger og det visuelle formatet gir deg verktoyene til å produsere originale, globalt salgbare labyrintprodukter.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste alle tre spillmodusene, LPF labyrintalgoritmen, fem bilderoller, veggtilpasning, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer, navn/dato-felt og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

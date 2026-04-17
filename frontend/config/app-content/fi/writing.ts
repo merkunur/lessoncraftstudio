@@ -195,11 +195,6 @@ const content: AppContent = {
         'Ei. Kirjoitusharjoitus-generaattori on visuaalinen käsinkirjoituksen harjoittelutyökalu — kirjainmuodot, vetojärjestysnuolet ja harjoitustilat eivät muutu kielen mukaan. Käyttöliittymäetiketit käännetään kaikille 11 tuetulle kielelle ja kuvakirjasto tarjoaa lokalisoidut kuvanimet. Kaupallinen Paketti sisältää 10 värikästä teemaa; Täysi Pääsy avaa kaikki 104 teemaa ja kaikki 11 käyttöliittymäkieltä.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kirjoitusharjoitustyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta. Kolme harjoitustilaa, viisi fonttityyliä, nuoliohjattu vetojärjestys ja esikirjoitusviivat antavat sinulle vahvan erilaistumisen.',
-    },
-    {
       question: 'Sopivatko kirjoitusharjoitukset esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Kirjoitusharjoitukset sopivat erinomaisesti esiopetukseen (kirjainten jäljentäminen, kynäote), alkuopetukseen (sanojen kirjoittaminen) ja alakoulun alkuun (lauseiden harjoittelu). Tehtävien vaikeustaso mukautuu käyttäjän valintoihin.',

@@ -178,16 +178,6 @@ const content: AppContent = {
         'Ja. Du har tilgang til alle funksjoner i generatoren — alle tre sammenligningsmodusene, det komplette bildebiblioteket, fasitgenerering og alle eksportformater — uten å opprette en konto, oppgi kredittkort eller installere programvare. Nedlastinger fra den gratis prøveversjonen inneholder et lite vannmerke. En kommersiell lisens fjerner vannmerket og gir fulle salgsrettigheter.',
     },
     {
-      question: 'Hva er inkludert i den kommersielle lisensen?',
-      answer:
-        'Den kommersielle lisensen fjerner vannmerket fra alle nedlastinger og gir deg ubegrensede rettigheter til å selge arbeidsarkene du lager — på Etsy, Amazon KDP, Gumroad, din egen nettside eller enhver annen plattform. Det er ingen royalties per salg, ingen månedlige avgifter og ingen begrensning på antall arbeidsark du produserer eller selger.',
-    },
-    {
-      question: 'Kan jeg selge arbeidsarkene jeg lager med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du alle rettigheter til å selge sammenligningsarbeidsarkene dine som digitale nedlastinger på Etsy, som aktivitetsbøker på Amazon KDP, som læringsmaterialer på Gumroad eller via enhver annen salgskanal. Mange selgere lager temapakker og aktivitetsbøker som genererer jevne inntekter. Du kan også kombinere sammenligningsarbeidsark med andre typer matematikkarbeidsark — som addisjon eller subtraksjon — for å bygge omfattende matematikkpakker som tiltrekker høyere priser.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste hver modus, hvert tema, hvert eksportformat og hvert sideformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet oppfyller behovene dine før du anskaffer en lisens. Vi anbefaler at du under din gratis prøveperiode lager flere komplette arbeidsark, gjennomgår utskriftskvaliteten og layoutmulighetene og bekrefter at resultatet oppfyller markedsplassstandardene dine før du kjøper den kommersielle lisensen.',

@@ -193,11 +193,6 @@ const content: AppContent = {
         'Nein. Muster-Arbeitsblatt ist eine rein visuelle App — die Arbeitsblätter enthalten ausschließlich Bilder in Rasterzeilen mit null Text auf der Ausgabe, sodass sie in jeder Sprache identisch sind. Das Ändern der Sprache betrifft nur die Oberflächenbeschriftung des Generators und die Bildbibliotheks-Inhaltsprache, nicht den Arbeitsblatt-Inhalt. Die kommerzielle Lizenz umfasst 10 farbige Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen für die Benutzeroberfläche frei.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Muster-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Übungshefte auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Neun Mustertypen, zwei Fragemodi und Pro-Übung-Konfiguration bieten Ihnen die breiteste Produktvielfalt und Differenzierung in Marktplatz-Kategorien.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jeden Mustertyp, jeden Fragemodus, jede Übungskonfiguration, jedes Thema, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

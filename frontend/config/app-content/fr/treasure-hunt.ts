@@ -192,11 +192,6 @@ const content: AppContent = {
         'Oui. Le panneau Mise en Page inclut à la fois un sélecteur de thème de fond avec un curseur d\'opacité (0–1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d\'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière la grille de coordonnées et les instructions directionnelles, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d\'opacité séparés pour que vous puissiez créer des fonds subtils avec des bordures proéminentes, ou toute combinaison adaptée à votre design. Ces éléments visuels augmentent la qualité perçue de vos fiches de chasse au trésor pour les listages sur les plateformes de vente.',
     },
     {
-      question: 'Puis-je vendre des fiches chasse au trésor créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de chasse au trésor en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les deux types de direction, la grille de coordonnées 5×5, les indices directionnels localisés, les corrigés auto-générés et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des puzzles de recherche de chemin originaux et vendables.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les deux types de direction, la grille de coordonnées 5×5, la génération de puzzle à 6 images, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

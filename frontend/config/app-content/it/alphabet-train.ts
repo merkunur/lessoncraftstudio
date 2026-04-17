@@ -190,16 +190,6 @@ const content: AppContent = {
         'Sì. Puoi accedere a tutte le funzionalità — entrambe le modalità di creazione, la libreria completa di immagini, tutte le regolazioni degli indizi, la generazione dei fogli delle risposte e tutti i formati di esportazione — senza creare un account, inserire la carta di credito o installare alcun software. I download della prova gratuita includono una piccola filigrana. Una licenza commerciale rimuove la filigrana e concede i pieni diritti di vendita.',
     },
     {
-      question: 'Cosa include la licenza commerciale?',
-      answer:
-        'La Licenza Commerciale offre esportazioni in inglese senza filigrana con pieni diritti di vendita. La licenza Accesso Completo aggiunge tutte le 11 lingue con i rispettivi alfabeti nativi, moltiplicando il tuo catalogo di prodotti. Entrambi i livelli concedono diritti illimitati per vendere su Etsy, Amazon KDP, Gumroad, sul tuo sito o su qualsiasi altra piattaforma — nessuna royalty per vendita, nessun canone mensile e nessun limite di produzione.',
-    },
-    {
-      question: 'Posso vendere le schede create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede treno dell\'alfabeto come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Il formato treno unico e la capacità multilingue ti offrono una forte differenziazione in categorie di mercato molto competitive.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare entrambe le modalità di creazione, ogni regolazione degli indizi, ogni tema e ogni formato di esportazione prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

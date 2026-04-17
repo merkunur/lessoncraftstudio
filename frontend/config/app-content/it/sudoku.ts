@@ -197,11 +197,6 @@ const content: AppContent = {
         'No. Il sudoku con immagini è interamente visivo — la griglia del puzzle contiene solo immagini, nessuna parola o numero. Questo rende ogni scheda funzionante in modo identico in tutte le 11 lingue supportate. L\'unico elemento localizzato è il testo dell\'intestazione \"Sudoku con Immagini\" autogenerata sopra la griglia, che si traduce automaticamente quando cambi lingua. Il puzzle stesso non richiede alcuna modifica per mercati diversi, rendendolo ideale per le vendite globali.',
     },
     {
-      question: 'Posso vendere schede di sudoku con immagini create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di sudoku con immagini come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse per il negozio su Gumroad o attraverso qualsiasi altro canale di vendita. I tre livelli di difficoltà, le 104 collezioni di immagini tematiche e il formato puramente visivo ti forniscono gli strumenti creativi per produrre prodotti di sudoku originali e vendibili a livello globale.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare tutti e tre i livelli di difficoltà, la selezione per tema e manuale, il foglio risposte autogenerato, la libreria immagini completa, temi di sfondo e di bordo, strumenti di testo e tutti i formati di download prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento sia adatto alle tue esigenze prima di acquistare una licenza.',

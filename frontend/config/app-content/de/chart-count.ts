@@ -189,11 +189,6 @@ const content: AppContent = {
         'Nein. Der Bilddiagramm-Generator erzeugt visuelle Zähl-Arbeitsblätter, bei denen Lernende Bilder zählen und Balkendiagramm-Zellen ausfüllen — Zahlen und Bilder sind universell. Das Ändern der Sprache betrifft nur die Oberflächenbeschriftungen des Generators, den automatisch generierten Überschriftstitel und die Anweisungen sowie die Bildbibliotheks-Inhaltsbeschriftungen. Die Arbeitsblatt-Ausgabe selbst funktioniert in jeder Sprache identisch. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen für die Benutzeroberfläche frei. Für Verkäufer bedeutet das: ein einziger Erstellungsworkflow bedient jeden Markt weltweit ohne sprachspezifische Varianten.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Bilddiagramm-Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Bilddiagramm-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Datenerfassungs-Arbeitsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die Doppel-Canvas-Generierung, der automatische Lösungsschlüssel und die 104 thematischen Bildsammlungen geben Ihnen die Werkzeuge, um originale, verkaufsfertige Bilddiagramm-Produkte im großen Maßstab zu produzieren.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können den Doppel-Canvas, die Bildraster-Generierung, den automatischen Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Namens-/Datumsfelder, Graustufen-Export und alle Download-Formate einschließlich PDF und JPEG vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

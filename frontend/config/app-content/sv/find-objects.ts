@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nej. Hitta Föremålen Generatorn är visuell — den laddar inte lokaliserade bildnamn eller använder bildvokabulärsystemet. Språkinställningar påverkar bara gränssnittsetiketterna (knappar, paneltitlar, verktygstips), INTE innehållet på arbetsbladen själva. Detta innebär att varje genererat arbetsblad fungerar universellt på alla språk utan någon lokaliserad text på sidan, vilket gör dina produkter säljbara på vilken marknad som helst utan modifieringar.',
     },
     {
-      question: 'Kan jag sälja dolda objekt-arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina dolda objekt-arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De två aktivitetslägena, noll-överlappning scengenerering och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara dolda objekt-produkter.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda aktivitetslägena, noll-överlappnings placeringsalgoritmen, konfigurerbara objektantal, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn- och datumfält och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

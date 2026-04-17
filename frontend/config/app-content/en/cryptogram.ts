@@ -191,11 +191,6 @@ const content: AppContent = {
         'Yes. You can access every feature — Auto-Assign, Manual Assignment, custom image upload, Letters to Reveal, all 104 themes, the letter legend answer key, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
-      question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your cryptogram worksheets as digital downloads on Etsy, as printed puzzle books on Amazon KDP, as products on Gumroad, or through any other sales channel. The adjustable Letters to Reveal, themed image collections, and multilingual capability give you strong differentiation in marketplace categories.',
-    },
-    {
       question: 'Is the Cryptogram generator language-sensitive?',
       answer:
         'Yes. Because the secret message is in the selected language and the alphabet set changes by locale, every language version produces a genuinely different cipher puzzle. The Commercial tier is English-only; Full Access unlocks all 11 languages. A German cryptogram encodes a German phrase with an expanded alphabet including ä, ö, ü — it is a fundamentally different product from the English version.',

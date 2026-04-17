@@ -193,11 +193,6 @@ const content: AppContent = {
         'No. Il Disegno su Griglia è un\'applicazione puramente visiva — le schede contengono solo immagini su griglia con zero testo nell\'output, quindi sono identiche in tutte le lingue. Cambiare la lingua influenza solo le etichette dell\'interfaccia del generatore e le etichette dei contenuti della libreria immagini, non la scheda stessa. La Licenza Commerciale include 10 temi di contorni in bianco e nero; l\'Accesso Completo sblocca tutti gli oltre 100 temi di contorni in bianco e nero e le 11 lingue dell\'interfaccia.',
     },
     {
-      question: 'Posso vendere schede create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di disegno su griglia come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Il formato a griglia doppia, la percentuale indizi regolabile, le modalità simmetria e lo stile di contorni in bianco e nero creano un prodotto distintivo che compete fortemente nelle categorie di schede di disegno e attività.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare ogni dimensione di griglia, ogni percentuale indizi, ogni modalità simmetria, ogni formato di esportazione e ogni dimensione di pagina prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

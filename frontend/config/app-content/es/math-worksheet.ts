@@ -190,16 +190,6 @@ const content: AppContent = {
         'Sí. Puede acceder a todas las funciones — los cuatro niveles de dificultad, ambos modos de operación, la biblioteca completa de imágenes, la generación de claves de respuesta y todos los formatos de exportación — sin crear una cuenta, introducir tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratis incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.',
     },
     {
-      question: '¿Qué incluya la licencia comercial?',
-      answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, su propio sitio web o cualquier otra plataforma. Sin regalías por venta, sin cuotas mensuales y sin límites en cuántas fichas produces o vende.',
-    },
-    {
-      question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus puzzles algebraicos como descargue digitales en Etsy, como cuadernos de actividades impresos en Amazon KDP, como productos imprimibles en Hotmart o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes clasificados por dificultad y cuadernos de álgebra progresiva que generan ingresos constantes. Pruebe todas las funciones con la prueba gratis antes de comprar — la prueba incluya todos los niveles de dificultad, temas y formatos de exportación para que puedas evaluar la calidad del producto de primera mano.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Como la prueba gratis le da acceso a todas las funciones, no ofrecemos reembolsos en las compre de licencia comercial. Puede probar cada nivel de dificultad, cada modo de operación, cada tema y cada formato de exportación antes de comprar. La prueba gratis es la política de reembolso — asegúrese de que la herramienta se ajusta a sus necesidades antes de adquirir una licencia.',

@@ -194,11 +194,6 @@ const content: AppContent = {
         'Sim. O painel Configuração de Página inclui tanto um seletor de tema de fundo com um controlo deslizante de opacidade (de 0 a 1 em passos de 0,05) como um seletor de tema de borda com o seu próprio controlo deslizante de opacidade independente. Os temas de fundo adicionam padrões decorativos atrás do conteúdo de associação, enquanto os temas de borda emolduram a página. Ambos têm controlos de opacidade separados para criar fundos subtis com bordas pronunciadas, ou qualquer combinação que se adeque ao seu design. Estes elementos visuais aumentam a qualidade percebida das suas atividades de associação nos listados dos marketplaces.',
     },
     {
-      question: 'Posso vender atividades de associação criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de associação como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. Os quatro modos de associação, os gabaritos gerados automaticamente e as 104 coleções de imagens temáticas dão-lhe as ferramentas criativas para produzir produtos de atividades de associação originais e vendáveis.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar os quatro modos de associação, o gabarito gerado automaticamente, a biblioteca de imagens completa, os temas de fundo e de borda, os campos de nome/data, os números dos itens, os pontos decorativos e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',

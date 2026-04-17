@@ -193,11 +193,6 @@ const content: AppContent = {
         'Nein. Der Versteckte-Objekte-Generator ist rein visuell — er lädt keine lokalisierten Bildbezeichnungen und verwendet nicht das Bildvokabular-System. Die Spracheinstellung beeinflusst nur die Oberflächenbeschriftungen (Buttons, Panel-Titel, Tooltips), NICHT den Inhalt der Arbeitsblätter selbst. Das bedeutet: Jedes generierte Arbeitsblatt funktioniert universell in jeder Sprache ohne lokalisierten Text auf der Seite. Für Verkäufer ist das ein entscheidender Vorteil — ein einziges Produkt kann in jedem Markt weltweit verkauft werden, ohne Anpassungen oder zusätzliche Sprachversionen.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Versteckte-Objekte-Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Versteckte-Objekte- und Suchbild-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die zwei Aktivitätsmodi, der überlappungsfreie Szenen-Algorithmus und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufbare Suchbild-Produkte zu erstellen.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Aktivitätsmodi, konfigurierbare Suchobjekt- und Ablenkungsbild-Anzahlen, den überlappungsfreien Platzierungsalgorithmus, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek mit 104 thematischen Sammlungen, Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern, Namens- und Datumsfelder und alle Download-Formate in 300 DPI vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Suchbilder wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität.',

@@ -197,11 +197,6 @@ const content: AppContent = {
         'Oui. Vous pouvez accéder à toutes les fonctionnalités — les trois sources de contenu, les quatre niveaux de difficulté, la bibliothèque d\'images complète, le code couleur voyelles-consonnes, la génération de corrigés et tous les formats d\'export — sans créer de compte, entrer de carte bancaire ni installer de logiciel. Les téléchargements de l\'essai gratuit incluent un petit filigrane. Une licence commerciale supprime le filigrane et accorde les droits de vente complets.',
     },
     {
-      question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches mots mélangés en téléchargement numérique sur Etsy, en cahiers d\'activités imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Le format tuiles de lettres mélangées, le code couleur voyelles-consonnes et la capacité multilingue vous offrent une forte différenciation dans les catégories de places de marché très concurrentielles.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque source de contenu, chaque niveau de difficulté, chaque thème, les options de code couleur, chaque format d\'export et chaque format de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

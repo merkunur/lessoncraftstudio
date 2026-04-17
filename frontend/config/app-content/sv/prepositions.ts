@@ -190,16 +190,6 @@ const content: AppContent = {
         'Ja. Du har tillgång till alla funktioner — båda övningslägena, alla åtta prepositioner, det kompletta bildbiblioteket, alla former, facitgenerering och alla exportformat — utan att skapa ett konto, ange ett kreditkort eller installera programvara. Nedladdningar från den gratis provversionen innehåller en liten vattenstämpel. En kommersiell licens tar bort vattenstämpeln och ger fulla försäljningsrättigheter.',
     },
     {
-      question: 'Vad ingår i den kommersiella licensen?',
-      answer:
-        'Den Kommersiella licensen erbjuder vattenstämpelfria engelska exporter med fulla försäljningsrättigheter. Full Tillgång-licensen lägger till alla 11 språk med grammatiskt korrekta prepositioner, artiklar och grammatikregler, vilket multiplicerar din produktkatalog. Båda licensnivåerna ger obegränsade rättigheter att sälja på Etsy.se, Amazon KDP, Gumroad, din egen webbplats eller vilken annan plattform som helst — inga royalties per försäljning, inga månadsavgifter och inga produktionsbegränsningar.',
-    },
-    {
-      question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du alla rättigheter att sälja dina prepositioner arbetsblad som digitala nedladdningar på Etsy.se, som tryckta aktivitetsböcker på Amazon KDP, som pedagogiska utskrivbara produkter på Gumroad, eller via vilken annan försäljningskanal som helst. Bild-och-form formatet och den flerspråkiga förmågan ger dig stark differentiering i fullsatta marknadsplatskategorier.',
-    },
-    {
       question: 'Vad är returpolicyn?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inga återbetalningar på köp av kommersiella licenser. Du kan testa båda övningslägena, varje preposition, varje tema, varje form och varje exportformat innan du köper. Den gratis provversionen är returpolicyn — säkerställ att verktyget uppfyller dina behov innan du skaffar en licens.',

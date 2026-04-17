@@ -193,11 +193,6 @@ const content: AppContent = {
         'Sí. El panel de Configuración de Página incluye un selector de tema de fondo con un control deslizante de opacidad y un selector de tema de borde con su propio control deslizante de opacidad independiente. Los temas de fondo añaden patrones decorativos detrás de la escena yo espío, mientras que los temas de borde enmarcan la página. Ambos tienen controles de opacidad separados para que puedas crear fondos sutiles con bordes prominentes, o cualquier combinación. El encabezado autogenerado use un borde azul (#2196F3) con un acento interior amarillo — independiente del tema de borde de página que selecciones.',
     },
     {
-      question: '¿Puedo vender fichas yo espío creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de yo espío y busque y cuenta como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos para venta en línea en Hotmart o a través de cualquier otro canal de venta. Los dos modos de actividad, cuatro tipos de tarea, Identificación de Letras con alfabetos específicos por idioma y las 104 colecciones de imágenes temáticas le dan las herramientas creativas para producir productos yo espío originales y vendibles.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Dado que la prueba gratuita le da acceso a todas las funciones, no ofrecemos reembolsos en compre de licencia comercial. Puede probar ambos modos de actividad, los cuatro tipos de tarea, el modo Identificación de Letras, las dimensiones de cuadrícula configurables, la clave de respuesta autogenerada, la biblioteca de imágenes completa, los temas de fondo y borde, y todos los formatos de descargue antes de comprar. La prueba gratuita es la política de reembolso — asegúrese de que la herramienta se ajusta a sus necesidades antes de adquirir una licencia.',

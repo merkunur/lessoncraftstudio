@@ -179,11 +179,6 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — kaikkia 6 palan muotoa, säädettäviä puuttuvia paloja ja ratkaisuvaihtoehtoja, automaattisesti luotua vastausavainta, koko kuvakirjastoa, tausta- ja kehysteemoja ja kaikkia latausmuotoja — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun latauksissa on pieni vesileima. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja puuttuvien palojen palapeleja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä puuttuvien palojen palapelisi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, omassa kaupassasi tai millä tahansa muulla myyntikanavalla. 6 palan muotoa, säädettävä vaikeus, automaattisesti luodut vastausavaimet ja 104 temaattista kuvakokoelmaa antavat sinulle luovat työkalut alkuperäisten, myytävien palapeelituotteiden tuottamiseen.',
-    },
-    {
       question: 'Sopivatko puuttuvat palat -tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Puuttuvat palat -tehtävät sopivat erinomaisesti esiopetukseen ja alkuopetukseen — ne kehittävät visuaalista hahmottamista ilman lukutaitovaatimusta. Monimutkaisemmat kuvat haastavat myös alakoulun oppilaita.',

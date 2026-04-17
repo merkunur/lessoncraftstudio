@@ -191,16 +191,6 @@ const content: AppContent = {
         'Yes. You can access every feature — all four difficulty levels, both operation modes, the full image library, answer key generation, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
-      question: 'What does the commercial license include?',
-      answer:
-        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many worksheets you produce or sell.',
-    },
-    {
-      question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your algebra puzzle worksheets as digital downloads on Etsy, as printed activity books on Amazon KDP, through your own store on Gumroad, or through any other sales channel. Many sellers create difficulty-graded bundles and progressive algebra books that generate consistent revenue. Try every feature with the free trial before purchasing — the trial includes all difficulty levels, themes, and export options so you can evaluate product quality firsthand. Math drill worksheets have consistent year-round demand because parents, tutors, and homeschool families continuously need fresh practice material. Sellers who create grade-level bundles spanning kindergarten through third grade build catalog depth that keeps buyers returning for the next difficulty tier. The combination of customizable operations, automatic answer keys, and professional export quality positions your products competitively against mass-produced alternatives.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every difficulty level, every operation mode, every theme, and every export format before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',    },

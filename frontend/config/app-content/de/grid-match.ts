@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nein. Der Raster-Puzzle-Generator ist rein visuell — die Rätselausgabe enthält nur Bildkacheln und Zahlen, ohne lokalisierte Wortinhalte auf dem Arbeitsblatt selbst. Die App-Oberfläche (Menüs, Buttons, Überschriftentext) unterstützt alle 11 Sprachen, aber das generierte Rätsel funktioniert unabhängig von der Sprachauswahl identisch. Das macht Rasterpuzzle universell verkaufbar über alle Märkte hinweg ohne Übersetzung — ein auf Deutsch erstelltes Rätsel kann ohne jede Änderung auf Etsy.com, Etsy.de und allen anderen internationalen Marktplätzen gleichzeitig gelistet werden. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen frei.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Rasterpuzzle auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Rasterpuzzle als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die konfigurierbaren Rastergrößen, einstellbaren Hinweiszellen, automatisch generierten Lösungsschlüssel und 104 thematischen Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige Rasterpuzzle-Produkte zu produzieren.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle Rastergrößen, Hinweiszellen-Konfigurationen, den automatisch generierten Lösungsschlüssel mit nummerierten Overlays, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, eigene Bild-Uploads, Textwerkzeuge und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

@@ -183,11 +183,6 @@ const content: AppContent = {
         'Ja. Panelet Sideoppsett inkluderer både en bakgrunnstema-velger med en opasitetsglidebryter og en rammetema-velger med sin egen uavhengige opasitetsglidebryter. Bakgrunnstemaer legger til dekorative monstre bak sokescenen, mens rammetemaer rammer inn siden. Begge har separate opasitetskontroller. Den automatisk genererte overskriften bruker en blå ramme (#2196F3) med gul indre aksent — uavhengig av det siderammetemaet du velger.',
     },
     {
-      question: 'Kan jeg selge sokearbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge finn og tell arbeidsarkene dine som digitale nedlastinger på Etsy, som trykte arbeidboker på Amazon KDP, som produktlinjeressurser på Gumroad, eller via enhver annen salgskanal. De to aktivitetsmodusene, fire oppgavetypene, Bokstavsok med lokalspesifikke alfabeter og 104 tematiske bildesamlinger gir deg de kreative verktoyene til å produsere originale, salgbare sokeprodukter.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste begge aktivitetsmodusene, alle fire oppgavetypene, Bokstavsok-modusen, konfigurerbare rutenettdimensjoner, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

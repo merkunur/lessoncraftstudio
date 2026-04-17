@@ -194,11 +194,6 @@ const content: AppContent = {
         'Sì. Il pannello Impostazioni Pagina include sia un selettore tema di sfondo con cursore opacità (0–1 in incrementi di 0,05) che un selettore tema di bordo con il proprio cursore opacità indipendente. I temi di sfondo aggiungono motivi decorativi dietro la griglia di coordinate e le istruzioni direzionali, mentre i temi di bordo incorniciano la pagina. Entrambi hanno controlli di opacità separati così puoi creare sfondi discreti con bordi prominenti, o qualsiasi combinazione adatta al tuo design. Questi elementi visivi aumentano la qualità percepita delle tue schede caccia al tesoro per le inserzioni sui marketplace.',
     },
     {
-      question: 'Posso vendere le schede caccia al tesoro create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai pieni diritti di vendere le tue schede caccia al tesoro come download digitali su Etsy, come quaderni stampati su Amazon KDP, come prodotti stampabili su Gumroad o attraverso qualsiasi altro canale di vendita. I due tipi di direzione, la griglia di coordinate 5×5, gli indizi direzionali localizzati, le chiavi di risposta auto-generate e le 104 collezioni di immagini tematiche ti danno gli strumenti creativi per produrre prodotti di puzzle con percorso originali e vendibili.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a ogni funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare entrambi i tipi di direzione, la griglia di coordinate 5×5, la generazione di puzzle con 6 immagini, la chiave di risposta auto-generata, la libreria completa di immagini, temi di sfondo e bordo e tutti i formati di download prima dell\'acquisto. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

@@ -184,16 +184,6 @@ const content: AppContent = {
         'Kyllä. Sinulla on pääsy kaikkiin generaattorin ominaisuuksiin — kaikkiin neljään harjoitustilaan, täyteen kuvakirjastoon, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista, luottokortin syöttämistä tai ohjelmiston asentamista. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisältää?',
-      answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myydä luomiasi työarkkeja — Etsyssä, Amazon KDP:ssä, Gumroadissa, omalla verkkosivustollasi tai millä tahansa muulla alustalla. Ei myyntikohtaisia rojalteja, ei kuukausimaksuja eikä rajoituksia työarkkien määrän tuottamisessa tai myymisessä.',
-    },
-    {
-      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä yhteenlaskutyöarkkejasi digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssä, koulutuksellisina tulostettavina tuotteina Gumroadissa tai millä tahansa muulla myyntikanavalla. Monet myyjät luovat teemapaketteja ja aktiviteettikirjoja, jotka tuottavat johdonmukaista tuloa.',
-    },
-    {
       question: 'Sopivatko yhteenlaskutehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Lukualueen säädöllä (1–10 esiopetukseen, 1–20 alkuopetukseen, 1–100 alakouluun) tehtävät sopivat kaikille tasoille 6-vuotiaista 12-vuotiaisiin. Kuvat tekevät laskemisesta konkreettista nuorimmille käyttäjille.',

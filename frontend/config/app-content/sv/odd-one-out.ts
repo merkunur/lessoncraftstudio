@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nej. Till skillnad från appar som visar ord på arbetsbladet är hitta udda bilden-pussel helt visuella — ingen text visas på själva pusselinnehållet. Den automatiskt genererade rubriken (\"Hitta den som inte hör hemma\") översätts till alla 11 stödda språk, men de faktiska övningarna innehåller bara bilder. Detta innebär att varje arbetsblad fungerar på vilket språk som helst utan modifiering, vilket gör hitta udda bilden-pussel idealiska för global marknadsplatsförsäljning.',
     },
     {
-      question: 'Kan jag sälja hitta udda bilden arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina hitta udda bilden arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De två genereringslägena, per-övning-överskridningar och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara visuella diskrimineringsprodukter.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda genereringslägena, per-övning-överskridningssystemet, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält, övningsnummer och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

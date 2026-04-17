@@ -194,11 +194,6 @@ const content: AppContent = {
         'Ja. Panelen Sidinställningar inkluderar både en bakgrundstema-väljare med ett opacitetsreglage och en ramtema-väljare med sitt eget oberoende opacitetsreglage. Bakgrundsteman lägger till dekorativa mönster bakom sökscenen, medan ramteman ramar in sidan. Båda har separata opacitetskontroller så du kan skapa subtila bakgrunder med framträdande ramar, eller valfri kombination. Den automatiskt genererade rubriken använder en blå ram (#2196F3) med gul inre accent — oberoende av sidramstemat du väljer.',
     },
     {
-      question: 'Kan jag sälja sökarbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina hitta och räkna arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De två aktivitetslägena, fyra uppgiftstyper, Bokstavsletning med lokalspecifika alfabet och 104 tematiska bildsamlingar ger dig de kreativa verktygen för att producera originella, säljbara sökprodukter.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa båda aktivitetslägena, alla fyra uppgiftstyper, Bokstavsletning-läget, konfigurerbara rutnätsdimensioner, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

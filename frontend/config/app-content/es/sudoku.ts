@@ -197,11 +197,6 @@ const content: AppContent = {
         'No. El sudoku con imágenes es completamente visual — la cuadrícula del puzzle contiene solo imágenes, ninguna palabra ni número. Esto hace que cada ficha funcione de forma idéntica en los 11 idiomas soportados. El único elemento localizado es el texto del encabezado \"Sudoku con Imágenes\" generado automáticamente sobre la cuadrícula, que se traduce automáticamente al cambiar de idioma. El puzzle en sí no requiere ninguna modificación para diferentes mercados, haciéndolo ideal para ventas globales.',
     },
     {
-      question: '¿Puedo vender fichas de sudoku con imágenes creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene derechos completos para vender sus fichas de sudoku con imágenes como descargue digitales en Etsy, como cuadernos impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de ventas. Los tres niveles de dificultad, las 104 colecciones de imágenes temáticas y el formato exclusivamente visual le dan las herramientas creativas para producir productos de sudoku originales y vendibles globalmente.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Como la prueba gratis le da acceso a todas las funciones, no ofrecemos reembolsos en las compre de licencia comercial. Puede probar los tres niveles de dificultad, selección por tema y manual, la clave de respuesta automática, la biblioteca completa de imágenes, temas de fondo y borde, herramientas de texto y todos los formatos de descargue antes de comprar. La prueba gratis es la política de reembolso — asegúrese de que la herramienta se ajusta a sus necesidades antes de adquirir una licencia.',

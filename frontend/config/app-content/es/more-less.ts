@@ -189,16 +189,6 @@ const content: AppContent = {
         'Sí. Puede acceder a todas las funciones del generador — los tres modos de comparación, la biblioteca completa de imágenes, la generación de claves de respuesta y todos los formatos de exportación — sin crear una cuenta, ingresar tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratuita incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.',
     },
     {
-      question: '¿Qué incluya la licencia comercial?',
-      answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, su propio sitio web o cualquier otra plataforma. No hay regalías por venta, no hay cuotas mensuales y no hay límites en la cantidad de fichas que produzcas o vendas.',
-    },
-    {
-      question: '¿Puedo vender fichas creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de comparación como descargue digitales en Etsy, como cuadernos de actividades impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. Muchos vendedores crean paquetes temáticos y cuadernos de actividades que generan ingresos constantes. También puede combinar fichas de comparación con otros tipos de fichas de matemáticas — como suma o resta — para crear paquetes integrales de práctica que alcanzan precios más altos y atraen a compradores que buscan recursos todo en uno.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Pruebe antes de comprar con nuestra prueba gratuita — todas las funciones están disponibles para que evalúes completamente la herramienta antes de adquirir una licencia. Como la prueba gratuita le da acceso a todas las funciones, no ofrecemos reembolsos en compre de licencia. Recomendamos crear varias fichas completas durante su prueba gratuita, revisar la calidad de impresión y las opciones de diseño, y confirmar que el resultado cumple con los estándares de sus listados antes de comprar la licencia comercial.',

@@ -194,11 +194,6 @@ const content: AppContent = {
         'Não. Grande e Pequeno é uma aplicação puramente visual — as atividades contêm apenas imagens com zero texto na saída, pelo que são idênticas em todos os idiomas. Mudar o idioma só afeta as etiquetas da interface do gerador, não o conteúdo da atividade. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface.',
     },
     {
-      question: 'Posso vender atividades criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de comparação de tamanhos como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. Os cinco tipos de perguntas, os dois modos de imagens e o formato totalmente visual oferecem-lhe uma forte diferenciação e vendibilidade global nas categorias das plataformas de venda.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada tipo de pergunta, cada modo de imagens, cada configuração de exercícios, cada formato de exportação e cada tamanho de página antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',

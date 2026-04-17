@@ -183,11 +183,6 @@ const content: AppContent = {
         'Nei. Bildesudoku er helt visuelt — puslespillrutenettet inneholder kun bilder, ingen ord eller tall. Dette gjor at hvert arbeidsark fungerer identisk på alle 11 stoettede språk. Det eneste lokaliserte elementet er den automatisk genererte «Bildesudoku»-overskriftsteksten over rutenettet, som oversettes automatisk når du bytter språk. Puslespillet i seg selv krever null modifikasjon for forskjellige markeder, noe som gjor det ideelt for globalt salg.',
     },
     {
-      question: 'Kan jeg selge bildesudoku arbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge bildesudoku arbeidsarkene dine som digitale nedlastinger på Etsy, som trykte arbeidboker på Amazon KDP, som produktlinjeressurser på Gumroad, eller via enhver annen salgskanal. De tre vanskelighetsgradene, 104 tematiske bildesamlinger og det visuelle formatet gir deg de kreative verktoyene til å produsere originale, globalt salgbare sudokuprodukter.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste alle tre vanskelighetsgradene, temabasert og manuelt bildevalg, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer, tekstverktoy og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

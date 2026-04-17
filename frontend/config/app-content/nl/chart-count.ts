@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nee. De Telgrafiek Generator produceert visuele telwerkbladen waarbij gebruikers afbeeldingen tellen en staafdiagramcellen invullen — cijfers en afbeeldingen zijn universeel. Het wijzigen van de taal beïnvloedt alleen de interfaceteksten in de generator, de automatisch gegenereerde koptitel en instructies, en de labels van de afbeeldingenbibliotheek. De werkbladuitvoer zelf werkt identiek in elke taal. De Commerciële licentie bevat 10 kleurrijke thema\'s; Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen.',
     },
     {
-      question: 'Kan ik plaatjesgrafiek werkbladen die met deze tool zijn gemaakt verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je plaatjesgrafiek werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken voor gegevensvaardigheden op Amazon KDP, als klasmiddelen op Gumroad, of via elk ander verkoopkanaal. De dubbele-canvasgeneratie, het automatische antwoordblad en de 104 thematische beeldcollecties geven je de middelen om originele, verkoopbare plaatjesgrafiekproducten op schaal te produceren.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden wij geen restituties op aankopen van commerciële licenties. Je kunt het dubbele canvas, de afbeeldingsrastergeneratie, het automatische antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema\'s, naam-/datumvelden, grijstintenexport en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

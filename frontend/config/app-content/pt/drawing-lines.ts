@@ -194,11 +194,6 @@ const content: AppContent = {
         'Não. A Grafomotricidade é uma aplicação puramente visual — as atividades contêm apenas imagens, traçados de linhas e bordas decorativas com zero texto na saída, pelo que são idênticas em todos os idiomas. Mudar o idioma apenas afeta as etiquetas da interface do gerador e as etiquetas de conteúdo da biblioteca de imagens, não a atividade em si. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface.',
     },
     {
-      question: 'Posso vender atividades criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de traçado de linhas como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. Os oito modelos de linhas, os 104 temas de imagens e o formato completamente visual conferem-lhe uma forte diferenciação e vendibilidade global nas categorias de atividades.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada modelo de linha, cada tema de imagens, o preenchimento automático, cada formato de exportação e cada tamanho de página antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',

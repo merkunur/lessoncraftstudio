@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nej. Till skillnad från ordbaserade generatorer är Bildväg arbetsblad helt visuella. användarna navigerar labyrinter och följer bildvägar utan att läsa någon text. Den automatiskt genererade rubriken översätts till 11 språk, men labyrintinnehållet i sig kräver ingen språkförståelse. Detta gör att varje arbetsblad direkt kan användas och säljas på vilken marknad som helst i världen utan modifiering.',
     },
     {
-      question: 'Kan jag sälja labyrintarbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina labyrintarbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som produktlinjesresurser på Gumroad, eller genom valfri annan försäljningskanal. De tre spellägena, LPF-algoritmen, 104 tematiska bildsamlingar och det visuella formatet ger dig verktygen för att producera originella, globalt säljbara labyrintprodukter.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa alla tre spellägen, LPF labyrintalgoritmen, fem bildroller, vägganpassning, det automatiskt genererade facit, hela bildbiblioteket, bakgrunds- och ramteman, namn/datum-fält och alla nedladdningsformat innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

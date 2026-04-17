@@ -179,11 +179,6 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — kaksoiskanvasta, kuvaruudukon generointia, palkkikaavion luomista, automaattista vastauslehteä, kuvakirjastoa, tausta- ja kehysteemoja, nimi/päivämääräkenttiä, harmaasävyvientiä ja kaikkia latausmuotoja — ilman tilin luomista, luottokorttia tai ohjelmiston asentamista. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja kuvagraafityöarkkeja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kuvagraafityöarkkejasi digitaalisina latauksina Etsyssä, painettuina datataitojen työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
-    },
-    {
       question: 'Sopivatko laskemistehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Kuvagraafitehtävät sopivat erinomaisesti esiopetukseen (laskeminen 1–5), alkuopetukseen (laskeminen 1–10) ja alakoulun alkuun (diagrammien lukeminen ja tulkinta). Visuaalinen muoto tekee datankäsittelystä konkreettista.',

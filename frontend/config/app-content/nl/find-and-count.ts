@@ -194,11 +194,6 @@ const content: AppContent = {
         'Ja. Het paneel Pagina-instellingen bevat zowel een achtergrondthemaselector met een dekkingsschuifregelaar als een kaderthema-selector met een eigen onafhankelijke dekkingsschuifregelaar. Achtergrondthema\'s voegen decoratieve patronen toe achter de ik zie ik zie scène, terwijl kaderthema\'s de pagina omlijsten. Beide hebben aparte dekkingsregelaars zodat je subtiele achtergronden met prominente kaders kunt maken, of elke andere combinatie. De automatisch gegenereerde koptekst gebruikt een blauw kader (#2196F3) met een geel binnenaccent — onafhankelijk van het paginakaderthema dat je selecteert.',
     },
     {
-      question: 'Kan ik ik zie ik zie werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je ik zie ik zie en zoek-en-tel werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De twee activiteitsmodi, vier taaktypen, Letterherkenning met taalspecifieke alfabetten en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare ik zie ik zie producten te produceren.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden we geen restituties op commerciële licentie-aankopen. Je kunt beide activiteitsmodi, alle vier taaktypen, Letterherkenning modus, instelbare rasterafmetingen, het automatisch gegenereerde antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema\'s en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

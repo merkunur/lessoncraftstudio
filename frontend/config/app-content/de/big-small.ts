@@ -193,11 +193,6 @@ const content: AppContent = {
         'Ja. Sie können jede Funktion nutzen — alle fünf Fragetypen, beide Bildmodi, die Bildbibliothek, einstellbare Übungsanzahlen, Lösungsschlüssel-Generierung und alle Exportformate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Größenvergleich-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Übungshefte auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die fünf Fragetypen, zwei Bildmodi und das vollständig visuelle Format bieten Ihnen starke Differenzierung und globale Verkaufbarkeit in Marktplatz-Kategorien.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jeden Fragetyp, jeden Bildmodus, jede Übungskonfiguration, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

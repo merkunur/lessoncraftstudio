@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nej. Rutritning är en rent visuell app — arbetsbladen innehåller bara rutnätsbilder med noll text på resultatet, så de är identiska på varje språk. Att byta språk påverkar bara gränssnittsetiketterna i generatorn och bildbiblioteksetiketterna, inte arbetsbladet i sig. Kommersiellt Paket inkluderar 10 svartvita teman; Full Access låser upp alla 100+ svartvita teman och alla 11 gränssnittsspråk.',
     },
     {
-      question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina rutnätsritningsarbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som lärarresurser på Gumroad eller genom valfri annan försäljningskanal. Det dubbla rutnätsformatet, den justerbara ledtrådsprocenten, symmetrilägena och den svartvita konturstilen skapar en distinkt produkt som konkurrerar starkt i ritning- och aktivitetsarbetsblad-kategorier.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje rutnätsstorlek, varje ledtrådsprocent, varje symmetriläge, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

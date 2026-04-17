@@ -165,11 +165,6 @@ const content: AppContent = {
         'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — molempiin luontitiloihin, täyteen kuvakirjastoon, kaikkiin vihjeasetuksiin, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisältää?',
-      answer:
-        'Kaupallinen lisenssi tarjoaa vesileimattomia englanninkielisiä vientejä täysillä myyntioikeuksilla. Täysi Pääsy -lisenssi lisää kaikki 11 kieltä omine aakkostoineen, moninkertaistaen tuotekatalogisi. Molemmat lisenssitasot antavat rajoittamattomat oikeudet myyntiin Etsyssä, Amazon KDP:ssä, Gumroadissa tai millä tahansa muulla alustalla.',
-    },
-    {
       question: 'Sopivatko aakkostehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Aakkosjunatehtävät on suunniteltu erityisesti esiopetukseen (6-vuotiaat) ja alkuopetukseen (1.–2. luokka). Kuva-kirjain-yhdistäminen tekee kirjainoppimisesta visuaalista ja kiinnostavaa. Vaikeustaso säätyy vihjemäärällä: 3 vihjettä helpoin, 11 haastavin.',
@@ -188,11 +183,6 @@ const content: AppContent = {
       question: 'Sisältyvätkö vastaukset automaattisesti?',
       answer:
         'Kyllä. Jokainen aakkosjunatehtävä sisältää automaattisesti luodun vastausavaimen, jossa oikeat kuva-kirjain-parit on merkitty. Vastausavain on erillisellä sivulla.',
-    },
-    {
-      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä aakkostehtäviä digitaalisina latauksina Etsyssä, painettuina aktiviteettikirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
     },
     {
       question: 'Kuinka monella kielellä voin luoda tehtäviä?',

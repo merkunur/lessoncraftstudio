@@ -193,11 +193,6 @@ const content: AppContent = {
         'Nein. Der Rasterzeichnen-Generator ist eine rein visuelle App — Arbeitsblätter enthalten ausschließlich Rasterbilder mit null Text auf der Ausgabe, sodass sie in jeder Sprache identisch sind. Das Ändern der Sprache betrifft nur die Oberflächenbeschriftung des Generators und die Bildbibliotheks-Inhaltsprache, nicht den Arbeitsblatt-Inhalt. Die kommerzielle Lizenz umfasst 10 S&W-Themen; Vollzugriff schaltet alle über 100 S&W-Themen und alle 11 Oberflächensprachen für die Benutzeroberfläche frei.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Rasterzeichnen-Arbeitsblätter als digitale Downloads auf Etsy, als gedruckte Übungshefte auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Das duale Rastersystem, der einstellbare Hinweisprozentsatz, die Symmetriemodi und der S&W-Umrissstil schaffen ein unverwechselbares Produkt, das in Zeichen- und Aktivitäts-Arbeitsblatt-Kategorien stark konkurriert.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jede Rastergröße, jeden Hinweisprozentsatz, jeden Symmetriemodus, jedes Exportformat und jede Seitengröße vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

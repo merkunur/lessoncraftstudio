@@ -195,11 +195,6 @@ const content: AppContent = {
         'No. Il Treno dei Modelli è un\'applicazione puramente visiva — le schede contengono solo immagini nei vagoni con zero testo nell\'output, quindi sono identiche in tutte le lingue. Cambiare la lingua influisce solo sulle etichette dell\'interfaccia del generatore e sulle etichette di contenuto della libreria immagini, non sulla scheda in sé. La Licenza Commerciale include 10 temi colorati; l\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia.',
     },
     {
-      question: 'Posso vendere schede create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede treno dei modelli come download digitali su Etsy, come quaderni stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. I cinque tipi di pattern, il numero di indizi regolabile e il formato unico a vagoni ti offrono una forte differenziazione e vendibilità globale nelle categorie delle piattaforme di vendita.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare ogni tipo di pattern, ogni impostazione del numero di indizi, ogni tema, ogni formato di esportazione e ogni dimensione di pagina prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

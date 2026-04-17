@@ -188,16 +188,6 @@ const content: AppContent = {
         'Ja. Du har tilgang til alle funksjoner — begge modusene, alle symbolantall, det komplette bildebiblioteket, Avslør Ord på alle elleve språk, fasitgenerering og alle eksportformater — uten å opprette en konto, oppgi kredittkort eller installere programvare. Nedlastinger fra den gratis prøveversjonen inneholder et lite vannmerke. En kommersiell lisens fjerner vannmerket og gir fulle salgsrettigheter.',
     },
     {
-      question: 'Hva er inkludert i den kommersielle lisensen?',
-      answer:
-        'Den kommersielle lisensen fjerner vannmerket fra alle nedlastinger og gir deg ubegrensede rettigheter til å selge arbeidsarkene du lager — på Etsy, Amazon KDP, Gumroad, din egen nettside eller enhver annen plattform. Det er ingen royalties per salg, ingen månedlige avgifter og ingen begrensning på antall arbeidsark du produserer eller selger.',
-    },
-    {
-      question: 'Kan jeg selge arbeidsarkene jeg lager med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du alle rettigheter til å selge kodeaddisjons arbeidsarkene dine som digitale nedlastinger på Etsy, som puslespillbøker på Amazon KDP, som pedagogiske ressurser på Gumroad eller via enhver annen salgskanal. Kodeknekningsformatet er et velprøvd produkt fordi det skiller seg ut blant vanlige addisjonsarbeidsark i markedsplassenes søkeresultater.',
-    },
-    {
       question: 'Må jeg installere programvare?',
       answer:
         'Nei. Kodeaddisjons Arbeidsark Generatoren kjører helt i nettleseren din. Det er ingenting å laste ned, installere eller oppdatere. Den fungerer i alle moderne nettlesere, inkludert Chrome, Firefox, Safari og Edge. Bare åpne siden og begynn å lage matematiske kodeknekningspuslespill.',

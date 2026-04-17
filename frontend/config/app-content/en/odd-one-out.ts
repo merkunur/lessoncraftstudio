@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. Unlike apps that display words on the worksheet, odd one out puzzles are entirely visual — no text appears on the puzzle content itself. The auto-generated header (\"Find the Odd One Out\") translates into all 11 supported languages, but the actual exercises contain only images. This means every worksheet works in any language without modification, making odd one out puzzles ideal for global marketplace sales.',
     },
     {
-      question: 'Can I sell odd one out worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your odd one out worksheets as digital downloads on Etsy, as printed workbooks on Amazon KDP, as products on Gumroad, or through any other sales channel. The two generation modes, per-exercise overrides, and 104 themed image collections give you the creative tools to produce original, sellable visual discrimination products.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test both generation modes, the per-exercise override system, the auto-generated answer key, the full image library, background and border themes, name/date fields, exercise numbers, and all download formats before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

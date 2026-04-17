@@ -183,11 +183,6 @@ const content: AppContent = {
         'Generatoren bruker et dobbeltlerretssystem med en Arbeidsarkfane (puslespillet) og en Fasitfane (det utfylte rutenettet). Arbeidsarket viser det tomme kryssordrutenettet med nummererte posisjoner og bilde- eller tekstledetråder — klart for losere å fylle ut. Fasiten gjengenerator det identiske layoutet og fyller hver celle med de korrekte bokstavene. Begge versjonene eksporteres separat med fire dedikerte nedlastingsknapper.',
     },
     {
-      question: 'Kan jeg selge bildekryssord laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge bildekryssordpuslespillene dine som digitale nedlastinger på Etsy, som trykte arbeidboker på Amazon KDP, som produktlinjeressurser på Gumroad, eller via enhver annen salgskanal. De fire inndatametodene, automatisk genererte fasiter, språkavhengig ordgenerering og 104 tematiske bildesamlinger gir deg de kreative verktoyene til å produsere originale, salgbare kryssordprodukter.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste alle fire inndatametodene, 15×15 rutenettgeneratoren, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

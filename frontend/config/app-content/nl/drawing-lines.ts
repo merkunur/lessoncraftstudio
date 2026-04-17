@@ -194,11 +194,6 @@ const content: AppContent = {
         'Nee. Lijnen Trekken is een volledig visuele app — werkbladen bevatten uitsluitend afbeeldingen, lijnpaden en decoratieve randen met nul tekst op de uitvoer, dus ze zijn identiek in elke taal. Het veranderen van de taal beïnvloedt alleen de interfacelabels en afbeeldingsnamen in de generator, niet de werkbladinhoud. De Commerciële licentie bevat 10 kleurrijke thema\'s; Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen.',
     },
     {
-      question: 'Kan ik werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je lijntraceer werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De acht lijnsjablonen, 104 afbeeldingsthema\'s en het volledig visuele formaat geven je sterke getrapte productpakketten en wereldwijde verkoopbaarheid in marktplaatscategorieën.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden wij geen restitutie op commerciële licentie-aankopen. Je kunt elk lijnsjabloon, elk afbeeldingsthema, de automatisch vullen functie, elk exportformaat en elke paginagrootte testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

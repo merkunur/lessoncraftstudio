@@ -188,16 +188,6 @@ const content: AppContent = {
         'Ja. Sie können jede Funktion des Generators kostenlos testen — alle drei Vergleichsmodi, die vollständige Bildbibliothek mit 104 Themen und über 3.100 Bildern, Lösungsschlüssel-Erstellung, Graustufen-Modus und alle Exportformate — ohne ein Konto zu erstellen, eine Kreditkarte einzugeben oder Software zu installieren. Öffnen Sie einfach die Seite in Ihrem Browser und erstellen Sie sofort Arbeitsblätter. Downloads der kostenlosen Testversion enthalten ein kleines Wasserzeichen. Eine kommerzielle Lizenz entfernt das Wasserzeichen und gewährt volle Verkaufsrechte für alle Plattformen.',
     },
     {
-      question: 'Was beinhaltet die kommerzielle Lizenz?',
-      answer:
-        'Die kommerzielle Lizenz entfernt das Wasserzeichen von allen Downloads und gewährt Ihnen unbegrenzte Rechte, die erstellten Arbeitsblätter zu verkaufen — auf Etsy.de, Amazon KDP, Gumroad, Ihrer eigenen Website oder jeder anderen Plattform. Es gibt keine Verkäufer-Tantiemen, keine monatlichen Gebühren und keine Grenzen für die Anzahl der erstellten oder verkauften Arbeitsblätter. Die Lizenz ist eine einmalige Zahlung und gilt dauerhaft, ohne wiederkehrende Kosten.',
-    },
-    {
-      question: 'Kann ich mit diesem Tool erstellte Arbeitsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Vergleichs-Arbeitsblätter als digitale Downloads auf Etsy.de, als gedruckte Aktivitätsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Da die Arbeitsblätter rein bildbasiert und sprachunabhängig sind, können Sie dieselben Produkte auf internationalen Märkten wie Etsy.com, Amazon.com und Amazon.co.uk anbieten, ohne Übersetzungsaufwand. Viele Verkäufer erstellen thematische Pakete und Aktivitätsbücher, die konstantes skalierbares Einkommen generieren.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen uneingeschränkten Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können jeden Vergleichsmodus, jedes der 104 Themen, jedes Exportformat, jede Seitengröße, die Bildvielfalt-Einstellung, beide Symbolanzeigemodi und den Graustufen-Export ausgiebig vor dem Kauf testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

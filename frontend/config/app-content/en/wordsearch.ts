@@ -196,11 +196,6 @@ const content: AppContent = {
         'Yes. You can access every feature — all three content sources, all display modes, the full image library, adjustable grid sizes, direction controls, color-coded answer keys, and all export formats — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
-      question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your word search worksheets as digital downloads on Etsy, as printed puzzle books on Amazon KDP, as products on Gumroad, or through any other sales channel. The adjustable grid sizes, direction controls, and multilingual capability give you strong differentiation in crowded marketplace categories.',
-    },
-    {
       question: 'What is the refund policy?',
       answer:
         'Because the free trial gives you access to every feature, we do not offer refunds on commercial license purchases. You can test every content source, every grid size, every direction setting, every display mode, every export format, and every page size before buying. The free trial is the refund policy — make sure the tool fits your needs before purchasing a license.',

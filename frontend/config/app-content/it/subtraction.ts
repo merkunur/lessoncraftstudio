@@ -184,16 +184,6 @@ const content: AppContent = {
         'Sì. Puoi accedere a tutte le funzionalità del generatore — le quattro modalità di esercizio, la libreria completa di immagini, la generazione di fogli soluzioni, l\'esportazione in scala di grigi e tutti i formati di pagina — senza creare un account, inserire una carta di credito o installare alcun software. I download della prova gratuita includono una piccola filigrana. Una licenza commerciale rimuove la filigrana e concede diritti completi di vendita.',
     },
     {
-      question: 'Cosa include la licenza commerciale?',
-      answer:
-        'La licenza commerciale rimuove la filigrana da tutti i download e ti concede diritti illimitati per vendere le schede che crei — su Etsy, Amazon KDP, Gumroad, sul tuo sito o su qualsiasi altra piattaforma. Non ci sono royalty per vendita, non ci sono canoni mensili e non ci sono limiti alla quantità di schede che produci o vendi.',
-    },
-    {
-      question: 'Posso vendere schede create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di sottrazione come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Molti venditori creano pacchetti tematici e libri di attività che generano entrate costanti.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare ogni modalità, ogni tema, ogni formato di esportazione e ogni formato di pagina prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento sia adatto alle tue esigenze prima di acquistare una licenza.',

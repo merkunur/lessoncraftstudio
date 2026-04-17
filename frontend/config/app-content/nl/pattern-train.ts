@@ -195,11 +195,6 @@ const content: AppContent = {
         'Nee. Patroontrein is een volledig visuele app — werkbladen bevatten uitsluitend afbeeldingen op treinwagons met nul tekst op de uitvoer, dus ze zijn identiek in elke taal. Het wijzigen van de taal beïnvloedt alleen de UI-labels in de generatorinterface en de inhoudstaal van de afbeeldingenbibliotheek, niet het werkblad zelf. Het Commerciële abonnement bevat 10 kleurrijke thema\'s; Volledige Toegang ontgrendelt alle 104 thema\'s en alle 11 interfacetalen.',
     },
     {
-      question: 'Mag ik werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je patroontrein werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als leermiddelen op Gumroad, of via elk ander verkoopkanaal. De vijf patroontypen, het instelbare aantal aanwijzingen en het unieke treinwagonformaat geven je sterke getrapte productpakketten en wereldwijde verkoopbaarheid in marktplaatscategorieën.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden wij geen restitutie aan op aankopen van commerciële licenties. Je kunt elk patroontype, elke aanwijzingeninstelling, elk thema, elk exportformaat en elk paginaformaat testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

@@ -190,16 +190,6 @@ const content: AppContent = {
         'Sì. Puoi accedere a tutte le funzionalità — i quattro livelli di difficoltà, entrambe le modalità operative, la libreria completa di immagini, la generazione dei fogli delle soluzioni e tutti i formati di esportazione — senza creare un account, inserire una carta di credito o installare alcun software. I download della prova gratuita includono una piccola filigrana. Una licenza commerciale rimuove la filigrana e concede pieni diritti di vendita.',
     },
     {
-      question: 'Cosa include la licenza commerciale?',
-      answer:
-        'La licenza commerciale rimuove la filigrana da tutti i download e ti concede diritti illimitati per vendere le schede che crei — su Etsy, Amazon KDP, Gumroad, sul tuo sito web o su qualsiasi altra piattaforma. Non ci sono royalty per vendita, nessun canone mensile e nessun limite alla quantità di schede che produci o vendi.',
-    },
-    {
-      question: 'Posso vendere schede create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere i tuoi puzzle algebrici come download digitali su Etsy, come libri di attività stampati su Amazon KDP, come prodotti stampabili su Gumroad o attraverso qualsiasi altro canale di vendita. Molti venditori creano pacchetti negozificati per difficoltà e libri di algebra progressiva che generano entrate costanti. Testa tutte le funzionalità con la prova gratuita prima di acquistare — la prova include tutti i livelli di difficoltà, temi e formati di esportazione per valutare la qualità del prodotto in prima persona.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare ogni livello di difficoltà, ogni modalità operativa, ogni tema e ogni formato di esportazione prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

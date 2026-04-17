@@ -194,11 +194,6 @@ const content: AppContent = {
         'Sí. Puede acceder a todas las funciones — las tres operaciones, todos los tamaños de cuadrícula, la biblioteca completa de imágenes, la generación de claves de respuesta y todos los formatos de exportación — sin crear una cuenta, introducir tarjeta de crédito ni instalar ningún software. Las descargas de la prueba gratis incluyen una pequeña marca de agua. Una licencia comercial elimina la marca de agua y otorga derechos completos de venta.',
     },
     {
-      question: '¿Qué incluya la licencia comercial?',
-      answer:
-        'La licencia comercial elimina la marca de agua de todas las descargas y te otorga derechos ilimitados para vender las fichas que crees — en Etsy, Amazon KDP, Hotmart, su propio sitio web o cualquier otra plataforma. Sin regalías por venta, sin cuotas mensuales y sin límites en cuántos puzzles produces o vende. Conservas la propiedad total de cada ficha que generes, y puede publicar productos en múltiples plataformas simultáneamente sin costes ni restricciones adicionales de licencia.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Como la prueba gratis le da acceso a todas las funciones, no ofrecemos reembolsos en las compre de licencia comercial. Puede probar cada operación, cada tamaño de cuadrícula, cada tema y cada formato de exportación antes de comprar. La prueba gratis es la política de reembolso — asegúrese de que la herramienta se ajusta a sus necesidades antes de adquirir una licencia.',

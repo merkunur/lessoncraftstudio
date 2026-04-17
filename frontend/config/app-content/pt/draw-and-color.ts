@@ -193,11 +193,6 @@ const content: AppContent = {
         'Não. O Desenho em Grelha é uma aplicação puramente visual — as atividades contêm apenas imagens em grelha com zero texto na saída, pelo que são idênticas em todos os idiomas. Mudar o idioma apenas afeta as etiquetas da interface do gerador e as etiquetas de conteúdo da biblioteca de imagens, não a atividade em si. A Licença Comercial inclui 10 temas de contornos a preto e branco; o Acesso Completo desbloqueia todos os 100+ temas de contornos a preto e branco e os 11 idiomas de interface.',
     },
     {
-      question: 'Posso vender atividades criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de desenho em grelha como downloads digitais na Etsy, como cadernos impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. O formato de grelha dupla, a percentagem de pistas ajustável, os modos de simetria e o estilo de contornos a preto e branco criam um produto distintivo que compete fortemente nas categorias de atividades de desenho e atividades.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar cada tamanho de grelha, cada percentagem de pistas, cada modo de simetria, cada formato de exportação e cada tamanho de página antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',

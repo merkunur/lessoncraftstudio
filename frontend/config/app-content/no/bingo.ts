@@ -183,11 +183,6 @@ const content: AppContent = {
         'Ja. Panelet Sideoppsett inkluderer både en bakgrunnstema-velger med en opasitetsglidebryter (0–1 i 0,05-trinn) og en rammetema-velger med sin egen uavhengige opasitetsglidebryter. Bakgrunnstemaer legger til dekorative monstre bak bingorutenettet, mens rammetemaer rammer inn siden. Oppropslisten arver siderammer og bakgrunn fra hovedlerretet. Begge har separate opasitetskontroller slik at du kan lage subtile bakgrunner med fremtredende rammer, eller enhver kombinasjon som passer designet ditt.',
     },
     {
-      question: 'Kan jeg selge bingokort laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge bingokortene dine som digitale nedlastinger på Etsy, som trykte aktivitetsboker på Amazon KDP, som produktlinjeressurser på Gumroad, eller via enhver annen salgskanal. De konfigurerbare rutenettstorrelsene, batch-generering, ZIP-eksport, doble utfyllingsmoduser, oppropslister og 104 tematiske bildesamlinger gir deg de kreative verktoyene til å produsere originale, salgbare bingoprodukter i stor skala.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste alle rutenettstorrelser, batch-generering, ZIP-eksport, bilde- og ordutfyllingsmoduser, oppropslisten, hele bildebiblioteket, tilpasset oppropsutvalg, bakgrunns- og rammetemaer, tekstverktoy og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

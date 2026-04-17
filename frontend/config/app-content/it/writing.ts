@@ -196,11 +196,6 @@ const content: AppContent = {
         'No. Il Generatore di Scrittura è uno strumento di pratica visiva della scrittura a mano — le forme delle lettere, le frecce dell\'ordine dei tratti e le modalità di pratica non cambiano in base alla lingua. Le etichette dell\'interfaccia si traducono nelle 11 lingue supportate, e la libreria di immagini fornisce nomi di immagini localizzati per le fonti di contenuto, ma la funzionalità principale di pratica della scrittura è la stessa indipendentemente dalla lingua. La Licenza Commerciale include 10 temi colorati; l\'Accesso Completo sblocca tutti i 104 temi e le 11 lingue dell\'interfaccia.',
     },
     {
-      question: 'Posso vendere schede create con questo strumento su Etsy e Amazon KDP?',
-      answer:
-        'Sì. Con una licenza commerciale, hai tutti i diritti per vendere le tue schede di scrittura come download digitali su Etsy, come quaderni di calligrafia stampati su Amazon KDP, come risorse educative su Gumroad o attraverso qualsiasi altro canale di vendita. Le tre modalità di pratica, i cinque stili di font, l\'ordine dei tratti tramite frecce e i tratti di pre-scrittura ti offrono una forte differenziazione in categorie saturate delle piattaforme di vendita.',
-    },
-    {
       question: 'Qual è la politica di rimborso?',
       answer:
         'Poiché la prova gratuita ti dà accesso a tutte le funzionalità, non offriamo rimborsi sugli acquisti di licenze commerciali. Puoi testare ogni modalità di pratica, ogni stile di font, i tratti di pre-scrittura, ogni fonte di contenuto, ogni formato di esportazione e ogni formato di pagina prima di acquistare. La prova gratuita è la politica di rimborso — assicurati che lo strumento soddisfi le tue esigenze prima di acquistare una licenza.',

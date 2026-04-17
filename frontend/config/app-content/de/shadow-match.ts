@@ -193,11 +193,6 @@ const content: AppContent = {
         'Nein. Der Schattenbilder-Zuordnen-Generator ist rein visuell — die Arbeitsblatt-Ausgabe enthält nur Bilder, Silhouetten und geteilte Hälften ohne lokalisierte Wortinhalte. Die App-Oberfläche (Menüs, Buttons, Überschriftentext) unterstützt alle 11 Sprachen, aber das generierte Arbeitsblatt funktioniert unabhängig von der Sprachauswahl identisch. Das macht Schattenbilder-Zuordnungsblätter universell verkaufbar über alle Märkte hinweg ohne Übersetzung. Die kommerzielle Lizenz umfasst 10 farbenfrohe Themen; Vollzugriff schaltet alle 104 Themen und alle 11 Oberflächensprachen frei.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Schattenbilder-Zuordnungsblätter auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Schattenbilder-Zuordnungsblätter als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Lehrmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die zwei Übungsmodi, automatisch generierten Silhouetten, der Derangement-Algorithmus, automatische Lösungsschlüssel und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufsfertige visuelle Zuordnungsprodukte zu produzieren.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können beide Übungsmodi, automatisch generierte Silhouetten, Schnittrichtungs-Optionen, den Lösungsschlüssel, die vollständige Bildbibliothek, Hintergrund- und Rahmenthemen, Beschriftungs-Schalter, Name-/Datumsfelder, Textwerkzeuge und alle Download-Formate vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben.',

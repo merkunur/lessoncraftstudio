@@ -189,11 +189,6 @@ const content: AppContent = {
         'Ja. Je hebt toegang tot alle functies — Automatisch Toewijzen, Handmatige Toewijzing, eigen afbeeldingen uploaden, Letters Onthullen, alle 104 thema\'s, het letterlegende-antwoordblad en alle exportformaten — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Downloads van de gratis proefversie bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
     },
     {
-      question: 'Kan ik werkbladen die ik met deze tool maak verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je alle rechten om je cryptogram werkbladen te verkopen als digitale downloads op Etsy.nl, als gedrukte puzzelboeken op Amazon KDP, als educatieve leermiddelen op Gumroad, via Bol.com of via elk ander verkoopkanaal. De instelbare Letters Onthullen, thematische afbeeldingencollecties en meertalige mogelijkheid geven je sterke getrapte productpakketten in drukbezette marktplaatscategorieën.',
-    },
-    {
       question: 'Is de Cryptogram-generator taalgevoelig?',
       answer:
         'Ja. Omdat de geheime boodschap in de geselecteerde taal is en het alfabet verandert per taal, produceert elke taalversie een werkelijk ander beeldcijfer product. De Commerciële licentie is alleen Engels; Volledige Toegang ontgrendelt alle 11 talen. Een Duits cryptogram codeert een Duitse zin met een uitgebreid alfabet inclusief ä, ö, ü — het is een fundamenteel ander product dan de Engelse versie. Een Frans cryptogram gebruikt een alfabet met é, è, ç, à voor Franse zinnen.',

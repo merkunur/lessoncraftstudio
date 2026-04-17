@@ -195,11 +195,6 @@ const content: AppContent = {
         'De generator gebruikt een dubbel canvassysteem met een Werkblad-tabblad (de puzzel) en een Antwoordblad-tabblad (het ingevulde raster). Het werkblad toont het lege kruiswoordraster met genummerde posities en afbeeldings- of tekstaanwijzingen — klaar voor oplossers om in te vullen. Het antwoordblad reproduceert de identieke indeling en vult elke cel met de correcte letters. Beide versies worden apart geëxporteerd met vier speciale knoppen: crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf en image-crossword-answer-key.pdf.',
     },
     {
-      question: 'Kan ik plaatjes kruiswoordpuzzels gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je plaatjes kruiswoordpuzzels te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De vier invoermethoden, automatisch gegenereerde antwoordbladen, taalgebonden woordgeneratie en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare kruiswoordpuzzelproducten te produceren.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden we geen restituties op commerciële licentie-aankopen. Je kunt alle vier invoermethoden, de 15×15 rastergenerator, het automatisch gegenereerde antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema\'s en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

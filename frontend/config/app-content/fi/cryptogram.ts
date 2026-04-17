@@ -189,11 +189,6 @@ const content: AppContent = {
         'Kyllä. Voit käyttää kaikkia ominaisuuksia — Automaattista Määritystä, Manuaalista Määritystä, omien kuvien latausta, Kirjaimia Paljastettavaksi, kaikkia 104 teemaa, kirjainlegenda-vastauslehteä ja kaikkia vientimuotoja — ilman tilin luomista, luottokorttia tai ohjelmiston asentamista. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman. Kaupallinen lisenssi poistaa vesileiman ja antaa täydet myyntioikeudet.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kryptogrammi-työarkkejasi digitaalisina latauksina Etsyssä, painettuina pulmakirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta. Säädettävät Kirjaimia Paljastettavaksi, temaattiset kuvakokoelmat ja monikielinen kapasiteetti antavat sinulle vahvan erilaistumisen markkinapaikkaluokissa.',
-    },
-    {
       question: 'Onko Kryptogrammi-generaattori kielitietoinen?',
       answer:
         'Kyllä. Koska salainen viesti on valitulla kielellä ja aakkosto muuttuu kielen mukaan, jokainen kieliversio tuottaa aidosti erilaisen koodipulman. Kaupallinen Paketti on vain englanniksi; Täysi Pääsy avaa kaikki 11 kieltä.',

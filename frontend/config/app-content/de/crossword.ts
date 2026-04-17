@@ -196,11 +196,6 @@ const content: AppContent = {
         'Der Generator verwendet ein Dual-Canvas-System mit einem Arbeitsblatt-Tab (das Rätsel) und einem Lösungsschlüssel-Tab (das ausgefüllte Raster). Das Arbeitsblatt zeigt das leere Kreuzwortraster mit nummerierten Positionen und Bild- oder Text-Hinweisen — bereit zum Ausfüllen. Der Lösungsschlüssel reproduziert das identische Layout und füllt jede Zelle mit den korrekten Buchstaben. Beide Versionen werden separat über vier dedizierte Download-Buttons exportiert: crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf und image-crossword-answer-key.pdf.',
     },
     {
-      question: 'Kann ich mit diesem Tool erstellte Bilderkreuzworträtsel auf Etsy und Amazon KDP verkaufen?',
-      answer:
-        'Ja. Mit einer kommerziellen Lizenz haben Sie volle Rechte, Ihre Bilderkreuzworträtsel als digitale Downloads auf Etsy.de, als gedruckte Arbeitsbücher auf Amazon KDP, als Produktmaterialien auf Gumroad oder über jeden anderen Vertriebskanal zu verkaufen. Die vier Eingabemethoden, automatisch generierte Lösungsschlüssel, sprachabhängige Wortgenerierung in 11 Sprachen und 104 thematische Bildsammlungen geben Ihnen die kreativen Werkzeuge, um originale, verkaufbare Kreuzworträtsel-Produkte zu erstellen.',
-    },
-    {
       question: 'Was ist Ihre Rückgabepolitik?',
       answer:
         'Da die kostenlose Testversion Ihnen vollständigen Zugang zu jeder Funktion gewährt, bieten wir keine Rückerstattung für kommerzielle Lizenzen an. Sie können alle vier Eingabemethoden, den 15×15-Raster-Generator, den automatisch generierten Lösungsschlüssel, die vollständige Bildbibliothek mit 104 thematischen Sammlungen, Hintergrund- und Rahmenthemen mit unabhängigen Deckkraftreglern, die sprachabhängige Wortgenerierung und alle Download-Formate in 300 DPI vor dem Kauf ausgiebig testen. Die kostenlose Testversion ist die Rückgabepolitik — stellen Sie sicher, dass das Tool Ihren Anforderungen entspricht, bevor Sie eine Lizenz erwerben. Es ist keine zeitliche Begrenzung für die Testphase vorgesehen — erstellen Sie so viele Kreuzworträtsel wie Sie möchten und überzeugen Sie sich in Ruhe von der Qualität.',

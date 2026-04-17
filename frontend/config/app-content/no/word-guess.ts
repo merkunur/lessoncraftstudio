@@ -183,11 +183,6 @@ const content: AppContent = {
         'Ja. Du har tilgang til alle funksjoner — alle tre innholdskildene, alle fire vanskelighetsgradene, hele bildebiblioteket, fasitgenerering og alle eksportformater — uten å opprette en konto, oppgi kredittkort eller installere programvare. Nedlastinger fra den gratis prøveversjonen inneholder et lite vannmerke. En kommersiell lisens fjerner vannmerket og gir fulle salgsrettigheter.',
     },
     {
-      question: 'Kan jeg selge arbeidsarkene jeg lager med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du alle rettigheter til å selge gjett ordet-arbeidsarkene dine som digitale nedlastinger på Etsy, som trykte aktivitetsbøker på Amazon KDP, som pedagogiske ressurser på Gumroad, eller via enhver annen salgskanal. Det bildebaserte puslespillformatet og den flerspråklige kapasiteten gir deg sterk differensiering i trengte markedsplasskategorier.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis prøveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjøp av kommersielle lisenser. Du kan teste hver innholdskilde, hver vanskelighetsgrad, hvert tema, hvert eksportformat og hvert sideformat før du kjøper. Den gratis prøveversjonen er returpolicyen — sørg for at verktøyet oppfyller behovene dine før du anskaffer en lisens.',

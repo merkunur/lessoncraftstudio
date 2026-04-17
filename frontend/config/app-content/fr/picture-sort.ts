@@ -197,11 +197,6 @@ const content: AppContent = {
         'Oui. Le panneau Mise en Page inclut un sélecteur de thème de fond avec un curseur d\'opacité (de 0 à 1 par pas de 0,05) et un sélecteur de thème de bordure avec son propre curseur d\'opacité indépendant. Les thèmes de fond ajoutent des motifs décoratifs derrière le contenu de tri, tandis que les thèmes de bordure encadrent la page. Les deux ont des contrôles d\'opacité séparés pour que vous puissiez créer des fonds subtils avec des bordures proéminentes, ou toute combinaison qui convient à votre design.',
     },
     {
-      question: 'Puis-je vendre des fiches de tri créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de tri comme téléchargements numériques sur Etsy, comme cahiers imprimés sur Amazon KDP, comme ressources imprimables sur Gumroad, ou via tout autre canal de vente. Le mécanisme de tri à deux catégories, les corrigés auto-générés et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits d\'activités de tri originaux et vendables.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'Comme l\'essai gratuit vous donne accès à chaque fonctionnalité, nous n\'offrons pas de remboursements sur les achats de licences commerciales. Vous pouvez tester la sélection de catégories thématique et manuelle, le nombre d\'images configurable, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure, les champs nom/date et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

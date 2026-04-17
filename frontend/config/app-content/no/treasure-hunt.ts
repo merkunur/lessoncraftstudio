@@ -183,11 +183,6 @@ const content: AppContent = {
         'Ja. Panelet Sideoppsett inkluderer både en bakgrunnstema-velger med en opasitetsglidebryter (0–1 i 0,05-trinn) og en rammetema-velger med sin egen uavhengige opasitetsglidebryter. Bakgrunnstemaer legger til dekorative monstre bak koordinatrutenettet og retningsinstruksjonene, mens rammetemaer rammer inn siden. Begge har separate opasitetskontroller for fullstendig designfleksibilitet.',
     },
     {
-      question: 'Kan jeg selge skattejagtarbeidsark laget med dette verktøyet på Etsy og Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell lisens har du fulle rettigheter til å selge skattejagtarbeidsarkene dine som digitale nedlastinger på Etsy, som trykte arbeidboker på Amazon KDP, som produktlinjeressurser på Gumroad, eller via enhver annen salgskanal. De to retningstypene, 5×5 koordinatrutenettet, lokaliserte retningsanvisninger, automatisk genererte fasiter og 104 tematiske bildesamlinger gir deg de kreative verktoyene til å produsere originale, salgbare veifindingspuslespill-produkter.',
-    },
-    {
       question: 'Hva er returpolicyen?',
       answer:
         'Fordi den gratis proveversjonen gir deg tilgang til alle funksjoner, tilbyr vi ingen refusjoner på kjop av kommersielle lisenser. Du kan teste begge retningstypene, 5×5 koordinatrutenettet, 6-bilders puslespillgenerering, den automatisk genererte fasiten, hele bildebiblioteket, bakgrunns- og rammetemaer og alle nedlastingsformater for du kjoper. Den gratis proveversjonen er returpolicyen — sorg for at verktøyet passer til behovene dine for du anskaffer en lisens.',

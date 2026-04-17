@@ -189,11 +189,6 @@ const content: AppContent = {
         'Nej. Mönstertåg är en rent visuell app — arbetsbladen innehåller enbart bilder på tågvagnar med noll text på resultatet, så de är identiska på varje språk. Att byta språk påverkar bara gränssnittsetiketterna i generatorn och bildbiblioteksspråket, inte arbetsbladet i sig. Kommersiellt Paket inkluderar 10 färgglada teman; Full Access låser upp alla 104 teman och alla 11 gränssnittsspråk.',
     },
     {
-      question: 'Kan jag sälja arbetsblad skapade med detta verktyg på Etsy och Amazon KDP?',
-      answer:
-        'Ja. Med en kommersiell licens har du fulla rättigheter att sälja dina mönstertåg-arbetsblad som digitala nedladdningar på Etsy, som tryckta arbetsböcker på Amazon KDP, som lärarresurser på Gumroad eller genom valfri annan försäljningskanal. De fem mönstertyperna, det justerbara antalet ledtrådar och det unika tågvagnsformatet ger dig stark differentiering och global säljbarhet i marknadsplatskategorier.',
-    },
-    {
       question: 'Vad är er återbetalningspolicy?',
       answer:
         'Eftersom den gratis provversionen ger dig tillgång till alla funktioner erbjuder vi inte återbetalning på köp av kommersiella licenser. Du kan testa varje mönstertyp, varje ledtrådsinställning, varje tema, varje exportformat och varje sidstorlek innan du köper. Den gratis provversionen är återbetalningspolicyn — se till att verktyget passar dina behov innan du köper en licens.',

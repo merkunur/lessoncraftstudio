@@ -191,16 +191,6 @@ const content: AppContent = {
         'Yes. You can access every feature — both modes, all symbol counts, the full image library, Word Reveal in all eleven languages, answer key generation, and every export format — without creating an account, entering a credit card, or installing any software. Free trial downloads include a small watermark. A commercial license removes the watermark and grants full selling rights.',
     },
     {
-      question: 'What does the commercial license include?',
-      answer:
-        'The commercial license removes the watermark from all downloads and grants you unlimited rights to sell the worksheets you create — on Etsy, Amazon KDP, Gumroad, your own website, or any other platform. There are no per-sale royalties, no monthly fees, and no limits on how many worksheets you produce or sell.',
-    },
-    {
-      question: 'Can I sell worksheets made with this tool on Etsy and Amazon KDP?',
-      answer:
-        'Yes. With a commercial license, you have full rights to sell your code addition worksheets as digital downloads on Etsy, as printed puzzle books on Amazon KDP, as digital products on Gumroad, or through any other sales channel. The code-breaking format is a proven seller because it stands out from standard addition drill sheets in marketplace search results.',
-    },
-    {
       question: 'Do I need to install any software?',
       answer:
         'No. The Code Addition Worksheet Generator runs entirely in your web browser. There is nothing to download, install, or update. It works on any modern desktop browser including Chrome, Firefox, Safari, and Edge. Just open the page and start creating code-cracking math puzzles.',

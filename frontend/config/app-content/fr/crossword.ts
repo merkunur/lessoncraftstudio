@@ -199,11 +199,6 @@ const content: AppContent = {
         'Le générateur utilise un système à double canevas avec un onglet Fiche (le puzzle) et un onglet Corrigé (la grille remplie). La fiche affiche la grille de mots croisés vide avec les positions numérotées et les indices visuels ou textuels — prête à être remplie. Le corrigé reproduit la disposition identique et remplit chaque case avec les lettres correctes. Les deux versions s\'exportent séparément avec quatre boutons de téléchargement dédiés : crossword_worksheet.jpeg, crossword_answer_key.jpeg, image-crossword-worksheet.pdf et image-crossword-answer-key.pdf.',
     },
     {
-      question: 'Puis-je vendre des mots croisés en images créés avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos puzzles de mots croisés en images en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Les quatre méthodes de saisie, les corrigés auto-générés, la génération de mots sensible à la langue et les 104 collections d\'images thématiques vous donnent les outils créatifs pour produire des produits de mots croisés originaux et vendables.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester les quatre méthodes de saisie, le générateur de grille 15×15, le corrigé auto-généré, la bibliothèque d\'images complète, les thèmes de fond et de bordure et tous les formats de téléchargement avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

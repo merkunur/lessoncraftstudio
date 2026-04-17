@@ -190,11 +190,6 @@ const content: AppContent = {
         'Ja. Je hebt toegang tot elke functie — beide richtingstypen, het 5×5 coördinatenraster, 6-afbeeldingen puzzelgeneratie, het automatisch gegenereerde antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema\'s, alle downloadformaten en de grijstinten-schakelaar — zonder een account aan te maken, een creditcard in te voeren of software te installeren. Gratis proefversie downloads bevatten een klein watermerk. Een commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
     },
     {
-      question: 'Kan ik schattenjacht werkbladen gemaakt met deze tool verkopen op Etsy en Amazon KDP?',
-      answer:
-        'Ja. Met een commerciële licentie heb je volledige rechten om je schattenjacht werkbladen te verkopen als digitale downloads op Etsy, als gedrukte werkboeken op Amazon KDP, als printbare producten op Gumroad, of via elk ander verkoopkanaal. De twee richtingstypen, het 5×5 coördinatenraster, gelokaliseerde richtingsaanwijzingen, automatisch gegenereerde antwoordbladen en 104 thematische beeldcollecties geven je de creatieve tools om originele, verkoopbare padzoekpuzzelproducten te produceren.',
-    },
-    {
       question: 'Wat is het restitutiebeleid?',
       answer:
         'Omdat de gratis proefversie je toegang geeft tot elke functie, bieden we geen restituties op commerciële licentie-aankopen. Je kunt beide richtingstypen, het 5×5 coördinatenraster, 6-afbeeldingen puzzelgeneratie, het automatisch gegenereerde antwoordblad, de volledige afbeeldingenbibliotheek, achtergrond- en kaderthema\'s en alle downloadformaten testen voordat je koopt. De gratis proefversie is het restitutiebeleid — zorg ervoor dat de tool aan je behoeften voldoet voordat je een licentie aanschaft.',

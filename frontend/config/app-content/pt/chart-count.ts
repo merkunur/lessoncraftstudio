@@ -194,11 +194,6 @@ const content: AppContent = {
         'Não. O Gerador de Gráficos de Contagem produz atividades de contagem visual onde os usuários contam imagens e preenchem células de gráfico de barras — os números e as imagens são universais. Mudar o idioma apenas afeta as etiquetas da interface do gerador, o título e instruções do cabeçalho autogerado, e as etiquetas de conteúdo da biblioteca de imagens. A atividade em si funciona de forma idêntica em todos os idiomas. A Licença Comercial inclui 10 temas coloridos; o Acesso Completo desbloqueia os 104 temas e os 11 idiomas de interface.',
     },
     {
-      question: 'Posso vender atividades de gráfico pictórico criadas com esta ferramenta na Etsy e Amazon KDP?',
-      answer:
-        'Sim. Com uma licença comercial, tem todos os direitos para vender as suas atividades de gráfico pictórico como downloads digitais na Etsy, como cadernos de competências de dados impressos na Amazon KDP, como recursos educativos na Hotmart ou através de qualquer outro canal de venda. A geração com canvas duplo, o gabarito automático e as 104 coleções de imagens temáticas oferecem-lhe as ferramentas para produzir produtos de gráficos pictóricos originais e vendáveis em escala.',
-    },
-    {
       question: 'Qual é a política de reembolso?',
       answer:
         'Como o teste grátis lhe dá acesso a todas as funcionalidades, não oferecemos reembolsos em compras de licenças comerciais. Pode testar o canvas duplo, a geração de grelha de imagens, o gabarito automático, a biblioteca de imagens completa, os temas de fundo e borda, os campos de nome/data, a exportação em escala de cinzentos e todos os formatos de download antes de comprar. O teste grátis é a política de reembolso — certifique-se de que a ferramenta se adequa às suas necessidades antes de adquirir uma licença.',

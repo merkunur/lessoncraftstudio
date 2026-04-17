@@ -194,11 +194,6 @@ const content: AppContent = {
         'No. El Generador de Gráficos de Conteo produce fichas de conteo visual donde los usuarios cuentan imágenes y rellenan casillas de gráfico de barras — los números y las imágenes son universales. Cambiar el idioma solo afecta las etiquetas de la interfaz del generador, el título e instrucciones del encabezado autogenerado, y las etiquetas de contenido de la biblioteca de imágenes. La ficha en sí funciona de forma idéntica en todos los idiomas. La Licencia Comercial incluya 10 temas coloridos; el Acceso Completo desbloquea los 104 temas y los 11 idiomas de interfaz.',
     },
     {
-      question: '¿Puedo vender fichas de gráfico de imágenes creadas con esta herramienta en Etsy y Amazon KDP?',
-      answer:
-        'Sí. Con una licencia comercial, tiene todos los derechos para vender sus fichas de gráfico de imágenes como descargue digitales en Etsy, como cuadernos de habilidades de datos impresos en Amazon KDP, como recursos educativos en Hotmart o a través de cualquier otro canal de venta. La generación con doble lienzo, la clave de respuesta automática y las 104 colecciones de imágenes temáticas le ofrecen las herramientas para producir productos de gráficos de imágenes originales y vendibles a gran escala.',
-    },
-    {
       question: '¿Cuál es la política de reembolso?',
       answer:
         'Al darte la prueba gratis acceso a todas las funciones, no ofrecemos reembolsos en las compre de licencia comercial. Puede probar el doble lienzo, la generación de cuadrícula de imágenes, la clave de respuesta automática, la biblioteca de imágenes completa, los temas de fondo y borde, los campos de nombre/fecha, la exportación en escala de grises y todos los formatos de descargue antes de comprar. La prueba gratis es la política de reembolso — asegúrese de que la herramienta se adapta a sus necesidades antes de adquirir una licencia.',

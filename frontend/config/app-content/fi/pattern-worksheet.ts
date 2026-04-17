@@ -184,11 +184,6 @@ const content: AppContent = {
         'Ei. Kuviotyöarkki on puhtaasti visuaalinen sovellus — työarkit sisältävät vain kuvia ruudukkorivillä nollatekstillä tuloksessa. Kaupallinen Paketti sisältää 10 värikästä teemaa; Täysi Pääsy avaa kaikki 104 teemaa ja kaikki 11 käyttöliittymäkieltä.',
     },
     {
-      question: 'Voinko myydä tällä työkalulla luotuja työarkkeja Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä kuviotyöarkkejasi digitaalisina latauksina Etsyssä, painettuina työkirjoina Amazon KDP:ssä, tuotteina Gumroadissa tai minkä tahansa muun myyntikanavan kautta.',
-    },
-    {
       question: 'Sopivatko loogisten sarjojen tehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Yksinkertaiset kuviosarjat sopivat esiopetukseen, monimutkaisemmat sarjat alkuopetukseen ja matemaattiset lukujonot alakouluun. Visuaalinen muoto tekee loogisesta ajattelusta saavutettavaa kaikille ikätasoille.',

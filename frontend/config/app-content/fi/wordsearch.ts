@@ -177,11 +177,6 @@ const content: AppContent = {
         'Kyllä. Sinulla on pääsy kaikkiin ominaisuuksiin — kaikkiin kolmeen sisältölähteeseen, kaikkiin ruudukon kokoihin, kaikkiin suunta-asetuksiin, vastausavaimen luomiseen ja kaikkiin vientimuotoihin — ilman tilin luomista tai luottokorttia. Ilmaisen kokeilun lataukset sisältävät pienen vesileiman.',
     },
     {
-      question: 'Mitä kaupallinen lisenssi sisältää?',
-      answer:
-        'Kaupallinen lisenssi poistaa vesileiman kaikista latauksista ja antaa rajoittamattomat oikeudet myydä luomiasi työarkkeja — Etsyssä, Amazon KDP:ssa, Gumroadissa tai millä tahansa muulla alustalla. Ei rojalteja, ei kuukausimaksuja eikä rajoituksia.',
-    },
-    {
       question: 'Sopivatko sanasokkelotehtävät esiopetukseen, alkuopetukseen ja alakouluun?',
       answer:
         'Kyllä. Pienet ruudukot (5x5–8x8) sopivat esiopetukseen ja alkuopetukseen, keskikokoiset (10x12) alakoulun alaluokille ja suuret ruudukot (15x15–30x30) yläluokille. Diagonaalisten ja käänteisten sanojen poistaminen helpottaa tehtävää nuorimmille.',
@@ -200,11 +195,6 @@ const content: AppContent = {
       question: 'Sisältyvätkö vastaukset automaattisesti?',
       answer:
         'Kyllä. Jokainen sanasokkelo sisältää värikoodatun vastausavaimen, jossa jokainen löydetty sana on merkitty omalla värillään kuudesta kiertävästä väristä. Vastausavain on erillisellä sivulla.',
-    },
-    {
-      question: 'Voinko myydä näitä tehtäviä Etsyssä ja Amazon KDP:ssä?',
-      answer:
-        'Kyllä. Kaupallisella lisenssillä sinulla on täydet oikeudet myydä sanasokkelotehtäviä digitaalisina latauksina Etsyssä, painettuina pulmakirjoina Amazon KDP:ssä tai millä tahansa muulla alustalla.',
     },
     {
       question: 'Kuinka monella kielellä voin luoda tehtäviä?',

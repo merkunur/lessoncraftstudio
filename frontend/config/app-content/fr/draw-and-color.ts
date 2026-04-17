@@ -197,11 +197,6 @@ const content: AppContent = {
         'Non. Dessin sur Quadrillage est une application purement visuelle — les fiches ne contiennent que des images en grille sans aucun texte sur la sortie, elles sont donc identiques dans toutes les langues. Changer la langue n\'affecte que les étiquettes de l\'interface du générateur et les étiquettes de contenu de la bibliothèque d\'images, pas la fiche elle-même. La Licence Commerciale inclut 10 thèmes N&B ; l\'Accès Complet déverrouille tous les 100+ thèmes N&B et les 11 langues d\'interface.',
     },
     {
-      question: 'Puis-je vendre des fiches créées avec cet outil sur Etsy et Amazon KDP ?',
-      answer:
-        'Oui. Avec une licence commerciale, vous avez tous les droits pour vendre vos fiches de dessin sur grille en téléchargement numérique sur Etsy, en cahiers imprimés sur Amazon KDP, en ressources imprimables sur Gumroad ou via tout autre canal de vente. Le format à double grille, le pourcentage d\'indices réglable, les modes de symétrie et le style de contours N&B créent un produit distinctif qui concurrence fortement dans les catégories de fiches de dessin et d\'activités.',
-    },
-    {
       question: 'Quelle est la politique de remboursement ?',
       answer:
         'L\'essai gratuit vous donnant accès à toutes les fonctionnalités, nous n\'offrons pas de remboursement sur les achats de licence commerciale. Vous pouvez tester chaque taille de grille, chaque pourcentage d\'indices, chaque mode de symétrie, chaque format d\'export et chaque taille de page avant d\'acheter. L\'essai gratuit est la politique de remboursement — assurez-vous que l\'outil répond à vos besoins avant d\'acheter une licence.',

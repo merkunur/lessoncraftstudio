@@ -27,6 +27,8 @@ const content: AppContent = {
       'Genereer professionele ontbrekende stukjes puzzels die perfect passen in KDP-activiteitenboeken en Etsy-downloads. Kinderen bekijken een afbeelding met gaten en identificeren welk genummerd stukje in elke opening past — een activiteit die visuele waarneming en ruimtelijk redeneren traint. Het slimme extractie-algoritme selecteert automatisch gebieden met voldoende kleurvariantie, zodat elke puzzel oplosbaar en visueel aantrekkelijk is. Kies uit 6 stukvormen (vierkant, cirkel, rechthoek, ellips) en stel de moeilijkheid in via twee assen: 1 tot 5 ontbrekende stukjes en 2 tot 6 oplossingsopties inclusief afleiders. Het dubbele-canvassysteem genereert automatisch een antwoordblad met geel gemarkeerde nummerlabels, wat u uren handwerk bespaart bij grote bundels. Kies uit meer dan 3100 illustraties in 104 thema\'s of upload uw eigen afbeeldingen. Exporteer op 300 DPI als PDF of JPEG in Letter-, A4- of Vierkant-formaat. Verkoop uw puzzels op Etsy, bundel ze tot gedrukte werkboeken op Amazon KDP of bied ze aan via Bol.com — de commerciële licentie geeft u volledige verkooprechten.',
   },
 
+  ctaHeading: 'Puzzels met ontbrekende stukjes maken',
+
   howItWorks: {
     title: 'Hoe maakt u ontbrekende stukjes puzzels in 5 stappen',
     steps: [

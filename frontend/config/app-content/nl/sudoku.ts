@@ -31,6 +31,8 @@ const content: AppContent = {
       'Met de Sudoku met Afbeeldingen Generator maakt u professionele puzzelwerkbladen voor uw KDP-activiteitenboeken en Etsy-winkel. In plaats van traditionele cijfers gebruikt elke puzzel kleurrijke thematische illustraties, waardoor de sudoku\'s perfect geschikt zijn voor jonge kinderen die nog niet met getallen werken. Kies uit drie moeilijkheidsniveaus — Makkelijk, Gemiddeld en Moeilijk — en selecteer afbeeldingen uit 104 thematische collecties met meer dan 3100 illustraties. Omdat de puzzels puur visueel zijn, verkoopt u hetzelfde product wereldwijd zonder vertaalkosten. Elk werkblad genereert automatisch een antwoordblad, wat u uren bespaart bij het samenstellen van puzzelbundels. Het premium rasterontwerp met afwisselende blokkleuren en meerlaagse schaduwen onderscheidt uw producten van basale concurrenten op de markt. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten — direct klaar voor Amazon KDP-binnenwerken of digitale downloads op Etsy.nl. Nederlandse uitgevers kunnen ook publiceren via Brave New Books voor de lokale markt. De commerciële licentie verleent volledige verkooprechten op alle platforms. Gratis proefversie met watermerk — test alle functies zonder registratie of creditcard.',
   },
 
+  ctaHeading: 'Sudoku\'s maken',
+
   howItWorks: {
     title: 'Zo maakt u sudoku met afbeeldingen voor verkoop in 5 stappen',
     steps: [

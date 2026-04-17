@@ -27,6 +27,8 @@ const content: AppContent = {
       'Genereer rekenpuzzels in rasterformaat die logisch denken combineren met rekenvaardigheid — een uniek puzzeltype met aanzienlijk minder concurrentie op Etsy dan standaard rekenbladen. Een afbeelding wordt opgesplitst in rasterstukjes die elk een optel- of aftreksomsom bevatten. Gebruikers lossen de sommen op en koppelen de antwoorden aan de door elkaar geschudde puzzelstukjes om het plaatje te onthullen. Configureer rasters van 2×2 tot 4×4 voor 4 tot 16 stukjes, kies optellen, aftrekken of gemengde bewerkingen, en selecteer uit meer dan 3100 illustraties in 104 thema\'s. Het visuele rasterformaat werkt taalonafhankelijk — uw puzzels zijn direct verkoopbaar op Etsy.nl, Amazon KDP, Bol.com en internationale marktplaatsen zonder vertaling. Elk werkblad bevat een automatisch antwoordblad. Exporteer als printklare PDF of JPEG op meer dan 400 DPI. De commerciële licentie verleent u volledige verkooprechten. Probeer alle functies met de gratis proefversie — downloads bevatten een watermerk dat verdwijnt met een licentie.',
   },
 
+  ctaHeading: 'Rekenpuzzels maken',
+
   howItWorks: {
     title: 'Hoe maakt u rekenpuzzels om te verkopen in 5 stappen',
     steps: [

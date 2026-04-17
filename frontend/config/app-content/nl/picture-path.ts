@@ -27,6 +27,8 @@ const content: AppContent = {
       'Doolhofpuzzels zijn een van de populairste formaten voor activiteitenboeken en printables. Met deze generator maakt u professionele doolhoven met afbeeldingen in drie spelmodi: Afbeeldingspad waarbij kinderen het juiste pad volgen door plaatjes te herkennen, Klassiek Doolhof met wandgebaseerde gangen en verzamelobjecten, en Kies het Juiste Pad met driepad-puzzels. Het professionele LPF-algoritme (Langste Pad Eerst) genereert uitdagende maar oplosbare doolhoven die de kwaliteit van handontworpen puzzels evenaren. Kies uit 104 thematische collecties met meer dan 3.100 illustraties voor seizoensgebonden en thematische bundels. Elk werkblad is volledig visueel zonder tekst, waardoor uw doolhofproducten wereldwijd verkoopbaar zijn zonder vertaling. Ideaal voor Amazon KDP activiteitenboeken, Etsy.nl digitale downloads en Bol.com. Automatisch gegenereerde antwoordbladen besparen u uren productietijd. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. Gratis proefversie met watermerk — koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
+  ctaHeading: 'Doolhoven maken',
+
   howItWorks: {
     title: 'Hoe maakt u doolhoven met afbeeldingen om te verkopen',
     steps: [

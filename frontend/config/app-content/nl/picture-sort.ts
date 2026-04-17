@@ -27,6 +27,8 @@ const content: AppContent = {
       'Bouw een winstgevende lijn sorteerwerkbladen voor uw Etsy-shop of Amazon KDP-portfolio. Kinderen knippen plaatjes uit en sorteren ze in twee categorieën — een klassieke kleuteractiviteit die ouders en onderwijzers wereldwijd zoeken. De generator biedt themamodus met automatische beeldselectie uit 104 collecties en handmatige modus voor volledige controle over elke categorie. Automatisch gegenereerde antwoordbladen met 6× grotere afbeeldingen in categorievakken maken uw producten direct verkoopklaar. Sorteerwerkbladen zijn bijzonder populair voor kleuters en groep 1–2 in het Nederlandse onderwijs, en dankzij gelokaliseerde categorielabels in 11 talen kunt u dezelfde thema\'s verkopen op Etsy.nl, Bol.com en internationale markten. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. De gratis proefversie met watermerk geeft u toegang tot alle functies — geen registratie vereist. Koop een commerciële licentie om het watermerk te verwijderen en volledige verkooprechten te ontvangen.',
   },
 
+  ctaHeading: 'Sorteerwerkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u sorteerwerkbladen voor uw Etsy-business in 5 stappen',
     steps: [

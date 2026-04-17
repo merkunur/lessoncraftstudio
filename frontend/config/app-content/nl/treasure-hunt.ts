@@ -28,6 +28,8 @@ const content: AppContent = {
       'Met de Speurtocht Generator maakt u professionele schattenjacht-werkbladen waarbij kinderen aanwijzingen volgen langs afbeeldingen om een verborgen schat te vinden op een 5×5 coördinatenraster. Elke puzzel bevat 6 thematische illustraties als oriëntatiepunten en 4 richtingsbewegingen die naar de schatlocatie leiden. Kies uit Basismodus (omhoog, omlaag, links, rechts) of Kompasmodus (noord, zuid, oost, west) en selecteer afbeeldingen uit 104 thematische collecties met meer dan 3100 illustraties. Speurtocht-werkbladen zijn ideaal voor kinderfeestjes, verjaardagsactiviteiten en seizoensgebonden evenementen. Sinterklaas-speurtochten zijn een uitstekende seizoensmogelijkheid voor de Nederlandse en Belgische markt — een niche met nauwelijks Engelstalige concurrentie. Verkoop uw werkbladen op Etsy, Amazon KDP of Bol.com met een commerciële licentie. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI met automatisch gegenereerde antwoordbladen. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },
 
+  ctaHeading: 'Schattenjachten maken',
+
   howItWorks: {
     title: 'Hoe maakt u speurtocht-werkbladen in 5 stappen',
     steps: [

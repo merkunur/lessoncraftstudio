@@ -27,6 +27,8 @@ const content: AppContent = {
       'Met de Zoek en Tel Werkbladen Generator maakt u professionele ik-zie-ik-zie werkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. Kleuters en kinderen in groep 1 tot en met 4 doorzoeken een verstrooide afbeeldingenscene om specifieke objecten te vinden, omcirkelen, doorstrepen of tellen. U kiest uit twee activiteitsmodi: Verborgen Voorwerp verstrooit afbeeldingen over een instelbaar raster met tot vier doelobjecten en individuele taaktypen. Letterherkenning toont een taalspecifiek alfabetraster en genereert scenes met afbeeldingen die beginnen met de geselecteerde letter. Selecteer uit meer dan 3100 illustraties in 104 thema\'s. Elk werkblad genereert automatisch een antwoordblad met rode annotaties. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. De Nederlandse markt op Etsy.nl en Bol.com biedt uitstekende kansen voor zoek-en-tel activiteiten in het Nederlands. Een commerciële licentie verwijdert het watermerk en geeft u volledige verkooprechten.',
   },
 
+  ctaHeading: 'Zoek-en-tel werkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u zoek-en-tel werkbladen om te verkopen',
     steps: [

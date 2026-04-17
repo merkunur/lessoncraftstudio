@@ -27,6 +27,8 @@ const content: AppContent = {
       'Met de Meer of Minder Werkbladen Generator maakt u professionele vergelijkingswerkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. Kinderen in groep 1 tot en met 3 leren welke groep meer heeft, welke minder en wanneer twee groepen gelijk zijn. U kiest uit drie oefenmodi — Afbeelding naar Afbeelding, Afbeelding naar Getal en de unieke modus Controleer en Kruis Groepen. Selecteer uit meer dan 3100 illustraties in 104 thema\'s, schakel tussen dezelfde of verschillende afbeeldingen per vergelijking en kies illustratie-symbolen of standaard wiskundige tekens. Elk werkblad bevat een automatisch antwoordblad. Exporteer printklare PDF\'s op meer dan 400 DPI in Letter- of A4-formaat. De Nederlandse markt biedt kansen op Etsy.nl en Bol.com voor verkopers van educatieve printables. Een commerciële licentie verwijdert het watermerk en geeft u volledige verkooprechten op elk platform.',
   },
 
+  ctaHeading: 'Werkbladen meer of minder maken',
+
   howItWorks: {
     title: 'Hoe maakt u vergelijkingswerkbladen om te verkopen',
     steps: [

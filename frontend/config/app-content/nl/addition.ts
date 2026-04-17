@@ -29,6 +29,8 @@ const content: AppContent = {
       'Maak rekenbladen met optelsommen om te verkopen op Etsy, Amazon KDP of via Brave New Books op Bol.com — en genereer ze in minder dan 3 minuten. Deze generator maakt opteloefeningen met thematische afbeeldingen uit een bibliotheek van meer dan 3.000 illustraties die kinderen aanspreken en ouders overtuigen om te kopen. Exporteer printklare PDF\'s op 300 DPI met automatisch gegenereerde antwoordenbladen en verkoop ze met de inbegrepen commerciële licentie — geen naamsvermelding vereist, geen beperkingen. De Nederlandstalige markt voor educatieve printables op Etsy is vrijwel onbestaand: er zijn nauwelijks verkopers die werkbladen in het Nederlands aanbieden. Met 28 miljoen Nederlandstaligen in Nederland, België en Suriname is dit een unieke kans om als eerste een onontgonnen markt te betreden. Probeer alle functies met de gratis proefversie met watermerk — zonder account.',
   },
 
+  ctaHeading: 'Optelwerkbladen maken',
+
   howItWorks: {
     title: 'Hoe u optelwerkbladen maakt in minder dan 3 minuten',
     steps: [

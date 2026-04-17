@@ -26,6 +26,8 @@ const content: AppContent = {
       'Maak geheimschrift rekenpuzzels waarbij afbeeldingen geheime getallen verbergen die gebruikers moeten ontcijferen door optelsommen op te lossen. Dit unieke format combineert rekenvaardigheid met logisch decoderen en is vrijwel niet te vinden op Etsy — een enorme kans voor verkopers die zich willen onderscheiden. Schakel over naar de Onthuld Woord modus en gebruikers decoderen een geheim woord door elke som te koppelen aan een letter uit de decoderingstabel. De generator ondersteunt elf taalspecifieke alfabetten inclusief het Nederlandse met ë, ï, é en ü, waardoor geheime woorden met diakritische tekens correct werken. Kies uit meer dan 3100 afbeeldingen in 104 thema\'s als codesymbolen, configureer nummerbereiken van 1 tot 20 en exporteer printklare PDF\'s of JPEG\'s op meer dan 400 DPI met automatische antwoordsleutels. Verkoop uw puzzels op Etsy.nl, Amazon KDP, Bol.com of uw eigen webshop met de commerciële licentie. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },
 
+  ctaHeading: 'Werkbladen met geheime code maken',
+
   howItWorks: {
     title: 'Hoe maakt u geheimschrift rekenpuzzels in 5 stappen',
     steps: [

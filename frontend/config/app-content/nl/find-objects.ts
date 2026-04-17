@@ -28,6 +28,8 @@ const content: AppContent = {
       'Met de Zoek Voorwerpen Generator maakt u professionele verborgen voorwerp werkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. Jonge kinderen doorzoeken een vrij verspreide afbeeldingenscene om specifieke objecten te vinden en te omcirkelen. U kiest uit twee activiteitsmodi: Vind de Verborgen Voorwerpen verspreidt doelafbeeldingen tussen afleidingsafbeeldingen met een nul-overlap plaatsingsalgoritme voor natuurlijk ogende scenes. Vind de Vreemde Eend rangschikt gekoppelde afbeeldingen in rijen met ongekoppelde items ertussen. Het dubbele canvassysteem genereert automatisch een antwoordblad met rode cirkels. Selecteer uit meer dan 3100 illustraties in 104 thema\'s. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. Werkbladen zijn puur visueel en werken in elke taal zonder aanpassing. De Nederlandse markt op Etsy.nl en Bol.com biedt sterke vraag naar zoek-en-vind activiteiten voor kleuters en basisschoolkinderen. Een commerciële licentie verwijdert het watermerk en geeft u volledige verkooprechten.',
   },
 
+  ctaHeading: 'Zoekplaten maken',
+
   howItWorks: {
     title: 'Hoe maakt u zoek-en-vind werkbladen om te verkopen',
     steps: [

@@ -28,6 +28,8 @@ const content: AppContent = {
       'Onderscheid uw puzzelproducten van de concurrentie met kruiswoordpuzzels die afbeeldingen gebruiken als aanwijzingen in plaats van traditionele tekstdefinities. Dit visuele formaat valt direct op in zoekresultaten van Etsy, Bol.com en Amazon KDP. Het algoritme plaatst 8 woorden op een vast 15×15 raster met genummerde posities die elke afbeelding verbinden met de startcel. Kies uit vier invoermethoden: thema automatisch selecteren voor snelle productie, handmatige bewerking voor precieze woordenschatcontrole, aangepaste woordenlijst voor traditionele tekstaanwijzingen, of upload uw eigen afbeeldingen. Met 3.100+ illustraties verdeeld over 104 thema\'s maakt u honderden unieke puzzels voor thematische bundels. De generator is taalgebonden: het wisselen van taal verandert de daadwerkelijke kruiswoordwoorden, waardoor u meertalige productlijnen kunt opbouwen vanuit dezelfde afbeeldingen. Het automatisch gegenereerde antwoordblad bespaart u enorm veel productietijd. Voor de Nederlandse markt biedt Brave New Books naast KDP een extra verkoopkanaal voor gedrukte puzzelboeken. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI met commerciële licentie. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },
 
+  ctaHeading: 'Kruiswoordpuzzels maken',
+
   howItWorks: {
     title: 'Zo maakt u verkoopklare kruiswoordpuzzels in 5 stappen',
     steps: [

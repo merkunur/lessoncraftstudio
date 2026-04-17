@@ -27,6 +27,8 @@ const content: AppContent = {
       'Fijne motoriek werkbladen zijn een van de meest gevraagde printables voor kleuters en jonge kinderen. Met deze generator maakt u professionele trekwerkbladen waarbij kinderen langs begeleide paden tekenen om bijpassende afbeeldingsparen te verbinden. Acht SVG-lijnsjablonen dekken bochten, diagonalen, horizontale en verticale lijnen — elk gericht op een andere motorische vaardigheid die essentieel is voor voorbereidend schrijven. Elk sjabloon plaatst 4 of 5 afbeeldingsparen aan tegenovergestelde zijden van het lijnpad, wat kinderen motiveert om de lijn af te maken. Kies uit 104 thematische collecties met meer dan 3.100 kleurrijke illustraties. Werkbladen zijn volledig visueel zonder tekst, waardoor ze wereldwijd verkoopbaar zijn zonder vertaling. Bijzonder populair op de Nederlandse markt voor ouders die werkbladen kopen voor kleuters en groep 1-2. Ideaal voor Etsy.nl, Bol.com en Amazon KDP fijne motoriek werkboeken. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI. Gratis proefversie met watermerk — koop een licentie om het watermerk te verwijderen en commercieel te verkopen.',
   },
 
+  ctaHeading: 'Schrijfmotoriek werkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u trekwerkbladen voor fijne motoriek',
     steps: [

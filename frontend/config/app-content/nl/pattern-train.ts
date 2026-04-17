@@ -28,6 +28,8 @@ const content: AppContent = {
       'Maak professionele patroontrein werkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. De generator toont herhalende reeksen op 11 thematische treinwagons — een uniek visueel formaat dat opvalt tussen standaard rastergebaseerde patroonwerkbladen in marktplaatsvermeldingen. Vijf patroontypen — AB, AAB, ABB, ABC en AABB — dekken het volledige spectrum van reekscomplexiteit en bieden u een ingebouwde getrapte productlijn van kleuters tot groep 4 van de Nederlandse basisschool. Het instelbare aantal aanwijzingen van 4 tot 10 geeft u een tweede moeilijkheidsas: combineer patroontype en aanwijzingenniveau voor tientallen unieke productvariaties vanuit één workflow. De werkbladen zijn volledig visueel — uitsluitend afbeeldingen op treinwagons, nul tekst op de uitvoer — waardoor hetzelfde product wereldwijd verkoopbaar is zonder vertaling. Meer dan 3.100 illustraties in 104 thema\'s zorgen voor eindeloze thematische bundelmogelijkheden per seizoen of onderwerp. Elk werkblad genereert automatisch een antwoordblad op een apart canvas. Logisch denken en patronenherkenning ontwikkelen is een populaire niche voor kleuters op de Nederlandse markt. Exporteer printklare PDF\'s en JPEG\'s op hoge DPI. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie. Commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten.',
   },
 
+  ctaHeading: 'Patroonreeks werkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u patroontrein werkbladen in 5 stappen',
     steps: [

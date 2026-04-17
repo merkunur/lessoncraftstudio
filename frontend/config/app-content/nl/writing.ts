@@ -28,6 +28,8 @@ const content: AppContent = {
       'Maak professionele schrijfwerkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. De generator biedt drie progressieve oefenmodi — Overtrekken, Vervagend Overtrekken en Begeleid Kopiëren — die een natuurlijke leervolgorde creëren van volledige ondersteuning naar zelfstandig schrijven. Vijf lettertypes inclusief pijlgeleide pennenstreek met genummerde streekvolgordeaanwijzingen maken deze werkbladen bijzonder geschikt voor aanvankelijk schrijven in groep 3 van de Nederlandse basisschool. Elke rij is onafhankelijk instelbaar: combineer modi en lettertypes op één werkblad voor een ingebouwde getrapte productlijn. Voorbereidende schrijfbewegingen — verticale lijnen, horizontale lijnen, cirkels en zigzaglijnen — vullen een aparte fijne motoriek niche op Etsy.nl. De Afbeeldingenbibliotheek met meer dan 3.100 illustraties in 104 thema\'s biedt thematische bundelmogelijkheden per seizoen of onderwerp. Volledige Toegang ontgrendelt alle thema\'s en alle 11 interfacetalen. Exporteer printklare PDF\'s en JPEG\'s op circa 300 DPI. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie. Commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten voor Etsy, Amazon KDP, Bol.com en Brave New Books.',
   },
 
+  ctaHeading: 'Schrijfwerkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u schrijfwerkbladen in 5 stappen',
     steps: [

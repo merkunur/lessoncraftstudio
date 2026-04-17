@@ -29,6 +29,8 @@ const content: AppContent = {
       'Maak van aftrekken een verkoopbaar product met een generator die is ontworpen voor printables-ondernemers. Maak geïllustreerde aftrekwerkbladen met thema-afbeeldingen uit meer dan 100 categorieën — dieren, voertuigen, eten, natuur — die rekenen aantrekkelijk maken en uw Etsy-aanbiedingen onweerstaanbaar. Elk werkblad wordt geëxporteerd als printklare PDF op 300 DPI met automatisch antwoordenblad, klaar om te uploaden op Etsy, samen te voegen in een activiteitenboek voor Amazon KDP of Brave New Books, of aan te bieden op Samen Voor Onderwijs. De commerciële licentie is bij elk werkblad inbegrepen. Winstgevende tip: combineer optellen en aftrekken in bundels — verkopers melden aanzienlijk hogere gemiddelde bestellingen met gecombineerde rekenpakketten. Probeer alle functies met de gratis proefversie met watermerk — zonder account.',
   },
 
+  ctaHeading: 'Aftrekwerkbladen maken',
+
   howItWorks: {
     title: 'Professionele aftrekwerkbladen stap voor stap maken',
     steps: [

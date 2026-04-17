@@ -28,6 +28,8 @@ const content: AppContent = {
       'Bouw een winstgevende productlijn op met raster-koppelpuzzels die kinderen uitdagen om patronen op een raster na te tekenen of tegels op de juiste positie terug te plaatsen. De generator verdeelt elke afbeelding in een instelbaar raster van 2×2 tot 4×4 en schudt de tegels met Fisher-Yates randomisatie, zodat u bij elke generatie een unieke puzzel krijgt. Stel 1 tot 5 aanwijzingscellen in als hints — minder hints betekent een moeilijkere puzzel, waardoor u gedifferentieerde bundels kunt samenstellen in meerdere moeilijkheidsgraden. Het dubbele-canvassysteem maakt tegelijkertijd een werkblad en een antwoordblad aan met genummerde cirkeloverlays, zodat u nooit handmatig antwoorden hoeft te maken. Kies uit meer dan 3100 illustraties in 104 thema\'s of upload uw eigen afbeeldingen voor merkgebonden puzzels. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. Verkoop uw puzzels als digitale downloads op Etsy, als activiteitenboeken op Amazon KDP of via Bol.com — de commerciële licentie geeft u volledige verkooprechten zonder royalty\'s per verkoop.',
   },
 
+  ctaHeading: 'Rasterwerkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u raster-koppelpuzzels in 5 stappen',
     steps: [

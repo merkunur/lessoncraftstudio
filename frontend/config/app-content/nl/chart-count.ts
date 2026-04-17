@@ -27,6 +27,8 @@ const content: AppContent = {
       'Combineer tellen en gegevensvisualisatie in werkbladen die populair zijn bij ouders van kinderen in groep 3 tot 5. Elk werkblad toont een verstrooide afbeeldingsraster met 20 pictogrammen van 6 verschillende typen in een 4×5 indeling — kinderen tellen hoeveel van elk type er verschijnen en kleuren de overeenkomstige cellen in het staafdiagram eronder. Het dubbele-canvassysteem genereert tegelijkertijd een antwoordblad met geel gemarkeerde cellen, zodat u bij grote bundels nooit handmatig hoeft na te tellen. Kies afbeeldingen automatisch door een thema te selecteren uit de bibliotheek met meer dan 3100 illustraties in 104 collecties, of kies handmatig precies 6 afbeeldingen. Voeg naam- en datumvelden toe, pas achtergrond- en kaderthema\'s aan met onafhankelijke dekkingsregelaars en exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4-, Vierkant- of aangepaste formaten. Visueel tellen werkt taalonafhankelijk — cijfers en afbeeldingen zijn universeel, dus dezelfde werkbladen functioneren in elke taal. Verkoop uw grafiekwerkbladen als downloads op Etsy, bundel ze tot werkboeken voor Amazon KDP of bied ze aan via Bol.com. De commerciële licentie geeft u volledige verkooprechten zonder royalty\'s.',
   },
 
+  ctaHeading: 'Telwerkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u tel- en grafiekwerkbladen in 5 stappen',
     steps: [

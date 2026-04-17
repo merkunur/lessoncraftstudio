@@ -29,6 +29,8 @@ const content: AppContent = {
       'Betreed een van de minst concurrerende niches in de Nederlandse educatieve printables-markt: voorzetsels werkbladen voor NT2 (Nederlands als Tweede Taal). De structurele vraag vanuit inburgeringstrajecten zorgt voor een constant koperspubliek dat zoekt naar oefenmateriaal met ruimtelijke voorzetsels. Kinderen en volwassen taalleerders oefenen acht kernvoorzetsels — in, op, onder, naast, achter, tussen, boven en voor — via invuloefeningen en meerkeuzevragen met kleurrijke afbeeldingen en geometrische vormen. Selecteer welke voorzetsels u wilt opnemen via de checklist en stel 1 tot 8 oefeningen per werkblad in. Kies uit meer dan 3100 illustraties in 104 thema\'s en 8 geometrische vormen als referentiepunten. Elk werkblad genereert automatisch een antwoordblad. Exporteer op meer dan 400 DPI als PDF of JPEG. Verkoop uw werkbladen op Etsy, Eduki of Samen Voor Onderwijs, of bundel ze tot een KDP-werkboek. De meertalige licentie ontgrendelt alle 11 talen met grammaticaal correcte voorzetsels, waardoor u vanuit dezelfde workflow ook de Duitse, Franse en Spaanse markt bedient. Naast NT2 zijn de werkbladen ook geschikt voor regulier onderwijs in groep 3–4.',
   },
 
+  ctaHeading: 'Voorzetselwerkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u voorzetsels werkbladen in 5 stappen',
     steps: [

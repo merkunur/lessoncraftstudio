@@ -27,6 +27,8 @@ const content: AppContent = {
       'Bouw een populaire productlijn schaduwwerkbladen voor uw Etsy-shop of Amazon KDP-portfolio. Kinderen koppelen gekleurde afbeeldingen aan hun zwarte silhouetten of voegen gesplitste afbeeldingshelften weer samen — een activiteit die visuele waarneming traint en bijzonder geliefd is bij ouders van kleuters en peuters. De generator maakt automatisch nauwkeurige silhouetten via pixelniveau beeldverwerking, wat u uren handwerk bespaart. De Maak het Compleet-modus splitst afbeeldingen in helften voor een tweede puzzeltype vanuit dezelfde tool. Beide modi gebruiken Fisher-Yates derangement dat triviale koppelingen uitsluit, waardoor elk werkblad een echte uitdaging biedt. Met 104 thematische collecties en meer dan 3.100 illustraties kunt u eindeloze varianten produceren voor seizoensbundels en themapakketten. De werkbladen zijn volledig visueel en verkopen daarom op elke markt zonder vertaling — ideaal voor Etsy.nl, Bol.com en internationale shops. Automatische antwoordbladen met letter-naar-nummer-koppelingslabels maken uw producten direct verkoopklaar. Exporteer printklare PDF\'s op 300 DPI. De gratis proefversie met watermerk geeft u toegang tot alle functies — koop een licentie om het watermerk te verwijderen.',
   },
 
+  ctaHeading: 'Schaduwkoppel-werkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u schaduwwerkbladen om te verkopen in 5 stappen',
     steps: [

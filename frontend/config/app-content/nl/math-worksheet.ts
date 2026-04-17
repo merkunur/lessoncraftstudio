@@ -28,6 +28,8 @@ const content: AppContent = {
       'Genereer numerieke rekenbladen met optellen, aftrekken, vermenigvuldigen en delen — puur cijferwerk zonder afbeeldingen, perfect voor groep 4 tot en met 8. Tafels oefenen is een van de meest gezochte rekenthema\'s op de Nederlandse markt, en met deze generator maakt u in minuten professionele oefenbladen die u kunt verkopen op Etsy.nl, Amazon KDP en Bol.com. Configureer het getallenbereik, het aantal opgaven per pagina en de bewerkingstypen om werkbladen te produceren voor elk vaardigheidsniveau — van eenvoudige opteldrills voor beginners tot gemengde bewerkingen met grotere getallen voor gevorderden. Elk werkblad bevat een automatisch gegenereerd antwoordblad en wordt geëxporteerd als printklare PDF of JPEG op meer dan 400 DPI. De commerciële licentie verleent u volledige verkooprechten zonder royalty\'s. Probeer alle functies met de gratis proefversie — downloads bevatten een watermerk dat verdwijnt zodra u een licentie activeert.',
   },
 
+  ctaHeading: 'Rekenwerkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u numerieke rekenbladen in 5 stappen',
     steps: [

@@ -28,6 +28,8 @@ const content: AppContent = {
       'Met de Koppelwerkbladen Generator maakt u in enkele minuten verkoopklare verbindingswerkbladen voor uw printables-business op Etsy, Amazon KDP en Bol.com. Kies uit vier koppelmodi — Beginletter, Afbeelding+Woord, Gemengd en Aangepast Woord — en stel 4, 5 of 6 paren per werkblad in voor verschillende moeilijkheidsgraden. De generator produceert automatisch een antwoordblad bij elk werkblad, wat u uren handmatig werk bespaart bij het samenstellen van bundels. Selecteer afbeeldingen uit 104 thematische collecties met meer dan 3100 illustraties, van dieren en voedsel tot seizoenen en feestdagen. Elk werkblad bevat een gelokaliseerde koptekst in 11 talen, waardoor u hetzelfde product op de Nederlandse, Duitse en internationale markt kunt verkopen. Exporteer printklare PDF\'s en JPEG\'s op 300 DPI in Letter-, A4- of aangepaste formaten. De commerciële licentie verleent volledige verkooprechten op alle platforms, inclusief Etsy.nl, Amazon KDP en Brave New Books. Gratis proefversie met watermerk — test alle functies zonder registratie of creditcard voordat u een licentie aanschaft.',
   },
 
+  ctaHeading: 'Koppel-werkbladen maken',
+
   howItWorks: {
     title: 'Zo maakt u koppelwerkbladen om te verkopen in 5 stappen',
     steps: [

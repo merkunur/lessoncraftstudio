@@ -27,6 +27,8 @@ const content: AppContent = {
       'Start een winstgevende productlijn welke hoort er niet bij werkbladen voor uw Etsy-shop, Amazon KDP-portfolio of Bol.com-aanbod. Kinderen bekijken een rij van vier afbeeldingen en identificeren welk item er niet bij hoort — een klassieke logische puzzel die categorisatie en kritisch denken ontwikkelt. De generator biedt twee modi: Identiek modus met drie klonen en een afwijkend item, en Vergelijkbaar modus met cross-thema discriminatie. Per-oefening moeilijkheidsoverschrijving laat u beide typen mixen op een werkblad voor gedifferentieerde bundels die hogere prijzen rechtvaardigen. Met 104 thematische collecties en meer dan 3.100 illustraties produceert u eindeloze varianten voor seizoenspakketten en themabundels. De werkbladen zijn volledig visueel zonder tekst, waardoor hetzelfde product verkoopt op de Nederlandse, Duitse en internationale markt zonder vertaling. Automatisch gegenereerde antwoordbladen met rode cirkelmarkeringen maken uw producten direct verkoopklaar. Exporteer printklare PDF\'s op 300 DPI. De gratis proefversie met watermerk geeft u toegang tot alle functies — koop een licentie om het watermerk te verwijderen.',
   },
 
+  ctaHeading: 'Vind-de-vreemde werkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u welke hoort er niet bij werkbladen in 5 stappen',
     steps: [

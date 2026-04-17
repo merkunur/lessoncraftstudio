@@ -27,6 +27,8 @@ const content: AppContent = {
       'Maak professionele door-elkaar-woorden werkbladen die u direct kunt verkopen op Etsy, Amazon KDP en Bol.com. De woordkruisel generator husselt lettertegels die gebruikers herschikken tot het juiste woord, begeleid door afbeeldingsaanwijzingen uit meer dan 3.100 illustraties in 104 thema\'s. Vier moeilijkheidsniveaus — van Makkelijk met de helft van de letters op de juiste plek tot Geen Aanwijzingen waar alles gehusseld is — geven u een ingebouwde getrapte productlijn voor bundels op verschillende niveaus. De unieke klinker-medeklinker kleurcodering voegt een fonetische dimensie toe die premium prijzen rechtvaardigt. Kies uit drie inhoudsbronnen: de Afbeeldingenbibliotheek, Handmatige Bewerking of Aangepaste Woordenlijst voor tekst-only puzzels. Volledige Toegang ontgrendelt alle 11 talen — elk met andere woorden, andere letters en compleet andere puzzels — waardoor u elf verkoopbare producten creëert vanuit één workflow. Exporteer printklare PDF\'s en JPEG\'s op meer dan 300 DPI met automatisch antwoordblad. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie. Commerciële licentie verwijdert het watermerk en verleent volledige verkooprechten voor de Nederlandse en internationale markt.',
   },
 
+  ctaHeading: 'Door-elkaar-letters werkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u door-elkaar-woorden werkbladen in 5 stappen',
     steps: [

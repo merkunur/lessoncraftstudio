@@ -27,6 +27,8 @@ const content: AppContent = {
       'Met de Woordraadspel Generator maakt u professionele werkbladen waarbij kinderen een afbeelding bekijken en het verborgen woord ontdekken door ontbrekende letters in te vullen in een letterraster. Dit raad-het-woord format combineert visuele herkenning met spelling en woordenschat, waardoor het bijzonder geschikt is voor Nederlandse taalverwerving en NT2-materiaal. Kies uit drie inhoudsbronnen: de ingebouwde Afbeeldingenbibliotheek met meer dan 3100 illustraties over 104 thema\'s, de Handmatige Bewerkingsmodus voor aangepaste woordenschat, of de Aangepaste Woordenlijst voor puzzels met eigen woorden zonder afbeeldingen. Vier moeilijkheidsniveaus bepalen hoeveel letters vooraf worden onthuld — van geen aanwijzingen tot de helft van de letters zichtbaar — ideaal voor gedifferentieerde bundels met oplopend niveau. Alle 11 talen beschikbaar: het doelwoord verandert per taal, waardoor elke taalversie een apart verkoopbaar product wordt. De NT2-markt in Nederland en Belgie biedt sterke verkoopkansen voor meertalige woordraadspellen. Verkoop uw werkbladen op Etsy, Amazon KDP of Bol.com met een commerciële licentie. Exporteer printklare PDF\'s en JPEG\'s op meer dan 400 DPI. Gratis proefversie met watermerk — alle functies beschikbaar zonder registratie.',
   },
 
+  ctaHeading: 'Galgje-werkbladen maken',
+
   howItWorks: {
     title: 'Hoe maakt u woordraadspel-werkbladen in 5 stappen',
     steps: [

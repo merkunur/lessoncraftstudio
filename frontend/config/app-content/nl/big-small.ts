@@ -27,6 +27,8 @@ const content: AppContent = {
       'Start een winstgevende productlijn groottevergelijking werkbladen voor uw Etsy-shop of Amazon KDP-portfolio. Kinderen vergelijken formaten van afbeeldingen — omcirkel de grote, de kleine of de middelste, of nummeer van klein naar groot. Deze klassieke vroeg-leren activiteit is bijzonder populair bij ouders van kleuters en groep 1–2 in het Nederlandse onderwijs. De generator biedt vijf vraagtypen en twee afbeeldingsmodi die samen een breed scala aan moeilijkheidsniveaus afdekken, waardoor u gedifferentieerde bundels kunt samenstellen die hogere prijzen rechtvaardigen. Elk werkblad is volledig visueel zonder tekst, wat betekent dat hetzelfde product verkoopt op Etsy.nl, Bol.com en internationale markten zonder vertaling. De ingebouwde bibliotheek met meer dan 3.100 illustraties in 104 thema\'s levert eindeloze variatie. Automatisch gegenereerde antwoordbladen maken uw producten direct verkoopklaar. Exporteer printklare PDF\'s op 300 DPI. De gratis proefversie met watermerk geeft u toegang tot alle functies — koop een licentie om het watermerk te verwijderen.',
   },
 
+  ctaHeading: 'Werkbladen groot en klein maken',
+
   howItWorks: {
     title: 'Hoe maakt u groot en klein werkbladen voor uw Etsy-shop in 5 stappen',
     steps: [

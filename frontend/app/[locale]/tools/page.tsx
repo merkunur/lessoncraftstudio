@@ -498,6 +498,28 @@ export default function ToolsListingPage({
           {/* Non-EN: 33 generators grid (existing behavior) */}
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-5xl">
+              {/* FI intro targeting "ilmainen työarkkigeneraattori" /
+                  "luo tulostettavia verkossa" queries. */}
+              {locale === 'fi' && (
+                <div className="max-w-3xl mx-auto mb-12 space-y-4 text-gray-700 text-base leading-relaxed">
+                  <p>
+                    Ilmaiset työarkkigeneraattorit antavat sinun luoda tulostettavaa opetusmateriaalia luokkahuoneeseen, kotiopetukseen tai henkilökohtaiseen käyttöön suoraan selaimessa &mdash; ilman ohjelmistoasennusta ja ilman kuukausimaksua. Jokainen alla olevista 33 ilmaisesta generaattorista tuottaa tulostusvalmiita PDF- ja JPEG-tiedostoja, jotka voit ladata heti.
+                  </p>
+                  <p>
+                    Oletko opettaja, joka valmistelee tukitunnin, vanhempi, joka suunnittelee kotiopetusjaksoa, tai tulostettavien tekijä, joka tutustuu uuteen muotoon ennen sitoutumista? Nämä selaintyökalut on tehty sinulle. Ei tilin luomista, ei vanhentuvaa kokeilua, ei rajaa työarkkien määrälle. Valitse teema, muokkaa asettelua, vie &mdash; siinä koko prosessi.
+                  </p>
+                  <p>
+                    Ilmaisversion vesileima on ainoa ero maksulliseen versioon. Ruudukon koot, kuvateemat, vaikeustasot, vastausavaimet ja PDF-resoluutio ovat identtiset niihin, joita lisensoidut myyjät käyttävät. Vesileima tekee ilmaisista työarkeista sopimattomia kaupalliseen jälleenmyyntiin mutta täydellisiä luokan kansioihin, tukimateriaaliin, kotitehtävälisiin ja henkilökohtaisiin projekteihin.
+                  </p>
+                  <p>
+                    Kaikki 33 generaattoria tukevat 11 kieltä: englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska, norja ja suomi. Kuvat kantavat työarkin sisältöä, joten useimmat tulokset kääntyvät automaattisesti kielen vaihdon yhteydessä.
+                  </p>
+                  <p>
+                    Valmis aloittamaan? Selaa kategorioita alla. Jos rakennat tulostuvaa tuotelinjaa Etsyyn tai Amazon KDP:hen ja tarvitset vesileimattomia latauksia kaupallisella lisenssillä, löydät <Link href={`/${locale}/apps`} className="text-indigo-600 hover:text-indigo-700 underline font-medium">Sovellukset-osiosta</Link> kaikkien alla olevien generaattorien lisensoidut versiot.
+                  </p>
+                </div>
+              )}
+
               {/* NO intro targeting "gratis arbeidsarkgenerator" /
                   "lag utskrifter på nett" queries. */}
               {locale === 'no' && (

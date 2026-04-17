@@ -341,6 +341,8 @@ const uiStrings: Record<string, {
     pdfExport: 'Välitön PDF-vienti',
     watermarkNote: 'Ilmaisversio sisältää vesileiman. Osta poistaaksesi sen.',
     startCreating: 'Aloita luominen nyt',
+    pairedToolPrompt: 'Etsitkö ilmaista selainversiota?',
+    pairedToolAnchor: 'Kokeile Maker-työkalua — ei rekisteröitymistä.',
   },
 };
 

@@ -521,14 +521,16 @@ export default async function ToolPage({
         {showcaseConfig && <SpotlightSection config={showcaseConfig.spotlight} />}
 
         {/*
-          Commercial sections (Product Examples + Business Ideas) are
-          collapsed behind a single <details> so the /tools/*-maker page's
-          primary content stays focused on the free browser tool. Content
-          remains in the initial HTML for indexing; only the UI is
-          collapsed by default. See docs/seo-translation-queue-2026-04.md.
+          Commercial sections (Product Examples + Business Ideas + Pro Tips)
+          are collapsed behind a single <details> so the /tools/*-maker
+          page's primary content stays focused on the free browser tool.
+          Content remains in the initial HTML for indexing; only the UI is
+          collapsed by default. Per March 2026 seller rewrite, Pro Tips are
+          uniformly selling-focused and live inside this collapse too.
         */}
         {((content.whatYouCanCreate && content.whatYouCanCreate.length > 0) ||
-          (content.businessIdeas && content.businessIdeas.length > 0)) && (
+          (content.businessIdeas && content.businessIdeas.length > 0) ||
+          (content.proTips && content.proTips.length > 0)) && (
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-4xl">
               <details className="group bg-white border border-gray-200 rounded-lg">
@@ -570,6 +572,24 @@ export default async function ToolPage({
                       </div>
                     </div>
                   )}
+                  {content.proTips && content.proTips.length > 0 && (
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-4">{getSectionLabel('proTips', locale)}</h3>
+                      <div className="space-y-4">
+                        {content.proTips.map((tip, i) => (
+                          <div key={i} className="flex gap-4 p-4 bg-amber-50 rounded-lg border border-amber-200">
+                            <div className="flex-shrink-0 w-8 h-8 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-sm">
+                              {i + 1}
+                            </div>
+                            <div>
+                              <h4 className="font-semibold text-gray-900">{tip.title}</h4>
+                              <ReadMoreText text={tip.description} locale={locale} className="text-gray-600 mt-1 text-sm" />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </div>
               </details>
             </div>
@@ -578,28 +598,6 @@ export default async function ToolPage({
 
         {/* Showcase: Gallery */}
         {showcaseConfig && <GallerySection config={showcaseConfig.gallery} />}
-
-        {/* Pro Tips */}
-        {content.proTips && content.proTips.length > 0 && (
-          <section className="py-12 md:py-16 bg-amber-50">
-            <div className="container mx-auto px-4 max-w-4xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('proTips', locale)}</h2>
-              <div className="space-y-4">
-                {content.proTips.map((tip, i) => (
-                  <div key={i} className="flex gap-4 p-4 bg-white rounded-lg border border-amber-200">
-                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-sm">
-                      {i + 1}
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-gray-900">{tip.title}</h3>
-                      <ReadMoreText text={tip.description} locale={locale} className="text-gray-600 mt-1 text-sm" />
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
 
         {/* FAQ */}
         {mergedFaq.length > 0 && (

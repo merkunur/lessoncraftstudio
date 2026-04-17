@@ -571,6 +571,12 @@ Only `wordsearch.ts` (162 → 147) rewritten. Other 32 metas stay as-is.
 5 ES commercial FAQs added to `shared-commercial-faqs.ts` and 5 ES usage
 FAQs to `shared-usage-faqs.ts`. Price stated as `49 $` (USD).
 
+## ES-C (landed) — ES translations of shared commercial + usage FAQs
+
+5 ES commercial FAQs and 5 ES usage FAQs added. Price `49 $` matches
+DE/FR + the USD Lemon Squeezy checkout. Remaining 7 locales (pt, it,
+nl, sv, da, no, fi) continue on EN fallback.
+
 ## ES-D — ES uiStrings backlink + ES tools index intro
 
 - `uiStrings.es` in apps/[slug]/page.tsx:

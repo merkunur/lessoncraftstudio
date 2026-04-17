@@ -90,6 +90,33 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Oui. Le générateur prend en charge 11 langues (anglais, allemand, français, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien, finnois), et chaque version linguistique compte comme un produit distinct sous votre licence. De nombreux vendeurs multiplient leurs revenus par thème en exportant la même fiche dans chaque langue et en les listant comme produits séparés sur Etsy ou KDP.',
     },
   ],
+  es: [
+    {
+      question: '¿Qué incluye la licencia comercial?',
+      answer:
+        'Cada ficha que genere viene con una licencia comercial completa: sin atribución requerida, sin regalías, sin límite de unidades. Puede vender las fichas creadas en Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, su propia tienda o cualquier otro mercado. La licencia única de 49 $ cubre uso comercial ilimitado para un vendedor o empresa.',
+    },
+    {
+      question: '¿Puedo vender las fichas en Etsy, Amazon KDP, Teachers Pay Teachers y Gumroad?',
+      answer:
+        'Sí, las cuatro plataformas están cubiertas por la licencia comercial. Puede vender descargas digitales en Etsy, compilar fichas en libros de actividades y acertijos impresos para Amazon KDP, ofrecer paquetes para el aula en Teachers Pay Teachers y distribuir imprimibles mediante Gumroad o su propia tienda online. La licencia no restringe el mercado donde vende.',
+    },
+    {
+      question: '¿Cuál es la política de reembolso?',
+      answer:
+        'Ofrecemos un plazo de reembolso de 30 días. Si decide que el generador no encaja con su línea de productos dentro de los primeros 30 días, escriba al soporte y procesaremos el reembolso completo. Después de 30 días, los reembolsos se gestionan caso por caso por defectos materiales o problemas con la herramienta.',
+    },
+    {
+      question: '¿Puedo compartir la licencia con miembros del equipo o empleados?',
+      answer:
+        'Una licencia única cubre una cuenta de vendedor o empresa. Si trabaja como autónomo, la licencia le cubre a usted y a los asistentes virtuales que trabajen para su negocio. Para equipos de 3 o más personas que generen fichas de forma independiente, contacte al soporte sobre licencias de equipo: ofrecemos paquetes multiusuario con descuento.',
+    },
+    {
+      question: '¿Puedo vender la misma ficha en 11 idiomas como productos distintos?',
+      answer:
+        'Sí. El generador admite 11 idiomas (inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego, finés), y cada versión por idioma cuenta como un producto distinto bajo su licencia. Muchos vendedores multiplican sus ingresos por tema exportando la misma ficha en cada idioma y listándolas como productos separados en Etsy o KDP.',
+    },
+  ],
 };
 
 export function getSharedCommercialFAQs(locale: string): FAQ[] {

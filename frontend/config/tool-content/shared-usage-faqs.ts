@@ -90,6 +90,33 @@ export const sharedUsageFAQs: Record<string, FAQ[]> = {
         'La mise en page actuelle reste uniquement en mémoire du navigateur. Fermer l\'onglet efface tout. Pour conserver une fiche entre les sessions, téléchargez le PDF et le JPEG avant de fermer — l\'import de la même configuration n\'est pas pris en charge dans la version navigateur gratuite. Si vous créez régulièrement des lots de fiches apparentées, une licence donne aussi accès aux modèles enregistrés.',
     },
   ],
+  es: [
+    {
+      question: '¿De verdad no es necesario registrarse?',
+      answer:
+        'Correcto: puede abrir el generador, elegir un tema, personalizar la maquetación y descargar un PDF o JPEG con marca de agua sin crear una cuenta. Sin correo electrónico, sin tarjeta de crédito, sin período de prueba. La marca de agua es un pequeño indicativo en la esquina; el contenido de la ficha es idéntico a la versión de pago. La licencia única de 49 $ elimina la marca de agua y activa los derechos de venta comercial.',
+    },
+    {
+      question: '¿Qué formatos de archivo puedo descargar?',
+      answer:
+        'Cada ficha se exporta como PDF listo para imprimir a 400+ DPI y como JPEG de alta resolución. El PDF conserva el texto vectorial y las imágenes nítidas para una impresión limpia a cualquier tamaño. El JPEG es útil para vistas previas rápidas, publicaciones en redes sociales y plataformas que prefieren imágenes rasterizadas. Ambos formatos se descargan de forma instantánea al pulsar Exportar.',
+    },
+    {
+      question: '¿Funciona en tabletas, Chromebook o navegadores antiguos?',
+      answer:
+        'El generador funciona en cualquier navegador moderno: Chrome, Safari, Firefox y Edge, versión 90 o posterior. Funciona en Chromebooks, iPads y tabletas Android, además de en equipos de escritorio. Los navegadores antiguos (Internet Explorer, Chrome anterior a la 90) no son compatibles porque el generador utiliza funciones modernas de canvas y renderizado de fuentes. Si observa algún problema de visualización, actualizar el navegador suele resolverlo.',
+    },
+    {
+      question: '¿Qué tamaños de página se admiten? ¿Cómo imprimo A4 vs Letter?',
+      answer:
+        'El panel de Maquetación ofrece Letter Vertical, Letter Horizontal, A4 Vertical, A4 Horizontal, Cuadrado y dimensiones personalizadas. Elija el tamaño que coincida con su impresora o mercado objetivo (A4 para la mayoría de mercados europeos e iberoamericanos, Letter para Norteamérica). La exportación a PDF conserva las dimensiones exactas elegidas para una impresión fiel en cualquier impresora.',
+    },
+    {
+      question: '¿Se guardan mis fichas si cierro la pestaña?',
+      answer:
+        'La maquetación actual solo se conserva en la memoria del navegador. Cerrar la pestaña la elimina. Para conservar una ficha entre sesiones, descargue el PDF y el JPEG antes de cerrar: reimportar la misma configuración no es compatible en la versión gratuita del navegador. Si crea lotes de fichas relacionadas con frecuencia, la licencia también da acceso a plantillas guardadas.',
+    },
+  ],
 };
 
 export function getSharedUsageFAQs(locale: string): FAQ[] {

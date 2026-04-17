@@ -5,12 +5,12 @@ const content: AppContent = {
     primaryKeyword: 'labyrint skrive ut',
     secondaryKeywords: ['labyrint generator', 'labyrint barn skrive ut', 'lage labyrint', 'labyrint 1. trinn'],
     lsiKeywords: ['labyrint', 'vei', 'sti', 'løse', 'barn'],
-    titleTag: 'Labyrint å skrive ut | Labyrintgenerator',
+    titleTag: 'Labyrint-generator | LessonCraftStudio',
     metaDescription: 'Lag labyrinter med temabilder. Automatisk fasit, 300 DPI PDF. Prøv gratis — selg på Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Labyrint å skrive ut — Labyrintgenerator med temabilder og fasit',
+    title: 'Labyrint-generator — Lag utskrifter å selge på Etsy og KDP',
     tagline: 'Tre spillmoduser i en generator — Bildesti, Klassisk Labyrint og Velg den Riktige Veien — drevet av en LPF (Longest Path First) labyrintalgoritme med automatisk genererte fasiter, veggtilpasning og visuelt design som fungerer globalt uten oversettelse.',
     description:
       'Bygg profesjonelle labyrint- og veiarbeidsark med tre distinkte spillmoduser. Bildesti lager et rutenett av bilder der brukerne folger den riktige veien fra start til mål ved å identifisere veibilder blant distraktorer. Klassisk Labyrint genererer veggbaserte labyrinter med LPF-algoritmen (Longest Path First) med samlingsbilder spredt gjennom korridorene — konfigurer rutenettstorrelser fra 15×15 til 20×20, still inn 1 til 3 veier med blindveiblokkering, og tilpass veggfarge, tykkelse (1–10px) og opasitet (10–100 %). Velg den Riktige Veien presenterer treveislabyrinter med fire retningsalternativer (nedenfra-opp, ovenfra-ned, venstre-til-hoyre, hoyre-til-venstre), der brukerne identifiserer den eneste korrekte veien blant lokkefugler. Hver modus genererer en ledsagende fasit på en separat lerretfane — losningsveier markeres med rosa sirkler langs den korrekte ruten, og Velg Vei-modusen legger til en «KORREKT VEI»-etikett. Tildel bilder til fem distinkte roller: Start, Mål, Vei, Distraktor og Dekorasjon. Bla gjennom 104 tematiske samlinger med mer enn 3 100 illustrasjoner eller last opp egne. Den automatisk genererte «Bildesti»-overskriften med oransje ramme rendrer lokaliserte titler og instruksjoner på alle 11 stoettede språk. Bildesti er helt visuelt — labyrinter krever ingen lesing eller språkforståelse, noe som gjor hvert arbeidsark direkte salgbart på ethvert marked i verden. Full Tilgang låser opp alle 104 temaer og alle 11 brukergrensesnittspråk. Legg til bakgrunnstemaer og rammetemaer med uavhengige opasitetskontroller, inkluder navn- og datofelt, og eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI i Letter, A4, Kvadrat (1200×1200) eller egendefinerte storrelser. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

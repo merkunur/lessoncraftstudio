@@ -18,12 +18,12 @@ const content: AppContent = {
       'differanse',
       'fasit',
     ],
-    titleTag: 'Minusstykker å skrive ut | Generator med fasit',
+    titleTag: 'Minusstykker-generator | LessonCraftStudio',
     metaDescription: 'Lag minusstykker med temabilder og automatisk fasit. 300 DPI PDF, 11 språk. Prøv gratis — kommersiell lisens inkludert.',
   },
 
   hero: {
-    title: 'Minusstykker å skrive ut — Generator med temabilder og fasit',
+    title: 'Minusstykker-generator — Lag utskrifter å selge på Etsy og KDP',
     tagline: 'Gjør subtraksjon konkret med arbeidsark der brukerne stryker over bilder for å finne svaret.',
     description:
       'Lag bildebaserte subtraksjonsarbeidsark som gjør konseptet «fjerne» synlig og forståelig gjennom en kraftfull visuell metode: overstrykning. Brukerne ser en gruppe bilder og observerer diagonale kryss over de fjernede elementene — noe som gjør det abstrakte begrepet subtraksjon konkret og intuitivt. Velg mellom fire øvelsesmoduser — Overstrykning, Bilde − Tall, Finn Subtrahenden og Blandet Modus — for å guide læringen fra barnehage til 2. trinn. Utforsk mer enn 3 100 nøye utvalgte illustrasjoner i 104 temaer som dinosaurer, havdyr og kjøretøy. Hvert arbeidsark inneholder en automatisk generert fasit, og du kan eksportere trykkeklare PDF-er i Letter-, Kort- (800×1000) eller A4-format med mer enn 400 DPI. En innebygd gråtoneknapp gjør det mulig å lage blekkbesparende svart-hvite versjoner med ett klikk. Enten du selger temapakker på Etsy, utgir aktivitetsbøker på Amazon KDP eller skriver ut øvingsark til kundene dine — Subtraksjons Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',

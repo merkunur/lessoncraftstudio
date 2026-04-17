@@ -17,12 +17,12 @@ const content: AppContent = {
       'fasit',
       'PDF',
     ],
-    titleTag: 'Matteoppgaver generator | Lag regneoppgaver å skrive ut',
+    titleTag: 'Matteoppgaver-generator | LessonCraftStudio',
     metaDescription: 'Lag matteoppgaver tilpasset med automatisk fasit. 300 DPI PDF, 11 språk. Prøv gratis — kommersiell lisens for Etsy & KDP.',
   },
 
   hero: {
-    title: 'Matteoppgaver generator — Lag regneoppgaver å skrive ut med fasit',
+    title: 'Matteoppgaver-generator — Lag utskrifter å selge på Etsy og KDP',
     tagline: 'Gjør tidlig algebra til et visuelt eventyr — bilder blir variabler, og hvert puslespill har nøyaktig én løsning.',
     description:
       'Lag engasjerende algebraiske bildepuslespill arbeidsark der bilder fungerer som ukjente variabler i et system av ligninger. Brukerne løser koblede ligninger for å bestemme den numeriske verdien av hvert bilde — slik forvandles abstrakt algebra til en konkret, visuell tankeprosess. Velg blant fire vanskelighetsgrader: Veldig Lett og Lett bruker to symboler, Middels introduserer tre symboler, og Vanskelig utfordrer brukerne med fire samtidige ukjente. Velg oppgaver med kun addisjon eller bland addisjon og subtraksjon for avansert øving, og still inn tallintervallet presist fra 0 til 20 med en valgfri bryter for negative resultater. Den innebygde algebraiske løseren garanterer at hvert puslespill har nøyaktig én korrekt løsning — ingen tvetydighet, ingen gjetting. Bla gjennom mer enn 3 100 nøye utvalgte illustrasjoner i 104 temaer å bruke som algebraiske symboler, eller last opp egne bilder for et merkevaretilpasset utseende. Hvert arbeidsark genererer en automatisk fasit, og du kan eksportere trykkeklare PDF-er og JPEG-er med 400+ DPI i Letter-, A4- eller egendefinerte formater. Enten du selger tematiske puslespillpakker på Etsy, setter sammen progressive algebrabøker til Amazon KDP, eller lager nivåinndelte matematikkstasjoner til produktlinjen din — Matematikkarbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',

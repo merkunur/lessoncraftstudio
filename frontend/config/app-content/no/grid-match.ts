@@ -5,12 +5,12 @@ const content: AppContent = {
     primaryKeyword: 'tegne på rutenett oppgave skrive ut',
     secondaryKeywords: ['kopiere på rutenett oppgave', 'pikselkunst skrive ut', 'speiling på rutenett', 'romforståelse oppgave'],
     lsiKeywords: ['rutenett', 'piksel', 'kopi', 'speiling', 'romforståelse'],
-    titleTag: 'Tegne på rutenett oppgave å skrive ut | Generator rutenetttegning',
+    titleTag: 'Rutenett-generator | LessonCraftStudio',
     metaDescription: 'Lag tegne-på-rutenett oppgaver med temabilder. Automatisk fasit, utskrivbare PDF-er. Prøv gratis.',
   },
 
   hero: {
-    title: 'Tegne på rutenett oppgave å skrive ut — Generator for rutenetttegning',
+    title: 'Rutenett-generator — Lag utskrifter å selge på Etsy og KDP',
     tagline: 'Forvandl ethvert bilde til et rutenettbasert bildepuslespill — del det opp i fliser, vis konfigurerbare ledetrådsceller, bland gjenstående fliser til en nummerert palett, og auto-generer en fasit med nummererte sirkeloverlegg over 104 tematiske bildesamlinger.',
     description:
       'Bygg profesjonelle rutenettskoblingspuslespill der et enkelt bilde deles opp i et rutenett av fliser, og brukerne matcher nummererte fliser tilbake til sine korrekte posisjoner. Konfigurer rutenettet fra 2×2 opp til 4×4 (2–4 rader × 2–4 kolonner) og still inn 1–5 ledetrådsceller som forblir synlige som tips — faerre ledetråder betyr vanskeligere puslespill. Appen blander gjenstående fliser med Fisher-Yates-randomisering og viser dem i en nummerert palett ved siden av eller under rutenettet. Brukerne studerer de synlige ledetrådscellene, gjennomgår de nummererte flisene og skriver hvilket nummer som horer hjemme i hver tom celle. Dobbeltlerretssystemet genererer både en arbeidsarkfane og en fasitfane — fasiten viser det komplette bildet med nummererte sirkler overlagt på hver celle som viser korrekt fliseplassering, slik at du aldri trenger å lage fasit manuelt. Rutenettkobling er IKKE språkavhengig: puslespillresultatet er rent visuelt uten lokalisert ordinnhold på selve arbeidsarket. Det samme rutenettspuslespillet fungerer identisk på alle markeder uten oversettelse. Full Tilgang låser opp alle 104 temaer med mer enn 3 100 illustrasjoner og alle 11 brukergrensesnittspråk for appgrensesnittet. Legg til bakgrunnstemaer og rammetemaer med uavhengige opasitetskontroller, inkluder egendefinert tekst med syv skrifttypemuligheter, og eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI i Letter, A4 eller egendefinerte storrelser. Enten du selger bildepuslespill-pakker på Etsy, setter sammen visuell persepsjons-arbeidboker til Amazon KDP eller lager hurtigslutts-puslespillaktiviteter til Gumroad — denne generatoren leverer produksjonsklare rutenettspuslespill på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

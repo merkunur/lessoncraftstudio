@@ -18,12 +18,12 @@ const content: AppContent = {
       'fasit',
       'svar',
     ],
-    titleTag: 'Plusstykker å skrive ut | Generator med fasit',
+    titleTag: 'Plusstykker-generator | LessonCraftStudio',
     metaDescription: 'Lag plusstykker med temabilder på noen sekunder. Automatisk fasit, 300 DPI PDF, 11 språk. Prøv gratis — kommersiell lisens for Etsy & KDP.',
   },
 
   hero: {
-    title: 'Plusstykker å skrive ut — Generator med temabilder og fasit',
+    title: 'Plusstykker-generator — Lag utskrifter å selge på Etsy og KDP',
     tagline: 'Forvandl addisjon til et visuelt eventyr med bildebaserte matematikkarbeidsark.',
     description:
       'Lag bildebaserte addisjons arbeidsark som gjør tidlige matematikkonsepter konkrete og engasjerende for unge brukere. Velg mellom fire ulike øvelsesmoduser — Bilde + Bilde, Bilde + Tall, Finn Leddet og Blandet Modus — for å tilpasse til ethvert nivå fra barnehage til 2. trinn. Utforsk mer enn 3 100 nøye utvalgte illustrasjoner i 104 temaer som bondegårdsdyr, kjøretøy og mat for å gjøre hvert regnestykke levende. Hvert arbeidsark inneholder en automatisk generert fasit, og du kan eksportere trykkeklare PDF-er i Letter-, A4- eller egendefinert format med mer enn 400 DPI. Enten du selger på Etsy, utgir aktivitetsbøker på Amazon KDP eller distribuerer arbeidsark til kundene dine — Addisjons Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',

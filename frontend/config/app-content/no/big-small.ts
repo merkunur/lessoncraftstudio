@@ -5,12 +5,12 @@ const content: AppContent = {
     primaryKeyword: 'stor og liten oppgave skrive ut',
     secondaryKeywords: ['sammenligne størrelse oppgave', 'ordne etter størrelse øvelse', 'større mindre oppgave', 'størrelse 1. trinn'],
     lsiKeywords: ['størrelse', 'sammenligne', 'ordne', 'stor', 'liten'],
-    titleTag: 'Stor og liten oppgave å skrive ut | Generator størrelsessammenligning',
+    titleTag: 'Stor og liten-generator | LessonCraftStudio',
     metaDescription: 'Lag oppgaver om størrelsessammenligning med temabilder. Stor vs. liten, ordne, automatisk fasit. Prøv gratis.',
   },
 
   hero: {
-    title: 'Stor og liten oppgave å skrive ut — Generator for størrelsessammenligning',
+    title: 'Stor og liten-generator — Lag utskrifter å selge på Etsy og KDP',
     tagline: 'Fem sporsmålstyper — ring rundt den store, ring rundt den lille, ring rundt den mellomstore, nummerer stigende, nummerer synkende — med identiske og forskjellige bildemoduser for visuell storrelsesdiskriminering.',
     description:
       'Design profesjonelle storrelsessammenligningsarbeidsark der brukerne ser på tematiske bilder i forskjellige storrelser og identifiserer hvilken som er storst, minst eller mellomstor, eller nummererer dem i rekkefolge fra minst til storst eller storst til minst. Fem distinkte sporsmålstyper dekker enhver storrelsesdiskrimineringsferdighet: Ring rundt den Store, Ring rundt den Lille, Ring rundt den Mellomstore, Nummerer 1–2–3 Liten til Stor og Nummerer 1–2–3 Stor til Liten. To bildemoduser generator fundamentalt forskjellige ovelser: Identiske Bilder viser det samme bildet i forskjellige storrelser for ren storrelsesoppfatning, mens Forskjellige Bilder viser distinkte objekter for relativ storrelsesbedommelse. Konfigurer 1–10 ovelser per side med 2 eller 3 bilder per ovelse — to bilder for enklere sammenligninger, tre for vanskeligere som inkluderer en mellomstor mulighet. Hvert arbeidsark er helt visuelt med null tekst på resultatet, noe som gjor dem universelt brukbare uansett språk eller lesenivå. Innhold hentes fra det innebygde bildebiblioteket med mer enn 3 100 illustrasjoner i 104 temaer. En automatisk generert fasit markerer korrekte svar for oyeblikkelig verifisering. Full Tilgang låser opp alle 104 temaer og alle 11 brukergrensesnittspråk. Eksporter trykkeklare PDF-er og JPEG-bilder med 300 DPI i Letter-, A4- eller egendefinert format. Enten du selger storrelsessammenligningspakker på Etsy, setter sammen tidlige laeringsarbeidboker til Amazon KDP eller lager nivåinndelte visuelle stasjoner til Gumroad — Stort og Lite Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

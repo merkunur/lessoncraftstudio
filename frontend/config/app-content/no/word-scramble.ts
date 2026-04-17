@@ -5,12 +5,12 @@ const content: AppContent = {
     primaryKeyword: 'bokstaver i uorden skrive ut',
     secondaryKeywords: ['anagram oppgaveark', 'stav ordene riktig oppgave', 'ordpuslespill skrive ut', 'bokstavmiks oppgave'],
     lsiKeywords: ['anagram', 'staving', 'ordforråd', 'puslespill', 'bokstaver'],
-    titleTag: 'Bokstaver i uorden å skrive ut | Anagramgenerator',
+    titleTag: 'Rotete bokstaver-generator | LessonCraftStudio',
     metaDescription: 'Lag oppgaver med bokstaver i uorden og temabilder. Automatisk fasit, utskrivbare PDF-er. Prøv gratis — kommersiell lisens.',
   },
 
   hero: {
-    title: 'Bokstaver i uorden å skrive ut — Anagramgenerator med temabilder',
+    title: 'Rotete bokstaver-generator — Lag utskrifter å selge på Etsy og KDP',
     tagline: 'Blandede bokstavfliser møter bildeledetråder — fire vanskelighetsgrader og vokal-konsonant-fargekoding forvandler hvert ord til et praktisk stavingspuslespill.',
     description:
       'Design profesjonelle bokstavblanding-arbeidsark der brukerne ser en bildeledetråd og ordner blandede bokstavfliser for å stave det korrekte ordet — et bokstavomstokningspuslespill som bygger stavingspresisjon, ordgjenkjenning og fonologisk bevissthet samtidig. Velg mellom tre innholdskilder: det innebygde bildebiblioteket med mer enn 3 100 illustrasjoner i 104 temaer, Manuell Redigeringsmodus der du velger bilder og deretter tilpasser visningsnavnene, eller Egen Ordliste for tekstbaserte puslespill med opptil 8 egne ord. Fire vanskelighetsgrader styrer hvor mange ledetrådsbokstaver som allerede er plassert korrekt — fra ingen ledetråder overhodet til lett modus som plasserer halvparten av bokstavene — og generator naturlig progresjon fra nybegynner til avansert. Vokal-konsonant-fargekodingen er unik for Bokstavblanding: aktiver fargede fliser der vokaler vises i én farge og konsonanter i en annen, noe som legger til en visuell fonikkdimensjon som hjelper brukerne med å identifisere bokstavtyper mens de løser puslespillet. Plasser 1 til 10 puslespill per arbeidsark og velg mellom store og små bokstaver i bokstavflisene. Full Tilgang låser opp alle 11 støttede språk, og fordi Bokstavblanding er språkavhengig, endres selve målordet etter språk — «dog» på engelsk blir «Hund» på tysk, «chien» på fransk og «hund» på norsk — noe som gjør hver språkversjon til et unikt, salgbart produkt. Hvert arbeidsark genererer en automatisk fasit, og du kan eksportere trykkeklare PDF-er og JPEG-bilder med mer enn 400 DPI i Letter-, A4-, Kvadrat- eller egendefinert format. Enten du selger tematiske stavingspakker på Etsy, setter sammen ordpuslespillboker til Amazon KDP eller lager nivåinndelte lesestasjoner til Gumroad — Bokstavblanding Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',

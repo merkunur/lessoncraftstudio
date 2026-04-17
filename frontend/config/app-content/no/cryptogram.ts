@@ -5,12 +5,12 @@ const content: AppContent = {
     primaryKeyword: 'hemmelig melding skrive ut',
     secondaryKeywords: ['kryptogram generator', 'hemmelig kode skrive ut', 'dechiffrere melding oppgave', 'kodespill skrive ut'],
     lsiKeywords: ['kode', 'dechiffrere', 'tegn', 'alfabet', 'gåte'],
-    titleTag: 'Hemmelige meldinger å skrive ut | Kryptogramgenerator',
+    titleTag: 'Kryptogram-generator | LessonCraftStudio',
     metaDescription: 'Lag kryptogrammer og hemmelige meldinger med temabilder og automatisk fasit. 300 DPI PDF, 11 språk. Prøv gratis — kommersiell lisens.',
   },
 
   hero: {
-    title: 'Hemmelige meldinger å skrive ut — Kryptogramgenerator med temabilder',
+    title: 'Kryptogram-generator — Lag utskrifter å selge på Etsy og KDP',
     tagline: 'Map alfabetets bokstaver til bilder og kod hele fraser til visuelle chifferpuslespill — justerbar vanskelighetsgrad fra null ledetråder til kraftig stillasering med Bokstaver å Avsløre.',
     description:
       'Forvandl enhver frase eller setning til et bildekryptogrampuslespill der hvert alfabetbokstav erstattes av et bilde, og brukerne knekker koden ved å utlede hvilket bilde som representerer hvilken bokstav. Hvert puslespill koder en komplett lesbar melding — ikke bare et enkelt ord — noe som gir løserne tilfredsstillelsen ved å avsløre en hel setning gjennom mønstergjenkjenning og deduksjon. Glidebryteren Bokstaver å Avsløre (0–10) styrer hvor mange bokstav-til-bilde-koblinger som er frigitt som ledetråder, noe som generator en jevn vanskelighetsgradient fra null-ledetråd ekspertutfordringer til kraftig stillaserte nybegynnerpuslespill. Auto-Tildel henter tilfeldige bilder fra enhver av 104 tematiske samlinger (mer enn 3 100 illustrasjoner) for å fylle utildelte bokstaver direkte, eller bruk Manuell Tildeling til å håndplukke spesifikke bilder til spesifikke bokstaver med en komplett visuell forhåndsvisning av alle koblinger. Fasiten inkluderer en komplett bokstavlegende som viser hvert alfabetbokstav paret med sitt tildelte bilde i sortert rekkefølge — den definitive referansen for å kontrollere løsninger. Full Tilgang låser opp alle 11 støttede språk, der både den hemmelige meldingsteksten og det tilgjengelige alfabetet endres etter språk: norske kryptogrammer koder norske fraser med æ, ø, å i alfabetet; tyske kryptogrammer koder tyske fraser med ä, ö, ü — hver språkversjon er et genuint annerledes chifferprodukt. Eksporter trykkeklare PDF-er og JPEG-bilder med mer enn 400 DPI i Letter-, A4- eller egendefinert format. Enten du selger tematiske chifferpakker på Etsy, setter sammen kryptogrampuslespillboker til Amazon KDP eller lager nivåinndelte kodeknekkerstasjoner til Gumroad — Kryptogram Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',

@@ -5,12 +5,12 @@ const content: AppContent = {
     primaryKeyword: 'større enn mindre enn oppgave skrive ut',
     secondaryKeywords: ['sammenligne tall oppgave', 'større enn mindre enn lik', 'flere færre oppgave', 'sammenligne mengder'],
     lsiKeywords: ['sammenligne', 'tall', 'mengde', 'større', 'mindre', 'lik'],
-    titleTag: 'Større enn mindre enn oppgave å skrive ut | Sammenligningsgenerator',
+    titleTag: 'Større eller mindre-generator | LessonCraftStudio',
     metaDescription: 'Lag oppgaver om å sammenligne tall og mengder med temabilder. Automatisk fasit, 300 DPI PDF. Prøv gratis.',
   },
 
   hero: {
-    title: 'Større enn mindre enn oppgave å skrive ut — Sammenligningsgenerator med bilder',
+    title: 'Større eller mindre-generator — Lag utskrifter å selge på Etsy og KDP',
     tagline: 'Forvandl tallsammenligning til en visuell oppdagelsesreise med bildebaserte større-enn og mindre-enn arbeidsark.',
     description:
       'Lag engasjerende sammenligningsarbeidsark som lærer brukerne hvilken gruppe som har flere, hvilken som har færre, og når to grupper er like store. Velg blant tre ulike øvelsesmoduser — Bilde til Bilde, Bilde til Tall og den unike modusen Sjekk og Kryss Grupper, der brukerne analyserer bokser med blandede bilder for å finne majoritetsgruppen. Bytt mellom samme bilder og forskjellige bilder som sammenligning, velg illustrasjonssymboler eller vanlige matematiske tegn, og velg blant mer enn 3 100 nøye utvalgte bilder i 104 temaer. Hvert arbeidsark genererer en automatisk fasit, og du kan eksportere trykkeklare PDF-er i Letter-, A4- eller egendefinert format med mer enn 400 DPI. Enten du selger temapakker på Etsy, setter sammen sammenligningsaktivitetsbøker til Amazon KDP eller lager nivåinndelte matematikkstasjoner til produktlinjen din — Mer eller Mindre Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',

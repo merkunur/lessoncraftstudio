@@ -5,12 +5,12 @@ const content: AppContent = {
     primaryKeyword: 'alfabet oppgaver skrive ut',
     secondaryKeywords: ['ABC oppgaver generator', 'bokstavgjenkjenning oppgave', 'lær alfabetet oppgaver', 'bokstaver skrive ut'],
     lsiKeywords: ['ABC', 'store bokstaver', 'små bokstaver', 'alfabetisk rekkefølge', '1. trinn'],
-    titleTag: 'Alfabet oppgaver å skrive ut | ABC-øvelsesgenerator',
+    titleTag: 'Alfabetoppgaver-generator | LessonCraftStudio',
     metaDescription: 'Lag alfabet-oppgaver med temabilder for bokstavgjenkjenning. Automatisk fasit, 11 språk. Prøv gratis.',
   },
 
   hero: {
-    title: 'Alfabet oppgaver å skrive ut — ABC-øvelsesgenerator med temabilder',
+    title: 'Alfabetoppgaver-generator — Lag utskrifter å selge på Etsy og KDP',
     tagline: 'Hver vogn bærer en bokstav og et matchende bilde — bygg bokstavgjenkjenning, vogn for vogn.',
     description:
       'Design iøynefallende alfabettog arbeidsark der 11 fargerike togvogner ruller over siden, hver med en bokstav koblet til en matchende illustrasjon. Velg modusen Automatisk Oppretting for øyeblikkelige tilfeldige bokstavvalg eller den Manuelle modusen for å velge nøyaktig 11 bokstaver fra alfabetet til målrettet øving. Legg til 3 til 11 justerbare ledetråder per arbeidsark — bildeledetråder som brukerne kobler til riktig bokstavvogn — noe som forvandler passiv bokstavgjenkjenning til en aktiv problemløsningsøvelse. Bla gjennom mer enn 3 100 nøye utvalgte illustrasjoner i 104 temaer for å finne det perfekte bildet til hver bokstav. Full Tilgang låser opp alle 11 støttede språk med egne alfabeter — tysk med Ä/Ö/Ü, norsk med Æ/Ø/Å, spansk med Ñ og flere — noe som multipliserer produktkatalogen din elleve ganger fra et enkelt arbeidsflyt. Hvert arbeidsark genererer automatisk en fasit, og du kan eksportere trykkeklare PDF-er og JPEG-er med mer enn 400 DPI i Letter-, A4- eller Kvadratformat. Enten du selger tematiske alfabetpakker på Etsy, setter sammen progressive språkbøker til Amazon KDP eller lager nivåinndelte bokstavstasjoner til Gumroad — Alfabettog Generatoren leverer profesjonelle resultater på få minutter. Gratis prøveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjøp en lisens for å fjerne det.',

@@ -5,12 +5,12 @@ const content: AppContent = {
     primaryKeyword: 'skrivemotorikk oppgaver skrive ut',
     secondaryKeywords: ['skriveøvelser generator', 'bokstavforming skrive ut', 'skrivemotorikk 1. trinn', 'overskriving bokstaver'],
     lsiKeywords: ['bokstaver', 'overskrive', 'blyantgrep', 'finmotorikk', '1. trinn'],
-    titleTag: 'Skrivemotorikk oppgaver å skrive ut | Generator skriveøvelser',
+    titleTag: 'Skriveøvelser-generator | LessonCraftStudio',
     metaDescription: 'Lag skrivemotorikk-oppgaver med egne ord. 11 språk, 300 DPI PDF. Prøv gratis — kommersiell lisens for selgere.',
   },
 
   hero: {
-    title: 'Skrivemotorikk oppgaver å skrive ut — Generator for skriveøvelser',
+    title: 'Skriveøvelser-generator — Lag utskrifter å selge på Etsy og KDP',
     tagline: 'Tre progressive ovelsesmoduser med pilguided strekrekkefolge og tonende bokstavguider — bygg handskriftsflyt fra full sporing til selvstendig skriving på et enkelt arbeidsark.',
     description:
       'Design profesjonelle skriveovelsesarbeidsark med tre distinkte ovelsesmoduser som generator en naturlig innlaringsprogresjon: Spor-modusen gir solide bokstavguider som nybegynnere folger direkte, Tonende Sporing minsker bokstavsynligheten progressivt over raden for å bygge selvtillit, og Guidet Kopiering tilbyr en svak kontur til nesten selvstendig skriving. Velg blant fem skrifttypestiler — Print Normal, Print Normal Pil med nummererte strekrekkefolgepilar, Print Sporing, Print Sporing Pil som kombinerer sporingskonturer med strekpilar, og Kursiv (Great Vibes) — for å matche enhver handskriftsmetodikk. Hver rad på arbeidsarket kan konfigureres individuelt: bland Spor-modus for nye bokstaver, Tonende Sporing for ovde bokstaver og Guidet Kopiering for repetisjon, alt på den samme siden. Forskrivningsstrek-ovelser (loddrette linjer, vannrette linjer, sirkler og sikksakk-linjer) legger til finmotoriske oppvarminger som forbereder hendene til bokstavforming. Innhold hentes fra det innebygde bildebiblioteket med mer enn 3 100 illustrasjoner i 104 temaer: bruk Begynnelsesbokstav-modus til å ove den forste bokstaven i hvert bildenavn, Helt Filnavn-modus til å skrive hele ord, eller skriv valgfri Egen Tekst. Full Tilgang låser opp alle 104 temaer og alle 11 brukergrensesnittspråk. Eksporter trykkeklare PDF-er og JPEG-bilder med ca. 300 DPI i Letter-, A4- eller egendefinert format. Enten du selger handskriftsovelsespakker på Etsy, setter sammen skrivearbeidboker til Amazon KDP eller lager nivåinndelte skrivestasjoner til Gumroad — Skriveovelse Arbeidsark Generatoren leverer profesjonelle resultater på få minutter. Gratis proveversjon med alle funksjoner — ingen registrering, intet kredittkort. Nedlastinger inneholder et vannmerke; kjop en lisens for å fjerne det.',

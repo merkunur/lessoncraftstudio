@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crea enigmi matematici con codice segreto da vendere su Etsy, Amazon KDP o Eduki — un formato unico che nessun altro generatore offre. Ogni immagine nasconde un numero: gli utenti risolvono equazioni di addizione per decifrare il codice visivo, combinando matematica e logica. La modalità Parola Rivelata intensifica la sfida — ogni equazione risolta rivela una lettera della parola segreta, con supporto nativo per l\'alfabeto italiano (à, è, é, ì, ò, ù). Scegli tra oltre 3.100 immagini in 104 temi, configura intervalli numerici da 1 a 20 ed esporta PDF a oltre 400 DPI con soluzioni automatiche e licenza commerciale inclusa. Il mercato italiano degli stampabili educativi su Etsy è praticamente vergine — i puzzle con codice segreto sono una nicchia inesplorata con forte appeal sia per genitori che per insegnanti. Chi entra ora domina una categoria vuota.',
   },
 
+  ctaHeading: 'Crea schede di messaggi cifrati',
+
   howItWorks: {
     title: 'Come Creare Schede di Addizione Codificata in 5 Passi',
     steps: [

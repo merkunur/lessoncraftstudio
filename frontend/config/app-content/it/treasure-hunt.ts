@@ -27,6 +27,8 @@ const content: AppContent = {
       'La caccia al tesoro è un formato coinvolgente che piace a genitori e bambini in tutto il mondo, e il mercato italiano su Etsy e Amazon KDP è ancora un oceano blu per i venditori di stampabili. Con questo generatore crei puzzle direzionali professionali su una griglia 5×5 dove gli utenti seguono indizi di movimento per localizzare un tesoro nascosto. Ogni puzzle posiziona 6 immagini tematiche come punti di riferimento e genera 4 mosse direzionali. Due vocabolari disponibili: modalità Base (su, giù, sinistra, destra) e Cardinale (nord, sud, est, ovest). Le direzioni sono completamente tradotte in 11 lingue, quindi ogni cambio di lingua produce un prodotto diverso. Il sistema a doppio canvas genera sia la scheda attività che la chiave di risposta automatica. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. Aggiungi sfondi e bordi decorativi ed esporta PDF e JPEG a 300 DPI nei formati A4, Lettera, Quadrato o personalizzato. Vendi pacchetti tematici su Etsy, compila quaderni per Amazon KDP, o distribuisci su Eduki e Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
+  ctaHeading: 'Crea cacce al tesoro',
+
   howItWorks: {
     title: 'Come Creare Schede Caccia al Tesoro in 5 Passaggi',
     steps: [

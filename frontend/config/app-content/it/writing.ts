@@ -29,6 +29,8 @@ const content: AppContent = {
       'Il mercato italiano dei stampabili educativi su Etsy e Amazon KDP è ancora un oceano blu: pochissimi venditori offrono schede di scrittura professionali in italiano, mentre la domanda di materiali di pregrafismo e calligrafia cresce ogni anno. Con questo generatore crei schede di scrittura pronte per la vendita in pochi minuti, senza competenze grafiche. Tre modalità di pratica — Tracciamento, Tracciamento Progressivo e Copia Guidata — ti permettono di costruire set differenziati per ogni livello. Cinque stili di font, frecce per l\'ordine dei tratti ed esercizi di pregrafismo moltiplicano le varianti di prodotto. Esporta in PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per inserzioni Etsy, interni KDP o listini Eduki. La licenza commerciale è inclusa nell\'Accesso Completo, che sblocca anche 104 temi con oltre 3100 illustrazioni e 11 lingue. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
+  ctaHeading: 'Crea schede di scrittura',
+
   howItWorks: {
     title: 'Come Creare Schede di Scrittura in 5 Passaggi',
     steps: [

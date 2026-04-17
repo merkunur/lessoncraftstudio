@@ -29,6 +29,8 @@ const content: AppContent = {
       'La tombola è una tradizione italiana profondamente radicata, giocata in famiglia soprattutto durante il periodo natalizio — e su Etsy la nicchia delle cartelle tombola stampabili in italiano è praticamente vuota. Con questo generatore crei cartelle tombola professionali con immagini o parole, configurando griglie da 3×3 a 5×5. Genera da 1 a 10 cartelle uniche per lotto, ciascuna con selezione casuale diversa dal pool di immagini, più un foglio di richiamo per il conduttore. L\'export ZIP in lotto esporta tutte le cartelle come file individuali. Le cartelle con parole sono sensibili alla lingua: cambiare lingua modifica automaticamente i nomi sulle cartelle e sulle fiches. La libreria integrata offre oltre 3100 illustrazioni in 104 temi — animali, Natale, stagioni e molto altro. Aggiungi sfondi, bordi decorativi e testo personalizzato. Esporta PDF e JPEG a 300 DPI nei formati A4, Lettera o personalizzato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
+  ctaHeading: 'Crea cartelle della tombola',
+
   howItWorks: {
     title: 'Come Creare Cartelle di Bingo con Immagini in 5 Passaggi',
     steps: [

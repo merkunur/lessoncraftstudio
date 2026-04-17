@@ -28,6 +28,8 @@ const content: AppContent = {
       'Le schede dell\'alfabeto sono tra i prodotti stampabili più venduti su Etsy e Amazon KDP, e il mercato italiano rappresenta un\'opportunità ancora poco sfruttata. Con questo generatore crei schede treno dove 11 vagoni colorati trasportano lettere abbinate a illustrazioni tematiche. L\'alfabeto italiano ha 21 lettere — perfette per schede compatte e mirate che si distinguono dalla concorrenza. Scegli tra creazione automatica o manuale, aggiungi da 3 a 11 indizi configurabili e trasforma il riconoscimento delle lettere in un esercizio attivo. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. L\'Accesso Completo sblocca 11 lingue con alfabeti nativi — tedesco con Ä/Ö/Ü, spagnolo con Ñ — moltiplicando il catalogo per undici da un unico flusso di lavoro. Ogni scheda genera un foglio risposte automatico. Esporta PDF e JPEG a oltre 400 DPI nei formati A4, Lettera o Quadrato. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
+  ctaHeading: 'Crea schede dell\'alfabeto',
+
   howItWorks: {
     title: 'Come Creare Schede Treno dell\'Alfabeto in 5 Passaggi',
     steps: [

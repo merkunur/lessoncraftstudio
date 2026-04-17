@@ -27,6 +27,8 @@ const content: AppContent = {
       'Il riconoscimento di pattern è una competenza fondamentale molto richiesta da genitori e scuole, ma su Etsy e Amazon KDP il mercato italiano è quasi inesplorato. Con questo generatore crei schede professionali con nove tipi di sequenze — da AB semplice ad ABCD avanzato — e due modalità di domanda: casella vuota per il completamento e scelta multipla con distrattori. Ogni esercizio è configurabile indipendentemente per tipo di pattern, modalità e tema, permettendo di creare prodotti differenziati con infinite varianti. Configura da 1 a 8 esercizi per pagina e attiva l\'inizio casuale o la posizione casuale dello spazio vuoto per aumentare la difficoltà. La libreria integrata offre oltre 3100 illustrazioni in 104 temi. Ogni scheda include un foglio risposte e l\'output è puramente visivo — vendibile in tutto il mondo senza traduzione. Esporta PDF e JPEG in alta risoluzione nei formati A4, Lettera o personalizzato. Vendi pacchetti di pattern su Etsy, compila quaderni di logica per Amazon KDP, o distribuisci su Eduki e Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
+  ctaHeading: 'Crea schede di pattern',
+
   howItWorks: {
     title: 'Come Creare Schede di Pattern in 5 Passaggi',
     steps: [

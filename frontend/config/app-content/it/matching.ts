@@ -26,6 +26,8 @@ const content: AppContent = {
       'Le schede di abbinamento sono tra i prodotti stampabili più venduti su Etsy, eppure il mercato italiano è ancora quasi vuoto: un\'opportunità concreta per chi vuole avviare un business di stampabili educativi. Questo generatore ti permette di creare schede di abbinamento professionali in pochi minuti, pronte per la vendita. Quattro modalità — Lettera Iniziale, Immagine+Parola, Misto e Parola Personalizzata — ti consentono di costruire varianti infinite per ogni tema e fascia d\'età. Il foglio risposte viene generato automaticamente, risparmiandoti ore di lavoro manuale. Configura 4, 5 o 6 coppie, personalizza sfondo e bordi, ed esporta in PDF a 300 DPI nei formati Letter, A4 o personalizzati. L\'Accesso Completo include la licenza commerciale, 104 temi con oltre 3100 illustrazioni e 11 lingue per moltiplicare il tuo catalogo. Ideale per Etsy, Amazon KDP ed Eduki. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
+  ctaHeading: 'Crea schede di associazione',
+
   howItWorks: {
     title: 'Come Creare Schede di Abbinamento in 5 Passaggi',
     steps: [

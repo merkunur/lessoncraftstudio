@@ -30,6 +30,8 @@ const content: AppContent = {
       'I libri di sudoku per bambini sono una nicchia molto redditizia su Amazon KDP, e la versione con immagini al posto dei numeri è ancora rarissima sul mercato italiano. Con questo generatore crei puzzle sudoku 4×4 professionali dove gli utenti riempiono le celle vuote usando la logica righe-colonne con illustrazioni colorate. Tre livelli di difficoltà — Facile (4 celle vuote), Medio (6) e Difficile (8) — permettono di creare libri progressivi per KDP. Seleziona 4 immagini dalla libreria integrata con oltre 3100 illustrazioni in 104 temi, oppure usa la selezione automatica per tema. Il design premium include blocchi 2×2 in colori alternati, ombre e bordi arrotondati. Ogni puzzle genera un foglio risposte automatico ed è interamente visivo — vendibile in tutto il mondo senza traduzione alcuna. Esporta PDF e JPEG a 300 DPI nei formati A4, Lettera o personalizzato. Crea pacchetti tematici per Etsy, compila quaderni di logica per Amazon KDP, o vendi su Eduki e Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
+  ctaHeading: 'Crea sudoku',
+
   howItWorks: {
     title: 'Come Creare Schede di Sudoku con Immagini in 5 Passaggi',
     steps: [

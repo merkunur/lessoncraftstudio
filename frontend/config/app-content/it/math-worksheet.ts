@@ -28,6 +28,8 @@ const content: AppContent = {
       'Genera schede di matematica con puzzle algebrici illustrati da vendere su Etsy, Amazon KDP o Eduki — e trasforma l\'algebra in un prodotto digitale redditizio. Le immagini sostituiscono le variabili nelle equazioni: gli utenti risolvono sistemi interconnessi per scoprire il valore nascosto di ogni immagine. Quattro livelli di difficoltà (da 2 a 4 incognite) coprono dalla scuola dell\'infanzia alla terza primaria, permettendoti di creare un catalogo differenziato per fascia d\'età. Oltre 3.100 illustrazioni in 104 temi, esportazione PDF a oltre 400 DPI con soluzioni automatiche e licenza commerciale inclusa. Il mercato italiano dei puzzle matematici stampabili su Etsy è praticamente vuoto — nessun venditore offre puzzle algebrici illustrati in italiano. Posizionati come primo venditore in una nicchia con domanda crescente e concorrenza zero. Prova gratis con filigrana — senza registrazione.',
   },
 
+  ctaHeading: 'Crea schede di matematica',
+
   howItWorks: {
     title: 'Come Creare Schede di Puzzle Algebrici Illustrati in 5 Passaggi',
     steps: [

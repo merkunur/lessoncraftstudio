@@ -27,6 +27,8 @@ const content: AppContent = {
       'Trasforma la sottrazione in un prodotto vendibile con un generatore progettato per imprenditori di stampabili. Crea schede di sottrazione illustrate con immagini tematiche da oltre 100 categorie — animali, veicoli, cibo, natura — che rendono la matematica coinvolgente e le tue inserzioni irresistibili. Ogni scheda si esporta in PDF 300 DPI pronto per la stampa con soluzioni automatiche, pronta per essere caricata su Etsy, inserita in un quaderno di attività Amazon KDP, o proposta su Eduki. La licenza commerciale è inclusa con ogni scheda. Strategia redditizia: combina addizione e sottrazione in pacchetti — i venditori riportano carrelli medi significativamente più alti con offerte matematiche combinate. Il mercato italiano offre potenziale enorme con concorrenza minima.',
   },
 
+  ctaHeading: 'Crea schede di sottrazione',
+
   howItWorks: {
     title: 'Come Creare Schede di Sottrazione in 5 Passaggi',
     steps: [

@@ -29,6 +29,8 @@ const content: AppContent = {
       'Crea schede di addizione da vendere su Etsy, Amazon KDP o Eduki — e generale in meno di 3 minuti. Questo generatore crea esercizi di somma con immagini tematiche da oltre 3.000 illustrazioni colorate che attirano i bambini e convincono i genitori ad acquistare. Esporta PDF pronti per la stampa a 300 DPI con soluzioni automatiche e vendi con la licenza commerciale inclusa — senza attribuzione, senza limiti. Il mercato italiano dei materiali educativi stampabili su Etsy è praticamente vuoto: pochissimi venditori offrono schede di matematica in italiano. Questa è un\'opportunità unica per posizionarsi in un mercato con 59 milioni di potenziali clienti e concorrenza quasi inesistente. L\'Italia non ha ancora un marketplace consolidato per schede didattiche — chi arriva per primo domina.',
   },
 
+  ctaHeading: 'Crea schede di addizione',
+
   howItWorks: {
     title: 'Come Creare Schede di Addizione in 5 Passaggi',
     steps: [

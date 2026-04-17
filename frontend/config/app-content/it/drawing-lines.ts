@@ -27,6 +27,8 @@ const content: AppContent = {
       'Le schede di pregrafismo rappresentano uno dei prodotti stampabili più richiesti dai genitori italiani, ma l\'offerta su Etsy in italiano è ancora minima. Questo generatore ti permette di creare schede professionali di tracciamento linee in pochi minuti, senza bisogno di software grafico. Otto modelli SVG — curve, diagonali, linee orizzontali e verticali — coprono tutte le competenze di motricità fine, e le immagini abbinate su ogni lato del percorso rendono ogni scheda visivamente accattivante. Il contenuto è puramente visivo, quindi ogni scheda funziona in qualsiasi lingua senza modifiche: perfetto per vendere su mercati internazionali. Scegli tra 104 temi con oltre 3100 illustrazioni ed esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per inserzioni Etsy, interni Amazon KDP o listini Eduki. L\'Accesso Completo include la licenza commerciale e 11 lingue di interfaccia. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
+  ctaHeading: 'Crea schede di pregrafismo',
+
   howItWorks: {
     title: 'Come Creare Schede Pregrafismo in 5 Passaggi',
     steps: [

@@ -28,6 +28,8 @@ const content: AppContent = {
       'Il mercato italiano dei disegni da colorare su Etsy e Amazon KDP è una nicchia ancora poco sfruttata, con una domanda in costante crescita da parte di genitori e famiglie. Con questo generatore crei pagine da colorare professionali su un canvas libero dove posizioni le immagini esattamente dove vuoi, senza griglie né modelli. La libreria integrata offre oltre 3100 illustrazioni in 104 temi: animali, stagioni, festività italiane e molto altro. Aggiungi disegni a mano libera, testo personalizzato e cornici decorative per differenziare i tuoi prodotti dalla concorrenza. L\'esportazione in scala di grigi converte le composizioni in pagine economiche in inchiostro, perfette per libri KDP. Esporta PDF e JPEG a 300 DPI in formato A4, Lettera o personalizzato. Il contenuto è puramente visivo, quindi ogni pagina funziona in tutte le 11 lingue supportate — moltiplica il tuo catalogo senza tradurre nulla. Vendi su Etsy, Amazon KDP, Eduki o Edudoro con la licenza commerciale inclusa. Prova gratis con tutte le funzionalità, senza registrazione. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
+  ctaHeading: 'Crea disegni da colorare',
+
   howItWorks: {
     title: 'Come Creare Pagine da Colorare Personalizzate in 5 Passaggi',
     steps: [

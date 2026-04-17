@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crea giochi indovina la parola da vendere su Etsy e Amazon KDP — puzzle stile impiccato dove gli utenti vedono un indizio immagine e deducono la parola nascosta riempiendo caselle vuote. Quattro livelli di difficoltà controllano quante lettere sono pre-rivelate, da zero indizi alla modalità facile con metà delle lettere visibili. Tre fonti di contenuto: libreria di oltre 3.100 immagini in 104 temi, modifica manuale o lista personalizzata. Da 1 a 10 puzzle per scheda con lettere maiuscole o minuscole. Le parole in italiano sono genuinamente localizzate — "cane", "gatto", "casa" — rendendo ogni lingua un prodotto unico. Foglio risposte automatico, esportazione PDF a oltre 400 DPI e licenza commerciale inclusa. Il gioco indovina la parola è un formato universalmente amato, perfetto per pacchetti tematici di vocabolario su Etsy o libri di puzzle per KDP. In italiano la concorrenza su Etsy è minima — posizionati ora in questa nicchia. Prova gratis con filigrana.',
   },
 
+  ctaHeading: 'Crea schede del gioco dell\'impiccato',
+
   howItWorks: {
     title: 'Come Creare Schede Indovina la Parola in 5 Passaggi',
     steps: [

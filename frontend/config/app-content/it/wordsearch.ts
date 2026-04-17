@@ -30,6 +30,8 @@ const content: AppContent = {
       'Genera crucipuzzle da vendere su Etsy e Amazon KDP — il formato di puzzle che non passa mai di moda e che in italiano si chiama anche "parole nascoste" o "cerca parole". Griglie regolabili da 5×5 a 30×30 con controllo su direzioni diagonali e invertite per calibrare la difficoltà. Tre fonti di contenuto: libreria di oltre 3.100 immagini in 104 temi, modifica manuale o lista personalizzata di parole. Le griglie in italiano includono à, è, é, ì, ò, ù con frequenze naturali — un prodotto genuinamente localizzato che nessun altro generatore offre. Foglio risposte con codice colori, esportazione PDF a oltre 400 DPI e licenza commerciale inclusa. I crucipuzzle sono tra i prodotti stampabili più venduti su Etsy a livello globale, ma in italiano la concorrenza è quasi inesistente. Compila libri di crucipuzzle tematici per KDP o vendi pacchetti singoli su Etsy — il potenziale è enorme in un mercato di 59 milioni di italofoni. Prova gratis con filigrana.',
   },
 
+  ctaHeading: 'Crea crucipuzzle',
+
   howItWorks: {
     title: 'Come Creare Schede Cerca Parole in 5 Passaggi',
     steps: [

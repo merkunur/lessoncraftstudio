@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crea cruciverba con immagini da vendere su Etsy e Amazon KDP — un formato dove indizi visivi sostituiscono quelli testuali su una griglia 15×15. Otto immagini generano otto parole posizionate automaticamente dall\'algoritmo. Quattro metodi di input: generazione rapida per tema, modifica manuale, lista personalizzata con indizi testuali o caricamento immagini proprie. Il generatore è sensibile alla lingua: un\'immagine di gatto genera "GATTO" in italiano ma "CAT" in inglese — ogni lingua produce un cruciverba completamente diverso dalle stesse immagini. Foglio risposte automatico, intestazione localizzata in italiano e 10 altre lingue, esportazione PDF a 300 DPI con licenza commerciale inclusa. I cruciverba sono un prodotto evergreen amatissimo in Italia — "parole crociate" è una tradizione culturale. Su Etsy.it però i cruciverba con immagini stampabili sono quasi introvabili. Compila libri per KDP o vendi pacchetti tematici su Etsy in un mercato affamato di contenuto. Prova gratis con filigrana.',
   },
 
+  ctaHeading: 'Crea cruciverba',
+
   howItWorks: {
     title: 'Come Creare Cruciverba con Immagini in 5 Passaggi',
     steps: [

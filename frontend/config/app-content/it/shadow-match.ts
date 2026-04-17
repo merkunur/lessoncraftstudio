@@ -26,6 +26,8 @@ const content: AppContent = {
       'Le schede "abbina le ombre" sono uno dei formati stampabili più apprezzati dai genitori su Etsy e perfetti per i quaderni di attività su Amazon KDP. Il mercato italiano offre ancora pochissima concorrenza, creando un\'opportunità concreta per il tuo business di stampabili. Questo generatore crea schede professionali con due modalità: Abbinamento Ombre genera silhouette nere automatiche da qualsiasi immagine, mentre Completa l\'Immagine divide le immagini in metà da ricomporre. L\'algoritmo garantisce che nessun elemento appaia nella posizione corretta, creando veri esercizi di corrispondenza ogni volta. Le risposte vengono generate automaticamente, eliminando il lavoro manuale. Ogni scheda è puramente visiva e vendibile su qualsiasi mercato internazionale senza modifiche. Esporta PDF a 300 DPI nei formati Letter, A4 o personalizzati, pronti per Etsy, KDP ed Eduki. L\'Accesso Completo include la licenza commerciale, 104 temi con oltre 3100 illustrazioni e 11 lingue. Prova gratis con tutte le funzionalità — senza registrazione, senza carta di credito. I download includono una filigrana; acquista una licenza per rimuoverla.',
   },
 
+  ctaHeading: 'Crea schede delle ombre',
+
   howItWorks: {
     title: 'Come Creare Schede di Abbinamento Ombre in 5 Passaggi',
     steps: [

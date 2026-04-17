@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crea puzzle matematici da vendere su Etsy e Amazon KDP — un formato unico dove un\'immagine tematica viene divisa in pezzi, ciascuno con un problema di addizione o sottrazione da risolvere. I bambini calcolano e ricompongono l\'immagine, trasformando la matematica in un gioco coinvolgente. Griglie da 2×2 a 4×4 (da 4 a 16 pezzi) coprono ogni livello dalla scuola dell\'infanzia alla terza primaria. Oltre 3.100 illustrazioni in 104 temi — animali, spazio, dinosauri, festività — per creare centinaia di puzzle unici da vendere come inserzioni singole o compilare in libri di attività KDP. Soluzioni automatiche, esportazione PDF a oltre 400 DPI e licenza commerciale inclusa. Il mercato italiano dei puzzle matematici stampabili è un oceano blu: la concorrenza su Etsy.it è praticamente inesistente. Prova gratis con filigrana e valuta la qualità prima di investire.',
   },
 
+  ctaHeading: 'Crea puzzle matematici',
+
   howItWorks: {
     title: 'Come Creare Schede di Puzzle Matematici in 5 Passaggi',
     steps: [

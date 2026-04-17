@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crie atividades de ache e encontre com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz cenas visuais repletas de imagens temáticas onde as crianças procuram objetos específicos — desenvolvendo atenção visual, concentração e vocabulário. Com mais de 3.000 ilustrações em 104 temas, você cria cenas únicas para cada produto. Atividades de objetos escondidos são extremamente populares: funcionam para todas as idades e não dependem de idioma, ampliando seu mercado globalmente. Perfeito para livros de passatempos no Amazon KDP e kits de atividades na Hotmart. Exporte PDFs a 300 DPI com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de procurar e achar',
+
   howItWorks: {
     title: 'Como Criar Atividades de Objetos Ocultos em 5 Passos',
     steps: [

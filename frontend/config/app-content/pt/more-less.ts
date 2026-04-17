@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crie atividades de maior e menor para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios de comparação visual onde as crianças determinam qual grupo tem mais ou menos imagens — desenvolvendo conceitos fundamentais de quantidade, comparação e pré-numeracia. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos ilimitados. Atividades de "mais e menos" são essenciais no currículo de educação infantil e ensino fundamental, com demanda constante o ano inteiro. Perfeito para kits de matemática na Hotmart e apostilas de conceitos numéricos no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades maior ou menor',
+
   howItWorks: {
     title: 'Como Criar Atividades de Comparação em 5 Passos',
     steps: [

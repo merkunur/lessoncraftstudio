@@ -28,6 +28,8 @@ const content: AppContent = {
       'Crie atividades de cálculo numérico para vender na Hotmart, Kiwify, Etsy ou Amazon KDP — exercícios de matemática pura sem imagens temáticas, focados em operações básicas. Este gerador produz atividades de soma, subtração, multiplicação e divisão com intervalos numéricos configuráveis. Perfeito para apostilas de tabuada e cadernos de exercícios no Amazon KDP. Cada atividade é exportada em PDF 300 DPI com gabarito automático e licença comercial inclusa. O mercado de atividades de matemática em português é enorme: "atividades de matemática" e "tabuada" estão entre os termos educativos mais buscados no Brasil. Vendedores da Hotmart e Kiwify já faturam vendendo kits de exercícios — com este gerador, você cria conteúdo profissional em minutos. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de matemática',
+
   howItWorks: {
     title: 'Como Criar Atividades de Puzzles Algébricos Ilustrados em 5 Passos',
     steps: [

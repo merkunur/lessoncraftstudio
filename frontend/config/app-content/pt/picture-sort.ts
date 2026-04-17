@@ -26,6 +26,8 @@ const content: AppContent = {
       'Crie atividades de classificação e categorização para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças ordenam, agrupam e classificam imagens temáticas por categorias — desenvolvendo raciocínio lógico, pensamento crítico e habilidades de organização. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos variados para todas as idades. Atividades de classificação são essenciais na educação infantil e ensino fundamental, com demanda alta e constante. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Um formato educativo que vendedores da Hotmart e Kiwify procuram ativamente. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de classificação',
+
   howItWorks: {
     title: 'Como Criar Atividades de Classificação de Imagens em 5 Passos',
     steps: [

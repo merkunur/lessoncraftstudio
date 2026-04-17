@@ -28,6 +28,8 @@ const content: AppContent = {
       'Crie atividades de sequências e padrões para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios de trem de padrões onde as crianças identificam e completam sequências visuais — vagões com imagens temáticas seguem um padrão e o último vagão está vazio para ser preenchido. Desenvolve raciocínio lógico, reconhecimento de padrões e pensamento matemático. Com mais de 3.000 imagens em 104 temas, você cria variações ilimitadas. Atividades de sequências são fundamentais na educação infantil e ensino fundamental — um produto essencial para qualquer catálogo de imprimíveis. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de sequência',
+
   howItWorks: {
     title: 'Como Criar Atividades Trem de Padrões em 5 Passos',
     steps: [

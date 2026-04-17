@@ -27,6 +27,8 @@ const content: AppContent = {
       'Transforme a subtração em um produto vendável com um gerador feito para empreendedores de imprimíveis. Crie atividades de subtração ilustradas com imagens temáticas de mais de 100 categorias — animais, veículos, alimentos, natureza — que tornam a matemática envolvente e seus anúncios irresistíveis. Cada atividade é exportada em PDF 300 DPI pronto para impressão com gabarito automático, pronta para subir na Hotmart, Kiwify, Etsy, compilar em uma apostila Amazon KDP, ou vender no Tá Pronto. A licença comercial está inclusa em cada atividade. Dica rentável: combine adição e subtração em pacotes — vendedores relatam vendas médias significativamente maiores com pacotes matemáticos combinados. O mercado brasileiro oferece potencial enorme com competição mínima. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de subtração',
+
   howItWorks: {
     title: 'Como Criar Atividades de Subtração em 5 Passos',
     steps: [

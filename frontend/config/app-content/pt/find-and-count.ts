@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crie atividades de procurar e contar para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz cenas visuais com imagens temáticas espalhadas pela página — as crianças encontram e contam cada tipo de imagem, registrando os totais. Combina atenção visual com habilidades de contagem, perfeito para educação infantil e ensino fundamental. Com mais de 3.000 ilustrações em 104 temas, você cria variações temáticas ilimitadas. Um formato extremamente popular entre pais e professores: simples de entender, divertido de resolver e eficaz para aprender. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de procurar e contar',
+
   howItWorks: {
     title: 'Como Criar Atividades Eu Vejo em 5 Passos',
     steps: [

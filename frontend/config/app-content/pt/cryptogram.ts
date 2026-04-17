@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crie criptogramas com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz puzzles de substituição de letras onde cada símbolo visual representa uma letra do alfabeto — os usuários decifram o código para revelar palavras. Com mais de 3.000 imagens em 104 temas e suporte a 11 alfabetos nativos incluindo português, você cria produtos exclusivos que nenhum concorrente oferece. Criptogramas são um nicho de alta margem: adultos e crianças adoram desafios de decifração, e a competição em português é mínima. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie criptogramas',
+
   howItWorks: {
     title: 'Como Criar Atividades de Criptograma em 5 Passos',
     steps: [

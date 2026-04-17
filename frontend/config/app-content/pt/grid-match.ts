@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crie atividades de associação em grade para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz quebra-cabeças onde as crianças associam imagens em uma grelha visual, desenvolvendo raciocínio lógico e atenção aos detalhes. Com mais de 3.000 ilustrações em 104 temas, você cria variações temáticas ilimitadas. Atividades de grade são um formato visualmente atraente que se destaca nas miniaturas de anúncios — compradores clicam mais em produtos com layout organizado e colorido. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Um formato exclusivo que diferencia seu catálogo da concorrência. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades em grade',
+
   howItWorks: {
     title: 'Como Criar Puzzles de Quadrícula em 5 Passos',
     steps: [

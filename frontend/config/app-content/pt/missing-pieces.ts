@@ -26,6 +26,8 @@ const content: AppContent = {
       'Crie quebra-cabeças de peças faltantes para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz puzzles visuais onde uma parte da imagem é removida e as crianças devem identificar a peça correta entre várias opções — desenvolvendo atenção visual, raciocínio lógico e habilidades de observação. Com mais de 3.000 ilustrações em 104 temas, você cria variações temáticas ilimitadas. Quebra-cabeças de peças faltantes são perfeitos para apostilas no Amazon KDP e kits de atividades na Hotmart — formato visual que funciona sem texto, ideal para qualquer idioma. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie enigmas de peças faltantes',
+
   howItWorks: {
     title: 'Como Criar Puzzles de Peças Faltantes em 5 Passos',
     steps: [

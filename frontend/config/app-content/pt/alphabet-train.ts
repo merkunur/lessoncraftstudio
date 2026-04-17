@@ -29,6 +29,8 @@ const content: AppContent = {
       'Crie atividades de trem do alfabeto para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. "Alfabetização" é um dos termos educativos MAIS buscados no Brasil — e este gerador cria atividades de reconhecimento de letras únicas no mercado. Onze vagões coloridos percorrem a página, cada um com uma letra e uma ilustração correspondente. A verdadeira potência: suporte a 11 alfabetos nativos. A mesma imagem associa-se com letras diferentes em cada idioma — "cão" associa-se com C em português mas com D em inglês e H em alemão. Um único modelo gera 11 produtos únicos. Com mais de 3.000 imagens em 104 temas, exporte PDFs a 300 DPI com gabarito e licença comercial. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades do alfabeto',
+
   howItWorks: {
     title: 'Como Criar Atividades de Trem do Alfabeto em 5 Passos',
     steps: [

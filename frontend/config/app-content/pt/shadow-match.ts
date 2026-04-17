@@ -26,6 +26,8 @@ const content: AppContent = {
       'Crie atividades de associar sombras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças associam imagens coloridas às suas silhuetas correspondentes — desenvolvendo percepção visual, atenção aos detalhes e habilidades de discriminação de formas. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos variados. Atividades de sombras são um formato visual universal que não depende de idioma — ampliando seu mercado para o mundo inteiro. Perfeito para kits de atividades na Hotmart e apostilas de habilidades visuais no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de sombras',
+
   howItWorks: {
     title: 'Como Criar Atividades de Associação de Sombras em 5 Passos',
     steps: [

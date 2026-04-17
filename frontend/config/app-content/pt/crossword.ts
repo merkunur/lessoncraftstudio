@@ -29,6 +29,8 @@ const content: AppContent = {
       'Crie palavras cruzadas com pistas visuais para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador cria cruzadinhas onde as pistas são imagens — os usuários identificam o que veem e preenchem as letras na grade. Com mais de 3.000 imagens em 104 temas e suporte a 11 idiomas com caracteres nativos, você cria produtos únicos em minutos. "Cruzadinha" e "palavras cruzadas" são termos de altíssima busca no Brasil. Cada atividade inclui gabarito automático e exportação em PDF 300 DPI. Perfeito para livros de passatempos no Amazon KDP e kits de atividades na Hotmart. Licença comercial inclusa — venda sem atribuição. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie palavras cruzadas',
+
   howItWorks: {
     title: 'Como Criar Palavras Cruzadas com Imagens em 5 Passos',
     steps: [

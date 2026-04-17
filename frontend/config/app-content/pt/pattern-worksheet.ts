@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crie atividades de reconhecimento de padrões para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças identificam, continuam e completam padrões visuais usando imagens temáticas — uma habilidade fundamental em matemática e raciocínio lógico. Com mais de 3.000 ilustrações em 104 temas, você cria exercícios com dificuldade progressiva. Atividades de padrões são essenciais na BNCC e exigidas em todas as séries iniciais do ensino fundamental. Perfeito para kits de matemática na Hotmart e apostilas de raciocínio lógico no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de padrões',
+
   howItWorks: {
     title: 'Como Criar Atividades de Padrões em 5 Passos',
     steps: [

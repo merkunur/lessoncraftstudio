@@ -28,6 +28,8 @@ const content: AppContent = {
       'Crie atividades de embaralha palavras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador embaralha letras de palavras e usa imagens como pistas visuais — os usuários olham a imagem, identificam o que é e reorganizam as letras para formar a palavra correta. Com mais de 3.000 imagens em 104 temas e 11 idiomas com caracteres nativos, você cria jogos de vocabulário que funcionam para qualquer idade. Atividades de embaralha palavras são ótimas para apostilas de alfabetização e livros de passatempos no Amazon KDP. Cada atividade vem com gabarito automático e exportação em PDF 300 DPI. Licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de letras embaralhadas',
+
   howItWorks: {
     title: 'Como Criar Atividades de Palavras Embaralhadas em 5 Passos',
     steps: [

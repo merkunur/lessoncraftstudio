@@ -28,6 +28,8 @@ const content: AppContent = {
       'Crie cartelas de bingo com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz de 1 a 10 cartelas únicas por lote — cada uma com diferentes imagens em diferentes posições, essencial para que o bingo funcione como jogo. Grelhas configuráveis de 3×3 a 5×5, modo de preenchimento com imagens ou palavras, e exportação ZIP de todas as cartelas num único clique. Bingo educativo é um nicho de altíssima demanda: professores, pais e festas infantis precisam de cartelas constantemente. Com mais de 3.000 imagens em 104 temas e 11 idiomas, você cria jogos únicos para qualquer ocasião. Exporte PDFs a 300 DPI com folha de chamada e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie cartelas de bingo',
+
   howItWorks: {
     title: 'Como Criar Cartelas de Bingo com Imagens em 5 Passos',
     steps: [

@@ -28,6 +28,8 @@ const content: AppContent = {
       'Crie atividades de preposições com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios visuais onde as crianças identificam relações espaciais — em cima, embaixo, dentro, fora, ao lado — usando imagens temáticas como contexto. O mega-nicho: PLE (Português como Língua Estrangeira) é um mercado global em explosão. O português é a 6ª língua mais falada do mundo e o Celpe-Bras é aplicado em mais de 100 países. Atividades de preposições em português se vendem para escolas de idiomas e professores no mundo inteiro. Com 11 idiomas e mais de 3.000 imagens, exporte PDFs a 300 DPI com gabarito e licença comercial. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de preposições',
+
   howItWorks: {
     title: 'Como Criar Atividades de Preposições em 5 Passos',
     steps: [

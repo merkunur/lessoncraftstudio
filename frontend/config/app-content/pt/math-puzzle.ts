@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crie quebra-cabeças de matemática com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz puzzles onde cada imagem representa um valor numérico oculto — os usuários resolvem equações para descobrir os números, depois montam a imagem completa combinando as respostas numa grade. Combina raciocínio lógico com fluência matemática, criando atividades que se destacam nos marketplaces. Escolha entre mais de 3.000 imagens em 104 temas, configure intervalos numéricos e exporte PDFs prontos para impressão a 300 DPI com gabarito automático. A licença comercial inclusa permite vender sem atribuição. Quebra-cabeças são um nicho de alta demanda com baixa competição em português. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie enigmas matemáticos',
+
   howItWorks: {
     title: 'Como Criar Atividades de Puzzles Matemáticos em 5 Passos',
     steps: [

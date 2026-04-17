@@ -26,6 +26,8 @@ const content: AppContent = {
       'Crie atividades de adição do tipo criptaritmético para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Cada imagem na atividade esconde um número secreto — os usuários resolvem equações de soma para decifrar o código, combinando fluência matemática com raciocínio lógico. O modo Palavra Revelada transforma cada exercício em uma caça ao tesouro linguística: escreva uma palavra secreta e cada equação correta revela uma letra. O gerador suporta 11 alfabetos nativos, incluindo português com ã, õ, ç e acentos — nenhum outro gerador oferece isso. Escolha entre mais de 3.000 imagens em 104 temas, configure intervalos numéricos e exporte PDFs prontos para impressão a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de mensagens secretas',
+
   howItWorks: {
     title: 'Como Criar Atividades de Adição Codificada em 5 Passos',
     steps: [

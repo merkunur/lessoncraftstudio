@@ -30,6 +30,8 @@ const content: AppContent = {
       'Crie sudoku com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz puzzles de sudoku onde os números são substituídos por imagens temáticas — tornando o jogo acessível para crianças que ainda não dominam números. Com mais de 3.000 ilustrações em 104 temas, você cria livros inteiros de sudoku visual. Livros de sudoku são um dos nichos MAIS lucrativos no Amazon KDP, e a versão com imagens para crianças tem competição mínima em português. Perfeito para livros de raciocínio lógico no KDP e kits de jogos educativos na Hotmart. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie sudokus',
+
   howItWorks: {
     title: 'Como Criar Atividades de Sudoku com Imagens em 5 Passos',
     steps: [

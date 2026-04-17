@@ -26,6 +26,8 @@ const content: AppContent = {
       'Crie labirintos ilustrados para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz atividades de percurso onde as crianças traçam caminhos entre imagens temáticas — combinando coordenação motora com diversão visual. Com mais de 3.000 ilustrações em 104 temas, você cria labirintos únicos para cada produto. "Labirinto para imprimir" é um dos termos de atividades mais buscados no Brasil, com demanda constante o ano inteiro. Perfeito para livros de passatempos no Amazon KDP e kits de coordenação motora na Hotmart. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie labirintos',
+
   howItWorks: {
     title: 'Como Criar Atividades de Labirintos em 5 Passos',
     steps: [

@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crie atividades de comparação de tamanhos para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças identificam e comparam grande, médio e pequeno usando imagens temáticas — uma habilidade fundamental na educação infantil e pré-escola. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos variados. Atividades de comparação de tamanhos são básicas no currículo de educação infantil e têm demanda constante entre pais e professores brasileiros. Perfeito para kits de educação infantil na Hotmart e apostilas de conceitos matemáticos no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades grande e pequeno',
+
   howItWorks: {
     title: 'Como Criar Atividades de Comparação de Tamanhos em 5 Passos',
     steps: [

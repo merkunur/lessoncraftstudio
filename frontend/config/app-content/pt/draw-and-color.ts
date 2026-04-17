@@ -26,6 +26,8 @@ const content: AppContent = {
       'Crie atividades de desenho e pintura para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz páginas de atividades artísticas onde as crianças desenham, pintam e completam cenas visuais usando imagens temáticas como inspiração. Com mais de 3.000 ilustrações em 104 temas e ferramentas de canvas livre, você cria atividades de arte únicas. Atividades de desenho e pintura são extremamente populares entre pais e professores — desenvolvem coordenação motora fina, criatividade e expressão artística. Perfeito para kits de arte na Hotmart e livros de atividades artísticas no Amazon KDP. Exporte PDFs a 300 DPI com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de desenhar e colorir',
+
   howItWorks: {
     title: 'Como Criar Atividades de Desenho em Grelha em 5 Passos',
     steps: [

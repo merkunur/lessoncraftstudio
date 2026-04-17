@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crie atividades de ligar e associar com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças traçam linhas para conectar elementos correspondentes — imagem com imagem, imagem com palavra, ou imagem com número. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos variados. Atividades de associação são universais: funcionam para qualquer idioma e faixa etária, desde educação infantil até ensino fundamental. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Um produto básico que todo vendedor de imprimíveis precisa no catálogo. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de ligar',
+
   howItWorks: {
     title: 'Como Criar Atividades de Associação em 5 Passos',
     steps: [

@@ -29,6 +29,8 @@ const content: AppContent = {
       'Crie atividades de caligrafia e traçado de letras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. "Coordenação motora" e "alfabetização" são termos de altíssimo volume de busca no Brasil — e este gerador cria exatamente os produtos que pais e professores procuram. Cinco modos de escrita: traçar letras, copiar palavras, escrever por extenso, pontilhado e forma livre. Suporte a 11 idiomas com alfabetos nativos incluindo português com todos os acentos. Escolha entre 7 famílias tipográficas e exporte PDFs prontos para impressão a 300 DPI. Perfeito para kits de alfabetização na Hotmart e apostilas de coordenação motora no Amazon KDP. Licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de caligrafia',
+
   howItWorks: {
     title: 'Como Criar Atividades de Escrita em 5 Passos',
     steps: [

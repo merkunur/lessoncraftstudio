@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crie atividades de contagem e gráficos de barras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças contam imagens temáticas e preenchem gráficos de barras — combinando matemática, interpretação de dados e raciocínio visual. As atividades de estatística e gráficos estão alinhadas com a BNCC e são cada vez mais exigidas nas escolas brasileiras. Escolha entre mais de 3.000 imagens em 104 temas, configure o número de categorias e exporte PDFs prontos para impressão a 300 DPI com gabarito automático e licença comercial inclusa. Um nicho pouco explorado em português com alta demanda crescente. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de contagem',
+
   howItWorks: {
     title: 'Como Criar Atividades de Gráfico Pictórico em 5 Passos',
     steps: [

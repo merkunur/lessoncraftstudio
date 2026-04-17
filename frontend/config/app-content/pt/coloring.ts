@@ -28,6 +28,8 @@ const content: AppContent = {
       'Crie desenhos para colorir para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz páginas para colorir com imagens temáticas de mais de 3.000 ilustrações em 104 temas — animais, veículos, alimentos, natureza e muito mais. O modo escala de cinza produz páginas econômicas em tinta, perfeitas para interiores de livros na Amazon KDP. Livros de colorir são um dos nichos MAIS lucrativos no KDP: baixo investimento, alta demanda, produção rápida. Na Hotmart e Kiwify, kits de desenhos para colorir temáticos vendem extremamente bem para pais e professores. Adicione linhas de caligrafia e campo de nome para criar atividades multicompetências. Exporte PDFs a 300 DPI com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie desenhos para colorir',
+
   howItWorks: {
     title: 'Como Criar Páginas para Colorir Personalizadas em 5 Passos',
     steps: [

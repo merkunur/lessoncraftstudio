@@ -27,6 +27,8 @@ const content: AppContent = {
       'Crie atividades de traçado e coordenação motora para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. "Coordenação motora" é um dos termos educativos MAIS buscados no Brasil — e este gerador cria exatamente os produtos que têm demanda gigante. As crianças traçam linhas entre imagens temáticas, desenvolvendo habilidades motoras finas essenciais para a escrita. Com mais de 3.000 imagens em 104 temas, você cria pacotes temáticos ilimitados. Atividades de traçado vendem extremamente bem na Hotmart como kits de coordenação motora e no Amazon KDP como apostilas de pregrafismo. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de traçado',
+
   howItWorks: {
     title: 'Como Criar Atividades de Grafomotricidade em 5 Passos',
     steps: [

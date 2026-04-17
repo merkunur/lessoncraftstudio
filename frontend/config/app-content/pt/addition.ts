@@ -29,6 +29,8 @@ const content: AppContent = {
       'Crie atividades de adição para vender na Hotmart, Kiwify, Etsy ou Amazon KDP — e gere cada uma em menos de 3 minutos. Este gerador cria exercícios de soma com imagens temáticas de mais de 3.000 ilustrações que encantam as crianças e convencem pais e professores a comprar. Exporte PDFs prontos para impressão em 300 DPI com gabarito automático e venda com a licença comercial inclusa — sem necessidade de atribuição. O mercado brasileiro de atividades educativas para imprimir é gigante: mais de 215 milhões de pessoas buscam materiais em português, e a cultura de "renda extra" no Brasil faz do mercado de infoprodutos educativos uma das maiores oportunidades para empreendedores digitais. Na Hotmart, kits de atividades já vendem milhares de cópias — e com este gerador, você cria produtos profissionais sem precisar de nenhum conhecimento de design. Teste grátis com marca d\'água — sem cadastro.',
   },
 
+  ctaHeading: 'Crie atividades de adição',
+
   howItWorks: {
     title: 'Como Criar Atividades de Adição em 5 Passos',
     steps: [

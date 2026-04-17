@@ -196,9 +196,13 @@ export default async function ToolPage({
   // Showcase config (EN + DE + FR)
   const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt' || locale === 'it' || locale === 'nl' || locale === 'sv' || locale === 'da' || locale === 'no' || locale === 'fi') ? getToolShowcaseConfig(toolConfig.toolId, locale) : null;
 
-  // App launch URL
+  // App launch URL. The htmlFile is already hyphenated after the
+  // worksheet-generator URL cleanup (Phase 6.3); next.config.js redirects
+  // any hyphenated request to the underlying spaced filesystem path.
+  // UTMs distinguish traffic sourced from the informational /tools page
+  // from the commercial /apps page in analytics.
   const htmlFile = appData.htmlFile || `${wpAppId}.html`;
-  const launchUrl = `/worksheet-generators/${htmlFile}`;
+  const launchUrl = `/worksheet-generators/${htmlFile}?locale=${locale}&tier=free&utm_source=lcs&utm_medium=internal&utm_campaign=free_trial&utm_content=tools_page`;
 
   // JSON-LD schemas
   const pageUrl = `${baseUrl}/${locale}/tools/${localeSlug || slug}`;

@@ -1004,8 +1004,10 @@ export default async function AppDetailPage({
   // literal spaces (mirroring the protected filesystem). We emit hyphenated
   // URLs for cleaner SEO; next.config.js redirects them to the actual
   // space-containing file on the server.
+  // UTMs distinguish traffic sourced from the commercial /apps page from
+  // the informational /tools page in analytics.
   const htmlFile = (appFileMap[appConfig.appId] || `${appConfig.appId}.html`).replace(/ /g, '-');
-  const launchUrl = `/worksheet-generators/${htmlFile}?locale=${locale}&tier=free`;
+  const launchUrl = `/worksheet-generators/${htmlFile}?locale=${locale}&tier=free&utm_source=lcs&utm_medium=internal&utm_campaign=free_trial&utm_content=apps_page`;
 
   // Paired /tools/*-maker slug for the reciprocal "free browser version" backlink.
   const pairedToolSlug = getToolSlugForApp(appConfig.appId, locale as SupportedLocale);

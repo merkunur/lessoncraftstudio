@@ -498,6 +498,28 @@ export default function ToolsListingPage({
           {/* Non-EN: 33 generators grid (existing behavior) */}
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-5xl">
+              {/* NL intro targeting "werkblad generator gratis" /
+                  "printables maken online" queries. */}
+              {locale === 'nl' && (
+                <div className="max-w-3xl mx-auto mb-12 space-y-4 text-gray-700 text-base leading-relaxed">
+                  <p>
+                    Gratis werkbladgeneratoren laten u afdrukbaar lesmateriaal maken voor de klas, thuisonderwijs of persoonlijk gebruik, direct in de browser &mdash; zonder software-installatie of maandabonnement. Elk van de 33 gratis generatoren hieronder produceert afdrukklare PDF- en JPEG-bestanden die u direct kunt downloaden.
+                  </p>
+                  <p>
+                    Bent u een leerkracht die een bijles voorbereidt, een ouder die een thuisonderwijseenheid plant, of een printable-maker die een nieuw formaat verkent voordat u zich verbindt? Deze browsertools zijn voor u gemaakt. Geen account aanmaken, geen aflopende proefperiode, geen limiet op het aantal werkbladen. Kies een thema, pas de lay-out aan, exporteren &mdash; dat is het hele proces.
+                  </p>
+                  <p>
+                    Het watermerk op de gratis versie is het enige verschil met de betaalde versie. Rastergroottes, afbeeldingsthema&apos;s, moeilijkheidsniveaus, antwoordsleutels en PDF-resolutie zijn identiek aan wat verkopers met licentie gebruiken. Het watermerk maakt de gratis werkbladen ongeschikt voor commerciële doorverkoop, maar perfect bruikbaar voor klasmappen, bijlesmateriaal, huiswerkaanvullingen en persoonlijke projecten.
+                  </p>
+                  <p>
+                    Alle 33 generatoren ondersteunen 11 talen: Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors en Fins. De afbeeldingen dragen de inhoud van het werkblad, dus de meeste resultaten worden automatisch vertaald bij het wijzigen van de taal.
+                  </p>
+                  <p>
+                    Klaar om te beginnen? Verken de categorieën hieronder. Als u een printable-productlijn bouwt voor Etsy of Amazon KDP en downloads zonder watermerk met commerciële licentie nodig heeft, vindt u in het <Link href={`/${locale}/apps`} className="text-indigo-600 hover:text-indigo-700 underline font-medium">Applicaties-gedeelte</Link> de versies met licentie van alle generatoren hieronder.
+                  </p>
+                </div>
+              )}
+
               {/* PT intro targeting "gerador de atividades grátis" /
                   "criar imprimíveis online" queries. */}
               {locale === 'pt' && (

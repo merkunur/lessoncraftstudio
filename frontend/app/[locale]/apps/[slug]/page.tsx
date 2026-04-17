@@ -257,6 +257,8 @@ const uiStrings: Record<string, {
     pdfExport: 'Directe PDF-export',
     watermarkNote: 'Gratis versie bevat een watermerk. Koop om het te verwijderen.',
     startCreating: 'Begin nu met maken',
+    pairedToolPrompt: 'Zoekt u de gratis browserversie?',
+    pairedToolAnchor: 'Probeer de Maker-tool — geen registratie.',
   },
   sv: {
     tryFree: 'Testa gratis (med vattenstämpel)',

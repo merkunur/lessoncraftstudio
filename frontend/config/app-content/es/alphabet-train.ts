@@ -17,12 +17,12 @@ const content: AppContent = {
       'preescolar',
       'infantil',
     ],
-    titleTag: 'Fichas del abecedario para imprimir | Generador de ejercicios ABC',
+    titleTag: 'Generador del abecedario | LessonCraftStudio',
     metaDescription: 'Cree fichas del abecedario con imágenes temáticas para reconocimiento de letras. Soluciones automáticas, 11 idiomas. Prueba gratis.',
   },
 
   hero: {
-    title: 'Fichas del abecedario para imprimir — Generador de ejercicios ABC',
+    title: 'Generador del abecedario — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas del abecedario con imágenes temáticas para reconocimiento de letras — 11 idiomas.',
     description:
       'Genere fichas de abecedario para vender en Etsy, Amazon KDP o Hotmart. El formato de tren del abecedario presenta cada letra en un vagón con imágenes temáticas correspondientes — una forma divertida y visual de aprender las letras. Con soporte para 11 idiomas y más de 3.000 imágenes en 104 temas, cree fichas de abecedario para el mercado hispano y otros mercados globales. Las fichas de abecedario son un producto perenne con demanda constante para preescolar e infantil. Cuadernillos de abecedario son un nicho probado en Amazon KDP. Exporte PDFs a 300 DPI con alta calidad y véndalos con la licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',

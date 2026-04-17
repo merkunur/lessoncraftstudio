@@ -16,12 +16,12 @@ const content: AppContent = {
       'juego de pistas',
       'enigmas',
     ],
-    titleTag: 'Búsqueda del tesoro para imprimir | Generador de juego de pistas',
+    titleTag: 'Generador de búsqueda del tesoro | LessonCraftStudio',
     metaDescription: 'Cree fichas de búsqueda del tesoro y juegos de pistas con imágenes temáticas. PDF imprimibles. Prueba gratis — venda en Etsy y KDP.',
   },
 
   hero: {
-    title: 'Búsqueda del tesoro para imprimir — Generador de juego de pistas',
+    title: 'Generador de búsqueda del tesoro — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de búsqueda del tesoro y juegos de pistas con imágenes temáticas — PDF imprimibles.',
     description:
       'Genere juegos de búsqueda del tesoro imprimibles para vender en Etsy, Amazon KDP o Hotmart. Los niños siguen pistas visuales para encontrar tesoros ocultos — un formato emocionante que combine resolución de problemas con aventura. Con más de 3.000 imágenes en 104 temas, cree búsquedas del tesoro para fiestas de cumpleaños, actividades estacionales y educación. Los juegos de búsqueda del tesoro son un producto de alta demanda en Etsy para fiestas infantiles y eventos. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. El formato visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',

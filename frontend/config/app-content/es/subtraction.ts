@@ -16,12 +16,12 @@ const content: AppContent = {
       'diferencia',
       'operaciones',
     ],
-    titleTag: 'Fichas de restas para imprimir | Generador con soluciones',
+    titleTag: 'Generador de fichas de restas | LessonCraftStudio',
     metaDescription: 'Cree fichas de restas con imágenes temáticas y soluciones automáticas. PDF 300 DPI, 11 idiomas. Prueba gratis — licencia comercial incluida.',
   },
 
   hero: {
-    title: 'Fichas de restas para imprimir — Generador con soluciones automáticas',
+    title: 'Generador de fichas de restas — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de restas con imágenes temáticas y soluciones automáticas — PDF 300 DPI, 11 idiomas.',
     description:
       'Convierta la resta en un producto vendible con un generador diseñado para emprendedores de imprimibles. Cree fichas de resta ilustradas con imágenes temáticas de más de 100 categorías — animales, vehículos, alimentos, naturaleza — que hacen las matemáticas atractivas y sus anuncios irresistibles. Cada ficha se exporta en PDF 300 DPI listo para imprimir con solucionario automático, lista para subir a Etsy, compilar en un cuadernillo de Amazon KDP, o vender en Hotmart. La licencia comercial está incluida con cada ficha. Estrategia rentable: combine sumas y restas en paquetes — los vendedores reportan ventas promedio significativamente más altas con paquetes matemáticos combinados. El mercado hispano ofrece un potencial enorme con competencia mínima. Pruebe gratis con todas las funciones — sin registro. Las descargas incluyen marca de agua; compre una licencia para eliminarla.',

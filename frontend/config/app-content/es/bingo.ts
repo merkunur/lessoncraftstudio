@@ -17,12 +17,12 @@ const content: AppContent = {
       'clase',
       'fiesta',
     ],
-    titleTag: 'Crear tarjetas de bingo | Generador bingo con imágenes',
+    titleTag: 'Generador de tarjetas de bingo | LessonCraftStudio',
     metaDescription: 'Cree tarjetas de bingo/lotería con 3.000+ imágenes temáticas. Tarjetas únicas por juego, PDF imprimibles. Prueba gratis — licencia comercial.',
   },
 
   hero: {
-    title: 'Crear tarjetas de bingo — Generador de bingo/lotería con imágenes',
+    title: 'Generador de tarjetas de bingo — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree tarjetas de bingo/lotería con 3.000+ imágenes temáticas — tarjetas únicas por juego, PDF imprimibles.',
     description:
       'Genere cartones de bingo con imágenes para vender en Etsy, Amazon KDP o Hotmart. El bingo es un juego universal que se vende para fiestas infantiles, actividades escolares, eventos comunitarios y entretenimiento familiar. Este generador crea múltiples cartones únicos con imágenes temáticas de más de 104 categorías — cada cartón es diferente, como debe ser. Los sets de bingo temáticos son un producto estrella en Etsy para fiestas de cumpleaños y eventos estacionales. Exporte PDFs a 300 DPI y véndalos con la licencia comercial incluida. El formato visual funciona en cualquier idioma. El mercado hispano de juegos imprimibles para fiestas tiene competencia mínima. Pruebe gratis con marca de agua — sin registro.',

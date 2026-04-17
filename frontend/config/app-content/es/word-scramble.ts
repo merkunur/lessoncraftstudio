@@ -16,12 +16,12 @@ const content: AppContent = {
       'ortografía',
       'vocabulario',
     ],
-    titleTag: 'Letras desordenadas para imprimir | Generador de anagramas',
+    titleTag: 'Generador de letras desordenadas | LessonCraftStudio',
     metaDescription: 'Cree fichas de letras desordenadas con imágenes temáticas. Soluciones automáticas, PDF imprimibles. Prueba gratis — licencia comercial incluida.',
   },
 
   hero: {
-    title: 'Letras desordenadas para imprimir — Generador de anagramas con imágenes',
+    title: 'Generador de letras desordenadas — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de letras desordenadas con imágenes temáticas — soluciones automáticas, PDF imprimibles.',
     description:
       'Genere fichas de anagramas para vender en Etsy, Amazon KDP o Hotmart. Los usuarios ven una imagen temática y reordenan las letras desordenadas para formar la palabra correcta — un formato que combine vocabulario con resolución de problemas. Con más de 3.000 imágenes en 104 temas y soporte para 11 idiomas, puede crear productos para múltiples mercados simultáneamente. Las fichas de letras revueltas son ideales para cuadernillos de actividades en KDP y paquetes temáticos en Etsy. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El mercado hispano ofrece competencia mínima para este tipo de pasatiempo. Pruebe gratis con marca de agua — sin registro.',

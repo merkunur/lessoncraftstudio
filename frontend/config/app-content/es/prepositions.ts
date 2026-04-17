@@ -18,12 +18,12 @@ const content: AppContent = {
       'entre',
       'espacio',
     ],
-    titleTag: 'Fichas de ubicación espacial para imprimir | Generador de preposiciones',
+    titleTag: 'Generador de preposiciones | LessonCraftStudio',
     metaDescription: 'Cree fichas de ubicación espacial y preposiciones con imágenes temáticas. Soluciones automáticas, 11 idiomas. Prueba gratis.',
   },
 
   hero: {
-    title: 'Fichas de ubicación espacial para imprimir — Generador de preposiciones',
+    title: 'Generador de preposiciones — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de ubicación espacial y preposiciones con imágenes temáticas — soluciones automáticas.',
     description:
       'Diseña fichas de preposiciones profesionales que enseñan relaciones espaciales a través de ejercicios prácticos con imágenes y formas. Los usuarios practican ocho preposiciones fundamentales — en/dentro de, encima de, debajo de, al lado de, detrás de, entre, arriba de y delante de — mediante dos modos de ejercicio distintos: Completar el Hueco, donde los usuarios escriben la preposición que falta, y Opción Múltiple, donde identifican la imagen que corresponde a una descripción espacial. Seleccione qué preposiciones incluir desde la lista integrada y configure de 1 a 8 ejercicios por ficha. Explore más de 3100 ilustraciones seleccionadas en 104 temas para los objetos posicionados, y elija entre 8 formas geométricas (círculo, cubo, cilindro, corazón, hexágono, cuadrado, estrella, triángulo) como puntos de referencia espacial. El Acceso Completo desbloquea los 11 idiomas soportados con preposiciones gramaticalmente correctas — alemán con contracciones dativas como \"im" y \"am", francés con reglas de elisión para \" l\' \" ante vocales, español con artículos con género (el/la) — multiplicando su catálogo de productos por once desde un solo flujo de trabajo. Cada ficha genera una clave de respuesta automática, y puede exportar PDF listos para imprimir y JPEG a más de 400 DPI en formato Carta, A4, Cuadrado o dimensiones personalizadas. Ya sea que vendas paquetes temáticos de preposiciones en Etsy, compiles libros de vocabulario espacial para Amazon KDP o crees centros de lenguaje diferenciados para Hotmart, el Generador de Fichas de Preposiciones produce resultados profesionales en minutos — pruebe gratis con todas las funciones, sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compre una licencia para eliminarla.',

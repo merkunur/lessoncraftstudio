@@ -525,3 +525,58 @@ gratuit" / "créer des imprimables en ligne" queries.
 
 Same reasoning as DE: calculator pages are English-only. Gate stays
 `locale === 'en'`. Widen the gate when French calculator pages ship.
+
+---
+
+# Spanish (ES) — landed 2026-04-17
+
+ES round mirrors DE/FR. Four atomic commits.
+
+## ES-A — `ctaHeading` on all 33 ES apps
+
+Spanish action-phrase mappings per generator. Examples:
+
+- `wordsearch.ts` → "Crear sopas de letras"
+- `addition.ts` → "Crear fichas de sumas"
+- `coloring.ts` → "Crear dibujos para colorear"
+- `bingo.ts` → "Crear tarjetas de bingo"
+- `crossword.ts` → "Crear crucigramas"
+- `sudoku.ts` → "Crear sudokus"
+
+Full set in `scripts/add-es-cta-heading.js`.
+
+## ES-B — H1 + titleTag + meta trim
+
+### H1 pattern
+
+`[ES Generator Name] — Crea imprimibles para vender en Etsy y KDP`
+
+All 33 ES H1s rewritten. Generator names use idiomatic Spanish
+`Generador de X` (e.g. "Generador de sopa de letras", "Generador de
+fichas de sumas", "Generador de páginas para colorear").
+
+### titleTag pattern
+
+`[ES Generator Name] | LessonCraftStudio` — replaces the previous
+descriptor-suffix pattern. Note: current ES titles ranged up to 71
+chars, so this commit also actively shortens. All new ES titles
+verified 40–54 chars.
+
+### Meta trim
+
+Only `wordsearch.ts` (162 → 147) rewritten. Other 32 metas stay as-is.
+
+## ES-C — ES translations of shared commercial + usage FAQs
+
+5 ES commercial FAQs added to `shared-commercial-faqs.ts` and 5 ES usage
+FAQs to `shared-usage-faqs.ts`. Price stated as `49 $` (USD).
+
+## ES-D — ES uiStrings backlink + ES tools index intro
+
+- `uiStrings.es` in apps/[slug]/page.tsx:
+  - `pairedToolPrompt`: "¿Busca la versión gratuita en el navegador?"
+  - `pairedToolAnchor`: "Pruebe la herramienta Maker — sin registro."
+- Tools index: ~330-word Spanish intro gated on `locale === 'es'`,
+  placed alongside the existing FR + DE blocks. Targets "generador de
+  fichas gratis" / "crear imprimibles en línea".
+- KDP cross-link stays EN-only (no ES calculator pages yet).

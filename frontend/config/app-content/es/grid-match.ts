@@ -16,12 +16,12 @@ const content: AppContent = {
       'simetría',
       'orientación espacial',
     ],
-    titleTag: 'Dibujo en cuadrícula para imprimir | Generador de reproducción',
+    titleTag: 'Generador de cuadrícula | LessonCraftStudio',
     metaDescription: 'Cree fichas de reproducción en cuadrícula con imágenes temáticas. Soluciones automáticas, PDF imprimibles. Prueba gratis.',
   },
 
   hero: {
-    title: 'Dibujo en cuadrícula para imprimir — Generador de reproducción con imágenes',
+    title: 'Generador de cuadrícula — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de reproducción en cuadrícula con imágenes temáticas — soluciones automáticas.',
     description:
       'Genere rompecabezas de cuadrícula para vender en Etsy, Amazon KDP o Hotmart. Este formato presenta una cuadrícula con imágenes temáticas donde los niños deben completar patrones, encontrar asociaciones o resolver desafíos de lógica visual. Es un formato diferenciador que se destaca en los listados de Etsy frente a las fichas estándar. Seleccione entre más de 3.000 ilustraciones en 104 temas y configure la dificultad. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Los rompecabezas de cuadrícula son ideales para cuadernillos de lógica en Amazon KDP — un nicho en crecimiento con poca competencia en español. Pruebe gratis con marca de agua — sin registro.',

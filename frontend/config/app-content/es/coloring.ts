@@ -17,12 +17,12 @@ const content: AppContent = {
       'temas',
       'niños',
     ],
-    titleTag: 'Crear dibujos para colorear | Generador de colorear para imprimir',
+    titleTag: 'Generador de páginas para colorear | LessonCraftStudio',
     metaDescription: 'Cree dibujos para colorear a partir de 3.000+ imágenes temáticas. Contornos alta resolución, PDF imprimibles. Prueba gratis — venda en Etsy y Amazon KDP.',
   },
 
   hero: {
-    title: 'Crear dibujos para colorear — Generador de páginas para colorear e imprimir',
+    title: 'Generador de páginas para colorear — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree dibujos para colorear a partir de 3.000+ imágenes temáticas — contornos alta resolución, PDF imprimibles.',
     description:
       'Genere dibujos para colorear para vender en Etsy, Amazon KDP o Hotmart. Las páginas para colorear son el producto imprimible más vendido en Etsy y uno de los géneros más populares en Amazon KDP. Este generador crea dibujos para colorear con imágenes de más de 104 categorías temáticas — animales, festividades, vehículos, naturaleza y más. Cada dibujo se exporta en alta resolución lista para imprimir. Los libros para colorear en KDP son una fuente probada de ingreso pasivo, y en Etsy las descargas digitales de dibujos para colorear tienen demanda constante. Licencia comercial incluida. El mercado hispano de dibujos para colorear está masivamente desatendido. Pruebe gratis con marca de agua — sin registro.',

@@ -15,12 +15,12 @@ const content: AppContent = {
       'discriminación visual',
       'números',
     ],
-    titleTag: 'Busca y cuenta para imprimir | Generador de conteo',
+    titleTag: 'Generador de buscar y contar | LessonCraftStudio',
     metaDescription: 'Cree fichas de "busca y cuenta" donde los niños encuentran y cuentan imágenes temáticas. Soluciones automáticas. Prueba gratis.',
   },
 
   hero: {
-    title: 'Busca y cuenta para imprimir — Generador de fichas de conteo',
+    title: 'Generador de buscar y contar — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de "busca y cuenta" donde los niños encuentran y cuentan imágenes temáticas.',
     description:
       'Genere fichas de busque y cuenta para vender en Etsy, Amazon KDP o Hotmart. Los niños buscan imágenes específicas dentro de una colección temática y cuentan cuántas encuentran — un formato que combine atención visual con conteo y es irresistible para preescolares. Seleccione entre más de 3.000 ilustraciones en 104 temas para crear fichas visualmente ricas. Las fichas de busque y cuenta (I Spy) son uno de los formatos más populares en Etsy para preescolar e infantil, con búsquedas constantes todo el año. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. Formato puramente visual — funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',

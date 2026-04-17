@@ -15,12 +15,12 @@ const content: AppContent = {
       'creatividad',
       'colorear',
     ],
-    titleTag: 'Fichas de dibujo y colorear para imprimir | Generador de arte',
+    titleTag: 'Generador de dibujar y colorear | LessonCraftStudio',
     metaDescription: 'Cree fichas de dibujo guiado y colorear con imágenes temáticas. PDF 300 DPI imprimibles. Prueba gratis — licencia comercial incluida.',
   },
 
   hero: {
-    title: 'Fichas de dibujo y colorear para imprimir — Generador de arte con imágenes',
+    title: 'Generador de dibujar y colorear — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de dibujo guiado y colorear con imágenes temáticas — PDF 300 DPI imprimibles.',
     description:
       'Genere fichas de dibujo y colorear para vender en Etsy, Amazon KDP o Hotmart. Este formato combine dos actividades favoritas: los niños primero dibujan siguiendo guías visuales y luego colorean su creación. Con más de 3.000 imágenes en 104 temas, cree fichas de dibujo para cualquier interés o estación. Las fichas de dibujo y colorear son un producto premium en Etsy porque ofrecen doble valor en una sola página. Ideales para cuadernillos de arte en Amazon KDP. Exporte PDFs a 300 DPI y véndalos con la licencia comercial incluida. El formato funciona en cualquier idioma — las instrucciones son visuales. Pruebe gratis con marca de agua — sin registro.',

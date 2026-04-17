@@ -15,12 +15,12 @@ const content: AppContent = {
       'motricidad fina',
       'concentración',
     ],
-    titleTag: 'Laberintos para imprimir | Generador de laberintos',
+    titleTag: 'Generador de laberintos | LessonCraftStudio',
     metaDescription: 'Cree laberintos con imágenes temáticas. Soluciones automáticas, PDF 300 DPI. Prueba gratis — venda en Etsy y Amazon KDP.',
   },
 
   hero: {
-    title: 'Laberintos para imprimir — Generador de laberintos con imágenes',
+    title: 'Generador de laberintos — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree laberintos con imágenes temáticas — soluciones automáticas, PDF 300 DPI.',
     description:
       'Genere laberintos ilustrados para vender en Etsy, Amazon KDP o Hotmart. Las fichas de caminos temáticos combinan laberintos con imágenes — los niños navegan caminos entre ilustraciones coloridas, desarrollando coordinación visomotora y planificación espacial. Seleccione entre más de 3.000 imágenes en 104 temas y ajuste la dificultad del laberinto. Los laberintos son un género probado en Amazon KDP con ventas consistentes todo el año, y en Etsy como descargue digital individual. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',

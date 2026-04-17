@@ -17,12 +17,12 @@ const content: AppContent = {
       'clasificar',
       'comparar',
     ],
-    titleTag: 'Fichas grande y pequeño para imprimir | Generador de tamaños',
+    titleTag: 'Generador de grande y pequeño | LessonCraftStudio',
     metaDescription: 'Cree fichas de comparación de tamaños con imágenes temáticas. Grande vs. pequeño, ordenar, soluciones automáticas. Prueba gratis.',
   },
 
   hero: {
-    title: 'Fichas grande y pequeño para imprimir — Generador de comparación de tamaños',
+    title: 'Generador de grande y pequeño — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de comparación de tamaños con imágenes temáticas — grande vs. pequeño, soluciones automáticas.',
     description:
       'Genere fichas de grande y pequeño para vender en Etsy, Amazon KDP o Hotmart. Los niños comparan tamaños de imágenes temáticas — un concepto matemático fundamental para preescolar e infantil. Con más de 3.000 imágenes en 104 temas, cree fichas de comparación visualmente atractivas. Las fichas de conceptos básicos (grande/pequeño, más/menos) son un producto perenne para vendedores de preescolar — los padres y educadores las buscan todo el año. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. El formato puramente visual funciona en cualquier idioma. Pruebe gratis con marca de agua — sin registro.',

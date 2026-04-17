@@ -18,12 +18,12 @@ const content: AppContent = {
       'solución',
       'PDF',
     ],
-    titleTag: 'Generador de sopa de letras | Crear con imágenes temáticas',
-    metaDescription: 'Cree sopas de letras con 3.000+ imágenes temáticas en 11 idiomas. Grillas personalizadas, soluciones automáticas, PDF 300 DPI. Prueba gratis — licencia comercial.',
+    titleTag: 'Generador de sopa de letras | LessonCraftStudio',
+    metaDescription: 'Generador de sopa de letras para vendedores Etsy y KDP. 3.000+ imágenes, 11 idiomas, soluciones automáticas. Prueba gratis con marca de agua.',
   },
 
   hero: {
-    title: 'Generador de sopa de letras — Crear con imágenes temáticas',
+    title: 'Generador de sopa de letras — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree sopas de letras con 3.000+ imágenes en 11 idiomas — grillas personalizadas, soluciones automáticas.',
     description:
       'Genere sopas de letras para vender en Etsy, Amazon KDP o Hotmart — el pasatiempo más popular del mundo, ahora con imágenes temáticas que las hacen únicas. Las pistas son imágenes, no texto: los usuarios identifican la imagen, deducen la palabra y la buscan en la cuadrícula. Este formato visual funciona en 11 idiomas, multiplicando su mercado potencial. Seleccione entre más de 3.000 ilustraciones en 104 temas para crear sopas de letras irresistibles. Las sopas de letras son el producto estrella en Amazon KDP — los libros de búsqueda de palabras se venden consistentemente todo el año. Exporte PDFs a 300 DPI con solucionario automático. Licencia comercial incluida. Pruebe gratis con marca de agua — sin registro.',

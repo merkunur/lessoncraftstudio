@@ -15,12 +15,12 @@ const content: AppContent = {
       'asociar',
       'discriminación visual',
     ],
-    titleTag: 'Asociar sombras para imprimir | Generador de siluetas',
+    titleTag: 'Generador de sombras | LessonCraftStudio',
     metaDescription: 'Cree fichas de asociación de sombras con imágenes y siluetas temáticas. Soluciones automáticas, PDF 300 DPI. Prueba gratis.',
   },
 
   hero: {
-    title: 'Asociar sombras para imprimir — Generador de siluetas con imágenes',
+    title: 'Generador de sombras — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de asociación de sombras con imágenes y siluetas temáticas — soluciones automáticas.',
     description:
       'Genere fichas de emparejar sombras para vender en Etsy, Amazon KDP o Hotmart. Los niños observan imágenes coloridas y las asocian con sus siluetas correspondientes — un ejercicio de percepción visual fundamental para preescolar e infantil. Con más de 3.000 ilustraciones en 104 temas, cree fichas de sombras para cualquier estación o interés. Las fichas de sombras son uno de los formatos más populares en Etsy para educación temprana por su atractivo visual inmediato. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. El formato es puramente visual — cero barreras de idioma. Pruebe gratis con marca de agua — sin registro.',

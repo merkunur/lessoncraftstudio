@@ -15,12 +15,12 @@ const content: AppContent = {
       'ordenar',
       'categorizar',
     ],
-    titleTag: 'Fichas de clasificación para imprimir | Generador de categorías',
+    titleTag: 'Generador de clasificación | LessonCraftStudio',
     metaDescription: 'Cree fichas de clasificación y categorización con imágenes temáticas. Soluciones automáticas, PDF imprimibles. Prueba gratis.',
   },
 
   hero: {
-    title: 'Fichas de clasificación para imprimir — Generador de categorías con imágenes',
+    title: 'Generador de clasificación — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de clasificación y categorización con imágenes temáticas — soluciones automáticas.',
     description:
       'Genere fichas de clasificación para vender en Etsy, Amazon KDP o Hotmart. Los niños observan imágenes y las clasifican en categorías — alimentos vs. animales, grandes vs. pequeños, estaciones del año, y más. Este formato desarrolla habilidades de pensamiento lógico y categorización que son fundamentales en preescolar e infantil. Con más de 3.000 imágenes en 104 temas, cree fichas de clasificación para cualquier contexto. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Las fichas de clasificación son puramente visuales y funcionan en cualquier idioma. El mercado hispano ofrece competencia mínima para este formato. Pruebe gratis con marca de agua — sin registro.',

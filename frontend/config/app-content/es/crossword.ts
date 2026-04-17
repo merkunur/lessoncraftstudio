@@ -17,12 +17,12 @@ const content: AppContent = {
       'definiciones',
       'solución',
     ],
-    titleTag: 'Generador de crucigramas | Crear con imágenes y soluciones',
+    titleTag: 'Generador de crucigramas | LessonCraftStudio',
     metaDescription: 'Cree crucigramas con pistas de imágenes en una grilla 15×15. 4 modos de entrada, 104 temas, soluciones automáticas. Prueba gratis — licencia comercial.',
   },
 
   hero: {
-    title: 'Generador de crucigramas — Crear con imágenes y soluciones automáticas',
+    title: 'Generador de crucigramas — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree crucigramas con pistas de imágenes en grilla 15×15 — 104 temas, soluciones automáticas.',
     description:
       'Genere crucigramas con imágenes como pistas para vender en Etsy, Amazon KDP o Hotmart. En lugar de definiciones escritas, los usuarios ven imágenes temáticas y escriben las palabras correspondientes — un formato innovador que funciona para todas las edades y se vende mejor que los crucigramas tradicionales. Soporte para 11 idiomas permite crear productos para el mercado hispano, europeo y global simultáneamente. Seleccione entre más de 3.000 ilustraciones en 104 temas. Los crucigramas son un clásico perenne con demanda constante en Amazon KDP y Etsy. Exporte PDFs a 300 DPI con solucionario automático y véndalos con licencia comercial. Pruebe gratis con marca de agua — sin registro.',

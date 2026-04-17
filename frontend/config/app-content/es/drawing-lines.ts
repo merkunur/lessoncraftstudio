@@ -17,12 +17,12 @@ const content: AppContent = {
       'preescolar',
       'infantil',
     ],
-    titleTag: 'Fichas de trazos para imprimir | Generador de grafomotricidad',
+    titleTag: 'Generador de grafomotricidad | LessonCraftStudio',
     metaDescription: 'Cree fichas de trazos y grafomotricidad con imágenes temáticas. PDF 300 DPI imprimibles. Prueba gratis — licencia comercial incluida.',
   },
 
   hero: {
-    title: 'Fichas de trazos para imprimir — Generador de grafomotricidad con imágenes',
+    title: 'Generador de grafomotricidad — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de trazos y grafomotricidad con imágenes temáticas — PDF 300 DPI imprimibles.',
     description:
       'Genere fichas de trazo y grafomotricidad para vender en Etsy, Amazon KDP o Hotmart. Las fichas de trazo son el producto preescolar más buscado — los padres y centros educativos las necesitan constantemente para desarrollar la motricidad fina. Este generador crea fichas donde los niños trazan líneas entre imágenes temáticas, con dificultad ajustable desde trazos rectos hasta curvas y zigzags. Seleccione entre más de 3.000 ilustraciones en 104 temas. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. Las fichas de grafomotricidad son puramente visuales y funcionan en cualquier idioma. El mercado hispano de material preescolar en Etsy está masivamente desatendido. Pruebe gratis con marca de agua — sin registro.',

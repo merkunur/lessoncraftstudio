@@ -16,12 +16,12 @@ const content: AppContent = {
       'vocabulario',
       'pistas',
     ],
-    titleTag: 'Juego del ahorcado para imprimir | Generador de adivinanzas',
+    titleTag: 'Generador del ahorcado | LessonCraftStudio',
     metaDescription: 'Cree fichas de adivinanzas de palabras con vocabulario temático e imágenes. Soluciones automáticas, PDF imprimibles. Prueba gratis.',
   },
 
   hero: {
-    title: 'Juego del ahorcado para imprimir — Generador de adivinanzas de palabras',
+    title: 'Generador del ahorcado — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de adivinanzas de palabras con vocabulario temático e imágenes — soluciones automáticas.',
     description:
       'Genere fichas de adivinar palabras para vender en Etsy, Amazon KDP o Hotmart. Los usuarios ven una imagen temática y adivinan la palabra correspondiente completando las letras — un formato interactivo que combine vocabulario con ortografía. Con soporte para 11 idiomas y más de 3.000 imágenes en 104 temas, puede crear fichas de adivinar palabras para el mercado hispano y otros mercados globales. Ideal para cuadernillos de vocabulario en KDP y paquetes educativos en Etsy. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Los juegos de vocabulario visual son especialmente populares para ELE — un mega-nicho con compradores de alto poder adquisitivo. Pruebe gratis con marca de agua — sin registro.',

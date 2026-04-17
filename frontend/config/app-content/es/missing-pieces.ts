@@ -15,12 +15,12 @@ const content: AppContent = {
       'observar',
       'razonamiento visual',
     ],
-    titleTag: 'Puzzle piezas faltantes para imprimir | Generador de lógica visual',
+    titleTag: 'Generador de piezas faltantes | LessonCraftStudio',
     metaDescription: 'Cree fichas de "piezas faltantes" con imágenes temáticas y soluciones automáticas. PDF 300 DPI imprimibles. Prueba gratis.',
   },
 
   hero: {
-    title: 'Puzzle de piezas faltantes para imprimir — Generador de lógica visual',
+    title: 'Generador de piezas faltantes — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de "piezas faltantes" con imágenes temáticas y soluciones automáticas — PDF 300 DPI.',
     description:
       'Cree puzzles profesionales de piezas faltantes donde una imagen tiene huecos recortados y los usuarios identifican qué opción numerada rellena cada espacio. El algoritmo inteligente de extracción de piezas encuentra áreas visualmente distintas con suficiente varianza de color, garantizando que cada puzzle sea resoluble y atractivo. Elija entre 6 formas de pieza — cuadrado, círculo, rectángulo vertical, rectángulo horizontal, elipse vertical y elipse horizontal — y configure la dificultad con 1–5 piezas faltantes y 2–6 opciones de solución que incluyen piezas distractoras para desafiar las habilidades de discriminación visual. Cada puzzle incluye una clave de respuestas generada automáticamente con etiquetas numéricas resaltadas en amarillo colocadas dentro de cada hueco mostrando la opción correcta. El encabezado generado automáticamente muestra "Piezas Faltantes" en turquesa (#06B6D4) con una descripción en rosa (#DB2777) enmarcado en un sistema de doble borde — borde exterior verde azulado (#14B8A6, 8px) y borde interior rosa intenso (#EC4899, 3px) — localizado en los 11 idiomas soportados. Piezas Faltantes NO es sensible al idioma: los puzzles son puramente visuales sin contenido dependiente del idioma, por lo que cada puzzle funciona idénticamente en todo el mundo. El Acceso Completo desbloquea los 104 temas con más de 3.100 ilustraciones y los 11 idiomas de interfaz. Añada temas de fondo y temas de borde con controles de opacidad independientes, y exporte PDFs y JPEGs listos para imprimir a 300 DPI en tamaños Carta, A4, Cuadrado o personalizado. Ya sea que vendas paquetes de puzzles visuales en Etsy, compiles libros de rompecabezas para Amazon KDP o crees actividades de pensamiento crítico para Hotmart, este generador produce puzzles listos para producción en minutos — pruebe gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compre una licencia para eliminarla.',

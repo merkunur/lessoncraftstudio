@@ -16,12 +16,12 @@ const content: AppContent = {
       'preescolar',
       'infantil',
     ],
-    titleTag: 'Fichas de asociación para imprimir | Generador unir con flechas',
+    titleTag: 'Generador de fichas de asociación | LessonCraftStudio',
     metaDescription: 'Cree fichas de asociación con imágenes temáticas para preescolar y primaria. Soluciones automáticas, PDF 300 DPI. Prueba gratis.',
   },
 
   hero: {
-    title: 'Fichas de asociación para imprimir — Generador de unir con flechas',
+    title: 'Generador de fichas de asociación — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de asociación con imágenes temáticas para preescolar y primaria — soluciones automáticas.',
     description:
       'Genere fichas de asociación para vender en Etsy, Amazon KDP o Hotmart. Las fichas de emparejar son un básico absoluto para preescolar e infantil — los padres y vendedores las buscan constantemente. Este generador crea fichas donde los niños conectan imágenes relacionadas, con más de 3.000 ilustraciones en 104 temas. Ofrezca fichas de asociación por tema (animales, alimentos, vehículos), por estación o por nivel de dificultad. Exporte PDFs a 300 DPI con solucionario automático y véndalos con la licencia comercial incluida. Las fichas de asociación funcionan en cualquier idioma porque son puramente visuales, multiplicando su mercado potencial. Pruebe gratis con marca de agua — sin registro.',

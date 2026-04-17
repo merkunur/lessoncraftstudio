@@ -18,12 +18,12 @@ const content: AppContent = {
       'solución',
       'operaciones',
     ],
-    titleTag: 'Fichas de sumas para imprimir | Generador con soluciones',
+    titleTag: 'Generador de fichas de sumas | LessonCraftStudio',
     metaDescription: 'Cree fichas de sumas con imágenes temáticas en segundos. Soluciones automáticas, PDF 300 DPI, 11 idiomas. Prueba gratis — licencia comercial para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Fichas de sumas para imprimir — Generador con soluciones automáticas',
+    title: 'Generador de fichas de sumas — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de sumas con imágenes temáticas en menos de 3 minutos — soluciones incluidas, PDF 300 DPI.',
     description:
       'Cree fichas de sumas para vender en Etsy, Amazon KDP o Hotmart — y genérelas en menos de 3 minutos. Este generador crea ejercicios de suma con imágenes temáticas de más de 3.000 ilustraciones que atraen a los niños y convencen a los padres compradores. Exporte PDFs listos para imprimir a 300 DPI con hojas de respuestas automáticas y véndalos con la licencia comercial incluida — sin atribución requerida, sin restricciones. El mercado hispano de materiales educativos en Etsy es un océaño azul: más de 500 millones de hispanohablantes buscan fichas en español, pero hay muy pocos vendedores que las ofrezcan. Esta es su oportunidad de capturar un mercado enorme con demanda creciente y competencia mínima — desde España hasta México, Estados Unidos y toda Latinoamérica. Pruebe gratis con todas las funciones — sin registro, sin tarjeta de crédito. Las descargas incluyen una marca de agua; compre una licencia para eliminarla.',

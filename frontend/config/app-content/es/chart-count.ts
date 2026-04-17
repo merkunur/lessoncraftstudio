@@ -16,12 +16,12 @@ const content: AppContent = {
       'datos',
       'clasificar',
     ],
-    titleTag: 'Fichas de conteo y gráficos para imprimir | Generador',
+    titleTag: 'Generador de fichas de conteo | LessonCraftStudio',
     metaDescription: 'Cree fichas de conteo y gráficos con imágenes temáticas. Soluciones automáticas, PDF imprimibles. Prueba gratis.',
   },
 
   hero: {
-    title: 'Fichas de conteo y gráficos para imprimir — Generador con soluciones',
+    title: 'Generador de fichas de conteo — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de conteo y gráficos con imágenes temáticas — soluciones automáticas, PDF imprimibles.',
     description:
       'Cree fichas de conteo y gráficos para vender en Etsy, Amazon KDP o Hotmart. Los niños cuentan imágenes temáticas y registran los resultados en gráficos de barras — una habilidad matemática esencial para preescolar y primaria. Seleccione entre más de 3.000 ilustraciones en 104 temas para crear fichas visualmente atractivas. Este formato combine conteo, comparación y visualización de datos en una sola ficha, ofreciendo más valor que las fichas de conteo simples. Exporte PDFs a 300 DPI con solucionario y véndalos con la licencia comercial incluida. Las fichas de conteo son un producto perenne — los padres y vendedores las buscan todo el año para preescolar e infantil. Pruebe gratis con marca de agua — sin registro.',

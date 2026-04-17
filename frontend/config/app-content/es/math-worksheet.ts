@@ -17,12 +17,12 @@ const content: AppContent = {
       'soluciones',
       'PDF',
     ],
-    titleTag: 'Generador de fichas de matemáticas | Crear ejercicios para imprimir',
+    titleTag: 'Generador de fichas de matemáticas | LessonCraftStudio',
     metaDescription: 'Cree fichas de matemáticas personalizadas con soluciones automáticas. PDF 300 DPI, 11 idiomas. Prueba gratis — licencia comercial para Etsy y KDP.',
   },
 
   hero: {
-    title: 'Generador de fichas de matemáticas — Crear ejercicios para imprimir',
+    title: 'Generador de fichas de matemáticas — Crea imprimibles para vender en Etsy y KDP',
     tagline: 'Cree fichas de matemáticas personalizadas con soluciones automáticas — PDF 300 DPI, 11 idiomas.',
     description:
       'Genere fichas de cálculo numérico para vender en Etsy, Amazon KDP o Hotmart. Este generador crea ejercicios de suma, resta, multiplicación y división puros — sin imágenes, solo números y operaciones. Ideal para vendedores que necesitan producir volúmenes altos de fichas de práctica matemática rápidamente. Configure el rango de dificultad, elija las operaciones, defina el número de problemas por página y exporte PDFs listos para imprimir a 300 DPI con solucionario automático. Las fichas numéricas puras funcionan en cualquier idioma y se venden todo el año — las matemáticas no tienen temporada. La licencia comercial está incluida. El mercado hispano de fichas de matemáticas en Etsy tiene competencia mínima y demanda creciente. Pruebe gratis con marca de agua — sin registro.',

@@ -498,6 +498,28 @@ export default function ToolsListingPage({
           {/* Non-EN: 33 generators grid (existing behavior) */}
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-5xl">
+              {/* ES intro targeting "generador de fichas gratis" /
+                  "crear imprimibles en línea" queries. */}
+              {locale === 'es' && (
+                <div className="max-w-3xl mx-auto mb-12 space-y-4 text-gray-700 text-base leading-relaxed">
+                  <p>
+                    Los generadores de fichas gratuitos le permiten crear materiales imprimibles para el aula, la educación en casa o uso personal directamente en el navegador &mdash; sin instalar software ni suscripción mensual. Cada uno de los 33 generadores gratuitos de abajo produce PDF y JPEG listos para imprimir que puede descargar al instante.
+                  </p>
+                  <p>
+                    Si es docente preparando una clase de refuerzo, padre o madre planificando una unidad de homeschooling, o creador de imprimibles explorando un formato nuevo antes de comprometerse, estas herramientas en el navegador son para usted. Sin crear cuenta, sin período de prueba caducado, sin límite en el número de fichas. Elegir un tema, personalizar la maquetación y exportar &mdash; ese es todo el proceso.
+                  </p>
+                  <p>
+                    La marca de agua de la versión gratuita es la única diferencia respecto a la versión de pago. Tamaños de cuadrícula, temas de imágenes, niveles de dificultad, hojas de soluciones y resolución del PDF son idénticos a los que usan los vendedores con licencia. La marca de agua hace que las fichas gratuitas no sean aptas para reventa comercial, pero perfectamente utilizables para dosieres de clase, material de refuerzo, complementos de deberes y proyectos personales.
+                  </p>
+                  <p>
+                    Los 33 generadores admiten 11 idiomas: inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego y finés. Las imágenes portan el contenido de la ficha, por lo que la mayoría de los resultados se traducen automáticamente al cambiar el idioma.
+                  </p>
+                  <p>
+                    ¿Listo para empezar? Explore las categorías de abajo. Si está construyendo una línea de imprimibles para Etsy o Amazon KDP y necesita descargas sin marca de agua con licencia comercial, encontrará en el <Link href={`/${locale}/apps`} className="text-indigo-600 hover:text-indigo-700 underline font-medium">espacio de aplicaciones</Link> las versiones con licencia de todos los generadores de abajo.
+                  </p>
+                </div>
+              )}
+
               {/* FR intro targeting "générateur de fiches gratuit" /
                   "créer des imprimables en ligne" queries. */}
               {locale === 'fr' && (

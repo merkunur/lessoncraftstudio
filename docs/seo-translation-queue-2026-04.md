@@ -219,7 +219,45 @@ Royalty Calculator and KDP Cover Size Calculator. Gated behind `locale
 variants in sitemap/page tree). Once localized calculators exist, remove
 the gate.
 
-## Commits E–J
+---
+
+## Commit H — Technical SEO audit findings
+
+### Hreflang (passes)
+Ran `node scripts/validate-hreflang-symmetry.js --sitemap-only` — all 3,592 URLs
+pass SYMMETRY, SELF_REFERENCE, and X_DEFAULT checks against the live sitemap.
+35,490 symmetry pairs verified. No action needed for this commit.
+Full HTML parity run (removes `--sitemap-only`) should be done after deploy.
+
+### Canonicals (passes)
+Every apps, tools, and index page template emits self-referential
+`alternates.canonical` via Next.js `generateMetadata`. No page was found
+canonicalizing to a different URL. No action needed.
+
+### Robots.txt (passes)
+- `Allow: /` at root covers `/apps/*` and `/tools/*`.
+- Sitemap, image-sitemap-index, and video-sitemap-index are all listed via
+  `Sitemap:` directives.
+- Private areas blocked: /admin, /dashboard, /auth, /member, /_next,
+  /testing, /uploads (plus locale-prefixed variants).
+- `/samples/` explicitly allowed for image crawlers.
+- No action needed.
+
+### Sitemap FI apps/tools coverage (gap — blocked on content translation)
+Finnish (`fi`) has zero slug entries in `frontend/config/product-page-slugs.ts`
+(0/33 products) and `frontend/config/tool-page-slugs.ts` (0/33 tools). As a
+result, `/fi/apps/*` and `/fi/tools/*` are not in the sitemap, not indexable,
+and users arriving from a Finnish locale get the EN fallback.
+
+This is a content-translation gap, not a code bug — every other locale
+(de/fr/es/pt/it/nl/sv/da/no) has complete slug coverage. Fixing requires
+translating each of the 33 apps and 33 tools slugs into Finnish.
+
+**Action for the translation sprint:** add FI slugs to both
+`product-page-slugs.ts` and `tool-page-slugs.ts`, then confirm the sitemap
+picks them up on the next build.
+
+## Commits I–J
 
 Further translation-queue entries will be appended by subsequent commits
 (schema, redirects, UTM, perf). Re-run `git log -p

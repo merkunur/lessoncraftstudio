@@ -17,6 +17,7 @@ import Link from 'next/link';
 import TryFreeButton from './TryFreeButton';
 import { getAppContent, getCategoryAudience } from '@/config/app-content';
 import type { AppContent } from '@/config/app-content';
+import { getSharedCommercialFAQs } from '@/config/app-content/shared-commercial-faqs';
 import VideoFacade from './VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
 import Breadcrumb from '@/components/Breadcrumb';
@@ -1075,11 +1076,16 @@ export default async function AppDetailPage({
     speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.speakable-headline', '.speakable-summary'] },
   };
 
+  // Commercial FAQs from the shared pool are prepended so /apps/* pages
+  // emphasize licensing, platforms, refunds and team use — distinct from
+  // the usage-focused FAQ on the paired /tools/*-maker page.
+  const mergedFaq = [...getSharedCommercialFAQs(locale), ...(content?.faq ?? [])];
+
   // FAQPage JSON-LD (only when enriched content exists)
-  const faqJsonLd = content?.faq?.length ? {
+  const faqJsonLd = mergedFaq.length ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: content.faq.map(f => ({
+    mainEntity: mergedFaq.map(f => ({
       '@type': 'Question',
       name: f.question,
       acceptedAnswer: {
@@ -1411,12 +1417,12 @@ export default async function AppDetailPage({
           </section>
 
           {/* FAQ */}
-          {content.faq.length > 0 && (
+          {mergedFaq.length > 0 && (
             <section className="py-12 md:py-16 bg-white">
               <div className="container mx-auto px-4">
                 <h2 className="text-2xl font-bold text-center text-gray-900 mb-10">{getSectionLabel('faq', locale)}</h2>
                 <div className="max-w-3xl mx-auto space-y-4">
-                  {content.faq.map((item, i) => (
+                  {mergedFaq.map((item, i) => (
                     <details key={i} className="group border border-gray-200 rounded-lg">
                       <summary className="flex items-center justify-between p-4 cursor-pointer font-medium text-gray-900 hover:bg-gray-50">
                         {item.question}

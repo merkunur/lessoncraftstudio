@@ -138,10 +138,58 @@ Updated EN texts:
 
 ---
 
-## Commits C–J
+---
+
+## Commit C — Intent-separated FAQ prepends + commercial-content collapse
+
+### New shared FAQ pools (EN populated, other locales fall back to EN)
+
+Both apps and tools page templates now merge a shared, intent-specific FAQ
+pool with each generator's existing `content.faq`. Translators should
+populate the 10 remaining locales with equivalent questions/answers.
+
+**Source files:**
+- `frontend/config/app-content/shared-commercial-faqs.ts` — 5 commercial
+  questions prepended to every `/[locale]/apps/[slug]` FAQ.
+- `frontend/config/tool-content/shared-usage-faqs.ts` — 5 usage questions
+  prepended to every `/[locale]/tools/[slug]` FAQ.
+
+**EN source questions (apps / commercial):**
+
+1. "What does the commercial license include?"
+2. "Can I sell worksheets on Etsy, Amazon KDP, Teachers Pay Teachers, and Gumroad?"
+3. "What is your refund policy?"
+4. "Can I share the license with team members or employees?"
+5. "Can I sell the same worksheet in 11 languages as separate products?"
+
+**EN source questions (tools / usage):**
+
+1. "Is there really no signup required?"
+2. "What file formats can I download?"
+3. "Will it work on a tablet, Chromebook, or older browser?"
+4. "What page sizes are supported? How do I print on A4 vs Letter?"
+5. "Do my worksheets save if I close the tab?"
+
+### New section label
+
+A new `sellWithThisTool` section label was added in
+`frontend/config/section-labels.ts` with translations for all 11 locales
+(see file for EN–FI values). This label powers the `<summary>` text on
+the collapsed commercial block on every tools page.
+
+### Pro Tips split (follow-up)
+
+The brief also asked for the `content.proTips` section to be split into
+usage tips (visible) and selling tips (collapsed). That requires a per-tip
+`intent: 'usage' | 'commercial'` tag on 33 × 11 tool content files. It was
+NOT done in this round. Follow-up work: add an optional `intent` field to
+each Pro Tip and update the tools template to render the selling ones
+inside the same `<details>` as whatYouCanCreate/businessIdeas.
+
+## Commits D–J
 
 Further translation-queue entries will be appended by subsequent commits
-(FAQ splits, tools-page commercial-content collapse, internal linking
-rewrites). Re-run `git log -p frontend/config/app-content/en/` and
-`git log -p frontend/config/tool-content/en/` to see the diff for each
-string that needs propagation.
+(internal linking, schema, redirects, UTM). Re-run `git log -p
+frontend/config/app-content/en/` and `git log -p
+frontend/config/tool-content/en/` to see the diff for each string that
+needs propagation.

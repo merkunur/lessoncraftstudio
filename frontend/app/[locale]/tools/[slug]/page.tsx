@@ -17,6 +17,7 @@ import { ALL_APPS, type AppId } from '@/config/products';
 import BuyButton from '@/components/BuyButton';
 import { getLocalizedAppName } from '@/config/app-translations';
 import { getToolContent } from '@/config/tool-content';
+import { getSharedUsageFAQs } from '@/config/tool-content/shared-usage-faqs';
 import { getSectionLabel } from '@/config/section-labels';
 import { encodeImagePath } from '@/lib/encode-image-path';
 import { isValidInternalLink } from '@/lib/resolve-internal-link';
@@ -298,12 +299,18 @@ export default async function ToolPage({
     ],
   });
 
+  // Usage FAQs from the shared pool are prepended so /tools/*-maker pages
+  // emphasize the free browser experience (no signup, file formats, device
+  // compatibility) — distinct from the licensing-focused FAQ on the paired
+  // /apps/* page.
+  const mergedFaq = [...getSharedUsageFAQs(locale), ...(content?.faq ?? [])];
+
   // FAQPage schema (when FAQ content exists)
-  if (content?.faq && content.faq.length > 0) {
+  if (mergedFaq.length > 0) {
     schemas.push({
       "@context": "https://schema.org",
       "@type": "FAQPage",
-      "mainEntity": content.faq.map(faq => ({
+      "mainEntity": mergedFaq.map(faq => ({
         "@type": "Question",
         "name": faq.question,
         "acceptedAnswer": {
@@ -506,41 +513,58 @@ export default async function ToolPage({
         {/* Showcase: Spotlight */}
         {showcaseConfig && <SpotlightSection config={showcaseConfig.spotlight} />}
 
-        {/* Product Examples */}
-        {content.whatYouCanCreate && content.whatYouCanCreate.length > 0 && (
-          <section className="py-12 md:py-16 bg-white">
-            <div className="container mx-auto px-4 max-w-4xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('whatYouCanCreate', locale)}</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {content.whatYouCanCreate.map((example, i) => (
-                  <div key={i} className="p-6 bg-gray-50 rounded-lg">
-                    <h3 className="font-semibold text-gray-900 mb-2">{example.title}</h3>
-                    <ReadMoreText text={example.description} locale={locale} className="text-gray-600 text-sm" />
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-
-        {/* Business Ideas */}
-        {content.businessIdeas && content.businessIdeas.length > 0 && (
+        {/*
+          Commercial sections (Product Examples + Business Ideas) are
+          collapsed behind a single <details> so the /tools/*-maker page's
+          primary content stays focused on the free browser tool. Content
+          remains in the initial HTML for indexing; only the UI is
+          collapsed by default. See docs/seo-translation-queue-2026-04.md.
+        */}
+        {((content.whatYouCanCreate && content.whatYouCanCreate.length > 0) ||
+          (content.businessIdeas && content.businessIdeas.length > 0)) && (
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-4xl">
-              <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('businessIdeas', locale)}</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {content.businessIdeas.map((idea, i) => (
-                  <div key={i} className="p-6 bg-white border border-gray-200 rounded-lg">
-                    <h3 className="font-semibold text-gray-900 mb-2">{idea.title}</h3>
-                    <ReadMoreText text={idea.description} locale={locale} className="text-gray-600 text-sm" />
-                    {idea.platform && (
-                      <span className="inline-block mt-2 text-xs bg-indigo-50 text-indigo-700 px-2 py-1 rounded">
-                        {idea.platform}
-                      </span>
-                    )}
-                  </div>
-                ))}
-              </div>
+              <details className="group bg-white border border-gray-200 rounded-lg">
+                <summary className="flex items-center justify-between p-6 cursor-pointer font-semibold text-gray-900 hover:bg-gray-50">
+                  <span className="text-lg">{getSectionLabel('sellWithThisTool', locale)}</span>
+                  <svg className="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </summary>
+                <div className="p-6 pt-0 space-y-10">
+                  {content.whatYouCanCreate && content.whatYouCanCreate.length > 0 && (
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-4">{getSectionLabel('whatYouCanCreate', locale)}</h3>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {content.whatYouCanCreate.map((example, i) => (
+                          <div key={i} className="p-6 bg-gray-50 rounded-lg">
+                            <h4 className="font-semibold text-gray-900 mb-2">{example.title}</h4>
+                            <ReadMoreText text={example.description} locale={locale} className="text-gray-600 text-sm" />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                  {content.businessIdeas && content.businessIdeas.length > 0 && (
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-900 mb-4">{getSectionLabel('businessIdeas', locale)}</h3>
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {content.businessIdeas.map((idea, i) => (
+                          <div key={i} className="p-6 bg-white border border-gray-200 rounded-lg">
+                            <h4 className="font-semibold text-gray-900 mb-2">{idea.title}</h4>
+                            <ReadMoreText text={idea.description} locale={locale} className="text-gray-600 text-sm" />
+                            {idea.platform && (
+                              <span className="inline-block mt-2 text-xs bg-indigo-50 text-indigo-700 px-2 py-1 rounded">
+                                {idea.platform}
+                              </span>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </details>
             </div>
           </section>
         )}
@@ -571,12 +595,12 @@ export default async function ToolPage({
         )}
 
         {/* FAQ */}
-        {content.faq && content.faq.length > 0 && (
+        {mergedFaq.length > 0 && (
           <section className="py-12 md:py-16 bg-white">
             <div className="container mx-auto px-4 max-w-3xl">
               <h2 className="text-2xl font-bold text-gray-900 mb-8">{getSectionLabel('faq', locale)}</h2>
               <div className="space-y-4">
-                {content.faq.map((faq, i) => (
+                {mergedFaq.map((faq, i) => (
                   <details key={i} className="group border border-gray-200 rounded-lg">
                     <summary className="flex items-center justify-between p-4 cursor-pointer font-medium text-gray-900">
                       {faq.question}

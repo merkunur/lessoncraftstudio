@@ -16,12 +16,12 @@ const content: AppContent = {
       'comparar',
       'quantidades',
     ],
-    titleTag: 'Atividade maior menor igual | Gerador de comparação',
+    titleTag: 'Gerador maior ou menor | LessonCraftStudio',
     metaDescription: 'Crie atividades de comparação de números e quantidades com imagens temáticas. Gabarito automático, PDF 300 DPI. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie atividades de maior e menor para vender na Hotmart e Etsy',
+    title: 'Gerador maior ou menor — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Transforme a comparação de números numa descoberta visual com atividades ilustradas de maior que e menor que.',
     description:
       'Crie atividades de maior e menor para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios de comparação visual onde as crianças determinam qual grupo tem mais ou menos imagens — desenvolvendo conceitos fundamentais de quantidade, comparação e pré-numeracia. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos ilimitados. Atividades de "mais e menos" são essenciais no currículo de educação infantil e ensino fundamental, com demanda constante o ano inteiro. Perfeito para kits de matemática na Hotmart e apostilas de conceitos numéricos no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

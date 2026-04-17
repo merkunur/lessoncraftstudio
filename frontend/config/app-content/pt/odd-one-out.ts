@@ -15,12 +15,12 @@ const content: AppContent = {
       'lógica',
       'raciocínio',
     ],
-    titleTag: 'Encontre o intruso para imprimir | Gerador de lógica',
+    titleTag: 'Gerador do intruso | LessonCraftStudio',
     metaDescription: 'Crie atividades de "encontre o intruso" com imagens temáticas para raciocínio lógico. Gabarito automático, PDF imprimíveis. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie atividades de encontre o intruso para vender na Hotmart e KDP',
+    title: 'Gerador do intruso — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Dois modos de geração — Idêntico e Similar — com substituição por exercício, de 5 a 10 exercícios configuráveis, gabaritos autogerados com marcadores de círculo vermelho e puzzles puramente visuais que funcionam nos 11 idiomas sem tradução.',
     description:
       'Crie atividades de encontre o intruso para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças observam um grupo de imagens e identificam qual não pertence ao conjunto — desenvolvendo raciocínio lógico, categorização e atenção aos detalhes. Com mais de 3.000 ilustrações em 104 temas, você cria variações ilimitadas com diferentes níveis de dificuldade. "Encontre o diferente" é um dos formatos de atividades mais populares entre crianças e pais. Perfeito para livros de passatempos no Amazon KDP e kits de raciocínio lógico na Hotmart. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

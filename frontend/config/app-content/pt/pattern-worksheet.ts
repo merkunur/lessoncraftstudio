@@ -16,12 +16,12 @@ const content: AppContent = {
       'visual',
       'lógica',
     ],
-    titleTag: 'Exercícios de sequência lógica para imprimir | Gerador',
+    titleTag: 'Gerador de padrões | LessonCraftStudio',
     metaDescription: 'Crie exercícios de sequência lógica com imagens temáticas. Gabarito automático, PDF 300 DPI. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie atividades de padrões para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de padrões — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Nove tipos de padrões de AB a ABCD — dois modos de pergunta (caixa em branco e escolha múltipla) — com configuração independente por exercício para o tipo de padrão, o modo de pergunta e o tema em cada página.',
     description:
       'Crie atividades de reconhecimento de padrões para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças identificam, continuam e completam padrões visuais usando imagens temáticas — uma habilidade fundamental em matemática e raciocínio lógico. Com mais de 3.000 ilustrações em 104 temas, você cria exercícios com dificuldade progressiva. Atividades de padrões são essenciais na BNCC e exigidas em todas as séries iniciais do ensino fundamental. Perfeito para kits de matemática na Hotmart e apostilas de raciocínio lógico no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

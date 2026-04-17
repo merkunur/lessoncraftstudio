@@ -19,12 +19,12 @@ const content: AppContent = {
       'PDF',
       'alfabetização',
     ],
-    titleTag: 'Gerador de caça-palavras | Criar com imagens temáticas',
+    titleTag: 'Gerador de caça-palavras | LessonCraftStudio',
     metaDescription: 'Crie caça-palavras com 3.000+ imagens temáticas em 11 idiomas. Grades personalizadas, gabarito automático, PDF 300 DPI. Teste grátis — licença comercial.',
   },
 
   hero: {
-    title: 'Crie caça-palavras profissionais para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de caça-palavras — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Grelhas ajustáveis de 5×5 a 30×30 com controlos de direção diagonal e invertida — construa o nível de dificuldade perfeito para cada audiência.',
     description:
       'Crie caça-palavras com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP — o formato de puzzle mais popular do mundo. Este gerador produz grades de 5×5 a 30×30 com palavras ocultas, pistas visuais de mais de 3.000 imagens e gabarito com código de cores. "Caça-palavras" é um dos termos mais buscados em português, com demanda constante o ano inteiro. O diferencial: grades em 11 idiomas com letras nativas (português com ã, õ, ç e acentos). Perfeito para livros de caça-palavras no Amazon KDP — um dos nichos mais lucrativos de baixo conteúdo. Exporte PDFs a 300 DPI com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

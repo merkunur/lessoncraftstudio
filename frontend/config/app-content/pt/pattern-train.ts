@@ -17,12 +17,12 @@ const content: AppContent = {
       'sequência',
       'padrão',
     ],
-    titleTag: 'Atividades de sequência para imprimir | Gerador lógico',
+    titleTag: 'Gerador de atividades de sequência | LessonCraftStudio',
     metaDescription: 'Crie atividades de sequência lógica com padrões AB, ABC, ABCD e imagens temáticas. Gabarito automático. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {
-    title: 'Crie atividades de sequências para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de atividades de sequência — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Cinco tipos de padrões — AB, AAB, ABB, ABC, AABB — apresentados em 11 vagões de trem temáticos com número de pistas ajustável de 4 a 10 para um controlo preciso da dificuldade.',
     description:
       'Crie atividades de sequências e padrões para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios de trem de padrões onde as crianças identificam e completam sequências visuais — vagões com imagens temáticas seguem um padrão e o último vagão está vazio para ser preenchido. Desenvolve raciocínio lógico, reconhecimento de padrões e pensamento matemático. Com mais de 3.000 imagens em 104 temas, você cria variações ilimitadas. Atividades de sequências são fundamentais na educação infantil e ensino fundamental — um produto essencial para qualquer catálogo de imprimíveis. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

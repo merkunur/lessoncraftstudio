@@ -16,12 +16,12 @@ const content: AppContent = {
       'educação infantil',
       'pré-escola',
     ],
-    titleTag: 'Atividades de ligar para imprimir | Gerador de associação',
+    titleTag: 'Gerador de atividades de ligar | LessonCraftStudio',
     metaDescription: 'Crie atividades de associação com imagens temáticas para educação infantil e ensino fundamental. Gabarito automático, PDF 300 DPI. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie atividades de associação para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de atividades de ligar — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Quatro modos de associação num único gerador — Letra Inicial, Imagem+Palavra, Imagem/Palavra Misto e Palavra Personalizada — com gabaritos gerados automaticamente, número de pares configurável e cabeçalho localizado \"Liga!\" em 104 coleções de imagens temáticas.',
     description:
       'Crie atividades de ligar e associar com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças traçam linhas para conectar elementos correspondentes — imagem com imagem, imagem com palavra, ou imagem com número. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos variados. Atividades de associação são universais: funcionam para qualquer idioma e faixa etária, desde educação infantil até ensino fundamental. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Um produto básico que todo vendedor de imprimíveis precisa no catálogo. Teste grátis com marca d\'água — sem cadastro.',

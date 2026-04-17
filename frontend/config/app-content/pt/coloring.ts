@@ -17,12 +17,12 @@ const content: AppContent = {
       'temas',
       'crianças',
     ],
-    titleTag: 'Criar desenhos para colorir | Gerador para imprimir',
+    titleTag: 'Gerador de páginas para colorir | LessonCraftStudio',
     metaDescription: 'Crie desenhos para colorir a partir de 3.000+ imagens temáticas. Contornos em alta resolução, PDF imprimíveis. Teste grátis — venda no Etsy e Amazon KDP.',
   },
 
   hero: {
-    title: 'Crie desenhos para colorir para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de páginas para colorir — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Designer de páginas para colorir em canvas de forma livre — explore 104 coleções de imagens temáticas, adicione desenhos à mão livre, inclua auxiliares de loja como campos de nome e linhas de caligrafia, e ative a exportação em escala de cinzentos para páginas para colorir económicas em tinta.',
     description:
       'Crie desenhos para colorir para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz páginas para colorir com imagens temáticas de mais de 3.000 ilustrações em 104 temas — animais, veículos, alimentos, natureza e muito mais. O modo escala de cinza produz páginas econômicas em tinta, perfeitas para interiores de livros na Amazon KDP. Livros de colorir são um dos nichos MAIS lucrativos no KDP: baixo investimento, alta demanda, produção rápida. Na Hotmart e Kiwify, kits de desenhos para colorir temáticos vendem extremamente bem para pais e professores. Adicione linhas de caligrafia e campo de nome para criar atividades multicompetências. Exporte PDFs a 300 DPI com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

@@ -16,12 +16,12 @@ const content: AppContent = {
       'dados',
       'classificar',
     ],
-    titleTag: 'Atividades de contagem e gráficos para imprimir | Gerador',
+    titleTag: 'Gerador de atividades de contagem | LessonCraftStudio',
     metaDescription: 'Crie atividades de contagem e gráficos com imagens temáticas. Gabarito automático, PDF imprimíveis. Teste grátis.',
   },
 
   hero: {
-    title: 'Gere atividades de contagem e gráficos para vender na Hotmart e Etsy',
+    title: 'Gerador de atividades de contagem — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Gerador de pictogramas com canvas duplo — crie grelhas de imagens dispersas com 6 tipos de imagens, gabaritos em gráfico de barras gerados automaticamente, cabeçalhos localizados em 11 idiomas e 104 coleções de imagens temáticas para atividades de representação de dados.',
     description:
       'Crie atividades de contagem e gráficos de barras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças contam imagens temáticas e preenchem gráficos de barras — combinando matemática, interpretação de dados e raciocínio visual. As atividades de estatística e gráficos estão alinhadas com a BNCC e são cada vez mais exigidas nas escolas brasileiras. Escolha entre mais de 3.000 imagens em 104 temas, configure o número de categorias e exporte PDFs prontos para impressão a 300 DPI com gabarito automático e licença comercial inclusa. Um nicho pouco explorado em português com alta demanda crescente. Teste grátis com marca d\'água — sem cadastro.',

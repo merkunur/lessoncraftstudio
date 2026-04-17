@@ -15,12 +15,12 @@ const content: AppContent = {
       'separar',
       'categorizar',
     ],
-    titleTag: 'Atividade de classificação para imprimir | Gerador',
+    titleTag: 'Gerador de classificação | LessonCraftStudio',
     metaDescription: 'Crie atividades de classificação e categorização com imagens temáticas. Gabarito automático, PDF imprimíveis. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie atividades de classificação para vender na Hotmart e Etsy',
+    title: 'Gerador de classificação — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Classificação a duas categorias num único gerador potente — modo de tema ou seleção manual de imagens — com gabaritos autogerados, 4 a 12 imagens configuráveis, cabeçalho localizado \"Classificação de Imagens\" em 11 idiomas e 104 coleções de imagens temáticas.',
     description:
       'Crie atividades de classificação e categorização para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças ordenam, agrupam e classificam imagens temáticas por categorias — desenvolvendo raciocínio lógico, pensamento crítico e habilidades de organização. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos variados para todas as idades. Atividades de classificação são essenciais na educação infantil e ensino fundamental, com demanda alta e constante. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Um formato educativo que vendedores da Hotmart e Kiwify procuram ativamente. Teste grátis com marca d\'água — sem cadastro.',

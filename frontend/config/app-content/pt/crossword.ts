@@ -18,12 +18,12 @@ const content: AppContent = {
       'definições',
       'gabarito',
     ],
-    titleTag: 'Gerador de cruzadinha | Criar com imagens e gabarito',
+    titleTag: 'Gerador de palavras cruzadas | LessonCraftStudio',
     metaDescription: 'Crie cruzadinhas com dicas em imagens numa grade 15×15. 4 modos de entrada, 104 temas, gabarito automático. Teste grátis — licença comercial.',
   },
 
   hero: {
-    title: 'Crie palavras cruzadas para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de palavras cruzadas — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Substitua as pistas de texto tradicionais por pistas com imagens numa grelha de 15×15 — quatro métodos de entrada (seleção automática por tema, edição manual de nomes, lista personalizada de palavras com pistas e carregamento de imagens próprias), gabarito autogerado com grelha preenchida e cabeçalho localizado \"Palavras Cruzadas Ilustradas\" em 104 coleções temáticas de imagens.',
     description:
       'Crie palavras cruzadas com pistas visuais para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador cria cruzadinhas onde as pistas são imagens — os usuários identificam o que veem e preenchem as letras na grade. Com mais de 3.000 imagens em 104 temas e suporte a 11 idiomas com caracteres nativos, você cria produtos únicos em minutos. "Cruzadinha" e "palavras cruzadas" são termos de altíssima busca no Brasil. Cada atividade inclui gabarito automático e exportação em PDF 300 DPI. Perfeito para livros de passatempos no Amazon KDP e kits de atividades na Hotmart. Licença comercial inclusa — venda sem atribuição. Teste grátis com marca d\'água — sem cadastro.',

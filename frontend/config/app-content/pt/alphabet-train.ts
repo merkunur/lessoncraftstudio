@@ -18,12 +18,12 @@ const content: AppContent = {
       '1° ano',
       'alfabetização',
     ],
-    titleTag: 'Atividades do alfabeto para imprimir | Gerador ABC',
+    titleTag: 'Gerador de atividades do alfabeto | LessonCraftStudio',
     metaDescription: 'Crie atividades do alfabeto com imagens temáticas para reconhecimento de letras. Gabarito automático, 11 idiomas. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie atividades de alfabeto para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de atividades do alfabeto — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Cada vagão transporta uma letra e uma imagem correspondente — construindo o reconhecimento de letras vagão após vagão.',
     description:
       'Crie atividades de trem do alfabeto para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. "Alfabetização" é um dos termos educativos MAIS buscados no Brasil — e este gerador cria atividades de reconhecimento de letras únicas no mercado. Onze vagões coloridos percorrem a página, cada um com uma letra e uma ilustração correspondente. A verdadeira potência: suporte a 11 alfabetos nativos. A mesma imagem associa-se com letras diferentes em cada idioma — "cão" associa-se com C em português mas com D em inglês e H em alemão. Um único modelo gera 11 produtos únicos. Com mais de 3.000 imagens em 104 temas, exporte PDFs a 300 DPI com gabarito e licença comercial. Teste grátis com marca d\'água — sem cadastro.',

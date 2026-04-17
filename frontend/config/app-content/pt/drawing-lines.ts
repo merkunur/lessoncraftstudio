@@ -16,12 +16,12 @@ const content: AppContent = {
       'coordenação motora fina',
       'educação infantil',
     ],
-    titleTag: 'Atividades de pontilhado para imprimir | Gerador',
+    titleTag: 'Gerador de atividades de traçado | LessonCraftStudio',
     metaDescription: 'Crie atividades de pontilhado e coordenação motora com imagens temáticas. PDF 300 DPI imprimíveis. Teste grátis — licença comercial incluída.',
   },
 
   hero: {
-    title: 'Crie atividades de traçado para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de atividades de traçado — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Oito modelos de linhas SVG — curvas, diagonais, horizontal e vertical — com 4 a 5 pares de imagens por página para o desenvolvimento da motricidade fina através do traçado de linhas guiado.',
     description:
       'Crie atividades de traçado e coordenação motora para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. "Coordenação motora" é um dos termos educativos MAIS buscados no Brasil — e este gerador cria exatamente os produtos que têm demanda gigante. As crianças traçam linhas entre imagens temáticas, desenvolvendo habilidades motoras finas essenciais para a escrita. Com mais de 3.000 imagens em 104 temas, você cria pacotes temáticos ilimitados. Atividades de traçado vendem extremamente bem na Hotmart como kits de coordenação motora e no Amazon KDP como apostilas de pregrafismo. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

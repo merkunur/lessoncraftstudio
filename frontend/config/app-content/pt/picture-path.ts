@@ -15,12 +15,12 @@ const content: AppContent = {
       'coordenação motora',
       'concentração',
     ],
-    titleTag: 'Labirinto para imprimir | Gerador de labirintos',
+    titleTag: 'Gerador de labirintos | LessonCraftStudio',
     metaDescription: 'Crie labirintos com imagens temáticas. Gabarito automático, PDF 300 DPI. Teste grátis — venda no Etsy e Amazon KDP.',
   },
 
   hero: {
-    title: 'Crie labirintos ilustrados para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de labirintos — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Três modos de jogo num só gerador — Caminho de Imagens, Labirinto Clássico e Escolhe o Caminho Certo — alimentado pelo algoritmo LPF (Caminho Mais Longo Primeiro) com gabaritos automáticos, personalização de paredes e design completamente visual que funciona em todo o mundo sem tradução.',
     description:
       'Crie labirintos ilustrados para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz atividades de percurso onde as crianças traçam caminhos entre imagens temáticas — combinando coordenação motora com diversão visual. Com mais de 3.000 ilustrações em 104 temas, você cria labirintos únicos para cada produto. "Labirinto para imprimir" é um dos termos de atividades mais buscados no Brasil, com demanda constante o ano inteiro. Perfeito para livros de passatempos no Amazon KDP e kits de coordenação motora na Hotmart. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

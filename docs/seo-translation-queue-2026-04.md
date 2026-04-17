@@ -638,3 +638,61 @@ Only `addition.ts` (165 → 147) rewritten. Other 32 IT metas stay as-is.
 - Tools index: ~330-word Italian intro gated on `locale === 'it'`,
   placed alongside the existing ES + FR + DE blocks.
 - KDP cross-link stays EN-only.
+
+---
+
+# Portuguese (PT) — landed 2026-04-17
+
+PT round mirrors DE/FR/ES/IT with two PT-specific deviations:
+
+- **Hotmart** is preserved alongside Etsy and KDP in the H1 pattern.
+  Hotmart is the largest digital printable marketplace in Brazil, so
+  the existing PT optimization should not be dropped for consistency
+  with other locales.
+- **Price format** is `US$ 49` (Portuguese convention for USD prices)
+  rather than `49 $`. Same underlying USD checkout.
+
+## PT-A — `ctaHeading` on all 33 PT apps
+
+Portuguese action-phrase mappings:
+
+- `wordsearch.ts` → "Crie caça-palavras"
+- `addition.ts` → "Crie atividades de adição"
+- `coloring.ts` → "Crie desenhos para colorir"
+- `bingo.ts` → "Crie cartelas de bingo"
+- `crossword.ts` → "Crie palavras cruzadas"
+- `sudoku.ts` → "Crie sudokus"
+- `math-puzzle.ts` → "Crie enigmas matemáticos"
+
+Full set in `scripts/add-pt-cta-heading.js`.
+
+## PT-B — H1 + titleTag (no meta trim needed)
+
+### H1 pattern
+
+`[PT Generator Name] — Crie imprimíveis para vender na Hotmart, Etsy e KDP`
+
+All 33 PT H1s rewritten. Generator names use `Gerador de X` pattern.
+
+### titleTag pattern
+
+`[PT Generator Name] | LessonCraftStudio` — replaces the previous
+descriptor-suffix pattern. All new PT titles verified 38–55 chars
+(down from up-to-62).
+
+### No meta trim
+
+All 33 PT metas were already within spec (max 156). No rewrite needed.
+
+## PT-C — PT translations of shared commercial + usage FAQs
+
+5 PT commercial + 5 PT usage FAQs added. Price `US$ 49` (USD).
+
+## PT-D — PT uiStrings backlink + PT tools index intro
+
+- `uiStrings.pt` in apps/[slug]/page.tsx:
+  - `pairedToolPrompt`: "Procurando a versão gratuita no navegador?"
+  - `pairedToolAnchor`: "Experimente a ferramenta Maker — sem cadastro."
+- Tools index: ~330-word Portuguese intro gated on `locale === 'pt'`,
+  placed alongside existing IT/ES/FR/DE blocks.
+- KDP cross-link stays EN-only.

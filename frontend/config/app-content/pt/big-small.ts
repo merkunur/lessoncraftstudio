@@ -16,12 +16,12 @@ const content: AppContent = {
       'ordenar',
       'classificar',
     ],
-    titleTag: 'Atividade grande e pequeno para imprimir | Gerador',
+    titleTag: 'Gerador grande e pequeno | LessonCraftStudio',
     metaDescription: 'Crie atividades de comparação de tamanhos com imagens temáticas. Grande vs. pequeno, ordenar, gabarito automático. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie atividades de grande e pequeno para vender na Hotmart e Etsy',
+    title: 'Gerador grande e pequeno — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Cinco tipos de perguntas — circundar o maior, circundar o menor, circundar o médio, numerar do menor ao maior, numerar do maior ao menor — com modos de imagens idênticas e diferentes para a discriminação visual de tamanhos.',
     description:
       'Crie atividades de comparação de tamanhos para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças identificam e comparam grande, médio e pequeno usando imagens temáticas — uma habilidade fundamental na educação infantil e pré-escola. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos variados. Atividades de comparação de tamanhos são básicas no currículo de educação infantil e têm demanda constante entre pais e professores brasileiros. Perfeito para kits de educação infantil na Hotmart e apostilas de conceitos matemáticos no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

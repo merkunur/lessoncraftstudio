@@ -18,12 +18,12 @@ const content: AppContent = {
       'educação infantil',
       'alfabetização',
     ],
-    titleTag: 'Atividades de coordenação motora | Gerador de escrita',
+    titleTag: 'Gerador de atividades de caligrafia | LessonCraftStudio',
     metaDescription: 'Crie atividades de coordenação motora e escrita com palavras personalizadas. 11 idiomas, PDF 300 DPI. Teste grátis — licença comercial para vendedores.',
   },
 
   hero: {
-    title: 'Crie atividades de caligrafia para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de atividades de caligrafia — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Três modos de prática progressivos com ordem de traços guiada por setas e guias de letras com opacidade progressiva — desenvolva a fluência de escrita desde o traçado completo até à escrita autónoma numa única atividade.',
     description:
       'Crie atividades de caligrafia e traçado de letras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. "Coordenação motora" e "alfabetização" são termos de altíssimo volume de busca no Brasil — e este gerador cria exatamente os produtos que pais e professores procuram. Cinco modos de escrita: traçar letras, copiar palavras, escrever por extenso, pontilhado e forma livre. Suporte a 11 idiomas com alfabetos nativos incluindo português com todos os acentos. Escolha entre 7 famílias tipográficas e exporte PDFs prontos para impressão a 300 DPI. Perfeito para kits de alfabetização na Hotmart e apostilas de coordenação motora no Amazon KDP. Licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

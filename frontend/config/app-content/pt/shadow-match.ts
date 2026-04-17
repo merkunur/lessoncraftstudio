@@ -15,12 +15,12 @@ const content: AppContent = {
       'associar',
       'discriminação visual',
     ],
-    titleTag: 'Jogo das sombras para imprimir | Gerador de silhuetas',
+    titleTag: 'Gerador de sombras | LessonCraftStudio',
     metaDescription: 'Crie atividades de associação de sombras com imagens e silhuetas temáticas. Gabarito automático, PDF 300 DPI. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie atividades de sombras para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de sombras — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Dois modos de correspondência num só gerador — Associação de Sombras cria siluetas negras geradas automaticamente a partir de qualquer imagem, Complete a Imagem divide as imagens em metades — ambos com algoritmo de derangement Fisher-Yates que garante zero correspondências triviais, gabaritos autogerados e 104 coleções de imagens temáticas.',
     description:
       'Crie atividades de associar sombras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz exercícios onde as crianças associam imagens coloridas às suas silhuetas correspondentes — desenvolvendo percepção visual, atenção aos detalhes e habilidades de discriminação de formas. Com mais de 3.000 ilustrações em 104 temas, você cria pacotes temáticos variados. Atividades de sombras são um formato visual universal que não depende de idioma — ampliando seu mercado para o mundo inteiro. Perfeito para kits de atividades na Hotmart e apostilas de habilidades visuais no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

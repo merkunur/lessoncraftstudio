@@ -16,12 +16,12 @@ const content: AppContent = {
       'gincana',
       'enigmas',
     ],
-    titleTag: 'Caça ao tesouro para imprimir | Gerador de pistas',
+    titleTag: 'Gerador caça ao tesouro | LessonCraftStudio',
     metaDescription: 'Crie atividades de caça ao tesouro e gincana com imagens temáticas. PDF imprimíveis. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {
-    title: 'Crie atividades de caça ao tesouro para vender na Hotmart e Etsy',
+    title: 'Gerador caça ao tesouro — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Gere puzzles direcionais de procura de caminho numa quadrícula de coordenadas 5×5 — dois vocabulários de direção (Básico: cima/baixo/esquerda/direita e Cardinal: norte/sul/leste/oeste), pistas direcionais completamente localizadas em 11 idiomas, gabarito autogerado com localização do tesouro realçada, e cabeçalhos temáticos de tesouro em 104 coleções de imagens.',
     description:
       'Crie atividades de caça ao tesouro para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz jogos de pistas visuais onde as crianças seguem um caminho de imagens temáticas para encontrar o tesouro — combinando atenção visual, contagem e diversão. Com mais de 3.000 ilustrações em 104 temas, você cria aventuras únicas para cada produto. Caça ao tesouro é um formato adorado por crianças e extremamente popular em festas infantis e atividades escolares. Perfeito para kits de jogos na Hotmart e livros de atividades no Amazon KDP. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

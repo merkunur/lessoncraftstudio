@@ -15,12 +15,12 @@ const content: AppContent = {
       'criatividade',
       'colorir',
     ],
-    titleTag: 'Atividades de desenho e colorir | Gerador de arte',
+    titleTag: 'Gerador de desenhar e colorir | LessonCraftStudio',
     metaDescription: 'Crie atividades de desenho guiado e colorir com imagens temáticas. PDF 300 DPI imprimíveis. Teste grátis — licença comercial incluída.',
   },
 
   hero: {
-    title: 'Crie atividades de desenho e pintura para vender na Hotmart e Etsy',
+    title: 'Gerador de desenhar e colorir — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Sistema de grelha dupla — grelha de prática e grelha de pistas lado a lado — com percentagem de pistas ajustável de 10 % a 75 %, modos de simetria horizontal e vertical, e mais de 100 coleções de contornos a preto e branco para atividades de desenho e colorir.',
     description:
       'Crie atividades de desenho e pintura para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz páginas de atividades artísticas onde as crianças desenham, pintam e completam cenas visuais usando imagens temáticas como inspiração. Com mais de 3.000 ilustrações em 104 temas e ferramentas de canvas livre, você cria atividades de arte únicas. Atividades de desenho e pintura são extremamente populares entre pais e professores — desenvolvem coordenação motora fina, criatividade e expressão artística. Perfeito para kits de arte na Hotmart e livros de atividades artísticas no Amazon KDP. Exporte PDFs a 300 DPI com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

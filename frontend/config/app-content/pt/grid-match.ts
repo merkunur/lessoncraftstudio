@@ -16,12 +16,12 @@ const content: AppContent = {
       'simetria',
       'orientação espacial',
     ],
-    titleTag: 'Desenho quadriculado para imprimir | Gerador de grade',
+    titleTag: 'Gerador de atividades em grade | LessonCraftStudio',
     metaDescription: 'Crie atividades de reprodução em grade com imagens temáticas. Gabarito automático, PDF imprimíveis. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie quebra-cabeças de associação em grade para vender na Hotmart',
+    title: 'Gerador de atividades em grade — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Transforme qualquer imagem num puzzle baseado em quadrícula — divida-a em peças, revele caselas-dica configuráveis, misture as peças restantes numa paleta numerada e gere automaticamente um gabarito com círculos numerados sobrepostos em 104 coleções de imagens temáticas.',
     description:
       'Crie atividades de associação em grade para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz quebra-cabeças onde as crianças associam imagens em uma grelha visual, desenvolvendo raciocínio lógico e atenção aos detalhes. Com mais de 3.000 ilustrações em 104 temas, você cria variações temáticas ilimitadas. Atividades de grade são um formato visualmente atraente que se destaca nas miniaturas de anúncios — compradores clicam mais em produtos com layout organizado e colorido. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Um formato exclusivo que diferencia seu catálogo da concorrência. Teste grátis com marca d\'água — sem cadastro.',

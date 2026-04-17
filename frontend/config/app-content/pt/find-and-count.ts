@@ -16,12 +16,12 @@ const content: AppContent = {
       'números',
       'educação infantil',
     ],
-    titleTag: 'Encontre e conte para imprimir | Gerador de contagem',
+    titleTag: 'Gerador procurar e contar | LessonCraftStudio',
     metaDescription: 'Crie atividades de "encontre e conte" onde as crianças procuram e contam imagens temáticas. Gabarito automático. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie atividades de procurar e contar para vender na Hotmart e Etsy',
+    title: 'Gerador procurar e contar — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Dois modos de atividade num só gerador — Objeto Escondido Eu Vejo e Identificação de Letras — com quatro tipos de tarefa combináveis (circular, quadrado, riscar, contar), alfabetos específicos por idioma com letras acentuadas, etiquetas de nomes de imagens localizadas em 11 idiomas e gabaritos autogerados com anotações visuais.',
     description:
       'Crie atividades de procurar e contar para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz cenas visuais com imagens temáticas espalhadas pela página — as crianças encontram e contam cada tipo de imagem, registrando os totais. Combina atenção visual com habilidades de contagem, perfeito para educação infantil e ensino fundamental. Com mais de 3.000 ilustrações em 104 temas, você cria variações temáticas ilimitadas. Um formato extremamente popular entre pais e professores: simples de entender, divertido de resolver e eficaz para aprender. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

@@ -17,12 +17,12 @@ const content: AppContent = {
       'sala de aula',
       'festa',
     ],
-    titleTag: 'Criar cartelas de bingo | Gerador com imagens',
+    titleTag: 'Gerador de cartelas de bingo | LessonCraftStudio',
     metaDescription: 'Crie cartelas de bingo com 3.000+ imagens temáticas. Cartelas únicas por jogo, PDF imprimíveis. Teste grátis — licença comercial.',
   },
 
   hero: {
-    title: 'Crie cartelas de bingo para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de cartelas de bingo — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Gere de 1 a 10 cartelas de bingo únicas por lote com grades configuráveis de 3×3 a 5×5 — preenchimento de imagens ou palavras para as células e as atividades circulares, uma folha de chamada dedicada para o chamador, exportação ZIP em lote de todas as cartelas, e 104 coleções de imagens temáticas.',
     description:
       'Crie cartelas de bingo com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz de 1 a 10 cartelas únicas por lote — cada uma com diferentes imagens em diferentes posições, essencial para que o bingo funcione como jogo. Grelhas configuráveis de 3×3 a 5×5, modo de preenchimento com imagens ou palavras, e exportação ZIP de todas as cartelas num único clique. Bingo educativo é um nicho de altíssima demanda: professores, pais e festas infantis precisam de cartelas constantemente. Com mais de 3.000 imagens em 104 temas e 11 idiomas, você cria jogos únicos para qualquer ocasião. Exporte PDFs a 300 DPI com folha de chamada e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

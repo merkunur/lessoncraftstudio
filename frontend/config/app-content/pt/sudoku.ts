@@ -19,12 +19,12 @@ const content: AppContent = {
       '4x4',
       '6x6',
     ],
-    titleTag: 'Sudoku para imprimir | Gerador com imagens',
+    titleTag: 'Gerador de sudokus | LessonCraftStudio',
     metaDescription: 'Crie sudoku com imagens ou números, dificuldade ajustável. Gabarito automático, PDF imprimíveis. Teste grátis — venda no Etsy e Amazon KDP.',
   },
 
   hero: {
-    title: 'Crie sudoku com imagens para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de sudokus — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Sudoku visual com imagens em vez de números — três níveis de dificuldade de 4 a 8 células vazias, gabaritos automáticos com quadrículas completas e seleção de imagens por tema em 104 coleções para puzzles vendíveis em todo o mundo sem tradução.',
     description:
       'Crie sudoku com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz puzzles de sudoku onde os números são substituídos por imagens temáticas — tornando o jogo acessível para crianças que ainda não dominam números. Com mais de 3.000 ilustrações em 104 temas, você cria livros inteiros de sudoku visual. Livros de sudoku são um dos nichos MAIS lucrativos no Amazon KDP, e a versão com imagens para crianças tem competição mínima em português. Perfeito para livros de raciocínio lógico no KDP e kits de jogos educativos na Hotmart. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

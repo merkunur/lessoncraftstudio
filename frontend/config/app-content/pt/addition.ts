@@ -18,12 +18,12 @@ const content: AppContent = {
       'resultado',
       'gabarito',
     ],
-    titleTag: 'Atividades de adição para imprimir | Gerador com gabarito',
+    titleTag: 'Gerador de atividades de adição | LessonCraftStudio',
     metaDescription: 'Crie atividades de adição com imagens temáticas em segundos. Gabarito automático, PDF 300 DPI, 11 idiomas. Teste grátis — licença comercial para Etsy e KDP.',
   },
 
   hero: {
-    title: 'Crie e venda atividades de adição profissionais na Hotmart, Etsy e KDP',
+    title: 'Gerador de atividades de adição — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Transforme a adição numa aventura prática com atividades de matemática baseadas em imagens.',
     description:
       'Crie atividades de adição para vender na Hotmart, Kiwify, Etsy ou Amazon KDP — e gere cada uma em menos de 3 minutos. Este gerador cria exercícios de soma com imagens temáticas de mais de 3.000 ilustrações que encantam as crianças e convencem pais e professores a comprar. Exporte PDFs prontos para impressão em 300 DPI com gabarito automático e venda com a licença comercial inclusa — sem necessidade de atribuição. O mercado brasileiro de atividades educativas para imprimir é gigante: mais de 215 milhões de pessoas buscam materiais em português, e a cultura de "renda extra" no Brasil faz do mercado de infoprodutos educativos uma das maiores oportunidades para empreendedores digitais. Na Hotmart, kits de atividades já vendem milhares de cópias — e com este gerador, você cria produtos profissionais sem precisar de nenhum conhecimento de design. Teste grátis com marca d\'água — sem cadastro.',

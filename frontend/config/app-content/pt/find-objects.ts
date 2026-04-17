@@ -16,12 +16,12 @@ const content: AppContent = {
       'encontrar',
       'procurar',
     ],
-    titleTag: 'Encontre os objetos para imprimir | Gerador de observação',
+    titleTag: 'Gerador procurar e achar | LessonCraftStudio',
     metaDescription: 'Crie atividades de "encontre os objetos" com imagens temáticas. Gabarito automático, PDF 300 DPI. Teste grátis — venda no Etsy e KDP.',
   },
 
   hero: {
-    title: 'Crie atividades de ache e encontre para vender na Hotmart e Etsy',
+    title: 'Gerador procurar e achar — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Dois modos de atividade num só gerador — cenas Eu Vejo com posicionamento sem sobreposição e imagens dispersas e atividades Encontra o Diferente com imagens emparelhadas — com gabaritos autogerados, tamanho de imagem adaptativo, campos de nome e data, e legenda que mostra os objetos a encontrar.',
     description:
       'Crie atividades de ache e encontre com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz cenas visuais repletas de imagens temáticas onde as crianças procuram objetos específicos — desenvolvendo atenção visual, concentração e vocabulário. Com mais de 3.000 ilustrações em 104 temas, você cria cenas únicas para cada produto. Atividades de objetos escondidos são extremamente populares: funcionam para todas as idades e não dependem de idioma, ampliando seu mercado globalmente. Perfeito para livros de passatempos no Amazon KDP e kits de atividades na Hotmart. Exporte PDFs a 300 DPI com licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

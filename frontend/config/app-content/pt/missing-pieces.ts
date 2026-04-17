@@ -15,12 +15,12 @@ const content: AppContent = {
       'observar',
       'raciocínio visual',
     ],
-    titleTag: 'Quebra-cabeça peças faltando | Gerador de lógica',
+    titleTag: 'Gerador de peças faltantes | LessonCraftStudio',
     metaDescription: 'Crie atividades de "peças faltando" com imagens temáticas e gabarito automático. PDF 300 DPI imprimíveis. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie quebra-cabeças de peças faltantes para vender na Hotmart e KDP',
+    title: 'Gerador de peças faltantes — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Gere quebra-cabeças estilo puzzle onde se recortam peças de imagens e os usuários identificam a opção numerada correta — com 6 formas de peça, 1–5 peças faltantes, 2–6 opções de solução com peças distratoras, gabaritos automáticos e design puramente visual que funciona em qualquer idioma.',
     description:
       'Crie quebra-cabeças de peças faltantes para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz puzzles visuais onde uma parte da imagem é removida e as crianças devem identificar a peça correta entre várias opções — desenvolvendo atenção visual, raciocínio lógico e habilidades de observação. Com mais de 3.000 ilustrações em 104 temas, você cria variações temáticas ilimitadas. Quebra-cabeças de peças faltantes são perfeitos para apostilas no Amazon KDP e kits de atividades na Hotmart — formato visual que funciona sem texto, ideal para qualquer idioma. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

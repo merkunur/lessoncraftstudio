@@ -16,12 +16,12 @@ const content: AppContent = {
       'vocabulário',
       'dicas',
     ],
-    titleTag: 'Jogo da forca para imprimir | Gerador de atividades',
+    titleTag: 'Gerador de jogo da forca | LessonCraftStudio',
     metaDescription: 'Crie atividades de jogo da forca com vocabulário temático e imagens. Gabarito automático, PDF imprimíveis. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie jogos de adivinhar palavras para vender na Hotmart e Etsy',
+    title: 'Gerador de jogo da forca — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'A dedução estilo forca encontra pistas visuais — quatro níveis de dificuldade transformam cada palavra num puzzle gratificante.',
     description:
       'Crie jogos de adivinhar palavras com pistas visuais para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz atividades no estilo forca onde os usuários veem imagens e devem adivinhar a palavra correspondente, preenchendo as letras em caselas. Com mais de 3.000 imagens em 104 temas e 11 idiomas com caracteres nativos, você cria jogos de vocabulário que engajam crianças de todas as idades. Perfeito para kits de alfabetização na Hotmart e livros de atividades no Amazon KDP. Cada atividade vem com gabarito automático e exportação em PDF 300 DPI. Licença comercial inclusa — venda sem restrições. Teste grátis com marca d\'água — sem cadastro.',

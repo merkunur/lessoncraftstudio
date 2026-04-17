@@ -17,12 +17,12 @@ const content: AppContent = {
       'vocabulário',
       'alfabetização',
     ],
-    titleTag: 'Letras embaralhadas para imprimir | Gerador de anagramas',
+    titleTag: 'Gerador de letras embaralhadas | LessonCraftStudio',
     metaDescription: 'Crie atividades de letras embaralhadas com imagens temáticas. Gabarito automático, PDF imprimíveis. Teste grátis — licença comercial incluída.',
   },
 
   hero: {
-    title: 'Crie atividades de embaralha palavras para vender na Hotmart e Etsy',
+    title: 'Gerador de letras embaralhadas — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Peças de letras embaralhadas encontram pistas de imagem — quatro níveis de dificuldade e um código de cores vogais-consoantes transformam cada palavra num puzzle de ortografia prático.',
     description:
       'Crie atividades de embaralha palavras para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador embaralha letras de palavras e usa imagens como pistas visuais — os usuários olham a imagem, identificam o que é e reorganizam as letras para formar a palavra correta. Com mais de 3.000 imagens em 104 temas e 11 idiomas com caracteres nativos, você cria jogos de vocabulário que funcionam para qualquer idade. Atividades de embaralha palavras são ótimas para apostilas de alfabetização e livros de passatempos no Amazon KDP. Cada atividade vem com gabarito automático e exportação em PDF 300 DPI. Licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

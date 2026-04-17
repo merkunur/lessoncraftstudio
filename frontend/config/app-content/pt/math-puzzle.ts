@@ -16,12 +16,12 @@ const content: AppContent = {
       'lógica',
       'raciocínio',
     ],
-    titleTag: 'Desafios de matemática para imprimir | Gerador de puzzles',
+    titleTag: 'Gerador de enigmas matemáticos | LessonCraftStudio',
     metaDescription: 'Crie puzzles matemáticos com imagens onde as crianças resolvem contas para associar figuras. Gabarito incluído. Teste grátis.',
   },
 
   hero: {
-    title: 'Crie quebra-cabeças de matemática para vender na Hotmart e Etsy',
+    title: 'Gerador de enigmas matemáticos — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Combine a prática matemática com a emoção de resolver puzzles — cada peça contém um problema, cada solução revela a imagem.',
     description:
       'Crie quebra-cabeças de matemática com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz puzzles onde cada imagem representa um valor numérico oculto — os usuários resolvem equações para descobrir os números, depois montam a imagem completa combinando as respostas numa grade. Combina raciocínio lógico com fluência matemática, criando atividades que se destacam nos marketplaces. Escolha entre mais de 3.000 imagens em 104 temas, configure intervalos numéricos e exporte PDFs prontos para impressão a 300 DPI com gabarito automático. A licença comercial inclusa permite vender sem atribuição. Quebra-cabeças são um nicho de alta demanda com baixa competição em português. Teste grátis com marca d\'água — sem cadastro.',

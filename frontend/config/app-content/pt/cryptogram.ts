@@ -16,12 +16,12 @@ const content: AppContent = {
       'substituição',
       'secreto',
     ],
-    titleTag: 'Mensagens secretas para imprimir | Gerador de criptogramas',
+    titleTag: 'Gerador de criptogramas | LessonCraftStudio',
     metaDescription: 'Crie criptogramas e mensagens secretas com imagens temáticas e gabarito automático. PDF 300 DPI, 11 idiomas. Teste grátis — licença comercial.',
   },
 
   hero: {
-    title: 'Crie criptogramas para vender na Hotmart, Etsy e KDP',
+    title: 'Gerador de criptogramas — Crie imprimíveis para vender na Hotmart, Etsy e KDP',
     tagline: 'Associe cada letra do alfabeto a uma imagem e codifique frases inteiras em puzzles visuais cifrados — dificuldade ajustável desde zero pistas até altamente orientado com Letras a Revelar.',
     description:
       'Crie criptogramas com imagens para vender na Hotmart, Kiwify, Etsy ou Amazon KDP. Este gerador produz puzzles de substituição de letras onde cada símbolo visual representa uma letra do alfabeto — os usuários decifram o código para revelar palavras. Com mais de 3.000 imagens em 104 temas e suporte a 11 alfabetos nativos incluindo português, você cria produtos exclusivos que nenhum concorrente oferece. Criptogramas são um nicho de alta margem: adultos e crianças adoram desafios de decifração, e a competição em português é mínima. Exporte PDFs a 300 DPI com gabarito automático e licença comercial inclusa. Teste grátis com marca d\'água — sem cadastro.',

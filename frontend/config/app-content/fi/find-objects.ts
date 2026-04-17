@@ -16,12 +16,12 @@ const content: AppContent = {
       'alakoulu',
       'vastaukset',
     ],
-    titleTag: 'Etsi ja merkitse tehtävä tulostaa | Havainnointigeneraattori',
+    titleTag: 'Etsintäpelien kone | LessonCraftStudio',
     metaDescription: 'Luo etsi-ja-merkitse tehtäviä teemakuvilla. Automaattiset vastaukset, 300 DPI PDF. Kokeile ilmaiseksi — myy Etsyssä & KDP:ssä.',
   },
 
   hero: {
-    title: 'Luo Etsi ja Löydä -tulosteita myytäväksi Etsyssä ja Amazon KDP:ssä',
+    title: 'Etsintäpelien kone — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Kaksi aktiviteettitilaa yhdessä generaattorissa — Etsi ja Löydä -piiloesinekohtaukset päällekkäisyyttä välttävällä sijoittelulla ja Kumpi Ei Kuulu -paririvit — automaattisilla vastausavaimilla, mukautuvalla kuvakoolla, nimi- ja päivämääräkentillä sekä legendalla, joka näyttää etsittävät esineet.',
     description:
       'Etsi ja Löydä- ja piiloesineiden työlehdet ovat kasvava niche Etsyssä ja Amazon KDP:ssä — vanhemmat rakastavat niitä ruutuvapaan viihteen vuoksi ja myyjät rakastavat uusintaostoprosentteja. Tämä tulosteiden tekijä luo ammattimaisia Etsi ja Löydä -kohtauksia päällekkäisyyttä välttävällä sijoittelualgoritmilla, joka hajauttaa esineet luonnollisesti, plus Kumpi Ei Kuulu -tilan vaihteluun. Valitse yli 3 000 temaattisesta kuvituksesta 104 kokoelmasta. Jokainen työlehti luo automaattisen vastausavaimen punaisilla ympyrämerkinnöillä, viedään 300 DPI:n tulostusvalmiina PDF:nä ja sisältää kaupallisen lisenssin. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',

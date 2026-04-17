@@ -16,12 +16,12 @@ const content: AppContent = {
       'jäljentää',
       'vastaukset',
     ],
-    titleTag: 'Kirjoitusmotoriikka viivat tulostaa | Jäljentämisgeneraattori',
+    titleTag: 'Kirjoitusmotoriikkakone | LessonCraftStudio',
     metaDescription: 'Luo jäljentämis- ja kirjoitusmotoriikan tehtäviä teemakuvilla. 300 DPI PDF tulostettavat. Kokeile ilmaiseksi — kaupallinen lisenssi.',
   },
 
   hero: {
-    title: 'Luo Viivanjäljennystyöarkkeja Myyntiin Etsyssä ja Amazon KDP:ssä',
+    title: 'Kirjoitusmotoriikkakone — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Kahdeksan SVG-viivamallia — kaaret, diagonaalit, vaakasuorat ja pystysuorat — 4–5 kuvaparia per sivu hienomotoristen taitojen kehittämiseen ohjatun viivanjäljennyksen kautta.',
     description:
       'Viivanjäljennystyöarkit kuuluvat valtavaan esikirjoituksen ja hienomotoristen taitojen nicheen Etsyssä — vanhemmat ja terapeutit ostavat niitä taaperoille ja esikouluikäisille ympäri vuoden. Tämä generaattori luo ammattimaisia viivanjäljennysharjoituksia, joissa käyttäjät piirtävät ohjattujen polkujen mukaan yhdistääkseen vastaavat kuvaparit. Kahdeksan SVG-pohjaista mallia kattaa kaaret, diagonaalit, vaakasuorat ja pystysuorat viivat 4–5 temaattisella kuvaparilla per sivu. Valitse yli 3 000 kuvitusta 104 temaattisesta kokoelmasta. Jokainen työarkki on puhtaasti visuaalinen nollatekstillä, mikä tekee niistä universaalisti myytäviä maailmanlaajuisesti. Vie 300 DPI tulostusvalmiita PDF-tiedostoja täydellä kaupallisella lisenssillä. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',

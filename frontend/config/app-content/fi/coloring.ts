@@ -16,12 +16,12 @@ const content: AppContent = {
       'lapset',
       'PDF',
     ],
-    titleTag: 'Luo värityskuvia tulostaa | Väritysgeneraattori',
+    titleTag: 'Värityskuvageneraattori | LessonCraftStudio',
     metaDescription: 'Luo värityskuvia 3 000+ teemakuvasta. Korkearesoluutioiset ääriviivat, tulostettavat PDF:t. Kokeile ilmaiseksi — myy Etsyssä & Amazon KDP:ssä.',
   },
 
   hero: {
-    title: 'Luo Värityssivuja Myyntiin Etsyssä ja Amazon KDP:ssä',
+    title: 'Värityskuvageneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Vapaamuotoinen kangasvärityssivujen suunnittelutyökalu — selaa 104 temaattista kuvakokoelmaa, lisää vapaapiirroksia, sisällytä asetteluapureita kuten nimikenttä ja käsinkirjoitusviivat, ja vaihda harmaasävyvienti musteystävällisiin värityssivuihin.',
     description:
       'Värityssivut ovat yksittäinen korkean kysynnän tulostettava kategoria Etsyssä ja yksi johtavista KDP-nicheistä — ja tämä generaattori antaa sinun luoda ammattimaisia värityssivuja myyntiin ilman piirustustaitoja. Muunna temaattiset kuvat puhtaiksi ääriviivoiksi valmiina värittämiseen, valitse yli 3 000 kuvitusta 104 kokoelmasta ja vie 300 DPI tulostusvalmiita PDF-tiedostoja täydellä kaupallisella lisenssillä. 104 teemakokoelmaa kattavat eläimet, juhlapyhät, ajoneuvot, ruoan, luonnon ja kymmeniä muita — antaen sinulle loputtoman tuotevalikoiman ympärivuotiseen myyntiin. Jokainen värityssivu toimii maailmanlaajuisesti ilman käännöstä. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',

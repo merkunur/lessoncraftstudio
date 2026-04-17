@@ -16,12 +16,12 @@ const content: AppContent = {
       'kaavio',
       'vastaukset',
     ],
-    titleTag: 'Laskemistehtäviä ja kaavioita tulostaa | Generaattori',
+    titleTag: 'Laskutaulukkogeneraattori | LessonCraftStudio',
     metaDescription: 'Luo laskemis- ja kaaviotehtäviä teemakuvilla. Automaattiset vastaukset, tulostettavat PDF:t. Kokeile ilmaiseksi.',
   },
 
   hero: {
-    title: 'Luo Laskenta- ja Kaaviotyöarkkeja Myyntiin Etsyssä ja KDP:ssä',
+    title: 'Laskutaulukkogeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Kaksoiskangas-kuvagraafigeneraattori — luo hajautetut kuvaruudukot 6 kuvatyypillä, automaattitäyttöiset palkkikaaviovastauslehdet, lokalisoidut otsikot 11 kielellä ja 104 temaattista kuvakokoelmaa data-esityksen työarkkeihin.',
     description:
       'Kaaviointi- ja datatyöarkit ovat alikäytetty niche Etsyssä — useimmat myyjät keskittyvät perusmatematiikkaan, jättäen kuvakaaviolaskenta-tulostettavat matalan kilpailun mahdollisuudeksi. Tämä generaattori luo kuvagraafi- ja laskentatyöarkkeja temaattisilla kuvilla, joissa käyttäjät laskevat, merkitsevät ja vertaavat dataa visuaalisesti. Vie 300 DPI tulostusvalmiita PDF-tiedostoja automaattisilla vastauslehdillä ja myy ne Etsyssä, kokoa ne Amazon KDP:n datatyökirjoiksi tai listaa Gumroadissa. Kaupallinen lisenssi kattaa kaikki alustat nolla rajoituksin. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',

@@ -16,12 +16,12 @@ const content: AppContent = {
       'esiopetus',
       'vastaukset',
     ],
-    titleTag: 'Ruutupiirros tehtävä tulostaa | Ruudukkopiirrosgeneraattori',
+    titleTag: 'Ruudukkotehtäväkone | LessonCraftStudio',
     metaDescription: 'Luo ruutupiirrostehtäviä teemakuvilla. Automaattiset vastaukset, tulostettavat PDF:t. Kokeile ilmaiseksi.',
   },
 
   hero: {
-    title: 'Luo Ruudukkoyhdistämispulmia Myyntiin Etsyssä ja Amazon KDP:ssä',
+    title: 'Ruudukkotehtäväkone — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Muunna mikä tahansa kuva ruudukkoperusteiseksi kuvapulmaksi — jaa se ruuduiksi, paljasta konfiguroitavat vihjesolut, sekoita jäljelle jääneet ruudut numeroiduksi paletiksi ja generoi automaattisesti vastauslehti numeroiduilla ympyräpäällysteillä 104 temaattisesta kuvakokoelmasta.',
     description:
       'Ruudukkoyhdistämispulmat tarjoavat ainutlaatuisen visuaalisen muodon, joka erottuu standardeista työarkeista Etsyssä — ratkojat yhdistävät numeroidut ruudut takaisin oikeisiin paikkoihinsa jaetussa kuvaruudukossa, yhdistäen spatiaalisen päättelyn havainnointitaitoihin. Tämä generaattori luo ammattimaisia ruudukkoyhdistämispulmia tulostettavaan liiketoimintaasi konfiguroitavilla ruudukoilla 2×2:sta 4×4:ään, säädettävillä vihjesoluilla vaikeuden hallintaan ja automaattisilla vastauslehdillä numeroiduilla päällysteillä. Valitse yli 3 000 kuvitusta 104 kokoelmasta ja vie 300 DPI tulostusvalmiita PDF-tiedostoja täydellä kaupallisella lisenssillä. Puhtaasti visuaalinen muoto tarkoittaa, että jokainen pulma toimii maailmanlaajuisesti ilman käännöstä. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',

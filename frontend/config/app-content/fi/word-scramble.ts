@@ -16,12 +16,12 @@ const content: AppContent = {
       'vastaukset',
       'alakoulu',
     ],
-    titleTag: 'Sekoitetut kirjaimet tulostaa | Anagrammi-generaattori',
+    titleTag: 'Sekoitettujen kirjainten kone | LessonCraftStudio',
     metaDescription: 'Luo tehtäviä sekoitetuilla kirjaimilla ja teemakuvilla. Automaattiset vastaukset, tulostettavat PDF:t. Kokeile ilmaiseksi.',
   },
 
   hero: {
-    title: 'Kirjainsekoitus Tyoarkkien Generaattori Kirjainjärjestely- ja Oikeinkirjoituspulmiin',
+    title: 'Sekoitettujen kirjainten kone — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Sekoitetut kirjainlaatat kohtaavat kuvavihjeet — nelja vaikeustasoa ja vokaali-konsonantti-värikoodaus muuttavat jokaisen sanan kaytannolliseksi oikeinkirjoituspulmaksi.',
     description:
       'Suunnittele ammattimaisia kirjainsekoitus tyoarkkeja, joissa kayttajat nakevat kuvavihjeen ja järjestavat sekoitettuja kirjainlaattoja tavaamaan oikean sanan — kirjainjärjestelypulma, joka rakentaa oikeinkirjoitustarkkuutta, sanantunnistusta ja fonologista tietoisuutta samanaikaisesti. Valitse kolmesta sisaltolahteesta: sisäänrakennettu kuvakirjasto, Manuaalinen Muokkaustila tai Oma Sanalista enintaan 8 omalla sanalla. Nelja vaikeustasoa hallitsevat kuinka monta kirjainta on jo oikeassa paikassa. Vokaali-konsonantti-värikoodaus on ainutlaatuinen Kirjainsekoitukselle: ota kayttoon värilliset laatat, joissa vokaalit nakyyvat yhdessa varissa ja konsonantit toisessa. Aseta 1–10 pulmaa tyoarkkia kohti ja vaihda isojen ja pienten kirjainten valilla. Taysi Paasy avaa kaikki 11 tuettua kieltä. Jokainen tyoarkki luo automaattisen vastausavaimen. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',

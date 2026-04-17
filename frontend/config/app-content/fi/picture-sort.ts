@@ -16,12 +16,12 @@ const content: AppContent = {
       'esiopetus',
       'vastaukset',
     ],
-    titleTag: 'Lajittelutehtävä tulostaa | Luokittelugeneraattori',
+    titleTag: 'Lajittelugeneraattori | LessonCraftStudio',
     metaDescription: 'Luo lajittelu- ja luokittelutehtäviä teemakuvilla. Automaattiset vastaukset, tulostettavat PDF:t. Kokeile ilmaiseksi.',
   },
 
   hero: {
-    title: 'Kuvalajittelu-työlehtigeneraattori kahden kategorian lajittelutoimintoihin',
+    title: 'Lajittelugeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Kahden kategorian lajittelu tehokkaassa generaattorissa — teemapohjainen tai manuaalinen kuvavalinta — automaattisilla vastausavaimilla, 4–12 säädettävällä kuvalla, lokalisoidulla "Lajittele kuvat" -otsikolla 11 kielellä ja 104 temaattisella kuvakokoelmalla.',
     description:
       'Rakenna ammattimaisia lajittelutyölehtia, joissa käyttäjät luokittelevat kuvia kahteen kategoriaan lajittelemalla leikattuja kuvia oikeaan vasempaan tai oikeaan ryhmään. Valitse teematila täyttääksesi kategoriat automaattisesti kuvakirjastosta — valitse vasen teema ja oikea teema, ja sovellus hakee 4–6 satunnaista kuvaa per teema — tai vaihda manuaalitilaan käsinvalitaksesi yksittäisiä kuvia ja määrätäksesi jokaisen kategoriaan. Jokaisella työlehdellä on kaksi katkoviivakehyksellistä kategoriaraamia yläosassa lajittelukohteina ja sekoitettu leikkausruudukko alhaalla sekoitetuilla kuvilla valmiina leikattaviksi ja lajiteltaviksi. Kaksoiskangasjärjestelmä luo sekä työlehti-välilehden että vastausavain-välilehden 6× suuremmilla kuvilla kategorialaatikoissa. Kuvalajittelu-generaattori on kieliriippuvainen: kategoriatunnisteet käyttävät lokalisoituja kuvanimiä, joten kielen vaihto muuttaa työlehden tekstin. Täysi pääsy avaa kaikki 104 teemaa yli 3 100 kuvituksella ja kaikki 11 käyttöliittymäkieltä. Lisää taustateemoja ja kehysteemoja, sisällytä nimi- ja päivämääräkentät ja vie tulostusvalmiita PDF-tiedostoja ja JPEG-kuvia 300 DPI:llä. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',

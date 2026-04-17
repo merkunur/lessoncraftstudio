@@ -16,12 +16,12 @@ const content: AppContent = {
       'lapset',
       'PDF',
     ],
-    titleTag: 'Aarteenetsintä tulostaa | Rastirata-generaattori',
+    titleTag: 'Aarteenetsintägeneraattori | LessonCraftStudio',
     metaDescription: 'Luo aarteenetsintä- ja rastiratatehtäviä teemakuvilla. Tulostettavat PDF:t. Kokeile ilmaiseksi — myy Etsyssä & KDP:ssä.',
   },
 
   hero: {
-    title: 'Luo aarteenetsintä-työlehtia myytäväksi Etsyssä ja Amazon KDP:ssä',
+    title: 'Aarteenetsintägeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Luo suuntapolunetsintä-palapeleja 5×5-koordinaattiruudukossa — kaksi suuntasanastoa (Perus: ylös/alas/vasen/oikea ja Ilmansuunnat: pohjoinen/etelä/itä/länsi), täysin lokalisoidut suuntavihjeet 11 kielellä, automaattisesti luotu vastausavain korostetulla aarteenpaikalla ja aarre-aiheiset otsikot 104 kuvakokoelmalla.',
     description:
       'Aarteenetsintä-työlehdet yhdistävät seikkailun jännityksen suuntataitoihin — uniikki tulostettava muoto, joka erottuu Etsyssä ja tekee mukaansatempaavia Amazon KDP -aktiviteettikirjoja. Tämä generaattori luo ammattimaisia polunetsintä-palapeleja koordinaattiruudukossa, jossa ratkaisijat seuraavat suuntavihjeitä löytääkseen piilotetun aarteen temaattisten kuvamaamerkkien joukosta. Valitse Perus (ylös/alas/vasen/oikea) tai Ilmansuunnat (pohjoinen/etelä/itä/länsi), valitse yli 3 000 temaattisesta kuvituksesta 104 kokoelmasta ja vie 300 DPI:n tulostusvalmiita PDF-tiedostoja automaattisilla vastausavaimilla. 11 kielen tuki kääntää kaikki suuntavihjeet, luoden erillisiä tuotteita per kieli. Jokainen työlehti sisältää kaupallisen lisenssin. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',

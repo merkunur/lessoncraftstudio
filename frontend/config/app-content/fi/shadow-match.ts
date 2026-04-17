@@ -16,12 +16,12 @@ const content: AppContent = {
       'esiopetus',
       'vastaukset',
     ],
-    titleTag: 'Varjoleikki tehtävä tulostaa | Siluettiyhdistämisgeneraattori',
+    titleTag: 'Varjotehtäväkone | LessonCraftStudio',
     metaDescription: 'Luo varjoleikkitehtäviä kuvilla ja silueteilla. Automaattiset vastaukset, 300 DPI PDF. Kokeile ilmaiseksi.',
   },
 
   hero: {
-    title: 'Varjoyhdistely-työlehtigeneraattori siluetti- ja jaettu kuva -yhdistelytoimintoihin',
+    title: 'Varjotehtäväkone — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Kaksi yhdistelytilaa yhdessä generaattorissa — Varjoyhdistely luo automaattisesti mustia siluetteja mistä tahansa kuvasta, Tee Kokonaiseksi jakaa kuvat puolikkaisiin — molemmat Fisher-Yates-sekoituksella, joka takaa ettei triviaaleja osumia synny, automaattisesti luodut vastausavaimet ja 104 temaattista kuvakokoelmaa.',
     description:
       'Rakenna ammattimaisia varjoyhdistely-työlehtia, joissa käyttäjät yhdistävät värilliset kuvat niiden siluetteihin tai yhdistävät jaetut kuvapuolikkaat. Varjoyhdistely-tila asettaa 4 värillistä kuvaa merkittyinä A, B, C, D yläriville ja 4 automaattisesti luotua mustaa siluettia merkittyinä 1, 2, 3, 4 alariville — siluetit luodaan pikselitason kuvankäsittelyllä, joka muuntaa jokaisen pikselin alfa-arvolla > 10 puhtaan mustaksi, tuottaen tarkat ääriviivat, jotka säilyttävät jokaisen kuvan läpinäkyvyysprofiilin. Tee Kokonaiseksi -tila jakaa kuvat puolikkaisiin vaaka- tai pystysuuntaisella leikkaussuunnalla, merkitsee ensimmäiset puolikkaat A–D ja toiset puolikkaat 1–4 sekä mukauttaa asettelun suunnan mukaan. Molemmat tilat käyttävät Fisher-Yates-sekoitusta takaamaan, ettei mikään kohde näy alkuperäisellä paikallaan, mikä tuottaa aidon yhdistelyhaaasteen joka kerta. Vaihda tunnisteiden näkyvyyttä A/B/C/D- ja 1/2/3/4-merkinnöille, lisää valinnaiset nimi- ja päivämääräkentät tuotelinjakäyttöön ja luo automaattiset vastausavaimet, jotka näyttävät jokaisen oikean kirjain-numero-parin. Varjoyhdistely-työlehtigeneraattori EI ole kieliriippuvainen: tulos on puhtaasti visuaalinen ilman lokalisoitua sanasisältöä itse työlehdellä. Sama varjoyhdistely-työlehti toimii identtisesti kaikilla markkinoilla ilman käännöstä. Täysi pääsy avaa kaikki 104 teemaa yli 3 100 kuvituksella ja kaikki 11 käyttöliittymäkieltä. Lisää taustateemoja ja kehysteemoja itsenäisillä läpinäkyvyyden säätimillä, sisällytä mukautettua tekstiä seitsemällä fonttivaihtoehdolla ja vie tulostusvalmiita PDF-tiedostoja ja JPEG-kuvia 300 DPI:n tarkkuudella Letter-, A4-, neliö- (1200×1200) tai mukautetuissa ko\'oissa. Olitpa myymässä varjopalapelipaketteja Etsyssä, kokoamassa visuaalisen hahmottamisen työkirjoja Amazon KDP:lle tai luomassa pikatoimintoja Gumroadiin — tämä generaattori tuottaa tuotantovalmiin tuloksen minuuteissa. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',

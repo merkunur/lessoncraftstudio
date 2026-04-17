@@ -16,12 +16,12 @@ const content: AppContent = {
       'pystysuora',
       'vastaukset',
     ],
-    titleTag: 'Sanaristikko-generaattori | Luo kuvilla ja vastauksilla',
+    titleTag: 'Sanaristikkogeneraattori | LessonCraftStudio',
     metaDescription: 'Luo sanaristikoita kuvavihjein 15×15-ruudukossa. 4 syöttötapaa, 104 teemaa, automaattiset vastaukset. Kokeile ilmaiseksi — kaupallinen lisenssi.',
   },
 
   hero: {
-    title: 'Luo ristikko-palapeleja myytäväksi Etsyssä, KDP:ssä ja TPT:ssä',
+    title: 'Sanaristikkogeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Korvaa perinteiset tekstivihjeet kuvavihjei llä 15×15-ristikkoruudukossa — neljä syöttötapaa (teeman automaattivalinta, manuaalinen kuvanimieditointi, mukautettu sanalista ja kuvien lataus), automaattisesti luotu vastausavain täytetyllä ruudukolla ja lokalisoitu "Kuvaristikko" -otsikko 104 temaattisessa kuvakokoelmassa.',
     description:
       'Kuvaristikko-palapelit erottuvat jokaisesta muusta tulostettavasta muodosta Etsyssä — värilliset kuvavihjeei korvaavat tylsät tekstimääritelmät, tehden ilmoituksistasi visuaalisesti erottuvia ja vastustamattomia ostajille. Tämä ristikko-palapeelin tekijä luo ammattimaisia ristikkoruudukoita temaattisilla kuvilla vihjeeinä, automaattisilla vastausavaimilla ja 300 DPI:n tulostusvalmiilla vienneillä — kaikki alle 3 minuutissa. Valitse yli 3 000 kuvituksesta 104 teemasta tai lataa omia kuvia. Sisäänrakennettu 11 kielen tuki tuottaa aidosti eri ristikkosanoja per kieli, joten yksi työkalu luo tuotteita englannin, saksan, ranskan, espanjan ja seitsemän muun markkinan tarpeisiin. Jokainen luomasi ristikko sisältää täyden kaupallisen lisenssin. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',

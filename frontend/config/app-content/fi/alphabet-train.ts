@@ -17,12 +17,12 @@ const content: AppContent = {
       'esiopetus',
       '1. luokka',
     ],
-    titleTag: 'Aakkostehtäviä tulostaa | ABC-harjoitusgeneraattori',
+    titleTag: 'Aakkostehtäväkone | LessonCraftStudio',
     metaDescription: 'Luo aakkostehtäviä teemakuvilla kirjaintunnistusta varten. Automaattiset vastaukset, 11 kieltä. Kokeile ilmaiseksi.',
   },
 
   hero: {
-    title: 'Aakkosjuna Tyoarkkien Generaattori Kirjaintunnistukseen',
+    title: 'Aakkostehtäväkone — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Jokainen vaunu kantaa kirjaimen ja vastaavan kuvan — rakenna kirjaintunnistusta vaunu vaunulta.',
     description:
       'Suunnittele silmiinpistavia aakkosjuna tyoarkkeja, joissa 11 varikaasta junavaunua kulkee sivun poikki, jokainen kirjaimella yhdistettynä vastaavaan kuvitukseen. Valitse Automaattinen Luonti -tila välittömiin satunnaisiin kirjainvalintoihin tai Manuaalinen tila valitaksesi tarkalleen 11 kirjainta aakkostosta kohdennettuun harjoitteluun. Lisaa 3–11 saadettavaa vihjettä tyoarkkia kohti — kuvavihjeet, jotka kayttajat yhdistävat oikeaan kirjainvaunuun — muuttaen passiivisen kirjaintunnistuksen aktiiviseksi ongelmanratkaisuharjoitukseksi. Selaa yli 3 100 kuvitusta 104 teemassa. Taysi Paasy avaa kaikki 11 tuettua kieltä omine aakkostoineen — suomi ä/ö:llä, saksa Ä/Ö/Ü:llä, tanska Æ/Ø/Å:llä ja lisaa — moninkertaistaen tuotekatalogisi yhdestatoista kertaa yhdesta työnkulusta. Jokainen tyoarkki luo automaattisen vastausavaimen. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na Letter-, A4- tai Neliömuodossa. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',

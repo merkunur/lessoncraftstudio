@@ -16,12 +16,12 @@ const content: AppContent = {
       'tulostettava',
       'PDF',
     ],
-    titleTag: 'Luo bingolautoja | Kuvabingogeneraattori',
+    titleTag: 'Bingokorttigeneraattori | LessonCraftStudio',
     metaDescription: 'Luo bingolautoja 3 000+ teemakuvalla. Uniikit laudat per setti, tulostettavat PDF:t. Kokeile ilmaiseksi — kaupallinen lisenssi.',
   },
 
   hero: {
-    title: 'Kuvabingo-korttien generaattori tulostettaviin bingoaktiviteetteihin',
+    title: 'Bingokorttigeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Luo 1–10 uniikkia bingokorttia per erä säädettävillä ruudukoilla 3×3:sta 5×5:een — kuva- tai sanatäyttö sekä korttisoluille että pyöreille pelimerkeille, erillinen huutolista pelinjohtajalle, ZIP-erävienti kaikista korteista ja 104 temaattista kuvakokoelmaa.',
     description:
       'Rakenna ammattimaisia kuvabingokortteja, joissa pelaajat merkitsevät vastaavia kuvia tai sanoja uniikkeihin kortteihinsa. Säädä rivit 3:sta 5:een ja sarakkeet 3:sta 5:een itsenäisesti, mikä tuottaa ruudukoita 3×3:sta (9 solua) 5×5:een (25 solua) oletusarvolla 4×4 (16 solua). Valitse kuvatäyttö tai sanatäyttö itsenäisesti sekä korttisoluille että pyöreille pelimerkeille — pelimerkeillä on katkoviivareunat ja Fisher-Yates-sekoitusjärjestys aitoa bingopeliä varten. Luo 1–10 uniikkia bingokorttia per erä, jokainen eri satunnaisella kuvavalikoimalla. Erillinen huutolista näyttää dynaamisen sanaruudukon pelinjohtajalle. Kuvabingo-korttien generaattori on kieliriippuvainen: sanatäyttö käyttää lokalisoituja kuvanimiä Kuvakirjastosta, joten kielen vaihto muuttaa sanat korteissa, pelimerkeissä ja huutolistassa. Tämä tarkoittaa, että sama kuvateema voi luoda uniikkeja bingokortteja 11 eri kielellä — jokainen kieliversio on erillinen tuote uudelle markkinalle. Täysi pääsy avaa kaikki 104 teemaa yli 3 100 kuvituksella ja kaikki 11 käyttöliittymäkieltä lokalisoituun sanasisältöön. Lisää taustateemoja ja kehysteemoja itsenäisillä läpinäkyvyyden säätimillä, sisällytä mukautettua tekstiä seitsemällä fonttivaihtoehdolla ja vie tulostusvalmiita PDF-tiedostoja ja JPEG-kuvia 300 DPI:llä Letter-, A4-, neliö- (1200×1200) tai mukautetuissa ko\'oissa. Vie kaikki luodut kortit yksittäisinä JPEG-kuvina yhdessä ZIP-tiedostossa. Olitpa myymässä bingokorttipaketteja Etsyssä, kokoamassa bingoaktiviteettikirjoja Amazon KDP:lle tai luomassa tuotelinjan bingosarjoja Gumroadiin — tämä generaattori tuottaa tuotantovalmiita bingokortteja minuuteissa. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',

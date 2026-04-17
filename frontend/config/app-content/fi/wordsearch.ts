@@ -19,12 +19,12 @@ const content: AppContent = {
       'PDF',
       'alakoulu',
     ],
-    titleTag: 'Sanasokkelo-generaattori | Luo teemakuvilla',
+    titleTag: 'Sanahakugeneraattori | LessonCraftStudio',
     metaDescription: 'Luo sanasokkeleita 3 000+ teemakuvalla 11 kielellä. Omat sanat, automaattiset vastaukset, 300 DPI PDF. Kokeile ilmaiseksi — kaupallinen lisenssi.',
   },
 
   hero: {
-    title: 'Sanahaku Tyoarkkien Generaattori Piilotettujen Sanojen Ruudukkopulmiin',
+    title: 'Sanahakugeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Saadettavat ruudukot 5x5:sta 30x30:een diagonaali- ja käänteissuuntakontrolleilla — rakenna taydellinen vaikeustaso jokaiselle kohderyhmalle.',
     description:
       'Suunnittele ammattimaisia sanahakutyoarkkeja, joissa piilotetut sanat on upotettu satunnaisten tayttökirjainten ruudukkoon ja kayttajat skannaavat riveja, sarakkeita ja diagonaaleja niiden loytamiseksi — klassinen pulmamuoto, joka ei koskaan mene pois muodista. Valitse kolmesta sisaltolahteesta: sisäänrakennettu kuvakirjasto yli 3 100 kuvituksella, Manuaalinen Muokkaustila tai Oma Sanalista enintaan 8 omalla sanalla. Saada ruudukkoa 5x5:sta nopeisiin lämmittelyihin aina 30x30:een todellisiin haasteisiin, ja ota diagonaaliset sanat seka kaanteiset sanat kayttoon tai pois finhieno hallintaan neljan tai kahdeksan mahdollisen sijoitussuunnan yli. Kolme nayttötilaa — sanat plus kuvat, pelkat kuvat tai pelkat sanat — hallitsevat miten vihjeet nakyyvat ruudukon vierella. Taysi Paasy avaa kaikki 11 tuettua kieltä, jossa seka piilotetut sanat etta ruudukon tayttökirjaimet muuttuvat kielen mukaan: suomalaiset ruudukot sisaltavat ä ja ö luonnollisilla frekvensseilla, saksalaiset ruudukot sisaltavat ä, ö ja ü. Värikoodattu vastausavain merkitsee jokaisen loytyneen sanan yhdella kuudesta kiertavasta varista. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja yli 400 DPI:na Letter-, A4- tai mukautetussa koossa. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',

@@ -16,12 +16,12 @@ const content: AppContent = {
       'havainnointi',
       'vastaukset',
     ],
-    titleTag: 'Etsi ja laske tehtävä tulostaa | Laskuharjoitusgeneraattori',
+    titleTag: 'Etsi ja laske -generaattori | LessonCraftStudio',
     metaDescription: 'Luo etsi-ja-laske tehtäviä, joissa lapset etsivät ja laskevat teemakuvia. Automaattiset vastaukset. Kokeile ilmaiseksi.',
   },
 
   hero: {
-    title: 'Luo Etsi ja Laske -työlehtia myytäväksi Etsyssä ja KDP:ssä',
+    title: 'Etsi ja laske -generaattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Kaksi aktiviteettitilaa yhdessä generaattorissa — Piilotettu Esine -etsintä ja Kirjainetsintä — neljällä sekoitettavalla tehtävätyypillä (ympyröi, neliö, ruksaa, laske), kielikohtaisilla aakkosilla kirjaimilla, lokalisoiduilla kuvanimillä 11 kielellä ja automaattisilla vastausavaimilla visuaalisilla merkinnöillä.',
     description:
       'Etsi-ja-laske-työlehdet yhdistävät Etsi ja Löydä -muodon vetovoimaan laskentaharjoituksen — formaatti, joka myy tasaisesti Etsyssä ja tekee erinomaisia Amazon KDP -aktiviteettikirjoja. Tämä generaattori luo ammattimaisia etsi-ja-laske-työlehtia, joissa ratkaisijat etsivät tiettyjä esineitä hajautetusta kohtauksesta ja suorittavat tehtäviä kuten ympyröiminen, laskeminen tai ruksiiminen. Kirjainetsintä-tila lisää aakkosoppimisen kielikohtaisilla merkistöillä mukaan lukien saksalaiset umlautit ja ranskan aksenttimerkit. Valitse yli 3 000 temaattisesta kuvituksesta 104 kokoelmasta ja vie 300 DPI:n tulostusvalmiita PDF-tiedostoja automaattisilla merkityillä vastausavaimilla. 11 kielen tuki lokalisoiduilla kuvaetiketeillä luo erillisiä tuotteita per kieli. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteröitymistä, ei luottokorttia. Latauksissa on vesileima; osta lisenssi poistaaksesi sen.',

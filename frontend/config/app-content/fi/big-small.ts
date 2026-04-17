@@ -16,12 +16,12 @@ const content: AppContent = {
       'esiopetus',
       'vastaukset',
     ],
-    titleTag: 'Iso ja pieni tehtävä tulostaa | Kokovertailugeneraattori',
+    titleTag: 'Iso ja pieni -generaattori | LessonCraftStudio',
     metaDescription: 'Luo kokovertailutehtäviä teemakuvilla. Iso vs. pieni, järjestä, automaattiset vastaukset. Kokeile ilmaiseksi.',
   },
 
   hero: {
-    title: 'Iso ja Pieni Työarkkien Generaattori Kokovertailuharjoituksiin',
+    title: 'Iso ja pieni -generaattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Viisi kysymystyyppiä — ympyröi iso, ympyröi pieni, ympyröi keskikokoinen, numeroi nouseva, numeroi laskeva — identtisillä ja eri kuvatiloilla visuaaliseen kokoerotteluun.',
     description:
       'Suunnittele ammattimaisia kokovertailutyöarkkeja, joissa käyttäjät katsovat temaattisia kuvia eri koissa ja tunnistavat suurimman, pienimmän tai keskikokoisen, tai numeroivat ne järjestykseen pienimmästä suurimpaan tai suurimmasta pienimpään. Viisi erillistä kysymystyyppiä kattaa jokaisen kokoerottelutaidon: Ympyröi Iso, Ympyröi Pieni, Ympyröi Keskikokoinen, Numeroi 1–2–3 Pienestä Isoon ja Numeroi 1–2–3 Isosta Pieneen. Kaksi kuvatilaa luo perustavanlaatuisesti erilaisia harjoituksia: Identtiset Kuvat näyttää saman kuvan eri koissa puhtaaseen kokonhavaintoon, kun taas Eri Kuvat näyttää erilliset kohteet suhteelliseen kokoarviointiin. Konfiguroi 1–10 harjoitusta sivulle 2 tai 3 kuvalla per harjoitus. Jokainen työarkki on täysin visuaalinen nollatekstillä tuloksessa, mikä tekee niistä universaalisti käyttökelpoisia kielestä riippumatta. Sisältö haetaan kuvakirjastosta yli 3 100 kuvitusta 104 teemassa. Automaattisesti generoitu vastauslehti merkitsee oikeat vastaukset. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja 300 DPI:llä Letter-, A4- tai mukautetussa koossa. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',

@@ -16,12 +16,12 @@ const content: AppContent = {
       'kuvapulma',
       'vastaukset',
     ],
-    titleTag: 'Matikkapelejä tulostaa | Matikkapulmageneraattori',
+    titleTag: 'Matematiikkapulmakone | LessonCraftStudio',
     metaDescription: 'Luo matikkapulmia kuvilla, joissa lapset ratkovat laskuja yhdistääkseen kuvia. Vastaukset mukana. Kokeile ilmaiseksi.',
   },
 
   hero: {
-    title: 'Matikkapulmapeli Tyoarkkien Generaattori Visuaalisiin Matematiikkahaasteisiin',
+    title: 'Matematiikkapulmakone — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Yhdista matematiikkaharjoittelu pulmanratkaisun jannitykseen — jokainen palanen sisaltaa tehtavan, jokainen ratkaisu paljastaa kuvan.',
     description:
       'Luo sitouttavia matikkapulmapeli tyoarkkeja, joissa kuva jaetaan ruudukkoon palasia, joissa jokaisessa on yhteen- tai vahennyslaskutehtava. Kayttajat ratkaisevat tehtavat ja yhdistävat numeroidut vastaukset sekoitettuihin palapelin paloihin ruudukon alla — nain muutetaan rutiininomainen laskenta visuaaliseksi mysteeriksi. Maarittele ruudukon koot 2x2:sta 4x4:aan luodaksesi pulmia 4:sta 16 palaseen, ja valitse yhteenlasku, vahennyslasku tai sekalaskutoimitukset sopimaan mihin tahansa taitotasolle. Selaa yli 3 100 kuvitusta 104 teemassa. Jokainen tyoarkki luo automaattisen vastausavaimen ratkaistulla ruudukolla taysin kootun kuvan vierellä. Vie tulostusvalmiita PDF- ja JPEG-tiedostoja 400+ DPI:na Letter-, A4- tai mukautetuissa koissa. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',

@@ -17,12 +17,12 @@ const content: AppContent = {
       'esiopetus',
       'vastaukset',
     ],
-    titleTag: 'Kuviotehtäviä tulostaa | Loogisten järjestysten generaattori',
+    titleTag: 'Kuvioiden sarjageneraattori | LessonCraftStudio',
     metaDescription: 'Luo kuviotehtäviä AB, ABC, ABCD sekvensseillä ja teemakuvilla. Automaattiset vastaukset. Kokeile ilmaiseksi.',
   },
 
   hero: {
-    title: 'Luo Kuviojunaharjoituksia Myyntiin Etsyssä ja KDP:ssä',
+    title: 'Kuvioiden sarjageneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Viisi kuviotyyppiä — AB, AAB, ABB, ABC, AABB — 11 temaattisessa junavaunussa säädettävällä vihjesäädöllä 4–10 tarkkaan vaikeuden hallintaan.',
     description:
       'Hahmontunnistustyöarkit ovat olennaisia varhaisen matematiikan tuotteita, jotka myyvät johdonmukaisesti Etsyssä — vanhemmat ja kasvattajat käyttävät niitä sarjataitojen opettamiseen esikoulusta ensimmäiselle luokalle. Tämä generaattori luo ainutlaatuisia junateemaisia kuvioharjoituksia, joissa jokainen junavaunu näyttää kuvan toistuvassa sarjassa ja ratkojat tunnistavat ja jatkavat kuviota. Valitse yli 3 000 kuvitusta 104 kokoelmasta, konfiguroi kuvion monimutkaisuus ja vie 300 DPI tulostusvalmiita PDF-tiedostoja automaattisilla vastauslehdillä. Visuaalinen junamuoto tekee kuvioharjoittelusta mukaansatempaavaa ja visuaalisesti erottuvaa Etsyn hakutuloksissa. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',

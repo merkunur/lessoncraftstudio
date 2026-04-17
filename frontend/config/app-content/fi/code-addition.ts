@@ -15,12 +15,12 @@ const content: AppContent = {
       'pulmatehtävä',
       'vastaukset',
     ],
-    titleTag: 'Salainen viesti laskutehtävillä | Koodinmurtaja-generaattori',
+    titleTag: 'Salaisen koodin generaattori | LessonCraftStudio',
     metaDescription: 'Luo tehtäviä, joissa lapset ratkovat yhteenlaskuja murtaakseen salaisia viestejä. Teemakuvat, vastaukset mukana. Kokeile ilmaiseksi.',
   },
 
   hero: {
-    title: 'Koodiyhteenlasku Tyoarkkien Generaattori — Matikkapulmia Ratkottavaksi',
+    title: 'Salaisen koodin generaattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Muuta yhteenlasku etsivatehtavaksi, jossa jokainen kuva piilottaa salaisen numeron.',
     description:
       'Luo kryptaritmeettisia yhteenlaskutyoarkkeja, jotka haastavat kayttajat murtamaan visuaalisen koodin. Jokainen kuva tyoarkissa edustaa salaa tiettyä numeroa — kayttajat ratkaisevat yhteenlaskutehtavia selvittaakseen, minkä numeron kukin kuva edustaa, yhdistäen laskutaitoja ja loogista ajattelua samassa harjoituksessa. Vaihda Paljasta Sana -tilaan, ja haaste kasvaa: kirjoita salainen sana enintaan kymmenella kirjaimella, ja jokainen oikein ratkaistu yhtalö paljastaa kirjaimen vastauksessa, kun taas kolme harhauttavaa yhtaloa vaaräillä summilla lisaavat jännitystä. Generaattori tukee yhtätoista kielikohtaista aakkostoa, mikä tekee Paljasta Sana -tilasta toimivan sisaanrakennetusti suomeksi, ruotsiksi, englanniksi, saksaksi, ranskaksi ja seitsemalla muulla kielella. Suomen aakkoset sisaltavat ä ja ö, joten salaiset sanat nailla kirjaimilla toimivat luonnollisesti. Valitse yli 3 100 kuvasta 104 teemassa, maarittele lukualueet 1:sta 20:een kahdesta viiteen koodisymboliin tyoarkkia kohti, ja vie tulostusvalmiita PDF- tai JPEG-tiedostoja yli 400 DPI:na automaattisilla vastausavaimilla. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',

@@ -16,12 +16,12 @@ const content: AppContent = {
       'kymmenen ylitys',
       'vastaukset',
     ],
-    titleTag: 'Yhteenlaskutehtäviä tulostaa | Generaattori vastauksilla',
+    titleTag: 'Yhteenlaskugeneraattori | LessonCraftStudio',
     metaDescription: 'Luo yhteenlaskutehtäviä teemakuvilla sekunneissa. Automaattiset vastaukset, 300 DPI PDF, 11 kieltä. Kokeile ilmaiseksi — kaupallinen lisenssi Etsyyn & KDP:hen.',
   },
 
   hero: {
-    title: 'Yhteenlaskutyoarkkien Generaattori Visuaaliseen Matematiikkaharjoitteluun',
+    title: 'Yhteenlaskugeneraattori — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Muuta yhteenlasku visuaaliseksi seikkailuksi kuvapohjaisten matematiikkatyoarkkien avulla.',
     description:
       'Luo kuvapohjaisia yhteenlaskutyoarkkeja, jotka tekevat varhaisista matematiikkakonsepteista konkreettisia ja hauskoja nuorille kayttajille. Valitse neljan eri harjoitustilan valilta — Kuva + Kuva, Kuva + Numero, Etsi Yhteenlaskettava ja Sekatila — sopiaksesi mihin tahansa tasoon esikoulusta toiselle luokalle. Tutustu yli 3 100 huolellisesti valittuun kuvitukseen 104 teemassa, kuten maatilaelamet, ajoneuvot ja ruoka, tehden jokaisesta laskutehtavasta elavaa. Jokainen tyoarkki sisaltaa automaattisesti luodun vastausavaimen, ja voit vieda tulostusvalmiita PDF-tiedostoja Letter-, A4- tai mukautetussa koossa yli 400 DPI:n tarkkuudella. Riippumatta siita myytkö Etsyssa, julkaisetko aktiviteettikirjoja Amazon KDP:ssa tai jaat tyoarkkeja asiakkaillesi — Yhteenlaskutyoarkkien Generaattori tuottaa ammattimaisia tuloksia muutamassa minuutissa. Ilmainen kokeilu kaikilla ominaisuuksilla — ei rekisteroitymista, ei luottokorttia. Lataukset sisaltavat vesileiman; osta lisenssi sen poistamiseksi.',

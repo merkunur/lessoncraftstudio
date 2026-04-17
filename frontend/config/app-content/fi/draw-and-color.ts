@@ -16,12 +16,12 @@ const content: AppContent = {
       'lapset',
       'PDF',
     ],
-    titleTag: 'Piirtämis- ja väritystehtävä tulostaa | Luova generaattori',
+    titleTag: 'Piirrä ja väritä -kone | LessonCraftStudio',
     metaDescription: 'Luo piirtämis- ja väritystehtäviä teemakuvilla. 300 DPI PDF tulostettavat. Kokeile ilmaiseksi — kaupallinen lisenssi.',
   },
 
   hero: {
-    title: 'Luo Piirustus- ja Väritystyöarkkeja Myyntiin Etsyssä ja KDP:ssä',
+    title: 'Piirrä ja väritä -kone — Luo tulostettavia Etsy- ja KDP-myyntiin',
     tagline: 'Kaksoisruudukkojärjestelmä — harjoitusruudukko ja vihjeruudukko vierekkäin — säädettävällä vihjeprosentilla 10–75 %, vaaka- ja pystysymmetriatilat sekä yli 100 mustavalkoista ääriviivakokoelmaa piirustus- ja väritysharjoituksiin.',
     description:
       'Piirustus- ja väritystyöarkit yhdistävät kaksi aktiviteettia — piirtämisen ja värittämisen — yhdeksi tuotemuodoksi, joka erottuu Etsyssä. Tämä generaattori luo ammattimaisia ruudukkoperusteisia piirustusharjoituksia, joissa oppijat kopioivat kuvia solu solulta ja sitten värittävät luomuksensa. Valitse yli 3 000 kuvitusta 104 kokoelmasta piirustuksen referenssikuviksi. Jokainen työarkki viedään 300 DPI tulostusvalmiina PDF-tiedostona täydellä kaupallisella lisenssillä. Taideharjoitus-tulostettavat ovat kasvava niche vanhempien keskuudessa, jotka etsivät ruutuvapaita luovia aktiviteetteja. Kokeile ilmaiseksi kaikilla ominaisuuksilla — ei rekisteröintiä, ei luottokorttia. Lataukset sisältävät vesileiman; osta lisenssi sen poistamiseksi.',

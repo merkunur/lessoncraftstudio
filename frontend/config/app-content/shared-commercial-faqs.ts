@@ -117,6 +117,33 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Sí. El generador admite 11 idiomas (inglés, alemán, francés, español, portugués, italiano, neerlandés, sueco, danés, noruego, finés), y cada versión por idioma cuenta como un producto distinto bajo su licencia. Muchos vendedores multiplican sus ingresos por tema exportando la misma ficha en cada idioma y listándolas como productos separados en Etsy o KDP.',
     },
   ],
+  it: [
+    {
+      question: 'Cosa include la licenza commerciale?',
+      answer:
+        'Ogni scheda generata include una licenza commerciale completa: nessuna attribuzione richiesta, nessuna royalty, nessun limite di unità vendute. Puoi vendere le schede create su Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, sul tuo negozio o su qualsiasi altro marketplace. La licenza unica da 49 $ copre un uso commerciale illimitato per un venditore o un\'azienda.',
+    },
+    {
+      question: 'Posso vendere le schede su Etsy, Amazon KDP, Teachers Pay Teachers e Gumroad?',
+      answer:
+        'Sì, tutte e quattro le piattaforme sono coperte dalla licenza commerciale. Puoi vendere download digitali su Etsy, comporre schede in libri di attività e rompicapo stampati per Amazon KDP, offrire pacchetti per la classe su Teachers Pay Teachers e distribuire stampabili tramite Gumroad o il tuo negozio online. La licenza non limita il marketplace su cui vendi.',
+    },
+    {
+      question: 'Qual è la politica di rimborso?',
+      answer:
+        'Offriamo una finestra di rimborso di 30 giorni. Se decidi che il generatore non è adatto alla tua linea di prodotti entro i primi 30 giorni, scrivi al supporto e procederemo al rimborso completo. Dopo 30 giorni, i rimborsi sono gestiti caso per caso per difetti materiali o problemi con lo strumento.',
+    },
+    {
+      question: 'Posso condividere la licenza con membri del team o dipendenti?',
+      answer:
+        'Una singola licenza copre un account venditore o un\'azienda. Se sei un libero professionista, la licenza copre te e gli assistenti virtuali che lavorano per la tua attività. Per team di 3 o più persone che generano schede in modo indipendente, contatta il supporto per le licenze team: offriamo pacchetti multi-postazione scontati.',
+    },
+    {
+      question: 'Posso vendere la stessa scheda in 11 lingue come prodotti distinti?',
+      answer:
+        'Sì. Il generatore supporta 11 lingue (inglese, tedesco, francese, spagnolo, portoghese, italiano, olandese, svedese, danese, norvegese, finlandese), e ogni versione linguistica conta come prodotto distinto nella tua licenza. Molti venditori moltiplicano i ricavi per tema esportando la stessa scheda in ogni lingua e pubblicandole come prodotti separati su Etsy o KDP.',
+    },
+  ],
 };
 
 export function getSharedCommercialFAQs(locale: string): FAQ[] {

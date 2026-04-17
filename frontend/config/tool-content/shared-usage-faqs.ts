@@ -117,6 +117,33 @@ export const sharedUsageFAQs: Record<string, FAQ[]> = {
         'La maquetación actual solo se conserva en la memoria del navegador. Cerrar la pestaña la elimina. Para conservar una ficha entre sesiones, descargue el PDF y el JPEG antes de cerrar: reimportar la misma configuración no es compatible en la versión gratuita del navegador. Si crea lotes de fichas relacionadas con frecuencia, la licencia también da acceso a plantillas guardadas.',
     },
   ],
+  it: [
+    {
+      question: 'Davvero non serve registrarsi?',
+      answer:
+        'Esatto: puoi aprire il generatore, scegliere un tema, personalizzare l\'impaginazione e scaricare un PDF o JPEG con filigrana senza creare un account. Nessuna email, nessuna carta di credito, nessun periodo di prova. La filigrana è una piccola etichetta in un angolo; il contenuto della scheda è identico alla versione a pagamento. La licenza unica da 49 $ rimuove la filigrana e attiva i diritti di vendita commerciale.',
+    },
+    {
+      question: 'Quali formati di file posso scaricare?',
+      answer:
+        'Ogni scheda si esporta come PDF pronto per la stampa a 400+ DPI e come JPEG ad alta risoluzione. Il PDF mantiene testo vettoriale e immagini nitide per una stampa pulita a qualsiasi dimensione. Il JPEG è utile per anteprime veloci, pubblicazioni sui social e piattaforme che preferiscono immagini raster. Entrambi i formati si scaricano all\'istante dopo il clic su Esporta.',
+    },
+    {
+      question: 'Funziona su tablet, Chromebook o browser meno recenti?',
+      answer:
+        'Il generatore funziona su qualsiasi browser moderno: Chrome, Safari, Firefox ed Edge, versione 90 o successiva. Funziona su Chromebook, iPad e tablet Android oltre che su desktop. I browser meno recenti (Internet Explorer, Chrome precedente alla 90) non sono supportati perché il generatore usa funzioni moderne di canvas e rendering dei font. In caso di problemi di visualizzazione, aggiornare il browser di solito risolve.',
+    },
+    {
+      question: 'Quali formati pagina sono supportati? Come stampo A4 vs Letter?',
+      answer:
+        'Il pannello Impaginazione offre Letter Verticale, Letter Orizzontale, A4 Verticale, A4 Orizzontale, Quadrato e dimensioni personalizzate. Scegli il formato che corrisponde alla tua stampante o al mercato target (A4 per la maggior parte dei mercati europei e asiatici, Letter per il Nord America). L\'esportazione PDF conserva le dimensioni esatte scelte per una stampa fedele su qualsiasi stampante.',
+    },
+    {
+      question: 'Le mie schede vengono salvate se chiudo la scheda del browser?',
+      answer:
+        'L\'impaginazione attuale rimane solo nella memoria del browser. Chiudere la scheda la cancella. Per conservare una scheda tra sessioni, scarica il PDF e il JPEG prima di chiudere: reimportare la stessa configurazione non è supportato nella versione browser gratuita. Se crei regolarmente lotti di schede correlate, la licenza dà anche accesso ai modelli salvati.',
+    },
+  ],
 };
 
 export function getSharedUsageFAQs(locale: string): FAQ[] {

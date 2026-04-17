@@ -317,6 +317,7 @@ export default async function ToolPage({
     schemas.push({
       "@context": "https://schema.org",
       "@type": "FAQPage",
+      "dateModified": new Date().toISOString(),
       "mainEntity": mergedFaq.map(faq => ({
         "@type": "Question",
         "name": faq.question,

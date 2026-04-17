@@ -1118,6 +1118,7 @@ export default async function AppDetailPage({
   const faqJsonLd = mergedFaq.length ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    dateModified: new Date().toISOString(),
     mainEntity: mergedFaq.map(f => ({
       '@type': 'Question',
       name: f.question,

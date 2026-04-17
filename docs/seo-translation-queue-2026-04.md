@@ -186,10 +186,43 @@ NOT done in this round. Follow-up work: add an optional `intent` field to
 each Pro Tip and update the tools template to render the selling ones
 inside the same `<details>` as whatYouCanCreate/businessIdeas.
 
-## Commits D–J
+---
+
+## Commit D — Internal linking additions
+
+### New UI strings on `/[locale]/apps/[slug]` template
+
+Two new optional fields added to the apps-page `uiStrings` dict in
+`frontend/app/[locale]/apps/[slug]/page.tsx`. Only EN is populated;
+non-EN locales currently render the EN fallback literal from the JSX.
+
+- `pairedToolPrompt` (EN): "Looking for the free browser version?"
+- `pairedToolAnchor` (EN): "Try the free Maker tool — no signup required."
+
+Translators should add equivalents to each of the 10 other locale blocks
+(de, fr, es, pt, it, nl, sv, da, no, fi).
+
+### Tools index intro copy (EN, ~325 words)
+
+A new prose block was added inside the EN branch of
+`frontend/app/[locale]/tools/page.tsx` between the "33 Free Worksheet
+Generators" heading and the category grid, targeting "free worksheet
+makers" / "free printable generators online" queries. The copy is
+EN-only this round — when translated, equivalent locale-specific prose
+should be added inside the non-EN branch in the same position.
+
+### KDP calculator cross-link block (EN-only by design)
+
+A new section renders on every `/en/apps/[slug]` page linking to the KDP
+Royalty Calculator and KDP Cover Size Calculator. Gated behind `locale
+=== 'en'` because the calculators are currently English-only (no locale
+variants in sitemap/page tree). Once localized calculators exist, remove
+the gate.
+
+## Commits E–J
 
 Further translation-queue entries will be appended by subsequent commits
-(internal linking, schema, redirects, UTM). Re-run `git log -p
+(schema, redirects, UTM, perf). Re-run `git log -p
 frontend/config/app-content/en/` and `git log -p
 frontend/config/tool-content/en/` to see the diff for each string that
 needs propagation.

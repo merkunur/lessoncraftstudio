@@ -430,6 +430,26 @@ export default function ToolsListingPage({
                   Try every generator free with watermark &mdash; no signup required. Purchase a license to remove the watermark and unlock commercial use.
                 </p>
               </div>
+
+              {/* Intro prose targeting "free worksheet makers" / "free printable generators" queries */}
+              <div className="max-w-3xl mx-auto mb-12 space-y-4 text-gray-700 text-base leading-relaxed">
+                <p>
+                  Free worksheet makers let you create printable classroom, homeschool, or personal-use materials directly in your browser &mdash; no software install, no monthly subscription. Each of the 33 free generators below produces print-ready PDFs and JPEGs you can download instantly.
+                </p>
+                <p>
+                  If you&apos;re a teacher assembling a tutoring lesson, a homeschool parent planning a unit, or a printable creator exploring a new format before committing, these browser tools are built for you. No account creation, no trial expiration, no cap on how many worksheets you can make. Choose a theme, customize the layout, export &mdash; that&apos;s the entire flow.
+                </p>
+                <p>
+                  The watermark on the free version is the only difference from the paid experience. Grid sizes, image themes, difficulty levels, answer keys, and PDF resolution are identical to what licensed sellers use. The watermark makes free-version worksheets unsuitable for commercial resale, but perfectly usable for classroom packets, tutoring handouts, homework supplements, and personal projects.
+                </p>
+                <p>
+                  All 33 generators support 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish. Images carry the worksheet content, so most outputs translate automatically when you switch the language setting.
+                </p>
+                <p>
+                  Ready to dive in? Browse the categories below. If you&apos;re building a printable product line for Etsy or Amazon KDP and need watermark-free downloads with a commercial license, the <Link href={`/${locale}/apps`} className="text-indigo-600 hover:text-indigo-700 underline font-medium">Apps hub</Link> has the licensed versions of every generator below.
+                </p>
+              </div>
+
               {Object.entries(APP_CATEGORIES).map(([catId, catData]) => {
                 const tools = toolsByCategory[catId];
                 if (!tools || tools.length === 0) return null;

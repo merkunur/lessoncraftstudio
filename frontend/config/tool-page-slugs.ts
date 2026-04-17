@@ -478,6 +478,30 @@ export function getAppIdForTool(toolId: string): string {
 }
 
 /**
+ * Reverse of toolIdToAppId — given an appId, return the matching toolId.
+ * Used by the /apps/[slug] template to link back to the paired free-tool
+ * page. Returns the appId unchanged when ids match directly.
+ */
+const appIdToToolId: Record<string, string> = Object.fromEntries(
+  Object.entries(toolIdToAppId).map(([tool, app]) => [app, tool])
+);
+
+export function getToolIdForApp(appId: string): string {
+  return appIdToToolId[appId] || appId;
+}
+
+/**
+ * Get the paired tools-page slug for a given appId in a given locale.
+ * Used by the /apps/[slug] template for the reciprocal "free browser
+ * version" backlink. Returns undefined when the paired tool page does
+ * not exist in the target locale.
+ */
+export function getToolSlugForApp(appId: string, locale: SupportedLocale): string | undefined {
+  const toolId = getToolIdForApp(appId);
+  return getToolSlugForLocale(toolId, locale);
+}
+
+/**
  * Get the slug for a specific tool and locale
  */
 export function getToolSlugForLocale(toolId: string, locale: SupportedLocale): string | undefined {

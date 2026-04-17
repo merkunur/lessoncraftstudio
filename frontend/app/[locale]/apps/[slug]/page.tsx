@@ -18,6 +18,7 @@ import TryFreeButton from './TryFreeButton';
 import { getAppContent, getCategoryAudience } from '@/config/app-content';
 import type { AppContent } from '@/config/app-content';
 import { getSharedCommercialFAQs } from '@/config/app-content/shared-commercial-faqs';
+import { getToolSlugForApp } from '@/config/tool-page-slugs';
 import VideoFacade from './VideoFacade';
 import ReadMoreText from '@/components/ReadMoreText';
 import Breadcrumb from '@/components/Breadcrumb';
@@ -109,6 +110,8 @@ const uiStrings: Record<string, {
   pdfExport: string;
   watermarkNote: string;
   startCreating: string;
+  pairedToolPrompt?: string;
+  pairedToolAnchor?: string;
 }> = {
   en: {
     tryFree: 'Try Free with Watermark',
@@ -128,6 +131,8 @@ const uiStrings: Record<string, {
     pdfExport: 'Instant PDF export',
     watermarkNote: 'Free version includes a small watermark. Purchase to remove.',
     startCreating: 'Start Creating Now',
+    pairedToolPrompt: 'Looking for the free browser version?',
+    pairedToolAnchor: 'Try the free Maker tool — no signup required.',
   },
   de: {
     tryFree: 'Kostenlos testen (mit Wasserzeichen)',
@@ -999,6 +1004,9 @@ export default async function AppDetailPage({
   const htmlFile = appFileMap[appConfig.appId] || `${appConfig.appId}.html`;
   const launchUrl = `/worksheet-generators/${encodeURIComponent(htmlFile)}?locale=${locale}&tier=free`;
 
+  // Paired /tools/*-maker slug for the reciprocal "free browser version" backlink.
+  const pairedToolSlug = getToolSlugForApp(appConfig.appId, locale as SupportedLocale);
+
   // Get related apps in same category (exclude current)
   const relatedApps = categoryData.apps
     .filter(id => id !== wpAppId)
@@ -1436,6 +1444,44 @@ export default async function AppDetailPage({
                     </details>
                   ))}
                 </div>
+              </div>
+            </section>
+          )}
+
+          {/* Reciprocal backlink to the paired /tools/*-maker page — gives
+              users who aren't ready to buy an on-domain off-ramp. */}
+          {pairedToolSlug && (
+            <section className="py-6 bg-gray-50 border-t border-gray-200">
+              <div className="container mx-auto px-4 max-w-3xl text-center">
+                <p className="text-gray-700">
+                  {ui.pairedToolPrompt || 'Looking for the free browser version?'}{' '}
+                  <Link
+                    href={`/${locale}/tools/${pairedToolSlug}`}
+                    className="text-indigo-600 hover:text-indigo-700 underline font-medium"
+                  >
+                    {ui.pairedToolAnchor || 'Try the free Maker tool — no signup required.'}
+                  </Link>
+                </p>
+              </div>
+            </section>
+          )}
+
+          {/* KDP calculator cross-links. EN-only because the calculators
+              are currently English-only. Non-EN locales render nothing. */}
+          {locale === 'en' && (
+            <section className="py-6 bg-amber-50 border-t border-amber-200">
+              <div className="container mx-auto px-4 max-w-3xl text-center">
+                <p className="text-gray-700">
+                  <strong>Before publishing on Amazon KDP:</strong> Use our free{' '}
+                  <Link href={`/${locale}/tools/kdp-royalty-calculator`} className="text-indigo-600 hover:text-indigo-700 underline font-medium">
+                    KDP Royalty Calculator
+                  </Link>{' '}
+                  to verify your profit margin and the{' '}
+                  <Link href={`/${locale}/tools/kdp-size-calculator`} className="text-indigo-600 hover:text-indigo-700 underline font-medium">
+                    KDP Cover Size Calculator
+                  </Link>{' '}
+                  for exact spine width.
+                </p>
               </div>
             </section>
           )}

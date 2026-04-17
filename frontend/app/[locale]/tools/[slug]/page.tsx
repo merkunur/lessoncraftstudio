@@ -204,7 +204,10 @@ export default async function ToolPage({
   const pageUrl = `${baseUrl}/${locale}/tools/${localeSlug || slug}`;
   const schemas: any[] = [];
 
-  // SoftwareApplication schema
+  // WebApplication schema — the /tools/*-maker page emphasizes the free
+  // browser experience, so WebApplication (price 0) matches the page's
+  // commercial framing better than SoftwareApplication. The paired
+  // /apps/* page still emits SoftwareApplication with the $49 offer.
   const heroImages = showcaseConfig?.hero?.images;
   const toolSchemaImage = heroImages?.[0]?.src
     ? `${baseUrl}${encodeImagePath(heroImages[0].src)}`
@@ -224,13 +227,13 @@ export default async function ToolPage({
       encodingFormat: 'image/webp',
     }));
 
-  const softwareSchema: any = {
+  const webAppSchema: any = {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
+    "@type": "WebApplication",
     "name": localizedName,
     "url": pageUrl,
     "applicationCategory": "EducationalApplication",
-    "operatingSystem": "Web Browser",
+    "browserRequirements": "Requires JavaScript. Requires HTML5.",
     "inLanguage": getHreflangCode(locale),
     "image": toolSchemaImage,
     ...(toolScreenshots?.length && { "screenshot": toolScreenshots }),
@@ -247,9 +250,9 @@ export default async function ToolPage({
     },
   };
   if (content?.hero?.description) {
-    softwareSchema.description = content.hero.description;
+    webAppSchema.description = content.hero.description;
   }
-  schemas.push(softwareSchema);
+  schemas.push(webAppSchema);
 
   // WebPage schema with primaryImageOfPage — aligns Google's thumbnail signal
   const toolImageCaption = heroImages?.[0]?.alt

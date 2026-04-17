@@ -26,6 +26,8 @@ const content: AppContent = {
       'Mit dem Mathe-Rätsel-Generator zum Verkaufen auf Etsy erstellen Sie Puzzle-Arbeitsblätter, die Rechnen und Bildermotivation in einem einzigartigen Format verbinden — ein vollständiges Bild wird in Puzzleteile zerlegt, und jedes Teil enthält eine Rechenaufgabe. Käufer lösen Addition, Subtraktion oder gemischte Aufgaben und setzen so Stück für Stück das Motiv zusammen. Rastergrößen von 2×2 bis 4×4 ergeben 4 bis 16 Teile pro Puzzle — perfekt für progressive Schwierigkeitspakete auf Etsy oder mehrseitige Aktivitätsbücher für Amazon KDP. Über 3.100 Illustrationen in 104 Themen sorgen für endlose Abwechslung, und der automatische Lösungsschlüssel spart Ihnen stundenlange Handarbeit. Exportieren Sie druckfertige PDFs mit über 400 DPI und verkaufen Sie Ihre Mathe-Puzzles mit der gewerblichen Lizenz auf allen gängigen Marktplätzen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Mathe-Rätsel erstellen',
+
   howItWorks: {
     title: 'Mathe-Rätsel-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

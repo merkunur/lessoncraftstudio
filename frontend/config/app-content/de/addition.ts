@@ -30,6 +30,8 @@ const content: AppContent = {
       'Erstellen Sie professionelle Plusaufgaben-Arbeitsblätter und verkaufen Sie diese auf Etsy, Amazon KDP oder Eduki — in weniger als 3 Minuten pro Arbeitsblatt. Dieser Generator erstellt bildbasierte Additionsaufgaben mit über 3.000 thematischen Illustrationen, die Kinder ansprechen und Eltern zum Kauf bewegen. Jedes Arbeitsblatt wird als druckfertiges 300-DPI-PDF mit automatischem Lösungsschlüssel exportiert. Die gewerbliche Lizenz ist inklusive: kein Quellennachweis nötig, keine Gebühren, keine Einschränkungen beim Verkauf. Der deutschsprachige Markt für Mathe-Druckvorlagen auf Etsy ist deutlich weniger umkämpft als der englische — eine echte Chance für Ihr Printable-Business im DACH-Raum mit über 100 Millionen potenziellen Kunden. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Additions-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Additions-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

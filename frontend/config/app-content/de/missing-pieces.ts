@@ -26,6 +26,8 @@ const content: AppContent = {
       'Sie möchten Fehlende-Teile-Rätsel für KDP-Beschäftigungsbücher oder als Etsy-Druckvorlagen erstellen? Dieser Generator erzeugt Puzzle-Rätsel, bei denen ein Bild Löcher aufweist und die richtige nummerierte Option für jede Lücke identifiziert werden muss. Der intelligente Algorithmus findet visuell unterscheidbare Bereiche mit ausreichender Farbvarianz. Wählen Sie aus 6 Teilformen — Quadrat, Kreis, Rechteck und Ellipse in Hoch- und Querformat — und konfigurieren Sie den Schwierigkeitsgrad mit 1–5 fehlenden Teilen und 2–6 Lösungsoptionen inklusive Ablenkungsteilen. Jedes Rätsel enthält einen automatisch generierten Lösungsschlüssel mit gelb hervorgehobenen Nummernbeschriftungen. Die rein visuelle Ausgabe ohne sprachabhängige Inhalte ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Fehlende-Teile-Rätsel erstellen',
+
   howItWorks: {
     title: 'Fehlende-Puzzleteile-Rätsel erstellen in 5 Schritten',
     steps: [

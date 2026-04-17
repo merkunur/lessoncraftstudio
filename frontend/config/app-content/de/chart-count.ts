@@ -27,6 +27,8 @@ const content: AppContent = {
       'Zähl- und Diagramm-Arbeitsblätter für Etsy erstellen — dieser spezialisierte Generator produziert Piktogramm- und Balkendiagramm-Arbeitsblätter, die auf Marktplätzen kaum Konkurrenz haben. Jedes Arbeitsblatt kombiniert ein verteiltes Bildraster mit 6 verschiedenen Bildtypen und ein zugehöriges Balkendiagramm zum Ausfüllen, sodass Ihre Käufer Zählen und Datenerfassung in einer Aktivität üben. Der automatische Lösungsschlüssel mit farblich hervorgehobenen Zellen wird gleichzeitig generiert und spart Ihnen stundenlange manuelle Arbeit. Wählen Sie aus über 3.100 Illustrationen in 104 Themen und erstellen Sie in Minuten thematische Pakete für Etsy, Aktivitätsbücher für Amazon KDP oder Stationen-Material für Gumroad. Die Arbeitsblatt-Ausgabe ist sprachunabhängig und funktioniert weltweit — ein einziger Workflow bedient den gesamten DACH-Markt und internationale Käufer. Die gewerbliche Lizenz erlaubt unbegrenzten Verkauf. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Zähl-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Bilddiagramm-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

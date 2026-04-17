@@ -26,6 +26,8 @@ const content: AppContent = {
       'Geheimcode-Mathe-Rätsel erstellen und auf Etsy verkaufen — mit diesem Generator produzieren Sie ein Produktformat, das auf deutschsprachigen Marktplätzen praktisch konkurrenzlos ist. Jedes Arbeitsblatt verwandelt Addition in eine Detektiv-Mission: Bilder repräsentieren versteckte Zahlen, und Käufer lösen die Gleichungen, um den Code zu knacken. Im Wort-Entschlüsselungs-Modus verbergen Sie ein Geheimwort mit bis zu zehn Buchstaben — inklusive Ä, Ö, Ü und ß für native deutsche Rätsel. Mit 11 unterstützten Sprachen, 104 Themen und über 3.100 Bildern erstellen Sie in Minuten einzigartige Rätsel-Pakete für Etsy, Amazon KDP oder Eduki. Die gewerbliche Lizenz erlaubt unbegrenzten Verkauf Ihrer erstellten Arbeitsblätter im gesamten DACH-Markt und darüber hinaus. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Zahlencode-Mathe-Rätsel erstellen',
+
   howItWorks: {
     title: 'Code-Knacker-Additions-Rätsel erstellen in 5 Schritten',
     steps: [

@@ -29,6 +29,8 @@ const content: AppContent = {
       'Mit dem Kreuzworträtsel-Generator für Etsy und KDP verkaufen Sie einzigartige Bilderkreuzworträtsel, die sich deutlich von der Konkurrenz abheben. Statt klassischer Texthinweise verwenden Ihre Rätsel farbenfrohe Bildhinweise auf einem festen 15×15-Raster — ein visuelles Format, das auf Produktvorschaubildern sofort ins Auge fällt und höhere Klickraten erzielt. Der Generator unterstützt vier Eingabemethoden, darunter Schnelle Themen-Generierung und Eigene Bilder hochladen, sodass Sie in wenigen Minuten ganze Produktpakete erstellen können. Besonders wertvoll für den DACH-Markt: Das integrierte Bildvokabular-System erzeugt automatisch korrekte deutsche Kreuzwortwörter aus lokalisierten Bildbezeichnungen — ohne manuelles Übersetzen. Mit der gewerblichen Lizenz und Unterstützung für 11 Sprachen erschließen Sie internationale Märkte und bauen ein skalierbares Printable-Business auf. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Kreuzworträtsel erstellen',
+
   howItWorks: {
     title: 'Bilderkreuzworträtsel erstellen in 5 Schritten',
     steps: [

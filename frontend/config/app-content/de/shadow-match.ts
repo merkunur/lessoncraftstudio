@@ -26,6 +26,8 @@ const content: AppContent = {
       'Sie möchten Schattenbilder-Zuordnungs-Arbeitsblätter erstellen und auf Etsy oder als KDP-Arbeitsbücher verkaufen? Dieser Generator bietet zwei Zuordnungsmodi: Der Schattenbild-Modus platziert 4 farbige Bilder neben 4 automatisch generierten schwarzen Silhouetten — erzeugt durch pixelgenaue Bildverarbeitung, die präzise Umrisse erstellt. Der Bildhälften-Modus teilt Bilder horizontal oder vertikal und fordert die Zuordnung der passenden Hälften. Beide Modi verwenden Fisher-Yates-Derangement für garantiert echte Zuordnungsherausforderungen bei jeder Generierung. Der automatische Lösungsschlüssel zeigt jede korrekte Buchstabe-zu-Nummer-Zuordnung an. Die rein visuelle Ausgabe ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Schattenbilder-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Schattenbilder-Zuordnungs-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

@@ -27,6 +27,8 @@ const content: AppContent = {
       'Erstellen Sie Alphabet-Arbeitsblätter mit dem Alphabet-Zug-Generator und verkaufen Sie diese auf Etsy, Amazon KDP oder Gumroad. Jeder der 11 Zugwaggons trägt einen Buchstaben und ein passendes Bild — die Buchstabe-Bild-Zuordnung ist in 11 Sprachen mit nativen Alphabeten linguistisch korrekt. Wählen Sie Auto-Erstellen für schnelle Serienproduktion oder den Manuellen Modus für gezielte Buchstabenauswahl. Konfigurierbare Hinweise von 3 bis 11 steuern die Schwierigkeit, und über 3.100 Illustrationen in 104 Themen liefern vielseitige Inhalte. Die Vollzugriff-Lizenz schaltet alle 11 Sprachen mit Sonderbuchstaben frei — Deutsch (Ä/Ö/Ü), Schwedisch (Å/Ä/Ö), Spanisch (Ñ) und mehr — und vervielfacht Ihren Produktkatalog um das Elffache. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder Quadrat. Graustufen-Export liefert tintenfreundliche Versionen für Schwarz-Weiß-Bücher. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Alphabet-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Alphabet-Zug-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

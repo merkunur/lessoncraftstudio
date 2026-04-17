@@ -29,6 +29,8 @@ const content: AppContent = {
       'Sie möchten Präpositionen-Arbeitsblätter für DaF/DaZ auf Eduki oder Etsy verkaufen? Dieser Generator erstellt professionelle Übungen für acht zentrale Ortspräpositionen — in, auf, unter, neben, hinter, zwischen, über und vor — in zwei Übungsmodi: Lückentext-Sätze, in denen die fehlende Präposition eingesetzt wird, und Multiple-Choice-Aufgaben mit räumlichen Bildszenen. Wählen Sie über die Checkliste, welche Präpositionen enthalten sein sollen, und konfigurieren Sie 1 bis 8 Übungen pro Arbeitsblatt. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen, und 8 geometrische Formen dienen als räumliche Bezugspunkte. Die Vollzugriff-Lizenz schaltet alle 11 Sprachen mit grammatisch korrekten Präpositionen frei — Deutsch mit Dativ-Kontraktionen wie \"im\" und \"am\" samt geschlechtsbewussten Artikeln. Exportieren Sie druckfertige PDFs und JPEGs mit über 400 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Präpositionen-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Präpositionen-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

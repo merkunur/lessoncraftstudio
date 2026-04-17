@@ -26,6 +26,8 @@ const content: AppContent = {
       'Sie möchten Sortier-Arbeitsblätter erstellen und in Ihrem Etsy-Shop oder als KDP-Arbeitsbücher verkaufen? Dieser Generator erstellt professionelle Zwei-Kategorien-Sortierungen, bei denen ausgeschnittene Bilder in zwei Kategorien einsortiert werden. Wählen Sie den Themen-Modus, um Kategorien automatisch aus der Bildbibliothek zu befüllen, oder den manuellen Modus für individuelle Bildauswahl. Jedes Arbeitsblatt enthält gestrichelt umrandete Kategorierahmen oben und ein gemischtes Ausschneidegitter unten mit durcheinandergeworfenen Bildern zum Ausschneiden und Zuordnen. Das Dual-Canvas-System generiert automatisch einen Lösungsschlüssel. Der Generator ist sprachabhängig: Kategoriebeschriftungen verwenden lokalisierte Bildnamen, sodass ein Sprachwechsel den Text auf dem Arbeitsblatt ändert — ideal für mehrsprachige Produktlinien. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Sortier-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Bilder-Sortieren-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

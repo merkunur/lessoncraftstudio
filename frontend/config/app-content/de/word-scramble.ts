@@ -26,6 +26,8 @@ const content: AppContent = {
       'Der Buchstabensalat-Generator für Etsy-Printable-Business verwandelt jedes Wort in ein verkaufsfertiges Buchstaben-Umstell-Rätsel mit farbenfrohen Bildhinweisen und durcheinander gemischten Plättchen. Vier Schwierigkeitsstufen — von null Hinweisen bis zur Hälfte vorplatzierter Buchstaben — ermöglichen es Ihnen, aus einem einzigen Design gestufte Produktpakete zu erstellen, die höhere Preise rechtfertigen. Die einzigartige Vokal-Konsonanten-Farbcodierung hebt Ihre Produkte visuell von der Konkurrenz ab und spricht gezielt Käufer an, die phonikbasierte Materialien suchen. Für den DACH-Markt bieten deutsche zusammengesetzte Substantive wie „Schmetterling" oder „Feuerwehrauto" mit 13 durcheinander gemischten Plättchen ein deutlich beeindruckenderes Rätselformat als kurze englische Wörter — ein klarer Wettbewerbsvorteil auf Etsy.de und Amazon KDP. Mit der gewerblichen Lizenz und 11 unterstützten Sprachen skalieren Sie Ihr Printable-Business über Ländergrenzen hinweg. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Buchstabensalat erstellen',
+
   howItWorks: {
     title: 'Buchstabensalat-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

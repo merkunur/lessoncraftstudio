@@ -26,6 +26,8 @@ const content: AppContent = {
       'Bauen Sie Ihr Etsy-Printable-Business mit dem Zeichenvorlagen-Generator auf und erstellen Sie professionelle Rasterzeichnen-Arbeitsblätter, die Sie auf Etsy, Amazon KDP oder Gumroad verkaufen. Das duale Rastersystem zeigt ein Hinweisraster neben einem leeren Übungsraster — Nutzer reproduzieren das Referenzbild Zelle für Zelle. Steuern Sie die Schwierigkeit über den Hinweisprozent-Regler von 10% bis 75% und konfigurieren Sie Rasterabmessungen von 3×3 bis 10×10. Drei Symmetriemodi — Zufall, Horizontal und Vertikal — erweitern die Produktvielfalt. Über 3.100 Schwarzweiß-Umrisszeichnungen in 104 Themen liefern sofort einsetzbare Inhalte, und das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Oberflächensprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Zeichnen-und-Malen-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Rasterzeichnen-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

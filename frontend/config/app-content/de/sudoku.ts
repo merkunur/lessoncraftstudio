@@ -27,6 +27,8 @@ const content: AppContent = {
       'Erstellen Sie Bilder-Sudoku mit dem Sudoku-Generator und verkaufen Sie Rätselbücher auf Amazon KDP, Etsy oder Gumroad. Jedes 4×4-Rätsel verwendet 4 einzigartige Bilder statt Zahlen — dieselbe Logik wie beim klassischen Sudoku, aber mit farbenfrohen Illustrationen. Drei Schwierigkeitsgrade steuern die Herausforderung: Leicht entfernt 4 Zellen, Mittel 6 und Schwer 8. Wählen Sie Bilder aus 104 Sammlungen mit über 3.100 Illustrationen oder laden Sie eigene hoch. Das Premium-Rasterdesign erzeugt sofort professionelle Ergebnisse. Lösungsschlüssel wird automatisch generiert. Das rein visuelle Format funktioniert weltweit ohne Übersetzung. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
   },
 
+  ctaHeading: 'Sudoku-Rätsel erstellen',
+
   howItWorks: {
     title: 'Bilder-Sudoku-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

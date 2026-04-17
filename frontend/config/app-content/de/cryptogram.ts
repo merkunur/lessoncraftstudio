@@ -27,6 +27,8 @@ const content: AppContent = {
       'Der Kryptogramm-Rätsel-Generator für Etsy verkaufen ermöglicht Ihnen die Erstellung professioneller Bilder-Chiffre-Rätsel, bei denen jeder Buchstabe durch ein einzigartiges Bild ersetzt wird. Käufer lieben das Entschlüsseln ganzer Sätze durch Mustererkennung — ein Rätselformat, das sich auf Etsy.de und Amazon KDP klar von Wortsuch- und Kreuzworträtsel-Produkten abhebt. Der einstellbare Hinweisregler (0–10 aufgedeckte Buchstaben) erzeugt gestufte Schwierigkeitsgrade, mit denen Sie aus einem einzigen Design mehrere Produktvarianten generieren können. Für den deutschsprachigen Markt bietet der Generator einen entscheidenden Vorteil: Das erweiterte Alphabet mit ä, ö, ü und ß umfasst 30 Buchstaben statt 26, was visuell reichere und komplexere Chiffren erzeugt — ein Alleinstellungsmerkmal, das kein englischsprachiger Anbieter nachbilden kann. Mit der gewerblichen Lizenz und Unterstützung für 11 Sprachen bauen Sie ein skalierbares Rätsel-Printable-Business auf. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Kryptogramme erstellen',
+
   howItWorks: {
     title: 'Bildkryptogramm-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

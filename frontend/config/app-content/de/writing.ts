@@ -28,6 +28,8 @@ const content: AppContent = {
       'Der Schreibübungen-Generator für Etsy-Verkäufer erstellt professionelle Handschrift-Arbeitsblätter mit drei progressiven Übungsmodi — Nachspuren, Verblassendes Nachspuren und Geführte Abschrift — die auf einem einzigen Blatt einen vollständigen Lernfortschritt abbilden. Nummerierte Strichrichtungspfeile zeigen exakt, wie jeder Buchstabe geformt wird, und heben Ihre Produkte von einfachen Nachspurblättern ab, die den Markt überschwemmen. Fünf wählbare Schriftarten, darunter Druck- und Schreibschrift, ermöglichen Ihnen die Erstellung vielfältiger Produktlinien für verschiedene Altersgruppen und Lernstufen. Vorübungen zur Feinmotorik — senkrechte Linien, Kreise und Zickzack-Muster — ergänzen Ihre Pakete um eine zusätzliche Produktkategorie, die auf Etsy.de und Amazon KDP separat verkaufbar ist. Die gewerbliche Lizenz und 104 thematische Bildsammlungen mit über 3.100 Illustrationen liefern Ihnen nahezu unbegrenztes Material für Ihr Printable-Business. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Schreibübungen erstellen',
+
   howItWorks: {
     title: 'Schreibübungen-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

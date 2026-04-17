@@ -28,6 +28,8 @@ const content: AppContent = {
       'Erstellen Sie verkaufsfertige Ausmalbilder mit dem Ausmalbilder-Generator und bauen Sie Ihr Printable-Business auf Etsy, Amazon KDP oder Gumroad auf. Platzieren Sie Bilder aus über 3.100 Schwarzweiß-Umrisszeichnungen in 104 Themen frei auf der Arbeitsfläche — arrangieren, skalieren, drehen und schichten Sie Elemente nach Belieben. Das integrierte Freihand-Zeichenwerkzeug ergänzt Ihre Malvorlagen um eigene Illustrationen mit einstellbarer Pinselfarbe und Pinselgröße. Shop-Helfer fügen Namensfelder und Handschrift-Übungslinien per Klick hinzu, und der Graustufen-Export wandelt farbige Kompositionen in tintenschonende Ausmalseiten um. Da die Ausgabe rein visuell ist, verkaufen Sie dasselbe Produkt weltweit ohne Übersetzung — ein Workflow für jeden Markt. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4, Quadrat oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Oberflächensprachen frei. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Malvorlagen erstellen',
+
   howItWorks: {
     title: 'Individuelle Malvorlagen erstellen in 5 Schritten',
     steps: [

@@ -26,6 +26,8 @@ const content: AppContent = {
       'Erstellen Sie Was-passt-nicht-Rätsel mit dem Ausreißer-Generator und verkaufen Sie Druckvorlagen auf Etsy, Amazon KDP oder Gumroad. Zwei Erzeugungsmodi bieten unterschiedliche Herausforderungen: Identisch-Modus für Finde-den-Unterschied-Aufgaben und Ähnlich-Modus für thematische Ausreißer-Erkennung. Überschreiben Sie den Modus pro Übung, um Schwierigkeitsgrade auf einer Seite zu mischen. Konfigurieren Sie 5 bis 10 Übungen pro Arbeitsblatt mit automatischem Lösungsschlüssel mit roten Kreismarkierungen. Über 3.100 Illustrationen in 104 Themen liefern abwechslungsreiche Inhalte. Das vollständig visuelle Format ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
   },
 
+  ctaHeading: 'Was-passt-nicht-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Was-Passt-Nicht-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

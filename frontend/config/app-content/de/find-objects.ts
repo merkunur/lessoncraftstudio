@@ -26,6 +26,8 @@ const content: AppContent = {
       'Sie möchten Suchbilder erstellen und als Druckvorlagen auf Etsy oder in KDP-Arbeitsbüchern verkaufen? Dieser Generator bietet zwei Aktivitätsmodi: Der Ich-sehe-was-Modus verteilt 1–5 versteckte Objekte unter 8–12 Ablenkungsbildern über die Seite — überlappungsfrei platziert durch einen intelligenten Algorithmus, der 50 Positionen pro Bild testet. Der Was-passt-nicht-Modus ordnet gepaarte Bilder in Reihen an, wobei unpaare Elemente identifiziert werden müssen. Beide Modi generieren automatisch einen Lösungsschlüssel mit roten Markierungen. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand — ein Produkt für jeden Markt weltweit. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Wimmelbilder erstellen',
+
   howItWorks: {
     title: 'Versteckte-Objekte-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

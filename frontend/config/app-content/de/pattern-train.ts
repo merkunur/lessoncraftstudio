@@ -27,6 +27,8 @@ const content: AppContent = {
       'Erstellen Sie Muster-Übungen mit dem Muster-Zug-Generator und verkaufen Sie einzigartige Arbeitsblätter auf Etsy, Amazon KDP oder Gumroad. Fünf Mustertypen — AB, AAB, ABB, ABC, AABB — erscheinen auf 11 thematischen Zugwaggons, wobei ein Waggon leer bleibt und das fehlende Element bestimmt werden muss. Steuern Sie die Schwierigkeit über die Hinweisanzahl von 4 bis 10. Die Produktmatrix aus fünf Mustertypen und sieben Hinweisstufen erzeugt 35 Schwierigkeitskombinationen — verfügbar in 104 Themen mit über 3.100 Illustrationen. Das textfreie Zug-Format hebt sich sofort von gitterbasierten Konkurrenzprodukten ab und ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Lösungsschlüssel wird automatisch generiert. Exportieren Sie druckfertige PDFs und JPEGs. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
   },
 
+  ctaHeading: 'Musterreihen-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Musterfolge-Zug-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

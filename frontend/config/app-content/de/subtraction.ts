@@ -28,6 +28,8 @@ const content: AppContent = {
       'Verwandeln Sie Subtraktionsaufgaben in ein verkaufsfähiges Produkt — mit einem Generator, der speziell für Printable-Unternehmer entwickelt wurde. Erstellen Sie bildbasierte Minusaufgaben mit thematischen Illustrationen aus über 100 Kategorien, exportieren Sie als druckfertiges 300-DPI-PDF mit automatischem Lösungsschlüssel und verkaufen Sie auf Etsy, Amazon KDP oder Eduki. Die gewerbliche Lizenz ist bei jedem Arbeitsblatt inklusive. Besonders profitabel: Kombinieren Sie Plus- und Minusaufgaben zu Paketen — Verkäufer berichten von deutlich höheren Durchschnittsbestellwerten bei mathematischen Bundle-Angeboten auf Etsy. Der deutschsprachige Markt bietet enormes Potenzial bei minimaler Konkurrenz. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Subtraktions-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Subtraktions-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

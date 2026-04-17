@@ -27,6 +27,8 @@ const content: AppContent = {
       'Sie möchten Gitter-Zuordnungs-Rätsel als Druckvorlagen für Ihr Printable-Business erstellen? Dieser Generator teilt jedes Bild in ein Kachelraster auf, wobei Nutzer nummerierte Kacheln den korrekten Positionen zuordnen. Konfigurieren Sie das Raster von 2×2 bis 4×4 und legen Sie 1–5 Hinweiszellen fest — weniger Hinweise bedeuten schwierigere Rätsel. Die App mischt die übrigen Kacheln mittels Fisher-Yates-Algorithmus und zeigt sie in einer nummerierten Palette an. Das Doppel-Canvas-System generiert automatisch einen Lösungsschlüssel mit nummerierten Kreisen über jeder Rasterzelle. Die rein visuelle Ausgabe — nur Bildkacheln und Zahlen — ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Gitter-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Raster-Puzzle-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

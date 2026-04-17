@@ -27,6 +27,8 @@ const content: AppContent = {
       'Sie möchten Schwungübungen als Druckvorlagen auf Etsy oder Amazon KDP verkaufen? Dieser Generator erstellt professionelle Linien-Ziehen-Arbeitsblätter mit acht SVG-basierten Vorlagen in vier Linientypen: Kurven für fließende Schwungbewegungen, Diagonalen für schräge Strichführung, Horizontallinien für Links-nach-Rechts-Übungen und Vertikallinien für Abwärtsstriche. Jede Vorlage platziert 4 oder 5 zusammengehörige Bildpaare auf gegenüberliegenden Seiten des Linienpfades. Die Auto-Füll-Funktion befüllt Paarplätze sofort aus über 3.100 Illustrationen in 104 Themen. Die Vorlagenauswahl steuert die Seitenausrichtung automatisch — Kurven im Querformat, Geraden im Hochformat. Das rein visuelle Format ohne Text ermöglicht globalen Verkauf ohne Übersetzungsaufwand. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Schwungübungen erstellen',
+
   howItWorks: {
     title: 'Linien-Ziehen-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

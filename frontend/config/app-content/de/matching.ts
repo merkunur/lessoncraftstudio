@@ -27,6 +27,8 @@ const content: AppContent = {
       'Sie möchten Zuordnungs-Arbeitsblätter erstellen und als druckbare Produkte auf Etsy oder Amazon KDP verkaufen? Dieser Generator bietet vier verschiedene Zuordnungsmodi in einem Werkzeug: Anfangsbuchstaben-Zuordnung für phonemisches Bewusstsein, Bild+Wort-Paare für Wortschatzaufbau, Bild/Wort-Mischung mit individueller Schwierigkeitssteuerung pro Zeile und Eigenes-Wort-Modus für maßgeschneiderte Vokabelübungen. Konfigurieren Sie 4, 5 oder 6 Paare pro Arbeitsblatt, schalten Sie Elementnummern und Aufzählungspunkte um und generieren Sie automatisch einen Lösungsschlüssel mit Verbindungslinien zwischen den korrekten Paaren. Die integrierte Bildbibliothek umfasst über 3.100 Illustrationen in 104 Themen — Tiere, Fahrzeuge, Lebensmittel und mehr. Der Generator ist sprachabhängig: ein Sprachwechsel ändert die Wörter und Anfangsbuchstaben auf dem Arbeitsblatt, sodass Sie mehrsprachige Produktlinien aus einem einzigen Workflow erstellen. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Zuordnungs-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Zuordnungs-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

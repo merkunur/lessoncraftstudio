@@ -26,6 +26,8 @@ const content: AppContent = {
       'Wörter-Raten-Rätsel erstellen und auf Etsy verkaufen — mit diesem Generator produzieren Sie professionelle Arbeitsblätter im Galgenmännchen-Stil, bei denen Käufer anhand von Bildhinweisen versteckte Wörter erraten. Das bewährte Rätselformat kombiniert Vokabeltraining mit spannendem Ratespaß und verkauft sich hervorragend als thematisches Paket auf Etsy.de und als Rätselbuch auf Amazon KDP. Vier einstellbare Schwierigkeitsstufen ermöglichen es Ihnen, aus einem einzigen Design mehrere Produktvarianten zu generieren — vom Anfänger-Arbeitsblatt mit der Hälfte vorausgefüllter Buchstaben bis zur Profi-Herausforderung ohne jeden Hinweis. Deutsche zusammengesetzte Substantive wie „Schmetterling" erzeugen beeindruckende 13-Buchstaben-Gitter, die auf Produktvorschaubildern sofort auffallen und sich vom englischsprachigen Angebot klar differenzieren. Die gewerbliche Lizenz und Unterstützung für 11 Sprachen machen jede Sprachversion zu einem eigenständigen, verkaufsfähigen Produkt für internationale Märkte. Kostenlos testen mit allen Funktionen — Downloads enthalten ein Wasserzeichen; erwerben Sie eine Lizenz, um es zu entfernen.',
   },
 
+  ctaHeading: 'Wörter-Raten-Arbeitsblätter erstellen',
+
   howItWorks: {
     title: 'Wörter-Raten-Arbeitsblätter erstellen in 5 Schritten',
     steps: [

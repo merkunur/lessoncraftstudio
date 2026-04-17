@@ -27,6 +27,8 @@ const content: AppContent = {
       'Erstellen Sie Bilder-Bingo-Karten mit dem Bingo-Generator und verkaufen Sie druckbare Bingo-Sets auf Etsy, Amazon KDP oder Gumroad. Generieren Sie 1 bis 10 einzigartige Karten pro Stapel mit Rastern von 3×3 bis 5×5 — Bild- oder Wort-Füllung für Zellen und Chips unabhängig wählbar. Jeder Stapel enthält ein separates Ansageblatt für den Spielleiter. Der ZIP-Stapelexport liefert alle Karten in einer Datei. Die Wort-Füllung ist sprachabhängig mit lokalisierten Bildnamen in 11 Sprachen. Über 3.100 Illustrationen in 104 Themen liefern abwechslungsreiche Inhalte. Exportieren Sie druckfertige PDFs und JPEGs mit 300 DPI in Letter, A4 oder benutzerdefinierten Größen. Die kommerzielle Lizenz umfasst 10 Themen; Vollzugriff schaltet alle 104 Themen und 11 Sprachen frei. Kostenlos testen mit Wasserzeichen.',
   },
 
+  ctaHeading: 'Bingo-Karten erstellen',
+
   howItWorks: {
     title: 'Bilder-Bingo-Karten erstellen in 5 Schritten',
     steps: [

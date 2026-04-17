@@ -19,12 +19,12 @@ const content: AppContent = {
       'CP',
       'ABC',
     ],
-    titleTag: 'Fiches alphabet à imprimer | Générateur exercices ABC',
+    titleTag: 'Générateur de fiches alphabet | LessonCraftStudio',
     metaDescription: 'Créez des fiches d\'alphabet avec images thématiques pour la reconnaissance des lettres. Solutions automatiques, 11 langues. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Fiches alphabet à imprimer — Générateur d\'exercices ABC avec images',
+    title: 'Générateur de fiches alphabet — Créez des imprimables à vendre sur Etsy & KDP',
     tagline: 'Chaque wagon transporte une lettre et une image correspondante — construisant la reconnaissance des lettres wagon après wagon.',
     description:
       'Créez des fiches d\'alphabet à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches train captivantes où 11 wagons colorés défilent sur la page, chacun portant une lettre associée à une illustration correspondante. Choisissez le mode Création Automatique pour une sélection aléatoire instantanée de lettres ou le Mode Manuel pour sélectionner précisément 11 lettres de l\'alphabet pour un entraînement ciblé. Ajoutez de 3 à 11 indices configurables par fiche — des images-indices que les utilisateurs associent au bon wagon-lettre — transformant la reconnaissance passive des lettres en un exercice actif de résolution de problèmes. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour trouver l\'image parfaite pour chaque lettre. L\'Accès Complet déverrouille les 11 langues prises en charge avec leurs alphabets natifs — l\'allemand avec Ä/Ö/Ü, le suédois avec Å/Ä/Ö, l\'espagnol avec Ñ, et plus encore — multipliant votre catalogue de produits par onze à partir d\'un seul flux de travail. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou Carré. Que vous vendiez des packs alphabet thématiques sur Etsy, compiliez des cahiers d\'alphabétisation progressifs pour Amazon KDP ou créiez des ateliers de lettres différenciés pour Gumroad, le Générateur Train Alphabet produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',

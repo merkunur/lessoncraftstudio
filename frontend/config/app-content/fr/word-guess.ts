@@ -19,12 +19,12 @@ const content: AppContent = {
       'CE1',
       'solution',
     ],
-    titleTag: 'Jeu du pendu à imprimer | Générateur devinettes mots',
+    titleTag: 'Générateur de jeu du pendu | LessonCraftStudio',
     metaDescription: 'Créez des fiches de jeu du pendu avec vocabulaire thématique et images. Solutions automatiques, PDF imprimables. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Jeu du pendu à imprimer — Générateur de devinettes de mots avec images',
+    title: 'Générateur de jeu du pendu — Créez des imprimables à vendre sur Etsy & KDP',
     tagline: 'La déduction style pendu rencontre les indices visuels — quatre niveaux de difficulté transforment chaque mot en un puzzle gratifiant.',
     description:
       'Créez des jeux de devinettes de mots à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches style pendu où les acheteurs voient un indice image et déduisent le mot caché en remplissant des cases de lettres vides, développant simultanément l\'orthographe et le vocabulaire. Choisissez parmi trois sources de contenu : la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes, le Mode Édition Manuelle où vous sélectionnez des images puis personnalisez leurs noms d\'affichage, ou le mode Liste de Mots Personnalisée pour des puzzles textuels utilisant le vocabulaire de votre choix. Quatre niveaux de difficulté contrôlent le nombre de lettres pré-révélées comme indices — de Sans Indices (aucune lettre révélée) au mode Facile montrant la moitié des lettres — créant un étayage naturel du débutant à l\'avancé. Placez de 1 à 10 puzzles par fiche et basculez entre des grilles de lettres en majuscules ou en minuscules. L\'Accès Complet déverrouille les 11 langues prises en charge où le mot cible change selon la langue — \" dog \" en anglais devient \" Hund \" en allemand, \" chien \" en français, \" perro \" en espagnol — faisant de chaque langue un produit distinct et vendable. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des packs de vocabulaire thématiques sur Etsy, compiliez des cahiers de puzzles de mots pour Amazon KDP ou créiez des ateliers de lecture différenciés pour Gumroad, le Générateur de Fiches Deviner les Mots produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',

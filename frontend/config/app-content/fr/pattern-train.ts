@@ -19,12 +19,12 @@ const content: AppContent = {
       'maternelle',
       'GS',
     ],
-    titleTag: 'Fiches suites logiques à imprimer | Générateur algorithmes',
+    titleTag: 'Générateur de suites logiques | LessonCraftStudio',
     metaDescription: 'Créez des fiches de suites logiques avec motifs AB, ABC, ABCD et images thématiques. Solutions automatiques. Essai gratuit — vendez sur Etsy & KDP.',
   },
 
   hero: {
-    title: 'Fiches de suites logiques à imprimer — Générateur d\'algorithmes avec images',
+    title: 'Générateur de suites logiques — Créez des imprimables à vendre sur Etsy & KDP',
     tagline: 'Cinq types de motifs — AB, AAB, ABB, ABC, AABB — affichés sur 11 wagons de train thématiques avec un nombre d\'indices ajustable de 4 à 10 pour un contrôle précis de la difficulté.',
     description:
       'Créez des fiches de suites logiques à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches train où les acheteurs identifient et complètent des séquences répétitives affichées sous forme d\'images sur 11 wagons thématiques. Cinq types de motifs distincts couvrent tous les niveaux de complexité des séquences : AB alterne deux éléments, AAB regroupe deux d\'un suivi d\'un autre, ABB inverse ce regroupement, ABC fait tourner trois éléments différents, et AABB associe deux de chaque avant de recommencer. La disposition du train organise 11 wagons sur trois rangées (5 + 3 + 3), chaque wagon contenant une image du motif répétitif. Un wagon est laissé vide — les utilisateurs identifient le motif et déterminent l\'élément manquant. Ajustez le nombre d\'indices de 4 à 10 pour contrôler la difficulté : afficher 10 indices rend le motif évident, tandis que n\'en afficher que 4 exige un véritable raisonnement logique puisque les 3 premiers wagons sont toujours révélés. Le contenu provient de la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations réparties dans 104 thèmes. Un onglet de corrigé séparé montre les 11 wagons remplis avec la séquence correcte pour une vérification instantanée. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer en haute résolution aux formats Letter, A4, Carré ou dimensions personnalisées. Chaque fiche est entièrement visuelle avec uniquement des images sur les wagons et zéro texte sur la sortie, rendant les produits vendables universellement sans traduction. Que vous créiez des lots de reconnaissance de motifs sur Etsy, compiliez des cahiers d\'apprentissage précoce pour Amazon KDP ou construisiez des ateliers différenciés de mathématiques pour Gumroad, le Générateur de Fiches Train de Suites Logiques livre des produits uniques au format train en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',

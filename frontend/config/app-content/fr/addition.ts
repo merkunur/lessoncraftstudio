@@ -19,12 +19,12 @@ const content: AppContent = {
       'calcul',
       'correction',
     ],
-    titleTag: 'Fiches d\'addition à imprimer | Générateur avec corrections',
+    titleTag: 'Générateur de fiches d\'addition | LessonCraftStudio',
     metaDescription: 'Créez des fiches d\'addition avec images thématiques. Corrections automatiques, PDF 300 DPI, 11 langues. Essai gratuit — licence commerciale pour Etsy & KDP.',
   },
 
   hero: {
-    title: 'Fiches d\'addition à imprimer — Générateur avec corrections automatiques',
+    title: 'Générateur de fiches d\'addition — Créez des imprimables à vendre sur Etsy & KDP',
     tagline: 'Transformez l\'addition en aventure captivante avec des fiches de maths basées sur les images.',
     description:
       'Créez des fiches d\'addition à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — et générez-les en moins de 3 minutes. Ce générateur crée des exercices d\'addition illustrés avec plus de 3 000 images thématiques que les enfants adorent et que les parents achètent. Choisissez un thème, réglez le niveau de difficulté, et exportez des PDF haute résolution (300 DPI) avec corrigés automatiques, prêts à vendre. Chaque fiche inclut une licence commerciale complète — aucune attribution requise, aucune redevance. Le marché francophone des fiches imprimables sur Etsy est nettement moins concurrentiel que le marché anglophone : avec 321 millions de francophones dans le monde et très peu de vendeurs proposant du contenu éducatif en français, c\'est une opportunité majeure pour lancer votre business d\'imprimables. Testez gratuitement — les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',

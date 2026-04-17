@@ -19,12 +19,12 @@ const content: AppContent = {
       'adultes',
       'maternelle',
     ],
-    titleTag: 'Créer des coloriages à imprimer | Générateur coloriages',
+    titleTag: 'Générateur de coloriages | LessonCraftStudio',
     metaDescription: 'Créez des coloriages à partir de 3 000+ images thématiques. Contours haute résolution, PDF imprimables. Essai gratuit — vendez sur Etsy & Amazon KDP.',
   },
 
   hero: {
-    title: 'Créer des coloriages à imprimer — Générateur de coloriages avec images',
+    title: 'Générateur de coloriages — Créez des imprimables à vendre sur Etsy & KDP',
     tagline: 'Concepteur de pages de coloriage sur canevas libre — parcourez 104 collections d\'images thématiques, ajoutez des dessins à main levée, incluez des aides pour la vente comme les champs nom et lignes d\'écriture, et activez l\'export en niveaux de gris pour des pages de coloriage économiques en encre.',
     description:
       'Créez des coloriages à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — un canevas libre où vous placez les images exactement où vous le souhaitez, sans grille ni modèle, avec une liberté créative totale. Parcourez la Bibliothèque d\'Images intégrée avec plus de 3 100 illustrations colorées réparties dans 104 collections thématiques, cliquez sur n\'importe quelle image pour l\'ajouter à votre canevas, puis arrangez, redimensionnez, pivotez et superposez les éléments jusqu\'à ce que votre page soit parfaite. L\'outil de dessin à main levée vous permet de dessiner des illustrations personnalisées directement sur le canevas avec une couleur et une taille de pinceau réglables. Les aides pour la vente ajoutent un champ nom d\'utilisateur et des lignes de pratique d\'écriture en un seul clic — transformant les pages de coloriage en activités prêtes pour la vente. Lorsque vous avez terminé, activez l\'option d\'export en niveaux de gris pour convertir votre composition colorée en pages de coloriage économiques en encre, parfaites pour l\'impression. Ajoutez des thèmes de bordures décoratives, du texte personnalisé avec des effets de contour et téléversez vos propres images en complément du contenu de la bibliothèque. Le Générateur de Pages de Coloriage n\'est pas sensible à la langue — la sortie est purement visuelle, les fiches sont donc identiques dans toutes les langues. L\'Accès Complet déverrouille les 104 thèmes et les 11 langues d\'interface. Exportez des PDF et JPEG prêts à imprimer à 300 DPI en format Letter, A4, Carré ou dimensions personnalisées. Que vous vendiez des lots de pages de coloriage sur Etsy, compiliez des cahiers de coloriage pour Amazon KDP ou créiez des activités de coloriage pour Gumroad, le Générateur de Pages de Coloriage livre des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',

@@ -19,12 +19,12 @@ const content: AppContent = {
       'CP',
       'CE1',
     ],
-    titleTag: 'Fiches plus grand/plus petit | Générateur comparaison',
+    titleTag: 'Générateur plus ou moins | LessonCraftStudio',
     metaDescription: 'Créez des fiches de comparaison de nombres et quantités avec images thématiques. Corrections automatiques, PDF 300 DPI. Essai gratuit — licence commerciale.',
   },
 
   hero: {
-    title: 'Fiches plus grand/plus petit à imprimer — Générateur de comparaison de nombres',
+    title: 'Générateur plus ou moins — Créez des imprimables à vendre sur Etsy & KDP',
     tagline: 'Transformez la comparaison de nombres en découverte visuelle avec des fiches illustrées de plus grand et plus petit.',
     description:
       'Créez des fiches plus grand plus petit à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des fiches qui permettent aux acheteurs d\'identifier quel groupe a plus, quel groupe a moins, et quand deux groupes sont égaux. Choisissez parmi trois modes d\'exercice distincts — Image contre Image, Image contre Nombre et le mode unique Cocher et Barrer les Groupes où les utilisateurs analysent des boîtes d\'images mélangées pour trouver le groupe majoritaire. Basculez entre comparaisons d\'images identiques et différentes, choisissez entre symboles illustrés et symboles mathématiques standards, et puisez dans plus de 3 100 images dans 104 thèmes. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer en format Letter, A4 ou personnalisé à plus de 400 DPI. Que vous vendiez des packs thématiques sur Etsy, compiliez des cahiers de comparaison sur Amazon KDP ou créiez des ateliers différenciés pour votre classe, le Générateur Plus ou Moins produit des résultats professionnels en quelques minutes. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',

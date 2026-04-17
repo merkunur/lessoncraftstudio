@@ -19,12 +19,12 @@ const content: AppContent = {
       'CP',
       'CE1',
     ],
-    titleTag: 'Générateur de fiches de maths | Exercices à imprimer',
+    titleTag: 'Générateur de fiches de maths | LessonCraftStudio',
     metaDescription: 'Créez des fiches de mathématiques personnalisées avec corrections automatiques. PDF 300 DPI, 11 langues. Essai gratuit — licence commerciale pour Etsy & KDP.',
   },
 
   hero: {
-    title: 'Générateur de fiches de maths — Créer des exercices à imprimer',
+    title: 'Générateur de fiches de maths — Créez des imprimables à vendre sur Etsy & KDP',
     tagline: 'Transformez l\'algèbre en aventure visuelle — les images deviennent des variables et chaque puzzle a exactement une solution.',
     description:
       'Créez des fiches de calcul algébriques à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — des puzzles d\'équations visuelles où des images remplacent les variables inconnues. Les utilisateurs résolvent des équations liées pour déterminer la valeur que chaque image représente — transformant l\'algèbre abstraite en une expérience concrète et visuelle. Choisissez parmi quatre niveaux de difficulté : Très Facile et Facile utilisent deux symboles, Moyen en introduit trois, et Difficile met les apprenants au défi avec quatre inconnues simultanées. Sélectionnez des problèmes en addition uniquement ou ajoutez la soustraction pour une pratique avancée, et ajustez les plages de nombres de 0 à 20 avec une option pour autoriser les résultats négatifs. Le solveur algébrique intégré garantit que chaque puzzle a exactement une solution correcte — aucune ambiguïté, aucune devinette. Parcourez plus de 3 100 illustrations sélectionnées dans 104 thèmes pour servir de symboles algébriques, ou téléchargez vos propres images pour un rendu personnalisé. Chaque fiche génère un corrigé automatique, et vous pouvez exporter des PDF prêts à imprimer et des JPEG à plus de 400 DPI en format Letter, A4 ou personnalisé. Que vous vendiez des packs de puzzles thématiques sur Etsy, compiliez des cahiers d\'algèbre progressive sur Amazon KDP ou créiez des ateliers de maths différenciés pour votre classe, le Générateur de Puzzles Algébriques produit des résultats professionnels en quelques minutes — essai gratuit avec toutes les fonctionnalités, sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',

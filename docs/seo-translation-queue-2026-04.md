@@ -414,3 +414,76 @@ because those two calculator pages are English-only. Adding a
 German-label block pointing at an English page would produce mixed-
 language content and a bad UX. When/if German calculator pages ship,
 widen the gate to include `de` and add German label/CTA strings.
+
+---
+
+# French (FR) — landed 2026-04-17
+
+FR round propagates the same SEO patterns to
+`frontend/config/app-content/fr/` plus the shared-FAQ pools. Four
+atomic commits mirror the EN/DE shape.
+
+## FR-A — `ctaHeading` on all 33 FR apps
+
+French action-phrase mappings per generator:
+
+- `addition.ts` → "Créer des fiches d\'addition"
+- `alphabet-train.ts` → "Créer des fiches alphabet"
+- `big-small.ts` → "Créer des fiches grand et petit"
+- `bingo.ts` → "Créer des cartes de loto"
+- `chart-count.ts` → "Créer des fiches de dénombrement"
+- `code-addition.ts` → "Créer des fiches de messages codés"
+- `coloring.ts` → "Créer des coloriages"
+- `crossword.ts` → "Créer des mots croisés"
+- `cryptogram.ts` → "Créer des cryptogrammes"
+- `draw-and-color.ts` → "Créer des fiches dessin et coloriage"
+- `drawing-lines.ts` → "Créer des fiches de graphisme"
+- `find-and-count.ts` → "Créer des fiches cherche et compte"
+- `find-objects.ts` → "Créer des jeux de cherche et trouve"
+- `grid-match.ts` → "Créer des fiches de dessin sur quadrillage"
+- `matching.ts` → "Créer des fiches d\'association"
+- `math-puzzle.ts` → "Créer des puzzles mathématiques"
+- `math-worksheet.ts` → "Créer des fiches de mathématiques"
+- `missing-pieces.ts` → "Créer des puzzles à pièces manquantes"
+- `more-less.ts` → "Créer des fiches plus ou moins"
+- `odd-one-out.ts` → "Créer des fiches de l\'intrus"
+- `pattern-train.ts` → "Créer des fiches de suites logiques"
+- `pattern-worksheet.ts` → "Créer des fiches de motifs"
+- `picture-path.ts` → "Créer des labyrinthes"
+- `picture-sort.ts` → "Créer des fiches de tri"
+- `prepositions.ts` → "Créer des fiches de prépositions"
+- `shadow-match.ts` → "Créer des fiches d\'ombres"
+- `subtraction.ts` → "Créer des fiches de soustraction"
+- `sudoku.ts` → "Créer des grilles de sudoku"
+- `treasure-hunt.ts` → "Créer des chasses au trésor"
+- `word-guess.ts` → "Créer des fiches de jeu du pendu"
+- `word-scramble.ts` → "Créer des fiches de lettres mélangées"
+- `wordsearch.ts` → "Créer des mots mêlés"
+- `writing.ts` → "Créer des fiches d\'écriture"
+
+## FR-B — H1 + titleTag + meta trim
+
+### H1 (`hero.title`) pattern
+
+`[FR Generator Name] — Créez des imprimables à vendre sur Etsy & KDP`
+
+All 33 FR files rewritten. Generator names use the idiomatic French
+pattern `Générateur de X` (e.g. "Générateur de mots mêlés",
+"Générateur de fiches d\'addition", "Générateur de coloriages").
+
+### titleTag pattern
+
+`[FR Generator Name] | LessonCraftStudio` — replaces the previous
+descriptor-suffix pattern. All new FR titles verified 37–55 chars,
+well under Google's 60-char display threshold.
+
+### Meta trim
+
+Three FR metas exceeded 160 chars. Rewritten to 150–160 range:
+
+- `wordsearch.ts` (164 → 156)
+- `big-small.ts` (162 → 148)
+- `find-and-count.ts` (161 → 149)
+
+Other 30 FR metas were already within spec and left as-is. Longest FR
+meta is now 160 chars (alphabet-train.ts, pattern-worksheet.ts).

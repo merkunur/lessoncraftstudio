@@ -19,12 +19,12 @@ const content: AppContent = {
       'addition',
       'correction',
     ],
-    titleTag: 'Message codé maths | Générateur fiches calcul & décodage',
+    titleTag: 'Générateur de messages codés | LessonCraftStudio',
     metaDescription: 'Créez des fiches de calcul où les enfants résolvent des additions pour déchiffrer un message codé. Images thématiques, corrections incluses. Essai gratuit.',
   },
 
   hero: {
-    title: 'Message codé maths à imprimer — Générateur de fiches calcul & décodage',
+    title: 'Générateur de messages codés — Créez des imprimables à vendre sur Etsy & KDP',
     tagline: 'Transformez l\'addition en mission de détective où chaque image cache un nombre secret.',
     description:
       'Créez des énigmes mathématiques codées à vendre sur Etsy, Amazon KDP ou La Salle des Maîtres — un format de puzzle unique qui se démarque dans les boutiques d\'imprimables. Chaque image sur la fiche représente un nombre caché — les utilisateurs résolvent des équations d\'addition pour déduire quel nombre appartient à quelle image, combinant fluence mathématique et raisonnement logique dans un seul exercice. Passez en mode Mot Mystère et l\'enjeu monte : entrez un mot secret de dix lettres maximum, et chaque équation correctement résolue révèle une lettre de la réponse tandis que trois lettres de distraction avec de mauvaises sommes maintiennent le suspense. Le générateur prend en charge onze alphabets spécifiques à chaque langue, donc le Mot Mystère fonctionne nativement en français, allemand, anglais, espagnol et sept autres langues — une fonctionnalité qu\'aucun autre générateur de fiches n\'offre. Choisissez parmi plus de 3 100 images dans 104 thèmes, définissez les plages de nombres de 1 à 20 avec deux à cinq symboles-codes par fiche, et exportez des PDF ou JPEG prêts à imprimer à plus de 400 DPI avec corrigés automatiques. Essai gratuit avec toutes les fonctionnalités — sans inscription, sans carte bancaire. Les téléchargements incluent un filigrane ; achetez une licence pour le supprimer.',

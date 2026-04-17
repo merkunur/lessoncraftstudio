@@ -16,12 +16,12 @@ const content: AppContent = {
       'kreativitet',
       'barn',
     ],
-    titleTag: 'Rita och färglägga uppgift att skriva ut | Kreativ generator',
+    titleTag: 'Rita och måla-generator | LessonCraftStudio',
     metaDescription: 'Skapa rit- och färgläggningsuppgifter med temabilder. 300 DPI PDF utskrivbara. Prova gratis — kommersiell licens.',
   },
 
   hero: {
-    title: 'Rita och färglägga uppgift att skriva ut — Kreativ generator',
+    title: 'Rita och måla-generator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa rit- och färgläggningsuppgifter med rutnät och temabilder — prova gratis med vattenmärke.',
     description:
       'Skapa rutnätsritningsarbetsblad att sälja på Etsy eller sammanställa i ritfärdighetsarbetsböcker för Amazon KDP. Köparna reproducerar en referensbild cell-för-cell från ett ledtrådsrutnät till ett tomt övningsrutnät — ett populärt format som föräldrar och förskollärare älskar. Justera ledtrådsprocenten från 10% till 75% och konfigurera rutnät från 3×3 till 10×10. Tre symmetrilägen lägger till variation. Innehåll från 100+ svartvita konturteman med mer än 3 000 illustrationer. Arbetsbladen är rent visuella — säljbara globalt utan översättning. Rita och måla-blad är ett unikt format som särskiljer dina produkter. Den svenska marknaden saknar denna produkttyp på Etsy. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

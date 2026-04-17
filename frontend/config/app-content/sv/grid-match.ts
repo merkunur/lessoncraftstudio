@@ -16,12 +16,12 @@ const content: AppContent = {
       'spegling',
       'visuell logik',
     ],
-    titleTag: 'Rita på rutnät uppgift att skriva ut | Generator rutnätsritning',
+    titleTag: 'Rutnätsgenerator | LessonCraftStudio',
     metaDescription: 'Skapa rita-på-rutnät uppgifter med temabilder. Automatiskt facit, utskrivbara PDF:er. Prova gratis.',
   },
 
   hero: {
-    title: 'Rita på rutnät uppgift att skriva ut — Generator rutnätsritning',
+    title: 'Rutnätsgenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa rita-på-rutnät uppgifter med temabilder och automatiskt facit — prova gratis med vattenmärke.',
     description:
       'Skapa rutnätskopplingspussel att sälja på Etsy eller sammanställa i visuella pusselböcker för Amazon KDP. En bild delas upp i plattor och köparna matchar numrerade plattor till rätt positioner. Konfigurera rutnätet från 2×2 till 4×4 och ställ in 1–5 ledtrådsceller — färre ledtrådar ger svårare pussel. Automatiskt facit med numrerade cirklar ingår. Pusslen är rent visuella — samma produkt fungerar globalt utan översättning, ett enda skapandeflöde betjänar varje marknad. Välj bland mer än 3 100 illustrationer i 104 teman. Rutnätspussel är ett populärt och unikt format som särskiljer dina produkter från vanliga arbetsblad. Den svenska marknaden på Etsy saknar denna produkttyp helt. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

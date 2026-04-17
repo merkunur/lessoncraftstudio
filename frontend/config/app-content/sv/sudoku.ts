@@ -16,12 +16,12 @@ const content: AppContent = {
       'bilder',
       'barn',
     ],
-    titleTag: 'Sudoku att skriva ut | Generator med bilder',
+    titleTag: 'Sudokugenerator | LessonCraftStudio',
     metaDescription: 'Skapa sudoku med bilder eller siffror, justerbar svårighetsgrad. Automatiskt facit, utskrivbara PDF:er. Prova gratis — sälj på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Sudoku att skriva ut — Generator med bilder och justerbar svårighet',
+    title: 'Sudokugenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa sudoku med bilder för barn och justerbar svårighetsgrad — prova gratis med vattenmärke.',
     description:
       'Skapa bildsudoku att sälja på Etsy eller sammanställa i logikpusselböcker för Amazon KDP. 4×4 rutnät med bilder istället för siffror — samma regler som klassiskt sudoku, men visuellt tillgängligt för barn. Tre svårighetsnivåer: Lätt (4 tomma celler), Medel (6) och Svår (8). Bildsudoku är helt visuellt — fungerar globalt utan översättning, en enda produkt säljs på alla marknader. Välj bland mer än 3 100 illustrationer i 104 teman. Sudokuböcker för barn är en konsekvent populär nisch på KDP. Den svenska marknaden saknar bildsudoku-produkter på Etsy. Automatiskt facit med komplett fyllt rutnät ingår. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

@@ -18,12 +18,12 @@ const content: AppContent = {
       'facit',
       'svar',
     ],
-    titleTag: 'Additionsuppgifter att skriva ut | Generator med facit',
+    titleTag: 'Additionsgenerator | LessonCraftStudio',
     metaDescription: 'Skapa additionsuppgifter med temabilder på några sekunder. Automatiskt facit, 300 DPI PDF, 11 språk. Prova gratis — kommersiell licens för Etsy & KDP.',
   },
 
   hero: {
-    title: 'Additionsuppgifter att skriva ut — Generator med temabilder och facit',
+    title: 'Additionsgenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa plusstycken med bilder för förskoleklass och lågstadiet — prova gratis med vattenmärke.',
     description:
       'Skapa arbetsblad med addition att sälja på Etsy eller Amazon KDP — och generera dem på under 3 minuter. Denna generator skapar övningsblad med tematiska bilder från ett bibliotek med över 3 000 illustrationer som tilltalar barn och övertygar föräldrar att köpa. Exportera utskriftsklara PDF:er i 400+ DPI med automatiskt genererat facit och sälj dem med den medföljande kommersiella licensen — ingen namnangivelse krävs, inga begränsningar. Välj mellan fyra olika övningslägen — Bild + Bild, Bild + Tal, Hitta Termen och Blandat Läge — för att anpassa till varje nivå från förskola till årskurs 2. Den svenskspråkiga marknaden för pedagogiska utskrivbara material på Etsy är i princip obefintlig: det finns knappt några säljare som erbjuder arbetsblad på svenska. Med 10,5 miljoner svenskar som är extremt digitalt vana och köpvilliga online är detta en unik möjlighet att vara först på en outnyttjad marknad med hög intäkt per kund. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

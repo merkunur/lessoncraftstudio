@@ -16,12 +16,12 @@ const content: AppContent = {
       'logik',
       'tänka',
     ],
-    titleTag: 'Mattespel att skriva ut | Generator mattepussel',
+    titleTag: 'Mattepusselgenerator | LessonCraftStudio',
     metaDescription: 'Skapa mattepussel med bilder där barn löser stycken för att matcha figurer. Facit inkluderat. Prova gratis.',
   },
 
   hero: {
-    title: 'Mattespel att skriva ut — Generator med bildpussel och facit',
+    title: 'Mattepusselgenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa mattepussel där barn löser räknestycken för att matcha bilder — prova gratis med vattenmärke.',
     description:
       'Skapa mattepussel att sälja på Etsy eller sammanställa i aktivitetsböcker för Amazon KDP — ett unikt format där en bild delas upp i pusselbitar med matteuppgifter. Köparna löser additions- och subtraktionsuppgifter för att sätta ihop bilden, vilket förvandlar rutinmässigt räknande till ett engagerande visuellt pussel. Konfigurera rutnätsstorlekar från 2×2 till 4×4, välj bland mer än 3 100 illustrationer i 104 teman, och exportera tryckfärdiga PDF:er i 400+ DPI med automatiskt facit. Mattepussel sticker ut i sökresultat på Etsy tack vare det unika formatet — köpare letar efter engagerande alternativ till vanliga räkneblad. Den svenska marknaden har i princip noll konkurrens för denna typ av produkt. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

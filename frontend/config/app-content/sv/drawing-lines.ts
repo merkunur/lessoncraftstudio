@@ -16,12 +16,12 @@ const content: AppContent = {
       'förskoleklass',
       'pengrepp',
     ],
-    titleTag: 'Skrivmotorik linjer att skriva ut | Generator överskrivning',
+    titleTag: 'Skrivmotorikgenerator | LessonCraftStudio',
     metaDescription: 'Skapa överskrivnings- och skrivmotorik-uppgifter med temabilder. 300 DPI PDF utskrivbara. Prova gratis — kommersiell licens.',
   },
 
   hero: {
-    title: 'Skrivmotorik linjer att skriva ut — Generator överskrivning',
+    title: 'Skrivmotorikgenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa överskrivningsövningar med streckade linjer och temabilder för förskoleklass — prova gratis med vattenmärke.',
     description:
       'Skapa linjespårningsblad att sälja på Etsy eller sammanställa i finmotoriska arbetsböcker för Amazon KDP. Åtta SVG-baserade mallar med kurvor, diagonaler och raka linjer kopplar samman matchande bildpar — ett visuellt engagerande format som föräldrar och förskollärare älskar. Varje arbetsblad är rent visuellt utan text, vilket gör dem säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Finmotoriska övningsblad är en av de mest efterfrågade produkterna för förskolebarn och förskoleklass — och den svenska marknaden på Etsy har i princip noll konkurrens. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

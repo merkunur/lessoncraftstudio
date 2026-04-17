@@ -16,12 +16,12 @@ const content: AppContent = {
       'ordna',
       'förskoleklass',
     ],
-    titleTag: 'Stor och liten uppgift att skriva ut | Generator storleksjämförelse',
+    titleTag: 'Stor och liten-generator | LessonCraftStudio',
     metaDescription: 'Skapa uppgifter om storleksjämförelse med temabilder. Stor vs. liten, ordna, automatiskt facit. Prova gratis.',
   },
 
   hero: {
-    title: 'Stor och liten uppgift att skriva ut — Generator storleksjämförelse',
+    title: 'Stor och liten-generator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa uppgifter om storleksjämförelse med temabilder för förskoleklass — prova gratis med vattenmärke.',
     description:
       'Skapa storleksjämförelseblad att sälja på Etsy eller sammanställa i tidiga inlärningsarbetsböcker för Amazon KDP. Fem frågetyper — ringa in den stora/lilla/medelstora, numrera stigande och fallande — ger variation för produktlinjer per svårighetsnivå. Två bildlägen: identiska bilder i olika storlekar och olika bilder för relativ bedömning. Arbetsbladen är helt visuella — säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Storleksjämförelse är en av de mest grundläggande förskolefärdigheterna — föräldrar och förskollärare söker aktivt efter detta material. Den svenska marknaden på Etsy saknar konkurrens. Automatiskt facit ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

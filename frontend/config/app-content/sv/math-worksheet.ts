@@ -17,12 +17,12 @@ const content: AppContent = {
       'facit',
       'PDF',
     ],
-    titleTag: 'Matteuppgifter generator | Skapa räkneuppgifter att skriva ut',
+    titleTag: 'Matteuppgiftsgenerator | LessonCraftStudio',
     metaDescription: 'Skapa matteuppgifter på beställning med automatiskt facit. 300 DPI PDF, 11 språk. Prova gratis — kommersiell licens för Etsy & KDP.',
   },
 
   hero: {
-    title: 'Matteuppgifter generator — Skapa räkneuppgifter att skriva ut',
+    title: 'Matteuppgiftsgenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa matteuppgifter med bilder och automatiskt facit för lågstadiet och mellanstadiet — prova gratis med vattenmärke.',
     description:
       'Skapa algebrapussel arbetsblad att sälja på Etsy eller sammanställa i aktivitetsböcker för Amazon KDP. Bilder fungerar som okända variabler i kopplade ekvationer — ett unikt format som sticker ut i sökresultat och lockar köpare som söker engagerande matteprodukter. Välj bland fyra svårighetsnivåer från Mycket Lätt till Svår, blanda addition och subtraktion, och ställ in talintervallet från 0 till 20. Den inbyggda algebraiska lösaren garanterar att varje pussel har exakt en korrekt lösning — ingen manuell kontroll behövs. Bläddra bland mer än 3 100 illustrationer i 104 teman att använda som algebraiska symboler, eller ladda upp egna bilder för ditt varumärke. Varje arbetsblad genererar automatiskt facit och exporteras i 400+ DPI. Den svenska marknaden för pedagogiska pussel på Etsy har i princip noll konkurrens — du kan vara först med algebrapussel på svenska. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

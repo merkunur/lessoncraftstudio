@@ -16,12 +16,12 @@ const content: AppContent = {
       'ordförråd',
       'ledtrådar',
     ],
-    titleTag: 'Hänga gubbe uppgift att skriva ut | Generator ordgåtor',
+    titleTag: 'Hänga gubbe-generator | LessonCraftStudio',
     metaDescription: 'Skapa hänga-gubbe-uppgifter med temaord och bilder. Automatiskt facit, utskrivbara PDF:er. Prova gratis.',
   },
 
   hero: {
-    title: 'Hänga gubbe uppgift att skriva ut — Generator med temaord och bilder',
+    title: 'Hänga gubbe-generator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa hänga-gubbe-uppgifter med bildledtrådar och fyra svårighetsnivåer — prova gratis med vattenmärke.',
     description:
       'Skapa ordgissningsspel att sälja på Etsy eller sammanställa i vokabulärpusselböcker för Amazon KDP. Köparna ser en bildledtråd och fyller i tomma bokstavsceller för att gissa det dolda ordet — ett hänga gubbe-liknande format som bygger stavning och ordförråd. Fyra svårighetsnivåer styr hur många bokstäver som visas som ledtrådar — från inga alls till hälften. Eftersom Gissa Ordet är språkkänsligt ändras målordet efter språk — \"dog\" blir \"hund\" på svenska — vilket gör varje språkversion till en unik produkt. Välj bland mer än 3 100 illustrationer i 104 teman, placera 1 till 10 pussel per blad, och exportera i 400+ DPI med automatiskt facit. Stöd för 11 språk öppnar flera marknader med samma produktformat. Den svenska marknaden för ordgissningsspel på Etsy saknar konkurrenter. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

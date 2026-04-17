@@ -17,12 +17,12 @@ const content: AppContent = {
       'lågstadiet',
       'facit',
     ],
-    titleTag: 'Para ihop uppgifter att skriva ut | Generator matchningslek',
+    titleTag: 'Pardragningsgenerator | LessonCraftStudio',
     metaDescription: 'Skapa para-ihop-uppgifter med temabilder för förskoleklass och lågstadiet. Automatiskt facit, 300 DPI PDF. Prova gratis.',
   },
 
   hero: {
-    title: 'Para ihop uppgifter att skriva ut — Generator matchningslek',
+    title: 'Pardragningsgenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa para-ihop-uppgifter med temabilder för förskoleklass och lågstadiet — prova gratis med vattenmärke.',
     description:
       'Skapa dra-ett-streck kopplingsblad att sälja på Etsy eller sammanställa i arbetsböcker för Amazon KDP. Fyra matchningslägen — Begynnelsebokstav, Bild+Ord, Bild/Ord Blandat och Anpassat Ord — ger dig flexibilitet att skapa unika produkter för varje åldersgrupp. Konfigurera 4, 5 eller 6 par per blad. Generatorn är språkkänslig: samma bilder producerar unika arbetsblad på 11 olika språk med lokaliserade ord och begynnelsebokstäver — varje språkversion blir en separat produkt. Automatiskt facit med kopplingslinjer ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Kopplingsblad är extremt populära bland föräldrar till förskolebarn och säljer konsekvent året runt. Den svenska marknaden saknar konkurrens för denna produkttyp. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

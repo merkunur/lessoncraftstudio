@@ -16,12 +16,12 @@ const content: AppContent = {
       'spårjakt',
       'barn',
     ],
-    titleTag: 'Skattjakt att skriva ut | Generator spårjakt',
+    titleTag: 'Skattjaktsgenerator | LessonCraftStudio',
     metaDescription: 'Skapa skattjakt- och tipspromenaduppgifter med temabilder. Utskrivbara PDF:er. Prova gratis — sälj på Etsy & KDP.',
   },
 
   hero: {
-    title: 'Skattjakt att skriva ut — Generator spårjakt med temabilder',
+    title: 'Skattjaktsgenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa skattjakt- och tipspromenaduppgifter med riktningsanvisningar och temabilder — prova gratis med vattenmärke.',
     description:
       'Skapa skattjaktblad att sälja på Etsy eller sammanställa i aktivitetsböcker för Amazon KDP. Köparna följer riktningsanvisningar för att hitta en gömd skatt på ett 5×5 koordinatrutnät — ett engagerande format som föräldrar och barn älskar. Grundläggande läge (upp/ner/vänster/höger) för tidiga användare, Kompass-läge (norr/söder/öster/väster) för avancerade. Generatorn är språkkänslig: samma pussel producerar autentiska riktningsanvisningar på 11 språk — \"Flytta ner 2 rutor\" på svenska, \"Move down 2 squares\" på engelska. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit med markerad skattplats ingår. Skattjaktblad är unika produkter som sticker ut på Etsy. Den svenska marknaden saknar denna produkttyp helt. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

@@ -16,12 +16,12 @@ const content: AppContent = {
       'mängder',
       'tal',
     ],
-    titleTag: 'Större än mindre än uppgift att skriva ut | Jämförelsegenerator',
+    titleTag: 'Större eller mindre-generator | LessonCraftStudio',
     metaDescription: 'Skapa uppgifter om att jämföra tal och mängder med temabilder. Automatiskt facit, 300 DPI PDF. Prova gratis.',
   },
 
   hero: {
-    title: 'Större än mindre än uppgift att skriva ut — Jämförelsegenerator',
+    title: 'Större eller mindre-generator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa uppgifter om att jämföra tal och mängder med temabilder — prova gratis med vattenmärke.',
     description:
       'Skapa jämförelsearbetsblad att sälja på Etsy eller sammanställa i matteaktivitetsböcker för Amazon KDP. Tre övningslägen — Bild till Bild, Bild till Tal och det unika läget Kontrollera och Kryssa Grupper — ger variation för produktlinjer per svårighetsnivå. Växla mellan samma och olika bilder, välj illustrationssymboler eller matematiska tecken. Välj bland mer än 3 100 illustrationer i 104 teman. Jämförelseblad är en grundläggande mattefärdighet som efterfrågas av föräldrar och förskollärare. Den svenska marknaden på Etsy har minimal konkurrens för visuella jämförelseblad. Automatiskt facit och export i 400+ DPI ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

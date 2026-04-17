@@ -16,12 +16,12 @@ const content: AppContent = {
       'substitution',
       'hemlig',
     ],
-    titleTag: 'Hemliga meddelanden att skriva ut | Kryptogramgenerator',
+    titleTag: 'Kryptogramgenerator | LessonCraftStudio',
     metaDescription: 'Skapa kryptogram och hemliga meddelanden med temabilder och automatiskt facit. 300 DPI PDF, 11 språk. Prova gratis — kommersiell licens.',
   },
 
   hero: {
-    title: 'Hemliga meddelanden att skriva ut — Kryptogramgenerator med temabilder',
+    title: 'Kryptogramgenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa kryptogram och hemliga meddelanden som barn dechiffrerar med bildledtrådar — prova gratis med vattenmärke.',
     description:
       'Skapa bildkryptogrampussel att sälja på Etsy eller sammanställa i pusselböcker för Amazon KDP. Varje bokstav i alfabetet mappas till en bild, och en hel fras kodas till ett visuellt chifferpussel som köparna knäcker genom mönsterigenkänning och deduktion. Reglaget Bokstäver att Avslöja (0–10) styr svårigheten — från noll ledtrådar till scaffoldade nybörjarpussel. Välj bland mer än 3 100 illustrationer i 104 teman. Svenska kryptogram kodar med å, ä, ö i alfabetet — varje språkversion blir en unik produkt. Stöd för 11 språk gör det möjligt att sälja på flera marknader med samma produktformat. Facit med komplett bokstavslegend ingår automatiskt. Exportera tryckfärdiga PDF:er i 400+ DPI. Kryptogram på svenska för Etsy och KDP är en nisch med i princip noll konkurrens — ett unikt produktformat som sticker ut. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

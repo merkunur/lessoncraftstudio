@@ -19,12 +19,12 @@ const content: AppContent = {
       'PDF',
       'grundskola',
     ],
-    titleTag: 'Ordsök generator | Skapa bokstavsjakt med temabilder',
+    titleTag: 'Ordletargenerator | LessonCraftStudio',
     metaDescription: 'Skapa ordsök med 3 000+ temabilder på 11 språk. Egna ord, automatiskt facit, 300 DPI PDF. Prova gratis — kommersiell licens.',
   },
 
   hero: {
-    title: 'Ordsök generator — Skapa bokstavsjakt med temabilder',
+    title: 'Ordletargenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa ordsök med justerbara rutnät från 5×5 till 30×30 och svenska ÅÄÖ — prova gratis med vattenmärke.',
     description:
       'Skapa ordpussel med bilder att sälja på Etsy eller sammanställa i ordpusselböcker för Amazon KDP — det klassiska formatet som aldrig går ur mode och säljer konsekvent året runt. Välj bland mer än 3 100 illustrationer i 104 teman som bildledtrådar, justera rutnätet från 5×5 till 30×30, och växla diagonaler och bakåtvända ord för att finjustera svårigheten. Svenska rutnät inkluderar å, ä och ö vid naturliga frekvensvikter — en funktion som inga konkurrenter erbjuder. Tre visningslägen styr hur ledtrådar visas: ord plus bilder, enbart bilder eller enbart ord. Stöd för 11 språk gör det möjligt att sälja samma produktformat på flera marknader. Färgkodat facit ingår automatiskt. Exportera tryckfärdiga PDF:er i 400+ DPI i Letter eller A4. Ordpussel på svenska för Etsy har i princip noll konkurrens — var först på denna marknad. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

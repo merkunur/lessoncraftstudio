@@ -16,12 +16,12 @@ const content: AppContent = {
       'förskoleklass',
       'lågstadiet',
     ],
-    titleTag: 'Pussel saknade bitar att skriva ut | Generator visuell logik',
+    titleTag: 'Saknade bitar-generator | LessonCraftStudio',
     metaDescription: 'Skapa uppgifter med saknade bitar med temabilder och automatiskt facit. 300 DPI PDF utskrivbara. Prova gratis.',
   },
 
   hero: {
-    title: 'Pussel saknade bitar att skriva ut — Generator visuell logik',
+    title: 'Saknade bitar-generator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa uppgifter med saknade pusselbitar och temabilder för förskoleklass — prova gratis med vattenmärke.',
     description:
       'Skapa saknade bitar-pussel att sälja på Etsy eller sammanställa i pusselarbetsböcker för Amazon KDP. En bild har hål utklippta och köparna identifierar vilken numrerad bit som fyller varje lucka — ett engagerande format som tränar visuell diskriminering. Välj bland 6 bitformer och konfigurera 1–5 saknade bitar med 2–6 alternativ inklusive distraktorer. Automatiskt facit ingår. Pusslen är rent visuella — samma produkt säljs globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Saknade bitar-pussel är ett unikt produktformat som sticker ut bland konkurrenter och säljer bra som del av visuella perception-böcker på KDP. Den svenska marknaden saknar denna typ av produkter helt. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

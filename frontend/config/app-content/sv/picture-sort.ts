@@ -16,12 +16,12 @@ const content: AppContent = {
       'ordna',
       'förskoleklass',
     ],
-    titleTag: 'Sorterings-uppgift att skriva ut | Kategoriseringsgenerator',
+    titleTag: 'Sorteringsgenerator | LessonCraftStudio',
     metaDescription: 'Skapa sorterings- och kategoriseringsuppgifter med temabilder. Automatiskt facit, utskrivbara PDF:er. Prova gratis.',
   },
 
   hero: {
-    title: 'Sorterings-uppgift att skriva ut — Kategoriseringsgenerator',
+    title: 'Sorteringsgenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa sorterings- och kategoriseringsuppgifter med temabilder för förskoleklass — prova gratis med vattenmärke.',
     description:
       'Skapa sorteringsblad att sälja på Etsy eller sammanställa i klassificerings-arbetsböcker för Amazon KDP. Köparna sorterar utklippta bilder i två kategorier — ett interaktivt format som föräldrar och förskollärare älskar. Välj temaläge eller manuellt läge för att anpassa kategorier och bilder. Generatorn är språkkänslig: samma teman producerar unika arbetsblad på 11 språk med lokaliserade kategorietiketter. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Sorteringsaktiviteter är ett av de mest efterfrågade produktformaten för förskolebarn — och den svenska marknaden på Etsy saknar praktiskt taget konkurrens. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

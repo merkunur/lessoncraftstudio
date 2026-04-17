@@ -18,12 +18,12 @@ const content: AppContent = {
       'skillnad',
       'facit',
     ],
-    titleTag: 'Subtraktionsuppgifter att skriva ut | Generator med facit',
+    titleTag: 'Subtraktionsgenerator | LessonCraftStudio',
     metaDescription: 'Skapa subtraktionsuppgifter med temabilder och automatiskt facit. 300 DPI PDF, 11 språk. Prova gratis — kommersiell licens inkluderad.',
   },
 
   hero: {
-    title: 'Subtraktionsuppgifter att skriva ut — Generator med temabilder och facit',
+    title: 'Subtraktionsgenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa minusstycken med bilder för förskoleklass och lågstadiet — prova gratis med vattenmärke.',
     description:
       'Gör subtraktion till en säljbar produkt med en generator skapad för printables-entreprenörer. Skapa illustrerade subtraktionsblad med tematiska bilder från över 100 kategorier — djur, fordon, mat, natur — som gör matematiken engagerande och dina Etsy-annonser oemotståndliga. Varje arbetsblad exporteras som utskriftsklar PDF i 400+ DPI med automatiskt facit, redo att laddas upp på Etsy, sammanställas i en aktivitetsbok för Amazon KDP, eller erbjudas via din egen webbshop. Den kommersiella licensen ingår med varje arbetsblad. Välj mellan fyra övningslägen — Överstrykning, Bild − Tal, Hitta Subtrahenden och Blandat Läge — för att vägleda lärandet från förskola till årskurs 2. Lönsamt tips: kombinera addition och subtraktion i paket — säljare rapporterar betydligt högre genomsnittliga ordervärden med kombinerade mattepaket. Den svenska marknaden erbjuder enorm potential med minimal konkurrens. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

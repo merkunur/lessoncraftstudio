@@ -17,12 +17,12 @@ const content: AppContent = {
       'under',
       'bredvid',
     ],
-    titleTag: 'Rumsuppfattning uppgift att skriva ut | Prepositionsgenerator',
+    titleTag: 'Prepositionsgenerator | LessonCraftStudio',
     metaDescription: 'Skapa uppgifter om rumsuppfattning och prepositioner med temabilder. Automatiskt facit, 11 språk. Prova gratis.',
   },
 
   hero: {
-    title: 'Rumsuppfattning uppgift att skriva ut — Prepositionsgenerator',
+    title: 'Prepositionsgenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa uppgifter om rumsuppfattning och prepositioner med temabilder — prova gratis med vattenmärke.',
     description:
       'Skapa prepositionsblad att sälja på Etsy, Eduki eller sammanställa i språkarbetsböcker för Amazon KDP. Åtta kärnprepositioner — i, på, under, bredvid, bakom, mellan, ovanför och framför — med ifyllningsövningar och flervalsfrågor. SFI-lärare i hundratals kommuner behöver ständigt nytt material för prepositioner — en B2B-marknad med hög betalningsvilja och kronisk brist på varierat material. Stöd för 11 språk med grammatiskt korrekta prepositioner multiplicerar din produktkatalog. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit och export i 400+ DPI ingår. Den svenska marknaden för prepositionsblad är i princip obefintlig på Etsy — en enorm outnyttjad möjlighet. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

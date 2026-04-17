@@ -16,12 +16,12 @@ const content: AppContent = {
       'fyll i',
       'flerval',
     ],
-    titleTag: 'Logiska följder uppgifter att skriva ut | Generator',
+    titleTag: 'Mönstergenerator | LessonCraftStudio',
     metaDescription: 'Skapa övningar i logiska följder med temabilder. Automatiskt facit, 300 DPI PDF. Prova gratis.',
   },
 
   hero: {
-    title: 'Logiska följder uppgifter att skriva ut — Generator med temabilder',
+    title: 'Mönstergenerator — Skapa utskrifter att sälja på Etsy och KDP',
     tagline: 'Skapa övningar i logiska följder med nio mönstertyper och temabilder — prova gratis med vattenmärke.',
     description:
       'Skapa mönsterkompletteringsarbetsblad att sälja på Etsy eller sammanställa i arbetsböcker för Amazon KDP. Nio mönstertyper från AB till ABCD och två frågelägen — fyll-i-rutan och flerval — ger den bredaste variationen av mönsterövningar tillgänglig. Konfigurera 1–8 övningar per sida med oberoende mönstertyp, frågeläge och tema per övning. Arbetsbladen är helt visuella — säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Med nio mönstertyper kan du skapa produktlinjer per svårighetsnivå — från enkla AB-mönster för förskolan till komplexa ABCD-mönster för årskurs 2. Den svenska marknaden saknar professionella mönsterblad på Etsy. Automatiskt facit ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',

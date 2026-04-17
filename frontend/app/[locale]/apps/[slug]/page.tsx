@@ -320,6 +320,8 @@ const uiStrings: Record<string, {
     pdfExport: 'Umiddelbar PDF-eksport',
     watermarkNote: 'Gratisversjonen inkluderer et vannmerke. Kjøp for å fjerne det.',
     startCreating: 'Begynn å lage nå',
+    pairedToolPrompt: 'Leter du etter den gratis nettleserversjonen?',
+    pairedToolAnchor: 'Prøv Maker-verktøyet — ingen registrering.',
   },
   fi: {
     tryFree: 'Kokeile ilmaiseksi (vesileimalla)',

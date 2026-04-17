@@ -498,6 +498,28 @@ export default function ToolsListingPage({
           {/* Non-EN: 33 generators grid (existing behavior) */}
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-5xl">
+              {/* NO intro targeting "gratis arbeidsarkgenerator" /
+                  "lag utskrifter på nett" queries. */}
+              {locale === 'no' && (
+                <div className="max-w-3xl mx-auto mb-12 space-y-4 text-gray-700 text-base leading-relaxed">
+                  <p>
+                    Gratis arbeidsarkgeneratorer lar deg lage utskriftsklart læringsmateriell til klasserommet, hjemmeundervisning eller personlig bruk rett i nettleseren &mdash; uten programvareinstallasjon og uten månedsabonnement. Hver av de 33 gratisgeneratorene nedenfor produserer utskriftsklare PDF- og JPEG-filer som du kan laste ned umiddelbart.
+                  </p>
+                  <p>
+                    Er du lærer som forbereder en støttetime, forelder som planlegger en hjemmeundervisningsenhet, eller utskriftsskaper som utforsker et nytt format før du forplikter deg? Disse nettleserverktøyene er laget for deg. Ingen kontoopprettelse, ingen utløpende prøveperiode, ingen grense for antall arbeidsark. Velg et tema, tilpass layouten, eksporter &mdash; det er hele prosessen.
+                  </p>
+                  <p>
+                    Vannmerket på gratisversjonen er den eneste forskjellen fra den betalte versjonen. Rutenettstørrelser, bildetemaer, vanskelighetsnivåer, fasit og PDF-oppløsning er identiske med det lisensierte selgere bruker. Vannmerket gjør gratis arbeidsark uegnet for kommersiell videresalg, men helt brukbart til klasseperm, støttemateriell, leksetillegg og personlige prosjekter.
+                  </p>
+                  <p>
+                    Alle 33 generatorene støtter 11 språk: engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk og finsk. Bildene bærer arbeidsarkets innhold, så de fleste resultatene oversettes automatisk når du bytter språk.
+                  </p>
+                  <p>
+                    Klar til å starte? Utforsk kategoriene nedenfor. Hvis du bygger en utskriftsproduktlinje for Etsy eller Amazon KDP og trenger nedlastinger uten vannmerke med kommersiell lisens, finner du de lisensierte versjonene av alle generatorene nedenfor i <Link href={`/${locale}/apps`} className="text-indigo-600 hover:text-indigo-700 underline font-medium">Applikasjoner</Link>.
+                  </p>
+                </div>
+              )}
+
               {/* DA intro targeting "gratis arbejdsark generator" /
                   "lav printables online" queries. */}
               {locale === 'da' && (

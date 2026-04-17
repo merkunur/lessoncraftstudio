@@ -23,7 +23,7 @@ const content: AppContent = {
   },
 
   hero: {
-    title: 'Word Scramble Generator — Sell Puzzle Printables on Etsy & KDP',
+    title: 'Word Scramble Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Shuffled letter tiles meet image clues — four difficulty levels and vowel-consonant color coding turn every word into a hands-on spelling puzzle.',
     description:
       'Word scramble worksheets are a proven seller in the literacy printable niche — and this maker lets Etsy sellers create professional letter-rearrangement puzzles in minutes. Each worksheet pairs an image clue with shuffled letter tiles that solvers rearrange to spell the correct word. Four difficulty levels control how many letters are pre-placed, creating natural product tiers from beginner to advanced. The unique vowel-consonant color coding adds a phonics dimension no other generator offers. Choose from 3,000+ themed images and export 300 DPI print-ready PDFs with automatic answer keys and full commercial license. Built-in 11-language support means each locale generates different words — one tool produces sellable products for English, German, French, and more. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

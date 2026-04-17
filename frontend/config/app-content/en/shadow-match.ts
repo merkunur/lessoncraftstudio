@@ -19,11 +19,11 @@ const content: AppContent = {
       'commercial license',
     ],
     titleTag: 'Shadow Matching Worksheet Generator — Toddler KDP Books | LessonCraftStudio',
-    metaDescription: 'Create shadow matching worksheets for KDP toddler activity books. 104 themed image sets, auto answer keys. Best-selling preschool format. Commercial license. Try free.',
+    metaDescription: 'Shadow match worksheet generator for Etsy and KDP sellers. 104 themed sets, answer keys, best-selling preschool format. Commercial license. Try free.',
   },
 
   hero: {
-    title: 'Shadow Match Generator — Sell Visual Puzzle Printables on Etsy',
+    title: 'Shadow Match Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Two matching modes in one generator — Shadow Match creates auto-generated black silhouettes from any image, Make It Whole splits images into halves — both with Fisher-Yates derangement ensuring no trivial matches, auto-generated answer keys, and 104 themed image collections.',
     description:
       'Shadow matching worksheets are a visually striking format that catches buyer attention on Etsy — solvers match colorful images to their silhouettes, building visual discrimination skills preschool parents actively search for. This maker creates professional shadow matching activities with themed illustrations and automatic answer keys in under 3 minutes. Choose from 3,000+ images across 104 collections, configure the number of matching pairs, and export 300 DPI print-ready PDFs with full commercial license. The silhouette format is purely visual and works worldwide without translation. Shadow matching is an underserved niche in the preschool printable market, giving you low competition and strong demand. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

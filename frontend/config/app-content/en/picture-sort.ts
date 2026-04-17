@@ -23,7 +23,7 @@ const content: AppContent = {
   },
 
   hero: {
-    title: 'Picture Sort Generator — Sell Unique Sorting Printables on Etsy',
+    title: 'Picture Sort Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Two-category sorting in one powerful generator — theme-based or manual image selection — with auto-generated answer keys, 4–12 configurable images, a localized \"Picture Sort\" header in 11 languages, and 104 themed image collections.',
     description:
       'Sorting and categorization worksheets are essential early learning products that sell consistently on Etsy — parents and teachers use them to teach classification skills from preschool through first grade. This maker creates professional picture sorting activities where solvers place images into correct categories using themed illustrations. Choose from 3,000+ images across 104 collections, configure sorting categories, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The visual format works worldwide without translation, and sorting worksheets pair naturally with matching and pattern activities for comprehensive early learning bundles. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

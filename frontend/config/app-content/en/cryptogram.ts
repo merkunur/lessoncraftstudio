@@ -23,7 +23,7 @@ const content: AppContent = {
   },
 
   hero: {
-    title: 'Cryptogram Generator — An Untapped Printable Niche for Etsy Sellers',
+    title: 'Cryptogram Puzzle Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Map alphabet letters to images and encode entire phrases into visual cipher puzzles — adjustable difficulty from zero hints to heavily scaffolded with Letters to Reveal.',
     description:
       'Cryptogram cipher puzzles are one of the most unique and low-competition formats you can sell on Etsy and Amazon KDP. This generator turns any phrase into a picture cipher where every letter maps to an image — solvers crack the code through pattern recognition and deduction. Adjust difficulty with the Letters to Reveal slider, choose from 3,000+ themed illustrations, and generate complete puzzles with answer keys in under 3 minutes. The 11-language support creates genuinely different cipher products per locale — German with umlauts, French with accented characters — opening markets most sellers ignore entirely. Every puzzle exports as a 300 DPI print-ready PDF with full commercial license. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

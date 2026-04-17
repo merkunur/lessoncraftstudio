@@ -23,7 +23,7 @@ const content: AppContent = {
   },
 
   hero: {
-    title: 'Find & Count Generator — Sell Popular Kids Printables on Etsy',
+    title: 'Find & Count Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Two activity modes in one generator — Hidden Object I Spy and Letter Spotting — with four mixable task types (circle, square, cross out, count), locale-specific alphabets with accented letters, localized image name labels in 11 languages, and auto-generated answer keys with visual annotations.',
     description:
       'Find-and-count worksheets combine the appeal of I Spy with counting practice — a format that sells consistently on Etsy and makes excellent Amazon KDP activity books. This creator generates professional search-and-count worksheets where solvers find specific objects in a scattered scene and complete tasks like circling, counting, or crossing out items. The Letter Spotting mode adds alphabet learning with locale-specific characters including German umlauts and French accents. Choose from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with automatic annotated answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The 11-language support with localized image labels creates distinct products per locale. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

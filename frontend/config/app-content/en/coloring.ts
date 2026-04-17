@@ -23,7 +23,7 @@ const content: AppContent = {
   },
 
   hero: {
-    title: 'Coloring Page Generator — Create & Sell Coloring Books on Etsy & KDP',
+    title: 'Coloring Page Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Free-form canvas coloring page designer — browse 104 themed image collections, add freehand drawings, include layout helpers like name fields and handwriting lines, and toggle grayscale export for ink-friendly coloring pages.',
     description:
       'Coloring pages are the single highest-demand printable category on Etsy and one of the top KDP niches — and this generator lets you create professional coloring pages to sell without any drawing skills. Convert themed images into clean outlines ready for coloring, choose from 3,000+ illustrations across 104 collections, and export 300 DPI print-ready PDFs with full commercial license. Build themed coloring books for Amazon KDP or seasonal coloring bundles for Etsy in minutes instead of hours. The 104 theme collections cover animals, holidays, vehicles, food, nature, and dozens more — giving you endless product variety for year-round sales. Every coloring page works worldwide without translation. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

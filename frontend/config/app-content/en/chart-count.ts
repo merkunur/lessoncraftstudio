@@ -19,11 +19,11 @@ const content: AppContent = {
       'bulk generation',
     ],
     titleTag: 'Chart Count Worksheet Generator — Preschool KDP Book Pages | LessonCraftStudio',
-    metaDescription: 'Generate counting chart worksheets for preschool KDP books and Etsy bundles. Themed images, multiple layouts, auto answer keys. Commercial license included. Try free.',
+    metaDescription: 'Chart count worksheet generator for Etsy and KDP sellers. Themed images, multiple layouts, auto answer keys, 11 languages. Commercial license. Try free.',
   },
 
   hero: {
-    title: 'Chart Count Worksheet Generator — Low-Competition Etsy Niche',
+    title: 'Chart Count Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Dual-canvas pictograph maker — generate scattered image grids with 6 image types, auto-filled bar chart answer keys, localized headers in 11 languages, and 104 themed image collections for data representation worksheets.',
     description:
       'Graphing and data worksheets are an underserved niche on Etsy — most sellers focus on basic math, leaving counting chart printables as a low-competition opportunity. This generator creates picture graph and chart count worksheets using themed images where students count, tally, and compare data visually. Export as 300 DPI print-ready PDFs with automatic answer keys and sell them on Etsy, compile them into Amazon KDP data and graphing workbooks, or list on TPT for classroom use. The commercial license covers all platforms with zero restrictions. Tap into the growing demand for STEM-focused early learning printables with a product format that few competing sellers offer. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

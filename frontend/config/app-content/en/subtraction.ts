@@ -19,11 +19,11 @@ const content: AppContent = {
       'bulk generation',
     ],
     titleTag: 'Subtraction Worksheet Generator — KDP Math Workbook Creator | LessonCraftStudio',
-    metaDescription: 'Create subtraction worksheets for Amazon KDP math workbooks and Etsy digital downloads. Visual counting, themed images, auto answer keys. Commercial license. Try free.',
+    metaDescription: 'Subtraction worksheet generator for Etsy and KDP sellers. Visual counting, themed images, auto answer keys, 11 languages. Commercial license. Try free.',
   },
 
   hero: {
-    title: 'Subtraction Worksheet Generator — Create & Sell on Etsy and KDP',
+    title: 'Subtraction Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Make subtraction click with picture-based worksheets where solvers cross out images to find the answer.',
     description:
       'Turn subtraction into a sellable product with a generator built for printable entrepreneurs. Create image-based subtraction worksheets featuring themed illustrations — animals, vehicles, food, nature, and dozens more — that make math engaging and your listings irresistible. Each worksheet exports as a 300 DPI print-ready PDF with an automatic answer key, ready to upload as a digital download on Etsy, compile into an Amazon KDP activity book, or list on Teachers Pay Teachers. Commercial license is included with every worksheet, so you keep 100% of your revenue with zero attribution required. Sellers who bundle addition and subtraction worksheets together consistently report higher average order values — and you can create both formats in under 3 minutes each. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

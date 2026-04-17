@@ -23,7 +23,7 @@ const content: AppContent = {
   },
 
   hero: {
-    title: 'Alphabet Train Generator — Sell Unique ABC Printables on Etsy',
+    title: 'Alphabet Train Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Every wagon carries a letter and a matching image — building letter recognition one train car at a time.',
     description:
       'Alphabet worksheets are one of the highest-demand printable products on Etsy — parents, homeschool families, and teachers buy letter learning materials year-round. This generator creates unique train-themed alphabet activities where each letter rides in its own train car with a themed image, making letter learning visual and engaging. Choose from 3,000+ illustrations across 104 collections and export 300 DPI print-ready PDFs with automatic answer keys. The 11-language support generates different alphabet content per locale, including accented characters for German, French, Spanish, and more — each language is a separate sellable product. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

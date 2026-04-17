@@ -19,11 +19,11 @@ const content: AppContent = {
       'commercial license',
     ],
     titleTag: 'Pattern Worksheet Generator — Early Math KDP Activity Pages | LessonCraftStudio',
-    metaDescription: 'Create pattern recognition worksheets for KDP early math books. Multiple pattern types, 104 themes, auto answer keys. Sell on Etsy or KDP. Commercial license. Try free.',
+    metaDescription: 'Pattern worksheet generator for Etsy and KDP sellers. Multiple pattern types, 104 themes, auto answer keys, 11 languages. Commercial license. Try free.',
   },
 
   hero: {
-    title: 'Pattern Worksheet Generator — Sell Math Printables on Etsy & KDP',
+    title: 'Pattern Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Nine pattern types from AB to ABCD — two question modes (fill-in-the-blank and multiple choice) — with per-exercise independent configuration for pattern type, question mode, and theme on every page.',
     description:
       'Pattern recognition worksheets build critical thinking skills that parents and educators actively seek -- making them a reliable seller on Etsy and Amazon KDP year-round. This maker creates professional visual pattern activities where learners identify, extend, and complete image sequences using themed illustrations. Choose from 3,000+ images across 104 collections, configure pattern complexity and length, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. Pattern worksheets pair naturally with other early learning formats for comprehensive bundles that command premium prices. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

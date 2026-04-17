@@ -19,11 +19,11 @@ const content: AppContent = {
       'auto answer keys',
     ],
     titleTag: 'Math Drill Worksheet Maker — KDP Workbook & Etsy Bundle Creator | LessonCraftStudio',
-    metaDescription: 'Build math drill worksheets for Amazon KDP workbooks. Addition, subtraction, multiplication, division. Custom number ranges, 300 DPI PDFs. Commercial license. Try free.',
+    metaDescription: 'Math worksheet generator for Etsy and KDP sellers. Addition, subtraction, multiplication, division with custom ranges. 300 DPI PDFs. Try free.',
   },
 
   hero: {
-    title: 'Math Worksheet Generator — Build Your Printable Math Business',
+    title: 'Math Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Transform early algebra into a visual adventure — images become variables, and every puzzle has exactly one solution.',
     description:
       'Build a catalog of math drill worksheets and sell them across Etsy, Amazon KDP, and Teachers Pay Teachers — all from one generator designed for printable sellers. Configure any combination of operations (addition, subtraction, multiplication, division), set number ranges for precise difficulty targeting, and generate clean, professional layouts that export as 300 DPI PDFs with automatic answer keys. Unlike image-based math generators, this tool produces focused number-only practice sheets that appeal to parents wanting homework supplements and homeschool families building curriculum. Every worksheet includes a commercial license, making this ideal for building KDP math workbooks or Etsy digital download bundles that target specific grade levels. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

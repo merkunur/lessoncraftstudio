@@ -23,7 +23,7 @@ const content: AppContent = {
   },
 
   hero: {
-    title: 'Treasure Hunt Generator — A Unique Low-Competition Etsy Printable',
+    title: 'Treasure Hunt Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Generate directional path-finding puzzles on a 5×5 coordinate grid — two direction vocabularies (Basic: up/down/left/right and Cardinal: north/south/east/west), fully localized directional clues in 11 languages, auto-generated answer key with highlighted treasure location, and treasure-themed headers across 104 image collections.',
     description:
       'Treasure hunt worksheets combine adventure excitement with directional skills -- a unique printable format that stands out on Etsy and makes engaging Amazon KDP activity books. This generator creates professional path-finding puzzles on a coordinate grid where solvers follow directional clues to locate hidden treasure among themed image landmarks. Choose Basic (up/down/left/right) or Cardinal (north/south/east/west) direction modes, pick from 3,000+ themed illustrations across 104 collections, and export 300 DPI print-ready PDFs with automatic answer keys. The 11-language support translates all directional clues, creating distinct products per locale. Every worksheet includes full commercial license for Etsy, Amazon KDP, or any marketplace. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

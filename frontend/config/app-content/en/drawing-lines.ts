@@ -23,7 +23,7 @@ const content: AppContent = {
   },
 
   hero: {
-    title: 'Tracing Worksheet Generator — Sell Pre-K Printables on Etsy',
+    title: 'Tracing Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Eight SVG line templates — curves, diagonals, horizontal, and vertical — with 4–5 image pairs per page for fine motor skill development through guided line tracing.',
     description:
       'Tracing line worksheets tap into the huge pre-writing and fine motor skills niche on Etsy — parents and therapists buy them for toddlers and preschoolers year-round. This generator creates professional line tracing activities where users draw along guided paths to connect matching image pairs. Eight SVG-based templates cover curves, diagonals, horizontal, and vertical lines with 4-5 themed image pairs per page. Choose from 3,000+ illustrations across 104 themed collections to create products that match any seasonal trend or interest niche. Every worksheet is purely visual with zero text, making them universally sellable worldwide. Export 300 DPI print-ready PDFs with full commercial license for Etsy, Amazon KDP, or any marketplace. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

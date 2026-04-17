@@ -1,0 +1,147 @@
+# SEO Translation Queue — April 2026
+
+Captures every EN string changed during the 2026-04 SEO refresh so the same
+changes can be propagated to the 10 remaining locales (de, fr, es, pt, it,
+nl, sv, da, no, fi). Each entry cites the content file, the field, the
+before, and the after. Apply equivalent changes in `frontend/config/app-content/<locale>/<file>.ts`
+(for apps) and `frontend/config/tool-content/<locale>/<file>.ts` (for tools).
+
+**Do not commit translations into `frontend/config/app-content/en/`** — EN is
+the source of truth and has already been updated.
+
+**File encoding rules** (per `CLAUDE.md`): use real characters, never `\uXXXX`
+escape sequences; never use curly/smart quotes in .ts files; escape apostrophes
+inside single-quoted strings. Run `node scripts/find-broken-quotes.js` after
+editing.
+
+---
+
+## Commit A — `ctaHeading` field added to all 33 EN apps
+
+The template now renders `content.ctaHeading || ui.startCreating || 'Start creating now'`. Non-EN
+locales already have translated `ui.startCreating` values, so a short generic
+fallback is already live in every locale. Adding locale-specific `ctaHeading`
+per generator is **optional polish**; it is only needed if a more specific
+verb phrase is desired per generator. If you do translate, follow the same
+action-phrase pattern: "Start creating [generator output]".
+
+EN values (for reference):
+
+- `addition.ts` → "Start creating addition worksheets"
+- `alphabet-train.ts` → "Start creating alphabet train worksheets"
+- `big-small.ts` → "Start creating big-vs-small worksheets"
+- `bingo.ts` → "Start creating bingo cards"
+- `chart-count.ts` → "Start creating counting chart worksheets"
+- `code-addition.ts` → "Start creating code-breaking addition puzzles"
+- `coloring.ts` → "Start creating coloring pages"
+- `crossword.ts` → "Start creating picture crosswords"
+- `cryptogram.ts` → "Start creating cryptogram puzzles"
+- `draw-and-color.ts` → "Start creating draw-and-color worksheets"
+- `drawing-lines.ts` → "Start creating line tracing worksheets"
+- `find-and-count.ts` → "Start creating find-and-count pages"
+- `find-objects.ts` → "Start creating hidden object puzzles"
+- `grid-match.ts` → "Start creating grid match worksheets"
+- `matching.ts` → "Start creating matching worksheets"
+- `math-puzzle.ts` → "Start creating math logic puzzles"
+- `math-worksheet.ts` → "Start creating mixed math worksheets"
+- `missing-pieces.ts` → "Start creating missing pieces puzzles"
+- `more-less.ts` → "Start creating more-or-less worksheets"
+- `odd-one-out.ts` → "Start creating odd-one-out worksheets"
+- `pattern-train.ts` → "Start creating pattern train worksheets"
+- `pattern-worksheet.ts` → "Start creating pattern worksheets"
+- `picture-path.ts` → "Start creating maze path puzzles"
+- `picture-sort.ts` → "Start creating picture sort worksheets"
+- `prepositions.ts` → "Start creating prepositions worksheets"
+- `shadow-match.ts` → "Start creating shadow match worksheets"
+- `subtraction.ts` → "Start creating subtraction worksheets"
+- `sudoku.ts` → "Start creating sudoku puzzles"
+- `treasure-hunt.ts` → "Start creating treasure hunt worksheets"
+- `word-guess.ts` → "Start creating word guess worksheets"
+- `word-scramble.ts` → "Start creating word scramble worksheets"
+- `wordsearch.ts` → "Start creating word search puzzles"
+- `writing.ts` → "Start creating handwriting practice sheets"
+
+---
+
+## Commit B — H1 rewrite (apps pages)
+
+Every EN `hero.title` was normalized to the pattern
+`[Generator Name] Generator — Create Printables to Sell on Etsy & KDP`
+(or "Maker" where it reads naturally). Translators should produce an
+equivalent phrase in each target locale. The important invariants:
+
+- **The generator keyword leads the H1** (before the em-dash), not the
+  commercial angle.
+- **Use "Generator" or "Maker"** according to what reads naturally in the
+  target language. If "Generator" is a direct cognate, prefer it;
+  otherwise, use the closest idiomatic equivalent ("Arbeitsblatt-Generator",
+  "Générateur de fiches", "Generatore di schede", etc.).
+- **Use a real em-dash (`—`)**, never `\u2014`.
+
+Per-file mapping:
+
+| File | New EN H1 |
+|------|-----------|
+| `addition.ts` | Addition Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `alphabet-train.ts` | Alphabet Train Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `big-small.ts` | Big & Small Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `bingo.ts` | Bingo Card Maker — Create Printables to Sell on Etsy & KDP |
+| `chart-count.ts` | Chart Count Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `code-addition.ts` | Code Addition Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `coloring.ts` | Coloring Page Generator — Create Printables to Sell on Etsy & KDP |
+| `crossword.ts` | Picture Crossword Generator — Create Printables to Sell on Etsy & KDP |
+| `cryptogram.ts` | Cryptogram Puzzle Generator — Create Printables to Sell on Etsy & KDP |
+| `draw-and-color.ts` | Draw & Color Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `drawing-lines.ts` | Tracing Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `find-and-count.ts` | Find & Count Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `find-objects.ts` | Hidden Object Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `grid-match.ts` | Grid Match Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `matching.ts` | Matching Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `math-puzzle.ts` | Math Puzzle Generator — Create Printables to Sell on Etsy & KDP |
+| `math-worksheet.ts` | Math Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `missing-pieces.ts` | Missing Pieces Puzzle Generator — Create Printables to Sell on Etsy & KDP |
+| `more-less.ts` | More or Less Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `odd-one-out.ts` | Odd One Out Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `pattern-train.ts` | Pattern Train Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `pattern-worksheet.ts` | Pattern Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `picture-path.ts` | Picture Path Maze Generator — Create Printables to Sell on Etsy & KDP |
+| `picture-sort.ts` | Picture Sort Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `prepositions.ts` | Prepositions Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `shadow-match.ts` | Shadow Match Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `subtraction.ts` | Subtraction Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `sudoku.ts` | Picture Sudoku Generator — Create Printables to Sell on Etsy & KDP |
+| `treasure-hunt.ts` | Treasure Hunt Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `word-guess.ts` | Word Guess Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+| `word-scramble.ts` | Word Scramble Generator — Create Printables to Sell on Etsy & KDP |
+| `wordsearch.ts` | Word Search Generator — Create Printables to Sell on Etsy & KDP |
+| `writing.ts` | Handwriting Worksheet Generator — Create Printables to Sell on Etsy & KDP |
+
+---
+
+## Commit B — Meta description trim (9 apps files)
+
+Nine EN `seo.metaDescription` values were trimmed from 166–171 chars down
+to 136–152 chars to stay comfortably within Google's display threshold
+(~160 chars). Keep the target under 160 chars in each locale.
+
+Updated EN texts:
+
+- `addition.ts`: "Addition worksheet generator for Etsy and KDP sellers. 4 math modes, 104 image themes, auto answer keys, 11 languages. Try free with watermark."
+- `chart-count.ts`: "Chart count worksheet generator for Etsy and KDP sellers. Themed images, multiple layouts, auto answer keys, 11 languages. Commercial license. Try free."
+- `code-addition.ts`: "Code addition puzzle generator for Etsy and KDP sellers. Crack-the-code math competitors don't offer. 104 themes, answer keys. Try free."
+- `math-worksheet.ts`: "Math worksheet generator for Etsy and KDP sellers. Addition, subtraction, multiplication, division with custom ranges. 300 DPI PDFs. Try free."
+- `pattern-train.ts`: "Pattern train worksheet generator for Etsy and KDP sellers. AB/AAB/ABB/ABC/AABB patterns, themed images, 11 languages. Commercial license. Try free."
+- `pattern-worksheet.ts`: "Pattern worksheet generator for Etsy and KDP sellers. Multiple pattern types, 104 themes, auto answer keys, 11 languages. Commercial license. Try free."
+- `picture-path.ts`: "Picture path maze generator for Etsy and KDP sellers. Themed visual paths, multiple layouts, auto answer keys. Commercial license. Try free."
+- `shadow-match.ts`: "Shadow match worksheet generator for Etsy and KDP sellers. 104 themed sets, answer keys, best-selling preschool format. Commercial license. Try free."
+- `subtraction.ts`: "Subtraction worksheet generator for Etsy and KDP sellers. Visual counting, themed images, auto answer keys, 11 languages. Commercial license. Try free."
+
+---
+
+## Commits C–J
+
+Further translation-queue entries will be appended by subsequent commits
+(FAQ splits, tools-page commercial-content collapse, internal linking
+rewrites). Re-run `git log -p frontend/config/app-content/en/` and
+`git log -p frontend/config/tool-content/en/` to see the diff for each
+string that needs propagation.

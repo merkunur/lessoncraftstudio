@@ -23,7 +23,7 @@ const content: AppContent = {
   },
 
   hero: {
-    title: 'Missing Pieces Generator — Stand Out on Etsy with Unique Printables',
+    title: 'Missing Pieces Puzzle Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Generate jigsaw-style puzzles where pieces are cut from images and solvers identify the correct numbered option — with 6 piece shapes, 1–5 missing pieces, 2–6 solution options including distractors, auto-generated answer keys, and visual-only design that works in every language.',
     description:
       'Missing piece puzzles are a distinctive format for Amazon KDP activity books — solvers identify which piece completes an image, building observation and visual discrimination skills that parents actively seek. This generator creates professional missing pieces worksheets with configurable grid sizes and automatic answer keys in under 3 minutes. Choose from 3,000+ themed illustrations across 104 collections to match any niche or seasonal trend. Every puzzle exports as a 300 DPI print-ready PDF with full commercial license for Etsy, Amazon KDP, or any marketplace. The purely visual format works worldwide without translation, and the unique puzzle type faces far less competition than standard worksheets. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

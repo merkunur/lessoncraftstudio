@@ -19,11 +19,11 @@ const content: AppContent = {
       'commercial license included',
     ],
     titleTag: 'Addition Worksheet Generator — Bulk Create KDP Activity Book Pages | LessonCraftStudio',
-    metaDescription: 'Generate professional addition worksheets for KDP activity books and Etsy bundles. 4 math modes, 104 image themes, auto answer keys. Commercial license included. Try free.',
+    metaDescription: 'Addition worksheet generator for Etsy and KDP sellers. 4 math modes, 104 image themes, auto answer keys, 11 languages. Try free with watermark.',
   },
 
   hero: {
-    title: 'Addition Worksheet Generator — Create & Sell on Etsy and KDP',
+    title: 'Addition Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Turn addition into a hands-on adventure with picture-based math worksheets.',
     description:
       'Create addition worksheets to sell on Etsy, Amazon KDP, or Teachers Pay Teachers — and generate them in under 3 minutes. This generator builds visual addition problems using themed images that kids love and parents buy. Choose from 3,000+ illustrations organized by theme, set your difficulty level, and export print-ready 300 DPI PDFs with answer keys automatically included. Every worksheet you create comes with a full commercial license — no attribution required, no royalty fees, no restrictions on where you sell. Whether you\'re launching your first Etsy printable shop or expanding an existing KDP activity book catalog, this tool replaces hours of manual design work with professional output that stands out in crowded marketplaces. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

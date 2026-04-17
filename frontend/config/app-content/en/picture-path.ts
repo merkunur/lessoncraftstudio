@@ -19,11 +19,11 @@ const content: AppContent = {
       'commercial license',
     ],
     titleTag: 'Picture Path Worksheet Generator — Maze-Style KDP Pages | LessonCraftStudio',
-    metaDescription: 'Generate picture path (maze-style) worksheets for KDP activity books. Themed visual paths, multiple layouts. Unique format for Etsy & KDP. Commercial license. Try free.',
+    metaDescription: 'Picture path maze generator for Etsy and KDP sellers. Themed visual paths, multiple layouts, auto answer keys. Commercial license. Try free.',
   },
 
   hero: {
-    title: 'Picture Path Generator — Create Maze Printables to Sell on Etsy',
+    title: 'Picture Path Maze Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Three game modes in one generator — Picture Pathway, Classic Maze, and Choose the Right Path — powered by an LPF (Longest Path First) maze algorithm with auto-generated answer keys, wall customization, and visual-only design that works globally without translation.',
     description:
       'Picture path mazes combine the timeless appeal of maze puzzles with themed images — solvers navigate paths to reach specific destinations, creating an engaging format that sells well on Etsy and in Amazon KDP activity books. This generator creates professional picture path worksheets with themed image destinations and automatic answer keys in under 3 minutes. Choose from 3,000+ illustrations across 104 collections to match any seasonal trend or interest niche. Every maze exports as a 300 DPI print-ready PDF with full commercial license for Etsy, Amazon KDP, or any marketplace. Maze activity books are a proven KDP category with consistent demand, and the picture path format adds visual appeal that standard line mazes lack. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

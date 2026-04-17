@@ -19,11 +19,11 @@ const content: AppContent = {
       'commercial license',
     ],
     titleTag: 'Pattern Train Worksheet Generator — KDP Math Readiness Books | LessonCraftStudio',
-    metaDescription: 'Generate pattern recognition train worksheets for KDP books. 5 pattern types (AB, AAB, ABB, ABC, AABB), themed images. Unique visual format. Commercial license. Try free.',
+    metaDescription: 'Pattern train worksheet generator for Etsy and KDP sellers. AB/AAB/ABB/ABC/AABB patterns, themed images, 11 languages. Commercial license. Try free.',
   },
 
   hero: {
-    title: 'Pattern Train Generator — Sell Unique Pattern Printables on Etsy',
+    title: 'Pattern Train Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Five pattern types — AB, AAB, ABB, ABC, AABB — displayed across 11 themed train wagons with adjustable clue count from 4 to 10 for precise difficulty control.',
     description:
       'Pattern recognition worksheets are essential early math products that sell consistently on Etsy -- parents and teachers use them to teach sequencing skills from preschool through first grade. This generator creates unique train-themed pattern activities where each train car displays an image in a repeating sequence, and solvers identify and continue the pattern. Choose from 3,000+ themed illustrations across 104 collections, configure pattern complexity, and export 300 DPI print-ready PDFs with automatic answer keys. Every worksheet includes full commercial license for Etsy, Amazon KDP, TPT, or any marketplace. The visual train format makes pattern practice engaging and visually distinctive in Etsy search results. Free to try with all features -- no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

@@ -19,11 +19,11 @@ const content: AppContent = {
       'bulk generation',
     ],
     titleTag: 'Code Addition Puzzle Generator — Unique KDP Activity Pages | LessonCraftStudio',
-    metaDescription: 'Generate crack-the-code addition puzzles for KDP activity books. A unique format competitors don\'t offer. 104 themes, answer keys included. Commercial license. Try free.',
+    metaDescription: 'Code addition puzzle generator for Etsy and KDP sellers. Crack-the-code math competitors don\'t offer. 104 themes, answer keys. Try free.',
   },
 
   hero: {
-    title: 'Code Addition Worksheet Maker — A Unique Printable Product for Sellers',
+    title: 'Code Addition Worksheet Generator — Create Printables to Sell on Etsy & KDP',
     tagline: 'Turn addition practice into a detective mission where every image hides a secret number.',
     description:
       'Most Etsy math printable shops sell the same addition drills everyone else offers. Code addition worksheets give you a competitive edge — they combine arithmetic with secret message decoding, creating a puzzle format that few sellers offer and buyers love. Students solve math problems to decode hidden words, making these worksheets both educational and genuinely fun. Generate unique crack-the-code math puzzles in under 3 minutes, export as 300 DPI print-ready PDFs with answer keys, and list them on Etsy, Amazon KDP, or TPT with the included commercial license. This is one of the lowest-competition niches in the educational printable market, and the combination format lets you price higher than standard math worksheets. Free to try with all features — no signup, no credit card. Downloads include a watermark; purchase a license to remove it.',

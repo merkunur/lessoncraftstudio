@@ -36,7 +36,7 @@ export default function AutoLaunchApp({
   useEffect(() => {
     if (!launched) {
       setLaunched(true);
-      const url = `/worksheet-generators/${sourceFile}?tier=free&locale=${locale}`;
+      const url = `/worksheet-generators/${sourceFile}?tier=free&locale=${locale}&utm_source=lcs&utm_medium=internal&utm_campaign=free_trial&utm_content=apps_page`;
       setTimeout(() => {
         window.open(url, '_blank');
         router.push(`/${locale}/apps`);

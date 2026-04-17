@@ -52,7 +52,7 @@ export default function AppContent({ appSlug, locale, appName }: AppContentProps
   const [iframeKey, setIframeKey] = useState(0);
 
   const htmlFile = appFileMap[appSlug] || `${appSlug}.html`;
-  const iframeUrl = `/worksheet-generators/${encodeURIComponent(htmlFile)}?locale=${selectedLocale}&tier=free`;
+  const iframeUrl = `/worksheet-generators/${encodeURIComponent(htmlFile)}?locale=${selectedLocale}&tier=free&utm_source=lcs&utm_medium=internal&utm_campaign=free_trial&utm_content=apps_page`;
 
   return (
     <div className="app-content-container">

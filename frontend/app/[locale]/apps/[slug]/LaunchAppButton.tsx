@@ -84,7 +84,7 @@ export default function LaunchAppButton({
   appName,
 }: LaunchAppButtonProps) {
   const handleLaunchApp = () => {
-    const url = `/worksheet-generators/${sourceFile}?tier=free&locale=${locale}`;
+    const url = `/worksheet-generators/${sourceFile}?tier=free&locale=${locale}&utm_source=lcs&utm_medium=internal&utm_campaign=free_trial&utm_content=apps_page`;
     window.open(url, '_blank');
   };
 

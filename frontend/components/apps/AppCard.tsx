@@ -11,7 +11,7 @@ interface AppCardProps {
 }
 
 export default function AppCard({ appName, htmlFile, detailSlug, locale, tryFreeLabel, detailsLabel, accentColor }: AppCardProps) {
-  const tryFreeUrl = `/worksheet-generators/${encodeURIComponent(htmlFile)}?tier=free&locale=${locale}`;
+  const tryFreeUrl = `/worksheet-generators/${encodeURIComponent(htmlFile)}?tier=free&locale=${locale}&utm_source=lcs&utm_medium=internal&utm_campaign=free_trial&utm_content=apps_index`;
 
   return (
     <div className="group bg-white rounded-xl border border-gray-200 p-5 hover:shadow-lg hover:border-gray-300 transition-all duration-200">

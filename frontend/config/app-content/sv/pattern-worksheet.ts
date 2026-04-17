@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa mönsterkompletteringsarbetsblad att sälja på Etsy eller sammanställa i arbetsböcker för Amazon KDP. Nio mönstertyper från AB till ABCD och två frågelägen — fyll-i-rutan och flerval — ger den bredaste variationen av mönsterövningar tillgänglig. Konfigurera 1–8 övningar per sida med oberoende mönstertyp, frågeläge och tema per övning. Arbetsbladen är helt visuella — säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Med nio mönstertyper kan du skapa produktlinjer per svårighetsnivå — från enkla AB-mönster för förskolan till komplexa ABCD-mönster för årskurs 2. Den svenska marknaden saknar professionella mönsterblad på Etsy. Automatiskt facit ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa mönsteruppgifter',
+
   howItWorks: {
     title: 'Hur du Skapar Mönsterarbetsblad i 5 Steg',
     steps: [

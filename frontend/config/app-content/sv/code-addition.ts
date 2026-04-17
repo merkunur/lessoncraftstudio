@@ -26,6 +26,8 @@ const content: AppContent = {
       'Skapa kodknäckningspussel med matte att sälja på Etsy och Amazon KDP — ett unikt produktformat som sticker ut bland vanliga additionsblad. Varje bild på arbetsbladet döljer ett hemligt nummer, och köparna löser additionsuppgifter för att knäcka koden. Byt till Avslöja Ord läget för att dölja ett hemligt ord — varje löst ekvation avslöjar en bokstav, medan tre vilseledande ekvationer höjer spänningen. Generatorn stöder elva språkspecifika alfabet med å, ä och ö inbyggt för svenska. Välj bland mer än 3 100 bilder i 104 teman, konfigurera talintervall från 1 till 20 med två till fem kodsymboler per arbetsblad, och exportera tryckfärdiga PDF:er i 400+ DPI med automatiska facit. Kodknäckningsformatet är oemotståndligt i produktminiatyrer på Etsy och särskiljer dina produkter från alla konkurrenter. Den svenska marknaden för pedagogiska pussel på Etsy är i princip obefintlig — du kan vara först. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa hemliga kodmeddelanden',
+
   howItWorks: {
     title: 'Hur du Skapar Kodadditions Arbetsblad i 5 Steg',
     steps: [

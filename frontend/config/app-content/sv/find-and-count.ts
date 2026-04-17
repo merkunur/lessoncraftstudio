@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa sök- och räkneblad att sälja på Etsy eller sammanställa i aktivitetsböcker för Amazon KDP. Två lägen: Dolda Objekt sprider bilder i ett konfigurerbart rutnät med fyra uppgiftstyper — ringa in, ruta, stryk över eller räkna. Bokstavsletning visar det svenska alfabetet med ÅÄÖ och genererar sökscener med bilder som börjar på den valda bokstaven — en unik produkt för den svenska marknaden. Generatorn är språkkänslig: samma bildtema producerar unika arbetsblad på 11 språk med lokaliserade etiketter. Automatiskt facit med visuella annoteringer ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Hitta och räkna-blad säljer konsekvent året runt och den svenska marknaden på Etsy har minimal konkurrens. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa hitta och räkna-uppgifter',
+
   howItWorks: {
     title: 'Hur du Skapar Hitta och Räkna Arbetsblad i 5 Steg',
     steps: [

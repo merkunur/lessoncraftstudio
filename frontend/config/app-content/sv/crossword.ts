@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa bildkorsord att sälja på Etsy eller sammanställa i korsordspusselböcker för Amazon KDP. Åtta bilder genererar åtta ord på ett 15×15-rutnät — bildledtrådarna gör att pusslen sticker ut bland textbaserade konkurrenter i sökresultat. Generatorn är språkkänslig: samma bilder producerar svenska korsord med \"KATT\", engelska med \"CAT\" och tyska med \"KATZE\" — vilket gör varje språkversion till en unik, säljbar produkt. Välj bland fyra inmatningsmetoder inklusive snabb temagenerering och anpassad ordlista. Automatiskt facit med ifyllt rutnät ingår. Exportera tryckfärdiga PDF:er i Letter och A4 med mer än 3 100 illustrationer i 104 teman. Korsordspussel med bilder på svenska för Etsy och KDP är en nisch med i princip noll konkurrens — var först. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa korsord',
+
   howItWorks: {
     title: 'Hur du Skapar Bildkorsordspussel i 5 Steg',
     steps: [

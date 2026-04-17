@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa bildbingokort att sälja på Etsy eller sammanställa i bingoaktivitetsböcker för Amazon KDP. Generera 1–10 unika kort per batch med konfigurerbara rutnät från 3×3 till 5×5 — perfekt för klasspaket och familjespel. ZIP batch-export laddar ner alla kort i en enda fil. Generatorn är språkkänslig: ordfyllning producerar unika bingokort på 11 språk med lokaliserade ord — varje språkversion blir en separat produkt. Bingokort med bilder är extremt populära bland föräldrar och förskollärare och säljer konsekvent. Den svenska marknaden för bildbingokort på Etsy saknar i princip konkurrenter. Välj bland mer än 3 100 illustrationer i 104 teman. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa bingokort',
+
   howItWorks: {
     title: 'Hur du Skapar Bildbingokort i 5 Steg',
     steps: [

@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa ordmix-pussel att sälja på Etsy eller sammanställa i ordpusselböcker för Amazon KDP. Köparna ser en bildledtråd och ordnar om blandade bokstavsplattor för att stava det korrekta ordet — ett engagerande format som bygger stavningsprecision och ordigenkänning. Fyra svårighetsnivåer styr hur många ledtrådsbokstäver som redan placerats — från inga ledtrådar till enkelt läge med hälften placerade. Vokal-konsonant-färgkodning är en unik funktion som särskiljer dina produkter. Eftersom Ordmix är språkkänsligt ändras målordet efter språk — \"dog\" blir \"hund\" på svenska — vilket gör varje språkversion till en unik produkt. Stöd för 11 språk, mer än 3 100 bilder i 104 teman, automatiskt facit och export i 400+ DPI. Den svenska marknaden för stavningspussel på Etsy har minimal konkurrens. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa omkastade bokstäver-uppgifter',
+
   howItWorks: {
     title: 'Hur du Skapar Ordmix-Arbetsblad i 5 Steg',
     steps: [

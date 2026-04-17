@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa mönsterigenkänningsblad med tågvagnar att sälja på Etsy eller sammanställa i arbetsböcker för Amazon KDP. 11 färgglada vagnar visar upprepande sekvenser — ett iögonfallande format som sticker ut i produktminiatyrer. Fem mönstertyper från AB till AABB täcker varje svårighetsnivå. Justera antalet ledtrådar från 4 till 10 för att skapa progressiva produktlinjer. Arbetsbladen är helt visuella — säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Tågformatet är unikt och särskiljer dina produkter från vanliga mönsterblad. Mönsterigenkänning är en av de mest efterfrågade förskolefärdigheterna — den svenska marknaden på Etsy saknar denna produkttyp. Automatiskt facit ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa mönsterserier',
+
   howItWorks: {
     title: 'Hur du Skapar Mönstertåg-Arbetsblad i 5 Steg',
     steps: [

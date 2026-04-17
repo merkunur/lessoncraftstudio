@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa labyrint- och vägarbetsblad att sälja på Etsy eller sammanställa i labyrintböcker för Amazon KDP. Tre spellägen: Bildväg med rutnät av bilder, Klassisk Labyrint med LPF-algoritm och konfigurerbara väggar, och Välj Rätt Väg med trevägs-labyrinter. Automatiskt facit med markerade lösningsvägar ingår. Labyrinter är helt visuella — kräver ingen läsning, fungerar globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Labyrintblad och labyrintböcker är konsekvent populära på Etsy och KDP — köpare söker aktivt efter engagerande labyrintaktiviteter. Den svenska marknaden saknar konkurrens. Exportera tryckfärdiga PDF:er i Letter, A4 och anpassade storlekar. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa labyrinter',
+
   howItWorks: {
     title: 'Hur du Skapar Labyrintarbetsblad i 5 Steg',
     steps: [

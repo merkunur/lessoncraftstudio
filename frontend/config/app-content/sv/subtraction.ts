@@ -29,6 +29,8 @@ const content: AppContent = {
       'Gör subtraktion till en säljbar produkt med en generator skapad för printables-entreprenörer. Skapa illustrerade subtraktionsblad med tematiska bilder från över 100 kategorier — djur, fordon, mat, natur — som gör matematiken engagerande och dina Etsy-annonser oemotståndliga. Varje arbetsblad exporteras som utskriftsklar PDF i 400+ DPI med automatiskt facit, redo att laddas upp på Etsy, sammanställas i en aktivitetsbok för Amazon KDP, eller erbjudas via din egen webbshop. Den kommersiella licensen ingår med varje arbetsblad. Välj mellan fyra övningslägen — Överstrykning, Bild − Tal, Hitta Subtrahenden och Blandat Läge — för att vägleda lärandet från förskola till årskurs 2. Lönsamt tips: kombinera addition och subtraktion i paket — säljare rapporterar betydligt högre genomsnittliga ordervärden med kombinerade mattepaket. Den svenska marknaden erbjuder enorm potential med minimal konkurrens. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa subtraktionsuppgifter',
+
   howItWorks: {
     title: 'Hur du Skapar Subtraktionsarbetsblad i 5 Steg',
     steps: [

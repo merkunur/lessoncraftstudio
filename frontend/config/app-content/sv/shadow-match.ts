@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa skuggkopplingsblad att sälja på Etsy eller sammanställa i visuell perception-arbetsböcker för Amazon KDP. Skuggmatchning-läget matchar färgade bilder med automatiskt genererade svarta siluetter. Gör Den Hel-läget delar bilder i halvor som köparna kopplar ihop. Båda lägena använder Fisher-Yates-derangering som garanterar genuina matchningsutmaningar. Automatiskt facit ingår. Arbetsbladen är rent visuella — samma produkt säljs globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Skuggmatchning är ett populärt format som förskollärare och föräldrar aktivt söker efter. Den svenska marknaden har minimal konkurrens för detta produktformat. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa skuggparuppgifter',
+
   howItWorks: {
     title: 'Hur du Skapar Skuggmatchnings Arbetsblad i 5 Steg',
     steps: [

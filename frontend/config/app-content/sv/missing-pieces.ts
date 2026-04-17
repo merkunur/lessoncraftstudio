@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa saknade bitar-pussel att sälja på Etsy eller sammanställa i pusselarbetsböcker för Amazon KDP. En bild har hål utklippta och köparna identifierar vilken numrerad bit som fyller varje lucka — ett engagerande format som tränar visuell diskriminering. Välj bland 6 bitformer och konfigurera 1–5 saknade bitar med 2–6 alternativ inklusive distraktorer. Automatiskt facit ingår. Pusslen är rent visuella — samma produkt säljs globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Saknade bitar-pussel är ett unikt produktformat som sticker ut bland konkurrenter och säljer bra som del av visuella perception-böcker på KDP. Den svenska marknaden saknar denna typ av produkter helt. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa pussel med saknade bitar',
+
   howItWorks: {
     title: 'Hur du Skapar Saknade Bitar-Pussel i 5 Steg',
     steps: [

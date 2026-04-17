@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa rutnätsritningsarbetsblad att sälja på Etsy eller sammanställa i ritfärdighetsarbetsböcker för Amazon KDP. Köparna reproducerar en referensbild cell-för-cell från ett ledtrådsrutnät till ett tomt övningsrutnät — ett populärt format som föräldrar och förskollärare älskar. Justera ledtrådsprocenten från 10% till 75% och konfigurera rutnät från 3×3 till 10×10. Tre symmetrilägen lägger till variation. Innehåll från 100+ svartvita konturteman med mer än 3 000 illustrationer. Arbetsbladen är rent visuella — säljbara globalt utan översättning. Rita och måla-blad är ett unikt format som särskiljer dina produkter. Den svenska marknaden saknar denna produkttyp på Etsy. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa rita och måla-uppgifter',
+
   howItWorks: {
     title: 'Hur du Skapar Rutnätsritningsarbetsblad i 5 Steg',
     steps: [

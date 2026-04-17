@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa målarbilder att sälja på Etsy eller sammanställa i målarböcker för Amazon KDP. Fri arbetsyta där du placerar bilder exakt var du vill — inga rutnät, inga mallar, ren kreativ frihet. Bläddra bland mer än 3 100 illustrationer i 104 teman, lägg till frihandsritningar och växla gråskaleexport för bläckvänliga målarbilder perfekta för KDP-interiörer. Målarbilder är en av de mest sökta och sålda produktkategorierna på Etsy — \"målarbilder för barn\" är ett av Sveriges mest populära utbildningssökord. Den svenska marknaden på Etsy har minimal konkurrens för professionella målarbilder. Arbetsbladen är rent visuella — samma produkt säljs globalt utan översättning. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa målarbilder',
+
   howItWorks: {
     title: 'Hur du Skapar Anpassade Målarbilder i 5 Steg',
     steps: [

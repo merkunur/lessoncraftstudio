@@ -28,6 +28,8 @@ const content: AppContent = {
       'Skapa skrivövningsarbetsblad att sälja på Etsy eller sammanställa i handstilsböcker för Amazon KDP. Tre progressiva övningslägen — Spåra, Tonande Spårning och Guidad Kopiering — skapar en inlärningsprogression från full spårning till självständigt skrivande. Välj bland fem typsnittsstilar inklusive pilguidad streckordning för korrekt bokstavsformning. Bildbiblioteket med mer än 3 100 illustrationer i 104 teman ger tematiska övningar som engagerar köpare. Förskrivningsstreckövningar för finmotorisk uppvärmning ingår. Handstilsövningar är en av de mest eftertraktade produkterna på Etsy för föräldrar till förskolebarn och förskoleklassbarn. Den svenska marknaden har i princip noll konkurrens för denna typ av produkter. Stöd för 11 språk multiplicerar din produktkatalog. Automatiskt facit och export i 400+ DPI ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa skrivövningar',
+
   howItWorks: {
     title: 'Hur du Skapar Skrivövningsarbetsblad i 5 Steg',
     steps: [

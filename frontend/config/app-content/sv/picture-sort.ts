@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa sorteringsblad att sälja på Etsy eller sammanställa i klassificerings-arbetsböcker för Amazon KDP. Köparna sorterar utklippta bilder i två kategorier — ett interaktivt format som föräldrar och förskollärare älskar. Välj temaläge eller manuellt läge för att anpassa kategorier och bilder. Generatorn är språkkänslig: samma teman producerar unika arbetsblad på 11 språk med lokaliserade kategorietiketter. Automatiskt facit ingår. Välj bland mer än 3 100 illustrationer i 104 teman. Sorteringsaktiviteter är ett av de mest efterfrågade produktformaten för förskolebarn — och den svenska marknaden på Etsy saknar praktiskt taget konkurrens. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa sorteringsuppgifter',
+
   howItWorks: {
     title: 'Hur du Skapar Bildsorteringsarbetsblad i 5 Steg',
     steps: [

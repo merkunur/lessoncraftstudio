@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa hitta och finn-arbetsblad att sälja på Etsy eller sammanställa i sökarbetsböcker för Amazon KDP. Två aktivitetslägen: Sökning sprider dolda objekt i en bildscen, och Hitta Udda Bilden blandar oparade bilder i rader. Automatiskt facit med röda cirklar ingår. Arbetsbladen är rent visuella utan text — samma produkt fungerar globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Dolda objekt-aktiviteter är enormt populära bland föräldrar och säljer konsekvent året runt. Den svenska marknaden för sökarbetsblad på Etsy saknar i princip konkurrenter. Exportera tryckfärdiga PDF:er i Letter och A4. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa leta och hitta-lekar',
+
   howItWorks: {
     title: 'Hur du Skapar Dolda Objekt Arbetsblad i 5 Steg',
     steps: [

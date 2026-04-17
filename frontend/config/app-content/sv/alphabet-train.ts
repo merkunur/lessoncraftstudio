@@ -28,6 +28,8 @@ const content: AppContent = {
       'Skapa alfabetståg arbetsblad att sälja på Etsy eller sammanställa i bokstavsböcker för Amazon KDP. 11 färgglada vagnar rullar över sidan, var och en med en bokstav kopplad till en matchande illustration — ett iögonfallande format som lockar köpare i produktminiatyrer. Stöd för 11 språk med egna alfabet — svenska med Å/Ä/Ö, tyska med Ä/Ö/Ü — multiplicerar din produktkatalog elva gånger. Bokstavsövningar för förskoleklass (6 år) är en av de mest efterfrågade produkterna bland svenska föräldrar. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit och export i 400+ DPI ingår. Den svenska marknaden saknar denna produkttyp på Etsy. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa alfabetsuppgifter',
+
   howItWorks: {
     title: 'Hur du Skapar Alfabetståg Arbetsblad i 5 Steg',
     steps: [

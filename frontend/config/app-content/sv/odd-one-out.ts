@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa hitta-den-annorlunda arbetsblad att sälja på Etsy eller sammanställa i kritiskt tänkande-arbetsböcker för Amazon KDP. Köparna identifierar och ringar in det udda objektet i varje rad av fyra bilder. Identiskt läge för hitta-skillnaden-utmaningar, Liknande läge för temaövergripande diskrimineringspussel. Konfigurera 5–10 övningar per sida. Arbetsbladen är helt visuella — säljbara globalt utan översättning. Välj bland mer än 3 100 illustrationer i 104 teman. Automatiskt facit med röda cirklar ingår. Vilken hör inte hemma-blad är ett populärt format bland föräldrar till förskolebarn och säljer konsekvent. Den svenska marknaden saknar denna produkttyp på Etsy. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa vilken hör inte hemma-uppgifter',
+
   howItWorks: {
     title: 'Hur du Skapar Hitta Udda Bilden Arbetsblad i 5 Steg',
     steps: [

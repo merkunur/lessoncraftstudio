@@ -27,6 +27,8 @@ const content: AppContent = {
       'Skapa jämförelsearbetsblad att sälja på Etsy eller sammanställa i matteaktivitetsböcker för Amazon KDP. Tre övningslägen — Bild till Bild, Bild till Tal och det unika läget Kontrollera och Kryssa Grupper — ger variation för produktlinjer per svårighetsnivå. Växla mellan samma och olika bilder, välj illustrationssymboler eller matematiska tecken. Välj bland mer än 3 100 illustrationer i 104 teman. Jämförelseblad är en grundläggande mattefärdighet som efterfrågas av föräldrar och förskollärare. Den svenska marknaden på Etsy har minimal konkurrens för visuella jämförelseblad. Automatiskt facit och export i 400+ DPI ingår. Kommersiell licens ingår. Gratis provversion med alla funktioner — nedladdningar innehåller en vattenstämpel; köp en licens för att ta bort den.',
   },
 
+  ctaHeading: 'Skapa större eller mindre-uppgifter',
+
   howItWorks: {
     title: 'Hur du Skapar Jämförelsearbetsblad i 5 Steg',
     steps: [

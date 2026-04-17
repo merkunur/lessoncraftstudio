@@ -23,6 +23,56 @@ const toolToWpApp: Record<string, string> = {
   'writing-app': 'writing',
 };
 
+// Category accent colors — matches the /apps index so /tools cards share the
+// same visual category-coding as their /apps siblings.
+const categoryColors: Record<string, string> = {
+  math: '#3B82F6',
+  literacy: '#10B981',
+  visual: '#F59E0B',
+  matching: '#8B5CF6',
+  puzzle: '#EF4444',
+  search: '#06B6D4',
+};
+
+// One-line descriptions per tool (EN only). Short, actionable, SEO-aware.
+// Used on the /en/tools card grid to help buyers scan categories and
+// helps each card rank for its primary longtail query.
+const TOOL_DESCRIPTIONS_EN: Record<string, string> = {
+  'image-addition': 'Image-based addition worksheets in 4 exercise modes',
+  'image-subtraction': 'Picture subtraction practice with auto answer keys',
+  'code-addition': 'Crack-the-code math puzzles with secret symbols',
+  'more-less': 'Visual greater-than/less-than comparison exercises',
+  'math-puzzle': 'Grid-based picture algebra puzzles',
+  'math-worksheet': 'Mixed-operation math drill practice pages',
+  'alphabet-train': 'ABC-themed train-car letter worksheets',
+  'prepositions': 'Visual spatial-word learning activities',
+  'word-guess': 'Hangman-style word guessing puzzles',
+  'word-scramble': 'Mix-and-unscramble word puzzles',
+  'word-search': 'Hidden-word puzzles with picture clues',
+  'cryptogram': 'Picture cipher code-breaking puzzles',
+  'writing': 'Handwriting practice with arrow-guided stroke order',
+  'big-small': 'Five question types for size comparison skills',
+  'pattern-train': 'Repeating pattern sequences on themed train cars',
+  'pattern-worksheet': 'Complete-the-pattern recognition exercises',
+  'draw-and-color': 'Dual-grid symmetry drawing practice',
+  'drawing-lines': 'Fine-motor tracing and line-drawing sheets',
+  'coloring': 'Free-form canvas coloring pages with image layouts',
+  'chart-count': 'Picture graph counting worksheets',
+  'matching': 'Beginning-letter, image, and word matching activities',
+  'grid-match': 'Tile-matching spatial puzzle grids',
+  'shadow-match': 'Silhouette-to-image matching exercises',
+  'bingo': 'Picture bingo cards with batch ZIP export',
+  'picture-sort': 'Cut-and-paste category sorting worksheets',
+  'missing-pieces': 'Jigsaw-style missing-piece picture puzzles',
+  'odd-one-out': 'Find-the-different-item from similar sets',
+  'sudoku': '4x4 picture sudoku for young solvers',
+  'picture-path': 'Maze puzzles with theme-based paths',
+  'find-and-count': 'I-Spy counting worksheets with hidden objects',
+  'find-objects': 'Hidden-object search puzzles',
+  'crossword': 'Picture crosswords on 15x15 grids',
+  'treasure-hunt': 'Directional treasure map puzzles',
+};
+
 const toolsKeywords: Record<string, string[]> = {
   en: ['free worksheet maker online', 'free printable generator', 'free worksheet generator', 'make worksheets online free', 'free word search maker', 'free math worksheet generator'],
   de: ['Arbeitsblatt Generator kostenlos', 'kostenlos Arbeitsblätter erstellen', 'Suchsel erstellen kostenlos', 'Kreuzworträtsel erstellen kostenlos', 'Rätsel Generator kostenlos'],
@@ -336,7 +386,7 @@ export default function ToolsListingPage({
   const isEnglish = locale === 'en';
 
   // Group tools by category (used for every locale; EN renders both business tools and the category grid)
-  const toolsByCategory: Record<string, Array<{ toolId: string; name: string; slug: string; image?: string }>> = {};
+  const toolsByCategory: Record<string, Array<{ toolId: string; name: string; slug: string; image?: string; description?: string; category: string }>> = {};
 
   for (const tool of toolPageSlugs) {
     const wpId = toolToWpApp[tool.toolId] || tool.toolId;
@@ -351,7 +401,10 @@ export default function ToolsListingPage({
 
     const heroSrc = showcaseConfigs[wpId]?.hero?.images?.[0]?.src;
     const image = heroSrc ? `https://www.lessoncraftstudio.com${encodeImagePath(heroSrc)}` : undefined;
-    toolsByCategory[category].push({ toolId: tool.toolId, name, slug, image });
+
+    // EN gets a one-line description. Other locales render name + color dot only.
+    const description = isEnglish ? TOOL_DESCRIPTIONS_EN[tool.toolId] : undefined;
+    toolsByCategory[category].push({ toolId: tool.toolId, name, slug, image, description, category });
   }
 
   const breadcrumbJsonLd = {
@@ -453,18 +506,25 @@ export default function ToolsListingPage({
               {Object.entries(APP_CATEGORIES).map(([catId, catData]) => {
                 const tools = toolsByCategory[catId];
                 if (!tools || tools.length === 0) return null;
+                const color = categoryColors[catId];
 
                 return (
                   <div key={catId} className="mb-10">
                     <h3 className="text-xl font-bold text-gray-900 mb-4">{content.categories[catId] || catData.name}</h3>
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                       {tools.map(tool => (
                         <Link
                           key={tool.toolId}
                           href={`/${locale}/tools/${tool.slug}`}
-                          className="p-4 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all text-center"
+                          className="group p-4 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all"
                         >
-                          <span className="text-sm font-medium text-gray-900">{tool.name}</span>
+                          <div className="flex items-center gap-2 mb-1.5">
+                            <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: color }} />
+                            <span className="text-sm font-semibold text-gray-900 group-hover:text-indigo-600 transition-colors">{tool.name}</span>
+                          </div>
+                          {tool.description && (
+                            <p className="text-xs text-gray-600 ml-4 leading-snug">{tool.description}</p>
+                          )}
                         </Link>
                       ))}
                     </div>
@@ -722,6 +782,7 @@ export default function ToolsListingPage({
               {Object.entries(APP_CATEGORIES).map(([catId, catData]) => {
                 const tools = toolsByCategory[catId];
                 if (!tools || tools.length === 0) return null;
+                const color = categoryColors[catId];
 
                 return (
                   <div key={catId} className="mb-12">
@@ -731,9 +792,12 @@ export default function ToolsListingPage({
                         <Link
                           key={tool.toolId}
                           href={`/${locale}/tools/${tool.slug}`}
-                          className="p-4 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all text-center"
+                          className="group p-4 bg-white border border-gray-200 rounded-lg hover:border-indigo-300 hover:shadow-sm transition-all"
                         >
-                          <span className="text-sm font-medium text-gray-900">{tool.name}</span>
+                          <div className="flex items-center gap-2">
+                            <span className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: color }} />
+                            <span className="text-sm font-medium text-gray-900 group-hover:text-indigo-600 transition-colors">{tool.name}</span>
+                          </div>
                         </Link>
                       ))}
                     </div>

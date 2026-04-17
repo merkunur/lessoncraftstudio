@@ -225,6 +225,33 @@ export const sharedUsageFAQs: Record<string, FAQ[]> = {
         'Den aktuella layouten finns endast i webbläsarens minne. Att stänga fliken rensar den. För att bevara ett arbetsblad mellan sessioner, ladda ner PDF och JPEG innan du stänger — att återimportera samma konfiguration stöds inte i den gratis webbläsarversionen. Om du regelbundet skapar satser av relaterade arbetsblad ger en licens också tillgång till sparade mallar.',
     },
   ],
+  da: [
+    {
+      question: 'Kræves der virkelig ingen tilmelding?',
+      answer:
+        'Korrekt: du kan åbne generatoren, vælge et tema, tilpasse sidelayoutet og downloade en PDF eller JPEG med vandmærke uden at oprette en konto. Ingen e-mail, intet kreditkort, ingen prøveperiode. Vandmærket er en lille etiket i hjørnet; selve arbejdsarkets indhold er identisk med den betalte version. Engangslicensen på 49 $ fjerner vandmærket og aktiverer kommercielle salgsrettigheder.',
+    },
+    {
+      question: 'Hvilke filformater kan jeg downloade?',
+      answer:
+        'Hvert arbejdsark eksporteres som udskriftsklar PDF på 400+ DPI og som JPEG i høj opløsning. PDF\'en bevarer vektortekst og skarpe billeder til ren udskrivning i enhver størrelse. JPEG\'en er nyttig til hurtige forhåndsvisninger, opslag på sociale medier og platforme, der foretrækker rasterbilleder. Begge formater downloades øjeblikkeligt efter klik på Eksporter.',
+    },
+    {
+      question: 'Virker generatoren på tablet, Chromebook eller ældre browsere?',
+      answer:
+        'Generatoren fungerer i enhver moderne browser: Chrome, Safari, Firefox og Edge, version 90 eller nyere. Den fungerer på Chromebooks, iPads og Android-tablets samt desktops. Ældre browsere (Internet Explorer, Chrome før version 90) understøttes ikke, da generatoren bruger moderne canvas- og skrifttypegengivelsesfunktioner. Ved visningsproblemer løser en browseropdatering det normalt.',
+    },
+    {
+      question: 'Hvilke sidestørrelser understøttes? Hvordan udskriver jeg A4 vs Letter?',
+      answer:
+        'Sidelayoutpanelet tilbyder Letter Stående, Letter Liggende, A4 Stående, A4 Liggende, Kvadrat og brugerdefinerede mål. Vælg den størrelse, der matcher din printer eller målmarked (A4 til de fleste europæiske og asiatiske markeder, Letter til Nordamerika). PDF-eksporten bevarer de nøjagtige valgte mål til en tro udskrift på enhver printer.',
+    },
+    {
+      question: 'Gemmes mine arbejdsark, hvis jeg lukker fanen?',
+      answer:
+        'Det aktuelle layout findes kun i browserens hukommelse. Lukning af fanen rydder det. For at bevare et arbejdsark mellem sessioner skal du downloade PDF og JPEG, før du lukker — reimport af samme konfiguration understøttes ikke i den gratis browserversion. Hvis du regelmæssigt laver batcher af relaterede arbejdsark, giver en licens også adgang til gemte skabeloner.',
+    },
+  ],
 };
 
 export function getSharedUsageFAQs(locale: string): FAQ[] {

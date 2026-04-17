@@ -225,6 +225,33 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Ja. Generatorn stöder 11 språk (engelska, tyska, franska, spanska, portugisiska, italienska, nederländska, svenska, danska, norska, finska), och varje språkversion räknas som en separat produkt under din licens. Många säljare mångdubblar intäkten per tema genom att exportera samma arbetsblad på varje språk och lista dem som separata produkter på Etsy eller KDP.',
     },
   ],
+  da: [
+    {
+      question: 'Hvad omfatter den kommercielle licens?',
+      answer:
+        'Hvert arbejdsark du genererer kommer med en fuld kommerciel licens — ingen navngivning påkrævet, ingen royalties, ingen grænse for antal enheder. Du kan sælge de oprettede arbejdsark på Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, din egen butik eller enhver anden markedsplads. Engangslicensen på 49 $ dækker ubegrænset kommerciel brug for én sælger eller virksomhed.',
+    },
+    {
+      question: 'Må jeg sælge arbejdsark på Etsy, Amazon KDP, Teachers Pay Teachers og Gumroad?',
+      answer:
+        'Ja, alle fire platforme er dækket af den kommercielle licens. Du kan sælge digitale downloads på Etsy, samle arbejdsark i trykte puslespils- og aktivitetsbøger til Amazon KDP, tilbyde klassepakker på Teachers Pay Teachers og distribuere printables via Gumroad eller din egen webshop. Licensen begrænser ikke hvilken markedsplads du sælger på.',
+    },
+    {
+      question: 'Hvad er tilbagebetalingspolitikken?',
+      answer:
+        'Vi tilbyder et 30-dages tilbagebetalingsvindue. Hvis du inden for de første 30 dage beslutter, at generatoren ikke passer til din produktlinje, så skriv til supporten, og vi behandler en fuld tilbagebetaling. Efter 30 dage håndteres tilbagebetalinger fra sag til sag ved materielle fejl eller problemer med værktøjet.',
+    },
+    {
+      question: 'Må jeg dele licensen med teammedlemmer eller medarbejdere?',
+      answer:
+        'Én licens dækker én sælgerkonto eller virksomhed. Hvis du driver enkeltmandsvirksomhed, dækker licensen dig og eventuelle virtuelle assistenter, der arbejder for din virksomhed. For teams med 3 eller flere personer, der genererer arbejdsark uafhængigt, kontakt supporten om teamlicenser — vi tilbyder rabatterede pakker til flere brugere.',
+    },
+    {
+      question: 'Må jeg sælge det samme arbejdsark på 11 sprog som separate produkter?',
+      answer:
+        'Ja. Generatoren understøtter 11 sprog (engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk, norsk, finsk), og hver sprogversion tæller som et separat produkt under din licens. Mange sælgere mangedobler omsætningen per tema ved at eksportere det samme arbejdsark på hvert sprog og liste dem som separate produkter på Etsy eller KDP.',
+    },
+  ],
 };
 
 export function getSharedCommercialFAQs(locale: string): FAQ[] {

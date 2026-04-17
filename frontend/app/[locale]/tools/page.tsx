@@ -498,6 +498,29 @@ export default function ToolsListingPage({
           {/* Non-EN: 33 generators grid (existing behavior) */}
           <section className="py-12 md:py-16">
             <div className="container mx-auto px-4 max-w-5xl">
+              {/* DE intro targeting "kostenlose Arbeitsblatt-Generatoren" /
+                  "Druckvorlagen erstellen online" queries. Other non-EN
+                  locales render nothing here until their own rounds. */}
+              {locale === 'de' && (
+                <div className="max-w-3xl mx-auto mb-12 space-y-4 text-gray-700 text-base leading-relaxed">
+                  <p>
+                    Kostenlose Arbeitsblatt-Generatoren erlauben Ihnen, druckbare Lernmaterialien für Klassenzimmer, Homeschooling oder den persönlichen Gebrauch direkt im Browser zu erstellen &mdash; ohne Software-Installation und ohne monatliches Abo. Jeder der 33 kostenlosen Generatoren unten liefert druckfertige PDFs und JPEGs, die Sie sofort herunterladen können.
+                  </p>
+                  <p>
+                    Ob Sie Lehrer sind und eine Nachhilfe-Stunde zusammenstellen, Eltern beim Homeschooling eine Einheit planen oder als Printable-Creator ein neues Format ausprobieren möchten, bevor Sie sich festlegen &mdash; diese Browser-Tools sind für Sie gemacht. Keine Kontoerstellung, kein Testzeitraum, keine Obergrenze bei der Anzahl Ihrer Arbeitsblätter. Thema wählen, Layout anpassen, exportieren &mdash; das ist der gesamte Ablauf.
+                  </p>
+                  <p>
+                    Das Wasserzeichen auf der kostenlosen Version ist der einzige Unterschied zur bezahlten Ausführung. Gittergrößen, Bildthemen, Schwierigkeitsstufen, Lösungsschlüssel und PDF-Auflösung sind identisch mit dem, was lizenzierte Verkäufer nutzen. Das Wasserzeichen macht die kostenlosen Arbeitsblätter für den kommerziellen Weiterverkauf ungeeignet, jedoch perfekt nutzbar für Unterrichtsmappen, Nachhilfe-Unterlagen, Hausaufgaben-Zusätze und persönliche Projekte.
+                  </p>
+                  <p>
+                    Alle 33 Generatoren unterstützen 11 Sprachen: Englisch, Deutsch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch. Bilder transportieren den Arbeitsblatt-Inhalt, sodass sich die meisten Ergebnisse beim Sprachwechsel automatisch übersetzen lassen.
+                  </p>
+                  <p>
+                    Bereit loszulegen? Durchstöbern Sie die Kategorien unten. Wenn Sie eine Printable-Produktlinie für Etsy oder Amazon KDP aufbauen und wasserzeichenfreie Downloads mit kommerzieller Lizenz benötigen, finden Sie im <Link href={`/${locale}/apps`} className="text-indigo-600 hover:text-indigo-700 underline font-medium">Apps-Bereich</Link> die lizenzierten Versionen aller Generatoren unten.
+                  </p>
+                </div>
+              )}
+
               {Object.entries(APP_CATEGORIES).map(([catId, catData]) => {
                 const tools = toolsByCategory[catId];
                 if (!tools || tools.length === 0) return null;

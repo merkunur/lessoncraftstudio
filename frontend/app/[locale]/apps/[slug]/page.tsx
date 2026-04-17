@@ -152,6 +152,8 @@ const uiStrings: Record<string, {
     pdfExport: 'Sofortiger PDF-Export',
     watermarkNote: 'Kostenlose Version enthält ein kleines Wasserzeichen. Kaufen Sie die Vollversion, um es zu entfernen.',
     startCreating: 'Jetzt loslegen',
+    pairedToolPrompt: 'Suchen Sie die kostenlose Browser-Version?',
+    pairedToolAnchor: 'Testen Sie das Maker-Tool — keine Anmeldung erforderlich.',
   },
   fr: {
     tryFree: 'Essayer gratuitement (avec filigrane)',

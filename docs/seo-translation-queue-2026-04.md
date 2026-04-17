@@ -383,3 +383,34 @@ automatically prepend the DE FAQs before the generator-specific ones.
 
 EN fallback remains active for the 9 other non-EN locales (fr, es, pt,
 it, nl, sv, da, no, fi) until their respective rounds land.
+
+## DE-D — DE uiStrings backlink + DE tools index intro
+
+### DE uiStrings additions (apps page)
+
+Two DE values added to the `uiStrings.de` block in
+`frontend/app/[locale]/apps/[slug]/page.tsx`:
+
+- `pairedToolPrompt: 'Suchen Sie die kostenlose Browser-Version?'`
+- `pairedToolAnchor: 'Testen Sie das Maker-Tool — keine Anmeldung erforderlich.'`
+
+These surface as the reciprocal /de/apps → /de/tools backlink section
+below the FAQ. EN fallback in JSX still covers the remaining locales
+until their rounds.
+
+### DE tools index intro
+
+A ~330-word German intro block was added to the non-EN branch of
+`frontend/app/[locale]/tools/page.tsx`, gated on `locale === 'de'`.
+Targets queries like "kostenlose Arbeitsblatt-Generatoren" and
+"Druckvorlagen erstellen online". Rendered between the section opening
+and the category grid.
+
+### KDP calculator cross-link — NOT added on DE
+
+Per the user-confirmed plan, the KDP Royalty Calculator / Cover Size
+Calculator cross-link block remains gated behind `locale === 'en'`
+because those two calculator pages are English-only. Adding a
+German-label block pointing at an English page would produce mixed-
+language content and a bad UX. When/if German calculator pages ship,
+widen the gate to include `de` and add German label/CTA strings.

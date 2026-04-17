@@ -171,6 +171,33 @@ export const sharedCommercialFAQs: Record<string, FAQ[]> = {
         'Sim. O gerador suporta 11 idiomas (inglês, alemão, francês, espanhol, português, italiano, holandês, sueco, dinamarquês, norueguês, finlandês), e cada versão por idioma conta como um produto distinto sob sua licença. Muitos vendedores multiplicam a receita por tema exportando a mesma atividade em cada idioma e listando-as como produtos separados na Hotmart, Etsy ou KDP.',
     },
   ],
+  nl: [
+    {
+      question: 'Wat omvat de commerciële licentie?',
+      answer:
+        'Elk werkblad dat u genereert komt met een volledige commerciële licentie — geen naamsvermelding vereist, geen royalty\'s, geen limiet op het aantal eenheden. U kunt de gemaakte werkbladen verkopen op Etsy, Amazon KDP, Teachers Pay Teachers, Gumroad, Creative Market, uw eigen winkel of elk ander platform. De eenmalige licentie van $ 49 dekt onbeperkt commercieel gebruik voor één verkoper of bedrijf.',
+    },
+    {
+      question: 'Mag ik werkbladen verkopen op Etsy, Amazon KDP, Teachers Pay Teachers en Gumroad?',
+      answer:
+        'Ja, alle vier de platforms zijn gedekt door de commerciële licentie. U kunt digitale downloads verkopen op Etsy, werkbladen bundelen tot gedrukte puzzel- en activiteitenboeken voor Amazon KDP, klaslokaalpakketten aanbieden op Teachers Pay Teachers en printables distribueren via Gumroad of uw eigen webshop. De licentie beperkt niet op welk platform u verkoopt.',
+    },
+    {
+      question: 'Wat is het retourbeleid?',
+      answer:
+        'We bieden een retourvenster van 30 dagen. Als u binnen de eerste 30 dagen besluit dat de generator niet bij uw productlijn past, neem dan contact op met support en we verwerken de volledige terugbetaling. Na 30 dagen worden retourzendingen per geval beoordeeld voor materiële defecten of problemen met de tool.',
+    },
+    {
+      question: 'Mag ik de licentie delen met teamleden of medewerkers?',
+      answer:
+        'Eén licentie dekt één verkopersaccount of bedrijf. Als u zelfstandig werkt, dekt de licentie u en alle virtuele assistenten die voor uw bedrijf werken. Voor teams van 3 of meer personen die onafhankelijk werkbladen genereren, neem contact op met support voor teamlicenties — we bieden pakketten met meerdere gebruikers tegen een gereduceerd tarief.',
+    },
+    {
+      question: 'Mag ik hetzelfde werkblad in 11 talen als aparte producten verkopen?',
+      answer:
+        'Ja. De generator ondersteunt 11 talen (Engels, Duits, Frans, Spaans, Portugees, Italiaans, Nederlands, Zweeds, Deens, Noors, Fins), en elke taalversie telt als een apart product onder uw licentie. Veel verkopers vermenigvuldigen hun omzet per thema door hetzelfde werkblad in elke taal te exporteren en als aparte producten op Etsy of KDP te plaatsen.',
+    },
+  ],
 };
 
 export function getSharedCommercialFAQs(locale: string): FAQ[] {

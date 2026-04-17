@@ -171,6 +171,33 @@ export const sharedUsageFAQs: Record<string, FAQ[]> = {
         'O layout atual permanece apenas na memória do navegador. Fechar a aba apaga tudo. Para preservar uma atividade entre sessões, baixe o PDF e o JPEG antes de fechar: reimportar a mesma configuração não é suportado na versão gratuita do navegador. Se você cria lotes de atividades relacionadas com frequência, a licença também dá acesso a modelos salvos.',
     },
   ],
+  nl: [
+    {
+      question: 'Is er echt geen registratie nodig?',
+      answer:
+        'Klopt: u kunt de generator openen, een thema kiezen, de pagina-indeling aanpassen en een PDF of JPEG met watermerk downloaden zonder een account aan te maken. Geen e-mail, geen creditcard, geen proefperiode. Het watermerk is een klein label in de hoek; de inhoud van het werkblad is identiek aan de betaalde versie. Een eenmalige licentie van $ 49 verwijdert het watermerk en activeert commerciële verkooprechten.',
+    },
+    {
+      question: 'Welke bestandsformaten kan ik downloaden?',
+      answer:
+        'Elk werkblad wordt geëxporteerd als afdrukklaar PDF op 400+ DPI en als JPEG in hoge resolutie. Het PDF behoudt vectorteksten en scherpe afbeeldingen voor heldere afdrukken in elk formaat. Het JPEG is handig voor snelle previews, sociale media posts en platforms die rasterafbeeldingen verkiezen. Beide formaten worden direct gedownload na een klik op Exporteren.',
+    },
+    {
+      question: 'Werkt de generator op tablet, Chromebook of oudere browser?',
+      answer:
+        'De generator werkt in elke moderne browser: Chrome, Safari, Firefox en Edge, versie 90 of hoger. Hij werkt op Chromebooks, iPads en Android-tablets naast desktops. Oudere browsers (Internet Explorer, Chrome vóór 90) worden niet ondersteund omdat de generator moderne canvas- en font-rendering-functies gebruikt. Bij weergaveproblemen lost het bijwerken van de browser het meestal op.',
+    },
+    {
+      question: 'Welke paginaformaten worden ondersteund? Hoe print ik A4 vs Letter?',
+      answer:
+        'Het paneel Pagina-indeling biedt Letter Staand, Letter Liggend, A4 Staand, A4 Liggend, Vierkant en aangepaste afmetingen. Kies het formaat dat bij uw printer of doelmarkt past (A4 voor de meeste Europese en Aziatische markten, Letter voor Noord-Amerika). De PDF-export bewaart de exacte gekozen afmetingen voor een exacte afdruk op elke printer.',
+    },
+    {
+      question: 'Worden mijn werkbladen bewaard als ik het tabblad sluit?',
+      answer:
+        'De huidige pagina-indeling blijft alleen in het geheugen van de browser. Het tabblad sluiten wist alles. Om een werkblad te bewaren tussen sessies, download het PDF en JPEG voordat u sluit — dezelfde configuratie opnieuw importeren wordt niet ondersteund in de gratis browserversie. Als u regelmatig lotten gerelateerde werkbladen maakt, geeft een licentie ook toegang tot opgeslagen sjablonen.',
+    },
+  ],
 };
 
 export function getSharedUsageFAQs(locale: string): FAQ[] {

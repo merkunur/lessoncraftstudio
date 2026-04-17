@@ -1000,9 +1000,12 @@ export default async function AppDetailPage({
   // Visual showcase sections — EN + DE, config-driven per app
   const showcaseConfig = (locale === 'en' || locale === 'de' || locale === 'fr' || locale === 'es' || locale === 'pt' || locale === 'it' || locale === 'nl' || locale === 'sv' || locale === 'da' || locale === 'no' || locale === 'fi') ? getShowcaseConfig(wpAppId, locale) : null;
 
-  // Build the app launch URL
-  const htmlFile = appFileMap[appConfig.appId] || `${appConfig.appId}.html`;
-  const launchUrl = `/worksheet-generators/${encodeURIComponent(htmlFile)}?locale=${locale}&tier=free`;
+  // Build the app launch URL. appFileMap may contain filenames with
+  // literal spaces (mirroring the protected filesystem). We emit hyphenated
+  // URLs for cleaner SEO; next.config.js redirects them to the actual
+  // space-containing file on the server.
+  const htmlFile = (appFileMap[appConfig.appId] || `${appConfig.appId}.html`).replace(/ /g, '-');
+  const launchUrl = `/worksheet-generators/${htmlFile}?locale=${locale}&tier=free`;
 
   // Paired /tools/*-maker slug for the reciprocal "free browser version" backlink.
   const pairedToolSlug = getToolSlugForApp(appConfig.appId, locale as SupportedLocale);

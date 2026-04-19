@@ -94,15 +94,29 @@ discovered during the original coloring.html integration (2026-04-18 to
    the previously-tracked `dePageBgObject` **from the canvas it actually
    lives on** (tracked via `dePageBgCanvas`, not `getCanvas()` — the user
    may have switched tabs since). Do not just set opacity=0.
-7a. **Backgrounds must STAY at z-index 0 after new content is added.**
-    `cv.sendToBack(img)` only orders at insertion time. When a worksheet
-    generator later adds new objects, the bg ends up layered above them.
-    Fix: attach a one-shot `object:added` listener per canvas via
-    `attachBgGuard(cv)`; whenever any other object is added, re-send the
-    bg to the back. Defer via `setTimeout(..., 0)` so the generator's
-    batch of adds all settle first, then one `sendToBack` cleans up.
-    Guard for re-entrance with a `cv.__deBgGuardAttached` flag so the
-    listener is only installed once per canvas.
+7a. **Backgrounds must STAY at z-index 0 after new content is added —
+    on EVERY canvas, not just the one where the bg was first applied.**
+    The naive fix (per-canvas `object:added` listener via `attachBgGuard`)
+    only covers the canvas the user explicitly applied the bg to. It
+    fails when:
+    - The worksheet generator populates the answer-key canvas
+      (which may never have been touched by our IIFE).
+    - An app clones worksheet objects to the answer-key canvas; the
+      cloned bg image ends up added last (topmost) on the answer-key
+      canvas, and no guard is listening there.
+    **Actual fix (applied once per page load, IIFE top):**
+    - Monkey-patch `fabric.Canvas.prototype._onObjectAdded` so every
+      fabric canvas auto-enforces the z-order: whenever any non-bg
+      object is added, scan for `isDeBackground`-marked objects and
+      `sendToBack` them. Defer via `setTimeout(0)` so the generator's
+      batch of adds all settle first.
+    - Monkey-patch `fabric.Object.prototype.toObject` to include
+      `isDeBackground` in serialization, so the marker survives
+      `clone()` / `loadFromJSON()`. Without this, apps that clone
+      worksheet→answer-key would strip the marker.
+    - Mark the pattern/texture image with `isDeBackground: true` via
+      `img.set({..., isDeBackground: true})`.
+    Both patches are idempotent (guarded by `__deBgPatched` flag).
 8. **Corner ornaments need flipX/flipY**: the same SVG is placed 4× into
    the corners, mirrored so each ornament points inward.
 

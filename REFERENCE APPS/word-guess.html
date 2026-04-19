@@ -3799,6 +3799,40 @@ async function downloadPDF(canvasToExport, fileName = 'download') {
   'use strict';
 
   // ====================================================================
+  // Fabric.js global patch: keep any object marked isDeBackground at
+  // z-index 0 on EVERY canvas, not just the one where the user first
+  // applied the background. Needed because some worksheet generators
+  // populate the answer-key canvas (or clone worksheet objects to it),
+  // and the per-canvas attachBgGuard below only sees its own canvas.
+  // Idempotent — only runs once per page load.
+  // ====================================================================
+  if (typeof fabric !== 'undefined' && fabric.Canvas && !fabric.Canvas.prototype.__deBgPatched) {
+    fabric.Canvas.prototype.__deBgPatched = true;
+    const __deOrigOnObjectAdded = fabric.Canvas.prototype._onObjectAdded;
+    fabric.Canvas.prototype._onObjectAdded = function(obj) {
+      __deOrigOnObjectAdded.call(this, obj);
+      if (!obj || obj.isDeBackground) return;
+      const self = this;
+      setTimeout(() => {
+        const objs = self.getObjects();
+        for (const o of objs) {
+          if (o && o.isDeBackground && objs.indexOf(o) !== 0) {
+            self.sendToBack(o);
+            self.renderAll();
+            break;
+          }
+        }
+      }, 0);
+    };
+    // Preserve isDeBackground through toObject / clone so objects copied
+    // from one canvas to another keep their bg-marker.
+    const __deOrigToObject = fabric.Object.prototype.toObject;
+    fabric.Object.prototype.toObject = function(props) {
+      return __deOrigToObject.call(this, (props || []).concat(['isDeBackground']));
+    };
+  }
+
+  // ====================================================================
   // DESIGN_ELEMENTS data — SVG strings organized by category
   // ====================================================================
   const DESIGN_ELEMENTS = {
@@ -4030,7 +4064,8 @@ async function downloadPDF(canvasToExport, fileName = 'download') {
       img.set({
         left: 0, top: 0, originX:'left', originY:'top',
         selectable: false, evented: false, hoverCursor:'default',
-        opacity: dePageBgOpacity
+        opacity: dePageBgOpacity,
+        isDeBackground: true
       });
       img.scaleX = W / (img.width || 1);
       img.scaleY = H / (img.height || 1);
@@ -4067,7 +4102,8 @@ async function downloadPDF(canvasToExport, fileName = 'download') {
       img.set({
         left: 0, top: 0, originX:'left', originY:'top',
         selectable: false, evented: false, hoverCursor:'default',
-        opacity: dePageBgOpacity
+        opacity: dePageBgOpacity,
+        isDeBackground: true
       });
       img.scaleX = W / (img.width || 1);
       img.scaleY = H / (img.height || 1);

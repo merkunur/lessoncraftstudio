@@ -395,6 +395,7 @@ These elements back the "Design Elements" accordion in the coloring worksheet ge
 - **DB table:** `design_elements` (Prisma model: `DesignElement` in `frontend/prisma/schema.prisma`)
 - **API routes:** `frontend/app/api/design-elements/` (list, upload, [slug], reorder, palettes, manifest/regenerate)
 - **Health endpoint:** `/api/health/design-elements`
+- **Integration guide (READ BEFORE porting to another app):** `docs/reference/design-elements-integration.md` — lists all 22 bugs discovered during the coloring.html integration that must not be repeated.
 
 ### Server File Structure
 ```

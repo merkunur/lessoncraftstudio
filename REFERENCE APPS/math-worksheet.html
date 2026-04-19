@@ -5151,6 +5151,7 @@
   // State
   // ====================================================================
   let dePageBgObject = null;   // reference to current background fabric object
+  let dePageBgCanvas = null;   // canvas that currently holds the background
   let dePageBgOpacity = 1;
   window.deActivePalette = null;
 
@@ -5218,7 +5219,7 @@
   function setPagePattern(svgString) {
     const cv = getCanvas();
     if (!cv) { console.warn('canvas not ready'); return; }
-    if (dePageBgObject) { cv.remove(dePageBgObject); dePageBgObject = null; }
+    if (dePageBgObject && dePageBgCanvas) { dePageBgCanvas.remove(dePageBgObject); dePageBgCanvas.renderAll(); dePageBgObject = null; dePageBgCanvas = null; }
 
     const { width: W, height: H } = getLogicalSize(cv);
     let modified = svgString
@@ -5250,6 +5251,8 @@
       cv.add(img);
       cv.sendToBack(img);
       dePageBgObject = img;
+      dePageBgCanvas = cv;
+      attachBgGuard(cv);
       cv.renderAll();
     });
   }
@@ -5258,7 +5261,7 @@
   function setPageTexture(svgString) {
     const cv = getCanvas();
     if (!cv) { console.warn('canvas not ready'); return; }
-    if (dePageBgObject) { cv.remove(dePageBgObject); dePageBgObject = null; }
+    if (dePageBgObject && dePageBgCanvas) { dePageBgCanvas.remove(dePageBgObject); dePageBgCanvas.renderAll(); dePageBgObject = null; dePageBgCanvas = null; }
 
     const { width: W, height: H } = getLogicalSize(cv);
     // Strip ALL existing width/height/preserveAspectRatio and add new (avoiding duplicate attributes)
@@ -5285,26 +5288,26 @@
       cv.add(img);
       cv.sendToBack(img);
       dePageBgObject = img;
+      dePageBgCanvas = cv;
+      attachBgGuard(cv);
       cv.renderAll();
     });
   }
 
   function clearPageBackground() {
-    const cv = getCanvas();
-    if (!cv) return;
-    if (dePageBgObject) {
-      cv.remove(dePageBgObject);
-      dePageBgObject = null;
-      cv.renderAll();
+    if (dePageBgObject && dePageBgCanvas) {
+      dePageBgCanvas.remove(dePageBgObject);
+      dePageBgCanvas.renderAll();
     }
+    dePageBgObject = null;
+    dePageBgCanvas = null;
   }
 
   function updateBgOpacity(v) {
     dePageBgOpacity = v / 100;
-    const cv = getCanvas();
-    if (cv && dePageBgObject) {
+    if (dePageBgObject && dePageBgCanvas) {
       dePageBgObject.set('opacity', dePageBgOpacity);
-      cv.renderAll();
+      dePageBgCanvas.renderAll();
     }
   }
 
@@ -5554,6 +5557,25 @@
       width:  (cv ? cv.getWidth()  : 612) / zoom,
       height: (cv ? cv.getHeight() : 792) / zoom
     };
+  }
+
+  // Ensure the design-element background stays at z-index 0 whenever any
+  // other object is added to its canvas (e.g., when the worksheet generator
+  // creates new content after a background was applied).
+  function attachBgGuard(cv) {
+    if (!cv || cv.__deBgGuardAttached) return;
+    cv.__deBgGuardAttached = true;
+    cv.on('object:added', (e) => {
+      if (!dePageBgObject || dePageBgCanvas !== cv) return;
+      if (e.target === dePageBgObject) return;
+      setTimeout(() => {
+        if (dePageBgObject && dePageBgCanvas === cv &&
+            cv.getObjects().indexOf(dePageBgObject) !== 0) {
+          cv.sendToBack(dePageBgObject);
+          cv.renderAll();
+        }
+      }, 0);
+    });
   }
 
   // Replace addElement's `canvas` references to use getCanvas()

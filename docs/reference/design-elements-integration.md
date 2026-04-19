@@ -91,7 +91,18 @@ discovered during the original coloring.html integration (2026-04-18 to
    `selectable:false, evented:false, hoverCursor:'default'`, then
    `cv.sendToBack(img)`.
 7. **Replace, don't stack backgrounds**: before adding a new one, remove
-   the previously-tracked `dePageBgObject`. Do not just set opacity=0.
+   the previously-tracked `dePageBgObject` **from the canvas it actually
+   lives on** (tracked via `dePageBgCanvas`, not `getCanvas()` — the user
+   may have switched tabs since). Do not just set opacity=0.
+7a. **Backgrounds must STAY at z-index 0 after new content is added.**
+    `cv.sendToBack(img)` only orders at insertion time. When a worksheet
+    generator later adds new objects, the bg ends up layered above them.
+    Fix: attach a one-shot `object:added` listener per canvas via
+    `attachBgGuard(cv)`; whenever any other object is added, re-send the
+    bg to the back. Defer via `setTimeout(..., 0)` so the generator's
+    batch of adds all settle first, then one `sendToBack` cleans up.
+    Guard for re-entrance with a `cv.__deBgGuardAttached` flag so the
+    listener is only installed once per canvas.
 8. **Corner ornaments need flipX/flipY**: the same SVG is placed 4× into
    the corners, mirrored so each ornament points inward.
 
